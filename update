@@ -1,0 +1,15 @@
+#!/usr/bin/env nix-shell
+#! nix-shell -i bash -p curl jq nix
+set -euxo pipefail
+
+function update_repo() {
+    repo=$1
+    echo $repo
+
+    commit_sha=$(curl "https://api.github.com/repos/ch11ng/$repo/commits?sha=master" | jq -r 'first.sha')
+    digest=$(nix-prefetch-url --unpack "https://github.com/ch11ng/$repo/archive/${commit_sha}.tar.gz")
+    echo "{\"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\"}" > repos/$repo.json
+}
+
+update_repo exwm
+update_repo xelb
