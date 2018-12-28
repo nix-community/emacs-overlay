@@ -1,12 +1,12 @@
 #!/usr/bin/env nix-shell
-#! nix-shell -i bash -p curl jq nix
+#! nix-shell -i bash -p curl xmlstarlet nix coreutils
 set -euxo pipefail
 
 function update_repo() {
     repo=$1
     echo $repo
 
-    commit_sha=$(curl "https://api.github.com/repos/ch11ng/$repo/commits?sha=master" | jq -r 'first.sha')
+    commit_sha=$(curl "https://github.com/ch11ng/$repo/commits/master.atom" | xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -m /atom:feed/atom:entry -v atom:id -n | head -n 1 | cut -d '/' -f 2)
     digest=$(nix-prefetch-url --unpack "https://github.com/ch11ng/$repo/archive/${commit_sha}.tar.gz")
     echo "{\"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\"}" > repos/$repo.json
 }
