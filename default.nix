@@ -24,7 +24,7 @@ in {
       xelb = melpaBuild {
         pname   = "xelb";
         ename   = "xelb";
-        version = "0.15";
+        version = "9999";
         recipe  = builtins.toFile "recipe" ''
           (xelb :fetcher github
                 :repo "ch11ng/xelb")
@@ -38,7 +38,7 @@ in {
       exwm = melpaBuild {
         pname   = "exwm";
         ename   = "exwm";
-        version = "0.19";
+        version = "9999";
         recipe  = builtins.toFile "recipe" ''
           (exwm :fetcher github
                 :repo "ch11ng/exwm")
