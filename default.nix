@@ -33,6 +33,8 @@ in {
         packageRequires = [ cl-generic super.emacs ];
 
         src = mkSrc "xelb";
+
+        patches = [ ./0001-Fix-startup-using-non-posix-shells.patch ];
       };
     in {
       exwm = melpaBuild {
