@@ -9,12 +9,18 @@ let
     sha256 = hashes.sha256;
   });
 
+  # TODO: Figure out how to avoid awkward nixpkgs import
+  emacsWithPackages = import <nixpkgs/pkgs/build-support/emacs/wrapper.nix> (with super; {
+    inherit (xorg) lndir;
+    inherit lib makeWrapper stdenv runCommand;
+  });
 
 in {
   # emacsPackagesNgFor = emacs: (super.emacsPackagesFor emacs // overridenAttrs);
   emacsPackagesNgFor = emacs: let
     emacsPackagesNg = super.emacsPackagesNgFor emacs;
-    overridenAttrs = (with emacsPackagesNg; let
+
+    overridenAttrs = emacsPackagesNg // (with emacsPackagesNg; let
       xelb = melpaBuild {
         pname   = "xelb";
         ename   = "xelb";
@@ -43,5 +49,7 @@ in {
         src = mkSrc "exwm";
      };
     });
-  in emacsPackagesNg // overridenAttrs;
+  in overridenAttrs // {
+    emacsWithPackages = emacsWithPackages overridenAttrs;
+  };
 }
