@@ -19,3 +19,5 @@ function update_repo() {
 
 update_repo exwm
 update_repo xelb
+
+nix-build --no-out-link --show-trace ./test.nix

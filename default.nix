@@ -32,7 +32,6 @@ in {
     overridenAttrs = emacsPackagesNg // (with emacsPackagesNg; let
       xelb = mkExDrv emacsPackagesNg "xelb" {
         packageRequires = [ cl-generic emacs ];
-        patches = [ ./0001-Fix-startup-using-non-posix-shells.patch ];
       };
       exwm = mkExDrv emacsPackagesNg "exwm" {
         packageRequires = [ xelb ];
