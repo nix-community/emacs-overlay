@@ -36,8 +36,11 @@ in {
       exwm = mkExDrv emacsPackagesNg "exwm" {
         packageRequires = [ xelb ];
       };
+      exim = mkExDrv emacsPackagesNg "exim" {
+        packageRequires = [ xelb ];
+      };
     in {
-      inherit exwm xelb;
+      inherit exwm xelb exim;
     });
   in overridenAttrs // {
     emacsWithPackages = emacsWithPackages overridenAttrs;
