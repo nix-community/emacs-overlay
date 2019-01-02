@@ -1,11 +1,5 @@
 self: super:
 let
-  # TODO: Figure out how to avoid awkward nixpkgs import
-  emacsWithPackages = import <nixpkgs/pkgs/build-support/emacs/wrapper.nix> (with super; {
-    inherit (xorg) lndir;
-    inherit lib makeWrapper stdenv runCommand;
-  });
-
   mkExDrv = emacsPackagesNg: name: args: let
     repoMeta = super.lib.importJSON (./. + "/repos/${name}.json");
   in emacsPackagesNg.melpaBuild (args // {
@@ -22,27 +16,19 @@ let
         repo   = name;
         inherit (repoMeta) rev sha256;
       };
-
   });
 
 in {
-  emacsPackagesNgFor = emacs: let
-    emacsPackagesNg = super.emacsPackagesNgFor emacs;
-
-    overridenAttrs = emacsPackagesNg // (with emacsPackagesNg; let
-      xelb = mkExDrv emacsPackagesNg "xelb" {
-        packageRequires = [ cl-generic emacs ];
+  emacsPackagesNgFor = emacs:
+    (super.emacsPackagesNgFor emacs).overrideScope'(eself: esuper: {
+      xelb = mkExDrv eself "xelb" {
+        packageRequires = [ eself.cl-generic eself.emacs ];
       };
-      exwm = mkExDrv emacsPackagesNg "exwm" {
-        packageRequires = [ xelb ];
+      exwm = mkExDrv eself "exwm" {
+        packageRequires = [ eself.xelb ];
       };
-      exim = mkExDrv emacsPackagesNg "exim" {
-        packageRequires = [ xelb ];
+      exim = mkExDrv eself "exim" {
+        packageRequires = [ eself.xelb ];
       };
-    in {
-      inherit exwm xelb exim;
     });
-  in overridenAttrs // {
-    emacsWithPackages = emacsWithPackages overridenAttrs;
-  };
 }
