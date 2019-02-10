@@ -27,8 +27,5 @@ in {
       exwm = mkExDrv eself "exwm" {
         packageRequires = [ eself.xelb ];
       };
-      exim = mkExDrv eself "exim" {
-        packageRequires = [ eself.xelb ];
-      };
     });
 }
