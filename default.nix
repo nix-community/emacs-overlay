@@ -3,29 +3,28 @@ let
   mkExDrv = emacsPackagesNg: name: args: let
     repoMeta = super.lib.importJSON (./. + "/repos/${name}.json");
   in emacsPackagesNg.melpaBuild (args // {
-      pname   = name;
-      ename   = name;
-      version = repoMeta.version;
-      recipe  = builtins.toFile "recipe" ''
-        (${name} :fetcher github
-          :repo "ch11ng/${name}")
-      '';
+    pname   = name;
+    ename   = name;
+    version = repoMeta.version;
+    recipe  = builtins.toFile "recipe" ''
+      (${name} :fetcher github
+      :repo "ch11ng/${name}")
+    '';
 
-      src = super.fetchFromGitHub {
-        owner  = "ch11ng";
-        repo   = name;
-        inherit (repoMeta) rev sha256;
-      };
+    src = super.fetchFromGitHub {
+      owner  = "ch11ng";
+      repo   = name;
+      inherit (repoMeta) rev sha256;
+    };
   });
 
 in {
 
   emacsGit = let
     repoMeta = super.lib.importJSON (./. + "/repos/emacs.json");
-    name = "emacs-git-${version}";
-    version = builtins.substring 0 7 repoMeta.rev;
   in (super.emacs.override { srcRepo = true; }).overrideAttrs(old: {
-    inherit name version;
+    name = "emacs-git-${repoMeta.version}";
+    inherit (repoMeta) version;
     src = super.fetchFromGitHub {
       owner = "emacs-mirror";
       repo = "emacs";
