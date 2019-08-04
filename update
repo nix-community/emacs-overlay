@@ -18,8 +18,16 @@ function update_repo() {
     echo "{\"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > repos/$repo.json
 }
 
+function update_melpa() {
+    cd repos
+    eval $(nix-instantiate --eval --expr 'let nixpath = builtins.toString (import <nixpkgs> {}).path; in "${nixpath}/pkgs/applications/editors/emacs-modes/update-melpa"')
+    cd -
+}
+
 update_repo ch11ng exwm
 update_repo ch11ng xelb
 update_repo emacs-mirror emacs
+
+update_melpa
 
 nix-build --no-out-link --show-trace ./test.nix

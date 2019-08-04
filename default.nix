@@ -1,5 +1,6 @@
 self: super:
 let
+
   mkExDrv = emacsPackagesNg: name: args: let
     repoMeta = super.lib.importJSON (./. + "/repos/${name}.json");
   in emacsPackagesNg.melpaBuild (args // {
@@ -36,14 +37,31 @@ in {
     ];
   });
 
-  emacsPackagesNgFor = emacs:
-    (super.emacsPackagesNgFor emacs).overrideScope'(eself: esuper: {
+  emacsPackagesNgFor = emacs: (
+    (super.emacsPackagesNgFor emacs).overrideScope'(eself: esuper: let
+
+      melpaStablePackages = esuper.melpaStablePackages.override {
+        archiveJson = ./repos/recipes-archive-melpa.json;
+      };
+
+      melpaPackages = esuper.melpaPackages.override {
+        archiveJson = ./repos/recipes-archive-melpa.json;
+      };
+
+      # TODO: Org/elpa packages
+
+      epkgs = esuper.override {
+        inherit melpaStablePackages melpaPackages;
+      };
+
+    in epkgs // {
       xelb = mkExDrv eself "xelb" {
         packageRequires = [ eself.cl-generic eself.emacs ];
       };
+
       exwm = mkExDrv eself "exwm" {
         packageRequires = [ eself.xelb ];
       };
-    });
+    }));
 
 }
