@@ -1,0 +1,37 @@
+[[https://travis-ci.org/adisbladis/exwm-overlay][https://api.travis-ci.org/adisbladis/exwm-overlay.svg?branch=master]]
+
+* EXWM-overlay for NixOS
+** Contents of the overlay
+*** EXWM & needed dependencies
+This overlay provides fresh versions of EXWM and dependencies. This is
+updated daily.
+
+*** Emacs 27
+This overlay also provides a fresh version (latest from git) for Emacs. This
+is updated daily.
+
+This package is named =emacsGit= in the overlay.
+
+** Usage of the overlay
+*** Latest master each rebuild
+One way, and probably the most convenient way to pull in this overlay is by
+just fetching the tarball of latest master on rebuild.
+
+This has side-effects if packages breaks or things like that you may want
+to be in control of which revision of the overlay you run.
+
+Adding the overlay this way will extend your Emacs packages set to contain
+the latest EXWM and dependencies from their respective master and make the
+package =emacsGit= available. These of course change quite rapidly and will
+cause compilation time.
+
+#+BEGIN_SRC nix
+  nixpkgs.overlays = [
+    (import (builtins.fetchTarball {
+      url = https://github.com/adisbladis/exwm-overlay/archive/master.tar.gz;
+    }))
+  ];
+#+END_SRC
+
+#  LocalWords:  EXWM NixOS emacsGit
+#  LocalWords:  SRC nixpkgs builtins fetchTarball url
