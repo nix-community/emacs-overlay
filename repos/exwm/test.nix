@@ -1,7 +1,7 @@
-{ pkgs ? import <nixpkgs> { overlays = [ (import ./default.nix) ]; } }:
+{ pkgs ? import <nixpkgs> { overlays = [ (import ../../default.nix) ]; } }:
 
 let
-  package = pkgs.emacsGit;
+  package = pkgs.emacs;
   emacsPackages = pkgs.emacsPackagesNgGen package;
   emacsWithPackages = emacsPackages.emacsWithPackages;
 in emacsWithPackages(epkgs: [

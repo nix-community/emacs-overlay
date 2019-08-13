@@ -1,7 +1,9 @@
-[[https://travis-ci.org/adisbladis/exwm-overlay][https://api.travis-ci.org/adisbladis/exwm-overlay.svg?branch=master]]
-
 * EXWM-overlay for NixOS
 ** Contents of the overlay
+
+*** Melpa / Melpa stable
+Daily generations of Melpa & Melpa stable attribute sets.
+
 *** EXWM & needed dependencies
 This overlay provides fresh versions of EXWM and dependencies. This is
 updated daily.
@@ -28,7 +30,7 @@ cause compilation time.
 #+BEGIN_SRC nix
   nixpkgs.overlays = [
     (import (builtins.fetchTarball {
-      url = https://github.com/adisbladis/exwm-overlay/archive/master.tar.gz;
+      url = https://github.com/nix-community/emacs-overlay/archive/master.tar.gz;
     }))
   ];
 #+END_SRC

@@ -1,33 +1,6 @@
-#!/usr/bin/env nix-shell
-#! nix-shell -i bash -p curl xmlstarlet nix coreutils
-set -euxo pipefail
+#!/usr/bin/env bash
+set -euo pipefail
 
-function update_repo() {
-    owner=$1
-    repo=$2
-    echo $repo
-
-    # Get relevant data (commit id and timestamp) for the latest commit
-    commit_data=$(curl "https://github.com/$owner/$repo/commits/master.atom" | xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -m /atom:feed/atom:entry -v "concat(atom:id,'/',atom:updated)" -n | head -n 1)
-
-    # Extract commit sha and build a version number based on date: YYYYMMDD.0
-    commit_sha=$(echo $commit_data | cut -d '/' -f 2)
-    version_number=$(echo $commit_data | cut -d '/' -f 3 | cut -d 'T' -f 1 | sed 's/-//g').0
-
-    digest=$(nix-prefetch-url --unpack "https://github.com/$owner/$repo/archive/${commit_sha}.tar.gz")
-    echo "{\"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > repos/$repo.json
-}
-
-function update_melpa() {
-    cd repos
-    eval $(nix-instantiate --eval --expr 'let nixpath = builtins.toString (import <nixpkgs> {}).path; in "${nixpath}/pkgs/applications/editors/emacs-modes/update-melpa"')
-    cd -
-}
-
-update_repo ch11ng exwm
-update_repo ch11ng xelb
-update_repo emacs-mirror emacs
-
-update_melpa
-
-nix-build --no-out-link --show-trace ./test.nix
+for repo in repos/*; do
+    $repo/update && (git diff --exit-code $repo > /dev/null || git commit -m "Updated $repo" -- $repo)
+done

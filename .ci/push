@@ -1,0 +1,15 @@
+#!/usr/bin/env nix-shell
+#! nix-shell -i bash -p openssl git openssh
+set -euo pipefail
+
+# Note: This script is executed from git root
+
+export TMP_PLAIN=$(mktemp)
+function finish {
+    rm -rf $TMP_PLAIN
+}
+trap finish EXIT
+
+openssl enc -aes-256-cbc -d -in ./.ci/exwm-overlay-key.enc -out $TMP_PLAIN -k $SSH_KEY_PASSPHRASE
+
+git push origin master

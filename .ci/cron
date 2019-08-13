@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Note: This script is executed from git root
+set -exuo pipefail
+
+export HOME=$(mktemp -d)
+function finish {
+    rm -rf $HOME
+}
+trap finish EXIT
+
+nix-shell -p git --run 'git config --global user.name "emacs-overlay"'
+nix-shell -p git --run 'git config --global user.email "emacs-overlay@nix-community"'
+
+./update
+./.ci/push

@@ -2,7 +2,7 @@ self: super:
 let
 
   mkExDrv = emacsPackagesNg: name: args: let
-    repoMeta = super.lib.importJSON (./. + "/repos/${name}.json");
+    repoMeta = super.lib.importJSON (./repos/exwm/. + "/${name}.json");
   in emacsPackagesNg.melpaBuild (args // {
     pname   = name;
     ename   = name;
@@ -22,7 +22,7 @@ let
 in {
 
   emacsGit = let
-    repoMeta = super.lib.importJSON (./. + "/repos/emacs.json");
+    repoMeta = super.lib.importJSON ./repos/emacs/emacs.json;
   in (super.emacs.override { srcRepo = true; }).overrideAttrs(old: {
     name = "emacs-git-${repoMeta.version}";
     inherit (repoMeta) version;
@@ -41,11 +41,11 @@ in {
     (super.emacsPackagesNgFor emacs).overrideScope'(eself: esuper: let
 
       melpaStablePackages = esuper.melpaStablePackages.override {
-        archiveJson = ./repos/recipes-archive-melpa.json;
+        archiveJson = ./repos/melpa/recipes-archive-melpa.json;
       };
 
       melpaPackages = esuper.melpaPackages.override {
-        archiveJson = ./repos/recipes-archive-melpa.json;
+        archiveJson = ./repos/melpa/recipes-archive-melpa.json;
       };
 
       # TODO: Org/elpa packages
