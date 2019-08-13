@@ -1,6 +1,10 @@
 #!/usr/bin/env nix-shell
 #! nix-shell -i bash -p bash
 set -euxo pipefail
-# eval $(nix-instantiate --eval --expr 'let nixpath = builtins.toString (import <nixpkgs> {}).path; in "${nixpath}/pkgs/applications/editors/emacs-modes/update-melpa"')
+
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+cd $SCRIPTPATH
+
+eval $(nix-instantiate --eval --expr 'let nixpath = builtins.toString (import <nixpkgs> {}).path; in "${nixpath}/pkgs/applications/editors/emacs-modes/update-melpa"')
 env NIXPKGS_ALLOW_BROKEN=1 nix-instantiate --show-trace ./test.nix -A melpaStablePackages
 env NIXPKGS_ALLOW_BROKEN=1 nix-instantiate --show-trace ./test.nix -A melpaPackages

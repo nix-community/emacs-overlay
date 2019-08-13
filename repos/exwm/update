@@ -3,6 +3,7 @@
 set -euxo pipefail
 
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+cd $SCRIPTPATH
 
 function update_repo() {
     owner=$1
@@ -23,4 +24,4 @@ function update_repo() {
 update_repo ch11ng exwm
 update_repo ch11ng xelb
 
-nix-build --no-out-link --show-trace $SCRIPTPATH/test.nix
+nix-build --no-out-link --show-trace ./test.nix
