@@ -2,6 +2,8 @@
 #! nix-shell -i bash -p curl xmlstarlet nix coreutils
 set -euxo pipefail
 
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
 function update_repo() {
     owner=$1
     repo=$2
@@ -20,4 +22,4 @@ function update_repo() {
 
 update_repo emacs-mirror emacs
 
-nix-build --no-out-link --show-trace ./test.nix
+nix-build --no-out-link --show-trace $SCRIPTPATH/test.nix
