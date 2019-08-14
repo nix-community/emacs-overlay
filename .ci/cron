@@ -2,6 +2,9 @@
 # Note: This script is executed from git root
 set -exuo pipefail
 
+git checkout master
+git reset --hard origin/master
+
 export NIX_PATH=nixpkgs=https://github.com/NixOS/nixpkgs-channels/archive/nixos-unstable.tar.gz
 
 export HOME=$(mktemp -d)
