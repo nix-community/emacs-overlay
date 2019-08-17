@@ -1,18 +1,11 @@
-#!/usr/bin/env bash
+#!/bin/sh
 # Note: This script is executed from git root
-set -exuo pipefail
+export NIX_PATH=nixpkgs=https://github.com/NixOS/nixpkgs/archive/master.tar.gz
 
-git checkout master
-git reset --hard origin/master
-git pull --rebase origin master
-
-export NIX_PATH=nixpkgs=https://github.com/NixOS/nixpkgs-channels/archive/nixos-unstable.tar.gz
-
-export HOME=$(mktemp -d)
-function finish {
-    rm -rf $HOME
-}
-trap finish EXIT
+if [ $CI_PIPELINE_SOURCE != "schedule" ] && [ $CI_PIPELINE_SOURCE != "web" ]; then
+    echo "Only scheduled or manual jobs will run"
+    exit 1
+fi
 
 nix-shell -p git --run 'git config --global user.name "emacs-overlay"'
 nix-shell -p git --run 'git config --global user.email "emacs-overlay@nix-community"'
