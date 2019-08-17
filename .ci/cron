@@ -9,6 +9,7 @@ fi
 
 nix-shell -p git --run 'git config --global user.name "emacs-overlay"'
 nix-shell -p git --run 'git config --global user.email "emacs-overlay@nix-community"'
+nix-shell -p git --run 'git remote set-url --push origin git@github.com:nix-community/emacs-overlay.git'
 
 ./update
 ./.ci/push
