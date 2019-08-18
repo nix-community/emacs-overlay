@@ -3,8 +3,9 @@
 export NIX_PATH=nixpkgs=https://github.com/NixOS/nixpkgs/archive/master.tar.gz
 
 if [ $CI_PIPELINE_SOURCE != "schedule" ] && [ $CI_PIPELINE_SOURCE != "web" ]; then
-    echo "Only scheduled or manual jobs will run"
-    exit 1
+    echo "Only scheduled or manual jobs will run, consider successful"
+    echo "TODO: This should probably test something meaningful like instantiantion of all derivations"
+    exit 0
 fi
 
 mkdir -p ~/.ssh
