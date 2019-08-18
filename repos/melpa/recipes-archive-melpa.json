@@ -11956,10 +11956,10 @@
  },
  {
   "ename": "company-fuzzy",
-  "commit": "8ffb38fa0eb5e4b64a647044736a539f3d9c8e37",
-  "sha256": "0nkqgp885mhjmby876khb6gsspa8dnjwkbzds5g6zcapkjkb5wl4",
+  "commit": "3c3957d27d4208db45e7545f86ad1c25f53ec532",
+  "sha256": "0yxr0j3zdsf8xfy2mk4ybnjfv6g861772dshbd6v4p3q0pbhhhg6",
   "fetcher": "github",
-  "repo": "jcs090218/company-fuzzy",
+  "repo": "elpa-host/company-fuzzy",
   "unstable": {
    "version": [
     20190812,
@@ -20703,6 +20703,21 @@
   }
  },
  {
+  "ename": "edwin",
+  "commit": "89654edefc6878ea02096fdf250d278c1fd6a735",
+  "sha256": "1w5nizh2f7ak8rgqac6a9hpnbmcp19sbz6lmvxxzalvkdf42mmd7",
+  "fetcher": "github",
+  "repo": "ajgrf/edwin",
+  "unstable": {
+   "version": [
+    20190817,
+    2036
+   ],
+   "commit": "1518c6bfca5fa447d6d3975b9c5e4fcc17cf7ab5",
+   "sha256": "13j7hm7w74qvf95vp96fq2bc1rz5byzaxn3cb7vl0a0qdxwzlwg2"
+  }
+ },
+ {
   "ename": "efire",
   "commit": "4150455d424326667390f72f6edd22b274d9fa01",
   "sha256": "0dhgms6s0c889xx75khn1mqfn8i32z4rjlx2w7i0chm2abxbgd3m",
@@ -28406,6 +28421,36 @@
   }
  },
  {
+  "ename": "face-shift",
+  "commit": "e55d2d30525602726c3c63025f5fce671efac416",
+  "sha256": "1y0m6yv64q76x6i2r5npn97c2axsy2k7b3m58zxh8p7c5lpwjdpa",
+  "fetcher": "git",
+  "url": "https://git.sr.ht/~zge/face-shift",
+  "unstable": {
+   "version": [
+    20190817,
+    2113
+   ],
+   "deps": [
+    "cl-lib"
+   ],
+   "commit": "347e9a1c801c80be546fbf3be808f8245fb049d8",
+   "sha256": "0lkrbbhgv2a101rsf78ik27ni66spml3z9ljsajwjwhv3hvky0rq"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    1
+   ],
+   "deps": [
+    "cl-lib"
+   ],
+   "commit": "347e9a1c801c80be546fbf3be808f8245fb049d8",
+   "sha256": "0lkrbbhgv2a101rsf78ik27ni66spml3z9ljsajwjwhv3hvky0rq"
+  }
+ },
+ {
   "ename": "faceup",
   "commit": "a10bf2928b93c3908e89ca8ad9649bb468ebca05",
   "sha256": "0l41xp38iji55dv20lk7r187ywcz8s1g2jmwbjwkspzmcf763xvx",
@@ -34760,8 +34805,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "1907358fed4ad1ee61fb2a2e1a353b27822a3edd",
-   "sha256": "1v3645sgpr5i7alh08ik2dmlc3bl6idpfgdgf8763l7x8r41wa55"
+   "commit": "f032c3a77079487d0ea563b17ee3e5b2fb084611",
+   "sha256": "0lgh5z17ag5wvvnqwagvam29cp1n1vd50amn6df02xln80bsbllx"
   }
  },
  {
@@ -37966,8 +38011,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "dd082db295a7575ad1a8c00690bf66a508b9bb3f",
-   "sha256": "1m7k79g9nm63ndg3wgnczhmk3hz87c37dvq55a8l94ngfrziizbd"
+   "commit": "fc7b5c0e30a18c1f48ed69f99a485ac24925f20f",
+   "sha256": "1k80fh57cyf1igj0jlw2bcijlh903x8q4wy6m48arq67qb6vl75z"
   },
   "stable": {
    "version": [
@@ -38570,6 +38615,30 @@
    ],
    "commit": "f541aa22da52b8ff2f7af79bc5e4b58b9f5db8be",
    "sha256": "0rqpgc50z86j4waijfm6kw4zjmzqfii6nnvyix4rkd4y3ryny1x2"
+  }
+ },
+ {
+  "ename": "grip-mode",
+  "commit": "de97f1c15b3ab53ca5e314b679c289705302bb64",
+  "sha256": "162ss93hbkxv5zd0vid6xh77ln7bsx2ngzr7h1y4dmcg36npmy5d",
+  "fetcher": "github",
+  "repo": "seagle0128/grip-mode",
+  "unstable": {
+   "version": [
+    20190817,
+    2013
+   ],
+   "commit": "15f6d5777f9124cda5940a4f70ee6905edc0d144",
+   "sha256": "13i14dykxynjm7v0d50dczrl3v77ixyzgn16mx3qzf2knbbax8xk"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    0
+   ],
+   "commit": "ab769ed7dcdc9bcfb8e64eccf6db7911801137a3",
+   "sha256": "14fyx0bkm3ahbq04wlnr3k2ificyr0d8f1y5iq0bz6a5a6sz18g9"
   }
  },
  {
@@ -50729,6 +50798,30 @@
   }
  },
  {
+  "ename": "json-process-client",
+  "commit": "38cf8baad750427268659c8b25d35270add18317",
+  "sha256": "0lv4xdihjphpg31zdzkzrhp715sj7y2sl87c6cz6akhlfz2mmm0h",
+  "fetcher": "git",
+  "url": "https://gitlab.petton.fr/nico/json-process-client.git",
+  "unstable": {
+   "version": [
+    20190815,
+    740
+   ],
+   "commit": "1d4a1fe2ecc682890dfc75e40054c9697c3046f6",
+   "sha256": "1r1mcd9xqibr7np2gsq8gpl310l05h75y2pnldlqqsszkhivyixd"
+  },
+  "stable": {
+   "version": [
+    0,
+    2,
+    0
+   ],
+   "commit": "1d4a1fe2ecc682890dfc75e40054c9697c3046f6",
+   "sha256": "1r1mcd9xqibr7np2gsq8gpl310l05h75y2pnldlqqsszkhivyixd"
+  }
+ },
+ {
   "ename": "json-reformat",
   "commit": "f8c7976237f327fdfa58eea26ac8679f40ef3163",
   "sha256": "1m5p895w9qdgb8f67xykhzriribgmp20a1lvj64iap4aam6wp8na",
@@ -53742,10 +53835,10 @@
   "unstable": {
    "version": [
     20190817,
-    2255
+    2347
    ],
-   "commit": "1a48c2f57c0a3fb0adbc8eebd4c23f8d5016fd84",
-   "sha256": "1hap25yd7nky4bwnhf3d5wap4jq8pfs94dwi3zdb00g2a8pnrwfx"
+   "commit": "f6ccceda1618aad0ec5a665dab912a7ebbc32f08",
+   "sha256": "0w4i478aybp9ca09ixmzsda83l9igqx5ryv0g8vpkmd2vg3r0dcy"
   },
   "stable": {
    "version": [
@@ -56091,6 +56184,25 @@
   }
  },
  {
+  "ename": "magit-vcsh",
+  "commit": "9ee290ad797511ccc4ee2e1d3d773672796da3f9",
+  "sha256": "025ggdb40js7nmg0fqw3ncki4krswwyvl4q1m8250k09g5r57zij",
+  "fetcher": "gitlab",
+  "repo": "stepnem/magit-vcsh-el",
+  "unstable": {
+   "version": [
+    20190817,
+    2014
+   ],
+   "deps": [
+    "magit",
+    "vcsh"
+   ],
+   "commit": "fcff128cdbe3ef547dc64f2496cb6405b8ee21ca",
+   "sha256": "0x0dwl163qpws5d6h628if8iyzzxig9f7j1n7q6fxkbymx0js0vj"
+  }
+ },
+ {
   "ename": "magithub",
   "commit": "e555b46f5de7591aa8e10a7cf67421e26a676db8",
   "sha256": "11par5rncsa866gazdw98d4902rvyjnnwbiwpndlyh06ak0lryab",
@@ -56625,6 +56737,24 @@
    ],
    "commit": "f6a53c7c5283d640ae718f4548b0fda78877a375",
    "sha256": "1x3anvy3hlmydxyfzr1rhaiy502yi1yz3v54sg8wc1w7jrvwaj29"
+  }
+ },
+ {
+  "ename": "mark-thing-at",
+  "commit": "bf5429d251d45fb9eb6d3c677b695f5298b1fb91",
+  "sha256": "1hzahlfxyqs47k406grxsi0qfgcx76884scnnlj2xirszd6j5mpz",
+  "fetcher": "github",
+  "repo": "plandes/mark-thing-at",
+  "unstable": {
+   "version": [
+    20190817,
+    1623
+   ],
+   "deps": [
+    "choice-program"
+   ],
+   "commit": "0d2220fdc81c33a36ab5f136856f9f2f79cd01a7",
+   "sha256": "0xxip63gkq76lhlafpgklpnj3n345fw95pdwhn5blzsjrx77ig6h"
   }
  },
  {
@@ -71718,8 +71848,8 @@
  },
  {
   "ename": "picolisp-mode",
-  "commit": "fe116998dadeef6e61c0791efb396f9b8befa5d6",
-  "sha256": "1n56knbapyfs8n23arzlz27y0q4846r64krwlwh8agfqkcdw9dp5",
+  "commit": "a4e49567ca1d44c7479967933c51c9eb525f60c3",
+  "sha256": "16a476f05j28vvm35qj8ynrpvbd53qsfy31nlacs42hqmdwwjxym",
   "fetcher": "github",
   "repo": "flexibeast/picolisp-mode",
   "unstable": {
@@ -87698,14 +87828,14 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20190816,
-    1040
+    20190818,
+    18
    ],
    "deps": [
     "visual-fill-column"
    ],
-   "commit": "bc75db36e49b4808dd770f3f6bd16248e08c1d18",
-   "sha256": "0mhm3a700vhgc1z8gakc44w0xz4d5bdl5racgzsidkavrhn7aasz"
+   "commit": "99a91aaff7fe36570f9af137a5f9904e808978b9",
+   "sha256": "19vr0m8kgjqkl5x89wy2gbpy6qg5b6ack7b6cnrgfk70187jab4g"
   },
   "stable": {
    "version": [
@@ -91877,6 +92007,14 @@
    "commit": "f839b3b3257a564b19d7f9557dc8bcbbe0b95842",
    "sha256": "1xd42bdi6x89gc9xjrwvzzdaanv9vwlbbjwp25bs1nsd53k5nvak"
   }
+ },
+ {
+  "ename": "vcsh",
+  "commit": "a5f56f914d7cc11f45be0474897998accb0fec2e",
+  "sha256": "0cclih5yfgal3bi3n2na4sc4xw1rqalml3nknhgypxrlx4j784pb",
+  "error": "Not in archive",
+  "fetcher": "gitlab",
+  "repo": "stepnem/vcsh-el"
  },
  {
   "ename": "vdiff",
