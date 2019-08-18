@@ -50,10 +50,18 @@ in {
         archiveJson = ./repos/melpa/recipes-archive-melpa.json;
       };
 
-      # TODO: Org/elpa packages
+      elpaPackages = esuper.elpaPackages.override {
+        generated = ./repos/elpa/elpa-generated.nix;
+      };
+
+      # Note: Org generation is currently failing (probably a bug in emacs2nix)
+      # Comment this out when a fix has reached unstable
+      # orgPackages = esuper.orgPackages.override {
+      #   generated = ./repos/org/org-packages.nix
+      # }
 
       epkgs = esuper.override {
-        inherit melpaStablePackages melpaPackages;
+        inherit melpaStablePackages melpaPackages elpaPackages;
       };
 
     in epkgs // {
