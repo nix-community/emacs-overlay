@@ -10556,8 +10556,8 @@
     20190710,
     1319
    ],
-   "commit": "34301441b963a2d7e02b4a4355a6634b3bbb7977",
-   "sha256": "13fyxvj7w9nz3dby3nl7jq5jkw0ari69wv3f1id8s44z1hggs6x6"
+   "commit": "06e32a089df03c158eaee7525de3ac1be25d8136",
+   "sha256": "0i4gm0d77v4540vm81s728m6m90nxigi8bv9nnxfy9b3nw4k5d0f"
   },
   "stable": {
    "version": [
@@ -20715,6 +20715,15 @@
    ],
    "commit": "1518c6bfca5fa447d6d3975b9c5e4fcc17cf7ab5",
    "sha256": "13j7hm7w74qvf95vp96fq2bc1rz5byzaxn3cb7vl0a0qdxwzlwg2"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    1
+   ],
+   "commit": "61240ad3dc1ce599205d1539ae5d354c17965a1c",
+   "sha256": "00adpsfrcscxpzsh7sdas32axazg7gnxgnb4nfcqrdicsa2dzfaz"
   }
  },
  {
@@ -42734,14 +42743,14 @@
   "repo": "emacs-helm/helm-org",
   "unstable": {
    "version": [
-    20190813,
-    604
+    20190818,
+    521
    ],
    "deps": [
     "helm"
    ],
-   "commit": "78b1620884bfe004cc68e2eedc7333b5b9d75b85",
-   "sha256": "0670wxp4n8s8shvp21d11xy5a638nhs5p5hlri9g4s5yfb9bk92v"
+   "commit": "792f30df10e6ee137385f792a49e997392323309",
+   "sha256": "074ygspzs9kaic7f62j0ya7s5shmanc15fz6z8337jlxl3i044nh"
   },
   "stable": {
    "version": [
@@ -56200,6 +56209,19 @@
    ],
    "commit": "fcff128cdbe3ef547dc64f2496cb6405b8ee21ca",
    "sha256": "0x0dwl163qpws5d6h628if8iyzzxig9f7j1n7q6fxkbymx0js0vj"
+  },
+  "stable": {
+   "version": [
+    0,
+    4,
+    1
+   ],
+   "deps": [
+    "magit",
+    "vcsh"
+   ],
+   "commit": "fcff128cdbe3ef547dc64f2496cb6405b8ee21ca",
+   "sha256": "0x0dwl163qpws5d6h628if8iyzzxig9f7j1n7q6fxkbymx0js0vj"
   }
  },
  {
@@ -66011,8 +66033,8 @@
     "dash-functional",
     "request"
    ],
-   "commit": "774876c7da83e3bb9a158a87b738828b5c78b784",
-   "sha256": "0npf706j4ph5kbvb88yzqbp26n8m46ryg4l1y2ijdsi61lvgwksk"
+   "commit": "8f330da28c22d61abbae16134c035f60962c28f6",
+   "sha256": "0f1cwkd9n7v38y7ifzy4rjh91snr03br8b7lpq6f79k1l26crwxj"
   }
  },
  {
@@ -78144,8 +78166,8 @@
     20190529,
     2238
    ],
-   "commit": "466203594c617479cccc17c0c8a7de5d931e7407",
-   "sha256": "1dh8s5s5wfv6prjm38y3ab2flg8aqqpa16rxxi86zcqy15jg2x8x"
+   "commit": "c6919a6549b12f624a97e3535409737096e6532e",
+   "sha256": "1z7053mhml0qf6h6203qbw99l0jla2mcga91839yqgd7z3cvnn8l"
   },
   "stable": {
    "version": [
@@ -92012,9 +92034,25 @@
   "ename": "vcsh",
   "commit": "a5f56f914d7cc11f45be0474897998accb0fec2e",
   "sha256": "0cclih5yfgal3bi3n2na4sc4xw1rqalml3nknhgypxrlx4j784pb",
-  "error": "Not in archive",
   "fetcher": "gitlab",
-  "repo": "stepnem/vcsh-el"
+  "repo": "stepnem/vcsh-el",
+  "unstable": {
+   "version": [
+    20190817,
+    2011
+   ],
+   "commit": "2051e4ee20709f82ab2396ab2ccfbe887a3c6a67",
+   "sha256": "168rhydrz7h7bhaf885j4lqxz5x50is7gsypj0vypi6xv71zhd03"
+  },
+  "stable": {
+   "version": [
+    0,
+    4,
+    1
+   ],
+   "commit": "2051e4ee20709f82ab2396ab2ccfbe887a3c6a67",
+   "sha256": "168rhydrz7h7bhaf885j4lqxz5x50is7gsypj0vypi6xv71zhd03"
+  }
  },
  {
   "ename": "vdiff",
