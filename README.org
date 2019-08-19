@@ -20,7 +20,7 @@ This is an abstraction on top of =emacsWithPackages=.
 #+BEGIN_SRC nix
 {
   environment.systemPackages = [
-    (emacsWithPackagesUsePackage {
+    (emacsWithPackagesFromUsePackage {
       config = builtins.readFile ./emacs.el;
       # Package is optional, defaults to pkgs.emacs
       package = pkgs.emacsGit;
