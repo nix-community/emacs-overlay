@@ -14,6 +14,32 @@ is updated daily.
 
 This package is named =emacsGit= in the overlay.
 
+** Extra library functionality
+This overlay comes with an extra function to generate an Emacs closure from =use-package= declarations.
+This is an abstraction on top of =emacsWithPackages=.
+#+BEGIN_SRC nix
+{
+  environment.systemPackages = [
+    (emacsWithPackagesUsePackage {
+      config = builtins.readFile ./emacs.el;
+      # Package is optional, defaults to pkgs.emacs
+      package = pkgs.emacsGit;
+      # Optionally provide extra packages not in the configuration file
+      extraEmacsPackages = epkgs: [
+        epkgs.cask
+      ];
+      # Optionally override derivations
+      override = epkgs: epkgs // {
+        weechat = epkgs.melpaPackages.weechat.overrideAttrs(old: {
+          patches = [ ./weechat-el.patch ];
+        });
+      };
+    })
+  ];
+}
+#+END_SRC
+
+
 ** Usage of the overlay
 *** Latest master each rebuild
 One way, and probably the most convenient way to pull in this overlay is by
@@ -28,11 +54,13 @@ package =emacsGit= available. These of course change quite rapidly and will
 cause compilation time.
 
 #+BEGIN_SRC nix
+{
   nixpkgs.overlays = [
     (import (builtins.fetchTarball {
       url = https://github.com/nix-community/emacs-overlay/archive/master.tar.gz;
     }))
   ];
+}
 #+END_SRC
 
 #  LocalWords:  EXWM NixOS emacsGit

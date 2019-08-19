@@ -37,6 +37,8 @@ in {
     ];
   });
 
+  emacsWithPackagesFromUsePackage = import ./elisp.nix { pkgs = self; };
+
   emacsPackagesNgFor = emacs: (
     (super.emacsPackagesNgFor emacs).overrideScope'(eself: esuper: let
 
