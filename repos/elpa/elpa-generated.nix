@@ -1237,10 +1237,10 @@
       elpaBuild {
         pname = "frog-menu";
         ename = "frog-menu";
-        version = "0.2.9";
+        version = "0.2.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/frog-menu-0.2.9.el";
-          sha256 = "1gjhypsafpqybcbwi49qi1g419hcq9qv4p940ybspydg9gqk3gmp";
+          url = "https://elpa.gnu.org/packages/frog-menu-0.2.10.el";
+          sha256 = "050qikvgh9v7kgvhznjsfrpyhs7iq1x63bryqdkrwlf668yhzi1m";
         };
         packageRequires = [ avy emacs posframe ];
         meta = {
@@ -3545,10 +3545,10 @@
       elpaBuild {
         pname = "wisitoken-grammar-mode";
         ename = "wisitoken-grammar-mode";
-        version = "1.0.2";
+        version = "1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wisitoken-grammar-mode-1.0.2.tar";
-          sha256 = "09rpjl3z6xzap0lbrjs9hf2nspwc5avvx75ah3aimgvizrf2kyp0";
+          url = "https://elpa.gnu.org/packages/wisitoken-grammar-mode-1.0.3.tar";
+          sha256 = "1vljnhi35vix30xch9mziczg56ss1r615yn2pgdcw8wa8sm14crw";
         };
         packageRequires = [ emacs mmm-mode wisi ];
         meta = {
