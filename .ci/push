@@ -10,5 +10,5 @@ function finish {
 }
 trap finish EXIT
 
-openssl enc -aes-256-cbc -d -in ./.ci/exwm-overlay-key.enc -out $TMP_PLAIN -k $SSH_KEY_PASSPHRASE
+openssl aes-256-cbc -d -salt -pbkdf2 -in ./.ci/exwm-overlay-key.enc -k $SSH_KEY_PASSPHRASE -out $TMP_PLAIN
 ssh-agent bash -c "ssh-add $TMP_PLAIN && git push origin HEAD:master"
