@@ -1,6 +1,6 @@
 #!/bin/sh
 # Note: This script is executed from git root
-export NIX_PATH=nixpkgs=https://github.com/NixOS/nixpkgs/archive/master.tar.gz
+export NIX_PATH=nixpkgs=https://github.com/NixOS/nixpkgs-channels/archive/nixos-unstable.tar.gz
 
 if [ $CI_PIPELINE_SOURCE != "schedule" ] && [ $CI_PIPELINE_SOURCE != "web" ]; then
     echo "Only scheduled or manual jobs will run, consider successful"
