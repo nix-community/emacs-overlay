@@ -31,6 +31,7 @@ in {
       repo = "emacs";
       inherit (repoMeta) sha256 rev;
     };
+    buildInputs = old.buildInputs ++ [ super.jansson ];
     patches = [
       ./patches/tramp-detect-wrapped-gvfsd.patch
       ./patches/clean-env.patch
