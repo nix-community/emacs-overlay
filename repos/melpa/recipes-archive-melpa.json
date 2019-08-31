@@ -55963,15 +55963,28 @@
   "repo": "Ailrun/magit-lfs",
   "unstable": {
    "version": [
-    20190504,
-    1909
+    20190831,
+    118
    ],
    "deps": [
     "dash",
     "magit"
    ],
-   "commit": "5ff5648158413aec01ba178f349c33862e6e140a",
-   "sha256": "1g1hawsmx2j69n25n2ip1lb8x3lshcyrn7f5w83dw56i5ywmyr0v"
+   "commit": "75bf6d3310eae24889589a09e96a4a855e1a11c4",
+   "sha256": "0dy2p6wyp5xqx4jnh1sf3v47dv09k7vv3c9mhjapcr1jpbpqj87w"
+  },
+  "stable": {
+   "version": [
+    0,
+    4,
+    0
+   ],
+   "deps": [
+    "dash",
+    "magit"
+   ],
+   "commit": "75bf6d3310eae24889589a09e96a4a855e1a11c4",
+   "sha256": "0dy2p6wyp5xqx4jnh1sf3v47dv09k7vv3c9mhjapcr1jpbpqj87w"
   }
  },
  {
@@ -88968,8 +88981,8 @@
     20180905,
     1050
    ],
-   "commit": "592192728a930a13a2b9d5e42a706ecdd716d6f0",
-   "sha256": "0g9i6nhaxw6xm1ans3qss8xhjyq39488fgqvz2jjjnbl2igaicrl"
+   "commit": "3b36d95f7fd33d8f23a13deba650cddcd4f29ed2",
+   "sha256": "1m41iqlwh8ic89cnf72r1hg227s3xykyf852pdz5sady065iqs0v"
   },
   "stable": {
    "version": [
