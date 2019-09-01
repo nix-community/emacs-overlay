@@ -6695,16 +6695,16 @@
   "repo": "jyp/boon",
   "unstable": {
    "version": [
-    20190828,
-    655
+    20190901,
+    1239
    ],
    "deps": [
     "dash",
     "expand-region",
     "multiple-cursors"
    ],
-   "commit": "623174d015d4ba867e4decf0fcd439b51262f0a9",
-   "sha256": "19qm2i4pba9kbaw70cdchvmv9jgs2vxnlrz9jqpcn864z3k887iw"
+   "commit": "41887f85b2c57675642cd742585f35e4c5a22004",
+   "sha256": "127hg10j66557b2yb2mlkx6s84ziypvfv8xaqcc7drmsx3w8icb6"
   },
   "stable": {
    "version": [
@@ -9475,19 +9475,20 @@
   "stable": {
    "version": [
     0,
-    21,
-    0
+    22,
+    1
    ],
    "deps": [
     "clojure-mode",
+    "parseedn",
     "pkg-info",
     "queue",
     "seq",
     "sesman",
     "spinner"
    ],
-   "commit": "200c88adb1314b5811ba749af42ffb6817c1ca1b",
-   "sha256": "0lbrwj67fnvynkdkzvnzp3p8vqlz0ldrcs317vg60bqfhx7hvqkj"
+   "commit": "8a1262dae8f86f03fa2ec0abdbced10ff7e5ee1e",
+   "sha256": "0pjp1gcvhmbdh10w2yall9a7bbprg2z2hmmkwhqxcalsaacwfz0x"
   }
  },
  {
@@ -26636,14 +26637,14 @@
   "repo": "redguardtoo/evil-matchit",
   "unstable": {
    "version": [
-    20190808,
-    1056
+    20190901,
+    1216
    ],
    "deps": [
     "evil"
    ],
-   "commit": "43be86d8c41841a20733718d177e8299d5379218",
-   "sha256": "04kllxd7vvziwqiff3vx60a0r6805wynsla73j8xkcz4yzk8q91r"
+   "commit": "c5b87b4de540cc42ebaee1451f23116e529231cb",
+   "sha256": "10hlcgvncj3a9wfnihclbrxhy4bypbvn08c6r4wfsa15cxpp6vgj"
   },
   "stable": {
    "version": [
@@ -66365,8 +66366,8 @@
     "s",
     "ts"
    ],
-   "commit": "0adc23d34d35f82dca456cb3b1b249818cb993fa",
-   "sha256": "0mq0aj0a3a5gi9nz0ncpzsh731d92n86b0iinvx1m45dcal06h9y"
+   "commit": "6a6272ef963b6c3305e783f9f2a9bbbe476c8111",
+   "sha256": "1pl2fi88xqvl8qfhawmawqi6rmsqah2zin32ij0l55dp2hr20jra"
   },
   "stable": {
    "version": [
