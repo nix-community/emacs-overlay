@@ -19425,11 +19425,11 @@
   "repo": "dylan-lang/dylan-mode",
   "unstable": {
    "version": [
-    20190109,
-    300
+    20190831,
+    1910
    ],
-   "commit": "9a6ad5ff83f2dfc25ce3deee9d3ef71ed53964b5",
-   "sha256": "1d6krgiabkrj3mryaz79vmiqy0vkr5s8ji34yjd14v73ikzwxwkp"
+   "commit": "4801b7adcc984edfffa3f951e2c35329fae2b6e4",
+   "sha256": "1xm27fc98rj8fsfm9na1x3d7zgp8fkxf782ajvirzbbq5nj0lyma"
   }
  },
  {
@@ -22106,14 +22106,14 @@
   "repo": "elixir-editors/emacs-elixir",
   "unstable": {
    "version": [
-    20190422,
-    155
+    20190831,
+    2225
    ],
    "deps": [
     "pkg-info"
    ],
-   "commit": "694d133e847e9a6db6abd1c19850cec6d867ccce",
-   "sha256": "0fl3i8cxnrn70l68328jyhabgccmqbislkgp4k4ih5yll3plz31n"
+   "commit": "5c50dcedd890f14e0ede33b74ddf86607b037239",
+   "sha256": "0hi8ly4jplhlh4mrmwlhz44w50ccjbc4w12jkacjc82gay8m8yfa"
   },
   "stable": {
    "version": [
@@ -66105,6 +66105,21 @@
    ],
    "commit": "3a96bfb57cb158ac02cfb4225512699c66f5221d",
    "sha256": "0lrcj3mcdfcdrndivhj5ds386zrsy78sfg0i8126wwwc5lfh48vq"
+  }
+ },
+ {
+  "ename": "org-picklink",
+  "commit": "c6c44a3e5a1c5e4acdf76c4d6f2f4b695aa6938e",
+  "sha256": "0gr4psgps9775hh0pvcyq3x2irrzkzpm5ghcnc9ddp5hn41yv57m",
+  "fetcher": "github",
+  "repo": "tumashu/org-picklink",
+  "unstable": {
+   "version": [
+    20190818,
+    326
+   ],
+   "commit": "2c80a59d60360206db440812fb048e69d4f9227b",
+   "sha256": "0sjjzgcpgjm02ip8dnhljvfjvlnx7bxk3ibwlz965f90px6zmhgr"
   }
  },
  {
