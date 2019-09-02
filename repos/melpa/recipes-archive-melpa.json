@@ -6728,16 +6728,16 @@
   "repo": "emacscollective/borg",
   "unstable": {
    "version": [
-    20190802,
-    2023
+    20190902,
+    1510
    ],
    "deps": [
     "dash",
     "epkg",
     "magit"
    ],
-   "commit": "b338e13e8de7bb2e0eef093fdb79fb763910c7e8",
-   "sha256": "0ydj3xs856gbm559f20zrnag5rbhy9s60qs2x5kwwdn921mdcsgj"
+   "commit": "e4a53ec687a1e2f75276c2f2c2b568266887fe10",
+   "sha256": "1s01gwnpqrkr60r0xn27231854qpqqbqphiy200x7hmkq93wzlhv"
   },
   "stable": {
    "version": [
@@ -15132,8 +15132,8 @@
     20190111,
     2150
    ],
-   "commit": "00c1dc96af0e44741dc777f96a2eb5769f572bb3",
-   "sha256": "0hkh3844kaawhqh90cqpskh9ifm6cs6i3d2bwkbrrjrkyig9qp38"
+   "commit": "4a581eeff9e8d2842d7fecde514eac08e322fc0f",
+   "sha256": "1qg0x1bq7j8p3mvgky4i9shy7llhyj34qgmwzvlm3cs04m8lw23d"
   },
   "stable": {
    "version": [
@@ -34817,11 +34817,11 @@
   "repo": "jaor/geiser",
   "unstable": {
    "version": [
-    20190826,
-    1736
+    20190902,
+    1529
    ],
-   "commit": "d7bcfde6303b420ca76d9364c6e8f2c6827112e6",
-   "sha256": "01n3vxczv02vj9h7w1syq62qpnaw44wryk17ssk72ihg3zrrri6v"
+   "commit": "4ff2e2ac9da81cdc86415687f74ac9a1c94e859f",
+   "sha256": "1a20f75z1j6mj43fgf2yhr68adahx1636bsky5kv095vlpyv0k3v"
   },
   "stable": {
    "version": [
@@ -55036,8 +55036,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20190901,
-    1536
+    20190902,
+    1910
    ],
    "deps": [
     "dash",
@@ -55047,8 +55047,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "1e34baa7447748886e540dcaf717250687bbaa94",
-   "sha256": "1338mliixx1p8zi20fhm9w9r1h1p0clm3cjxv7i9300m4ipkaimf"
+   "commit": "09b28fd633a027610cd5028a5a862ccdb0872c70",
+   "sha256": "1kw9zb5z3y70nb5bvar7vkv5l6fbj9y9kxhisacigxjhb0qk0n46"
   },
   "stable": {
    "version": [
@@ -66365,8 +66365,8 @@
     "s",
     "ts"
    ],
-   "commit": "09b777c94bc18906a4f6a8d6c6c4ac62af799dcd",
-   "sha256": "0vlffxja27kircksdmng5nf0395hshzjc7y3hinah2si9ym7wanr"
+   "commit": "01772f3c8a0a2fd607867010bb15a944af3e0bae",
+   "sha256": "0qsybfywcq7n3h5k6m04w9j1qi3g99kjffi4wlb9hd0cjakx5b7x"
   },
   "stable": {
    "version": [
@@ -67023,6 +67023,21 @@
    ],
    "commit": "4dba2dc9a3ed63f58aa946aeec84a52d46ca4043",
    "sha256": "0az4lzd9qk4cx7jjfj36r2fvlkwyrhn3xqhha5d1pydglnhd9amy"
+  }
+ },
+ {
+  "ename": "org-tanglesync",
+  "commit": "9282e48b725e835fe8dfb226dacbea40257584c1",
+  "sha256": "1vyvy5l7bb8v7c190rzi7r1nz7vlq4yj2bskhcw35h6df3zy3j2y",
+  "fetcher": "github",
+  "repo": "mtekman/org-tanglesync.el",
+  "unstable": {
+   "version": [
+    20190901,
+    1910
+   ],
+   "commit": "aaabf2a160eee20a3b440e23d81ccc994e260f5a",
+   "sha256": "0gcrhv3q6drk96cc0bl5ldjx9mkp4lha33ndhxzvxq4s12f3cfzy"
   }
  },
  {
