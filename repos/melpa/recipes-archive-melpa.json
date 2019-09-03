@@ -2723,6 +2723,36 @@
   }
  },
  {
+  "ename": "annalist",
+  "commit": "2298cf2894029267c77a8aa06f4fa8d9d7c3e4f0",
+  "sha256": "1102yd0vas3kyml8flf3mdswnc2kizbdq996740plzwnnnbw34vj",
+  "fetcher": "github",
+  "repo": "noctuid/annalist.el",
+  "unstable": {
+   "version": [
+    20190822,
+    236
+   ],
+   "deps": [
+    "cl-lib"
+   ],
+   "commit": "9da4f7291d3d11876412b14cc3979f2b9c8623a4",
+   "sha256": "0m2lwzsklggy67k71xr9ldsyav24vbzldc7qajran48115wdwjfn"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    0
+   ],
+   "deps": [
+    "cl-lib"
+   ],
+   "commit": "0da9812e419b1687cf1e7040384f983be32d5328",
+   "sha256": "1dws8r39asjnxzjq4ixlja1ih6kphw0w666k685m7ncq9jmr6jw6"
+  }
+ },
+ {
   "ename": "annotate",
   "commit": "3aae88b8e3b080501195d291012deab31aaf35f7",
   "sha256": "1ajykgara2m713blj2kfmdz12fzm8jw7klyakkyi6i3c3a9m44jy",
@@ -3487,6 +3517,26 @@
    ],
    "commit": "0781fd79c4040dbceed42dc79edab4ec661c2593",
    "sha256": "15ismdk8fl6xjgkjh9nkn8kgg7rpy2ra7924r1iddlfs2q8l8p4w"
+  }
+ },
+ {
+  "ename": "asx",
+  "commit": "2eda72c3574c41184104532bb129cbe0efc8afd4",
+  "sha256": "0kijqfwkwm5kd1h3v0rab9fm8ivmqnmijy065iz5xhmi3yicx4aq",
+  "fetcher": "github",
+  "repo": "ragone/asx",
+  "unstable": {
+   "version": [
+    20190902,
+    1821
+   ],
+   "deps": [
+    "org",
+    "request",
+    "seq"
+   ],
+   "commit": "a8dd27ecd321d9992b274d9c96cb422b51d1aab5",
+   "sha256": "11vspw1a36wbrs6d6as2a28f4kyjj6qrlnhmxm9d6fcax4saa1s9"
   }
  },
  {
@@ -5094,6 +5144,21 @@
    ],
    "commit": "b04a74d09ff5e3fbefd1b39b2abe79a9e272321a",
    "sha256": "0qja8xw2sk2wn7w6qa5zj2i0j5c8a7cnldrag99ip2b5m02f1z4l"
+  }
+ },
+ {
+  "ename": "balanced-windows",
+  "commit": "2dc9c15d14d4417df74b73cde983ef4f25eda363",
+  "sha256": "0y53als0cmd4h0z1w55f4z5w6zkk7ig0ygjrzjv2khwig8hl2b8h",
+  "fetcher": "github",
+  "repo": "wbolster/emacs-balanced-windows",
+  "unstable": {
+   "version": [
+    20190902,
+    1828
+   ],
+   "commit": "141a76e83e53f5e8c4204ac1be1c0d316e16daee",
+   "sha256": "1858p2r1hy8n8nl15wg372jbp18y0sq7lhksfhmyw9m873is0vam"
   }
  },
  {
@@ -23285,14 +23350,14 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20190827,
-    1610
+    20190902,
+    2011
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "f209b44c76f4a8532783909384ae7492b8d9b6e7",
-   "sha256": "1m68vpsbkcmnlj35h31qikifvah8b9gazwk5yv4wafabpg3bdav2"
+   "commit": "aa3357403153100484561cb7235fffc3faccfb00",
+   "sha256": "14qaixivhnk9g4xab3cw9flzhhc53nl9jbmjmg8h3adncqz0qhzp"
   },
   "stable": {
    "version": [
@@ -41612,6 +41677,25 @@
    ],
    "commit": "8798dcf3583b863df5b9dea7fe3b0179ba1c35bc",
    "sha256": "1250mh0ydap0sifcyrgs32dnr6c8d723v4c55yvwm23dzvzwycp8"
+  }
+ },
+ {
+  "ename": "helm-fuzzy",
+  "commit": "37a4b98c8a505a106de7f465f93e63c56364bce6",
+  "sha256": "1ix8xmcl16879njyjdyghv818vksbbmrzh49c6hrhcfgq2zl89m8",
+  "fetcher": "github",
+  "repo": "jcs090218/helm-fuzzy",
+  "unstable": {
+   "version": [
+    20190831,
+    1655
+   ],
+   "deps": [
+    "flx",
+    "helm"
+   ],
+   "commit": "1adef0ecd49507f72e1b63bc20eae35a504e0fa2",
+   "sha256": "09kz3sx5j6hzxibnyygvnn5a7d50hf4fkpbiijkrzbkvwajbyb4v"
   }
  },
  {
@@ -67036,8 +67120,8 @@
     20190901,
     1910
    ],
-   "commit": "aaabf2a160eee20a3b440e23d81ccc994e260f5a",
-   "sha256": "0gcrhv3q6drk96cc0bl5ldjx9mkp4lha33ndhxzvxq4s12f3cfzy"
+   "commit": "ab76a3eaaed263677d2e029d43f6c4de8fc21418",
+   "sha256": "14ify3yirq2qmi9isk8kcbwx8pbclv1fyg49kraz4srhgf2fssgf"
   }
  },
  {
@@ -77886,6 +77970,21 @@
    ],
    "commit": "ce008862ea33de0a9e6c06099b9ddff8f620f2e4",
    "sha256": "14sd9d0jzr0iiy4hzssabp08wifbnb4hh6xs5b2v8ch348kcwpwv"
+  }
+ },
+ {
+  "ename": "reaper",
+  "commit": "034737d27ad4305b526210e82fe320db4f72a84c",
+  "sha256": "0yr1nb550903g0i2x7arw155v0x5vi4hbdniddwaxa4v9712gphj",
+  "fetcher": "github",
+  "repo": "xendk/reaper",
+  "unstable": {
+   "version": [
+    20190828,
+    1934
+   ],
+   "commit": "7c8f3565b99c90f06caaf8a78175ac0a11a97b16",
+   "sha256": "0slp4b5pikpxkgqlpwnljcp0plnyhl25qp29f46f7rda5a3abkvx"
   }
  },
  {
@@ -89025,8 +89124,8 @@
     20180905,
     1050
    ],
-   "commit": "367c113fe0d8ea68b6b9a3c9fe57519ca7eab4c1",
-   "sha256": "060rrg6lf72zln4rgvkkkq8rw4w9ar8yd8m3v2fsaj46xbh94l8f"
+   "commit": "58724fa39982e2aee8472de297c788c23a5f981f",
+   "sha256": "0bwpmjsb0l6l1q1x642qx4y11chq7kmagcvgkrpfas2w0kmpm558"
   },
   "stable": {
    "version": [
