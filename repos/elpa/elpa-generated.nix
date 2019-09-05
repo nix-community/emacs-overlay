@@ -1282,10 +1282,10 @@
       elpaBuild {
         pname = "gited";
         ename = "gited";
-        version = "0.5.4";
+        version = "0.5.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gited-0.5.4.tar";
-          sha256 = "07ckknggkqd733bnps21r46bacgyhd0v9wc0spid22hn0dnrfp12";
+          url = "https://elpa.gnu.org/packages/gited-0.5.6.tar";
+          sha256 = "0nysapnj0finp7im5ws4k0vj3n8l1ryv8y23qmzifghwpabsy4hq";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
