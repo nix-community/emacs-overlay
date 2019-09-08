@@ -22598,8 +22598,8 @@
     "s",
     "yasnippet"
    ],
-   "commit": "f6e201d96b2b62eef64e0f8aad7e946e870a2e2b",
-   "sha256": "0fzvj59pxkcam7kh6rk0w3g2jhq531n1fgaj63s0kkbyqars0pp2"
+   "commit": "c8a7e093c7c2191d4d417448340372279b120673",
+   "sha256": "04ac04azhl93a9h220zvvix49wq8lgahn1rv28k66pfd7ifs50mz"
   },
   "stable": {
    "version": [
@@ -30991,8 +30991,8 @@
   "repo": "flycheck/flycheck-haskell",
   "unstable": {
    "version": [
-    20181207,
-    1646
+    20190907,
+    2035
    ],
    "deps": [
     "dash",
@@ -31001,8 +31001,8 @@
     "let-alist",
     "seq"
    ],
-   "commit": "32ddff87165a7d3a35e7318bee997b5b4bd41278",
-   "sha256": "10pgsbagq6qj4mshq5sypv0q0khck92b30sc793b4g1pfpsxvgjn"
+   "commit": "4b585264826a9f0f35d121dd52aa0e381f336d69",
+   "sha256": "1cz8yxb06acm77jlr0mk9kx79v6pnhb97p2601pik9rndr824c2a"
   },
   "stable": {
    "version": [
@@ -45658,6 +45658,14 @@
   }
  },
  {
+  "ename": "howdoyou",
+  "commit": "eb5356c3e094e93c09398bfd628b1594c7e3ec20",
+  "sha256": "0dnlhkpnjag6vk7qyfgzc7p0fs1b01pc3dnm6bgw19ghdp1wvp8y",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "thanhvg/emacs-howdoyou"
+ },
+ {
   "ename": "howm",
   "commit": "0099a1f9b0efb3fc3a1420cfe71a647ec6458998",
   "sha256": "07wx3wmc51vm42s81km5sdbm600ax2pv83xg0116xsyn05za3bfn",
@@ -48991,15 +48999,15 @@
   "repo": "wandersoncferreira/ivy-clojuredocs",
   "unstable": {
    "version": [
-    20190810,
-    258
+    20190907,
+    2053
    ],
    "deps": [
     "edn",
     "ivy"
    ],
-   "commit": "7af9cef998a608a7f505120af4754779f3014106",
-   "sha256": "1zg730gby1l0h1vrhbzwba2ybh1rk7n9gj1a369mcd2kkdlsvw2m"
+   "commit": "dd33a25f1de4339f75f05689ed60fe1b1c97f554",
+   "sha256": "0km1par5jhhbdbn1sccpsz0drqvmmjg1905xyc2bbfc2xx38cg1i"
   }
  },
  {
@@ -53684,6 +53692,18 @@
    ],
    "commit": "07f6bf7081c7f3d31209921ae69366781ed20410",
    "sha256": "0xichnhrxrvwhvsr6m5nm6wml84s002d0w26x532cq27b7c757yx"
+  },
+  "stable": {
+   "version": [
+    0,
+    2,
+    0
+   ],
+   "deps": [
+    "json-process-client"
+   ],
+   "commit": "b25638f50dc297b52f4d2dd5666a285c5ebeec25",
+   "sha256": "04ra5ppalq7fy8cywxrw16l07rlz99gnyw8pqm89da9avpwdabiz"
   }
  },
  {
@@ -63929,6 +63949,30 @@
    ],
    "commit": "5c6f437203b0783b36a7aff4a578de4a0c8c4ee6",
    "sha256": "0y9fxrsxp1158fyjp4f69r7g2s7b6nbxlsmsb8clwqc8pmmg2z82"
+  }
+ },
+ {
+  "ename": "olivetti",
+  "commit": "10292536096e698f37e6ad81a4d5b6204beeb7cb",
+  "sha256": "0fkvw2y8r4ww2ar9505xls44j0rcrxc884p5srf1q47011v69mhd",
+  "fetcher": "github",
+  "repo": "rnkn/olivetti",
+  "unstable": {
+   "version": [
+    20190519,
+    1316
+   ],
+   "commit": "343bf1e9c9b31fdb608569cfa795f6176f9c91dc",
+   "sha256": "1csn3gza5ar1m2vrxglqkj1afrg1ghaarbsaya85fcpiihc26bj2"
+  },
+  "stable": {
+   "version": [
+    1,
+    6,
+    1
+   ],
+   "commit": "02272654f1d920ea2da5a4b553acd5e5cc096ab1",
+   "sha256": "0f7i2f42mlr27d9wa9h2zvz0k0xyqvwndzgz81x8gsm0w1iv15k9"
   }
  },
  {
@@ -77525,6 +77569,14 @@
    ],
    "commit": "131a2b859c6364b0ee5743e5d3ae390dbb64761c",
    "sha256": "1i4qshadp2v50bpljfwpimlnrnpzw8nc55aqr3apdjpwh5ss8z94"
+  },
+  "stable": {
+   "version": [
+    0,
+    1
+   ],
+   "commit": "2068ca6e5200da830d846cad9e94f04ff0ba3b62",
+   "sha256": "1qykijgy7hr609vrr6h8n390qgs68bhf707qf0z31n6a2ayhgbi4"
   }
  },
  {
