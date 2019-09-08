@@ -18439,14 +18439,14 @@
   "repo": "lujun9972/el-dmenu",
   "unstable": {
    "version": [
-    20190907,
-    1501
+    20190908,
+    44
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "5901dcb10afb5437fb289ba6b3786efb4d8c3929",
-   "sha256": "134vxqsa0i42a8z0j6ywvqjhf5vh5fcfasv6gydy3p3bcrj3qfar"
+   "commit": "e8cc9b27c79d3ecc252267c082ab8e9c82eab264",
+   "sha256": "098ncygms1r33zhjlq4fj2p4jc91v5whqrm3fazzdk7sd6dilf25"
   }
  },
  {
@@ -38132,8 +38132,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "1f7df822ebe1406b4f0df20b6f1b4f0571dfbe44",
-   "sha256": "1778l2v3rynjpl1szc97ig2skj1xmndmlalghb2lcyjy6aya17g8"
+   "commit": "1777a855fb553e9888e94c30927237614d8f884a",
+   "sha256": "0gbgxxkrvl71k2kiqddip28qy94y8yb4cmz8156cxnr2mr1b8nz1"
   },
   "stable": {
    "version": [
@@ -45661,9 +45661,21 @@
   "ename": "howdoyou",
   "commit": "eb5356c3e094e93c09398bfd628b1594c7e3ec20",
   "sha256": "0dnlhkpnjag6vk7qyfgzc7p0fs1b01pc3dnm6bgw19ghdp1wvp8y",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "thanhvg/emacs-howdoyou"
+  "repo": "thanhvg/emacs-howdoyou",
+  "unstable": {
+   "version": [
+    20190904,
+    358
+   ],
+   "deps": [
+    "org",
+    "promise",
+    "request"
+   ],
+   "commit": "b8efd2f5dfa58b56b7f3b0a563e3e27e6f7e0335",
+   "sha256": "1parb8icj673p0651qjhhn49rfg6pwcjh6gllzw1yl95lfj8xs69"
+  }
  },
  {
   "ename": "howm",
@@ -63959,20 +63971,20 @@
   "repo": "rnkn/olivetti",
   "unstable": {
    "version": [
-    20190519,
-    1316
+    20190907,
+    2028
    ],
-   "commit": "343bf1e9c9b31fdb608569cfa795f6176f9c91dc",
-   "sha256": "1csn3gza5ar1m2vrxglqkj1afrg1ghaarbsaya85fcpiihc26bj2"
+   "commit": "0c6b374c0ef1731415b76c3e762f79b68eb16397",
+   "sha256": "17qsl03qw0hw5s474ljcgfx0a8lx698mwww7wh1wci23mmn3f2pw"
   },
   "stable": {
    "version": [
     1,
-    6,
-    1
+    8,
+    0
    ],
-   "commit": "02272654f1d920ea2da5a4b553acd5e5cc096ab1",
-   "sha256": "0f7i2f42mlr27d9wa9h2zvz0k0xyqvwndzgz81x8gsm0w1iv15k9"
+   "commit": "57dbb94384d0ad0addd9b30c2dcade0362aa1476",
+   "sha256": "0ba30swqxxbpa8866chymywnahby1hk670zzkz44q49328i2wksj"
   }
  },
  {
@@ -66542,8 +66554,8 @@
     "s",
     "ts"
    ],
-   "commit": "eb722649c5f2897227aa8aef3a2b40c75b170377",
-   "sha256": "1v36vidj0jpaz18863fvnds1by6lg9k8r47kb6h6pym94rkh56g9"
+   "commit": "6aa3f1a341ea927f1f026efa133b2cfa7b3c6bda",
+   "sha256": "1mcjwjwyqfbldnjbppyqyr4s3h8i2hbry9i1ddrhiqvlrgp68ykg"
   },
   "stable": {
    "version": [
@@ -88103,6 +88115,25 @@
   }
  },
  {
+  "ename": "taskrunner",
+  "commit": "f0e0354a4da2e675406068d158c7e532cd5ed083",
+  "sha256": "0dyqqlafzxn0irmqwfh9rjysn1vm0wxlapg3pzgqps1w4mkkvwc5",
+  "fetcher": "github",
+  "repo": "emacs-taskrunner/emacs-taskrunner",
+  "unstable": {
+   "version": [
+    20190907,
+    1902
+   ],
+   "deps": [
+    "async",
+    "projectile"
+   ],
+   "commit": "368cc50d81cf0a0b6668d9dd2508135c78f8c6b5",
+   "sha256": "1xasfwdxlq030v4nz0s3q498dzndw70lsg6sjpz0i1qg5250lwir"
+  }
+ },
+ {
   "ename": "tawny-mode",
   "commit": "ea9a114ff739f7d6f5d4c3167f5635ddf79bf60c",
   "sha256": "1xaw1six1n6rw1283fdyl15xcf6m7ngvq6gqlz0xzpf232c4b0kr",
@@ -89278,8 +89309,8 @@
     20180905,
     1050
    ],
-   "commit": "c880f3e074d4521673f59635bc2050a895bb8a2c",
-   "sha256": "0iwajjcb22d78bbrglqrw8vcrsxlypa4blaq8s43hy5cx6nsjza1"
+   "commit": "bd07514d8ad340794c442df2dbe09016fe06d11f",
+   "sha256": "08xkfkx4k1dii0h14173p8h5ypz79b495amv22skbwffcw58bhl8"
   },
   "stable": {
    "version": [
