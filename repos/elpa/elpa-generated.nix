@@ -2385,10 +2385,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.2.8";
+        version = "0.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.2.8.tar";
-          sha256 = "16sdqh93d2i9dxjibbhx4afakn150qc6xy2ifd83kx85c67y95kl";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.3.1.tar";
+          sha256 = "1h6s5k156mbbkaysb07vcb13k3izs91pwigzcfh6jvv3lak4azg5";
         };
         packageRequires = [ emacs ];
         meta = {
