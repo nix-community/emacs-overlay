@@ -3001,10 +3001,10 @@
       elpaBuild {
         pname = "ssh-deploy";
         ename = "ssh-deploy";
-        version = "3.1.9";
+        version = "3.1.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ssh-deploy-3.1.9.tar";
-          sha256 = "110mgw4adixxbpwjwv023w8rx5h1q5aajmv7vynnrpd6gfzq00kb";
+          url = "https://elpa.gnu.org/packages/ssh-deploy-3.1.10.tar";
+          sha256 = "0gckc6yhgi8pn3s8vdyzz8x1s2d4wmsw6yjwsaqcr5nra50glbpg";
         };
         packageRequires = [ emacs ];
         meta = {
