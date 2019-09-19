@@ -636,16 +636,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    csv-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+    csv-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.7";
+        version = "1.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/csv-mode-1.7.el";
-          sha256 = "0r4bip0w3h55i8h6sxh06czf294mrhavybz0zypzrjw91m1bi7z6";
+          url = "https://elpa.gnu.org/packages/csv-mode-1.8.el";
+          sha256 = "1ywgc61pnawiwfpjgxavfpfxqd3dm9niq6srbc70pd54ca6yqby6";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/csv-mode.html";
           license = lib.licenses.free;
