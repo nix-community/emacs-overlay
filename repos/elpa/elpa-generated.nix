@@ -1327,10 +1327,10 @@
       elpaBuild {
         pname = "gnorb";
         ename = "gnorb";
-        version = "1.6.1";
+        version = "1.6.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gnorb-1.6.1.tar";
-          sha256 = "0n4460hsmcc3l0y3nb3fysvh33cjwgv0a3mkc26xcx8v85zl7m63";
+          url = "https://elpa.gnu.org/packages/gnorb-1.6.2.tar";
+          sha256 = "1hggc2rq0n8df24kim8z642j2r1ps59f43rawwjd5dc6akxpa08b";
         };
         packageRequires = [ cl-lib ];
         meta = {
