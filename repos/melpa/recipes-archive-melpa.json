@@ -9534,8 +9534,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20190920,
-    850
+    20190921,
+    858
    ],
    "deps": [
     "clojure-mode",
@@ -9546,8 +9546,8 @@
     "sesman",
     "spinner"
    ],
-   "commit": "b2449eca413c5800b0239588c5d4345d8381eff6",
-   "sha256": "1lrmzxhny6bldzvljqgd9hih7rg62fqdxv9dk65qnsm16vncmkgv"
+   "commit": "c624de59ed6a9a50d1f06a3c3934818b76244cd3",
+   "sha256": "0ffbz665l9xdy5q5blnbxzp0agcwyhi4fcidxvvwhfxl6q8mximb"
   },
   "stable": {
    "version": [
@@ -42446,15 +42446,15 @@
   "repo": "torgeir/helm-js-codemod.el",
   "unstable": {
    "version": [
-    20171106,
-    1044
+    20190921,
+    942
    ],
    "deps": [
     "helm-core",
     "js-codemod"
    ],
-   "commit": "18503d94e64418e8ea5c5854f197ae9f3009cdbf",
-   "sha256": "0d5fsvfa017gda0jryjdvva1q04nry6grc1433gvgrqqp6vxayxc"
+   "commit": "29b1b3c441f0d7e450a3c65b5ff9e72023dc6314",
+   "sha256": "15lksdyk5z4xszfsdk290pm6ri5r9c2ki9jxmwppkqpd52w2dxck"
   }
  },
  {
@@ -50749,11 +50749,11 @@
   "repo": "torgeir/js-codemod.el",
   "unstable": {
    "version": [
-    20171104,
-    1154
+    20190921,
+    941
    ],
-   "commit": "014e56c846487d1eeaf8a91dd503b9d96eb1510a",
-   "sha256": "0s07ypjlqsx2pgq89wmr69w9p7ybc62abqp53kzf5gmdl6fdzgxq"
+   "commit": "056bdf3e5e0c807b8cf17edb5834179a90fb722b",
+   "sha256": "1s87jy1v7vjqpl09w2lafhliqhc5hm9061n7f2gfiw0hhv1xp6bw"
   }
  },
  {
@@ -51853,15 +51853,15 @@
   "repo": "ogdenwebb/emacs-kaolin-themes",
   "unstable": {
    "version": [
-    20190812,
-    1835
+    20190921,
+    751
    ],
    "deps": [
     "autothemer",
     "cl-lib"
    ],
-   "commit": "9bc8dc1b69e6d858a523b98603201f60a51825fa",
-   "sha256": "0jb0z1p1n3fdmqlwrv7x0ndcccijdw6025gw6sm6qdyj09a241vw"
+   "commit": "97c8d71977f12e4b791bdd0646c3e128bbe9fc1b",
+   "sha256": "0jv817fpbvadqvl44xf9ai8iw2w6jhlc3gsvb9by6cr6rbqyz9js"
   },
   "stable": {
    "version": [
@@ -66799,15 +66799,15 @@
   "repo": "oer/org-re-reveal-ref",
   "unstable": {
    "version": [
-    20190819,
-    921
+    20190921,
+    744
    ],
    "deps": [
     "org-re-reveal",
     "org-ref"
    ],
-   "commit": "12a85e3f6f1b2f4c9e0169c8642a78f71d933633",
-   "sha256": "0c03rd2rr43hbm4s9fd05qmhy98yvqdxg8da3dkwizkynr47f2yn"
+   "commit": "03aca420afeb6f701d2fae5d2add9eec19c89d10",
+   "sha256": "1r3daccda3km1s7r2bs03wivzczz07iyh8bbjsdf0fss2d8acdrg"
   }
  },
  {
@@ -79509,16 +79509,17 @@
   "repo": "dajva/rg.el",
   "unstable": {
    "version": [
-    20190917,
-    1351
+    20190918,
+    811
    ],
    "deps": [
     "cl-lib",
     "s",
+    "transient",
     "wgrep"
    ],
-   "commit": "316dd7e3e7d9fa1f55a5cc3233469970589a2dee",
-   "sha256": "0wc2qmzfc77ff25cml1fb1pdng57jnwj8gxkh67p0gh8irl62714"
+   "commit": "977cf8585fd2acf15c966707be5e605f247f7971",
+   "sha256": "0q5fa22frldrlw9ma572dg3myi941lip2zbfs6rahin7jqxlimbr"
   },
   "stable": {
    "version": [
