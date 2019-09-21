@@ -11275,6 +11275,14 @@
   }
  },
  {
+  "ename": "comint-hyperlink",
+  "commit": "3c3bc7c897bfc5fafcda33d9837e6f3ff4da3692",
+  "sha256": "17fvg00r2wjwxa747v8yvgv70rd287crhhxxmp6nchfklw408ai6",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "matthewbauer/comint-hyperlink"
+ },
+ {
   "ename": "comint-intercept",
   "commit": "7d38188ec2d6e16714de9bb24ebd1ea89c7df3da",
   "sha256": "1m2fn02n7aphlqmiaxgwp8jqg60sq4001cnkdxn5wb3w1hxy5qvq",
@@ -25509,14 +25517,14 @@
   "repo": "emacs-ess/ESS",
   "unstable": {
    "version": [
-    20190917,
-    917
+    20190921,
+    1258
    ],
    "deps": [
     "julia-mode"
    ],
-   "commit": "8b48aae3567e7af6d8a84dfe3b017cb099d3414d",
-   "sha256": "0b8n2f7lkgxr498106lhwcldvq0xjhbxmh3xqgy4jp8v0rhh6rli"
+   "commit": "9e522405814b3ae7a81853930d7c97d50cdadd4f",
+   "sha256": "0kfiyf5v66dbhwcpjj8ndc2ysnn767id5gws7gjng8q6wmkq97na"
   },
   "stable": {
    "version": [
@@ -29543,10 +29551,10 @@
    "version": [
     0,
     1,
-    4
+    5
    ],
-   "commit": "bac709ac1235751952d6022dddc6307d9135d096",
-   "sha256": "0a74ghmjjrxfdhk4mvq6lar4w6l6lc4iilabs99smqr2fn5rsslq"
+   "commit": "688c82decad108029b0434e3bce6c3d129ede6f3",
+   "sha256": "1s961nhwxpb9xyc26rxpn6hvwn63sng452l03mm2ply32b247f9p"
   }
  },
  {
@@ -53523,11 +53531,11 @@
   "repo": "ledger/ledger-mode",
   "unstable": {
    "version": [
-    20190901,
-    1439
+    20190921,
+    1313
    ],
-   "commit": "5067e40805c40e83424d206584838ffa8c8117c7",
-   "sha256": "093gbki5cvjscrl77nabh845axkxczqwbamwb4svc7wcky5xlpmx"
+   "commit": "47a186ecc3f7e270c2eb93cbe659e5fa07caeff6",
+   "sha256": "0pdj1lfcgxkncvk13ql7bsjldqlyz7lhv99hbw5z31c147mfwb73"
   },
   "stable": {
    "version": [
@@ -95180,6 +95188,14 @@
    "commit": "8ac52da3a09cf46087720e30cf730d00f140cde6",
    "sha256": "1c7g8f3jr7bb0xxprammfg433gd63in5iiiaq8rjmc94h6hdcys3"
   }
+ },
+ {
+  "ename": "with-proxy",
+  "commit": "295a85f94a804b72475b81b324a6120569b8134a",
+  "sha256": "18453b3687iywd62vnh47yig998l6c8vbc9py1rba1m6a9q01vq0",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "twlz0ne/with-proxy.el"
  },
  {
   "ename": "with-simulated-input",
