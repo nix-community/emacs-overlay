@@ -11278,9 +11278,25 @@
   "ename": "comint-hyperlink",
   "commit": "3c3bc7c897bfc5fafcda33d9837e6f3ff4da3692",
   "sha256": "17fvg00r2wjwxa747v8yvgv70rd287crhhxxmp6nchfklw408ai6",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "matthewbauer/comint-hyperlink"
+  "repo": "matthewbauer/comint-hyperlink",
+  "unstable": {
+   "version": [
+    20190907,
+    1856
+   ],
+   "commit": "7aae3ba615eec1d96f59a386a2fcf98d5b659707",
+   "sha256": "1r2rxda7jhb3rydzmwk9yxscmb6rj54jz9ihqsglfmlv8p2g8q6w"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    4
+   ],
+   "commit": "7aae3ba615eec1d96f59a386a2fcf98d5b659707",
+   "sha256": "1r2rxda7jhb3rydzmwk9yxscmb6rj54jz9ihqsglfmlv8p2g8q6w"
+  }
  },
  {
   "ename": "comint-intercept",
@@ -17041,6 +17057,21 @@
   }
  },
  {
+  "ename": "diminish-buffer",
+  "commit": "1024b0775ac096e5c4863c6213b7764318a0c5f7",
+  "sha256": "0zix97grm613ya2phxizx9nqcs6pwn49x0ycwd9vbj7hgkpvcvhr",
+  "fetcher": "github",
+  "repo": "jcs090218/diminish-buffer",
+  "unstable": {
+   "version": [
+    20190921,
+    1647
+   ],
+   "commit": "e137baa5e258a7938c713253fc9cc63f8674f841",
+   "sha256": "03068nyfb3cz0lz8z3qcwjlsvqaw9dfg3g8w13gmpwsmxaxlbv3i"
+  }
+ },
+ {
   "ename": "dimmer",
   "commit": "8ae80e9202d69ed3214325dd15c4b2f114263954",
   "sha256": "0w8n5svckk1jp8856pg2gkws9798prqjjkdqf8ili2hjcqnd1a3r",
@@ -21108,7 +21139,7 @@
    "version": [
     0,
     16,
-    1
+    2
    ],
    "deps": [
     "auto-complete",
@@ -21121,8 +21152,8 @@
     "skewer-mode",
     "websocket"
    ],
-   "commit": "43107fc5c85722899534700daa7f5e73fe59a933",
-   "sha256": "05ns2ddr012dmw3x651lr4bhn9x0vrphivymdmhzc4bsxsisbd32"
+   "commit": "a2872eff6c18a0706c531e9316c792a9fb99826f",
+   "sha256": "0i182ic59wnhqmik15qsqjsqza5fn67qw18i5gvvj7dsn3v05vac"
   }
  },
  {
@@ -23157,6 +23188,24 @@
    ],
    "commit": "8c5f095458aa37e4146b80d9319ee63571734127",
    "sha256": "1c84gxr1majqj4b59wgdy3lzm3ap66w9qsrnkx8hdbk9895ak81g"
+  }
+ },
+ {
+  "ename": "emacsql-sqlite3",
+  "commit": "5a25cf38b4f39b1c4d259143f1586fdad605b101",
+  "sha256": "06zm6vs6sry2lwksikxp0rjyvs1rgiqyapyw7m8hgy336h810v84",
+  "fetcher": "github",
+  "repo": "cireu/emacsql-sqlite3",
+  "unstable": {
+   "version": [
+    20190912,
+    425
+   ],
+   "deps": [
+    "emacsql"
+   ],
+   "commit": "f7f515e1b19e0d3eb1ee7a3b028a9d99e8776eb8",
+   "sha256": "0kzn4dbdh5p3i3rnnx0idskksqpzg7kzadjk3xv920zmxl3nmfc0"
   }
  },
  {
@@ -26157,15 +26206,15 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20190916,
-    214
+    20190921,
+    1730
    ],
    "deps": [
     "cl-lib",
     "evil"
    ],
-   "commit": "74e098f79cfb9e8e6391c526154d881c602a90ae",
-   "sha256": "1gqwb9i0iy08gsp8yg75gmcdxmis102jcr1nsfszjv4zrmhiswnm"
+   "commit": "40176554062d5392c4379a623b30e96ffe50d1e2",
+   "sha256": "1bikf62plc8fq0850kfq1p7029djy5s0f6kdhdx8jiw87d1n2ziw"
   },
   "stable": {
    "version": [
@@ -50540,14 +50589,14 @@
   "repo": "nyyManni/jiralib2",
   "unstable": {
    "version": [
-    20190917,
-    1733
+    20190921,
+    1843
    ],
    "deps": [
     "request"
    ],
-   "commit": "3d3fb0a65260a267123cddf52ee100561ef504fd",
-   "sha256": "0a6x1d6h85b14wfhmnmss9cvbkalfjmybq7bm1187g3afg3ycy7g"
+   "commit": "c20916c39f08c1e4084aeba6701743e77101da78",
+   "sha256": "0r3i558y42gqlpvfkvd1qpkrd6rzysl3zl6zc52s3bhg3y5jdnl4"
   }
  },
  {
@@ -62045,6 +62094,27 @@
    ],
    "commit": "5a3f29174b3a4b2b2e7a700a862f3b16a942687e",
    "sha256": "1skbjmyikzyiic470sngskggs05r35m8vzm69wbmrjapczginnak"
+  }
+ },
+ {
+  "ename": "nnhackernews",
+  "commit": "40fec106c676f8207ec9c4553c3ec16c626b098c",
+  "sha256": "0nqbfzyb61a80900hg2sqimjvr765a3f94v07by55d1smifzwnff",
+  "fetcher": "github",
+  "repo": "dickmao/nnhackernews",
+  "unstable": {
+   "version": [
+    20190921,
+    1710
+   ],
+   "deps": [
+    "anaphora",
+    "dash",
+    "dash-functional",
+    "request"
+   ],
+   "commit": "0cd0064b0499a071f22775e9e73f10b0f329d017",
+   "sha256": "1688sb3xakqc646y3m43kr1rlpss3qz9f64jnm7pkdqj6pqicy59"
   }
  },
  {
@@ -79526,8 +79596,8 @@
     "transient",
     "wgrep"
    ],
-   "commit": "977cf8585fd2acf15c966707be5e605f247f7971",
-   "sha256": "0q5fa22frldrlw9ma572dg3myi941lip2zbfs6rahin7jqxlimbr"
+   "commit": "bcfa0eb88157e136d218afb8eeff0cf7d7fc7f9a",
+   "sha256": "1zr50pb3m668yhhkklg94padfx6f5whgv933schbz51ils2ihd4m"
   },
   "stable": {
    "version": [
@@ -86230,8 +86300,8 @@
     20190921,
     111
    ],
-   "commit": "25ede73683b12657c62cf204a2da2d0e3e67f3ad",
-   "sha256": "0h79j24a98sx4g430jkypbj7p6rnxc54pbcg0p86hkpmb0zlb50j"
+   "commit": "80930bb4f222b8fa11b1e64ba2f2905c0d3dd228",
+   "sha256": "1sqana7wy8r7l6zy8sjv89a92qqlxn4z1zckbjk2zld68hp6q6cd"
   },
   "stable": {
    "version": [
@@ -86252,14 +86322,14 @@
   "unstable": {
    "version": [
     20190921,
-    111
+    1827
    ],
    "deps": [
     "stan-mode",
     "yasnippet"
    ],
-   "commit": "25ede73683b12657c62cf204a2da2d0e3e67f3ad",
-   "sha256": "0h79j24a98sx4g430jkypbj7p6rnxc54pbcg0p86hkpmb0zlb50j"
+   "commit": "80930bb4f222b8fa11b1e64ba2f2905c0d3dd228",
+   "sha256": "1sqana7wy8r7l6zy8sjv89a92qqlxn4z1zckbjk2zld68hp6q6cd"
   },
   "stable": {
    "version": [
@@ -89475,8 +89545,8 @@
     20180905,
     1050
    ],
-   "commit": "21ef6dc0625e6befbffbd5878265ee9985406151",
-   "sha256": "012kfjjb5jpzairp17cdafry8mw5v8w2dqplzhx41bw18y88qv67"
+   "commit": "6f5002f0b5d9d16f5799f44fbbdabb6ce3ea4db4",
+   "sha256": "1dsliszx71643qnw4dvhj7c39mg6v8pkzmlmp79h0grja8bxfpf2"
   },
   "stable": {
    "version": [
@@ -91545,11 +91615,11 @@
   "repo": "jackkamm/undo-propose-el",
   "unstable": {
    "version": [
-    20190909,
-    427
+    20190921,
+    1533
    ],
-   "commit": "47b7df0c97ad0099537d1ade21c4c52f0618a945",
-   "sha256": "078bs8lk9f0lklxqh15976fffayg5z5386y59nxxfhm27lmwgka9"
+   "commit": "505d79053590a411be6d84e1bcd4ce13485e96f0",
+   "sha256": "1kvpwcry6q28cw0xrzmss0d05kzn1ay4y2c55k3sb2157izxvafn"
   }
  },
  {
@@ -95193,9 +95263,16 @@
   "ename": "with-proxy",
   "commit": "295a85f94a804b72475b81b324a6120569b8134a",
   "sha256": "18453b3687iywd62vnh47yig998l6c8vbc9py1rba1m6a9q01vq0",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "twlz0ne/with-proxy.el"
+  "repo": "twlz0ne/with-proxy.el",
+  "unstable": {
+   "version": [
+    20190920,
+    24
+   ],
+   "commit": "787b9af8c75684415148d620eedb593e89c3f4bd",
+   "sha256": "1l6pbqv17hsqhq3vfz7bydyy02y66r211f4valg3aaiq26fm80kl"
+  }
  },
  {
   "ename": "with-simulated-input",
