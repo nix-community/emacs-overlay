@@ -26240,15 +26240,16 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20190926,
-    221
+    20190929,
+    818
    ],
    "deps": [
+    "annalist",
     "cl-lib",
     "evil"
    ],
-   "commit": "492b20cc735a026a70c58f5438c341a112562e14",
-   "sha256": "1b2zcpfj7ivsn7hpnv9a11f22d6yqz48dqkf2xjmf7y2cq8fmi56"
+   "commit": "1c44439f340dd824195086b64d5abdc33909f15d",
+   "sha256": "1wvfryjkl528zf3fgk71lvp5wnbhd460wirggqr0ryxnisvcbdgr"
   },
   "stable": {
    "version": [
@@ -27932,8 +27933,8 @@
     20190911,
     1319
    ],
-   "commit": "07793e2bd03ca3f473b1ecf6ed4637f7d2982ce0",
-   "sha256": "13zdsqnv6sasai8j7wlhlfp687s3a8yarrrwnxjvy5wbjjn604sk"
+   "commit": "752a3f280a709d951b454dbeb979c14fe848e21c",
+   "sha256": "10kgwfsdc5g19gyymw4cjqaxfhmbsdxaiph24r609drbrhdvj3p3"
   },
   "stable": {
    "version": [
@@ -27958,8 +27959,8 @@
    "deps": [
     "ewal"
    ],
-   "commit": "07793e2bd03ca3f473b1ecf6ed4637f7d2982ce0",
-   "sha256": "13zdsqnv6sasai8j7wlhlfp687s3a8yarrrwnxjvy5wbjjn604sk"
+   "commit": "752a3f280a709d951b454dbeb979c14fe848e21c",
+   "sha256": "10kgwfsdc5g19gyymw4cjqaxfhmbsdxaiph24r609drbrhdvj3p3"
   },
   "stable": {
    "version": [
@@ -27988,8 +27989,8 @@
     "ewal",
     "spacemacs-theme"
    ],
-   "commit": "07793e2bd03ca3f473b1ecf6ed4637f7d2982ce0",
-   "sha256": "13zdsqnv6sasai8j7wlhlfp687s3a8yarrrwnxjvy5wbjjn604sk"
+   "commit": "752a3f280a709d951b454dbeb979c14fe848e21c",
+   "sha256": "10kgwfsdc5g19gyymw4cjqaxfhmbsdxaiph24r609drbrhdvj3p3"
   },
   "stable": {
    "version": [
@@ -54467,8 +54468,8 @@
   "repo": "abo-abo/lispy",
   "unstable": {
    "version": [
-    20190925,
-    1020
+    20190929,
+    1105
    ],
    "deps": [
     "ace-window",
@@ -54477,8 +54478,8 @@
     "iedit",
     "zoutline"
    ],
-   "commit": "17cfa867ae81d2024a242b17d7b61f5840c22ec0",
-   "sha256": "1l13yja6s6jnsc00bv5axyfgwl6a5lvhmjjhm44fwi4rpjfl0rj4"
+   "commit": "2c237274c2a4ab9d2c10f682c7f521ce07aa44e5",
+   "sha256": "0w22wnhym7jqmxnkdpq6yay2fyl0p3h024h5d27fjd9q04wwg4cf"
   },
   "stable": {
    "version": [
@@ -67025,28 +67026,28 @@
   "repo": "oer/org-re-reveal",
   "unstable": {
    "version": [
-    20190928,
-    1343
+    20190929,
+    957
    ],
    "deps": [
     "htmlize",
     "org"
    ],
-   "commit": "26e18f65b461ed347436029cd10c6bf39a281c1a",
-   "sha256": "09xsmcn2zmknc42f3z71prgnj7my7cw07b0vz60zprippsf7b10f"
+   "commit": "82a8c239b7dd9b32b503d1ab4641792d936a7ee2",
+   "sha256": "020147d65lsh4m08v6sz081q8wpx0na84gvhyvs44ljki0pda80k"
   },
   "stable": {
    "version": [
     2,
-    6,
-    1
+    7,
+    0
    ],
    "deps": [
     "htmlize",
     "org"
    ],
-   "commit": "64bfae23b8e6afeffb87abd9acbd17cea89818fd",
-   "sha256": "0cinfgcayrp5zc4zzvwyzlk39r7jpkhn5lswa7729ai8z1b7c5kr"
+   "commit": "82a8c239b7dd9b32b503d1ab4641792d936a7ee2",
+   "sha256": "020147d65lsh4m08v6sz081q8wpx0na84gvhyvs44ljki0pda80k"
   }
  },
  {
@@ -67405,14 +67406,14 @@
   "unstable": {
    "version": [
     20190929,
-    247
+    722
    ],
    "deps": [
     "dash",
     "dash-functional"
    ],
-   "commit": "a534b82d26b23f9408a7a0867d1d0621a301f7c8",
-   "sha256": "0cvrh5vh35nrci0cgivpbsq0ycz3468qii558ai8dmdsq7zpxhva"
+   "commit": "74a57db0cedecc940129163d48b811ee4b9c579d",
+   "sha256": "0rk872lb064mi0lskq64900khf0d3lv33s62zjqpp4l78w4nbb6g"
   },
   "stable": {
    "version": [
@@ -67443,8 +67444,8 @@
     "org-starter",
     "swiper"
    ],
-   "commit": "a534b82d26b23f9408a7a0867d1d0621a301f7c8",
-   "sha256": "0cvrh5vh35nrci0cgivpbsq0ycz3468qii558ai8dmdsq7zpxhva"
+   "commit": "74a57db0cedecc940129163d48b811ee4b9c579d",
+   "sha256": "0rk872lb064mi0lskq64900khf0d3lv33s62zjqpp4l78w4nbb6g"
   },
   "stable": {
    "version": [
@@ -71562,8 +71563,8 @@
     20160321,
     2237
    ],
-   "commit": "c88a9a3050197840edfe145f11e0bb9488de32f4",
-   "sha256": "1wy5qpnfri1gha2cnl6q20qar8dbl2mimpb43bnhmm2g3wgjyad6"
+   "commit": "1d410a4e48db07a942e54d3b83a85c7a7ec0aab3",
+   "sha256": "1b7csqypqkalkzq6vrbq5ry1gdk0qnhnk43rlj514mph0s1nywdd"
   }
  },
  {
@@ -93704,11 +93705,11 @@
   "repo": "blak3mill3r/vmd-mode",
   "unstable": {
    "version": [
-    20180223,
-    1356
+    20190929,
+    735
    ],
-   "commit": "24e38a20951dfad6e3e985c7cc6286c1e271da5f",
-   "sha256": "00anpbnf0h6iikhpqz4mss507j41xwvv27svw41kpgcwsnrmrqwm"
+   "commit": "aa9b753601ee1ed31b4f717629179ce7a2cacba5",
+   "sha256": "0gc1c5q1krqlbaq0lb7p29biwpl32lgv4c6527c322a21in6a5pb"
   }
  },
  {
