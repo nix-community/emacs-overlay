@@ -2725,10 +2725,10 @@
       elpaBuild {
         pname = "relint";
         ename = "relint";
-        version = "1.10";
+        version = "1.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/relint-1.10.el";
-          sha256 = "1l0lh4pkksw7brmhhbaikwzs4zkgd2962ks1zy7m262dvkhxjfv8";
+          url = "https://elpa.gnu.org/packages/relint-1.11.tar";
+          sha256 = "0c7d35kp5k11fnyjrq9cg8i2r005gs57pmb3rvpf8ilwv0scn1m7";
         };
         packageRequires = [ xr ];
         meta = {
