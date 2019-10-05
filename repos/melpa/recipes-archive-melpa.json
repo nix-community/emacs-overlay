@@ -9585,8 +9585,8 @@
     "sesman",
     "spinner"
    ],
-   "commit": "86b4372e386d0e788a301f6e1adcf94ffba02eef",
-   "sha256": "1jqzq1jm9g323qr9n0lfa1hh8y3mn4lv3pa1q7y220c6yl04m4wz"
+   "commit": "6f0f25b2305bf10175c8dbfebb39c123d75322f9",
+   "sha256": "1gj7ch6jwrax338hz2dqybfgjb28vbcbgds2vybnk4mq2w0vlnkm"
   },
   "stable": {
    "version": [
@@ -11183,11 +11183,11 @@
   "repo": "purcell/color-theme-sanityinc-tomorrow",
   "unstable": {
    "version": [
-    20191002,
-    943
+    20191005,
+    930
    ],
-   "commit": "a2f73d19946475f91836877045ff6037730cb77e",
-   "sha256": "03yrnhsp1afa3j8i8ny2rv4b8cblf6alz2sgdpqlm6qpvy233hqx"
+   "commit": "0ce1239a647048f2592012aa856413569ae664d0",
+   "sha256": "1shmbw3x1p4v7v5j2pv64qb764lmzsd3n5b5qbhjaxml8hz5vjqm"
   },
   "stable": {
    "version": [
@@ -14802,28 +14802,30 @@
   "repo": "hlolli/csound-mode",
   "unstable": {
    "version": [
-    20190321,
-    1559
+    20191005,
+    807
    ],
    "deps": [
+    "highlight",
     "multi",
     "shut-up"
    ],
-   "commit": "f4bc9236bbc5a696f7ff32d9402749536a332546",
-   "sha256": "0ds6cigm3pncsa5blqzfgisjn9v898ayj6nq2va6ssg73k0qfx1r"
+   "commit": "7d3f78477c725719be9c4a98b403a5aa409e4202",
+   "sha256": "154xnfspbx2fsk32h34ljw7mzsbsdymscmi0rqdc6r9bbbwapwqw"
   },
   "stable": {
    "version": [
     0,
     2,
-    0
+    1
    ],
    "deps": [
+    "highlight",
     "multi",
     "shut-up"
    ],
-   "commit": "5a892e6ad72e7844e8e14c0da04fcb6bc125fe5e",
-   "sha256": "1gzg2r7agllz2asp7dbxykydpnw3861whs2pfhr3fwwb39xf1pva"
+   "commit": "389be230aecfea03e8043e8ea6884ea21ea9230b",
+   "sha256": "1c88ak0jaj51fwiqniqxd7xyk23wjl9m57znzm8j267ld8g12znp"
   }
  },
  {
@@ -18646,8 +18648,8 @@
   "repo": "Silex/docker.el",
   "unstable": {
    "version": [
-    20191001,
-    2234
+    20191005,
+    650
    ],
    "deps": [
     "dash",
@@ -18657,8 +18659,8 @@
     "s",
     "tablist"
    ],
-   "commit": "bdd609b0541a159b1546290d3da279dc1d7eb21e",
-   "sha256": "1bfxif3mynn9209p0s5rjpfmg0qabz3p3iyx9nwc48fmx9886ab2"
+   "commit": "5027a3d541b1dcbb2f7ec0bac04a30dceeca7ce8",
+   "sha256": "1n4k5ar9h2a11f68nqdgmqnwpnlym5862vls89wkjqxl02ss34zn"
   },
   "stable": {
    "version": [
@@ -21097,15 +21099,15 @@
   "repo": "joaotavora/eglot",
   "unstable": {
    "version": [
-    20190926,
-    1204
+    20191005,
+    1050
    ],
    "deps": [
     "flymake",
     "jsonrpc"
    ],
-   "commit": "cf161b0d91646e296fefcbac5c2b032d2ea6444d",
-   "sha256": "107zrcrk1290afrniv4cd5bcxnbjsay89wdr4kggf1cp5vyfrnqj"
+   "commit": "28d8ffe8a8098e11e6e39d8150ab7766ebcd5088",
+   "sha256": "0av30dagcs48xg8825xlc86zb8n0pvh17r3gd1y5s31w1dshi6w0"
   },
   "stable": {
    "version": [
@@ -21859,14 +21861,14 @@
   "repo": "davidshepherd7/electric-operator",
   "unstable": {
    "version": [
-    20190710,
-    858
+    20191005,
+    1109
    ],
    "deps": [
     "dash"
    ],
-   "commit": "97f600ccd9244f99ac802bf8cbd4a8241fbcb892",
-   "sha256": "08dpn776jcypibi3x7mlkxcpsd0i65dws206zwjc19nl3qan4a11"
+   "commit": "71d65e4abaef5e49a9e1b8fce706ce0296f9d5e2",
+   "sha256": "168ri3wahr6zjv2dvqc3jbqih2m4d0mfzp4gqw5mss000fqmx9ns"
   },
   "stable": {
    "version": [
@@ -37344,26 +37346,26 @@
   "repo": "benma/go-dlv.el",
   "unstable": {
    "version": [
-    20190413,
-    1623
+    20191005,
+    829
    ],
    "deps": [
     "go-mode"
    ],
-   "commit": "df03ade331d8fb46acc57ef358e696bc36129e04",
-   "sha256": "0sfx84cbxn8d3gsjg0zjam4yc7pjlyp3g94xa3xv91k71ncnijs1"
+   "commit": "d3cca689e76b71e0ef0ab827c7e01cd9042d2095",
+   "sha256": "0qdbfg9ihxwywjyir3lj1azwsaw425f90gp3182q7165j5v43k9w"
   },
   "stable": {
    "version": [
     0,
-    2,
+    3,
     0
    ],
    "deps": [
     "go-mode"
    ],
-   "commit": "df03ade331d8fb46acc57ef358e696bc36129e04",
-   "sha256": "0sfx84cbxn8d3gsjg0zjam4yc7pjlyp3g94xa3xv91k71ncnijs1"
+   "commit": "d3cca689e76b71e0ef0ab827c7e01cd9042d2095",
+   "sha256": "0qdbfg9ihxwywjyir3lj1azwsaw425f90gp3182q7165j5v43k9w"
   }
  },
  {
@@ -64268,14 +64270,14 @@
   "repo": "oer/oer-reveal",
   "unstable": {
    "version": [
-    20191004,
-    1335
+    20191005,
+    1026
    ],
    "deps": [
     "org-re-reveal"
    ],
-   "commit": "32132f5c037c33bacd6c9b2fbeb59ea6fccf5615",
-   "sha256": "06pixpkpyr3v8mps3qvd30habz1sdhd2ph9ham9bqdwy7lcakrl1"
+   "commit": "6235952c8e18e5744ff25075873a88948adaa964",
+   "sha256": "060zlsh99z5d5587vjphadkbhq5ndp8zpz219214wgqsiqa8316y"
   }
  },
  {
