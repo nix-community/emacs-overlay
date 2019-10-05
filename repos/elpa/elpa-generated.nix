@@ -1521,10 +1521,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "7.0.3";
+        version = "7.0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/hyperbole-7.0.3.tar";
-          sha256 = "1mvplaxfjji00gg8rkhidfsdl8knwi6c0ai149zm4djsfaww3ikh";
+          url = "https://elpa.gnu.org/packages/hyperbole-7.0.6.tar";
+          sha256 = "08gi4v76s53nfmn3s0qcxc3zii0pspjfd6ry7jq1kgm3z34x8hab";
         };
         packageRequires = [ emacs ];
         meta = {
