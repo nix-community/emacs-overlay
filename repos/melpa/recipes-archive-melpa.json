@@ -3607,14 +3607,14 @@
   "repo": "chuntaro/emacs-async-await",
   "unstable": {
    "version": [
-    20170208,
-    1150
+    20191006,
+    422
    ],
    "deps": [
     "promise"
    ],
-   "commit": "56ab90e4019ed1f81fd4ad9e8701b5cec7ffa795",
-   "sha256": "1k6wisls6dqn63r4f4brnhrjbvzqpigw2zxdl9v8g1qcw49spk5s"
+   "commit": "c1348cc02ed54ccf49b7f39f1ebbf7df17e63c74",
+   "sha256": "18li54j0rnx64nnaw2wp2nl92msdryb7sjxmaip6b88q9qiwkdi5"
   }
  },
  {
@@ -10673,8 +10673,8 @@
     20190710,
     1319
    ],
-   "commit": "3da9733142f15d86e798320226d84ccb71a337f9",
-   "sha256": "0kbvhp3y8jf899969hrhnw6bvj4nkq14h3xz59a6fysmnwjjxxf5"
+   "commit": "f2bf78ccf72182b12615dcc4efbab7b3240411e2",
+   "sha256": "0m95ypy4vqidhxxqg1k9ag44xgi734wygxb1z1k6krmal66p0zxf"
   },
   "stable": {
    "version": [
@@ -21192,8 +21192,8 @@
   "repo": "millejoh/emacs-ipython-notebook",
   "unstable": {
    "version": [
-    20191003,
-    2004
+    20191006,
+    315
    ],
    "deps": [
     "auto-complete",
@@ -21206,8 +21206,8 @@
     "skewer-mode",
     "websocket"
    ],
-   "commit": "8abb37f8441f12e2dbe24b8b5bf236acef48d3ce",
-   "sha256": "1i78dsp7m4bn2c193xikx9c6h7zr910bbvk1q82r949xc89xa0x0"
+   "commit": "ef92e574b2512c2621f58582efc2718b7bd7bbc2",
+   "sha256": "10y9ij9f71d46z0832fqn7fcmncyyqz7w0rl46m3yg57bzkk5s6z"
   },
   "stable": {
    "version": [
@@ -40314,16 +40314,17 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20191004,
-    1946
+    20191006,
+    647
    ],
    "deps": [
     "async",
     "helm-core",
+    "helm-org",
     "popup"
    ],
-   "commit": "dd3a498106c02096fded721eb85f609141525ce3",
-   "sha256": "07bijcnfkv60l3swasxv53x32l6glds05mxnbb3xbnmkgm1pm9if"
+   "commit": "4572cd5bebd7d723e18362f00f9e0539f25f05d8",
+   "sha256": "0r6wwrpjbx3kf43zr9c34w5x7kbiq706pcv83s3wixwl1285m7a9"
   },
   "stable": {
    "version": [
@@ -41175,8 +41176,8 @@
    "deps": [
     "async"
    ],
-   "commit": "dd3a498106c02096fded721eb85f609141525ce3",
-   "sha256": "07bijcnfkv60l3swasxv53x32l6glds05mxnbb3xbnmkgm1pm9if"
+   "commit": "4572cd5bebd7d723e18362f00f9e0539f25f05d8",
+   "sha256": "0r6wwrpjbx3kf43zr9c34w5x7kbiq706pcv83s3wixwl1285m7a9"
   },
   "stable": {
    "version": [
@@ -55532,8 +55533,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20191005,
-    1246
+    20191006,
+    534
    ],
    "deps": [
     "dash",
@@ -55543,8 +55544,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "228326bfead89dd9bcd508603d15e1b12f711851",
-   "sha256": "09ww648h7688p6cf093bds84qfmn5j7nwkwxaf791dj4irwcd383"
+   "commit": "ed5332c403ac9fb550d0dd83cd93410e7464f6bc",
+   "sha256": "0viv2594knp1gr9mmx91bhwq1791hb87sz06j7vhi94z1yrw240c"
   },
   "stable": {
    "version": [
@@ -66933,34 +66934,39 @@
   "repo": "alphapapa/org-ql",
   "unstable": {
    "version": [
-    20191004,
-    337
+    20191006,
+    548
    ],
    "deps": [
     "dash",
+    "dash-functional",
     "org",
     "org-super-agenda",
     "ov",
+    "peg",
     "s",
     "ts"
    ],
-   "commit": "cea802892222338e4842872714e7bfc05cd542c0",
-   "sha256": "0r1ri5dh50y631sl1yqxrcmr11mbx3q18r203milaxyi3cjgs7zr"
+   "commit": "01a3bc0a1c23036cdd9ef4520525013e3b1a07ac",
+   "sha256": "1nll3za7mnmly9f2gvzqfc85xmx1lg04b70ipkb6glgspbxdq0is"
   },
   "stable": {
    "version": [
     0,
-    2,
     3
    ],
    "deps": [
     "dash",
+    "dash-functional",
     "org",
+    "org-super-agenda",
+    "ov",
+    "peg",
     "s",
     "ts"
    ],
-   "commit": "3f1870ce5a01807ea3d8558b1803a660af1e313d",
-   "sha256": "1pkvjmf9ckgrr0cjlp8vccabkgf31w4lqwpw3l2narliwg8jsx8m"
+   "commit": "01a3bc0a1c23036cdd9ef4520525013e3b1a07ac",
+   "sha256": "1nll3za7mnmly9f2gvzqfc85xmx1lg04b70ipkb6glgspbxdq0is"
   }
  },
  {
@@ -89833,8 +89839,8 @@
     20180905,
     1050
    ],
-   "commit": "de429a2ac4ffe40c91b3ae76122fe5e040e1adf9",
-   "sha256": "0040hw4gzybp9mlk0v30s618w5037f8pjcfmgi3g9s16yk86bcsb"
+   "commit": "0773adc6ed5dde5468461e1369cafa518b57d135",
+   "sha256": "0s8qb7j7qzmdh0rf8k8bksrbzqk4mynzp8gfwsrgrrbpzshalx43"
   },
   "stable": {
    "version": [
