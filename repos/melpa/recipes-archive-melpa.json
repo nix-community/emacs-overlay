@@ -14836,11 +14836,11 @@
   "repo": "omajid/csproj-mode",
   "unstable": {
    "version": [
-    20190514,
-    1858
+    20191006,
+    158
    ],
-   "commit": "889334f8cd08dc79d133149b4504e0e001f5a769",
-   "sha256": "0j330rrj6abr7xay1h2kajwa22npij0fdh30fk5z7zgas7jz735h"
+   "commit": "a0c7334c0dfde282ecbdd5e76eb0c3159253f1cf",
+   "sha256": "0fbpm3y5v026fhkvqgxv19i8x1q50rsj18dfi5cf38qipzc3hvxk"
   }
  },
  {
@@ -34591,8 +34591,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "28f0f471d373fda5cbaf623c3fa4c55ab9b3f218",
-   "sha256": "1nkpdrkdw22y1ykmdrbp313r19lchmw200qq379sx2d0nqlnkccl"
+   "commit": "85d7fc9d307b8edd109942a2d4cc66b1ec42c3b6",
+   "sha256": "0f943s4cflpiph30scrgi9jzxa4wy8v85z9a7kljp1794bxg0w50"
   },
   "stable": {
    "version": [
@@ -55509,9 +55509,20 @@
   "ename": "lsp-julia",
   "commit": "ca6a06ed4de499bcccce05163ea3d54e4dca9539",
   "sha256": "1frjvq2x0xsf93kgpy6bp9mgzfpr7zhacskmm6x8kknb9vj18h4v",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "non-Jedi/lsp-julia"
+  "repo": "non-Jedi/lsp-julia",
+  "unstable": {
+   "version": [
+    20190904,
+    1937
+   ],
+   "deps": [
+    "julia-mode",
+    "lsp-mode"
+   ],
+   "commit": "2e2372aede2bc90981db9aead5c17feaeb3b5dbf",
+   "sha256": "1jc0jn4g90rbs9fd255z72a8arbqa05vlbzfpncliim32kbb4p3b"
+  }
  },
  {
   "ename": "lsp-mode",
@@ -91928,8 +91939,8 @@
     20170723,
     146
    ],
-   "commit": "f2004dd2683da38306c4bf0c84c38bc2fb59adea",
-   "sha256": "0rm5d9byc5i1qm7l5dk4hf3sd1j46k5nkibyg10kawjpiwxx1hch"
+   "commit": "e03771f2d1163d04ca75de76fbfbaa2689c6a9aa",
+   "sha256": "148znb55dbh1hzl9gclg858varx0lwbc5f8d31jladj5yf5pffp1"
   },
   "stable": {
    "version": [
