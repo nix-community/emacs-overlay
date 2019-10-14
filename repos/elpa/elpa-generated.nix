@@ -208,10 +208,10 @@
       elpaBuild {
         pname = "async";
         ename = "async";
-        version = "1.9.2";
+        version = "1.9.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/async-1.9.2.tar";
-          sha256 = "17fnvrj7jww29sav6a6jpizclg4w2962m6h37akpii71gf0vrffw";
+          url = "https://elpa.gnu.org/packages/async-1.9.3.tar";
+          sha256 = "1pmfjrlapvhkjqcal8x95w190hm9wsgxb3byc22rc1gf5z0p52c8";
         };
         packageRequires = [ cl-lib nadvice ];
         meta = {
@@ -1327,10 +1327,10 @@
       elpaBuild {
         pname = "gnorb";
         ename = "gnorb";
-        version = "1.6.3";
+        version = "1.6.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gnorb-1.6.3.tar";
-          sha256 = "14cdldlvq2fx0j9g1bbzb6dq7yp9rw6bv39sls67i2p35h3gc2gd";
+          url = "https://elpa.gnu.org/packages/gnorb-1.6.4.tar";
+          sha256 = "1zm4c48x9vjqyn1h60lphhnzzg005wcad5mzn0majk0h59qcr0ff";
         };
         packageRequires = [ cl-lib ];
         meta = {
@@ -2385,10 +2385,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.3.4";
+        version = "0.3.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.3.4.tar";
-          sha256 = "0c5lrxrmb8v9wgxmqxs55bilf473m9zvrk00ycnkcasj07f51029";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.3.5.tar";
+          sha256 = "1hjbjl9z4z8273vmx8dzkvw62k0d2wgfz04jg4yp07c96zpsas06";
         };
         packageRequires = [ emacs ];
         meta = {
