@@ -2070,10 +2070,10 @@
       elpaBuild {
         pname = "nhexl-mode";
         ename = "nhexl-mode";
-        version = "1.3";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nhexl-mode-1.3.el";
-          sha256 = "1fcy4ybr12dvswmzaqkv4798snb1x1y7ldxwrsgjv5sx7bb5j60z";
+          url = "https://elpa.gnu.org/packages/nhexl-mode-1.4.el";
+          sha256 = "1c2q4w6hkvc7z4026hiqdcsm2scd6q35x7b0dk80h8qicsbi14c8";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
