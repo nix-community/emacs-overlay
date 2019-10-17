@@ -1566,10 +1566,10 @@
       elpaBuild {
         pname = "ivy";
         ename = "ivy";
-        version = "0.12.0";
+        version = "0.13.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ivy-0.12.0.tar";
-          sha256 = "14q9kh48iabrnhwcmhlvgk7sg4a0j5c3zjp0yzj1ijrz5zbdhxxz";
+          url = "https://elpa.gnu.org/packages/ivy-0.13.0.tar";
+          sha256 = "18r9vb9v7hvdkylchn436sgh7ji9avhry1whjip8zrn0c1bnqmk8";
         };
         packageRequires = [ emacs ];
         meta = {
