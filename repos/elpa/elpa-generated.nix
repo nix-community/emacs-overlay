@@ -1379,10 +1379,10 @@
       elpaBuild {
         pname = "gnus-mock";
         ename = "gnus-mock";
-        version = "0.4.2";
+        version = "0.4.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gnus-mock-0.4.2.tar";
-          sha256 = "04ddmdm2hykgr2y9g2yzmjp3fszhaywwnxhiy608cpvqdjwlwhn7";
+          url = "https://elpa.gnu.org/packages/gnus-mock-0.4.3.tar";
+          sha256 = "0zc2698y8w8imb2r7bys3k5gp37jinnmpyg4zcy3z6vbi33rbfgr";
         };
         packageRequires = [];
         meta = {
