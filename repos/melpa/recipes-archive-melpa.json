@@ -15531,8 +15531,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20191017,
-    1649
+    20191019,
+    1707
    ],
    "deps": [
     "bui",
@@ -15543,8 +15543,8 @@
     "s",
     "tree-mode"
    ],
-   "commit": "2ad730d2a508f0e4fcf3d26ad83e387fb8852065",
-   "sha256": "00hxg3s8m2djm4534s6hb7qmia5gkyhxxx6rrwfl9dpdgwxqrckh"
+   "commit": "7768e145be56c9c6f2575ef9090b763bc9fb3730",
+   "sha256": "1q8qr64gfggp9l9mrr0qd87ldcsv6zgml15g5v10zmnw86k9kjjc"
   },
   "stable": {
    "version": [
@@ -16881,6 +16881,14 @@
    "commit": "9ef1672ecd367827381bbbc9af93685980083c5c",
    "sha256": "05xfgn9sabi1ykk8zbk2vza1g8pdrg08j5cb58f50nda3q8ndf4s"
   }
+ },
+ {
+  "ename": "didyoumean",
+  "commit": "6030fcde06d23b98b0c81d40e1cdb5eb4412b9a1",
+  "sha256": "0hfd6kgqry0mcg77lqf0rvcb9clhjh7krq41hlz4wkrjyw0xbngg",
+  "error": "Not in archive",
+  "fetcher": "gitlab",
+  "repo": "kisaragi-hiu/didyoumean.el"
  },
  {
   "ename": "diff-hl",
@@ -51710,8 +51718,8 @@
   "repo": "dzop/emacs-jupyter",
   "unstable": {
    "version": [
-    20191017,
-    1537
+    20191019,
+    1519
    ],
    "deps": [
     "cl-lib",
@@ -51719,8 +51727,8 @@
     "websocket",
     "zmq"
    ],
-   "commit": "8fdc3ae95b303dcb4aae0b86a7e93ee9c3d280c4",
-   "sha256": "0s7aw95rvd4frrv34vzk8gicvmbs8ymljr5kyxw8fnws41swww1y"
+   "commit": "9e3c1633586982e278f072dfaaabd115fa4d19f7",
+   "sha256": "08aig8b2xh9yr5dqj6jivv54vc93277xffmmd3q0k5ghf4087c8n"
   },
   "stable": {
    "version": [
@@ -58445,10 +58453,10 @@
  },
  {
   "ename": "metaweblog",
-  "commit": "6440f81aed1fcddcaf7afeedb74520e605211986",
-  "sha256": "0qgmcvq1fhgljia9ncjgvgrv0mzih0l9mglwbwcszn613wmx8bkg",
+  "commit": "cc7fde8f9de0f0e2ccc0c766884ca2b41d0bb5ce",
+  "sha256": "051xgrb620dq55k37wp6b32mdpw7x5ldn6r370n92xqlr1zmryhh",
   "fetcher": "github",
-  "repo": "org2blog/metaweblog",
+  "repo": "org2blog/org2blog",
   "unstable": {
    "version": [
     20190212,
@@ -62654,10 +62662,10 @@
    "version": [
     0,
     29,
-    1
+    2
    ],
-   "commit": "20842dfb6d64f4469c554525ab4c27c6571fbdfe",
-   "sha256": "0mw3bxmbjc5wwadf7v7vj5zf4i40c9wvschxqklxxg11qy5lhfis"
+   "commit": "1c8d9e172e57bad26ebb94a8cb22a959ebedb9a3",
+   "sha256": "02v0h60vglkjivwq6n0xbg6pyf7dd9ndfmywk0amxq9gg0szybbl"
   }
  },
  {
@@ -68110,8 +68118,8 @@
  },
  {
   "ename": "org2blog",
-  "commit": "781b2b45602cae8b972e5c8fd2b19bf7ee8133c6",
-  "sha256": "02gw1kjfm5v08bc1iwa029pk5v3jl277jiq62nmisxn8sd646f5s",
+  "commit": "08b47bf72bff18efb3281509fd9f1688d8bb0349",
+  "sha256": "1snrsqpiacmkajmiw12kpglxkrs5ngma7l7r246q0lvf1h4jzbsa",
   "fetcher": "github",
   "repo": "org2blog/org2blog",
   "unstable": {
@@ -73187,14 +73195,14 @@
   "repo": "skuro/plantuml-mode",
   "unstable": {
    "version": [
-    20190905,
-    838
+    20191019,
+    1309
    ],
    "deps": [
     "dash"
    ],
-   "commit": "1590a75da6c3e25b726bc5e3e12656faab968917",
-   "sha256": "0l20vkq4d673a12lf15m7zn2yzkzf0qkqmq35hi6kpy4bd3zar2v"
+   "commit": "fec1d4fb9d3b720f15931308b207cd8ad65f4f75",
+   "sha256": "19lg1lcjysqy0ziyp0y3xx2akgchhvqkxmxxnxjlwqrn9bqgibxh"
   },
   "stable": {
    "version": [
@@ -89857,8 +89865,8 @@
     20180905,
     1050
    ],
-   "commit": "3254c65839e709804df6e20da0c58a5b3ab66592",
-   "sha256": "1qsws65gkzsnx2wf2fzwwwr749d410n5x4yi2ndq0gi3ik6vcshw"
+   "commit": "0dc1a115118d4a68f85b2ae7be4df4cd6261b84f",
+   "sha256": "0an53fr2z83cq4486zx3svsdm28nr90lzjrflx3bz31zpaw1jb4a"
   },
   "stable": {
    "version": [
@@ -91178,11 +91186,11 @@
   "repo": "kawabata/emacs-trr",
   "unstable": {
    "version": [
-    20170221,
-    842
+    20191019,
+    1403
    ],
-   "commit": "83660d8343ef3367837354dc684dfdde2f95826a",
-   "sha256": "0h12szq1cww3bpsk09m7d2bk9bfjxrmzlw9ccviwhnric40nh67k"
+   "commit": "f841173e11213ac6916b2d3394b28fb202543871",
+   "sha256": "1s1rh1kz0r8cnsbjjsd61lz7wzf8kzhvbqimhglryckzjsn9jfmf"
   },
   "stable": {
    "version": [
