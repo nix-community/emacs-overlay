@@ -16890,11 +16890,11 @@
   "repo": "kisaragi-hiu/didyoumean.el",
   "unstable": {
    "version": [
-    20190923,
-    851
+    20191020,
+    531
    ],
-   "commit": "8c4c84694a94b95fa7750047b61423a1d1d17bf9",
-   "sha256": "1p08l6gi9dkjccwaqx1fwqzbgq7nv85rynkhy1hisvdpkn8m6qx9"
+   "commit": "4a6049f2de36801e0a50e93b17a375501f16cf28",
+   "sha256": "0plwn23h96m71vx0jxilnl6nj7lsq4mpjv8mjaiankrxhvjcv6f0"
   },
   "stable": {
    "version": [
@@ -17765,6 +17765,18 @@
    "version": [
     20191017,
     459
+   ],
+   "deps": [
+    "dired-subtree"
+   ],
+   "commit": "6bf11fecbf809d873f7474f82c2f17637cc7670a",
+   "sha256": "1cwa50ddp0406rag2s0fv6cl5lm81hi0ymsv3z6r5xyjsqis5jch"
+  },
+  "stable": {
+   "version": [
+    0,
+    0,
+    1
    ],
    "deps": [
     "dired-subtree"
@@ -40319,16 +40331,16 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20191010,
-    1701
+    20191020,
+    622
    ],
    "deps": [
     "async",
     "helm-core",
     "popup"
    ],
-   "commit": "0b896081a521543431c07cbbccc137b8f0439cf9",
-   "sha256": "1ibw6z9xs60d8fa5gk9ys65i0m50772yz307bq87z3w0r8988maw"
+   "commit": "64a7b16db877a2534986a2f9d83d1b95b26c8485",
+   "sha256": "04ck8798kchxpfdfsw8gqhrnva7s5971hi0ic23q1wn9dk9iayaa"
   },
   "stable": {
    "version": [
@@ -41180,8 +41192,8 @@
    "deps": [
     "async"
    ],
-   "commit": "0b896081a521543431c07cbbccc137b8f0439cf9",
-   "sha256": "1ibw6z9xs60d8fa5gk9ys65i0m50772yz307bq87z3w0r8988maw"
+   "commit": "64a7b16db877a2534986a2f9d83d1b95b26c8485",
+   "sha256": "04ck8798kchxpfdfsw8gqhrnva7s5971hi0ic23q1wn9dk9iayaa"
   },
   "stable": {
    "version": [
@@ -54059,8 +54071,8 @@
    "deps": [
     "request"
    ],
-   "commit": "fd90ff7989632452434fc19a609805f7276821f3",
-   "sha256": "0rpipbcfvi8ysx8aykj9sd23gkzq3knn656g84lb9h1zdjvc4zf1"
+   "commit": "29e369df4f96c7ad95bb33292de7a44122e0b4e7",
+   "sha256": "1xaa90dy1jq1yzcn9px931sgqsrsbwrc89lv0lss975jr827kfg2"
   },
   "stable": {
    "version": [
@@ -55560,8 +55572,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20191019,
-    1913
+    20191020,
+    531
    ],
    "deps": [
     "dash",
@@ -55571,8 +55583,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "f27af1666eb52e651fa8b4319042f0267efaaf3e",
-   "sha256": "1h4pcdci7g81gqfdy693bq0jdlljxmnypl1vrck3k45z25zjbdsq"
+   "commit": "d96d32bc5456dbb4fbec7d802a85a6f097f6e5ca",
+   "sha256": "1czj21al89vihmn3vzxrlaw523fik34s7j5hhla6vbsxlyl4ykib"
   },
   "stable": {
    "version": [
@@ -55624,8 +55636,8 @@
    "deps": [
     "lsp-mode"
    ],
-   "commit": "dc7c7ae4a96f61ce7400e42acf6cb67c7c44c228",
-   "sha256": "0h8i8ivw2xx3af118badagyalvf77vcvkwpy5rkiw4hc3hj2fxb2"
+   "commit": "f68c4f432e5d05cde593d1f6ff50db623ca4ec86",
+   "sha256": "1dda4gzd8lk75qyimnilndxlllvyvljgc63v3b58hyryv7v3ps7l"
   },
   "stable": {
    "version": [
@@ -60453,11 +60465,20 @@
   "repo": "mkcms/mu4e-overview",
   "unstable": {
    "version": [
-    20191014,
-    2153
+    20191020,
+    842
    ],
-   "commit": "41ae8a5e6bef25fea5e006b783fca558143c22a0",
-   "sha256": "1cvywg7yw8rzmfnld01bd57jh7v7czfzzifxl23bsv5d5sk2m97w"
+   "commit": "c34f45b3ab9cce892835e14c6701b531a4f54cce",
+   "sha256": "1jc291xwym2ddiqvn83s2b2jw6a08dd63x0f6526qv8g3yr1jl1s"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    0
+   ],
+   "commit": "c34f45b3ab9cce892835e14c6701b531a4f54cce",
+   "sha256": "1jc291xwym2ddiqvn83s2b2jw6a08dd63x0f6526qv8g3yr1jl1s"
   }
  },
  {
@@ -80980,8 +81001,8 @@
     "spinner",
     "xterm-color"
    ],
-   "commit": "2cdfb4a36c2669ebc09bb4dae458ab949fb986e6",
-   "sha256": "0046q3pzpm3gc5697ichfzq2paxkhs8mwx89xlzb8i425hi7va5w"
+   "commit": "030e0dc5777ac2c27d2e99ace19c252eb52a50bc",
+   "sha256": "0xs0lyapkp91nhrjhqgsv03zmvmp8mg4jz434w03cwwcbm8k1j55"
   }
  },
  {
@@ -89942,8 +89963,8 @@
    "deps": [
     "haskell-mode"
    ],
-   "commit": "064fd95bef366f8f447135d389666f1469e82d4d",
-   "sha256": "118hg8wshw8c7pyrs93c3x0h6gdddjq1rw2pz1djb3jn2ywb47wr"
+   "commit": "3290661e57a4ba71bb9007000d2cf09da8b1d382",
+   "sha256": "1q1glmkacgm1248wz80271bg0cpxynj5nyk1hg2mfd3ldkjyy5kz"
   },
   "stable": {
    "version": [
