@@ -995,10 +995,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.4";
+        version = "1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eglot-1.4.tar";
-          sha256 = "1f2p08ly17jcjyh8bif5zhmzhx3z5y9z20v6z24z939bqk8c1pdq";
+          url = "https://elpa.gnu.org/packages/eglot-1.5.tar";
+          sha256 = "00ifgz9r9xvy19zsz1yfls6n1acvms14p86nbw0x6ldjgvpf279i";
         };
         packageRequires = [ emacs flymake jsonrpc ];
         meta = {
