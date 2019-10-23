@@ -640,10 +640,10 @@
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.9";
+        version = "1.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/csv-mode-1.9.el";
-          sha256 = "0sdnyi9in904k49yy5imapypnmk75lv14k9c1yyjhjpalvvh6br1";
+          url = "https://elpa.gnu.org/packages/csv-mode-1.10.el";
+          sha256 = "0q7j2cmj7vs6hz8cnf7j7lmlcjmig3jn2p6az345z96agl8a5xsq";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -1802,16 +1802,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    loccur = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+    loccur = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "loccur";
         ename = "loccur";
-        version = "1.2.3";
+        version = "1.2.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/loccur-1.2.3.el";
-          sha256 = "09pxp03g4pg95cpqiadyv9dz6qrwd9igrkwrhm4s38cscmqm7dzq";
+          url = "https://elpa.gnu.org/packages/loccur-1.2.4.el";
+          sha256 = "00f1ifa4z5ay90bd2002fmj83d7xqzrcr9018q8crlypmpxkyh7j";
         };
-        packageRequires = [ cl-lib ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/loccur.html";
           license = lib.licenses.free;
