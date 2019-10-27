@@ -21231,8 +21231,8 @@
   "repo": "millejoh/emacs-ipython-notebook",
   "unstable": {
    "version": [
-    20191020,
-    1934
+    20191027,
+    139
    ],
    "deps": [
     "auto-complete",
@@ -21245,8 +21245,8 @@
     "skewer-mode",
     "websocket"
    ],
-   "commit": "876cba2049751b39f9f12929afb75aacc034ea64",
-   "sha256": "0jy9rhh7arbg9y1yng2gk48dvk2cifmdn9wnzf0sifn8m8cld8fv"
+   "commit": "c477407500d5f789a62d9dab218d6fae202c6139",
+   "sha256": "0754wvfvk8sxrjjpnmk1xd42yhkd6rzm9hiws3c0ajnp9fw6gbsf"
   },
   "stable": {
    "version": [
@@ -39788,6 +39788,24 @@
    ],
    "commit": "7362b955e556a3d007fa06945a27e5b99349527d",
    "sha256": "1njrpb1s2v9skyfbgb28clrxyvyp8i4b8kwa68ynvq3vjb4fnws6"
+  }
+ },
+ {
+  "ename": "handle",
+  "commit": "da5debb55f7b34dcbcea81675bddd872bdb7fd69",
+  "sha256": "032rfk3hiv0ps0p332gkf67vqs5nif8hhraiv3zlybxblzhcxaw1",
+  "fetcher": "gitlab",
+  "repo": "jjzmajic/handle",
+  "unstable": {
+   "version": [
+    20191005,
+    629
+   ],
+   "deps": [
+    "parent-mode"
+   ],
+   "commit": "7253fa4d9469fa0fc6c8f1dea83e3ea77a0d9916",
+   "sha256": "18s5yn6vq2d037rc9a7paw7cxkr9yx5m06gnj1ghs04za9vb0lqd"
   }
  },
  {
@@ -69282,14 +69300,14 @@
   "repo": "kaushalmodi/ox-hugo",
   "unstable": {
    "version": [
-    20190905,
-    303
+    20191026,
+    2105
    ],
    "deps": [
     "org"
    ],
-   "commit": "b5672ea8925eaff93c4e17982b35acec302ba5e7",
-   "sha256": "1z9c85z55an38wrg6vmal8vp8k8qp1wkfxc9ijjlqsh0i2809x6b"
+   "commit": "7f3503cecb338922af6dae45fc2ddbf3ecd51450",
+   "sha256": "1dmhld720bzskqsivqmm61dxv1fpdcb2qjkg0gqx4ibbpd9xzzrz"
   },
   "stable": {
    "version": [
@@ -70025,15 +70043,15 @@
   "repo": "purcell/package-lint",
   "unstable": {
    "version": [
-    20191018,
-    1144
+    20191027,
+    20
    ],
    "deps": [
     "cl-lib",
     "let-alist"
    ],
-   "commit": "483556c39c4b7929b28723509d0f26cf790b91c4",
-   "sha256": "19qx71vnr8jj2vqxgcr27zjnagg7nj4lr9xc9fgipwisg1x0yxhx"
+   "commit": "eb1867b5ad68b3ca762dad33cb1e30eed1cc7252",
+   "sha256": "1k83srqhp1gighhd68mivkzgdx09wxramq9bkafjrxvh1xs71c44"
   },
   "stable": {
    "version": [
@@ -70062,8 +70080,8 @@
    "deps": [
     "package-lint"
    ],
-   "commit": "483556c39c4b7929b28723509d0f26cf790b91c4",
-   "sha256": "19qx71vnr8jj2vqxgcr27zjnagg7nj4lr9xc9fgipwisg1x0yxhx"
+   "commit": "eb1867b5ad68b3ca762dad33cb1e30eed1cc7252",
+   "sha256": "1k83srqhp1gighhd68mivkzgdx09wxramq9bkafjrxvh1xs71c44"
   },
   "stable": {
    "version": [
