@@ -15,7 +15,10 @@ updated daily.
 This overlay also provides a fresh version (latest from git) for Emacs. This
 is updated daily.
 
-This package is named =emacsGit= in the overlay.
+This attribute is named =emacsGit= in the overlay.
+
+We also provide an attribute named =emacsGit-nox= if you wish to have Emacs
+built without X dependencies.
 
 ** Extra library functionality
 This overlay comes with an extra function to generate an Emacs closure from =use-package= declarations.
