@@ -19,11 +19,9 @@ let
     };
   });
 
-in {
-
   emacsGit = let
     repoMeta = super.lib.importJSON ./repos/emacs/emacs.json;
-  in (super.emacs.override { srcRepo = true; }).overrideAttrs(old: {
+  in (self.emacs.override { srcRepo = true; }).overrideAttrs(old: {
     name = "emacs-git-${repoMeta.version}";
     inherit (repoMeta) version;
     src = super.fetchFromGitHub {
@@ -37,6 +35,17 @@ in {
       ./patches/clean-env.patch
     ];
   });
+
+in {
+  inherit emacsGit;
+
+  emacsGit-nox = ((emacsGit.override {
+    withX = false;
+    withGTK2 = false;
+    withGTK3 = false;
+  }).overrideAttrs(oa: {
+    name = "${oa.name}-nox";
+  }));
 
   emacsWithPackagesFromUsePackage = import ./elisp.nix { pkgs = self; };
 
