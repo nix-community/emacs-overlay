@@ -10674,8 +10674,8 @@
     20190710,
     1319
    ],
-   "commit": "79e0cd9696b57c4b084c2203381245abc2b92a30",
-   "sha256": "1yl5gyvq0x867iavbck9nkzx0knal1yrhz6wbw7l4vs1i0vx4fp4"
+   "commit": "e4a5215e97fedf878ec9818c18040c6c34d206f1",
+   "sha256": "00v6y6dir77y9h4jkc9v0vbwfp9fz1c22j2ba53mknk92bz911n1"
   },
   "stable": {
    "version": [
@@ -13936,6 +13936,19 @@
    "version": [
     20191031,
     345
+   ],
+   "deps": [
+    "cl-lib",
+    "counsel"
+   ],
+   "commit": "61a38c9d50fa9d1e38b2fa550d07130eb9322524",
+   "sha256": "0c8assn7dc8dhzyzk37x7y8s266pvr6hs0vh13y65z0sgxk59i2w"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    7
    ],
    "deps": [
     "cl-lib",
@@ -76844,8 +76857,8 @@
   "repo": "tumashu/pyim",
   "unstable": {
    "version": [
-    20191014,
-    333
+    20191031,
+    107
    ],
    "deps": [
     "async",
@@ -76853,8 +76866,8 @@
     "pyim-basedict",
     "xr"
    ],
-   "commit": "485cd94dd2a651f7ecd69bdf80200f0d0033754e",
-   "sha256": "1frd6xshhvy0l8h4chf11g46dai757mbmy0ag0h024934agqd4n0"
+   "commit": "8f567a565e5b92aff754c035f7fdf0de485f8033",
+   "sha256": "1qssfymsrpjrgikakdp2diq5af9s477bdc3j5g15shpfqhhpfp5i"
   },
   "stable": {
    "version": [
@@ -89977,8 +89990,8 @@
     20180905,
     1050
    ],
-   "commit": "a8089cff847b93348d29466ec461630835118928",
-   "sha256": "1318yykm9ag16q1p1pga07vygjkwzdk1736bw3mq8cjbiz5f1acg"
+   "commit": "267f74db6de1d4aa41af946d8d7ee1f0af1128c3",
+   "sha256": "1lrysp5ayjw7qsnjhsx0s2xmp549nm3w713gs9xqx8s87fq80qpd"
   },
   "stable": {
    "version": [
