@@ -8935,8 +8935,8 @@
     20171115,
     2108
    ],
-   "commit": "0f10bac619b5b88ba1f783f7c1d7dff9613124dc",
-   "sha256": "09wzv6g6cnhrxv2lyqxkk97ihbnclipblxm42iib679ibpvbcvdq"
+   "commit": "7aaf2c2bd2968c94713e7b0f25b70396049dad89",
+   "sha256": "173378r7r3y1aijkyffapjwn82drngvawwzx4l33wd4xh0hh7b17"
   },
   "stable": {
    "version": [
@@ -13322,8 +13322,8 @@
     "s",
     "seq"
    ],
-   "commit": "6c1578b2352c81cc9a22616a70db2a14b7d2b67f",
-   "sha256": "0fijw3kcl4vyc5x7a1syqslsj13mwkq1k3bs4p60v2jg1fxqarrb"
+   "commit": "269270e13b2be00a9cc7d08bd2a96d6bca64cae2",
+   "sha256": "1bwrmgkkyq35zm5vb9krhdgirsz5hilif6i1k7nsm4bl1msf0h6m"
   },
   "stable": {
    "version": [
@@ -15374,10 +15374,10 @@
    "version": [
     0,
     29,
-    13
+    14
    ],
-   "commit": "d4610f39a43a658cee1862c899a9696d8a9c9f5f",
-   "sha256": "0ljf2rhyhzih28x2rp95xyajvvjsmk6lirfshf6h6nlcwbh5i9c7"
+   "commit": "dca26bb439a33c1e072566d78191e9d99b0c34b1",
+   "sha256": "14gfy93ga88y4jmal88hz36flhqrbbnp9b0zr93n9lpb3msg8wpn"
   }
  },
  {
@@ -19659,8 +19659,8 @@
     20191016,
     1241
    ],
-   "commit": "011eab71ef17fb300f5a4769ec747d7e7c84246a",
-   "sha256": "03migka549i084wanmmpgskr9nvy0lkfx0y04dw002akqpq355q7"
+   "commit": "cddbf711ea0d5ffddfffb237679587c6b7099149",
+   "sha256": "124sjdifc3iy3b53q32s9xfysfgr7ghwamja6x0r6xish1gikd36"
   },
   "stable": {
    "version": [
@@ -22162,14 +22162,14 @@
   "repo": "TobiasZawada/elgrep",
   "unstable": {
    "version": [
-    20191025,
-    2110
+    20191101,
+    1059
    ],
    "deps": [
     "async"
    ],
-   "commit": "0de5a82b531c23b2ffc3225468f588e08b4a36f0",
-   "sha256": "19bl0zj4br3azgkcbkh4l4lk3b7f1w5k4ks2nm3fhaq5d0jqd4jk"
+   "commit": "4eada74eeb3971d35355b7b8d2543d51b4bc5257",
+   "sha256": "0g77q2ilb99if2bxi5xfipyjzl958gkpzh1qk7vqd4xl6mdyylfp"
   },
   "stable": {
    "version": [
@@ -22785,15 +22785,15 @@
   "ename": "elpher",
   "commit": "d87a0f3142e0a59842608576961707c98374f954",
   "sha256": "1i52q6xsyabl8gg8cd29d24gnw6aac69pjif2yh0rijxvbcl2a86",
-  "fetcher": "github",
-  "repo": "tgvaughan/elpher",
+  "fetcher": "git",
+  "url": "git://thelambdalab.xyz/elpher.git",
   "unstable": {
    "version": [
-    20191031,
-    1853
+    20191101,
+    1028
    ],
-   "commit": "1d6fca7dc2254ac37d4f2984823e5b887f8bde56",
-   "sha256": "04azf7i8b9bzjyrhclxfxpmvw89whd86maykpyqwxxpbqy1fmg9i"
+   "commit": "48b6a6f8c92179499cd0d00743fd5e596cb06650",
+   "sha256": "0bzmbrq86cpjwfahkwss0hlaii32hbxdkd4g6qw10cdfsrbxvzds"
   },
   "stable": {
    "version": [
@@ -23582,13 +23582,13 @@
   "stable": {
    "version": [
     5,
-    2
+    3
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "2253146e5607e12f62b0c1c474fded1219da2d5d",
-   "sha256": "0r0ai788mn5f3kf5wrp6jywncl2z3gpjif41pm5m0892y7l0vh9i"
+   "commit": "a8075b52fa75c5b53892214e6ca89fe0b42a04bf",
+   "sha256": "0jp96s0pglmrcgcyn9cp4rn2qlk9rf0dq6avrr5wiigjjkl33fip"
   }
  },
  {
@@ -24845,8 +24845,8 @@
     20191023,
     843
    ],
-   "commit": "bdd32b90a7e5d20b34fbb4155f2b61e03fdea2ba",
-   "sha256": "14xdxh01yf7ka3cph4b2wazqlcgv2h6cg4clf506zn0bqiiizchl"
+   "commit": "2f9e2b44f3ac5a8da82cd9f59340e55d33fdb892",
+   "sha256": "0j5cxn1j4vqn4sk8yn072y3q52spaysf4n03c14d88ci07jgknba"
   },
   "stable": {
    "version": [
@@ -81095,8 +81095,8 @@
   "repo": "brotzeit/rustic",
   "unstable": {
    "version": [
-    20191031,
-    2156
+    20191101,
+    940
    ],
    "deps": [
     "dash",
@@ -81110,8 +81110,8 @@
     "spinner",
     "xterm-color"
    ],
-   "commit": "cbe1045b6424f638a93cb79e19782a628153216e",
-   "sha256": "0xgxrap5bx59a1pqyvxqkyydjg1i3dgcrwzwfpxymmp26k7ia99g"
+   "commit": "7277c254e725efb853560a00bad39de6d7f5c16d",
+   "sha256": "1ivyqh64851xq63cnircysd41zjm22wq6vi5fp595rnsxbrh5fm7"
   }
  },
  {
