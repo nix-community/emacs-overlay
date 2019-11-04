@@ -1,9 +1,9 @@
 self: super:
 let
 
-  mkExDrv = emacsPackagesNg: name: args: let
+  mkExDrv = emacsPackages: name: args: let
     repoMeta = super.lib.importJSON (./repos/exwm/. + "/${name}.json");
-  in emacsPackagesNg.melpaBuild (args // {
+  in emacsPackages.melpaBuild (args // {
     pname   = name;
     ename   = name;
     version = repoMeta.version;
@@ -49,8 +49,8 @@ in {
 
   emacsWithPackagesFromUsePackage = import ./elisp.nix { pkgs = self; };
 
-  emacsPackagesNgFor = emacs: (
-    (super.emacsPackagesNgFor emacs).overrideScope'(eself: esuper: let
+  emacsPackagesFor = emacs: (
+    (super.emacsPackagesFor emacs).overrideScope'(eself: esuper: let
 
       melpaStablePackages = esuper.melpaStablePackages.override {
         archiveJson = ./repos/melpa/recipes-archive-melpa.json;

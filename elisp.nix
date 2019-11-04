@@ -35,7 +35,7 @@ in {
   override ? (epkgs: epkgs)
 }: let
   packages = parsePackages config;
-  emacsPackages = pkgs.emacsPackagesNgGen package;
+  emacsPackages = pkgs.emacsPackagesGen package;
   emacsWithPackages = emacsPackages.emacsWithPackages;
 in emacsWithPackages (epkgs: let
   overriden = override epkgs;
