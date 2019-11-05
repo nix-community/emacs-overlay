@@ -3046,10 +3046,10 @@
       elpaBuild {
         pname = "svg-clock";
         ename = "svg-clock";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/svg-clock-1.0.el";
-          sha256 = "0j6zk7fsv72af12phqdw8axbn2y8y4rfgxiab1p3pxq3y7k47jid";
+          url = "https://elpa.gnu.org/packages/svg-clock-1.1.el";
+          sha256 = "12wf4dd3vgbq1v3363cil4wr2skx60xy546jc69ycyk0jq7plcq3";
         };
         packageRequires = [ emacs svg ];
         meta = {
