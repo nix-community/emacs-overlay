@@ -324,6 +324,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    bluetooth = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "bluetooth";
+        ename = "bluetooth";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/bluetooth-0.1.el";
+          sha256 = "0dssfc64r58jk9vwyzjxp97wkgcpqv1ihdk1w8aqalhghxzvk18h";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/bluetooth.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     bnf-mode = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "bnf-mode";
@@ -975,10 +990,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20190902";
+        version = "20191105";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20190902.tar";
-          sha256 = "09rk01ykvvmmzadkz8y064iil2sm6ql6qz0rj0jjlnyymi58lj69";
+          url = "https://elpa.gnu.org/packages/eev-20191105.tar";
+          sha256 = "0w53wq8nhl4c5czda5imcv7y97pgbpfmvcvpi6kdwl3jbn9cx396";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2385,10 +2400,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.3.9";
+        version = "0.3.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.3.9.tar";
-          sha256 = "1irjibll8wysk0njxvbh4kvwmgk4pml25wl7ya8v5xvrffb0kias";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.3.10.tar";
+          sha256 = "0jj30nmmiwllp8a09vycg7ljsf3dvc89biym1xn65wfidf8n2naa";
         };
         packageRequires = [ emacs ];
         meta = {
