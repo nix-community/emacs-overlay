@@ -2400,10 +2400,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.3.10";
+        version = "0.3.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.3.10.tar";
-          sha256 = "0jj30nmmiwllp8a09vycg7ljsf3dvc89biym1xn65wfidf8n2naa";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.3.13.tar";
+          sha256 = "0rzw5zm841bpzxx33rlqn6nks9va78d36697vv6d4y85pnf559bw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3342,10 +3342,10 @@
       elpaBuild {
         pname = "verilog-mode";
         ename = "verilog-mode";
-        version = "2019.9.23.4801067";
+        version = "2019.11.11.38630457";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/verilog-mode-2019.9.23.4801067.el";
-          sha256 = "0jaba2cqiiknjqc7qz6047hpjd87hznl6b154ai1900i52kjbs21";
+          url = "https://elpa.gnu.org/packages/verilog-mode-2019.11.11.38630457.el";
+          sha256 = "0fx4yg91kn675v15bqxr1x20a57hlc297yvxd0n6l8ggiq662dh1";
         };
         packageRequires = [];
         meta = {
