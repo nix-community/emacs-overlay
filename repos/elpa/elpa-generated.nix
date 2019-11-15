@@ -324,16 +324,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    bluetooth = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    bluetooth = callPackage ({ dash, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "bluetooth";
         ename = "bluetooth";
-        version = "0.1";
+        version = "0.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bluetooth-0.1.el";
-          sha256 = "0dssfc64r58jk9vwyzjxp97wkgcpqv1ihdk1w8aqalhghxzvk18h";
+          url = "https://elpa.gnu.org/packages/bluetooth-0.1.1.el";
+          sha256 = "1c07ghp3fag9jxr2fgjchlnz09mni6b5cfbal925y3pa65db208v";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ dash emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/bluetooth.html";
           license = lib.licenses.free;
