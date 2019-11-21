@@ -15656,8 +15656,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20191111,
-    1903
+    20191120,
+    2015
    ],
    "deps": [
     "bui",
@@ -15669,8 +15669,8 @@
     "tree-mode",
     "treemacs"
    ],
-   "commit": "dd6473a421e3fb445c88c2f5f302f82430274f09",
-   "sha256": "1wjhmcqzmpaka86961czkdrl7fksqm3jijj5cr2f2qxp84rjjy17"
+   "commit": "8da73398e42999f452e9a209b9f0e047f1ec8a93",
+   "sha256": "0kcg8jr46zj34767djpi8paq9vizrk4ydysfkapc6npibggrjv1z"
   },
   "stable": {
    "version": [
@@ -18816,8 +18816,8 @@
   "repo": "Silex/docker.el",
   "unstable": {
    "version": [
-    20191111,
-    1545
+    20191120,
+    2016
    ],
    "deps": [
     "dash",
@@ -18827,8 +18827,8 @@
     "s",
     "tablist"
    ],
-   "commit": "ed927261ab5b0f5008d2ab15ac36099840b00a6c",
-   "sha256": "166749sqxqa3y27wxkp8xv1spia97a3j237pfrjnnp1z0pccsb3k"
+   "commit": "639608ab535c9936ff97df9b1a6857e0abc3bf02",
+   "sha256": "0zcwvp4ha4m2kjg9z3x5qm2cdjla3b91gc1mw3kjx07r4q1y44bi"
   },
   "stable": {
    "version": [
@@ -21267,15 +21267,15 @@
   "repo": "joaotavora/eglot",
   "unstable": {
    "version": [
-    20191118,
-    1123
+    20191120,
+    2255
    ],
    "deps": [
     "flymake",
     "jsonrpc"
    ],
-   "commit": "4bd8773b7b4996d742a30caf8476c3e89121bca7",
-   "sha256": "1b710lzjy0371wm3r1cbki71rvygdvrfxdw5rccn4q5m3dsxmccp"
+   "commit": "a6fa7730b6174ba90ab01e10fc9de190b77ec26e",
+   "sha256": "18s1wdlw5k6w0j8nmyy8a8dvwslmcwribl12b6cfcangd3jcpi5x"
   },
   "stable": {
    "version": [
@@ -30464,8 +30464,8 @@
     "pkg-info",
     "seq"
    ],
-   "commit": "c9331a683a9ef78fb74daed69db3f44de48b26d7",
-   "sha256": "0l9wkp00rzk0n0b39r85dd778phiapapdxq6sxnwmgqsrkiia062"
+   "commit": "661b139330e634977f5431aa26262c448469f711",
+   "sha256": "1ri3l8pcf3xf4wc6ddl8d0cpwv9d7pbamxbwqsiiwvbjx739z5pp"
   },
   "stable": {
    "version": [
@@ -34974,7 +34974,7 @@
   "commit": "2d3139563902bb1cb8aa48a517747f12a1ca1746",
   "sha256": "0xmi3r7mhxc38rjmx2p0lhsn0gch21hhbr2s0gxy1h29mhgvy3sb",
   "fetcher": "github",
-  "repo": "cireu/fuz.el",
+  "repo": "rustify-emacs/fuz.el",
   "unstable": {
    "version": [
     20190810,
@@ -35720,16 +35720,16 @@
   "repo": "magit/ghub",
   "unstable": {
    "version": [
-    20191105,
-    2239
+    20191120,
+    1809
    ],
    "deps": [
     "dash",
     "let-alist",
     "treepy"
    ],
-   "commit": "688267425e24c0e3b99b1dd2546c830a7a332411",
-   "sha256": "0adigplknmgzszwd9qqv768d8q66q87kjif6f6j8xdldfr8by5nx"
+   "commit": "aeb2336b6d97d1cab39fc0889d925c8c298b3c71",
+   "sha256": "0g7mwzcx3ppy8ba9yjgps6m3bxhq2lxpmsmmq660cs6xvbfkg50m"
   },
   "stable": {
    "version": [
@@ -42188,7 +42188,7 @@
   "commit": "2d3139563902bb1cb8aa48a517747f12a1ca1746",
   "sha256": "1c6mm698kzk0armpla4i5xn5fh8pwhim6gj4cblk0wwf2av2r58b",
   "fetcher": "github",
-  "repo": "cireu/fuz.el",
+  "repo": "rustify-emacs/fuz.el",
   "unstable": {
    "version": [
     20191024,
@@ -63039,8 +63039,8 @@
     20190525,
     1602
    ],
-   "commit": "7ad7cfbff232431377562271901ee00202bf0bd0",
-   "sha256": "1msc1651396wfqn8s9vz405p8jjpxyaamar0w4npx28a8rfvvzh7"
+   "commit": "bb843f63fc0469c2660d5d0a7b49602fcfb2c879",
+   "sha256": "1ii4lqwsr4nnknkgjb5df0f0xiyh5kkpfa0mbqrj5qxk93m3qwm0"
   },
   "stable": {
    "version": [
@@ -76294,8 +76294,8 @@
     20170526,
     1650
    ],
-   "commit": "3cae867740e409d9b9fbc1224c35357a49ce0ce2",
-   "sha256": "0jirg65g2l99wca0kwlwynpr5kx8w4n14jmhhmp2vjrg8dz5772x"
+   "commit": "de75651d7a0cf6cbf0da7718cebe2ac077a8d59c",
+   "sha256": "0hi0zvj1pk50my65biiby0xnzvz6idky0av2bqiw6ms7qdz9vlma"
   },
   "stable": {
    "version": [
@@ -89951,14 +89951,14 @@
   "repo": "TobiasZawada/texfrag",
   "unstable": {
    "version": [
-    20191105,
-    1300
+    20191120,
+    2239
    ],
    "deps": [
     "auctex"
    ],
-   "commit": "4d2290d773a29d1ce2b018d0dec76ed848d380e2",
-   "sha256": "1j6vwds77gza5rqb8mg3hh6in1kvzk2ymkkbbpq8vgsdz1cbwv98"
+   "commit": "04b0358ec2e47157c9adc3c99949bf62adff5bf7",
+   "sha256": "16y8g1lg5yg98p3wjabj3rnl9xn1kk4246jcxcjncyir2n3d5pmn"
   },
   "stable": {
    "version": [
@@ -90265,8 +90265,8 @@
     20180905,
     1050
    ],
-   "commit": "044cc6ce3618209ab5e36cf111d686d7b85be192",
-   "sha256": "1hxi2f1m1wa6p9pyr9ywkh67frjd007pfpgqvx30ldxjm1f5j27y"
+   "commit": "571711d8dde4aa11c9464b14e0a57ff80ea1acaf",
+   "sha256": "1ab7in6b6kkvgdxf33s06d67z0m3140ry16vcixaimlwxqz3bb6m"
   },
   "stable": {
    "version": [
