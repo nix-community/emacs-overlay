@@ -1611,10 +1611,10 @@
       elpaBuild {
         pname = "javaimp";
         ename = "javaimp";
-        version = "0.7";
+        version = "0.7.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/javaimp-0.7.tar";
-          sha256 = "11j0w9klksm5q8czzxix1x1zvjaznfc5wsda4wwmcnqmrys0zmmw";
+          url = "https://elpa.gnu.org/packages/javaimp-0.7.1.tar";
+          sha256 = "0i93akp9jhlpgbm454wkjhir8cbzhfjb97cxxlk8n4pgzbh481l3";
         };
         packageRequires = [];
         meta = {
@@ -2400,10 +2400,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.3.16";
+        version = "0.3.17";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.3.16.tar";
-          sha256 = "030yal3h98c08wp96wg63wdagfvjpxnyzk51l4wcw1m5ha9vy9rg";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.3.17.tar";
+          sha256 = "0k3laqzl79zhass484azc5x5yj258qdq1n13n190zanxmddg6ri2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3342,10 +3342,10 @@
       elpaBuild {
         pname = "verilog-mode";
         ename = "verilog-mode";
-        version = "2019.11.11.38630457";
+        version = "2019.11.21.248091482";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/verilog-mode-2019.11.11.38630457.el";
-          sha256 = "0fx4yg91kn675v15bqxr1x20a57hlc297yvxd0n6l8ggiq662dh1";
+          url = "https://elpa.gnu.org/packages/verilog-mode-2019.11.21.248091482.el";
+          sha256 = "11dl4waq6cnd6cq9qxbvkvi3rhwj30nrll0d1yvx9m16frswq231";
         };
         packageRequires = [];
         meta = {
