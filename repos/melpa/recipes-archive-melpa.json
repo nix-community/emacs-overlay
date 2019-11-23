@@ -18816,19 +18816,19 @@
   "repo": "Silex/docker.el",
   "unstable": {
    "version": [
-    20191120,
-    2016
+    20191122,
+    2157
    ],
    "deps": [
     "dash",
     "docker-tramp",
     "json-mode",
-    "magit-popup",
     "s",
-    "tablist"
+    "tablist",
+    "transient"
    ],
-   "commit": "639608ab535c9936ff97df9b1a6857e0abc3bf02",
-   "sha256": "0zcwvp4ha4m2kjg9z3x5qm2cdjla3b91gc1mw3kjx07r4q1y44bi"
+   "commit": "117c220a9cea9890978a0d931f792f70d1c4e140",
+   "sha256": "0w2i2br0hpii0h4z2wjgfkbdgi1ljlhfgsr513yw1h880brqnhvl"
   },
   "stable": {
    "version": [
@@ -36036,8 +36036,8 @@
     "dash",
     "with-editor"
    ],
-   "commit": "9711ddd07e9ad69a803ea91106dcb285c13f8943",
-   "sha256": "098gb38kmb006hp4nmk95s74szsg51rldccjwxnmq8kqpppcp9ac"
+   "commit": "5560f91fa51cb6a9add0cfb4dc2cf2635f5ae5bc",
+   "sha256": "0bh8d973k0cyb45nhn5h7x4bgnfmbf0a2vmm5fx5q399maf86wq7"
   },
   "stable": {
    "version": [
@@ -76315,10 +76315,10 @@
     11,
     0,
     -1,
-    1
+    2
    ],
-   "commit": "52b632cf27e0ac13a8d9b10a6bb9ecce1623f25c",
-   "sha256": "0fb5n1fsvmpqqysk0b4sf1n5c241qk6kw80aam60vissakk6pc92"
+   "commit": "b0386daa1968c3c7ace339fca10b73a3998071d3",
+   "sha256": "1spv6xm4jhph1nw4ass0s9jy2bdrrwd6fqmv9z4wyvy2qy2pc2qw"
   }
  },
  {
@@ -89273,8 +89273,8 @@
    "deps": [
     "visual-fill-column"
    ],
-   "commit": "019e923f933370d75dbe0a8473a18eb66fe94c0e",
-   "sha256": "058814agkq8mp9ajpj8sz51rm9nigs2xpsdij05wjkxhfq30kqva"
+   "commit": "184e4ef0608532de607565b7030f7c4242993f33",
+   "sha256": "00xiff0jw3lvp0615agmphhbdmakqflfgsprilyn0ak8vjb3qb8p"
   },
   "stable": {
    "version": [
@@ -90277,8 +90277,8 @@
     20180905,
     1050
    ],
-   "commit": "02e043dad498168f0675e0361120b3a5893304e6",
-   "sha256": "0a5iz049lkfmf405hc9qv3mwqdv8kbnxyz2xs6061ndnhn9825fp"
+   "commit": "075d73d3b59ab6ce3b0157849374db14cc1dff55",
+   "sha256": "1ygjaidjy5qq69dp8ks6gqimrz2xb36qs8mc566p5sba54rslm7h"
   },
   "stable": {
    "version": [
