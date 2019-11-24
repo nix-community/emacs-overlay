@@ -11281,11 +11281,11 @@
   "repo": "purcell/color-theme-sanityinc-tomorrow",
   "unstable": {
    "version": [
-    20191117,
-    1946
+    20191124,
+    104
    ],
-   "commit": "4bb8323d3f18f21a1edfd2961e8bb962969969bd",
-   "sha256": "1v16k6kmn49qzw2w52n3b2q29cmghwd2af8nhp7cp97d88wr2x76"
+   "commit": "fb3ca5c6dbd2be5fa9b4dae1246c83d757056c66",
+   "sha256": "1c0nc6ls1k06jinxn9zgj3ci9skb1n22qif0a29kil4xfbfzp6ic"
   },
   "stable": {
    "version": [
@@ -52428,15 +52428,15 @@
   "repo": "ogdenwebb/emacs-kaolin-themes",
   "unstable": {
    "version": [
-    20191122,
-    1458
+    20191124,
+    213
    ],
    "deps": [
     "autothemer",
     "cl-lib"
    ],
-   "commit": "db1c43915fe68f31fffa00159b4198c32e87c8ed",
-   "sha256": "038bqg66m5cpg1w70la3jr57rq9fngmb1g67z27lpqcf3xf416xc"
+   "commit": "a581f5f3c430e3837c7b37cd2f3540d45fe320ec",
+   "sha256": "00srh8njsp792gbhhihqxbqksqxnf06jc2jjgi0gzg6sghd2j4fr"
   },
   "stable": {
    "version": [
@@ -70416,15 +70416,15 @@
   "repo": "purcell/package-lint",
   "unstable": {
    "version": [
-    20191122,
-    246
+    20191124,
+    132
    ],
    "deps": [
     "cl-lib",
     "let-alist"
    ],
-   "commit": "1f4775bd9c2ed277bf4d375afd0447207c3a19c0",
-   "sha256": "17nkl7b6l16cv2rv4kf2fzrhck8icrcixallg80c486fcqzri1pa"
+   "commit": "ccfa937ade18d87991cc529631198bdeddab7147",
+   "sha256": "0w5n0z4nc3w4jj63wbsv1fi5dxj0b67i1p92hs3rj4m1cfbhqkkg"
   },
   "stable": {
    "version": [
@@ -70453,8 +70453,8 @@
    "deps": [
     "package-lint"
    ],
-   "commit": "1f4775bd9c2ed277bf4d375afd0447207c3a19c0",
-   "sha256": "17nkl7b6l16cv2rv4kf2fzrhck8icrcixallg80c486fcqzri1pa"
+   "commit": "ccfa937ade18d87991cc529631198bdeddab7147",
+   "sha256": "0w5n0z4nc3w4jj63wbsv1fi5dxj0b67i1p92hs3rj4m1cfbhqkkg"
   },
   "stable": {
    "version": [
@@ -72376,13 +72376,13 @@
   "stable": {
    "version": [
     2,
-    2
+    3
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "8e2f122de408d7866136dd861d513a9575cf32e6",
-   "sha256": "0pd5sqrrz6y3md20yh6ffy32jdcgb1gc9b4j14pm6r54bqxik68h"
+   "commit": "1ba7e2ddc37df4f453e7d8cffccc13981af658b1",
+   "sha256": "0v13dljkspx01w88q7nb7dcjni1blp5682wpvlvpx3phnfyjqs5g"
   }
  },
  {
@@ -93592,9 +93592,24 @@
   "ename": "vdf-mode",
   "commit": "203d755a2c083ecdb75a41ce6d6030315651b16c",
   "sha256": "1ja7c0sn25r9fqxlp0c2c74qrblvxrb9akh0gf6f7x2hiqa0mygk",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "plapadoo/vdf-mode"
+  "repo": "plapadoo/vdf-mode",
+  "unstable": {
+   "version": [
+    20191122,
+    823
+   ],
+   "commit": "35f5c3531b256b6578b9878ac2ce1ed79b3c8511",
+   "sha256": "16650xwq85rp98z4nljd5s7f14fg4rr90nr7ipfshj1i6zvbk229"
+  },
+  "stable": {
+   "version": [
+    1,
+    1
+   ],
+   "commit": "f474047a35a2779e4ebaf9166f3d54f359cf9f3c",
+   "sha256": "0r3kb89zsxac98q8g4w0gyji83qnyxlqwcvmd7b9aa8sx8ry1asz"
+  }
  },
  {
   "ename": "vdiff",
@@ -95108,14 +95123,14 @@
   "repo": "ahyatt/emacs-websocket",
   "unstable": {
    "version": [
-    20191120,
-    405
+    20191123,
+    2208
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "491a60b8bb8a6c3bd081c70354ab82040b0a7db3",
-   "sha256": "0g0vy2yc118mcka9f26950gdmb780zpxck9y6nli602vj32dw1g2"
+   "commit": "74e4b82bf1a2e9197875ebcc20c494b506095235",
+   "sha256": "055fqb1vwv45dy3rsdi0x3dhmlvqqh3z58j5xypnsxy9kavzaaqy"
   },
   "stable": {
    "version": [
