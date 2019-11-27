@@ -726,21 +726,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    debbugs = callPackage ({ cl-lib ? null
-                           , elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib
-                           , soap-client }:
+    debbugs = callPackage ({ elpaBuild, emacs, fetchurl, lib, soap-client }:
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.20";
+        version = "0.21";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/debbugs-0.20.tar";
-          sha256 = "03mmb1zvbqlsznl5agq8k3xrlcz310vnsa2zn0y8myanm4ra51zm";
+          url = "https://elpa.gnu.org/packages/debbugs-0.21.tar";
+          sha256 = "1xx1wjfpsnwx2fpydqhwy9k1b5kjk8dqbkzf8lqaj9c4rvjbn50a";
         };
-        packageRequires = [ cl-lib emacs soap-client ];
+        packageRequires = [ emacs soap-client ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/debbugs.html";
           license = lib.licenses.free;
@@ -2400,10 +2395,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.3.17";
+        version = "0.3.19";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.3.17.tar";
-          sha256 = "0k3laqzl79zhass484azc5x5yj258qdq1n13n190zanxmddg6ri2";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.3.19.tar";
+          sha256 = "1iqp7wriswa300aflr67di60529jxy6nk2hiyh4j1r57s2r47vqj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2520,10 +2515,10 @@
       elpaBuild {
         pname = "rainbow-mode";
         ename = "rainbow-mode";
-        version = "1.0.1";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rainbow-mode-1.0.1.el";
-          sha256 = "0cpga4ax635rfpj7y2vmh7ank0yw00dcy20gjg1mj74r97by8csf";
+          url = "https://elpa.gnu.org/packages/rainbow-mode-1.0.2.el";
+          sha256 = "1zfqj63sr07pdlwy7caz4fxsjhmbhh939n81z6jxq9xggm8ajxkd";
         };
         packageRequires = [];
         meta = {
