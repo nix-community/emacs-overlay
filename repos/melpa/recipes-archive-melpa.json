@@ -17352,20 +17352,20 @@
   "repo": "gonewest818/dimmer.el",
   "unstable": {
    "version": [
-    20191120,
-    39
+    20191130,
+    1920
    ],
-   "commit": "78e6e56a3a119a16a55b9f00a5cc00d66db06e9c",
-   "sha256": "1gkmidm9w4wsjdaxy12vyscd1gyds8vv9d00nbk907cy5kyr06dv"
+   "commit": "84d1ca5b1984aaf1f54c4490c958204a444ab86a",
+   "sha256": "1plz25k2xhc0f2yv4z5jxdg008d8gl8prch69kk6nyswfa568hg3"
   },
   "stable": {
    "version": [
     0,
-    3,
+    4,
     0
    ],
-   "commit": "12fc52a6570ec25020281735f5a0ca780a9105af",
-   "sha256": "1jv9rrv15nb5hpwcaqlpjj932gyisrkwbv11czkg3v0bn7qn6yif"
+   "commit": "84d1ca5b1984aaf1f54c4490c958204a444ab86a",
+   "sha256": "1plz25k2xhc0f2yv4z5jxdg008d8gl8prch69kk6nyswfa568hg3"
   }
  },
  {
@@ -21492,8 +21492,8 @@
   "repo": "kostafey/ejc-sql",
   "unstable": {
    "version": [
-    20191125,
-    1443
+    20191130,
+    1831
    ],
    "deps": [
     "auto-complete",
@@ -21502,8 +21502,8 @@
     "direx",
     "spinner"
    ],
-   "commit": "5267554c0c063267f583cf4371e89e9ab6228dfe",
-   "sha256": "0m01hm1b3n73b7cplpxx9m1lga42g88a1pnr8yjymbx3ys44nbyr"
+   "commit": "0da299ec4a5cd8a0615ec3c9f15fb4bf1a25a310",
+   "sha256": "1qfxwz7k51c9r4a5wfmcijn6g6dka78758737x89bqfb4z7df2bw"
   },
   "stable": {
    "version": [
@@ -25786,14 +25786,14 @@
   "repo": "emacs-ess/ESS",
   "unstable": {
    "version": [
-    20191014,
-    1343
+    20191130,
+    2000
    ],
    "deps": [
     "julia-mode"
    ],
-   "commit": "d31b96e02cb4c5d71effab893da9cd81f30d0470",
-   "sha256": "0rbasf6kfyyd6r72cqm6sr791f70q95447c240dvx2kjqp1jhckm"
+   "commit": "18293d51b31a1d9f1f153546559cca21d38d0360",
+   "sha256": "126j8k6jk2n3kc28gwsnfki4x607rd8mpwlx1s2yjq59bha97n3n"
   },
   "stable": {
    "version": [
@@ -40666,8 +40666,8 @@
     "helm-core",
     "popup"
    ],
-   "commit": "203e609bf3603fb8253405e38a7679168686e549",
-   "sha256": "0b3qb4pclk7xc0j2dsbfakp8s04vz484zcd0s0yzmsfdvz8nc2y8"
+   "commit": "784452a20355fd825540d5c9a320b9fc5aeb46a7",
+   "sha256": "026m8g46dd8b2n1lbm2bs7jr05i5r9mg3caxv3h4x7y1mjkk698p"
   },
   "stable": {
    "version": [
@@ -41513,14 +41513,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20191128,
-    1814
+    20191130,
+    2010
    ],
    "deps": [
     "async"
    ],
-   "commit": "203e609bf3603fb8253405e38a7679168686e549",
-   "sha256": "0b3qb4pclk7xc0j2dsbfakp8s04vz484zcd0s0yzmsfdvz8nc2y8"
+   "commit": "784452a20355fd825540d5c9a320b9fc5aeb46a7",
+   "sha256": "026m8g46dd8b2n1lbm2bs7jr05i5r9mg3caxv3h4x7y1mjkk698p"
   },
   "stable": {
    "version": [
@@ -52430,14 +52430,14 @@
   "unstable": {
    "version": [
     20191130,
-    1329
+    1827
    ],
    "deps": [
     "autothemer",
     "cl-lib"
    ],
-   "commit": "b7012fe33e2552b9d229fb1db068bc56e2a6ed7f",
-   "sha256": "01pzhj2drh7ghvaxyf9r13kq4vyy473fqggp1nks0lkpy6zff363"
+   "commit": "03e026a83349a802bb69980bcd50e499222a2913",
+   "sha256": "1bkf3y4s96ycdnmgdn7z94dz4j5lv1nhhvr248lzwv48l93ms4wv"
   },
   "stable": {
    "version": [
@@ -69681,8 +69681,8 @@
    "deps": [
     "org"
    ],
-   "commit": "e42a824c3253e127fc8b86a5370c8d5b96a45166",
-   "sha256": "10lz0nq7wn3840rihrzwib6k2h02j24ai93pdlzfn40bmw0x50pm"
+   "commit": "2d055bafd6272d9694aaea9e49eae2a3d578b5b7",
+   "sha256": "04xagn6q7ka32rcz8q1701841zg2aljgpng8yml4pr7hi571j02p"
   },
   "stable": {
    "version": [
@@ -98767,17 +98767,17 @@
  },
  {
   "ename": "zprint-mode",
-  "commit": "125f6358dd8d715b61b12de5d39215453e53ea10",
-  "sha256": "07ziwnk1c620s7rp42fylpw5vgin0p7aapp3g8aif60vcb8g3m7y",
+  "commit": "188d40daec1ff86dcfa807a91eb77a1281de3951",
+  "sha256": "1dwf941plwxib96n4g95pm51hhhaq643djn1hps8s7yyrzz77czz",
   "fetcher": "github",
   "repo": "pesterhazy/zprint-mode.el",
   "unstable": {
    "version": [
     20191130,
-    1659
+    1829
    ],
-   "commit": "b2515be3001f00ef0097f08e494733210ed78807",
-   "sha256": "1fhhvxg5drbml8706yjsp3a5q4n524pfvgyqjimn4jpkigy4gfy3"
+   "commit": "4d0dd23b40155618181d9d1e4c82849e0d73b659",
+   "sha256": "0im63h7ang7zypzbf45k5pxz11svyyk8pab9d4qg9jsb7bz9v7k0"
   }
  },
  {
