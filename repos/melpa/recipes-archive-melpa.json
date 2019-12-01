@@ -10552,16 +10552,16 @@
   "repo": "clojure-emacs/clomacs",
   "unstable": {
    "version": [
-    20190925,
-    1509
+    20191201,
+    200
    ],
    "deps": [
     "cider",
     "s",
     "simple-httpd"
    ],
-   "commit": "292c8f5370a2c74094da46ede990b5e7cc8b55b8",
-   "sha256": "1rv57wqr09vl0caz4wjr0kqvhgvl5y1x6818v8m55rm2z8rim11i"
+   "commit": "88b8fc6d1b7105adae009578ef24fedaf157f341",
+   "sha256": "13rhnncqj8666g2v7493i8xh79mczjrmg24p12knzhkslxdnv9hp"
   },
   "stable": {
    "version": [
@@ -11279,11 +11279,11 @@
   "repo": "purcell/color-theme-sanityinc-tomorrow",
   "unstable": {
    "version": [
-    20191124,
-    2048
+    20191201,
+    109
    ],
-   "commit": "a72697885c104d675cf5af00e4b326f099f162ba",
-   "sha256": "0ppnhbqf53rwknf39lki0vwgw4ga8acqn0gi7zdvla6qkg2b3gdk"
+   "commit": "a4d969c1b8a25f9874747b936cfc1f9036e2c59e",
+   "sha256": "1zrzkswrhkifxgr7fljlh1yqgx3d76v24zh073m8inc1c2dhsigd"
   },
   "stable": {
    "version": [
@@ -21289,8 +21289,8 @@
     20190714,
     236
    ],
-   "commit": "dd0df74dc3c091ddf7c0acb70c9dffeca558880f",
-   "sha256": "095r51xy43mq979vxqhq9azlcdjsa828akzv4767cs9scbj9223p"
+   "commit": "f5228daa98cde0aa2db97f2016361f11d7e9c777",
+   "sha256": "0iszpihhnsngn4v9l2vygi36b4aqwwinjfqxaf8f3ilf1ahid19x"
   },
   "stable": {
    "version": [
@@ -25792,8 +25792,8 @@
    "deps": [
     "julia-mode"
    ],
-   "commit": "18293d51b31a1d9f1f153546559cca21d38d0360",
-   "sha256": "126j8k6jk2n3kc28gwsnfki4x607rd8mpwlx1s2yjq59bha97n3n"
+   "commit": "3abc87a3a285b4617fb0040f5b8b28475e4550a3",
+   "sha256": "0p39kvi0npldlf5rflwi2xp9182w74qmw3z764bjn5s8l0n946ps"
   },
   "stable": {
    "version": [
@@ -52926,6 +52926,14 @@
   }
  },
  {
+  "ename": "khardel",
+  "commit": "d0dafe07d355f705b268b19460cf071ab878961f",
+  "sha256": "0h9dhlzjrci4q5p18fwwizs31f4gyz8d5jq011bvzcvz9q1q75sp",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "DamienCassou/khardel"
+ },
+ {
   "ename": "kibit-helper",
   "commit": "f7fee551ca9ed226f1285dffe87027e1e1047f65",
   "sha256": "15viybjqksylvm5ash2kzsil0cpdka56wj1rryixa8y1bwlj8y4s",
@@ -53081,8 +53089,8 @@
     20180702,
     2029
    ],
-   "commit": "cf22741702c449578e06821c41547c66ceb5f7c6",
-   "sha256": "10pxmx2yafdqy68ia4jpdnaj4qw3p1484pa4zvv07qri96r7qzrh"
+   "commit": "18aa4389e3a0f726d98189ac095546811d009739",
+   "sha256": "0p7jljxn2n22vwv5dhw31dxybx9nywlgcmjr9g99fwm7m742dzhi"
   },
   "stable": {
    "version": [
@@ -59832,6 +59840,22 @@
    "commit": "c0e49523aa26b2263a8693691ac775988015f592",
    "sha256": "0ri841cwx2mx8ri50lhvifmxnysdc022421mlmklql0252kn775l"
   }
+ },
+ {
+  "ename": "modus-operandi-theme",
+  "commit": "6f3291ebede304fe14240870372c0d396f43c0d9",
+  "sha256": "15rq4l14a7y6p8vhgbs017crfwyp7fq61n03xbfycq92mlx89kgx",
+  "error": "Not in archive",
+  "fetcher": "gitlab",
+  "repo": "protesilaos/modus-themes"
+ },
+ {
+  "ename": "modus-vivendi-theme",
+  "commit": "74909ab53df89c5b720c89527b3b4c9aec8351b9",
+  "sha256": "16bs48amvwikp4ikv8fs9zrsyz942jdzlz9ddf3qv8c9vpc5x58q",
+  "error": "Not in archive",
+  "fetcher": "gitlab",
+  "repo": "protesilaos/modus-themes"
  },
  {
   "ename": "moe-theme",
@@ -67975,8 +67999,8 @@
   "repo": "alphapapa/org-super-agenda",
   "unstable": {
    "version": [
-    20190925,
-    958
+    20191130,
+    2245
    ],
    "deps": [
     "dash",
@@ -67985,8 +68009,8 @@
     "s",
     "ts"
    ],
-   "commit": "a87ca11fbbe72ab6c1c4c3b55ae9e1e93ebfb8ba",
-   "sha256": "08b7babdaqblb6jff57an4kbcxk6fkhf668620fipfjgbsnqv3ff"
+   "commit": "75a664e3fea18af3470a70d3109078b9cdda16e5",
+   "sha256": "0i9mngj98z7z90ypaph99b3hn1c0pvbc7v4k0b4r3ilz85fjl2qz"
   },
   "stable": {
    "version": [
@@ -69681,8 +69705,8 @@
    "deps": [
     "org"
    ],
-   "commit": "2d055bafd6272d9694aaea9e49eae2a3d578b5b7",
-   "sha256": "04xagn6q7ka32rcz8q1701841zg2aljgpng8yml4pr7hi571j02p"
+   "commit": "4c0ae850518c45e010a3d7253e78087c098b2fca",
+   "sha256": "0p6iz2mrh7q2l9s2craglacaf0c00hv6yrjb4bm3zjc9izzpqmsv"
   },
   "stable": {
    "version": [
