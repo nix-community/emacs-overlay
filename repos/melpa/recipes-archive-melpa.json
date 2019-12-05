@@ -6135,8 +6135,8 @@
     "a",
     "pdf-tools"
    ],
-   "commit": "5f3e67448cc98fe2875115163849acae4d9e8526",
-   "sha256": "1w0dhyr4i0nx0g70smgclcfsbv6cfilb7df330njzaqk8j2gdfws"
+   "commit": "5c16860a7d28f5f951548bfb0852ad10c368edab",
+   "sha256": "1ac36jz6dv5fc4js5ssy56khkbyif7y9nw66yh7qvksqibcdksn6"
   }
  },
  {
@@ -9030,8 +9030,8 @@
     20171115,
     2108
    ],
-   "commit": "2d64170ccc17e8a85bed2ef14c92132b69c66f92",
-   "sha256": "08jy7yga7rwxc9m4ax33c40f8ivwsj83y67gpajmvyv863jkhpn4"
+   "commit": "19325a803c34a67e43bac4083d518dffe19494c8",
+   "sha256": "1b35z4h3725irpfcvx59ycia4c2qq45sib6qw0ffhiyq1bbw8snk"
   },
   "stable": {
    "version": [
@@ -19123,8 +19123,8 @@
     20181110,
     1857
    ],
-   "commit": "6421d9e28d57cb73212c61ab7304abfe6f950ec9",
-   "sha256": "1j9ibjg6fx5iqlhxjqjcr9j9jy1n75cwcqslddzlp80p4qz9ms1k"
+   "commit": "925845844035998a941faed57baea9142cb61a44",
+   "sha256": "0nbr9ncc73w6b138ccgnknlynn0lja2ap2h7131krz9p0n07hkll"
   }
  },
  {
@@ -19818,8 +19818,8 @@
     20191016,
     1241
    ],
-   "commit": "44d3a17f6b360f8308e2341cdabafb5219c36e81",
-   "sha256": "1a475zxb49iq7zhhkkcd3x93ghmi1fcwlfqfqba1fasnzc5nl6wc"
+   "commit": "170f3198cd280b38108f150d1c6f65088a0e1e23",
+   "sha256": "0b5swbq1x0n70s8a66fppkpqxk5yb1h9i8xsr4mcdf4wm7p9majf"
   },
   "stable": {
    "version": [
@@ -20487,14 +20487,14 @@
   "repo": "joostkremers/ebib",
   "unstable": {
    "version": [
-    20191204,
-    1008
+    20191205,
+    1336
    ],
    "deps": [
     "parsebib"
    ],
-   "commit": "2ffa3822b2fb648fd3ac9a78daa443d5ed6787f8",
-   "sha256": "1l35qvjfj3ldf6qblr2fwj0h7fg69nhiyyy9ligk1vbi08iwhi01"
+   "commit": "d62b5a49a1d68dab053dcf79c9e16eb29bf5f7a6",
+   "sha256": "07xz5mjzlqjw7zqwid9cgb9wra34z8mkn3sa6jzpf52sw7v8vxcj"
   },
   "stable": {
    "version": [
@@ -25016,8 +25016,8 @@
     20191023,
     843
    ],
-   "commit": "5f48e486899d09deeae9f604538e4497518571f6",
-   "sha256": "1vlnzpwgg56cnsndv7s35w7dz99n0qi1vkrxb3s825rc2gv4kdjg"
+   "commit": "e986547370ab6d46f19d2c8d0ff0d05147de698e",
+   "sha256": "10p00pkfzcjx7q7nfkvpbn6a7a9rppgg32an9wls7kdl9yrkp1bf"
   },
   "stable": {
    "version": [
@@ -33906,8 +33906,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "cfb1672fcad336ba9036cd71a99cdd150efe74e4",
-   "sha256": "17pmqxapyazpvzablsfj935q65w9wiqi25k7qjs97wwy56m8fdqx"
+   "commit": "e9e841aed432b2294ce557b2c8f02e425905a02e",
+   "sha256": "0fzdp3z9cdmsxql52aq9svi9ds6wnspn6wa3apdl0l7pw6k1d5rv"
   },
   "stable": {
    "version": [
@@ -34166,8 +34166,8 @@
     20191004,
     1850
    ],
-   "commit": "5f3e67448cc98fe2875115163849acae4d9e8526",
-   "sha256": "1w0dhyr4i0nx0g70smgclcfsbv6cfilb7df330njzaqk8j2gdfws"
+   "commit": "5c16860a7d28f5f951548bfb0852ad10c368edab",
+   "sha256": "1ac36jz6dv5fc4js5ssy56khkbyif7y9nw66yh7qvksqibcdksn6"
   }
  },
  {
@@ -56001,7 +56001,7 @@
   "unstable": {
    "version": [
     20191205,
-    725
+    1345
    ],
    "deps": [
     "dash",
@@ -56013,24 +56013,26 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "d58ed77bc3575627818de7e184cea3f207ce71f6",
-   "sha256": "1nhn2k9h16mp12cq9fkix3xfa48120lqbymdj0hpg4b5pclsp42f"
+   "commit": "af9025a0cd7723cf51841f0458c1e77d056026a5",
+   "sha256": "1mkz8gdk85lkbpizsv33l3m6sg6zpr7h0lqw6jhyibfa5w983wf5"
   },
   "stable": {
    "version": [
     6,
-    1
+    2
    ],
    "deps": [
     "dash",
     "dash-functional",
     "f",
+    "flymake",
     "ht",
+    "lv",
     "markdown-mode",
     "spinner"
    ],
-   "commit": "50ddaf439cd62033d3bc0d12cca341fb0d4e1382",
-   "sha256": "0jn5slhv9zfs446a5966bfg9dq144g22v79wnkx9hxq7if78p652"
+   "commit": "15eb9cdbd4e919e805016148bea78e18fc854533",
+   "sha256": "12263cdfsm4d3xhfv2cylwfrcykmi5dgqdc5jy0lkrc2iw5nmpjd"
   }
  },
  {
@@ -89415,8 +89417,8 @@
    "deps": [
     "visual-fill-column"
    ],
-   "commit": "437110c11265434c54582e750e6197f5461fbac6",
-   "sha256": "15w0jbzs6drma4vc0yksjga2r16p3mazihzbc839h5jsx7j9ivaf"
+   "commit": "c30006db4b9ad9ad4cb6c79a2bb0de2cb4410e13",
+   "sha256": "0156223pp3icrjs0j4z0i9wjqwd3hpf1pn2df9nmd0wnn7nc8c2d"
   },
   "stable": {
    "version": [
@@ -93971,14 +93973,14 @@
   "repo": "baron42bba/vertica-snippets",
   "unstable": {
    "version": [
-    20191204,
-    1618
+    20191205,
+    1016
    ],
    "deps": [
     "yasnippet"
    ],
-   "commit": "d57fc49719f8a9de0bc78425ecc25ced45c02564",
-   "sha256": "1s1p8745b8s8k3hjz36pwv2y3z8qck8rv5q68na6mg090466m30m"
+   "commit": "39430565e90370bedf493e1ce02e38010090ec27",
+   "sha256": "149lrdqvmvq3j35mmf0d4d9ykv2ybk9bjqfcj5rdngm3r14j7h5q"
   }
  },
  {
