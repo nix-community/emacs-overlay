@@ -2230,10 +2230,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.2.6";
+        version = "9.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.2.6.tar";
-          sha256 = "0ikd78k4yw4sm5x7l3dsbvfcmvnv5qna2mxirr560gvcnzhr0zg4";
+          url = "https://elpa.gnu.org/packages/org-9.3.tar";
+          sha256 = "0pyfx4xzzi3qqip958rs7j5ca1r4i5v6dfkx5kbp2ndhqmxbfxjw";
         };
         packageRequires = [];
         meta = {
@@ -2395,10 +2395,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.3.20";
+        version = "0.3.21";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.3.20.tar";
-          sha256 = "100xckf3z75b3gqxzlgcwcqqkrx7xqyp5s02fjz1y6h5m5l4pr8a";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.3.21.tar";
+          sha256 = "1yg6vpcas1rrh04ifrh5h1y1nwa8r5gfl3m5absqayygqrgl275z";
         };
         packageRequires = [ emacs ];
         meta = {
