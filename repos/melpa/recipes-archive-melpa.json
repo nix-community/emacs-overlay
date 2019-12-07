@@ -12737,8 +12737,8 @@
     "company",
     "phpactor"
    ],
-   "commit": "a12ec67ce9de9e96c89548052ae323a277cba846",
-   "sha256": "031i5s3cv9z2d6vnwbf91291fgafcqg61km9b3z7p9bk91vbkxsy"
+   "commit": "6e8244948bf4af18411f0038cb2e64ceb4a9b251",
+   "sha256": "1xgbgbdqjgm4gn8x5viwlak8xnpkfibzm4q8sx50n72488ibhfxy"
   },
   "stable": {
    "version": [
@@ -19166,16 +19166,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20191204,
-    1731
+    20191207,
+    1717
    ],
    "deps": [
     "all-the-icons",
     "dash",
     "shrink-path"
    ],
-   "commit": "0e3abf8ccc75d57962527a9acc6786fd096aa35a",
-   "sha256": "0lk3cw7rkz96664vslgv4vr63r53zy15906fi3g2kgs72i94p4zx"
+   "commit": "bb4d748ed50fba4ddcf96491a99727e9e8e9a7e9",
+   "sha256": "1j68jlxaysk5din98a3lv2zbjp9rl375nmg6y59f3dw8zd5jm6zr"
   },
   "stable": {
    "version": [
@@ -34884,8 +34884,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "6b91f6f774dcae6f9233328901fba93f989da13e",
-   "sha256": "1c9f0x0h3spv2fv4jq0xbirc49fhc483ygbk55y751w0fh3cibfq"
+   "commit": "e05eecf26bde2b6d26d229c5e35b7a052f11709a",
+   "sha256": "118ayvir3hkhfmdzk8mjhjkc06ws74rylksy8bxw7h9bfg5p0j9z"
   },
   "stable": {
    "version": [
@@ -38703,8 +38703,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "d3062b0a585271e01bfdbc904ebeb85e4f0dbed6",
-   "sha256": "088pjhfs5m4srkjd8f36cxl9pa4n0fl98p6ggfkbwdd61njnbiwf"
+   "commit": "55ecaf54bb2b1bfd7a0fdc9e9eb749792a5cb897",
+   "sha256": "03hdd5xji9hq22aaf116wvgd0y4f6kpw4d6mcss2vm0kqjxbbasv"
   },
   "stable": {
    "version": [
@@ -53749,6 +53749,28 @@
   }
  },
  {
+  "ename": "lastfm",
+  "commit": "0b87a3465eece39cb2f73a90dedf97dd0dd970c2",
+  "sha256": "06gy4br99r8l9ak2ac7js9nyw4v5b94a8ja4pkik49l90qgss93m",
+  "fetcher": "github",
+  "repo": "mihaiolteanu/lastfm.el",
+  "unstable": {
+   "version": [
+    20191117,
+    1908
+   ],
+   "deps": [
+    "anaphora",
+    "elquery",
+    "memoize",
+    "request",
+    "s"
+   ],
+   "commit": "c2b39d2fa4fb7f56e4aacb0a50ed2aa509ab992c",
+   "sha256": "09k8p5bpl7f4dgkvvx4gf91pgyc5ikm6kynkjhdwrsnpnnl2cc9b"
+  }
+ },
+ {
   "ename": "lastpass",
   "commit": "46e5e8735baab7728bddce2693cea6bcee0e6360",
   "sha256": "0x4c9c110nqv3v6kzcxdg9a9zcg7yn1hj6ffgrbsd8c3wbrdxrlj",
@@ -62071,11 +62093,11 @@
   "repo": "nickav/naysayer-theme.el",
   "unstable": {
    "version": [
-    20190704,
-    201
+    20191207,
+    1743
    ],
-   "commit": "8eed91b268403cb9043e0c9d9aaf324db1ab7d7e",
-   "sha256": "00gwj4dw0ky94fhgy6zckmh2s5lfphvc0hkcqvcvvqcwy8a03ynv"
+   "commit": "23ee9e99ed8d22fc6159e227781c78fa2a144fd0",
+   "sha256": "10vs6b2cjvshhg3rb0i7whblhi4z66n1i35wiza8hgbz0g2s1y18"
   }
  },
  {
@@ -73029,8 +73051,8 @@
   "repo": "emacs-php/phpactor.el",
   "unstable": {
    "version": [
-    20190913,
-    1340
+    20191207,
+    1655
    ],
    "deps": [
     "async",
@@ -73039,8 +73061,8 @@
     "f",
     "php-runtime"
    ],
-   "commit": "a12ec67ce9de9e96c89548052ae323a277cba846",
-   "sha256": "031i5s3cv9z2d6vnwbf91291fgafcqg61km9b3z7p9bk91vbkxsy"
+   "commit": "6e8244948bf4af18411f0038cb2e64ceb4a9b251",
+   "sha256": "1xgbgbdqjgm4gn8x5viwlak8xnpkfibzm4q8sx50n72488ibhfxy"
   },
   "stable": {
    "version": [
