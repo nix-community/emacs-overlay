@@ -15991,8 +15991,8 @@
  },
  {
   "ename": "dash",
-  "commit": "57eed8767c3e98614259c408dc0b5c54d3473883",
-  "sha256": "0azm47900bk2frpjsgy108fr3p1jk4h9kmp4b5j5pibgsm26azgz",
+  "commit": "2853d2fcf46eda788e5a3ea08815d0a2bf9d9d32",
+  "sha256": "1z55hwp6xzbn44xbz6fzpcgbp1b1sf37amryl8p54likj3i21i8n",
   "fetcher": "github",
   "repo": "magnars/dash.el",
   "unstable": {
@@ -22302,15 +22302,15 @@
   "stable": {
    "version": [
     0,
-    5,
-    9
+    6,
+    0
    ],
    "deps": [
     "cl-lib",
     "elfeed"
    ],
-   "commit": "c5faca15ccfe7e03dc4ee1372a07671c20015737",
-   "sha256": "1cdg111dgpphlpv2csv9nr5p2zjk3qss7bf0y8485nnzcin4ip9f"
+   "commit": "2a708dbd6608c366b8794499cf2b7aab8d2e0d95",
+   "sha256": "1vycw5pmd2lg1vhnm65qfhla0czqiz5n6gd8zg503am7yh6xnzi7"
   }
  },
  {
@@ -59930,11 +59930,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20191207,
-    1017
+    20191208,
+    421
    ],
-   "commit": "c01f7e2c372ac968856374a580b14706319cb518",
-   "sha256": "146db49ah5qxilxck057z8wi7zk653s2ip6b6qckvkq7wh2j77r9"
+   "commit": "8c48c029048dc35e721cf937f34c5851245b737b",
+   "sha256": "1n1nylgxcngpq5bmcsjj3s9qifaxkwvqd50ysf8cj482wxmax5sj"
   }
  },
  {
@@ -59945,11 +59945,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20191207,
-    1017
+    20191208,
+    421
    ],
-   "commit": "c01f7e2c372ac968856374a580b14706319cb518",
-   "sha256": "146db49ah5qxilxck057z8wi7zk653s2ip6b6qckvkq7wh2j77r9"
+   "commit": "8c48c029048dc35e721cf937f34c5851245b737b",
+   "sha256": "1n1nylgxcngpq5bmcsjj3s9qifaxkwvqd50ysf8cj482wxmax5sj"
   }
  },
  {
@@ -69143,6 +69143,14 @@
    "commit": "1f38085c8f9af7842765ed63f7d6dfe4dab59366",
    "sha256": "0ha1qsz2p36pqa0sa2sp83lspbgx5lr7930qxnwd585liajzdd9x"
   }
+ },
+ {
+  "ename": "ormolu",
+  "commit": "ab315f96d9b8d01ffc3b4748d01c70861daf8c1a",
+  "sha256": "0d6pgmp1iy3yylvx9bbdia5p0c7m59m8hca55lkxb7g6ck2c628y",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "vyorkin/ormolu.el"
  },
  {
   "ename": "osx-browse",
@@ -90460,8 +90468,8 @@
     20180905,
     1050
    ],
-   "commit": "d7d513ccb53b133bd50583fcb66679082fc3bbb3",
-   "sha256": "0mgldzj8a05qgvprlp0bk3balzjv8flj1ghffwhkpc85cqy7a6bi"
+   "commit": "bb1c9e524bab677ef2a12a950255ee5762e4fad7",
+   "sha256": "19zkxblvyl5nbi8anmrlm81c9b2x31ah8kndpbhllpwbm969nc0q"
   },
   "stable": {
    "version": [
