@@ -820,10 +820,10 @@
       elpaBuild {
         pname = "dired-git-info";
         ename = "dired-git-info";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dired-git-info-0.2.el";
-          sha256 = "1pxn6kmgnynil13gp3m0y8hhkvciy3dcd55psj70pkrj50555dqx";
+          url = "https://elpa.gnu.org/packages/dired-git-info-0.3.el";
+          sha256 = "1pbn3gzi7zqhry7ylygcf0mn6kvj6pnyap5x2b1ns8n6ibpyc15l";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2395,10 +2395,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.3.23";
+        version = "0.3.24";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.3.23.tar";
-          sha256 = "1a70jsjd30yprk8hma4sxz0cc63v93q74nm74rjw47khv27xh3fg";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.3.24.tar";
+          sha256 = "0kdwhxmlj2dx1zpai9ra8iwyz0f4pa03m23f0xg9cc373c5zzs6w";
         };
         packageRequires = [ emacs ];
         meta = {
