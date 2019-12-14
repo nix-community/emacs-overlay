@@ -1666,10 +1666,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.8";
+        version = "1.0.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.8.el";
-          sha256 = "0kyhlwgmffy1a1yrx7fs27vyqmzqb67glpaiflsa6rzb8mnzmmdj";
+          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.9.el";
+          sha256 = "1ncsdv9pr2zsfa9mxm4n68fppnkpm410mh72r7h5f8yj17lz00ss";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2395,10 +2395,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.3.24";
+        version = "0.3.25";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.3.24.tar";
-          sha256 = "0kdwhxmlj2dx1zpai9ra8iwyz0f4pa03m23f0xg9cc373c5zzs6w";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.3.25.tar";
+          sha256 = "0xql2iimbf4rld10770ln7fblbc149bxmkhqwvvwh3ra30knj0vy";
         };
         packageRequires = [ emacs ];
         meta = {
