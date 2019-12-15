@@ -820,10 +820,10 @@
       elpaBuild {
         pname = "dired-git-info";
         ename = "dired-git-info";
-        version = "0.3";
+        version = "0.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dired-git-info-0.3.el";
-          sha256 = "1pbn3gzi7zqhry7ylygcf0mn6kvj6pnyap5x2b1ns8n6ibpyc15l";
+          url = "https://elpa.gnu.org/packages/dired-git-info-0.3.1.el";
+          sha256 = "1kd0rpw7l32wvwi7q8s0inx4bc66xrl7hkllnlicyczsnzw2z52z";
         };
         packageRequires = [ emacs ];
         meta = {
