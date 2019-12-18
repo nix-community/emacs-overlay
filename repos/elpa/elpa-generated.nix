@@ -3337,10 +3337,10 @@
       elpaBuild {
         pname = "verilog-mode";
         ename = "verilog-mode";
-        version = "2019.11.21.248091482";
+        version = "2019.12.17.268053413";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/verilog-mode-2019.11.21.248091482.el";
-          sha256 = "11dl4waq6cnd6cq9qxbvkvi3rhwj30nrll0d1yvx9m16frswq231";
+          url = "https://elpa.gnu.org/packages/verilog-mode-2019.12.17.268053413.el";
+          sha256 = "0g42sd5s5xrck077qx0p2sldnr2f9qm8dsr9d0fiaks294sk8li8";
         };
         packageRequires = [];
         meta = {
