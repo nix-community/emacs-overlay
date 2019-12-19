@@ -9057,11 +9057,11 @@
   "stable": {
    "version": [
     3,
-    14,
+    15,
     0
    ],
-   "commit": "44c447317b7ab87f973f21170a9c17a58b1c75c8",
-   "sha256": "0fk4x7qn7dsc7jqgbr3bpnphq7a1s4faqjci1j08cnigb3b5x585"
+   "commit": "76bc1fad91478de7064380c31d333e1975cf8126",
+   "sha256": "1amjzy3v7rhc6djl1ldqnhpd4m3prh7lfyd5hyb9fp0v8jhyg3w2"
   }
  },
  {
@@ -10790,17 +10790,17 @@
     20190710,
     1319
    ],
-   "commit": "9f75f9974f974611ab899675aa7bb987078e3b0d",
-   "sha256": "09f7x4hjqqyz5amib67dxyp23ph5x0af07spvv3gcsc5gj030kxi"
+   "commit": "10fea25139cc302ef0f0a41aa68b44cda72a4fd2",
+   "sha256": "1b05d6nn8sgisg353mpnxh4942x57z0z1cvs8pivy1qc955r16ba"
   },
   "stable": {
    "version": [
     3,
     16,
-    1
+    2
    ],
-   "commit": "4771c4e447c88a0e6a361d98c2c6f44ac7746ad3",
-   "sha256": "1lmirkdxkgs68bk87hagaw3pnx0wyv033ba7rq0swja2l6jf0a5r"
+   "commit": "512ab500f06d6c645985cc8014c5e6291b9a059f",
+   "sha256": "0m0sd8ynrrhj8636jgixakpha814r1qpzcqdbnpddvjcvmijqjxv"
   }
  },
  {
@@ -19876,8 +19876,8 @@
     20191016,
     1241
    ],
-   "commit": "59bdec6058aefa2db184ac69a94a370637d4f856",
-   "sha256": "12airmskn6waz3ks03d1xd956xl60f6md8scb5j9lwrmrd3ys11k"
+   "commit": "f3944becd0872c683f3390d558cf09a9d8f15398",
+   "sha256": "0nfmwb8h31jjr01rbyq8yvgni0ncc6kmnbbj74f83i5il89zwvjv"
   },
   "stable": {
    "version": [
@@ -21505,8 +21505,8 @@
     "skewer-mode",
     "websocket"
    ],
-   "commit": "d48edc71b678e46a18b042617d6b1c921e638bf6",
-   "sha256": "04g7h1mrvbzs4wpgkp2h7idpi56czphdkkk0gw9v3sh00ppcipci"
+   "commit": "00a4af6857a4d610311b74ff4cf817e7fdc117d4",
+   "sha256": "0iw6sdfp89iqiwqfwdfmb4sfkqn5z76yj4p1ara3488f5n5vn1c4"
   },
   "stable": {
    "version": [
@@ -25075,8 +25075,8 @@
     20191219,
     1238
    ],
-   "commit": "12ed8fde85751e840e324748291f234b460f07a5",
-   "sha256": "0353dcyhd9rlndsywk3gc4hyrhp0b3r68lykvw5n91axrvfj54a1"
+   "commit": "1f77ea80587061175c5311cc7502aab01de89784",
+   "sha256": "06gcjg9j0clqggx07lhzlk2c7jv6djpnmhbr04dg96raw4ql7q7a"
   },
   "stable": {
    "version": [
@@ -53511,14 +53511,14 @@
   "repo": "abrochard/kubel",
   "unstable": {
    "version": [
-    20191206,
-    2138
+    20191219,
+    1646
    ],
    "deps": [
     "transient"
    ],
-   "commit": "8165be6cae6e85620a447a22cc87d9fb2c88ac39",
-   "sha256": "0z76g2ywpbsa9ncs24w27rr6iva472hnc5lqqw8hnmr013nf44l1"
+   "commit": "0ffecc6ef76c8ab5affb73e519e7a6d7ec815e9d",
+   "sha256": "17scf2nn8y54yz68xpnxspvmd5kjjnkyl2fwh8vmwcsclj5yf0l7"
   }
  },
  {
@@ -78251,8 +78251,8 @@
  },
  {
   "ename": "quelpa",
-  "commit": "a496196d405c152600d44ef4aa28557f489c542c",
-  "sha256": "0qm4dxwlvaka6j8ismb4lhar4dzlhpvjsx6524w15ilcbdbyqqjl",
+  "commit": "c599f1254808a9d9bab87c35769052d5df2a01bf",
+  "sha256": "1g53fcy837hpyn9lnmmri0h4c5va61vszhblz4caadqq265hknvs",
   "fetcher": "git",
   "url": "https://framagit.org/steckerhalter/quelpa.git",
   "unstable": {
@@ -78266,8 +78266,8 @@
  },
  {
   "ename": "quelpa-use-package",
-  "commit": "a496196d405c152600d44ef4aa28557f489c542c",
-  "sha256": "1rdhnv7iz9clcy68j1gqv8cwq70ip4w12179v553lyikk9icrpp8",
+  "commit": "c599f1254808a9d9bab87c35769052d5df2a01bf",
+  "sha256": "0p09w419kldgl913hgqfzyv2pck27vqq2i1xsx7g29biwgnp9hl9",
   "fetcher": "git",
   "url": "https://framagit.org/steckerhalter/quelpa-use-package.git",
   "unstable": {
@@ -88505,16 +88505,16 @@
   "repo": "danielmartin/swift-helpful",
   "unstable": {
    "version": [
-    20191013,
-    1658
+    20191219,
+    1859
    ],
    "deps": [
     "dash",
     "lsp-mode",
     "swift-mode"
    ],
-   "commit": "a4f581cf38664e9605e45264d2fe715b79adb9fa",
-   "sha256": "1wrv5k902j45r5aqwr8mn58rxdyyx63jnp5df3r1349l1yknk4vj"
+   "commit": "0fd3fbb40fed1885744523ffc3eefbe3fc278183",
+   "sha256": "09dva18c92chcaxn1argkh0ka9klg65m1kvy9fhmwf243kw6jmhy"
   }
  },
  {
