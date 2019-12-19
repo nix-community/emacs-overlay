@@ -3516,6 +3516,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    windower = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "windower";
+        ename = "windower";
+        version = "0.0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/windower-0.0.1.el";
+          sha256 = "19xizbfbnzhhmhlqy20ir1a1y87bjwrq67bcawxy6nxpkwbizsv7";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/windower.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     windresize = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "windresize";
