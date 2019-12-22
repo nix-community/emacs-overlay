@@ -7831,8 +7831,8 @@
     20191108,
     2157
    ],
-   "commit": "246ddd764a986bcadfe1769c0d5aa27db6c7ae23",
-   "sha256": "1q57ldr0pcd9f42b4njpaa1sxfhnnq8sfxpj0vayl6dci03gw7rj"
+   "commit": "9408a7263f10020b0447a6fd1ec6680e730c25f7",
+   "sha256": "0marcrf1f19gq7aw7rajdijvq1w8r1frq2qc1hmi0bx0ji0f3k0a"
   },
   "stable": {
    "version": [
@@ -36141,9 +36141,31 @@
   "ename": "git-backup",
   "commit": "07d8ba2d036abeeb585f9dfd0399ae97fd1e2415",
   "sha256": "094sh80zyidzavf0b4nfpryi164x24mi4bs8jqcwvlyg91vn9b96",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "antham/git-backup"
+  "repo": "antham/git-backup",
+  "unstable": {
+   "version": [
+    20191209,
+    2144
+   ],
+   "deps": [
+    "s"
+   ],
+   "commit": "643c8c292c128ac3d0c4d80f2d4a2e19db711e6c",
+   "sha256": "0k7blj6s31llvznwsj94kwpnahb6ga58vkx6542ibdmcgdb59n1d"
+  },
+  "stable": {
+   "version": [
+    0,
+    0,
+    1
+   ],
+   "deps": [
+    "s"
+   ],
+   "commit": "e28d7af2d1c58fa5b8068223eb83a73f044e6a6c",
+   "sha256": "1kx5pmm7hrcppryb39z289dab5h0w6hwk0jk1bmvbg9lzf9hqz3q"
+  }
  },
  {
   "ename": "git-blamed",
@@ -37399,9 +37421,24 @@
   "ename": "gnome-screencast",
   "commit": "628db4fa9d74c60290bf0e81cbb7ffdd08bd4a68",
   "sha256": "0h16zj0lyg76g6561q8xbazyidwbr8bd146lw8s68vdgmn6k9qn3",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "juergenhoetzel/emacs-gnome-screencast"
+  "repo": "juergenhoetzel/emacs-gnome-screencast",
+  "unstable": {
+   "version": [
+    20191217,
+    2007
+   ],
+   "commit": "cff1c312224b4943df6fb6559492fd94caa82f86",
+   "sha256": "0cwdmlq3aibai1g4jbxvwms9wvqxscak7bvlxv52i9qxyr7gjlnv"
+  },
+  "stable": {
+   "version": [
+    1,
+    4
+   ],
+   "commit": "261844a88c75f10d98b60577ac8121fcd6721564",
+   "sha256": "0qc5dj14fj3wa36kf3d6n0ijd49lpxmgnn1qw5qqbz29k12w5sqf"
+  }
  },
  {
   "ename": "gnomenm",
@@ -53295,8 +53332,8 @@
     20180702,
     2029
    ],
-   "commit": "59facf6e6f7b1346cf20a1b104104f21a09f8c7c",
-   "sha256": "092p278m7x2dggjn2b7j5gcmmcvsmwq5q9r6g8rczrg726dyrc16"
+   "commit": "662985b7c933df52c31f7535ce148f51dc442e5e",
+   "sha256": "1aaikvbqgx4bvi14xhlcaw7l2ljvsbnq5rp8rx7whi1ad5sv2a7s"
   },
   "stable": {
    "version": [
@@ -55402,8 +55439,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "fb3b376de483d6923bb067caa01ebdb65a0161c2",
-   "sha256": "07difczbj38xzgxi0cig5zb05c9pn0fsbk00mmvfhk5rgxyfc71s"
+   "commit": "3bd795288db8dcd3edf5b33ca8fc213fe16c62d5",
+   "sha256": "0in5cryj1abcg6850lxx8qqhxvdij54jmm4ip9ra2kwz55smq4ky"
   },
   "stable": {
    "version": [
@@ -67695,8 +67732,8 @@
   "repo": "alphapapa/org-ql",
   "unstable": {
    "version": [
-    20191219,
-    1912
+    20191221,
+    2228
    ],
    "deps": [
     "dash",
@@ -67709,8 +67746,8 @@
     "s",
     "ts"
    ],
-   "commit": "b9dfd7d93b1b64ddd0158290c5b6bb482dc558f3",
-   "sha256": "1v7dw47599drrrfnrvg2v0xmbg406a5h6zyjwg5b0lg71lzkrh3h"
+   "commit": "091a732a8876b4a4bf2d18cc5b19d196a2571149",
+   "sha256": "19p9pg1r2n8iy2ghgsmadly8w2san7dqg3drxy3gn789cp9arc7k"
   },
   "stable": {
    "version": [
@@ -82311,8 +82348,8 @@
     20190413,
     1246
    ],
-   "commit": "2a943a57f9d23511c0021b228dee6b6eb9ae440d",
-   "sha256": "17q7vb5wdjhajpqlcll6k533n1izlafv4f4s4zmd35p28xb4fb2q"
+   "commit": "4ef45b005c0d3c4fa2b6b375652c5bf9ef051df4",
+   "sha256": "0d0aav8qs4g05c4bw9k656f4s5l5psdnplv2b82gvr7xnkk3ndxk"
   }
  },
  {
@@ -92929,9 +92966,16 @@
   "ename": "undo-fu",
   "commit": "0ca16994315f7d5dee9fff76db036e084162dc52",
   "sha256": "1b0616zlblsd5405sfh02lxjyq6gl3s9m8vsxbqi6fryr4y750s9",
-  "error": "Not in archive",
   "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-undo-fu"
+  "repo": "ideasman42/emacs-undo-fu",
+  "unstable": {
+   "version": [
+    20191215,
+    50
+   ],
+   "commit": "756a4846b35697993a00d3ee8f387609628057e7",
+   "sha256": "0814mhdkg17p0xzkd5bd5x01mxlwj4pd9w6ccl5f7mnv9q0y5plq"
+  }
  },
  {
   "ename": "undo-propose",
@@ -97715,9 +97759,16 @@
   "ename": "xonsh-mode",
   "commit": "f408aee5da4eadd8f4550893336f6decf00c9281",
   "sha256": "15bb2zz9rb7bn0wrwhpi46f9knfr8hbjl9drks6xma3ln7nvrn9v",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "seanfarley/xonsh-mode"
+  "repo": "seanfarley/xonsh-mode",
+  "unstable": {
+   "version": [
+    20191214,
+    114
+   ],
+   "commit": "d59301fbb6adc93ac27e4d862c303d038cd8734c",
+   "sha256": "0il36x05hicjcnjnx251s9160j5fiy202n8280mfm1rqb5m1xn0i"
+  }
  },
  {
   "ename": "xquery-mode",
