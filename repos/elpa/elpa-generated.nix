@@ -2245,10 +2245,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.3";
+        version = "9.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.3.tar";
-          sha256 = "0pyfx4xzzi3qqip958rs7j5ca1r4i5v6dfkx5kbp2ndhqmxbfxjw";
+          url = "https://elpa.gnu.org/packages/org-9.3.1.tar";
+          sha256 = "1n79h6ihhsaxxbnl9hw511aav0215m3pa51sa5fh3ddknjfplian";
         };
         packageRequires = [];
         meta = {
@@ -2530,10 +2530,10 @@
       elpaBuild {
         pname = "rainbow-mode";
         ename = "rainbow-mode";
-        version = "1.0.2";
+        version = "1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rainbow-mode-1.0.2.el";
-          sha256 = "1zfqj63sr07pdlwy7caz4fxsjhmbhh939n81z6jxq9xggm8ajxkd";
+          url = "https://elpa.gnu.org/packages/rainbow-mode-1.0.3.el";
+          sha256 = "0cpwqllhv3cb0gii22cj9i731rk3sbf2drm5m52w5yclm8sfr339";
         };
         packageRequires = [];
         meta = {
@@ -3675,10 +3675,10 @@
       elpaBuild {
         pname = "yasnippet";
         ename = "yasnippet";
-        version = "0.13.0";
+        version = "0.14.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/yasnippet-0.13.0.tar";
-          sha256 = "1klnvyy8az3h7i7yrpbhad4ka9p9vlgf918ha1vf7i3wbcbm0s5z";
+          url = "https://elpa.gnu.org/packages/yasnippet-0.14.0.tar";
+          sha256 = "1lbil3dyz43nmr2lvx9vhpybqynpb7shg7m1xl1f7j4vm4dh0r08";
         };
         packageRequires = [ cl-lib ];
         meta = {
