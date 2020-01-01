@@ -2185,10 +2185,10 @@
       elpaBuild {
         pname = "objed";
         ename = "objed";
-        version = "0.8.1";
+        version = "0.8.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/objed-0.8.1.tar";
-          sha256 = "06jfvz7avh28p1ghyd1aik5lz8k9fnv1fcxh9npm1iyvh810y5zj";
+          url = "https://elpa.gnu.org/packages/objed-0.8.3.tar";
+          sha256 = "1s38d6bvggdk5p45ww1jb4gxifzgjwgw1m6ar920nlg0j4fgbcvr";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -2275,10 +2275,10 @@
       elpaBuild {
         pname = "orgalist";
         ename = "orgalist";
-        version = "1.9";
+        version = "1.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/orgalist-1.9.el";
-          sha256 = "1rmmcyiiqkq54hn74nhzxzl4nvd902hv6gq341jwhrm7yiagffi6";
+          url = "https://elpa.gnu.org/packages/orgalist-1.10.el";
+          sha256 = "1m97m53d4sl7lvjk4nhcxkm3qv8zcvgfrfzkjgaxavf5ci7p4wb7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3176,10 +3176,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.4.2.5";
+        version = "2.4.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.4.2.5.tar";
-          sha256 = "0iyv8264bxr1r72flxpcvqjg44gyhprykcgmpjknq7limy7sch1x";
+          url = "https://elpa.gnu.org/packages/tramp-2.4.3.tar";
+          sha256 = "0m1w4myvd2z293xcdyj7yc75b108f67f98i0jrizhdaj9nlw8j5f";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3266,10 +3266,10 @@
       elpaBuild {
         pname = "uniquify-files";
         ename = "uniquify-files";
-        version = "1.0.1";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/uniquify-files-1.0.1.tar";
-          sha256 = "0c4lf25503z71wz9f0v6ag5lmqfxz94lmq65xvzvhmqvkxvsgpm5";
+          url = "https://elpa.gnu.org/packages/uniquify-files-1.0.2.tar";
+          sha256 = "1vib79wsz5k94b9z0wiwhbzsdm70y9dla6szw2bb75245cx3kr0h";
         };
         packageRequires = [ emacs ];
         meta = {
