@@ -557,10 +557,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.9.10";
+        version = "0.9.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/company-0.9.10.tar";
-          sha256 = "1w6a11rzsx5iyxn76xarzbghm460j0ampqxlh4j12bswvbn7swnd";
+          url = "https://elpa.gnu.org/packages/company-0.9.11.tar";
+          sha256 = "05fmkvsn5byaakl8i26nvnmiiz0766r17pni6x7bfrqby39ls233";
         };
         packageRequires = [ emacs ];
         meta = {
