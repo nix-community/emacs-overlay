@@ -5154,14 +5154,14 @@
   "repo": "tarsius/backline",
   "unstable": {
    "version": [
-    20200103,
-    1239
+    20200104,
+    1851
    ],
    "deps": [
     "outline-minor-faces"
    ],
-   "commit": "cde271f5e01ed44de239f776c3d0bb27e30953de",
-   "sha256": "0j1w2ig3rick6lnq668jkzjhrfy8cg3xgra5sj1qpxygdspfjyp9"
+   "commit": "dc541a6daf82ab73774904ae9ccecd13e3c2af48",
+   "sha256": "0410p7144k2kh1bz050h45zrfd98j10sbx409la5x01l9xrmb03y"
   },
   "stable": {
    "version": [
@@ -20026,8 +20026,8 @@
     20191016,
     1241
    ],
-   "commit": "ed9a034e1e9f15b129edad114745e29bde9e11a9",
-   "sha256": "07c02j6wxl0ap6spd3wwsdv1jvlqz7khn3w0f0mxhhmsf990vh0r"
+   "commit": "5ec835198dedfaed0ee749eb6b5b89d97c93700e",
+   "sha256": "1sm0aqrwngk53l45mwhf5nwn79wbrch5l8b43nfs666sxlpdd9yd"
   },
   "stable": {
    "version": [
@@ -21688,8 +21688,8 @@
   "repo": "millejoh/emacs-ipython-notebook",
   "unstable": {
    "version": [
-    20191230,
-    1414
+    20200104,
+    1609
    ],
    "deps": [
     "auto-complete",
@@ -21702,8 +21702,8 @@
     "skewer-mode",
     "websocket"
    ],
-   "commit": "18d329eaadb2bfc35ab139a416f39d06582a690d",
-   "sha256": "06c2863wddsi1z57qcxmd02wgqx4c03yn1nwsjn366pd3v3zgpad"
+   "commit": "41d8e61df6f18f5accc341e7ae42e03069501870",
+   "sha256": "0qws01ba15rmc1bv3qzwzzcxl764iyr1xdzs7zsfay7s91px9cr0"
   },
   "stable": {
    "version": [
@@ -22564,6 +22564,24 @@
    ],
    "commit": "2a708dbd6608c366b8794499cf2b7aab8d2e0d95",
    "sha256": "1vycw5pmd2lg1vhnm65qfhla0czqiz5n6gd8zg503am7yh6xnzi7"
+  }
+ },
+ {
+  "ename": "elfeed-score",
+  "commit": "e981f8adeb5015d966e733496280d5cea457228d",
+  "sha256": "0jag1ksmnql61303a51i2lizd2yk4cjlsm2hksqqjk46cwv2cvl7",
+  "fetcher": "github",
+  "repo": "sp1ff/elfeed-score",
+  "unstable": {
+   "version": [
+    20191224,
+    318
+   ],
+   "deps": [
+    "elfeed"
+   ],
+   "commit": "a13884ad254d6979b980aa6e491c64b95c0e18cb",
+   "sha256": "1vyb9i78hvibh6q4rxxv7dg3vkin8b6lb6662zgzx20s483lnwz5"
   }
  },
  {
@@ -31525,15 +31543,14 @@
   "repo": "emacs-elsa/flycheck-elsa",
   "unstable": {
    "version": [
-    20190211,
-    1921
+    20200104,
+    1523
    ],
    "deps": [
-    "cask",
     "seq"
    ],
-   "commit": "c0a226d2520681bb0c16cd31504b620e43ee743c",
-   "sha256": "07605v5insay9jgj274ysdksk4cck49y5gsqzjz7js8f6p526k75"
+   "commit": "4796cdae375f51e8364660518c2948b8a90bcd40",
+   "sha256": "1nmf51jrw0xixrb0nawl6shfw68nw4zs1w12plhghaiwr4430rjp"
   }
  },
  {
@@ -31752,6 +31769,25 @@
    ],
    "commit": "fbf90b9a7d2d90f69ac55b57d18f0f4a47afed61",
    "sha256": "136mdg21a8sqxhijsjsvpli7r7sb40nmf80p6gmgb1ghwmhlm8k3"
+  }
+ },
+ {
+  "ename": "flycheck-indent",
+  "commit": "b1c1163d5acc402716c4a6cf877f13665138b74b",
+  "sha256": "0d6wa3w377s22psbficabyqi03z8kp32662yxcly1dlv5zyyh6nd",
+  "fetcher": "github",
+  "repo": "conao3/indent-lint.el",
+  "unstable": {
+   "version": [
+    20191228,
+    235
+   ],
+   "deps": [
+    "flycheck",
+    "indent-lint"
+   ],
+   "commit": "e76b127241635677a4cb2d457d5c4c74ca93ee92",
+   "sha256": "1bmik58ygg9r9p7cnvxhss49hkcqy3zgcwrhwq59baqixclfwrd1"
   }
  },
  {
@@ -34635,14 +34671,14 @@
   "repo": "lassik/emacs-format-all-the-code",
   "unstable": {
    "version": [
-    20191208,
-    1946
+    20200104,
+    1936
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "09119a61855efe084e77f14544d5432b94cfa82c",
-   "sha256": "1890i4h18rciyl0vngxchdc01hw3wciq7s8qzgnikdz2pcqfwf2m"
+   "commit": "c784d79d5cf1dae04dc05a5df52d36ffebe8f01b",
+   "sha256": "0aqpjgniidva8amb7wprb5v1311zng91j22q4kykzy21s4r117bf"
   },
   "stable": {
    "version": [
@@ -35215,8 +35251,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "4da6f51c9175225e8a9c34d3e545e6a2c40c8b7b",
-   "sha256": "1x1q8amjzl1v6zw8y5k56gyf9x7757ifv4r2cm6wd8njmfp9c36x"
+   "commit": "9bb19274b2e96ca085b94e6934efc11a7eaf6212",
+   "sha256": "1chby2fnc565rpravsaglbbh0rapshwy3mcnwy4rf594fmr5hfjz"
   },
   "stable": {
    "version": [
@@ -35369,14 +35405,14 @@
   "repo": "diku-dk/futhark-mode",
   "unstable": {
    "version": [
-    20191212,
-    1046
+    20200104,
+    1947
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "e26672da296867e15043a51929478bdde6d4ee49",
-   "sha256": "07jr3dghb5h1khn2k59ry1qna9msrlq8183xk09pirq5jchrwlfx"
+   "commit": "1ab6f4e98e106c4be8f53198ee351edcb0488d7d",
+   "sha256": "00dhhla57a2s3abvki8kgpq432jyallaygdr28s87y1qh35cb02c"
   }
  },
  {
@@ -41124,16 +41160,16 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20200103,
-    1901
+    20200104,
+    1918
    ],
    "deps": [
     "async",
     "helm-core",
     "popup"
    ],
-   "commit": "c61e29717af5694589cc270bad4d4e3c181f8785",
-   "sha256": "1rbjdy8ic1rfls1w3xjqw6m4jlbdf31dqfc83rrcpqwmm48p7v2q"
+   "commit": "cb7050e42db2bf4128f3e231df7f5e22d295502d",
+   "sha256": "0r3ana64j5lhvjsybzya6db7pbrky6i2k3kcd7d68b1wa3nb9a36"
   },
   "stable": {
    "version": [
@@ -41985,8 +42021,8 @@
    "deps": [
     "async"
    ],
-   "commit": "c61e29717af5694589cc270bad4d4e3c181f8785",
-   "sha256": "1rbjdy8ic1rfls1w3xjqw6m4jlbdf31dqfc83rrcpqwmm48p7v2q"
+   "commit": "cb7050e42db2bf4128f3e231df7f5e22d295502d",
+   "sha256": "0r3ana64j5lhvjsybzya6db7pbrky6i2k3kcd7d68b1wa3nb9a36"
   },
   "stable": {
    "version": [
@@ -60595,10 +60631,10 @@
   "unstable": {
    "version": [
     20200104,
-    858
+    1602
    ],
-   "commit": "bb431c0ec4b6f14febddcfa2b431f4a412a4cf1c",
-   "sha256": "157fhxcr4jfw3c2llq47wf4v8m2i9dn1wclncgw6lv20cldkkpnn"
+   "commit": "88077eeb621b1c56bdbd0f86554568a467929798",
+   "sha256": "108g2ixizysm6xan59npcxzkbrjmyfw8si3ycvycwgaamrwzg7ny"
   },
   "stable": {
    "version": [
@@ -60619,10 +60655,14 @@
   "unstable": {
    "version": [
     20200104,
-    858
+    1602
    ],
-   "commit": "bb431c0ec4b6f14febddcfa2b431f4a412a4cf1c",
-   "sha256": "157fhxcr4jfw3c2llq47wf4v8m2i9dn1wclncgw6lv20cldkkpnn"
+   "commit": "88077eeb621b1c56bdbd0f86554568a467929798",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "error: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=88077eeb621b1c56bdbd0f86554568a467929798': HTTP error 404\n"
+   ]
   },
   "stable": {
    "version": [
@@ -64717,6 +64757,14 @@
   }
  },
  {
+  "ename": "ob-elm",
+  "commit": "9109c178f49c300b8a5247b94ecdab265d32f4ce",
+  "sha256": "166yxninqiwv3vjn59ir23isnqhjjzvw8dcswnbwgcb4f4ixs12q",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "BonfaceKilz/ob-elm"
+ },
+ {
   "ename": "ob-elvish",
   "commit": "90e979025f56061bc960f630945b09320a3dd28e",
   "sha256": "1rpn3dabwgray1w55jib4ixr3l1afz9j7nyn0ha2r602hs02x1ya",
@@ -64763,6 +64811,14 @@
    "commit": "2067ed55f4c1d33a43cb3f6948609d240a8915f5",
    "sha256": "069w9dymiv97cvlpzabf193nyw174r38lz5j11x23x956ladvpbw"
   }
+ },
+ {
+  "ename": "ob-graphql",
+  "commit": "3d4572f599ac5794d8a5c310f1d1e138a11a45a8",
+  "sha256": "1rgwfyq5f602b60hza9xnszxdjqms90gkvrw9hjmivyp2swwy5vy",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "jdormit/ob-graphql"
  },
  {
   "ename": "ob-html-chrome",
