@@ -22582,6 +22582,18 @@
    ],
    "commit": "a13884ad254d6979b980aa6e491c64b95c0e18cb",
    "sha256": "1vyb9i78hvibh6q4rxxv7dg3vkin8b6lb6662zgzx20s483lnwz5"
+  },
+  "stable": {
+   "version": [
+    0,
+    2,
+    0
+   ],
+   "deps": [
+    "elfeed"
+   ],
+   "commit": "b1419ac54e5dfaa4b88352a3919e7fdedc61bb17",
+   "sha256": "0pkvq0f7linwxm9vv389wjhw60v3jcgw71q5ic4nrvayizx6ld5h"
   }
  },
  {
@@ -35251,8 +35263,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "9bb19274b2e96ca085b94e6934efc11a7eaf6212",
-   "sha256": "1chby2fnc565rpravsaglbbh0rapshwy3mcnwy4rf594fmr5hfjz"
+   "commit": "b35a5466e15f0b09d61883601dc928bbcf2e1d94",
+   "sha256": "1k17g4pgddlm8jw6l7i6zara4lm3ihsgdjzzd4lhnqjzs7g0mdh2"
   },
   "stable": {
    "version": [
@@ -56678,8 +56690,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20200103,
-    1948
+    20200104,
+    1754
    ],
    "deps": [
     "dash",
@@ -56690,8 +56702,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "0fc942084d66487e53cc33764a64b5a7f57f9982",
-   "sha256": "1ajl9snmplyz54icyiral8l15lzdrpcljw062qnlssxnlcymr4yh"
+   "commit": "c07d44e87fd06d9119b2d6b90206502fc59ecca7",
+   "sha256": "1q7d6a6dgj8hmsv6pwrli1hqxvvv9jmbzmv9lk4gs1ycbhf4w909"
   },
   "stable": {
    "version": [
@@ -60631,10 +60643,10 @@
   "unstable": {
    "version": [
     20200104,
-    1602
+    1849
    ],
-   "commit": "88077eeb621b1c56bdbd0f86554568a467929798",
-   "sha256": "108g2ixizysm6xan59npcxzkbrjmyfw8si3ycvycwgaamrwzg7ny"
+   "commit": "17be7f433d830fb3d03d758a0c3306a60d915ecc",
+   "sha256": "032zfn8ipbbw1c16ggjz1x1yp4z7xq435dii9xzvazd6bn5rm1p8"
   },
   "stable": {
    "version": [
@@ -60655,14 +60667,10 @@
   "unstable": {
    "version": [
     20200104,
-    1602
+    1849
    ],
-   "commit": "88077eeb621b1c56bdbd0f86554568a467929798",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=88077eeb621b1c56bdbd0f86554568a467929798': HTTP error 404\n"
-   ]
+   "commit": "17be7f433d830fb3d03d758a0c3306a60d915ecc",
+   "sha256": "032zfn8ipbbw1c16ggjz1x1yp4z7xq435dii9xzvazd6bn5rm1p8"
   },
   "stable": {
    "version": [
@@ -64760,9 +64768,19 @@
   "ename": "ob-elm",
   "commit": "9109c178f49c300b8a5247b94ecdab265d32f4ce",
   "sha256": "166yxninqiwv3vjn59ir23isnqhjjzvw8dcswnbwgcb4f4ixs12q",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "BonfaceKilz/ob-elm"
+  "repo": "BonfaceKilz/ob-elm",
+  "unstable": {
+   "version": [
+    20200102,
+    2000
+   ],
+   "deps": [
+    "org"
+   ],
+   "commit": "b88e50bbe62e2db889b1e005a52fa7a9be82fc14",
+   "sha256": "07hincbk85d3hjgn5ml8a7028wjsn1v5lfngnja77qhavgbd53k8"
+  }
  },
  {
   "ename": "ob-elvish",
@@ -64816,9 +64834,20 @@
   "ename": "ob-graphql",
   "commit": "3d4572f599ac5794d8a5c310f1d1e138a11a45a8",
   "sha256": "1rgwfyq5f602b60hza9xnszxdjqms90gkvrw9hjmivyp2swwy5vy",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "jdormit/ob-graphql"
+  "repo": "jdormit/ob-graphql",
+  "unstable": {
+   "version": [
+    20191223,
+    1358
+   ],
+   "deps": [
+    "graphql-mode",
+    "request"
+   ],
+   "commit": "c62d6a2ea2c162772d5e255715cff7b35fe660d5",
+   "sha256": "1s4rgr6v7xxpjr219a44309jg50iip5isch6x90zk5vig735c30h"
+  }
  },
  {
   "ename": "ob-html-chrome",
@@ -82494,8 +82523,8 @@
   "repo": "brotzeit/rustic",
   "unstable": {
    "version": [
-    20200101,
-    1313
+    20200104,
+    2106
    ],
    "deps": [
     "dash",
@@ -82509,8 +82538,8 @@
     "spinner",
     "xterm-color"
    ],
-   "commit": "dd4a028feb4f9a41770a2d2100bbe5e9946a6c89",
-   "sha256": "0dmihxswrckyk04xi2sws2wy568471rnscwz2n476v3fvmgx5s3z"
+   "commit": "1cda52890412971e5eca30ddb9518b5dbed21ac3",
+   "sha256": "0ydv8zfkdha7snxqjnrbd35cawfdi4xkqfqrszp64bj048aklmlp"
   }
  },
  {
@@ -82954,8 +82983,8 @@
     20190413,
     1246
    ],
-   "commit": "90969e4eaa33b9689b255d30db3694734a106f4b",
-   "sha256": "11hcmy9ckkw26d7hybvrllligc52qcv4yg06rg94xpaviz8v53q0"
+   "commit": "552643c03e90ff47ae905c06f1d1afbbdb808966",
+   "sha256": "0gqazmv279b45ycvmkf403cxi3imd0vn97k1ldnnbwxjp3993cp7"
   }
  },
  {
