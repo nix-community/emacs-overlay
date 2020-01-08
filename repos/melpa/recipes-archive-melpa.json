@@ -8425,7 +8425,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
+    ""
    ]
   }
  },
@@ -20046,8 +20046,8 @@
     20191016,
     1241
    ],
-   "commit": "b5d12af62078778b30f9a9bafc34c07afce1b308",
-   "sha256": "0c2l04fgmzb8bqzln2jhi7p3wcjimqzw6wk3aha5jxlgg1a3m473"
+   "commit": "78495a08c9b271b324d0b2485dda539599c0fbc9",
+   "sha256": "1765z4v30crrsivvhr3qqspj3n0rhpb72isxpvbabswyawh4900m"
   },
   "stable": {
    "version": [
@@ -25320,8 +25320,8 @@
     20191219,
     1238
    ],
-   "commit": "817980e6adf0f32bc7c71dc724b6d87282c7c4ef",
-   "sha256": "0sg7b11xznljnlf4dzazhxjj6k55a7pmas2da8l6p3jgs246gcr6"
+   "commit": "52412c598ad67786032d17762e8655ad3d6771b5",
+   "sha256": "19d3whdfi21a0mlvgls549s8j3ygcmrw2sk7m36vpqf17k6059fw"
   },
   "stable": {
    "version": [
@@ -41236,8 +41236,8 @@
     "helm-core",
     "popup"
    ],
-   "commit": "ef6c947169f127dfec39fb0628718a7bfccf1a8a",
-   "sha256": "1mwaxi2ka7nb25bq9902chcmjiajbcpvjrkrsq4rn7zy88m4ssf6"
+   "commit": "05d70ff116a696f5c18e5ad569573d8936ff01da",
+   "sha256": "0v7xgfilnzcyha7vyqgr5imjhppw9y8vxazdvkl5n4vdh7n0xb98"
   },
   "stable": {
    "version": [
@@ -42083,14 +42083,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20191223,
-    1914
+    20200108,
+    724
    ],
    "deps": [
     "async"
    ],
-   "commit": "ef6c947169f127dfec39fb0628718a7bfccf1a8a",
-   "sha256": "1mwaxi2ka7nb25bq9902chcmjiajbcpvjrkrsq4rn7zy88m4ssf6"
+   "commit": "05d70ff116a696f5c18e5ad569573d8936ff01da",
+   "sha256": "0v7xgfilnzcyha7vyqgr5imjhppw9y8vxazdvkl5n4vdh7n0xb98"
   },
   "stable": {
    "version": [
@@ -50301,8 +50301,8 @@
     20200105,
     1946
    ],
-   "commit": "baac6e1c32ee895ea543f341a62204946237fe9c",
-   "sha256": "0z9mgvvs8dqkbzp3gqpvfwrdh88arvxiqmrgvl3xxcix5w06gqnb"
+   "commit": "3c6e5daccbc8678ee881b435ac956778de82a076",
+   "sha256": "184cdd41da1xizhbdymq9g3a8ryscdr6fq15vswdfv5gx8dx2fz6"
   },
   "stable": {
    "version": [
@@ -50601,8 +50601,8 @@
     "hydra",
     "ivy"
    ],
-   "commit": "baac6e1c32ee895ea543f341a62204946237fe9c",
-   "sha256": "0z9mgvvs8dqkbzp3gqpvfwrdh88arvxiqmrgvl3xxcix5w06gqnb"
+   "commit": "3c6e5daccbc8678ee881b435ac956778de82a076",
+   "sha256": "184cdd41da1xizhbdymq9g3a8ryscdr6fq15vswdfv5gx8dx2fz6"
   },
   "stable": {
    "version": [
@@ -55854,15 +55854,15 @@
   "repo": "zzkt/litanizer",
   "unstable": {
    "version": [
-    20200107,
-    2251
+    20200108,
+    607
    ],
    "deps": [
     "enlive",
     "s"
    ],
-   "commit": "d1d2a8c646e030f163dc5fb49dd906fb3269b983",
-   "sha256": "0qvrrv865qmcdpag0nz9hbazyd5q7y3mggsw1brilklsdgjmghrw"
+   "commit": "ce74f10540d6b335c4d0966cbabcf5099531280e",
+   "sha256": "1gzpvl7pgawikkhprja6p94ymsjbsbklqjgdvhzca835mx1g4aw4"
   },
   "stable": {
    "version": [
@@ -56055,8 +56055,8 @@
     20200108,
     546
    ],
-   "commit": "c23c72401c41937d0938b7c65abd4f9c4bfa3c84",
-   "sha256": "137szwqd0jval5jv0jxrhl4ggy3rqvs2kx50hqr78z8yibq1db58"
+   "commit": "96a72eb3d2d03ea9910f1712ab55990705275343",
+   "sha256": "1g6f2rxy93x2mpphmnvvqx848638s7pzxbgnsipvzmx5hx2g1pm8"
   },
   "stable": {
    "version": [
@@ -63995,20 +63995,20 @@
   "repo": "arcticicestudio/nord-emacs",
   "unstable": {
    "version": [
-    20200107,
-    805
+    20200108,
+    833
    ],
-   "commit": "d59f37c902720d84d1f6604f3697e6e1dc2c5a1f",
-   "sha256": "06rvid88ny5rgsjk2v80lxsm4r1vr9ykxxl8sy69y3ki6b1q4qqi"
+   "commit": "d828752e270978a56bde19986c98b1bbe8f51386",
+   "sha256": "096f8cik4jz89bvkifwp3gm9iraqrd75ljy2q9js724v7yj88711"
   },
   "stable": {
    "version": [
     0,
-    4,
+    5,
     0
    ],
-   "commit": "ba8f9b98a5028d3ec8c44e43889e7edda9a3b8dd",
-   "sha256": "02nyczvdj0xnzq8vcyknr862dq3mj82djha5v44n1hs2dwipfdjf"
+   "commit": "0f5295f99005a200191ce7b660e56cd0510cf710",
+   "sha256": "096f8cik4jz89bvkifwp3gm9iraqrd75ljy2q9js724v7yj88711"
   }
  },
  {
@@ -89479,8 +89479,8 @@
    "deps": [
     "ivy"
    ],
-   "commit": "baac6e1c32ee895ea543f341a62204946237fe9c",
-   "sha256": "0z9mgvvs8dqkbzp3gqpvfwrdh88arvxiqmrgvl3xxcix5w06gqnb"
+   "commit": "3c6e5daccbc8678ee881b435ac956778de82a076",
+   "sha256": "184cdd41da1xizhbdymq9g3a8ryscdr6fq15vswdfv5gx8dx2fz6"
   },
   "stable": {
    "version": [
