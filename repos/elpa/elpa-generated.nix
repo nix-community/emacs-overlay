@@ -925,10 +925,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.6.11";
+        version = "0.6.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.6.11.tar";
-          sha256 = "1ljcp4vy8z5xbcrlf33xgi63a2px4fhx6928qhwr7sy7jwil2s6n";
+          url = "https://elpa.gnu.org/packages/ebdb-0.6.12.tar";
+          sha256 = "1nmg2xxhfv53h13kb19xd4x5a7q9ln2rwzxc5v8zkf0g3vaxmhxw";
         };
         packageRequires = [ cl-lib emacs seq ];
         meta = {
@@ -3236,10 +3236,10 @@
       elpaBuild {
         pname = "undo-tree";
         ename = "undo-tree";
-        version = "0.6.5";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/undo-tree-0.6.5.el";
-          sha256 = "0bs97xyxwfkjvzax9llg0zsng0vyndnrxj5d2n5mmynaqcn89d37";
+          url = "https://elpa.gnu.org/packages/undo-tree-0.7.el";
+          sha256 = "0mc5spiqx20z8vh8b24dp9hqj27h5bm5wqk0ga7c6s6mp69r72h4";
         };
         packageRequires = [];
         meta = {
