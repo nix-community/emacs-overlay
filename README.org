@@ -16,6 +16,7 @@ This overlay also provides a fresh version (latest from git) for Emacs. This
 is updated daily.
 
 This attribute is named =emacsGit= in the overlay.
+Emacs from git is not guaranteed stable and may break your setup at any time, if it breaks you get to keep both pieces.
 
 We also provide an attribute named =emacsGit-nox= if you wish to have Emacs
 built without X dependencies.
