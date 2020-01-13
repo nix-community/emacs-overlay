@@ -8425,7 +8425,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
+    ""
    ]
   }
  },
@@ -10892,8 +10892,8 @@
     20190710,
     1319
    ],
-   "commit": "26e9e091c14e3244c7f71a336841190db5f2c363",
-   "sha256": "07qxh6kl3drjvhyy39sa6cbq7vnkxvzyc785nn7y8l8w71f8qh9k"
+   "commit": "e4c07116027e7c82fab658b11a630492052f3761",
+   "sha256": "0sks0j16hq8wxxyidg2dsb559zaici2y8p4fqjrqrqccdkvs521f"
   },
   "stable": {
    "version": [
@@ -27655,14 +27655,14 @@
   "repo": "mamapanda/evil-owl",
   "unstable": {
    "version": [
-    20190828,
-    435
+    20200113,
+    405
    ],
    "deps": [
     "evil"
    ],
-   "commit": "93913d4e9b3a34973756d0c18803dde0ae52cb64",
-   "sha256": "1qn10lhy05ib9g8yc7cx18ca1hka94ni36fd98ixln6zqlwl6n78"
+   "commit": "9432931ebdfe97fcec66a1901d852a9182e1f21f",
+   "sha256": "057j52gfl468w8b6z1p17zrrqnnw9yw03f0k16gsyxdjhd31akg8"
   },
   "stable": {
    "version": [
@@ -34881,20 +34881,20 @@
   "repo": "rnkn/fountain-mode",
   "unstable": {
    "version": [
-    20200112,
-    618
+    20200113,
+    428
    ],
-   "commit": "7524c261812469645a38a94bcb6183f5000e7978",
-   "sha256": "0j5pag2smiyycxbrn1265qzlh9qjv8bkym9vrhrbpq0ja813kdiz"
+   "commit": "d92a1ef716cb73a1677d533711cc8f017460685d",
+   "sha256": "0qzixffhpd9la74w1aqaq369j0b9svjqrkzd2nvnv4z4qlx55c3s"
   },
   "stable": {
    "version": [
     2,
     8,
-    4
+    5
    ],
-   "commit": "7524c261812469645a38a94bcb6183f5000e7978",
-   "sha256": "0j5pag2smiyycxbrn1265qzlh9qjv8bkym9vrhrbpq0ja813kdiz"
+   "commit": "d92a1ef716cb73a1677d533711cc8f017460685d",
+   "sha256": "0qzixffhpd9la74w1aqaq369j0b9svjqrkzd2nvnv4z4qlx55c3s"
   }
  },
  {
@@ -71574,8 +71574,8 @@
     "cl-lib",
     "let-alist"
    ],
-   "commit": "3b26941686700a7500ca4c68650e9235c823a410",
-   "sha256": "0qscdxa7jy32vdrkp1kmc5p5kgn27rqbpj68igw4q6581pk4mjil"
+   "commit": "cf2ce871549bb816ecb7a9930bdfb77525468f5e",
+   "sha256": "00mzr2ixfzag1widndflbjzg1f9xp4yqb0914ip85nhk2awh55pd"
   },
   "stable": {
    "version": [
@@ -71604,8 +71604,8 @@
    "deps": [
     "package-lint"
    ],
-   "commit": "3b26941686700a7500ca4c68650e9235c823a410",
-   "sha256": "0qscdxa7jy32vdrkp1kmc5p5kgn27rqbpj68igw4q6581pk4mjil"
+   "commit": "cf2ce871549bb816ecb7a9930bdfb77525468f5e",
+   "sha256": "00mzr2ixfzag1widndflbjzg1f9xp4yqb0914ip85nhk2awh55pd"
   },
   "stable": {
    "version": [
@@ -73602,11 +73602,11 @@
   "repo": "Alexander-Miller/pfuture",
   "unstable": {
    "version": [
-    20190505,
-    1006
+    20200113,
+    603
    ],
-   "commit": "368254ee30692c709400db413c347e18e76a8a55",
-   "sha256": "096raqpjx84njws85r7pqq1wi9w9bjwkr0ga1mbbhlna1mfn3mg4"
+   "commit": "9dfcfac76a569fceb931679d23a3db43206b4e81",
+   "sha256": "1jq3y07lrwprxdkd198q4hhvncjlx9n0wwzvaj37r8mxgcz3mjm1"
   },
   "stable": {
    "version": [
@@ -78387,8 +78387,8 @@
   "repo": "tumashu/pyim",
   "unstable": {
    "version": [
-    20200103,
-    558
+    20200113,
+    321
    ],
    "deps": [
     "async",
@@ -78396,7 +78396,7 @@
     "pyim-basedict",
     "xr"
    ],
-   "commit": "03b06703a42fe1feb3e1ef8f024db3625c8c125f",
+   "commit": "bbeb68605eed6f0863d27558c42258416c7ada55",
    "sha256": "01mn59cc81wbx45savskxx369j6amh6rl2fyn3ppp7zdsyf8sxqx"
   },
   "stable": {
@@ -90645,14 +90645,14 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20200112,
-    1940
+    20200113,
+    443
    ],
    "deps": [
     "visual-fill-column"
    ],
-   "commit": "11c7598027bff2a03aae176a5a6989fe97accc04",
-   "sha256": "0jp6gz5rfpc747d4qqn4igjxipag9xxxlcgzq7g26m69hmh5146a"
+   "commit": "2562dd0fafc47807a7dc40ca816d3309e3f3d9ff",
+   "sha256": "0g8f353m3x1bhj2088xmbkj88b1nhkv0jlbzblzh47hs91q11rjf"
   },
   "stable": {
    "version": [
@@ -95838,11 +95838,11 @@
   "repo": "akermu/emacs-libvterm",
   "unstable": {
    "version": [
-    20200111,
-    1630
+    20200113,
+    600
    ],
-   "commit": "7d7381fa8104b55b70148cf147523d9ab7f01fcd",
-   "sha256": "04a2jlhmr20ipgzpnba3yryw3ly7qdxjgaw10dwn9wxy1yqmapz1"
+   "commit": "8fbab4b091322dd085b8758fb6655300bfb2e439",
+   "sha256": "1bxshxg9jh8mwxikv6avdch682l28d8jcfm28q0kdslxpj265hy0"
   }
  },
  {
