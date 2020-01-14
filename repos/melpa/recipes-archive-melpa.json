@@ -8425,7 +8425,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
    ]
   }
  },
@@ -10892,8 +10892,8 @@
     20190710,
     1319
    ],
-   "commit": "2d5e9f3d8cf44fafcd9a3b75ebce3d6fe383fe4e",
-   "sha256": "06z7mlpf30svznlxbp5p5vd89qrj39v0m5q669ff456zp2ga4w1p"
+   "commit": "710371ca2f5032462e8dc352da869834bb421261",
+   "sha256": "1jdcvx8x21biyihfpkfm9c01pkmzcl5sas8hjrm8xhb0g34v8s2y"
   },
   "stable": {
    "version": [
@@ -11529,11 +11529,11 @@
   "repo": "cyrus-and/comb",
   "unstable": {
    "version": [
-    20190918,
-    14
+    20200114,
+    1325
    ],
-   "commit": "a68fd0274592e8dcca28a337c9ee913cb84efa9b",
-   "sha256": "1n2nk8nhvfiz8dw863q91k04jrmafirdi0mj88awq9ibpw453vzz"
+   "commit": "bd8e11b8593bc48f81ce01c0657d5a7977cafdf6",
+   "sha256": "0ndz25x1l0rzn5j8xg9ql2s2lgin1893kzf722chyk8147qwb0i8"
   },
   "stable": {
    "version": [
@@ -25343,8 +25343,8 @@
     20191219,
     1238
    ],
-   "commit": "dbfa9fc9b140a480c09a1b0fc3e31a1f0d0e7dda",
-   "sha256": "19h7spxinxh0ixgyrwddmcs1ygbv5k0vdp90qgxygm7xj77y4k8d"
+   "commit": "1df82a8b75d83f07f979f92a7906e30dac8ce620",
+   "sha256": "158hs1d39wzdr3f0iai08p6sjpa6shf4rmsnvqlv8d9jywvhmv5j"
   },
   "stable": {
    "version": [
@@ -56752,8 +56752,8 @@
   "repo": "emacs-lsp/lsp-java",
   "unstable": {
    "version": [
-    20200105,
-    1046
+    20200114,
+    1224
    ],
    "deps": [
     "dash",
@@ -56765,8 +56765,8 @@
     "request",
     "treemacs"
    ],
-   "commit": "a3ebf619a2b12b8dbbb24c39c4f78b1ba9c29e6a",
-   "sha256": "1x6il7pnyc7ylayiw35kn6jk8dphzwsas7dk129p6q0wjfdvif9d"
+   "commit": "86d3405e039d9758846054a4ea38e826caffdc79",
+   "sha256": "0qbh7iyiyngb39zbi172n2k6648gcmdg4rr4lfinirhf3xblw0ba"
   },
   "stable": {
    "version": [
@@ -56975,15 +56975,15 @@
   "repo": "emacs-lsp/lsp-python-ms",
   "unstable": {
    "version": [
-    20200106,
-    1738
+    20200114,
+    1228
    ],
    "deps": [
     "cl-lib",
     "lsp-mode"
    ],
-   "commit": "9780be701545064847456eff8ae30fadcdf63b0d",
-   "sha256": "021nmpabad3vgq10bs3qsgg3m5vd4vzlsbyi2jgk1si9kgw898j1"
+   "commit": "83ef84d9a4a942f8882b00d07bb78b15f716e89d",
+   "sha256": "15ymzgajd3yyp0j0396isxc1yx8xifqlm7a4grsyy28pvh2hwcva"
   },
   "stable": {
    "version": [
@@ -63961,20 +63961,20 @@
   "repo": "abicky/nodejs-repl.el",
   "unstable": {
    "version": [
-    20190616,
-    1753
+    20200114,
+    1445
    ],
-   "commit": "d43b8b276a90ccf980150a7d6fbb1f4d2a7cbe20",
-   "sha256": "1kkj888k9x5n0i7xkia177gzsa84my3g8n0n7v65281cc4f1yhk5"
+   "commit": "5be0d35d359d365db1a42ad13375779a338b0a34",
+   "sha256": "13a8g7wmfghq4kr1zfngvmais1g9navjkp8s5aryhf4crhrwaj78"
   },
   "stable": {
    "version": [
     0,
     2,
-    2
+    3
    ],
-   "commit": "0deb44e6c800daf061d9f8c07760b1e381382766",
-   "sha256": "1kkj888k9x5n0i7xkia177gzsa84my3g8n0n7v65281cc4f1yhk5"
+   "commit": "492e0d7d6e059bff49ee270be51b7576ed639142",
+   "sha256": "0jyn7ai6ycm96vx4i9ca9niv82dr6v8ny1a756yiy6s9br0rmjjj"
   }
  },
  {
@@ -85552,8 +85552,8 @@
   "repo": "yuya373/emacs-slack",
   "unstable": {
    "version": [
-    20191230,
-    1016
+    20200111,
+    1127
    ],
    "deps": [
     "alert",
@@ -85563,8 +85563,8 @@
     "request",
     "websocket"
    ],
-   "commit": "4e536bb4ee7a743605c5bfe7b91fc72b5c77fdf0",
-   "sha256": "1paiy7fx7b8fi6b2dd18qmwwldr2sdilccmvhdm4s70xrg90yxkw"
+   "commit": "b59b611da38dc2059b097b9e9336f5d1ff02337d",
+   "sha256": "169q9dbmd1ps515fzpy8bmacbml3pvfyg9l94dk64al077yb84xd"
   }
  },
  {
@@ -90651,13 +90651,13 @@
   "unstable": {
    "version": [
     20200114,
-    831
+    1420
    ],
    "deps": [
     "visual-fill-column"
    ],
-   "commit": "3ac89854d53b99c63254b3b455f99c00b92f1e60",
-   "sha256": "0b1mkfhgc4nzh8lz9yiz1gazs45v7fv5f296im443srlzw7dw6yk"
+   "commit": "47c4288eee3641f048cbc3a65d466b1685d8b5b5",
+   "sha256": "1zi0jviyxqihn6gja7dbcp8bk9w59wcjbk1fflwlac5pwynsf4kl"
   },
   "stable": {
    "version": [
