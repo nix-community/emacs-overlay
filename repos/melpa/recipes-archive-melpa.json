@@ -6781,14 +6781,14 @@
   "repo": "sergeyklay/bnf-mode",
   "unstable": {
    "version": [
-    20190611,
-    519
+    20200118,
+    1150
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "eb1a2edb2d798e9fb84fcefb7b646f1c5edc18e9",
-   "sha256": "0s7rq0mhc2kxczs3v2k71zq9imndxw8b4aw1m8zzgbbnq9qn0q3f"
+   "commit": "2887fa511ff1a895917438f170957bb482c19982",
+   "sha256": "1nb10cy6qxd5vnjaf9j07p2zmmi7ify09ypaqj040q4jr5mxn84w"
   },
   "stable": {
    "version": [
@@ -9767,8 +9767,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20200109,
-    1720
+    20200118,
+    1532
    ],
    "deps": [
     "clojure-mode",
@@ -9779,8 +9779,8 @@
     "sesman",
     "spinner"
    ],
-   "commit": "9cbaae61f680462f658fdadf50e14b4cf8fa89a9",
-   "sha256": "0pixqhqm0yk7mddil3nv8zch2zkgzilzmh4n5jq2q8bhkan7hhbk"
+   "commit": "990023abe1c4eb8c2cf0ef73fd179081721a69bb",
+   "sha256": "1mn0j4vzfpb276hax94zfgz66gyp9dypa3im1g3myfcyprxz9cq2"
   },
   "stable": {
    "version": [
@@ -63543,8 +63543,8 @@
     20181024,
     1439
    ],
-   "commit": "d986e4db5630cf1c5547e69b5556f006f7d3444a",
-   "sha256": "04w38hpdrbwciw4i4x966yc47qvbggzdml55q7pb2pkwnbdbb6lc"
+   "commit": "adcf925c45afb19eacaa9a78a6d2ff519ec466c0",
+   "sha256": "01r2q62b2m3bmpmp58647hg57hwh4bqw9sivrz5x8ygc0jm7q8rx"
   },
   "stable": {
    "version": [
@@ -84966,10 +84966,10 @@
  },
  {
   "ename": "shroud",
-  "commit": "2e4334a47a173e9cfb1e803d5781317da27702d7",
-  "sha256": "0s7gap41y2ncnlbj2cc6b2l7q7qc8psxpbznkc71y53ch1mc9isg",
-  "fetcher": "github",
-  "repo": "o-nly/emacs-shroud",
+  "commit": "261a5b2c77288cf38bc309504215fb23c719f09b",
+  "sha256": "03226c2v76zdscxlbhq32wp5wgpg385phqnxcsibn1apk2rb4s4m",
+  "fetcher": "git",
+  "url": "https://git.savannah.nongnu.org/git/emacs-shroud.git",
   "unstable": {
    "version": [
     20200117,
