@@ -1361,14 +1361,14 @@
   "repo": "abo-abo/ace-link",
   "unstable": {
    "version": [
-    20191231,
-    602
+    20200121,
+    1531
    ],
    "deps": [
     "avy"
    ],
-   "commit": "18e1de11a2239d2766952b0c04407c35c7022e79",
-   "sha256": "1ngj53zlb1y5025xijmi67mny2ifx0vx34ng19x1widznrak8hdn"
+   "commit": "f919f657efe158af57c5a02715799059eb3ee8fd",
+   "sha256": "1z05v6j76n7yxwr6rl7zdjda7whlqbkyx8bn5pqjnwmwf7zmzfzj"
   },
   "stable": {
    "version": [
@@ -12892,15 +12892,15 @@
   "repo": "emacs-php/phpactor.el",
   "unstable": {
    "version": [
-    20190823,
-    1219
+    20200121,
+    1218
    ],
    "deps": [
     "company",
     "phpactor"
    ],
-   "commit": "19d56b4c62772f6939cf1576c72213bf72fd3eb1",
-   "sha256": "1d0vf6a5dy1kjxb7widlqg1qkd2wzp4jzxpmgj7wpr6d3xssdciw"
+   "commit": "5ccf65d59e6bbc9cd958dd5988e8fd2143b0d57f",
+   "sha256": "0k4dzn4a5y4kq7yz3ifvzziv90rp5si380c5ypgxr5iwb1b8a0l3"
   },
   "stable": {
    "version": [
@@ -15850,11 +15850,11 @@
   "repo": "rails-to-cosmos/danneskjold-theme",
   "unstable": {
    "version": [
-    20200110,
-    727
+    20200121,
+    1201
    ],
-   "commit": "1bb96cbf0ffeea18a6a501d443496304bd4278e5",
-   "sha256": "0mg4s803x2xmvilsk1bcb9yfkvz79ks68ff1whbszbk085swxv4y"
+   "commit": "b1f093ec22665bbcf014618fc215b9d20e258520",
+   "sha256": "18llw8h6rp3i1c99pxkmqckmcgydxkyf0j48ryx8880vjm9nbvg9"
   }
  },
  {
@@ -26127,8 +26127,8 @@
    "deps": [
     "pcsv"
    ],
-   "commit": "bc4047e09b8f6c34802db86095cd465935670dce",
-   "sha256": "05f8n24yvzm3zjvc1523ib44wv76ms5sn6mv8s1wrjsl190av0rn"
+   "commit": "08a779a821f8d32c1a1985d8d9eb6cf21646ce2e",
+   "sha256": "18dvg2yagk9qyn3xfnhgfv192vyqzahzfy8xgc1fnm7a1l0gcg2x"
   }
  },
  {
@@ -26146,8 +26146,8 @@
     "esqlite",
     "helm"
    ],
-   "commit": "bc4047e09b8f6c34802db86095cd465935670dce",
-   "sha256": "05f8n24yvzm3zjvc1523ib44wv76ms5sn6mv8s1wrjsl190av0rn"
+   "commit": "08a779a821f8d32c1a1985d8d9eb6cf21646ce2e",
+   "sha256": "18dvg2yagk9qyn3xfnhgfv192vyqzahzfy8xgc1fnm7a1l0gcg2x"
   }
  },
  {
@@ -38035,6 +38035,15 @@
    "version": [
     20190617,
     1419
+   ],
+   "commit": "3968667bfded60fbbf33f2fba3170e2b6501ec43",
+   "sha256": "0rxaxc7b0dkhsd5547hngq24bdvnxig5a7xp9jir59fp2k8xd4aw"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    0
    ],
    "commit": "3968667bfded60fbbf33f2fba3170e2b6501ec43",
    "sha256": "0rxaxc7b0dkhsd5547hngq24bdvnxig5a7xp9jir59fp2k8xd4aw"
@@ -54824,10 +54833,10 @@
   "unstable": {
    "version": [
     20200121,
-    1047
+    1305
    ],
-   "commit": "62cd5ca0ce061c729d599e4e735e6d3687f29338",
-   "sha256": "11jvnrxnvb4vvdg83jxm4z9ygqc0lg0x1j3v3ni76k8my981r41b"
+   "commit": "eac2f26b6856f20637c6b085976015fc3f79f073",
+   "sha256": "0rn3pzfmaccnn8jrwl1l02pc4q8xiajc0cqj7fvninc9dsxbbcxm"
   },
   "stable": {
    "version": [
@@ -61514,8 +61523,8 @@
     "posframe",
     "s"
    ],
-   "commit": "e69c0d73082917385eb75e71c2c30941712f2678",
-   "sha256": "0b18shy1kjprlf8l5bjzjbkayg0c9cabhw96dwraz7j3kv2x29jh"
+   "commit": "1b05c9645dfc3868cab84994bee31937f2dd9487",
+   "sha256": "1qhcmfipwv37h5lqz8nfd4fpfzsksnfbfbp1q5hwzwdd1xl3dfi0"
   }
  },
  {
@@ -74111,8 +74120,8 @@
   "repo": "emacs-php/phpactor.el",
   "unstable": {
    "version": [
-    20200109,
-    1559
+    20200121,
+    1218
    ],
    "deps": [
     "async",
@@ -74121,8 +74130,8 @@
     "f",
     "php-runtime"
    ],
-   "commit": "19d56b4c62772f6939cf1576c72213bf72fd3eb1",
-   "sha256": "1d0vf6a5dy1kjxb7widlqg1qkd2wzp4jzxpmgj7wpr6d3xssdciw"
+   "commit": "5ccf65d59e6bbc9cd958dd5988e8fd2143b0d57f",
+   "sha256": "0k4dzn4a5y4kq7yz3ifvzziv90rp5si380c5ypgxr5iwb1b8a0l3"
   },
   "stable": {
    "version": [
@@ -89567,8 +89576,8 @@
    "deps": [
     "ivy"
    ],
-   "commit": "a1598100ce063cdf72b3de9ad4945ea8503b5133",
-   "sha256": "0hgkyk0n35afa80ipac5m3wafh0lm9f6bz15wfa926i1bvi54c5j"
+   "commit": "5974f065d2767653e8c46d84205ed35453a73389",
+   "sha256": "0d7yqbs6f8ndcygr9gk2iv93wnspvr2apsba6qw0p4j72h77fsws"
   },
   "stable": {
    "version": [
@@ -90683,13 +90692,13 @@
    "version": [
     0,
     5,
-    9
+    10
    ],
    "deps": [
     "visual-fill-column"
    ],
-   "commit": "0464b3a6e27afd781221073293dea6ef7acbf676",
-   "sha256": "1ajahjxygwzfks7jk5k8z8dwmgi92886c0695hv011y8p71h4kmv"
+   "commit": "f6728934988140839a71550c9c18b65424ba6225",
+   "sha256": "1ijz1isxzssbhz6bxrqmn6wv2apx5rhvd9sbsclv1gaiz3wmkj7i"
   }
  },
  {
