@@ -343,10 +343,10 @@
       elpaBuild {
         pname = "bnf-mode";
         ename = "bnf-mode";
-        version = "0.4.2";
+        version = "0.4.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bnf-mode-0.4.2.tar";
-          sha256 = "04wl563hxgjbhz6hhwvysdfvdni9fm7kahy5wxkyqxi1sy64gn7d";
+          url = "https://elpa.gnu.org/packages/bnf-mode-0.4.3.tar";
+          sha256 = "1hdhk6kw50vsixprrri0jb5i1c2y94ihifipqgq6kil7y4blr614";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -730,10 +730,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.21";
+        version = "0.22";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/debbugs-0.21.tar";
-          sha256 = "1xx1wjfpsnwx2fpydqhwy9k1b5kjk8dqbkzf8lqaj9c4rvjbn50a";
+          url = "https://elpa.gnu.org/packages/debbugs-0.22.tar";
+          sha256 = "05ik9qv539b5c1nzxkk3lk23bqj4vqgmfmd8x367abhb7c9gix2z";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
