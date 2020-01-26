@@ -8437,7 +8437,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
+    ""
    ]
   }
  },
@@ -10904,8 +10904,8 @@
     20190710,
     1319
    ],
-   "commit": "b578b002239d1ab2c7ab79a704bc98b7c5b48e7b",
-   "sha256": "0fg8nbm1h92q8ivclwmvkwifpas2n8w8k8wc9cnag8mkg78amg50"
+   "commit": "55ea8f6b1b3756de32334d80ea000f21ddc4d5c7",
+   "sha256": "13639jlr1pjcgv7qcvq9b95y6fil5gb7v1ychj13h0gb6mjh3nji"
   },
   "stable": {
    "version": [
@@ -28868,11 +28868,11 @@
   "repo": "extemporelang/extempore-emacs-mode",
   "unstable": {
    "version": [
-    20200119,
-    102
+    20200126,
+    401
    ],
-   "commit": "03cd20cc789d70f2a85026aecb5941bf3cfa21e9",
-   "sha256": "095f9jagdp03na7ld0pbfynia6h91fw6sr9j1xgnbada7fgd4ljz"
+   "commit": "b9f0b7ee99aa87ec12179e1c256a0e90536a7c65",
+   "sha256": "0sdcljhgs2rdv4jlnpajy2nzkbldya6nycwpqrjj24gv1nvpdvlr"
   }
  },
  {
@@ -39515,8 +39515,8 @@
   "repo": "jcs-elpa/grammarly",
   "unstable": {
    "version": [
-    20200105,
-    125
+    20200126,
+    420
    ],
    "deps": [
     "cl-lib",
@@ -39524,8 +39524,8 @@
     "s",
     "websocket"
    ],
-   "commit": "87b46bb1c906e86fe9ea16b54d3699deb33d7221",
-   "sha256": "1jkb2g1xiwgwdyhgk1v9lr8s2h1hw1drq3d1kiba0djiicchy46y"
+   "commit": "ffff850b77ebbab827538f6ebee872b2638586bc",
+   "sha256": "1kxcnivlbv7dl09y09j72368sycqs96hk5nf7vsnqlfrrbc0337a"
   },
   "stable": {
    "version": [
@@ -41303,16 +41303,16 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20200124,
-    1937
+    20200126,
+    537
    ],
    "deps": [
     "async",
     "helm-core",
     "popup"
    ],
-   "commit": "c17f1c76e4837153a0d2aca7549d7f47c35f6bb3",
-   "sha256": "1ry10rgr3lck4x5hbrp67glhvyc67gsvjw5w68zvfkcj5gh1a8w3"
+   "commit": "1abeb896350c243acc737a2d51f382887480a1c4",
+   "sha256": "08189jjaq0l3zqacp1cvd01jlcg72mcjs604x3f12w0596avsacd"
   },
   "stable": {
    "version": [
@@ -42164,8 +42164,8 @@
    "deps": [
     "async"
    ],
-   "commit": "c17f1c76e4837153a0d2aca7549d7f47c35f6bb3",
-   "sha256": "1ry10rgr3lck4x5hbrp67glhvyc67gsvjw5w68zvfkcj5gh1a8w3"
+   "commit": "1abeb896350c243acc737a2d51f382887480a1c4",
+   "sha256": "08189jjaq0l3zqacp1cvd01jlcg72mcjs604x3f12w0596avsacd"
   },
   "stable": {
    "version": [
@@ -56208,10 +56208,10 @@
   "unstable": {
    "version": [
     20200126,
-    128
+    508
    ],
-   "commit": "e34ac0dd93ff9d446fc1a057559a7ae83389708c",
-   "sha256": "16vvyj2xln32y4q2i5fjprfj5z504p4j39vzdggwbjj7lky9ckz5"
+   "commit": "c7b71470153ee1b685de5022b9f5da8e1dd0474e",
+   "sha256": "1szz83b5k05sscziggjnf4mi39mgbmfpgk4bi3my8cka1w6b0jyj"
   },
   "stable": {
    "version": [
@@ -79206,8 +79206,8 @@
     20200125,
     2049
    ],
-   "commit": "b65367e48ff380f6be61f7250e86bf827b861dc9",
-   "sha256": "1dzjvjs1ig3a3m0yhls25m022aihx5qssq2gkih5akd0idf1rj3f"
+   "commit": "d6ddc9f29ecf57c0c218e84b2fea62674e51a3e0",
+   "sha256": "0h808jzn70ycpg9j09rmi6xddjjnkz4pv1sfcngxb8j8fbjsr1lr"
   }
  },
  {
@@ -92898,8 +92898,8 @@
   "repo": "cyberthal/treefactor",
   "unstable": {
    "version": [
-    20191223,
-    1230
+    20200126,
+    342
    ],
    "deps": [
     "avy",
@@ -92907,8 +92907,8 @@
     "f",
     "org"
    ],
-   "commit": "caa431c3a512426de8abade3300d7fd21b969f7a",
-   "sha256": "1ppiwxnjcma5w3r0jnzywnsl7jn2yhjwq7gbam22phyf0jmpqnvd"
+   "commit": "afb2b57be36ad54c92bee83bf1f32bcba6b5b307",
+   "sha256": "03f4yxi8v0136misjb8xrl3dvq9bsn3w4yrhrjzv00xbgpqrgdfn"
   },
   "stable": {
    "version": [
