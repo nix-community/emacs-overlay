@@ -8437,7 +8437,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
+    ""
    ]
   }
  },
@@ -15905,8 +15905,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20200124,
-    717
+    20200126,
+    1952
    ],
    "deps": [
     "bui",
@@ -15917,8 +15917,8 @@
     "lsp-treemacs",
     "s"
    ],
-   "commit": "d10e254ce4197bed86103c57770f9868636322e5",
-   "sha256": "1ikh6fxpymfk2xnj2zahlcfmphq511pjrx330hj951m1crrmnxr7"
+   "commit": "790a39a8b388ace671fd176fb80a8467f9f092b9",
+   "sha256": "1kcfb2l1dyqwir0j479m7azxbns9b7gy37fnpr44769348k79i96"
   },
   "stable": {
    "version": [
@@ -19438,14 +19438,14 @@
   "repo": "hlissner/emacs-doom-themes",
   "unstable": {
    "version": [
-    20200125,
-    1748
+    20200126,
+    1648
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "f0b3a56c148fd56d45f46b0e6b13b47f2fe08d3f",
-   "sha256": "1w4hzk1hx99x3srgsn2caqb3nvfnbfcf8rkzadl2vsaw7lmdnk2c"
+   "commit": "d48df7b02e404cc52bfb8d2eb961e47ac161b891",
+   "sha256": "0dlipjywv4ci4n0x7wggnkrgi32ahgdvqnppcz3hh0npn0myqqcn"
   },
   "stable": {
    "version": [
@@ -22294,11 +22294,11 @@
   "repo": "doublep/eldev",
   "unstable": {
    "version": [
-    20200125,
-    2231
+    20200126,
+    1643
    ],
-   "commit": "a37b14767f9c15f30a377c69b7edbffc10e4bc18",
-   "sha256": "158j4bbdh90cmsbvfssp05p44qgkdm7pnipy2dxlf3r99q2127s0"
+   "commit": "e00d9dbcedcd5784721c14255a7573bcec7ccde9",
+   "sha256": "0fmxv6v37jq5sypbajvs93jcf9vjpwavg4gs3g4rpd1n099wp96a"
   },
   "stable": {
    "version": [
@@ -56208,10 +56208,10 @@
   "unstable": {
    "version": [
     20200126,
-    620
+    1712
    ],
-   "commit": "a2081115251ed24505a141d8939ffcfb64325a06",
-   "sha256": "1bcwy0lbij79j6bccp75xyhv0py4xn812ncgr9r3b537jm1x08mm"
+   "commit": "2fc4ba937ecb430815cf2955a7ad9d2eebbd7e65",
+   "sha256": "1790lchhi9kscgkk52qc7k6vckvzbjik9kkh4zgrbxsnxyhn1sgw"
   },
   "stable": {
    "version": [
@@ -56933,7 +56933,7 @@
   "unstable": {
    "version": [
     20200126,
-    1519
+    1714
    ],
    "deps": [
     "dash",
@@ -56944,8 +56944,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "71713b599cb276a9912f9bb1d656d551e6524f05",
-   "sha256": "05n96ks8mdnggkidj1zvbsy66pd7jk85x5yj8iaw69rj77y7pl50"
+   "commit": "91e37a61f4ac220f42267536969642db1f65761b",
+   "sha256": "1n6b9bmpjcbl44wrp723ij0w99v08rc8wfqfq7781rjk4wyqy2hp"
   },
   "stable": {
    "version": [
@@ -67724,11 +67724,11 @@
   "repo": "bastibe/org-journal",
   "unstable": {
    "version": [
-    20200111,
-    919
+    20200126,
+    1647
    ],
-   "commit": "cf0f15386fb52479f3b8f4f494feff71ba0052a4",
-   "sha256": "1ah6kb130wcmq61ddwr0yp1s80k02pl0cjrbzbdbp9s4xs6c49af"
+   "commit": "128f0533a72ec10a49df5a1dcdb1a3e065e86122",
+   "sha256": "1r733w0lywminnc9cxcpi075adfrap0pqlbmk002zp5421bdsma0"
   },
   "stable": {
    "version": [
@@ -95369,8 +95369,8 @@
     20200126,
     232
    ],
-   "commit": "2fe386631912871eac20f045d5c1d0bc08a827aa",
-   "sha256": "1yminjxypp1v7c2sp20qknif3a4jm10w757yazg72a2g8yhb8gcb"
+   "commit": "b893fb4144544745d921aa3773839ad414e4d2cb",
+   "sha256": "1qgpzwjdb3wp72ynxqbnf1m9k63jnyasr45lkhl9m84gyafkj35j"
   },
   "stable": {
    "version": [
