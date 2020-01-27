@@ -7211,16 +7211,16 @@
   "repo": "rmuslimov/browse-at-remote",
   "unstable": {
    "version": [
-    20190213,
-    1929
+    20200127,
+    145
    ],
    "deps": [
     "cl-lib",
     "f",
     "s"
    ],
-   "commit": "1a9392e9d1fad4e1aafb25b68b4e6857fde8f564",
-   "sha256": "1shpkzyg0lf3s5199qhy7kcanx55yk27sgbsc1pbkv0crkh8dv14"
+   "commit": "aeee6bf38f78aaed5dd2efd6305f30a7594e3060",
+   "sha256": "1hp61vd5vxgyz61l8h59v9yvadpqzrc3ihsd731gl1k9siajg8q2"
   },
   "stable": {
    "version": [
@@ -21720,8 +21720,8 @@
   "repo": "millejoh/emacs-ipython-notebook",
   "unstable": {
    "version": [
-    20200124,
-    2240
+    20200127,
+    249
    ],
    "deps": [
     "auto-complete",
@@ -21734,8 +21734,8 @@
     "skewer-mode",
     "websocket"
    ],
-   "commit": "bb97c11d1131008f9fd1e7d24e5eed608670bcd0",
-   "sha256": "1wiy5dyd4zfznc67i6hg2bhccc8rc14skbg09dv5xgaah397h3fc"
+   "commit": "42f8efc54bfb915248972490a4b438b8d5bda381",
+   "sha256": "0jnqi8pq83s8q0dy2y1518yz8lsc0graqrqf8frss21fcj7ny22g"
   },
   "stable": {
    "version": [
@@ -50591,30 +50591,6 @@
   }
  },
  {
-  "ename": "ivy-feedwrangler",
-  "commit": "cf1c112939545f6d157111eabcb573738b09ef7c",
-  "sha256": "1mxm37biix8c0s32gfv4pidffvlgdz5i9325zk71fhgfzqwkf5vx",
-  "fetcher": "github",
-  "repo": "asimpson/ivy-feedwrangler",
-  "unstable": {
-   "version": [
-    20180618,
-    1522
-   ],
-   "commit": "051eac49cae32b16fab2e06ff0115cd8fb5dc499",
-   "sha256": "1irp76kbg8d7wmgvfjbb4c3wmd29bdrl503jkq4w52fl57g94cvj"
-  },
-  "stable": {
-   "version": [
-    0,
-    4,
-    2
-   ],
-   "commit": "051eac49cae32b16fab2e06ff0115cd8fb5dc499",
-   "sha256": "1irp76kbg8d7wmgvfjbb4c3wmd29bdrl503jkq4w52fl57g94cvj"
-  }
- },
- {
   "ename": "ivy-fuz",
   "commit": "578c150cb8f61058f8003554d372944a990d7a7d",
   "sha256": "1z7r4fw1kl4vnfd5n6d628xwqhlr1768yfpj55gg28bq5lfx725h",
@@ -50963,14 +50939,14 @@
   "repo": "Yevgnen/ivy-rich",
   "unstable": {
    "version": [
-    20200111,
-    1418
+    20200127,
+    131
    ],
    "deps": [
     "ivy"
    ],
-   "commit": "7bfc7262fda46c38636eac3080980024b5881a64",
-   "sha256": "17b4awjgppc66psq7vl18nsy7x0zczi62fld48lc8kwi5bnzbb1x"
+   "commit": "76ed7a129efcf22607443add9cdc55c31a5f58df",
+   "sha256": "0hgcvrbgv9k040s8yb1i3y17cibdlf38wqmvj0208yzijy20arx2"
   },
   "stable": {
    "version": [
@@ -81303,11 +81279,11 @@
   "repo": "tkf/emacs-request",
   "unstable": {
    "version": [
-    20200117,
-    410
+    20200127,
+    21
    ],
-   "commit": "4be823a89b2d53b97609d41a5f2caaae9355437e",
-   "sha256": "1kamcp39lvig08hp2jv0by9lrn1pgcp8nhamwaz5z6bl1qgrb64d"
+   "commit": "431d14343c61bc51a86c9a9e1acb6c26fe9a6298",
+   "sha256": "0jmfv9xfcgfkqzv27c2n323vrclci9kjw0qfw3fpll37zjalvxm9"
   },
   "stable": {
    "version": [
@@ -81334,8 +81310,8 @@
     "deferred",
     "request"
    ],
-   "commit": "4be823a89b2d53b97609d41a5f2caaae9355437e",
-   "sha256": "1kamcp39lvig08hp2jv0by9lrn1pgcp8nhamwaz5z6bl1qgrb64d"
+   "commit": "431d14343c61bc51a86c9a9e1acb6c26fe9a6298",
+   "sha256": "0jmfv9xfcgfkqzv27c2n323vrclci9kjw0qfw3fpll37zjalvxm9"
   },
   "stable": {
    "version": [
@@ -85988,14 +85964,15 @@
   "repo": "mmgeorge/sly-asdf",
   "unstable": {
    "version": [
-    20191021,
-    718
+    20200127,
+    33
    ],
    "deps": [
+    "popup",
     "sly"
    ],
-   "commit": "69123fcebe63bb4d6e40e3dcb187299622401b74",
-   "sha256": "0f5ycdh02w6b6jkzw6fhsq9brdld78277cjykpy291112fx0ppny"
+   "commit": "441aa567aa033e2d9a30e5158399e537a8e9519f",
+   "sha256": "1ipczc6m0w81gnkcnd4inc52kkx4h1p2h1caq1sddy1pz2cb2slh"
   },
   "stable": {
    "version": [
@@ -95369,8 +95346,8 @@
     20200126,
     2142
    ],
-   "commit": "1ad0df2a76a34c4cc40c67e210f7a06e727841bf",
-   "sha256": "0q1psw05ck649aa10ris3jqdji5d082m8spxnvr7y433vjhf6b6d"
+   "commit": "d4a8a41c07bfdbbaedc41c1a2c58fac0a744f729",
+   "sha256": "024sfms0dwsmy613zvxxhsybvx7c9wz7zd9jq2057fz0ibdbqfzg"
   },
   "stable": {
    "version": [
