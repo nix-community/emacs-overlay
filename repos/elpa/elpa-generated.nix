@@ -2245,10 +2245,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.3.1";
+        version = "9.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.3.1.tar";
-          sha256 = "1n79h6ihhsaxxbnl9hw511aav0215m3pa51sa5fh3ddknjfplian";
+          url = "https://elpa.gnu.org/packages/org-9.3.2.tar";
+          sha256 = "1275s3hzyka2wwxl6nc2sndnwyl7kbc1nnl0hrznxb3wpy2abfd6";
         };
         packageRequires = [];
         meta = {
@@ -3236,10 +3236,10 @@
       elpaBuild {
         pname = "undo-tree";
         ename = "undo-tree";
-        version = "0.7.2";
+        version = "0.7.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/undo-tree-0.7.2.el";
-          sha256 = "0gdqh5rkgwlancbjx5whgl5gqkdipdkspkl2bqmrq70sgg5ahrcc";
+          url = "https://elpa.gnu.org/packages/undo-tree-0.7.3.el";
+          sha256 = "0ykxlv40583id40v656yi2vp982png72fdqgixqiaa8hv4q6w191";
         };
         packageRequires = [];
         meta = {
