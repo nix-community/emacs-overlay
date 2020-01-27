@@ -8437,7 +8437,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
+    ""
    ]
   }
  },
@@ -10904,8 +10904,8 @@
     20190710,
     1319
    ],
-   "commit": "55ea8f6b1b3756de32334d80ea000f21ddc4d5c7",
-   "sha256": "13639jlr1pjcgv7qcvq9b95y6fil5gb7v1ychj13h0gb6mjh3nji"
+   "commit": "ee4299ce46638d87b161003664b0e7bc848a9932",
+   "sha256": "0vpk83bpcrxaj346gcah75cgivwcybfk3kp0p91mabwhiwmc92y4"
   },
   "stable": {
    "version": [
@@ -58394,16 +58394,16 @@
   "repo": "stardiviner/major-mode-icons",
   "unstable": {
    "version": [
-    20200124,
-    1934
+    20200127,
+    512
    ],
    "deps": [
     "all-the-icons",
     "powerline",
     "xpm"
    ],
-   "commit": "9bc94132b8b9c971a7537ffacc174f8a5248ce4a",
-   "sha256": "1sa1in47gyrdjrz8xvx0v3j44ijm7bm9jxsakipbvlndkwxafm4p"
+   "commit": "b36eae2e976bad3c431b082c64b1a724a2ba1fe6",
+   "sha256": "1jjmma9lx5g4qprmy71izgdp564lbdb0wsiysl1f6d8wipml78ys"
   }
  },
  {
@@ -72988,8 +72988,8 @@
    "deps": [
     "eieio"
    ],
-   "commit": "1f8086077d770e524492e6fa59b07856e85a6fea",
-   "sha256": "09z5295f8051ag13ndq8rhxgg2m0gim45yfpjv4xkbmdcfkfinc2"
+   "commit": "1f31433ad0b37a2e68d60ee043a8188ef1ce3176",
+   "sha256": "1bk6rg9qaaasbng6m6mdkjbwdm68zkr7mfwj18l34ivlz0f05sxw"
   },
   "stable": {
    "version": [
@@ -89695,11 +89695,11 @@
   "repo": "10sr/switch-buffer-functions-el",
   "unstable": {
    "version": [
-    20171011,
-    1704
+    20200127,
+    409
    ],
-   "commit": "b8d8e01e21ae8c8c84234dddeb3cc8250814f7ba",
-   "sha256": "17bspkj4fxn9albjmj5g3gd5hi6x4d5rmv76qvyv3mdqws9x52j6"
+   "commit": "40cb0c9e2c84b30e1c5c7458a795cda1bd8ad8fa",
+   "sha256": "1nv2lhizk76f45albrf7467x2xa138w4jbiwyx98ww4bvb0yfdgp"
   },
   "stable": {
    "version": [
@@ -93948,6 +93948,21 @@
    ],
    "commit": "61d6cda0a09e017e52693c66a2a5c8bb82a553b4",
    "sha256": "1ns5s65qrc7bfvacbyib1gsg1p1bmyd15idy1fb57brzmgbn7x80"
+  }
+ },
+ {
+  "ename": "undo-fu-session",
+  "commit": "f39d9dc5e57554b42eca54ad5399a53947c2c25f",
+  "sha256": "0k9qxs3igzf7zcg1vd4v9npfiah512w9j2scnm333brmx4jfgvb7",
+  "fetcher": "gitlab",
+  "repo": "ideasman42/emacs-undo-fu-session",
+  "unstable": {
+   "version": [
+    20200127,
+    311
+   ],
+   "commit": "2dc3ea54c7bfe5b5f6d427d1c248686fdce584de",
+   "sha256": "172hixrmd58jmyjr20zhccv3j2yn38sd9r91cdi51qdjp0d5k0sw"
   }
  },
  {
