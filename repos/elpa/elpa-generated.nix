@@ -3236,10 +3236,10 @@
       elpaBuild {
         pname = "undo-tree";
         ename = "undo-tree";
-        version = "0.7.3";
+        version = "0.7.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/undo-tree-0.7.3.el";
-          sha256 = "0ykxlv40583id40v656yi2vp982png72fdqgixqiaa8hv4q6w191";
+          url = "https://elpa.gnu.org/packages/undo-tree-0.7.4.el";
+          sha256 = "018ixl802f076sfyf4gkacpgrdpybin88jd8vq9zgyvc6x2dalfa";
         };
         packageRequires = [];
         meta = {
