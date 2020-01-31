@@ -39,10 +39,10 @@
       elpaBuild {
         pname = "ada-mode";
         ename = "ada-mode";
-        version = "6.2.1";
+        version = "7.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ada-mode-6.2.1.tar";
-          sha256 = "0lg2y28qs8ls70d43ikhy5zcwadh5ddfw4k59p7sqb79w0y3lbnq";
+          url = "https://elpa.gnu.org/packages/ada-mode-7.0.1.tar";
+          sha256 = "0iqninv4wf4ap8axk9m0gi39j3kq4jpbpdc8hczd34xrp83ml46a";
         };
         packageRequires = [ emacs uniquify-files wisi ];
         meta = {
@@ -655,10 +655,10 @@
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.10";
+        version = "1.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/csv-mode-1.10.el";
-          sha256 = "0q7j2cmj7vs6hz8cnf7j7lmlcjmig3jn2p6az345z96agl8a5xsq";
+          url = "https://elpa.gnu.org/packages/csv-mode-1.11.el";
+          sha256 = "0xxym21mf24442wgd646r99prhbnpn5jnvmf1i4aga62c1lpb4rm";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -2746,16 +2746,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    relint = callPackage ({ elpaBuild, fetchurl, lib, xr }:
+    relint = callPackage ({ elpaBuild, emacs, fetchurl, lib, xr }:
       elpaBuild {
         pname = "relint";
         ename = "relint";
-        version = "1.12";
+        version = "1.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/relint-1.12.tar";
-          sha256 = "16viawkkd4sas4r4fvvnxxnj0rf15yz9a2j881j8822ch2rqnbrv";
+          url = "https://elpa.gnu.org/packages/relint-1.13.tar";
+          sha256 = "1kzzlixhd6kp0mkmgn02b7pqv6m55g708xsys7vjskdxbfb6jjib";
         };
-        packageRequires = [ xr ];
+        packageRequires = [ emacs xr ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/relint.html";
           license = lib.licenses.free;
@@ -3565,10 +3565,10 @@
       elpaBuild {
         pname = "wisi";
         ename = "wisi";
-        version = "2.2.1";
+        version = "3.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wisi-2.2.1.tar";
-          sha256 = "1qvhx8bpms7gri7y6wniwqd6nmqxj4lip5l3sphbq2kjf4zq4qd4";
+          url = "https://elpa.gnu.org/packages/wisi-3.0.1.tar";
+          sha256 = "01961apbirdi4y8qx2wb01f04knkw3hyin3ndrkjlkfslqbsnzzv";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -3656,16 +3656,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    xr = callPackage ({ elpaBuild, fetchurl, lib }:
+    xr = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "xr";
         ename = "xr";
-        version = "1.14";
+        version = "1.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xr-1.14.tar";
-          sha256 = "1hfl7jvimgdgi2mwsx9laxcywp4n6k6vfkanjwm3sf27awqz7ngs";
+          url = "https://elpa.gnu.org/packages/xr-1.15.tar";
+          sha256 = "0pxzr6n0qa29ly8j3cl46rv9a65ajfcgahrhdylg4yfb9gh1x4ly";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/xr.html";
           license = lib.licenses.free;
