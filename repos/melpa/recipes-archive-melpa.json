@@ -8437,7 +8437,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
+    ""
    ]
   }
  },
@@ -12725,15 +12725,15 @@
   "repo": "vspinu/company-math",
   "unstable": {
    "version": [
-    20190507,
-    2006
+    20200131,
+    2337
    ],
    "deps": [
     "company",
     "math-symbol-lists"
    ],
-   "commit": "600e49449644f6835f9dc3501bc58461999e8ab9",
-   "sha256": "1ps2lpkzn8mjbpcbvvy1qz3xbgrh6951x8y9bsd1fm32drdph9lh"
+   "commit": "a796053590012e6a15c8b527b521ffc15d137bd0",
+   "sha256": "1y1fw926insgdl7ib9ynxjrxf3p6wfjkfxvf5vgdca7267cvcll1"
   },
   "stable": {
    "version": [
@@ -19438,14 +19438,14 @@
   "repo": "hlissner/emacs-doom-themes",
   "unstable": {
    "version": [
-    20200126,
-    1648
+    20200201,
+    353
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "d48df7b02e404cc52bfb8d2eb961e47ac161b891",
-   "sha256": "0dlipjywv4ci4n0x7wggnkrgi32ahgdvqnppcz3hh0npn0myqqcn"
+   "commit": "02680c171b95eacf296274c7c010167493d6bc1c",
+   "sha256": "0ls1ih4vj5glhpaafbb3spslak66wq8n5y29g0hna7bp9nrw7iw4"
   },
   "stable": {
    "version": [
@@ -20757,11 +20757,11 @@
   "repo": "flexibeast/ebuku",
   "unstable": {
    "version": [
-    20200118,
-    328
+    20200201,
+    253
    ],
-   "commit": "bf7c2011b55c19726612be1b7c74857722aa340d",
-   "sha256": "1i0knx0mj7nyjwh0lk4zvwzr5n51c3q1wk6509lwkfqgcgaalih9"
+   "commit": "73c2bd1494c5b4b42c7dc6836c00e75a2d0aeb8e",
+   "sha256": "07lmxs5n2zi9zlq074c1xvivn5dzmasw0xlldvlypzm8hi44paja"
   }
  },
  {
@@ -55848,16 +55848,16 @@
   "repo": "noctuid/lispyville",
   "unstable": {
    "version": [
-    20190719,
-    141
+    20200129,
+    243
    ],
    "deps": [
     "cl-lib",
     "evil",
     "lispy"
    ],
-   "commit": "56198f1c4488a52a0d0512c717dff36e8b9fbfd0",
-   "sha256": "1zrhn5pgjvwprwnsr85zs4rhs7mijyq3wbd5s0ff96m9n1dbj6vp"
+   "commit": "caf5b485c9ec5a21de3a8d1111a8d78a42ac8ca9",
+   "sha256": "12d6qchx2pchk3lkvfhh1n2qgnhf9yn10alyvysynqd0730rj5fh"
   }
  },
  {
@@ -59269,11 +59269,11 @@
   "repo": "vspinu/math-symbol-lists",
   "unstable": {
    "version": [
-    20190605,
-    2058
+    20200131,
+    2333
    ],
-   "commit": "dc7531cff0c845d5470a50c24d5d7309b2ced7eb",
-   "sha256": "094m21i9rns6m59cmhxcivxxafbg52w8f8na4y3v47aq67zmhhqm"
+   "commit": "1cf7e2885f3352f55852ee9eba26c7cb5a7cd74b",
+   "sha256": "0c2fs87vsxx00svzx09x90p8sc1zm4mj24ab0bvqf7ghpl5qgwa8"
   },
   "stable": {
    "version": [
@@ -62301,14 +62301,14 @@
   "repo": "zevlg/multitran.el",
   "unstable": {
    "version": [
-    20200117,
-    803
+    20200201,
+    55
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "258b1232af6680396b6c0912597ed52e583326f4",
-   "sha256": "08b9a0pb38swgvg2v97pm4g2zda0xagdgq42znwhkmhzjiskh2g1"
+   "commit": "475e2a92795dbed1aa3b1c5eba2c6c779cac4508",
+   "sha256": "0nl4cm1nx7lmb2gd76jw8v0hqdfjjcwy0xskpi0brd8z6dp1m5n3"
   },
   "stable": {
    "version": [
@@ -90779,14 +90779,14 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20200131,
-    1339
+    20200201,
+    156
    ],
    "deps": [
     "visual-fill-column"
    ],
-   "commit": "dfe3681fe798cf24c1f2b6135c8fdb0d8e154168",
-   "sha256": "199m3vhklxr7n5hbgscqn5p60r4fsc86wcvvzsfakblwyj11qyjb"
+   "commit": "a20957c59c5d0d1bf8ac4e970f567438973c8248",
+   "sha256": "1l6ng8h1kbfs5lb52dlx3d61c8zll547s29rpwdj95z5vchd1f12"
   },
   "stable": {
    "version": [
@@ -91789,8 +91789,8 @@
     20180905,
     1050
    ],
-   "commit": "71fd6c944ef32a35d750d8762c7044f3abaf669d",
-   "sha256": "08mcm3a1nn0bjs5f1s4blav1cpn0gm5c2ph6r2li4dd1gxyljffq"
+   "commit": "d7c8b6c894b025aaa9929f6ba1831f2a457fa96f",
+   "sha256": "071qgn4ynb0ymdbq7hsx0dm6k96kf24p33igysm6p42z6n90cgqr"
   },
   "stable": {
    "version": [
