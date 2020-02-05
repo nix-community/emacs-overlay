@@ -1846,10 +1846,10 @@
       elpaBuild {
         pname = "map";
         ename = "map";
-        version = "2.0";
+        version = "2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/map-2.0.el";
-          sha256 = "1djygpvk1qgldg9my0lh8n2z1n6acz3y5ws7sv2w08hvxdlxz857";
+          url = "https://elpa.gnu.org/packages/map-2.1.el";
+          sha256 = "0ydz5w1n4vwhhzxxj003s7jv8n1wjijwfryk5z93bwhnr0cak0i0";
         };
         packageRequires = [ emacs ];
         meta = {
