@@ -2245,10 +2245,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.3.2";
+        version = "9.3.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.3.2.tar";
-          sha256 = "1275s3hzyka2wwxl6nc2sndnwyl7kbc1nnl0hrznxb3wpy2abfd6";
+          url = "https://elpa.gnu.org/packages/org-9.3.3.tar";
+          sha256 = "0yafckcx5ka2rpmv24x7ns6f3s1h216x2lbgaxsf1dmklbjcfvwv";
         };
         packageRequires = [];
         meta = {
@@ -2455,10 +2455,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "0.5.0";
+        version = "0.6.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-0.5.0.el";
-          sha256 = "1fjnpwg1fj9j54nymh802vd4viggrg3qnqwh52281n7zv6xfv0qb";
+          url = "https://elpa.gnu.org/packages/posframe-0.6.0.el";
+          sha256 = "14x2jgjn8di03rrad4x4mn8fhcqibk1j5c0ya0vmv8648fki6i9d";
         };
         packageRequires = [ emacs ];
         meta = {
