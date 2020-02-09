@@ -32,10 +32,10 @@
   "unstable": {
    "version": [
     20200208,
-    2230
+    2247
    ],
-   "commit": "43c22936bd3de4d5ce25403dc542245ff182aec5",
-   "sha256": "0ak27n14pymhhmxqvvz96j52cy3lijva4kl5adpi9akfbkildkma"
+   "commit": "c5459d9f3aebbe53de03031ebfd6ca51c48acf84",
+   "sha256": "063r89jim2x1kk7bdc6ci5v3cdyh209lpc1fwf0ql2zhhr0pgwp9"
   },
   "stable": {
    "version": [
@@ -8437,7 +8437,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
    ]
   }
  },
@@ -12119,14 +12119,14 @@
   "repo": "redguardtoo/company-ctags",
   "unstable": {
    "version": [
-    20200208,
-    1026
+    20200209,
+    47
    ],
    "deps": [
     "company"
    ],
-   "commit": "9ee04b1d690e98b709ad0316332cbe711ab410cd",
-   "sha256": "0sjsvl6ir043bp79mdb29bn5bjqh68gwmkm1kg0zm3ydn3wi9cxw"
+   "commit": "fa5a3f7b765fc0e42a378fa2293be4c2817fe04e",
+   "sha256": "1wgxmy1pwwc7mvgw9bx3vvaay1pirzghvpqs6d9mnx1wbzn1x29b"
   },
   "stable": {
    "version": [
@@ -20058,8 +20058,8 @@
     20191016,
     1241
    ],
-   "commit": "bc5ee4053078ff3fc92d8d3c94bee098823fdc89",
-   "sha256": "1c96gbngfy47zjf27v5z25rn0zqhr9vick7wd35b9jpz9wav3n0w"
+   "commit": "bca6607552eb5c3fb4a24daba94840dd326ae798",
+   "sha256": "1p02s4xn65fjy86yhq14s1b2zxmg9wncbaz5v0wq7ldz56yayrsy"
   },
   "stable": {
    "version": [
@@ -21720,8 +21720,8 @@
   "repo": "millejoh/emacs-ipython-notebook",
   "unstable": {
    "version": [
-    20200205,
-    1547
+    20200209,
+    35
    ],
    "deps": [
     "anaphora",
@@ -21733,8 +21733,8 @@
     "s",
     "websocket"
    ],
-   "commit": "cb2270ae3f445ebe015f6075059312449a1025ff",
-   "sha256": "1r5dpxg9abvwhlphb401ph5w55ymsyff01jwlmzb53j44zw78r7h"
+   "commit": "128333db0f1a4ae0ce93cbfadb3a60b3824da82c",
+   "sha256": "0kll9ar2cbnjm20s6x0ffybgd1aq1kv43hrawqp48cnqkqvc7pmh"
   },
   "stable": {
    "version": [
@@ -82270,15 +82270,15 @@
   "repo": "pezra/rspec-mode",
   "unstable": {
    "version": [
-    20191206,
-    1559
+    20200209,
+    22
    ],
    "deps": [
     "cl-lib",
     "ruby-mode"
    ],
-   "commit": "c4353a1bff164bccf6c55fda16aa7b9c9ab36685",
-   "sha256": "1xfxm54nyyspfly4f4wszb2v1r8f4q04bd8g9mhc57bjfrpqvzpy"
+   "commit": "8b31d27a28b504d233dd0d292b5f5bac67945321",
+   "sha256": "1jwrpq2a46d9r559z4pdpkzy81bppjni5hnwgrbxqg754jh087xk"
   },
   "stable": {
    "version": [
