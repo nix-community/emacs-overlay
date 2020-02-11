@@ -2936,10 +2936,10 @@
       elpaBuild {
         pname = "sml-mode";
         ename = "sml-mode";
-        version = "6.9";
+        version = "6.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sml-mode-6.9.el";
-          sha256 = "1bdg9ywpvj85hxqah9w1raxlcrhkyx67nw22jwd1bd5j0fhmgqij";
+          url = "https://elpa.gnu.org/packages/sml-mode-6.10.el";
+          sha256 = "01yf0s474r9xhj6nbs14ljn9ccxb5yy758i17c8nmgmqvm8fx7sb";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
