@@ -2245,10 +2245,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.3.5";
+        version = "9.3.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.3.5.tar";
-          sha256 = "1v7fy7qaglxzha1djnsglg5092wrbn25cx0r8qx57c9155vqm6ws";
+          url = "https://elpa.gnu.org/packages/org-9.3.6.tar";
+          sha256 = "0jwpgfzjvf1hd3mx582pw86hysdryaqzp69hk6azi9kmq4bzk87d";
         };
         packageRequires = [];
         meta = {
