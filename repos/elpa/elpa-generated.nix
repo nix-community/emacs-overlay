@@ -3615,10 +3615,10 @@
       elpaBuild {
         pname = "xclip";
         ename = "xclip";
-        version = "1.9";
+        version = "1.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xclip-1.9.el";
-          sha256 = "0xbs6fw0dfm5iynhdx62cwixzizjkrwrib6n0fjnsj31kajbkf3y";
+          url = "https://elpa.gnu.org/packages/xclip-1.10.el";
+          sha256 = "0i3i9kwfg8qmhcmqhhnrb1kljgwkccv63s9q1mjwqfjldyfh8j8i";
         };
         packageRequires = [];
         meta = {
