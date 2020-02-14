@@ -9145,8 +9145,8 @@
     20171115,
     2108
    ],
-   "commit": "6d2ce00bff8363666ff4a785f06751536f1d0b7b",
-   "sha256": "1bmagbppbgbadj9y0ij4gqyp2cf0sj7p6xs7xx0ws57v00ccn7l2"
+   "commit": "10ac448c69097550d18cb8fb6b73470953781c3d",
+   "sha256": "1sic3m92xvnpf26wbydrwsj94fgl10pimdvl694jwkf78930spq7"
   },
   "stable": {
    "version": [
@@ -10922,8 +10922,8 @@
     20190710,
     1319
    ],
-   "commit": "4bfe0b6f0dd15f5955d5cea325285907def2312f",
-   "sha256": "1c9s5ilm7qxs3q96p9wq2vymx6rndzb1g4jcxlivbhbzm1yx8mky"
+   "commit": "5ec88546dd363d82d877646eea86e198aef7b033",
+   "sha256": "0bgqf2021d59lznrgjx42ynm0652i1i08jr8i5jrw77lixga6xw6"
   },
   "stable": {
    "version": [
@@ -13670,18 +13670,19 @@
   "repo": "emacs-php/composer.el",
   "unstable": {
    "version": [
-    20180923,
-    1140
+    20200214,
+    1119
    ],
    "deps": [
+    "cl-lib",
     "f",
     "php-runtime",
     "request",
     "s",
     "seq"
    ],
-   "commit": "269270e13b2be00a9cc7d08bd2a96d6bca64cae2",
-   "sha256": "1bwrmgkkyq35zm5vb9krhdgirsz5hilif6i1k7nsm4bl1msf0h6m"
+   "commit": "8b4867e30efcdf10c6d9a74822aa281404377818",
+   "sha256": "1605fk7nkzjshn6faxw0ycn45a1wbivpmlmyaxcqzjhmawavky6b"
   },
   "stable": {
    "version": [
@@ -14544,15 +14545,15 @@
   "repo": "ericdanan/counsel-projectile",
   "unstable": {
    "version": [
-    20200130,
-    1029
+    20200214,
+    1450
    ],
    "deps": [
     "counsel",
     "projectile"
    ],
-   "commit": "47fcb4e0ebc9c9a3c47622912a00189005b092a3",
-   "sha256": "1akzsr1h1qrhymy8a44ha73y7c1459rkpw58dy5gia2glpjrf528"
+   "commit": "b556ed8995f375e57496f3482aef4b0def565de8",
+   "sha256": "105lvn2bmz6lgxx5y6k9gnhkl4p8igxwgnfz5anxlcv32w7q21pw"
   },
   "stable": {
    "version": [
@@ -20137,8 +20138,8 @@
     20191016,
     1241
    ],
-   "commit": "04cbfee3fd85d9e0f117c097f837d33cab822b6e",
-   "sha256": "114h57n23msqqz75i58sddr8cfxvriszb9r7q40gwlxvmy0f2psc"
+   "commit": "b0aee2c9e6697c89d6794f806d7ae0b731bbfc98",
+   "sha256": "160y3251cx1299imc3c0vnmz8xr521nmp4llg3ckgypixgh4fzbi"
   },
   "stable": {
    "version": [
@@ -25434,8 +25435,8 @@
     20191219,
     1238
    ],
-   "commit": "f1f7ee77fc77f44fc1ca94fdaedb5b7d5e2d9370",
-   "sha256": "1kqcr3dfp221syqapa4b2qk07n1amh44178zjlwd9kf65889wfcr"
+   "commit": "b986acb00956a0c79bf92a16ccf8057e89ab6ffc",
+   "sha256": "1xsv5rd3qdgh941zp2zv4wcnhxiwz665qfwp8pqw9aw06g7d1gkb"
   },
   "stable": {
    "version": [
@@ -54988,11 +54989,11 @@
   "repo": "conao3/leaf.el",
   "unstable": {
    "version": [
-    20200208,
-    1443
+    20200214,
+    1227
    ],
-   "commit": "533dac5013421319548de35fb69200c2ae49bdd9",
-   "sha256": "1kbhc51ggcwnwadjykg248r1h6dvc2w3zs5lwb4q166i01g8qc0k"
+   "commit": "24ab7dbc677238c4897b944cdcd4cf67eec585bb",
+   "sha256": "1bhy0fgksk2xg0p0zxf20bnnhy6b2gwyrk4krs30xqqbmzj65sb1"
   },
   "stable": {
    "version": [
