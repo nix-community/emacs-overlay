@@ -655,10 +655,10 @@
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.11";
+        version = "1.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/csv-mode-1.11.el";
-          sha256 = "0xxym21mf24442wgd646r99prhbnpn5jnvmf1i4aga62c1lpb4rm";
+          url = "https://elpa.gnu.org/packages/csv-mode-1.12.tar";
+          sha256 = "0bya12smlrzwv4cbcmch4kg1fazp4k0ndrh1z17ix9p8c14d0v1j";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -2260,10 +2260,10 @@
       elpaBuild {
         pname = "org-edna";
         ename = "org-edna";
-        version = "1.0.2";
+        version = "1.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-edna-1.0.2.tar";
-          sha256 = "005pmnqr41s2w72gahq9bf4l5kw601i19ypiqfnb8aq0f4acjr3d";
+          url = "https://elpa.gnu.org/packages/org-edna-1.1.1.tar";
+          sha256 = "1hfkdjbjnhbwb27vgs43ywl4kn2lqc037f4xppp2v0s97850za8r";
         };
         packageRequires = [ emacs org seq ];
         meta = {
@@ -2410,10 +2410,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.3.28";
+        version = "0.3.33";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.3.28.tar";
-          sha256 = "0ymsdflnmibngir06zg1cgk05awfq895dj1da0dd56p29zrhr0hi";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.3.33.tar";
+          sha256 = "1cyxl8xldhw2wwg35j6i9wqpn2hq5sfhlfz1xjcpd0sp2gcxwywb";
         };
         packageRequires = [ emacs ];
         meta = {
