@@ -1153,6 +1153,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    expand-region = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "expand-region";
+        ename = "expand-region";
+        version = "0.11.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/expand-region-0.11.0.tar";
+          sha256 = "1q6xaqkv40z4c6rgdkxqqkvxgsaj8yjqjrxi40kz5y0ck3bjrk0i";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/expand-region.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     exwm = callPackage ({ elpaBuild, fetchurl, lib, xelb }:
       elpaBuild {
         pname = "exwm";
