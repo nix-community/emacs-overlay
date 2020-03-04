@@ -343,10 +343,10 @@
       elpaBuild {
         pname = "bnf-mode";
         ename = "bnf-mode";
-        version = "0.4.3";
+        version = "0.4.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bnf-mode-0.4.3.tar";
-          sha256 = "1hdhk6kw50vsixprrri0jb5i1c2y94ihifipqgq6kil7y4blr614";
+          url = "https://elpa.gnu.org/packages/bnf-mode-0.4.4.tar";
+          sha256 = "0acr3x96zknxs90dc9mpnrwiaa81883h36lx5q1lxfn78vjfw14x";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3157,7 +3157,11 @@
           license = lib.licenses.free;
         };
       }) {};
-    timerfunctions = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+    timerfunctions = callPackage ({ cl-lib ? null
+                                  , elpaBuild
+                                  , emacs
+                                  , fetchurl
+                                  , lib }:
       elpaBuild {
         pname = "timerfunctions";
         ename = "timerfunctions";
@@ -3166,7 +3170,7 @@
           url = "https://elpa.gnu.org/packages/timerfunctions-1.4.2.el";
           sha256 = "122q8nv08pz1mkgilvi9qfrs7rsnc5picr7jyz2jpnvpd9qw6jw5";
         };
-        packageRequires = [ cl-lib ];
+        packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/timerfunctions.html";
           license = lib.licenses.free;
