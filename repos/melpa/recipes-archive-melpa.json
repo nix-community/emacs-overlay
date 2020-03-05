@@ -8517,7 +8517,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
    ]
   }
  },
@@ -10983,8 +10983,8 @@
     20190710,
     1319
    ],
-   "commit": "5868e58b42fe2197f61070b69d41a549668b5435",
-   "sha256": "0c60bj4l448i972d5dzikw9kkdggxv0g73ayf0135iyryjhba2cz"
+   "commit": "b0e34a3160642a09728f1f56d93e2835443eb016",
+   "sha256": "0nm56wdcxnsz1k3vda9bn6w5hjc6kwsqbg4z9gp8pm3x9iz7sjxc"
   },
   "stable": {
    "version": [
@@ -19809,8 +19809,8 @@
     20161021,
     1211
    ],
-   "commit": "4953f1c8a68472e157a0dcd0a7e35a4ec2577133",
-   "sha256": "1i7k7d2gnzd2izplhdmjbkcxvkwnc3y3y0hrcp2rq60bjpkcl1gv"
+   "commit": "a69e364532fffa451d1f12ade8fadb9cdbd8318c",
+   "sha256": "12pwfv0j54idvn061l3qxf0vrrl56085n517izh8x6jkgxjcx7k0"
   },
   "stable": {
    "version": [
@@ -22750,15 +22750,15 @@
   "repo": "fasheng/elfeed-protocol",
   "unstable": {
    "version": [
-    20200303,
-    215
+    20200305,
+    230
    ],
    "deps": [
     "cl-lib",
     "elfeed"
    ],
-   "commit": "bffe74f0f7d7126691f6a9dd9eadf8714545dfe0",
-   "sha256": "16cmm59lwkgq0yj0pg9sn46afvqqjjx06xv5sc96vgwvn1n0lfi7"
+   "commit": "16daf009952fc020a2589ccf325a2b822403f7b6",
+   "sha256": "1lsxbr8b8gn33w6xrs9ghgv2xxvls2arlvq0fkp3vpb5ki8jzsqs"
   },
   "stable": {
    "version": [
@@ -28678,11 +28678,11 @@
   "repo": "jjzmajic/ewal",
   "unstable": {
    "version": [
-    20200301,
-    823
+    20200305,
+    230
    ],
-   "commit": "732a2f4abb480f9f5a3249af822d8eb1e90324e3",
-   "sha256": "09dgs0g5hcf5hris8i1w6w7wxarzmsagyc3l50rflvxy3djhlbkd"
+   "commit": "4ecc355dae9c7d648cd2874e01a15dfa02b9350d",
+   "sha256": "1v444nfrzz0lkybrgfics5kc8gncbvvs23qlq1pkz7ann6q84ip0"
   },
   "stable": {
    "version": [
@@ -28708,8 +28708,8 @@
    "deps": [
     "ewal"
    ],
-   "commit": "732a2f4abb480f9f5a3249af822d8eb1e90324e3",
-   "sha256": "09dgs0g5hcf5hris8i1w6w7wxarzmsagyc3l50rflvxy3djhlbkd"
+   "commit": "4ecc355dae9c7d648cd2874e01a15dfa02b9350d",
+   "sha256": "1v444nfrzz0lkybrgfics5kc8gncbvvs23qlq1pkz7ann6q84ip0"
   },
   "stable": {
    "version": [
@@ -28739,8 +28739,8 @@
     "ewal",
     "spacemacs-theme"
    ],
-   "commit": "732a2f4abb480f9f5a3249af822d8eb1e90324e3",
-   "sha256": "09dgs0g5hcf5hris8i1w6w7wxarzmsagyc3l50rflvxy3djhlbkd"
+   "commit": "4ecc355dae9c7d648cd2874e01a15dfa02b9350d",
+   "sha256": "1v444nfrzz0lkybrgfics5kc8gncbvvs23qlq1pkz7ann6q84ip0"
   },
   "stable": {
    "version": [
@@ -43075,15 +43075,15 @@
   "repo": "emacs-helm/helm-firefox",
   "unstable": {
    "version": [
-    20161202,
-    1317
+    20200305,
+    706
    ],
    "deps": [
     "cl-lib",
     "helm"
    ],
-   "commit": "b290734807ee68e7a7aface2af781d86e1fd5950",
-   "sha256": "02m05fy5qf5xfd5dh402pibbzwzmcfgqymqigkbdfyjbfbljl3zx"
+   "commit": "7bb259fb70d4412ad6491e850f7edf26fa143a9a",
+   "sha256": "0wf709c50kvq6qjvgmxkxdz9acm48b2had8k3h347vybvnl8cmhl"
   },
   "stable": {
    "version": [
@@ -60687,14 +60687,14 @@
   "repo": "kiennq/emacs-mini-modeline",
   "unstable": {
    "version": [
-    20200131,
-    312
+    20200305,
+    619
    ],
    "deps": [
     "dash"
    ],
-   "commit": "8762d2ec5de2994f05a2a11f505d0963eb28e59e",
-   "sha256": "0dc9frairj081g326b64mddr3knpxhwvmn19w7m1ckmxbv7lg0in"
+   "commit": "9dd2fa60a3949e0d37f40154e405ffc38cf14ad9",
+   "sha256": "1wp17d9g5pbkgnsclv4cjfa8bb8779gb79apqfdy0vadsxqa12nh"
   },
   "stable": {
    "version": [
@@ -71800,8 +71800,8 @@
    "deps": [
     "org"
    ],
-   "commit": "9f26bcca278a2f8f0c6c3867afd8a9e5c36f21c0",
-   "sha256": "1zab347mqb5j1wp5njxg2i45si5703ahya5ilq0kg2gsc75rbw4x"
+   "commit": "0d947cbce655cadb035e3b5da0fa2af8c228d69b",
+   "sha256": "1sf8qdih1fbzhsyvkf8grmfsglvrgim0ww14ww01w9xnr02fkb0g"
   }
  },
  {
@@ -92434,8 +92434,8 @@
     20200212,
     1903
    ],
-   "commit": "790e96f68d5360b943c65235fab269b4429d1bc7",
-   "sha256": "09q3pq5xkwkx1fnvl10ps3v5azfxw2axxmmdqqsnal0x68h2r0gk"
+   "commit": "495a7ee430e7aa5a98c7fb0a6b31871817be3f7b",
+   "sha256": "1lpv23sx6ync5s3m0ncbzjs7ya8cnaksdhqskv4jzkglv5gl6i2v"
   },
   "stable": {
    "version": [
@@ -100654,11 +100654,11 @@
   "repo": "bbatsov/zenburn-emacs",
   "unstable": {
    "version": [
-    20200227,
-    751
+    20200305,
+    737
    ],
-   "commit": "f42847d617d4314d4b8e272f2b58007e479b964d",
-   "sha256": "1ydfkynfclx7djji1hjfvm1pf6ndfjy43y0piqk3v14n6mxz78al"
+   "commit": "7dd796840376342426f60018a6cf209228452f3e",
+   "sha256": "0zzg95sifg6ybh3ava67z688fycklqragkr3baxlhl2jfnwsps2l"
   },
   "stable": {
    "version": [
