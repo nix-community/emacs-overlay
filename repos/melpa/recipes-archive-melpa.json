@@ -8517,7 +8517,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
    ]
   }
  },
@@ -19560,16 +19560,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20200301,
-    657
+    20200306,
+    939
    ],
    "deps": [
     "all-the-icons",
     "dash",
     "shrink-path"
    ],
-   "commit": "0df558598451c36714c0793283fecc064adaf786",
-   "sha256": "1gi3qcqnv0qs8f1921s0bs6ppc3z44sbb035qdlzm1lii7s2v4ll"
+   "commit": "53bf59d50cb06f24a769b3db79377bd2b7a42a7f",
+   "sha256": "1m8xbk0n7i0khlwsxxfv718n07cjd9rr88xvkcngjl6skbm9bahh"
   },
   "stable": {
    "version": [
@@ -20086,11 +20086,11 @@
   },
   "stable": {
    "version": [
-    0,
-    9
+    1,
+    0
    ],
-   "commit": "48221c928b72746d18c1e284c45748a0c2f1691f",
-   "sha256": "0jmlb54b0qrp2mr9cnbzki1vy7i0wv5y1h03ns8acwa2hmpjk30a"
+   "commit": "1569b712ea691a9b8df12af5ee8c8a4aa4853e45",
+   "sha256": "1149s9ym30nfdbb2ndk5ypl5wb984an6n37gycra15j3z15d60mh"
   }
  },
  {
@@ -25515,8 +25515,8 @@
     20200220,
     2206
    ],
-   "commit": "7559b4a7a8af75be13f289867edb7e80bb003228",
-   "sha256": "1cjp9007d4mwgxwdjanldaapkc264wl7dq9mnqq6njag1g9319l1"
+   "commit": "187fe434260e1930372a76193ed023c3a6c61ea8",
+   "sha256": "1ja04ab22mys7wbcvr9nv73qdi1607dbbh7ywfyfs8yzqsai709y"
   },
   "stable": {
    "version": [
@@ -47823,15 +47823,15 @@
   "repo": "abo-abo/hydra",
   "unstable": {
    "version": [
-    20200303,
-    1902
+    20200306,
+    913
    ],
    "deps": [
     "cl-lib",
     "lv"
    ],
-   "commit": "370a5c613ef4b1b48dbd1bd2133c575990fd3093",
-   "sha256": "1f1nlaq2lv572aww36d7iwr3lrjyr6gpfs7zdqgp96q0737rbbnv"
+   "commit": "16fa8d109ec5799931a793b2e866ea9d593bee84",
+   "sha256": "1l6pi5ldmdcgv5qyg3kk1x8sxb639brzbfj0iddy5752hmg08g3h"
   },
   "stable": {
    "version": [
@@ -57302,8 +57302,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20200304,
-    1740
+    20200306,
+    626
    ],
    "deps": [
     "dash",
@@ -57314,8 +57314,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "6a943561e2a605a8854dff19c755582ddfc08dd8",
-   "sha256": "0q8cyaf2l4c9g7cyln8aqcx2qg187ydnp5y9a5zc2ld5ysxdv46s"
+   "commit": "47850fdadf2193086b55a5ac46710a71c6f66304",
+   "sha256": "1wg965311wgjsh9w9b5541nxnmjas86ja5ly0y9vhfna9g22mxn2"
   },
   "stable": {
    "version": [
@@ -57644,8 +57644,8 @@
     20200227,
     1301
    ],
-   "commit": "370a5c613ef4b1b48dbd1bd2133c575990fd3093",
-   "sha256": "1f1nlaq2lv572aww36d7iwr3lrjyr6gpfs7zdqgp96q0737rbbnv"
+   "commit": "16fa8d109ec5799931a793b2e866ea9d593bee84",
+   "sha256": "1l6pi5ldmdcgv5qyg3kk1x8sxb639brzbfj0iddy5752hmg08g3h"
   },
   "stable": {
    "version": [
@@ -60643,14 +60643,14 @@
   "repo": "kiennq/emacs-mini-modeline",
   "unstable": {
    "version": [
-    20200305,
-    1928
+    20200306,
+    1000
    ],
    "deps": [
     "dash"
    ],
-   "commit": "bcf65fba606fb911f840d61520d8f95e74245ec4",
-   "sha256": "0amkc60qbj6p9xvq155y607iybnnnxjbjr36pyz5ym5kfbcm975q"
+   "commit": "066791b8ddf8f409bde351e9dea35a39d92deca9",
+   "sha256": "12m7lqndc025bhrq63y3xxrdaggnz0609wwnf4979zifr45bjb52"
   },
   "stable": {
    "version": [
@@ -61340,11 +61340,15 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20200305,
-    922
+    20200306,
+    812
    ],
-   "commit": "de1fbdf1fcb7a693534709d9c7ab0af72ab5cf43",
-   "sha256": "18dnk4pbql5n90k1f1hwqy0z198rmn0qq397a7vbkhjq2xk32ggv"
+   "commit": "04137513093a4c946722ace81414a06e84914554",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "error: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=04137513093a4c946722ace81414a06e84914554': HTTP error 400\n"
+   ]
   },
   "stable": {
    "version": [
@@ -61364,11 +61368,15 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20200305,
-    922
+    20200306,
+    812
    ],
-   "commit": "de1fbdf1fcb7a693534709d9c7ab0af72ab5cf43",
-   "sha256": "18dnk4pbql5n90k1f1hwqy0z198rmn0qq397a7vbkhjq2xk32ggv"
+   "commit": "04137513093a4c946722ace81414a06e84914554",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "error: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=04137513093a4c946722ace81414a06e84914554': HTTP error 400\n"
+   ]
   },
   "stable": {
    "version": [
@@ -66398,26 +66406,34 @@
   "repo": "oer/oer-reveal",
   "unstable": {
    "version": [
-    20200303,
-    1347
+    20200306,
+    805
    ],
    "deps": [
     "org-re-reveal"
    ],
-   "commit": "c479f62c16e2658d70b9f054dcec8810151fef60",
-   "sha256": "1n4pnf8bfqsbhsf04yl3469sp29wpl5c23kcjapps6yw26wpxivb"
+   "commit": "d4a72d90ad58f69b60f4962b49fbd409fd554c90",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "error: unable to download 'https://gitlab.com/oer/oer-reveal/repository/archive.tar.gz?ref=d4a72d90ad58f69b60f4962b49fbd409fd554c90': HTTP error 400\n"
+   ]
   },
   "stable": {
    "version": [
     2,
-    2,
-    2
+    3,
+    1
    ],
    "deps": [
     "org-re-reveal"
    ],
-   "commit": "c479f62c16e2658d70b9f054dcec8810151fef60",
-   "sha256": "1n4pnf8bfqsbhsf04yl3469sp29wpl5c23kcjapps6yw26wpxivb"
+   "commit": "d4a72d90ad58f69b60f4962b49fbd409fd554c90",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "error: unable to download 'https://gitlab.com/oer/oer-reveal/repository/archive.tar.gz?ref=d4a72d90ad58f69b60f4962b49fbd409fd554c90': HTTP error 400\n"
+   ]
   }
  },
  {
@@ -72493,16 +72509,16 @@
   "repo": "abo-abo/pamparam",
   "unstable": {
    "version": [
-    20200305,
-    2014
+    20200306,
+    916
    ],
    "deps": [
     "hydra",
     "lispy",
     "worf"
    ],
-   "commit": "3ca7ba0d5fed82afa6ba31d127bb3f7cc27bde7c",
-   "sha256": "1bss48978cdaav29ppirm26059fvacj19p78p5c3bv0007sb1djl"
+   "commit": "f5ce8337e6b6663571da4532dcc1e5a221b3e4a6",
+   "sha256": "1wcvlaccdcrxafndwgkmqs6382qhm6m29nm2lbs554r5vgp99vir"
   }
  },
  {
@@ -79165,8 +79181,8 @@
     20170402,
     1255
    ],
-   "commit": "121e20424cb93d4431d8603bb3fd3640c9e8c817",
-   "sha256": "026b2id98srkyhg3d5ssfc0wz27894cd66pv2xp5hbddafjbx4lr"
+   "commit": "8d6a4717f35f10e5b78e7133dcf43c44d12c8f21",
+   "sha256": "1cn3cywvq4k0xsfmpbw341i2vqm01cxcvnjxpqn0vvhhhrrdv196"
   }
  },
  {
@@ -89001,11 +89017,11 @@
   "repo": "cjohansson/emacs-ssh-deploy",
   "unstable": {
    "version": [
-    20190917,
-    530
+    20200306,
+    1012
    ],
-   "commit": "93a0e189a06d49b03627c65fe77652bee9f129d4",
-   "sha256": "1ijmnn3f6ymm04fbp6xmsvc1nrxgcj0k90462ffyl6adbzv4f82a"
+   "commit": "1bb2f821d4a78d483c147759348a29531486cdc4",
+   "sha256": "1d79lgl7082fkawl08qlykc7x75whdikk899fv5shbbrwp7hq3l3"
   },
   "stable": {
    "version": [
@@ -92346,8 +92362,8 @@
     20200212,
     1903
    ],
-   "commit": "ce7b27bb8240cbab80420d56a4ac3ffa3bc341de",
-   "sha256": "17i6chpxswqiq8i5skfrzsf81x0irmds557s80yr5aa90gwlkhvf"
+   "commit": "11c3570936d181831875587c9b767a9d1d90a4f6",
+   "sha256": "12pga7vnzpdmpf8zms25ywzi6v17jvs8h0z5zhz6dinygjxchs50"
   },
   "stable": {
    "version": [
@@ -92695,11 +92711,11 @@
   "repo": "xuchunyang/tinypng.el",
   "unstable": {
    "version": [
-    20190620,
-    942
+    20200306,
+    911
    ],
-   "commit": "5910738ce129d93789c98f5722d33d1f40d15afc",
-   "sha256": "1mgq8hspkhq6iz84850s9rq0xkhla28dlvcjj0cip4s3npw5fdan"
+   "commit": "f7632e073ce13ef5ce30ae5584cb482a8bb9ffff",
+   "sha256": "1ywhj03j64pp2qmsp2g08xr7pq2qx3i0iwly2hl89hig87va0dpl"
   }
  },
  {
