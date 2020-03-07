@@ -8517,7 +8517,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
    ]
   }
  },
@@ -35196,13 +35196,13 @@
   "unstable": {
    "version": [
     20200307,
-    529
+    943
    ],
    "deps": [
     "seq"
    ],
-   "commit": "f120299c6ca95426ca4285c2a7a36c12ae2d30a0",
-   "sha256": "1a1r2m991d0glmb8nvbbaxjmsmr0a64z12rv0hkz1q8binwbhzch"
+   "commit": "c3f70903327659cd307f9a8225b5c4310cfc6e8e",
+   "sha256": "1zavkilkff9gbnl6i5ghc0z93b4k3kv604lyysqnc7mvvzf344vc"
   },
   "stable": {
    "version": [
@@ -40787,8 +40787,8 @@
     20190827,
     956
    ],
-   "commit": "74465859154314228482b4f41fcda726c82c71c9",
-   "sha256": "1q9k7r09y532fcvzjkgcqnk5hdms55hrshawgxhiz3qwxxc3svsi"
+   "commit": "ef110d14cfd5114e91e58c8b3f168e279abc17e5",
+   "sha256": "05hcmljr8fjqhbk628cv6smbvdz525c4wabd91zairk5v0m5jbfi"
   },
   "stable": {
    "version": [
@@ -57304,7 +57304,7 @@
   "unstable": {
    "version": [
     20200307,
-    602
+    844
    ],
    "deps": [
     "dash",
@@ -57315,8 +57315,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "15fbecb17f864b237bcf79d1a8fcde98f7d6ab23",
-   "sha256": "0jh8l4y8zvk590qv40vyzqxgvh8r8za3jp0kv9yi0sblf8dz30nm"
+   "commit": "af254138757b589654ce834915920f286ea6d4a8",
+   "sha256": "0nqmjpjgsrhhbhg8cpcpxlbj9kd212zpzgv68phyagm3rv5kcnjm"
   },
   "stable": {
    "version": [
@@ -57525,8 +57525,8 @@
   "repo": "emacs-lsp/lsp-ui",
   "unstable": {
    "version": [
-    20200306,
-    1913
+    20200307,
+    835
    ],
    "deps": [
     "dash",
@@ -57534,8 +57534,8 @@
     "lsp-mode",
     "markdown-mode"
    ],
-   "commit": "19cf8795cf38881e26c32edf2718843b93b85fe8",
-   "sha256": "08sj9v2zm9n3dml8qj080jn4znbbb44llzdbhy2z5r0vqlpxdlmy"
+   "commit": "7d23fd405e9e45056bd07deb253bc161719b8b1d",
+   "sha256": "1xdsggn0mhdzj0j0yig36p3waybridfl1z1r34507faycf8pm756"
   },
   "stable": {
    "version": [
@@ -79166,8 +79166,8 @@
     20170402,
     1255
    ],
-   "commit": "8d6a4717f35f10e5b78e7133dcf43c44d12c8f21",
-   "sha256": "1cn3cywvq4k0xsfmpbw341i2vqm01cxcvnjxpqn0vvhhhrrdv196"
+   "commit": "e964c89cd6e0296b4c52e5b5b316b957dc6a21f8",
+   "sha256": "1gzwbavp496hj6c2q6ypgz654mp9vna7d3v7jg6cmbpxwf56d5lh"
   }
  },
  {
@@ -79758,8 +79758,8 @@
     20200304,
     1835
    ],
-   "commit": "2cf8e1d2c1d0f0eaba951a1e59a05a7ed02cdb89",
-   "sha256": "019snmiw8wl819j7apf9534j5f4z5j83l8j0ac9rr3hx5sqy7smx"
+   "commit": "497c281fce65c671aa2bfe780aea5dff4f097d13",
+   "sha256": "05k096qky4hn9m27gv3pri95mhn57m0vl8lp8phz5br9gm1isp9h"
   }
  },
  {
@@ -79770,15 +79770,15 @@
   "repo": "quelpa/quelpa-use-package",
   "unstable": {
    "version": [
-    20190210,
-    1838
+    20200307,
+    805
    ],
    "deps": [
     "quelpa",
     "use-package"
    ],
-   "commit": "207c285966382a1f33681f6ac2d7778d4b21cb21",
-   "sha256": "01hzxfy8l1aqlfyj01p0b6pdzlm2vbc5r00skamx6id3s6qg1d9i"
+   "commit": "dd908f046ba789e12db325f9e1a68a40e907848e",
+   "sha256": "1949r6czxjbxqkylfwb62lhfzsj02i6i4igcylfvmip4k188cqxd"
   }
  },
  {
