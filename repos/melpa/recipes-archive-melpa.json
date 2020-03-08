@@ -3886,6 +3886,36 @@
   }
  },
  {
+  "ename": "auctex-cluttex",
+  "commit": "d08e481ad618a44f9bfa38c68ca30e67a6727538",
+  "sha256": "05cbiihq0k9d13l8xgd67yanxmj57hajcm2x2v3ils3lfkphqm5w",
+  "fetcher": "github",
+  "repo": "tsuu32/auctex-cluttex",
+  "unstable": {
+   "version": [
+    20200221,
+    1011
+   ],
+   "deps": [
+    "auctex"
+   ],
+   "commit": "f6dc92a1c0b96d55b145ee901d716a320c01bda6",
+   "sha256": "0kcbwmjmc1adsqb3x2vpsb58grihgwzjsnrbryg1zv6kzb9hpsl3"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    0
+   ],
+   "deps": [
+    "auctex"
+   ],
+   "commit": "e358f7148092d8ed64703641b5621e130cce458d",
+   "sha256": "1whzcp9wvpwn1c33n7mqxx8v6g4apg3cq5h2ffl74423ysymry71"
+  }
+ },
+ {
   "ename": "auctex-latexmk",
   "commit": "3f48af615c56f093dff417a5d3b705f9993c518f",
   "sha256": "1rdlgkiwlgm06i1gjxcfciz6wgdskfhln8qhixyfxk7pnz0ax327",
@@ -7291,16 +7321,16 @@
   "repo": "rmuslimov/browse-at-remote",
   "unstable": {
    "version": [
-    20200127,
-    145
+    20200308,
+    639
    ],
    "deps": [
     "cl-lib",
     "f",
     "s"
    ],
-   "commit": "aeee6bf38f78aaed5dd2efd6305f30a7594e3060",
-   "sha256": "1hp61vd5vxgyz61l8h59v9yvadpqzrc3ihsd731gl1k9siajg8q2"
+   "commit": "771a3079e27f397d2f5a9470b945980fa68ee048",
+   "sha256": "0bx4ns0jb0sqrjk1nsspvl3mhz3n12925azf7brlwb1vcgnji09v"
   },
   "stable": {
    "version": [
@@ -8517,7 +8547,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
    ]
   }
  },
@@ -10984,8 +11014,8 @@
     20190710,
     1319
    ],
-   "commit": "8f122b45570e8357886df115d78007c4ea437daa",
-   "sha256": "16ghfnc46n5vn38mwlfwz0xgnxyh3646i2m67cn3cj0ggrj6mrgm"
+   "commit": "1bb7474abac4eb3aa7dd1b52d9d09d2205e104f3",
+   "sha256": "1kjmm1w5gasg23zkrn6cmqryhbggm7b139svqwb9vphp7w35vxij"
   },
   "stable": {
    "version": [
@@ -19445,8 +19475,8 @@
     20200307,
     2153
    ],
-   "commit": "99d7306901ceb72eccafbd1eb653ccbcd3ae27ef",
-   "sha256": "0z2zw3b4pimj8l2d19syl5zib0fpghshzh8xahrm3cgi667cdr20"
+   "commit": "02cf1817f8d17899ec7e8f60a865fa46516bcbcc",
+   "sha256": "13c3dd9f3srf1jn2rxmk200582x0731j8v74bi7jp20v8nl1k1ig"
   }
  },
  {
@@ -51251,14 +51281,14 @@
   "repo": "Yevgnen/ivy-rich",
   "unstable": {
    "version": [
-    20200214,
-    504
+    20200308,
+    331
    ],
    "deps": [
     "ivy"
    ],
-   "commit": "af43abad5c87b44a46ce74d57e54cad5112c22eb",
-   "sha256": "0qa6kj88dh4vrxiyxrd7jg231hkmw7mfk96jvxqyldvsagp5ybcc"
+   "commit": "0f22aff4c7d7d01bb11561578f5fcd7a2eaa7058",
+   "sha256": "0d8q58k5j0vzq8m2z7kc597ks93hq1x98svjkqzlvnak241yzkim"
   },
   "stable": {
    "version": [
@@ -57355,8 +57385,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20200307,
-    2139
+    20200308,
+    730
    ],
    "deps": [
     "dash",
@@ -57367,8 +57397,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "53bc160f0337877f1314fa6eb4835f2dbf52da4b",
-   "sha256": "0wkm98xmaiczcma9ijlsabkaifjpb8lk5rahv46k7ksccia8xadc"
+   "commit": "73ec64a3453ad3b66fe2bc1437ee91a63225d2e3",
+   "sha256": "1jd48ca927s97m09arsdmadfwa9plv8k9h2nm4g2vlfzalm78xvp"
   },
   "stable": {
    "version": [
@@ -60970,11 +61000,11 @@
   "repo": "jlpaca/minsk-theme",
   "unstable": {
    "version": [
-    20200102,
-    1829
+    20200306,
+    1220
    ],
-   "commit": "c8450fc74400adc5a37b9e45a7a0bb58a103ebb3",
-   "sha256": "0gwygnpcqcx2dh0n4rfhx1i0s1hyq93v1wrzjdjcy004nnz70c5c"
+   "commit": "0e86f8225036430f6cd91297f2aa8213e3d23061",
+   "sha256": "1lx1wpk4f22mrqaa9y3w280ji3zj0c85cgfpx0nyacwjbzd37kh5"
   }
  },
  {
@@ -61423,11 +61453,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20200306,
-    1534
+    20200308,
+    411
    ],
-   "commit": "7c3451eebdb41f163035f68aec6c08d9e346f8c7",
-   "sha256": "072la0l8nh77ksjiq79178jzamlhhx0k00am6wkhj379xl8kmlil"
+   "commit": "4d977158b5b6684db8552f06afb0f3bbb8ba90ab",
+   "sha256": "0zahcdmq792dxq1lprh5787agaclx5bwlczsniy7v8ifwrqlyfvm"
   },
   "stable": {
    "version": [
@@ -61447,11 +61477,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20200306,
-    1534
+    20200308,
+    411
    ],
-   "commit": "7c3451eebdb41f163035f68aec6c08d9e346f8c7",
-   "sha256": "072la0l8nh77ksjiq79178jzamlhhx0k00am6wkhj379xl8kmlil"
+   "commit": "4d977158b5b6684db8552f06afb0f3bbb8ba90ab",
+   "sha256": "0zahcdmq792dxq1lprh5787agaclx5bwlczsniy7v8ifwrqlyfvm"
   },
   "stable": {
    "version": [
@@ -69796,10 +69826,10 @@
  },
  {
   "ename": "org-superstar",
-  "commit": "61c974b74b1e4f5c9c47081e961807b1e8d2afc4",
-  "sha256": "1nrjilsdni31kj0vb10smw3pr8pmhydlbf3jfnkilxfm23y4bvj9",
+  "commit": "1e49a3cc1006f271ce53f03717b0484a4fd89957",
+  "sha256": "0rbmrdc7ghcwk5y4jkgf7axwknck85l4xl03kwbkmnac0w98zzlj",
   "fetcher": "github",
-  "repo": "dw-github-mirror/org-superstar-mode",
+  "repo": "integral-dw/org-superstar-mode",
   "unstable": {
    "version": [
     20200308,
@@ -79124,7 +79154,7 @@
   "unstable": {
    "version": [
     20200308,
-    107
+    311
    ],
    "deps": [
     "async",
@@ -79132,8 +79162,8 @@
     "pyim-basedict",
     "xr"
    ],
-   "commit": "5b067ba20ff682139db12f8ee042a3fac1e98464",
-   "sha256": "0s3j8rrb18z6rxrvafkfpp8lw7041sb1b6i64s5scy9yvpd3d0g8"
+   "commit": "e2582b94745f147e692a515094e845e9fbfa86a0",
+   "sha256": "196wfr9dc3yby1f2x90pzksp2jvbn85v7zwd6c491vmpm9cc3msm"
   },
   "stable": {
    "version": [
@@ -87837,6 +87867,26 @@
    ],
    "commit": "93412f211fad7dfc3b02aa226856fc52b6a15c22",
    "sha256": "06zqs7p22h1jkm3zs1i16wvch6rnzzb3m8d5r9r51clzpasf6zy8"
+  }
+ },
+ {
+  "ename": "somafm",
+  "commit": "6003d09cefb7da19baa39b6c4a96d265844abbce",
+  "sha256": "1p3ngn8rfbwvgfnpx4x6g5wspicxh9mmvlsrbax6a7whx0y1bg4f",
+  "fetcher": "github",
+  "repo": "artenator/somafm.el",
+  "unstable": {
+   "version": [
+    20200224,
+    48
+   ],
+   "deps": [
+    "cl-lib",
+    "dash",
+    "request"
+   ],
+   "commit": "b143b5c6161e3760f42a7a5405f5f7e97079e09a",
+   "sha256": "01ak3sr2hp2mmn81j1qdgyvrm9np979fpg2ngbnijnb8ai3gn30f"
   }
  },
  {
