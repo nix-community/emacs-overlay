@@ -8517,7 +8517,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
+    ""
    ]
   }
  },
@@ -15818,8 +15818,8 @@
     20190111,
     2150
    ],
-   "commit": "a8cb127df0cb970b00a8f58797740ef571dc8817",
-   "sha256": "1682sr6gcvxyn53jz7v7b04za3wcknm1sr42cw0y9ynxd67s8c6a"
+   "commit": "bf6cd7a03e85aded0c3c254fda398cf31b7426e5",
+   "sha256": "18prhxv66jk200dbfnj87fvjfi5m0xygpl71wmph54810ygrhqip"
   },
   "stable": {
    "version": [
@@ -19442,11 +19442,11 @@
   "repo": "progfolio/doct",
   "unstable": {
    "version": [
-    20200304,
-    1925
+    20200307,
+    2133
    ],
-   "commit": "e3a8b4acd46cb896ecf3c88cbf3835f18b02f688",
-   "sha256": "1s9iqjk79zd49g1dcvjws66kldn6niq0x8dr2xdx6yqxmjpvi337"
+   "commit": "5123c12e44831f5aed990eec399b422b74554383",
+   "sha256": "0fffgx0jhk3hrb4nyll4v8i5g8pzngc7a9zrjf9h5xmx5mmh06vf"
   }
  },
  {
@@ -21876,8 +21876,8 @@
   "repo": "millejoh/emacs-ipython-notebook",
   "unstable": {
    "version": [
-    20200305,
-    1454
+    20200307,
+    2048
    ],
    "deps": [
     "anaphora",
@@ -21887,8 +21887,8 @@
     "request",
     "websocket"
    ],
-   "commit": "fbe1833c5e21a25ccdfe8e12cd9564461c9add3b",
-   "sha256": "0k92xw11yw8flcn266ywgqqbf9z18jkdyir0pls84wpv2q382w8k"
+   "commit": "b265205a5735f7727336f483001cd2bdb9fc7a4e",
+   "sha256": "1b2ydpp9kh3a64if2fz6dky4mz3ifd7am7gms5508aj0757mzy4m"
   },
   "stable": {
    "version": [
@@ -28712,6 +28712,19 @@
    ],
    "commit": "4ecc355dae9c7d648cd2874e01a15dfa02b9350d",
    "sha256": "1v444nfrzz0lkybrgfics5kc8gncbvvs23qlq1pkz7ann6q84ip0"
+  },
+  "stable": {
+   "version": [
+    0,
+    2,
+    1
+   ],
+   "deps": [
+    "doom-themes",
+    "ewal"
+   ],
+   "commit": "732a2f4abb480f9f5a3249af822d8eb1e90324e3",
+   "sha256": "09dgs0g5hcf5hris8i1w6w7wxarzmsagyc3l50rflvxy3djhlbkd"
   }
  },
  {
@@ -35657,8 +35670,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "fe83a4a164803622af8154c0463c85b5158ba176",
-   "sha256": "1wzw6xl5i7nnzrkxpjzc3ah5j4s654sib7r6m2izin2vx3kdx3xn"
+   "commit": "37871d87f4fb3ff2067d61e864fb16c49263a82e",
+   "sha256": "1936iamjhmx0khhjkhcsrimpfvyal9428ysfyndksc5rv4bqab81"
   },
   "stable": {
    "version": [
@@ -47684,11 +47697,11 @@
   "repo": "nflath/hungry-delete",
   "unstable": {
    "version": [
-    20200306,
-    2210
+    20200307,
+    2000
    ],
-   "commit": "96dc8a1d653be060d9c21963d538413db1237c96",
-   "sha256": "0n4cbdy5l3g1wmqycxl14pbaczxdyqn1jwl7gib573qq89f0l0g3"
+   "commit": "fe773607ee18c76f34831999a635d46a8a188264",
+   "sha256": "065cqbg06jdhzxcyb8snkan7w2l3sim5j2m4pn92cyj12swxklcs"
   },
   "stable": {
    "version": [
@@ -57299,7 +57312,7 @@
   "unstable": {
    "version": [
     20200307,
-    1725
+    2139
    ],
    "deps": [
     "dash",
@@ -57310,8 +57323,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "fc53f1b26c789dc74cdd0a090ce4899d7e10478f",
-   "sha256": "0q53lrmfcjxxb7rrwq9avxhj8394ddjwbp6xf4v6wf87jvspb8ja"
+   "commit": "53bc160f0337877f1314fa6eb4835f2dbf52da4b",
+   "sha256": "0wkm98xmaiczcma9ijlsabkaifjpb8lk5rahv46k7ksccia8xadc"
   },
   "stable": {
    "version": [
@@ -59608,6 +59621,21 @@
   }
  },
  {
+  "ename": "masm-mode",
+  "commit": "3f1961f11a811045095db15d650eae7469d8670c",
+  "sha256": "0zlc8gc0xdqgzs1ywix236wh5nfnsmab9s9x1hpfpzkg6sjzv8wr",
+  "fetcher": "github",
+  "repo": "YiGeeker/masm-mode",
+  "unstable": {
+   "version": [
+    20200302,
+    1130
+   ],
+   "commit": "4333cfcd8ceb66cf513dc27b8df3030c1b2d1d5b",
+   "sha256": "0jxg7yl41dl56vy41n91vlfd5n8mp9c0jylyk5hyvj8xaiswihc5"
+  }
+ },
+ {
   "ename": "mastodon",
   "commit": "809d963b69b154325faaf61e54ca87b94c1c9a90",
   "sha256": "1bsyf4j6zs9gin0k7p22yv5gaqd6m3vdc2fiagfbs7gxsmhb6p4i",
@@ -60384,6 +60412,21 @@
    ],
    "commit": "4da64b60091c3d7b23c7c5fd3dba981122b0e1f7",
    "sha256": "1jy07b1am1g4hwiwywmi9iyidv3yp933j2y4f9nmfhpb4yjs193y"
+  }
+ },
+ {
+  "ename": "metronome",
+  "commit": "2f77239fecb41487a6aa03e6fc219cba96dee18d",
+  "sha256": "1kkm7s6hiyk3h1bnf9pfnsikmfpp998041wg0bwqnpzhzzlq6fy4",
+  "fetcher": "gitlab",
+  "repo": "jagrg/metronome",
+  "unstable": {
+   "version": [
+    20200305,
+    1511
+   ],
+   "commit": "2ff2a1c96d2a081dccd156a0fd059bd124796979",
+   "sha256": "0z6dnzxf3wsmcfai1kibb9gry3gvs02j2r911f0ipmxx65fyrpig"
   }
  },
  {
@@ -93360,6 +93403,15 @@
    ],
    "commit": "011f420c3496b69fc22d789f64cb8091834feba7",
    "sha256": "1nhbinwv1ld13c0b0lxlvfm9s6bvxcz2vgfccqg45ncg9rx70rsw"
+  },
+  "stable": {
+   "version": [
+    0,
+    2,
+    0
+   ],
+   "commit": "12e523d70ff78cc8868097b56120848befab5dbc",
+   "sha256": "01j4ci0c52r2c31hc9r4p7nsb6s8blmvg50g9n5v5h3afjl1c35v"
   }
  },
  {
