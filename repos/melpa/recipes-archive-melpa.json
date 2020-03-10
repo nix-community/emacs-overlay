@@ -11038,8 +11038,8 @@
     20190710,
     1319
    ],
-   "commit": "df4acef15103f1bd0a6acdfb9bb1783e97ef9c9c",
-   "sha256": "1mjjdkhr99zwgs5rlczxi6xw8kvxpr751xqxl3bn5yidcc6g6hpb"
+   "commit": "268909518f837f4331c758f4ceaec42fbb2def00",
+   "sha256": "1c8xzh4akkk5ankz519g4ba0dn153nc9vna9b27mim8yfal3jfka"
   },
   "stable": {
    "version": [
@@ -25571,8 +25571,8 @@
     20200220,
     2206
    ],
-   "commit": "f26e8ba124d7ca88b3769b7d9442bb615916f33f",
-   "sha256": "0xsjamkydchwdlldpavn6y986js7gss7wcil0zdmzp4vpyk8rl9i"
+   "commit": "93ed052e1e86428454b2b124de9145e061a437bb",
+   "sha256": "0pa4pzwyandmn1imgbgx3n5fvnvk4y293n49ag0jj6wg8wv2yq2s"
   },
   "stable": {
    "version": [
@@ -53122,11 +53122,11 @@
   "repo": "JuliaEditorSupport/julia-emacs",
   "unstable": {
    "version": [
-    20200309,
-    920
+    20200310,
+    1429
    ],
-   "commit": "8bfc709716a257521cb386f20b8932e83db930a9",
-   "sha256": "1w131jb9mhvyjxa0p93iwfhzidgbcs6b8i6jg79yisqb9wchik99"
+   "commit": "b800403fada2b83bc98d6006cfd370e0cfd7876f",
+   "sha256": "1ay4wm303qh48h6g75di66w2f2smg5dnlqv40dgx4nhkyi68wrvg"
   },
   "stable": {
    "version": [
@@ -61537,8 +61537,8 @@
     20200309,
     1823
    ],
-   "commit": "efb3ed4dc17383cf9318030ab1fd9a45abe6287f",
-   "sha256": "1pghagr3jxvpxsmjjbh0mgf4imqv7b2jr8mi1hd9krbch71266xl"
+   "commit": "9ef3b88bd9f9a035baaf7295f5a1e9aa65f13aa5",
+   "sha256": "08yl8m64ilnpa5agcncv8pm008zh739nssacj7wv2j12q4wjmcgm"
   },
   "stable": {
    "version": [
@@ -61561,8 +61561,8 @@
     20200309,
     1823
    ],
-   "commit": "efb3ed4dc17383cf9318030ab1fd9a45abe6287f",
-   "sha256": "1pghagr3jxvpxsmjjbh0mgf4imqv7b2jr8mi1hd9krbch71266xl"
+   "commit": "9ef3b88bd9f9a035baaf7295f5a1e9aa65f13aa5",
+   "sha256": "08yl8m64ilnpa5agcncv8pm008zh739nssacj7wv2j12q4wjmcgm"
   },
   "stable": {
    "version": [
@@ -69876,8 +69876,8 @@
   "repo": "alphapapa/org-super-agenda",
   "unstable": {
    "version": [
-    20200309,
-    2336
+    20200310,
+    1337
    ],
    "deps": [
     "dash",
@@ -69886,8 +69886,8 @@
     "s",
     "ts"
    ],
-   "commit": "bdf23c688fdc3eacf2b29df1edb9b0d86efea92f",
-   "sha256": "15pk54cysx75bd0vm7lzm0d1bdv865v5qigfmh4ib8q7ry35i9kv"
+   "commit": "dd0d104c269fab9ebe5af7009bc1dd2a3a8f3c12",
+   "sha256": "0kx9sikk7c3j0zp3a31kj8zv2kjxqjhhl25n7c7nslf2fp5w2d8b"
   },
   "stable": {
    "version": [
@@ -79389,8 +79389,8 @@
     20170402,
     1255
    ],
-   "commit": "e964c89cd6e0296b4c52e5b5b316b957dc6a21f8",
-   "sha256": "1gzwbavp496hj6c2q6ypgz654mp9vna7d3v7jg6cmbpxwf56d5lh"
+   "commit": "78adea9f4485660eb14dc1c6954de445e76ba66d",
+   "sha256": "1dw0fn87vdjwvprmafzg1aldc6np8sy21rgcxgsp8xbjy6pi5xgx"
   }
  },
  {
@@ -91579,14 +91579,14 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20200304,
-    1153
+    20200310,
+    1351
    ],
    "deps": [
     "visual-fill-column"
    ],
-   "commit": "9411477d7ec72d37e389bcebc5aa2238ebeca9eb",
-   "sha256": "1s0ik6nljnmzm38ny2z6pa8vdffzjwrnhpajnnmgzvfl94j7sjkc"
+   "commit": "a0e42d3e6f9164713b53bf7913de5bfe03912afe",
+   "sha256": "1fp9h7jd1483gnwrlqj6hsbkflmbywvnabphsz1lklv7xcfha0b1"
   },
   "stable": {
    "version": [
@@ -93280,10 +93280,13 @@
   "stable": {
    "version": [
     2,
-    0
+    2
    ],
-   "commit": "222d5b155dd544cb158b2f84be8ad304b0c69df1",
-   "sha256": "164mip0cibs3c8c4khnbzs8f2pmj57ng5q7hspzv7wk8nvc6d39i"
+   "deps": [
+    "duo"
+   ],
+   "commit": "2fa2c92bf2c66d87ddcd519277e469f67c6615a9",
+   "sha256": "1i5n2f6jdr9p5mdq0g5j0kf19b3kirj00n36qc6nww3kzldwc4c1"
   }
  },
  {
