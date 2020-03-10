@@ -2007,6 +2007,36 @@
           license = lib.licenses.free;
         };
       }) {};
+    modus-operandi-theme = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "modus-operandi-theme";
+        ename = "modus-operandi-theme";
+        version = "0.6.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/modus-operandi-theme-0.6.0.el";
+          sha256 = "10smvzaxp90lsg0g61s2nzmfxwnlrxq9dv4rn771vlhra249y08v";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/modus-operandi-theme.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    modus-vivendi-theme = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "modus-vivendi-theme";
+        ename = "modus-vivendi-theme";
+        version = "0.6.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/modus-vivendi-theme-0.6.0.el";
+          sha256 = "1b7wkz779f020gpil4spbdzmg2fx6l48wk1138564cv9kx3nkkz2";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/modus-vivendi-theme.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     multishell = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "multishell";
@@ -3679,10 +3709,10 @@
       elpaBuild {
         pname = "xr";
         ename = "xr";
-        version = "1.17";
+        version = "1.18";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xr-1.17.tar";
-          sha256 = "0kicy15hww85kf7vii1j4yypa9z44d5vbpm65vwb6fzz0lv639zm";
+          url = "https://elpa.gnu.org/packages/xr-1.18.tar";
+          sha256 = "1nq9pj47sxgpkw97c2xrkhgcwh3zsfd2a22qiqbl4i9zf2l9yy91";
         };
         packageRequires = [ emacs ];
         meta = {
