@@ -3899,8 +3899,8 @@
    "deps": [
     "auctex"
    ],
-   "commit": "2438699e5c46d104a7e41a30302516c7ff065fe1",
-   "sha256": "19f78i30m9pid6xwcvlwxxxd34qybbwkyinzr364rkm3mywjqhzz"
+   "commit": "24270d9452c0b4ae974648cdbcdbad4401f4b1b5",
+   "sha256": "0la88z6g5vf2jq0gk8qfv83mgld1i10q84vn1ihhmnd9sqv99j5s"
   },
   "stable": {
    "version": [
@@ -14742,14 +14742,14 @@
   "repo": "Lautaro-Garcia/counsel-spotify",
   "unstable": {
    "version": [
-    20200119,
-    1340
+    20200315,
+    156
    ],
    "deps": [
     "ivy"
    ],
-   "commit": "d70bdd7e92a138195234e0c002252c8972807e08",
-   "sha256": "1q94cgx86fi6xxys9a5j31mg10sg5ds2s8xljp71a3g1hcwk7vkw"
+   "commit": "51315644440c648b5aada68d5461a5c0b3b58797",
+   "sha256": "1xnzwbn4bf6id8mr804y367rms7g00dlw100kapmwiqmyzshgvb8"
   }
  },
  {
@@ -41391,11 +41391,11 @@
   "repo": "haskell/haskell-mode",
   "unstable": {
    "version": [
-    20200221,
-    1959
+    20200315,
+    140
    ],
-   "commit": "35363a98445e27dad532d134d3ce863f8d95dd91",
-   "sha256": "1m3mhvaj5b7vavv507x92mzhm7r4clqs1via8zsza4v3ccbsgjws"
+   "commit": "7032966ee76b23520001af916d9184b4a2d7a689",
+   "sha256": "0mk2fw33j1k8m6w0b6p15n7zl52kbwjda0p2zzvxbhlk3cvqmgd0"
   },
   "stable": {
    "version": [
@@ -64615,6 +64615,28 @@
   }
  },
  {
+  "ename": "nndiscourse",
+  "commit": "1d6a236cd3ff51f2d4cfca114b2791c8ac7411e8",
+  "sha256": "03kfb8c7knnd1n5sxxpldmscbwi5lrnsyh6w2ji4pvaq5xhmrlxb",
+  "fetcher": "github",
+  "repo": "dickmao/nndiscourse",
+  "unstable": {
+   "version": [
+    20200309,
+    242
+   ],
+   "deps": [
+    "anaphora",
+    "dash",
+    "dash-functional",
+    "json-rpc",
+    "rbenv"
+   ],
+   "commit": "2721fdff07d793e0b8019fc1e5d34264a2ef7fad",
+   "sha256": "0052qrwvvvs7zvhfm9sn7ql2mdmnfb7755sx9xxh77vpg9dlz2az"
+  }
+ },
+ {
   "ename": "nnhackernews",
   "commit": "40fec106c676f8207ec9c4553c3ec16c626b098c",
   "sha256": "0nqbfzyb61a80900hg2sqimjvr765a3f94v07by55d1smifzwnff",
@@ -79378,8 +79400,8 @@
   "repo": "tumashu/pyim",
   "unstable": {
    "version": [
-    20200312,
-    936
+    20200315,
+    55
    ],
    "deps": [
     "async",
@@ -79387,8 +79409,8 @@
     "pyim-basedict",
     "xr"
    ],
-   "commit": "6871fb6f765649fd2cfc6af77f4bbf3916c4fdda",
-   "sha256": "0xcs4clbjh2idqvy8xmf8g3acnbbhgpsz151d0qkc674hskyz0x3"
+   "commit": "441557be4cb18b898e744284b54b23c02d6a1ea6",
+   "sha256": "07rdjp6r0niny84wznc0yggr6wdn72c9pnh9gz8a04dn69s57cbc"
   },
   "stable": {
    "version": [
