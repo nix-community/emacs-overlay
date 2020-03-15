@@ -3365,6 +3365,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    vcard = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "vcard";
+        ename = "vcard";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/vcard-0.1.tar";
+          sha256 = "1awcm2s292r2nkyz5bwjaga46jsh5rn92469wrg1ag843mlyxbd0";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/vcard.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     vcl-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "vcl-mode";
