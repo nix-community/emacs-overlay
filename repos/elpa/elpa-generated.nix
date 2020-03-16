@@ -1070,10 +1070,10 @@
       elpaBuild {
         pname = "elisp-benchmarks";
         ename = "elisp-benchmarks";
-        version = "1.3";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.3.tar";
-          sha256 = "05a891mwbz50q3a44irbf2w4wlp5dm2yxwcvxqrckvpjm1amndmf";
+          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.4.tar";
+          sha256 = "18ia04aq4pqa8374x60g3g66jqmm17c6n904naa0jhqphlgam8pb";
         };
         packageRequires = [];
         meta = {
