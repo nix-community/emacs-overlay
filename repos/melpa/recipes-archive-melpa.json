@@ -3272,10 +3272,10 @@
   "unstable": {
    "version": [
     20200316,
-    910
+    1916
    ],
-   "commit": "46ed27452d8c2cd97909635510b0123284941b26",
-   "sha256": "0rd3fwzqmjj5jhp39b55i0w8xqp8gwwv9g49w852fmzxkypkqqc7"
+   "commit": "ecd8388a6209920af3f77c3b4c01eb5e1c1dfa5d",
+   "sha256": "0ng4ninbqllqnswj8qzvml7fr7g8vmhkhjfzgfsm3d0l9p49r5m6"
   },
   "stable": {
    "version": [
@@ -6999,8 +6999,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "9d89e81f1872987c0b3147786151a79bc456a33a",
-   "sha256": "0fm3sbvizczvg06r1y7x6q43m34kxp3m58mwh4s3fh8mgcnilva1"
+   "commit": "8799c4a953ccfa1893944c4e305f0ab9ad65840f",
+   "sha256": "183ii3m8gjm0kh0dh9b35b9b7k4iy3gm2qr9bpxmv9yhmmbbjwcl"
   },
   "stable": {
    "version": [
@@ -7854,8 +7854,8 @@
   "repo": "alphapapa/bufler.el",
   "unstable": {
    "version": [
-    20200315,
-    2028
+    20200316,
+    2214
    ],
    "deps": [
     "dash",
@@ -7864,8 +7864,8 @@
     "magit-section",
     "pretty-hydra"
    ],
-   "commit": "7db1e5c7e3bf6436bed5917bf811fd0c5c757c2e",
-   "sha256": "0av03f9k393sbag96sl76c1ibx1044brhwsch29936hy6q6np8pz"
+   "commit": "e588256a6223f66eb0caa5779a2d85cbcfc678e5",
+   "sha256": "03jy4cdi95fr8ab6n7db1krkib3k7gam99cbmb5y6pbni82k7clw"
   },
   "stable": {
    "version": [
@@ -12132,10 +12132,10 @@
   "unstable": {
    "version": [
     20200316,
-    1149
+    1918
    ],
-   "commit": "033358c7b03a22668a1e6d81e22580396fe161dd",
-   "sha256": "1svhfl0ifj1xq1dpf7c2nz2rjrxsisszh2a9ckc81550zmf2wxjp"
+   "commit": "d091704665ffb1f6727e0e50eb0250726daf352f",
+   "sha256": "05wsbyx49b0iw6dbv03hqw8dxw9kcdj2106cxdsx9issp05vzm4c"
   },
   "stable": {
    "version": [
@@ -20482,8 +20482,8 @@
     20191016,
     1241
    ],
-   "commit": "e82710fe58e7e2f38a9fde6fa5d40515de6e9e23",
-   "sha256": "0rxh6agcqg956sn17vn9bmzpkz4jvnzw7748yg825y7n86yz3s28"
+   "commit": "fe8019f996c1a1927fe10698f2f1bef92db3d8a3",
+   "sha256": "1hh0i51fjkmzsjqbvx7gvs01vzq2smvhgdkn6lqbn6vghqjbm0a6"
   },
   "stable": {
    "version": [
@@ -22755,10 +22755,10 @@
   "unstable": {
    "version": [
     20200316,
-    1619
+    1956
    ],
-   "commit": "82dc2e96e6febec133f357b6e6ef0c80295828c0",
-   "sha256": "0pm958dz7xh6xpd06kpn0vbjkjq82ssxlz9cv32gfhv599pkyrhw"
+   "commit": "7fa3b78d073c235ad945fc28d692c5f5fb60860a",
+   "sha256": "06cy6dsn3drfk0jkc10b96qzvi5rfhkjy7cib5dk2kqgg615is6d"
   },
   "stable": {
    "version": [
@@ -53458,8 +53458,8 @@
   "repo": "gcv/julia-snail",
   "unstable": {
    "version": [
-    20200315,
-    2349
+    20200316,
+    2051
    ],
    "deps": [
     "cl-lib",
@@ -53470,8 +53470,8 @@
     "spinner",
     "vterm"
    ],
-   "commit": "596f59774edf213c4c4885992dda158de145be03",
-   "sha256": "0x8mlvq264ihhcdbkljhaij6hsvlh8s4fmrd8x970c7i3qi3hh7k"
+   "commit": "a9aa98b69413d2605b617b220547fe5471e996a9",
+   "sha256": "1xmaci0f47c4a17vydwldzkflgq2s8zcjhpb8m1a7dyqaxa0kf47"
   },
   "stable": {
    "version": [
@@ -67914,15 +67914,14 @@
   "repo": "Kungsgeten/org-brain",
   "unstable": {
    "version": [
-    20200229,
-    2229
+    20200316,
+    2105
    ],
    "deps": [
-    "org",
-    "org-ql"
+    "org"
    ],
-   "commit": "6b7fced8015387efd03f28e53be47c3ca8907d7f",
-   "sha256": "01s8cjgxfl5pplswy80qgxisiv7p1kmbq28g3xx1qn2w7pfiyfwa"
+   "commit": "bd8c1ad3b650f2717ab4612f5c09d57129489418",
+   "sha256": "0mvdgjzb2ckax2mcvp05pka3xrq34babksq2bjf3d2i74kwlnq4k"
   }
  },
  {
@@ -71363,8 +71362,8 @@
    "deps": [
     "reformatter"
    ],
-   "commit": "7b1905787de919e671cbd44360688678025c8395",
-   "sha256": "1l2wz4zk9x66cgnl5c6x3ajhz0cmmjmxvwzl1p3bnykygkndiwj6"
+   "commit": "5d991188b511e9d650c84fc578f2f49c9f995693",
+   "sha256": "1x5nx064cgcjj99xwp7drcvhfmmav1f72jnwwlxllhas2is458m0"
   }
  },
  {
@@ -93084,8 +93083,8 @@
     20200212,
     1903
    ],
-   "commit": "5f7b4076ff411a625eb4dcebdae239499ec9d610",
-   "sha256": "16dn3k621q4b1vbbkaqvhjsm1fvx35p48ly03fq5azyrjc6dkc36"
+   "commit": "26839dd1585a699787d7b182962a2254ebe377d5",
+   "sha256": "1l6hmjs46b70pq823j8va17q4r4f6hlvsrj22c43iwqr7j5dxqyz"
   },
   "stable": {
    "version": [
@@ -96706,20 +96705,20 @@
   "repo": "federicotdn/verb",
   "unstable": {
    "version": [
-    20200315,
-    2122
+    20200316,
+    2100
    ],
-   "commit": "6b06f2fdd6753d375d784bd249e3cf15472456d8",
-   "sha256": "0xz0pfgpjn9bh841n29rg8ahnzb8fnn24ja7i4k0ibslzf3jwbik"
+   "commit": "085f50c84b7b35f0876e187aaf75b3a6b22a7c75",
+   "sha256": "1607pfzfrk2jbr8ww9kkfbaj7167zg9ngb80qbmlz63my1wjhcfd"
   },
   "stable": {
    "version": [
     2,
     8,
-    1
+    2
    ],
-   "commit": "b2570e4809fc0c97add33b4f2e05e5361750c877",
-   "sha256": "02ikvwcqgma8nzpx13nzdjw3y8dmk2y0d5b3g882i9rp04xs0y1l"
+   "commit": "085f50c84b7b35f0876e187aaf75b3a6b22a7c75",
+   "sha256": "1607pfzfrk2jbr8ww9kkfbaj7167zg9ngb80qbmlz63my1wjhcfd"
   }
  },
  {
