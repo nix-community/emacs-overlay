@@ -3272,10 +3272,10 @@
   "unstable": {
    "version": [
     20200320,
-    712
+    1225
    ],
-   "commit": "1e89a32594af78b32b8793c19197f92b135cb97d",
-   "sha256": "042yq88nshhzlcar75gkja20b8wbd71dbcyiilaw4knzrvr28yb5"
+   "commit": "6abf63ca1234e650d482b7816869038290f3c389",
+   "sha256": "1gxjn1qqqky6gh11sghzkghqiszs2jgwfmw6dcnyn0ddx3ria9ar"
   },
   "stable": {
    "version": [
@@ -9412,8 +9412,8 @@
     20171115,
     2108
    ],
-   "commit": "e733a73032f4f89d26e1a77167a0c0da2cadb95f",
-   "sha256": "0qglh0zsv2r1m971j6zkc9p6vpilngx6pikwxayydpi99hwvrzyl"
+   "commit": "53343b432d2f3cb7f24c917d1fa8b17deb2d1ac0",
+   "sha256": "1qjwp7qga3lkk1yqybgv4v0b5a5fab6ng516vsa71hwzhip78d8m"
   },
   "stable": {
    "version": [
@@ -10856,10 +10856,10 @@
   "unstable": {
    "version": [
     20200320,
-    823
+    955
    ],
-   "commit": "5869cc628dac21badc10c34d2c9a970a0f893266",
-   "sha256": "079dz615xxby47kl4lzwxyllhlcyvnd3jqnkl1i9ifjqdn70bi88"
+   "commit": "64ed0434df565430c5418c19fe2f6250a409a0df",
+   "sha256": "0zkzqp2w4vrw4ddvwha3hjs3dqs0rj116l61m6snnzy6ahwzxb08"
   },
   "stable": {
    "version": [
@@ -10885,8 +10885,8 @@
    "deps": [
     "clojure-mode"
    ],
-   "commit": "5869cc628dac21badc10c34d2c9a970a0f893266",
-   "sha256": "079dz615xxby47kl4lzwxyllhlcyvnd3jqnkl1i9ifjqdn70bi88"
+   "commit": "64ed0434df565430c5418c19fe2f6250a409a0df",
+   "sha256": "0zkzqp2w4vrw4ddvwha3hjs3dqs0rj116l61m6snnzy6ahwzxb08"
   },
   "stable": {
    "version": [
@@ -11188,19 +11188,17 @@
     20190710,
     1319
    ],
-   "commit": "9bbea2344b058734047b0c889b2a6dae13c85cec",
-   "sha256": "14czbysh5zgr7rj4k3aizm6xyjh6r8z09f1x6qj36jv24rc7qhm8"
+   "commit": "9c3dddb4f5a761b0d1169f7d56c2089e2a24f98b",
+   "sha256": "12413rgqd579m5zpi5k2rkkg2ljbvwr04ibxdh8k4zl88gcjhdfk"
   },
   "stable": {
    "version": [
     3,
     17,
-    0,
-    -1,
-    3
+    0
    ],
-   "commit": "1ec72e09471287630cf142d8587a9b8d9abad629",
-   "sha256": "1r0cqv2vfyswzhbh1ydq6g0vkhkhyz3mwhm0irlc22sfxj2dy56y"
+   "commit": "e3185e3d1b92a95c18f22f70b3cef6944dd019eb",
+   "sha256": "1r8nnaisx10d5r3kzyfz4af9mwb5f0nzz8nmn3xvnr12rryg2bwl"
   }
  },
  {
@@ -19862,14 +19860,14 @@
   "repo": "hlissner/emacs-doom-themes",
   "unstable": {
    "version": [
-    20200319,
-    1259
+    20200320,
+    1253
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "f7bbf77a50084d842df0e24e65dfb36fecd23b89",
-   "sha256": "0rdav4cv9f0hqrfzjrfjca6l59ayq83xw7i0ynynb8xx2cyk0w91"
+   "commit": "92493e65039c7cadd17e3ba645ed10eea7c243f0",
+   "sha256": "1r1mbkcyi47jlc93m8ysh31a6dn6pw93i0p6hki3zf8c3j65pimx"
   },
   "stable": {
    "version": [
@@ -25799,8 +25797,8 @@
     20200313,
     1030
    ],
-   "commit": "be01e1fc012271a0fa40db18fa263021433552ab",
-   "sha256": "1rb7liv3g0v1wlsaaq358px02d26amb617q614wrs0cpj1bp172s"
+   "commit": "2f6f98af5425dbd8aeee1622c73613db299f1fdd",
+   "sha256": "00hl27babyfczic4lldlm66x2f6xsqfryhpbgx6v3dh9x75wx98i"
   },
   "stable": {
    "version": [
@@ -28311,14 +28309,14 @@
   "repo": "porras/evil-ruby-text-objects",
   "unstable": {
    "version": [
-    20200319,
-    1911
+    20200320,
+    935
    ],
    "deps": [
     "evil"
    ],
-   "commit": "60d3167327736ffe1c550447e24900f070b0066e",
-   "sha256": "11b5cxqiq239as072an7jkwfiy8m3y36kqqfn9132py7kj225mgv"
+   "commit": "4c6b4df0f980a96ecf43a4d4de15a514e668355b",
+   "sha256": "07x5g5rvqjyf2ps1258whsvklyrfv86zpnhf0i9095mvlmk23qrh"
   },
   "stable": {
    "version": [
@@ -31443,8 +31441,8 @@
   "repo": "flycheck/flycheck",
   "unstable": {
    "version": [
-    20200319,
-    2026
+    20200320,
+    1402
    ],
    "deps": [
     "dash",
@@ -31452,8 +31450,8 @@
     "pkg-info",
     "seq"
    ],
-   "commit": "acf7589121cda7f6d1bf05028b8c257a50c0fdae",
-   "sha256": "17qfrl1r335zd3kwk2b4lapa6389g923qnr9ay2xwvk7sq8x7w9a"
+   "commit": "93491d26aed63d2860c6a6991bcdba57344b44c0",
+   "sha256": "04k3wsc66sii6hp0fhpkvwhgxkfxvsdx8ixiwvg3n16rgs2xwbbm"
   },
   "stable": {
    "version": [
@@ -60727,14 +60725,14 @@
   "repo": "abrochard/mermaid-mode",
   "unstable": {
    "version": [
-    20200221,
-    1938
+    20200320,
+    1357
    ],
    "deps": [
     "f"
    ],
-   "commit": "833abce1fb232b7dbeac0ee568afe8c468077029",
-   "sha256": "0znc9sv5xv0bqq4szcaz6nlxypijqm5lmi0igkcpibry6bwfipgj"
+   "commit": "a5b16bc4308e2a520711c2ef8a964e269115cbf7",
+   "sha256": "150a69rn0wkfb0bmyx21vywh7vcd5a3yfi7i9jgp8zf8hfclsymg"
   }
  },
  {
@@ -66352,11 +66350,11 @@
   "repo": "arnm/ob-mermaid",
   "unstable": {
    "version": [
-    20200311,
-    2111
+    20200320,
+    1504
    ],
-   "commit": "06ca38e963475542dbf48e416a820c21e1441f28",
-   "sha256": "12g221bcw04gzq7w60j2i2yhqxpy783b5zp38xdyqg34hnk0p1ji"
+   "commit": "cca09b64eff689d8bb15a77de9d4c7fe9845a1f9",
+   "sha256": "1wwmf14df2rnxlfs8bwb9p4q1a1plschbq2g9vqflphj6kv213m4"
   }
  },
  {
@@ -67060,11 +67058,11 @@
   "repo": "rnkn/olivetti",
   "unstable": {
    "version": [
-    20200311,
-    527
+    20200320,
+    1154
    ],
-   "commit": "67e32a7754cda4c8d94227e80bfa708abb4e8e6d",
-   "sha256": "0928kn9yfwc2mhmja13y39iswlkk474xnszh9qza206j6r37h6p3"
+   "commit": "5dc27716c706166e1932f4a0e9f94384b6d17cb0",
+   "sha256": "0im6ds8mvnwfrh3z0cd05g32w9rklhl56xmhzl9i2180pv6qwil8"
   },
   "stable": {
    "version": [
@@ -79639,7 +79637,7 @@
   "unstable": {
    "version": [
     20200320,
-    342
+    1126
    ],
    "deps": [
     "async",
@@ -79647,8 +79645,8 @@
     "pyim-basedict",
     "xr"
    ],
-   "commit": "b0befc34ce2d98747ba1038a3898e7fd470b3afb",
-   "sha256": "1lvfw2mk1n6i39nwmb3n01qjvjryq0785w58a68cjv0yyfdcwf18"
+   "commit": "77170724fa3c5226c0f7b3f59ad3f408822577a7",
+   "sha256": "121wbvdym7my0fyp2lvwan7z3jyafsbc1lq2n9i3zvgwam027wnx"
   },
   "stable": {
    "version": [
@@ -82784,11 +82782,11 @@
   "repo": "a13/reverse-im.el",
   "unstable": {
    "version": [
-    20200319,
-    1220
+    20200320,
+    1502
    ],
-   "commit": "ba8da7d5eed5dff6c79809cc34d1212a932e43f7",
-   "sha256": "0j69z920z8x1dkiml1qz5nyfb72bsg4bbjm35qrq10xi0df0rxi2"
+   "commit": "383b2e173c68b1c5411213b063c84b40ed839948",
+   "sha256": "13p96yw8v18l1cxfqyqp3c4gd84fiidyqc9di3vs25s5yhdid2qb"
   }
  },
  {
