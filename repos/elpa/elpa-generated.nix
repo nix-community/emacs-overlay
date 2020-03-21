@@ -3056,10 +3056,10 @@
       elpaBuild {
         pname = "sql-indent";
         ename = "sql-indent";
-        version = "1.4";
+        version = "1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sql-indent-1.4.tar";
-          sha256 = "1nilxfm30nb2la1463729rgbgbma7igkf0z325k8cbapqanb1wgl";
+          url = "https://elpa.gnu.org/packages/sql-indent-1.5.tar";
+          sha256 = "07k5rn9hbxppnka7nq0a3a6zyqqa1hp8j6qrb344js6zyak0cb63";
         };
         packageRequires = [ cl-lib ];
         meta = {
