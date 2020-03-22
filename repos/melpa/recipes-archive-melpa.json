@@ -8722,7 +8722,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
    ]
   }
  },
@@ -10840,11 +10840,11 @@
   "repo": "clojure-emacs/clojure-mode",
   "unstable": {
    "version": [
-    20200321,
-    1035
+    20200322,
+    1315
    ],
-   "commit": "5b7ca82067af7ba14a1cc80f5f6529269dcb3655",
-   "sha256": "0z0jcpwpv0frklcp36hjjasihzqyrgsyxr6w5ky3f8qpgfs7zc3z"
+   "commit": "b1ea6def99250693c27df1ad06bc6fe7c7c2f48b",
+   "sha256": "05pja4lj8r2gkszzi53jr66b5qmbg27ggqrp60pfx1qsy36h9c5j"
   },
   "stable": {
    "version": [
@@ -10870,8 +10870,8 @@
    "deps": [
     "clojure-mode"
    ],
-   "commit": "5b7ca82067af7ba14a1cc80f5f6529269dcb3655",
-   "sha256": "0z0jcpwpv0frklcp36hjjasihzqyrgsyxr6w5ky3f8qpgfs7zc3z"
+   "commit": "b1ea6def99250693c27df1ad06bc6fe7c7c2f48b",
+   "sha256": "05pja4lj8r2gkszzi53jr66b5qmbg27ggqrp60pfx1qsy36h9c5j"
   },
   "stable": {
    "version": [
@@ -15917,8 +15917,8 @@
     20200321,
     953
    ],
-   "commit": "783a94e54f87430e0c4bc1a0daa0e14f1118bd44",
-   "sha256": "1yzqn9xp0n34hhfm2iq6d55skbnagm76fn7xm6c9yd776rcyc27j"
+   "commit": "79da15f739984e3ce3e0b137df3634582abb4546",
+   "sha256": "04qjap6wsjd8kdz47bz1a11h1bdn7bmlvfg6y0bqy5yq55f4ampa"
   }
  },
  {
@@ -36697,8 +36697,8 @@
     20200310,
     911
    ],
-   "commit": "b4952890993642c7055f4bbbf05b0384740f8f51",
-   "sha256": "185dw3pav7lgczjl8sndlpy91b5fmmag2a3ca2ahhwr8slvbk91m"
+   "commit": "25eb1278788b942c38405c233d3614a1de92ddea",
+   "sha256": "0nbgbqxmpq6c487yx4igph58zmaslqn7z92x9b1xymw58fnlyrm6"
   }
  },
  {
@@ -43224,16 +43224,16 @@
   "repo": "emacs-helm/helm-emms",
   "unstable": {
    "version": [
-    20200321,
-    1709
+    20200322,
+    1309
    ],
    "deps": [
     "cl-lib",
     "emms",
     "helm"
    ],
-   "commit": "b76694eb58ddc5d3715a56047b2acfed459e8f19",
-   "sha256": "0barpkr0sywv23b0fc3y7z1r2xja5366jcaajlx4g89mrhdlwyrf"
+   "commit": "37e5aa029abfa5a5c48636314de8157142944fa2",
+   "sha256": "0r1ai6xhzayyik30w2sx9n62bxxwm12vfmjspv0daqif9az8y3vg"
   },
   "stable": {
    "version": [
@@ -51765,13 +51765,13 @@
   "unstable": {
    "version": [
     20200322,
-    829
+    1326
    ],
    "deps": [
     "ivy"
    ],
-   "commit": "840e13314774a40b69f10f0a15ce1d6af4187b12",
-   "sha256": "1ra18v6lgz3m6asm6d5b92zn1x22yiz4cwxd9b54dnvwi11121m7"
+   "commit": "596874d1469667f896b83731914d7d4456025553",
+   "sha256": "0yym3l24zzn1yjg3fjkq7lpvpp9w7wi2vl161v53pmg1v94xig6s"
   },
   "stable": {
    "version": [
@@ -57573,8 +57573,8 @@
     20200321,
     2142
    ],
-   "commit": "44009ebf3e557a92f56bc0ae43a31814e02a2997",
-   "sha256": "1r04drbqk552dksszmscziw0z8bd4wq18pa0b63yfdagwkqf1zfi"
+   "commit": "6f53bb3971daad60bd0529d1e3889d5f9fedf235",
+   "sha256": "0xblv8l6krp3581m0xava95pm6wcsjm3rsl47dsvzpgns1kyz8lx"
   }
  },
  {
@@ -85802,8 +85802,8 @@
     20200314,
     2018
    ],
-   "commit": "4fea80f7b04c64b160a95bdc9d6de68c71096706",
-   "sha256": "1cvgf0zn4j2b73v2ws155z8b289camg3wv22r2has2rw37nr62z4"
+   "commit": "7e8c988bea2af209e17b70fa51316ade55529acb",
+   "sha256": "1daz6jss2346a2p30fhc66m230sj7vyxm7jw6zqz5n8h9lqxpjyk"
   }
  },
  {
@@ -87967,15 +87967,15 @@
   "repo": "Fuco1/smartparens",
   "unstable": {
    "version": [
-    20200321,
-    2215
+    20200322,
+    1250
    ],
    "deps": [
     "cl-lib",
     "dash"
    ],
-   "commit": "080126c8f6065af5f0425906f924ed963ef158e0",
-   "sha256": "1v0ln5lws0b6wbp3jaqbdfjdsaj36yqmcylv90k04dh9072aljw8"
+   "commit": "7dc6278b4b72116e84e11ea97de4784850ce8bcd",
+   "sha256": "0rjqs3s7mwx1x7m7j76371rqslwmka57m4bk6gnfmxkcvhfcnz74"
   },
   "stable": {
    "version": [
@@ -89100,11 +89100,11 @@
   "repo": "nashamri/spacemacs-theme",
   "unstable": {
    "version": [
-    20200127,
-    1656
+    20200322,
+    1342
    ],
-   "commit": "e088bff4f190495615c29de93079aaa823e2300c",
-   "sha256": "09p5pzy3ibrl8dxmg10v8j16wxdn1fkdqpbi8l9pgfib2azmnvnc"
+   "commit": "ae79bbd8ca25d09f9396c583d21693ba427b404e",
+   "sha256": "1da2sybdp9v6bqhp2knm6csm58r4yvmvc2396ac5dc2qb1iyfdbz"
   }
  },
  {
@@ -94033,8 +94033,8 @@
    "deps": [
     "web-server"
    ],
-   "commit": "59c6ebbd9544bd0bd4ff59c281ea143e80a4097d",
-   "sha256": "1hn8i8xkka38x2sgjc59050wm4jkvzdxh81nmkkfalj98by3hibz"
+   "commit": "e7ad286224a26b94dfb6a7955244cb71863b4660",
+   "sha256": "1g6i8slz22admpy9zrzc1wclvwmf2cailbha63zh9g92k9wkph08"
   }
  },
  {
