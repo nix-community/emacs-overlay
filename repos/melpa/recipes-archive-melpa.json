@@ -3271,11 +3271,11 @@
   "repo": "dieter-wilhelm/apdl-mode",
   "unstable": {
    "version": [
-    20200323,
-    2146
+    20200324,
+    852
    ],
-   "commit": "a1ed459eccd3a85501a0836cbdcdd9b14467933b",
-   "sha256": "0skbhr11qs6s5msc9scdnwh9zz1i12sf1c0kdn2anv5i119hrx61"
+   "commit": "75daea6af14e86aa247cedb96936c938fbbedd79",
+   "sha256": "1wv1xv509xkr36r2faxqwla5aymlfpypxidnqvc1jbchw3jq9ahx"
   },
   "stable": {
    "version": [
@@ -8722,7 +8722,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
+    ""
    ]
   }
  },
@@ -10051,8 +10051,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20200319,
-    1706
+    20200324,
+    942
    ],
    "deps": [
     "clojure-mode",
@@ -10063,8 +10063,8 @@
     "sesman",
     "spinner"
    ],
-   "commit": "e1aa7821159c568d6311298924add2169681c450",
-   "sha256": "18zcaii71nfgv2hdc450jlm4a7mmp6rgmpachqyrrhws16nvnqcm"
+   "commit": "93ff91a1d79ba3094a50a7b01700b02d720e14b8",
+   "sha256": "1fnlcf26jhxpfvyai0h4i60af8hfchlvf0c09wc7sw9d3p9x7jfa"
   },
   "stable": {
    "version": [
@@ -16322,8 +16322,8 @@
     "lsp-treemacs",
     "s"
    ],
-   "commit": "a9a5522ffc365b3e5f9f06477d348edeca7b65d0",
-   "sha256": "0vffavhm0x896kffm7l63npi6kpgb58cp99224q82l7p3q1318vb"
+   "commit": "02160d8de73edbe8754f9f1ff136a8b7f6264658",
+   "sha256": "1s8k5pn06nlfadjrss5k2nnh2ikp3pqkh6qzxv4x2yyfl4k5y5yv"
   },
   "stable": {
    "version": [
@@ -39592,10 +39592,10 @@
  },
  {
   "ename": "god-mode",
-  "commit": "2dff8dc08583048f9b7b4cb6d8f05a18dd4e8b42",
-  "sha256": "01xx2byjh6vlckaxamm2x2qzicd9qc8h6amyjg0bxz3932a4llaa",
+  "commit": "c4f8b0a0766bcff6b716b9e35da25c00b8a91abd",
+  "sha256": "0l8hdn227axan7ryx6z4fbk9nqsb50bmhwqxgy3g8g19vqhflhfr",
   "fetcher": "github",
-  "repo": "chrisdone/god-mode",
+  "repo": "emacsorphanage/god-mode",
   "unstable": {
    "version": [
     20180117,
@@ -62152,11 +62152,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20200323,
-    1808
+    20200324,
+    913
    ],
-   "commit": "b1660a96b5eae416953e437752e5ad49d2017bec",
-   "sha256": "1d9shzmc5pj7bl2hcfnmppjjcm16vnxgpwql12xnz1fwhillk3ax"
+   "commit": "cac1f0377291b593ab128f704d934e82a90b2426",
+   "sha256": "1kld6azhqz5b0dl59sv74i12ddf29yjrz8n31wknzjgnn2dz7kgi"
   },
   "stable": {
    "version": [
@@ -62176,11 +62176,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20200323,
-    1808
+    20200324,
+    913
    ],
-   "commit": "b1660a96b5eae416953e437752e5ad49d2017bec",
-   "sha256": "1d9shzmc5pj7bl2hcfnmppjjcm16vnxgpwql12xnz1fwhillk3ax"
+   "commit": "cac1f0377291b593ab128f704d934e82a90b2426",
+   "sha256": "1kld6azhqz5b0dl59sv74i12ddf29yjrz8n31wknzjgnn2dz7kgi"
   },
   "stable": {
    "version": [
@@ -70564,11 +70564,11 @@
   "repo": "bastibe/org-static-blog",
   "unstable": {
    "version": [
-    20200318,
-    1052
+    20200324,
+    747
    ],
-   "commit": "ed57f4c7bf8351fc98de83dcba8994c6efa9520d",
-   "sha256": "1n8865vnpbczig4hqbd0lpgknwrahzaajxkh9hnmlncl4qr17a6m"
+   "commit": "1f7b0063e792b1c5e78de13ea3b31e7e07ff8c9f",
+   "sha256": "1lfl5ijvvwfj7i2bszx5c3p223mx51dx9ghkhy1c3sq75i58589f"
   },
   "stable": {
    "version": [
@@ -80190,8 +80190,8 @@
     20170402,
     1255
    ],
-   "commit": "16ed52ec500388aff2277a7144fc8138afb6f796",
-   "sha256": "01xh11991bwijhq44sp4xbmwsmfgj10c3ip9icns143c878svany"
+   "commit": "4024949f6caf5eff5f3da7ab2b4c3cf2e296472b",
+   "sha256": "1kc1iv2laf7a619djg9f2mx9sjgk0na4pvyijsy8yhzl4yj2r25y"
   }
  },
  {
@@ -80310,15 +80310,15 @@
   "repo": "wbolster/emacs-python-black",
   "unstable": {
    "version": [
-    20190817,
-    1754
+    20200324,
+    930
    ],
    "deps": [
     "dash",
     "reformatter"
    ],
-   "commit": "706d317f0874d7c5b5a3d844698bcfb8b1fe253e",
-   "sha256": "0fjnd85nlkck156dj6cahk8chhgkbgl2kwywqzi8bl4yj700m4dk"
+   "commit": "a11ca73f6dfcdc125d27ff184496d66bdbd71326",
+   "sha256": "1jv2fwlf7q8l5npqcpr05xzqmfqlx6xmjn0zphh9rx6dd2dpdma9"
   },
   "stable": {
    "version": [
@@ -97976,8 +97976,8 @@
   "repo": "mihaiolteanu/vuiet",
   "unstable": {
    "version": [
-    20200321,
-    740
+    20200324,
+    827
    ],
    "deps": [
     "bind-key",
@@ -97986,8 +97986,8 @@
     "s",
     "versuri"
    ],
-   "commit": "0cbc77072b8afe1d32288cdc4d04ca23f17a7084",
-   "sha256": "02fj9gm2c5layj2b86gcksra8bc6f00xhvibg9wy1khx23h6gpzl"
+   "commit": "2f96d1aaf45d1c9ed021d1b34e40daa5479b271c",
+   "sha256": "1piz07yh5w920551ncf4sjv75c2qnd4fz5k0dag6as4n12rmk9ql"
   }
  },
  {
