@@ -2253,15 +2253,15 @@
   },
   "stable": {
    "version": [
-    3,
-    2,
+    4,
+    0,
     0
    ],
    "deps": [
     "memoize"
    ],
-   "commit": "52d1f2d36468146c93aaf11399f581401a233306",
-   "sha256": "1sdl33117lccznj38021lwcdnpi9nxmym295q6y460y4dm4lx0jn"
+   "commit": "8bc6e65f4e4ae771f0ee35ebf232e30748c3372c",
+   "sha256": "1km016mq9qr9dzf41aa1vq41svzvm3jkg146m5hpnb3ml2616ipy"
   }
  },
  {
@@ -12114,11 +12114,11 @@
   "repo": "company-mode/company-mode",
   "unstable": {
    "version": [
-    20200317,
-    2312
+    20200324,
+    2145
    ],
-   "commit": "955f80e6c911a818611887bc35658af9e925ed66",
-   "sha256": "1radlwlsgw6ijvwl684j050fg42xkp21rgcm07qyyy99swsj0rz2"
+   "commit": "61ddd9afb58879267bf947b152a68f3dbadb9259",
+   "sha256": "097xy8ar6dms4zn7ymxxgmhap096fs8nc5j3js5srzmv14rswm36"
   },
   "stable": {
    "version": [
@@ -20500,8 +20500,8 @@
     20191016,
     1241
    ],
-   "commit": "574c1e27124f3a4819321ed7e96fb181ee230253",
-   "sha256": "00091pd8p1rc1f7sj48fc9iyd49i05n95mf741q5k202p7719nmn"
+   "commit": "8c6c42c5487d6d6011c6fea049fc73f714e55f97",
+   "sha256": "1a680jwmvx3jwh4fhivjcnyh4z0bb7qj9lzsqnfrjm8hfpl16mn4"
   },
   "stable": {
    "version": [
@@ -23296,23 +23296,27 @@
   "unstable": {
    "version": [
     20200324,
-    1909
+    2033
    ],
    "deps": [
     "dash",
     "package-lint"
    ],
-   "commit": "f8d0dacb58dccaf9fe25a412f7fa83de07d26c2d",
-   "sha256": "0mc35vbdfpb0xl68xrpsxh19ywhxckbnnsg23wm0r2ikxcghqh0i"
+   "commit": "2b645266be8010a6a49c6d0ebf6a3ad5bd290ff4",
+   "sha256": "1gg9ik0x67cnldzsclp45i7gf190y9pxl11k3grdkrkqjiph1375"
   },
   "stable": {
    "version": [
     0,
-    3,
+    4,
     0
    ],
-   "commit": "d4dc13addde8cacd7660efcb369af5e54a547114",
-   "sha256": "1zyy8dj11sn74wq86hibp17a1zbps2pv26ncn8fh8wvsfy1vdfif"
+   "deps": [
+    "dash",
+    "package-lint"
+   ],
+   "commit": "2b645266be8010a6a49c6d0ebf6a3ad5bd290ff4",
+   "sha256": "1gg9ik0x67cnldzsclp45i7gf190y9pxl11k3grdkrkqjiph1375"
   }
  },
  {
@@ -71043,16 +71047,16 @@
   "repo": "mtekman/org-treescope.el",
   "unstable": {
    "version": [
-    20200321,
-    2248
+    20200324,
+    1959
    ],
    "deps": [
     "dash",
     "org",
     "org-ql"
    ],
-   "commit": "b7c23015d52461a038eb45aac8f32ffd73acf222",
-   "sha256": "03pwrp0cvnghqs5q1y8gsry8221gpfrk92l619i99v2g49jfdn3q"
+   "commit": "a6094ff10a14b4a995bcb29a0d9856e37f53db38",
+   "sha256": "0qh4kykkv5kxbd23yjifijinqdsimsy8dpyi2jp64bkpbrxrl0i6"
   }
  },
  {
@@ -87618,8 +87622,8 @@
     20200314,
     55
    ],
-   "commit": "c3a0e8b0480416f73aca253fe9c24724fbe6a603",
-   "sha256": "1wm18sqyhh9hgn8icn6bqjfp3jkfyr9f8vfvhcs4cfv3av032pnc"
+   "commit": "1382bda945ecfb4b177c7d05a36da8fd41e0384c",
+   "sha256": "1hmdx3nakhpsmg6zr52090pimmy0kpjz2adyi0m1wzh9zdg5cx4x"
   },
   "stable": {
    "version": [
@@ -88125,15 +88129,15 @@
   "repo": "Fuco1/smartparens",
   "unstable": {
    "version": [
-    20200322,
-    2051
+    20200324,
+    2147
    ],
    "deps": [
     "cl-lib",
     "dash"
    ],
-   "commit": "7c61a5a197fbf785fe26a5f8f790244fb4da6421",
-   "sha256": "05ml1bxk9pm86sx2spcnaq9p24k8k3rrxhnvyyszhjrwgllk2ymk"
+   "commit": "555626a43f9bb1985aa9a0eb675f2b88b29702c8",
+   "sha256": "0hfywwhzv2dphi7gacp1sdyk47cmajzx5sqrcwxkn7mlwx876nsx"
   },
   "stable": {
    "version": [
@@ -93519,8 +93523,8 @@
     20200212,
     1903
    ],
-   "commit": "d77be4d384d0d5c30ee34280cc2afc1d9623f5c4",
-   "sha256": "0pb9l10plg085z54kvq60mkmi1d0nndv3jy83fgd1wanj444lp0p"
+   "commit": "a7fe041239efe96e9d2cf82e5f50406cece824a2",
+   "sha256": "16lrsghk0lgqdim8vz2c8p453vghi4xdq5kxl1ggypz2b9wpcv5y"
   },
   "stable": {
    "version": [
@@ -98127,11 +98131,11 @@
   "repo": "darkstego/wakib-keys",
   "unstable": {
    "version": [
-    20190910,
-    1011
+    20200324,
+    2049
    ],
-   "commit": "23237fc2c255de798b8d3fc2cb68c7c22b53caa9",
-   "sha256": "1s5n2gcldwj5srjn44pigd788x0hv4c7lz75krqyz1hysriydv9p"
+   "commit": "b6bf86490fb6fbe84df251ba81c282bc8ae13181",
+   "sha256": "04jph2q6nqpabr2hgk4g5042wi2lj5yxldf3insaf7l90jbiy5jl"
   }
  },
  {
