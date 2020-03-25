@@ -2242,26 +2242,26 @@
   "repo": "domtronn/all-the-icons.el",
   "unstable": {
    "version": [
-    20200324,
-    2231
+    20200325,
+    540
    ],
    "deps": [
     "memoize"
    ],
-   "commit": "8bc6e65f4e4ae771f0ee35ebf232e30748c3372c",
-   "sha256": "1km016mq9qr9dzf41aa1vq41svzvm3jkg146m5hpnb3ml2616ipy"
+   "commit": "d363bb3e73909be013fcf35e1458bb654ec5bbaa",
+   "sha256": "0yh7gnv9xfqn8q4rzaa6wpyn9575vyfxy7d3afly2mqsb367fgm5"
   },
   "stable": {
    "version": [
     4,
     0,
-    0
+    1
    ],
    "deps": [
     "memoize"
    ],
-   "commit": "8bc6e65f4e4ae771f0ee35ebf232e30748c3372c",
-   "sha256": "1km016mq9qr9dzf41aa1vq41svzvm3jkg146m5hpnb3ml2616ipy"
+   "commit": "d363bb3e73909be013fcf35e1458bb654ec5bbaa",
+   "sha256": "0yh7gnv9xfqn8q4rzaa6wpyn9575vyfxy7d3afly2mqsb367fgm5"
   }
  },
  {
@@ -6497,20 +6497,20 @@
   "repo": "riscy/bifocal-mode",
   "unstable": {
    "version": [
-    20190623,
-    2236
+    20200325,
+    539
    ],
-   "commit": "c354fc32b0a666203f5c546bb2d2c397cb003391",
-   "sha256": "0wzsbrj1rhfl6qgjnphbh6ijfbjdr2wid7mqzz49ykcb9ldm7kjj"
+   "commit": "773a6dde790c4a240e643a9071e4c7bce09d40de",
+   "sha256": "11dirb13hblfa95hqqshrsjri4d4qzcq5qhhnd4xqajdchr62758"
   },
   "stable": {
    "version": [
     0,
     0,
-    5
+    6
    ],
-   "commit": "add30c678488cec04976a85ba8cda20805938a01",
-   "sha256": "01j8s6c3qm4scxy1dk07l41y0n55gz83zzfi254kc2vyx02vqg7f"
+   "commit": "773a6dde790c4a240e643a9071e4c7bce09d40de",
+   "sha256": "11dirb13hblfa95hqqshrsjri4d4qzcq5qhhnd4xqajdchr62758"
   }
  },
  {
@@ -9996,6 +9996,40 @@
   }
  },
  {
+  "ename": "chronometrist",
+  "commit": "35d03fe9c066e7388d5ff4adad1afa1e30145995",
+  "sha256": "09dil46qjn7y55y7qax92l7mcw8g1bsb1mjqc92zgln96asi25kj",
+  "fetcher": "git",
+  "url": "https://framagit.org/contrapunctus/chronometrist/",
+  "unstable": {
+   "version": [
+    20200324,
+    653
+   ],
+   "deps": [
+    "dash",
+    "s",
+    "seq"
+   ],
+   "commit": "dc0fb3bed6b893ecb924f5b1228ab718325cc808",
+   "sha256": "08mzv8rijsagkj4ykxlgr99axp0kxnz36d3iaffkqzyv50cm4r6f"
+  },
+  "stable": {
+   "version": [
+    0,
+    4,
+    2
+   ],
+   "deps": [
+    "dash",
+    "s",
+    "seq"
+   ],
+   "commit": "cc791cd61ee4580c9786f8c58d9e1964e0ff0c64",
+   "sha256": "1ccy7qz1wcmggqlf3hwigbqq4wrx1amds4x9bxz9py6bypglyjc5"
+  }
+ },
+ {
   "ename": "chronos",
   "commit": "53648c5699fc03e50774270f9560c727e2c22873",
   "sha256": "1fwpll0mk6pc37qagbq3b3z32d2qwz993nxp9pjw4qbmlnq6sy9d",
@@ -11173,8 +11207,8 @@
     20190710,
     1319
    ],
-   "commit": "c98ec3692ea2a98edb6c7c26ffc2e0d12863df99",
-   "sha256": "1d7i53bn25wk423d0mypxrfnfzm76sxw9y7acmk238d5947xis9r"
+   "commit": "69e495d10adeb7a9872f1698b60367e57e657fee",
+   "sha256": "01gpxv3sbq3ax2qi1cfrbr39n90m2frz9xdlq0mhcxijbl4j9gy0"
   },
   "stable": {
    "version": [
@@ -16310,8 +16344,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20200322,
-    221
+    20200325,
+    546
    ],
    "deps": [
     "bui",
@@ -16322,8 +16356,8 @@
     "lsp-treemacs",
     "s"
    ],
-   "commit": "02160d8de73edbe8754f9f1ff136a8b7f6264658",
-   "sha256": "1s8k5pn06nlfadjrss5k2nnh2ikp3pqkh6qzxv4x2yyfl4k5y5yv"
+   "commit": "e2086fc9fbde4413f779b314bd5a93f808a3fb78",
+   "sha256": "1ig4s5aimd7zfyaa4fgb584lpzmi38kbfqc4jncifh0i69mi6x9k"
   },
   "stable": {
    "version": [
@@ -23302,8 +23336,8 @@
     "dash",
     "package-lint"
    ],
-   "commit": "af93f35aefa9f9fcd9314f84c0a4ede21fa92e54",
-   "sha256": "18ybxxjf549i27c9bdyljwga094zr4hr979c23dwwx3ziqsfjnlj"
+   "commit": "35a3fcc3131c243206fa914b8562cda771eab8c5",
+   "sha256": "09ibaq3mjnw3vm1rwrljdcgybxly2fk9gjdim39s9fpgar4ys12p"
   },
   "stable": {
    "version": [
@@ -85740,15 +85774,15 @@
   "repo": "twlz0ne/separedit.el",
   "unstable": {
    "version": [
-    20200324,
-    1231
+    20200325,
+    555
    ],
    "deps": [
     "dash",
     "edit-indirect"
    ],
-   "commit": "4cd826681f6d3d30665125e23f7f49a22cffec1a",
-   "sha256": "0pi8s07yi25j1b7qij7gaxbkhdamdwr5nmw2jc902kvqpb080q15"
+   "commit": "bec896a0aac7738e4d2eb2077abd494e9404dcb9",
+   "sha256": "0a18ha6pr24n7si3wgz79fg81b1s4dd9jkarq66rmscz7qr2dd1k"
   }
  },
  {
