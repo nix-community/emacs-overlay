@@ -1572,7 +1572,7 @@
           license = lib.licenses.free;
         };
       }) {};
-    ioccur = callPackage ({ elpaBuild, fetchurl, lib }:
+    ioccur = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "ioccur";
         ename = "ioccur";
@@ -1581,7 +1581,7 @@
           url = "https://elpa.gnu.org/packages/ioccur-2.4.el";
           sha256 = "1isid3kgsi5qkz27ipvmp9v5knx0qigmv7lz12mqdkwv8alns1p9";
         };
-        packageRequires = [];
+        packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ioccur.html";
           license = lib.licenses.free;
