@@ -2215,10 +2215,10 @@
       elpaBuild {
         pname = "oauth2";
         ename = "oauth2";
-        version = "0.11";
+        version = "0.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/oauth2-0.11.el";
-          sha256 = "0ydkc9jazsnbbvfhd47mql52y7k06n3z7r0naqxkwb99j9blqsmp";
+          url = "https://elpa.gnu.org/packages/oauth2-0.12.el";
+          sha256 = "1rfyfy0h7shr3fmd8lh6s2i3ahfh28wb5fqiqlsjwspn5h77ll29";
         };
         packageRequires = [];
         meta = {
