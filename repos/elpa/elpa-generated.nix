@@ -2575,10 +2575,10 @@
       elpaBuild {
         pname = "rainbow-mode";
         ename = "rainbow-mode";
-        version = "1.0.3";
+        version = "1.0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rainbow-mode-1.0.3.el";
-          sha256 = "0cpwqllhv3cb0gii22cj9i731rk3sbf2drm5m52w5yclm8sfr339";
+          url = "https://elpa.gnu.org/packages/rainbow-mode-1.0.4.el";
+          sha256 = "0rp76gix1ph1wrmdax6y2m3i9y1dmgv7ikjz8xsl5lizkygsy9cg";
         };
         packageRequires = [];
         meta = {
