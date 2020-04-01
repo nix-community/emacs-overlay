@@ -8820,7 +8820,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
+    ""
    ]
   }
  },
@@ -20753,8 +20753,8 @@
     20191016,
     1241
    ],
-   "commit": "9e5e150c6d04bb5f4126f610a411d58b76a42583",
-   "sha256": "0cdwlh3hsbyvpcf7lf5s7lj9nfsljw2hmmz5rym9k41q68ar145m"
+   "commit": "0f39e9ba253278d13e2ed73a2522df6ec189718a",
+   "sha256": "1m2h07vza4q0avvj56mxmra0rpps4k60j63svlh2n59r2h9q9709"
   },
   "stable": {
    "version": [
@@ -36903,11 +36903,11 @@
   "repo": "GDQuest/emacs-gdscript-mode",
   "unstable": {
    "version": [
-    20200330,
-    1652
+    20200401,
+    334
    ],
-   "commit": "2e0468b4b97746b46cda2634e2b7f0e5ef0303b3",
-   "sha256": "04x09bqwkz4fd9541iz0sgbbd1awsrg0i7d1p6vdqkns44fxi3jh"
+   "commit": "9f645251552fcf9d7a4a24c5f14f9682dccb7c5a",
+   "sha256": "036p4lph2ms3dmn37703i5f7kihm3qr5fdil0j2xghbc7ffw80ry"
   },
   "stable": {
    "version": [
@@ -38082,11 +38082,11 @@
   "repo": "sshaw/git-link",
   "unstable": {
    "version": [
-    20191119,
-    1420
+    20200331,
+    2329
    ],
-   "commit": "2fb0e4be8801e7d53e02fc7f14ec0f9a14586ba2",
-   "sha256": "1y5qw5iyblj14zjvw4is51qyvmy2z0f0iba7cqr628zn9q1fqll6"
+   "commit": "1d47714cb80e2bb434bf1ca4ab078b04aa86e21c",
+   "sha256": "1cv21lgwgc65lcxrf8dffalzv401jcwc2sxs6pfwhmrpz4l36zrm"
   },
   "stable": {
    "version": [
@@ -56442,10 +56442,10 @@
   "unstable": {
    "version": [
     20200331,
-    1732
+    2347
    ],
-   "commit": "17a6b657965239eeaae318a91cd87a04f606b220",
-   "sha256": "1caqpb8bfpqw9imdpfgw2px0p3ymrqxmfzaaa3hmz2s2cjj85pm8"
+   "commit": "2e57bea5af732a17e78cd35f8ce5a05b51eaed54",
+   "sha256": "1p98flsddmp5ks1ff9dvhzfxaw96qfw1xh6lqhqqz840qp9nmc90"
   },
   "stable": {
    "version": [
@@ -57037,15 +57037,15 @@
   "repo": "noctuid/link-hint.el",
   "unstable": {
    "version": [
-    20200205,
-    2244
+    20200401,
+    0
    ],
    "deps": [
     "avy",
     "cl-lib"
    ],
-   "commit": "0d9cabcdb783ddc834ede6dcb1bed627c3acd303",
-   "sha256": "1ybzxc421wyy34w71lgbdfx7vgy9j6va9jjv1mkxa0zxqpdar974"
+   "commit": "b56921b49dbd19a294252c744bfedd74e4eb9fa6",
+   "sha256": "1hlaf7gyh5643wn4a2b1b2z44h1k9rb20h413myj2d1srx6xmyxj"
   }
  },
  {
@@ -57622,11 +57622,11 @@
   "repo": "donkirkby/live-py-plugin",
   "unstable": {
    "version": [
-    20200331,
-    513
+    20200401,
+    303
    ],
-   "commit": "94eac15832472582d092896dee0bfa0c701ce2e0",
-   "sha256": "027h1gjxilm4qra71ay1gvyrl1licr5lhd249m6jfxp27llqm417"
+   "commit": "72af6e9fe2973b250bedf77049682c6c577fd308",
+   "sha256": "1b3q3w1x2q0pyyn0zanqvbppnm1052lnr0l582w3dp3axamz7yn1"
   },
   "stable": {
    "version": [
@@ -70774,8 +70774,8 @@
   "repo": "jethrokuan/org-roam",
   "unstable": {
    "version": [
-    20200331,
-    1034
+    20200401,
+    350
    ],
    "deps": [
     "dash",
@@ -70785,8 +70785,8 @@
     "org",
     "s"
    ],
-   "commit": "2e3119e02740f3a197765603c9286b63cc8791f6",
-   "sha256": "0k1f4lln5bfsvgjzy0gvsbmgil39aajm3bd25q8lhcrm4xi3lz3j"
+   "commit": "f27e5f2384529630e28e5643b56e9d78d2e018bf",
+   "sha256": "1h3cf5pjx63l8yyplrs96whdgamwdi501bbcc3f7zzjk59nf4b6y"
   },
   "stable": {
    "version": [
@@ -78465,11 +78465,11 @@
   "repo": "conao3/ppp.el",
   "unstable": {
    "version": [
-    20200331,
-    501
+    20200401,
+    330
    ],
-   "commit": "9319a664cc2bdda9970d2bf46659c7f4615fa74d",
-   "sha256": "0wr1vwwcjzgs7yclygj7s6k7wxw2i951f69bkgnc576qpliqxv88"
+   "commit": "a2fef35efaa778a651a2d1c97ffe392a40297754",
+   "sha256": "029ajq7gcpbmg7drwgjwzjvkcmy6sayyvrizzngillvm3q97bmy3"
   },
   "stable": {
    "version": [
@@ -94073,8 +94073,8 @@
     20200212,
     1903
    ],
-   "commit": "062855d189baffe8ac79a886379842caca50b09e",
-   "sha256": "1igsdm2w5wjmy64r9kfbwm0ppqvhyf6hir0x0yc8p1m7jz76ybsi"
+   "commit": "6fe6ffa0a62fb769908bf163bf2e138caf0d7772",
+   "sha256": "0af3mlnz3iqikx7sb982xf7bihvxd6yib6xxdz9y45r9wjpb9kca"
   },
   "stable": {
    "version": [
