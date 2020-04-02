@@ -11,17 +11,17 @@ Daily generations of Melpa & Melpa stable attribute sets.
 This overlay provides fresh versions of EXWM and dependencies. This is
 updated daily.
 
-*** Emacs 27/28
+*** Emacs from Git and latest (including pre-releases)
 This overlay also provides two versions (latest from git) for Emacs. These
 are updated daily.
 
-These attributes are named =emacsGit= and =emacsGit27= in the overlay
-and they are respectively built from the =master= branch (for Emacs 28)
-and =emacs-27= branch.
+These attributes are named =emacsGit= and =emacsUnstable=.
+=emacsGit= is built from the latest =master= branch and =emacsUnstable= is built from the latest tag.
+
 Emacs from git is not guaranteed stable and may break your setup at any
 time, if it breaks you get to keep both pieces.
 
-We also provide two attributes named =emacsGit-nox= and =emacsGit27-nox=
+We also provide two attributes named =emacsGit-nox= and =emacsUnstable-nox=
 if you wish to have Emacs built without X dependencies.
 
 ** Extra library functionality
@@ -82,6 +82,6 @@ cause compilation time.
 =#nixos-emacs= on =freenode=
 
 ** Nixpkgs issues
-   
+
 *** Emacs tracking issue
 https://github.com/NixOS/nixpkgs/issues/66303
