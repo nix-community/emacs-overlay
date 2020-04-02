@@ -20,7 +20,7 @@ let
   });
 
   emacsGit = let
-    repoMeta = super.lib.importJSON ./repos/emacs/emacs.json;
+    repoMeta = super.lib.importJSON ./repos/emacs/emacs-master.json;
   in (self.emacs.override { srcRepo = true; }).overrideAttrs(old: {
     name = "emacs-git-${repoMeta.version}";
     inherit (repoMeta) version;
@@ -36,10 +36,35 @@ let
     ];
   });
 
+  emacsGit27 = let
+    repoMeta = super.lib.importJSON ./repos/emacs/emacs-emacs-27.json;
+  in (self.emacs.override { srcRepo = true; }).overrideAttrs(old: {
+    name = "emacs-git-${repoMeta.version}";
+    inherit (repoMeta) version;
+    src = super.fetchFromGitHub {
+      owner = "emacs-mirror";
+      repo = "emacs";
+      inherit (repoMeta) sha256 rev;
+    };
+    buildInputs = old.buildInputs ++ [ super.jansson ];
+    patches = [
+      # ./patches/tramp-detect-wrapped-gvfsd.patch
+      ./patches/clean-env.patch
+    ];
+  });
+
 in {
-  inherit emacsGit;
+  inherit emacsGit emacsGit27;
 
   emacsGit-nox = ((emacsGit.override {
+    withX = false;
+    withGTK2 = false;
+    withGTK3 = false;
+  }).overrideAttrs(oa: {
+    name = "${oa.name}-nox";
+  }));
+  
+  emacsGit27-nox = ((emacsGit27.override {
     withX = false;
     withGTK2 = false;
     withGTK3 = false;
