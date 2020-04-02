@@ -3271,11 +3271,11 @@
   "repo": "dieter-wilhelm/apdl-mode",
   "unstable": {
    "version": [
-    20200401,
-    1753
+    20200402,
+    544
    ],
-   "commit": "03d4d55f5d44584d6de50033cdc1b1bc87db83a3",
-   "sha256": "0yv3l3j3syn2i4ff9rvsx7a2vp7mv7p9y08dzcvl6km1909adzc6"
+   "commit": "a63e4277c27a65ec0efcb72ebcc876daae8760d7",
+   "sha256": "0j3rqf7iiglxv7d4mr0smyx5rws1nkblb4p5s2j1q4v9sxhx28f0"
   },
   "stable": {
    "version": [
@@ -8820,7 +8820,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
    ]
   }
  },
@@ -11305,8 +11305,8 @@
     20190710,
     1319
    ],
-   "commit": "cfc92b483fbd3695d4a67843977e709ba4d7ea47",
-   "sha256": "0jcq3ws3qgcywjbsa3nr13i5kcymr9n1rd2nkj9fn0j440725k2l"
+   "commit": "af138785e2c7e8b94f00d039dde6bad9900d1099",
+   "sha256": "0c6p4p4dxqx9j643nv3igq2d489fibgf00ji21i6mgc35wqy7pjx"
   },
   "stable": {
    "version": [
@@ -16290,8 +16290,8 @@
     20190111,
     2150
    ],
-   "commit": "e9d7fd45a2e829ee93980b1c0612f8476a46431d",
-   "sha256": "00b8q74md0l11vh6l843zcnpba5rcav7lm71332lmbzr9yna1rpj"
+   "commit": "5ab92ce56e3826bb0743b32b2f8a2270bf199222",
+   "sha256": "0xcg1p87jgfa48cz17avh3r5v9igrr8wmn2g5rs4kkh59ai8ib63"
   },
   "stable": {
    "version": [
@@ -30604,11 +30604,11 @@
   "repo": "technomancy/fennel-mode",
   "unstable": {
    "version": [
-    20200206,
-    2001
+    20200402,
+    442
    ],
-   "commit": "c02f4a9ed1b9c26f9cfc3237906c2844f5937622",
-   "sha256": "1bcdicgp3wlxpdzardx1ry9js192dy26q8af6pdlvrnxqvdl2asm"
+   "commit": "7e452d4ccdbc3ddb2fca5e1068865a8569d65887",
+   "sha256": "083qb4jjh06bqqngj5zn6l09zchgcmnmm86xllfji91b790zinsj"
   }
  },
  {
@@ -33448,8 +33448,8 @@
     "flycheck",
     "phpstan"
    ],
-   "commit": "277f0b4a1d227a67ddb304f397a0e1d8883f83c8",
-   "sha256": "1mk35wp6dca64vaxbz94ln8h97wwh3v7zyy65djbmsv9k133y5bv"
+   "commit": "a2b3513d546191a145f7dfeee7ce50203657da1e",
+   "sha256": "1ph534ylcx0sp1cirrfwza9a8bra7kjvdcag2bcxxf45qxcknw9r"
   },
   "stable": {
    "version": [
@@ -36458,8 +36458,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "7e4c854714dfe25101b8fe18668cd615084a2412",
-   "sha256": "1c7br8g4j0yh7xhlfa94jmdsnd30ipnsfx9y6vghnfh4yn2a0rgc"
+   "commit": "de3b74d1c6c8cbb7c0a00cb1779ebfd5a10befd1",
+   "sha256": "0czn7a9hxidbwagih00v9qk679wl09kkjnxalbbh3a7a3kp0l4mh"
   },
   "stable": {
    "version": [
@@ -70775,8 +70775,8 @@
   "repo": "jethrokuan/org-roam",
   "unstable": {
    "version": [
-    20200401,
-    516
+    20200402,
+    532
    ],
    "deps": [
     "dash",
@@ -70786,8 +70786,8 @@
     "org",
     "s"
    ],
-   "commit": "dfb84496804fbecd351807f0eaacc7c5cf64208e",
-   "sha256": "1sq0q103afbhzmyyfi5s2b6d8jdz493dgyqaa6m5amaq7y18g54b"
+   "commit": "f9a4f3b7f7b61cb67b5f8b22c5f42b35780b4a27",
+   "sha256": "0gmmxp9kb698l3d2a5cnawh3s7fz0369lm16wpbvygk9nc3zxmdf"
   },
   "stable": {
    "version": [
@@ -76073,11 +76073,11 @@
   "repo": "emacs-php/php-mode",
   "unstable": {
    "version": [
-    20200323,
-    1215
+    20200402,
+    326
    ],
-   "commit": "b5d99881002e3c62ebe874ad9f48474afc16c62d",
-   "sha256": "0pq7nccmrbvrf7120d48aqymdwh5jgjvzwi2820hdw8j6b7prm4h"
+   "commit": "a1adc5a403d1452856bbd76780e83ed08a6141e7",
+   "sha256": "19g311iicgwnxab3l31x0zlbai32lzmxh3aipbh6fn7drdb1xfza"
   },
   "stable": {
    "version": [
@@ -80513,7 +80513,7 @@
   "unstable": {
    "version": [
     20200402,
-    239
+    532
    ],
    "deps": [
     "async",
@@ -80521,8 +80521,8 @@
     "pyim-basedict",
     "xr"
    ],
-   "commit": "d83d6de0b628fa4d86416b9a3b0624961b0a0fc6",
-   "sha256": "0pnv8v4mn3cs0gvpqcql7jxa177qf2fvp3iqza53nghnxh9xxplx"
+   "commit": "8640ff22a1166530414ea09574fe4d80456b9018",
+   "sha256": "1fndypqd9j48m9sqv8jjrbhla9sl7ay2whffljhvar04v62zzv5x"
   },
   "stable": {
    "version": [
