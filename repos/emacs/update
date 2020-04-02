@@ -8,6 +8,7 @@ cd $SCRIPTPATH
 function update_repo() {
     owner=$1
     repo=$2
+    branch=$3
     echo $repo
 
     # Get relevant data (commit id and timestamp) for the latest commit
@@ -18,9 +19,23 @@ function update_repo() {
     version_number=$(echo $commit_data | cut -d '/' -f 3 | cut -d 'T' -f 1 | sed 's/-//g').0
 
     digest=$(nix-prefetch-url --unpack "https://github.com/$owner/$repo/archive/${commit_sha}.tar.gz")
-    echo "{\"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > $repo.json
+    echo "{\"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > $repo-$branch.json
 }
 
-update_repo emacs-mirror emacs
+function update_release() {
+    owner=$1
+    repo=$2
+    branch=$3
+    echo $repo
+
+    tag=$(curl "https://github.com/$owner/$repo/releases.atom" | xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -m /atom:feed/atom:entry -v "concat('',atom:title)" -n | egrep -o '^[^:]+' | head -n 1)
+
+    digest=$(nix-prefetch-url --unpack "https://github.com/$owner/$repo/archive/${tag}.tar.gz")
+
+    echo "{\"rev\": \"${tag}\", \"sha256\": \"${digest}\", \"version\": \"${tag}\"}" > $repo-$branch.json
+}
+
+update_repo emacs-mirror emacs master
+update_release emacs-mirror emacs unstable
 
 nix-build --no-out-link --show-trace ./test.nix

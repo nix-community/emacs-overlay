@@ -20,7 +20,7 @@ let
   });
 
   emacsGit = let
-    repoMeta = super.lib.importJSON ./repos/emacs/emacs.json;
+    repoMeta = super.lib.importJSON ./repos/emacs/emacs-master.json;
   in (self.emacs.override { srcRepo = true; }).overrideAttrs(old: {
     name = "emacs-git-${repoMeta.version}";
     inherit (repoMeta) version;
@@ -36,10 +36,36 @@ let
     ];
   });
 
+  emacsUnstable = let
+    repoMeta = super.lib.importJSON ./repos/emacs/emacs-unstable.json;
+  in (self.emacs.override { srcRepo = true; }).overrideAttrs(old: {
+    name = repoMeta.version;
+    inherit (repoMeta) version;
+    src = super.fetchFromGitHub {
+      owner = "emacs-mirror";
+      repo = "emacs";
+      inherit (repoMeta) sha256 rev;
+    };
+    buildInputs = old.buildInputs ++ [ super.jansson ];
+    patches = [
+      ./patches/tramp-detect-wrapped-gvfsd-27.patch
+      ./patches/clean-env.patch
+    ];
+  });
+
+
 in {
-  inherit emacsGit;
+  inherit emacsGit emacsUnstable;
 
   emacsGit-nox = ((emacsGit.override {
+    withX = false;
+    withGTK2 = false;
+    withGTK3 = false;
+  }).overrideAttrs(oa: {
+    name = "${oa.name}-nox";
+  }));
+
+  emacsUnstable-nox = ((emacsUnstable.override {
     withX = false;
     withGTK2 = false;
     withGTK3 = false;
