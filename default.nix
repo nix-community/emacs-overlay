@@ -37,7 +37,7 @@ let
   });
 
   emacsGit27 = let
-    repoMeta = super.lib.importJSON ./repos/emacs/emacs-emacs-27.json;
+    repoMeta = super.lib.importJSON ./repos/emacs/emacs-27.json;
   in (self.emacs.override { srcRepo = true; }).overrideAttrs(old: {
     name = "emacs-git-${repoMeta.version}";
     inherit (repoMeta) version;
