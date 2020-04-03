@@ -8304,8 +8304,8 @@
    "deps": [
     "buttercup"
    ],
-   "commit": "400227a45164e4e849048d288a02ab8243d09cd2",
-   "sha256": "1z972i1pzg8bkrzzbjha802486mybqyh9bhbvfk2sr6nzhvx2w1k"
+   "commit": "3ae4f84813c9e04e03a6e703990ca998b62b6deb",
+   "sha256": "0ndxbh2jff6qryczawzbg580744h18z7grg82dpg7fv0rbxnyi3j"
   },
   "stable": {
    "version": [
@@ -16290,8 +16290,8 @@
     20190111,
     2150
    ],
-   "commit": "830bdfac310935ff0a4b68a640bd9fcc7624e73c",
-   "sha256": "1qg0s38c5b7cjpr8m7xfljp14b18b4k8np43lpnvhrmrdzc3fwkp"
+   "commit": "2ca3f569254ddee7d1561d102ccca0c9d3250c91",
+   "sha256": "0mwidm9cyirp0msdm0hdjbl9120039rd3zrjri1x4jyyxx333sf4"
   },
   "stable": {
    "version": [
@@ -31076,20 +31076,20 @@
   "repo": "johanvts/emacs-fireplace",
   "unstable": {
    "version": [
-    20181211,
-    1927
+    20200402,
+    2206
    ],
-   "commit": "571ffa7dd0ce46edca838df74d055aaa83da4d78",
-   "sha256": "1iw17rkihsn50p3zljag82v09zyav8bzgfn6mfa267fkf4f1fgjy"
+   "commit": "f6c23e259349922aae25cf2898ba815a7d8f2527",
+   "sha256": "16cb8grw2cfgdix1sr5a3fnwhhc93ci8qgbhgs5ilyayy2cb6s4c"
   },
   "stable": {
    "version": [
     1,
-    1,
-    2
+    2,
+    0
    ],
-   "commit": "2b966ed65b714c613f79e9144d004dfa3b28f1ed",
-   "sha256": "1f5053bbvjdmm64zv6r2qkswkpwvx0s3qz4bwm9zya583a6g0nv8"
+   "commit": "f6c23e259349922aae25cf2898ba815a7d8f2527",
+   "sha256": "16cb8grw2cfgdix1sr5a3fnwhhc93ci8qgbhgs5ilyayy2cb6s4c"
   }
  },
  {
@@ -36457,8 +36457,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "605dad2406d4061ba92d89762177d0250add6c45",
-   "sha256": "0jkj918darssys32fd9502c7spqgdgnrnkvjwjlsv8r4w42qbcmj"
+   "commit": "7deab681c622227c5b9b65e27be411cd20c5db3b",
+   "sha256": "09rcnfcyc1skp5yzz3i1s56l071xailjvxmw28iy1jxlaxkbkrp9"
   },
   "stable": {
    "version": [
@@ -54072,8 +54072,8 @@
     1,
     0,
     0,
-    -2,
-    6
+    -1,
+    1
    ],
    "deps": [
     "cl-lib",
@@ -54084,8 +54084,8 @@
     "spinner",
     "vterm"
    ],
-   "commit": "596f59774edf213c4c4885992dda158de145be03",
-   "sha256": "0x8mlvq264ihhcdbkljhaij6hsvlh8s4fmrd8x970c7i3qi3hh7k"
+   "commit": "4026d9a231a53f3ccfd373732acd721527741080",
+   "sha256": "0b92k1nsbl880zh95lwa2y8zh5y5w08sj8r1dbw8jhnmswl9lhs2"
   }
  },
  {
@@ -54221,7 +54221,7 @@
   "unstable": {
    "version": [
     20200402,
-    1548
+    2031
    ],
    "deps": [
     "cl-lib",
@@ -54229,8 +54229,8 @@
     "websocket",
     "zmq"
    ],
-   "commit": "a4e0616ed4acd90f1ee7cb981bb8fb6bc05712d6",
-   "sha256": "1lp6xg71snlsaffl7afrgjcs99l2axc5xrbkrncc50zjhxlimxrr"
+   "commit": "5c2469dbe40a3ee82537ecb549ee0b05ef35e194",
+   "sha256": "02467xhc86dcmhpmm7k5hl07af26glgbhb5i8936m035l6yylx8f"
   },
   "stable": {
    "version": [
@@ -59106,8 +59106,8 @@
     "cl-lib",
     "magit"
    ],
-   "commit": "9ffebd50a18adba70a9cfc2710012dfd650c5376",
-   "sha256": "0sihrmk9snazdj1dana7q89a5qd7xjclhmfqh15gvxchs4a8jwqg"
+   "commit": "0bc96737634e78ac7c7f8a3f73190531c0890914",
+   "sha256": "1lm8412n2046fz8n7rfbadyww2074lsxq0w4gm1x1alraz5im5h4"
   },
   "stable": {
    "version": [
@@ -63867,6 +63867,25 @@
    ],
    "commit": "c9e67edb772f2d9f9da8d887dc746459cfbce244",
    "sha256": "1bn6zx931vz2fa72ab999r33bxv8brn3cqmalvq25x7s4z3q1lyi"
+  }
+ },
+ {
+  "ename": "multi-vterm",
+  "commit": "8d4aad9aaac0d231fbc02aeada21699f3d573f08",
+  "sha256": "0q58g7bk4nap2lxx8fvigkbp8d8wpp47f6bp645dn8f06hbyfhqq",
+  "fetcher": "github",
+  "repo": "suonlight/multi-libvterm",
+  "unstable": {
+   "version": [
+    20200329,
+    940
+   ],
+   "deps": [
+    "projectile",
+    "vterm"
+   ],
+   "commit": "f43f68ad849647b8a1dfd254a57d1c5a2599a24a",
+   "sha256": "0sj7f08jp1876mf2aqlkl634iyjai8zczs991gl7dvkxix67pcfk"
   }
  },
  {
@@ -97872,10 +97891,10 @@
  },
  {
   "ename": "vhdl-tools",
-  "commit": "9486575b532d485dec0755ae8644fde8a77d75f3",
-  "sha256": "1fqbwfg1rkccjx5xsls9xm9wdjl6smzv763adsgn5xkb4vnnl6mf",
+  "commit": "b1a3336bff4d677b3bc7fbb8ef230ffc7b78e268",
+  "sha256": "0xdq9sicwpv3qzy833fqhvi4yllqmqgd4p9lbgq7dn1g8qz2gakn",
   "fetcher": "gitlab",
-  "repo": "csantosb/vhdl-tools",
+  "repo": "emacs-elisp/vhdl-tools",
   "unstable": {
    "version": [
     20200330,
@@ -102483,14 +102502,14 @@
   "unstable": {
    "version": [
     20200402,
-    1942
+    2121
    ],
    "deps": [
     "cl-lib",
     "pkg-info"
    ],
-   "commit": "49fd08ddfa3f1bc54f6fddc7263efee149ae6f4e",
-   "sha256": "0q146dbm0d01gad9j3pjcmnwllg653772ybla0p9q9awy7yyf809"
+   "commit": "f4da6b26eebb9d1120a46e20e4b136cde13b5014",
+   "sha256": "1xyknr2ykqjr37r6msmhzxcbgp8rzpy3kgqxfv6pic0y5x9zig48"
   },
   "stable": {
    "version": [
