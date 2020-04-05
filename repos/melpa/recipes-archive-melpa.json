@@ -8820,7 +8820,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
    ]
   }
  },
@@ -12270,8 +12270,8 @@
   "repo": "pythonic-emacs/company-anaconda",
   "unstable": {
    "version": [
-    20200129,
-    1830
+    20200404,
+    1859
    ],
    "deps": [
     "anaconda-mode",
@@ -12280,8 +12280,8 @@
     "dash",
     "s"
    ],
-   "commit": "a31354ca8ea35c0b2c1f6bb2b1a02a6cfb5e564b",
-   "sha256": "05qaxb3qpz3bi6c88qspf50sh15hzc01354zhj0amd07bmqzhwfg"
+   "commit": "da1566db41a68809ef7f91ebf2de28118067c89b",
+   "sha256": "1x260p0fj33xg6hkrz9q9dqrpibp4yn2n9is3a6s4xxfb485rz0g"
   },
   "stable": {
    "version": [
@@ -19980,11 +19980,11 @@
   "repo": "progfolio/doct",
   "unstable": {
    "version": [
-    20200401,
-    345
+    20200404,
+    1933
    ],
-   "commit": "9e7cbec67d895319c625ddc043e701b72c674cfc",
-   "sha256": "1m1yliawpp1gmhn9z2kcglj4bxy41a9rrzs1nqvqq15456r3p5si"
+   "commit": "d152f9cf07e8b19b5cf2d6ff20437130dd9cfcc5",
+   "sha256": "1jkavj7hrliqa28i1n8khwncg8nmfgsfxv4b0lvgn4m2zzbq4x5y"
   }
  },
  {
@@ -40467,8 +40467,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "165809acc9396aa3c97b5b0091386825eeff1cad",
-   "sha256": "0s1vlr9c3fax52gsjbgf944ympyzrlv9mnbsdqsyjy6h71c13cbj"
+   "commit": "64aa65bd55793d8714079d37f06dd2701099c169",
+   "sha256": "136qa8wp5pnwbfx0hiv9hkhj6f3g74i4i8h0hjfazc6vn2br14s8"
   },
   "stable": {
    "version": [
@@ -71146,8 +71146,8 @@
    "deps": [
     "org"
    ],
-   "commit": "746d7afa3e59b23f15b499a807c3b01a93cf8b77",
-   "sha256": "14aafqw8rnbmiy3kcw1a58vjxdyamrbmlldnlw018wgk0qqv0xpx"
+   "commit": "4659cfc120ecefc4841f48bb8ea516eedafe8100",
+   "sha256": "077slssksl3hr0fdbmcsqh5brnn618aqmi1mzjvknwasicsg6fxa"
   },
   "stable": {
    "version": [
@@ -85382,8 +85382,8 @@
     20190413,
     1246
    ],
-   "commit": "cd2723c42978f23baccbdb1cd207c6ef1998b775",
-   "sha256": "0fiwdmy6yfrkkyx8g17a4qahzbyiir9mmsr18najd8jdr2fszwh1"
+   "commit": "2e22499abade7f5540071bcd236dd162feeb4d07",
+   "sha256": "1ap46b2sarmd1m78a2wq4m2gc7v3a390x3h081f8lgrj4493sw8c"
   }
  },
  {
@@ -94092,8 +94092,8 @@
     20200212,
     1903
    ],
-   "commit": "addbc048cb596e2511927302aced17ce1fc3dfb4",
-   "sha256": "1kl3qsk7fa2rxnwp8230w363q8lrv2pby46j6nild9cfiwbqf01a"
+   "commit": "28d2e2c714d6051b620a2672ec5a9659a70cd805",
+   "sha256": "03bsrwp4pi4rcq8cfb475fqcm2dp9zzim9bw1a0smm6vvrfn73bh"
   },
   "stable": {
    "version": [
@@ -95087,6 +95087,24 @@
    ],
    "commit": "a269614c69ad8b2703e6e5093d0017d6afad6cca",
    "sha256": "0w50sh55c04gacx2pp19rvi0fwj9h19c9gzd8dpa82zjiidfxckr"
+  }
+ },
+ {
+  "ename": "transient-dwim",
+  "commit": "0ad7091aa6129c09e457c71274a42344acd6b823",
+  "sha256": "1q32if4i913vjbcpcdrfznjiih4c30ipnadn84zkr72wn5ndzlpq",
+  "fetcher": "github",
+  "repo": "conao3/transient-dwim.el",
+  "unstable": {
+   "version": [
+    20200331,
+    1656
+   ],
+   "deps": [
+    "transient"
+   ],
+   "commit": "f3a33f627cdcefbba3c18194b9d1418577939dbd",
+   "sha256": "0ys0wa3hpvza36mcdzhn013vwiv0s8hhmq9pcwq5jaxgagg8iqap"
   }
  },
  {
