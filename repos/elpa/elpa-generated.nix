@@ -2500,10 +2500,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "0.6.0";
+        version = "0.7.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-0.6.0.el";
-          sha256 = "14x2jgjn8di03rrad4x4mn8fhcqibk1j5c0ya0vmv8648fki6i9d";
+          url = "https://elpa.gnu.org/packages/posframe-0.7.0.el";
+          sha256 = "1kwl83jb5k1hnx0s2qw972v0gjqbbvk4sdcdb1qbdxsyw36sylc9";
         };
         packageRequires = [ emacs ];
         meta = {
