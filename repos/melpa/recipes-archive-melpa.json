@@ -3271,11 +3271,11 @@
   "repo": "dieter-wilhelm/apdl-mode",
   "unstable": {
    "version": [
-    20200405,
-    856
+    20200406,
+    650
    ],
-   "commit": "c9497b036df66cf9bbfc77002a870abfcf4d8e3a",
-   "sha256": "1b58clfx06753jk2z03xbbv3ra7gwks5zjfwx33bz1h5rbkapmwc"
+   "commit": "2d6fedeb7295dc9000b2bde6405d43ddc1190d43",
+   "sha256": "1h4kclhbgifd8q7138lcwr6p786rwdpx6jmsl6lhksy466x1pl68"
   },
   "stable": {
    "version": [
@@ -8575,6 +8575,25 @@
   }
  },
  {
+  "ename": "calc-at-point",
+  "commit": "9ab725281ae66c1b97875518614a0f6312ace3a8",
+  "sha256": "1yzb2gmmdrcckgq1kd1gcbnbqf65aia7nx4j2lgrh2n9dlp40d03",
+  "fetcher": "github",
+  "repo": "walseb/calc-at-point",
+  "unstable": {
+   "version": [
+    20200404,
+    149
+   ],
+   "deps": [
+    "dash",
+    "dash-functional"
+   ],
+   "commit": "2c85c7cd791789bdfebcbed4d2375481b089d212",
+   "sha256": "0zk3rc200igy9hb0a7yshvld2py4flawfh4h1dzy168g8ycd9gg8"
+  }
+ },
+ {
   "ename": "calendar-norway",
   "commit": "c5d01230027d5cec9da2545a9ce9270a611f6567",
   "sha256": "1i23ks0bnq62bvn3szvqf0ikcam4s92yvr998mkjxhdhc94zd19c",
@@ -11320,8 +11339,8 @@
     20190710,
     1319
    ],
-   "commit": "1f06acba9c4ade8b54e237b7a4ec5518be57a461",
-   "sha256": "0mnzyj8y3ibyr73a161zj96khgc5ljhwbx5mviym21fv1mdva59g"
+   "commit": "e746f1dc06226a6d8d8cd4eded6beba86fbed774",
+   "sha256": "1hs32zg67h0nvh2gmzkbsgzlqzk4rj1l45dmqk6ywl7hbpaqkd0l"
   },
   "stable": {
    "version": [
@@ -22340,8 +22359,8 @@
     20200107,
     2333
    ],
-   "commit": "6f8b7d87fcb60c31cea4a85dddec2ebc58790ecb",
-   "sha256": "1dggv94lghbcydrq2vm887pq7n8bg21ddhgvkff2fb13xmwal9f5"
+   "commit": "85c35bd3ac7efe7f0c57cab6802411a92ecdf7f0",
+   "sha256": "1k7zddsvpb6481r25dxyml1jmxd29v97vs0y9qcb840vlvhba7rx"
   },
   "stable": {
    "version": [
@@ -40505,8 +40524,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "42785796df0c2ae6a7e9d95c1ea0f8cc39abd4ab",
-   "sha256": "0ryar1ygpkzahhh0x136zc8mlr6a0kakwd0s8dh4nsr3bna5pa50"
+   "commit": "38815aeff0440965aa574fbcf3b030d2ee2e3ab0",
+   "sha256": "18kkswbvdwal3j5jwc84q6rv26hlvkn686wv3z31lbcq43lfkvzw"
   },
   "stable": {
    "version": [
@@ -58440,8 +58459,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20200405,
-    1534
+    20200406,
+    615
    ],
    "deps": [
     "dash",
@@ -58452,8 +58471,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "540eb3a38dea040144fad80d5a2f450da5916aea",
-   "sha256": "0l94a72x9b7drin311wyhqsarnpx6mwdgisi9lpnzlqwjk9pzd20"
+   "commit": "31fe3c077fbb61d42e48108c2d02ca561f57c7be",
+   "sha256": "0sx2fggjlq1hdx8v2d09xxhdarfkwvzanx4n0i52n6krsgfh6mh7"
   },
   "stable": {
    "version": [
@@ -65379,8 +65398,8 @@
     20181024,
     1439
    ],
-   "commit": "8900fa55b56ba1e2f83b3f3ba2a1b336c97e5dc3",
-   "sha256": "0x6l5r5i1q7pbvziynbvb395q8rihkr1zyhp4xzw35xn55qyskiy"
+   "commit": "64ebbcb31ae326cf535c0a5998c29a9252d23c7d",
+   "sha256": "089kgpivvdpnn8yf8nsgcbrgcfvlp2xdlp2ldwhhfj20jysic8ar"
   },
   "stable": {
    "version": [
@@ -67890,8 +67909,8 @@
     20200320,
     1154
    ],
-   "commit": "5dc27716c706166e1932f4a0e9f94384b6d17cb0",
-   "sha256": "0im6ds8mvnwfrh3z0cd05g32w9rklhl56xmhzl9i2180pv6qwil8"
+   "commit": "9005661e18d9eaaf1105018d084916e4927cc66b",
+   "sha256": "0ca80z6drsw9jkwijn6f05y1n7rmcypvh0yvsb77wnqrzd7y4p68"
   },
   "stable": {
    "version": [
@@ -69614,11 +69633,11 @@
   "repo": "bastibe/org-journal",
   "unstable": {
    "version": [
-    20200405,
-    820
+    20200406,
+    539
    ],
-   "commit": "e11b5270ac95e42e5927a1d5a05f105403fc7a79",
-   "sha256": "1rp41b9r5cdccrrj3in14i678rdb8hdc8f6fybzd3pvrazldkagj"
+   "commit": "3b7f7f64e5ba1a9176316e8ee6218f8fc4962a24",
+   "sha256": "0zw3jd1hn0brsc8iz6cggbnrz2q93vvxskcvgkv2hkxv0qk1aqvx"
   },
   "stable": {
    "version": [
@@ -80052,11 +80071,11 @@
   "repo": "flexibeast/pulseaudio-control",
   "unstable": {
    "version": [
-    20190828,
-    1136
+    20200406,
+    752
    ],
-   "commit": "1b844a9b21d549bfe767990b4c611de3bc4e2241",
-   "sha256": "0fz2ynxxgq3j7hvfmqq24gvbfpc08apz6zw9cjav08r5z04n1xr3"
+   "commit": "a931533140547510decdc368f39b2d2b97ca725f",
+   "sha256": "1jvjn9jszjjapi167an49jxcvr88cvgjwykglhp4b8lwhbjfqw76"
   }
  },
  {
@@ -86183,6 +86202,14 @@
    "commit": "5995a4ba07a7b1b5f661ff050d93ad702f9014a4",
    "sha256": "105zl102dwbzvk50xh6b824nq6p24kxhky18ghdnk5yi5sv620lm"
   }
+ },
+ {
+  "ename": "selectrum-prescient",
+  "commit": "5724ebca5ab5a1c3087cc13ae0693548666ed62b",
+  "sha256": "1zr83pq39i56v5bx78cp5cg2lrwz01975ng4h1ziv6nrh9p7vvr0",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "raxod502/prescient.el"
  },
  {
   "ename": "semaphore",
@@ -96877,6 +96904,14 @@
    "commit": "dac9dbed946a26829e6227ac15c0fa1d07ccd05f",
    "sha256": "0fgipv93x47cvyww07cqx8xa95jz36y6fy5rmaq40jnnmdkgq862"
   }
+ },
+ {
+  "ename": "unobtrusive-magit-theme",
+  "commit": "6dd57561738c2dc3ed6dc03f57d2487ce949f035",
+  "sha256": "05djixlq49dn1m64xs8b6w4kg650wrr8rs2pb72p1kfvp2a53g7w",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "tee3/unobtrusive-magit-theme"
  },
  {
   "ename": "untitled-new-buffer",
