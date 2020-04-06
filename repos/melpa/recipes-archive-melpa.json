@@ -15970,6 +15970,14 @@
    ],
    "commit": "aa6ecfdafae968e595fe55790def23225d6ad771",
    "sha256": "1fcb8pmpd8fxxyaparhjqd1ch5kxj18xf4jasvpgcmwpfcmdvma1"
+  },
+  "stable": {
+   "version": [
+    1,
+    0
+   ],
+   "commit": "41eecedf44f2235ce13e021906c4ce92deddefdc",
+   "sha256": "10gnhafas54zj3z9173h1g7b519ac4i26afclmw3w1pk6qyyb03z"
   }
  },
  {
@@ -18036,14 +18044,14 @@
   "repo": "dgutov/diff-hl",
   "unstable": {
    "version": [
-    20200329,
-    1724
+    20200406,
+    37
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "7fce94f7d5eebea06aed153b0f574567182c8d2b",
-   "sha256": "11m9ab7ymvbsxgddwxwcr8mrll3m67lnib8bpmb9vmh16zb2mzcl"
+   "commit": "a625033fb1dde83f6e4c2fc21f632b22ec34b609",
+   "sha256": "01m0aknqn0pgb46877kbz9n1nqmlamrlm58g2q894imbhybgfpan"
   },
   "stable": {
    "version": [
@@ -23783,8 +23791,8 @@
   "repo": "jcollard/elm-mode",
   "unstable": {
    "version": [
-    20200405,
-    454
+    20200406,
+    214
    ],
    "deps": [
     "dash",
@@ -23792,8 +23800,8 @@
     "reformatter",
     "s"
    ],
-   "commit": "840de9f72711d67faa14a53de8624a4be33f1e70",
-   "sha256": "056lwhw4wjnkrklpv13ik5zvfn7ghi1rn54i4023ygqysjc9gda2"
+   "commit": "7782be0814b52f7c35a09b21a4839c1502a4707f",
+   "sha256": "0g3mxp80hfjwf3adaslwykk01w5fh5y6nwj4687wbm5dldvhr42i"
   },
   "stable": {
    "version": [
@@ -56337,15 +56345,16 @@
   "repo": "conao3/leaf-convert.el",
   "unstable": {
    "version": [
-    20200405,
-    1622
+    20200406,
+    210
    ],
    "deps": [
     "leaf",
-    "leaf-keywords"
+    "leaf-keywords",
+    "ppp"
    ],
-   "commit": "960e3af4a2793d96b2711c083585408b710bdaea",
-   "sha256": "1a1h86xcfz8nhlznypnqfzrhq81hbkmb6mqvvml39ai0dz15i8gb"
+   "commit": "45926f1ee5bcfe4b1f14d63ad5686aba53144c5a",
+   "sha256": "16nycnvd8fnb7zflr5cp26g88jallahfsk7nvmzsgjf62gnri7iz"
   }
  },
  {
@@ -86156,9 +86165,24 @@
   "ename": "selectrum",
   "commit": "4273a6e55cf797d1fab1825618aab7e9b6c01886",
   "sha256": "012jmgr7w6x0gy8ygpzyyk23adyzmr7cknz2w51zjapcilkf6ghv",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "raxod502/selectrum"
+  "repo": "raxod502/selectrum",
+  "unstable": {
+   "version": [
+    20200404,
+    1550
+   ],
+   "commit": "c9990ece6f14c5c6f8d340c9a5e6b8c4dc27f0d9",
+   "sha256": "12bq5h9i53dy3l2zc5izf2g06ch90dc1qczf1dzmnrgvgsh8567b"
+  },
+  "stable": {
+   "version": [
+    1,
+    0
+   ],
+   "commit": "5995a4ba07a7b1b5f661ff050d93ad702f9014a4",
+   "sha256": "105zl102dwbzvk50xh6b824nq6p24kxhky18ghdnk5yi5sv620lm"
+  }
  },
  {
   "ename": "semaphore",
@@ -94169,8 +94193,8 @@
     20200212,
     1903
    ],
-   "commit": "678448cf362c31b461a56d00bfc222639f252801",
-   "sha256": "066fq798j9c5lps2aj953j4kr62xwkg7div8xraksiky4hnpwk2q"
+   "commit": "d00b7d3edd14030f247e944b4edd9a1ce8f27e99",
+   "sha256": "0d65ymvrx966nrf0b5h3nm93c4gmczchdp5zb2j0nfq3mcyh01j7"
   },
   "stable": {
    "version": [
@@ -98568,11 +98592,11 @@
   "repo": "akermu/emacs-libvterm",
   "unstable": {
    "version": [
-    20200327,
-    1447
+    20200406,
+    200
    ],
-   "commit": "996c535b9cc6aa70c3595413582d97abfab16edd",
-   "sha256": "0f84376rc9gm54llfln1528p82svczfrz9p48d1vh9pmf5ba09vw"
+   "commit": "5d1a784e404a9a947a95109c6955813e51cbad59",
+   "sha256": "01552fd4zqb5sa0s2skliw850v500pbh8vmshcbjm44r7j8nhnci"
   }
  },
  {
