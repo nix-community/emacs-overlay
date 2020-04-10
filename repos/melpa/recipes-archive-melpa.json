@@ -8861,7 +8861,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
    ]
   }
  },
@@ -16354,8 +16354,8 @@
     20190111,
     2150
    ],
-   "commit": "0f03e47d6ca8d90d279597c6c7eccd3c4f579371",
-   "sha256": "1jqwcvx8l40djvhcjdlxw65q8cw89228d462nn289a4r9s2fbg4z"
+   "commit": "df88d3aadf82e3a60a20d3163ce2e6e7fdd992ed",
+   "sha256": "11ql596h0s77mvhhhqw7kkv2qs0vh6caqjackwivhkng3i52qc0a"
   },
   "stable": {
    "version": [
@@ -78590,13 +78590,13 @@
   "unstable": {
    "version": [
     20200410,
-    1442
+    1605
    ],
    "deps": [
     "leaf"
    ],
-   "commit": "b03615bfb56d6ae2a1333e47b0eede6c77fd5902",
-   "sha256": "06v99fmc1dpm3lqmc7kqa1fl77wvp781hkgk7sp0sssi19a8q4zg"
+   "commit": "7b218e41e8bb8c0d84a752babf9d0cb9bc8798a5",
+   "sha256": "01mzwsrw0128b6rqkl6c3l4hq2hry8v7ycda6vi742i1vmhwzw0l"
   },
   "stable": {
    "version": [
@@ -94122,26 +94122,26 @@
   "repo": "myTerminal/theme-looper",
   "unstable": {
    "version": [
-    20200409,
-    124
+    20200410,
+    1757
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "e074cd3a46ba47093c2bd39e888483daca2b65d7",
-   "sha256": "1k6dc2bj7kjjdjf25kd572167dnsrbzp21ggfg5jyvb4syqzn89i"
+   "commit": "0e314ad21193441a26ce1839737e7a054e6a1a1b",
+   "sha256": "1v4rv2w8jdjzikwfjxsxqrbfwh6nm88v9x74pdhc3mq36qwl487g"
   },
   "stable": {
    "version": [
     2,
-    5,
+    6,
     0
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "7077ca11508c6a00d98d592dee967e92185480ff",
-   "sha256": "02kiaqlrb677773809sfkajz31p9fsr72k4k0g5297wlibr9ymjr"
+   "commit": "0e314ad21193441a26ce1839737e7a054e6a1a1b",
+   "sha256": "1v4rv2w8jdjzikwfjxsxqrbfwh6nm88v9x74pdhc3mq36qwl487g"
   }
  },
  {
