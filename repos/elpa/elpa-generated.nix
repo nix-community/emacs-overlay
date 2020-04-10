@@ -2320,10 +2320,10 @@
       elpaBuild {
         pname = "orgalist";
         ename = "orgalist";
-        version = "1.11";
+        version = "1.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/orgalist-1.11.el";
-          sha256 = "0zbqkk540rax32s8szp5zgz3a02zw88fc1dmjmyw6h3ls04m91kl";
+          url = "https://elpa.gnu.org/packages/orgalist-1.12.el";
+          sha256 = "1hwm7j0hbv2pg9w885ky1c9qga3grcfq8v216jv2ivkw8xzavysd";
         };
         packageRequires = [ emacs ];
         meta = {
