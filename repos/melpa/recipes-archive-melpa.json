@@ -16354,8 +16354,8 @@
     20190111,
     2150
    ],
-   "commit": "df88d3aadf82e3a60a20d3163ce2e6e7fdd992ed",
-   "sha256": "11ql596h0s77mvhhhqw7kkv2qs0vh6caqjackwivhkng3i52qc0a"
+   "commit": "7a8e8890b825c4b50a3dce2f897081beac4fbd79",
+   "sha256": "1l47k9vbzbinswx9qrx4zgapfcliz4ss9fcjm4nb3n8q19hfb7m5"
   },
   "stable": {
    "version": [
@@ -22512,8 +22512,8 @@
   "repo": "millejoh/emacs-ipython-notebook",
   "unstable": {
    "version": [
-    20200328,
-    2131
+    20200410,
+    1735
    ],
    "deps": [
     "anaphora",
@@ -22523,8 +22523,8 @@
     "request",
     "websocket"
    ],
-   "commit": "6fc75f20aa0b6666e743ce674c6da526f88793b1",
-   "sha256": "10cm3pvpjrqy76xd9067ayn108z34014cyaal4vj2l69yrkfr0m1"
+   "commit": "b1dbc6f411cbf3cf2c7beba70f78fabb39d139d4",
+   "sha256": "0rywvxsp7f4a83x8zk61rwpg2xin3dszhp88sn9a07k48yxlw3ky"
   },
   "stable": {
    "version": [
@@ -33504,15 +33504,15 @@
   "repo": "emacs-php/phpstan.el",
   "unstable": {
    "version": [
-    20200405,
-    1117
+    20200410,
+    2206
    ],
    "deps": [
     "flycheck",
     "phpstan"
    ],
-   "commit": "9345480715b12fe1346708e714ce8e12ce3a9ae2",
-   "sha256": "161x4f0hkvcmmkvijj5vf00ijvgifg3kv9m5rcw5jygx1kxi17lj"
+   "commit": "2414947911b2a54edf6529ac679628d23829b72d",
+   "sha256": "0l034y0lxvylpagyv7wpsk4xznmsg6r67rnrsxccfxc1b7nmffzc"
   },
   "stable": {
    "version": [
@@ -39980,20 +39980,20 @@
   "repo": "emacsorphanage/god-mode",
   "unstable": {
    "version": [
-    20200409,
-    1236
+    20200410,
+    2137
    ],
-   "commit": "05e167eda7bd9d5a69ad4cbf8935ccb3ae53256c",
-   "sha256": "1a4l4y7x3ymnss1ckz6m1bq8izmfdm8df0awfgvmjxiya2nk8bx9"
+   "commit": "1b28ef44f6e576c9c1ef47e84b141786ee91bf6d",
+   "sha256": "19cdcc8swra27shwfpgc85cv5bzd1yvl5kic8ki9xdkfq6xfimj8"
   },
   "stable": {
    "version": [
     2,
     16,
-    0
+    1
    ],
-   "commit": "b82ce18ae4db2078c03d92946e21808c1f325f15",
-   "sha256": "1a490s5s8884rhb35gw4dxdzk2djvdiw4zsp9866sfrwh7xcama4"
+   "commit": "e9a00c2e290fdfedabc6d8b263bab52a552206cc",
+   "sha256": "16apdza5zfyz4ka05vz5zx9wm2yq6ay562w2s67qvijx40fwm08y"
   }
  },
  {
@@ -41722,14 +41722,14 @@
   "repo": "hhvm/hack-mode",
   "unstable": {
    "version": [
-    20200407,
-    246
+    20200410,
+    2059
    ],
    "deps": [
     "s"
    ],
-   "commit": "f923737929e0916dc42c86b75a016c6c29b98bbc",
-   "sha256": "11qrvprbzfrsw46xdyv09z5jhca33mijnbhpf1kd8fha1nwc2ywk"
+   "commit": "e3f8c503be5895ab774aea9366431159b41942d4",
+   "sha256": "0rjf7xvgfw806fjabp68cry0hzqvixyirxsswq3qa2954rhbfbcm"
   },
   "stable": {
    "version": [
@@ -70893,7 +70893,7 @@
   "unstable": {
    "version": [
     20200410,
-    1211
+    2020
    ],
    "deps": [
     "dash",
@@ -70903,8 +70903,8 @@
     "org",
     "s"
    ],
-   "commit": "05c9e8e2e7a58f832b5536e5c612e3d56daaeba9",
-   "sha256": "1v1ackpfkgaajm05k2c67lhcs4x5h4jfjh6wcmk8kkyaxj095117"
+   "commit": "ba1782d361b4b9da7a891dba8b0fa7861dc91bbe",
+   "sha256": "1ygd6c8l91xvn58706hm45yzln12cxrqw0dcbi762g8di6ymg252"
   },
   "stable": {
    "version": [
@@ -72824,30 +72824,30 @@
   "repo": "aki2o/owdriver",
   "unstable": {
    "version": [
-    20200326,
-    1608
+    20200410,
+    1901
    ],
    "deps": [
     "log4e",
     "smartrep",
     "yaxception"
    ],
-   "commit": "a243051365eb7ac0d1845c8b468b90510998f66e",
-   "sha256": "05a3s01y3sls6as28wvd1y5pmasqlz9k597yba10c0spxvlaijcn"
+   "commit": "3c52a7b11c8275fdb2e4cf98f68f2a48ad09a3ae",
+   "sha256": "1lxvcbpzpzs3vkgg4pif3k89ddmj5mamk2q18wc3gx0czs6v301d"
   },
   "stable": {
    "version": [
     0,
-    1,
-    1
+    2,
+    0
    ],
    "deps": [
     "log4e",
     "smartrep",
     "yaxception"
    ],
-   "commit": "a243051365eb7ac0d1845c8b468b90510998f66e",
-   "sha256": "05a3s01y3sls6as28wvd1y5pmasqlz9k597yba10c0spxvlaijcn"
+   "commit": "3c52a7b11c8275fdb2e4cf98f68f2a48ad09a3ae",
+   "sha256": "1lxvcbpzpzs3vkgg4pif3k89ddmj5mamk2q18wc3gx0czs6v301d"
   }
  },
  {
@@ -76347,14 +76347,14 @@
   "repo": "emacs-php/phpstan.el",
   "unstable": {
    "version": [
-    20200405,
-    1119
+    20200410,
+    2206
    ],
    "deps": [
     "php-mode"
    ],
-   "commit": "9345480715b12fe1346708e714ce8e12ce3a9ae2",
-   "sha256": "161x4f0hkvcmmkvijj5vf00ijvgifg3kv9m5rcw5jygx1kxi17lj"
+   "commit": "2414947911b2a54edf6529ac679628d23829b72d",
+   "sha256": "0l034y0lxvylpagyv7wpsk4xznmsg6r67rnrsxccfxc1b7nmffzc"
   },
   "stable": {
    "version": [
@@ -78078,28 +78078,28 @@
   "repo": "aki2o/emacs-pophint",
   "unstable": {
    "version": [
-    20200322,
-    737
+    20200410,
+    1908
    ],
    "deps": [
     "log4e",
     "yaxception"
    ],
-   "commit": "2c43423c87c6892b0fd16e3749e021a3743ee708",
-   "sha256": "0ila3vqv5wkna11qmm221iv1nzafnvffda19mqmv8fpl2iv1197s"
+   "commit": "4f6bbea1fc03b30dc17a9c1eb7510f26bb0138be",
+   "sha256": "0dgjza752q7vi9l44dp9mg9hddzzy5h49hc5dgl2wh8x63x9ja7q"
   },
   "stable": {
    "version": [
     1,
     1,
-    0
+    1
    ],
    "deps": [
     "log4e",
     "yaxception"
    ],
-   "commit": "2c43423c87c6892b0fd16e3749e021a3743ee708",
-   "sha256": "0ila3vqv5wkna11qmm221iv1nzafnvffda19mqmv8fpl2iv1197s"
+   "commit": "4f6bbea1fc03b30dc17a9c1eb7510f26bb0138be",
+   "sha256": "0dgjza752q7vi9l44dp9mg9hddzzy5h49hc5dgl2wh8x63x9ja7q"
   }
  },
  {
@@ -79709,10 +79709,10 @@
   "unstable": {
    "version": [
     20200410,
-    1111
+    2113
    ],
-   "commit": "be9a8c86e0af408e7bd889040f344d314d5b6724",
-   "sha256": "0i1cq77rjyxa0j6iyb1fiblmnr1vdv0dh1z6aynnvdrs5dp5mqpb"
+   "commit": "1ef1286c43d4d099b3b017069ed09c261eb8b6ca",
+   "sha256": "0hs2vzx195ylgy9zskf5l2q1n0zacc4ngrr53q64j16xynbdxmap"
   },
   "stable": {
    "version": [
@@ -94265,8 +94265,8 @@
     20200212,
     1903
    ],
-   "commit": "54dc44ba8ae1ceba339cf47818965639647e2524",
-   "sha256": "13smv72mszy24wawkwplj4syiw1mq6dw89jvj7mvabvqcz1cjc63"
+   "commit": "a666088245e36b3f0cdf34f09e66855030d64bd3",
+   "sha256": "1fkcvjknqqwsvbd86qh3jk9sgcw95a946imz8cnxbdlpavphdxkd"
   },
   "stable": {
    "version": [
@@ -98778,8 +98778,8 @@
   "repo": "mihaiolteanu/vuiet",
   "unstable": {
    "version": [
-    20200407,
-    1642
+    20200410,
+    1837
    ],
    "deps": [
     "bind-key",
@@ -98788,8 +98788,8 @@
     "s",
     "versuri"
    ],
-   "commit": "ff099786a96c9d4875d2b1810b4c6963b8a4d1a6",
-   "sha256": "0lb69dywsx9rrdspq5w9wqy32nd19rf7f00w46sjr070fb6ryxaa"
+   "commit": "3d451ef842c0b57d8698a09f484fc1cfef05aee2",
+   "sha256": "1ana7wig08mgfghip28dj9mxj0yaw868bwb7k47dsj6pnlnrwn8p"
   }
  },
  {
