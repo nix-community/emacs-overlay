@@ -2857,6 +2857,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    scanner = callPackage ({ dash, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "scanner";
+        ename = "scanner";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/scanner-0.1.tar";
+          sha256 = "0hv4w7yzfdnz8vrfhw6i6agj9hs09vzsqr63nrp6dd93q0gk71mw";
+        };
+        packageRequires = [ dash emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/scanner.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     scroll-restore = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "scroll-restore";
