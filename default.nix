@@ -34,6 +34,11 @@ let
       ./patches/tramp-detect-wrapped-gvfsd.patch
       ./patches/clean-env.patch
     ];
+    postPatch = ''
+       substituteInPlace lisp/loadup.el \
+         --replace '(emacs-repository-get-version)' '"${repoMeta.rev}"' \
+         --replace '(emacs-repository-get-branch)' '"master"'
+    '';
   });
 
   emacsUnstable = let
