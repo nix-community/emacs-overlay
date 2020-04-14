@@ -29,7 +29,7 @@ let
       repo = "emacs";
       inherit (repoMeta) sha256 rev;
     };
-    buildInputs = old.buildInputs ++ [ super.jansson ];
+    buildInputs = old.buildInputs ++ [ super.jansson super.harfbuzz.dev ];
     patches = [
       ./patches/tramp-detect-wrapped-gvfsd.patch
       ./patches/clean-env.patch
@@ -51,7 +51,7 @@ let
       repo = "emacs";
       inherit (repoMeta) sha256 rev;
     };
-    buildInputs = old.buildInputs ++ [ super.jansson ];
+    buildInputs = old.buildInputs ++ [ super.jansson super.harfbuzz.dev ];
     patches = [
       ./patches/tramp-detect-wrapped-gvfsd-27.patch
       ./patches/clean-env.patch
