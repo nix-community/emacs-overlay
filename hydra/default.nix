@@ -17,6 +17,7 @@ let
     enableemail = false;
     emailoverride = "";
     keepnr = 3;
+    type = 0;  # Non-flake (legacy)
     inputs = {
       src = {
         type = "git";
