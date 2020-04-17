@@ -13,6 +13,6 @@ in {
   # emacsPackages = mkEmacsSet pkgs.emacs;
   # emacsUnstablePackages = mkEmacsSet pkgs.emacsUnstable;
   inherit (pkgs) emacsUnstable emacsUnstable-nox;
-  # inherit (pkgs) emacsGit emacsGit-nox;
+  inherit (pkgs) emacsGit emacsGit-nox;
   # Note that we're not building packages for emacsGit
 }
