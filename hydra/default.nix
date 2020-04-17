@@ -40,8 +40,11 @@ in {
     cat <<EOF
     ${builtins.toXML declInput}
     EOF
-    cat > $out <<EOF
+    cat > spec.json <<EOF
     ${builtins.toJSON jobsets}
     EOF
+
+    cat spec.json | ${pkgs.jq}/bin/jq -r . > $out
+
   '';
 }
