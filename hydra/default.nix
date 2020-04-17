@@ -4,12 +4,14 @@ let
 
   mkJobset = {
     nixpkgsRelease
+    , nixFile
+    , descriptionNote
   }: {
     enabled = 1;
     hidden = false;
-    description = "Emacs-overlay jobset for nixpkgs branch ${nixpkgsRelease}";
+    description = "Emacs-overlay jobset for nixpkgs branch ${nixpkgsRelease} (${descriptionNote})";
     nixexprinput = "src";
-    nixexprpath = "hydra/release.nix";
+    nixexprpath = "hydra/${nixFile}";
     checkinterval = 300;
     schedulingshares = 100;
     enableemail = false;
@@ -32,9 +34,18 @@ let
   jobsets = {
     unstable = mkJobset {
       nixpkgsRelease = "nixos-unstable";
+      nixFile = "emacsen.nix";
+      descriptionNote = "emacs";
     };
     stable = mkJobset {
       nixpkgsRelease = "nixos-20.03";
+      nixFile = "emacsen.nix";
+      descriptionNote = "emacs";
+    };
+    unstable-pkgs = mkJobset {
+      nixpkgsRelease = "nixos-unstable";
+      nixFile = "packages.nix";
+      descriptionNote = "emacs packages";
     };
   };
 
