@@ -925,10 +925,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.6.13";
+        version = "0.6.14";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.6.13.tar";
-          sha256 = "1nxbp7w4xxij07q8manc15b896sl10yh2h1cg88prdqbw1wk62qr";
+          url = "https://elpa.gnu.org/packages/ebdb-0.6.14.tar";
+          sha256 = "1j64k1xra7bm6arjj4s81x6c6zryf672nqaj8vhs2j4amw63hkig";
         };
         packageRequires = [ cl-lib emacs seq ];
         meta = {
@@ -1005,10 +1005,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.5";
+        version = "1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eglot-1.5.tar";
-          sha256 = "00ifgz9r9xvy19zsz1yfls6n1acvms14p86nbw0x6ldjgvpf279i";
+          url = "https://elpa.gnu.org/packages/eglot-1.6.tar";
+          sha256 = "15hd6sx7qrpvlvhwwkcgdiki8pswwf4mm7hkm0xvznskfcp44spx";
         };
         packageRequires = [ emacs flymake jsonrpc ];
         meta = {
@@ -2959,6 +2959,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/sisu-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    sm-c-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "sm-c-mode";
+        ename = "sm-c-mode";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/sm-c-mode-1.0.el";
+          sha256 = "1lq65dhcvrh6ybla37lvni7wmbjb5nhm75ja9cl79148da1zrg91";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/sm-c-mode.html";
           license = lib.licenses.free;
         };
       }) {};
