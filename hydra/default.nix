@@ -33,6 +33,9 @@ let
     unstable = mkJobset {
       nixpkgsRelease = "nixos-unstable";
     };
+    stable = mkJobset {
+      nixpkgsRelease = "nixos-20.03";
+    };
   };
 
 in {
