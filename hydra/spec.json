@@ -1,0 +1,24 @@
+{
+  "enabled": 1,
+  "hidden": false,
+  "description": "Emacs-overlay jobsets",
+  "nixexprinput": "src",
+  "nixexprpath": "hydra/default.nix",
+  "checkinterval": 300,
+  "schedulingshares": 100,
+  "enableemail": false,
+  "emailoverride": "",
+  "keepnr": 3,
+  "inputs": {
+    "src": {
+      "type": "git",
+      "value": "git://github.com/nix-community/emacs-overlay.git",
+      "emailresponsible": false
+    },
+    "nixpkgs": {
+      "type": "git",
+      "value": "git://github.com/NixOS/nixpkgs-channels.git nixos-unstable",
+      "emailresponsible": false
+    }
+  }
+}
