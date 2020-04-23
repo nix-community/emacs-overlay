@@ -11436,8 +11436,8 @@
     20190710,
     1319
    ],
-   "commit": "d9eb9e785e9873a7b034aec667bd808d34f1a907",
-   "sha256": "1h4mi9glbpzc7mmb73137gpjc9vzannil196rkb2pjlaid8vpahl"
+   "commit": "becf3b237ee7d6b96f0aa028a3faf00b0614319b",
+   "sha256": "143sfan9as831naxqxdh1czd8fniap2jh10y23gmrpi6bwbw5xfr"
   },
   "stable": {
    "version": [
@@ -26325,8 +26325,8 @@
     20200313,
     1030
    ],
-   "commit": "9a6e292336cb36561f9a993f86ddee363f1d0850",
-   "sha256": "11csv70mf6jacgis6asjwzz2ybgyj8yr0ca4l2wbz10dxcydr267"
+   "commit": "2c5a638bbdd5ff48ec836459205457698fc0823c",
+   "sha256": "1f8iscs5145m3ripykfwll2wd4dan9hy9xgf9ylpb8014lyvc9s0"
   },
   "stable": {
    "version": [
@@ -56196,8 +56196,8 @@
     "eglot",
     "math-symbol-lists"
    ],
-   "commit": "bf82f1066415cd5558e786288abc3323dc9df8fc",
-   "sha256": "003a1vm66ggsasidlmf13my2b32c73n9rjziyddidl1f20cj5zf2"
+   "commit": "ce1441a7159bd20cbacde9b91f73e58a160f18c9",
+   "sha256": "0fgiqf22mr9gxi811ffp1prfcnm7csrw7l919hkk6l6c1q1bvg06"
   }
  },
  {
@@ -58827,8 +58827,8 @@
     "request",
     "treemacs"
    ],
-   "commit": "c4350c88100d0b1cd652c42172bc1f878aeae477",
-   "sha256": "1sfn91bb6v35a41mcc05g93cq9wbjyzx6dxzwdz830h32a8nbx91"
+   "commit": "3924610eb9c4480a75c6d178d4ed922e46a8d7b5",
+   "sha256": "10h9j6mf7zmhg6n5qv0mgdga9cscr8sgzpg049yfzjw3nzkisaxy"
   },
   "stable": {
    "version": [
@@ -68961,6 +68961,21 @@
   }
  },
  {
+  "ename": "orderless",
+  "commit": "3f1f2c378e63c5ce8a8d37735f914ce0663a76d3",
+  "sha256": "102jfzq2zskaa8jcb4mmmndcdc8221qp0hqlgvwirnzkxms9ij4a",
+  "fetcher": "github",
+  "repo": "oantolin/orderless",
+  "unstable": {
+   "version": [
+    20200423,
+    556
+   ],
+   "commit": "b059c15911894035eba8cf097699dbf86d6c5c97",
+   "sha256": "0j6wjx95zx4wac98nisxap4y2kgcycw8fjg2120j92jhci5nlksg"
+  }
+ },
+ {
   "ename": "ordinal",
   "commit": "ea3dd6fe4cacc229dd1371cb66dd1cfd07321bf4",
   "sha256": "19s27mv7kqcg9qxa844al7q1hk0qbiqh93g1n54r3b6s980dlgcv",
@@ -75893,6 +75908,21 @@
   }
  },
  {
+  "ename": "pdb-capf",
+  "commit": "f0b7e12b9f49dc4ed1cc5a6893accc882896f334",
+  "sha256": "0656a2s8r8dg11in8r5xx984lcxd5g5l3x6vnha50s0c4nx93x3y",
+  "fetcher": "github",
+  "repo": "muffinmad/emacs-pdb-capf",
+  "unstable": {
+   "version": [
+    20200419,
+    1237
+   ],
+   "commit": "2f4099aa1330f87df4e9cd526de057ee9b71de6c",
+   "sha256": "0fdzhsz3784lf50mdabz9h2b6992cab2nnn4xv7rx2a8hsyyq1mq"
+  }
+ },
+ {
   "ename": "pdb-mode",
   "commit": "6aee132aa24322fe1ac88ae17ee6e77ae1ec8d11",
   "sha256": "1ihkxd15kx5m5xb9yxwz8wqbmyk9iaskry9szzdz1j4gjlczb6hy",
@@ -80429,8 +80459,8 @@
     20170526,
     1650
    ],
-   "commit": "18950451c7bfb1497f1deaf1c3868e79e332d80a",
-   "sha256": "1hdax0af8d6hah72zwwi9bvnqjcv952paxviiniqg332jgw3n93l"
+   "commit": "c953182fa92f1633faa098d0aff514ed84454522",
+   "sha256": "1gp0dzl0gdam5as3y83x2gzf8k5jadqxviibbn3zri2frc47mzix"
   },
   "stable": {
    "version": [
@@ -89265,14 +89295,14 @@
   "repo": "laishulu/emacs-smart-input-source",
   "unstable": {
    "version": [
-    20200422,
-    1844
+    20200423,
+    426
    ],
    "deps": [
     "names"
    ],
-   "commit": "2531f108164e3d675db7930e158ecef5c030d748",
-   "sha256": "1i04f413fxhrr3z75w714l0j296cjfipqk9j5sm5pqvbv9dnd834"
+   "commit": "f1767197deb5ef6245018a39742e44489e69ff93",
+   "sha256": "1k49kiz75vy62zxd1j907wx4am2wn4ms0hwqm4m8gcwwyw74iaqs"
   }
  },
  {
@@ -95056,8 +95086,8 @@
     20200212,
     1903
    ],
-   "commit": "caadbc23f0ed6b52d278516573911c3ef1c8792e",
-   "sha256": "1r739k5qwpcvigvnkwlcpyiah66ff612wkxiygjq68dp9p40dz1x"
+   "commit": "4134ddf9969aa02fa2249d6fa7dc14e13d44e673",
+   "sha256": "04qi0vvj2kli32x0pkdgy1mk4h9msz0yc7i517g0ycs3vqfbnfgf"
   },
   "stable": {
    "version": [
