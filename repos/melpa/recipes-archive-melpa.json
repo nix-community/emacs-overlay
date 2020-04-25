@@ -11436,8 +11436,8 @@
     20190710,
     1319
    ],
-   "commit": "0b7efd76955818ee41034969c8fcae2ed9d4a784",
-   "sha256": "1xws8fb2hrsj5sncc00xr9r84cn6dmp5bv02rwx4yzfhj3kn948k"
+   "commit": "a4071b53da1d1356f98685e2065bd3d8904d4930",
+   "sha256": "030rknn8d4lqnm864lw0xmzzwm3v80f0rg6a1a1r4myyvv7mfkid"
   },
   "stable": {
    "version": [
@@ -16399,8 +16399,8 @@
     20190111,
     2150
    ],
-   "commit": "5204d86989493855fdd0acd20debd9d0a270bb23",
-   "sha256": "170hjxgqcpadwfhl56g3bm0gsgh74yk7v861ypasgnlck8i6q8a4"
+   "commit": "8cff92eb98d662410ab90ae1312fab12bbb7d349",
+   "sha256": "1w9gmhd69m26b4rklvalfjgaz9s0g00a2f8j67lhsfsslcagn4i2"
   },
   "stable": {
    "version": [
@@ -16607,8 +16607,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20200418,
-    459
+    20200425,
+    512
    ],
    "deps": [
     "bui",
@@ -16619,8 +16619,8 @@
     "lsp-treemacs",
     "s"
    ],
-   "commit": "8da6af58e706b38565be87ab97a742e7b2fa67ef",
-   "sha256": "1walf6dhxkbq1pv242yxdda2d20d1rg8sqqdl9zrzl6j5airx745"
+   "commit": "84147b38e18dc69fe598ff94ad5c013725e36f7e",
+   "sha256": "0bhwh9ifs4cisd6vhij7hm3bpr9jb7h78y0gjwg08jqh1c84dl4a"
   },
   "stable": {
    "version": [
@@ -20208,16 +20208,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20200424,
-    1215
+    20200425,
+    553
    ],
    "deps": [
     "all-the-icons",
     "dash",
     "shrink-path"
    ],
-   "commit": "96350f6f814a04707054b67508d2be2da89e7201",
-   "sha256": "1yxrpa35pncnh97xm6diy6l7jm3a2816zd096jd5bccl6ac2kh40"
+   "commit": "c177959bbfa7fa6f199b1145c6986e55f462f1c1",
+   "sha256": "0iclkfryfj72c5377rydsxh090maq6i0sxj90cm6dalyazd7rl4k"
   },
   "stable": {
    "version": [
@@ -58722,6 +58722,36 @@
   }
  },
  {
+  "ename": "lsp-latex",
+  "commit": "5e3c176af536155c8110006fd4bc63eeb2b2d12c",
+  "sha256": "01kn9faak6y1zfd1143yj453hl6rp1xykrg5rp196zf6brywj5a1",
+  "fetcher": "github",
+  "repo": "ROCKTAKEY/lsp-latex",
+  "unstable": {
+   "version": [
+    20200419,
+    757
+   ],
+   "deps": [
+    "lsp-mode"
+   ],
+   "commit": "9f895680f624b36e9648180308cac55cadcccf7e",
+   "sha256": "0snv7w5mqcbci0n8yvgarrk72w9fy4l187b9rfi3bc22m4njx3vj"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    0
+   ],
+   "deps": [
+    "lsp-mode"
+   ],
+   "commit": "d016440fe364a016935bd90ae07e22d9012bcf8f",
+   "sha256": "0a6nryx7vshh4k0amlw3w3fn4yr8zlqxq5py8vj3pz4zkcndhxks"
+  }
+ },
+ {
   "ename": "lsp-mode",
   "commit": "1a7b69312e688211089a23b75910c05efb507e35",
   "sha256": "0cklwllqxzsvs4wvvvsc1pqpmp9w99m8wimpby6v6wlijfg6y1m9",
@@ -58729,8 +58759,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20200424,
-    2027
+    20200425,
+    434
    ],
    "deps": [
     "dash",
@@ -58741,8 +58771,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "85c3980f14bf8f1e8d72d9cb111158bc8427da22",
-   "sha256": "0c8aa13c85l27yd27qmxnw19kxi902dmywhx5mqbyyk57wslp5h0"
+   "commit": "f1d2cc0311d5995bf7cdeb583cdc587c21308b2c",
+   "sha256": "0swgdy8g0crg2788f538wfg58cmnbgcq9s4k102379irhn68x5y1"
   },
   "stable": {
    "version": [
@@ -58859,15 +58889,15 @@
   "repo": "emacs-lsp/lsp-python-ms",
   "unstable": {
    "version": [
-    20200223,
-    2136
+    20200425,
+    555
    ],
    "deps": [
     "cl-lib",
     "lsp-mode"
    ],
-   "commit": "2a6e7449d4d02f81469f4fe03e7b9f8e13bf860d",
-   "sha256": "1hzryafj7g3dsz9xa9w64xb4amac8i27925ljg33szwbjwjavmwb"
+   "commit": "19feb4aaaa03382e5d9841f237dd1685d8fe2994",
+   "sha256": "040qahn9h30n44ik0yrcdysx9lhvdnjxh1wj5nzylmzblxz9s2ga"
   },
   "stable": {
    "version": [
@@ -68791,10 +68821,10 @@
   "unstable": {
    "version": [
     20200425,
-    11
+    418
    ],
-   "commit": "50c83f2752f803e413125acc90ebcb09d98fe8db",
-   "sha256": "1rdha5z0naxanfx11mi159acv0fnh9xyb9xc6n0p7i8smghppxkr"
+   "commit": "dc3f8da02270494e57764146836082e0d849cf55",
+   "sha256": "0pqfz6l6ncdp2kdx3q6fj86ifbripm6gsgnzczfnjg117qgk0jy7"
   }
  },
  {
@@ -77356,11 +77386,11 @@
   "repo": "juergenhoetzel/pkgbuild-mode",
   "unstable": {
    "version": [
-    20181216,
-    1331
+    20200425,
+    616
    ],
-   "commit": "e30e37730b5f30bc0dd5b9328fbf4cb3e6f46fdd",
-   "sha256": "1ijx067hlbr4yz9b9h58pwlqd4rgjgm27f5s1f9f3rwb249s36s1"
+   "commit": "bc22301198b3f581d89352510e847454fb1cb9ff",
+   "sha256": "11il65myybgfj30psicfgqpjwwpa6hwapf55d497x8kbixx2kpg1"
   },
   "stable": {
    "version": [
@@ -80094,11 +80124,11 @@
   "repo": "chuntaro/emacs-promise",
   "unstable": {
    "version": [
-    20200320,
-    341
+    20200425,
+    617
    ],
-   "commit": "02c470bd6c7bf4ea4244d304f57997bad37c9bb7",
-   "sha256": "1sjwwram45pb9bjap6h24m6734qr5yhnai2lqbdvxd0nplfv91ng"
+   "commit": "2a8e71420e8c9d2d4ce951d4342762aeedaae654",
+   "sha256": "1drz8qbcw5qjh5v0vkvflni14g58nmkmyn11ksjd49ck296mfsp7"
   },
   "stable": {
    "version": [
@@ -100893,9 +100923,16 @@
   "ename": "winds",
   "commit": "43a07dc1e9af8f832330131764147907826e06e5",
   "sha256": "1a5kw44pyilgaydyp87his41b2hw0xijp6sggl7bd60jwgspa0wy",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "Javyre/winds.el"
+  "repo": "Javyre/winds.el",
+  "unstable": {
+   "version": [
+    20200421,
+    29
+   ],
+   "commit": "843ac63cdca965c2d1cae641baa6370d97acb42f",
+   "sha256": "073nsx21rpaysm9bjswsqndpgqr71pc86cz0909ivw47iiqw1df6"
+  }
  },
  {
   "ename": "windsize",
