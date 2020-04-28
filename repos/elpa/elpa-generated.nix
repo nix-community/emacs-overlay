@@ -1378,6 +1378,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    gnu-elpa = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "gnu-elpa";
+        ename = "gnu-elpa";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/gnu-elpa-1.0.tar";
+          sha256 = "0ywwlsyvl2g49k0krk35z15l2drqg3rdf26786rw65vz4ip2j3id";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/gnu-elpa.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     gnu-elpa-keyring-update = callPackage ({ elpaBuild
                                            , fetchurl
                                            , lib }:
@@ -2455,10 +2470,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.3.43";
+        version = "0.3.44";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.3.43.tar";
-          sha256 = "099s7c0ll8bbfgynijjaciv2qnyg4r2akajkhlmchh7y10kp5ii4";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.3.44.tar";
+          sha256 = "1g0ciy7351xzq7w4h45pw5rsh3p72b0w9wr09a0nplmpc79nkyqh";
         };
         packageRequires = [ emacs ];
         meta = {
