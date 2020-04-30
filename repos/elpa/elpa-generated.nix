@@ -2026,10 +2026,10 @@
       elpaBuild {
         pname = "modus-operandi-theme";
         ename = "modus-operandi-theme";
-        version = "0.7.0";
+        version = "0.8.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-operandi-theme-0.7.0.el";
-          sha256 = "17zvcqplbl3rk39k61v43ganzv06j49rlyickanwll5m1a3iibw2";
+          url = "https://elpa.gnu.org/packages/modus-operandi-theme-0.8.0.el";
+          sha256 = "09lw556jphrxrmwxkwzfgd4r7ylz99m8awxka4sfj5sa8fbjb3g8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2041,10 +2041,10 @@
       elpaBuild {
         pname = "modus-vivendi-theme";
         ename = "modus-vivendi-theme";
-        version = "0.7.0";
+        version = "0.8.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-vivendi-theme-0.7.0.el";
-          sha256 = "1w4vrg39dghghkvll3h4kmzykc3zpp6pbychb39gcc13z2b06v8g";
+          url = "https://elpa.gnu.org/packages/modus-vivendi-theme-0.8.0.el";
+          sha256 = "0hwkzbx7a9scdr589sb7hw90lsm8yxcn3y5xr3bpyxf8rkr2zl4c";
         };
         packageRequires = [ emacs ];
         meta = {
