@@ -1711,10 +1711,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.9";
+        version = "1.0.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.9.el";
-          sha256 = "1ncsdv9pr2zsfa9mxm4n68fppnkpm410mh72r7h5f8yj17lz00ss";
+          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.10.el";
+          sha256 = "0n6lsyzbwcyhlwfbyal9hars427w75d5r3yykih651pzhcyxdxq1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2026,10 +2026,10 @@
       elpaBuild {
         pname = "modus-operandi-theme";
         ename = "modus-operandi-theme";
-        version = "0.8.0";
+        version = "0.8.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-operandi-theme-0.8.0.el";
-          sha256 = "09lw556jphrxrmwxkwzfgd4r7ylz99m8awxka4sfj5sa8fbjb3g8";
+          url = "https://elpa.gnu.org/packages/modus-operandi-theme-0.8.1.el";
+          sha256 = "0i8s6blkhx53m1jk1bblqs7fwlbn57xkxxhsp9famcj5m0xyfimb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2041,10 +2041,10 @@
       elpaBuild {
         pname = "modus-vivendi-theme";
         ename = "modus-vivendi-theme";
-        version = "0.8.0";
+        version = "0.8.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-vivendi-theme-0.8.0.el";
-          sha256 = "0hwkzbx7a9scdr589sb7hw90lsm8yxcn3y5xr3bpyxf8rkr2zl4c";
+          url = "https://elpa.gnu.org/packages/modus-vivendi-theme-0.8.1.el";
+          sha256 = "121nlr5w58j4q47rh9xjjf9wzb97yl2m1n2l6g58ck4vnarwndl1";
         };
         packageRequires = [ emacs ];
         meta = {
