@@ -95,14 +95,12 @@ in {
         generated = ./repos/elpa/elpa-generated.nix;
       };
 
-      # Note: Org generation is currently failing (probably a bug in emacs2nix)
-      # Comment this out when a fix has reached unstable
-      # orgPackages = esuper.orgPackages.override {
-      #   generated = ./repos/org/org-packages.nix
-      # }
+      orgPackages = esuper.orgPackages.override {
+        generated = ./repos/org/org-generated.nix;
+      };
 
       epkgs = esuper.override {
-        inherit melpaStablePackages melpaPackages elpaPackages;
+        inherit melpaStablePackages melpaPackages elpaPackages orgPackages;
       };
 
     in epkgs // {
