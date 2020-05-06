@@ -223,10 +223,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "12.2.0";
+        version = "12.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-12.2.0.tar";
-          sha256 = "0j919l3q5sq6h1k1kmk4kyv0vkzl4f98fxcd64v34x5q1ahjhg48";
+          url = "https://elpa.gnu.org/packages/auctex-12.2.1.tar";
+          sha256 = "14y0kdri2zvz81qwpncsr3ly4ciqab6g8yxl956k3ddn36b3a56s";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
