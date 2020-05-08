@@ -685,10 +685,10 @@
       elpaBuild {
         pname = "darkroom";
         ename = "darkroom";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/darkroom-0.2.el";
-          sha256 = "1a528brhz4vckhp77n2c1phkyqdliykpj9kzk3f834f4rwnb5mp0";
+          url = "https://elpa.gnu.org/packages/darkroom-0.3.el";
+          sha256 = "0l1xg5kqmjw22k78qnsln0ifx2dx74xxqj0qp8xxcpqvzzx0xh86";
         };
         packageRequires = [ cl-lib ];
         meta = {
