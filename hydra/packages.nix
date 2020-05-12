@@ -7,14 +7,15 @@ let
   };
   inherit (pkgs) lib;
 
-  # Save a lot of building by omiting some subsets
-  dontBuildSubAttrs = [
-    "melpaStablePackages"
-  ];
-
   mkEmacsSet = emacs: let
     emacsPackages = lib.recurseIntoAttrs (pkgs.emacsPackagesFor emacs);
-  in builtins.removeAttrs emacsPackages dontBuildSubAttrs;
+  in {
+    inherit (emacsPackages) elpaPackages;
+    inherit (emacsPackages) melpaStablePackages;
+    inherit (emacsPackages) melpaPackages;
+    inherit (emacsPackages) orgPackages;
+    inherit (emacsPackages) manualPackages;
+  };
 
 in {
   emacsPackages = mkEmacsSet pkgs.emacs;
