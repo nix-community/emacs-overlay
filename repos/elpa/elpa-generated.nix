@@ -1382,10 +1382,10 @@
       elpaBuild {
         pname = "gnu-elpa";
         ename = "gnu-elpa";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gnu-elpa-1.0.tar";
-          sha256 = "0ywwlsyvl2g49k0krk35z15l2drqg3rdf26786rw65vz4ip2j3id";
+          url = "https://elpa.gnu.org/packages/gnu-elpa-1.1.tar";
+          sha256 = "0b0law1xwwqa42wb09b3w73psq2kx16lkiwxjxl0sshjcmarhv8r";
         };
         packageRequires = [];
         meta = {
