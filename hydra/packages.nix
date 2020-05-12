@@ -14,7 +14,10 @@ let
     inherit (emacsPackages) melpaStablePackages;
     inherit (emacsPackages) melpaPackages;
     inherit (emacsPackages) orgPackages;
-    inherit (emacsPackages) manualPackages;
+    # Has broken meta
+    manualPackages = builtins.removeAttrs emacsPackages.manualPackages [
+      "emacspeak"
+    ];
   };
 
 in {
