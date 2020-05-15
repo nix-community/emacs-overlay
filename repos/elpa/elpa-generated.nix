@@ -39,10 +39,10 @@
       elpaBuild {
         pname = "ada-mode";
         ename = "ada-mode";
-        version = "7.1.0";
+        version = "7.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ada-mode-7.1.0.tar";
-          sha256 = "1fn5glnd40slm6h5p9c89b9mnzw7xy9mbmlssxw9ny6kq95sfyxs";
+          url = "https://elpa.gnu.org/packages/ada-mode-7.1.1.tar";
+          sha256 = "11ch0dn478ddzkcjcyqf2rjim7w0fjb8xfijqxxi07847w4gkklp";
         };
         packageRequires = [ emacs uniquify-files wisi ];
         meta = {
@@ -1033,6 +1033,21 @@
         packageRequires = [ cl-print emacs stream ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/el-search.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    eldoc = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "eldoc";
+        ename = "eldoc";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/eldoc-1.0.0.el";
+          sha256 = "0jdqnndvpz929rbfgrm2bgw3z2vp7dvvgk3wnhvlhf63mdiza89m";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/eldoc.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -2526,6 +2541,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    project = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "project";
+        ename = "project";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/project-0.1.el";
+          sha256 = "0d79d2204bms1i06v56k5ikcz0w3x4gggchsryfpyhgcvlqwah5n";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/project.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     psgml = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "psgml";
@@ -3674,10 +3704,10 @@
       elpaBuild {
         pname = "wisi";
         ename = "wisi";
-        version = "3.1.0";
+        version = "3.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wisi-3.1.0.tar";
-          sha256 = "1hml1irvp04f2lm6lq0z940a7v8z8gvxsq42a53pcl2v094c3cb1";
+          url = "https://elpa.gnu.org/packages/wisi-3.1.1.tar";
+          sha256 = "0abm9xfyk2izi0w9172sfhdq83abcxgbngngbh2gby54df0ycn0q";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -3694,10 +3724,10 @@
       elpaBuild {
         pname = "wisitoken-grammar-mode";
         ename = "wisitoken-grammar-mode";
-        version = "1.0.3";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wisitoken-grammar-mode-1.0.3.tar";
-          sha256 = "1vljnhi35vix30xch9mziczg56ss1r615yn2pgdcw8wa8sm14crw";
+          url = "https://elpa.gnu.org/packages/wisitoken-grammar-mode-1.1.0.tar";
+          sha256 = "123z9j76cm0p22d9n4kqvn2477fdkgp5jarw564nd71cxrrb52ms";
         };
         packageRequires = [ emacs mmm-mode wisi ];
         meta = {
