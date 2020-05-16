@@ -2791,7 +2791,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/rudolfolah/angularjs-mode/archive/b24020768217f16b1b86aa236e9729b3d40e17b3.tar.gz': HTTP error 404\n"
    ]
   },
   "stable": {
@@ -9016,7 +9016,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
    ]
   }
  },
@@ -10305,8 +10305,8 @@
     "s",
     "seq"
    ],
-   "commit": "282c338c21d01932049392f271f66e1725562efd",
-   "sha256": "1ljjqzghcap4admv0hvw6asm148b80mfgjgxjjcw6qc95fkjjjlr"
+   "commit": "16f2ca86540001b40725c4099d04154aab0a6ba5",
+   "sha256": "19z8wmhsqbm12h0vvzfgjmzj7g3mcpa9qgcz3cnmrr4hgkx4b9a5"
   },
   "stable": {
    "version": [
@@ -11501,8 +11501,8 @@
     20190710,
     1319
    ],
-   "commit": "ec1b3992dbfb54edb777988766440295f1f1f1d3",
-   "sha256": "1mnzyanr2jfm2zhr4hzz377kvkav1hvraxlmifb6wdwmgv3736yd"
+   "commit": "135b5835a42d6e3c7efb85f80f3fe0885d45d644",
+   "sha256": "18mgkn5cy14f5l4qajhdphxvw66hhhw2yf12qfvpd2n5bx3b8dcs"
   },
   "stable": {
    "version": [
@@ -16482,8 +16482,8 @@
     20190111,
     2150
    ],
-   "commit": "662cc6b2e3ad18f7b3c02b5f28980d0721aecd62",
-   "sha256": "1837xh6fybq0072rxhk825riknclkd6zj24af199is4nja6b07ma"
+   "commit": "fb17dc88f0af1fcee3fcec7685e451c85f372793",
+   "sha256": "0v8bqzx84amc91d64as7pssk7ggw1mn5azjchbn8745zi176p32i"
   },
   "stable": {
    "version": [
@@ -27033,14 +27033,14 @@
   "repo": "emacs-ess/ESS",
   "unstable": {
    "version": [
-    20200511,
-    2034
+    20200516,
+    522
    ],
    "deps": [
     "julia-mode"
    ],
-   "commit": "1d455e6403f4c855785232d20902b50fbdee479f",
-   "sha256": "0wrlg03zf14nsw4myw3gq2z458z8gp6ab3m1y66c2av2p3vly79c"
+   "commit": "8f04fa92a11cdb4a3777755fdbaaa65e076f04ef",
+   "sha256": "10cg90aqlr5y3vmp94zhkwj3l178l9f32igpl38bzxm9hmdgikfr"
   },
   "stable": {
    "version": [
@@ -36141,14 +36141,14 @@
   "repo": "rnkn/fountain-mode",
   "unstable": {
    "version": [
-    20200416,
-    841
+    20200516,
+    624
    ],
    "deps": [
     "seq"
    ],
-   "commit": "5998d977ca84930e124558007dc65370164ed960",
-   "sha256": "1hmc3pacscr0f02cw6hbbv444k07k5gf1909lyz8jpfr5r5wi2in"
+   "commit": "83d308b6fd26662bc8fb204c4d634616e03dca44",
+   "sha256": "0a068qfc969bvxyynrk2yakv2l3y31snnvcpdsbxd4m4m6drv3lw"
   },
   "stable": {
    "version": [
@@ -42971,14 +42971,14 @@
   "repo": "emacsorphanage/helm-ag",
   "unstable": {
    "version": [
-    20200510,
-    223
+    20200516,
+    613
    ],
    "deps": [
     "helm"
    ],
-   "commit": "429d3d9d8d90d3b7e8d35032c42206e930f9e481",
-   "sha256": "0kl6x6igbynzl1x36nqz5wyrqq4wchw2qpvp3lm80av6bncx6i2s"
+   "commit": "ae1dbefa151544035272d04e56e0147185a847c5",
+   "sha256": "03q29x63v500b3h4mj99h619ayifb12rrqiyyihm84i9lmgp5r28"
   },
   "stable": {
    "version": [
