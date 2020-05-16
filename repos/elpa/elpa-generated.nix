@@ -2545,10 +2545,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.1.1";
+        version = "0.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/project-0.1.1.el";
-          sha256 = "1g741y37lv4pm6zf3rj6rzda0x4bk0amjpnsk4gba48p9jkkqmb4";
+          url = "https://elpa.gnu.org/packages/project-0.1.2.el";
+          sha256 = "0713hwim1chf6lxpg1rb234aa1gj92c153fjlc4jddp6dzzgn50d";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3807,6 +3807,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/xr.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    xref = callPackage ({ elpaBuild, emacs, fetchurl, lib, project }:
+      elpaBuild {
+        pname = "xref";
+        ename = "xref";
+        version = "1.0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/xref-1.0.1.el";
+          sha256 = "17wlwilm2d1gvin8mkkqnpw2skjx0klxfs1pqpy8rrzdfpsb55li";
+        };
+        packageRequires = [ emacs project ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/xref.html";
           license = lib.licenses.free;
         };
       }) {};
