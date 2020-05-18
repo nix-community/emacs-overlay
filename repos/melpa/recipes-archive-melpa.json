@@ -5082,8 +5082,8 @@
     20190331,
     2230
    ],
-   "commit": "04025d72d9cdd5d9cb241619b9d74c53a7d45195",
-   "sha256": "11dvasmxi2g4n6ax8ykbri5m7hcmdvdaw15a3ndvs59ns4mqrjp9"
+   "commit": "eb3ec136f9dcc871eb7372dd7cd1445fa8407a60",
+   "sha256": "1nvsch68xpvfhf3qrxgggilx16rkwl5azzx55dgv5z40nq17hgpj"
   }
  },
  {
@@ -9706,8 +9706,8 @@
     20171115,
     2108
    ],
-   "commit": "dc0e180cbaf73e86d22f1d2996c7582dd0eb07b5",
-   "sha256": "0n9f87syrj30dn5k4vq1l7i02hzwfnadanfjbwv4a9wfjl77xy53"
+   "commit": "620319f3d47ad0e378d6b533cf9a4da7c45efc50",
+   "sha256": "1nxy9v8qx3kiqsjq3r3gqgra9qfcmwa696ncn8j7lcgsga91yzjh"
   },
   "stable": {
    "version": [
@@ -58217,9 +58217,19 @@
   "ename": "literate-calc-mode",
   "commit": "3b6b9d96bb894744f61d65ebd3a813b3c3493f42",
   "sha256": "1ck61af2lg2rk0r8rlqjsh1am9xw71lk99i3sb71vi2ipd9dq9nb",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "sulami/literate-calc-mode.el"
+  "repo": "sulami/literate-calc-mode.el",
+  "unstable": {
+   "version": [
+    20200517,
+    1011
+   ],
+   "deps": [
+    "s"
+   ],
+   "commit": "54b2ab53f8c659ec72c4ff7171cb3d582cace9ac",
+   "sha256": "1dl611kyfy07c0qblkvnn9hnwwchfqyhxq8gigr8zspr32jr9y8z"
+  }
  },
  {
   "ename": "literate-coffee-mode",
@@ -63686,11 +63696,11 @@
   "repo": "belak/emacs-monokai-pro-theme",
   "unstable": {
    "version": [
-    20200504,
-    237
+    20200518,
+    5
    ],
-   "commit": "06f907e4a954688ec2096420fea1c9935d819e07",
-   "sha256": "1k73bnwyjnmgvx4664pqrk1ig0rr0rwxzlf165dh5fspzqkmrjqh"
+   "commit": "ad946d0be772ce7d0e0c7f6ed3794f4099b2a2d8",
+   "sha256": "0ka90cymg237czkf055qfs4sjvhkfgbrmvyqmp09lgcc1hbbqagb"
   }
  },
  {
@@ -68769,6 +68779,24 @@
   }
  },
  {
+  "ename": "oj",
+  "commit": "f271f03feaa578e3e8ad9b02e0ca3ac99142fd60",
+  "sha256": "0qzyl7h8rdwyy1d6xralzcxgrc4nwx1hq30n5daa0cy3l5yix5xz",
+  "fetcher": "github",
+  "repo": "conao3/oj.el",
+  "unstable": {
+   "version": [
+    20200517,
+    2131
+   ],
+   "deps": [
+    "quickrun"
+   ],
+   "commit": "3a4c011e4ba03b8f945d5cc91cf5b7f18cae81b7",
+   "sha256": "07qfdahbizavj602p25gi6qxmq8fm9yrypb98xh9vgsi5dhd04q9"
+  }
+ },
+ {
   "ename": "old-norse-input",
   "commit": "84780a6ebd1b2294b86ae8c6df5bd6521cf4e85a",
   "sha256": "1g00h6ykf61ckr6f3r17j72w3h04p5q65aa3rhr5llk3jk1wv331",
@@ -73204,11 +73232,11 @@
   "repo": "kostafey/organic-green-theme",
   "unstable": {
    "version": [
-    20200510,
-    1645
+    20200518,
+    21
    ],
-   "commit": "2a88a70a5c2a57150c80d306f2475e351a59039c",
-   "sha256": "1y3g180q96vx7l8qs0l2jwjv2wbmk6aqzfm2p1h130h05lhgv31w"
+   "commit": "03ea47f464ee59868a5e03617595e21c5c11437f",
+   "sha256": "1dsaj02v2xpiz9hmbc15l2fb5ljh9h003f8p8q5zwk9dnsmhpn2d"
   }
  },
  {
@@ -74221,8 +74249,8 @@
    "deps": [
     "org"
    ],
-   "commit": "8f36181977377383cb54803651d93b24e370122d",
-   "sha256": "1rxkbkgvylwnh5n6zc6hiqa9zhxwc8j1if7mxribw44xrg3150a1"
+   "commit": "4e93dae6baea2cbaea023c31406a51489907490e",
+   "sha256": "145hg8a0l1ms84xf86brbp6yhqqws5isvbaj78f8hpjlw64wfjrs"
   },
   "stable": {
    "version": [
@@ -84960,6 +84988,21 @@
   }
  },
  {
+  "ename": "retrie",
+  "commit": "12ed1c6d8e2aa4f73b793f9e16e8e13985fae944",
+  "sha256": "1y0zknhc2wkq6kpmz2bylwqla1xd7n7l3650zj2bi8g84ly777af",
+  "fetcher": "github",
+  "repo": "Ailrun/emacs-retrie",
+  "unstable": {
+   "version": [
+    20200517,
+    2319
+   ],
+   "commit": "72100a4b30e186caca7dc48389287bc27303a478",
+   "sha256": "0bks1qvi8fcvq464w4jsfb1a2j5c5yq08h9zk2gshhy9wl9fhymf"
+  }
+ },
+ {
   "ename": "reveal-in-folder",
   "commit": "26682a1fb2d885168ca922521df7f3d8fbfe43a8",
   "sha256": "0nhrsmilimffpjnv9hn8a49wckdi1lywjlb2fpxpqdi8zl0bgkzs",
@@ -92967,14 +93010,14 @@
   "repo": "nflath/sudo-edit",
   "unstable": {
    "version": [
-    20180731,
-    1908
+    20200517,
+    2354
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "cc3d478937b1accd38742bfceba92af02ee9357d",
-   "sha256": "1qv58x5j5a3v1s2ylhck1ykbfclq0mbi0gsvaql3nyv8cxazqlwl"
+   "commit": "f29c6d8e76ae2ca1e3b668601c76ceaf96738744",
+   "sha256": "178xncww3482ssphjcdy0sy1hvgy54mqhm2rf1h0hi7l8n8hjf3h"
   },
   "stable": {
    "version": [
@@ -96189,8 +96232,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "04025d72d9cdd5d9cb241619b9d74c53a7d45195",
-   "sha256": "11dvasmxi2g4n6ax8ykbri5m7hcmdvdaw15a3ndvs59ns4mqrjp9"
+   "commit": "eb3ec136f9dcc871eb7372dd7cd1445fa8407a60",
+   "sha256": "1nvsch68xpvfhf3qrxgggilx16rkwl5azzx55dgv5z40nq17hgpj"
   }
  },
  {
@@ -97894,8 +97937,8 @@
     20200512,
     19
    ],
-   "commit": "2b1e53285a55ce50ca6fd60b050f2171e235d8f9",
-   "sha256": "0x7i7aj9fh8j0944xbym3hijr33mc0kfadl7v657k0d8nx00x3zh"
+   "commit": "24101b44fe0ea97e880fb14372ef461ac2cec1da",
+   "sha256": "04wfi3i8kxavpz6kimnp6ihiw8am1wr64mxmbdl500azxi9ss5jr"
   }
  },
  {
@@ -98236,9 +98279,16 @@
   "ename": "unifdef",
   "commit": "805d7ed87c68f45aa878a19816c21c1122501c01",
   "sha256": "0d0k7h7bsgfmbnx697jc87mdhjqiw8wg6r8k4ay8cxfp2bxqnwkg",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "Lindydancer/unifdef"
+  "repo": "Lindydancer/unifdef",
+  "unstable": {
+   "version": [
+    20200517,
+    514
+   ],
+   "commit": "7a4b76f664c4375e3d98e8af0a29270752c13701",
+   "sha256": "0xx954cyvzndj7fy6k203nlnhaxi6d0pn3xrvy287dh9ydklng0m"
+  }
  },
  {
   "ename": "unify-opening",
