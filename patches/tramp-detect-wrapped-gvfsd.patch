@@ -1,14 +1,12 @@
 diff --git a/lisp/net/tramp-gvfs.el b/lisp/net/tramp-gvfs.el
-index 3ce7bbbd4a..e31059da3f 100644
+index 704d65cd55..47c027e255 100644
 --- a/lisp/net/tramp-gvfs.el
 +++ b/lisp/net/tramp-gvfs.el
-@@ -125,7 +125,8 @@
- 	 (autoload 'zeroconf-init "zeroconf")
- 	 (tramp-compat-funcall 'dbus-get-unique-name :system)
- 	 (tramp-compat-funcall 'dbus-get-unique-name :session)
--	 (or (tramp-process-running-p "gvfs-fuse-daemon")
-+	 (or (tramp-process-running-p ".gvfsd-fuse-wrapped")
-+             (tramp-process-running-p "gvfs-fuse-daemon")
+@@ -129,6 +129,7 @@
+ 	     ;; for some processes.  Better we don't check.
+ 	     (<= emacs-major-version 25)
+ 	     (tramp-process-running-p "gvfs-fuse-daemon")
++	     (tramp-process-running-p ".gvfsd-fuse-wrapped")
  	     (tramp-process-running-p "gvfsd-fuse"))))
    "Non-nil when GVFS is available.")
  
