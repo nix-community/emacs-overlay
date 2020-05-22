@@ -1292,10 +1292,10 @@
       elpaBuild {
         pname = "frog-menu";
         ename = "frog-menu";
-        version = "0.2.10";
+        version = "0.2.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/frog-menu-0.2.10.el";
-          sha256 = "050qikvgh9v7kgvhznjsfrpyhs7iq1x63bryqdkrwlf668yhzi1m";
+          url = "https://elpa.gnu.org/packages/frog-menu-0.2.11.el";
+          sha256 = "06iw11z61fd0g4w3562k3smcmzaq3nivvvc6gzm8y8k5pcrqzdff";
         };
         packageRequires = [ avy emacs posframe ];
         meta = {
