@@ -24187,10 +24187,10 @@
   "unstable": {
    "version": [
     20200522,
-    1112
+    1608
    ],
-   "commit": "fd2db28a9a5db37572b5b55a10d0eb130a2fa021",
-   "sha256": "0cbd9rqxm69f4w12a1sq5hlxrxqrpdkml6bxmhm916s4pcdhdin8"
+   "commit": "4a477550ca8d932e0708b961be515b0a64aeef69",
+   "sha256": "0l5pjxr4b7in87x3fp4bca6h8qbac2b8km93b9s1iiha4df9k912"
   },
   "stable": {
    "version": [
@@ -36718,8 +36718,12 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "eded28cc74cae9ff956523e697dfb6c1f0c56106",
-   "sha256": "1q64irxcx1hc6mkq722a8j2zdnws8f19brhc421jm44iq7ld1x1y"
+   "commit": "150c6a6554fca1925ef6e450c263ab6c79499acc",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "warning: unable to download 'https://github.com/factor/factor/archive/150c6a6554fca1925ef6e450c263ab6c79499acc.tar.gz': HTTP error 500; retrying in 274 ms\nwarning: unable to download 'https://github.com/factor/factor/archive/150c6a6554fca1925ef6e450c263ab6c79499acc.tar.gz': HTTP error 500; retrying in 558 ms\nwarning: unable to download 'https://github.com/factor/factor/archive/150c6a6554fca1925ef6e450c263ab6c79499acc.tar.gz': HTTP error 500; retrying in 1175 ms\nwarning: unable to download 'https://github.com/factor/factor/archive/150c6a6554fca1925ef6e450c263ab6c79499acc.tar.gz': HTTP error 500; retrying in 2440 ms\nerror: unable to download 'https://github.com/factor/factor/archive/150c6a6554fca1925ef6e450c263ab6c79499acc.tar.gz': HTTP error 500\n"
+   ]
   },
   "stable": {
    "version": [
@@ -54145,8 +54149,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "515d876c6ae45a61cf67a7bd5723fe4c9e518756",
-   "sha256": "05pgyisb2szbrfbv6wjhfi8c00gakv51jxb8j73pji30v2a9rapn"
+   "commit": "61a8c917112166603ede77039c32806fab057970",
+   "sha256": "1mn21dvrjyfjmv97lkgkkr52fmka9n4d3qzzq4r030h5vzc3hr9a"
   },
   "stable": {
    "version": [
@@ -57119,11 +57123,11 @@
   "repo": "ledger/ledger-mode",
   "unstable": {
    "version": [
-    20200517,
-    1906
+    20200522,
+    1648
    ],
-   "commit": "f57fd9d78bc1922a8b930ca5652ecea1fdd86abc",
-   "sha256": "0h7yvs3zaw220jf756gxi7mnq2hkb4kpz97jamm2d00f5l2h6w9w"
+   "commit": "ced9382fd9144c3cd17e1822b73fb1e1caa2ae1d",
+   "sha256": "0qqa015m3ygaglw82aj3dw5ipmx8v36ajy0ykkvzc6vmsb4229pf"
   },
   "stable": {
    "version": [
@@ -69742,7 +69746,7 @@
    "version": [
     0,
     2,
-    18
+    19
    ],
    "deps": [
     "dash",
@@ -69751,8 +69755,8 @@
     "helm-org",
     "s"
    ],
-   "commit": "44aec8dcdf4a498e13a80362dff4027cfa4b74a1",
-   "sha256": "10ws56ww3hhqx5gghxaygiyi5vkfb5snjf4v0djaam53yn03jl90"
+   "commit": "4b93bb1e20e2e66b9e64819b21ca75f36c389370",
+   "sha256": "1ksvdl8liqv74am1r7brn8slkwgbc83jv7l92qk9md7s1krcb6y0"
   }
  },
  {
