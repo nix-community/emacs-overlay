@@ -11507,8 +11507,8 @@
     20190710,
     1319
    ],
-   "commit": "886a5e3af67f39ae48993b2b4db506d48132af1d",
-   "sha256": "02v5w4rzkyyai0ygi18k232rp5sqayvilnij1020mnbi6h5n1yjb"
+   "commit": "2770d5c202c7e670203e34bd0c9eddf02abf5bd3",
+   "sha256": "0schd42a1h0ml43azhhjhvglc8qwvdp6vn7r59dx0k1jzmcixlrx"
   },
   "stable": {
    "version": [
@@ -59109,8 +59109,8 @@
   "repo": "emacs-lsp/lsp-java",
   "unstable": {
    "version": [
-    20200430,
-    1659
+    20200524,
+    414
    ],
    "deps": [
     "dash",
@@ -59122,8 +59122,8 @@
     "request",
     "treemacs"
    ],
-   "commit": "bbbe4297fd470d0eb9492d011b0b4daf628763f5",
-   "sha256": "0qm9hwl88qwm19xwpsnv1rp9ny664440di0rd2lh3h7w1bczf76s"
+   "commit": "a41468ada683d1f024760d98456a87cec9a0e062",
+   "sha256": "0684plj0m65igba5h9dqyqnhdvff7xbdv3nkv0zn4mqyfg166r25"
   },
   "stable": {
    "version": [
@@ -80860,11 +80860,11 @@
   "repo": "chuntaro/emacs-promise",
   "unstable": {
    "version": [
-    20200523,
-    355
+    20200524,
+    508
    ],
-   "commit": "7124c3e261ad661d92c52b4aabcf304fae6211ce",
-   "sha256": "00cfssgp3j56kz7m9ph5p2asnqb3nk7vx7bd60glx06dw1n157rm"
+   "commit": "d95aae22660b69b274f811c5955b837c71132247",
+   "sha256": "0j1a84x4fp0fq29rnaqsiga76vx0al6pj5rchjb192g78kk04yny"
   },
   "stable": {
    "version": [
@@ -87011,6 +87011,21 @@
    ],
    "commit": "4813d82b39a451f2a6d5b730cd7ec49a9bdabcca",
    "sha256": "0yiwq2gc4gdgfhaagpawhb7yrzc4fsnyb10w5d0q4whv64cj8555"
+  }
+ },
+ {
+  "ename": "scratch-comment",
+  "commit": "9578c2878a7a5f89fd495531e03a8658696fc360",
+  "sha256": "06zn1czv7bw8akbgp61pxi1k4kd2r06d7nxvr14j3cpb3v7fs7kz",
+  "fetcher": "github",
+  "repo": "conao3/scratch-comment.el",
+  "unstable": {
+   "version": [
+    20200505,
+    904
+   ],
+   "commit": "43902ae49a3215cee192d3683f4e46c764a32407",
+   "sha256": "0fm9gqb11wfgb6qn6f0b2cdwayzv9v0j12agbdl6qys1cnd997n1"
   }
  },
  {
@@ -95376,14 +95391,14 @@
   "repo": "TobiasZawada/texfrag",
   "unstable": {
    "version": [
-    20200424,
-    205
+    20200524,
+    438
    ],
    "deps": [
     "auctex"
    ],
-   "commit": "48118c4e38836117efb4eede927ab85d9a0d2013",
-   "sha256": "1dpvf9limh9b0sg0x41gyw9w5nf5nvkd7zzlyysswhinm6jba4iz"
+   "commit": "8b4159b59b510c9afd42ec6d8c19078b75b4f778",
+   "sha256": "0lacnlw1wrhc8s4kfk18s9xp1qcxki1i2jxpgdagbvlyaxhlhpgv"
   },
   "stable": {
    "version": [
