@@ -1187,10 +1187,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.23";
+        version = "0.24";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/exwm-0.23.tar";
-          sha256 = "05w1v3wrp1lzz20zd9lcvr5nhk809kgy6svvkbs15xhnr6x55ad5";
+          url = "https://elpa.gnu.org/packages/exwm-0.24.tar";
+          sha256 = "0lj1a3cmbpf4h6x8k6x8cdm1qb51ca6filydnvi5zcda8zpl060s";
         };
         packageRequires = [ xelb ];
         meta = {
