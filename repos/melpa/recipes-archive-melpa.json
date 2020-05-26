@@ -11507,8 +11507,8 @@
     20190710,
     1319
    ],
-   "commit": "3ed8b663a9fd6e8d6f7ec0571ab1e3530f9156db",
-   "sha256": "074pcwxc4p83blzj8pnbh4s9z7p22l4vvkfwlbvf2ixrv0ylsdyf"
+   "commit": "800e29ab8fef4382feef0d0a4552eb3d0bfdcd50",
+   "sha256": "03lxlylwqr01jcpap1xxvzrw4rwsfln6l5q53vpc0d1izxdqgr2h"
   },
   "stable": {
    "version": [
@@ -17852,6 +17852,30 @@
    ],
    "commit": "9cfa5c3f92a0dca7eebb1f1a2011643c9b009d26",
    "sha256": "1fcmrhm6h0j7jjw6kijrcacv628fy80ssxn6h5bilwmw0r4c7wm6"
+  }
+ },
+ {
+  "ename": "deno-fmt",
+  "commit": "d6c3171a30886ecc4427938d847924023d1171ae",
+  "sha256": "15490s5xx58jc0irras3yaczx9s0v93fp7dnd6pba7zq149nqpy7",
+  "fetcher": "github",
+  "repo": "rclarey/deno-emacs",
+  "unstable": {
+   "version": [
+    20200520,
+    1838
+   ],
+   "commit": "2b036b829e53585fc672742c051ce4739b11368c",
+   "sha256": "11cslg9d1hfni1jzxv11gradbfm1v44x45nf9bq1jd4mgll4mrp7"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    0
+   ],
+   "commit": "995d71bedc0a89a1f8ec5d666bddf6aa333127f3",
+   "sha256": "0n13asmqh8ffpx9hbyg07aajk19kvnhgwkdaxkzswinx7a374mqj"
   }
  },
  {
@@ -32642,6 +32666,25 @@
   }
  },
  {
+  "ename": "flycheck-eldev",
+  "commit": "170b59e0f97ea8a27910efc1de3c82ee188a3fe5",
+  "sha256": "0z83w4gd34g4kgdfc46c5zkhm0awa1hhi9p600k3sd4n8ac2ms4m",
+  "fetcher": "github",
+  "repo": "flycheck/flycheck-eldev",
+  "unstable": {
+   "version": [
+    20200524,
+    1349
+   ],
+   "deps": [
+    "dash",
+    "flycheck"
+   ],
+   "commit": "eca7a387ba6d7aff50a9780e01aad492c035fff6",
+   "sha256": "1yjf4gf3lcfklzcvp5i9jllgm8vjnhhrj6k2vv18ns033wjqd9cs"
+  }
+ },
+ {
   "ename": "flycheck-elixir",
   "commit": "da2ab73ab1426f71ea2b2bea2b418941856b3454",
   "sha256": "0f78fai6q15smh9rvsliv8r0hh3kpwn1lz37yvqkkbx9vl7rlwld",
@@ -37073,6 +37116,21 @@
    ],
    "commit": "383a050920e9b99d37c21d041deb7f38b202485c",
    "sha256": "14drm6b6rxbcdilcms1jlqyrqbipcqbdil6q06ni9pgafi7xp8hz"
+  }
+ },
+ {
+  "ename": "gameoflife",
+  "commit": "bdfc00fe567155ae98fbf1a44d0bb4fa3a8e5786",
+  "sha256": "0vjlbpf9672442lzcw1p39vldywy4a1yj2mcwmbsqhpjlnzalw4l",
+  "fetcher": "github",
+  "repo": "Lindydancer/gameoflife",
+  "unstable": {
+   "version": [
+    20200524,
+    854
+   ],
+   "commit": "33fdfea6c4a73a4131eb087a0ccce4876814c76c",
+   "sha256": "0fpxdhrxfyawk1kjz118mjc05r02fpid7jlf30551629y4rmkmys"
   }
  },
  {
@@ -53744,11 +53802,11 @@
   "repo": "paradoxxxzero/jinja2-mode",
   "unstable": {
    "version": [
-    20141128,
-    1007
+    20200525,
+    2007
    ],
-   "commit": "cfaa7bbe7bb290cc500440124ce89686f3e26f86",
-   "sha256": "0l26wcy496k6xk7q5sf905xir0p73ziy6c44is77854lv3y0z381"
+   "commit": "5ac022d6889a04332b9dbfa390cbb02db3ca57b0",
+   "sha256": "06cnl58550p2qsrigviw4699ywan30mcmpwlc6zd756cnv2kbq91"
   },
   "stable": {
    "version": [
@@ -59016,8 +59074,8 @@
     "lsp-treemacs",
     "pkg-info"
    ],
-   "commit": "d99b54b65aa562fe4c5c1c8d99ab13051aea5300",
-   "sha256": "0jn66nczy10vcbb36qdv5asyjaj733p00kghw7ymxjzddg8iqjwp"
+   "commit": "f142eb6f413e42309c1edfb0bfce1cfbb9860bc2",
+   "sha256": "0wvhpxwbcjwc1hwwrjzxvvg9dj34cwpq3y2pqfwgmq74q4fxkx9z"
   },
   "stable": {
    "version": [
@@ -59266,7 +59324,7 @@
   "unstable": {
    "version": [
     20200525,
-    1105
+    1959
    ],
    "deps": [
     "dash",
@@ -59277,8 +59335,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "158792b57d6e8447528a7ae262b1c298ec215cc0",
-   "sha256": "1qdd9llgarqx4d0q3iv59l34dghq4aa4j5ip1jv3nl64zb27cjq8"
+   "commit": "20d3c79f34867033942ccd4e25350cb0c7c942e7",
+   "sha256": "05xjz33cm8x71qv10mg853xxl5jib49zd4b8lgmnmm6v7sradx67"
   },
   "stable": {
    "version": [
@@ -60042,6 +60100,25 @@
    ],
    "commit": "3425ad5b16cb48d6802b7e9ed044b4cd7a99c785",
    "sha256": "10iinizl99aivrf9zihykabb5lyg62kxbmydwaf7swzxf4dgxn2k"
+  }
+ },
+ {
+  "ename": "magit-delta",
+  "commit": "6e045d09ceec253bbd033b561ab077d897e9b6b2",
+  "sha256": "0r7g8p7g348cfz31q0mgxxa591n8clwpaack487ycc1nzsqbj726",
+  "fetcher": "github",
+  "repo": "dandavison/magit-delta",
+  "unstable": {
+   "version": [
+    20200518,
+    2205
+   ],
+   "deps": [
+    "magit",
+    "xterm-color"
+   ],
+   "commit": "075d64369187e4d1134c774ec0a89af2ac2702ab",
+   "sha256": "048mr87yk6zn904rgd5zq284f2qcc7nlxa9k6bbmjy3bvpp10kdk"
   }
  },
  {
@@ -64700,6 +64777,25 @@
    ],
    "commit": "7078e439ee0433a8fbd1cb174464496f9a9d00fa",
    "sha256": "1wpcv4wdk735w701d9bm9qqji98mmzg7l7qkq1jmjw1hbpqhnwl2"
+  }
+ },
+ {
+  "ename": "mugur",
+  "commit": "7f218af9e4a50c53d0cacdd3fbbfc514d2f98e8d",
+  "sha256": "05qn7b3jsprdcyc4p6h70qvaydgq3b71y2hb4jfqx19prcbcly7k",
+  "fetcher": "github",
+  "repo": "mihaiolteanu/mugur",
+  "unstable": {
+   "version": [
+    20200520,
+    739
+   ],
+   "deps": [
+    "anaphora",
+    "s"
+   ],
+   "commit": "d450d316df042f2e29ab20a9d31f071e08033e92",
+   "sha256": "184imqgyx76p0151ccv1hxkiz36gxsdrcdi0ng9hjkhgaq54rc6w"
   }
  },
  {
@@ -86835,8 +86931,8 @@
     20190413,
     1246
    ],
-   "commit": "2f4e84caf69d80be947a03688a1100b12c68dba5",
-   "sha256": "0np8bq38dcdck3b92lz7mw58gpi19wmxg8bjvhnkp88fcryk5rnh"
+   "commit": "fb349cc1f22e70cf9733260918c4a8f1e844d479",
+   "sha256": "1c7wl3aspgr1dg8vmb6fiynkdfr3i26mfags4cawrpyf812r3rd1"
   }
  },
  {
@@ -93676,6 +93772,21 @@
    ],
    "commit": "93fb6db87bc6a5967898b5fd3286954cc72a0008",
    "sha256": "05n4h20lfyg1kis5rig72ajbz680ml5fmsy6l1w4g9jx2xybpll2"
+  }
+ },
+ {
+  "ename": "swiss-holidays",
+  "commit": "2260acd32c74352c5b1c5622c527676a81223640",
+  "sha256": "1d91fnvm2sikfmy0s1gffzgn19088ggkkf992zbms7gy7njbgysf",
+  "fetcher": "github",
+  "repo": "egli/swiss-holidays",
+  "unstable": {
+   "version": [
+    20200525,
+    1424
+   ],
+   "commit": "fd8b4d602a67e589dfbd8dea240f10605ef175d4",
+   "sha256": "10q3dxidh2clhnq880pavj7zsjn2yidx0xn4hh2q445kbp06z4i5"
   }
  },
  {
