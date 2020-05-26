@@ -11507,8 +11507,8 @@
     20190710,
     1319
    ],
-   "commit": "800e29ab8fef4382feef0d0a4552eb3d0bfdcd50",
-   "sha256": "03lxlylwqr01jcpap1xxvzrw4rwsfln6l5q53vpc0d1izxdqgr2h"
+   "commit": "b8a6300e6eb426eed71e3d9fdc35eb11e5f484f6",
+   "sha256": "16xr79zfpgva8nz37xaj507rzc8688rkqd9rmiaxln794l4ww238"
   },
   "stable": {
    "version": [
@@ -23461,28 +23461,28 @@
   "repo": "fasheng/elfeed-protocol",
   "unstable": {
    "version": [
-    20200522,
-    1305
+    20200526,
+    341
    ],
    "deps": [
     "cl-lib",
     "elfeed"
    ],
-   "commit": "201ec3796afd0272bf09adc33914f5ab61d06506",
-   "sha256": "0nkc986r5b613r7hsjb3xncybzv5bs4drq0laq9f1zy724dy7734"
+   "commit": "c5a928d4217060a49444d80d2fd54282d32a12a5",
+   "sha256": "0zky2iqkpckaq8c1fyhw9drdnmnyapix8jw46p6jvspljb9vwzkb"
   },
   "stable": {
    "version": [
     0,
     7,
-    7
+    8
    ],
    "deps": [
     "cl-lib",
     "elfeed"
    ],
-   "commit": "201ec3796afd0272bf09adc33914f5ab61d06506",
-   "sha256": "0nkc986r5b613r7hsjb3xncybzv5bs4drq0laq9f1zy724dy7734"
+   "commit": "c5a928d4217060a49444d80d2fd54282d32a12a5",
+   "sha256": "0zky2iqkpckaq8c1fyhw9drdnmnyapix8jw46p6jvspljb9vwzkb"
   }
  },
  {
@@ -25573,6 +25573,24 @@
    ],
    "commit": "75c84b53703e5d52cb18acc9251b87ffa400f388",
    "sha256": "1in4wbwkxn8qfcsfjbczzk73z74w4ixlml61wk666dw0kpscgbs5"
+  }
+ },
+ {
+  "ename": "envrc",
+  "commit": "f66883b0d6a49decde7d438d9d4bdfa107a3554e",
+  "sha256": "1hkz0a7rs2yqapv3asmqr9pb8r8jk5hlmrpp8ab5l7qsdjm7xn63",
+  "fetcher": "github",
+  "repo": "purcell/envrc",
+  "unstable": {
+   "version": [
+    20200526,
+    427
+   ],
+   "deps": [
+    "seq"
+   ],
+   "commit": "dab68896ad863776add4e39bde1a33037674fdd2",
+   "sha256": "02ji78ymql8hhxaw2ys9kj8kx7z68v5nr65czdcf2j8zp7gcqnda"
   }
  },
  {
@@ -72069,8 +72087,8 @@
   "repo": "org-roam/org-roam",
   "unstable": {
    "version": [
-    20200525,
-    526
+    20200526,
+    546
    ],
    "deps": [
     "dash",
@@ -72080,8 +72098,8 @@
     "org",
     "s"
    ],
-   "commit": "ea6bd215fc52c93460c7a96b7c0a0f97d3f5c8f3",
-   "sha256": "07ahvxdz0p0ax8fyxhhlhaps5r4pgq8y7afdp523zf7jlqr1q05i"
+   "commit": "8818f50f41db91adaf9a20c0d9047bfcf1fce892",
+   "sha256": "0raq9n9pxw405gnyc188zglrra8m1wiv1rd0q1n3hjd2bxszfl36"
   },
   "stable": {
    "version": [
@@ -79424,15 +79442,15 @@
   "repo": "ponylang/ponylang-mode",
   "unstable": {
    "version": [
-    20200523,
-    1203
+    20200526,
+    533
    ],
    "deps": [
     "dash",
     "hydra"
    ],
-   "commit": "fdf4e05c4c84d71a22b811283e584ef736381677",
-   "sha256": "1j6rqm045k13irqwl60id334vg3nnql6icz68i3r46am8rrywhf3"
+   "commit": "cbf5d6be250ccce31d7429fb89e8895e9360341b",
+   "sha256": "1cwfb283fc9cads0b8f959gv4yydb76bbclxjx58fhhfggsqn16m"
   },
   "stable": {
    "version": [
@@ -95896,8 +95914,8 @@
     20200212,
     1903
    ],
-   "commit": "71dbf454c9f825691a1fcb1722ce1eec25657ebc",
-   "sha256": "0p80gqviys3s6y9z8zdm1d7vmn2h7ihk6vxhdnf9lmsf3yqffa5x"
+   "commit": "1d0b0d98cd739ccdbe3a89f53473d52b5b0cc7f9",
+   "sha256": "0x89yxhap49lbn42kz059sr7ck611f1gry72z93q4ikaqxl53r10"
   },
   "stable": {
    "version": [
@@ -103943,14 +103961,14 @@
   "repo": "leanprover-community/yasnippet-lean",
   "unstable": {
    "version": [
-    20190922,
-    2037
+    20200526,
+    326
    ],
    "deps": [
     "yasnippet"
    ],
-   "commit": "9119be08a32286d3e8559138e8ae003856ae1c0a",
-   "sha256": "1q06c574zn0ibbb3zbgi59zxj17i7kyjkcz45sj5h7hbn9l81594"
+   "commit": "e0933f55d59da5425d0604bdcdbbf3cb85967563",
+   "sha256": "0h64h47qdv3c20g9hlys2xb4w2jby7pdfhaza52y48wayz6vhpnx"
   }
  },
  {
