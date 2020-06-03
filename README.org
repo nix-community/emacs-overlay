@@ -21,6 +21,9 @@ These attributes are named =emacsGit= and =emacsUnstable=.
 Emacs from git is not guaranteed stable and may break your setup at any
 time, if it breaks you get to keep both pieces.
 
+The =feature/native-comp= branch is also provided under the attribute =emacsGcc=.
+This is to be considered highly experimental.
+
 We also provide two attributes named =emacsGit-nox= and =emacsUnstable-nox=
 if you wish to have Emacs built without X dependencies.
 
