@@ -1726,10 +1726,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.11";
+        version = "1.0.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.11.el";
-          sha256 = "04cy1mqd6y8k5lcpg076szjk9av9345mmsnzzh6vgbcw3dcgbr23";
+          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.12.el";
+          sha256 = "0cqp05awikbrn88ifld3vwnv6cxgmr83wlnsvxw8bqb96djz70ad";
         };
         packageRequires = [ emacs ];
         meta = {
