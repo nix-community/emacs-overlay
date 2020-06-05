@@ -39,10 +39,10 @@
       elpaBuild {
         pname = "ada-mode";
         ename = "ada-mode";
-        version = "7.1.2";
+        version = "7.1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ada-mode-7.1.2.tar";
-          sha256 = "1ip7fmlw27zwz1fzd1mwbzyqnbzpsrsfywlv6afaygj3a0wbak8g";
+          url = "https://elpa.gnu.org/packages/ada-mode-7.1.3.tar";
+          sha256 = "1nf4dz9plswgkyl2dqczq7hqf7rr4lh1j8mas9da4sdb42d9k3qn";
         };
         packageRequires = [ emacs uniquify-files wisi ];
         meta = {
@@ -3704,10 +3704,10 @@
       elpaBuild {
         pname = "wisi";
         ename = "wisi";
-        version = "3.1.1";
+        version = "3.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wisi-3.1.1.tar";
-          sha256 = "0abm9xfyk2izi0w9172sfhdq83abcxgbngngbh2gby54df0ycn0q";
+          url = "https://elpa.gnu.org/packages/wisi-3.1.2.tar";
+          sha256 = "1mbs4x5fvzqkg4vhva41ifh2vsakrf5kanlqrjaxh1cbvfbx27q5";
         };
         packageRequires = [ emacs seq ];
         meta = {
