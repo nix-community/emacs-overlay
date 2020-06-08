@@ -11086,6 +11086,26 @@
   }
  },
  {
+  "ename": "cljr-ivy",
+  "commit": "c34d8d2edc5e5d213aef33255a9214ff87ece1bf",
+  "sha256": "03afriiwswaw0canv4wphqr4kfrrpkclcczcx5ab0w3pm4bax1zl",
+  "fetcher": "github",
+  "repo": "wandersoncferreira/cljr-ivy",
+  "unstable": {
+   "version": [
+    20200602,
+    1607
+   ],
+   "deps": [
+    "cl-lib",
+    "clj-refactor",
+    "ivy"
+   ],
+   "commit": "921ba65d0db7cda4edcd690c708946125b874a70",
+   "sha256": "12g74sfjw6siix8hvfbb0a7y8cxzxi1mb22sw8wih56bcv1987wl"
+  }
+ },
+ {
   "ename": "cljsbuild-mode",
   "commit": "d801a2e0ba5ae7c65b5d312fbf41261278a8b1ba",
   "sha256": "0qvb990dgq4v75lwnd661wxszbdbhlgxpsyv4zaj6h10gp1vi214",
@@ -16326,6 +16346,24 @@
   }
  },
  {
+  "ename": "currency-convert",
+  "commit": "cc9d610a29376bb1c24f77669ee6a05bcf60023d",
+  "sha256": "1i7hs3c7lwfnp7d9ql6bl5l0s9byfnc3n68gkk57zl5imsfhbgg1",
+  "fetcher": "github",
+  "repo": "lassik/emacs-currency-convert",
+  "unstable": {
+   "version": [
+    20200601,
+    2041
+   ],
+   "deps": [
+    "cl-lib"
+   ],
+   "commit": "5be5a8b89c247621af7ca008f2c54ba19b35d286",
+   "sha256": "0ghlc67i152m85is4qhidwqn1q149p6dgijzlmhjxfbdnnl9gw4a"
+  }
+ },
+ {
   "ename": "cursor-test",
   "commit": "6439f7561cfab4f6f3beb132d2a65e94b3deba9e",
   "sha256": "1c1d5xq4alamlwyqxjx557aykz5dw87acp0lyglsrzzkdynbwlb1",
@@ -20991,8 +21029,8 @@
     20191016,
     1241
    ],
-   "commit": "22c7582f515f691c040c475f5de4deabf0a7b2f5",
-   "sha256": "0x5db41k4rcl54czgrxjz4k7gh1dlvf08gc7amnsy8z4pai42lr4"
+   "commit": "a5d6a6462a4725d5a690475575c5cad10ebba7fc",
+   "sha256": "1bq30gqm8d0lx7ihnb7rrwyljycjdfdfh3chnnhap6bvrrhbkir1"
   },
   "stable": {
    "version": [
@@ -21000,8 +21038,8 @@
     6,
     0
    ],
-   "commit": "9fc939e83180327df6ea2a638e20e287d44f84a3",
-   "sha256": "0y2b7gr7ilb50798fnbm5inl1mfbgcaqhf9nmhn7xb19hvfibrss"
+   "commit": "693946bdac8e12d96d16bda076f32c268ec2e2f3",
+   "sha256": "0yqdsgsa5s4y2lsa5x7hmzm70q9mpmshyawdk8c1640sqhsyxrl0"
   }
  },
  {
@@ -21630,14 +21668,14 @@
   "repo": "joostkremers/ebib",
   "unstable": {
    "version": [
-    20200606,
-    2119
+    20200607,
+    2336
    ],
    "deps": [
     "parsebib"
    ],
-   "commit": "f740754ff0c290b51a4cb89a82b46799d90302d9",
-   "sha256": "0pznbgd1nrzaxng135j199a6fn2dpyihgj2gamq0sx6qwx7xpafw"
+   "commit": "e365c546a5fc5d0d4e5d24bd0c22d2b88cb2c75d",
+   "sha256": "0875ba2b6yyjl5vk4nd8gj2j8bkj4l5wjkwnmcc9qd7mwbh1gc0x"
   },
   "stable": {
    "version": [
@@ -24708,14 +24746,14 @@
   "repo": "cireu/emacsql-sqlite3",
   "unstable": {
    "version": [
-    20200117,
-    1922
+    20200608,
+    217
    ],
    "deps": [
     "emacsql"
    ],
-   "commit": "82b90d493dba404473b515ffd670e0dd0dba1248",
-   "sha256": "1azv9mllvyjzqjkjw9n5rmdj79fa8srbpmx61w6vm25bl9f62vpf"
+   "commit": "1e411fd38a0137553986db209642fe93cae96060",
+   "sha256": "1halvihjh8c7ki96k8pwwsvqbsbwymjx5qiv1gb9q6dlx5pk87cj"
   }
  },
  {
@@ -55171,6 +55209,21 @@
   }
  },
  {
+  "ename": "keg-mode",
+  "commit": "bb72a113cefcc1e42a1fe9ea00404fbc6ee8d917",
+  "sha256": "13g43mfja6b84bkfzinr2f39viyrix5xf4xwg7kg66zpy12bshiv",
+  "fetcher": "github",
+  "repo": "conao3/keg.el",
+  "unstable": {
+   "version": [
+    20200601,
+    333
+   ],
+   "commit": "a2108e388968505b9eef2bfb5a40ddfc806b475c",
+   "sha256": "16cyxbghp9gri905qk2ycaj8xr3a57isd67jmz57kzzys917japg"
+  }
+ },
+ {
   "ename": "kerl",
   "commit": "166afdc776689b0da93576dbeaa71ff6dfb627db",
   "sha256": "0f8n7cm5c432pwj28bcpv2jj5z3br3k164xj6nwfis3dvijwsgss",
@@ -57675,8 +57728,8 @@
     20200607,
     2152
    ],
-   "commit": "e31bdae11ff38b736b1869fbe94920e862f29794",
-   "sha256": "1klzqwnfb8f33ycx9nhlmbmmy61lgq1nqkkwr7s2gb9y0bxgfzzl"
+   "commit": "376fdc0f990322385534a16ee2cd08df20f76f48",
+   "sha256": "0qqa3g3ma5bsfd04rvm5lmk6p3ri34p1sqb1ndx1c0jdcydnf7y4"
   }
  },
  {
@@ -59204,8 +59257,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20200607,
-    2059
+    20200608,
+    122
    ],
    "deps": [
     "dash",
@@ -59216,8 +59269,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "4e55f98b6c79856674bf9cc0975c06eebcdf196e",
-   "sha256": "011svd7gbhnqpwj5fqlv7n0w3liw34rp4zz8c0ryfisrcpvy9d85"
+   "commit": "e3ddfd356ffdc261f0eefac673f84fc0768e7caa",
+   "sha256": "1aj9rmzgw4k6mqw2dfwqid7d26s3kfkhhj26nqs9kkvmdkl8hkq9"
   },
   "stable": {
    "version": [
@@ -95775,8 +95828,8 @@
    "deps": [
     "haskell-mode"
    ],
-   "commit": "a032f476fc21335537392deae90029efb4d9f203",
-   "sha256": "102gnf4lmqwg485qwh6kgv2jfyk4zshlxilldrqrwjx714xn32kq"
+   "commit": "b66c8532f51e13dce1f7561a9b8fa9a6e097160f",
+   "sha256": "004lsvcapay86kyghj1qss8bnki7fa5mpxv1mnynirs5acrdnqfs"
   },
   "stable": {
    "version": [
@@ -100114,6 +100167,30 @@
   }
  },
  {
+  "ename": "vscode-dark-plus-theme",
+  "commit": "0e7e489ea5cee3b1d2b6b5295cf95f3e1d9d6c60",
+  "sha256": "001xhi87dsh75sd0vg26v4w78rf1p8bhj1zhn3w7j255817xvcgd",
+  "fetcher": "github",
+  "repo": "ianpan870102/vscode-dark-plus-emacs-theme",
+  "unstable": {
+   "version": [
+    20200601,
+    349
+   ],
+   "commit": "e56f488bd20651ea88f8d7eb278900dab42e17ac",
+   "sha256": "1wm4smdzvq0p75n3q5knws34c3xs7cab67kznrxd4mjhc3zxasil"
+  },
+  "stable": {
+   "version": [
+    1,
+    5,
+    0
+   ],
+   "commit": "c64d5f7088f1295df0bd8f1dc87a532e00647fbe",
+   "sha256": "09a6plb2dqayj4m456ldh43a654jbkg8zjiky7bkj5m0kpdc5426"
+  }
+ },
+ {
   "ename": "vscode-icon",
   "commit": "90a07c96a9223a9ad477cbea895ba522523c5be4",
   "sha256": "0rhsqzgxl7hs52kniyi8yn4f953g7dgx49j4lzf2yr33ydxiw9d3",
@@ -103991,6 +104068,25 @@
    ],
    "commit": "10591342f1759e25756f5865371a53c132d8b0a0",
    "sha256": "0cd77m4zyqs74iz56l4h0k7ccxnxhis0247j4f5mf94s51fn1x7p"
+  }
+ },
+ {
+  "ename": "ynab",
+  "commit": "20a365e48ed200afadae01c096d1ea669e9c1938",
+  "sha256": "0in7blx21kv01vbwkrmvcl4n07vm4wmxkbv3l78s9xrri66i3nvf",
+  "fetcher": "github",
+  "repo": "janders223/ynab.el",
+  "unstable": {
+   "version": [
+    20200607,
+    2008
+   ],
+   "deps": [
+    "cl-lib",
+    "ts"
+   ],
+   "commit": "2c6beb4d2c4996017f6b3c62c26db52a61e5c479",
+   "sha256": "07bb1hlya07p6s6ymjl3vfv99xln3vrp78h4sda5va52vj1935rs"
   }
  },
  {
