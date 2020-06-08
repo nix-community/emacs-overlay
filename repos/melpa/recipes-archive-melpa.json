@@ -5893,8 +5893,8 @@
     20200515,
     1408
    ],
-   "commit": "39d4649f4a179e22fabbef1166afe1725c8dbea6",
-   "sha256": "0n5kqjcmwfbr58my3yisgfigh77rhy5b18jr4kh2b327r76ssqwl"
+   "commit": "bcd3c8c7647c2a8a2a9babdfcfb4417580292a32",
+   "sha256": "0c3rgdx6af0xiy6ip6b0am1dxjm1lwpphcznzg5nw6gfw923zzpg"
   },
   "stable": {
    "version": [
@@ -9715,8 +9715,8 @@
     20171115,
     2108
    ],
-   "commit": "5bb1628621ede5fb764ab8585841f9cff523833f",
-   "sha256": "14zp2h52qjpibgvfp3vzp1yp9g0n793wzw4c0317dbz8jnbghchl"
+   "commit": "d7c45c823fa7c66c137cd023a8517588ff248d55",
+   "sha256": "0hwcghxpv9kj9flc1sl5vccxkj49sl7mf2cm7sr1wqiv0vv43mx3"
   },
   "stable": {
    "version": [
@@ -11545,8 +11545,8 @@
     20190710,
     1319
    ],
-   "commit": "eec2e9b6b9b90b93344afe9300f8f75bbb71f03e",
-   "sha256": "1bchvxi9m2cfap0kj6r15sj3hr3gb3mdf9rc7n3ys47yc3hrabx3"
+   "commit": "624a13046f1ee6ef123155514bafb7c9bc284220",
+   "sha256": "16jjz3l6mnc8p64l52pqprh8rbvz1ig109qj2n5jzs12ba9950v1"
   },
   "stable": {
    "version": [
@@ -13597,6 +13597,21 @@
     "dash",
     "s"
    ],
+   "commit": "5d31132fd6bb3ea8695f2644c67a7a6a4c0706e1",
+   "sha256": "117q2nydchkd7c8s6mhvdybj8cczi15pq7gppc1f6v0d8b7hsdr6"
+  },
+  "stable": {
+   "version": [
+    0,
+    0,
+    1
+   ],
+   "deps": [
+    "cl-lib",
+    "company",
+    "dash",
+    "s"
+   ],
    "commit": "0e6941e1832faafb2176238339667edd482acd95",
    "sha256": "1ri022shrwiw10gdydm66c2xya1qxl449r5f8qadals7m4crczp2"
   }
@@ -14911,8 +14926,8 @@
    "deps": [
     "swiper"
    ],
-   "commit": "b2af61949a82046963e2f2bad3886f7375290ea3",
-   "sha256": "052ls45671dmi0dbj1w0x1z1f4ddv69kz5v3s4w0lnrhq7d5sic6"
+   "commit": "864570a6e432a107305bf0ef01dff5cd4b45744b",
+   "sha256": "0i14g96xmmrdv4j3l9j8a460jck898iqsywv5rwf3jag6mkhrnm9"
   },
   "stable": {
    "version": [
@@ -23115,11 +23130,11 @@
   "repo": "Mstrodl/elcord",
   "unstable": {
    "version": [
-    20200607,
-    1336
+    20200608,
+    1410
    ],
-   "commit": "73d02761bdb7295726610c01bdc0682209deeb9e",
-   "sha256": "0yzx2wv842wba29v8yyw0hw42vb3dbid4dagz3ygis282y6bq8am"
+   "commit": "76883a4aff46d32fd0462eaf29da8b8519b2645e",
+   "sha256": "1syr91zd68svcp1z8dxnpwjdw4nwlyvy7vfwwag7p8m757szlal1"
   }
  },
  {
@@ -24566,11 +24581,11 @@
   "repo": "emacscollective/elx",
   "unstable": {
    "version": [
-    20200422,
-    1352
+    20200608,
+    1448
    ],
-   "commit": "d5ebd8ab6439fea3dcae0bcaece6e914f4ee1f6c",
-   "sha256": "1h1dx6dpwr4cml2a57mz3lq4f746cja007ckrpk3vii9ap413hf8"
+   "commit": "86d3d0ee792a72c3fad3e6ecc04e6178b36567fd",
+   "sha256": "01cq4iv2hx7c6h2ygak2mxmwr9a1hnfknqhg6fzywylr779bxxxg"
   },
   "stable": {
    "version": [
@@ -66699,8 +66714,8 @@
   "repo": "dickmao/nnhackernews",
   "unstable": {
    "version": [
-    20200407,
-    1525
+    20200608,
+    1106
    ],
    "deps": [
     "anaphora",
@@ -66708,8 +66723,8 @@
     "dash-functional",
     "request"
    ],
-   "commit": "41b62dca8961c2100cb4a776e62ae721c532e392",
-   "sha256": "0w4pk7hpyk5zrrbr5ivpyczp32c04aj681pz9ffbrp5wpc7z9dvf"
+   "commit": "40639e0b1d9ade9e5820a3fc878ebfffb58dd07d",
+   "sha256": "19jnk4nmh2aza5saa4idkxms1sa1kp5k3iyydvms4his983xim6z"
   }
  },
  {
@@ -67162,28 +67177,28 @@
   "url": "https://depp.brause.cc/nov.el.git",
   "unstable": {
    "version": [
-    20200506,
-    1245
+    20200608,
+    1339
    ],
    "deps": [
     "dash",
     "esxml"
    ],
-   "commit": "55a3b41aa71740826a1cd410fa8d24a313f27b7c",
-   "sha256": "0zw6iq2iwv06jixb5cv73b832y576v0vs51l0j80d8w5d09zpfz3"
+   "commit": "3d32aac0f895c8605e254c8b7f246537816744f5",
+   "sha256": "13r7lvyyyv62m57m4s4xjs4qz2ckhqk6ib514px7qzc7mdzcz9i9"
   },
   "stable": {
    "version": [
     0,
     3,
-    0
+    1
    ],
    "deps": [
     "dash",
     "esxml"
    ],
-   "commit": "ea0c835c1b5e6e70293f4bd64e9c89bdc42f8596",
-   "sha256": "04phmm14ywgicjsl2bsg6w9rapd71vdkxdp5wp0brj6px27y85jz"
+   "commit": "3d32aac0f895c8605e254c8b7f246537816744f5",
+   "sha256": "13r7lvyyyv62m57m4s4xjs4qz2ckhqk6ib514px7qzc7mdzcz9i9"
   }
  },
  {
@@ -74352,8 +74367,8 @@
    "deps": [
     "org"
    ],
-   "commit": "2e5749d908fd097ac6bbdca7165a3c4eb0675a62",
-   "sha256": "1kaq933jdylv6k1pag1ww4mb7vsq141xapb83diflxv1pikv9r61"
+   "commit": "f3c8fda6fee78f45a259e5d218a519dfd11c00c7",
+   "sha256": "1rs1n228c2fmpvirc57bqgf2616ijpphkgf4w9ln5j46snmkam25"
   },
   "stable": {
    "version": [
