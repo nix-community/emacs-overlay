@@ -3704,10 +3704,10 @@
       elpaBuild {
         pname = "wisi";
         ename = "wisi";
-        version = "3.1.2";
+        version = "3.1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wisi-3.1.2.tar";
-          sha256 = "1mbs4x5fvzqkg4vhva41ifh2vsakrf5kanlqrjaxh1cbvfbx27q5";
+          url = "https://elpa.gnu.org/packages/wisi-3.1.3.tar";
+          sha256 = "0cbjcm35lp164wd06mn3clikga07qxfsfnkvadswsapsd0cn2b4k";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -3724,10 +3724,10 @@
       elpaBuild {
         pname = "wisitoken-grammar-mode";
         ename = "wisitoken-grammar-mode";
-        version = "1.1.0";
+        version = "1.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wisitoken-grammar-mode-1.1.0.tar";
-          sha256 = "123z9j76cm0p22d9n4kqvn2477fdkgp5jarw564nd71cxrrb52ms";
+          url = "https://elpa.gnu.org/packages/wisitoken-grammar-mode-1.2.0.tar";
+          sha256 = "0isxmpwys148djjymszdm5nisqjp9xff8kad45l4cpb3c717vsjw";
         };
         packageRequires = [ emacs mmm-mode wisi ];
         meta = {
