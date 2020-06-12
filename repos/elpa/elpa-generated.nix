@@ -730,10 +730,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.22";
+        version = "0.23";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/debbugs-0.22.tar";
-          sha256 = "05ik9qv539b5c1nzxkk3lk23bqj4vqgmfmd8x367abhb7c9gix2z";
+          url = "https://elpa.gnu.org/packages/debbugs-0.23.tar";
+          sha256 = "0mcz97b3sddrc68wi8dz95b2rq7ky88pr2i1ghyhy28as16chmz5";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -1085,14 +1085,29 @@
       elpaBuild {
         pname = "elisp-benchmarks";
         ename = "elisp-benchmarks";
-        version = "1.5";
+        version = "1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.5.tar";
-          sha256 = "0pn50s1kxlhmpxcn6kqp83rrdl3bwqw3y63ff2469b9z085ysldv";
+          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.6.tar";
+          sha256 = "0a4r7g7fa6qcbrsagg1ypvkavaykfwq5v58l5s2b1lzrwq8vd7hs";
         };
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/elisp-benchmarks.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    emms = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "emms";
+        ename = "emms";
+        version = "5.41";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/emms-5.41.tar";
+          sha256 = "0k02d0qg3wlzhq2w1ans0lva8c8kqiskf9q131m9s14nxd7pmgla";
+        };
+        packageRequires = [ cl-lib ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/emms.html";
           license = lib.licenses.free;
         };
       }) {};
