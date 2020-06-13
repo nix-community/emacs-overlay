@@ -1100,10 +1100,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "5.41";
+        version = "5.42";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emms-5.41.tar";
-          sha256 = "0k02d0qg3wlzhq2w1ans0lva8c8kqiskf9q131m9s14nxd7pmgla";
+          url = "https://elpa.gnu.org/packages/emms-5.42.tar";
+          sha256 = "1khx1fvllrs6w9kxk12mp1hj309c90mc7lkq1vvlqlr7vd6zmnpj";
         };
         packageRequires = [ cl-lib ];
         meta = {
