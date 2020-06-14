@@ -3578,6 +3578,21 @@
   }
  },
  {
+  "ename": "arduino-cli-mode",
+  "commit": "613b2f82b1fd035e725e574c750da408e8386cde",
+  "sha256": "1h49bfn4gn1h2xdb6axhbg6wm74h4fmiylcm55lwg9ri57rcdqkl",
+  "fetcher": "github",
+  "repo": "motform/arduino-cli-mode",
+  "unstable": {
+   "version": [
+    20200608,
+    503
+   ],
+   "commit": "12be4ca4c718f16fefdd4bec194a7c6c0c0de593",
+   "sha256": "09gaynpkryhla2gkr6nda9yxfa9xs2aa5jcn6chh6hmz3bkiv1gz"
+  }
+ },
+ {
   "ename": "arduino-mode",
   "commit": "2db785f52c2facc55459e945ccb4d4b088506747",
   "sha256": "1amqah0sx95866ikdlc7h7n9hmrwaqizc0rj0gliv15kjjggv55v",
@@ -10390,7 +10405,7 @@
   "unstable": {
    "version": [
     20200613,
-    1111
+    2000
    ],
    "deps": [
     "clojure-mode",
@@ -10401,8 +10416,8 @@
     "sesman",
     "spinner"
    ],
-   "commit": "1f2fedf69cfdefcb930ac4905b6235c1eb2182cc",
-   "sha256": "0b8p49xd1fvx1cn7n3i6g83x4sl4y5gnb3ryfv8aiwdrvj9l9y93"
+   "commit": "6ddbdf24c83cd36d98254dd11025620afac49f37",
+   "sha256": "157sdz7z8cm2vd1d4parkds4kpz1p0x2sk6qh8cvcihf46jnn3s9"
   },
   "stable": {
    "version": [
@@ -14924,14 +14939,14 @@
   "repo": "abo-abo/swiper",
   "unstable": {
    "version": [
-    20200611,
-    1821
+    20200613,
+    1920
    ],
    "deps": [
     "swiper"
    ],
-   "commit": "db5a8940cf2a4324a1512c8f2a0e91475d1ac26f",
-   "sha256": "0akhxc458jl1iw3zpjbr4gkcfpb4hhni0czmld213vnrlaig684r"
+   "commit": "f8b1ab8c0ec331a4f8f6621f9021811075c71332",
+   "sha256": "09409y3idbj1z4vj2q6lwvp52q76nz7vgv2brr4m52jq2l2q7x6n"
   },
   "stable": {
    "version": [
@@ -23182,11 +23197,11 @@
   "repo": "doublep/eldev",
   "unstable": {
    "version": [
-    20200612,
-    2119
+    20200613,
+    2033
    ],
-   "commit": "589a8e37b50380216f4129f51c58bd011129d56a",
-   "sha256": "1karsdpgxsfq2m0yabg670br3ilaw4qrkkj3br92c9g9i0nsnp51"
+   "commit": "ba6cb0f21cc147bb0e12d5845d7c2a4958f3953e",
+   "sha256": "0pqr6zdv88yzjxb3k26qfhiash5qvagh9k0qll6viiv3y2mswfgh"
   },
   "stable": {
    "version": [
@@ -27321,6 +27336,30 @@
    ],
    "commit": "d502141f0c69bf95256ba5cb9cd15350c7e942d2",
    "sha256": "0k0g58qzkkzall715k0864v3b7p5jnfwxqgmkj087x34frcf388k"
+  }
+ },
+ {
+  "ename": "etc-sudoers-mode",
+  "commit": "e665f3b7fd75544c174ac3da9e0a498ceb694f5a",
+  "sha256": "01sn1pd6s4blf6dk3vvi70sr1mgcfsigb1qvxk3dsggf1ng2rhsk",
+  "fetcher": "gitlab",
+  "repo": "mavit/etc-sudoers-mode",
+  "unstable": {
+   "version": [
+    20200608,
+    1555
+   ],
+   "commit": "8d3805d8b8e016278204d727f6b97913ea0e5079",
+   "sha256": "0cg0l8ksqrxy0clzj5x8l891873zcxwwzziv1mvwf8i618w2sjss"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    0
+   ],
+   "commit": "8d3805d8b8e016278204d727f6b97913ea0e5079",
+   "sha256": "0cg0l8ksqrxy0clzj5x8l891873zcxwwzziv1mvwf8i618w2sjss"
   }
  },
  {
@@ -37398,6 +37437,21 @@
   }
  },
  {
+  "ename": "gemini-mode",
+  "commit": "2cc0e9039171064cd0fb37b3eb5324c91a88ef7a",
+  "sha256": "1mbhv034jk4bwi58z6jc2r4d828v0ir3jwqpgi2mfjnjxk5x5ga5",
+  "fetcher": "git",
+  "url": "http://git.carcosa.net/jmcbray/gemini.el.git",
+  "unstable": {
+   "version": [
+    20200609,
+    1845
+   ],
+   "commit": "d2b6804043a994f0d953be53eda7e5b6671eeef5",
+   "sha256": "0pf8rfyagmlxqlz7v9m9fjg463cfddq1x2d2kbzw431h82ppq1bd"
+  }
+ },
+ {
   "ename": "general",
   "commit": "d86383b443622d78f6d8ff7b8ac74c8d72879d26",
   "sha256": "104ywsfylfymly64p1i3hsy9pnpz3dkpmcq1ygafnld8zjd08gpc",
@@ -40935,8 +40989,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "363a08bbab4d41834e2465fda8bc11ce232fac6d",
-   "sha256": "09za96dl82vnkvz688y4d0ipb0f7p3b72xi3hp951d82krbzmx5x"
+   "commit": "7650349cbb310500918819d5e29708ef17fca8ee",
+   "sha256": "0prlnxbkjga43drj15gh08d3s6i5n4dp4mplqmvpa84fqq1a1ww4"
   },
   "stable": {
    "version": [
@@ -59173,6 +59227,24 @@
   }
  },
  {
+  "ename": "lsp-jedi",
+  "commit": "65d0fa5e46e336e0e93db1bea062e79253861de4",
+  "sha256": "1hxw4nrjds9ir7f6j2zypazf208cc7v2621c11rdxkik8iykqikf",
+  "fetcher": "github",
+  "repo": "fredcamps/lsp-jedi",
+  "unstable": {
+   "version": [
+    20200608,
+    1711
+   ],
+   "deps": [
+    "lsp-mode"
+   ],
+   "commit": "5bc740454f7b4c789c1fd89f5fe9f96572706ab7",
+   "sha256": "1hzh8arw5c0pzb6ms80ac6xmzcrzxfm5aairkxrk151sj2d8cb8c"
+  }
+ },
+ {
   "ename": "lsp-julia",
   "commit": "ca6a06ed4de499bcccce05163ea3d54e4dca9539",
   "sha256": "1frjvq2x0xsf93kgpy6bp9mgzfpr7zhacskmm6x8kknb9vj18h4v",
@@ -59236,8 +59308,8 @@
  },
  {
   "ename": "lsp-metals",
-  "commit": "feb43576bd7f54ed80caec2b5a93c2e514f47224",
-  "sha256": "1y7s438p9kzz5kjb4mpcklhkammllpq8z3fakz3z929vd8hxl4x1",
+  "commit": "ee055cc258692a92f727633306adf7df31267479",
+  "sha256": "1nl9ay741y7qxvgdr6vywavr3aayh6z3a3bvmc4q5g5vsh3inwya",
   "fetcher": "github",
   "repo": "emacs-lsp/lsp-metals",
   "unstable": {
@@ -74586,6 +74658,25 @@
    ],
    "commit": "b7445849ae1f16b4b28f7a080301a0a61edf1c83",
    "sha256": "15wxyzsfp4gilnravs2h4h8vwk0rf8ylzsxzdzlqx0i62wbb79l9"
+  }
+ },
+ {
+  "ename": "ox-leanpub",
+  "commit": "20e1ea346ac6d912e3fbb597b7c65c98a6785132",
+  "sha256": "10nz3dy7dmy8p70fsglbc0gdfhhvr286wby5yccjfaacjkg77ifj",
+  "fetcher": "gitlab",
+  "repo": "zzamboni/ox-leanpub",
+  "unstable": {
+   "version": [
+    20200609,
+    2017
+   ],
+   "deps": [
+    "org",
+    "ox-gfm"
+   ],
+   "commit": "63d41e079c4318fa12855e6eaeb6bf99c19a886c",
+   "sha256": "1qfvnrllwsialiyw4v3kqjz9d790p2kv121i8n32sxy1m1hx696w"
   }
  },
  {
