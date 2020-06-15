@@ -20441,14 +20441,14 @@
   "repo": "hlissner/emacs-doom-themes",
   "unstable": {
    "version": [
-    20200612,
-    2100
+    20200615,
+    14
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "a8071412dd422a373f93a48e35a76c4821ff7ad7",
-   "sha256": "186161f1my5sikxmbhlf7c0lxadaycgfacnir4pgqzdnrwjj58m1"
+   "commit": "cda6ab935a5613fb6cabcfa9e80ba814f2588a86",
+   "sha256": "12jkjnmy20vav8j84nd02xf7n171ha2fl140rsk7qc6a0k7ngib3"
   },
   "stable": {
    "version": [
@@ -33005,6 +33005,38 @@
    ],
    "commit": "1bcb11c3c7878c1b0d73318399e572e9a15587b1",
    "sha256": "1daw5mmif1nzg4yr5zm42bzzfg1n4qxps3pkcisga11mbp9g553r"
+  }
+ },
+ {
+  "ename": "flycheck-guile",
+  "commit": "e94519d09e86af65778a7b81877e21d139c9a529",
+  "sha256": "1jxdqn3smpd9vf26y24m35yg60xjkqcazlj18q0vrf4ib188d36c",
+  "fetcher": "github",
+  "repo": "flatwhatson/flycheck-guile",
+  "unstable": {
+   "version": [
+    20200615,
+    18
+   ],
+   "deps": [
+    "flycheck",
+    "geiser"
+   ],
+   "commit": "bdb0c0406b9896541146d85df8f75c3e526e7d72",
+   "sha256": "163pnsh6r6bral1jg0vqri54g6hygws21vis0zci4114yb3fhkm1"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    1
+   ],
+   "deps": [
+    "flycheck",
+    "geiser"
+   ],
+   "commit": "bdb0c0406b9896541146d85df8f75c3e526e7d72",
+   "sha256": "163pnsh6r6bral1jg0vqri54g6hygws21vis0zci4114yb3fhkm1"
   }
  },
  {
@@ -55918,8 +55950,8 @@
     20180702,
     2029
    ],
-   "commit": "3c936216853a543ea63fa530f99788d128f07692",
-   "sha256": "0s2ipzfcr7w3wai4fc8yk6hkjvbmfkx3zimlrabp47fr5nf5p93l"
+   "commit": "20c14b2a2bac73288a4c2808843910364565f66a",
+   "sha256": "1mf3if96cvxc8sqy22h4j2aq320ngw6q2286psvpq9v1mhv0wna4"
   },
   "stable": {
    "version": [
@@ -55927,10 +55959,10 @@
     0,
     0,
     -1,
-    2
+    3
    ],
-   "commit": "78fb93b88f9941c22be02d36a786db8ca7639c59",
-   "sha256": "1z59fi9q32xql1w7pjh4w1jzfz1n63a0lr5x38kwjj79dpz3ccal"
+   "commit": "20c14b2a2bac73288a4c2808843910364565f66a",
+   "sha256": "1mf3if96cvxc8sqy22h4j2aq320ngw6q2286psvpq9v1mhv0wna4"
   }
  },
  {
@@ -59088,8 +59120,8 @@
   "stable": {
    "version": [
     1,
-    11,
-    9
+    12,
+    0
    ],
    "deps": [
     "dap-mode",
@@ -59101,8 +59133,8 @@
     "lsp-treemacs",
     "pkg-info"
    ],
-   "commit": "afdcce3507569ef0ca9c2ff146bc22cf0f6a0d46",
-   "sha256": "02p5dz0lxzvkf2nma2ykn2478hl695bzxix2n7pm3v6fcw59kqf5"
+   "commit": "b13648591c061953268c3cc9d159dedffba9d114",
+   "sha256": "0v5ck8ia5zk1daq70p4c5mqll87nbjc6rnzlxiw0b9dfg6fff6gh"
   }
  },
  {
@@ -79591,15 +79623,15 @@
   "repo": "ponylang/ponylang-mode",
   "unstable": {
    "version": [
-    20200614,
-    408
+    20200615,
+    215
    ],
    "deps": [
     "dash",
     "hydra"
    ],
-   "commit": "e1fed2e8deec4527a4bbe490682772b2d9567f0a",
-   "sha256": "1al332lpgfwafjdkhmjyagq6lpghp6y0qqlb5h7anldn17vwg685"
+   "commit": "a0fa74cd25feaef3fcbaf7b324a6674cd93fff3a",
+   "sha256": "0ha709j8229v1j5jrn2333s3ayg6hm403mmq31ry3y7b311yl445"
   },
   "stable": {
    "version": [
@@ -90174,14 +90206,14 @@
   "repo": "laishulu/emacs-smart-input-source",
   "unstable": {
    "version": [
-    20200614,
-    1731
+    20200615,
+    235
    ],
    "deps": [
     "names"
    ],
-   "commit": "20b84ae2233b40dd0d7e93a047da00227b21963a",
-   "sha256": "0330ldylkpqaw6s46px53p3rnb77dnhm60f19w1dk7w4ck3d3dxc"
+   "commit": "37aaec8f30f2ae8414be0e5b45c21dba386272ce",
+   "sha256": "104ldcmx02py91fh9v1gwmxg91vkyfh6wfi51nf3gnalyl9q0syf"
   }
  },
  {
@@ -102542,13 +102574,13 @@
   "unstable": {
    "version": [
     20200613,
-    1238
+    1307
    ],
    "deps": [
     "dash"
    ],
-   "commit": "80a602e9ccf2b83aab1bda24d84250af048d3d90",
-   "sha256": "14z10vvs4hbq76niji0fy6kb0lhhvs5lgh96cf72gl2r8m9magj2"
+   "commit": "b427b698105a90280c241e3d08df4509555fb4fd",
+   "sha256": "1afis0g337pfsy4fcqb8cj3s6kk6j502zhi1924wk4i1g4db409p"
   },
   "stable": {
    "version": [
