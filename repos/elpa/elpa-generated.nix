@@ -1797,6 +1797,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    leaf = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "leaf";
+        ename = "leaf";
+        version = "4.2.5";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/leaf-4.2.5.tar";
+          sha256 = "0y78mp4c2gcwp7dc87wlx3r4hfmap14vvx8gkjc9nkf99qavpnkw";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/leaf.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     let-alist = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "let-alist";
