@@ -11562,8 +11562,8 @@
     20190710,
     1319
    ],
-   "commit": "01fdd421bbd7c3c1d37fd61bfaf0cfe5a756af71",
-   "sha256": "0nsx4lj3pr0vgbs25b63l5bdf23b7xfiwhjmlm8q4c29byr0f88z"
+   "commit": "c0a9fc1dd6c40625e612222cfe89d4426df73db9",
+   "sha256": "15wqsxhw565bxqbvw1p2vnr6ax1q44vjxfvh20qydhrlxkkvav7c"
   },
   "stable": {
    "version": [
@@ -15083,14 +15083,14 @@
   "repo": "redguardtoo/counsel-etags",
   "unstable": {
    "version": [
-    20200614,
-    1331
+    20200619,
+    259
    ],
    "deps": [
     "counsel"
    ],
-   "commit": "3910ce5843ca1d7fa0faaef949911662b1df25c8",
-   "sha256": "1l9v82pazxlg0l8hbqd5znf2zfpd4lkccjdmqpmkwszkbji686df"
+   "commit": "ea4b09e755c070609a27407ef6b6cf135c975194",
+   "sha256": "1wp91qr27nkkda6l6niavmqj0ibpla2zvr8fh0jjq3x16vq7aibn"
   },
   "stable": {
    "version": [
@@ -16572,8 +16572,8 @@
     20190111,
     2150
    ],
-   "commit": "2c7c22f51405299a4e247f78edf52957d30cf71d",
-   "sha256": "03llb25y2y7gh09aj59n3inddymrnzs4lmdhx964xg1kqhcy442y"
+   "commit": "1e72c2c57efbe0aac96b961a1ba1a8dee9ada4b7",
+   "sha256": "12b0hx7bmgpvc4cnnrfi8lflcsilircrj29865px8yc4ah2lvhq5"
   },
   "stable": {
    "version": [
@@ -59473,8 +59473,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20200618,
-    1452
+    20200619,
+    450
    ],
    "deps": [
     "dash",
@@ -59485,8 +59485,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "ceeabed77cb990476c04831a83e2902ef5feef67",
-   "sha256": "1gx0r2awjl9pfdjhp7qg95nbx6zbw2aw97i7sglgmnn28mqvqa1w"
+   "commit": "29483d9a1c513565ca8558fa63e752a342839dd5",
+   "sha256": "14fipdaf6vyy075640yhh3haz3zkwq719pnmpf62d1ahzzz8gazj"
   },
   "stable": {
    "version": [
@@ -59703,6 +59703,22 @@
    ],
    "commit": "5d3f7b49a14b1dd7457c4dcf4233be83b6a4d637",
    "sha256": "1mfpnykfj88sx3k814hgn0ass2slk5vbq5brvbknlyk9yy4xfbv2"
+  },
+  "stable": {
+   "version": [
+    0,
+    1
+   ],
+   "deps": [
+    "dash",
+    "dash-functional",
+    "f",
+    "ht",
+    "lsp-mode",
+    "treemacs"
+   ],
+   "commit": "378ac0b42d7b69e3b51e6e0eb747ed206b90613f",
+   "sha256": "03jlwbzkkpqn0a68m991b6zhbnpna1rvjsdjmqqvyng209lgcgph"
   }
  },
  {
@@ -69125,11 +69141,11 @@
   "repo": "rnkn/olivetti",
   "unstable": {
    "version": [
-    20200617,
-    407
+    20200619,
+    458
    ],
-   "commit": "dd7cde1018fe4a87c270ff5674321c17d34b9980",
-   "sha256": "0g199gg3y1cmq28lybd3zm7ffxgf85mbz84fg12jyrgcpmf0430f"
+   "commit": "70e9206ab7b05302d29e0e582bf42c93bfe5cc6f",
+   "sha256": "0f8x5ypjz6vgrs3wr7hv7hw8hpn5whvdr0k87g5lpv2zd4qzhmfp"
   },
   "stable": {
    "version": [
@@ -72261,8 +72277,8 @@
     "org",
     "s"
    ],
-   "commit": "6a37fff1e6380a93dd7e6f50604c62df8bd3f9c9",
-   "sha256": "1nh67v6km6k1cr7jjwriwwbgbl7ydllh26ivj1ah6gr3v580szsy"
+   "commit": "abd81918e1fccc234d90218fdcb845945e400981",
+   "sha256": "0d0wri96ya1m1npa41mw9ihdrx7khxs34ga1mm1064in5b5id6kb"
   },
   "stable": {
    "version": [
@@ -90257,13 +90273,13 @@
   "unstable": {
    "version": [
     20200619,
-    215
+    550
    ],
    "deps": [
     "names"
    ],
-   "commit": "3ca6d6f62a681e8348c3c11e13d38bfd005a13d0",
-   "sha256": "11m0nsyf6hc99z0gn3n1ih23qbylm3a0rkzpcr3jjj10dxyl20x1"
+   "commit": "331535ed45351d183ac236117f768687a340a417",
+   "sha256": "0ln6vbr0j5snl2qrp2q61s2z3b700y2h74zhc2879zk06nsd182r"
   }
  },
  {
@@ -96011,8 +96027,8 @@
     20200212,
     1903
    ],
-   "commit": "4ff743434f12bfafb83ab9bca18d3d314cbe04cb",
-   "sha256": "1sghpy2irsxk5a8m5d4ynvqgcyxz2knzcqw40klrdx0vj7jmaxrx"
+   "commit": "bcad491c3fba9b1cbdb7641f6d032dda0ad1ac74",
+   "sha256": "1f4jdydsflfbp2py6aj0wp51ry3vf5193ri6rpkrxxhh0p5xjxfz"
   },
   "stable": {
    "version": [
