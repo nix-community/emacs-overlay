@@ -12,11 +12,11 @@ let
       requires =
         lib.concatMapStrings
           (line:
-            let match = builtins.match "^;;;* *[pP]ackage-[rR]equires *: *\\((.*)\\)" line;
+            let match = builtins.match ";;;* *[pP]ackage-[rR]equires *: *\\((.*)\\) *" line;
             in if match == null then "" else builtins.head match)
           lines;
       parseReqList = s:
-        let matchAndRest = builtins.match " *\\(? *([^ \"\\)]+)( +\"[^\"]+\" *\\))?(.*)" s;
+        let matchAndRest = builtins.match " *\\(? *([^ \"\\)]+)( +\"[^\"]+\" *\\)| *\\))?(.*)" s;
         in
         if isStrEmpty s then
           [ ]
