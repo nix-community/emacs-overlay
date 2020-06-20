@@ -28,8 +28,12 @@ We also provide two attributes named =emacsGit-nox= and =emacsUnstable-nox=
 if you wish to have Emacs built without X dependencies.
 
 ** Extra library functionality
-This overlay comes with an extra function to generate an Emacs closure from =use-package= declarations.
-This is an abstraction on top of =emacsWithPackages=.
+This overlay comes with extra functions to generate an Emacs closure
+from various types of dependency declaration. (These are abstractions
+on top of =emacsWithPackages=.)
+
+For example, =emacsWithPackagesFromUsePackage= adds packages which are required in a user's config via =use-package=:
+
 #+BEGIN_SRC nix
 {
   environment.systemPackages = [
@@ -49,6 +53,24 @@ This is an abstraction on top of =emacsWithPackages=.
       };
     })
   ];
+}
+#+END_SRC
+
+Similarly, =emacsWithPackagesFromPackageRequires= adds packages which
+are declared in a =.el= package file's =Package-Requires= header, which
+can be handy for CI purposes:
+
+#+BEGIN_SRC nix
+...
+let
+  emacsForCI = pkgs.emacsWithPackagesFromPackageRequires {
+    packageFile = builtins.readFile ./flycheck.el;
+    extraEmacsPackages = epkgs: [
+      epkgs.package-lint
+    ];
+  };
+pkgs.mkShell {
+  buildInputs = [ emacsForCI ];
 }
 #+END_SRC
 
