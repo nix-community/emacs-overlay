@@ -6,6 +6,19 @@ let
     (x: builtins.typeOf x == "string")
     (builtins.split _sep _s);
 
+  # Parse (all) Package-Requires elisp headers found in the input string
+  # `packageFile` into a list of package name strings.
+  #
+  # Example inputs:
+  #
+  #  ;; Package-Requires: ()
+  #  => [ ]
+  #  ;; Package-Requires: ((dash "2.12.1") (pkg-info "0.4") (let-alist "1.0.4") (seq "1.11") (emacs "24.3"))
+  #  => [ "dash" "pkg-info" "let-alist" "seq" "emacs" ]
+  #  ;; Package-Requires: (dash (pkg-info "0.4"))
+  #  => [ "dash" "pkg-info" ]
+  #  ;; Package-Requires: ((dash) (pkg-info "0.4"))
+  #  => [ "dash" "pkg-info" ]
   parsePackagesFromPackageRequires = packageFile:
     let
       lines = splitString "\r?\n" packageFile;
