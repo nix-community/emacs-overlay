@@ -6,8 +6,8 @@ let
     (x: builtins.typeOf x == "string")
     (builtins.split _sep _s);
 
-  # Parse (all) Package-Requires elisp headers found in the input string
-  # `packageFile` into a list of package name strings.
+  # Parse (all) Package-Requires packageElisp headers found in the input string
+  # `packageElisp` into a list of package name strings.
   #
   # Example inputs:
   #
@@ -19,9 +19,9 @@ let
   #  => [ "dash" "pkg-info" ]
   #  ;; Package-Requires: ((dash) (pkg-info "0.4"))
   #  => [ "dash" "pkg-info" ]
-  parsePackagesFromPackageRequires = packageFile:
+  parsePackagesFromPackageRequires = packageElisp:
     let
-      lines = splitString "\r?\n" packageFile;
+      lines = splitString "\r?\n" packageElisp;
       requires =
         lib.concatMapStrings
           (line:

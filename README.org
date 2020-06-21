@@ -64,7 +64,7 @@ can be handy for CI purposes:
 ...
 let
   emacsForCI = pkgs.emacsWithPackagesFromPackageRequires {
-    packageFile = builtins.readFile ./flycheck.el;
+    packageElisp = builtins.readFile ./flycheck.el;
     extraEmacsPackages = epkgs: [
       epkgs.package-lint
     ];

@@ -7,13 +7,13 @@ Package-Requires declarations.
 let
   parse = pkgs.callPackage ./parse.nix { };
 in
-{ packageFile
+{ packageElisp
 , extraEmacsPackages ? epkgs: [ ]
 , package ? pkgs.emacs
 , override ? (epkgs: epkgs)
 }:
 let
-  packages = parse.parsePackagesFromPackageRequires packageFile;
+  packages = parse.parsePackagesFromPackageRequires packageElisp;
   emacsPackages = pkgs.emacsPackagesGen package;
   emacsWithPackages = emacsPackages.emacsWithPackages;
 in
