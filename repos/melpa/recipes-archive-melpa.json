@@ -11562,8 +11562,8 @@
     20190710,
     1319
    ],
-   "commit": "eae0c0afbb77f5823bdbdc157fc244ac0e32ef6b",
-   "sha256": "0rvz9v624gmzqihdjb81cd6389g2mxjf5cbkf08dzngmv25gyfa7"
+   "commit": "71f6c7badfdce6279442e124ff0f9b956c926c4a",
+   "sha256": "1wqwpcczz3jgdhsin6cx2n4dxf3gr1hyj3c20k7anwzdkxc9vwdd"
   },
   "stable": {
    "version": [
@@ -59492,8 +59492,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20200620,
-    1536
+    20200621,
+    545
    ],
    "deps": [
     "dash",
@@ -59504,8 +59504,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "1caab8252cd614a5f030d724a49b9e8cb65ae70e",
-   "sha256": "0wkll42da64l3gxsxhx1c71v35hmmf26rbla17zdfmb0ys5811sx"
+   "commit": "92b3b75268a602dcc02f8eec1c333f4551f09539",
+   "sha256": "1ilycr86h49w9kjx9z4n8ay55vkqrxyrn1j17bljwph13bpq61di"
   },
   "stable": {
    "version": [
@@ -63808,11 +63808,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20200620,
-    40
+    20200621,
+    559
    ],
-   "commit": "9d5f815f1df20ff40b19a18bfea68b15474c0aa2",
-   "sha256": "03nlsy2skk8x3x7mwl92m295kxbwvss09n9sda0ipmb1m96cix58"
+   "commit": "c0d35ae86dff5877a176a844bb33159df3156139",
+   "sha256": "0y4l5823x2rlxrgnz84a08im3g4py9rarb4in1qq16wrfkpf2d62"
   },
   "stable": {
    "version": [
@@ -63832,11 +63832,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20200620,
-    39
+    20200621,
+    559
    ],
-   "commit": "9d5f815f1df20ff40b19a18bfea68b15474c0aa2",
-   "sha256": "03nlsy2skk8x3x7mwl92m295kxbwvss09n9sda0ipmb1m96cix58"
+   "commit": "c0d35ae86dff5877a176a844bb33159df3156139",
+   "sha256": "0y4l5823x2rlxrgnz84a08im3g4py9rarb4in1qq16wrfkpf2d62"
   },
   "stable": {
    "version": [
@@ -64158,11 +64158,11 @@
   "repo": "takaxp/moom",
   "unstable": {
    "version": [
-    20200619,
-    1527
+    20200621,
+    419
    ],
-   "commit": "623ecb6fe67d3c33f1096b07e0372168b1fb39b7",
-   "sha256": "1iblkmm8xg83bhq99ddrm1f42x7b33y6hyxh4ysxnah65bwgjnqn"
+   "commit": "c1e394b4ffc3a995f6fac09aa81bd5fe23282626",
+   "sha256": "1mnp2mnxylp6ng5xfxky344c447i6li1vyjgpddw4khgpdaapwgf"
   },
   "stable": {
    "version": [
@@ -73897,6 +73897,17 @@
    "version": [
     20200615,
     1044
+   ],
+   "deps": [
+    "origami"
+   ],
+   "commit": "edcba971ba52a14f69a436ad47888827d7927982",
+   "sha256": "1r3dbnjwmg7y1zsimvqw3bi4168ikwdd5fqkjqd6gm905w32hwc0"
+  },
+  "stable": {
+   "version": [
+    1,
+    0
    ],
    "deps": [
     "origami"
