@@ -636,6 +636,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    counsel = callPackage ({ elpaBuild, emacs, fetchurl, lib, swiper }:
+      elpaBuild {
+        pname = "counsel";
+        ename = "counsel";
+        version = "0.13.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/counsel-0.13.1.el";
+          sha256 = "1y3hr3j5bh5mbyh1cqzxx04181qpvj4xyv1gym2gxcjd30nfllli";
+        };
+        packageRequires = [ emacs swiper ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/counsel.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     crisp = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "crisp";
@@ -1651,10 +1666,10 @@
       elpaBuild {
         pname = "ivy";
         ename = "ivy";
-        version = "0.13.0";
+        version = "0.13.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ivy-0.13.0.tar";
-          sha256 = "18r9vb9v7hvdkylchn436sgh7ji9avhry1whjip8zrn0c1bnqmk8";
+          url = "https://elpa.gnu.org/packages/ivy-0.13.1.tar";
+          sha256 = "0n0ixhdykbdpis4krkqq6zncbby28p34742q96n0l91w0p19slcx";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3229,6 +3244,21 @@
         packageRequires = [ emacs svg ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/svg-clock.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    swiper = callPackage ({ elpaBuild, emacs, fetchurl, ivy, lib }:
+      elpaBuild {
+        pname = "swiper";
+        ename = "swiper";
+        version = "0.13.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/swiper-0.13.1.el";
+          sha256 = "06ild7kck0x5ry8bf0al24nh04q01q3jhj6jjl4xz8n2s6jnn70y";
+        };
+        packageRequires = [ emacs ivy ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/swiper.html";
           license = lib.licenses.free;
         };
       }) {};
