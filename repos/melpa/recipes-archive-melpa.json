@@ -2778,10 +2778,10 @@
  },
  {
   "ename": "angular-mode",
-  "commit": "8377b69021bda729b9e96e59a5d7ce2c120838c5",
-  "sha256": "0r2vn9rha26czy7fid1lwd346jgrz1q1wy4v09bg10xq7anwr1lg",
+  "commit": "54d86ad963ca7357ccb62a2e4aa124ed44bc0ebf",
+  "sha256": "04c07flrfnfr6jsqm76xdl5gw79rh18ys4cmqjmgv55rrs0w4rws",
   "fetcher": "github",
-  "repo": "rudolfolah/angularjs-mode",
+  "repo": "emacsattic/angular-mode",
   "unstable": {
    "version": [
     20200510,
@@ -2791,7 +2791,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "error: unable to download 'https://github.com/rudolfolah/angularjs-mode/archive/b24020768217f16b1b86aa236e9729b3d40e17b3.tar.gz': HTTP error 404\n"
+    "error: unable to download 'https://github.com/emacsattic/angular-mode/archive/b24020768217f16b1b86aa236e9729b3d40e17b3.tar.gz': HTTP error 404\n"
    ]
   },
   "stable": {
@@ -5752,11 +5752,11 @@
   "repo": "szermatt/emacs-bash-completion",
   "unstable": {
    "version": [
-    20200627,
-    2148
+    20200628,
+    1325
    ],
-   "commit": "c3797e0d09af7f1a7173e24ad0c774c52b0e90b6",
-   "sha256": "1vlyi8s0cszisngbj6aprkdbfvr11p8hrzakd46ak7x1vjddl41c"
+   "commit": "702859f319fe482e4ef0c6e6dc3db2f9252b0d54",
+   "sha256": "1fcaf6czza3fzhh0ld1lvm2sd3xy3pz0nxsa0d30002gv6qs700c"
   },
   "stable": {
    "version": [
@@ -16625,8 +16625,8 @@
     20190111,
     2150
    ],
-   "commit": "92147baf11071352ffbfa475d0d21e091753e628",
-   "sha256": "17wm7wwgwha6rsv5nh3zvmhjhqcac2zyb86ax5ibl6g87sjh5j03"
+   "commit": "83ea5a4b9908ddd2832633b60e9471863a22a8b8",
+   "sha256": "19kdlc6zhv0vi8larxlpbs5fnb74ck9k7c3ac5n3pnn2j7wcgl7k"
   },
   "stable": {
    "version": [
@@ -18468,19 +18468,19 @@
   "unstable": {
    "version": [
     20200628,
-    339
+    1215
    ],
-   "commit": "7e85fbe0ae8950aa1a19a6ebf96d8f9339542bb6",
-   "sha256": "00fi52ql37ddf4ymn3d8qr6wcynzwq0z4vfxczwhsvgqwnq45cv4"
+   "commit": "d9be019b1d045497494554f1053c3ca9a52e58ac",
+   "sha256": "1x80g5n727ps0a974n4i9amlw4rsn6b9yrj9zb8pd9k3v4m7i135"
   },
   "stable": {
    "version": [
     0,
     7,
-    1
+    2
    ],
-   "commit": "ba94529641c78e92267ad7d9dbfeabcf96b5aa41",
-   "sha256": "1zxvrfzcjfpcchv7fjmylx8k1ngv03acrkymh4vmv5nl54mv2j7f"
+   "commit": "889c8b77e9acc1953204a6b1f756e5592f0c04d3",
+   "sha256": "1yjqxnhz8lwhsccm6izdzzxyyh30gyyhvbkby143c16whwb469q4"
   }
  },
  {
@@ -21750,25 +21750,25 @@
   "repo": "joostkremers/ebib",
   "unstable": {
    "version": [
-    20200623,
-    634
+    20200628,
+    1508
    ],
    "deps": [
     "parsebib"
    ],
-   "commit": "09e1c84592bda6cbd0ff12b2c20558024e249435",
-   "sha256": "172i20civ6apw8nsg24dbs70ss8q9cr39anjz48i27sbn7p3g35y"
+   "commit": "6613c654ab2eaed6a0ea641d1adafcfdb2c2ac05",
+   "sha256": "0iqbv253dl6j343i2373w0i4ysf09frs7dz5a047rqkp6cci5d6d"
   },
   "stable": {
    "version": [
     2,
-    24
+    25
    ],
    "deps": [
     "parsebib"
    ],
-   "commit": "824269eae562e07eadfcb866df10622e2dba1c43",
-   "sha256": "0grj9jvnrlkfr3l2ayfm4sxm4w6s33cjw9x7ily38gg8623mmimi"
+   "commit": "6613c654ab2eaed6a0ea641d1adafcfdb2c2ac05",
+   "sha256": "0iqbv253dl6j343i2373w0i4ysf09frs7dz5a047rqkp6cci5d6d"
   }
  },
  {
@@ -59783,15 +59783,15 @@
   "repo": "emacs-lsp/lsp-python-ms",
   "unstable": {
    "version": [
-    20200520,
-    1609
+    20200628,
+    1106
    ],
    "deps": [
     "cl-lib",
     "lsp-mode"
    ],
-   "commit": "7068cf04a0d0a1877afe56990cc577edd824a1e4",
-   "sha256": "1wza5npdfxhb72i31mnd0x61827amanh9w75ggl2s3xfhbrm3zg0"
+   "commit": "8560f60278026902911a92b631fef681dd156f3d",
+   "sha256": "11a0vfdhzxcr4kgj4pyd39vfkcnpqhzb98chl5m5zsk8kx2l290x"
   },
   "stable": {
    "version": [
@@ -66568,15 +66568,15 @@
   "repo": "felko/neuron-mode",
   "unstable": {
    "version": [
-    20200626,
-    1730
+    20200628,
+    1415
    ],
    "deps": [
     "f",
     "markdown-mode"
    ],
-   "commit": "27e288cfd5f67a54e63c087460052ceef195c46c",
-   "sha256": "0ldr4jvqy2khiww9p7l6ikvg85i9h6qf3ilmwkz0nqq5kqns0bn5"
+   "commit": "41a36c3c37e2fda91b47eb605055e6fcc97bc2b0",
+   "sha256": "1dgnsqmpcinb8mcr9g9v8w2fhb44k7aq8gnzc3d9dz2b5z5s6l4w"
   }
  },
  {
@@ -70581,7 +70581,7 @@
   "commit": "8377b69021bda729b9e96e59a5d7ce2c120838c5",
   "sha256": "1hbdyvfqybbgzmcllys6bqip799j79j6h4b28pp6mnlyfqi64msp",
   "fetcher": "github",
-  "repo": "rudolfolah/org-doing",
+  "repo": "emacsattic/org-doing",
   "unstable": {
    "version": [
     20200510,
@@ -86140,26 +86140,26 @@
   "repo": "dgutov/robe",
   "unstable": {
    "version": [
-    20200614,
-    150
+    20200628,
+    1225
    ],
    "deps": [
     "inf-ruby"
    ],
-   "commit": "57a7c0f68f6fe6c7257b7addca9c0b67a7c8d651",
-   "sha256": "0vm9rcnqasgsgxjyqjwssx9xqw494gcy5ydpjw5lah1zfdci35k3"
+   "commit": "082da38797d247f9c64568ad712a345e041d5c84",
+   "sha256": "1xbj7wi389n6pxfvxrakvhylkdlqg8ll9ad2zmxggcchygwah6nl"
   },
   "stable": {
    "version": [
     0,
     8,
-    2
+    3
    ],
    "deps": [
     "inf-ruby"
    ],
-   "commit": "1908afd42ce05fc8b8bbf3f38301680264b68d19",
-   "sha256": "0qw18wi54yg971n4wnjqkd8lqj5lbs9ra8bvmngif2bzhqlfdsbn"
+   "commit": "082da38797d247f9c64568ad712a345e041d5c84",
+   "sha256": "1xbj7wi389n6pxfvxrakvhylkdlqg8ll9ad2zmxggcchygwah6nl"
   }
  },
  {
@@ -88115,11 +88115,11 @@
   "repo": "raxod502/selectrum",
   "unstable": {
    "version": [
-    20200625,
-    1332
+    20200628,
+    1250
    ],
-   "commit": "a6a2512e1970af1a8e4273a719160fc1d5cb7660",
-   "sha256": "0272gqf61069c8vygpkdqmsinbcr4v5w0cj99rskgl5gkf79k5jz"
+   "commit": "9d39241d54041f37ab7103502bc604973e5499c3",
+   "sha256": "1j8fid47542m8w6clhshfkr34ml0h7wg7bavifggsq1fnc682hn7"
   },
   "stable": {
    "version": [
@@ -90556,8 +90556,8 @@
    "deps": [
     "names"
    ],
-   "commit": "39e816c809243270bb5930742e9afb2a3d3c44f6",
-   "sha256": "1zbsy91rlidl4yv85dngh7ih8flgz6jc0d6wl95xz0z06pfgvi8j"
+   "commit": "d4f931c873c460a7464da44911dfd33dbdd5fa19",
+   "sha256": "101dbgl1w6ylxfwaypgaph91a7ni5yy5a0r0a6kdh3ndnnx7adl0"
   }
  },
  {
@@ -91624,10 +91624,10 @@
  },
  {
   "ename": "sos",
-  "commit": "8377b69021bda729b9e96e59a5d7ce2c120838c5",
-  "sha256": "00yv65wi20d7lc9ayij61k59v2026l2sdfky6x8f3w8rycj43g0x",
+  "commit": "e8acf595ef51c928b4b41a9fea171fbfd40c080d",
+  "sha256": "1sny4wa2746fi9p18js0y9fm2f9ix7yblqyqa36ibkfj4b50hvxi",
   "fetcher": "github",
-  "repo": "rudolfolah/emacs-sos",
+  "repo": "emacsattic/sos",
   "unstable": {
    "version": [
     20200510,
@@ -94083,16 +94083,16 @@
   "repo": "danielmartin/swift-helpful",
   "unstable": {
    "version": [
-    20200516,
-    1836
+    20200628,
+    1407
    ],
    "deps": [
     "dash",
     "lsp-mode",
     "swift-mode"
    ],
-   "commit": "e990ea6f5ea932763d002c3794dd9589add1532d",
-   "sha256": "1a4yrj3yjqgd5jssxd38dvx06cigsszrvs6hv7slfl60p729i0lw"
+   "commit": "e1c6fbeb9ab2af9f1f5a8825e49ae98aa0c1a017",
+   "sha256": "0086z5w8h3fljk6ph1ylzy957qzgq5dycb8992z98ilrnzb0ldsa"
   },
   "stable": {
    "version": [
