@@ -5753,10 +5753,10 @@
   "unstable": {
    "version": [
     20200627,
-    1219
+    2148
    ],
-   "commit": "5e623ac270b1ce63122cf2cdb2336eae7be656a7",
-   "sha256": "0yb4kd055p9jgkawf7rqg4jqp539hm4qdxgfyfxihdyiawivnpbq"
+   "commit": "c3797e0d09af7f1a7173e24ad0c774c52b0e90b6",
+   "sha256": "1vlyi8s0cszisngbj6aprkdbfvr11p8hrzakd46ak7x1vjddl41c"
   },
   "stable": {
    "version": [
@@ -10316,22 +10316,22 @@
  },
  {
   "ename": "chronometrist",
-  "commit": "35d03fe9c066e7388d5ff4adad1afa1e30145995",
-  "sha256": "09dil46qjn7y55y7qax92l7mcw8g1bsb1mjqc92zgln96asi25kj",
-  "fetcher": "git",
-  "url": "https://framagit.org/contrapunctus/chronometrist/",
+  "commit": "9031f880b8646bf9a4be61f3057dc6a3c50393e8",
+  "sha256": "1xjxq257iwjd3zzwqicjqs3mdrkg9x299sm7wfx53dac14d7sa9g",
+  "fetcher": "github",
+  "repo": "contrapunctus-1/chronometrist",
   "unstable": {
    "version": [
-    20200503,
-    633
+    20200627,
+    454
    ],
    "deps": [
     "dash",
     "s",
     "seq"
    ],
-   "commit": "16f2ca86540001b40725c4099d04154aab0a6ba5",
-   "sha256": "19z8wmhsqbm12h0vvzfgjmzj7g3mcpa9qgcz3cnmrr4hgkx4b9a5"
+   "commit": "2e11676f640e379772bdd1f821ce155d02ca29e1",
+   "sha256": "1qvvx5l0ywvglpygs74npya35d1f8l872ljwjv2x11igb6h3c1zd"
   },
   "stable": {
    "version": [
@@ -12261,6 +12261,21 @@
    ],
    "commit": "8a68d313bf429763eb8aa78ece00230a668f2a1f",
    "sha256": "1hh1lkan1ch5xyzrpfgzibf8dxmvaa1jfwlxyyhpnfs5h69h3245"
+  }
+ },
+ {
+  "ename": "comby",
+  "commit": "1173462e86ec0518cd6bab241fea3fe0342c4b41",
+  "sha256": "0wipqvdsmjhg4kvqcgarix955m9v8fs1lccs002f03rz4ckfdpxf",
+  "fetcher": "github",
+  "repo": "s-kostyaev/comby.el",
+  "unstable": {
+   "version": [
+    20200624,
+    1710
+   ],
+   "commit": "de14c0bae2272a29d9fc0523792a30c429f8f39f",
+   "sha256": "1dx129fk7v5bk85m2b741434bzn4lfv881jh633zgykgni3xrx8c"
   }
  },
  {
@@ -18452,20 +18467,20 @@
   "repo": "retroj/digistar-mode",
   "unstable": {
    "version": [
-    20200322,
-    2109
+    20200627,
+    2121
    ],
-   "commit": "567fff3933f80f00f53610e7b08f75bb636b12c0",
-   "sha256": "0252lhkv2r8gy4512frhdh381xrf64nspvfm2hp7bkhz47dlrs7y"
+   "commit": "17714abf84cfa7dba4d2ace3da73224032f9dc7e",
+   "sha256": "0m5yw51025jnda8hdj6l1cak4z6pv4hcz1wwz1hz6rbwgfb54crk"
   },
   "stable": {
    "version": [
     0,
-    6,
-    1
+    7,
+    0
    ],
-   "commit": "8b350b7a143219b3f927cb3a1aeb16a299363f05",
-   "sha256": "1sxfzirl8kgzmq8l9l868yl92mz1r8yk58fnxf7p6z4y0pdlcqfg"
+   "commit": "dbefcbbd99ceaeaaec43761ac724b67f13bc1663",
+   "sha256": "1j1dp1mhf1hvd01g0rqrnaic5pyjl781lyhh1v6g7ccgyyzxk6jm"
   }
  },
  {
@@ -25772,14 +25787,14 @@
   "repo": "emacscollective/epkg",
   "unstable": {
    "version": [
-    20200616,
-    2213
+    20200627,
+    2016
    ],
    "deps": [
     "closql"
    ],
-   "commit": "7755842d8566d8028f5843cd6a3e6318db66a77c",
-   "sha256": "1slhivbgyjciz9j1vy1vpv4jncgfnx4aq8q5lgj61vcmgzs3kw8d"
+   "commit": "09c9905f522a6a0924f1f7e8d33ee385747acfb5",
+   "sha256": "1hzsyjai3js7rskkqwgyxwharn5hq85ppqah5rrlk306cip4y0my"
   },
   "stable": {
    "version": [
@@ -28742,6 +28757,26 @@
    ],
    "commit": "e058fbdcf9dbf7ad6cc77f0172d7517ef233d55f",
    "sha256": "0b08y4spapl4g2292j3l4cr84gjlvm3rpma3gqld4yb1sxd7v78p"
+  }
+ },
+ {
+  "ename": "evil-pinyin",
+  "commit": "640f1cd1b05d7a806404ffbc2c1a95a10ed63a55",
+  "sha256": "1gd9fdmm0fdscc3cw5c8sc1sg8yhsvrlnj3kyyj6jjbrz6s96xni",
+  "fetcher": "github",
+  "repo": "laishulu/evil-pinyin",
+  "unstable": {
+   "version": [
+    20200621,
+    2332
+   ],
+   "deps": [
+    "evil",
+    "names",
+    "pinyinlib"
+   ],
+   "commit": "185dfca77856c22bc39724b398cbae0df0df1a41",
+   "sha256": "1nyb1jdm4iz3qkzinjs8s2g4hchbdpbdgxw99fmkx8rqmsnldbbh"
   }
  },
  {
@@ -59790,6 +59825,14 @@
    "commit": "06f189aa5cafe93cecbdaa234bccd900def7bc68",
    "sha256": "05l563j1wz01rqwd4r639i88ln3bkn0m4swvj3hs11d70brlw981"
   }
+ },
+ {
+  "ename": "lsp-sonarlint",
+  "commit": "ee843ab9cc6188b4f1b8f31ab4a4e69688fb36df",
+  "sha256": "19a189aaws5i6klzjbplh4wxq7z38399wpmkgcji5cc7anzrkzqn",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "emacs-lsp/lsp-sonarlint"
  },
  {
   "ename": "lsp-sourcekit",
@@ -99952,11 +99995,11 @@
   "repo": "federicotdn/verb",
   "unstable": {
    "version": [
-    20200624,
-    49
+    20200627,
+    2134
    ],
-   "commit": "4d7be84b0dafa085af5c1c89bcaf7182015f7a48",
-   "sha256": "04448bik8aws3acsknfr5g1as1bnfm5xbdlzbk84s5wqpjiv9wlv"
+   "commit": "cb15a933810dbf82624531fc40f3c3d696d0d35b",
+   "sha256": "0jsbiy4xj7zp7gnslnk4qbh758brrdkrj93hmdd85waakrwaghvm"
   },
   "stable": {
    "version": [
