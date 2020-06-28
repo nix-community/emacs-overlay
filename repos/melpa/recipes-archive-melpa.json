@@ -15512,16 +15512,16 @@
   "repo": "AdamNiederer/cov",
   "unstable": {
    "version": [
-    20191004,
-    36
+    20200628,
+    107
    ],
    "deps": [
     "elquery",
     "f",
     "s"
    ],
-   "commit": "9e6f4af7a07e281913f9f50f20dbbf6f26807563",
-   "sha256": "1w27hi64wcd86pw4ds2w4yldfm0wsk15f9mpcinyb68sj1p7sn9y"
+   "commit": "b501dfa4ddfbe84619d4e0bb30c33975cb792855",
+   "sha256": "1phzp1lizam84sd8za9yxgn7y2qipjcqi8rx09niy55rj191l3fa"
   }
  },
  {
@@ -18467,20 +18467,20 @@
   "repo": "retroj/digistar-mode",
   "unstable": {
    "version": [
-    20200627,
-    2121
+    20200628,
+    42
    ],
-   "commit": "17714abf84cfa7dba4d2ace3da73224032f9dc7e",
-   "sha256": "0m5yw51025jnda8hdj6l1cak4z6pv4hcz1wwz1hz6rbwgfb54crk"
+   "commit": "ba94529641c78e92267ad7d9dbfeabcf96b5aa41",
+   "sha256": "1zxvrfzcjfpcchv7fjmylx8k1ngv03acrkymh4vmv5nl54mv2j7f"
   },
   "stable": {
    "version": [
     0,
     7,
-    0
+    1
    ],
-   "commit": "dbefcbbd99ceaeaaec43761ac724b67f13bc1663",
-   "sha256": "1j1dp1mhf1hvd01g0rqrnaic5pyjl781lyhh1v6g7ccgyyzxk6jm"
+   "commit": "ba94529641c78e92267ad7d9dbfeabcf96b5aa41",
+   "sha256": "1zxvrfzcjfpcchv7fjmylx8k1ngv03acrkymh4vmv5nl54mv2j7f"
   }
  },
  {
@@ -59830,9 +59830,35 @@
   "ename": "lsp-sonarlint",
   "commit": "ee843ab9cc6188b4f1b8f31ab4a4e69688fb36df",
   "sha256": "19a189aaws5i6klzjbplh4wxq7z38399wpmkgcji5cc7anzrkzqn",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "emacs-lsp/lsp-sonarlint"
+  "repo": "emacs-lsp/lsp-sonarlint",
+  "unstable": {
+   "version": [
+    20200621,
+    2123
+   ],
+   "deps": [
+    "dash",
+    "ht",
+    "lsp-mode"
+   ],
+   "commit": "4a5af31702b88e151c27fd443f2fa81fbd4f83ad",
+   "sha256": "0j7baan4h07n4744sns1gn9vl8g7b39gnqk4qx7wq372rw5lx5dw"
+  },
+  "stable": {
+   "version": [
+    0,
+    0,
+    1
+   ],
+   "deps": [
+    "dash",
+    "ht",
+    "lsp-mode"
+   ],
+   "commit": "5f519612c6a10b189292083b04dcd652b64bc7d1",
+   "sha256": "04xs8n0lxx54hyj1y002ps52cxwb7s79k38q3dqzzbfax1nxwfw3"
+  }
  },
  {
   "ename": "lsp-sourcekit",
