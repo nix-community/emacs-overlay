@@ -12271,11 +12271,11 @@
   "repo": "s-kostyaev/comby.el",
   "unstable": {
    "version": [
-    20200624,
-    1710
+    20200629,
+    140
    ],
-   "commit": "de14c0bae2272a29d9fc0523792a30c429f8f39f",
-   "sha256": "1dx129fk7v5bk85m2b741434bzn4lfv881jh633zgykgni3xrx8c"
+   "commit": "928b8b8959a2556aba5526f2a25801341eb59dc3",
+   "sha256": "1f0155fyvh1m20ahl6wqask4qx6jp3lfwxj894cda9j4y8gnr5iq"
   }
  },
  {
@@ -24299,11 +24299,11 @@
   "url": "git://thelambdalab.xyz/elpher.git",
   "unstable": {
    "version": [
-    20200626,
-    1152
+    20200628,
+    2255
    ],
-   "commit": "329bded18811e816d1f4cddfa5ecd8cb82acc41a",
-   "sha256": "1s54vrvnl2j0178ch7fv70c6jg1nzbfg5amgd527hrmwis8xrrq6"
+   "commit": "b4450244a5e23605f80b2179ce7d4dbaff56d927",
+   "sha256": "0fjqdp4xh9q50rdxg20il1y6wwn5l1af7139f4613z4j5ha3zxxg"
   },
   "stable": {
    "version": [
@@ -24401,8 +24401,8 @@
     "dash",
     "s"
    ],
-   "commit": "7cb5da9554bda8d24fcb54dae0f455cb8bef9906",
-   "sha256": "1r7prmm4vjc1b6x8jmh7wjwl6vklsvgrk13lxxnsw1i7n5mjl2xv"
+   "commit": "cba7629ad886c4e51d66f8b509aad48bdfe100cc",
+   "sha256": "119g9ca40rg0aam7i2n4jhjzjzm8r7bg6q0yjaw5x1j7ywks5af6"
   }
  },
  {
@@ -52640,6 +52640,25 @@
   }
  },
  {
+  "ename": "ivy-emms",
+  "commit": "12b434e4c78b3428ee144559cb57ea41df8fb4c5",
+  "sha256": "1kqjdw94f2mg5m0zcnah1xk59dp152dm4si2rd9c66jn79s2ai4a",
+  "fetcher": "github",
+  "repo": "franburstall/ivy-emms",
+  "unstable": {
+   "version": [
+    20200628,
+    1342
+   ],
+   "deps": [
+    "emms",
+    "ivy"
+   ],
+   "commit": "494613399198edb67de897ff95c1fe907519541c",
+   "sha256": "0mxv4lh9kj72z52z8h35q066b77c7zcbwphsm8rl0q5kmlrkz2vr"
+  }
+ },
+ {
   "ename": "ivy-emoji",
   "commit": "a3c6e6adb1a63534275f9d3d3d0fe0f5e85c549b",
   "sha256": "037r1j2s632a1v05gynlclh6slnhp6mxn55fyx02qw1507l5ap74",
@@ -69305,14 +69324,14 @@
   "repo": "conao3/oj.el",
   "unstable": {
    "version": [
-    20200620,
-    739
+    20200628,
+    2357
    ],
    "deps": [
     "quickrun"
    ],
-   "commit": "5ea9d50c9d9321340df897bf7d154713fb3a7c01",
-   "sha256": "1dam86hyiwjg78dbgvm4sc9229mkh69n2h2qfhdlzmlh4nwha4zh"
+   "commit": "e150718b376d99bd4d397ec5d0f2eb62cffff9a8",
+   "sha256": "01z6a6070nkvxs0p6nj9aq4vd02j75mv4i122yq5355rifl4yrxh"
   }
  },
  {
