@@ -223,10 +223,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "12.2.3";
+        version = "12.2.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-12.2.3.tar";
-          sha256 = "1rbn6pghkll5apjv1fyn82v523fch9l5ksi5lnh439nq460wx1yf";
+          url = "https://elpa.gnu.org/packages/auctex-12.2.4.tar";
+          sha256 = "1yz2h692mr35zgqwlxdq8rzv8n0jixhpaqmbiki00hlysm4zh9py";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3360,10 +3360,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.4.3.5";
+        version = "2.4.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.4.3.5.tar";
-          sha256 = "14djizi4ivwv4ad4nymday86jbh45w14wdhlm96743ffwr45dd2m";
+          url = "https://elpa.gnu.org/packages/tramp-2.4.4.tar";
+          sha256 = "0kdpcrg3iqnfvg1a1spkkngygjddmp2dgz0rcvdccdlfr0hn27c2";
         };
         packageRequires = [ emacs ];
         meta = {
