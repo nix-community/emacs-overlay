@@ -9423,16 +9423,16 @@
   "repo": "MaskRay/emacs-ccls",
   "unstable": {
    "version": [
-    20200621,
-    2049
+    20200701,
+    546
    ],
    "deps": [
     "dash",
     "lsp-mode",
     "projectile"
    ],
-   "commit": "0fd0b410533f8be8d1a834834bae76ce7cbf7c84",
-   "sha256": "11rmswplijb56zq1vlkgypdbifnw93kalmd19b4d7wh3dkjhyhvs"
+   "commit": "914516d6ce7b1864b1dd479c79d682ea80916df9",
+   "sha256": "0j913sggykyajy57jppff3s8wj7s75a6gk2g7z3qmc53hp0c39gf"
   }
  },
  {
@@ -10418,8 +10418,8 @@
     "sesman",
     "spinner"
    ],
-   "commit": "d59ba6df194bbcb1ca64b3fc1598989bc6b82c7b",
-   "sha256": "1fqrj5s7lyf62cpj8a5c4nd88ipq8xrb4iw27b8i9srbkp3y9f2b"
+   "commit": "af051e1df0659be4d04ac93e9d9954b41c0da4a2",
+   "sha256": "1xv3knwnhazlif8lrsjsgpxmszfdjgc9q1kms1rfw06wgxqhrmkn"
   },
   "stable": {
    "version": [
@@ -11602,8 +11602,8 @@
     20190710,
     1319
    ],
-   "commit": "6d986e01cd9307d4049ad00ffeb98e416e6ad842",
-   "sha256": "0gi6rlcgl509pga3ksghhizmhmx87rsvdinafc3661cqm47jcf4y"
+   "commit": "32cfb597f35bfa32d211aa27802427315f2d8859",
+   "sha256": "0qy2nyghd6cq5iy6mmxdh8i960q0xrb7fdrk3fq3gzaha1szixhz"
   },
   "stable": {
    "version": [
@@ -18469,11 +18469,11 @@
   "repo": "retroj/digistar-mode",
   "unstable": {
    "version": [
-    20200629,
-    2349
+    20200701,
+    301
    ],
-   "commit": "bef4d619a1633ff592ae9884d6edaf82fd7fba32",
-   "sha256": "0p0028mmfq9a79qq9jrlfyfnb8346p018rp3lmxp44385abn0m4c"
+   "commit": "e2f4de895f9566d78d9154f6a30934267ec58508",
+   "sha256": "07s9j248bpl36asl6rislnwbqmwa8i3xxa29fwz29xvb8zsr7nhy"
   },
   "stable": {
    "version": [
@@ -59499,8 +59499,8 @@
     "request",
     "treemacs"
    ],
-   "commit": "167659e6d199e8822e83f14ae6e3e88dd8b3d751",
-   "sha256": "0xhqywrq5m0hl735nigvcwlsg18fgwa7jhrl44lbz2p12kj6gsrh"
+   "commit": "2dd2205541699a80018a0c7acf2ad96d3cae1721",
+   "sha256": "1xl7x726mihmldf0j7zhvjcxl4fnn6jqpzz9a1y2pcpp5snqpdyy"
   },
   "stable": {
    "version": [
@@ -59670,8 +59670,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20200630,
-    949
+    20200701,
+    454
    ],
    "deps": [
     "dash",
@@ -59682,8 +59682,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "135d28fd645cd05f1ada30a63ab2b1c9ba6a4530",
-   "sha256": "1qiwvqv41q03xwmy2y30lbiv0hdl8vkmm89iksvynf59il28miw0"
+   "commit": "40719bfde2c8163acab63c727f9205127cc11193",
+   "sha256": "134xz4i73d01vfx6sz2k378h0yarrxx947pwq3qbyqz5d8pi0rv3"
   },
   "stable": {
    "version": [
@@ -81745,8 +81745,8 @@
     20200619,
     1742
    ],
-   "commit": "d4c5992352aae1ed18f44c1a40d2149006bf8704",
-   "sha256": "13n4l0xf9p3qzzinglp10sjdyrd3mgpfqfd6j5jk8gyh55d2h3h5"
+   "commit": "93b38972fb4bea5f6779e08cd0b82ac901f48a71",
+   "sha256": "1hskpx52gb6blv7l4d1p6plhf65ldgcc0j8drvqxcvrhdh4fpd2h"
   },
   "stable": {
    "version": [
@@ -90584,14 +90584,14 @@
   "repo": "laishulu/emacs-smart-input-source",
   "unstable": {
    "version": [
-    20200630,
-    1154
+    20200701,
+    359
    ],
    "deps": [
     "names"
    ],
-   "commit": "8b6f388f5f159b95b8b78a89568c19f8c21a1ad3",
-   "sha256": "1v6cbcl5r73wk9fjg36i3bhi5j30xxsp8dlvsf1m6kbxarq6idd1"
+   "commit": "e56107578973c6e43d3759d0c0b714c9770efc6f",
+   "sha256": "0iaqaknbanf52ga37nbx421kdcmrky2z9kdakvnlvp11qv9inr2h"
   }
  },
  {
@@ -104362,13 +104362,13 @@
    "version": [
     0,
     1,
-    7
+    9
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "784ebb0ee5496b5e7762bfd4c8101166542cb90d",
-   "sha256": "1k9y319ny01yqkg1xsh4rh2xs3dpx5jgvhs17p4c4dvqm0g53mkm"
+   "commit": "9e828920d1931da66a473a66019922b9c3b729f5",
+   "sha256": "0cixj0swz322p7dghghbrasziygbzmn2ikcfiyrjar6bzh1mha9b"
   }
  },
  {
