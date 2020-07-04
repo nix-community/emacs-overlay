@@ -4609,11 +4609,11 @@
   "repo": "mina86/auto-dim-other-buffers.el",
   "unstable": {
    "version": [
-    20200522,
-    2343
+    20200704,
+    122
    ],
-   "commit": "bedeef9ea3f2d8e45961427359ff88f840fcb67d",
-   "sha256": "14n31nd39bgjvz0vdnrjgnv14x0d30h368mas3v4820fv15gjghi"
+   "commit": "82626612bd1c4c5f36d110f6bff3f93c33b4149e",
+   "sha256": "0zl6q09w2jggf3jgspzkh8nq3jk05lj91m7nk2w7gqd6bxap65sg"
   }
  },
  {
@@ -9423,16 +9423,16 @@
   "repo": "MaskRay/emacs-ccls",
   "unstable": {
    "version": [
-    20200701,
-    546
+    20200704,
+    136
    ],
    "deps": [
     "dash",
     "lsp-mode",
     "projectile"
    ],
-   "commit": "914516d6ce7b1864b1dd479c79d682ea80916df9",
-   "sha256": "0j913sggykyajy57jppff3s8wj7s75a6gk2g7z3qmc53hp0c39gf"
+   "commit": "dec922414e496d10001b59cc6df31ab8f0b2045e",
+   "sha256": "04hi185hq6g0xcbdq2l6h165xdxdfi877qad7z3cyliibafn2is6"
   }
  },
  {
@@ -22785,8 +22785,8 @@
   "repo": "kostafey/ejc-sql",
   "unstable": {
    "version": [
-    20200607,
-    2010
+    20200703,
+    2325
    ],
    "deps": [
     "auto-complete",
@@ -22795,8 +22795,8 @@
     "direx",
     "spinner"
    ],
-   "commit": "4c774993310496f70236a7c991c379dd681a901f",
-   "sha256": "0x5f5nrhizcdzavj3b2y6h3gai25akmjh58z1flfli6c01yz8yf7"
+   "commit": "442029488aadaef9fa61ac79cf7462377f851179",
+   "sha256": "1ydcfpnxaz19xab0gjp5jbbwi5jbm9mif75fpp6lv1dad7z8bq4y"
   },
   "stable": {
    "version": [
@@ -28794,8 +28794,8 @@
     "names",
     "pinyinlib"
    ],
-   "commit": "2f1d9dffbb567d433d396307ed5a29d434c98dee",
-   "sha256": "01i1hfnc3wzzyjmlgkcycwb2h1fk1nzy08am12fx3b39l1cz5nxd"
+   "commit": "3b6173503ca450b087bf8db0dd86920630a751b5",
+   "sha256": "02nmba20n6h4z3a3f5xdb4mabz1qpsgxm3hr8nr5dg1a19bccpki"
   }
  },
  {
@@ -36195,8 +36195,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20200616,
-    2222
+    20200703,
+    2101
    ],
    "deps": [
     "closql",
@@ -36208,8 +36208,8 @@
     "markdown-mode",
     "transient"
    ],
-   "commit": "048efbba83b1df591de0487202ff968250ea4fc5",
-   "sha256": "1afm625bfbib45qbmqakl3bfvkglrnvh9frmppmmxbiwim7b9fwn"
+   "commit": "237d71da64b90b3d4da5fe35588546567a5c1c81",
+   "sha256": "15dpgh4yr7wxd1pkgdd8xdc3dd6mg820hrq0f28366xxhs5lqivr"
   },
   "stable": {
    "version": [
@@ -67546,8 +67546,8 @@
     20200606,
     1055
    ],
-   "commit": "552029f7482ea76806f18b8ef2cbe9c8706b39f4",
-   "sha256": "1xnn2k8qd4nji2xqb6cfs43v0kdxrch0yc7g06kz33jd1vipab9b"
+   "commit": "dbdb860bb92b5eef0eadc6ffd1fd6d5bf64553b9",
+   "sha256": "1fzk9009gi0zw9qllhylfd8fh5di1i3nqdl22kq1yznm6310wx2a"
   },
   "stable": {
    "version": [
@@ -68612,6 +68612,14 @@
    "commit": "96e420cbd2e9ea8a77043e5dcaebdfc6da17492a",
    "sha256": "0ganip7077rsi681kdsrmvpjhinhgsrla34mll0daiqid7flnk4g"
   }
+ },
+ {
+  "ename": "ob-latex-as-png",
+  "commit": "5a9c900e82ff9e9726ce9cad98d8067752a53fdf",
+  "sha256": "0r355k7h5nq91dir1rvmq0hbrx6pr9kan6qblls6fzi1r0f4d1ph",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "alhassy/ob-latex-as-png"
  },
  {
   "ename": "ob-lfe",
@@ -73861,11 +73869,11 @@
   "repo": "kostafey/organic-green-theme",
   "unstable": {
    "version": [
-    20200701,
-    2055
+    20200703,
+    2340
    ],
-   "commit": "36e87095b4172d2043db8837c7c6f7e9a5e9653b",
-   "sha256": "02l2gahhxabi6yzxg2nddn5m9kl1i42vsxy102fjwyyrr425h3iq"
+   "commit": "cb081fc2f8dbaf5d54c7702e52da49f3049b4be8",
+   "sha256": "0gh2ms8f6jqk9jx5lgrmsfqj9pyvhkfhdsnmyxrplg6s1525dpg3"
   }
  },
  {
@@ -75272,14 +75280,14 @@
   "repo": "yjwen/org-reveal",
   "unstable": {
    "version": [
-    20200620,
-    114
+    20200703,
+    2313
    ],
    "deps": [
     "org"
    ],
-   "commit": "18e57df3ba56563590f47eaa1beb78591779c42a",
-   "sha256": "0ij2mbvvp1yp6aqr60n60a35ywwnpzb0x2r5la459wk3bfavj7gi"
+   "commit": "6a00388d8555f830be4bd6102dbe10eda699381b",
+   "sha256": "014pgfpqlx58nmg8w23gp9glj2has8cpjrjw8qmajnw1cj62lqxm"
   }
  },
  {
@@ -80677,6 +80685,14 @@
   }
  },
  {
+  "ename": "prettier",
+  "commit": "e9992d6d5ed3bd677976262d8a887e5c0a4f4914",
+  "sha256": "07zhjbb40jl6xkfdzavqg33z17z8s4nyrv3qjh8c0m3si8abh6zb",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "jscheid/prettier.el"
+ },
+ {
   "ename": "prettier-js",
   "commit": "968ac7bb98b385f8542dc150486982c0ded73187",
   "sha256": "0mf66sdsdbhf76pwkjkfjsnh26g4j3zb4y1qrbxc9jcvymccb3yq",
@@ -83683,6 +83699,14 @@
    "commit": "455bcee19c92bf85db0ba7e926f0b5a176b69865",
    "sha256": "1zr2669savnmkc68hiqsq9wccm6bs1j6jbmlac1xqh6nq7xgq36g"
   }
+ },
+ {
+  "ename": "rainbow-fart",
+  "commit": "cdcc8091357c42f5edbc1a13886253130f104242",
+  "sha256": "0zi1r8bgzd3g1dvginlp5nywyjk3lh495j6j3girgjqhsblnhfrx",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "stardiviner/emacs-rainbow-fart"
  },
  {
   "ename": "rainbow-identifiers",
@@ -97466,6 +97490,14 @@
   }
  },
  {
+  "ename": "transwin",
+  "commit": "4b6dc821c99edd8ee6faa5289b0ecbdbb28f5f08",
+  "sha256": "0vrzf3xhwincsl4gg0fghczvwzicci0gjsvpfpjzcqz3m7ab6frb",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "jcs-elpa/transwin"
+ },
+ {
   "ename": "trashed",
   "commit": "0a0609353c8ef01ca5da44b6239e1d4756da3a92",
   "sha256": "0vpfga0kp2r9p0b91fm5y1nf15j8c3r4aqf4wsl12yqgy0v08s6f",
@@ -98462,6 +98494,14 @@
    "commit": "cbfd42f822bf5717934fa2d92060e6e24a813433",
    "sha256": "0qw9vwl1p0pjw1xmshxar1a8kn6gmin5rdvvnnly8b5z9hpkjf3m"
   }
+ },
+ {
+  "ename": "udev-mode",
+  "commit": "38ea66665abd85da45aa005ba0fc03891fbbee63",
+  "sha256": "1gwp1hays9afl09vqv5zyq9s8k5w28jwc7aya0j7h6fbw3hrxnfn",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "benley/emacs-udev-mode"
  },
  {
   "ename": "uimage",
