@@ -22547,8 +22547,8 @@
     20200107,
     2333
    ],
-   "commit": "2c0d9cf180967218c4fe1adac0e6f58b1cc407a7",
-   "sha256": "041mb31cnikcx24zj9dm152qvigg24492c2vmq80j2wxdv8gqar4"
+   "commit": "4635e420cc6decc3a8ea51dc5a973717ac4e714d",
+   "sha256": "0an9qcgn7rxi245i3vrlysvmc884vqvv8fmmn6i2yjg2prfdw47p"
   },
   "stable": {
    "version": [
@@ -26400,8 +26400,8 @@
     20200519,
     530
    ],
-   "commit": "6563c80465e291bbc6ee4c5a2d581b4d4606ea68",
-   "sha256": "00da9inim4nq21ygrdgxh4idmrmr34g334l3xi6p6fl9fh7whvd4"
+   "commit": "19438300dadc88d48d2412e66ce49c590603d882",
+   "sha256": "0szis4y5x90aanwjpjd7w6lr9wv2ajangdqpxm8absjqps22qh5b"
   },
   "stable": {
    "version": [
@@ -43126,8 +43126,8 @@
     "helm-core",
     "popup"
    ],
-   "commit": "840ec49156a60e808c87e332f5982e507ee3535c",
-   "sha256": "1xbz2qszws03nby3n30qanwn6x6s4imgycc1ly4rpk1nrm30gd2x"
+   "commit": "a8004ac3e329cef318b4dd0b0f5192052cbd35d5",
+   "sha256": "12p6hqzfsdmrv3wkrp6z48r64r1z6v8xq6x82c5rrgh521xzhrkx"
   },
   "stable": {
    "version": [
@@ -44017,14 +44017,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20200703,
-    1245
+    20200706,
+    420
    ],
    "deps": [
     "async"
    ],
-   "commit": "840ec49156a60e808c87e332f5982e507ee3535c",
-   "sha256": "1xbz2qszws03nby3n30qanwn6x6s4imgycc1ly4rpk1nrm30gd2x"
+   "commit": "a8004ac3e329cef318b4dd0b0f5192052cbd35d5",
+   "sha256": "12p6hqzfsdmrv3wkrp6z48r64r1z6v8xq6x82c5rrgh521xzhrkx"
   },
   "stable": {
    "version": [
@@ -56851,14 +56851,13 @@
   "stable": {
    "version": [
     0,
-    5,
-    2
+    6
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "5024ebc9adc8f5ea82803bf76fffb6eee5829b0a",
-   "sha256": "1jy2zksy8gadh5q0zf94dr1a4wn7b59amdqdhwn23zmhalhlypl2"
+   "commit": "9bf7b6c4b7dfd23eee981befe23ff12774758ad4",
+   "sha256": "16gcxqbsxki9qfh1g72080ba11mknafxhfjzhfmlplrc1qc7r6kn"
   }
  },
  {
@@ -58718,8 +58717,8 @@
     20200703,
     1906
    ],
-   "commit": "78262333511b03e1a6a3951ea98536f2a06f39d3",
-   "sha256": "1ydayllqlbdiqv4kp4h96r7v332jvswkpw1vs5gfk2c5kqsxijmv"
+   "commit": "74522a488308ae73bb47b260dd92dbf6aa5aec95",
+   "sha256": "1qxkn1k1hrfgsds5h8pkr26circ0h93dg0922kmg7zvc9vd0b0lw"
   },
   "stable": {
    "version": [
@@ -62476,20 +62475,20 @@
   "repo": "hexmode/mediawiki-el",
   "unstable": {
    "version": [
-    20200704,
-    2308
+    20200706,
+    433
    ],
-   "commit": "ee101bf476e655d1b92761ce39485877767a1978",
-   "sha256": "1hkrxsi4y5m8jkghdv20107b8d6bk5pa5c2jaj93z1879cdcmxb3"
+   "commit": "5178a1a1dbe37a144d9c82622eb683bd3c61bef1",
+   "sha256": "1d05jw2sa19rgzskvavh21bfmbh07yza1drfbgypsvay3nkjfd2z"
   },
   "stable": {
    "version": [
     2,
     3,
-    0
+    1
    ],
-   "commit": "ee101bf476e655d1b92761ce39485877767a1978",
-   "sha256": "1hkrxsi4y5m8jkghdv20107b8d6bk5pa5c2jaj93z1879cdcmxb3"
+   "commit": "5178a1a1dbe37a144d9c82622eb683bd3c61bef1",
+   "sha256": "1d05jw2sa19rgzskvavh21bfmbh07yza1drfbgypsvay3nkjfd2z"
   }
  },
  {
@@ -72536,8 +72535,8 @@
   "repo": "org-roam/org-roam",
   "unstable": {
    "version": [
-    20200705,
-    1507
+    20200706,
+    339
    ],
    "deps": [
     "dash",
@@ -72547,8 +72546,8 @@
     "org",
     "s"
    ],
-   "commit": "d58fc31dfb15a86f97383795ea9463a787faa637",
-   "sha256": "1yhidk7f4j6v2q9v3cg18mzgyqrgsi3m66g20bxsqg9rj86iaphc"
+   "commit": "21bc220ed328b34fe9a664da3d1962b7a2229ef3",
+   "sha256": "191ivrv5mz8im8z0cdav32cblxwvby8gvlxa2wy782d4pqbh1am0"
   },
   "stable": {
    "version": [
@@ -95428,15 +95427,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20200702,
-    1046
+    20200706,
+    557
    ],
    "deps": [
     "rainbow-identifiers",
     "visual-fill-column"
    ],
-   "commit": "26c3991c928237a7c80b51d1bf37e9c08c131aca",
-   "sha256": "11a1y30h3gfwxfgzxn4b42mgl67yi5gr8kqmlakv28rhm7rfzrxc"
+   "commit": "2fc26e1f74e47c3fdf7ecd830e05f846dfc07a9b",
+   "sha256": "0zvsklmrg6qlzkv5d3fnfh1jfx4mq03rgxj200ghvhyazi0q5jvg"
   },
   "stable": {
    "version": [
@@ -103091,14 +103090,14 @@
   "repo": "pashinin/workgroups2",
   "unstable": {
    "version": [
-    20200613,
-    1307
+    20200706,
+    543
    ],
    "deps": [
     "dash"
    ],
-   "commit": "b427b698105a90280c241e3d08df4509555fb4fd",
-   "sha256": "1afis0g337pfsy4fcqb8cj3s6kk6j502zhi1924wk4i1g4db409p"
+   "commit": "93f95981755e055dd19e113177d6ff95925d9421",
+   "sha256": "1hy32q65hmy79aqy82g9m3hl06pbdsqn4wlbkypizim1ydgqcirs"
   },
   "stable": {
    "version": [
