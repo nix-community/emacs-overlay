@@ -2590,10 +2590,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.4.0";
+        version = "0.5.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/project-0.4.0.el";
-          sha256 = "010g7s6gp3gg771r2s0pw0009gsnsan99rws1vm2kcxgkhj4x4i5";
+          url = "https://elpa.gnu.org/packages/project-0.5.0.el";
+          sha256 = "04l5gj9x18lh78dwv8m71marmdij4xn6lmiypd785s3l381dm5r3";
         };
         packageRequires = [ emacs ];
         meta = {
