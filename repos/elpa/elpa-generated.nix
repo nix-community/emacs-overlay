@@ -3566,10 +3566,10 @@
       elpaBuild {
         pname = "verilog-mode";
         ename = "verilog-mode";
-        version = "2020.2.23.232634261";
+        version = "2020.6.27.14326051";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/verilog-mode-2020.2.23.232634261.el";
-          sha256 = "07r2nzyfwmpv1299q1v768ai14rdgq7y4bvz5xsnp4qj3g06p0f6";
+          url = "https://elpa.gnu.org/packages/verilog-mode-2020.6.27.14326051.el";
+          sha256 = "194gn8cj01jb9xcl0qq3gq6mzxfdyn459ysb35fnib7pcnafm188";
         };
         packageRequires = [];
         meta = {
