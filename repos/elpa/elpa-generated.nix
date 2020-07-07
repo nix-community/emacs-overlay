@@ -19,10 +19,10 @@
       elpaBuild {
         pname = "ack";
         ename = "ack";
-        version = "1.8";
+        version = "1.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ack-1.8.tar";
-          sha256 = "1d4218km7j1bx1fsna29j3gi3k2ak2fzbk1gyki327pnnlma6bav";
+          url = "https://elpa.gnu.org/packages/ack-1.10.tar";
+          sha256 = "0jz8badhjpzjlrprpzgcm1z6ask1ykc7ab62ixjrj9wcgfjif5qw";
         };
         packageRequires = [];
         meta = {
