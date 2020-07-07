@@ -28791,8 +28791,8 @@
     "names",
     "pinyinlib"
    ],
-   "commit": "3b6173503ca450b087bf8db0dd86920630a751b5",
-   "sha256": "02nmba20n6h4z3a3f5xdb4mabz1qpsgxm3hr8nr5dg1a19bccpki"
+   "commit": "bc7cf77ce47754ab9d9d6ffdf01c022f45c04864",
+   "sha256": "0gifsr29vys2kfn4w9hc7g7c8b5f37qvva87sjbf9a6c21an5apx"
   }
  },
  {
@@ -62689,15 +62689,15 @@
   "repo": "DogLooksGood/meow",
   "unstable": {
    "version": [
-    20200705,
-    328
+    20200707,
+    239
    ],
    "deps": [
     "cl-lib",
     "dash"
    ],
-   "commit": "8737fe41005c9ea28578bd24654f03748bb22238",
-   "sha256": "1gxff7mpljkfih09id6lyicjmbhj7p2hqq8d1lk7jr81xj3isa35"
+   "commit": "48d2a73a210a896ec08e182e1788437141b47575",
+   "sha256": "1k3vapwc2hgpdgb306cnas5cdqh6c9aizday1z4g9p7dc07jnsgh"
   }
  },
  {
@@ -71026,8 +71026,21 @@
   "repo": "conao3/org-generate.el",
   "unstable": {
    "version": [
-    20200621,
-    1408
+    20200707,
+    27
+   ],
+   "deps": [
+    "mustache",
+    "org"
+   ],
+   "commit": "665ab058c2ff22fe6e90ac67cf2548d1dde2b56b",
+   "sha256": "1qzs8kwq6g90cjcsc0hykscky5cmbaj7gcbxn9ph76p9f2dshrkh"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    0
    ],
    "deps": [
     "mustache",
@@ -81797,8 +81810,8 @@
     20200619,
     1742
    ],
-   "commit": "86b3ccf28ca437330cc42a2b3a75a1314977fcfd",
-   "sha256": "0fdf34sawnwhlcifxdk6d20z5y3ip114c9y21vchis9b8fw81kq1"
+   "commit": "c535d54da3f46c77675b86934c2f6d6c4fa09008",
+   "sha256": "1hz10vd1syw196v7ak3xbbfivv1dx5r8j00rhkc267r4n51yrq11"
   },
   "stable": {
    "version": [
@@ -96439,8 +96452,8 @@
     20200212,
     1903
    ],
-   "commit": "ead1a37d156696192752cc02840c4d951cc0a059",
-   "sha256": "19k1jcijz8i185mpnrz9194lmiz3p8iab1qj1hwj58j74mkxshz9"
+   "commit": "947cf76d723c77cbe08a793a57eab04b46fa824d",
+   "sha256": "185avlddhyff1lmgv9q62szp7fzq56y5a0py0d1pspcdyj4k9pz2"
   },
   "stable": {
    "version": [
