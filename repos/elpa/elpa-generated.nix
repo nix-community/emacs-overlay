@@ -1055,10 +1055,10 @@
       elpaBuild {
         pname = "eldoc";
         ename = "eldoc";
-        version = "1.0.0";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eldoc-1.0.0.el";
-          sha256 = "0jdqnndvpz929rbfgrm2bgw3z2vp7dvvgk3wnhvlhf63mdiza89m";
+          url = "https://elpa.gnu.org/packages/eldoc-1.1.0.el";
+          sha256 = "0zdpiry1i07dyiax8fk0l8d4vnx7ypv3w6294nsgrbjkjmdj1fia";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1273,7 +1273,7 @@
           license = lib.licenses.free;
         };
       }) {};
-    flymake = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    flymake = callPackage ({ eldoc, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
@@ -1282,7 +1282,7 @@
           url = "https://elpa.gnu.org/packages/flymake-1.0.8.el";
           sha256 = "1hqxrqb227v4ncjjqx8im3c4mhg8w5yjbz9hpfcm5x8xnr2yd6bp";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ eldoc emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/flymake.html";
           license = lib.licenses.free;
