@@ -82,7 +82,6 @@ let
 
     buildInputs = old.buildInputs ++ [ self.libgccjit ];
   });
-
 in {
   inherit emacsGit emacsUnstable;
 
@@ -105,6 +104,8 @@ in {
   }));
 
   emacsWithPackagesFromUsePackage = import ./elisp.nix { pkgs = self; };
+
+  emacsWithPackagesFromPackageRequires = import ./packreq.nix { pkgs = self; };
 
   emacsPackagesFor = emacs: (
     (super.emacsPackagesFor emacs).overrideScope'(eself: esuper: let
