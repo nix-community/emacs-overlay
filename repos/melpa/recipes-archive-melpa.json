@@ -4959,14 +4959,14 @@
   "repo": "erjoalgo/autobuild",
   "unstable": {
    "version": [
-    20200209,
-    2005
+    20200712,
+    2237
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "9e7a101e1563eaf6f5d671e5877d652079cea78b",
-   "sha256": "0khhmhh5fv004xhs3v8v8y3m8i1ibi19w74sv4shpy0ixd5zq1bj"
+   "commit": "d2e5cdfb1db1f65d4e2a2d7cc1b89c319d6bab3c",
+   "sha256": "15lqh5gwbv9xzd3bjglzvs316p233wqwi1ni8cxqg6jc00mfnlfv"
   }
  },
  {
@@ -9595,15 +9595,15 @@
   "repo": "ema2159/centaur-tabs",
   "unstable": {
    "version": [
-    20200614,
-    24
+    20200712,
+    2321
    ],
    "deps": [
     "cl-lib",
     "powerline"
    ],
-   "commit": "0a58b7ee83f6c12c46db7356b13f72a0c55c0631",
-   "sha256": "1kqbvbi6rk5br1m1n7xzaxbf165rpsxf9bjbjvqny6vh0jq46s3h"
+   "commit": "f89e47fc79b838dbb49b10e8d91c26212f0c62b4",
+   "sha256": "1kd33k4bnnqwl257gcs8i0jqzvd2vi8gnya9wwj8yjsig7ljhic3"
   },
   "stable": {
    "version": [
@@ -10406,7 +10406,7 @@
   "unstable": {
    "version": [
     20200712,
-    1354
+    1912
    ],
    "deps": [
     "clojure-mode",
@@ -10417,8 +10417,8 @@
     "sesman",
     "spinner"
    ],
-   "commit": "cc41a0cf5e95e468b43e0d6153d053f17059abbe",
-   "sha256": "01jcz2pp8g5hr67jycic96fyghg3lw6h9n6kc10kc3x0nqhyvayp"
+   "commit": "ed464423b5d3917384db460cff579adfd8d6d7fd",
+   "sha256": "1m6szhsyljiy2c4ivpldhsl9h1zjbav8wl6663dh8gph2rapzq3d"
   },
   "stable": {
    "version": [
@@ -43143,16 +43143,16 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20200711,
-    1500
+    20200712,
+    2011
    ],
    "deps": [
     "async",
     "helm-core",
     "popup"
    ],
-   "commit": "a75ac958869e1406bc6fb84e56e326f694c829b9",
-   "sha256": "0za83x3v7if09j0zk87c5kjl3qans2f7n0ssg586sj9ga572rcy8"
+   "commit": "93bfb7cc2af3b606167099a9e546d34e498b225f",
+   "sha256": "118f7f6024b8jpix877p32zk8kr59d69c846ln0w8c48m2j0av2h"
   },
   "stable": {
    "version": [
@@ -44048,8 +44048,8 @@
    "deps": [
     "async"
    ],
-   "commit": "a75ac958869e1406bc6fb84e56e326f694c829b9",
-   "sha256": "0za83x3v7if09j0zk87c5kjl3qans2f7n0ssg586sj9ga572rcy8"
+   "commit": "93bfb7cc2af3b606167099a9e546d34e498b225f",
+   "sha256": "118f7f6024b8jpix877p32zk8kr59d69c846ln0w8c48m2j0av2h"
   },
   "stable": {
    "version": [
@@ -59701,7 +59701,7 @@
   "unstable": {
    "version": [
     20200712,
-    716
+    1933
    ],
    "deps": [
     "dash",
@@ -59712,8 +59712,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "7910f4c81daefaeec1fd709121ab94bf2f8a46f5",
-   "sha256": "1m7awj9ryzn3am40gd09nac1c5n88xij94fp074lhz5mpzialhyy"
+   "commit": "5ef8c1f586663ecf8a93a14248ddaed900b5b59b",
+   "sha256": "1s1x02vk12nhjb5097b32hx2ah83j3p86nd5w5p1cis0k54yk3my"
   },
   "stable": {
    "version": [
@@ -63686,14 +63686,14 @@
   "repo": "purcell/mmm-mode",
   "unstable": {
    "version": [
-    20200705,
-    2339
+    20200712,
+    2242
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "3e4b06859b3de185d23a907ca8ab5687c2a69fb5",
-   "sha256": "0nbaf185nc1377ws7ca8m6anz261i6ypsd2924hp92py1wq5nipz"
+   "commit": "58c22670b5a137a1149a26f4bdeb1b2afd238e6d",
+   "sha256": "1vdn6c6cycqnws0a7lwvg5qv7qdd5mz2vnvh2dpns0zrr96fxlz9"
   },
   "stable": {
    "version": [
@@ -64518,6 +64518,21 @@
    ],
    "commit": "2e3ac9d334fa2937ed5267193dfd25d8e1f14dc2",
    "sha256": "1yxy6m5igvsy37vn93ijs0b479v50vsnsyp8zi548iy2ribr0qr5"
+  }
+ },
+ {
+  "ename": "most-used-words",
+  "commit": "5c240664b29e0e455d3d2503381b9db1ed0ea20f",
+  "sha256": "1129wbn7myzqijzcs1bsy3fh6iizijfpkpa1mw6j9s618anj282p",
+  "fetcher": "git",
+  "url": "https://github.com/udyantw/most-used-words.git",
+  "unstable": {
+   "version": [
+    20200704,
+    354
+   ],
+   "commit": "69a395fd698ca5c00032dad7f1ba1f8590129be0",
+   "sha256": "1gq9nfgy3k1zl7ccr67310jk204gw4pqglwmhchdfs2wf8xkn33d"
   }
  },
  {
@@ -96500,8 +96515,8 @@
     20200212,
     1903
    ],
-   "commit": "d3add340e13441b7bdef1e24c0bc016e2935f545",
-   "sha256": "0nlq2p1yql9a74w5lxi10ykgszsj1nb28c40byq7w6zylqbmyh5g"
+   "commit": "e1f884da1760563b75d5ff4dcb2a157b84c3276d",
+   "sha256": "1z5j1avzl078j05awk77fmd4sxwax1jr5g58y3kzpagzywj62px9"
   },
   "stable": {
    "version": [
@@ -104873,7 +104888,7 @@
   "commit": "a3422f4918992343fcace1a3024be59a5d2ed8e5",
   "sha256": "0v8hv2bqa9bl6cmfz8l9v72a6z1c2b3i1hjgbj38w9hdjvb2qad6",
   "fetcher": "gitlab",
-  "repo": "link2xt/yoficator",
+  "repo": "alx.k/yoficator",
   "unstable": {
    "version": [
     20190509,
