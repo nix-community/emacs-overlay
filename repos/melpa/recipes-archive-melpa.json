@@ -966,16 +966,16 @@
   "stable": {
    "version": [
     2,
-    2,
-    2
+    3,
+    0
    ],
    "deps": [
     "ac-php-core",
     "auto-complete",
     "yasnippet"
    ],
-   "commit": "4490d168778a61a4ee8623defe760164cd9745b8",
-   "sha256": "1mkxayqrvz246gxr9wjabsn015hnjq96ys71syb6r4ykjn892a6m"
+   "commit": "8db6d911f2e19bbef5fe915e42c4e12f283bfd41",
+   "sha256": "0yzad3bc48xdmkgcsffdj9zx9j853w1k2p2v586bcfl2vmvvq3zj"
   }
  },
  {
@@ -1003,8 +1003,8 @@
   "stable": {
    "version": [
     2,
-    2,
-    2
+    3,
+    0
    ],
    "deps": [
     "dash",
@@ -1014,8 +1014,8 @@
     "s",
     "xcscope"
    ],
-   "commit": "4490d168778a61a4ee8623defe760164cd9745b8",
-   "sha256": "1mkxayqrvz246gxr9wjabsn015hnjq96ys71syb6r4ykjn892a6m"
+   "commit": "8db6d911f2e19bbef5fe915e42c4e12f283bfd41",
+   "sha256": "0yzad3bc48xdmkgcsffdj9zx9j853w1k2p2v586bcfl2vmvvq3zj"
   }
  },
  {
@@ -2791,7 +2791,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/emacsattic/angular-mode/archive/b24020768217f16b1b86aa236e9729b3d40e17b3.tar.gz': HTTP error 404\n"
    ]
   },
   "stable": {
@@ -9041,7 +9041,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    ""
+    "error: unable to download 'https://github.com/ocaml/caml-mode/archive/9803cf37ac52bbfa5130fde0f228dc51c4590c2d.tar.gz': HTTP error 404\n"
    ]
   }
  },
@@ -13609,16 +13609,16 @@
   "stable": {
    "version": [
     2,
-    2,
-    2
+    3,
+    0
    ],
    "deps": [
     "ac-php-core",
     "cl-lib",
     "company"
    ],
-   "commit": "4490d168778a61a4ee8623defe760164cd9745b8",
-   "sha256": "1mkxayqrvz246gxr9wjabsn015hnjq96ys71syb6r4ykjn892a6m"
+   "commit": "8db6d911f2e19bbef5fe915e42c4e12f283bfd41",
+   "sha256": "0yzad3bc48xdmkgcsffdj9zx9j853w1k2p2v586bcfl2vmvvq3zj"
   }
  },
  {
@@ -81880,12 +81880,14 @@
   },
   "stable": {
    "version": [
-    3,
-    12,
-    3
+    4,
+    0,
+    0,
+    -1,
+    1
    ],
-   "commit": "31ebe2ac71400344a5db91ffc13c4ddfb7589f92",
-   "sha256": "0q4sn9d6x8w0zgzydfx9f7b2zdk0kiplk8h9jxyxhw6m9qn276ax"
+   "commit": "ed35458e7d000aa5c5abe457f6e51f303860286d",
+   "sha256": "0rkkxwwzq3kd7ssncyl3yqxl6g3b19lp5dy7khi3ngrdfk9mql9a"
   }
  },
  {
@@ -96517,8 +96519,8 @@
     20200212,
     1903
    ],
-   "commit": "f9946a98fc69d950a872bd82ba83ebedc2c6ce57",
-   "sha256": "16p2syw9zhkqzh1zc0rznlv6nka25lbagz9qzg4vz884931szjf9"
+   "commit": "de073e37f815c2e2cb9b585b3553a2b393d88d2a",
+   "sha256": "1ajr5rf1c944abcb6npmr75b6cq5273kw5aqp5hwvcqvgddybzp1"
   },
   "stable": {
    "version": [
