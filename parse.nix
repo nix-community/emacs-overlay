@@ -1,5 +1,9 @@
 { lib }:
+
 let
+  nixDeps = import ./nix/sources.nix;
+  inherit (import nixDeps.fromElisp {}) fromElisp;
+
   isStrEmpty = s: (builtins.replaceStrings [ " " ] [ "" ] s) == "";
 
   splitString = _sep: _s: builtins.filter
@@ -41,31 +45,95 @@ let
     in
     parseReqList requires;
 
-  stripComments = dotEmacs:
+  # Get a list of packages declared wanted with `use-package` in the
+  # input string `config`. The goal is to only list packages that
+  # would be installed by `use-package` on evaluation; thus we look at
+  # the `:ensure` and `:disabled` keyword values to attempt to figure
+  # out which and whether the package should be installed.
+  #
+  # Example input:
+  #
+  # ''
+  #   (use-package org
+  #     :commands org-mode
+  #     :bind (("C-c a" . org-agenda)
+  #            :map org-mode-map
+  #            ([C-right] . org-demote-subtree)
+  #            ([C-left] . org-promote-subtree)))
+  #
+  #   (use-package direnv
+  #     :ensure t
+  #     :config (direnv-mode))
+  #
+  #   (use-package paredit-mode
+  #     :ensure paredit
+  #     :hook (emacs-lisp-mode lisp-mode lisp-interaction-mode))
+  # ''
+  # => [ "direnv" "paredit" ]
+  parsePackagesFromUsePackage = config:
     let
-      lines = splitString "\n" dotEmacs;
-      stripped = builtins.map
-        (l:
-          builtins.elemAt (splitString ";;" l) 0)
-        lines;
-    in
-    builtins.concatStringsSep " " stripped;
+      find = item: list:
+        if list == [] then [] else
+          if builtins.head list == item then
+            list
+          else
+            find item (builtins.tail list);
 
-  parsePackagesFromUsePackage = dotEmacs:
-    let
-      strippedComments = stripComments dotEmacs;
-      tokens = builtins.filter (t: !(isStrEmpty t)) (builtins.map
-        (t: if builtins.typeOf t == "list" then builtins.elemAt t 0 else t)
-        (builtins.split "([\(\)])" strippedComments)
-      );
-      matches = builtins.map
-        (t:
-          builtins.match "^use-package[[:space:]]+([A-Za-z0-9_-]+).*" t)
-        tokens;
+      getKeywordValue = keyword: list:
+        let
+          keywordList = find keyword list;
+        in
+          if keywordList != [] then
+            let
+              keywordValue = builtins.tail keywordList;
+            in
+              if keywordValue != [] then
+                builtins.head keywordValue
+              else
+                true
+          else
+            null;
+
+      isDisabled = item:
+        let
+          disabledValue = getKeywordValue ":disabled" item;
+        in
+          if disabledValue == [] then
+            false
+          else if builtins.isBool disabledValue then
+            disabledValue
+          else if builtins.isString disabledValue then
+            true
+          else
+            false;
+
+      getName = item:
+        let
+          ensureValue = getKeywordValue ":ensure" item;
+        in
+          if ensureValue == [] then
+            []
+          else if builtins.isString ensureValue && !(lib.hasPrefix ":" ensureValue) then
+            ensureValue
+          else
+            builtins.head (builtins.tail item);
+
+      recurse = item:
+        if builtins.isList item && item != [] then
+          if (builtins.head item) == "use-package" then
+            if !(isDisabled item) then
+              if builtins.elem ":ensure" item then
+                [ (getName item) ] ++ map recurse item
+              else
+                map recurse item
+            else
+              []
+          else
+            map recurse item
+        else
+          [];
     in
-    builtins.map
-      (m: builtins.elemAt m 0)
-      (builtins.filter (m: m != null) matches);
+      lib.flatten (map recurse (fromElisp config));
 
 in
 {
