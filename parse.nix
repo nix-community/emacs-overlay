@@ -70,7 +70,7 @@ let
   #     :hook (emacs-lisp-mode lisp-mode lisp-interaction-mode))
   # ''
   # => [ "direnv" "paredit" ]
-  parsePackagesFromUsePackage = config:
+  parsePackagesFromUsePackage = config: alwaysEnsure:
     let
       find = item: list:
         if list == [] then [] else
@@ -110,22 +110,23 @@ let
       getName = item:
         let
           ensureValue = getKeywordValue ":ensure" item;
+          usePackageName = builtins.head (builtins.tail item);
         in
-          if ensureValue == [] then
-            []
-          else if builtins.isString ensureValue && !(lib.hasPrefix ":" ensureValue) then
-            ensureValue
+          if builtins.isString ensureValue then
+            if lib.hasPrefix ":" ensureValue then
+              usePackageName
+            else
+              ensureValue
+          else if ensureValue == true || (ensureValue == null && alwaysEnsure) then
+            usePackageName
           else
-            builtins.head (builtins.tail item);
+            [];
 
       recurse = item:
         if builtins.isList item && item != [] then
           if (builtins.head item) == "use-package" then
             if !(isDisabled item) then
-              if builtins.elem ":ensure" item then
-                [ (getName item) ] ++ map recurse item
-              else
-                map recurse item
+              [ (getName item) ] ++ map recurse item
             else
               []
           else
