@@ -10369,6 +10369,38 @@
   }
  },
  {
+  "ename": "chronometrist-goal",
+  "commit": "61031b9ab0c0dedf88e6947ae2ad8d4ad0351210",
+  "sha256": "0hcww5qy167fiwwkj33pj8fdc89b61mb767gz85ya5r6d5nd4si3",
+  "fetcher": "github",
+  "repo": "contrapunctus-1/chronometrist-goal",
+  "unstable": {
+   "version": [
+    20200706,
+    1306
+   ],
+   "deps": [
+    "alert",
+    "chronometrist"
+   ],
+   "commit": "a9c4410f25f875c55b9237ef6544e82f4a805af6",
+   "sha256": "0wydrc4x19rp6nn1hyhaa5zxr4br51aamrv0ky5yppr17rnyygsy"
+  },
+  "stable": {
+   "version": [
+    0,
+    2,
+    1
+   ],
+   "deps": [
+    "alert",
+    "chronometrist"
+   ],
+   "commit": "e651821d0f64830235232082a8295e86a173574b",
+   "sha256": "02q9bksjs24hxl1lz93f16rvqyn6ah10acjg2yw7kx0nj3qxff8v"
+  }
+ },
+ {
   "ename": "chronos",
   "commit": "53648c5699fc03e50774270f9560c727e2c22873",
   "sha256": "1fwpll0mk6pc37qagbq3b3z32d2qwz993nxp9pjw4qbmlnq6sy9d",
@@ -48568,8 +48600,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "9d07c0febcede86da1c50d4b9d5c0b654f806a5a",
-   "sha256": "1r7yqqb3qa4n57badsb2pd9irmxqs9z1i5cnvdi9pk360a167app"
+   "commit": "1cc411283726c03d9779cfd9fdcad7c33ad0930a",
+   "sha256": "134gh26qpy5c5fmc0qg2yyykj6l5f3y6plxgnqz5q87rgs3qyd2k"
   },
   "stable": {
    "version": [
@@ -94383,6 +94415,21 @@
   }
  },
  {
+  "ename": "sweet-theme",
+  "commit": "a149448c38504bdf6f782a10cb1440da9102990f",
+  "sha256": "1ca56disxyr30anvpqahh33s062y35w003yxi1rhdrknka2cnl5q",
+  "fetcher": "github",
+  "repo": "2bruh4me/sweet-theme",
+  "unstable": {
+   "version": [
+    20200708,
+    1202
+   ],
+   "commit": "529e857c405229ea8cc89b42fd9d8d0cee1b314c",
+   "sha256": "0zjlw3512n6dhwicr1yahrywzcczyjhnb7msk107587j436jjim5"
+  }
+ },
+ {
   "ename": "sweetgreen",
   "commit": "63812707948e6dcc00e00ebc3c423469593e80fd",
   "sha256": "1v75wk0gq5fkz8i1r8pl4gqnxbv1d80isyn48w2hxj2fmdn2xhpy",
@@ -95685,14 +95732,14 @@
   "unstable": {
    "version": [
     20200719,
-    337
+    2049
    ],
    "deps": [
     "rainbow-identifiers",
     "visual-fill-column"
    ],
-   "commit": "df22a4d465d9fdd330a28e1691ea4359a25463f0",
-   "sha256": "1s0rpx1rcklx06pllprqd3mjal96h91fvsyw4gwcr2la2bdpx4x8"
+   "commit": "3f0d2879bdf38c414b07e8f0945f34b9a1ddfe41",
+   "sha256": "1jzsslp5id1cbvws67cvlvmk7s6mljrdzp1arzzb5f38frs8f72s"
   },
   "stable": {
    "version": [
@@ -96696,8 +96743,8 @@
     20200212,
     1903
    ],
-   "commit": "5391d231d26c8c32e23422d9dcc56beffbdd9170",
-   "sha256": "0lkdy8lby0a8x9kjbs2ibcrgwqgvlginsa2vrq9s8xjzfxljlngk"
+   "commit": "248e77e9d90d3ffea241020c2976245f8f11d88c",
+   "sha256": "1h15r5501pnc8jhl8ad92pfx6w0878lklccm0jicwabq6mrvjkyw"
   },
   "stable": {
    "version": [
@@ -105467,15 +105514,15 @@
   "repo": "EFLS/zetteldeft",
   "unstable": {
    "version": [
-    20200711,
-    903
+    20200719,
+    2058
    ],
    "deps": [
     "ace-window",
     "deft"
    ],
-   "commit": "4d30276bd4ec05e50a4e0cde149c1c4151872ab2",
-   "sha256": "0f0pxsv7yaa1z3cx31qzswl2yjzq1vj97jlwqmrxmxfch061kr02"
+   "commit": "06a64ec93ee03e4033f4c45e755b78306596ebfd",
+   "sha256": "0z70gnjdkpwc8xib87dlvqb64dfbfmj70kxap199indhnnm8zb9x"
   },
   "stable": {
    "version": [
