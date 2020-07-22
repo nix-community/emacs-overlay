@@ -41,6 +41,9 @@ For example, =emacsWithPackagesFromUsePackage= adds packages which are required 
       config = builtins.readFile ./emacs.el;
       # Package is optional, defaults to pkgs.emacs
       package = pkgs.emacsGit;
+      # By default emacsWithPackagesFromUsePackage will only pull in packages with `:ensure t`.
+      # Setting alwaysEnsure to true emulates `use-package-always-ensure` and pulls in all use-package references.
+      alwaysEnsure = true;
       # Optionally provide extra packages not in the configuration file
       extraEmacsPackages = epkgs: [
         epkgs.cask
