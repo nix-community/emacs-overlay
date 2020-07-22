@@ -1,0 +1,16 @@
+#!/usr/bin/env nix-shell
+#! nix-shell -i bash -p curl
+set -euxo pipefail
+
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+cd $SCRIPTPATH
+
+curl -O https://raw.githubusercontent.com/talyz/fromElisp/master/default.nix
+
+cat <<EOF > default.nix
+# WARNING: This file was automatically imported from
+# https://github.com/talyz/fromElisp. Don't make any changes to it
+# locally - they will be discarded on update!
+
+$(cat default.nix)
+EOF

@@ -1,8 +1,7 @@
 { lib }:
 
 let
-  nixDeps = import ./nix/sources.nix;
-  inherit (import nixDeps.fromElisp {}) fromElisp;
+  inherit (import ./repos/fromElisp {}) fromElisp;
 
   isStrEmpty = s: (builtins.replaceStrings [ " " ] [ "" ] s) == "";
 
