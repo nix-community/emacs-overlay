@@ -15,7 +15,18 @@ in {
   override ? (epkgs: epkgs)
 }:
   let
-    packages = parse.parsePackagesFromUsePackage config alwaysEnsure;
+    ensureNotice = ''
+      Emacs-overlay API breakage notice:
+
+      Previously emacsWithPackagesFromUsePackage always added every use-package definition to the closure.
+      Now we will only add packages with `:ensure t`.
+
+      You can get back the old behaviour by passing `alwaysEnsure = true`.
+      For a more in-depth usage example see https://github.com/nix-community/emacs-overlay#extra-library-functionality
+    '';
+    showNotice = value: if alwaysEnsure then value else builtins.trace ensureNotice value;
+
+    packages = showNotice (parse.parsePackagesFromUsePackage config alwaysEnsure);
     emacsPackages = pkgs.emacsPackagesGen package;
     emacsWithPackages = emacsPackages.emacsWithPackages;
     mkPackageError = name:
