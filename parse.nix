@@ -1,7 +1,7 @@
-{ lib }:
+{ pkgs, lib }:
 
 let
-  inherit (import ./repos/fromElisp {}) fromElisp;
+  inherit (import ./repos/fromElisp {inherit pkgs;}) fromElisp;
 
   isStrEmpty = s: (builtins.replaceStrings [ " " ] [ "" ] s) == "";
 
