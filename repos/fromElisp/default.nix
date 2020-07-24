@@ -144,7 +144,7 @@ let
                 # the result of an integer division and compare
                 # between runs.
                 if mod > state.mod then
-                  trace state.line (seq state.acc newState)
+                  seq state.acc newState
                 else
                   newState
               )
@@ -449,32 +449,39 @@ let
           (foldl' parseToken { acc = []; dotted = false; inList = false; depthReduction = 0; } tokens).acc;
 
       parseQuotes = tokens:
-        if tokens == [] then [] else
-          let
-            token = head tokens;
-            rest = tail tokens;
-          in
-            if elem token.type [ "quote" "expand" "slice" "backquote" "function" "record" "byteCode" ] then
-              if rest == [] then
-                throw "No value to quote on line ${toString token.line}"
-              else
+        let
+          parseToken = state: token':
+            let
+              token =
+                if isList token'.value then
+                  token' // {
+                    value = (foldl' parseToken { acc = []; quotes = []; } token'.value).acc;
+                  }
+                else
+                  token';
+            in
+              if elem token.type [ "quote" "expand" "slice" "backquote" "function" "record" "byteCode" ] then
+                state // {
+                  quotes = [ token ] ++ state.quotes;
+                }
+              else if state.quotes != [] then
                 let
-                  quotedValue = head rest;
+                  quote = value: token:
+                    token // {
+                      inherit value;
+                    };
+                  quotedValue = foldl' quote token state.quotes;
                 in
-                  [
-                    (token // {
-                      value = if isList quotedValue.value then
-                                quotedValue // { value = parseQuotes quotedValue.value; }
-                              else
-                                quotedValue;
-                    })
-                  ] ++ parseQuotes (tail rest)
-            else if isList token.value then
-              [
-                (token // { value = parseQuotes token.value; })
-              ] ++ parseQuotes rest
-            else
-              [ token ] ++ parseQuotes rest;
+                  state // {
+                    acc = state.acc ++ [ quotedValue ];
+                    quotes = [];
+                  }
+              else
+                state // {
+                  acc = state.acc ++ [ token ];
+                };
+        in
+          (foldl' parseToken { acc = []; quotes = []; } tokens).acc;
     in
       parseQuotes (parseDots (parseCollections (parseValues (tokenizeElisp elisp))));
 
