@@ -11682,8 +11682,8 @@
     20190710,
     1319
    ],
-   "commit": "4daff2b40f374a6a36c955f44ccf1c4aa3cc5561",
-   "sha256": "183j8qzq372gyga79d6vk6qzpn1jkmx9ar84658pybpgdrhw7000"
+   "commit": "1138907a58402f8004a6c6ff163a30b58239ece7",
+   "sha256": "08g944wsc3rll53s7437mng7dlwim1a288jkfvyiz8lcijk9pcyz"
   },
   "stable": {
    "version": [
@@ -15233,14 +15233,14 @@
   "repo": "redguardtoo/counsel-etags",
   "unstable": {
    "version": [
-    20200717,
-    233
+    20200724,
+    658
    ],
    "deps": [
     "counsel"
    ],
-   "commit": "9436bdbddc0deba88d97b5f31d62a2c95a52c400",
-   "sha256": "08glszh5y8y078vjrnmasxdfmxiics88hkva4nqq6spl0a0hrn9f"
+   "commit": "ed5c4e15014fab49d0a79020c72048b8add1f0b7",
+   "sha256": "1fl8pfw6c61n52lkw75ka51wbzmyprbsrc9jrvylnrirzxls186z"
   },
   "stable": {
    "version": [
@@ -20458,8 +20458,8 @@
     20200723,
     1621
    ],
-   "commit": "7b9f88d60f08de80e5da0be3adc62d52f4f4be84",
-   "sha256": "0d86039x5r77d5djfxh3v32jm9ixcag03bcabqy6awqr7kpb4f3b"
+   "commit": "80d291e5f1cbdabd4eb7f88c917653c59d3f14be",
+   "sha256": "1594wy4mjiwwx1q1qvs84wfcrz44xn3ssqqhvrx8kyal3jfkix95"
   }
  },
  {
@@ -36587,14 +36587,14 @@
   "repo": "rnkn/fountain-mode",
   "unstable": {
    "version": [
-    20200715,
-    639
+    20200724,
+    240
    ],
    "deps": [
     "seq"
    ],
-   "commit": "47207d96f8b9c9a721939585318a5ed33c4d50f8",
-   "sha256": "06wyjvninzfz8r2q6r64z00lh02gz0i5h9rcjfs4g6bcqq3icaf0"
+   "commit": "beb78240e95ca18af0243f64d1d21dfbbfe9936f",
+   "sha256": "014576cj5jrxs523jwmpsnm3f2v9s3pfnlv2p64sjz22c1risgvk"
   },
   "stable": {
    "version": [
@@ -59305,8 +59305,16 @@
   "repo": "Wilfred/logstash-conf.el",
   "unstable": {
    "version": [
-    20170524,
-    1929
+    20200724,
+    633
+   ],
+   "commit": "7639db81d3e7c05df35e69f798827e592ded5235",
+   "sha256": "19bndhsw1cliysjngb3311xmffih41phlbbby4zpjvrvn7fa0f98"
+  },
+  "stable": {
+   "version": [
+    0,
+    3
    ],
    "commit": "4e127f9aec190786613445aa88efa307ff7c6748",
    "sha256": "119yb1wk1n5ycfzgpffcwy7yx8ar8k1gza0gvbq3r61ha5a9qijs"
@@ -61992,11 +62000,11 @@
   "repo": "jrblevin/markdown-mode",
   "unstable": {
    "version": [
-    20200715,
-    1516
+    20200724,
+    633
    ],
-   "commit": "ac59e97c154ecae7f1b7c2a543799bd604bc0266",
-   "sha256": "1aih03875i18mc0yh9fpnrgl10gfvs16ps4ax54w2illr5ws9i1h"
+   "commit": "fa9fa20e3236006c2cf278209356f60cc4175120",
+   "sha256": "1rvj7bx89mjyhafxlm6rzvjgxzxshb5xlkl8y5sq05s28wz0lbfl"
   },
   "stable": {
    "version": [
@@ -64219,11 +64227,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20200723,
-    217
+    20200724,
+    608
    ],
-   "commit": "ffd9f1f5fbe05fffb7dd1499c8b53c32df07d071",
-   "sha256": "0s99iz3qkyfv5v6pkcczgxiprpslhd02iq4xd848cy9p3yxc1v1r"
+   "commit": "8414a5df51bd792efd8657bb4daf41ebd771bc03",
+   "sha256": "0ycm0k5l6z47rq7vb8d868ccaw5rj32ql2h4kj6lvdfkd79l3zmm"
   },
   "stable": {
    "version": [
@@ -64243,11 +64251,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20200723,
-    217
+    20200724,
+    608
    ],
-   "commit": "ffd9f1f5fbe05fffb7dd1499c8b53c32df07d071",
-   "sha256": "0s99iz3qkyfv5v6pkcczgxiprpslhd02iq4xd848cy9p3yxc1v1r"
+   "commit": "8414a5df51bd792efd8657bb4daf41ebd771bc03",
+   "sha256": "0ycm0k5l6z47rq7vb8d868ccaw5rj32ql2h4kj6lvdfkd79l3zmm"
   },
   "stable": {
    "version": [
@@ -72501,15 +72509,15 @@
   "repo": "oer/org-re-reveal",
   "unstable": {
    "version": [
-    20200723,
-    1256
+    20200724,
+    643
    ],
    "deps": [
     "htmlize",
     "org"
    ],
-   "commit": "f9f65f32a47928cf63ed3fd5130de0dd870cf821",
-   "sha256": "1dx96zvqwb1viaiyi1d7q3ls3g4cg265z5f3xrjphx5ymzjnz21n"
+   "commit": "c548e239898e97e700f7c1d3f34a148ccbedb820",
+   "sha256": "1b0xc03n0x13wjgsj69kc0f9xhz2grj8a7a1v9injr1chslpdl5a"
   },
   "stable": {
    "version": [
@@ -94843,8 +94851,8 @@
   "repo": "bgwines/symbol-navigation-hydra",
   "unstable": {
    "version": [
-    20200723,
-    814
+    20200724,
+    551
    ],
    "deps": [
     "auto-highlight-symbol",
@@ -94852,8 +94860,8 @@
     "hydra",
     "multiple-cursors"
    ],
-   "commit": "e137c86d530c07438a6e42a37e054c40ab8a05fe",
-   "sha256": "16n62vfc4gpq75hja1hi1dmsgxy7bi9d27d425zkrfgn92bscbwj"
+   "commit": "78cff0969c42e4904d70eaa3349743750ecc9d5b",
+   "sha256": "19j28w9r8pbq0xjv84kp98870kcfhqlq1k25478sgbwqg5jla6x8"
   }
  },
  {
@@ -96751,8 +96759,8 @@
     20200212,
     1903
    ],
-   "commit": "495becd70e910dd77af1e7f13dc21d6ba3ea2b36",
-   "sha256": "0yr4rv45wh0kprbg4yn9j2rwvaj5qif6f525kgknmdjhy6yygbxy"
+   "commit": "c6235f9c41f030cdf22bab15c3fbb2ee38b46cde",
+   "sha256": "1wv8rfvkh0ki5p14lk3ikh7p4gd8k9hwdphg20vgnbzx82qs30cv"
   },
   "stable": {
    "version": [
