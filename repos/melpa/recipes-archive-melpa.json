@@ -13425,6 +13425,24 @@
   }
  },
  {
+  "ename": "company-ledger",
+  "commit": "546bc62530136a7fdf3886731e4316c6c8081ead",
+  "sha256": "0y54wbky6jq9r3h4ghpkjywj78hw8k83ri6szph6s8w5m6dkji82",
+  "fetcher": "github",
+  "repo": "debanjum/company-ledger",
+  "unstable": {
+   "version": [
+    20200714,
+    547
+   ],
+   "deps": [
+    "company"
+   ],
+   "commit": "91df18cbb03ce61456edd25a4142f0a345df118b",
+   "sha256": "0gm5n73r0sgqqrqkx812vn2ykjzwdggn7ccvbdpgh4hbsg3p9j0g"
+  }
+ },
+ {
   "ename": "company-lsp",
   "commit": "5125f53307c1af3d9ccf2bae3c25e7d23dfe1932",
   "sha256": "09nbi6vxw8l26gfgsc1k3bx4m8i1px1b0jxaywszky5bv4fdy03l",
@@ -22900,7 +22918,7 @@
   "unstable": {
    "version": [
     20200725,
-    1807
+    2019
    ],
    "deps": [
     "clomacs",
@@ -22908,8 +22926,8 @@
     "direx",
     "spinner"
    ],
-   "commit": "3cf8d6f2f88aeeb2371f787e6c10b6d914c00128",
-   "sha256": "0rpw4kx8my6zrnlmk32bbnpirpb9wq7v3fx3kpgrg3d37sf9329c"
+   "commit": "f29935d78b5c90a3b029e7b05f007a7c048118b5",
+   "sha256": "0qqngnd9w3ycg69g39m2v7khcr1gdjk6m579qsg3jvbjalmrih8z"
   },
   "stable": {
    "version": [
@@ -59314,10 +59332,10 @@
   "stable": {
    "version": [
     0,
-    3
+    4
    ],
-   "commit": "4e127f9aec190786613445aa88efa307ff7c6748",
-   "sha256": "119yb1wk1n5ycfzgpffcwy7yx8ar8k1gza0gvbq3r61ha5a9qijs"
+   "commit": "652dddecf19f3e39a36055823e44fcffc5b44aeb",
+   "sha256": "0xdqfkcpv1677xfp54j2rwc9wjl3mfs9542jjcs0ym2063r6fzla"
   }
  },
  {
@@ -62433,11 +62451,11 @@
   "repo": "rudi/maude-mode",
   "unstable": {
    "version": [
-    20160222,
-    1607
+    20200725,
+    2035
    ],
-   "commit": "c9543bb8a172fa77af592388e7f520a4a6d38987",
-   "sha256": "1sn9bdaq3mf2vss5gzmxhnp9fz43cakxh36qjdgqrvx302nlnv52"
+   "commit": "008f372631a1efe15be033792cfb1686b1736aeb",
+   "sha256": "07a51iwlzj88b6jaxzz8p8r7l9kcbflw8l11h67sx5y0gv23a6vv"
   }
  },
  {
@@ -67182,10 +67200,10 @@
   "unstable": {
    "version": [
     20200725,
-    1953
+    2014
    ],
-   "commit": "d13d70b37df143abbf602fe6debe47dbe3d21e66",
-   "sha256": "0zhd3zjcjjxg0rpmv4s6y8piaqzdsh554z2dwkm6jarfifl3cjg6"
+   "commit": "21d3ba0b8035450e427e1592cabb3ba310fa1222",
+   "sha256": "0avb4a7db78lar4s5z1jfyz1bbyx3gk7pwsc6d0zbpxf7gk09i53"
   },
   "stable": {
    "version": [
@@ -73920,15 +73938,15 @@
    "version": [
     2,
     3,
-    1
+    2
    ],
    "deps": [
     "dash",
     "org",
     "s"
    ],
-   "commit": "6314d8cf0b84e7213fb9dc1216d0e66a5a7d8a65",
-   "sha256": "1lbxw3wqfs36qxi7dcfn4bw40jnlsnl01wp94vf00rlnhhgqdpsg"
+   "commit": "3cffc52f183ed41fd0667c482f2ff6d7135f772e",
+   "sha256": "0n1599xxvk0lxxdddq4krfpf2wi5dif6dgqspid0b9mmg6xgvswb"
   }
  },
  {
@@ -76670,6 +76688,30 @@
   }
  },
  {
+  "ename": "parinfer-rust-mode",
+  "commit": "b35f28995db0c21ecaadd5504a10aa2ee5ac2070",
+  "sha256": "06003hh19k1087s8lvsbl04as2yph1zw9qr844s4rbyi838d4pc1",
+  "fetcher": "github",
+  "repo": "justinbarclay/parinfer-rust-mode",
+  "unstable": {
+   "version": [
+    20200722,
+    1631
+   ],
+   "commit": "62ae9e327f2aa63f0f9b8498fc8e57f4093e9906",
+   "sha256": "19ak9prwiv0672xv16cgqfv8ha8glv4zmgx5nl7hkd2fkgv03vvx"
+  },
+  "stable": {
+   "version": [
+    0,
+    7,
+    3
+   ],
+   "commit": "59e9c1b6acd410ffc3242c7a2dba6bf7378558f6",
+   "sha256": "1hzn0xfdj3gnhzw2khmylr6hgza334zhiaxrr33b9625xdi5gs8m"
+  }
+ },
+ {
   "ename": "parrot",
   "commit": "b1b393ffb9b7691e8fc99bee5fc676463038a68d",
   "sha256": "0m67b80vc3qivcxs4w6fpzdg6h9d8s75251rlhnbc0xp7271zgnk",
@@ -78382,10 +78424,10 @@
   "unstable": {
    "version": [
     20200725,
-    849
+    1817
    ],
-   "commit": "04f211370fc357c6c2cf68be4b3334e69269781f",
-   "sha256": "00brlic341lhf43hv64rxgxbsdn0axdf65xm2a84yj94m9hrgqgx"
+   "commit": "3a91ac35d34b6d7ee690886b449e144b53675fea",
+   "sha256": "0rdnvrnnvcwp9hvl73sbk6chs8giwdfaajqd2x10ga4x488ffik5"
   },
   "stable": {
    "version": [
@@ -95740,6 +95782,21 @@
   }
  },
  {
+  "ename": "teco",
+  "commit": "f8c7a2d741bd0061f5edc30fd000a82cdd3b66e4",
+  "sha256": "0ahixvxvjbm7xngsqfjdb6lfg43bki9vays2yw2psmyw7c34zp3s",
+  "fetcher": "github",
+  "repo": "mtk/teco",
+  "unstable": {
+   "version": [
+    20200707,
+    2309
+   ],
+   "commit": "2529eb0f7f35c526c1b6fca5250399718ff5138a",
+   "sha256": "0g6c69iscc3hmw0dhh9z75yfnip1qn3sj7finpsy0k26qahyygyf"
+  }
+ },
+ {
   "ename": "telega",
   "commit": "e067f03ebe9dd8c90ceaa5a7983483087c74107f",
   "sha256": "0n1n1fciwh7jbakdjkx36aq6k0is0c694j3n5dicwvfp7spca7p8",
@@ -96759,8 +96816,8 @@
     20200212,
     1903
    ],
-   "commit": "60dba3805c7ee104e681bb2c71ee0e1f3b504e8d",
-   "sha256": "12skajpn30fbcpw328bvwfj1lg2m6cblkvg5idc535xig0z0zrhi"
+   "commit": "b473f67f597d3e17b6b6b16cfe07d709a98ee2d3",
+   "sha256": "1klvnw3bsr1787md0zkinybjkzzyrkngh34c68i0xk5c8p6rkwz9"
   },
   "stable": {
    "version": [
@@ -104613,11 +104670,11 @@
   "repo": "yoshiki/yaml-mode",
   "unstable": {
    "version": [
-    20200518,
-    914
+    20200725,
+    1836
    ],
-   "commit": "34648f2502f52f4744d62758fa381fa35db1da49",
-   "sha256": "1a4ka2aanyaskmmv99in00v4c6mmzn6kkc0j3yg96yzdp8v1m4pl"
+   "commit": "68fecb5f0dec712a10c8655df6881392a4613617",
+   "sha256": "11lasdsray1cy01m4yiklin2apgfk2bac93m2ii88vjlv6b6vv04"
   },
   "stable": {
    "version": [
