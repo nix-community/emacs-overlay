@@ -22,6 +22,10 @@ let
   mkGitEmacs = namePrefix: jsonFile:
     (self.emacs.override { srcRepo = true; }).overrideAttrs(old: (let
       repoMeta = super.lib.importJSON jsonFile;
+
+      # The nativeComp passthru attribute is used a heuristic to check if we're on 20.03 or older
+      isStable = super.lib.hasAttr "nativeComp" (old.passthru or {});
+
       attrs = {
         name = "${namePrefix}-${repoMeta.version}";
         inherit (repoMeta) version;
@@ -30,6 +34,7 @@ let
           repo = "emacs";
           inherit (repoMeta) sha256 rev;
         };
+
         patches = [
           ./patches/tramp-detect-wrapped-gvfsd.patch
           ./patches/clean-env.patch
@@ -39,6 +44,11 @@ let
           --replace '(emacs-repository-get-version)' '"${repoMeta.rev}"' \
           --replace '(emacs-repository-get-branch)' '"master"'
         '';
+      } // super.lib.optionalAttrs isStable {
+        buildInputs = old.buildInputs ++ [
+          super.harfbuzz.dev
+          super.jansson
+        ];
       };
     in attrs));
 
