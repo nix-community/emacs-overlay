@@ -3,7 +3,7 @@
 {
 
   mkEmacsSet = emacs: let
-    emacsPackages = lib.recurseIntoAttrs (pkgs.emacsPackagesFor emacs);
+    emacsPackages = pkgs.recurseIntoAttrs (pkgs.emacsPackagesFor emacs);
   in {
     inherit (emacsPackages) elpaPackages;
     inherit (emacsPackages) melpaStablePackages;
