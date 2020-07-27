@@ -60,7 +60,7 @@ let
 
     unstable-git-pkgs = mkJobset {
       nixpkgsRelease = "nixos-unstable";
-      nixFile = "packages-gcc.nix";
+      nixFile = "packages-git.nix";
       descriptionNote = "emacs packages (git)";
     };
 
