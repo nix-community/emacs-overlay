@@ -48,6 +48,11 @@ let
       nixFile = "packages.nix";
       descriptionNote = "emacs packages";
     };
+    unstable-gcc-pkgs = mkJobset {
+      nixpkgsRelease = "nixos-unstable";
+      nixFile = "packages-gcc.nix";
+      descriptionNote = "emacs packages (native-comp)";
+    };
   };
 
 in {

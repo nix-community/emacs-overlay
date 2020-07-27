@@ -9,6 +9,5 @@ let
   inherit (import ./lib.nix { inherit pkgs; }) mkEmacsSet;
 
 in {
-  emacsPackages = mkEmacsSet pkgs.emacs;
-  emacsUnstablePackages = mkEmacsSet pkgs.emacsUnstable;
+  emacsGccPackages = mkEmacsSet pkgs.emacsGcc;
 }
