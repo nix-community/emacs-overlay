@@ -24,7 +24,7 @@ let
       repoMeta = super.lib.importJSON jsonFile;
 
       # The nativeComp passthru attribute is used a heuristic to check if we're on 20.03 or older
-      isStable = super.lib.hasAttr "nativeComp" (old.passthru or {});
+      isStable = !(super.lib.hasAttr "nativeComp" (old.passthru or {}));
 
       attrs = {
         name = "${namePrefix}-${repoMeta.version}";
