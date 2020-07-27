@@ -33,26 +33,43 @@ let
   };
 
   jobsets = {
+
     unstable = mkJobset {
       nixpkgsRelease = "nixos-unstable";
       nixFile = "emacsen.nix";
       descriptionNote = "emacs";
     };
+
     stable = mkJobset {
       nixpkgsRelease = "nixos-20.03";
       nixFile = "emacsen.nix";
       descriptionNote = "emacs";
     };
+
     unstable-pkgs = mkJobset {
       nixpkgsRelease = "nixos-unstable";
       nixFile = "packages.nix";
       descriptionNote = "emacs packages";
     };
+
+    unstable-rc-pkgs = mkJobset {
+      nixpkgsRelease = "nixos-unstable";
+      nixFile = "packages-unstable.nix";
+      descriptionNote = "emacs packages (pre-release)";
+    };
+
+    unstable-git-pkgs = mkJobset {
+      nixpkgsRelease = "nixos-unstable";
+      nixFile = "packages-gcc.nix";
+      descriptionNote = "emacs packages (git)";
+    };
+
     unstable-gcc-pkgs = mkJobset {
       nixpkgsRelease = "nixos-unstable";
       nixFile = "packages-gcc.nix";
       descriptionNote = "emacs packages (native-comp)";
     };
+
   };
 
 in {
