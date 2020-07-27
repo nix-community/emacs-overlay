@@ -23,4 +23,5 @@ let
 in {
   emacsPackages = mkEmacsSet pkgs.emacs;
   emacsUnstablePackages = mkEmacsSet pkgs.emacsUnstable;
+  emacsGccPackages = mkEmacsSet pkgs.emacsGcc;
 }
