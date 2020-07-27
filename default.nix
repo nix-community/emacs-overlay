@@ -19,7 +19,7 @@ let
     };
   });
 
-  mkGitEmacs = namePrefix: jsonFile: attrsFn:
+  mkGitEmacs = namePrefix: jsonFile:
     (self.emacs.override { srcRepo = true; }).overrideAttrs(old: (let
       repoMeta = super.lib.importJSON jsonFile;
       attrs = {
@@ -30,35 +30,23 @@ let
           repo = "emacs";
           inherit (repoMeta) sha256 rev;
         };
-        buildInputs = old.buildInputs ++ [ super.jansson super.harfbuzz.dev ];
         patches = [
           ./patches/tramp-detect-wrapped-gvfsd.patch
           ./patches/clean-env.patch
         ];
-        postPatch = ''
+        postPatch = old.postPatch + ''
           substituteInPlace lisp/loadup.el \
           --replace '(emacs-repository-get-version)' '"${repoMeta.rev}"' \
           --replace '(emacs-repository-get-branch)' '"master"'
         '';
       };
-    in attrs // attrsFn (old // attrs)));
+    in attrs));
 
-  emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json (_: { });
+  emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json;
 
-  emacsGcc = mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-feature_native-comp.json (old: {
-    # When this is enabled, emacs does native compilation lazily after starting
-    # up, resulting in quicker package builds up-front, at the cost of slower
-    # running emacs until everything has been compiled. Since the elpa files in
-    # the nix store are read-only and we have binary caches, we prefer the
-    # longer AOT compilation instead of this flag.
-    # makeFlags = [ "NATIVE_FAST_BOOT=1" ];
-
-    LIBRARY_PATH = "${super.lib.getLib self.stdenv.cc.libc}/lib";
-
-    configureFlags = old.configureFlags ++ [ "--with-nativecomp" ];
-
-    buildInputs = old.buildInputs ++ [ self.libgccjit ];
-  });
+  emacsGcc = (mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-feature_native-comp.json).override {
+    nativeComp = true;
+  };
 
   emacsUnstable = let
     repoMeta = super.lib.importJSON ./repos/emacs/emacs-unstable.json;
@@ -70,7 +58,6 @@ let
       repo = "emacs";
       inherit (repoMeta) sha256 rev;
     };
-    buildInputs = old.buildInputs ++ [ super.jansson super.harfbuzz.dev ];
     patches = [
       ./patches/tramp-detect-wrapped-gvfsd-27.patch
       ./patches/clean-env.patch
