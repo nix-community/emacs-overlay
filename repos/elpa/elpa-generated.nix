@@ -1055,10 +1055,10 @@
       elpaBuild {
         pname = "eldoc";
         ename = "eldoc";
-        version = "1.6.0";
+        version = "1.7.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eldoc-1.6.0.el";
-          sha256 = "0fihv8rhgxh8jhkhha67fp2nx6xvgcrc0f8cy0k0bdw79lvfx9lr";
+          url = "https://elpa.gnu.org/packages/eldoc-1.7.0.el";
+          sha256 = "026zwh5yy2d0vbp4pjjv2kgdj48sj8a7cs6q25z1gpxj7pbsw015";
         };
         packageRequires = [ emacs ];
         meta = {
