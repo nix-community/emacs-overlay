@@ -11716,8 +11716,8 @@
     20190710,
     1319
    ],
-   "commit": "22bfe014d0a2676f46523b3e0cd334dba154f77a",
-   "sha256": "0q3rk1rggnhwc0xzy3502031cilvi42c8zvcfz154a51lwhfg7rb"
+   "commit": "49c600952e913907c608e1387594fe040c70054b",
+   "sha256": "11csafd6rvfd6cqzza15zckafac8xxrll0kx1fcjjxf6fbhq4x0d"
   },
   "stable": {
    "version": [
@@ -12914,8 +12914,8 @@
   "repo": "cpitclaudel/company-coq",
   "unstable": {
    "version": [
-    20200625,
-    1650
+    20200729,
+    401
    ],
    "deps": [
     "cl-lib",
@@ -12924,8 +12924,8 @@
     "dash",
     "yasnippet"
    ],
-   "commit": "435610bcd75b2f0ff7499cba6f9988577719fc87",
-   "sha256": "17wg073jdqr2g8snl7qbrirxssaj7hdyxrvcp5kas8jjb8xfhyrs"
+   "commit": "b096cb528de1e0bb31cc1059d0bd698b98a6cc6a",
+   "sha256": "0m70w4f0kpvk97nnnp1bfk191dhipv418fmcfqjw90sajknyhq6m"
   },
   "stable": {
    "version": [
@@ -16778,8 +16778,8 @@
     20190111,
     2150
    ],
-   "commit": "5d8527d196c2ffd45b345ae31cac856f0c8fdc07",
-   "sha256": "0z5lbyjh4xqfripy3fklgwn38kpr2jx7qj61l7ivwazqkw8cwjhg"
+   "commit": "b9cecd602878334173aa9f6ed635d48739bfa2b1",
+   "sha256": "0s7ps7nz9mg4lzj8s07marh1pzxnaddws7gr00n9xckvcjhbiv32"
   },
   "stable": {
    "version": [
@@ -21230,16 +21230,16 @@
   "repo": "jacktasia/dumb-jump",
   "unstable": {
    "version": [
-    20200728,
-    2022
+    20200729,
+    526
    ],
    "deps": [
     "dash",
     "popup",
     "s"
    ],
-   "commit": "94a9166bcf2e096b82a907503ae5948388bb1a3d",
-   "sha256": "1janpp8hdg41npi1ak4v98i2yaqs64ryhsbzy35ql7883hr10pb0"
+   "commit": "5ec408dcd4e87a8e7b6f263df23b5eb931cf5ed7",
+   "sha256": "136h6pn73z3h6sakm19ljdsns5aaa9l2jaznz2h7z7r08c2js3g8"
   },
   "stable": {
    "version": [
@@ -25769,11 +25769,11 @@
   "repo": "zenspider/enhanced-ruby-mode",
   "unstable": {
    "version": [
-    20200628,
-    321
+    20200729,
+    634
    ],
-   "commit": "4df45e1c24d3cb89c3bffbcd7ff1543cd51f12d5",
-   "sha256": "1s7pvkxkjs1hjwdcqfm7vfwgwvnd8mvxz0x0am2ngcxxdj77903x"
+   "commit": "f0bffbe4b32bb59680f897731169442cce5a1eec",
+   "sha256": "0zjx6mz8kql9d09rzqircbqd9rcpfsn1k7nz9vwijp59m6mnjw1h"
   },
   "stable": {
    "version": [
@@ -26123,6 +26123,21 @@
    ],
    "commit": "0fe809c739af309afed99d35e27494d8a99aa2df",
    "sha256": "1d5fyhmaqnbgpfpx641c2n9hmm092hhbjnniv5smid9scxi0zaf9"
+  }
+ },
+ {
+  "ename": "eradio",
+  "commit": "b5c8621acac2bfb7859bf0b830994fc867ecdaa2",
+  "sha256": "0kan4ia1g9xsb53gkj43c6sn2009a9cm49x2c30ccj2gl999szq2",
+  "fetcher": "github",
+  "repo": "olav35/eradio",
+  "unstable": {
+   "version": [
+    20200728,
+    1630
+   ],
+   "commit": "b421ce3ba9550818e7caa3428a47f6c229674e4b",
+   "sha256": "1kymnvvklqiakfdjx9xkpni320pnbrh2hxzjq8i7j99g7mq8vymb"
   }
  },
  {
@@ -80746,11 +80761,11 @@
   "repo": "tumashu/posframe",
   "unstable": {
    "version": [
-    20200629,
-    239
+    20200729,
+    450
    ],
-   "commit": "922e4d239f7a083213d856de67a9686a091b1e27",
-   "sha256": "0i6zp67bvxg7f0mb7s4b8jf856lxwy6byg933m5z9jn57jp2df0g"
+   "commit": "b3028b01a96699b1dfc9b2b5f4e3ba2bc1aa8317",
+   "sha256": "0yhwy323iix7lk1qdai64piyzjnvmlkww6mb244m25cqnavap21l"
   },
   "stable": {
    "version": [
@@ -90351,14 +90366,14 @@
   "repo": "laishulu/emacs-smart-input-source",
   "unstable": {
    "version": [
-    20200728,
-    211
+    20200729,
+    512
    ],
    "deps": [
     "terminal-focus-reporting"
    ],
-   "commit": "26c2878fe6416f268f583e0fd0e3dc01b8e26995",
-   "sha256": "0hwd3lf3lfpbqmnvrp2jrpwm72klcl2ph92pnxzzslq4xvssxl4z"
+   "commit": "e088737c1dc3939652f47b7332e9991b26146e09",
+   "sha256": "04hgbd6as4cwsc14hkjgmm7jzgl6sljzb3gr7awc4i47lvmyn8rv"
   }
  },
  {
@@ -97359,15 +97374,15 @@
   "repo": "laishulu/emacs-tmux-pane",
   "unstable": {
    "version": [
-    20200713,
-    1735
+    20200729,
+    551
    ],
    "deps": [
     "names",
     "s"
    ],
-   "commit": "788927930479a6ca6427ad9b7596efd26eaa055f",
-   "sha256": "0i369ffxqhnb3igffh4fk92d7sq3xvglcnl90zm4z1s1yy133bhr"
+   "commit": "82db94214211b82cbc92fb47688cc861d1897908",
+   "sha256": "08qraakh649zpfyvcy9jkrqnq6k0487s6f9n82i89dp9gaa6gnrp"
   }
  },
  {
