@@ -2986,11 +2986,11 @@
   "repo": "bastibe/annotate.el",
   "unstable": {
    "version": [
-    20200703,
-    1447
+    20200730,
+    1341
    ],
-   "commit": "a04a6144aaf31b2547f0988dff1f035fb8aa20ae",
-   "sha256": "0nyxkknj5b0vvjyfw4024vl58rkr3lc752m4f936kkqjrbgrzxsf"
+   "commit": "d4b555d2374f60edd56d196df535523da422a005",
+   "sha256": "0w1s7qjvi9z9dncdla5j67yqhg3h6mc1r60brc0dv2zklrrg6kwg"
   },
   "stable": {
    "version": [
@@ -11716,8 +11716,8 @@
     20190710,
     1319
    ],
-   "commit": "3595e37519eb2d357eda2de993cb03aaabbe3fa2",
-   "sha256": "1cmdvxgyfv1vmwclxdmrfxqh0c8c9rs5rda55a6kzgq939930vzx"
+   "commit": "fe3bdcff527518d47f78b13afdd539f2615ab69f",
+   "sha256": "0kbqnw02m4wdbs5i7q7vv57dw9vz26mdyrjxgkdji0rbd3pglwxw"
   },
   "stable": {
    "version": [
@@ -20424,15 +20424,15 @@
   "repo": "meqif/docker-compose-mode",
   "unstable": {
    "version": [
-    20180324,
-    1752
+    20200730,
+    1258
    ],
    "deps": [
     "dash",
     "yaml-mode"
    ],
-   "commit": "c9f131d2c90d652435d407fd36c40feebfed1dad",
-   "sha256": "0d5d46i6hplmy7q2ihbvcrnk9jrwa2mswgbf8yca3m4k44wgk6la"
+   "commit": "4c0c897fb0572e6b026b2a5ab9f2c76174be7a14",
+   "sha256": "01fj856511qjn5zw370axyz4imdnq3j5sqvbm8nkd71z1mz3dyv1"
   },
   "stable": {
    "version": [
@@ -22396,14 +22396,14 @@
   "repo": "editorconfig/editorconfig-emacs",
   "unstable": {
    "version": [
-    20200720,
-    2204
+    20200730,
+    1329
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "0600c9d9e5239d28e3fc2a6911fc5e8a0edc0792",
-   "sha256": "1w9yhiacsrbda3bvqmibs38r0nizf5gvh3rdr3k4b4p34zc7xjb4"
+   "commit": "ab2194eaf335c35e4d0ab36868356691d31749dc",
+   "sha256": "12n7abrs45j1fhk1qbhw1dh79h0gdc2nr29wz4hs70nprl1h8q92"
   },
   "stable": {
    "version": [
@@ -43391,15 +43391,15 @@
   "unstable": {
    "version": [
     20200730,
-    1059
+    1205
    ],
    "deps": [
     "async",
     "helm-core",
     "popup"
    ],
-   "commit": "869894af893e7310fb75381b3e9ff9c44104d039",
-   "sha256": "0l7qcmj5f56n9xcxp5w0m7qzyvshxzqz9yjkx3mn7rxkh7g1mkja"
+   "commit": "a582e1b2fc1b1b359ccef1d8c55de0e58c683455",
+   "sha256": "1glm8p33frwg4imcgiv7ps1k5kanf3wrywv7776rs8wc50ji3fil"
   },
   "stable": {
    "version": [
@@ -44295,8 +44295,8 @@
    "deps": [
     "async"
    ],
-   "commit": "869894af893e7310fb75381b3e9ff9c44104d039",
-   "sha256": "0l7qcmj5f56n9xcxp5w0m7qzyvshxzqz9yjkx3mn7rxkh7g1mkja"
+   "commit": "a582e1b2fc1b1b359ccef1d8c55de0e58c683455",
+   "sha256": "1glm8p33frwg4imcgiv7ps1k5kanf3wrywv7776rs8wc50ji3fil"
   },
   "stable": {
    "version": [
@@ -51601,11 +51601,11 @@
   "repo": "nonsequitur/inf-ruby",
   "unstable": {
    "version": [
-    20200612,
-    1632
+    20200730,
+    1411
    ],
-   "commit": "f3c927c1b917a20ce6b2228d480db43171aadd9b",
-   "sha256": "1k8wd5r49jf97w93lnlmwvgfisxvjqx4zskx5q2xrxscf2phw9q8"
+   "commit": "a4c766e605a5b9eb793e9fbbd2d33e1fa2979b70",
+   "sha256": "18kgp0qfjxdsv4rg62zfbvzirxxk934rlq72v0l29hl2d8s0zz02"
   },
   "stable": {
    "version": [
@@ -57786,8 +57786,8 @@
   "repo": "kaiwk/leetcode.el",
   "unstable": {
    "version": [
-    20200711,
-    840
+    20200730,
+    1433
    ],
    "deps": [
     "aio",
@@ -57796,8 +57796,8 @@
     "log4e",
     "spinner"
    ],
-   "commit": "300d57a4956243ee602876e9b26694a5a651af55",
-   "sha256": "1cn6ki82n9zbqjhrj22gd28qxdv13yjwi1wr983vy1n2q4z9v0yb"
+   "commit": "153a3a6a9ffb64ffce37b3d203c13a85cc1884ab",
+   "sha256": "0600njpn3dvd8xrj21r5p69mc1r76ri1bjcxy2krp53dnsy3nvfb"
   },
   "stable": {
    "version": [
@@ -59790,8 +59790,8 @@
   "repo": "emacs-lsp/lsp-java",
   "unstable": {
    "version": [
-    20200725,
-    1809
+    20200730,
+    1226
    ],
    "deps": [
     "dap-mode",
@@ -59804,8 +59804,8 @@
     "request",
     "treemacs"
    ],
-   "commit": "fbd04cff52521f393408a219125d3a0727705045",
-   "sha256": "09szrn7p1lh8cmnhm5zcr92x04p4hjv59n3ygr0mzbrfps16hah0"
+   "commit": "74418b853f4281c331b55b6b4bf1839fe5acf117",
+   "sha256": "0l216pi9jqif4bivq7k5pmmk2844rlhkbbl9fj1qlvnqr4sqbvcq"
   },
   "stable": {
    "version": [
@@ -67483,8 +67483,8 @@
   "repo": "dickmao/nnhackernews",
   "unstable": {
    "version": [
-    20200624,
-    2141
+    20200730,
+    1052
    ],
    "deps": [
     "anaphora",
@@ -67492,8 +67492,8 @@
     "dash-functional",
     "request"
    ],
-   "commit": "ec457709cc8bc5cba462f652efb6af24ccd311d6",
-   "sha256": "0rkrbcrq33gg3k25mndcqycvjrm9wq1dbzhwzaaf8270q0b5v0vy"
+   "commit": "ad20d17f196a1b99c683ad2ffc39a9b4b2fada58",
+   "sha256": "1b5jnprpvlsn7cnxj6pab8kr0kdzm8xqrzhsga6dlaww6max26xp"
   }
  },
  {
