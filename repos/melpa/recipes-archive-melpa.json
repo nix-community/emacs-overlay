@@ -11716,8 +11716,8 @@
     20190710,
     1319
    ],
-   "commit": "1362f27194ccf634c298487878d47dc8719a43ac",
-   "sha256": "0kbqnw02m4wdbs5i7q7vv57dw9vz26mdyrjxgkdji0rbd3pglwxw"
+   "commit": "383090bf591e82d5488bd3454ca4c40ceaf575df",
+   "sha256": "044qzswbw5mmbgg8lhv0y024g38255inyr10fsxp1wyl7bklx3d1"
   },
   "stable": {
    "version": [
@@ -20664,14 +20664,14 @@
   "repo": "hlissner/emacs-doom-themes",
   "unstable": {
    "version": [
-    20200730,
-    744
+    20200731,
+    517
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "180747a4cb848b6378b13bcaf908ea12c95bb4a6",
-   "sha256": "0jc3n8blfkmld1vw56wb9apazdjm8l6s408k6qj53akvzra9iqj6"
+   "commit": "2c71a9fe4edcdcd8844e60c6cddc5faf954dfc72",
+   "sha256": "0fmafiawlnphpbhnw7y92i52wh5kz3s5f5kah36p1l4yh3k1f9rk"
   },
   "stable": {
    "version": [
@@ -58244,10 +58244,13 @@
    "version": [
     0,
     4,
-    0
+    1
    ],
-   "commit": "a921bcb2750dd82b327b7e85da3bdb12829d8018",
-   "sha256": "00s87rmminsg3hrqh9l29pjn69px6sv9lf420c0rf5k6mlkcwrln"
+   "deps": [
+    "indicators"
+   ],
+   "commit": "961f593aba142cab4133f3be3b8f5ebbd91ba2ab",
+   "sha256": "1jnfks7j6p5snx6wk0fj9rgdvl91a480869fds2insgc9sdwk9yc"
   }
  },
  {
@@ -73944,11 +73947,11 @@
   "repo": "tesujimath/org-wc",
   "unstable": {
    "version": [
-    20180610,
-    253
+    20200731,
+    529
    ],
-   "commit": "0716c1e8276f6953e139e357e97566e792c8be19",
-   "sha256": "0wx4z6y3wn6948bz2pgrpffd4jzwgplvjkh0rnra4gihrapg1bv8"
+   "commit": "cc2db5314582f47a4b4f468a020f55d3e465ea6f",
+   "sha256": "1r1rnd890x655nk82jrkbdwhbcsxghk98ddxsj14570l50k1zmi2"
   }
  },
  {
@@ -91944,14 +91947,14 @@
   "repo": "hlissner/emacs-solaire-mode",
   "unstable": {
    "version": [
-    20200602,
-    2145
+    20200731,
+    455
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "25d1aafc03e3c7f9487532464dbffacce10d0c5d",
-   "sha256": "000kdp4i82cfv99ggi4sd2z9l1kba8fmkx9qlkcl2jj0ys9d0b37"
+   "commit": "d3e8f9e1e3109a93a39602deac6a21be497f7f16",
+   "sha256": "0pzj3nl0fwa8fbi9snski8aw2c9wvmny1c1q5b3dnyn21z00zd3k"
   },
   "stable": {
    "version": [
@@ -93329,11 +93332,11 @@
   "repo": "srfi-explorations/emacs-srfi",
   "unstable": {
    "version": [
-    20200727,
-    555
+    20200731,
+    536
    ],
-   "commit": "a208fe945f932fe01444b0ec9711347f1d0d88a3",
-   "sha256": "1r1f2rfkmacf0firj48jgc5dwn5hdwv0kichbmc6ala2d4xl53y1"
+   "commit": "17cd3e3e6878c1b9f879a00eee937cc3d05c20a8",
+   "sha256": "05288w86s0zq9sv8dwmr3jcpzm5kjf3135r38gm07zvgyaa8qmjc"
   },
   "stable": {
    "version": [
