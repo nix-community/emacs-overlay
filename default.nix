@@ -58,16 +58,7 @@ let
     nativeComp = true;
   };
 
-  emacsUnstable = let
-    repoMeta = super.lib.importJSON ./repos/emacs/emacs-unstable.json;
-  in (self.emacs.override { srcRepo = true; }).overrideAttrs(old: {
-    name = repoMeta.version;
-    inherit (repoMeta) version;
-    src = super.fetchFromGitHub {
-      owner = "emacs-mirror";
-      repo = "emacs";
-      inherit (repoMeta) sha256 rev;
-    };
+  emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json).overrideAttrs(old: {
     patches = [
       ./patches/tramp-detect-wrapped-gvfsd-27.patch
       ./patches/clean-env.patch
