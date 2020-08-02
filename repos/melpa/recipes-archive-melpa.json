@@ -43501,15 +43501,15 @@
   "unstable": {
    "version": [
     20200802,
-    1250
+    1826
    ],
    "deps": [
     "async",
     "helm-core",
     "popup"
    ],
-   "commit": "74918fec990c7f06060d6475d6879b937f6e1b22",
-   "sha256": "0zc8rw9rgcw4lfvp5psdlcrpv0q0pa044zi09nhzhjpxla1wicrh"
+   "commit": "c99c6d5170e307dce32ddaac521bb371eb701136",
+   "sha256": "00g0lzvd9zr94p8xxnvxdrvkxx66wg6pbvnrzh66y6l0f8sq69cp"
   },
   "stable": {
    "version": [
@@ -44405,8 +44405,8 @@
    "deps": [
     "async"
    ],
-   "commit": "74918fec990c7f06060d6475d6879b937f6e1b22",
-   "sha256": "0zc8rw9rgcw4lfvp5psdlcrpv0q0pa044zi09nhzhjpxla1wicrh"
+   "commit": "c99c6d5170e307dce32ddaac521bb371eb701136",
+   "sha256": "00g0lzvd9zr94p8xxnvxdrvkxx66wg6pbvnrzh66y6l0f8sq69cp"
   },
   "stable": {
    "version": [
@@ -55522,8 +55522,8 @@
     "websocket",
     "zmq"
    ],
-   "commit": "64dda221c0454f3bc78bedbf2ce25632d755772b",
-   "sha256": "1ga9zf6srq36zigvbz089qyxf84n4v7r0wamfai4d2jmlsvxw65k"
+   "commit": "360cae2c70ab28c7a7848c0c56473d984f0243e5",
+   "sha256": "1bn0jwpigpl5n45vpz73vv12g078151vyhkkhkwy5xqx627swxf9"
   },
   "stable": {
    "version": [
@@ -69826,10 +69826,14 @@
   "unstable": {
    "version": [
     20200802,
-    917
+    1643
    ],
-   "commit": "78738edf45780919c7cfb229158da9de5df70b08",
-   "sha256": "1w939jvjiynn94pm7yp8aff0skdbj01jw3gn3p2nd7j6616xbkhh"
+   "commit": "0b6c360ccfb4174931a91da9369d135920acd1f3",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "Initialized empty Git repository in /tmp/git-checkout-tmp-VRRzRXQu/olc-0b6c360/.git/\nfatal: unable to access 'https://gitlab.liu.se/davby02/olc.git/': Couldn't connect to server\nfatal: unable to access 'https://gitlab.liu.se/davby02/olc.git/': Couldn't connect to server\nUnable to checkout 0b6c360ccfb4174931a91da9369d135920acd1f3 from https://gitlab.liu.se/davby02/olc.git.\n"
+   ]
   },
   "stable": {
    "version": [
@@ -69837,8 +69841,12 @@
     4,
     1
    ],
-   "commit": "78738edf45780919c7cfb229158da9de5df70b08",
-   "sha256": "1w939jvjiynn94pm7yp8aff0skdbj01jw3gn3p2nd7j6616xbkhh"
+   "commit": "0b6c360ccfb4174931a91da9369d135920acd1f3",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "Initialized empty Git repository in /tmp/git-checkout-tmp-VRRzRXQu/olc-0b6c360/.git/\nfatal: unable to access 'https://gitlab.liu.se/davby02/olc.git/': Couldn't connect to server\nfatal: unable to access 'https://gitlab.liu.se/davby02/olc.git/': Couldn't connect to server\nUnable to checkout 0b6c360ccfb4174931a91da9369d135920acd1f3 from https://gitlab.liu.se/davby02/olc.git.\n"
+   ]
   }
  },
  {
@@ -71752,14 +71760,14 @@
   "repo": "bastibe/org-journal",
   "unstable": {
    "version": [
-    20200731,
-    1726
+    20200802,
+    1714
    ],
    "deps": [
     "org"
    ],
-   "commit": "af2b9a88cfbbb0bbab743d5b31b3918f7e6911c3",
-   "sha256": "092yabj973hgvn4d4vq6lad2gy7lpszryg9994w98cj40x6c7brh"
+   "commit": "faabab9c90bbe8bf204f255dbc2ccee45ceaba67",
+   "sha256": "0cflfnj0hacj44id8fvcn0nlczxjxz7fnq7sm3rpn6vsshxwxgxm"
   },
   "stable": {
    "version": [
@@ -73083,8 +73091,8 @@
   "repo": "org-roam/org-roam",
   "unstable": {
    "version": [
-    20200801,
-    602
+    20200802,
+    1627
    ],
    "deps": [
     "dash",
@@ -73094,8 +73102,8 @@
     "org",
     "s"
    ],
-   "commit": "76d2e3f6b4742eb5806601d5a0afc38b46e8174c",
-   "sha256": "15bgbj0alrcl0693avirp773k8h776lg8nfbzc39h5iyn4hrl5c2"
+   "commit": "30fab7bcc4be858b12b9a31a8c66ab1b1aadb6d6",
+   "sha256": "1s88j4b84wfhry0fnas5q64amhqwdzj21v3spp43l8hk9nkd5asx"
   },
   "stable": {
    "version": [
@@ -81850,13 +81858,13 @@
   "unstable": {
    "version": [
     20200802,
-    1211
+    1502
    ],
    "deps": [
     "pkg-info"
    ],
-   "commit": "1c616712fa5abdaf5c21a4b9154b25071fd81d5a",
-   "sha256": "03x6fh724qn4kkypq8ap0wrxgd87vag8wbmzl33nky7z83wfwbyb"
+   "commit": "7ed2ce31ef7db12f3c9bfede6bd0678cf18d261e",
+   "sha256": "1wwgvh8r2mccmsgwz3lh5knlwnfh5x2yv6zigxjza7p3irkymkjm"
   },
   "stable": {
    "version": [
@@ -88103,8 +88111,8 @@
     20200628,
     2256
    ],
-   "commit": "5aa066da833ef50931cba64e4c27448cfbdb5556",
-   "sha256": "0qhi5zj979l6vdz2yciiwfi8mzh8w8ya8831ndvwwk7xy2ilmaxs"
+   "commit": "674ec8125bacd98f3a1b492b032ae79724df1366",
+   "sha256": "0x927wx7f0nnhikajshsnjasfnfsngq2zcsxx3dzr2jk7hzbyqxl"
   }
  },
  {
@@ -105370,15 +105378,15 @@
   "repo": "AndreaCrotti/yasnippet-snippets",
   "unstable": {
    "version": [
-    20200606,
-    1149
+    20200802,
+    1658
    ],
    "deps": [
     "s",
     "yasnippet"
    ],
-   "commit": "d5ef8ed2b34798c1576f2fbfed858ee5486d1792",
-   "sha256": "1b9410a6mvkqvarzfv1sbj9x6f6m8x7jh56gshndh1m4lhl2gf3p"
+   "commit": "b83c0f2f3bd068aa93c8f4c0c07f0b0a137d9cda",
+   "sha256": "0j1955y6gc3ddv783pd9kx834vvicpdsj49smkkpk4rj4s7pfxkz"
   },
   "stable": {
    "version": [
