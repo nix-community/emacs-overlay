@@ -10456,8 +10456,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20200802,
-    1955
+    20200803,
+    831
    ],
    "deps": [
     "clojure-mode",
@@ -10468,13 +10468,13 @@
     "sesman",
     "spinner"
    ],
-   "commit": "3ee34e4e46dc6e8a593fb821fb926c21e31d7c2b",
-   "sha256": "1cgllzc22jhypz3ax76zphyld4x36ls89n2c3223sr1yh22aw53l"
+   "commit": "9e117c2ff34b7a63eee87c8bfa93a800bb94add5",
+   "sha256": "101rwlb8hzmcnw2zs40kiv9wvll5zhr0qrlvk7jbrmb0gzbwpd3s"
   },
   "stable": {
    "version": [
     0,
-    25,
+    26,
     0
    ],
    "deps": [
@@ -10486,8 +10486,8 @@
     "sesman",
     "spinner"
    ],
-   "commit": "cb69b6b7e4928452304ae837f1bf8cc001f37072",
-   "sha256": "1sdd7vzw948q01kc8im1asiq1j06q0mnn2s8kj83f8sbdnfy0qbk"
+   "commit": "40e65fd6a35c1de8d1542b3c570ebd5546b55a3d",
+   "sha256": "1qwizvmm9ln75ph1jg2rfqv3hd9p4zaz8kp2i6yr3vq99c3a00i7"
   }
  },
  {
@@ -22766,8 +22766,8 @@
     20200107,
     2333
    ],
-   "commit": "18861513c0e6d96269feabf4ccdfcdb0ccdf5150",
-   "sha256": "1gr5k7rkgi7ybk9b3pvzqkccymqckm0l2z5b7blzdsq7fym0jd12"
+   "commit": "e3c189b11d1ac3420af651a052915199e2f2aa05",
+   "sha256": "1xlfklrrxg5p23racymid8all54f10r1k6dkyyimqrjishijc7z5"
   },
   "stable": {
    "version": [
@@ -26648,8 +26648,8 @@
     20200519,
     530
    ],
-   "commit": "3effaace4df2336ffe8cdd0215a1f31c399111c1",
-   "sha256": "0qjkzhvwrb761lq1b96xblqli1mynj6rpbrjvv8qn3dvc401w319"
+   "commit": "fb817e91278303927326f16adfd224e2eb653e96",
+   "sha256": "0yvp6f0ksdy4snx9y7xyi4c8r6nmylfv3s4g0ykwv0smxp1kx5fq"
   },
   "stable": {
    "version": [
@@ -34136,8 +34136,8 @@
     "flycheck",
     "phpstan"
    ],
-   "commit": "2f715a186c5fe6576de83d4c0b64a37e2bfce101",
-   "sha256": "03ix2s068pzmybj0fcb08dlfgdqw0pmqhbdf4id2077f67bfad0w"
+   "commit": "91e0e0e7a89be1465accdaefc1a31955d16bcd02",
+   "sha256": "0bsgmrfh8y5hb8n8733kwgdygnhbbml6ylqn21icblnjdnqbl15r"
   },
   "stable": {
    "version": [
@@ -35590,8 +35590,8 @@
    "deps": [
     "phpstan"
    ],
-   "commit": "2f715a186c5fe6576de83d4c0b64a37e2bfce101",
-   "sha256": "03ix2s068pzmybj0fcb08dlfgdqw0pmqhbdf4id2077f67bfad0w"
+   "commit": "91e0e0e7a89be1465accdaefc1a31955d16bcd02",
+   "sha256": "0bsgmrfh8y5hb8n8733kwgdygnhbbml6ylqn21icblnjdnqbl15r"
   },
   "stable": {
    "version": [
@@ -64952,11 +64952,11 @@
   "url": "https://github.com/udyantw/most-used-words.git",
   "unstable": {
    "version": [
-    20200704,
-    354
+    20200729,
+    730
    ],
-   "commit": "f74bbb9c99381123e563d8d7a65d9a132ea3ab8b",
-   "sha256": "0n6qrh1iqzzwvr343cmv3c3gmxqpkvsqjgs3gha2cgk8swrxpi7a"
+   "commit": "6315370b01213b60d7a18bd36e70d713802a19e1",
+   "sha256": "1g5qz0s0dsyjy8hq78jbyi3kf9avf3gdzv35n9bi6276p6gbjxpb"
   }
  },
  {
@@ -73083,8 +73083,8 @@
   "repo": "org-roam/org-roam",
   "unstable": {
    "version": [
-    20200802,
-    1627
+    20200803,
+    858
    ],
    "deps": [
     "dash",
@@ -73094,8 +73094,8 @@
     "org",
     "s"
    ],
-   "commit": "30fab7bcc4be858b12b9a31a8c66ab1b1aadb6d6",
-   "sha256": "1s88j4b84wfhry0fnas5q64amhqwdzj21v3spp43l8hk9nkd5asx"
+   "commit": "f206b5bbf94c836b530fdd3ba50b6689fd67a1a1",
+   "sha256": "1awmpmq5q3j2x12qgrpbw1qfin9a76622db8f28xm1axsdfnrbiz"
   },
   "stable": {
    "version": [
@@ -78884,14 +78884,14 @@
   "repo": "emacs-php/phpstan.el",
   "unstable": {
    "version": [
-    20200411,
-    531
+    20200803,
+    811
    ],
    "deps": [
     "php-mode"
    ],
-   "commit": "2f715a186c5fe6576de83d4c0b64a37e2bfce101",
-   "sha256": "03ix2s068pzmybj0fcb08dlfgdqw0pmqhbdf4id2077f67bfad0w"
+   "commit": "91e0e0e7a89be1465accdaefc1a31955d16bcd02",
+   "sha256": "0bsgmrfh8y5hb8n8733kwgdygnhbbml6ylqn21icblnjdnqbl15r"
   },
   "stable": {
    "version": [
@@ -84331,8 +84331,8 @@
    "deps": [
     "flycheck"
    ],
-   "commit": "af1a269f1752b6a4651641b53085050193389224",
-   "sha256": "022lr7rc10w0yqa7d94hfparmwpwqpy5ll021rcgv5cq3py318br"
+   "commit": "16759a0aa1b39c43cdedcf6a6c9a5dc3c3895fd2",
+   "sha256": "14dh7bd40jc6vl6933575jivgmm3h6frphmwxspijb7c8pj1wfmv"
   }
  },
  {
@@ -96648,11 +96648,20 @@
   "repo": "TxGVNN/terraform-doc",
   "unstable": {
    "version": [
-    20190813,
-    1254
+    20200803,
+    957
    ],
-   "commit": "2ec10ea7bef5a75edfffeb515dd268e19c1f8c9c",
-   "sha256": "0r70fc7vv2rjnwnsg7myc1c15f3ql6hp6zrf5msmf8r2iz32jnpp"
+   "commit": "90bbe7df87eebfe2d3aebd3a6bc828c5ca5b301c",
+   "sha256": "13d8bkb4k86z9f913i1q91rnd1l5qjpxadxa5rp81y48qp7axx6d"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    0
+   ],
+   "commit": "90bbe7df87eebfe2d3aebd3a6bc828c5ca5b301c",
+   "sha256": "13d8bkb4k86z9f913i1q91rnd1l5qjpxadxa5rp81y48qp7axx6d"
   }
  },
  {
@@ -97121,12 +97130,12 @@
   "stable": {
    "version": [
     2020,
-    7,
-    27,
+    8,
+    3,
     0
    ],
-   "commit": "9f20e2ddd0e47ba4d717b44f8005c65c901d30d3",
-   "sha256": "192bk3bifgaz7390brfg47j7k3fa2zramdy25wm8zf10kgzvswmd"
+   "commit": "42bbcced01d489c5a3a7d1ac137e4e428edf04e1",
+   "sha256": "1031phv4v61m3xr3nxaa6hzs6yycjhd8dg7a83kdy2x97lxi2z84"
   }
  },
  {
@@ -99894,11 +99903,11 @@
   "repo": "dariooddenino/unison-mode-emacs",
   "unstable": {
    "version": [
-    20200720,
-    1708
+    20200803,
+    808
    ],
-   "commit": "f793430068ade1b0a2d744aaa45f569c9dec9085",
-   "sha256": "129xk966kkhwn0ym80739r23kwds09qjiavd01ddnb3pfhbjfbrk"
+   "commit": "b8da68fc2a6a62a255a6089b0c6794bfa2370f34",
+   "sha256": "1g7kp0p190il6df062hw7a1crz571caakmamzry4q32a9af2nr1b"
   },
   "stable": {
    "version": [
