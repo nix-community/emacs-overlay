@@ -21331,8 +21331,8 @@
     20191016,
     1241
    ],
-   "commit": "4c79d968fc2cef5ec5bf689b6ee1c18bb8a43772",
-   "sha256": "10c73chbhl4f39vsxhsdpkgg084m5jqw8bhrbjkyvfk0i01lpd5x"
+   "commit": "4ca2e180aa1775a5da55ed2c5c3fc2ab1a55ea23",
+   "sha256": "0z1cisvg3mwazxwnm77s136v3whrnxkamzw5y5yhl9r27ib0hql9"
   },
   "stable": {
    "version": [
@@ -26647,8 +26647,8 @@
     20200519,
     530
    ],
-   "commit": "3102ec010e74508f53e9ff0233b090b8c0334a76",
-   "sha256": "0cik710lv7476w5wzkgm05swhxj0nrch8wim768j26ad4p4lhfds"
+   "commit": "db0333258b35716d09dc90706ad30edf6f1ec0c9",
+   "sha256": "0ssyhv3sggrhr15774mij3j6x1mvls5aspmyrh8ly2f3sjivgxkb"
   },
   "stable": {
    "version": [
@@ -43508,16 +43508,16 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20200803,
-    1656
+    20200804,
+    1009
    ],
    "deps": [
     "async",
     "helm-core",
     "popup"
    ],
-   "commit": "10dd52b3c45ba649165ed7d1c2a5fd49586bfefd",
-   "sha256": "0kq1mx8g4fd300wayjmrx9b52fb1k16ppyj9a2cm1z5wgcvf37vl"
+   "commit": "a6a0831499668a1b9126a5466349e0f83944f01c",
+   "sha256": "0siv4y2yn82dfbvxd3qbq2y4cb3a87aapxj41q0qajc5k0bp1m2s"
   },
   "stable": {
    "version": [
@@ -44413,8 +44413,8 @@
    "deps": [
     "async"
    ],
-   "commit": "10dd52b3c45ba649165ed7d1c2a5fd49586bfefd",
-   "sha256": "0kq1mx8g4fd300wayjmrx9b52fb1k16ppyj9a2cm1z5wgcvf37vl"
+   "commit": "a6a0831499668a1b9126a5466349e0f83944f01c",
+   "sha256": "0siv4y2yn82dfbvxd3qbq2y4cb3a87aapxj41q0qajc5k0bp1m2s"
   },
   "stable": {
    "version": [
@@ -60145,8 +60145,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20200803,
-    1948
+    20200804,
+    1342
    ],
    "deps": [
     "dash",
@@ -60157,8 +60157,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "b1d15609493439b1d40a22ed40e88bdf36859069",
-   "sha256": "1cajhav9djfdbi6lid90f3hm9fg1zdik2n52jxznb51g375wd9dp"
+   "commit": "a7532c3e96c0db63abff0e9f33bb1b7104ef2188",
+   "sha256": "019027pcq5ynzmqyyz2fpn40yqaq9nr6dclf72l2jbjrzfl0rhns"
   },
   "stable": {
    "version": [
@@ -60293,26 +60293,25 @@
   "unstable": {
    "version": [
     20200804,
-    507
+    1308
    ],
    "deps": [
     "lsp-mode"
    ],
-   "commit": "c5fa2fe9016bdb1e7104c6800b9e84c54a47eb1f",
-   "sha256": "1mjdzrjckz60jimpb21402pdzjpw6d429ynj5b1adf9d1ybqgn4d"
+   "commit": "7a502e6c09456cbe8b5f6c64883c79f5ce08e5a9",
+   "sha256": "0rkxhm9lmvsalyzq96452cgpn5cqljw7b9d9xcxkkl2cwz1745f3"
   },
   "stable": {
    "version": [
     0,
-    6,
+    7,
     0
    ],
    "deps": [
-    "cl-lib",
     "lsp-mode"
    ],
-   "commit": "5d0c799099aa5810858174f390e28fff3894bc06",
-   "sha256": "002h0i93blsv092pnfmzsfx0pj98r9glki0ki9n7gxg1z3nb0ybp"
+   "commit": "7a502e6c09456cbe8b5f6c64883c79f5ce08e5a9",
+   "sha256": "0rkxhm9lmvsalyzq96452cgpn5cqljw7b9d9xcxkkl2cwz1745f3"
   }
  },
  {
@@ -64972,11 +64971,11 @@
   "url": "https://github.com/udyantw/most-used-words.git",
   "unstable": {
    "version": [
-    20200729,
-    730
+    20200804,
+    1356
    ],
-   "commit": "6315370b01213b60d7a18bd36e70d713802a19e1",
-   "sha256": "1g5qz0s0dsyjy8hq78jbyi3kf9avf3gdzv35n9bi6276p6gbjxpb"
+   "commit": "fbc497f18eae6020a097f6229572e39d4b371078",
+   "sha256": "01ddd8n94f0pj05hpmd9yk4q00pmcdzyaa45y4cdk1adir442cd7"
   }
  },
  {
@@ -73103,8 +73102,8 @@
   "repo": "org-roam/org-roam",
   "unstable": {
    "version": [
-    20200803,
-    858
+    20200804,
+    1326
    ],
    "deps": [
     "dash",
@@ -73114,8 +73113,8 @@
     "org",
     "s"
    ],
-   "commit": "f206b5bbf94c836b530fdd3ba50b6689fd67a1a1",
-   "sha256": "1awmpmq5q3j2x12qgrpbw1qfin9a76622db8f28xm1axsdfnrbiz"
+   "commit": "f18ecd1fc3a514b80cbdf3d2a1695c63b88c681a",
+   "sha256": "0xv9zfygk5wwp537ynrickry357jphxxwcaxdhmbzllp1q09gfl5"
   },
   "stable": {
    "version": [
@@ -90558,13 +90557,13 @@
   "unstable": {
    "version": [
     20200804,
-    352
+    1442
    ],
    "deps": [
     "terminal-focus-reporting"
    ],
-   "commit": "bb6e030a74fced3246b5f9f786f664d8315a5067",
-   "sha256": "1l597fpgff6mvngncjzzqi0bg6bvk4n5i9b8rzhnq5zvj8hsg3gd"
+   "commit": "c4395a4a873964537c5887c006559fe449ddb24c",
+   "sha256": "0igls4mb97fg376d00wfpdjrz24pli6fw0vlhzcllx97pa03r1ys"
   }
  },
  {
