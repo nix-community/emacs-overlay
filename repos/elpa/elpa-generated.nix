@@ -2956,6 +2956,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    rt-liberation = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "rt-liberation";
+        ename = "rt-liberation";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/rt-liberation-1.0.tar";
+          sha256 = "0767d0jn28809ahbrq8ixr5ch7hhgsfd8ihhpi6nzn5l3hl4rln1";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/rt-liberation.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     rudel = callPackage ({ cl-generic
                          , cl-lib ? null
                          , cl-print
