@@ -2,14 +2,16 @@
 # https://github.com/talyz/fromElisp. Don't make any changes to it
 # locally - they will be discarded on update!
 
-{ pkgs ? import <nixpkgs> {},
-  commentMaxLength ? 300,
-  stringMaxLength ? 3000,
-  characterMaxLength ? 50,
-  integerMaxLength ? 50,
-  floatMaxLength ? 50,
-  boolVectorMaxLength ? 50,
-  symbolMaxLength ? 50
+{ pkgs ? import <nixpkgs> {}
+, commentMaxLength ? 300
+, stringMaxLength ? 3000
+, characterMaxLength ? 50
+, integerMaxLength ? 50
+, floatMaxLength ? 50
+, boolVectorMaxLength ? 50
+, symbolMaxLength ? 50
+, orgModeBabelCodeBlockHeaderMaxLength ? 200
+, orgModeBabelCodeBlockArgMaxLength ? 30
 }:
 
 with pkgs.lib;
@@ -38,7 +40,7 @@ let
 
   # Split a string of elisp into individual tokens and add useful
   # metadata.
-  tokenizeElisp = elisp:
+  tokenizeElisp' = { elisp, startLineNumber ? 1 }:
     let
       # These are the only characters that can not be unescaped in a
       # symbol name. We match the inverse of these to get the actual
@@ -48,7 +50,7 @@ let
       # placed _first_ inside a bracket expression.
       notInSymbol = '']["'`,#;\\()[:space:][:cntrl:]'';
 
-      matchComment = mkMatcher "(;[^\n]*[\n]).*" commentMaxLength;
+      matchComment = mkMatcher "(;[^\n]*).*" commentMaxLength;
 
       matchString = mkMatcher ''("([^"\\]|\\.)*").*'' stringMaxLength;
 
@@ -289,10 +291,13 @@ let
             }
           else
             throw "Unrecognized token on line ${toString state.line}: ${rest}";
-    in (builtins.foldl' readToken { acc = []; pos = 0; skip = 0; line = 1; mod = 0; } (stringToCharacters elisp)).acc;
+    in (builtins.foldl' readToken { acc = []; pos = 0; skip = 0; line = startLineNumber; mod = 0; } (stringToCharacters elisp)).acc;
 
-  # Produce an AST from a string of elisp.
-  parseElisp = elisp:
+  tokenizeElisp = elisp:
+    tokenizeElisp' { inherit elisp; };
+
+  # Produce an AST from a list of tokens produced by `tokenizeElisp`.
+  parseElisp' = tokens:
     let
       # Convert literal value tokens in a flat list to their
       # corresponding nix representation.
@@ -483,11 +488,13 @@ let
         in
           (foldl' parseToken { acc = []; quotes = []; } tokens).acc;
     in
-      parseQuotes (parseDots (parseCollections (parseValues (tokenizeElisp elisp))));
+      parseQuotes (parseDots (parseCollections (parseValues tokens)));
 
-  fromElisp = elisp:
+  parseElisp = elisp:
+    parseElisp' (tokenizeElisp elisp);
+
+  fromElisp' = ast:
     let
-      ast = parseElisp elisp;
       readObject = object:
         if isList object.value then
           map readObject object.value
@@ -509,7 +516,195 @@ let
           object.value;
     in
       map readObject ast;
+
+  fromElisp = elisp:
+    fromElisp' (parseElisp elisp);
+
+  # Parse an Org mode babel text and return a list of all code blocks
+  # with metadata.
+  #
+  # The general operation is similar to tokenizeElisp', so check its
+  # documentation for a more in-depth description.
+  #
+  # As in tokenizeElisp', the string read from is split into a list of
+  # its constituent characters, which is then folded over. Each
+  # character is then used to determine whether we should try to run a
+  # match for a `#+begin_src` header or `#+end_src` footer, starting
+  # at the position of the aforementioned character. These matches
+  # should only be attempted if the current character is `#` and the
+  # line has nothing but whitespace before it (noted by
+  # `state.leadingWhitespace`).
+  #
+  # When an appropriate match for a header has been found, its
+  # arguments are further parsed and the result is put into the code
+  # block's `flags` attribute. The subsequent characters are added to
+  # the code block's `body` attribute, until a footer is successfully
+  # matched and the block is added to the list of parsed blocks,
+  # `state.acc`.
+  parseOrgModeBabel = text:
+    let
+      matchBeginCodeBlock = match "(#[+][bB][eE][gG][iI][nN]_[sS][rR][cC])([[:blank:]]+)([[:alnum:]-]+)([^\n]*).*";
+
+      matchEndCodeBlock = mkMatcher "(#[+][eE][nN][dD]_[sS][rR][cC][^\n]*).*" orgModeBabelCodeBlockHeaderMaxLength;
+
+      parseToken = state: char:
+        let
+          rest = substring state.pos orgModeBabelCodeBlockHeaderMaxLength text;
+          beginCodeBlock = matchBeginCodeBlock rest;
+          beginCodeBlockArgs = elemAt beginCodeBlock 3;
+          endCodeBlock = matchEndCodeBlock rest;
+        in
+          if state.skip > 0 then
+            state // {
+              pos = state.pos + 1;
+              skip = state.skip - 1;
+              line = if char == "\n" then state.line + 1 else state.line;
+              leadingWhitespace = (char == "\n") || (state.leadingWhitespace && elem char [ " " "\t" "\r" ]);
+            }
+          else if char == "\n" then
+            state // {
+              pos = state.pos + 1;
+              line = state.line + 1;
+              leadingWhitespace = true;
+              ${if state.block != null then "block" else null} = state.block // {
+                body = state.block.body + char;
+              };
+            }
+          else if elem char [ " " "\t" "\r" ] then
+            state // {
+              pos = state.pos + 1;
+              ${if state.block != null then "block" else null} = state.block // {
+                body = state.block.body + char;
+              };
+            }
+          else if char == "#" && state.leadingWhitespace && beginCodeBlock != null then
+            let
+              inherit (state) line;
+
+              matchFlag = mkMatcher "([-:+][^[:space:][:cntrl:]]*).*" orgModeBabelCodeBlockArgMaxLength;
+
+              matchValue = mkMatcher "([^[:space:][:cntrl:]:+-][^[:space:][:cntrl:]]*).*" orgModeBabelCodeBlockArgMaxLength;
+
+              parseFlag = state: char:
+                let
+                  rest = substring state.pos orgModeBabelCodeBlockArgMaxLength beginCodeBlockArgs;
+                  flag = matchFlag rest;
+                  value = matchValue rest;
+                in
+                  if state.skip > 0 then
+                    state // {
+                      pos = state.pos + 1;
+                      skip = state.skip - 1;
+                    }
+                  else if elem char [ " " "\t" "\r" ] then
+                    state // {
+                      pos = state.pos + 1;
+                    }
+                  else if elem char [ ":" "-" "+" ] then
+                    if flag != null then
+                      state // {
+                        acc = state.acc // { ${flag} = true; };
+                        inherit flag;
+                        pos = state.pos + 1;
+                        skip = (stringLength flag) - 1;
+                      }
+                    else throw "Unrecognized token on line ${line}: ${rest}"
+                  else if state.flag != null then
+                    if value != null then
+                      state // {
+                        acc = state.acc // { ${state.flag} = value; };
+                        flag = null;
+                        pos = state.pos + 1;
+                        skip = (stringLength value) - 1;
+                      }
+                    else throw "Unrecognized token on line ${line}: ${rest}"
+                  else
+                    state // {
+                      pos = state.pos + 1;
+                    };
+            in
+              state // {
+                block = {
+                  language = elemAt beginCodeBlock 2;
+                  flags =
+                    (foldl'
+                      parseFlag
+                      { acc = {};
+                        pos = 0;
+                        skip = 0;
+                        flag = null;
+                      }
+                      (stringToCharacters beginCodeBlockArgs)).acc;
+                  body = "";
+                  startLineNumber = line + 1;
+                };
+                leadingWhitespace = false;
+                pos = state.pos + 1;
+                skip = foldl' (total: string: total + (stringLength string)) 0 beginCodeBlock;
+              }
+          else if char == "#" && state.leadingWhitespace && endCodeBlock != null then
+            state // {
+              acc = state.acc ++ [ state.block ];
+              block = null;
+              leadingWhitespace = false;
+              pos = state.pos + 1;
+              skip = (stringLength endCodeBlock) - 1;
+            }
+          else if state.block != null then
+            state // {
+              block = state.block // {
+                body = state.block.body + char;
+              };
+              pos = state.pos + 1;
+              leadingWhitespace = false;
+            }
+          else
+            state // {
+              pos = state.pos + 1;
+              leadingWhitespace = false;
+            };
+    in
+      (foldl'
+        parseToken
+        { acc = [];
+          pos = 0;
+          skip = 0;
+          line = 1;
+          block = null;
+          leadingWhitespace = true;
+        }
+        (stringToCharacters text)).acc;
+
+  # Run tokenizeElisp' on all Elisp code blocks (with `:tangle "yes"`
+  # set) from an Org mode babel text.
+  tokenizeOrgModeBabelElisp = text:
+    let
+      codeBlocks =
+        filter
+          (block:
+            elem block.language [ "elisp" "emacs-lisp" ]
+              && (block.flags.":tangle" or "no") == "yes")
+          (parseOrgModeBabel text);
+      in
+        foldl'
+          (result: codeBlock:
+            result ++ (tokenizeElisp' {
+              elisp = codeBlock.body;
+              inherit (codeBlock) startLineNumber;
+            })
+          )
+          []
+          codeBlocks;
+
+  parseOrgModeBabelElisp = text:
+    parseElisp' (tokenizeOrgModeBabelElisp text);
+
+  fromOrgModeBabelElisp = text:
+    fromElisp' (parseOrgModeBabelElisp text);
+
 in
 {
   inherit tokenizeElisp parseElisp fromElisp;
+  inherit tokenizeElisp' parseElisp' fromElisp';
+  inherit tokenizeOrgModeBabelElisp parseOrgModeBabelElisp fromOrgModeBabelElisp;
 }
