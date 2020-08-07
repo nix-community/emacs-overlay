@@ -12,9 +12,9 @@ let
 
 in
 { config
+# emulate `use-package-always-ensure` behavior
 , alwaysEnsure ? false
-, # emulate `use-package-always-ensure` behavior
-  extraEmacsPackages ? epkgs: [ ]
+, extraEmacsPackages ? epkgs: [ ]
 , package ? pkgs.emacs
 , override ? (epkgs: epkgs)
 }:
@@ -23,38 +23,31 @@ let
     Emacs-overlay API breakage notice:
 
     Previously emacsWithPackagesFromUsePackage always added every use-package definition to the closure.
-    Now we will only add packages with `:ensure t`.
+    Now we will only add packages with `:ensure`, `:ensure t` or `:ensure <package name>`.
 
     You can get back the old behaviour by passing `alwaysEnsure = true`.
     For a more in-depth usage example see https://github.com/nix-community/emacs-overlay#extra-library-functionality
   '';
   showNotice = value: if alwaysEnsure then value else builtins.trace ensureNotice value;
 
-  # Note that using .org configurations will result in IFD
-  orgBabelTangeledConfig = pkgs.runCommand "emacs-config.el"
-    { } ''
-    cp ${config} emacs-config.org
-    ${package}/bin/emacs --batch ./emacs-config.org -f org-babel-tangle
-    mv emacs-config.el $out
-  '';
-
-  config' =
+  isOrgModeFile =
     let
       ext = lib.last (builtins.split "\\." (builtins.toString config));
-      t = builtins.typeOf config;
+      type = builtins.typeOf config;
     in
-    (
-      if t == "string" then config
-      else if t == "path" then (
-        builtins.readFile (
-          if ext == "org" then orgBabelTangeledConfig
-          else config
-        )
-      )
-      else throw "Unsupported type for config: \"${t}\""
-    );
+      type == "path" && ext == "org";
 
-  packages = showNotice (parse.parsePackagesFromUsePackage config' alwaysEnsure);
+  configText =
+    let
+      type = builtins.typeOf config;
+    in
+      if type == "string" then config
+      else if type == "path" then builtins.readFile config
+      else throw "Unsupported type for config: \"${type}\"";
+
+  packages = showNotice (parse.parsePackagesFromUsePackage {
+    inherit configText alwaysEnsure isOrgModeFile;
+  });
   emacsPackages = pkgs.emacsPackagesGen package;
   emacsWithPackages = emacsPackages.emacsWithPackages;
   mkPackageError = name:

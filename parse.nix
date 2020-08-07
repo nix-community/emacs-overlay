@@ -1,7 +1,7 @@
 { pkgs, lib }:
 
 let
-  inherit (import ./repos/fromElisp { inherit pkgs; }) fromElisp;
+  inherit (import ./repos/fromElisp { inherit pkgs; }) fromElisp fromOrgModeBabelElisp;
 
   isStrEmpty = s: (builtins.replaceStrings [ " " ] [ "" ] s) == "";
 
@@ -69,8 +69,18 @@ let
   #     :hook (emacs-lisp-mode lisp-mode lisp-interaction-mode))
   # ''
   # => [ "direnv" "paredit" ]
-  parsePackagesFromUsePackage = config: alwaysEnsure:
+  parsePackagesFromUsePackage = {
+    configText,
+    alwaysEnsure ? false,
+    isOrgModeFile ? false
+  }:
     let
+      readFunction =
+        if isOrgModeFile then
+          fromOrgModeBabelElisp
+        else
+          fromElisp;
+
       find = item: list:
         if list == [] then [] else
           if builtins.head list == item then
@@ -133,7 +143,7 @@ let
         else
           [];
     in
-      lib.flatten (map recurse (fromElisp config));
+      lib.flatten (map recurse (readFunction configText));
 
 in
 {
