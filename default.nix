@@ -46,6 +46,7 @@ let
         '';
       } // super.lib.optionalAttrs isStable {
         buildInputs = old.buildInputs ++ [
+          super.cairo
           super.harfbuzz.dev
           super.jansson
         ];
@@ -59,6 +60,8 @@ let
   };
 
   emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json).overrideAttrs(old: {
+    configureFlags = old.configureFlags ++ [ "--with-cairo" ];
+
     patches = [
       ./patches/tramp-detect-wrapped-gvfsd-27.patch
       ./patches/clean-env.patch
