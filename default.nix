@@ -19,38 +19,74 @@ let
     };
   });
 
-  mkGitEmacs = namePrefix: jsonFile:
-    (self.emacs.override { srcRepo = true; }).overrideAttrs(old: (let
-      repoMeta = super.lib.importJSON jsonFile;
-
-      # The nativeComp passthru attribute is used a heuristic to check if we're on 20.03 or older
-      isStable = !(super.lib.hasAttr "nativeComp" (old.passthru or {}));
-
-      attrs = {
-        name = "${namePrefix}-${repoMeta.version}";
-        inherit (repoMeta) version;
         src = super.fetchFromGitHub {
-          owner = "emacs-mirror";
-          repo = "emacs";
-          inherit (repoMeta) sha256 rev;
+          owner = "ch11ng";
+          repo = name;
+          inherit (repoMeta) rev sha256;
         };
+      }
+    );
 
-        patches = [
-          ./patches/tramp-detect-wrapped-gvfsd.patch
-          ./patches/clean-env.patch
-        ];
-        postPatch = old.postPatch + ''
-          substituteInPlace lisp/loadup.el \
-          --replace '(emacs-repository-get-version)' '"${repoMeta.rev}"' \
-          --replace '(emacs-repository-get-branch)' '"master"'
-        '';
-      } // super.lib.optionalAttrs isStable {
-        buildInputs = old.buildInputs ++ [
-          super.harfbuzz.dev
-          super.jansson
-        ];
-      };
-    in attrs));
+  mkGitEmacs = namePrefix: jsonFile:
+    let
+      repoMeta = super.lib.importJSON jsonFile;
+    in
+    builtins.foldl'
+      (drv: fn: fn drv)
+      self.emacs
+      [
+
+        (drv: drv.override { srcRepo = true; })
+
+        (
+          drv: drv.overrideAttrs (
+            old: {
+              name = "${namePrefix}-${repoMeta.version}";
+              inherit (repoMeta) version;
+              src = super.fetchFromGitHub {
+                owner = "emacs-mirror";
+                repo = "emacs";
+                inherit (repoMeta) sha256 rev;
+              };
+
+              patches = [
+                ./patches/tramp-detect-wrapped-gvfsd.patch
+                ./patches/clean-env.patch
+              ];
+              postPatch = old.postPatch + ''
+                substituteInPlace lisp/loadup.el \
+                --replace '(emacs-repository-get-version)' '"${repoMeta.rev}"' \
+                --replace '(emacs-repository-get-branch)' '"master"'
+              '';
+
+            }
+          )
+        )
+
+        # Stable compat
+        (
+          drv:
+          let
+            # The nativeComp passthru attribute is used a heuristic to check if we're on 20.03 or older
+            isStable = !(super.lib.hasAttr "nativeComp" (drv.passthru or { }));
+            withX = super.lib.elem "--with-xft" drv.configureFlags;
+          in
+          if isStable then drv.overrideAttrs (
+            old: {
+
+              configureFlags = old.configureFlags
+                ++ super.lib.optional withX "--with-cairo";
+
+              buildInputs = old.buildInputs ++ [
+                self.harfbuzz.dev
+                self.jansson
+              ]
+                ++ super.lib.optional withX self.cairo;
+
+            }
+          ) else drv
+        )
+      ];
 
   emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json;
 
