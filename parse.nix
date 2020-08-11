@@ -1,7 +1,7 @@
 { pkgs, lib }:
 
 let
-  inherit (import ./repos/fromElisp { inherit pkgs; }) fromElisp fromOrgModeBabelElisp;
+  inherit (import ./repos/fromElisp { inherit pkgs; }) fromElisp fromOrgModeBabelElisp';
 
   isStrEmpty = s: (builtins.replaceStrings [ " " ] [ "" ] s) == "";
 
@@ -70,14 +70,15 @@ let
   # ''
   # => [ "direnv" "paredit" ]
   parsePackagesFromUsePackage = {
-    configText,
-    alwaysEnsure ? false,
-    isOrgModeFile ? false
+    configText
+    , alwaysEnsure ? false
+    , isOrgModeFile ? false
+    , alwaysTangle ? false
   }:
     let
       readFunction =
         if isOrgModeFile then
-          fromOrgModeBabelElisp
+          fromOrgModeBabelElisp' { ":tangle" = if alwaysTangle then "yes" else "no"; }
         else
           fromElisp;
 

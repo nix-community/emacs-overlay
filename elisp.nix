@@ -14,6 +14,8 @@ in
 { config
 # emulate `use-package-always-ensure` behavior
 , alwaysEnsure ? false
+# emulate `#+PROPERTY: header-args:emacs-lisp :tangle yes`
+, alwaysTangle ? false
 , extraEmacsPackages ? epkgs: [ ]
 , package ? pkgs.emacs
 , override ? (epkgs: epkgs)
@@ -46,7 +48,7 @@ let
       else throw "Unsupported type for config: \"${type}\"";
 
   packages = showNotice (parse.parsePackagesFromUsePackage {
-    inherit configText alwaysEnsure isOrgModeFile;
+    inherit configText alwaysEnsure isOrgModeFile alwaysTangle;
   });
   emacsPackages = pkgs.emacsPackagesGen package;
   emacsWithPackages = emacsPackages.emacsWithPackages;
