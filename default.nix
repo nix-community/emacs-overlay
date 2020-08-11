@@ -1,23 +1,18 @@
 self: super:
 let
-
-  mkExDrv = emacsPackages: name: args: let
-    repoMeta = super.lib.importJSON (./repos/exwm/. + "/${name}.json");
-  in emacsPackages.melpaBuild (args // {
-    pname   = name;
-    ename   = name;
-    version = repoMeta.version;
-    recipe  = builtins.toFile "recipe" ''
-      (${name} :fetcher github
-      :repo "ch11ng/${name}")
-    '';
-
-    src = super.fetchFromGitHub {
-      owner  = "ch11ng";
-      repo   = name;
-      inherit (repoMeta) rev sha256;
-    };
-  });
+  mkExDrv = emacsPackages: name: args:
+    let
+      repoMeta = super.lib.importJSON (./repos/exwm/. + "/${name}.json");
+    in
+    emacsPackages.melpaBuild (
+      args // {
+        pname = name;
+        ename = name;
+        version = repoMeta.version;
+        recipe = builtins.toFile "recipe" ''
+          (${name} :fetcher github
+          :repo "ch11ng/${name}")
+        '';
 
         src = super.fetchFromGitHub {
           owner = "ch11ng";
@@ -94,69 +89,88 @@ let
     nativeComp = true;
   };
 
-  emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json).overrideAttrs(old: {
-    patches = [
-      ./patches/tramp-detect-wrapped-gvfsd-27.patch
-      ./patches/clean-env.patch
-    ];
-  });
+  emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json).overrideAttrs (
+    old: {
+      patches = [
+        ./patches/tramp-detect-wrapped-gvfsd-27.patch
+        ./patches/clean-env.patch
+      ];
+    }
+  );
 
-in {
+in
+{
   inherit emacsGit emacsUnstable;
 
   inherit emacsGcc;
 
-  emacsGit-nox = ((emacsGit.override {
-    withX = false;
-    withGTK2 = false;
-    withGTK3 = false;
-  }).overrideAttrs(oa: {
-    name = "${oa.name}-nox";
-  }));
+  emacsGit-nox = (
+    (
+      emacsGit.override {
+        withX = false;
+        withGTK2 = false;
+        withGTK3 = false;
+      }
+    ).overrideAttrs (
+      oa: {
+        name = "${oa.name}-nox";
+      }
+    )
+  );
 
-  emacsUnstable-nox = ((emacsUnstable.override {
-    withX = false;
-    withGTK2 = false;
-    withGTK3 = false;
-  }).overrideAttrs(oa: {
-    name = "${oa.name}-nox";
-  }));
+  emacsUnstable-nox = (
+    (
+      emacsUnstable.override {
+        withX = false;
+        withGTK2 = false;
+        withGTK3 = false;
+      }
+    ).overrideAttrs (
+      oa: {
+        name = "${oa.name}-nox";
+      }
+    )
+  );
 
   emacsWithPackagesFromUsePackage = import ./elisp.nix { pkgs = self; };
 
   emacsWithPackagesFromPackageRequires = import ./packreq.nix { pkgs = self; };
 
   emacsPackagesFor = emacs: (
-    (super.emacsPackagesFor emacs).overrideScope'(eself: esuper: let
+    (super.emacsPackagesFor emacs).overrideScope' (
+      eself: esuper:
+        let
+          melpaStablePackages = esuper.melpaStablePackages.override {
+            archiveJson = ./repos/melpa/recipes-archive-melpa.json;
+          };
 
-      melpaStablePackages = esuper.melpaStablePackages.override {
-        archiveJson = ./repos/melpa/recipes-archive-melpa.json;
-      };
+          melpaPackages = esuper.melpaPackages.override {
+            archiveJson = ./repos/melpa/recipes-archive-melpa.json;
+          };
 
-      melpaPackages = esuper.melpaPackages.override {
-        archiveJson = ./repos/melpa/recipes-archive-melpa.json;
-      };
+          elpaPackages = esuper.elpaPackages.override {
+            generated = ./repos/elpa/elpa-generated.nix;
+          };
 
-      elpaPackages = esuper.elpaPackages.override {
-        generated = ./repos/elpa/elpa-generated.nix;
-      };
+          orgPackages = esuper.orgPackages.override {
+            generated = ./repos/org/org-generated.nix;
+          };
 
-      orgPackages = esuper.orgPackages.override {
-        generated = ./repos/org/org-generated.nix;
-      };
+          epkgs = esuper.override {
+            inherit melpaStablePackages melpaPackages elpaPackages orgPackages;
+          };
 
-      epkgs = esuper.override {
-        inherit melpaStablePackages melpaPackages elpaPackages orgPackages;
-      };
+        in
+        epkgs // {
+          xelb = mkExDrv eself "xelb" {
+            packageRequires = [ eself.cl-generic eself.emacs ];
+          };
 
-    in epkgs // {
-      xelb = mkExDrv eself "xelb" {
-        packageRequires = [ eself.cl-generic eself.emacs ];
-      };
-
-      exwm = mkExDrv eself "exwm" {
-        packageRequires = [ eself.xelb ];
-      };
-    }));
+          exwm = mkExDrv eself "exwm" {
+            packageRequires = [ eself.xelb ];
+          };
+        }
+    )
+  );
 
 }
