@@ -2960,10 +2960,10 @@
       elpaBuild {
         pname = "rt-liberation";
         ename = "rt-liberation";
-        version = "1.3";
+        version = "1.31";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rt-liberation-1.3.tar";
-          sha256 = "19i20v0568yabzn719mazhbv7brfjdz8i009c8842ihfqr6sb6gf";
+          url = "https://elpa.gnu.org/packages/rt-liberation-1.31.tar";
+          sha256 = "0qqqqwdkb0h8137rqsr08179skl1475cg4hl7a987rmccys0j83c";
         };
         packageRequires = [];
         meta = {
