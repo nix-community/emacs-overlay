@@ -1000,10 +1000,10 @@
       elpaBuild {
         pname = "ediprolog";
         ename = "ediprolog";
-        version = "1.2";
+        version = "2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ediprolog-1.2.el";
-          sha256 = "039ffvp7c810mjyargmgw1i87g0z8qs8qicq826sd9aiz9hprfaz";
+          url = "https://elpa.gnu.org/packages/ediprolog-2.1.el";
+          sha256 = "1piimsmzpirw8plrpy79xbpnvynzzhcxi31g6lg6is8gridiv3md";
         };
         packageRequires = [];
         meta = {
