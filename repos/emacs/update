@@ -19,7 +19,7 @@ function update_repo() {
 
     { read -r digest; read -r buildPath; } < <(nix-prefetch-url --print-path --unpack "https://github.com/$owner/$repo/archive/${commit_sha}.tar.gz")
 
-    # Grep for Emacs version inside README
+    # Grep for Emacs version inside sources
     version=$(grep -Po "GNU Emacs, \K[\d\.]+" ${buildPath}/configure.ac)
 
     echo "{\"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version}\"}" > $repo-$label.json
