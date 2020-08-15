@@ -31,9 +31,11 @@ function update_release() {
 
     tag=$(curl "https://github.com/$owner/$repo/releases.atom" | xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -m /atom:feed/atom:entry -v "concat('',atom:title)" -n | egrep -o '^[^:]+' | head -n 1)
 
+    version=${tag#"emacs-"}
+
     digest=$(nix-prefetch-url --unpack "https://github.com/$owner/$repo/archive/${tag}.tar.gz")
 
-    echo "{\"rev\": \"${tag}\", \"sha256\": \"${digest}\", \"version\": \"${tag}\"}" > $repo-$branch.json
+    echo "{\"rev\": \"${tag}\", \"sha256\": \"${digest}\", \"version\": \"${version}\"}" > $repo-$branch.json
 }
 
 update_repo emacs-mirror emacs master
