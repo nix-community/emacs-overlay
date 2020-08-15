@@ -11,31 +11,27 @@ function update_repo() {
     branch=$3
     echo $repo
 
+    label=${4:-$(echo $branch | sed s/"\/"/"_"/)}
+
     # Get relevant data (commit id and timestamp) for the latest commit
     commit_data=$(curl "https://github.com/$owner/$repo/commits/$branch.atom" | xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -m /atom:feed/atom:entry -v "concat(atom:id,'/',atom:updated)" -n | head -n 1)
-
-    # Extract commit sha and build a version number based on date: YYYYMMDD.0
     commit_sha=$(echo $commit_data | cut -d '/' -f 2)
-    version_number=$(echo $commit_data | cut -d '/' -f 3 | cut -d 'T' -f 1 | sed 's/-//g').0
 
-    output_branch=$(echo $branch | sed s/"\/"/"_"/)
-    digest=$(nix-prefetch-url --unpack "https://github.com/$owner/$repo/archive/${commit_sha}.tar.gz")
-    echo "{\"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > $repo-$output_branch.json
+    { read -r digest; read -r buildPath; } < <(nix-prefetch-url --print-path --unpack "https://github.com/$owner/$repo/archive/${commit_sha}.tar.gz")
+
+    # Grep for Emacs version inside README
+    version=$(cat ${buildPath}/README | grep -Po "This directory tree holds version \K[\d\.]+")
+
+    echo "{\"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version}\"}" > $repo-$label.json
 }
 
 function update_release() {
     owner=$1
     repo=$2
-    branch=$3
-    echo $repo
+    branch=$(curl "https://github.com/$owner/$repo/releases.atom" | xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -m /atom:feed/atom:entry -v "concat('',atom:title)" -n | egrep -o '^[^:]+' | head -n 1)
+    label=$3
 
-    tag=$(curl "https://github.com/$owner/$repo/releases.atom" | xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -m /atom:feed/atom:entry -v "concat('',atom:title)" -n | egrep -o '^[^:]+' | head -n 1)
-
-    version=${tag#"emacs-"}
-
-    digest=$(nix-prefetch-url --unpack "https://github.com/$owner/$repo/archive/${tag}.tar.gz")
-
-    echo "{\"rev\": \"${tag}\", \"sha256\": \"${digest}\", \"version\": \"${version}\"}" > $repo-$branch.json
+    update_repo $owner $repo $branch $label
 }
 
 update_repo emacs-mirror emacs master
