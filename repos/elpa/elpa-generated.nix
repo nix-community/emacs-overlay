@@ -2601,16 +2601,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    project = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    project = callPackage ({ elpaBuild, emacs, fetchurl, lib, xref }:
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.5.0";
+        version = "0.5.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/project-0.5.0.el";
-          sha256 = "04l5gj9x18lh78dwv8m71marmdij4xn6lmiypd785s3l381dm5r3";
+          url = "https://elpa.gnu.org/packages/project-0.5.1.el";
+          sha256 = "1i15hlrfipsfrdmgh6xzkr6aszgvik3y8j9363qkj654dl04pmz4";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ emacs xref ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/project.html";
           license = lib.licenses.free;
@@ -3915,16 +3915,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    xref = callPackage ({ elpaBuild, emacs, fetchurl, lib, project }:
+    xref = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "xref";
         ename = "xref";
-        version = "1.0.1";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xref-1.0.1.el";
-          sha256 = "17wlwilm2d1gvin8mkkqnpw2skjx0klxfs1pqpy8rrzdfpsb55li";
+          url = "https://elpa.gnu.org/packages/xref-1.0.2.el";
+          sha256 = "156rfwdihb3vz31iszbmby16spqswyf69nhl3r2cp6jzkgwzc1d8";
         };
-        packageRequires = [ emacs project ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/xref.html";
           license = lib.licenses.free;
