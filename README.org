@@ -32,13 +32,18 @@ This overlay comes with extra functions to generate an Emacs closure
 from various types of dependency declaration. (These are abstractions
 on top of =emacsWithPackages=.)
 
-For example, =emacsWithPackagesFromUsePackage= adds packages which are required in a user's config via =use-package=:
+For example, =emacsWithPackagesFromUsePackage= adds packages which are
+required in a user's config via =use-package=:
 
 #+BEGIN_SRC nix
   {
     environment.systemPackages = [
       (emacsWithPackagesFromUsePackage {
-        # Your Emacs config file. Org mode babel files are also supported.
+        # Your Emacs config file. Org mode babel files are also
+        # supported.
+        # NB: Config files cannot contain unicode characters, since
+        #     they're being parsed in nix, which lacks unicode
+        #     support.
         # config = ./emacs.org;
         config = ./emacs.el;
 
