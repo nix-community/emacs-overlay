@@ -3157,6 +3157,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    so-long = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "so-long";
+        ename = "so-long";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/so-long-1.0.el";
+          sha256 = "00z9gnxz32rakd0k7lqaj050fwmqzq5vr9d6rb7ji3fn01rjp7kj";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/so-long.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     soap-client = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "soap-client";
