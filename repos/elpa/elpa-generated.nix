@@ -1115,10 +1115,10 @@
       elpaBuild {
         pname = "elisp-benchmarks";
         ename = "elisp-benchmarks";
-        version = "1.6";
+        version = "1.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.6.tar";
-          sha256 = "0a4r7g7fa6qcbrsagg1ypvkavaykfwq5v58l5s2b1lzrwq8vd7hs";
+          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.7.tar";
+          sha256 = "1ps28bvh87d98k84ygx374a1kbwvnqm4w8jpkgzic01as78hgkiz";
         };
         packageRequires = [];
         meta = {
@@ -2590,10 +2590,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "0.7.0";
+        version = "0.8.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-0.7.0.el";
-          sha256 = "1kwl83jb5k1hnx0s2qw972v0gjqbbvk4sdcdb1qbdxsyw36sylc9";
+          url = "https://elpa.gnu.org/packages/posframe-0.8.0.el";
+          sha256 = "1vzaiiw2pxa0zrc2bkaxljpr4035xrh3d8z3l5f0jvp72cnq49kp";
         };
         packageRequires = [ emacs ];
         meta = {
