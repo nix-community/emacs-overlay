@@ -3480,10 +3480,10 @@
       elpaBuild {
         pname = "undo-tree";
         ename = "undo-tree";
-        version = "0.7.4";
+        version = "0.7.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/undo-tree-0.7.4.el";
-          sha256 = "018ixl802f076sfyf4gkacpgrdpybin88jd8vq9zgyvc6x2dalfa";
+          url = "https://elpa.gnu.org/packages/undo-tree-0.7.5.el";
+          sha256 = "00admi87gqm0akhfqm4dcp9fw8ihpygy030955jswkha4zs7lw2p";
         };
         packageRequires = [];
         meta = {
@@ -3674,10 +3674,10 @@
       elpaBuild {
         pname = "vlf";
         ename = "vlf";
-        version = "1.7.1";
+        version = "1.7.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vlf-1.7.1.tar";
-          sha256 = "0cnwxk20573iqkwk0c0h7pyjk0rkr8l2qd0xmyqj8mvdxjb8nnkz";
+          url = "https://elpa.gnu.org/packages/vlf-1.7.2.tar";
+          sha256 = "0hpri19z6b7dqmrj5ckp8sf0m0l72lkgahqzvfmwhgpgv2p81bny";
         };
         packageRequires = [];
         meta = {
