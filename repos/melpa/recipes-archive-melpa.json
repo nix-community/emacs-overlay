@@ -39601,8 +39601,8 @@
   "repo": "charignon/github-review",
   "unstable": {
    "version": [
-    20200314,
-    438
+    20200822,
+    132
    ],
    "deps": [
     "dash",
@@ -39610,8 +39610,8 @@
     "ghub",
     "s"
    ],
-   "commit": "fab440aeae4fbf6a8192fd11795052e9eb5d27d1",
-   "sha256": "19kk55r0qixmvw1q80x3rnvcssrq64k5b5ixp8wjzpg6h65s9vk9"
+   "commit": "2b36f5ab69a3cc3238ce2f4064031e5afb2e653c",
+   "sha256": "1ylhxh3bp9gqnrc1jh28f6kc3jinzxr2s10hkdjqfzh3f97bdi12"
   }
  },
  {
@@ -72409,16 +72409,16 @@
   },
   "stable": {
    "version": [
-    2,
+    3,
     0,
-    1
+    0
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "c36f8a7f6b15dddcfa9e270a86d48a5e5f2beea3",
-   "sha256": "0vv8rk1mn7vhwz5riadg1fdjx5nmvm8h578yb9b85a100nq7av2w"
+   "commit": "d0afe8350ff92dd3896010bd01d27e0a36115a62",
+   "sha256": "0x2k4z6pc604q8kmsjdx0sv669q4rd5xbdrz91l33p222v5hq8wx"
   }
  },
  {
@@ -88517,8 +88517,8 @@
     20200628,
     2256
    ],
-   "commit": "67fafca8734b97a8ce509b754a54bade968cce42",
-   "sha256": "0zmn6nzd5yvfy22nq1k4pg6xxcz2lrs44sddqwapm6kka6p1b9w8"
+   "commit": "bd7f5422c220ca86310000b8456978987d809a48",
+   "sha256": "0yj7svfqh01kly9f5af6w2szkbn8lyc5mw1fkh19kchnn4bn5iin"
   }
  },
  {
@@ -99651,14 +99651,16 @@
    "version": [
     0,
     0,
-    3
+    4
    ],
    "deps": [
     "company",
-    "helm"
+    "dash",
+    "helm",
+    "s"
    ],
-   "commit": "ac48f2e59daee15983a5fd13009f751e0d928ab1",
-   "sha256": "0kjyjav2bwrr2kwvdm3dx7mi966ji49n9hcw9dxx458bl72giwqf"
+   "commit": "938fdad51d1177627ed9a34da6b937481861bda2",
+   "sha256": "0q8kgjnbcmqr1my7qgfcwjbk9misgkq4ymvrslhwlfwnnkg18x9a"
   }
  },
  {
