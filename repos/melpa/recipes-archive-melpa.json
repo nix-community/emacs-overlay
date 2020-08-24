@@ -3345,11 +3345,11 @@
   "repo": "wanderlust/apel",
   "unstable": {
    "version": [
-    20190407,
-    1056
+    20200823,
+    2222
    ],
-   "commit": "d146ddbf8818e81d3577d5eee7825d377bec0c73",
-   "sha256": "04ic76gzn3m4rnmm2xjc72vrxazxjvsjabd3lbxvwj6c1fb11fnw"
+   "commit": "414dc330cc8327fdaf6aeb5234e9fafdd69964ca",
+   "sha256": "1xksknfs4yr8b51c37v5phmdd92p4hyz8s8gij5n1nffiaw1gfvf"
   }
  },
  {
@@ -5635,6 +5635,24 @@
    ],
    "commit": "24a557f92a702f632901a5b7bee59945a0a8cde9",
    "sha256": "1plh7i4zhs5p7qkv7p7lnfrmkszn8b3znwvbxgp7wpxay5safc5j"
+  }
+ },
+ {
+  "ename": "baff",
+  "commit": "a366fdfb3594b5cf910aebc58a249699f1f956a4",
+  "sha256": "1s8s5yvr8c7a6yzlwa38a1slkqad5szq92k5wxygvfyw1ikwvkxg",
+  "fetcher": "github",
+  "repo": "dave-f/baff",
+  "unstable": {
+   "version": [
+    20200823,
+    1858
+   ],
+   "deps": [
+    "f"
+   ],
+   "commit": "4a430ba05a97a8d473493f838b526737ba51dad8",
+   "sha256": "17f477qqfj97vnaa65sc1xz0iznk288ibclqx090rm1n9w9jx42f"
   }
  },
  {
@@ -11833,11 +11851,11 @@
   "repo": "tumashu/cnfonts",
   "unstable": {
    "version": [
-    20200819,
-    543
+    20200824,
+    240
    ],
-   "commit": "d4d303b0045b682b9e699e63fa3af4dd00daf878",
-   "sha256": "06gcm7wc1ayz0z2fqz3bqyfxqlgbx31z95gwbwjd9x2mqgkp02mh"
+   "commit": "b967605d571d827c1cb041c174fb363985758729",
+   "sha256": "1h4c6czj7zr1p8b0233rxmczkaf7hh72869lijsvkvx9xmq9pk8w"
   },
   "stable": {
    "version": [
@@ -20748,16 +20766,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20200819,
-    117
+    20200824,
+    230
    ],
    "deps": [
     "all-the-icons",
     "dash",
     "shrink-path"
    ],
-   "commit": "ffbaaee832f1c97ff608bc4959b408997d959b7d",
-   "sha256": "0gvdlwa4w7s1igy8hqapng2s1k9ca6f76g68m5wzrfnx1z0zf7xl"
+   "commit": "d8d04332f5b68baf4f53193ee23df89fcb009f5e",
+   "sha256": "0ibizznvkf51zywz8gr87c9s51sch9r78mm8nprj6i2cqhjmxr3x"
   },
   "stable": {
    "version": [
@@ -21416,8 +21434,8 @@
     20191016,
     1241
    ],
-   "commit": "6a0725aa34edf2aa2271e7c48aab409c6fb0240d",
-   "sha256": "0hnsbhgka9ngjb5iy5x2qlw8nfmm3yc5nf1gjjdjgdv11xp59fr4"
+   "commit": "a6fa0672c96877ddd333185d6d8e0a49c2b92797",
+   "sha256": "0b3bjq1gf4iqm3r242zwjvbj0m9i8cc4b217d89qvphzpa6ra5h3"
   },
   "stable": {
    "version": [
@@ -26381,6 +26399,21 @@
    ],
    "commit": "82fb3871f02e24b1e880770b9a3d187aab43d0f0",
    "sha256": "1q8mkf612fb4fjp8h4kbr107wn083iqfdgv8f80pcmil8y33dw9i"
+  }
+ },
+ {
+  "ename": "erc-matterircd",
+  "commit": "c74850115b5b3da103407971f40a44f22791928e",
+  "sha256": "19qrh5k26gdpg1pb2fwa8abnllpmm4r95nf5ign32qyq83d0dyh4",
+  "fetcher": "github",
+  "repo": "alexmurray/erc-matterircd",
+  "unstable": {
+   "version": [
+    20200824,
+    205
+   ],
+   "commit": "d3cd20c918888ec091e0473201908a8fcb836f4a",
+   "sha256": "1bjwzgad43rgdnxkrgi28fd706gh8zlys8c2xfcikhpx59lcyz14"
   }
  },
  {
@@ -32288,14 +32321,14 @@
   "repo": "wanderlust/flim",
   "unstable": {
    "version": [
-    20200303,
-    319
+    20200823,
+    2225
    ],
    "deps": [
     "apel"
    ],
-   "commit": "f303f2f6c124bc8635add96d3326a2209749437b",
-   "sha256": "08gxrpzxxfgbxznvpj00bjvh8l7afg2h2vaj6iasis9724f3mgl6"
+   "commit": "e73b6cee17825e45702b64015ef16b9616d84fd5",
+   "sha256": "1sbb9bbgf703p9yh7gw7rypzznn8cgylkavljrmih8nv7wr656l0"
   }
  },
  {
@@ -38886,8 +38919,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "1ce4d1c0781b1925912704f3385128433f46d07c",
-   "sha256": "0cr17rb3nwjxb23hcgbxavj45b11y236i2319xr5ik2yhxqcb8r1"
+   "commit": "13c30db3ecd6d7f23e56615a65095a612a9f9acb",
+   "sha256": "1glcls816x1li298i9zggzf8zbg5d3y0x3xphbi6k7v9qd124ghk"
   },
   "stable": {
    "version": [
@@ -45138,8 +45171,8 @@
    "deps": [
     "helm"
    ],
-   "commit": "d7e0c1814299fc0e345e159f02733cee5277716e",
-   "sha256": "07767jm0wqnn4qavnvnsf6wzfsvsk5bfba2sm16l5036sj4dyjxn"
+   "commit": "844e775c1b9e70dbb2d4847b2dc633a739c9f7e7",
+   "sha256": "1vqas0jwcq15vjayz3xs591dwv287rkn1ffxihsjqzry16kdy8ix"
   },
   "stable": {
    "version": [
@@ -52885,13 +52918,13 @@
    "version": [
     0,
     2,
-    4
+    5
    ],
    "deps": [
     "f"
    ],
-   "commit": "9113d9452a9a879dc0e503f35e8c1fb4d44d9b64",
-   "sha256": "0gvr758kbfxcvrcwkvf8msibwbfqfp44zl99s7ls0gi81pgzwryj"
+   "commit": "c550c9bbb486eecd9993875adffee6c4436d5444",
+   "sha256": "02yw76m1ifzj727s4b3zfhdca1sf8jciys83q5hzfqanzzczh1nl"
   }
  },
  {
@@ -60733,8 +60766,8 @@
   "repo": "emacs-lsp/lsp-ui",
   "unstable": {
    "version": [
-    20200816,
-    841
+    20200823,
+    2314
    ],
    "deps": [
     "dash",
@@ -60742,8 +60775,8 @@
     "lsp-mode",
     "markdown-mode"
    ],
-   "commit": "c39ae3713f95a2d86e11fd1f77e89a671d08d18a",
-   "sha256": "033ah4mz3pa6da3xdn6yk3lmkv6lanpj07b0icf30c6bp7rmk3il"
+   "commit": "5e850c23b402b215d212703e00ed097369f28ecd",
+   "sha256": "1b5i07d65zv56qn1v5mwp6d8iad2if4rmc5iz5h0hq8bxb50jbk6"
   },
   "stable": {
    "version": [
@@ -68382,8 +68415,8 @@
     20200822,
     1223
    ],
-   "commit": "68bff37dd75eacdc6c041a7d40260d2be1289571",
-   "sha256": "162xgmi9jhqab2f00bppq8mb1g9zh134z5s073nm6iikajf0j2m4"
+   "commit": "a623f6b50a8c794fc99964bbbc27d8c70536a102",
+   "sha256": "0pr64y636l122i8bnb9as7xzbhmvzfjc4y0brq0yai1wj3d1cd2v"
   },
   "stable": {
    "version": [
@@ -76293,14 +76326,14 @@
   "repo": "0x60df/ox-qmd",
   "unstable": {
    "version": [
-    20200813,
-    408
+    20200824,
+    49
    ],
    "deps": [
     "org"
    ],
-   "commit": "8c3d8ce2a21044fc85e5e4e06be0220900d7ba4f",
-   "sha256": "1j6zmjy3s2l2wj500q9i75xd3hf8wlh04ycmmad45swrkgp70f2s"
+   "commit": "de5c8b45249b4e21c0cdd291b982273c53a6df38",
+   "sha256": "0vkddaq4hkivb1qbp6r3mb8q6kcivm8yc1bbagzjwphzrzs7w5ci"
   }
  },
  {
@@ -83787,14 +83820,14 @@
   "repo": "tumashu/pyim-wbdict",
   "unstable": {
    "version": [
-    20200331,
-    542
+    20200824,
+    17
    ],
    "deps": [
     "pyim"
    ],
-   "commit": "daa223e2603a5ef3e6c8e33575d8f4e4604a8d3c",
-   "sha256": "0inl29fa2l5grn6z2wszj43bv17yf7n9x8l77zk2xp8q3gkswd86"
+   "commit": "1d18fca467c33d43745f5c077644911f148041e2",
+   "sha256": "0fl600danigf5szslvyfq8w8zkcp4kgwjiyn4fi1mpb504lv0j8h"
   },
   "stable": {
    "version": [
@@ -89439,14 +89472,14 @@
   "repo": "wanderlust/semi",
   "unstable": {
    "version": [
-    20200818,
-    1252
+    20200822,
+    849
    ],
    "deps": [
     "flim"
    ],
-   "commit": "10897f024fd9282c73385d24514cc4b57fe193db",
-   "sha256": "14d4j17l0ngg6fp00mf2zgyz6989cx9n5n3za7ifcfr8gjbbn7gp"
+   "commit": "96de09f43fd0041e386fc0096e80180ea0c27d53",
+   "sha256": "1aiwkmb1z7ggf6bzq4rlvrl20r4az1kkv6pr7sr19mwbyzbs3kx6"
   }
  },
  {
@@ -97684,8 +97717,8 @@
     20200212,
     1903
    ],
-   "commit": "f38c234811aea68e19f622b154af1f59ceeef341",
-   "sha256": "0y76ghr76hvfk3yw4751qigc5r6niy765ap52kbikp8f4vjgx4h9"
+   "commit": "5d84040f3fe307e97f936d94627c93d86d84d747",
+   "sha256": "1zxnghcviddbpwnyhz07iifwg5rx9n8c7dcq4ijym7n76xcczkdr"
   },
   "stable": {
    "version": [
@@ -102752,14 +102785,14 @@
   "repo": "wanderlust/wanderlust",
   "unstable": {
    "version": [
-    20200124,
-    858
+    20200822,
+    850
    ],
    "deps": [
     "semi"
    ],
-   "commit": "7af0d582cd48a37469e0606ea35887740d78c8b5",
-   "sha256": "08gr4q5i4z1bs5qbfxmf9imjin1v1qvsk7x37qvr84p16kdr9vxn"
+   "commit": "68bcf3d8a99cc7778e8e9968b8d4ce5256a6cdad",
+   "sha256": "1b02bjhq2219n0w8wkh9cdfbgcd3pq6i2cv8xb3sa15z9diqfww6"
   }
  },
  {
