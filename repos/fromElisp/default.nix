@@ -543,8 +543,8 @@ let
   # `state.acc`.
   parseOrgModeBabel = text:
     let
-      matchBeginCodeBlock = mkMatcher "(#[+][bB][eE][gG][iI][nN]_[sS][rR][cC])([[:blank:]]+).*" orgModeBabelCodeBlockHeaderMaxLength;
-      matchHeader = mkMatcher "(#[+][hH][eE][aA][dD][eE][rR][sS]?:)([[:blank:]]+).*" orgModeBabelCodeBlockHeaderMaxLength;
+      matchBeginCodeBlock = mkMatcher "(#[+][bB][eE][gG][iI][nN]_[sS][rR][cC])([[:space:]]+).*" orgModeBabelCodeBlockHeaderMaxLength;
+      matchHeader = mkMatcher "(#[+][hH][eE][aA][dD][eE][rR][sS]?:)([[:space:]]+).*" orgModeBabelCodeBlockHeaderMaxLength;
       matchEndCodeBlock = mkMatcher "(#[+][eE][nN][dD]_[sS][rR][cC][^\n]*).*" orgModeBabelCodeBlockHeaderMaxLength;
 
       matchBeginCodeBlockLang = match "([[:blank:]]*)([[:alnum:]][[:alnum:]-]*).*";
@@ -558,9 +558,11 @@ let
           endCodeBlock = matchEndCodeBlock rest;
           language = matchBeginCodeBlockLang rest;
           flags = matchBeginCodeBlockFlags rest;
+
+          force = expr: seq state.pos (seq state.line expr);
         in
           if state.skip > 0 then
-            state // {
+            state // force {
               pos = state.pos + 1;
               skip = state.skip - 1;
               line = if char == "\n" then state.line + 1 else state.line;
@@ -582,12 +584,12 @@ let
             }
           else if state.readLanguage then
             if language != null then
-              state // seq state.line {
+              state // {
                 block = state.block // {
                   language = elemAt language 1;
                 };
                 pos = state.pos + 1;
-                skip = foldl' (total: string: total + (stringLength string)) 0 language;
+                skip = (foldl' (total: string: total + (stringLength string)) 0 language) - 1;
                 leadingWhitespace = false;
                 readLanguage = false;
                 readFlags = true;
@@ -619,7 +621,7 @@ let
                     flags =
                       (foldl'
                         parseFlag
-                        { acc = state.block.flags or {};
+                        { acc = state.block.flags;
                           flag = null;
                           inherit (state) line;
                         }
@@ -628,24 +630,43 @@ let
                   };
                   pos = state.pos + 1;
                   skip = (stringLength flags) - 1;
-                  leadingWhitespace = false;
+                  line = if char == "\n" then state.line + 1 else state.line;
+                  leadingWhitespace = char == "\n";
                   readFlags = false;
                 }
             else throw "Arguments malformed for code block on line ${toString state.line}!"
           else if char == "#" && state.leadingWhitespace && endCodeBlock != null then
             state // {
               acc = state.acc ++ [ state.block ];
-              block = {};
+              block = {
+                language = null;
+                body = "";
+                flags = {};
+              };
               pos = state.pos + 1;
               skip = (stringLength endCodeBlock) - 1;
               leadingWhitespace = false;
               readBody = false;
             }
-          else
-            state // {
-              ${if state.readBody then "block" else null} = state.block // {
-                body = state.block.body or "" + char;
+          else if state.readBody then
+            let
+              mod = state.pos / 100;
+              newState = {
+                block = state.block // {
+                  body = state.block.body + char;
+                };
+                inherit mod;
+                pos = state.pos + 1;
+                line = if char == "\n" then state.line + 1 else state.line;
+                leadingWhitespace = char == "\n" || (state.leadingWhitespace && elem char [ " " "\t" "\r" ]);
               };
+            in
+              if mod > state.mod then
+                state // seq state.block.body (force newState)
+              else
+                state // newState
+          else
+            state // force {
               pos = state.pos + 1;
               line = if char == "\n" then state.line + 1 else state.line;
               leadingWhitespace = char == "\n" || (state.leadingWhitespace && elem char [ " " "\t" "\r" ]);
@@ -654,10 +675,15 @@ let
       (foldl'
         parseToken
         { acc = [];
+          mod = 0;
           pos = 0;
           skip = 0;
           line = 1;
-          block = {};
+          block = {
+            language = null;
+            body = "";
+            flags = {};
+          };
           leadingWhitespace = true;
           readLanguage = false;
           readFlags = false;
