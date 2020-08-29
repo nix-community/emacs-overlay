@@ -10384,8 +10384,8 @@
   "repo": "contrapunctus-1/chronometrist",
   "unstable": {
    "version": [
-    20200816,
-    1947
+    20200828,
+    530
    ],
    "deps": [
     "anaphora",
@@ -10394,8 +10394,8 @@
     "seq",
     "ts"
    ],
-   "commit": "5d337866138ffd017fbcd275d024c5f825003064",
-   "sha256": "01hkmk5xrfvxq86m4kbgh8syn3mims0l8i1vmhzfxgam32j2f1wh"
+   "commit": "a6dd81a8bc4873cb201f9728090140edb882364d",
+   "sha256": "1h63zg96qqmpnlsdyqclm6qsw6xa128aa6ni85vdgfr75nxir1p1"
   },
   "stable": {
    "version": [
@@ -17041,7 +17041,7 @@
   "unstable": {
    "version": [
     20200828,
-    629
+    2020
    ],
    "deps": [
     "bui",
@@ -17053,8 +17053,8 @@
     "posframe",
     "s"
    ],
-   "commit": "5b1877ffb520a2a0bc4ff8823634e088b4a3e8ea",
-   "sha256": "0daa3527ddvhg95kj12vapvmq2z7qg10lpw62z1q1f0zn3b1zvkr"
+   "commit": "0efec07194cd88f75a91cfe48e88022997e64ec5",
+   "sha256": "16azcd0k2ly29fpc13kx2jvjjhnzvgf64dlj9nma5qjla0ak7k99"
   },
   "stable": {
    "version": [
@@ -34512,14 +34512,14 @@
   "repo": "msherry/flycheck-pycheckers",
   "unstable": {
    "version": [
-    20200807,
-    610
+    20200828,
+    1814
    ],
    "deps": [
     "flycheck"
    ],
-   "commit": "055830b67cd0f0d7196a5b71bd5cce3197a557a7",
-   "sha256": "1zw6993a8l7yf3j8dbagmj051m1z8cdax2pzm0l2p2dxvkm0h4s2"
+   "commit": "e8ce874eea4bba13aead8eb8e0262e94fb51f25e",
+   "sha256": "0i98viqm5plifaw3qdf2sxnk70l32qnkr82gl6j561vqhycxjq40"
   },
   "stable": {
    "version": [
@@ -38907,16 +38907,16 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20200701,
-    2112
+    20200828,
+    1753
    ],
    "deps": [
     "dash",
     "transient",
     "with-editor"
    ],
-   "commit": "99adeff9fcea17eb0f2066f2c22ef938aec10401",
-   "sha256": "1g27m6glgazk333a2jqpi1fa88ml1x270k1d6kjhs5z4cdikdy0h"
+   "commit": "b8b9185fa581607ad0813f686ca412a37fca5f88",
+   "sha256": "1hrhmdsqhm6703p5bkj8gl13sig3gzsgcia62bvy0yb580i93pps"
   },
   "stable": {
    "version": [
@@ -41686,8 +41686,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "997c073964418dbd7e71928141dd5da79b18867b",
-   "sha256": "1bdvrxfspv30s45m698c0xhakp24s6055nh3pq6pv5diip363jh5"
+   "commit": "a213cb6ad58bd2e27cabecb2d0f27cca731cfbc4",
+   "sha256": "0xrlszyqwpp1nf9v76qsmm8fn55iwj0v3zg39yrnivpl161mif5c"
   },
   "stable": {
    "version": [
@@ -49667,16 +49667,16 @@
   "repo": "thanhvg/emacs-howdoyou",
   "unstable": {
    "version": [
-    20200827,
-    2157
+    20200828,
+    1909
    ],
    "deps": [
     "org",
     "promise",
     "request"
    ],
-   "commit": "6c4dbd71a94e01040c29fce892aeeecb9e209e9c",
-   "sha256": "1601d507iypz0pa5q5875abavqljc9c1mb59lmlvrl6hwyz1hl6n"
+   "commit": "e6b761efa16728fe92a7db323c80805cfa1509eb",
+   "sha256": "0c875qklhkgrmsdsq1srf7l222vkyi49pahbwvj7hsry0gkb2p4h"
   }
  },
  {
@@ -61211,8 +61211,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20200825,
-    1251
+    20200828,
+    1757
    ],
    "deps": [
     "async",
@@ -61221,8 +61221,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "99adeff9fcea17eb0f2066f2c22ef938aec10401",
-   "sha256": "1g27m6glgazk333a2jqpi1fa88ml1x270k1d6kjhs5z4cdikdy0h"
+   "commit": "b8b9185fa581607ad0813f686ca412a37fca5f88",
+   "sha256": "1hrhmdsqhm6703p5bkj8gl13sig3gzsgcia62bvy0yb580i93pps"
   },
   "stable": {
    "version": [
@@ -61568,8 +61568,8 @@
     "libgit",
     "magit"
    ],
-   "commit": "99adeff9fcea17eb0f2066f2c22ef938aec10401",
-   "sha256": "1g27m6glgazk333a2jqpi1fa88ml1x270k1d6kjhs5z4cdikdy0h"
+   "commit": "b8b9185fa581607ad0813f686ca412a37fca5f88",
+   "sha256": "1hrhmdsqhm6703p5bkj8gl13sig3gzsgcia62bvy0yb580i93pps"
   }
  },
  {
@@ -61723,8 +61723,8 @@
    "deps": [
     "dash"
    ],
-   "commit": "99adeff9fcea17eb0f2066f2c22ef938aec10401",
-   "sha256": "1g27m6glgazk333a2jqpi1fa88ml1x270k1d6kjhs5z4cdikdy0h"
+   "commit": "b8b9185fa581607ad0813f686ca412a37fca5f88",
+   "sha256": "1hrhmdsqhm6703p5bkj8gl13sig3gzsgcia62bvy0yb580i93pps"
   },
   "stable": {
    "version": [
@@ -97711,8 +97711,8 @@
     20200212,
     1903
    ],
-   "commit": "7f7fb182e43b5d9842767ab33a46e39eca94cbdd",
-   "sha256": "0jhqf3i1ffzh68pnzklnc905z932vp6hmd0j06cg85dm98a9bn7g"
+   "commit": "cc04af29262dd3675beb2b8b447877259111db86",
+   "sha256": "1995nsayxv9xp8a6yy5bgwddj4r3vqxfp2zylirig14q9qvfyqxh"
   },
   "stable": {
    "version": [
@@ -98176,10 +98176,10 @@
   "unstable": {
    "version": [
     20200828,
-    809
+    2244
    ],
-   "commit": "a11b2caa8817566073152cb629ecde132677e3ca",
-   "sha256": "01nmgav1hpbya5dkw7zxg6fdkrxfm09bzh0qxyc1wl44w1q9046v"
+   "commit": "78cf5c96d91838ab245638692ec3955653e31f5d",
+   "sha256": "1ianl84jwyq3rf97dnggkpy718v0q69ndlv7vqyk6ynp4hismgcw"
   }
  },
  {
