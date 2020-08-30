@@ -294,7 +294,7 @@
           license = lib.licenses.free;
         };
       }) {};
-    bbdb = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    bbdb = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "bbdb";
         ename = "bbdb";
@@ -303,7 +303,7 @@
           url = "https://elpa.gnu.org/packages/bbdb-3.2.tar";
           sha256 = "1p56dg0mja2b2figy7yhdx714zd5j6njzn0k07zjka3jc06izvjx";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/bbdb.html";
           license = lib.licenses.free;
@@ -1070,10 +1070,10 @@
       elpaBuild {
         pname = "eldoc";
         ename = "eldoc";
-        version = "1.8.0";
+        version = "1.9.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eldoc-1.8.0.el";
-          sha256 = "1zxy9x9a0yqwdi572jj04x9lyj3d87mpyfbn3092a5nqwc864k9w";
+          url = "https://elpa.gnu.org/packages/eldoc-1.9.0.el";
+          sha256 = "0y6xrf1m4949d9k5mbqhb1w6zga5k71zazvbay6af70gz8k447cg";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3420,10 +3420,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.4.4.1";
+        version = "2.4.4.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.4.4.1.tar";
-          sha256 = "0jayd75yscaqvg6y0m6g2mgbjswyj5gqdij2az9g0j18vm5vbqy3";
+          url = "https://elpa.gnu.org/packages/tramp-2.4.4.2.tar";
+          sha256 = "16c8x5d803hjql0z88lidyx3zrhxlpjphdpzn3ppzz3wrsxsv8rf";
         };
         packageRequires = [ emacs ];
         meta = {
