@@ -10392,8 +10392,8 @@
     "seq",
     "ts"
    ],
-   "commit": "a6dd81a8bc4873cb201f9728090140edb882364d",
-   "sha256": "1h63zg96qqmpnlsdyqclm6qsw6xa128aa6ni85vdgfr75nxir1p1"
+   "commit": "e08a3c6d8789c84feb0091bffb50fe788cf4f9c4",
+   "sha256": "06kz576ndczj2r4zz6cmk7p8laqvjimj677gv89mj4a2hzh487ph"
   },
   "stable": {
    "version": [
@@ -22879,8 +22879,8 @@
     20200107,
     2333
    ],
-   "commit": "1bab6f758e5040c53f18fb675420f800a4fb5b20",
-   "sha256": "1zm7jbhrwx5d0x2fnlw7ywbvhv18ybw0887hs5z5x0kq48cwv59y"
+   "commit": "f5e363da59419610a41b5e635b31699b0e71bdfb",
+   "sha256": "079sq79qcx2fy4jd8bldgqb3xdk4r2j52d598dszzqsyl98prq3l"
   },
   "stable": {
    "version": [
@@ -28622,15 +28622,15 @@
   "repo": "syl20bnr/evil-iedit-state",
   "unstable": {
    "version": [
-    20200820,
-    1258
+    20200830,
+    617
    ],
    "deps": [
     "evil",
     "iedit"
    ],
-   "commit": "f5573ddefc03309037bd98c4c649d517f4f8d659",
-   "sha256": "1i4kq34kghabkx0mp0asw2d0ybrrlv2ps50h8mgkm20sm5ha9lbh"
+   "commit": "30fcfa96ceebed0191337c493f5c2efc8ae090ad",
+   "sha256": "0aqwjd7pmzxf7l768vyqqgjzmqdwlpznh30w5bdr7yh79r6xm6n1"
   },
   "stable": {
    "version": [
@@ -50182,11 +50182,11 @@
   "repo": "Riyyi/emacs-hybrid-reverse",
   "unstable": {
    "version": [
-    20200829,
-    17
+    20200830,
+    331
    ],
-   "commit": "8d53338d6e9222afb9b028686af292e82b8a729b",
-   "sha256": "0laj1zjv9bsn8i5h8sr88a4wxhp9vv4hv4cj306a3hjcpfj8ilxh"
+   "commit": "ed17a2c72856c3bb171130a7c86f612664193211",
+   "sha256": "1is3iwbjc1x0j6xysnb5shvk0wmllplyp0s36mp8mcq8w4s6n3p2"
   }
  },
  {
@@ -60513,8 +60513,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "9643c2365f888182cfa4089f24fe2340a6502f39",
-   "sha256": "1fds1kxc63h47ddhd8h23k0vnwpihmb73aiagxz1vfamvcbj5479"
+   "commit": "1185a48556dd2123a44d485104b5a47a177eeb1f",
+   "sha256": "0wk2ccbbk8zgjmdj6bpkqhdcspfx5s2qbr9f0rwwcvcychk95jyi"
   },
   "stable": {
    "version": [
@@ -64926,11 +64926,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20200828,
-    611
+    20200830,
+    518
    ],
-   "commit": "29c21b4a8146ae5d43cb3418480d307616dc2d8b",
-   "sha256": "1g7g31bjgnsbyh9hasm9rxfgv24qy6mwbcx3plpz9f4x677dmba9"
+   "commit": "9d24de9b8b462b8ff1d4070a9f9b404eac828d46",
+   "sha256": "1k4q5ax3kpks50wcxgmhgb1prfr6wm0mj7bj1waqsy093xcbr3pg"
   },
   "stable": {
    "version": [
@@ -64950,11 +64950,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20200828,
-    611
+    20200830,
+    518
    ],
-   "commit": "29c21b4a8146ae5d43cb3418480d307616dc2d8b",
-   "sha256": "1g7g31bjgnsbyh9hasm9rxfgv24qy6mwbcx3plpz9f4x677dmba9"
+   "commit": "9d24de9b8b462b8ff1d4070a9f9b404eac828d46",
+   "sha256": "1k4q5ax3kpks50wcxgmhgb1prfr6wm0mj7bj1waqsy093xcbr3pg"
   },
   "stable": {
    "version": [
@@ -88748,11 +88748,11 @@
   "repo": "openscad/openscad",
   "unstable": {
    "version": [
-    20200628,
-    2256
+    20200830,
+    301
    ],
-   "commit": "bd7f5422c220ca86310000b8456978987d809a48",
-   "sha256": "0yj7svfqh01kly9f5af6w2szkbn8lyc5mw1fkh19kchnn4bn5iin"
+   "commit": "aa43490a2b0085a6b32f2d8a1a6ded8de2a3a11b",
+   "sha256": "0vd61am22frcnarif1xgd1flk56jv46xwpmh8b17w11x3wmbpr6p"
   }
  },
  {
@@ -99785,6 +99785,14 @@
   }
  },
  {
+  "ename": "twtxt",
+  "commit": "4627ee00b9439d9dac9971ad1060af4bcf31446c",
+  "sha256": "0fpq3nz30v0g355xq0pcwf8iqykvn9af1wdx76v5fgzimlrpwy7l",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "deadblackclover/twtxt-el"
+ },
+ {
   "ename": "typescript-mode",
   "commit": "94455323364d5a6b00e2786d577134eb350826b4",
   "sha256": "1abnik2dq0zfnp8pk8x6zy962qww78xadm87xyiwz17559g88d82",
@@ -102528,6 +102536,14 @@
    "commit": "7f762d216fc7311bac4182f650e0207574c29357",
    "sha256": "0nz3qcd2jmjfky0xn62fkhnxchf9nap3li5blis0jgi6igj47ykq"
   }
+ },
+ {
+  "ename": "vtm",
+  "commit": "4e4f8793e78e488db863ddfc163390281c18e2c3",
+  "sha256": "1r1nyzcqx9gjmsh0qykmbc69gdn2k6rbzbsvb5rhrlxivl9pgajc",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "laishulu/emacs-vterm-manager"
  },
  {
   "ename": "vue-html-mode",
