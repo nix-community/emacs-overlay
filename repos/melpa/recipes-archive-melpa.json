@@ -12722,11 +12722,11 @@
   "repo": "company-mode/company-mode",
   "unstable": {
    "version": [
-    20200829,
-    2219
+    20200831,
+    2016
    ],
-   "commit": "e1726c46f042adac1dc4ecf5066df6a336fbaf1d",
-   "sha256": "00jg8cgxchf65gwkskmf16d3axcmi0i3w0js7pvmdq87rrm7b61n"
+   "commit": "0edc87d423b83c707e6c708f421d96f4d198803d",
+   "sha256": "0wssjng8hr9h1qsb2dmy11kzj7sl0fq8ycpf88dq93ihk0snjnlm"
   },
   "stable": {
    "version": [
@@ -17039,8 +17039,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20200829,
-    621
+    20200831,
+    1957
    ],
    "deps": [
     "bui",
@@ -17052,8 +17052,8 @@
     "posframe",
     "s"
    ],
-   "commit": "1f5ed3238b95f834874e2da8d99e68b88ff0eda4",
-   "sha256": "1pdhdajnb7mqc1k8n97bynh7sim7ay8r9gbql1ssmvckx1cwvnfk"
+   "commit": "9b982249f489838ec8f7444fd503e4ab8428b0b5",
+   "sha256": "1rqa77xva96ksfml2h4vk8c0bq36s06pa1h9vysrhw4hrnv7643s"
   },
   "stable": {
    "version": [
@@ -57255,15 +57255,16 @@
   "unstable": {
    "version": [
     20200831,
-    1646
+    2022
    ],
    "deps": [
     "dash",
     "s",
-    "transient"
+    "transient",
+    "yaml-mode"
    ],
-   "commit": "49c39a986306347609ff4a00a9d145244f8967fd",
-   "sha256": "1xvpcv7vvfvb73iwnxnajprawr12i4qik074p5hr6myzb5sz9nya"
+   "commit": "1075b5d021cf20593ba10c55bcd8f8c0c29e5150",
+   "sha256": "11by4h7s31vwk0mv3as2r7jyajjann6qdcy65spiqf9asfzddhpy"
   },
   "stable": {
    "version": [
@@ -57289,8 +57290,8 @@
     "evil",
     "kubel"
    ],
-   "commit": "49c39a986306347609ff4a00a9d145244f8967fd",
-   "sha256": "1xvpcv7vvfvb73iwnxnajprawr12i4qik074p5hr6myzb5sz9nya"
+   "commit": "1075b5d021cf20593ba10c55bcd8f8c0c29e5150",
+   "sha256": "11by4h7s31vwk0mv3as2r7jyajjann6qdcy65spiqf9asfzddhpy"
   },
   "stable": {
    "version": [
@@ -81304,8 +81305,8 @@
     "yafolding",
     "yasnippet"
    ],
-   "commit": "c1e3eac3f97cdc08f5dde03c04eaf93ad21ee566",
-   "sha256": "1prjmrjdpanb6m6x0z99ymxricsh4dlacvbj5ls5d02lvpq7a9na"
+   "commit": "7446481dc65f903291c98bb2c8bb86056cd58840",
+   "sha256": "1sjrp4qvll1jfzv3gdn8dwagzcav16fvf6zcvhpac0ixz3pkgkpv"
   },
   "stable": {
    "version": [
@@ -83083,8 +83084,8 @@
     20200619,
     1742
    ],
-   "commit": "ff06e23d239bd851504e936114ecc54e8997f7e3",
-   "sha256": "07zafh8lmac19rlwclw18vyrjrq3x6pgiks2kcjgaizmx92zknz7"
+   "commit": "f5bdd7cd56aa86612e166706ed8ef139db06edf2",
+   "sha256": "1ic36icc1bwyzz10xqnih0iyq9dzqf0svpjkgdaxkjlrn3k83bms"
   },
   "stable": {
    "version": [
@@ -84063,8 +84064,8 @@
     20200503,
     1624
    ],
-   "commit": "5b6844186f94e5fb4bdc63badbbf49b354912bfd",
-   "sha256": "112yavlfzqgv7qijixm187vgv1d63xxpql1mixnh27d1wiqh3wd9"
+   "commit": "2261844748be0f881719963d2fb5932dd4e4a2e2",
+   "sha256": "1lr15211ly78s4pfsxd304p9j752mnjgjyjk046s1wivi7ynlgpj"
   }
  },
  {
@@ -85104,14 +85105,14 @@
   "repo": "Raku/raku-mode",
   "unstable": {
    "version": [
-    20200524,
-    1625
+    20200831,
+    1936
    ],
    "deps": [
     "pkg-info"
    ],
-   "commit": "e0639c89a3a29e9196e298951da6c3a79fb944e8",
-   "sha256": "02zn1sm86srwdzdkhw53ll0h41a9hwh6c8lan72530zysjrm4x1i"
+   "commit": "77afbe21feaafe666d3575bbf1030e599f48e0ef",
+   "sha256": "1mbsrkav2p50jv051lzzcf8nbnvc0krc6m4h1l359hszkgmx7ik7"
   },
   "stable": {
    "version": [
@@ -85586,16 +85587,16 @@
   "repo": "realgud/realgud",
   "unstable": {
    "version": [
-    20200830,
-    2032
+    20200831,
+    2111
    ],
    "deps": [
     "load-relative",
     "loc-changes",
     "test-simple"
    ],
-   "commit": "66f22b9e54a57b882b28d4a01ddead7c3f9e96fe",
-   "sha256": "1pvb4wjd3dxrh3kzh4h8kfwcbb0pv45kf4nb2iwkkgc8jfp63z98"
+   "commit": "858b902919dfe85ca0e15f258927647a0a049da9",
+   "sha256": "02nfyq5f86fnw2ixwzxjjfnzhh29k9q2nfrvcx4n77ya3yw748d1"
   },
   "stable": {
    "version": [
@@ -95006,8 +95007,8 @@
     20200820,
     57
    ],
-   "commit": "dcb5a5c11aeb1a3ec525e82c2771f9928f62bfaa",
-   "sha256": "0sc5a1dl3151cqd6skyd8ky6f3nmr4jinnjjsdqr6scixyqci0sp"
+   "commit": "eadfacdbcb8d54d83f6f6cfe7990b492f7217453",
+   "sha256": "0xwkkzs4pl3wgjq7n43klkh814h3kzh0mwnka07dbb0gv1xmaigl"
   }
  },
  {
