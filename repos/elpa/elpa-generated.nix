@@ -2301,7 +2301,7 @@
           license = lib.licenses.free;
         };
       }) {};
-    oauth2 = callPackage ({ elpaBuild, fetchurl, lib }:
+    oauth2 = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib, nadvice }:
       elpaBuild {
         pname = "oauth2";
         ename = "oauth2";
@@ -2310,7 +2310,7 @@
           url = "https://elpa.gnu.org/packages/oauth2-0.14.el";
           sha256 = "17p10jpxkdhc43h03hbk0vn8yqw5wgl3gzyz7azr7r9s41pbyqbj";
         };
-        packageRequires = [];
+        packageRequires = [ cl-lib nadvice ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/oauth2.html";
           license = lib.licenses.free;
