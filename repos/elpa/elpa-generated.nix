@@ -2305,10 +2305,10 @@
       elpaBuild {
         pname = "oauth2";
         ename = "oauth2";
-        version = "0.14";
+        version = "0.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/oauth2-0.14.el";
-          sha256 = "17p10jpxkdhc43h03hbk0vn8yqw5wgl3gzyz7azr7r9s41pbyqbj";
+          url = "https://elpa.gnu.org/packages/oauth2-0.15.el";
+          sha256 = "0ij17g6i8d4cyzc8v6sy2qglwhzd767331gavll6d507krdh3ca3";
         };
         packageRequires = [ cl-lib nadvice ];
         meta = {
@@ -2395,10 +2395,10 @@
       elpaBuild {
         pname = "org-edna";
         ename = "org-edna";
-        version = "1.1.1";
+        version = "1.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-edna-1.1.1.tar";
-          sha256 = "1hfkdjbjnhbwb27vgs43ywl4kn2lqc037f4xppp2v0s97850za8r";
+          url = "https://elpa.gnu.org/packages/org-edna-1.1.2.tar";
+          sha256 = "1a022ssqpxbkp03n2bij78srwjx7kacpsgj9a6wbm0yn946hgjpz";
         };
         packageRequires = [ emacs org seq ];
         meta = {
