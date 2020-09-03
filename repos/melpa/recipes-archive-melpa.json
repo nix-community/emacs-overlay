@@ -17040,8 +17040,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20200902,
-    1920
+    20200903,
+    1751
    ],
    "deps": [
     "bui",
@@ -17053,8 +17053,8 @@
     "posframe",
     "s"
    ],
-   "commit": "9f026a88254624c5154d8f2361a5c4f72cb0c16f",
-   "sha256": "0g8fgghmzjzpcfna2m9fka3qwwgb97mhmr0yk8cwypw3lwq90r8q"
+   "commit": "8a84139cb86714e9e04d5be35536c694d577515b",
+   "sha256": "11z9jdpfnsk384sqirqkxksfzpdrirdpvbc3zsq736bm5vis190v"
   },
   "stable": {
    "version": [
@@ -27599,11 +27599,11 @@
   "repo": "emacs-ess/ESS",
   "unstable": {
    "version": [
-    20200825,
-    829
+    20200903,
+    1516
    ],
-   "commit": "cb75588d972b97e597c42108b3c83c2f67947cac",
-   "sha256": "1wzx5i8rr1rflacq50h86zl88m8vf8z7q18ja1wnlnbbin9r6m22"
+   "commit": "09c1adecf8406d85426d14e5efe2aaba6c59f224",
+   "sha256": "0hl8nhf8w3rfpfqb2bfzcbh4lpsk51p83w2j5fc2knd4da4sb1s5"
   },
   "stable": {
    "version": [
@@ -34509,8 +34509,8 @@
     "flycheck",
     "projectile"
    ],
-   "commit": "7d4ffda734785f87d6a74b6f34b2a4db234be114",
-   "sha256": "1466ny12df39v54b9k8fg4dp4kidwqlvir5yn6zgyii7fpg0s403"
+   "commit": "2588fb0d92f799ca720f9d16b737be44e5c864a6",
+   "sha256": "1zdcwibg3jg5m4sd8537021ak43496h813b0mjh4xzdrwinm1c62"
   }
  },
  {
@@ -43874,13 +43874,13 @@
   "unstable": {
    "version": [
     20200903,
-    821
+    1505
    ],
    "deps": [
     "helm"
    ],
-   "commit": "9db950921e6bf567fdcd6b7e889c1b4dc6852926",
-   "sha256": "0xw0sgkhwmf2807gsd1y5lf2dbczarbcp7d6cc0s4qzz39b6qg8s"
+   "commit": "9ce6b21f749bccd5012ac9cabb29d4db0436f2aa",
+   "sha256": "0sz610y3ghsrw8i2qvqxs1n3qhysjzdfdyyk5kwvnj9h05hlf78g"
   },
   "stable": {
    "version": [
@@ -60342,8 +60342,8 @@
   "repo": "emacs-lsp/lsp-java",
   "unstable": {
    "version": [
-    20200827,
-    658
+    20200903,
+    1816
    ],
    "deps": [
     "dap-mode",
@@ -60356,8 +60356,8 @@
     "request",
     "treemacs"
    ],
-   "commit": "541abcbdc4926b39cbd4c3bd4df3f1213670b01a",
-   "sha256": "0763zlsihx5z0ply3gh34ik1g3z50c7a6fhgw20dkxwn537sirxg"
+   "commit": "a2b31abdbbdf3c069f29f24d1f4ab9a75760995e",
+   "sha256": "00cf8dhcsc929hff794lx3jspgyrraczw5sd66lldcqprd1bf1s6"
   },
   "stable": {
    "version": [
@@ -60710,13 +60710,13 @@
   "unstable": {
    "version": [
     20200903,
-    609
+    1431
    ],
    "deps": [
     "lsp-mode"
    ],
-   "commit": "73f8be05d9b5314d9fae986534510c311c0e4ef8",
-   "sha256": "1qrhbjc454y73nybdpxy36lkqz9kcpab57gfvrzh7hiai56p04i1"
+   "commit": "cca3797fbe2d0fc33fc2b1e0f938bb77de521eba",
+   "sha256": "0klh69yw11qwhq67vzk66ai10c3gg90lfvbzhd185p2y7yck9mk1"
   },
   "stable": {
    "version": [
@@ -64960,8 +64960,8 @@
  },
  {
   "ename": "modus-operandi-theme",
-  "commit": "6f3291ebede304fe14240870372c0d396f43c0d9",
-  "sha256": "15rq4l14a7y6p8vhgbs017crfwyp7fq61n03xbfycq92mlx89kgx",
+  "commit": "e5d94c5aa3f058c3919c44a931c86bb2086a3171",
+  "sha256": "1i1pqg73pf6pfbgfvb126yvf5cfipsljnv0ll4zv5ma4cmq2m0z9",
   "fetcher": "gitlab",
   "repo": "protesilaos/modus-themes",
   "unstable": {
@@ -64969,8 +64969,8 @@
     20200903,
     729
    ],
-   "commit": "7c129ed5f42ab2c9a3ea54573c9b64b79521f3dd",
-   "sha256": "0iqiy66rfbah42h4wgbfmqmdkb4j45s0lwnsm2g7fzbq4286fv7q"
+   "commit": "36f765dab006a1b3255aac4d8c49eaed7aa73293",
+   "sha256": "1nyi0q6xx65zhnj6kgmk37d8dl9m5sz40h1ab71pvy09d6mmx88r"
   },
   "stable": {
    "version": [
@@ -64984,8 +64984,8 @@
  },
  {
   "ename": "modus-vivendi-theme",
-  "commit": "74909ab53df89c5b720c89527b3b4c9aec8351b9",
-  "sha256": "16bs48amvwikp4ikv8fs9zrsyz942jdzlz9ddf3qv8c9vpc5x58q",
+  "commit": "e5d94c5aa3f058c3919c44a931c86bb2086a3171",
+  "sha256": "1wzvswpvwd89vf1475zk5rnyjggkvydhimx30p7bvf9ld0ivipcf",
   "fetcher": "gitlab",
   "repo": "protesilaos/modus-themes",
   "unstable": {
@@ -64993,8 +64993,8 @@
     20200903,
     729
    ],
-   "commit": "7c129ed5f42ab2c9a3ea54573c9b64b79521f3dd",
-   "sha256": "0iqiy66rfbah42h4wgbfmqmdkb4j45s0lwnsm2g7fzbq4286fv7q"
+   "commit": "36f765dab006a1b3255aac4d8c49eaed7aa73293",
+   "sha256": "1nyi0q6xx65zhnj6kgmk37d8dl9m5sz40h1ab71pvy09d6mmx88r"
   },
   "stable": {
    "version": [
@@ -73599,8 +73599,8 @@
   "repo": "jkitchin/org-ref",
   "unstable": {
    "version": [
-    20200825,
-    1515
+    20200903,
+    1538
    ],
    "deps": [
     "dash",
@@ -73614,8 +73614,8 @@
     "pdf-tools",
     "s"
    ],
-   "commit": "7ba79c8e69f846be48bea2c60034febfbf1b8d4b",
-   "sha256": "0r7qdr454p9b7dqxhakkr75crzcf5qbs7n666gi6k5vkl8nmgmbc"
+   "commit": "341eee0832982f88310cdc119bf04c7681a01206",
+   "sha256": "1dpms95zb87d0y1pfq45nmjdi1c1vc9wlv0zbax84c4nl2nid71v"
   },
   "stable": {
    "version": [
@@ -83084,8 +83084,8 @@
     20200619,
     1742
    ],
-   "commit": "f5bdd7cd56aa86612e166706ed8ef139db06edf2",
-   "sha256": "1ic36icc1bwyzz10xqnih0iyq9dzqf0svpjkgdaxkjlrn3k83bms"
+   "commit": "0110ff565951ea52af37d6f155197048c378abe3",
+   "sha256": "04j8awpqh04z8mx50z508nla6mq0kyb2nssy3n6bvgj39ml4cw2m"
   },
   "stable": {
    "version": [
@@ -84064,8 +84064,8 @@
     20200503,
     1624
    ],
-   "commit": "2261844748be0f881719963d2fb5932dd4e4a2e2",
-   "sha256": "1lr15211ly78s4pfsxd304p9j752mnjgjyjk046s1wivi7ynlgpj"
+   "commit": "3e7e3ca443b9355cbc13467d9c3b8fa794647410",
+   "sha256": "0kfjx7qjkgc2r6pyj464sqk25qrhf447grggnjq4maswczg05l89"
   }
  },
  {
@@ -96850,15 +96850,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20200814,
-    1652
+    20200903,
+    1506
    ],
    "deps": [
     "rainbow-identifiers",
     "visual-fill-column"
    ],
-   "commit": "9594ebcb0f605e5b01bc4ec6d1bd1b6470002bc0",
-   "sha256": "0hm6yvr4ygkcycw850sd4lcwmrr49s88nhan08hal0xylzazlq24"
+   "commit": "950c1a203d66f74a98a8ec832d91fbfdb991be9f",
+   "sha256": "1vaqfg2cbffma7az1hgmlrvc99bbwz3982vkcv4ka04qi21j1csw"
   },
   "stable": {
    "version": [
@@ -97895,8 +97895,8 @@
     20200212,
     1903
    ],
-   "commit": "439f5886bc27828eb791ccb418b5154d380c6ae0",
-   "sha256": "1aply7adz6ab9aa1dhjh1dr65ssrnv2zgzd3y22n3ds60gw1yz6b"
+   "commit": "3aa6e5e8241f5e4868359eb0a35b6cd5e284cf33",
+   "sha256": "0k41sfsg9qmjgqg0z6rav5y973qz1krwm408navl9y3vk8xwx5dv"
   },
   "stable": {
    "version": [
@@ -105437,8 +105437,8 @@
   "repo": "dandavison/xenops",
   "unstable": {
    "version": [
-    20200730,
-    1646
+    20200903,
+    1447
    ],
    "deps": [
     "aio",
@@ -105449,8 +105449,8 @@
     "f",
     "s"
    ],
-   "commit": "78cbe16b74480ac6304865c9c3cfad36b5d49d1d",
-   "sha256": "1rpcckp60pw1blkxs7wlp60pvpr847b6g2rcd6p0hpf5sx9wirgv"
+   "commit": "14dd3d00a80c96df02ceac49bb80f382a124a38f",
+   "sha256": "1rqzbz85kabdzwvzngy4svhc9cmxa9cp05bj8nbd7h6dm7yjj4c4"
   }
  },
  {
