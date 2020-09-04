@@ -955,10 +955,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.6.18";
+        version = "0.6.19";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.6.18.tar";
-          sha256 = "0znbv3c7wdgak1f1zb051vg4r29fksqh53k1j77jfmqcvwkpz2mw";
+          url = "https://elpa.gnu.org/packages/ebdb-0.6.19.tar";
+          sha256 = "0ch5vzhxa8h5v75lg3blsmrln497lr3ylivx6w28aiyb6cv5016l";
         };
         packageRequires = [ cl-lib emacs seq ];
         meta = {
@@ -1070,10 +1070,10 @@
       elpaBuild {
         pname = "eldoc";
         ename = "eldoc";
-        version = "1.9.0";
+        version = "1.10.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eldoc-1.9.0.el";
-          sha256 = "0y6xrf1m4949d9k5mbqhb1w6zga5k71zazvbay6af70gz8k447cg";
+          url = "https://elpa.gnu.org/packages/eldoc-1.10.0.el";
+          sha256 = "19jpvlwa7hagkwdzgrgdfd1l8w0vy4l3wibpv62sr8ybll2fpap3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1427,10 +1427,10 @@
       elpaBuild {
         pname = "gnorb";
         ename = "gnorb";
-        version = "1.6.7";
+        version = "1.6.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gnorb-1.6.7.tar";
-          sha256 = "17pz6i51z298rk7j3rraw1gxlssn88yi4bbpzyxv9cs7y1lfy8ld";
+          url = "https://elpa.gnu.org/packages/gnorb-1.6.8.tar";
+          sha256 = "14b612s2220b6gc1gzgn7z7smsci80k4fclwqkxpbl7yl426x3qd";
         };
         packageRequires = [ cl-lib ];
         meta = {
