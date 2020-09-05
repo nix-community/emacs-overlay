@@ -3041,10 +3041,10 @@
       elpaBuild {
         pname = "seq";
         ename = "seq";
-        version = "2.20";
+        version = "2.22";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/seq-2.20.tar";
-          sha256 = "0vrpx6nnyjb0gsypknzagimlhvcvi5y1rcdkpxyqr42415zr8d0n";
+          url = "https://elpa.gnu.org/packages/seq-2.22.tar";
+          sha256 = "0zlqcbabzj8crg36ird2l74dbg5k7w1zf5iwva0h2dyvwyf9grma";
         };
         packageRequires = [];
         meta = {
@@ -3229,6 +3229,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/spinner.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    sql-beeline = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "sql-beeline";
+        ename = "sql-beeline";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/sql-beeline-0.1.el";
+          sha256 = "0z2wdvvq1zdw90253s5i57lx8b59rjf7g7isns4yz29lwav04j3r";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/sql-beeline.html";
           license = lib.licenses.free;
         };
       }) {};
