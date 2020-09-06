@@ -3296,10 +3296,10 @@
       elpaBuild {
         pname = "svg";
         ename = "svg";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/svg-1.0.el";
-          sha256 = "1hh0x7sz2rqb7zdhcm2q9knr8nnwqrsbz1zfp29k8l1318li9f62";
+          url = "https://elpa.gnu.org/packages/svg-1.1.el";
+          sha256 = "0j69xsaj0d1pnxjfb5m0yf2vxbrcmr8i3g75km4dzbha46v4xxvg";
         };
         packageRequires = [ emacs ];
         meta = {
