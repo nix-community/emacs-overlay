@@ -7,7 +7,7 @@
         version = "20200907";
         src = fetchurl {
           url = "https://orgmode.org/elpa/org-20200907.tar";
-          sha256 = "0ji2bww77cmcjr3ppflx2q82dqvhf341imj9zhq134ff05ghdpwm";
+          sha256 = "1bzj10kyaxyawv05yma2jiahwgnmhjrps7ysry8vlfxizrd7ffy6";
         };
         packageRequires = [];
         meta = {
@@ -22,7 +22,7 @@
         version = "20200907";
         src = fetchurl {
           url = "https://orgmode.org/elpa/org-plus-contrib-20200907.tar";
-          sha256 = "1f2471klf0v90irpp80413y4v6mhf9bwmrirdilk7qz2p1l6wf4z";
+          sha256 = "1rgk3pwhsmbmwlncg60ahwrrkm1ks4xpwy2wzv9q7myl1aihjj54";
         };
         packageRequires = [];
         meta = {
