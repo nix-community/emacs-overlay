@@ -2380,10 +2380,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.3.7";
+        version = "9.3.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.3.7.tar";
-          sha256 = "134idizw83g30j3px1kjiwx2bjvnjqar2hai4mgrdl0jzfpgw31f";
+          url = "https://elpa.gnu.org/packages/org-9.3.8.tar";
+          sha256 = "1az00pi9rw3ibx4061jyqr6ll27kvs99yvd7nk5dckjh0ajd0gni";
         };
         packageRequires = [];
         meta = {
@@ -3794,10 +3794,10 @@
       elpaBuild {
         pname = "which-key";
         ename = "which-key";
-        version = "3.3.0";
+        version = "3.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/which-key-3.3.0.tar";
-          sha256 = "0436hvqdn2jafgfwdr0m9mwz8k2swl661xnrkypyrwg66j9wi1qz";
+          url = "https://elpa.gnu.org/packages/which-key-3.3.2.tar";
+          sha256 = "01g5jcikhgxnri1rpbjq191220b4r3bimz2jzs1asc766w42q2gb";
         };
         packageRequires = [ emacs ];
         meta = {
