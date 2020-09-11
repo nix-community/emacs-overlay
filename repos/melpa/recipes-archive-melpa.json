@@ -22894,8 +22894,8 @@
     20200107,
     2333
    ],
-   "commit": "7173b8b2b11852683858f189dd96837b934da0fa",
-   "sha256": "0v3xdynbna7m632plqhk4k9cilaklwlzcxvnn7jxy5v5im784r7k"
+   "commit": "4ce844b683f1bdfa8afd00858b1e60aa852533a3",
+   "sha256": "0hbjqsva638bbjy6dwknfw7laiq3bb4y2d88lik0112ik288nf7p"
   },
   "stable": {
    "version": [
@@ -41909,8 +41909,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "e2761f1b2f341b698824014041de162518ebc738",
-   "sha256": "19xxmx1fzrsydyfd2zm0v76rr91hg3pd1sxh4bjxhcfjgsgr85xw"
+   "commit": "0d9937f572bc6457d300b7eadee964f53164a10d",
+   "sha256": "1vvq9x4f3768xzmmag9d2kpnfghki2ya3fc9qqpgkz1dwgp1c50m"
   },
   "stable": {
    "version": [
@@ -58786,8 +58786,8 @@
     20200905,
     1252
    ],
-   "commit": "d9d3f1590cdee2656d5ff1327b0a391e474f66cd",
-   "sha256": "1rj5i3v2zd0hbz65857n2f3jvgwxms3nbpz7zfdfnrzgvv3wpd9s"
+   "commit": "853e87db511dd19fe2ce986a9bf1e66f8d709c09",
+   "sha256": "01rdv9q7mmk5l11nz20qqgsz1g32yadf3zzs7s6gc9vl9zx0sxfa"
   },
   "stable": {
    "version": [
@@ -61662,8 +61662,8 @@
     "magit",
     "xterm-color"
    ],
-   "commit": "d988abd99882c6b89f21f2746f721a4d7ece6ad4",
-   "sha256": "1dj2kw2wzxnms4z54pk7qngylvy903jwd84x3k5ys3wsydmk4bbf"
+   "commit": "46a3d36842a9c9ba74dae44f6b0fe4e728dd55a3",
+   "sha256": "1kaa8hkr9qaz7nxp8vjwgnmycqpbjdw7v2wvarl2wxs0k61277ff"
   }
  },
  {
@@ -77742,23 +77742,26 @@
   "repo": "ajgrf/parchment",
   "unstable": {
    "version": [
-    20200812,
-    1259
+    20200910,
+    2217
    ],
    "deps": [
     "autothemer"
    ],
-   "commit": "271ab4b7d023d730e3d684a1505cc77e2d0cc14a",
-   "sha256": "138n4fs33cv2ly89cvs7lkh372kghldhw8pw18zsi39qfvggw6wm"
+   "commit": "c90665145573f5e314ede1b7df3bb732e30f4bcd",
+   "sha256": "0n6biizy3hs5xcj678ajdndjvm2kpfcg0pd73g21src6f2i45636"
   },
   "stable": {
    "version": [
     0,
-    3,
+    4,
     0
    ],
-   "commit": "b4dabed7939f8cf052c858ba29e295eee3f0ca13",
-   "sha256": "0361621f0xg786dvcw6xrfm9qkjr19cs8dkxgj8b5nq9isxyknh5"
+   "deps": [
+    "autothemer"
+   ],
+   "commit": "c90665145573f5e314ede1b7df3bb732e30f4bcd",
+   "sha256": "0n6biizy3hs5xcj678ajdndjvm2kpfcg0pd73g21src6f2i45636"
   }
  },
  {
@@ -83261,11 +83264,11 @@
   "repo": "ProofGeneral/PG",
   "unstable": {
    "version": [
-    20200623,
-    1748
+    20200911,
+    3
    ],
-   "commit": "03e427a8f19485e12b2f95387ed3e0bff7cc944c",
-   "sha256": "0ykxb4xdsxv2mja620kf61k2l18scs0jdsfsg1kzs2qf4ddjscyn"
+   "commit": "4f6b6027632f55d7a8248ae509cc6526a372ce9f",
+   "sha256": "127zgy1bm14z74c2crifjpm2q7hbs58q8pkm7bxpfl65c58xgzb3"
   },
   "stable": {
    "version": [
