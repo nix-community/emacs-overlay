@@ -985,10 +985,10 @@
       elpaBuild {
         pname = "ebdb-i18n-chn";
         ename = "ebdb-i18n-chn";
-        version = "1.3";
+        version = "1.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-i18n-chn-1.3.el";
-          sha256 = "1w7xgagscyjxrw4xl8bz6wf7skvdvk5qdcp5p7kxl4r9nhjffj20";
+          url = "https://elpa.gnu.org/packages/ebdb-i18n-chn-1.3.1.el";
+          sha256 = "02drr89i4kzjm1rs22sj0nv9sj95dmqk40xvxd75qzfn8y33k9vl";
         };
         packageRequires = [ ebdb pyim ];
         meta = {
@@ -2545,10 +2545,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.3.53";
+        version = "0.3.54";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.3.53.tar";
-          sha256 = "0hv2ng63xqcm4irwykwqsq76pcx2r2wjx6imq8b5rwww0qaj186v";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.3.54.tar";
+          sha256 = "0ahi68qghhnhx9wnzxpry33901lc1j3w26m88vkcfxpgc9haaq56";
         };
         packageRequires = [ emacs ];
         meta = {
