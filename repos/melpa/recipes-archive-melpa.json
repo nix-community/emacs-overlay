@@ -1213,10 +1213,10 @@
   "unstable": {
    "version": [
     20200912,
-    330
+    754
    ],
-   "commit": "7defe3517f2be444a1479c0a18859d78da4919a5",
-   "sha256": "0l14hd4yqyrwf5iz4g9zdy8bd9rx64yp27hywjs32wm9dssdymvm"
+   "commit": "422aaa50b6452c2399682782cbf23168ed4357c6",
+   "sha256": "1gx106znzb6wq72yixq3z8arj1hhh215yy3324shvjwgqkyc3xi8"
   },
   "stable": {
    "version": [
@@ -28419,15 +28419,15 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20200911,
-    2334
+    20200912,
+    1043
    ],
    "deps": [
     "annalist",
     "evil"
    ],
-   "commit": "82ebf715513dc30c10d50dd57945d9e12692a4cb",
-   "sha256": "1cd16iycfd4lvg80gnxjgc2rpbcz1kqa96gch2imf81bfa06p7i2"
+   "commit": "49409b38c508663eefa16f3a11ede2675fc79264",
+   "sha256": "0pfrzxynykq0vkbxngacy2nz68pg4101himal6g7cy7x2m6f13m1"
   },
   "stable": {
    "version": [
@@ -54499,14 +54499,14 @@
   "repo": "emacs-jp/japanese-holidays",
   "unstable": {
    "version": [
-    20190317,
-    1220
+    20200912,
+    1106
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "e27a8b3d4fcd382f08380a72712b3bef90594276",
-   "sha256": "0bvwyrnwfn9kjf748fr7058vnh46lpmp3gdg9rqxm3f2lypk4l4g"
+   "commit": "924409a36c043f897c50c97a94cf7fff9f909b83",
+   "sha256": "1m083vc0f3c8a4cd64nqwwr8b30bp374k9c9szw96bxxm3xg5i41"
   }
  },
  {
@@ -60746,15 +60746,15 @@
   "repo": "non-Jedi/lsp-julia",
   "unstable": {
    "version": [
-    20200831,
-    753
+    20200912,
+    1106
    ],
    "deps": [
     "julia-mode",
     "lsp-mode"
    ],
-   "commit": "72e26d0c1d34e3dd16ff6427af883bd0136015d3",
-   "sha256": "0f4zmvn13x468p6vpfixx3ghlrygdgdyx8xpb7nx232pv38156dn"
+   "commit": "11c701ac347da69b173b01d073efe0fb09f3298f",
+   "sha256": "0avx42lnc8w2mbhzv137y0p8cg6dmkwp6i0pprw8n8g9qfvxcgnx"
   },
   "stable": {
    "version": [
@@ -61172,8 +61172,8 @@
   "repo": "emacs-lsp/lsp-ui",
   "unstable": {
    "version": [
-    20200910,
-    1942
+    20200912,
+    1013
    ],
    "deps": [
     "dash",
@@ -61181,8 +61181,8 @@
     "lsp-mode",
     "markdown-mode"
    ],
-   "commit": "79ba8b2a901d079f5f65f87735329af400dfe692",
-   "sha256": "0jrbv3p84lrnpyry0q0i505grldarkc25nh8z18bkjjk23pskbvl"
+   "commit": "95c61ff355089ca1165df27d12dc9476feabfd0f",
+   "sha256": "0s7hh0j2hrpkbnx1bq0v2zg7160d9ns6gdq6ppx4s7yb48pprfzz"
   },
   "stable": {
    "version": [
@@ -63898,8 +63898,8 @@
   "repo": "skangas/mentor",
   "unstable": {
    "version": [
-    20200906,
-    1942
+    20200912,
+    633
    ],
    "deps": [
     "async",
@@ -63907,8 +63907,8 @@
     "seq",
     "xml-rpc"
    ],
-   "commit": "7707060b153f1219cff54fefbefe04deb49748ce",
-   "sha256": "12l3yfhci4nhnjkqllp73zgwh5sqfxxwhha75cyp48sg0dl0s24j"
+   "commit": "efc320e820d610c2dba3ddbb23a5f77282a6e6df",
+   "sha256": "0m9haawp3zg7wlaz7iyxrz68857pvp2f58900zrl0ka1jqszwd82"
   },
   "stable": {
    "version": [
@@ -74057,8 +74057,8 @@
   "repo": "org-roam/org-roam",
   "unstable": {
    "version": [
-    20200907,
-    214
+    20200912,
+    1130
    ],
    "deps": [
     "dash",
@@ -74068,8 +74068,8 @@
     "org",
     "s"
    ],
-   "commit": "6d0932321878bdde064b4fbe8aa9f9304dd6cb53",
-   "sha256": "0gaws093wvkc7sy8q9s6wwqrdpl3vvcz70q5cl26zh4k1xgs2751"
+   "commit": "fac0465dd81732e9bbe684a3ce63260f10e7049c",
+   "sha256": "0mfnxrsm3myqsqf6sl8swwxsnfhy48xawnbhjdchw14qlgyiv7sn"
   },
   "stable": {
    "version": [
@@ -76812,11 +76812,11 @@
   "repo": "DarkBuffalo/ox-report",
   "unstable": {
    "version": [
-    20200906,
-    642
+    20200912,
+    1110
    ],
-   "commit": "2c7b13dcc97424e5237a0e2a80738e809c9b083b",
-   "sha256": "00gzf90hihz8sp5fsxhv9b7n7qbl8y0z3afibfqggz32qldjpra3"
+   "commit": "d4641197bd5aefe24e9cd8590f6a3edf2e5aacf8",
+   "sha256": "08agggg8dk4c3l0m4kdnk05mklhh49b2pkqc3qdjrpcia0bbl0iw"
   },
   "stable": {
    "version": [
@@ -104320,8 +104320,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "d82b263b9879b790c3150fa07ebb0af28a9e8bea",
-   "sha256": "049s3l9pic3xwh1ad78dlhml0faqzqb10c7gw37jrs1zvrj98fc0"
+   "commit": "79731cbbf173dbb9dcce3457baa1056e906d98db",
+   "sha256": "0f0fayi5dmzpp0qrmjx5w0f05x3ydhv2w0gyr7d79378vxb1jc34"
   },
   "stable": {
    "version": [
