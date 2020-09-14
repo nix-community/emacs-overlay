@@ -2071,10 +2071,10 @@
       elpaBuild {
         pname = "minimap";
         ename = "minimap";
-        version = "1.3";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/minimap-1.3.el";
-          sha256 = "15azlmi6kk9pg1c4zrw952qsh9wq6ggqb4qqc84a7l67nhqb9bqp";
+          url = "https://elpa.gnu.org/packages/minimap-1.4.el";
+          sha256 = "09fm0ziy8cdzzw08l7l6p63dxz2a27p3laia2v51mvbva8177ls1";
         };
         packageRequires = [];
         meta = {
