@@ -238,6 +238,14 @@
    ],
    "commit": "262bd008921fa35e7f47ccdfe9af046c8044d92c",
    "sha256": "1g7c6c0w7w032r991acmfpsh7aisn8fb6w95f2nla1gpvx6djfjx"
+  },
+  "stable": {
+   "version": [
+    0,
+    1
+   ],
+   "commit": "449f0d688f3ee44e53f3c9b62595022c5aad8cc7",
+   "sha256": "05x8xn4ibdbfkj7908fn9jl4ga32asnzhyzz7ddfbm899vzzdqpx"
   }
  },
  {
@@ -22982,8 +22990,8 @@
     20200107,
     2333
    ],
-   "commit": "2e9bccf6e9d915adfa2b14a496d93a1d10956143",
-   "sha256": "099fhkyqcvjn37gaayiw5lkwlbbkgi466v4d0r8kjp5xzcww6giv"
+   "commit": "7a245d2765a5e5e6abbb02d163f034e41b27aef8",
+   "sha256": "1p0cswkn3ax5w0jy0f24q791sr500n8zbw40g1007fkxylga438m"
   },
   "stable": {
    "version": [
@@ -29283,13 +29291,13 @@
   "unstable": {
    "version": [
     20200913,
-    1856
+    2124
    ],
    "deps": [
     "evil"
    ],
-   "commit": "9fe0ec599c3851e023be32571b32e5c15908972a",
-   "sha256": "18rg1vcyz9x29dcnnlnza121r916vm184ynhbd4lizgjh5glv51p"
+   "commit": "72c9ae21f625cfc3730683ca2d205ea59b461e45",
+   "sha256": "1qhg7hafl058bjlq0bhzdnv6j2man4iwrc30zad21igi3rdzsb7q"
   },
   "stable": {
    "version": [
@@ -38233,9 +38241,19 @@
   "ename": "gcode-mode",
   "commit": "b7e68005a164c01004ba19c3a8c2aafe81d5f6f4",
   "sha256": "0r4say2vj2m1dwal00qjha5d0lyshv69cy05frzv6n37wva45k38",
-  "error": "Not in archive",
   "fetcher": "gitlab",
-  "repo": "wavexx/gcode-mode.el"
+  "repo": "wavexx/gcode-mode.el",
+  "unstable": {
+   "version": [
+    20200914,
+    139
+   ],
+   "deps": [
+    "cl-lib"
+   ],
+   "commit": "f9226141c924223c3c713ebd5f94974539070c48",
+   "sha256": "17g1k3ind4p524dhiji21rswgydarqvs4jk1xgmncvp2787c9vq0"
+  }
  },
  {
   "ename": "gdscript-mode",
@@ -60536,8 +60554,8 @@
   "repo": "emacs-lsp/lsp-dart",
   "unstable": {
    "version": [
-    20200908,
-    1543
+    20200914,
+    146
    ],
    "deps": [
     "dap-mode",
@@ -60548,8 +60566,8 @@
     "lsp-treemacs",
     "pkg-info"
    ],
-   "commit": "21d1126cc051ef10bde8a1b2260367f2f6610c89",
-   "sha256": "1h2pb2b6slhanfh58ff3pz6h432m4yc0krqnljw5jv9jh6l7jwfk"
+   "commit": "1889ac7477355b45756396cc9ff14a4ade211221",
+   "sha256": "021gcnqzl0vik92mclmfnzvrm51n1k9zh6d9xvxzk6p9pmdgfdxl"
   },
   "stable": {
    "version": [
@@ -75421,8 +75439,8 @@
  },
  {
   "ename": "organize-imports-java",
-  "commit": "6c2287c7b4c543e92ccfab120388b2c05174d2db",
-  "sha256": "0j4fpbzmi0mq2f493hwl94b3xmkhdcjscvbgv4dz31rw10bl4q7h",
+  "commit": "e38a261ab64a1ce897d997fcfba6f01e9ad969f0",
+  "sha256": "1m7nqw0mgyjzh0wyqkk6542ibg7d6fx6mgj21gv32js8rcnmkrmv",
   "fetcher": "github",
   "repo": "jcs-elpa/organize-imports-java",
   "unstable": {
@@ -98322,8 +98340,8 @@
     20200212,
     1903
    ],
-   "commit": "007ab0fe3c42eace6d073f864a44fc628de2ee28",
-   "sha256": "12qlv9lfc48z2c7b0fsv5z79yf5z9kwzarrn0a4w8v50fy97lbzk"
+   "commit": "aed460488f939179da73da42afa781ff2d6bb584",
+   "sha256": "188f84xf2zn96hfpv4vjy1g13s47ac7wni8r2mdb0h9j5r3r511s"
   },
   "stable": {
    "version": [
