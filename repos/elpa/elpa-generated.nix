@@ -328,10 +328,10 @@
       elpaBuild {
         pname = "bluetooth";
         ename = "bluetooth";
-        version = "0.1.2";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bluetooth-0.1.2.el";
-          sha256 = "1vp2vpyq0ybjni35ics1mg1kiwgvc7x12dlmvygy78sqp52sfkcv";
+          url = "https://elpa.gnu.org/packages/bluetooth-0.2.el";
+          sha256 = "1dq04p6ms0zx4awlypp4crkz7dzal4xg8ac7p8fqacz196rczssp";
         };
         packageRequires = [ dash emacs ];
         meta = {
