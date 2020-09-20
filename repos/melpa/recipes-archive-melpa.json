@@ -10088,14 +10088,14 @@
   "repo": "damon-kwok/chapel-mode",
   "unstable": {
    "version": [
-    20200913,
-    314
+    20200920,
+    501
    ],
    "deps": [
     "hydra"
    ],
-   "commit": "4e73bc98c9a2b844cb75322afa086f3c3f9b456f",
-   "sha256": "1663lql5awm6b0nm74c9rmxldb6lvpzlqdjdwb29sc8ilzxqnpdi"
+   "commit": "a99319a43b0a2bf9621a1f61a519ea102ec65783",
+   "sha256": "0p91lwm2bymx5yw2ni0b0iaxmy26mnwvg6g6xp9yaxnr477q5wkn"
   },
   "stable": {
    "version": [
@@ -11903,8 +11903,8 @@
     20190710,
     1319
    ],
-   "commit": "a37c0a543aac4d1a0cd817fa60948b7974b27bc3",
-   "sha256": "0jg6h9jf29mb0xf3r8bkifxq8cjkhvhmakfj2q7812m7irjlxxf0"
+   "commit": "39a5c0c82c2041a622bcdf19fa3f22abc34b9ae8",
+   "sha256": "0z4k69q2pxxhbf8bharcd8vchdgvpnvhc8ncxxvl4947ks6n41b0"
   },
   "stable": {
    "version": [
@@ -21619,6 +21619,30 @@
    ],
    "commit": "9235c7acaa6690942e9de8b7acd1e4be0c859dc1",
    "sha256": "0fpqsm6y23anyx57gp4c6whzxrn8x03cp76iwx27c4gkq6ph1z8n"
+  }
+ },
+ {
+  "ename": "dw",
+  "commit": "8ffaf9cbc25e7f24ef605df422a3f7217b67b135",
+  "sha256": "06ckyydsn9l2pb7wi2ydw2hxsya1jcxvs072rpszxfq9vjpcawrh",
+  "fetcher": "github",
+  "repo": "integral-dw/dw-passphase-generator",
+  "unstable": {
+   "version": [
+    20200915,
+    1615
+   ],
+   "commit": "2df0332f5d4b8a81e4aa6c20c6d4ccb7b442e2ec",
+   "sha256": "1x3xas6gp4ijn6h9hqx62xw14k9h94dzw07251hsvliww8f6gd0b"
+  },
+  "stable": {
+   "version": [
+    0,
+    6,
+    0
+   ],
+   "commit": "2df0332f5d4b8a81e4aa6c20c6d4ccb7b442e2ec",
+   "sha256": "1x3xas6gp4ijn6h9hqx62xw14k9h94dzw07251hsvliww8f6gd0b"
   }
  },
  {
@@ -87876,8 +87900,8 @@
   "repo": "DogLooksGood/emacs-rime",
   "unstable": {
    "version": [
-    20200915,
-    924
+    20200920,
+    652
    ],
    "deps": [
     "cl-lib",
@@ -87885,8 +87909,8 @@
     "popup",
     "posframe"
    ],
-   "commit": "271d7e2f9fdc77b30b7136ed1a4a7e30845572ae",
-   "sha256": "10zbgj4jkb1l22mdzl7mqxjcj9xmkdq4ynfzgrab0prmdlq9dx16"
+   "commit": "f2987533b4c544756efdaa9b57803f9d7dbbccb0",
+   "sha256": "1f8l1q0q2v5bzanqxv8r86fhjh7ss7zrdjkpnj7m687xjr5ksvg5"
   },
   "stable": {
    "version": [
@@ -90131,8 +90155,8 @@
     20200909,
     1142
    ],
-   "commit": "b10739d9580e05c18672fb9e0a424ed383e85fee",
-   "sha256": "03fiac3f0ydackzg8m51ahkwgp29kkrbxkp55zvpxyjyhzpjff0p"
+   "commit": "4fafb80886c5733a8eb46e87ed67f9ed2119f238",
+   "sha256": "1yxv8xin3kkqf7l6y44ibz8d31b9k2czv9vqchp28kxj9ld1d1nr"
   },
   "stable": {
    "version": [
@@ -96185,14 +96209,14 @@
   "repo": "swift-emacs/swift-mode",
   "unstable": {
    "version": [
-    20200606,
-    730
+    20200920,
+    643
    ],
    "deps": [
     "seq"
    ],
-   "commit": "d266fbd300a1bf1592e1462ead4be093b8b68f98",
-   "sha256": "0l3i74acv1msmbfkn99mz9g73kd7j1a7j0b082vcxw6kr69476yc"
+   "commit": "7d93c75d876d600bcb2d5b694b473bca583bc008",
+   "sha256": "0xzacd6fjq2d9k4r9k98qx5my0crjsrwmhqf4kkrwp2m1klvdgz2"
   },
   "stable": {
    "version": [
@@ -98471,8 +98495,8 @@
     20200212,
     1903
    ],
-   "commit": "5a7dc15e5da6fff2192bf8c1412681bbc5d916fd",
-   "sha256": "1ly909b980xj4wy3b68qc0gkzrs93diznbvyc6g335lfsx0bhdxv"
+   "commit": "bf8fd872abb6bf788fce1e36b6f6dad2b796e501",
+   "sha256": "0pm2617gi6kczbimmgk0l5aaywsj72zqyd9rndk4w439gng8yfrj"
   },
   "stable": {
    "version": [
@@ -103238,10 +103262,10 @@
   "unstable": {
    "version": [
     20200920,
-    52
+    549
    ],
-   "commit": "0b36a1be723f86afabd9fc4dbf2c2480fa390df2",
-   "sha256": "0gx1bp24c05f9n6cnp6149ywqg5z5vx0fhskwhzml24qhda4v5f9"
+   "commit": "ee9285215da5e42ffc2d9e3108c7d0f5bc49c97e",
+   "sha256": "1rf0zg470sc1ldb771h4slkbc3gay3m6jgawlspsvygwpvpz6675"
   }
  },
  {
@@ -105834,11 +105858,11 @@
   "repo": "xahlee/xah-fly-keys",
   "unstable": {
    "version": [
-    20200913,
-    1609
+    20200920,
+    414
    ],
-   "commit": "9975204bbb537ce2e4bf33b401bf97533ddeec31",
-   "sha256": "0p4qqx1dxbrdnrjiyisw4mg8c52zvfyqbilqk9gsj3zhzgvghvn6"
+   "commit": "372c454ed95f247f9b05eec537ecb2659fe6a110",
+   "sha256": "0kicnhca315hkid0v3nf2zwn7l665hkmh5775d1h0x9dasx1f65y"
   }
  },
  {
