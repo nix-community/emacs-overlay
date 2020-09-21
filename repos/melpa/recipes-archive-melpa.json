@@ -93,6 +93,14 @@
    ],
    "commit": "1ce390483cf55a039a8bdad28d294ce068f31e75",
    "sha256": "01w4mr663jzjfznm301br96ggnlw9pz35cx2zxdpn8h1qnb1b0l6"
+  },
+  "stable": {
+   "version": [
+    1,
+    0
+   ],
+   "commit": "1ce390483cf55a039a8bdad28d294ce068f31e75",
+   "sha256": "01w4mr663jzjfznm301br96ggnlw9pz35cx2zxdpn8h1qnb1b0l6"
   }
  },
  {
@@ -7009,13 +7017,13 @@
    "version": [
     0,
     4,
-    1
+    2
    ],
    "deps": [
     "seq"
    ],
-   "commit": "3dc1cf234b78c994117d23282a895b0107e98217",
-   "sha256": "19n99dbb4lczmiqsl9qlq38i0cq9wvpg3fig1mbmpxprid03m6k6"
+   "commit": "418f9f8afe8bfc82cecec05ee17e6825c608ffe9",
+   "sha256": "0c8q5h4s94pjki1abp33ijd9422k8f7qf5ilmdvvnx99i4wnm903"
   }
  },
  {
@@ -24650,8 +24658,17 @@
     20200920,
     2132
    ],
-   "commit": "40e3771e576baa228c0cf201f2d451f95e4e000c",
-   "sha256": "01g99s6rzvidqgms6vfqs43ygps54hmywi224hwjf5vbi7h6b6cc"
+   "commit": "467a9e0ae5e4a7f9240693ec7d4c622b2123ae35",
+   "sha256": "19dgisv4819wcnds2jcrbcw18g835ifh7rvvq8df0aygqwf83hr7"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    1
+   ],
+   "commit": "3a4d5a689d409e944e39bc62b1e523ac02d84eb2",
+   "sha256": "0n3m4zf5x8m9z1plnwdrxv3a52a8imc028m6nn7spzxcnqdarwdz"
   }
  },
  {
@@ -40472,16 +40489,29 @@
   "repo": "Kinneyzhang/gkroam.el",
   "unstable": {
    "version": [
-    20200920,
-    2024
+    20200921,
+    110
    ],
    "deps": [
     "company",
     "simple-httpd",
     "undo-tree"
    ],
-   "commit": "cd08165048ca4a1061a2f025356cce507284b7d6",
-   "sha256": "07pnwz1wb9q6ljgpnafldin68rp5wwp2i8cmv7fqvvjjlc0112c1"
+   "commit": "9b5b6cfa0a597b95545c8865a5a4b6bbab95c244",
+   "sha256": "1a606rqkgmqddf39zdsbrsr4w7bxvm162ai0zp5x462wqa4axlj8"
+  },
+  "stable": {
+   "version": [
+    2,
+    2,
+    0
+   ],
+   "deps": [
+    "simple-httpd",
+    "undo-tree"
+   ],
+   "commit": "d85473b2bac7346d14a8638ed55bce40dfbc5f02",
+   "sha256": "08raynib8vz2l8kjgrgxw7854ynisr25nhhjpw63p393yh1n4slc"
   }
  },
  {
@@ -61108,8 +61138,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20200920,
-    1004
+    20200921,
+    101
    ],
    "deps": [
     "dash",
@@ -61120,8 +61150,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "b63eb98fe927bc2c0ea574b9a2f442f13beea76d",
-   "sha256": "016vw0dh4nwa1fhzp98h6z67fd5193j7ai8iqvc8dk5ni6548fzv"
+   "commit": "c01dab7acb80b08da1574cb07f729e8881771fe8",
+   "sha256": "0hda9swdnfwvhr7k3pqchfz3pnsndkkb187717a5168bhpi78q9g"
   },
   "stable": {
    "version": [
@@ -69785,16 +69815,16 @@
   "repo": "astahlman/ob-async",
   "unstable": {
    "version": [
-    20190916,
-    1537
+    20200921,
+    205
    ],
    "deps": [
     "async",
     "dash",
     "org"
    ],
-   "commit": "8dd9e6c0a4ffa2623d20d1b6a3c287224773c058",
-   "sha256": "067nbsz68y882zv9fhbs38bzx5s6zsfa76602g4qimyhn2fg07kw"
+   "commit": "16475766a5236cfa51af9fe07ec296c39eaa7f20",
+   "sha256": "0y2mx5b4gl5q525gp2zi4l0zc3qxw4dljqn4n8gdylpqvy2831gf"
   },
   "stable": {
    "version": [
@@ -73258,30 +73288,30 @@
   "repo": "ndwarshuis/org-ml",
   "unstable": {
    "version": [
-    20200910,
-    1603
+    20200921,
+    36
    ],
    "deps": [
     "dash",
     "org",
     "s"
    ],
-   "commit": "a8fa7c1648b77e9709fff54e2674d2a7e67e7638",
-   "sha256": "1j6rq2yjpb0y08bzw6q598gwj195bacwh8zfsbkmvg4gjl8s89vd"
+   "commit": "35972043d512d83ddc26bf51fa20bf2b340b38ee",
+   "sha256": "1fdcmr93jrckd7x2whyc35c72jis199kyq3a8l4f6a3h4q537rfa"
   },
   "stable": {
    "version": [
-    3,
+    4,
     0,
-    2
+    0
    ],
    "deps": [
     "dash",
     "org",
     "s"
    ],
-   "commit": "a8fa7c1648b77e9709fff54e2674d2a7e67e7638",
-   "sha256": "1j6rq2yjpb0y08bzw6q598gwj195bacwh8zfsbkmvg4gjl8s89vd"
+   "commit": "dd2605734d1bec4ca6efd8cd664dbe33a83c8058",
+   "sha256": "1fdcmr93jrckd7x2whyc35c72jis199kyq3a8l4f6a3h4q537rfa"
   }
  },
  {
@@ -98548,8 +98578,8 @@
     20200212,
     1903
    ],
-   "commit": "bf8fd872abb6bf788fce1e36b6f6dad2b796e501",
-   "sha256": "0pm2617gi6kczbimmgk0l5aaywsj72zqyd9rndk4w439gng8yfrj"
+   "commit": "53216cb40521530217db158af6c068c635af61e8",
+   "sha256": "10r4wpmphf29svz7gwiv2p6sr4f0296xipa4rnfggvn8v6xy8p8c"
   },
   "stable": {
    "version": [
@@ -103314,11 +103344,11 @@
   "repo": "laishulu/emacs-vterm-manager",
   "unstable": {
    "version": [
-    20200920,
-    549
+    20200921,
+    338
    ],
-   "commit": "ee9285215da5e42ffc2d9e3108c7d0f5bc49c97e",
-   "sha256": "1rf0zg470sc1ldb771h4slkbc3gay3m6jgawlspsvygwpvpz6675"
+   "commit": "d770fd8cff7c24688199392ad93c01485c6a9569",
+   "sha256": "1xyhwlmh7mqdhr45y63qh5k71jsgh9sj08bvwsk7znh2zgzqy954"
   }
  },
  {
