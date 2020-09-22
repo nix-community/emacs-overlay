@@ -2406,6 +2406,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    org-translate = callPackage ({ elpaBuild, emacs, fetchurl, lib, org }:
+      elpaBuild {
+        pname = "org-translate";
+        ename = "org-translate";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/org-translate-0.1.el";
+          sha256 = "0mbdgklmwq96k94p7byyf90cs321b3v2py9b2ia7h566cbjmg3fg";
+        };
+        packageRequires = [ emacs org ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-translate.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     orgalist = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "orgalist";
