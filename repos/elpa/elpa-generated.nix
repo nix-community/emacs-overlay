@@ -1636,10 +1636,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "7.1.2";
+        version = "7.1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/hyperbole-7.1.2.tar";
-          sha256 = "1bspmqnbniwr9385wh823dsr5fgch5qnlkf45s4vi0nvg8jdccp1";
+          url = "https://elpa.gnu.org/packages/hyperbole-7.1.3.tar";
+          sha256 = "0bizibn4qgxqp89fyik6p47s9hss1g932mg8k7pznn3kkhj5c8rh";
         };
         packageRequires = [ emacs ];
         meta = {
