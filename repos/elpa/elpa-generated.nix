@@ -1197,6 +1197,7 @@
                                , fsm
                                , lib
                                , nadvice
+                               , org
                                , soap-client
                                , url-http-ntlm }:
       elpaBuild {
@@ -1207,7 +1208,7 @@
           url = "https://elpa.gnu.org/packages/excorporate-0.8.3.tar";
           sha256 = "04bsbiwgfbfd501qvwh0iwyk0xh442kjfj73b3876idwj3p8alr5";
         };
-        packageRequires = [ emacs fsm nadvice soap-client url-http-ntlm ];
+        packageRequires = [ emacs fsm nadvice org soap-client url-http-ntlm ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/excorporate.html";
           license = lib.licenses.free;
