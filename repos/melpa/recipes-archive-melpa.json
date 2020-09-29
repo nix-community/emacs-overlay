@@ -10862,13 +10862,13 @@
   "unstable": {
    "version": [
     20200928,
-    1338
+    2048
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "3cb9105c512d4587ebbea5f378f761381285c8a8",
-   "sha256": "120xf7g56lcdnf95q54m8pwrmls3sp0dg7y4cjr19rf54j0hw03b"
+   "commit": "6d75cd830798cd534fa09b159f17566dd2519867",
+   "sha256": "18ac1bjpnzbjdsfirpy7g878qni53w5hr24nfpimaib6sn1d02rs"
   },
   "stable": {
    "version": [
@@ -23325,8 +23325,8 @@
   "repo": "kostafey/ejc-sql",
   "unstable": {
    "version": [
-    20200809,
-    1221
+    20200928,
+    1925
    ],
    "deps": [
     "clomacs",
@@ -23334,8 +23334,8 @@
     "direx",
     "spinner"
    ],
-   "commit": "c99825ce67c142b38a8d3edec444593e29d48b44",
-   "sha256": "0fwkaz5cacfmgchl0xyb82bqc20fbvl1kk14m5mvydhjqaam7r45"
+   "commit": "bcc682548ebcaca7bc26fdd3131aa0db9a7b18a7",
+   "sha256": "117vcxxccpyhdjjgdfmqchz9g02fpmjdijnygkbwcxr8yfig1bqv"
   },
   "stable": {
    "version": [
@@ -37943,8 +37943,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "fed5fd7c507d45c5ce3ad8192e848c5e29f8ec66",
-   "sha256": "08gn0ynxl3lm7zdmxssby6f18wawf9g6aac6dr872x9cl9yvr1pk"
+   "commit": "36b2ac97efd94119dbf0aa8618ae6c68265a43b8",
+   "sha256": "0q28cxwf0wqaqii7x189aw1278zwrkaklczgaxxhynhhvvyicqbq"
   },
   "stable": {
    "version": [
@@ -40591,11 +40591,14 @@
   "url": "https://git.launchpad.net/global-tags.el",
   "unstable": {
    "version": [
-    20200520,
-    1816
+    20200928,
+    1929
    ],
-   "commit": "4db32f497a1dde7974c332a4c1c8be6f5f6d3916",
-   "sha256": "1z29xi62jfn2jfhm6ddi3vxji7r69x59icwwpx453xmrwbz0nzdk"
+   "deps": [
+    "async"
+   ],
+   "commit": "111f134c9623723a9a4ba372caaa14288cf935d7",
+   "sha256": "0w7bwn8wvnhsx25mcdr5f991a6qgcra0kpdk7k8mpg20cfhsmdj5"
   }
  },
  {
@@ -57015,11 +57018,11 @@
   "repo": "ifosch/keepass-mode",
   "unstable": {
    "version": [
-    20200216,
-    723
+    20200928,
+    2106
    ],
-   "commit": "09dcc1da15808b5b6c22bc5d0cb4e2ba5d425ef8",
-   "sha256": "0r3aczydp6435alirl9c2gbb1a92c9mv6ibk9h57ds30z9ia31jr"
+   "commit": "f3d19b4deb14053785e660f1995994581536aecc",
+   "sha256": "1krxcsvqf9f4mi34kn2zgf82z1cai133sgpfa70f5wczqibhfg99"
   },
   "stable": {
    "version": [
@@ -58193,10 +58196,10 @@
   "unstable": {
    "version": [
     20200928,
-    912
+    2128
    ],
-   "commit": "305a4f5713059b60bdab15a085b5392ca5f8fd08",
-   "sha256": "11k677k66mfhwiww48a8spc3fcr7qb1yvyn1s0cxmqcgy5jdsiw8"
+   "commit": "67328f4c02447a0cc33b999e4fbc8df59b9f6169",
+   "sha256": "1sqycx2d3ncnvlqf5hijr5vwz5hm07infc7ha1863qjm70r9l901"
   }
  },
  {
@@ -61241,8 +61244,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "7889634aee5cba389bdcbe78656cd7c131e93544",
-   "sha256": "0qwza91pj96lm5vzrk68v071fcfd9yf5bjwy87wqq152i0sq1ln5"
+   "commit": "7adacfc8d54f27829d2e28c1245646c74967449e",
+   "sha256": "0r93cdpzqcnqx7sbr77z5wb8xc0jkr5gnz5jz06z71xr9qmrirbl"
   },
   "stable": {
    "version": [
@@ -85249,11 +85252,11 @@
   "repo": "psaris/q-mode",
   "unstable": {
    "version": [
-    20181216,
-    1747
+    20200928,
+    2038
    ],
-   "commit": "7a13fb68a0ad3d843c8cdc188cf0adb9723f42f7",
-   "sha256": "0di229ma7jr9jcck36qjrzilkbp428kkx53qs6c9xw9jhv6yklbz"
+   "commit": "36ca9f572f95a137ba0e75896c14f81bc9f73f6c",
+   "sha256": "01lm7cy00b4br9pcyskp5jff3p4gzdp8f23rgs1ssni3gglj26a5"
   }
  },
  {
@@ -98704,8 +98707,8 @@
     20200212,
     1903
    ],
-   "commit": "c4a7b56e63f471f72d483bcbc3cbb78a63b950f1",
-   "sha256": "0w5fb282z3ckz5pvmxf73sla0ckm12k6d6xz9pbcb61amvdki92h"
+   "commit": "364c852f4b61fbf21c14a5b9c30c8f55c1871589",
+   "sha256": "0xa1c57q3fp89bm8la1aifsz66kkrgr25f3v81iwgswwdhi7aasd"
   },
   "stable": {
    "version": [
@@ -99617,11 +99620,11 @@
   "repo": "jorgenschaefer/circe",
   "unstable": {
    "version": [
-    20171210,
-    2102
+    20200928,
+    2046
    ],
-   "commit": "3cb9105c512d4587ebbea5f378f761381285c8a8",
-   "sha256": "120xf7g56lcdnf95q54m8pwrmls3sp0dg7y4cjr19rf54j0hw03b"
+   "commit": "6d75cd830798cd534fa09b159f17566dd2519867",
+   "sha256": "18ac1bjpnzbjdsfirpy7g878qni53w5hr24nfpimaib6sn1d02rs"
   },
   "stable": {
    "version": [
@@ -102148,11 +102151,11 @@
   "repo": "emacsorphanage/vala-mode",
   "unstable": {
    "version": [
-    20200909,
-    2058
+    20200928,
+    2100
    ],
-   "commit": "6eeae8a631697ff087123ee43e313ff01015bdef",
-   "sha256": "0ql30hsyzinmdjgrmkh6y071jdry1hx5qpc5dr0cf9ynjhsc2v8k"
+   "commit": "57b0f495ad24c3a77edb2a2042695437c362ec8f",
+   "sha256": "0hcqxi6cvgb6pcblqkaj6mfii49bvixz0kqb6n005a64b4x8qrl1"
   }
  },
  {
