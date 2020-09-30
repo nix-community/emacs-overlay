@@ -5885,11 +5885,11 @@
   "repo": "belak/base16-emacs",
   "unstable": {
    "version": [
-    20200414,
-    2048
+    20200929,
+    2159
    ],
-   "commit": "d68512c0856f57a19cd49d1034199836352c15a0",
-   "sha256": "1h98ra53i7hc7zi9yjc6p29f70r04hivdczhw4imds13akq6j034"
+   "commit": "93b1513a9994355492314e809cdbfb0d21f1e30d",
+   "sha256": "0sw483bzm5ax07cyvjbm6qaji5m0xw4mzcgrxi5ki81i0y79x59q"
   },
   "stable": {
    "version": [
@@ -28047,14 +28047,15 @@
   "repo": "ShuguangSun/ess-view-data",
   "unstable": {
    "version": [
-    20200902,
-    44
+    20200930,
+    127
    ],
    "deps": [
+    "csv-mode",
     "ess"
    ],
-   "commit": "99ddbceaa54941a5e8438eadb0210fd16470e581",
-   "sha256": "1crbrzphs49ghkx3rv952wbdv483rwfblryv8bx8lgpxv5gkar9w"
+   "commit": "eca8329fc398097f298057a29b78e3c2cc160908",
+   "sha256": "0afka87v3r588wyhvchbsixikrkzw07pkmim4jrf5h487q8c1v5s"
   },
   "stable": {
    "version": [
@@ -53011,11 +53012,11 @@
   "repo": "ideasman42/emacs-inkpot-theme",
   "unstable": {
    "version": [
-    20200616,
-    434
+    20200929,
+    2309
    ],
-   "commit": "3e6553e9d16a1a3b063abd9343ed55fb4099420e",
-   "sha256": "0qvxlh86ljvf1lwv56x5afhcac5w62dsawhl1d69v9jnfhdr8ry2"
+   "commit": "2fee11a253439d8c05ec788b7552d3bce261af1b",
+   "sha256": "0267bp1c4f0xqrl3nddnvdirhyaksym6fcjqb4xq3mwcpwzm83sp"
   }
  },
  {
@@ -73593,8 +73594,8 @@
   "repo": "fuxialexander/org-pdftools",
   "unstable": {
    "version": [
-    20200418,
-    929
+    20200929,
+    2241
    ],
    "deps": [
     "org",
@@ -73602,8 +73603,8 @@
     "org-pdftools",
     "pdf-tools"
    ],
-   "commit": "8cc15bb8014ed1f047eecc0abd8bf447f86c0505",
-   "sha256": "173118fplpz575dcbncrjjpid2ni0acsi9130r210vl6hal7yz08"
+   "commit": "3c2b9a413eb841c781cfb49d8c343bf07aa0ad1f",
+   "sha256": "0hk6dldi7ccymypp6rrf370ccgps27yh6z53nhjbzc9phk1pkslm"
   }
  },
  {
@@ -73788,16 +73789,16 @@
   "repo": "fuxialexander/org-pdftools",
   "unstable": {
    "version": [
-    20200422,
-    1350
+    20200929,
+    2241
    ],
    "deps": [
     "org",
     "org-noter",
     "pdf-tools"
    ],
-   "commit": "8cc15bb8014ed1f047eecc0abd8bf447f86c0505",
-   "sha256": "173118fplpz575dcbncrjjpid2ni0acsi9130r210vl6hal7yz08"
+   "commit": "3c2b9a413eb841c781cfb49d8c343bf07aa0ad1f",
+   "sha256": "0hk6dldi7ccymypp6rrf370ccgps27yh6z53nhjbzc9phk1pkslm"
   }
  },
  {
@@ -95047,11 +95048,11 @@
   "repo": "srfi-explorations/emacs-srfi",
   "unstable": {
    "version": [
-    20200922,
-    1852
+    20200930,
+    138
    ],
-   "commit": "a0177f178b224f2f25ef78d2210dd4b5fc13f2cb",
-   "sha256": "0f5cs20dbywza8xp4nk422ncy4zfy0q4v29548ih6vcf0m7kxmm6"
+   "commit": "1e93d63e192254d844abc00879a315ed06ee10cb",
+   "sha256": "1csrlnw9kfgbpa48zhd5klz3mx3qrdz5kzidwlfsb4qnmx10gdb4"
   },
   "stable": {
    "version": [
@@ -96605,11 +96606,11 @@
   "repo": "dimitri/switch-window",
   "unstable": {
    "version": [
-    20200929,
-    708
+    20200930,
+    54
    ],
-   "commit": "648ff71abc164ec61e84f2af7638091a2163d3d7",
-   "sha256": "00ci8hpz97mqyswwzpfqf4fl6mxzh4ijgijw1cwaz94rgaqhnw8v"
+   "commit": "277706b863c05b3931925ee9dae8970d605bf061",
+   "sha256": "0jk803rynqf53b1j14wllxqjw6lzaj5famknbp9a5bgvknpa2zxc"
   },
   "stable": {
    "version": [
@@ -98706,8 +98707,8 @@
     20200212,
     1903
    ],
-   "commit": "64a2df1ddf822b04e98b869f47d2ffe7b0c6db5d",
-   "sha256": "17lpw63z9i5gr5914s5pgqzqrbhcafvy5imx0zcynkbgvaqqr51r"
+   "commit": "34409bffa520f93a2dfcdcc43e677521854cddde",
+   "sha256": "1j8r5jl64lbhaqyv5wd1pd1r5r0s8pcammwfaa44j4da2lwv8p79"
   },
   "stable": {
    "version": [
