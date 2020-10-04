@@ -2695,6 +2695,21 @@
   }
  },
  {
+  "ename": "amsreftex",
+  "commit": "dd75acba5595bb8238b0560f9da02ca9e5a1d949",
+  "sha256": "0mb6ibzbdpzk5mnv71h13rhazzp9bkw45kfs5c3zlwi0mjhk0mch",
+  "fetcher": "github",
+  "repo": "franburstall/amsreftex",
+  "unstable": {
+   "version": [
+    20201003,
+    2243
+   ],
+   "commit": "84d45783e7c5bbc29c238c328353fd1c27010c52",
+   "sha256": "1yjc9h4v06yrzv983s8kwaah9gml3dcqz5f0gpi8vli9vnlkzcjn"
+  }
+ },
+ {
   "ename": "amx",
   "commit": "c55bfad05343b2b0f3150fd2b4adb07a1768c1c0",
   "sha256": "1ikhjvkca0lsb9j719yf6spg6nwc0qaydkd8aax162sis7kp9fap",
@@ -19114,6 +19129,24 @@
   }
  },
  {
+  "ename": "dir-treeview",
+  "commit": "763f2c1d932d6f415fb2e0be0ef514406fa74151",
+  "sha256": "1kbmmp2ljczgg7kf4df44lmday4nnmqb62algnm1v35g8gcd9q75",
+  "fetcher": "github",
+  "repo": "tilmanrassy/emacs-dir-treeview",
+  "unstable": {
+   "version": [
+    20201003,
+    2206
+   ],
+   "deps": [
+    "treeview"
+   ],
+   "commit": "1f88a9ddda0b431c79564f91d470e8e308ed3c32",
+   "sha256": "1pxkxlpbbm4si5z8gx7lbqaw2qvf6h3qc1qxsp6s47h10nrpi9kk"
+  }
+ },
+ {
   "ename": "dircmp",
   "commit": "b146db5977003cb48bc37317f3df19b8a8c7fc30",
   "sha256": "0cnj7b0s8vc83sh9sai1cldw54krk5qbz1qmlvvd1whryf2pc95c",
@@ -24095,15 +24128,15 @@
   "repo": "fasheng/elfeed-protocol",
   "unstable": {
    "version": [
-    20200820,
-    505
+    20201004,
+    156
    ],
    "deps": [
     "cl-lib",
     "elfeed"
    ],
-   "commit": "faf41c7a4342405121890855e58a4f1658ddce8e",
-   "sha256": "0ypjdh2jgxapn9pidafhi0l9lia4m2ia05zv319xy3nh03l5ydxd"
+   "commit": "3c8f8bfdcb80e53e950ad245c47a4c48f8e466b5",
+   "sha256": "11z5mi2rl1vqm6pv03knbnyrz2b52wiv33c357g2gpz9rxqldg2k"
   },
   "stable": {
    "version": [
@@ -40203,8 +40236,8 @@
     "ghub",
     "s"
    ],
-   "commit": "24cf8b32d9bddbd98ed2dbfdcbbbb7926410e651",
-   "sha256": "1bravpkp4hfzarnpfin9rxfjwiacvy7ma8z8j9rr8v4gw017825r"
+   "commit": "c1477c9162554babb29a9d5a9d83f7cb327fdc01",
+   "sha256": "0nsnncy5lwqivg81g3qpqvayjinfi2a28rjmb6vqyyjcsdkdsw5b"
   }
  },
  {
@@ -40558,15 +40591,15 @@
   "repo": "Kinneyzhang/gkroam.el",
   "unstable": {
    "version": [
-    20201003,
-    1426
+    20201004,
+    119
    ],
    "deps": [
     "company",
     "db"
    ],
-   "commit": "9294c141be55e65782da5f943c1fcbbc0588c4c7",
-   "sha256": "0ik38v788f3l53bjkimx1cri0d516hjgzbhpx5ix2npmyqbr2djq"
+   "commit": "ca01d8a7e314adb28431370b835109c778b5c3b4",
+   "sha256": "1njwiqj75q02pzx3dpbk9zds8v7r15ay3fhh0l3jdjgx54h9svaj"
   },
   "stable": {
    "version": [
@@ -54406,14 +54439,14 @@
   "unstable": {
    "version": [
     20201003,
-    1257
+    2305
    ],
    "deps": [
     "ivy",
     "posframe"
    ],
-   "commit": "d2db54c323dec21e8dedbac15af45a996a525cc6",
-   "sha256": "17nb4svrg75iqb2jgr4v699rdrkdkxp8r1k8x523kpxhsvhnq3yf"
+   "commit": "1beb31be468ec16924aad2c804ce9d8cfe22dfeb",
+   "sha256": "18ad7x9iqv5x633n2qfv9gn32gn3a12fraqdh01zj5rqamgwdrwh"
   }
  },
  {
