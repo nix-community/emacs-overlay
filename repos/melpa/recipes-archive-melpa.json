@@ -11941,8 +11941,8 @@
     20190710,
     1319
    ],
-   "commit": "a4958a6f28a0048196778cb1b8277b9c324bcad3",
-   "sha256": "0847kbzz8c5y7vs5b8wap849k23zdd30anpwlnxagsqzcksia18n"
+   "commit": "dda897234b8e8f48f515074bdf0a2d9ce67067f9",
+   "sha256": "131wk9lh0i10rd1xxvfqvj5cgn4f9bf2wsykha19cahpcfy0i5s8"
   },
   "stable": {
    "version": [
@@ -86651,6 +86651,20 @@
    "version": [
     20200620,
     1006
+   ],
+   "deps": [
+    "cl-lib",
+    "load-relative",
+    "realgud"
+   ],
+   "commit": "500bef62369ef1ad876afd99db383c23196e1355",
+   "sha256": "0f46z783hsvzz8w8zf1mpapcm307mk9l9fpcsjf71g08rks984f5"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    0
    ],
    "deps": [
     "cl-lib",
