@@ -18033,11 +18033,11 @@
   "url": "https://salsa.debian.org/emacsen-team/debian-el.git",
   "unstable": {
    "version": [
-    20200401,
-    1622
+    20201011,
+    1543
    ],
-   "commit": "d7117ab18b15f449f194cd7d91ff22e55fcfa817",
-   "sha256": "09i2n4990d5ra4zqswzv8sjk4psd9lf71xdsgnfbr88pdv1q8bhf"
+   "commit": "4fd5547a54ee931f4a16adde1d3b52bf01ce045a",
+   "sha256": "07yar2b0h8d16j3q55cw2mdk88akvsab6z7bpkzavyqalgvd061b"
   },
   "stable": {
    "version": [
@@ -38488,10 +38488,10 @@
   "unstable": {
    "version": [
     20201011,
-    1426
+    1745
    ],
-   "commit": "3a5489aa83054ede6cce4d21f1266da584b78abf",
-   "sha256": "0b34f8fs1rfhsikch8b76q9a6kmag25byg0czsa7l9cvazv0w58b"
+   "commit": "cdb9d69c170f7e5e77a092653b1c6bca48c795b6",
+   "sha256": "0c81r1yj2cacfkl48vgn0m9340wp5yyg53lx6ksg7a2jv698x4y8"
   }
  },
  {
@@ -39112,15 +39112,15 @@
   "repo": "magit/ghub",
   "unstable": {
    "version": [
-    20200829,
-    916
+    20201010,
+    1929
    ],
    "deps": [
     "let-alist",
     "treepy"
    ],
-   "commit": "6cc1b76d9df05ceb2904fb61f5463ed3ac57420e",
-   "sha256": "13d6djsfi7g2kxvw4rfknsxsqxps8iyal149n5frbz9k3hxia64p"
+   "commit": "0adc45707ffa8259dc98ae5f7df43197eb703df1",
+   "sha256": "01cn8gy961ngawn0q2k3dfpjkmm4cz57x9j29qd41mxph6l4j6wa"
   },
   "stable": {
    "version": [
@@ -40590,14 +40590,14 @@
   "unstable": {
    "version": [
     20201011,
-    1301
+    1605
    ],
    "deps": [
     "company",
     "db"
    ],
-   "commit": "e90032a90c20d37347b01c366c10a235bf938566",
-   "sha256": "173v6292xf0ngqlzky8szph2dz03kbm1jc5rf2mylnqw82q9paj2"
+   "commit": "83cd18c25a52f43a29c0aa90dbfdc1ecc6c490fb",
+   "sha256": "1si4vgkvyrdh431clzpap0k7a9rj016jzwvdf021lslcnxvlyn7a"
   },
   "stable": {
    "version": [
@@ -49759,8 +49759,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "a75d4033969ecf7d4d0a5eb985d3d1abb3b9301f",
-   "sha256": "0g9dm3mr7wi7bk55fvswv0zcw1khgyr2bmchrg6ks82jc9znxkr6"
+   "commit": "085417feebf6f24ec211a05eee6f28c3d7cc1caf",
+   "sha256": "0336k34549ni3faz43fp5bpbgx85v6v4fjcincylwggwylfnnill"
   },
   "stable": {
    "version": [
@@ -56505,8 +56505,8 @@
   "repo": "gcv/julia-snail",
   "unstable": {
    "version": [
-    20200810,
-    1941
+    20201011,
+    1628
    ],
    "deps": [
     "cl-lib",
@@ -56517,8 +56517,8 @@
     "spinner",
     "vterm"
    ],
-   "commit": "44d06e18cf9ded6c05936ce10aca0a73f768f457",
-   "sha256": "0hpypirqc2hd1zga5qjcx2i7vp3h2vif76npd0j10hiimxal1kxz"
+   "commit": "43374a4c6d3e632abc0589478dc5d146c1549a15",
+   "sha256": "1cz157i77r5vx00v8mmypq381ilcj3hmw1ggxpqc098w05nmygii"
   },
   "stable": {
    "version": [
@@ -74595,15 +74595,15 @@
   "repo": "org-roam/org-roam-bibtex",
   "unstable": {
    "version": [
-    20201005,
-    1927
+    20201011,
+    1827
    ],
    "deps": [
     "bibtex-completion",
     "org-roam"
    ],
-   "commit": "1ad1f479139a97c2d473fe4e0d406390d6159113",
-   "sha256": "1ag0cjbgfwnnvgfwqqgh6z9m7vbfjh8k0qi9gln4mcycc0dyarq5"
+   "commit": "280e7a89a2d16f56aa87477db22ba98588c2e115",
+   "sha256": "1nnxcgx697rym8nn63c6zs2055rwq4b9p6qbbjir463j1ak3aqzh"
   },
   "stable": {
    "version": [
@@ -84192,13 +84192,13 @@
   "unstable": {
    "version": [
     20201011,
-    1322
+    1720
    ],
    "deps": [
     "yasnippet"
    ],
-   "commit": "95b4fa230a733aebf2cb9fc0f477879d2011382e",
-   "sha256": "1b4inq1db53fypds05wx67n3q8n40vqbpz2h7v23fi1qkfjylhaa"
+   "commit": "c0cdecd865592d6494edc06ef242adbd17a02e2c",
+   "sha256": "15qxjmhsq2cqhajnjnyxbf6fqrmkm2lk4ybjs4fmkj1hsc4x5psh"
   }
  },
  {
@@ -86652,16 +86652,16 @@
   "repo": "realgud/realgud-pry",
   "unstable": {
    "version": [
-    20200620,
-    1006
+    20201011,
+    1815
    ],
    "deps": [
     "cl-lib",
     "load-relative",
     "realgud"
    ],
-   "commit": "500bef62369ef1ad876afd99db383c23196e1355",
-   "sha256": "0f46z783hsvzz8w8zf1mpapcm307mk9l9fpcsjf71g08rks984f5"
+   "commit": "264ca6811b0bef5de4decc54acfeacf0bce2f51f",
+   "sha256": "0v3g23x5q04g45av74snf6a3hyghd40lnagr231g5xs1wc6c3plc"
   },
   "stable": {
    "version": [
@@ -89738,8 +89738,8 @@
     20200830,
     301
    ],
-   "commit": "7c2074fa5e05e7df4fa335b000c953d2e2bcbfce",
-   "sha256": "0ypgpkzc4navcyqqqrzcq60cxdami06vn126wy2zb12xdlmkgfxz"
+   "commit": "b416aa21fa531b88400ad38df237e25a00e83414",
+   "sha256": "0gbphkiwzk9r0pg0pigpha87chpa76sxivg3d83fahyk8w6bbkcf"
   }
  },
  {
