@@ -1871,8 +1871,8 @@
     "annotation",
     "eri"
    ],
-   "commit": "a81baea0507301820d9684c478926a6ac4ea2614",
-   "sha256": "0m30ggrmvvcs5hf9vs7yn7d2rhln49xy2d5m4lfhl3bjc184ybk5"
+   "commit": "2d7a53a662a658e862ef4835198bf14d9e8cc7b3",
+   "sha256": "0pn14qb6gs57mgkssdyz7rf54l8cnvgcrs8qgp25g87y3ipyp8xd"
   },
   "stable": {
    "version": [
@@ -3106,8 +3106,8 @@
     20200914,
     644
    ],
-   "commit": "a81baea0507301820d9684c478926a6ac4ea2614",
-   "sha256": "0m30ggrmvvcs5hf9vs7yn7d2rhln49xy2d5m4lfhl3bjc184ybk5"
+   "commit": "2d7a53a662a658e862ef4835198bf14d9e8cc7b3",
+   "sha256": "0pn14qb6gs57mgkssdyz7rf54l8cnvgcrs8qgp25g87y3ipyp8xd"
   },
   "stable": {
    "version": [
@@ -4335,11 +4335,11 @@
   "repo": "DamienCassou/auth-password-store",
   "unstable": {
    "version": [
-    20191126,
-    1242
+    20201012,
+    1918
    ],
-   "commit": "ff4940c647786914b3cbef69103d96a4ea334111",
-   "sha256": "1swrr8wjrfzjy3x11lfby2jckw5fgvpaywhg2pzmwwvf9mr9xzdg"
+   "commit": "6e7f5465f2e76dcafb5dd6c2a9b790a151ba0f46",
+   "sha256": "1axpbky79iij7b1hsk8a564jbrzw70xilkqiabf3yg6v09w47pyh"
   },
   "stable": {
    "version": [
@@ -9996,8 +9996,8 @@
     20171115,
     2108
    ],
-   "commit": "cc3b6e0a36febd11c9e707291c94910d08734e61",
-   "sha256": "0jqbd5f9hqa0qg490sjscs2cpdjirmhfq20wdwgjmnx8r18dq959"
+   "commit": "83303151b80b139657cffcbbac2abb47eb16ae61",
+   "sha256": "0sp78w1fjqbaxpbawxr97wmz81dvcqv9agz0mx7k242xy1c1rnnv"
   },
   "stable": {
    "version": [
@@ -38016,8 +38016,8 @@
   "repo": "FStarLang/fstar-mode.el",
   "unstable": {
    "version": [
-    20201001,
-    204
+    20201012,
+    2201
    ],
    "deps": [
     "company",
@@ -38027,8 +38027,8 @@
     "quick-peek",
     "yasnippet"
    ],
-   "commit": "5670fc025c96d0495a5a0a57b453ef68962f2b2b",
-   "sha256": "15pmnp9j4l05d2qh129pkdj764nnagic3p3x6m40wgid0p7swq4y"
+   "commit": "3afbf04e4eb21af950cfdb727d8b808164fd9415",
+   "sha256": "1ks949zcqk3dqcxjv2lj9jyz6mnrvcgwg9iaa70lsb772lxza8wj"
   },
   "stable": {
    "version": [
@@ -44094,10 +44094,10 @@
   "stable": {
    "version": [
     17,
-    1
+    2
    ],
-   "commit": "17357211a16394884a981fe0c062f94250b40300",
-   "sha256": "0izcasi2v02zh08c863h43m8mmsldzy8pck43cllrfn0zf24v2qn"
+   "commit": "e72677668f5fc7cc148008e885a0f256e245dd43",
+   "sha256": "0zxbacqzr84krmhqpvzndnvlcjh1gs1x20ys0dykgd7chyhci5j5"
   }
  },
  {
@@ -59568,11 +59568,11 @@
   "repo": "mpdel/libmpdel",
   "unstable": {
    "version": [
-    20200907,
-    1454
+    20201012,
+    2017
    ],
-   "commit": "99cb4c83d051cf771f5574713bde8e19787de7d9",
-   "sha256": "1mh2bngixlp9hp5yrzg2ja9vv3ji4p30mxq0hq2wi872nzycqp57"
+   "commit": "daf2a6dca6b2c5b506599fc04c83a426902055b1",
+   "sha256": "0977wnm6xcw9gmbkqvymyjlfalmwh4az48vsb8dhbvxvi2jaaxi8"
   },
   "stable": {
    "version": [
@@ -73233,16 +73233,17 @@
   },
   "stable": {
    "version": [
-    6,
-    2,
-    1
+    7,
+    0,
+    0
    ],
    "deps": [
     "dash",
-    "org"
+    "org",
+    "s"
    ],
-   "commit": "f868df4aa4f49484cf818627251b7c7282d8d20e",
-   "sha256": "14mr03sjjkxix0sphnp7flr6f9z20g5x7ifv3hl2nvmh4794cf6n"
+   "commit": "3ada80bca278bb0fb791f7498cced6e8c9752064",
+   "sha256": "1y1nrw39bc1ng6p4asy4lv3y20vdvx1cqa03s5jf9nccddn5j924"
   }
  },
  {
@@ -74501,8 +74502,8 @@
   "repo": "jkitchin/org-ref",
   "unstable": {
    "version": [
-    20201002,
-    1514
+    20201012,
+    2032
    ],
    "deps": [
     "dash",
@@ -74516,8 +74517,8 @@
     "pdf-tools",
     "s"
    ],
-   "commit": "f582e9c53e8e4c5dcc1d3889f1b5c536c9a9b524",
-   "sha256": "1gw9w9yhv78il6ny4a47rg6zgyvayxcszd91043nlqvv1bqkk07f"
+   "commit": "b7c38a97e8b0471e7c9b9311f052afe1ff135bf5",
+   "sha256": "0s0c2z1c46i1abbbyqja8zydli9y5zpzcgyigzxbypq92ihhhnkl"
   },
   "stable": {
    "version": [
@@ -76186,19 +76187,20 @@
   "repo": "tgbugs/orgstrap",
   "unstable": {
    "version": [
-    20201009,
-    556
+    20201012,
+    2123
    ],
-   "commit": "aec06c90bef0f52955b614d640929daba78a6194",
-   "sha256": "1n3f998rygx6mghgrx9w64fg5wcd3j1yg0hhj4xriimlxfx9n8pj"
+   "commit": "5d71205eafaa429d25475e1e25e1bdc61b9eb6eb",
+   "sha256": "0kpxyavk4f1bzbnjazf9cbbznlagjqjjxfp9myxpv2yw2mkiljjl"
   },
   "stable": {
    "version": [
     1,
-    2
+    2,
+    1
    ],
-   "commit": "aec06c90bef0f52955b614d640929daba78a6194",
-   "sha256": "1n3f998rygx6mghgrx9w64fg5wcd3j1yg0hhj4xriimlxfx9n8pj"
+   "commit": "5d71205eafaa429d25475e1e25e1bdc61b9eb6eb",
+   "sha256": "0kpxyavk4f1bzbnjazf9cbbznlagjqjjxfp9myxpv2yw2mkiljjl"
   }
  },
  {
@@ -94590,11 +94592,11 @@
   "repo": "ideasman42/emacs-spatial-navigate",
   "unstable": {
    "version": [
-    20201004,
-    948
+    20201012,
+    2303
    ],
-   "commit": "6e7b35e2b2c7896369ab64b48d85a473fa27e770",
-   "sha256": "1m4k9mf37n0vyasx9hg4kpqilk86m03l5xv36zg76fildl62hvir"
+   "commit": "43d197f6825945dd34fef5de599701dd6914981f",
+   "sha256": "062h3c7p4z6w06ag124v7c2ymbrdggwnhd7zfawj831cgpblwlqb"
   }
  },
  {
@@ -96373,8 +96375,8 @@
     20200830,
     1107
    ],
-   "commit": "99fd77d25fc12c0a9f1fc75f0b83b31774d493bd",
-   "sha256": "12b2534cz9qqc923cf4nj76gmx3l19wrqmha077rlgl5pqlgqh6b"
+   "commit": "5b209ff7b7d3dcd09b623915aba1e137c875fa0e",
+   "sha256": "0ym0rfyrnj4f6c6nhz0yfvl1n1fsdb2n20gksw4blqg94ccafqh1"
   },
   "stable": {
    "version": [
@@ -97912,15 +97914,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20201009,
-    2039
+    20201012,
+    2200
    ],
    "deps": [
     "rainbow-identifiers",
     "visual-fill-column"
    ],
-   "commit": "7cc7b029e0cb83110c687e7bb5755a76277000f7",
-   "sha256": "1b43ghp9zazf60rsfnfvyl0w6iajm9v01084swpcnn1jrzlhai35"
+   "commit": "2d3ea5a15a919fe61325e5c6ec683316b21f3c75",
+   "sha256": "0nry8ymlacrqq9bdd11zncsy6rqkgsi8a9w4mgqdsnxa68bkghm0"
   },
   "stable": {
    "version": [
@@ -98957,8 +98959,8 @@
     20200212,
     1903
    ],
-   "commit": "7ef0afa8f4461f5057d89b2753b700071feb0823",
-   "sha256": "0yy7kwfzh8bv20bqkl8bpzmns65wda9i20py52j6ly9m18ianp5n"
+   "commit": "4b5a16a4812b8ec083fee238f6cdc66aedbaff0d",
+   "sha256": "04vrg0lw0qs1v4dxdwswzhj0y0f4rkv4bb7ldz90z57mnaspp10h"
   },
   "stable": {
    "version": [
@@ -102419,11 +102421,11 @@
   "repo": "rrthomas/vala-mode",
   "unstable": {
    "version": [
-    20201008,
-    918
+    20201012,
+    2125
    ],
-   "commit": "92b0e388934460e19853f833ec03845c1ae61c4c",
-   "sha256": "13dl11g9dcbpffhcwxppp5jp1gm8669d7wzz76zdybaagm86qkvs"
+   "commit": "671c287ba9cb81dcf6e9485e6ccc60bc2b7aba14",
+   "sha256": "0xsrzl5d26fynjf18fwxac8aq31ckjk569rhlvib15f1max10hg8"
   }
  },
  {
