@@ -8713,11 +8713,11 @@
   "repo": "jorgenschaefer/emacs-buttercup",
   "unstable": {
    "version": [
-    20200921,
-    1916
+    20201016,
+    1742
    ],
-   "commit": "cccdedff38208ad4aa989ccdab8e0b059adf3728",
-   "sha256": "0n0zg7aivxknvhmn5549yiqppig4rknwis3c52wr1qk5hjl78d54"
+   "commit": "8b3f7a0b9feedbcda42201f97c5f1422b294b458",
+   "sha256": "1l8aizwgy259y2hqgbp80q2k051d5ahkwk6658ivylp3wllfg3jr"
   },
   "stable": {
    "version": [
@@ -9739,10 +9739,10 @@
   "unstable": {
    "version": [
     20201016,
-    1348
+    1652
    ],
-   "commit": "acc1282b73fbe59b6338bb0e20a4e6a7c5c18269",
-   "sha256": "15sf94qvbh5kjprabbsdmw2bcw38in9s1zdsmddzd04vb30anirn"
+   "commit": "4e939a83865d5c1b4ef25ab468781169e11f942f",
+   "sha256": "1y5c2ycvmij7klvc9rhg265ha23xlh2hi4q5w50xljzh2mmlp3fb"
   },
   "stable": {
    "version": [
@@ -10972,8 +10972,8 @@
   "repo": "andras-simonyi/citeproc-el",
   "unstable": {
    "version": [
-    20200705,
-    1155
+    20201016,
+    1757
    ],
    "deps": [
     "dash",
@@ -10983,8 +10983,8 @@
     "s",
     "string-inflection"
    ],
-   "commit": "0ad1f975a095156d02dd7f9adc0fecbc57b1e751",
-   "sha256": "1xhkicffmdiy4c22m9qilm09nq9zqfsi9gawq3gflla79avblh4r"
+   "commit": "58a2ea060999dbeb8f6ab1fa46ee8ee2afda2c89",
+   "sha256": "1as4rzsl65f8gy8q774r89ccigf2bj7d0fnbi9p5n3340cyl2vfq"
   },
   "stable": {
    "version": [
@@ -27126,11 +27126,7 @@
     641
    ],
    "commit": "d191fbc919202d5b7deaac539ae38745cd69e480",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "warning: unable to download 'https://github.com/erlang/otp/archive/d191fbc919202d5b7deaac539ae38745cd69e480.tar.gz': HTTP error 200 (curl error: Transferred a partial file); retrying from offset 36174583 in 286 ms\nwarning: unable to download 'https://github.com/erlang/otp/archive/d191fbc919202d5b7deaac539ae38745cd69e480.tar.gz': HTTP error 200 (curl error: Requested range was not delivered by the server); retrying from offset 36174583 in 650 ms\nwarning: unable to download 'https://github.com/erlang/otp/archive/d191fbc919202d5b7deaac539ae38745cd69e480.tar.gz': HTTP error 200 (curl error: Requested range was not delivered by the server); retrying from offset 36174583 in 1003 ms\nwarning: unable to download 'https://github.com/erlang/otp/archive/d191fbc919202d5b7deaac539ae38745cd69e480.tar.gz': HTTP error 200 (curl error: Requested range was not delivered by the server); retrying from offset 36174583 in 2733 ms\nerror: unable to download 'https://github.com/erlang/otp/archive/d191fbc919202d5b7deaac539ae38745cd69e480.tar.gz': HTTP error 200 (curl error: Requested range was not delivered by the server)\n"
-   ]
+   "sha256": "0556n6y1jfdq4fcz6jx8a6nvwx25rk0ainh8af2qk7vf7kjs4db7"
   },
   "stable": {
    "version": [
@@ -57858,8 +57854,8 @@
     20180702,
     2029
    ],
-   "commit": "4315d2d817fcda43400c3634ad6e261906fe8c52",
-   "sha256": "0wf5m0vkn14fmpq0j388m5cg3j462qmy5sg30dgcz2bbb1r500k8"
+   "commit": "5d2131e4551cdd7c0197640b8502076cb7da2e19",
+   "sha256": "1556fd3g6ix3rx1r3c10rc62h0hd8fkll7hgvf8z1ia8iajxa17k"
   },
   "stable": {
    "version": [
@@ -61442,8 +61438,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20201011,
-    1353
+    20201016,
+    1633
    ],
    "deps": [
     "dash",
@@ -61454,8 +61450,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "fb4c35c6978415c4cf52f85230b527d311989063",
-   "sha256": "140r08y334bddvm5f7w81r2mif1v2cdspylrwyj41fww1jkbanbw"
+   "commit": "7c6ace2d9e4ca4e7230c5989ae47991c7db61c7f",
+   "sha256": "0sdwj3hyzrzcqr54f11hmd4352z82nblc768ji320hl8rpz6pb1z"
   },
   "stable": {
    "version": [
@@ -98964,8 +98960,8 @@
     20200212,
     1903
    ],
-   "commit": "a479c0048f334acd226a8eb53322a97137734954",
-   "sha256": "0a9zh4zlhzkapp8rrd0gh45dar08vrrb4nnpghv30c83hskasn83"
+   "commit": "f4ebca8929cfb34f447ba561cf9a4ea88d069ab7",
+   "sha256": "09i1s1gv2n38a9jzmd6rc7bj5czm9v6b9lmwmjw2dl9csc9gqj5h"
   },
   "stable": {
    "version": [
@@ -106566,8 +106562,8 @@
     "f",
     "s"
    ],
-   "commit": "aba3b42b1df2ebf238587136cd8a9cb7aeeb9af5",
-   "sha256": "066iik2px18q59kyi53kvl3vygv44qj2jgdbkk50cm91f24nmsmi"
+   "commit": "2a72cf519bda25ee8852672e14b6c265388bc74b",
+   "sha256": "1vd6i4jyk04dfkdbavqk6pp30c9khv813x8fwnksijgbz6ib9pf0"
   }
  },
  {
