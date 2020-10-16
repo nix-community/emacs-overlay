@@ -7046,20 +7046,20 @@
    "deps": [
     "seq"
    ],
-   "commit": "7ed914e476cea6f238e03cbe2693684fb92ec216",
-   "sha256": "06z3s00n3lw3qp5bch7m84jac5cr630q70z6z0n3q89lpv5i1jh3"
+   "commit": "10673c5b4af37c59b4ef8e5339e6a40af91ff4b3",
+   "sha256": "0vb3n466vzd99674hqqm78gfgb2l5rhrqda5gk50b06ivc3q596k"
   },
   "stable": {
    "version": [
     0,
     4,
-    2
+    3
    ],
    "deps": [
     "seq"
    ],
-   "commit": "418f9f8afe8bfc82cecec05ee17e6825c608ffe9",
-   "sha256": "0c8q5h4s94pjki1abp33ijd9422k8f7qf5ilmdvvnx99i4wnm903"
+   "commit": "8d479f1ad0573008e7f60dad2f6549c7d2f96598",
+   "sha256": "1wfbm3z4irgh22lrfkdf05y9y3ayl1jcmf2iqgncrj12j5a5jwa7"
   }
  },
  {
@@ -11996,8 +11996,8 @@
     20190710,
     1319
    ],
-   "commit": "4f6fccd86174742c2f17aeba1a940be383a3c7df",
-   "sha256": "117a8ryakf2skhl5j7q0asl34da3zihk9a0x3xzrgxvi2xj6d190"
+   "commit": "eee8fc40c9e2bd7c3b58fcb020356c42cb79eb81",
+   "sha256": "13cawrw4npgcn096x0f1jzd9ldn90kd2bkb4aydlyr3k4sh7a3g4"
   },
   "stable": {
    "version": [
@@ -17297,8 +17297,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20201013,
-    614
+    20201016,
+    631
    ],
    "deps": [
     "bui",
@@ -17310,8 +17310,8 @@
     "posframe",
     "s"
    ],
-   "commit": "2d861a3620c7239072e00419aa99efb5c60d58e4",
-   "sha256": "1ilnq0pklk1sgwjs5yby3zlj9w6i25mmikwqb1yh1gbkak0y36mw"
+   "commit": "c1440e15f29f5f43ad646df01e6994c01c3a8f35",
+   "sha256": "08wy0kl4a7f0abdgvxihq133zg9rv6iswds2n53pky60v6067jmh"
   },
   "stable": {
    "version": [
@@ -23181,17 +23181,17 @@
     20200107,
     2333
    ],
-   "commit": "150bc696ba10b6f0da2cea45fbaf5d3ffe700afb",
-   "sha256": "0vkk2f2zy139x6d3plkjadw2lymnf53r1xm7jyyc36f26a1vpxfk"
+   "commit": "98976f69f629ae3c9bae875eb8a37791cff5e94d",
+   "sha256": "0v7rzar6rzh4s2px3miasabmh71i4vapm6zv2kbf5jp34p87ccy2"
   },
   "stable": {
    "version": [
     4,
     1,
-    0
+    1
    ],
-   "commit": "36a56c795c09095e856c411b98c52cf320b36b6e",
-   "sha256": "0vcqx0bcd37w0bi329lh846lflkz2zq7sa16qb4zl4wd8kvgzgf7"
+   "commit": "98976f69f629ae3c9bae875eb8a37791cff5e94d",
+   "sha256": "0v7rzar6rzh4s2px3miasabmh71i4vapm6zv2kbf5jp34p87ccy2"
   }
  },
  {
@@ -37461,26 +37461,26 @@
   "repo": "rnkn/fountain-mode",
   "unstable": {
    "version": [
-    20201015,
-    927
+    20201016,
+    551
+   ],
+   "deps": [
+    "seq"
+   ],
+   "commit": "1737fa890ecdb45bc3877184ece8e825d239b6d3",
+   "sha256": "183llpjval56j3awjcf5zpn97k49lxhy5h9q63afzjc6rhckz7iv"
+  },
+  "stable": {
+   "version": [
+    3,
+    3,
+    2
    ],
    "deps": [
     "seq"
    ],
    "commit": "74bd881737f10b9c08f15e23255889f3da519520",
    "sha256": "0pajwwmypnl8i4aldypywzx5xxzmawb1q7vicbmv9v3540z6i5c5"
-  },
-  "stable": {
-   "version": [
-    3,
-    3,
-    1
-   ],
-   "deps": [
-    "seq"
-   ],
-   "commit": "d2f4d4d439605c280f0d00252e581069731bee71",
-   "sha256": "03k05vdp1z66jwcx5rhfipcvxvqaw56za112qbix3gck6xfcv578"
   }
  },
  {
@@ -65876,8 +65876,8 @@
     20201015,
     1500
    ],
-   "commit": "16600f42d419c02b1785b4fb653ff11826502d31",
-   "sha256": "16qzrj33xlgribldgfkwhmcb7x0qaxm5lradrz37msz0hdv8xlld"
+   "commit": "2d4ffd887d6ce0c7a873685074526441fff2a12f",
+   "sha256": "01a30xs5cdd4bz452yqlv0a1cgkz3w66dna1s68ddkxpi7p4c061"
   },
   "stable": {
    "version": [
@@ -65897,11 +65897,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20201015,
-    1500
+    20201016,
+    413
    ],
-   "commit": "16600f42d419c02b1785b4fb653ff11826502d31",
-   "sha256": "16qzrj33xlgribldgfkwhmcb7x0qaxm5lradrz37msz0hdv8xlld"
+   "commit": "2d4ffd887d6ce0c7a873685074526441fff2a12f",
+   "sha256": "01a30xs5cdd4bz452yqlv0a1cgkz3w66dna1s68ddkxpi7p4c061"
   },
   "stable": {
    "version": [
@@ -98960,8 +98960,8 @@
     20200212,
     1903
    ],
-   "commit": "6d8d66d49d9142098c9b9293f3258e26cad9ce51",
-   "sha256": "1x10fvf1n9b6mnx1k4sw6lhz01vnx0fd3s4s482d6654b0hi79gr"
+   "commit": "32b8532ec6adb73d440bf26fd010cd5dab8ad596",
+   "sha256": "1idhannwzmjalxb7hxpkn1fz23iwasza83ah6q8072amxd7xhivg"
   },
   "stable": {
    "version": [
@@ -101412,11 +101412,11 @@
   "repo": "ideasman42/emacs-undo-fu-session",
   "unstable": {
    "version": [
-    20200918,
-    330
+    20201016,
+    645
    ],
-   "commit": "5135b5cb610203cdb3e64227b8f437bb87292b18",
-   "sha256": "11vzw5wsh7ap4xlf2j5vj14ha30706nhvs7zf1dpj2j56bbljsrh"
+   "commit": "b1a17bac3db11fbe41b958ed74609bda464b658c",
+   "sha256": "1qd5mydvqwv21pf2np9a7ndzxlrbvwmis2dzxm6g4il3czrfhj3p"
   }
  },
  {
