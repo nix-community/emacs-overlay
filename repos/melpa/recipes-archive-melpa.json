@@ -1871,8 +1871,8 @@
     "annotation",
     "eri"
    ],
-   "commit": "93ea99a43f4b2b5a7d1f1da8a11bea3bbc34f6ce",
-   "sha256": "0izjflmcll6b8ff3w9l6kz2zshdrb2fdz74sb4j17vxkl6v1aail"
+   "commit": "2107d6a804e4aa504847784ee8740b4dc75e349c",
+   "sha256": "1rsln6mbljfij21yhbjdrpav1idxg4wn0r6n1qr1jrlbgsxiw7vz"
   },
   "stable": {
    "version": [
@@ -3106,8 +3106,8 @@
     20200914,
     644
    ],
-   "commit": "93ea99a43f4b2b5a7d1f1da8a11bea3bbc34f6ce",
-   "sha256": "0izjflmcll6b8ff3w9l6kz2zshdrb2fdz74sb4j17vxkl6v1aail"
+   "commit": "2107d6a804e4aa504847784ee8740b4dc75e349c",
+   "sha256": "1rsln6mbljfij21yhbjdrpav1idxg4wn0r6n1qr1jrlbgsxiw7vz"
   },
   "stable": {
    "version": [
@@ -6247,14 +6247,14 @@
   "repo": "tohojo/bbdb-vcard",
   "unstable": {
    "version": [
-    20201012,
-    910
+    20201016,
+    1226
    ],
    "deps": [
     "bbdb"
    ],
-   "commit": "534ec0f070766e68c64e57441265ed67898073d3",
-   "sha256": "07rvgj2vr3j9d9ajv3vl7rk9x22r12y5qlr9a19ki3zj40599qd8"
+   "commit": "f8f3547794e43b8822d0146fd57ceb874a3ec1fb",
+   "sha256": "1dc6mb44skzmqc50mq86kg61d1cxibqzdhislll3kbiyn9w3llx3"
   },
   "stable": {
    "version": [
@@ -9738,11 +9738,11 @@
   "repo": "cdominik/cdlatex",
   "unstable": {
    "version": [
-    20200506,
-    739
+    20201016,
+    1348
    ],
-   "commit": "480387b39f6ddd9cd2a9511ecee064ad8e1dd324",
-   "sha256": "1y5c2ycvmij7klvc9rhg265ha23xlh2hi4q5w50xljzh2mmlp3fb"
+   "commit": "acc1282b73fbe59b6338bb0e20a4e6a7c5c18269",
+   "sha256": "15sf94qvbh5kjprabbsdmw2bcw38in9s1zdsmddzd04vb30anirn"
   },
   "stable": {
    "version": [
@@ -9996,8 +9996,8 @@
     20171115,
     2108
    ],
-   "commit": "5267bf961e6641cad785d207a18955900879a094",
-   "sha256": "00iq5qp4zzbp965rghgys7zvadz6v093fbc39f4ham591q1w615h"
+   "commit": "e8db8f4a18a199962494bcab0ab5647058cc836c",
+   "sha256": "0f8228whwlj2m0rcnjd1zxd0abbhp4ky3f31qjzxx9nhcyhkkjik"
   },
   "stable": {
    "version": [
@@ -11996,8 +11996,8 @@
     20190710,
     1319
    ],
-   "commit": "eee8fc40c9e2bd7c3b58fcb020356c42cb79eb81",
-   "sha256": "13cawrw4npgcn096x0f1jzd9ldn90kd2bkb4aydlyr3k4sh7a3g4"
+   "commit": "424093e83db44ecb81623d7572cec09abe28580b",
+   "sha256": "10dzpqkyds50car8g6zbi0ikahn8sza1mj6ggi4yyqckw3l205jb"
   },
   "stable": {
    "version": [
@@ -14843,11 +14843,11 @@
   "repo": "paldepind/composable.el",
   "unstable": {
    "version": [
-    20200604,
-    1156
+    20201016,
+    1257
    ],
-   "commit": "f6262e6d7380ce9d4eacd7127fe0d968325f347d",
-   "sha256": "0a2xfnd54pclh3qm1hwv867dpkhk6wck94092yyzapj7zxnfnr15"
+   "commit": "ba1157a48bed45c17522bc4abcd6ff7d06bb8c98",
+   "sha256": "1afjk4rzdjddbj1j6037i34k5gb45k77jidfbsr76304dq458kyg"
   },
   "stable": {
    "version": [
@@ -27100,8 +27100,8 @@
     20200914,
     644
    ],
-   "commit": "93ea99a43f4b2b5a7d1f1da8a11bea3bbc34f6ce",
-   "sha256": "0izjflmcll6b8ff3w9l6kz2zshdrb2fdz74sb4j17vxkl6v1aail"
+   "commit": "2107d6a804e4aa504847784ee8740b4dc75e349c",
+   "sha256": "1rsln6mbljfij21yhbjdrpav1idxg4wn0r6n1qr1jrlbgsxiw7vz"
   },
   "stable": {
    "version": [
@@ -27125,8 +27125,12 @@
     20200902,
     641
    ],
-   "commit": "4a42e03c796ee23c6f8ce479722653ad82c10a8e",
-   "sha256": "1dsd4ai6ka3y4q2n1bs4iwn5wagyaypvq8lvsc53n58n4qh737m4"
+   "commit": "d191fbc919202d5b7deaac539ae38745cd69e480",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "warning: unable to download 'https://github.com/erlang/otp/archive/d191fbc919202d5b7deaac539ae38745cd69e480.tar.gz': HTTP error 200 (curl error: Transferred a partial file); retrying from offset 36174583 in 286 ms\nwarning: unable to download 'https://github.com/erlang/otp/archive/d191fbc919202d5b7deaac539ae38745cd69e480.tar.gz': HTTP error 200 (curl error: Requested range was not delivered by the server); retrying from offset 36174583 in 650 ms\nwarning: unable to download 'https://github.com/erlang/otp/archive/d191fbc919202d5b7deaac539ae38745cd69e480.tar.gz': HTTP error 200 (curl error: Requested range was not delivered by the server); retrying from offset 36174583 in 1003 ms\nwarning: unable to download 'https://github.com/erlang/otp/archive/d191fbc919202d5b7deaac539ae38745cd69e480.tar.gz': HTTP error 200 (curl error: Requested range was not delivered by the server); retrying from offset 36174583 in 2733 ms\nerror: unable to download 'https://github.com/erlang/otp/archive/d191fbc919202d5b7deaac539ae38745cd69e480.tar.gz': HTTP error 200 (curl error: Requested range was not delivered by the server)\n"
+   ]
   },
   "stable": {
    "version": [
@@ -37316,15 +37320,15 @@
   "repo": "lassik/emacs-format-all-the-code",
   "unstable": {
    "version": [
-    20201010,
-    1117
+    20201016,
+    1041
    ],
    "deps": [
     "cl-lib",
     "language-id"
    ],
-   "commit": "e1ec4e03b83040f2a0e4fc58dd51595dd9501294",
-   "sha256": "04x95x63fgbqql7386w152sqqmk4bmmj2xvxrwfih6lavfi708bs"
+   "commit": "361178827723cb11ca774431c938c27894a08e13",
+   "sha256": "0dli6kg68hh2w0amfw51f50g6za7qavg33nmxlf8m9q9f5c1fs0h"
   },
   "stable": {
    "version": [
@@ -40648,14 +40652,14 @@
   "unstable": {
    "version": [
     20201016,
-    915
+    1130
    ],
    "deps": [
     "company",
     "db"
    ],
-   "commit": "f71758b0ee0772188f9bd437109fd61d8ff885b1",
-   "sha256": "04zg2rgkvgylkjb0c30z0fn4l7i9pis1853crdm9whh1bkhdfs4s"
+   "commit": "509b1035767767480f48c1b34090687f14b764e8",
+   "sha256": "01dpdfsajpp1qq5sc3w258qffskklc9dfa28364fj8rysxn3wpdd"
   },
   "stable": {
    "version": [
@@ -83930,11 +83934,11 @@
   "repo": "ProofGeneral/PG",
   "unstable": {
    "version": [
-    20201014,
-    1611
+    20201016,
+    1531
    ],
-   "commit": "cd6955d5a7fa35ab1aa6a7754d194a87f7c9aedf",
-   "sha256": "1nbpj8r4p512ppa0fl0hbrl5zhf2lf5qrn6rh2wp6zxh75yxbmig"
+   "commit": "0fdb1ae633baeb9afb07bbd8632bece5976f95f2",
+   "sha256": "0q2dr33cjhpjkd5scmby5bfm6jxg265diap3ws7bb8wflq2z9lip"
   },
   "stable": {
    "version": [
@@ -94418,8 +94422,8 @@
   "repo": "TheBB/spaceline",
   "unstable": {
    "version": [
-    20201015,
-    2003
+    20201016,
+    1043
    ],
    "deps": [
     "cl-lib",
@@ -94427,8 +94431,8 @@
     "powerline",
     "s"
    ],
-   "commit": "332583e01102157e77c22623ea3a2757a7bace94",
-   "sha256": "0h79ga1js6vrsh86k6m3gakvf1pra9dkqcr0xqmprknmbhj0mx44"
+   "commit": "50cc5b26d823bbfd347becd7da03cd29c2a2a0dc",
+   "sha256": "0yyq8jppsa95m78fr7kfixl20qi8zpgkla64sv1a0v8x42nws02p"
   },
   "stable": {
    "version": [
@@ -98960,8 +98964,8 @@
     20200212,
     1903
    ],
-   "commit": "ce2dd7cc08ac05efabfbda1a0199559b060daf66",
-   "sha256": "04w3ibaad256mahdpyfcc86fm0bh2pzdmiqn0115gh1bx3wzj80z"
+   "commit": "a479c0048f334acd226a8eb53322a97137734954",
+   "sha256": "0a9zh4zlhzkapp8rrd0gh45dar08vrrb4nnpghv30c83hskasn83"
   },
   "stable": {
    "version": [
