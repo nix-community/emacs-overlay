@@ -28336,6 +28336,14 @@
   }
  },
  {
+  "ename": "etherpad",
+  "commit": "2e4252ff1088a04bc3804897d382be69bd7302dc",
+  "sha256": "1mgfwrfjmf1b31hry5xrzsmb89lawq6glbjqa2f8h1jvq5fcvdvd",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "zzkt/ethermacs"
+ },
+ {
   "ename": "euslisp-mode",
   "commit": "b04fffe5e52f26e92930a112a64531228f94e340",
   "sha256": "0v92lry9ynkvsvx060njaw1j5lj9sb1i3srs2hfqqwyqni5ldkri",
@@ -50179,6 +50187,14 @@
    ],
    "commit": "f2b99a9a10becfff207cf9418c6dce78364b1a4b",
    "sha256": "0qlvfzyvxxhdacc8wl4mb451jjf4dv0gnkq7341cqz0gp4yy1n73"
+  },
+  "stable": {
+   "version": [
+    1,
+    0
+   ],
+   "commit": "f2b99a9a10becfff207cf9418c6dce78364b1a4b",
+   "sha256": "0qlvfzyvxxhdacc8wl4mb451jjf4dv0gnkq7341cqz0gp4yy1n73"
   }
  },
  {
@@ -57873,8 +57889,8 @@
     20180702,
     2029
    ],
-   "commit": "5d2131e4551cdd7c0197640b8502076cb7da2e19",
-   "sha256": "1556fd3g6ix3rx1r3c10rc62h0hd8fkll7hgvf8z1ia8iajxa17k"
+   "commit": "36dab10b896bd3c442fb0a66416033104ec46f46",
+   "sha256": "0bgphish5xd2z3vm06dirpm3xp8wanfmh63k5f1ngm6ln46gx6h2"
   },
   "stable": {
    "version": [
@@ -61469,8 +61485,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "7c6ace2d9e4ca4e7230c5989ae47991c7db61c7f",
-   "sha256": "0sdwj3hyzrzcqr54f11hmd4352z82nblc768ji320hl8rpz6pb1z"
+   "commit": "5eacdfca36f07fb89821ae1e541eaefce60d5a18",
+   "sha256": "1ydhdm9fmr2pqfjj08v151d34fynh2b62s7yq35a2nsz44vii4dj"
   },
   "stable": {
    "version": [
@@ -64122,6 +64138,14 @@
    "commit": "4f1dbbe68048864037eae277b9280b90fd701ff1",
    "sha256": "08gbkd8wln89j9yxp0zzd539hbwy1db31gca3vxxrpszixx8280y"
   }
+ },
+ {
+  "ename": "maxima",
+  "commit": "8a7215f7c6ba7addfc0f0af87b24047c996009b2",
+  "sha256": "106rdznc1b5h2xpjfyn0b83lrrccnazm5fnrl6lrhldyzibdnnsi",
+  "error": "Not in archive",
+  "fetcher": "gitlab",
+  "repo": "sasanidas/maxima"
  },
  {
   "ename": "mb-url",
@@ -77316,15 +77340,15 @@
   "repo": "zzamboni/ox-leanpub",
   "unstable": {
    "version": [
-    20201005,
-    2006
+    20201017,
+    2104
    ],
    "deps": [
     "org",
     "ox-gfm"
    ],
-   "commit": "c1305a382a842bf6ab3b441f65c34b36a0a93f57",
-   "sha256": "1sprywjlz8vzdi846np05ifjz5pb9jgrs29fnym3h40zm1l6dp31"
+   "commit": "99af28d0a42f70ea370dad52da061dfd0d8ee7da",
+   "sha256": "08dxsazlxl8nb0vzfvyqzlg7f8wg2glg5d4vdn8qai0hydwqi7v5"
   }
  },
  {
@@ -77610,6 +77634,21 @@
    ],
    "commit": "9d3ec9a6326289074d8620e97d65e3105307ff51",
    "sha256": "1gm8wwpsq10cfppzl104g3x2g9bha1209p2n8mj9azv71b9mszqx"
+  }
+ },
+ {
+  "ename": "ox-ssh",
+  "commit": "6ec996a2c28b8fa2fd818befd18ff431ec1f79c1",
+  "sha256": "1vhf24v0ilgarwgsy82wvhzch2gklcfynmmwjv0qg8jd4hwakblj",
+  "fetcher": "github",
+  "repo": "dantecatalfamo/ox-ssh",
+  "unstable": {
+   "version": [
+    20201014,
+    1843
+   ],
+   "commit": "113767a66d840286971dfb633dec53bd237dde81",
+   "sha256": "093ykbp1yraahb6vkw468z2fswcnijsnaxnd67h2sjxaxra5ck85"
   }
  },
  {
@@ -99032,8 +99071,8 @@
     20200212,
     1903
    ],
-   "commit": "8ff312b6049ce41819b8b996e574c7057c53e608",
-   "sha256": "1yjdl4xq5hraj1c1lwf6b9svi4isn31a5v0r7qf5qrr49mdm8jp7"
+   "commit": "f37e9848ca9f633b7c8fb2f70924eb120b24a17f",
+   "sha256": "0ppmz14kvw89z08r4j317h9icz8fp3ks18aj2h28d3pd63z20gpb"
   },
   "stable": {
    "version": [
@@ -108166,15 +108205,15 @@
   "repo": "EFLS/zetteldeft",
   "unstable": {
    "version": [
-    20201014,
-    2135
+    20201017,
+    2026
    ],
    "deps": [
     "ace-window",
     "deft"
    ],
-   "commit": "4c86b897f62f77ea513c704cf5053cf18c416682",
-   "sha256": "0vk91mk1a6hvar8mdp2cckfw4njlgadxb5lbafrgwwjyhnqslggi"
+   "commit": "9a26ccae2b5bf3b1954f38fdb798e07696f1bf41",
+   "sha256": "039ikyr0gdvs3rmxvhnj1pjqg35hjk5lnp3r1iadiixvxi51kgv0"
   },
   "stable": {
    "version": [
