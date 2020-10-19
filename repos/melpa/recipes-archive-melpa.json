@@ -43712,11 +43712,11 @@
   "repo": "clarete/hackernews.el",
   "unstable": {
    "version": [
-    20201018,
-    2356
+    20201019,
+    5
    ],
-   "commit": "35770668459910c070e78bc1ac2e148235ae8edc",
-   "sha256": "1dl7cawkw93zw6wnih1bn53n0ywlaprwqwzx9s5dzznsvkvcy3gc"
+   "commit": "c793275565372f63bf9dc1229d5b893a5bd0278e",
+   "sha256": "1fld3q2j58ka130v7gqm24ngw5ghy9vk63141y7bkjs5zb8mahpl"
   },
   "stable": {
    "version": [
@@ -69213,6 +69213,26 @@
   }
  },
  {
+  "ename": "nntwitter",
+  "commit": "39b3ec38c4a6762afdea13c17e0447caa976181f",
+  "sha256": "0788lajp113rqc38d0s1qypvgmfnxw1mjcj97syi27jda5jw3lbl",
+  "fetcher": "github",
+  "repo": "dickmao/nntwitter",
+  "unstable": {
+   "version": [
+    20201017,
+    2149
+   ],
+   "deps": [
+    "anaphora",
+    "dash",
+    "request"
+   ],
+   "commit": "43ac2d6248b01d980fbaefa02dc6bba927fdc689",
+   "sha256": "1jl50gzykymz0a33v1idiwx0rlikaf7s7fg11n2ka2rgz1rd25r8"
+  }
+ },
+ {
   "ename": "no-emoji",
   "commit": "af6b04c1f95468254f2cf361964df9fd25d23586",
   "sha256": "1lr6bzjxwn3yzw0mq36h2k2h8bqb1ngin42swhv022yx6a022zn2",
@@ -70427,11 +70447,20 @@
   "repo": "taiju/ob-deno",
   "unstable": {
    "version": [
-    20201012,
-    851
+    20201019,
+    101
    ],
-   "commit": "3107e2a71b69d32c548cc6bbaef4d1907afa51b3",
-   "sha256": "0537v16z5n953cikhphlg7z3pc1xi0jq7mrwpx48b4b8fbqaz03l"
+   "commit": "d5ef87a095cfccd3dfdcae75e5936d3daee59882",
+   "sha256": "1wi9rq0naramz4pcf20cy3nb6r30yf7nrkiff6y28a0lvxnw37j5"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    1
+   ],
+   "commit": "e3b06d7662687e402905b9de4ad1d5816e89b842",
+   "sha256": "048xry2bj3xkkjw8n8lmwrjv1rhyhgf7xf8k86vw64754z5394xm"
   }
  },
  {
@@ -76315,10 +76344,10 @@
    "version": [
     1,
     2,
-    1
+    2
    ],
-   "commit": "5d71205eafaa429d25475e1e25e1bdc61b9eb6eb",
-   "sha256": "0kpxyavk4f1bzbnjazf9cbbznlagjqjjxfp9myxpv2yw2mkiljjl"
+   "commit": "1ae6e948e5229c560eb4b98a9fe3082c8d722430",
+   "sha256": "0qd5fdgw6nnwa6r5w1ns01c4d8qlxx80rx0agfkba0kxda59g2fr"
   }
  },
  {
@@ -88247,11 +88276,11 @@
   "repo": "kmuto/review-el",
   "unstable": {
    "version": [
-    20200710,
-    155
+    20201019,
+    104
    ],
-   "commit": "9d39012068c60d1c525354132e1ee48a871d076d",
-   "sha256": "1ry7mipfrrgv4k5iw9l7m2q31mlxbjzxp1lrsr474avwkqnlqb3m"
+   "commit": "e6a2a10d4544cd2d5893e44dc534681af8db4fea",
+   "sha256": "0l16jn39hsadnzkz9yz7fwzwa544w3gvnm2r71g8piqca0as01qy"
   }
  },
  {
@@ -99139,8 +99168,8 @@
     20200212,
     1903
    ],
-   "commit": "95e749f3616bb8d78946720db5dfd6a50a107b36",
-   "sha256": "1w6h8nyykaq5hqyr8632gq5s7yv9rpab09vsfrm8r9h0kf0yhhdl"
+   "commit": "160adda42cce22515b87b814bc063044a75f4e24",
+   "sha256": "17wj2x22bznz9bfcg135nc1qfrq4fvzqjk8pnw5lhmmh58fz5mrj"
   },
   "stable": {
    "version": [
