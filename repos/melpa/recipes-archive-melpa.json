@@ -10973,7 +10973,7 @@
   "unstable": {
    "version": [
     20201018,
-    1202
+    2140
    ],
    "deps": [
     "dash",
@@ -10983,8 +10983,8 @@
     "s",
     "string-inflection"
    ],
-   "commit": "893bcb8dcb48ac9850841b58c7b64c1969e6f3de",
-   "sha256": "0xfkp8dccflas5ps30g3fw1vifn8pp9h9cyvxr1pcmyqr9rivy8f"
+   "commit": "f6268ab07de45ba6a324f8cbb6b6fec99ba6472b",
+   "sha256": "041ds8ml0r74d0cl2wyj8jp9vz1gc34b8ycw7xqc0sx53cl5f8jw"
   },
   "stable": {
    "version": [
@@ -43712,11 +43712,11 @@
   "repo": "clarete/hackernews.el",
   "unstable": {
    "version": [
-    20200604,
-    1557
+    20201018,
+    2356
    ],
-   "commit": "019a727b41e2726516841048a2b5b04f2ed2301a",
-   "sha256": "1b4vlk3l1mm8jz0kkyjbddfnx963vzsq4gprci8aw203fjnxhbdx"
+   "commit": "35770668459910c070e78bc1ac2e148235ae8edc",
+   "sha256": "1dl7cawkw93zw6wnih1bn53n0ywlaprwqwzx9s5dzznsvkvcy3gc"
   },
   "stable": {
    "version": [
@@ -98139,6 +98139,39 @@
    ],
    "commit": "a83dcda21b0f6e10e51c3cded7da9a5d2ead5f34",
    "sha256": "1cg34l6jq75mcqnb3p93z0kv1arvnswm8nkk39fmryand2yygnl9"
+  }
+ },
+ {
+  "ename": "teletext",
+  "commit": "bb8c8385f8214a47dadf6a3e6f614cb98949095b",
+  "sha256": "05q8jq5pcrchp33pd43f8lf8sf67m1mj2a8qn2ly0ci0885gif6i",
+  "fetcher": "github",
+  "repo": "lassik/emacs-teletext",
+  "unstable": {
+   "version": [
+    20201018,
+    705
+   ],
+   "commit": "5b5b3eed88b941a3fdf81216a06fd47b131f8c23",
+   "sha256": "11ywz1q1qp2hmi4wr2d3mlhm7rd66z381dxw71dainam0m761vnv"
+  }
+ },
+ {
+  "ename": "teletext-yle",
+  "commit": "bb8c8385f8214a47dadf6a3e6f614cb98949095b",
+  "sha256": "10ykpz4n6ir68idx0878fbw8x7fwj1qsj29kqd4alpfikdw2z4cp",
+  "fetcher": "github",
+  "repo": "lassik/emacs-teletext-yle",
+  "unstable": {
+   "version": [
+    20201018,
+    714
+   ],
+   "deps": [
+    "teletext"
+   ],
+   "commit": "4e05598589f2cdd87c5ad745f430b6832800cc1a",
+   "sha256": "13va89xg9a42fybd4vks4y5w4hw05d6g3b0pz12wbakzfrkpbmxw"
   }
  },
  {
