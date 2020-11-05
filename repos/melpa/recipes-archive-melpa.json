@@ -12037,8 +12037,8 @@
     20190710,
     1319
    ],
-   "commit": "1588e65f4c712913db8c0fdd270a00cdd384661c",
-   "sha256": "10a01x7xdi2h5pp59440slgc89ddw7kvp259bcpxvzz4w3ada1sc"
+   "commit": "c43b0505a5806ce38274899cc09f42d3fd7d72ee",
+   "sha256": "0rgp7qnra78358s92470smpcq4hqk4z0rqg8vgcnqfzjcsgzg0x5"
   },
   "stable": {
    "version": [
@@ -25816,14 +25816,15 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20201027,
-    1832
+    20201105,
+    1331
    ],
    "deps": [
-    "cl-lib"
+    "cl-lib",
+    "seq"
    ],
-   "commit": "94019bb34c56341e66b14c41ff706273e039f525",
-   "sha256": "10mymrwz2qswf7ciw0myab9jv13rah5pfarhqnwp20kb8yj3gpqi"
+   "commit": "87059ff05739ad98bf1ab32e6b1c8917d5e21556",
+   "sha256": "0hnjq271jv4wby5m6dsblijx5j7cp71d9i07qwy1fkqrgj70zacs"
   },
   "stable": {
    "version": [
@@ -27191,10 +27192,10 @@
    "version": [
     23,
     1,
-    1
+    2
    ],
-   "commit": "3f21ce1e6a5d6c548867fa4bc9a8c666c626ade1",
-   "sha256": "0l4mpmi1wkggsr99l1fh8xqnx823xbp1fx4n9xpbxkz4baziyi7p"
+   "commit": "fea47f1127b7190898b84852a90a4426fa022b39",
+   "sha256": "06dp2sw486khy2lc34cw5dca58ii5jvi26dpchiqxnmyvd6995z0"
   }
  },
  {
@@ -64260,14 +64261,14 @@
   "unstable": {
    "version": [
     20201105,
-    1040
+    1337
    ],
    "deps": [
     "s",
     "test-simple"
    ],
-   "commit": "f2ae5a52695ea7d394fe6b94812cc84e21d53b6d",
-   "sha256": "1g9pyrq4p64zv5hdixjlqybfv34y1knsx9zamfak59l75pydidzp"
+   "commit": "908dd9c5d298e100faaed2a016b3763ff6a6f577",
+   "sha256": "1zmvdq0ymi22fmarxzhsilfb0gsycb3rpmgswrwy0xldwk0dj1kn"
   },
   "stable": {
    "version": [
@@ -71329,8 +71330,8 @@
     20201013,
     1221
    ],
-   "commit": "4c51ca4d1809e0d4453496ddb8c3b8cb082e9a65",
-   "sha256": "1ybgmyfkm4ddcmq1gcyxl0zncx73fbl079y632p9l0x8zi6azshm"
+   "commit": "6215f9401c09265935c5f871d3ef4c4a303319d7",
+   "sha256": "1jww3cx1gza14kpfs5h49i61sdvw2vl1pgmzhwmy3id3zmqaqqv5"
   },
   "stable": {
    "version": [
@@ -99286,8 +99287,8 @@
     20200212,
     1903
    ],
-   "commit": "9fb9a886baf4ac984d2f0b3b83cc91b028bbd3f5",
-   "sha256": "0ahf6pvfslx1cldhkv65ghnfr4als0hrjxsyc5idk404fznzk7sn"
+   "commit": "7b9cd4d62f6fdc56509671f88861d2066a66d47f",
+   "sha256": "17az4wvqc76pgypghjiy5l836q0fijizagf1jksis6p8wv6qfn1c"
   },
   "stable": {
    "version": [
@@ -100534,7 +100535,7 @@
    "deps": [
     "tsc"
    ],
-   "commit": "87a40a1b2b38bf0f0bc853620f2dd1ea2f46f1c0",
+   "commit": "7353fb63cdd0c31c99992bf31ab3581bd4139c57",
    "sha256": "1dxwchmjv4b6irjm7v8imrcj9h5k86lcckc1g80fkzkk57bnq5ka"
   }
  },
@@ -100564,7 +100565,7 @@
    "deps": [
     "tree-sitter"
    ],
-   "commit": "87a40a1b2b38bf0f0bc853620f2dd1ea2f46f1c0",
+   "commit": "7353fb63cdd0c31c99992bf31ab3581bd4139c57",
    "sha256": "1dxwchmjv4b6irjm7v8imrcj9h5k86lcckc1g80fkzkk57bnq5ka"
   }
  },
@@ -101075,7 +101076,7 @@
     12,
     1
    ],
-   "commit": "87a40a1b2b38bf0f0bc853620f2dd1ea2f46f1c0",
+   "commit": "7353fb63cdd0c31c99992bf31ab3581bd4139c57",
    "sha256": "1dxwchmjv4b6irjm7v8imrcj9h5k86lcckc1g80fkzkk57bnq5ka"
   }
  },
