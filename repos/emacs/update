@@ -20,7 +20,7 @@ function update_repo() {
 
     output_branch=$(echo $branch | sed s/"\/"/"_"/)
     digest=$(nix-prefetch-url --unpack "https://github.com/$owner/$repo/archive/${commit_sha}.tar.gz")
-    echo "{\"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > $repo-$output_branch.json
+    echo "{\"owner\": \"${owner}\", \"repo\": \"${repo}\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > $repo-$output_branch.json
 }
 
 function update_release() {
@@ -33,7 +33,7 @@ function update_release() {
 
     digest=$(nix-prefetch-url --unpack "https://github.com/$owner/$repo/archive/${tag}.tar.gz")
 
-    echo "{\"rev\": \"${tag}\", \"sha256\": \"${digest}\", \"version\": \"${tag}\"}" > $repo-$branch.json
+    echo "{\"owner\": \"${owner}\", \"repo\": \"${repo}\", \"rev\": \"${tag}\", \"sha256\": \"${digest}\", \"version\": \"${tag}\"}" > $repo-$branch.json
 }
 
 update_repo emacs-mirror emacs master
