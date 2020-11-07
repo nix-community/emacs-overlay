@@ -39,9 +39,7 @@ let
               name = "${namePrefix}-${repoMeta.version}";
               inherit (repoMeta) version;
               src = super.fetchFromGitHub {
-                owner = "emacs-mirror";
-                repo = "emacs";
-                inherit (repoMeta) sha256 rev;
+                inherit (repoMeta) owner repo sha256 rev;
               };
 
               patches = [
