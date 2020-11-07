@@ -81,9 +81,22 @@ let
         )
       ];
 
+  mkPgtkEmacs = namePrefix: jsonFile: (mkGitEmacs namePrefix jsonFile).overrideAttrs (
+    old: {
+      configureFlags = (super.lib.remove "--with-xft" old.configureFlags)
+        ++ super.lib.singleton "--with-pgtk";
+    }
+  );
+
   emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json;
 
   emacsGcc = (mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-feature_native-comp.json).override {
+    nativeComp = true;
+  };
+
+  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-pgtk.json;
+
+  emacsPgtkGcc = (mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-pgtk-nativecomp.json).override {
     nativeComp = true;
   };
 
@@ -101,6 +114,8 @@ in
   inherit emacsGit emacsUnstable;
 
   inherit emacsGcc;
+
+  inherit emacsPgtk emacsPgtkGcc;
 
   emacsGit-nox = (
     (
