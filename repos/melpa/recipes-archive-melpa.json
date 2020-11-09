@@ -8408,8 +8408,8 @@
   "repo": "alphapapa/bufler.el",
   "unstable": {
    "version": [
-    20201106,
-    211
+    20201108,
+    1800
    ],
    "deps": [
     "dash",
@@ -8418,8 +8418,8 @@
     "magit-section",
     "pretty-hydra"
    ],
-   "commit": "3f87da0a5eda8dbebea8f6b272ac3dd352f9d219",
-   "sha256": "1s0asyx3gygzi16lrjfmzrqbchsbsh1dsjsbf0fawnc5rpcdcwbj"
+   "commit": "455890f01d715a1dc9dabc053bf769b182042f61",
+   "sha256": "14sz2l5wsbrsyrs7282hcx1fhijyzk5z4bpmg8vr5xzms2yrzn3s"
   },
   "stable": {
    "version": [
@@ -8634,14 +8634,14 @@
   "repo": "alphapapa/burly.el",
   "unstable": {
    "version": [
-    20201107,
-    517
+    20201109,
+    222
    ],
    "deps": [
     "map"
    ],
-   "commit": "45d3ee275fd2eda706ec5f85f0a295883d37425b",
-   "sha256": "1sww1qmsmi8wb2g8cr3r03ll386nih4dd1601x0v1y7xw6gz7syv"
+   "commit": "97cb15638a40a22ce1f31375a94794336cfcc3b7",
+   "sha256": "0bvwbgyp2jxr70z5nqphxwiddy7by3fh5ksq36mw9wdnh80x03n9"
   }
  },
  {
@@ -12055,8 +12055,8 @@
     20190710,
     1319
    ],
-   "commit": "94be747920ebeeefc51f63b9ed447460d7de6cc5",
-   "sha256": "1fdphf665690gx6imjynb4x06jbhnipqdd62wkipqs9ah7sln9pi"
+   "commit": "eb488595940f382d8b776c147604ea7cd1690590",
+   "sha256": "0j91hasrira7l6k2qlnpsmixjsg44pskrsin0la0a809vhx7ijqi"
   },
   "stable": {
    "version": [
@@ -40766,15 +40766,15 @@
   "repo": "Kinneyzhang/gkroam.el",
   "unstable": {
    "version": [
-    20201108,
-    1638
+    20201109,
+    335
    ],
    "deps": [
     "company",
     "db"
    ],
-   "commit": "9b4b8bf37d5fccab1e5861bf7332ecddd161d6fb",
-   "sha256": "1r2cym76h5m98nvwsxz0dmkqmwvj9zshjkrazidcdgipb2mbk850"
+   "commit": "a35a0f3adc63e512c949bb7940a6e46cdcbc6fde",
+   "sha256": "1gmsvay0yp5an5iswgxzs98s343aw0h4z0mp4lwiyk78hs8ia19n"
   },
   "stable": {
    "version": [
@@ -45031,8 +45031,8 @@
     "bufler",
     "helm"
    ],
-   "commit": "3f87da0a5eda8dbebea8f6b272ac3dd352f9d219",
-   "sha256": "1s0asyx3gygzi16lrjfmzrqbchsbsh1dsjsbf0fawnc5rpcdcwbj"
+   "commit": "455890f01d715a1dc9dabc053bf769b182042f61",
+   "sha256": "14sz2l5wsbrsyrs7282hcx1fhijyzk5z4bpmg8vr5xzms2yrzn3s"
   },
   "stable": {
    "version": [
@@ -74559,8 +74559,8 @@
     "transient",
     "ts"
    ],
-   "commit": "4194456b4023bba31fe6b8a43a1332cacbc3ce5d",
-   "sha256": "0xs37ix6fg2gi8r00l9190v1yfkfqmjdwwdy0dh79rrvq2p4ch6h"
+   "commit": "a91bb208a347441e5332a537e5b56840bd9e47e3",
+   "sha256": "02qfxqcfh276zlk8wr437l3f1jl8cdpdp4xxcw53rxx99plkczk6"
   },
   "stable": {
    "version": [
@@ -89529,11 +89529,11 @@
   "repo": "ideasman42/emacs-run-stuff",
   "unstable": {
    "version": [
-    20201012,
-    2306
+    20201109,
+    351
    ],
-   "commit": "28f7456f134447a0965033a04427c971728f2d12",
-   "sha256": "125axhgp1hwaykgql9qj0zx9y9qpq8kq019wfg6ajn5s4564m1gb"
+   "commit": "54787de62839c48428f2e1edc4e2aa64851e9849",
+   "sha256": "0zbf2nvnwx6yyjjk4xfdpn15bna6r32n02q32qzk6bnqipw54ca3"
   }
  },
  {
@@ -93971,15 +93971,15 @@
   "repo": "kyleam/snakemake-mode",
   "unstable": {
    "version": [
-    20201101,
-    2124
+    20201109,
+    315
    ],
    "deps": [
     "cl-lib",
     "magit-popup"
    ],
-   "commit": "61f770aee9aaa09ba56f7a20fe6034b551241f1b",
-   "sha256": "0bpyrjp5126gqdxh4nj6h7id725vdmr99q7hwhy9nfrwp0k4jni2"
+   "commit": "0e4ef118ca3af4a6851fe670cf8fe7472ba18393",
+   "sha256": "0cl956wav9vnsxz0ky0ykcjxa3m43zld8ybn24r5yy54kr00nicm"
   },
   "stable": {
    "version": [
@@ -95460,10 +95460,10 @@
  },
  {
   "ename": "sql-sqlline",
-  "commit": "0fd21ac42207156f7300f4ab6ac082c801740daf",
-  "sha256": "1b5jkdajif0yc558nv29y8vimnj6bq52z2m91qj6mplcbgpdrnn6",
+  "commit": "6fd01687e84065e33885927055c5c1e05da61955",
+  "sha256": "12nwvfj702gg06fxcjg8g283lj8q7ydq28k6qv1x6gmip7jsc1q8",
   "fetcher": "gitlab",
-  "repo": "matteo.redaelli/sql-sqlline",
+  "repo": "matteoredaelli/sql-sqlline",
   "unstable": {
    "version": [
     20201102,
@@ -100832,6 +100832,14 @@
    "commit": "16b0819c6f27f45fe0495a29eeff5f01bd765b04",
    "sha256": "0m083g3pg0n4ymi1w0jx34awr7cqbm4r561adij9kklblxsz7sc2"
   }
+ },
+ {
+  "ename": "treemacs-perspective",
+  "commit": "bdc1cc9c16984a5e948a3ced981155c4ea0eeba2",
+  "sha256": "1pd30gc0y2yqd5rn27bdgaygcgrvsjdwhcy24mkssvixaa2slhv0",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "Alexander-Miller/treemacs"
  },
  {
   "ename": "treemacs-projectile",
