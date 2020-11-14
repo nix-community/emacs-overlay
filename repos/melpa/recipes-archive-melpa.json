@@ -5549,18 +5549,19 @@
   "repo": "cniles/axe",
   "unstable": {
    "version": [
-    20201023,
-    38
+    20201113,
+    2237
    ],
    "deps": [
     "dash",
     "hmac",
+    "mimetypes",
     "request",
     "s",
     "xmlgen"
    ],
-   "commit": "f5aee765eadcbaf275ae20b47cfa3e655b8e81ed",
-   "sha256": "05gj4521xvkfad5zynfn68m8rsqaga9vsjylpynxc36j5832f947"
+   "commit": "f6fb37f6035605755be41d018ca8b70caa2bc75a",
+   "sha256": "10sb1a5r3ip1p7rckc2lzxbc5wv1fa3r10jqrsaz5y218rx3c2j6"
   }
  },
  {
@@ -17362,8 +17363,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20201113,
-    1401
+    20201114,
+    1434
    ],
    "deps": [
     "bui",
@@ -17375,8 +17376,8 @@
     "posframe",
     "s"
    ],
-   "commit": "8b7cbc68904036c211f29420c24cac82e74d817a",
-   "sha256": "0hmn1frq12azjxjq2gdif544j7is6mf02r5i6y1a9bk928fyfp36"
+   "commit": "09a562fec90764cf5556c8cd67681102306f5363",
+   "sha256": "1836p9z6mghdaw05vhc9kpin7l0sng5gxgy9d3wmphrlzn6wfxsm"
   },
   "stable": {
    "version": [
@@ -21390,11 +21391,11 @@
   "repo": "dracula/emacs",
   "unstable": {
    "version": [
-    20201030,
-    1727
+    20201114,
+    1553
    ],
-   "commit": "c29e408b2866d405b1588aec786c0698fd1821c8",
-   "sha256": "0vs7vmsn40mhns3qiablrf5znqwm99kaijkbb9csyaza28m3wfcy"
+   "commit": "aa2cae70f488e69637c0f58b98d1f21a2de7a93a",
+   "sha256": "170b34d7v0p9c46vz2b1wp833xxzbbsrl8vbagh2ya7gpsdcipzb"
   },
   "stable": {
    "version": [
@@ -25069,8 +25070,8 @@
   "repo": "jorgenschaefer/elpy",
   "unstable": {
    "version": [
-    20201003,
-    2153
+    20201114,
+    1429
    ],
    "deps": [
     "company",
@@ -25079,8 +25080,8 @@
     "s",
     "yasnippet"
    ],
-   "commit": "74eb42cce221c6b731ba9735edc595261e156e7e",
-   "sha256": "000lmx29gm2gp26pcr9iayj7r5d47076ka3p9ygcfm22579z10x2"
+   "commit": "b6eb9ad974819bf042e60920ee487f1ac2a9875b",
+   "sha256": "0fmmz8vjz1p1fb85rbgmkmsx0586b0vbwlbis0vkh1gyy75p5cv3"
   },
   "stable": {
    "version": [
@@ -27725,8 +27726,8 @@
  },
  {
   "ename": "eshell-outline",
-  "commit": "94fa37bf308dd377ffab3ae56ae727bd38b5c0a6",
-  "sha256": "0k31kf76rc6mbm1ncqif3mg92avk9imjd6679szw5sn16vx959k8",
+  "commit": "950b9323c19b145bbf07a9a8f780880a2593831c",
+  "sha256": "1k510vsfsnhp86y2587zbc0cmaf735sp802d6qk7bgdllljl18hd",
   "fetcher": "git",
   "url": "git://jamzattack.xyz/eshell-outline.git",
   "unstable": {
@@ -42514,8 +42515,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "d439b27d5aaa935fa65489dc8d4aa5ab7d39ffac",
-   "sha256": "1g6b0i1np88vmk4vaj56zlwk3lzfiikysx45h3cwl72m0yv4b6hc"
+   "commit": "c0358b6f521eecfcb43bc40896c30f48083f0c68",
+   "sha256": "1sisblwiin3zhq45rbyaxm12yxgap596vpbbblpjchbz8j9pnd9w"
   },
   "stable": {
    "version": [
@@ -59540,10 +59541,19 @@
   "unstable": {
    "version": [
     20201114,
-    1327
+    1543
    ],
-   "commit": "5e1922dd59968b5fe0a6b03eda87bb76b4f08f8d",
-   "sha256": "1p87vd8rf160lw0fkaj4nzv69pv16p23wnmm3zlk8gadkrhy7qhp"
+   "commit": "300d8362c4f8c7e9033e19852292d7efbe07284f",
+   "sha256": "0d9dy72bslb0rb47a83vygc8pba088nkafa5pi9h1v8h613zv7cd"
+  },
+  "stable": {
+   "version": [
+    1,
+    1,
+    0
+   ],
+   "commit": "300d8362c4f8c7e9033e19852292d7efbe07284f",
+   "sha256": "0d9dy72bslb0rb47a83vygc8pba088nkafa5pi9h1v8h613zv7cd"
   }
  },
  {
@@ -61794,8 +61804,7 @@
  },
  {
   "ename": "lsp-scala",
-  "commit": "fd494da0c0c2e2e58afc26d8e79aeeea41c6ee09",
-  "sha256": "1r8ha0q9gphcs6ihqswgvbhs9b6v6n1pvlqxwjnjwpdhsr5fsw1p",
+  "error": "No recipe info",
   "fetcher": "github",
   "repo": "rossabaker/lsp-scala",
   "unstable": {
@@ -68980,8 +68989,8 @@
     20181024,
     1439
    ],
-   "commit": "a0b56413e476977eaf01467c9b93aaa9e498ef86",
-   "sha256": "0haz5hmp1rbbl20gw95c4lgig28ckdj67g7n1a56g8x8adla84cs"
+   "commit": "a30ccaef7314f5aa858ba3167af08be4b518d960",
+   "sha256": "17d00mfz46abf2zzkbha5ll9b26wghj3wpsklfc4qa4wm2dy0vzq"
   },
   "stable": {
    "version": [
@@ -73870,17 +73879,17 @@
   },
   "stable": {
    "version": [
-    4,
+    5,
     0,
-    1
+    0
    ],
    "deps": [
     "dash",
     "org",
     "s"
    ],
-   "commit": "e388063b80875ed96b16533ef412bb2f720cd164",
-   "sha256": "080n7ilh6w7akhg9gn85l6gli0xzgbbv4y4kb88si26bsrvgb4rr"
+   "commit": "9abaf3c11f5482576a513eb7e51c780bf9c41590",
+   "sha256": "05a1b97dlz33hv9ym7zbqf68mdi72yy1qx132knz8yq04fwajr2k"
   }
  },
  {
@@ -81999,15 +82008,15 @@
   "repo": "galaunay/poetry.el",
   "unstable": {
    "version": [
-    20200927,
-    1524
+    20201114,
+    1723
    ],
    "deps": [
     "pyvenv",
     "transient"
    ],
-   "commit": "eb238d9085d884ffb2b7fda985cca1ce81747d58",
-   "sha256": "0vbgn8nfdlh863kmbyr14f92v76c6vjzy8dgd5062kzjykv17192"
+   "commit": "d5163fe065239bb7b46ed8b3ff3b85b1f3229af3",
+   "sha256": "0d84d2ysbb635d9riggvfnpck5qmijaybix3ian8r8ayymn7ajl4"
   },
   "stable": {
    "version": [
