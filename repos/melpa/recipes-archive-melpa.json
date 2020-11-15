@@ -27120,15 +27120,15 @@
   "repo": "ergoemacs/ergoemacs-mode",
   "unstable": {
    "version": [
-    20201113,
-    2211
+    20201114,
+    2201
    ],
    "deps": [
     "cl-lib",
     "undo-tree"
    ],
-   "commit": "72b0292e860b15ff2f8df367d9ed2114ebb60a6b",
-   "sha256": "1qz66a0sr5wf4cilv5iqhlikdv1wz94qz7cg8a16h65h1qrdrvli"
+   "commit": "ad3ec45ebbfdfaca052253c550102fd665b3bd1b",
+   "sha256": "06l7sx9bcvsm3p4jy6l4l5lgl357nrvr54491ignz7c9j403x6lm"
   },
   "stable": {
    "version": [
@@ -27729,7 +27729,7 @@
   "commit": "950b9323c19b145bbf07a9a8f780880a2593831c",
   "sha256": "1k510vsfsnhp86y2587zbc0cmaf735sp802d6qk7bgdllljl18hd",
   "fetcher": "git",
-  "url": "git://jamzattack.xyz/eshell-outline.git",
+  "url": "https://git.jamzattack.xyz/eshell-outline",
   "unstable": {
    "version": [
     20200912,
@@ -28813,15 +28813,15 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20201113,
-    1031
+    20201114,
+    1845
    ],
    "deps": [
     "annalist",
     "evil"
    ],
-   "commit": "8c256263ad100fecd6246c6c55cbb19dab717c39",
-   "sha256": "0hz1yfv5g016dm99bwnibbmyhbi21qlc39ckd7p3s82az89hgf2n"
+   "commit": "2f10de5f6d6bd785e89a2f4acf41b4eb9fcdd938",
+   "sha256": "032xs577sgzh77cgc0k84k0icm27rhpl03khxsnp03n5ikwiwyjh"
   },
   "stable": {
    "version": [
@@ -38176,8 +38176,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "9f5fa8ad739ddeb57556b7cc8a90c5f814c89ef0",
-   "sha256": "1slfkh4521s03ndk6rv3r06yrry1qvcgbzf2ql2x6w2b6qn41vb3"
+   "commit": "b198b6f51bb0564421596ee6cde6cf7175e92892",
+   "sha256": "0kvrm7ksij74xfkdyy4h3qqj06bqwzv1yxni0aj1yyvlr3iz18lk"
   },
   "stable": {
    "version": [
@@ -41596,8 +41596,8 @@
     "cl-lib",
     "go-mode"
    ],
-   "commit": "d17d21060b16a77f9ee28ff453e674225acbf1b1",
-   "sha256": "12za0s3mx4da2wdxiv032ifbx8vbx4as923rkbm90gdxrxlifvj5"
+   "commit": "5186c83e5691932d208fafedf9a1a5ade369eb24",
+   "sha256": "0h26s6274w2ns4phxyrwcwiqpi8hi4qdi8zq1yjyhgp8bkjrjwly"
   },
   "stable": {
    "version": [
@@ -41689,11 +41689,11 @@
   "repo": "dominikh/go-mode.el",
   "unstable": {
    "version": [
-    20200822,
-    1936
+    20201114,
+    2231
    ],
-   "commit": "d17d21060b16a77f9ee28ff453e674225acbf1b1",
-   "sha256": "12za0s3mx4da2wdxiv032ifbx8vbx4as923rkbm90gdxrxlifvj5"
+   "commit": "5186c83e5691932d208fafedf9a1a5ade369eb24",
+   "sha256": "0h26s6274w2ns4phxyrwcwiqpi8hi4qdi8zq1yjyhgp8bkjrjwly"
   },
   "stable": {
    "version": [
@@ -41812,8 +41812,8 @@
    "deps": [
     "go-mode"
    ],
-   "commit": "d17d21060b16a77f9ee28ff453e674225acbf1b1",
-   "sha256": "12za0s3mx4da2wdxiv032ifbx8vbx4as923rkbm90gdxrxlifvj5"
+   "commit": "5186c83e5691932d208fafedf9a1a5ade369eb24",
+   "sha256": "0h26s6274w2ns4phxyrwcwiqpi8hi4qdi8zq1yjyhgp8bkjrjwly"
   },
   "stable": {
    "version": [
@@ -61803,24 +61803,6 @@
   }
  },
  {
-  "ename": "lsp-scala",
-  "error": "No recipe info",
-  "fetcher": "github",
-  "repo": "rossabaker/lsp-scala",
-  "unstable": {
-   "version": [
-    20190604,
-    1237
-   ],
-   "deps": [
-    "lsp-mode",
-    "sbt-mode"
-   ],
-   "commit": "06f189aa5cafe93cecbdaa234bccd900def7bc68",
-   "sha256": "05l563j1wz01rqwd4r639i88ln3bkn0m4swvj3hs11d70brlw981"
-  }
- },
- {
   "ename": "lsp-sonarlint",
   "commit": "ee843ab9cc6188b4f1b8f31ab4a4e69688fb36df",
   "sha256": "19a189aaws5i6klzjbplh4wxq7z38399wpmkgcji5cc7anzrkzqn",
@@ -74924,7 +74906,7 @@
   "unstable": {
    "version": [
     20201114,
-    1312
+    2043
    ],
    "deps": [
     "dash",
@@ -74934,8 +74916,8 @@
     "org",
     "s"
    ],
-   "commit": "8401784cd2878a931aab3bb5fd33b448c972999e",
-   "sha256": "1qw7w93iyl0g0w33ykra3ah4dgwz8jl3f866l42h7k4clrml1xn3"
+   "commit": "650287457675da385a115456f3ec49430e0f04f0",
+   "sha256": "06q60baq53iqn4nbm1s552vcr8h1ms1y6bz1sjvfnlsjlp2fdhz9"
   },
   "stable": {
    "version": [
