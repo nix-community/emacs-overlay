@@ -1,6 +1,6 @@
 /*
 Parse an emacs lisp configuration file to derive packages from
-use-package declarations.
+use-package (or leaf) declarations.
 */
 
 { pkgs }:
@@ -13,14 +13,29 @@ let
 in
 { config
 # emulate `use-package-always-ensure` behavior
+# this works as expected with `leaf` as well
 , alwaysEnsure ? false
 # emulate `#+PROPERTY: header-args:emacs-lisp :tangle yes`
 , alwaysTangle ? false
+# use `leaf` instead of `use-package`
+, useLeaf ? false
 , extraEmacsPackages ? epkgs: [ ]
 , package ? pkgs.emacs
 , override ? (epkgs: epkgs)
 }:
 let
+  managerName =
+    if useLeaf then
+      "leaf"
+    else
+      "use-package";
+
+  managerPkg = epkgs:
+    if useLeaf then
+      epkgs.leaf
+    else
+      epkgs.use-package;
+
   ensureNotice = ''
     Emacs-overlay API breakage notice:
 
@@ -48,7 +63,7 @@ let
       else throw "Unsupported type for config: \"${type}\"";
 
   packages = showNotice (parse.parsePackagesFromUsePackage {
-    inherit configText alwaysEnsure isOrgModeFile alwaysTangle;
+    inherit configText alwaysEnsure isOrgModeFile alwaysTangle useLeaf;
   });
   emacsPackages = pkgs.emacsPackagesGen package;
   emacsWithPackages = emacsPackages.emacsWithPackages;
@@ -56,7 +71,7 @@ let
     let
       errorFun = if alwaysEnsure then builtins.trace else throw;
     in
-    errorFun "Emacs package ${name}, declared wanted with use-package, not found." null;
+    errorFun "Emacs package ${name}, declared wanted with ${managerName}, not found." null;
 in
 emacsWithPackages (epkgs:
   let
@@ -64,4 +79,4 @@ emacsWithPackages (epkgs:
     usePkgs = map (name: overridden.${name} or (mkPackageError name)) packages;
     extraPkgs = extraEmacsPackages overridden;
   in
-  [ overridden.use-package ] ++ usePkgs ++ extraPkgs)
+  [ (managerPkg overridden) ] ++ usePkgs ++ extraPkgs)

@@ -44,7 +44,7 @@ let
     in
     parseReqList requires;
 
-  # Get a list of packages declared wanted with `use-package` in the
+  # Get a list of packages declared wanted with `use-package` (or `leaf`) in the
   # input string `config`. The goal is to only list packages that
   # would be installed by `use-package` on evaluation; thus we look at
   # the `:ensure` and `:disabled` keyword values to attempt to figure
@@ -74,8 +74,15 @@ let
     , alwaysEnsure ? false
     , isOrgModeFile ? false
     , alwaysTangle ? false
+    , useLeaf ? false
   }:
     let
+      managerName =
+        if useLeaf then
+          "leaf"
+        else
+          "use-package";
+
       readFunction =
         if isOrgModeFile then
           fromOrgModeBabelElisp' { ":tangle" = if alwaysTangle then "yes" else "no"; }
@@ -134,7 +141,7 @@ let
 
       recurse = item:
         if builtins.isList item && item != [] then
-          if (builtins.head item) == "use-package" then
+          if (builtins.head item) == managerName then
             if !(isDisabled item) then
               [ (getName item) ] ++ map recurse item
             else
