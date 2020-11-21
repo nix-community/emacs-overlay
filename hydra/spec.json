@@ -4,7 +4,7 @@
   "description": "Emacs-overlay jobsets",
   "nixexprinput": "src",
   "nixexprpath": "hydra/default.nix",
-  "checkinterval": 300,
+  "checkinterval": 1800,
   "schedulingshares": 100,
   "enableemail": false,
   "emailoverride": "",
