@@ -12,7 +12,7 @@ let
     description = "Emacs-overlay jobset for nixpkgs branch ${nixpkgsRelease} (${descriptionNote})";
     nixexprinput = "src";
     nixexprpath = "hydra/${nixFile}";
-    checkinterval = 300;
+    checkinterval = 1800;
     schedulingshares = 100;
     enableemail = false;
     emailoverride = "";
