@@ -70,6 +70,18 @@ let
       descriptionNote = "emacs packages (native-comp)";
     };
 
+    unstable-pgtk-pkgs = mkJobset {
+      nixpkgsRelease = "nixos-unstable";
+      nixFile = "packages-pgtk.nix";
+      descriptionNote = "emacs packages (pgtk)";
+    };
+
+    unstable-pgtk-gcc-pkgs = mkJobset {
+      nixpkgsRelease = "nixos-unstable";
+      nixFile = "packages-pgtk-gcc.nix";
+      descriptionNote = "emacs packages (pgtk + native-comp)";
+    };
+
   };
 
 in {
