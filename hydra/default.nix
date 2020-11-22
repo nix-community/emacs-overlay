@@ -41,7 +41,7 @@ let
     };
 
     stable = mkJobset {
-      nixpkgsRelease = "nixos-20.03";
+      nixpkgsRelease = "nixos-20.09";
       nixFile = "emacsen.nix";
       descriptionNote = "emacs";
     };
