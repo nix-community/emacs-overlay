@@ -10,6 +10,7 @@ let
 in {
   inherit (pkgs) emacsUnstable emacsUnstable-nox;
   inherit (pkgs) emacsGit emacsGit-nox;
+  inherit (pkgs) emacsPgtk;
 } // lib.optionalAttrs (lib.hasAttr "libgccjit" pkgs) {
-  inherit (pkgs) emacsGcc;
+  inherit (pkgs) emacsGcc emacsPgtkGcc;
 }
