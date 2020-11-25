@@ -12069,8 +12069,8 @@
     20201119,
     1544
    ],
-   "commit": "5b8b8386f56aaf4234cf71101602a066f38d831a",
-   "sha256": "02yr9s2rk0w1n5xqq0rbaz8zqankqmkdznar0alw1mhiq6j6kn8k"
+   "commit": "f32026f12db16cbfce233dca0c94a7b551b48259",
+   "sha256": "03dfvspi3qsgc263d0cv744n0yjcwdwz0p10z4cynh7972x7b8hs"
   },
   "stable": {
    "version": [
@@ -21822,8 +21822,8 @@
     20191016,
     1241
    ],
-   "commit": "cff0022b0061fbbe97de2f0a8b959ab64c812951",
-   "sha256": "0gjva4y742wpmnpnjb6vsx1qdz26pvwfz8qh0p0pc9hhzyp3ckxl"
+   "commit": "555fd33d1b6482d2001e0ada91a7e2f8d154b19f",
+   "sha256": "0dshqz61k797x821sj8kv567wz4m5h7sk25l91iphmxid5q3xlva"
   },
   "stable": {
    "version": [
@@ -28861,8 +28861,21 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20201123,
-    1608
+    20201124,
+    2000
+   ],
+   "deps": [
+    "annalist",
+    "evil"
+   ],
+   "commit": "e24469514a30dd55e65d2c6d90264f496cf4d27f",
+   "sha256": "13fb7s8sp3ybrczlvyz7n57dsnq9kafxb0qpwfn8bjgwj3hz9hwj"
+  },
+  "stable": {
+   "version": [
+    0,
+    0,
+    4
    ],
    "deps": [
     "annalist",
@@ -28870,20 +28883,6 @@
    ],
    "commit": "04df79eadc952eaa9469094426b008426d3c5bee",
    "sha256": "0ydr06krlj6v1r7hq3m5iy875mhmjr9amcfjjgqglfnzhic29g18"
-  },
-  "stable": {
-   "version": [
-    0,
-    0,
-    3
-   ],
-   "deps": [
-    "annalist",
-    "cl-lib",
-    "evil"
-   ],
-   "commit": "34d515e99e911f368b335bbccc026b71b42a9821",
-   "sha256": "1737dbwv8fa9kps340jsvjyz4gd5vjf3zrdzbvjcjh56ssvdaw2w"
   }
  },
  {
@@ -29401,8 +29400,8 @@
     "evil",
     "magit"
    ],
-   "commit": "04a4580c6eadc0e2b821a3525687e74aefc30e84",
-   "sha256": "1zckz54pwx63w9j4vlkx0h9mv0p9nbvvynvf9cb6wqm3d0xa4rw2"
+   "commit": "41b57bba7bde54564b8741128d1c5d6411014b41",
+   "sha256": "11wggw8q50hy42c7kidxk4k32h7m5bbpsy5a7wy3sdqzh84s3ija"
   },
   "stable": {
    "version": [
@@ -61733,8 +61732,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "e03ca1e05363045a7773f6ac4c8645b985f7ede1",
-   "sha256": "15znxgzjgrvzcwljhaq06j1zp1kvy0v8rd1c6hllissgdv24lb00"
+   "commit": "b1beca7ab4eccb0417ee8b31bc9704beb2d257f5",
+   "sha256": "0dg5iiivkdb4gnmsbsp4kc947qag5lyf2n7z2a4ly21apr1k2xk9"
   },
   "stable": {
    "version": [
@@ -74677,7 +74676,7 @@
   "unstable": {
    "version": [
     20201124,
-    1747
+    1845
    ],
    "deps": [
     "dash",
@@ -74692,8 +74691,8 @@
     "transient",
     "ts"
    ],
-   "commit": "5fab48e2cd0ed0f37cf81816349a61219688436e",
-   "sha256": "10m3k0vm5amkxizadcxr0d0637a6gk4j707k63fpmbzgyipw5ldj"
+   "commit": "73209cf48eabf665c65d05ff669f929c188220a9",
+   "sha256": "0grp3av9lpk8lh14nj535zl6a72wjb5fyg9wzb9vazqi5l0zzx9r"
   },
   "stable": {
    "version": [
@@ -74925,8 +74924,8 @@
   "repo": "jkitchin/org-ref",
   "unstable": {
    "version": [
-    20201123,
-    1817
+    20201124,
+    2029
    ],
    "deps": [
     "dash",
@@ -74940,8 +74939,8 @@
     "pdf-tools",
     "s"
    ],
-   "commit": "35711c02992413e1df8aee54af290ac8650dbb82",
-   "sha256": "01vvd95gf6bg266qwbv1dwrpk87jkd32zxxwqilf77fscf6j63xv"
+   "commit": "8e84fc1dadef57c47d16db7429b282891cadd36e",
+   "sha256": "1iaspqa3pirm5skav9mk2va5hg0z913vfr3l92r81hldjk5sq0jy"
   },
   "stable": {
    "version": [
@@ -105198,28 +105197,28 @@
   "repo": "etu/webpaste.el",
   "unstable": {
    "version": [
-    20201123,
-    1811
+    20201124,
+    2104
    ],
    "deps": [
     "cl-lib",
     "request"
    ],
-   "commit": "0760361676643008d67ab4fa75b000b5ab9455a4",
-   "sha256": "0vnqqqjxgz8qisx0zljxcqw01x8jjqcnf441znp9f0xcmssz9j28"
+   "commit": "9662b1c9c40e822d90842c82a778f65c709d3358",
+   "sha256": "08545ihkzflw80rwklnxiswrpdrl8kr74xzxm5wsgrf36fkj9rn2"
   },
   "stable": {
    "version": [
     3,
-    1,
-    2
+    2,
+    0
    ],
    "deps": [
     "cl-lib",
     "request"
    ],
-   "commit": "2decf1e8187377c86982173a13482072bd418790",
-   "sha256": "0n5l701bxj19hyxpgarp2qvlkcdyhg5srq5shcjglzybx5vd5k4m"
+   "commit": "9662b1c9c40e822d90842c82a778f65c709d3358",
+   "sha256": "08545ihkzflw80rwklnxiswrpdrl8kr74xzxm5wsgrf36fkj9rn2"
   }
  },
  {
