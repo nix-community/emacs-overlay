@@ -25,6 +25,13 @@ let
   mkGitEmacs = namePrefix: jsonFile:
     let
       repoMeta = super.lib.importJSON jsonFile;
+      fetcher =
+        if repoMeta.type == "savannah" then
+          super.fetchFromSavannah
+        else if repoMeta.type == "github" then
+          super.fetchFromGitHub
+        else
+          throw "Unknown repository type ${repoMeta.type}!";
     in
     builtins.foldl'
       (drv: fn: fn drv)
@@ -38,9 +45,7 @@ let
             old: {
               name = "${namePrefix}-${repoMeta.version}";
               inherit (repoMeta) version;
-              src = super.fetchFromGitHub {
-                inherit (repoMeta) owner repo sha256 rev;
-              };
+              src = fetcher (builtins.removeAttrs repoMeta [ "type" "version" ]);
 
               patches = [
                 ./patches/tramp-detect-wrapped-gvfsd.patch
@@ -94,7 +99,7 @@ let
     nativeComp = true;
   };
 
-  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-pgtk.json;
+  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-feature_pgtk.json;
 
   emacsPgtkGcc = (mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-pgtk-nativecomp.json).override {
     nativeComp = true;
