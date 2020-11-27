@@ -26,7 +26,7 @@ let
       };
       nixpkgs = {
         type = "git";
-        value = "git://github.com/NixOS/nixpkgs-channels.git ${nixpkgsRelease}";
+        value = "git://github.com/NixOS/nixpkgs.git ${nixpkgsRelease}";
         emailresponsible = false;
       };
     };
