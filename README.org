@@ -128,6 +128,10 @@ cause compilation time.
 
 #  LocalWords:  EXWM NixOS emacsGit
 #  LocalWords:  SRC nixpkgs builtins fetchTarball url
+*** Binary cache
+You will want to use the [[https://nix-community.org/#binary-cache][nix-community binary cache]]. Where the
+overlay's build artefacts are pushed. See [[https://app.cachix.org/cache/nix-community][here]] for installation
+instructions.
 
 * Community
 
