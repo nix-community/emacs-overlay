@@ -11199,11 +11199,11 @@
   "url": "https://git.sr.ht/~zge/clang-capf",
   "unstable": {
    "version": [
-    20200813,
-    2056
+    20201205,
+    1229
    ],
-   "commit": "630ab057ed614d142ac08bb3a44a869a81cb591a",
-   "sha256": "0xrxk4b903ayymrngf2swk8d7ic8np1dy8zp9hg3wjlibsmagak0"
+   "commit": "6d0fcae75044d930e989903673b6ab22d0401418",
+   "sha256": "12kcb26vk0x20nkwsqw7fk2mlzd64dbh02wz7bpdr3r74iygsapf"
   },
   "stable": {
    "version": [
@@ -12069,8 +12069,8 @@
     20201119,
     1544
    ],
-   "commit": "2e8f8276c7693d2f7136569066e21995f0d00cc0",
-   "sha256": "0li1064d8nkdkhr1blnq0v2b26c0awdha3y9nqr7yvkrl28k3lg8"
+   "commit": "14576a40accb93f0f0a7f06b00996edf17ba4aa2",
+   "sha256": "0gdmib9mslc8gv9402g6416mvf5jpfl4jz8rs74imchgbys1i2jy"
   },
   "stable": {
    "version": [
@@ -39720,8 +39720,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "1f1a8c0de24899a217d45fcdf64439f14e3a540b",
-   "sha256": "1qjm9m1pni4h9sr2rds8w9z1dnzk85nh8rjwnf5sfkzhil69m8mr"
+   "commit": "46b2f6e3ad74c879debe54af5bd3aee81d460f74",
+   "sha256": "0cpfrix36l4m0g1wnnxk5slrmgyx3nv6kby5jjn1d5gdfin6wvm3"
   },
   "stable": {
    "version": [
@@ -62499,8 +62499,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20201204,
-    444
+    20201205,
+    1157
    ],
    "deps": [
     "async",
@@ -62509,8 +62509,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "1f1a8c0de24899a217d45fcdf64439f14e3a540b",
-   "sha256": "1qjm9m1pni4h9sr2rds8w9z1dnzk85nh8rjwnf5sfkzhil69m8mr"
+   "commit": "46b2f6e3ad74c879debe54af5bd3aee81d460f74",
+   "sha256": "0cpfrix36l4m0g1wnnxk5slrmgyx3nv6kby5jjn1d5gdfin6wvm3"
   },
   "stable": {
    "version": [
@@ -62856,8 +62856,8 @@
     "libgit",
     "magit"
    ],
-   "commit": "1f1a8c0de24899a217d45fcdf64439f14e3a540b",
-   "sha256": "1qjm9m1pni4h9sr2rds8w9z1dnzk85nh8rjwnf5sfkzhil69m8mr"
+   "commit": "46b2f6e3ad74c879debe54af5bd3aee81d460f74",
+   "sha256": "0cpfrix36l4m0g1wnnxk5slrmgyx3nv6kby5jjn1d5gdfin6wvm3"
   }
  },
  {
@@ -63011,8 +63011,8 @@
    "deps": [
     "dash"
    ],
-   "commit": "1f1a8c0de24899a217d45fcdf64439f14e3a540b",
-   "sha256": "1qjm9m1pni4h9sr2rds8w9z1dnzk85nh8rjwnf5sfkzhil69m8mr"
+   "commit": "46b2f6e3ad74c879debe54af5bd3aee81d460f74",
+   "sha256": "0cpfrix36l4m0g1wnnxk5slrmgyx3nv6kby5jjn1d5gdfin6wvm3"
   },
   "stable": {
    "version": [
@@ -66202,52 +66202,12 @@
   }
  },
  {
-  "ename": "modus-operandi-theme",
-  "commit": "e5d94c5aa3f058c3919c44a931c86bb2086a3171",
-  "sha256": "1i1pqg73pf6pfbgfvb126yvf5cfipsljnv0ll4zv5ma4cmq2m0z9",
+  "ename": "modus-themes",
+  "commit": "1d0f3490e4b5d9b04398bc0ecd1e9a997c269d78",
+  "sha256": "1f1c9dkmrxn4ih50w3xnkl0j5n03sp8zc201h2iga1ig22rgy7h4",
+  "error": "Not in archive",
   "fetcher": "gitlab",
-  "repo": "protesilaos/modus-themes",
-  "unstable": {
-   "version": [
-    20201114,
-    729
-   ],
-   "commit": "6122a90e037b73d617163c7c9ae1bfb1e0a47822",
-   "sha256": "0xpjzcvyh4dpqfaj4f6h1xgpxqd1nbyg8xwdsq3a6sadm1f3x73c"
-  },
-  "stable": {
-   "version": [
-    0,
-    13,
-    0
-   ],
-   "commit": "a5832c9310765098e75d11155f765cc3c90b3548",
-   "sha256": "0i6n3pzrmlgabsijy6z0hhs71q7g99yagwr2m33lr30skqc9rvdn"
-  }
- },
- {
-  "ename": "modus-vivendi-theme",
-  "commit": "e5d94c5aa3f058c3919c44a931c86bb2086a3171",
-  "sha256": "1wzvswpvwd89vf1475zk5rnyjggkvydhimx30p7bvf9ld0ivipcf",
-  "fetcher": "gitlab",
-  "repo": "protesilaos/modus-themes",
-  "unstable": {
-   "version": [
-    20201114,
-    729
-   ],
-   "commit": "6122a90e037b73d617163c7c9ae1bfb1e0a47822",
-   "sha256": "0xpjzcvyh4dpqfaj4f6h1xgpxqd1nbyg8xwdsq3a6sadm1f3x73c"
-  },
-  "stable": {
-   "version": [
-    0,
-    13,
-    0
-   ],
-   "commit": "a5832c9310765098e75d11155f765cc3c90b3548",
-   "sha256": "0i6n3pzrmlgabsijy6z0hhs71q7g99yagwr2m33lr30skqc9rvdn"
-  }
+  "repo": "protesilaos/modus-themes"
  },
  {
   "ename": "moe-theme",
@@ -75217,8 +75177,8 @@
     "s",
     "simple-httpd"
    ],
-   "commit": "a93215dce7604d078ca75c2e52e476c05a7dd984",
-   "sha256": "17lsdszi5f7ark0kn5jhp7rp0va5cplf6q52a2d2lg8jsd4wxkpk"
+   "commit": "6cfb8d60abfecd985975f683e48e87d03a0f0212",
+   "sha256": "1rvlmldhvd2vr72j6sh9dn718c99rmzk7wdpra4lvs1x95rbvcp6"
   },
   "stable": {
    "version": [
@@ -104049,15 +104009,15 @@
   "repo": "matsievskiysv/vimish-fold",
   "unstable": {
    "version": [
-    20200524,
-    1729
+    20201205,
+    1156
    ],
    "deps": [
     "cl-lib",
     "f"
    ],
-   "commit": "9d12e39f01da517565666e09a2e32e01aed24a90",
-   "sha256": "0xdk95hiamnim0bn1w5g0lccb9wc0sxbczrb95q3ndaw3cxxjaa2"
+   "commit": "a6501cbfe3db791f9ca17fd986c7202a87f3adb8",
+   "sha256": "0w0r951c6vn890h1cz5l8rl6hicna6rbdzfgbg4lpm280yds9lpb"
   },
   "stable": {
    "version": [
