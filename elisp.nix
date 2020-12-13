@@ -64,4 +64,4 @@ emacsWithPackages (epkgs:
     usePkgs = map (name: overridden.${name} or (mkPackageError name)) packages;
     extraPkgs = extraEmacsPackages overridden;
   in
-  [ overridden.use-package ] ++ usePkgs ++ extraPkgs)
+  usePkgs ++ extraPkgs)

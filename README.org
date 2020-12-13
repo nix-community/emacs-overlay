@@ -33,7 +33,7 @@ from various types of dependency declaration. (These are abstractions
 on top of =emacsWithPackages=.)
 
 For example, =emacsWithPackagesFromUsePackage= adds packages which are
-required in a user's config via =use-package=:
+required in a user's config via =use-package= or =leaf=.
 
 #+BEGIN_SRC nix
   {

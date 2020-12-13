@@ -134,13 +134,16 @@ let
 
       recurse = item:
         if builtins.isList item && item != [] then
-          if (builtins.head item) == "use-package" then
-            if !(isDisabled item) then
-              [ (getName item) ] ++ map recurse item
+          let
+            packageManager = builtins.head item;
+          in
+            if builtins.elem packageManager [ "use-package" "leaf" ] then
+              if !(isDisabled item) then
+                [ packageManager (getName item) ] ++ map recurse item
+              else
+                []
             else
-              []
-          else
-            map recurse item
+              map recurse item
         else
           [];
     in
