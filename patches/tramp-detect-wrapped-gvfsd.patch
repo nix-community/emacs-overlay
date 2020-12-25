@@ -1,8 +1,8 @@
 diff --git a/lisp/net/tramp-gvfs.el b/lisp/net/tramp-gvfs.el
-index 704d65cd55..47c027e255 100644
+index 1722c53b..fc5866b9 100644
 --- a/lisp/net/tramp-gvfs.el
 +++ b/lisp/net/tramp-gvfs.el
-@@ -129,6 +129,7 @@
+@@ -126,6 +126,7 @@
  	     ;; for some processes.  Better we don't check.
  	     (<= emacs-major-version 25)
  	     (tramp-process-running-p "gvfs-fuse-daemon")
