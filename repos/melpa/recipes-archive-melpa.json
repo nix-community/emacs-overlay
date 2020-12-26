@@ -1871,7 +1871,7 @@
     "annotation",
     "eri"
    ],
-   "commit": "23e4fbe54c1cedbae1d8ff1236a3a2bcc2526a66",
+   "commit": "f3370a42f36f880da78acffeb0dd8cc55c1c7f9f",
    "sha256": "0a7iaf5yrhw4df0zl5kflq5fan0zw5l49ksfvl7fh99610jjvx05"
   },
   "stable": {
@@ -10184,15 +10184,16 @@
   "stable": {
    "version": [
     1,
-    3
+    3,
+    1
    ],
    "deps": [
     "dash",
     "posframe",
     "s"
    ],
-   "commit": "de83b587affe374d1cf6e6c2d747696e6c33a817",
-   "sha256": "130g09i38k77y2kyirg54dglksl6vrypdhh4h2j8hzy1mipc5a43"
+   "commit": "fc5effdc25a926eada4936e5506dcccdf3902137",
+   "sha256": "1d18wvx2szmpvj5v26qqp2qkdmb764sfkp2f864by2hpad0rx034"
   }
  },
  {
@@ -12598,11 +12599,11 @@
   "repo": "purcell/color-theme-sanityinc-tomorrow",
   "unstable": {
    "version": [
-    20201013,
-    551
+    20201225,
+    2110
    ],
-   "commit": "65dcfc9329c2eb228c12438e3831e3aeeb449470",
-   "sha256": "1l4dwn6fddix655ka9rlaqd9zyx62sxxa8nm9zwzp8nh5zdd93j4"
+   "commit": "b70046e4bf23583af39ddd0534470358eab0ff9d",
+   "sha256": "15bn6y75mr7g7l36hxfmz0fmcdpysacp29ib04az4mn6bkylns4x"
   },
   "stable": {
    "version": [
@@ -15261,11 +15262,11 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20201225,
-    1103
+    20201226,
+    105
    ],
-   "commit": "09ca1d4dd07325595b65fb27fb1035d9d118340e",
-   "sha256": "0cswxfyiqmm7jf7xqmxhwzx6s9mc9qgwwx95mcng514x2wc6xxls"
+   "commit": "c80394c94d6eb6788955f8793afe6b928aa970a2",
+   "sha256": "1zwzkgjznq5jdlqa1j6jzfp0s2vfgrfb0a32nrc5agmc4zwn5z9s"
   }
  },
  {
@@ -15276,15 +15277,15 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20201223,
-    1435
+    20201226,
+    12
    ],
    "deps": [
     "consult",
     "flycheck"
    ],
-   "commit": "09ca1d4dd07325595b65fb27fb1035d9d118340e",
-   "sha256": "0cswxfyiqmm7jf7xqmxhwzx6s9mc9qgwwx95mcng514x2wc6xxls"
+   "commit": "c80394c94d6eb6788955f8793afe6b928aa970a2",
+   "sha256": "1zwzkgjznq5jdlqa1j6jzfp0s2vfgrfb0a32nrc5agmc4zwn5z9s"
   }
  },
  {
@@ -15296,14 +15297,14 @@
   "unstable": {
    "version": [
     20201225,
-    55
+    2329
    ],
    "deps": [
     "consult",
     "selectrum"
    ],
-   "commit": "09ca1d4dd07325595b65fb27fb1035d9d118340e",
-   "sha256": "0cswxfyiqmm7jf7xqmxhwzx6s9mc9qgwwx95mcng514x2wc6xxls"
+   "commit": "c80394c94d6eb6788955f8793afe6b928aa970a2",
+   "sha256": "1zwzkgjznq5jdlqa1j6jzfp0s2vfgrfb0a32nrc5agmc4zwn5z9s"
   }
  },
  {
@@ -59485,11 +59486,7 @@
     "colorless-themes"
    ],
    "commit": "92ae2775ac9ae2fd3d1172ffdf706e18db55963c",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /tmp/git-checkout-tmp-b3Ebe2xq/colorless-themes.el-92ae277/.git/\nfatal: unable to access 'https://git.sr.ht/~lthms/colorless-themes.el/': Could not resolve host: git.sr.ht\nfatal: unable to access 'https://git.sr.ht/~lthms/colorless-themes.el/': Could not resolve host: git.sr.ht\nUnable to checkout 92ae2775ac9ae2fd3d1172ffdf706e18db55963c from https://git.sr.ht/~lthms/colorless-themes.el.\n"
-   ]
+   "sha256": "06cp84bi3x33il119gfk8blikbqdmakvj7h64dr9crh0v11lg7ds"
   },
   "stable": {
    "version": [
@@ -80228,14 +80225,11 @@
   "stable": {
    "version": [
     0,
-    4,
-    2
+    5,
+    0
    ],
-   "deps": [
-    "eieio"
-   ],
-   "commit": "025ef2411fa1bf82a9ac61dfdb7bd4cedaf2d740",
-   "sha256": "1jkdyacpcvbsm1g2rjpnk6hfr01r3j5ibgh09441scz41v6xk248"
+   "commit": "e87e29ea3e804b94075b07477a5186db19c55ecb",
+   "sha256": "00v5lls6lnq28zndp8npg5vq4h28xrf96gvlipfrnm6krb8il9yq"
   }
  },
  {
@@ -94913,10 +94907,10 @@
   "unstable": {
    "version": [
     20201225,
-    144
+    1753
    ],
-   "commit": "9d082c1b5b461b2a63b18857acf7c75b388974cb",
-   "sha256": "0gza7vcq89s0zm43yywywddi399yrff3xfwdp03ahkn4p5m115pz"
+   "commit": "f42f867ffd1db08e5e3aec22a6ec8c10f6e91595",
+   "sha256": "00gi3rjxpl5yqzv2vh7hla4w62n7y5y7chs8m96lg3n4z31s91mq"
   }
  },
  {
