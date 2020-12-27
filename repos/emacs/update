@@ -38,7 +38,7 @@ function update_release() {
 
 update_repo emacs-mirror emacs master
 update_repo emacs-mirror emacs feature/native-comp
-update_repo masm11 emacs pgtk
+update_repo emacs-mirror emacs feature/pgtk
 update_repo flatwhatson emacs pgtk-nativecomp
 update_release emacs-mirror emacs unstable
 
