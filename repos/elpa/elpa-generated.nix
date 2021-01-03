@@ -1133,10 +1133,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "6.2";
+        version = "6.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emms-6.2.tar";
-          sha256 = "0d95sjrh9vpl41vz26y8clgji987z15lj4ky2kr9yrl0zpa8yv35";
+          url = "https://elpa.gnu.org/packages/emms-6.3.tar";
+          sha256 = "12cfq503li0gcqmm5bmqz8yjvfdif5xvz0l9vx3g5jl6ljygwgmf";
         };
         packageRequires = [ cl-lib seq ];
         meta = {
@@ -1512,10 +1512,10 @@
       elpaBuild {
         pname = "gnus-mock";
         ename = "gnus-mock";
-        version = "0.4.5";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gnus-mock-0.4.5.tar";
-          sha256 = "1hfh315vrxd54r2f1wpdfk06b7lhpab7knygav58vdwwdbndlqiz";
+          url = "https://elpa.gnu.org/packages/gnus-mock-0.5.tar";
+          sha256 = "1lyh1brb68zaasnw2brymsspcyl3jxmnvbvpvrqfxhhl3fq9nbv1";
         };
         packageRequires = [];
         meta = {
@@ -1847,6 +1847,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/jumpc.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    kiwix = callPackage ({ elpaBuild, emacs, fetchurl, lib, request }:
+      elpaBuild {
+        pname = "kiwix";
+        ename = "kiwix";
+        version = "1.0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/kiwix-1.0.1.tar";
+          sha256 = "1dly6pilf71hq3mra9kc63i6iynzkxjmp9gwy0rhnvhq4b4qr01d";
+        };
+        packageRequires = [ emacs request ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/kiwix.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -3147,6 +3162,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/shelisp.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    shell-command-plus = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "shell-command-plus";
+        ename = "shell-command+";
+        version = "2.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/shell-command+-2.0.0.tar";
+          sha256 = "1l8lwami4rbp94sbb1k4dvv7z0dvf51s0992xragpn9b9jbx5qd6";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/shell-command+.html";
           license = lib.licenses.free;
         };
       }) {};
