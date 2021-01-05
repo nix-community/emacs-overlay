@@ -5,5 +5,7 @@ set -euxo pipefail
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 cd $SCRIPTPATH
 
+rm elpa-generated.nix
+
 eval $(nix-instantiate --eval --expr 'let nixpath = builtins.toString (import <nixpkgs> {}).path; in "${nixpath}/pkgs/applications/editors/emacs-modes/update-elpa"')
 env NIXPKGS_ALLOW_BROKEN=1 nix-instantiate --show-trace ./test.nix -A elpaPackages
