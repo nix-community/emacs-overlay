@@ -3480,6 +3480,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    test-simple = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "test-simple";
+        ename = "test-simple";
+        version = "1.3.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/test-simple-1.3.0.el";
+          sha256 = "1yd61jc9ds95a5n09052kwc5gasy57g4lxr0jsff040brlyi9czz";
+        };
+        packageRequires = [ cl-lib ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/test-simple.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     timerfunctions = callPackage ({ cl-lib ? null
                                   , elpaBuild
                                   , emacs
