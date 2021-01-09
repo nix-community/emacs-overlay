@@ -25921,8 +25921,8 @@
  },
  {
   "ename": "embark",
-  "commit": "d5174ca91e266dbb9467c962e269ff411bbbfa90",
-  "sha256": "1dps8p4qrzw2az9ccsgjmz0fwqqgj08qcw1f99n5absb3xmyrnf7",
+  "commit": "a33cbf1d5cb58d2bb7dc535391bb1e1b0e718261",
+  "sha256": "1pwcgxgmf1pzq76gi4nhb3pq93v0bv48qnn0djdsxkk1snh3v5ni",
   "fetcher": "github",
   "repo": "oantolin/embark",
   "unstable": {
@@ -75519,10 +75519,11 @@
   "repo": "jkitchin/org-ref",
   "unstable": {
    "version": [
-    20210108,
-    1415
+    20210109,
+    143
    ],
    "deps": [
+    "bibtex-completion",
     "dash",
     "f",
     "helm",
@@ -75534,8 +75535,8 @@
     "pdf-tools",
     "s"
    ],
-   "commit": "cae67aa7fcaced2112152a343d35ff308a54c4c1",
-   "sha256": "0hbmzk3v3n8ywa6730wgla926y6a5dynzbzccw8grfy9mib9hqdp"
+   "commit": "ea8de2deb708d2ae34f8c169d74a0006346d2fd7",
+   "sha256": "09v7lq6wq0zsw0mmzm96wzp5gcy9nxivb2wf336xpdr102w86zy5"
   },
   "stable": {
    "version": [
@@ -95192,14 +95193,14 @@
   "repo": "bbatsov/solarized-emacs",
   "unstable": {
    "version": [
-    20201207,
-    1431
+    20210109,
+    206
    ],
    "deps": [
     "dash"
    ],
-   "commit": "67f261c7b3d1a041e5c8964df680f8132703fc17",
-   "sha256": "03x5p135i2rshsvvsls2pl70mslzifzfznd310wiqgscg7vja1wy"
+   "commit": "1f508a38397b39daff1b881e9b26b9ebcf42733e",
+   "sha256": "0fdajf9fddr7hhkhhy9j5avpf1f9k6yflnyvpn5cwccsaj6sn2m9"
   },
   "stable": {
    "version": [
