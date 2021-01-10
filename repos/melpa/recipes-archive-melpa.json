@@ -25962,10 +25962,10 @@
   "unstable": {
    "version": [
     20210110,
-    55
+    332
    ],
-   "commit": "f6b098314a98d9e5f41d2c19f3679874e87b59c5",
-   "sha256": "0yx2vig3581db6k6nick3ndahb2jvsad07qww4zjj68smf1blmap"
+   "commit": "846cfbd7212ba3a3a47a059ba35400d534968815",
+   "sha256": "16b6mfdg0dqp6zg824mprvh8pjza9a9c6085j8wsnkg5z01wbf6l"
   },
   "stable": {
    "version": [
@@ -57956,7 +57956,7 @@
     0,
     4
    ],
-   "commit": "fd415f2fb72444b0c4f0d1eb6905cb7a788b056b",
+   "commit": "cd07542fddf080927eae927afdcf62be1b087503",
    "sha256": "1syz5yds6b59dws6f8b6az2ng7czwnq34izlc9y25c8ng94bynm5"
   }
  },
@@ -62220,7 +62220,7 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "72fbcf2005b892014dd6d034c27ae375f1678d11",
+   "commit": "77a10c04bb9e0c7d383f578900602fa3b0488044",
    "sha256": "1m02bn9r58cgv4k2ygnfhqfm02xln16x4ygjfp0vsz48vf4llr38"
   },
   "stable": {
@@ -65330,15 +65330,15 @@
   "unstable": {
    "version": [
     20210110,
-    309
+    449
    ],
    "deps": [
     "cl-lib",
     "dash",
     "s"
    ],
-   "commit": "beec60ea2a79332e9a524c4bd94cccedb46079a5",
-   "sha256": "01zcrd2c1sx5b9pm3d60c0qf5kray42ayf8qc1643vi7d72h0gdr"
+   "commit": "7f54013c641d8f0e8f7014c4ec7f32f1a0dd2bee",
+   "sha256": "0h40nvrc5z6v9hih270qwcx1niccdlsywh1064cmvmc60mv4ffi4"
   }
  },
  {
@@ -66859,26 +66859,26 @@
   "repo": "jpablobr/emacs-monkeytype",
   "unstable": {
    "version": [
-    20201221,
-    1355
+    20210110,
+    513
    ],
    "deps": [
-    "quick-peek"
+    "scrollable-quick-peek"
    ],
-   "commit": "8a01436eda0f2174c0174af097591de76eda4d1b",
-   "sha256": "11p91p1w84rbvgvb8f9xj3r2nnr34i9ka5hvz82ri4cfx1hwr9hk"
+   "commit": "0e949d08198c0bd003f1d5c8cdceb7e36bef22f7",
+   "sha256": "0fgnfslhg10q96lyxfnpa7s8dvw5gjlll7p6qji2jfz3kncwhf5l"
   },
   "stable": {
    "version": [
     0,
     1,
-    4
+    5
    ],
    "deps": [
-    "async"
+    "scrollable-quick-peek"
    ],
-   "commit": "919b24f3b18d70be8c43e792a4e81476d76166cc",
-   "sha256": "0fgdx8zm6lbp8dn9wrfgpm146h7p1hmz0r32mwb5y9wvwkglvqla"
+   "commit": "0e949d08198c0bd003f1d5c8cdceb7e36bef22f7",
+   "sha256": "0fgnfslhg10q96lyxfnpa7s8dvw5gjlll7p6qji2jfz3kncwhf5l"
   }
  },
  {
@@ -106136,14 +106136,14 @@
   "repo": "emacs-love/weblorg",
   "unstable": {
    "version": [
-    20210108,
-    19
+    20210110,
+    438
    ],
    "deps": [
     "templatel"
    ],
-   "commit": "323a82c476b0358049114d225c7efac189e13c35",
-   "sha256": "127b6g553fid0xb4abynx50mbjc3iwwf4g1f1cssaaad5s1wvvp8"
+   "commit": "06abee7a14eba43802f00dfa72c6c3586063ef15",
+   "sha256": "0jq81piwwjy1aa94klmyxyrx6r1j1b75psb9gyxk77c2wnb8p8yy"
   },
   "stable": {
    "version": [
