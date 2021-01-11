@@ -3877,10 +3877,10 @@
       elpaBuild {
         pname = "websocket";
         ename = "websocket";
-        version = "1.13";
+        version = "1.13.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/websocket-1.13.tar";
-          sha256 = "0jnarx53csmx5fivzp5vhvvj3m8s03zwc6hjl0spz5zb6icqclsa";
+          url = "https://elpa.gnu.org/packages/websocket-1.13.1.tar";
+          sha256 = "1x664zswas0fpml7zaj59zy97avrm49zb80zd69rlkqzz1m45psc";
         };
         packageRequires = [ cl-lib ];
         meta = {
