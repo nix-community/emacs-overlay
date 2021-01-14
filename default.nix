@@ -35,7 +35,7 @@ let
     in
     builtins.foldl'
       (drv: fn: fn drv)
-      self.emacs
+      super.emacs
       [
 
         (drv: drv.override { srcRepo = true; })
