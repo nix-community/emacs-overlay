@@ -985,10 +985,10 @@
       elpaBuild {
         pname = "ebdb-i18n-chn";
         ename = "ebdb-i18n-chn";
-        version = "1.3.1";
+        version = "1.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-i18n-chn-1.3.1.el";
-          sha256 = "02drr89i4kzjm1rs22sj0nv9sj95dmqk40xvxd75qzfn8y33k9vl";
+          url = "https://elpa.gnu.org/packages/ebdb-i18n-chn-1.3.2.tar";
+          sha256 = "06ii9xi2y157vfbhx75mn80ash22d1xgcyp9kzz1s0lkxwlv74zj";
         };
         packageRequires = [ ebdb pyim ];
         meta = {
