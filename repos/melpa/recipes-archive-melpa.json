@@ -1879,10 +1879,10 @@
     2,
     6,
     1,
-    1
+    2
    ],
-   "commit": "fce01db8f9d2ceb9c3a4aa179330ea4aa7587a71",
-   "sha256": "0fzq9pfkvsdin04vzcz2vyjq3gx0lfhbpwpz0zyfa3b84dgffxq7"
+   "commit": "a63abbfda72f637a868855d06c58156d3d0461bd",
+   "sha256": "02fl52vx2izbzkky78r26gj28sjgrk2yh79z7l4kxn467myvly3r"
   }
  },
  {
@@ -3111,10 +3111,10 @@
     2,
     6,
     1,
-    1
+    2
    ],
-   "commit": "fce01db8f9d2ceb9c3a4aa179330ea4aa7587a71",
-   "sha256": "0fzq9pfkvsdin04vzcz2vyjq3gx0lfhbpwpz0zyfa3b84dgffxq7"
+   "commit": "a63abbfda72f637a868855d06c58156d3d0461bd",
+   "sha256": "02fl52vx2izbzkky78r26gj28sjgrk2yh79z7l4kxn467myvly3r"
   }
  },
  {
@@ -27497,10 +27497,10 @@
     2,
     6,
     1,
-    1
+    2
    ],
-   "commit": "fce01db8f9d2ceb9c3a4aa179330ea4aa7587a71",
-   "sha256": "0fzq9pfkvsdin04vzcz2vyjq3gx0lfhbpwpz0zyfa3b84dgffxq7"
+   "commit": "a63abbfda72f637a868855d06c58156d3d0461bd",
+   "sha256": "02fl52vx2izbzkky78r26gj28sjgrk2yh79z7l4kxn467myvly3r"
   }
  },
  {
@@ -43679,11 +43679,11 @@
   "repo": "ROCKTAKEY/grugru",
   "unstable": {
    "version": [
-    20210115,
-    847
+    20210116,
+    1019
    ],
-   "commit": "d48811bd449ebfd7c029fa336183ea7c140fff3c",
-   "sha256": "16ja4i77hri9ynrxfzxr4hmrxkix2fx6dssvzxv15kjxnzk7s57g"
+   "commit": "297e608dfc113bf9e7ab936db027b66a0eb00097",
+   "sha256": "18205px4r519fyma7hkbxbw5g1qy9r12vrc7mm1sjbhz7fd01sa1"
   },
   "stable": {
    "version": [
@@ -62226,7 +62226,7 @@
   "unstable": {
    "version": [
     20210116,
-    324
+    757
    ],
    "deps": [
     "dash",
@@ -62237,8 +62237,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "3033c1a9ade97ba592380cddb008069647d5e338",
-   "sha256": "00iasdx2p7fygzqw686q9wh0mnixqnvxnckirc0hbmjbabl3xjih"
+   "commit": "e1d8b17838a8cb7357626169620f006748f0bac2",
+   "sha256": "06lzvlijaphqj535pbirsbbk4809vimwsym9wsrfqyd07jmx1gqi"
   },
   "stable": {
    "version": [
@@ -75714,7 +75714,7 @@
   "unstable": {
    "version": [
     20210116,
-    543
+    858
    ],
    "deps": [
     "dash",
@@ -75724,8 +75724,8 @@
     "org",
     "s"
    ],
-   "commit": "f10fbad38631a8f797d5f5ee876ce17793e59092",
-   "sha256": "0n58imrn70m8nx31anjhar7ivsy7yihivf0sjg2rf5nbic2068w5"
+   "commit": "05deb64d8533bef706b3d164ce344f0c26944bc1",
+   "sha256": "06qxn7xiqqkjgdalxvrm9k69hsy1kvm4k01v2wbq9bzvvsvcr4qn"
   },
   "stable": {
    "version": [
@@ -84418,16 +84418,16 @@
   "repo": "rejeep/prodigy.el",
   "unstable": {
    "version": [
-    20191212,
-    1242
+    20210116,
+    816
    ],
    "deps": [
     "dash",
     "f",
     "s"
    ],
-   "commit": "6ae71f27b09b172f03fb55b9eeef001206baacd3",
-   "sha256": "16w1xidfbqlbdxq45ff6am9j1hzlxz3pwqvimwk4432prrvnf8zg"
+   "commit": "168f5ace1671876d8c3bd350c0853bd0196bddda",
+   "sha256": "15rshpq0h5i252xamxh70acdz9jddn5xwgswzk5h2b24kxsbfnli"
   },
   "stable": {
    "version": [
@@ -91878,11 +91878,11 @@
   "repo": "raxod502/selectrum",
   "unstable": {
    "version": [
-    20210115,
-    1906
+    20210116,
+    1008
    ],
-   "commit": "2dad59b71804de6a5d4fad7a2de1b9eeda5f4ce2",
-   "sha256": "17wik7k81pmj32ccpnlxarjsrv5f4rd2jr3vchizww9jil3qm7yy"
+   "commit": "9f4701cb7488e8e4c1855d6281cee219eeacc155",
+   "sha256": "0z8bmlizwgn12bk75f31p2ff0vrx5fl3fs11dkj7c30y6w5z2z88"
   },
   "stable": {
    "version": [
@@ -101654,26 +101654,26 @@
   "repo": "ubolonton/emacs-tree-sitter",
   "unstable": {
    "version": [
-    20201229,
-    1403
+    20210116,
+    621
    ],
    "deps": [
     "tsc"
    ],
-   "commit": "e7f2f625c1b9a2dce4f6b16a5affbb4f57337ae0",
-   "sha256": "0175mr8wqkrv83lyx7q9vbb6j90abqfbd3h1qc1kqb80p03l5vcr"
+   "commit": "d569763c143fdf4ba8480befbb4b8ce1e49df5e2",
+   "sha256": "1rw21nc78m4xngl3i3dmlzrzlqb8rgvlpal6d4f50zdlfbn4pa4v"
   },
   "stable": {
    "version": [
     0,
     13,
-    0
+    1
    ],
    "deps": [
     "tsc"
    ],
-   "commit": "a3aef9113365032d55fedbbe08ab7b04f5268d14",
-   "sha256": "1n8mxd7fhs2brblrfr5892j5xqgh247d8ngnkhwq6acn8hfxn7qf"
+   "commit": "d569763c143fdf4ba8480befbb4b8ce1e49df5e2",
+   "sha256": "1rw21nc78m4xngl3i3dmlzrzlqb8rgvlpal6d4f50zdlfbn4pa4v"
   }
  },
  {
@@ -101709,20 +101709,20 @@
    "deps": [
     "tree-sitter"
    ],
-   "commit": "e7f2f625c1b9a2dce4f6b16a5affbb4f57337ae0",
-   "sha256": "0175mr8wqkrv83lyx7q9vbb6j90abqfbd3h1qc1kqb80p03l5vcr"
+   "commit": "d569763c143fdf4ba8480befbb4b8ce1e49df5e2",
+   "sha256": "1rw21nc78m4xngl3i3dmlzrzlqb8rgvlpal6d4f50zdlfbn4pa4v"
   },
   "stable": {
    "version": [
     0,
     13,
-    0
+    1
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "a3aef9113365032d55fedbbe08ab7b04f5268d14",
-   "sha256": "1n8mxd7fhs2brblrfr5892j5xqgh247d8ngnkhwq6acn8hfxn7qf"
+   "commit": "d569763c143fdf4ba8480befbb4b8ce1e49df5e2",
+   "sha256": "1rw21nc78m4xngl3i3dmlzrzlqb8rgvlpal6d4f50zdlfbn4pa4v"
   }
  },
  {
@@ -102241,20 +102241,20 @@
   "repo": "ubolonton/emacs-tree-sitter",
   "unstable": {
    "version": [
-    20201229,
-    1403
+    20210116,
+    621
    ],
-   "commit": "e7f2f625c1b9a2dce4f6b16a5affbb4f57337ae0",
-   "sha256": "0175mr8wqkrv83lyx7q9vbb6j90abqfbd3h1qc1kqb80p03l5vcr"
+   "commit": "d569763c143fdf4ba8480befbb4b8ce1e49df5e2",
+   "sha256": "1rw21nc78m4xngl3i3dmlzrzlqb8rgvlpal6d4f50zdlfbn4pa4v"
   },
   "stable": {
    "version": [
     0,
     13,
-    0
+    1
    ],
-   "commit": "a3aef9113365032d55fedbbe08ab7b04f5268d14",
-   "sha256": "1n8mxd7fhs2brblrfr5892j5xqgh247d8ngnkhwq6acn8hfxn7qf"
+   "commit": "d569763c143fdf4ba8480befbb4b8ce1e49df5e2",
+   "sha256": "1rw21nc78m4xngl3i3dmlzrzlqb8rgvlpal6d4f50zdlfbn4pa4v"
   }
  },
  {
