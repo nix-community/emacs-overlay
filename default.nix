@@ -84,6 +84,17 @@ let
             }
           ) else drv
         )
+
+        # reconnect pkgs to the built emacs
+        (
+          drv: let
+            result = drv.overrideAttrs (_: {
+              passthru = drv.passthru // {
+                pkgs = self.emacsPackagesFor result;
+              };
+            });
+          in result
+        )
       ];
 
   mkPgtkEmacs = namePrefix: jsonFile: (mkGitEmacs namePrefix jsonFile).overrideAttrs (
