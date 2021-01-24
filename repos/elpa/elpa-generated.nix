@@ -1205,10 +1205,10 @@
       elpaBuild {
         pname = "excorporate";
         ename = "excorporate";
-        version = "0.9.1";
+        version = "0.9.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/excorporate-0.9.1.tar";
-          sha256 = "15rk0br7dmvni10f3mm94ylybl3jbf2ps1sypis6hxbazxxr443j";
+          url = "https://elpa.gnu.org/packages/excorporate-0.9.2.tar";
+          sha256 = "1zz9ci9ygjb2nwip2rqk77cp6gp975xlpph6srasvkm3vy7mql1m";
         };
         packageRequires = [ emacs fsm nadvice soap-client url-http-ntlm ];
         meta = {
@@ -2991,6 +2991,21 @@
         packageRequires = [ emacs xr ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/relint.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    repology = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "repology";
+        ename = "repology";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/repology-1.0.0.tar";
+          sha256 = "1km0v6r1drdmf473jqjb5pcyn17i416ql7kymhf4j5igh4yq7c5f";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/repology.html";
           license = lib.licenses.free;
         };
       }) {};
