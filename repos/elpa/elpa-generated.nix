@@ -3375,6 +3375,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    ssh-deploy = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "ssh-deploy";
+        ename = "ssh-deploy";
+        version = "3.1.12";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/ssh-deploy-3.1.12.tar";
+          sha256 = "0fz49l63jfw9zy459f07bq2irdb8ispnx8m2c3wxwiim9yw5xnjg";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/ssh-deploy.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     stream = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "stream";
