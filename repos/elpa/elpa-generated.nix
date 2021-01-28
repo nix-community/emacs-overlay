@@ -3692,10 +3692,10 @@
       elpaBuild {
         pname = "valign";
         ename = "valign";
-        version = "3.0.0";
+        version = "3.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/valign-3.0.0.el";
-          sha256 = "16f889x6yc1af2bmbly2lww4sy1s864ll75xdxp28i5m57gj25w8";
+          url = "https://elpa.gnu.org/packages/valign-3.1.0.tar";
+          sha256 = "0zx6p2nlvd4nkffj0myqv4hry8kgnhq45fcivfjzbfn62j2kp293";
         };
         packageRequires = [ emacs ];
         meta = {
