@@ -1205,10 +1205,10 @@
       elpaBuild {
         pname = "excorporate";
         ename = "excorporate";
-        version = "0.9.2";
+        version = "0.9.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/excorporate-0.9.2.tar";
-          sha256 = "1zz9ci9ygjb2nwip2rqk77cp6gp975xlpph6srasvkm3vy7mql1m";
+          url = "https://elpa.gnu.org/packages/excorporate-0.9.3.tar";
+          sha256 = "1ybj0ww7x7l7ymykk6hs720whabavmwnrwq7x8dkn41wma181zzy";
         };
         packageRequires = [ emacs fsm nadvice soap-client url-http-ntlm ];
         meta = {
