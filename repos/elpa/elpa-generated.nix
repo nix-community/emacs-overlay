@@ -2598,10 +2598,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.3.65";
+        version = "0.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.3.65.tar";
-          sha256 = "18pqxwfmciz9d2w808mvspkcifrja85y2qjwmb6pbdnkj9dr6yad";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.0.tar";
+          sha256 = "0sm09bzmrdwczxi3ff8ph4kybyq4lfa61sbvz31wvwnyvr8gfcvp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2998,10 +2998,10 @@
       elpaBuild {
         pname = "repology";
         ename = "repology";
-        version = "1.0.1";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/repology-1.0.1.tar";
-          sha256 = "0y12496wafx95izah8vvv1x86k1m8kysm5mlhvshkp0zbpvmb5iq";
+          url = "https://elpa.gnu.org/packages/repology-1.1.0.tar";
+          sha256 = "031245rrhazj53bk1csa6x3ygzvg74w2hwjf08ficwvmdn97li90";
         };
         packageRequires = [ emacs ];
         meta = {
