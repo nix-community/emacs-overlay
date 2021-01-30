@@ -2598,10 +2598,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.0";
+        version = "0.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.0.tar";
-          sha256 = "0sm09bzmrdwczxi3ff8ph4kybyq4lfa61sbvz31wvwnyvr8gfcvp";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.1.tar";
+          sha256 = "11d1gsvvj26h9d7a28v87b022vbi3syzngn1x9v1d2g55iv01x38";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3548,10 +3548,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.5.0";
+        version = "2.5.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.5.0.tar";
-          sha256 = "1jpnqyk108nksaym2b9v243y5zkpr4px9d070wsb9cwm3xrcd8rh";
+          url = "https://elpa.gnu.org/packages/tramp-2.5.0.1.tar";
+          sha256 = "0kqlc03bbsdywp0m3mf0m62hqyam8vg81phh7nqmpdjzskrdc1yy";
         };
         packageRequires = [ emacs ];
         meta = {
