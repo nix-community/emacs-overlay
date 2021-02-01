@@ -88,8 +88,8 @@ let
         # reconnect pkgs to the built emacs
         (
           drv: let
-            result = drv.overrideAttrs (_: {
-              passthru = drv.passthru // {
+            result = drv.overrideAttrs (old: {
+              passthru = old.passthru // {
                 pkgs = self.emacsPackagesFor result;
               };
             });
