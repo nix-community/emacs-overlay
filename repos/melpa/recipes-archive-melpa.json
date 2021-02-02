@@ -7733,16 +7733,16 @@
   "repo": "jyp/boon",
   "unstable": {
    "version": [
-    20210201,
-    1542
+    20210202,
+    726
    ],
    "deps": [
     "dash",
     "expand-region",
     "multiple-cursors"
    ],
-   "commit": "d612497d833185ce6b879492821d7cc513a0eea5",
-   "sha256": "0ix1l1zviv29v76k7bbjbhypcbjjbnay1xciwn6vhddar9g089f8"
+   "commit": "a7f9a19b4518dfc8ac83ac09af387135837f8d07",
+   "sha256": "01fpnfwsp97zr3ivdw3lqry6raxmqkwvfpzxjl9jjvy8q2zngqzx"
   },
   "stable": {
    "version": [
@@ -12136,8 +12136,8 @@
     20210104,
     1831
    ],
-   "commit": "a28bb8de23ea27060b39e31d3a96f53260c65d42",
-   "sha256": "112gmsvdnw3q0xglgsg10magrjx8rypwh418b06aid7chl5pclpf"
+   "commit": "3e76fe735425b248763f4d0559e02f63391fca8f",
+   "sha256": "0l736ajcwrda0wdqn0n0s36jk5053l67qqb8ngpzgw7j1cv3sfa1"
   },
   "stable": {
    "version": [
@@ -29345,8 +29345,8 @@
     "annalist",
     "evil"
    ],
-   "commit": "be33708835ddbac6dad2d7ff1dde17f3d712a993",
-   "sha256": "066z6dp5c8zszwpi8wcmmfw7w08mgfndi9cdrh9q48yna52g1qhk"
+   "commit": "7fd63406cfd7cb673ca173cb56dfe331bbbca6ab",
+   "sha256": "0kbpjm3m396iwp786n9lkglnhisi5zks98wnn8yhn0zp9dczajq1"
   },
   "stable": {
    "version": [
@@ -58901,8 +58901,8 @@
     20180702,
     2029
    ],
-   "commit": "e2abc7aac08ce5dbb9dbd590e76def4de33b8900",
-   "sha256": "0c6z55fd6shjiiwx7jvkxqp9f7ndlmi610ajkdqr3z200pkgavh3"
+   "commit": "6ec2fd7ebfca999d1cb98feb129192734666ea13",
+   "sha256": "1szin4xckx7x5fxxzz1d2nw3z96l12s6acnfb6qqlcq0swkfzl08"
   },
   "stable": {
    "version": [
@@ -59491,8 +59491,8 @@
     "highlight",
     "math-symbol-lists"
    ],
-   "commit": "eac840a592f2d20ab7a575558b89beed42d179f0",
-   "sha256": "0fw4wplsz87kkcnrb000j00y88irbrzfc94fabyc3bs8gqxi74i5"
+   "commit": "677dca3281de4dfb50a6085ed658f3039a7cdc89",
+   "sha256": "172xhy911m3yhh1xfx5l8hb2fh9h6y3p6m7dq4h9ivd07c8g7gdq"
   }
  },
  {
@@ -62561,8 +62561,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "015324aaffa95516e99d38b08a8d5c689a218290",
-   "sha256": "0pyba53yz8rp1vw1s473w7zi6k5hi9jrbfhgi4ihl41v285s1sdx"
+   "commit": "16b2da4a7bf902502832f50814db73cea64abf18",
+   "sha256": "0y90whp5y0nw44qd6kj1ap51az695n3f49bq9bmmci922bz0bh23"
   },
   "stable": {
    "version": [
@@ -85661,8 +85661,8 @@
     20200619,
     1742
    ],
-   "commit": "fe47e99a4ff80daf410cd965bc5996a8b8e06906",
-   "sha256": "1cfbfqy8rar2f0p2an9qa5k04r0y5s34544w2r7bpavi988ccjyy"
+   "commit": "d18df4f76436799a9d7b5f903d043075248fae66",
+   "sha256": "1z27d2cnw95sz3lkfkrjkb7vm63c32cqyx112s9jr5zd6k69mjyz"
   },
   "stable": {
    "version": [
@@ -95552,6 +95552,14 @@
    "commit": "11d00dd803874b93836f2010b08bd2c97b0f3c63",
    "sha256": "1nyrfbjrg74wrqlh8229rf7ym07k2a0wscjm0kbg3sam9ryc546y"
   }
+ },
+ {
+  "ename": "snitch",
+  "commit": "8d08307e483c328075bbf933b2ea0c03bffe8b7c",
+  "sha256": "1zck9r251jj3q6q1glxj20812yhkv630qnd2y7q1kkjgp68gby7g",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "mrmekon/snitch-el"
  },
  {
   "ename": "snoopy",
