@@ -4013,6 +4013,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    xelb = callPackage ({ cl-generic, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "xelb";
+        ename = "xelb";
+        version = "0.18";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/xelb-0.18.tar";
+          sha256 = "1fp5mzl63sh0h3ws4l5p4qgvi7ny8a3fj6k4dhqa98xgw2bx03v7";
+        };
+        packageRequires = [ cl-generic emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/xelb.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     xpm = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "xpm";
