@@ -2804,27 +2804,6 @@
           license = lib.licenses.free;
         };
       }) {};
-    realgud = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib
-                           , load-relative
-                           , loc-changes
-                           , test-simple }:
-      elpaBuild {
-        pname = "realgud";
-        ename = "realgud";
-        version = "1.5.1";
-        src = fetchurl {
-          url = "https://elpa.gnu.org/packages/realgud-1.5.1.tar";
-          sha256 = "01155sydricdvxy3djk64w2zc6x0q4j669bvz8m8rd766wsmida8";
-        };
-        packageRequires = [ emacs load-relative loc-changes test-simple ];
-        meta = {
-          homepage = "https://elpa.gnu.org/packages/realgud.html";
-          license = lib.licenses.free;
-        };
-      }) {};
     realgud-ipdb = callPackage ({ elpaBuild
                                 , emacs
                                 , fetchurl
