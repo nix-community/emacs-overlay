@@ -1895,7 +1895,7 @@
     "annotation",
     "eri"
    ],
-   "commit": "68ec2312961776e415c99d2839e41a92ffe464db",
+   "commit": "c86cb6729e6515a9ecb65968533144371f6c54e4",
    "sha256": "1ldx8p9ha6581p5bgycxkvv2yj5g6k0bkplmi9s1qkr6v5fdsn8g"
   },
   "stable": {
@@ -3127,7 +3127,7 @@
     20200914,
     644
    ],
-   "commit": "68ec2312961776e415c99d2839e41a92ffe464db",
+   "commit": "c86cb6729e6515a9ecb65968533144371f6c54e4",
    "sha256": "1ldx8p9ha6581p5bgycxkvv2yj5g6k0bkplmi9s1qkr6v5fdsn8g"
   },
   "stable": {
@@ -14753,8 +14753,8 @@
   "repo": "TommyX12/company-tabnine",
   "unstable": {
    "version": [
-    20210111,
-    347
+    20210205,
+    15
    ],
    "deps": [
     "cl-lib",
@@ -14763,8 +14763,8 @@
     "s",
     "unicode-escape"
    ],
-   "commit": "a6edb64cd1087f0453d08a72c3c0169cebcd9f4c",
-   "sha256": "069zzs80zwxhhnwnvybyvhd0qrwdd60r7ihffn5bmngmxf5nmi8i"
+   "commit": "ea190390974aa04dcf8f0e85e802a2495f30ae1f",
+   "sha256": "0mixkwzsm56qy6q12l7x7h99ybhixndw48ypnal82h4k73h6xyk3"
   }
  },
  {
@@ -20872,7 +20872,7 @@
   "commit": "a27d498be53f24588c1732c8517fe50db9329caf",
   "sha256": "1pqwgylwl7a4jqg6zlnrhfrrgkpxsdn80fy6vyqwz12pxyhby3xg",
   "fetcher": "github",
-  "repo": "myfreeweb/django-mode",
+  "repo": "unrelentingtech/django-mode",
   "unstable": {
    "version": [
     20170522,
@@ -29261,7 +29261,7 @@
   "commit": "fcc76e080a9b16879980beca5ae71afd9d6a6486",
   "sha256": "0crvmlyrvia5bfa4nq5h5y5pg0nkgds5rmjmhrga3627m0na0dyv",
   "fetcher": "github",
-  "repo": "wbolster/evil-colemak-basics",
+  "repo": "wbolster/emacs-evil-colemak-basics",
   "unstable": {
    "version": [
     20200630,
@@ -36511,7 +36511,7 @@
   "commit": "1365aa5edc900493e930429eca4748bb8e6aaf69",
   "sha256": "0ipap3vz40v90qlh1a3iiqm5934bsx5xk897m5r5q5ab63k5yq75",
   "fetcher": "github",
-  "repo": "jcs-elpa/flymake-grammarly",
+  "repo": "flymake/flymake-grammarly",
   "unstable": {
    "version": [
     20210127,
@@ -38706,8 +38706,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "1b744404f3a19be816dc36334d070488e1f2b20e",
-   "sha256": "1xzwdl7zgg09i8xs4j0cia2rkj2fwx4cd83a0ylflan69zqmv9gh"
+   "commit": "dee3bb75afaec53b1287e6cc453c5dba8a731d80",
+   "sha256": "1r1hk1jnnq535ddxrjbwblsgx1ybrlgb5wi6yhqwy4jrakdppd8x"
   },
   "stable": {
    "version": [
@@ -45171,25 +45171,6 @@
   }
  },
  {
-  "ename": "helm-addressbook",
-  "error": "No recipe info",
-  "fetcher": "github",
-  "repo": "emacs-helm/helm-addressbook",
-  "unstable": {
-   "version": [
-    20170903,
-    728
-   ],
-   "deps": [
-    "addressbook-bookmark",
-    "cl-lib",
-    "helm"
-   ],
-   "commit": "62497f72d46afd3a9f9f94b27d062a82fb232de4",
-   "sha256": "1lmq7j19qv3pabs5arapx3lv2xhf0sgn4b2hl0l0kzph52fvics7"
-  }
- },
- {
   "ename": "helm-ag",
   "commit": "2a2670edb1155f02d1cbe2600db84a82c8f3398b",
   "sha256": "0jzfycbaz88r6scsiw74prcnbvilsaphljdys6i5k9g5rhn5sxh5",
@@ -46293,25 +46274,6 @@
    ],
    "commit": "eb30810cd26e1ee73d84a863e6b2667700e9aead",
    "sha256": "183vj5yi575aqkak19hl8k4mw38r0ki9p1fnpa8nny2srjyy34yb"
-  }
- },
- {
-  "ename": "helm-elscreen",
-  "error": "No recipe info",
-  "fetcher": "github",
-  "repo": "emacs-helm/helm-elscreen",
-  "unstable": {
-   "version": [
-    20170709,
-    914
-   ],
-   "deps": [
-    "cl-lib",
-    "elscreen",
-    "helm"
-   ],
-   "commit": "b8212866939dc4a1e1dc23ad572407b688e130e3",
-   "sha256": "0gy6lbdngiwfl9vfw32clagbmv70f93slc9zkm3dz3mca37435kz"
   }
  },
  {
@@ -52314,7 +52276,7 @@
   "commit": "af424a73243aabec86c5bcd688a0cf29ad57199c",
   "sha256": "084lgxjq2wfvhp1pv0dcn3ac8hy6jhjpyv1bxan6pdr2v5bc0lz2",
   "fetcher": "github",
-  "repo": "doitian/ido-complete-space-or-hyphen",
+  "repo": "DarwinAwardWinner/ido-complete-space-or-hyphen",
   "unstable": {
    "version": [
     20180929,
@@ -64581,11 +64543,11 @@
   "repo": "jrblevin/markdown-mode",
   "unstable": {
    "version": [
-    20210203,
-    429
+    20210204,
+    2346
    ],
-   "commit": "9e6aac278d284403c82da173e817f93572ce2281",
-   "sha256": "0m40n1c008gzblbwx7r7zmdigclk6ybg521m57kaxydaq75nz33x"
+   "commit": "3ac774377430493070330a58fba1cc9ef460feee",
+   "sha256": "0ah3yd4xpn22slmhdaawd9i1pr2ckqxmf3n700q38y2hd22d6cf2"
   },
   "stable": {
    "version": [
@@ -75246,38 +75208,6 @@
   }
  },
  {
-  "ename": "org-password-manager",
-  "error": "No recipe info",
-  "fetcher": "github",
-  "repo": "leafac/org-password-manager",
-  "unstable": {
-   "version": [
-    20180227,
-    1810
-   ],
-   "deps": [
-    "dash",
-    "org",
-    "s"
-   ],
-   "commit": "4b30a36e71182553a02e4dd415369290d98ec03a",
-   "sha256": "1a6i3g032c5xzsnaf7rprn22kk68y1ay3w21p3q52p3lvlzhnfis"
-  },
-  "stable": {
-   "version": [
-    0,
-    0,
-    1
-   ],
-   "deps": [
-    "org",
-    "s"
-   ],
-   "commit": "d3a33ddfe583180bdb76cfb8bbd772e0078b24a3",
-   "sha256": "0pqmnhd3qdg06agj6h8v8lm4m5q8px0qmd7a1bfn6i5g2bq9zrck"
-  }
- },
- {
   "ename": "org-pdftools",
   "commit": "d52346a042a72b76729d259c7f12f45d38ac27cd",
   "sha256": "1pgfx0zgdp9kg8mxqxm5qac7vnd0j1ghfwq04rvqi9r1d51zpynl",
@@ -80297,7 +80227,7 @@
   "commit": "fd591276073bf87fd9debdffc396f650790d566a",
   "sha256": "0kb424axcik38a9zn2a6mabs3ya6bs8zh06d26jzyaa4d2q75246",
   "fetcher": "github",
-  "repo": "zargener/emacs-password-genarator",
+  "repo": "vandrlexay/emacs-password-genarator",
   "unstable": {
    "version": [
     20201123,
@@ -94154,7 +94084,7 @@
   "commit": "19cafb22be7286f56391dc98b362fb2aa55a9a80",
   "sha256": "1vrns4fys01chk2cq10wb8w559lc7899s9dhwysg6818nvqj9my1",
   "fetcher": "github",
-  "repo": "daewok/slime-docker",
+  "repo": "cl-docker-images/slime-docker",
   "unstable": {
    "version": [
     20210124,
@@ -100642,8 +100572,8 @@
     20200212,
     1903
    ],
-   "commit": "6e04576963356717d1f36542f4b1a4671fbfc849",
-   "sha256": "06fqwc79ka6dmdscyicdalw5zpgwd18c3svi151hpphgs1pa0aj3"
+   "commit": "f72e5a8153c7c13ae5f99fcabff9180170aa5b6d",
+   "sha256": "0xz5razgsgsybpnr4zfwgf0lm0vyv5khdgwamx5mlfgwq31113ry"
   },
   "stable": {
    "version": [
