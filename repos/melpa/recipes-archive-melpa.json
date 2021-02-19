@@ -4233,8 +4233,8 @@
   "repo": "jyp/attrap",
   "unstable": {
    "version": [
-    20210205,
-    1027
+    20210219,
+    1001
    ],
    "deps": [
     "dash",
@@ -4242,8 +4242,8 @@
     "flycheck",
     "s"
    ],
-   "commit": "c84d68846995dbfe15f1237bf4ce0bc83c37bc52",
-   "sha256": "14446mn96kmmn1l915jf54x3cvrmkjnzrgsp8091xicxfvmhmpyq"
+   "commit": "778382eba8e1a449862b1573e90c1e79cf5caeb1",
+   "sha256": "0a2n1p2nasd2ikv86p3sm5sn4qb3avj2sni9gja3yn6kdqn8s8jp"
   },
   "stable": {
    "version": [
@@ -10898,8 +10898,8 @@
     "sesman",
     "spinner"
    ],
-   "commit": "b22c090ff5fe16f7906c14fc39c4a9bc6ba38145",
-   "sha256": "03bdc2z9wvb1slp4x4dkx9nq19hmpbc8rp3khaqyj9r1dq0795ly"
+   "commit": "815204f65db8b28524e8eab6421e6d8813a87e89",
+   "sha256": "1dkpl2cnydsa4scc3bc832f5as7a7904jwv3vbhxlnjl6kziww1g"
   },
   "stable": {
    "version": [
@@ -18470,16 +18470,16 @@
   "repo": "Wilfred/deadgrep",
   "unstable": {
    "version": [
-    20210113,
-    829
+    20210219,
+    748
    ],
    "deps": [
     "dash",
     "s",
     "spinner"
    ],
-   "commit": "3ea915f0c4f3b37a482cbf6faa070845d7ab1876",
-   "sha256": "1w922p46i3bf7mq5jj0i27b3ndiip2x46b1qy924y9874sc5ifxk"
+   "commit": "ca16c37ffa5caa5f698bc049012489a2e3071bcc",
+   "sha256": "055yxchqbqp4pbw9w9phibnp0a2qw1jsb1a5xbfc558phi2vbxdd"
   },
   "stable": {
    "version": [
@@ -22897,14 +22897,14 @@
   "repo": "joostkremers/ebib",
   "unstable": {
    "version": [
-    20210110,
-    1450
+    20210219,
+    1115
    ],
    "deps": [
     "parsebib"
    ],
-   "commit": "8a6e7ec3773ad0d87716bc0766eb1b4ff548f856",
-   "sha256": "012v001dy49cspak16cr90fwz0y6r2l01r3j25h0gdd5gm91dggv"
+   "commit": "32f97677bcfca2157583473af507c17e24f88f55",
+   "sha256": "1wd63jiik98ya5z4bkdpnznw03c1qri9wb8nn0w9smia9888a640"
   },
   "stable": {
    "version": [
@@ -23385,14 +23385,15 @@
   "repo": "editorconfig/editorconfig-emacs",
   "unstable": {
    "version": [
-    20210214,
-    1527
+    20210219,
+    1139
    ],
    "deps": [
-    "cl-lib"
+    "cl-lib",
+    "nadvice"
    ],
-   "commit": "aa649c1e783389f92fb4e378046f2ca68a31f2d0",
-   "sha256": "0gkhm7jcd0w4qidkw8n41rms7s2p2sn08ifahciclbzs19imjvgb"
+   "commit": "1fbbcef6f9aac339afb004f626e92bda088a8934",
+   "sha256": "1pig6g3i3f9s4cwlza2sh434l49m9var3h8n5j490ii9x3j788dq"
   },
   "stable": {
    "version": [
@@ -27826,8 +27827,8 @@
     20201215,
     830
    ],
-   "commit": "82f855a488df40498837db9492bb576add152296",
-   "sha256": "0l02lvgsxaaryzw0a6yv04qj8mbfz2fy2r663pp4a2anpbd11y4z"
+   "commit": "9b352cc2356ac30f0eafcb13efc2365a72ef485a",
+   "sha256": "1fnasf0f3qh6sllskzvsvg5747xij2l0w7ad6hz9g5w6pvg6m5gc"
   },
   "stable": {
    "version": [
@@ -28676,8 +28677,8 @@
     20210217,
     935
    ],
-   "commit": "ade659db4976c4f7dcfcd7ccd0196238443c5e95",
-   "sha256": "02pz620rnz1627ysq5m6gq3rw594rj5j0i4bhywnbw0768lfi81n"
+   "commit": "5169b0d27fad5ba219edd899267c61829b56f5c7",
+   "sha256": "0kmx3m7cmsr37f4dzqymxcc1bbki4cqphkq23ai34adgy4q5yymb"
   },
   "stable": {
    "version": [
@@ -38997,8 +38998,8 @@
   "ename": "fullframe",
   "commit": "9eb2ecf435ad197ed6636ee5fb101375aa76d5b0",
   "sha256": "01vwijpy10gxjwz9zkd2ri2dzhidrqsihpy90kwb5ip9kbgc4jhr",
-  "fetcher": "github",
-  "repo": "tomterl/fullframe",
+  "fetcher": "git",
+  "url": "https://git.sr.ht/~tomterl/fullframe",
   "unstable": {
    "version": [
     20201022,
@@ -39748,8 +39749,8 @@
   "repo": "thisch/gerrit.el",
   "unstable": {
    "version": [
-    20210216,
-    2118
+    20210219,
+    806
    ],
    "deps": [
     "dash",
@@ -39757,8 +39758,8 @@
     "magit",
     "s"
    ],
-   "commit": "841d8e6d2e0a9f0bd6282f28b445755acbf23ec5",
-   "sha256": "0yr55pdmbcwmk8jmakzgxdyjdzndv8jx74l81pbrg7r2jn43h9cd"
+   "commit": "19a8d6805541cede2523b70fa6601667b420f32f",
+   "sha256": "1aqcqyi4933p4cixrmjb2g1yghbdshir61q3l90igw6h6nfwbiiq"
   }
  },
  {
@@ -50014,18 +50015,17 @@
   "repo": "Wilfred/helpful",
   "unstable": {
    "version": [
-    20210215,
-    326
+    20210219,
+    728
    ],
    "deps": [
     "dash",
-    "dash-functional",
     "elisp-refs",
     "f",
     "s"
    ],
-   "commit": "afb2ccc0d71f233918b1ccd027af5023637654f4",
-   "sha256": "1ijyfq6wkcaq2d0rg35aggwaghbbm7h6jyhvwa5j3gwzzxym88d2"
+   "commit": "0b6720145e1d1e037ec8658b83fddfad2c0ce923",
+   "sha256": "0rsxd62l81hkpvznclgwvd1r6ca66mx6xm7jlvv8id28jhrqv03w"
   },
   "stable": {
    "version": [
@@ -67289,10 +67289,10 @@
   "unstable": {
    "version": [
     20210219,
-    510
+    916
    ],
-   "commit": "256dac5a909b7abeb59b40a8dc5c6705be89e4f6",
-   "sha256": "0037rim58awdy5x345yby0rk59jafmr72vxhqyydsdx3mia3n90i"
+   "commit": "1eb3f54d7195ee0a8d7633c529e9fca60693d99c",
+   "sha256": "1as7mzn56dk6smaay5lklqzrk8xzyr3ck5scl0xcgxjbb5rjf7y5"
   },
   "stable": {
    "version": [
