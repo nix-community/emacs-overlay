@@ -12,8 +12,8 @@ let
 
 in
 { config
-# emulate `use-package-always-ensure` behavior
-, alwaysEnsure ? false
+# emulate `use-package-always-ensure` behavior (defaulting to false)
+, alwaysEnsure ? null
 # emulate `#+PROPERTY: header-args:emacs-lisp :tangle yes`
 , alwaysTangle ? false
 , extraEmacsPackages ? epkgs: [ ]
@@ -30,7 +30,7 @@ let
     You can get back the old behaviour by passing `alwaysEnsure = true`.
     For a more in-depth usage example see https://github.com/nix-community/emacs-overlay#extra-library-functionality
   '';
-  showNotice = value: if alwaysEnsure then value else builtins.trace ensureNotice value;
+  doEnsure = if (alwaysEnsure == null) then builtins.trace ensureNotice false else alwaysEnsure;
 
   isOrgModeFile =
     let
@@ -47,9 +47,10 @@ let
       else if type == "path" then builtins.readFile config
       else throw "Unsupported type for config: \"${type}\"";
 
-  packages = showNotice (parse.parsePackagesFromUsePackage {
-    inherit configText alwaysEnsure isOrgModeFile alwaysTangle;
-  });
+  packages = parse.parsePackagesFromUsePackage {
+    inherit configText isOrgModeFile alwaysTangle;
+    alwaysEnsure = doEnsure;
+  };
   emacsPackages = pkgs.emacsPackagesGen package;
   emacsWithPackages = emacsPackages.emacsWithPackages;
   mkPackageError = name:
