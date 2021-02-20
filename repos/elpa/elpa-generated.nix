@@ -2373,10 +2373,10 @@
       elpaBuild {
         pname = "oauth2";
         ename = "oauth2";
-        version = "0.15";
+        version = "0.16";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/oauth2-0.15.el";
-          sha256 = "0ij17g6i8d4cyzc8v6sy2qglwhzd767331gavll6d507krdh3ca3";
+          url = "https://elpa.gnu.org/packages/oauth2-0.16.tar";
+          sha256 = "1rzly2nwjywrfgcmp8zidbmjl2ahyd8l8507lb1mxm4xqryvf316";
         };
         packageRequires = [ cl-lib nadvice ];
         meta = {
