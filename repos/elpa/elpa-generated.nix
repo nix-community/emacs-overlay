@@ -2714,6 +2714,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    pyim = callPackage ({ async, elpaBuild, emacs, fetchurl, lib, xr }:
+      elpaBuild {
+        pname = "pyim";
+        ename = "pyim";
+        version = "3.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/pyim-3.2.tar";
+          sha256 = "1rr9mq334dqf7mx1ii7910zkigw7chl63iws4sw0qsn014kjlb0a";
+        };
+        packageRequires = [ async emacs xr ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/pyim.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     python = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "python";
