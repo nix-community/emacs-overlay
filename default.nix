@@ -49,7 +49,6 @@ let
 
               patches = [
                 ./patches/tramp-detect-wrapped-gvfsd.patch
-                ./patches/clean-env.patch
               ];
               postPatch = old.postPatch + ''
                 substituteInPlace lisp/loadup.el \
@@ -120,7 +119,6 @@ let
     old: {
       patches = [
         ./patches/tramp-detect-wrapped-gvfsd-27.patch
-        ./patches/clean-env.patch
       ];
     }
   );
