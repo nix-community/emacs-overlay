@@ -63,7 +63,7 @@ let
         # --with-native-comp was changed to --with-native-compilation
         # Remove this once 21.05 is released
         (drv: if drv.passthru.nativeComp && self.lib.elem "--with-native-comp" drv.configureFlags then drv.overrideAttrs(old: {
-          configureFlags = builtins.filter old.configureFlags "--with-native-comp" ++ [ "--with-native-compilation" ];
+          configureFlags = builtins.map (flag: if flag == "--with-native-comp" then "--with-native-compilation" else flag) old.configureFlags;
         }) else drv)
 
         # reconnect pkgs to the built emacs
