@@ -60,30 +60,6 @@ let
           )
         )
 
-        # Stable compat
-        (
-          drv:
-          let
-            # The nativeComp passthru attribute is used a heuristic to check if we're on 20.03 or older
-            isStable = !(super.lib.hasAttr "nativeComp" (drv.passthru or { }));
-            withX = super.lib.elem "--with-xft" drv.configureFlags;
-          in
-          if isStable then drv.overrideAttrs (
-            old: {
-
-              configureFlags = old.configureFlags
-                ++ super.lib.optional withX "--with-cairo";
-
-              buildInputs = old.buildInputs ++ [
-                self.harfbuzz.dev
-                self.jansson
-              ]
-                ++ super.lib.optional withX self.cairo;
-
-            }
-          ) else drv
-        )
-
         # reconnect pkgs to the built emacs
         (
           drv: let
