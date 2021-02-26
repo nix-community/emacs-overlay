@@ -25,7 +25,8 @@ The =feature/native-comp= branch is also provided under the attribute =emacsGcc=
 This is to be considered highly experimental.
 
 We also provide two attributes named =emacsGit-nox= and =emacsUnstable-nox=
-if you wish to have Emacs built without X dependencies.
+if you wish to have Emacs built without X dependencies, as well as the
+experimental pgtk branch which supports Wayland natively.
 
 ** Extra library functionality
 This overlay comes with extra functions to generate an Emacs closure
