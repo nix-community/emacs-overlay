@@ -22,7 +22,7 @@ let
       }
     );
 
-  mkGitEmacs = namePrefix: jsonFile:
+  mkGitEmacs = namePrefix: jsonFile: { ... }@args:
     let
       repoMeta = super.lib.importJSON jsonFile;
       fetcher =
@@ -38,7 +38,7 @@ let
       self.emacs
       [
 
-        (drv: drv.override { srcRepo = true; })
+        (drv: drv.override ({ srcRepo = true; } // args))
 
         (
           drv: drv.overrideAttrs (
@@ -78,26 +78,22 @@ let
         )
       ];
 
-  mkPgtkEmacs = namePrefix: jsonFile: (mkGitEmacs namePrefix jsonFile).overrideAttrs (
+  mkPgtkEmacs = namePrefix: jsonFile: { ... }@args: (mkGitEmacs namePrefix jsonFile args).overrideAttrs (
     old: {
       configureFlags = (super.lib.remove "--with-xft" old.configureFlags)
         ++ super.lib.singleton "--with-pgtk";
     }
   );
 
-  emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json;
+  emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json { };
 
-  emacsGcc = (mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-feature_native-comp.json).override {
-    nativeComp = true;
-  };
+  emacsGcc = (mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-feature_native-comp.json { nativeComp = true; });
 
-  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-feature_pgtk.json;
+  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-feature_pgtk.json { };
 
-  emacsPgtkGcc = (mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-pgtk-nativecomp.json).override {
-    nativeComp = true;
-  };
+  emacsPgtkGcc = (mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-pgtk-nativecomp.json { nativeComp = true; });
 
-  emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json).overrideAttrs (
+  emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { }).overrideAttrs (
     old: {
       patches = [
         ./patches/tramp-detect-wrapped-gvfsd-27.patch
