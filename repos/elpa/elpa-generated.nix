@@ -3578,10 +3578,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.5.0.1";
+        version = "2.5.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.5.0.1.tar";
-          sha256 = "0kqlc03bbsdywp0m3mf0m62hqyam8vg81phh7nqmpdjzskrdc1yy";
+          url = "https://elpa.gnu.org/packages/tramp-2.5.0.2.tar";
+          sha256 = "16f782rjkmxxs5sz3wv4d46i7hbl483ashmrkvljf7lpnrl91s93";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3616,6 +3616,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/transcribe.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    transient = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "transient";
+        ename = "transient";
+        version = "0.3.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/transient-0.3.0.tar";
+          sha256 = "1a457apfl762nn5xf1h3hbvrgs9hybkxh0jwb2y713zkhhck66cp";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/transient.html";
           license = lib.licenses.free;
         };
       }) {};
