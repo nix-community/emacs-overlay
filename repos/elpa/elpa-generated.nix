@@ -730,10 +730,10 @@
       elpaBuild {
         pname = "dash";
         ename = "dash";
-        version = "2.18.0";
+        version = "2.18.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dash-2.18.0.tar";
-          sha256 = "1x2sy633830csp85zjb715gir5mfgb645ghdzp12lajqwgvy9py7";
+          url = "https://elpa.gnu.org/packages/dash-2.18.1.tar";
+          sha256 = "17mrvmrfh5c3kri4r3gf1c3gz4i5vl9ac60grpx4103b56y4cgra";
         };
         packageRequires = [ emacs ];
         meta = {
