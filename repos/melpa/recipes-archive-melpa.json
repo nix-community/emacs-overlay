@@ -21460,11 +21460,11 @@
   "repo": "spotify/dockerfile-mode",
   "unstable": {
    "version": [
-    20210218,
-    1746
+    20210301,
+    52
    ],
-   "commit": "ed1d04c89cd8b53963f2dcae7cb3a46967e0abbf",
-   "sha256": "1ypkihd9si769r6k0lfrv8jq8mjv4gyhiwyi820sayfppvma5rj0"
+   "commit": "07dde72b0e356d772fb65b969bd6decfa166e4d7",
+   "sha256": "17hpwhv0mg7ai90sczb6p4i6fwi9s1i3dsbnmk9rf6w6f5y0r1wk"
   },
   "stable": {
    "version": [
@@ -27015,8 +27015,8 @@
   "repo": "Wilfred/emacs-refactor",
   "unstable": {
    "version": [
-    20210110,
-    1928
+    20210301,
+    213
    ],
    "deps": [
     "cl-lib",
@@ -27029,8 +27029,8 @@
     "projectile",
     "s"
    ],
-   "commit": "d0540df81c1b5f9f75f69ff92331bbf4b16f2e2c",
-   "sha256": "1py0140pvi8vyy3digjsz3clp98md05mik8w2xnjb47mb4af39jb"
+   "commit": "648c2e87516fac37b84fd9bc34a6362d2a9001e2",
+   "sha256": "1crgj5skqckvw1l445ywkdq23bqkj6b6yf5y3pcyay1aasvjbhmb"
   },
   "stable": {
    "version": [
@@ -66145,16 +66145,16 @@
   "repo": "DogLooksGood/meow",
   "unstable": {
    "version": [
-    20210228,
-    1438
+    20210301,
+    59
    ],
    "deps": [
     "cl-lib",
     "dash",
     "s"
    ],
-   "commit": "c42325ea09832b475ff9d801fd05efc7095594b5",
-   "sha256": "0vv9wwahp1pjhyw9hcasskygl7pilx65nh15qfl61llvmzsvp746"
+   "commit": "5f01f8be74853f27cff021ad6e750f4b31e9375d",
+   "sha256": "009kfsis6qib0ax9nlipcvwclqk4kyqwafvsymssvls0r7ar50f9"
   }
  },
  {
@@ -71727,6 +71727,25 @@
    ],
    "commit": "81951e12032274543c5f7a585b29bd93961e94e4",
    "sha256": "1i0yymsx8kin28bkrgwkk9ngsmjh0gh5j4hb0k03bq4fy799f2xx"
+  }
+ },
+ {
+  "ename": "numpydoc",
+  "commit": "e7e20f00482f143ac67589a48f7bc591e075b5da",
+  "sha256": "1p2ls9qmbl58p4cyrk4f769blc72lfgbwd3sy4hhkv75m4qj4lws",
+  "fetcher": "github",
+  "repo": "douglasdavis/numpydoc.el",
+  "unstable": {
+   "version": [
+    20210301,
+    25
+   ],
+   "deps": [
+    "dash",
+    "s"
+   ],
+   "commit": "8a7430de69650dbd2e91fd746c2f8fe1665e5a45",
+   "sha256": "1n26c8kj6w36v3cz15497r51rkb03ngsgkld5qcy75j8ha7mddwz"
   }
  },
  {
@@ -96912,11 +96931,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20210227,
-    1343
+    20210301,
+    224
    ],
-   "commit": "697e07e31adb82b9f14e8da67682bd1c0a14c7f6",
-   "sha256": "0w57jpj0ms1ddadfiiw2kkj48qipczv20i5yrayps2sb774rj37m"
+   "commit": "63704d435255c1fe3d7579f0344e244c2fbdb706",
+   "sha256": "1fbpbj7jzm4djlbzvzjld2gs46wiy6gm9hd1pjg2rr987fl882rg"
   }
  },
  {
@@ -101402,8 +101421,8 @@
     20200212,
     1903
    ],
-   "commit": "cac32b3d44828ad69181afc31ec039b8561c46a3",
-   "sha256": "05a96aym5q465r4jag7a05mdzr2cmfb07jlifd8rfzy5nz0l021r"
+   "commit": "2a5e467de2a63fd59b15c347581f3c5dca349e2b",
+   "sha256": "0px46fq29xdsgys525l5ba0zbqq9d86c739zqlqnn3safvg5vrih"
   },
   "stable": {
    "version": [
