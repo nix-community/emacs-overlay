@@ -2384,6 +2384,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    ob-haxe = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "ob-haxe";
+        ename = "ob-haxe";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/ob-haxe-1.0.tar";
+          sha256 = "1x19b3aappv4d3mvpf01r505l1sfndbzbpr5sbid411g9g9k3rwr";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/ob-haxe.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     objed = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "objed";
