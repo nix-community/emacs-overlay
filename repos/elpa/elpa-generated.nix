@@ -2673,10 +2673,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "0.8.5";
+        version = "0.8.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-0.8.5.tar";
-          sha256 = "0rls0rsj9clx4wd0gbdi5jzwyslparlf7phib649637gq6gs90ds";
+          url = "https://elpa.gnu.org/packages/posframe-0.8.6.tar";
+          sha256 = "1f2f2kh888l0sr9jawib731gpsmg0kj3kkasic5zad75lj3wagpi";
         };
         packageRequires = [ emacs ];
         meta = {
