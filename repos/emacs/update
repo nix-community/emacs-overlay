@@ -1,61 +1,187 @@
-#!/usr/bin/env nix-shell
-#! nix-shell -i bash -p curl xmlstarlet nix coreutils
-set -euxo pipefail
+#!/usr/bin/env python
+from concurrent.futures import ThreadPoolExecutor
+from lxml import etree
+import subprocess
+import os.path
+import httpx
+import json
+import sys
 
-SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
-cd $SCRIPTPATH
 
-function update_savannah_branch() {
-    branch=$1
-    echo emacs $branch
-
-    # Get relevant data (commit id and timestamp) for the latest commit
-    commit_data=$(curl "https://git.savannah.gnu.org/cgit/emacs.git/atom/?h=$branch" | xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -m /atom:feed/atom:entry -v "concat(atom:id,'/',atom:updated)" -n | head -n 1)
-
-    # Extract commit sha and build a version number based on date: YYYYMMDD.0
-    commit_sha=$(echo $commit_data | cut -d '/' -f 1)
-    version_number=$(echo $commit_data | cut -d '/' -f 2 | cut -d 'T' -f 1 | sed 's/-//g').0
-
-    output_branch=$(echo $branch | sed s/"\/"/"_"/)
-    digest=$(nix-prefetch-url --unpack "https://git.savannah.gnu.org/cgit/emacs.git/snapshot/emacs-${commit_sha}.tar.gz")
-    echo "{\"type\": \"savannah\", \"repo\": \"emacs\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > emacs-$output_branch.json
+REPOS = {
+    "emacs-feature_native-comp": {
+        "exec": lambda: update_savannah_repo("emacs", "feature/native-comp"),
+        "attr": "emacsGcc",
+    },
+    "emacs-feature_pgtk": {
+        "exec": lambda: update_savannah_repo("emacs", "feature/pgtk"),
+        "attr": "emacsPgtk",
+    },
+    "emacs-pgtk-nativecomp": {
+        "exec": lambda: update_github_repo("flatwhatson", "emacs", "pgtk-nativecomp"),
+        "attr": "emacsPgtkGcc",
+    },
+    "emacs-unstable": {
+        "exec": lambda: update_savannah_release("emacs", "emacs-[1-9]*"),
+        "attr": "emacsUnstable",
+    },
+    "emacs-master": {
+        "exec": lambda: update_savannah_repo("emacs", "master"),
+        "attr": "emacsGit",
+    },
 }
 
-function update_github_repo() {
-    owner=$1
-    repo=$2
-    branch=$3
-    echo $repo $branch
 
-    # Get relevant data (commit id and timestamp) for the latest commit
-    commit_data=$(curl "https://github.com/$owner/$repo/commits/$branch.atom" | xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -m /atom:feed/atom:entry -v "concat(atom:id,'/',atom:updated)" -n | head -n 1)
+def update_savannah_repo(repo: str, branch: str):
 
-    # Extract commit sha and build a version number based on date: YYYYMMDD.0
-    commit_sha=$(echo $commit_data | cut -d '/' -f 2)
-    version_number=$(echo $commit_data | cut -d '/' -f 3 | cut -d 'T' -f 1 | sed 's/-//g').0
+    url = f"https://git.savannah.gnu.org/cgit/{repo}.git/atom/?h={branch}"
+    resp = httpx.get(url)
+    if resp.status_code != 200:
+        raise ValueError(f"Response for url '{url}' returned code {resp.status_code}")
 
-    output_branch=$(echo $branch | sed s/"\/"/"_"/)
-    digest=$(nix-prefetch-url --unpack "https://github.com/$owner/$repo/archive/${commit_sha}.tar.gz")
-    echo "{\"type\": \"github\", \"owner\": \"${owner}\", \"repo\": \"${repo}\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > $repo-$output_branch.json
-}
+    namespaces = {"atom": "http://www.w3.org/2005/Atom"}
 
-function update_release() {
-    echo emacs release
+    root = etree.fromstring(resp.text)
+    entries = root.xpath("//atom:feed/atom:entry", namespaces=namespaces)
 
-    git clone --shallow-since="$(date --date='-6 month')" https://git.savannah.gnu.org/git/emacs.git emacs_git_repo
-    tag=$(git -C emacs_git_repo tag -l --sort=-v:refname 'emacs-[1-9]*' | head -n1)
-    rm -rf emacs_git_repo
+    latest = entries[0]
+    commit_sha: str = latest.find("{http://www.w3.org/2005/Atom}id").text
 
-    digest=$(nix-prefetch-url --unpack "https://git.savannah.gnu.org/cgit/emacs.git/snapshot/emacs-${tag}.tar.gz")
-    version_number=$(echo $tag | cut -d '-' -f 2)
+    updated: str = latest.find("{http://www.w3.org/2005/Atom}updated").text
+    version_number = updated.split("T")[0].replace("-", "") + ".0"
 
-    echo "{\"type\": \"savannah\", \"repo\": \"emacs\", \"rev\": \"${tag}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > emacs-unstable.json
-}
+    tarball_url = f"https://git.savannah.gnu.org/cgit/{repo}.git/snapshot/{repo}-{commit_sha}.tar.gz"
+    digest = (
+        subprocess.check_output(["nix-prefetch-url", "--unpack", tarball_url])
+        .strip()
+        .decode()
+    )
 
-update_savannah_branch master
-update_savannah_branch feature/native-comp
-update_savannah_branch feature/pgtk
-update_github_repo flatwhatson emacs pgtk-nativecomp
-update_release
+    return {
+        "type": "savannah",
+        "repo": repo,
+        "rev": commit_sha,
+        "sha256": digest,
+        "version": version_number,
+    }
 
-nix-build --no-out-link --show-trace ./test.nix
+
+def update_github_repo(owner: str, repo: str, branch: str):
+
+    url = f"https://github.com/{owner}/{repo}/commits/{branch}.atom"
+    resp = httpx.get(url)
+    if resp.status_code != 200:
+        raise ValueError(f"Response for url '{url}' returned code {resp.status_code}")
+
+    namespaces = {"atom": "http://www.w3.org/2005/Atom"}
+
+    root = etree.fromstring(resp.content)
+    entries = root.xpath("//atom:feed/atom:entry", namespaces=namespaces)
+
+    latest = entries[0]
+    commit_sha: str = latest.find("{http://www.w3.org/2005/Atom}id").text.split("/")[-1]
+
+    updated: str = latest.find("{http://www.w3.org/2005/Atom}updated").text
+    version_number = updated.split("T")[0].replace("-", "") + ".0"
+
+    tarball_url = f"https://github.com/{owner}/{repo}/archive/{commit_sha}.tar.gz"
+    digest = (
+        subprocess.check_output(["nix-prefetch-url", "--unpack", tarball_url])
+        .strip()
+        .decode()
+    )
+
+    return {
+        "type": "github",
+        "owner": owner,
+        "repo": repo,
+        "rev": commit_sha,
+        "sha256": digest,
+        "version": version_number,
+    }
+
+
+def update_savannah_release(repo: str, refs_filter: str):
+
+    rev = [
+        l.split("\t")[-1].split("/")[-1]
+        for l in subprocess.check_output(
+            [
+                "git",
+                "ls-remote",
+                "--tags",
+                "--sort=-v:refname",
+                f"https://git.savannah.gnu.org/git/{repo}.git",
+                refs_filter,
+            ]
+        )
+        .decode()
+        .split("\n")
+        if not l.endswith("^{}")
+    ][0]
+    version = rev.split("-")[-1]
+
+    tarball_url = f"https://git.savannah.gnu.org/cgit/{repo}.git/snapshot/{rev}.tar.gz"
+    digest = (
+        subprocess.check_output(["nix-prefetch-url", "--unpack", tarball_url])
+        .strip()
+        .decode()
+    )
+
+    return {
+        "type": "savannah",
+        "repo": repo,
+        "rev": rev,
+        "sha256": digest,
+        "version": version,
+    }
+
+
+def build_attr(attr: str) -> bool:
+    """Build attr and return success state"""
+    try:
+        subprocess.run(
+            [
+                "nix-build",
+                "--no-out-link",
+                "--expr",
+                ("(import <nixpkgs> { overlays = [ (import %s/default.nix) ]; })." % REPO_ROOT) + attr,
+            ],
+            check=True,
+        )
+    except Exception as e:
+        print(f"Attribute '{attr}' failed to build:", e)
+        return False
+    else:
+        return True
+
+
+if __name__ == "__main__":
+
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+    REPO_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
+
+    # Fetch remotes
+    with ThreadPoolExecutor() as e:
+        infos = {
+            k: v.result() for k, v in
+            [(name, e.submit(meta["exec"])) for name, meta in REPOS.items()]
+        }
+
+    # Write local JSON files
+    for attr in infos:
+        with open(os.path.join(SCRIPT_DIR, f"{attr}.json"), "w") as f:
+            print(infos)
+            json.dump(infos[attr], f)
+            f.write("\n")
+
+    # Attempt building
+    with ThreadPoolExecutor() as e:
+        failing_attrs = {
+            k for k, v in
+            [(name, e.submit(build_attr, meta["attr"])) for name, meta in REPOS.items()]
+            if not v.result()
+        }
+
+    if failing_attrs:
+        raise RuntimeError("Attributes failing to build: ", failing_attrs)
