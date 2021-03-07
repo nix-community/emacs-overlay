@@ -13846,14 +13846,14 @@
   "repo": "mguzmann89/company-ipa",
   "unstable": {
    "version": [
-    20210303,
-    1655
+    20210307,
+    1838
    ],
    "deps": [
     "company"
    ],
-   "commit": "26fbe5438ae5e63d2b3aaa0a9bd284e064a8213d",
-   "sha256": "1ca2yhida20cvgpcxzamwj052f8n8zxrva0pn1fzqp1s07zkvngx"
+   "commit": "8634021cac885f53f3274ef6dcce7eab19321046",
+   "sha256": "0629my156zxjb3h636iirdd2rr58z3vsdinhq0w0y6f3544i05hx"
   }
  },
  {
@@ -22475,11 +22475,11 @@
   "repo": "integral-dw/dw-passphrase-generator",
   "unstable": {
    "version": [
-    20210226,
-    2028
+    20210307,
+    1834
    ],
-   "commit": "66d92f592b35fd168f23d7c58d698a1ed2dcaa0a",
-   "sha256": "1pfz1wwrdpdkd29309dryy7ficl1h1rfmgv7fbpy9p33vs9mdi9p"
+   "commit": "8c5b5c9d435de97ce9b95b9280feb1c0a57a60f8",
+   "sha256": "1793bwfn3c2f9dxcs8mmps3riy25y5baz1fvbpdr9pq19sl58bj5"
   },
   "stable": {
    "version": [
@@ -26184,8 +26184,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "01e031e6643ada701e3e904560b7172e00bb0e9a",
-   "sha256": "0rcv7hs5dqiclirv0yh1d4j51hpa9rkdwr4abpa8j4fc70mhji90"
+   "commit": "99997af93310128cc95b8ddceacb448daed2403a",
+   "sha256": "03syfvwsbrrmghdav3xkmpjvdfh1q1qr880a6f6wkri9iazg021g"
   }
  },
  {
@@ -60541,6 +60541,14 @@
   }
  },
  {
+  "ename": "leaf-defaults",
+  "commit": "326fab332b9dec9660414906aafd220986372906",
+  "sha256": "1a08xjjjf9w3scw2bzbvlxak4nmjjia9icnf01ilhcfmlqa3rwdc",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "conao3/leaf-defaults.el"
+ },
+ {
   "ename": "leaf-keywords",
   "commit": "dfe671ccd5a87ba4157f55e2a16a39dfaa10c027",
   "sha256": "0i5hn1051hfbppbsv2m5p7h1rrn9pbvsps6vsk84ssqvhj7ryvyb",
@@ -92823,6 +92831,14 @@
    "commit": "fbbe246c0fda87bb26227bb826eebadb418a220f",
    "sha256": "1h1b48s2iirswdlvfz41jbflm4x09ksc2lycrc1awzlwd6r8hdhg"
   }
+ },
+ {
+  "ename": "seen-mode",
+  "commit": "f29f5a7850d058984a39ecf6aaa81a9e465356f6",
+  "sha256": "0v2qjqf89fz9ss4m39zwrhpijk1flglmyys9wm4nxi5dp32pppji",
+  "error": "Not in archive",
+  "fetcher": "git",
+  "url": "https://git.sr.ht/~shiorid/seen.el"
  },
  {
   "ename": "seethru",
