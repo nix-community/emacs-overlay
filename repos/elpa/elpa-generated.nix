@@ -1759,10 +1759,10 @@
       elpaBuild {
         pname = "ivy-hydra";
         ename = "ivy-hydra";
-        version = "0.13.4";
+        version = "0.13.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ivy-hydra-0.13.4.tar";
-          sha256 = "02i9j5x545d9kkzdb4rdhchafbzmid889jki6h8gs9xnqrqm5mzj";
+          url = "https://elpa.gnu.org/packages/ivy-hydra-0.13.5.tar";
+          sha256 = "06rln9bnq5hli5rqlm47fb68b8llpqrmzwqqv4rn7mx3854i9a5x";
         };
         packageRequires = [ emacs hydra ivy ];
         meta = {
@@ -2763,10 +2763,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "3.3";
+        version = "3.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-3.3.tar";
-          sha256 = "1zlhhih3fksqva5pg3i5vifbm1sdpyzysay7lygmxkbbnh78i7cn";
+          url = "https://elpa.gnu.org/packages/pyim-3.5.tar";
+          sha256 = "0593ds3zbmpd6235b8v33f3cb3sn8cwr6arb6zbf1ba97nawjxqs";
         };
         packageRequires = [ async emacs xr ];
         meta = {
