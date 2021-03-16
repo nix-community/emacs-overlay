@@ -940,10 +940,10 @@
       elpaBuild {
         pname = "easy-kill";
         ename = "easy-kill";
-        version = "0.9.3";
+        version = "0.9.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/easy-kill-0.9.3.tar";
-          sha256 = "17nw0mglmg877axwg1d0gs03yc0p04lzmd3pl0nsnqbh3303fnqb";
+          url = "https://elpa.gnu.org/packages/easy-kill-0.9.4.tar";
+          sha256 = "1pqqv4dhfm00wqch4wy3n2illsvxlz9r6r64925cvq3i7wq4la1x";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -1929,10 +1929,10 @@
       elpaBuild {
         pname = "leaf";
         ename = "leaf";
-        version = "4.3.2";
+        version = "4.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/leaf-4.3.2.tar";
-          sha256 = "190sfnnii9jnj8amjkdabd8w9k2xyalhg4h488a5gzjxdzz2s6zi";
+          url = "https://elpa.gnu.org/packages/leaf-4.4.0.tar";
+          sha256 = "0wgf3ksrk6b77fvy3sr9hqazq0snbvqyrrql6v1hryqjfq5nwfx7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3103,10 +3103,10 @@
       elpaBuild {
         pname = "rich-minority";
         ename = "rich-minority";
-        version = "1.0.1";
+        version = "1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rich-minority-1.0.1.el";
-          sha256 = "1pr89k3jz044vf582klphl1zf0r7hj2g7ga8j1dwbrpr9ngiicgc";
+          url = "https://elpa.gnu.org/packages/rich-minority-1.0.3.tar";
+          sha256 = "1w61qvx2rw6a6gmrm61080zghil95nzdv4w06c0pvyb62m4rwab0";
         };
         packageRequires = [ cl-lib ];
         meta = {
@@ -3222,6 +3222,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/seq.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    setup = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "setup";
+        ename = "setup";
+        version = "0.1.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/setup-0.1.1.tar";
+          sha256 = "0z34m06lxw6xd6bxacm1h5cijamsksk4daf6fbzhd7kqmw3gbgqg";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/setup.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -4012,10 +4027,10 @@
       elpaBuild {
         pname = "which-key";
         ename = "which-key";
-        version = "3.3.2";
+        version = "3.5.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/which-key-3.3.2.tar";
-          sha256 = "01g5jcikhgxnri1rpbjq191220b4r3bimz2jzs1asc766w42q2gb";
+          url = "https://elpa.gnu.org/packages/which-key-3.5.1.tar";
+          sha256 = "187cssvqpd0wj01rgd19pp1k6aj9m2n5fdqznkga6w1h6cb5cm2b";
         };
         packageRequires = [ emacs ];
         meta = {
