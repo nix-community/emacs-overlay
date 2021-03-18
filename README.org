@@ -127,12 +127,20 @@ cause compilation time.
 }
 #+END_SRC
 
-#  LocalWords:  EXWM NixOS emacsGit
-#  LocalWords:  SRC nixpkgs builtins fetchTarball url
 *** Binary cache
 You will want to use the [[https://nix-community.org/#binary-cache][nix-community binary cache]]. Where the
 overlay's build artefacts are pushed. See [[https://app.cachix.org/cache/nix-community][here]] for installation
 instructions.
+
+*** Install directly from the overlay
+The repository is meant to be used as an overlay as is explained
+above. Still, for experimental purposes, you might want to install a
+package directly from the overlay. For example, you can install
+=emacsGit= from a clone of this repository with the following command:
+
+#+begin_src shell
+  nix-build --expr 'with (import <nixpkgs> { overlays = [ (import ./.) ]; }); emacsGit'
+#+end_src
 
 * Community
 
@@ -143,3 +151,6 @@ instructions.
 
 *** Emacs tracking issue
 https://github.com/NixOS/nixpkgs/issues/66303
+
+#  LocalWords:  EXWM NixOS emacsGit
+#  LocalWords:  SRC nixpkgs builtins fetchTarball url
