@@ -127,8 +127,6 @@ cause compilation time.
 }
 #+END_SRC
 
-#  LocalWords:  EXWM NixOS emacsGit
-#  LocalWords:  SRC nixpkgs builtins fetchTarball url
 *** Binary cache
 You will want to use the [[https://nix-community.org/#binary-cache][nix-community binary cache]]. Where the
 overlay's build artefacts are pushed. See [[https://app.cachix.org/cache/nix-community][here]] for installation
@@ -153,3 +151,6 @@ package directly from the overlay. For example, you can install
 
 *** Emacs tracking issue
 https://github.com/NixOS/nixpkgs/issues/66303
+
+#  LocalWords:  EXWM NixOS emacsGit
+#  LocalWords:  SRC nixpkgs builtins fetchTarball url
