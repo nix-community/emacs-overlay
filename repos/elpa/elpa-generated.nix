@@ -2195,16 +2195,20 @@
           license = lib.licenses.free;
         };
       }) {};
-    modus-operandi-theme = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    modus-operandi-theme = callPackage ({ elpaBuild
+                                        , emacs
+                                        , fetchurl
+                                        , lib
+                                        , modus-themes }:
       elpaBuild {
         pname = "modus-operandi-theme";
         ename = "modus-operandi-theme";
-        version = "0.12.0";
+        version = "0.13.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-operandi-theme-0.12.0.el";
-          sha256 = "1mllyysn701qfnglxs7n2f6mrzrz55v9hcwspvafc6fl2blr393y";
+          url = "https://elpa.gnu.org/packages/modus-operandi-theme-0.13.1.tar";
+          sha256 = "08l9qmhvxiscxn4mfb80x57mk4gfm5r0fs2l9c8i3gfzd4i3h091";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ emacs modus-themes ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/modus-operandi-theme.html";
           license = lib.licenses.free;
@@ -2225,16 +2229,20 @@
           license = lib.licenses.free;
         };
       }) {};
-    modus-vivendi-theme = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    modus-vivendi-theme = callPackage ({ elpaBuild
+                                       , emacs
+                                       , fetchurl
+                                       , lib
+                                       , modus-themes }:
       elpaBuild {
         pname = "modus-vivendi-theme";
         ename = "modus-vivendi-theme";
-        version = "0.12.0";
+        version = "0.13.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-vivendi-theme-0.12.0.el";
-          sha256 = "01f6z5xjnmki1k9m83jwva42lxidb31pdpwm4wpxjzxqmb96picn";
+          url = "https://elpa.gnu.org/packages/modus-vivendi-theme-0.13.1.tar";
+          sha256 = "0xz304zcc872c2zwnlm8ky0m18smf7bffiyj21ygghgclr7kgma1";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ emacs modus-themes ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/modus-vivendi-theme.html";
           license = lib.licenses.free;
