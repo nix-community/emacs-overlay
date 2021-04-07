@@ -4237,8 +4237,8 @@
   "repo": "jyp/attrap",
   "unstable": {
    "version": [
-    20210219,
-    1001
+    20210407,
+    1826
    ],
    "deps": [
     "dash",
@@ -4246,8 +4246,8 @@
     "flycheck",
     "s"
    ],
-   "commit": "778382eba8e1a449862b1573e90c1e79cf5caeb1",
-   "sha256": "0a2n1p2nasd2ikv86p3sm5sn4qb3avj2sni9gja3yn6kdqn8s8jp"
+   "commit": "4b088698ec81f7cd0f715b30e280b37e3881b91d",
+   "sha256": "1jil04a69fx946vh6f81x3ki84jmmdfz7g3c9v4phddz58clb1sb"
   },
   "stable": {
    "version": [
@@ -5216,11 +5216,14 @@
   "url": "https://git.sr.ht/~zge/autocrypt",
   "unstable": {
    "version": [
-    20201115,
-    912
+    20210407,
+    2133
    ],
-   "commit": "926b88e3719ac59e6539b4d3cae9d0f5159c9114",
-   "sha256": "0q5rid613rmb72g9ilrgzvb6nnqariiy3x9y2d5ch2kkzsdvng79"
+   "deps": [
+    "cl-generic"
+   ],
+   "commit": "c9d7c13f0d2c9329b444952a791dc6873cf1a1cd",
+   "sha256": "0ygjgk6k9yigzmv3jcllb71wix1cvk75ddy7jjdyph18fq66fwq0"
   }
  },
  {
@@ -15282,8 +15285,8 @@
   "repo": "necaris/conda.el",
   "unstable": {
    "version": [
-    20210114,
-    123
+    20210407,
+    1802
    ],
    "deps": [
     "dash",
@@ -15291,8 +15294,8 @@
     "pythonic",
     "s"
    ],
-   "commit": "dce431b25f5a13af58cc7cacfa7968b5a888609c",
-   "sha256": "1q4hnb42kp73ida37cgrrwi5dxl8vjdl1ibj8l51h47l2rlcrn09"
+   "commit": "4823ad65db37a3e4bd04b987641ce53bd586062c",
+   "sha256": "1xn4y523m4rxa53k6fzfqlxk8i2lp4ckgs526bxqvv1ii3r834wm"
   },
   "stable": {
    "version": [
@@ -17839,11 +17842,11 @@
   "repo": "rails-to-cosmos/danneskjold-theme",
   "unstable": {
    "version": [
-    20210404,
-    749
+    20210407,
+    1942
    ],
-   "commit": "e275853832c870e3c1ec09c8f14adda4e0a54633",
-   "sha256": "0458x66j4813yvnr7j7sxhyas0sd6klwxaxc4y57p3gxczj2y72x"
+   "commit": "cd45635155aa6bae941156043217ce11531deca9",
+   "sha256": "1j2fr8gcy5pxzvaf3xh9z2k6bsdbw5z0a2ciys1zy8629sfx6w83"
   }
  },
  {
@@ -22509,8 +22512,8 @@
     20210213,
     757
    ],
-   "commit": "6993df68bc48802f54e4a0f2b331144a06c553e2",
-   "sha256": "03v4gsmwaacd1nrjpfrm257rm3gw8y1wnf0kwavpya05wihkn2bg"
+   "commit": "756f2a69e33cea60dcffe57767e4df248ad7bafa",
+   "sha256": "08j5i08iqqhcdhym1gc07iz9ywfld1gc1m994jkr1b3dzay7ry3j"
   },
   "stable": {
    "version": [
@@ -23180,14 +23183,14 @@
   "repo": "joostkremers/ebib",
   "unstable": {
    "version": [
-    20210402,
-    2151
+    20210407,
+    2146
    ],
    "deps": [
     "parsebib"
    ],
-   "commit": "0ed4d91bb79fa8ea62178d92d1cb2faa00146a66",
-   "sha256": "06qg53hic49y71nzpp50pamd70s6xzmak6n4frysyrmxhg0bwajz"
+   "commit": "bd1c9dcda79f734f6302e7c81ee0f13106a3a9e1",
+   "sha256": "1bd6hqiq178h1z8x0hjyrxg6l0h2inkzmrg6fadfj3ly1hbs5157"
   },
   "stable": {
    "version": [
@@ -28497,8 +28500,8 @@
    "deps": [
     "company"
    ],
-   "commit": "0f144815ebcc1f911a6a7e6df170f8cc10744c92",
-   "sha256": "1lss6q24pdkzbxdn3lj85xci1md9bs28j8ib3qsk1cmv6m691y28"
+   "commit": "30203fc7b8b63a489f34f74ca8b041bf61f4358f",
+   "sha256": "0w34m9va83grw5j566i5sdgkz475fhf3hibx9p1m0a92p1mg9v8s"
   },
   "stable": {
    "version": [
@@ -28777,14 +28780,14 @@
   "repo": "4DA/eshell-toggle",
   "unstable": {
    "version": [
-    20201112,
-    1008
+    20210407,
+    2039
    ],
    "deps": [
     "dash"
    ],
-   "commit": "bbf69e54ba97f23ae281f5c455c194e8a236549c",
-   "sha256": "1f3i9cr4qibjkg8bh719ayb7p3nr5y3hmzlvyflb9vi3108kspb8"
+   "commit": "7160518ca56444fead841b8acff59aeffc7cebb3",
+   "sha256": "0g0cg71n0cp1576i2qkgvg729gw1927vq0js3s64v5b8p9hmb1kq"
   }
  },
  {
@@ -29628,14 +29631,14 @@
   "unstable": {
    "version": [
     20210407,
-    1504
+    2119
    ],
    "deps": [
     "cl-lib",
     "goto-chg"
    ],
-   "commit": "2fa8584547ae7ac09bd7f12bdf86f78493de362c",
-   "sha256": "148hbi340y4y3is0yamr76k43w6v2bdzgip8i0khvf42nzraa42d"
+   "commit": "d3cc85bf828f04256de4a36ddb7624064b0252c8",
+   "sha256": "13s8crsn4nb1kbi1b8xy6icpazh4h0bl22bfv7bpdj0dqcs7qy0j"
   },
   "stable": {
    "version": [
@@ -32925,7 +32928,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/technomancy/fennel-mode/repository/archive.tar.gz?ref=0224f0a753bf1bf62facf8a6934022978c32343f': HTTP error 503; retrying in 312 ms\nwarning: unable to download 'https://gitlab.com/technomancy/fennel-mode/repository/archive.tar.gz?ref=0224f0a753bf1bf62facf8a6934022978c32343f': HTTP error 503; retrying in 567 ms\nwarning: unable to download 'https://gitlab.com/technomancy/fennel-mode/repository/archive.tar.gz?ref=0224f0a753bf1bf62facf8a6934022978c32343f': HTTP error 503; retrying in 1005 ms\nwarning: unable to download 'https://gitlab.com/technomancy/fennel-mode/repository/archive.tar.gz?ref=0224f0a753bf1bf62facf8a6934022978c32343f': HTTP error 503; retrying in 2772 ms\nerror: unable to download 'https://gitlab.com/technomancy/fennel-mode/repository/archive.tar.gz?ref=0224f0a753bf1bf62facf8a6934022978c32343f': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/technomancy/fennel-mode/repository/archive.tar.gz?ref=0224f0a753bf1bf62facf8a6934022978c32343f': HTTP error 503; retrying in 351 ms\nwarning: unable to download 'https://gitlab.com/technomancy/fennel-mode/repository/archive.tar.gz?ref=0224f0a753bf1bf62facf8a6934022978c32343f': HTTP error 503; retrying in 592 ms\nwarning: unable to download 'https://gitlab.com/technomancy/fennel-mode/repository/archive.tar.gz?ref=0224f0a753bf1bf62facf8a6934022978c32343f': HTTP error 503; retrying in 1075 ms\nwarning: unable to download 'https://gitlab.com/technomancy/fennel-mode/repository/archive.tar.gz?ref=0224f0a753bf1bf62facf8a6934022978c32343f': HTTP error 503; retrying in 2068 ms\nerror: unable to download 'https://gitlab.com/technomancy/fennel-mode/repository/archive.tar.gz?ref=0224f0a753bf1bf62facf8a6934022978c32343f': HTTP error 503\n"
    ]
   },
   "stable": {
@@ -39966,7 +39969,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/emacs-geiser/geiser/repository/archive.tar.gz?ref=9fd3174cead8bfa17a8413bffa38362853d71a02': HTTP error 503; retrying in 258 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/geiser/repository/archive.tar.gz?ref=9fd3174cead8bfa17a8413bffa38362853d71a02': HTTP error 503; retrying in 682 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/geiser/repository/archive.tar.gz?ref=9fd3174cead8bfa17a8413bffa38362853d71a02': HTTP error 503; retrying in 1155 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/geiser/repository/archive.tar.gz?ref=9fd3174cead8bfa17a8413bffa38362853d71a02': HTTP error 503; retrying in 2401 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/geiser/repository/archive.tar.gz?ref=9fd3174cead8bfa17a8413bffa38362853d71a02': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/emacs-geiser/geiser/repository/archive.tar.gz?ref=9fd3174cead8bfa17a8413bffa38362853d71a02': HTTP error 503; retrying in 282 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/geiser/repository/archive.tar.gz?ref=9fd3174cead8bfa17a8413bffa38362853d71a02': HTTP error 503; retrying in 544 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/geiser/repository/archive.tar.gz?ref=9fd3174cead8bfa17a8413bffa38362853d71a02': HTTP error 503; retrying in 1033 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/geiser/repository/archive.tar.gz?ref=9fd3174cead8bfa17a8413bffa38362853d71a02': HTTP error 503; retrying in 2318 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/geiser/repository/archive.tar.gz?ref=9fd3174cead8bfa17a8413bffa38362853d71a02': HTTP error 503\n"
    ]
   },
   "stable": {
@@ -39996,7 +39999,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/emacs-geiser/chez/repository/archive.tar.gz?ref=4cb7f2667ea1c53da53f0144910fbbd67bccbf4d': HTTP error 503; retrying in 263 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chez/repository/archive.tar.gz?ref=4cb7f2667ea1c53da53f0144910fbbd67bccbf4d': HTTP error 503; retrying in 572 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chez/repository/archive.tar.gz?ref=4cb7f2667ea1c53da53f0144910fbbd67bccbf4d': HTTP error 503; retrying in 1267 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chez/repository/archive.tar.gz?ref=4cb7f2667ea1c53da53f0144910fbbd67bccbf4d': HTTP error 503; retrying in 2080 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/chez/repository/archive.tar.gz?ref=4cb7f2667ea1c53da53f0144910fbbd67bccbf4d': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/emacs-geiser/chez/repository/archive.tar.gz?ref=4cb7f2667ea1c53da53f0144910fbbd67bccbf4d': HTTP error 503; retrying in 271 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chez/repository/archive.tar.gz?ref=4cb7f2667ea1c53da53f0144910fbbd67bccbf4d': HTTP error 503; retrying in 501 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chez/repository/archive.tar.gz?ref=4cb7f2667ea1c53da53f0144910fbbd67bccbf4d': HTTP error 503; retrying in 1064 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chez/repository/archive.tar.gz?ref=4cb7f2667ea1c53da53f0144910fbbd67bccbf4d': HTTP error 503; retrying in 2168 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/chez/repository/archive.tar.gz?ref=4cb7f2667ea1c53da53f0144910fbbd67bccbf4d': HTTP error 503\n"
    ]
   }
  },
@@ -40018,7 +40021,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/emacs-geiser/chibi/repository/archive.tar.gz?ref=54e7f384618c73d8fb675b5289d443a8ee3e4dc8': HTTP error 503; retrying in 261 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chibi/repository/archive.tar.gz?ref=54e7f384618c73d8fb675b5289d443a8ee3e4dc8': HTTP error 503; retrying in 673 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chibi/repository/archive.tar.gz?ref=54e7f384618c73d8fb675b5289d443a8ee3e4dc8': HTTP error 503; retrying in 1127 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chibi/repository/archive.tar.gz?ref=54e7f384618c73d8fb675b5289d443a8ee3e4dc8': HTTP error 503; retrying in 2204 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/chibi/repository/archive.tar.gz?ref=54e7f384618c73d8fb675b5289d443a8ee3e4dc8': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/emacs-geiser/chibi/repository/archive.tar.gz?ref=54e7f384618c73d8fb675b5289d443a8ee3e4dc8': HTTP error 503; retrying in 332 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chibi/repository/archive.tar.gz?ref=54e7f384618c73d8fb675b5289d443a8ee3e4dc8': HTTP error 503; retrying in 568 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chibi/repository/archive.tar.gz?ref=54e7f384618c73d8fb675b5289d443a8ee3e4dc8': HTTP error 503; retrying in 1221 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chibi/repository/archive.tar.gz?ref=54e7f384618c73d8fb675b5289d443a8ee3e4dc8': HTTP error 503; retrying in 2395 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/chibi/repository/archive.tar.gz?ref=54e7f384618c73d8fb675b5289d443a8ee3e4dc8': HTTP error 503\n"
    ]
   }
  },
@@ -40040,7 +40043,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/emacs-geiser/chicken/repository/archive.tar.gz?ref=47be5b43b35d3bf35b0f668b4c08715ea41fb97d': HTTP error 503; retrying in 276 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chicken/repository/archive.tar.gz?ref=47be5b43b35d3bf35b0f668b4c08715ea41fb97d': HTTP error 503; retrying in 690 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chicken/repository/archive.tar.gz?ref=47be5b43b35d3bf35b0f668b4c08715ea41fb97d': HTTP error 503; retrying in 1173 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chicken/repository/archive.tar.gz?ref=47be5b43b35d3bf35b0f668b4c08715ea41fb97d': HTTP error 503; retrying in 2542 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/chicken/repository/archive.tar.gz?ref=47be5b43b35d3bf35b0f668b4c08715ea41fb97d': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/emacs-geiser/chicken/repository/archive.tar.gz?ref=47be5b43b35d3bf35b0f668b4c08715ea41fb97d': HTTP error 503; retrying in 251 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chicken/repository/archive.tar.gz?ref=47be5b43b35d3bf35b0f668b4c08715ea41fb97d': HTTP error 503; retrying in 571 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chicken/repository/archive.tar.gz?ref=47be5b43b35d3bf35b0f668b4c08715ea41fb97d': HTTP error 503; retrying in 1001 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/chicken/repository/archive.tar.gz?ref=47be5b43b35d3bf35b0f668b4c08715ea41fb97d': HTTP error 503; retrying in 2548 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/chicken/repository/archive.tar.gz?ref=47be5b43b35d3bf35b0f668b4c08715ea41fb97d': HTTP error 503\n"
    ]
   }
  },
@@ -40062,7 +40065,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/emacs-geiser/gambit/repository/archive.tar.gz?ref=0ee4156640988497779345452c3aa0417356e606': HTTP error 503; retrying in 333 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/gambit/repository/archive.tar.gz?ref=0ee4156640988497779345452c3aa0417356e606': HTTP error 503; retrying in 608 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/gambit/repository/archive.tar.gz?ref=0ee4156640988497779345452c3aa0417356e606': HTTP error 503; retrying in 1400 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/gambit/repository/archive.tar.gz?ref=0ee4156640988497779345452c3aa0417356e606': HTTP error 503; retrying in 2821 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/gambit/repository/archive.tar.gz?ref=0ee4156640988497779345452c3aa0417356e606': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/emacs-geiser/gambit/repository/archive.tar.gz?ref=0ee4156640988497779345452c3aa0417356e606': HTTP error 503; retrying in 311 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/gambit/repository/archive.tar.gz?ref=0ee4156640988497779345452c3aa0417356e606': HTTP error 503; retrying in 524 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/gambit/repository/archive.tar.gz?ref=0ee4156640988497779345452c3aa0417356e606': HTTP error 503; retrying in 1247 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/gambit/repository/archive.tar.gz?ref=0ee4156640988497779345452c3aa0417356e606': HTTP error 503; retrying in 2099 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/gambit/repository/archive.tar.gz?ref=0ee4156640988497779345452c3aa0417356e606': HTTP error 503\n"
    ]
   }
  },
@@ -40114,7 +40117,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/emacs-geiser/guile/repository/archive.tar.gz?ref=93ef7101fdfcc7eac6f465b4b9788c384a323c14': HTTP error 503; retrying in 327 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/guile/repository/archive.tar.gz?ref=93ef7101fdfcc7eac6f465b4b9788c384a323c14': HTTP error 503; retrying in 649 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/guile/repository/archive.tar.gz?ref=93ef7101fdfcc7eac6f465b4b9788c384a323c14': HTTP error 503; retrying in 1390 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/guile/repository/archive.tar.gz?ref=93ef7101fdfcc7eac6f465b4b9788c384a323c14': HTTP error 503; retrying in 2559 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/guile/repository/archive.tar.gz?ref=93ef7101fdfcc7eac6f465b4b9788c384a323c14': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/emacs-geiser/guile/repository/archive.tar.gz?ref=93ef7101fdfcc7eac6f465b4b9788c384a323c14': HTTP error 503; retrying in 297 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/guile/repository/archive.tar.gz?ref=93ef7101fdfcc7eac6f465b4b9788c384a323c14': HTTP error 503; retrying in 539 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/guile/repository/archive.tar.gz?ref=93ef7101fdfcc7eac6f465b4b9788c384a323c14': HTTP error 503; retrying in 1011 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/guile/repository/archive.tar.gz?ref=93ef7101fdfcc7eac6f465b4b9788c384a323c14': HTTP error 503; retrying in 2237 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/guile/repository/archive.tar.gz?ref=93ef7101fdfcc7eac6f465b4b9788c384a323c14': HTTP error 503\n"
    ]
   }
  },
@@ -40154,7 +40157,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/emacs-geiser/mit/repository/archive.tar.gz?ref=d17394f577aaa2854a74a1a0039cb8f73378b400': HTTP error 503; retrying in 256 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/mit/repository/archive.tar.gz?ref=d17394f577aaa2854a74a1a0039cb8f73378b400': HTTP error 503; retrying in 654 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/mit/repository/archive.tar.gz?ref=d17394f577aaa2854a74a1a0039cb8f73378b400': HTTP error 503; retrying in 1056 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/mit/repository/archive.tar.gz?ref=d17394f577aaa2854a74a1a0039cb8f73378b400': HTTP error 503; retrying in 2544 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/mit/repository/archive.tar.gz?ref=d17394f577aaa2854a74a1a0039cb8f73378b400': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/emacs-geiser/mit/repository/archive.tar.gz?ref=d17394f577aaa2854a74a1a0039cb8f73378b400': HTTP error 503; retrying in 265 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/mit/repository/archive.tar.gz?ref=d17394f577aaa2854a74a1a0039cb8f73378b400': HTTP error 503; retrying in 658 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/mit/repository/archive.tar.gz?ref=d17394f577aaa2854a74a1a0039cb8f73378b400': HTTP error 503; retrying in 1074 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/mit/repository/archive.tar.gz?ref=d17394f577aaa2854a74a1a0039cb8f73378b400': HTTP error 503; retrying in 2589 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/mit/repository/archive.tar.gz?ref=d17394f577aaa2854a74a1a0039cb8f73378b400': HTTP error 503\n"
    ]
   }
  },
@@ -40176,7 +40179,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/emacs-geiser/racket/repository/archive.tar.gz?ref=a87fd449cc6c7b0b17a0b08268e78d3f038f3351': HTTP error 503; retrying in 291 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/racket/repository/archive.tar.gz?ref=a87fd449cc6c7b0b17a0b08268e78d3f038f3351': HTTP error 503; retrying in 561 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/racket/repository/archive.tar.gz?ref=a87fd449cc6c7b0b17a0b08268e78d3f038f3351': HTTP error 503; retrying in 1287 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/racket/repository/archive.tar.gz?ref=a87fd449cc6c7b0b17a0b08268e78d3f038f3351': HTTP error 503; retrying in 2187 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/racket/repository/archive.tar.gz?ref=a87fd449cc6c7b0b17a0b08268e78d3f038f3351': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/emacs-geiser/racket/repository/archive.tar.gz?ref=a87fd449cc6c7b0b17a0b08268e78d3f038f3351': HTTP error 503; retrying in 314 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/racket/repository/archive.tar.gz?ref=a87fd449cc6c7b0b17a0b08268e78d3f038f3351': HTTP error 503; retrying in 523 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/racket/repository/archive.tar.gz?ref=a87fd449cc6c7b0b17a0b08268e78d3f038f3351': HTTP error 503; retrying in 1114 ms\nwarning: unable to download 'https://gitlab.com/emacs-geiser/racket/repository/archive.tar.gz?ref=a87fd449cc6c7b0b17a0b08268e78d3f038f3351': HTTP error 503; retrying in 2141 ms\nerror: unable to download 'https://gitlab.com/emacs-geiser/racket/repository/archive.tar.gz?ref=a87fd449cc6c7b0b17a0b08268e78d3f038f3351': HTTP error 503\n"
    ]
   }
  },
@@ -40675,7 +40678,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/Ambrevar/emacs-gif-screencast/repository/archive.tar.gz?ref=fa81e915c256271fa10b807a2935d5eaa4700dff': HTTP error 503; retrying in 258 ms\nwarning: unable to download 'https://gitlab.com/Ambrevar/emacs-gif-screencast/repository/archive.tar.gz?ref=fa81e915c256271fa10b807a2935d5eaa4700dff': HTTP error 503; retrying in 692 ms\nwarning: unable to download 'https://gitlab.com/Ambrevar/emacs-gif-screencast/repository/archive.tar.gz?ref=fa81e915c256271fa10b807a2935d5eaa4700dff': HTTP error 503; retrying in 1007 ms\nwarning: unable to download 'https://gitlab.com/Ambrevar/emacs-gif-screencast/repository/archive.tar.gz?ref=fa81e915c256271fa10b807a2935d5eaa4700dff': HTTP error 503; retrying in 2234 ms\nerror: unable to download 'https://gitlab.com/Ambrevar/emacs-gif-screencast/repository/archive.tar.gz?ref=fa81e915c256271fa10b807a2935d5eaa4700dff': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/Ambrevar/emacs-gif-screencast/repository/archive.tar.gz?ref=fa81e915c256271fa10b807a2935d5eaa4700dff': HTTP error 503; retrying in 296 ms\nwarning: unable to download 'https://gitlab.com/Ambrevar/emacs-gif-screencast/repository/archive.tar.gz?ref=fa81e915c256271fa10b807a2935d5eaa4700dff': HTTP error 503; retrying in 588 ms\nwarning: unable to download 'https://gitlab.com/Ambrevar/emacs-gif-screencast/repository/archive.tar.gz?ref=fa81e915c256271fa10b807a2935d5eaa4700dff': HTTP error 503; retrying in 1244 ms\nwarning: unable to download 'https://gitlab.com/Ambrevar/emacs-gif-screencast/repository/archive.tar.gz?ref=fa81e915c256271fa10b807a2935d5eaa4700dff': HTTP error 503; retrying in 2307 ms\nerror: unable to download 'https://gitlab.com/Ambrevar/emacs-gif-screencast/repository/archive.tar.gz?ref=fa81e915c256271fa10b807a2935d5eaa4700dff': HTTP error 503\n"
    ]
   },
   "stable": {
@@ -44782,16 +44785,16 @@
   "repo": "wbolster/emacs-gsettings",
   "unstable": {
    "version": [
-    20210208,
-    2042
+    20210407,
+    2045
    ],
    "deps": [
     "dash",
     "gvariant",
     "s"
    ],
-   "commit": "1bd1909a22121a8200cca678302f1533856b9008",
-   "sha256": "1g195dg359iff4cq5ywwd5jjxwhvwd4qj6j8631g7wkjz1rx7bxb"
+   "commit": "9f9fb1fe946bbba46307c26355f355225ea7262a",
+   "sha256": "1pq18kz6dqk45ib70sch38ql63smpv7s80ik478ajjysks3882rc"
   },
   "stable": {
    "version": [
@@ -51559,7 +51562,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-hl-block-mode/repository/archive.tar.gz?ref=717b4f743c633362a8b28c883c454c5ef3711722': HTTP error 503; retrying in 323 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-hl-block-mode/repository/archive.tar.gz?ref=717b4f743c633362a8b28c883c454c5ef3711722': HTTP error 503; retrying in 603 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-hl-block-mode/repository/archive.tar.gz?ref=717b4f743c633362a8b28c883c454c5ef3711722': HTTP error 503; retrying in 1410 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-hl-block-mode/repository/archive.tar.gz?ref=717b4f743c633362a8b28c883c454c5ef3711722': HTTP error 503; retrying in 2008 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-hl-block-mode/repository/archive.tar.gz?ref=717b4f743c633362a8b28c883c454c5ef3711722': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-hl-block-mode/repository/archive.tar.gz?ref=717b4f743c633362a8b28c883c454c5ef3711722': HTTP error 503; retrying in 335 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-hl-block-mode/repository/archive.tar.gz?ref=717b4f743c633362a8b28c883c454c5ef3711722': HTTP error 503; retrying in 595 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-hl-block-mode/repository/archive.tar.gz?ref=717b4f743c633362a8b28c883c454c5ef3711722': HTTP error 503; retrying in 1040 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-hl-block-mode/repository/archive.tar.gz?ref=717b4f743c633362a8b28c883c454c5ef3711722': HTTP error 503; retrying in 2105 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-hl-block-mode/repository/archive.tar.gz?ref=717b4f743c633362a8b28c883c454c5ef3711722': HTTP error 503\n"
    ]
   }
  },
@@ -58189,14 +58192,14 @@
   "repo": "tminor/jsonnet-mode",
   "unstable": {
    "version": [
-    20201207,
-    1825
+    20210407,
+    2013
    ],
    "deps": [
     "dash"
    ],
-   "commit": "e93a1f55e5f9bc2b34b025c6f7a60a6f159268d1",
-   "sha256": "0vi7415n90d1z2ww1hld0gdp6v7z4rd6f70h476dp2x4hydk293i"
+   "commit": "9bb6f86dfe6418ccccb929e8a03fb4bb24a9ac0e",
+   "sha256": "1rx7kr4pdhrmpcm5rm0h9kawk7czgdy1w5z3w4a2jw0v442bhx44"
   },
   "stable": {
    "version": [
@@ -61665,11 +61668,11 @@
     20210303,
     1751
    ],
-   "commit": "790a967ee850757c2642fce98c646ed9f5e761f6",
+   "commit": "f1abb44b8d80178495a4f7e8c173e44959e9b9ed",
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/ligolang/ligo/repository/archive.tar.gz?ref=790a967ee850757c2642fce98c646ed9f5e761f6': HTTP error 503; retrying in 254 ms\nwarning: unable to download 'https://gitlab.com/ligolang/ligo/repository/archive.tar.gz?ref=790a967ee850757c2642fce98c646ed9f5e761f6': HTTP error 503; retrying in 548 ms\nwarning: unable to download 'https://gitlab.com/ligolang/ligo/repository/archive.tar.gz?ref=790a967ee850757c2642fce98c646ed9f5e761f6': HTTP error 503; retrying in 1048 ms\nwarning: unable to download 'https://gitlab.com/ligolang/ligo/repository/archive.tar.gz?ref=790a967ee850757c2642fce98c646ed9f5e761f6': HTTP error 503; retrying in 2662 ms\nerror: unable to download 'https://gitlab.com/ligolang/ligo/repository/archive.tar.gz?ref=790a967ee850757c2642fce98c646ed9f5e761f6': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/ligolang/ligo/repository/archive.tar.gz?ref=f1abb44b8d80178495a4f7e8c173e44959e9b9ed': HTTP error 503; retrying in 251 ms\nwarning: unable to download 'https://gitlab.com/ligolang/ligo/repository/archive.tar.gz?ref=f1abb44b8d80178495a4f7e8c173e44959e9b9ed': HTTP error 503; retrying in 541 ms\nwarning: unable to download 'https://gitlab.com/ligolang/ligo/repository/archive.tar.gz?ref=f1abb44b8d80178495a4f7e8c173e44959e9b9ed': HTTP error 503; retrying in 1060 ms\nwarning: unable to download 'https://gitlab.com/ligolang/ligo/repository/archive.tar.gz?ref=f1abb44b8d80178495a4f7e8c173e44959e9b9ed': HTTP error 503; retrying in 2522 ms\nerror: unable to download 'https://gitlab.com/ligolang/ligo/repository/archive.tar.gz?ref=f1abb44b8d80178495a4f7e8c173e44959e9b9ed': HTTP error 503\n"
    ]
   },
   "stable": {
@@ -67584,7 +67587,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/jabranham/mixed-pitch/repository/archive.tar.gz?ref=519e05f74825abf04b7d2e0e38ec040d013a125a': HTTP error 503; retrying in 265 ms\nwarning: unable to download 'https://gitlab.com/jabranham/mixed-pitch/repository/archive.tar.gz?ref=519e05f74825abf04b7d2e0e38ec040d013a125a': HTTP error 503; retrying in 655 ms\nwarning: unable to download 'https://gitlab.com/jabranham/mixed-pitch/repository/archive.tar.gz?ref=519e05f74825abf04b7d2e0e38ec040d013a125a': HTTP error 503; retrying in 1176 ms\nwarning: unable to download 'https://gitlab.com/jabranham/mixed-pitch/repository/archive.tar.gz?ref=519e05f74825abf04b7d2e0e38ec040d013a125a': HTTP error 503; retrying in 2377 ms\nerror: unable to download 'https://gitlab.com/jabranham/mixed-pitch/repository/archive.tar.gz?ref=519e05f74825abf04b7d2e0e38ec040d013a125a': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/jabranham/mixed-pitch/repository/archive.tar.gz?ref=519e05f74825abf04b7d2e0e38ec040d013a125a': HTTP error 503; retrying in 303 ms\nwarning: unable to download 'https://gitlab.com/jabranham/mixed-pitch/repository/archive.tar.gz?ref=519e05f74825abf04b7d2e0e38ec040d013a125a': HTTP error 503; retrying in 609 ms\nwarning: unable to download 'https://gitlab.com/jabranham/mixed-pitch/repository/archive.tar.gz?ref=519e05f74825abf04b7d2e0e38ec040d013a125a': HTTP error 503; retrying in 1020 ms\nwarning: unable to download 'https://gitlab.com/jabranham/mixed-pitch/repository/archive.tar.gz?ref=519e05f74825abf04b7d2e0e38ec040d013a125a': HTTP error 503; retrying in 2531 ms\nerror: unable to download 'https://gitlab.com/jabranham/mixed-pitch/repository/archive.tar.gz?ref=519e05f74825abf04b7d2e0e38ec040d013a125a': HTTP error 503\n"
    ]
   },
   "stable": {
@@ -68078,7 +68081,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=5f04e2de4b0816048ee917b694b3430f39c40a7b': HTTP error 503; retrying in 291 ms\nwarning: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=5f04e2de4b0816048ee917b694b3430f39c40a7b': HTTP error 503; retrying in 654 ms\nwarning: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=5f04e2de4b0816048ee917b694b3430f39c40a7b': HTTP error 503; retrying in 1027 ms\nwarning: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=5f04e2de4b0816048ee917b694b3430f39c40a7b': HTTP error 503; retrying in 2365 ms\nerror: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=5f04e2de4b0816048ee917b694b3430f39c40a7b': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=5f04e2de4b0816048ee917b694b3430f39c40a7b': HTTP error 503; retrying in 299 ms\nwarning: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=5f04e2de4b0816048ee917b694b3430f39c40a7b': HTTP error 503; retrying in 545 ms\nwarning: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=5f04e2de4b0816048ee917b694b3430f39c40a7b': HTTP error 503; retrying in 1150 ms\nwarning: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=5f04e2de4b0816048ee917b694b3430f39c40a7b': HTTP error 503; retrying in 2422 ms\nerror: unable to download 'https://gitlab.com/protesilaos/modus-themes/repository/archive.tar.gz?ref=5f04e2de4b0816048ee917b694b3430f39c40a7b': HTTP error 503\n"
    ]
   },
   "stable": {
@@ -73753,7 +73756,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/oer/oer-reveal/repository/archive.tar.gz?ref=1150feb761047e241af1c5e67333665e729a4a63': HTTP error 503; retrying in 315 ms\nwarning: unable to download 'https://gitlab.com/oer/oer-reveal/repository/archive.tar.gz?ref=1150feb761047e241af1c5e67333665e729a4a63': HTTP error 503; retrying in 610 ms\nwarning: unable to download 'https://gitlab.com/oer/oer-reveal/repository/archive.tar.gz?ref=1150feb761047e241af1c5e67333665e729a4a63': HTTP error 503; retrying in 1313 ms\nwarning: unable to download 'https://gitlab.com/oer/oer-reveal/repository/archive.tar.gz?ref=1150feb761047e241af1c5e67333665e729a4a63': HTTP error 503; retrying in 2225 ms\nerror: unable to download 'https://gitlab.com/oer/oer-reveal/repository/archive.tar.gz?ref=1150feb761047e241af1c5e67333665e729a4a63': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/oer/oer-reveal/repository/archive.tar.gz?ref=1150feb761047e241af1c5e67333665e729a4a63': HTTP error 503; retrying in 346 ms\nwarning: unable to download 'https://gitlab.com/oer/oer-reveal/repository/archive.tar.gz?ref=1150feb761047e241af1c5e67333665e729a4a63': HTTP error 503; retrying in 588 ms\nwarning: unable to download 'https://gitlab.com/oer/oer-reveal/repository/archive.tar.gz?ref=1150feb761047e241af1c5e67333665e729a4a63': HTTP error 503; retrying in 1114 ms\nwarning: unable to download 'https://gitlab.com/oer/oer-reveal/repository/archive.tar.gz?ref=1150feb761047e241af1c5e67333665e729a4a63': HTTP error 503; retrying in 2413 ms\nerror: unable to download 'https://gitlab.com/oer/oer-reveal/repository/archive.tar.gz?ref=1150feb761047e241af1c5e67333665e729a4a63': HTTP error 503\n"
    ]
   },
   "stable": {
@@ -76278,14 +76281,14 @@
   "repo": "jeremy-compostella/org-msg",
   "unstable": {
    "version": [
-    20210209,
-    2056
+    20210407,
+    2009
    ],
    "deps": [
     "htmlize"
    ],
-   "commit": "89e746c0a864031eef940758230bc7263a6f2289",
-   "sha256": "15gd5zbxvdallyra9lmpb9i1r2mmwz0j0i0ra7j9imnbfiz3ln9r"
+   "commit": "305e728f55128b6f98892a3f5080fba9c36e34a4",
+   "sha256": "0rjvvfyc225057ckzj6xx63d70ldzb98brwavbp047mcaa93dr8m"
   }
  },
  {
@@ -76986,7 +76989,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/oer/org-re-reveal/repository/archive.tar.gz?ref=4d8a63cba537705f4ecf3f45838e3cfc83fa2369': HTTP error 503; retrying in 320 ms\nwarning: unable to download 'https://gitlab.com/oer/org-re-reveal/repository/archive.tar.gz?ref=4d8a63cba537705f4ecf3f45838e3cfc83fa2369': HTTP error 503; retrying in 594 ms\nwarning: unable to download 'https://gitlab.com/oer/org-re-reveal/repository/archive.tar.gz?ref=4d8a63cba537705f4ecf3f45838e3cfc83fa2369': HTTP error 503; retrying in 1245 ms\nwarning: unable to download 'https://gitlab.com/oer/org-re-reveal/repository/archive.tar.gz?ref=4d8a63cba537705f4ecf3f45838e3cfc83fa2369': HTTP error 503; retrying in 2108 ms\nerror: unable to download 'https://gitlab.com/oer/org-re-reveal/repository/archive.tar.gz?ref=4d8a63cba537705f4ecf3f45838e3cfc83fa2369': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/oer/org-re-reveal/repository/archive.tar.gz?ref=4d8a63cba537705f4ecf3f45838e3cfc83fa2369': HTTP error 503; retrying in 267 ms\nwarning: unable to download 'https://gitlab.com/oer/org-re-reveal/repository/archive.tar.gz?ref=4d8a63cba537705f4ecf3f45838e3cfc83fa2369': HTTP error 503; retrying in 553 ms\nwarning: unable to download 'https://gitlab.com/oer/org-re-reveal/repository/archive.tar.gz?ref=4d8a63cba537705f4ecf3f45838e3cfc83fa2369': HTTP error 503; retrying in 1187 ms\nwarning: unable to download 'https://gitlab.com/oer/org-re-reveal/repository/archive.tar.gz?ref=4d8a63cba537705f4ecf3f45838e3cfc83fa2369': HTTP error 503; retrying in 2792 ms\nerror: unable to download 'https://gitlab.com/oer/org-re-reveal/repository/archive.tar.gz?ref=4d8a63cba537705f4ecf3f45838e3cfc83fa2369': HTTP error 503\n"
    ]
   },
   "stable": {
@@ -86724,8 +86727,8 @@
     20200619,
     1742
    ],
-   "commit": "9d175493a341885019d8fad6571ddc0cf69473a2",
-   "sha256": "1g6p9lpj0djliqdk8ivfdi3z3197nwjrrx886ch9fsmr98kk6vnl"
+   "commit": "c2148566c7ca5683e4401ba3ad88a63eec895a4b",
+   "sha256": "0yibc3sgsyfirfiv297k6ll5akp0s0rch0m8zjds8jr7v648larb"
   },
   "stable": {
    "version": [
@@ -87732,8 +87735,8 @@
     20200503,
     1624
    ],
-   "commit": "628c266c0a2b0a0498d78d8a9a01704557e46c00",
-   "sha256": "021rbl665j7ajxdw3rghqq3i6z5nzw1z8m8bbl8958b9sljr20j1"
+   "commit": "8b18d91daab5c3fbf036de77d8e1e21fde0a9e02",
+   "sha256": "1isrh51gr0r8mgjyddf618lgdv9gs7xhdswr8pqpj4sx0gpbjw9p"
   }
  },
  {
@@ -87981,7 +87984,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/python-mode-devs/python-mode/repository/archive.tar.gz?ref=906b0a107f7bcfe6e32bcfedb977e6f0f99fda59': HTTP error 503; retrying in 308 ms\nwarning: unable to download 'https://gitlab.com/python-mode-devs/python-mode/repository/archive.tar.gz?ref=906b0a107f7bcfe6e32bcfedb977e6f0f99fda59': HTTP error 503; retrying in 656 ms\nwarning: unable to download 'https://gitlab.com/python-mode-devs/python-mode/repository/archive.tar.gz?ref=906b0a107f7bcfe6e32bcfedb977e6f0f99fda59': HTTP error 503; retrying in 1377 ms\nwarning: unable to download 'https://gitlab.com/python-mode-devs/python-mode/repository/archive.tar.gz?ref=906b0a107f7bcfe6e32bcfedb977e6f0f99fda59': HTTP error 503; retrying in 2244 ms\nerror: unable to download 'https://gitlab.com/python-mode-devs/python-mode/repository/archive.tar.gz?ref=906b0a107f7bcfe6e32bcfedb977e6f0f99fda59': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/python-mode-devs/python-mode/repository/archive.tar.gz?ref=906b0a107f7bcfe6e32bcfedb977e6f0f99fda59': HTTP error 503; retrying in 350 ms\nwarning: unable to download 'https://gitlab.com/python-mode-devs/python-mode/repository/archive.tar.gz?ref=906b0a107f7bcfe6e32bcfedb977e6f0f99fda59': HTTP error 503; retrying in 588 ms\nwarning: unable to download 'https://gitlab.com/python-mode-devs/python-mode/repository/archive.tar.gz?ref=906b0a107f7bcfe6e32bcfedb977e6f0f99fda59': HTTP error 503; retrying in 1293 ms\nwarning: unable to download 'https://gitlab.com/python-mode-devs/python-mode/repository/archive.tar.gz?ref=906b0a107f7bcfe6e32bcfedb977e6f0f99fda59': HTTP error 503; retrying in 2414 ms\nerror: unable to download 'https://gitlab.com/python-mode-devs/python-mode/repository/archive.tar.gz?ref=906b0a107f7bcfe6e32bcfedb977e6f0f99fda59': HTTP error 503\n"
    ]
   },
   "stable": {
@@ -89767,7 +89770,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-recomplete/repository/archive.tar.gz?ref=802c85b02d99bce4cf540ed4b716eaa39df45c4a': HTTP error 503; retrying in 279 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-recomplete/repository/archive.tar.gz?ref=802c85b02d99bce4cf540ed4b716eaa39df45c4a': HTTP error 503; retrying in 679 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-recomplete/repository/archive.tar.gz?ref=802c85b02d99bce4cf540ed4b716eaa39df45c4a': HTTP error 503; retrying in 1048 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-recomplete/repository/archive.tar.gz?ref=802c85b02d99bce4cf540ed4b716eaa39df45c4a': HTTP error 503; retrying in 2554 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-recomplete/repository/archive.tar.gz?ref=802c85b02d99bce4cf540ed4b716eaa39df45c4a': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-recomplete/repository/archive.tar.gz?ref=802c85b02d99bce4cf540ed4b716eaa39df45c4a': HTTP error 503; retrying in 251 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-recomplete/repository/archive.tar.gz?ref=802c85b02d99bce4cf540ed4b716eaa39df45c4a': HTTP error 503; retrying in 572 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-recomplete/repository/archive.tar.gz?ref=802c85b02d99bce4cf540ed4b716eaa39df45c4a': HTTP error 503; retrying in 1166 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-recomplete/repository/archive.tar.gz?ref=802c85b02d99bce4cf540ed4b716eaa39df45c4a': HTTP error 503; retrying in 2178 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-recomplete/repository/archive.tar.gz?ref=802c85b02d99bce4cf540ed4b716eaa39df45c4a': HTTP error 503\n"
    ]
   }
  },
@@ -90929,7 +90932,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-revert-buffer-all/repository/archive.tar.gz?ref=14efdbf24ebe0d743ccb3f0d43acae98939c94fd': HTTP error 503; retrying in 349 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-revert-buffer-all/repository/archive.tar.gz?ref=14efdbf24ebe0d743ccb3f0d43acae98939c94fd': HTTP error 503; retrying in 551 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-revert-buffer-all/repository/archive.tar.gz?ref=14efdbf24ebe0d743ccb3f0d43acae98939c94fd': HTTP error 503; retrying in 1366 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-revert-buffer-all/repository/archive.tar.gz?ref=14efdbf24ebe0d743ccb3f0d43acae98939c94fd': HTTP error 503; retrying in 2825 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-revert-buffer-all/repository/archive.tar.gz?ref=14efdbf24ebe0d743ccb3f0d43acae98939c94fd': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-revert-buffer-all/repository/archive.tar.gz?ref=14efdbf24ebe0d743ccb3f0d43acae98939c94fd': HTTP error 503; retrying in 337 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-revert-buffer-all/repository/archive.tar.gz?ref=14efdbf24ebe0d743ccb3f0d43acae98939c94fd': HTTP error 503; retrying in 599 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-revert-buffer-all/repository/archive.tar.gz?ref=14efdbf24ebe0d743ccb3f0d43acae98939c94fd': HTTP error 503; retrying in 1203 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-revert-buffer-all/repository/archive.tar.gz?ref=14efdbf24ebe0d743ccb3f0d43acae98939c94fd': HTTP error 503; retrying in 2636 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-revert-buffer-all/repository/archive.tar.gz?ref=14efdbf24ebe0d743ccb3f0d43acae98939c94fd': HTTP error 503\n"
    ]
   }
  },
@@ -97801,7 +97804,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-spell-fu/repository/archive.tar.gz?ref=c566ed568aae0a73202a51e97a73c5e4af0053d2': HTTP error 503; retrying in 264 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-spell-fu/repository/archive.tar.gz?ref=c566ed568aae0a73202a51e97a73c5e4af0053d2': HTTP error 503; retrying in 599 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-spell-fu/repository/archive.tar.gz?ref=c566ed568aae0a73202a51e97a73c5e4af0053d2': HTTP error 503; retrying in 1389 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-spell-fu/repository/archive.tar.gz?ref=c566ed568aae0a73202a51e97a73c5e4af0053d2': HTTP error 503; retrying in 2735 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-spell-fu/repository/archive.tar.gz?ref=c566ed568aae0a73202a51e97a73c5e4af0053d2': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-spell-fu/repository/archive.tar.gz?ref=c566ed568aae0a73202a51e97a73c5e4af0053d2': HTTP error 503; retrying in 349 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-spell-fu/repository/archive.tar.gz?ref=c566ed568aae0a73202a51e97a73c5e4af0053d2': HTTP error 503; retrying in 607 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-spell-fu/repository/archive.tar.gz?ref=c566ed568aae0a73202a51e97a73c5e4af0053d2': HTTP error 503; retrying in 1045 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-spell-fu/repository/archive.tar.gz?ref=c566ed568aae0a73202a51e97a73c5e4af0053d2': HTTP error 503; retrying in 2781 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-spell-fu/repository/archive.tar.gz?ref=c566ed568aae0a73202a51e97a73c5e4af0053d2': HTTP error 503\n"
    ]
   }
  },
@@ -102204,8 +102207,8 @@
     20200212,
     1903
    ],
-   "commit": "69861eab2e5c283af7d469aeea84a2b5c6c7b621",
-   "sha256": "0ibwby9z9wkr3azvynq1s9mssxz3k8513yzznkg222j7qnnb1c2b"
+   "commit": "26d0baefe040100b4b772432aa2449e86f116212",
+   "sha256": "073bwva2d39q1f6gdcfrjsk3yybp87277f0pa0v72917hq516qx8"
   },
   "stable": {
    "version": [
@@ -104850,7 +104853,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu/repository/archive.tar.gz?ref=7cbc3f852bcc1a22ce279cf36c89328841692493': HTTP error 503; retrying in 339 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu/repository/archive.tar.gz?ref=7cbc3f852bcc1a22ce279cf36c89328841692493': HTTP error 503; retrying in 598 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu/repository/archive.tar.gz?ref=7cbc3f852bcc1a22ce279cf36c89328841692493': HTTP error 503; retrying in 1101 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu/repository/archive.tar.gz?ref=7cbc3f852bcc1a22ce279cf36c89328841692493': HTTP error 503; retrying in 2551 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu/repository/archive.tar.gz?ref=7cbc3f852bcc1a22ce279cf36c89328841692493': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu/repository/archive.tar.gz?ref=7cbc3f852bcc1a22ce279cf36c89328841692493': HTTP error 503; retrying in 317 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu/repository/archive.tar.gz?ref=7cbc3f852bcc1a22ce279cf36c89328841692493': HTTP error 503; retrying in 673 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu/repository/archive.tar.gz?ref=7cbc3f852bcc1a22ce279cf36c89328841692493': HTTP error 503; retrying in 1314 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu/repository/archive.tar.gz?ref=7cbc3f852bcc1a22ce279cf36c89328841692493': HTTP error 503; retrying in 2428 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu/repository/archive.tar.gz?ref=7cbc3f852bcc1a22ce279cf36c89328841692493': HTTP error 503\n"
    ]
   }
  },
@@ -104869,7 +104872,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu-session/repository/archive.tar.gz?ref=b2d8874bc8ce892a6702b4136626bd65e0ad7760': HTTP error 503; retrying in 282 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu-session/repository/archive.tar.gz?ref=b2d8874bc8ce892a6702b4136626bd65e0ad7760': HTTP error 503; retrying in 522 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu-session/repository/archive.tar.gz?ref=b2d8874bc8ce892a6702b4136626bd65e0ad7760': HTTP error 503; retrying in 1274 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu-session/repository/archive.tar.gz?ref=b2d8874bc8ce892a6702b4136626bd65e0ad7760': HTTP error 503; retrying in 2371 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu-session/repository/archive.tar.gz?ref=b2d8874bc8ce892a6702b4136626bd65e0ad7760': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu-session/repository/archive.tar.gz?ref=b2d8874bc8ce892a6702b4136626bd65e0ad7760': HTTP error 503; retrying in 279 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu-session/repository/archive.tar.gz?ref=b2d8874bc8ce892a6702b4136626bd65e0ad7760': HTTP error 503; retrying in 580 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu-session/repository/archive.tar.gz?ref=b2d8874bc8ce892a6702b4136626bd65e0ad7760': HTTP error 503; retrying in 1410 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu-session/repository/archive.tar.gz?ref=b2d8874bc8ce892a6702b4136626bd65e0ad7760': HTTP error 503; retrying in 2746 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-undo-fu-session/repository/archive.tar.gz?ref=b2d8874bc8ce892a6702b4136626bd65e0ad7760': HTTP error 503\n"
    ]
   }
  },
@@ -110520,7 +110523,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-xref-rst/repository/archive.tar.gz?ref=8d8e00352e6f7e86d38d9ea4330f6cb2380fb2ec': HTTP error 503; retrying in 304 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-xref-rst/repository/archive.tar.gz?ref=8d8e00352e6f7e86d38d9ea4330f6cb2380fb2ec': HTTP error 503; retrying in 524 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-xref-rst/repository/archive.tar.gz?ref=8d8e00352e6f7e86d38d9ea4330f6cb2380fb2ec': HTTP error 503; retrying in 1014 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-xref-rst/repository/archive.tar.gz?ref=8d8e00352e6f7e86d38d9ea4330f6cb2380fb2ec': HTTP error 503; retrying in 2445 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-xref-rst/repository/archive.tar.gz?ref=8d8e00352e6f7e86d38d9ea4330f6cb2380fb2ec': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/ideasman42/emacs-xref-rst/repository/archive.tar.gz?ref=8d8e00352e6f7e86d38d9ea4330f6cb2380fb2ec': HTTP error 503; retrying in 271 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-xref-rst/repository/archive.tar.gz?ref=8d8e00352e6f7e86d38d9ea4330f6cb2380fb2ec': HTTP error 503; retrying in 545 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-xref-rst/repository/archive.tar.gz?ref=8d8e00352e6f7e86d38d9ea4330f6cb2380fb2ec': HTTP error 503; retrying in 1246 ms\nwarning: unable to download 'https://gitlab.com/ideasman42/emacs-xref-rst/repository/archive.tar.gz?ref=8d8e00352e6f7e86d38d9ea4330f6cb2380fb2ec': HTTP error 503; retrying in 2277 ms\nerror: unable to download 'https://gitlab.com/ideasman42/emacs-xref-rst/repository/archive.tar.gz?ref=8d8e00352e6f7e86d38d9ea4330f6cb2380fb2ec': HTTP error 503\n"
    ]
   }
  },
@@ -112256,7 +112259,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: unable to download 'https://gitlab.com/fvdbeek/emacs-zotero/repository/archive.tar.gz?ref=bee8196c5db26b75abc1359a5a7cb8a2b1f192ad': HTTP error 503; retrying in 263 ms\nwarning: unable to download 'https://gitlab.com/fvdbeek/emacs-zotero/repository/archive.tar.gz?ref=bee8196c5db26b75abc1359a5a7cb8a2b1f192ad': HTTP error 503; retrying in 526 ms\nwarning: unable to download 'https://gitlab.com/fvdbeek/emacs-zotero/repository/archive.tar.gz?ref=bee8196c5db26b75abc1359a5a7cb8a2b1f192ad': HTTP error 503; retrying in 1232 ms\nwarning: unable to download 'https://gitlab.com/fvdbeek/emacs-zotero/repository/archive.tar.gz?ref=bee8196c5db26b75abc1359a5a7cb8a2b1f192ad': HTTP error 503; retrying in 2344 ms\nerror: unable to download 'https://gitlab.com/fvdbeek/emacs-zotero/repository/archive.tar.gz?ref=bee8196c5db26b75abc1359a5a7cb8a2b1f192ad': HTTP error 503\n"
+    "warning: unable to download 'https://gitlab.com/fvdbeek/emacs-zotero/repository/archive.tar.gz?ref=bee8196c5db26b75abc1359a5a7cb8a2b1f192ad': HTTP error 503; retrying in 284 ms\nwarning: unable to download 'https://gitlab.com/fvdbeek/emacs-zotero/repository/archive.tar.gz?ref=bee8196c5db26b75abc1359a5a7cb8a2b1f192ad': HTTP error 503; retrying in 550 ms\nwarning: unable to download 'https://gitlab.com/fvdbeek/emacs-zotero/repository/archive.tar.gz?ref=bee8196c5db26b75abc1359a5a7cb8a2b1f192ad': HTTP error 503; retrying in 1360 ms\nwarning: unable to download 'https://gitlab.com/fvdbeek/emacs-zotero/repository/archive.tar.gz?ref=bee8196c5db26b75abc1359a5a7cb8a2b1f192ad': HTTP error 503; retrying in 2573 ms\nerror: unable to download 'https://gitlab.com/fvdbeek/emacs-zotero/repository/archive.tar.gz?ref=bee8196c5db26b75abc1359a5a7cb8a2b1f192ad': HTTP error 503\n"
    ]
   }
  },
