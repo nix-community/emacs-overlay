@@ -2576,10 +2576,10 @@
       elpaBuild {
         pname = "osc";
         ename = "osc";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/osc-0.3.tar";
-          sha256 = "0qkn18vahg3krn5c5hdzn20s73gb1xi6vnjnlhh6hcm1ygh9h76x";
+          url = "https://elpa.gnu.org/packages/osc-0.4.tar";
+          sha256 = "0zfrzxalvvf9wwwhwsqgl3v2ca6m2rfl5hd7sz662s6gmbwawqqa";
         };
         packageRequires = [];
         meta = {
