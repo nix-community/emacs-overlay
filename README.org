@@ -5,17 +5,17 @@ To get up and running quickly, add the following lines to your =/etc/nixos/confi
 #+BEGIN_SRC nix
 {config, pkgs, callPackage, ... }:
 {
-...
+# ...
 
-services.emacs.package = pkgs.emacsUnstable;
+  services.emacs.package = pkgs.emacsUnstable;
 
-nixpkgs.overlays = [
-  (import (builtins.fetchTarball {
-    url = https://github.com/nix-community/emacs-overlay/archive/master.tar.gz;
-  }))
-];
+  nixpkgs.overlays = [
+    (import (builtins.fetchTarball {
+      url = https://github.com/nix-community/emacs-overlay/archive/master.tar.gz;
+    }))
+  ];
 
-...
+# ...
 }
 #+END_SRC
 
