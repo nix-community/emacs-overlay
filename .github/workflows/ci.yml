@@ -9,7 +9,7 @@ jobs:
   refresh-overlay:
     name: Refresh inputs
     runs-on: ubuntu-latest
-
+    if: github.repository_owner == 'nix-community'
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2.3.4
