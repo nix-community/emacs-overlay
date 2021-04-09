@@ -1,4 +1,39 @@
 * Emacs overlay for Nixpkgs
+** Quickstart
+To get up and running quickly, add the following lines to your =/etc/nixos/configuration.nix=:
+
+#+BEGIN_SRC nix
+{config, pkgs, callPackage, ... }:
+{
+# ...
+
+  services.emacs.package = pkgs.emacsUnstable;
+
+  nixpkgs.overlays = [
+    (import (builtins.fetchTarball {
+      url = https://github.com/nix-community/emacs-overlay/archive/master.tar.gz;
+    }))
+  ];
+
+# ...
+}
+#+END_SRC
+
+This configuration will enable this overlay, and define your system-wide emacs package as the =emacsUnstable= attribute it provides.
+
+*NOTE:* Read the "Usage of the overlay" section below for further explanation of this configuration. This has the potential to break things, and will frequently trigger full source rebuilds of emacs.
+
+If you want to enable daemon/server mode, add the following line to the same configuration:
+
+#+BEGIN_SRC nix
+services.emacs.enable = true;
+#+END_SRC
+
+It is recommended you read Nixpkgs and NixOS documentation on package overlays and overrides to familiarize yourself with the concepts:
+
+ - https://nixos.wiki/wiki/Overlays
+ - https://nixos.org/nixpkgs/manual/#chap-overlays
+
 ** Contents of the overlay
 
 *** Elpa
