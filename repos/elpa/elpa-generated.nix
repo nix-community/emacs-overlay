@@ -3923,6 +3923,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    vertico = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "vertico";
+        ename = "vertico";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/vertico-0.2.tar";
+          sha256 = "0g2zn47vpk3ybrnr14x2h1vykkj0s3nb7k6p296j369caaxa3jm2";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/vertico.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     vigenere = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "vigenere";
