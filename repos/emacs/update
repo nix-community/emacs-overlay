@@ -43,7 +43,7 @@ function update_release() {
     echo emacs release
 
     git clone --shallow-since="$(date --date='-6 month')" https://git.savannah.gnu.org/git/emacs.git emacs_git_repo
-    tag=$(git -C emacs_git_repo tag -l --sort=-v:refname 'emacs-[1-9]*' | head -n1)
+    tag=$(git -C emacs_git_repo tag -l --sort=-v:refname 'emacs-*' | grep -v '\-rc' | head -n1)
     rm -rf emacs_git_repo
 
     digest=$(nix-prefetch-url --unpack "https://git.savannah.gnu.org/cgit/emacs.git/snapshot/emacs-${tag}.tar.gz")
