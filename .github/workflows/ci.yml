@@ -19,14 +19,16 @@ jobs:
       with:
         nix_path: nixpkgs=channel:nixos-unstable
 
+    - name: Configure Git
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+
     - name: Update inputs
       run: |
         ./update
 
     - name: Push commit with updated inputs
       run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git commit -am "Updated repos/melpa"
         git pull --rebase
         git push
