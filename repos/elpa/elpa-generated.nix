@@ -114,10 +114,10 @@
       elpaBuild {
         pname = "aggressive-completion";
         ename = "aggressive-completion";
-        version = "1.4";
+        version = "1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/aggressive-completion-1.4.tar";
-          sha256 = "1mr8wzlkg1c363gbpvzf4kwrxzhfih45rmcphims30qwss5jwz1l";
+          url = "https://elpa.gnu.org/packages/aggressive-completion-1.5.tar";
+          sha256 = "1gy0q5yc1a0w31qpyb92f672zcfgxbp5s104ycgk11jxk4y17nw9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1794,10 +1794,10 @@
       elpaBuild {
         pname = "ivy-posframe";
         ename = "ivy-posframe";
-        version = "0.5.5";
+        version = "0.6.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ivy-posframe-0.5.5.tar";
-          sha256 = "184730grclxmlw6nfs41d4g6fvz9c6xnclvwgqx1ii0xm7p9xy95";
+          url = "https://elpa.gnu.org/packages/ivy-posframe-0.6.0.tar";
+          sha256 = "07dzglrcdl54lkznyphw97xwd9bcwzdcgzkav0vqfk7f5cwh1wkf";
         };
         packageRequires = [ emacs ivy posframe ];
         meta = {
@@ -2741,10 +2741,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "0.9.0";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-0.9.0.tar";
-          sha256 = "14x63713lbvmp24733j7pqkwvcnhpcgv7pprr8sykan3jnjnnzh3";
+          url = "https://elpa.gnu.org/packages/posframe-1.0.0.tar";
+          sha256 = "1k06dbh9xqn2vix5qkcapl57v0c21b344r8dx6j5qr4jxirsn2x5";
         };
         packageRequires = [ emacs ];
         meta = {
