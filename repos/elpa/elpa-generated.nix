@@ -3927,10 +3927,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.2.tar";
-          sha256 = "0g2zn47vpk3ybrnr14x2h1vykkj0s3nb7k6p296j369caaxa3jm2";
+          url = "https://elpa.gnu.org/packages/vertico-0.3.tar";
+          sha256 = "0n6bl8s28qd76r1di73mv37aw2ba24s78f5gchicwcv6rxza4ppp";
         };
         packageRequires = [ emacs ];
         meta = {
