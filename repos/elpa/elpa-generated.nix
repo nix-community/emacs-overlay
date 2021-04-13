@@ -3912,10 +3912,10 @@
       elpaBuild {
         pname = "verilog-mode";
         ename = "verilog-mode";
-        version = "2021.3.30.243771231";
+        version = "2021.4.12.188864585";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/verilog-mode-2021.3.30.243771231.tar";
-          sha256 = "1wwgb7alahclzbzdryq78a7d5p8pc8a36440lp7giajd50wy0ay8";
+          url = "https://elpa.gnu.org/packages/verilog-mode-2021.4.12.188864585.tar";
+          sha256 = "0np2q0jhf1fbb1nl5nx1q9hw40yg62bhlddp2raqryxbkvsh0nbv";
         };
         packageRequires = [];
         meta = {
@@ -3927,10 +3927,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.3.tar";
-          sha256 = "0n6bl8s28qd76r1di73mv37aw2ba24s78f5gchicwcv6rxza4ppp";
+          url = "https://elpa.gnu.org/packages/vertico-0.4.tar";
+          sha256 = "1af9ri51i7pn1pcsmbavnwqafrn46vbxrbqjzfi6a7q6n5yv77im";
         };
         packageRequires = [ emacs ];
         meta = {
