@@ -1148,10 +1148,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "7.0";
+        version = "7.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emms-7.0.tar";
-          sha256 = "1hryagy2mkx9zgc33mb773ckp5p9bisnny0r78l0h2vc43wanmhz";
+          url = "https://elpa.gnu.org/packages/emms-7.1.tar";
+          sha256 = "1dng8dy0w0wsdvvnjnrllwv5a8wq3kj20jik994b7prdx5dn6y52";
         };
         packageRequires = [ cl-lib seq ];
         meta = {
