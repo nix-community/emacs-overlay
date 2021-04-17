@@ -651,6 +651,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    corfu = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "corfu";
+        ename = "corfu";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/corfu-0.1.tar";
+          sha256 = "0b62chqqlax04bw4qa2hb2wc1gv2199f1zr1j7kb45mzisda30r5";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/corfu.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     counsel = callPackage ({ elpaBuild, emacs, fetchurl, ivy, lib, swiper }:
       elpaBuild {
         pname = "counsel";
