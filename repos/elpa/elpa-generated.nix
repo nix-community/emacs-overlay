@@ -114,10 +114,10 @@
       elpaBuild {
         pname = "aggressive-completion";
         ename = "aggressive-completion";
-        version = "1.5";
+        version = "1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/aggressive-completion-1.5.tar";
-          sha256 = "1gy0q5yc1a0w31qpyb92f672zcfgxbp5s104ycgk11jxk4y17nw9";
+          url = "https://elpa.gnu.org/packages/aggressive-completion-1.6.tar";
+          sha256 = "0i7kcxd7pbdw57gczbxddr2n4j778x2ccfpkgjhdlpdsyidfh2bq";
         };
         packageRequires = [ emacs ];
         meta = {
