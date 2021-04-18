@@ -238,10 +238,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.0.6";
+        version = "13.0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.0.6.tar";
-          sha256 = "00wp388rh2nnk8fam53kilykg90jylps31qxv9ijy1lsp1hqdjys";
+          url = "https://elpa.gnu.org/packages/auctex-13.0.7.tar";
+          sha256 = "02jhaahdz462ncplnmzvl0zrzsmrhir4wijfwmdrm65f36iif5pc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -655,10 +655,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.1.tar";
-          sha256 = "0b62chqqlax04bw4qa2hb2wc1gv2199f1zr1j7kb45mzisda30r5";
+          url = "https://elpa.gnu.org/packages/corfu-0.2.tar";
+          sha256 = "07maf4s6whgij191szlpx80297d8zmdiybgg6gvvpfwsrkglnh8x";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3942,10 +3942,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.4.tar";
-          sha256 = "1af9ri51i7pn1pcsmbavnwqafrn46vbxrbqjzfi6a7q6n5yv77im";
+          url = "https://elpa.gnu.org/packages/vertico-0.5.tar";
+          sha256 = "0wvgxpzn4d638v6qhs30y3iinhnnw1ig4wzwjq4grckxy0ls2j4h";
         };
         packageRequires = [ emacs ];
         meta = {
