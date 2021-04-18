@@ -238,10 +238,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.0.7";
+        version = "13.0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.0.7.tar";
-          sha256 = "02jhaahdz462ncplnmzvl0zrzsmrhir4wijfwmdrm65f36iif5pc";
+          url = "https://elpa.gnu.org/packages/auctex-13.0.8.tar";
+          sha256 = "0rl85hwk91c88l1fzycyiz68v1b72l1mr32km3wk1jms8166bc2f";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2248,10 +2248,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "1.2.4";
+        version = "1.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-themes-1.2.4.tar";
-          sha256 = "0wz6dgkrq4ryvj0kxnzqxwh4i8b9lw15d5dsazjpqa7gfwffpzp0";
+          url = "https://elpa.gnu.org/packages/modus-themes-1.3.2.tar";
+          sha256 = "085zi3ckf4s1kjskqb04b78rgrhbdhrrp74yksb5w0hl58bd8rsc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3096,10 +3096,10 @@
       elpaBuild {
         pname = "rec-mode";
         ename = "rec-mode";
-        version = "1.6";
+        version = "1.8.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rec-mode-1.6.tar";
-          sha256 = "1dhv3n2x0bpdisi9bj3qa0bhpjzhs57fga72s4fxh44gp92yl18q";
+          url = "https://elpa.gnu.org/packages/rec-mode-1.8.0.tar";
+          sha256 = "1pgy9lk3k4pwpapvhca0c1pw7mkdzdrvbwaql2m64f9psn7cmzs7";
         };
         packageRequires = [ emacs ];
         meta = {
