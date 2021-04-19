@@ -3282,10 +3282,10 @@
       elpaBuild {
         pname = "setup";
         ename = "setup";
-        version = "0.1.2";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/setup-0.1.2.tar";
-          sha256 = "1q29phch4fvmvc255kgvzsnzdqp6kaip7ybpxprd0kkdjs3jrsqv";
+          url = "https://elpa.gnu.org/packages/setup-0.2.0.tar";
+          sha256 = "1xhjkyksilw1vbx12a4yz4bpj0dhl3m02yi8d9nyd19z098cfa9y";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3312,10 +3312,10 @@
       elpaBuild {
         pname = "shell-command-plus";
         ename = "shell-command+";
-        version = "2.0.0";
+        version = "2.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/shell-command+-2.0.0.tar";
-          sha256 = "1l8lwami4rbp94sbb1k4dvv7z0dvf51s0992xragpn9b9jbx5qd6";
+          url = "https://elpa.gnu.org/packages/shell-command+-2.1.0.tar";
+          sha256 = "1jyrnv89989bi03m5h8dj0cllsw3rvyxkiyfrh9v6gpxjwfy8lmq";
         };
         packageRequires = [ emacs ];
         meta = {
