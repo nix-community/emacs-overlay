@@ -2711,10 +2711,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.2";
+        version = "0.4.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.2.tar";
-          sha256 = "0ngh54jdh56563crgvf0r4gd6zfvhbkxs9prp12930gav8mdm3sh";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.3.tar";
+          sha256 = "0yvwfaj7l4z3zgycvnf1j0r5jx4lryaapljbw2sqvwqpbgyiw0y0";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3096,10 +3096,10 @@
       elpaBuild {
         pname = "rec-mode";
         ename = "rec-mode";
-        version = "1.8.0";
+        version = "1.8.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rec-mode-1.8.0.tar";
-          sha256 = "1pgy9lk3k4pwpapvhca0c1pw7mkdzdrvbwaql2m64f9psn7cmzs7";
+          url = "https://elpa.gnu.org/packages/rec-mode-1.8.1.tar";
+          sha256 = "0injk27l38d0sl9nzjz2bkd0qgccxyf31i42mwmivv86kv0kyxyb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3751,10 +3751,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.3.0";
+        version = "0.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/transient-0.3.0.tar";
-          sha256 = "1a457apfl762nn5xf1h3hbvrgs9hybkxh0jwb2y713zkhhck66cp";
+          url = "https://elpa.gnu.org/packages/transient-0.3.2.tar";
+          sha256 = "10zqa245dn6z689z7ap6nx6q9s95whzgybpwl2slpmnawxix2q6i";
         };
         packageRequires = [ emacs ];
         meta = {
