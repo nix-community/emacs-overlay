@@ -482,10 +482,10 @@
       elpaBuild {
         pname = "cl-lib";
         ename = "cl-lib";
-        version = "0.6.1";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cl-lib-0.6.1.el";
-          sha256 = "00w7bw6wkig13pngijh7ns45s1jn5kkbbjaqznsdh6jk5x089j9y";
+          url = "https://elpa.gnu.org/packages/cl-lib-0.7.tar";
+          sha256 = "0s1vkkj1yc5zn6bvc84sr726cm4v3jh2ymm7hc3rr00swwbz35lv";
         };
         packageRequires = [];
         meta = {
