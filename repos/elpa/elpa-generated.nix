@@ -1224,7 +1224,8 @@
           license = lib.licenses.free;
         };
       }) {};
-    excorporate = callPackage ({ elpaBuild
+    excorporate = callPackage ({ cl-lib ? null
+                               , elpaBuild
                                , emacs
                                , fetchurl
                                , fsm
@@ -1235,12 +1236,19 @@
       elpaBuild {
         pname = "excorporate";
         ename = "excorporate";
-        version = "0.9.5";
+        version = "0.9.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/excorporate-0.9.5.tar";
-          sha256 = "0z5x8lqvxh8zra23nmh36cdnr2yk855i4fc3mlbwaj5sdy9sqpf5";
+          url = "https://elpa.gnu.org/packages/excorporate-0.9.6.tar";
+          sha256 = "0ljav8g1npg0a36x1xxpfs2gvk622fh3si95s3w2vmwa27ynirzj";
         };
-        packageRequires = [ emacs fsm nadvice soap-client url-http-ntlm ];
+        packageRequires = [
+          cl-lib
+          emacs
+          fsm
+          nadvice
+          soap-client
+          url-http-ntlm
+        ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/excorporate.html";
           license = lib.licenses.free;
