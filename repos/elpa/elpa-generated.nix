@@ -238,10 +238,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.0.10";
+        version = "13.0.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.0.10.tar";
-          sha256 = "150b0xh71xwva7599arjapspdxyy70yyk6a5nabaq22w3dcpasb5";
+          url = "https://elpa.gnu.org/packages/auctex-13.0.11.tar";
+          sha256 = "0sy4f1n38q58vyzw5l0f80ci3j99rb25gbwj0frl0pglfmgzl44k";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -655,10 +655,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.3.tar";
-          sha256 = "1c9jrwagnx9ajhiv5djpj77gba61vsl3dyqay62qa1p7s5hw1w5h";
+          url = "https://elpa.gnu.org/packages/corfu-0.4.tar";
+          sha256 = "0yaspx58w02n3liqy5i4lm6lk5f1fm6v5lfrzp7xaqnngq1f4gbj";
         };
         packageRequires = [ emacs ];
         meta = {
