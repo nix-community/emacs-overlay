@@ -2779,10 +2779,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.5.4";
+        version = "0.6.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/project-0.5.4.tar";
-          sha256 = "0arjvhzzcf8b80w94yvpgfdlhsjwf5jk1r7vcai5a4dg3bi9cxyb";
+          url = "https://elpa.gnu.org/packages/project-0.6.0.tar";
+          sha256 = "0m0r1xgz1ffx6mi2gjz1dkgrn89sh4y5ysi0gj6p1w05bf8p0lc0";
         };
         packageRequires = [ emacs xref ];
         meta = {
@@ -2824,10 +2824,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "3.7";
+        version = "3.7.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-3.7.tar";
-          sha256 = "1vp2rxd6arxk956ry7gbpxlcsyf9mn30kkf6ql4jgjj7vqby0agh";
+          url = "https://elpa.gnu.org/packages/pyim-3.7.1.tar";
+          sha256 = "0k73f1qdl51qshnvycjassdh70id5gp5qi5wz7k4zyl8pbampiyd";
         };
         packageRequires = [ async emacs xr ];
         meta = {
@@ -4258,10 +4258,10 @@
       elpaBuild {
         pname = "xref";
         ename = "xref";
-        version = "1.0.4";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xref-1.0.4.el";
-          sha256 = "0hkm59qqlsfw3w9ws9xhpmmz30ylifmh05a00ba58zvv1kz04x1g";
+          url = "https://elpa.gnu.org/packages/xref-1.1.0.tar";
+          sha256 = "1s7pwk09bry4nqr4bc78a3mbwyrxagai2gpsd49x47czy2x7m3ax";
         };
         packageRequires = [ emacs ];
         meta = {
