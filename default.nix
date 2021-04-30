@@ -87,11 +87,11 @@ let
 
   emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json { };
 
-  emacsGcc = (mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-feature_native-comp.json { nativeComp = true; });
+  emacsGcc = mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-master.json { nativeComp = true; };
 
   emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-feature_pgtk.json { };
 
-  emacsPgtkGcc = (mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-pgtk-nativecomp.json { nativeComp = true; });
+  emacsPgtkGcc = mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-feature_pgtk.json { nativeComp = true; };
 
   emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { }).overrideAttrs (
     old: {
