@@ -219,16 +219,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    async = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib, nadvice }:
+    async = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "async";
         ename = "async";
-        version = "1.9.3";
+        version = "1.9.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/async-1.9.3.tar";
-          sha256 = "1pmfjrlapvhkjqcal8x95w190hm9wsgxb3byc22rc1gf5z0p52c8";
+          url = "https://elpa.gnu.org/packages/async-1.9.5.tar";
+          sha256 = "02f43vqlggy4qkqdggkl9mcg3rvagjysj45xgrx41jjx6cnjnm19";
         };
-        packageRequires = [ cl-lib nadvice ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/async.html";
           license = lib.licenses.free;
