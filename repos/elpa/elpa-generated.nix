@@ -2824,10 +2824,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "3.7.2";
+        version = "3.7.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-3.7.2.tar";
-          sha256 = "1kq7b22l8h14nc8pdrk5d9riw51za50i1kpkwbg64bdrs7abif3m";
+          url = "https://elpa.gnu.org/packages/pyim-3.7.3.tar";
+          sha256 = "0h6cp48hjdfnwbi799hrar5hlcag2339ygdq8qfds2iawrzk6y74";
         };
         packageRequires = [ async emacs xr ];
         meta = {
