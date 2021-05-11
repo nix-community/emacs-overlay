@@ -317,11 +317,13 @@ let
             }
           else if token.type == "float" then
             let
-              float = match "([+-]?([[:digit:]]*[.])?[[:digit:]]+(e[+-]?[[:digit:]]+)?)" token.value;
+              initial = head (match "([+-]?([[:digit:]]*[.])?[[:digit:]]+(e[+-]?[[:digit:]]+)?)" token.value);
+              withoutPlus = removeStrings ["+"] initial;
+              withPrefix = if substring 0 1 withoutPlus == "." then "0" + withoutPlus else withoutPlus;
             in
-              if float != null then
+              if withPrefix != null then
                 token // {
-                  value = fromJSON (removeStrings ["+"] (head float));
+                  value = fromJSON withPrefix;
                 }
               else
                 token
