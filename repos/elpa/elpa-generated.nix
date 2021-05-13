@@ -1045,10 +1045,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20210506";
+        version = "20210512";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20210506.tar";
-          sha256 = "0n6r8dj5nm583p07b1x2hn4wdhviwwrwcmh2a5qw0247ifwzdpmx";
+          url = "https://elpa.gnu.org/packages/eev-20210512.tar";
+          sha256 = "0dj49lpqv5vsx02h8mla8cmv5cr5f2qbz74f9dn8q4adpzxsajin";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1159,16 +1159,21 @@
           license = lib.licenses.free;
         };
       }) {};
-    emms = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib, seq }:
+    emms = callPackage ({ cl-lib ? null
+                        , elpaBuild
+                        , fetchurl
+                        , lib
+                        , nadvice
+                        , seq }:
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "7.1";
+        version = "7.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emms-7.1.tar";
-          sha256 = "1dng8dy0w0wsdvvnjnrllwv5a8wq3kj20jik994b7prdx5dn6y52";
+          url = "https://elpa.gnu.org/packages/emms-7.2.tar";
+          sha256 = "11vqqh9rnzibsfw7wx62rgzl8i8ldpf0hv1sj43nhl5c6dlc8d5z";
         };
-        packageRequires = [ cl-lib seq ];
+        packageRequires = [ cl-lib nadvice seq ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/emms.html";
           license = lib.licenses.free;
