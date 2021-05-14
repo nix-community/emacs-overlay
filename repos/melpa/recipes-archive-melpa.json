@@ -10885,8 +10885,8 @@
     "seq",
     "ts"
    ],
-   "commit": "9a9cbde7430d097bc60bfffe80b6e5a4f9436173",
-   "sha256": "0cmfklqq3w9k97r9q1w81388cgh3cj5d6vv8nppm1crx4zlrfa1a"
+   "commit": "ceb455288a74df6ff7cd45968f37f0f4d3919f28",
+   "sha256": "0366fwm7xwcja9qyx87zh0f78xfhjv5f40ybcfgk8zldbhz0zn6a"
   },
   "stable": {
    "version": [
@@ -10906,21 +10906,21 @@
  },
  {
   "ename": "chronometrist-goal",
-  "commit": "1cead898505916ff42bbc5c2d978df55dc09da69",
-  "sha256": "0xkg521z37l1fw7jgsj7a476y51qz8gdgsj5pssb9w74qahq528v",
+  "commit": "d5c27f29f3ab4633e6a1d69b3a82e47ba216bf39",
+  "sha256": "05z9jwjf9py0bfxgilh2x05pqjyg9zamf4zl6s6fb7fiz7mfm9k5",
   "fetcher": "git",
   "url": "https://tildegit.org/contrapunctus/chronometrist-goal.git",
   "unstable": {
    "version": [
-    20210211,
-    713
+    20210510,
+    1831
    ],
    "deps": [
     "alert",
     "chronometrist"
    ],
-   "commit": "b52ddb3e034d4527edcd53790de5b94c027f3f39",
-   "sha256": "10hkc5nmgx4wa8nsgxsklj42hxgcqcav3dxbigr4pwdy6sb4v63z"
+   "commit": "6cb939d160f5d5966d7853aa23f3ed7c7ef9df44",
+   "sha256": "05jcn67fzf349h3vqvfrwhklan0i037mp0nq53wghfzapv1m7lv8"
   },
   "stable": {
    "version": [
@@ -10944,15 +10944,14 @@
   "url": "https://tildegit.org/contrapunctus/chronometrist.git",
   "unstable": {
    "version": [
-    20210512,
-    1111
+    20210514,
+    827
    ],
    "deps": [
-    "choice",
     "chronometrist"
    ],
-   "commit": "9a9cbde7430d097bc60bfffe80b6e5a4f9436173",
-   "sha256": "0cmfklqq3w9k97r9q1w81388cgh3cj5d6vv8nppm1crx4zlrfa1a"
+   "commit": "ceb455288a74df6ff7cd45968f37f0f4d3919f28",
+   "sha256": "0366fwm7xwcja9qyx87zh0f78xfhjv5f40ybcfgk8zldbhz0zn6a"
   },
   "stable": {
    "version": [
@@ -12346,8 +12345,8 @@
     20210104,
     1831
    ],
-   "commit": "96011ab06d8839010c181d501c58c8e914f3ba91",
-   "sha256": "16gs7x3w5ga79xz1dykcfiar0ri9hfcbx00n8mfk8cl3lv3d1556"
+   "commit": "1acc937719d92a6319899ea6aaf05924ec7a6774",
+   "sha256": "1mshiqbz9sim4ndi57c87h0mx6qfcrpp3xil0hj0byw7zyrlb413"
   },
   "stable": {
    "version": [
@@ -22658,8 +22657,8 @@
     20210213,
     757
    ],
-   "commit": "60da8764ced1825f6b5c4015c55c961588c281e8",
-   "sha256": "044z8lakry3gfs2cjqyf0hkw1kg4hskzq2hd7x5av5n3kkfbrrrj"
+   "commit": "ad9578948ce5091219a1b93515494621f2124108",
+   "sha256": "15bvy3prr1qc3rx20wx9ap0b0b71vkcnpyq8cqspdi94f09g0fjj"
   },
   "stable": {
    "version": [
@@ -30748,11 +30747,11 @@
   "repo": "juliapath/evil-numbers",
   "unstable": {
    "version": [
-    20210513,
-    530
+    20210514,
+    358
    ],
-   "commit": "b1ba250f98d41141e843512caf69efb9706cb8eb",
-   "sha256": "056wjccw8lkvyissp4c0556pyrh5zkizx8f8s6idrl2w10gkc5di"
+   "commit": "cc930fb6c4830364d8173f799c6bfae384dcf191",
+   "sha256": "15jfnmiv69j6nr6bxcmdpdyin47vcyj0wxhiwhj8xq7zp40zz3fg"
   },
   "stable": {
    "version": [
@@ -46192,16 +46191,16 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20210513,
-    1520
+    20210514,
+    615
    ],
    "deps": [
     "async",
     "helm-core",
     "popup"
    ],
-   "commit": "0efdfd24845a679e43fc42c8f68ae4c2a0730bc0",
-   "sha256": "0n5xsihqaf231ahim4wa1ac8f5dx9xj33a1723408565ljxs6qwf"
+   "commit": "1da8f466c8d26ef18094f59455dc70e87ff0700f",
+   "sha256": "0qynfg6hl4bhlmgq1k4ylh98zzlxhabkxs4fac7nv974cpkmyq52"
   },
   "stable": {
    "version": [
@@ -47106,8 +47105,8 @@
    "deps": [
     "async"
    ],
-   "commit": "0efdfd24845a679e43fc42c8f68ae4c2a0730bc0",
-   "sha256": "0n5xsihqaf231ahim4wa1ac8f5dx9xj33a1723408565ljxs6qwf"
+   "commit": "1da8f466c8d26ef18094f59455dc70e87ff0700f",
+   "sha256": "0qynfg6hl4bhlmgq1k4ylh98zzlxhabkxs4fac7nv974cpkmyq52"
   },
   "stable": {
    "version": [
@@ -63730,8 +63729,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20210513,
-    1723
+    20210514,
+    1
    ],
    "deps": [
     "dash",
@@ -63741,8 +63740,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "71eadde40db598550ba950eae9496b2f63e2bb33",
-   "sha256": "176x9iizy8x4bnb00rwvbzvlmqa9ynfkgrk5nvcb3bfrxy6qjacq"
+   "commit": "e9d5ceab6d43c1a85ebd4da2b58536d157c47c5c",
+   "sha256": "1j608kdbkkafgm46ac2snz0m4v0vh8g53838a4p9v8hs96yj8xf3"
   },
   "stable": {
    "version": [
@@ -87093,8 +87092,8 @@
     20200619,
     1742
    ],
-   "commit": "63d2aca3b599455dce3719e0756a733b0e937fec",
-   "sha256": "0xln8cw4vf0kaysmd318mxbdbigbypnmmb88pvahqsc8gidck2nh"
+   "commit": "b0d90e3abe16de8c42a88d5575c67d98f84d728c",
+   "sha256": "049x4ak464k4jqym2hss3kqhdx288a5h5wip7gm9qps159jzgl83"
   },
   "stable": {
    "version": [
@@ -93140,8 +93139,8 @@
     20200830,
     301
    ],
-   "commit": "739b96ee2152c25de9b59cbaad137e8fe20cd284",
-   "sha256": "0znl94xnbxm9i7a2mpsl5848s4l9hgx8z5hjipjk8cl5q34xmgw6"
+   "commit": "eea86e970885e327d75fde2181726b4182f0ffac",
+   "sha256": "1jv7l9kic8x7n8118jbs0qgddp0qnn29j2f1sq7p667k694iq6jg"
   }
  },
  {
@@ -100591,14 +100590,14 @@
   "url": "https://tildegit.org/contrapunctus/sxiv",
   "unstable": {
    "version": [
-    20210406,
-    1340
+    20210514,
+    918
    ],
    "deps": [
     "dash"
    ],
-   "commit": "3544c6b3a4efad0a1d9b061d0ddfb66c31ffd0e5",
-   "sha256": "04s4jq44vybrf30k4jb289znaldwf4kpqiqazdd8x92mki3cpmb6"
+   "commit": "a531a7596e307a218beb8ff77893eeae61284f6e",
+   "sha256": "0gimq172pp143jckfhhyw319n3vpjvlkadm0vhypycas9i89mcg0"
   },
   "stable": {
    "version": [
@@ -102186,11 +102185,11 @@
   "repo": "TxGVNN/terraform-doc",
   "unstable": {
    "version": [
-    20210322,
-    837
+    20210514,
+    737
    ],
-   "commit": "77181c75cbde5954542688659cd4f2352ed29fbe",
-   "sha256": "1bcwja7hm11hxd1nmf1z93hkzcvkkpxavvbivg6j336ygzr1r82g"
+   "commit": "5d35efbf2c1619d9385ef00ed74e9de1ea7cf32d",
+   "sha256": "11df5606hiqgglxi6xrrljwh70h2wgkib447ggvs2r3f2jayilr4"
   },
   "stable": {
    "version": [
@@ -102678,8 +102677,8 @@
     20200212,
     1903
    ],
-   "commit": "b087eb6afdf5bfaa84785d73c99579bec8344987",
-   "sha256": "07spwgsps7q2y33wl414jbq9vrw3racrzjzgih5kp2m6rf2v2sya"
+   "commit": "d95cfd3875b489aaf6761c92c74d3fd5f90a3604",
+   "sha256": "0zkjwpbwrldj9l2kz65i05ix1cgzzl7c6p9bkb1f0m07x96c49ad"
   },
   "stable": {
    "version": [
