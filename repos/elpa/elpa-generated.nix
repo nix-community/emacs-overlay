@@ -655,10 +655,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.7.tar";
-          sha256 = "1hyxgcadplia4fl3gajxf25lnskjrvwwyzbkl0a8dvqmvkjp4sy4";
+          url = "https://elpa.gnu.org/packages/corfu-0.8.tar";
+          sha256 = "1qrrky1g4k5vw56435dgkwnmnri7i51gkydd76as3l0ixm4pnp05";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1735,6 +1735,21 @@
         packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ioccur.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    isearch-mb = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "isearch-mb";
+        ename = "isearch-mb";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/isearch-mb-0.2.tar";
+          sha256 = "1mfjppv33cb5f5f6cc1486msxjxfjnnkryc1yax43k6fgzjr0j4h";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/isearch-mb.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -3955,10 +3970,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.9";
+        version = "0.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.9.tar";
-          sha256 = "1cia2x7cnyps8vcnv9d2jjhlk29babk5qwfyq8d3q17srq7mk1qy";
+          url = "https://elpa.gnu.org/packages/vertico-0.10.tar";
+          sha256 = "07bzhxgp3k6q4wl9ijhx4vg8diinn782xhr8axn790a5vj199j78";
         };
         packageRequires = [ emacs ];
         meta = {
