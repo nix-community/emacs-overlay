@@ -906,16 +906,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    dismal = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+    dismal = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "dismal";
         ename = "dismal";
-        version = "1.5";
+        version = "1.5.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dismal-1.5.tar";
-          sha256 = "1vhs6w6c2klsrfjpw8vr5c4gwiw83ppdjhsn2la0fvkm60jmc476";
+          url = "https://elpa.gnu.org/packages/dismal-1.5.2.tar";
+          sha256 = "0pl5cnziilm4ps1xzh1fa8irazn7vcp9nsxnxcvjqbkflpcpq5c7";
         };
-        packageRequires = [ cl-lib ];
+        packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/dismal.html";
           license = lib.licenses.free;
@@ -1241,10 +1241,10 @@
       elpaBuild {
         pname = "excorporate";
         ename = "excorporate";
-        version = "0.9.6";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/excorporate-0.9.6.tar";
-          sha256 = "0ljav8g1npg0a36x1xxpfs2gvk622fh3si95s3w2vmwa27ynirzj";
+          url = "https://elpa.gnu.org/packages/excorporate-1.0.0.tar";
+          sha256 = "1g0wc2kp15ra323b4rxvdh58q9c4h7m20grw6a0cs53m7l9xi62f";
         };
         packageRequires = [
           cl-lib
