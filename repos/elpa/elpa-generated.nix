@@ -4138,10 +4138,10 @@
       elpaBuild {
         pname = "webfeeder";
         ename = "webfeeder";
-        version = "1.1.1";
+        version = "1.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/webfeeder-1.1.1.tar";
-          sha256 = "09caj12hfdfhlbcsmjyhw728w1f7yq13hdslh793yvfqv83ipvc4";
+          url = "https://elpa.gnu.org/packages/webfeeder-1.1.2.tar";
+          sha256 = "1l128q424qsq9jv2wk8cv4zli71rk34q5kgwa9axdz0d27p9l6v4";
         };
         packageRequires = [ emacs ];
         meta = {
