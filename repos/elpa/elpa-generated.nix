@@ -238,10 +238,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.0.11";
+        version = "13.0.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.0.11.tar";
-          sha256 = "0sy4f1n38q58vyzw5l0f80ci3j99rb25gbwj0frl0pglfmgzl44k";
+          url = "https://elpa.gnu.org/packages/auctex-13.0.12.tar";
+          sha256 = "0fx3l6yyq63mlnapxiqpdhi5l314r3aj63404nly6hcdvc28g9nm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1075,10 +1075,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20210529";
+        version = "20210607";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20210529.tar";
-          sha256 = "0lvfr47qc545vnny4v6bhkm8nl212n8wiymfz0y0d0sndigrg4g9";
+          url = "https://elpa.gnu.org/packages/eev-20210607.tar";
+          sha256 = "0avd58m8630s4d3ys9g84csscdmf2y1swwwkgzjkrrq8q0j5yd3l";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1772,10 +1772,10 @@
       elpaBuild {
         pname = "isearch-mb";
         ename = "isearch-mb";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/isearch-mb-0.2.tar";
-          sha256 = "1mfjppv33cb5f5f6cc1486msxjxfjnnkryc1yax43k6fgzjr0j4h";
+          url = "https://elpa.gnu.org/packages/isearch-mb-0.3.tar";
+          sha256 = "01yq1skc6rm9yp80vz2fhh9lbkdb9nhf57h424mrkycdky2w50mx";
         };
         packageRequires = [ emacs ];
         meta = {
