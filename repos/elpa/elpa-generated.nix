@@ -1867,10 +1867,10 @@
       elpaBuild {
         pname = "ivy-posframe";
         ename = "ivy-posframe";
-        version = "0.6.0";
+        version = "0.6.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ivy-posframe-0.6.0.tar";
-          sha256 = "07dzglrcdl54lkznyphw97xwd9bcwzdcgzkav0vqfk7f5cwh1wkf";
+          url = "https://elpa.gnu.org/packages/ivy-posframe-0.6.1.tar";
+          sha256 = "1nay2sfbwm2fkp3f1y89innd9h6j3q70q9y4yddrwa69cxlj9m23";
         };
         packageRequires = [ emacs ivy posframe ];
         meta = {
@@ -3946,6 +3946,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/valign.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    vc-hgcmd = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "vc-hgcmd";
+        ename = "vc-hgcmd";
+        version = "1.14";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/vc-hgcmd-1.14.tar";
+          sha256 = "0pg6fg0znsmky3iwdpxn2sx5bbn72kw83s077000ilawi6zqwc2d";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/vc-hgcmd.html";
           license = lib.licenses.free;
         };
       }) {};
