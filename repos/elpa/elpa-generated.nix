@@ -1198,10 +1198,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "7.2";
+        version = "7.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emms-7.2.tar";
-          sha256 = "11vqqh9rnzibsfw7wx62rgzl8i8ldpf0hv1sj43nhl5c6dlc8d5z";
+          url = "https://elpa.gnu.org/packages/emms-7.3.tar";
+          sha256 = "1lzjv9cpkzvin3pbw27irji5l7h7205yn688qnfwh43k6iqk6sqn";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
