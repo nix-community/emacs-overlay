@@ -166,7 +166,12 @@ in
           };
 
         in
-        epkgs // {
+        epkgs
+        // super.lib.optionalAttrs (super.lib.hasAttr "nongnuPackages" esuper) {
+          nongnuPackages = esuper.nongnuPackages.override {
+            generated = ./repos/nongnu/nongnu-generated.nix;
+          };
+        } // {
           xelb = mkExDrv eself "xelb" {
             packageRequires = [ eself.cl-generic eself.emacs ];
           };
