@@ -2829,10 +2829,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "1.0.3";
+        version = "1.0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-1.0.3.tar";
-          sha256 = "0c3lnrydsysv8j25brgc0cckf1hz54yhkginncmw81y1ia43rqmx";
+          url = "https://elpa.gnu.org/packages/posframe-1.0.4.tar";
+          sha256 = "0i2pw90gw9zb22gj8yyvcp3b2k1bxxhbjj0idvr5iz1vd9023bc6";
         };
         packageRequires = [ emacs ];
         meta = {
