@@ -670,10 +670,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.8";
+        version = "0.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.8.tar";
-          sha256 = "1qrrky1g4k5vw56435dgkwnmnri7i51gkydd76as3l0ixm4pnp05";
+          url = "https://elpa.gnu.org/packages/corfu-0.9.tar";
+          sha256 = "0710bq07j6w6zm49ci1bbx580frdbc62b3hbxwzkwm5204nf78bf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2152,10 +2152,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/marginalia-0.6.tar";
-          sha256 = "05pwaz9643shxnv63l6r9m2c0qf1nc1hy6jiqw01bkvvgg8g4jag";
+          url = "https://elpa.gnu.org/packages/marginalia-0.7.tar";
+          sha256 = "1nz55nx6xp72nahs4g6asl5y5yrlnlnza58bjrlwwzmwsf7daz18";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4030,10 +4030,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.11";
+        version = "0.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.11.tar";
-          sha256 = "0hzwddkac85i449173az8crlksj9ivrqf969r81kbr45ksgr1ij6";
+          url = "https://elpa.gnu.org/packages/vertico-0.12.tar";
+          sha256 = "14qlc438bysg23wfj04zpvpraqzzi4jlz3r11vc56vd0k2hfmvmn";
         };
         packageRequires = [ emacs ];
         meta = {
