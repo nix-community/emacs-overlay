@@ -640,10 +640,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.8";
+        version = "0.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-0.8.tar";
-          sha256 = "0vkq8dsj6k3gsdhiyg6ccv49fqgjw6f0db4wjsvm5zbkadjvlm86";
+          url = "https://elpa.gnu.org/packages/consult-0.9.tar";
+          sha256 = "1n3bnvgj92fjd9dai9f95wvyfb20yhaw7b722lkqjg42i10jqzfn";
         };
         packageRequires = [ emacs ];
         meta = {
