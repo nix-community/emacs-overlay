@@ -2017,10 +2017,10 @@
       elpaBuild {
         pname = "leaf";
         ename = "leaf";
-        version = "4.4.8";
+        version = "4.5.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/leaf-4.4.8.tar";
-          sha256 = "0h0ksmgrhn29ci6z8y54dbbzcqlvfs1ra0kmf226gz0dqzk45vb3";
+          url = "https://elpa.gnu.org/packages/leaf-4.5.2.tar";
+          sha256 = "0i90shhhkpdcwmfi8zv0008qgmg4g3cqd2yvpycfv9n2axvhag54";
         };
         packageRequires = [ emacs ];
         meta = {
