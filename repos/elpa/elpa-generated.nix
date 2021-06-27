@@ -3595,10 +3595,10 @@
       elpaBuild {
         pname = "sql-indent";
         ename = "sql-indent";
-        version = "1.5";
+        version = "1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sql-indent-1.5.tar";
-          sha256 = "07k5rn9hbxppnka7nq0a3a6zyqqa1hp8j6qrb344js6zyak0cb63";
+          url = "https://elpa.gnu.org/packages/sql-indent-1.6.tar";
+          sha256 = "000pimlg0k4mrv2wpqq8w8l51wpr1lzlaq6ai8iaximm2a92ap5b";
         };
         packageRequires = [ cl-lib ];
         meta = {
@@ -3610,10 +3610,10 @@
       elpaBuild {
         pname = "ssh-deploy";
         ename = "ssh-deploy";
-        version = "3.1.12";
+        version = "3.1.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ssh-deploy-3.1.12.tar";
-          sha256 = "0fz49l63jfw9zy459f07bq2irdb8ispnx8m2c3wxwiim9yw5xnjg";
+          url = "https://elpa.gnu.org/packages/ssh-deploy-3.1.13.tar";
+          sha256 = "006jr8yc5qvxdfk0pn40604a2b7a1ah6l6hi6rhxm3p5b08d9i5w";
         };
         packageRequires = [ emacs ];
         meta = {
