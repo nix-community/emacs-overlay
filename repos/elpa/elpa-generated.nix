@@ -1015,10 +1015,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.6.23";
+        version = "0.6.24";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.6.23.tar";
-          sha256 = "0j3jvy9s606qjqcmcjzgck3dp8bhpgly2g00wnswzcgk4makdzld";
+          url = "https://elpa.gnu.org/packages/ebdb-0.6.24.tar";
+          sha256 = "0156rh6fkv2yp509h6i8qzh4gsda2mcmfrxl4r6ywn1z5ahijc3r";
         };
         packageRequires = [ cl-lib emacs seq ];
         meta = {
