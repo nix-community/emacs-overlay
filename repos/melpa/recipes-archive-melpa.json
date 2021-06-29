@@ -4947,11 +4947,14 @@
   "repo": "jcs-elpa/auto-highlight-symbol",
   "unstable": {
    "version": [
-    20210627,
-    2337
+    20210629,
+    551
    ],
-   "commit": "d5125800b038d1275aabd14008ede75a3a858587",
-   "sha256": "1mi4mayfavkfm9fkg1j1wcv6kvb2cfgf5nr5kk15jhy7x1ajwphp"
+   "deps": [
+    "ht"
+   ],
+   "commit": "5b85ac3f178f81523ab0a834942455687f87a0a6",
+   "sha256": "172bxmh26s6fx5wy6wddr2mn0gcdz1fma7px2vd7hv43fvxagazg"
   },
   "stable": {
    "version": [
@@ -8561,8 +8564,8 @@
     "ht",
     "s"
    ],
-   "commit": "ebc95a9431e44e6c7346caa1f05f2b195be263c1",
-   "sha256": "02akjyridznw34vc51jcr938hq1h7lpczhycyli1qxjk1p0vywfs"
+   "commit": "4a226bc410ec7b5b0323879b03aad73be1b69728",
+   "sha256": "02l4wh4qykbk58cda8l3cyg4lpf5zjr0ss4927ac48nlxnawcrsa"
   },
   "stable": {
    "version": [
@@ -12518,8 +12521,8 @@
     20210104,
     1831
    ],
-   "commit": "e062d4a2a3974103f04c90b00519edf5660afa7b",
-   "sha256": "06ycq499kf45k0k6yk17s15w0325plm7zm8dyy1cbfjyz42jg51z"
+   "commit": "06d2c3fce453365e36fc3d3c483bc9130268c7d9",
+   "sha256": "13wc70xzd1h200zpczzykzzg1a1f0qn6kynj87mziq9qm7zca1cy"
   },
   "stable": {
    "version": [
@@ -22936,8 +22939,8 @@
     20210213,
     757
    ],
-   "commit": "093cb1e8cacee1fc1aa9c8af89c20eeb98189139",
-   "sha256": "0dcbrbnwh7bajvchxzwwg97qx2dyvr8jmx136xhffhds0gchiwfp"
+   "commit": "e7c2b5ba1d2ef0015170a8827e469d8f0898e82a",
+   "sha256": "0nwrzplk7pidj9bbmqzgyig3qdbw3mz2dd05lazgvxmvs4n6v5hj"
   },
   "stable": {
    "version": [
@@ -28199,7 +28202,7 @@
   "commit": "99f67df1d87ecd1bb54b85fa1711dfba90dd00dc",
   "sha256": "1w6igfsb8l4i2nq1h528wys61gwh784xzm99bw25rrjj17jdyxsn",
   "fetcher": "github",
-  "repo": "fossegrim/eradio",
+  "repo": "olavfosse/eradio",
   "unstable": {
    "version": [
     20210327,
@@ -28315,11 +28318,11 @@
   "repo": "alexmurray/erc-matterircd",
   "unstable": {
    "version": [
-    20210628,
-    827
+    20210629,
+    542
    ],
-   "commit": "abcdb08dba3711a2f9f72adee3c91b10a0d46f03",
-   "sha256": "1bnz1yn6qw400fin15w65lca5gaxqjf2lvhavrdc9wnymnwsd7ka"
+   "commit": "1c0a921637dd8d833cd6818cb3c06a179ac93ae1",
+   "sha256": "1g5gqnrfsk0q46350d1805nazjps0vi0y4wdh21h9fv9ikpzng8r"
   }
  },
  {
@@ -36221,14 +36224,14 @@
   "repo": "emacs-languagetool/flycheck-languagetool",
   "unstable": {
    "version": [
-    20210628,
-    1132
+    20210629,
+    536
    ],
    "deps": [
     "flycheck"
    ],
-   "commit": "7759161ed09d21daac6c3fc367a03294fc732c58",
-   "sha256": "01isbfag2qnc4mm1vmjg88djry5gfjfr0c9d62fliycd7v77qy6r"
+   "commit": "6ade9d7f294cee7e41d0bce9dddb139c49985501",
+   "sha256": "1yq2n7bknw7by1cn53xn7kz8a3qj1w7szsjysaj93mhxb154g9qz"
   },
   "stable": {
    "version": [
@@ -38333,23 +38336,6 @@
    ],
    "commit": "e14e8e2abda223bd3920dbad0eefd5af5973ae6d",
    "sha256": "0d2vmpgr5c2cbpxcqm5x1ckfysbpwcbaa9frcnp2yfp8scvkvqj0"
-  }
- },
- {
-  "ename": "flymake-rust",
-  "error": "No recipe info",
-  "fetcher": "github",
-  "repo": "jxs/flymake-rust",
-  "unstable": {
-   "version": [
-    20170729,
-    2139
-   ],
-   "deps": [
-    "flymake-easy"
-   ],
-   "commit": "2f42d1f2dad73ec9de460eda6176e3ab25c446f0",
-   "sha256": "02fgkv9hxwrv8n5h6izb5jyjcpazlf86pjjj4zkv1ycpa6gyzzwn"
   }
  },
  {
@@ -52299,11 +52285,11 @@
   "repo": "ideasman42/emacs-hl-prog-extra",
   "unstable": {
    "version": [
-    20210617,
-    1320
+    20210629,
+    602
    ],
-   "commit": "9b64b54d3ad876f2e2d772892f4b4616fe7eea44",
-   "sha256": "0wrhigcm6sf6h1l8x43s52g7bz91c0avgkcvdil3s1b1zdxdxiws"
+   "commit": "c251d0cd354565b859ddf7c61bdae32649c6a0f4",
+   "sha256": "0a8dkay7d31h2k4vsapwigf62wl77yk4r0wa86ly4p6vghbczj3w"
   }
  },
  {
@@ -55172,11 +55158,11 @@
   "repo": "J3RN/inf-elixir",
   "unstable": {
    "version": [
-    20210315,
-    1723
+    20210629,
+    40
    ],
-   "commit": "b526ce852886d1863163e054fcbbcbb83c55b32a",
-   "sha256": "1kmv2j1g299wb8dqq43zk61jigkfl9rnqxbfnclzsqfdlnhvw6ii"
+   "commit": "ec87ecaab5a10e79034f77d553e7fefbf60b9f97",
+   "sha256": "1p6r0iwqcaf9bp123ccwafmzlf8hgwvap0cqwgy33cks6bhcbzb9"
   },
   "stable": {
    "version": [
@@ -62410,7 +62396,7 @@
   "commit": "eb151125750b06c2cf6fcc5d762c980fdc89b0dc",
   "sha256": "1l7bf0lvncn645v7c3rr5gxd9jkz5jfyaps864mzwvmasbx6d3p4",
   "fetcher": "github",
-  "repo": "jcs-elpa/line-reminder",
+  "repo": "emacs-vs/line-reminder",
   "unstable": {
    "version": [
     20210627,
@@ -63754,14 +63740,14 @@
   "repo": "okamsn/loopy",
   "unstable": {
    "version": [
-    20210628,
-    225
+    20210629,
+    224
    ],
    "deps": [
     "map"
    ],
-   "commit": "90d1d0e2d281d600faf4385d50eec8a55df7f5f8",
-   "sha256": "1rwp8y49kqb3dvll7if2wnki19imlp1d0iyswgzkb0s7ysaz6x13"
+   "commit": "4e52c2f6d470f3a1b625c435bf601623c88613e8",
+   "sha256": "1lh3ddcrlxxb8dwzl8dr970lfj3hgyridlhcnzddlj58afdimcnj"
   }
  },
  {
@@ -63772,15 +63758,15 @@
   "repo": "okamsn/loopy",
   "unstable": {
    "version": [
-    20210609,
-    2317
+    20210629,
+    224
    ],
    "deps": [
     "dash",
     "loopy"
    ],
-   "commit": "90d1d0e2d281d600faf4385d50eec8a55df7f5f8",
-   "sha256": "1rwp8y49kqb3dvll7if2wnki19imlp1d0iyswgzkb0s7ysaz6x13"
+   "commit": "4e52c2f6d470f3a1b625c435bf601623c88613e8",
+   "sha256": "1lh3ddcrlxxb8dwzl8dr970lfj3hgyridlhcnzddlj58afdimcnj"
   }
  },
  {
@@ -87296,14 +87282,14 @@
   "repo": "bbatsov/projectile",
   "unstable": {
    "version": [
-    20210623,
-    1338
+    20210629,
+    524
    ],
    "deps": [
     "pkg-info"
    ],
-   "commit": "1fbe06316f2c13ed0a4eae595d792f7d53e3af20",
-   "sha256": "02f9pr2i6nmshn2nzxdmy49dfh6kfnr3hgvqicl3wav5mz61ini0"
+   "commit": "7817f2093d8610a8fccf91b141c3535de08a4cc0",
+   "sha256": "1rsr48gagxh4q8inkqb26mr9cqb7xfhn37dmj99kqym65yiikldy"
   },
   "stable": {
    "version": [
@@ -87816,8 +87802,8 @@
     20200619,
     1742
    ],
-   "commit": "c684434ecbd62a09e8f57f038ef0dd04334a4b2c",
-   "sha256": "1yqrn3c76cq959fnywyhyzv7lsfbgb5b0nl4ya02cyzn9dfhzg7c"
+   "commit": "336ed1820a4f2649c9aa3953d5059b03b7a77100",
+   "sha256": "1yqngw44fb4d5ksz9jv4yjkn58q09f21ccxm3k5grz6v4vg4rypr"
   },
   "stable": {
    "version": [
@@ -103512,8 +103498,8 @@
     20200212,
     1903
    ],
-   "commit": "f872e8e1674178ffcc787335c9f43245ce3116f4",
-   "sha256": "1qp9wpxsxi7p5vi6p3czjf5m2j2i8zlly8cyvv9z90xg34j6m2im"
+   "commit": "bd5503c99789055f93df297121a1a333e1d65a7f",
+   "sha256": "10ipxlmpr7qwqn6w9giccqq3sghv1qf0q0jsdk56vb1w385xw2ry"
   },
   "stable": {
    "version": [
@@ -108485,7 +108471,7 @@
   "commit": "094a9cbc18882daa4f2efd3d72bb0a34e6bd9f63",
   "sha256": "1rz2flacnh6h40k559l0r1vwcnx89w4j9ipp1ysnh8rzji3wl07k",
   "fetcher": "github",
-  "repo": "jcs-elpa/vs-dark-theme",
+  "repo": "emacs-vs/vs-dark-theme",
   "unstable": {
    "version": [
     20210627,
@@ -108508,7 +108494,7 @@
   "commit": "a1258f6afe69d0a13c19246a8b8bd2e5b1a67b48",
   "sha256": "14wbqim0bghxwp45qwjh7nc3gi91jaapakaq3x0ypyw8l6xxrbnm",
   "fetcher": "github",
-  "repo": "jcs-elpa/vs-light-theme",
+  "repo": "emacs-vs/vs-light-theme",
   "unstable": {
    "version": [
     20210627,
