@@ -3779,10 +3779,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.5.0.5";
+        version = "2.5.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.5.0.5.tar";
-          sha256 = "1dclxffynfacvwi2scpda35sxjb42603yyf2p0477qa9b0i4xha0";
+          url = "https://elpa.gnu.org/packages/tramp-2.5.1.tar";
+          sha256 = "1r7wifhzy2ipdlc4fqnx6549fnx45ggz57wh0cp7s6y25761si7q";
         };
         packageRequires = [ emacs ];
         meta = {
