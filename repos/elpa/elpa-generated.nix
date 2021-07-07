@@ -2889,10 +2889,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "3.8.3";
+        version = "3.9.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-3.8.3.tar";
-          sha256 = "1sjb1al1d1xsqnflcxkm1bb419kclc30a4f7dbhzha90hd8cry4p";
+          url = "https://elpa.gnu.org/packages/pyim-3.9.0.tar";
+          sha256 = "1rpmw2x9gqwaw96086bfx8vkvxnw03wnclq7psi8zjb6ayz3p2qj";
         };
         packageRequires = [ async emacs xr ];
         meta = {
