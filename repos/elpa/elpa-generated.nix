@@ -125,20 +125,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    aggressive-indent = callPackage ({ cl-lib ? null
-                                     , elpaBuild
-                                     , emacs
-                                     , fetchurl
-                                     , lib }:
+    aggressive-indent = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "aggressive-indent";
         ename = "aggressive-indent";
-        version = "1.8.3";
+        version = "1.10.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/aggressive-indent-1.8.3.el";
-          sha256 = "0jnzccl50x0wapprgwxinp99pwwa6j43q6msn4gv437j7swy8wnj";
+          url = "https://elpa.gnu.org/packages/aggressive-indent-1.10.0.tar";
+          sha256 = "166jk1z0vw481lfi3gbg7f9vsgwfv8fiyxpkfphgvgcmf5phv4q1";
         };
-        packageRequires = [ cl-lib emacs ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/aggressive-indent.html";
           license = lib.licenses.free;
