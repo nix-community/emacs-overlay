@@ -1071,10 +1071,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20210618";
+        version = "20210710";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20210618.tar";
-          sha256 = "13sb9shpj9fhns8sl3dxdgnn8z4wf14mgi4s87k5x4nrr012sscf";
+          url = "https://elpa.gnu.org/packages/eev-20210710.tar";
+          sha256 = "19k5yncyjg7afvkx54k9mplm86jyr3svjjyprrj1frdi219i5piw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2885,10 +2885,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "3.9.0";
+        version = "3.9.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-3.9.0.tar";
-          sha256 = "1rpmw2x9gqwaw96086bfx8vkvxnw03wnclq7psi8zjb6ayz3p2qj";
+          url = "https://elpa.gnu.org/packages/pyim-3.9.1.tar";
+          sha256 = "1fph4dfc5favanz4l6qz1zgfn9dgqj17kp6smwxa3yfhgfrvdhfl";
         };
         packageRequires = [ async emacs xr ];
         meta = {
