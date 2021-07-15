@@ -666,10 +666,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.9";
+        version = "0.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.9.tar";
-          sha256 = "0710bq07j6w6zm49ci1bbx580frdbc62b3hbxwzkwm5204nf78bf";
+          url = "https://elpa.gnu.org/packages/corfu-0.10.tar";
+          sha256 = "0sqr4cld84vgfnf0fjgvbbix1p23s0n2xsszfap6d8a2xzzpp044";
         };
         packageRequires = [ emacs ];
         meta = {
