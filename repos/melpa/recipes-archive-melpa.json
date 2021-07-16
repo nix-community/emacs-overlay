@@ -6312,11 +6312,11 @@
   "repo": "bazelbuild/emacs-bazel-mode",
   "unstable": {
    "version": [
-    20210605,
-    906
+    20210715,
+    2325
    ],
-   "commit": "667554f76696a3cbb50c4c01b121c1aef882195a",
-   "sha256": "169x8d52hkb30w2c4ww7lpipdin5406nm2i95fbbxs1sz1068b8r"
+   "commit": "3b0a3a2200cd93497563812d4026c4d67b13e91a",
+   "sha256": "0pgn1j6fpj2qjns2zvzaswk5l65mkd6sxs08l6z0q2926gb7dpx9"
   }
  },
  {
@@ -7044,8 +7044,8 @@
    "deps": [
     "bibtex-completion"
    ],
-   "commit": "faf4e123542fb58c6973a8515705b149db95eb5d",
-   "sha256": "0wj6c6f5ciz67ry0rhch4dxwaa3ks35b3yyajg0m04bhr5k04327"
+   "commit": "832f3f0ee58ae48e44f7480937a7956e136c136a",
+   "sha256": "1lfwyjh5p18xh88c7wi0cbjafqvc2kspvfy87j7y9378y1w10lkk"
   },
   "stable": {
    "version": [
@@ -11413,10 +11413,10 @@
  },
  {
   "ename": "circe",
-  "commit": "a2b295656d53fddc76cacc86b239e5648e49e3a4",
-  "sha256": "1f54d8490gfx0r0cdvgmcjdxqpni43msy0k2mgqd1qz88a4b5l07",
+  "commit": "8229522ba39b4b542421664ad3fef76439fbbfc9",
+  "sha256": "0wzpx6qpl89zixbsqyfgmda35qbjpqyq60xm61qjzi36hf9f9wcb",
   "fetcher": "github",
-  "repo": "jorgenschaefer/circe",
+  "repo": "emacs-circe/circe",
   "unstable": {
    "version": [
     20210713,
@@ -11575,11 +11575,11 @@
   "repo": "universal-ctags/citre",
   "unstable": {
    "version": [
-    20210715,
-    1057
+    20210716,
+    403
    ],
-   "commit": "4fd99e80592e21813dbbb2f6c041ecf5bedfbd8f",
-   "sha256": "0gs1h85yn7y262v9ysn5bmp168n5017285375binad9s6d6b429p"
+   "commit": "813e8c32a41f84ff099feddb5a4d5a51c5c200b5",
+   "sha256": "02482ln1458hb6z1x89b7294q4bwwdqi08h6m0mmvgd3vz2nwmqs"
   },
   "stable": {
    "version": [
@@ -12560,8 +12560,8 @@
     20210104,
     1831
    ],
-   "commit": "dab05a1af2c494ef940b59ae3415e1c8019e0047",
-   "sha256": "0a2s47840ghs4698wqczcj59zc2i7bgzr7allqxmmdg2swdkhdr0"
+   "commit": "4e17e90988e9f23dece4c04f574d456309d7a50c",
+   "sha256": "1gqbgs8zxn9dcpxmbykz0mrqy6p229b0pdz3hnk0kncqkk004lx1"
   },
   "stable": {
    "version": [
@@ -19910,8 +19910,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "992559f98a1f0367ae2b73e94f69503da73f3a83",
-   "sha256": "0kbd1vnr7rv60k2s72lpsq6fzb5wahrql37xb9yyi8lli0gady6x"
+   "commit": "d225def4a473a16ac994124e063695ef9cef3308",
+   "sha256": "1wizqf5qj0bxx9b5d0j726in1alqv0wy508y5ivaw7hcyggkg9i7"
   },
   "stable": {
    "version": [
@@ -55618,11 +55618,11 @@
   "repo": "ideasman42/emacs-inkpot-theme",
   "unstable": {
    "version": [
-    20210427,
-    1337
+    20210716,
+    58
    ],
-   "commit": "7c3a0a76fa00db41a4d3d990cc98a1c6b088df3d",
-   "sha256": "17x0afwfcr4k0nmliqajswmvaiglk1xl33r3j215w214xp6dqrp2"
+   "commit": "c3683aa99c738eb46cf310ba23162dbb315a5ac5",
+   "sha256": "14k3n5kn9z2lqdhm00qy0hz8synnv28i17gn518ps4cyk298dmby"
   }
  },
  {
@@ -64681,8 +64681,8 @@
     "lsp-mode",
     "markdown-mode"
    ],
-   "commit": "9953a4857227ad83fb18bc295c8c12b1e4d29007",
-   "sha256": "0p2im7apqrzv8ds7jaimvkjgr64fwp2zx9pa240r7q9gpba4f0z6"
+   "commit": "1ee371765612b7aaa6046aabdc2f65bcfcb93b11",
+   "sha256": "051hc6310zzn9qpvd9k8cj7ibzsk1k19l2485c5wra0fvm2lfa6x"
   },
   "stable": {
    "version": [
@@ -69001,15 +69001,15 @@
   "repo": "damon-kwok/modern-sh",
   "unstable": {
    "version": [
-    20200904,
-    1838
+    20210716,
+    148
    ],
    "deps": [
     "eval-in-repl",
     "hydra"
    ],
-   "commit": "05430398a5070245c4358e6a1b7e49a154da174e",
-   "sha256": "05k5ak09rw8zrn5k7zjc54ckv4jrp9fs3s3r3ja5cil45irgcmhv"
+   "commit": "8b11b67ac738cfd95babbcc7543467fd9190fc7e",
+   "sha256": "1y0y2fwyi1qi5k3nypdv51rfyf06f2q2c6ki5yz6bl82lhd0vb1l"
   }
  },
  {
@@ -69059,11 +69059,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20210715,
-    1112
+    20210716,
+    431
    ],
-   "commit": "b6fb7cda01a665f9369f2c6a29f3bf26c8cc8019",
-   "sha256": "1yz5yr3acc601xcms7vr2jbj4bq6dqz8n5ymyfyxldid0n5ykzy4"
+   "commit": "9521dcec6c012d3776e3d05692720dd24922218b",
+   "sha256": "1m5ifpql8p0w4qk79n2n8wyrq1s7ys0yc8y0a09w1yyxjk6ay12k"
   },
   "stable": {
    "version": [
@@ -103681,8 +103681,8 @@
     20200212,
     1903
    ],
-   "commit": "880786aa9695602a112c00e8912e38c45cfb1425",
-   "sha256": "0j4phqvjn6qq2k7l3lzq5b16hbwdhq42lpd1b8b0npg7pxbaf7c5"
+   "commit": "877a542b9246ff89b0af01f452a84f08b527a12c",
+   "sha256": "131hmf7wav9kp3gc2jrw14gxh88cfkmnlwxb6qvx4lpg9w7l1csh"
   },
   "stable": {
    "version": [
