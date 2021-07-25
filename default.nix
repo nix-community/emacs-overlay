@@ -9,6 +9,8 @@ let
         pname = name;
         ename = name;
         version = repoMeta.version;
+        commit = repoMeta.rev;
+
         recipe = builtins.toFile "recipe" ''
           (${name} :fetcher github
           :repo "ch11ng/${name}")
