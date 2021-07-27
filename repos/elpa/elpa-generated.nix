@@ -4224,10 +4224,10 @@
       elpaBuild {
         pname = "wisi";
         ename = "wisi";
-        version = "3.1.3";
+        version = "3.1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wisi-3.1.3.tar";
-          sha256 = "0cbjcm35lp164wd06mn3clikga07qxfsfnkvadswsapsd0cn2b4k";
+          url = "https://elpa.gnu.org/packages/wisi-3.1.4.tar";
+          sha256 = "1j35ln5x3dgypq3hn6xcdpg6vp6yjj6avcjakc2r6wx19vxixciw";
         };
         packageRequires = [ emacs seq ];
         meta = {
