@@ -1420,6 +1420,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    ftable = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "ftable";
+        ename = "ftable";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/ftable-1.0.tar";
+          sha256 = "1qi0fxw94hb7p2s8n2dzbziialbjbjxgpwx2m4mvrmicrq375r5p";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/ftable.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     gcmh = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "gcmh";
@@ -2780,10 +2795,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.3";
+        version = "0.4.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.3.tar";
-          sha256 = "0yvwfaj7l4z3zgycvnf1j0r5jx4lryaapljbw2sqvwqpbgyiw0y0";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.4.tar";
+          sha256 = "0004ng9n7yscxgzs8dbnr6y48cycf1a7yyds4qy5r215fygx9dfb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2885,10 +2900,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "3.9.3";
+        version = "3.9.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-3.9.3.tar";
-          sha256 = "0rjaimvbh0fadbqiq4ggyxr0y4pfzld76wb64v7l5874qczn8dfr";
+          url = "https://elpa.gnu.org/packages/pyim-3.9.4.tar";
+          sha256 = "0ggnl2jidcklyhqd5av5kk1f855gsq29wq2nhvp1yjzn35hz6xij";
         };
         packageRequires = [ async emacs xr ];
         meta = {
