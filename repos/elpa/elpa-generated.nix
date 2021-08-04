@@ -3516,10 +3516,10 @@
       elpaBuild {
         pname = "so-long";
         ename = "so-long";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/so-long-1.0.el";
-          sha256 = "00z9gnxz32rakd0k7lqaj050fwmqzq5vr9d6rb7ji3fn01rjp7kj";
+          url = "https://elpa.gnu.org/packages/so-long-1.1.tar";
+          sha256 = "0m77rakf1mpj5aja3i3n8l5gmd072mf2r72cpkq9cqwmbh8d0v1x";
         };
         packageRequires = [ emacs ];
         meta = {
