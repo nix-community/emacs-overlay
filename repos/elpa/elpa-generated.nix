@@ -39,10 +39,10 @@
       elpaBuild {
         pname = "ada-mode";
         ename = "ada-mode";
-        version = "7.1.6";
+        version = "7.1.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ada-mode-7.1.6.tar";
-          sha256 = "0r7mgz8l2f61hzwd6cgcg2dlybjgq1gxwb989zw68kkdqvjkr6y1";
+          url = "https://elpa.gnu.org/packages/ada-mode-7.1.7.tar";
+          sha256 = "0bzykgzc3kx1dgngishsf9w4czq3ig6wvrv3832zlxb7q3rmw8j2";
         };
         packageRequires = [ emacs uniquify-files wisi ];
         meta = {
