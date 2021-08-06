@@ -1007,16 +1007,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    ebdb = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib, seq }:
+    ebdb = callPackage ({ elpaBuild, emacs, fetchurl, lib, seq }:
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.7";
+        version = "0.7.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.7.tar";
-          sha256 = "0q4ywgh87d6hjac3031s21w91gld2hh7s8nbva94dnzwn6y9d0v1";
+          url = "https://elpa.gnu.org/packages/ebdb-0.7.1.tar";
+          sha256 = "1z5lh1mib60mvs5kbdsrw2h4whz4n5ad4qkpphs2xjvaz92jgq6s";
         };
-        packageRequires = [ cl-lib emacs seq ];
+        packageRequires = [ emacs seq ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ebdb.html";
           license = lib.licenses.free;
