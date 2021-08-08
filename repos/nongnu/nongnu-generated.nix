@@ -476,6 +476,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    smartparens = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "smartparens";
+        ename = "smartparens";
+        version = "4.7.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/smartparens-4.7.1.tar";
+          sha256 = "0si9wb7j760c4vdv7p049bgppppw5crrh50038bsh8sghq2gdld8";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/smartparens.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     tuareg = callPackage ({ caml, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "tuareg";
