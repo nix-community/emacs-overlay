@@ -15,6 +15,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    clojure-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "clojure-mode";
+        ename = "clojure-mode";
+        version = "5.13.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/clojure-mode-5.13.0.tar";
+          sha256 = "16xll0sp7mqzwldfsihp7j3dlm6ps1l1awi122ff8w7xph7b0wfh";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/clojure-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     editorconfig = callPackage ({ cl-lib ? null
                                 , elpaBuild
                                 , emacs
