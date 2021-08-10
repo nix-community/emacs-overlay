@@ -39,10 +39,10 @@
       elpaBuild {
         pname = "ada-mode";
         ename = "ada-mode";
-        version = "7.1.7";
+        version = "7.1.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ada-mode-7.1.7.tar";
-          sha256 = "0bzykgzc3kx1dgngishsf9w4czq3ig6wvrv3832zlxb7q3rmw8j2";
+          url = "https://elpa.gnu.org/packages/ada-mode-7.1.8.tar";
+          sha256 = "0gggzjj58bxp7n4xdvhqwaxk6z79bbiqs59cc36mxk4gqyzf41xh";
         };
         packageRequires = [ emacs uniquify-files wisi ];
         meta = {
@@ -1194,10 +1194,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "7.5";
+        version = "7.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emms-7.5.tar";
-          sha256 = "0d7nsx2idzbp6d5im5rrsnwppbr2cimvxgx31bhwsm2aq3ya5v2j";
+          url = "https://elpa.gnu.org/packages/emms-7.6.tar";
+          sha256 = "03cp6mr0kxy41dg4ri5ymbzpkw7bd8zg7hx0a2rb4axiss5qmx7i";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
