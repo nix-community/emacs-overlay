@@ -55,7 +55,7 @@ let
   emacsWithPackages = emacsPackages.emacsWithPackages;
   mkPackageError = name:
     let
-      errorFun = if alwaysEnsure then builtins.trace else throw;
+      errorFun = if (alwaysEnsure != null && alwaysEnsure) then builtins.trace else throw;
     in
     errorFun "Emacs package ${name}, declared wanted with use-package, not found." null;
 in
