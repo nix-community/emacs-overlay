@@ -30,6 +30,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    crux = callPackage ({ elpaBuild, fetchurl, lib, seq }:
+      elpaBuild {
+        pname = "crux";
+        ename = "crux";
+        version = "0.4.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/crux-0.4.0.tar";
+          sha256 = "01yg54s2l3zr4h7h3nw408bqzrr4yds9rfgc575b76006v5d3ciy";
+        };
+        packageRequires = [ seq ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/crux.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     editorconfig = callPackage ({ cl-lib ? null
                                 , elpaBuild
                                 , emacs
@@ -281,6 +296,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    guru-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "guru-mode";
+        ename = "guru-mode";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/guru-mode-1.0.tar";
+          sha256 = "18vz80yc7nv6dgyyxmlxslwim7qpb1dx2y5382c2wbdqp0icg41g";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/guru-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     haskell-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "haskell-mode";
@@ -308,6 +338,25 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/htmlize.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    inf-clojure = callPackage ({ clojure-mode
+                               , elpaBuild
+                               , emacs
+                               , fetchurl
+                               , lib }:
+      elpaBuild {
+        pname = "inf-clojure";
+        ename = "inf-clojure";
+        version = "3.1.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/inf-clojure-3.1.0.tar";
+          sha256 = "0jw6rzplicbv2l7si46naspzp5lqwj20b1nmfs9zal58z1gx6zjk";
+        };
+        packageRequires = [ clojure-mode emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/inf-clojure.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -431,6 +480,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    projectile = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "projectile";
+        ename = "projectile";
+        version = "2.5.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/projectile-2.5.0.tar";
+          sha256 = "09gsm6xbqj3357vlshs1w7ygfm004gpgs0pqrvwl6xmccxpqzmi0";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/projectile.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     request = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "request";
@@ -443,6 +507,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/request.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    rubocop = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "rubocop";
+        ename = "rubocop";
+        version = "0.6.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/rubocop-0.6.0.tar";
+          sha256 = "1gw30ya6xyi359k9fihjx75h7ahs067i9bvkyla0rbhmc5xdz6ww";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/rubocop.html";
           license = lib.licenses.free;
         };
       }) {};
