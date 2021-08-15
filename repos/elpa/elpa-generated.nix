@@ -2163,10 +2163,10 @@
       elpaBuild {
         pname = "map";
         ename = "map";
-        version = "3.0";
+        version = "3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/map-3.0.tar";
-          sha256 = "00wf8lgh1b1i5l838y6di8194rf5gf5djklkhmxj1nlikz66j2ls";
+          url = "https://elpa.gnu.org/packages/map-3.1.tar";
+          sha256 = "1akkp34psm71ylbf1i02m56ga1dkswhz069j98amixrhw20hq4nx";
         };
         packageRequires = [ emacs ];
         meta = {
