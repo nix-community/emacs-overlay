@@ -326,6 +326,24 @@
           license = lib.licenses.free;
         };
       }) {};
+    highlight-parentheses = callPackage ({ elpaBuild
+                                         , emacs
+                                         , fetchurl
+                                         , lib }:
+      elpaBuild {
+        pname = "highlight-parentheses";
+        ename = "highlight-parentheses";
+        version = "2.0.3";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/highlight-parentheses-2.0.3.tar";
+          sha256 = "0m7jy2g1gs1xl9lzg1vfn3gmicgl41g9fq5053p6wb6i4hlb81hp";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/highlight-parentheses.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     htmlize = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "htmlize";
