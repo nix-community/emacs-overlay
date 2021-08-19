@@ -636,10 +636,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.10";
+        version = "0.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-0.10.tar";
-          sha256 = "173xjhnvbp6n4sfy46vy36zivwidrrj5dzmv5maydivs998y88kf";
+          url = "https://elpa.gnu.org/packages/consult-0.11.tar";
+          sha256 = "14zjhsfhq5g9257maivyzpj5qxi1kprcsdk1qalwybyylyb4q4kk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1011,10 +1011,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.7.1";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.7.1.tar";
-          sha256 = "1z5lh1mib60mvs5kbdsrw2h4whz4n5ad4qkpphs2xjvaz92jgq6s";
+          url = "https://elpa.gnu.org/packages/ebdb-0.8.tar";
+          sha256 = "1dkmqkqr30s66kzqr29kwdwns5kv1953q8bvwvfg03nzd734cdsn";
         };
         packageRequires = [ emacs seq ];
         meta = {
