@@ -3381,10 +3381,10 @@
       elpaBuild {
         pname = "setup";
         ename = "setup";
-        version = "0.2.1";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/setup-0.2.1.tar";
-          sha256 = "15paand086g33w2vb6jkyxd3i2pmpp84f31y3j5v8w9ia68pjzms";
+          url = "https://elpa.gnu.org/packages/setup-1.0.0.tar";
+          sha256 = "05k65r5mgkpbj6f84qscgq4gjbj4wyn7c60b9xjvadw9b55yvfxk";
         };
         packageRequires = [ emacs ];
         meta = {
