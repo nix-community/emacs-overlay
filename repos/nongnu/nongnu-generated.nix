@@ -333,10 +333,10 @@
       elpaBuild {
         pname = "highlight-parentheses";
         ename = "highlight-parentheses";
-        version = "2.0.4";
+        version = "2.1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/highlight-parentheses-2.0.4.tar";
-          sha256 = "0gcg9mnbgm2mxbcg0mgijmbzj8a6jvxbh2jsyzs33832xw7mdck1";
+          url = "https://elpa.nongnu.org/nongnu/highlight-parentheses-2.1.0.tar";
+          sha256 = "1rsixbvglar0k0x24xkxw80sx9i85q48jdzx6wbyjz2clz974ja5";
         };
         packageRequires = [ emacs ];
         meta = {
