@@ -1,15 +1,15 @@
 { callPackage }:
   {
-    caml = callPackage ({ elpaBuild, fetchurl, lib }:
+    caml = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "caml";
         ename = "caml";
-        version = "4.7.1";
+        version = "4.8";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/caml-4.7.1.tar";
-          sha256 = "1bv2fscy7zg7r1hyg4rpvh3991vmhy4zid7bv1qbhxa95m9c49j3";
+          url = "https://elpa.nongnu.org/nongnu/caml-4.8.tar";
+          sha256 = "02wzjdd1ig8ajy65rf87zaysfddjbhyswifwlcs52ly7p84q72wk";
         };
-        packageRequires = [];
+        packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/caml.html";
           license = lib.licenses.free;
