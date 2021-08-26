@@ -722,6 +722,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    csharp-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "csharp-mode";
+        ename = "csharp-mode";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/csharp-mode-1.0.0.tar";
+          sha256 = "0vhm443fkcjsj95r4rs9r0mz9vzfk92883nxhyi35d3jaf112gm1";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/csharp-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     csv-mode = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "csv-mode";
@@ -3285,10 +3300,10 @@
       elpaBuild {
         pname = "rt-liberation";
         ename = "rt-liberation";
-        version = "2.3";
+        version = "2.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rt-liberation-2.3.tar";
-          sha256 = "0sqq5zfzx9dir6d6zvg7vj5v629b508bbxsp7j0sp21rr4fw9nn0";
+          url = "https://elpa.gnu.org/packages/rt-liberation-2.4.tar";
+          sha256 = "1yqcrgfn9lbv26729x5d9qx4zyp1k05r4f63ikrnk8lhqpjs5i00";
         };
         packageRequires = [];
         meta = {
@@ -3411,10 +3426,10 @@
       elpaBuild {
         pname = "shell-command-plus";
         ename = "shell-command+";
-        version = "2.2.0";
+        version = "2.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/shell-command+-2.2.0.tar";
-          sha256 = "1ms2xk7xfgd3ngwm90hnmlxwpvyb167bislc2wr3ilfrirbbw476";
+          url = "https://elpa.gnu.org/packages/shell-command+-2.2.1.tar";
+          sha256 = "1dmi7fn4g55va5ljpyswr3dpgj471747kkdixfyp8zpsbhvr5yf6";
         };
         packageRequires = [ emacs ];
         meta = {
