@@ -234,10 +234,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.0.13";
+        version = "13.0.14";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.0.13.tar";
-          sha256 = "06cb9jphqd0nysc60b4x24zmdryljb168cw66adl7b2x7sdzpkmn";
+          url = "https://elpa.gnu.org/packages/auctex-13.0.14.tar";
+          sha256 = "1gmqdcg9s6xf8kvzh1j27nbimakd5cy8pwsn0il19l026kxjimr8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -786,10 +786,10 @@
       elpaBuild {
         pname = "dash";
         ename = "dash";
-        version = "2.19.0";
+        version = "2.19.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dash-2.19.0.tar";
-          sha256 = "0qszjs60xxqjiqf5f2bgmnbx5jiqii4ghcydwg500za0n2j0f5sx";
+          url = "https://elpa.gnu.org/packages/dash-2.19.1.tar";
+          sha256 = "0c11lm7wpgmqk8zbdcpmyas12ylml5yhp99mj9h1wqqw0p33xaiw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3987,6 +3987,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/valign.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    vc-backup = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "vc-backup";
+        ename = "vc-backup";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/vc-backup-1.0.0.tar";
+          sha256 = "0vcrbb4s1rzar9q882kfcslycxvycp61923sg82i29b7yd0yrgdr";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/vc-backup.html";
           license = lib.licenses.free;
         };
       }) {};
