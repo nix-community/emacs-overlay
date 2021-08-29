@@ -707,6 +707,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    crdt = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "crdt";
+        ename = "crdt";
+        version = "0.1.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/crdt-0.1.1.tar";
+          sha256 = "02gw7kfvaqpr6ab09614lq59fyazb6kq8j5bnkgsh7qka34cn8xs";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/crdt.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     crisp = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "crisp";
