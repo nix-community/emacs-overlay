@@ -3767,6 +3767,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    taxy = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "taxy";
+        ename = "taxy";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/taxy-0.2.tar";
+          sha256 = "0gs21061jfg82a658z9g49fc2fns8p2ji6vy5zlinbw270rf8dbr";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/taxy.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     temp-buffer-browse = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "temp-buffer-browse";
