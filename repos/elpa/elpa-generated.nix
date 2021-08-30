@@ -711,10 +711,10 @@
       elpaBuild {
         pname = "crdt";
         ename = "crdt";
-        version = "0.1.1";
+        version = "0.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/crdt-0.1.1.tar";
-          sha256 = "02gw7kfvaqpr6ab09614lq59fyazb6kq8j5bnkgsh7qka34cn8xs";
+          url = "https://elpa.gnu.org/packages/crdt-0.1.2.tar";
+          sha256 = "1ygvq9pd726d16dgcq3prg0l5xb71hw0m055p8xab238qmal4h87";
         };
         packageRequires = [];
         meta = {
@@ -3850,10 +3850,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.5.1.1";
+        version = "2.5.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.5.1.1.tar";
-          sha256 = "0v3rvvhjcnyvg6l4vyxz6513mxzvv9n0skkmr62ry8yi5x9wnqp1";
+          url = "https://elpa.gnu.org/packages/tramp-2.5.1.2.tar";
+          sha256 = "0p8m8prxrvrr455ahb626c1dry04m80y017h16ngr4i5ais0r85g";
         };
         packageRequires = [ emacs ];
         meta = {
