@@ -711,10 +711,10 @@
       elpaBuild {
         pname = "crdt";
         ename = "crdt";
-        version = "0.1.2";
+        version = "0.1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/crdt-0.1.2.tar";
-          sha256 = "1ygvq9pd726d16dgcq3prg0l5xb71hw0m055p8xab238qmal4h87";
+          url = "https://elpa.gnu.org/packages/crdt-0.1.3.tar";
+          sha256 = "1fpwh8p73c3q0hwlr04jrymdmflw1b99gzks5ik5fkl3knfpbdlm";
         };
         packageRequires = [];
         meta = {
@@ -3771,10 +3771,10 @@
       elpaBuild {
         pname = "taxy";
         ename = "taxy";
-        version = "0.2";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/taxy-0.2.tar";
-          sha256 = "0gs21061jfg82a658z9g49fc2fns8p2ji6vy5zlinbw270rf8dbr";
+          url = "https://elpa.gnu.org/packages/taxy-0.4.tar";
+          sha256 = "1iy1761v2q0i020x8ch4z3vljx2v62pcy5bifxq8gw5qx0115576";
         };
         packageRequires = [ emacs ];
         meta = {
