@@ -109,10 +109,10 @@
       elpaBuild {
         pname = "dart-mode";
         ename = "dart-mode";
-        version = "1.0.6";
+        version = "1.0.7";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/dart-mode-1.0.6.tar";
-          sha256 = "1aygazf88zkka4qv553zww47m0kl5byy4b6n322v7062g93a4m6n";
+          url = "https://elpa.nongnu.org/nongnu/dart-mode-1.0.7.tar";
+          sha256 = "13n0fmnxgnq8vjw0n5vwgdgfm5lznvrm3xkak4snkdw7w3rd3a20";
         };
         packageRequires = [ emacs ];
         meta = {
