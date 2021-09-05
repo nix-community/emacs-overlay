@@ -1041,10 +1041,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.8.3";
+        version = "0.8.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.8.3.tar";
-          sha256 = "0dnrisszwn0c8kc4gpz3gn6zp41rriqnph1akvgjhsmgcl193ld9";
+          url = "https://elpa.gnu.org/packages/ebdb-0.8.4.tar";
+          sha256 = "0n811af83fqpzq9513gf240gnz7qkwrjw07qs4sra4069q0pwnjr";
         };
         packageRequires = [ emacs seq ];
         meta = {
