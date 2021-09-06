@@ -1235,6 +1235,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    engrave-faces = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "engrave-faces";
+        ename = "engrave-faces";
+        version = "0.2.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/engrave-faces-0.2.0.tar";
+          sha256 = "1d0hsfg3wvwbs82gjyvfjvy1sszcm7qa50bch1b6jy05kbc543ip";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/engrave-faces.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     enwc = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "enwc";
@@ -4424,10 +4439,10 @@
       elpaBuild {
         pname = "xref";
         ename = "xref";
-        version = "1.2.1";
+        version = "1.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xref-1.2.1.tar";
-          sha256 = "1x7hfqp7y4yr4r7n49lqdf1h2plhgaxdn9x7rjkp05szj3rgflk6";
+          url = "https://elpa.gnu.org/packages/xref-1.2.2.tar";
+          sha256 = "14kdy8blhs6lwg349l9lmv0bbpybgi9nsg2iic3v87j4jyi41ljm";
         };
         packageRequires = [ emacs ];
         meta = {
