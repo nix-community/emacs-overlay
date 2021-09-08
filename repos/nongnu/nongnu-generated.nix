@@ -45,16 +45,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    caml = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
+    caml = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "caml";
         ename = "caml";
-        version = "4.8";
+        version = "4.9";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/caml-4.8.tar";
-          sha256 = "02wzjdd1ig8ajy65rf87zaysfddjbhyswifwlcs52ly7p84q72wk";
+          url = "https://elpa.nongnu.org/nongnu/caml-4.9.tar";
+          sha256 = "00ldvz6r10vwwmk6f3az534p0340ywn7knsg2bmvbvh3q51vyl9i";
         };
-        packageRequires = [ cl-lib emacs ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/caml.html";
           license = lib.licenses.free;
