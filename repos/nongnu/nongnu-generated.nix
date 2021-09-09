@@ -946,10 +946,10 @@
       elpaBuild {
         pname = "yasnippet-snippets";
         ename = "yasnippet-snippets";
-        version = "0.2";
+        version = "1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/yasnippet-snippets-0.2.tar";
-          sha256 = "1xhlx2n2sdpcc82cba9r7nbd0gwi7m821p7vk0vnw84dhwy863ic";
+          url = "https://elpa.nongnu.org/nongnu/yasnippet-snippets-1.0.tar";
+          sha256 = "0p2a10wfh1dvmxbjlbj6p241xaldjim2h8vrv9aghvm3ryfixcpb";
         };
         packageRequires = [ yasnippet ];
         meta = {
