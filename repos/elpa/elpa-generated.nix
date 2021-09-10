@@ -711,10 +711,10 @@
       elpaBuild {
         pname = "crdt";
         ename = "crdt";
-        version = "0.1.4";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/crdt-0.1.4.tar";
-          sha256 = "1qqfjvkajwhdhz0jhqixdn68l1rl02pn2fmxizzsv0as20v0ay0r";
+          url = "https://elpa.gnu.org/packages/crdt-0.2.0.tar";
+          sha256 = "1c5wvn6jy1amnrmxp4d73xr5fnrqgvpvdwiljgc9x5685ic8yc8x";
         };
         packageRequires = [];
         meta = {
@@ -831,10 +831,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.28";
+        version = "0.29";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/debbugs-0.28.tar";
-          sha256 = "1qks38hpg3drhxzw66n5yxfq0v6fj9ya7d9dc6x0xwfp6r2x0li0";
+          url = "https://elpa.gnu.org/packages/debbugs-0.29.tar";
+          sha256 = "1bn21d9dr9pb3vdak3v07x056xafym89kdpxavjf4avy6bry6s4d";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -4047,6 +4047,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/vc-backup.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    vc-got = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "vc-got";
+        ename = "vc-got";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/vc-got-1.0.tar";
+          sha256 = "1lx52g261zr52gy63vjll8mvczcbdzbsx3wa47qdajrq9bwmj99j";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/vc-got.html";
           license = lib.licenses.free;
         };
       }) {};
