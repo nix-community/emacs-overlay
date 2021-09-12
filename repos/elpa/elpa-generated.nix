@@ -711,10 +711,10 @@
       elpaBuild {
         pname = "crdt";
         ename = "crdt";
-        version = "0.2.0";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/crdt-0.2.0.tar";
-          sha256 = "1c5wvn6jy1amnrmxp4d73xr5fnrqgvpvdwiljgc9x5685ic8yc8x";
+          url = "https://elpa.gnu.org/packages/crdt-0.2.1.tar";
+          sha256 = "0kj1fqzk4s6gz97nw9bwmfby24nb7s55xqz0iap576kq0cqm74zp";
         };
         packageRequires = [];
         meta = {
