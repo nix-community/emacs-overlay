@@ -2344,8 +2344,8 @@
    "deps": [
     "flycheck"
    ],
-   "commit": "4e5f32394345e3e6af093d74a37dc95b1216f5ac",
-   "sha256": "1rsxfv0az5ca7aydp0skffp4mikggdikx92saxjx5b4m60f966yx"
+   "commit": "3ef33de5242469b1d0083c20ab7296d70ac248b6",
+   "sha256": "138nljrqd40cib938a4a5cq1rfsvw7jpdigm4iadmxbadascs4n8"
   },
   "stable": {
    "version": [
@@ -9774,8 +9774,8 @@
     20210707,
     2310
    ],
-   "commit": "c644881eafeaae4968095dc3c65ae3467d994e3d",
-   "sha256": "18bbmv93s65ywn9xra3g566rhvdnk4fmx8wkbhzzaw806vx51rvr"
+   "commit": "9b39f7a3df1b01d16047b20d1eab8f236593b5a6",
+   "sha256": "0i2qpyh8iz2l624imw56z3wa8j1qd3q9xk4xm75q7d4hqv1iibkp"
   },
   "stable": {
    "version": [
@@ -12564,8 +12564,8 @@
     20210104,
     1831
    ],
-   "commit": "253f31f5efb27215049c81a0aff4c67b37a378d5",
-   "sha256": "1h4frvlyg5ga259cwi2fkfzia373mny78klp492adyz512d5qk6p"
+   "commit": "de1c6c0bc5c6745526e2923783349faed1c0bbf5",
+   "sha256": "0whrppyhjfmc8l1v0kc9wmmq77yph4x078ihml0f2v1nmdnn396x"
   },
   "stable": {
    "version": [
@@ -46685,13 +46685,13 @@
    "version": [
     1,
     2,
-    0
+    1
    ],
    "deps": [
     "request"
    ],
-   "commit": "008b0db39f7637c9e70239c862c46ccfbb830842",
-   "sha256": "00wvzsz8bx23kycdpwxwig24cyxmqaxb4glk5268p9lg9ljmf5pi"
+   "commit": "7b068b91f99ac37c36ad9785863bb2e626179a8b",
+   "sha256": "0w7q0394q52bxhmn1f72dmfrisg03y6j35hp0rsb2i7rqzv8fdkp"
   }
  },
  {
@@ -78852,15 +78852,15 @@
   "repo": "alezost/org-ref-prettify.el",
   "unstable": {
    "version": [
-    20210828,
-    1338
+    20210914,
+    531
    ],
    "deps": [
     "bibtex-completion",
     "org-ref"
    ],
-   "commit": "eeb3b02ac6ce42a846652bb9f19e9ec0e255d6a0",
-   "sha256": "1aa30qbw7i9318p2nx4vrk15s2jy5cc5s65nyf57gcp1qf0h17vd"
+   "commit": "e1218f852b1e0de50d136fbb02c3e5bcdc701370",
+   "sha256": "045r3663ji2xbhmfqymia2hv1b35nkz94wk02pvbhd7kf3is7zis"
   }
  },
  {
@@ -94668,8 +94668,8 @@
     20200830,
     301
    ],
-   "commit": "a277198ccb5dbf511b81ff582eceff0bee0b4058",
-   "sha256": "0gk55bfrb1iyfq1dp5dm4jnyfqb57x3n7wk568p42d84r98fcgyh"
+   "commit": "1c2aac041d0fa130e1392f7898bcc9b5eec8df58",
+   "sha256": "14b6wr77w01k3llj2g3ha3xcdwj7j1yj3hc4vaylvxinpswcq13k"
   }
  },
  {
@@ -100950,8 +100950,8 @@
     20200606,
     1308
    ],
-   "commit": "0593cfd3ce66614f5f01b38f14c7caffbf299089",
-   "sha256": "07qrq40cy5qhxndzyz352cydzx5fxxp8a1ciylqpbj69d0yg84d5"
+   "commit": "9136868a0b6914ba74b96bac956bcdd0e1eb1ecb",
+   "sha256": "1d1yqh0lcxyxmykml1kxns66553qbwi7wzw0lmbmf4izlklwnmdb"
   },
   "stable": {
    "version": [
@@ -104413,8 +104413,8 @@
     20200212,
     1903
    ],
-   "commit": "0acb5432f867d6a7f189333c54833e965e5ee44c",
-   "sha256": "1gsmi4imppjvxralwm1g9ldx3k0hf0b8cinzn393fmcw1ax6axp3"
+   "commit": "26803ab0bf72f17478f2bcc6676fc92f18de38bc",
+   "sha256": "01h6zvs0hihm78rsnv44p27db08xk1ib6wv35m2936k018pykvpg"
   },
   "stable": {
    "version": [
@@ -105742,8 +105742,8 @@
  },
  {
   "ename": "tree-sitter",
-  "commit": "315cccbfb1a9aadb546a5b62de5c3b681108ba6c",
-  "sha256": "1y7y8qrzc4nr31rh9gi8y3qpgb33jfl8aj8lmbagw5b7pc3v5f11",
+  "commit": "d6d365ea3694d9d8a638b002b37da4121e9372b9",
+  "sha256": "0rnk77pk0rmfl9azag4l2q3x2f1achykxjdm0q7aj82rvf60f5mb",
   "fetcher": "github",
   "repo": "emacs-tree-sitter/elisp-tree-sitter",
   "unstable": {
@@ -105803,8 +105803,8 @@
  },
  {
   "ename": "tree-sitter-langs",
-  "commit": "4163e6e43626c5149be06b95ec2e6de55acb85cc",
-  "sha256": "1bkjd5h817dw5zkbfb1dn4yg6cy29m9g0d650ap5ldi2y605zz5v",
+  "commit": "d6d365ea3694d9d8a638b002b37da4121e9372b9",
+  "sha256": "0pnnx21kip0ghb6p1x288kc79p3alcb4xyya02h8alcxz4dxlhqj",
   "fetcher": "github",
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
@@ -106341,8 +106341,8 @@
  },
  {
   "ename": "tsc",
-  "commit": "c44eceafdfe3dd4a98010a8dcac2e9e3ddaeae4c",
-  "sha256": "1gwavabszakqvvyw8yrr17dng7k9w27g8dsaf5zwihp8j46wim27",
+  "commit": "d6d365ea3694d9d8a638b002b37da4121e9372b9",
+  "sha256": "03g9wyna387bcmqcb1z4g5ybmlsxh3vg24i0x3ynvkm8knj8nl2v",
   "fetcher": "github",
   "repo": "emacs-tree-sitter/elisp-tree-sitter",
   "unstable": {
