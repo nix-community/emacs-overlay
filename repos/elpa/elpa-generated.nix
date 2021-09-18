@@ -3801,10 +3801,10 @@
       elpaBuild {
         pname = "taxy";
         ename = "taxy";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/taxy-0.6.tar";
-          sha256 = "0965b6mryd0yqv911vmwps5wi6sv6iy01a7z75vxib77as0ry35c";
+          url = "https://elpa.gnu.org/packages/taxy-0.7.tar";
+          sha256 = "03gay66izj4wdwqry41mpvs4qkk59bm844b0r6rs3v6i50h7hz4k";
         };
         packageRequires = [ emacs ];
         meta = {
