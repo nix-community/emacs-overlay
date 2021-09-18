@@ -711,10 +711,10 @@
       elpaBuild {
         pname = "crdt";
         ename = "crdt";
-        version = "0.2.3";
+        version = "0.2.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/crdt-0.2.3.tar";
-          sha256 = "17m5pn61ky4b7zb4y0w660kaq12xaqrz9449hrpdvrb7nz4hvw57";
+          url = "https://elpa.gnu.org/packages/crdt-0.2.4.tar";
+          sha256 = "08bs37nga1lfnbs1y27qsf7k6xcswgck4cshmssalgsf6rw5vnpm";
         };
         packageRequires = [];
         meta = {
@@ -1019,6 +1019,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/dts-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    easy-escape = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "easy-escape";
+        ename = "easy-escape";
+        version = "0.2.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/easy-escape-0.2.1.tar";
+          sha256 = "19blpwka440y6r08hzzaz61gb24jr6a046pai2j1a3jg6x9fr3j5";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/easy-escape.html";
           license = lib.licenses.free;
         };
       }) {};
