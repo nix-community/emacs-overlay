@@ -2870,10 +2870,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.6";
+        version = "0.4.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.6.tar";
-          sha256 = "0mfwyz9rwnrs0xcd1jmq1ngdhbwygm6hbfhyr14djywxx0b4hpm5";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.7.tar";
+          sha256 = "0y5milfjf45bi7gj7brl2lhyla8nsj3dc1a4nfq1wx3zw8arlc50";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3591,10 +3591,10 @@
       elpaBuild {
         pname = "so-long";
         ename = "so-long";
-        version = "1.1.1";
+        version = "1.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/so-long-1.1.1.tar";
-          sha256 = "0qgdnkb702mkm886v0zv0hnm5y7zlifgx9ji6xmdsxycpsfkjz1f";
+          url = "https://elpa.gnu.org/packages/so-long-1.1.2.tar";
+          sha256 = "053msvy2pyispwg4zzpaczfkl6rvnwfklm4jdsbjhqm0kx4vlcs9";
         };
         packageRequires = [ emacs ];
         meta = {
