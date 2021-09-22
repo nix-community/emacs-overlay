@@ -1843,10 +1843,10 @@
       elpaBuild {
         pname = "ioccur";
         ename = "ioccur";
-        version = "2.4";
+        version = "2.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ioccur-2.4.el";
-          sha256 = "1isid3kgsi5qkz27ipvmp9v5knx0qigmv7lz12mqdkwv8alns1p9";
+          url = "https://elpa.gnu.org/packages/ioccur-2.5.tar";
+          sha256 = "06a6djln2rry3qnb063yarji3p18hcpp5zrw7q43a45k7qaiaji8";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -2223,10 +2223,10 @@
       elpaBuild {
         pname = "map";
         ename = "map";
-        version = "3.1";
+        version = "3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/map-3.1.tar";
-          sha256 = "1akkp34psm71ylbf1i02m56ga1dkswhz069j98amixrhw20hq4nx";
+          url = "https://elpa.gnu.org/packages/map-3.2.tar";
+          sha256 = "1ikgrwzzdz77qbflsccd63w8l4zs5zx9iarxn33kgx2dqrq2dmc6";
         };
         packageRequires = [ emacs ];
         meta = {
