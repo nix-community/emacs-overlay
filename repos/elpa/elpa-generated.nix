@@ -1953,10 +1953,10 @@
       elpaBuild {
         pname = "ivy-posframe";
         ename = "ivy-posframe";
-        version = "0.6.1";
+        version = "0.6.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ivy-posframe-0.6.1.tar";
-          sha256 = "1nay2sfbwm2fkp3f1y89innd9h6j3q70q9y4yddrwa69cxlj9m23";
+          url = "https://elpa.gnu.org/packages/ivy-posframe-0.6.2.tar";
+          sha256 = "1x6pm0pry2j7yazhxvq1gydbymwll9yg85m8qi4sh8s0pnm0vjzk";
         };
         packageRequires = [ emacs ivy posframe ];
         meta = {
