@@ -4146,10 +4146,10 @@
       elpaBuild {
         pname = "verilog-mode";
         ename = "verilog-mode";
-        version = "2021.9.16.45775504";
+        version = "2021.9.22.45357537";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/verilog-mode-2021.9.16.45775504.tar";
-          sha256 = "11a321nw25yh9zcm526h0kzcgh06r3p5fiprsl7kw40dc3jn9gl5";
+          url = "https://elpa.gnu.org/packages/verilog-mode-2021.9.22.45357537.tar";
+          sha256 = "0yapg20q77ygjps7mllqlziljvk65b1sqmys27aqxdnhkn3sqpch";
         };
         packageRequires = [];
         meta = {
