@@ -42,7 +42,7 @@ function update_github_repo() {
 function update_release() {
     echo emacs release
 
-    git clone --shallow-since="$(date --date='-6 month')" https://git.savannah.gnu.org/git/emacs.git emacs_git_repo
+    git clone --shallow-since="$(date --date='-9 month')" https://git.savannah.gnu.org/git/emacs.git emacs_git_repo
     tag=$(git -C emacs_git_repo tag -l --sort=-v:refname 'emacs-*' | grep -v '\-rc' | head -n1)
     rm -rf emacs_git_repo
 
