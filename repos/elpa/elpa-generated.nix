@@ -3426,10 +3426,10 @@
       elpaBuild {
         pname = "seq";
         ename = "seq";
-        version = "2.22";
+        version = "2.23";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/seq-2.22.tar";
-          sha256 = "0zlqcbabzj8crg36ird2l74dbg5k7w1zf5iwva0h2dyvwyf9grma";
+          url = "https://elpa.gnu.org/packages/seq-2.23.tar";
+          sha256 = "1lbxnrzq88z8k9dyylg2636pg9vc8bzfprs1hxwp9ah0zkvsn52p";
         };
         packageRequires = [];
         meta = {
@@ -3441,10 +3441,10 @@
       elpaBuild {
         pname = "setup";
         ename = "setup";
-        version = "1.0.0";
+        version = "1.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/setup-1.0.0.tar";
-          sha256 = "05k65r5mgkpbj6f84qscgq4gjbj4wyn7c60b9xjvadw9b55yvfxk";
+          url = "https://elpa.gnu.org/packages/setup-1.0.1.tar";
+          sha256 = "1n390hiv5a8ij584r24cpbahj2sb12wjh0l3kzhccdxnxskrzgmh";
         };
         packageRequires = [ emacs ];
         meta = {
