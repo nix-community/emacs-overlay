@@ -657,10 +657,10 @@
       elpaBuild {
         pname = "org-contrib";
         ename = "org-contrib";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/org-contrib-0.1.tar";
-          sha256 = "07hzywvgj11wd21dw4lbkvqv32da03407f9qynlzgg1qa7wknm2k";
+          url = "https://elpa.nongnu.org/nongnu/org-contrib-0.2.tar";
+          sha256 = "0lbcwqldlm708hdz455pdzzc8n9858sb0xdhzdvc6n0mxf7pcs3i";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -879,6 +879,21 @@
         packageRequires = [ caml emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/tuareg.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    vc-fossil = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "vc-fossil";
+        ename = "vc-fossil";
+        version = "20210928";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/vc-fossil-20210928.tar";
+          sha256 = "0n4h1cj1336mv5cswq0139bkry5gnv4hrrwzd4bqhrxp5kbhqa5y";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/vc-fossil.html";
           license = lib.licenses.free;
         };
       }) {};
