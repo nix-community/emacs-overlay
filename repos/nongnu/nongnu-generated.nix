@@ -159,10 +159,10 @@
       elpaBuild {
         pname = "geiser";
         ename = "geiser";
-        version = "0.16";
+        version = "0.18";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-0.16.tar";
-          sha256 = "1mhngb1ik3qsc3w466cs61rbz3nn08ag29m5vfbd6adk60xmhnfk";
+          url = "https://elpa.nongnu.org/nongnu/geiser-0.18.tar";
+          sha256 = "131j4f82hl4pqj07qsl1f2dz4105v5fyll3bc97ggayzvrdiy58i";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -330,10 +330,10 @@
       elpaBuild {
         pname = "git-commit";
         ename = "git-commit";
-        version = "3.2.1";
+        version = "3.3.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/git-commit-3.2.1.tar";
-          sha256 = "1jndc8ppj4r2s62idabygj4q0qbpk4gwifn8jrd6pa61d7dlvp28";
+          url = "https://elpa.nongnu.org/nongnu/git-commit-3.3.0.tar";
+          sha256 = "0lp6r4w1k0idvfc2h0chlplap2i4x2slva9cw3iw1rhhxbcvlmdx";
         };
         packageRequires = [ dash emacs transient with-editor ];
         meta = {
@@ -560,10 +560,10 @@
       elpaBuild {
         pname = "magit";
         ename = "magit";
-        version = "3.2.1";
+        version = "3.3.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/magit-3.2.1.tar";
-          sha256 = "0yyf16605bp5q8jl2vbljxx04ja0ljvs775dnnawlc3mvn13zd9n";
+          url = "https://elpa.nongnu.org/nongnu/magit-3.3.0.tar";
+          sha256 = "0ihrds45z12z155c1y7haz1mxc95w6v4rynh0izm159xhz44121z";
         };
         packageRequires = [
           dash
@@ -582,10 +582,10 @@
       elpaBuild {
         pname = "magit-section";
         ename = "magit-section";
-        version = "3.2.1";
+        version = "3.3.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/magit-section-3.2.1.tar";
-          sha256 = "1ppinys8rfa38ac8grcx16hlaw33p03pif4ya6bbw280kq8c73rv";
+          url = "https://elpa.nongnu.org/nongnu/magit-section-3.3.0.tar";
+          sha256 = "08ac10vips6f2gy4x4w2wkz2ki3q0d6dhynkmlpdinsdmgagziny";
         };
         packageRequires = [ dash emacs ];
         meta = {
@@ -931,10 +931,10 @@
       elpaBuild {
         pname = "with-editor";
         ename = "with-editor";
-        version = "3.0.4";
+        version = "3.0.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/with-editor-3.0.4.tar";
-          sha256 = "032i954rzn8sg1qp6vjhz6j8j1fl6mpvhfnmd3va8k9q9m27k4an";
+          url = "https://elpa.nongnu.org/nongnu/with-editor-3.0.5.tar";
+          sha256 = "0bri6jr99133k9w0d754rw2f6hgjzndczngfw2lf2rvxks448krm";
         };
         packageRequires = [ emacs ];
         meta = {
