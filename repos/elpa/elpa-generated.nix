@@ -365,6 +365,36 @@
           license = lib.licenses.free;
         };
       }) {};
+    boxy = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "boxy";
+        ename = "boxy";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/boxy-1.0.0.tar";
+          sha256 = "1cdv0wd305z8gb4cxi7nw773swvf8j29carlr7j3lw6ankm5bva1";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/boxy.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    boxy-headlines = callPackage ({ boxy, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "boxy-headlines";
+        ename = "boxy-headlines";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/boxy-headlines-1.0.0.tar";
+          sha256 = "1hk8xy9vs1qx2mh3my0v9pbqp5g0hkbiy4zjhw2d84lichf2yw1m";
+        };
+        packageRequires = [ boxy emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/boxy-headlines.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     brief = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "brief";
@@ -711,10 +741,10 @@
       elpaBuild {
         pname = "crdt";
         ename = "crdt";
-        version = "0.2.5";
+        version = "0.2.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/crdt-0.2.5.tar";
-          sha256 = "092f82kq78c9gih6xri4n3ma5ixw9c8mx12i00c174g0v041r6sp";
+          url = "https://elpa.gnu.org/packages/crdt-0.2.7.tar";
+          sha256 = "0f6v937zbxj4kci07dv0a1h4q1ak0qabkjq2j258ydxyivvqyvsw";
         };
         packageRequires = [];
         meta = {
@@ -1056,10 +1086,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.8.4";
+        version = "0.8.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.8.4.tar";
-          sha256 = "0n811af83fqpzq9513gf240gnz7qkwrjw07qs4sra4069q0pwnjr";
+          url = "https://elpa.gnu.org/packages/ebdb-0.8.5.tar";
+          sha256 = "1p2chzj5hnaiqhammvdp82ck5pi6h1rl9r782zaqxrhrqsp3vg09";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -1116,10 +1146,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20210925";
+        version = "20211005";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20210925.tar";
-          sha256 = "0kwmjspmvz9lfm6y0kls9v2l55ccni0gviv9jlzxiwynrc01rz4y";
+          url = "https://elpa.gnu.org/packages/eev-20211005.tar";
+          sha256 = "0kxzgs5rzxl94jjbx9fir6s8883n755y9yphrgcc08fh72kjm8nr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2437,6 +2467,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    multi-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "multi-mode";
+        ename = "multi-mode";
+        version = "1.14";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/multi-mode-1.14.tar";
+          sha256 = "0aslndqr0277ai0iwywbmj07vmz88vpmc0mgydcy4li8fkn8h066";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/multi-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     multishell = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "multishell";
@@ -3456,10 +3501,10 @@
       elpaBuild {
         pname = "setup";
         ename = "setup";
-        version = "1.0.1";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/setup-1.0.1.tar";
-          sha256 = "1n390hiv5a8ij584r24cpbahj2sb12wjh0l3kzhccdxnxskrzgmh";
+          url = "https://elpa.gnu.org/packages/setup-1.1.0.tar";
+          sha256 = "1xbh4fix6n47avv57gz48zf4ad1l6mfj30qr5lwvk6pz5gpnjg7i";
         };
         packageRequires = [ emacs ];
         meta = {
