@@ -416,6 +416,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    haskell-tng-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib, popup }:
+      elpaBuild {
+        pname = "haskell-tng-mode";
+        ename = "haskell-tng-mode";
+        version = "0.0.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/haskell-tng-mode-0.0.1.tar";
+          sha256 = "1dndnxb9bdjnixyl09025065wdrk0h8q721rbwvransq308fijwy";
+        };
+        packageRequires = [ emacs popup ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/haskell-tng-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     highlight-parentheses = callPackage ({ elpaBuild
                                          , emacs
                                          , fetchurl
@@ -680,6 +695,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/php-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    popup = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "popup";
+        ename = "popup";
+        version = "0.5.8";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/popup-0.5.8.tar";
+          sha256 = "1amwxsymzvzmj8696fa6i0cqx4ac581rvr4dwkri7akkr7amh3yh";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/popup.html";
           license = lib.licenses.free;
         };
       }) {};
