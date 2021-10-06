@@ -1146,10 +1146,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20211005";
+        version = "20211006";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20211005.tar";
-          sha256 = "0kxzgs5rzxl94jjbx9fir6s8883n755y9yphrgcc08fh72kjm8nr";
+          url = "https://elpa.gnu.org/packages/eev-20211006.tar";
+          sha256 = "08z9q5y46fqm7r1gwiv0ir2hcybwfrvh0b7pxsrppjs1gvclyazn";
         };
         packageRequires = [ emacs ];
         meta = {
