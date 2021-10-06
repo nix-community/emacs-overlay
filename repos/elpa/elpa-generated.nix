@@ -369,10 +369,10 @@
       elpaBuild {
         pname = "boxy";
         ename = "boxy";
-        version = "1.0.0";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/boxy-1.0.0.tar";
-          sha256 = "1cdv0wd305z8gb4cxi7nw773swvf8j29carlr7j3lw6ankm5bva1";
+          url = "https://elpa.gnu.org/packages/boxy-1.0.2.tar";
+          sha256 = "07m832kn4d6njfz21qfmh12gzd35d17v29pqlxfq9v03cazww4lr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -384,10 +384,10 @@
       elpaBuild {
         pname = "boxy-headlines";
         ename = "boxy-headlines";
-        version = "1.0.0";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/boxy-headlines-1.0.0.tar";
-          sha256 = "1hk8xy9vs1qx2mh3my0v9pbqp5g0hkbiy4zjhw2d84lichf2yw1m";
+          url = "https://elpa.gnu.org/packages/boxy-headlines-1.0.2.tar";
+          sha256 = "1j8j2vc318mb4i116qs9zj6cvkiy1fips09mkzj6lqr25qk5fi31";
         };
         packageRequires = [ boxy emacs ];
         meta = {
@@ -2581,10 +2581,10 @@
       elpaBuild {
         pname = "nano-theme";
         ename = "nano-theme";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-theme-0.1.tar";
-          sha256 = "0byqzb6izhmp77c4vrx2kvdhzwiypl58z82hdq3x7psydi8y1m61";
+          url = "https://elpa.gnu.org/packages/nano-theme-0.2.tar";
+          sha256 = "0kcirnl1fg9kvavw8aq9l16jv4rrxv5w62i7wrsjn7np697sm0s6";
         };
         packageRequires = [ emacs ];
         meta = {
