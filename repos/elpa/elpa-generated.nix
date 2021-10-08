@@ -380,6 +380,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    boxy-headings = callPackage ({ boxy, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "boxy-headings";
+        ename = "boxy-headings";
+        version = "2.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/boxy-headings-2.0.0.tar";
+          sha256 = "0ij6vgjy77r8bzdz50q9nrc4s1hq4qvvx3rnb9a5lix8kqmgdfqz";
+        };
+        packageRequires = [ boxy emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/boxy-headings.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     boxy-headlines = callPackage ({ boxy, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "boxy-headlines";
