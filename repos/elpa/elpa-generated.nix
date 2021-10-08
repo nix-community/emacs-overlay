@@ -1146,10 +1146,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20211006";
+        version = "20211007";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20211006.tar";
-          sha256 = "08z9q5y46fqm7r1gwiv0ir2hcybwfrvh0b7pxsrppjs1gvclyazn";
+          url = "https://elpa.gnu.org/packages/eev-20211007.tar";
+          sha256 = "18irzdn2c4ym1sdkq771b406pygppzpzjlfhsjcqg4k91djf4k70";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2581,10 +2581,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-modeline-0.1.tar";
-          sha256 = "10hnxgjp56dqydf39mbn9zmwwvnwzi89lwnam5k3x6d6p2cnfgcx";
+          url = "https://elpa.gnu.org/packages/nano-modeline-0.2.tar";
+          sha256 = "13m8j8jnd33wwv1siv6frzdbs7bhspg859sflq58vimv444zjzac";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2596,10 +2596,10 @@
       elpaBuild {
         pname = "nano-theme";
         ename = "nano-theme";
-        version = "0.2";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-theme-0.2.tar";
-          sha256 = "0kcirnl1fg9kvavw8aq9l16jv4rrxv5w62i7wrsjn7np697sm0s6";
+          url = "https://elpa.gnu.org/packages/nano-theme-0.2.1.tar";
+          sha256 = "0m98kq40dhbrn55x4bp2x5d5j1gps4y7z4086mgnj8wr1y3w8kdl";
         };
         packageRequires = [ emacs ];
         meta = {
