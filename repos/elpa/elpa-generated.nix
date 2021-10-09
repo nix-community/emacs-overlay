@@ -395,21 +395,6 @@
           license = lib.licenses.free;
         };
       }) {};
-    boxy-headlines = callPackage ({ boxy, elpaBuild, emacs, fetchurl, lib }:
-      elpaBuild {
-        pname = "boxy-headlines";
-        ename = "boxy-headlines";
-        version = "1.0.2";
-        src = fetchurl {
-          url = "https://elpa.gnu.org/packages/boxy-headlines-1.0.2.tar";
-          sha256 = "1j8j2vc318mb4i116qs9zj6cvkiy1fips09mkzj6lqr25qk5fi31";
-        };
-        packageRequires = [ boxy emacs ];
-        meta = {
-          homepage = "https://elpa.gnu.org/packages/boxy-headlines.html";
-          license = lib.licenses.free;
-        };
-      }) {};
     brief = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "brief";
@@ -1101,10 +1086,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.8.5";
+        version = "0.8.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.8.5.tar";
-          sha256 = "1p2chzj5hnaiqhammvdp82ck5pi6h1rl9r782zaqxrhrqsp3vg09";
+          url = "https://elpa.gnu.org/packages/ebdb-0.8.6.tar";
+          sha256 = "0amr1s1q5w4513qw31qsr8gpsfgj5b2j7qn017rmwbaf1mj0k6z0";
         };
         packageRequires = [ emacs seq ];
         meta = {
