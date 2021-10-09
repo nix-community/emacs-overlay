@@ -155,6 +155,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    flymake-kondor = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "flymake-kondor";
+        ename = "flymake-kondor";
+        version = "0.1.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/flymake-kondor-0.1.0.tar";
+          sha256 = "0fn9vnrqy5nmv07jv2ry0xs90rkb92qhrh7j5pdikw7zykcwlbdd";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/flymake-kondor.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     geiser = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "geiser";
