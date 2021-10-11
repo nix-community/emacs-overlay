@@ -666,10 +666,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.11";
+        version = "0.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-0.11.tar";
-          sha256 = "14zjhsfhq5g9257maivyzpj5qxi1kprcsdk1qalwybyylyb4q4kk";
+          url = "https://elpa.gnu.org/packages/consult-0.12.tar";
+          sha256 = "0xcr7jki9m30hppy24z74nrw7xv5nahm1yrjilcck32mxfkrc69x";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -696,10 +696,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.11";
+        version = "0.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.11.tar";
-          sha256 = "1sf7ll25ry7vwff4bvqgdh84zviqj6wifmqdb2z8hf12awz63icz";
+          url = "https://elpa.gnu.org/packages/corfu-0.12.tar";
+          sha256 = "096m7l1iacaahn1a2dcajvcfxrdfpknc5ml7mbix4j2yfrxz6kd9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1146,10 +1146,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20211008";
+        version = "20211011";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20211008.tar";
-          sha256 = "0xci8jphvq27lw6cac49bzginlsmhig32adjnp2pi8hqwfam7075";
+          url = "https://elpa.gnu.org/packages/eev-20211011.tar";
+          sha256 = "1a71qam6z5s3zl7fvxpsnabbqxh8a7llm1524nxs2353pb6ksfra";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2268,10 +2268,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "0.8";
+        version = "0.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/marginalia-0.8.tar";
-          sha256 = "0afry11i7kgfa0q83p63hmahl7jzsqhn4sl1rnkjy98pnikwv9kd";
+          url = "https://elpa.gnu.org/packages/marginalia-0.9.tar";
+          sha256 = "0jnw9ys7p2rhi7sx2wxi3xs95ryg9vr34xb2jdfiz0p1xv04a300";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2795,10 +2795,10 @@
       elpaBuild {
         pname = "org-real";
         ename = "org-real";
-        version = "1.0.1";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-real-1.0.1.tar";
-          sha256 = "0rklzp32v30ndyqli3fjcsqvvpiz3klsz26b7zn2bai2ldx6016s";
+          url = "https://elpa.gnu.org/packages/org-real-1.0.2.tar";
+          sha256 = "0sb011n90s8x5vnqqd7154f31621fcl99s44zdxzj0nd243133ai";
         };
         packageRequires = [ boxy emacs ];
         meta = {
@@ -3546,10 +3546,10 @@
       elpaBuild {
         pname = "shelisp";
         ename = "shelisp";
-        version = "0.9.1";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/shelisp-0.9.1.el";
-          sha256 = "15z8rpx8nhx53q77z5fqcpww255di80lb5mm28mnn2myalrr8b59";
+          url = "https://elpa.gnu.org/packages/shelisp-1.0.0.tar";
+          sha256 = "05r26gy1ajl47ir0yz5gn62xw2f31vdq04n3r8ywlzxbqyvzlc0d";
         };
         packageRequires = [];
         meta = {
