@@ -696,10 +696,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.12";
+        version = "0.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.12.tar";
-          sha256 = "096m7l1iacaahn1a2dcajvcfxrdfpknc5ml7mbix4j2yfrxz6kd9";
+          url = "https://elpa.gnu.org/packages/corfu-0.13.tar";
+          sha256 = "0psvkxr7fjqq7gkqdzl0ma367zjlxgixk563vpv9hmwfwymddyyb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3020,10 +3020,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.8.0";
+        version = "0.8.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/project-0.8.0.tar";
-          sha256 = "05q2zr661bn2h6pdvyv3apdajfxnsx0rb0n5np8cg98a7gw4zyxd";
+          url = "https://elpa.gnu.org/packages/project-0.8.1.tar";
+          sha256 = "1x3zkbjsi04v5ny3yxqrb75vcacrj9kxmpm9mvkp0n07j5g34f68";
         };
         packageRequires = [ emacs xref ];
         meta = {
