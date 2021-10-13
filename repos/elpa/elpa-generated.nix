@@ -2577,6 +2577,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    nano-agenda = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "nano-agenda";
+        ename = "nano-agenda";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/nano-agenda-0.1.tar";
+          sha256 = "1bylgd4ly6dybpg66ndgsmgs5w0y5ymfq3s2pbwjnl46fnrmggz0";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/nano-agenda.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     nano-modeline = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "nano-modeline";
