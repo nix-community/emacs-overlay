@@ -369,10 +369,10 @@
       elpaBuild {
         pname = "boxy";
         ename = "boxy";
-        version = "1.0.2";
+        version = "1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/boxy-1.0.2.tar";
-          sha256 = "07m832kn4d6njfz21qfmh12gzd35d17v29pqlxfq9v03cazww4lr";
+          url = "https://elpa.gnu.org/packages/boxy-1.0.3.tar";
+          sha256 = "1z8is009rw1wir7414qa7661bfii42aikpgrd2x505fzcfyxgv92";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2084,16 +2084,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    kiwix = callPackage ({ elpaBuild, elquery, emacs, fetchurl, lib, request }:
+    kiwix = callPackage ({ elpaBuild, emacs, fetchurl, lib, request }:
       elpaBuild {
         pname = "kiwix";
         ename = "kiwix";
-        version = "1.1.0";
+        version = "1.1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/kiwix-1.1.0.tar";
-          sha256 = "1clp0q34bs395d0hrqdyvm9ds665hgf5qrdiqa14k31h4lbv2wsn";
+          url = "https://elpa.gnu.org/packages/kiwix-1.1.4.tar";
+          sha256 = "1ls11a7fc6d4gj85g8m09r95fvc4ppc0k0fs28d1hzybmgl89rgl";
         };
-        packageRequires = [ elquery emacs request ];
+        packageRequires = [ emacs request ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/kiwix.html";
           license = lib.licenses.free;
@@ -2806,16 +2806,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    org-real = callPackage ({ boxy, elpaBuild, emacs, fetchurl, lib }:
+    org-real = callPackage ({ boxy, elpaBuild, emacs, fetchurl, lib, org }:
       elpaBuild {
         pname = "org-real";
         ename = "org-real";
-        version = "1.0.2";
+        version = "1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-real-1.0.2.tar";
-          sha256 = "0sb011n90s8x5vnqqd7154f31621fcl99s44zdxzj0nd243133ai";
+          url = "https://elpa.gnu.org/packages/org-real-1.0.3.tar";
+          sha256 = "0dcjxfzi8xvsmnjya4d3fifg568cm8as4mxcvr67cqnx9s4hajas";
         };
-        packageRequires = [ boxy emacs ];
+        packageRequires = [ boxy emacs org ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/org-real.html";
           license = lib.licenses.free;
