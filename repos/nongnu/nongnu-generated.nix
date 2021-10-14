@@ -687,10 +687,10 @@
       elpaBuild {
         pname = "org-contrib";
         ename = "org-contrib";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/org-contrib-0.2.tar";
-          sha256 = "0lbcwqldlm708hdz455pdzzc8n9858sb0xdhzdvc6n0mxf7pcs3i";
+          url = "https://elpa.nongnu.org/nongnu/org-contrib-0.3.tar";
+          sha256 = "0fqhyby7624drskfsasgvzyxbgjb42rd6vw8l6xgb3h22kaprl0q";
         };
         packageRequires = [ emacs org ];
         meta = {
