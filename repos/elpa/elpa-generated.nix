@@ -369,10 +369,10 @@
       elpaBuild {
         pname = "boxy";
         ename = "boxy";
-        version = "1.0.3";
+        version = "1.0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/boxy-1.0.3.tar";
-          sha256 = "1z8is009rw1wir7414qa7661bfii42aikpgrd2x505fzcfyxgv92";
+          url = "https://elpa.gnu.org/packages/boxy-1.0.4.tar";
+          sha256 = "0cwzjyj8yjg13b63va6pnj01m6kc5g3zx69c9w2ysl2wk24zn6dz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -380,16 +380,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    boxy-headings = callPackage ({ boxy, elpaBuild, emacs, fetchurl, lib }:
+    boxy-headings = callPackage ({ boxy, elpaBuild, emacs, fetchurl, lib, org }:
       elpaBuild {
         pname = "boxy-headings";
         ename = "boxy-headings";
-        version = "2.0.0";
+        version = "2.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/boxy-headings-2.0.0.tar";
-          sha256 = "0ij6vgjy77r8bzdz50q9nrc4s1hq4qvvx3rnb9a5lix8kqmgdfqz";
+          url = "https://elpa.gnu.org/packages/boxy-headings-2.1.0.tar";
+          sha256 = "021w4ic028jsq7vxz1jgnfny9dymcz6v112b3b3nwyw3g3dnc62f";
         };
-        packageRequires = [ boxy emacs ];
+        packageRequires = [ boxy emacs org ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/boxy-headings.html";
           license = lib.licenses.free;
@@ -1322,6 +1322,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/epoch-view.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    erc = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "erc";
+        ename = "erc";
+        version = "5.4.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/erc-5.4.1.tar";
+          sha256 = "0hghqwqrx11f8qa1zhyhjqp99w01l686azsmd24z9w0l93fz598a";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/erc.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -2810,10 +2825,10 @@
       elpaBuild {
         pname = "org-real";
         ename = "org-real";
-        version = "1.0.3";
+        version = "1.0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-real-1.0.3.tar";
-          sha256 = "0dcjxfzi8xvsmnjya4d3fifg568cm8as4mxcvr67cqnx9s4hajas";
+          url = "https://elpa.gnu.org/packages/org-real-1.0.4.tar";
+          sha256 = "0bn9vyx74lki2nggzir02mcrww94dnqpbkryjr7a4i6am0ylf705";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
@@ -3110,10 +3125,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.27.1";
+        version = "0.28";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/python-0.27.1.el";
-          sha256 = "0jygl2w8x73v22w0rzq75i2hnm3f46dzgg5x1ckz720nznvwwkka";
+          url = "https://elpa.gnu.org/packages/python-0.28.tar";
+          sha256 = "1pvhsdjla1rvw223h7irmbzzsrixnpy1rsskiq9xmkpkc688b6pm";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3576,10 +3591,10 @@
       elpaBuild {
         pname = "shell-command-plus";
         ename = "shell-command+";
-        version = "2.2.1";
+        version = "2.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/shell-command+-2.2.1.tar";
-          sha256 = "1dmi7fn4g55va5ljpyswr3dpgj471747kkdixfyp8zpsbhvr5yf6";
+          url = "https://elpa.gnu.org/packages/shell-command+-2.3.1.tar";
+          sha256 = "0g8pcrkkh3bxcxxbasnz834gi3pvhlkpf011fvmlhwzswypcyqmy";
         };
         packageRequires = [ emacs ];
         meta = {
