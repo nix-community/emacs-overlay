@@ -707,6 +707,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    coterm = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "coterm";
+        ename = "coterm";
+        version = "1.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/coterm-1.1.tar";
+          sha256 = "1ir8yl9p47hxcr59n021wsjnr065sln84n3ls6hkags7apsjq4pa";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/coterm.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     counsel = callPackage ({ elpaBuild, emacs, fetchurl, ivy, lib, swiper }:
       elpaBuild {
         pname = "counsel";
@@ -4281,10 +4296,10 @@
       elpaBuild {
         pname = "verilog-mode";
         ename = "verilog-mode";
-        version = "2021.9.23.89128420";
+        version = "2021.10.14.127365406";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/verilog-mode-2021.9.23.89128420.tar";
-          sha256 = "1sgmkmif44npghz4nnag1w91qrrylq36175cjj87lcdp22s6isgk";
+          url = "https://elpa.gnu.org/packages/verilog-mode-2021.10.14.127365406.tar";
+          sha256 = "0d842dwg98srv73nkg69c7x24rw20mxgqmb4k1qcbl02bwxkfmsm";
         };
         packageRequires = [];
         meta = {
