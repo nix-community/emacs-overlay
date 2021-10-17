@@ -384,10 +384,10 @@
       elpaBuild {
         pname = "boxy-headings";
         ename = "boxy-headings";
-        version = "2.1.0";
+        version = "2.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/boxy-headings-2.1.0.tar";
-          sha256 = "021w4ic028jsq7vxz1jgnfny9dymcz6v112b3b3nwyw3g3dnc62f";
+          url = "https://elpa.gnu.org/packages/boxy-headings-2.1.1.tar";
+          sha256 = "14ab3qc9ajn1amyr1hpb8spaxwxpssvwnqa1s2l3w4cgmrs8x49x";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
