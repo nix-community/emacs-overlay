@@ -4619,10 +4619,10 @@
       elpaBuild {
         pname = "xref";
         ename = "xref";
-        version = "1.3.1";
+        version = "1.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xref-1.3.1.tar";
-          sha256 = "1qzp05pii8axd9clhjp6d2ci0mzbbmrj26019f2zlbs4i2jyanzc";
+          url = "https://elpa.gnu.org/packages/xref-1.3.2.tar";
+          sha256 = "13bsaxdxwn14plaam0hsrswngh3rm2k29v5ybjgjyjy4d5vwz78j";
         };
         packageRequires = [ emacs ];
         meta = {
