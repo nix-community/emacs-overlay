@@ -356,6 +356,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    git-modes = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "git-modes";
+        ename = "git-modes";
+        version = "1.4.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/git-modes-1.4.0.tar";
+          sha256 = "1pag50l0rl361p1617rdvhhdajsmq9b1lyi94g16hibygdn7vaff";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/git-modes.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     gnuplot = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "gnuplot";
