@@ -3651,10 +3651,10 @@
       elpaBuild {
         pname = "sketch-mode";
         ename = "sketch-mode";
-        version = "1.0";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sketch-mode-1.0.tar";
-          sha256 = "0yyx6wdr9yd61br21qg90ij6plqvd000i3zfa1i88r5babad2m0w";
+          url = "https://elpa.gnu.org/packages/sketch-mode-1.0.2.tar";
+          sha256 = "0x05s46qp2gf6dfw4xj3q0jxr96d3nhxjbq0mdzwbzzhf3c91k6i";
         };
         packageRequires = [];
         meta = {
@@ -4249,10 +4249,10 @@
       elpaBuild {
         pname = "vc-hgcmd";
         ename = "vc-hgcmd";
-        version = "1.14";
+        version = "1.14.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vc-hgcmd-1.14.tar";
-          sha256 = "0pg6fg0znsmky3iwdpxn2sx5bbn72kw83s077000ilawi6zqwc2d";
+          url = "https://elpa.gnu.org/packages/vc-hgcmd-1.14.1.tar";
+          sha256 = "12izw5ln22xdgwh6mqm6axzdfpcnqq7qcj72nmykrbsgpagp5fy6";
         };
         packageRequires = [ emacs ];
         meta = {
