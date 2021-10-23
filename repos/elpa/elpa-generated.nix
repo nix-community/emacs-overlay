@@ -1499,10 +1499,10 @@
       elpaBuild {
         pname = "flymake-proselint";
         ename = "flymake-proselint";
-        version = "0.2.1";
+        version = "0.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/flymake-proselint-0.2.1.tar";
-          sha256 = "08hbz8k3idr1gb98q3ssmzsdya5afjxl25l9xzqp9q2w5krc8433";
+          url = "https://elpa.gnu.org/packages/flymake-proselint-0.2.2.tar";
+          sha256 = "0v43d2cszrq8lzshm17x6aiqbkzwz5kj8x5sznc3nip9gaqsrfv1";
         };
         packageRequires = [ emacs ];
         meta = {
