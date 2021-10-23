@@ -3651,10 +3651,10 @@
       elpaBuild {
         pname = "sketch-mode";
         ename = "sketch-mode";
-        version = "1.0.2";
+        version = "1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sketch-mode-1.0.2.tar";
-          sha256 = "0x05s46qp2gf6dfw4xj3q0jxr96d3nhxjbq0mdzwbzzhf3c91k6i";
+          url = "https://elpa.gnu.org/packages/sketch-mode-1.0.3.tar";
+          sha256 = "17xa8754zp07izgd3b9hywlwd1jrbzyc5y1rrhin7w6r0pyvqs51";
         };
         packageRequires = [];
         meta = {
