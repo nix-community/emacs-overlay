@@ -554,6 +554,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    haml-mode = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "haml-mode";
+        ename = "haml-mode";
+        version = "3.1.10";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/haml-mode-3.1.10.tar";
+          sha256 = "1qkhm52xr8vh9zp728ass5kxjw7fj65j84m06db084qpavnwvysa";
+        };
+        packageRequires = [ cl-lib emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/haml-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     haskell-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "haskell-mode";
