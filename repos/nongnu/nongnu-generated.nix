@@ -282,10 +282,10 @@
       elpaBuild {
         pname = "flymake-kondor";
         ename = "flymake-kondor";
-        version = "0.1.2";
+        version = "0.1.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/flymake-kondor-0.1.2.tar";
-          sha256 = "17mmn9mj4zl5f7byairkgxz6s2mrq73q3219s73c0b2g0g846krn";
+          url = "https://elpa.nongnu.org/nongnu/flymake-kondor-0.1.3.tar";
+          sha256 = "07k8b3wayp1h4hir98zs5srjjsnh6w0h9pzn4vnq9s2jr355509n";
         };
         packageRequires = [ emacs ];
         meta = {
