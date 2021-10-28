@@ -444,6 +444,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    capf-autosuggest = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "capf-autosuggest";
+        ename = "capf-autosuggest";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/capf-autosuggest-0.1.tar";
+          sha256 = "02rysfzkil6jq007fjw4nn5k0184y3psnby0his8i6vzl8c9rk3y";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/capf-autosuggest.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     caps-lock = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "caps-lock";
@@ -4334,6 +4349,26 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/vertico.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    vertico-posframe = callPackage ({ elpaBuild
+                                    , emacs
+                                    , fetchurl
+                                    , lib
+                                    , posframe
+                                    , vertico }:
+      elpaBuild {
+        pname = "vertico-posframe";
+        ename = "vertico-posframe";
+        version = "0.2.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/vertico-posframe-0.2.0.tar";
+          sha256 = "130qx5v88ai91kmj6skq89q938dfh60knkm6iwwbldv88wjabp56";
+        };
+        packageRequires = [ emacs posframe vertico ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/vertico-posframe.html";
           license = lib.licenses.free;
         };
       }) {};
