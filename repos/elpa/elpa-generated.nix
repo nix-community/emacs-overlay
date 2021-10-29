@@ -448,10 +448,10 @@
       elpaBuild {
         pname = "capf-autosuggest";
         ename = "capf-autosuggest";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/capf-autosuggest-0.1.tar";
-          sha256 = "02rysfzkil6jq007fjw4nn5k0184y3psnby0his8i6vzl8c9rk3y";
+          url = "https://elpa.gnu.org/packages/capf-autosuggest-0.2.tar";
+          sha256 = "0a3bkf3c1gwv9m4rq9kvgw48y5av4arnymnm64yija55ygrnm88b";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4361,10 +4361,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.3.3";
+        version = "0.3.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-posframe-0.3.3.tar";
-          sha256 = "0xk0l00zmg434cyxxqbidz7w36b1lx6ll2kz2fifwv9iik65kv33";
+          url = "https://elpa.gnu.org/packages/vertico-posframe-0.3.6.tar";
+          sha256 = "0b9jn3m8183vqbm6hn14b5vc41sbfxvaw3a2cdx903c1ys7bydya";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
