@@ -1099,10 +1099,10 @@
       elpaBuild {
         pname = "swift-mode";
         ename = "swift-mode";
-        version = "8.4.1";
+        version = "8.4.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/swift-mode-8.4.1.tar";
-          sha256 = "0f87bjgva0iv818bh2dqvc1svrwh5zm134jpxcmvmzr1yqazx4qp";
+          url = "https://elpa.nongnu.org/nongnu/swift-mode-8.4.2.tar";
+          sha256 = "0rkri1414f2w2bw76dwnmylcdca6x9bkdvlq1aznz76ac259klji";
         };
         packageRequires = [ emacs seq ];
         meta = {
