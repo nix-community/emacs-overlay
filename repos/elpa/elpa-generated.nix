@@ -1290,6 +1290,41 @@
           license = lib.licenses.free;
         };
       }) {};
+    embark = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "embark";
+        ename = "embark";
+        version = "0.13";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/embark-0.13.tar";
+          sha256 = "04x3cfikfvzr2xl1zh6kj0q31160kmh1vrzyrla3n6f8z5qch63x";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/embark.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    embark-consult = callPackage ({ consult
+                                  , elpaBuild
+                                  , emacs
+                                  , embark
+                                  , fetchurl
+                                  , lib }:
+      elpaBuild {
+        pname = "embark-consult";
+        ename = "embark-consult";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/embark-consult-0.2.tar";
+          sha256 = "0f1022yk6d88glrrawa8cl6yd5n44p8wnbfwn0f8z6j1n8wxq37z";
+        };
+        packageRequires = [ consult emacs embark ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/embark-consult.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     emms = callPackage ({ cl-lib ? null
                         , elpaBuild
                         , fetchurl
@@ -1439,10 +1474,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.24";
+        version = "0.25";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/exwm-0.24.tar";
-          sha256 = "0lj1a3cmbpf4h6x8k6x8cdm1qb51ca6filydnvi5zcda8zpl060s";
+          url = "https://elpa.gnu.org/packages/exwm-0.25.tar";
+          sha256 = "0imd4v9ccvpsskmfnycz5fgabsvdjp1msg5v8rc7x0v26r3kr4x7";
         };
         packageRequires = [ xelb ];
         meta = {
@@ -3020,10 +3055,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.7";
+        version = "0.4.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.7.tar";
-          sha256 = "0y5milfjf45bi7gj7brl2lhyla8nsj3dc1a4nfq1wx3zw8arlc50";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.9.tar";
+          sha256 = "11vcp7f8isrx10ah37v4szx5cc1dfl6c0bnxfyvnllchxm014976";
         };
         packageRequires = [ emacs ];
         meta = {
