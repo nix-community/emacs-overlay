@@ -1334,10 +1334,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "7.7";
+        version = "7.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emms-7.7.tar";
-          sha256 = "0n9nx4wgjxkr8nsxcq8svg0x0qkqj7bsd2j0ihy4jzj29xmyxl0h";
+          url = "https://elpa.gnu.org/packages/emms-7.8.tar";
+          sha256 = "1nlb9rrdlbcqghph30r9i9m1brbdha818czbms0zhzdisxb0smi0";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -3055,10 +3055,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.9";
+        version = "0.4.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.9.tar";
-          sha256 = "11vcp7f8isrx10ah37v4szx5cc1dfl6c0bnxfyvnllchxm014976";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.10.tar";
+          sha256 = "1j1xqankd0gd6np2mkkx3c8h2v7m4mvp649bdbicppc36lkwc009";
         };
         packageRequires = [ emacs ];
         meta = {
