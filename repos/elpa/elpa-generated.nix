@@ -4269,10 +4269,10 @@
       elpaBuild {
         pname = "vc-backup";
         ename = "vc-backup";
-        version = "1.0.0";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vc-backup-1.0.0.tar";
-          sha256 = "0vcrbb4s1rzar9q882kfcslycxvycp61923sg82i29b7yd0yrgdr";
+          url = "https://elpa.gnu.org/packages/vc-backup-1.1.0.tar";
+          sha256 = "1ipkymndxymbayrgr3jz27p64bkjf1nq9h4w3afpzkpqzw237ak5";
         };
         packageRequires = [];
         meta = {
