@@ -4396,10 +4396,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.3.10";
+        version = "0.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-posframe-0.3.10.tar";
-          sha256 = "1bksipfi92adlmnk2rdw33c2g6qhw8hplcg67xhc299svqlkd0j2";
+          url = "https://elpa.gnu.org/packages/vertico-posframe-0.4.1.tar";
+          sha256 = "109zj048arw1q4262r84wj4m46vcdq3v1zidyc45iw5f5bf81zxc";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
