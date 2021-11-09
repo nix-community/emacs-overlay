@@ -3626,10 +3626,10 @@
       elpaBuild {
         pname = "setup";
         ename = "setup";
-        version = "1.1.0";
+        version = "1.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/setup-1.1.0.tar";
-          sha256 = "1xbh4fix6n47avv57gz48zf4ad1l6mfj30qr5lwvk6pz5gpnjg7i";
+          url = "https://elpa.gnu.org/packages/setup-1.2.0.tar";
+          sha256 = "1fyzkm42gsvsjpk3vahfb7asfldarixm0wsw3g66q3ad0r7cbjnz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4376,10 +4376,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.14";
+        version = "0.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.14.tar";
-          sha256 = "1lvfvrmfi6f1jcf356rj1zl2bcbqxas7wi3yb93mxpn37l22l8mi";
+          url = "https://elpa.gnu.org/packages/vertico-0.15.tar";
+          sha256 = "0zxkjj2b851s87n39mfbhpvzbvbcz5rn5nbg44x7ic9b5gigyzhc";
         };
         packageRequires = [ emacs ];
         meta = {
