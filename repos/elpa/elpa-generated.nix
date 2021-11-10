@@ -711,10 +711,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.13";
+        version = "0.14";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.13.tar";
-          sha256 = "0psvkxr7fjqq7gkqdzl0ma367zjlxgixk563vpv9hmwfwymddyyb";
+          url = "https://elpa.gnu.org/packages/corfu-0.14.tar";
+          sha256 = "1q7lfrmjkycxmnn7nndj4yjldz4f1gy6cbxgvkk5fp7vql797yga";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3100,10 +3100,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "1.1.0";
+        version = "1.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-1.1.0.tar";
-          sha256 = "0ddm149dz71nksbpz7rwa8cax1nisf6wklv5iq4zrcbf5ghpagkg";
+          url = "https://elpa.gnu.org/packages/posframe-1.1.1.tar";
+          sha256 = "13bx8vd3dw4jvwrys1vyq3a65rjjsbsvi6jxiffp647aclwwfcjs";
         };
         packageRequires = [ emacs ];
         meta = {
