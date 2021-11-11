@@ -1176,10 +1176,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20211109";
+        version = "20211110";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20211109.tar";
-          sha256 = "0m4z0131g856hh0ljgafxzi3nfijwsjimz5krcxvpn9iwdaq794b";
+          url = "https://elpa.gnu.org/packages/eev-20211110.tar";
+          sha256 = "061hln4p3w85abc2g8dy8kihh0r8kfn72slkbkqd2vmp8m3m0i1r";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2386,6 +2386,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/math-symbol-lists.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    mct = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "mct";
+        ename = "mct";
+        version = "0.1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/mct-0.1.0.tar";
+          sha256 = "0h59kffi2ka74rvdzmqsjb69hkf4sl9sjiv69l6rai1yp96gwbgg";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/mct.html";
           license = lib.licenses.free;
         };
       }) {};
