@@ -681,10 +681,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.12";
+        version = "0.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-0.12.tar";
-          sha256 = "0xcr7jki9m30hppy24z74nrw7xv5nahm1yrjilcck32mxfkrc69x";
+          url = "https://elpa.gnu.org/packages/consult-0.13.tar";
+          sha256 = "08hwvyj9sif9r92nhd09prwlryyqgnifjfqj51xgx98m0rg7ks3p";
         };
         packageRequires = [ emacs ];
         meta = {
