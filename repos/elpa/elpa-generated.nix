@@ -2348,10 +2348,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "0.9";
+        version = "0.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/marginalia-0.9.tar";
-          sha256 = "0jnw9ys7p2rhi7sx2wxi3xs95ryg9vr34xb2jdfiz0p1xv04a300";
+          url = "https://elpa.gnu.org/packages/marginalia-0.10.tar";
+          sha256 = "0sw4kfqda3z9bph4vgzqvg045li64ww2gdc2cgddi2m5p7anq20g";
         };
         packageRequires = [ emacs ];
         meta = {
