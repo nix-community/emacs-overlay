@@ -32421,6 +32421,28 @@
   }
  },
  {
+  "ename": "evil-tree-edit",
+  "commit": "43726f8e4c4f7f673ca892ec17329471dba77b3e",
+  "sha256": "126jkiy9jganamn9xv2d357mxipgbz9skpvygwb7lkhnvkz263dg",
+  "fetcher": "github",
+  "repo": "ethan-leba/tree-edit",
+  "unstable": {
+   "version": [
+    20211114,
+    2308
+   ],
+   "deps": [
+    "avy",
+    "evil",
+    "s",
+    "tree-edit",
+    "tree-sitter"
+   ],
+   "commit": "358e97a25a46185601ddfb5fd2e3ac04cb772ae0",
+   "sha256": "08k29z16jy76n6mzhvmr87ipsqlbrgydn3cpbsyq5n3pqc7fvk38"
+  }
+ },
+ {
   "ename": "evil-tutor",
   "commit": "4b7bfffdc34e181893b8cf4d1cc091f6c3f91126",
   "sha256": "1hvc2w5ykrgh62n4sxqqqcdk5sd7nmh6xzv4mir5vf9y2dgqcvsn",
@@ -34160,15 +34182,15 @@
   "repo": "knpatel401/filetree",
   "unstable": {
    "version": [
-    20211113,
-    2230
+    20211115,
+    506
    ],
    "deps": [
     "dash",
     "helm"
    ],
-   "commit": "0623432ba00b42e603ec399795266615e0fcd127",
-   "sha256": "08f066kp53xnac6wwbkmj7ihis6mi6a79r6f28f4qcvmrf18i0yx"
+   "commit": "884b3f3e84499b876d49be1c0c34a96b16a22c51",
+   "sha256": "0z9l328sqd5p5zbprfqbczrf69pnnflcf1cg29qdm34kbi9xzpq9"
   }
  },
  {
@@ -45916,11 +45938,11 @@
   "repo": "ROCKTAKEY/grugru",
   "unstable": {
    "version": [
-    20211114,
-    948
+    20211115,
+    252
    ],
-   "commit": "b4ec1f1a2cdf3a2e59227d040513d0de012ac4f6",
-   "sha256": "0dvs2sr29j3wkbn7dgi41xzpkf1ar4w8301cvadpc480dhr2xxpx"
+   "commit": "3c32f92eaacfda8842c8afda744e3b7548cadd45",
+   "sha256": "0dygs6n1qyjlpbpmpg8yc0nqz8fv53kcki54j6wg4jdzfqa9b26m"
   },
   "stable": {
    "version": [
@@ -73078,11 +73100,11 @@
   "repo": "m-cat/nimbus-theme",
   "unstable": {
    "version": [
-    20211112,
-    144
+    20211115,
+    430
    ],
-   "commit": "ea929024e864fd21bbcf0993c81c25376c1852c5",
-   "sha256": "1lpb5xdgcpg8w1dcanhyj61nf3jvg00zzlkk36z2py1i6y2b5fgr"
+   "commit": "fe8ebe24cecb0181f49446de0a0faf3cd7630747",
+   "sha256": "1c7y0b880572sxjqqsqf521yhb1jfhl4i7sm4nfysa85bnn6k5n2"
   }
  },
  {
@@ -76952,14 +76974,14 @@
   "repo": "yilkalargaw/org-auto-tangle",
   "unstable": {
    "version": [
-    20211010,
-    958
+    20211115,
+    543
    ],
    "deps": [
     "async"
    ],
-   "commit": "50292af50d275846baa28e52d94eb8ef69c8d00b",
-   "sha256": "0n0divfnk4635aanjm0b3swdjkcj4qxr0x95q05pdlb67s6lfp5d"
+   "commit": "ad3c332f062b5830e88b2ab13287a096ae434657",
+   "sha256": "05yrw59zrzxj1p8n65sk6mvy7jzik812mp9i2nsimwhlhn3si1pj"
   },
   "stable": {
    "version": [
@@ -90274,15 +90296,15 @@
   "repo": "tumashu/pyim",
   "unstable": {
    "version": [
-    20211020,
-    612
+    20211115,
+    619
    ],
    "deps": [
     "async",
     "xr"
    ],
-   "commit": "778a1eaff3dbb71692939da1fba7daf4ceb22abc",
-   "sha256": "10w0bydn4r8pjn1ygqnxcd39kxwgz397xzamdpb9ayyy72182h4c"
+   "commit": "641c83fb21b739eca430ffb0f469aac8d1aebb34",
+   "sha256": "1d6yxd40bxl4gggyh8a26d267wmki965prap5la33a5vy51rxdmm"
   },
   "stable": {
    "version": [
@@ -91429,8 +91451,8 @@
     "projectile",
     "yaml"
    ],
-   "commit": "9ee25dee5d82418019c5ffc9d240567e377832d3",
-   "sha256": "0z3dz6zxkmrr1ka9ahkrdlsr0wdrc0fp0fvyzpjngmq236yd1bv3"
+   "commit": "5d7a3e46d801668f53efc4c974b5f46b2cd28a0c",
+   "sha256": "1r4x4j5d0i4v27mj0cdx6s3qs3vk9v6blxmgnldmbv2ychyxzrnr"
   }
  },
  {
@@ -91463,8 +91485,8 @@
     "inflections",
     "projectile"
    ],
-   "commit": "02cce97b5d7d5347af54426fb3bd44cf4b214fa7",
-   "sha256": "0r9msnp26mbnkqj2kd0iwyrrq59njs42v9fj1zkcn60k9vzdv7p7"
+   "commit": "b1326e9f4ede6b3da0fada29697fa7f797d7576d",
+   "sha256": "017fcrnjhqp591q8j51b67qbb6idimy7w3mvlkshbj3pmxl0hzb2"
   }
  },
  {
@@ -105459,8 +105481,8 @@
     20200212,
     1903
    ],
-   "commit": "b822394df27cb4d38d4d413a5612a5ca058039c6",
-   "sha256": "1sa4wg2mhbf3q09v7wnlf3519y1rfvqdj1q10ym8h1wgv75wk827"
+   "commit": "7a0094ae1333f3a9f358024a61592f3e7605dc91",
+   "sha256": "0gr60xvd1fjgqyz676lci9j9dn8v47l117kbpkx026irfv0vylcc"
   },
   "stable": {
    "version": [
@@ -106793,6 +106815,29 @@
    ],
    "commit": "e2b169daae9d1d6f7e9fc32365247027fb4e87ba",
    "sha256": "1wrip00q6lbpllhaz0c7llnm774dq2mizr39ynfssvsdci38z1lm"
+  }
+ },
+ {
+  "ename": "tree-edit",
+  "commit": "43726f8e4c4f7f673ca892ec17329471dba77b3e",
+  "sha256": "0537g2m5k3hwdisbag9724nkzx97x45ry602gjpqr9dzywd30g65",
+  "fetcher": "github",
+  "repo": "ethan-leba/tree-edit",
+  "unstable": {
+   "version": [
+    20211114,
+    2308
+   ],
+   "deps": [
+    "dash",
+    "reazon",
+    "s",
+    "tree-sitter",
+    "tree-sitter-langs",
+    "tsc"
+   ],
+   "commit": "358e97a25a46185601ddfb5fd2e3ac04cb772ae0",
+   "sha256": "08k29z16jy76n6mzhvmr87ipsqlbrgydn3cpbsyq5n3pqc7fvk38"
   }
  },
  {
