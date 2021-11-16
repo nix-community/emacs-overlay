@@ -801,10 +801,10 @@
       elpaBuild {
         pname = "csharp-mode";
         ename = "csharp-mode";
-        version = "1.0.2";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/csharp-mode-1.0.2.tar";
-          sha256 = "1xddnd6g6qz3xnzl6dmd38qvzvm32acdyhmm27hfdpqcbg6isfad";
+          url = "https://elpa.gnu.org/packages/csharp-mode-1.1.0.tar";
+          sha256 = "14ndlanqkc466ndn5jjdi1b7s9kpzz9xzdd60xjjk7gqpi4c97n9";
         };
         packageRequires = [ emacs ];
         meta = {
