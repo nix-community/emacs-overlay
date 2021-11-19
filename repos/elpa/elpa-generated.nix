@@ -2164,6 +2164,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    kind-icon = callPackage ({ elpaBuild, emacs, fetchurl, lib, svg-lib }:
+      elpaBuild {
+        pname = "kind-icon";
+        ename = "kind-icon";
+        version = "0.1.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/kind-icon-0.1.1.tar";
+          sha256 = "07vf95bg167a6l0hw1b66pxlnrzjlhn3vf55imvl5sjg9k0rip9a";
+        };
+        packageRequires = [ emacs svg-lib ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/kind-icon.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     kiwix = callPackage ({ elpaBuild, emacs, fetchurl, lib, request }:
       elpaBuild {
         pname = "kiwix";
