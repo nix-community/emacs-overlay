@@ -2532,10 +2532,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "1.6.0";
+        version = "1.7.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-themes-1.6.0.tar";
-          sha256 = "03ahavpvd57z7cw1n46k6lq5335p1ld7kkjcylyx5fvq1rc1jw44";
+          url = "https://elpa.gnu.org/packages/modus-themes-1.7.0.tar";
+          sha256 = "1ncpgya5lbwr5z7gbq59prfqqnjxhqgaylcjr23mwrhbvvfrj5ff";
         };
         packageRequires = [ emacs ];
         meta = {
