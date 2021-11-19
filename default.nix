@@ -95,10 +95,10 @@ let
 
   emacsPgtkGcc = mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-feature_pgtk.json { nativeComp = true; };
 
-  emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { }).overrideAttrs (
+  emacsUnstable = (mkPgtkEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { nativeComp = true; }).overrideAttrs (
     old: {
       patches = [
-        ./patches/tramp-detect-wrapped-gvfsd-27.patch
+        ./patches/tramp-detect-wrapped-gvfsd-28.patch
       ];
     }
   );
