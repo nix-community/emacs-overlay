@@ -2691,10 +2691,10 @@
       elpaBuild {
         pname = "nano-agenda";
         ename = "nano-agenda";
-        version = "0.1";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-agenda-0.1.tar";
-          sha256 = "1bylgd4ly6dybpg66ndgsmgs5w0y5ymfq3s2pbwjnl46fnrmggz0";
+          url = "https://elpa.gnu.org/packages/nano-agenda-0.2.1.tar";
+          sha256 = "0j29fwc273mjdlj83h1a46sb7z3j066qqnp2i78kn2pmgjg27szb";
         };
         packageRequires = [ emacs ];
         meta = {
