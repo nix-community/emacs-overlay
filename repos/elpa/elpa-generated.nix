@@ -448,10 +448,10 @@
       elpaBuild {
         pname = "capf-autosuggest";
         ename = "capf-autosuggest";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/capf-autosuggest-0.2.tar";
-          sha256 = "0a3bkf3c1gwv9m4rq9kvgw48y5av4arnymnm64yija55ygrnm88b";
+          url = "https://elpa.gnu.org/packages/capf-autosuggest-0.3.tar";
+          sha256 = "05abnvg84248pbqr2hdkyxr1q1qlgsf4nji23nw41bfly795ikpm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -726,10 +726,10 @@
       elpaBuild {
         pname = "coterm";
         ename = "coterm";
-        version = "1.2";
+        version = "1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/coterm-1.2.tar";
-          sha256 = "0jl48bi4a4fkk7p2nj2bx0b658wrjw0cvab5ds6rid44irc8b1mn";
+          url = "https://elpa.gnu.org/packages/coterm-1.3.tar";
+          sha256 = "078rrc776mdzb4nczp1h8p0pymzds76kz3g2h78ri95k3wpy5ksj";
         };
         packageRequires = [ emacs ];
         meta = {
