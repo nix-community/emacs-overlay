@@ -3563,7 +3563,7 @@
         version = "2.4";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/rt-liberation-2.4.tar";
-          sha256 = "1yqcrgfn9lbv26729x5d9qx4zyp1k05r4f63ikrnk8lhqpjs5i00";
+          sha256 = "1qfd0dy4n04gf3vx0pbwfgmp4wm2a64sh3m6mlfhinqgmasajh6r";
         };
         packageRequires = [];
         meta = {
@@ -3898,8 +3898,8 @@
         ename = "sql-beeline";
         version = "0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sql-beeline-0.1.el";
-          sha256 = "0z2wdvvq1zdw90253s5i57lx8b59rjf7g7isns4yz29lwav04j3r";
+          url = "https://elpa.gnu.org/packages/sql-beeline-0.1.tar";
+          sha256 = "0yvj96aljmyiz8y6xjpypqjfrl1jdcrcc4jx4kbgl6mkv4z2aq1g";
         };
         packageRequires = [];
         meta = {
@@ -4218,7 +4218,7 @@
         version = "0.2";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/uni-confusables-0.2.tar";
-          sha256 = "1lak9sr0h7hmc4qb7lzjqc1f88vjzbk8n76sspplfrizs3avg5ps";
+          sha256 = "1an2l7f8lqhp3hq511a371isv1q00nx431g2a7266pp6pn2sndj1";
         };
         packageRequires = [];
         meta = {
@@ -4233,7 +4233,7 @@
         version = "1.0.3";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/uniquify-files-1.0.3.tar";
-          sha256 = "04yfys615ncz3jyh3hx5sg6x6szx028223184zv52skb4j99vkwq";
+          sha256 = "1i7svplkw9wxiypw52chdry7f5gf992fb4yg8s7jy77v521fd2af";
         };
         packageRequires = [ emacs ];
         meta = {
