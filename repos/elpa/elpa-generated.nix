@@ -816,10 +816,10 @@
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.16";
+        version = "1.17";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/csv-mode-1.16.tar";
-          sha256 = "1i43b2p31xhrf97xbdi35y550ysp69fasa5gcrhg6iyxw176807p";
+          url = "https://elpa.gnu.org/packages/csv-mode-1.17.tar";
+          sha256 = "16kv3n70pl4h3jfmmqy9bzflsm4nv7cwvrj7g4mgy8yb76nbyka2";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -1176,10 +1176,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20211127";
+        version = "20211201";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20211127.tar";
-          sha256 = "07222hg1xgmgvsc1jj1x7a30qqy2x9vb1igra294l6l2iisy7k2b";
+          url = "https://elpa.gnu.org/packages/eev-20211201.tar";
+          sha256 = "10fgfdrmdrkgdvk6dlv1af8hh76j5f9lxqmaf22qqxhwa710yhr5";
         };
         packageRequires = [ emacs ];
         meta = {
