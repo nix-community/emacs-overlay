@@ -1279,10 +1279,10 @@
       elpaBuild {
         pname = "elisp-benchmarks";
         ename = "elisp-benchmarks";
-        version = "1.12";
+        version = "1.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.12.tar";
-          sha256 = "0jzpzif4vrjg5hl0hxg4aqvi6nv56cxa1w0amnkgcz4hsscxkvwm";
+          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.13.tar";
+          sha256 = "13gvljqj7k8qpyn9fcwa6gl3kqakiy5rqx5s3afdc2y356a06wr6";
         };
         packageRequires = [];
         meta = {
@@ -4406,10 +4406,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.16";
+        version = "0.17";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.16.tar";
-          sha256 = "1w425cl04zks72a1x08zqv1w6lhdcahv2r5vx1hnvz5b7ilf9jwh";
+          url = "https://elpa.gnu.org/packages/vertico-0.17.tar";
+          sha256 = "1zhrkdhnc32wsc5f958hwa7mgf2vcjh3x6ng1cpndds5yllxb7s9";
         };
         packageRequires = [ emacs ];
         meta = {
