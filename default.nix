@@ -173,12 +173,8 @@ in
             generated = ./repos/elpa/elpa-generated.nix;
           };
 
-          orgPackages = esuper.orgPackages.override {
-            generated = ./repos/org/org-generated.nix;
-          };
-
           epkgs = esuper.override {
-            inherit melpaStablePackages melpaPackages elpaPackages orgPackages;
+            inherit melpaStablePackages melpaPackages elpaPackages;
           };
 
         in
