@@ -98,7 +98,7 @@ let
   emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { }).overrideAttrs (
     old: {
       patches = [
-        ./patches/tramp-detect-wrapped-gvfsd-27.patch
+        ./patches/tramp-detect-wrapped-gvfsd-28.patch
       ];
     }
   );
