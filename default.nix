@@ -95,22 +95,18 @@ let
 
   emacsPgtkGcc = mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-feature_pgtk.json { nativeComp = true; };
 
-  emacsGcc28 = (mkGitEmacs "emacs-gcc-28" ./repos/emacs/emacs-emacs-28.json { nativeComp = true; }).overrideAttrs (
-    old: {
-      patches = [ ./patches/tramp-detect-wrapped-gvfsd-28.patch ];
-    });
-
-  emacs28 = (mkGitEmacs "emacs-gcc-28" ./repos/emacs/emacs-emacs-28.json { }).overrideAttrs (
+  emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { }).overrideAttrs (
     old: {
       patches = [
         ./patches/tramp-detect-wrapped-gvfsd-28.patch
       ];
-    });
+    }
+  );
 
-  emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { }).overrideAttrs (
+  emacsUnstableGcc = (mkGitEmacs "emacs-unstable-gcc" ./repos/emacs/emacs-unstable.json { nativeComp = true; }).overrideAttrs (
     old: {
       patches = [
-        ./patches/tramp-detect-wrapped-gvfsd-27.patch
+        ./patches/tramp-detect-wrapped-gvfsd-28.patch
       ];
     }
   );
@@ -119,9 +115,7 @@ in
 {
   inherit emacsGit emacsUnstable;
 
-  inherit emacs28 emacsGcc28;
-
-  inherit emacsGcc;
+  inherit emacsGcc emacsUnstableGcc;
 
   inherit emacsPgtk emacsPgtkGcc;
 
