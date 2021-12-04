@@ -881,6 +881,26 @@
           license = lib.licenses.free;
         };
       }) {};
+    pdf-tools = callPackage ({ elpaBuild
+                             , emacs
+                             , fetchurl
+                             , let-alist
+                             , lib
+                             , tablist }:
+      elpaBuild {
+        pname = "pdf-tools";
+        ename = "pdf-tools";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/pdf-tools-1.0.tar";
+          sha256 = "0cjr7y2ikf2al43wrzlqdpbksj0ww6m0nvmlz97slx8nk94k2qyf";
+        };
+        packageRequires = [ emacs let-alist tablist ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/pdf-tools.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     php-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "php-mode";
@@ -1095,6 +1115,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    subed = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "subed";
+        ename = "subed";
+        version = "0.0.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/subed-0.0.1.tar";
+          sha256 = "1gzg0ik8asgdzc3cx96qnmdjqvqnqd2jhg24l6fd15j17sbja0sy";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/subed.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     swift-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib, seq }:
       elpaBuild {
         pname = "swift-mode";
@@ -1122,6 +1157,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/systemd.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    tablist = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "tablist";
+        ename = "tablist";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/tablist-1.0.tar";
+          sha256 = "1r37vk31ddiahhd11ric00py9ay9flgmsv368j47pl9653g9i6d9";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/tablist.html";
           license = lib.licenses.free;
         };
       }) {};
