@@ -56,8 +56,9 @@ These attributes are named =emacsGit= and =emacsUnstable=.
 Emacs from git is not guaranteed stable and may break your setup at any
 time, if it breaks you get to keep both pieces.
 
-Furthermore we provide emacs compiled with the native compilation backend enabled
-under the attribute =emacsGcc=.
+Furthermore we provide Emacsen compiled with the native compilation
+backend enabled under the attributes =emacsGcc= (built from the latest
+=master= branch) and =emacsUnstableGcc= (built from the latest tag).
 
 We also provide two attributes named =emacsGit-nox= and =emacsUnstable-nox=
 if you wish to have Emacs built without X dependencies, as well as the
