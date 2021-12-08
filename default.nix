@@ -89,7 +89,13 @@ let
 
   emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json { };
 
-  emacsGcc = mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-master.json { nativeComp = true; };
+  emacsGcc = (mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-unstable.json { nativeComp = true; }).overrideAttrs (
+    old: {
+      patches = [
+        ./patches/tramp-detect-wrapped-gvfsd-28.patch
+      ];
+    }
+  );
 
   emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-feature_pgtk.json { };
 
