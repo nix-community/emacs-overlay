@@ -1235,6 +1235,26 @@
           license = lib.licenses.free;
         };
       }) {};
+    webpaste = callPackage ({ cl-lib ? null
+                            , elpaBuild
+                            , emacs
+                            , fetchurl
+                            , lib
+                            , request }:
+      elpaBuild {
+        pname = "webpaste";
+        ename = "webpaste";
+        version = "3.2.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/webpaste-3.2.1.tar";
+          sha256 = "1gws4h30y8zqip54kpz9nkdk5jc0whxg28p44nribz3pzi297rls";
+        };
+        packageRequires = [ cl-lib emacs request ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/webpaste.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     wgrep = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "wgrep";
