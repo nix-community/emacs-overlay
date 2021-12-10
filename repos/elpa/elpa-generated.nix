@@ -2168,10 +2168,10 @@
       elpaBuild {
         pname = "kind-icon";
         ename = "kind-icon";
-        version = "0.1.1";
+        version = "0.1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/kind-icon-0.1.1.tar";
-          sha256 = "07vf95bg167a6l0hw1b66pxlnrzjlhn3vf55imvl5sjg9k0rip9a";
+          url = "https://elpa.gnu.org/packages/kind-icon-0.1.3.tar";
+          sha256 = "0iqbjlqna5n8dx78350macs129wnri7kgmxk2qf3w9bj6qp760sn";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
