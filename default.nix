@@ -109,19 +109,11 @@ let
     }
   );
 
-  emacsUnstableGcc = (mkGitEmacs "emacs-unstable-gcc" ./repos/emacs/emacs-unstable.json { nativeComp = true; }).overrideAttrs (
-    old: {
-      patches = [
-        ./patches/tramp-detect-wrapped-gvfsd-28.patch
-      ];
-    }
-  );
-
 in
 {
   inherit emacsGit emacsUnstable;
 
-  inherit emacsGcc emacsUnstableGcc;
+  inherit emacsGcc;
 
   inherit emacsPgtk emacsPgtkGcc;
 
