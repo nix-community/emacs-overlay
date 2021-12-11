@@ -1244,10 +1244,10 @@
       elpaBuild {
         pname = "webpaste";
         ename = "webpaste";
-        version = "3.2.1";
+        version = "3.2.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/webpaste-3.2.1.tar";
-          sha256 = "1gws4h30y8zqip54kpz9nkdk5jc0whxg28p44nribz3pzi297rls";
+          url = "https://elpa.nongnu.org/nongnu/webpaste-3.2.2.tar";
+          sha256 = "0vviv062v46mlssz8627623g1b2nq4n4x3yiv8c882gvgvfvi2bi";
         };
         packageRequires = [ cl-lib emacs request ];
         meta = {
