@@ -4519,10 +4519,10 @@
       elpaBuild {
         pname = "wcheck-mode";
         ename = "wcheck-mode";
-        version = "2020.10.4";
+        version = "2021";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wcheck-mode-2020.10.4.el";
-          sha256 = "0pi6gvyw80phmx0qzc5wdk5czv4m9cq1hs3l4s7r8rr91g2cqi3m";
+          url = "https://elpa.gnu.org/packages/wcheck-mode-2021.tar";
+          sha256 = "0qcj0af0570cssy9b7f74v9pv0pssm6ysnl1lyh8wwvl4yf0zx61";
         };
         packageRequires = [];
         meta = {
