@@ -5614,8 +5614,8 @@
     "avy",
     "embark"
    ],
-   "commit": "33b47bb8999f8c7d67e9d1e04668e421e3c7246f",
-   "sha256": "15y9n6y9iviqwm7qblyzq37iaqam38kzr1hgl8w9jbn1kh8sa2ri"
+   "commit": "725794f01347a8b1f25c6aea58886a1a0b14fc5b",
+   "sha256": "1mf5z40fjjnxlb92kjms6mi2x4crc6i31pd2y1dlgzw0104nnfb9"
   },
   "stable": {
    "version": [
@@ -6805,11 +6805,11 @@
   "url": "https://git.sr.ht/~technomancy/better-defaults",
   "unstable": {
    "version": [
-    20210222,
-    1928
+    20211212,
+    1841
    ],
-   "commit": "4c5409406ee35c5ba46880c6cfe98df4b14dc631",
-   "sha256": "0agj1zyspm3bqj7apfjwhllnmydyj00x2iv7nvy03szpnwvm11fq"
+   "commit": "5383a9b2560adc4f7ebbdf148d87b19bf7cf8cc4",
+   "sha256": "1h1nfmpa4prfhi4j7l46q99y315ds6kl3qnxjgkdnw57nxqbwfl5"
   },
   "stable": {
    "version": [
@@ -9818,11 +9818,11 @@
   "repo": "minad/cape",
   "unstable": {
    "version": [
-    20211211,
-    1336
+    20211212,
+    2255
    ],
-   "commit": "6d076f24807eec4fbc2c5f75414887c80ec5e028",
-   "sha256": "0njbndmgyiwv6hn75cjjrmlc6dw46h09lic0ygc0pwj66cghvfz0"
+   "commit": "c8c0a9f9a6910fa99202b859090d49535da869d1",
+   "sha256": "1pxpi7jwzs3qwid1ra4s0sz6vhf73hkss0s95k6n04ly3kx73nfz"
   },
   "stable": {
    "version": [
@@ -21668,6 +21668,24 @@
   }
  },
  {
+  "ename": "dirvish",
+  "commit": "7361fcfc439b061eb365cb4113a05b6f3de8efb6",
+  "sha256": "1l2a6d68vdsdgjsh0kl02hnxsf14k6p981w8cy9vzzz5nfw7cjwx",
+  "fetcher": "github",
+  "repo": "alexluigit/dirvish",
+  "unstable": {
+   "version": [
+    20211212,
+    935
+   ],
+   "deps": [
+    "posframe"
+   ],
+   "commit": "d36abff4db176643d1282d53b1d8727150e8f6bb",
+   "sha256": "001kd44aw1hlr4b693saxclw0ahqhvhj6f7ddc7qhhb9sp2zj9ab"
+  }
+ },
+ {
   "ename": "disable-mouse",
   "commit": "dbbc396373212fdf731e135cde391f27708ff015",
   "sha256": "0c0ps39s6wg3grspvgck0cwxnas73nfaahfa87l0mmgsrsvas5m7",
@@ -22769,14 +22787,14 @@
   "repo": "hlissner/emacs-doom-themes",
   "unstable": {
    "version": [
-    20211114,
-    1641
+    20211212,
+    2109
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "96edc0ceb864b7d72218e58c8e9272cd96e5712c",
-   "sha256": "0qkpwlg5h3ysmf6aywz49a9gkl4xszxzdkcfpqc3n0i2bvcmf6vk"
+   "commit": "7d1a56623c08da769fd424e901916e9c3d8fdb25",
+   "sha256": "1ifwb8mw0jcif3plj6wz9ak2ankpvxfqndv6qlcr6yij7xvi9qnk"
   },
   "stable": {
    "version": [
@@ -24198,14 +24216,14 @@
   "repo": "joostkremers/ebib",
   "unstable": {
    "version": [
-    20211210,
-    1038
+    20211212,
+    2107
    ],
    "deps": [
     "parsebib"
    ],
-   "commit": "6af31ec0a351916f6703157cc03dd6aaf403c660",
-   "sha256": "1m46p587lmma5p1i7drnm2h3nzxa9v8pj5976m0ixx49qjqp621f"
+   "commit": "37b9c4ec7a57ffdda53f3345cc99cf6819e94863",
+   "sha256": "1mk487k20baqjx2ysd763nrj14b2ialddpp5rvscbyiw5mll598s"
   },
   "stable": {
    "version": [
@@ -25531,6 +25549,83 @@
    ],
    "deps": [
     "hercules",
+    "org-ql"
+   ],
+   "commit": "915b98b901b3ea50416461dea624537ae8796847",
+   "sha256": "0bnkacmznbyj0q26br3vdvg43jmsczsksv61mp864q7l77vixgg4"
+  }
+ },
+ {
+  "ename": "el-secretario-elfeed",
+  "commit": "a4acda1c2e5b717e6678b88be4bb9b326f70cfe7",
+  "sha256": "1v42p3ryiwq1vv87cdss3czmccn825zqnn1yyrj7cbkpwi31qxyv",
+  "fetcher": "git",
+  "url": "https://git.sr.ht/~zetagon/el-secretario",
+  "unstable": {
+   "version": [
+    20211205,
+    1916
+   ],
+   "deps": [
+    "el-secretario",
+    "elfeed"
+   ],
+   "commit": "915b98b901b3ea50416461dea624537ae8796847",
+   "sha256": "0bnkacmznbyj0q26br3vdvg43jmsczsksv61mp864q7l77vixgg4"
+  }
+ },
+ {
+  "ename": "el-secretario-mu4e",
+  "commit": "a4acda1c2e5b717e6678b88be4bb9b326f70cfe7",
+  "sha256": "053nwvna3v57lbj6lqqijgyk81yxhk73pjjyhp9k9k7lbj7pmdpi",
+  "fetcher": "git",
+  "url": "https://git.sr.ht/~zetagon/el-secretario",
+  "unstable": {
+   "version": [
+    20211205,
+    1916
+   ],
+   "deps": [
+    "el-secretario",
+    "org-ql"
+   ],
+   "commit": "915b98b901b3ea50416461dea624537ae8796847",
+   "sha256": "0bnkacmznbyj0q26br3vdvg43jmsczsksv61mp864q7l77vixgg4"
+  }
+ },
+ {
+  "ename": "el-secretario-notmuch",
+  "commit": "a4acda1c2e5b717e6678b88be4bb9b326f70cfe7",
+  "sha256": "0cqia5445pyssgb4vadnc2mbjz6bb2gbgmizlg3mk3vli18nr58p",
+  "fetcher": "git",
+  "url": "https://git.sr.ht/~zetagon/el-secretario",
+  "unstable": {
+   "version": [
+    20211205,
+    1916
+   ],
+   "deps": [
+    "el-secretario",
+    "notmuch"
+   ],
+   "commit": "915b98b901b3ea50416461dea624537ae8796847",
+   "sha256": "0bnkacmznbyj0q26br3vdvg43jmsczsksv61mp864q7l77vixgg4"
+  }
+ },
+ {
+  "ename": "el-secretario-org",
+  "commit": "a4acda1c2e5b717e6678b88be4bb9b326f70cfe7",
+  "sha256": "059kd0svm0i1h7vapfc9ymggf5m6pdgs6sbbqxmzknx60xcz1g16",
+  "fetcher": "git",
+  "url": "https://git.sr.ht/~zetagon/el-secretario",
+  "unstable": {
+   "version": [
+    20211212,
+    1409
+   ],
+   "deps": [
+    "dash",
+    "el-secretario",
     "org-ql"
    ],
    "commit": "915b98b901b3ea50416461dea624537ae8796847",
@@ -27678,10 +27773,10 @@
   "unstable": {
    "version": [
     20211212,
-    101
+    1959
    ],
-   "commit": "33b47bb8999f8c7d67e9d1e04668e421e3c7246f",
-   "sha256": "15y9n6y9iviqwm7qblyzq37iaqam38kzr1hgl8w9jbn1kh8sa2ri"
+   "commit": "725794f01347a8b1f25c6aea58886a1a0b14fc5b",
+   "sha256": "1mf5z40fjjnxlb92kjms6mi2x4crc6i31pd2y1dlgzw0104nnfb9"
   },
   "stable": {
    "version": [
@@ -27707,8 +27802,8 @@
     "consult",
     "embark"
    ],
-   "commit": "33b47bb8999f8c7d67e9d1e04668e421e3c7246f",
-   "sha256": "15y9n6y9iviqwm7qblyzq37iaqam38kzr1hgl8w9jbn1kh8sa2ri"
+   "commit": "725794f01347a8b1f25c6aea58886a1a0b14fc5b",
+   "sha256": "1mf5z40fjjnxlb92kjms6mi2x4crc6i31pd2y1dlgzw0104nnfb9"
   },
   "stable": {
    "version": [
@@ -33108,14 +33203,14 @@
   "repo": "md-arif-shaikh/expenses",
   "unstable": {
    "version": [
-    20211206,
-    602
+    20211212,
+    1846
    ],
    "deps": [
     "dash"
    ],
-   "commit": "b5a3d7c6333aad6343a9fcffd4152afa9ec521f2",
-   "sha256": "03nbz3gix4a1k52hgpkg693r5d09m32qmklcm17mdmy70kr6kymc"
+   "commit": "71b9227651dc204c4fbe98b727f129043251331d",
+   "sha256": "1ncsikr8bhmnbj6s1zlvbnwcqgp38kfycgnmgfrr2lq7y32nlgqp"
   }
  },
  {
@@ -35636,8 +35731,8 @@
    "deps": [
     "flycheck"
    ],
-   "commit": "3abe1a6184fefea3e427141131fba40afae3d356",
-   "sha256": "1g600caz7v7qm6fj67x0s064f4n5fr57bnd0m3sc43gn24rpjjdv"
+   "commit": "576e7f3e96ef8757a45106346a5f45831a8fee13",
+   "sha256": "1680qkn6n145ib0q039081k9iwgl81i81d1wmy1myifq8h9pgjzc"
   }
  },
  {
@@ -38179,8 +38274,8 @@
     20210411,
     2342
    ],
-   "commit": "3abe1a6184fefea3e427141131fba40afae3d356",
-   "sha256": "1g600caz7v7qm6fj67x0s064f4n5fr57bnd0m3sc43gn24rpjjdv"
+   "commit": "576e7f3e96ef8757a45106346a5f45831a8fee13",
+   "sha256": "1680qkn6n145ib0q039081k9iwgl81i81d1wmy1myifq8h9pgjzc"
   }
  },
  {
@@ -40898,13 +40993,13 @@
   "unstable": {
    "version": [
     20211212,
-    824
+    2032
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "722a7c1c49382c67ac16582f589f1244c6d7ca9e",
-   "sha256": "0lldafjw3z01z2qf19s3ij6gmf295dj5w5amhgw03042rnsg9giq"
+   "commit": "4c340703cb749298dd472cd981df182335e3b4af",
+   "sha256": "1bkckcz2z9hnay3c85yai34hll1fwi4569hvhnpikhabk048k2mq"
   }
  },
  {
@@ -90724,8 +90819,8 @@
     20210411,
     1931
    ],
-   "commit": "80285a9304f3f8e3ed339525cac95f6da6b6ce58",
-   "sha256": "0jqjlji14d235c829v0gqg3lwi6zh7rnfhfz8lnb8v3dcdmky4gc"
+   "commit": "f8b23eb9cccf4bda452bf56dc1c71b8a046e571b",
+   "sha256": "0a4a064d3lzckqqqzx0y9ix07fjg1l3a14da7r58zj03ffx1cxr0"
   },
   "stable": {
    "version": [
@@ -95460,8 +95555,8 @@
     "spinner",
     "xterm-color"
    ],
-   "commit": "d124b1638ba3df967dea870576d62588a5053d5e",
-   "sha256": "0qkarcc7z2mhzrb0zfaif4d4sdpjv3qwycz6dxy9yn568scwm3hf"
+   "commit": "e0285bd19b8f970902042701d28234ebfe160337",
+   "sha256": "1wx6mc1wyzs1d2md8rwsnbkh41ibpbsc1f1ri9diac975gp98w0s"
   },
   "stable": {
    "version": [
@@ -98704,6 +98799,21 @@
    ],
    "commit": "c0ddaefbb38fcc1c9775434f734f89227d246a30",
    "sha256": "1p1771qm3jndnf4rdhb1bri5cjiksvxizagi7vfb7mjmsmx18w61"
+  }
+ },
+ {
+  "ename": "siri-shortcuts",
+  "commit": "f3a67195c63059fbc2d2714b540505bb9cde49d1",
+  "sha256": "04fnzv6sq5mbj5difddbchvp7sgz48qrhs5izhl5w1si5q2ds5ri",
+  "fetcher": "github",
+  "repo": "DaniruKun/siri-shortcuts.el",
+  "unstable": {
+   "version": [
+    20211212,
+    1258
+   ],
+   "commit": "13d030d0f2bdfd1c1543e0a120c6dc321f068365",
+   "sha256": "09vwxpmzam3vmc5akcz9mdq1j6q0lhp9qghs36ivvb3az6kxc6hq"
   }
  },
  {
@@ -105800,8 +105910,8 @@
     20200212,
     1903
    ],
-   "commit": "11c385934b34ded70f714f23d5138d247f215cfc",
-   "sha256": "0vs30mrm7hn9sfvy51s522y3i23klji890031mjndkh76gidq5r5"
+   "commit": "d99cd8529957d7595602038e55bc5cea26126b3f",
+   "sha256": "0c1aylvj0f1s6d98fza4lz806b96pb7d1677j3hfjkk8sv3cg5wf"
   },
   "stable": {
    "version": [
