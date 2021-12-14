@@ -2078,10 +2078,10 @@
       elpaBuild {
         pname = "javaimp";
         ename = "javaimp";
-        version = "0.7.1";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/javaimp-0.7.1.tar";
-          sha256 = "0i93akp9jhlpgbm454wkjhir8cbzhfjb97cxxlk8n4pgzbh481l3";
+          url = "https://elpa.gnu.org/packages/javaimp-0.8.tar";
+          sha256 = "1i6k0yz6r7v774qgnkzinia783fwx73y3brxr31sbip3b5dbpmsn";
         };
         packageRequires = [];
         meta = {
@@ -2931,6 +2931,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    org-transclusion = callPackage ({ elpaBuild, emacs, fetchurl, lib, org }:
+      elpaBuild {
+        pname = "org-transclusion";
+        ename = "org-transclusion";
+        version = "1.0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/org-transclusion-1.0.1.tar";
+          sha256 = "1mn66a82nk3daf2vjw6pg9zgff48inik04ffizgm6cdlgn6ymrcs";
+        };
+        packageRequires = [ emacs org ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-transclusion.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     org-translate = callPackage ({ elpaBuild, emacs, fetchurl, lib, org }:
       elpaBuild {
         pname = "org-translate";
@@ -3485,10 +3500,10 @@
       elpaBuild {
         pname = "rec-mode";
         ename = "rec-mode";
-        version = "1.8.1";
+        version = "1.8.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rec-mode-1.8.1.tar";
-          sha256 = "0injk27l38d0sl9nzjz2bkd0qgccxyf31i42mwmivv86kv0kyxyb";
+          url = "https://elpa.gnu.org/packages/rec-mode-1.8.2.tar";
+          sha256 = "06mjj1la2v8zdhsflj3mwcp7qnkj7gxzm8wbk2pli1h8vnq2zvd0";
         };
         packageRequires = [ emacs ];
         meta = {
