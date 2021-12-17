@@ -327,10 +327,10 @@
       elpaBuild {
         pname = "geiser-chez";
         ename = "geiser-chez";
-        version = "0.16";
+        version = "0.17";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-chez-0.16.tar";
-          sha256 = "016b7n5rv7fyrw4lqcprhhf2rai5vvmmc8a13l4w3a30rwcgm7cd";
+          url = "https://elpa.nongnu.org/nongnu/geiser-chez-0.17.tar";
+          sha256 = "139x7b3q5n04ig0m263jljm4bsjiiyvi3f84pcq3bgnj3dk5dlxh";
         };
         packageRequires = [ emacs geiser ];
         meta = {
