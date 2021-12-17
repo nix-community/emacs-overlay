@@ -120,6 +120,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    buttercup = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "buttercup";
+        ename = "buttercup";
+        version = "1.24";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/buttercup-1.24.tar";
+          sha256 = "1ch949xf03gw9r5v32akx7hqnq7zrp3qr3gcic5b52yl5nmy8mhn";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/buttercup.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     caml = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "caml";
