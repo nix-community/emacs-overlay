@@ -97,9 +97,9 @@ let
     }
   );
 
-  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-feature_pgtk.json { withSQLite3 = true; };
+  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-master.json { withSQLite3 = true; };
 
-  emacsPgtkGcc = mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-feature_pgtk.json { nativeComp = true; withSQLite3 = true; };
+  emacsPgtkGcc = mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-master.json { nativeComp = true; withSQLite3 = true; };
 
   emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { }).overrideAttrs (
     old: {

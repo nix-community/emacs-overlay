@@ -53,7 +53,6 @@ function update_release() {
 }
 
 update_savannah_branch master
-update_savannah_branch feature/pgtk
 update_release
 
 nix-build --no-out-link --show-trace ./test.nix
