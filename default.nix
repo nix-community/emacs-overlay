@@ -87,7 +87,7 @@ let
     }
   );
 
-  emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json { };
+  emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json { withSQLite3 = true; };
 
   emacsGcc = (mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-unstable.json { nativeComp = true; }).overrideAttrs (
     old: {
@@ -97,9 +97,9 @@ let
     }
   );
 
-  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-feature_pgtk.json { };
+  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-feature_pgtk.json { withSQLite3 = true; };
 
-  emacsPgtkGcc = mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-feature_pgtk.json { nativeComp = true; };
+  emacsPgtkGcc = mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-feature_pgtk.json { nativeComp = true; withSQLite3 = true; };
 
   emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { }).overrideAttrs (
     old: {
