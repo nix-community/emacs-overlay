@@ -49,9 +49,8 @@ let
               inherit (repoMeta) version;
               src = fetcher (builtins.removeAttrs repoMeta [ "type" "version" ]);
 
-              patches = [
-                ./patches/tramp-detect-wrapped-gvfsd.patch
-              ];
+              patches = [ ];
+
               postPatch = old.postPatch + ''
                 substituteInPlace lisp/loadup.el \
                 --replace '(emacs-repository-get-version)' '"${repoMeta.rev}"' \
@@ -89,25 +88,13 @@ let
 
   emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json { withSQLite3 = true; };
 
-  emacsGcc = (mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-unstable.json { nativeComp = true; }).overrideAttrs (
-    old: {
-      patches = [
-        ./patches/tramp-detect-wrapped-gvfsd-28.patch
-      ];
-    }
-  );
+  emacsGcc = (mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-unstable.json { nativeComp = true; });
 
   emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-master.json { withSQLite3 = true; };
 
   emacsPgtkGcc = mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-master.json { nativeComp = true; withSQLite3 = true; };
 
-  emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { }).overrideAttrs (
-    old: {
-      patches = [
-        ./patches/tramp-detect-wrapped-gvfsd-28.patch
-      ];
-    }
-  );
+  emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { });
 
 in
 {
