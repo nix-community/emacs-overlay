@@ -1751,10 +1751,10 @@
       elpaBuild {
         pname = "gnugo";
         ename = "gnugo";
-        version = "3.1.1";
+        version = "3.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gnugo-3.1.1.tar";
-          sha256 = "035rgiz42q042h41l4cvf0hr8igy2vyn3s1hsl2pgh2dq2jjylv6";
+          url = "https://elpa.gnu.org/packages/gnugo-3.1.2.tar";
+          sha256 = "138gzdyi8scqimvs49da66j8f5a43bhgpasn1bxzdj2zffwlwp6g";
         };
         packageRequires = [ ascii-art-to-unicode cl-lib xpm ];
         meta = {
