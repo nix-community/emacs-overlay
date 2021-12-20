@@ -308,16 +308,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    geiser = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    geiser = callPackage ({ elpaBuild, emacs, fetchurl, lib, transient }:
       elpaBuild {
         pname = "geiser";
         ename = "geiser";
-        version = "0.19";
+        version = "0.20";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-0.19.tar";
-          sha256 = "13w6gx6y8ilppcpfib5293600n0xy4xc4xa6idpmbcfd2pkmnw1x";
+          url = "https://elpa.nongnu.org/nongnu/geiser-0.20.tar";
+          sha256 = "12if17nkdnsjwzc9r4cbk8bll39lmyzv6rbrlkq4w2m6v5v8bl09";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ emacs transient ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/geiser.html";
           license = lib.licenses.free;
@@ -402,10 +402,10 @@
       elpaBuild {
         pname = "geiser-guile";
         ename = "geiser-guile";
-        version = "0.19";
+        version = "0.20";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-guile-0.19.tar";
-          sha256 = "1rjml11gkl80x4hmh84m84r4qb3kxi36d7mwm25n791v5fs1cl32";
+          url = "https://elpa.nongnu.org/nongnu/geiser-guile-0.20.tar";
+          sha256 = "1fhfnbyj230hn31anzyxjmwb5jv8p3mwi68qgagf03cl7s9ldpm1";
         };
         packageRequires = [ emacs geiser ];
         meta = {
