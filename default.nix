@@ -107,6 +107,7 @@ in
   emacsGit-nox = (
     (
       emacsGit.override {
+        withNS = false;
         withX = false;
         withGTK2 = false;
         withGTK3 = false;
@@ -121,6 +122,7 @@ in
   emacsUnstable-nox = (
     (
       emacsUnstable.override {
+        withNS = false;
         withX = false;
         withGTK2 = false;
         withGTK3 = false;
