@@ -4016,10 +4016,10 @@
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.2.1";
+        version = "0.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/svg-lib-0.2.1.tar";
-          sha256 = "05kxm089j1nrajmypfgq5r4hr0mpiilm850f0ij4vhpiqqa5yhq9";
+          url = "https://elpa.gnu.org/packages/svg-lib-0.2.2.tar";
+          sha256 = "0l63jphzy431m4g9q7q9f83yvqvhdk0dwiqixs833wfx6ya8h91a";
         };
         packageRequires = [ emacs ];
         meta = {
