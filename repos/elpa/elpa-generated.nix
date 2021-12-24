@@ -2706,10 +2706,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-modeline-0.2.tar";
-          sha256 = "13m8j8jnd33wwv1siv6frzdbs7bhspg859sflq58vimv444zjzac";
+          url = "https://elpa.gnu.org/packages/nano-modeline-0.3.tar";
+          sha256 = "0www5mjfkrxd22d93vnlmk67ydxf6ljwfaslmdiv1r76j1ls2f3x";
         };
         packageRequires = [ emacs ];
         meta = {
