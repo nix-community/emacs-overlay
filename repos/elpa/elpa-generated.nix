@@ -816,10 +816,10 @@
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.17";
+        version = "1.18";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/csv-mode-1.17.tar";
-          sha256 = "16kv3n70pl4h3jfmmqy9bzflsm4nv7cwvrj7g4mgy8yb76nbyka2";
+          url = "https://elpa.gnu.org/packages/csv-mode-1.18.tar";
+          sha256 = "0fv7hvsfbc9n4hsgg3ywk8qf4ig5a986zfq0lwnjj8pcz1bpmrxj";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3220,10 +3220,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "3.9.7";
+        version = "4.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-3.9.7.tar";
-          sha256 = "1d8x4lkvnrbs70z5201sh2kxh0h8r000bw0ndxkl5xx8jwz2kmya";
+          url = "https://elpa.gnu.org/packages/pyim-4.0.0.tar";
+          sha256 = "0ifjs2iglmgyvfffnc1gb43vazhlm5scwpr65jxzrz8vsv5m44gg";
         };
         packageRequires = [ async emacs xr ];
         meta = {
