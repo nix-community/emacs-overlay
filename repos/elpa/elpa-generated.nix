@@ -1176,10 +1176,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20211216";
+        version = "20211226";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20211216.tar";
-          sha256 = "0xlp3yf1f59ag9pk3rrg9l0yba7dj70ccfh6x1hh49dxcvd0rimy";
+          url = "https://elpa.gnu.org/packages/eev-20211226.tar";
+          sha256 = "15ggg7sv4m5yc8ldyyffz7vgaj00xbw15zga0x2lpdfmahh6y2as";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4016,10 +4016,10 @@
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.2.2";
+        version = "0.2.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/svg-lib-0.2.2.tar";
-          sha256 = "0l63jphzy431m4g9q7q9f83yvqvhdk0dwiqixs833wfx6ya8h91a";
+          url = "https://elpa.gnu.org/packages/svg-lib-0.2.3.tar";
+          sha256 = "18h4gcyy0ghkff425mc86vz69dy6jwksm44sd19w39ris113szk7";
         };
         packageRequires = [ emacs ];
         meta = {
