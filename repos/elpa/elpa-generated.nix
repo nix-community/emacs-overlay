@@ -234,10 +234,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.0.14";
+        version = "13.0.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.0.14.tar";
-          sha256 = "1gmqdcg9s6xf8kvzh1j27nbimakd5cy8pwsn0il19l026kxjimr8";
+          url = "https://elpa.gnu.org/packages/auctex-13.0.15.tar";
+          sha256 = "1rm8s02d1mx5sw7yj65zlr07xhimnmvqav7f45nz2h8bwka02c3c";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3220,10 +3220,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "4.0.0";
+        version = "4.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-4.0.0.tar";
-          sha256 = "0ifjs2iglmgyvfffnc1gb43vazhlm5scwpr65jxzrz8vsv5m44gg";
+          url = "https://elpa.gnu.org/packages/pyim-4.0.1.tar";
+          sha256 = "0q1bcjqp6v72jp7czr1zz89lr0yr6z1pi4lqn22ksjxx16hhi3zs";
         };
         packageRequires = [ async emacs xr ];
         meta = {
