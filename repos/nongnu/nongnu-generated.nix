@@ -836,6 +836,27 @@
           license = lib.licenses.free;
         };
       }) {};
+    mpv = callPackage ({ cl-lib ? null
+                       , elpaBuild
+                       , emacs
+                       , fetchurl
+                       , json ? null
+                       , lib
+                       , org }:
+      elpaBuild {
+        pname = "mpv";
+        ename = "mpv";
+        version = "0.1.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/mpv-0.1.0.tar";
+          sha256 = "0phvk02pvk2piq862rjhj2bb1zmga1cz5j8l8qh8p5lklw3yyfhx";
+        };
+        packageRequires = [ cl-lib emacs json org ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/mpv.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     multiple-cursors = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "multiple-cursors";
