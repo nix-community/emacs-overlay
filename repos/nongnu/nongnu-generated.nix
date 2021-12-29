@@ -1018,10 +1018,10 @@
       elpaBuild {
         pname = "popup";
         ename = "popup";
-        version = "0.5.8";
+        version = "0.5.9";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/popup-0.5.8.tar";
-          sha256 = "1amwxsymzvzmj8696fa6i0cqx4ac581rvr4dwkri7akkr7amh3yh";
+          url = "https://elpa.nongnu.org/nongnu/popup-0.5.9.tar";
+          sha256 = "0zyn6q3fwj20y7zdk49jbid2h3yf8l5x8y1kv9mj717kjbxiw063";
         };
         packageRequires = [ emacs ];
         meta = {
