@@ -150,6 +150,38 @@
           license = lib.licenses.free;
         };
       }) {};
+    cider = callPackage ({ clojure-mode
+                         , elpaBuild
+                         , emacs
+                         , fetchurl
+                         , lib
+                         , parseedn
+                         , queue
+                         , seq
+                         , sesman
+                         , spinner }:
+      elpaBuild {
+        pname = "cider";
+        ename = "cider";
+        version = "1.2.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/cider-1.2.0.tar";
+          sha256 = "1dkn5mcp4vyk6h4mqrn7fcqjs4h0dx1y1b1pcg2jpyx11mhdpjxf";
+        };
+        packageRequires = [
+          clojure-mode
+          emacs
+          parseedn
+          queue
+          seq
+          sesman
+          spinner
+        ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/cider.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     clojure-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "clojure-mode";
@@ -846,10 +878,10 @@
       elpaBuild {
         pname = "mpv";
         ename = "mpv";
-        version = "0.1.0";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/mpv-0.1.0.tar";
-          sha256 = "0phvk02pvk2piq862rjhj2bb1zmga1cz5j8l8qh8p5lklw3yyfhx";
+          url = "https://elpa.nongnu.org/nongnu/mpv-0.2.0.tar";
+          sha256 = "14d5376y9b3jxxhzjcscx03ss61yd129dkb0ki9gmp2sk7cns3n5";
         };
         packageRequires = [ cl-lib emacs json org ];
         meta = {
@@ -914,6 +946,36 @@
         packageRequires = [ emacs org ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/org-contrib.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    parseclj = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "parseclj";
+        ename = "parseclj";
+        version = "1.0.6";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/parseclj-1.0.6.tar";
+          sha256 = "0cs6a394pll9sl8ybpsygg9mkznpz119f8hjgw3n7mgkwfc5a30k";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/parseclj.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    parseedn = callPackage ({ elpaBuild, emacs, fetchurl, lib, map, parseclj }:
+      elpaBuild {
+        pname = "parseedn";
+        ename = "parseedn";
+        version = "1.0.6";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/parseedn-1.0.6.tar";
+          sha256 = "1274pr91hcrvy4srdy2dw14hbcg2qy24z4klx6mashgzb1r42n3d";
+        };
+        packageRequires = [ emacs map parseclj ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/parseedn.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -1073,6 +1135,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/scala-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    sesman = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "sesman";
+        ename = "sesman";
+        version = "0.3.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/sesman-0.3.2.tar";
+          sha256 = "1nv0xh6dklpw1jq8b9biv70gzqa7par5jbqacx2lx0xhkyf0c7c1";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/sesman.html";
           license = lib.licenses.free;
         };
       }) {};
