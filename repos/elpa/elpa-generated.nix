@@ -1953,10 +1953,10 @@
       elpaBuild {
         pname = "ioccur";
         ename = "ioccur";
-        version = "2.5";
+        version = "2.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ioccur-2.5.tar";
-          sha256 = "06a6djln2rry3qnb063yarji3p18hcpp5zrw7q43a45k7qaiaji8";
+          url = "https://elpa.gnu.org/packages/ioccur-2.6.tar";
+          sha256 = "0k7nr73gmd0z5zqkwdacvfsmyflri3f15a15zpr7va28pnxqzsdk";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3220,10 +3220,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "4.0.1";
+        version = "4.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-4.0.1.tar";
-          sha256 = "0q1bcjqp6v72jp7czr1zz89lr0yr6z1pi4lqn22ksjxx16hhi3zs";
+          url = "https://elpa.gnu.org/packages/pyim-4.0.2.tar";
+          sha256 = "1qi00grbscd9jm3g9dlpn5r9ivm6fmz7azk3jfqiwmyjq2bbxrlk";
         };
         packageRequires = [ async emacs xr ];
         meta = {
@@ -4016,14 +4016,29 @@
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.2.3";
+        version = "0.2.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/svg-lib-0.2.3.tar";
-          sha256 = "18h4gcyy0ghkff425mc86vz69dy6jwksm44sd19w39ris113szk7";
+          url = "https://elpa.gnu.org/packages/svg-lib-0.2.4.tar";
+          sha256 = "0vcf3vbrzhgwssf6mi4xyic32yzjsrllp2zaqdk3c0qjvq9w4wxa";
         };
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/svg-lib.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    svg-tag-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib, svg-lib }:
+      elpaBuild {
+        pname = "svg-tag-mode";
+        ename = "svg-tag-mode";
+        version = "0.3.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/svg-tag-mode-0.3.1.tar";
+          sha256 = "0rnkarv5d03hfwfybn0xlfq6di8sh1m0q1sj2am8zw3frycjxayf";
+        };
+        packageRequires = [ emacs svg-lib ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/svg-tag-mode.html";
           license = lib.licenses.free;
         };
       }) {};
