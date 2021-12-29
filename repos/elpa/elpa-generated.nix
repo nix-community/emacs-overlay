@@ -1294,10 +1294,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.13";
+        version = "0.14";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-0.13.tar";
-          sha256 = "04x3cfikfvzr2xl1zh6kj0q31160kmh1vrzyrla3n6f8z5qch63x";
+          url = "https://elpa.gnu.org/packages/embark-0.14.tar";
+          sha256 = "12d4lza54sf493z9hx1fqlrhrx19girrdh560syi4gg03kg8s7nr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1314,10 +1314,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-consult-0.2.tar";
-          sha256 = "0f1022yk6d88glrrawa8cl6yd5n44p8wnbfwn0f8z6j1n8wxq37z";
+          url = "https://elpa.gnu.org/packages/embark-consult-0.3.tar";
+          sha256 = "1l38bnphfq65r2fjy8zi7a8l4h361bfz756sswa3r7446jhd48rv";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -2108,10 +2108,10 @@
       elpaBuild {
         pname = "js2-mode";
         ename = "js2-mode";
-        version = "20201220";
+        version = "20211229";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/js2-mode-20201220.tar";
-          sha256 = "0zdrp8lap1ijrmsn9jsnvm44b6vxlgh9vcla5ysh1ga95zkjxrwm";
+          url = "https://elpa.gnu.org/packages/js2-mode-20211229.tar";
+          sha256 = "0qf7z0mmrvlncf1ac6yiza5wmcaf588d53ma41vhj58adaahimz6";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3220,10 +3220,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "4.0.2";
+        version = "4.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-4.0.2.tar";
-          sha256 = "1qi00grbscd9jm3g9dlpn5r9ivm6fmz7azk3jfqiwmyjq2bbxrlk";
+          url = "https://elpa.gnu.org/packages/pyim-4.0.3.tar";
+          sha256 = "110d9d8xglnyv0cn0slwk3msgqq8rs01xq2qmx5ya7i2v77gd5ql";
         };
         packageRequires = [ async emacs xr ];
         meta = {
@@ -4031,10 +4031,10 @@
       elpaBuild {
         pname = "svg-tag-mode";
         ename = "svg-tag-mode";
-        version = "0.3.1";
+        version = "0.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/svg-tag-mode-0.3.1.tar";
-          sha256 = "0rnkarv5d03hfwfybn0xlfq6di8sh1m0q1sj2am8zw3frycjxayf";
+          url = "https://elpa.gnu.org/packages/svg-tag-mode-0.3.2.tar";
+          sha256 = "1sg05dg0d9ai21l8rgpqywmwgw29sl21x2zkvlv04rl3hdvdq75y";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
