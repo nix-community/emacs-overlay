@@ -344,10 +344,10 @@
       elpaBuild {
         pname = "geiser";
         ename = "geiser";
-        version = "0.21";
+        version = "0.22";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-0.21.tar";
-          sha256 = "1h99rmnhlwy2385wzvb6jlnpy97160j90p3f2mi7l473njnyzfxj";
+          url = "https://elpa.nongnu.org/nongnu/geiser-0.22.tar";
+          sha256 = "0jcxjfn9d7cnsir2pva0axaz180d01sn0l9f175sj57ws8spj2h2";
         };
         packageRequires = [ emacs transient ];
         meta = {
