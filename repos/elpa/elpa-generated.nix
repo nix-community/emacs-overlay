@@ -2965,10 +2965,10 @@
       elpaBuild {
         pname = "org-transclusion";
         ename = "org-transclusion";
-        version = "1.1.0";
+        version = "1.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-transclusion-1.1.0.tar";
-          sha256 = "02fig19bch8c82ypri67dlyqzdgmilccbc968r74r5fxywzssffx";
+          url = "https://elpa.gnu.org/packages/org-transclusion-1.1.1.tar";
+          sha256 = "12dp5fc7iw78qx2f501ch8mvhvw90bxg8hhvx0kz3y24gf2h8d4d";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -4200,10 +4200,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.5.1.5";
+        version = "2.5.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.5.1.5.tar";
-          sha256 = "1g3xf97q5h6sr67w9bphcbbqx9jz2lbl8lij5rz1r0zbsnlcv7n8";
+          url = "https://elpa.gnu.org/packages/tramp-2.5.2.tar";
+          sha256 = "1j71x3q6x9xyf21capjxcp85b7z2x9khrqsd2sy2s3qwxz3jbg5n";
         };
         packageRequires = [ emacs ];
         meta = {
