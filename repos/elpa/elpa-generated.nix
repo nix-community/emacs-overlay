@@ -696,10 +696,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.13";
+        version = "0.14";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-0.13.tar";
-          sha256 = "08hwvyj9sif9r92nhd09prwlryyqgnifjfqj51xgx98m0rg7ks3p";
+          url = "https://elpa.gnu.org/packages/consult-0.14.tar";
+          sha256 = "0lb72j4nxvaar2vip6jlyn62b9z2p2vsmijk3m9nsrshbqnlf0rc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -726,10 +726,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.16";
+        version = "0.17";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.16.tar";
-          sha256 = "04xgq5rkz8a0lykcyjsxq76yapbzz8vfw8gxqvdx0y58bhcw82y6";
+          url = "https://elpa.gnu.org/packages/corfu-0.17.tar";
+          sha256 = "13nmbyrsvglzv57n9srl0kz75y07v8imr6c99nbf1mssli3h6n7y";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2393,10 +2393,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "0.10";
+        version = "0.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/marginalia-0.10.tar";
-          sha256 = "0sw4kfqda3z9bph4vgzqvg045li64ww2gdc2cgddi2m5p7anq20g";
+          url = "https://elpa.gnu.org/packages/marginalia-0.11.tar";
+          sha256 = "0mri8awary11hwg6lib903q5jcv2isnf8mi62mgndiki5s9cgrbs";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4481,10 +4481,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.17";
+        version = "0.18";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.17.tar";
-          sha256 = "1zhrkdhnc32wsc5f958hwa7mgf2vcjh3x6ng1cpndds5yllxb7s9";
+          url = "https://elpa.gnu.org/packages/vertico-0.18.tar";
+          sha256 = "1s5wrvhn41clpl4wjg5vlp7sg0mp7icd5yzi4hcvzqwpfypcgss8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4501,10 +4501,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.4.2";
+        version = "0.4.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-posframe-0.4.2.tar";
-          sha256 = "1kajkjnjlisws2zdahy3bym942f3zvf05qhbmw9i2lv54jiy07pz";
+          url = "https://elpa.gnu.org/packages/vertico-posframe-0.4.4.tar";
+          sha256 = "0g7y478v5pibb9g7nv7zv1p9i2hv5ljrd42bfi0qpcd6psn4j0pb";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
