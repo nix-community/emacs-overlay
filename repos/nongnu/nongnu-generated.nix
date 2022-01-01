@@ -1398,6 +1398,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    ws-butler = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "ws-butler";
+        ename = "ws-butler";
+        version = "0.6";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/ws-butler-0.6.tar";
+          sha256 = "1mm1c2awq2vs5fz773f1pa6ham29ws1agispxfjvj5nx15a0kqzl";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/ws-butler.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     yaml-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "yaml-mode";
