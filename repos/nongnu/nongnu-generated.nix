@@ -120,6 +120,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    boxquote = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "boxquote";
+        ename = "boxquote";
+        version = "2.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/boxquote-2.2.tar";
+          sha256 = "0vcqm78b5fsizkn2xalnzmdci5m02yxxypcr9q2sai04j7lhmwd9";
+        };
+        packageRequires = [ cl-lib ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/boxquote.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     buttercup = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "buttercup";
@@ -586,6 +601,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    gruvbox-theme = callPackage ({ autothemer, elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "gruvbox-theme";
+        ename = "gruvbox-theme";
+        version = "1.26.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/gruvbox-theme-1.26.0.tar";
+          sha256 = "19q5i0jz01hdn09wwg929yva6278fhyvk68id5p9dyi8h2n73djn";
+        };
+        packageRequires = [ autothemer ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/gruvbox-theme.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     guru-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "guru-mode";
@@ -949,6 +979,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    org-superstar = callPackage ({ elpaBuild, emacs, fetchurl, lib, org }:
+      elpaBuild {
+        pname = "org-superstar";
+        ename = "org-superstar";
+        version = "1.5.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/org-superstar-1.5.1.tar";
+          sha256 = "0qwnjd6i3mzkvwdwpm3hn8hp3jwza43x1xq1hfi8d6fa9mwzw9nl";
+        };
+        packageRequires = [ emacs org ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-superstar.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     parseclj = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "parseclj";
@@ -1056,6 +1101,21 @@
         packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/prop-menu.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    rainbow-delimiters = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "rainbow-delimiters";
+        ename = "rainbow-delimiters";
+        version = "2.1.5";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/rainbow-delimiters-2.1.5.tar";
+          sha256 = "0bb7sqjgpm3041srr44l23p3mcjhvnpxl594ma25pbs11qqipz5w";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/rainbow-delimiters.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -1410,6 +1470,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ws-butler.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    xml-rpc = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "xml-rpc";
+        ename = "xml-rpc";
+        version = "1.6.15";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/xml-rpc-1.6.15.tar";
+          sha256 = "0z87rn7zbd8335iqfvk16zpvby66l0izzw438pxdr7kf60i5vgwl";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/xml-rpc.html";
           license = lib.licenses.free;
         };
       }) {};
