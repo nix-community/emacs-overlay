@@ -1408,6 +1408,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    visual-fill-column = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "visual-fill-column";
+        ename = "visual-fill-column";
+        version = "2.4";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/visual-fill-column-2.4.tar";
+          sha256 = "0100v17s9w9nqjpr7h3zianfy1i4i71idk2qrlzqzcd8qn1m3vjx";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/visual-fill-column.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     web-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "web-mode";
