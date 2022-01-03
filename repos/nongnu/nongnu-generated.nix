@@ -1348,6 +1348,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    toc-org = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "toc-org";
+        ename = "toc-org";
+        version = "1.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/toc-org-1.1.tar";
+          sha256 = "1wy48z4x756r7k6v9znn3f6bfxh867vy58wal7wmhxxig6sn9bk3";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/toc-org.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     tuareg = callPackage ({ caml, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "tuareg";
