@@ -979,6 +979,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    org-journal = callPackage ({ elpaBuild, emacs, fetchurl, lib, org }:
+      elpaBuild {
+        pname = "org-journal";
+        ename = "org-journal";
+        version = "2.1.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/org-journal-2.1.2.tar";
+          sha256 = "1s5hadcps283c5a1sy8fp1ih064l0hl97frj93jw3fkx6jwbqf0v";
+        };
+        packageRequires = [ emacs org ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-journal.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     org-superstar = callPackage ({ elpaBuild, emacs, fetchurl, lib, org }:
       elpaBuild {
         pname = "org-superstar";
