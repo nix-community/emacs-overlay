@@ -354,10 +354,10 @@
       elpaBuild {
         pname = "bluetooth";
         ename = "bluetooth";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bluetooth-0.2.el";
-          sha256 = "1dq04p6ms0zx4awlypp4crkz7dzal4xg8ac7p8fqacz196rczssp";
+          url = "https://elpa.gnu.org/packages/bluetooth-0.3.tar";
+          sha256 = "1q27hk4j7k0q9vqgn9nq7q0vhn9jdqbygs7d9lv5gwfhdzdnl4az";
         };
         packageRequires = [ dash emacs ];
         meta = {
@@ -2736,10 +2736,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-modeline-0.3.tar";
-          sha256 = "0www5mjfkrxd22d93vnlmk67ydxf6ljwfaslmdiv1r76j1ls2f3x";
+          url = "https://elpa.gnu.org/packages/nano-modeline-0.4.tar";
+          sha256 = "124mhh8zbjcawp2afd8q1p802sqyi2jcl1wzxk66s5llwi8yisv0";
         };
         packageRequires = [ emacs ];
         meta = {
