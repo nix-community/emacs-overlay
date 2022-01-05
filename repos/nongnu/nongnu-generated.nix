@@ -1363,6 +1363,27 @@
           license = lib.licenses.free;
         };
       }) {};
+    telephone-line = callPackage ({ cl-generic
+                                  , cl-lib ? null
+                                  , elpaBuild
+                                  , emacs
+                                  , fetchurl
+                                  , lib
+                                  , seq }:
+      elpaBuild {
+        pname = "telephone-line";
+        ename = "telephone-line";
+        version = "0.5";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/telephone-line-0.5.tar";
+          sha256 = "09glq2ljd10mqx54i3vflk7yjb1abhykzm9kng4wrw5156ssn6zs";
+        };
+        packageRequires = [ cl-generic cl-lib emacs seq ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/telephone-line.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     toc-org = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "toc-org";
