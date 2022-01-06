@@ -718,10 +718,10 @@
       elpaBuild {
         pname = "idris-mode";
         ename = "idris-mode";
-        version = "0.9.18";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/idris-mode-0.9.18.tar";
-          sha256 = "1z4wsqzxsmn1vdqp44b32m4wzs4bbnsyzv09v9ggr4l4h2j4c3x5";
+          url = "https://elpa.nongnu.org/nongnu/idris-mode-1.1.0.tar";
+          sha256 = "00xbb63kidkygs2zp334nw38gn5mrbky3ii0g8c9k9si4k1dn5gq";
         };
         packageRequires = [ cl-lib emacs prop-menu ];
         meta = {
@@ -883,6 +883,28 @@
           license = lib.licenses.free;
         };
       }) {};
+    mentor = callPackage ({ async
+                          , cl-lib ? null
+                          , elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib
+                          , seq
+                          , xml-rpc }:
+      elpaBuild {
+        pname = "mentor";
+        ename = "mentor";
+        version = "0.3.5";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/mentor-0.3.5.tar";
+          sha256 = "01zrvfk2njzyzjzkvp5hv5cjl1k1qjrila1ab4bv26gf6bkq5xh3";
+        };
+        packageRequires = [ async cl-lib emacs seq xml-rpc ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/mentor.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     monokai-theme = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "monokai-theme";
@@ -991,6 +1013,21 @@
         packageRequires = [ emacs org ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/org-journal.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    org-mime = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "org-mime";
+        ename = "org-mime";
+        version = "0.2.4";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/org-mime-0.2.4.tar";
+          sha256 = "048psi5h8ln83pra4f24iq794w00b8p8pk67cylbd8afjdhh2x1r";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-mime.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -1225,6 +1262,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/sesman.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    shellcop = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "shellcop";
+        ename = "shellcop";
+        version = "0.0.7";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/shellcop-0.0.7.tar";
+          sha256 = "1zwj22bf37ffdbz5iqkwz5mzzsxffhj521dmwkgp5sh4r1fwip8a";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/shellcop.html";
           license = lib.licenses.free;
         };
       }) {};
