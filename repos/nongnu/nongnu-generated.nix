@@ -60,6 +60,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    anzu = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "anzu";
+        ename = "anzu";
+        version = "0.64";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/anzu-0.64.tar";
+          sha256 = "1znw7wlpjb3d8wsijqziiq21j966x95q9g5j16wx48xyrrzr1mcs";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/anzu.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     apache-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "apache-mode";
@@ -102,6 +117,26 @@
         packageRequires = [ emacs spinner ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/arduino-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    autothemer = callPackage ({ cl-lib ? null
+                              , dash
+                              , elpaBuild
+                              , emacs
+                              , fetchurl
+                              , lib }:
+      elpaBuild {
+        pname = "autothemer";
+        ename = "autothemer";
+        version = "0.2.3";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/autothemer-0.2.3.tar";
+          sha256 = "10r4lf3nl7mk6yzfcyld5k0njslw8ly2sd0iz1zkzywnv31lsxnd";
+        };
+        packageRequires = [ cl-lib dash emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/autothemer.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -337,6 +372,139 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/evil.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    evil-anzu = callPackage ({ anzu, elpaBuild, evil, fetchurl, lib }:
+      elpaBuild {
+        pname = "evil-anzu";
+        ename = "evil-anzu";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-anzu-0.2.tar";
+          sha256 = "0fv7kan67g24imhbgggrg8r4pjhpmicpq3g8g1wnq8p9zkwxbm7s";
+        };
+        packageRequires = [ anzu evil ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-anzu.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    evil-exchange = callPackage ({ cl-lib ? null
+                                 , elpaBuild
+                                 , evil
+                                 , fetchurl
+                                 , lib }:
+      elpaBuild {
+        pname = "evil-exchange";
+        ename = "evil-exchange";
+        version = "0.41";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-exchange-0.41.tar";
+          sha256 = "1i07c0zc75mbgb6hzj6py248gxzy0mk3xyaskvwlc371fyyn6v6c";
+        };
+        packageRequires = [ cl-lib evil ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-exchange.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    evil-indent-plus = callPackage ({ cl-lib ? null
+                                    , elpaBuild
+                                    , evil
+                                    , fetchurl
+                                    , lib }:
+      elpaBuild {
+        pname = "evil-indent-plus";
+        ename = "evil-indent-plus";
+        version = "1.0.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-indent-plus-1.0.1.tar";
+          sha256 = "0wnn5xjdbc70cxwllz1gf6xf91ijlfhlps7gkb9c3v1kwpsfp3s3";
+        };
+        packageRequires = [ cl-lib evil ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-indent-plus.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    evil-lisp-state = callPackage ({ bind-map
+                                   , elpaBuild
+                                   , evil
+                                   , fetchurl
+                                   , lib
+                                   , smartparens }:
+      elpaBuild {
+        pname = "evil-lisp-state";
+        ename = "evil-lisp-state";
+        version = "8.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-lisp-state-8.2.tar";
+          sha256 = "0hwv39rkwadm3jri84nf9mw48ybd5a0y02yzjp5cayy7alpf6zcn";
+        };
+        packageRequires = [ bind-map evil smartparens ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-lisp-state.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    evil-matchit = callPackage ({ elpaBuild, emacs, evil, fetchurl, lib }:
+      elpaBuild {
+        pname = "evil-matchit";
+        ename = "evil-matchit";
+        version = "2.4.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-matchit-2.4.1.tar";
+          sha256 = "0ybw0jfjkwiz4ln3z5pizbw5d9d612crpk410czcyi8adyj018nc";
+        };
+        packageRequires = [ emacs evil ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-matchit.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    evil-nerd-commenter = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "evil-nerd-commenter";
+        ename = "evil-nerd-commenter";
+        version = "3.5.5";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-nerd-commenter-3.5.5.tar";
+          sha256 = "0pvq1cbq9zhxq9y889zrwylkkmhsw8w5bii2sl6spdf89ccy8kdh";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-nerd-commenter.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    evil-numbers = callPackage ({ elpaBuild, emacs, evil, fetchurl, lib }:
+      elpaBuild {
+        pname = "evil-numbers";
+        ename = "evil-numbers";
+        version = "0.6";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-numbers-0.6.tar";
+          sha256 = "0zl16ljb64cawcj11f4ndz941sllj8nhgjcb4w0r1afxbvpn5rss";
+        };
+        packageRequires = [ emacs evil ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-numbers.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    evil-visualstar = callPackage ({ elpaBuild, evil, fetchurl, lib }:
+      elpaBuild {
+        pname = "evil-visualstar";
+        ename = "evil-visualstar";
+        version = "0.2.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-visualstar-0.2.0.tar";
+          sha256 = "0vjhwdp2ms7k008mm68vzlkxrq0zyrsf4r10w57w77qg5a96151c";
+        };
+        packageRequires = [ evil ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-visualstar.html";
           license = lib.licenses.free;
         };
       }) {};
