@@ -1073,6 +1073,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    moe-theme = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "moe-theme";
+        ename = "moe-theme";
+        version = "1.0.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/moe-theme-1.0.2.tar";
+          sha256 = "1hdbm6hw94yyw5cdgfmc5fgnfc2glf0ba8a9ch2y33nzjawklb8x";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/moe-theme.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     monokai-theme = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "monokai-theme";
@@ -1211,6 +1226,27 @@
         packageRequires = [ emacs org ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/org-superstar.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    pacmacs = callPackage ({ cl-lib ? null
+                           , dash
+                           , elpaBuild
+                           , emacs
+                           , f
+                           , fetchurl
+                           , lib }:
+      elpaBuild {
+        pname = "pacmacs";
+        ename = "pacmacs";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/pacmacs-0.1.tar";
+          sha256 = "0vhxxnk8n4h2klvr4xahsm845dwds895fxxgcs7dz2262g9myd93";
+        };
+        packageRequires = [ cl-lib dash emacs f ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/pacmacs.html";
           license = lib.licenses.free;
         };
       }) {};
