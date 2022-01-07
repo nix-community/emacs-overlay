@@ -467,10 +467,10 @@
       elpaBuild {
         pname = "evil-nerd-commenter";
         ename = "evil-nerd-commenter";
-        version = "3.5.5";
+        version = "3.5.6";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/evil-nerd-commenter-3.5.5.tar";
-          sha256 = "0pvq1cbq9zhxq9y889zrwylkkmhsw8w5bii2sl6spdf89ccy8kdh";
+          url = "https://elpa.nongnu.org/nongnu/evil-nerd-commenter-3.5.6.tar";
+          sha256 = "0bv7s2jcgi3ma3dspczy7jrb55vqkhsz0rq0nz14qiay5j9dwghd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1580,6 +1580,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/tablist.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    tangotango-theme = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "tangotango-theme";
+        ename = "tangotango-theme";
+        version = "0.0.7";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/tangotango-theme-0.0.7.tar";
+          sha256 = "0xl90c7hzzd2wanz41mb5ikjgrfga28qb893yvdcy0pa6mgdmpmx";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/tangotango-theme.html";
           license = lib.licenses.free;
         };
       }) {};
