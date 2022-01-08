@@ -936,10 +936,10 @@
       elpaBuild {
         pname = "devdocs";
         ename = "devdocs";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/devdocs-0.2.tar";
-          sha256 = "1npc7yra7pvf86ahmz1h7hnjxrz15ar1vjcalg4ilizypycpgrwj";
+          url = "https://elpa.gnu.org/packages/devdocs-0.3.tar";
+          sha256 = "03asw26nsnnx7hmyqhksq165vpii0h8y6qjjn0x4sdkyyns16yp7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3190,10 +3190,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "1.1.3";
+        version = "1.1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-1.1.3.tar";
-          sha256 = "12710a6lnkmngh8hy853q1haplphbamcpci8fyln0x9bahgbfamq";
+          url = "https://elpa.gnu.org/packages/posframe-1.1.4.tar";
+          sha256 = "1axmk8ra0a82s6xs8sh7lkchn9hxz7f5wmdns5dmnyk8fl0jiykf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4481,10 +4481,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.18";
+        version = "0.19";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.18.tar";
-          sha256 = "1s5wrvhn41clpl4wjg5vlp7sg0mp7icd5yzi4hcvzqwpfypcgss8";
+          url = "https://elpa.gnu.org/packages/vertico-0.19.tar";
+          sha256 = "1i9aqxsplmzyy7nv4czspa66a6v33lnng1d8zsgjf1m9sz0kyzxp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4501,10 +4501,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.4.7";
+        version = "0.4.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-posframe-0.4.7.tar";
-          sha256 = "1v6wklnbnm3pjpxk25hhm5q6f87r180d8dk5v40nn5bs1kzijdx1";
+          url = "https://elpa.gnu.org/packages/vertico-posframe-0.4.8.tar";
+          sha256 = "1cvihfj59qycd3kifxbg9ndrmiihc62si8q5b8fxc1p20acw4f69";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
