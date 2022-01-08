@@ -754,6 +754,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    gotham-theme = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "gotham-theme";
+        ename = "gotham-theme";
+        version = "1.1.9";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/gotham-theme-1.1.9.tar";
+          sha256 = "0ikczh9crs02hlvnpdknxfbpqmpiicdbshjhi5pz3v7ynizj64vm";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/gotham-theme.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     goto-chg = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "goto-chg";
