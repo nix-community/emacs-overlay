@@ -758,10 +758,10 @@
       elpaBuild {
         pname = "goto-chg";
         ename = "goto-chg";
-        version = "1.7.4";
+        version = "1.7.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/goto-chg-1.7.4.tar";
-          sha256 = "1sg2gp48b83gq0j821lk241lwyxkhqr6w5d1apbnkm3qf08qjwba";
+          url = "https://elpa.nongnu.org/nongnu/goto-chg-1.7.5.tar";
+          sha256 = "08wdrwmgy5hanir6py6wiq0pq4lbv9jiyz1m3h947kb35kxalmks";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1784,10 +1784,10 @@
       elpaBuild {
         pname = "with-editor";
         ename = "with-editor";
-        version = "3.0.5";
+        version = "3.1.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/with-editor-3.0.5.tar";
-          sha256 = "0bri6jr99133k9w0d754rw2f6hgjzndczngfw2lf2rvxks448krm";
+          url = "https://elpa.nongnu.org/nongnu/with-editor-3.1.1.tar";
+          sha256 = "175k68mr0n3v5l3gbv2fsdfznm9yjy32l3ay6hj0d4c53kw76hvn";
         };
         packageRequires = [ emacs ];
         meta = {
