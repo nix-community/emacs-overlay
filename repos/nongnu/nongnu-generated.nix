@@ -1229,6 +1229,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    org-present = callPackage ({ elpaBuild, fetchurl, lib, org }:
+      elpaBuild {
+        pname = "org-present";
+        ename = "org-present";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/org-present-0.1.tar";
+          sha256 = "1b32faz4nv5s4fv0rxkr70dkjlmpiwzds513wpkwr6fvqmcz4kdy";
+        };
+        packageRequires = [ org ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-present.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     org-superstar = callPackage ({ elpaBuild, emacs, fetchurl, lib, org }:
       elpaBuild {
         pname = "org-superstar";
