@@ -140,6 +140,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    better-jumper = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "better-jumper";
+        ename = "better-jumper";
+        version = "1.0.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/better-jumper-1.0.1.tar";
+          sha256 = "0jykcz4g0q29k7rawsp2n5zmx88kdh3kbh0497vvpks74vvk2c9f";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/better-jumper.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     bison-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "bison-mode";
