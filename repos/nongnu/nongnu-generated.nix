@@ -961,6 +961,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    keycast = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "keycast";
+        ename = "keycast";
+        version = "1.1.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/keycast-1.1.2.tar";
+          sha256 = "0afz69algxy6s8zf7zs4w72pj1qm02d4y9avqnpkvf4ixyjdvy3a";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/keycast.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     lua-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "lua-mode";
