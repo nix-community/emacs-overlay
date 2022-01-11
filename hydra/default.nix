@@ -21,12 +21,12 @@ let
     inputs = {
       src = {
         type = "git";
-        value = "git://github.com/nix-community/emacs-overlay.git";
+        value = "https://github.com/nix-community/emacs-overlay.git";
         emailresponsible = false;
       };
       nixpkgs = {
         type = "git";
-        value = "git://github.com/NixOS/nixpkgs.git ${nixpkgsRelease}";
+        value = "https://github.com/NixOS/nixpkgs.git ${nixpkgsRelease}";
         emailresponsible = false;
       };
     };
