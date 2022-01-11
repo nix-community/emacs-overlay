@@ -13,12 +13,12 @@
   "inputs": {
     "src": {
       "type": "git",
-      "value": "git://github.com/nix-community/emacs-overlay.git",
+      "value": "https://github.com/nix-community/emacs-overlay.git master",
       "emailresponsible": false
     },
     "nixpkgs": {
       "type": "git",
-      "value": "git://github.com/NixOS/nixpkgs.git nixos-unstable",
+      "value": "https://github.com/NixOS/nixpkgs.git nixos-unstable",
       "emailresponsible": false
     }
   }
