@@ -927,6 +927,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    iedit = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "iedit";
+        ename = "iedit";
+        version = "0.9.9.9";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/iedit-0.9.9.9.tar";
+          sha256 = "1kwm7pa1x5dbn9irdrz9vg5zivrqx1w2ywrbpglk2lgd9kff0nsj";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/iedit.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     inf-clojure = callPackage ({ clojure-mode
                                , elpaBuild
                                , emacs
@@ -1852,6 +1867,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/with-editor.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    with-simulated-input = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "with-simulated-input";
+        ename = "with-simulated-input";
+        version = "3.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/with-simulated-input-3.0.tar";
+          sha256 = "0ws8z82kb0bh6z4yvw2kz3ib0j7v47c5l5dxlrn3kr1qk99z65l6";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/with-simulated-input.html";
           license = lib.licenses.free;
         };
       }) {};
