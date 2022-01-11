@@ -1279,10 +1279,10 @@
       elpaBuild {
         pname = "eldoc-eval";
         ename = "eldoc-eval";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eldoc-eval-0.1.el";
-          sha256 = "1mnhxdsn9h43iq941yqmg92v3hbzwyg7acqfnz14q5g52bnagg19";
+          url = "https://elpa.gnu.org/packages/eldoc-eval-0.2.tar";
+          sha256 = "09g9y1w1dlq3s8sqzczgaj02y53x616ak9w3kynq53pwgaxq14j4";
         };
         packageRequires = [];
         meta = {
@@ -3635,10 +3635,10 @@
       elpaBuild {
         pname = "rt-liberation";
         ename = "rt-liberation";
-        version = "2.4";
+        version = "3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rt-liberation-2.4.tar";
-          sha256 = "1qfd0dy4n04gf3vx0pbwfgmp4wm2a64sh3m6mlfhinqgmasajh6r";
+          url = "https://elpa.gnu.org/packages/rt-liberation-3.tar";
+          sha256 = "1yh3pyzmn9j9pjc64z4l05ardw72lh5lc7cq4ljlkbpgb9pyyr92";
         };
         packageRequires = [];
         meta = {
