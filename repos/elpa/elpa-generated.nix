@@ -2931,6 +2931,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    orderless = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "orderless";
+        ename = "orderless";
+        version = "0.7";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/orderless-0.7.tar";
+          sha256 = "0hvfqxpazan1djpn0qxh609r53jgddpcdih6chkn2zvx29mhdkgg";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/orderless.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     org = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "org";
@@ -3265,10 +3280,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "4.0.3";
+        version = "4.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-4.0.3.tar";
-          sha256 = "110d9d8xglnyv0cn0slwk3msgqq8rs01xq2qmx5ya7i2v77gd5ql";
+          url = "https://elpa.gnu.org/packages/pyim-4.1.0.tar";
+          sha256 = "1q4b3y72gbkl5z31brlnjqjl30lgqm2d1zlqrbkqnnfy5hjgazk9";
         };
         packageRequires = [ async emacs xr ];
         meta = {
@@ -4531,10 +4546,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.5.0";
+        version = "0.5.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-posframe-0.5.0.tar";
-          sha256 = "0xkazpyfdb9h6kpqwh06szy8m3019plkixgk9qsbx6h1h07klq3i";
+          url = "https://elpa.gnu.org/packages/vertico-posframe-0.5.1.tar";
+          sha256 = "1a2jbdfra14cxwjnfq281g1hh45fx7rkkvil7s33jfkqhiassl8q";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
