@@ -995,10 +995,10 @@
       elpaBuild {
         pname = "keycast";
         ename = "keycast";
-        version = "1.1.2";
+        version = "1.1.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/keycast-1.1.2.tar";
-          sha256 = "0afz69algxy6s8zf7zs4w72pj1qm02d4y9avqnpkvf4ixyjdvy3a";
+          url = "https://elpa.nongnu.org/nongnu/keycast-1.1.3.tar";
+          sha256 = "0b4vyaxqdw11ai81vnvif8i02jcaf5hk64kbb7bs90527zwz2fw0";
         };
         packageRequires = [ emacs ];
         meta = {
