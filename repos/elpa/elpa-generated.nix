@@ -2980,10 +2980,10 @@
       elpaBuild {
         pname = "org-transclusion";
         ename = "org-transclusion";
-        version = "1.1.1";
+        version = "1.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-transclusion-1.1.1.tar";
-          sha256 = "12dp5fc7iw78qx2f501ch8mvhvw90bxg8hhvx0kz3y24gf2h8d4d";
+          url = "https://elpa.gnu.org/packages/org-transclusion-1.2.0.tar";
+          sha256 = "1q36nqxynzh8ygvgw5nmg49c4yq8pgp6lcb6mdqs9paw8pglxcjf";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -4159,6 +4159,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/temp-buffer-browse.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    tempel = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "tempel";
+        ename = "tempel";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/tempel-0.2.tar";
+          sha256 = "0xn2vqaxqv04zmlp5hpb9vxkbs3bv4dk22xs5j5fqjid2hcv3714";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/tempel.html";
           license = lib.licenses.free;
         };
       }) {};
