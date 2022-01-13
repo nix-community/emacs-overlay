@@ -424,6 +424,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    evil-goggles = callPackage ({ elpaBuild, emacs, evil, fetchurl, lib }:
+      elpaBuild {
+        pname = "evil-goggles";
+        ename = "evil-goggles";
+        version = "0.0.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-goggles-0.0.2.tar";
+          sha256 = "0cpxbl2vls52dydaa1x4jkizhnd3vmvs30ivihdl964vmpb1s7yl";
+        };
+        packageRequires = [ emacs evil ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-goggles.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     evil-indent-plus = callPackage ({ cl-lib ? null
                                     , elpaBuild
                                     , evil
