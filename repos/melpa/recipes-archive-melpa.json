@@ -11298,8 +11298,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20220112,
-    1400
+    20220113,
+    610
    ],
    "deps": [
     "clojure-mode",
@@ -11309,8 +11309,8 @@
     "sesman",
     "spinner"
    ],
-   "commit": "65a23e54227e3575f5a909dcfbdbbaef70d1438b",
-   "sha256": "1yvy33yxh4j5j2r7aglbc32kyhn666f3sixcjq7nkz52ka66dsi1"
+   "commit": "8bb67174ffa0cd7ae01f544926b4ed5a17965d76",
+   "sha256": "1fh95x4gabmm95ligy30lhqgay5snlp9d4m21l5zmk64klfyrpfb"
   },
   "stable": {
    "version": [
@@ -16566,14 +16566,14 @@
   "repo": "ideasman42/emacs-counsel-at-point",
   "unstable": {
    "version": [
-    20220104,
-    645
+    20220113,
+    455
    ],
    "deps": [
     "counsel"
    ],
-   "commit": "942cf8e5475c10c80b69f6ac38feecf4137fba6b",
-   "sha256": "0fqwjccvmi2p4bsk2qh78dzqmbl5kl49cf9b51jxnaciv4shim8k"
+   "commit": "257f9457f60384eeaf29c1f458852b648eaf366c",
+   "sha256": "0llghbv6zqy9nl3iivk6pd2mmxw3xhlz6dkgn9j9srrabddzkfxk"
   }
  },
  {
@@ -21446,14 +21446,14 @@
   "repo": "Boruch-Baum/emacs-diredc",
   "unstable": {
    "version": [
-    20210613,
-    1423
+    20220113,
+    332
    ],
    "deps": [
     "key-assist"
    ],
-   "commit": "5e13b7c088e2554b2aa406581520d53902c74016",
-   "sha256": "06vy5wgrv0sjdnsx31jg1c12wwzxpkgb2xz1djzi5pbhakidspv3"
+   "commit": "7ee68f6b1c87f8ab86cf23416472747e88860717",
+   "sha256": "18yzqd2rzi6fx7xw2xs0fysc7h3lzlvad4wdg2qq8c6q9028cc25"
   },
   "stable": {
    "version": [
@@ -21640,11 +21640,11 @@
   "repo": "alexluigit/dirvish",
   "unstable": {
    "version": [
-    20220112,
-    1854
+    20220113,
+    518
    ],
-   "commit": "2fac05abc4a47e3824fa5b9dd7ac1b93a5973cf8",
-   "sha256": "0zlqsnpgyq36xw0y1hv60rw18nxmfkf8mnyr6id3mnc898i0kpk1"
+   "commit": "e4143a37a589032f638e0da0fe7be92188be9a43",
+   "sha256": "0p1j5nz1l32f8g5zshrvcbyjq69frwpdz723wghdr7d6n365c7g7"
   }
  },
  {
@@ -23412,8 +23412,8 @@
     20210909,
     1010
    ],
-   "commit": "ddcc55bc02665ce1e8dfa290632a7aa28850bc63",
-   "sha256": "177g8sjjafy4mm81rm6arqam1xa2430can5xbswd5nsvw32y227y"
+   "commit": "310037a194c0fa606527cc949c7557a5ee1944a1",
+   "sha256": "0f3rly6f4ykx0z96qjl6c9b53z77p5nz9m1xnh27y9p6bnrjhibg"
   },
   "stable": {
    "version": [
@@ -27062,8 +27062,8 @@
   "repo": "jorgenschaefer/elpy",
   "unstable": {
    "version": [
-    20211211,
-    2248
+    20220113,
+    430
    ],
    "deps": [
     "company",
@@ -27072,8 +27072,8 @@
     "s",
     "yasnippet"
    ],
-   "commit": "9e4382fe99fa922a23a25320bad5df268026e78c",
-   "sha256": "0dlii04byyqr48mnvs3wh8np2zx5r30rhhpbind0z64ahq10a1zh"
+   "commit": "edea3321e6cd44e466c1b56672324ac7bd28f011",
+   "sha256": "1ws8pxh3djdfdarpii777fyjwphv5v67v5ch3l3gjmkgx7acz2sz"
   },
   "stable": {
    "version": [
@@ -41563,26 +41563,25 @@
   "repo": "emacs-geiser/guile",
   "unstable": {
    "version": [
-    20220105,
-    326
+    20220113,
+    235
    ],
    "deps": [
     "geiser"
    ],
-   "commit": "a2634fa2be4bce5042aaa14b33fc5246f78922d7",
-   "sha256": "1fzx3w2ddr330vs7qs4cd7f679778mqrpc9x0i4hg0ibxnpn8jrn"
+   "commit": "60e1b0e40cdf87586f9be2bef195cd24d36a2a77",
+   "sha256": "0nab8a0iyv554gfds7r677qvzwpml2fm7ql41vf7sc1y0yx0d6ql"
   },
   "stable": {
    "version": [
     0,
-    20,
-    1
+    21
    ],
    "deps": [
     "geiser"
    ],
-   "commit": "3b802f3b2d2e51c3aface8307dbfd74c8e8adbbf",
-   "sha256": "0l225vb3fd669h3w3kca0s7j2y9sz8phmrdfw7wl9yv4bbc122qb"
+   "commit": "60e1b0e40cdf87586f9be2bef195cd24d36a2a77",
+   "sha256": "0nab8a0iyv554gfds7r677qvzwpml2fm7ql41vf7sc1y0yx0d6ql"
   }
  },
  {
@@ -64303,8 +64302,8 @@
     20220107,
     329
    ],
-   "commit": "51e8fc36bb8cea5089af2a10a3a24373d335d782",
-   "sha256": "1kqyd6rdwwciadha9j67561wd7wgzknfqgcf3r6bpkhvmq3qxd7m"
+   "commit": "d383396ae8fe555f0af9d3618e75445454e5825b",
+   "sha256": "09sdrg8jygqgqfkc1fbsbxz1vdgix5clixa36qhlra92w71705ck"
   },
   "stable": {
    "version": [
@@ -82455,14 +82454,14 @@
   "repo": "kaushalmodi/ox-hugo",
   "unstable": {
    "version": [
-    20220112,
-    535
+    20220113,
+    458
    ],
    "deps": [
     "org"
    ],
-   "commit": "3a7cb207a2e33e74144550ba10644b20d3bdc718",
-   "sha256": "0njx1gkkdl2n1wypkzpb8903xa85p47yiry1mv3h5hljc71kqcfp"
+   "commit": "5b3a9c6af019a9fe276ebe41c639a5b9987f666a",
+   "sha256": "0xrx7pz1qh550bzgr74myg18m1vmfv54wncs8ighnasl18sfy9fn"
   },
   "stable": {
    "version": [
@@ -96971,11 +96970,11 @@
   "repo": "brannala/sequed",
   "unstable": {
    "version": [
-    20210908,
-    651
+    20220113,
+    346
    ],
-   "commit": "c78ef34da948576290978d876b776c21f8832136",
-   "sha256": "1g11hkh3n74f7asgxjpq8isbvghwd82n6rjpjzcvrrwmkrgkhxam"
+   "commit": "5b0ce92962ee076f507e06876e9011b275366151",
+   "sha256": "1ih9fbz4m5w1ix23215x7606ry2ci1ra5mgg2s1r0nxvl0259k73"
   }
  },
  {
