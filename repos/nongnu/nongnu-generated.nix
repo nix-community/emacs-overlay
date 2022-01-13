@@ -647,10 +647,10 @@
       elpaBuild {
         pname = "geiser-guile";
         ename = "geiser-guile";
-        version = "0.20.1";
+        version = "0.21";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-guile-0.20.1.tar";
-          sha256 = "0psm53ryh1wica2730xcw4lc2jv06d08wnjfyd8f61952zzj57k7";
+          url = "https://elpa.nongnu.org/nongnu/geiser-guile-0.21.tar";
+          sha256 = "0yl7nxb43z3ji4k92i4kawz9pzwyxyzqh75hmnz3zdwlq8aii2mp";
         };
         packageRequires = [ emacs geiser ];
         meta = {
