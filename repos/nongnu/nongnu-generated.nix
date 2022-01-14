@@ -1319,6 +1319,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    orgit = callPackage ({ elpaBuild, emacs, fetchurl, lib, magit, org }:
+      elpaBuild {
+        pname = "orgit";
+        ename = "orgit";
+        version = "1.7.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/orgit-1.7.2.tar";
+          sha256 = "1kf72l8h3wqgnrchy6wvhm3nmc9drh82yw5211f4xgg2ckr60rn1";
+        };
+        packageRequires = [ emacs magit org ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/orgit.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     pacmacs = callPackage ({ cl-lib ? null
                            , dash
                            , elpaBuild
