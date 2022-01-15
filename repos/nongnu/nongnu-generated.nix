@@ -1649,6 +1649,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    spacemacs-theme = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "spacemacs-theme";
+        ename = "spacemacs-theme";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/spacemacs-theme-0.2.tar";
+          sha256 = "07lkaj6gm5iz503p5l6sm1y62mc5wk13nrwzv81f899jw99jcgml";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/spacemacs-theme.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     subatomic-theme = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "subatomic-theme";
