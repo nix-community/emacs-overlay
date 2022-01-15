@@ -769,16 +769,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    go-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+    go-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "go-mode";
         ename = "go-mode";
-        version = "1.5.0";
+        version = "1.6.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/go-mode-1.5.0.tar";
-          sha256 = "0v4lw5dkijajpxyigin4cd5q4ldrabljaz65zr5f7mgqn5sizj3q";
+          url = "https://elpa.nongnu.org/nongnu/go-mode-1.6.0.tar";
+          sha256 = "1j83i56ldkf79l7dyjbv9rvy3ki2xlvgj2y7jnap92hbd2q50jsy";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/go-mode.html";
           license = lib.licenses.free;
