@@ -1206,10 +1206,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20211226";
+        version = "20220115";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20211226.tar";
-          sha256 = "15ggg7sv4m5yc8ldyyffz7vgaj00xbw15zga0x2lpdfmahh6y2as";
+          url = "https://elpa.gnu.org/packages/eev-20220115.tar";
+          sha256 = "1p8g4m7qxqxjwppaaav0acnd4kw101vbh57i9871yminhzzdh22j";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1324,10 +1324,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.14";
+        version = "0.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-0.14.tar";
-          sha256 = "12d4lza54sf493z9hx1fqlrhrx19girrdh560syi4gg03kg8s7nr";
+          url = "https://elpa.gnu.org/packages/embark-0.15.tar";
+          sha256 = "0dr97549xrs9j1fhnqpdspvbfxnzqvzvpi8qc91fd2v4jsfwlklh";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1344,10 +1344,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-consult-0.3.tar";
-          sha256 = "1l38bnphfq65r2fjy8zi7a8l4h361bfz756sswa3r7446jhd48rv";
+          url = "https://elpa.gnu.org/packages/embark-consult-0.4.tar";
+          sha256 = "1z0xc11y59lagfsd2raps4iz68hvw132ff0qynbmvgw63mp1w4yy";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
