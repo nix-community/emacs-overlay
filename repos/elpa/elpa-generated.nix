@@ -3590,10 +3590,10 @@
       elpaBuild {
         pname = "relint";
         ename = "relint";
-        version = "1.19";
+        version = "1.20";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/relint-1.19.tar";
-          sha256 = "14z3i01pq5ljhjf5yfcjw7hxljcrwjnizkrdc1qyh9b6h3ic1bbi";
+          url = "https://elpa.gnu.org/packages/relint-1.20.tar";
+          sha256 = "0r20dim2r4a4bv0fmgbnq3graa7hhlai55h9qyknapqbr2j1v1h7";
         };
         packageRequires = [ emacs xr ];
         meta = {
@@ -4076,10 +4076,10 @@
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.2.4";
+        version = "0.2.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/svg-lib-0.2.4.tar";
-          sha256 = "0vcf3vbrzhgwssf6mi4xyic32yzjsrllp2zaqdk3c0qjvq9w4wxa";
+          url = "https://elpa.gnu.org/packages/svg-lib-0.2.5.tar";
+          sha256 = "022jp54w14sv0d71j0z76bnir9bgvysmcpcxpzpiiz77da6rg393";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4839,10 +4839,10 @@
       elpaBuild {
         pname = "xr";
         ename = "xr";
-        version = "1.21";
+        version = "1.22";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xr-1.21.tar";
-          sha256 = "0mc10d33lsqs0ihcja8w78jzh2pk0dfm9m86kap6r3hi6wkr1cmi";
+          url = "https://elpa.gnu.org/packages/xr-1.22.tar";
+          sha256 = "1l3bqgzvbamfs4n628kg789g7vjn4v81q570gzbw2cwjgk4s6xbj";
         };
         packageRequires = [ emacs ];
         meta = {
