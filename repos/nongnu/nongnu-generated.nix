@@ -991,6 +991,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    jinja2-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "jinja2-mode";
+        ename = "jinja2-mode";
+        version = "0.3";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/jinja2-mode-0.3.tar";
+          sha256 = "1zkyac4akwnz8a136xyn6915j6jgpf0xilbf4krw7q6k8nkks2m4";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/jinja2-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     julia-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "julia-mode";
