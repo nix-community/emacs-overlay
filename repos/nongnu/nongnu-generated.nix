@@ -1274,6 +1274,27 @@
           license = lib.licenses.free;
         };
       }) {};
+    org-drill = callPackage ({ elpaBuild
+                             , emacs
+                             , fetchurl
+                             , lib
+                             , org
+                             , persist
+                             , seq }:
+      elpaBuild {
+        pname = "org-drill";
+        ename = "org-drill";
+        version = "2.7.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/org-drill-2.7.0.tar";
+          sha256 = "0f61cfw7qy8w5835hh0rh33ai5i50dzliymdpkvmvffgkx7mikx5";
+        };
+        packageRequires = [ emacs org persist seq ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-drill.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     org-journal = callPackage ({ elpaBuild, emacs, fetchurl, lib, org }:
       elpaBuild {
         pname = "org-journal";
