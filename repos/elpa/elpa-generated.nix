@@ -2273,10 +2273,10 @@
       elpaBuild {
         pname = "leaf";
         ename = "leaf";
-        version = "4.5.2";
+        version = "4.5.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/leaf-4.5.2.tar";
-          sha256 = "0i90shhhkpdcwmfi8zv0008qgmg4g3cqd2yvpycfv9n2axvhag54";
+          url = "https://elpa.gnu.org/packages/leaf-4.5.5.tar";
+          sha256 = "1rdbrf84ijapiqhq72gy8r5xgk54sf0jy31pgd3w4rl1wywh5cas";
         };
         packageRequires = [ emacs ];
         meta = {
