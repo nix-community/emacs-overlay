@@ -155,6 +155,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    bind-map = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "bind-map";
+        ename = "bind-map";
+        version = "1.1.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/bind-map-1.1.2.tar";
+          sha256 = "1x98pgalnpl45h63yw6zz6q16x00phijyx2pf4jrf93s18lx33z5";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/bind-map.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     bison-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "bison-mode";
