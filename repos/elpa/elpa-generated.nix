@@ -4335,10 +4335,10 @@
       elpaBuild {
         pname = "uni-confusables";
         ename = "uni-confusables";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/uni-confusables-0.2.tar";
-          sha256 = "1an2l7f8lqhp3hq511a371isv1q00nx431g2a7266pp6pn2sndj1";
+          url = "https://elpa.gnu.org/packages/uni-confusables-0.3.tar";
+          sha256 = "1grmppbyzvjjz0yiv5vvgpykhalisj9jnh6p9ip9vbnnll63iz4w";
         };
         packageRequires = [];
         meta = {
