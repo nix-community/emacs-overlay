@@ -1097,6 +1097,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    dtache = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "dtache";
+        ename = "dtache";
+        version = "0.4";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/dtache-0.4.tar";
+          sha256 = "1m197pis32wmv37wgby5rfzc46rjqs7xzd2da5ca1bxviic6g887";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/dtache.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     dts-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "dts-mode";
@@ -3220,10 +3235,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "1.1.6";
+        version = "1.1.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-1.1.6.tar";
-          sha256 = "0aqbvgsvkhd174mb3vv9bszw7iawnf6nsqjzlwzgv1z2hrxb27h2";
+          url = "https://elpa.gnu.org/packages/posframe-1.1.7.tar";
+          sha256 = "13i2wxx079gfq0vbq0iwmsig5b7x4aspd1q02yqc79846f1dsx4w";
         };
         packageRequires = [ emacs ];
         meta = {
