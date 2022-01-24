@@ -756,10 +756,10 @@
       elpaBuild {
         pname = "coterm";
         ename = "coterm";
-        version = "1.3";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/coterm-1.3.tar";
-          sha256 = "078rrc776mdzb4nczp1h8p0pymzds76kz3g2h78ri95k3wpy5ksj";
+          url = "https://elpa.gnu.org/packages/coterm-1.4.tar";
+          sha256 = "0cs9hqffkzlkkpcfhdh67gg3vzvffrjawmi89q7x9p52fk9rcxp6";
         };
         packageRequires = [ emacs ];
         meta = {
