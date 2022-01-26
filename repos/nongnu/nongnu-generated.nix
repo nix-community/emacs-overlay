@@ -370,6 +370,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    drupal-mode = callPackage ({ elpaBuild, fetchurl, lib, php-mode }:
+      elpaBuild {
+        pname = "drupal-mode";
+        ename = "drupal-mode";
+        version = "0.7.4";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/drupal-mode-0.7.4.tar";
+          sha256 = "1cglipmwx5v8vaqkkc7f5ka3dpxlrmmqrqhi885mm625kh2r27j1";
+        };
+        packageRequires = [ php-mode ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/drupal-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     editorconfig = callPackage ({ cl-lib ? null
                                 , elpaBuild
                                 , emacs
