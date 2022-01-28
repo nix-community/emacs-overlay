@@ -1007,6 +1007,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    diminish = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "diminish";
+        ename = "diminish";
+        version = "0.46";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/diminish-0.46.tar";
+          sha256 = "17lsm5khp7cqrva13kn252ab57lw28sibf14615wdjvfqwlwwha4";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/diminish.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     dired-du = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "dired-du";
