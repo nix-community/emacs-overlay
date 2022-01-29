@@ -1749,10 +1749,10 @@
       elpaBuild {
         pname = "subatomic-theme";
         ename = "subatomic-theme";
-        version = "1.8.1";
+        version = "1.8.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subatomic-theme-1.8.1.tar";
-          sha256 = "0j496l7c2rwgxk2srcf1a70z63y48q5bs9cpx95212q7rl20zhip";
+          url = "https://elpa.nongnu.org/nongnu/subatomic-theme-1.8.2.tar";
+          sha256 = "0h2ln37ir6w4q44vznlkw4kzaisfpvkgs02dnb2x9b1wdg5qfqw4";
         };
         packageRequires = [];
         meta = {
