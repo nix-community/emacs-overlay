@@ -4275,10 +4275,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.5.2";
+        version = "2.5.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.5.2.tar";
-          sha256 = "1j71x3q6x9xyf21capjxcp85b7z2x9khrqsd2sy2s3qwxz3jbg5n";
+          url = "https://elpa.gnu.org/packages/tramp-2.5.2.1.tar";
+          sha256 = "1101nb0raiivrv1z4w442688cxj5mpf4h4zxzy6mhirgsbayk91p";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4576,10 +4576,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.5.1";
+        version = "0.5.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-posframe-0.5.1.tar";
-          sha256 = "1a2jbdfra14cxwjnfq281g1hh45fx7rkkvil7s33jfkqhiassl8q";
+          url = "https://elpa.gnu.org/packages/vertico-posframe-0.5.2.tar";
+          sha256 = "0gzvm0la706kg3aqgrd6crz6353sp47dnpxdj9l2avb31avyqmv9";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
