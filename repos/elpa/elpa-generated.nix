@@ -3205,10 +3205,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.15";
+        version = "0.4.16";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.15.tar";
-          sha256 = "0yv9pxm0k8dim70xaqgiwqxs9li81bwpgfclb0q90kpbv173xyw9";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.16.tar";
+          sha256 = "0k8n2pa20nkqd8w4c86p1f5cgn93favxxhws62i4w16934x6w07j";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4464,10 +4464,10 @@
       elpaBuild {
         pname = "vc-got";
         ename = "vc-got";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vc-got-1.0.tar";
-          sha256 = "1lx52g261zr52gy63vjll8mvczcbdzbsx3wa47qdajrq9bwmj99j";
+          url = "https://elpa.gnu.org/packages/vc-got-1.1.tar";
+          sha256 = "1myck30ybq8ggf4yk3s2sqjqj8m1kfl8qxygkk3ynfa6jxxy4x1r";
         };
         packageRequires = [ emacs ];
         meta = {
