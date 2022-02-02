@@ -1979,10 +1979,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.0.1";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.0.1.tar";
-          sha256 = "0xd8xdrpzwzkh98vss4iqvx6aa12lkfvr784f6qc3ak00p24i0rn";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.0.2.tar";
+          sha256 = "187ksczrqqzjnbvh8px3xvqyf38i7ac24z1qxzybd4vx2n071v64";
         };
         packageRequires = [ emacs ];
         meta = {
