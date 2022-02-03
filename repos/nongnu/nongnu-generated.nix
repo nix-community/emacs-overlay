@@ -480,6 +480,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    evil-args = callPackage ({ elpaBuild, evil, fetchurl, lib }:
+      elpaBuild {
+        pname = "evil-args";
+        ename = "evil-args";
+        version = "1.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-args-1.1.tar";
+          sha256 = "0lgwrhjsy098h2lhsiasm39kzkdfqcjnapc2q6f2gyf7zll37761";
+        };
+        packageRequires = [ evil ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-args.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     evil-exchange = callPackage ({ cl-lib ? null
                                  , elpaBuild
                                  , evil
