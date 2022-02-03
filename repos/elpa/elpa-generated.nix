@@ -1116,10 +1116,10 @@
       elpaBuild {
         pname = "dtache";
         ename = "dtache";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dtache-0.4.tar";
-          sha256 = "1m197pis32wmv37wgby5rfzc46rjqs7xzd2da5ca1bxviic6g887";
+          url = "https://elpa.gnu.org/packages/dtache-0.5.tar";
+          sha256 = "10gcnkajpw7szd41l6ykkysv00yp93y1z9ajhcmk4wzni93w21z2";
         };
         packageRequires = [ emacs ];
         meta = {
