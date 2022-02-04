@@ -3952,16 +3952,20 @@
           license = lib.licenses.free;
         };
       }) {};
-    soap-client = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+    soap-client = callPackage ({ cl-lib ? null
+                               , elpaBuild
+                               , emacs
+                               , fetchurl
+                               , lib }:
       elpaBuild {
         pname = "soap-client";
         ename = "soap-client";
-        version = "3.2.0";
+        version = "3.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/soap-client-3.2.0.tar";
-          sha256 = "1s0bwnip22nj6kgjadd4zlj9j729hiyyjb66sr51i2mddnf9i95s";
+          url = "https://elpa.gnu.org/packages/soap-client-3.2.1.tar";
+          sha256 = "0ajv6l1p8dinnlybwzvv4c2i6291is6isjxb2h4apg27g66qbcki";
         };
-        packageRequires = [ cl-lib ];
+        packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/soap-client.html";
           license = lib.licenses.free;
