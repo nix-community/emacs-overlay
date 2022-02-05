@@ -45,6 +45,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    annotate = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "annotate";
+        ename = "annotate";
+        version = "1.5.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/annotate-1.5.0.tar";
+          sha256 = "0ba91yy2id5jsl9bg8cfjm2sqbqp9jwwdikwkdj5v6xz6ggh134b";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/annotate.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     anti-zenburn-theme = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "anti-zenburn-theme";
