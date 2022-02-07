@@ -1039,31 +1039,31 @@
           license = lib.licenses.free;
         };
       }) {};
-    helm = callPackage ({ elpaBuild, fetchurl, lib }:
+    helm = callPackage ({ elpaBuild, fetchurl, helm-core, lib, popup }:
       elpaBuild {
         pname = "helm";
         ename = "helm";
-        version = "3.8.3";
+        version = "3.8.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-3.8.3.tar";
-          sha256 = "00qjcv4qxjw50zp5dzvn79c0xpyla4h41fxkr2jjszq6qzgd92cv";
+          url = "https://elpa.nongnu.org/nongnu/helm-3.8.4.tar";
+          sha256 = "0yc7ijap3g68w7npgwymzlp5bcawk3lhnp0004m03zfdbxhmkq0z";
         };
-        packageRequires = [];
+        packageRequires = [ helm-core popup ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/helm.html";
           license = lib.licenses.free;
         };
       }) {};
-    helm-core = callPackage ({ elpaBuild, fetchurl, lib }:
+    helm-core = callPackage ({ elpaBuild, fetchurl, helm-core, lib, popup }:
       elpaBuild {
         pname = "helm-core";
         ename = "helm-core";
-        version = "3.8.3";
+        version = "3.8.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-core-3.8.3.tar";
-          sha256 = "11ggn1fmi8wbg2igs5lqppyccgpz8kyfzl17wqkr5xy69lr1jn5g";
+          url = "https://elpa.nongnu.org/nongnu/helm-core-3.8.4.tar";
+          sha256 = "1q4d19myy189wxlrywfl0a6pcfhlxa92k1y7qsdji10fswvp05yg";
         };
-        packageRequires = [];
+        packageRequires = [ helm-core popup ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/helm-core.html";
           license = lib.licenses.free;
@@ -2143,6 +2143,21 @@
         packageRequires = [ caml emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/tuareg.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    typescript-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "typescript-mode";
+        ename = "typescript-mode";
+        version = "0.4";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/typescript-mode-0.4.tar";
+          sha256 = "1102c35w2b66q5acvhsk6yigzhp6n3rl0s28xnvb74ansk4rz35k";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/typescript-mode.html";
           license = lib.licenses.free;
         };
       }) {};
