@@ -1640,10 +1640,10 @@
       elpaBuild {
         pname = "parseclj";
         ename = "parseclj";
-        version = "1.0.6";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/parseclj-1.0.6.tar";
-          sha256 = "0cs6a394pll9sl8ybpsygg9mkznpz119f8hjgw3n7mgkwfc5a30k";
+          url = "https://elpa.nongnu.org/nongnu/parseclj-1.1.0.tar";
+          sha256 = "0h6fia59crqb1y83a04sjlhlpm6349s6c14zsiqsfi73m97dli6p";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1655,10 +1655,10 @@
       elpaBuild {
         pname = "parseedn";
         ename = "parseedn";
-        version = "1.0.6";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/parseedn-1.0.6.tar";
-          sha256 = "1274pr91hcrvy4srdy2dw14hbcg2qy24z4klx6mashgzb1r42n3d";
+          url = "https://elpa.nongnu.org/nongnu/parseedn-1.1.0.tar";
+          sha256 = "1by9cy7pn12124vbg59c9qmn2k8v5dbqq4c8if81fclrccjqhrz4";
         };
         packageRequires = [ emacs map parseclj ];
         meta = {
