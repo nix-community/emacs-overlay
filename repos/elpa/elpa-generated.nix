@@ -2483,10 +2483,10 @@
       elpaBuild {
         pname = "mct";
         ename = "mct";
-        version = "0.4.2";
+        version = "0.5.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/mct-0.4.2.tar";
-          sha256 = "0as8298mb136az555zag5q3xvc7d0z508d3siii60wmzs9dyb8dx";
+          url = "https://elpa.gnu.org/packages/mct-0.5.0.tar";
+          sha256 = "0yv0hqkyh5vpmf5i50fdc2rw3ssvrd9pn3n65v3gmb195gzmn6r9";
         };
         packageRequires = [ emacs ];
         meta = {
