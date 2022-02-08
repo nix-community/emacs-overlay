@@ -752,10 +752,10 @@
       elpaBuild {
         pname = "geiser-gambit";
         ename = "geiser-gambit";
-        version = "0.17";
+        version = "0.18";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-gambit-0.17.tar";
-          sha256 = "12r9h1dl0y9j421v0idvr9ljj93962xfrs0nff5lmx5z1cayq456";
+          url = "https://elpa.nongnu.org/nongnu/geiser-gambit-0.18.tar";
+          sha256 = "0kfa1ndpypnyc9d655p5n1pbfds6z2njrl79d0scvwy83qs9cah9";
         };
         packageRequires = [ emacs geiser ];
         meta = {
