@@ -454,10 +454,10 @@
       elpaBuild {
         pname = "elpher";
         ename = "elpher";
-        version = "3.3.1";
+        version = "3.3.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/elpher-3.3.1.tar";
-          sha256 = "056z3ryj2288wgl8h4b33v9hybm8n2kfrqyb22bmlq1npcixyjl7";
+          url = "https://elpa.nongnu.org/nongnu/elpher-3.3.2.tar";
+          sha256 = "1w34agw5qfgbpk6s2bllvgkj4wm1rlcyn33yfgj2xr4a5gfcs30a";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -752,10 +752,10 @@
       elpaBuild {
         pname = "geiser-gambit";
         ename = "geiser-gambit";
-        version = "0.18";
+        version = "0.18.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-gambit-0.18.tar";
-          sha256 = "0kfa1ndpypnyc9d655p5n1pbfds6z2njrl79d0scvwy83qs9cah9";
+          url = "https://elpa.nongnu.org/nongnu/geiser-gambit-0.18.1.tar";
+          sha256 = "03cv51war65yrg5qswwlx755byn2nlm1qvbzqqminnidz64kfd3v";
         };
         packageRequires = [ emacs geiser ];
         meta = {
