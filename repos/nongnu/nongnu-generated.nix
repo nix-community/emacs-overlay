@@ -1054,16 +1054,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    helm-core = callPackage ({ elpaBuild, fetchurl, helm-core, lib, popup }:
+    helm-core = callPackage ({ async, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "helm-core";
         ename = "helm-core";
         version = "3.8.4";
         src = fetchurl {
           url = "https://elpa.nongnu.org/nongnu/helm-core-3.8.4.tar";
-          sha256 = "1q4d19myy189wxlrywfl0a6pcfhlxa92k1y7qsdji10fswvp05yg";
+          sha256 = "0a1liapy345nlqjgxbzad0mkdbs4g6619cqplwiyh89x0lm0jprx";
         };
-        packageRequires = [ helm-core popup ];
+        packageRequires = [ async emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/helm-core.html";
           license = lib.licenses.free;
