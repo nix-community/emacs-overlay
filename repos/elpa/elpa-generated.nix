@@ -1594,10 +1594,10 @@
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.2.1";
+        version = "1.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/flymake-1.2.1.tar";
-          sha256 = "1j4j1mxqvkpdccrm5khykmdpm8z9p0pxvnsw4cz9b76xzfdzy5pz";
+          url = "https://elpa.gnu.org/packages/flymake-1.2.2.tar";
+          sha256 = "04pa6mayyqrhrijk0rmmrd7k7al9caqyrb5qzkzwbna9ykb1j4zp";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
@@ -2213,10 +2213,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.15";
+        version = "1.0.14";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.15.tar";
-          sha256 = "1hx378rg12jz2zm105cvrqk0nqyzsn04l59d903l98d6lbd96rsw";
+          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.14.tar";
+          sha256 = "16vxf7vydh41xdjbk5ixkh24jdk71csy2i28qv0hxxn83mqrcvwl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2423,10 +2423,10 @@
       elpaBuild {
         pname = "map";
         ename = "map";
-        version = "3.2.1";
+        version = "2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/map-3.2.1.tar";
-          sha256 = "1vy231m2fm5cgz5nib14ib7ifprajhnbmzf6x4id48h2491m1n24";
+          url = "https://elpa.gnu.org/packages/map-2.1.tar";
+          sha256 = "09l5m0m5a19vmjzlcpjsrwfvsx5n165fvaxx0x6x138nxia3l028";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3340,10 +3340,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28";
+        version = "0.26.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/python-0.28.tar";
-          sha256 = "1pvhsdjla1rvw223h7irmbzzsrixnpy1rsskiq9xmkpkc688b6pm";
+          url = "https://elpa.gnu.org/packages/python-0.26.1.tar";
+          sha256 = "0s3an6p69l164chhxbl1sqyw3wf2iqhhygx5npzw6wl974brmlaz";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3952,20 +3952,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    soap-client = callPackage ({ cl-lib ? null
-                               , elpaBuild
-                               , emacs
-                               , fetchurl
-                               , lib }:
+    soap-client = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "soap-client";
         ename = "soap-client";
-        version = "3.2.1";
+        version = "3.1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/soap-client-3.2.1.tar";
-          sha256 = "0ajv6l1p8dinnlybwzvv4c2i6291is6isjxb2h4apg27g66qbcki";
+          url = "https://elpa.gnu.org/packages/soap-client-3.1.3.tar";
+          sha256 = "1mhhc64832lz4x0vpap3kv0f7ljvs3zx118yrl5cj1b5ia90l9i8";
         };
-        packageRequires = [ cl-lib emacs ];
+        packageRequires = [ cl-lib ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/soap-client.html";
           license = lib.licenses.free;
