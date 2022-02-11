@@ -2213,10 +2213,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.14";
+        version = "1.0.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.14.tar";
-          sha256 = "16vxf7vydh41xdjbk5ixkh24jdk71csy2i28qv0hxxn83mqrcvwl";
+          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.15.tar";
+          sha256 = "0biwvkvd48xqvigzs00yz4mk847xzyzm7p0lkns58fxph9nkg4h5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2423,10 +2423,10 @@
       elpaBuild {
         pname = "map";
         ename = "map";
-        version = "2.1";
+        version = "3.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/map-2.1.tar";
-          sha256 = "09l5m0m5a19vmjzlcpjsrwfvsx5n165fvaxx0x6x138nxia3l028";
+          url = "https://elpa.gnu.org/packages/map-3.2.1.tar";
+          sha256 = "1zj0y3nvkrd2v43za214xr3h9z6wyp7r5s6nf5g1pj272yb871d1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2625,7 +2625,7 @@
         version = "2.0.0";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/modus-themes-2.0.0.tar";
-          sha256 = "16kvkm7hsdk6jfdjkzafwdkwwri7cqki29qxqqhzkpwwghqlissl";
+          sha256 = "15d1ywj8k4yh57arzv7z2ir49gf2j7a80pscrfgxsypnyl2dkkfa";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3268,7 +3268,7 @@
         version = "0.8.1";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/project-0.8.1.tar";
-          sha256 = "1x3zkbjsi04v5ny3yxqrb75vcacrj9kxmpm9mvkp0n07j5g34f68";
+          sha256 = "0q2js8qihlhchpx2mx0f992ygslsqri2q4iv8kcl4fx31lpp7c1k";
         };
         packageRequires = [ emacs xref ];
         meta = {
@@ -3340,10 +3340,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.26.1";
+        version = "0.28";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/python-0.26.1.tar";
-          sha256 = "0s3an6p69l164chhxbl1sqyw3wf2iqhhygx5npzw6wl974brmlaz";
+          url = "https://elpa.gnu.org/packages/python-0.28.tar";
+          sha256 = "1kc596b8bbcp8y87kqyxsv3bblz8l0vyc0d645ayb1cmwwvk35d5";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3944,7 +3944,7 @@
         version = "1.1.2";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/so-long-1.1.2.tar";
-          sha256 = "053msvy2pyispwg4zzpaczfkl6rvnwfklm4jdsbjhqm0kx4vlcs9";
+          sha256 = "0gb5ypl9phhv8sx7akw9xn7njfq86yqngixhxf8qj1fxp57gfpdb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3952,16 +3952,20 @@
           license = lib.licenses.free;
         };
       }) {};
-    soap-client = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+    soap-client = callPackage ({ cl-lib ? null
+                               , elpaBuild
+                               , emacs
+                               , fetchurl
+                               , lib }:
       elpaBuild {
         pname = "soap-client";
         ename = "soap-client";
-        version = "3.1.3";
+        version = "3.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/soap-client-3.1.3.tar";
-          sha256 = "1mhhc64832lz4x0vpap3kv0f7ljvs3zx118yrl5cj1b5ia90l9i8";
+          url = "https://elpa.gnu.org/packages/soap-client-3.2.1.tar";
+          sha256 = "0v3aj059cvfv5yc9fx8naq8ygphlpbasc1nksgfim8iyk9wg7l3n";
         };
-        packageRequires = [ cl-lib ];
+        packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/soap-client.html";
           license = lib.licenses.free;
@@ -4544,7 +4548,7 @@
         version = "2021.10.14.127365406";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2021.10.14.127365406.tar";
-          sha256 = "0d842dwg98srv73nkg69c7x24rw20mxgqmb4k1qcbl02bwxkfmsm";
+          sha256 = "1v0ld310rs86vzmlw7phv1b5p59faqs9wg4p8jpbnb9ap9lwidnl";
         };
         packageRequires = [];
         meta = {
@@ -4887,7 +4891,7 @@
         version = "1.3.2";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/xref-1.3.2.tar";
-          sha256 = "13bsaxdxwn14plaam0hsrswngh3rm2k29v5ybjgjyjy4d5vwz78j";
+          sha256 = "1bwvli2d6d06gh004hnbbwy6rkn0jv1d1s7slfladqjjdkpjvpzd";
         };
         packageRequires = [ emacs ];
         meta = {
