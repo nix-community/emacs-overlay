@@ -1604,10 +1604,10 @@
       elpaBuild {
         pname = "orgit";
         ename = "orgit";
-        version = "1.7.2";
+        version = "1.8.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/orgit-1.7.2.tar";
-          sha256 = "1kf72l8h3wqgnrchy6wvhm3nmc9drh82yw5211f4xgg2ckr60rn1";
+          url = "https://elpa.nongnu.org/nongnu/orgit-1.8.0.tar";
+          sha256 = "03qjhiv3smnpjciz5sfri7v5gzgcnk5g0lhgm06flqnarfrrkn1h";
         };
         packageRequires = [ emacs magit org ];
         meta = {
