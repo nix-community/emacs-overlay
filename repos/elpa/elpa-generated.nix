@@ -1236,10 +1236,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20220211";
+        version = "20220212";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20220211.tar";
-          sha256 = "1i6fyacjzzid1012b4zzp2wdqxq8h81ll1q2sspz80gszpjx1m64";
+          url = "https://elpa.gnu.org/packages/eev-20220212.tar";
+          sha256 = "1w04jwh8y6l1fgx6sahwj9znw9cm83a1lld5vdgnbsww2m5nk8zm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3145,10 +3145,10 @@
       elpaBuild {
         pname = "parser-generator";
         ename = "parser-generator";
-        version = "0.1.3";
+        version = "0.1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/parser-generator-0.1.3.tar";
-          sha256 = "13ssmdlni9ma6iafr4zwa2jlmq6rdlaafkdpli1a4jrk6ri6w996";
+          url = "https://elpa.gnu.org/packages/parser-generator-0.1.4.tar";
+          sha256 = "0712y22cl6i98jlhmsm436v0mlmscbypc15sdkn704a491ipq2qj";
         };
         packageRequires = [ emacs ];
         meta = {
