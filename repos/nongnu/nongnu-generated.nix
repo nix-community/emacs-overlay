@@ -1220,10 +1220,10 @@
       elpaBuild {
         pname = "keycast";
         ename = "keycast";
-        version = "1.1.3";
+        version = "1.2.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/keycast-1.1.3.tar";
-          sha256 = "0b4vyaxqdw11ai81vnvif8i02jcaf5hk64kbb7bs90527zwz2fw0";
+          url = "https://elpa.nongnu.org/nongnu/keycast-1.2.0.tar";
+          sha256 = "0iiksz8lcz9y5yplw455v2zgvq2jz6jc2ic3ybax10v3wgxnhiad";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1325,10 +1325,10 @@
       elpaBuild {
         pname = "markdown-mode";
         ename = "markdown-mode";
-        version = "2.4";
+        version = "2.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/markdown-mode-2.4.tar";
-          sha256 = "002nvc2p7jzznr743znbml3vj8a3kvdd89rlbi28f5ha14g2567z";
+          url = "https://elpa.nongnu.org/nongnu/markdown-mode-2.5.tar";
+          sha256 = "195p4bz2k5rs6222pfxv6rk2r22snx33gvc1x3rs020lacppbhik";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2260,10 +2260,10 @@
       elpaBuild {
         pname = "with-editor";
         ename = "with-editor";
-        version = "3.1.1";
+        version = "3.2.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/with-editor-3.1.1.tar";
-          sha256 = "175k68mr0n3v5l3gbv2fsdfznm9yjy32l3ay6hj0d4c53kw76hvn";
+          url = "https://elpa.nongnu.org/nongnu/with-editor-3.2.0.tar";
+          sha256 = "1rsggbhkngzbcmg3076jbi1sfkzz8p4s5i00sk0ywc6vkmsp6s1k";
         };
         packageRequires = [ emacs ];
         meta = {
