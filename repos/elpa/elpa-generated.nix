@@ -741,10 +741,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.18";
+        version = "0.19";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.18.tar";
-          sha256 = "1g1b05wc9qql5qw3diprx0ay2rmq7963gdgyh7bi5i0xlfaspbgi";
+          url = "https://elpa.gnu.org/packages/corfu-0.19.tar";
+          sha256 = "0jilhsddzjm0is7kqdklpr2ih50k2c3sik2i9vlgcizxqaqss97c";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3018,6 +3018,21 @@
         packageRequires = [ boxy emacs org ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/org-real.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    org-remark = callPackage ({ elpaBuild, emacs, fetchurl, lib, org }:
+      elpaBuild {
+        pname = "org-remark";
+        ename = "org-remark";
+        version = "1.0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/org-remark-1.0.1.tar";
+          sha256 = "0jsrw5y6y7pvwnih98xmfng66dil5rnhilm4l6cl87rz71m53kmf";
+        };
+        packageRequires = [ emacs org ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-remark.html";
           license = lib.licenses.free;
         };
       }) {};
