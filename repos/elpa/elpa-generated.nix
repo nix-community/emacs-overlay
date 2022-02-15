@@ -1339,10 +1339,10 @@
       elpaBuild {
         pname = "elisp-benchmarks";
         ename = "elisp-benchmarks";
-        version = "1.13";
+        version = "1.14";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.13.tar";
-          sha256 = "13gvljqj7k8qpyn9fcwa6gl3kqakiy5rqx5s3afdc2y356a06wr6";
+          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.14.tar";
+          sha256 = "1n9p4kl4d5rcbjgl8yifv0nqnrzxsx937fm0d2j589gg28rzlqpb";
         };
         packageRequires = [];
         meta = {
@@ -3025,10 +3025,10 @@
       elpaBuild {
         pname = "org-remark";
         ename = "org-remark";
-        version = "1.0.1";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-remark-1.0.1.tar";
-          sha256 = "0jsrw5y6y7pvwnih98xmfng66dil5rnhilm4l6cl87rz71m53kmf";
+          url = "https://elpa.gnu.org/packages/org-remark-1.0.2.tar";
+          sha256 = "12g9kmr0gfs1pi1410akvcaiax0dswbw09sgqbib58mikb3074nv";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -4748,10 +4748,10 @@
       elpaBuild {
         pname = "which-key";
         ename = "which-key";
-        version = "3.5.1";
+        version = "3.6.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/which-key-3.5.1.tar";
-          sha256 = "187cssvqpd0wj01rgd19pp1k6aj9m2n5fdqznkga6w1h6cb5cm2b";
+          url = "https://elpa.gnu.org/packages/which-key-3.6.0.tar";
+          sha256 = "05wy147734mlpzwwxdhidnsplrz2vzs1whczzs4jw1i7kp7jvy3v";
         };
         packageRequires = [ emacs ];
         meta = {
