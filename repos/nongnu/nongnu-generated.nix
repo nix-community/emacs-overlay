@@ -1126,10 +1126,10 @@
       elpaBuild {
         pname = "iedit";
         ename = "iedit";
-        version = "0.9.9.9";
+        version = "0.9.9.9.9";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/iedit-0.9.9.9.tar";
-          sha256 = "1kwm7pa1x5dbn9irdrz9vg5zivrqx1w2ywrbpglk2lgd9kff0nsj";
+          url = "https://elpa.nongnu.org/nongnu/iedit-0.9.9.9.9.tar";
+          sha256 = "1ic780gd7n2qrpbqr0vy62p7wsrskyvyr571m8m3j25fii8v8cxg";
         };
         packageRequires = [];
         meta = {
