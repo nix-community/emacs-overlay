@@ -60,8 +60,8 @@ Furthermore we provide emacs compiled with the native compilation backend enable
 under the attribute =emacsGcc=.
 
 We also provide two attributes named =emacsGit-nox= and =emacsUnstable-nox=
-if you wish to have Emacs built without X dependencies, as well as the
-experimental pgtk branch which supports Wayland natively.
+if you wish to have Emacs built without X dependencies.
+=emacsPgtk= and =emacsPgtkGcc= use the experimental pgtk branch which support Wayland natively.
 
 ** Extra library functionality
 This overlay comes with extra functions to generate an Emacs closure
