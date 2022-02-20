@@ -3160,10 +3160,10 @@
       elpaBuild {
         pname = "parser-generator";
         ename = "parser-generator";
-        version = "0.1.4";
+        version = "0.1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/parser-generator-0.1.4.tar";
-          sha256 = "0712y22cl6i98jlhmsm436v0mlmscbypc15sdkn704a491ipq2qj";
+          url = "https://elpa.gnu.org/packages/parser-generator-0.1.5.tar";
+          sha256 = "06cl9whk321l1q5xcjmgq5c59l10ybwcdsmmbrkrllnbpqxy23bj";
         };
         packageRequires = [ emacs ];
         meta = {
