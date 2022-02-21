@@ -4305,6 +4305,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    tramp-nspawn = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "tramp-nspawn";
+        ename = "tramp-nspawn";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/tramp-nspawn-1.0.tar";
+          sha256 = "1si649vcj4md50p5nzvw431580rcl113rraj6fw636a394485hvx";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/tramp-nspawn.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     tramp-theme = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "tramp-theme";
