@@ -234,10 +234,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.0.16";
+        version = "13.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.0.16.tar";
-          sha256 = "1r9piq4js45knw8sf73kk8jjinmx4m2mdinc98xrklnwcffw7hjf";
+          url = "https://elpa.gnu.org/packages/auctex-13.1.0.tar";
+          sha256 = "0x3f4g58czwbyxhr5zy60mlwr05aadd19k5gi6aq26h1p82hng63";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -309,10 +309,10 @@
       elpaBuild {
         pname = "bbdb";
         ename = "bbdb";
-        version = "3.2";
+        version = "3.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bbdb-3.2.tar";
-          sha256 = "1p56dg0mja2b2figy7yhdx714zd5j6njzn0k07zjka3jc06izvjx";
+          url = "https://elpa.gnu.org/packages/bbdb-3.2.1.tar";
+          sha256 = "01vsnifs47krq1srgdkk9agbv3p2fykl9nydr4nrfjxbqpnyh3ij";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -4918,10 +4918,10 @@
       elpaBuild {
         pname = "xref";
         ename = "xref";
-        version = "1.3.2";
+        version = "1.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xref-1.3.2.tar";
-          sha256 = "1bwvli2d6d06gh004hnbbwy6rkn0jv1d1s7slfladqjjdkpjvpzd";
+          url = "https://elpa.gnu.org/packages/xref-1.4.0.tar";
+          sha256 = "1ng03fyhpisa1v99sc96mpr7hna1pmg4gdc61p86r8lka9m5gqfx";
         };
         packageRequires = [ emacs ];
         meta = {
