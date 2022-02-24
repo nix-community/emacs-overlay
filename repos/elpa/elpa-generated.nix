@@ -2622,10 +2622,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "2.1.0";
+        version = "2.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-themes-2.1.0.tar";
-          sha256 = "08lz5k1dbrrss6s3avrx24ql34lmi9fbcksnh2738vynpcd1qdf9";
+          url = "https://elpa.gnu.org/packages/modus-themes-2.2.0.tar";
+          sha256 = "1vgwr9q16d3hjwmqljmmzlpn177gvwbk3wg4l1fmgc5bpb7k78ky";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3650,10 +3650,10 @@
       elpaBuild {
         pname = "repology";
         ename = "repology";
-        version = "1.2.1";
+        version = "1.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/repology-1.2.1.tar";
-          sha256 = "0la10xnd4ad0rgqmlb5yvhmbpiasjxj149axwcpw9wya2w5k510h";
+          url = "https://elpa.gnu.org/packages/repology-1.2.2.tar";
+          sha256 = "0ggb0zgz24hs5andhyrlpqm0gda0gf1wynzkarj4z7gpk5p9wrpr";
         };
         packageRequires = [ emacs ];
         meta = {
