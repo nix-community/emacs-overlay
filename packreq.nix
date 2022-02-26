@@ -14,7 +14,7 @@ in
 }:
 let
   packages = parse.parsePackagesFromPackageRequires packageElisp;
-  emacsPackages = pkgs.emacsPackagesGen package;
+  emacsPackages = pkgs.emacsPackagesFor package;
   emacsWithPackages = emacsPackages.emacsWithPackages;
 in
 emacsWithPackages (epkgs:
