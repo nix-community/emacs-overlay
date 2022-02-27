@@ -51,7 +51,7 @@ let
     inherit configText isOrgModeFile alwaysTangle;
     alwaysEnsure = doEnsure;
   };
-  emacsPackages = pkgs.emacsPackagesGen package;
+  emacsPackages = pkgs.emacsPackagesFor package;
   emacsWithPackages = emacsPackages.emacsWithPackages;
   mkPackageError = name:
     let
