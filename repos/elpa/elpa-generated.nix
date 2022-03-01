@@ -425,6 +425,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    buffer-env = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "buffer-env";
+        ename = "buffer-env";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/buffer-env-0.2.tar";
+          sha256 = "1420qln8ww43d6gs70cnxab6lf10dhmk5yk29pwsvjk86afhwhwf";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/buffer-env.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     buffer-expose = callPackage ({ cl-lib ? null
                                  , elpaBuild
                                  , emacs
@@ -606,6 +621,21 @@
         packageRequires = [ cl-lib ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/cobol-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    code-cells = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "code-cells";
+        ename = "code-cells";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/code-cells-0.2.tar";
+          sha256 = "19v6a7l23646diazl0rzjxjsam12hm08hgyq8hdcc7l3xl840ghk";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/code-cells.html";
           license = lib.licenses.free;
         };
       }) {};
