@@ -1157,16 +1157,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    dts-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+    dts-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "dts-mode";
         ename = "dts-mode";
-        version = "0.1.1";
+        version = "1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dts-mode-0.1.1.tar";
-          sha256 = "1hdbf7snfbg3pfg1vhbak1gq5smaklvaqj1y9mjcnxyipqi47q28";
+          url = "https://elpa.gnu.org/packages/dts-mode-1.0.tar";
+          sha256 = "0ihwqkv1ddysjgxh01vpayv3ia0vx55ny8ym0mi5b4iz95idj60s";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/dts-mode.html";
           license = lib.licenses.free;
