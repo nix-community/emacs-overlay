@@ -292,6 +292,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    coffee-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "coffee-mode";
+        ename = "coffee-mode";
+        version = "0.6.3";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/coffee-mode-0.6.3.tar";
+          sha256 = "1yv1b5rzlj7cpz7gsv2j07mr8z6lkwxp1cldkrc6xlhcbqh8795a";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/coffee-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     color-theme-tangotango = callPackage ({ color-theme
                                           , elpaBuild
                                           , fetchurl
