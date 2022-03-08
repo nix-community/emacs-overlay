@@ -1266,10 +1266,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20220224";
+        version = "20220308";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20220224.tar";
-          sha256 = "008750fm7w5k9yrkwyxgank02smxki2857cd2d8qvhsa2qnz6c5n";
+          url = "https://elpa.gnu.org/packages/eev-20220308.tar";
+          sha256 = "1i250x4kgci8vbabn9xynr976fk745ly9igm50v6l4rmcnmiqndj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3033,6 +3033,21 @@
         packageRequires = [ emacs org seq ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/org-edna.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    org-modern = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "org-modern";
+        ename = "org-modern";
+        version = "0.3";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/org-modern-0.3.tar";
+          sha256 = "14f5grai6k9xbpyc33pcpgi6ka8pgy7vcnqqi77nclzq2yxhl9c1";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-modern.html";
           license = lib.licenses.free;
         };
       }) {};
