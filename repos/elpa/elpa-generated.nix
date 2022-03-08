@@ -3126,6 +3126,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    osm = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "osm";
+        ename = "osm";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/osm-0.2.tar";
+          sha256 = "1bqvxa7q1md6ckj2zjgy3n2zycqbhizam26h6b9vwnvlwkdbvlib";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/osm.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     other-frame-window = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "other-frame-window";
