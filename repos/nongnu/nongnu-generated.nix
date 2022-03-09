@@ -703,16 +703,21 @@
           license = lib.licenses.free;
         };
       }) {};
-    geiser = callPackage ({ elpaBuild, emacs, fetchurl, lib, transient }:
+    geiser = callPackage ({ elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib
+                          , project
+                          , transient }:
       elpaBuild {
         pname = "geiser";
         ename = "geiser";
-        version = "0.22.2";
+        version = "0.23";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-0.22.2.tar";
-          sha256 = "0mva8arcxj1kf6g7s6f6ik70gradmbnhhiaf7rdkycxdd8kdqn7i";
+          url = "https://elpa.nongnu.org/nongnu/geiser-0.23.tar";
+          sha256 = "1g82jaldq4rxiyhnzyqf82scys1545djc3y2nn9ih292g8rwqqms";
         };
-        packageRequires = [ emacs transient ];
+        packageRequires = [ emacs project transient ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/geiser.html";
           license = lib.licenses.free;
