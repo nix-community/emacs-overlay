@@ -2449,6 +2449,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    logos = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "logos";
+        ename = "logos";
+        version = "0.1.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/logos-0.1.2.tar";
+          sha256 = "145g6vhvzqflckmih9s6rqcaywpsdd0mcmbi4xchakc6zdbr7klm";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/logos.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     map = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "map";
