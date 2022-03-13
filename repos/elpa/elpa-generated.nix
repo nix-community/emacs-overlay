@@ -3115,10 +3115,10 @@
       elpaBuild {
         pname = "org-translate";
         ename = "org-translate";
-        version = "0.1.3";
+        version = "0.1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-translate-0.1.3.el";
-          sha256 = "0m52vv1961kf8f1gw8c4n02hxcvhdw3wgzmcxvjcdijfnjkarm33";
+          url = "https://elpa.gnu.org/packages/org-translate-0.1.4.tar";
+          sha256 = "0dvg3h8mmzlqfg60rwxjgy17sqv84p6nj2ngjdafkp9a4halv0g7";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -3160,10 +3160,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/osm-0.3.tar";
-          sha256 = "090l2awgzy9w15aw1mqsfwrmizk3fkf1xi1l36h3hsgsgh5jhcf2";
+          url = "https://elpa.gnu.org/packages/osm-0.4.tar";
+          sha256 = "0dgyn3nx2jyyn0z61k9xn28m2gc9nc8z66kj886l4gnp0k5bbva8";
         };
         packageRequires = [ emacs ];
         meta = {
