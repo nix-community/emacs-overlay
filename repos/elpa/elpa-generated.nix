@@ -4470,16 +4470,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    undo-tree = callPackage ({ elpaBuild, fetchurl, lib }:
+    undo-tree = callPackage ({ elpaBuild, emacs, fetchurl, lib, queue }:
       elpaBuild {
         pname = "undo-tree";
         ename = "undo-tree";
-        version = "0.7.5";
+        version = "0.8.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/undo-tree-0.7.5.el";
-          sha256 = "00admi87gqm0akhfqm4dcp9fw8ihpygy030955jswkha4zs7lw2p";
+          url = "https://elpa.gnu.org/packages/undo-tree-0.8.2.tar";
+          sha256 = "0fgir9pls9439zwyl3j2yvrwx9wigisj1jil4ijma27dfrpgm288";
         };
-        packageRequires = [];
+        packageRequires = [ emacs queue ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/undo-tree.html";
           license = lib.licenses.free;
