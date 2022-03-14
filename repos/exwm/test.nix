@@ -2,7 +2,7 @@
 
 let
   package = pkgs.emacs;
-  emacsPackages = pkgs.emacsPackagesNgGen package;
+  emacsPackages = pkgs.emacsPackagesFor package;
   emacsWithPackages = emacsPackages.emacsWithPackages;
 in emacsWithPackages(epkgs: [
   epkgs.exwm
