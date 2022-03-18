@@ -2453,10 +2453,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "0.1.2";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/logos-0.1.2.tar";
-          sha256 = "145g6vhvzqflckmih9s6rqcaywpsdd0mcmbi4xchakc6zdbr7klm";
+          url = "https://elpa.gnu.org/packages/logos-0.2.0.tar";
+          sha256 = "0cqmgvgyyn656rg60bbnxr2flmnw9h4z5i2w98bsf4krlp3s4i6x";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3160,10 +3160,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/osm-0.4.tar";
-          sha256 = "0dgyn3nx2jyyn0z61k9xn28m2gc9nc8z66kj886l4gnp0k5bbva8";
+          url = "https://elpa.gnu.org/packages/osm-0.5.tar";
+          sha256 = "1bn9w5zk7ijvp0c71lm10xq8qwmvhkcfww8qg2vklxh7wjj1xbcx";
         };
         packageRequires = [ emacs ];
         meta = {
