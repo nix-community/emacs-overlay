@@ -786,10 +786,10 @@
       elpaBuild {
         pname = "coterm";
         ename = "coterm";
-        version = "1.4";
+        version = "1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/coterm-1.4.tar";
-          sha256 = "0cs9hqffkzlkkpcfhdh67gg3vzvffrjawmi89q7x9p52fk9rcxp6";
+          url = "https://elpa.gnu.org/packages/coterm-1.5.tar";
+          sha256 = "1v8cl3bw5z0f36iw8x3gcgiizml74m1kfxfrasyfx8k01nbxcfs8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3295,10 +3295,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.18";
+        version = "0.4.19";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.18.tar";
-          sha256 = "0ksmv41pqwfkhq2sn8lmlp60xf0z79a4nsazf0h8w81x09fl6qnr";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.19.tar";
+          sha256 = "1l9ivg6x084r235jpd90diaa4v29r1kyfsblzsb8blskb9ka5b56";
         };
         packageRequires = [ emacs ];
         meta = {
