@@ -3725,10 +3725,10 @@
       elpaBuild {
         pname = "repology";
         ename = "repology";
-        version = "1.2.2";
+        version = "1.2.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/repology-1.2.2.tar";
-          sha256 = "0ggb0zgz24hs5andhyrlpqm0gda0gf1wynzkarj4z7gpk5p9wrpr";
+          url = "https://elpa.gnu.org/packages/repology-1.2.3.tar";
+          sha256 = "1ngx23b7dilyps20nznrrn867kbxyn6nryf4p1sy5m576hkw18kn";
         };
         packageRequires = [ emacs ];
         meta = {
