@@ -1206,10 +1206,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.8.12";
+        version = "0.8.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.8.12.tar";
-          sha256 = "1k53crdmaw6lzvprsmpdfvg96ck54bzs4z1d4q9x890anglxq5m6";
+          url = "https://elpa.gnu.org/packages/ebdb-0.8.13.tar";
+          sha256 = "0bbv2n01x9zacnrd00krjkra6amn2cbxlpb5rkjcsyg05zmdkr5q";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -4700,10 +4700,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.5.2";
+        version = "0.5.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-posframe-0.5.2.tar";
-          sha256 = "0gzvm0la706kg3aqgrd6crz6353sp47dnpxdj9l2avb31avyqmv9";
+          url = "https://elpa.gnu.org/packages/vertico-posframe-0.5.3.tar";
+          sha256 = "12jcb4im1ys2s0wbv9nfmgpcrz037zagd677qjm8hz8fn29xdh6n";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
