@@ -7,5 +7,5 @@ let
   };
 
 in {
-  inherit (pkgs.emacsPackagesNg) melpaStablePackages melpaPackages;
+  inherit (pkgs.emacsPackages) melpaStablePackages melpaPackages;
 }

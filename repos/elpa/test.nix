@@ -6,4 +6,4 @@ let
     ];
   };
 
-in pkgs.emacsPackagesNg
+in pkgs.emacsPackages

@@ -2,7 +2,7 @@
 
 let
   mkTestBuild = package: let
-    emacsPackages = pkgs.emacsPackagesNgGen package;
+    emacsPackages = pkgs.emacsPackagesFor package;
     emacsWithPackages = emacsPackages.emacsWithPackages;
   in emacsWithPackages(epkgs: [ ]);
 
