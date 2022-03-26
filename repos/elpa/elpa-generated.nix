@@ -429,10 +429,10 @@
       elpaBuild {
         pname = "buffer-env";
         ename = "buffer-env";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/buffer-env-0.2.tar";
-          sha256 = "1420qln8ww43d6gs70cnxab6lf10dhmk5yk29pwsvjk86afhwhwf";
+          url = "https://elpa.gnu.org/packages/buffer-env-0.3.tar";
+          sha256 = "0h92pia258fndihnwmnak10ix00dmfanadnsnzbdah3q64416qhz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2073,10 +2073,10 @@
       elpaBuild {
         pname = "isearch-mb";
         ename = "isearch-mb";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/isearch-mb-0.4.tar";
-          sha256 = "11q9sdi6l795hspi7hr621bbra66pxsgrkry95k7wxjkmibcbsxr";
+          url = "https://elpa.gnu.org/packages/isearch-mb-0.5.tar";
+          sha256 = "0fah8dmh9jv05i93ccn9dvl7qmfy32vwxqdzkf1v8gr1plsyjyx7";
         };
         packageRequires = [ emacs ];
         meta = {
