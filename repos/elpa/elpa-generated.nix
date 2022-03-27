@@ -309,10 +309,10 @@
       elpaBuild {
         pname = "bbdb";
         ename = "bbdb";
-        version = "3.2.1";
+        version = "3.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bbdb-3.2.1.tar";
-          sha256 = "01vsnifs47krq1srgdkk9agbv3p2fykl9nydr4nrfjxbqpnyh3ij";
+          url = "https://elpa.gnu.org/packages/bbdb-3.2.2.tar";
+          sha256 = "16vnrbkw5h9vbnydanxlpg3zm1mp5mxqn9c04gc1z4a1nhwapwsp";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -2273,10 +2273,10 @@
       elpaBuild {
         pname = "kind-icon";
         ename = "kind-icon";
-        version = "0.1.4";
+        version = "0.1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/kind-icon-0.1.4.tar";
-          sha256 = "00pyvnq4dx51l2wbhvm6k6cx5xmy32j4h1lkr5kr8s3j5w83ip25";
+          url = "https://elpa.gnu.org/packages/kind-icon-0.1.5.tar";
+          sha256 = "0qajj89vkgc9gbgff6akzll53jy0kgkv6c9jvwpl32rbg8v0wp63";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
