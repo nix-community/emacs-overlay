@@ -309,10 +309,10 @@
       elpaBuild {
         pname = "bbdb";
         ename = "bbdb";
-        version = "3.2.2";
+        version = "3.2.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bbdb-3.2.2.tar";
-          sha256 = "16vnrbkw5h9vbnydanxlpg3zm1mp5mxqn9c04gc1z4a1nhwapwsp";
+          url = "https://elpa.gnu.org/packages/bbdb-3.2.2.1.tar";
+          sha256 = "060nd6vhwwh56jc1mvmyj6mn6kx7zgmbhrkfv9sqdx7h96bcrsbh";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
