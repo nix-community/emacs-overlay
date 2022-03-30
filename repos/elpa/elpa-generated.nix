@@ -2826,10 +2826,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-modeline-0.5.tar";
-          sha256 = "0f6xgrxykd5jmlzf9xmywh0jc2jfq698m4nqk60h40dm6pi0gfi2";
+          url = "https://elpa.gnu.org/packages/nano-modeline-0.6.tar";
+          sha256 = "1cxycfx4ic2hzfvp3d2z0a5xjg97p49yla3a1qxw1dldcjg9lfg0";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4324,10 +4324,10 @@
       elpaBuild {
         pname = "taxy-magit-section";
         ename = "taxy-magit-section";
-        version = "0.9";
+        version = "0.9.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/taxy-magit-section-0.9.tar";
-          sha256 = "08br1gf4xj4zymhgmc2n0ba3qzhak881z5b3h3is2qichha4sdrk";
+          url = "https://elpa.gnu.org/packages/taxy-magit-section-0.9.1.tar";
+          sha256 = "0ybkz5nqjdrg2z9bfd07xg4k49hrl26vsrwz2vqpfbsqqg5vr4pr";
         };
         packageRequires = [ emacs magit-section ];
         meta = {
