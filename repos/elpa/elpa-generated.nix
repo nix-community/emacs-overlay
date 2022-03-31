@@ -2453,10 +2453,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "0.2.0";
+        version = "0.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/logos-0.2.0.tar";
-          sha256 = "0cqmgvgyyn656rg60bbnxr2flmnw9h4z5i2w98bsf4krlp3s4i6x";
+          url = "https://elpa.gnu.org/packages/logos-0.3.0.tar";
+          sha256 = "1f6k6cgsy5fl5aq34rz9yn86kvqx218djgm8bdrkc3ddk0gh3hdq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4418,10 +4418,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.5.2.2";
+        version = "2.5.2.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.5.2.2.tar";
-          sha256 = "104nn6xdmcviqqv4cx5llhwj1sh4q04w3h9s8gimmi2kg0z8s36r";
+          url = "https://elpa.gnu.org/packages/tramp-2.5.2.3.tar";
+          sha256 = "1nv603jrvql03z2pfg74yq0hp7963gagg27fksc456mpmz4p7ajq";
         };
         packageRequires = [ emacs ];
         meta = {
