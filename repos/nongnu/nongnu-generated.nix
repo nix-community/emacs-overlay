@@ -602,10 +602,10 @@
       elpaBuild {
         pname = "evil-matchit";
         ename = "evil-matchit";
-        version = "2.4.1";
+        version = "2.4.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/evil-matchit-2.4.1.tar";
-          sha256 = "0ybw0jfjkwiz4ln3z5pizbw5d9d612crpk410czcyi8adyj018nc";
+          url = "https://elpa.nongnu.org/nongnu/evil-matchit-2.4.2.tar";
+          sha256 = "0m9fba5shcvlzblvzsvbgfjqdnhniwcp60y0afjnm627rdslj86c";
         };
         packageRequires = [ emacs evil ];
         meta = {
