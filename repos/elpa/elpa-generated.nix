@@ -752,6 +752,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    compat = callPackage ({ elpaBuild, emacs, fetchurl, lib, nadvice }:
+      elpaBuild {
+        pname = "compat";
+        ename = "compat";
+        version = "28.1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/compat-28.1.0.0.tar";
+          sha256 = "0gh5jsr6bskk7lgv8xfiwxlj68bcsxnz52kv77ycx7vq2h1jjlmm";
+        };
+        packageRequires = [ emacs nadvice ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/compat.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     consult = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "consult";
