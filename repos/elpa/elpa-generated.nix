@@ -756,10 +756,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "28.1.0.0";
+        version = "28.1.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/compat-28.1.0.0.tar";
-          sha256 = "0gh5jsr6bskk7lgv8xfiwxlj68bcsxnz52kv77ycx7vq2h1jjlmm";
+          url = "https://elpa.gnu.org/packages/compat-28.1.0.1.tar";
+          sha256 = "1q6vvsamv659hcb1ih0g6faknzl66iwlkd2x1hi8gkbx0090j387";
         };
         packageRequires = [ emacs nadvice ];
         meta = {
@@ -3725,10 +3725,10 @@
       elpaBuild {
         pname = "rec-mode";
         ename = "rec-mode";
-        version = "1.8.2";
+        version = "1.8.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rec-mode-1.8.2.tar";
-          sha256 = "06mjj1la2v8zdhsflj3mwcp7qnkj7gxzm8wbk2pli1h8vnq2zvd0";
+          url = "https://elpa.gnu.org/packages/rec-mode-1.8.3.tar";
+          sha256 = "0lkmvvdj4xx3qhxqggizrcdawav0accyrza2wmhfdq88g2zh5575";
         };
         packageRequires = [ emacs ];
         meta = {
