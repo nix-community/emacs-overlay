@@ -2483,10 +2483,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "0.3.0";
+        version = "0.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/logos-0.3.0.tar";
-          sha256 = "1f6k6cgsy5fl5aq34rz9yn86kvqx218djgm8bdrkc3ddk0gh3hdq";
+          url = "https://elpa.gnu.org/packages/logos-0.3.1.tar";
+          sha256 = "0wwvp47bmc7w3jvh480vc31agf0s39mvgk0h550z6a1wzlrfzyh9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3430,10 +3430,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "0.2.0";
+        version = "0.2.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pulsar-0.2.0.tar";
-          sha256 = "0vil6gv7w6d77hksc2pbrwjdd8dp3ka4kf5kihx04r95032pky62";
+          url = "https://elpa.gnu.org/packages/pulsar-0.2.4.tar";
+          sha256 = "06fz9ay6gc4cc60r9nd7x99dyvp569xmvz2jpqv1jnvzgps6z31a";
         };
         packageRequires = [ emacs ];
         meta = {
