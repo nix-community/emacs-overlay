@@ -2404,6 +2404,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    lin = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "lin";
+        ename = "lin";
+        version = "0.3.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/lin-0.3.0.tar";
+          sha256 = "08h7rh8gidn9mn031mg8lvhxswv1hxn4i0ffk2vxygfbp9jxfi61";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/lin.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     lmc = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "lmc";
@@ -3430,10 +3445,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "0.2.4";
+        version = "0.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pulsar-0.2.4.tar";
-          sha256 = "06fz9ay6gc4cc60r9nd7x99dyvp569xmvz2jpqv1jnvzgps6z31a";
+          url = "https://elpa.gnu.org/packages/pulsar-0.3.0.tar";
+          sha256 = "0dbfj7789qp4l25y8qazmx5kqgjgqjsnk24rwcf6qann4cq6wgnq";
         };
         packageRequires = [ emacs ];
         meta = {
