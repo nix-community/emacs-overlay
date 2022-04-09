@@ -234,10 +234,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.1.1";
+        version = "13.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.1.1.tar";
-          sha256 = "193sqq2wiq3lg99m8hifl9rjxdazpy638r99sqvmxmkfm98cr34r";
+          url = "https://elpa.gnu.org/packages/auctex-13.1.2.tar";
+          sha256 = "0j79y7iz0g3i36w5l91l2dljs8b4sx42f7q25z2963mvhfvrbp10";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -756,10 +756,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "28.1.0.1";
+        version = "28.1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/compat-28.1.0.1.tar";
-          sha256 = "1q6vvsamv659hcb1ih0g6faknzl66iwlkd2x1hi8gkbx0090j387";
+          url = "https://elpa.gnu.org/packages/compat-28.1.0.3.tar";
+          sha256 = "12h06ab57hhjq434cf39g69ain6dpqq8a0h9xc91kvjsiz9chqhd";
         };
         packageRequires = [ emacs nadvice ];
         meta = {
@@ -906,10 +906,10 @@
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.18";
+        version = "1.19";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/csv-mode-1.18.tar";
-          sha256 = "0fv7hvsfbc9n4hsgg3ywk8qf4ig5a986zfq0lwnjj8pcz1bpmrxj";
+          url = "https://elpa.gnu.org/packages/csv-mode-1.19.tar";
+          sha256 = "0sslxlnw10ba6m711p4ps4zsfjz56dsp2945ga5z0y8d860pliqh";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
