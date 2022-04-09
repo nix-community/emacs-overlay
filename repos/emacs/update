@@ -42,9 +42,7 @@ function update_github_repo() {
 function update_release() {
     echo emacs release
 
-    git clone --shallow-since="$(date --date='-9 month')" https://git.savannah.gnu.org/git/emacs.git emacs_git_repo
-    tag=$(git -C emacs_git_repo tag -l --sort=-v:refname 'emacs-*' | grep -v '\-rc' | head -n1)
-    rm -rf emacs_git_repo
+    tag=$(git ls-remote --tags --refs --sort=-v:refname https://git.savannah.gnu.org/git/emacs.git 'emacs-[1-9]*' | grep -Eo 'emacs-.*' | grep -v '\-rc' | head -n1)
 
     digest=$(nix-prefetch-url --unpack "https://git.savannah.gnu.org/cgit/emacs.git/snapshot/emacs-${tag}.tar.gz")
     version_number=$(echo $tag | cut -d '-' -f 2)
