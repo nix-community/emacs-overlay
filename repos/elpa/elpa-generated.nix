@@ -801,10 +801,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.20";
+        version = "0.21";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.20.tar";
-          sha256 = "03yycimbqs4ixz7lxp7f1b4fipq6kl2bbjnl87r0n9x8mzfslbdl";
+          url = "https://elpa.gnu.org/packages/corfu-0.21.tar";
+          sha256 = "1jabx61ajiysd3yqkraanlx9gnkz1qs6d94wjc5a2ran58iyknyr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -981,10 +981,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.31";
+        version = "0.32";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/debbugs-0.31.tar";
-          sha256 = "11vdjrn5m5g6pirw8jv0602fbwwgdhazfrrwxxplii8x02gqk0sr";
+          url = "https://elpa.gnu.org/packages/debbugs-0.32.tar";
+          sha256 = "1xp3mj3ndaljma0g7x9abziphgi2a6j8k1v52sb8xwgn4p5gdvby";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -4759,10 +4759,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.21";
+        version = "0.22";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.21.tar";
-          sha256 = "0aw3hkr46zghvyp7s2b6ziqavsf1zpml4bbxcvs4kvm05qa0y1hv";
+          url = "https://elpa.gnu.org/packages/vertico-0.22.tar";
+          sha256 = "1m8r2iqyyvym7a47awh00aq7hld54dklrx4ibwvnmhpxl0fzh7g8";
         };
         packageRequires = [ emacs ];
         meta = {
