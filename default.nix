@@ -82,11 +82,11 @@ let
 
   emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json { withSQLite3 = true; };
 
-  emacsGcc = (mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-unstable.json { nativeComp = true; });
+  emacsGcc = (mkGitEmacs "emacs-gcc" ./repos/emacs/emacs-28.json { nativeComp = true; });
 
-  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-master.json { withSQLite3 = true; };
+  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-28.json { withSQLite3 = true; };
 
-  emacsPgtkGcc = mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-master.json { nativeComp = true; withSQLite3 = true; };
+  emacsPgtkGcc = mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-28.json { nativeComp = true; withSQLite3 = true; };
 
   emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { });
 
