@@ -56,13 +56,13 @@ let
 
       matchCharacter = mkMatcher ''([?]((\\[sSHMAC]-)|\\\^)*(([^][\\()]|\\[][\\()])|\\[^^SHMACNuUx0-7]|\\[uU][[:digit:]a-fA-F]+|\\x[[:digit:]a-fA-F]*|\\[0-7]{1,3}|\\N\{[^}]+}))([${notInSymbol}?]|$).*'' characterMaxLength;
 
-      matchNonBase10Integer = mkMatcher ''(#([BOX]|[[:digit:]]{1,2}r)[[:digit:]a-fA-F]+)([${notInSymbol}]|$).*'' integerMaxLength;
+      matchNonBase10Integer = mkMatcher ''(#([BbOoXx]|[[:digit:]]{1,2}r)[[:digit:]a-fA-F]+)([${notInSymbol}]|$).*'' integerMaxLength;
 
       matchInteger = mkMatcher ''([+-]?[[:digit:]]+[.]?)([${notInSymbol}]|$).*'' integerMaxLength;
 
       matchBoolVector = mkMatcher ''(#&[[:digit:]]+"([^"\\]|\\.)*").*'' boolVectorMaxLength;
 
-      matchFloat = mkMatcher ''([+-]?([[:digit:]]*[.][[:digit:]]+|([[:digit:]]*[.])?[[:digit:]]+e([[:digit:]]+|[+](INF|NaN))))([${notInSymbol}]|$).*'' floatMaxLength;
+      matchFloat = mkMatcher ''([+-]?([[:digit:]]*[.][[:digit:]]+|([[:digit:]]*[.])?[[:digit:]]+e([+-]?[[:digit:]]+|[+](INF|NaN))))([${notInSymbol}]|$).*'' floatMaxLength;
 
       matchDot = mkMatcher ''([.])([${notInSymbol}]|$).*'' 2;
 
@@ -309,7 +309,7 @@ let
             }
           else if token.type == "integer" then
             token // {
-              value = fromJSON (removeStrings ["+"] token.value);
+              value = fromJSON (removeStrings ["+" "."] token.value);
             }
           else if token.type == "symbol" && token.value == "t" then
             token // {
@@ -317,11 +317,18 @@ let
             }
           else if token.type == "float" then
             let
-              initial = head (match "([+-]?([[:digit:]]*[.])?[[:digit:]]+(e[+-]?[[:digit:]]+)?)" token.value);
+              initial = head (match "([+-]?([[:digit:]]*[.])?[[:digit:]]+(e([+-]?[[:digit:]]+|[+](INF|NaN)))?)" token.value);
+              isSpecial = (match "(.+(e[+](INF|NaN)))" initial) != null;
               withoutPlus = removeStrings ["+"] initial;
-              withPrefix = if substring 0 1 withoutPlus == "." then "0" + withoutPlus else withoutPlus;
+              withPrefix =
+                if substring 0 1 withoutPlus == "." then
+                  "0" + withoutPlus
+                else if substring 0 2 withoutPlus == "-." then
+                  "-0" + removeStrings ["-"] withoutPlus
+                else
+                  withoutPlus;
             in
-              if withPrefix != null then
+              if !isSpecial && withPrefix != null then
                 token // {
                   value = fromJSON withPrefix;
                 }
