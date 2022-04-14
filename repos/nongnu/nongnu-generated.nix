@@ -1903,10 +1903,10 @@
       elpaBuild {
         pname = "shellcop";
         ename = "shellcop";
-        version = "0.0.8";
+        version = "0.0.9";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/shellcop-0.0.8.tar";
-          sha256 = "00kj1zadrqnikvwrxd6ma0c8r1jf70c1zaqr03s0g49h4lz6m2da";
+          url = "https://elpa.nongnu.org/nongnu/shellcop-0.0.9.tar";
+          sha256 = "0rv98s3w3pd2l477100d8kn2kqx21xn3axzcfbxbkgl8bc78mvci";
         };
         packageRequires = [ emacs ];
         meta = {
