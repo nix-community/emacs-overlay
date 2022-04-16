@@ -4868,6 +4868,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    vundo = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "vundo";
+        ename = "vundo";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/vundo-1.0.0.tar";
+          sha256 = "0xisr14kx35kc5wc1lvj3jpmq857lqv3jhappsxc77rr1gzyfs90";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/vundo.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     wcheck-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "wcheck-mode";
