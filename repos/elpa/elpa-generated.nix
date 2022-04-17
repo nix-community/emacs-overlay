@@ -114,10 +114,10 @@
       elpaBuild {
         pname = "aggressive-completion";
         ename = "aggressive-completion";
-        version = "1.6";
+        version = "1.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/aggressive-completion-1.6.tar";
-          sha256 = "0i7kcxd7pbdw57gczbxddr2n4j778x2ccfpkgjhdlpdsyidfh2bq";
+          url = "https://elpa.gnu.org/packages/aggressive-completion-1.7.tar";
+          sha256 = "1rpy53kh19ljjr2xgna716jynajjpgkkjgcl3gzryxsmky8mwbfl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1146,10 +1146,10 @@
       elpaBuild {
         pname = "djvu";
         ename = "djvu";
-        version = "1.1.1";
+        version = "1.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/djvu-1.1.1.el";
-          sha256 = "0z2qk1v4qkvcwl27ycqfb8vyszq5v6b8ci29b4la00yaki16p04i";
+          url = "https://elpa.gnu.org/packages/djvu-1.1.2.tar";
+          sha256 = "0i7xwgg2fxndy81lnng6fh9iknals8xvx4f1nmxq7c099bzwb57c";
         };
         packageRequires = [];
         meta = {
