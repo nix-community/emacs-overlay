@@ -1221,10 +1221,10 @@
       elpaBuild {
         pname = "easy-kill";
         ename = "easy-kill";
-        version = "0.9.4";
+        version = "0.9.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/easy-kill-0.9.4.tar";
-          sha256 = "1pqqv4dhfm00wqch4wy3n2illsvxlz9r6r64925cvq3i7wq4la1x";
+          url = "https://elpa.gnu.org/packages/easy-kill-0.9.5.tar";
+          sha256 = "0h8rzd23sgkj3vxnyhis9iyq8n3xqp9x1mvxlm61s6wwj9j398j6";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
