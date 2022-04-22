@@ -2408,10 +2408,10 @@
       elpaBuild {
         pname = "lin";
         ename = "lin";
-        version = "0.3.0";
+        version = "0.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/lin-0.3.0.tar";
-          sha256 = "08h7rh8gidn9mn031mg8lvhxswv1hxn4i0ffk2vxygfbp9jxfi61";
+          url = "https://elpa.gnu.org/packages/lin-0.3.1.tar";
+          sha256 = "1blk9vc9fyw6djqh0465bayv2s5s0ap7fps383ihmazmmii6mp2a";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2498,10 +2498,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "0.3.1";
+        version = "0.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/logos-0.3.1.tar";
-          sha256 = "0wwvp47bmc7w3jvh480vc31agf0s39mvgk0h550z6a1wzlrfzyh9";
+          url = "https://elpa.gnu.org/packages/logos-0.3.2.tar";
+          sha256 = "1qpbp9f9lz7yrky42cq8b4k295593s7l892zsrdyifnqcgs50bfd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3445,10 +3445,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "0.3.0";
+        version = "0.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pulsar-0.3.0.tar";
-          sha256 = "0dbfj7789qp4l25y8qazmx5kqgjgqjsnk24rwcf6qann4cq6wgnq";
+          url = "https://elpa.gnu.org/packages/pulsar-0.3.1.tar";
+          sha256 = "0v3bdw0sgic98b7xj19g37hw1vinanagsbhyf5qpajx3gm2im9wx";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4463,10 +4463,10 @@
       elpaBuild {
         pname = "tmr";
         ename = "tmr";
-        version = "0.2.1";
+        version = "0.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tmr-0.2.1.tar";
-          sha256 = "0mzx05hvdcvkh7js313hgvhgklw07y6ygj6b1rgybh3a09mxnmm5";
+          url = "https://elpa.gnu.org/packages/tmr-0.2.2.tar";
+          sha256 = "082pmydlmiric17bsjwl5rb8assjlc4iq19jg5nhsir46qh6470l";
         };
         packageRequires = [ emacs ];
         meta = {
