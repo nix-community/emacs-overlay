@@ -61,7 +61,7 @@ under the attributes =emacsNativeComp= (built from the latest tag) and =emacsGit
 
 We also provide two attributes named =emacsGit-nox= and =emacsUnstable-nox=
 if you wish to have Emacs built without X dependencies.
-=emacsPgtk= and =emacsPgtkGcc= use the experimental pgtk branch which support Wayland natively.
+=emacsPgtk= and =emacsPgtkNativeComp= use the experimental pgtk feature which supports Wayland natively.
 
 ** Extra library functionality
 This overlay comes with extra functions to generate an Emacs closure
