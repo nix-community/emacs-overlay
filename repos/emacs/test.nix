@@ -9,6 +9,7 @@ let
 in {
   emacsUnstable = mkTestBuild pkgs.emacsUnstable;
   emacsGit = mkTestBuild pkgs.emacsGit;
+  emacsGitNativeComp = mkTestBuild pkgs.emacsGitNativeComp;
   emacsPgtk = mkTestBuild pkgs.emacsPgtk;
   emacsPgtkGcc = mkTestBuild pkgs.emacsPgtkGcc;
 }

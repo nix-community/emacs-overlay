@@ -84,6 +84,11 @@ let
 
   emacsNativeComp = super.emacsNativeComp or (mkGitEmacs "emacs-native-comp" ./repos/emacs/emacs-unstable.json { nativeComp = true; });
 
+  emacsGitNativeComp = mkGitEmacs "emacs-git-native-comp" ./repos/emacs/emacs-master.json {
+    withSQLite3 = true;
+    nativeComp = true;
+  };
+
   emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-master.json { withSQLite3 = true; };
 
   emacsPgtkGcc = mkPgtkEmacs "emacs-pgtkgcc" ./repos/emacs/emacs-master.json { nativeComp = true; withSQLite3 = true; };
@@ -94,7 +99,7 @@ in
 {
   inherit emacsGit emacsUnstable;
 
-  inherit emacsNativeComp;
+  inherit emacsNativeComp emacsGitNativeComp;
   emacsGcc = builtins.trace "emacsGcc has been renamed to emacsNativeComp, please update your expression." emacsNativeComp;
 
   inherit emacsPgtk emacsPgtkGcc;

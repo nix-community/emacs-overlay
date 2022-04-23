@@ -12,5 +12,5 @@ in {
   inherit (pkgs) emacsGit emacsGit-nox;
   inherit (pkgs) emacsPgtk;
 } // lib.optionalAttrs (lib.hasAttr "libgccjit" pkgs) {
-  inherit (pkgs) emacsGcc emacsPgtkGcc;
+  inherit (pkgs) emacsNativeComp emacsGitNativeComp emacsPgtkGcc;
 }
