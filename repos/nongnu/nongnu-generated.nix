@@ -484,10 +484,10 @@
       elpaBuild {
         pname = "evil";
         ename = "evil";
-        version = "1.14.0";
+        version = "1.15.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/evil-1.14.0.tar";
-          sha256 = "11hzx3ya1119kr8dwlg264biixiqgvi7zwxxksql0a9hqp57rdpx";
+          url = "https://elpa.nongnu.org/nongnu/evil-1.15.0.tar";
+          sha256 = "0xp31w5mr6sprimd2rwy7mpa3kca5ivwf57jmaqyzpd96gh66pg1";
         };
         packageRequires = [];
         meta = {
@@ -2337,10 +2337,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "17.5.20220416101054";
+        version = "17.6.20220426002628";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-17.5.20220416101054.tar";
-          sha256 = "1gfw5hg1d0mi3cdlsvr8xjgd4crb7i1h2xkvzz2x71qdgksy19aw";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-17.6.20220426002628.tar";
+          sha256 = "16bkm0y578gh8drhq0sc7qhzsh5ll7sshda9gfvnxzp1x04lgpmy";
         };
         packageRequires = [ emacs ];
         meta = {
