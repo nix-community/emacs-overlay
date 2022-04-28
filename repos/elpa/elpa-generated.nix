@@ -1695,6 +1695,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    fontaine = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "fontaine";
+        ename = "fontaine";
+        version = "0.1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/fontaine-0.1.0.tar";
+          sha256 = "0rf2j6jnadvcz1d2h1vjghmq43lhh9xw91z43s9nrnl4gh58k07r";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/fontaine.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     frame-tabs = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "frame-tabs";
