@@ -4211,6 +4211,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    sql-cassandra = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "sql-cassandra";
+        ename = "sql-cassandra";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/sql-cassandra-0.1.tar";
+          sha256 = "1szs3nrb68m0j723p8g9k9gj5b8k1pcvnzq9fm45yqh4riqyvhak";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/sql-cassandra.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     sql-indent = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "sql-indent";
