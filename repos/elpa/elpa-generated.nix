@@ -4508,10 +4508,10 @@
       elpaBuild {
         pname = "tmr";
         ename = "tmr";
-        version = "0.2.2";
+        version = "0.2.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tmr-0.2.2.tar";
-          sha256 = "082pmydlmiric17bsjwl5rb8assjlc4iq19jg5nhsir46qh6470l";
+          url = "https://elpa.gnu.org/packages/tmr-0.2.3.tar";
+          sha256 = "0lys6g96cvfyhwr7z0yv9cx2ykzyixjppv5fh29qzq3h3dywx5wb";
         };
         packageRequires = [ emacs ];
         meta = {
