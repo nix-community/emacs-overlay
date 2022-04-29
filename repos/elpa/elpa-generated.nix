@@ -1699,10 +1699,10 @@
       elpaBuild {
         pname = "fontaine";
         ename = "fontaine";
-        version = "0.1.0";
+        version = "0.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/fontaine-0.1.0.tar";
-          sha256 = "0rf2j6jnadvcz1d2h1vjghmq43lhh9xw91z43s9nrnl4gh58k07r";
+          url = "https://elpa.gnu.org/packages/fontaine-0.1.1.tar";
+          sha256 = "1jyb6s2sqr9fmy6f4i9vijaswb8f9vn2br98d4w2afzhmf4d0bdc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4523,10 +4523,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.5.2.3";
+        version = "2.5.2.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.5.2.3.tar";
-          sha256 = "1nv603jrvql03z2pfg74yq0hp7963gagg27fksc456mpmz4p7ajq";
+          url = "https://elpa.gnu.org/packages/tramp-2.5.2.4.tar";
+          sha256 = "0ap1d34p1akrrm8z1r7ln6mj13xg2nrvjln2v3g8plhhp354jldz";
         };
         packageRequires = [ emacs ];
         meta = {
