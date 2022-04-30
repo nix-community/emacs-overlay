@@ -2916,10 +2916,10 @@
       elpaBuild {
         pname = "nano-theme";
         ename = "nano-theme";
-        version = "0.3.0";
+        version = "0.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-theme-0.3.0.tar";
-          sha256 = "1nq5x46467vnsfg3fzb0qyg97xpnwsvbqg8frdjil5zq5fhsgmrz";
+          url = "https://elpa.gnu.org/packages/nano-theme-0.3.1.tar";
+          sha256 = "003jhzh52iqrqlxh1gpv3y2wjlxx4ng3al5zcpm5q42kix8cjpd1";
         };
         packageRequires = [ emacs ];
         meta = {
