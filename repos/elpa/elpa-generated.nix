@@ -2088,10 +2088,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "7.1.3";
+        version = "8.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/hyperbole-7.1.3.tar";
-          sha256 = "0bizibn4qgxqp89fyik6p47s9hss1g932mg8k7pznn3kkhj5c8rh";
+          url = "https://elpa.gnu.org/packages/hyperbole-8.0.0.tar";
+          sha256 = "171x7jad62xd0n3xgs32dksyhn5abxj1kna0qgm65mm0v73hrv8d";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3565,10 +3565,10 @@
       elpaBuild {
         pname = "rainbow-mode";
         ename = "rainbow-mode";
-        version = "1.0.5";
+        version = "1.0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rainbow-mode-1.0.5.el";
-          sha256 = "159fps843k5pap9k04a7ll1k3gw6d9c6w08lq4bbc3lqg78aa2l9";
+          url = "https://elpa.gnu.org/packages/rainbow-mode-1.0.6.tar";
+          sha256 = "04v73cm1cap19vwc8lqsw0rmfr9v7r3swc4wgxnk9dnzxi9j2527";
         };
         packageRequires = [];
         meta = {
