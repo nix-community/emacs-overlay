@@ -469,10 +469,10 @@
       elpaBuild {
         pname = "elpher";
         ename = "elpher";
-        version = "3.4.0";
+        version = "3.4.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/elpher-3.4.0.tar";
-          sha256 = "153n8v8xpdfkf4rmnassxqgxvbf9wl0msx88kpz7v1yr8k9dxxkl";
+          url = "https://elpa.nongnu.org/nongnu/elpher-3.4.1.tar";
+          sha256 = "1vayhcamdp8nn6hrgffd0yx9k9q3mckbcsfwclhyyfc0x1hcwf92";
         };
         packageRequires = [ emacs ];
         meta = {
