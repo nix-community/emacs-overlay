@@ -3875,10 +3875,10 @@
       elpaBuild {
         pname = "rt-liberation";
         ename = "rt-liberation";
-        version = "4";
+        version = "5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rt-liberation-4.tar";
-          sha256 = "15vs982cxpc3g8cq2gj3a6dfn9i2r9b44x38ydvcmiy2brkd3psj";
+          url = "https://elpa.gnu.org/packages/rt-liberation-5.tar";
+          sha256 = "1gjj38rag3hh42xkf7qlvwn0qj45i8v30h5wgs3w2a2ccs46bpy4";
         };
         packageRequires = [];
         meta = {
@@ -4241,16 +4241,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    sql-cassandra = callPackage ({ elpaBuild, fetchurl, lib }:
+    sql-cassandra = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "sql-cassandra";
         ename = "sql-cassandra";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sql-cassandra-0.1.tar";
-          sha256 = "1szs3nrb68m0j723p8g9k9gj5b8k1pcvnzq9fm45yqh4riqyvhak";
+          url = "https://elpa.gnu.org/packages/sql-cassandra-0.2.tar";
+          sha256 = "0qh5hrrfj2snalb55agm7qj4k29w2lac7prjs12v63q3j2lf0a55";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/sql-cassandra.html";
           license = lib.licenses.free;
@@ -4531,6 +4531,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/tmr.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    tomelr = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "tomelr";
+        ename = "tomelr";
+        version = "0.2.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/tomelr-0.2.2.tar";
+          sha256 = "12q24jbskj4ky8iia60w4ly11haww9d6w44g872bciifx6lrbs3g";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/tomelr.html";
           license = lib.licenses.free;
         };
       }) {};
