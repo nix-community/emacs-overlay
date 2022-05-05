@@ -4245,10 +4245,10 @@
       elpaBuild {
         pname = "sql-cassandra";
         ename = "sql-cassandra";
-        version = "0.2";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sql-cassandra-0.2.tar";
-          sha256 = "0qh5hrrfj2snalb55agm7qj4k29w2lac7prjs12v63q3j2lf0a55";
+          url = "https://elpa.gnu.org/packages/sql-cassandra-0.2.1.tar";
+          sha256 = "1w9jhh4gf5nnjq8p2zfdli81yqvnfjri4qlwxiwb913ah48vyi2l";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4538,10 +4538,10 @@
       elpaBuild {
         pname = "tomelr";
         ename = "tomelr";
-        version = "0.2.4";
+        version = "0.2.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tomelr-0.2.4.tar";
-          sha256 = "1pkgkwgq1fry1nwjiaql33ph0zv4ilzki8sfayrx3nd6ggj9ylwj";
+          url = "https://elpa.gnu.org/packages/tomelr-0.2.5.tar";
+          sha256 = "0mjijl2c7y2i9q2jy8brz2341mdrkdcki9mxn1hilbq0pyhh9siv";
         };
         packageRequires = [ emacs ];
         meta = {
