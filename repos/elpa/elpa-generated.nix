@@ -801,10 +801,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.22";
+        version = "0.23";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.22.tar";
-          sha256 = "0z3sm1qdywmav54l2bb80f8zbbc8yfx0vwjqaj01qq8bqw6q6aks";
+          url = "https://elpa.gnu.org/packages/corfu-0.23.tar";
+          sha256 = "1l988jmvn3x1x77sc89pg5ivwl9i4r2v4k74ymkplgcc9wpffm1v";
         };
         packageRequires = [ emacs ];
         meta = {
