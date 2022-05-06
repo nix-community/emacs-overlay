@@ -4534,16 +4534,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    tomelr = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    tomelr = callPackage ({ elpaBuild, emacs, fetchurl, lib, map, seq }:
       elpaBuild {
         pname = "tomelr";
         ename = "tomelr";
-        version = "0.2.5";
+        version = "0.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tomelr-0.2.5.tar";
-          sha256 = "0mjijl2c7y2i9q2jy8brz2341mdrkdcki9mxn1hilbq0pyhh9siv";
+          url = "https://elpa.gnu.org/packages/tomelr-0.3.0.tar";
+          sha256 = "0jnnyvbmhqn8wkg3y13iy19nck6dphay8jdy2nimp28a1jvs7z6g";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ emacs map seq ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/tomelr.html";
           license = lib.licenses.free;
