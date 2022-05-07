@@ -756,10 +756,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "28.1.1.0";
+        version = "28.1.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/compat-28.1.1.0.tar";
-          sha256 = "0y1c6d624rpjk5n839xq1fvnb5hid4v8n5bjjcyi2w8pk38yi1cn";
+          url = "https://elpa.gnu.org/packages/compat-28.1.1.1.tar";
+          sha256 = "13ksa6q3m525gd6sdixmak6brfch2rhz8dzzmhvvdh1y04hcnam8";
         };
         packageRequires = [ emacs nadvice ];
         meta = {
