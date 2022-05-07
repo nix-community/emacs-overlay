@@ -857,6 +857,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    cpupower = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "cpupower";
+        ename = "cpupower";
+        version = "1.0.4";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/cpupower-1.0.4.tar";
+          sha256 = "12910d3qbkapr4bvqv88lr85fz6rkim0zrc24nxnvkhkh3yi8qvd";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/cpupower.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     crdt = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "crdt";
