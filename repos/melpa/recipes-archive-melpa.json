@@ -12909,8 +12909,8 @@
     20220322,
     1258
    ],
-   "commit": "ddfa4372f763c30d17bec8397d948070223c37fa",
-   "sha256": "1wcq18lci647b0c56ckh37ash18dsz6h5s047481l54qdm1mbqb0"
+   "commit": "b541073a447a21c9117375e24d2db6af37dd6cfc",
+   "sha256": "00phxl6z8vpph6ypbmcckb131ls6g91lq9cjxbgc7878sxcilf6f"
   },
   "stable": {
    "version": [
@@ -21935,11 +21935,11 @@
   "repo": "purcell/diredfl",
   "unstable": {
    "version": [
-    20220103,
-    1744
+    20220508,
+    805
    ],
-   "commit": "59f8e5bf5c2991aa54a471f61f14d77976db194a",
-   "sha256": "1ai5hxy87ljz6ch8blj4khm4v9clqxmrfhh5m5hnz9kd7n3d2wyh"
+   "commit": "62b559e1d6b69834a56a57eb1832ac6ad4d2e5d0",
+   "sha256": "18ggh4x7gqdnrdaknd4vkd34jgi8aw5s7r3a2xv54p8z22ipxrhh"
   },
   "stable": {
    "version": [
@@ -42735,16 +42735,16 @@
   "repo": "thisch/gerrit.el",
   "unstable": {
    "version": [
-    20220413,
-    1219
+    20220508,
+    704
    ],
    "deps": [
     "dash",
     "magit",
     "s"
    ],
-   "commit": "28280fa7a218cb5150e37050dc80ba9c9884c502",
-   "sha256": "0w83i1wmm7r3f38659fnkb02jh5b440kdv11jr4zzqcw9q87sh5g"
+   "commit": "2ca9cf999534a94c9aa93b393f30ed373eb2ed86",
+   "sha256": "1pmjyd9b4b97fvm644gvhlg7jzxsys4kqswrp9rxdlp8w64zxn31"
   }
  },
  {
@@ -60945,8 +60945,8 @@
   "repo": "gcv/julia-snail",
   "unstable": {
    "version": [
-    20220506,
-    519
+    20220508,
+    456
    ],
    "deps": [
     "dash",
@@ -60956,8 +60956,8 @@
     "spinner",
     "vterm"
    ],
-   "commit": "603c752d67e02ce078084d8ad98031530b952cc1",
-   "sha256": "08hg1j222hh1lh2zl8g0pp76nck9gv2fyj1z738mzx93ph738ypv"
+   "commit": "47cfc8cc0c5b383b0647c91e657f1ffeaf73cce8",
+   "sha256": "1n7igv0lfkx9zh12lhbc77mg3ycl3qmc58982damh7r4cvq1lv4w"
   },
   "stable": {
    "version": [
@@ -62888,13 +62888,13 @@
    "version": [
     1,
     2,
-    6
+    7
    ],
    "deps": [
     "s"
    ],
-   "commit": "a27153f6a01f38226920772dc4917b73166da5e6",
-   "sha256": "04av67q5841jli6rp39hav3a5gr2vcf3db4qsv553i23ffplb955"
+   "commit": "1c80df0f2c542f54920f18aa4eb837f0a51c7676",
+   "sha256": "0hmsf7kgzmpzri3ggb7l6y3pvfpinfv0d24fnxpbp1zd17lfwks1"
   }
  },
  {
@@ -66482,14 +66482,14 @@
   "repo": "emacs-languagetool/lsp-ltex",
   "unstable": {
    "version": [
-    20220222,
-    656
+    20220508,
+    533
    ],
    "deps": [
     "lsp-mode"
    ],
-   "commit": "e13bedf0032d376e1e28026abda5970bbbdb636d",
-   "sha256": "1v0vvh5pvqjmclf4b9ks7v93gh2l4hixwqj3sbay1qdgph74fb38"
+   "commit": "85a3cf269466795a0a1c8c157abb1528080eeb10",
+   "sha256": "1rayql109fp37cwqsdyz8xpyqvabr0y51yryw1qwv42jn0phd1wv"
   },
   "stable": {
    "version": [
@@ -67262,14 +67262,14 @@
   "repo": "amake/macports.el",
   "unstable": {
    "version": [
-    20220506,
-    1210
+    20220508,
+    656
    ],
    "deps": [
     "transient"
    ],
-   "commit": "8959ecffb1af4891a414ca28b2322ccc81595223",
-   "sha256": "04yyrkmpxyn6s9dngdrw787g1nrwm6a71z79y37n6yi8kiqgds7q"
+   "commit": "c2c93f8095ee47cc1da2d4f77487ba586d696305",
+   "sha256": "0rl7fkrcfd88mx467jlpc7fvqmp4p6f5ccnkm8jvs902dj28bsw2"
   }
  },
  {
@@ -92172,15 +92172,15 @@
   "repo": "tumashu/pyim",
   "unstable": {
    "version": [
-    20220505,
-    643
+    20220508,
+    655
    ],
    "deps": [
     "async",
     "xr"
    ],
-   "commit": "76bf7a5a218e344541bfbffeb64586722206f99e",
-   "sha256": "06wr2zwp3j79h99wqmh3jd3is10pgkvnni9lj1d4vavvcmc9k6in"
+   "commit": "069ff6b6b039b16ccc135a4288eebfcd76a0fbd2",
+   "sha256": "1wz2c24i530xz62hbx0ahbm3sn2y6iwdpq3wk9npqyvhrk11g6ih"
   },
   "stable": {
    "version": [
@@ -107419,14 +107419,14 @@
   "repo": "TobiasZawada/texfrag",
   "unstable": {
    "version": [
-    20220507,
-    431
+    20220508,
+    642
    ],
    "deps": [
     "auctex"
    ],
-   "commit": "ec99cba30602b65dc0c7ad7f6d440c9e30856985",
-   "sha256": "1j04a6hsslq435m777y6flwix621h982qmx01sj7d5qmkn9whgss"
+   "commit": "bcceb82971c10b8c0b058b77b3764669900392aa",
+   "sha256": "1awlh7z18wzp2mppn21chbylqf3fmjlq8v4105kwg9mmw57xjyb7"
   },
   "stable": {
    "version": [
@@ -109364,26 +109364,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20220328,
-    1344
+    20220508,
+    636
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "0dd5e56e2f5646aa51ed0fc9eb869a8f7090228a",
-   "sha256": "0jyzpiyl3b88vwfzkda7ak77kl0b2nybvsz0j9cndl3pf95d62g0"
+   "commit": "deb2d8674be8f777ace50e15c7c041aeddb1d0b2",
+   "sha256": "1p2zbb6ac7wi6x6zpbczcmpkb2p45md2csd2bj43d8s56ckzw5mp"
   },
   "stable": {
    "version": [
     0,
-    11,
-    6
+    12,
+    0
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "0dd5e56e2f5646aa51ed0fc9eb869a8f7090228a",
-   "sha256": "0jyzpiyl3b88vwfzkda7ak77kl0b2nybvsz0j9cndl3pf95d62g0"
+   "commit": "deb2d8674be8f777ace50e15c7c041aeddb1d0b2",
+   "sha256": "1p2zbb6ac7wi6x6zpbczcmpkb2p45md2csd2bj43d8s56ckzw5mp"
   }
  },
  {
