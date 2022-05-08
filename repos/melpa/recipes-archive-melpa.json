@@ -8052,17 +8052,17 @@
  },
  {
   "ename": "bookmark-in-project",
-  "commit": "9d3b0aba3f67d2ecf3904ec1c3263375ba38a665",
-  "sha256": "131x0wmv4yv0h220zcyszd19r7j8xmih4848x9qsldqwv3g3n82z",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-bookmark-in-project",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "0liii3f5276z76hkhd2g2xkkhx8v8dl6sv5f9w9lac66hz5a7qqv",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-bookmark-in-project.git",
   "unstable": {
    "version": [
-    20220401,
-    348
+    20220507,
+    1118
    ],
-   "commit": "eadc3d6564273085c34bd7dae4f4fed2cdeddddf",
-   "sha256": "1rl7308cl3ji0mcngmc8b6ghz161mj7ak1gs5f6f5wvknnylxl7s"
+   "commit": "0e08e4bd4fedc87b2371313d55691356bee0ad7d",
+   "sha256": "1a0wx4hrs954ff7chpadn95dajcmpgrk5j7yv6ppfh1ml4kx11mn"
   }
  },
  {
@@ -11805,16 +11805,16 @@
   "repo": "bdarcus/citar",
   "unstable": {
    "version": [
-    20220507,
-    1216
+    20220508,
+    1220
    ],
    "deps": [
     "citeproc",
     "org",
     "parsebib"
    ],
-   "commit": "c07217124bf20a9ce5e02d653b28e2a38e9453fc",
-   "sha256": "1p079f8c9m8k99267c2ys4li74ncnby14h2r9qz52qlmp782b9h4"
+   "commit": "9c732e91a4d198d0dc79df7f36524324d383c211",
+   "sha256": "0xhgp70sphzzskhxznzd2lf38wsdayac82wi8cyfhp0159z5zh0n"
   },
   "stable": {
    "version": [
@@ -16113,11 +16113,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20220503,
-    2229
+    20220508,
+    928
    ],
-   "commit": "822928a8609730e8c22e068b04d7908312706cfd",
-   "sha256": "0hcbiac4swssv0p1x8c1yc2afjr5xvjvwdgxgpli0490f4x7xjb9"
+   "deps": [
+    "compat"
+   ],
+   "commit": "1dfdf55f3d941f08089e5d0e611cd9daa8a44b19",
+   "sha256": "1hsxavf55xmy91xmv8yh6fb4aphv6sv947hs35ghvfm5s74sk47v"
   },
   "stable": {
    "version": [
@@ -16413,15 +16416,15 @@
   "repo": "jgru/consult-org-roam",
   "unstable": {
    "version": [
-    20220426,
-    1628
+    20220508,
+    1232
    ],
    "deps": [
     "consult",
     "org-roam"
    ],
-   "commit": "45d18c2b5f378bbcf3d9b61278f5f6c2b92d1be6",
-   "sha256": "1dyqiryswgivgz44k54zfndgqpax3nh94cf5gglf7b2g4kkxrvi5"
+   "commit": "05cec288f931a1f3cd5984b88a79f1339110e4b9",
+   "sha256": "0ar9qfkigwpifca05020p4144d6qh42milwz8wrn8ylxwsmm7v0m"
   }
  },
  {
@@ -16946,20 +16949,20 @@
  },
  {
   "ename": "counsel-at-point",
-  "commit": "76600c160b01ac365ba6fed2304128961a8761cc",
-  "sha256": "1sq9jfzrbr5jai25irkz2nlpj20vw2la8hfchp3zf94vkcvswv27",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-counsel-at-point",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "1bcgsyin3y33r91m89kfx9q7c9d0qx7ga97dcpzdnrvbhav9k2cs",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-counsel-at-point.git",
   "unstable": {
    "version": [
-    20220211,
-    548
+    20220507,
+    1118
    ],
    "deps": [
     "counsel"
    ],
-   "commit": "9280e463a6d17b18b446440c88d9fb8e24cd9341",
-   "sha256": "1g1n2m8g1rd6rifxciznzvc2frgpqyynsngq2gvfvxpcbzd4q9pb"
+   "commit": "f618411fc8f607e4c93b5efa98584fd461c53ac6",
+   "sha256": "0jidrijrb28j81w7jhsl87vjagvq5x4h144cynd2kiyb8y2qpg2s"
   }
  },
  {
@@ -18729,20 +18732,20 @@
  },
  {
   "ename": "cycle-at-point",
-  "commit": "033260c71bef524da774f7b51e744b919f1a7145",
-  "sha256": "1h8ar6dhfk2irbk90hnbxp1l5lmb48rr6r7yj24c9yc8manxyxjn",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-cycle-at-point",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "065jpz2c6mlx133wr41k7gkig4ygxy5i0a1j5rapiyrskg8dcyfj",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-cycle-at-point.git",
   "unstable": {
    "version": [
-    20220406,
-    1340
+    20220507,
+    1118
    ],
    "deps": [
     "recomplete"
    ],
-   "commit": "dca019faf115965d219e9b3126549d8a1a1dbc24",
-   "sha256": "0w5x6hg44d88jx51mksphr7chk1rw1mgcyyv5k6ya7jwsrrdaggg"
+   "commit": "85750fa695797b95608b331b64ea49d81f7c8a36",
+   "sha256": "1cf5mvkwy208dlc4jlax9cb9ffl41aibcpsbfp0sv8ibjrnsaldd"
   }
  },
  {
@@ -18828,8 +18831,8 @@
     20211111,
     1407
    ],
-   "commit": "2795a45f24f6d47016d55e2bee626256173cecae",
-   "sha256": "0afv636vd4i1czkippla7y0s278asz58xwhiihcc9mnskd56cvqx"
+   "commit": "d4cbe45b38695cd27c56ea0b786c52caa4e164de",
+   "sha256": "0z1bdrs5v6rxgbakawzcv57llsccgmc6lch0c31qss6dchih9y98"
   },
   "stable": {
    "version": [
@@ -19983,17 +19986,17 @@
  },
  {
   "ename": "default-font-presets",
-  "commit": "3b8b731674a5c5d4f83d998258a5d4c9aabb2048",
-  "sha256": "0hracb7krwgpnispnjgi86zaywq08mc3c8cyaxl82lc8jc9b05j2",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-default-font-presets",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "0dwdga1qk49l72yhmjxphlqzbxykxm70h64j534ffl2i1gjzkzff",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-default-font-presets.git",
   "unstable": {
    "version": [
-    20220430,
-    135
+    20220507,
+    1118
    ],
-   "commit": "700d7518f613f9fd03074c52820690e65a01eeac",
-   "sha256": "1sasww1cns36b4cbm379618iysaby4vb2aizhm89hfl76wy617cx"
+   "commit": "7117ddadafcf0264c19b7a6bb912d52efe5553f9",
+   "sha256": "1m2l7ngrf8r4z873dir2b6ivbq2hqb8041bmd9xy76rwyy40v7x1"
   }
  },
  {
@@ -20661,32 +20664,32 @@
  },
  {
   "ename": "diff-ansi",
-  "commit": "6bbfb72c3db4f774ffab9cf273b26e23fb027ee8",
-  "sha256": "0k25pfxm0w7i84z1qfzd87l75hv43m89ajaq7bl2ppq2h1fwf880",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-diff-ansi",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "1mgn123nf8rq5ayphgvdgdz64ybrqsn9vcjy3hhw5d3dijy6i992",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-diff-ansi.git",
   "unstable": {
    "version": [
-    20220422,
-    647
+    20220507,
+    1118
    ],
-   "commit": "67dfebe769a4a7cc74d2b2d97e50ac19a00dc7dd",
-   "sha256": "0dfwkn63pz90fffb2b4rhpl1njc79dlxzp2zfgvy86gjy3hfcl3y"
+   "commit": "bfcce7f609a95b4b5e11c384c75fef8c7c972b95",
+   "sha256": "0gddzdx0f6l982ij9q2ljm9dbpjrwi12glxhqr599jnxnlcrxshn"
   }
  },
  {
   "ename": "diff-at-point",
-  "commit": "d342698c94e145ecfebf204c1099dbe765b39c71",
-  "sha256": "1gjjnxafsxrhpxz3zs5kbdmy5wmhcqqfkgryzzc0mmm9iqbskd3j",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-diff-at-point",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "06j1yhl3b2vnm04p83ha1d2z26rr2wj54qbxhfwp0d1w77zrzjf2",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-diff-at-point.git",
   "unstable": {
    "version": [
-    20220211,
-    548
+    20220507,
+    1118
    ],
-   "commit": "2c9b2bb64bfdb5989c5e7481f1fa6ed7ab8ca09d",
-   "sha256": "05j6q346hsv497i4hwlw7pnjz3z625gayha06v8b45byax4997yz"
+   "commit": "aabb96b2b59f0e0d94d7b6889fa30016927ea03d",
+   "sha256": "1zmk2yycsphhz8mqa3ffa3mk6x0cxvmpld7kpa0bn1sp1w8xvssp"
   }
  },
  {
@@ -22103,11 +22106,11 @@
   "repo": "alexluigit/dirvish",
   "unstable": {
    "version": [
-    20220507,
-    1433
+    20220508,
+    1705
    ],
-   "commit": "3075374d34a96d320e54ec053a30482170d08c2e",
-   "sha256": "0m1irmhr7ih2p8z9a3fzb8xqyqyx1nf9idnz6cbmsd32racgk2gz"
+   "commit": "75d5abb62670dac0dce3e43e8dbe2e42b7abe6ab",
+   "sha256": "0li4sgwv68w70dfig4r1y4ksax88ffwbhlqri8wps2kaa9786gny"
   },
   "stable": {
    "version": [
@@ -22761,17 +22764,17 @@
  },
  {
   "ename": "doc-show-inline",
-  "commit": "4439485b5c582bc6a72789d07ca3b033c6195f3a",
-  "sha256": "1j1bwm5hfzcq683rl8k9362vlzxnddcqhmxsinwq2c9c7md8hfrv",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-doc-show-inline",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "1d2mkk6a9r395vh4iyjdhzwzhn8wp1f9b3p56gls8sdqjpfwavk1",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-doc-show-inline.git",
   "unstable": {
    "version": [
-    20220421,
-    122
+    20220507,
+    1118
    ],
-   "commit": "bf58925ab94dd66a124786a9d972dbce6360a363",
-   "sha256": "0a07qkfjinkhqgjsgs53zv2w7msy8wf0yvnj5ww91w1n7lxwpsp4"
+   "commit": "0cceb39df31fd578cfc95d756f667874e6321001",
+   "sha256": "108w5v4mw7wj1ahg0bhh7bdvg31hq5iqgyjiyf9zdm02wnmz8jhh"
   }
  },
  {
@@ -48404,15 +48407,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20220504,
-    827
+    20220508,
+    1455
    ],
    "deps": [
     "helm-core",
     "popup"
    ],
-   "commit": "a23bf2fa7b5553d2a3a8d61efa504416f876ec20",
-   "sha256": "1xpimf4cmwwrqjchhrbyrv0n048m2vngjxcvm7xs8yq373d8987x"
+   "commit": "4402bd042f9af15cc671175061795b36d0cbe434",
+   "sha256": "1zlnfbddi67h6ks6z0q24jpqzkgqj3y7w0i537zsi3f8rdpv1m8a"
   },
   "stable": {
    "version": [
@@ -49316,8 +49319,8 @@
    "deps": [
     "async"
    ],
-   "commit": "a23bf2fa7b5553d2a3a8d61efa504416f876ec20",
-   "sha256": "1xpimf4cmwwrqjchhrbyrv0n048m2vngjxcvm7xs8yq373d8987x"
+   "commit": "4402bd042f9af15cc671175061795b36d0cbe434",
+   "sha256": "1zlnfbddi67h6ks6z0q24jpqzkgqj3y7w0i537zsi3f8rdpv1m8a"
   },
   "stable": {
    "version": [
@@ -54101,17 +54104,17 @@
  },
  {
   "ename": "hl-block-mode",
-  "commit": "68b7cb0ffe90cd56e2ca6e91e33668be586a1da7",
-  "sha256": "17ghc2hbvckp68blk8izwmx6far9ampalik2f9idz27982h49ia8",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-hl-block-mode",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "0jav8lk7vyfmvb10l4zy12zq9cbiw2f8biw5cp2hg95829hwlin9",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-hl-block-mode.git",
   "unstable": {
    "version": [
-    20220211,
-    548
+    20220507,
+    1118
    ],
-   "commit": "17d5136bc6a2327d8710001ef930e8377160c996",
-   "sha256": "00wz1vp5hdl0jjqfcg78fc0h598w64ymidm05893vr0zhvahh28r"
+   "commit": "7e0452c768a4e309d1cdc15025683ebfe71e626f",
+   "sha256": "0ymkxmpfd19qjdc80a6hrljbwpn78xvj6r769zfskyhqj3a3a2xd"
   }
  },
  {
@@ -54152,17 +54155,17 @@
  },
  {
   "ename": "hl-prog-extra",
-  "commit": "d4ababc787d4dd173c65cc1b4b4a0fc0bb6e6d07",
-  "sha256": "1dgjskhz1jq01j19dmy8d3fzrg1d8jzrycdsxmkjlc2h05285wkg",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-hl-prog-extra",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "0fgs70wfrlk99j439ypnjysa0d3fw6h4rf5w1878p9f69azwpz2f",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-hl-prog-extra.git",
   "unstable": {
    "version": [
-    20220504,
-    607
+    20220507,
+    1118
    ],
-   "commit": "f0e2a26787b841d45a4e41204919f098d82d5de3",
-   "sha256": "1jyhgxjmnm4yz5402vd445rasxl5vqzr8fv0xhcs9ppz190crmrr"
+   "commit": "a8e2ee5d43ce70c59e57d2ab90b39a6cf9e7b851",
+   "sha256": "08vs56lvq9ihhxd7vhcgd9lry2bm8q14mx18ap1izj6r52njdsy5"
   }
  },
  {
@@ -55690,17 +55693,17 @@
  },
  {
   "ename": "idle-highlight-mode",
-  "commit": "43c7b0d74b482de5134de097e982934cd72c5f04",
-  "sha256": "1yrvvizw48lky06zjsx2n2w5cb2c5qz2kvcm9bpqyr5gp2w63pls",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-idle-highlight-mode",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "15was00580bx5wqvmyp6fc6l54zx5gcwnqgdzpbmyvnxx4v39znl",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-idle-highlight-mode.git",
   "unstable": {
    "version": [
-    20220211,
-    548
+    20220507,
+    1118
    ],
-   "commit": "1ccacea86ed7aff1c94750a399cff2a623fe3771",
-   "sha256": "0cawf1vlkk0m6daahzgn1999swlzmc4bjhka0r8rncnvlzgdpxpa"
+   "commit": "5418252a11b00377a59295e50b7436f53afe68bb",
+   "sha256": "0dmqvpck1hwlw8z2lppyc1cnjw62gm9yykk2j4j3ckdvgcpkj6cj"
   }
  },
  {
@@ -57454,17 +57457,17 @@
  },
  {
   "ename": "inkpot-theme",
-  "commit": "68b7cb0ffe90cd56e2ca6e91e33668be586a1da7",
-  "sha256": "1avgzjwppmmhdmljwpy75acylm3f74d3x0q94ld2n1yhi8xx40i9",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-inkpot-theme",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "07d6344a0x7dhlgw9i8dzw7mcdz71d1mig5y307rdqj27ic3bbqn",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-theme-inkpot.git",
   "unstable": {
    "version": [
-    20220429,
-    359
+    20220507,
+    1118
    ],
-   "commit": "ab1b949ac67f3aba0d83905d3a75c80816ed2a36",
-   "sha256": "15l2n6yxq73wyf8zlix4571s6cndm6m3qmrjd5d9bzy6n3sp9gf9"
+   "commit": "59056ef2e8850d33abc6e787219fcff404217afc",
+   "sha256": "1fayzcc9ixpnhma7968y70zdfslcvxrx3sgqsln0kp5zdkzm2691"
   }
  },
  {
@@ -62875,14 +62878,14 @@
   "repo": "emacsfodder/kurecolor",
   "unstable": {
    "version": [
-    20200113,
-    2027
+    20220508,
+    929
    ],
    "deps": [
     "s"
    ],
-   "commit": "3fc84840cbbd75e646cafa2fd3a00004b55e37ec",
-   "sha256": "0y8wj8f2wzhg5vl4kjrqny3333616s4lcil085190yyb7mjakvn5"
+   "commit": "1c80df0f2c542f54920f18aa4eb837f0a51c7676",
+   "sha256": "0hmsf7kgzmpzri3ggb7l6y3pvfpinfv0d24fnxpbp1zd17lfwks1"
   },
   "stable": {
    "version": [
@@ -66230,8 +66233,8 @@
     "request",
     "s"
    ],
-   "commit": "1e2aff23dfaf419bfae66718761a0eddbd6f613e",
-   "sha256": "0ga5b985ghpxmbbfg381yivbhkgdljr3gic2nlny6likr6v1nc2c"
+   "commit": "2c01e3d8ec55835cf18945786f4a74ad6b7c4260",
+   "sha256": "0hwf3i7j2rx2m0p89w14la8kk13k5s3nf19i6bnllymy1aykhwng"
   },
   "stable": {
    "version": [
@@ -67541,20 +67544,20 @@
  },
  {
   "ename": "magit-commit-mark",
-  "commit": "2d6e8cd768a8d119f1ac3407f9d5793b084e8f1d",
-  "sha256": "0dvw9plzhm3yql719xi2n4j1v9q31g67jnwx5n5pzjk90v2rzqxm",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-magit-commit-mark",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "04j8sr7yzl9ipwsra19vczk025v9kba8w43sy37r335dy6h7vr74",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-magit-commit-mark.git",
   "unstable": {
    "version": [
-    20220422,
-    705
+    20220507,
+    1118
    ],
    "deps": [
     "magit"
    ],
-   "commit": "581a68cfc8588591560cb77e05ad4651b067045e",
-   "sha256": "1bx0mpyvbv3x94k4sdymv3mv5m9dzcsgj3bqfd48x8qypf970qdl"
+   "commit": "bea29dc0419122b5dbc68b6b56cb0fbe97729e2d",
+   "sha256": "1xl5xr4vi0mafs1sv82sk5bm8qfm9kdl2jfxsv8p3y489fj4pn3c"
   }
  },
  {
@@ -68889,11 +68892,11 @@
   "repo": "jrblevin/markdown-mode",
   "unstable": {
    "version": [
-    20220406,
-    410
+    20220508,
+    1219
    ],
-   "commit": "d2a3d5b8625a7c6be21f19f9146745cd5c791a6a",
-   "sha256": "00wiyghp38x788hn5rbm26lihx0bjwj4w76ya1bx6vl5g8k1h2yw"
+   "commit": "5b6e660c13ca3f4d15dbc1aa3d7ab2f228491ef9",
+   "sha256": "11phyiblvxzx3dqqqrqlfi0q67ih1hy1630rlx6pi7w835npn0wz"
   },
   "stable": {
    "version": [
@@ -71262,17 +71265,17 @@
  },
  {
   "ename": "mode-line-idle",
-  "commit": "6c854955505f809f7a70e8918ea3a0187e62257c",
-  "sha256": "0wvy7p27d4qa5f6cg1zqrm8wzfvd0wfwcc5aimcs1hkxlzl1kr6b",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-mode-line-idle",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "0lw9cj9wz992hzz39x91zmf6p4jqydxjv7227gwv7h4mzw0js5i1",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-mode-line-idle.git",
   "unstable": {
    "version": [
-    20220406,
-    2322
+    20220507,
+    1118
    ],
-   "commit": "6d2b49f7e3e9acdb4187a9e8e954ba641998db55",
-   "sha256": "182bw5995d855kq10bqhdffpc9b9if04d0mry75xgsp970jngyvd"
+   "commit": "28658a54fbf20e8224cbc71b074670309ec2e998",
+   "sha256": "0l9iks709cl62yyj547fzikpc3xfpf9lg0bb1iya1hscix6njbc3"
   }
  },
  {
@@ -71388,11 +71391,11 @@
   "url": "https://git.sr.ht/~protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20220506,
-    616
+    20220508,
+    909
    ],
-   "commit": "5cd7f47e6e7d4c0d3c5df940d2d1e74b34961588",
-   "sha256": "15516jr48ryfn404sglnn7bmv5392n3y573y8i83dzi1wygfqncd"
+   "commit": "4da9042dbcf003986dcabcdbccd5cd8f9b583f76",
+   "sha256": "0w427z6fl86nbamclvzcyswrfvngzpwkv0k6v2fsn491az207mnk"
   },
   "stable": {
    "version": [
@@ -72044,8 +72047,8 @@
     20210306,
     1053
    ],
-   "commit": "c0bd08f573abc3d86b6f2ce0f5714c99d6e5dcd2",
-   "sha256": "02iap2nh3anm7gdwl6iyxxqi7gmb7xlijz56bv78ib7z6ihdlfbz"
+   "commit": "247db142f7251062978ade3fd27c815259eaa05b",
+   "sha256": "16bdqpmj4lsc3nx78ikvgqslb6jrzc5qmkhfl8m5gy26gfd37dxn"
   },
   "stable": {
    "version": [
@@ -77255,17 +77258,17 @@
  },
  {
   "ename": "oblivion-theme",
-  "commit": "7d4af0029c1d935137aebebcc19eda206bf5f9ac",
-  "sha256": "0a8q63kxlxd2svz5l8sbh6yiyhd6bl8a3hz335a09w1501f23lki",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-oblivion-theme",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "1w814y5q66amiz117maq297k59ng5fx3ab04cddwl8awqws58ssg",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-theme-oblivion.git",
   "unstable": {
    "version": [
-    20220429,
-    116
+    20220507,
+    1118
    ],
-   "commit": "3976bd53a0d7c8fee4644a9933acc7586dc2d164",
-   "sha256": "08y3v3imniyc6naykqfr8wspp1if378x3ndd5dpzibj04azspb29"
+   "commit": "4129672f60d55c820adf260002476d038ac18165",
+   "sha256": "12dlvkb3vsfgz3k7cchbcn9g5q5w8g3m1xr21d31zq67wnm3h8lg"
   }
  },
  {
@@ -81694,11 +81697,11 @@
   "repo": "bastibe/org-static-blog",
   "unstable": {
    "version": [
-    20220505,
-    620
+    20220508,
+    1410
    ],
-   "commit": "61a3ab0e2e8e1ac0ef8772e89ae320c07142f7f5",
-   "sha256": "0p3bhnp91x65xr5d40kdmyj7vgyq62bvq3b1gfwv7881sh8p6hr9"
+   "commit": "a6cd8f651f971eaa68be1cbfd30cc775e3a7ee93",
+   "sha256": "0i5r35my8sbnbic8jskzpnjlp6fjn7vglxaa9pkknjxs0dvj1x6m"
   },
   "stable": {
    "version": [
@@ -83174,11 +83177,14 @@
   "repo": "minad/osm",
   "unstable": {
    "version": [
-    20220507,
-    1001
+    20220508,
+    853
    ],
-   "commit": "17884f69eb9681db880865af73762686c8e83cc0",
-   "sha256": "0rxrzgaxn4ck40jgrnr01s3f96vd4v66jwkg0bfklxgxsx9dmnav"
+   "deps": [
+    "compat"
+   ],
+   "commit": "45dfc686e527d69b7965752594020a936ddfa9ef",
+   "sha256": "1f5f3dgaqhryqachrzwr0wqknp88jmv62dnlgz5nx4k7pkhrmrfm"
   },
   "stable": {
    "version": [
@@ -91856,17 +91862,17 @@
  },
  {
   "ename": "py-autopep8",
-  "commit": "33bdbea0a2c998e1e0065af5978a381fde64b090",
-  "sha256": "0cs3ipj9s56j97c6w5nbv3zic20ifp9szyxb5gv9gcl2nyh5r9za",
-  "fetcher": "github",
-  "repo": "ideasman42/emacs-py-autopep8",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "06blvhb65lp3jvwiznagqskf4gb7w8ly9vvghwrlvwg960m72h61",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-py-autopep8.git",
   "unstable": {
    "version": [
     20220502,
     310
    ],
-   "commit": "ef75a197a5333c500c9a432a286f9e4088fe9894",
-   "sha256": "04nw5n7a0xdd7jypnfdm84nr3fksz22b7159cpkzw1gm25wdzj7a"
+   "commit": "89c9ed8de2deab6bb891ae25c85cc6498e60b90a",
+   "sha256": "0ygvl8zq8d6lbv8x6j6vklxhc6xrmii4fd9c74py1bjqvx4d1fjh"
   },
   "stable": {
    "version": [
@@ -92358,8 +92364,8 @@
     20210411,
     1931
    ],
-   "commit": "ccd87b41819153ffe33f19d9e7db499aba19bbca",
-   "sha256": "0ycharq1kzvp3g0sgiv3vlxpsik3ayygybzkjzqpbqp7k8ygr46z"
+   "commit": "8df920b341a872b85754c910598d27a8846988f9",
+   "sha256": "1a37vjbkg2kw4jafzmd061nvdzlwcmm5hmr30n6wkpic8mqmickd"
   },
   "stable": {
    "version": [
@@ -92706,11 +92712,11 @@
   "repo": "python-mode-devs/python-mode",
   "unstable": {
    "version": [
-    20220507,
-    2031
+    20220508,
+    1545
    ],
-   "commit": "c9ba7b75ee940cfdb5d3da0211e6a954c1735592",
-   "sha256": "1qcx2kaqxwmap39jvyzy8i1s23rsi0cyai5zn89gjvif0smyj9h4"
+   "commit": "7fac0e30b836d7422d89c78d58abc82979503476",
+   "sha256": "00kmw43lzhz5a3749zwyrmk07593mwi0czqwgp8f3wx6yjmvfs3q"
   },
   "stable": {
    "version": [
@@ -94576,17 +94582,17 @@
  },
  {
   "ename": "recomplete",
-  "commit": "4a3938f413ff1ceeb7ed6aedf0e3067073208068",
-  "sha256": "0ym5l5cpx464hxzww4m35rrlr4c5h8kl6090w2a7hck47kwyv8ni",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-recomplete",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "1y3m8vi3xkdlb7zf3b7hjdpw8isx6ncs2mw86ijf1brapmwpa99f",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-recomplete.git",
   "unstable": {
    "version": [
-    20220211,
-    548
+    20220507,
+    1118
    ],
-   "commit": "d014f738c2be84feb451e6d4da6f7c2960730ffb",
-   "sha256": "0nfdi8kai6vgjhfz0wk8szfp27r1qcmhwyppijqidh7jiyipmd6l"
+   "commit": "021ca9b047caadd4903aa6f417890d6497ae437a",
+   "sha256": "1a78hmq8p5a8w0pciansci69vm3m65kcxsfp184bajq1nx8ydn6d"
   }
  },
  {
@@ -95809,17 +95815,17 @@
  },
  {
   "ename": "revert-buffer-all",
-  "commit": "02ff00238a8af45d9e26e0b7b6b19a507ea06f86",
-  "sha256": "1lyxwh3kjlhyi5ln2lmbhyn28fxdd3l58djc9mqbzwdfm81qprsv",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-revert-buffer-all",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "1mlx015qspp7lrfpq5942azk9qlggai4157i8bl9c3hkh4q1sgfj",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-revert-buffer-all.git",
   "unstable": {
    "version": [
-    20220211,
-    548
+    20220507,
+    1118
    ],
-   "commit": "3c989040e3804f21a40b3eed79675ab32bc3e24a",
-   "sha256": "19nq1rsidff0j9hgcsvfasyw9c3wihywzm8qkr659in0cv3cwwck"
+   "commit": "0296a7101f65d486e13c2674bd4b51631504523d",
+   "sha256": "0avizhbx0a7fnlbjbm4ivg5abbwymmvrzlshazxf5ngn261fgm2w"
   }
  },
  {
@@ -97052,17 +97058,17 @@
  },
  {
   "ename": "run-stuff",
-  "commit": "68b7cb0ffe90cd56e2ca6e91e33668be586a1da7",
-  "sha256": "038brammgivaq2423sx0iy6n7d7lyx3r939a0b85ix8zvkcbinia",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-run-stuff",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "07h849w8s72vf1drvs0dvf2jmf47f3hxn30by630fp76bfif8i7g",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-run-stuff.git",
   "unstable": {
    "version": [
-    20220211,
-    548
+    20220507,
+    1118
    ],
-   "commit": "36acc30cef2b0b725996f70602059751aa6bf67d",
-   "sha256": "0mgwfanz74i6vdpwmy2jgy24w3vw2h3gcbl4jivhk3wsrjc78xa8"
+   "commit": "0aeabc7ef3f2a209c0c69300f6d61921ec448ffc",
+   "sha256": "0ylsj92fq98i7vbibav7807070adaz24jn497qcd15n8ndfrvri5"
   }
  },
  {
@@ -98068,32 +98074,32 @@
  },
  {
   "ename": "scroll-on-drag",
-  "commit": "0cc172bb1b4194b66827bf5be0b6658fb330a11a",
-  "sha256": "1i4i19qkin19h2xc1r6a66rsll1rfbbvf2nsm75f9vvvrdi4sjyf",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-scroll-on-drag",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "0f5d4m1rf2ggac7yy6wdxx61sw10v48wxfsdj70b2wm6fqcz6fqi",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-scroll-on-drag.git",
   "unstable": {
    "version": [
-    20220211,
-    548
+    20220507,
+    1118
    ],
-   "commit": "1ad78fc84f99563c412e07ab44608c6f6b2e88dc",
-   "sha256": "0ww1rrqdlnn4yq0zl97n413nldidgdw0af2ynd61ixj775jk5a98"
+   "commit": "fb9af984610f7ef83b031ff04efa32dbdf2eb741",
+   "sha256": "0lyaw728nnxwfaw2rsd4y16gfa66sdsw8b0s5ccfzrwd64vxbxc0"
   }
  },
  {
   "ename": "scroll-on-jump",
-  "commit": "824ab5881f045a43056d9b143cc59267c43aec81",
-  "sha256": "03ra46xclmxrygpbbf05j9rx2q8qx70cxsqmhygqad5ij75h253k",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-scroll-on-jump",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "0vp7pj8ib4h0a7x74pdrknxiqpbkxyhblw5jkbsxzmjbbjwaclk8",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-scroll-on-jump.git",
   "unstable": {
    "version": [
-    20220211,
-    548
+    20220507,
+    1118
    ],
-   "commit": "1ea1961b4064cf7f8718e7c4e36e27d3c8f7b1b2",
-   "sha256": "03mgaf1p2sw9xwcwcg5m9d345rf4h0m619h438rxfhkadkp51y5g"
+   "commit": "1cfa3e8a91427ef4066e5e62b035dda09cd6a7ae",
+   "sha256": "0ns3zfa421f7hg1kkgczkmj6v2pr0pj424bfak3y294fh6b15pc2"
   }
  },
  {
@@ -100111,17 +100117,17 @@
  },
  {
   "ename": "sidecar-locals",
-  "commit": "223bf20a37b48516b6ec9886c67660151ab37da6",
-  "sha256": "1lw4s749ril3mfbjdvns2myd5d8jf5dhzyywmk18bp7wb5cnmjbg",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-sidecar-locals",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "1vw7xrd0kv50q2sqydw0wwrw5z30lwkfvk70n4v78r9r3y1pfx4m",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-sidecar-locals.git",
   "unstable": {
    "version": [
-    20220421,
-    145
+    20220507,
+    1118
    ],
-   "commit": "4bc8a27bf308869259b24ee6a2dc1737af3042e0",
-   "sha256": "0aa8h2fdhq0aswbwj3pxpzpv395nfhzf6chd8pck5l9fvc65ajba"
+   "commit": "3831db67c692f269d1ac8bfdc38c56ee2d110250",
+   "sha256": "1ypjk466z8cm5plm44l182zq5fwiyv6my2a9rbgfw9rb3ci6s2rg"
   }
  },
  {
@@ -102987,17 +102993,17 @@
  },
  {
   "ename": "spatial-navigate",
-  "commit": "143e50e99f84cc7f0c9d0597b30c40609ac86dbb",
-  "sha256": "01w8sjygng0bkkwnfqbyhpd1aa6yls95293mnpdfipwa0zy3rivl",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-spatial-navigate",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "0xv9jdnszx900wm15ifimv0dsyzvcj9sq289qy5hz6778k52ya9z",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-spatial-navigate.git",
   "unstable": {
    "version": [
-    20220211,
-    548
+    20220507,
+    1118
    ],
-   "commit": "b85886fe2dff8e8896f57ec53d500b234d36d946",
-   "sha256": "1dsf0km2jz61ylq465xyaxagnpb2yi66794k8giqac49rg1s8wx0"
+   "commit": "09ebd2ba7779998c31296bf8b6ffebf854f3eb73",
+   "sha256": "1zwynrnsbkvac8xi4y81s6z4h9p8vknxd7ii0lqw5cmphx0fdbqb"
   }
  },
  {
@@ -103133,17 +103139,17 @@
  },
  {
   "ename": "spell-fu",
-  "commit": "abaa6522f18ca1f47788ebb3281fbfcdade2b7c7",
-  "sha256": "0c2yi5lz2ww7mm9ih3m374w65n73z4knhnbrvdyzd7ja3xb3l17n",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-spell-fu",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "04qb0yldnqh4bl2jq1qfr529bnx9hfz74pdlsiv30avm8ly01d8s",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-spell-fu.git",
   "unstable": {
    "version": [
-    20220213,
-    1215
+    20220507,
+    1118
    ],
-   "commit": "32d7014730672aa68f6c079369840c1748bbf4a9",
-   "sha256": "09zpgmgpnqhxrr0rlsgvc73p05hc43k8sfrdb92xg9rpia0dj991"
+   "commit": "2f2fd6de0003edb1038b7c639cf23264d1406993",
+   "sha256": "1p23c2y124xmd3zwfns4zmk460vxd459dds0w0k9mnjnm9p8dkq2"
   }
  },
  {
@@ -104238,11 +104244,11 @@
   "repo": "motform/stimmung-themes",
   "unstable": {
    "version": [
-    20220507,
-    1611
+    20220508,
+    1737
    ],
-   "commit": "f84278803ab61fabf25ed6c6fb5b3dc4822b162c",
-   "sha256": "1ryx94hk446pq4rmd2pddjls1vzh5gshihg1r3n1dpgj4m4q4x0w"
+   "commit": "d03558c2aeac781c65c4137839362790f8b36b3d",
+   "sha256": "1gqsbqlc1aygls34mk9l5qywkx71pps4qsh9sinvgyrdwlllyk56"
   }
  },
  {
@@ -107801,8 +107807,8 @@
     20200212,
     1903
    ],
-   "commit": "f3788508cf91b60f8ad71ee1340b579325171612",
-   "sha256": "1j4rhn2nnm0y32lp6xpbd50wg27lc5zfpw2y5s56x1s5jrmv5hb6"
+   "commit": "321b08352d043708869d5c15f961610392afca16",
+   "sha256": "0pynyavfwwylqibj4az58a3q45di540d0j6dwdwywihn470cinvz"
   },
   "stable": {
    "version": [
@@ -110764,32 +110770,32 @@
  },
  {
   "ename": "undo-fu",
-  "commit": "0ca16994315f7d5dee9fff76db036e084162dc52",
-  "sha256": "1b0616zlblsd5405sfh02lxjyq6gl3s9m8vsxbqi6fryr4y750s9",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-undo-fu",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "00zbjr5dwpaqjky6sr4affj1nhv8q97psrfs55x6xd5smdkbxx60",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-undo-fu.git",
   "unstable": {
    "version": [
-    20220412,
-    2337
+    20220507,
+    1118
    ],
-   "commit": "b50b283a073b9b3216fccf38649320a529ca1517",
-   "sha256": "1a1nmf5j2m9s76710qacvaqhbcdrk11fcdy1p0bqdzx7q9a2ci3h"
+   "commit": "08a9f1494957ca6513bdf8be5de6801b33e3ee59",
+   "sha256": "1yfkaqs7jkn6cfd2gixxscx303d97hngvni48a9hqa3n4hkg878p"
   }
  },
  {
   "ename": "undo-fu-session",
-  "commit": "f39d9dc5e57554b42eca54ad5399a53947c2c25f",
-  "sha256": "0k9qxs3igzf7zcg1vd4v9npfiah512w9j2scnm333brmx4jfgvb7",
-  "fetcher": "gitlab",
-  "repo": "ideasman42/emacs-undo-fu-session",
+  "commit": "ea2ae0d7f188967cf3b0cb71c4bbba364e59bd61",
+  "sha256": "16p51y2b0c2mbba7r1wrwbb15nv9wlgdd51yyr1gmbp90m81x9ky",
+  "fetcher": "git",
+  "url": "https://codeberg.org/ideasman42/emacs-undo-fu-session.git",
   "unstable": {
    "version": [
-    20220428,
-    200
+    20220507,
+    1118
    ],
-   "commit": "a20c9dcb5fa54ba2ba6c79c7adb409cebb698818",
-   "sha256": "011717znwdl54sgndid0lqal6shdi4vliwnmam7pbv1bhdcwfdzs"
+   "commit": "bc48bb6611d516891b61b2c4b5bc8d7fe8a520f6",
+   "sha256": "1r53bdip485wmyqq0qim7kwspgqgfa377nfb356ff1j0vmkjkwws"
   }
  },
  {
@@ -113797,16 +113803,16 @@
   "repo": "wanderlust/wanderlust",
   "unstable": {
    "version": [
-    20220429,
-    549
+    20220508,
+    1540
    ],
    "deps": [
     "apel",
     "flim",
     "semi"
    ],
-   "commit": "a341b43e5e5fc97a14d1c9fc7d8e92490a8b7a0a",
-   "sha256": "1gwzvwnc12c4gs8z0mm56w4s550iqmxgzyvaacgzn7jnmnm2js9x"
+   "commit": "e3cd5e39454737c0b641e114ddcc550122288a2a",
+   "sha256": "0qm5gyss1mxwcxgc4s201c0bvh7kfkfg8fii766nfnddfywccj43"
   }
  },
  {
@@ -115605,11 +115611,11 @@
   "repo": "progfolio/wordel",
   "unstable": {
    "version": [
-    20220225,
-    1907
+    20220508,
+    1745
    ],
-   "commit": "5a1f9a45c3d1fa58c3de5183c4456572ae861d49",
-   "sha256": "0jd7lbb7mbjfk66mkzxnhffh3dlj28xma5a8km5hc4lclqlm74sx"
+   "commit": "d37187bb5abb2fe4a8ba120fad9e52dd74cc220e",
+   "sha256": "0527j2ldfiaqlblk00abdl0s0l0wmxac74i4qa899mlqq5sp7kyy"
   }
  },
  {
