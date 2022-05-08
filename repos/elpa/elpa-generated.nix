@@ -1499,10 +1499,10 @@
       elpaBuild {
         pname = "engrave-faces";
         ename = "engrave-faces";
-        version = "0.2.0";
+        version = "0.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/engrave-faces-0.2.0.tar";
-          sha256 = "1d0hsfg3wvwbs82gjyvfjvy1sszcm7qa50bch1b6jy05kbc543ip";
+          url = "https://elpa.gnu.org/packages/engrave-faces-0.3.0.tar";
+          sha256 = "0l59fci16m6li52bqwbqglsi9gavgsfkxlxm9y1ny3ma0w1rnp9d";
         };
         packageRequires = [ emacs ];
         meta = {
