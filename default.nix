@@ -177,7 +177,7 @@ in
     )
   );
 
-} // super.lib.optionalAttrs super.config.allowAliases {
+} // super.lib.optionalAttrs (super.config.allowAliases or true) {
   emacsGcc = builtins.trace "emacsGcc has been renamed to emacsNativeComp, please update your expression." emacsNativeComp;
   emacsPgtkGcc = builtins.trace "emacsPgtkGcc has been renamed to emacsPgtkNativeComp, please update your expression." emacsPgtkNativeComp;
 }
