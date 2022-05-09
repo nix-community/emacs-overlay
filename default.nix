@@ -63,13 +63,15 @@ let
 
         # reconnect pkgs to the built emacs
         (
-          drv: let
+          drv:
+          let
             result = drv.overrideAttrs (old: {
               passthru = old.passthru // {
                 pkgs = self.emacsPackagesFor result;
               };
             });
-          in result
+          in
+          result
         )
       ];
 
@@ -100,10 +102,8 @@ in
   inherit emacsGit emacsUnstable;
 
   inherit emacsNativeComp emacsGitNativeComp;
-  emacsGcc = builtins.trace "emacsGcc has been renamed to emacsNativeComp, please update your expression." emacsNativeComp;
 
   inherit emacsPgtk emacsPgtkNativeComp;
-  emacsPgtkGcc = builtins.trace "emacsPgtkGcc has been renamed to emacsPgtkNativeComp, please update your expression." emacsPgtkNativeComp;
 
   emacsGit-nox = (
     (
@@ -177,4 +177,7 @@ in
     )
   );
 
+} // super.lib.optionalAttrs super.config.allowAliases {
+  emacsGcc = builtins.trace "emacsGcc has been renamed to emacsNativeComp, please update your expression." emacsNativeComp;
+  emacsPgtkGcc = builtins.trace "emacsPgtkGcc has been renamed to emacsPgtkNativeComp, please update your expression." emacsPgtkNativeComp;
 }
