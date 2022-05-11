@@ -384,10 +384,10 @@
       elpaBuild {
         pname = "boxy";
         ename = "boxy";
-        version = "1.0.5";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/boxy-1.0.5.tar";
-          sha256 = "0g608nhg160p9gflw52h3247x35r0g6bl89yq35jbsc7fnw6m5ry";
+          url = "https://elpa.gnu.org/packages/boxy-1.1.0.tar";
+          sha256 = "17z0amn1klbzvq0z5g20a5gjq5agrrhnkp8amqlqzj7p0p31nbns";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -399,10 +399,10 @@
       elpaBuild {
         pname = "boxy-headings";
         ename = "boxy-headings";
-        version = "2.1.2";
+        version = "2.1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/boxy-headings-2.1.2.tar";
-          sha256 = "0jyfp41jw33kmi7832x5x0mgh5niqvb7dfc7q00kay5q9ixg83dq";
+          url = "https://elpa.gnu.org/packages/boxy-headings-2.1.3.tar";
+          sha256 = "09k5x123db19v2k49y8acyk5y3r0fxw0xz61qqqidrgrx8fs3mg9";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
@@ -1714,10 +1714,10 @@
       elpaBuild {
         pname = "fontaine";
         ename = "fontaine";
-        version = "0.2.0";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/fontaine-0.2.0.tar";
-          sha256 = "1vg4x9wpppzxaywdijx8x8rgccsdsb7s7kc9cfb770p1nyy23bba";
+          url = "https://elpa.gnu.org/packages/fontaine-0.2.1.tar";
+          sha256 = "11g03gaiypqf0xi7s3xyjnbi2w154lkd7j0ybmn8scs6pbzdyl95";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3175,10 +3175,10 @@
       elpaBuild {
         pname = "org-real";
         ename = "org-real";
-        version = "1.0.4";
+        version = "1.0.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-real-1.0.4.tar";
-          sha256 = "0bn9vyx74lki2nggzir02mcrww94dnqpbkryjr7a4i6am0ylf705";
+          url = "https://elpa.gnu.org/packages/org-real-1.0.5.tar";
+          sha256 = "0g70bzhr094fah86cyvd9ci8q28qi9c44g33i4lw7clklgdx7mxl";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
