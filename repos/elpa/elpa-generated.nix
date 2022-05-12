@@ -4553,10 +4553,10 @@
       elpaBuild {
         pname = "tomelr";
         ename = "tomelr";
-        version = "0.3.0";
+        version = "0.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tomelr-0.3.0.tar";
-          sha256 = "0jnnyvbmhqn8wkg3y13iy19nck6dphay8jdy2nimp28a1jvs7z6g";
+          url = "https://elpa.gnu.org/packages/tomelr-0.4.1.tar";
+          sha256 = "12l6hr439xl14zpqw1sp4y8hqllgxbjf7naxvdh421b5rk93dk6y";
         };
         packageRequires = [ emacs map seq ];
         meta = {
