@@ -1499,10 +1499,10 @@
       elpaBuild {
         pname = "engrave-faces";
         ename = "engrave-faces";
-        version = "0.3.0";
+        version = "0.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/engrave-faces-0.3.0.tar";
-          sha256 = "0l59fci16m6li52bqwbqglsi9gavgsfkxlxm9y1ny3ma0w1rnp9d";
+          url = "https://elpa.gnu.org/packages/engrave-faces-0.3.1.tar";
+          sha256 = "1q4sjl2rvcfwcirm32nmi53258ln71yhh1dgszlxwknm38a14v3i";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2931,10 +2931,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-modeline-0.6.tar";
-          sha256 = "1cxycfx4ic2hzfvp3d2z0a5xjg97p49yla3a1qxw1dldcjg9lfg0";
+          url = "https://elpa.gnu.org/packages/nano-modeline-0.7.tar";
+          sha256 = "1fsjzbdawkn4vmk6zs6az1b42mx5ka7a618fgx5zdncr79wl0vjw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3423,6 +3423,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/pinentry.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    plz = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "plz";
+        ename = "plz";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/plz-0.1.tar";
+          sha256 = "083qz6kfg4q8xy3vsfwlk2g9vbg8iym2axmyhh54naivrc096ghc";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/plz.html";
           license = lib.licenses.free;
         };
       }) {};
