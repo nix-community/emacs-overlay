@@ -801,10 +801,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.23";
+        version = "0.24";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.23.tar";
-          sha256 = "1l988jmvn3x1x77sc89pg5ivwl9i4r2v4k74ymkplgcc9wpffm1v";
+          url = "https://elpa.gnu.org/packages/corfu-0.24.tar";
+          sha256 = "1pymz698qw8hv29fswpafddi2vi4qr0vfdsj9ww96mc7qxq36843";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -921,10 +921,10 @@
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.19";
+        version = "1.20";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/csv-mode-1.19.tar";
-          sha256 = "0sslxlnw10ba6m711p4ps4zsfjz56dsp2945ga5z0y8d860pliqh";
+          url = "https://elpa.gnu.org/packages/csv-mode-1.20.tar";
+          sha256 = "08im1llz04s3ckpj3c3j4wxq4g00fyld2m8ylnh878ss5izzs0lg";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3265,10 +3265,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/osm-0.7.tar";
-          sha256 = "0k2phmh2sl50vx88cgndghcjfz0i20mjs2hg4mlh4hb5q9yjpcj4";
+          url = "https://elpa.gnu.org/packages/osm-0.8.tar";
+          sha256 = "1vvd149n4pa6jy7xk5dmhi0nfwcjd4rvxn283f1jxp5jvv47m202";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3340,10 +3340,10 @@
       elpaBuild {
         pname = "parser-generator";
         ename = "parser-generator";
-        version = "0.1.5";
+        version = "0.1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/parser-generator-0.1.5.tar";
-          sha256 = "06cl9whk321l1q5xcjmgq5c59l10ybwcdsmmbrkrllnbpqxy23bj";
+          url = "https://elpa.gnu.org/packages/parser-generator-0.1.6.tar";
+          sha256 = "0qql5klnh8fbnbkb4mhv6axxvw4qv09cy1h556m0qzg30sckxas1";
         };
         packageRequires = [ emacs ];
         meta = {
