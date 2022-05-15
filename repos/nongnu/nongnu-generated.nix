@@ -598,16 +598,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    evil-matchit = callPackage ({ elpaBuild, emacs, evil, fetchurl, lib }:
+    evil-matchit = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "evil-matchit";
         ename = "evil-matchit";
-        version = "2.4.4";
+        version = "3.0.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/evil-matchit-2.4.4.tar";
-          sha256 = "1p8xsi0068wabsfn3jwhyinkk2684xp9hlapcbj6y58wkpzqj0f6";
+          url = "https://elpa.nongnu.org/nongnu/evil-matchit-3.0.0.tar";
+          sha256 = "036zf7l8pkhbyk7gz91r00v4fqi2wfdnqv95xkh7jpm2i9xcgg5p";
         };
-        packageRequires = [ emacs evil ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/evil-matchit.html";
           license = lib.licenses.free;
