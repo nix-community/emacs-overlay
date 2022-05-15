@@ -861,10 +861,10 @@
       elpaBuild {
         pname = "cpupower";
         ename = "cpupower";
-        version = "1.0.4";
+        version = "1.0.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cpupower-1.0.4.tar";
-          sha256 = "12910d3qbkapr4bvqv88lr85fz6rkim0zrc24nxnvkhkh3yi8qvd";
+          url = "https://elpa.gnu.org/packages/cpupower-1.0.5.tar";
+          sha256 = "1hg5jwdkxl6mx145wwdmnhc8k3z3srvpm757kppj1ybmvjbpxx0y";
         };
         packageRequires = [];
         meta = {
