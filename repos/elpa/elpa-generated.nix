@@ -4260,10 +4260,10 @@
       elpaBuild {
         pname = "sql-beeline";
         ename = "sql-beeline";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sql-beeline-0.1.tar";
-          sha256 = "0yvj96aljmyiz8y6xjpypqjfrl1jdcrcc4jx4kbgl6mkv4z2aq1g";
+          url = "https://elpa.gnu.org/packages/sql-beeline-0.2.tar";
+          sha256 = "1bqzs53x506bzgchvjfr1ljqxbb9y041n7aj9n7ajb2634i7lllr";
         };
         packageRequires = [];
         meta = {
