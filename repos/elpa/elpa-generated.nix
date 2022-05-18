@@ -1326,10 +1326,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20220416";
+        version = "20220518";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20220416.tar";
-          sha256 = "174hwb3cyiqimzcsl62yhq51hb4gxmj5wni6w5ng4m24bfkx87nc";
+          url = "https://elpa.gnu.org/packages/eev-20220518.tar";
+          sha256 = "0f0dqcz1w4fbn6kzcy4ddfg3mmizsdwcg5a2ycg4ny3nldwm8l4j";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4298,6 +4298,21 @@
         packageRequires = [ cl-lib ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/sql-indent.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    srht = callPackage ({ elpaBuild, emacs, fetchurl, lib, plz }:
+      elpaBuild {
+        pname = "srht";
+        ename = "srht";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/srht-0.1.tar";
+          sha256 = "1cdylp2hma83iv062nf7qyz21a3r8562gwx2lk6cf45k2kh3hbv8";
+        };
+        packageRequires = [ emacs plz ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/srht.html";
           license = lib.licenses.free;
         };
       }) {};
