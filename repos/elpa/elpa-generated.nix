@@ -1037,6 +1037,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    detached = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "detached";
+        ename = "detached";
+        version = "0.7";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/detached-0.7.tar";
+          sha256 = "1a2w6cmzy7c861rih9k2qbnmizyybrs1kwqp6lbz3wfs2h0zisrw";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/detached.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     devdocs = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "devdocs";
@@ -3400,10 +3415,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.20";
+        version = "0.4.21";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.20.tar";
-          sha256 = "0xb4i3s6yira1kfqwrs72ajvpqc6pw7gqlxmfmdhyyvib6p93l6m";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.21.tar";
+          sha256 = "155ix3mn57bi6wfzic537jisf9m5v64yqgj25bsvzj1m1vyvdd12";
         };
         packageRequires = [ emacs ];
         meta = {
