@@ -1459,10 +1459,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.16";
+        version = "0.17";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-0.16.tar";
-          sha256 = "1fgsy4nqwl1cah287fbabpi9lwmbiyn36c4z918514iwr5hgrmfi";
+          url = "https://elpa.gnu.org/packages/embark-0.17.tar";
+          sha256 = "05r5z59sv0j4sawybd4353ziya87q6yzx4l8sjklybcn2mslpp1q";
         };
         packageRequires = [ emacs ];
         meta = {
