@@ -1217,16 +1217,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    dtache = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    dtache = callPackage ({ detached, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "dtache";
         ename = "dtache";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dtache-0.6.tar";
-          sha256 = "1nv5hzn4rnm8pzfr5i209djaafj4ymg5j886yq2j19zkjadc8yx3";
+          url = "https://elpa.gnu.org/packages/dtache-0.7.tar";
+          sha256 = "0cws662f53f2j1viicrwijmniiqxz1n4mh6kwck25pl954xa61gf";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ detached emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/dtache.html";
           license = lib.licenses.free;
