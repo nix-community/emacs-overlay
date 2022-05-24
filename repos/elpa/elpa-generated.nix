@@ -2972,6 +2972,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    nftables-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "nftables-mode";
+        ename = "nftables-mode";
+        version = "1.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/nftables-mode-1.1.tar";
+          sha256 = "0wcd31frnvxzkns4jdfxraai0bfi1184wcn64r8lg73h933p47iz";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/nftables-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     nhexl-mode = callPackage ({ cl-lib ? null
                               , elpaBuild
                               , emacs
@@ -3415,10 +3430,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.21";
+        version = "0.4.22";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.21.tar";
-          sha256 = "155ix3mn57bi6wfzic537jisf9m5v64yqgj25bsvzj1m1vyvdd12";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.22.tar";
+          sha256 = "1094dmvihx0ff7fyjldd2zfn47nq89p6bjp90ma0xf01hf6ggn6c";
         };
         packageRequires = [ emacs ];
         meta = {
