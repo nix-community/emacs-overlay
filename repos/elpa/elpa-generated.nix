@@ -767,16 +767,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    consult = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    consult = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.17";
+        version = "0.18";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-0.17.tar";
-          sha256 = "16yrp6scxg93anxrp5nww08ixxqk8ra9dn9zm8w5dry997kmkasa";
+          url = "https://elpa.gnu.org/packages/consult-0.18.tar";
+          sha256 = "0nvi8f0jrji26sjmji8f7rvc8gr1zq49kliq39z7h970d8p10cx2";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/consult.html";
           license = lib.licenses.free;
@@ -801,10 +801,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.24";
+        version = "0.25";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.24.tar";
-          sha256 = "1pymz698qw8hv29fswpafddi2vi4qr0vfdsj9ww96mc7qxq36843";
+          url = "https://elpa.gnu.org/packages/corfu-0.25.tar";
+          sha256 = "1ix65l80q8id8vxkvx4wd780cav53lws2z1x3pnj4wmm0n4qwyd9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4939,10 +4939,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.23";
+        version = "0.24";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.23.tar";
-          sha256 = "1d2r2y1bhvipn4xqzla5rv09cdpg7f19m9hrnv1pqypjvbgqv1m2";
+          url = "https://elpa.gnu.org/packages/vertico-0.24.tar";
+          sha256 = "17vsx1yijx9clly977lvc6y296kq8g859hqwwq1v8zh4k0wqr9hc";
         };
         packageRequires = [ emacs ];
         meta = {
