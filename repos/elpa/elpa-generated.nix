@@ -1479,10 +1479,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-consult-0.5.tar";
-          sha256 = "1z4n5gm30yan3gg2aqwb1ygql56v9sg2px1dr0gdl32lgmn9kvg6";
+          url = "https://elpa.gnu.org/packages/embark-consult-0.6.tar";
+          sha256 = "1c8rx9ikazbnap293ab6s26djikdy85i7z330wdwwrgmipkfawaj";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -2156,6 +2156,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ilist.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    inspector = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "inspector";
+        ename = "inspector";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/inspector-0.2.tar";
+          sha256 = "0k5mhgq8s5yrknjw641kjzn4hjnap2wry5zrsrwl2d9yr70dyikd";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/inspector.html";
           license = lib.licenses.free;
         };
       }) {};
