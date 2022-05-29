@@ -4862,10 +4862,10 @@
       elpaBuild {
         pname = "vc-got";
         ename = "vc-got";
-        version = "1.1";
+        version = "1.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vc-got-1.1.tar";
-          sha256 = "1myck30ybq8ggf4yk3s2sqjqj8m1kfl8qxygkk3ynfa6jxxy4x1r";
+          url = "https://elpa.gnu.org/packages/vc-got-1.1.1.tar";
+          sha256 = "0f8rwd4scvlyn9i9xq7d2sly7r0ddzi8z565jx1h2lkcs5nbihcb";
         };
         packageRequires = [ emacs ];
         meta = {
