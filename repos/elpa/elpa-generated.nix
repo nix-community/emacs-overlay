@@ -3595,10 +3595,10 @@
       elpaBuild {
         pname = "pyim-basedict";
         ename = "pyim-basedict";
-        version = "0.5.0";
+        version = "0.5.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-basedict-0.5.0.tar";
-          sha256 = "0h946wsnbbii32kl2kpv0k1kq118ymvpd5q1mphfsf126dz9sv78";
+          url = "https://elpa.gnu.org/packages/pyim-basedict-0.5.2.tar";
+          sha256 = "0qs8lilg0zkd4n8ikgn689g3s3kzv778myhjhwkzbk07x220npzq";
         };
         packageRequires = [];
         meta = {
