@@ -1341,10 +1341,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20220518";
+        version = "20220531";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20220518.tar";
-          sha256 = "0f0dqcz1w4fbn6kzcy4ddfg3mmizsdwcg5a2ycg4ny3nldwm8l4j";
+          url = "https://elpa.gnu.org/packages/eev-20220531.tar";
+          sha256 = "0xb3mhysap34xn4q4x27nwmvs6f3lha1wh292172fallzc7nayza";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3595,10 +3595,10 @@
       elpaBuild {
         pname = "pyim-basedict";
         ename = "pyim-basedict";
-        version = "0.5.2";
+        version = "0.5.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-basedict-0.5.2.tar";
-          sha256 = "0qs8lilg0zkd4n8ikgn689g3s3kzv778myhjhwkzbk07x220npzq";
+          url = "https://elpa.gnu.org/packages/pyim-basedict-0.5.3.tar";
+          sha256 = "1x3zmcbp5yck5dxfms8d9ym0fdbvwr40fn8wrq0qfl9a58k8i5bx";
         };
         packageRequires = [];
         meta = {
