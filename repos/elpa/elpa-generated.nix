@@ -3860,10 +3860,10 @@
       elpaBuild {
         pname = "rec-mode";
         ename = "rec-mode";
-        version = "1.8.3";
+        version = "1.8.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rec-mode-1.8.3.tar";
-          sha256 = "0lkmvvdj4xx3qhxqggizrcdawav0accyrza2wmhfdq88g2zh5575";
+          url = "https://elpa.gnu.org/packages/rec-mode-1.8.4.tar";
+          sha256 = "03n0g6inhj0mqqcqimh6nfi6rdzgh4w59vdjicvn880r5n8zwn4d";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4643,10 +4643,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.5.2.4";
+        version = "2.5.2.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.5.2.4.tar";
-          sha256 = "0ap1d34p1akrrm8z1r7ln6mj13xg2nrvjln2v3g8plhhp354jldz";
+          url = "https://elpa.gnu.org/packages/tramp-2.5.2.5.tar";
+          sha256 = "05f59x7jl4m187y2cidhnfz7p8q85gav4xpipazfvm5dicxz4j7c";
         };
         packageRequires = [ emacs ];
         meta = {
