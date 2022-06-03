@@ -2163,10 +2163,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.3.tar";
-          sha256 = "07anlpc92sm4pbafxcdb5z9v5b9d5c786n9xc8s4g6gpnp3zncdy";
+          url = "https://elpa.gnu.org/packages/inspector-0.4.tar";
+          sha256 = "11paxh648cmhmkrdph4d9ll7bqf4xpnsd7h5lpnqm2w81fj6gxiy";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2588,10 +2588,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "0.3.2";
+        version = "0.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/logos-0.3.2.tar";
-          sha256 = "1qpbp9f9lz7yrky42cq8b4k295593s7l892zsrdyifnqcgs50bfd";
+          url = "https://elpa.gnu.org/packages/logos-0.4.0.tar";
+          sha256 = "12yypzfd6lf71qyix0a1088vkamh9ilq8inpmv2882w3r5dii345";
         };
         packageRequires = [ emacs ];
         meta = {
