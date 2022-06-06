@@ -2851,10 +2851,10 @@
       elpaBuild {
         pname = "multishell";
         ename = "multishell";
-        version = "1.1.9";
+        version = "1.1.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/multishell-1.1.9.tar";
-          sha256 = "0gi5qmx27v7kaczr9b3sic69br3l7mcws3sdrs8c14iipcyl5qhb";
+          url = "https://elpa.gnu.org/packages/multishell-1.1.10.tar";
+          sha256 = "1ipn9rlh9jg55i04adjy32n8dkjhhw1bcd72w97mlsdk66g8j6l3";
         };
         packageRequires = [ cl-lib ];
         meta = {
