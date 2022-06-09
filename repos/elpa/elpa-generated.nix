@@ -155,6 +155,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    aircon-theme = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "aircon-theme";
+        ename = "aircon-theme";
+        version = "0.0.5";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/aircon-theme-0.0.5.tar";
+          sha256 = "0k9nsm64szi2hvngx9ciyjn8ic9qprfm3gmwp33f0kakq05ykpd1";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/aircon-theme.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     all = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "all";
@@ -2498,10 +2513,10 @@
       elpaBuild {
         pname = "lin";
         ename = "lin";
-        version = "0.3.1";
+        version = "0.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/lin-0.3.1.tar";
-          sha256 = "1blk9vc9fyw6djqh0465bayv2s5s0ap7fps383ihmazmmii6mp2a";
+          url = "https://elpa.gnu.org/packages/lin-0.4.0.tar";
+          sha256 = "1fynn3fpf3c2yamlpp9j6rakgd21ivyvqrx0hmsgcyr115q5afm4";
         };
         packageRequires = [ emacs ];
         meta = {
