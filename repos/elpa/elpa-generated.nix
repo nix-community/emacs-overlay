@@ -1744,10 +1744,10 @@
       elpaBuild {
         pname = "fontaine";
         ename = "fontaine";
-        version = "0.2.2";
+        version = "0.2.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/fontaine-0.2.2.tar";
-          sha256 = "14q10r5086pyknpm8kd9f0scwwbgygqjp8b08k6a4f30a3pl3rqi";
+          url = "https://elpa.gnu.org/packages/fontaine-0.2.3.tar";
+          sha256 = "0zf6h6nd1n6f33c1bakv915b9302r5mzj8hi8x7pdj6yw5zz0im8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4335,10 +4335,10 @@
       elpaBuild {
         pname = "sql-cassandra";
         ename = "sql-cassandra";
-        version = "0.2.1";
+        version = "0.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sql-cassandra-0.2.1.tar";
-          sha256 = "1w9jhh4gf5nnjq8p2zfdli81yqvnfjri4qlwxiwb913ah48vyi2l";
+          url = "https://elpa.gnu.org/packages/sql-cassandra-0.2.2.tar";
+          sha256 = "06h301fpqax24x295x06bz08ipjjnxs9smisyz82z08kgszq92c6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4877,10 +4877,10 @@
       elpaBuild {
         pname = "vc-got";
         ename = "vc-got";
-        version = "1.1.1";
+        version = "1.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vc-got-1.1.1.tar";
-          sha256 = "0f8rwd4scvlyn9i9xq7d2sly7r0ddzi8z565jx1h2lkcs5nbihcb";
+          url = "https://elpa.gnu.org/packages/vc-got-1.1.2.tar";
+          sha256 = "1824d5c217qimsg4aw8adjvv06gkhv5f3918fi0lkhya1jsvfrx9";
         };
         packageRequires = [ emacs ];
         meta = {
