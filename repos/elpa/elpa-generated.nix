@@ -2408,10 +2408,10 @@
       elpaBuild {
         pname = "kind-icon";
         ename = "kind-icon";
-        version = "0.1.5";
+        version = "0.1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/kind-icon-0.1.5.tar";
-          sha256 = "0qajj89vkgc9gbgff6akzll53jy0kgkv6c9jvwpl32rbg8v0wp63";
+          url = "https://elpa.gnu.org/packages/kind-icon-0.1.6.tar";
+          sha256 = "0ac53qrz217b054z51244r7whvjmyrq4941ld0bgl9crssrhb588";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
@@ -3265,10 +3265,10 @@
       elpaBuild {
         pname = "org-transclusion";
         ename = "org-transclusion";
-        version = "1.2.0";
+        version = "1.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-transclusion-1.2.0.tar";
-          sha256 = "1q36nqxynzh8ygvgw5nmg49c4yq8pgp6lcb6mdqs9paw8pglxcjf";
+          url = "https://elpa.gnu.org/packages/org-transclusion-1.3.0.tar";
+          sha256 = "1fgxpx5cikp03xzki55b7davx8m6zmrmrd0jzd69mv9gyw3bywg7";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -4076,10 +4076,10 @@
       elpaBuild {
         pname = "setup";
         ename = "setup";
-        version = "1.2.0";
+        version = "1.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/setup-1.2.0.tar";
-          sha256 = "1fyzkm42gsvsjpk3vahfb7asfldarixm0wsw3g66q3ad0r7cbjnz";
+          url = "https://elpa.gnu.org/packages/setup-1.3.0.tar";
+          sha256 = "0r13ry73jm31j8fq7v1sh0k113fr4blfkiz85696bdpah2pnca87";
         };
         packageRequires = [ emacs ];
         meta = {
