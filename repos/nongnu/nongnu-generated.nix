@@ -109,10 +109,10 @@
       elpaBuild {
         pname = "apropospriate-theme";
         ename = "apropospriate-theme";
-        version = "0.1.1";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/apropospriate-theme-0.1.1.tar";
-          sha256 = "11m80gijxvg4jf9davjja3bvykv161ggsrg7q0bihr0gq0flxgd7";
+          url = "https://elpa.nongnu.org/nongnu/apropospriate-theme-0.2.0.tar";
+          sha256 = "1s4cvh24zj3wpdqc3lklvi1dkba3jf87nxrzq0s3l1rzhg21pfpj";
         };
         packageRequires = [];
         meta = {
