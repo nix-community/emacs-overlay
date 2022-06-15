@@ -2340,10 +2340,10 @@
       elpaBuild {
         pname = "web-mode";
         ename = "web-mode";
-        version = "17.2.2";
+        version = "17.2.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/web-mode-17.2.2.tar";
-          sha256 = "19ajwjcxv7vqysk085jyys77vry8nw7rzc7c43khyxb54qvg36i3";
+          url = "https://elpa.nongnu.org/nongnu/web-mode-17.2.3.tar";
+          sha256 = "1fvkr3yvhx67wkcynid7xppaci3m1d5ggdaii3d4dfp57wwz5c13";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2438,10 +2438,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "17.13.20220613204648";
+        version = "17.13.20220615002353";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-17.13.20220613204648.tar";
-          sha256 = "17p72zlan2achgp1qblghf3wspw35i84yl47dmsgfcqrgiqaalp2";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-17.13.20220615002353.tar";
+          sha256 = "072405l012v8ssv577amjvw2nfawg6a90jsm5yzj3gkxfb0i0fl5";
         };
         packageRequires = [ emacs ];
         meta = {
