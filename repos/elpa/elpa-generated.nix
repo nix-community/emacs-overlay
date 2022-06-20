@@ -3875,10 +3875,10 @@
       elpaBuild {
         pname = "rec-mode";
         ename = "rec-mode";
-        version = "1.8.4";
+        version = "1.9.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rec-mode-1.8.4.tar";
-          sha256 = "03n0g6inhj0mqqcqimh6nfi6rdzgh4w59vdjicvn880r5n8zwn4d";
+          url = "https://elpa.gnu.org/packages/rec-mode-1.9.0.tar";
+          sha256 = "1w1q6kh567fd8xismq9i6wr1y893lypd30l452yvydi1qjiq1n6x";
         };
         packageRequires = [ emacs ];
         meta = {
