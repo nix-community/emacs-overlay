@@ -3220,10 +3220,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-modern-0.3.tar";
-          sha256 = "14f5grai6k9xbpyc33pcpgi6ka8pgy7vcnqqi77nclzq2yxhl9c1";
+          url = "https://elpa.gnu.org/packages/org-modern-0.4.tar";
+          sha256 = "0xn2vmlz43p9b1gscijwzhaxa44dsshlw31llhffqpxlw2amm1lf";
         };
         packageRequires = [ emacs ];
         meta = {
