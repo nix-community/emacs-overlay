@@ -11948,8 +11948,8 @@
     "s",
     "string-inflection"
    ],
-   "commit": "008710d23f194cd4903f315a6778dc78f89d34a1",
-   "sha256": "0s6w92p3i4kv7kia3r89f14xn6d43jag76w8bng5irgjsnx7plsm"
+   "commit": "f7bcebf805aafdf22b3a443815d64cfcdec77a76",
+   "sha256": "1d6zc7cffvs4sjh9515pyfadlcskf3wjz3phn8xk46jhrrmvi1sf"
   },
   "stable": {
    "version": [
@@ -13042,8 +13042,8 @@
     20220617,
     1532
    ],
-   "commit": "2be09731e0a441b5303344a91c2ba162e9fdf031",
-   "sha256": "05c6rdx6w0z9iq65is1nw733f9zizrjcsmwn1cjs1iq2axb36631"
+   "commit": "de7f39c2a62250271ea4d1a0e1231005d30887dd",
+   "sha256": "04kba0vksrzg4bdfibsin3fnpa0jvra83xpclsv58jhf94y15avv"
   },
   "stable": {
    "version": [
@@ -18994,8 +18994,8 @@
     20211111,
     1407
    ],
-   "commit": "579fcbc29bbc097af323a504447bebf6e2696231",
-   "sha256": "11y3czljpzx55iannfygv90m8ffbcsspavkz0zfc9b1asprmm39i"
+   "commit": "8eca1d1c186b6505cc9f06e5d2b42647bce68836",
+   "sha256": "018flik9pk14gjz17yri46n4i2pdr1qadvar76k9jvah3zjfff55"
   },
   "stable": {
    "version": [
@@ -22292,11 +22292,14 @@
   "repo": "alexluigit/dirvish",
   "unstable": {
    "version": [
-    20220622,
-    1324
+    20220623,
+    617
    ],
-   "commit": "98ee3cbd5dbe8d90dd18bbb450739aff6591bc40",
-   "sha256": "13pz7a9ricg30sy9bqmv9665j0jhr8s7f1whzafbjcgf564c0l0k"
+   "deps": [
+    "transient"
+   ],
+   "commit": "9a3151470275cb2e84aca6e9a1b2e5d1e0b23379",
+   "sha256": "0ygwm8xyz42930b5fnbzj4a5kfv9cbl1rnaawsb6rmsylfyn3hcw"
   },
   "stable": {
    "version": [
@@ -30143,8 +30146,8 @@
     20220215,
     1844
    ],
-   "commit": "3528dff6002f1627c9d8c23d146b85a32fa09ae0",
-   "sha256": "0aw3z6ymbjjy1vmp0m278h1kafwy4fca8fyvma3f1wwf803zd1lq"
+   "commit": "83634b9a1aba4e95fce957fe88d40d25d9524845",
+   "sha256": "0i9vjv6rv0zvdhzxricpv1ncyrf8c0jmgdf7xvb6v85giy1z2ad6"
   },
   "stable": {
    "version": [
@@ -43912,11 +43915,11 @@
   "repo": "pidu/git-lens",
   "unstable": {
    "version": [
-    20190319,
-    1342
+    20220623,
+    722
    ],
-   "commit": "f6cc0a37c9c5c422c49c32650e70bc4721707985",
-   "sha256": "05bkpg7xz8644np9imsj5ms821sbsb784ap5fjdnnn69kllz0d33"
+   "commit": "8beec55b2c43bdf64172fb2539de97f1dd39a6d0",
+   "sha256": "09qjan39g91igynzjj5pivdbcvaz5vc3bcr5xch0kyzjhnlh9smf"
   },
   "stable": {
    "version": [
@@ -62642,8 +62645,8 @@
     20210318,
     2106
    ],
-   "commit": "37292f00a8a457762a94011d7719e2c7d03d821c",
-   "sha256": "1zagb6lx5nhn1za7ybkdz6b33vmmw0k7ms3swxgw1fv2dzyqns4c"
+   "commit": "538cc2468d0ea75d6829de8c3768f5715dc404fc",
+   "sha256": "1m7qjn0pfijizkr2q25x5gk0g4hk6j07812hasw39nsxghk7hmbq"
   },
   "stable": {
    "version": [
@@ -66643,8 +66646,8 @@
   "repo": "emacs-lsp/lsp-java",
   "unstable": {
    "version": [
-    20220620,
-    1843
+    20220623,
+    455
    ],
    "deps": [
     "dap-mode",
@@ -66656,8 +66659,8 @@
     "request",
     "treemacs"
    ],
-   "commit": "94742f38dfdbb0024104018c20ead9f74b6c4cab",
-   "sha256": "1dqm6ykdiy1ad4p868a55li991cq7s09d6pqqkbp2s30xqyfwpb2"
+   "commit": "663125190cbdefad9824a51d92f3c477633463c0",
+   "sha256": "0cw0pvd4clm4a7w0lbhm79b22hspmw68mfklnk7v21bfllk5kra1"
   },
   "stable": {
    "version": [
@@ -71720,11 +71723,11 @@
   "url": "https://git.sr.ht/~protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20220614,
-    723
+    20220623,
+    605
    ],
-   "commit": "e342e3568c8a3a1cc20714c774bbe9df68489b32",
-   "sha256": "101r2r9aqbsx939f73ag9dh3diaq3mzkjbnb6wkdwkl3czyzr4ql"
+   "commit": "469ff07139ac30e68102563f57010e866680d9f9",
+   "sha256": "0l1hmi1vcvjnz4x8qb9cz67hnz7kdgjhxp7gjm2crsw3rry3hnaw"
   },
   "stable": {
    "version": [
@@ -92599,28 +92602,28 @@
   "repo": "tumashu/pyim",
   "unstable": {
    "version": [
-    20220622,
-    2327
+    20220623,
+    505
    ],
    "deps": [
     "async",
     "xr"
    ],
-   "commit": "7a32f0e0a2a09a4379f900b1578beae59c2c6185",
-   "sha256": "02wxz44rv8n3rj12vniaasswy9xklvlrryd4q9fsy38klj7dl8hn"
+   "commit": "a887d56f67227289af9b7ece2aef310334004980",
+   "sha256": "1322642ca9sy8bfi91r8z91byq18lwfgjqw3xz7zv6c9w2dana1r"
   },
   "stable": {
    "version": [
     5,
-    0,
+    1,
     0
    ],
    "deps": [
     "async",
     "xr"
    ],
-   "commit": "7a32f0e0a2a09a4379f900b1578beae59c2c6185",
-   "sha256": "02wxz44rv8n3rj12vniaasswy9xklvlrryd4q9fsy38klj7dl8hn"
+   "commit": "5617d8f87c45e6e19af7654ac9e62cc90854776f",
+   "sha256": "0in9dy4wpfbgn8bsxaqdh6hjxx0y7zlj8rbfn4v3c4g8m6k126qn"
   }
  },
  {
@@ -92785,8 +92788,8 @@
     20210411,
     1931
    ],
-   "commit": "ffa15a4021d8d87a82ec9f1f0693d75d3602f24c",
-   "sha256": "0nmvw96zkgiyvypj8ai4sqvm3pxfmk7q3bp3mh29srz49y4l8z54"
+   "commit": "43a3527db1fc6a1e6a6e4de299cf28c82621f7f6",
+   "sha256": "07k2r9rwn8ccs48qbsfsp92d3jlv4aipls0drh7srfr3dkkl9k0w"
   },
   "stable": {
    "version": [
@@ -108091,11 +108094,11 @@
   "repo": "monkeyjunglejuice/matrix-emacs-theme",
   "unstable": {
    "version": [
-    20220611,
-    1032
+    20220622,
+    1214
    ],
-   "commit": "f217e02dd683d9098001b854482f1c9d1a239cc0",
-   "sha256": "0zbhs7fc52z3x6v4092k6as4bmik1gqkahm4y10f8gfd2z7w7fjl"
+   "commit": "289ed872003708ef1595e5e6765b50ca53e34ac8",
+   "sha256": "128szhyyndfp2hvhyp5628z6nmn0k137y77qbhm3ga5laixdsd2z"
   }
  },
  {
@@ -108288,8 +108291,8 @@
     20200212,
     1903
    ],
-   "commit": "61fa3d889b55bdbaa06ff752ed6c0a30751bcc00",
-   "sha256": "1imi74g8kxsyfgy9l494rb3431yfk1qkh223qmrv9r43ym78dhfr"
+   "commit": "703ade348b2c5b08aa826279e6f66550295e6f10",
+   "sha256": "0kajjq30ng5sg4157pmi5bp6z7qc7awiyh3p4fabfi42kfsj2ji4"
   },
   "stable": {
    "version": [
