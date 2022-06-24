@@ -1805,10 +1805,10 @@
       elpaBuild {
         pname = "popon";
         ename = "popon";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/popon-0.4.tar";
-          sha256 = "1c3brjhkdnpawi8jsc20jvhc1vl3l39da12rn3lfx2bfxvjvz76w";
+          url = "https://elpa.nongnu.org/nongnu/popon-0.5.tar";
+          sha256 = "02lqxg0lmpa246flq38is49l6dy8rsnqmgcf3qkpbgpsczw3453y";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2438,10 +2438,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "17.14.20220618162127";
+        version = "17.14.20220624001507";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-17.14.20220618162127.tar";
-          sha256 = "139x2h9zl1zywajhhwjd2r71a7bdj3m2grr17zhlyw3yf98dafjm";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-17.14.20220624001507.tar";
+          sha256 = "075y0274j278z4aj6gnvpfh4wdxjpplx1ilan8rkk9aiw8kvhlr3";
         };
         packageRequires = [ emacs ];
         meta = {
