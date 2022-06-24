@@ -10111,11 +10111,11 @@
   "repo": "peterstuart/cargo-transient",
   "unstable": {
    "version": [
-    20220621,
-    2100
+    20220624,
+    1042
    ],
-   "commit": "e5ec156e7a56518aae5be92f76c935b30c6207b8",
-   "sha256": "0h52zf22rv3zf7bwb5s0xrmncw4dlhd288wyslrv3rl8sb5nknfm"
+   "commit": "2082c8096513a1dc0a633451ee0a39a0625f886a",
+   "sha256": "06dwqpwmpss85j0mg5j1chpx6kbc1n9kggfwjn47hfgbdyndblg0"
   }
  },
  {
@@ -22292,14 +22292,14 @@
   "repo": "alexluigit/dirvish",
   "unstable": {
    "version": [
-    20220623,
-    617
+    20220624,
+    1317
    ],
    "deps": [
     "transient"
    ],
-   "commit": "9a3151470275cb2e84aca6e9a1b2e5d1e0b23379",
-   "sha256": "0ygwm8xyz42930b5fnbzj4a5kfv9cbl1rnaawsb6rmsylfyn3hcw"
+   "commit": "c96ab8ad47d6ba4a68fd7bbf2839a101351a2336",
+   "sha256": "0vqnj3ns5ks3yiiwmrxrp6cjpzp01m1awz1ymsg68k95q2qav1cf"
   },
   "stable": {
    "version": [
@@ -23387,15 +23387,15 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20220622,
-    842
+    20220624,
+    1131
    ],
    "deps": [
     "compat",
     "shrink-path"
    ],
-   "commit": "87d766746a791c2ca6e5362338a7a4900c60400c",
-   "sha256": "1kk1rx6cfhhicln33m6dqrk3jm53mrp6il9hlaz4yyxzpl86d4k3"
+   "commit": "16679e21256754cdcf4c35535546a8aca5a2a295",
+   "sha256": "1ja64ill1p5f2jj7prgvwqif8xy3nz93pgb2gwx5dxq9avdvnhn5"
   },
   "stable": {
    "version": [
@@ -25774,8 +25774,8 @@
   "repo": "joaotavora/eglot",
   "unstable": {
    "version": [
-    20220612,
-    1004
+    20220624,
+    939
    ],
    "deps": [
     "eldoc",
@@ -25785,8 +25785,8 @@
     "seq",
     "xref"
    ],
-   "commit": "e835996e16610d0ded6d862214b3b452b8803ea8",
-   "sha256": "0b4ijjh5l05zgba1gblsrp7j0srf8c6ih5w2d0ixxx9rfx6izbla"
+   "commit": "35a519a533c2d28e7d88e8541eca0de2daa531ee",
+   "sha256": "0pk9nxqji1by4alq5s6xx02f0x7g2xp3b04rspzx9ffnsyxr33mc"
   },
   "stable": {
    "version": [
@@ -66659,8 +66659,8 @@
     "request",
     "treemacs"
    ],
-   "commit": "663125190cbdefad9824a51d92f3c477633463c0",
-   "sha256": "0cw0pvd4clm4a7w0lbhm79b22hspmw68mfklnk7v21bfllk5kra1"
+   "commit": "a1aff851bcf4f397f2a968557d213db1fede0c8a",
+   "sha256": "1qbgs2r92fbrhwxdpwzmfmac7vhcfc26i90a23pxk50dbh5byyyb"
   },
   "stable": {
    "version": [
@@ -66877,8 +66877,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20220620,
-    2056
+    20220624,
+    1004
    ],
    "deps": [
     "dash",
@@ -66888,8 +66888,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "9957623d93b13fabaca8ba35b85da8fcceaeef69",
-   "sha256": "0gnp4zg9ak5ydjy9dma95h415y3c0nrsiwil1062vv13ygaj4697"
+   "commit": "aa946a51fba597357e130b6f1d7a53b14fbf546c",
+   "sha256": "1n8l99m36d650x0l0k0karanrlyqh1wnj3yz631hwp70dyw7s62w"
   },
   "stable": {
    "version": [
@@ -92603,14 +92603,14 @@
   "unstable": {
    "version": [
     20220624,
-    731
+    1315
    ],
    "deps": [
     "async",
     "xr"
    ],
-   "commit": "b12d6219248b8c6b684103f9f6c7635ec88a3f1b",
-   "sha256": "1dq7wd115wn37g9yzqd7qi7v9z45mgrfwwrxdgn6l3085xmmfjnw"
+   "commit": "0a9137cbf23aadbcd789d795844c198992ae3404",
+   "sha256": "0vqkj38a0pd89z4847gva48996lxxzgr68hlclc3psi81k6mx17f"
   },
   "stable": {
    "version": [
@@ -92788,8 +92788,8 @@
     20210411,
     1931
    ],
-   "commit": "b154311cf0fa1b735c4fc4ea05068ed74737b83f",
-   "sha256": "0kgncn0vx66yzrhi3g1asrlch3g9ra2kx5isdplwicfayzjzkg7i"
+   "commit": "264033fe53acd0de5739e373c3dfff050f94fc21",
+   "sha256": "1vlfa8lf2qi3jmc42i4hhy9ald053jh62wq0xi7mva65na40d4xm"
   },
   "stable": {
    "version": [
@@ -97580,11 +97580,11 @@
   "repo": "rust-lang/rust-mode",
   "unstable": {
    "version": [
-    20220623,
-    2123
+    20220624,
+    1208
    ],
-   "commit": "af4aa18a9ba7ef9e7dbc1bcae0f4f58fc21f5a4f",
-   "sha256": "1pyw0vp5rylcy08rrvrvvnbgib5k7wks7k7jh10zws6hx0a1bmyv"
+   "commit": "56e5c3aeb0af110221b4144dacfb38537392f4ea",
+   "sha256": "0jkbrqjmlx8isydh7g2amglzz26fsd7b5035jv1dnrlkkw6qiah4"
   },
   "stable": {
    "version": [
@@ -108970,11 +108970,11 @@
   "repo": "topikettunen/tok-theme",
   "unstable": {
    "version": [
-    20220623,
-    1111
+    20220624,
+    1532
    ],
-   "commit": "e0b03f76bbbd2e30987de56c564655f1919b346a",
-   "sha256": "02g8f8yz5mkwn50132il0vb7kbim2vvz98qjsmd129wwxcspg7m8"
+   "commit": "98876e6c47158d00b35feee342380bc68a608ae6",
+   "sha256": "07hls196pf0dz3h3w3icmb74yb6i7pmx1z8pvj5625c7ahyw8bqz"
   }
  },
  {
