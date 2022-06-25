@@ -936,10 +936,10 @@
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.20";
+        version = "1.21";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/csv-mode-1.20.tar";
-          sha256 = "08im1llz04s3ckpj3c3j4wxq4g00fyld2m8ylnh878ss5izzs0lg";
+          url = "https://elpa.gnu.org/packages/csv-mode-1.21.tar";
+          sha256 = "11f01lyz6i133njigg53r890cic8y13kz7dswc8mj7m60a316dmv";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
