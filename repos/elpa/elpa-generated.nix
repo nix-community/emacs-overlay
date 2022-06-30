@@ -3595,10 +3595,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "5.1.0";
+        version = "5.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-5.1.0.tar";
-          sha256 = "1k0dh5najfaf6adxlywkpfx3j0ia66vgz01w30129bgqa6iyqxrz";
+          url = "https://elpa.gnu.org/packages/pyim-5.2.0.tar";
+          sha256 = "0rpzwr8gd1g9rypxsrnjgbajnf5gkb978fq8sf6a3g5zxdir2lj2";
         };
         packageRequires = [ async emacs xr ];
         meta = {
@@ -4658,10 +4658,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.5.2.5";
+        version = "2.5.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.5.2.5.tar";
-          sha256 = "05f59x7jl4m187y2cidhnfz7p8q85gav4xpipazfvm5dicxz4j7c";
+          url = "https://elpa.gnu.org/packages/tramp-2.5.3.tar";
+          sha256 = "16bs90h7b1d188v6glhfp0y4wgxvwn3dl6l4sbswlf1zq3y61zy7";
         };
         packageRequires = [ emacs ];
         meta = {
