@@ -951,10 +951,10 @@
       elpaBuild {
         pname = "cursory";
         ename = "cursory";
-        version = "0.1.4";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cursory-0.1.4.tar";
-          sha256 = "0yjwn6kpxl7b3m8si4sqmdkhr8imcgbvwhwki2sxgybs75lxdg97";
+          url = "https://elpa.gnu.org/packages/cursory-0.2.1.tar";
+          sha256 = "12q1icz1npan9fjn0sy2zfs3d0iz6b34hqsfggm187igq4zj3rrb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3595,10 +3595,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "5.2.0";
+        version = "5.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-5.2.0.tar";
-          sha256 = "0rpzwr8gd1g9rypxsrnjgbajnf5gkb978fq8sf6a3g5zxdir2lj2";
+          url = "https://elpa.gnu.org/packages/pyim-5.2.1.tar";
+          sha256 = "1kgf4mz6idd1dgknxppp3xs325g5xpcvik0rm77s7bjjy7j6m7gz";
         };
         packageRequires = [ async emacs xr ];
         meta = {
