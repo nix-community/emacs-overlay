@@ -891,10 +891,10 @@
       elpaBuild {
         pname = "crdt";
         ename = "crdt";
-        version = "0.2.7";
+        version = "0.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/crdt-0.2.7.tar";
-          sha256 = "0f6v937zbxj4kci07dv0a1h4q1ak0qabkjq2j258ydxyivvqyvsw";
+          url = "https://elpa.gnu.org/packages/crdt-0.3.0.tar";
+          sha256 = "0fmrmpjqyzxcmx38kwl6mifq412qfgm9ak7j4f54j33kbp10hjj7";
         };
         packageRequires = [];
         meta = {
@@ -3950,10 +3950,10 @@
       elpaBuild {
         pname = "rnc-mode";
         ename = "rnc-mode";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rnc-mode-0.2.el";
-          sha256 = "0xhvcfqjkb010wc7r218xcjidv1c8597vayyv09vk97z4qxqkrbd";
+          url = "https://elpa.gnu.org/packages/rnc-mode-0.3.tar";
+          sha256 = "1bd4pxaijcs0w8v9r7x9aiqyqf1rl46153dxl0ilhm3fc90iyf2r";
         };
         packageRequires = [];
         meta = {
