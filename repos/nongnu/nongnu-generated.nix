@@ -1569,10 +1569,10 @@
       elpaBuild {
         pname = "org-auto-tangle";
         ename = "org-auto-tangle";
-        version = "0.4.2";
+        version = "0.5.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/org-auto-tangle-0.4.2.tar";
-          sha256 = "08giwr02l5l9g3j04961wn47bhn9z8594wsml8s2hljxw0wiphyz";
+          url = "https://elpa.nongnu.org/nongnu/org-auto-tangle-0.5.0.tar";
+          sha256 = "08j5jnf49gfrky0i7bbqn0kk4jfjkjqrja5njknkn06q8bx0lxvh";
         };
         packageRequires = [ async emacs ];
         meta = {
