@@ -1052,6 +1052,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    denote = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "denote";
+        ename = "denote";
+        version = "0.2.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/denote-0.2.0.tar";
+          sha256 = "0sw8hqmfhzr4sbw0rhxp3mhnmsmcclrs5vb9fv32xxir6c892fz5";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/denote.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     detached = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "detached";
