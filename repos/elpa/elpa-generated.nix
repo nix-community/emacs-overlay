@@ -1759,10 +1759,10 @@
       elpaBuild {
         pname = "fontaine";
         ename = "fontaine";
-        version = "0.2.3";
+        version = "0.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/fontaine-0.2.3.tar";
-          sha256 = "0zf6h6nd1n6f33c1bakv915b9302r5mzj8hi8x7pdj6yw5zz0im8";
+          url = "https://elpa.gnu.org/packages/fontaine-0.3.0.tar";
+          sha256 = "0ixi48w3d0yvmw1103gj7iq2acj90p0qlyhna4hpfhnwa247lp2k";
         };
         packageRequires = [ emacs ];
         meta = {
