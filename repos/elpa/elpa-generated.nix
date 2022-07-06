@@ -1056,10 +1056,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "0.2.0";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-0.2.0.tar";
-          sha256 = "0sw8hqmfhzr4sbw0rhxp3mhnmsmcclrs5vb9fv32xxir6c892fz5";
+          url = "https://elpa.gnu.org/packages/denote-0.2.1.tar";
+          sha256 = "12ncbx4cd6xdgn32kw7lqs71i2nvipzvir4l0l4azaqjshkcwndf";
         };
         packageRequires = [ emacs ];
         meta = {
