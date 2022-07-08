@@ -428,10 +428,10 @@
       elpaBuild {
         pname = "diff-ansi";
         ename = "diff-ansi";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/diff-ansi-0.1.tar";
-          sha256 = "0ajrsx45jqkm8s3ylw19dpivnj45hszqfq06wgzz0xbm1zqyha96";
+          url = "https://elpa.nongnu.org/nongnu/diff-ansi-0.2.tar";
+          sha256 = "1fcy89m6wkhc5hy4lqcd60ckrf9qwimilydjx083nackppdz1xlw";
         };
         packageRequires = [ emacs ];
         meta = {
