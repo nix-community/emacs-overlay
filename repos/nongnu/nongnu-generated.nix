@@ -767,10 +767,10 @@
       elpaBuild {
         pname = "flymake-popon";
         ename = "flymake-popon";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/flymake-popon-0.2.tar";
-          sha256 = "08wpfia4q12nhc6l0xmdc54f1s73c0ds6hxwgkk5hjw906rpgn4a";
+          url = "https://elpa.nongnu.org/nongnu/flymake-popon-0.3.tar";
+          sha256 = "1cmimdkav8cdl7x6qplm4pvj2ifyb3lk8h2q624vh7cxxlh8yq0l";
         };
         packageRequires = [ emacs flymake popon posframe ];
         meta = {
