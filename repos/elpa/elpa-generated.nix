@@ -493,10 +493,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cape-0.7.tar";
-          sha256 = "1icgd5d55x7x7czw349v8m19mgq4yrx6j6zhbb666h2hdkbnykbg";
+          url = "https://elpa.gnu.org/packages/cape-0.8.tar";
+          sha256 = "03zc1c2r8h3p9aqk2y8pwysiawbx0f5vgz7582d9qnixdygni117";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3610,10 +3610,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "5.2.2";
+        version = "5.2.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-5.2.2.tar";
-          sha256 = "1fjb0sggnvk7kxl7ymbzpzxkwhjs6bi7yz1g48xd0l5ky3lvl9b6";
+          url = "https://elpa.gnu.org/packages/pyim-5.2.3.tar";
+          sha256 = "189r0qkd8nv5zjg2ljbzbj086jb8xbl4yd1jliz4azaprv8fhqv0";
         };
         packageRequires = [ async emacs xr ];
         meta = {
@@ -4579,10 +4579,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tempel-0.3.tar";
-          sha256 = "0aa3f3sfvibp3wl401fdlww70axl9hxasbza70i44vqq0y9csv40";
+          url = "https://elpa.gnu.org/packages/tempel-0.4.tar";
+          sha256 = "002ng6x1qlhnk7vvpwjl8wkm869k0ihpbdgbnhqjsnpzln1gib0w";
         };
         packageRequires = [ emacs ];
         meta = {
