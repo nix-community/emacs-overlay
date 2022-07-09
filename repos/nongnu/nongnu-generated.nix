@@ -2308,10 +2308,10 @@
       elpaBuild {
         pname = "swift-mode";
         ename = "swift-mode";
-        version = "8.5.0";
+        version = "8.6.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/swift-mode-8.5.0.tar";
-          sha256 = "1h8sj8srv7lrkd18hiwv21b3r9yiwb6065awknd1y511x52r4bfg";
+          url = "https://elpa.nongnu.org/nongnu/swift-mode-8.6.0.tar";
+          sha256 = "0zasgv311mjc1iih9wv8vb8h53y2pjx24xsbdnn0wk8xcdk4z8j6";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -2667,10 +2667,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "17.15.20220705140319";
+        version = "17.16.20220708232047";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-17.15.20220705140319.tar";
-          sha256 = "08k2fwlsndsfwnc9bk378vgkb6s8vix3q33dlbpja5gpnqbg3hq1";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-17.16.20220708232047.tar";
+          sha256 = "0y7zcf58kw4hcyqdir9n6zg33i3jjvhw2dfbz6pzs7y31z130iz0";
         };
         packageRequires = [ emacs ];
         meta = {
