@@ -2323,10 +2323,10 @@
       elpaBuild {
         pname = "swsw";
         ename = "swsw";
-        version = "2.1.1";
+        version = "2.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/swsw-2.1.1.tar";
-          sha256 = "0k6cysa4pmxv1kmpn0fqvardbdfayj92cq0r3gxrx9pgqxlqwfix";
+          url = "https://elpa.nongnu.org/nongnu/swsw-2.2.tar";
+          sha256 = "0bxcpk5329g4xdfnx8n70q53v4aansxfcs3fdpzssayyyv4fk72m";
         };
         packageRequires = [ emacs ];
         meta = {
