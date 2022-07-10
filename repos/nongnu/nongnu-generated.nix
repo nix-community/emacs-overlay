@@ -1326,6 +1326,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    inf-ruby = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "inf-ruby";
+        ename = "inf-ruby";
+        version = "2.6.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/inf-ruby-2.6.1.tar";
+          sha256 = "0z57wwpm7wh04yp7za8fmv4ib56np629kmk4djs8qaz5bv494znr";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/inf-ruby.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     inkpot-theme = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "inkpot-theme";
@@ -2667,10 +2682,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "17.16.20220708232047";
+        version = "17.17.20220709145456";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-17.16.20220708232047.tar";
-          sha256 = "0y7zcf58kw4hcyqdir9n6zg33i3jjvhw2dfbz6pzs7y31z130iz0";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-17.17.20220709145456.tar";
+          sha256 = "1npgdc9f1vj1d9nyfh30vskybqs2lwhd31b2a7i79ifrxs48kqr4";
         };
         packageRequires = [ emacs ];
         meta = {
