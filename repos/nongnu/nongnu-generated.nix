@@ -731,10 +731,10 @@
       elpaBuild {
         pname = "evil-numbers";
         ename = "evil-numbers";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/evil-numbers-0.6.tar";
-          sha256 = "0zl16ljb64cawcj11f4ndz941sllj8nhgjcb4w0r1afxbvpn5rss";
+          url = "https://elpa.nongnu.org/nongnu/evil-numbers-0.7.tar";
+          sha256 = "1kd60kc8762i9vyig179dnbmrjyw30bm06g26abndw2kjxaqjhr8";
         };
         packageRequires = [ emacs evil ];
         meta = {
