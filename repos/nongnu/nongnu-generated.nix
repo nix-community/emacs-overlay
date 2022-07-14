@@ -2000,6 +2000,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    proof-general = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "proof-general";
+        ename = "proof-general";
+        version = "4.5";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/proof-general-4.5.tar";
+          sha256 = "13zy339yz6ijgkcnqxzcyg909z77w3capb3gim1riy3sqikvv04x";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/proof-general.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     prop-menu = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "prop-menu";
