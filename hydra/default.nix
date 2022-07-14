@@ -46,6 +46,18 @@ let
       descriptionNote = "emacs";
     };
 
+    unstable-cross = mkJobset {
+      nixpkgsRelease = "nixos-unstable";
+      nixFile = "emacsen-cross.nix";
+      descriptionNote = "emacs cross builds";
+    };
+
+    stable-cross = mkJobset {
+      nixpkgsRelease = "nixos-22.05";
+      nixFile = "emacsen-cross.nix";
+      descriptionNote = "emacs cross builds";
+    };
+
     unstable-pkgs = mkJobset {
       nixpkgsRelease = "nixos-unstable";
       nixFile = "packages.nix";
