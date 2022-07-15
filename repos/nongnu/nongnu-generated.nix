@@ -568,10 +568,10 @@
       elpaBuild {
         pname = "elpher";
         ename = "elpher";
-        version = "3.4.1";
+        version = "3.4.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/elpher-3.4.1.tar";
-          sha256 = "1vayhcamdp8nn6hrgffd0yx9k9q3mckbcsfwclhyyfc0x1hcwf92";
+          url = "https://elpa.nongnu.org/nongnu/elpher-3.4.2.tar";
+          sha256 = "0q7a79jnlihjj936wi199pdxl0ydy04354y0mqpxms00r98hzr9d";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1723,10 +1723,10 @@
       elpaBuild {
         pname = "org-auto-tangle";
         ename = "org-auto-tangle";
-        version = "0.5.0";
+        version = "0.5.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/org-auto-tangle-0.5.0.tar";
-          sha256 = "08j5jnf49gfrky0i7bbqn0kk4jfjkjqrja5njknkn06q8bx0lxvh";
+          url = "https://elpa.nongnu.org/nongnu/org-auto-tangle-0.5.1.tar";
+          sha256 = "12sy30yr8r3g7gmvcdsrrmy62lhvajg3gp62gj7p836kh9xllpsl";
         };
         packageRequires = [ async emacs ];
         meta = {
