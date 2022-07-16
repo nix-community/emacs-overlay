@@ -1330,10 +1330,10 @@
       elpaBuild {
         pname = "inf-clojure";
         ename = "inf-clojure";
-        version = "3.1.0";
+        version = "3.2.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/inf-clojure-3.1.0.tar";
-          sha256 = "0jw6rzplicbv2l7si46naspzp5lqwj20b1nmfs9zal58z1gx6zjk";
+          url = "https://elpa.nongnu.org/nongnu/inf-clojure-3.2.0.tar";
+          sha256 = "1a9hr28l8cxf5j9b5z0mwds4jd36bhdqz9r86c85rylgaibx5ky7";
         };
         packageRequires = [ clojure-mode emacs ];
         meta = {
