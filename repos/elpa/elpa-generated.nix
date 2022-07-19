@@ -399,10 +399,10 @@
       elpaBuild {
         pname = "boxy";
         ename = "boxy";
-        version = "1.1.0";
+        version = "1.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/boxy-1.1.0.tar";
-          sha256 = "17z0amn1klbzvq0z5g20a5gjq5agrrhnkp8amqlqzj7p0p31nbns";
+          url = "https://elpa.gnu.org/packages/boxy-1.1.1.tar";
+          sha256 = "08jb5v93l3y9cx48qhpv20i7kdxvl5dinxj3z0pxkx0ckvml7cvd";
         };
         packageRequires = [ emacs ];
         meta = {
