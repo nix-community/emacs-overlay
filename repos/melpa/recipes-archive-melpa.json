@@ -1840,14 +1840,14 @@
   "repo": "emacsorphanage/adoc-mode",
   "unstable": {
    "version": [
-    20220719,
-    2019
+    20220720,
+    622
    ],
    "deps": [
     "markup-faces"
    ],
-   "commit": "7fdddd54f7490f6a96c60f57b33f76957f896ff5",
-   "sha256": "0gfaavqhafjqsr6bmwyhi9g9zd5bzzh2ywi6m1nhd0z9jyjm7dcj"
+   "commit": "4508af782433b5d068a2ff6a65dde40bcd482ce2",
+   "sha256": "19mzzy01mjdxv17g3k4jbw9zzhx5rir5kn1m713s7lb7y0gli43h"
   },
   "stable": {
    "version": [
@@ -12803,8 +12803,8 @@
     20220719,
     1719
    ],
-   "commit": "93bb1c5a2a4699063e4f2ac7e585f5cab5dd52c1",
-   "sha256": "1qjmnpilyl9mvdkbdgpmig9pcvkvalq1fajbap0zn72q3vbifdgb"
+   "commit": "bb327cb9707787c8f1dbcb2d219f6cbceb553a96",
+   "sha256": "0ydlk7vqvljsmx38w3cbj05ypydpdvd9071iksdcx3zy0hb4zcvr"
   },
   "stable": {
    "version": [
@@ -12830,8 +12830,8 @@
    "deps": [
     "clojure-mode"
    ],
-   "commit": "93bb1c5a2a4699063e4f2ac7e585f5cab5dd52c1",
-   "sha256": "1qjmnpilyl9mvdkbdgpmig9pcvkvalq1fajbap0zn72q3vbifdgb"
+   "commit": "bb327cb9707787c8f1dbcb2d219f6cbceb553a96",
+   "sha256": "0ydlk7vqvljsmx38w3cbj05ypydpdvd9071iksdcx3zy0hb4zcvr"
   },
   "stable": {
    "version": [
@@ -13135,8 +13135,8 @@
     20220617,
     1532
    ],
-   "commit": "0f65ab5bcb66f94e5ab20b095d5a3296a36ccd02",
-   "sha256": "116a2f9w89w45qhfi7c39llhr5fyb0d1jvknx1n28y861d5b0q3y"
+   "commit": "69f51355bacb0cc2be74e9edb67b84437ddc01ce",
+   "sha256": "0hlh9kjckf7a0lirrk815v1gsf132il6xd8r9i59f03ahwvldcia"
   },
   "stable": {
    "version": [
@@ -28779,17 +28779,16 @@
   "repo": "elken/embark-vc",
   "unstable": {
    "version": [
-    20220703,
-    1008
+    20220720,
+    613
    ],
    "deps": [
-    "code-review",
     "embark",
     "forge",
     "s"
    ],
-   "commit": "6124909d8b07c70a0eb3bcaf47f1c3a28698528a",
-   "sha256": "0rcnmqvsvwwqa8f9j4jflk9b15l4577ay3q2c3mdhx46g3q1c9cx"
+   "commit": "4a6fcf96d07c79ab8c5f4fe3f84b4335a2a4033f",
+   "sha256": "1xx66szz5y9w7cdj1gp3arn49z49sqf3f7plchcqzzn6aiz88ddr"
   }
  },
  {
@@ -34921,11 +34920,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-fancy-compilation.git",
   "unstable": {
    "version": [
-    20220719,
-    244
+    20220720,
+    301
    ],
-   "commit": "1e710e0a3d531fa089545a296c5b300967ee03ef",
-   "sha256": "1p1f8lsv43gbf4d4iz6phcik6h1rmk5fi3idm6xj1wrhqf5jijdg"
+   "commit": "a4cd5e4d21a2ff7029052e6202854d6fb20902d3",
+   "sha256": "0y22s2xb12gcygbci7jnh4pvg9im643w4hpl891fzriqj1v7qpdz"
   }
  },
  {
@@ -50351,14 +50350,14 @@
   "repo": "jcs-elpa/helm-file-preview",
   "unstable": {
    "version": [
-    20220716,
-    850
+    20220720,
+    531
    ],
    "deps": [
     "helm"
    ],
-   "commit": "b6108fa3f2508087bb2e38085806b7a9d4802884",
-   "sha256": "07vqdzg9j94rw4vlyr5g0pmqv8knx9nlpa578x1inxlldlyv19a3"
+   "commit": "bebd4e9c42543c9003984442701db2c384c21f3e",
+   "sha256": "03yp6qfx1qnn97pj0kbydh9qx8zb2cpy0g4l33caasa67128wk5a"
   },
   "stable": {
    "version": [
@@ -80798,14 +80797,18 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20220701,
-    359
+    20220605,
+    239
    ],
    "deps": [
     "all-the-icons"
    ],
-   "commit": "ee06be6d82d36330cf0f96544e7cfcfdc1b7bb02",
-   "sha256": "1dnlnk1gin48bc36798y9swj0q96gnsyrdf6sjq7asfm821zv68k"
+   "commit": "47d54dd736abc9ef5406e3e7394d54c5110d355d",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "Initialized empty Git repository in /run/user/1001/git-checkout-tmp-2VF4Q0v6/org-link-beautify-47d54dd/.git/\nfatal: unable to access 'https://repo.or.cz/org-link-beautify.git/': Failed to connect to repo.or.cz port 443 after 321 ms: Connection refused\nfatal: unable to access 'https://repo.or.cz/org-link-beautify.git/': Failed to connect to repo.or.cz port 443 after 96 ms: Connection refused\nfatal: unable to access 'https://repo.or.cz/org-link-beautify.git/': Failed to connect to repo.or.cz port 443 after 96 ms: Connection refused\nUnable to checkout 47d54dd736abc9ef5406e3e7394d54c5110d355d from https://repo.or.cz/org-link-beautify.git.\n"
+   ]
   }
  },
  {
@@ -82790,15 +82793,19 @@
   "url": "https://repo.or.cz/org-tag-beautify.git",
   "unstable": {
    "version": [
-    20220712,
-    123
+    20220602,
+    940
    ],
    "deps": [
     "all-the-icons",
     "org-pretty-tags"
    ],
-   "commit": "7a6aec1b28416fb4bdda5611f1ca30c77d18a854",
-   "sha256": "0c40c2g80jy9yw93ahjkm43hfjrv29hkpspx72yfzmnynkv49bg6"
+   "commit": "481f44aa4067b287e0c724c6d5e1185c62d1560c",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "Initialized empty Git repository in /run/user/1001/git-checkout-tmp-J35eBDEd/org-tag-beautify-481f44a/.git/\nfatal: unable to access 'https://repo.or.cz/org-tag-beautify.git/': Failed to connect to repo.or.cz port 443 after 300 ms: Connection refused\nfatal: unable to access 'https://repo.or.cz/org-tag-beautify.git/': Failed to connect to repo.or.cz port 443 after 98 ms: Connection refused\nfatal: unable to access 'https://repo.or.cz/org-tag-beautify.git/': Failed to connect to repo.or.cz port 443 after 96 ms: Connection refused\nUnable to checkout 481f44aa4067b287e0c724c6d5e1185c62d1560c from https://repo.or.cz/org-tag-beautify.git.\n"
+   ]
   }
  },
  {
@@ -92168,8 +92175,8 @@
     20220303,
     1716
    ],
-   "commit": "5b1c63e5318008d5114453e8d6cd1ce58c4bfd71",
-   "sha256": "0wqh67ahc7bri3217sdw4r3r26mamc5812g9ir017gm8m7z4lq3k"
+   "commit": "3b456bfcd814941baec4fd55400438d0ab6e909a",
+   "sha256": "1aw84i4zj7qrq8xd0sifgpzapwzx8wnprizz5sxjpxkwyyx1vf6y"
   },
   "stable": {
    "version": [
@@ -108901,8 +108908,8 @@
     20200212,
     1903
    ],
-   "commit": "8a744376174b75e1c335185683cac9086eebe44b",
-   "sha256": "027hhy1q00lb3qyh33gd7aq40s83irhzpi2nsi2cwq0gm4jdkggy"
+   "commit": "2e08091189e2de3cfb4aedeef38569d5d3100713",
+   "sha256": "1a05fdrp1g117rab1jy7m5qm1qnf1k090k23wzzaxlxzwx2y6hi2"
   },
   "stable": {
    "version": [
