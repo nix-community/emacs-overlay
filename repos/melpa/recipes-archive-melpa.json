@@ -3919,8 +3919,8 @@
     20220527,
     632
    ],
-   "commit": "cb48fee04cb0cbb26f760a3b95649f7dac78c6ec",
-   "sha256": "088rcqlwhdcaal99cbwsfg93nvzil2kix28zib2lxv6lfapjpzwp"
+   "commit": "4116be5ddab61d7f2366d5efcd23baa7519e6e84",
+   "sha256": "1c7n4072l2aw9ilfln4vv90z19lw9i9gkrr8bwj87b8nh15q239s"
   },
   "stable": {
    "version": [
@@ -8725,11 +8725,14 @@
   "repo": "astoff/buffer-env",
   "unstable": {
    "version": [
-    20220606,
-    1330
+    20220720,
+    1941
    ],
-   "commit": "fc98ca9e2a8b6edcec7199bf52eaf1848bd3e35c",
-   "sha256": "1i629jdlp3lxjk3awarx64s7czbzg15yy101ns9hrjk914bvskbc"
+   "deps": [
+    "compat"
+   ],
+   "commit": "180df340f77954aace8a41192d502bb378283c87",
+   "sha256": "16sa8zbxjk7p80056icrxxv04ngahkzq79714lmnshr9c53szgwq"
   }
  },
  {
@@ -10036,8 +10039,8 @@
     20210707,
     2310
    ],
-   "commit": "c0eec16708c6bea5a855e17a4e7eb5054b71ff70",
-   "sha256": "14hid1wnn4v5pqrzcdvj1cjjpfj4n1bkfvd1jq75h2k4xz8n5ss3"
+   "commit": "070b372ac80369a327ad305d64927f1ed59ccd48",
+   "sha256": "10alavilcrjiv0bzfi15fi2byzzlgl2v9fvv3varwk8ilprmngna"
   },
   "stable": {
    "version": [
@@ -13135,8 +13138,8 @@
     20220617,
     1532
    ],
-   "commit": "12192e7f9424626d7fe9be1c95fcb429718bb58b",
-   "sha256": "02zhwq36mziy3glkq74mz4cvr87isdhmvr3cih1w2g0zxahdg8c2"
+   "commit": "a1b71dab2b754922c85d53f1527037496bdcdee7",
+   "sha256": "1q9d46gkdjrl7m1x2amjbkkcbcsnd04p9h4r0ga2l0zrc7pw9hbk"
   },
   "stable": {
    "version": [
@@ -16736,14 +16739,14 @@
   "url": "https://codeberg.org/jao/consult-recoll.git",
   "unstable": {
    "version": [
-    20220227,
-    2050
+    20220720,
+    2120
    ],
    "deps": [
     "consult"
    ],
-   "commit": "d550a76ffb00846a1b91be595e5adf5b9b2b1f93",
-   "sha256": "1h7i8azk9rvqnknhspfpfgh684p98hlpmcd7na382cdxqji9sgp9"
+   "commit": "85a527af318f220c1671c56b89faa5ca23d2c7ec",
+   "sha256": "1v3mlwcgrkvn695pz96xlb0yp7djwdrprq898r1ffj551lzmd5f5"
   },
   "stable": {
    "version": [
@@ -19122,8 +19125,8 @@
     20211111,
     1407
    ],
-   "commit": "87329f1f9747a5a7e483cf4827d40457f6354c7c",
-   "sha256": "1i7y927y2yh5n8a830ppavg0xrmlsgr1c1923mr084r8cp6jakix"
+   "commit": "64b1cb116a223f48a08edd97bbd7c63188cb0b0b",
+   "sha256": "01fc15q761ic268gyn5r6kng10qi07mfwwc647wcq843h4iyccyy"
   },
   "stable": {
    "version": [
@@ -34920,11 +34923,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-fancy-compilation.git",
   "unstable": {
    "version": [
-    20220720,
-    301
+    20220721,
+    139
    ],
-   "commit": "a4cd5e4d21a2ff7029052e6202854d6fb20902d3",
-   "sha256": "0y22s2xb12gcygbci7jnh4pvg9im643w4hpl891fzriqj1v7qpdz"
+   "commit": "88d189ba66d972db63d4e0acc17fedee1976af46",
+   "sha256": "1d9phmrs77mkn3qd8w1jg6ny25rgyn6ypisz8pjh5vs308v38a9v"
   }
  },
  {
@@ -36732,8 +36735,8 @@
   "repo": "flycheck/flycheck",
   "unstable": {
    "version": [
-    20220612,
-    1800
+    20220720,
+    2031
    ],
    "deps": [
     "dash",
@@ -36741,8 +36744,8 @@
     "pkg-info",
     "seq"
    ],
-   "commit": "c955fd6fb970eed5fdecf675369d3d61a41f6c68",
-   "sha256": "1dcacgzh7hxvsyw7hjc5l2qdy8p3nrgfx5rlzkv57j06h075nq5l"
+   "commit": "94b46fe7b5df48ee9e4130b54188d89f9d2ceeaf",
+   "sha256": "1qsz7gcyz3rb71zfjmjms8fdznb6aqgwwh9j5sj49i4zklklb49w"
   },
   "stable": {
    "version": [
@@ -48886,15 +48889,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20220719,
-    1829
+    20220720,
+    1757
    ],
    "deps": [
     "helm-core",
     "popup"
    ],
-   "commit": "1c36098cca02fac7d66c4f752af1505619b67372",
-   "sha256": "1pv0c3kd1qm1apz9r1xfmm2fdmw3afan0943qjkybqwlan1f2068"
+   "commit": "466d6a73115c469cdf2098da1506387a18c57c03",
+   "sha256": "0j7q16l9h36yinbgxi20q1383ycd9hmy3ikg9yskbmmgblns3hm0"
   },
   "stable": {
    "version": [
@@ -49792,14 +49795,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20220708,
-    343
+    20220720,
+    1746
    ],
    "deps": [
     "async"
    ],
-   "commit": "1c36098cca02fac7d66c4f752af1505619b67372",
-   "sha256": "1pv0c3kd1qm1apz9r1xfmm2fdmw3afan0943qjkybqwlan1f2068"
+   "commit": "466d6a73115c469cdf2098da1506387a18c57c03",
+   "sha256": "0j7q16l9h36yinbgxi20q1383ycd9hmy3ikg9yskbmmgblns3hm0"
   },
   "stable": {
    "version": [
@@ -65062,7 +65065,7 @@
     20220209,
     755
    ],
-   "commit": "533a1c484ed512ac3b5a6b6cbfc88b6a47a16e8f",
+   "commit": "83592ea5e132f836f5cd6e907a65286719182b5a",
    "sha256": "1s1jk828f3f4sg7jdvphp6w1v3br1q25r3wcvaybknx9gs755r1r"
   },
   "stable": {
@@ -72077,10 +72080,10 @@
   "unstable": {
    "version": [
     20220720,
-    1330
+    1937
    ],
-   "commit": "03c2457a89dff8db96d90f2029b0376bdeea970f",
-   "sha256": "1k4acnrpjyfbrph4xv9ncd84sfaf1nd6l4xhwhw4z78h78f0yzc3"
+   "commit": "6ae36d5214738e46c12b475124fc50ce1f60304f",
+   "sha256": "135c8yl8bq6v6fkrwg0aixh4mw8ghyhbm7bq4q94r7dk3x08mx8q"
   },
   "stable": {
    "version": [
@@ -80797,18 +80800,14 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20220605,
-    239
+    20220701,
+    359
    ],
    "deps": [
     "all-the-icons"
    ],
-   "commit": "47d54dd736abc9ef5406e3e7394d54c5110d355d",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /run/user/1001/git-checkout-tmp-vtvDbn3h/org-link-beautify-47d54dd/.git/\nfatal: unable to access 'https://repo.or.cz/org-link-beautify.git/': Failed to connect to repo.or.cz port 443 after 533 ms: Connection refused\nfatal: unable to access 'https://repo.or.cz/org-link-beautify.git/': Failed to connect to repo.or.cz port 443 after 130 ms: Connection refused\nfatal: unable to access 'https://repo.or.cz/org-link-beautify.git/': Failed to connect to repo.or.cz port 443 after 132 ms: Connection refused\nUnable to checkout 47d54dd736abc9ef5406e3e7394d54c5110d355d from https://repo.or.cz/org-link-beautify.git.\n"
-   ]
+   "commit": "ee06be6d82d36330cf0f96544e7cfcfdc1b7bb02",
+   "sha256": "1dnlnk1gin48bc36798y9swj0q96gnsyrdf6sjq7asfm821zv68k"
   }
  },
  {
@@ -82793,19 +82792,15 @@
   "url": "https://repo.or.cz/org-tag-beautify.git",
   "unstable": {
    "version": [
-    20220602,
-    940
+    20220712,
+    123
    ],
    "deps": [
     "all-the-icons",
     "org-pretty-tags"
    ],
-   "commit": "481f44aa4067b287e0c724c6d5e1185c62d1560c",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /run/user/1001/git-checkout-tmp-kJAvaSqu/org-tag-beautify-481f44a/.git/\nfatal: unable to access 'https://repo.or.cz/org-tag-beautify.git/': Failed to connect to repo.or.cz port 443 after 411 ms: Connection refused\nfatal: unable to access 'https://repo.or.cz/org-tag-beautify.git/': Failed to connect to repo.or.cz port 443 after 130 ms: Connection refused\nfatal: unable to access 'https://repo.or.cz/org-tag-beautify.git/': Failed to connect to repo.or.cz port 443 after 135 ms: Connection refused\nUnable to checkout 481f44aa4067b287e0c724c6d5e1185c62d1560c from https://repo.or.cz/org-tag-beautify.git.\n"
-   ]
+   "commit": "7a6aec1b28416fb4bdda5611f1ca30c77d18a854",
+   "sha256": "0c40c2g80jy9yw93ahjkm43hfjrv29hkpspx72yfzmnynkv49bg6"
   }
  },
  {
@@ -91545,11 +91540,11 @@
   "repo": "fritzgrabo/project-mode-line-tag",
   "unstable": {
    "version": [
-    20211013,
-    1954
+    20220720,
+    2110
    ],
-   "commit": "69d44e5495185587ee8577f8b9d616063d6bd7f8",
-   "sha256": "1rv5zgbg003zhhjvikyv92pwjgl191ja14sba7hncs0pk580v075"
+   "commit": "509ac9a01cd344ee9bfa1bfebed6565dd4cfedd7",
+   "sha256": "0a256hcjyl7qlx08bfqcsacl3kpwgzdf458p4r1sxrwd0b1lz1g9"
   }
  },
  {
@@ -91647,11 +91642,11 @@
   "repo": "fritzgrabo/project-tab-groups",
   "unstable": {
    "version": [
-    20220331,
-    918
+    20220720,
+    2109
    ],
-   "commit": "837267a23fa57199599b96af94c2db2e80a859d3",
-   "sha256": "1yrypgykgvvfq0qpkv4arc766r5kq1cidpmkk6ymlj376rviivvf"
+   "commit": "2d348279876f3073176048d903f9672f3c933ca5",
+   "sha256": "05in97rym6nc91nyshbdk4i1g013gsgzgs5r5nhsshpa9glwpv55"
   }
  },
  {
@@ -92181,10 +92176,10 @@
   "stable": {
    "version": [
     21,
-    2
+    3
    ],
-   "commit": "839b18b1ba42639fedecfd751102afcc5736b5d4",
-   "sha256": "0arri4vlj6qrkxr251kz9iil6grv8clxi0746pimwrd2jppg8jqd"
+   "commit": "b1eb1260fce7308081822413a0cba77365e7a6ab",
+   "sha256": "1bivs6dc519dc13fxkz2sk1xgykxfqsss0xw9a89jqicgr14v2xa"
   }
  },
  {
@@ -93263,8 +93258,8 @@
     20210411,
     1931
    ],
-   "commit": "f45f19c47a97ceb29eb9824979e5134714f59e5c",
-   "sha256": "1ha22va848inx95y1z8avm90rlrdgcd99s173ms7zc0l0bfiwq46"
+   "commit": "815d417e4776a7bbbdc87fff7d4501d2cca931be",
+   "sha256": "17l42rvsgda1chsysrgv0v8dsqjsbdndac6l90ksd48jxpijlp4f"
   },
   "stable": {
    "version": [
@@ -93635,8 +93630,8 @@
   "repo": "wbolster/emacs-python-pytest",
   "unstable": {
    "version": [
-    20220714,
-    1951
+    20220720,
+    1918
    ],
    "deps": [
     "dash",
@@ -93644,8 +93639,8 @@
     "s",
     "transient"
    ],
-   "commit": "d031fa91e21bb2112635ef048955ef44e23695a8",
-   "sha256": "1i08xfbwfig3lshkww6k7c5vf2qcapipcmpb2x66jkwdq0n97g0n"
+   "commit": "9bf8db38bf18feb0484931877210cecfaa96bfc6",
+   "sha256": "09mk486fp5brw67aa4w9jyrq6g6i7ssd3y2mprhy5953q3w5s8fk"
   },
   "stable": {
    "version": [
@@ -101591,14 +101586,14 @@
   "repo": "laishulu/emacs-smart-input-source",
   "unstable": {
    "version": [
-    20220628,
-    1545
+    20220720,
+    1536
    ],
    "deps": [
     "terminal-focus-reporting"
    ],
-   "commit": "be84587cfc443aacfde728f290a2cd6ea690da29",
-   "sha256": "18jwg0amk6lsj7xj7kh173wc2kqqj6ax9xr6rf6iai2z9yyn9im5"
+   "commit": "4a5189cf1beb9965cabc021b2697b51f18390266",
+   "sha256": "1ljib0ijkwns773miakhp9fbp81k8kjls6qjlpi31lb9s70njwxb"
   }
  },
  {
@@ -108908,8 +108903,8 @@
     20200212,
     1903
    ],
-   "commit": "a063d6746dfe801282ca2f5341eb42b6d1a4b71e",
-   "sha256": "0w8s5cqqm90c0zbkl6my1rj0wk6yzqi1apm76i6lfvrgf4gz29nb"
+   "commit": "609676eceaadb954ea61d37846df1cb56892d252",
+   "sha256": "0nff5pbvgck7fhvwlg146lcyv59dbps24mk23a38k530p1llah2d"
   },
   "stable": {
    "version": [
@@ -118070,11 +118065,11 @@
   "repo": "zkry/yaml.el",
   "unstable": {
    "version": [
-    20220718,
-    1335
+    20220720,
+    2350
    ],
-   "commit": "e787dd06c661e167b5afb96173b69d34eddfba1d",
-   "sha256": "060h58nahf3rbh4y60nrhpvrdj8jmx4zqxspvdmlc4lgzi8n37h8"
+   "commit": "3381a5d2f739b35cbc75827bec7003e5c0e9f296",
+   "sha256": "17s5qbbm1s634a1ckkg5x059856d4g8hhs15zfwxxvw9aivy0fvy"
   },
   "stable": {
    "version": [
