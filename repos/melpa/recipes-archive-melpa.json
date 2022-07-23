@@ -4463,15 +4463,15 @@
   "repo": "alpha22jp/atomic-chrome",
   "unstable": {
    "version": [
-    20210221,
-    59
+    20220723,
+    113
    ],
    "deps": [
     "let-alist",
     "websocket"
    ],
-   "commit": "c73367d8aa660f2b3c3f70ef5c39f5b502d60404",
-   "sha256": "07bw5fjmszxsvvcb0415zfawfmzqwj0qdvaigxrbb5rinazwb0pn"
+   "commit": "061958ab96c31085b5daf449b1d826b052777b59",
+   "sha256": "0jfmw11d18v8qjcqcfkcmq66ccaa97jq7y5v7m67kf2hcawxk2a4"
   },
   "stable": {
    "version": [
@@ -13138,8 +13138,8 @@
     20220617,
     1532
    ],
-   "commit": "96564c5b2d84568459c2b594a7db3baccb524260",
-   "sha256": "0nvm8cdxrh022gkzbfwjm0c5dx58sq89s9fqj9nj34gcm76rzcri"
+   "commit": "251c1fc56c2c40c4a16b1e3dd1ffee5f1f38b3e8",
+   "sha256": "09mh2rwikp5c85nrcxc84i5b9bmza07h3abl90qghsg2y66gih3p"
   },
   "stable": {
    "version": [
@@ -19032,14 +19032,14 @@
   "url": "https://codeberg.org/ideasman42/emacs-cycle-at-point.git",
   "unstable": {
    "version": [
-    20220708,
-    500
+    20220723,
+    646
    ],
    "deps": [
     "recomplete"
    ],
-   "commit": "14dbe688fb611d4118229f6197039c69b67d4e35",
-   "sha256": "0gik0nz85zwkg21fc12rrnsdp35h91405iqvs7wprcmvnilc7irs"
+   "commit": "7d8198e509c49eaeb76072bb8f1baa46d7970100",
+   "sha256": "1jhlda49j0ijd1b3xqy8lh5mspirx0p54icq4s1cs5f8kbf0w9rd"
   }
  },
  {
@@ -22441,14 +22441,14 @@
   "repo": "alexluigit/dirvish",
   "unstable": {
    "version": [
-    20220722,
-    1744
+    20220723,
+    816
    ],
    "deps": [
     "transient"
    ],
-   "commit": "ff415d9a00e8cebbe543dbc063a8f9c22c0b5b0b",
-   "sha256": "1v773sd307iydy77cxpc0qkqcc4pzw9fvdajxmgqk73ank43lbwa"
+   "commit": "425e1c05bff3992476161b2f1dae6285818793ac",
+   "sha256": "004h4bhd2xcb2j155amjmgr2k5x0v52lpkx300vajdb762i7c0sg"
   },
   "stable": {
    "version": [
@@ -48889,15 +48889,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20220720,
-    1809
+    20220723,
+    555
    ],
    "deps": [
     "helm-core",
     "popup"
    ],
-   "commit": "2c6e1c39ac8f7502aaecf0869df9ba696825dc60",
-   "sha256": "1ggjsqp483mnrp3fjwdvk1xslr3afgwsyq9910av9s6fp99787ni"
+   "commit": "8af377a9cb52051d98caf710845d9d456e6290ee",
+   "sha256": "1h800dq88rk1bql1229mmlaq9ryllv3fa4dsl971ici0cpnfm4ig"
   },
   "stable": {
    "version": [
@@ -49795,14 +49795,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20220722,
-    611
+    20220723,
+    555
    ],
    "deps": [
     "async"
    ],
-   "commit": "2c6e1c39ac8f7502aaecf0869df9ba696825dc60",
-   "sha256": "1ggjsqp483mnrp3fjwdvk1xslr3afgwsyq9910av9s6fp99787ni"
+   "commit": "8af377a9cb52051d98caf710845d9d456e6290ee",
+   "sha256": "1h800dq88rk1bql1229mmlaq9ryllv3fa4dsl971ici0cpnfm4ig"
   },
   "stable": {
    "version": [
@@ -61103,14 +61103,14 @@
   "repo": "taku0/json-par",
   "unstable": {
    "version": [
-    20220122,
-    352
+    20220723,
+    829
    ],
    "deps": [
     "json-mode"
    ],
-   "commit": "962e5a2221136aa07f512834925c381cfeed2d92",
-   "sha256": "0pxcya18gbgzx772sh68803dbhxpss4smh6ar9vlc87mqwg5cqnk"
+   "commit": "2c13ad1bc3c2a62141d3312501d2c2012555972b",
+   "sha256": "1f0aj6dl5f0gjsgkh12rk79akbrrf6whn79jpgmjc0pa22k1v66p"
   },
   "stable": {
    "version": [
@@ -65950,8 +65950,8 @@
     20220518,
     204
    ],
-   "commit": "5ca8e4ad7124efeaa0cfc26e982e056a8cebba72",
-   "sha256": "0z455gf4wvi208rkwa1bql8i9ad1qrzmff5avach8g2i7qr5q5f4"
+   "commit": "a15df8b7076554077ade092c841cc7e61d68da5f",
+   "sha256": "1mb0364vlbrmaxpxlm3qp9r85iclavpw7zq7slm8k59va4r15ii0"
   },
   "stable": {
    "version": [
@@ -72079,11 +72079,11 @@
   "url": "https://git.sr.ht/~protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20220720,
-    1937
+    20220723,
+    835
    ],
-   "commit": "6ae36d5214738e46c12b475124fc50ce1f60304f",
-   "sha256": "135c8yl8bq6v6fkrwg0aixh4mw8ghyhbm7bq4q94r7dk3x08mx8q"
+   "commit": "960ddb7211775df51dcfd202be1d48166d6c646c",
+   "sha256": "0a9pkqca9xbl78g33rhb192vahvc334wvnid5n2xy4ixq7azpixq"
   },
   "stable": {
    "version": [
@@ -82792,15 +82792,15 @@
   "url": "https://repo.or.cz/org-tag-beautify.git",
   "unstable": {
    "version": [
-    20220712,
-    123
+    20220723,
+    758
    ],
    "deps": [
     "all-the-icons",
     "org-pretty-tags"
    ],
-   "commit": "7a6aec1b28416fb4bdda5611f1ca30c77d18a854",
-   "sha256": "0c40c2g80jy9yw93ahjkm43hfjrv29hkpspx72yfzmnynkv49bg6"
+   "commit": "b9c6ffcc206ffaeafbe6e3ef9561ce6a8e0f30ad",
+   "sha256": "1apxxhjmz04myl99fm88la941n69a5sw6pkcxaz7svga1cnpdj9l"
   }
  },
  {
@@ -99726,8 +99726,8 @@
     "dash",
     "edit-indirect"
    ],
-   "commit": "74b7e1d5fe917dfa8fbf7e7867454b454d0d3f0d",
-   "sha256": "1j1076w7xh1kr9sr42nl9sjxwmqjkj8mc1dx6d46mqmgr9w7pfs7"
+   "commit": "9af0c1f417c460352f77de88b5b4432d6b955858",
+   "sha256": "1hy5z965hs06pbwsg9blvrqmkdcp4iv1y9l9zy5wxd9ii65cfr8w"
   },
   "stable": {
    "version": [
@@ -116860,14 +116860,14 @@
   "url": "https://codeberg.org/martianh/wordreference.el",
   "unstable": {
    "version": [
-    20220722,
-    1027
+    20220723,
+    922
    ],
    "deps": [
     "s"
    ],
-   "commit": "a010013ec90e5233173377e7d79265a2b69306a1",
-   "sha256": "0ih7xxc64pmiv9dawgphlbfrr6n7vgcj7vz3w9jsv20sb236ycfm"
+   "commit": "8cfdaef15a9d94ec97910c0faf0ad5b9c393e75d",
+   "sha256": "00qh256sr6fm6aqw94l0225qq2k6k97g3fxwnv6snn0r6bjgb44s"
   }
  },
  {
