@@ -5327,10 +5327,10 @@
       elpaBuild {
         pname = "xref";
         ename = "xref";
-        version = "1.4.1";
+        version = "1.5.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xref-1.4.1.tar";
-          sha256 = "1vbpplw0sngymmawi940nlqmncqznb5vp7zi0ib8v66g3y33ijrf";
+          url = "https://elpa.gnu.org/packages/xref-1.5.0.tar";
+          sha256 = "0xl6aiwkjbgs44c3wxk6s85diydm3y5lsd7znb0dhbqb7milid2d";
         };
         packageRequires = [ emacs ];
         meta = {
