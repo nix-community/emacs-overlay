@@ -6320,11 +6320,11 @@
   "repo": "base16-project/base16-emacs",
   "unstable": {
    "version": [
-    20220713,
-    402
+    20220725,
+    353
    ],
-   "commit": "e8a5430b367faf43e0c56a7da47aad0751ca0b8b",
-   "sha256": "0fbz73yklr9z1dajp2j1d5wwa0j1yfxwqpzhfv56mnzqcqq3h54w"
+   "commit": "36cd6ed044ee37e399fc5d0db8070ae79fb06800",
+   "sha256": "1v0i80iydmzrd8z1ri1dmg9bqj13xvr21lwvaqpq9jxh7iq1b9a8"
   },
   "stable": {
    "version": [
@@ -13165,8 +13165,8 @@
     20220617,
     1532
    ],
-   "commit": "0f376bfc5a54f7e3ab716d213b75af315527c05e",
-   "sha256": "1hcvmrpmd8x11m6nxyxak452xqvp9rk458mnhivc296px6gddd6f"
+   "commit": "867be20c80c8afe41727a8f8862474ef87571a6b",
+   "sha256": "0g5c9kb8qn1mnw0rf7al65vq9d0nvj8rwcljs3a7s00w75k2cf5c"
   },
   "stable": {
    "version": [
@@ -34415,11 +34415,11 @@
   "url": "https://repo.or.cz/external-dict.el.git",
   "unstable": {
    "version": [
-    20220724,
-    38
+    20220725,
+    528
    ],
-   "commit": "0aa200022212f8fc4d76d0ae0fa19644a90f44ac",
-   "sha256": "1zkby0wig7gkqw0dqjg5kdyjal367awffbrxv33mpdii8wrd24c1"
+   "commit": "c364895f27c7b5a6421a7bf159851390bfc95642",
+   "sha256": "1krx9bmw3sh8q1f90fx6hiq6il93gp284c076xispiwq0gyixibl"
   }
  },
  {
@@ -40227,8 +40227,8 @@
    "deps": [
     "flymake-easy"
    ],
-   "commit": "1c57813235fb4b1561cadc94b44635b2b612b874",
-   "sha256": "0c96x0l487a96xkgdasgpp81vjiai31cd5chwgsfyaz9bnw8zdh5"
+   "commit": "433fd05b608f06a40bb209fbea76117d896449ed",
+   "sha256": "149yk0l55p2fcvcgy0pqv3iw8mgbskycmb84bqvjg8227a38bks8"
   },
   "stable": {
    "version": [
@@ -53923,8 +53923,8 @@
     20210208,
     652
    ],
-   "commit": "b56ae0d5cd5ce3ef24ed13be5103e231c91ef4e2",
-   "sha256": "0cl84mlgrjwjxgk2kx4930rarxyc6n07lvy54gmb907i4l6flw61"
+   "commit": "c554f94e6aed2c755ed9e4391f5a090d6289b1ee",
+   "sha256": "1r3hxs37ak617sig8hl55s9bn71krb84aly3hh6cp1pzrsm39wjb"
   },
   "stable": {
    "version": [
@@ -65989,8 +65989,8 @@
     20220518,
     204
    ],
-   "commit": "b507f0d3ab83be7df0bab9e4fc53cb00dd4a4831",
-   "sha256": "08m9544p3g00r0vw48wqz2m6qs4yh7lmfwd0q52q4mn5wxg44bn4"
+   "commit": "ed8e93aaf77339e1b3d3133487c2b3670f884bdc",
+   "sha256": "0f3fln1i5s467gnxf7mlnfl2fj22mlvrninpqri9gpnrwzldhwim"
   },
   "stable": {
    "version": [
@@ -101202,8 +101202,8 @@
     "sideline",
     "vc-msg"
    ],
-   "commit": "6e9fb45caea9031554e6e2110e39e219a407779e",
-   "sha256": "00a75fl7akwvn04icz79zhl4bk940y2hc6yvm2977r4y9wqbhjj0"
+   "commit": "574592a8ecc171112d4ac2575f9cac51ff5eb184",
+   "sha256": "08msa23fgwhfwnyl8dmakv32qa8fkzqfspcgc0bliqrxh6dpcjr5"
   },
   "stable": {
    "version": [
@@ -107633,6 +107633,21 @@
   }
  },
  {
+  "ename": "tangonov-theme",
+  "commit": "a9595a5239a1f1003a269e7c7b52804ccb692d30",
+  "sha256": "13dlllb7j03sigydwm3j6p4fh5dp7pi9bywvrarhnxrhh6wmdizv",
+  "fetcher": "github",
+  "repo": "trev-dev/tangonov-theme",
+  "unstable": {
+   "version": [
+    20220724,
+    2201
+   ],
+   "commit": "c74f9be51a41fe319a47123e92efc41236d18e80",
+   "sha256": "0fz1vrhpz485fj2w42rc6fn65y7rps64h5gxvjrdmqxs6famz7x5"
+  }
+ },
+ {
   "ename": "tangotango-theme",
   "commit": "ebfcfa3ba4ca77443667a9478d59214810cd8cc2",
   "sha256": "05cnvyqmh5h5mqys7qs7d9knzxzmi2x0j1avp77x5l5njzzv59s2",
@@ -109041,11 +109056,11 @@
    "version": [
     2022,
     7,
-    18,
+    25,
     0
    ],
-   "commit": "e644ea48de8e96e8a41b993f5b52a6ceeaf4480d",
-   "sha256": "1av7da9bk6fh0h2n7gs4q4r51hm4c8axfmf196158n7za1yjmb18"
+   "commit": "29f5be141363f5af2118cc2de3688369d7de9b26",
+   "sha256": "0k3afsyrgzf2bypfqlq8zg35743zqnwq1qzkr3i8pkaa3fp92sr0"
   }
  },
  {
@@ -112113,11 +112128,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-undo-fu-session.git",
   "unstable": {
    "version": [
-    20220710,
-    1043
+    20220725,
+    101
    ],
-   "commit": "7abd8dc70730429556e75eac9de5c0f59350e986",
-   "sha256": "0s2r37s9mjyjszhd8k1h61yga8fs1dxqqbadl150qsylnzxyx17q"
+   "commit": "a522c9a511819083bb1b1c760e92df80a246f5fd",
+   "sha256": "1ii73kx2nh74h7msdmi7245gbk934hi6kn4ykjhn7jzv0bvinb6q"
   }
  },
  {
