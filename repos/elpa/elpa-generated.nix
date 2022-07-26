@@ -3246,6 +3246,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    org-notify = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "org-notify";
+        ename = "org-notify";
+        version = "0.1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/org-notify-0.1.0.tar";
+          sha256 = "1ijwlv8493g19cascv7fl23sjljvdcak6pg4y1wbs595mmsmh409";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-notify.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     org-real = callPackage ({ boxy, elpaBuild, emacs, fetchurl, lib, org }:
       elpaBuild {
         pname = "org-real";
