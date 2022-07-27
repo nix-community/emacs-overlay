@@ -1959,10 +1959,10 @@
       elpaBuild {
         pname = "popon";
         ename = "popon";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/popon-0.7.tar";
-          sha256 = "0sr0cv9jlaj83sgk1cb7wd6r12g6gmzdjzm077gxa6jy9p4qrv0q";
+          url = "https://elpa.nongnu.org/nongnu/popon-0.8.tar";
+          sha256 = "0phy0w4jyd224510h8212n211phkjw6vkh4lbhxvfx7jigw7qzzg";
         };
         packageRequires = [ emacs ];
         meta = {
