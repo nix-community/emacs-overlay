@@ -2333,10 +2333,10 @@
       elpaBuild {
         pname = "javaimp";
         ename = "javaimp";
-        version = "0.8";
+        version = "0.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/javaimp-0.8.tar";
-          sha256 = "1i6k0yz6r7v774qgnkzinia783fwx73y3brxr31sbip3b5dbpmsn";
+          url = "https://elpa.gnu.org/packages/javaimp-0.9.tar";
+          sha256 = "17cpnf3snyds5a86180f51sw3ywcc5bxgiglx6szxjqsabzwx9vs";
         };
         packageRequires = [];
         meta = {
@@ -3490,10 +3490,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.22";
+        version = "0.4.23";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.22.tar";
-          sha256 = "1094dmvihx0ff7fyjldd2zfn47nq89p6bjp90ma0xf01hf6ggn6c";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.23.tar";
+          sha256 = "1jhfrqyqx9gns1m0dl8lfq452vh2qkr03jsra52280z9l5qhddis";
         };
         packageRequires = [ emacs ];
         meta = {
