@@ -335,16 +335,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    beacon = callPackage ({ elpaBuild, fetchurl, lib, seq }:
+    beacon = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "beacon";
         ename = "beacon";
-        version = "1.3.3";
+        version = "1.3.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/beacon-1.3.3.el";
-          sha256 = "10r4fpf8pcf1qn5ncpm5g7skzba749mrc1ggykq92jlha3q98s02";
+          url = "https://elpa.gnu.org/packages/beacon-1.3.4.tar";
+          sha256 = "1fy76c2x0xpnx7wfpsxfawdlrspan4dbj2157k9sa62i6a1c8f21";
         };
-        packageRequires = [ seq ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/beacon.html";
           license = lib.licenses.free;
@@ -4688,10 +4688,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.5.3";
+        version = "2.5.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.5.3.tar";
-          sha256 = "16bs90h7b1d188v6glhfp0y4wgxvwn3dl6l4sbswlf1zq3y61zy7";
+          url = "https://elpa.gnu.org/packages/tramp-2.5.3.1.tar";
+          sha256 = "0dqc5gmp20isrlanccvj6nhalmmsfg7bmm690gxfgrbqcc2vj69a";
         };
         packageRequires = [ emacs ];
         meta = {
