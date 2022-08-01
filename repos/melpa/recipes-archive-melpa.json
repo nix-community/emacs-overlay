@@ -11994,15 +11994,15 @@
   "unstable": {
    "version": [
     20220731,
-    918
+    1829
    ],
    "deps": [
     "citeproc",
     "org",
     "parsebib"
    ],
-   "commit": "58640a7d19cceacef1a0c9627e4fe1f9a4628cd0",
-   "sha256": "0r6vvxj8k2363b3rfysn2lzlq5sl2bdkivc70nr5izdj7ybmn5fa"
+   "commit": "bc61a81c17d07555b4df538d88528133bd6f0de7",
+   "sha256": "0m4fdbr1jlmrh1gpp61cf1cvn416cyi6m9pska22znabmaxf8bpx"
   },
   "stable": {
    "version": [
@@ -12034,8 +12034,8 @@
     "citar",
     "embark"
    ],
-   "commit": "58640a7d19cceacef1a0c9627e4fe1f9a4628cd0",
-   "sha256": "0r6vvxj8k2363b3rfysn2lzlq5sl2bdkivc70nr5izdj7ybmn5fa"
+   "commit": "bc61a81c17d07555b4df538d88528133bd6f0de7",
+   "sha256": "0m4fdbr1jlmrh1gpp61cf1cvn416cyi6m9pska22znabmaxf8bpx"
   },
   "stable": {
    "version": [
@@ -14184,11 +14184,11 @@
   "repo": "company-mode/company-mode",
   "unstable": {
    "version": [
-    20220730,
-    2109
+    20220731,
+    2333
    ],
-   "commit": "537d13b7b62e3d7289b28de9dc6360f240d1c3a0",
-   "sha256": "0b4ckin8sp9wqk7c2n0ip4cm0nik008nv38x87a176zjzbjg15f0"
+   "commit": "f1877a370ca76d5cd6614c527635b2d6983188af",
+   "sha256": "1nis7561w9lbis3bz84is40fychg1gz3i9q3m2h0ml1x0m4ss6lh"
   },
   "stable": {
    "version": [
@@ -16786,13 +16786,13 @@
   "unstable": {
    "version": [
     20220731,
-    106
+    1452
    ],
    "deps": [
     "consult"
    ],
-   "commit": "6ea952cd4cbbfb9276325adbf05d6e050d225d51",
-   "sha256": "145r0qhjharkvy8jrnvqhd7cmsi4z82yxdj40x2h6ca9jrgc1ia6"
+   "commit": "89457fe05574a57498c11100ba4ffce5ee54165e",
+   "sha256": "1qcfinxmxxjn4rm0zcay2jljf8kyf1ng53fql6hl3cllg537pc1p"
   },
   "stable": {
    "version": [
@@ -17271,14 +17271,14 @@
   "url": "https://codeberg.org/ideasman42/emacs-counsel-at-point.git",
   "unstable": {
    "version": [
-    20220710,
-    711
+    20220731,
+    2354
    ],
    "deps": [
     "counsel"
    ],
-   "commit": "de081520f5fd5927eba032294b5a8dfb2585edd7",
-   "sha256": "1qf984qbnssqdj1kxlkr3k5asgpbj22ppxb1zvs34m2365frlhcz"
+   "commit": "65a7244ad6342ac79c612fbc6e5ca54759ebaf03",
+   "sha256": "1vwn977gjjvk1jhcyzncv2ycr6dbyh64if0f2f87bwl1yf7hsf41"
   }
  },
  {
@@ -19084,8 +19084,8 @@
    "deps": [
     "recomplete"
    ],
-   "commit": "7d8198e509c49eaeb76072bb8f1baa46d7970100",
-   "sha256": "1jhlda49j0ijd1b3xqy8lh5mspirx0p54icq4s1cs5f8kbf0w9rd"
+   "commit": "d12be2e91337096f4fbf36029de57d4119a00e1d",
+   "sha256": "085r3klapmzj6y9v75xndzrzb3ww4sigk9n2mcfck1frzghc62wk"
   }
  },
  {
@@ -19171,8 +19171,8 @@
     20211111,
     1407
    ],
-   "commit": "6cd64875336b5121e145a3fe85c7621f3db5a64e",
-   "sha256": "05h5ljm0gjckgr1idvw12cmwrr9ym39fdmi3ppjgjakcryzxgpzx"
+   "commit": "6147450d043eca0ee3e47c79558248705e85e41f",
+   "sha256": "1jx9jd1ab0ysql6di0s85f91kh47fqvj4iiqqwniiaqsb01ww398"
   },
   "stable": {
    "version": [
@@ -20334,11 +20334,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-default-font-presets.git",
   "unstable": {
    "version": [
-    20220708,
-    211
+    20220731,
+    2219
    ],
-   "commit": "e16c19107c1cc4466efa099daee192c5cb18e27b",
-   "sha256": "19dm11brf2an0vhzc56zf9qscbvdyhmc1wynp779hip8b6ic1qmy"
+   "commit": "80380aa053c78b7126275e269e80d8988ba3f1e3",
+   "sha256": "07bvlb7n8gryjc205bfpx7k0liibx4cakv9aisc5nfifxqygmv1n"
   }
  },
  {
@@ -21036,11 +21036,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-diff-ansi.git",
   "unstable": {
    "version": [
-    20220710,
-    557
+    20220731,
+    2329
    ],
-   "commit": "f4c61c3cb5b4a543bd8eb8c7b796f710deb2269b",
-   "sha256": "069c279f2i6lx780gprn8spwziam0wh636rl0hx8hal76v1kh4ik"
+   "commit": "c4f350da4302cd7d33343d83d5faaeae6795768f",
+   "sha256": "06k3ppgwng3b0234qpvpq7cvfcdc3fkwm813qpmddcwbg9b8m7fn"
   }
  },
  {
@@ -23157,11 +23157,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-doc-show-inline.git",
   "unstable": {
    "version": [
-    20220708,
-    211
+    20220731,
+    2330
    ],
-   "commit": "1be290742980331736828207208caf2473f3ba60",
-   "sha256": "14xjn7yzskac5azq8h3dbxijiqmss2xdl1sah4ndwhw2i7ziq1x2"
+   "commit": "02f2187d815b480e316238e2b8568bccc5e38fdd",
+   "sha256": "1i4lzq60d5i3yiibgf8nx97xfr477gkp4pyd5r2q1sykv9hjlr51"
   }
  },
  {
@@ -26803,11 +26803,11 @@
   "repo": "casouri/eldoc-box",
   "unstable": {
    "version": [
-    20220612,
-    243
+    20220729,
+    844
    ],
-   "commit": "39b44c99a02299fc7270f1c1832fb37149f8b924",
-   "sha256": "077y6dhxs032r9y7b1if9d2113bvhn3j1vinyh8l16fnnd02cxsi"
+   "commit": "4a57d48115501c68665535877e58694281a50563",
+   "sha256": "0iw3z8hjcsy7lw5zy3b8pyl3m5pahy5zfa0s4hn012g563f9yx8m"
   },
   "stable": {
    "version": [
@@ -29449,6 +29449,29 @@
    ],
    "commit": "99edacf2d94d168d3da0609860dc7253db7c9815",
    "sha256": "0k5ns40s5nskn0zialwq96qll1v5k50lfa5xh8hxbpcamsfym6h8"
+  }
+ },
+ {
+  "ename": "encrypt-region",
+  "commit": "1ed03e2c07f97fe5f631cd8c2212570ebc807ba8",
+  "sha256": "1x8c92q233icgq69rgcfkag5h27sw9zp2ihkxvilyspsdcv516ai",
+  "fetcher": "github",
+  "repo": "cgshep/encrypt-region",
+  "unstable": {
+   "version": [
+    20220731,
+    2314
+   ],
+   "commit": "1b1aa768d242b9a01a089b395944feb6435469f6",
+   "sha256": "01kbzfqi1ff0h1zcf5xin4928xzpdiydy0lh6vizdam602dinha1"
+  },
+  "stable": {
+   "version": [
+    1,
+    0
+   ],
+   "commit": "76d4e621c188467bfb9608ab9662215e7352cd77",
+   "sha256": "0zkadhk4cdmmhdshl9r6zsxjvlprk1d9nzswvp4qzri6y31clvbq"
   }
  },
  {
@@ -32925,14 +32948,14 @@
   "repo": "juliapath/evil-numbers",
   "unstable": {
    "version": [
-    20220711,
-    930
+    20220731,
+    2346
    ],
    "deps": [
     "evil"
    ],
-   "commit": "bfbe8ea5c7031ead4cf6b7f546f00af045defdd2",
-   "sha256": "1a5j45cv7bsbnw79gk5gbsc1jr1w77rzz9fskn9xndb2lxghn57h"
+   "commit": "7bd9bb0bce2ed61fa256952fbf37fc5259928925",
+   "sha256": "0z8rma0h615lybvbx67apcddy7jfm4lbrg6hr5k4hmll3q7b594r"
   },
   "stable": {
    "version": [
@@ -38236,14 +38259,14 @@
   "repo": "emacs-languagetool/flycheck-languagetool",
   "unstable": {
    "version": [
-    20220704,
-    637
+    20220731,
+    2301
    ],
    "deps": [
     "flycheck"
    ],
-   "commit": "8dca25f9fa79d6871fef9fdeeb1858474a8e9f0c",
-   "sha256": "1w1w049zcid8l2f0qyqv1g8sfbnwsbp28vkriwcnxywn9vmi4pzc"
+   "commit": "53b3e46d47a0e70fd2e5c49fea9134ee9aa41793",
+   "sha256": "1di51jp20ymqkp777rsvwkqzr9vpnpi90b8bd4db5v2ji46xrkjf"
   },
   "stable": {
    "version": [
@@ -42154,8 +42177,8 @@
    "deps": [
     "cl-lib"
    ],
-   "commit": "f6131749259f997b222b0cd44bd2b055a71cd39c",
-   "sha256": "0r3zj21mv9yvwn9g2hpsh15w6rngac3lf5zh3zqnk3d6mawxf9rf"
+   "commit": "a4441c09afdfca90fde06d43b93a24a225f693c0",
+   "sha256": "0pcbzy3xihkvhrr0arv4d5csm58dz73iihng381d5aqn5ipfbqwg"
   },
   "stable": {
    "version": [
@@ -42793,8 +42816,8 @@
     "project",
     "transient"
    ],
-   "commit": "224302fe7a3f4dc711638958aa993f5e6816fe99",
-   "sha256": "1kiwfam6z1ylmlgxc1629nk7yqcky7prxwkjh2pv4x9y879cnqhz"
+   "commit": "2fac53cb84e1341fd838ffdd2d9f7e09ecaf617a",
+   "sha256": "0zbxcvgwimdlv6x3kfpzk9gij4a6wgp83lzp08iwam72p1xv9729"
   },
   "stable": {
    "version": [
@@ -48948,14 +48971,14 @@
   "unstable": {
    "version": [
     20220731,
-    856
+    1225
    ],
    "deps": [
     "helm-core",
     "popup"
    ],
-   "commit": "c880ad63fce4c7a3a4dd5abfaed63f0c17380892",
-   "sha256": "0wkw7s8zpwkig3f806m2p5a5dk3jy6xm7zbb99378swxdyxz799k"
+   "commit": "d7e7075c3cd72e8ffc59f0a68baa58e34a321b52",
+   "sha256": "0m6rq8qhasmmv40dk3d0cxn9783dszvsr54slwglapz9hkwxmc6n"
   },
   "stable": {
    "version": [
@@ -49859,8 +49882,8 @@
    "deps": [
     "async"
    ],
-   "commit": "c880ad63fce4c7a3a4dd5abfaed63f0c17380892",
-   "sha256": "0wkw7s8zpwkig3f806m2p5a5dk3jy6xm7zbb99378swxdyxz799k"
+   "commit": "d7e7075c3cd72e8ffc59f0a68baa58e34a321b52",
+   "sha256": "0m6rq8qhasmmv40dk3d0cxn9783dszvsr54slwglapz9hkwxmc6n"
   },
   "stable": {
    "version": [
@@ -54649,11 +54672,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-hl-block-mode.git",
   "unstable": {
    "version": [
-    20220710,
-    933
+    20220731,
+    2352
    ],
-   "commit": "d3ff25a72269fef466c240388850f076eaf30039",
-   "sha256": "1kkaiwiknakc1h6fprlvx1hqf1pgjqj3q84p6w1qfw85d6ygl7na"
+   "commit": "a9e8e8cfd83972a448bdbb0a9967989d0aa1d05a",
+   "sha256": "0bdn9d28g2nmbxq0jhjrcpxadl18q0z231ciyqw2cvcc60i4n4rq"
   }
  },
  {
@@ -54700,11 +54723,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-hl-prog-extra.git",
   "unstable": {
    "version": [
-    20220726,
-    5
+    20220731,
+    2353
    ],
-   "commit": "6f05c4152dbbec033deb9c0ef7b4c9b6971a7173",
-   "sha256": "1xvbf85hv1b40x67makwfz40gs8jn36xydhwdf0b01i6c5nd1dx9"
+   "commit": "6d419cc36936f3bb3c9c63a6f77cc88a80b0db9c",
+   "sha256": "19k1g8g0z9sllqjq2arp2fdcpn9xs8d73d7nx7bn12s1kpa7viv6"
   }
  },
  {
@@ -56238,11 +56261,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-idle-highlight-mode.git",
   "unstable": {
    "version": [
-    20220710,
-    709
+    20220731,
+    2354
    ],
-   "commit": "92339ed48718852a69120ecd92b7279d5521118e",
-   "sha256": "04kfznf3wkprg0pf3cddkh3vr4i7f56k8vd1pz5bg27z1zdkmm7h"
+   "commit": "b3eed5553fe8d7b28bd95b5093e4174d859695ca",
+   "sha256": "1wp6mcj7j7hdwhdg29d6csma2v02g1w5z5kv5aa9lwmb3w7pfdq6"
   }
  },
  {
@@ -66639,15 +66662,15 @@
   "repo": "okamsn/loopy",
   "unstable": {
    "version": [
-    20220510,
-    323
+    20220731,
+    202
    ],
    "deps": [
     "map",
     "seq"
    ],
-   "commit": "a2dbc79bd33a1d194c4804c1157caf27e67b5066",
-   "sha256": "0ccwf2sh52689ajpx7zf0kz8win7nclhm70sc08wk44ygazywjfx"
+   "commit": "10a9be5f0b143dee454bb64d2b5146e4509553d6",
+   "sha256": "0khsnpr1x834zm453ff8ri2i7kyhgxrn782nkzhc4blk6bjljr5p"
   },
   "stable": {
    "version": [
@@ -66678,8 +66701,8 @@
     "dash",
     "loopy"
    ],
-   "commit": "a2dbc79bd33a1d194c4804c1157caf27e67b5066",
-   "sha256": "0ccwf2sh52689ajpx7zf0kz8win7nclhm70sc08wk44ygazywjfx"
+   "commit": "10a9be5f0b143dee454bb64d2b5146e4509553d6",
+   "sha256": "0khsnpr1x834zm453ff8ri2i7kyhgxrn782nkzhc4blk6bjljr5p"
   },
   "stable": {
    "version": [
@@ -69648,30 +69671,30 @@
   "repo": "jasonm23/markdown-soma",
   "unstable": {
    "version": [
-    20220722,
-    411
+    20220731,
+    1718
    ],
    "deps": [
     "dash",
     "f",
     "s"
    ],
-   "commit": "01e6ebb26e8c9c88785a0c7a4fd43db808fd19a5",
-   "sha256": "0lq1ldyjsb53ayyzzwdlhhh2d8r93fpvb2xvdd6awl8qwwli68z4"
+   "commit": "5208978a641a0e5e44dce67d2a05054f77dcebe7",
+   "sha256": "1jkwzb3rgb81vqlqcmdb040qhygw8qmkcibzrsq8zhc26dg9p0rk"
   },
   "stable": {
    "version": [
     0,
     2,
-    4
+    6
    ],
    "deps": [
     "dash",
     "f",
     "s"
    ],
-   "commit": "9c6c869050f086eeb3307691c4f68b8dba73dd35",
-   "sha256": "05pskbyz7ibwdsi1r8kq2ynz8wvji3nlp00yh5lhxgki7xpj7c8v"
+   "commit": "5208978a641a0e5e44dce67d2a05054f77dcebe7",
+   "sha256": "1jkwzb3rgb81vqlqcmdb040qhygw8qmkcibzrsq8zhc26dg9p0rk"
   }
  },
  {
@@ -69904,15 +69927,15 @@
   "url": "https://codeberg.org/martianh/mastodon.el",
   "unstable": {
    "version": [
-    20220727,
-    854
+    20220731,
+    2054
    ],
    "deps": [
     "request",
     "seq"
    ],
-   "commit": "c06f1a14cceb02ba702c1a67d6ba97f3badc2a7b",
-   "sha256": "162bv2q9h976902lqr7ahmbj3ll0kkcmvxcwiib0g4pibsqpr0wf"
+   "commit": "b6184b5cc445a496397d1b90aac7634c775ca9ee",
+   "sha256": "1z65vyr2795254r63h6r3jb98qv4zbg9s7psbznkj33a16jprn68"
   },
   "stable": {
    "version": [
@@ -72017,11 +72040,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-mode-line-idle.git",
   "unstable": {
    "version": [
-    20220710,
-    702
+    20220731,
+    2355
    ],
-   "commit": "4c309f0890bc888f95c8be31bae6fe5a5d4164a9",
-   "sha256": "1y94dm0nphdsfrsg236zbkxz2gmy788a0926m2imip7b06a09hwk"
+   "commit": "11877416ef391dffa38eb1433ce2f337405c7ddc",
+   "sha256": "13vaxj7hy7zp7zy2g5vfgd4mrkhw6r3bi4hfn1h1h2ijf9hln3am"
   }
  },
  {
@@ -74725,8 +74748,8 @@
     20220514,
     2039
    ],
-   "commit": "2aa9fe9a70e7cb45b000f0bf92439b02dcf5743f",
-   "sha256": "1rfg8nigidma5c17ls0mqv0gk2b50fgmsdwfvgjl8sr8x88fx5b7"
+   "commit": "935dffbee19827ddc60526b04729910b78bf1238",
+   "sha256": "0p33rxk174cpda64k7n8skplsyyw323vwrrw7z8j3hmxwy9dd7nx"
   },
   "stable": {
    "version": [
@@ -75705,15 +75728,15 @@
   "repo": "thomp/noaa",
   "unstable": {
    "version": [
-    20220721,
-    537
+    20220801,
+    146
    ],
    "deps": [
     "request",
     "s"
    ],
-   "commit": "67537aa4bca3745c887dfc40641a9a374d450474",
-   "sha256": "1i1kq1v3a9k3w9b32jfm7n0ydsa9ylq2maf5vh47rnw8rgrdprwh"
+   "commit": "1ef8eb144afd0ddb0e7dbad0fc7b9ed2cf337813",
+   "sha256": "0031wvl2vv4ll5a6z6494xb1amkm8fpy037nfy0w7fi11ysqrpsf"
   }
  },
  {
@@ -76005,8 +76028,8 @@
     20220730,
     1153
    ],
-   "commit": "f4ebb6037529569875029f411fd062d79641ce14",
-   "sha256": "1964lak3qmx3a0ahzqdqn6kkrs4kiixh8bsvwnrr4mk990s2sa67"
+   "commit": "54190d091cbceb345c489bd3f20fdca7e4b9a111",
+   "sha256": "04s9gw8fvb38lnxlg161b116yp3bhnwn96qbwa1rlr5r2202h9sr"
   },
   "stable": {
    "version": [
@@ -80315,8 +80338,8 @@
   "repo": "kidd/org-gcal.el",
   "unstable": {
    "version": [
-    20220728,
-    203
+    20220731,
+    2104
    ],
    "deps": [
     "alert",
@@ -80325,8 +80348,8 @@
     "request",
     "request-deferred"
    ],
-   "commit": "3e199c494645e58c5bfa80968dfc4e8480c60f85",
-   "sha256": "06i1ivcg2pgvvyad0nalhdks1r4zf3pak5bs4z48lx9c2nz7bg3f"
+   "commit": "229463ae02f9c0d8ddb510e611b2344ec9a17111",
+   "sha256": "0lmmgb1jm084la0z218wcf238pds3fq0avs6fjlc7imbrd53wa7z"
   },
   "stable": {
    "version": [
@@ -92651,11 +92674,11 @@
   "repo": "AmaiKinono/puni",
   "unstable": {
    "version": [
-    20220702,
-    1336
+    20220730,
+    1556
    ],
-   "commit": "e1c4cac260ac0aae5328e9378bec70baa5102e4c",
-   "sha256": "06b66xz0yfx0jp50i94hand8rhzizbg4h9af7vc3644g0sjvwsl8"
+   "commit": "28836e98d5566172b1a94d7b38290d07b49201b2",
+   "sha256": "1z35nzsqcp8q9nnka0d5gpiidl07qfqmd2giwnd3b3v7h3v1kwpz"
   }
  },
  {
@@ -93311,8 +93334,8 @@
     20210411,
     1931
    ],
-   "commit": "9e17a6dbf0a43511ddaf5c36de83e3d09629437e",
-   "sha256": "0amvvcpjsxsgkwg7d096llr2mj49j8i6q8g5k30bf8xqijyizrrb"
+   "commit": "397c1703e8ae6349d33f7b99f45b2ccaf581e666",
+   "sha256": "0wc4hbg8kfma0zdc5s8kaz7fqdjcp5asiwgwclnnpvzvxzdyykd5"
   },
   "stable": {
    "version": [
@@ -95550,11 +95573,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-recomplete.git",
   "unstable": {
    "version": [
-    20220719,
-    16
+    20220731,
+    2328
    ],
-   "commit": "0fa0d48a74f16e1fea55848f78e2374086906c31",
-   "sha256": "0b72djamram2ql4yiq4zx88v3vg066gqy5vbdshklwnjz8pn5ga5"
+   "commit": "3ed522a234bced2d2ba1d069fd00e715359ac29a",
+   "sha256": "18195hq4m5mk95k72q6m4hrircvh29v47w2qv47pw0gplpx0fa47"
   }
  },
  {
@@ -96798,11 +96821,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-revert-buffer-all.git",
   "unstable": {
    "version": [
-    20220710,
-    706
+    20220731,
+    2351
    ],
-   "commit": "7fe7fd335542e76c5099e51b17ea29614482faa1",
-   "sha256": "1a0xvk3cwfy0j09nbrhmpijjnpimaz1dpld9ny7ldypy6hlwjlhy"
+   "commit": "c07996fcf3e8f7ee156055327522586f32582ce1",
+   "sha256": "16288519g1q07rkg8j3kmxv6lssjl04kw7ni4mj44jfgzimm6vn6"
   }
  },
  {
@@ -97314,13 +97337,13 @@
   "unstable": {
    "version": [
     20220731,
-    104
+    2016
    ],
    "deps": [
     "inf-ruby"
    ],
-   "commit": "89e67681746eeecaab841e93e4a6c2f078ccbf43",
-   "sha256": "1hsw033mskbw82s01xixjin3bc9v0x4mr8ifl64fg6h1v00pnzc1"
+   "commit": "993ae13791ba882076b644b0c8054b6e89e22dad",
+   "sha256": "1a4sdhrmaswi5h5wwqabiyqfz6lfgn0iq68j6qrbn1lwdmcf71d2"
   },
   "stable": {
    "version": [
@@ -98068,8 +98091,8 @@
   "repo": "semenInRussia/emacs-run-command-recipes",
   "unstable": {
    "version": [
-    20220604,
-    1330
+    20220731,
+    1957
    ],
    "deps": [
     "dash",
@@ -98078,8 +98101,8 @@
     "run-command",
     "s"
    ],
-   "commit": "6cff6fff2c3ac23384d044a9c64d0e4b80721d4c",
-   "sha256": "1bg1ha4mlbxr13w3v7xkbdi9mqp3amljikbnkfcc5wijx572c396"
+   "commit": "222bdfbb38b808a11029c22a87a70db74c7f25eb",
+   "sha256": "00dr2l52wv0zf1h1kzs1y5jdaz68712j89pwrlg2q1i9wf3zcl8a"
   }
  },
  {
@@ -99873,15 +99896,15 @@
   "repo": "MaximeWack/seriestracker",
   "unstable": {
    "version": [
-    20220704,
-    1713
+    20220731,
+    2330
    ],
    "deps": [
     "dash",
     "transient"
    ],
-   "commit": "ce8b86a9eee175de513d00ce3e1aa754adbf5c8a",
-   "sha256": "1324lz9xibxfiridfkkfdb01dp51sm3rva5hq63wd72z0ai51ilr"
+   "commit": "1b4fe12d2fff15e3646a2d7cbe528ad1f95c4f19",
+   "sha256": "1ib5vxsm292b0ivp3bwm638qshcf6gr8gs24pywm7mimy8y1nplc"
   }
  },
  {
@@ -101249,6 +101272,36 @@
    ],
    "commit": "91d7f2d43cc8abbf96bcae389553b6d722c8bad9",
    "sha256": "1lrjrp47h2crj7df4npvwpmd53amz37z37byp13nczxcq1yzw806"
+  }
+ },
+ {
+  "ename": "sideline-flymake",
+  "commit": "929f2a0947487db761cee10f420d23a482bc0cb1",
+  "sha256": "1p1yzxkznrr19hl0bky1l4zx13nvxcrvm4dchrgzc11w19kpimrk",
+  "fetcher": "github",
+  "repo": "emacs-sideline/sideline-flymake",
+  "unstable": {
+   "version": [
+    20220629,
+    802
+   ],
+   "deps": [
+    "sideline"
+   ],
+   "commit": "a6c6e9e4e64a12040adadaf351f3e83a0e2954e6",
+   "sha256": "1gf0jfs4gnvp2n4d1nix84sqr3a8np0hf05f1prhk0z2sr4ils8k"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    0
+   ],
+   "deps": [
+    "sideline"
+   ],
+   "commit": "97d6922b3101eb97fdca4c5516d3dc4c4ccd75a5",
+   "sha256": "11cy2yxdsjxa5np6hh6vk9rc8mfghsly1j7q28l8zz4990w2g27a"
   }
  },
  {
@@ -104193,11 +104246,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20220729,
-    153
+    20220801,
+    156
    ],
-   "commit": "e2ed5d9b1039c90c18bc090837dd6a20a219bd1b",
-   "sha256": "0fhqcpczlapfazqagx7kymyqf6h57idsba9bqk7624iqjlgnijzp"
+   "commit": "9e31a55c35e72dc92d0a727fc25e5fa6e21ef8ee",
+   "sha256": "1zy2drxfh2jwidngdccfxzhdksxcb2dk43462xbh9qm883y7f36m"
   }
  },
  {
@@ -104321,11 +104374,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-spell-fu.git",
   "unstable": {
    "version": [
-    20220710,
-    1038
+    20220731,
+    2327
    ],
-   "commit": "dd35cffc34d2d3714865a5b1194edd242d8d50bf",
-   "sha256": "19j24y5i6xllfbca3z7223xxk9fy9avgfway5wi2x9ncxj1vgjbf"
+   "commit": "87fd3522aaf0b523be7a230004a0387f806a75bd",
+   "sha256": "0js9xqr4fy902j2qsl6i8n5yxm2zzpyrj4m1jz30wp4axb9860qf"
   }
  },
  {
@@ -109028,8 +109081,8 @@
     20200212,
     1903
    ],
-   "commit": "177d25b1d2cc04af4b3f47c6e4d24ba9b904ddf8",
-   "sha256": "1mb7n09nzxp023qr7if6c1xci3ggvdqpi2adgxi63cwsq4941j3v"
+   "commit": "8cf663b10c5dda35d48418ac5423a778103a496c",
+   "sha256": "1lsc28snc3cr8mjyrqycg1m14myk6lgbr05z9q96lsvdlqvc11hc"
   },
   "stable": {
    "version": [
@@ -112092,11 +112145,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-undo-fu.git",
   "unstable": {
    "version": [
-    20220710,
-    351
+    20220731,
+    2326
    ],
-   "commit": "913cbb4ff3659d8537c764e56953dbb1b85e73c9",
-   "sha256": "1c0zcp4rm9s2wjlg63s4wbg98jl0g829w4znafpghbkgq26dk60z"
+   "commit": "b0d6eba024ac87a0aaf7fa66ae76d76f6c764d46",
+   "sha256": "1h68p5dy11mmmn680smhh748gxk3ch11lsjfp10wskrhahvfix7y"
   }
  },
  {
@@ -112107,11 +112160,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-undo-fu-session.git",
   "unstable": {
    "version": [
-    20220725,
-    101
+    20220731,
+    2356
    ],
-   "commit": "a522c9a511819083bb1b1c760e92df80a246f5fd",
-   "sha256": "1ii73kx2nh74h7msdmi7245gbk934hi6kn4ykjhn7jzv0bvinb6q"
+   "commit": "48544cb102fd3d761acf92598076b20bbb4075f9",
+   "sha256": "1qyb9ssglg0wnrrpkaqdkrc01f88i976c9fg7hyd7pknfjg7glrf"
   }
  },
  {
@@ -117876,11 +117929,11 @@
   "url": "https://codeberg.org/ideasman42/emacs-xref-rst.git",
   "unstable": {
    "version": [
-    20220708,
-    211
+    20220710,
+    1033
    ],
-   "commit": "c497c0d9b97692a39c984d0e6bb06dcdc4ad0082",
-   "sha256": "17whfpdwliafpfnf7qbkapmk92gqm4hwycb91mpa8gbz133xa9nf"
+   "commit": "e1dd4439e535185a0cd195bb392f70982cf5aadc",
+   "sha256": "0snl51bnm69zwb8wm8yr0xr263m2sr6f2b1d30p1yp0p0jv40i33"
   }
  },
  {
