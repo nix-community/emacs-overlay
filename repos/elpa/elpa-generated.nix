@@ -3100,10 +3100,10 @@
       elpaBuild {
         pname = "num3-mode";
         ename = "num3-mode";
-        version = "1.3";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/num3-mode-1.3.el";
-          sha256 = "0x2jpnzvpbj03pbmhsny5gygh63c4dbl4g3k0cfs3vh4qmp2dg6w";
+          url = "https://elpa.gnu.org/packages/num3-mode-1.4.tar";
+          sha256 = "01cl5wc5xzf4milq6r5ps2f4ikpkdbdidk880svby9mhiw6agydh";
         };
         packageRequires = [];
         meta = {
