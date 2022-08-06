@@ -2333,10 +2333,10 @@
       elpaBuild {
         pname = "javaimp";
         ename = "javaimp";
-        version = "0.9";
+        version = "0.9.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/javaimp-0.9.tar";
-          sha256 = "17cpnf3snyds5a86180f51sw3ywcc5bxgiglx6szxjqsabzwx9vs";
+          url = "https://elpa.gnu.org/packages/javaimp-0.9.1.tar";
+          sha256 = "106wn53z39fcna3sv4p0idmjg9lg5lijm5hyb4lbibp4s5yh2y3b";
         };
         packageRequires = [];
         meta = {
@@ -4545,10 +4545,10 @@
       elpaBuild {
         pname = "taxy";
         ename = "taxy";
-        version = "0.9";
+        version = "0.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/taxy-0.9.tar";
-          sha256 = "1nzafs3yvcnmg07zi345n2yvjsw9wixlybzibnhf5k6jnd0vvpjh";
+          url = "https://elpa.gnu.org/packages/taxy-0.10.tar";
+          sha256 = "1jamry2p3qhswq8prd2g7ljh4yqk0wwblyd9fhnaclakahrn5vi3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4560,16 +4560,17 @@
                                       , emacs
                                       , fetchurl
                                       , lib
-                                      , magit-section }:
+                                      , magit-section
+                                      , taxy }:
       elpaBuild {
         pname = "taxy-magit-section";
         ename = "taxy-magit-section";
-        version = "0.9.1";
+        version = "0.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/taxy-magit-section-0.9.1.tar";
-          sha256 = "0ybkz5nqjdrg2z9bfd07xg4k49hrl26vsrwz2vqpfbsqqg5vr4pr";
+          url = "https://elpa.gnu.org/packages/taxy-magit-section-0.10.tar";
+          sha256 = "1g58nvpb04ldhn5qnjw2q5idrv6vhlfa0qmb46cvis6bkz46cxkw";
         };
-        packageRequires = [ emacs magit-section ];
+        packageRequires = [ emacs magit-section taxy ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/taxy-magit-section.html";
           license = lib.licenses.free;
@@ -4907,10 +4908,10 @@
       elpaBuild {
         pname = "vc-got";
         ename = "vc-got";
-        version = "1.1.2";
+        version = "1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vc-got-1.1.2.tar";
-          sha256 = "1824d5c217qimsg4aw8adjvv06gkhv5f3918fi0lkhya1jsvfrx9";
+          url = "https://elpa.gnu.org/packages/vc-got-1.2.tar";
+          sha256 = "074di4bchhnpfixkjdis8dwxx6r32j1qypxk647q1z7lvd92j39s";
         };
         packageRequires = [ emacs ];
         meta = {
