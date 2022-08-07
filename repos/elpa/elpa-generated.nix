@@ -2764,6 +2764,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    minibuffer-header = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "minibuffer-header";
+        ename = "minibuffer-header";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/minibuffer-header-0.2.tar";
+          sha256 = "0i68z5hq4jbbdvb9799jpdp17hvq7j7lrvvl6ia5abv8ig94bhb2";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/minibuffer-header.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     minibuffer-line = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "minibuffer-line";
