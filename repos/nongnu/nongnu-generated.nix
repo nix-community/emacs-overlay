@@ -473,10 +473,10 @@
       elpaBuild {
         pname = "dockerfile-mode";
         ename = "dockerfile-mode";
-        version = "1.5";
+        version = "1.7";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/dockerfile-mode-1.5.tar";
-          sha256 = "0dz91i4ak3v0x1v75ibhjjz211k9g6qimz4lxn3x424j7dlpa9f3";
+          url = "https://elpa.nongnu.org/nongnu/dockerfile-mode-1.7.tar";
+          sha256 = "1kb768kv48ypw7fm5xcvkw4pq9mfkvv0bg1inlhfifkb4i9kmz3l";
         };
         packageRequires = [ emacs ];
         meta = {
