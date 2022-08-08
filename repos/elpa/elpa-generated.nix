@@ -2768,10 +2768,10 @@
       elpaBuild {
         pname = "minibuffer-header";
         ename = "minibuffer-header";
-        version = "0.2";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/minibuffer-header-0.2.tar";
-          sha256 = "0i68z5hq4jbbdvb9799jpdp17hvq7j7lrvvl6ia5abv8ig94bhb2";
+          url = "https://elpa.gnu.org/packages/minibuffer-header-0.4.tar";
+          sha256 = "0sxjfm9aldrpq1vqbxiw1gwykh02xr5x22hbxsk723bkcvzk0mpk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3483,6 +3483,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/peg.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    perl-doc = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "perl-doc";
+        ename = "perl-doc";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/perl-doc-0.2.tar";
+          sha256 = "1p5bbkwllh91a0vg5aisqa9kbms7l9vxk14lm09bav952xxn6gdl";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/perl-doc.html";
           license = lib.licenses.free;
         };
       }) {};
