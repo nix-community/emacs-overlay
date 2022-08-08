@@ -797,6 +797,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    consult-recoll = callPackage ({ consult, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "consult-recoll";
+        ename = "consult-recoll";
+        version = "0.6.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/consult-recoll-0.6.2.tar";
+          sha256 = "0ngisaxdsfmjcincxdjrpgj6q6vh4dav7b2bpfls9a7107rb2ycp";
+        };
+        packageRequires = [ consult emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/consult-recoll.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     context-coloring = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "context-coloring";
