@@ -2783,10 +2783,10 @@
       elpaBuild {
         pname = "minibuffer-header";
         ename = "minibuffer-header";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/minibuffer-header-0.4.tar";
-          sha256 = "0sxjfm9aldrpq1vqbxiw1gwykh02xr5x22hbxsk723bkcvzk0mpk";
+          url = "https://elpa.gnu.org/packages/minibuffer-header-0.5.tar";
+          sha256 = "1nw53h34izm0z8njsf6jacc40fhg4x5l8r403ysmw2ps89i80p36";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3535,10 +3535,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.24";
+        version = "0.4.25";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.24.tar";
-          sha256 = "03q7f6c7j05zq3cdihbibwjjqgf4yx6ibzrn3j01kr695w50dfp6";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.25.tar";
+          sha256 = "1sqwh7lkpgwc8m7vrbzjk8vc2p3b9gq6smyz6zx8pq4pf1rqkzrd";
         };
         packageRequires = [ emacs ];
         meta = {
