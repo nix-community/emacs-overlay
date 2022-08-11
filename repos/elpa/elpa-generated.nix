@@ -1041,10 +1041,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.32";
+        version = "0.33";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/debbugs-0.32.tar";
-          sha256 = "1xp3mj3ndaljma0g7x9abziphgi2a6j8k1v52sb8xwgn4p5gdvby";
+          url = "https://elpa.gnu.org/packages/debbugs-0.33.tar";
+          sha256 = "1s4p3jf9yrm8pn5pljpkrw05n2p9v6fpl141rh1df7f7l0w80qbk";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -1071,10 +1071,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "0.4.0";
+        version = "0.5.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-0.4.0.tar";
-          sha256 = "031ia1k5fqzq154jhi4icvivhdg8yn7zfkwy81yf0ivcsivri54s";
+          url = "https://elpa.gnu.org/packages/denote-0.5.1.tar";
+          sha256 = "0zfn4v2jl04f0lbmdv9gd4bnld0vfw670jfg72fvabxhrrjgz1iq";
         };
         packageRequires = [ emacs ];
         meta = {
