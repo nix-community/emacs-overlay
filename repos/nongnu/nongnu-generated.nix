@@ -1345,10 +1345,10 @@
       elpaBuild {
         pname = "inf-ruby";
         ename = "inf-ruby";
-        version = "2.6.1";
+        version = "2.6.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/inf-ruby-2.6.1.tar";
-          sha256 = "0z57wwpm7wh04yp7za8fmv4ib56np629kmk4djs8qaz5bv494znr";
+          url = "https://elpa.nongnu.org/nongnu/inf-ruby-2.6.2.tar";
+          sha256 = "09p9pny4p0bfw6lw5pf17spyd77jb0pliapp3mfn7r3w8l8wi8xc";
         };
         packageRequires = [ emacs ];
         meta = {
