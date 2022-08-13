@@ -1723,10 +1723,10 @@
       elpaBuild {
         pname = "org-auto-tangle";
         ename = "org-auto-tangle";
-        version = "0.5.1";
+        version = "0.6.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/org-auto-tangle-0.5.1.tar";
-          sha256 = "12sy30yr8r3g7gmvcdsrrmy62lhvajg3gp62gj7p836kh9xllpsl";
+          url = "https://elpa.nongnu.org/nongnu/org-auto-tangle-0.6.0.tar";
+          sha256 = "07g1cwsr8j1sd8whshi9y2b69qx10g9vd77pmwki9ba4sy0m7b0p";
         };
         packageRequires = [ async emacs ];
         meta = {
@@ -2712,10 +2712,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "17.19.20220806194323";
+        version = "17.19.20220812194903";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-17.19.20220806194323.tar";
-          sha256 = "1cflsvp1cpyr3zsj2dij3mc36lprwjdhrvxx2k8ilavhzi4dn64v";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-17.19.20220812194903.tar";
+          sha256 = "18172nhfmzkiycsn3v0ml3r3hj6f381fdzrq1qcjdp2k681fjiyf";
         };
         packageRequires = [ emacs ];
         meta = {
