@@ -1397,6 +1397,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    ef-themes = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "ef-themes";
+        ename = "ef-themes";
+        version = "0.0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/ef-themes-0.0.1.tar";
+          sha256 = "1nhkdf7d34h2945qv28idm1izz3fniizwhvwnp37vhmkfb4c3vj0";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/ef-themes.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     eglot = callPackage ({ eldoc
                          , elpaBuild
                          , emacs
