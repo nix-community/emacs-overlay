@@ -1401,10 +1401,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "0.0.1";
+        version = "0.0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-0.0.1.tar";
-          sha256 = "1nhkdf7d34h2945qv28idm1izz3fniizwhvwnp37vhmkfb4c3vj0";
+          url = "https://elpa.gnu.org/packages/ef-themes-0.0.4.tar";
+          sha256 = "0fj92ahlfyrhb6al3ijdk5j26bwr93glp4wqsxwbq1dpig2lq3pj";
         };
         packageRequires = [ emacs ];
         meta = {
