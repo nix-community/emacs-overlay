@@ -906,10 +906,10 @@
       elpaBuild {
         pname = "crdt";
         ename = "crdt";
-        version = "0.3.1";
+        version = "0.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/crdt-0.3.1.tar";
-          sha256 = "0h0sqf3yadv3qrlgwfmd7s9nisms4a1vxp87ar22vbp989df49s9";
+          url = "https://elpa.gnu.org/packages/crdt-0.3.2.tar";
+          sha256 = "0s68ligyd25gkxlhabjbxvcb7if3biak0i62rb8v7zas4ygmsps6";
         };
         packageRequires = [];
         meta = {
@@ -1401,10 +1401,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "0.1.0";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-0.1.0.tar";
-          sha256 = "1aqzxgkn7xax397wn1lm2xb00djq9lax17ddlgq1swqa7hgaxsjb";
+          url = "https://elpa.gnu.org/packages/ef-themes-0.2.0.tar";
+          sha256 = "17z6dfl61myzaz5mz2xhgnx3xpk10snzhv0jbkjy4pxq1mwywpam";
         };
         packageRequires = [ emacs ];
         meta = {
