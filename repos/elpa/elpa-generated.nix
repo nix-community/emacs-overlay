@@ -1401,10 +1401,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "0.2.0";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-0.2.0.tar";
-          sha256 = "17z6dfl61myzaz5mz2xhgnx3xpk10snzhv0jbkjy4pxq1mwywpam";
+          url = "https://elpa.gnu.org/packages/ef-themes-0.2.1.tar";
+          sha256 = "06l8y1lpzfmng5wihfzhvs1191c8qxcsxay84g0szxkgpdcgrp67";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3670,10 +3670,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "0.4.0";
+        version = "0.5.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pulsar-0.4.0.tar";
-          sha256 = "027kpywdjfd1xm1fxkprbc04iq96lnyzw2f3499wyrfj4vxk2dn2";
+          url = "https://elpa.gnu.org/packages/pulsar-0.5.0.tar";
+          sha256 = "1bs6f8j1a7vypwm087zsrccv5kbahxyg3nhc65ffgpwrnxfp4v96";
         };
         packageRequires = [ emacs ];
         meta = {
