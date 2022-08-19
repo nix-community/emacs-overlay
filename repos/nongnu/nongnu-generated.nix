@@ -245,16 +245,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    cdlatex = callPackage ({ auctex, elpaBuild, fetchurl, lib }:
+    cdlatex = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "cdlatex";
         ename = "cdlatex";
-        version = "4.12";
+        version = "4.13";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/cdlatex-4.12.tar";
-          sha256 = "1m8liqxz76r8f3b8hvyyn7kqgq0fkk5pv4pqgdscbgw36vpcbkry";
+          url = "https://elpa.nongnu.org/nongnu/cdlatex-4.13.tar";
+          sha256 = "1fqbq52sf1mc4z0nxgigm2jbp0fqpdxa05q8x5f719sd1fx7h3wz";
         };
-        packageRequires = [ auctex ];
+        packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/cdlatex.html";
           license = lib.licenses.free;
