@@ -234,10 +234,10 @@
       elpaBuild {
         pname = "async";
         ename = "async";
-        version = "1.9.5";
+        version = "1.9.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/async-1.9.5.tar";
-          sha256 = "02f43vqlggy4qkqdggkl9mcg3rvagjysj45xgrx41jjx6cnjnm19";
+          url = "https://elpa.gnu.org/packages/async-1.9.6.tar";
+          sha256 = "0qyf1niqjhzaphb50q1znkwqzpdvqw3drivkzrqxrs747k7pm3my";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2877,10 +2877,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "2.5.0";
+        version = "2.6.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-themes-2.5.0.tar";
-          sha256 = "0j2mx47fpbqvpwhkdskgrnyj5nzg25sqgxwsdvrvw22c7gxhirxn";
+          url = "https://elpa.gnu.org/packages/modus-themes-2.6.0.tar";
+          sha256 = "0i4y69rrdcm64mvqs5z7dmgx1xk0x7g5978q5gjblczlfka444k4";
         };
         packageRequires = [ emacs ];
         meta = {
