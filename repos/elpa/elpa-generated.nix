@@ -801,10 +801,10 @@
       elpaBuild {
         pname = "consult-recoll";
         ename = "consult-recoll";
-        version = "0.6.2";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-recoll-0.6.2.tar";
-          sha256 = "0ngisaxdsfmjcincxdjrpgj6q6vh4dav7b2bpfls9a7107rb2ycp";
+          url = "https://elpa.gnu.org/packages/consult-recoll-0.7.tar";
+          sha256 = "12a1qhp7yz6r5pblm68wp1zis0xnvsn2rm12rz9fircq8p3ff3j7";
         };
         packageRequires = [ consult emacs ];
         meta = {
