@@ -144,10 +144,10 @@
       elpaBuild {
         pname = "autothemer";
         ename = "autothemer";
-        version = "0.2.5";
+        version = "0.2.6";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/autothemer-0.2.5.tar";
-          sha256 = "1g07j8fmyqhhas0ci2f9l7i5l238cpb02vr93gyn2a3r3lq6wn4d";
+          url = "https://elpa.nongnu.org/nongnu/autothemer-0.2.6.tar";
+          sha256 = "1d4jy6cxwkqmsamllka1igp0px1jjxqma0bd0w77wyg8119bwk4i";
         };
         packageRequires = [ cl-lib dash emacs ];
         meta = {
@@ -832,10 +832,10 @@
       elpaBuild {
         pname = "geiser";
         ename = "geiser";
-        version = "0.24";
+        version = "0.25";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-0.24.tar";
-          sha256 = "14qnni8ridrg3afh1wy9nvchbk0drn0h7ww5xgc6s03ivvmy7a71";
+          url = "https://elpa.nongnu.org/nongnu/geiser-0.25.tar";
+          sha256 = "0wlzzh8qgpqa3iy8bmmw88s59wfhqxljc7l61jsi1ddx8khw717g";
         };
         packageRequires = [ emacs project transient ];
         meta = {
