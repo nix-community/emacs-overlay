@@ -135,21 +135,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    autothemer = callPackage ({ cl-lib ? null
-                              , dash
-                              , elpaBuild
-                              , emacs
-                              , fetchurl
-                              , lib }:
+    autothemer = callPackage ({ dash, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "autothemer";
         ename = "autothemer";
-        version = "0.2.6";
+        version = "0.2.8";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/autothemer-0.2.6.tar";
-          sha256 = "1d4jy6cxwkqmsamllka1igp0px1jjxqma0bd0w77wyg8119bwk4i";
+          url = "https://elpa.nongnu.org/nongnu/autothemer-0.2.8.tar";
+          sha256 = "15vbjyz2n3kziinciv89qi5bnwv622b6nfwwk7cwldrf1d0r9yl0";
         };
-        packageRequires = [ cl-lib dash emacs ];
+        packageRequires = [ dash emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/autothemer.html";
           license = lib.licenses.free;
@@ -249,10 +244,10 @@
       elpaBuild {
         pname = "cdlatex";
         ename = "cdlatex";
-        version = "4.13";
+        version = "4.14";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/cdlatex-4.13.tar";
-          sha256 = "1fqbq52sf1mc4z0nxgigm2jbp0fqpdxa05q8x5f719sd1fx7h3wz";
+          url = "https://elpa.nongnu.org/nongnu/cdlatex-4.14.tar";
+          sha256 = "114g2afnq86c6662ychd0v64aam7nhk3hacbwx1cavhg1k2l7kci";
         };
         packageRequires = [];
         meta = {
