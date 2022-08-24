@@ -2223,10 +2223,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.5.tar";
-          sha256 = "19f2a0fw0zcrfirjhq7my910jiqxqkishyjprj87cahpksdp4cp9";
+          url = "https://elpa.gnu.org/packages/inspector-0.6.tar";
+          sha256 = "0kfs4qqj1hr03apk09a76gi6j6fr8y9ip4px921alihfmn90zfav";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4742,6 +4742,21 @@
         packageRequires = [ emacs map seq ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/tomelr.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    topspace = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "topspace";
+        ename = "topspace";
+        version = "0.3.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/topspace-0.3.0.tar";
+          sha256 = "04w7pvlbl3h9g0hpdj90s2s6p3j4gc659lwaalxf0i016zpmf5a4";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/topspace.html";
           license = lib.licenses.free;
         };
       }) {};
