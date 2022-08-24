@@ -4749,10 +4749,10 @@
       elpaBuild {
         pname = "topspace";
         ename = "topspace";
-        version = "0.3.0";
+        version = "0.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/topspace-0.3.0.tar";
-          sha256 = "04w7pvlbl3h9g0hpdj90s2s6p3j4gc659lwaalxf0i016zpmf5a4";
+          url = "https://elpa.gnu.org/packages/topspace-0.3.1.tar";
+          sha256 = "1c2raqmbyv5bd48gimh6dazfb6dmipjmf1j0w53vyrs48dx6kskq";
         };
         packageRequires = [ emacs ];
         meta = {
