@@ -771,10 +771,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "28.1.2.1";
+        version = "28.1.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/compat-28.1.2.1.tar";
-          sha256 = "1z1if6f76f32ild7qc70pgpf6zqcj2m4lmbm6qy9p1i1n0a4820i";
+          url = "https://elpa.gnu.org/packages/compat-28.1.2.2.tar";
+          sha256 = "1jymfbadvnbjfyml6lri7hc7gz4f97nadn7a7ifpcncm9mhi13bp";
         };
         packageRequires = [ emacs nadvice ];
         meta = {
@@ -2223,10 +2223,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.6.tar";
-          sha256 = "0kfs4qqj1hr03apk09a76gi6j6fr8y9ip4px921alihfmn90zfav";
+          url = "https://elpa.gnu.org/packages/inspector-0.7.tar";
+          sha256 = "0cwfbg7bx4ni0xadba9v5jbkivz2slqwxcy7q8s3zipb4m578xbk";
         };
         packageRequires = [ emacs ];
         meta = {
