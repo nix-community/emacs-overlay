@@ -249,10 +249,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.1.3";
+        version = "13.1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.1.3.tar";
-          sha256 = "0v9rxwz6ngnwrgvzgdki861s136gq30lqhy2gcd9q0a36gb6zhwk";
+          url = "https://elpa.gnu.org/packages/auctex-13.1.4.tar";
+          sha256 = "1r9qysnfdbiblq3c95rgsh7vgy3k4qabnj0vicqhdkca0cl2b2bj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3145,10 +3145,10 @@
       elpaBuild {
         pname = "num3-mode";
         ename = "num3-mode";
-        version = "1.4";
+        version = "1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/num3-mode-1.4.tar";
-          sha256 = "01cl5wc5xzf4milq6r5ps2f4ikpkdbdidk880svby9mhiw6agydh";
+          url = "https://elpa.gnu.org/packages/num3-mode-1.5.tar";
+          sha256 = "0i01v0sl0wi98xvc3wkk2lwc3nxmnhhpyrhr9gn88x5ygc0p4rdw";
         };
         packageRequires = [];
         meta = {
