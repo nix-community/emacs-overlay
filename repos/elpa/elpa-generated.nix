@@ -159,10 +159,10 @@
       elpaBuild {
         pname = "aircon-theme";
         ename = "aircon-theme";
-        version = "0.0.5";
+        version = "0.0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/aircon-theme-0.0.5.tar";
-          sha256 = "0k9nsm64szi2hvngx9ciyjn8ic9qprfm3gmwp33f0kakq05ykpd1";
+          url = "https://elpa.gnu.org/packages/aircon-theme-0.0.6.tar";
+          sha256 = "09yjjx9gy1x2i8xk7jlblzk6gkx7cgglb0pwxbl8n6aj19ba40nd";
         };
         packageRequires = [ emacs ];
         meta = {
