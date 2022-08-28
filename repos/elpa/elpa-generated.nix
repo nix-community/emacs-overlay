@@ -906,10 +906,10 @@
       elpaBuild {
         pname = "crdt";
         ename = "crdt";
-        version = "0.3.2";
+        version = "0.3.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/crdt-0.3.2.tar";
-          sha256 = "0s68ligyd25gkxlhabjbxvcb7if3biak0i62rb8v7zas4ygmsps6";
+          url = "https://elpa.gnu.org/packages/crdt-0.3.3.tar";
+          sha256 = "12xdqdp4zwd163wc19cjakabgjyzm4l4xg4bns6q1p60zgynbkx8";
         };
         packageRequires = [];
         meta = {
@@ -1386,10 +1386,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20220814";
+        version = "20220828";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20220814.tar";
-          sha256 = "0d2f1pv3jms61bbhk2lm1g91ha3z2xx3043yrl92r58kkpi2pwk4";
+          url = "https://elpa.gnu.org/packages/eev-20220828.tar";
+          sha256 = "0znsimjq61p67c2q3qbia5qrimy847xy6gjpl1jgyrdlpgm9hv6r";
         };
         packageRequires = [ emacs ];
         meta = {
