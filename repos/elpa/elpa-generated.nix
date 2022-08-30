@@ -628,10 +628,10 @@
       elpaBuild {
         pname = "cobol-mode";
         ename = "cobol-mode";
-        version = "1.0.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cobol-mode-1.0.0.el";
-          sha256 = "1zmcfpl7v787yacc7gxm8mkp53fmrznp5mnad628phf3vj4kwnxi";
+          url = "https://elpa.gnu.org/packages/cobol-mode-1.1.tar";
+          sha256 = "1ivp0pghrkflhr2md34a6a86gwns867bnl30nqzwq8m4qc5xqjra";
         };
         packageRequires = [ cl-lib ];
         meta = {
@@ -831,10 +831,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.26";
+        version = "0.27";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.26.tar";
-          sha256 = "13wsb0llrnmk65m27drnyaqzv9qicnxbpvqcanj0k90iv411kw21";
+          url = "https://elpa.gnu.org/packages/corfu-0.27.tar";
+          sha256 = "1i8nl94aaa5p4bp0idsmph3z61lccg9a7plbsnpicy0klsaj69r2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1401,10 +1401,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "0.3.4";
+        version = "0.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-0.3.4.tar";
-          sha256 = "12xh0nz1flzw962p4pf97j6vdv54nm6m8d8a3hv5bnyxxk5h9dyp";
+          url = "https://elpa.gnu.org/packages/ef-themes-0.4.0.tar";
+          sha256 = "1hb773nhcnqbn3p2jl3w3rgdfjxf0jpwy492vzancsc3f8pampaj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5075,10 +5075,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.25";
+        version = "0.26";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.25.tar";
-          sha256 = "1v0icwqp4ppa2j1k1fk4fc5zdzqb4hcdc7khjc1c31q0gad6l3xy";
+          url = "https://elpa.gnu.org/packages/vertico-0.26.tar";
+          sha256 = "070dkw7ii5lfg4m0bwl9blbyq3rgqs212my142ri69ig1fz9x5ad";
         };
         packageRequires = [ emacs ];
         meta = {
