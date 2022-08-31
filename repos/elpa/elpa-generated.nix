@@ -1401,10 +1401,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "0.4.0";
+        version = "0.4.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-0.4.0.tar";
-          sha256 = "1hb773nhcnqbn3p2jl3w3rgdfjxf0jpwy492vzancsc3f8pampaj";
+          url = "https://elpa.gnu.org/packages/ef-themes-0.4.2.tar";
+          sha256 = "0ik9kzdv5r1q7hw81nh3raiychpmwi61034y12pqvbq24njp0y72";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5489,6 +5489,21 @@
         packageRequires = [ cl-lib ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ztree.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    zuul = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "zuul";
+        ename = "zuul";
+        version = "0.3";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/zuul-0.3.tar";
+          sha256 = "04jqxdl1g6zpd41gr4crjdbnyk6vzwv036qilbm1g7d3ipxb2wjz";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/zuul.html";
           license = lib.licenses.free;
         };
       }) {};
