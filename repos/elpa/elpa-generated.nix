@@ -4196,10 +4196,10 @@
       elpaBuild {
         pname = "shell-command-plus";
         ename = "shell-command+";
-        version = "2.3.2";
+        version = "2.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/shell-command+-2.3.2.tar";
-          sha256 = "03hmk4gr9kjy3238n0ys9na00py035j9s0y8d87c45f5af6c6g2c";
+          url = "https://elpa.gnu.org/packages/shell-command+-2.4.1.tar";
+          sha256 = "1pbv5g58647gq83vn5pg8c6kjhvjn3lj0wggz3iz3695yvl8aw4i";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5492,16 +5492,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    zuul = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    zuul = callPackage ({ elpaBuild, emacs, fetchurl, lib, project }:
       elpaBuild {
         pname = "zuul";
         ename = "zuul";
-        version = "0.3";
+        version = "0.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/zuul-0.3.tar";
-          sha256 = "04jqxdl1g6zpd41gr4crjdbnyk6vzwv036qilbm1g7d3ipxb2wjz";
+          url = "https://elpa.gnu.org/packages/zuul-0.4.0.tar";
+          sha256 = "1bm91g001q3n5m9ihxc719siiiy23pkpfkhplwi9p1i4i9zrpx5g";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ emacs project ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/zuul.html";
           license = lib.licenses.free;
