@@ -1086,10 +1086,10 @@
       elpaBuild {
         pname = "detached";
         ename = "detached";
-        version = "0.7";
+        version = "0.8.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/detached-0.7.tar";
-          sha256 = "1a2w6cmzy7c861rih9k2qbnmizyybrs1kwqp6lbz3wfs2h0zisrw";
+          url = "https://elpa.gnu.org/packages/detached-0.8.0.tar";
+          sha256 = "1cppmhvv7bnjyn3kwxnvdhskdqqq000id70h2b82lymcbcr8v0m1";
         };
         packageRequires = [ emacs ];
         meta = {
