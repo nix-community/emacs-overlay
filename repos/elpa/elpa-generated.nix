@@ -966,10 +966,10 @@
       elpaBuild {
         pname = "cursory";
         ename = "cursory";
-        version = "0.2.1";
+        version = "0.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cursory-0.2.1.tar";
-          sha256 = "12q1icz1npan9fjn0sy2zfs3d0iz6b34hqsfggm187igq4zj3rrb";
+          url = "https://elpa.gnu.org/packages/cursory-0.3.0.tar";
+          sha256 = "1mgvdncqgf0ll2mn5zp47lvvbzrzgdga9dbbjwqaapzy6llfg51x";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1071,10 +1071,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "0.6.0";
+        version = "0.6.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-0.6.0.tar";
-          sha256 = "0ifcp1ckqch2ksfh7hbl1vmxspxackwwkcv0nll0xqrr3a9r3g0d";
+          url = "https://elpa.gnu.org/packages/denote-0.6.1.tar";
+          sha256 = "1yxfnwq2b32xrl52g61a9g3i53m94iybx0n8hh6nbmcv5x4y43ya";
         };
         packageRequires = [ emacs ];
         meta = {
