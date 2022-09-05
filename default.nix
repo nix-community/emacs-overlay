@@ -113,6 +113,7 @@ in
         withX = false;
         withGTK2 = false;
         withGTK3 = false;
+        withWebP = false;
       }
     ).overrideAttrs (
       oa: {
@@ -128,6 +129,7 @@ in
         withX = false;
         withGTK2 = false;
         withGTK3 = false;
+        withWebP = false;
       }
     ).overrideAttrs (
       oa: {
