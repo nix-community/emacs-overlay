@@ -75,13 +75,6 @@ let
         )
       ];
 
-  mkPgtkEmacs = namePrefix: jsonFile: { ... }@args: (mkGitEmacs namePrefix jsonFile args).overrideAttrs (
-    old: {
-      configureFlags = (super.lib.remove "--with-xft" old.configureFlags)
-        ++ super.lib.singleton "--with-pgtk";
-    }
-  );
-
   emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json { };
 
   emacsNativeComp = super.emacsNativeComp or (mkGitEmacs "emacs-native-comp" ./repos/emacs/emacs-unstable.json { nativeComp = true; });
@@ -90,9 +83,9 @@ let
     nativeComp = true;
   };
 
-  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-master.json { };
+  emacsPgtk = mkGitEmacs "emacs-pgtk" ./repos/emacs/emacs-master.json { withPgtk = true; };
 
-  emacsPgtkNativeComp = mkPgtkEmacs "emacs-pgtk-native-comp" ./repos/emacs/emacs-master.json { nativeComp = true; };
+  emacsPgtkNativeComp = mkGitEmacs "emacs-pgtk-native-comp" ./repos/emacs/emacs-master.json { nativeComp = true; withPgtk = true; };
 
   emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { });
 
