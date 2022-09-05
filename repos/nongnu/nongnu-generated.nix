@@ -139,10 +139,10 @@
       elpaBuild {
         pname = "autothemer";
         ename = "autothemer";
-        version = "0.2.11";
+        version = "0.2.12";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/autothemer-0.2.11.tar";
-          sha256 = "0j8yc508yyqj20wyjdr52202yfa9gp98s1gnrq4v9l05grzlkg0g";
+          url = "https://elpa.nongnu.org/nongnu/autothemer-0.2.12.tar";
+          sha256 = "058mrm755k15jhnbmahlxd51xdkydjqi7ya6acp64yl5xn4hp3bi";
         };
         packageRequires = [ dash emacs ];
         meta = {
