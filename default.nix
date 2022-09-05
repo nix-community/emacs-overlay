@@ -75,19 +75,20 @@ let
         )
       ];
 
-  emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json { };
+  emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json { nativeComp = false; };
 
+  # TODO: The default value of nativeComp was changed from false to true in June 2022. Remove "nativeComp = true;" when 22.11 is stable.
   emacsNativeComp = super.emacsNativeComp or (mkGitEmacs "emacs-native-comp" ./repos/emacs/emacs-unstable.json { nativeComp = true; });
 
   emacsGitNativeComp = mkGitEmacs "emacs-git-native-comp" ./repos/emacs/emacs-master.json {
     nativeComp = true;
   };
 
-  emacsPgtk = mkGitEmacs "emacs-pgtk" ./repos/emacs/emacs-master.json { withPgtk = true; };
+  emacsPgtk = mkGitEmacs "emacs-pgtk" ./repos/emacs/emacs-master.json { withPgtk = true; nativeComp = false; };
 
   emacsPgtkNativeComp = mkGitEmacs "emacs-pgtk-native-comp" ./repos/emacs/emacs-master.json { nativeComp = true; withPgtk = true; };
 
-  emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { });
+  emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { nativeComp = false; });
 
 in
 {
