@@ -788,6 +788,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    focus = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "focus";
+        ename = "focus";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/focus-1.0.0.tar";
+          sha256 = "0gicqiw7npcf18rfb99hm1s054m9l4izzcqzij2kpnc544aqgf9y";
+        };
+        packageRequires = [ cl-lib emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/focus.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     forth-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "forth-mode";
@@ -827,10 +842,10 @@
       elpaBuild {
         pname = "geiser";
         ename = "geiser";
-        version = "0.26";
+        version = "0.26.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-0.26.tar";
-          sha256 = "11gpigwxw0nan39a98aj3w34kimsprk44vyf6fa5x628k6nzmdsf";
+          url = "https://elpa.nongnu.org/nongnu/geiser-0.26.1.tar";
+          sha256 = "1fq68gvyyrplxw8i0yma4q0yqmrzp00v1v7izlc5r7h58wryy39a";
         };
         packageRequires = [ emacs project transient ];
         meta = {
@@ -917,10 +932,10 @@
       elpaBuild {
         pname = "geiser-guile";
         ename = "geiser-guile";
-        version = "0.23.2";
+        version = "0.26.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-guile-0.23.2.tar";
-          sha256 = "1z2khagg425y5cfja694zxrj3lyw3awsmqd86b2hpqhrylrb8jaa";
+          url = "https://elpa.nongnu.org/nongnu/geiser-guile-0.26.1.tar";
+          sha256 = "1ay7v2qsl0kr9zvf6j1sss3gxniwrqp8xgxhxf7nhlkmkgcfp1wk";
         };
         packageRequires = [ emacs geiser ];
         meta = {
