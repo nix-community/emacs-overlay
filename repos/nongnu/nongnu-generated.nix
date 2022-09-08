@@ -1954,10 +1954,10 @@
       elpaBuild {
         pname = "php-mode";
         ename = "php-mode";
-        version = "1.24.0";
+        version = "1.24.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/php-mode-1.24.0.tar";
-          sha256 = "158850zdmz5irjy6cjai1i8j7qs1vwp95a2dli9f341lbpv2jvzp";
+          url = "https://elpa.nongnu.org/nongnu/php-mode-1.24.1.tar";
+          sha256 = "0ixm7z2bq4aacbwyzx53alfnqwbdn36i5ixdi3qjhr8rh5k48vg1";
         };
         packageRequires = [ emacs ];
         meta = {
