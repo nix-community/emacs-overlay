@@ -2558,10 +2558,10 @@
       elpaBuild {
         pname = "lin";
         ename = "lin";
-        version = "0.4.0";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/lin-0.4.0.tar";
-          sha256 = "1fynn3fpf3c2yamlpp9j6rakgd21ivyvqrx0hmsgcyr115q5afm4";
+          url = "https://elpa.gnu.org/packages/lin-1.0.0.tar";
+          sha256 = "0b090g2l8mvm3b6k7s31v9lw48qjcvcif2p201wlqgipddm6s180";
         };
         packageRequires = [ emacs ];
         meta = {
