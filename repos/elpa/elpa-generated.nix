@@ -3293,6 +3293,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    org-contacts = callPackage ({ elpaBuild, emacs, fetchurl, lib, org }:
+      elpaBuild {
+        pname = "org-contacts";
+        ename = "org-contacts";
+        version = "1.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/org-contacts-1.1.tar";
+          sha256 = "1kzdw9kbnpryxdb9ywh2va4nnjcxw6asszf5n7a95rw2gl6m3l10";
+        };
+        packageRequires = [ emacs org ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-contacts.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     org-edna = callPackage ({ elpaBuild, emacs, fetchurl, lib, org, seq }:
       elpaBuild {
         pname = "org-edna";
