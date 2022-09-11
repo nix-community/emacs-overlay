@@ -2255,10 +2255,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.7.tar";
-          sha256 = "0cwfbg7bx4ni0xadba9v5jbkivz2slqwxcy7q8s3zipb4m578xbk";
+          url = "https://elpa.gnu.org/packages/inspector-0.8.tar";
+          sha256 = "0yrkm5bh2kczl5f642wx1xlnzry1xrw0yxhpm0hqwjrmgmbdb9m6";
         };
         packageRequires = [ emacs ];
         meta = {
