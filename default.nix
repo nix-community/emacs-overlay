@@ -92,9 +92,9 @@ let
     nativeComp = true;
   };
 
-  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-master.json { withSQLite3 = true; };
+  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-master.json { withSQLite3 = true; withGTK3 = true; };
 
-  emacsPgtkNativeComp = mkPgtkEmacs "emacs-pgtk-native-comp" ./repos/emacs/emacs-master.json { nativeComp = true; withSQLite3 = true; };
+  emacsPgtkNativeComp = mkPgtkEmacs "emacs-pgtk-native-comp" ./repos/emacs/emacs-master.json { nativeComp = true; withSQLite3 = true; withGTK3 = true; };
 
   emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { });
 
