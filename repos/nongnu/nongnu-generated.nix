@@ -2500,6 +2500,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    treeview = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "treeview";
+        ename = "treeview";
+        version = "1.1.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/treeview-1.1.0.tar";
+          sha256 = "0bklbbk2kgm8fjzshn05i5ijqg46kgls5864aavvcvxfbzrp2223";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/treeview.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     tuareg = callPackage ({ caml, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "tuareg";
