@@ -1401,10 +1401,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "0.4.2";
+        version = "0.5.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-0.4.2.tar";
-          sha256 = "0ik9kzdv5r1q7hw81nh3raiychpmwi61034y12pqvbq24njp0y72";
+          url = "https://elpa.gnu.org/packages/ef-themes-0.5.0.tar";
+          sha256 = "1k73q48vg7vyjmnvizinwn9if481ajq63ps2iwb01f1brrhmbf5v";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1563,10 +1563,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.1.2";
+        version = "0.1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.1.2.tar";
-          sha256 = "1n5k3rcgdq625b9fjhl53nl5zbis4dw0d00h4dk16m61nk98ra2l";
+          url = "https://elpa.gnu.org/packages/ement-0.1.3.tar";
+          sha256 = "1h4x2wg2c4jh4j0l4bzj9hjf7glhfrcbxixmnkv8z3mprxybzpc1";
         };
         packageRequires = [
           emacs
