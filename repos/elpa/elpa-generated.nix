@@ -3582,10 +3582,10 @@
       elpaBuild {
         pname = "persist";
         ename = "persist";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/persist-0.4.tar";
-          sha256 = "0gpxy41qawzss2526j9a7lys60vqma1lvamn4bfabwza7gfhac0q";
+          url = "https://elpa.gnu.org/packages/persist-0.5.tar";
+          sha256 = "090n4479zs82by7a3vb551gyjvv8lpfcylk43ywr2lfyssc9xiq0";
         };
         packageRequires = [];
         meta = {
