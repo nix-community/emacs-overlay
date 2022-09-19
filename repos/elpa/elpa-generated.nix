@@ -4213,10 +4213,10 @@
       elpaBuild {
         pname = "setup";
         ename = "setup";
-        version = "1.3.1";
+        version = "1.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/setup-1.3.1.tar";
-          sha256 = "0n9zjclf4b2sr8c8zd37fs45p25p3856frm419c9hch69hhcsv3a";
+          url = "https://elpa.gnu.org/packages/setup-1.3.2.tar";
+          sha256 = "1sr514w4mn0fbdawjb5p0fd6i6q2zi9737rbwcgakb1l9cqvb5qy";
         };
         packageRequires = [ emacs ];
         meta = {
