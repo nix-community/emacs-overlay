@@ -2680,10 +2680,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "0.5.0";
+        version = "0.5.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/logos-0.5.0.tar";
-          sha256 = "026nzkgkfs96m9qxpng7h0kqvhxfah883pv4i08fz0950lrsxynd";
+          url = "https://elpa.gnu.org/packages/logos-0.5.1.tar";
+          sha256 = "0154fxl20crl0ay064cbhgsjnj70nq5jz778hzjjy3mnkwzsmbh3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4652,10 +4652,10 @@
       elpaBuild {
         pname = "taxy";
         ename = "taxy";
-        version = "0.10";
+        version = "0.10.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/taxy-0.10.tar";
-          sha256 = "1jamry2p3qhswq8prd2g7ljh4yqk0wwblyd9fhnaclakahrn5vi3";
+          url = "https://elpa.gnu.org/packages/taxy-0.10.1.tar";
+          sha256 = "05czw8fkifb25rwl99dmncr1g0rjfx1bqijl7igqs9j6h9ia2xvg";
         };
         packageRequires = [ emacs ];
         meta = {
