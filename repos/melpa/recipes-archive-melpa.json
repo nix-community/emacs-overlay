@@ -16817,15 +16817,15 @@
   "repo": "jgru/consult-org-roam",
   "unstable": {
    "version": [
-    20220919,
-    657
+    20220921,
+    507
    ],
    "deps": [
     "consult",
     "org-roam"
    ],
-   "commit": "6e676a81b1cf769637fcd666a2423d70cfe9d8b1",
-   "sha256": "1x56hvqpgzhxg34drgf23da1dv2svi0myczn18pdpg2sbbz0vwdg"
+   "commit": "3eae47a4667a583e30703c1c5344e26225b5f676",
+   "sha256": "1p78nb940kyrlb3qpd2ll6zbvi1swdajc661ly9aq6kzmrvcia9r"
   }
  },
  {
@@ -19509,8 +19509,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20220918,
-    1145
+    20220921,
+    941
    ],
    "deps": [
     "bui",
@@ -19523,8 +19523,8 @@
     "posframe",
     "s"
    ],
-   "commit": "0f7692568a7374ae121f55e19b0806fb97530a6e",
-   "sha256": "18zycibc5plk6pg5mqdhx090gkqql4nwky90i3x190jjzyspydp5"
+   "commit": "442aef50dbc3cfb853bee6d919e98d2941973136",
+   "sha256": "1mzfj50zfc99p5pxyy779yzz5r6pvlnr8q217f2rihp676vajv8b"
   },
   "stable": {
    "version": [
@@ -19874,11 +19874,11 @@
   "repo": "emacs-dashboard/emacs-dashboard",
   "unstable": {
    "version": [
-    20220916,
-    306
+    20220921,
+    632
    ],
-   "commit": "5514796ed9cf3ea527d8ddcdeed69d52b6627bf1",
-   "sha256": "0b58g86fk6lvdvwl9zbgzl2jvs41q93pd04vbgzim3xvr2b8xa4m"
+   "commit": "3a7205f4bc55b304421aea8d36366159c0f05fe5",
+   "sha256": "1zbiihmzwrwb0dv8jvwlaskq3yac0mk4c232fawdavlsqhwq3n7i"
   },
   "stable": {
    "version": [
@@ -22619,13 +22619,13 @@
   "unstable": {
    "version": [
     20220921,
-    47
+    833
    ],
    "deps": [
     "transient"
    ],
-   "commit": "ae74476e6734d75e3f53b07a3554306d3fd6eef0",
-   "sha256": "1q5vihgmy9v15jww32r3xr876vargr1mz5igp87pclbgsydhjyyb"
+   "commit": "bc6341a6ab84b0f49b6d4bddec8cef7885686c41",
+   "sha256": "1ab034bk0p96pvqaa4qws7kj0c0z69b2pf5kb4qgjwqxxlcz0pz8"
   },
   "stable": {
    "version": [
@@ -23716,15 +23716,15 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20220920,
-    1807
+    20220921,
+    356
    ],
    "deps": [
     "compat",
     "shrink-path"
    ],
-   "commit": "0310e74a92d96c689ed890021a906d56b01a153d",
-   "sha256": "06lfcnv5rbvcwzcdw9iwlz9kgqhgx3m2rhhmq1bhpz035wnfm0ch"
+   "commit": "43a7f64053e946204b4c5c8ddf6b2ec4907ea03f",
+   "sha256": "02ny489vgsh2nb4nhd3r647cgfw4x2f3wdlbdc88slpkfl3ja6pp"
   },
   "stable": {
    "version": [
@@ -30609,11 +30609,7 @@
     1844
    ],
    "commit": "7e702ac4b321c4870bdbbfc4c24ac3a5d5d572b5",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: failed to extract archive (Write failed)\n"
-   ]
+   "sha256": "11brsimchkqbgdqcfhdkprx7nfm05paxrjb5bgh8h24izp3v7jzl"
   },
   "stable": {
    "version": [
@@ -41418,11 +41414,11 @@
   "repo": "usaoc/elisp-for",
   "unstable": {
    "version": [
-    20220920,
-    310
+    20220921,
+    1022
    ],
-   "commit": "6d41f5d631d01509d95a1866b81c93b2a380ed08",
-   "sha256": "0ihpk8rqqd8ln6zq4h6jcj0sfdbb4lm1a09x0ip2n07gk983ad1m"
+   "commit": "7a9b33880dcd666a9e7047db661ea42c3c8bbce4",
+   "sha256": "0ldmxinyqssyd89ksf0aqnw41q48gwwq6w5cvz6fwh02kw2s0c90"
   },
   "stable": {
    "version": [
@@ -45174,14 +45170,14 @@
   "repo": "TxGVNN/gitlab-pipeline",
   "unstable": {
    "version": [
-    20220619,
-    1215
+    20220921,
+    1044
    ],
    "deps": [
     "ghub"
    ],
-   "commit": "595e699aeab6c28582f309a047c42a0498873a8e",
-   "sha256": "118njld8c7d0szq2z36drbkm03f27kjiwcw67595ndnnpa7h59mi"
+   "commit": "8cc070c156d6e45583074ef4eb110b8d1511b0c4",
+   "sha256": "19j6x3hz5fgpgslhiiks5nwv9swj88sf2g290s0254mxyk5ffcn8"
   },
   "stable": {
    "version": [
@@ -49186,15 +49182,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20220920,
-    1000
+    20220921,
+    610
    ],
    "deps": [
     "helm-core",
     "popup"
    ],
-   "commit": "d0468a61288506a8e1066bf0bf62fad6c9794f8e",
-   "sha256": "1rxv6wrpqac2iq0zyv40xjrwq5mgjxckrwazmba9x1q123lksjk1"
+   "commit": "92f10d12e779433cc9cfae938be12552bc101c10",
+   "sha256": "09lhlx453a5jp51q53bn5c5rrhd4j0awrz4nzlkxfqzl94wx6mps"
   },
   "stable": {
    "version": [
@@ -64128,11 +64124,7 @@
     "cl-lib"
    ],
    "commit": "38f5d294870678efc6ccf94ce6e8175a58f93025",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: writing to file: No space left on device\n"
-   ]
+   "sha256": "0jm3ybi353kjffvgy489b5x1yd8vi2vxdmn32z4c42zrnmg5a6lv"
   }
  },
  {
@@ -70966,11 +70958,7 @@
     "merlin"
    ],
    "commit": "aa9a385e7b610b855911c4e544371725dd83511e",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: failed to extract archive (Write failed)\n"
-   ]
+   "sha256": "159hsnjdkjhldn19vw43fnv2yzfb17yg3p8x41vs8wq3rw6msc7j"
   },
   "stable": {
    "version": [
@@ -71302,11 +71290,7 @@
     2119
    ],
    "commit": "a87e5d665838478dc03416f078e7d6f2100604ea",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: failed to extract archive (Write failed)\n"
-   ]
+   "sha256": "1zfkny44mvwdlgh0dx0kb7wrlcazfhasbm19yp604adn0nvi9vvm"
   },
   "stable": {
    "version": [
@@ -71315,11 +71299,7 @@
     15
    ],
    "commit": "a87e5d665838478dc03416f078e7d6f2100604ea",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: failed to extract archive (Write failed)\n"
-   ]
+   "sha256": "1zfkny44mvwdlgh0dx0kb7wrlcazfhasbm19yp604adn0nvi9vvm"
   }
  },
  {
@@ -71998,11 +71978,7 @@
     1015
    ],
    "commit": "3d5dbc0ef01c4f6b3732f067e9ebc2d7be74a49e",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: failed to extract archive (Write failed)\n"
-   ]
+   "sha256": "1530cf0wd04vxqx6kxxpgf0267342s1rcqkc7i6l6qplvnxwxm1w"
   }
  },
  {
@@ -72669,11 +72645,7 @@
     "scrollable-quick-peek"
    ],
    "commit": "e72472d3c490c8e3ffc5ca7bf8e535e15bd867a7",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: writing to file: No space left on device\n"
-   ]
+   "sha256": "0xzj9jqnzyzkbjfj2rfg4fzaprprqzy3xqnacfnmavr2l68vigih"
   },
   "stable": {
    "version": [
@@ -75181,11 +75153,7 @@
     2023
    ],
    "commit": "8818c5af5598e16ea59189e1e3245f0a3d7c78f0",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: failed to extract archive (Write failed)\n"
-   ]
+   "sha256": "1ky63jyxdz1m6fcz3phi87mwc0ha6bn2fpg4lcdzp0w8cp8rc8ad"
   },
   "stable": {
    "version": [
@@ -75672,11 +75640,11 @@
   "repo": "m-cat/nimbus-theme",
   "unstable": {
    "version": [
-    20220610,
-    207
+    20220921,
+    39
    ],
-   "commit": "5beeda54ece58c8eb91ffcf2b365c832c9b454aa",
-   "sha256": "1wqzfflmk9sw2pwl5jvxv05a0jx2f68ndsy2373xrrfm8kbm2imi"
+   "commit": "dec616ff694e94a3671a48d1b31eb0cce5f0276b",
+   "sha256": "01xgmda0a6yz192rqpa60picinmhf0ydvc3i11rwbj60g2xfymax"
   },
   "stable": {
    "version": [
@@ -82721,11 +82689,7 @@
     "org"
    ],
    "commit": "d95d25615e69e7cc847641800c1886366336c97e",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: writing to file: No space left on device\n"
-   ]
+   "sha256": "0k9wfmjpkzbzsqd4npn8vxs0xch42glnmmh28a55rzkyc2bh8n1r"
   },
   "stable": {
    "version": [
@@ -84222,11 +84186,7 @@
     "s"
    ],
    "commit": "5965228882c6b72a9e38ad61a047e599c8488d20",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: failed to extract archive (Write failed)\n"
-   ]
+   "sha256": "0s8lf5ffrrhznbcc4blirch20y775856ffblhm9phinwss6ky1n6"
   },
   "stable": {
    "version": [
@@ -85795,11 +85755,7 @@
     "org-msg"
    ],
    "commit": "029fac8d4c83cc8841ade0dfebc8b7d7508efbb2",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: writing to file: No space left on device\n"
-   ]
+   "sha256": "06b9mvg192jshhngxdb1zjgmircrsf82hzmzsrpazcbrim6dqq6l"
   },
   "stable": {
    "version": [
@@ -88360,25 +88316,25 @@
   "repo": "nex3/perspective-el",
   "unstable": {
    "version": [
-    20220908,
-    1514
+    20220921,
+    346
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "4cb9be75a41b66ec91d95464f1eed34cb1ea3b0a",
-   "sha256": "1mrx0dk2p18wizx39x4x9vv0i7dgm5lgcj4ic11m2mv27imjb851"
+   "commit": "8a69512639ae915c32c5055d1308ebf4b278266c",
+   "sha256": "1r026cw6p2ss5wg8mxgzf6iv1lb9pdnqyf6yrqb914aibkrvp9b6"
   },
   "stable": {
    "version": [
     2,
-    17
+    18
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "53348cea0f46655c4c072da5984f6a652726df4f",
-   "sha256": "1nmz39pcaa969g1966ykblzrz6lr3ddb0ip465y5in1fj498as6y"
+   "commit": "8a69512639ae915c32c5055d1308ebf4b278266c",
+   "sha256": "1r026cw6p2ss5wg8mxgzf6iv1lb9pdnqyf6yrqb914aibkrvp9b6"
   }
  },
  {
@@ -89349,11 +89305,7 @@
     1257
    ],
    "commit": "c04309be9fb73012b4c5c839741b1abcfe0b8aa9",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: failed to extract archive (Write failed)\n"
-   ]
+   "sha256": "1hahd9w5pww3nx1xvbci4pscpbzb0k5xv3yff896jg66di36fvwg"
   },
   "stable": {
    "version": [
@@ -89720,11 +89672,7 @@
     1441
    ],
    "commit": "4c1050b8ed42e0f99ef64c77ec370a786bd0003c",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: writing to file: No space left on device\n"
-   ]
+   "sha256": "1l2bgdip617zkd9470rja1qyijpc896dvmc6dgclvaz1ajgjwa9j"
   }
  },
  {
@@ -89802,11 +89750,7 @@
     2050
    ],
    "commit": "11eb23920410818fe444887b97ad4c8722d66c85",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: failed to extract archive (Write failed)\n"
-   ]
+   "sha256": "0lqz8m8a2ahvgm0i9cz0j4bisi34czc4s29z70p5p6rdg4g21fk1"
   }
  },
  {
@@ -92915,11 +92859,7 @@
     1716
    ],
    "commit": "5f632bef3827a1d95d95bce92c5a3a1f903b6679",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: failed to extract archive (Write failed)\n"
-   ]
+   "sha256": "1y86rqs7zzzyakc565zgknx9ykfb02yjb9pdzqybp2f7zla50wln"
   },
   "stable": {
    "version": [
@@ -92927,11 +92867,7 @@
     6
    ],
    "commit": "24487dd1045c7f3d64a21f38a3f0c06cc4cf2edb",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: failed to extract archive (Write failed)\n"
-   ]
+   "sha256": "0qr1158s97p7xdhjpbmd7ylqdzr2r3n5gn6xl4h948fyxzc9vsg8"
   }
  },
  {
@@ -94048,11 +93984,7 @@
     3
    ],
    "commit": "403dac602ee01e317a22800e0d63bdeb0c2faa7e",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "error: failed to extract archive (Write failed)\n"
-   ]
+   "sha256": "179mijqrrla2sfflmk9v7bl3xc21wpnflksvhn3qj8l2yr5p3xwc"
   }
  },
  {
@@ -94390,11 +94322,11 @@
   "repo": "python-mode-devs/python-mode",
   "unstable": {
    "version": [
-    20220907,
-    1017
+    20220921,
+    701
    ],
-   "commit": "b19009fd9bb411882f8c733125d0232b3e228d93",
-   "sha256": "0fvvrdlypw4wdx420vrdxf3yxhl867c30q7csg9r2bpsdbzf71wa"
+   "commit": "532bdd0a02986dc66f13acc0448a5369b9f60f7e",
+   "sha256": "05lwiv0lnpb4h1k3ph0mjpy3kyi0zhb1bg02b6n72rd5s6rvrifc"
   },
   "stable": {
    "version": [
@@ -101939,11 +101871,11 @@
   "repo": "ideasman42/emacs-sidecar-locals",
   "unstable": {
    "version": [
-    20220917,
-    417
+    20220921,
+    501
    ],
-   "commit": "ce8c9340916d768dd2ceedf85beccefba2d3c6b9",
-   "sha256": "101wc83cw0774xbr7d5n8yl2qsfyk56gas4qk16s9jmk17x6bfwm"
+   "commit": "4175fe207de8530474c4ec368d4507ddf97dc412",
+   "sha256": "04abaql2l8y8na0rcl8hhpc7bjyiv2bylvvikcpzazdj75zgjcni"
   }
  },
  {
@@ -111228,20 +111160,20 @@
   "repo": "jcs-elpa/transwin",
   "unstable": {
    "version": [
-    20220704,
-    640
+    20220921,
+    514
    ],
-   "commit": "209b410f406ab4db5bb357d8f5b305982d3dea4b",
-   "sha256": "053x782qwrr0f00l3335sjc2hk2475lxps4lbnafzk3gavgcp4x6"
+   "commit": "443240e9fdbdb43d0590eee7706d58089db9815e",
+   "sha256": "1s0kydpvgkfz2l6bryadnahravm1y9dwg5v9f61xdv9jq74sa5s1"
   },
   "stable": {
    "version": [
     0,
     1,
-    3
+    4
    ],
-   "commit": "20694aae145edd6ad496a395ef1a53ab37a59521",
-   "sha256": "01afsgkzn5y4ld5m1gmvai8pgdy73kmllivmz18a2q9fdrgaa6xb"
+   "commit": "ed0156a98b6fce94da9045bdffe369f390b70c0c",
+   "sha256": "13q9mm76pp2h3jhp5kyc3gynzzzzaiczhkc1lvwq1zmrca9bavr2"
   }
  },
  {
@@ -115057,11 +114989,11 @@
   "repo": "thanhvg/emacs-virtual-comment",
   "unstable": {
    "version": [
-    20220916,
-    2155
+    20220921,
+    221
    ],
-   "commit": "d6b9f469fb7b98c68b05e55e0dd573328238472f",
-   "sha256": "14hwq8pzkd0zzjmgav34lbhzvrsxahdjib3g7721h1fcrm618lqc"
+   "commit": "b0c2ac4a9d625b5f4f329bbab879ad86cd7056bd",
+   "sha256": "052djdwlg2bx0smy4xbcniqb48q0nwfbigf98s2330ngpjk7112a"
   }
  },
  {
@@ -119508,11 +119440,11 @@
   "url": "https://www.yatex.org/hgrepos/yatex",
   "unstable": {
    "version": [
-    20211203,
-    2212
+    20220921,
+    208
    ],
-   "commit": "907de32064c99c25fb49072438be7c1034892af3",
-   "sha256": "1anb8cwh2ph0nxxmsbi0kjkljxdsprdp4q2akqgb1xjpnlyf5g5j"
+   "commit": "91a6b97d01fadad960aece159b86fd8861fcd1cd",
+   "sha256": "0bxp15bc6wjsqr7bgff111kl5lbcdd2hrd35lnwbnkm57hxd7zln"
   },
   "stable": {
    "version": [
