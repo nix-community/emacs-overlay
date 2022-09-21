@@ -199,10 +199,10 @@
       elpaBuild {
         pname = "boxquote";
         ename = "boxquote";
-        version = "2.2";
+        version = "2.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/boxquote-2.2.tar";
-          sha256 = "0vcqm78b5fsizkn2xalnzmdci5m02yxxypcr9q2sai04j7lhmwd9";
+          url = "https://elpa.nongnu.org/nongnu/boxquote-2.3.tar";
+          sha256 = "1d072qls4ywl71wi29khlq4w6yw9idp55vf811nvbmiihn6lwmiv";
         };
         packageRequires = [ cl-lib ];
         meta = {
@@ -2348,10 +2348,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.0.9";
+        version = "1.0.10";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.0.9.tar";
-          sha256 = "192m7pg8hiqx7ppr1sk6n5qjcbz78dmcg6m14syq12ll07zfpcm0";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.0.10.tar";
+          sha256 = "08vw9sv2g76yj8sfnx53dd28zkj4s0842i7qi92jam993v9s8h0z";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2737,10 +2737,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "18.0.20220916203045";
+        version = "18.0.20220918232928";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-18.0.20220916203045.tar";
-          sha256 = "1d6ja0pdsjisxq222dmyfkxryxjl9p101qriwziihshz87ghh122";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-18.0.20220918232928.tar";
+          sha256 = "1wm58knia5br50m92swqrbm1223y87zmz40vqm9ar6mj1bc82416";
         };
         packageRequires = [ emacs ];
         meta = {
