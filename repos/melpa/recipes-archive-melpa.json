@@ -2909,8 +2909,8 @@
   "repo": "pythonic-emacs/anaconda-mode",
   "unstable": {
    "version": [
-    20220717,
-    1956
+    20220922,
+    741
    ],
    "deps": [
     "dash",
@@ -2918,8 +2918,8 @@
     "pythonic",
     "s"
    ],
-   "commit": "160e4e7185881233d96da6722332bd6d038187a9",
-   "sha256": "0rk540wrpgkibrjzjr0dbaw6l0gaiq5szqld2xj9y8q020ixrgr4"
+   "commit": "ca8edbaa7662d97e4a4416ec9a8d743863303911",
+   "sha256": "1vlqrpxsy0xydm29vl39blwp7y82x9cr4mmaj8mji3hgjyfwph9m"
   },
   "stable": {
    "version": [
@@ -19874,11 +19874,11 @@
   "repo": "emacs-dashboard/emacs-dashboard",
   "unstable": {
    "version": [
-    20220921,
-    632
+    20220922,
+    509
    ],
-   "commit": "3a7205f4bc55b304421aea8d36366159c0f05fe5",
-   "sha256": "1zbiihmzwrwb0dv8jvwlaskq3yac0mk4c232fawdavlsqhwq3n7i"
+   "commit": "554dc6fac1362dd6b66318c8250eea8bd63aa92f",
+   "sha256": "00jbjryi6m6ah7ylf1w965n4zndm5l54jkfkhjd2y3vxyr706hr8"
   },
   "stable": {
    "version": [
@@ -22618,14 +22618,14 @@
   "repo": "alexluigit/dirvish",
   "unstable": {
    "version": [
-    20220921,
-    1128
+    20220922,
+    720
    ],
    "deps": [
     "transient"
    ],
-   "commit": "c8df2d07456352edce8b23da227a1ca6b781daea",
-   "sha256": "093fg7k31scvyfmq457f04fqs7pp3afc1lwf012sn7psbczwm3k0"
+   "commit": "5d9d30f8b787c32f0dd13bf3a308d933659be070",
+   "sha256": "0jllfxqqhdjpqcj8qiqj9p4l7l2m6wsvigh1rfir29ybczqll0vz"
   },
   "stable": {
    "version": [
@@ -44264,11 +44264,11 @@
   "repo": "emacsorphanage/git-gutter",
   "unstable": {
    "version": [
-    20220423,
-    1704
+    20220922,
+    256
    ],
-   "commit": "a50672b62a678922b8c0cab95225d520f493439b",
-   "sha256": "0xywglck2z06vgwf7m7a87plcrxca06pgd4y0iq8asbl046akj0g"
+   "commit": "ec28e85d237065cb3c28db4b66d129da6d309f9c",
+   "sha256": "1fx3jp65ibcsv8akd8g4k701cs8yq0sg1bd2qszzfh6lvc4pblmi"
   },
   "stable": {
    "version": [
@@ -44430,11 +44430,15 @@
   "repo": "pidu/git-lens",
   "unstable": {
    "version": [
-    20220623,
-    722
+    20220922,
+    710
    ],
-   "commit": "8beec55b2c43bdf64172fb2539de97f1dd39a6d0",
-   "sha256": "09qjan39g91igynzjj5pivdbcvaz5vc3bcr5xch0kyzjhnlh9smf"
+   "commit": "347832fbdb75a0930aa3eef628ec0069a335f3b7",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "warning: error: unable to download 'https://codeberg.org/pidu/git-lens/archive/347832fbdb75a0930aa3eef628ec0069a335f3b7.tar.gz': Timeout was reached (28); retrying in 342 ms\nwarning: error: unable to download 'https://codeberg.org/pidu/git-lens/archive/347832fbdb75a0930aa3eef628ec0069a335f3b7.tar.gz': Timeout was reached (28); retrying in 591 ms\nwarning: error: unable to download 'https://codeberg.org/pidu/git-lens/archive/347832fbdb75a0930aa3eef628ec0069a335f3b7.tar.gz': Timeout was reached (28); retrying in 1388 ms\nwarning: error: unable to download 'https://codeberg.org/pidu/git-lens/archive/347832fbdb75a0930aa3eef628ec0069a335f3b7.tar.gz': Timeout was reached (28); retrying in 2259 ms\nerror: unable to download 'https://codeberg.org/pidu/git-lens/archive/347832fbdb75a0930aa3eef628ec0069a335f3b7.tar.gz': Timeout was reached (28)\n"
+   ]
   },
   "stable": {
    "version": [
@@ -94330,11 +94334,11 @@
   "repo": "python-mode-devs/python-mode",
   "unstable": {
    "version": [
-    20220921,
-    701
+    20220922,
+    814
    ],
-   "commit": "532bdd0a02986dc66f13acc0448a5369b9f60f7e",
-   "sha256": "05lwiv0lnpb4h1k3ph0mjpy3kyi0zhb1bg02b6n72rd5s6rvrifc"
+   "commit": "1799058ed7ee9b51f2ba819d98d5e6e59e196cda",
+   "sha256": "002qxgszj05qr8q97nb439ack3hrn9fxjj9aimbcdfn48fxn9s0q"
   },
   "stable": {
    "version": [
@@ -101894,11 +101898,11 @@
   "repo": "emacs-sideline/sideline",
   "unstable": {
    "version": [
-    20220911,
-    1609
+    20220922,
+    508
    ],
-   "commit": "48714f3503d16469dac325dbc909a4a9a3e4a804",
-   "sha256": "0577rn5zj811ky3n33n831ws7cpcqzimf8h8l51y6rq7q8xa6j53"
+   "commit": "0bfdb6274cda0c19424c78804086ed93df96b4bb",
+   "sha256": "0qmva8bhanlrm3s46kmamx4zcais1hxm26gjq4d3q2z598bq46a5"
   },
   "stable": {
    "version": [
@@ -104436,26 +104440,26 @@
   "repo": "emacsfodder/emacs-soothe-theme",
   "unstable": {
    "version": [
-    20220913,
-    33
+    20220922,
+    349
    ],
    "deps": [
     "autothemer"
    ],
-   "commit": "b3452a86befe2754f282f75efb60adb4bc5d364e",
-   "sha256": "1y43fh7zwbr743nmnisqqwzbhi1mj5vcc0qrjg7zr1glm344vcd4"
+   "commit": "d8aee0fca549d535ebb7b5fd1a8017f12925d16b",
+   "sha256": "1bcwm07j0w8876vlzfpyh789n00w5dafx42zdbl612dpf6awika4"
   },
   "stable": {
    "version": [
     2,
     1,
-    6
+    8
    ],
    "deps": [
     "autothemer"
    ],
-   "commit": "a9e6e47cb90182f75a748fffab87c974f76489fc",
-   "sha256": "121z0n96kvb013d4p47av69kzxwszsam4fc0dlsy5sf2gahnkd4g"
+   "commit": "d8aee0fca549d535ebb7b5fd1a8017f12925d16b",
+   "sha256": "1bcwm07j0w8876vlzfpyh789n00w5dafx42zdbl612dpf6awika4"
   }
  },
  {
