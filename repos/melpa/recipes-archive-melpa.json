@@ -6438,13 +6438,13 @@
    "version": [
     0,
     4,
-    5
+    6
    ],
    "deps": [
     "seq"
    ],
-   "commit": "fae4bc22d075765d9c945c4d53532c9a885829b6",
-   "sha256": "1fya7ah57ni7jwqbs6vmk3b20w20pxrs8k80a5lk6r5nnlc5n46z"
+   "commit": "a3c305577c2e8d53b78f0255161f3568e9d0bb89",
+   "sha256": "0nwzqj3m0nx403kx4qmc7slg9n5x0xyld43rxr95hwv204gwvh6y"
   }
  },
  {
@@ -20911,20 +20911,20 @@
   "repo": "niklaseklund/detached.el",
   "unstable": {
    "version": [
-    20220920,
-    1610
+    20220922,
+    1355
    ],
-   "commit": "c80f56061514a5e480592527a1ccec699b522ae7",
-   "sha256": "07glqpgcc8w2s2baw9nmx47f172f766sxcf8kwjs8j9yihm6s5iq"
+   "commit": "07d196af4480d58b067552fd1ead6b6f0607dc9c",
+   "sha256": "1a1b9kcnzxr5jwilzahpq6m86b1yax4l32jjz2zqf7i0hqvpkabw"
   },
   "stable": {
    "version": [
     0,
     9,
-    0
+    1
    ],
-   "commit": "21a8cb01bb6714dcab99c49fc6a92c31540358fa",
-   "sha256": "1cgmxz7n3x2hfvz7a3ss47yz4b8f5fjfpkxvf2n49sanrc4gjm1a"
+   "commit": "b7d4375e25a47fd4b2da4835f306262d9766e3e5",
+   "sha256": "0v7g23jmxh2z1v484pzmcavcsxkd5qydfj6075a8abx3kv7n6nj4"
   }
  },
  {
@@ -35832,11 +35832,11 @@
   "repo": "davidshepherd7/fill-function-arguments",
   "unstable": {
    "version": [
-    20201223,
-    819
+    20210617,
+    1538
    ],
-   "commit": "124cde3c17e31f6e3992d38f86f13f6d18711943",
-   "sha256": "1c4vwbak2m47gw68pl9hppjrni53p5d90ljpkyvj3rdxvgnmkx9j"
+   "commit": "60a5a3c3004cffa111202b42217d604f63d72e70",
+   "sha256": "0z2a1h3lrkywlgccd66gi076bj1l52szp2bl337hrvdrla2hb3lx"
   },
   "stable": {
    "version": [
@@ -44434,11 +44434,7 @@
     710
    ],
    "commit": "347832fbdb75a0930aa3eef628ec0069a335f3b7",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "warning: error: unable to download 'https://codeberg.org/pidu/git-lens/archive/347832fbdb75a0930aa3eef628ec0069a335f3b7.tar.gz': Timeout was reached (28); retrying in 342 ms\nwarning: error: unable to download 'https://codeberg.org/pidu/git-lens/archive/347832fbdb75a0930aa3eef628ec0069a335f3b7.tar.gz': Timeout was reached (28); retrying in 591 ms\nwarning: error: unable to download 'https://codeberg.org/pidu/git-lens/archive/347832fbdb75a0930aa3eef628ec0069a335f3b7.tar.gz': Timeout was reached (28); retrying in 1388 ms\nwarning: error: unable to download 'https://codeberg.org/pidu/git-lens/archive/347832fbdb75a0930aa3eef628ec0069a335f3b7.tar.gz': Timeout was reached (28); retrying in 2259 ms\nerror: unable to download 'https://codeberg.org/pidu/git-lens/archive/347832fbdb75a0930aa3eef628ec0069a335f3b7.tar.gz': Timeout was reached (28)\n"
-   ]
+   "sha256": "0w71dm08hzr37jmjcwdv0yfm0lrakaa9rys79d8m5sllm567q8yx"
   },
   "stable": {
    "version": [
@@ -65046,11 +65042,11 @@
   "repo": "fniessen/emacs-leuven-theme",
   "unstable": {
    "version": [
-    20220203,
-    947
+    20220922,
+    1545
    ],
-   "commit": "d7dd9188a65e2ab7cf73c2e575a830baae38cb0c",
-   "sha256": "0wvx4wcn845v1fh5jlljlh7l28nwycpivaay7flqb52zz47xj116"
+   "commit": "1dbd4bda6045080d5a293d56e686af5b4f7fdd9d",
+   "sha256": "112vd01kd8gr2ybw9x83qcaf283z05cdazz3b7k20jlck633qxi8"
   },
   "stable": {
    "version": [
@@ -67516,8 +67512,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20220919,
-    2358
+    20220922,
+    1035
    ],
    "deps": [
     "dash",
@@ -67527,8 +67523,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "03a3ecb263f81442ed7df3ede91ab405539b4fc5",
-   "sha256": "09v6dyh0miw4slj5qpn51pzwmy3r2i1y2h6r885w5yxr3gdclj9g"
+   "commit": "e64f604ea405fc26f756fa960f6ac3ad473bd7f9",
+   "sha256": "1sr7zkwsdwmnkfgipj5qanw2iw5dng3c6q750k6nykhhd2d5wkcr"
   },
   "stable": {
    "version": [
@@ -69779,11 +69775,11 @@
   "repo": "minad/marginalia",
   "unstable": {
    "version": [
-    20220917,
-    807
+    20220922,
+    1059
    ],
-   "commit": "7f5bf7818b8c5a88cc3e7011d561655b287570e3",
-   "sha256": "155fdr5y52rm355r4nwfqqbvkg1lmmvvp0gbs0ji9i2bjcd6bi04"
+   "commit": "ddba3a384916d83b68527379bbdf01161201853e",
+   "sha256": "1df0bq51sfr5gqnsjzdvlqmylq1q8ns4msgws8bvzhjsaxmffsm7"
   },
   "stable": {
    "version": [
@@ -70229,15 +70225,15 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20220920,
-    1255
+    20220922,
+    940
    ],
    "deps": [
     "persist",
     "request"
    ],
-   "commit": "c917a2d0e85167dc82db14975d2d3960114d4279",
-   "sha256": "19690ylk06g3rk2sqqpjk4hkb6p6vnm3wih795whqq4qbz2xf6bv"
+   "commit": "6b88c28779bd64aaf56c9d1e0c5fced77a506c0a",
+   "sha256": "1vr0bj52p7mkg354rpcz6zqpb0fjyai1q2cqpsrp005qr6j177si"
   },
   "stable": {
    "version": [
@@ -70491,19 +70487,19 @@
   "unstable": {
    "version": [
     20220921,
-    1844
+    1904
    ],
-   "commit": "a578d302ae1d22cbecfc505107fc78906643b804",
-   "sha256": "0vrlv02ay3bw7ad7cnl3h6rds2i6ychgdvsif3ddbyf2vsb6pjfg"
+   "commit": "74fd873981b0fdc35518e4cfdd52527b6f95cdf5",
+   "sha256": "1ha890bvbcc2b4nvx35idsi3q244d30jg8vkzvwcw26ic5sjr03r"
   },
   "stable": {
    "version": [
     0,
-    9,
+    10,
     0
    ],
-   "commit": "ca0a3878763180fe2d775feae88b87d21dd8dcb8",
-   "sha256": "101fynqcw8hnhrgkxb3wdh9a2iqp35q1rh7hijnzz5xpxds2sj96"
+   "commit": "74fd873981b0fdc35518e4cfdd52527b6f95cdf5",
+   "sha256": "1ha890bvbcc2b4nvx35idsi3q244d30jg8vkzvwcw26ic5sjr03r"
   }
  },
  {
@@ -70869,31 +70865,29 @@
   "repo": "skangas/mentor",
   "unstable": {
    "version": [
-    20220729,
-    1756
+    20220922,
+    1342
    ],
    "deps": [
     "async",
     "seq",
     "xml-rpc"
    ],
-   "commit": "a820c8492392d2e3480845af4f6573c942996de8",
-   "sha256": "1b3mskakbgb65pf576fxryc92h4ycc85ck371kzm2my9vj6pdh21"
+   "commit": "969459eeee86c995f73f9f2026255b3b734c4665",
+   "sha256": "0rq6ff046h48x590yd33fl5bf5mwwajiq0d4ishmq0say7kkns35"
   },
   "stable": {
    "version": [
     0,
-    3,
-    5
+    4
    ],
    "deps": [
     "async",
-    "cl-lib",
     "seq",
     "xml-rpc"
    ],
-   "commit": "ebc43db934fab4345ef63c1c0f7113b9293d0646",
-   "sha256": "1aa5z0gbk09m8ccfcylick5biakyid7sw0ghakgnmq6bak0akj0h"
+   "commit": "4ce024e17bf8ae079b2cd67af475b3e636c82be1",
+   "sha256": "0bs5zlf8f5pil0z5bcq1p5vxrhlnlki1khfsmif56msxhsf0m6wc"
   }
  },
  {
@@ -94335,10 +94329,10 @@
   "unstable": {
    "version": [
     20220922,
-    814
+    1149
    ],
-   "commit": "1799058ed7ee9b51f2ba819d98d5e6e59e196cda",
-   "sha256": "002qxgszj05qr8q97nb439ack3hrn9fxjj9aimbcdfn48fxn9s0q"
+   "commit": "7cf62b573db2b698413cdfe3f78c3e5ad7d62738",
+   "sha256": "0src4xn05c8k1sjcz5g79gz8as82ldj33r6qpzfp0i58sgnyhlf7"
   },
   "stable": {
    "version": [
@@ -97432,14 +97426,14 @@
   "repo": "a13/reverse-im.el",
   "unstable": {
    "version": [
-    20220309,
-    1919
+    20220922,
+    1650
    ],
    "deps": [
     "seq"
    ],
-   "commit": "65e64ffa9f5358ebbe88cc84e8486987eda70c2d",
-   "sha256": "0ihcgwdwz0gvc4i42hw8gam5jfns5sh2096pp2qcw5l07l8q8278"
+   "commit": "40e841b9d5b72ac0872de4e3f08406cb80236706",
+   "sha256": "07msas5vwhvdccxr7scnvvlbr5478d1s6h9c6xkhl8ylml61gv44"
   },
   "stable": {
    "version": [
@@ -110139,11 +110133,11 @@
   "repo": "aimebertrand/timu-spacegrey-theme",
   "unstable": {
    "version": [
-    20220828,
-    1639
+    20220922,
+    1439
    ],
-   "commit": "0fe44da805fa52267bb637b60b87d712b1378940",
-   "sha256": "0gfcwwp75md17w29ksi1hwbqxg2m5cgg9dif192alka34wfz0m17"
+   "commit": "80d227124e4bb6f8fbf613187fda77b7a16be9df",
+   "sha256": "0zc7imlrl367zhdr2hfygk8fj2zfj7p46i9593jqbhjq7w5hpha5"
   },
   "stable": {
    "version": [
