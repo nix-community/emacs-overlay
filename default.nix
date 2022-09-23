@@ -40,7 +40,7 @@ let
       super.emacs
       [
 
-        (drv: drv.override ({ srcRepo = true; withSQLite3 = true; withWebP = true; } // args))
+        (drv: drv.override ({ srcRepo = true; } // args))
 
         (
           drv: drv.overrideAttrs (
@@ -75,17 +75,26 @@ let
         )
       ];
 
-  emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json { };
+  mkPgtkEmacs = namePrefix: jsonFile: { ... }@args: (mkGitEmacs namePrefix jsonFile args).overrideAttrs (
+    old: {
+      configureFlags = (super.lib.remove "--with-xft" old.configureFlags)
+        ++ super.lib.singleton "--with-pgtk";
+    }
+  );
+
+  emacsGit = mkGitEmacs "emacs-git" ./repos/emacs/emacs-master.json { withSQLite3 = true; withWebP = true; };
 
   emacsNativeComp = super.emacsNativeComp or (mkGitEmacs "emacs-native-comp" ./repos/emacs/emacs-unstable.json { nativeComp = true; });
 
   emacsGitNativeComp = mkGitEmacs "emacs-git-native-comp" ./repos/emacs/emacs-master.json {
+    withSQLite3 = true;
+    withWebP = true;
     nativeComp = true;
   };
 
-  emacsPgtk = mkGitEmacs "emacs-pgtk" ./repos/emacs/emacs-master.json { withPgtk = true; };
+  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ./repos/emacs/emacs-master.json { withSQLite3 = true; withGTK3 = true; };
 
-  emacsPgtkNativeComp = mkGitEmacs "emacs-pgtk-native-comp" ./repos/emacs/emacs-master.json { nativeComp = true; withPgtk = true; };
+  emacsPgtkNativeComp = mkPgtkEmacs "emacs-pgtk-native-comp" ./repos/emacs/emacs-master.json { nativeComp = true; withSQLite3 = true; withGTK3 = true; };
 
   emacsUnstable = (mkGitEmacs "emacs-unstable" ./repos/emacs/emacs-unstable.json { });
 
