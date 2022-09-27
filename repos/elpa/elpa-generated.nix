@@ -1247,6 +1247,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    doc-toc = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "doc-toc";
+        ename = "doc-toc";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/doc-toc-1.0.tar";
+          sha256 = "07yan1jmp6q87rhm8bmglswnhzlh5r9j35x5sqm5yfx0pcp16kpj";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/doc-toc.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     docbook = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "docbook";
@@ -3642,10 +3657,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.2";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/plz-0.2.tar";
-          sha256 = "1b45m9b9gzx5ylpxcppkiikk5lfya7ngiqsap4a7m1b2cr8rqxcj";
+          url = "https://elpa.gnu.org/packages/plz-0.2.1.tar";
+          sha256 = "01xa4vjbcdm37dya5d006k9p37kcm1g4yh4j7vh7hjfdz43j6y9s";
         };
         packageRequires = [ emacs ];
         meta = {
