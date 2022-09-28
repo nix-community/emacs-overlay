@@ -3597,10 +3597,10 @@
       elpaBuild {
         pname = "perl-doc";
         ename = "perl-doc";
-        version = "0.2";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/perl-doc-0.2.tar";
-          sha256 = "1p5bbkwllh91a0vg5aisqa9kbms7l9vxk14lm09bav952xxn6gdl";
+          url = "https://elpa.gnu.org/packages/perl-doc-0.4.tar";
+          sha256 = "0p23kkkdvwaqf1pi321xj5zbx9680s826zzc92wn7gpx2wym703x";
         };
         packageRequires = [ emacs ];
         meta = {
