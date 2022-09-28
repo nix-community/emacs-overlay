@@ -12085,15 +12085,15 @@
   "repo": "emacs-citar/citar-org-roam",
   "unstable": {
    "version": [
-    20220925,
-    1701
+    20220927,
+    1834
    ],
    "deps": [
     "citar",
     "org-roam"
    ],
-   "commit": "191efe8723bc30fd4f88c66d79f2495513e729ca",
-   "sha256": "0xywrrz8jdd6h1ra13fadykd6f7clz2j1ijdfi3f9xms3ydxaa5h"
+   "commit": "27105d0a9578279560cd79cfad5871e7e603bc58",
+   "sha256": "192p4bfa49mj5iq70lazi828gzwd1z7dfmckg4xfmdsd58crygh3"
   },
   "stable": {
    "version": [
@@ -16466,14 +16466,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20220926,
-    2046
+    20220927,
+    2136
    ],
    "deps": [
     "compat"
    ],
-   "commit": "2105d0bbace14f22a9e1864920af84e5f9c454d9",
-   "sha256": "1a7jnbzccjzclcmrwswbihw6qcrpmq6gjjza6kv8jpvq4vbl4dlg"
+   "commit": "fae2c56bdc6832af65b85a3f2111be32eb2e68b2",
+   "sha256": "03w7zv0m8n47hggsr4x8z54mghh26mdpjq8fcj6vqiwfa8lsv3cs"
   },
   "stable": {
    "version": [
@@ -21638,14 +21638,14 @@
   "repo": "tilmanrassy/emacs-dir-treeview",
   "unstable": {
    "version": [
-    20220820,
-    27
+    20220918,
+    42
    ],
    "deps": [
     "treeview"
    ],
-   "commit": "1e516096344e13cc5c19aeaed135a85de01b4561",
-   "sha256": "071m5rshcjbbv6xrz0dqm9j4m6nhawwq8flhxwjb5ab9vidjby84"
+   "commit": "3430eb32d824270181fc74bac7334fa7c4b5be9a",
+   "sha256": "0grvkyasj1mck8i7qhclgidcx9zqil9pm1n5gk4h659fr9ji283k"
   }
  },
  {
@@ -23710,15 +23710,15 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20220926,
-    1716
+    20220927,
+    1819
    ],
    "deps": [
     "compat",
     "shrink-path"
    ],
-   "commit": "aa0e2ddbaa5703d85a8ffea85979aa9a2db9eeb5",
-   "sha256": "1v24hiqs4zbq613vanixgng9cx697di63jpafpmjlsripjfvk1qp"
+   "commit": "deca7aebc5013b2ece6454ba984447d15bd8c655",
+   "sha256": "0vjvdqjisl0vs6ldg8ikhmcrkwnqvlfb2r68fhpwcxywx8jp004c"
   },
   "stable": {
    "version": [
@@ -73096,8 +73096,8 @@
   "repo": "themkat/mos-mode",
   "unstable": {
    "version": [
-    20220828,
-    847
+    20220927,
+    1845
    ],
    "deps": [
     "dap-mode",
@@ -73105,8 +73105,8 @@
     "ht",
     "lsp-mode"
    ],
-   "commit": "1e688e76f1600095b8b55ea8006489a3db9c421d",
-   "sha256": "0jb9nmp01dsjc1djksgia09vy52yqk38i59wglaqqcv60150kfaj"
+   "commit": "3f82f1de4f951096424e0da14ea4e4a40a82059d",
+   "sha256": "1i9xcmnvnz1vxhi4c9hkfnyniabyah0pwd3r64lgxr5yv04wzsyp"
   }
  },
  {
@@ -80449,11 +80449,14 @@
   "repo": "gsingh93/org-custom-cookies",
   "unstable": {
    "version": [
-    20220922,
-    241
+    20220928,
+    114
    ],
-   "commit": "e7474cc839a750c37de93ab7b1ac65ed61f6fe95",
-   "sha256": "1nxcl29dvnr85h407whxp3y1a8jmvh361z0hv2rb6wwycp4fbrr4"
+   "deps": [
+    "org"
+   ],
+   "commit": "e57e0de5b8200224bf5d44b62481c542986f2f13",
+   "sha256": "1r3m7nvx10yzxsasld3h59psml4r7kmz2wn79n5xkppkpb0dbymn"
   }
  },
  {
@@ -111919,11 +111922,11 @@
   "repo": "tilmanrassy/emacs-treeview",
   "unstable": {
    "version": [
-    20220912,
-    2346
+    20220928,
+    43
    ],
-   "commit": "b68f77bf102b289e7b0e97f767bb7ffff9a5835b",
-   "sha256": "11c9m4x4nrh6vxma59vdm24vkipk38n17mcnva3ymn49r3597fwh"
+   "commit": "d9c10feddf3b959e7b33ce83103e1f0a61162723",
+   "sha256": "14s0b6zbapsvgyxki59lglwb3s8wjsjwkgj5r66af9nj2bgz5ms9"
   }
  },
  {
