@@ -32,16 +32,20 @@ let
   '';
   doEnsure = if (alwaysEnsure == null) then builtins.trace ensureNotice false else alwaysEnsure;
 
+  configType = config:
+    if (lib.strings.isStorePath config) then "path"
+    else (builtins.typeOf config);
+
   isOrgModeFile =
     let
       ext = lib.last (builtins.split "\\." (builtins.toString config));
-      type = builtins.typeOf config;
+      type = configType config;
     in
       type == "path" && ext == "org";
 
   configText =
     let
-      type = builtins.typeOf config;
+      type = configType config;
     in
       if type == "string" then config
       else if type == "path" then builtins.readFile config
