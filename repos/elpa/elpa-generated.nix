@@ -1578,10 +1578,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.2.1";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.2.1.tar";
-          sha256 = "13b51vm4hsg991rwppdl2iwwxrjy9l7b2vdwbx17pi07r1w6m41y";
+          url = "https://elpa.gnu.org/packages/ement-0.3.tar";
+          sha256 = "08k1qfcymsnaz0mzq33l3i0fj9kjf5y0pdpn7k0skhhlsw90h078";
         };
         packageRequires = [
           emacs
@@ -3597,10 +3597,10 @@
       elpaBuild {
         pname = "perl-doc";
         ename = "perl-doc";
-        version = "0.4";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/perl-doc-0.4.tar";
-          sha256 = "0p23kkkdvwaqf1pi321xj5zbx9680s826zzc92wn7gpx2wym703x";
+          url = "https://elpa.gnu.org/packages/perl-doc-0.6.tar";
+          sha256 = "0xmk09pfvdzkrjfsa2l78bd6akcbdhcbnpvwnm6r83h65gpld79f";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4702,10 +4702,10 @@
       elpaBuild {
         pname = "taxy-magit-section";
         ename = "taxy-magit-section";
-        version = "0.10";
+        version = "0.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/taxy-magit-section-0.10.tar";
-          sha256 = "1g58nvpb04ldhn5qnjw2q5idrv6vhlfa0qmb46cvis6bkz46cxkw";
+          url = "https://elpa.gnu.org/packages/taxy-magit-section-0.11.tar";
+          sha256 = "058z95c0z2hxplr5pfgph1cdq68zcrkmwx1wqyd5fy4a5h43yknq";
         };
         packageRequires = [ emacs magit-section taxy ];
         meta = {
