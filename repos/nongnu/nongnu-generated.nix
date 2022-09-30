@@ -2358,6 +2358,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    sweeprolog = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "sweeprolog";
+        ename = "sweeprolog";
+        version = "0.4.3";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.4.3.tar";
+          sha256 = "0gcdz1h9vs4hz72qjrnz6acc3801g18ysxhnqhpi2kfb3jvgs1a3";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/sweeprolog.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     swift-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib, seq }:
       elpaBuild {
         pname = "swift-mode";
