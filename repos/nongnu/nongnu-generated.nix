@@ -2518,10 +2518,10 @@
       elpaBuild {
         pname = "tuareg";
         ename = "tuareg";
-        version = "3.0.0";
+        version = "3.0.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/tuareg-3.0.0.tar";
-          sha256 = "1kmjpm9d56jsvxlnzxg7cz8szi1ywr1y6mj93yc6nf466q7ypar0";
+          url = "https://elpa.nongnu.org/nongnu/tuareg-3.0.1.tar";
+          sha256 = "0y98gwnbrcj3csd9yilk1izgzmp1ds5dh3y1bxgb2fzrjir3i13f";
         };
         packageRequires = [ caml emacs ];
         meta = {
