@@ -49,10 +49,10 @@
       elpaBuild {
         pname = "annotate";
         ename = "annotate";
-        version = "1.7.2";
+        version = "1.8.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/annotate-1.7.2.tar";
-          sha256 = "0vdpv8k1cvkn3cvsnxqv299gvp470ga2pgmfvdqi7k1vzypgpp57";
+          url = "https://elpa.nongnu.org/nongnu/annotate-1.8.0.tar";
+          sha256 = "169cav480g2fm3z7d5dixrng2h8fv39sa9n066b79cb573p4bbcp";
         };
         packageRequires = [];
         meta = {
@@ -2362,10 +2362,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.4.3";
+        version = "0.4.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.4.3.tar";
-          sha256 = "0gcdz1h9vs4hz72qjrnz6acc3801g18ysxhnqhpi2kfb3jvgs1a3";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.4.5.tar";
+          sha256 = "17dbrn2yvc6ib4dig410kbmvpwp4iz6q9hx6g0mk3vxqjrmgwyls";
         };
         packageRequires = [ emacs ];
         meta = {
