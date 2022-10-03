@@ -55,8 +55,27 @@ let
                 substituteInPlace lisp/loadup.el \
                 --replace '(emacs-repository-get-version)' '"${repoMeta.rev}"' \
                 --replace '(emacs-repository-get-branch)' '"master"'
-              '';
+              '' +
+              # XXX: remove when https://github.com/NixOS/nixpkgs/pull/193621 is merged
+                (super.lib.optionalString (old ? NATIVE_FULL_AOT)
+                    (let backendPath = (super.lib.concatStringsSep " "
+                      (builtins.map (x: ''\"-B${x}\"'') [
+                        # Paths necessary so the JIT compiler finds its libraries:
+                        "${super.lib.getLib self.libgccjit}/lib"
+                        "${super.lib.getLib self.libgccjit}/lib/gcc"
+                        "${super.lib.getLib self.stdenv.cc.libc}/lib"
 
+                        # Executable paths necessary for compilation (ld, as):
+                        "${super.lib.getBin self.stdenv.cc.cc}/bin"
+                        "${super.lib.getBin self.stdenv.cc.bintools}/bin"
+                        "${super.lib.getBin self.stdenv.cc.bintools.bintools}/bin"
+                      ]));
+                     in ''
+                        substituteInPlace lisp/emacs-lisp/comp.el --replace \
+                            "(defcustom comp-libgccjit-reproducer nil" \
+                            "(setq native-comp-driver-options '(${backendPath}))
+(defcustom comp-libgccjit-reproducer nil"
+                    ''));
             }
           )
         )
