@@ -1798,10 +1798,10 @@
       elpaBuild {
         pname = "org-mime";
         ename = "org-mime";
-        version = "0.3.1";
+        version = "0.3.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/org-mime-0.3.1.tar";
-          sha256 = "0dm7addyc98kh1lm4d8x7nvnkh6bwkw300ms2zlwm1ii91jzfkkg";
+          url = "https://elpa.nongnu.org/nongnu/org-mime-0.3.2.tar";
+          sha256 = "12crmbrjxac1ml2x1jh3wbpgh0fddhnl3gdmb5r9dlpkay1c5dxs";
         };
         packageRequires = [ emacs ];
         meta = {
