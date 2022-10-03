@@ -3867,10 +3867,10 @@
       elpaBuild {
         pname = "rcirc-color";
         ename = "rcirc-color";
-        version = "0.4.2";
+        version = "0.4.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rcirc-color-0.4.2.tar";
-          sha256 = "0pa9p018kwsy44cmkli7x6cz1abxkyi26ac7w3vh99qp7x97dia3";
+          url = "https://elpa.gnu.org/packages/rcirc-color-0.4.3.tar";
+          sha256 = "054am5cr3zh613vs6mnk1kvs62x1ni9fphyzhcfmypzwm8xjdyvi";
         };
         packageRequires = [ emacs ];
         meta = {
