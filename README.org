@@ -36,17 +36,25 @@ It is recommended you read Nixpkgs and NixOS documentation on package overlays a
 
 ** Contents of the overlay
 
-*** Elpa
+This overlay consists of two overlays: =emacs= and =package=.
+
+You can use both of them as a whole overlay or only one of them.
+
+*** =package= overlay
+
+**** Elpa
 Daily generations of Elpa.
 
-*** Melpa / Melpa stable
+**** Melpa / Melpa stable
 Daily generations of Melpa & Melpa stable attribute sets.
 
-*** EXWM & needed dependencies
+**** EXWM & needed dependencies
 This overlay provides fresh versions of EXWM and dependencies. This is
 updated daily.
 
-*** Emacs from Git and latest (including pre-releases)
+*** =emacs= overlay
+
+**** Emacs from Git and latest (including pre-releases)
 This overlay also provides two versions (latest from git) for Emacs. These
 are updated daily.
 
@@ -63,7 +71,7 @@ We also provide two attributes named =emacsGit-nox= and =emacsUnstable-nox=
 if you wish to have Emacs built without X dependencies.
 =emacsPgtk= and =emacsPgtkNativeComp= use the experimental pgtk feature which supports Wayland natively.
 
-** Extra library functionality
+**** Extra library functionality
 This overlay comes with extra functions to generate an Emacs closure
 from various types of dependency declaration. (These are abstractions
 on top of =emacsWithPackages=.)
