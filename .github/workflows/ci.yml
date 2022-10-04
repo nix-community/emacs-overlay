@@ -17,7 +17,6 @@ jobs:
     - name: Install Nix
       uses: cachix/install-nix-action@v13
       with:
-        install_url: https://releases.nixos.org/nix/nix-2.11.0/install
         nix_path: nixpkgs=https://github.com/NixOS/nixpkgs/archive/master.tar.gz
 
     - name: Add nix-community cache
