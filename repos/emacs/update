@@ -44,7 +44,7 @@ function update_release() {
 
     tag=$(git ls-remote --tags --refs --sort=-v:refname https://git.savannah.gnu.org/git/emacs.git 'emacs-[1-9]*' | grep -Eo 'emacs-.*' | grep -v '\-rc' | head -n1)
 
-    digest=$(nix-prefetch-url --unpack "https://git.savannah.gnu.org/cgit/emacs.git/snapshot/emacs-${tag}.tar.gz")
+    digest=$(nix-prefetch-url --unpack "https://git.savannah.gnu.org/cgit/emacs.git/snapshot/${tag}.tar.gz")
     version_number=$(echo $tag | cut -d '-' -f 2)
 
     echo "{\"type\": \"savannah\", \"repo\": \"emacs\", \"rev\": \"${tag}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > emacs-unstable.json
