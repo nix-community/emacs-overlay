@@ -8182,16 +8182,16 @@
   "repo": "jyp/boon",
   "unstable": {
    "version": [
-    20220918,
-    1946
+    20221004,
+    1937
    ],
    "deps": [
     "dash",
     "expand-region",
     "multiple-cursors"
    ],
-   "commit": "ee3d12fa3a811f13806b005bb3b1395e5f41dba9",
-   "sha256": "09ajsnp4hj2a467py832p80cm5mdafj1x47vh2cvm4gh5zqdmnwa"
+   "commit": "520f68699e2a5a8e022c058992d3d39737c32753",
+   "sha256": "1hr1ic4r6cvy61n00b8dzf7hmmyvpzammlmis5i4chq0jii4kw6l"
   },
   "stable": {
    "version": [
@@ -23710,15 +23710,15 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20221002,
-    1403
+    20221004,
+    1934
    ],
    "deps": [
     "compat",
     "shrink-path"
    ],
-   "commit": "1d6ad06e21b8ad48023ee26e282e4162df5c947e",
-   "sha256": "0cc06dnidjrdmnwz2jycnhfdczwrb5ky2gqldkdxvl0wiinccl9b"
+   "commit": "36cde4c2c9fd1ba68e8d8aa7562ce5171ada2b5b",
+   "sha256": "1306kgr2wxgkdymihyqkffp0vai6v6wh9i7x4b5l85yn9118b56w"
   },
   "stable": {
    "version": [
@@ -105881,11 +105881,11 @@
   "repo": "srfi-explorations/emacs-srfi",
   "unstable": {
    "version": [
-    20220925,
-    2308
+    20221004,
+    1653
    ],
-   "commit": "20a1c9b36e99cbfbf70598e2cfaccd960e74c1ce",
-   "sha256": "1kz95vb6jbpkzs11mx623sj8xdf8n007vr9ix6wqvdsaqy158qkl"
+   "commit": "ad2b110a30df7273352d7c12e28e130731de9662",
+   "sha256": "0v0c6rv9g12a5rhfki985c6zg2qdvzmgjr0q5f31msdcvidcf3vq"
   },
   "stable": {
    "version": [
@@ -110208,30 +110208,28 @@
   "repo": "tmarble/timesheet.el",
   "unstable": {
    "version": [
-    20191024,
-    151
+    20221004,
+    1702
    ],
    "deps": [
-    "auctex",
     "org",
     "s"
    ],
-   "commit": "5098dc87d3d4f289b6c1b6532070dacbfe6de9fd",
-   "sha256": "0wqxlb4a7fzf14629zw021216qyzz56xwr8hfh2fy6kj90m9br4c"
+   "commit": "511751b239c84d7619ec1c61d7f108b732b64442",
+   "sha256": "01j8wps938mjjlq55w9lgky3f51k260ipjqv8072x0n73mwf9008"
   },
   "stable": {
    "version": [
     0,
-    4,
-    1
+    5,
+    0
    ],
    "deps": [
-    "auctex",
     "org",
     "s"
    ],
-   "commit": "67ca6a9f6733052066b438301fb2dd81b8b3f6eb",
-   "sha256": "0rmh8lik27pmq95858jbjzgvf6rsfdnpynwcagj1fgkval5kzdbs"
+   "commit": "511751b239c84d7619ec1c61d7f108b732b64442",
+   "sha256": "01j8wps938mjjlq55w9lgky3f51k260ipjqv8072x0n73mwf9008"
   }
  },
  {
