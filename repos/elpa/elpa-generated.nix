@@ -1041,10 +1041,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.33";
+        version = "0.34";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/debbugs-0.33.tar";
-          sha256 = "1s4p3jf9yrm8pn5pljpkrw05n2p9v6fpl141rh1df7f7l0w80qbk";
+          url = "https://elpa.gnu.org/packages/debbugs-0.34.tar";
+          sha256 = "06nxia4myhysiw12vsflgllrp9nyhmjnybrrcl1vyf4pw0fc6yrx";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -1578,10 +1578,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.3";
+        version = "0.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.3.tar";
-          sha256 = "08k1qfcymsnaz0mzq33l3i0fj9kjf5y0pdpn7k0skhhlsw90h078";
+          url = "https://elpa.gnu.org/packages/ement-0.3.1.tar";
+          sha256 = "1gppjn9mhp9qbs62adymm036ygza877dszkw2d0hn554yp99f0br";
         };
         packageRequires = [
           emacs
