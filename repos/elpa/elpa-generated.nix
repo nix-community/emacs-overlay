@@ -3192,10 +3192,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "0.1.1";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/notmuch-indicator-0.1.1.tar";
-          sha256 = "1fdl8xm48id1a85gf3gr8d8m3sz61xrras9f598pvrksm3j162b6";
+          url = "https://elpa.gnu.org/packages/notmuch-indicator-0.2.0.tar";
+          sha256 = "1dc89kcs062pgqcf73ff91rx6l1hrpnfyq1fax7zgngsgka0im6b";
         };
         packageRequires = [ emacs ];
         meta = {
