@@ -1606,10 +1606,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "11";
+        version = "12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emms-11.tar";
-          sha256 = "000lqhsafyh1n293ksnlyavxv1pzl5pazds4sgxjcqd45lyn55ii";
+          url = "https://elpa.gnu.org/packages/emms-12.tar";
+          sha256 = "048ijrpw6s4k7zr78fzc3ksjjri6mnyp6c47h5lp5nw5gvm4np7a";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
