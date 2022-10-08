@@ -1836,10 +1836,10 @@
       elpaBuild {
         pname = "fontaine";
         ename = "fontaine";
-        version = "0.4.0";
+        version = "0.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/fontaine-0.4.0.tar";
-          sha256 = "1phbni32zgwml5mwldbqmqmkbhbdj4vf4bs98wj0my6d902x6lbw";
+          url = "https://elpa.gnu.org/packages/fontaine-0.4.1.tar";
+          sha256 = "0szj9ys7bkj6cwg2bmb7sniyzjzdy3f7qm9r90grrgs5iir3k2qa";
         };
         packageRequires = [ emacs ];
         meta = {
