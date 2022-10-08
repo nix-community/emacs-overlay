@@ -19463,7 +19463,7 @@
   "unstable": {
    "version": [
     20221008,
-    726
+    1411
    ],
    "deps": [
     "company",
@@ -19474,8 +19474,8 @@
     "lcr",
     "s"
    ],
-   "commit": "a7f4bc422f84b5fe293f783726d2f90ac0b25c05",
-   "sha256": "0wr84hfv8cqji6adh1vari0c90k8a21pyzin9iykr1xcgag43l62"
+   "commit": "a50eb873b836272173269d6010dcb1972d7d248b",
+   "sha256": "0nkl5wnargmlam845nk4g0ydvxgh0fss9rs4gc6b5pqf0v478mim"
   },
   "stable": {
    "version": [
@@ -26113,8 +26113,8 @@
   "repo": "joaotavora/eglot",
   "unstable": {
    "version": [
-    20221005,
-    1955
+    20221008,
+    1019
    ],
    "deps": [
     "eldoc",
@@ -26124,23 +26124,24 @@
     "seq",
     "xref"
    ],
-   "commit": "2599cd0d7951c6436b01e950110c98ee6375786a",
-   "sha256": "0d4q29vjbvjsvrls1v0zdqic5ncgk3043k8212vwvskbbvryhin0"
+   "commit": "5c7dfd40412f5086c56378aab21b6555385191d3",
+   "sha256": "0zixf2vyfh9kijhmp6i9qc4a5ilqijv1a1ip6k3cgj36d5yqhjzh"
   },
   "stable": {
    "version": [
     1,
-    8
+    9
    ],
    "deps": [
     "eldoc",
     "flymake",
     "jsonrpc",
     "project",
+    "seq",
     "xref"
    ],
-   "commit": "132ea08f97f94ad2e050fc8d1628ecb41de7229a",
-   "sha256": "19x748wpyc9q884qrx40jkq3h5swazg190pq0x60547q35pac83s"
+   "commit": "c460869ddeeec9556ce7220318dc13d2b6e2b021",
+   "sha256": "1mx2b7ljwvmfl5d0w9m7i1i900198lsdx1cpi8n7wq58h5df88p9"
   }
  },
  {
@@ -41636,15 +41637,15 @@
   "repo": "lassik/emacs-format-all-the-code",
   "unstable": {
    "version": [
-    20220928,
-    1045
+    20221008,
+    1655
    ],
    "deps": [
     "inheritenv",
     "language-id"
    ],
-   "commit": "d01a0702472d159bacc704394198a77a64d3c79b",
-   "sha256": "1r406npg5f2wqysj9rligcjjr68m44ja8n8v82rf8zpi6v1pmp8h"
+   "commit": "c237c4cdf70a93c2d975b418314af33a210a5740",
+   "sha256": "17y2paxygi4akwndjmnzj7ngg814nq0ylxsrihkni0grxv5b76ww"
   },
   "stable": {
    "version": [
@@ -63171,20 +63172,20 @@
   "repo": "hperrey/khalel",
   "unstable": {
    "version": [
-    20220904,
-    1048
+    20221008,
+    1456
    ],
-   "commit": "dee767071c0fa8fc6ccc73384abf11c4c3b45229",
-   "sha256": "0gpw5vsx9rnkmqlpi8jxabs240cgx9ny7cnz6wpixwn7xcrdxcal"
+   "commit": "fce18763a07769f2dbbb84eb20490aabbf612b66",
+   "sha256": "1w951a7czw5f62d9336lvrrsw57pym27vscfby1pz6n6ld44ybsl"
   },
   "stable": {
    "version": [
     0,
     1,
-    7
+    8
    ],
-   "commit": "dee767071c0fa8fc6ccc73384abf11c4c3b45229",
-   "sha256": "0gpw5vsx9rnkmqlpi8jxabs240cgx9ny7cnz6wpixwn7xcrdxcal"
+   "commit": "bc919e40ce9afbc1cc160d86c27f73b1cb9f5b50",
+   "sha256": "1w951a7czw5f62d9336lvrrsw57pym27vscfby1pz6n6ld44ybsl"
   }
  },
  {
@@ -64600,14 +64601,14 @@
   "repo": "jyp/lcr",
   "unstable": {
    "version": [
-    20221007,
-    1906
+    20221008,
+    908
    ],
    "deps": [
     "dash"
    ],
-   "commit": "3ef2f32a337ac40736b22bd445fbd87a2726ea4f",
-   "sha256": "124fawghibdzzkwxifk2zbvyanhvvghxchzf87bcjwi1ylw44fgi"
+   "commit": "5ff5bc2e46f219e03412d16539c1920522b0d6fc",
+   "sha256": "0zqhvvk94yjrql49ds8743fyxixm4xhf8ldb1aqysiknvf7mjfj7"
   },
   "stable": {
    "version": [
@@ -65703,14 +65704,14 @@
   "repo": "noctuid/link-hint.el",
   "unstable": {
    "version": [
-    20220623,
-    2310
+    20221008,
+    1445
    ],
    "deps": [
     "avy"
    ],
-   "commit": "54612293cc4e01df639c41597cb83a633b0f5514",
-   "sha256": "0mk65vglhx8z7a1j7ag5rxqbpxjqmk0zb6fihb6gh29d8qlcppfl"
+   "commit": "1f9bb60289d87f31f92b86ed22d1f2c0a7af0222",
+   "sha256": "1v2bj3arixy08fcyhszir7b1sm1fll3k2zfp5as510fh8j5302ba"
   }
  },
  {
@@ -67019,11 +67020,11 @@
   "repo": "0x60df/loophole",
   "unstable": {
    "version": [
-    20220611,
-    1100
+    20221008,
+    1525
    ],
-   "commit": "f7e9cca980b7467a03d9a161a5e9e5a828bfd6c9",
-   "sha256": "1g6nlv5h0gly56jypfmcdkisrd7xisgm5pyrw3wcxklgkkw2ym1a"
+   "commit": "bf35ad553b123a880c379b2d1b772669818ce7b7",
+   "sha256": "01wlmlil8mkgdgsvvfg11afpdzbz2v40g2g07cm85i3418a2c539"
   },
   "stable": {
    "version": [
@@ -70473,11 +70474,11 @@
   "url": "https://git.code.sf.net/p/matlab-emacs/src",
   "unstable": {
    "version": [
-    20220412,
-    913
+    20221008,
+    1623
    ],
-   "commit": "5069e3ca0034e0da64eb9b3cd426f52992938d06",
-   "sha256": "02b4gayf67fgsridj2a57p0x298pj4dly8nkimyjm15k8152s9c9"
+   "commit": "e0d127935c7a45b1178182a43ab000f41a9f73d7",
+   "sha256": "1nwpqbbfabcjryqg41fkdailhq2m5f55yxcz7z75s07y15xl1c5y"
   }
  },
  {
@@ -117188,11 +117189,11 @@
   "repo": "akib/emacs-why-this",
   "unstable": {
    "version": [
-    20220722,
-    1608
+    20221008,
+    1147
    ],
-   "commit": "4552587fd48263509cbaf2edfbfaf4536049cb20",
-   "sha256": "0nmvwpc2s7w9mkzkjgjnbb32527xn9pb62392yyb5c46w35shm06"
+   "commit": "da0fa6da7e5286c19c38c535280acff53d369c96",
+   "sha256": "04n2k8k7ip9hsdwl2qgyijvnrmh4g07nal4d79z1pla0mz4zghiw"
   }
  },
  {
