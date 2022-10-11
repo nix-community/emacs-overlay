@@ -1968,10 +1968,10 @@
       elpaBuild {
         pname = "popon";
         ename = "popon";
-        version = "0.9";
+        version = "0.10";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/popon-0.9.tar";
-          sha256 = "1vnrdjg63fcpgzzc45l9cx67yb2lnk5prfp5js4dpdhz93d14qck";
+          url = "https://elpa.nongnu.org/nongnu/popon-0.10.tar";
+          sha256 = "06i29hhpw3shz5fam4h7g8qs23y0lq5qqmdmlbpjkkj7nkdjd9kp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2362,10 +2362,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.5.4";
+        version = "0.6.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.5.4.tar";
-          sha256 = "0d2pzzkq0d1p5wv31c0sflh5a2x4ydgkzw0l3l5jjlp0nfq1x9xa";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.6.0.tar";
+          sha256 = "030mr1qp37icn09jzjbcij8wrmagd6gmwsbg8df4pkl4masy4s0k";
         };
         packageRequires = [ emacs ];
         meta = {
