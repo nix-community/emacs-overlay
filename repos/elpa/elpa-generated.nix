@@ -1435,16 +1435,17 @@
                          , jsonrpc
                          , lib
                          , project
+                         , seq
                          , xref }:
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.8";
+        version = "1.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eglot-1.8.tar";
-          sha256 = "1n04jnf3wwpxafrzfd02l53wf90brjc8p835f84k0n0rjxin99k5";
+          url = "https://elpa.gnu.org/packages/eglot-1.9.tar";
+          sha256 = "1v6pyk3c680xmsv6lrq5xcj9x771z87i3b92in87zg841mw3b6as";
         };
-        packageRequires = [ eldoc emacs flymake jsonrpc project xref ];
+        packageRequires = [ eldoc emacs flymake jsonrpc project seq xref ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/eglot.html";
           license = lib.licenses.free;
