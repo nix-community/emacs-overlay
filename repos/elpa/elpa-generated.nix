@@ -4718,10 +4718,10 @@
       elpaBuild {
         pname = "taxy-magit-section";
         ename = "taxy-magit-section";
-        version = "0.11";
+        version = "0.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/taxy-magit-section-0.11.tar";
-          sha256 = "058z95c0z2hxplr5pfgph1cdq68zcrkmwx1wqyd5fy4a5h43yknq";
+          url = "https://elpa.gnu.org/packages/taxy-magit-section-0.12.tar";
+          sha256 = "1x4sfa8kl3f85n8lm381yr7f72zfb73bj6a6r8caw3n8bkv38i3r";
         };
         packageRequires = [ emacs magit-section taxy ];
         meta = {
