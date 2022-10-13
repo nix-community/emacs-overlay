@@ -2099,6 +2099,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    rfc-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "rfc-mode";
+        ename = "rfc-mode";
+        version = "1.3.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/rfc-mode-1.3.0.tar";
+          sha256 = "1wdqp03rrx7ar21nvbnrb7518c3vgf41z00bav00pw8cdx5c4m10";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/rfc-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     rubocop = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "rubocop";
