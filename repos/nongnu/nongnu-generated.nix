@@ -711,10 +711,10 @@
       elpaBuild {
         pname = "evil-nerd-commenter";
         ename = "evil-nerd-commenter";
-        version = "3.5.7";
+        version = "3.5.8";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/evil-nerd-commenter-3.5.7.tar";
-          sha256 = "1lar8hy9n29gv4cijalyy2ba23y0kyh9ycnsi5dzjs68pk3y4hca";
+          url = "https://elpa.nongnu.org/nongnu/evil-nerd-commenter-3.5.8.tar";
+          sha256 = "0hrzwca24dy4g9h7v5csqpwvsfj1ns4gqlnlf1q5i0jqvhvklnj5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -842,10 +842,10 @@
       elpaBuild {
         pname = "geiser";
         ename = "geiser";
-        version = "0.26.1";
+        version = "0.27";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-0.26.1.tar";
-          sha256 = "1fq68gvyyrplxw8i0yma4q0yqmrzp00v1v7izlc5r7h58wryy39a";
+          url = "https://elpa.nongnu.org/nongnu/geiser-0.27.tar";
+          sha256 = "1kpirf9r79srm2ma90gkamhb3rsy43cin40dnj9fzjg7qyrrzvbm";
         };
         packageRequires = [ emacs project transient ];
         meta = {
