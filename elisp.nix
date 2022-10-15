@@ -12,6 +12,8 @@ let
 
 in
 { config
+# bool to use the value of config or a derivation whose name is default.el
+, defaultInitFile ? false
 # emulate `use-package-always-ensure` behavior (defaulting to false)
 , alwaysEnsure ? null
 # emulate `#+PROPERTY: header-args:emacs-lisp :tangle yes`
@@ -64,5 +66,27 @@ emacsWithPackages (epkgs:
     overridden = override epkgs;
     usePkgs = map (name: overridden.${name} or (mkPackageError name)) packages;
     extraPkgs = extraEmacsPackages overridden;
+    defaultInitFilePkg =
+      if !((builtins.isBool defaultInitFile) || (lib.isDerivation defaultInitFile))
+      then throw "defaultInitFile must be bool or derivation"
+      else
+        if defaultInitFile == false
+        then null
+        else
+          let
+            # name of the default init file must be default.el according to elisp manual
+            defaultInitFileName = "default.el";
+          in
+          epkgs.trivialBuild {
+            pname = "default-init-file";
+            src =
+              if defaultInitFile == true
+              then pkgs.writeText defaultInitFileName configText
+              else
+                if defaultInitFile.name == defaultInitFileName
+                then defaultInitFile
+                else throw "name of defaultInitFile must be ${defaultInitFileName}";
+            packageRequires = usePkgs;
+          };
   in
-  usePkgs ++ extraPkgs)
+  usePkgs ++ extraPkgs ++ [ defaultInitFilePkg ])
