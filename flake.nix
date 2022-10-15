@@ -24,7 +24,7 @@
           overlays = [ self.overlays.default ];
         };
         inherit (pkgs) lib;
-        overlayAttrs = builtins.attrNames (import ./. pkgs pkgs);
+        overlayAttrs = builtins.attrNames (self.overlays.emacs pkgs pkgs);
 
       in
       {
