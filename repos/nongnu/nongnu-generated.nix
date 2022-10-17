@@ -792,10 +792,10 @@
       elpaBuild {
         pname = "focus";
         ename = "focus";
-        version = "1.0.0";
+        version = "1.0.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/focus-1.0.0.tar";
-          sha256 = "0gicqiw7npcf18rfb99hm1s054m9l4izzcqzij2kpnc544aqgf9y";
+          url = "https://elpa.nongnu.org/nongnu/focus-1.0.1.tar";
+          sha256 = "1kiyvbdbjhjfkl5cq6q78lfgbir7iayswwm2qnj4df95nbm8shsz";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -2397,10 +2397,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.6.2";
+        version = "0.6.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.6.2.tar";
-          sha256 = "1fhvsrafi65f278yw74h4j7m1lxb86cn3s47yrjxpz8cbml4jn6s";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.6.3.tar";
+          sha256 = "1cym845zja3rfci8q799k2sd3dm25w9cgdyvajci78gwadf33l9i";
         };
         packageRequires = [ emacs ];
         meta = {
