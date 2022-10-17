@@ -14,9 +14,9 @@ let
     builtins.foldl'
       (drv: fn: fn drv)
       super.emacs
-      [
+      ([
 
-        (drv: drv.override ({ srcRepo = true; } // args))
+        (drv: drv.override ({ srcRepo = true; } // builtins.removeAttrs args [ "withTreeSitterPlugins" "withTreeSitter" ]))
 
         (
           drv: drv.overrideAttrs (
@@ -68,7 +68,26 @@ let
           in
           result
         )
-      ];
+      ]
+      ++ (super.lib.optional (args ? "withTreeSitter") (
+        drv: drv.overrideAttrs (old:
+          let
+            libName = drv: super.lib.removeSuffix "-grammar" drv.pname;
+            lib = drv: ''lib${libName drv}.so'';
+            linkCmd = drv: "ln -s ${drv}/parser $out/lib/${lib drv}";
+            linkerFlag = drv: "-l" + libName drv;
+            plugins = args.withTreeSitterPlugins self.pkgs.tree-sitter-grammars;
+            tree-sitter-grammars = super.runCommand "tree-sitter-grammars" {}
+              (super.lib.concatStringsSep "\n" (["mkdir -p $out/lib"] ++ (map linkCmd plugins)));
+          in {
+            buildInputs = old.buildInputs ++ [ self.pkgs.tree-sitter tree-sitter-grammars ];
+            # before building the `.el` files, we need to allow the `tree-sitter` libraries
+            # bundled in emacs to be dynamically loaded.
+            TREE_SITTER_LIBS = super.lib.concatStringsSep " " ([ "-ltree-sitter" ] ++ (map linkerFlag plugins)); 
+          }
+        )
+      )));
+
 
   mkPgtkEmacs = namePrefix: jsonFile: { ... }@args: (mkGitEmacs namePrefix jsonFile args).overrideAttrs (
     old: {
@@ -92,6 +111,16 @@ let
   emacsPgtkNativeComp = mkPgtkEmacs "emacs-pgtk-native-comp" ../repos/emacs/emacs-master.json { nativeComp = true; withSQLite3 = true; withGTK3 = true; };
 
   emacsUnstable = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json { });
+
+  emacsGitTreeSitter = super.lib.makeOverridable (mkGitEmacs "emacs-git-tree-sitter" ../repos/emacs/emacs-feature_tree-sitter.json) {
+    withTreeSitter = true;
+    withTreeSitterPlugins = (plugins: with plugins; [
+      tree-sitter-python
+      tree-sitter-javascript
+      tree-sitter-json
+      tree-sitter-tsx
+    ]);
+  };
 
 in
 {
@@ -132,6 +161,8 @@ in
       }
     )
   );
+
+  inherit emacsGitTreeSitter;
 
   emacsWithPackagesFromUsePackage = import ../elisp.nix { pkgs = self; };
 
