@@ -76,11 +76,11 @@ let
             lib = drv: ''lib${libName drv}.so'';
             linkCmd = drv: "ln -s ${drv}/parser $out/lib/${lib drv}";
             linkerFlag = drv: "-l" + libName drv;
-            plugins = args.withTreeSitterPlugins super.pkgs.tree-sitter-grammars;
-            tree-sitter-grammars = super.runCommand "tree-sitter-grammars" {
-            } (super.lib.concatStringsSep "\n" (["mkdir -p $out/lib"] ++ (map linkCmd plugins)));
+            plugins = args.withTreeSitterPlugins self.pkgs.tree-sitter-grammars;
+            tree-sitter-grammars = super.runCommand "tree-sitter-grammars" {}
+              (super.lib.concatStringsSep "\n" (["mkdir -p $out/lib"] ++ (map linkCmd plugins)));
           in {
-            buildInputs = old.buildInputs ++ [ super.pkgs.tree-sitter tree-sitter-grammars ];
+            buildInputs = old.buildInputs ++ [ self.pkgs.tree-sitter tree-sitter-grammars ];
             # before building the `.el` files, we need to allow the `tree-sitter` libraries
             # bundled in emacs to be dynamically loaded.
             TREE_SITTER_LIBS = super.lib.concatStringsSep " " ([ "-ltree-sitter" ] ++ (map linkerFlag plugins)); 
@@ -105,7 +105,7 @@ let
     withWebP = true;
     nativeComp = true;
   };
-  
+
   emacsPgtk = mkPgtkEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json { withSQLite3 = true; withGTK3 = true; };
 
   emacsPgtkNativeComp = mkPgtkEmacs "emacs-pgtk-native-comp" ../repos/emacs/emacs-master.json { nativeComp = true; withSQLite3 = true; withGTK3 = true; };
@@ -118,6 +118,7 @@ let
       tree-sitter-python
       tree-sitter-javascript
       tree-sitter-json
+      tree-sitter-tsx
     ]);
   };
 
