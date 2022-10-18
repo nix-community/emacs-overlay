@@ -1929,21 +1929,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    pcre2el = callPackage ({ a
-                           , cl-lib ? null
-                           , elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    pcre2el = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "pcre2el";
         ename = "pcre2el";
-        version = "1.9";
+        version = "1.10";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/pcre2el-1.9.tar";
-          sha256 = "0a62l0zqyv36cbz8c52wjk63af7lwglaz423xnx8403a6r07jfcp";
+          url = "https://elpa.nongnu.org/nongnu/pcre2el-1.10.tar";
+          sha256 = "1sqf0da9ywfqza3h3qyr88xs81zac8hahjjmfwqav9rsxxwh1j6n";
         };
-        packageRequires = [ a cl-lib emacs ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/pcre2el.html";
           license = lib.licenses.free;
@@ -2397,10 +2392,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.6.3";
+        version = "0.7.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.6.3.tar";
-          sha256 = "1cym845zja3rfci8q799k2sd3dm25w9cgdyvajci78gwadf33l9i";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.7.0.tar";
+          sha256 = "123x8vq76wcsi6y59gfz9fp4lvzcy9335hxmjr6jlaz4vxy8rv5v";
         };
         packageRequires = [ emacs ];
         meta = {
