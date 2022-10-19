@@ -1933,10 +1933,10 @@
       elpaBuild {
         pname = "pcre2el";
         ename = "pcre2el";
-        version = "1.10";
+        version = "1.11";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/pcre2el-1.10.tar";
-          sha256 = "1sqf0da9ywfqza3h3qyr88xs81zac8hahjjmfwqav9rsxxwh1j6n";
+          url = "https://elpa.nongnu.org/nongnu/pcre2el-1.11.tar";
+          sha256 = "147da1iqlgsjsnfffk4iwfjsrv98xz5s4wjdys9r98n0j723js7r";
         };
         packageRequires = [ emacs ];
         meta = {
