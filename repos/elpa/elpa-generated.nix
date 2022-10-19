@@ -1416,10 +1416,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "0.7.0";
+        version = "0.8.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-0.7.0.tar";
-          sha256 = "1vfz7sb9z4b8vs94rskzbrxn82jkzxyil115900li2rbd19rahh4";
+          url = "https://elpa.gnu.org/packages/ef-themes-0.8.0.tar";
+          sha256 = "0vzk76v8scad95ii90zzabxabbk4d4zh4wam3x460qyirs8qr0jy";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2711,10 +2711,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "0.5.1";
+        version = "1.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/logos-0.5.1.tar";
-          sha256 = "0154fxl20crl0ay064cbhgsjnj70nq5jz778hzjjy3mnkwzsmbh3";
+          url = "https://elpa.gnu.org/packages/logos-1.0.1.tar";
+          sha256 = "1kmfsgapinx6p8zyxd2s81j703iiril9c907r576z5k498pfifb6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3778,10 +3778,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "5.2.5";
+        version = "5.2.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-5.2.5.tar";
-          sha256 = "00f23pl53rdy9iwp4gj2656wik7c6vnmhsglg7z4pz3ippz3f4hq";
+          url = "https://elpa.gnu.org/packages/pyim-5.2.6.tar";
+          sha256 = "17jx7hbndm7b7b22z59g4h3nkwhydc0kq9447nhafr8hz2xrdlp6";
         };
         packageRequires = [ async emacs xr ];
         meta = {
