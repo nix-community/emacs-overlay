@@ -249,10 +249,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.1.4";
+        version = "13.1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.1.4.tar";
-          sha256 = "1r9qysnfdbiblq3c95rgsh7vgy3k4qabnj0vicqhdkca0cl2b2bj";
+          url = "https://elpa.gnu.org/packages/auctex-13.1.5.tar";
+          sha256 = "00g6js6089637w8alch4dvk140chjkyirsa8inh9ai6a6kkfvc3p";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1071,10 +1071,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "1.0.0";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-1.0.0.tar";
-          sha256 = "1gywi22x12p7hkliwy84i7pvyis5ja22fybz5shkdmkcl12mx631";
+          url = "https://elpa.gnu.org/packages/denote-1.1.0.tar";
+          sha256 = "06fmxszw8y8r2sm1j45wx14zb22jg5k5l73k1znhx4gl4v3bl968";
         };
         packageRequires = [ emacs ];
         meta = {
