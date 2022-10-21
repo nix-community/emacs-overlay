@@ -2392,10 +2392,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.7.1";
+        version = "0.7.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.7.1.tar";
-          sha256 = "1kkh3b5hl044w23aj70qq4pkalixz265wbrzla0vfbh6pcnkfwga";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.7.2.tar";
+          sha256 = "09dhakcjic312wwvaqiv7wc05kw3ac03m57yhi1i5mviwqjfrd3p";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2781,10 +2781,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "18.2.20221004113716";
+        version = "18.3.20221020112604";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-18.2.20221004113716.tar";
-          sha256 = "11girbh6qfifa4n9j8djg4yzmf55mqygbma3xmnzvkvxp36ar59m";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-18.3.20221020112604.tar";
+          sha256 = "15gkbhym7175cd7w0sakk8r8rqg4nqillxzk73cr90kr3vsbh214";
         };
         packageRequires = [ emacs ];
         meta = {
