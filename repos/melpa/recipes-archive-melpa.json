@@ -11946,14 +11946,14 @@
   "repo": "emacs-circe/circe",
   "unstable": {
    "version": [
-    20220526,
-    1206
+    20221022,
+    2222
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "41cdc116b09818d33f5cb0fc1d72c025c23aa2f1",
-   "sha256": "0hmclqaagnqvyvxb93vi1qdyvqm53hsyjyv1b4zh79hwzvn6s8g3"
+   "commit": "d0bd8113c23affe4f7bd9e19c498cee99e436f0a",
+   "sha256": "11hy7izabnngmbly279lhylznrjw1fmpkxrxbrr6lx53ybck0knr"
   },
   "stable": {
    "version": [
@@ -43112,15 +43112,14 @@
   "repo": "emacs-geiser/geiser",
   "unstable": {
    "version": [
-    20221021,
-    238
+    20221022,
+    2255
    ],
    "deps": [
-    "project",
-    "transient"
+    "project"
    ],
-   "commit": "74e4e87820112ac94bac583ba154dc67bc017a42",
-   "sha256": "13q56i5pzbkh6ijjyjzdxscj59pxddfcffldalk46kfcn54cshh4"
+   "commit": "fd58d38118e2c409db524ccc8ff213e8d98a43bf",
+   "sha256": "1hixnpn32chv4wlciq9hd5ry7rpwcyqfg8g8yzldkkacrna9zbfb"
   },
   "stable": {
    "version": [
@@ -43286,14 +43285,15 @@
   "repo": "emacs-geiser/guile",
   "unstable": {
    "version": [
-    20221021,
-    259
+    20221022,
+    2254
    ],
    "deps": [
-    "geiser"
+    "geiser",
+    "transient"
    ],
-   "commit": "d8fae2d194b1dde1a60f1f09e854a3a21047615f",
-   "sha256": "0z5snksv9r1amsqs39avhrfp6gz2z5wyhx4aix111gadp2vylqrz"
+   "commit": "a2ef4dbd7d63896f012896d497b17d8162f82178",
+   "sha256": "19wwyla0kd9prnxwqpwgpb2xgkc61kqk5jrji30g1y1ysgla1kir"
   },
   "stable": {
    "version": [
@@ -49293,15 +49293,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20221020,
-    1512
+    20221022,
+    2056
    ],
    "deps": [
     "helm-core",
     "popup"
    ],
-   "commit": "39ed67040d5a08fe27a138678d852e6aa577bbde",
-   "sha256": "1rr4bdzgw5dk717kmvyy6kqr19ylzagymsrs1xil99md5a35mcbv"
+   "commit": "0211c57425bb989965419aeebb7dd52476fcb2b0",
+   "sha256": "0qa5lbrz3r7hh5bvflqay9mdilvx8pdxk36ca7rdhvmnakwsigpn"
   },
   "stable": {
    "version": [
@@ -50199,14 +50199,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20221020,
-    1530
+    20221022,
+    2056
    ],
    "deps": [
     "async"
    ],
-   "commit": "eda9a8b3220b2d9ad68e0e8a890a81861aab274a",
-   "sha256": "12hn5m3j3870q4w7cvzifypc25ympwvqh07v5z0kjkdinqc5ryfj"
+   "commit": "0211c57425bb989965419aeebb7dd52476fcb2b0",
+   "sha256": "0qa5lbrz3r7hh5bvflqay9mdilvx8pdxk36ca7rdhvmnakwsigpn"
   },
   "stable": {
    "version": [
@@ -68648,7 +68648,7 @@
   "unstable": {
    "version": [
     20221022,
-    1120
+    2130
    ],
    "deps": [
     "compat",
@@ -68658,8 +68658,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "b52922a399b74fd6b5dd6ad64344de3bed745789",
-   "sha256": "0av19q4dlahqcwga9nwljwb035a2p4r90mds6ia3hicrnsyyyp63"
+   "commit": "ccd82ffe494b2af513ec5422137252ae3d05be7d",
+   "sha256": "1yg4bdv6v1qjcds4h2wf5awv6nb80d45k9vvwbdbcrg1pqvw4xzv"
   },
   "stable": {
    "version": [
@@ -72701,11 +72701,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20221022,
-    1236
+    20221023,
+    111
    ],
-   "commit": "cbd33fbd17ebb5d129ffaf5a0cbd759c5eebc826",
-   "sha256": "0j57zqwzk8rf31frqr8pga8cz5ks5p8g5h2bami19flda7b4rsx3"
+   "commit": "b65dabc06b4bbf5089e95f25d428ae7f5d9d0373",
+   "sha256": "1kqlx0l66bs43dl25pgw89dkzmd680gwbkr17acwxf21law7jn5g"
   },
   "stable": {
    "version": [
