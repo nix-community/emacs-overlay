@@ -1579,10 +1579,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.3.1";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.3.1.tar";
-          sha256 = "1gppjn9mhp9qbs62adymm036ygza877dszkw2d0hn554yp99f0br";
+          url = "https://elpa.gnu.org/packages/ement-0.4.tar";
+          sha256 = "1iqkygjvl1n3niljav1dw8dqrmjhy4cmcxb3gfv1a1ppi48mara4";
         };
         packageRequires = [
           emacs
@@ -2726,10 +2726,10 @@
       elpaBuild {
         pname = "map";
         ename = "map";
-        version = "3.2.1";
+        version = "3.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/map-3.2.1.tar";
-          sha256 = "1zj0y3nvkrd2v43za214xr3h9z6wyp7r5s6nf5g1pj272yb871d1";
+          url = "https://elpa.gnu.org/packages/map-3.3.1.tar";
+          sha256 = "1gvywhdfg27nx6pyq7yfwq9x6j96jama59i5s9rp41pvg2dlmvm0";
         };
         packageRequires = [ emacs ];
         meta = {
