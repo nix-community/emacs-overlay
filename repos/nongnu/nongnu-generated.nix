@@ -533,10 +533,10 @@
       elpaBuild {
         pname = "editorconfig";
         ename = "editorconfig";
-        version = "0.8.2";
+        version = "0.9.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/editorconfig-0.8.2.tar";
-          sha256 = "1ff8hwyzb249lf78j023sbibgfmimmk6mxkjmcnqqnk1jafprk02";
+          url = "https://elpa.nongnu.org/nongnu/editorconfig-0.9.0.tar";
+          sha256 = "1a7w0jhsfj9lnyqkw0wff3ap8vkn4vkf1nbscm0v8fqnkfc5yald";
         };
         packageRequires = [ cl-lib emacs nadvice ];
         meta = {
@@ -777,10 +777,10 @@
       elpaBuild {
         pname = "flymake-popon";
         ename = "flymake-popon";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/flymake-popon-0.3.tar";
-          sha256 = "1cmimdkav8cdl7x6qplm4pvj2ifyb3lk8h2q624vh7cxxlh8yq0l";
+          url = "https://elpa.nongnu.org/nongnu/flymake-popon-0.4.tar";
+          sha256 = "0dq65pfpgv8ppwwfbi2jyz5b8cib1vp2kxk9kdkl9ksjyl1isi4z";
         };
         packageRequires = [ emacs flymake popon posframe ];
         meta = {
@@ -2377,10 +2377,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.0.10";
+        version = "1.0.12";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.0.10.tar";
-          sha256 = "08vw9sv2g76yj8sfnx53dd28zkj4s0842i7qi92jam993v9s8h0z";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.0.12.tar";
+          sha256 = "175bvnya6sbf4ikvcv4knb7mkn42wzp0jhnz9dns7y0s2f6d8fhd";
         };
         packageRequires = [ emacs ];
         meta = {
