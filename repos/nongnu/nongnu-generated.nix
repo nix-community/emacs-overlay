@@ -2013,10 +2013,10 @@
       elpaBuild {
         pname = "projectile";
         ename = "projectile";
-        version = "2.5.0";
+        version = "2.6.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/projectile-2.5.0.tar";
-          sha256 = "09gsm6xbqj3357vlshs1w7ygfm004gpgs0pqrvwl6xmccxpqzmi0";
+          url = "https://elpa.nongnu.org/nongnu/projectile-2.6.0.tar";
+          sha256 = "0r0ylllx7vr903sjci1i6yf4xzn7k4azaw9l3azvc3mzrrjagvvj";
         };
         packageRequires = [ emacs ];
         meta = {
