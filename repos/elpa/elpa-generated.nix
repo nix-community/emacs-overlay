@@ -2237,16 +2237,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    hydra = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+    hydra = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib, lv }:
       elpaBuild {
         pname = "hydra";
         ename = "hydra";
-        version = "0.14.0";
+        version = "0.15.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/hydra-0.14.0.tar";
-          sha256 = "1r2vl2cpzqzayfzc0bijigxc7c0mkgcv96g4p65gnw99jk8d78kb";
+          url = "https://elpa.gnu.org/packages/hydra-0.15.0.tar";
+          sha256 = "1mppx20920kfq97wd7mkrn4bcmm46k5m8wqm49asd54w701iq3n1";
         };
-        packageRequires = [ cl-lib ];
+        packageRequires = [ cl-lib lv ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/hydra.html";
           license = lib.licenses.free;
