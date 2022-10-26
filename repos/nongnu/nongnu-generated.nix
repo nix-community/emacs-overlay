@@ -344,10 +344,10 @@
       elpaBuild {
         pname = "corfu-terminal";
         ename = "corfu-terminal";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/corfu-terminal-0.4.tar";
-          sha256 = "1rmfj2lzdab2s49k9ja79i7xcw74r9cr5kv7rgrisqxwgcnvsi95";
+          url = "https://elpa.nongnu.org/nongnu/corfu-terminal-0.5.tar";
+          sha256 = "1m53d4vi7cl91d8k550735r3ns4lm9vz3gvb0b7skib8jw3x5xqr";
         };
         packageRequires = [ corfu emacs popon ];
         meta = {
@@ -1983,10 +1983,10 @@
       elpaBuild {
         pname = "popon";
         ename = "popon";
-        version = "0.10";
+        version = "0.11";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/popon-0.10.tar";
-          sha256 = "06i29hhpw3shz5fam4h7g8qs23y0lq5qqmdmlbpjkkj7nkdjd9kp";
+          url = "https://elpa.nongnu.org/nongnu/popon-0.11.tar";
+          sha256 = "03xxh9w215kmlw6vr3cjs9afkj6vrcip7k954sssx77bs1bpnqhz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2377,10 +2377,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.0.12";
+        version = "1.0.14";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.0.12.tar";
-          sha256 = "175bvnya6sbf4ikvcv4knb7mkn42wzp0jhnz9dns7y0s2f6d8fhd";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.0.14.tar";
+          sha256 = "10xrhnd28k2aq0xwg7z5mllsfkwrv98lhw6jmv9hjc5v1birgak8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2392,10 +2392,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.8.0";
+        version = "0.8.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.8.0.tar";
-          sha256 = "1qzyqp2zvshmfdki778h5w8ca2d70r03qfq91z5fa23raylnxd9g";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.8.1.tar";
+          sha256 = "0ljy7i2phss68vpg4z8kn2dix06627ln4blf036a62a00ddcc8sm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2781,10 +2781,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "19.1.20221022135313";
+        version = "19.2.20221025102337";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-19.1.20221022135313.tar";
-          sha256 = "1vmsjpwqcz3c2waspd3xz220xkxxmxlw4w0xih1h45ra0w275r07";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-19.2.20221025102337.tar";
+          sha256 = "1qbzgb75psqxnviabjfmpj3vj0ippfsnp9yxhi74l4v0giv2aavj";
         };
         packageRequires = [ emacs ];
         meta = {
