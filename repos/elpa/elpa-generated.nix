@@ -1386,10 +1386,10 @@
       elpaBuild {
         pname = "ediprolog";
         ename = "ediprolog";
-        version = "2.1";
+        version = "2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ediprolog-2.1.el";
-          sha256 = "1piimsmzpirw8plrpy79xbpnvynzzhcxi31g6lg6is8gridiv3md";
+          url = "https://elpa.gnu.org/packages/ediprolog-2.2.tar";
+          sha256 = "021jm5zdxrjg7xcja18vgc2v52rk17xi1k7xxw8q802nmixhy0js";
         };
         packageRequires = [];
         meta = {
@@ -2179,10 +2179,10 @@
       elpaBuild {
         pname = "hiddenquote";
         ename = "hiddenquote";
-        version = "1.1";
+        version = "1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/hiddenquote-1.1.tar";
-          sha256 = "1j692ka84z6k9c3bhcn28irym5fga4d1wvhmvzvixdbfwn58ivw5";
+          url = "https://elpa.gnu.org/packages/hiddenquote-1.2.tar";
+          sha256 = "1ssfy1ha5a1pakihmkifry200k7z1mxcgl4w9pwvp7wmzbkv2zql";
         };
         packageRequires = [ emacs ];
         meta = {
