@@ -214,10 +214,10 @@
       elpaBuild {
         pname = "buttercup";
         ename = "buttercup";
-        version = "1.27";
+        version = "1.28";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/buttercup-1.27.tar";
-          sha256 = "18kgiaiqzy40vx1z14zs34p1vrljmg6s8fkck6fyvrbk8lpv0kay";
+          url = "https://elpa.nongnu.org/nongnu/buttercup-1.28.tar";
+          sha256 = "0gli1cxqiqg4adln7svplcc6rk718q4gn6idwxbzx8mgcwhmw75f";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2377,10 +2377,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.0.14";
+        version = "1.0.16";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.0.14.tar";
-          sha256 = "10xrhnd28k2aq0xwg7z5mllsfkwrv98lhw6jmv9hjc5v1birgak8";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.0.16.tar";
+          sha256 = "0l0nyjif0ha5cjgm3n90pk8jgh4grsabkcyx93ra4jf2323h5pv3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2781,10 +2781,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "20.0.20221025214709";
+        version = "21.0.20221026102048";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-20.0.20221025214709.tar";
-          sha256 = "0kxsccmzlqdx3y78c95ll5jv1x9lyndn3j9apjp2fav9p42i7g9s";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-21.0.20221026102048.tar";
+          sha256 = "1jxf5j2d0hr1x9fwsnw8n8jwdp4wwlhybf6hpj65hyb9sw2xhcjx";
         };
         packageRequires = [ emacs ];
         meta = {
