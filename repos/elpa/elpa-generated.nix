@@ -1416,10 +1416,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "0.8.0";
+        version = "0.9.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-0.8.0.tar";
-          sha256 = "0vzk76v8scad95ii90zzabxabbk4d4zh4wam3x460qyirs8qr0jy";
+          url = "https://elpa.gnu.org/packages/ef-themes-0.9.0.tar";
+          sha256 = "1yhnpnnz3v4v54ha4sibdzp2af6jq5p55jm0g6k0viqv2qpjmh3l";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2902,16 +2902,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    mmm-mode = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+    mmm-mode = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "mmm-mode";
         ename = "mmm-mode";
-        version = "0.5.8";
+        version = "0.5.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/mmm-mode-0.5.8.tar";
-          sha256 = "05ckf4zapdpvnd3sqpw6kxaa567zh536a36m9qzx3sqyjbyn5fb4";
+          url = "https://elpa.gnu.org/packages/mmm-mode-0.5.9.tar";
+          sha256 = "12fss1ccb66xc87m5wpr3vg7bfrzz5m0q6s7pa0avvhsm2f8r2yh";
         };
-        packageRequires = [ cl-lib ];
+        packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/mmm-mode.html";
           license = lib.licenses.free;
@@ -2940,10 +2940,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "2.7.1";
+        version = "3.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-themes-2.7.1.tar";
-          sha256 = "1ms5nig05z26342723jln50m7xq055knr2570x40lkg2m9s1ikx1";
+          url = "https://elpa.gnu.org/packages/modus-themes-3.0.0.tar";
+          sha256 = "1c3rls175nmc4n01hfzwqxv2nhyv8n6i8d4pv93k28z6c30n8lhs";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3099,10 +3099,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "0.7.1";
+        version = "0.7.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-modeline-0.7.1.tar";
-          sha256 = "18a4mp27z6pj87yhp81x5a79g0kv6mzzd0axq2p31003r675l0hx";
+          url = "https://elpa.gnu.org/packages/nano-modeline-0.7.2.tar";
+          sha256 = "14405gj7fh14incbpsg75fwzxfzazqp9lfk60i4w731kfwhlc727";
         };
         packageRequires = [ emacs ];
         meta = {
