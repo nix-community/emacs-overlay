@@ -2796,10 +2796,10 @@
       elpaBuild {
         pname = "xml-rpc";
         ename = "xml-rpc";
-        version = "1.6.15";
+        version = "1.6.16";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xml-rpc-1.6.15.tar";
-          sha256 = "0z87rn7zbd8335iqfvk16zpvby66l0izzw438pxdr7kf60i5vgwl";
+          url = "https://elpa.nongnu.org/nongnu/xml-rpc-1.6.16.tar";
+          sha256 = "0gglrrnicbsf1lrk4pwmif5658yrhx80ixgi5hm85p8yxarn3ynm";
         };
         packageRequires = [];
         meta = {
