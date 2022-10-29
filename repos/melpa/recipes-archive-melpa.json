@@ -6423,14 +6423,14 @@
   "repo": "dykstrom/basic-mode",
   "unstable": {
    "version": [
-    20221015,
-    901
+    20221029,
+    1306
    ],
    "deps": [
     "seq"
    ],
-   "commit": "d270a692ed4a9c6b172d1215ee538ebaff947eab",
-   "sha256": "0lrmsf23yrqpl4vqihwqa8y8mkk80agzdgkv26rsdbgc2psajsig"
+   "commit": "fb54b023f384478ada8ee79e1b95a101082ec288",
+   "sha256": "14p9k45jj4ih0iz9240ycpallw01dgi6pwks625pd2vn73qx0z6x"
   },
   "stable": {
    "version": [
@@ -66837,8 +66837,8 @@
  },
  {
   "ename": "log4j-mode",
-  "commit": "caaa21f235c4864f6008fb454d0a970a2fd22a86",
-  "sha256": "0311jb47fjji8dqy98anr487f7vnvi85p4mn5ymqvxs5c6972gms",
+  "commit": "bd8b15d28b2c94a84c0431af1a2ab77536b2767c",
+  "sha256": "0s0jbzg1g6fkqx7aq01lg8iv68c5g2hxxz1pssgkillx7442429q",
   "fetcher": "git",
   "url": "https://git.code.sf.net/p/log4j-mode/code",
   "unstable": {
@@ -70448,15 +70448,15 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20221015,
-    2004
+    20221029,
+    1039
    ],
    "deps": [
     "persist",
     "request"
    ],
-   "commit": "cf02b35a4170bbde1d36a24591e11d553f0be58f",
-   "sha256": "1g7kn17r3nj3zdm6zq4i6c38hrc0b0my7xqkdzcc7bah0z666fgd"
+   "commit": "2d25c1546c3d011b8b494c02277ac64eb91340d3",
+   "sha256": "1v100573bdmi91i6bazxjlykrrhskhmjpz4w628pzl1ngmz2191i"
   },
   "stable": {
    "version": [
@@ -71088,16 +71088,17 @@
   "repo": "skangas/mentor",
   "unstable": {
    "version": [
-    20221015,
-    451
+    20221029,
+    219
    ],
    "deps": [
     "async",
     "seq",
+    "url-scgi",
     "xml-rpc"
    ],
-   "commit": "c1d7121a455aaeebb11254916d4c0037a8171fec",
-   "sha256": "1crzwz3miphdw2abg9g0l7i2mmwccvnqx16d96s6s2c246nnqvls"
+   "commit": "480602f2ec5467aa2418ee98b328fb85d3b58d0c",
+   "sha256": "1yjlv14wab2a39bi5v1p5mkri696fq22j1fnac1k83qc3s67m4hi"
   },
   "stable": {
    "version": [
@@ -88829,10 +88830,10 @@
   "unstable": {
    "version": [
     20221029,
-    908
+    1055
    ],
-   "commit": "a374b6410207cafc87f2af5a63f2370f0a71b76d",
-   "sha256": "1sam4j8ai4n6izvx3s65lsjd0slm9sh6249hqy21c2ay5kp0k7c9"
+   "commit": "5a6209750453b742c56482d0e9eb6dd8b251d43b",
+   "sha256": "1y77n2mm726r3xaipz7vaggwp3rvrsk0dhqw6124rp7m01610s8q"
   },
   "stable": {
    "version": [
@@ -100195,11 +100196,11 @@
   "repo": "ideasman42/emacs-scroll-on-drag",
   "unstable": {
    "version": [
-    20220708,
-    211
+    20221029,
+    1137
    ],
-   "commit": "6d4de55bb6b72aaec53b82b8f8cdccc5396d6bf5",
-   "sha256": "0irv4xp7zlyiw1rfpdr1skspp9m6wvvcbmyxzkldpnbn2gbiy8xi"
+   "commit": "124f26dc874fc6c75f6feeb31c882c3765476e68",
+   "sha256": "1473xaajmsl3ddr3mf12k66a05s87m99mh4l9lmi64ya6n9xjfmr"
   }
  },
  {
@@ -100210,11 +100211,11 @@
   "repo": "ideasman42/emacs-scroll-on-jump",
   "unstable": {
    "version": [
-    20220708,
-    211
+    20221029,
+    1138
    ],
-   "commit": "0cba79dcb28fd82abe9d1c1bbc00fd7655dcedf6",
-   "sha256": "1y44f074j4aigg9h2j2fzy94ndb1xx7mashk441y4mh1ghv8nmrr"
+   "commit": "b0525ea8812579b11428f3bd0cebc41dcb192ef0",
+   "sha256": "1qvv36hmm7yb5m2khlv115rfh8m0s9lhg6jda0dwgs3nifhgxf8v"
   }
  },
  {
