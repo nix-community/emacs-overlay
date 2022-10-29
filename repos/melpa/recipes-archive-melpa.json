@@ -7408,11 +7408,11 @@
   "repo": "jwiegley/use-package",
   "unstable": {
    "version": [
-    20221026,
-    1834
+    20221028,
+    1858
    ],
-   "commit": "5c95dcb1e8690ab5f15342dc9d4bedd599f1650f",
-   "sha256": "16986nlca7qnmk22sq5vn05pmfdhgcww21djyxh9xx7k4hkgwn9g"
+   "commit": "4095f1bdae7989981803d25a52384383116e6db6",
+   "sha256": "09xqc0gag3f84qa4p72ibmjxwy4c52nhkr3pjqpqkdpj82g9grj9"
   },
   "stable": {
    "version": [
@@ -21570,11 +21570,11 @@
   "repo": "jcs-elpa/diminish-buffer",
   "unstable": {
    "version": [
-    20220704,
-    648
+    20221028,
+    1921
    ],
-   "commit": "2069f27332a05608a5246684bc4d6850c14a4890",
-   "sha256": "0v01nkkwg6vr3gddslmca823ll0j9bz5i0jivnbp74z08ycx6jny"
+   "commit": "983854a90ae39ef5d4d7aecaea108dc64aa2a593",
+   "sha256": "0zb5afa150cm0dv68ksl21x5k2f6dx8sd7isanad1kpz1kii7c0c"
   },
   "stable": {
    "version": [
@@ -43120,14 +43120,14 @@
   "repo": "emacs-geiser/geiser",
   "unstable": {
    "version": [
-    20221023,
-    2345
+    20221029,
+    27
    ],
    "deps": [
     "project"
    ],
-   "commit": "67fae675d40833fe10471a6b237a16efef03b845",
-   "sha256": "0l3acrcv9qh44a47cbyk6fxrnbridqmf7qxzb4i2wa1p4wwgx2va"
+   "commit": "d90a08de80ce9d2666fc1fd477a2743c64b45de0",
+   "sha256": "13vn0xcqrckv02lalpzn9hy7k73pr9ir8s9l1lp0jcyw8p39dcdy"
   },
   "stable": {
    "version": [
@@ -48720,6 +48720,17 @@
    "version": [
     20221028,
     1714
+   ],
+   "deps": [
+    "ts"
+   ],
+   "commit": "fbd3a05bc1187ccdbf28817a60bce130e2e4fb86",
+   "sha256": "0qnq07glv0qz4m4gwqxg6iis264m6in4gmwgvlmarxczdzqjav74"
+  },
+  "stable": {
+   "version": [
+    0,
+    1
    ],
    "deps": [
     "ts"
@@ -108981,14 +108992,14 @@
   "unstable": {
    "version": [
     20221028,
-    607
+    1940
    ],
    "deps": [
     "rainbow-identifiers",
     "visual-fill-column"
    ],
-   "commit": "864ed69218d3fb77ce1ec56d4e52ea5b98b67a87",
-   "sha256": "1gddaiav0ks7rzp229hdigqpqy0f5bqmzcmnwqfgww1ccdzmpp29"
+   "commit": "8071a84a58f4a649e623f1a34a5b0aba7e9dbc45",
+   "sha256": "0nksqdc65afcm7xrwfcvj7lydi98crbq13r9khji9sgln05ah22m"
   },
   "stable": {
    "version": [
