@@ -3658,10 +3658,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.25";
+        version = "0.4.26";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.25.tar";
-          sha256 = "1sqwh7lkpgwc8m7vrbzjk8vc2p3b9gq6smyz6zx8pq4pf1rqkzrd";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.26.tar";
+          sha256 = "04941sas0dhfq9kli6y5clv33iajzb5gpnr27ddnl0j5if7v958k";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5034,6 +5034,21 @@
         packageRequires = [ cl-lib ntlm ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/url-http-ntlm.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    url-scgi = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "url-scgi";
+        ename = "url-scgi";
+        version = "0.7";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/url-scgi-0.7.tar";
+          sha256 = "1q9a8gj4c8z07abqqkcvg94s2vchnl6gnh5g8nwapnihn5mvc1rb";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/url-scgi.html";
           license = lib.licenses.free;
         };
       }) {};
