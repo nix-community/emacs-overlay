@@ -1582,16 +1582,17 @@
                           , fetchurl
                           , lib
                           , seq
+                          , url-scgi
                           , xml-rpc }:
       elpaBuild {
         pname = "mentor";
         ename = "mentor";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/mentor-0.4.tar";
-          sha256 = "1n51yabm4npx62fpfn8rhky09x4y779ismdxa026fycy7va7ynzz";
+          url = "https://elpa.nongnu.org/nongnu/mentor-0.5.tar";
+          sha256 = "1kkzm881fxhc5hb83x0j12lv22b72nzw45qrypbl1jf2siispz9l";
         };
-        packageRequires = [ async emacs seq xml-rpc ];
+        packageRequires = [ async emacs seq url-scgi xml-rpc ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/mentor.html";
           license = lib.licenses.free;
