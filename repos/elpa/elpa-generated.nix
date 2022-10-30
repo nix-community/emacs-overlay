@@ -3129,10 +3129,10 @@
       elpaBuild {
         pname = "nano-theme";
         ename = "nano-theme";
-        version = "0.3.1";
+        version = "0.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-theme-0.3.1.tar";
-          sha256 = "003jhzh52iqrqlxh1gpv3y2wjlxx4ng3al5zcpm5q42kix8cjpd1";
+          url = "https://elpa.gnu.org/packages/nano-theme-0.3.2.tar";
+          sha256 = "06wymn2a0sjp5ggr6r06b21s3f77adjv7f9ddfpgz2blr0v4ld8w";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5041,10 +5041,10 @@
       elpaBuild {
         pname = "url-scgi";
         ename = "url-scgi";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/url-scgi-0.7.tar";
-          sha256 = "1q9a8gj4c8z07abqqkcvg94s2vchnl6gnh5g8nwapnihn5mvc1rb";
+          url = "https://elpa.gnu.org/packages/url-scgi-0.8.tar";
+          sha256 = "1837vyamwk5mp2nf3k477hyr5pq1xy6p7br7kl6h2k8jmxqy3mlj";
         };
         packageRequires = [ emacs ];
         meta = {
