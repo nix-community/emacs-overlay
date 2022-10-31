@@ -1251,10 +1251,10 @@
       elpaBuild {
         pname = "doc-toc";
         ename = "doc-toc";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/doc-toc-1.0.tar";
-          sha256 = "07yan1jmp6q87rhm8bmglswnhzlh5r9j35x5sqm5yfx0pcp16kpj";
+          url = "https://elpa.gnu.org/packages/doc-toc-1.1.tar";
+          sha256 = "145k0w84nda1gq5g8zd9510kxhqqqk72ladi3av6hpydvym6bszz";
         };
         packageRequires = [ emacs ];
         meta = {
