@@ -6435,14 +6435,14 @@
   "stable": {
    "version": [
     0,
-    5,
+    6,
     0
    ],
    "deps": [
     "seq"
    ],
-   "commit": "d270a692ed4a9c6b172d1215ee538ebaff947eab",
-   "sha256": "0lrmsf23yrqpl4vqihwqa8y8mkk80agzdgkv26rsdbgc2psajsig"
+   "commit": "fb54b023f384478ada8ee79e1b95a101082ec288",
+   "sha256": "14p9k45jj4ih0iz9240ycpallw01dgi6pwks625pd2vn73qx0z6x"
   }
  },
  {
@@ -66878,6 +66878,14 @@
    ],
    "commit": "30af0543adf69be646c7634f39c5617984086048",
    "sha256": "1ahxrim4x583rxirc9xqiyqp2vmkyxhfah3nskj65s0gy7is8isg"
+  },
+  "stable": {
+   "version": [
+    1,
+    4
+   ],
+   "commit": "30af0543adf69be646c7634f39c5617984086048",
+   "sha256": "1ahxrim4x583rxirc9xqiyqp2vmkyxhfah3nskj65s0gy7is8isg"
   }
  },
  {
@@ -67767,8 +67775,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20221030,
-    1802
+    20221031,
+    1237
    ],
    "deps": [
     "dash",
@@ -67778,8 +67786,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "31645f9fcd4d353acc17792eeb17056d4e33b538",
-   "sha256": "17759ma74gnwg5j4qk5234ip0n2pmbl3mrjszziqfcs4jgs4sf67"
+   "commit": "dfda673decbc82fc23079b897915f23f04c02a1c",
+   "sha256": "0f70ph8fs8j5vncspbgmp16zxhl409wrc7p9jcjx928xzzx7p833"
   },
   "stable": {
    "version": [
@@ -69036,15 +69044,15 @@
   "repo": "Ailrun/magit-lfs",
   "unstable": {
    "version": [
-    20220314,
-    1957
+    20221031,
+    1447
    ],
    "deps": [
     "dash",
     "magit"
    ],
-   "commit": "8ebe246f20f4ab5c9f191c38137833c7f01a0432",
-   "sha256": "08ild7xc9m8pvkb23x5kxdc7ar7gz7470fng1f0zjlk4izbf1nh5"
+   "commit": "cd9f46e1840270be27e2c2d9dcf036ff0781f66d",
+   "sha256": "0psnyxrc7fy2vng81mak0ji7kw58ly01frzr5z2xpj08hxx16b3c"
   },
   "stable": {
    "version": [
@@ -76047,15 +76055,15 @@
   "repo": "NixOS/nix-mode",
   "unstable": {
    "version": [
-    20221030,
-    2329
+    20221031,
+    1601
    ],
    "deps": [
     "magit-section",
     "transient"
    ],
-   "commit": "5efb5383aba571a35e59660f68bad02ec70fdd98",
-   "sha256": "1sgfh46p4m7n3x2pxal7fgppw1fc8q4ci0r5qq6g2va8z0lb995w"
+   "commit": "b76c8477941429aae6ebe42448f1c75d28bc842f",
+   "sha256": "0gsqclywm8vhpzx7i8la57h7yj1wpj2aq15hp8f2ap832xi2vfp3"
   },
   "stable": {
    "version": [
@@ -94746,11 +94754,11 @@
   "repo": "python-mode-devs/python-mode",
   "unstable": {
    "version": [
-    20221030,
-    1552
+    20221031,
+    1030
    ],
-   "commit": "63dfe387f50d521e7b6b20a848166a85e34d09c9",
-   "sha256": "08la71128r434h3b5nn04cn5jpj1p9kin367phc7crxfa2dksmgd"
+   "commit": "d0fd742a28e051b99490e48971dafd9766064553",
+   "sha256": "17jzl1njx420aram9p2kki1f1drwrnr0n6zglc8sv8azli0nxsq4"
   },
   "stable": {
    "version": [
@@ -100956,15 +100964,15 @@
   "repo": "twlz0ne/separedit.el",
   "unstable": {
    "version": [
-    20220924,
-    225
+    20221031,
+    304
    ],
    "deps": [
     "dash",
     "edit-indirect"
    ],
-   "commit": "328d792401f8f099472c4c35a2c085fbe18fd00d",
-   "sha256": "1w68083gwbahi85jpac0hv3p2xzn7gfn0gh2xpss2q2b8hc6cbig"
+   "commit": "d40ba1ffa2f28d352c709ef6b01548cb26d206ea",
+   "sha256": "12zpra8dn1acm3dzk0fa8yqa3miqwbyj6699c8frql6z9j7jmx79"
   },
   "stable": {
    "version": [
@@ -107585,14 +107593,14 @@
   "repo": "thblt/sway.el",
   "unstable": {
    "version": [
-    20211109,
-    1601
+    20221031,
+    1042
    ],
    "deps": [
     "dash"
    ],
-   "commit": "d84adab82ca5f84847702671dd60c0377c82ccd9",
-   "sha256": "1xqlflk0k1zcsblydsx583mrh5zxpjbah8h1jb1lrfzwrbx0m627"
+   "commit": "2007416933e20d83afdc084445728153f2e573ad",
+   "sha256": "0x9lc5qpa9al6ialjhll9mrjb2ykxzh75j173x4myd14ij7h8zzf"
   },
   "stable": {
    "version": [
@@ -118775,11 +118783,11 @@
   "repo": "jobbflykt/x509-mode",
   "unstable": {
    "version": [
-    20220926,
-    944
+    20221031,
+    1303
    ],
-   "commit": "933b02832ca2e098f865d2080b9feb058afa008b",
-   "sha256": "12bc8jzay4l7wmw177l7x3h5yaf8gg3vzisbcvbfcn0x076765ll"
+   "commit": "d28afe60398001753800ff721b6b098236b1b9bd",
+   "sha256": "0g7m728kzrpwzldim2w4mikdg2sqchdpbs1b6351l9hxl4r7aran"
   }
  },
  {
