@@ -2722,6 +2722,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    lv = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "lv";
+        ename = "lv";
+        version = "0.15.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/lv-0.15.0.tar";
+          sha256 = "1xnyk8bvr0bdz68qc1sga3w9lwdga5qpp3m7290z1vyv0mznh4gm";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/lv.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     map = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "map";
