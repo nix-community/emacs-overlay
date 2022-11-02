@@ -1178,10 +1178,10 @@
       elpaBuild {
         pname = "haskell-mode";
         ename = "haskell-mode";
-        version = "4.7.1";
+        version = "17.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/haskell-mode-4.7.1.tar";
-          sha256 = "07x7440xi8dkv1zpzwi7p96jy3zd6pdv1mhs066l8bp325516wyb";
+          url = "https://elpa.nongnu.org/nongnu/haskell-mode-17.2.tar";
+          sha256 = "1crq9065jy3941z9wh09n82x7bbbmxgcn9ylfj9xgn1rcvgb0cmg";
         };
         packageRequires = [];
         meta = {
@@ -2288,10 +2288,10 @@
       elpaBuild {
         pname = "smartparens";
         ename = "smartparens";
-        version = "4.7.1";
+        version = "17.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/smartparens-4.7.1.tar";
-          sha256 = "0si9wb7j760c4vdv7p049bgppppw5crrh50038bsh8sghq2gdld8";
+          url = "https://elpa.nongnu.org/nongnu/smartparens-17.2.tar";
+          sha256 = "1hj2h30n4lpj1bsy7bjxcy3wd0l795ypxx3l81gvlc212jrz9kj2";
         };
         packageRequires = [];
         meta = {
