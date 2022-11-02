@@ -2288,10 +2288,10 @@
       elpaBuild {
         pname = "smartparens";
         ename = "smartparens";
-        version = "17.2";
+        version = "1.11.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/smartparens-17.2.tar";
-          sha256 = "1hj2h30n4lpj1bsy7bjxcy3wd0l795ypxx3l81gvlc212jrz9kj2";
+          url = "https://elpa.nongnu.org/nongnu/smartparens-1.11.0.tar";
+          sha256 = "1179wicy5nrjk2iq73rxkx6c44k9ybs1vz6llw0qbwc5l10diyvr";
         };
         packageRequires = [];
         meta = {
