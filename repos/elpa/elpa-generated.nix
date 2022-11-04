@@ -891,10 +891,10 @@
       elpaBuild {
         pname = "crdt";
         ename = "crdt";
-        version = "0.3.3";
+        version = "0.3.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/crdt-0.3.3.tar";
-          sha256 = "12xdqdp4zwd163wc19cjakabgjyzm4l4xg4bns6q1p60zgynbkx8";
+          url = "https://elpa.gnu.org/packages/crdt-0.3.4.tar";
+          sha256 = "1wha43mrllnpc2i7p91dns8iwaxf60mp20h234c07m9jcjvcxrmc";
         };
         packageRequires = [];
         meta = {
