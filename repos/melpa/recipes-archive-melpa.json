@@ -23699,15 +23699,15 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20221103,
-    1645
+    20221104,
+    409
    ],
    "deps": [
     "compat",
     "shrink-path"
    ],
-   "commit": "87b92894c0aad6961a923c5d278efa551129d636",
-   "sha256": "05vx60cpl05x9zfzgzmmi5skjqibppfycs8jbz5lgblw5d7jpfzl"
+   "commit": "1cd3d1c8e16d00ba0bff3cbd1b28adb0531cc500",
+   "sha256": "1gkpcnij9aisqy2y6vfbrhcwwjd45qc45qsw0zry4by6zlkwiip6"
   },
   "stable": {
    "version": [
@@ -24516,11 +24516,11 @@
   "repo": "xenodium/dwim-shell-command",
   "unstable": {
    "version": [
-    20221102,
-    923
+    20221104,
+    734
    ],
-   "commit": "bc2e9bb89c4dc244ff6795c89c8539897191a1bd",
-   "sha256": "1jwl9gan34gr03a2ha82d3xhq2ivv0qi475v9i3zmnjj5nnrh4hf"
+   "commit": "37ae27f55210f35684c1c83fc5a3eda7a0c68872",
+   "sha256": "19pwrm0qzw8i4q1g9s43jb8g7915k56jihcp6ylmhs6rl39lipgk"
   }
  },
  {
@@ -37046,8 +37046,8 @@
   "repo": "flycheck/flycheck",
   "unstable": {
    "version": [
-    20220928,
-    1355
+    20221104,
+    549
    ],
    "deps": [
     "dash",
@@ -37055,8 +37055,8 @@
     "pkg-info",
     "seq"
    ],
-   "commit": "d72c29fec85f1da6584475d88c1265f80e1275ad",
-   "sha256": "1l39inrl26z9z13hdvbi8wk0zqnx31j4g2bs5nv80fxc8j5sxqna"
+   "commit": "5f31d75af803e541684eb606fa9831106b02039c",
+   "sha256": "038qp162fzdlfsdxxgm9v3r2ijbhm9cs7rkg26vn4355rs1jgajh"
   },
   "stable": {
    "version": [
@@ -43072,26 +43072,25 @@
   "repo": "emacs-geiser/geiser",
   "unstable": {
    "version": [
-    20221101,
-    1622
+    20221104,
+    426
    ],
    "deps": [
     "project"
    ],
-   "commit": "dbde6d2b446b41bc309da33aa69034c63f8294a5",
-   "sha256": "14hi7jz15n1szwcwczfvygbjbnr16s11iqfgda7i8ja82v7skgjp"
+   "commit": "04dbdacfeca0190856abad859360da4bb873f9dd",
+   "sha256": "0dd20cq3nz4jjysaqx2aiqqaxvkfkbj2x4zm2mz3pd4rmydckj2y"
   },
   "stable": {
    "version": [
     0,
-    27
+    28
    ],
    "deps": [
-    "project",
-    "transient"
+    "project"
    ],
-   "commit": "af81e4fb1088d9ccbd36dcd541e29eb2770e4d87",
-   "sha256": "1mk9m6vya544in3b41mj8g7453dchiaj7hp6m6ymmcbfmlbfdwk2"
+   "commit": "04dbdacfeca0190856abad859360da4bb873f9dd",
+   "sha256": "0dd20cq3nz4jjysaqx2aiqqaxvkfkbj2x4zm2mz3pd4rmydckj2y"
   }
  },
  {
@@ -43245,27 +43244,28 @@
   "repo": "emacs-geiser/guile",
   "unstable": {
    "version": [
-    20221101,
-    1625
+    20221104,
+    427
    ],
    "deps": [
     "geiser",
     "transient"
    ],
-   "commit": "56fcdb0b73c1388b7695f4e2d3d3736ca4453e73",
-   "sha256": "1yiij1nvbsfb72vvsps0x7gnhh3wsvzz949sfkz5sqkb0lskq2d3"
+   "commit": "f5e82dc0f5a076335f201885a7edbefaa1ad435f",
+   "sha256": "13qxg1npm0pmnml5q268k5xk1clyqldp8v200ihrqwqlc3ga7f36"
   },
   "stable": {
    "version": [
     0,
-    26,
-    1
+    28,
+    0
    ],
    "deps": [
-    "geiser"
+    "geiser",
+    "transient"
    ],
-   "commit": "e540e14db538ed0d116a188569413f5aadd79180",
-   "sha256": "06939mv9i7zzqvq71d0ixk3y9135132f3pk9jgjdwvacl1d31h8k"
+   "commit": "f5e82dc0f5a076335f201885a7edbefaa1ad435f",
+   "sha256": "13qxg1npm0pmnml5q268k5xk1clyqldp8v200ihrqwqlc3ga7f36"
   }
  },
  {
@@ -46594,11 +46594,11 @@
   "repo": "emacsorphanage/god-mode",
   "unstable": {
    "version": [
-    20210102,
-    515
+    20221104,
+    448
    ],
-   "commit": "a72feb2fe8b1a8993c472995d83d9c4718f7a7c1",
-   "sha256": "1wsc04l5j5a9y5439qx85pcchxjnjgcgwbffw3l30q9zlblvc58b"
+   "commit": "c4aea10fb278d5ddbdd047c211444eb1b0b5da60",
+   "sha256": "1ydk1ihspmciyd0c9gk56m5qqdz2z5yzf6q6nv91qadrcm2fq0qj"
   },
   "stable": {
    "version": [
