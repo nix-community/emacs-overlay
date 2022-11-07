@@ -3725,10 +3725,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "5.2.7";
+        version = "5.2.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-5.2.7.tar";
-          sha256 = "172nccb04sgyhqi6dxfzlvjhwqzrq907csi2bsparlmm505n5363";
+          url = "https://elpa.gnu.org/packages/pyim-5.2.8.tar";
+          sha256 = "1klarzr5lfga09ysq3c7gkgmzl6r08gpl4519x5damxd82x4r3y2";
         };
         packageRequires = [ async emacs xr ];
         meta = {
@@ -4902,6 +4902,21 @@
         packageRequires = [ heap tNFA ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/trie.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    triples = callPackage ({ elpaBuild, emacs, fetchurl, lib, seq }:
+      elpaBuild {
+        pname = "triples";
+        ename = "triples";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/triples-0.1.tar";
+          sha256 = "1b1qrrg60wx4ikl9nd8gmawj0pc0yysxq901l29336gwpbwj81y7";
+        };
+        packageRequires = [ emacs seq ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/triples.html";
           license = lib.licenses.free;
         };
       }) {};
