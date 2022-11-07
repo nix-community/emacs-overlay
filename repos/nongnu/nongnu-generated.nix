@@ -533,10 +533,10 @@
       elpaBuild {
         pname = "editorconfig";
         ename = "editorconfig";
-        version = "0.9.0";
+        version = "0.9.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/editorconfig-0.9.0.tar";
-          sha256 = "1a7w0jhsfj9lnyqkw0wff3ap8vkn4vkf1nbscm0v8fqnkfc5yald";
+          url = "https://elpa.nongnu.org/nongnu/editorconfig-0.9.1.tar";
+          sha256 = "0i271313bsk3hlkc3bzjv79i20y6ffk7gwn26rnhljwpi828wfsw";
         };
         packageRequires = [ cl-lib emacs nadvice ];
         meta = {
