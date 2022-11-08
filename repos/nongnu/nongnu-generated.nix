@@ -2378,10 +2378,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.0.16";
+        version = "1.0.18";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.0.16.tar";
-          sha256 = "0l0nyjif0ha5cjgm3n90pk8jgh4grsabkcyx93ra4jf2323h5pv3";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.0.18.tar";
+          sha256 = "1iddwddsw2vwzqz6pck8p76ya7ai248mxhg2whin3d3fw4c8xcfz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2393,10 +2393,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.8.1";
+        version = "0.8.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.8.1.tar";
-          sha256 = "0ljy7i2phss68vpg4z8kn2dix06627ln4blf036a62a00ddcc8sm";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.8.3.tar";
+          sha256 = "0gng74bxb0nw7lm147gq2qsgry7y1dwskhrqfzfvx6jjvw86lcg7";
         };
         packageRequires = [ emacs ];
         meta = {
