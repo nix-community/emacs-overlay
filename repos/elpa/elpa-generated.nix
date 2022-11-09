@@ -508,10 +508,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.9";
+        version = "0.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cape-0.9.tar";
-          sha256 = "0bjzm1jf3554q83mbmyj584v29cgb0s5wpj74y4p9iyy40g739rw";
+          url = "https://elpa.gnu.org/packages/cape-0.10.tar";
+          sha256 = "1ykr01wb0mgs1z181fk9m65lcrv60as5qzbnd0cnndva7p3078lc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3380,10 +3380,10 @@
       elpaBuild {
         pname = "org-transclusion";
         ename = "org-transclusion";
-        version = "1.3.0";
+        version = "1.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-transclusion-1.3.0.tar";
-          sha256 = "1fgxpx5cikp03xzki55b7davx8m6zmrmrd0jzd69mv9gyw3bywg7";
+          url = "https://elpa.gnu.org/packages/org-transclusion-1.3.1.tar";
+          sha256 = "1v7i2i28500p4gvikcpp931qpks9zmvfpf6lfzrqdqppx2ix295q";
         };
         packageRequires = [ emacs org ];
         meta = {
