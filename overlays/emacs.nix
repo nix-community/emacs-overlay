@@ -122,6 +122,8 @@ let
     ]);
   };
 
+  emacsLsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json { nativeComp = true; });
+
 in
 {
   inherit emacsGit emacsUnstable;
@@ -163,6 +165,8 @@ in
   );
 
   inherit emacsGitTreeSitter;
+
+  inherit emacsLsp;
 
   emacsWithPackagesFromUsePackage = import ../elisp.nix { pkgs = self; };
 
