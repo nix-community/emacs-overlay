@@ -3061,10 +3061,10 @@
       elpaBuild {
         pname = "nano-theme";
         ename = "nano-theme";
-        version = "0.3.2";
+        version = "0.3.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-theme-0.3.2.tar";
-          sha256 = "06wymn2a0sjp5ggr6r06b21s3f77adjv7f9ddfpgz2blr0v4ld8w";
+          url = "https://elpa.gnu.org/packages/nano-theme-0.3.3.tar";
+          sha256 = "0agdvl85ljiawa06x02zj78crq1y1vg0sr7dqxcl36zx8vhzc08v";
         };
         packageRequires = [ emacs ];
         meta = {
