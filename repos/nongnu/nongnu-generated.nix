@@ -1208,10 +1208,10 @@
       elpaBuild {
         pname = "helm";
         ename = "helm";
-        version = "3.8.9";
+        version = "3.9.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-3.8.9.tar";
-          sha256 = "0hikp6g5g7cy290qxd768vxy91gxj92cwrrzp8kicxy3qck1q39v";
+          url = "https://elpa.nongnu.org/nongnu/helm-3.9.0.tar";
+          sha256 = "00lln7g27iipa9lhd9hw3gl6s92d2di4nlfyjz0hgg32v39fnvjd";
         };
         packageRequires = [ helm-core popup ];
         meta = {
@@ -1223,10 +1223,10 @@
       elpaBuild {
         pname = "helm-core";
         ename = "helm-core";
-        version = "3.8.9";
+        version = "3.9.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-core-3.8.9.tar";
-          sha256 = "03fzcc84gjslgsssbpjhdgnj7dn0pdfb5b2x79ss9vfvxamf2k94";
+          url = "https://elpa.nongnu.org/nongnu/helm-core-3.9.0.tar";
+          sha256 = "1fvrxj64qc4976s6af2zc428dnx2p0skxdnkjikz8rpw8kmffcb9";
         };
         packageRequires = [ async emacs ];
         meta = {
@@ -1969,10 +1969,10 @@
       elpaBuild {
         pname = "php-mode";
         ename = "php-mode";
-        version = "1.24.1";
+        version = "1.24.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/php-mode-1.24.1.tar";
-          sha256 = "0ixm7z2bq4aacbwyzx53alfnqwbdn36i5ixdi3qjhr8rh5k48vg1";
+          url = "https://elpa.nongnu.org/nongnu/php-mode-1.24.2.tar";
+          sha256 = "1v84b7mjilr6z1zmjfvwp4mwc68mb298fcn03xcaivnd91gvmvs2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2176,6 +2176,21 @@
         packageRequires = [ cl-lib haml-mode ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/sass-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    scad-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "scad-mode";
+        ename = "scad-mode";
+        version = "93.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/scad-mode-93.1.tar";
+          sha256 = "0k9wqz2nd4j0wz2y300nn6rs8a9vpshnaa2hx6f8649k4y87bblp";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/scad-mode.html";
           license = lib.licenses.free;
         };
       }) {};
