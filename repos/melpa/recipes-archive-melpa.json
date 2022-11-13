@@ -4169,13 +4169,13 @@
   "unstable": {
    "version": [
     20221112,
-    48
+    2256
    ],
    "deps": [
     "yaml"
    ],
-   "commit": "374d9703afd2976736abe6a73c4d4561a3238211",
-   "sha256": "1lgy0yrvf5cx9cw95kg8w3xdy3fniagny9pv7an1lydhbfh8nn9w"
+   "commit": "0234a9fe3e4bea7717e857f516209fcc00cf85c0",
+   "sha256": "184v0773cxggidk06wnsziib3kxkdhfr1j8hizmi75hnsrn1g2ya"
   },
   "stable": {
    "version": [
@@ -23777,14 +23777,14 @@
   "repo": "doomemacs/themes",
   "unstable": {
    "version": [
-    20220916,
-    1056
+    20221112,
+    2247
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "535800fd6ca7f5af56f7aa3d0e8f46fef8b7999b",
-   "sha256": "1pqp46dk423j4iiiqx5ddijvinlyp1014amg2s7b57sqya1r19x9"
+   "commit": "b5ff201f4bea4286e9ed015a2043cf2394182232",
+   "sha256": "04xq0v50rhikwfkzhwx2rzismipb2b57niks7s1svfp4jl1sg5fm"
   },
   "stable": {
    "version": [
@@ -39759,15 +39759,15 @@
   "repo": "mohkale/flymake-collection",
   "unstable": {
    "version": [
-    20221111,
-    1815
+    20221113,
+    1
    ],
    "deps": [
     "flymake",
     "let-alist"
    ],
-   "commit": "976ac70153a0a18da22e068c740c3394bec28545",
-   "sha256": "1zxbks772vq4pj289n11fm79f7xk4iy69z99wvvmy4mv9mim5hrv"
+   "commit": "274e5ec3e614e73fd0d7c3e1ffc652461bf5b5f3",
+   "sha256": "18mwz6i84y1wdw8zq13rmx8jsax6fkiqvlbngix7sp2vy8mqgv5c"
   },
   "stable": {
    "version": [
@@ -39893,6 +39893,30 @@
    ],
    "commit": "2a24f260cdc3b9c8f9263b653a475d90efa1d392",
    "sha256": "1j35k52na02b59yglfb48w6m5qzydvzqfsylb8ax5ks0f287yf0c"
+  }
+ },
+ {
+  "ename": "flymake-elisp-config",
+  "commit": "11cf3b5e38a99673f65a9bc410cd6faaa2889396",
+  "sha256": "019r9a30jdyjxk2rghbx7g16gpfdhq555s32cmbh9yxxvc7jz683",
+  "fetcher": "github",
+  "repo": "ROCKTAKEY/flymake-elisp-config",
+  "unstable": {
+   "version": [
+    20221110,
+    1626
+   ],
+   "commit": "e946d9a761a8427dfdd0ae634bcfce4d56111947",
+   "sha256": "1caclvx5k4x7pdd3pzm2kr1vkncwjgq9w15hbhr16y3sr2g8lh7k"
+  },
+  "stable": {
+   "version": [
+    0,
+    4,
+    0
+   ],
+   "commit": "1d6a7d82a89e265f22e0851f3c1d2e78ef74ce0d",
+   "sha256": "14a62l6c7ni5i4wnn18x0wswc0xvyf0lc6mcavdad8v3c9rip66l"
   }
  },
  {
@@ -45499,6 +45523,21 @@
   }
  },
  {
+  "ename": "glue",
+  "commit": "2b15ab947b0fd53c0e425becc42b235a1954a0f8",
+  "sha256": "09y3qhjwv70d16yfb3rrds0k19f191v4790fglshx3gsgdac7mwc",
+  "fetcher": "sourcehut",
+  "repo": "hajovonta/glue",
+  "unstable": {
+   "version": [
+    20221108,
+    1648
+   ],
+   "commit": "7649e30bf7cdd43323a40e5330132f0e42f50a24",
+   "sha256": "1payx9sc8f15qmiz3vkmahz67nfqzrmwzn3v6n6aqsnf48ag61pv"
+  }
+ },
+ {
   "ename": "gmail-message-mode",
   "commit": "1e6aed365c42987d64d0cd9a8a6178339b1b39e8",
   "sha256": "0py0i7b893ihb8l1hmk3jfl0xil450znadcd18q7svr3zl2m0gkk",
@@ -45739,11 +45778,11 @@
   "repo": "emacs-gnuplot/gnuplot",
   "unstable": {
    "version": [
-    20221111,
-    821
+    20221112,
+    2049
    ],
-   "commit": "72e70e309978f48cf4724cd99e78d09331f7acee",
-   "sha256": "0ms993dhrdnj1c4y3c02ls21myms43ndyrq3g2abzlr7n6jd60sn"
+   "commit": "fe7ce76d797b34214178ac8e470f2fa9a63b2520",
+   "sha256": "06avd1bpk6n8d3yc2427f6z24f3d6dlbfhw6gg39mja06n4a2jh3"
   },
   "stable": {
    "version": [
@@ -68194,6 +68233,21 @@
   }
  },
  {
+  "ename": "lurk-mode",
+  "commit": "8249b98a1b3239260f61e67002288803047cbaf6",
+  "sha256": "1pkhfryh00a6d3snmqj4c511bjf8lwydzzal7x0ysfgvaljldfab",
+  "fetcher": "github",
+  "repo": "lurk-lang/lurk-emacs",
+  "unstable": {
+   "version": [
+    20221107,
+    1338
+   ],
+   "commit": "b341ffbf5959bbbc7dd33b35e207ce8b7bfbf565",
+   "sha256": "1hs4msdqi1m74ypgqrzag49x868i2vxf6wybb6kcc26kb9f36pwp"
+  }
+ },
+ {
   "ename": "lush-theme",
   "commit": "8b29b2f36852e711ce3520d71e83921a1dcb9ccf",
   "sha256": "03kqws8dzm0ay5k86f4v7g2g2ygwk4fzmz2vyzhzhbsj8hrniq9p",
@@ -78143,6 +78197,24 @@
   }
  },
  {
+  "ename": "ob-lurk",
+  "commit": "8249b98a1b3239260f61e67002288803047cbaf6",
+  "sha256": "1adw6aip92xmzcgl2zqnpw7pw8nsfjsn5kbpxdq8a70cx04k820m",
+  "fetcher": "github",
+  "repo": "lurk-lang/lurk-emacs",
+  "unstable": {
+   "version": [
+    20221107,
+    1338
+   ],
+   "deps": [
+    "lurk-mode"
+   ],
+   "commit": "b341ffbf5959bbbc7dd33b35e207ce8b7bfbf565",
+   "sha256": "1hs4msdqi1m74ypgqrzag49x868i2vxf6wybb6kcc26kb9f36pwp"
+  }
+ },
+ {
   "ename": "ob-mermaid",
   "commit": "4df483806a4caaeb99fdac42f83bfe648d2e4165",
   "sha256": "0fp57m80ksnb6zs1gndwsqhrphkv9lfysq0h7h8g3parizh2idzs",
@@ -82636,6 +82708,21 @@
    ],
    "commit": "4ba26bbd26102c45c234bc6ce9a8e9c655c6a0a2",
    "sha256": "0zhf4yfs6a50b5lq4yp9cmm6sv1j94hak6c353df76nssg4vbil5"
+  }
+ },
+ {
+  "ename": "org-rainbow-tags",
+  "commit": "157458f7bec9624418993723ec2a7931f9da2e25",
+  "sha256": "1ph8jrqpvdcv0s8i8n8a6pqnv3bf9jvarmddv1zsrfcf7hbrdhvg",
+  "fetcher": "github",
+  "repo": "KaratasFurkan/org-rainbow-tags",
+  "unstable": {
+   "version": [
+    20221107,
+    1009
+   ],
+   "commit": "9aecc819c14f65d5f7819a431be626e496e3db86",
+   "sha256": "1vf5vavi4r5qwiilbxjvj1123aq2331qiyjsbp53v8xz55psajpx"
   }
  },
  {
@@ -99905,18 +99992,18 @@
   "unstable": {
    "version": [
     20221112,
-    1844
+    2020
    ],
-   "commit": "3076e240bf4d0d754599592c9b4ee828e2271959",
-   "sha256": "1785fyahlqs7fshvcsa2vpvdi2q1qza03iii984xc260dc4wqv5v"
+   "commit": "7c8aed90c03ef384ee9e8729bc5bfa39973e91ec",
+   "sha256": "0bl05yxwzz4aflgbh9l0jscq4kgkmlhcvrrwvg9ps3hwl32jvz65"
   },
   "stable": {
    "version": [
     93,
-    0
+    1
    ],
-   "commit": "61f306462ad97981ac8b952b4baba2e31f745a89",
-   "sha256": "1prdc1fdd7n9vgq20wk7q16px8yn6zr26nq8naw8d0ndinsly94m"
+   "commit": "efcc16b1af3c3e2262fe75e9eb0f2ed30547da3f",
+   "sha256": "1785fyahlqs7fshvcsa2vpvdi2q1qza03iii984xc260dc4wqv5v"
   }
  },
  {
