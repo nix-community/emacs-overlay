@@ -2396,10 +2396,10 @@
       elpaBuild {
         pname = "jarchive";
         ename = "jarchive";
-        version = "0.3.0";
+        version = "0.6.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jarchive-0.3.0.tar";
-          sha256 = "0vkg1jmnys4gk604jsrpnqmgzsx8pyq64dq7ds7fphn540064rka";
+          url = "https://elpa.gnu.org/packages/jarchive-0.6.0.tar";
+          sha256 = "08444fagam022qiwdsw94yf9z3v1hybmvn1cp7hqycrcrfshrlza";
         };
         packageRequires = [ emacs ];
         meta = {
