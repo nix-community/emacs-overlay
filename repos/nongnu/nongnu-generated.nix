@@ -2055,6 +2055,24 @@
           license = lib.licenses.free;
         };
       }) {};
+    racket-mode = callPackage ({ elpaBuild
+                               , emacs
+                               , fetchurl
+                               , lib }:
+      elpaBuild {
+        pname = "racket-mode";
+        ename = "racket-mode";
+        version = "1.0.20221108.123011";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20221108.123011.tar";
+          sha256 = "1a4gma2jp866iaj98j14nk1hza4vvz2gqgvaik8h53m3rva0i6cm";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/racket-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     rainbow-delimiters = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "rainbow-delimiters";
