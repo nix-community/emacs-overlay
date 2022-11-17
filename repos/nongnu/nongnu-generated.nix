@@ -1984,10 +1984,10 @@
       elpaBuild {
         pname = "popon";
         ename = "popon";
-        version = "0.11";
+        version = "0.12";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/popon-0.11.tar";
-          sha256 = "03xxh9w215kmlw6vr3cjs9afkj6vrcip7k954sssx77bs1bpnqhz";
+          url = "https://elpa.nongnu.org/nongnu/popon-0.12.tar";
+          sha256 = "06vsri7dka3qbiwfkl4ml8b99alah24zq8y4n1szh587xy3c7dj0";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2062,10 +2062,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20221108.123011";
+        version = "1.0.20221111.101900";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20221108.123011.tar";
-          sha256 = "1a4gma2jp866iaj98j14nk1hza4vvz2gqgvaik8h53m3rva0i6cm";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20221111.101900.tar";
+          sha256 = "001dhwg6agfs5rxr7sj5bzxbkr0mnsfwh6l2gqkhpzkdqmgcavz2";
         };
         packageRequires = [ emacs ];
         meta = {
