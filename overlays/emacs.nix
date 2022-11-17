@@ -115,6 +115,7 @@ let
   emacsGitTreeSitter = super.lib.makeOverridable (mkGitEmacs "emacs-git-tree-sitter" ../repos/emacs/emacs-feature_tree-sitter.json) {
     withTreeSitter = true;
     withTreeSitterPlugins = (plugins: with plugins; [
+      tree-sitter-bash
       tree-sitter-c
       tree-sitter-cpp
       tree-sitter-css
