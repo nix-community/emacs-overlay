@@ -2411,10 +2411,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.0.21";
+        version = "1.0.22";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.0.21.tar";
-          sha256 = "0l4xv56ab31li9l77x68jnpcn47xgj0gqjfs5diklr665vjmfqim";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.0.22.tar";
+          sha256 = "1n7r3ziyq2b01qfm0kghw62gjprnnjzx38s2cjyrifkx40jh2q36";
         };
         packageRequires = [ emacs ];
         meta = {
