@@ -16230,17 +16230,15 @@
   "repo": "emacs-php/composer.el",
   "unstable": {
    "version": [
-    20221111,
-    1808
+    20221120,
+    202
    ],
    "deps": [
-    "f",
     "php-runtime",
-    "s",
     "seq"
    ],
-   "commit": "6a6e3eb46b4ae380f9f56362d6525d6725fc1b0a",
-   "sha256": "0qf73cgy7jmchk8hvabg7v07wq0scfdm06vsbf1m2ds5zq8lcbnb"
+   "commit": "2299cd731205906350d615021f99a66d7a8905c2",
+   "sha256": "1s1wmvav83djcg6jgf5cjvwjm045y5fbwf0sqwgkfk8m4ka4473a"
   },
   "stable": {
    "version": [
@@ -38531,14 +38529,14 @@
   "repo": "emacs-languagetool/flycheck-languagetool",
   "unstable": {
    "version": [
-    20220731,
-    2301
+    20221119,
+    1624
    ],
    "deps": [
     "flycheck"
    ],
-   "commit": "53b3e46d47a0e70fd2e5c49fea9134ee9aa41793",
-   "sha256": "1di51jp20ymqkp777rsvwkqzr9vpnpi90b8bd4db5v2ji46xrkjf"
+   "commit": "02299ff26adc7cbd9101ccface4437f67696f49e",
+   "sha256": "0rbs5v7qmw34i6j8i2ssaifirn5a8p7ncnqmwckzmssz3im64bhn"
   },
   "stable": {
    "version": [
@@ -61237,10 +61235,10 @@
   "unstable": {
    "version": [
     20221119,
-    901
+    1653
    ],
-   "commit": "c902ad94c2d043f620a44e4c9b1bd7f4d6f22229",
-   "sha256": "0xp149ibvjxr04pnlfl75gfcjwa91wxvk59dr6fa6761j6phc98j"
+   "commit": "baaffdfd22a19afb1997ec3715d063186b80d3f5",
+   "sha256": "0kjzgz8kzvyh7kqjcd9r2cfrhldv90v3yjkpd41vnzbb29b46d4h"
   },
   "stable": {
    "version": [
@@ -98131,23 +98129,20 @@
   "repo": "galdor/rfc-mode",
   "unstable": {
    "version": [
-    20221013,
-    1342
+    20221117,
+    1200
    ],
-   "commit": "93208d44516e1f4c6e181ee5d374f2dbd7199d0c",
-   "sha256": "0rxsmxk3kdlywmyaw2nrq26hqb84l46cj56l1f15b98c3m0pzxzg"
+   "commit": "36710c917552aae2df52fb38134a5b42f3e1d1bd",
+   "sha256": "1vga9996zma1sg6ji09n0wrgfal02a7s4n9irx5ia5wsall7yvsl"
   },
   "stable": {
    "version": [
     1,
-    3,
+    4,
     0
    ],
-   "deps": [
-    "helm"
-   ],
-   "commit": "02546beecf4c495940885e7b7b911d84b12646ef",
-   "sha256": "1v52vbs2zbqv62wcgcrqgjcwcdq0w6hdb14nma4yhqldnqi57875"
+   "commit": "73bb2a18bb34136c9eeddef5f138840872ece752",
+   "sha256": "1b4wd9ny6rmlw0cr2kvhs0kn33gx0zq4hv6vgr91a9wwj5y33lav"
   }
  },
  {
@@ -102612,14 +102607,14 @@
   "repo": "emacs-sideline/sideline-flymake",
   "unstable": {
    "version": [
-    20221009,
-    1555
+    20221119,
+    2034
    ],
    "deps": [
     "sideline"
    ],
-   "commit": "e1e1f5cbdfa9ac352e884de97d68da4ea41cc060",
-   "sha256": "0y3adfvi7d28xkaxa539ys9i1rndn2c9ahs221vlmyf0g9ijxcxh"
+   "commit": "65260cdc8977eef5fcab2745b596244966851e67",
+   "sha256": "1fqryxbq0wbaw3czfxcf5rqmfv1h9jirkixc5v85kh37z75qyadr"
   },
   "stable": {
    "version": [
@@ -103659,15 +103654,15 @@
   "repo": "mmgeorge/sly-asdf",
   "unstable": {
    "version": [
-    20220707,
-    5
+    20221119,
+    2235
    ],
    "deps": [
     "popup",
     "sly"
    ],
-   "commit": "3180921efdc19a2195960e1d601b2a6f31a6feea",
-   "sha256": "0gncp8xv33s4wx594bgd35vr1455bcggv1bg28qv75mhv41nzw97"
+   "commit": "6f9d751469bb82530db1673c22e7437ca6c95f45",
+   "sha256": "0bxan0h12xqdsfr3bpk7n8zj7d5xvp4v3wg4fbcf2xw63j02m810"
   },
   "stable": {
    "version": [
@@ -104979,11 +104974,11 @@
   "repo": "ethereum/emacs-solidity",
   "unstable": {
    "version": [
-    20221024,
-    220
+    20221119,
+    1735
    ],
-   "commit": "929ce58ff0d42cf1109f9fb0655c787ee58cc2da",
-   "sha256": "0yy9bdbab8k84csskq6lq6vgrzpm3zjj8a9gxbnwxc4ksarm1npg"
+   "commit": "ddb4a901c33bd29ba2eefff3b7f7461849c6e833",
+   "sha256": "1hppvvh9mq7yg129490b66bmdnnx6c03acbml03ipbcrfc6950y0"
   },
   "stable": {
    "version": [
