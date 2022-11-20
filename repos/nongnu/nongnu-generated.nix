@@ -2672,10 +2672,10 @@
       elpaBuild {
         pname = "vc-fossil";
         ename = "vc-fossil";
-        version = "20220707";
+        version = "20221120";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/vc-fossil-20220707.tar";
-          sha256 = "0l33y8mij6rw4h47ryqpjxr1i2xzis98rbi230izkvsc6w7qf89q";
+          url = "https://elpa.nongnu.org/nongnu/vc-fossil-20221120.tar";
+          sha256 = "0ygacnq1w64iw8al2gcyjjwgvbnm2l97sw4lf5a2x6ms0fgnbdgk";
         };
         packageRequires = [];
         meta = {
