@@ -52,6 +52,5 @@ function update_release() {
 
 update_savannah_branch master
 update_release
-update_savannah_branch feature/tree-sitter
 
 nix-build --no-out-link --show-trace ./test.nix
