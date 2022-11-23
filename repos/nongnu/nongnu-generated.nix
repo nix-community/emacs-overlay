@@ -49,10 +49,10 @@
       elpaBuild {
         pname = "annotate";
         ename = "annotate";
-        version = "1.8.1";
+        version = "1.8.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/annotate-1.8.1.tar";
-          sha256 = "00rpaki0vf6aiwa4by1v3hba79jmx1g7c283q1gibp4ka7grxzc2";
+          url = "https://elpa.nongnu.org/nongnu/annotate-1.8.2.tar";
+          sha256 = "0igkj3abqq7n1rjpa9sfmfi6zilzcwlv8kpa5psrnpk3zigjayi8";
         };
         packageRequires = [];
         meta = {
@@ -2014,10 +2014,10 @@
       elpaBuild {
         pname = "projectile";
         ename = "projectile";
-        version = "2.6.0";
+        version = "2.7.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/projectile-2.6.0.tar";
-          sha256 = "0r0ylllx7vr903sjci1i6yf4xzn7k4azaw9l3azvc3mzrrjagvvj";
+          url = "https://elpa.nongnu.org/nongnu/projectile-2.7.0.tar";
+          sha256 = "1ibxsa1lv9aiplkfplamyn2wc2c6vfwfszyaicfx79aq2w9427bg";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2062,10 +2062,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20221118.122133";
+        version = "1.0.20221122.90959";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20221118.122133.tar";
-          sha256 = "0a2lpvkarcw5rlydm3va7ajjsyhfbj023h93n6n94pjvllhn2rp2";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20221122.90959.tar";
+          sha256 = "1zawl9flq6pjraz3c77r9vfdf29cg3wg1jskvfh83l9chwj0gf1g";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2426,10 +2426,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.8.11";
+        version = "0.8.12";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.8.11.tar";
-          sha256 = "0h9j40rmmmpxby5f2xs4cg5gmgs8lg1zz5ml23qxw360j9c25nlk";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.8.12.tar";
+          sha256 = "0vk7x5dzn8y1p7x0navc8cw2wypqf5zhqajxqa69091zahjfhjqp";
         };
         packageRequires = [ emacs ];
         meta = {
