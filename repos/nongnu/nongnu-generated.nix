@@ -2137,10 +2137,10 @@
       elpaBuild {
         pname = "rfc-mode";
         ename = "rfc-mode";
-        version = "1.3.0";
+        version = "1.4.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/rfc-mode-1.3.0.tar";
-          sha256 = "1wdqp03rrx7ar21nvbnrb7518c3vgf41z00bav00pw8cdx5c4m10";
+          url = "https://elpa.nongnu.org/nongnu/rfc-mode-1.4.0.tar";
+          sha256 = "0036ypsjm35x8vwrlm346wcqmh85kbjmw0813q65z6k0gvmnwldj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2426,10 +2426,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.8.12";
+        version = "0.9.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.8.12.tar";
-          sha256 = "0vk7x5dzn8y1p7x0navc8cw2wypqf5zhqajxqa69091zahjfhjqp";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.9.0.tar";
+          sha256 = "060wxd4b185vylmwb67k9c0cnc29x7b6qfapk9wan8gifbf6v22l";
         };
         packageRequires = [ emacs ];
         meta = {
