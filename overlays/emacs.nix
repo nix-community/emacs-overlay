@@ -117,6 +117,7 @@ let
     withTreeSitterPlugins = (plugins: with plugins; [
       tree-sitter-bash
       tree-sitter-c
+      tree-sitter-c-sharp
       tree-sitter-cpp
       tree-sitter-css
       tree-sitter-java
