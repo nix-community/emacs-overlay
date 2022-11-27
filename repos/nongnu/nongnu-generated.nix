@@ -837,10 +837,10 @@
       elpaBuild {
         pname = "geiser";
         ename = "geiser";
-        version = "0.28";
+        version = "0.28.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-0.28.tar";
-          sha256 = "0qp732j16cdmkpqv4vjplh9kcdbb1s4gfwff2d7k1sg4wqi8sa95";
+          url = "https://elpa.nongnu.org/nongnu/geiser-0.28.1.tar";
+          sha256 = "1ymnnqh96qss2f28nzdghrmgs6g437zw8rhd8n1jkj8y3hi455bi";
         };
         packageRequires = [ emacs project ];
         meta = {
@@ -932,10 +932,10 @@
       elpaBuild {
         pname = "geiser-guile";
         ename = "geiser-guile";
-        version = "0.28.0";
+        version = "0.28.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-guile-0.28.0.tar";
-          sha256 = "0nw77psyvl9lackyq5l60k84f1dyddn8y2sxm5b1z71gjkp481zi";
+          url = "https://elpa.nongnu.org/nongnu/geiser-guile-0.28.1.tar";
+          sha256 = "0imh2vdc757vimwxi7pjdv09f83js76nbk7dg861qg0bcqf21g3i";
         };
         packageRequires = [ emacs geiser transient ];
         meta = {
