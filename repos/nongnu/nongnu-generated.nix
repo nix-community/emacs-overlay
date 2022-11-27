@@ -1885,6 +1885,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    paredit = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "paredit";
+        ename = "paredit";
+        version = "26";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/paredit-26.tar";
+          sha256 = "08f8nm3qyk0b4x7mkgra0zjpn9mmfnpr5g7yrvdzvms38y919qlh";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/paredit.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     parseclj = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "parseclj";
@@ -2426,10 +2441,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.9.1";
+        version = "0.9.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.9.1.tar";
-          sha256 = "171m8hr25dn88vd8l1x3s1p0ilbdyfcx9qkly0lz70qwyk4f9y1y";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.9.2.tar";
+          sha256 = "1qhq1rkcw43swk04c8mpf0ywgd2kf1b0ca5mg5s8bqzmg3i7rm10";
         };
         packageRequires = [ emacs ];
         meta = {
