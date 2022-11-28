@@ -199,10 +199,10 @@
       elpaBuild {
         pname = "blow";
         ename = "blow";
-        version = "0.1";
+        version = "1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/blow-0.1.tar";
-          sha256 = "1m9ww6ckqsvf3jpyxw7w3ziak018b3005lwna8799w9mhgw3i5xb";
+          url = "https://elpa.nongnu.org/nongnu/blow-1.0.tar";
+          sha256 = "0z2y3vq8m4x9ihn84x7p2vgkxprrrvhavcgwll897gsc9khp1xda";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -244,10 +244,10 @@
       elpaBuild {
         pname = "camera";
         ename = "camera";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/camera-0.1.tar";
-          sha256 = "10wpc2pr7wsckjgl42y5czkcyhh1bppdazs81lr4hjhg37xm6l99";
+          url = "https://elpa.nongnu.org/nongnu/camera-0.2.tar";
+          sha256 = "1hdq24xy685wzjz3hfxwqmcmsvajcrkr4va4lmvgvdmkvmfk92cj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -468,10 +468,10 @@
       elpaBuild {
         pname = "devhelp";
         ename = "devhelp";
-        version = "0.1";
+        version = "1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/devhelp-0.1.tar";
-          sha256 = "184l3kw05rapi3949md4iz806pwpywfvhdhs4i2v7cgch08ri8qg";
+          url = "https://elpa.nongnu.org/nongnu/devhelp-1.0.tar";
+          sha256 = "16zx748n24diqqk3jhgyz74s71kqzl7h7l6j9nkz40cpcn18ddiz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -882,10 +882,10 @@
       elpaBuild {
         pname = "gc-buffers";
         ename = "gc-buffers";
-        version = "0.1";
+        version = "1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/gc-buffers-0.1.tar";
-          sha256 = "1809bpfjsfnsl1aw9r49k66hbaakjmc58fps56z28r9n4rkkzl9n";
+          url = "https://elpa.nongnu.org/nongnu/gc-buffers-1.0.tar";
+          sha256 = "15zpg4j25bk7y2wgqsd57c4c6h3xvigf39hjnzh3g1hlrqk2lv0g";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1346,10 +1346,10 @@
       elpaBuild {
         pname = "hl-column";
         ename = "hl-column";
-        version = "0.1";
+        version = "1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/hl-column-0.1.tar";
-          sha256 = "123bnnfbd45v6m6pmy2bqshggc0rcj349cagnj9lgiaq53bjkv7h";
+          url = "https://elpa.nongnu.org/nongnu/hl-column-1.0.tar";
+          sha256 = "00y4g912s341p30xnb0qgj0gmzsqm696v06kjgy9yva5qgw51f03";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1471,16 +1471,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    iwindow = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    iwindow = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib, seq }:
       elpaBuild {
         pname = "iwindow";
         ename = "iwindow";
-        version = "0.1";
+        version = "1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/iwindow-0.1.tar";
-          sha256 = "0rxsaj9qb4f1ylvg4i9kmh1dbpx6z3sd3hv018nfgi9j34b01cbv";
+          url = "https://elpa.nongnu.org/nongnu/iwindow-1.0.tar";
+          sha256 = "076i0p9kq48hxkkwzzapnni6cpdr25hdrw9bs2cly8w4v5rmd6rj";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs seq ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/iwindow.html";
           license = lib.licenses.free;
@@ -1700,6 +1700,21 @@
         packageRequires = [ async emacs seq url-scgi xml-rpc ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/mentor.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    minibar = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "minibar";
+        ename = "minibar";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/minibar-0.2.tar";
+          sha256 = "0idb91vp0pbichv2gfs314av6cgx5mkrn9w3yxwj81if1bvsmw0h";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/minibar.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -2672,10 +2687,10 @@
       elpaBuild {
         pname = "testcover-mark-line";
         ename = "testcover-mark-line";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/testcover-mark-line-0.1.tar";
-          sha256 = "1gy1ivnvmhljccbj0mbsjj629x66650h0sfjzry8hy30df7yzgnr";
+          url = "https://elpa.nongnu.org/nongnu/testcover-mark-line-0.2.tar";
+          sha256 = "0q6p9y8yim6cyhasvybsgjd271mjgwnwzg2smpglqmc2kh7y1mdc";
         };
         packageRequires = [ emacs ];
         meta = {
