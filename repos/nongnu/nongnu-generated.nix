@@ -2687,10 +2687,10 @@
       elpaBuild {
         pname = "testcover-mark-line";
         ename = "testcover-mark-line";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/testcover-mark-line-0.2.tar";
-          sha256 = "0q6p9y8yim6cyhasvybsgjd271mjgwnwzg2smpglqmc2kh7y1mdc";
+          url = "https://elpa.nongnu.org/nongnu/testcover-mark-line-0.3.tar";
+          sha256 = "18nlkm7p6fmaziqqbb4jmhpypn0b6233qd0c19xp16kjbxpg7ifh";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2967,10 +2967,10 @@
       elpaBuild {
         pname = "workroom";
         ename = "workroom";
-        version = "2.2.4";
+        version = "2.2.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/workroom-2.2.4.tar";
-          sha256 = "0sjzv70fz7i7iqw8pxcx8s2bsrisk5iyd03xcxnq5qahvwlk2q7w";
+          url = "https://elpa.nongnu.org/nongnu/workroom-2.2.5.tar";
+          sha256 = "0w968jdsn1aw5q1zxqjyjzyfcqj2c6163c7wf0ygnhwzxlidj1v5";
         };
         packageRequires = [ compat emacs project ];
         meta = {
