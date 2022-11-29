@@ -2089,10 +2089,10 @@
       elpaBuild {
         pname = "pdf-tools";
         ename = "pdf-tools";
-        version = "1.0";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/pdf-tools-1.0.tar";
-          sha256 = "0cjr7y2ikf2al43wrzlqdpbksj0ww6m0nvmlz97slx8nk94k2qyf";
+          url = "https://elpa.nongnu.org/nongnu/pdf-tools-1.0.0.tar";
+          sha256 = "0p9q9a11s68s95z8n0i45x1w8mg476bpnrvijg6i83779dmrpxh0";
         };
         packageRequires = [ emacs let-alist tablist ];
         meta = {
@@ -2917,10 +2917,10 @@
       elpaBuild {
         pname = "why-this";
         ename = "why-this";
-        version = "2.0.3";
+        version = "2.0.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/why-this-2.0.3.tar";
-          sha256 = "1s495h94ds47nbmxckm1iwszf1pj94a7jvk6px0xwcdzxci3918k";
+          url = "https://elpa.nongnu.org/nongnu/why-this-2.0.4.tar";
+          sha256 = "0hqvqix9hqaki23vw3xilkcr84ak2vz4lwczr54s87x13idrg4px";
         };
         packageRequires = [ emacs ];
         meta = {
