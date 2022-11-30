@@ -554,6 +554,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    eat = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "eat";
+        ename = "eat";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/eat-0.1.tar";
+          sha256 = "05rpckc43as14hbs48gnvc4vlxcm4yadkj42hjb5amx8l9ywb849";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/eat.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     edit-indirect = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "edit-indirect";
