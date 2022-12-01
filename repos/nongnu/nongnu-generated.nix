@@ -2212,10 +2212,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20221122.90959";
+        version = "1.0.20221130.125641";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20221122.90959.tar";
-          sha256 = "1zawl9flq6pjraz3c77r9vfdf29cg3wg1jskvfh83l9chwj0gf1g";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20221130.125641.tar";
+          sha256 = "006vrpfxpmvipn28k8426phqqsmpaj18xxsb5788aq247am6i5xr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2561,10 +2561,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.0.24";
+        version = "1.0.26";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.0.24.tar";
-          sha256 = "1x9w858pgyhd7hlvn85h379f8sfvf8ly3a9596q4jkqbcp9riymq";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.0.26.tar";
+          sha256 = "1vssgrchjgf36qxm6bm574wvvcjxmcfhlpziwilzixkxw48hh0ym";
         };
         packageRequires = [ emacs ];
         meta = {
