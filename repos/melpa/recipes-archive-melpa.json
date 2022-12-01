@@ -12194,11 +12194,11 @@
   "repo": "universal-ctags/citre",
   "unstable": {
    "version": [
-    20221123,
-    308
+    20221201,
+    1131
    ],
-   "commit": "bf0ff61e143f6002cb223a0c8dfb1439e256b1a1",
-   "sha256": "1mzvchyla0s0irpjpnbymx8lg6vf5mzbn08jszkdh8bqgz03xn94"
+   "commit": "0d6252ff912f629fec100187921cb5ec00436682",
+   "sha256": "07f2gqgy0f8llh845bqhqc0chq2vsarhr1rq0sfz9s5pyrqrpdjw"
   },
   "stable": {
    "version": [
@@ -25986,11 +25986,11 @@
   "repo": "sinic/ednc",
   "unstable": {
    "version": [
-    20221127,
-    1643
+    20221201,
+    1624
    ],
-   "commit": "eafa35f5a3a016a6d3d11e23268d08e6b5bda2a7",
-   "sha256": "1rlhr5d0ndlxbzmkj0fbkv3w31x7dwbnxj8v48mvsxgqp8nrq2d3"
+   "commit": "bf17d22fa9bd1711709d84bb75ad49f746bfc9b7",
+   "sha256": "1gwffd5c25vh1h7fjj79gpmqvlb3b664zh8pwp530hprk9sb89hr"
   }
  },
  {
@@ -28248,20 +28248,20 @@
   "repo": "dochang/elpa-clone",
   "unstable": {
    "version": [
-    20211205,
-    1237
+    20221201,
+    1227
    ],
-   "commit": "03d8e2af55dfb34ab9da1f9385079a995383b2ea",
-   "sha256": "19rlqr4w9hkxxwwyfz02vvs96dx92c1gxy5cn1m1v2a5sdfdz1yq"
+   "commit": "1d130c251690f24c23b77a4e4570157fca881d8f",
+   "sha256": "0swcpvlh08mrw27yv7a5wbsvlxv72yr5gbzzap9x2bjd839d3ndf"
   },
   "stable": {
    "version": [
     0,
-    2,
+    3,
     0
    ],
-   "commit": "03d8e2af55dfb34ab9da1f9385079a995383b2ea",
-   "sha256": "19rlqr4w9hkxxwwyfz02vvs96dx92c1gxy5cn1m1v2a5sdfdz1yq"
+   "commit": "1d130c251690f24c23b77a4e4570157fca881d8f",
+   "sha256": "0swcpvlh08mrw27yv7a5wbsvlxv72yr5gbzzap9x2bjd839d3ndf"
   }
  },
  {
@@ -32448,8 +32448,8 @@
   "repo": "emacs-evil/evil-cleverparens",
   "unstable": {
    "version": [
-    20221130,
-    1034
+    20221201,
+    1638
    ],
    "deps": [
     "dash",
@@ -32457,8 +32457,8 @@
     "paredit",
     "smartparens"
    ],
-   "commit": "08510fe45fcbbce0eca222e11e611f8554ba1c1e",
-   "sha256": "0hfip5rfivgl5rdg33bn8hmrjq0cwyv1m3q4bydrc0jhmrzcnk4s"
+   "commit": "949e64a1aeac213fa61bb7e83c3b746038602bbb",
+   "sha256": "05m97l969cmz98kvv0512p792sgls15fdli3jp3i02ri1n324wb5"
   }
  },
  {
@@ -43992,16 +43992,16 @@
   "repo": "magit/ghub",
   "unstable": {
    "version": [
-    20221127,
-    2150
+    20221201,
+    1411
    ],
    "deps": [
     "compat",
     "let-alist",
     "treepy"
    ],
-   "commit": "141987e62dc908f54a6ef0b7847ae5296591956b",
-   "sha256": "1ddbnfbgr4qilvdm0ircjhqcnx6yqyivcf44fgxk2y59q6wgr118"
+   "commit": "142b0dbe2b8e94db9489061813b703481566dfa1",
+   "sha256": "1jzz6b56jg98c9fk858wp4wvgr9v6qiq30lgczq4w0s5j8pad16w"
   },
   "stable": {
    "version": [
@@ -57252,15 +57252,15 @@
   "repo": "idris-hackers/idris-mode",
   "unstable": {
    "version": [
-    20221129,
-    1619
+    20221201,
+    1301
    ],
    "deps": [
     "cl-lib",
     "prop-menu"
    ],
-   "commit": "fdbd019cb284455f0e2e887a833f64c67b89c80f",
-   "sha256": "05wna8mx99m3ls9kv6gqbqdnyrsnciyppjb0szildscfbfkbc7dd"
+   "commit": "d08fd3ec78a09bc0e6c5b1effdef563de08bdaf6",
+   "sha256": "1h29sdr71miwfdipw1y6xxrwiqplbi29v96s49b20qwa1la7h06i"
   },
   "stable": {
    "version": [
@@ -61512,11 +61512,11 @@
   "repo": "redguardtoo/js-comint",
   "unstable": {
    "version": [
-    20200117,
-    615
+    20221201,
+    1150
    ],
-   "commit": "0dedaf4753fbe8cdbab14aa85f05d7673cbee8b6",
-   "sha256": "09wfafrklkybfg44skn1lg2hvcj4gfdv908dq87w1r4wv6ibkvka"
+   "commit": "30e521ada5806ab780f68e09529715acb88f32cd",
+   "sha256": "1khxry9rvmcwh1mzqlxa5alfcwh2cqi2afz8b6yya3ahxfal5i5q"
   },
   "stable": {
    "version": [
@@ -68066,16 +68066,16 @@
   "repo": "emacs-lsp/lsp-pyright",
   "unstable": {
    "version": [
-    20220614,
-    1545
+    20221201,
+    1501
    ],
    "deps": [
     "dash",
     "ht",
     "lsp-mode"
    ],
-   "commit": "b7d6e5bbf2141d2a1efb469ad3451ecc12ddb1cd",
-   "sha256": "1z6yhv8ks48wi0m03nb0x5wx2f1fiq4d312amcca7j9mkwf41lqs"
+   "commit": "4cd2adbb32287278d9d9da59a3212a53ecdf8036",
+   "sha256": "0ys76xd1bg9r0hkgq1h3aq6wxsjxqplxmk7cfwazzh9nwmgp9s22"
   },
   "stable": {
    "version": [
@@ -76101,11 +76101,11 @@
   "repo": "m-cat/nimbus-theme",
   "unstable": {
    "version": [
-    20221003,
-    1934
+    20221201,
+    1019
    ],
-   "commit": "3afc9b9d5288f4125f19176888f7639c3ae64500",
-   "sha256": "0fbv3dpm3a50vaprs15zz92x4wygds2q52x8c11xssmnmsydnzy9"
+   "commit": "0dd87fefeb6f8c866f1d652c62aac95798b44e88",
+   "sha256": "13xlzss3xaa810i4wyzdnm4inixikcnc4a48xb0abv05zwhja5mk"
   },
   "stable": {
    "version": [
