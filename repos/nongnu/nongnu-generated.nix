@@ -1838,10 +1838,10 @@
       elpaBuild {
         pname = "nix-mode";
         ename = "nix-mode";
-        version = "1.4.4";
+        version = "1.5.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/nix-mode-1.4.4.tar";
-          sha256 = "1nn74671273s5mjxzbdqvpwqx6w12zya21sxhzw51k2fs68vwh23";
+          url = "https://elpa.nongnu.org/nongnu/nix-mode-1.5.0.tar";
+          sha256 = "0zi7xmh777pqzgcv18jqwywvidpa984p0m705p6a9fns7dvv53j7";
         };
         packageRequires = [ emacs magit-section transient ];
         meta = {
@@ -2212,10 +2212,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20221130.125641";
+        version = "1.0.20221201.102945";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20221130.125641.tar";
-          sha256 = "006vrpfxpmvipn28k8426phqqsmpaj18xxsb5788aq247am6i5xr";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20221201.102945.tar";
+          sha256 = "02qn82jnwnxfblz9avxcml8xa623g6cgqxvwd62ic45vlpsc9w7c";
         };
         packageRequires = [ emacs ];
         meta = {
