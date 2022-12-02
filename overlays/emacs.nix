@@ -73,9 +73,16 @@ let
         drv: drv.overrideAttrs (old:
           let
             libName = drv: super.lib.removeSuffix "-grammar" drv.pname;
-            lib = drv: ''lib${libName drv}.so'';
-            linkCmd = drv: "ln -s ${drv}/parser $out/lib/${lib drv}";
+            libSuffix = if super.stdenv.isDarwin then "dylib" else "so";
+            lib = drv: ''lib${libName drv}.${libSuffix}'';
+            # /usr/bin/codesign --deep -s - -f $out/lib/${lib drv}
+            linkCmd = drv:
+              if super.stdenv.isDarwin
+              then ''cp ${drv}/parser $out/lib/${lib drv}
+                     /usr/bin/install_name_tool -id $out/lib/${lib drv} $out/lib/${lib drv}''
+              else ''ln -s ${drv}/parser $out/lib/${lib drv}'';
             linkerFlag = drv: "-l" + libName drv;
+
             plugins = args.withTreeSitterPlugins self.pkgs.tree-sitter-grammars;
             tree-sitter-grammars = super.runCommand "tree-sitter-grammars" {}
               (super.lib.concatStringsSep "\n" (["mkdir -p $out/lib"] ++ (map linkCmd plugins)));
@@ -83,7 +90,14 @@ let
             buildInputs = old.buildInputs ++ [ self.pkgs.tree-sitter tree-sitter-grammars ];
             # before building the `.el` files, we need to allow the `tree-sitter` libraries
             # bundled in emacs to be dynamically loaded.
-            TREE_SITTER_LIBS = super.lib.concatStringsSep " " ([ "-ltree-sitter" ] ++ (map linkerFlag plugins)); 
+            TREE_SITTER_LIBS = super.lib.concatStringsSep " " ([ "-ltree-sitter" ] ++ (map linkerFlag plugins));
+            # Fixes tree sitter error: "Buffer has no parser"
+            # Configure emacs where libraries exist nix store.
+            postPatch = old.postPatch + ''
+                 substituteInPlace src/treesit.c \
+                 --replace "Vtreesit_extra_load_path = Qnil;" \
+                           "Vtreesit_extra_load_path = list1 ( build_string ( \"${tree-sitter-grammars}/lib\" ) );"
+            '';
           }
         )
       )));
@@ -126,6 +140,7 @@ let
       tree-sitter-json
       tree-sitter-tsx
       tree-sitter-typescript
+      tree-sitter-clojure
     ]);
   };
 
