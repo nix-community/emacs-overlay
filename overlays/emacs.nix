@@ -125,6 +125,7 @@ let
       tree-sitter-javascript
       tree-sitter-json
       tree-sitter-tsx
+      tree-sitter-typescript
     ]);
   };
 
