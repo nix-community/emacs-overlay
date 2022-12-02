@@ -75,7 +75,6 @@ let
             libName = drv: super.lib.removeSuffix "-grammar" drv.pname;
             libSuffix = if super.stdenv.isDarwin then "dylib" else "so";
             lib = drv: ''lib${libName drv}.${libSuffix}'';
-            # /usr/bin/codesign --deep -s - -f $out/lib/${lib drv}
             linkCmd = drv:
               if super.stdenv.isDarwin
               then ''cp ${drv}/parser $out/lib/${lib drv}
