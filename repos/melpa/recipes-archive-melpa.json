@@ -12194,11 +12194,11 @@
   "repo": "universal-ctags/citre",
   "unstable": {
    "version": [
-    20221201,
-    1131
+    20221202,
+    531
    ],
-   "commit": "0d6252ff912f629fec100187921cb5ec00436682",
-   "sha256": "07f2gqgy0f8llh845bqhqc0chq2vsarhr1rq0sfz9s5pyrqrpdjw"
+   "commit": "03f7c3eeb0526c49ea2e659b4262ec070aa6413a",
+   "sha256": "124vdkn9v67d91s6b4fbqjsqsbi3q2zayghkc0h8cvdipa4yi1g3"
   },
   "stable": {
    "version": [
@@ -16476,14 +16476,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20221201,
-    2210
+    20221202,
+    517
    ],
    "deps": [
     "compat"
    ],
-   "commit": "d948041c160bf30703c2e09cc9db415495b2206a",
-   "sha256": "05r4qivjpyarqr35zk42klcyiqam9sjca2ka60cvpxhqfpi1r2vw"
+   "commit": "b96eb9944b433300c7e9ac5a856293821d93c549",
+   "sha256": "1c33wk544jcgmq7q7lwf4a6mwkvi720c4dw05dvdr644jvrk1ljz"
   },
   "stable": {
    "version": [
@@ -76227,24 +76227,28 @@
   "repo": "NixOS/nix-mode",
   "unstable": {
    "version": [
-    20221109,
-    17
+    20221202,
+    228
    ],
    "deps": [
     "magit-section",
     "transient"
    ],
-   "commit": "127d76202f10973e5af760fdb7804cc55cf51152",
-   "sha256": "1vaw5mc551ikgfqrww2v4njh16nxka9jacymga3v1mhzfw5gmqjk"
+   "commit": "54e5626829168e22126b233e079f04dff3c71b90",
+   "sha256": "1xvrnpk7cnjm55ja6j7bdnszkzj914gmyzb12r89jh0z25r09crq"
   },
   "stable": {
    "version": [
     1,
-    4,
-    5
+    5,
+    0
    ],
-   "commit": "471a90ac96f4c94a717e5138fb0b03a167cfbf26",
-   "sha256": "1bqlhkxg0faddhvxx909dq46dxdxk4mdyhdpww92dmzgxdpq38sx"
+   "deps": [
+    "magit-section",
+    "transient"
+   ],
+   "commit": "54e5626829168e22126b233e079f04dff3c71b90",
+   "sha256": "1xvrnpk7cnjm55ja6j7bdnszkzj914gmyzb12r89jh0z25r09crq"
   }
  },
  {
@@ -83263,8 +83267,8 @@
   "repo": "org-roam/org-roam",
   "unstable": {
    "version": [
-    20220908,
-    1625
+    20221202,
+    757
    ],
    "deps": [
     "dash",
@@ -83273,8 +83277,8 @@
     "magit-section",
     "org"
    ],
-   "commit": "d95d25615e69e7cc847641800c1886366336c97e",
-   "sha256": "0k9wfmjpkzbzsqd4npn8vxs0xch42glnmmh28a55rzkyc2bh8n1r"
+   "commit": "c2e852e10263ee652651598708323ab5ccef2ebe",
+   "sha256": "0xgzsb1s991s1bb8pzmgwrvb1pmiapaidqwhaqbq3f1562jl3ixa"
   },
   "stable": {
    "version": [
@@ -88511,15 +88515,15 @@
   "repo": "vedang/pdf-tools",
   "unstable": {
    "version": [
-    20221129,
-    613
+    20221202,
+    715
    ],
    "deps": [
     "let-alist",
     "tablist"
    ],
-   "commit": "1885cefc24883c220cdd4acafdf1d14f290a6979",
-   "sha256": "1idazz46zx2q84di4p73770l4bcnai2a03q95psg827ykdnmjwij"
+   "commit": "c3c05e3bc564cd1a009d944e8002634ffcaf7376",
+   "sha256": "0f3h7j9c4yrqnsk8fsj3dyr0nnzka5vl1gh78i21qnzrmmr47ick"
   },
   "stable": {
    "version": [
