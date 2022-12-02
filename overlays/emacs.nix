@@ -92,8 +92,7 @@ let
             # before building the `.el` files, we need to allow the `tree-sitter` libraries
             # bundled in emacs to be dynamically loaded.
             TREE_SITTER_LIBS = super.lib.concatStringsSep " " ([ "-ltree-sitter" ] ++ (map linkerFlag plugins));
-            # Fixes tree sitter error: "Buffer has no parser"
-            # Configure emacs where libraries exist nix store.
+            # Add to directories that tree-sitter looks in for language definitions / shared object parsers
             postPatch = old.postPatch + ''
                  substituteInPlace src/treesit.c \
                  --replace "Vtreesit_extra_load_path = Qnil;" \
