@@ -4585,10 +4585,10 @@
       elpaBuild {
         pname = "standard-themes";
         ename = "standard-themes";
-        version = "1.0.1";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/standard-themes-1.0.1.tar";
-          sha256 = "0safafqp6z8ky36v4ps10wdxn5jw8xrkr727gf8570lk1yvbkazk";
+          url = "https://elpa.gnu.org/packages/standard-themes-1.0.2.tar";
+          sha256 = "0z4i96cf5ag1db4wmwvp43b8xp6y8g64drlcicx5lj0nk7zfl4qn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4984,10 +4984,10 @@
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.1";
+        version = "0.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/triples-0.1.tar";
-          sha256 = "1b1qrrg60wx4ikl9nd8gmawj0pc0yysxq901l29336gwpbwj81y7";
+          url = "https://elpa.gnu.org/packages/triples-0.1.1.tar";
+          sha256 = "0maic2djpwbai8zq63rb8ipqvw3mjh3dlj26fr2mlhn79v1a7mbh";
         };
         packageRequires = [ emacs seq ];
         meta = {
