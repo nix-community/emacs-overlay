@@ -79,7 +79,9 @@ let
             linkCmd = drv:
               if super.stdenv.isDarwin
               then ''cp ${drv}/parser $out/lib/${lib drv}
-                     /usr/bin/install_name_tool -id $out/lib/${lib drv} $out/lib/${lib drv}''
+                     /usr/bin/install_name_tool -id $out/lib/${lib drv} $out/lib/${lib drv}
+                     codesign -s - -f $out/lib/${lib drv}
+                ''
               else ''ln -s ${drv}/parser $out/lib/${lib drv}'';
             linkerFlag = drv: "-l" + libName drv;
 
