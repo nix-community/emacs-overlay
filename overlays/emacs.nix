@@ -104,6 +104,7 @@ let
             # Add to list of directories dlopen/dynlib_open searches for tree sitter languages *.so/*.dylib.
             postFixup = old.postFixup + super.lib.optionalString self.stdenv.isDarwin ''
                 /usr/bin/install_name_tool -add_rpath ${super.lib.makeLibraryPath [ tree-sitter-grammars ]} $out/bin/emacs
+                /usr/bin/codesign -s - -f $out/bin/emacs
               '' + super.lib.optionalString self.stdenv.isLinux ''
                 ${self.pkgs.patchelf}/bin/patchelf --add-rpath ${super.lib.makeLibraryPath [ tree-sitter-grammars ]} $out/bin/emacs
               '';
