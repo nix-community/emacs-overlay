@@ -16,7 +16,7 @@ let
       super.emacs
       ([
 
-        (drv: drv.override ({ srcRepo = true; } // builtins.removeAttrs args [ "withTreeSitterPlugins" "withTreeSitter" ]))
+        (drv: drv.override ({ srcRepo = true; } // builtins.removeAttrs args [ "noTreeSitter" ]))
 
         (
           drv: drv.overrideAttrs (
@@ -69,7 +69,7 @@ let
           result
         )
       ]
-      ++ (super.lib.optional (args ? "withTreeSitter") (
+      ++ (super.lib.optional (! (args ? "noTreeSitter")) (
         drv: drv.overrideAttrs (old:
           let
             libName = drv: super.lib.removeSuffix "-grammar" drv.pname;
@@ -83,7 +83,19 @@ let
                 ''
               else ''ln -s ${drv}/parser $out/lib/${lib drv}'';
             linkerFlag = drv: "-l" + libName drv;
-            plugins = args.withTreeSitterPlugins self.pkgs.tree-sitter-grammars;
+            plugins = with self.pkgs.tree-sitter-grammars; [
+              tree-sitter-bash
+              tree-sitter-c
+              tree-sitter-c-sharp
+              tree-sitter-cpp
+              tree-sitter-css
+              tree-sitter-java
+              tree-sitter-python
+              tree-sitter-javascript
+              tree-sitter-json
+              tree-sitter-tsx
+              tree-sitter-typescript
+            ];
             tree-sitter-grammars = super.runCommand "tree-sitter-grammars" {}
               (super.lib.concatStringsSep "\n" (["mkdir -p $out/lib"] ++ (map linkCmd plugins)));
           in {
@@ -111,7 +123,7 @@ let
 
   emacsGit = mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json { withSQLite3 = true; withWebP = true; };
 
-  emacsNativeComp = super.emacsNativeComp or (mkGitEmacs "emacs-native-comp" ../repos/emacs/emacs-unstable.json { nativeComp = true; });
+  emacsNativeComp = super.emacsNativeComp or (mkGitEmacs "emacs-native-comp" ../repos/emacs/emacs-unstable.json { nativeComp = true; noTreeSitter = true; });
 
   emacsGitNativeComp = mkGitEmacs "emacs-git-native-comp" ../repos/emacs/emacs-master.json {
     withSQLite3 = true;
@@ -123,26 +135,9 @@ let
 
   emacsPgtkNativeComp = mkPgtkEmacs "emacs-pgtk-native-comp" ../repos/emacs/emacs-master.json { nativeComp = true; withSQLite3 = true; withGTK3 = true; };
 
-  emacsUnstable = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json { });
+  emacsUnstable = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json { noTreeSitter = true; });
 
-  emacsGitTreeSitter = super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) {
-    withTreeSitter = true;
-    withTreeSitterPlugins = (plugins: with plugins; [
-      tree-sitter-bash
-      tree-sitter-c
-      tree-sitter-c-sharp
-      tree-sitter-cpp
-      tree-sitter-css
-      tree-sitter-java
-      tree-sitter-python
-      tree-sitter-javascript
-      tree-sitter-json
-      tree-sitter-tsx
-      tree-sitter-typescript
-    ]);
-  };
-
-  emacsLsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json { nativeComp = true; });
+  emacsLsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json { nativeComp = true; noTreeSitter = true; });
 
 in
 {
@@ -184,8 +179,6 @@ in
     )
   );
 
-  inherit emacsGitTreeSitter;
-
   inherit emacsLsp;
 
   emacsWithPackagesFromUsePackage = import ../elisp.nix { pkgs = self; };
@@ -194,5 +187,6 @@ in
 
 } // super.lib.optionalAttrs (super.config.allowAliases or true) {
   emacsGcc = builtins.trace "emacsGcc has been renamed to emacsNativeComp, please update your expression." emacsNativeComp;
+  emacsGitTreeSitter = builtins.trace "emacsGitTreeSitter has been renamed to emacsGit, please update your expression." emacsGit;
   emacsPgtkGcc = builtins.trace "emacsPgtkGcc has been renamed to emacsPgtkNativeComp, please update your expression." emacsPgtkNativeComp;
 }

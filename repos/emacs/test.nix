@@ -7,7 +7,6 @@ let
   in emacsWithPackages(epkgs: [ ]);
 
 in {
-  emacsGitTreeSitter = mkTestBuild pkgs.emacsGitTreeSitter;
   emacsUnstable = mkTestBuild pkgs.emacsUnstable;
   emacsGit = mkTestBuild pkgs.emacsGit;
   emacsGitNativeComp = mkTestBuild pkgs.emacsGitNativeComp;
