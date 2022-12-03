@@ -786,10 +786,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.20";
+        version = "0.29";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-0.20.tar";
-          sha256 = "134yyjap69lm3j99q7719b3pgc71y0nl30v9gy0cycf7dp7p1ssx";
+          url = "https://elpa.gnu.org/packages/consult-0.29.tar";
+          sha256 = "19sxp24lnj86flvhn62csrf4744qwq2zcpxrcsn64wj9vx9zxfsp";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -831,10 +831,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.33";
+        version = "0.34";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.33.tar";
-          sha256 = "0givjfpk8wcwmvc7zq5nhf4h6acmb6cqngrzvlspmsr78wib9258";
+          url = "https://elpa.gnu.org/packages/corfu-0.34.tar";
+          sha256 = "0d9n5dfwjgd1a57fa5mfdapg88i6wdzkr77g14wv3fdikj7nk417";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1386,10 +1386,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20221108";
+        version = "20221203";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20221108.tar";
-          sha256 = "0va6jb57pyv21zvjaq99yi1275rl2bna7ci5zicqshiq2naxdqzr";
+          url = "https://elpa.gnu.org/packages/eev-20221203.tar";
+          sha256 = "1r7n1k1933gxxwgvvid3yjg43ijs98z4akfhpbpczzih55b7jy5m";
         };
         packageRequires = [ emacs ];
         meta = {
