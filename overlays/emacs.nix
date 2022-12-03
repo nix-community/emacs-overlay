@@ -83,7 +83,6 @@ let
                 ''
               else ''ln -s ${drv}/parser $out/lib/${lib drv}'';
             linkerFlag = drv: "-l" + libName drv;
-
             plugins = args.withTreeSitterPlugins self.pkgs.tree-sitter-grammars;
             tree-sitter-grammars = super.runCommand "tree-sitter-grammars" {}
               (super.lib.concatStringsSep "\n" (["mkdir -p $out/lib"] ++ (map linkCmd plugins)));
@@ -140,7 +139,6 @@ let
       tree-sitter-json
       tree-sitter-tsx
       tree-sitter-typescript
-      tree-sitter-clojure
     ]);
   };
 
