@@ -78,6 +78,7 @@ let
             linkCmd = drv:
               if super.stdenv.isDarwin
               then ''cp ${drv}/parser $out/lib/${lib drv}
+                     # FIXME: Is this kosher?
                      /usr/bin/install_name_tool -id $out/lib/${lib drv} $out/lib/${lib drv}
                      /usr/bin/codesign -s - -f $out/lib/${lib drv}
                 ''
@@ -104,7 +105,12 @@ let
             # bundled in emacs to be dynamically loaded.
             TREE_SITTER_LIBS = super.lib.concatStringsSep " " ([ "-ltree-sitter" ] ++ (map linkerFlag plugins));
             # Add to directories that tree-sitter looks in for language definitions / shared object parsers
-            postPatch = old.postPatch + ''
+            # FIXME: This was added for macOS, but it shouldn't be necessary on any platform.
+            # https://git.savannah.gnu.org/cgit/emacs.git/tree/src/treesit.c?h=64044f545add60e045ff16a9891b06f429ac935f#n533
+            # appends a bunch of filenames that appear to be incorrectly skipped over
+            # in https://git.savannah.gnu.org/cgit/emacs.git/tree/src/treesit.c?h=64044f545add60e045ff16a9891b06f429ac935f#n567
+            # on macOS, but are handled properly in Linux.
+            postPatch = old.postPatch + super.lib.optionalString super.stdenv.isDarwin ''
                  substituteInPlace src/treesit.c \
                  --replace "Vtreesit_extra_load_path = Qnil;" \
                            "Vtreesit_extra_load_path = list1 ( build_string ( \"${tree-sitter-grammars}/lib\" ) );"
