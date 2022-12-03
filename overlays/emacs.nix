@@ -123,29 +123,17 @@ let
 
   emacsGit = mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json { withSQLite3 = true; withWebP = true; };
 
-  emacsNativeComp = super.emacsNativeComp or (mkGitEmacs "emacs-native-comp" ../repos/emacs/emacs-unstable.json { nativeComp = true; noTreeSitter = true; });
-
-  emacsGitNativeComp = mkGitEmacs "emacs-git-native-comp" ../repos/emacs/emacs-master.json {
-    withSQLite3 = true;
-    withWebP = true;
-    nativeComp = true;
-  };
-
   emacsPgtk = mkPgtkEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json { withSQLite3 = true; withGTK3 = true; };
-
-  emacsPgtkNativeComp = mkPgtkEmacs "emacs-pgtk-native-comp" ../repos/emacs/emacs-master.json { nativeComp = true; withSQLite3 = true; withGTK3 = true; };
 
   emacsUnstable = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json { noTreeSitter = true; });
 
-  emacsLsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json { nativeComp = true; noTreeSitter = true; });
+  emacsLsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json { noTreeSitter = true; });
 
 in
 {
   inherit emacsGit emacsUnstable;
 
-  inherit emacsNativeComp emacsGitNativeComp;
-
-  inherit emacsPgtk emacsPgtkNativeComp;
+  inherit emacsPgtk;
 
   emacsGit-nox = (
     (
@@ -186,7 +174,10 @@ in
   emacsWithPackagesFromPackageRequires = import ../packreq.nix { pkgs = self; };
 
 } // super.lib.optionalAttrs (super.config.allowAliases or true) {
-  emacsGcc = builtins.trace "emacsGcc has been renamed to emacsNativeComp, please update your expression." emacsNativeComp;
+  emacsGcc = builtins.trace "emacsGcc has been renamed to emacsGit, please update your expression." emacsGit;
+  emacsGitNativeComp = builtins.trace "emacsGitNativeComp has been renamed to emacsGit, please update your expression." emacsGit;
   emacsGitTreeSitter = builtins.trace "emacsGitTreeSitter has been renamed to emacsGit, please update your expression." emacsGit;
-  emacsPgtkGcc = builtins.trace "emacsPgtkGcc has been renamed to emacsPgtkNativeComp, please update your expression." emacsPgtkNativeComp;
+  emacsNativeComp = builtins.trace "emacsNativeComp has been renamed to emacsUnstable, please update your expression." emacsUnstable;
+  emacsPgtkGcc = builtins.trace "emacsPgtkGcc has been renamed to emacsPgtk, please update your expression." emacsPgtk;
+  emacsPgtkNativeComp = builtins.trace "emacsPgtkNativeComp has been renamed to emacsPgtk, please update your expression." emacsPgtk;
 }
