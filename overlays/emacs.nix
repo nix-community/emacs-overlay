@@ -25,6 +25,8 @@ let
               inherit (repoMeta) version;
               src = fetcher (builtins.removeAttrs repoMeta [ "type" "version" ]);
 
+              patches = [ ];
+
               postPatch = old.postPatch + ''
                 substituteInPlace lisp/loadup.el \
                 --replace '(emacs-repository-get-version)' '"${repoMeta.rev}"' \
