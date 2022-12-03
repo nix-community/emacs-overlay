@@ -64,12 +64,9 @@ These attributes are named =emacsGit= and =emacsUnstable=.
 Emacs from git is not guaranteed stable and may break your setup at any
 time, if it breaks you get to keep both pieces.
 
-Furthermore we provide emacs compiled with the native compilation backend enabled
-under the attributes =emacsNativeComp= (built from the latest tag) and =emacsGitNativeComp= (built from the latest =master= branch).
-
 We also provide two attributes named =emacsGit-nox= and =emacsUnstable-nox=
 if you wish to have Emacs built without X dependencies.
-=emacsPgtk= and =emacsPgtkNativeComp= use the experimental pgtk feature which supports Wayland natively.
+=emacsPgtk= uses the experimental pgtk feature which supports Wayland natively.
 
 **** Extra library functionality
 This overlay comes with extra functions to generate an Emacs closure
