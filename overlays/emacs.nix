@@ -83,6 +83,7 @@ let
                      /usr/bin/codesign -s - -f $out/lib/${lib drv}
                 ''
               else ''ln -s ${drv}/parser $out/lib/${lib drv}'';
+            linkerFlag = drv: "-l" + libName drv;
             plugins = with self.pkgs.tree-sitter-grammars; [
               tree-sitter-bash
               tree-sitter-c
@@ -100,14 +101,20 @@ let
               (super.lib.concatStringsSep "\n" (["mkdir -p $out/lib"] ++ (map linkCmd plugins)));
           in {
             buildInputs = old.buildInputs ++ [ self.pkgs.tree-sitter tree-sitter-grammars ];
-            TREE_SITTER_LIBS = "-ltree-sitter";
-            # Add to list of directories dlopen/dynlib_open searches for tree sitter languages *.so/*.dylib.
-            postFixup = old.postFixup + super.lib.optionalString self.stdenv.isDarwin ''
-                /usr/bin/install_name_tool -add_rpath ${super.lib.makeLibraryPath [ tree-sitter-grammars ]} $out/bin/emacs
-                /usr/bin/codesign -s - -f $out/bin/emacs
-              '' + super.lib.optionalString self.stdenv.isLinux ''
-                ${self.pkgs.patchelf}/bin/patchelf --add-rpath ${super.lib.makeLibraryPath [ tree-sitter-grammars ]} $out/bin/emacs
-              '';
+            # before building the `.el` files, we need to allow the `tree-sitter` libraries
+            # bundled in emacs to be dynamically loaded.
+            TREE_SITTER_LIBS = super.lib.concatStringsSep " " ([ "-ltree-sitter" ] ++ (map linkerFlag plugins));
+            # Add to directories that tree-sitter looks in for language definitions / shared object parsers
+            # FIXME: This was added for macOS, but it shouldn't be necessary on any platform.
+            # https://git.savannah.gnu.org/cgit/emacs.git/tree/src/treesit.c?h=64044f545add60e045ff16a9891b06f429ac935f#n533
+            # appends a bunch of filenames that appear to be incorrectly skipped over
+            # in https://git.savannah.gnu.org/cgit/emacs.git/tree/src/treesit.c?h=64044f545add60e045ff16a9891b06f429ac935f#n567
+            # on macOS, but are handled properly in Linux.
+            postPatch = old.postPatch + super.lib.optionalString super.stdenv.isDarwin ''
+                 substituteInPlace src/treesit.c \
+                 --replace "Vtreesit_extra_load_path = Qnil;" \
+                           "Vtreesit_extra_load_path = list1 ( build_string ( \"${tree-sitter-grammars}/lib\" ) );"
+            '';
           }
         )
       )));
