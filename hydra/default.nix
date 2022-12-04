@@ -41,7 +41,7 @@ let
     };
 
     stable = mkJobset {
-      nixpkgsRelease = "nixos-22.05";
+      nixpkgsRelease = "nixos-22.11";
       nixFile = "emacsen.nix";
       descriptionNote = "emacs";
     };
@@ -53,7 +53,7 @@ let
     };
 
     stable-cross = mkJobset {
-      nixpkgsRelease = "nixos-22.05";
+      nixpkgsRelease = "nixos-22.11";
       nixFile = "emacsen-cross.nix";
       descriptionNote = "emacs cross builds";
     };
