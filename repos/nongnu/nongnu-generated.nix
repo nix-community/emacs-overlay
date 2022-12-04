@@ -150,6 +150,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    bash-completion = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "bash-completion";
+        ename = "bash-completion";
+        version = "3.1.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/bash-completion-3.1.0.tar";
+          sha256 = "1fd6dnrfa6paqcy6wwbq9i375w7jaw37lgb06ynxy532lh15rkx2";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/bash-completion.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     better-jumper = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "better-jumper";
