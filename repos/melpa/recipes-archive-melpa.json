@@ -7985,26 +7985,26 @@
   "repo": "sergeyklay/bnf-mode",
   "unstable": {
    "version": [
-    20221204,
-    1241
+    20221205,
+    151
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "31b5fa2fd62cf74d8d085c10f2c3a1c5f1515ddb",
-   "sha256": "0117phhj4mpmz20wizyx94fbfcwg5yab2h1djc3j36qhqw406pfj"
+   "commit": "5aec265406614582ba4ee1bc18671502f0621b2e",
+   "sha256": "021jsis4p59svp5x7hyjlr8w7c4m0nzdcbvj6a46v8p2kcc2yk8l"
   },
   "stable": {
    "version": [
     0,
     4,
-    4
+    5
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "4a7aff6a3a691826ea4add9f519c854b9611d780",
-   "sha256": "1hnkvwl0as2s4aayqahclqclsriigqv51h8yafx0za1xfh4snfzv"
+   "commit": "a4fe013fc945d8396930bc6d0dcc1cf9d7102f41",
+   "sha256": "04n8aganyz44i1lhnlqraa4yk7i5dxjmskq8pp009ay33mjanj5l"
   }
  },
  {
@@ -9370,10 +9370,10 @@
   "stable": {
    "version": [
     1,
-    28
+    29
    ],
-   "commit": "eaa4b3ccd115a2bb25be98dc637950645d3adbae",
-   "sha256": "1dc8m5w26gi698d31xvh1q8mwf4a3wa1xrnyhqqxrmfr8b71clpk"
+   "commit": "b3ea11826e2ca5d648d677c4ae27974ce8e7c7e3",
+   "sha256": "0a5wvm7nh4748wzvp2b9jll74ifqz22bicxkl5fwp4di4vrqpd47"
   }
  },
  {
@@ -10057,11 +10057,11 @@
   "repo": "minad/cape",
   "unstable": {
    "version": [
-    20221204,
-    2316
+    20221205,
+    734
    ],
-   "commit": "2e4e97868dad4385056c233d7832352678cd8d4f",
-   "sha256": "0apn9fl8rz9q1wbhdhd1fgc37c2yn40svlq3q5yyq5qcaxjyh2bv"
+   "commit": "6d7303e300dceb717c69b29f702fc636f9cac4e8",
+   "sha256": "0gz74h0fligx7ywpnrxv82za5x2i2sjm9vr0aarx81vkbkxskvk1"
   },
   "stable": {
    "version": [
@@ -27025,11 +27025,11 @@
   "repo": "casouri/eldoc-box",
   "unstable": {
    "version": [
-    20221117,
-    2216
+    20221205,
+    638
    ],
-   "commit": "3021dcd85764b6a918e1689bf649c16918c339da",
-   "sha256": "14blf7as7j6k7g8ry8a45c5zpgjca79axwr4b3yk3hcp9q9rvzfk"
+   "commit": "5c067f5c195198ffd16df2f455da95e46cc8ce02",
+   "sha256": "12vl8a5xqz1cbi9bg3i7h7rjb1kgwdbfin6pn7zvzajfmg0pi2qf"
   },
   "stable": {
    "version": [
@@ -43081,11 +43081,11 @@
   "repo": "wavexx/gcode-mode.el",
   "unstable": {
    "version": [
-    20221126,
-    2249
+    20221205,
+    116
    ],
-   "commit": "94d2baf2ccbe24ef173e1b203aadb02b43ef2aa2",
-   "sha256": "1bn1kzg14hbhnd0g630klardzljd402yi7vphdim3yin9fjjs4zn"
+   "commit": "3b17b5ba85e5a05dac79b15b5231ad41f0a0fce5",
+   "sha256": "1i515clygcknp3f1rcf5kl63cx29vmqqkmfg4gk78s1pdika06qi"
   }
  },
  {
@@ -44199,11 +44199,11 @@
   "repo": "wavexx/git-assembler-mode.el",
   "unstable": {
    "version": [
-    20210207,
-    1545
+    20221205,
+    134
    ],
-   "commit": "1243bdc1a9cdc79802ece05c90731ee14e4f92c9",
-   "sha256": "1rc8z2r8lxzx836j7nk61snps8r0szzifg0inzfv3nb2z8bsiw0b"
+   "commit": "3140ae3130174ed07427b51ce6ee6fb6e1e893f3",
+   "sha256": "0yk5iq22npm02gvd25m68rihqj5lsvn6m35aj2swf4dmn09xai9l"
   }
  },
  {
@@ -64723,6 +64723,25 @@
   }
  },
  {
+  "ename": "latex-table-wizard",
+  "commit": "798041b4fe72da6a57224e909cd8a0312318d9e2",
+  "sha256": "0fiin25f4w3cs7mjkk34hw8g28hh8pg1psaj3dbfsxq6d8lavwfy",
+  "fetcher": "github",
+  "repo": "enricoflor/latex-table-wizard",
+  "unstable": {
+   "version": [
+    20221205,
+    248
+   ],
+   "deps": [
+    "auctex",
+    "transient"
+   ],
+   "commit": "da4a2e354026e0e88cb24283b68c42a7b742db49",
+   "sha256": "0b29bmrdgj9k1b5shs11irqmfd26mv21wdk5qwp2c2avpf7h0v5y"
+  }
+ },
+ {
   "ename": "latex-unicode-math-mode",
   "commit": "9c021dfad8928c1a352e0ef5526eefa6c0a9cb37",
   "sha256": "1p9gpp28vylibv1s95bzfgscznw146ybgk6f3qdbbnafrcrmifcr",
@@ -83301,8 +83320,8 @@
   "repo": "org-roam/org-roam",
   "unstable": {
    "version": [
-    20221203,
-    1750
+    20221205,
+    355
    ],
    "deps": [
     "dash",
@@ -83311,8 +83330,8 @@
     "magit-section",
     "org"
    ],
-   "commit": "25c476791edb93b56eba3a3f9a5b1cf395811f37",
-   "sha256": "0v93b1vqhfhiw94fj0hsj1h3jldf9q71bw5g8c1y1hzbvh8f2ikf"
+   "commit": "f9228ce31969cab9ca46ad4890e82e2ea7de3738",
+   "sha256": "01843hsvlmkgg2wrwvx1xqwmhscvzwdgr5al37glwazf8f8dad0a"
   },
   "stable": {
    "version": [
