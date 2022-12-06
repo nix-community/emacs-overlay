@@ -19,7 +19,5 @@ lib.fold lib.recursiveUpdate { }
           inherit (targetPkgs) emacsUnstable emacsUnstable-nox;
           inherit (targetPkgs) emacsGit emacsGit-nox;
           inherit (targetPkgs) emacsPgtk;
-        } // lib.optionalAttrs (lib.hasAttr "libgccjit" targetPkgs) {
-          inherit (targetPkgs) emacsNativeComp emacsGitNativeComp emacsPgtkNativeComp;
         }))
     crossTargets)
