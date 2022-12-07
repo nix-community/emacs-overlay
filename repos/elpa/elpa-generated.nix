@@ -737,10 +737,10 @@
       elpaBuild {
         pname = "company-math";
         ename = "company-math";
-        version = "1.4";
+        version = "1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/company-math-1.4.tar";
-          sha256 = "17p5ib65lg8lj2gwip5qgsznww96pch16pr16b41lls5dx4k6d6z";
+          url = "https://elpa.gnu.org/packages/company-math-1.5.tar";
+          sha256 = "08l5mrmi9l95kl24d5acds2p5ngpc3x9a7f582sni2n4wnbav4b1";
         };
         packageRequires = [ company math-symbol-lists ];
         meta = {
