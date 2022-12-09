@@ -9919,16 +9919,16 @@
   "repo": "beacoder/call-graph",
   "unstable": {
    "version": [
-    20221103,
-    240
+    20221209,
+    618
    ],
    "deps": [
     "hierarchy",
     "ivy",
     "tree-mode"
    ],
-   "commit": "4a8206e0b8b8ffa073d35d132e0654068a3d425f",
-   "sha256": "0gb4m3jz7sm3iy2ipa1ijvkxbp1hwd3ka6p5i7jrhbs29hf1zamv"
+   "commit": "f42b4b85fd565835e627a1c2cdfe946d3c37ce2a",
+   "sha256": "1yjky8yg6w9vcpi2xgy67rrsih239rdx9by866ykraica7r5y2ra"
   },
   "stable": {
    "version": [
@@ -14693,15 +14693,15 @@
   "repo": "dunn/company-emoji",
   "unstable": {
    "version": [
-    20210427,
-    2151
+    20221208,
+    2344
    ],
    "deps": [
     "cl-lib",
     "company"
    ],
-   "commit": "90594eb58b20fb937cfd4e946efcc446ee630e6f",
-   "sha256": "08dx812vg92bkwp0ham40rv3x9648x7y5bmbvphcc71s9knfgxcz"
+   "commit": "9e2816ce9b5795bd0066f92d4f80d15ccf94ef36",
+   "sha256": "1prcjdqm4djp5nr93m2axddhhdmn1s0y157px9zsk7g5yi36dn6q"
   },
   "stable": {
    "version": [
@@ -29267,16 +29267,16 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20221006,
-    1511
+    20221209,
+    31
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "d9f67eeb1ce68c228fcbe02596318c6452b6292a",
-   "sha256": "0mafdjgyn7f6yzzl8pxasmanrz57xr385n00xyzg0p9dl7xrb2rd"
+   "commit": "6910be1656283d0d8325c97bb9f00e7b37930737",
+   "sha256": "16f5jfkp4zs497zxxsk0pfyya7l86za3gn93xv9l4a21vipavvvi"
   },
   "stable": {
    "version": [
@@ -69338,14 +69338,14 @@
   "repo": "dickmao/magit-patch-changelog",
   "unstable": {
    "version": [
-    20220313,
-    1229
+    20221209,
+    123
    ],
    "deps": [
     "magit"
    ],
-   "commit": "96936d2bd92c8bbf87f65bc293f3246014bc2764",
-   "sha256": "1k0674f9c0h468nl791nrvngymgbdljnsrwapnki5b3zvaxglckc"
+   "commit": "fd259cf6ce270a21df2f00b1e031193c8595a7a9",
+   "sha256": "01h07bg1w1gg33saa86ph6ma1y0vn18dbkhhxqnm3x1m1kq9ssi5"
   }
  },
  {
@@ -81973,14 +81973,14 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20221205,
-    1041
+    20221209,
+    420
    ],
    "deps": [
     "all-the-icons"
    ],
-   "commit": "581ef299b732e00b6b9c13e797a55e0be18859e1",
-   "sha256": "0vv2f4xc265k74jwggvpi6faabv85q9203ffj9j93v85daah382d"
+   "commit": "098684c0fd8b9c9d940122faf96f62f579d98699",
+   "sha256": "0r0whjkwm5vdaargax7shrx91nvdsw2ma6ims0qd2psrs7x9wnav"
   }
  },
  {
@@ -82868,8 +82868,8 @@
   "repo": "alphapapa/org-ql",
   "unstable": {
    "version": [
-    20221007,
-    2334
+    20221209,
+    322
    ],
    "deps": [
     "dash",
@@ -82883,8 +82883,8 @@
     "transient",
     "ts"
    ],
-   "commit": "5f70636556bffca92d8ef8297ba3002a4ab5b52d",
-   "sha256": "1fyqsl8ybx3x413p04cywzj0gdwwpidqw1ja2433ij21vvmph1vj"
+   "commit": "6e3a5eebe718b3e5e5f035f5e21cbf5504c0cbd4",
+   "sha256": "0s4c1phlsv3b45rkrnknkylfn5gg4i2s394lzzb6ja8naz7jkd4v"
   },
   "stable": {
    "version": [
@@ -86599,14 +86599,14 @@
   "repo": "lorniu/ox-spectacle",
   "unstable": {
    "version": [
-    20221208,
-    2350
+    20221209,
+    318
    ],
    "deps": [
     "org"
    ],
-   "commit": "d0af6488e232ea1736440df074d559182d723823",
-   "sha256": "0bw01glxm0svsazcibhkgnf15n3yhny7vriizfik6ln7nnhinhfz"
+   "commit": "d4b0cd0337651100420cabfd3c5a6d3b67cd2308",
+   "sha256": "0q3c946q6csdqzsjnjaihvc62hy9gzng7j014r3aq0czxhn3998l"
   }
  },
  {
@@ -105794,11 +105794,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20221207,
-    117
+    20221209,
+    116
    ],
-   "commit": "67a25c09d5783f077cea894693e61fd0d37e8492",
-   "sha256": "19bfsvi241rcwd2fxzgnlj9i92m1zi2lf0yxk6hrhla6kzmz762p"
+   "commit": "d7ea306ad91e2fb767b2c48d5ce96675bc76bc6f",
+   "sha256": "1plxj6zd56lbg72mdvfl9ma7gf4kf5l1xrvfsx1ix9351n38c0sk"
   }
  },
  {
