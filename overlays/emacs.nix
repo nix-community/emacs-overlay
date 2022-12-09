@@ -89,6 +89,7 @@ let
               tree-sitter-c-sharp
               tree-sitter-cpp
               tree-sitter-css
+              tree-sitter-dockerfile
               tree-sitter-java
               tree-sitter-python
               tree-sitter-javascript
