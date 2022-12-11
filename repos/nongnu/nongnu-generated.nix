@@ -49,10 +49,10 @@
       elpaBuild {
         pname = "annotate";
         ename = "annotate";
-        version = "1.8.2";
+        version = "1.8.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/annotate-1.8.2.tar";
-          sha256 = "0igkj3abqq7n1rjpa9sfmfi6zilzcwlv8kpa5psrnpk3zigjayi8";
+          url = "https://elpa.nongnu.org/nongnu/annotate-1.8.3.tar";
+          sha256 = "0r13dc0bl2zl4y4r260n6xnlqlwjncc2l9drg87n815lyq9npfmh";
         };
         packageRequires = [];
         meta = {
@@ -573,10 +573,10 @@
       elpaBuild {
         pname = "eat";
         ename = "eat";
-        version = "0.1.1";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/eat-0.1.1.tar";
-          sha256 = "0qqkkxq5nqljvh3nhnqyvv7vd3hr64nc3bgvg7i36f1d9s6j82v1";
+          url = "https://elpa.nongnu.org/nongnu/eat-0.2.1.tar";
+          sha256 = "01cnm09d03y8x7iawlqwl9sxn4fi0pcrvl95ynr94zc8bg1l9jig";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2227,10 +2227,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20221205.101826";
+        version = "1.0.20221210.113935";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20221205.101826.tar";
-          sha256 = "110v7rxa3v5xpfm1gaax54p5jqcwasx1am7rbc7afksh2244i48a";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20221210.113935.tar";
+          sha256 = "1r71nqj9clw3zd4k91cz8i2gln1wvkbiv1mrb6cdfr2sl0yw20yh";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2591,10 +2591,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.9.4";
+        version = "0.9.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.9.4.tar";
-          sha256 = "1f90qqhshmjrxf7jjwnz7nfc0k0n5lzqni76qqw9sp06fz3hxk6c";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.9.5.tar";
+          sha256 = "0kv84ripzvly36bsqi7sd18dxbs76cphd0pibjgis5254nq89rq3";
         };
         packageRequires = [ emacs ];
         meta = {
