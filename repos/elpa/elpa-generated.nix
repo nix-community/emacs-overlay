@@ -1728,6 +1728,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    external-completion = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "external-completion";
+        ename = "external-completion";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/external-completion-0.1.tar";
+          sha256 = "12pddwp5jby2icshj77w4kwxv75zi00jdxw18f721d7zx3l7q668";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/external-completion.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     exwm = callPackage ({ elpaBuild, fetchurl, lib, xelb }:
       elpaBuild {
         pname = "exwm";
