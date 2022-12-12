@@ -573,10 +573,10 @@
       elpaBuild {
         pname = "eat";
         ename = "eat";
-        version = "0.2.1";
+        version = "0.2.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/eat-0.2.1.tar";
-          sha256 = "01cnm09d03y8x7iawlqwl9sxn4fi0pcrvl95ynr94zc8bg1l9jig";
+          url = "https://elpa.nongnu.org/nongnu/eat-0.2.2.tar";
+          sha256 = "141x4y45fqd5f1ycr1rng3dfbkw9793wdya3l51jdnsxkmng0hzg";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3030,10 +3030,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "22.3.20221208105541";
+        version = "22.3.20221211131110";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-22.3.20221208105541.tar";
-          sha256 = "1qzfalg1a7k5lsbyrljq4ss22023xcb0ilzl5mvc936l30ffbd7p";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-22.3.20221211131110.tar";
+          sha256 = "0ynf377clm0468y55lsmll6xgsi1gz09c1w082abpwhqlkq59qf4";
         };
         packageRequires = [ emacs ];
         meta = {
