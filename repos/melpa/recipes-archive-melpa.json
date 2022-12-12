@@ -8299,6 +8299,30 @@
   }
  },
  {
+  "ename": "boxes",
+  "commit": "525c1c64ccaeda21f8e30d8d7edcde318ba80ffa",
+  "sha256": "0sp9mpn0x7cljiaipvfh14sdk7jpmzi9pvvsxci7hz6mb2lskw0a",
+  "fetcher": "github",
+  "repo": "ascii-boxes/boxes",
+  "unstable": {
+   "version": [
+    20221208,
+    1313
+   ],
+   "commit": "d62637e6fa0e0b3450aa9c68a1d76d44ea9d6d8f",
+   "sha256": "00qnzvpx6kivrxnaglrbcnacmgbhp5lblnsrs7cyl1jgi41lf3yc"
+  },
+  "stable": {
+   "version": [
+    2,
+    2,
+    0
+   ],
+   "commit": "7113961cbd139bd0c2122a92cc41331dbabf45a8",
+   "sha256": "0vv2gaav1m4z2xdk0k3ragmv4kcnzv7p3v97lkjl1wbfmk5nhz07"
+  }
+ },
+ {
   "ename": "boxquote",
   "commit": "d2148f8f17b16154bfc337df69a5ad31e25a9b05",
   "sha256": "0s6cxb8y1y8w9vxxhj1izs8d0gzk4z2zm0cm9gkw1h7k2kyggx6s",
@@ -19427,6 +19451,14 @@
   }
  },
  {
+  "ename": "d2-mode",
+  "commit": "79abbec271b1a148ab2c4a45e8a44eb776c60e35",
+  "sha256": "09gvyszpycar32j4pyq8nwkwmx0x225pvy8my12vym3jlw2rl19b",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "andorsk/d2-mode"
+ },
+ {
   "ename": "dactyl-mode",
   "commit": "72d503380511d2d6580b9522b6e0bd2d800bdebe",
   "sha256": "0ppcabddcpwshfd04x42nbrbkagbyi1bg4vslysnlxn4kaxjs7pm",
@@ -26019,9 +26051,9 @@
  },
  {
   "ename": "edwina",
-  "commit": "050188e81b045bdadf722db552a42864121d9b81",
-  "sha256": "1581cwgfnrlcmbmrnfj57w9hb9jx9sinz6zw6zy2yk7g1r9vgbzl",
-  "fetcher": "github",
+  "commit": "cb6cf7e2af2800ad0e295db6116a63009ba8eea0",
+  "sha256": "0aqbf4xw5v5c32f9wmhvzfxrcvxpj0fwkwxlvf0s7qj29dp01lh1",
+  "fetcher": "gitlab",
   "repo": "ajgrf/edwina",
   "unstable": {
    "version": [
@@ -63559,6 +63591,14 @@
   }
  },
  {
+  "ename": "kill-file-path",
+  "commit": "bbb76c99758c378c1cf26046a4e25e0933dfd947",
+  "sha256": "0gif8qrrgqj0vgffznqwxwia9c750nkpnwdszcavn2xfyrj67vf8",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "chyla/kill-file-path"
+ },
+ {
   "ename": "kill-or-bury-alive",
   "commit": "25016ed09b6333bd79b989a8f6b7b03cd92e08b3",
   "sha256": "0mm0m8hpy5v98cap4f0s38dcviirm7s6ra4l94mknyvnx0f73lz8",
@@ -64730,27 +64770,27 @@
   "unstable": {
    "version": [
     20221212,
-    15
+    318
    ],
    "deps": [
     "auctex",
     "transient"
    ],
-   "commit": "a53d3f615820146d496678c9b0bb794324d18aa4",
-   "sha256": "0xga7n86qdmvx5kjd9w092ndhr36h9j1p6psxd5hnjr96xdpmy7p"
+   "commit": "a0e0aff19c60d0754b2f3457219b3da51bf78777",
+   "sha256": "106avlvz3y35x1kdhxcf1jcwcnxzlbhqjg1zwainfri1d35glvrd"
   },
   "stable": {
    "version": [
     0,
-    0,
-    5
+    3,
+    0
    ],
    "deps": [
     "auctex",
     "transient"
    ],
-   "commit": "583bf279a327a9c852c59bae6f62487462c86b13",
-   "sha256": "1hq0qsqb1xm3bszhh9001d7929wp5znp6hpb63xlyzczlgr88b15"
+   "commit": "9ce3165694f84be20e6ea58cf3f62fea8f7f3643",
+   "sha256": "02w3md5brpvwqdbws26d0kyqh4rxg78awccqsy42i41f17790mw5"
   }
  },
  {
@@ -73616,6 +73656,29 @@
   }
  },
  {
+  "ename": "move-mode",
+  "commit": "d492e6f0532df9c1d5966e1a61160ab8535be4e4",
+  "sha256": "1krki5spb8r9ajzaawrgz1y8kzfljwvpx9cfhml39izq7yi03kh4",
+  "fetcher": "github",
+  "repo": "amnn/move-mode",
+  "unstable": {
+   "version": [
+    20221205,
+    1433
+   ],
+   "commit": "fa34fbe977d62c8297abc3547b9cfb25802e033c",
+   "sha256": "1qxnkdvn0d2ybrkwm57wn0k5y1nr6sc82i9n3s2306anyflvn868"
+  },
+  "stable": {
+   "version": [
+    1,
+    0
+   ],
+   "commit": "87aabaac939b69bfd4cd23704e3b67f59c461358",
+   "sha256": "0sdb783i0rg1fgcs38xxn59z7mzkc43m9cgdx9vzb2ymzzfgg0z9"
+  }
+ },
+ {
   "ename": "move-text",
   "commit": "82bfd0f41e42eed1d4c2361ec1d1685edebbac1b",
   "sha256": "04bfrkanafmbrdyw06ciw9kiyn7h3kpikxk3clx2gc04jl67hzgy",
@@ -81980,8 +82043,8 @@
  },
  {
   "ename": "org-link-beautify",
-  "commit": "acd9bcc86c90e507fcd76f16e7ab57d64114f8b4",
-  "sha256": "1k1rczs3w3cxh9fryd1qr1dnr5v2hhxad1vcyjrqvyqpbm1dqnlh",
+  "commit": "2cbc9e1af903ffc900be7ec0ed1050ae9ad81011",
+  "sha256": "1h4ppxc9giii3rg5hvpf2dm4c9w0wwd56ivmqyx0q4b9fi69lswa",
   "fetcher": "git",
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
@@ -82277,6 +82340,24 @@
    ],
    "commit": "e96fecaffa2924de64a507aa31d2934e667ee1ea",
    "sha256": "1h514knqys20nv9qknxdl5y6rgmyymyr42i07dar8hln9vj0ywqm"
+  }
+ },
+ {
+  "ename": "org-mpv-notes",
+  "commit": "65be49ab5f7680f4b65b657d62c4de337425484e",
+  "sha256": "0rd91dc19b38q0s4vgsa0habg1par395b8kwyv4qb1vl64f7zblp",
+  "fetcher": "github",
+  "repo": "bpanthi977/org-mpv-notes",
+  "unstable": {
+   "version": [
+    20221202,
+    1657
+   ],
+   "deps": [
+    "mpv"
+   ],
+   "commit": "8c123996044cfb87101da6c5f16634188f019cca",
+   "sha256": "1nr4n74c5l2azgyv3w828g6n8p3bjfrs8s6b37j87v9vscc24mic"
   }
  },
  {
@@ -86612,14 +86693,14 @@
   "repo": "lorniu/ox-spectacle",
   "unstable": {
    "version": [
-    20221211,
-    1213
+    20221212,
+    406
    ],
    "deps": [
     "org"
    ],
-   "commit": "65981377ff503073f86cc6c94efbe7cc2cee8373",
-   "sha256": "0m661kwmr4yh1g7bs59nzjvh26c3n0ki3cm9kwmr02gnszr6nvca"
+   "commit": "846b0dadcba77a68bc6381e479a9874e7842eec9",
+   "sha256": "1c1729399icvpgafncvykh3yi6pqzbngvaq8abrpviqilxw8ck38"
   }
  },
  {
@@ -87581,9 +87662,9 @@
  },
  {
   "ename": "parchment-theme",
-  "commit": "f2302f512053b22e5abbd6a654cf94e4d5c7f5ca",
-  "sha256": "1dkl1f0zmnkw8xd89m5kd42rk4pg6a6wnm52g4p1b4yqqq27h6zm",
-  "fetcher": "github",
+  "commit": "cb6cf7e2af2800ad0e295db6116a63009ba8eea0",
+  "sha256": "0f2h41rj96779pbfd78j9pcq5byv328j1wdcmhr1khkqhzflvzsg",
+  "fetcher": "gitlab",
   "repo": "ajgrf/parchment",
   "unstable": {
    "version": [
