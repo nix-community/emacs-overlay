@@ -87,6 +87,7 @@ let
               tree-sitter-bash
               tree-sitter-c
               tree-sitter-c-sharp
+              tree-sitter-cmake
               tree-sitter-cpp
               tree-sitter-css
               tree-sitter-dockerfile
