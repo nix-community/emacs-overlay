@@ -1606,6 +1606,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    lorem-ipsum = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "lorem-ipsum";
+        ename = "lorem-ipsum";
+        version = "0.3";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/lorem-ipsum-0.3.tar";
+          sha256 = "0qgd7a3xg1j3yvdgvpm6iq4q297f4kd7a5wjvbi2l6y3s4712sl2";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/lorem-ipsum.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     lua-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "lua-mode";
