@@ -1041,10 +1041,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.34";
+        version = "0.35";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/debbugs-0.34.tar";
-          sha256 = "06nxia4myhysiw12vsflgllrp9nyhmjnybrrcl1vyf4pw0fc6yrx";
+          url = "https://elpa.gnu.org/packages/debbugs-0.35.tar";
+          sha256 = "1w6y02ikjshfk12sdgbryfgj2z4yia2mpifa7g13ab7v9phpqpl1";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
