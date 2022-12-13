@@ -135,6 +135,23 @@
           license = lib.licenses.free;
         };
       }) {};
+    auto-dim-other-buffers = callPackage ({ elpaBuild
+                                          , fetchurl
+                                          , lib }:
+      elpaBuild {
+        pname = "auto-dim-other-buffers";
+        ename = "auto-dim-other-buffers";
+        version = "2.1.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/auto-dim-other-buffers-2.1.1.tar";
+          sha256 = "0a7xdp25bny5ykf7808jwmziad8myf8yp01p07f20bsrl4m0bzz6";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/auto-dim-other-buffers.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     autothemer = callPackage ({ dash, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "autothemer";
@@ -728,6 +745,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    evil-iedit-state = callPackage ({ elpaBuild, evil, fetchurl, iedit, lib }:
+      elpaBuild {
+        pname = "evil-iedit-state";
+        ename = "evil-iedit-state";
+        version = "1.3";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-iedit-state-1.3.tar";
+          sha256 = "1dsdlhi58xsdsgkdhpnlkx1gkwc4m5sks99ph8lbj179vd1gszn6";
+        };
+        packageRequires = [ evil iedit ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-iedit-state.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     evil-indent-plus = callPackage ({ cl-lib ? null
                                     , elpaBuild
                                     , evil
@@ -824,6 +856,36 @@
         packageRequires = [ evil ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/evil-visualstar.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    flx = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "flx";
+        ename = "flx";
+        version = "0.6.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/flx-0.6.2.tar";
+          sha256 = "0xmxin1k758nskrxhmvi4m5vbcfi2ncfp5n9q18mlc1j45vwawpx";
+        };
+        packageRequires = [ cl-lib ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/flx.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    flx-ido = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, flx, lib }:
+      elpaBuild {
+        pname = "flx-ido";
+        ename = "flx-ido";
+        version = "0.6.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/flx-ido-0.6.2.tar";
+          sha256 = "1jdk87v605m4brvf0pxfd6bz0j2r217cw9pmrpl38nrszbngh67l";
+        };
+        packageRequires = [ cl-lib flx ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/flx-ido.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -1231,6 +1293,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/graphql-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    gruber-darker-theme = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "gruber-darker-theme";
+        ename = "gruber-darker-theme";
+        version = "0.7";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/gruber-darker-theme-0.7.tar";
+          sha256 = "0k2njsg7bwy4i7ll5d9dpqawylgkfvp74bany8g487xvspjscrji";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/gruber-darker-theme.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -3023,6 +3100,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    writegood-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "writegood-mode";
+        ename = "writegood-mode";
+        version = "2.2.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/writegood-mode-2.2.0.tar";
+          sha256 = "08b1650v6qsb3x1s5k4n5m2aqx1n26gc4wj822fm9s49k8vcpzl8";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/writegood-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     ws-butler = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "ws-butler";
@@ -3053,6 +3145,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/xah-fly-keys.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    xkcd = callPackage ({ elpaBuild, fetchurl, json ? null, lib }:
+      elpaBuild {
+        pname = "xkcd";
+        ename = "xkcd";
+        version = "1.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/xkcd-1.1.tar";
+          sha256 = "1yszrba4cvisiy7m16rzpj7plbnafj4c7bdgxvqwxwhsasfmh6ag";
+        };
+        packageRequires = [ json ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/xkcd.html";
           license = lib.licenses.free;
         };
       }) {};
