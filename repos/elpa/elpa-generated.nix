@@ -613,10 +613,10 @@
       elpaBuild {
         pname = "cl-lib";
         ename = "cl-lib";
-        version = "0.7";
+        version = "0.7.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cl-lib-0.7.tar";
-          sha256 = "0s1vkkj1yc5zn6bvc84sr726cm4v3jh2ymm7hc3rr00swwbz35lv";
+          url = "https://elpa.gnu.org/packages/cl-lib-0.7.1.tar";
+          sha256 = "1pnsm335wi1lkg7vi0lnqxajm12rvyakzd5iccxhipbk3gz3r6my";
         };
         packageRequires = [];
         meta = {
@@ -3740,10 +3740,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.9.2";
+        version = "0.9.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/project-0.9.2.tar";
-          sha256 = "0g4cnh771jjwjqhja0kwsv0162ff2xidpk8b6s3r5rzjc9inpcq7";
+          url = "https://elpa.gnu.org/packages/project-0.9.3.tar";
+          sha256 = "0p2ivkmcx55xwmyg2vhj8qcqg4qd5y3myshn194ncy38lbvsj91h";
         };
         packageRequires = [ emacs xref ];
         meta = {
