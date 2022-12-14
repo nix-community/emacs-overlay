@@ -3725,10 +3725,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "1.2.0";
+        version = "1.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-1.2.0.tar";
-          sha256 = "06xk6z3b5mqgcskjiwkl9viccvzriflr8y51aclyfdamh5qb6kqb";
+          url = "https://elpa.gnu.org/packages/posframe-1.3.0.tar";
+          sha256 = "1w6hrxrnbh7c96n4am7igrxxy7w3xfcpqv3df13hd0cn6mh826ab";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4698,6 +4698,21 @@
         packageRequires = [ emacs ivy ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/swiper.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    sxhkdrc-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "sxhkdrc-mode";
+        ename = "sxhkdrc-mode";
+        version = "0.1.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/sxhkdrc-mode-0.1.1.tar";
+          sha256 = "1cwwjqdf846l4jh8d0r5jqhdyj6rdxl1qms5fdr23nnxd8d29b9j";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/sxhkdrc-mode.html";
           license = lib.licenses.free;
         };
       }) {};
