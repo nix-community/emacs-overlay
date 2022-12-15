@@ -1687,10 +1687,10 @@
       elpaBuild {
         pname = "lorem-ipsum";
         ename = "lorem-ipsum";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/lorem-ipsum-0.3.tar";
-          sha256 = "0qgd7a3xg1j3yvdgvpm6iq4q297f4kd7a5wjvbi2l6y3s4712sl2";
+          url = "https://elpa.nongnu.org/nongnu/lorem-ipsum-0.4.tar";
+          sha256 = "05zk11g0w3bnabxf5937hrkc3k58vlrh1bk61dar9gfbfdq3ijyg";
         };
         packageRequires = [];
         meta = {
