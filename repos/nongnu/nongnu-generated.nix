@@ -1990,10 +1990,10 @@
       elpaBuild {
         pname = "org-contrib";
         ename = "org-contrib";
-        version = "0.4";
+        version = "0.4.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/org-contrib-0.4.tar";
-          sha256 = "05r7w0h9v1vfhv1dd2vaabq2gm8ra70s1cirlp75s343b0z28ca6";
+          url = "https://elpa.nongnu.org/nongnu/org-contrib-0.4.1.tar";
+          sha256 = "0xhlsbqjj1zivlz44hdlkcwqalfjwds5fv2pcwn0rskfhr73xp9a";
         };
         packageRequires = [ emacs org ];
         meta = {
