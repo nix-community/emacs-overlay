@@ -91,12 +91,16 @@ let
               tree-sitter-cpp
               tree-sitter-css
               tree-sitter-dockerfile
+              tree-sitter-go
+              tree-sitter-gomod
               tree-sitter-java
               tree-sitter-python
               tree-sitter-javascript
               tree-sitter-json
+              tree-sitter-toml
               tree-sitter-tsx
               tree-sitter-typescript
+              tree-sitter-yaml
             ];
             tree-sitter-grammars = super.runCommand "tree-sitter-grammars" {}
               (super.lib.concatStringsSep "\n" (["mkdir -p $out/lib"] ++ (map linkCmd plugins)));
