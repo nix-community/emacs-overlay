@@ -1702,10 +1702,10 @@
       elpaBuild {
         pname = "lua-mode";
         ename = "lua-mode";
-        version = "20210802";
+        version = "20221027";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/lua-mode-20210802.tar";
-          sha256 = "1yarwai9a0w4yywd0ajdkif4g26z98zw91lg1z78qw0k61qjmnh6";
+          url = "https://elpa.nongnu.org/nongnu/lua-mode-20221027.tar";
+          sha256 = "1irdlw77ny0a28msrbn4lm66ixrlf2grsj4izhpdm1n0yv66xvfc";
         };
         packageRequires = [ emacs ];
         meta = {
