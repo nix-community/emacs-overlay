@@ -1415,6 +1415,7 @@
     eglot = callPackage ({ eldoc
                          , elpaBuild
                          , emacs
+                         , external-completion
                          , fetchurl
                          , flymake ? null
                          , jsonrpc
@@ -1425,12 +1426,21 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.9";
+        version = "1.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eglot-1.9.tar";
-          sha256 = "1v6pyk3c680xmsv6lrq5xcj9x771z87i3b92in87zg841mw3b6as";
+          url = "https://elpa.gnu.org/packages/eglot-1.10.tar";
+          sha256 = "0iw1jnfsjd2yq73ic3cld8m51wyxdwn3kjv9ala28krvsvb4h3y4";
         };
-        packageRequires = [ eldoc emacs flymake jsonrpc project seq xref ];
+        packageRequires = [
+          eldoc
+          emacs
+          external-completion
+          flymake
+          jsonrpc
+          project
+          seq
+          xref
+        ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/eglot.html";
           license = lib.licenses.free;
@@ -2516,10 +2526,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.15";
+        version = "1.0.16";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.15.tar";
-          sha256 = "0biwvkvd48xqvigzs00yz4mk847xzyzm7p0lkns58fxph9nkg4h5";
+          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.16.tar";
+          sha256 = "1fkbw20ghinj70dk2q58scqlrpr3fcqgvcbfh5jbg6mdf1m6svf9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5285,10 +5295,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.5.5";
+        version = "0.5.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-posframe-0.5.5.tar";
-          sha256 = "1rfji5x7rb787xzm9g268z7khvrby0plvas97q8wfshl96md8svx";
+          url = "https://elpa.gnu.org/packages/vertico-posframe-0.5.9.tar";
+          sha256 = "1d1b8lfhr8zxa0dwsiqb1wzawx90l6lrr26jl17gpj85iyj3imq6";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
