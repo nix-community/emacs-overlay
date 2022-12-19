@@ -124,17 +124,9 @@ let
         )
       )));
 
-
-  mkPgtkEmacs = namePrefix: jsonFile: { ... }@args: (mkGitEmacs namePrefix jsonFile args).overrideAttrs (
-    old: {
-      configureFlags = (super.lib.remove "--with-xft" old.configureFlags)
-        ++ super.lib.singleton "--with-pgtk";
-    }
-  );
-
   emacsGit = mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json { withSQLite3 = true; withWebP = true; };
 
-  emacsPgtk = mkPgtkEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json { withSQLite3 = true; withWebP = true; withGTK3 = true; };
+  emacsPgtk = mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json { withSQLite3 = true; withWebP = true; withPgtk = true; };
 
   emacsUnstable = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json { noTreeSitter = true; });
 
