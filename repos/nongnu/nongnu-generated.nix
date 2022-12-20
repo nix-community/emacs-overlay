@@ -49,10 +49,10 @@
       elpaBuild {
         pname = "annotate";
         ename = "annotate";
-        version = "1.8.3";
+        version = "1.8.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/annotate-1.8.3.tar";
-          sha256 = "0r13dc0bl2zl4y4r260n6xnlqlwjncc2l9drg87n815lyq9npfmh";
+          url = "https://elpa.nongnu.org/nongnu/annotate-1.8.4.tar";
+          sha256 = "12p90mcnj2mjprsfrkk6dvlzgazbyq9hqlrs4dxs1h239zh3srqi";
         };
         packageRequires = [];
         meta = {
@@ -493,6 +493,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/dart-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    denote-refs = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "denote-refs";
+        ename = "denote-refs";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/denote-refs-0.1.tar";
+          sha256 = "0qf39xafn5vaydbahf0jpq033p5hjf36nqs5c2nqphg77kaldiv2";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/denote-refs.html";
           license = lib.licenses.free;
         };
       }) {};
