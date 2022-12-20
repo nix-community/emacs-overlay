@@ -3735,10 +3735,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "1.3.1";
+        version = "1.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-1.3.1.tar";
-          sha256 = "0j5nchfpbrf9fsr82lnvhnq6vi33gv3glsbqn18knnby8m7sxzci";
+          url = "https://elpa.gnu.org/packages/posframe-1.3.2.tar";
+          sha256 = "05qkwb3ys05chn0maz7q19kp539m7p5acb8di4rni4vjjlkpx2bj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4090,10 +4090,10 @@
       elpaBuild {
         pname = "rec-mode";
         ename = "rec-mode";
-        version = "1.9.0";
+        version = "1.9.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rec-mode-1.9.0.tar";
-          sha256 = "1w1q6kh567fd8xismq9i6wr1y893lypd30l452yvydi1qjiq1n6x";
+          url = "https://elpa.gnu.org/packages/rec-mode-1.9.1.tar";
+          sha256 = "0f60bw07l6kk1kkjjxsk30p6rxj9mpngaxqy8piyabnijfgjzd3s";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5295,10 +5295,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.5.9";
+        version = "0.6.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-posframe-0.5.9.tar";
-          sha256 = "1d1b8lfhr8zxa0dwsiqb1wzawx90l6lrr26jl17gpj85iyj3imq6";
+          url = "https://elpa.gnu.org/packages/vertico-posframe-0.6.0.tar";
+          sha256 = "1cwi26jz9dn8la6zxxai2pfkcpz8lwf4cd8hr44lak6x0ca9bwr3";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
