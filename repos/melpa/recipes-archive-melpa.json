@@ -16953,16 +16953,16 @@
   "repo": "mclear-tools/consult-notes",
   "unstable": {
    "version": [
-    20221216,
-    2126
+    20221221,
+    440
    ],
    "deps": [
     "consult",
     "dash",
     "s"
    ],
-   "commit": "5cb24d8202795fc380fe173ecad31f7c969320fd",
-   "sha256": "0m4kvf6cv0gmdrpy1rqvy2zw4j8w49ci84yviaxhbm27bdfgy1vn"
+   "commit": "828fab775277f25811f2a92ce1587aba232300e5",
+   "sha256": "08fxbjx6y0hvs7gdnqnsflxv4s4biir617cfkicgah92qs0zkd5c"
   }
  },
  {
@@ -27370,11 +27370,11 @@
   "repo": "acdw/electric-cursor.el",
   "unstable": {
    "version": [
-    20220108,
-    2052
+    20221221,
+    438
    ],
-   "commit": "92f77b05fec80c5440a8b800b33345dabca13872",
-   "sha256": "1f1z672z21yd2zwldrb95v739kgsgiq5ckh2ffskqcrh1k5dya8j"
+   "commit": "bc09aa8c5d3cc32e3e6452cbf8018fc1ea772b73",
+   "sha256": "15v62nqncs85pxvh96gmn5nsyxqc7s2c2gac08zy511d39ysqq2f"
   },
   "stable": {
    "version": [
@@ -42148,13 +42148,13 @@
    "version": [
     3,
     6,
-    1
+    2
    ],
    "deps": [
     "seq"
    ],
-   "commit": "fcb11a815f1536a96b5153f73792a53b02548a31",
-   "sha256": "1b1yjgink8psyggzkvqzwfnnimmawsv83yl34ccg9921z8bx27mb"
+   "commit": "1a0482e03e9cf05e481a57c057cf9b985c6ca4d5",
+   "sha256": "0mml0in6xxhfv4mdb7rl9k8m6xwmrjl5bb301p8d56sfng982pdl"
   }
  },
  {
@@ -49460,14 +49460,15 @@
   "repo": "purplg/hass",
   "unstable": {
    "version": [
-    20221213,
-    306
+    20221220,
+    2340
    ],
    "deps": [
-    "request"
+    "request",
+    "websocket"
    ],
-   "commit": "65dc52effab92fea5b0a8896821b78fd00da66f0",
-   "sha256": "0li2kdjj7c71z1cyshzxaccr8kfni5qsrkap75ka4ra7dkaymqhr"
+   "commit": "cbe701e2765588594c89c24192a86f96e079d827",
+   "sha256": "0dak2isvpqzfy90c63q83k98fcam1s9mqzhcp3dxhhzgw4q2ldbg"
   },
   "stable": {
    "version": [
@@ -64970,15 +64971,15 @@
   "repo": "enricoflor/latex-table-wizard",
   "unstable": {
    "version": [
-    20221219,
-    253
+    20221220,
+    2344
    ],
    "deps": [
     "auctex",
     "transient"
    ],
-   "commit": "ff8c832ad0ab9b12d5113f1b6eb5d636d9e34f6c",
-   "sha256": "106gy3hjq1vcf5kz3i463llr6mg8nq3kmn2jazq76cff6qvsaakx"
+   "commit": "63dc920fb57706855c21b7efc1dd1029bb310506",
+   "sha256": "0k78nf0zsfm9ya8gqli7jfb5ca1yhrysyjl8sc36fshzka73kdb5"
   },
   "stable": {
    "version": [
@@ -81183,14 +81184,14 @@
   "url": "https://repo.or.cz/org-contacts.git",
   "unstable": {
    "version": [
-    20220910,
-    436
+    20221221,
+    431
    ],
    "deps": [
     "org"
    ],
-   "commit": "217ba04c9d638067a6ccb0829cf1885f54c1d568",
-   "sha256": "0f0vjdvx0hffj2xvyrya8yfl77djmzmpxdxsx58ym4lmdvwyb6x3"
+   "commit": "bb4032eb12c20d34555a4e670f28696cf31a7b54",
+   "sha256": "149s34d4j68f8crp66xmscd22svwkar1a6zifznxlyhvszg0zl27"
   }
  },
  {
@@ -100022,7 +100023,7 @@
   "repo": "brotzeit/rustic",
   "unstable": {
    "version": [
-    20221220,
+    20221221,
     435
    ],
    "deps": [
@@ -100037,8 +100038,8 @@
     "spinner",
     "xterm-color"
    ],
-   "commit": "7dbd87d03939d7cf33bbec0b34b526e93ccf67d2",
-   "sha256": "0g8b74cf7ax4zk16bj56dmx7ipi73iayw6jpgzydwfiyf2hqkg8f"
+   "commit": "ca5bd11ce701843eda9ea0bd6343af9bd5dc2f25",
+   "sha256": "0ad5mfajcv88qllx25a44jlsac1kqycaf8d8gl9hg563hn80383a"
   },
   "stable": {
    "version": [
