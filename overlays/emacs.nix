@@ -82,9 +82,10 @@ let
             lib = drv: ''lib${libName drv}.${libSuffix}'';
             linkCmd = drv:
               if super.stdenv.isDarwin
-              then ''cp ${drv}/parser $out/lib/${lib drv}
-                     # FIXME: Is this kosher?
-                     /usr/bin/install_name_tool -id $out/lib/${lib drv} $out/lib/${lib drv}
+              then ''cp ${drv}/parser .
+                     chmod +w ./parser
+                     install_name_tool -id $out/lib/${lib drv} ./parser
+                     cp ./parser $out/lib/${lib drv}
                      /usr/bin/codesign -s - -f $out/lib/${lib drv}
                 ''
               else ''ln -s ${drv}/parser $out/lib/${lib drv}'';
@@ -108,14 +109,14 @@ let
               tree-sitter-typescript
               tree-sitter-yaml
             ];
-            tree-sitter-grammars = super.runCommand "tree-sitter-grammars" {}
+            tree-sitter-grammars = super.runCommandCC "tree-sitter-grammars" {}
               (super.lib.concatStringsSep "\n" (["mkdir -p $out/lib"] ++ (map linkCmd plugins)));
           in {
             buildInputs = old.buildInputs ++ [ self.pkgs.tree-sitter tree-sitter-grammars ];
             TREE_SITTER_LIBS = "-ltree-sitter";
             # Add to list of directories dlopen/dynlib_open searches for tree sitter languages *.so/*.dylib.
             postFixup = old.postFixup + super.lib.optionalString self.stdenv.isDarwin ''
-                /usr/bin/install_name_tool -add_rpath ${super.lib.makeLibraryPath [ tree-sitter-grammars ]} $out/bin/emacs
+                install_name_tool -add_rpath ${super.lib.makeLibraryPath [ tree-sitter-grammars ]} $out/bin/emacs
                 /usr/bin/codesign -s - -f $out/bin/emacs
               '' + super.lib.optionalString self.stdenv.isLinux ''
                 ${self.pkgs.patchelf}/bin/patchelf --add-rpath ${super.lib.makeLibraryPath [ tree-sitter-grammars ]} $out/bin/emacs
