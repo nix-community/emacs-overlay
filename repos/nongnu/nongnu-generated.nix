@@ -681,6 +681,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    engine-mode = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "engine-mode";
+        ename = "engine-mode";
+        version = "2.2.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/engine-mode-2.2.1.tar";
+          sha256 = "1m5i3pyi4y90jvwgypxzl3qwhq5j6gazwijalhjcgb6gnpsm81kv";
+        };
+        packageRequires = [ cl-lib ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/engine-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     evil = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "evil";
