@@ -2811,10 +2811,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "0.15";
+        version = "1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/marginalia-0.15.tar";
-          sha256 = "0sadz4c44pld9aqn49a7l80lqgv2ncv7aw401d740n2ja2grg6vb";
+          url = "https://elpa.gnu.org/packages/marginalia-1.0.tar";
+          sha256 = "1y1901d3b28rigszp9nizhh2sk63ghg7mi36i5ibagx0vfsvww8m";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5275,10 +5275,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "0.29";
+        version = "1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-0.29.tar";
-          sha256 = "0yqzy24nm1gi0i5jzs9s0v5pwzzfxw0izagyc72f7si3x90b92qm";
+          url = "https://elpa.gnu.org/packages/vertico-1.0.tar";
+          sha256 = "1sxrdn3xwmmpvxz7gmn653ngll5fi5zdy2s6pfxxnr42l8x8fh7h";
         };
         packageRequires = [ emacs ];
         meta = {
