@@ -2713,10 +2713,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.9.6";
+        version = "0.10.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.9.6.tar";
-          sha256 = "172pp8n746caqb9az4libhpa8vyzmw80il3q626iv70b7h90ganf";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.10.0.tar";
+          sha256 = "1k3xrsn1pa8id7wimxvzzmn3bdrai8xwl34pyly8i8mrcrbib63r";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3019,10 +3019,10 @@
       elpaBuild {
         pname = "web-mode";
         ename = "web-mode";
-        version = "17.3.7";
+        version = "17.3.8";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/web-mode-17.3.7.tar";
-          sha256 = "03gzpswbpcjay0fnq16z1gi681y7q0yppw0a0b83m1y0bbahnbaj";
+          url = "https://elpa.nongnu.org/nongnu/web-mode-17.3.8.tar";
+          sha256 = "0g163mgf1kc2bfkh8b2s9jl5cmzgcni2g25hxmyxb4rz3v30z4ca";
         };
         packageRequires = [ emacs ];
         meta = {
