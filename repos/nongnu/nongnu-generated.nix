@@ -1019,10 +1019,10 @@
       elpaBuild {
         pname = "geiser";
         ename = "geiser";
-        version = "0.28.1";
+        version = "0.28.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-0.28.1.tar";
-          sha256 = "1ymnnqh96qss2f28nzdghrmgs6g437zw8rhd8n1jkj8y3hi455bi";
+          url = "https://elpa.nongnu.org/nongnu/geiser-0.28.2.tar";
+          sha256 = "1d2g673zn59ggcr2sx9dsxibaqh6b456v4wbpg3wb5ph63rzrh8m";
         };
         packageRequires = [ emacs project ];
         meta = {
