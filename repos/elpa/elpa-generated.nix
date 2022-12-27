@@ -3345,10 +3345,10 @@
       elpaBuild {
         pname = "orderless";
         ename = "orderless";
-        version = "0.8";
+        version = "1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/orderless-0.8.tar";
-          sha256 = "062i9xv9y1szdcmc3h1c9kfndlvk4lj20zh22rs9vnysfnlhiq8j";
+          url = "https://elpa.gnu.org/packages/orderless-1.0.tar";
+          sha256 = "0kslgrs857h3mm837hcb8v52ankbv0hm2pz0q136imckzj32m43s";
         };
         packageRequires = [ emacs ];
         meta = {
