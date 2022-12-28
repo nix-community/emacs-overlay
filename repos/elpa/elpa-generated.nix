@@ -4810,10 +4810,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tempel-0.5.tar";
-          sha256 = "0gx48p2kkwizxf30h8jq658ksp00ibf5azjxvcs1nj8hz2g3agjx";
+          url = "https://elpa.gnu.org/packages/tempel-0.6.tar";
+          sha256 = "1qnhpdpdzm20ss7p29i5wqydcfswxaq1xbcimz695z3pbm3z37my";
         };
         packageRequires = [ emacs ];
         meta = {
