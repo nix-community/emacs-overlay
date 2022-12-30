@@ -3765,10 +3765,10 @@
       elpaBuild {
         pname = "psgml";
         ename = "psgml";
-        version = "1.3.4";
+        version = "1.3.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/psgml-1.3.4.tar";
-          sha256 = "1pgg9g040zsnvilvmwa73wyrvv9xh7gf6w1rkcx57qzg7yq4yaaj";
+          url = "https://elpa.gnu.org/packages/psgml-1.3.5.tar";
+          sha256 = "12ndv9xj4zg0k2vas4bmpf2iwy71hy203zxfd7sfwskdd96kzjjv";
         };
         packageRequires = [];
         meta = {
