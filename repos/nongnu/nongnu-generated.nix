@@ -496,16 +496,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    denote-refs = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    denote-refs = callPackage ({ denote, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "denote-refs";
         ename = "denote-refs";
-        version = "0.1";
+        version = "0.1.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/denote-refs-0.1.tar";
-          sha256 = "0qf39xafn5vaydbahf0jpq033p5hjf36nqs5c2nqphg77kaldiv2";
+          url = "https://elpa.nongnu.org/nongnu/denote-refs-0.1.1.tar";
+          sha256 = "0jg71ayxq6l45a3s0sg7qd71dd7w5nfn1ngblk622jjbbfwqagpr";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ denote emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/denote-refs.html";
           license = lib.licenses.free;
@@ -1855,6 +1855,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    meow = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "meow";
+        ename = "meow";
+        version = "1.4.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/meow-1.4.2.tar";
+          sha256 = "1iwysqxmaw85k7g742nx8z9vr3nnmwaidwjmx5n96cyssf64hgkv";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/meow.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     minibar = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "minibar";
@@ -2698,10 +2713,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.0.28";
+        version = "1.0.29";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.0.28.tar";
-          sha256 = "0z1bxg5sqvvm9zblbjyfp5llq0v1pkjq9c7ygais8ad68ck1b51f";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.0.29.tar";
+          sha256 = "0q2sfdypj929y4fllk97rsb2bxm9a1izjy1f0z2viz5hz0hpqp26";
         };
         packageRequires = [ emacs ];
         meta = {
