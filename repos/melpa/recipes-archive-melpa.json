@@ -14823,16 +14823,16 @@
   "repo": "jcs-elpa/company-emojify",
   "unstable": {
    "version": [
-    20221006,
-    557
+    20221231,
+    858
    ],
    "deps": [
     "company",
     "emojify",
     "ht"
    ],
-   "commit": "6856bdb187bf6f8c31965058e4408827f6ae178f",
-   "sha256": "0751hs1gdmn5f2nv607lh7pn01xnpczkkvivqn1nl5n2l45s0i8i"
+   "commit": "f4b71999cc07678f0bf80778760fa52bdfb5b23c",
+   "sha256": "0z3gnri6dh9aj9p30b598wzf11qz2nrrwlz6p9nsbi8105gmbypy"
   },
   "stable": {
    "version": [
@@ -27896,11 +27896,11 @@
   "repo": "ideasman42/emacs-elisp-autofmt",
   "unstable": {
    "version": [
-    20221230,
-    413
+    20221231,
+    322
    ],
-   "commit": "d89a97c1245208f8a2a6cb32e32d24bdc6dd4e48",
-   "sha256": "0zp5y9v680idpqzf3f7phvfr459kiv4f7mirlp0rsbhkvx68dy0b"
+   "commit": "562aadd15b3004293a081faba582f4f36b079c75",
+   "sha256": "000wlbxwnga820p5qnk2gb80ic557xf4bgf41a74vbjal466aan9"
   }
  },
  {
@@ -68296,8 +68296,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20221229,
-    1817
+    20221231,
+    447
    ],
    "deps": [
     "dash",
@@ -68308,8 +68308,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "5979f6e0b5872b621307430dca3023cce9a11f4c",
-   "sha256": "0z5bs7n8x5s6mdm2mjqadrd21f66qpazqv54dzm7mvy1p03cb1ar"
+   "commit": "c93f3e873d83724bf3aa82f85a9c8b67c582e209",
+   "sha256": "03hsx5a4ifmyly2z1kmwrrx27gdv4xq1p81kvm1kwbz2j582jbqr"
   },
   "stable": {
    "version": [
@@ -89573,11 +89573,11 @@
   "repo": "ksqsf/pest-mode",
   "unstable": {
    "version": [
-    20221230,
-    1443
+    20221231,
+    15
    ],
-   "commit": "4a367a0fb9f9ac9cff8b1798335f6248d4cb3467",
-   "sha256": "1pq4dy8fnwcckikxv6z15ffxgks7j8qfkw1bf4dbjyqkkbghv0sv"
+   "commit": "8023a92ce59c34dcd1587cbd85ed144f206ddb89",
+   "sha256": "0hbbwnamhbg295iva3ffp1al7cyjmc7nb2ilh1zqb4kvz6zyqhxj"
   },
   "stable": {
    "version": [
@@ -100104,9 +100104,16 @@
   "ename": "russian-techwriter",
   "commit": "23dba361611cc1325d79e307e0b94c3e5178a3f9",
   "sha256": "07nrdj1gyc2gry32l8q6n6k5nbpiqcfpr8yv02lgrdhhz2mf4sy4",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "dunmaksim/emacs-russian-techwriter-input-method"
+  "repo": "dunmaksim/emacs-russian-techwriter-input-method",
+  "unstable": {
+   "version": [
+    20221229,
+    822
+   ],
+   "commit": "1d86134d04ecf2305969c7546ead7ad425cd7243",
+   "sha256": "1d170cjlrpabivqy5xdlq9hykhr6gxmghvhacp1sj8288jv63jjs"
+  }
  },
  {
   "ename": "rust-auto-use",
@@ -104084,15 +104091,15 @@
   "repo": "slime/slime",
   "unstable": {
    "version": [
-    20221206,
-    26
+    20221231,
+    251
    ],
    "deps": [
     "cl-lib",
     "macrostep"
    ],
-   "commit": "4d540c8fc963515662b14197a9835573c1d28687",
-   "sha256": "1dn74sg8crq3aff4k97ma04xwddx144b5684y3ziwcbdn5g8xziv"
+   "commit": "8a85af1f77d61dbde94399e85a411f0cb4d61cb1",
+   "sha256": "0xzfpkfhj2xghvpak98vwdn1hpf55rgpm31fs4z941zgdsycq79r"
   },
   "stable": {
    "version": [
@@ -106325,11 +106332,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20221228,
+    20221231,
     110
    ],
-   "commit": "0bdd7e0501d9e432f3ae50d7ae1290a835503fda",
-   "sha256": "1d65qs09b4v43nwsx8cmmazlv5pa5gg5amyiphqp9qkg0k13vlab"
+   "commit": "617c66a5880e6afa655c4ee162fdf48f95e82376",
+   "sha256": "18767q0j3bdixqqf615y0f8xwz2q8c3rawxfy8rb5kwgh71skany"
   }
  },
  {
