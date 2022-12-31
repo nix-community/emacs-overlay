@@ -14547,16 +14547,16 @@
   "repo": "sebastiencs/company-box",
   "unstable": {
    "version": [
-    20220910,
-    1354
+    20221230,
+    1603
    ],
    "deps": [
     "company",
     "dash",
     "frame-local"
    ],
-   "commit": "79abd77f3357279c2726b74f8b20df27b71aa867",
-   "sha256": "0p60h0l62b1pdnc444j9nzya6c61dxwf8d6i76qh7h9bzzn6ikf4"
+   "commit": "766546b2668b5ef4eb4abbde632c9acd370c7788",
+   "sha256": "1ypk5lxgcmk4v0y2ch23267zg3acnafw7441a4zg26zvg68x7mx9"
   }
  },
  {
@@ -73343,10 +73343,10 @@
   "unstable": {
    "version": [
     20221230,
-    1326
+    1759
    ],
-   "commit": "ae6cc7ed14cf31a433a8e1d11f2a7cd09d0ad9aa",
-   "sha256": "1habj6yx4x94g81422kg80b0y7bl2jilz1cr4jns4qzvcqgbc2cz"
+   "commit": "c7d03a3a3874502db78b0bdcee6852a95a7dda18",
+   "sha256": "08b7wh4d9swckzv0j54wl66mmq8bhnbc8fbdq6lqqmnaplnnjj3v"
   },
   "stable": {
    "version": [
@@ -73642,10 +73642,10 @@
   "unstable": {
    "version": [
     20221230,
-    600
+    1703
    ],
-   "commit": "e42ee24e236d470c930179b6af5f15d6a0aab9f8",
-   "sha256": "1swfk6xs3saql612zxgbsm1fb76dzxvm2fyl810i6m4wpijirkys"
+   "commit": "2f9f5f37f5ccdd20cacdc99429945af7403e0055",
+   "sha256": "177gbwy0bgwm7l96ggznhpplihcpdqx0mspwpv9sgg2597n0gc9y"
   },
   "stable": {
    "version": [
@@ -95534,11 +95534,11 @@
   "repo": "python-mode-devs/python-mode",
   "unstable": {
    "version": [
-    20221228,
-    1405
+    20221230,
+    1842
    ],
-   "commit": "8f7ba42218e4851bb0f62f99d3a151813426b5e6",
-   "sha256": "1r4qn7bib9ic6fak2432kgaj6ziprbmz81zabsmlh9jmk9ci42j1"
+   "commit": "ddda95533392025348e708a56cc70c20af0b20a2",
+   "sha256": "0jhkb8lyixcaxpkqhq12bkf70ymfhdsbq2mqz93rsv5ncn5ljhrm"
   },
   "stable": {
    "version": [
@@ -100099,6 +100099,14 @@
    "commit": "b285a30f29d85c48e3ea4eb93972d34a090c167b",
    "sha256": "1mz842gvrscklg2w2r2q2wbj92qr31h895k700j3axqx6k30ni0h"
   }
+ },
+ {
+  "ename": "russian-techwriter",
+  "commit": "23dba361611cc1325d79e307e0b94c3e5178a3f9",
+  "sha256": "07nrdj1gyc2gry32l8q6n6k5nbpiqcfpr8yv02lgrdhhz2mf4sy4",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "dunmaksim/emacs-russian-techwriter-input-method"
  },
  {
   "ename": "rust-auto-use",
