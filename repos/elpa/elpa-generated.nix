@@ -523,10 +523,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.11";
+        version = "0.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cape-0.11.tar";
-          sha256 = "130j1y7f6dfh17a5lbkpkvkwhcp9ik4fgvv6fvz54w538mik3zp2";
+          url = "https://elpa.gnu.org/packages/cape-0.12.tar";
+          sha256 = "1sj3kvi69ivbypwsg3d7qgx5q4qvv9p2a81qdwj87f9bxilq375i";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3405,10 +3405,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-modern-0.6.tar";
-          sha256 = "0c77zpzb9ba003lhlxw49nhyh818bdl9lw5qb2inyh86fqpyg54h";
+          url = "https://elpa.gnu.org/packages/org-modern-0.7.tar";
+          sha256 = "14dd26avxbnv4pfvf1a971k229px0iczvniqcnsj3kcck0347a2l";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3525,10 +3525,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.8";
+        version = "0.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/osm-0.8.tar";
-          sha256 = "1vvd149n4pa6jy7xk5dmhi0nfwcjd4rvxn283f1jxp5jvv47m202";
+          url = "https://elpa.gnu.org/packages/osm-0.9.tar";
+          sha256 = "1rz2aag34vc6afxh3mkqmq94dpyxx3gdx5i2fvzwbwivk9dms5k9";
         };
         packageRequires = [ emacs ];
         meta = {
