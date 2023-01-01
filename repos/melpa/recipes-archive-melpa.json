@@ -27895,11 +27895,11 @@
   "repo": "ideasman42/emacs-elisp-autofmt",
   "unstable": {
    "version": [
-    20221231,
-    601
+    20230101,
+    539
    ],
-   "commit": "95f99bc1d078cbc3a61ea914561bb6318d9be5f3",
-   "sha256": "0k7bffrry02sdnjgkrwyx5ygihcixz9pvz2zlp446aqmdfvinkxm"
+   "commit": "3576eb2762305afe26b0ae7767d3bd2e3963ae7f",
+   "sha256": "1vk6c1y9779cmm33a416ya40c340d27kksxgaxrcnvk3g822mhjv"
   }
  },
  {
@@ -42209,14 +42209,14 @@
   "repo": "rnkn/fountain-mode",
   "unstable": {
    "version": [
-    20221221,
-    115
+    20221225,
+    1016
    ],
    "deps": [
     "seq"
    ],
-   "commit": "1a0482e03e9cf05e481a57c057cf9b985c6ca4d5",
-   "sha256": "0mml0in6xxhfv4mdb7rl9k8m6xwmrjl5bb301p8d56sfng982pdl"
+   "commit": "bfbd41a126f12abb4c0f279b087816d7dd483ff9",
+   "sha256": "1i9x3jd0phrm4a1jgngpvnmjs5j3y4sfy5yzjv5wwbcp9b8hmidl"
   },
   "stable": {
    "version": [
@@ -73341,11 +73341,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20221231,
-    1304
+    20230101,
+    556
    ],
-   "commit": "57cb3347ad4a75e31cdb26e9e67a387589ba77c6",
-   "sha256": "0ciy7gv0w228i63q87nkms2iq7hxp0wysccq1gf724c8vjw0q468"
+   "commit": "70c6ae438619b3c6b59742c897ef769094f89165",
+   "sha256": "1509cds3p9d6al69xish00ippc09kjjz5j8abhrl5fysdrin6rbn"
   },
   "stable": {
    "version": [
@@ -90400,14 +90400,14 @@
   "repo": "davep/pinboard.el",
   "unstable": {
    "version": [
-    20200630,
-    1544
+    20230101,
+    836
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "d426f9d2ebec5f907c8a89d6b38ccbcb13750d4f",
-   "sha256": "0jganb5ws2qlzyncyhaw1hldqbpxm44ddzzy17hmriy8n5701fyv"
+   "commit": "ef0afccc965e5fe7d12966f35a06c4f3f9ade7bf",
+   "sha256": "0c6zain9rjfakzhm5dpq09hkbirsf7ic8x4d1ldblaq9swjz71yv"
   },
   "stable": {
    "version": [
@@ -121852,11 +121852,14 @@
   "repo": "ziglang/zig-mode",
   "unstable": {
    "version": [
-    20221216,
-    2154
+    20230101,
+    835
    ],
-   "commit": "9cff802457e8d4d5c9f480fb18238fcd472ec009",
-   "sha256": "0nlbdidmfxyvw9jnxvf9k0xp9c8vlk6dwj1g4lf33zasq1xdrl98"
+   "deps": [
+    "reformatter"
+   ],
+   "commit": "4356724434037504d9b823220070a98d921bad3e",
+   "sha256": "1x95shji61djpnbhk1c3863kb337580z8qbxcm96k9is4swzkjwa"
   }
  },
  {
