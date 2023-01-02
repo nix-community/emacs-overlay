@@ -3182,10 +3182,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "22.3.20221211131110";
+        version = "22.5.20230101184908";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-22.3.20221211131110.tar";
-          sha256 = "0ynf377clm0468y55lsmll6xgsi1gz09c1w082abpwhqlkq59qf4";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-22.5.20230101184908.tar";
+          sha256 = "19kx0g4dhhhf6r4lzyc0h37nif98srcbg3sc4iyk5ibv29msjmc2";
         };
         packageRequires = [ emacs ];
         meta = {
