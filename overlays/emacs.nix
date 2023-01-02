@@ -103,6 +103,7 @@ let
               tree-sitter-python
               tree-sitter-javascript
               tree-sitter-json
+              tree-sitter-ruby
               tree-sitter-rust
               tree-sitter-toml
               tree-sitter-tsx
