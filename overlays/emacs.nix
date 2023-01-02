@@ -113,12 +113,11 @@ let
               (super.lib.concatStringsSep "\n" (["mkdir -p $out/lib"] ++ (map linkCmd plugins)));
           in {
             buildInputs = old.buildInputs ++ [ self.pkgs.tree-sitter tree-sitter-grammars ];
+            buildFlags = super.lib.optionalString self.stdenv.isDarwin
+              "LDFLAGS=-Wl,-rpath,${super.lib.makeLibraryPath [tree-sitter-grammars]}";
             TREE_SITTER_LIBS = "-ltree-sitter";
-            # Add to list of directories dlopen/dynlib_open searches for tree sitter languages *.so/*.dylib.
-            postFixup = old.postFixup + super.lib.optionalString self.stdenv.isDarwin ''
-                install_name_tool -add_rpath ${super.lib.makeLibraryPath [ tree-sitter-grammars ]} $out/bin/emacs
-                /usr/bin/codesign -s - -f $out/bin/emacs
-              '' + super.lib.optionalString self.stdenv.isLinux ''
+            # Add to list of directories dlopen/dynlib_open searches for tree sitter languages *.so
+            postFixup = old.postFixup + super.lib.optionalString self.stdenv.isLinux ''
                 ${self.pkgs.patchelf}/bin/patchelf --add-rpath ${super.lib.makeLibraryPath [ tree-sitter-grammars ]} $out/bin/emacs
               '';
           }
