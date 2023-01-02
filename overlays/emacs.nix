@@ -100,9 +100,9 @@ let
               tree-sitter-go
               tree-sitter-gomod
               tree-sitter-java
-              tree-sitter-python
               tree-sitter-javascript
               tree-sitter-json
+              tree-sitter-python
               tree-sitter-ruby
               tree-sitter-rust
               tree-sitter-toml
