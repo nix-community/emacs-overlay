@@ -786,10 +786,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.29";
+        version = "0.30";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-0.29.tar";
-          sha256 = "19sxp24lnj86flvhn62csrf4744qwq2zcpxrcsn64wj9vx9zxfsp";
+          url = "https://elpa.gnu.org/packages/consult-0.30.tar";
+          sha256 = "0w3byksac0w646rj4ckcs6al15hpayd3spnb6k67winhlw378hka";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2311,10 +2311,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.8";
+        version = "0.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.8.tar";
-          sha256 = "0yrkm5bh2kczl5f642wx1xlnzry1xrw0yxhpm0hqwjrmgmbdb9m6";
+          url = "https://elpa.gnu.org/packages/inspector-0.9.tar";
+          sha256 = "18mhkl93h5h16j14hm9qgw3khi7xs7xvq4n29iirhp8w9nh8s24c";
         };
         packageRequires = [ emacs ];
         meta = {
