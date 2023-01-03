@@ -3019,10 +3019,10 @@
       elpaBuild {
         pname = "visual-fill-column";
         ename = "visual-fill-column";
-        version = "2.5";
+        version = "2.5.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/visual-fill-column-2.5.tar";
-          sha256 = "0mqhm7xkxpzjk96n6qybqg2780kbjg1w7ash88zhnbp8kvy0rrwi";
+          url = "https://elpa.nongnu.org/nongnu/visual-fill-column-2.5.1.tar";
+          sha256 = "1q2cimrcr4knh716cdnhs8nspk08w8x7bsbhx69s9hpzgr7mjq58";
         };
         packageRequires = [ emacs ];
         meta = {
