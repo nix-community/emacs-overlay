@@ -1907,10 +1907,10 @@
       elpaBuild {
         pname = "ftable";
         ename = "ftable";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ftable-1.0.tar";
-          sha256 = "1qi0fxw94hb7p2s8n2dzbziialbjbjxgpwx2m4mvrmicrq375r5p";
+          url = "https://elpa.gnu.org/packages/ftable-1.1.tar";
+          sha256 = "0ww2kl5gb2dkkz0dxinjjnd3qafr31qjcqp1x10r3vcfbp9cfy4b";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5024,10 +5024,10 @@
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.2";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/triples-0.2.tar";
-          sha256 = "1qn2673jlv5bhcafhh7fxh4j9vpja0pf99cqyj5hr3n3syrp5d64";
+          url = "https://elpa.gnu.org/packages/triples-0.2.1.tar";
+          sha256 = "1wyc6188n4903dgb4sq0hgzh49hz9q5p6vaxhmglcfhzkrhjp54r";
         };
         packageRequires = [ emacs seq ];
         meta = {
