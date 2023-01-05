@@ -1131,10 +1131,10 @@
       elpaBuild {
         pname = "diff-hl";
         ename = "diff-hl";
-        version = "1.9.0";
+        version = "1.9.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/diff-hl-1.9.0.tar";
-          sha256 = "00mqknqyibbqyfcvdvk1m7nwipfpsw3afbvipqmghh5zm2n7wjr4";
+          url = "https://elpa.gnu.org/packages/diff-hl-1.9.1.tar";
+          sha256 = "11q9nzw9civd57aaqcnf3sbw05v9dwiddi0mqvgjkc70k18phafc";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -2311,10 +2311,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.9";
+        version = "0.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.9.tar";
-          sha256 = "18mhkl93h5h16j14hm9qgw3khi7xs7xvq4n29iirhp8w9nh8s24c";
+          url = "https://elpa.gnu.org/packages/inspector-0.10.tar";
+          sha256 = "0fay8mlsm8d176q2np9lp0yl7ra1ffmv9kzjhax37h7dyaj26qf7";
         };
         packageRequires = [ emacs ];
         meta = {
