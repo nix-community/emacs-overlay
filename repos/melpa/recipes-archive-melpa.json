@@ -14373,11 +14373,11 @@
   "repo": "company-mode/company-mode",
   "unstable": {
    "version": [
-    20230104,
-    1704
+    20230106,
+    54
    ],
-   "commit": "a1c66c5bc57728a3597015ebe5e169146f8620d1",
-   "sha256": "14lhrqcfy9sfzgr894jm9jff7m7i2pv9qfbrb3isq1s2z65j9qlf"
+   "commit": "93b0284e5a6be8506d194aab00fb613be0f364fd",
+   "sha256": "002wp7q1fcjdavysbmil1d46v34rnkkgyhkm0wig8r1c9bk8qksp"
   },
   "stable": {
    "version": [
@@ -16576,14 +16576,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20230105,
-    1732
+    20230106,
+    107
    ],
    "deps": [
     "compat"
    ],
-   "commit": "9078c245a1794850ba5fd8758f2adc51738e073b",
-   "sha256": "0wqwrx0xnrrw7l5l4mlbr0yc64ji7dpjs4d6nr0m9xpmlpg1xpia"
+   "commit": "3db44f473c093aaed7606663173a219cccfef22a",
+   "sha256": "1fj133kplm4y97z6lfqwlanmjdbr7bj8072a0hpsb7ddk5fq4dgx"
   },
   "stable": {
    "version": [
@@ -24007,15 +24007,15 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20230103,
-    643
+    20230106,
+    254
    ],
    "deps": [
     "compat",
     "shrink-path"
    ],
-   "commit": "90f79647260e1f81d334ab2d276cf7444e6e320c",
-   "sha256": "01r2lf8zr04lbndgq7pzjchznhw3q8i3q76rg9x1fj5lgm7ql207"
+   "commit": "59bcea684577b8248522f383ab7718d4dfa19e89",
+   "sha256": "1l9337np2yawkcrvf5qnw0q6qn6brkv5iwix5bn22vp2vz1vqrdf"
   },
   "stable": {
    "version": [
@@ -47655,11 +47655,11 @@
   "repo": "stuhlmueller/gpt.el",
   "unstable": {
    "version": [
-    20221227,
-    559
+    20230106,
+    201
    ],
-   "commit": "a6c88faea5d754ade16b0d6250996ae6eb798d20",
-   "sha256": "05v8zkgbldmwvxm1rmsmr9azbzwrm9qmjdiswigiyrnr9g9vggcq"
+   "commit": "b5e555f702b1ebe877cbeef27757618963fa41da",
+   "sha256": "1jyfd78k5xz31jryp997wm39mj6032c6qrbnfrf57rw17rc6mz90"
   }
  },
  {
@@ -50651,14 +50651,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20230101,
-    1922
+    20230106,
+    527
    ],
    "deps": [
     "async"
    ],
-   "commit": "431e34dcc9d38c10eb8b9f22c3b5a10a0bf250f7",
-   "sha256": "1ybi6d3d24jbjwa1svldm78pazsr8k5bpx8ka9zl7s2wh439rj0d"
+   "commit": "4e39df9ee024f82548028f0edde9c71afbcd3635",
+   "sha256": "0m27x7fhk097cvnf1125cxxs8bgyd445sp0c7yrlb1laj5j1m0qp"
   },
   "stable": {
    "version": [
@@ -81960,8 +81960,8 @@
   "repo": "Trevoke/org-gtd.el",
   "unstable": {
    "version": [
-    20220213,
-    41
+    20230106,
+    129
    ],
    "deps": [
     "f",
@@ -81970,8 +81970,8 @@
     "org-edna",
     "transient"
    ],
-   "commit": "4e0fcf9a440e463d395f8f37efe8f1e691ed07dc",
-   "sha256": "0672pcklp743k8fz39hwf1zxb7f1sywdjsm8d8ha8r6h2rjbyl6k"
+   "commit": "9b70691cb28196611d75601b36102f9762fb47a7",
+   "sha256": "1rw8kp54ziplhzm51rf354h23aygf96kmcx5hmwhs4ybsw7a3f7p"
   },
   "stable": {
    "version": [
@@ -85325,11 +85325,11 @@
   "repo": "kostafey/organic-green-theme",
   "unstable": {
    "version": [
-    20201216,
-    2240
+    20230106,
+    43
    ],
-   "commit": "0ed99a9c0cf14be0a1f491518821f0e9b7e88b88",
-   "sha256": "1l70vvyv8walqjk96jgr8047fi0yiqz0lm3r0vh6xrh6phna5mcd"
+   "commit": "199a72b1bb55521ca47c52a69f154d351522102a",
+   "sha256": "10i6p85cnxkgfjjc8ir0vdyyl6ngzzhykdwlgl73308vlgrcsq12"
   }
  },
  {
@@ -95725,14 +95725,14 @@
   "repo": "nryotaro/pyvenv-auto",
   "unstable": {
    "version": [
-    20220315,
-    1606
+    20230106,
+    415
    ],
    "deps": [
     "pyvenv"
    ],
-   "commit": "59ece8554bf249f30984c81c103a5704d2fb27bf",
-   "sha256": "1f599q5bd89k68s0m9mq08a2f3465j00hklnmbyv0cm3j0majwzm"
+   "commit": "b4365e60e3ba747a5fec8ca909f64fe8c73d8db2",
+   "sha256": "11js0zkf35vxbbvrxghv4c0i1j4ma6agdfl24qcvchd2wsnmf7mn"
   }
  },
  {
@@ -106346,11 +106346,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20230103,
-    110
+    20230106,
+    115
    ],
-   "commit": "5a4947690ee9060db5a9fd5f8c9a530ce383d907",
-   "sha256": "02v5cxbmz41mrbyyxczhb13bqjp5hnva3nfnmm1d287vwhxv229g"
+   "commit": "151f49fa95a6c593aa694c6bd7ded6d3a04479b1",
+   "sha256": "0py00b82j3f0amhh5mvzx8is6amm2qsa98k4gk970y493m6c4xmi"
   }
  },
  {
