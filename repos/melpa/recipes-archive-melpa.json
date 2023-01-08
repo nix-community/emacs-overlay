@@ -10758,15 +10758,15 @@
   "repo": "ema2159/centaur-tabs",
   "unstable": {
    "version": [
-    20220926,
-    1247
+    20230108,
+    320
    ],
    "deps": [
     "cl-lib",
     "powerline"
    ],
-   "commit": "7d9fad0daa44ffb2acecf6525759e46e08e35f2c",
-   "sha256": "0la8fmwirspg7m453qhfb64sqryl59dxc1lfmjkh6mzf85nqbl1i"
+   "commit": "b25391006524d7b47bb98ee1a42334059c7c2057",
+   "sha256": "1ii91iv5jwm7yi5ganacjg8prazw9191ga3ly6xl2z7qf2wx07fq"
   },
   "stable": {
    "version": [
@@ -73343,11 +73343,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20230107,
-    1653
+    20230108,
+    252
    ],
-   "commit": "40138996b259f5d2f1f1cc5dd3595a202de9c19a",
-   "sha256": "0pyarglydhxvcb1c0d1gkzyhgvlb0kr78nag05shpsr6890q1w13"
+   "commit": "b3302411a121a3b1af4736001deeee0d29122dcd",
+   "sha256": "1mi2knqw7j4apa5snbjdmkgxkqjf3647kva473hphjky933604ai"
   },
   "stable": {
    "version": [
@@ -74204,6 +74204,20 @@
    "version": [
     20230103,
     2021
+   ],
+   "deps": [
+    "embark",
+    "libmpdel",
+    "mpdel"
+   ],
+   "commit": "31d91a62b680fb4472ec34c04ac6af80bb3cf4b8",
+   "sha256": "129ay53zrq4gzqf2vh41q3yp613vzi9b57jlzyl8jnbn0wfbjx65"
+  },
+  "stable": {
+   "version": [
+    0,
+    4,
+    0
    ],
    "deps": [
     "embark",
@@ -81982,8 +81996,8 @@
   "repo": "Trevoke/org-gtd.el",
   "unstable": {
    "version": [
-    20230106,
-    129
+    20230108,
+    347
    ],
    "deps": [
     "f",
@@ -81992,8 +82006,8 @@
     "org-edna",
     "transient"
    ],
-   "commit": "9b70691cb28196611d75601b36102f9762fb47a7",
-   "sha256": "1rw8kp54ziplhzm51rf354h23aygf96kmcx5hmwhs4ybsw7a3f7p"
+   "commit": "8120d5e3b0df02b9128a26ab7de9c1d573c70065",
+   "sha256": "1qnnjqcgr296pmmmn53xx8jv6y1wp0a8fl5qa15c5by3013smn4q"
   },
   "stable": {
    "version": [
@@ -97464,10 +97478,10 @@
   "repo": "ideasman42/emacs-recomplete",
   "unstable": {
    "version": [
-    20230107,
-    420
+    20230108,
+    20
    ],
-   "commit": "9abea7d90bdc2e65af59e5c3f6745bf13e0d500d",
+   "commit": "c4085d13ed64d4be6cfc771b74e07e0febcf0415",
    "sha256": "104xb6l2q1ijnhsjfc91l01pwv70jw3j3qv4l40jq156kgqs76qp"
   }
  },
@@ -101154,10 +101168,10 @@
   "repo": "ideasman42/emacs-scroll-on-drag",
   "unstable": {
    "version": [
-    20230105,
-    2309
+    20230108,
+    7
    ],
-   "commit": "e7b95c6235da5c35a1b7c3927290b04ff65068cf",
+   "commit": "b9541a601bddbc77792465fe57faba0f65341d8e",
    "sha256": "0197pjqxr4is41c5kbvgj5p4wvk9bm06msxpdcwa2hkl8h2s9b4a"
   }
  },
@@ -101169,11 +101183,11 @@
   "repo": "ideasman42/emacs-scroll-on-jump",
   "unstable": {
    "version": [
-    20230105,
-    2219
+    20230108,
+    12
    ],
-   "commit": "19d453875ee72f01ab4de93a72e99d65d9918789",
-   "sha256": "1c9kfs0cd8a7b4rilffd7wgqzsg02bfjjryifv5l0cxzrcblql5a"
+   "commit": "44a7654089d71a016469fe496d8ebc48bc305f41",
+   "sha256": "15m5a72inl0wv6jlxra8m0ibqgj40xk358r5hx23fjcjsd64zj4g"
   }
  },
  {
@@ -114338,11 +114352,11 @@
   "repo": "ideasman42/emacs-undo-fu-session",
   "unstable": {
    "version": [
-    20230107,
-    354
+    20230108,
+    2
    ],
-   "commit": "ef8ff5ad2ed1b603b746edb4bf7f97f0ae2ccd8e",
-   "sha256": "1q5v1ynw8ikqyhphxarb180s8qj767i30d592s349v77yrwqccjc"
+   "commit": "e6cf0dca6ae598b1c752dec7bdc18daeac88acec",
+   "sha256": "08g4kggqfjiig9nns3k73y72yc7s6khr3y65xnbnxi8h7b8b9185"
   }
  },
  {
