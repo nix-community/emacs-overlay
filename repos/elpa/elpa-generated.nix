@@ -771,10 +771,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.0.1";
+        version = "29.1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/compat-29.1.0.1.tar";
-          sha256 = "0fl55fx8jqq14gjpahz08cgvrcwv28a8c0vcc6rglgikrymzq6mp";
+          url = "https://elpa.gnu.org/packages/compat-29.1.1.0.tar";
+          sha256 = "0b371rilcbkjmb1fdaib7fnrngkm1q7xdmv15a3xvmpalvfwmrwc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5024,10 +5024,10 @@
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.2.1";
+        version = "0.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/triples-0.2.1.tar";
-          sha256 = "1wyc6188n4903dgb4sq0hgzh49hz9q5p6vaxhmglcfhzkrhjp54r";
+          url = "https://elpa.gnu.org/packages/triples-0.2.2.tar";
+          sha256 = "1454f1jnmn2f3wzw3rqymnmg1zczgp3c7g94grn5jrz94ag2n35v";
         };
         packageRequires = [ emacs seq ];
         meta = {
