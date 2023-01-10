@@ -1468,10 +1468,10 @@
       elpaBuild {
         pname = "hl-block-mode";
         ename = "hl-block-mode";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/hl-block-mode-0.1.tar";
-          sha256 = "08b2n8i0qmjp5r6ijlg66g0j8aiwhrczxyf0ssr9jbga43k4swzq";
+          url = "https://elpa.nongnu.org/nongnu/hl-block-mode-0.2.tar";
+          sha256 = "1qrq238arblk8v8nf98kcdckfhwzi27w5zbl31yvf36xz69l9y8n";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2959,10 +2959,10 @@
       elpaBuild {
         pname = "undo-fu";
         ename = "undo-fu";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/undo-fu-0.4.tar";
-          sha256 = "15r0lkzbxgvnwdmaxgiwnik2z8622gdzmpxllv8pfr36y6jmsgs8";
+          url = "https://elpa.nongnu.org/nongnu/undo-fu-0.5.tar";
+          sha256 = "0akn8gw3wavsfhxa9m426jkjacsw3k8vaxymhqrzy18lpvg5hysw";
         };
         packageRequires = [ emacs ];
         meta = {
