@@ -3750,10 +3750,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.9.3";
+        version = "0.9.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/project-0.9.3.tar";
-          sha256 = "0p2ivkmcx55xwmyg2vhj8qcqg4qd5y3myshn194ncy38lbvsj91h";
+          url = "https://elpa.gnu.org/packages/project-0.9.4.tar";
+          sha256 = "10xmpx24k98crpddjdz1i4wck05kcnj3wdxhdj4km53nz8q66wbg";
         };
         packageRequires = [ emacs xref ];
         meta = {
@@ -5618,10 +5618,10 @@
       elpaBuild {
         pname = "xref";
         ename = "xref";
-        version = "1.6.0";
+        version = "1.6.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xref-1.6.0.tar";
-          sha256 = "0vqs2l4gypdx475yi0yic0mnsg1f9nm698gi90kh7xfcpmkfcgb4";
+          url = "https://elpa.gnu.org/packages/xref-1.6.1.tar";
+          sha256 = "0z9kpbnrdh9y9qlj2fa64v660biakvw6x3z9klqa47qcx8gbyqp6";
         };
         packageRequires = [ emacs ];
         meta = {
