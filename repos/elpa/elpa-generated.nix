@@ -3066,10 +3066,10 @@
       elpaBuild {
         pname = "nadvice";
         ename = "nadvice";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nadvice-0.3.el";
-          sha256 = "0gi3csnxbs8h7iy0scsl35sic3gv90swa89hhdjwb7qvpirfdcgw";
+          url = "https://elpa.gnu.org/packages/nadvice-0.4.tar";
+          sha256 = "0ac7zxi04gzcd5hz81lib1db3c6a7xmwkb381ljxvaha1mlzp1k0";
         };
         packageRequires = [];
         meta = {
@@ -3360,10 +3360,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6";
+        version = "9.6.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.tar";
-          sha256 = "1dy7abfx18hl9gx9w2kwmw0glf1slrq8djh8iqpr7m6gpkwz8jni";
+          url = "https://elpa.gnu.org/packages/org-9.6.1.tar";
+          sha256 = "1kcv6aippv17az0dgikmx0w4dq2140ki3d19nvn01v0lk4kxpgri";
         };
         packageRequires = [ emacs ];
         meta = {
