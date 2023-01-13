@@ -33,18 +33,19 @@
     ada-mode = callPackage ({ elpaBuild
                             , emacs
                             , fetchurl
+                            , gnat-compiler
                             , lib
                             , uniquify-files
                             , wisi }:
       elpaBuild {
         pname = "ada-mode";
         ename = "ada-mode";
-        version = "7.3.1";
+        version = "8.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ada-mode-7.3.1.tar";
-          sha256 = "09ji22823w59nnqcjr5524ylxs93c5javsxcvmgbiqlvx9gfrdkk";
+          url = "https://elpa.gnu.org/packages/ada-mode-8.0.3.tar";
+          sha256 = "056bk3hmg2bbyhip1dgkm9sg7laxns5wn1dmwh33g10gnz54giz7";
         };
-        packageRequires = [ emacs uniquify-files wisi ];
+        packageRequires = [ emacs gnat-compiler uniquify-files wisi ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ada-mode.html";
           license = lib.licenses.free;
@@ -1326,10 +1327,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.8.16";
+        version = "0.8.17";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.8.16.tar";
-          sha256 = "0qldw0a346xbkq289mynvfz38n4yh2rfbvgs5f7ixfc014y3j3gw";
+          url = "https://elpa.gnu.org/packages/ebdb-0.8.17.tar";
+          sha256 = "0d2csc7b4mhaqcj8g3v46j11f5xcvbvgx06wxxfq2w0p2nzz1sik";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -1978,6 +1979,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    gnat-compiler = callPackage ({ elpaBuild, emacs, fetchurl, lib, wisi }:
+      elpaBuild {
+        pname = "gnat-compiler";
+        ename = "gnat-compiler";
+        version = "1.0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/gnat-compiler-1.0.1.tar";
+          sha256 = "0x4f6ilmfkzg3dgslbkkzaaxqbyvryb09v0j82a3q1sdf938zsql";
+        };
+        packageRequires = [ emacs wisi ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/gnat-compiler.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     gnome-c-style = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "gnome-c-style";
@@ -2087,6 +2103,26 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/gpastel.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    gpr-query = callPackage ({ elpaBuild
+                             , emacs
+                             , fetchurl
+                             , gnat-compiler
+                             , lib
+                             , wisi }:
+      elpaBuild {
+        pname = "gpr-query";
+        ename = "gpr-query";
+        version = "1.0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/gpr-query-1.0.2.tar";
+          sha256 = "00kknadkgq9hfsyhiqf6vqjzgwj5kwpa3yk61dwpd9s2r15z0sl1";
+        };
+        packageRequires = [ emacs gnat-compiler wisi ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/gpr-query.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -5508,10 +5544,10 @@
       elpaBuild {
         pname = "wisi";
         ename = "wisi";
-        version = "4.0.0";
+        version = "4.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wisi-4.0.0.tar";
-          sha256 = "1w082nqzvzljm8m8gxja7va88g0lz264d4ir24ydak22rfr688bv";
+          url = "https://elpa.gnu.org/packages/wisi-4.2.1.tar";
+          sha256 = "1ndvcr0gfv3xrzvzawh3miz3ppi1mkdzkp54l6hxxh174r88pmx4";
         };
         packageRequires = [ emacs seq ];
         meta = {
