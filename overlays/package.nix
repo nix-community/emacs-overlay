@@ -42,17 +42,17 @@ in
             generated = ../repos/elpa/elpa-generated.nix;
           };
 
-          epkgs = esuper.override {
-            inherit melpaStablePackages melpaPackages elpaPackages;
-          };
-
-        in
-        epkgs
-        // super.lib.optionalAttrs (super.lib.hasAttr "nongnuPackages" esuper) {
           nongnuPackages = esuper.nongnuPackages.override {
             generated = ../repos/nongnu/nongnu-generated.nix;
           };
-        } // {
+
+          epkgs = esuper.override {
+            inherit melpaStablePackages melpaPackages elpaPackages
+              nongnuPackages;
+          };
+
+        in
+        epkgs // {
           xelb = mkExDrv eself "xelb" {
             packageRequires = [ eself.cl-generic eself.emacs ];
           };
