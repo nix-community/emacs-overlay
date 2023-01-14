@@ -772,10 +772,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.1.0";
+        version = "29.1.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/compat-29.1.1.0.tar";
-          sha256 = "0b371rilcbkjmb1fdaib7fnrngkm1q7xdmv15a3xvmpalvfwmrwc";
+          url = "https://elpa.gnu.org/packages/compat-29.1.1.1.tar";
+          sha256 = "16hwb432ajpl4ss2z19x0ida7kl635k1g6i69lmsc0dd7gbwp512";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5602,6 +5602,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/xclip.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    xeft = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "xeft";
+        ename = "xeft";
+        version = "3.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/xeft-3.2.tar";
+          sha256 = "14mcmcla3rqq30vr214s1641iqfbayhyvs2ca34x817x7kynibi3";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/xeft.html";
           license = lib.licenses.free;
         };
       }) {};
