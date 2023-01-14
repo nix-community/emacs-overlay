@@ -36090,11 +36090,11 @@
   "repo": "technomancy/fennel-mode",
   "unstable": {
    "version": [
-    20221225,
-    718
+    20230114,
+    516
    ],
-   "commit": "36f27507357c74c91be9199202f279d8c791d6a8",
-   "sha256": "1kvm29hz8pp55w471bp6f22fy8gf42p7wdird7ccxqm7vrjfi9c9"
+   "commit": "ca690aaa21dac20cd9018411ef0c02b2f96c844d",
+   "sha256": "0if3g3jbbnbvkxp7b8xihadc2yd9ikhjsq9p82bnbanjanvsvscv"
   },
   "stable": {
    "version": [
@@ -43267,11 +43267,11 @@
   "repo": "bling/fzf.el",
   "unstable": {
    "version": [
-    20230113,
-    56
+    20230114,
+    403
    ],
-   "commit": "048bc51d382d4899afb4153a69bb393bd69bee0b",
-   "sha256": "0p7899iws337y4zpr0m0qg8m28hpyq109qm8dhpxddk06r6ixhnf"
+   "commit": "1d80e76df0899e26196aea150c29fba95fc73ed6",
+   "sha256": "075v5ypn4clkgg9jb4jd9xrw3ldy7sz5f2vryf5kniwm8zhs85yi"
   },
   "stable": {
    "version": [
@@ -63381,8 +63381,8 @@
   "repo": "jinnovation/kele.el",
   "unstable": {
    "version": [
-    20230113,
-    2250
+    20230114,
+    610
    ],
    "deps": [
     "async",
@@ -63393,8 +63393,8 @@
     "request",
     "yaml"
    ],
-   "commit": "e93232aa8c770f9d5c866c97ab48f4e758deee35",
-   "sha256": "1f4pskpfsi486gm1sqrivz5b8ccb8283k0bj9iqj2l7qsnm5wb4i"
+   "commit": "41466e9374e3b50d63eb9f47ab0e20d2aeae4ad9",
+   "sha256": "1b2sbdmwly3g63ly23a6r1bybr67kdfa9yz92666w72khczm6296"
   },
   "stable": {
    "version": [
@@ -95164,15 +95164,15 @@
   "repo": "tumashu/pyim",
   "unstable": {
    "version": [
-    20230113,
-    1154
+    20230114,
+    619
    ],
    "deps": [
     "async",
     "xr"
    ],
-   "commit": "d1a192bee946341c3e5727ef716fad03dbe31c5e",
-   "sha256": "1jdvn9wv5w2s7hxc4n9xxa9nf05bj30lm5z94rr9snzjs349kkhn"
+   "commit": "1268f095c38121654d42ea20f82b1d15d23347e9",
+   "sha256": "0rk5c09psjv34vqs6ajwnibr13s93wkpahdc239mrjiz14gvzz4h"
   },
   "stable": {
    "version": [
@@ -109162,8 +109162,8 @@
   "repo": "drym-org/symex.el",
   "unstable": {
    "version": [
-    20230111,
-    1835
+    20230114,
+    56
    ],
    "deps": [
     "evil",
@@ -109172,10 +109172,12 @@
     "hydra",
     "lispy",
     "paredit",
-    "seq"
+    "seq",
+    "tree-sitter",
+    "tsc"
    ],
-   "commit": "47b5296cf357eb0fc94b531e0126740aa168ed8d",
-   "sha256": "1ksmqj6kk0l3k57yswwqy49qrz2nggg487p10i2zbza7wk5hnra3"
+   "commit": "055ff24cb0aab6a0ea929dd681a734997d5e0f95",
+   "sha256": "1dszqa9gdnfrdkg0v2d635hv728pj4hxg2vmwz4ywvw8zbgdd5w7"
   },
   "stable": {
    "version": [
@@ -113010,26 +113012,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20221126,
-    446
+    20230114,
+    437
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "bf125472c185f098136b26b30d5e74332b4ee46b",
-   "sha256": "0kh11nhg223i95icjng1pv4xg76n4pyg5ynh0bbqprhwh1awshva"
+   "commit": "ff643124f24d45d0fff3c9f66ba2bf3a7c6e900f",
+   "sha256": "0g3p13c8x7i7n7bi7mmwrxfq1am94h6msr31mvp0xlx2k08mns4m"
   },
   "stable": {
    "version": [
     0,
     12,
-    10
+    11
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "fc3e59eff8da17f650e918d26b571fa0905d349f",
-   "sha256": "1m3cfm3b9jrmrz3p4vz1siz2jk12kv3bynch6l3gz8a5cgr10ynk"
+   "commit": "ff643124f24d45d0fff3c9f66ba2bf3a7c6e900f",
+   "sha256": "0g3p13c8x7i7n7bi7mmwrxfq1am94h6msr31mvp0xlx2k08mns4m"
   }
  },
  {
@@ -118050,9 +118052,9 @@
   "unstable": {
    "version": [
     20230113,
-    2228
+    2330
    ],
-   "commit": "e00bf63cfa6a9080c70b8438ff85a74752773181",
+   "commit": "5d2664ec166c5d54890fd14c238268775c829301",
    "sha256": "09fs4p0i1l2lm9lybsxfnyijv8l67c6669drlyxk9l7vjjd3jxp6"
   },
   "stable": {
