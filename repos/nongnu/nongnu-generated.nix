@@ -171,10 +171,10 @@
       elpaBuild {
         pname = "bash-completion";
         ename = "bash-completion";
-        version = "3.1.0";
+        version = "3.1.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/bash-completion-3.1.0.tar";
-          sha256 = "1fd6dnrfa6paqcy6wwbq9i375w7jaw37lgb06ynxy532lh15rkx2";
+          url = "https://elpa.nongnu.org/nongnu/bash-completion-3.1.1.tar";
+          sha256 = "19vs0rflqm1z4r17pv1qx6v60g03x4n2b7503rjr2d0ljrwkbpcp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -500,10 +500,10 @@
       elpaBuild {
         pname = "denote-refs";
         ename = "denote-refs";
-        version = "0.1.1";
+        version = "0.1.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/denote-refs-0.1.1.tar";
-          sha256 = "0jg71ayxq6l45a3s0sg7qd71dd7w5nfn1ngblk622jjbbfwqagpr";
+          url = "https://elpa.nongnu.org/nongnu/denote-refs-0.1.2.tar";
+          sha256 = "1s2q9j2xg2g293ip7w2bq2kjk6pasaf6cmvzcbh0k00yx8aa2alp";
         };
         packageRequires = [ denote emacs ];
         meta = {
@@ -2728,10 +2728,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.11.2";
+        version = "0.11.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.11.2.tar";
-          sha256 = "1z46xjg8cfk7ssbqbq3w33za5faq4ca0v62bfsvs1bahlrhjrxhs";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.11.3.tar";
+          sha256 = "1rv4jxjf2xczjxr818ph8mvhrm0bmqgdj7fc5yarshqq6jbgg8jz";
         };
         packageRequires = [ emacs ];
         meta = {
