@@ -772,10 +772,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.1.1";
+        version = "29.1.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/compat-29.1.1.1.tar";
-          sha256 = "16hwb432ajpl4ss2z19x0ida7kl635k1g6i69lmsc0dd7gbwp512";
+          url = "https://elpa.gnu.org/packages/compat-29.1.2.0.tar";
+          sha256 = "1jh6kjsqmpccry3n6x89gb8428vcxg8z451inn08lcy9fn1xqq1x";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4669,6 +4669,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/stream.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    substitute = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "substitute";
+        ename = "substitute";
+        version = "0.1.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/substitute-0.1.2.tar";
+          sha256 = "08ri23qzck95qs5bhpfkrxm6s7in06ckgvv1yh094mmhgw2ha527";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/substitute.html";
           license = lib.licenses.free;
         };
       }) {};
