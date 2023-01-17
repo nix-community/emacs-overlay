@@ -5169,10 +5169,10 @@
       elpaBuild {
         pname = "use-package";
         ename = "use-package";
-        version = "2.4.4";
+        version = "2.4.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/use-package-2.4.4.tar";
-          sha256 = "1hw73006l1xh0padqxyr0l3sjnr3fxyz619csz8ds6am86fdxvfp";
+          url = "https://elpa.gnu.org/packages/use-package-2.4.5.tar";
+          sha256 = "09aimbmkcpyffrq1qnavzx6c4ccfawz7ndz2ac8md7qxilxx58yc";
         };
         packageRequires = [ bind-key emacs ];
         meta = {
