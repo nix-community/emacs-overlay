@@ -4676,10 +4676,10 @@
       elpaBuild {
         pname = "substitute";
         ename = "substitute";
-        version = "0.1.2";
+        version = "0.1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/substitute-0.1.2.tar";
-          sha256 = "08ri23qzck95qs5bhpfkrxm6s7in06ckgvv1yh094mmhgw2ha527";
+          url = "https://elpa.gnu.org/packages/substitute-0.1.4.tar";
+          sha256 = "044vknsp7ga7vq4xy26rjwd8smw301wqxrhxm2agkcxsfx6qgn3g";
         };
         packageRequires = [ emacs ];
         meta = {
