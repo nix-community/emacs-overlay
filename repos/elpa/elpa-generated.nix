@@ -2347,10 +2347,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.11";
+        version = "0.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.11.tar";
-          sha256 = "17x07mgbhpibncxi30lq6ghnal3s6f72ml2dkq6b7csa9xvk6zyb";
+          url = "https://elpa.gnu.org/packages/inspector-0.13.tar";
+          sha256 = "0p3xpbrf5wcyn0xcmfpv5xcd521dyxn281c72c4lklgin69z7dmz";
         };
         packageRequires = [ emacs ];
         meta = {
