@@ -2347,10 +2347,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.10";
+        version = "0.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.10.tar";
-          sha256 = "0fay8mlsm8d176q2np9lp0yl7ra1ffmv9kzjhax37h7dyaj26qf7";
+          url = "https://elpa.gnu.org/packages/inspector-0.11.tar";
+          sha256 = "17x07mgbhpibncxi30lq6ghnal3s6f72ml2dkq6b7csa9xvk6zyb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2487,10 +2487,10 @@
       elpaBuild {
         pname = "jarchive";
         ename = "jarchive";
-        version = "0.9.0";
+        version = "0.10.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jarchive-0.9.0.tar";
-          sha256 = "16whwc5y3n2bkk8vdkjqyxzx2hwxpcrjbkqyslkyp9r2bagddzpj";
+          url = "https://elpa.gnu.org/packages/jarchive-0.10.0.tar";
+          sha256 = "0hgxfz6kqammgbr6cx7l8bg9hmakamrkbzbsjycb4k0gbi4r567b";
         };
         packageRequires = [ emacs ];
         meta = {
