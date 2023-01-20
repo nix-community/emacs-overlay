@@ -10251,14 +10251,14 @@
   "repo": "Titan-C/cardano.el",
   "unstable": {
    "version": [
-    20221210,
-    1155
+    20230105,
+    11
    ],
    "deps": [
     "bech32",
     "cbor",
     "emacsql",
-    "emacsql-sqlite3",
+    "emacsql-sqlite",
     "f",
     "helm",
     "readable-numbers",
@@ -10266,8 +10266,8 @@
     "yaml-mode",
     "yasnippet"
    ],
-   "commit": "362989453e94def0f8863b7d3193fe87499a3cad",
-   "sha256": "06glajw2y0xdi36v2d4x84gg00fl0ys4m0hl0fyrpiyc19fnpvnw"
+   "commit": "6ce650972d949228b17dc03c6ff809f67f22f35a",
+   "sha256": "0j82a1267cgkj2kd2m3fb05hk7s4nlwxbfxa9r8hs9kzx48lkli2"
   }
  },
  {
@@ -10278,8 +10278,8 @@
   "repo": "Titan-C/cardano.el",
   "unstable": {
    "version": [
-    20221210,
-    1131
+    20230105,
+    11
    ],
    "deps": [
     "cardano-tx",
@@ -10288,8 +10288,8 @@
     "yaml",
     "yaml-mode"
    ],
-   "commit": "34dd1d5659e104eba56b3ef2d5e32e49f83cce7b",
-   "sha256": "18c08g08apmpb3pvpblg66nkcvlwhrkpba977fan90xgdnm6d6d2"
+   "commit": "6ce650972d949228b17dc03c6ff809f67f22f35a",
+   "sha256": "0j82a1267cgkj2kd2m3fb05hk7s4nlwxbfxa9r8hs9kzx48lkli2"
   }
  },
  {
@@ -10599,14 +10599,11 @@
   "repo": "Titan-C/cardano.el",
   "unstable": {
    "version": [
-    20221210,
-    1131
+    20221225,
+    1909
    ],
-   "deps": [
-    "dash"
-   ],
-   "commit": "34dd1d5659e104eba56b3ef2d5e32e49f83cce7b",
-   "sha256": "18c08g08apmpb3pvpblg66nkcvlwhrkpba977fan90xgdnm6d6d2"
+   "commit": "b369e8ac68c4cbabeb3a57f7db6bd44341523d72",
+   "sha256": "0ppzjha1cav84jgp2lvm60m4qxxa3cd9mbp66jdgzyjx3k7mi0l3"
   }
  },
  {
@@ -13410,11 +13407,11 @@
   "url": "https://gitlab.kitware.com/cmake/cmake.git",
   "unstable": {
    "version": [
-    20221130,
-    1357
+    20230119,
+    1432
    ],
-   "commit": "5676593be9bd3a26995f35b9db8fe5b9af8ea32e",
-   "sha256": "066fr50gjdh2aa6c0lbh69g7dydnvyr8mggsqhhmjr99jl5d051y"
+   "commit": "e2be23a2b39f4380f32fe65ba770addc154579c7",
+   "sha256": "04lif9719z5sld02xp8yvrspvr4yf5f9kd5nsf9592x0322094h0"
   },
   "stable": {
    "version": [
@@ -13423,11 +13420,7 @@
     2
    ],
    "commit": "e2be23a2b39f4380f32fe65ba770addc154579c7",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /run/user/1001/git-checkout-tmp-4636pCa2/cmake-e2be23a/.git/\nerror: RPC failed; HTTP 502 curl 22 The requested URL returned error: 502\nfatal: expected 'packfile'\nremote: GitLab is not responding\nfatal: unable to access 'https://gitlab.kitware.com/cmake/cmake.git/': The requested URL returned error: 502\nremote: GitLab is not responding\nfatal: unable to access 'https://gitlab.kitware.com/cmake/cmake.git/': The requested URL returned error: 502\nUnable to checkout e2be23a2b39f4380f32fe65ba770addc154579c7 from https://gitlab.kitware.com/cmake/cmake.git.\n"
-   ]
+   "sha256": "04lif9719z5sld02xp8yvrspvr4yf5f9kd5nsf9592x0322094h0"
   }
  },
  {
@@ -27962,10 +27955,10 @@
   "unstable": {
    "version": [
     20230119,
-    854
+    2242
    ],
-   "commit": "d4bfb6180b880a3082b1aa6ec2467f4a7c0ea97d",
-   "sha256": "08hskz3v6m1zlahm3xxga46q0sxw9x0blpniq1rh1amqy7dbzl32"
+   "commit": "09f1472c738a674db242101b51d2866ea7d8df7f",
+   "sha256": "00lxxyyzb4q29gyy3gwcs7aqkj1q1gjpc9mcairy3v1r9k39br5s"
   }
  },
  {
@@ -39345,16 +39338,16 @@
   "repo": "Wilfred/flycheck-pkg-config",
   "unstable": {
    "version": [
-    20200409,
-    501
+    20230119,
+    1721
    ],
    "deps": [
     "dash",
     "flycheck",
     "s"
    ],
-   "commit": "b76b24ea1f4800f5fb96ce9c6c4788e0e63133d3",
-   "sha256": "01wzzrpfgh3z28qsynxvkfm92xy98vyvkkv31qh53kxxdicnzlh0"
+   "commit": "c4e4028f6621187365b7362566ac2786206765a1",
+   "sha256": "1i0pk4nzw5jl3d67k71h6iwiw5xmqa6qns3q2x0mwdk5kylb91n9"
   }
  },
  {
@@ -62553,11 +62546,11 @@
   "repo": "JuliaEditorSupport/julia-emacs",
   "unstable": {
    "version": [
-    20220418,
-    809
+    20230119,
+    1840
    ],
-   "commit": "adf4029be778c5983c436873b8a78bc72a6b09f8",
-   "sha256": "0z6vx541vskgzb1dmlcijbch4z84lrz5fm2ay0n15sypvxfp2yks"
+   "commit": "7aafa8e77df64a47fa4729a0c1ea572b5bc8e30e",
+   "sha256": "1agk2jf76ardqxm28nw341jb92sl6ylkr8yfibsp5vaid9dlq6bp"
   },
   "stable": {
    "version": [
@@ -76850,16 +76843,16 @@
   "repo": "NixOS/nix-mode",
   "unstable": {
    "version": [
-    20230117,
-    2044
+    20230119,
+    1649
    ],
    "deps": [
     "magit-section",
     "reformatter",
     "transient"
    ],
-   "commit": "9796493a291325697f9a481755b51e2fed0c5fd9",
-   "sha256": "1w3n6yr6xajwjsfnp58drharsi4hrdr22i2a3vwxz3cj89wm1j72"
+   "commit": "9fc77498563771a23207b14714140c77b36d51df",
+   "sha256": "1d3yhihghl9f1i8nbqn8mm09vrb2ixkcl53jl70sgg3w8k5ry4gh"
   },
   "stable": {
    "version": [
@@ -83955,11 +83948,11 @@
   "repo": "brabalan/org-review",
   "unstable": {
    "version": [
-    20220411,
-    1205
+    20230119,
+    1706
    ],
-   "commit": "466f7d8f183f226f1e665cf806cb094471903d9c",
-   "sha256": "122l2n1qz5qps3jphimp1dd743ckbqcvnjdwc5zcdzp9x70yy3nh"
+   "commit": "77211e40db8a9558b866f5660c7127922b459e6c",
+   "sha256": "1izm9aj8cqni8sjsxmlk5bbl4nn90476pa339jfxh812v5will1y"
   }
  },
  {
@@ -86238,16 +86231,16 @@
   "repo": "Titan-C/cardano.el",
   "unstable": {
    "version": [
-    20221210,
-    1155
+    20221229,
+    1731
    ],
    "deps": [
     "bech32",
     "cbor",
     "dash"
    ],
-   "commit": "587d6d740d15b5721d5a24b40e8bd3382f97a548",
-   "sha256": "1gwbv8pfh3wf6jx4zx374pw0v9n6jjy7gr9k8zyrqrf5zhrnfcy5"
+   "commit": "fb7d4deee41816bf6d79004b2301a1275fa87402",
+   "sha256": "142425jyi4r5brihds514dsjymgw01f4p19pmblp07hsl3g2zhsy"
   }
  },
  {
@@ -109200,7 +109193,7 @@
   "unstable": {
    "version": [
     20230119,
-    526
+    1943
    ],
    "deps": [
     "evil",
@@ -109213,8 +109206,8 @@
     "tree-sitter",
     "tsc"
    ],
-   "commit": "e8a7caca8c47c055b5f09f27e87d0d5f4154b602",
-   "sha256": "1pz8riiwwispl4x4nb0jx03xscwz6p50174zyqf7gnb3fpsa70wn"
+   "commit": "cddb1644ce1fff6724280cc5eae7f6ed1597ae80",
+   "sha256": "1p3h9qlkvzjniq599awhjz3gy65nz8hwjq5fx9gbgda37v3fag71"
   },
   "stable": {
    "version": [
@@ -114232,16 +114225,16 @@
   "repo": "rolandwalker/ucs-utils",
   "unstable": {
    "version": [
-    20150826,
-    1414
+    20230119,
+    2237
    ],
    "deps": [
     "list-utils",
     "pcache",
     "persistent-soft"
    ],
-   "commit": "cbfd42f822bf5717934fa2d92060e6e24a813433",
-   "sha256": "0qw9vwl1p0pjw1xmshxar1a8kn6gmin5rdvvnnly8b5z9hpkjf3m"
+   "commit": "91b9e0207fff5883383fd39c45ad5522e9b90e65",
+   "sha256": "18yqzy8w4icp60z25ckbrx6wradm3m26vic35kmzr88msc0qdsva"
   },
   "stable": {
    "version": [
