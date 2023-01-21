@@ -3696,11 +3696,11 @@
   "repo": "radian-software/apheleia",
   "unstable": {
    "version": [
-    20221224,
-    1704
+    20230121,
+    334
    ],
-   "commit": "5ebd6bf5819fbf2adfa18162f270825e6ca4379c",
-   "sha256": "1shm5q1awpzf78mymf045qghy4z6hhdhklrs96rr4x27hypb7b79"
+   "commit": "93d2b30dd08c43edde6bdbbd36f42da751bc0975",
+   "sha256": "1jz25x9d6h2zgs6baw0h2yj1wl0alacy7clnanj215v7mn5hcqs5"
   },
   "stable": {
    "version": [
@@ -28484,15 +28484,28 @@
   "repo": "youngker/elogcat.el",
   "unstable": {
    "version": [
-    20151121,
-    41
+    20230121,
+    459
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "cafe9bd5c0d6561d72066c70a55c246453693efd",
-   "sha256": "117vb19z006hjs0717r5l90h4rv6rciw3cijlgg006f4qqj3g9s5"
+   "commit": "f2f19d7ab6b77b8fec55cb67524df629fe967891",
+   "sha256": "0fwl14xqnxq5d4a9wk0p1xvfkmff5inwmz2v1s8n7w1sy29zslrn"
+  },
+  "stable": {
+   "version": [
+    0,
+    2,
+    0
+   ],
+   "deps": [
+    "dash",
+    "s"
+   ],
+   "commit": "f2f19d7ab6b77b8fec55cb67524df629fe967891",
+   "sha256": "0fwl14xqnxq5d4a9wk0p1xvfkmff5inwmz2v1s8n7w1sy29zslrn"
   }
  },
  {
@@ -40764,14 +40777,14 @@
   "repo": "emacs-languagetool/flymake-languagetool",
   "unstable": {
    "version": [
-    20221231,
-    1658
+    20230121,
+    314
    ],
    "deps": [
     "s"
    ],
-   "commit": "d995f90aac2d10baa617f4de5c6e40bc37e63f76",
-   "sha256": "1ysy0w9j2cl1apms5faq2h482razi643zamlmq2awgqq6iynqha4"
+   "commit": "718b71ad1beabd7318df7b325f7316a24a821ef9",
+   "sha256": "1rcb5zfi6lba0glq2al99jz6ll68m0wwfc8qcazrr1vvrsx3a1jc"
   },
   "stable": {
    "version": [
@@ -47155,11 +47168,11 @@
   "repo": "minad/goggles",
   "unstable": {
    "version": [
-    20230120,
-    2012
+    20230121,
+    859
    ],
-   "commit": "1ebfbb3de29a4990249d586a7ba7c58d070a79fa",
-   "sha256": "0x1a7piyxa4a2fp7zpjskn7zzsmacshxh0i3vbxs2bzsgqfcyavf"
+   "commit": "ab7d0ce3c049d72f97d87ddc15064bb527c0e990",
+   "sha256": "0718f5palg4v4z5h13rhfm4vnaxgs7mr43nq16w81bs6k2nfrbzw"
   },
   "stable": {
    "version": [
@@ -63403,8 +63416,8 @@
   "repo": "jinnovation/kele.el",
   "unstable": {
    "version": [
-    20230120,
-    1426
+    20230121,
+    414
    ],
    "deps": [
     "async",
@@ -63415,8 +63428,8 @@
     "s",
     "yaml"
    ],
-   "commit": "a638e4b6e3fb3aef03fd45f6a7f24ec0023e91af",
-   "sha256": "0glysvqffpi3hisj9b5y4njl3rx1fzjykdgqfskifawf5idj6b6s"
+   "commit": "3191f160448e415827d06235d47d1280206b9516",
+   "sha256": "1r58mw7a937hwa6iz3rwnrnfc2sns8xfaxxq5nmi47xb955mhd1z"
   },
   "stable": {
    "version": [
