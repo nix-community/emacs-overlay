@@ -99,6 +99,7 @@ let
               tree-sitter-dockerfile
               tree-sitter-go
               tree-sitter-gomod
+              tree-sitter-html
               tree-sitter-java
               tree-sitter-javascript
               tree-sitter-json
