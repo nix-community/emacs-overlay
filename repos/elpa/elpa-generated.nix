@@ -3786,10 +3786,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.9.4";
+        version = "0.9.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/project-0.9.4.tar";
-          sha256 = "10xmpx24k98crpddjdz1i4wck05kcnj3wdxhdj4km53nz8q66wbg";
+          url = "https://elpa.gnu.org/packages/project-0.9.5.tar";
+          sha256 = "1d8ky1nvl2hnsnplsix93fmg51fj5kw8dxa1irfgcyv48h65dxzr";
         };
         packageRequires = [ emacs xref ];
         meta = {
@@ -4676,10 +4676,10 @@
       elpaBuild {
         pname = "substitute";
         ename = "substitute";
-        version = "0.1.4";
+        version = "0.1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/substitute-0.1.4.tar";
-          sha256 = "044vknsp7ga7vq4xy26rjwd8smw301wqxrhxm2agkcxsfx6qgn3g";
+          url = "https://elpa.gnu.org/packages/substitute-0.1.5.tar";
+          sha256 = "1sjfqqkgfmy7pzginl5rnp6sn03crwzjr8cls8bqyzy7ng3f312f";
         };
         packageRequires = [ emacs ];
         meta = {
