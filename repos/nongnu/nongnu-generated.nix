@@ -605,10 +605,10 @@
       elpaBuild {
         pname = "eat";
         ename = "eat";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/eat-0.4.tar";
-          sha256 = "0ay5w2rhmjcanghd5c4kj3snc0cgxw1dv00df9a0j1b4l8cpsppp";
+          url = "https://elpa.nongnu.org/nongnu/eat-0.5.tar";
+          sha256 = "0hwk262nh3l0v493n6v874h97sm6pv4g1w3bgvwzqrln2x0yfr23";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3134,10 +3134,10 @@
       elpaBuild {
         pname = "workroom";
         ename = "workroom";
-        version = "2.2.5";
+        version = "2.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/workroom-2.2.5.tar";
-          sha256 = "0w968jdsn1aw5q1zxqjyjzyfcqj2c6163c7wf0ygnhwzxlidj1v5";
+          url = "https://elpa.nongnu.org/nongnu/workroom-2.3.tar";
+          sha256 = "0c05pbxkrcgsjk7zcyxiacxrpxyvf85rf38nhaqhxbywh4j071fg";
         };
         packageRequires = [ compat emacs project ];
         meta = {
