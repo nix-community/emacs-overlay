@@ -68496,8 +68496,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20230122,
-    1747
+    20230124,
+    1058
    ],
    "deps": [
     "dash",
@@ -68508,8 +68508,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "dc0b2e6b15492bab27aa9fa08f9112e7686d0839",
-   "sha256": "0b25pn4qijjipiya11c2bb7vj5a6f8xmkx7vlnpjz6gzc80772py"
+   "commit": "0835ca09d8826d4be56fb1397923c98ee5b3c813",
+   "sha256": "0lwsbiyxa4f94b267b528spnxl0pksnv2zfx7iv1jiqj0w25lspz"
   },
   "stable": {
    "version": [
@@ -83896,13 +83896,14 @@
    "version": [
     1,
     3,
-    2
+    3
    ],
    "deps": [
+    "dash",
     "org"
    ],
-   "commit": "fa2a37d50229346929fa70b56c9d7cc34bc628ae",
-   "sha256": "1az53kmrhizmbnli0smpxla38f8qwya535zjvm9l08s58clcn6m5"
+   "commit": "628099883a63d219f76cd9631cc914fe6ec8a3e3",
+   "sha256": "0s2n62y3qc72ldzpaq2jz9335h532s566499n346nx21l4qsqdz6"
   }
  },
  {
@@ -85858,11 +85859,11 @@
   "repo": "tbanel/orgaggregate",
   "unstable": {
    "version": [
-    20230122,
-    802
+    20230124,
+    1042
    ],
-   "commit": "9b83a074418c1e6463abf9bd6273d74fad4ef4fa",
-   "sha256": "0lhjhbnzws149818lb20rblh1pf7gjj9djasni4pmb5cx7glzlj7"
+   "commit": "72b7d3f106ad84c339adc3f768cd1554ba786663",
+   "sha256": "1zha693y398bsfs7xk4zgi8f1n3i5ina31vvhba44j44lc7h0n16"
   }
  },
  {
@@ -85903,11 +85904,11 @@
   "repo": "tbanel/orgtbljoin",
   "unstable": {
    "version": [
-    20230122,
-    757
+    20230124,
+    1107
    ],
-   "commit": "5b59f69c285a3097262126add3d1ae9b1bbb5169",
-   "sha256": "0qgc2qsfhwj384ss9zk6n8dxbszccnzjx75dvz0fi78kwxy0qn2w"
+   "commit": "0ca816bc0bb316b91aad5725900a641eef1b9a9a",
+   "sha256": "0r04lk9ikscpqmd2bd7wnq9gikhd6cka92s0ga2yax2jlgzf7mf2"
   }
  },
  {
@@ -90558,8 +90559,8 @@
   "repo": "nlamirault/phpunit.el",
   "unstable": {
    "version": [
-    20220704,
-    1554
+    20230124,
+    743
    ],
    "deps": [
     "cl-lib",
@@ -90567,8 +90568,8 @@
     "pkg-info",
     "s"
    ],
-   "commit": "02020d4b3e5ae9fdb82be9203fa6d330adcbc0eb",
-   "sha256": "14x4cmwc8m787dv49kpaw285109d85zv95dlkcxza8g8f493mdw1"
+   "commit": "4a36906344c0abc11f48cc08cd8d50a9f46963f8",
+   "sha256": "03a9brby841kqyjqpyxxxvh60hcqa0ly4yc4flawbvnvm7rm7bv3"
   },
   "stable": {
    "version": [
