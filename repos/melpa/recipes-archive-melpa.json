@@ -1917,14 +1917,14 @@
   "repo": "minad/affe",
   "unstable": {
    "version": [
-    20230121,
-    900
+    20230125,
+    1816
    ],
    "deps": [
     "consult"
    ],
-   "commit": "6d4314176cce2e915e3aa0b22326a9a10a85d1f6",
-   "sha256": "0sxa8g272cgzrv9a40g5k8indkcva69ylc6ifv88ambvv9cnrkga"
+   "commit": "62d58fdd87a90217ce5bdb61376252c854ee6f79",
+   "sha256": "015l6453xs06cw3ww6wqkwm12915gnaqfgh0h45kjh0dn5c31n61"
   },
   "stable": {
    "version": [
@@ -12270,8 +12270,8 @@
   "repo": "andras-simonyi/citeproc-el",
   "unstable": {
    "version": [
-    20230124,
-    1850
+    20230125,
+    1818
    ],
    "deps": [
     "dash",
@@ -12282,8 +12282,8 @@
     "s",
     "string-inflection"
    ],
-   "commit": "3e9dcf0c29b47fd3bfe267ab4f87ff746a45096a",
-   "sha256": "18f0fidr4rxy0hyqwg9xq05lkr5kjq8dxbv3vpvqh81y6a45hpxb"
+   "commit": "2623043b2546ee09a4bd86641870ca86332c0bcf",
+   "sha256": "1f2bcshnccfbvbnkhnynkdpszrs4zb3z82hqrrdp9hf3ig3h5750"
   },
   "stable": {
    "version": [
@@ -16651,13 +16651,13 @@
   "unstable": {
    "version": [
     20230125,
-    1237
+    2051
    ],
    "deps": [
     "compat"
    ],
-   "commit": "345325fc4b3033d1847409442cf746bb4f3c7485",
-   "sha256": "1wkykdicxmhzqds3n64vx6ky3ffdzyk5q5ljwghh01hrm6ykzdha"
+   "commit": "484c92893c51d8f1ad223d023fddeb6ddc436c67",
+   "sha256": "08h289qdnccs2j1wcw054pljcr4gaswh8iaqvbw4nlplfy73yvji"
   },
   "stable": {
    "version": [
@@ -29589,28 +29589,28 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20230124,
-    1953
+    20230125,
+    2015
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "c0c6ecbcad8015774ff62ec9fd1c0723940214e5",
-   "sha256": "15aa1frxvf76jh3xxvidf2zc3jrjvc4z2cqm9mhhmhx8i3xmy343"
+   "commit": "05fe0a83c9ccfd0cf06104815477c70da2a160be",
+   "sha256": "0w83nfmmi2bpmrb6scf0g6q1r1b7wchbj6ijp23bca91dxk37q26"
   },
   "stable": {
    "version": [
-    13
+    14
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "0e34fefe44a8fca45bf9364a19768809a2ed7614",
-   "sha256": "1wr4ygq3w8905qnamgil1yy51sk7wvdy25dwhapr2qfhk3zh7vlg"
+   "commit": "ecd49294fdec8c7741a342acaf89cd408f0abf13",
+   "sha256": "08wlrylv486pr8jyc3837qhlxck2hrjrywmlacmhshgha4w8sdxc"
   }
  },
  {
@@ -71228,16 +71228,16 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20230121,
-    957
+    20230125,
+    1649
    ],
    "deps": [
     "persist",
     "request",
     "ts"
    ],
-   "commit": "3ff4af19255c3da92cc87edf9dd604eed567137a",
-   "sha256": "0wpnhvxq0bmd1j9rscb5z5xci6ifba903480zjnx5jl5kdfkwdc5"
+   "commit": "4548acc7300a4f63c57916c3d5ee033fef5674a3",
+   "sha256": "1ainng23f0fr91s31k2navlgindjc52w926kzy3pd4ccyprd1n9w"
   },
   "stable": {
    "version": [
@@ -98651,11 +98651,11 @@
   "repo": "tkf/emacs-request",
   "unstable": {
    "version": [
-    20230104,
-    1925
+    20230126,
+    17
    ],
-   "commit": "6ddb4fc4d8a0746ee2dfd8473af315ebe8f6215b",
-   "sha256": "16f1zsd1v99my7n1jbghv672f6r1x8fa2lhr4mlahwn2y8l4qngb"
+   "commit": "f26ea54c44f6d801d5f03c478668dbd22874b0c0",
+   "sha256": "1xln3iqa3w7l632yjlcvaja24c0vr0wqc90igzkmd0dp8i6l1qpn"
   },
   "stable": {
    "version": [
@@ -99002,14 +99002,14 @@
   "repo": "a13/reverse-im.el",
   "unstable": {
    "version": [
-    20221103,
-    2351
+    20230125,
+    1846
    ],
    "deps": [
     "seq"
    ],
-   "commit": "542a3f7742d2f7878f1509bd193d137b5bba8e7b",
-   "sha256": "1j3sca85q5kd9b2h0iyy2pml1md6jx0q36c3y948svdil11hxv92"
+   "commit": "83c639756357c6b154842997b86e63c583ff8ff4",
+   "sha256": "08nnm6kvndsvnk7l1zr0zmbc0f6wsrfq284n80m2sxhx428k5jwh"
   },
   "stable": {
    "version": [
@@ -107882,11 +107882,11 @@
   "repo": "andyjda/sticky-shell",
   "unstable": {
    "version": [
-    20230124,
-    352
+    20230125,
+    1441
    ],
-   "commit": "7990b928031a3f8fa01b9a25776788df050402b4",
-   "sha256": "0v0qrbam7pi3bj3vm4cqkds4j4a7wm8f0h00g4x2bnch9bnqxbiz"
+   "commit": "8abe99255cf8a4bf86a5d459ee501fb66de31ad7",
+   "sha256": "1c1akf0zlnvcgkgq9jkbday6b2055k8k949ihhaqq8cs9hbqs721"
   }
  },
  {
