@@ -1870,11 +1870,11 @@
   "repo": "jessieh/adwaita-dark-theme",
   "unstable": {
    "version": [
-    20221230,
-    1920
+    20230126,
+    1050
    ],
-   "commit": "99951619c5661efce1d54b98c1df5ccad5153f0c",
-   "sha256": "05sqyb60vjx5cxr240k4ffv9wij8j3f6fgp1jp3v9w35qvk4pl4p"
+   "commit": "d137551c5a9e13d311eda625a09f94543ec7bbb6",
+   "sha256": "0sb9jsm50186k6ljq9n1cvnw2k3y5qf9bv1wrccjdrv070av762q"
   },
   "stable": {
    "version": [
@@ -16651,13 +16651,13 @@
   "unstable": {
    "version": [
     20230126,
-    258
+    1250
    ],
    "deps": [
     "compat"
    ],
-   "commit": "29f50758a0dd0e137190aefdf786b667746b9f80",
-   "sha256": "1lgxakyia44fj3qm754s8x0ah7w00nkdj5ri0jf3i79aqzgaz36p"
+   "commit": "4be224fb1cfa9b983dca84408720a71d112b1e2c",
+   "sha256": "1jmaxv6r7pgv0lgb4zfr6mvp30m63kbq8p8kn8m75wvbp1lxdzv5"
   },
   "stable": {
    "version": [
@@ -22588,15 +22588,15 @@
   "repo": "stsquad/dired-rsync",
   "unstable": {
    "version": [
-    20221220,
-    1024
+    20230126,
+    1144
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "fa7cbb69930fe7fb07367a9f2c75812cbddfa628",
-   "sha256": "0c9mi3jk8gnnnfr6ssz9isjd0vfz5jj5nh6rmz1i5477qdzs46im"
+   "commit": "5496bc00f7a32a9d3e54e395f29d44e9df771567",
+   "sha256": "1qzzpcrvgg7m3b8gdg9mpvhhjjzhmcrzaf72hvmdihs8n0x36nvf"
   },
   "stable": {
    "version": [
@@ -23343,14 +23343,14 @@
   "repo": "unhammer/dix",
   "unstable": {
    "version": [
-    20220323,
-    1046
+    20230126,
+    1017
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "5230c18456ab034f2fb69acdbef62c1abae6a8cf",
-   "sha256": "161ykw5p6wxy3dlx7f6zxg1cwl8hh411b7clzc5zhdpmq1wnqy0b"
+   "commit": "5eeed9362fbeaf5a032bccd69b861b8a36877516",
+   "sha256": "0w23qcmlpy23v481nqikjpd3kgwpjapihlwhxdxmpd5h90khkj9j"
   },
   "stable": {
    "version": [
@@ -68496,8 +68496,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20230125,
-    758
+    20230126,
+    1057
    ],
    "deps": [
     "dash",
@@ -68508,8 +68508,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "ff3d560ee6386851481700d7dadd903e6b66cdc3",
-   "sha256": "1qq7qqbcjbdl4mhx7cj7d8hf937xrq33gf5jzjlf4hrh3iww0h80"
+   "commit": "9240e3ee55b5ec6902097a87df357a39611c73e9",
+   "sha256": "1lh8x2chw0307l4d6yhxaww6dbsv6rnc71z9d9x1i2h72jpbjbjl"
   },
   "stable": {
    "version": [
@@ -69443,8 +69443,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20230124,
-    1958
+    20230125,
+    1440
    ],
    "deps": [
     "compat",
@@ -69454,8 +69454,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "18cf9140aa48d83e6f030b1324042f469da16304",
-   "sha256": "1gbjifxchh70zbylfsfbaqf4isvh0k3lik08r2rd8hyjyqqky1f8"
+   "commit": "c883fabe28a74d59d996cbef3f742874f3459bc0",
+   "sha256": "0cq2bgny5jac1n9h7hp0pkipil41sf079h2qh5rh7bj0085dc7wv"
   },
   "stable": {
    "version": [
@@ -73869,19 +73869,19 @@
   "unstable": {
    "version": [
     20230126,
-    703
+    917
    ],
-   "commit": "60faca6943c790551ca90b34af72fe63781b81c4",
-   "sha256": "05hnpknf154iryysx6j7jkvxgq8hv7yqk7kih4hl6hhh09z8qpxv"
+   "commit": "58e85c815092ac93d02dab584fe537fd1be3828a",
+   "sha256": "0davxbpw2a15n1wcza3qszdvmyzypffz8rdkizlq6xhccdyk0rvd"
   },
   "stable": {
    "version": [
     2,
-    1,
+    2,
     0
    ],
-   "commit": "c30d6e79c56ab07e58d7a82528864638c6e936dd",
-   "sha256": "1j2fjsqbv2f7m1hrrb18gl4cj4kn749xkvpm2p82d7rh4a37q2pr"
+   "commit": "d6369af8228921b5ffa328e671c7446a2733fe43",
+   "sha256": "0davxbpw2a15n1wcza3qszdvmyzypffz8rdkizlq6xhccdyk0rvd"
   }
  },
  {
@@ -104434,27 +104434,27 @@
   "repo": "slime/slime",
   "unstable": {
    "version": [
-    20230109,
-    1535
+    20230126,
+    1226
    ],
    "deps": [
     "cl-lib",
     "macrostep"
    ],
-   "commit": "a02742211e0118756bc30f98ea0319320a0c3844",
-   "sha256": "14pgf8q2hhka3ppjz0jw3dnc00h1892jvgighldbkpr0jq9cvfm0"
+   "commit": "a4f3471487db48f7289dc0ea019611d093e5ee7f",
+   "sha256": "155y3xld9snkfm7xhn7gz655xxxr6g7qv45znbg25k6y1lczmy4z"
   },
   "stable": {
    "version": [
     2,
-    27
+    28
    ],
    "deps": [
     "cl-lib",
     "macrostep"
    ],
-   "commit": "cf30941e5858e93eb91574ad91499075222a447b",
-   "sha256": "0wrq7s39lwca9wi01fj0wa2z6n0yyrv17c471kdkxxqppl4whi8m"
+   "commit": "a4f3471487db48f7289dc0ea019611d093e5ee7f",
+   "sha256": "155y3xld9snkfm7xhn7gz655xxxr6g7qv45znbg25k6y1lczmy4z"
   }
  },
  {
