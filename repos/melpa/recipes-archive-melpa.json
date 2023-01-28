@@ -16651,13 +16651,13 @@
   "unstable": {
    "version": [
     20230128,
-    4
+    820
    ],
    "deps": [
     "compat"
    ],
-   "commit": "051f51811d90fcab49e1eac7c78bee86e440ea01",
-   "sha256": "1mw4ah7nwzv5dy0v3apdllwabms956hnfkka4ms55fridhlz7i17"
+   "commit": "7989642a2bdc830e1b3de8cfeb479f329bc7d4c9",
+   "sha256": "1parxw1k5jfi5xlvma6cbqi4b5lkvlc0qf62hxkhca291pwsv5pq"
   },
   "stable": {
    "version": [
@@ -32875,15 +32875,15 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20230121,
-    1523
+    20230128,
+    650
    ],
    "deps": [
     "annalist",
     "evil"
    ],
-   "commit": "5047285052d7fbb85df2ab750815e899aa67bd88",
-   "sha256": "1b7c43j69grlpv648qjcjfk40cfs4hgwzzbzksm6f0gld9kvij6w"
+   "commit": "85743099972bfcc4d7788db70dfe33e864eba090",
+   "sha256": "1zfza2ac91wbd8yh0r71l2v45g05qc8b057rx98062ci4n0aa15a"
   },
   "stable": {
    "version": [
@@ -47718,7 +47718,7 @@
    "version": [
     0,
     30,
-    0
+    1
    ],
    "deps": [
     "dash",
@@ -47726,8 +47726,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "eabc29ba6d1015a55593f71cf84d99f4518a2589",
-   "sha256": "06mbqwr3il2dwws8nr42smghx5qk2qh4dwqg5w4g1ngqc75jvj84"
+   "commit": "76a194ead370c2c5881602ccb59d477b0df603cb",
+   "sha256": "0jx4b86q39rqlj6a0qnshfg5b7nhxyy3q5c910n1l056lilv4vw4"
   }
  },
  {
@@ -50788,14 +50788,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20230116,
-    1031
+    20230117,
+    1925
    ],
    "deps": [
     "async"
    ],
-   "commit": "712f78358c11f3397107c1f78ee853bbe33b86af",
-   "sha256": "1yp03ir52wcvhw1wxrijvxm8ggddknf8rmaaz22rjpjbxn15gavb"
+   "commit": "aca996be0171c64b4fbd6f5c0f9152895a1cb304",
+   "sha256": "11s8pd4sswbsigj1hm6k9n1jkw80hm2w77r5rcgzij7m1qlkkav1"
   },
   "stable": {
    "version": [
@@ -73566,11 +73566,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20230127,
-    657
+    20230128,
+    505
    ],
-   "commit": "4a2449a2e87c0612afdb90d3219f68c1d22bfe94",
-   "sha256": "0gvndmys5vf4y92faf9i4ik285gaszgjvh6qgr3aslms0q7zmvjm"
+   "commit": "c26d5a641cf031304a57e9229faa5fe58c40006a",
+   "sha256": "1gx85ry3g25claq5k716cs3wwwibxxh37mbmr0gsisrhskxfq5l6"
   },
   "stable": {
    "version": [
@@ -95338,15 +95338,15 @@
   "repo": "tumashu/pyim",
   "unstable": {
    "version": [
-    20230119,
-    153
+    20230128,
+    101
    ],
    "deps": [
     "async",
     "xr"
    ],
-   "commit": "571b0b57d063da795bdd574c47cef67e89a57adb",
-   "sha256": "0z347d02r8abjjgddkgynyjnsbyr08ww7p6p3cwiigq2ydn6cc0p"
+   "commit": "88ad4d9d06eded71a80db4485d0ddfcb20b40a4c",
+   "sha256": "1zwacq2zvwzml64mwl16dzsal5qymkiafqalriw9pnd87lvw9a92"
   },
   "stable": {
    "version": [
@@ -111628,18 +111628,17 @@
   "repo": "ananthakumaran/tide",
   "unstable": {
    "version": [
-    20220514,
-    614
+    20230128,
+    406
    ],
    "deps": [
     "cl-lib",
     "dash",
     "flycheck",
-    "s",
-    "typescript-mode"
+    "s"
    ],
-   "commit": "96bfc5da11a9b83b32368c38e933a405270652de",
-   "sha256": "1py0z8nrkgh3lzsmgxq62bi2nbdx3c97194frjyb5wl81kh4pbbp"
+   "commit": "52924d0b591238994457b36c79f1ce906653feda",
+   "sha256": "0m93k6xrypf40342vdvyisq78d0zav8k7f6ffihnnqy4zx4vpq7w"
   },
   "stable": {
    "version": [
@@ -113207,26 +113206,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20230116,
-    538
+    20230128,
+    336
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "979b62431fbbef2062db7e6b76a739affaa523a5",
-   "sha256": "1hg91d92d5543azbvbfvswi5bj00zvknrlywmp1vrrgkc9n8mccq"
+   "commit": "f23009a7912d3c7537282e5e7468acb12b8c460d",
+   "sha256": "05f62f0xnjf2gx6bj36xdawjzjh63fxsbrrx89vfyxyr890c6i68"
   },
   "stable": {
    "version": [
     0,
     12,
-    13
+    14
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "979b62431fbbef2062db7e6b76a739affaa523a5",
-   "sha256": "1hg91d92d5543azbvbfvswi5bj00zvknrlywmp1vrrgkc9n8mccq"
+   "commit": "f23009a7912d3c7537282e5e7468acb12b8c460d",
+   "sha256": "05f62f0xnjf2gx6bj36xdawjzjh63fxsbrrx89vfyxyr890c6i68"
   }
  },
  {
