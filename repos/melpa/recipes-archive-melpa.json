@@ -16650,14 +16650,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20230127,
-    1312
+    20230128,
+    4
    ],
    "deps": [
     "compat"
    ],
-   "commit": "46e92c929abda74555ec89bda6edbb765785c397",
-   "sha256": "0dhbilhqbrsq0vvp52vwl2ai78sf5skdg9fyjm0xcblcfimb9mpp"
+   "commit": "051f51811d90fcab49e1eac7c78bee86e440ea01",
+   "sha256": "1mw4ah7nwzv5dy0v3apdllwabms956hnfkka4ms55fridhlz7i17"
   },
   "stable": {
    "version": [
@@ -29390,11 +29390,11 @@
   "repo": "oantolin/embark",
   "unstable": {
    "version": [
-    20230110,
-    329
+    20230127,
+    2054
    ],
-   "commit": "8960e450ac3b1bb085d85c41fc5ae1080ad8f7bb",
-   "sha256": "1pijdvv75rvwk1yzpv2va07g4rr2v84ipbsa7x5p1011jvbvjqrh"
+   "commit": "213ced2c5d30848ec03bb8599590b111b27c7839",
+   "sha256": "1safw3bad2w6gjzr85iygy52cz784xr23m3zaib1df3wjqg7cxrg"
   },
   "stable": {
    "version": [
@@ -29413,15 +29413,15 @@
   "repo": "oantolin/embark",
   "unstable": {
    "version": [
-    20230126,
-    1728
+    20230127,
+    1713
    ],
    "deps": [
     "consult",
     "embark"
    ],
-   "commit": "ba30b46502a90baec42e51f0e8017e7a4997c4f4",
-   "sha256": "1f5cvax4nnh5qrld99vj1lnc20c4m1z7890xcg7vk3m6dn85zrll"
+   "commit": "df0dba318989b467e2d5ba35deb62bef24f5edb7",
+   "sha256": "1z88rz80is3vmiwbdq4akry01zzd8lp6c8lih0x722rp1fjrz2sa"
   },
   "stable": {
    "version": [
@@ -36160,11 +36160,11 @@
   "repo": "technomancy/fennel-mode",
   "unstable": {
    "version": [
-    20230118,
-    1643
+    20230123,
+    432
    ],
-   "commit": "5d652aed434d0c9c690205be1f8715541d9a6116",
-   "sha256": "1j90s2mmxgdi23wj25iighz2ai1isqf24d553am1ba2nnxz0iwjf"
+   "commit": "0aa919db3ea959977747685c65413e0c6636a9ad",
+   "sha256": "040i3za5pj2cqgl79gvr67raakxvn72mpppkx8im4m03qq1vwlwh"
   },
   "stable": {
    "version": [
@@ -46737,14 +46737,11 @@
   "repo": "s-kostyaev/go-gen-test",
   "unstable": {
    "version": [
-    20210816,
-    1215
+    20230127,
+    1422
    ],
-   "deps": [
-    "s"
-   ],
-   "commit": "35df36dcd555233ee1a618c0f6a58ce6db4154d9",
-   "sha256": "1r0cdpfrrz3lgkd7xzkw77c48w11l9maydm32rz27zpjgzgpakdp"
+   "commit": "f84f4177af7fcbe10ce2116d5417ad5f0485034b",
+   "sha256": "1bxa3870vr2hyaj4isvhzfhhs56qyrp9lngapsggxhdq1r9vwqra"
   }
  },
  {
@@ -71228,16 +71225,16 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20230125,
-    1649
+    20230127,
+    2202
    ],
    "deps": [
     "persist",
     "request",
     "ts"
    ],
-   "commit": "4548acc7300a4f63c57916c3d5ee033fef5674a3",
-   "sha256": "1ainng23f0fr91s31k2navlgindjc52w926kzy3pd4ccyprd1n9w"
+   "commit": "489750fc03b75fa57d95b994df0995d5098256e6",
+   "sha256": "0dsw13xcci62870v6m1zg66r7k46bnfqw321i6admkzz4x2ywjps"
   },
   "stable": {
    "version": [
@@ -72098,14 +72095,14 @@
   "repo": "abrochard/mermaid-mode",
   "unstable": {
    "version": [
-    20221129,
-    1253
+    20230128,
+    110
    ],
    "deps": [
     "f"
    ],
-   "commit": "75eed2cecc3b2be0f310c07a8b68fce1173aaa50",
-   "sha256": "0xac6wk0kjvv2vmzcvl9mpnndfhkqn6mlmnlkl0a3pa4yc225n9q"
+   "commit": "57f584de3ff0ad9b12412c5be10a7e50bd024bce",
+   "sha256": "0yf8n68ds075990dqwbvjibfg32iawmqlkdn9k5231hd3wgwjpcs"
   }
  },
  {
@@ -95197,15 +95194,16 @@
   "repo": "andcarnivorous/pyconf",
   "unstable": {
    "version": [
-    20221112,
-    1827
+    20230127,
+    2046
    ],
    "deps": [
+    "pyenv-mode",
     "pyvenv",
     "transient"
    ],
-   "commit": "c49dbd71e69a3840344f644030f087688e73e31e",
-   "sha256": "0jp1pvalwknjhkkcb2g8abrpiyz1vmr9ja9glvvqqmkm9a1gi5a6"
+   "commit": "f78e7f269210c7d7e06001752d87c8fbfd8b9084",
+   "sha256": "019c1hcdfr9cnpcag2qyg2lkf1scg1m6aw0nllwn31cwa8mvyyga"
   }
  },
  {
