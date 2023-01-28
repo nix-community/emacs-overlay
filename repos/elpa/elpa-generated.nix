@@ -1427,10 +1427,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.10";
+        version = "1.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eglot-1.10.tar";
-          sha256 = "0iw1jnfsjd2yq73ic3cld8m51wyxdwn3kjv9ala28krvsvb4h3y4";
+          url = "https://elpa.gnu.org/packages/eglot-1.11.tar";
+          sha256 = "1ifnk4bznykj34s4yh0gq5nyzja7mlv60krxa47j842grpndq2hp";
         };
         packageRequires = [
           eldoc
@@ -2367,10 +2367,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.14";
+        version = "0.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.14.tar";
-          sha256 = "00vzv5bmz9iq0fw7qq36baqrxb82dpi95zrf4lw6n5kghixijzyx";
+          url = "https://elpa.gnu.org/packages/inspector-0.15.tar";
+          sha256 = "0nahvabq7gwwxjiyi18rz0r76k4lx36ag5b8gfj7gy79kz2ppkl9";
         };
         packageRequires = [ emacs ];
         meta = {
