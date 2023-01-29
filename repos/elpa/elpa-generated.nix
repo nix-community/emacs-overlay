@@ -2135,10 +2135,10 @@
       elpaBuild {
         pname = "gpr-query";
         ename = "gpr-query";
-        version = "1.0.2";
+        version = "1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gpr-query-1.0.2.tar";
-          sha256 = "00kknadkgq9hfsyhiqf6vqjzgwj5kwpa3yk61dwpd9s2r15z0sl1";
+          url = "https://elpa.gnu.org/packages/gpr-query-1.0.3.tar";
+          sha256 = "13h8hl2g55mbaz95k9jfcvz718rv4vli9wccr3rr7cb7yfvn4c5j";
         };
         packageRequires = [ emacs gnat-compiler wisi ];
         meta = {
@@ -4542,10 +4542,10 @@
       elpaBuild {
         pname = "sml-mode";
         ename = "sml-mode";
-        version = "6.10";
+        version = "6.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sml-mode-6.10.el";
-          sha256 = "01yf0s474r9xhj6nbs14ljn9ccxb5yy758i17c8nmgmqvm8fx7sb";
+          url = "https://elpa.gnu.org/packages/sml-mode-6.11.tar";
+          sha256 = "05vga709kphbx6jacqh57cq5gyicwrxxf81gask5lbq7vzfzlbfc";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
