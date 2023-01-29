@@ -3731,10 +3731,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.30";
+        version = "0.4.32";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.30.tar";
-          sha256 = "0gwdcfvp3564zmiaw1p0vfyw46n6kn14nh8qx0jwzwygy22v1jdq";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.32.tar";
+          sha256 = "0jjfbh91wgy88qq1zgcvl2z3ssq2svbjxvhmi086jg0pjb2ssq6n";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4696,10 +4696,10 @@
       elpaBuild {
         pname = "ssh-deploy";
         ename = "ssh-deploy";
-        version = "3.1.13";
+        version = "3.1.14";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ssh-deploy-3.1.13.tar";
-          sha256 = "006jr8yc5qvxdfk0pn40604a2b7a1ah6l6hi6rhxm3p5b08d9i5w";
+          url = "https://elpa.gnu.org/packages/ssh-deploy-3.1.14.tar";
+          sha256 = "079g5g3640hyqdikszkz8kmfqdnqdbkl8rwd6k3kkck39ng63zy6";
         };
         packageRequires = [ emacs ];
         meta = {
