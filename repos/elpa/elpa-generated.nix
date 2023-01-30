@@ -456,16 +456,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    brief = callPackage ({ elpaBuild, fetchurl, lib }:
+    brief = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib, nadvice }:
       elpaBuild {
         pname = "brief";
         ename = "brief";
-        version = "5.87";
+        version = "5.88.22";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/brief-5.87.tar";
-          sha256 = "02z8fzzf1zsk2r0cnssz3i2nd4qwsnya4i2r4qi4ndc1xjlsvgwc";
+          url = "https://elpa.gnu.org/packages/brief-5.88.22.tar";
+          sha256 = "08j6riadjcrb8j07bfn0462b1hcqiv1shwn96sxw2c2yx4zzf37l";
         };
-        packageRequires = [];
+        packageRequires = [ cl-lib nadvice ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/brief.html";
           license = lib.licenses.free;
