@@ -1527,16 +1527,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    embark = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    embark = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.19";
+        version = "0.20";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-0.19.tar";
-          sha256 = "089c9nnqwwr5f5ypvsjm2l8hacsjx9vb4bawzxk0gps0gaqbgl17";
+          url = "https://elpa.gnu.org/packages/embark-0.20.tar";
+          sha256 = "1ky9221k515jrmh8nz827xdvggn8p2w0r6nvmq7lh0fzimfj0q6y";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/embark.html";
           license = lib.licenses.free;
@@ -3896,10 +3896,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "5.2.9";
+        version = "5.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-5.2.9.tar";
-          sha256 = "0blsz344jq1zx4qs73zinb8fhh2a35k5nx12i2wn76902qx2qc6j";
+          url = "https://elpa.gnu.org/packages/pyim-5.3.0.tar";
+          sha256 = "0q0h705k1yymp1pqyycmq1zqvzawzkl4q2ckvflbncgrqh306xmh";
         };
         packageRequires = [ async emacs xr ];
         meta = {
@@ -5219,10 +5219,10 @@
       elpaBuild {
         pname = "url-scgi";
         ename = "url-scgi";
-        version = "0.8";
+        version = "0.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/url-scgi-0.8.tar";
-          sha256 = "1837vyamwk5mp2nf3k477hyr5pq1xy6p7br7kl6h2k8jmxqy3mlj";
+          url = "https://elpa.gnu.org/packages/url-scgi-0.9.tar";
+          sha256 = "0mfbqr03302gk38aamlg1lgdznd6y3blcc3zizfb72ppb87j78mc";
         };
         packageRequires = [ emacs ];
         meta = {
