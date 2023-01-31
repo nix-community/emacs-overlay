@@ -1531,10 +1531,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.21";
+        version = "0.21.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-0.21.tar";
-          sha256 = "0g3v9j0bl807h6r47d1491ld5dbpdr6kc6xqqff7irjmcvyldj2r";
+          url = "https://elpa.gnu.org/packages/embark-0.21.1.tar";
+          sha256 = "157km8r8lrvp81l90vqrhvisd794qf0rsqfazl5r47gg1ba7szv5";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4741,10 +4741,10 @@
       elpaBuild {
         pname = "substitute";
         ename = "substitute";
-        version = "0.1.5";
+        version = "0.1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/substitute-0.1.5.tar";
-          sha256 = "1sjfqqkgfmy7pzginl5rnp6sn03crwzjr8cls8bqyzy7ng3f312f";
+          url = "https://elpa.gnu.org/packages/substitute-0.1.6.tar";
+          sha256 = "0hdg6gv878bpb6yrav345a8479w50q48nmibvk4p04im7b7r1238";
         };
         packageRequires = [ emacs ];
         meta = {
