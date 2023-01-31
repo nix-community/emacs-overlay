@@ -1531,10 +1531,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.20";
+        version = "0.21";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-0.20.tar";
-          sha256 = "1ky9221k515jrmh8nz827xdvggn8p2w0r6nvmq7lh0fzimfj0q6y";
+          url = "https://elpa.gnu.org/packages/embark-0.21.tar";
+          sha256 = "0g3v9j0bl807h6r47d1491ld5dbpdr6kc6xqqff7irjmcvyldj2r";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3731,10 +3731,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.32";
+        version = "0.4.33";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.32.tar";
-          sha256 = "0jjfbh91wgy88qq1zgcvl2z3ssq2svbjxvhmi086jg0pjb2ssq6n";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.33.tar";
+          sha256 = "1x06zj8njnqzrmdx3sfjwziy4sc2bnakgv2qnjsiiw5nf23npd01";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5035,10 +5035,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.0";
+        version = "2.6.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.6.0.tar";
-          sha256 = "1y58k0qdc9i3av61p9ks7hg5vynsi2zslv5mswcbd1wf23iggr7c";
+          url = "https://elpa.gnu.org/packages/tramp-2.6.0.1.tar";
+          sha256 = "1mxkl8v40wdcyvsyjayw9yj7ghn5zrnzgaapwh1prxs42scw85x8";
         };
         packageRequires = [ emacs ];
         meta = {
