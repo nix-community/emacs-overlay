@@ -265,10 +265,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.1.8";
+        version = "13.1.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.1.8.tar";
-          sha256 = "0xw5gd8y5hy9h4c6isbk044n16gkcfafi2xyrs9ibvhrncrxph46";
+          url = "https://elpa.gnu.org/packages/auctex-13.1.9.tar";
+          sha256 = "0dvf7ajfpi68823qv9vav3r1k04gc9bfq2ys3g1rhga2glxn7q9r";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -460,10 +460,10 @@
       elpaBuild {
         pname = "brief";
         ename = "brief";
-        version = "5.88.22";
+        version = "5.88.22.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/brief-5.88.22.tar";
-          sha256 = "08j6riadjcrb8j07bfn0462b1hcqiv1shwn96sxw2c2yx4zzf37l";
+          url = "https://elpa.gnu.org/packages/brief-5.88.22.1.tar";
+          sha256 = "0clfzb83vambphk393ifcqpw93cr99csldvgvf0ysvym5rzrm4wz";
         };
         packageRequires = [ cl-lib nadvice ];
         meta = {
