@@ -2788,10 +2788,10 @@
       elpaBuild {
         pname = "systemd";
         ename = "systemd";
-        version = "1.6";
+        version = "1.6.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/systemd-1.6.tar";
-          sha256 = "1khfnx2qmg1i4m6axyya0xbzr3c9j136b8pzmqdnd6jamxh43wcg";
+          url = "https://elpa.nongnu.org/nongnu/systemd-1.6.1.tar";
+          sha256 = "0h6iwdi3j2ypgcwnyjs8rdlz5f8j25cya6z4v3n2phnkqbncmgx6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3069,10 +3069,10 @@
       elpaBuild {
         pname = "wgrep";
         ename = "wgrep";
-        version = "2.3.3";
+        version = "2.3.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/wgrep-2.3.3.tar";
-          sha256 = "12w9vsawqnd0rvsahx8vdiabds8rl1zkpmspmcqn28jprbql734r";
+          url = "https://elpa.nongnu.org/nongnu/wgrep-2.3.4.tar";
+          sha256 = "1ybal5aprblcnb87j0pxzy5bdig5cypx2zbggvja6nbfsc4j1s3s";
         };
         packageRequires = [];
         meta = {
