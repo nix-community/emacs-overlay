@@ -460,10 +460,10 @@
       elpaBuild {
         pname = "brief";
         ename = "brief";
-        version = "5.88.22.1";
+        version = "5.88.22.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/brief-5.88.22.1.tar";
-          sha256 = "0clfzb83vambphk393ifcqpw93cr99csldvgvf0ysvym5rzrm4wz";
+          url = "https://elpa.gnu.org/packages/brief-5.88.22.2.tar";
+          sha256 = "1i4sdm8kcrazzp22gb4hi1gd4lfq6hdh6pnldmi1zjjyhl1gbzn3";
         };
         packageRequires = [ cl-lib nadvice ];
         meta = {
