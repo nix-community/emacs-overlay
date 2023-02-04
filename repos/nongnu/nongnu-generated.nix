@@ -49,10 +49,10 @@
       elpaBuild {
         pname = "annotate";
         ename = "annotate";
-        version = "1.8.4";
+        version = "1.8.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/annotate-1.8.4.tar";
-          sha256 = "12p90mcnj2mjprsfrkk6dvlzgazbyq9hqlrs4dxs1h239zh3srqi";
+          url = "https://elpa.nongnu.org/nongnu/annotate-1.8.5.tar";
+          sha256 = "0f5h9ymcg4n0zn3yaq1s0h5sfrq3pbcswda9875yhlcprzbrgyq7";
         };
         packageRequires = [];
         meta = {
@@ -3065,16 +3065,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    wgrep = callPackage ({ elpaBuild, fetchurl, lib }:
+    wgrep = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "wgrep";
         ename = "wgrep";
-        version = "2.3.4";
+        version = "3.0.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/wgrep-2.3.4.tar";
-          sha256 = "1ybal5aprblcnb87j0pxzy5bdig5cypx2zbggvja6nbfsc4j1s3s";
+          url = "https://elpa.nongnu.org/nongnu/wgrep-3.0.0.tar";
+          sha256 = "0vg23ydwkqrmhlll45gf2fjdxj9chx9bl9m0pgwrlkjw0ncxj3qp";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/wgrep.html";
           license = lib.licenses.free;
