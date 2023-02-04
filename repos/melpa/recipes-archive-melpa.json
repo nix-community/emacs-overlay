@@ -3276,11 +3276,11 @@
   "repo": "bastibe/annotate.el",
   "unstable": {
    "version": [
-    20221219,
-    1831
+    20230203,
+    1756
    ],
-   "commit": "d3988a476b410e0135d7345390fc88224c51fc6d",
-   "sha256": "171c57cldc49a4rscanmlycdw40pa8dwr3r2k6maqnxw9ll3bs9f"
+   "commit": "e433ec6803d773ad2fd92f88b1ffce41ee999c65",
+   "sha256": "0dr0y1arv0wjhv0rvyln7v9r0bnqb2m1mz8qqi83fgj4ald67a9n"
   },
   "stable": {
    "version": [
@@ -3694,11 +3694,11 @@
   "repo": "radian-software/apheleia",
   "unstable": {
    "version": [
-    20230127,
-    314
+    20230204,
+    7
    ],
-   "commit": "2520f14e1fadb9174e506db157df3adaedc63ed4",
-   "sha256": "1sby66jjrqg1dhw1z4ydcl2s10n0nrjkr4qlc23gzpz1j05q9s24"
+   "commit": "a74cd991a6c97b6cde13be640ed84b7918476b5e",
+   "sha256": "1g1xkkvzvh3abbpxa7y8f998q10jc31rxw25pjn6pqx1360q990a"
   },
   "stable": {
    "version": [
@@ -7474,11 +7474,11 @@
   "repo": "jwiegley/use-package",
   "unstable": {
    "version": [
-    20221209,
-    2013
+    20230203,
+    2004
    ],
-   "commit": "bcf0984cf55b70fe6896c6a15f61df92b24f8ffd",
-   "sha256": "0pmz5x7ghwsjyr4lhaqa53c7190bjqxaczljpsr62s60bn55fdsi"
+   "commit": "77945e002f11440eae72d8730d3de218163d551e",
+   "sha256": "1irr8a8r28n8c0c2x5w1flgv1f3z5jy2i5r5dknddiqa93b3rm84"
   },
   "stable": {
    "version": [
@@ -29991,11 +29991,11 @@
   "repo": "isamert/empv.el",
   "unstable": {
    "version": [
-    20230123,
-    1635
+    20230203,
+    2159
    ],
-   "commit": "b4b6270f517eba0a38ade79709e9710e306a3ea3",
-   "sha256": "0jky2y83j0w4fn5qqwa7kni2fvhxafzc0jjj4iix6xgd4r0c6p53"
+   "commit": "a45a2a01a7e629c9126b444d952fe71bcc9a262f",
+   "sha256": "04hndxiq5k3zgh0wq8xcn8dzf65fg9zjqb9gav9w53dq3l236h81"
   },
   "stable": {
    "version": [
@@ -32702,15 +32702,15 @@
   "repo": "emacs-evil/evil",
   "unstable": {
    "version": [
-    20230128,
-    2153
+    20230203,
+    1940
    ],
    "deps": [
     "cl-lib",
     "goto-chg"
    ],
-   "commit": "81b813e7ac229b0eb82d0a9adcf6e3950773b558",
-   "sha256": "0yva28rqnaqmwkgq32qhnpyg1lmp4g3gcvjbbsyvdkw0n3wzqn3g"
+   "commit": "e981c2d0a7c40e33d3de46306c13c469f845c290",
+   "sha256": "1m2nz7vgfbclcnaibljjxz1cfrrwrp9wnnicbpm4x3vx8zm92swp"
   },
   "stable": {
    "version": [
@@ -36304,15 +36304,15 @@
   "repo": "Artawower/file-info.el",
   "unstable": {
    "version": [
-    20230130,
-    2024
+    20230203,
+    2204
    ],
    "deps": [
     "browse-at-remote",
     "hydra"
    ],
-   "commit": "d598b5cf6d9cb14e83c3a406eb48d262e12b6c0d",
-   "sha256": "0hlap2an8s6qiy504vy4bgksf1dc2g9q1z6mq05349yya5kni46f"
+   "commit": "b62a4ad6c6cd90d0e53e8a461db93b7a87a166ba",
+   "sha256": "0alnc4w21j473906lh8719vvsz4s2gfzzwf9pgpbid6h6h5pmc85"
   },
   "stable": {
    "version": [
@@ -65167,11 +65167,11 @@
   "repo": "lassik/emacs-language-id",
   "unstable": {
    "version": [
-    20230128,
-    1100
+    20230203,
+    1656
    ],
-   "commit": "c1fd0fa31e196cf02f5352f026a83cfd7913f652",
-   "sha256": "08k1v6m34hxsglxx1fnbf04vw436nyypirzzcfd3nqw1n5zd72f2"
+   "commit": "11f75c047f323948dd2c07ba41e5f2264dd8785a",
+   "sha256": "016r4cj2180kjqij3yjzd9mhqixk03arr2ld4bl2zjzc06whaq4d"
   },
   "stable": {
    "version": [
@@ -69548,8 +69548,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20230131,
-    1151
+    20230203,
+    1703
    ],
    "deps": [
     "compat",
@@ -69559,8 +69559,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "679ded808d78358a6adccd9d6d78ebf173ee1c47",
-   "sha256": "0z3fi1srvf1sck65ak2ri0zzaj5gishphyarxm3d6w0xbp3yzv57"
+   "commit": "48d38df20c8c821272921e7f290e6162c57fdb3d",
+   "sha256": "1dx48x0i344sn9mxf56nh4j7d7nxx5mmmx38bj0ai7dc7zi26b1w"
   },
   "stable": {
    "version": [
@@ -112448,11 +112448,11 @@
   "repo": "topikettunen/tok-theme",
   "unstable": {
    "version": [
-    20230202,
-    1604
+    20230203,
+    1654
    ],
-   "commit": "13b38e1c0a2854112ebdcdef63d97f1663b3cc9c",
-   "sha256": "140dx44as6anrgn080v5rpkj9fphlpi6x48d48pizwhv6yiqlbb0"
+   "commit": "b096aa66a704e5c851b9285315fe931e2a8b605c",
+   "sha256": "1kd4dbl4jcaqkiiwiqs6lrkx36db8h9mfyb0hkhfvaspal0asnh3"
   }
  },
  {
@@ -115583,14 +115583,14 @@
   "repo": "jwiegley/use-package",
   "unstable": {
    "version": [
-    20221209,
-    2013
+    20230203,
+    2004
    ],
    "deps": [
     "bind-key"
    ],
-   "commit": "bcf0984cf55b70fe6896c6a15f61df92b24f8ffd",
-   "sha256": "0pmz5x7ghwsjyr4lhaqa53c7190bjqxaczljpsr62s60bn55fdsi"
+   "commit": "77945e002f11440eae72d8730d3de218163d551e",
+   "sha256": "1irr8a8r28n8c0c2x5w1flgv1f3z5jy2i5r5dknddiqa93b3rm84"
   },
   "stable": {
    "version": [
