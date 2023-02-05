@@ -16,7 +16,7 @@ let
       super.emacs
       ([
 
-        (drv: drv.override ({ srcRepo = true; } // builtins.removeAttrs args [ "noTreeSitter" ]))
+        (drv: drv.override ({ srcRepo = true; } // builtins.removeAttrs args [ "noTreeSitter" "treeSitterPlugins" ]))
 
         (
           drv: drv.overrideAttrs (
@@ -89,28 +89,7 @@ let
                      /usr/bin/codesign -s - -f $out/lib/${lib drv}
                 ''
               else ''ln -s ${drv}/parser $out/lib/${lib drv}'';
-            plugins = with self.pkgs.tree-sitter-grammars; [
-              tree-sitter-bash
-              tree-sitter-c
-              tree-sitter-c-sharp
-              tree-sitter-cmake
-              tree-sitter-cpp
-              tree-sitter-css
-              tree-sitter-dockerfile
-              tree-sitter-go
-              tree-sitter-gomod
-              tree-sitter-html
-              tree-sitter-java
-              tree-sitter-javascript
-              tree-sitter-json
-              tree-sitter-python
-              tree-sitter-ruby
-              tree-sitter-rust
-              tree-sitter-toml
-              tree-sitter-tsx
-              tree-sitter-typescript
-              tree-sitter-yaml
-            ];
+            plugins = args.treeSitterPlugins;
             tree-sitter-grammars = super.runCommandCC "tree-sitter-grammars" {}
               (super.lib.concatStringsSep "\n" (["mkdir -p $out/lib"] ++ (map linkCmd plugins)));
           in {
@@ -126,9 +105,31 @@ let
         )
       )));
 
-  emacsGit = mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json { withSQLite3 = true; withWebP = true; };
+  defaultTreeSitterPlugins = with self.pkgs.tree-sitter-grammars; [
+    tree-sitter-bash
+    tree-sitter-c
+    tree-sitter-c-sharp
+    tree-sitter-cmake
+    tree-sitter-cpp
+    tree-sitter-css
+    tree-sitter-dockerfile
+    tree-sitter-go
+    tree-sitter-gomod
+    tree-sitter-java
+    tree-sitter-javascript
+    tree-sitter-json
+    tree-sitter-python
+    tree-sitter-ruby
+    tree-sitter-rust
+    tree-sitter-toml
+    tree-sitter-tsx
+    tree-sitter-typescript
+    tree-sitter-yaml
+  ];
 
-  emacsPgtk = mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json { withSQLite3 = true; withWebP = true; withPgtk = true; };
+  emacsGit = super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; treeSitterPlugins = defaultTreeSitterPlugins; };
+
+  emacsPgtk = super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; treeSitterPlugins = defaultTreeSitterPlugins; };
 
   emacsUnstable = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json { noTreeSitter = true; });
 
