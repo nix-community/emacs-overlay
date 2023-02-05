@@ -3731,10 +3731,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.33";
+        version = "0.4.34";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.33.tar";
-          sha256 = "1x06zj8njnqzrmdx3sfjwziy4sc2bnakgv2qnjsiiw5nf23npd01";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.34.tar";
+          sha256 = "1dr29by4vwyivg3w3jmpfn4s568dh98gyng656ilzs0hxjdr9b9z";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5689,10 +5689,10 @@
       elpaBuild {
         pname = "xeft";
         ename = "xeft";
-        version = "3.2";
+        version = "3.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xeft-3.2.tar";
-          sha256 = "14mcmcla3rqq30vr214s1641iqfbayhyvs2ca34x817x7kynibi3";
+          url = "https://elpa.gnu.org/packages/xeft-3.3.tar";
+          sha256 = "1jzas6qy0s686s0ghdrgcz2bfyp32s70qvkqw00sm3mm3jypiplm";
         };
         packageRequires = [ emacs ];
         meta = {
