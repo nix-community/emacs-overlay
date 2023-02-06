@@ -2367,10 +2367,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.16";
+        version = "0.18";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.16.tar";
-          sha256 = "0mqx0irj0l6c89pwhpfxh5m2g14xy2r5abnpqrwwmklp3ywiwwhc";
+          url = "https://elpa.gnu.org/packages/inspector-0.18.tar";
+          sha256 = "1cgmgf8wvl7qrfyl6ksm8ggm1s0c8wb3vxf2a3rm8gr3j4gld1xh";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3521,10 +3521,10 @@
       elpaBuild {
         pname = "org-transclusion";
         ename = "org-transclusion";
-        version = "1.3.1";
+        version = "1.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-transclusion-1.3.1.tar";
-          sha256 = "1v7i2i28500p4gvikcpp931qpks9zmvfpf6lfzrqdqppx2ix295q";
+          url = "https://elpa.gnu.org/packages/org-transclusion-1.3.2.tar";
+          sha256 = "02r48jzr5zivk11c3c3a9vj1cixfgf1wlmv1kjr5bxldayhg7aqb";
         };
         packageRequires = [ emacs org ];
         meta = {
