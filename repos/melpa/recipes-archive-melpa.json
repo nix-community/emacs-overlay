@@ -16650,14 +16650,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20230206,
-    2007
+    20230207,
+    433
    ],
    "deps": [
     "compat"
    ],
-   "commit": "977794acd3baa601e5bfa40e344dd9656455814e",
-   "sha256": "0qjriz5cgxnw8wbgn31cvy9l4h2pgmi8ij06i4jp7jyjawxykf6s"
+   "commit": "271697b453a7bed814ecb62eef495e0ad0ab3913",
+   "sha256": "0pzmwcz983xyy8zcgs7n4awdphnfn2hpqfb3rfd4h2bjvmdawqz5"
   },
   "stable": {
    "version": [
@@ -27989,11 +27989,11 @@
   "repo": "ideasman42/emacs-elisp-autofmt",
   "unstable": {
    "version": [
-    20230205,
-    435
+    20230207,
+    153
    ],
-   "commit": "e2f016cb76b0a10fde43c12561eefbb846f16f88",
-   "sha256": "16qpam74v6iypcsy7zj77bfm13g9cvzf70yg56nqd3v0sk7wafnn"
+   "commit": "e431112e7b52a3e0fd46e84d27c0dd608f4d75e4",
+   "sha256": "16xpcwh0nqhayzr1sspr11y545lw5x2r0zlpq79zvkzwxdzx4f17"
   }
  },
  {
@@ -65179,11 +65179,11 @@
   "repo": "mhayashi1120/Emacs-langtool",
   "unstable": {
    "version": [
-    20230131,
-    312
+    20230207,
+    317
    ],
-   "commit": "3f391b55b8e7cde00fe82b54e2cca6ff883bb203",
-   "sha256": "18g3glwizf6jnclf8gps781ddfxvd73gypbi5ihah0q2fr22dmg0"
+   "commit": "02f55e8d8be83a6f9465ec49c2a6728b16ae80d3",
+   "sha256": "0yzav8sq3ba36nb6cl59ajyyxq3h9z5i9a265nfsgmdaxmivn1vd"
   },
   "stable": {
    "version": [
@@ -65221,15 +65221,15 @@
   "repo": "mhayashi1120/Emacs-langtool",
   "unstable": {
    "version": [
-    20230206,
-    859
+    20230207,
+    319
    ],
    "deps": [
     "langtool",
     "popup"
    ],
-   "commit": "e0666f000c11571f96582f0a1dd75d6e29e74703",
-   "sha256": "1jjiq22wn7npgzmszy3hpi8a1wqij4s74p73vqav7c15w1a8pfrm"
+   "commit": "25b23a2dc592cdfe498740af87d975f7ef23a854",
+   "sha256": "0hbvkynasz54scd1avsskxav9nlb3z571wrmz2z10kyx3z6rnr9a"
   },
   "stable": {
    "version": [
@@ -72126,11 +72126,11 @@
   "repo": "meow-edit/meow",
   "unstable": {
    "version": [
-    20221216,
-    42
+    20230207,
+    234
    ],
-   "commit": "46cf7cc9e8447fe9219675903fbd1a547bb21ce4",
-   "sha256": "0mqc93741p2djjdrdn9rr4qcf5ih28g3aiv6g4nnk8vi2sm8ysc5"
+   "commit": "1994d6b614e31dc226a24ec872e9c8d982cb7418",
+   "sha256": "1gkbgv555yk97i42lyncyx0n1i16gxd90b4lpyxh1s11n85jx8zs"
   },
   "stable": {
    "version": [
@@ -94611,20 +94611,20 @@
   "url": "https://git.ookami.one/cgit/protobuf-ts-mode",
   "unstable": {
    "version": [
-    20230118,
-    1430
+    20230207,
+    341
    ],
-   "commit": "b65dc2379915fc846ff2578be5b652081bea193b",
-   "sha256": "07ssvplifg6dlh2grvlkq139dd2i3mclhmi7zx6n8fg1k4yldh36"
+   "commit": "3076f25bd5ce05f4a4a5840506c3a5a2c0e839d9",
+   "sha256": "04zqi7anmwzrsgg5clbvilbmi7hg0m29gyr4cym871q73xgi2vmr"
   },
   "stable": {
    "version": [
     1,
     0,
-    0
+    1
    ],
-   "commit": "af786346920567ee709196cd7ca7fed49817b4cf",
-   "sha256": "00c7a73nkj03n4dj4vqxwcchj2gbgkq0pjvjgdgwm03h3d60fq3g"
+   "commit": "3076f25bd5ce05f4a4a5840506c3a5a2c0e839d9",
+   "sha256": "04zqi7anmwzrsgg5clbvilbmi7hg0m29gyr4cym871q73xgi2vmr"
   }
  },
  {
@@ -103139,28 +103139,28 @@
   "repo": "mhayashi1120/Emacs-shelldoc",
   "unstable": {
    "version": [
-    20200513,
-    1206
+    20230207,
+    250
    ],
    "deps": [
     "cl-lib",
     "s"
    ],
-   "commit": "fa69f67b6229fad3f31d936955ca8d1982009b77",
-   "sha256": "0ma5j74vkwax9ha945dcgbmf3r4gajj4nvl63pbfyvxvy6svn84r"
+   "commit": "178d78d08e94b273b23ab1a32c5be509fdfe2286",
+   "sha256": "1dqdh2rd0v136ckj4wp00g3gsq0lrzicwl1c60xacy548amdxq07"
   },
   "stable": {
    "version": [
     0,
-    0,
-    5
+    2,
+    0
    ],
    "deps": [
     "cl-lib",
     "s"
    ],
-   "commit": "1d40c73969347586906ca1dde2adb50afcd73b1b",
-   "sha256": "1nli26llyfkj1cz2dwn18c5pz1pnpz3866hapfibvdmwrg4z6cax"
+   "commit": "178d78d08e94b273b23ab1a32c5be509fdfe2286",
+   "sha256": "1dqdh2rd0v136ckj4wp00g3gsq0lrzicwl1c60xacy548amdxq07"
   }
  },
  {
