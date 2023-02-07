@@ -787,10 +787,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.31";
+        version = "0.32";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-0.31.tar";
-          sha256 = "0xpid0nmn3p2xys5jyky0nf6fdgmxyp953db06g36ydw90ryqxw7";
+          url = "https://elpa.gnu.org/packages/consult-0.32.tar";
+          sha256 = "1cbdy4ybc4l6wjqa41zqz66yh6kv2sfnkxaspzaghpjy99ykyagb";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4831,10 +4831,10 @@
       elpaBuild {
         pname = "sxhkdrc-mode";
         ename = "sxhkdrc-mode";
-        version = "0.1.4";
+        version = "0.1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sxhkdrc-mode-0.1.4.tar";
-          sha256 = "0yyshp0d25liya91n7favlkapd82fdgn09fyyk2gz9hp8gjnb3m0";
+          url = "https://elpa.gnu.org/packages/sxhkdrc-mode-0.1.5.tar";
+          sha256 = "0jai4f3fhyrxp1mfz114yn1dzjkx3sq1yjiaaf2khhz2lj2b3nj0";
         };
         packageRequires = [ emacs ];
         meta = {
