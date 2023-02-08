@@ -768,16 +768,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    compat = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    compat = callPackage ({ elpaBuild, emacs, fetchurl, lib, seq }:
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.3.2";
+        version = "29.1.3.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/compat-29.1.3.2.tar";
-          sha256 = "0lzfqiimfpd22bv0pw3j6lgbd7ni1mah24jddwx96sf65s39f9hz";
+          url = "https://elpa.gnu.org/packages/compat-29.1.3.3.tar";
+          sha256 = "0jzdax1pi068bd9ly2svwyigk6x46gwj27lgdipjkx6jnx4323nw";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ emacs seq ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/compat.html";
           license = lib.licenses.free;
