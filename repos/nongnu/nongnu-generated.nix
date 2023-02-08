@@ -1513,10 +1513,10 @@
       elpaBuild {
         pname = "idle-highlight-mode";
         ename = "idle-highlight-mode";
-        version = "1.1.3";
+        version = "1.1.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/idle-highlight-mode-1.1.3.tar";
-          sha256 = "05w2rqc71h1f13ysdfjma90s35kj5d5i2szcw54cqyky8rymx5dp";
+          url = "https://elpa.nongnu.org/nongnu/idle-highlight-mode-1.1.4.tar";
+          sha256 = "1j7y03b90gf3pl0xbfirm973k31l7nx90is69m3jrfai2f9qnflr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3182,10 +3182,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "22.8.20230127142338";
+        version = "22.9.20230207171612";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-22.8.20230127142338.tar";
-          sha256 = "08kibzgxa9b5v6x2gfc2jgkbcai3p6wrh6mjrinb06fcqd5sfjlc";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-22.9.20230207171612.tar";
+          sha256 = "0m633k8rx2k3gwbh3hndkmn3k804pg7j7xmqw6yf8j2a2ym4893b";
         };
         packageRequires = [ emacs ];
         meta = {
