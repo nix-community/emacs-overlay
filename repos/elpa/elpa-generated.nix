@@ -2367,10 +2367,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.18";
+        version = "0.19";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.18.tar";
-          sha256 = "1cgmgf8wvl7qrfyl6ksm8ggm1s0c8wb3vxf2a3rm8gr3j4gld1xh";
+          url = "https://elpa.gnu.org/packages/inspector-0.19.tar";
+          sha256 = "0bkj9l09aaa2b2qxnjj8nzak363snx59plgbcrbnn09cb59cp6zy";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3731,10 +3731,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.35";
+        version = "0.4.36";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.35.tar";
-          sha256 = "15wpzrqyxy5xdqzyya102zs361wj69wfdmvxdx5xxykpp2vj3h1j";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.36.tar";
+          sha256 = "1d2mwyk1rvm04l4pwmc71pkywpxwykfrnzjddajzwg6ncynawh0i";
         };
         packageRequires = [ emacs ];
         meta = {
