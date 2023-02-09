@@ -40,10 +40,10 @@
       elpaBuild {
         pname = "ada-mode";
         ename = "ada-mode";
-        version = "8.0.4";
+        version = "8.0.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ada-mode-8.0.4.tar";
-          sha256 = "0n7nimy73ynq77g23p7dk7w6hmpcsp6vxxc6vi323qvl5334n183";
+          url = "https://elpa.gnu.org/packages/ada-mode-8.0.5.tar";
+          sha256 = "00baypl9bv2z42d6z2k531ai25yw2aj1dcv4pi1jhcp19c9kjg4l";
         };
         packageRequires = [ emacs gnat-compiler uniquify-files wisi ];
         meta = {
@@ -952,10 +952,10 @@
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.21";
+        version = "1.22";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/csv-mode-1.21.tar";
-          sha256 = "11f01lyz6i133njigg53r890cic8y13kz7dswc8mj7m60a316dmv";
+          url = "https://elpa.gnu.org/packages/csv-mode-1.22.tar";
+          sha256 = "1f9pny1hkhdfmkmfpsk6ayjmb9p5hdpxpnmcprf51nfbvmi7ssig";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3731,10 +3731,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.36";
+        version = "0.4.37";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.36.tar";
-          sha256 = "1d2mwyk1rvm04l4pwmc71pkywpxwykfrnzjddajzwg6ncynawh0i";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.37.tar";
+          sha256 = "1q504xm66qjyq7vm9si5jqpyjqsy7izvmvb2001k1c084b0ygznr";
         };
         packageRequires = [ emacs ];
         meta = {
