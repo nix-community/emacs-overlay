@@ -605,10 +605,10 @@
       elpaBuild {
         pname = "eat";
         ename = "eat";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/eat-0.5.tar";
-          sha256 = "0hwk262nh3l0v493n6v874h97sm6pv4g1w3bgvwzqrln2x0yfr23";
+          url = "https://elpa.nongnu.org/nongnu/eat-0.6.tar";
+          sha256 = "14174hra9x3l98nrpg0x9g499lwhlxr8qg51zdrlyky0k4v0x3iw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -944,10 +944,10 @@
       elpaBuild {
         pname = "flymake-popon";
         ename = "flymake-popon";
-        version = "0.5";
+        version = "0.5.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/flymake-popon-0.5.tar";
-          sha256 = "1q1adxsrx8sjw6pffwxvk0yrgbz0rbrzi1g7g7zq5952vnz4dnn0";
+          url = "https://elpa.nongnu.org/nongnu/flymake-popon-0.5.1.tar";
+          sha256 = "0vk20affwb7qcg7nm6n2ssrrgljisqn45a8jagrf947l2kgaccvd";
         };
         packageRequires = [ emacs flymake popon posframe ];
         meta = {
