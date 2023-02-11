@@ -31,6 +31,11 @@
 
       in
       {
+        lib =
+          let
+            nonDrvAttrs = builtins.filter (n: !lib.isDerivation pkgs.${n}) overlayAttrs;
+          in
+          lib.listToAttrs (map (n: lib.nameValuePair n pkgs.${n}) nonDrvAttrs);
         packages =
           let
             drvAttrs = builtins.filter (n: lib.isDerivation pkgs.${n}) overlayAttrs;
