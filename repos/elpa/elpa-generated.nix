@@ -1848,10 +1848,10 @@
       elpaBuild {
         pname = "fontaine";
         ename = "fontaine";
-        version = "0.4.1";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/fontaine-0.4.1.tar";
-          sha256 = "0szj9ys7bkj6cwg2bmb7sniyzjzdy3f7qm9r90grrgs5iir3k2qa";
+          url = "https://elpa.gnu.org/packages/fontaine-1.0.0.tar";
+          sha256 = "1p34d84z87s2zsfxdc18bjpif21fdixfzv2k4b9g4i0pcr94nc4v";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2367,10 +2367,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.19";
+        version = "0.20";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.19.tar";
-          sha256 = "0bkj9l09aaa2b2qxnjj8nzak363snx59plgbcrbnn09cb59cp6zy";
+          url = "https://elpa.gnu.org/packages/inspector-0.20.tar";
+          sha256 = "1640zpxjylzcafr4957j7nxspqwmfwliac300lf7j5xsmchlwmgm";
         };
         packageRequires = [ emacs ];
         meta = {
