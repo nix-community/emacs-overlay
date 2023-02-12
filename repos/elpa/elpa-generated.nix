@@ -772,10 +772,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.3.3";
+        version = "29.1.3.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/compat-29.1.3.3.tar";
-          sha256 = "0jzdax1pi068bd9ly2svwyigk6x46gwj27lgdipjkx6jnx4323nw";
+          url = "https://elpa.gnu.org/packages/compat-29.1.3.4.tar";
+          sha256 = "16j7b18iwsdynb2w4x2hficz0g060r52lsg5ly9kb20zfrq2yvw0";
         };
         packageRequires = [ emacs seq ];
         meta = {
