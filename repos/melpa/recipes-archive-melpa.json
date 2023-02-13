@@ -10329,11 +10329,11 @@
   "repo": "ayrat555/cargo-mode",
   "unstable": {
    "version": [
-    20230211,
-    456
+    20230213,
+    401
    ],
-   "commit": "431e0bef23dc21825b68f6a1f51d6be5a9f41302",
-   "sha256": "1fa35lyijrj9jkzf5yr5miws1s404a48w7j1vdij68y9wb41blgw"
+   "commit": "6e128f08692aae5723122e039e8871a57141e868",
+   "sha256": "044bc09bmkzzrrd24niwsz5cr52kg3wbhs7qfmxmypyqzzdj3kcd"
   }
  },
  {
@@ -26558,15 +26558,15 @@
   "repo": "yveszoundi/eglot-java",
   "unstable": {
    "version": [
-    20230211,
-    2128
+    20230213,
+    218
    ],
    "deps": [
     "eglot",
     "jsonrpc"
    ],
-   "commit": "4b8734f6fdf5f4d68803ed6cc2e4c82efe74e6bd",
-   "sha256": "1nv91ayb4zacgbhr5zgswkpijzffcf47gbzp0mkiawdpkfsxa6z3"
+   "commit": "ff0f9515d78f94b8dfe158bf9a2c4f52216504c0",
+   "sha256": "1m64ddix0h4s22mfbagwkn0q69ck12hvzzpmdr134k7k8ryals6c"
   }
  },
  {
@@ -36277,9 +36277,20 @@
   "ename": "ffmpeg-utils",
   "commit": "b96e8296708e27ec51b5a084a924bdb86d07ae5d",
   "sha256": "1b58yf8q8sflsyxxjklxarb5xs337577h01kv03hgap1s4cxwm84",
-  "error": "Not in archive",
   "fetcher": "git",
-  "url": "https://repo.or.cz/ffmpeg-utils.git"
+  "url": "https://repo.or.cz/ffmpeg-utils.git",
+  "unstable": {
+   "version": [
+    20230212,
+    55
+   ],
+   "deps": [
+    "alert",
+    "transient"
+   ],
+   "commit": "7ae311d235514b7b5bf12dc2c214856856c2c411",
+   "sha256": "002f7s6dncmlzv40v2ngp7165fkxyb1rc5malfx57jf4y5cs9vp6"
+  }
  },
  {
   "ename": "fic-mode",
@@ -72142,11 +72153,11 @@
   "repo": "meow-edit/meow",
   "unstable": {
    "version": [
-    20230207,
-    234
+    20230213,
+    200
    ],
-   "commit": "1994d6b614e31dc226a24ec872e9c8d982cb7418",
-   "sha256": "1gkbgv555yk97i42lyncyx0n1i16gxd90b4lpyxh1s11n85jx8zs"
+   "commit": "1e69067c1647ea634c87c021c5acf4a81152f4b2",
+   "sha256": "125g3ya4n7whj88ja80gl8pfg3zwnkbmizkxyvs1hfwla1xr559p"
   },
   "stable": {
    "version": [
@@ -72260,14 +72271,14 @@
   "repo": "Khady/merlin-eldoc",
   "unstable": {
    "version": [
-    20190830,
-    517
+    20230213,
+    555
    ],
    "deps": [
     "merlin"
    ],
-   "commit": "db7fab1eddfe34781b7e79694f8923b285698032",
-   "sha256": "1c13cgmi8z69b5imd9zlagfgrsdl3qv73n24wgc4ih99w1c7sc08"
+   "commit": "bf8edc63d85b35e4def352fa7ce4ea39f43e1fd8",
+   "sha256": "01k9hnhv9wbshwkrhzmy1d6dw1dps0amjpdcjhzyzz3d97kwnjws"
   },
   "stable": {
    "version": [
@@ -107020,11 +107031,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20230211,
-    110
+    20230213,
+    117
    ],
-   "commit": "eaad16c192ec22e36daa5c8e34f888d5a6ecf4b1",
-   "sha256": "1bi72p3vry9zrssd85sbax2szx5snffx61nv8sb7a188m2nhsavr"
+   "commit": "d0987bbd3566b31d4c750da3ee5b30b376561780",
+   "sha256": "18jlbvqc4pn43nlfm785z5alz66ab6y6zkzjxlmnydpbjxmlkrvy"
   }
  },
  {
@@ -111895,11 +111906,11 @@
    "version": [
     2023,
     2,
-    6,
+    13,
     0
    ],
-   "commit": "ffe39d66d518f5cedb76133e15e48b2d4b446281",
-   "sha256": "07gi77bknvl961c5l7m8mqni43zlxgs2paqaw8b5br6g6x5d93qp"
+   "commit": "399e2f7bdc7fb68cccaa45a4c94b50bc1d15f198",
+   "sha256": "0y0vkni9n8kvlk11pxv5kl1hnjgpb41skigm0l5kzjn6479bwwxp"
   }
  },
  {
