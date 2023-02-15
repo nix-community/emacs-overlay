@@ -2762,10 +2762,10 @@
       elpaBuild {
         pname = "load-relative";
         ename = "load-relative";
-        version = "1.3.1";
+        version = "1.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/load-relative-1.3.1.el";
-          sha256 = "1m37scr82lqqy954fchjxrmdh4lngrl4d1yzxhp3yfjhsydizhrj";
+          url = "https://elpa.gnu.org/packages/load-relative-1.3.2.tar";
+          sha256 = "1fwa51jp0sq5l69y98l2zyj0iq9s6rj1rnqrmvncif61smma8fd7";
         };
         packageRequires = [];
         meta = {
@@ -3731,10 +3731,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.38";
+        version = "0.4.39";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.38.tar";
-          sha256 = "0vdwdp96lspgzvl7hfs13v9qcjlf7sdpy8jxa3a3jrnnxc1177zs";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.39.tar";
+          sha256 = "0wixalji4c4hjqb41n1yvxfy3qfl2ipfsjawbgk9wdwb7jkhjr1i";
         };
         packageRequires = [ emacs ];
         meta = {
