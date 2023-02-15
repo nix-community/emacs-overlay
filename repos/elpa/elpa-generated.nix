@@ -520,16 +520,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    cape = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    cape = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.12";
+        version = "0.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cape-0.12.tar";
-          sha256 = "1sj3kvi69ivbypwsg3d7qgx5q4qvv9p2a81qdwj87f9bxilq375i";
+          url = "https://elpa.gnu.org/packages/cape-0.13.tar";
+          sha256 = "1rd4ja5dlg9jnh75h24a475cfn8v6icxljya190yfp44vwl5q9v0";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/cape.html";
           license = lib.licenses.free;
@@ -3461,10 +3461,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-modern-0.7.tar";
-          sha256 = "14dd26avxbnv4pfvf1a971k229px0iczvniqcnsj3kcck0347a2l";
+          url = "https://elpa.gnu.org/packages/org-modern-0.8.tar";
+          sha256 = "0j9ilivy6iyqmml4sxy88c99vpg3v00pglb62lpxc4sywia06dzf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3577,16 +3577,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    osm = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    osm = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.9";
+        version = "0.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/osm-0.9.tar";
-          sha256 = "1rz2aag34vc6afxh3mkqmq94dpyxx3gdx5i2fvzwbwivk9dms5k9";
+          url = "https://elpa.gnu.org/packages/osm-0.10.tar";
+          sha256 = "1lpbc98ais0wrrpj9cmra3ha8jnja4d3pqzw1kdml91drhqifpmw";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/osm.html";
           license = lib.licenses.free;
@@ -4922,16 +4922,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    tempel = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    tempel = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tempel-0.6.tar";
-          sha256 = "1qnhpdpdzm20ss7p29i5wqydcfswxaq1xbcimz695z3pbm3z37my";
+          url = "https://elpa.gnu.org/packages/tempel-0.7.tar";
+          sha256 = "05yhsrricaxlz67w1j0s1gbzpbsw4iqryfvks25v25pm95xrr7c4";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/tempel.html";
           license = lib.licenses.free;
