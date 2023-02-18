@@ -828,16 +828,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    corfu = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    corfu = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.34";
+        version = "0.35";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.34.tar";
-          sha256 = "0d9n5dfwjgd1a57fa5mfdapg88i6wdzkr77g14wv3fdikj7nk417";
+          url = "https://elpa.gnu.org/packages/corfu-0.35.tar";
+          sha256 = "0h5l4q77i2agnr5rcy0121pvs4yx4q84n2yf7fysd859g4gsm2vs";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/corfu.html";
           license = lib.licenses.free;
@@ -2863,16 +2863,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    marginalia = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    marginalia = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/marginalia-1.0.tar";
-          sha256 = "1y1901d3b28rigszp9nizhh2sk63ghg7mi36i5ibagx0vfsvww8m";
+          url = "https://elpa.gnu.org/packages/marginalia-1.1.tar";
+          sha256 = "1pldbgsjs9xsrp3y9rp8yz8p67xbhb3gy80sv5q215f6mwhphjqm";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/marginalia.html";
           license = lib.licenses.free;
@@ -5387,16 +5387,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    vertico = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    vertico = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-1.0.tar";
-          sha256 = "1sxrdn3xwmmpvxz7gmn653ngll5fi5zdy2s6pfxxnr42l8x8fh7h";
+          url = "https://elpa.gnu.org/packages/vertico-1.1.tar";
+          sha256 = "0v5hpaysh7m7v2g77dyzy4hhnnv9v3wvpyfz6zi318sw96vmabhm";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/vertico.html";
           license = lib.licenses.free;
