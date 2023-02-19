@@ -1255,10 +1255,10 @@
       elpaBuild {
         pname = "gnuplot";
         ename = "gnuplot";
-        version = "0.8.0";
+        version = "0.8.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/gnuplot-0.8.0.tar";
-          sha256 = "1f27y18ivcdwlkgr3ql4qcbgzdp6vk1bkw2wlryrclpydbb1nya3";
+          url = "https://elpa.nongnu.org/nongnu/gnuplot-0.8.1.tar";
+          sha256 = "015b8ly4wmz03bcysbwy4d63r42sicwqa0j2j4aiis1kpy4lj3xw";
         };
         packageRequires = [ emacs ];
         meta = {
