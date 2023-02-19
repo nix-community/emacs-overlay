@@ -2397,10 +2397,10 @@
       elpaBuild {
         pname = "isearch-mb";
         ename = "isearch-mb";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/isearch-mb-0.6.tar";
-          sha256 = "1rbslnnwsikpnb07jhzyk0f83z8i581834hsq3i7gnz3a99wpkx7";
+          url = "https://elpa.gnu.org/packages/isearch-mb-0.7.tar";
+          sha256 = "1dfjh4ya9515vx0q2dv1brddw350gxd40h1g1vsa783ivvm0hm75";
         };
         packageRequires = [ emacs ];
         meta = {
