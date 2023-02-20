@@ -3836,10 +3836,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.9.7";
+        version = "0.9.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/project-0.9.7.tar";
-          sha256 = "0lj21hdf0jviwq71bnzy5ffzw23p2slpcgy89chc1fn8gx0flhak";
+          url = "https://elpa.gnu.org/packages/project-0.9.8.tar";
+          sha256 = "0i1q9blvpj3bygjh98gv0kqn2rm01b8lqp9vra82sy3hzzj39pyx";
         };
         packageRequires = [ emacs xref ];
         meta = {
