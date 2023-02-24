@@ -366,6 +366,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    beframe = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "beframe";
+        ename = "beframe";
+        version = "0.1.3";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/beframe-0.1.3.tar";
+          sha256 = "1i36m7ci8y5drjsbmad16rkizn2wx1grppw1y2b7iws5j511sbma";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/beframe.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     bind-key = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "bind-key";
@@ -3731,10 +3746,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.39";
+        version = "0.4.40";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.39.tar";
-          sha256 = "0wixalji4c4hjqb41n1yvxfy3qfl2ipfsjawbgk9wdwb7jkhjr1i";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.40.tar";
+          sha256 = "1r4drrg5rlpip7w7d484ivkwxln4c2nfij8ggk0v0yd5ixmakbqv";
         };
         packageRequires = [ emacs ];
         meta = {
