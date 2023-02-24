@@ -370,10 +370,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "0.1.3";
+        version = "0.1.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/beframe-0.1.3.tar";
-          sha256 = "1i36m7ci8y5drjsbmad16rkizn2wx1grppw1y2b7iws5j511sbma";
+          url = "https://elpa.gnu.org/packages/beframe-0.1.7.tar";
+          sha256 = "0f12gb193s48lxj86v6ia7rwsb9rl01jlmy95vm7jpnp5m5b4y5j";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3746,10 +3746,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.40";
+        version = "0.4.41";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.40.tar";
-          sha256 = "1r4drrg5rlpip7w7d484ivkwxln4c2nfij8ggk0v0yd5ixmakbqv";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.41.tar";
+          sha256 = "0pbfy7fm5mhs6k2vwxjg8zr205drnmd5qvzqwghj9f26a3p0j74h";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4911,10 +4911,10 @@
       elpaBuild {
         pname = "taxy-magit-section";
         ename = "taxy-magit-section";
-        version = "0.12.1";
+        version = "0.12.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/taxy-magit-section-0.12.1.tar";
-          sha256 = "0bs00y8pl51dji23zx5w64h6la0y109q0jv2q1nggizk6q5bsxmg";
+          url = "https://elpa.gnu.org/packages/taxy-magit-section-0.12.2.tar";
+          sha256 = "1pf83zz5ibhqqlqgcxig0dsl1rnkk5r6v16s5ngvbc37q40vkwn1";
         };
         packageRequires = [ emacs magit-section taxy ];
         meta = {
