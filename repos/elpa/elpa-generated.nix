@@ -370,10 +370,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "0.1.7";
+        version = "0.1.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/beframe-0.1.7.tar";
-          sha256 = "0f12gb193s48lxj86v6ia7rwsb9rl01jlmy95vm7jpnp5m5b4y5j";
+          url = "https://elpa.gnu.org/packages/beframe-0.1.8.tar";
+          sha256 = "05rryq2ivj8p4dm6slwpgbv491pqzs1dbblqy2gv48qkhqda4r6p";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5050,10 +5050,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.0.1";
+        version = "2.6.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.6.0.1.tar";
-          sha256 = "1mxkl8v40wdcyvsyjayw9yj7ghn5zrnzgaapwh1prxs42scw85x8";
+          url = "https://elpa.gnu.org/packages/tramp-2.6.0.2.tar";
+          sha256 = "0pfrsgci1rqrykkfyxm9wsn7f0l3rzc2vj1fas27w925l0k0lrci";
         };
         packageRequires = [ emacs ];
         meta = {
