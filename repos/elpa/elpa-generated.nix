@@ -4437,10 +4437,10 @@
       elpaBuild {
         pname = "shell-command-plus";
         ename = "shell-command+";
-        version = "2.4.1";
+        version = "2.4.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/shell-command+-2.4.1.tar";
-          sha256 = "1pbv5g58647gq83vn5pg8c6kjhvjn3lj0wggz3iz3695yvl8aw4i";
+          url = "https://elpa.gnu.org/packages/shell-command+-2.4.2.tar";
+          sha256 = "1ldvil6hjs8c7wpdwx0jwaar867dil5qh6vy2k27i1alffr9nnqm";
         };
         packageRequires = [ emacs ];
         meta = {
