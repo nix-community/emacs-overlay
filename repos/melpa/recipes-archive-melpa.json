@@ -6924,11 +6924,11 @@
   "stable": {
    "version": [
     2,
-    3,
+    4,
     0
    ],
-   "commit": "62c75804ba7d74f4c01c0629722c061c11bed393",
-   "sha256": "17r8v1sjvgcmprywny9fdg54x4pssp8p7a9ivv5mrygkqjz1vykk"
+   "commit": "61f1eb22718fcd9796b47a98702d161ff323a532",
+   "sha256": "0a5nr3zwcb36nw4j7xzknvd14gxp52ilgs07hddcjjyxmhrrfmav"
   }
  },
  {
@@ -24127,15 +24127,15 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20230228,
-    656
+    20230303,
+    655
    ],
    "deps": [
     "compat",
     "shrink-path"
    ],
-   "commit": "5a927b8c2b0c1976f097edeb7d037888f1f874cc",
-   "sha256": "0nwxkjblz8gwmzjmlnyxxrnd4rxwl2cf4gcgdgb943qhf9z31w1c"
+   "commit": "b9fe01ce1e4276708698de8891cec8e8e43dfb7b",
+   "sha256": "0i1j5f7zg02w8cy4hkjvq1w1c6yqv8idiwng2hamq1diwvhwgflm"
   },
   "stable": {
    "version": [
@@ -27292,11 +27292,11 @@
   "repo": "Mstrodl/elcord",
   "unstable": {
    "version": [
-    20230203,
-    101
+    20230303,
+    457
    ],
-   "commit": "43ae6c375811754e640b0bae4678bf33e72988e9",
-   "sha256": "03ljcpy7bf08l0zdrq27h2h2mf92rwc8yv26w8bl4gam83ypkk1c"
+   "commit": "e97283f8cdc3ca16a0179a14c78f1ba6e93cef80",
+   "sha256": "1pknwkvf7bvcmy048bpybyrgf1mnw3575mphycjn6r8x9glj073y"
   }
  },
  {
@@ -64589,10 +64589,10 @@
   "unstable": {
    "version": [
     20230303,
-    200
+    633
    ],
-   "commit": "cb34d079488d0bc21df482fb77cda846cf3b8326",
-   "sha256": "17682lidq6s0792w20qhh6n1x4lq5z0syikaflpshm6bsk91cizy"
+   "commit": "c668be3d7971f412850c11ff25c95012230db4ff",
+   "sha256": "07srbfr3w62rahk09wnkwbi2xjl6hqwnnws1sd61nxjwpxbfj02b"
   }
  },
  {
@@ -94865,14 +94865,10 @@
   "unstable": {
    "version": [
     20230303,
-    313
+    706
    ],
-   "commit": "586331c68482c7e7eacbed987cb541780df3ada1",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /run/user/1001/git-checkout-tmp-4r90QXxf/proxy-mode-586331c/.git/\nerror: Server does not allow request for unadvertised object 586331c68482c7e7eacbed987cb541780df3ada1\nFrom https://repo.or.cz/proxy-mode\n * [new branch]      master     -> origin/master\nfatal: git cat-file: could not get object info\nUnrecognized git object type: \nUnable to checkout 586331c68482c7e7eacbed987cb541780df3ada1 from https://repo.or.cz/proxy-mode.git.\n"
-   ]
+   "commit": "eca6f0b8a17fcf9eb961ed0426f57a5b7ca4e1f6",
+   "sha256": "0mmlkci81m116gvak6z7pi8yskbl62209y3h7h3lfjb30jx77zww"
   }
  },
  {
