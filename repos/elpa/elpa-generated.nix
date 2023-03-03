@@ -370,10 +370,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "0.1.8";
+        version = "0.1.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/beframe-0.1.8.tar";
-          sha256 = "05rryq2ivj8p4dm6slwpgbv491pqzs1dbblqy2gv48qkhqda4r6p";
+          url = "https://elpa.gnu.org/packages/beframe-0.1.11.tar";
+          sha256 = "1r5wlg2xaih197fi3jk0qmnhpy7mc6xrwraxfnygsjwr63dxhnq2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2627,10 +2627,10 @@
       elpaBuild {
         pname = "kind-icon";
         ename = "kind-icon";
-        version = "0.1.9";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/kind-icon-0.1.9.tar";
-          sha256 = "0phssrcpmcidzlwy1577f3f02qwjs6hpavb416302y0n8kkhwvli";
+          url = "https://elpa.gnu.org/packages/kind-icon-0.2.0.tar";
+          sha256 = "1vgwbd99vx793iy04albkxl24c7vq598s7bg0raqwmgx84abww6r";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
@@ -5155,10 +5155,10 @@
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.2.5";
+        version = "0.2.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/triples-0.2.5.tar";
-          sha256 = "1a8wmvgmgla43c1lypz31638dwspai5afcgwbc4yskdkq679mpkw";
+          url = "https://elpa.gnu.org/packages/triples-0.2.6.tar";
+          sha256 = "09vr8r78vpycpxglacbgy2fy01khmvhh42panilwz2n9nhjy6xzm";
         };
         packageRequires = [ emacs seq ];
         meta = {
