@@ -1674,16 +1674,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    erc = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    erc = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.4.1";
+        version = "5.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/erc-5.4.1.tar";
-          sha256 = "0hghqwqrx11f8qa1zhyhjqp99w01l686azsmd24z9w0l93fz598a";
+          url = "https://elpa.gnu.org/packages/erc-5.5.tar";
+          sha256 = "02649ijnpyalk0k1yq1dcinj92awhbnkia2x9sdb9xjk80xw1gqp";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/erc.html";
           license = lib.licenses.free;
@@ -3746,10 +3746,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.41";
+        version = "0.4.42";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.41.tar";
-          sha256 = "0pbfy7fm5mhs6k2vwxjg8zr205drnmd5qvzqwghj9f26a3p0j74h";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.42.tar";
+          sha256 = "040wrmz9wl0x86vdgzyfdwxdciscd94v9nfgfz0ir2ghwhw6j9x3";
         };
         packageRequires = [ emacs ];
         meta = {
