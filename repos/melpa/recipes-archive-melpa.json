@@ -7805,19 +7805,19 @@
   "unstable": {
    "version": [
     20230304,
-    907
+    2300
    ],
    "deps": [
     "posframe"
    ],
-   "commit": "a8c4b8c3c8b3add17b10b7323c86228e322513c3",
-   "sha256": "1wn89161rrad6sc3fqimic2nrvj78i12hq5v0a2lykzb510xvmk6"
+   "commit": "50cd50d4541be22091b11d3f6dcf4e9f1b9521af",
+   "sha256": "1kiayw5pva0dlrg3m4zv0fr4m4yb75d6imff9skwf4mp7jm4vhjd"
   },
   "stable": {
    "version": [
     0,
     6,
-    1
+    2
    ],
    "deps": [
     "posframe"
@@ -9572,11 +9572,11 @@
   "repo": "rolandwalker/button-lock",
   "unstable": {
    "version": [
-    20200309,
-    1323
+    20230304,
+    2212
    ],
-   "commit": "9afe0f4d05910b0cccc94cb6d4d880119f3b0528",
-   "sha256": "1d893isxvchrqxw6iaknbv8l31rgalfc4hmppf0l87gxp5y9hxa2"
+   "commit": "1f7a89ca05b6167af7d1337ad23a5d923486caac",
+   "sha256": "12agr7c9q8mwm73z86vx1rpfsjsw1xacfpfkqy0k07p86lv5d8g5"
   },
   "stable": {
    "version": [
@@ -13418,14 +13418,26 @@
   "repo": "Lindydancer/cmake-font-lock",
   "unstable": {
    "version": [
-    20211224,
-    2006
+    20230304,
+    2223
    ],
    "deps": [
     "cmake-mode"
    ],
-   "commit": "0d6111b36a66013aa9b452e664c93308df3b07e1",
-   "sha256": "12ga8ri7v9r5y46pghk80ww27i7nhbrg0r3s2ina42drlkkliqj4"
+   "commit": "a6038e916bcca807ae695f7d7e5c300c3f38f415",
+   "sha256": "18kvs2yq6plw6lngs97wxl7qah5iwrnhq2q68aac9z8fpwq0vhz8"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    13
+   ],
+   "deps": [
+    "cmake-mode"
+   ],
+   "commit": "a6038e916bcca807ae695f7d7e5c300c3f38f415",
+   "sha256": "18kvs2yq6plw6lngs97wxl7qah5iwrnhq2q68aac9z8fpwq0vhz8"
   }
  },
  {
@@ -20103,11 +20115,11 @@
   "repo": "magnars/dash.el",
   "unstable": {
    "version": [
-    20221013,
-    836
+    20230304,
+    2223
    ],
-   "commit": "3df46d7d9fe74f52a661565888e4d31fd760f0df",
-   "sha256": "07g8rizz6bsjqymnbmjniv7v09d90x4zy5b9j8clmgyfy5040ivg"
+   "commit": "bdf4a5d868618532d34c7b5bae6ac382c3b58f67",
+   "sha256": "1sdl55xwbbzmrc4c1ql4d7zihhrrlfpkwhlc2pc0gyc9ni4fsc3q"
   },
   "stable": {
    "version": [
@@ -24670,8 +24682,8 @@
   "repo": "dtk01/dtk",
   "unstable": {
    "version": [
-    20220905,
-    1727
+    20230304,
+    2322
    ],
    "deps": [
     "cl-lib",
@@ -24679,8 +24691,8 @@
     "s",
     "seq"
    ],
-   "commit": "9710006877ad6e35b1f8f31858835d71917dc347",
-   "sha256": "0xblc8xgv22sg647z1isaa4zr5g3bbjm83z3xvpgjfm2y1plfhh9"
+   "commit": "eb2a385f333bf97d335eb5ed974fdeb703c60d54",
+   "sha256": "04gz6k9mgmb6i5nzpmp5nr5j88kaqy9a08v8qwymrx1f16rhsxqm"
   }
  },
  {
@@ -32940,15 +32952,15 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20230226,
-    2219
+    20230304,
+    2054
    ],
    "deps": [
     "annalist",
     "evil"
    ],
-   "commit": "4d10a2d3305bbe28c1e11a059e3e9c8d2cdaad01",
-   "sha256": "0w014pa2qfd88zq4ihsz80lgshhfya61mncafnjxbf5rz2c5cxls"
+   "commit": "bd99ea07dea3c851939549a3abb5167b8ac21f33",
+   "sha256": "1bglxqwv269iig3bd6c2qdzdxzki49rj2gijdz83bl99n7hyc2fh"
   },
   "stable": {
    "version": [
@@ -36042,8 +36054,8 @@
   "repo": "jumper047/fb2-reader",
   "unstable": {
    "version": [
-    20220820,
-    1607
+    20230304,
+    1832
    ],
    "deps": [
     "async",
@@ -36052,8 +36064,8 @@
     "s",
     "visual-fill-column"
    ],
-   "commit": "8138cc3b674c911e92d280b97a5fdbbdf6e3182d",
-   "sha256": "1qg7ndkr4mv5wfgss05iq3gnj2s9nx6pmikli0s3m3cilxp6c53k"
+   "commit": "8ba78e4c029b077c7d2bab8082c12ecfa3b81bb7",
+   "sha256": "1qa02vd1cxhl4v392p66mv9748vbancw3axvy9n2577d2bsldx7j"
   }
  },
  {
@@ -68810,7 +68822,7 @@
   "unstable": {
    "version": [
     20230304,
-    1615
+    2108
    ],
    "deps": [
     "dash",
@@ -68821,8 +68833,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "eb9c9c914b50bfa281453ab1df09243b2eb0bf3b",
-   "sha256": "17m21i56wxg0mnqnbv4yjd8c841ibj1xy2bdd6v39xw3c8fhjfsv"
+   "commit": "5d5825b837734772c760052c2a196eb0ce736eaf",
+   "sha256": "180rbqj4hq3fm17zwcqbvhwha7ssy3is4wby6mhrm4k3drzqqa7z"
   },
   "stable": {
    "version": [
@@ -83317,30 +83329,30 @@
   "repo": "ndwarshuis/org-ml",
   "unstable": {
    "version": [
-    20220711,
-    1528
+    20230304,
+    1913
    ],
    "deps": [
     "dash",
     "org",
     "s"
    ],
-   "commit": "385e3bee497f858705144d7ab5e6570d31d3ffe8",
-   "sha256": "0j506lp3lgf9iz94ag041bpdcr837j5lmbazq7v3brblm43dvh9p"
+   "commit": "8c8e08bfbcbcd504684fe8b68cd0e87ed92c652f",
+   "sha256": "01z8zy9vmqk371ch3n1wyzblkc27brqc76zbsgaw6r9kcwngz5qc"
   },
   "stable": {
    "version": [
     5,
     8,
-    4
+    5
    ],
    "deps": [
     "dash",
     "org",
     "s"
    ],
-   "commit": "b81c3035b7e3487f2155323ec570a493607ff575",
-   "sha256": "0j506lp3lgf9iz94ag041bpdcr837j5lmbazq7v3brblm43dvh9p"
+   "commit": "75a5569dc4fa6e46000e5c3913f34ec0643561ad",
+   "sha256": "01z8zy9vmqk371ch3n1wyzblkc27brqc76zbsgaw6r9kcwngz5qc"
   }
  },
  {
@@ -119499,15 +119511,15 @@
   "repo": "rolandwalker/button-lock",
   "unstable": {
    "version": [
-    20200309,
-    1323
+    20230304,
+    2212
    ],
    "deps": [
     "button-lock",
     "nav-flash"
    ],
-   "commit": "9afe0f4d05910b0cccc94cb6d4d880119f3b0528",
-   "sha256": "1d893isxvchrqxw6iaknbv8l31rgalfc4hmppf0l87gxp5y9hxa2"
+   "commit": "1f7a89ca05b6167af7d1337ad23a5d923486caac",
+   "sha256": "12agr7c9q8mwm73z86vx1rpfsjsw1xacfpfkqy0k07p86lv5d8g5"
   },
   "stable": {
    "version": [
