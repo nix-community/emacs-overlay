@@ -2563,6 +2563,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    jit-spell = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "jit-spell";
+        ename = "jit-spell";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/jit-spell-0.1.tar";
+          sha256 = "1q6c9vb97c8jmb7wvnp8i7zk157ay1a4gngy7hx2y26f4lcjh0rl";
+        };
+        packageRequires = [ compat emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/jit-spell.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     js2-mode = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "js2-mode";
