@@ -2949,8 +2949,8 @@
   "repo": "pythonic-emacs/anaconda-mode",
   "unstable": {
    "version": [
-    20220922,
-    741
+    20230306,
+    2112
    ],
    "deps": [
     "dash",
@@ -2958,8 +2958,8 @@
     "pythonic",
     "s"
    ],
-   "commit": "ca8edbaa7662d97e4a4416ec9a8d743863303911",
-   "sha256": "1vlqrpxsy0xydm29vl39blwp7y82x9cr4mmaj8mji3hgjyfwph9m"
+   "commit": "e250596f5587129f55f446ef127d0dac5e9730a3",
+   "sha256": "1p538glk3zx6m23jjh6zv6z2irqr3jl0kr3h6qz1dafl69xhqdgk"
   },
   "stable": {
    "version": [
@@ -3363,14 +3363,14 @@
   "repo": "rejeep/ansi.el",
   "unstable": {
    "version": [
-    20211104,
-    1420
+    20230306,
+    1823
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "2367fba7b3b2340364a30cd6de7f3eb6bb9898a3",
-   "sha256": "1n7h6l4icm6lks3zpvd83j1fzrnspw19rmz7c96vy7pdh1y4v3p3"
+   "commit": "c79806eacdf96e061abf5334f4c3364a995705d4",
+   "sha256": "0y4jifvy1jrc20q10dnh0fkzjxj6y2af4nr07k0047c2mfz69fmv"
   },
   "stable": {
    "version": [
@@ -6028,11 +6028,11 @@
   "repo": "vutran1710/Ayu-Theme-Emacs",
   "unstable": {
    "version": [
-    20230305,
-    1840
+    20230306,
+    1924
    ],
-   "commit": "fadeec7dbd5fd44557addd88653c4d78a2002bea",
-   "sha256": "1nmr05rd2d3pj0qcs5z4ifvz8dp5ylvwiznwiijxqcw571jgz3aj"
+   "commit": "dc325520c1202463a0f05d4ece1644109830fef4",
+   "sha256": "0d8q6zk0axxs7s05pa4sq57ixznqfrp10abhxpayr4z0crf7kvmk"
   }
  },
  {
@@ -28255,14 +28255,14 @@
   "unstable": {
    "version": [
     20230306,
-    218
+    1618
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "993eb7f1a02cb29c812fd38c231b11e2dc3560b6",
-   "sha256": "04apldi8pqndkcvq62hgiy94l11if2p34q7p1bd3a08bb4nzpk4g"
+   "commit": "c7bbe44bdffb50de98cb322c4451c2fdb176eb48",
+   "sha256": "1ar906p2n7kya68fq502r89hq49xdrhb80c1ysqklig0bzw8z4j0"
   },
   "stable": {
    "version": [
@@ -29683,16 +29683,16 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20230302,
-    1807
+    20230306,
+    1833
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "4136e8bbfa2d676b5ab2df0d5450048299429e9a",
-   "sha256": "06njanffy070pkafwq3j77lbp3r9bylaihhk1j1zjnj5mc7vw867"
+   "commit": "c8b64ecc934a0832c91ca59813aceaf868540707",
+   "sha256": "0qp7b3vs0smihhspxqxwfg4j6f8bgxn5vxskxfb4hxnjml4078z1"
   },
   "stable": {
    "version": [
@@ -69826,7 +69826,7 @@
   "unstable": {
    "version": [
     20230306,
-    1421
+    2221
    ],
    "deps": [
     "compat",
@@ -69836,8 +69836,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "8586e49d81d88dcd483aa534e95a8b2b5fe0f640",
-   "sha256": "00g00zfwgcjbpk14n3wil3aix28psq5615045020hqk4028y2xc5"
+   "commit": "7fd62479b1127a4df3b073084fba3fd229f30f4c",
+   "sha256": "1gax45115k5xnyv7srdw75zr1jzw8y6djpqcvasflvi3425y55m8"
   },
   "stable": {
    "version": [
@@ -80290,20 +80290,20 @@
   "repo": "ocaml-ppx/ocamlformat",
   "unstable": {
    "version": [
-    20230224,
-    907
+    20230306,
+    1907
    ],
-   "commit": "c94ead524c8294a8496b9efde7a6817a9a79f26b",
-   "sha256": "1h8pr68wql5qia3wqgfczz0m5m4ql44c39bbnhlnld039fsva42y"
+   "commit": "651f767b48e14ba6b24db9421306942d9e51adcc",
+   "sha256": "00jfipp5ibz6yp5ismwnhq0gqlgwnsb2i4k2i64h9drq30pdcdzz"
   },
   "stable": {
    "version": [
     0,
     25,
-    0
+    1
    ],
-   "commit": "c94ead524c8294a8496b9efde7a6817a9a79f26b",
-   "sha256": "1h8pr68wql5qia3wqgfczz0m5m4ql44c39bbnhlnld039fsva42y"
+   "commit": "651f767b48e14ba6b24db9421306942d9e51adcc",
+   "sha256": "00jfipp5ibz6yp5ismwnhq0gqlgwnsb2i4k2i64h9drq30pdcdzz"
   }
  },
  {
@@ -85250,15 +85250,15 @@
   "url": "https://repo.or.cz/org-tag-beautify.git",
   "unstable": {
    "version": [
-    20230228,
-    1622
+    20230306,
+    2247
    ],
    "deps": [
     "all-the-icons",
     "org-pretty-tags"
    ],
-   "commit": "1902d475b47b342d250c934ad26e2b35d6aafb4d",
-   "sha256": "0i4cr0yqry2m3grk11nqlpa9jaz8vwfa17qia5hpvnsxi9q5jzdi"
+   "commit": "b0341f709f60fa294f3826f7e8a503cad9dfcfc4",
+   "sha256": "0visnliyjlb3wqiyfgdh2adzx23fvk4pasxg1ch1rwzzfqx15bl0"
   }
  },
  {
