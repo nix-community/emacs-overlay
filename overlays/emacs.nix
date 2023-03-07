@@ -86,7 +86,7 @@ let
                      chmod +w ./parser
                      install_name_tool -id $out/lib/${lib drv} ./parser
                      cp ./parser $out/lib/${lib drv}
-                     /usr/bin/codesign -s - -f $out/lib/${lib drv}
+                     ${self.pkgs.darwin.sigtool}/bin/codesign -s - -f $out/lib/${lib drv}
                 ''
               else ''ln -s ${drv}/parser $out/lib/${lib drv}'';
             plugins = args.treeSitterPlugins;
