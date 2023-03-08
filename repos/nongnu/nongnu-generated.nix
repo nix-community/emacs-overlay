@@ -2713,10 +2713,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.0.29";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.0.29.tar";
-          sha256 = "0q2sfdypj929y4fllk97rsb2bxm9a1izjy1f0z2viz5hz0hpqp26";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.1.0.tar";
+          sha256 = "0j47vra3wywi73ss3wg94q7h8b2wqsw6l8z2l090id9k813dkcrx";
         };
         packageRequires = [ emacs ];
         meta = {
