@@ -2071,10 +2071,10 @@
       elpaBuild {
         pname = "org-journal";
         ename = "org-journal";
-        version = "2.1.2";
+        version = "2.2.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/org-journal-2.1.2.tar";
-          sha256 = "1s5hadcps283c5a1sy8fp1ih064l0hl97frj93jw3fkx6jwbqf0v";
+          url = "https://elpa.nongnu.org/nongnu/org-journal-2.2.0.tar";
+          sha256 = "1pikz9aqdch11zsya8j3gx44wfl2y5r0kym093pl7w6bjx9bgija";
         };
         packageRequires = [ emacs org ];
         meta = {
