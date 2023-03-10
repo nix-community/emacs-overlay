@@ -1098,6 +1098,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    denote-menu = callPackage ({ denote, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "denote-menu";
+        ename = "denote-menu";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/denote-menu-1.0.0.tar";
+          sha256 = "0h2yilw8ygjskhpf3z745xy99rrwn3w0x5z53akrxbmf3d6rn65f";
+        };
+        packageRequires = [ denote emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/denote-menu.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     detached = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "detached";
@@ -2382,10 +2397,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.20";
+        version = "0.22";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.20.tar";
-          sha256 = "1640zpxjylzcafr4957j7nxspqwmfwliac300lf7j5xsmchlwmgm";
+          url = "https://elpa.gnu.org/packages/inspector-0.22.tar";
+          sha256 = "0423v40vvvnk28jls1l97znmhnzl80nkjwfqmiq73nz9bj72naf1";
         };
         packageRequires = [ emacs ];
         meta = {
