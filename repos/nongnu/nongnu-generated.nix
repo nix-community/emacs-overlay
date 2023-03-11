@@ -49,10 +49,10 @@
       elpaBuild {
         pname = "annotate";
         ename = "annotate";
-        version = "1.8.5";
+        version = "1.9.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/annotate-1.8.5.tar";
-          sha256 = "0f5h9ymcg4n0zn3yaq1s0h5sfrq3pbcswda9875yhlcprzbrgyq7";
+          url = "https://elpa.nongnu.org/nongnu/annotate-1.9.0.tar";
+          sha256 = "1wz0lbs2q3qrmbbxf5dflhfg0wlhzzpyk0i2mp9gq9b1g93ng1qk";
         };
         packageRequires = [];
         meta = {
@@ -2713,10 +2713,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.1.0";
+        version = "1.2.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.1.0.tar";
-          sha256 = "0j47vra3wywi73ss3wg94q7h8b2wqsw6l8z2l090id9k813dkcrx";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.2.0.tar";
+          sha256 = "1cdgnwd1saqc07xizdpaadnnl88w0hwc39jklhql1m2a0ii52lck";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3182,10 +3182,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "22.12.20230305005921";
+        version = "23.0.20230310115257";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-22.12.20230305005921.tar";
-          sha256 = "1zq7vdzjc31mwi3mgf9ncqdx84wpplf3dwy084xjzwqyx5skjr8w";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-23.0.20230310115257.tar";
+          sha256 = "0v44faawwc9gxjkga2fhv1fq6z09c2lv5i0s85lmihq313s07jnk";
         };
         packageRequires = [ emacs ];
         meta = {
