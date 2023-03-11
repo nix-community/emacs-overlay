@@ -2397,10 +2397,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.24";
+        version = "0.27";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.24.tar";
-          sha256 = "1dwq9b6jwlqq4nrhmqglpil55aw1caahabwzy86klhxc829jbclz";
+          url = "https://elpa.gnu.org/packages/inspector-0.27.tar";
+          sha256 = "0n01jfgs7ryr20k81qxs9sr8p3y9jsmmm4ac8m8844afp2fqjbqm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2582,10 +2582,10 @@
       elpaBuild {
         pname = "jit-spell";
         ename = "jit-spell";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jit-spell-0.1.tar";
-          sha256 = "1q6c9vb97c8jmb7wvnp8i7zk157ay1a4gngy7hx2y26f4lcjh0rl";
+          url = "https://elpa.gnu.org/packages/jit-spell-0.2.tar";
+          sha256 = "10h2nbp6lap26arwifhzs119mkfj76fvjsix3iccjjvfdi88wdn9";
         };
         packageRequires = [ compat emacs ];
         meta = {
