@@ -3502,16 +3502,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    org-modern = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    org-modern = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "0.8";
+        version = "0.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-modern-0.8.tar";
-          sha256 = "0j9ilivy6iyqmml4sxy88c99vpg3v00pglb62lpxc4sywia06dzf";
+          url = "https://elpa.gnu.org/packages/org-modern-0.9.tar";
+          sha256 = "1aq02w1mbqfx370d18a21w6jhnwad55v73yhlvqyghkh1xdi3h0j";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/org-modern.html";
           license = lib.licenses.free;
