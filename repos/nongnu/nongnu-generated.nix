@@ -2679,6 +2679,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    sqlite3 = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "sqlite3";
+        ename = "sqlite3";
+        version = "0.17";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/sqlite3-0.17.tar";
+          sha256 = "04m53vn5cvcycv580q6zn5vw54ml7xmhs7bc88cwqj1z5vi3a85x";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/sqlite3.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     stylus-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "stylus-mode";
@@ -3257,10 +3272,10 @@
       elpaBuild {
         pname = "zenburn-theme";
         ename = "zenburn-theme";
-        version = "2.7.0";
+        version = "2.8.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/zenburn-theme-2.7.0.tar";
-          sha256 = "1x7gd5w0g47kcam88lm605b35y35iq3q5f991a84l050c8syrkpy";
+          url = "https://elpa.nongnu.org/nongnu/zenburn-theme-2.8.0.tar";
+          sha256 = "1jbkh09r6sxb0iv9cdxi6k33kz3hldc6hcvyqljf733rdxykpskv";
         };
         packageRequires = [];
         meta = {
