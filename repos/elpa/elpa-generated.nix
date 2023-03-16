@@ -3941,10 +3941,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "5.3.0";
+        version = "5.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pyim-5.3.0.tar";
-          sha256 = "0q0h705k1yymp1pqyycmq1zqvzawzkl4q2ckvflbncgrqh306xmh";
+          url = "https://elpa.gnu.org/packages/pyim-5.3.1.tar";
+          sha256 = "0lkshw52xdrcbdrgmjb665bpyga61qlk29rrzrrj7s82n09bq9kv";
         };
         packageRequires = [ async emacs xr ];
         meta = {
