@@ -1457,10 +1457,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.12";
+        version = "1.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eglot-1.12.tar";
-          sha256 = "0x6kw7d23dh5x09ga5r2p1zr97asxxy4wq5sln3yyby03wfsbznv";
+          url = "https://elpa.gnu.org/packages/eglot-1.13.tar";
+          sha256 = "1yg6ddldd2qnnhlhc2r5rq7rjc0pigqjgzpvnqqb33nssw1lkw82";
         };
         packageRequires = [
           eldoc
