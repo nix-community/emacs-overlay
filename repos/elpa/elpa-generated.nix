@@ -3806,10 +3806,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/plz-0.3.tar";
-          sha256 = "19fzln4b6pp3c2as7a8wija120qykkxs27jrn637vqsvhi648xcd";
+          url = "https://elpa.gnu.org/packages/plz-0.4.tar";
+          sha256 = "05139hmgh35qibb6i9qdyxalw66ghcpvpqbs4ai8x98s8c5vl509";
         };
         packageRequires = [ emacs ];
         meta = {
