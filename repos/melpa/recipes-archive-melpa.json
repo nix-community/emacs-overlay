@@ -2526,11 +2526,11 @@
   "repo": "domtronn/all-the-icons.el",
   "unstable": {
    "version": [
-    20230315,
-    516
+    20230316,
+    1906
    ],
-   "commit": "4e634a767fcac5b2686b20d22e963562a176361a",
-   "sha256": "143gw1fj4yfpqiidjhblp5mk6igy200vk64dksgsk63xdlbmk99m"
+   "commit": "d922aff57ac8308d3ed067f9151cc76d342855f2",
+   "sha256": "1whp2r4c55x665xmsysvf6ibk5d3hizwhsrxfd0xr5jbkdzg5kkq"
   },
   "stable": {
    "version": [
@@ -17128,16 +17128,16 @@
   "repo": "mclear-tools/consult-notes",
   "unstable": {
    "version": [
-    20230112,
-    312
+    20230316,
+    1720
    ],
    "deps": [
     "consult",
     "dash",
     "s"
    ],
-   "commit": "4d92996f676cecfebea6519dadf8cf185621a18a",
-   "sha256": "0jkvv975ydcrr9k390zllrnbwzb6g0mnkjzvcajzwkhpayi8i0ka"
+   "commit": "43cf9a2f3adbed934b0907fe1fd3664b99ca5afe",
+   "sha256": "0p1x95cjry3kd72sj32dvgaw9jxc38ha4vj2w34vsm6jp9kv70gb"
   }
  },
  {
@@ -48026,7 +48026,7 @@
    "version": [
     0,
     30,
-    2
+    4
    ],
    "deps": [
     "dash",
@@ -48034,8 +48034,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "9078b0b4399930876c766d4dff04935c523a7e18",
-   "sha256": "1w0rfzaa27xlns23y0aakz5wq7fpz79wvmj8wmim64p2pfggbpi6"
+   "commit": "4561966a62f6f89bbe4e3d173a73f684852a37a1",
+   "sha256": "14x83sh5rwff9302dih0sjahp2mji2jk776sabrwdrqqddkv524m"
   }
  },
  {
@@ -48101,19 +48101,19 @@
   "unstable": {
    "version": [
     20230316,
-    809
+    1710
    ],
-   "commit": "d57c60af9d5ea03b3e835c14e7102f5f65785f41",
-   "sha256": "0s37ybxpyzsk7l80mjmsrl23rd02wldbrplzsqp639n56zr7555g"
+   "commit": "0de1f190b018123000c66d2860a5d8feecad4335",
+   "sha256": "1bpalq2n6w0j821v4wv8hcxd04mfalnbdpz3r2fyy9khgjm0apr3"
   },
   "stable": {
    "version": [
     1,
     0,
-    3
+    4
    ],
-   "commit": "b5ddaa0d66c3e71fb6a18a6413f7dc5378a104b3",
-   "sha256": "109jmj2kdqcqpjvwfasc0gd89idvca97m8lzgkv0cmd9k4z9rj0v"
+   "commit": "0de1f190b018123000c66d2860a5d8feecad4335",
+   "sha256": "1bpalq2n6w0j821v4wv8hcxd04mfalnbdpz3r2fyy9khgjm0apr3"
   }
  },
  {
@@ -68840,26 +68840,26 @@
   "repo": "ROCKTAKEY/lsp-latex",
   "unstable": {
    "version": [
-    20230315,
-    1348
+    20230316,
+    1906
    ],
    "deps": [
     "lsp-mode"
    ],
-   "commit": "52cfd05256bba103028521fbbb937cf164a10387",
-   "sha256": "1x006nsrimk6698dgbnni4gb09w3h20gf9fp27280wh1pfcyk08q"
+   "commit": "4f3d7166aeda16099d226066928d89bb44849624",
+   "sha256": "1mdbqldihkk96sif7m78b7grqpd1ycp37h5k3wp6755ff5spmy4s"
   },
   "stable": {
    "version": [
     3,
-    3,
+    4,
     0
    ],
    "deps": [
     "lsp-mode"
    ],
-   "commit": "52cfd05256bba103028521fbbb937cf164a10387",
-   "sha256": "1x006nsrimk6698dgbnni4gb09w3h20gf9fp27280wh1pfcyk08q"
+   "commit": "ec052a687f292ee2214c9ca41a754a438082bac8",
+   "sha256": "0412pwzkp3hzs31hx6w4lg6vmg7sh5bbgm2if0mpxf81l5kvalxx"
   }
  },
  {
@@ -68987,8 +68987,8 @@
   "repo": "emacs-lsp/lsp-mssql",
   "unstable": {
    "version": [
-    20191204,
-    1150
+    20230316,
+    1612
    ],
    "deps": [
     "dash",
@@ -68997,8 +68997,8 @@
     "lsp-mode",
     "lsp-treemacs"
    ],
-   "commit": "e16e91d6a2a6cdb406ee9b98cfb47f7a32e41d61",
-   "sha256": "1fyghfl1acrghf8lisg760cgxw4rnz29ym4mzlznc0lb80d43cg3"
+   "commit": "9d9a14a2b40c5fd13b8e33fccd397283a2437526",
+   "sha256": "1yfrazz7rf40dpk2k99km9f32ilkq8m26dvs27p82f6w3mfq5xlr"
   }
  },
  {
@@ -71698,15 +71698,15 @@
   "unstable": {
    "version": [
     20230316,
-    1409
+    1903
    ],
    "deps": [
     "persist",
     "request",
     "ts"
    ],
-   "commit": "d508373cfcc7df5314acf1714e3caa9e023dc2da",
-   "sha256": "1by0f4shfd6kc52z8ygsz8r6gqnpihymajg5slhhv1hba35sahrh"
+   "commit": "a34056094d1ced2c492a58c4c27fe658133d1bfe",
+   "sha256": "0bg4m7gmy2fgbfj42f4wh43g4124cydipfrc0cjwfqx3dgvw53kj"
   },
   "stable": {
    "version": [
@@ -94489,11 +94489,11 @@
   "repo": "bbatsov/projectile",
   "unstable": {
    "version": [
-    20230315,
-    1142
+    20230316,
+    1552
    ],
-   "commit": "de9b4ecfa3fafc88c6193007ebc1128c85b32b6e",
-   "sha256": "00s6hrhdisjkgbzg0g7w5d7py5km44iw1hjx4sa5zgj1h73ij3cp"
+   "commit": "30a340f22de227b973e2245002291595857d83ae",
+   "sha256": "1icwkwa983qhyis4wfn1fbvkkg45vsmjj4lim1r3ynbyz5fcpndk"
   },
   "stable": {
    "version": [
@@ -95410,11 +95410,11 @@
   "repo": "flexibeast/pulseaudio-control",
   "unstable": {
    "version": [
-    20230315,
-    1538
+    20230316,
+    1819
    ],
-   "commit": "814a01db2642a223a1b590c602001735d5bd9032",
-   "sha256": "0az2avp3rzkv28llwgpznw1masr5z5f5pa20vzncdrxh7pxwf3pj"
+   "commit": "e917e84661b0e2496b295f1bbfba6ad32a656527",
+   "sha256": "1i8maz990h8cy8a0f97shql70x8lkfh48h9ig4i2salnidwb3pkm"
   }
  },
  {
