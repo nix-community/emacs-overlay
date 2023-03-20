@@ -4217,6 +4217,26 @@
           license = lib.licenses.free;
         };
       }) {};
+    realgud-trepan-xpy = callPackage ({ elpaBuild
+                                      , emacs
+                                      , fetchurl
+                                      , lib
+                                      , load-relative
+                                      , realgud }:
+      elpaBuild {
+        pname = "realgud-trepan-xpy";
+        ename = "realgud-trepan-xpy";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/realgud-trepan-xpy-1.0.0.tar";
+          sha256 = "1zc4y8d8w714w9jr0bdm1qmxx279ish9cqiiikyv8s01w6rmnzr5";
+        };
+        packageRequires = [ emacs load-relative realgud ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/realgud-trepan-xpy.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     rec-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "rec-mode";
