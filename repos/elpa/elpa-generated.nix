@@ -3866,10 +3866,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "1.4.0";
+        version = "1.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-1.4.0.tar";
-          sha256 = "0pqy7scdi3qxj518xm0bbr3979byfxqxxh64wny37xzhd4apsw5j";
+          url = "https://elpa.gnu.org/packages/posframe-1.4.1.tar";
+          sha256 = "02kw3d6760015q61sryw8k3zqdnzhcwwyfjfysbfs07cljkqpjnh";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4806,10 +4806,10 @@
       elpaBuild {
         pname = "substitute";
         ename = "substitute";
-        version = "0.1.6";
+        version = "0.1.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/substitute-0.1.6.tar";
-          sha256 = "0hdg6gv878bpb6yrav345a8479w50q48nmibvk4p04im7b7r1238";
+          url = "https://elpa.gnu.org/packages/substitute-0.1.7.tar";
+          sha256 = "1mgpmc5ndsqv32zlsz96gnahg2x2329r0mxn45ajqsjf3b4pyxi6";
         };
         packageRequires = [ emacs ];
         meta = {
