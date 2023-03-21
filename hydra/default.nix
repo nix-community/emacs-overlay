@@ -16,7 +16,7 @@ let
     schedulingshares = 100;
     enableemail = false;
     emailoverride = "";
-    keepnr = 3;
+    keepnr = 1;
     type = 0;  # Non-flake (legacy)
     inputs = {
       src = {
