@@ -4315,11 +4315,11 @@
   "repo": "jwiegley/emacs-async",
   "unstable": {
    "version": [
-    20230321,
-    625
+    20230322,
+    521
    ],
-   "commit": "aee2947bd58250fa6b19988f8d5039a4600bb601",
-   "sha256": "1q6yzad817hhkd2d226ca74afwy5fm5v54ask89xrlbw9jcjcmjw"
+   "commit": "3f91ce8b963cd6909c6578f87b5545fd761f1547",
+   "sha256": "0kh2iq4hvh0rn4fmbpfiizag66m2z3jn4lsmr5lqxqrr8dfjb3jr"
   },
   "stable": {
    "version": [
@@ -12253,16 +12253,16 @@
   "repo": "pprevos/citar-denote",
   "unstable": {
    "version": [
-    20230320,
-    2155
+    20230322,
+    738
    ],
    "deps": [
     "citar",
     "dash",
     "denote"
    ],
-   "commit": "012048b0946e9a5ac3dcb42b482eb991161c9cca",
-   "sha256": "1kcn2anpldzy9fvzcj9cdz4hil6shlz9pcy4vbgvzc919r9lg7yq"
+   "commit": "756682bcaeeb28bfcdfddbcfe91de8bc28147f73",
+   "sha256": "09g5xnhlpljaql6km3sbjqs13b1mhq6a0w6kbg6ghbhmmj79i07f"
   },
   "stable": {
    "version": [
@@ -16756,14 +16756,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20230315,
-    1520
+    20230322,
+    747
    ],
    "deps": [
     "compat"
    ],
-   "commit": "3052c57969ddd7dc23e325a2703b5f14d33d1133",
-   "sha256": "0qja43b13ahn70sffjiwqc3mh2cwhcr1ckma95gx8sxjqk5qcqvx"
+   "commit": "28b74703113765137cc4639285e511bd73fd99e6",
+   "sha256": "05hpglacdkzhxk1jf36lw6x27g67gjmqyk7nrd651nchah8fyx7p"
   },
   "stable": {
    "version": [
@@ -16978,14 +16978,14 @@
   "repo": "OlMon/consult-flyspell",
   "unstable": {
    "version": [
-    20221029,
-    823
+    20230322,
+    204
    ],
    "deps": [
     "consult"
    ],
-   "commit": "d587961ef0d5f9992cedef3b35b87b11d610a375",
-   "sha256": "0sz64k5fb0jpm2cmynfnnsslb1ka86zq1fdvc5ipbysiqnplfjpb"
+   "commit": "7011e6634598530ea2d874e7e7389dc1bb94e1ca",
+   "sha256": "09zng143lcxlvsbi9y5sck9z7626lqxmr9yr897ka9h525lvykc4"
   }
  },
  {
@@ -57065,7 +57065,7 @@
   "unstable": {
    "version": [
     20230322,
-    102
+    151
    ],
    "deps": [
     "compat",
@@ -57073,8 +57073,8 @@
     "persist",
     "plz"
    ],
-   "commit": "43e324c16c5c7bf2987bb8c85ba859eeb8619049",
-   "sha256": "01ifj4j9khnfp0gm57hng11nrsk6wwcy0ghj53ja8bn4j5j96dn5"
+   "commit": "dfbf830eb51a23f3655a444a857b21897a35397b",
+   "sha256": "0hrsfvfn0cmyxh2cv07dflln83rfzrzf0y3dsmjz0sc29m7691ln"
   }
  },
  {
@@ -72313,11 +72313,11 @@
   "repo": "baaash/melancholy-theme",
   "unstable": {
    "version": [
-    20230321,
-    2150
+    20230322,
+    320
    ],
-   "commit": "68381ff8c63fd838637e60e36973f021a11897c5",
-   "sha256": "0rpq9r00k70akxmvy4h71wd723shlmk8yfjm8ykgiy4a0s1zyavs"
+   "commit": "380f7fb5a62781412b5808f3a15aeb3c88295b5f",
+   "sha256": "02s7kyw04whlrw6v16pnghi49vmkibdwx53nybdvpr3wh5i3sha4"
   }
  },
  {
@@ -110194,8 +110194,8 @@
   "repo": "drym-org/symex.el",
   "unstable": {
    "version": [
-    20230307,
-    2329
+    20230322,
+    332
    ],
    "deps": [
     "evil",
@@ -110208,8 +110208,8 @@
     "tree-sitter",
     "tsc"
    ],
-   "commit": "29d69f6ccd3ae19dfddea757af09c9214f3f8687",
-   "sha256": "0dkv2bramc511ah53hx01zwp9xzsw8vazzif873hslf050z46fzg"
+   "commit": "b0b59df5ec6d510f3589e79400f9ccfb1cf4f7a2",
+   "sha256": "0ahnlcagz4znc47q800h8d91zcldwq2n73nh9n9p8r0qyxp58vs0"
   },
   "stable": {
    "version": [
@@ -111244,8 +111244,21 @@
   "repo": "dbordak/telephone-line",
   "unstable": {
    "version": [
-    20221030,
-    2254
+    20230322,
+    442
+   ],
+   "deps": [
+    "cl-generic",
+    "cl-lib",
+    "seq"
+   ],
+   "commit": "202f9c94f7b86827ab7ebb6dbce8302b0447d6ff",
+   "sha256": "1hwym7xqgc6zhakni7ws7x9j4whyb86ddiv7cwjj29arfsadbmiz"
+  },
+  "stable": {
+   "version": [
+    0,
+    6
    ],
    "deps": [
     "cl-generic",
@@ -111254,19 +111267,6 @@
    ],
    "commit": "314187790b5c5e9962c6d8eac9323b5b801e4aef",
    "sha256": "1pv6hlzks02bvxkfyg8m04l36clg39h5w7nq2k6ppi5bh4d4kmc8"
-  },
-  "stable": {
-   "version": [
-    0,
-    4
-   ],
-   "deps": [
-    "cl-generic",
-    "cl-lib",
-    "seq"
-   ],
-   "commit": "a83dcda21b0f6e10e51c3cded7da9a5d2ead5f34",
-   "sha256": "1cg34l6jq75mcqnb3p93z0kv1arvnswm8nkk39fmryand2yygnl9"
   }
  },
  {
