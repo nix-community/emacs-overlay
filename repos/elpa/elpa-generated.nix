@@ -4226,10 +4226,10 @@
       elpaBuild {
         pname = "realgud-trepan-xpy";
         ename = "realgud-trepan-xpy";
-        version = "1.0.0";
+        version = "1.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/realgud-trepan-xpy-1.0.0.tar";
-          sha256 = "1zc4y8d8w714w9jr0bdm1qmxx279ish9cqiiikyv8s01w6rmnzr5";
+          url = "https://elpa.gnu.org/packages/realgud-trepan-xpy-1.0.1.tar";
+          sha256 = "0qd9hcq7a9vn453rs4pf3p8wwh7fynxhim9j6sf97lm8pilif9yd";
         };
         packageRequires = [ emacs load-relative realgud ];
         meta = {
@@ -4851,10 +4851,10 @@
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.2.5";
+        version = "0.2.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/svg-lib-0.2.5.tar";
-          sha256 = "022jp54w14sv0d71j0z76bnir9bgvysmcpcxpzpiiz77da6rg393";
+          url = "https://elpa.gnu.org/packages/svg-lib-0.2.6.tar";
+          sha256 = "121wnk9g1dbpkx2w7di5f5czvv17wf67sacqpfpn53185z6mwwf3";
         };
         packageRequires = [ emacs ];
         meta = {
