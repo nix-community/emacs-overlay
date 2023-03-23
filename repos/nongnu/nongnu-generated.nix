@@ -1375,10 +1375,10 @@
       elpaBuild {
         pname = "haml-mode";
         ename = "haml-mode";
-        version = "3.1.10";
+        version = "3.2.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/haml-mode-3.1.10.tar";
-          sha256 = "1qkhm52xr8vh9zp728ass5kxjw7fj65j84m06db084qpavnwvysa";
+          url = "https://elpa.nongnu.org/nongnu/haml-mode-3.2.1.tar";
+          sha256 = "10pnpx4x5wjk4yq4kgynkhfv4xg8nzwmfwf1bappivrdii47hbiq";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3197,10 +3197,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "23.3.20230321231338";
+        version = "23.4.20230322111913";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-23.3.20230321231338.tar";
-          sha256 = "0w3a6k40ajwhflkwi9ddzybl5dkfpbcbazxvargvj1spdnw8s63z";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-23.4.20230322111913.tar";
+          sha256 = "1yia67rxiy7h67f8z4dsq7zjl9p91xj0xd1vsrxf1sg7clgsvgmp";
         };
         packageRequires = [ emacs ];
         meta = {
