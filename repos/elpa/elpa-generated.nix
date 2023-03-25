@@ -4271,10 +4271,10 @@
       elpaBuild {
         pname = "relint";
         ename = "relint";
-        version = "1.21";
+        version = "1.22";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/relint-1.21.tar";
-          sha256 = "12453agy7y3ayqn32fi11ljlnk8ck3i1aljw5wzm0yyqp00m73x3";
+          url = "https://elpa.gnu.org/packages/relint-1.22.tar";
+          sha256 = "1525hk961q4af06c5a60m7ryp5g8yvfxjp5nmmgkci7vl3ing8zi";
         };
         packageRequires = [ emacs xr ];
         meta = {
