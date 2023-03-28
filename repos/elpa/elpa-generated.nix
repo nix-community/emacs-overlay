@@ -310,10 +310,10 @@
       elpaBuild {
         pname = "auto-header";
         ename = "auto-header";
-        version = "0.1.1";
+        version = "0.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auto-header-0.1.1.tar";
-          sha256 = "0p8b2ndh4bk434yayi2pf04a5i9y6b8wjp4wv5vanwxb39rvcgln";
+          url = "https://elpa.gnu.org/packages/auto-header-0.1.2.tar";
+          sha256 = "0rk7xq7bzgaxdyw7j3vjnishf2pyzs84xamq4blgbb93n0f4nlfj";
         };
         packageRequires = [];
         meta = {
@@ -400,10 +400,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "0.1.11";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/beframe-0.1.11.tar";
-          sha256 = "1r5wlg2xaih197fi3jk0qmnhpy7mc6xrwraxfnygsjwr63dxhnq2";
+          url = "https://elpa.gnu.org/packages/beframe-0.2.0.tar";
+          sha256 = "1nj35r59zpa5hadw9axjassrixx91yqgiffpk9yfhjwnz2s93l15";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -877,10 +877,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.35";
+        version = "0.36";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.35.tar";
-          sha256 = "0h5l4q77i2agnr5rcy0121pvs4yx4q84n2yf7fysd859g4gsm2vs";
+          url = "https://elpa.gnu.org/packages/corfu-0.36.tar";
+          sha256 = "15ysg54rallbdx6la8q8yjdj9rag91wkga8agrwf0xh7pp3nij9d";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2612,10 +2612,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jinx-0.3.tar";
-          sha256 = "12dlrk71aig9shdrqcfqnx0cz7ad2kf198nm95w40k9zaazq90ib";
+          url = "https://elpa.gnu.org/packages/jinx-0.4.tar";
+          sha256 = "1jxgj419rc4aha133c6zggzgzvr2zdx6mi6x4ipydk3x2l19k5lr";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3521,10 +3521,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.1";
+        version = "9.6.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.1.tar";
-          sha256 = "1kcv6aippv17az0dgikmx0w4dq2140ki3d19nvn01v0lk4kxpgri";
+          url = "https://elpa.gnu.org/packages/org-9.6.2.tar";
+          sha256 = "0sgf2c6pl3ldyv47kpz0180frayxipv6z9zafmdd97bkbl82aarz";
         };
         packageRequires = [ emacs ];
         meta = {
