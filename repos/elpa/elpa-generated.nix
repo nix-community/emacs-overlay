@@ -5175,10 +5175,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.0.2";
+        version = "2.6.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.6.0.2.tar";
-          sha256 = "0pfrsgci1rqrykkfyxm9wsn7f0l3rzc2vj1fas27w925l0k0lrci";
+          url = "https://elpa.gnu.org/packages/tramp-2.6.0.3.tar";
+          sha256 = "0hcm20qk62k9irqdfcb44js9jkff43fji07la33arnjqvswrqs6n";
         };
         packageRequires = [ emacs ];
         meta = {
