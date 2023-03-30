@@ -39649,15 +39649,15 @@
   "repo": "emacs-php/phpstan.el",
   "unstable": {
    "version": [
-    20220723,
-    1451
+    20230330,
+    115
    ],
    "deps": [
     "flycheck",
     "phpstan"
    ],
-   "commit": "8928206e16d7408f80d6987390fcebe26e3d30dd",
-   "sha256": "19f8pr4dryaj5ydc5cngxnrzqmfshdjk6qzzkki7n425yzbmzpl6"
+   "commit": "864e8faefc9cc351ec566b2b332438e54c1568a1",
+   "sha256": "0qgnrdk32zkfssd9wv6y6z034i47jdw0xmn7s2kyja1m622dckzv"
   },
   "stable": {
    "version": [
@@ -57060,8 +57060,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20230329,
-    344
+    20230330,
+    606
    ],
    "deps": [
     "compat",
@@ -57069,8 +57069,8 @@
     "persist",
     "plz"
    ],
-   "commit": "c62c0aff15c32ada519736bbe789c88a6bd48e05",
-   "sha256": "16xiq7h8s7mrf6dxfizlb6kp5n9aghw9qwzai2jdf30flrfjfp7i"
+   "commit": "de2c62d48cf2eff4fb78c0549caf2c3fe70c17cf",
+   "sha256": "0q999d97lky19yl5x5ri9jgvm97s06qfh8v3sprz4kwn1ladywdd"
   }
  },
  {
@@ -62055,14 +62055,14 @@
   "repo": "minad/jinx",
   "unstable": {
    "version": [
-    20230329,
-    2052
+    20230330,
+    258
    ],
    "deps": [
     "compat"
    ],
-   "commit": "72d7a1ad9d1fd05e505d559fc188da21de0be014",
-   "sha256": "1rkg6kb8cx9l5v2c27camx8v55s8n8fpcm2x30xffckgyrcz7fwc"
+   "commit": "397112434c3ca0f6c9a201b73eeaf19c8dc11d8e",
+   "sha256": "0rqrql5f4pxs95chn23c0r6kg0mbdpps4lmkxlhyw65i164rgmqw"
   },
   "stable": {
    "version": [
@@ -67872,11 +67872,11 @@
   "repo": "donkirkby/live-py-plugin",
   "unstable": {
    "version": [
-    20230328,
-    236
+    20230330,
+    58
    ],
-   "commit": "83882c71a93080de901bbd1e05332da0555e91a5",
-   "sha256": "0j75jx4rdqf6cw83q82r3g49y51rvx129rjq7im44c0kv5zfxq7m"
+   "commit": "4ea88695df456108adf37a547884cb37ea55438c",
+   "sha256": "17akghld229pb0siv2vdhp5ddhzbwd7a611qc328p1gvvb49wmyn"
   },
   "stable": {
    "version": [
@@ -81638,11 +81638,14 @@
   "repo": "rksm/org-ai",
   "unstable": {
    "version": [
-    20230317,
-    2217
+    20230330,
+    107
    ],
-   "commit": "8748ac5687b22b7e637505871125554ec727189e",
-   "sha256": "12d4vpsgs2j4ykzyzs4yj58r562fb20i1ipf06kbz8z9slcrnpii"
+   "deps": [
+    "greader"
+   ],
+   "commit": "e7cb3fc8705b576c10ed2d97f1e9346eb2df4d8f",
+   "sha256": "133slzxmvjpdc5vxr4jajrsr0lk1i78pq42jjbbp7x4d2brm91id"
   },
   "stable": {
    "version": [
@@ -84997,11 +85000,20 @@
   "repo": "tyler-dodge/org-runbook",
   "unstable": {
    "version": [
-    20230120,
-    140
+    20230330,
+    325
    ],
-   "commit": "be8218d66493c122a60049ff5e6bd41abfaabbd8",
-   "sha256": "0m0myd3akf61lng518s6i9mgy01g2xrw0lmmina40l2fc8nwzwd6"
+   "deps": [
+    "dash",
+    "f",
+    "ht",
+    "ivy",
+    "mustache",
+    "s",
+    "seq"
+   ],
+   "commit": "3de6e4e31cd240a2ba128287a3d1bc550c253144",
+   "sha256": "0cvyilxds02mqp8vrp07kbpfzphz3wdsp0v7nv35vw6sx3n4l6nm"
   },
   "stable": {
    "version": [
@@ -91338,14 +91350,15 @@
   "repo": "emacs-php/phpstan.el",
   "unstable": {
    "version": [
-    20221105,
-    2112
+    20230330,
+    114
    ],
    "deps": [
-    "php-mode"
+    "php-mode",
+    "php-runtime"
    ],
-   "commit": "8b4be09defe5856a1855c976474ada67557780cd",
-   "sha256": "17s8wxriq98lqysrf1w9k54hfyhxn6k33raphvxj1xc4ll87vhg3"
+   "commit": "e245f87e3ec4a1776037f3295d17be8a1c5abf9f",
+   "sha256": "14nv4lxrgmjybr67s25sfdawz6plvfykwdl94pyzmx10iwhwkfpv"
   },
   "stable": {
    "version": [
@@ -103031,15 +103044,15 @@
   "repo": "twlz0ne/separedit.el",
   "unstable": {
    "version": [
-    20230329,
-    1556
+    20230330,
+    416
    ],
    "deps": [
     "dash",
     "edit-indirect"
    ],
-   "commit": "bfc52ee3509925a21d12f3cba17d3c3657c623c2",
-   "sha256": "06fl06c3616nnyxzx8i2irj3wf9rzjmssd8zhga6w9mfjylbzf0f"
+   "commit": "300fbb3938673bc593eafc97fb541276803f6f7c",
+   "sha256": "1qpsmyczslv7q42a99qbz6rsyar7w5zd08i16zag1sqf7mpnydcm"
   },
   "stable": {
    "version": [
