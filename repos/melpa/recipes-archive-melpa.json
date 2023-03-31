@@ -10592,11 +10592,11 @@
   "repo": "catppuccin/emacs",
   "unstable": {
    "version": [
-    20230326,
-    319
+    20230331,
+    1320
    ],
-   "commit": "1d88949f2e4b21dcc77879f0fb2cc98a38d66565",
-   "sha256": "0yk7gk1wylb6zzab6dv2753kas8vmbscbwwffg9hk1b7xm7f6l43"
+   "commit": "fbe012594784fe51c8d4e6ed59d8cbdabc8b565c",
+   "sha256": "05qpv147g5hwr2lc1886x1jg8znwrcpmm4309pdxbg0lp2bm3241"
   },
   "stable": {
    "version": [
@@ -28804,11 +28804,11 @@
   "url": "https://thelambdalab.xyz/git/elpher.git",
   "unstable": {
    "version": [
-    20230329,
-    731
+    20230331,
+    749
    ],
-   "commit": "31641d57f7bb95c8a8903a8d2c7ac8104603b7c4",
-   "sha256": "15j69pgd3200wdszzj9llw2c9galnhmjzjkkyb1ii1kirby6vbnj"
+   "commit": "593310c145f1836781b16abed4503969e642212e",
+   "sha256": "0xldijzsd2jsq5sa5sbnajlqd7aikyz4vz7xx381bawxnmird624"
   },
   "stable": {
    "version": [
@@ -62060,13 +62060,13 @@
   "unstable": {
    "version": [
     20230331,
-    18
+    1134
    ],
    "deps": [
     "compat"
    ],
-   "commit": "cddd1899788f6f7934f3594e1a7fda367f5fec04",
-   "sha256": "104nikbwl47jml45br74wji4p2x0pwjgx0i3fa9zq6kiyj08zldr"
+   "commit": "6a8a282ba88dbb7167918fe7b66bccdfee7704ad",
+   "sha256": "0ng3k4r3idg7jfhxjbws9dqcnh01iginybdj7w25lx72da9czkch"
   },
   "stable": {
    "version": [
@@ -62682,15 +62682,15 @@
   "repo": "isamert/jsdoc.el",
   "unstable": {
    "version": [
-    20230307,
-    1806
+    20230331,
+    647
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "486b9d65d47ab2e840264ec2aa3da67fb6dbff75",
-   "sha256": "0bhqzlw8mfq6yx6ca92vil9dc50kqjc3l958h0smd23w9b73xiil"
+   "commit": "10606a37f70cbf419590bbbc292fe1e800435ed5",
+   "sha256": "1pzklbg7nnlh94n7npf8iykgqzias4zj8a4qpymz8viq4ar4lswh"
   }
  },
  {
@@ -64523,28 +64523,28 @@
   "repo": "debanjum/khoj",
   "unstable": {
    "version": [
-    20230327,
-    2035
+    20230331,
+    1113
    ],
    "deps": [
     "dash",
     "transient"
    ],
-   "commit": "64fff1d372b7ceccff7eea13bb574c6192c5acd5",
-   "sha256": "13d7n6yz814wv1g9c1p1nb7wm47mjd9r3fradl90afshjzb7s8hn"
+   "commit": "35aa06067fb2b35ac79344f1af407fcc6b34083d",
+   "sha256": "1af2knabavkvhh24zn39g76pjl71xz1q6w12qb7yy9ygrps61ib9"
   },
   "stable": {
    "version": [
     0,
-    5,
+    6,
     0
    ],
    "deps": [
     "dash",
     "transient"
    ],
-   "commit": "64fff1d372b7ceccff7eea13bb574c6192c5acd5",
-   "sha256": "13d7n6yz814wv1g9c1p1nb7wm47mjd9r3fradl90afshjzb7s8hn"
+   "commit": "35aa06067fb2b35ac79344f1af407fcc6b34083d",
+   "sha256": "1af2knabavkvhh24zn39g76pjl71xz1q6w12qb7yy9ygrps61ib9"
   }
  },
  {
@@ -71514,11 +71514,11 @@
   "repo": "jrblevin/markdown-mode",
   "unstable": {
    "version": [
-    20230326,
-    954
+    20230331,
+    913
    ],
-   "commit": "2d79c3b95c438fa07daef12673ff5111b7c0b640",
-   "sha256": "1jm3llvik59xlk3iqdnmf87b8r8wgivls6a7l7fhj963f2w5sfrq"
+   "commit": "ad3a816f7be97deb83fc0a7fa41305c79009bac5",
+   "sha256": "1w22vbf8f5j0fx8yhh1d6k9x5gybv33cfj25fh8hdv8mc8l6iqm1"
   },
   "stable": {
    "version": [
@@ -74186,11 +74186,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20230328,
-    407
+    20230331,
+    1210
    ],
-   "commit": "a380f86397f61802b2dd058a56b086a13cecb4ae",
-   "sha256": "073wsq2z8fi6l75g8nncrc37nhliza97db3pxksccnyx1hqvf8ql"
+   "commit": "081093922d36b920b4e8a0ba0d5e70d1cefbf643",
+   "sha256": "1hfinmjbwzk1pvwlc9adriwl7k29cpg4jf24q737s0s73lhwl6ds"
   },
   "stable": {
    "version": [
@@ -91366,16 +91366,16 @@
   "repo": "emacs-php/phpstan.el",
   "unstable": {
    "version": [
-    20230330,
-    1702
+    20230331,
+    1230
    ],
    "deps": [
     "compat",
     "php-mode",
     "php-runtime"
    ],
-   "commit": "7ab85a495cd8f49c011d4a9c27b292dfaf473c95",
-   "sha256": "0iqm35jcjh3vxyjhi7d7603bhgwpkd41djdlkic67gxi2pnjyvm1"
+   "commit": "a4193de889c68d195a109fc239857f70728bce4e",
+   "sha256": "1269l0andph861mh8qp00i2qh59k0vz0nxk1xnmaj24kaways79g"
   },
   "stable": {
    "version": [
@@ -111339,15 +111339,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20230322,
-    726
+    20230331,
+    807
    ],
    "deps": [
     "rainbow-identifiers",
     "visual-fill-column"
    ],
-   "commit": "2b284714cd750c7d69c9d452340c1b31b4e01016",
-   "sha256": "1ki29nj8s56lk3qcqm2s19gnx0hqmyp93c7cgamaynjls751kdlp"
+   "commit": "18d155684f3ab12dfc674c72b4b8dcf464d34dc1",
+   "sha256": "00svirg44724gkbqfah5lqfik44763jsv68k3w6c3q8bpbxqnpn3"
   },
   "stable": {
    "version": [
