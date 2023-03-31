@@ -1132,10 +1132,10 @@
       elpaBuild {
         pname = "denote-menu";
         ename = "denote-menu";
-        version = "1.0.0";
+        version = "1.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-menu-1.0.0.tar";
-          sha256 = "0h2yilw8ygjskhpf3z745xy99rrwn3w0x5z53akrxbmf3d6rn65f";
+          url = "https://elpa.gnu.org/packages/denote-menu-1.1.1.tar";
+          sha256 = "12ry0rv45hv1vrwx9wih72s9h0f3r18xssnkzfa9ilp77kgbas5q";
         };
         packageRequires = [ denote emacs ];
         meta = {
@@ -2627,10 +2627,10 @@
       elpaBuild {
         pname = "jit-spell";
         ename = "jit-spell";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jit-spell-0.2.tar";
-          sha256 = "10h2nbp6lap26arwifhzs119mkfj76fvjsix3iccjjvfdi88wdn9";
+          url = "https://elpa.gnu.org/packages/jit-spell-0.3.tar";
+          sha256 = "0q8wd9phd0zcjhc92j633vz82fr0ji8zc9vir7kcn1msrf6jspwz";
         };
         packageRequires = [ compat emacs ];
         meta = {
