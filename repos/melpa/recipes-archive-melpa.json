@@ -2884,15 +2884,15 @@
   "url": "https://repo.or.cz/amread-mode.git",
   "unstable": {
    "version": [
-    20230107,
-    1433
+    20230331,
+    1324
    ],
    "deps": [
     "cl-lib",
     "pyim"
    ],
-   "commit": "4746c6adf81bedf8933faf912c4c65dafea9bb62",
-   "sha256": "15dr7l2zcs57hm0d2a8gs0pf5px4ibir3nf4ddxaj6aiz456sndm"
+   "commit": "fadc1cb2a0562e4e453c8399a6842e516cacf3d9",
+   "sha256": "0vgzqbk9910r2gmmzpb50xzg0b2lf9966rf3nnzk2mcsw3fkbh8l"
   }
  },
  {
@@ -20294,11 +20294,11 @@
   "repo": "emacs-dashboard/emacs-dashboard",
   "unstable": {
    "version": [
-    20230328,
-    610
+    20230331,
+    2304
    ],
-   "commit": "61b2afc1c20e18379be7b0119e5dc1f707a4a0b8",
-   "sha256": "11134nbpm8vc9a3fykm4gjfnbn1rrh0rqyfz8dyn5hyjsx6648sx"
+   "commit": "0f970d298931f9de7b511086728af140bf44a642",
+   "sha256": "0316z6l8jpchrnh0d9xswps7shngsj6x74p3v2wh14kjiznzij5m"
   },
   "stable": {
    "version": [
@@ -27445,11 +27445,11 @@
   "repo": "casouri/eldoc-box",
   "unstable": {
    "version": [
-    20230310,
-    2245
+    20230331,
+    1901
    ],
-   "commit": "c805bfcd61a060891ccb04f85798225b1bf14418",
-   "sha256": "1l3sm884falf23sl13rd7vc6s4ns16abriwyrvv45b33dl820jvj"
+   "commit": "11535ac497344ae79476e8a7e8096d4cbb71319c",
+   "sha256": "1l2d9xak2ab3pbxr43fnpswdfzspri9j9m4ghrzhwggqlcv2wvq8"
   },
   "stable": {
    "version": [
@@ -35452,14 +35452,14 @@
   "repo": "SqrtMinusOne/exwm-modeline",
   "unstable": {
    "version": [
-    20220131,
-    1520
+    20230331,
+    1747
    ],
    "deps": [
     "exwm"
    ],
-   "commit": "86bce1d91089b9a1517e1abfca86bac47be91be3",
-   "sha256": "0b2aij3w84fl1w1rk6943f58w4x01579ffs5x4xfrn2b3850mviv"
+   "commit": "852a88a58714e3e59675b79b185f036f7b0300e8",
+   "sha256": "1al02ikfjc2nxlfd0gwn9a92rs3v8g3590130nqghmmpvagl9vj9"
   },
   "stable": {
    "version": [
@@ -48149,14 +48149,14 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20230328,
-    1924
+    20230401,
+    104
    ],
    "deps": [
     "transient"
    ],
-   "commit": "1c07a94e18a914ae69ea0061f81fda4bba29afd5",
-   "sha256": "190nrxf6nqmfrsza3vyc51f02hw10wzydi45phkswydjkgsllkmp"
+   "commit": "c2ad1c004d7f5406f5eb302c533e7c7c14ea2ce0",
+   "sha256": "1n187gkw1d64va3gbnxbfs5c8m3fzphv93hwfw5ylvns7ph7a7y1"
   },
   "stable": {
    "version": [
@@ -63162,18 +63162,19 @@
   "stable": {
    "version": [
     1,
-    1,
-    5
+    2,
+    0
    ],
    "deps": [
     "dash",
     "julia-mode",
+    "popup",
     "s",
     "spinner",
     "vterm"
    ],
-   "commit": "fc67e4d603907160766cf22e8ef16029238e78d3",
-   "sha256": "04nh37izz04lxkvkxhsig8khbrrgdl4p6pkjsv5bxymnp84zwlw7"
+   "commit": "35e54bdf7d3d585772af6d7b0789bc4ca2d12be3",
+   "sha256": "1m6hh041gc10dfc1q5vxrgv64s1240whc9igqjm7asmnprajdiab"
   }
  },
  {
@@ -65350,15 +65351,15 @@
   "repo": "tecosaur/LaTeX-auto-activating-snippets",
   "unstable": {
    "version": [
-    20230302,
-    1345
+    20230331,
+    1806
    ],
    "deps": [
     "aas",
     "auctex"
    ],
-   "commit": "7f4044918c4e0a9b71128f36f65f1d86842203f9",
-   "sha256": "1n2w97rskbdjgiic6wjsxdjfh536v05mpx0f14bbjasj9y0cjh1m"
+   "commit": "a00f0aba237b85b3e5fd60cf84de5759d1bf5d48",
+   "sha256": "0mjq9lkd6r8mlmji0a1i9rjn1xbd6g0swzr3x55k9srla3nm2l0k"
   },
   "stable": {
    "version": [
@@ -71844,16 +71845,16 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20230330,
-    735
+    20230331,
+    1717
    ],
    "deps": [
     "persist",
     "request",
     "ts"
    ],
-   "commit": "34c9cf55458055c281c9137c591bbfe02dbb64fa",
-   "sha256": "0jh9ssjzh9gidr4gvrz07x2xpql041zg1lyviqnb7wwahdp5xzr4"
+   "commit": "4e095bd9d37f0decec2471030c32d724b686d46e",
+   "sha256": "0cnr8v77pmgnzrhy7b2v401790bqp1nv408qkpss3alyd2pz0q9z"
   },
   "stable": {
    "version": [
