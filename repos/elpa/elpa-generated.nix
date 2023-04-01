@@ -1627,6 +1627,7 @@
                          , fetchurl
                          , lib
                          , map
+                         , persist
                          , plz
                          , svg-lib
                          , taxy
@@ -1635,14 +1636,15 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.7";
+        version = "0.8.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.7.tar";
-          sha256 = "12xfs6g9sc3wq2fm5782gllkci85k0ghlk5kmfixmskhdd50prm3";
+          url = "https://elpa.gnu.org/packages/ement-0.8.1.tar";
+          sha256 = "0h5xqi5szmfxrs6hl85vkd363mrkrzi1niph3v3aybisffxlfyxg";
         };
         packageRequires = [
           emacs
           map
+          persist
           plz
           svg-lib
           taxy
