@@ -17139,16 +17139,16 @@
   "repo": "mclear-tools/consult-notes",
   "unstable": {
    "version": [
-    20230316,
-    1720
+    20230401,
+    1922
    ],
    "deps": [
     "consult",
     "dash",
     "s"
    ],
-   "commit": "43cf9a2f3adbed934b0907fe1fd3664b99ca5afe",
-   "sha256": "0p1x95cjry3kd72sj32dvgaw9jxc38ha4vj2w34vsm6jp9kv70gb"
+   "commit": "941325a3484782017c27e3ffe5ddb3b9151b8740",
+   "sha256": "100v7bvj2hwln0jfvwfmi6rlx69x1m06k0f2yxg7w3s79jjlspy7"
   }
  },
  {
@@ -32213,11 +32213,11 @@
   "repo": "emacs-ess/ESS",
   "unstable": {
    "version": [
-    20230302,
-    2111
+    20230402,
+    42
    ],
-   "commit": "86d1bce8b53522a5939924960025799e66d9414e",
-   "sha256": "074drba1z8h0cidj7y657905lpkxp7ysds3iipl1nz24lfx6s28n"
+   "commit": "5857bb020a208c1f4c244a51a1a85bf0ed5c0c31",
+   "sha256": "0ir1abyn5nri26s3i1gqp6i8wyz0qhk6bzzhmy29sl6v63ajna51"
   },
   "stable": {
    "version": [
@@ -63714,11 +63714,11 @@
   "url": "https://hg.sr.ht/~arnebab/kanban.el",
   "unstable": {
    "version": [
-    20230206,
-    2131
+    20230210,
+    1505
    ],
-   "commit": "9b588f94efb5a784c9bc10ad66f424b253c5fe5e",
-   "sha256": "18ywrhj74v7vlcfz84ld90qs9axc2p61x05q27hv2fhzmv3pc72b"
+   "commit": "d70fa7acab2bfcbb7d3da43c1343073f7eff4998",
+   "sha256": "0ic1gllj8ffvypn911w9rcw8jjahsqnzp3mk8shim06nw8qjs6af"
   }
  },
  {
@@ -69071,7 +69071,7 @@
   "unstable": {
    "version": [
     20230401,
-    1350
+    1406
    ],
    "deps": [
     "dap-mode",
@@ -69083,8 +69083,8 @@
     "scala-mode",
     "treemacs"
    ],
-   "commit": "ae3eede6869e604cbea316d1f2dd8a4d3b673ef5",
-   "sha256": "1i7fzan2fwggivgx6far1mmfrgsg4drhava7768frx3aq8kacd2k"
+   "commit": "6affc64252605f355d2bd16408a7e8436473a9f6",
+   "sha256": "1v68n8ay823zgn9k6ixz2ya2dhhibk9gbvbnc2z5pw393ia3vn39"
   },
   "stable": {
    "version": [
@@ -71846,15 +71846,15 @@
   "unstable": {
    "version": [
     20230401,
-    1127
+    2008
    ],
    "deps": [
     "persist",
     "request",
     "ts"
    ],
-   "commit": "aa982db0c5bc6e9e02a79ada9089cc78199789b9",
-   "sha256": "0hsnz83liixmlzg6vyj2nk1kqq6p0n6rm9qwwcwf1a29mvbin86k"
+   "commit": "e4ccc526baf011ad60ef978aef83de2ee2e9f506",
+   "sha256": "13msakm7lpmpkpkm78v8ba11sjbhqxpjd9k6krdvx9wfd8z4kigl"
   },
   "stable": {
    "version": [
@@ -93757,14 +93757,15 @@
   "repo": "SavchenkoValeriy/emacs-powerthesaurus",
   "unstable": {
    "version": [
-    20230321,
-    1459
+    20230401,
+    1906
    ],
    "deps": [
-    "jeison"
+    "jeison",
+    "s"
    ],
-   "commit": "8bcc2a7f7d1751e34291a1983885da3ebb8c3023",
-   "sha256": "0ypxx8pq18azpminjqcnbsiq3ckcl56zhilzxwmy5xlxyxmyp71z"
+   "commit": "30ad1e81c95942edd52f650c4af5e9d9162715b1",
+   "sha256": "1dbym2ls8srrxgd7r8nd4ms6lak89l1iarrkl3cdk822sakdibv0"
   },
   "stable": {
    "version": [
@@ -96188,8 +96189,8 @@
   "repo": "dwcoates/pygn-mode",
   "unstable": {
    "version": [
-    20220531,
-    1422
+    20230401,
+    1858
    ],
    "deps": [
     "ivy",
@@ -96198,8 +96199,8 @@
     "tree-sitter-langs",
     "uci-mode"
    ],
-   "commit": "9a56e701cfcdf9024dda15175e0d0fc645446019",
-   "sha256": "1g24545512vr07773k7lcjf4ispwkf7y3y4nivgp66fqr1lqh34z"
+   "commit": "8d290f69ce64a5e6f310ffa42c44fd781c20bcfd",
+   "sha256": "07h9mhy1q3dk7j7mx0b3w8d76s7d0mbirafjhfpq6sl92awplzs8"
   },
   "stable": {
    "version": [
@@ -100011,15 +100012,15 @@
   "repo": "dajva/rg.el",
   "unstable": {
    "version": [
-    20230325,
-    1440
+    20230401,
+    1434
    ],
    "deps": [
     "transient",
     "wgrep"
    ],
-   "commit": "9a6bcf7180108a58ed4612aa4e55af13410ac9d0",
-   "sha256": "1adici6hs4ivz7lqhrgdm9g1rz0mgvrsa7pkr2pcx6mg1f0qnlmr"
+   "commit": "e8397ea2f9cadda20bf87e3fae71540511b52d9c",
+   "sha256": "1lzivjwz6z29bynksjn72qq1nsmzs3khd857an8vgsjlzilflx18"
   },
   "stable": {
    "version": [
@@ -106763,14 +106764,14 @@
   "repo": "md-arif-shaikh/soccer",
   "unstable": {
    "version": [
-    20230327,
-    1433
+    20230401,
+    1442
    ],
    "deps": [
     "dash"
    ],
-   "commit": "d126be0d4650bb7e1887d796a4fba4cee97a7c05",
-   "sha256": "0r6miyr9hljkdhk3fvvd85q4vpzgpxzyr18lisrir6hdvmsfaqsq"
+   "commit": "edf7aac57008d7b33ab44f3da317b3563f6e0b19",
+   "sha256": "00dd4cg2zpkz6zb3l3lvi9xnxhdvl48f49lz4n1r5ydhpls25b3x"
   },
   "stable": {
    "version": [
@@ -122561,11 +122562,11 @@
   "url": "https://www.yatex.org/hgrepos/yatex",
   "unstable": {
    "version": [
-    20221216,
-    904
+    20221225,
+    512
    ],
-   "commit": "c11261c0960fe44c8664aa017924475dde9d7f71",
-   "sha256": "1q1m1lap3h32i4j09n1c326d71l18ky4k75mdmcxr1r8z3agsfjz"
+   "commit": "157aa7974191bbb4707d26b05ce830282ad70ef5",
+   "sha256": "0k23snhqj9vqzrv8mbyjfqv1q3riv67dmphbdrpxprfm0k6bd3ds"
   },
   "stable": {
    "version": [
