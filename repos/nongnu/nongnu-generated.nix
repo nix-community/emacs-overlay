@@ -49,10 +49,10 @@
       elpaBuild {
         pname = "annotate";
         ename = "annotate";
-        version = "1.9.0";
+        version = "2.0.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/annotate-1.9.0.tar";
-          sha256 = "1wz0lbs2q3qrmbbxf5dflhfg0wlhzzpyk0i2mp9gq9b1g93ng1qk";
+          url = "https://elpa.nongnu.org/nongnu/annotate-2.0.0.tar";
+          sha256 = "0lahs00abcwjzjqz8238bcmsb25l0r3rj6zycsw7xjkz913sin7y";
         };
         packageRequires = [];
         meta = {
