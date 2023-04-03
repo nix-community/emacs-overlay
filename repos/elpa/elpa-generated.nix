@@ -1531,10 +1531,10 @@
       elpaBuild {
         pname = "eldoc";
         ename = "eldoc";
-        version = "1.13.0";
+        version = "1.14.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eldoc-1.13.0.tar";
-          sha256 = "0c05dzrs7vrhibj46jpz625482ah6xywji7way6wcvwc711y74fz";
+          url = "https://elpa.gnu.org/packages/eldoc-1.14.0.tar";
+          sha256 = "15bg61nbfb6l51frlsn430ga3vscns2651wvi6377vlyra7kgn39";
         };
         packageRequires = [ emacs ];
         meta = {
