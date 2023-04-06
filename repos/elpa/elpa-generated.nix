@@ -1636,10 +1636,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.8.1";
+        version = "0.8.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.8.1.tar";
-          sha256 = "0h5xqi5szmfxrs6hl85vkd363mrkrzi1niph3v3aybisffxlfyxg";
+          url = "https://elpa.gnu.org/packages/ement-0.8.2.tar";
+          sha256 = "0ghmdln7r0h4k5skb2bymlyx341sbiab5aks09q8j7sa3y9a8fj3";
         };
         packageRequires = [
           emacs
