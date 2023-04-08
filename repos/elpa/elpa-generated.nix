@@ -2644,10 +2644,10 @@
       elpaBuild {
         pname = "js2-mode";
         ename = "js2-mode";
-        version = "20220710";
+        version = "20230408";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/js2-mode-20220710.tar";
-          sha256 = "1wvkqkfbnk3qanbz9167z8dik3667ihgyca8brbkh2b1ld10f9yq";
+          url = "https://elpa.gnu.org/packages/js2-mode-20230408.tar";
+          sha256 = "1rzlbqddvaa51dz13did5ylj0ggwqnl0wii8735sylfcv6b82241";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
