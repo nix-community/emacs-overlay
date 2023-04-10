@@ -37,7 +37,11 @@ let
                 --replace '(emacs-repository-get-version)' '"${repoMeta.rev}"' \
                 --replace '(emacs-repository-get-branch)' '"master"'
               '' +
-              # XXX: remove when https://github.com/NixOS/nixpkgs/pull/193621 is merged
+              # XXX: Remove when emacsLsp updates to use Emacs 29.  We
+              # already have logic in upstream Nixpkgs to use a
+              # different patch for earlier major versions of Emacs,
+              # but the major version for emacsLsp follows the format
+              # of version YYYYMMDD, as opposed to version (say) 29
                 (super.lib.optionalString (old ? NATIVE_FULL_AOT)
                     (let backendPath = (super.lib.concatStringsSep " "
                       (builtins.map (x: ''\"-B${x}\"'') [
