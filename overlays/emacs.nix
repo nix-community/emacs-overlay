@@ -37,11 +37,17 @@ let
                 --replace '(emacs-repository-get-version)' '"${repoMeta.rev}"' \
                 --replace '(emacs-repository-get-branch)' '"master"'
               '' +
-              # XXX: Remove when emacsLsp updates to use Emacs 29.  We
-              # already have logic in upstream Nixpkgs to use a
-              # different patch for earlier major versions of Emacs,
+              # XXX: Maybe remove when emacsLsp updates to use Emacs
+              # 29.  We already have logic in upstream Nixpkgs to use
+              # a different patch for earlier major versions of Emacs,
               # but the major version for emacsLsp follows the format
-              # of version YYYYMMDD, as opposed to version (say) 29
+              # of version YYYYMMDD, as opposed to version (say) 29.
+              # Removing this here would also require that we don't
+              # overwrite the patches attribute in the overlay to an
+              # empty list since we would then expect the Nixpkgs
+              # patch to be used. Not sure if it's better to rely on
+              # upstream Nixpkgs since it's cumbersome to wait for
+              # things to get merged into master.
                 (super.lib.optionalString (old ? NATIVE_FULL_AOT)
                     (let backendPath = (super.lib.concatStringsSep " "
                       (builtins.map (x: ''\"-B${x}\"'') [
