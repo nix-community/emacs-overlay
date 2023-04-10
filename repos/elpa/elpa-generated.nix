@@ -1312,10 +1312,10 @@
       elpaBuild {
         pname = "doc-toc";
         ename = "doc-toc";
-        version = "1.1";
+        version = "1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/doc-toc-1.1.tar";
-          sha256 = "145k0w84nda1gq5g8zd9510kxhqqqk72ladi3av6hpydvym6bszz";
+          url = "https://elpa.gnu.org/packages/doc-toc-1.2.tar";
+          sha256 = "0vz2jyqgx0sf3mhxnnm0fl395a9mcd9fg661pp3mz0pywpl3ymax";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3264,10 +3264,10 @@
       elpaBuild {
         pname = "nano-agenda";
         ename = "nano-agenda";
-        version = "0.2.1";
+        version = "0.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-agenda-0.2.1.tar";
-          sha256 = "0j29fwc273mjdlj83h1a46sb7z3j066qqnp2i78kn2pmgjg27szb";
+          url = "https://elpa.gnu.org/packages/nano-agenda-0.2.2.tar";
+          sha256 = "1238dgsz5akvlbm8ws3aag2gl1adz1b4lhacpgghi3r85378x3n6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3838,10 +3838,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.44";
+        version = "0.4.45";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.44.tar";
-          sha256 = "0xzhigj8dvhaqj87wk1z9lhbhjsk944ydp4h6pn4lqa9lgb0kfkl";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.45.tar";
+          sha256 = "0mnyfiilmgd195a3a2khnkkd6ank88cjxvys2cp86imjgcv2rjyi";
         };
         packageRequires = [ emacs ];
         meta = {
