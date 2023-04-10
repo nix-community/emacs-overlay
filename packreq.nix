@@ -10,17 +10,21 @@ in
 { packageElisp
 , extraEmacsPackages ? epkgs: [ ]
 , package ? pkgs.emacs
-, override ? (epkgs: epkgs)
+, override ? (self: super: { })
 }:
 let
   packages = parse.parsePackagesFromPackageRequires packageElisp;
-  emacsPackages = pkgs.emacsPackagesFor package;
+  emacsPackages = (pkgs.emacsPackagesFor package).overrideScope' (self: super:
+    # for backward compatibility: override was a function with one parameter
+    if builtins.isFunction (override super)
+    then override self super
+    else override super
+  );
   emacsWithPackages = emacsPackages.emacsWithPackages;
 in
 emacsWithPackages (epkgs:
   let
-    overriden = override epkgs;
-    usePkgs = builtins.map (name: overriden.${name}) packages;
-    extraPkgs = extraEmacsPackages overriden;
+    usePkgs = builtins.map (name: epkgs.${name}) packages;
+    extraPkgs = extraEmacsPackages epkgs;
   in
-  [ overriden.use-package ] ++ usePkgs ++ extraPkgs)
+  [ epkgs.use-package ] ++ usePkgs ++ extraPkgs)

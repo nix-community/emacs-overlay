@@ -20,7 +20,7 @@ in
 , alwaysTangle ? false
 , extraEmacsPackages ? epkgs: [ ]
 , package ? pkgs.emacs
-, override ? (epkgs: epkgs)
+, override ? (self: super: { })
 }:
 let
   ensureNotice = ''
@@ -53,7 +53,12 @@ let
     inherit configText isOrgModeFile alwaysTangle;
     alwaysEnsure = doEnsure;
   };
-  emacsPackages = pkgs.emacsPackagesFor package;
+  emacsPackages = (pkgs.emacsPackagesFor package).overrideScope' (self: super:
+    # for backward compatibility: override was a function with one parameter
+    if builtins.isFunction (override super)
+    then override self super
+    else override super
+  );
   emacsWithPackages = emacsPackages.emacsWithPackages;
   mkPackageError = name:
     let
@@ -63,9 +68,8 @@ let
 in
 emacsWithPackages (epkgs:
   let
-    overridden = override epkgs;
-    usePkgs = map (name: overridden.${name} or (mkPackageError name)) packages;
-    extraPkgs = extraEmacsPackages overridden;
+    usePkgs = map (name: epkgs.${name} or (mkPackageError name)) packages;
+    extraPkgs = extraEmacsPackages epkgs;
     defaultInitFilePkg =
       if !((builtins.isBool defaultInitFile) || (lib.isDerivation defaultInitFile))
       then throw "defaultInitFile must be bool or derivation"
