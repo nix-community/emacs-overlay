@@ -2728,10 +2728,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.2.1";
+        version = "1.2.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.2.1.tar";
-          sha256 = "09a3ggnqsm4lxqhj0z9z3df6qzibvv9lpwqij2gpiifbb4lkvj4b";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.2.2.tar";
+          sha256 = "1xlh4kqa8516rvmzy67pzs0ghk9rc919nq5b2sywd5mvzi5spxnh";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3197,10 +3197,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "23.10.20230404113004";
+        version = "23.10.20230407101020";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-23.10.20230404113004.tar";
-          sha256 = "0rm8j83pv3sp484p9ilc76z6kbfh415lmb5vbcjyrzv7g43i0wgl";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-23.10.20230407101020.tar";
+          sha256 = "1gdzl5s80hhfnskngjsw1wy18rs6k5hr5cvnj7pdli9ai10alx9y";
         };
         packageRequires = [ emacs ];
         meta = {
