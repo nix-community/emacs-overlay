@@ -2489,10 +2489,10 @@
       elpaBuild {
         pname = "ivy";
         ename = "ivy";
-        version = "0.13.4";
+        version = "0.14.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ivy-0.13.4.tar";
-          sha256 = "0qpza1c45mr8fcpnm32cck4v22fnzz1yb7kww05rzgq1k9iivx5v";
+          url = "https://elpa.gnu.org/packages/ivy-0.14.0.tar";
+          sha256 = "1fzl7xcmxjg005g4676ac3jcshgmcmdr81ywmxvjcs8wj71v56jv";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2504,10 +2504,10 @@
       elpaBuild {
         pname = "ivy-avy";
         ename = "ivy-avy";
-        version = "0.13.4";
+        version = "0.14.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ivy-avy-0.13.4.tar";
-          sha256 = "1q5caxm4rnh4jy5n88dhkdbx1afsshmfki5dl8xsqbdb3y0zq7yi";
+          url = "https://elpa.gnu.org/packages/ivy-avy-0.14.0.tar";
+          sha256 = "0gjpvjahhkxsakqrcni78v71fsrh3f0jrs55a4kqc5hv6qyn8hk9";
         };
         packageRequires = [ avy emacs ivy ];
         meta = {
@@ -2534,10 +2534,10 @@
       elpaBuild {
         pname = "ivy-hydra";
         ename = "ivy-hydra";
-        version = "0.13.5";
+        version = "0.14.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ivy-hydra-0.13.5.tar";
-          sha256 = "06rln9bnq5hli5rqlm47fb68b8llpqrmzwqqv4rn7mx3854i9a5x";
+          url = "https://elpa.gnu.org/packages/ivy-hydra-0.14.0.tar";
+          sha256 = "1gsjr2yny9qcj56cb4xy47la11z0lszq0f2qws0yzyh02ng30k1n";
         };
         packageRequires = [ emacs hydra ivy ];
         meta = {
@@ -3264,10 +3264,10 @@
       elpaBuild {
         pname = "nano-agenda";
         ename = "nano-agenda";
-        version = "0.2.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-agenda-0.2.2.tar";
-          sha256 = "1238dgsz5akvlbm8ws3aag2gl1adz1b4lhacpgghi3r85378x3n6";
+          url = "https://elpa.gnu.org/packages/nano-agenda-0.3.tar";
+          sha256 = "1ip21vjapcrla6j0qbjkcrdhs6xq773cswmwbhnsxb3xpzsa1z7x";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4958,14 +4958,29 @@
       elpaBuild {
         pname = "swiper";
         ename = "swiper";
-        version = "0.13.4";
+        version = "0.14.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/swiper-0.13.4.tar";
-          sha256 = "197pq2cvvskib87aky907wv2am55vilr7y5dabmmm07a8vr9py0v";
+          url = "https://elpa.gnu.org/packages/swiper-0.14.0.tar";
+          sha256 = "1p2qil6gj4y8y3ydqs8pbxn8j16q9r42nnc2f61c30hws504pkms";
         };
         packageRequires = [ emacs ivy ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/swiper.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    switchy-window = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "switchy-window";
+        ename = "switchy-window";
+        version = "1.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/switchy-window-1.1.tar";
+          sha256 = "0i1yxcnv72p6ym6c8ykkib5d16svpmdhj5nv60jv68figgqnlb07";
+        };
+        packageRequires = [ compat emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/switchy-window.html";
           license = lib.licenses.free;
         };
       }) {};
