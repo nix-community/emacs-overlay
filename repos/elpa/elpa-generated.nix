@@ -907,10 +907,10 @@
       elpaBuild {
         pname = "counsel";
         ename = "counsel";
-        version = "0.13.4";
+        version = "0.14.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/counsel-0.13.4.tar";
-          sha256 = "094zfapfn1l8wjf3djkipk0d9nks0g77sbk107pfsbr3skkzh031";
+          url = "https://elpa.gnu.org/packages/counsel-0.14.0.tar";
+          sha256 = "03n1qk66dcbh9xlnlzpwkb441c2xdpfc7bzx4i2szw0xh4a6g5sj";
         };
         packageRequires = [ emacs ivy swiper ];
         meta = {
@@ -4684,10 +4684,10 @@
       elpaBuild {
         pname = "sml-mode";
         ename = "sml-mode";
-        version = "6.11";
+        version = "6.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sml-mode-6.11.tar";
-          sha256 = "05vga709kphbx6jacqh57cq5gyicwrxxf81gask5lbq7vzfzlbfc";
+          url = "https://elpa.gnu.org/packages/sml-mode-6.12.tar";
+          sha256 = "19wyxsnw60lmjbb7ijislpv9vzk9996rh1b0iw7wyrqszfxy2p20";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
