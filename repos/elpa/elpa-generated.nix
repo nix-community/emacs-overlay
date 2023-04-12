@@ -1636,10 +1636,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.8.2";
+        version = "0.8.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.8.2.tar";
-          sha256 = "0ghmdln7r0h4k5skb2bymlyx341sbiab5aks09q8j7sa3y9a8fj3";
+          url = "https://elpa.gnu.org/packages/ement-0.8.3.tar";
+          sha256 = "074ah73y2v285rlgzn3q2kcqmbra2qdz4hmjs8xd5hpk7za53c7w";
         };
         packageRequires = [
           emacs
@@ -1880,10 +1880,10 @@
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.2.2";
+        version = "1.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/flymake-1.2.2.tar";
-          sha256 = "04pa6mayyqrhrijk0rmmrd7k7al9caqyrb5qzkzwbna9ykb1j4zp";
+          url = "https://elpa.gnu.org/packages/flymake-1.3.2.tar";
+          sha256 = "0ql2zv25222cr6rjc4qw0jk6jc9aicnfxdia395c0564hdmwgfgm";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
@@ -4973,10 +4973,10 @@
       elpaBuild {
         pname = "switchy-window";
         ename = "switchy-window";
-        version = "1.1";
+        version = "1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/switchy-window-1.1.tar";
-          sha256 = "0i1yxcnv72p6ym6c8ykkib5d16svpmdhj5nv60jv68figgqnlb07";
+          url = "https://elpa.gnu.org/packages/switchy-window-1.3.tar";
+          sha256 = "1ax63fksjmjsgai7xxzm1mj5bhbc7dzk7c389abd280g637z2cy7";
         };
         packageRequires = [ compat emacs ];
         meta = {
