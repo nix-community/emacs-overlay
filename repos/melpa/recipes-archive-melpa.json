@@ -31343,11 +31343,11 @@
   "repo": "erlang/otp",
   "unstable": {
    "version": [
-    20230322,
-    848
+    20230412,
+    849
    ],
-   "commit": "dac89a6acc1a93a615930ca18f1dbf4e9323b038",
-   "sha256": "1xqzdqniv6af7cajd3agnqdi12n4fy644p8z07k7r24cp1lz7y03"
+   "commit": "1f897adc9df5e0de5d5a85633a8629a7e45ddeab",
+   "sha256": "00f11psvhvlrhx5p160dzix5kq5af8yqrixq2npc4dsgmv7wwlmi"
   },
   "stable": {
    "version": [
@@ -32935,15 +32935,15 @@
   "repo": "emacs-evil/evil",
   "unstable": {
    "version": [
-    20230411,
-    36
+    20230412,
+    1314
    ],
    "deps": [
     "cl-lib",
     "goto-chg"
    ],
-   "commit": "9bbebe05d490b0c54cffb07e4bc60ee6f3833773",
-   "sha256": "00zjyq8l69jcij9f6nj8jsp6z6b5zgb11rh6p8bn6izkgzdya273"
+   "commit": "e4f42cf5623b0721394241142416a5216715aa69",
+   "sha256": "0p22bzsf4vghg4hgk4wk3c9a8yagx5v96s2138w6bmk4lsf2mzyj"
   },
   "stable": {
    "version": [
@@ -52478,16 +52478,16 @@
   "repo": "yyoncho/helm-icons",
   "unstable": {
    "version": [
-    20210330,
-    1216
+    20230412,
+    1425
    ],
    "deps": [
     "dash",
     "f",
     "treemacs"
    ],
-   "commit": "8d2f5e705c8b78a390677cf242024739c932fc95",
-   "sha256": "0q220a0knzmm2xk7hjcz6wkdk39ni2qndvnnsrc2vg04r5k12lm7"
+   "commit": "9c816279b1a4206b42a71f41de080a0a306b5cc2",
+   "sha256": "1zhhmcjsqq9i3r0zwj7azwkrdwj1h1rs2bh2xdwrym27y3af8l95"
   }
  },
  {
@@ -62054,14 +62054,14 @@
   "repo": "minad/jinx",
   "unstable": {
    "version": [
-    20230410,
-    1740
+    20230412,
+    1519
    ],
    "deps": [
     "compat"
    ],
-   "commit": "5c15a6646f4bc06a94bff6d478a843db4faef76b",
-   "sha256": "0yj5zxl1qfq2c015arikf1yqn7rslxwswl6wxqc1n7m2sik62k82"
+   "commit": "486840e36b369db141ce440209a79c380e64b2c0",
+   "sha256": "09b9adpl47bj54v05gns4da34c81kkfff6fg1hpbjp0v0n5kb53z"
   },
   "stable": {
    "version": [
@@ -102124,16 +102124,17 @@
   "repo": "teeann/scholar-import",
   "unstable": {
    "version": [
-    20220730,
-    431
+    20230412,
+    1413
    ],
    "deps": [
     "org",
+    "parsebib",
     "request",
     "s"
    ],
-   "commit": "7cb04af45f1ed1db30d6e7788803e578c641b3b6",
-   "sha256": "00v9zl25vs71qsjxq54rcyj10b6m8nxvzfy8x6anxmis0r5g4f8k"
+   "commit": "2456367578caa7fd768e30238ce080687faa0a25",
+   "sha256": "1jgandx2zs6m921jxhb476g7ldh7paa7qlwjy9lzzn3cfgb18r8w"
   }
  },
  {
