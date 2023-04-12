@@ -144,13 +144,15 @@ let
 
   emacsUnstable = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; treeSitterPlugins = defaultTreeSitterPlugins; };
 
+  emacsUnstablePgtk = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withPgtk = true; treeSitterPlugins = defaultTreeSitterPlugins; };
+
   emacsLsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json { noTreeSitter = true; });
 
 in
 {
   inherit emacsGit emacsUnstable;
 
-  inherit emacsPgtk;
+  inherit emacsPgtk emacsUnstablePgtk;
 
   emacsGit-nox = (
     (
