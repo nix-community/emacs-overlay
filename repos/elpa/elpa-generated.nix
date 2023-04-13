@@ -569,10 +569,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.13";
+        version = "0.14";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cape-0.13.tar";
-          sha256 = "1rd4ja5dlg9jnh75h24a475cfn8v6icxljya190yfp44vwl5q9v0";
+          url = "https://elpa.gnu.org/packages/cape-0.14.tar";
+          sha256 = "1bi57jbhvwfk73k7bnc4hwqnx491jhd9fv5ypg5ikgsxmwrj5nqv";
         };
         packageRequires = [ compat emacs ];
         meta = {
