@@ -605,10 +605,10 @@
       elpaBuild {
         pname = "eat";
         ename = "eat";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/eat-0.7.tar";
-          sha256 = "1znz13aijwda66c57faw1zif7in7cz2snj5dk4pk140sd809lzv8";
+          url = "https://elpa.nongnu.org/nongnu/eat-0.8.tar";
+          sha256 = "1nvwd8iryjdcbm3v2xjgnf4ifcbs4d8hxn7xydxw6i7c5l8vya9f";
         };
         packageRequires = [ emacs ];
         meta = {
