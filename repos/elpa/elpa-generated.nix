@@ -3838,10 +3838,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.45";
+        version = "0.4.46";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.45.tar";
-          sha256 = "0mnyfiilmgd195a3a2khnkkd6ank88cjxvys2cp86imjgcv2rjyi";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.46.tar";
+          sha256 = "128pbn2ndqwvaxxagwz23xa9adr3m5dac1cid7dichddsis849z8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4108,10 +4108,10 @@
       elpaBuild {
         pname = "rcirc-color";
         ename = "rcirc-color";
-        version = "0.4.4";
+        version = "0.4.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rcirc-color-0.4.4.tar";
-          sha256 = "1jwx9fd3m7zl6c7q91v185iy7b8q1bncvif80xi6hbi2srz9rlfg";
+          url = "https://elpa.gnu.org/packages/rcirc-color-0.4.5.tar";
+          sha256 = "0j2bcx2dplcy5zgh9zdhla8i12rq916ilbnw4ns83xdg7k0dwncf";
         };
         packageRequires = [ emacs ];
         meta = {
