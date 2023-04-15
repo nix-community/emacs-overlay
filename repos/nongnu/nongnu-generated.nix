@@ -156,10 +156,10 @@
       elpaBuild {
         pname = "autothemer";
         ename = "autothemer";
-        version = "0.2.14";
+        version = "0.2.18";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/autothemer-0.2.14.tar";
-          sha256 = "14y8b807d75qym1qviiqy1s85495z9g7jvvfqqz42ngdnk87l3qb";
+          url = "https://elpa.nongnu.org/nongnu/autothemer-0.2.18.tar";
+          sha256 = "1gn7n8xd07sks49xirwah1y039s2hn02p0y1j4lmqh7m47l0fvl2";
         };
         packageRequires = [ dash emacs ];
         meta = {
@@ -1874,10 +1874,10 @@
       elpaBuild {
         pname = "minibar";
         ename = "minibar";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/minibar-0.2.tar";
-          sha256 = "0idb91vp0pbichv2gfs314av6cgx5mkrn9w3yxwj81if1bvsmw0h";
+          url = "https://elpa.nongnu.org/nongnu/minibar-0.3.tar";
+          sha256 = "1mgkkjaav9hkg1c0lvn887armxv18hn99zd3dy1dx2lnjv2kfdcp";
         };
         packageRequires = [ emacs ];
         meta = {
