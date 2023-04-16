@@ -3523,10 +3523,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.3";
+        version = "9.6.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.3.tar";
-          sha256 = "0vl74x38fj9d8kmm47hr5d1mp2j87jy94jlhrbcawq8rgin6im3j";
+          url = "https://elpa.gnu.org/packages/org-9.6.4.tar";
+          sha256 = "1g0yi308bviw9fypikx67n2g4hvr63cin4pxnhv8s70np7754kf2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3868,10 +3868,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.5";
+        version = "0.5.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/plz-0.5.tar";
-          sha256 = "1hrsc4a9i8gvq8czrgw6pbppwy344bk67q7caxz3rdwvq7lynina";
+          url = "https://elpa.gnu.org/packages/plz-0.5.4.tar";
+          sha256 = "0dmjza49135x3baczk6q0lv9ib8lvfkdbbw4ps5hkr45wfxr64vc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5297,10 +5297,10 @@
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.2.6";
+        version = "0.2.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/triples-0.2.6.tar";
-          sha256 = "09vr8r78vpycpxglacbgy2fy01khmvhh42panilwz2n9nhjy6xzm";
+          url = "https://elpa.gnu.org/packages/triples-0.2.7.tar";
+          sha256 = "1p980liprsnir4wqvf0ixzykv61iaaprkc6wc0vi7a4q2pj7ra6f";
         };
         packageRequires = [ emacs seq ];
         meta = {
