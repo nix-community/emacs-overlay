@@ -3691,11 +3691,11 @@
   "repo": "radian-software/apheleia",
   "unstable": {
    "version": [
-    20230329,
-    2135
+    20230416,
+    1650
    ],
-   "commit": "23c8b7d1ca3d855b38b8fe8bee760fa1234b6143",
-   "sha256": "0675pqlq674143l77qysw6ks0y1y6nh54fzr2ycfbfbm0shm4z29"
+   "commit": "ad728cfa769a8266811cf0282b4440721d4167c5",
+   "sha256": "0gnp4ywij8b9505mravvs8zg99igq7p70kn37860hamn46khz34z"
   },
   "stable": {
    "version": [
@@ -13743,6 +13743,27 @@
   }
  },
  {
+  "ename": "code-compass",
+  "commit": "8c7b3fb6e3a312d582e15eb8203cb7e90dc8a39c",
+  "sha256": "1pm4fmbyxc9qaadz93iapixciaxzwyrrmrxnnb67xjvfp5psvl7h",
+  "fetcher": "github",
+  "repo": "ag91/code-compass",
+  "unstable": {
+   "version": [
+    20230411,
+    1032
+   ],
+   "deps": [
+    "async",
+    "dash",
+    "s",
+    "simple-httpd"
+   ],
+   "commit": "ffd26ff116d18c4459eb491824553668ba1227b3",
+   "sha256": "1gkvl1dd8ahspyjn50hh2klgy8b9vcv55m7fsrsmknqfdjs0559g"
+  }
+ },
+ {
   "ename": "code-library",
   "commit": "197bdc508c4fd9712125553a108ca6c9fedcaefc",
   "sha256": "0gi8lz2q0vis4nyziykq15jp3m3vykfwycbk6amhf1ybkn9k3ywj",
@@ -14594,11 +14615,11 @@
   "repo": "company-mode/company-mode",
   "unstable": {
    "version": [
-    20230415,
-    100
+    20230416,
+    2034
    ],
-   "commit": "9d55b02c8c4ca823b31ea5c69efa9f8e5ce92c5b",
-   "sha256": "0s9bgii11kyz0h7zx3lh31zljbq9pnfi62aibkx7wd1n58svkzj9"
+   "commit": "8a78f320019574bc35b5727f95b052b27918da20",
+   "sha256": "1rmxcv5nfvp6j26zcv5fb563mzwf205s5417yqmfyc44v8j905i7"
   },
   "stable": {
    "version": [
@@ -15148,17 +15169,16 @@
   "repo": "jcs-elpa/company-fuzzy",
   "unstable": {
    "version": [
-    20221231,
-    1708
+    20230416,
+    2129
    ],
    "deps": [
     "company",
     "ht",
-    "list-utils",
     "s"
    ],
-   "commit": "eff3b5429d7e8d0eb2d62fb352ae843fe1a99ac2",
-   "sha256": "05f2lfn5ivg3pp1avllfy8z5j6q7i9mb143p5299kqwlfk83fcq2"
+   "commit": "049ba8ff49a86f3657522801d8d142dda1626b19",
+   "sha256": "0q2am6d0bb00bb3ywql1mfnnkszkzdhyr5ia0yssvs6xzszf16h8"
   },
   "stable": {
    "version": [
@@ -69046,14 +69066,14 @@
   "repo": "emacs-languagetool/lsp-ltex",
   "unstable": {
    "version": [
-    20221231,
-    1658
+    20230416,
+    1826
    ],
    "deps": [
     "lsp-mode"
    ],
-   "commit": "d1a599c8ec3748c2b81899d5831b6e7158255479",
-   "sha256": "1y6l7wi216s6vpahp3wsmjrfafny2gsf043hx9rwiijwq324ilq3"
+   "commit": "c2faddc1197a360548aee7927b6512365e8c0d3a",
+   "sha256": "1mc5gsgw5m2sysi73jvrnnyyhpqdvwmhw843rwfh2djmiy6smwl9"
   },
   "stable": {
    "version": [
@@ -69123,8 +69143,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20230407,
-    1752
+    20230416,
+    2018
    ],
    "deps": [
     "dash",
@@ -69135,8 +69155,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "3143400be9dfc1335483838e24ae5e0f5705d420",
-   "sha256": "0i3xjjyg3acyjw6ckpka2z3qpkh6hnskdkj5ali3jqg1hvsdcx7n"
+   "commit": "7a32abb8e91a95cd6809c9d27f2b8e1f855a0599",
+   "sha256": "1bj5a2nmy60v1bv5k4c30f1vpv18whygzcc296p9fiphj8pn3fm3"
   },
   "stable": {
    "version": [
@@ -70071,8 +70091,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20230410,
-    857
+    20230416,
+    1739
    ],
    "deps": [
     "compat",
@@ -70082,8 +70102,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "d62e8fb8c4d34ffdfc71fe9998b61cc0f8c0fa4a",
-   "sha256": "018kqw7gnaw86ai0qy3yg3y9xcm2dv1i8bbbhrksdv63f1bzci4i"
+   "commit": "f59df798194d4213b5a2b2f43a2ee25b71cbbb90",
+   "sha256": "1cfnm27091csyrqrrq9ghlf27vagdyxcd2zxvi2m95j6ym55dpsb"
   },
   "stable": {
    "version": [
@@ -77065,11 +77085,29 @@
   "repo": "rainstormstudio/nerd-icons.el",
   "unstable": {
    "version": [
-    20230411,
-    706
+    20230416,
+    1842
    ],
-   "commit": "cb3944a1b0c5639fd82a9144177e97f6d3b50b85",
-   "sha256": "1p3w4cl1d528x974pfgnqyim0wkjwrnk720ppnhalgghbpyrgrlr"
+   "commit": "2ff304882c1c809713fc2b904b0309bfdb507b7b",
+   "sha256": "0vh13pbpb3d56ayxm7sp5z2dzb2k2g2y17c3zqr75crf676xjjck"
+  }
+ },
+ {
+  "ename": "nerd-icons-ibuffer",
+  "commit": "af87c310b6efce1ec86ce05538f593bdf0c4fe18",
+  "sha256": "100m10m9ksj03xsg50aiqm1pp48gar5jy4b883wxafx5r64akz2h",
+  "fetcher": "github",
+  "repo": "seagle0128/nerd-icons-ibuffer",
+  "unstable": {
+   "version": [
+    20230413,
+    1926
+   ],
+   "deps": [
+    "nerd-icons"
+   ],
+   "commit": "a38ed22c1d69647705588467a0f42c3c50b9585b",
+   "sha256": "1278n7gbgck15p381dkk5cb4mxdij64bxhfmq3qnsn7xz0zv2c89"
   }
  },
  {
@@ -78192,6 +78230,14 @@
    "commit": "0f5295f99005a200191ce7b660e56cd0510cf710",
    "sha256": "096f8cik4jz89bvkifwp3gm9iraqrd75ljy2q9js724v7yj88711"
   }
+ },
+ {
+  "ename": "nordic-night-theme",
+  "commit": "11254a9e0d387eb6a50a0a9cc09dccc7f667115d",
+  "sha256": "0wbpw6344ncpv2d578g7wqr1fvn057ryl3sp3mg9wpah36fi5g0v",
+  "error": "Not in archive",
+  "fetcher": "git",
+  "url": "https://git.sr.ht/~ashton314/nordic-night"
  },
  {
   "ename": "nordless-theme",
@@ -102732,21 +102778,6 @@
   }
  },
  {
-  "ename": "seen-mode",
-  "commit": "a3645b08cb46e3d91081da7baa982b5283918447",
-  "sha256": "0q8hz7m7yx3hlmjxg2fzpa5yy6wv97az3m3bn9c0bgbcidip147k",
-  "fetcher": "sourcehut",
-  "repo": "shiorid/seen.el",
-  "unstable": {
-   "version": [
-    20210311,
-    1935
-   ],
-   "commit": "57c960d76ad3dc551ac5a57ebe8682ef9fdc6d31",
-   "sha256": "1bn6jrvnz4bh7jm0a4g9z29zld5lm6jc77gh0i5m9ia38wzr00jx"
-  }
- },
- {
   "ename": "seethru",
   "commit": "7945732d9789143b386603dd7c96ef14ba68ddaf",
   "sha256": "1lcwslkki9s15xr2dmh2iic4ax8ia0j20hjnjmkv612wv04b806v",
@@ -103084,6 +103115,21 @@
    ],
    "commit": "ea6e94a5518643acda5b6e98e4e7f47dfc107d29",
    "sha256": "1wpr37gwkly0jl0m8kh7f1pkp9dwg5i1r3bpx3sd1z8c57sfn8da"
+  }
+ },
+ {
+  "ename": "sentex",
+  "commit": "5a98fa15b4c70676cb1e2f3afecc0e52916b80f2",
+  "sha256": "1n1fw66n293dhha9ajxgfvafxh3sdlwn95i748fi8hd8mr129ylg",
+  "fetcher": "codeberg",
+  "repo": "martianh/sentex",
+  "unstable": {
+   "version": [
+    20230411,
+    1650
+   ],
+   "commit": "ab96ee0e9856222aaad6b085cf4ca0c5dda73789",
+   "sha256": "02phy6nivjamr3fjffx8ir740dwjpm6xqh7jhsf3kd77bgcqdcx5"
   }
  },
  {
@@ -112177,11 +112223,11 @@
   "repo": "emacsmirror/tex-smart-umlauts",
   "unstable": {
    "version": [
-    20190316,
-    2215
+    20230416,
+    2051
    ],
-   "commit": "f15ed781b1fb38bf3e46c481dd602c3999920b99",
-   "sha256": "11ky141a33vm961jpj1spz9wxb4mfgw8drqxg2a6yk2rinkf0wcl"
+   "commit": "b28bac71990e0442616157fdb64494179df5575e",
+   "sha256": "0dy7q4r9ac1ka3ikx2whgp2l5vhxfqwn0r4ys086s1fs36a1l7mx"
   }
  },
  {
