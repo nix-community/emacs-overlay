@@ -2681,14 +2681,14 @@
   "unstable": {
    "version": [
     20230417,
-    411
+    950
    ],
    "deps": [
     "all-the-icons",
     "ivy-rich"
    ],
-   "commit": "caa81fd91ac2c7df04079a473427b2986693db29",
-   "sha256": "0pmip8k3qjgzk0zv01wfs4gs38a8m28ls0c23w9n7a1pfaxwan0h"
+   "commit": "6d8a51e1d136687beb2a846ff9479ab0d49d6ee3",
+   "sha256": "0nd0qnkhf0zzwh2j85j7q77agb3hwvaibvm7m2hpw17qrx6mxqda"
   },
   "stable": {
    "version": [
@@ -6570,11 +6570,11 @@
   "repo": "bazelbuild/emacs-bazel-mode",
   "unstable": {
    "version": [
-    20221105,
-    2049
+    20230417,
+    1342
    ],
-   "commit": "68d58547dd1df92adc91715f97c3dcd125b00810",
-   "sha256": "1khb0mrhfajr5dv93867mlr7k0csc8f4w12wp5f2rfdxfr9fgi61"
+   "commit": "4f084ed7988a6d178e0659e16ae0ce60ba3c7ea7",
+   "sha256": "14fzxvqz61qmpm0w9gpvd7wp59p28kp3zy26ggb6nl179z1hak3y"
   }
  },
  {
@@ -29336,11 +29336,11 @@
   "repo": "magit/emacsql",
   "unstable": {
    "version": [
-    20230409,
-    1847
+    20230417,
+    1448
    ],
-   "commit": "f25de357fee74aae7a538e8eae3d9be5eb55c20e",
-   "sha256": "1ff2qmgaxg3pfnb7avbbnqsmy3bl7spvx0g4dcdbmnlxvc2f0d5n"
+   "commit": "64012261f65fcdd7ea137d1973ef051af1dced42",
+   "sha256": "1x9r0pg2dv6n8dn1lwrvs9xfkxskr5pgw0sigspfqj3ycbpyz1ks"
   },
   "stable": {
    "version": [
@@ -36462,11 +36462,11 @@
   "repo": "technomancy/fennel-mode",
   "unstable": {
    "version": [
-    20230408,
-    1312
+    20230417,
+    1408
    ],
-   "commit": "d4e7226c34365101f02d9783d6d4b16c5014d279",
-   "sha256": "0rz5i0mq0bs53rix5wfgz94agnir8mbny81pjn5nqmkd3840qabj"
+   "commit": "f351462ff9515abf9fbe08276c33006f8774cd29",
+   "sha256": "0hj9fx8lmsrvpnmb6zagkqic9l8w89l4faa7d2lgnicz10pa7h5r"
   },
   "stable": {
    "version": [
@@ -39773,28 +39773,28 @@
   "repo": "emacs-php/phpstan.el",
   "unstable": {
    "version": [
-    20230404,
-    1351
+    20230417,
+    1142
    ],
    "deps": [
     "flycheck",
     "phpstan"
    ],
-   "commit": "6dc8f1df29f22f0b0ef839c66822d48e2c7b1848",
-   "sha256": "1p3kw7c8j5bpswy3s640cwwjs44kicab4zqwvqm94srin5a42msw"
+   "commit": "2dc25cb2f3d83484ea0eb063c9ffca8148828a2b",
+   "sha256": "0drsp230nxs336zzfy8gjr7r3p7m8w9rp4ih1zjwarzl1svpp7yp"
   },
   "stable": {
    "version": [
     0,
     7,
-    1
+    2
    ],
    "deps": [
     "flycheck",
     "phpstan"
    ],
-   "commit": "6dc8f1df29f22f0b0ef839c66822d48e2c7b1848",
-   "sha256": "1p3kw7c8j5bpswy3s640cwwjs44kicab4zqwvqm94srin5a42msw"
+   "commit": "2dc25cb2f3d83484ea0eb063c9ffca8148828a2b",
+   "sha256": "0drsp230nxs336zzfy8gjr7r3p7m8w9rp4ih1zjwarzl1svpp7yp"
   }
  },
  {
@@ -41478,26 +41478,26 @@
   "repo": "emacs-php/phpstan.el",
   "unstable": {
    "version": [
-    20230404,
-    1351
+    20230417,
+    1142
    ],
    "deps": [
     "phpstan"
    ],
-   "commit": "6dc8f1df29f22f0b0ef839c66822d48e2c7b1848",
-   "sha256": "1p3kw7c8j5bpswy3s640cwwjs44kicab4zqwvqm94srin5a42msw"
+   "commit": "2dc25cb2f3d83484ea0eb063c9ffca8148828a2b",
+   "sha256": "0drsp230nxs336zzfy8gjr7r3p7m8w9rp4ih1zjwarzl1svpp7yp"
   },
   "stable": {
    "version": [
     0,
     7,
-    1
+    2
    ],
    "deps": [
     "phpstan"
    ],
-   "commit": "6dc8f1df29f22f0b0ef839c66822d48e2c7b1848",
-   "sha256": "1p3kw7c8j5bpswy3s640cwwjs44kicab4zqwvqm94srin5a42msw"
+   "commit": "2dc25cb2f3d83484ea0eb063c9ffca8148828a2b",
+   "sha256": "0drsp230nxs336zzfy8gjr7r3p7m8w9rp4ih1zjwarzl1svpp7yp"
   }
  },
  {
@@ -57090,8 +57090,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20230411,
-    2226
+    20230415,
+    1911
    ],
    "deps": [
     "compat",
@@ -57099,8 +57099,8 @@
     "persist",
     "plz"
    ],
-   "commit": "d790a72e563ba5e46a810769eb1c45a631333203",
-   "sha256": "0m5igrx8q9xr3yf2r1210q3bmcdhff4m8ng5hwdhh069y9flcwlg"
+   "commit": "d265bc5f04a9e06ae6c6b13907b91f22e82a82f3",
+   "sha256": "0z59apzq05gfmqp48fgdabfbfbl9dm2ckixh692z6992hgrj4ppl"
   }
  },
  {
@@ -78235,9 +78235,25 @@
   "ename": "nordic-night-theme",
   "commit": "11254a9e0d387eb6a50a0a9cc09dccc7f667115d",
   "sha256": "0wbpw6344ncpv2d578g7wqr1fvn057ryl3sp3mg9wpah36fi5g0v",
-  "error": "Not in archive",
   "fetcher": "git",
-  "url": "https://git.sr.ht/~ashton314/nordic-night"
+  "url": "https://git.sr.ht/~ashton314/nordic-night",
+  "unstable": {
+   "version": [
+    20230417,
+    1414
+   ],
+   "commit": "689b124e60b56de7d3ad88d2b474c871bbadc6be",
+   "sha256": "1rjwylzb97fksxzl2v00cqd6szyck53wykvfvp0cp73y0nj3gc70"
+  },
+  "stable": {
+   "version": [
+    0,
+    2,
+    0
+   ],
+   "commit": "c2517681fa6c96b1d171276fe999bfa628bad27b",
+   "sha256": "0nihxr4bwjs56gzlzsxch2wyixgb8qi02fk4c6sd3cwgb4f0aw9j"
+  }
  },
  {
   "ename": "nordless-theme",
@@ -87979,11 +87995,11 @@
   "repo": "DamienCassou/ox-linuxmag-fr",
   "unstable": {
    "version": [
-    20230411,
-    1802
+    20230417,
+    1134
    ],
-   "commit": "05d4a7f2d2e69fcaadb173b8a48df4019cd5423b",
-   "sha256": "195rbn7pk5ayxlpfak2kskql19lzklxzgybfyzgjz696s6xry34g"
+   "commit": "4eeebd75349853e3131d5358cd653a145322ea02",
+   "sha256": "1v40g6nvslyajnzfjfyzr55gvy320kmddkbq6qfdxnnw9ms6mq5k"
   },
   "stable": {
    "version": [
@@ -91453,30 +91469,30 @@
   "repo": "emacs-php/phpstan.el",
   "unstable": {
    "version": [
-    20230404,
-    1351
+    20230417,
+    1142
    ],
    "deps": [
     "compat",
     "php-mode",
     "php-runtime"
    ],
-   "commit": "6dc8f1df29f22f0b0ef839c66822d48e2c7b1848",
-   "sha256": "1p3kw7c8j5bpswy3s640cwwjs44kicab4zqwvqm94srin5a42msw"
+   "commit": "2dc25cb2f3d83484ea0eb063c9ffca8148828a2b",
+   "sha256": "0drsp230nxs336zzfy8gjr7r3p7m8w9rp4ih1zjwarzl1svpp7yp"
   },
   "stable": {
    "version": [
     0,
     7,
-    1
+    2
    ],
    "deps": [
     "compat",
     "php-mode",
     "php-runtime"
    ],
-   "commit": "6dc8f1df29f22f0b0ef839c66822d48e2c7b1848",
-   "sha256": "1p3kw7c8j5bpswy3s640cwwjs44kicab4zqwvqm94srin5a42msw"
+   "commit": "2dc25cb2f3d83484ea0eb063c9ffca8148828a2b",
+   "sha256": "0drsp230nxs336zzfy8gjr7r3p7m8w9rp4ih1zjwarzl1svpp7yp"
   }
  },
  {
@@ -112633,11 +112649,11 @@
    "version": [
     2023,
     4,
-    10,
+    17,
     0
    ],
-   "commit": "cbd6599e616d79e904194474b4eeb754e94f6122",
-   "sha256": "1y3kk80wp4a438zl4hkgaypvymd40pialxa2vj05mnxahzhvg8qv"
+   "commit": "775d2a2b5902991ea9c117dee6b91833c2ac03f8",
+   "sha256": "0y9gijcbqxj8yb0khyd6v94g7ba81vsp820ipnaavn28g0z58mwl"
   }
  },
  {
@@ -116820,26 +116836,26 @@
   "repo": "diml/utop",
   "unstable": {
    "version": [
-    20230105,
-    1430
+    20230417,
+    1137
    ],
    "deps": [
     "tuareg"
    ],
-   "commit": "595002e6f07e6a3c6abc6e94a1b2448006115f1b",
-   "sha256": "0a3imki76pz68s6s495wdw0ig5j8hiwrgbm2lj3ddsm5w2cxxi12"
+   "commit": "c50173caf9b147eae637cb44e302e2077778afb4",
+   "sha256": "0dkjr2w9nq5mhmxa1bd2k8nkiqdw4y3spsdwahpyzps2rvikb2w4"
   },
   "stable": {
    "version": [
     2,
-    11,
+    12,
     0
    ],
    "deps": [
     "tuareg"
    ],
-   "commit": "595002e6f07e6a3c6abc6e94a1b2448006115f1b",
-   "sha256": "0a3imki76pz68s6s495wdw0ig5j8hiwrgbm2lj3ddsm5w2cxxi12"
+   "commit": "c50173caf9b147eae637cb44e302e2077778afb4",
+   "sha256": "0dkjr2w9nq5mhmxa1bd2k8nkiqdw4y3spsdwahpyzps2rvikb2w4"
   }
  },
  {
