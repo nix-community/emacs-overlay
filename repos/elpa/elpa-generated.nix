@@ -569,10 +569,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.14";
+        version = "0.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cape-0.14.tar";
-          sha256 = "1bi57jbhvwfk73k7bnc4hwqnx491jhd9fv5ypg5ikgsxmwrj5nqv";
+          url = "https://elpa.gnu.org/packages/cape-0.15.tar";
+          sha256 = "1gy99a7zg8kbh7f4fqqq7cpwjmq7af066m6z6c1wrv438sfsd3kz";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2614,10 +2614,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jinx-0.5.tar";
-          sha256 = "05aksyvqmmbnb668l5pl34yqw12giq8n2zbmwq7m9x2417yqsq6f";
+          url = "https://elpa.gnu.org/packages/jinx-0.6.tar";
+          sha256 = "1z8ap6lhar90fwnxglvdwm0rh6dkyfi111k0q74qnljaqrd4dd0x";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2959,10 +2959,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.1";
+        version = "1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/marginalia-1.1.tar";
-          sha256 = "1pldbgsjs9xsrp3y9rp8yz8p67xbhb3gy80sv5q215f6mwhphjqm";
+          url = "https://elpa.gnu.org/packages/marginalia-1.2.tar";
+          sha256 = "1hhq09ghc8pcphgjhp5mc81i7j4xkkf5sc0swd6xr6mrxd044fnj";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3688,10 +3688,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.10";
+        version = "0.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/osm-0.10.tar";
-          sha256 = "1lpbc98ais0wrrpj9cmra3ha8jnja4d3pqzw1kdml91drhqifpmw";
+          url = "https://elpa.gnu.org/packages/osm-0.11.tar";
+          sha256 = "17bll1p3s5gkhaiisab8w5q9ygsmqgmzfq5irghl71vlac0r2gsk";
         };
         packageRequires = [ compat emacs ];
         meta = {
