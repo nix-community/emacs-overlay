@@ -1591,10 +1591,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.21.1";
+        version = "0.22.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-0.21.1.tar";
-          sha256 = "157km8r8lrvp81l90vqrhvisd794qf0rsqfazl5r47gg1ba7szv5";
+          url = "https://elpa.gnu.org/packages/embark-0.22.1.tar";
+          sha256 = "0dxbvrp057a0kyydnf8vfwnf4m3q3jy4180agcmizlr64lm2pmh1";
         };
         packageRequires = [ compat emacs ];
         meta = {
