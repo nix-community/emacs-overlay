@@ -832,10 +832,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.33";
+        version = "0.34";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-0.33.tar";
-          sha256 = "0v84v61hc5w9z71i11bglp4m2fvjpp4l9xp9j731aj6psdhahd8a";
+          url = "https://elpa.gnu.org/packages/consult-0.34.tar";
+          sha256 = "12dljbs0x5gbayibzb0mb3bn78wlfx9078b8l0fyfpvbhd9lxhfl";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2614,10 +2614,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jinx-0.6.tar";
-          sha256 = "1z8ap6lhar90fwnxglvdwm0rh6dkyfi111k0q74qnljaqrd4dd0x";
+          url = "https://elpa.gnu.org/packages/jinx-0.7.tar";
+          sha256 = "0kfi5sjzrbxkbcql3h5qi0gd4dsbrxbjg5wldid8vjgqm9cnzvw4";
         };
         packageRequires = [ compat emacs ];
         meta = {
