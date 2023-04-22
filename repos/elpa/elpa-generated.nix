@@ -719,10 +719,10 @@
       elpaBuild {
         pname = "comint-mime";
         ename = "comint-mime";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/comint-mime-0.2.tar";
-          sha256 = "06sxsrmxr2l63cslaqmsc03birkcsqbnwbjkhn0f8y3afb4pafkf";
+          url = "https://elpa.gnu.org/packages/comint-mime-0.3.tar";
+          sha256 = "0dlzwzmiwq9z8riq6h1gpq1g713x09kxgaz2m4anxkbmgb95r7hf";
         };
         packageRequires = [ emacs ];
         meta = {
