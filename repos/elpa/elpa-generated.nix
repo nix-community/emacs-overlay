@@ -5563,10 +5563,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.2";
+        version = "1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-1.2.tar";
-          sha256 = "1vf2nh2wrjj6ig5iq7kx1p85a1m494lxfvhlqrl5nhi2hjbgnqy3";
+          url = "https://elpa.gnu.org/packages/vertico-1.3.tar";
+          sha256 = "192ljdvzyyjs9i3r3zimzarwpakibdrl036pdk60qmg4kyh057ms";
         };
         packageRequires = [ compat emacs ];
         meta = {
