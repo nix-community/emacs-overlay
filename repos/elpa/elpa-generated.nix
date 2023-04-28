@@ -2614,10 +2614,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jinx-0.7.tar";
-          sha256 = "0kfi5sjzrbxkbcql3h5qi0gd4dsbrxbjg5wldid8vjgqm9cnzvw4";
+          url = "https://elpa.gnu.org/packages/jinx-0.8.tar";
+          sha256 = "19dgp312jvpy3k0xq0r033jfhnyrl8xfv3q2djwv9s7883483srn";
         };
         packageRequires = [ compat emacs ];
         meta = {
