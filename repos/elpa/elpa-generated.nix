@@ -1846,6 +1846,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    face-shift = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "face-shift";
+        ename = "face-shift";
+        version = "0.2.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/face-shift-0.2.1.tar";
+          sha256 = "115959sgy7jivb5534rkm5mbqpjayfci9wpzx75p7cjsn02hfi0p";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/face-shift.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     filladapt = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "filladapt";
@@ -3523,10 +3538,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.4";
+        version = "9.6.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.4.tar";
-          sha256 = "1g0yi308bviw9fypikx67n2g4hvr63cin4pxnhv8s70np7754kf2";
+          url = "https://elpa.gnu.org/packages/org-9.6.5.tar";
+          sha256 = "051f3r467krxjd1zqlvdicwgjfv4k08haqs97jccddlj8q7ki8sq";
         };
         packageRequires = [ emacs ];
         meta = {
