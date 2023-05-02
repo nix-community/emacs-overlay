@@ -21814,11 +21814,11 @@
   "repo": "ideasman42/emacs-diff-ansi",
   "unstable": {
    "version": [
-    20230201,
-    134
+    20230501,
+    2304
    ],
-   "commit": "84446e315a163cecb7259858c9b01d2e6726775e",
-   "sha256": "0c1zkwqpv9qwfjhisci05ra3456wv08a3f8s2xdzmm6zk4va273h"
+   "commit": "9992b0be2eac8c1bd8051f2ca8de4dc593dc6ff8",
+   "sha256": "0i67ryg24rdsp8hafl71fym207n8pvnzlq9rak1zrhgqqrizwp6a"
   }
  },
  {
@@ -27669,20 +27669,20 @@
   "repo": "casouri/eldoc-box",
   "unstable": {
    "version": [
-    20230427,
-    1854
+    20230502,
+    600
    ],
-   "commit": "d0dd4e9d4035f0f7e61f3e3bc269568316e6ba25",
-   "sha256": "0l5p4jv5rdkz8v6rdykcbff0lbvc1f5pl54mrwlql1r5akpr5vmz"
+   "commit": "24c216ea3a2d369b814047271a8edf0c7c404b39",
+   "sha256": "0fzcyjg61icwjw1ml3p9qzd4a10vl7n1hqdpynqr5nlq9ih7rrgq"
   },
   "stable": {
    "version": [
     1,
-    10,
+    11,
     1
    ],
-   "commit": "143d7c5eff5ded45d1e1b9462c93f2a4e603089e",
-   "sha256": "076bbn2nnrx02zk2hs4b39q0w3s7afbgfdxnwk2y2s8lkq1l6l87"
+   "commit": "24c216ea3a2d369b814047271a8edf0c7c404b39",
+   "sha256": "0fzcyjg61icwjw1ml3p9qzd4a10vl7n1hqdpynqr5nlq9ih7rrgq"
   }
  },
  {
@@ -29753,14 +29753,14 @@
   "repo": "oantolin/embark",
   "unstable": {
    "version": [
-    20230501,
-    1819
+    20230502,
+    47
    ],
    "deps": [
     "compat"
    ],
-   "commit": "e4fa12a11c387e7004af009d2cef69cef56bcdd1",
-   "sha256": "0igllpc3fzrsn7alrkn9cxmvi682z13x6vcsmv2q4p1jcj90rrz7"
+   "commit": "1586905d55879d812bd657b59914d31690adcc3a",
+   "sha256": "0njnp5nfw0hpi3jj83azsw1fvf14brr8gnmgd2m74f5gxcqpxg48"
   },
   "stable": {
    "version": [
@@ -33287,15 +33287,15 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20230430,
-    1927
+    20230502,
+    409
    ],
    "deps": [
     "annalist",
     "evil"
    ],
-   "commit": "d3b497db3172a34cbe9e51269fb6af57925303b3",
-   "sha256": "1c179z1xs3n3pwxqx0blgac5wmbhmvrf9ihw460yx1n51a7kg4w1"
+   "commit": "0df5c4815d7be01ab52e9f957c56e6318c871217",
+   "sha256": "0722wj4zgmin647zpxww4wzabfynm3z7172iadcxcc2lw55vgpwk"
   },
   "stable": {
    "version": [
@@ -69294,8 +69294,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20230423,
-    703
+    20230502,
+    523
    ],
    "deps": [
     "dash",
@@ -69306,8 +69306,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "99b812ebd44da435bc593f016918415b6f6f051c",
-   "sha256": "0jx3vf7q5xn3k3nly26aimv70wl4cp3wlj11h8zlqk8jlysnjy93"
+   "commit": "0abb4862ad8760b3dd39393b1a575d1713ab027f",
+   "sha256": "12li4p97xhihwq6arf9i6ysfsgc7vz9sz343ghjaaccfz00q6v8r"
   },
   "stable": {
    "version": [
@@ -85953,7 +85953,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "Initialized empty Git repository in /run/user/1001/git-checkout-tmp-hpJHyAyW/org-tag-beautify-9efe9d0/.git/\nfatal: unable to access 'https://repo.or.cz/org-tag-beautify.git/': Failed to connect to repo.or.cz port 443 after 129816 ms: Couldn't connect to server\nfatal: unable to access 'https://repo.or.cz/org-tag-beautify.git/': Failed to connect to repo.or.cz port 443 after 131019 ms: Couldn't connect to server\nfatal: unable to access 'https://repo.or.cz/org-tag-beautify.git/': Failed to connect to repo.or.cz port 443 after 131015 ms: Couldn't connect to server\nUnable to checkout 9efe9d04f801e71b19045398e1ab2827929072c0 from https://repo.or.cz/org-tag-beautify.git.\n"
+    "Initialized empty Git repository in /run/user/1001/git-checkout-tmp-Xl9UVf3W/org-tag-beautify-9efe9d0/.git/\nfatal: unable to access 'https://repo.or.cz/org-tag-beautify.git/': Failed to connect to repo.or.cz port 443 after 131322 ms: Couldn't connect to server\nfatal: unable to access 'https://repo.or.cz/org-tag-beautify.git/': Failed to connect to repo.or.cz port 443 after 131007 ms: Couldn't connect to server\nfatal: unable to access 'https://repo.or.cz/org-tag-beautify.git/': Failed to connect to repo.or.cz port 443 after 131030 ms: Couldn't connect to server\nUnable to checkout 9efe9d04f801e71b19045398e1ab2827929072c0 from https://repo.or.cz/org-tag-beautify.git.\n"
    ]
   }
  },
@@ -86659,7 +86659,7 @@
   "unstable": {
    "version": [
     20230501,
-    257
+    2319
    ],
    "deps": [
     "htmlize",
@@ -86668,8 +86668,8 @@
     "writegood-mode",
     "xml-rpc"
    ],
-   "commit": "81c75688d47fa9514b8c7a92160c01de6e5b128f",
-   "sha256": "07qp3f5jak1k8la4hz3s26aqkks6qnw9nrpmlmazs57c1wwlbg0p"
+   "commit": "a9eb85449975191f214b566cc091004dd81672d8",
+   "sha256": "06sbz2w04jb6akjky6pw7gmnkbjhslbgkicf7ff5j9v25n9dc9pa"
   },
   "stable": {
    "version": [
