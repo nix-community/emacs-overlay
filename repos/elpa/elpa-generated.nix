@@ -2444,10 +2444,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.28";
+        version = "0.29";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.28.tar";
-          sha256 = "0n7s9wai63p42ximiknmi8ryvnj71v6b1dnhafpapka8ymkkdwsb";
+          url = "https://elpa.gnu.org/packages/inspector-0.29.tar";
+          sha256 = "1zj0cp52bq04hzdzb8d6h1cjzz6ysg1j114q4m8mkcy81ip2l7r7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3703,10 +3703,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.11";
+        version = "0.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/osm-0.11.tar";
-          sha256 = "17bll1p3s5gkhaiisab8w5q9ygsmqgmzfq5irghl71vlac0r2gsk";
+          url = "https://elpa.gnu.org/packages/osm-0.12.tar";
+          sha256 = "1i94ymji0kknrf8p49vghs7s9f16skp5vsxayj1dy52gkvfh273j";
         };
         packageRequires = [ compat emacs ];
         meta = {
