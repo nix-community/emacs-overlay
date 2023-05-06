@@ -7858,11 +7858,11 @@
   "repo": "gdonald/blackjack-el",
   "unstable": {
    "version": [
-    20230504,
-    1726
+    20230506,
+    1330
    ],
-   "commit": "e9fce426e9acc7fc93573cd4437324c7ae35ec59",
-   "sha256": "1zz3v9w7ml9fd56cbr69c62n0shkj9pnsn9mkj0ws7y09clw1m1l"
+   "commit": "2b340ad93a733ec3b2c83af367434c740d62eecf",
+   "sha256": "1cf1jl7vwyc2r8nsdq2gslry18waiaiaj6kwhz7373b0n0zxhrhs"
   },
   "stable": {
    "version": [
@@ -24456,16 +24456,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20230504,
-    1810
+    20230506,
+    1112
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "379b45bffe7d67683f17c3e815797a082d8793d3",
-   "sha256": "0aky3ff2av1wa19849y2xy9zgfsdv8np0n1313x0s5ngxad1klkg"
+   "commit": "3612082bc5cba712c07860ce37865f938beb9002",
+   "sha256": "04ffrbdkjgz13bkx7dhc1mcnmilkbxnilaci6557fp18dnvlicy2"
   },
   "stable": {
    "version": [
@@ -28160,13 +28160,13 @@
    "version": [
     1,
     2,
-    5
+    6
    ],
    "deps": [
     "elfeed"
    ],
-   "commit": "93c3b467859b57a353e84f0abd2607b64373eaa3",
-   "sha256": "0slbmmcsf5pqbiq3nmna7wx9jvfgdgjp272qdqvmrv99jdj92cq6"
+   "commit": "640ffe17730b0024e873c634a1ef83966a45a018",
+   "sha256": "0d0dxldafgk3knc0d8g8ghm24zsq5x2p1pswh2syyl33nqf61s8s"
   }
  },
  {
@@ -34790,14 +34790,14 @@
   "repo": "meain/evil-textobj-tree-sitter",
   "unstable": {
    "version": [
-    20230311,
-    1441
+    20230506,
+    937
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "11bbbab2412aec2bca16381ff639385644ca4b98",
-   "sha256": "1w1wc8x55cc20sn4jbzxa4i1az4wazccksyyqcj7h2sy27wg73ls"
+   "commit": "9cd23a7aae91f07e26ea45912f4d351b5660a7fc",
+   "sha256": "1c9wpc37ml1n03b5fb5ary2kabbw538lllbhpdxacmm74aaswnhj"
   }
  },
  {
@@ -62237,13 +62237,13 @@
   "unstable": {
    "version": [
     20230506,
-    623
+    839
    ],
    "deps": [
     "compat"
    ],
-   "commit": "f2e7c296aa9a6c538454f499f2b215de99a09f24",
-   "sha256": "1658b5f4xhxaif994sfdl9m87ppfcc60vjwvzcq5rv77z59q4jz6"
+   "commit": "43039d0e56125186843842fca7217967cc16ae39",
+   "sha256": "03b0572qsp8f45l2jiiryzmmdkwmvv8f2mnfv3gza7k6661fqdqh"
   },
   "stable": {
    "version": [
@@ -74370,11 +74370,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20230504,
-    505
+    20230506,
+    934
    ],
-   "commit": "01b47a044678b66fdabfbb895bb0326e07990153",
-   "sha256": "0p2nmyh7m14xwvqy0mb91p41z7147849l92az13iflbqlkydfv6d"
+   "commit": "7ee0bcba71d29483b3e7ec9c43688703c90fbf6c",
+   "sha256": "0wm2y0ava9imj001gjpx3y7hk9n1zxvw7x4phnx8vw8238x51fl4"
   },
   "stable": {
    "version": [
@@ -83917,14 +83917,14 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20230505,
-    552
+    20230506,
+    1354
    ],
    "deps": [
     "nerd-icons"
    ],
-   "commit": "9fd7b2d996e8304a98b6a763dee14aa312a89e59",
-   "sha256": "0wd7zm70b9l7gfy47lv1szffzgqr7rywp7z3jl82bjd4klrn0dks"
+   "commit": "48a35de9d25e922011c2462e8a4e84d79a9620f1",
+   "sha256": "1dzqyw2553qjsj5i6i4v4nf7cgwy10shxl34ayf65i4h7msbk9ji"
   }
  },
  {
@@ -95422,16 +95422,15 @@
   "repo": "mohkale/projection",
   "unstable": {
    "version": [
-    20230416,
-    1842
+    20230506,
+    1537
    ],
    "deps": [
     "compat",
-    "compile-multi",
     "project"
    ],
-   "commit": "a543618a9d06ebe4a8a04f6e1067f3f4cbd49fbb",
-   "sha256": "015sb2850pa3bi4lp5gwyg19dxraq06yfrifi2hx4z3phfgyq7mi"
+   "commit": "a7e8edda22db5d8f24acfb35a864c83d1c2cb0d1",
+   "sha256": "01n74k69jzcam2afacg859xpmg0nsz89j4hld3m9njz442w88p50"
   }
  },
  {
@@ -97915,11 +97914,11 @@
   "repo": "greghendershott/racket-mode",
   "unstable": {
    "version": [
-    20230428,
-    1424
+    20230506,
+    1437
    ],
-   "commit": "f67cccd625e1ed9987e186b06e45f23dabcfb405",
-   "sha256": "0rsx9wzf9776w87dx8x3ybgd8gxc5nyzn4x27w5jjxmfwlnf85nz"
+   "commit": "c2fe266c18bb6e55a13c7ba795b0a5f7372b6c13",
+   "sha256": "18l6j3wlvck0h47mm2wngyq8l3z4nc0dgqw12sy4zm47a6ir6wlk"
   }
  },
  {
@@ -115293,11 +115292,11 @@
   "repo": "ianyepan/tron-legacy-emacs-theme",
   "unstable": {
    "version": [
-    20230103,
-    617
+    20230506,
+    1037
    ],
-   "commit": "710c5ef80835cc2f6fb40e51f782ab531048f86e",
-   "sha256": "10y4wp5c7ycj1sr938gw1zyqyzd307lzn5wv5qmv6z8r6xbh6vcs"
+   "commit": "44996469041a9b7f54c2a42ad2a3c16ac9579d77",
+   "sha256": "09ak0pysizblq39ndzry6af2g6byzpwrdvfwb2d5kyc5z76cw36d"
   },
   "stable": {
    "version": [
