@@ -631,21 +631,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    editorconfig = callPackage ({ cl-lib ? null
-                                , elpaBuild
-                                , emacs
-                                , fetchurl
-                                , lib
-                                , nadvice }:
+    editorconfig = callPackage ({ elpaBuild, emacs, fetchurl, lib, nadvice }:
       elpaBuild {
         pname = "editorconfig";
         ename = "editorconfig";
-        version = "0.9.1";
+        version = "0.10.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/editorconfig-0.9.1.tar";
-          sha256 = "0i271313bsk3hlkc3bzjv79i20y6ffk7gwn26rnhljwpi828wfsw";
+          url = "https://elpa.nongnu.org/nongnu/editorconfig-0.10.0.tar";
+          sha256 = "1vqrbr1iw4383jxw4b1jnih9221v02yj0yj03jr3r5yy823h67ps";
         };
-        packageRequires = [ cl-lib emacs nadvice ];
+        packageRequires = [ emacs nadvice ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/editorconfig.html";
           license = lib.licenses.free;
