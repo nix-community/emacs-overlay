@@ -5293,6 +5293,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    tree-inspector = callPackage ({ elpaBuild, emacs, fetchurl, lib, treeview }:
+      elpaBuild {
+        pname = "tree-inspector";
+        ename = "tree-inspector";
+        version = "0.3";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/tree-inspector-0.3.tar";
+          sha256 = "1hns99rfga8p85ylbr4ri14wyfcxf0bcni0fyr09awipxrpn6ikq";
+        };
+        packageRequires = [ emacs treeview ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/tree-inspector.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     trie = callPackage ({ elpaBuild, fetchurl, heap, lib, tNFA }:
       elpaBuild {
         pname = "trie";
