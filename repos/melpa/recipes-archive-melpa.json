@@ -63360,8 +63360,8 @@
   "repo": "gcv/julia-snail",
   "unstable": {
    "version": [
-    20230503,
-    522
+    20230508,
+    525
    ],
    "deps": [
     "dash",
@@ -63371,14 +63371,14 @@
     "spinner",
     "vterm"
    ],
-   "commit": "5e22cf0badba469c7f4d2bd20682329823b4f151",
-   "sha256": "0fk23v8fzrfw0jnpx9rx5xdjh8iaaphxrmd02jl4g0hj4scjd25b"
+   "commit": "117f62123bf168043fb9ab5df953ee444460afd9",
+   "sha256": "1vbg97h2jvmkpyhdsra51ilimzvrqnpy8rf1bhxnnb54p2cgkpsr"
   },
   "stable": {
    "version": [
     1,
     2,
-    1
+    2
    ],
    "deps": [
     "dash",
@@ -63388,8 +63388,8 @@
     "spinner",
     "vterm"
    ],
-   "commit": "5e22cf0badba469c7f4d2bd20682329823b4f151",
-   "sha256": "0fk23v8fzrfw0jnpx9rx5xdjh8iaaphxrmd02jl4g0hj4scjd25b"
+   "commit": "117f62123bf168043fb9ab5df953ee444460afd9",
+   "sha256": "1vbg97h2jvmkpyhdsra51ilimzvrqnpy8rf1bhxnnb54p2cgkpsr"
   }
  },
  {
@@ -86025,15 +86025,15 @@
   "url": "https://repo.or.cz/org-tag-beautify.git",
   "unstable": {
    "version": [
-    20230507,
-    1551
+    20230508,
+    442
    ],
    "deps": [
     "nerd-icons",
     "org-pretty-tags"
    ],
-   "commit": "b9a15c2971af8e9822092eaead52b20d9f8587e5",
-   "sha256": "1khdcvxxw0mq60zpwglllry52wgqx6210qdii0zr4c8mg5knbq5w"
+   "commit": "a33c231154c4375f0fd1d384b4b5760958c54bf4",
+   "sha256": "0z6pcvjzayna290azwb424jrlihl49bw5gp41dqvqwwz23688hza"
   }
  },
  {
@@ -97372,15 +97372,15 @@
   "repo": "ShuguangSun/python-view-data",
   "unstable": {
    "version": [
-    20230503,
-    1054
+    20230508,
+    543
    ],
    "deps": [
     "csv-mode",
     "python"
    ],
-   "commit": "722abe0b7640601c540f5b56710a1ed354710cdb",
-   "sha256": "1l7kis9pbsg1myb6ayxccmp7a24c97cpslglnmbykvmc191xm85k"
+   "commit": "1dd5f99679db9767530cfc20642a40a48bd479be",
+   "sha256": "0zqarh2hvfkcsnj3a45g9063qf3sg6mfsp89a7v74gzq31mn542x"
   }
  },
  {
@@ -106128,11 +106128,11 @@
   "repo": "joaotavora/sly",
   "unstable": {
    "version": [
-    20230425,
-    2123
+    20230507,
+    2335
    ],
-   "commit": "fa3bcf0237b420d1a3b1670eb35d7c5f96f94c62",
-   "sha256": "05sa0i5l623q6d9ala0xq30mhk28cmfg8s89fh49fxvahinijigd"
+   "commit": "14bc9d3706c7f40001c29ec1abf7a06ee1958b36",
+   "sha256": "09crw1az6b9dw5181inqb0jnwp3jnmilmkh6hypfkh0lxkfxsw8n"
   }
  },
  {
@@ -106297,11 +106297,11 @@
   "repo": "zenitani/elisp",
   "unstable": {
    "version": [
-    20230505,
-    1013
+    20230507,
+    2309
    ],
-   "commit": "5a4a4b85b48e17d4cc6275f2618c4ae9b7f42418",
-   "sha256": "0wnbgrg636zlnv4jsb8q45yaiclw6gddqjjpyz45a4pky0lp7i89"
+   "commit": "dfa6a49ced30720336be3d1fabbab4d6e0c787f0",
+   "sha256": "10fcr8v3cff9l1y9y0vw1hcnsar255nqdipw1da84x093rfm1j8r"
   }
  },
  {
@@ -113114,11 +113114,11 @@
    "version": [
     2023,
     5,
-    1,
+    8,
     0
    ],
-   "commit": "dbde9f181e1f19fe2879c9d08e571306c2eb484e",
-   "sha256": "0gq58dxxn90f2nvqshaxrlykry6nqg0h8iqwyydzw93hnv6skkq7"
+   "commit": "38d28cb7c8b466d82df5f026ca309a03f2b1f457",
+   "sha256": "1agg2nng3z6y8hdwbbakn1lrb9yi8wi9rf3mkf1scymbzn2vkb05"
   }
  },
  {
@@ -118180,8 +118180,8 @@
   "repo": "gmlarumbe/verilog-ext",
   "unstable": {
    "version": [
-    20230430,
-    1447
+    20230507,
+    2331
    ],
    "deps": [
     "ag",
@@ -118191,15 +118191,14 @@
     "eglot",
     "flycheck",
     "hydra",
-    "imenu-list",
     "lsp-mode",
     "outshine",
     "ripgrep",
     "verilog-mode",
     "yasnippet"
    ],
-   "commit": "1682d9265bf90522a3404650565da1aeff88d7f1",
-   "sha256": "02lxky6bjdxz173j9jdiacvaa0np707jr357pkiv2r2am9rmxna6"
+   "commit": "99d1dfe8da01d26addb28f2f50de12ef5b807a15",
+   "sha256": "12xvphr8xny39d3yjf14bla9pfrfa1kcdy9q7ry3ybj2i55lbbnw"
   }
  },
  {
