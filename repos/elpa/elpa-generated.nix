@@ -5691,10 +5691,10 @@
       elpaBuild {
         pname = "vundo";
         ename = "vundo";
-        version = "2.0.0";
+        version = "2.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vundo-2.0.0.tar";
-          sha256 = "032aqcqq2xhh12qcpp8p3qldv0r9cnqr2y11jk1m5cvgal1cbb68";
+          url = "https://elpa.gnu.org/packages/vundo-2.1.0.tar";
+          sha256 = "1inm6kvh5j47nsrmq6wpf30dqmx0arzdpa6vdcn834g50i4fh8kc";
         };
         packageRequires = [ emacs ];
         meta = {
