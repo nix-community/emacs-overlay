@@ -5417,6 +5417,39 @@
           license = lib.licenses.free;
         };
       }) {};
+    url-http-oauth = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "url-http-oauth";
+        ename = "url-http-oauth";
+        version = "0.8.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/url-http-oauth-0.8.1.tar";
+          sha256 = "1n72qgcm2rj2cc9p4f2002h8cq55p3j3gg25ykx03nc7p6r3kzic";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/url-http-oauth.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    url-http-oauth-demo = callPackage ({ elpaBuild
+                                       , fetchurl
+                                       , lib
+                                       , url-http-oauth }:
+      elpaBuild {
+        pname = "url-http-oauth-demo";
+        ename = "url-http-oauth-demo";
+        version = "1.0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/url-http-oauth-demo-1.0.1.tar";
+          sha256 = "0hw4lqasazsdld5abk6v38r74k0gk3czpgyib8w2fjkpjhxp60mf";
+        };
+        packageRequires = [ url-http-oauth ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/url-http-oauth-demo.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     url-scgi = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "url-scgi";
