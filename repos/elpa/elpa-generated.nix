@@ -5440,10 +5440,10 @@
       elpaBuild {
         pname = "url-http-oauth-demo";
         ename = "url-http-oauth-demo";
-        version = "1.0.2";
+        version = "1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/url-http-oauth-demo-1.0.2.tar";
-          sha256 = "0j09kkp2f9qfapb1gmacdlgrrbpfrrnb6y89pcrmb6vfh30sg6xk";
+          url = "https://elpa.gnu.org/packages/url-http-oauth-demo-1.0.3.tar";
+          sha256 = "0w2wbl919klss8x3zq6wfypygyhy7m12qfl2l0fq8spidkq87vxx";
         };
         packageRequires = [ emacs url-http-oauth ];
         meta = {
