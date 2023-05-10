@@ -20133,8 +20133,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20230425,
-    1859
+    20230510,
+    1424
    ],
    "deps": [
     "bui",
@@ -20147,8 +20147,8 @@
     "posframe",
     "s"
    ],
-   "commit": "24892f9e30aa9645d51b0a15dfebd75861e6c97f",
-   "sha256": "1q1ysa1z31ppn0y0cbk4h2apc9y6dl7bj3wjsym28mdn1mjjpvv3"
+   "commit": "374fd0511ef5349f7621c15f5ce2e22f307f6e68",
+   "sha256": "1a31xil007mlxifwxq4pvhp9wjprg2sssw9x2ns0cxff8xr27l9p"
   },
   "stable": {
    "version": [
@@ -40209,13 +40209,13 @@
   "stable": {
    "version": [
     0,
-    15
+    16
    ],
    "deps": [
     "flycheck"
    ],
-   "commit": "44b11b51c97fd334ecdce74169c0e65123ef5991",
-   "sha256": "08wsr0hrmbh24bzsd2ghc82mp4m31ms3aykv0x68vpspzm06yyi3"
+   "commit": "055830b67cd0f0d7196a5b71bd5cce3197a557a7",
+   "sha256": "1zw6993a8l7yf3j8dbagmj051m1z8cdax2pzm0l2p2dxvkm0h4s2"
   }
  },
  {
@@ -42725,8 +42725,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20230505,
-    926
+    20230510,
+    925
    ],
    "deps": [
     "closql",
@@ -42740,8 +42740,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "12428a702fc6c9b2b36896803e6022baafcad3cd",
-   "sha256": "1d5f4mp47bw30ly0g1z90kfkx4ccnm2qc2l5f6qhjydvz2fnmp9g"
+   "commit": "d2bdd2ca14d7a97dce751c122174896c35a34aa1",
+   "sha256": "1k4kb7mrmm6q3yj2srk8jbv4qx6fl1sfs4625i5fy2rkq7fzb60k"
   },
   "stable": {
    "version": [
@@ -63297,11 +63297,11 @@
   "repo": "JuliaEditorSupport/julia-emacs",
   "unstable": {
    "version": [
-    20230504,
-    1435
+    20230510,
+    745
    ],
-   "commit": "7e301f4414e25b4409859c3b8d371352807a3194",
-   "sha256": "19an4wpyjmxsqb3k54k5gg2gag4il4bjfkm6zpdnasfrg62idlzn"
+   "commit": "b35e668d6bcf0fb7de4a9ee1a72ae13aa4fb6562",
+   "sha256": "1m6465q6qi2h2yx7s7a1g6q6n8i40bcksac3s00mka840rm3cp4v"
   },
   "stable": {
    "version": [
@@ -63591,8 +63591,8 @@
   "repo": "nnicandro/emacs-jupyter",
   "unstable": {
    "version": [
-    20230508,
-    1952
+    20230510,
+    1523
    ],
    "deps": [
     "cl-lib",
@@ -63600,8 +63600,8 @@
     "websocket",
     "zmq"
    ],
-   "commit": "053a78da252b19cf59cefe6b83f9c4531a38d6b2",
-   "sha256": "0fmki920b51r6gfqm6x92050d7drfhj08m70dy6bzd2d9dw5aj7i"
+   "commit": "455166712e606c9c6a8de763ea0a77548cadcef2",
+   "sha256": "0acn964xlpn265vry35lrkkpf9z5y4ml96xg8ifadkxwxymm1sh2"
   },
   "stable": {
    "version": [
@@ -69384,8 +69384,8 @@
   "repo": "emacs-lsp/lsp-mssql",
   "unstable": {
    "version": [
-    20230316,
-    1612
+    20230510,
+    1124
    ],
    "deps": [
     "dash",
@@ -69394,8 +69394,8 @@
     "lsp-mode",
     "lsp-treemacs"
    ],
-   "commit": "9d9a14a2b40c5fd13b8e33fccd397283a2437526",
-   "sha256": "1yfrazz7rf40dpk2k99km9f32ilkq8m26dvs27p82f6w3mfq5xlr"
+   "commit": "a0dba8f86a2ace7e800a9dc8f814767625a509af",
+   "sha256": "1bsixap2ql98aic6vvxb67c7gslf1dpsrnkms203iv3h3w2ywdmb"
   }
  },
  {
@@ -72802,11 +72802,11 @@
   "repo": "ocaml/merlin",
   "unstable": {
    "version": [
-    20221222,
-    1239
+    20230510,
+    1520
    ],
-   "commit": "41cd949106fbf0769c97e3a56808e4d99fc42c6f",
-   "sha256": "17fvs379xqdr3lhpqvj36vrdp12swnaz3hgnf312bjni15gpyiyi"
+   "commit": "4bd7b7f42c460c0c85a267eada352b627fd54d20",
+   "sha256": "12bn3saifi0vcbys975nzs0k7vkl7bv4qpqk5fgmsll8wnaf028p"
   },
   "stable": {
    "version": [
@@ -112021,14 +112021,14 @@
   "repo": "minad/tempel",
   "unstable": {
    "version": [
-    20230410,
-    1742
+    20230510,
+    1659
    ],
    "deps": [
     "compat"
    ],
-   "commit": "94afb9b916a711c56f23183da93a103338e9f84e",
-   "sha256": "0nxpc7gjjpkvczry7gs3wh9m2kn12hjany38jlvdanpngrd86mjz"
+   "commit": "5907674686661a141612d0b7b7de712fbe7f2176",
+   "sha256": "1b8b3rksjpiy61qlyvz5k3snjg39zfpxbybg9q9iif7hyfpnz3cf"
   },
   "stable": {
    "version": [
@@ -114414,23 +114414,26 @@
   "repo": "magit/transient",
   "unstable": {
    "version": [
-    20230508,
-    1924
+    20230510,
+    1318
    ],
    "deps": [
     "compat"
    ],
-   "commit": "6ff5c51f26fdc9c2d4fba1a0c5e7f728bb911f8e",
-   "sha256": "1sf96hxgqlf63n3dl2pv7qfn6jmjni90xck6kjnvizzs8vvmcn4c"
+   "commit": "b4127842f200848817103e8d4c45c36bc8fdf3b8",
+   "sha256": "0c9bfn5jwwng98h7i9lx0q3vg00wd8w25cg8d3vyy2vqfbg80qhy"
   },
   "stable": {
    "version": [
     0,
-    3,
-    7
+    4,
+    0
    ],
-   "commit": "74cba5a418ff1b1661494fc2970c330ecdbb4b22",
-   "sha256": "0c7wbd0j0b802bzdpdkrx2q7wm7b9s56rk554dnadkpywhmdiqwn"
+   "deps": [
+    "compat"
+   ],
+   "commit": "b4127842f200848817103e8d4c45c36bc8fdf3b8",
+   "sha256": "0c9bfn5jwwng98h7i9lx0q3vg00wd8w25cg8d3vyy2vqfbg80qhy"
   }
  },
  {
@@ -114950,8 +114953,8 @@
   "repo": "Alexander-Miller/treemacs",
   "unstable": {
    "version": [
-    20230424,
-    2017
+    20230510,
+    1644
    ],
    "deps": [
     "ace-window",
@@ -114963,8 +114966,8 @@
     "pfuture",
     "s"
    ],
-   "commit": "983ea5a66801a5c1f6e32e3d515bd48761677ac6",
-   "sha256": "17419vrf40wqqlyv8rwj6plsk6a4wpwrmrhlzsqci2z4y8pmzy8y"
+   "commit": "12193dfa41d73f26386eacaeafd9ffaeee6491bd",
+   "sha256": "1s9y9y5xjbqr7yk3qvrc664mqwmzwshlhbvjkvlma33zzaa655lq"
   },
   "stable": {
    "version": [
@@ -115024,15 +115027,15 @@
   "repo": "Alexander-Miller/treemacs",
   "unstable": {
    "version": [
-    20230408,
-    1109
+    20230510,
+    1644
    ],
    "deps": [
     "evil",
     "treemacs"
    ],
-   "commit": "127485317a19254ca20ba1910d10edf7dbaa2d97",
-   "sha256": "1rs0l0k9fd8xav627944jfm518yillcmjbdrkzjw3xq1wx80pn95"
+   "commit": "12193dfa41d73f26386eacaeafd9ffaeee6491bd",
+   "sha256": "1s9y9y5xjbqr7yk3qvrc664mqwmzwshlhbvjkvlma33zzaa655lq"
   },
   "stable": {
    "version": [
@@ -120616,11 +120619,11 @@
   "repo": "lassik/emacs-whois",
   "unstable": {
    "version": [
-    20230201,
-    1408
+    20230510,
+    919
    ],
-   "commit": "eae090d48f7942f58231be71683865ba3cd56c24",
-   "sha256": "1mmsk9fsr30a4n1185828sa8jjzfwdcjgq491q027ly5kh4kqc7x"
+   "commit": "bf131b99bb3f5583d27d1c72ef0fbd829ef85664",
+   "sha256": "1rnl9xgi45kyzr4vkdraj9cvhjz2rdnafsj63z6vg1gs18wm1ffz"
   },
   "stable": {
    "version": [
