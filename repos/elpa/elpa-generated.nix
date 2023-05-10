@@ -5421,10 +5421,10 @@
       elpaBuild {
         pname = "url-http-oauth";
         ename = "url-http-oauth";
-        version = "0.8.1";
+        version = "0.8.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/url-http-oauth-0.8.1.tar";
-          sha256 = "1n72qgcm2rj2cc9p4f2002h8cq55p3j3gg25ykx03nc7p6r3kzic";
+          url = "https://elpa.gnu.org/packages/url-http-oauth-0.8.2.tar";
+          sha256 = "1s3ff4cxjlm4vs06c44kj4karpdmn2r9ik7j1l00x1469lcxivih";
         };
         packageRequires = [];
         meta = {
@@ -5433,18 +5433,19 @@
         };
       }) {};
     url-http-oauth-demo = callPackage ({ elpaBuild
+                                       , emacs
                                        , fetchurl
                                        , lib
                                        , url-http-oauth }:
       elpaBuild {
         pname = "url-http-oauth-demo";
         ename = "url-http-oauth-demo";
-        version = "1.0.1";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/url-http-oauth-demo-1.0.1.tar";
-          sha256 = "0hw4lqasazsdld5abk6v38r74k0gk3czpgyib8w2fjkpjhxp60mf";
+          url = "https://elpa.gnu.org/packages/url-http-oauth-demo-1.0.2.tar";
+          sha256 = "0j09kkp2f9qfapb1gmacdlgrrbpfrrnb6y89pcrmb6vfh30sg6xk";
         };
-        packageRequires = [ url-http-oauth ];
+        packageRequires = [ emacs url-http-oauth ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/url-http-oauth-demo.html";
           license = lib.licenses.free;
