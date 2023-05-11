@@ -4897,11 +4897,11 @@
   "repo": "emacscollective/auto-compile",
   "unstable": {
    "version": [
-    20230312,
-    1636
+    20230510,
+    1705
    ],
-   "commit": "cdb60240000aff141fbe26f1487fbfe499ff64dc",
-   "sha256": "0170xdfrpccrkb5w4ikkjz068w2ljrz3das31q5s0nk8xbjlsp73"
+   "commit": "d2b9f24b483e4a059900074a3a84f33960176012",
+   "sha256": "1kjdvvykad35qfwi706m05qz4g667pj6d7l0kmszrjwk6yywh4jd"
   },
   "stable": {
    "version": [
@@ -6589,11 +6589,11 @@
   "repo": "bazelbuild/emacs-bazel-mode",
   "unstable": {
    "version": [
-    20230417,
-    1342
+    20230510,
+    2235
    ],
-   "commit": "4f084ed7988a6d178e0659e16ae0ce60ba3c7ea7",
-   "sha256": "14fzxvqz61qmpm0w9gpvd7wp59p28kp3zy26ggb6nl179z1hak3y"
+   "commit": "d334a5d9c00def0995a36fe89f3bb8d4595409ad",
+   "sha256": "1bri1imq2ycc2bp4zlx47bc1myfcv81x3z0jm3yvn2r54yxk5bar"
   }
  },
  {
@@ -7873,11 +7873,11 @@
   "repo": "gdonald/blackjack-el",
   "unstable": {
    "version": [
-    20230509,
-    2304
+    20230510,
+    1605
    ],
-   "commit": "12ec927458d2d3f278e04d3ad40c1df75618e21f",
-   "sha256": "17c9q9mzdrkr5zcc4kcdb4wgbd197f9wdmq3703g6sy0sls9lwvx"
+   "commit": "c3a5f6fd2c9c4ea8f9391acde35323fc7362c058",
+   "sha256": "1jqwjpziy4p3w6mzdar17ichw5pbl4hiyfvl58b7nv84ialb8vx5"
   },
   "stable": {
    "version": [
@@ -20507,11 +20507,11 @@
   "repo": "emacs-dashboard/emacs-dashboard",
   "unstable": {
    "version": [
-    20230509,
-    834
+    20230510,
+    2305
    ],
-   "commit": "ce0c33cc5af0188a3ea2215c67cd3fb0ae193fea",
-   "sha256": "1nz7pdg9474bllb4agdhmsgal81flib1gyhhhjhyh082jxxspv7h"
+   "commit": "109bfc7b1279069bd00cfdbd08cefb6fb09233ae",
+   "sha256": "04ldld2rc3g23caps4yq1anrs5vw68vr2r4sasb3v2h05fmajgn3"
   },
   "stable": {
    "version": [
@@ -21643,11 +21643,11 @@
   "repo": "susam/devil",
   "unstable": {
    "version": [
-    20230509,
-    110
+    20230510,
+    2339
    ],
-   "commit": "2cc21ac252b74c24858ca7b670e5574058b2643d",
-   "sha256": "1l8m2dv8n01k26z6i9p2c1cdsgfvyw27nas5ccjyfnmdn69m6aqd"
+   "commit": "79fd50fe22ce45968779f0e176247ab7988f0905",
+   "sha256": "1kp6nrmyxjgan25ryqs240hkvlazbw744510sjhngnagjjlakbfi"
   },
   "stable": {
    "version": [
@@ -25315,11 +25315,11 @@
   "repo": "xenodium/dwim-shell-command",
   "unstable": {
    "version": [
-    20230509,
-    716
+    20230510,
+    2118
    ],
-   "commit": "1a896221cc34319582b0921b919638ea2528b0e6",
-   "sha256": "0n6slbi3rvh1kl7v0216c907h76swi3ymzxakn1j1msg37qd68np"
+   "commit": "6513e49a3929724136978a71742ed17d904fd0a7",
+   "sha256": "0xxwca8jvzcqkz0j488iaspzmc4n37n11qj0mad0q1xn4lsnv6yg"
   }
  },
  {
@@ -29997,16 +29997,16 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20230421,
-    1501
+    20230510,
+    2034
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "ff7221a367d326d023db523c2602969206d6027a",
-   "sha256": "1bjgh035yq3g6hnm2mh45k4x170a4bmz6lc635chigckbfncqh67"
+   "commit": "81ce9109194c6b8415227fc88b5dfb16da6668e8",
+   "sha256": "0k7ywvhpy7xg2fwpq9y2cl2gh23vjh67pf2n6xlwx6981ppf6rjp"
   },
   "stable": {
    "version": [
@@ -57272,8 +57272,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20230509,
-    354
+    20230511,
+    2
    ],
    "deps": [
     "compat",
@@ -57281,8 +57281,8 @@
     "persist",
     "plz"
    ],
-   "commit": "92be07bcdc61887ffba1b66e7207937070a51288",
-   "sha256": "05lvkizj5dwywkkrbw598jn0pdr1yb8152vrx4d6n3qzs9y99q80"
+   "commit": "45ddabd8d6151dc03eb5f900fb9ca767fa437b70",
+   "sha256": "1cbbnan7a15qy77g7lm4n3f4x1zidwqivjsn97jw04hcayf7f3s2"
   }
  },
  {
@@ -62282,14 +62282,14 @@
   "repo": "minad/jinx",
   "unstable": {
    "version": [
-    20230509,
-    1935
+    20230510,
+    2216
    ],
    "deps": [
     "compat"
    ],
-   "commit": "ad2a322e06891c7d23dbd860804dddebd626f963",
-   "sha256": "0y7qnzfvxqb01bppa1mlzdlg4n568afix4w4hgmjhx5rdls5434g"
+   "commit": "8cf4af0b8a807707a98289b2b7864e5200c24fe2",
+   "sha256": "1qhk453lfxk8a879q3ag0g0x49b38mbiimzdkdb91z9ha6nw2gmw"
   },
   "stable": {
    "version": [
@@ -70291,8 +70291,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20230509,
-    1313
+    20230510,
+    2139
    ],
    "deps": [
     "compat",
@@ -70302,8 +70302,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "a380d56cddcffbe79647ffdacc5793f6a5b19abf",
-   "sha256": "1pvfskkydr5npk34s324vsgnfvmnnlir4r82cmv197v28b34rg3a"
+   "commit": "5d91aadd05a8d85d7699c00193638dceb7c95166",
+   "sha256": "0r31zshsa2pjvwbhnbcjnx2ca334na6cpm4g1dybfpwzjq1zm6ar"
   },
   "stable": {
    "version": [
@@ -77300,11 +77300,11 @@
   "repo": "rainstormstudio/nerd-icons.el",
   "unstable": {
    "version": [
-    20230509,
-    1739
+    20230510,
+    2026
    ],
-   "commit": "c250eec8d9c70fa8aab5904e6bb054d1449df8e8",
-   "sha256": "1rqv5m7lsc1g8m01fxqjihkk2s46731jql5bjf612dyhl6w7j319"
+   "commit": "c4a882420452de4296499de5a6ea720f9764cc16",
+   "sha256": "1fd5qk6j4ap1712hkm843kbqxcdsvb1nv7l2wr6y58ffp1wi707r"
   }
  },
  {
@@ -84226,14 +84226,14 @@
   "repo": "minad/org-modern",
   "unstable": {
    "version": [
-    20230422,
-    634
+    20230510,
+    1802
    ],
    "deps": [
     "compat"
    ],
-   "commit": "e0a1a00490acc3bbbf199e433c9ef60e03f9d416",
-   "sha256": "06fac6rff7xp1dsjfl26hlzaf1469ay7sqb3zxbih8yrziv11r6n"
+   "commit": "cced7f7db43c9e8f4d925278e7bff307d6e26480",
+   "sha256": "0l6cjq8i02fhn72d31nzhfh6vfn2836flcrf4q0lr5578f9fxhm3"
   },
   "stable": {
    "version": [
@@ -111670,11 +111670,11 @@
   "repo": "11111000000/tao-theme-emacs",
   "unstable": {
    "version": [
-    20230323,
-    301
+    20230510,
+    1906
    ],
-   "commit": "d44ecab7f68cda9c9f4dd881df5d842e38f44db6",
-   "sha256": "1wi3mz0skyqs8qf7ndwgaqgm5a19fxidim7qn8k0aqc74dyhcqaz"
+   "commit": "a331516a42f4c1656d2226f549a1cbf384463c15",
+   "sha256": "0j9xswm9afjj5hwl9fdjhdhgsggkqbyfhi9q8nmnhd71chabwnyz"
   },
   "stable": {
    "version": [
@@ -118190,8 +118190,8 @@
   "repo": "gmlarumbe/verilog-ext",
   "unstable": {
    "version": [
-    20230509,
-    1852
+    20230510,
+    2228
    ],
    "deps": [
     "ag",
@@ -118207,8 +118207,8 @@
     "verilog-mode",
     "yasnippet"
    ],
-   "commit": "926ad9286aa8025cf84872bc3cf35d7aa6b5b8c8",
-   "sha256": "00dpfgai4gb3qg3qssfqygpywwdxmyvysv5nqsl7q4xab8qgz2q0"
+   "commit": "abbf15036f08ccd2a72a137dd0cc83262753c809",
+   "sha256": "1dj3drzx98mg26zak0c026i34bgmv15aw6kw1185kzxn6vkg0v4k"
   }
  },
  {
