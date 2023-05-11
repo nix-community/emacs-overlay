@@ -5421,33 +5421,14 @@
       elpaBuild {
         pname = "url-http-oauth";
         ename = "url-http-oauth";
-        version = "0.8.2";
+        version = "0.8.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/url-http-oauth-0.8.2.tar";
-          sha256 = "1s3ff4cxjlm4vs06c44kj4karpdmn2r9ik7j1l00x1469lcxivih";
+          url = "https://elpa.gnu.org/packages/url-http-oauth-0.8.3.tar";
+          sha256 = "1vcbx8rpzvx4v4g7iyja6kpsqidaiy2xzj7glrwwzhppkbp0xkvy";
         };
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/url-http-oauth.html";
-          license = lib.licenses.free;
-        };
-      }) {};
-    url-http-oauth-demo = callPackage ({ elpaBuild
-                                       , emacs
-                                       , fetchurl
-                                       , lib
-                                       , url-http-oauth }:
-      elpaBuild {
-        pname = "url-http-oauth-demo";
-        ename = "url-http-oauth-demo";
-        version = "1.0.3";
-        src = fetchurl {
-          url = "https://elpa.gnu.org/packages/url-http-oauth-demo-1.0.3.tar";
-          sha256 = "0w2wbl919klss8x3zq6wfypygyhy7m12qfl2l0fq8spidkq87vxx";
-        };
-        packageRequires = [ emacs url-http-oauth ];
-        meta = {
-          homepage = "https://elpa.gnu.org/packages/url-http-oauth-demo.html";
           license = lib.licenses.free;
         };
       }) {};
