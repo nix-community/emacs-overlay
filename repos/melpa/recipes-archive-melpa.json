@@ -10516,11 +10516,11 @@
   "repo": "peterstuart/cargo-transient",
   "unstable": {
    "version": [
-    20230511,
-    1310
+    20230512,
+    131
    ],
-   "commit": "3ca4f2109913b1e05136ab4497a9c095a9ee7a28",
-   "sha256": "03r0azv674v0n56rnar1q49j9rb3s49a3pqwf5arx338191yfmsp"
+   "commit": "34d63dfb99ee9a6068dadd6390763c9735c17a85",
+   "sha256": "0yx3gjwah4phkhwgda56p4ag217l8mf96q7zm1p3dixwnrxbnpbs"
   }
  },
  {
@@ -29795,14 +29795,14 @@
   "repo": "oantolin/embark",
   "unstable": {
    "version": [
-    20230511,
-    2200
+    20230512,
+    350
    ],
    "deps": [
     "compat"
    ],
-   "commit": "9b17d9a63b6960e026ad3c09a7871e0a3364e926",
-   "sha256": "0kf08rgp1bl40nbg9hhpq3fds0g7gghjlwps92vicjcg6bckwg9p"
+   "commit": "ab920eaadf43bcb92832c980adbf2d8c9468ec98",
+   "sha256": "19x27pw78bh11q5hdjvw7bz2x9yvzsbm54aiqbhm7421fr0vn18i"
   },
   "stable": {
    "version": [
@@ -72790,11 +72790,11 @@
   "repo": "meow-edit/meow",
   "unstable": {
    "version": [
-    20230505,
-    2113
+    20230512,
+    419
    ],
-   "commit": "07ccf112fc1a56ddd96cfc39967957be7dc8dd5f",
-   "sha256": "0rm8p5lx75rlrbyk4h74m5djlh86hbww493rscxk2zsn88bavnz7"
+   "commit": "f6a1b48eb5678b225666b8726962d26a81588d8e",
+   "sha256": "1nzjnrsb6b12in5fvmmg32k0k2nlfbsw7m2ka4dknslcb3415wz0"
   },
   "stable": {
    "version": [
@@ -84002,14 +84002,15 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20230509,
-    1441
+    20230512,
+    451
    ],
    "deps": [
+    "fb2-reader",
     "nerd-icons"
    ],
-   "commit": "d55b3ff5331b7db54bd0adb18cb44490e263814a",
-   "sha256": "18n1lmv15840ms91mixl4xzr7zijqnlpk8g7v4zmvqdbh2h3rpkm"
+   "commit": "a7a909af2b7526e2bf442f97b895dac16849e35f",
+   "sha256": "06kj2xbfqz4gvw9d0dxpz0xjx4fg62lkwylqippn6gmrshhk0qrr"
   }
  },
  {
