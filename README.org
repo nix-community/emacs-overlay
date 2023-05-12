@@ -79,7 +79,7 @@ required in a user's config via =use-package= or =leaf=.
 #+BEGIN_SRC nix
   {
     environment.systemPackages = [
-      (emacsWithPackagesFromUsePackage {
+      (pkgs.emacsWithPackagesFromUsePackage {
         # Your Emacs config file. Org mode babel files are also
         # supported.
         # NB: Config files cannot contain unicode characters, since
