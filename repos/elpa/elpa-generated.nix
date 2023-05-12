@@ -1764,14 +1764,15 @@
                                , lib
                                , nadvice
                                , soap-client
-                               , url-http-ntlm }:
+                               , url-http-ntlm
+                               , url-http-oauth }:
       elpaBuild {
         pname = "excorporate";
         ename = "excorporate";
-        version = "1.0.0";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/excorporate-1.0.0.tar";
-          sha256 = "1g0wc2kp15ra323b4rxvdh58q9c4h7m20grw6a0cs53m7l9xi62f";
+          url = "https://elpa.gnu.org/packages/excorporate-1.1.0.tar";
+          sha256 = "1il51gfgvkxjj7vdi5kdmzi87hl9853ck8s45p0cxrddlaiqbmwy";
         };
         packageRequires = [
           cl-lib
@@ -1780,6 +1781,7 @@
           nadvice
           soap-client
           url-http-ntlm
+          url-http-oauth
         ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/excorporate.html";
