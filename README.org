@@ -39,22 +39,23 @@ This overlay can be added to a flake by adding following to your existing files:
 
 =flake.nix=
 #+begin_src nix
-
-  inputs = {
-    emacs-community = {
-      url = "github:nix-community/emacs-overlay";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+inputs = {
+  emacs-community = {
+    url = "github:nix-community/emacs-overlay";
+    inputs.nixpkgs.follows = "nixpkgs";
   };
+};
 #+end_src
 
 =configuration.nix=
 #+begin_src nix
-  nixpkgs = {
-    overlays = [
-      inputs.emacs-community.overlay
-    ];
-  };
+nixpkgs = {
+  overlays = [
+    inputs.emacs-community.overlay
+  ];
+};
+
+services.emacs.package = pkgs.emacsUnstable;
 #+end_src
 
 ** Contents of the overlay
