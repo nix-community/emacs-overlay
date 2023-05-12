@@ -4735,10 +4735,10 @@
       elpaBuild {
         pname = "soap-client";
         ename = "soap-client";
-        version = "3.2.1";
+        version = "3.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/soap-client-3.2.1.tar";
-          sha256 = "0v3aj059cvfv5yc9fx8naq8ygphlpbasc1nksgfim8iyk9wg7l3n";
+          url = "https://elpa.gnu.org/packages/soap-client-3.2.2.tar";
+          sha256 = "1biqz531ivc2yyyifqxsyz732fnijpd1r9vinppc4r1kcsmgy4zd";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
