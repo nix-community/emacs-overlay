@@ -5400,6 +5400,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    urgrep = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib, project }:
+      elpaBuild {
+        pname = "urgrep";
+        ename = "urgrep";
+        version = "0.1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/urgrep-0.1.0.tar";
+          sha256 = "0j52fqbw7wpwl552hbljzsi3wxh6f5lp2m2q45aq5ihwb26df4za";
+        };
+        packageRequires = [ compat emacs project ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/urgrep.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     url-http-ntlm = callPackage ({ cl-lib ? null
                                  , elpaBuild
                                  , fetchurl
