@@ -11492,13 +11492,13 @@
   "unstable": {
    "version": [
     20230514,
-    13
+    1128
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "d64aba761ef86f90a3c188153de6663e779e2368",
-   "sha256": "0wgr11gqc4bjdks12ff7lkdiy02zrw4bmdfz8gbnf2k5mh97d3vh"
+   "commit": "d4e03ffbb96689c31ede5c0b3045a9b79c285b09",
+   "sha256": "0cyppdyjqp79n9sv26plbsv9i0ygcrkj3ljqi5xlh11b57y2dzfn"
   }
  },
  {
@@ -30521,14 +30521,14 @@
   "repo": "hrs/engine-mode",
   "unstable": {
    "version": [
-    20221217,
-    2101
+    20230514,
+    1643
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "a5f1ae2b087109f37a704c496942cec9d9f48698",
-   "sha256": "11ls3wrvfmcz61pps438x772nk06rqff91s3xi5rzc3n2hkl1ayb"
+   "commit": "00e0dde543e36745c8a14165bc0c9871468f7f3f",
+   "sha256": "1yh5d758lgzyff8nhgkqx6n0v2245i9yzp6nqa5r1jdsms4ylh3z"
   },
   "stable": {
    "version": [
@@ -57292,7 +57292,7 @@
   "unstable": {
    "version": [
     20230514,
-    440
+    1725
    ],
    "deps": [
     "compat",
@@ -57300,8 +57300,8 @@
     "persist",
     "plz"
    ],
-   "commit": "43f7ad4ee65f2bf9e8d702193269d9cc97d827da",
-   "sha256": "0fh8i3y52irxcxpg6vzjlbs4zpg55yah3933ab4n9wj8b4dj55qd"
+   "commit": "c148b3ee8d0971ece0aae0d43121450c998342cd",
+   "sha256": "0j6lhg5bsj7pzprzm7lmcpszx01b4x8jl67nzfczh878vq27jm1q"
   }
  },
  {
@@ -59871,11 +59871,11 @@
   "repo": "Simon-Lin/inspire.el",
   "unstable": {
    "version": [
-    20230310,
-    1557
+    20230514,
+    1030
    ],
-   "commit": "9d15ced8e852135764de3c434753dbcf485b6bc1",
-   "sha256": "064r1r6ah42rxlh2dg14g38z6l377r2i8rbcwqqxva22zkrrkz3s"
+   "commit": "825bbd4e19046b0e61aa27a0f88b1daeaaebf1d0",
+   "sha256": "14swfc4z6ky22hkbcwnkcl5yfphql6hsii6v0dbnkrhj0s39wqmi"
   }
  },
  {
@@ -66107,15 +66107,15 @@
   "repo": "enricoflor/latex-table-wizard",
   "unstable": {
    "version": [
-    20230512,
-    1233
+    20230514,
+    1135
    ],
    "deps": [
     "auctex",
     "transient"
    ],
-   "commit": "b41aac096b96aeb446346c3cbd6537cc0eb1f70d",
-   "sha256": "03sj7kq9xwak5mzllvgjq5ysarph55rxknn09dgdn8fs74hlifcb"
+   "commit": "76d307f27eab65470592400819afaba493c78ef4",
+   "sha256": "0vjf12m0ldxls3glgcm3bilqrnf671bf4l9kfj0jjarlyvwhbh91"
   },
   "stable": {
    "version": [
@@ -73224,9 +73224,9 @@
  },
  {
   "ename": "metronome",
-  "commit": "123d2788dc05d53862ebbf31476cfd3a43f2f348",
-  "sha256": "0arsx39lrbwp3a4krjn8pggqrqm250c8sk3c6z37q8d2g3sazp11",
-  "fetcher": "gitlab",
+  "commit": "0edbdea760172e8a5cf173b1fbb83af75a34b558",
+  "sha256": "1cc9r00v6jzx9iw1zsab46fifpf9znj5bpw8ms0k9hsd33ingxz7",
+  "fetcher": "sourcehut",
   "repo": "jagrg/metronome",
   "unstable": {
    "version": [
@@ -83283,9 +83283,9 @@
  },
  {
   "ename": "org-emms",
-  "commit": "4fa5c221790acca40316510fd495951f418c8e15",
-  "sha256": "0g7d2y1dgy2hgiwaxz9crxf3nv8aqzxhyf2jmnmhphdv2s9ipvjw",
-  "fetcher": "gitlab",
+  "commit": "0edbdea760172e8a5cf173b1fbb83af75a34b558",
+  "sha256": "0fa06h6r48lzm8klnsmkh2lasx5y5w3gndzdm20ai2r8njmv9ral",
+  "fetcher": "sourcehut",
   "repo": "jagrg/org-emms",
   "unstable": {
    "version": [
