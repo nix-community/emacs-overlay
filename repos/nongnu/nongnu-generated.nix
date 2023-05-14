@@ -1678,16 +1678,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    keycast = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    keycast = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "keycast";
         ename = "keycast";
-        version = "1.2.0";
+        version = "1.3.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/keycast-1.2.0.tar";
-          sha256 = "0iiksz8lcz9y5yplw455v2zgvq2jz6jc2ic3ybax10v3wgxnhiad";
+          url = "https://elpa.nongnu.org/nongnu/keycast-1.3.0.tar";
+          sha256 = "0yv9rcpfwjms8p7wmk2lhgbn8b44nyz6g81czcr5z39w5914rh4x";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/keycast.html";
           license = lib.licenses.free;
