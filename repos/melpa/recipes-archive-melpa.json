@@ -7445,23 +7445,26 @@
   "repo": "tarsius/bicycle",
   "unstable": {
    "version": [
-    20230212,
-    2019
+    20230515,
+    943
    ],
    "deps": [
     "compat"
    ],
-   "commit": "20f0637365a9bf0a899a7663b1f8caec609de19a",
-   "sha256": "074npqx189paal46g9dcr28i3lzm2gx8lyrk7v4v1hjhgmzhl1dn"
+   "commit": "dfc0c874d66d671cbb15149db27134e4ff4f54b8",
+   "sha256": "13aaz5fzdbplaf78713ax5f8v3qd7ggafdh1pgnc1mv4a37bjkl8"
   },
   "stable": {
    "version": [
     0,
     4,
-    5
+    6
    ],
-   "commit": "c69b010c7b4899b6c016f926ad3a6e11ebfec0bc",
-   "sha256": "141mq2ivwpmb952zdh7rvr24awi0ffpz5nm7wyc6kz8wlm5pgavv"
+   "deps": [
+    "compat"
+   ],
+   "commit": "dfc0c874d66d671cbb15149db27134e4ff4f54b8",
+   "sha256": "13aaz5fzdbplaf78713ax5f8v3qd7ggafdh1pgnc1mv4a37bjkl8"
   }
  },
  {
@@ -42798,8 +42801,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20230510,
-    925
+    20230515,
+    1003
    ],
    "deps": [
     "closql",
@@ -42813,8 +42816,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "d2bdd2ca14d7a97dce751c122174896c35a34aa1",
-   "sha256": "1k4kb7mrmm6q3yj2srk8jbv4qx6fl1sfs4625i5fy2rkq7fzb60k"
+   "commit": "a754c419f70e3638ff2a0ae6d0b05d7220afe7b8",
+   "sha256": "0lkjzhmadnbpsh3b35sdxyxj9mprgqk6ry39ncm82bwm6w63ihz9"
   },
   "stable": {
    "version": [
@@ -43174,23 +43177,26 @@
   "repo": "tarsius/frameshot",
   "unstable": {
    "version": [
-    20230212,
-    2017
+    20230515,
+    944
    ],
    "deps": [
     "compat"
    ],
-   "commit": "96f2cc9a0cb672b1989022caa290218c8024a376",
-   "sha256": "01z4n2j8sc6fdyqglhnbq6pszkjjnikqj868p4lfnrzb3nxj4a05"
+   "commit": "f74d99be64dc7afa4bdea106c0597c1fa59b9a3d",
+   "sha256": "0qwffkpjh5zsj487yi5m5j5y7vxqc67pga5nj127nbg4rdmjs3ng"
   },
   "stable": {
    "version": [
     0,
     2,
-    5
+    6
    ],
-   "commit": "029df561ef6572b1ab034490ac48d909d037ac1d",
-   "sha256": "1b6frjhv4gkix0yj6ibvjgaf4y2b94xq0x4y021v086sp5ifsh3g"
+   "deps": [
+    "compat"
+   ],
+   "commit": "f74d99be64dc7afa4bdea106c0597c1fa59b9a3d",
+   "sha256": "0qwffkpjh5zsj487yi5m5j5y7vxqc67pga5nj127nbg4rdmjs3ng"
   }
  },
  {
@@ -69449,8 +69455,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20230513,
-    1802
+    20230515,
+    549
    ],
    "deps": [
     "dash",
@@ -69461,8 +69467,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "99ffb4c3aada03773fe5412704141a92e5c37a4a",
-   "sha256": "0lmdw89w1ddkr2ihz8pmn69bdzqi92rff2q86s03igzasr06b8j5"
+   "commit": "e92475a0cb9e53a7cddea153248fe4cf1dec4d8b",
+   "sha256": "1q95vcqhgq76ys1ksl1nhxkbi1p534xifhwn7w7rdxab7wgc9mg1"
   },
   "stable": {
    "version": [
@@ -70397,8 +70403,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20230510,
-    2139
+    20230515,
+    1516
    ],
    "deps": [
     "compat",
@@ -70408,8 +70414,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "5d91aadd05a8d85d7699c00193638dceb7c95166",
-   "sha256": "0r31zshsa2pjvwbhnbcjnx2ca334na6cpm4g1dybfpwzjq1zm6ar"
+   "commit": "9c66514b2c879a8959b676393467b1f24be71303",
+   "sha256": "177gs029lc6745xbspq4h36qn8jzpd5phbap1vbfvvrfsgh3vzsd"
   },
   "stable": {
    "version": [
@@ -71500,11 +71506,11 @@
   "repo": "Iacob/elmame",
   "unstable": {
    "version": [
-    20230508,
-    1256
+    20230515,
+    1303
    ],
-   "commit": "a5f05f2b9218979c52f42718b29fc58d80a58daf",
-   "sha256": "1pfzgr2zm9i2g6g8rm24c2fglj97k1bc18jwznzqhdc2gn782kzs"
+   "commit": "1c03def518f80dd1a7cafa9d73cc75878c4afe37",
+   "sha256": "1797b98gc3kil2hngia2r1f9wcy1p82fdg8rai6y1i3baclhgp0p"
   }
  },
  {
@@ -78417,14 +78423,14 @@
   "stable": {
    "version": [
     1,
-    3,
+    4,
     0
    ],
    "deps": [
     "compat"
    ],
-   "commit": "6db8c576bd5fe0516a5b91066a0f44cddce51eae",
-   "sha256": "1vkypj2mm428kmawxnyaqg3v5xpcs5hkbmyvjkib8ib02psshxd7"
+   "commit": "ef02b6fcedd97f3ab039b51411fdaab7336d819b",
+   "sha256": "1i5fcci8fg14hbd4cjb84q3mx6rfwhbwkw0g21v25dal61kw4yvb"
   }
  },
  {
@@ -82390,7 +82396,8 @@
   "stable": {
    "version": [
     1,
-    3
+    3,
+    1
    ],
    "deps": [
     "dash",
@@ -82399,8 +82406,8 @@
     "s",
     "uuidgen"
    ],
-   "commit": "3a89386c507a335c0b65fe9018c14c11e864b37d",
-   "sha256": "0kknzjqmsvbr5pyr0jddn7xh1vah5i3qxsa443jcwp29c8c0wl4w"
+   "commit": "0c1d9916c5fc763b4dad2449c467bef0f4ead889",
+   "sha256": "1pk54r7ixbr90ffzis4a9q1khiz1kj27dykf51gcj7pi1lr9jxhc"
   }
  },
  {
@@ -86162,15 +86169,15 @@
   "url": "https://repo.or.cz/org-tag-beautify.git",
   "unstable": {
    "version": [
-    20230513,
-    929
+    20230515,
+    945
    ],
    "deps": [
     "nerd-icons",
     "org-pretty-tags"
    ],
-   "commit": "3517be502f3cf3d6e80a83c262b1c872362a1b7a",
-   "sha256": "1s3kmnkw5lshlr5q96lqfnzmb3gzr4xb0iyz07w1v0mgb7cm8zfq"
+   "commit": "97941eb2322146dd5e2555904a48ac8e1a7519f0",
+   "sha256": "0appxha0dm23rxlyz4llza5xjpqfynzp6xv49i5xf1wcrz6g2lnp"
   }
  },
  {
@@ -97444,11 +97451,11 @@
   "repo": "python-mode-devs/python-mode",
   "unstable": {
    "version": [
-    20230209,
-    731
+    20230515,
+    722
    ],
-   "commit": "d00e9ffe3a7c450362d453e00b4adcb826bce464",
-   "sha256": "0gr7nb350mqdij12mwfvym4ivjm2ml0ckh262w1bb1yk4w6ciqzm"
+   "commit": "9878ee0444c88558873b05612152f19f1a5d7b8c",
+   "sha256": "1930lwyh02jqsfrp63v9xc33pfk3fir52ic7z32lxrap6sbj625c"
   },
   "stable": {
    "version": [
@@ -109532,10 +109539,10 @@
    "version": [
     2,
     2,
-    3
+    4
    ],
-   "commit": "d5d04c94b466036468ca2f268fcc22168d225eef",
-   "sha256": "0mbdhpz8815v0pdnafnvbfii15zzgypazmvk79cmmx2323l1vxdj"
+   "commit": "24f14bd255612d536aadae46ce7749615c4cf681",
+   "sha256": "0x0xmbbsx89zl7ddm2gk5w8d4rq8zrj7cv1vqnzl6ni1g7k97dl0"
   }
  },
  {
@@ -113288,11 +113295,11 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20230506,
-    303
+    20230514,
+    812
    ],
-   "commit": "38d28cb7c8b466d82df5f026ca309a03f2b1f457",
-   "sha256": "1agg2nng3z6y8hdwbbakn1lrb9yi8wi9rf3mkf1scymbzn2vkb05"
+   "commit": "5447de259bc43e9647eccc84e8daa75019dd6a5d",
+   "sha256": "1pswb8ppnmfrn6nhfbhmbivqhvp378afd8k0nczmydchrb4ybq6d"
   },
   "stable": {
    "version": [
