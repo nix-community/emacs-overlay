@@ -2777,6 +2777,26 @@
           license = lib.licenses.free;
         };
       }) {};
+    latex-table-wizard = callPackage ({ auctex
+                                      , elpaBuild
+                                      , emacs
+                                      , fetchurl
+                                      , lib
+                                      , transient }:
+      elpaBuild {
+        pname = "latex-table-wizard";
+        ename = "latex-table-wizard";
+        version = "1.5.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/latex-table-wizard-1.5.1.tar";
+          sha256 = "0157pmramd48ajzpdjdcwbq1cd5c24zda8r2ma4hzl8s39k6817m";
+        };
+        packageRequires = [ auctex emacs transient ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/latex-table-wizard.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     leaf = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "leaf";
@@ -3540,10 +3560,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.5";
+        version = "9.6.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.5.tar";
-          sha256 = "051f3r467krxjd1zqlvdicwgjfv4k08haqs97jccddlj8q7ki8sq";
+          url = "https://elpa.gnu.org/packages/org-9.6.6.tar";
+          sha256 = "00xp2v0crg5ls79a9waapymr8rrv00gpff3ihm3w8mr3f6dyypn9";
         };
         packageRequires = [ emacs ];
         meta = {
