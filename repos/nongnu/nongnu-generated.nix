@@ -680,10 +680,10 @@
       elpaBuild {
         pname = "engine-mode";
         ename = "engine-mode";
-        version = "2.2.1";
+        version = "2.2.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/engine-mode-2.2.1.tar";
-          sha256 = "1m5i3pyi4y90jvwgypxzl3qwhq5j6gazwijalhjcgb6gnpsm81kv";
+          url = "https://elpa.nongnu.org/nongnu/engine-mode-2.2.2.tar";
+          sha256 = "15s9ha3qwvhdpaizm75f8pw7l4zkfnn5q19zfq0nyalxhmzgrpmy";
         };
         packageRequires = [ cl-lib ];
         meta = {
