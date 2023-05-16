@@ -526,6 +526,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    devil = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "devil";
+        ename = "devil";
+        version = "0.3.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/devil-0.3.0.tar";
+          sha256 = "195gc8g22yrzgayv5xkx8ccbjwc9wchy4j936dsx4b18rm3w1p0f";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/devil.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     diff-ansi = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "diff-ansi";
