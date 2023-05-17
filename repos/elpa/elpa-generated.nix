@@ -1462,10 +1462,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "0.11.0";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-0.11.0.tar";
-          sha256 = "06nkglshklsdr8xcdbrwbp402p260n6g3zk3mn9kv3ynf35wv2wv";
+          url = "https://elpa.gnu.org/packages/ef-themes-1.0.0.tar";
+          sha256 = "185zf4v4w5wl7574gip19f3p6434xarn7r6x7d5zaizic2wmnsb1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2786,10 +2786,10 @@
       elpaBuild {
         pname = "latex-table-wizard";
         ename = "latex-table-wizard";
-        version = "1.5.1";
+        version = "1.5.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/latex-table-wizard-1.5.1.tar";
-          sha256 = "0157pmramd48ajzpdjdcwbq1cd5c24zda8r2ma4hzl8s39k6817m";
+          url = "https://elpa.gnu.org/packages/latex-table-wizard-1.5.2.tar";
+          sha256 = "0vm4iv0ryff95yld8hlrlmn0wfgkj9690yiwd8pvja2w5m578mf2";
         };
         packageRequires = [ auctex emacs transient ];
         meta = {
@@ -3920,10 +3920,10 @@
       elpaBuild {
         pname = "poke";
         ename = "poke";
-        version = "3.0";
+        version = "3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/poke-3.0.tar";
-          sha256 = "08ajbhwj4sdph9ay7wbd807slzxg6360kpqkyyvhdzl8kqh67wc7";
+          url = "https://elpa.gnu.org/packages/poke-3.2.tar";
+          sha256 = "0rhcz7kg20j72hf9rhq5zacdak8ayhn4cnwhgq9qwr18z00bxxm7";
         };
         packageRequires = [ emacs ];
         meta = {
