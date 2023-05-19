@@ -565,6 +565,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    calibre = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "calibre";
+        ename = "calibre";
+        version = "1.3.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/calibre-1.3.0.tar";
+          sha256 = "11ksnggndglppqfin7z311amadldvr2vr30jr9ikyfzab8vpy48k";
+        };
+        packageRequires = [ compat emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/calibre.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     cape = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "cape";
