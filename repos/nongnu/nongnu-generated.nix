@@ -1757,10 +1757,10 @@
       elpaBuild {
         pname = "macrostep";
         ename = "macrostep";
-        version = "0.9.1";
+        version = "0.9.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/macrostep-0.9.1.tar";
-          sha256 = "1n7x19748nv02zrxwy8b46jg9k4fzvqmwgvswq8x9ksghzsn7xyh";
+          url = "https://elpa.nongnu.org/nongnu/macrostep-0.9.2.tar";
+          sha256 = "1257vz50k69wka756c9sjq86apvw876myl3wml55x5m8q328wbcf";
         };
         packageRequires = [ cl-lib ];
         meta = {
