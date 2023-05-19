@@ -569,10 +569,10 @@
       elpaBuild {
         pname = "calibre";
         ename = "calibre";
-        version = "1.3.0";
+        version = "1.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/calibre-1.3.0.tar";
-          sha256 = "11ksnggndglppqfin7z311amadldvr2vr30jr9ikyfzab8vpy48k";
+          url = "https://elpa.gnu.org/packages/calibre-1.3.2.tar";
+          sha256 = "153axnv3hijv7jqmqwg2g8lh5n27dyf7mf54i53bghhpv26h91v5";
         };
         packageRequires = [ compat emacs ];
         meta = {
