@@ -3665,10 +3665,10 @@
       elpaBuild {
         pname = "org-remark";
         ename = "org-remark";
-        version = "1.0.5";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-remark-1.0.5.tar";
-          sha256 = "01pgfg9j5wrhggjklkc9nbfiwjd5qnmhcbcccc06jz3hmd0rnxr2";
+          url = "https://elpa.gnu.org/packages/org-remark-1.1.0.tar";
+          sha256 = "0vbs4dz86bz1s5crf7gfm4h4wpb7ibky3698ghdb4v4d5piz86ld";
         };
         packageRequires = [ emacs org ];
         meta = {
