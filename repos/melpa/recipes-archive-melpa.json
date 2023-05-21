@@ -13085,8 +13085,8 @@
   "repo": "clojure-emacs/clj-refactor.el",
   "unstable": {
    "version": [
-    20230423,
-    2147
+    20230520,
+    1550
    ],
    "deps": [
     "cider",
@@ -13099,8 +13099,8 @@
     "seq",
     "yasnippet"
    ],
-   "commit": "ffc6be1ef170402d25b068fb98a5a934cc5a5c36",
-   "sha256": "0gwc8cxrhm3n9w7a177x63ap68m9jxsgwaa7wwrgzm0b0inw0zvf"
+   "commit": "cfd184e93b9ab63f003fb2cf54a396e7b932a049",
+   "sha256": "0a3zkz1m8vzsw1k04dzyc5m772l81dp2dg6rrpk86lpra4vidqsb"
   },
   "stable": {
    "version": [
@@ -70399,8 +70399,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20230519,
-    1932
+    20230520,
+    2119
    ],
    "deps": [
     "compat",
@@ -70410,8 +70410,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "33d1e41d6967c343ea04b728bc6a888563d25bdb",
-   "sha256": "1shq9y5szgc1ivvb9pdmqw9ciab5bxxv1ar0vcnx3jkg1jgh3vga"
+   "commit": "ebd7a0635df4e38931f89d9e7cd4c5c4c8f1e730",
+   "sha256": "176yrh6hxa5nlwzrdgd2i5n3bb9w731rm42d3yvi7sr3y1arhvic"
   },
   "stable": {
    "version": [
@@ -77417,11 +77417,11 @@
   "repo": "rainstormstudio/nerd-icons.el",
   "unstable": {
    "version": [
-    20230517,
-    1810
+    20230520,
+    1705
    ],
-   "commit": "39df68f66f204b1a0680203a2b1483ed4a746987",
-   "sha256": "1alivhaydxjcbfi7cgx9vkyv315ca28zhhzblccf9fnhxv8ayc03"
+   "commit": "099cbe3b5a8a253209d81320ad1389eb3d31fdc3",
+   "sha256": "1kcyk1yln0gsw8bgnbmjhz88ywy87b48zpksh827giai7c0r1nfy"
   }
  },
  {
@@ -82250,16 +82250,15 @@
   "stable": {
    "version": [
     0,
-    1,
+    2,
     0
    ],
    "deps": [
     "alert",
-    "dash",
-    "s"
+    "org"
    ],
-   "commit": "685c18aa5ce994360c7f9e8bbf49590c412187ac",
-   "sha256": "0gkv2sfl9nb64qqh5xhgq68r9kfmsny3vpcmnzk2mqjcb9nh657s"
+   "commit": "87abaeac60e37fda530787988e00307a1f72fedb",
+   "sha256": "0svvzlp79hgm0cgzbkyfs42j8vjnlzv76ny1y6lhamnh7clr9p9i"
   }
  },
  {
@@ -93950,11 +93949,11 @@
   "repo": "karthink/popper",
   "unstable": {
    "version": [
-    20230511,
-    128
+    20230520,
+    2129
    ],
-   "commit": "71bbc5fc1024678c35b1c9a837484e2e20e4bef1",
-   "sha256": "0jqbhhrl041ljp7z21xnx2zfsfjm0rnw15i6jqc7wqiil9y6pr90"
+   "commit": "809ec965d8f6f74ce408e3a8b5974b43371c1528",
+   "sha256": "1sn6dwa0qgwcaf9fx62n47jbnybip9zdmp5sfcwv638pdk25mdyl"
   },
   "stable": {
    "version": [
