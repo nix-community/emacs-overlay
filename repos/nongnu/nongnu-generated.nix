@@ -3005,10 +3005,10 @@
       elpaBuild {
         pname = "undo-fu-session";
         ename = "undo-fu-session";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/undo-fu-session-0.5.tar";
-          sha256 = "002srqa08kpgzsp171n88k1bz7qin16lpr7yafg13i29x37v6yzq";
+          url = "https://elpa.nongnu.org/nongnu/undo-fu-session-0.6.tar";
+          sha256 = "0l54zqr481xlldfjllhsq4z6ccyzx0k3h7gm59pz32m7bd7zxggl";
         };
         packageRequires = [ emacs ];
         meta = {
