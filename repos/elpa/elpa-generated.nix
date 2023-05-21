@@ -400,10 +400,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "0.2.0";
+        version = "0.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/beframe-0.2.0.tar";
-          sha256 = "1nj35r59zpa5hadw9axjassrixx91yqgiffpk9yfhjwnz2s93l15";
+          url = "https://elpa.gnu.org/packages/beframe-0.3.0.tar";
+          sha256 = "0naa3agr4h0z1fc3fwnsq4k57zpzvg7ganbr6dyp7c70ja8x32h0";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -569,10 +569,10 @@
       elpaBuild {
         pname = "calibre";
         ename = "calibre";
-        version = "1.3.2";
+        version = "1.3.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/calibre-1.3.2.tar";
-          sha256 = "153axnv3hijv7jqmqwg2g8lh5n27dyf7mf54i53bghhpv26h91v5";
+          url = "https://elpa.gnu.org/packages/calibre-1.3.3.tar";
+          sha256 = "03vg3vym5v04jcvrbyh1m1vfh04a4maiyac89c052lj9zp7yzrx7";
         };
         packageRequires = [ compat emacs ];
         meta = {
