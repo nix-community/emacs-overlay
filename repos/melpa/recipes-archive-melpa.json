@@ -21721,11 +21721,11 @@
   "repo": "susam/devil",
   "unstable": {
    "version": [
-    20230513,
-    1333
+    20230523,
+    2328
    ],
-   "commit": "1ddc4dc2e3255b56e9c72dfa0784dd48d20290f2",
-   "sha256": "1n2n7zrzm7p3za3fn3k0ag0dssmkkzjz59vp5mxqakqr7sbl9s4g"
+   "commit": "c45ab996cabafa5e7c58f6635283729490c59d29",
+   "sha256": "16av6ck37z0xkj29gp5mndr255b6rg1zhx70jprrf2m6gbsyl0bv"
   },
   "stable": {
    "version": [
@@ -37843,14 +37843,14 @@
   "stable": {
    "version": [
     1,
-    2
+    3
    ],
    "deps": [
     "buffer-manage",
     "dash"
    ],
-   "commit": "f72be02fc48d00466b233484aa615804ea78b935",
-   "sha256": "05lj1rcgvc9d8nhpicrv32a925cjgmqxlmq0mj259853qb0mmh2b"
+   "commit": "86827e5d2fe6e7757c346db718d97a50acdacb00",
+   "sha256": "1xgmppl39mnh80vvgxwwlzrgv5lxrmy3rp3xqiyhmg3czwrhsr0z"
   }
  },
  {
@@ -39130,14 +39130,14 @@
   "repo": "weijiangan/flycheck-golangci-lint",
   "unstable": {
    "version": [
-    20190330,
-    1412
+    20230523,
+    1855
    ],
    "deps": [
     "flycheck"
    ],
-   "commit": "8e446c68311048f0b87febf8ef0379e29d358851",
-   "sha256": "0xxxqk8ag082nwwq3dvhzvnbgn9c90mbda7qvi2y4qbh1p1nccqc"
+   "commit": "9def093e416e9a6ddd3cae8590dbb7ff6314925a",
+   "sha256": "1j28zwglv0qygzzsd7rp71gswgidcq7mkaph7z915xci92r2r3ap"
   }
  },
  {
@@ -57428,8 +57428,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20230522,
-    619
+    20230524,
+    41
    ],
    "deps": [
     "compat",
@@ -57437,8 +57437,8 @@
     "persist",
     "plz"
    ],
-   "commit": "45f423bfc62fbc8b22ddf122503367e806ebebee",
-   "sha256": "060rvijgb17hr65hz4zy9d7j0ffx23ppz52qi2f1hjsmxlqhm9l5"
+   "commit": "06554ede9bcabf0bfcda49c7f1a10c828accf99d",
+   "sha256": "1l9rbcx7pggr92dnk4l6dilkqibhx12kprkvi242aiq8bfyd057n"
   }
  },
  {
@@ -62001,10 +62001,10 @@
   "unstable": {
    "version": [
     20230523,
-    1146
+    1852
    ],
-   "commit": "cfb610bc0d35c62e57c82432fdf95b15dc0763e4",
-   "sha256": "0l5z88b6p1vnnpr1vnbhg8av10mfd1rf1v85as5jb7qqrddx1gzm"
+   "commit": "e9467f9555d2c1c3c07eb6f2f7cb1ce3a7722aef",
+   "sha256": "1gzwy9zgyc3azc9kwjkqirwkvni8rvnk9dr88vc4w8hvr0dyf1jv"
   }
  },
  {
@@ -62441,14 +62441,14 @@
   "repo": "minad/jinx",
   "unstable": {
    "version": [
-    20230517,
-    1157
+    20230523,
+    1849
    ],
    "deps": [
     "compat"
    ],
-   "commit": "9a7122c894b14f0d625ac183db657075c9438cc7",
-   "sha256": "1xz86sxmi8cx0x97vw1xjccc39i7nzgr4fzbgr8ps636lgp56jlh"
+   "commit": "127be5eb20ee233341fca1d1a28e6d8aceba808e",
+   "sha256": "1gkrh8wl2m0hkakl4cl966wjdmhqlid2wi8zs677029lwpcks161"
   },
   "stable": {
    "version": [
@@ -70471,8 +70471,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20230521,
-    2344
+    20230523,
+    1431
    ],
    "deps": [
     "compat",
@@ -70482,8 +70482,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "5389cbcfff7a2a3fe6007bc0681ff97e18cd7350",
-   "sha256": "0hc5rn1qd7jbrwsz16pbm0cf3y06167l50lpfjaidv2w9byh14dg"
+   "commit": "f46cc6dd91227793058ec4988598765d092a6c03",
+   "sha256": "1jjzbp26awzhvnyl0qzjnwh6614rv1pd71s6wqm79kpb1v5x493f"
   },
   "stable": {
    "version": [
@@ -79220,11 +79220,11 @@
   "repo": "mattfidler/nsis-mode",
   "unstable": {
    "version": [
-    20230522,
-    2251
+    20230523,
+    1810
    ],
-   "commit": "50d59dc6a915511b14824f13182d764e00ddd44a",
-   "sha256": "02p6fbmvyz5ywzl90rlyxyh9i72sr78qqkgxag7haib7xkcz3gml"
+   "commit": "b80fa862e8aa2c74188c3028da96b449eb7f3441",
+   "sha256": "0f6mf26vakiy3y1af4y3a819cggsqkgcl1f3jbvp1sflhbhyq5bk"
   },
   "stable": {
    "version": [
@@ -94985,25 +94985,26 @@
   "repo": "alphapapa/prism.el",
   "unstable": {
    "version": [
-    20230519,
-    1009
+    20230523,
+    1546
    ],
    "deps": [
     "dash"
    ],
-   "commit": "8d4b7726632eac8850b2509239ad0283a80afc93",
-   "sha256": "0haac33h0hk72r3nbdpyd63wkihkfbwysw6d040kwd2p9hlqfp8r"
+   "commit": "676be005284f2d9da7d507987c79a9b4b1049e9f",
+   "sha256": "1750s161ck83lcl36rm2jbkssbgpa9hfx1gbv2r582381q1p4kwp"
   },
   "stable": {
    "version": [
     0,
-    3
+    3,
+    1
    ],
    "deps": [
     "dash"
    ],
-   "commit": "8d4b7726632eac8850b2509239ad0283a80afc93",
-   "sha256": "0haac33h0hk72r3nbdpyd63wkihkfbwysw6d040kwd2p9hlqfp8r"
+   "commit": "676be005284f2d9da7d507987c79a9b4b1049e9f",
+   "sha256": "1750s161ck83lcl36rm2jbkssbgpa9hfx1gbv2r582381q1p4kwp"
   }
  },
  {
