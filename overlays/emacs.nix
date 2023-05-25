@@ -141,9 +141,21 @@ let
     tree-sitter-yaml
   ];
 
-  emacsGit = super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; treeSitterPlugins = defaultTreeSitterPlugins; };
+  emacsGit = (super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; treeSitterPlugins = defaultTreeSitterPlugins; }).overrideAttrs (
+    oa: {
+      patches = oa.patches ++ [
+        # XXX: #318
+        ./bytecomp-revert.patch
+      ]; }
+  );
 
-  emacsPgtk = super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; treeSitterPlugins = defaultTreeSitterPlugins; };
+  emacsPgtk = (super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; treeSitterPlugins = defaultTreeSitterPlugins; }).overrideAttrs (
+    oa: {
+      patches = oa.patches ++ [
+        # XXX: #318
+        ./bytecomp-revert.patch
+      ]; }
+  );
 
   emacsUnstable = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; treeSitterPlugins = defaultTreeSitterPlugins; };
 
