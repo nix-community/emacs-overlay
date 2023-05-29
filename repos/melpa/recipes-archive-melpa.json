@@ -25,17 +25,17 @@
  },
  {
   "ename": "0x0",
-  "commit": "f725830dd12dcf466b7b1efe54b9eb3b55e5f959",
-  "sha256": "0s8q6wzzbqlpxsf9757r44lf8i8h72x4j020wmv4hvbxdvprqxq4",
-  "fetcher": "gitlab",
+  "commit": "a424140afee1c7128c3eb985d7cd9f65c7827d1e",
+  "sha256": "0bi90vzfd1bh6frglyjszfsb4sig65rc667appppvsf0b2w390vk",
+  "fetcher": "sourcehut",
   "repo": "willvaughn/emacs-0x0",
   "unstable": {
    "version": [
-    20210701,
-    839
+    20230528,
+    1625
    ],
-   "commit": "ad9f84e6d39c620da381313b160667864a702fd6",
-   "sha256": "1cd0drlhi0lf1vmarcfl3vc7ldkymaj50dhqb1ajm7r0s5ps3asb"
+   "commit": "09cdeda5ed91a03f26b2aedab3b75812edd1ee8d",
+   "sha256": "1y1fqn4a5qkiz74qixdbzx6qvmhfp8v4fbqj54pz72a7i5xp87h6"
   }
  },
  {
@@ -16888,8 +16888,8 @@
   "repo": "necaris/conda.el",
   "unstable": {
    "version": [
-    20230228,
-    322
+    20230528,
+    2355
    ],
    "deps": [
     "dash",
@@ -16897,8 +16897,8 @@
     "pythonic",
     "s"
    ],
-   "commit": "f90598f54af78469e61497560ddad05344810a35",
-   "sha256": "0m3fgvj415nr5ziafbc3km3kqlzifgxkpjwjbdd9xld871d83v1y"
+   "commit": "f3ea3876eecd00a1fca16fd7fd68e56e3beac87c",
+   "sha256": "10brb5lg3fdfw840d4fw9db34vakxkbq0wq4ad16ab4qbw50aizw"
   },
   "stable": {
    "version": [
@@ -21730,11 +21730,11 @@
   "repo": "susam/devil",
   "unstable": {
    "version": [
-    20230527,
-    1156
+    20230528,
+    1732
    ],
-   "commit": "c87075a0cd087165f8528de6952263b4ef26858b",
-   "sha256": "1jpcca9sz94i8fpswa5axcky92h985md14qpy08f97p0ws8gvsi5"
+   "commit": "30649e8f473ad352d296b05a569acfdc910d9ca5",
+   "sha256": "0skak9415x0f8k7hdw8cp5775z77lna91zzghzyjc10mwdfqa1kv"
   },
   "stable": {
    "version": [
@@ -29916,14 +29916,14 @@
   "repo": "oantolin/embark",
   "unstable": {
    "version": [
-    20230521,
-    1511
+    20230528,
+    1725
    ],
    "deps": [
     "compat"
    ],
-   "commit": "e6b0f8321846e9bbdaf8f9e2cab4220c0b0a58c4",
-   "sha256": "0w5qhf3zmgjc1jpr4s4aiil3am0a2ciyy8n9hz8bwn4mrm366bfi"
+   "commit": "76f199644ae57960f2419c27a7e11ccd79706a03",
+   "sha256": "0gv23c9gbbf1yi8zhqlpfd8p7lhlfcw1277nf760ilw20ccxcjvp"
   },
   "stable": {
    "version": [
@@ -50686,15 +50686,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20230527,
-    515
+    20230528,
+    1617
    ],
    "deps": [
     "helm-core",
     "popup"
    ],
-   "commit": "ad5a61d42d2ecaa940a4a4ada6d2fac0dedbd5c7",
-   "sha256": "1i185x3yw3sbgad60khjpvpp02nqd4wps5k3ppld20qspv0ymnbr"
+   "commit": "617f5fa96404ece6e3ec15b6f5e6baa6b24699b4",
+   "sha256": "0gi3kk356ybyxspf1x4b3396rwaia3if28x686p1pyjqmjh02666"
   },
   "stable": {
    "version": [
@@ -95447,6 +95447,14 @@
   }
  },
  {
+  "ename": "project-treemacs",
+  "commit": "412d7597cfcdfeed7bd12313dc5e8a4890b1dcc3",
+  "sha256": "1v4bc6nljfnk881i2rdsdynz8d006s00h6wvqqfrppwklxx4rr1m",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "cmccloud/project-treemacs"
+ },
+ {
   "ename": "projectile",
   "commit": "ad320d60e2c95881f31628c19ad3b9ece7e3d165",
   "sha256": "0p592fq6gp4dzar30fiw6ks6i75kc9q1pm1agrx0qxwk84f4j76f",
@@ -121765,11 +121773,11 @@
   "repo": "progfolio/wordel",
   "unstable": {
    "version": [
-    20230522,
-    218
+    20230528,
+    1902
    ],
-   "commit": "935444b4fb970cea1feb83b4707e883dd6b1eab3",
-   "sha256": "1m4d0zq5cb1r1v43s6a9xzw3xn3r2j1phwqsgq6df9n0d2yxl0gs"
+   "commit": "dd87d7c1b66eaceb6ebedbbff6ab6d8523004de2",
+   "sha256": "1k4r7i6zachkifimhwimcwbrax0d4mxvr2n5kadxr4m11cjgrl90"
   }
  },
  {
