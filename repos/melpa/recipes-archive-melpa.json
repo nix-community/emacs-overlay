@@ -34035,15 +34035,15 @@
   "repo": "gabesoft/evil-mc",
   "unstable": {
    "version": [
-    20220118,
-    122
+    20230529,
+    210
    ],
    "deps": [
     "cl-lib",
     "evil"
    ],
-   "commit": "63fd2fe0c213a4cc31c464d246f92931c4cb720f",
-   "sha256": "1f8853zg9f0ib1jcfq25lm997l11bbg6rw2jvphcll51ag5zbyad"
+   "commit": "bdf893ea6f52fd0f10bece8ddae813658e17bbb4",
+   "sha256": "12r2vi3a3la93fm18rcwjy6v6x4rqa6khryxggdki3whlmzv60xf"
   },
   "stable": {
    "version": [
@@ -57437,8 +57437,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20230527,
-    2345
+    20230529,
+    758
    ],
    "deps": [
     "compat",
@@ -57446,8 +57446,8 @@
     "persist",
     "plz"
    ],
-   "commit": "2faf7738ced4f0cbc0309347cb52bf7aba8a73f2",
-   "sha256": "0n2bp4bmcm77h2243fjmna863r20sdh3p1ylmv7nq394lnqhri7g"
+   "commit": "039bb85ef31c12478dee122e0822f05395094d2c",
+   "sha256": "0zqqdvw8ha53pf93g9vcjlnar0z3vjjgq85zsny0l8lfg8j95pkk"
   }
  },
  {
@@ -74623,11 +74623,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20230528,
-    320
+    20230529,
+    513
    ],
-   "commit": "0557146806374ae50820ade321933c502c723239",
-   "sha256": "0889pq5xaiw2ln0r1lvhnwlwp9nqp8p3hgylcvxi7hdh9sv6iw6j"
+   "commit": "f9c83600a9e13a4db0b1cd69c10906973d84f3b2",
+   "sha256": "0m35v09xsfw6xw1syhl8nf5f83vmkc6jbxcygqms3j6p0rw5mdcy"
   },
   "stable": {
    "version": [
@@ -95450,9 +95450,19 @@
   "ename": "project-treemacs",
   "commit": "412d7597cfcdfeed7bd12313dc5e8a4890b1dcc3",
   "sha256": "1v4bc6nljfnk881i2rdsdynz8d006s00h6wvqqfrppwklxx4rr1m",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "cmccloud/project-treemacs"
+  "repo": "cmccloud/project-treemacs",
+  "unstable": {
+   "version": [
+    20230505,
+    1121
+   ],
+   "deps": [
+    "treemacs"
+   ],
+   "commit": "26c95e025256f7070fafb69dc13f602831d1def8",
+   "sha256": "07235wp9alp77g91ryg00qs3h8ypwrqgn7d5vqxxqna5ynyw8pms"
+  }
  },
  {
   "ename": "projectile",
@@ -111969,11 +111979,11 @@
   "repo": "11111000000/tao-theme-emacs",
   "unstable": {
    "version": [
-    20230510,
-    1906
+    20230529,
+    234
    ],
-   "commit": "a331516a42f4c1656d2226f549a1cbf384463c15",
-   "sha256": "0j9xswm9afjj5hwl9fdjhdhgsggkqbyfhi9q8nmnhd71chabwnyz"
+   "commit": "4443e91293a044869e836bfeb0b10e9b4d3b102b",
+   "sha256": "1s3i337rj1dfhibv7nfkdh2bkcyq0z4ar2w60g7nvy426hzjxxg8"
   },
   "stable": {
    "version": [
@@ -122205,11 +122215,11 @@
   "stable": {
    "version": [
     0,
-    2,
-    9
+    3,
+    0
    ],
-   "commit": "4ef50b621b93c0554c4a9e045df1d936ce925ad1",
-   "sha256": "17316pq7hlfjx7lbmslmjja4bdvg8mra7nsbaa7dsib6anh75kvn"
+   "commit": "7ca440a7f1bf58cf18b8e07171a53f129970306c",
+   "sha256": "0za3mxssx48shdaqwn8akxrshkqn92dd0s06h6abqk9mfzdd67ng"
   }
  },
  {
