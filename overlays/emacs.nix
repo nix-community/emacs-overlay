@@ -146,8 +146,6 @@ let
       patches = oa.patches ++ [
         # XXX: #318
         ./bytecomp-revert.patch
-        # XXX: https://lists.gnu.org/archive/html/bug-gnu-emacs/2023-05/msg01512.html
-        ./nativecomp-revert.patch
       ]; }
   );
 
@@ -156,8 +154,6 @@ let
       patches = oa.patches ++ [
         # XXX: #318
         ./bytecomp-revert.patch
-        # XXX: https://lists.gnu.org/archive/html/bug-gnu-emacs/2023-05/msg01512.html
-        ./nativecomp-revert.patch
       ]; }
   );
 
