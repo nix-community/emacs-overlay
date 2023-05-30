@@ -48,7 +48,7 @@ let
               # patch to be used. Not sure if it's better to rely on
               # upstream Nixpkgs since it's cumbersome to wait for
               # things to get merged into master.
-                (super.lib.optionalString (old ? NATIVE_FULL_AOT)
+                (super.lib.optionalString ((old ? NATIVE_FULL_AOT) || (old ? env.NATIVE_FULL_AOT))
                     (let backendPath = (super.lib.concatStringsSep " "
                       (builtins.map (x: ''\"-B${x}\"'') ([
                         # Paths necessary so the JIT compiler finds its libraries:
