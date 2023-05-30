@@ -16,7 +16,7 @@ let
       super.emacs
       ([
 
-        (drv: drv.override ({ srcRepo = true; } // builtins.removeAttrs args [ "noTreeSitter" "treeSitterPlugins" ]))
+        (drv: drv.override ({ srcRepo = true; } // args))
 
         (
           drv: drv.overrideAttrs (
@@ -86,62 +86,9 @@ let
           in
           result
         )
-      ]
-      ++ (super.lib.optional (! (args ? "noTreeSitter")) (
-        drv: drv.overrideAttrs (old:
-          let
-            libName = drv: super.lib.removeSuffix "-grammar" drv.pname;
-            libSuffix = if super.stdenv.isDarwin then "dylib" else "so";
-            lib = drv: ''lib${libName drv}.${libSuffix}'';
-            linkCmd = drv:
-              if super.stdenv.isDarwin
-              then ''cp ${drv}/parser .
-                     chmod +w ./parser
-                     install_name_tool -id $out/lib/${lib drv} ./parser
-                     cp ./parser $out/lib/${lib drv}
-                     ${self.pkgs.darwin.sigtool}/bin/codesign -s - -f $out/lib/${lib drv}
-                ''
-              else ''ln -s ${drv}/parser $out/lib/${lib drv}'';
-            plugins = args.treeSitterPlugins;
-            tree-sitter-grammars = super.runCommandCC "tree-sitter-grammars" {}
-              (super.lib.concatStringsSep "\n" (["mkdir -p $out/lib"] ++ (map linkCmd plugins)));
-          in {
-            buildInputs = old.buildInputs ++ [ self.pkgs.tree-sitter tree-sitter-grammars ];
-            buildFlags = super.lib.optionalString self.stdenv.isDarwin
-              "LDFLAGS=-Wl,-rpath,${super.lib.makeLibraryPath [tree-sitter-grammars]}";
-            TREE_SITTER_LIBS = "-ltree-sitter";
-            # Add to list of directories dlopen/dynlib_open searches for tree sitter languages *.so
-            postFixup = old.postFixup + super.lib.optionalString self.stdenv.isLinux ''
-                ${self.pkgs.patchelf}/bin/patchelf --add-rpath ${super.lib.makeLibraryPath [ tree-sitter-grammars ]} $out/bin/emacs
-              '';
-          }
-        )
-      )));
+      ]);
 
-  defaultTreeSitterPlugins = with self.pkgs.tree-sitter-grammars; [
-    tree-sitter-bash
-    tree-sitter-c
-    tree-sitter-c-sharp
-    tree-sitter-cmake
-    tree-sitter-cpp
-    tree-sitter-css
-    tree-sitter-dockerfile
-    tree-sitter-go
-    tree-sitter-gomod
-    tree-sitter-html
-    tree-sitter-java
-    tree-sitter-javascript
-    tree-sitter-json
-    tree-sitter-python
-    tree-sitter-ruby
-    tree-sitter-rust
-    tree-sitter-toml
-    tree-sitter-tsx
-    tree-sitter-typescript
-    tree-sitter-yaml
-  ];
-
-  emacsGit = (super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; treeSitterPlugins = defaultTreeSitterPlugins; }).overrideAttrs (
+  emacsGit = (super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; }).overrideAttrs (
     oa: {
       patches = oa.patches ++ [
         # XXX: #318
@@ -149,7 +96,7 @@ let
       ]; }
   );
 
-  emacsPgtk = (super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; treeSitterPlugins = defaultTreeSitterPlugins; }).overrideAttrs (
+  emacsPgtk = (super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; withPgtk = true; }).overrideAttrs (
     oa: {
       patches = oa.patches ++ [
         # XXX: #318
@@ -157,11 +104,11 @@ let
       ]; }
   );
 
-  emacsUnstable = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; treeSitterPlugins = defaultTreeSitterPlugins; };
+  emacsUnstable = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; };
 
-  emacsUnstablePgtk = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withPgtk = true; treeSitterPlugins = defaultTreeSitterPlugins; };
+  emacsUnstablePgtk = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; withPgtk = true; };
 
-  emacsLsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json { noTreeSitter = true; });
+  emacsLsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json { withTreeSitter = false; });
 
 in
 {
