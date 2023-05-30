@@ -1784,10 +1784,10 @@
       elpaBuild {
         pname = "excorporate";
         ename = "excorporate";
-        version = "1.1.0";
+        version = "1.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/excorporate-1.1.0.tar";
-          sha256 = "1il51gfgvkxjj7vdi5kdmzi87hl9853ck8s45p0cxrddlaiqbmwy";
+          url = "https://elpa.gnu.org/packages/excorporate-1.1.1.tar";
+          sha256 = "06ilfkrlx6ca0qfqq3w1w07kdwak556i1wgf1875py2d5xkg4r90";
         };
         packageRequires = [
           cl-lib
@@ -3191,10 +3191,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.1.1";
+        version = "4.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-themes-4.1.1.tar";
-          sha256 = "06lp7mpazby7iiwzw4naym983plg9r63ba9vmaszh3609d2gm0s9";
+          url = "https://elpa.gnu.org/packages/modus-themes-4.2.0.tar";
+          sha256 = "0bki4h3rs1ch47sygb4nib8960lyvvgs7yxgsy009il3hfxzdgsq";
         };
         packageRequires = [ emacs ];
         meta = {
