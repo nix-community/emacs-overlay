@@ -89,7 +89,7 @@ let
       ]);
 
   emacsGit = let base = (super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; });
-                 # TODO: remove when we drop support for < 23.05
+                 # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                  maybeOverridden = if super.lib.hasAttr "treeSitter" base then base.override { withTreeSitter = true; } else base;
              in
                maybeOverridden.overrideAttrs (
@@ -101,7 +101,7 @@ let
                );
 
   emacsPgtk = let base = super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; };
-                 # TODO: remove when we drop support for < 23.05
+                 # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                   maybeOverridden = if super.lib.hasAttr "treeSitter" base then base.override { withTreeSitter = true; } else base;
               in maybeOverridden.overrideAttrs (
                 oa: {
@@ -112,17 +112,17 @@ let
               );
 
   emacsUnstable = let base = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; };
-                      # TODO: remove when we drop support for < 23.05
+                      # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                       maybeOverridden = if super.lib.hasAttr "treeSitter" base then base.override { withTreeSitter = true; } else base;
                       in maybeOverridden;
 
   emacsUnstablePgtk = let base = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withPgtk = true; };
-                          # TODO: remove when we drop support for < 23.05
+                          # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                           maybeOverridden = if super.lib.hasAttr "treeSitter" base then base.override { withTreeSitter = true; } else base;
                       in maybeOverridden;
 
   emacsLsp = let base = super.lib.makeOverridable (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { };
-                 # TODO: remove when we drop support for < 23.05
+                 # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                  maybeOverridden = if super.lib.hasAttr "treeSitter" base then base.override { withTreeSitter = false; } else base;
                  in maybeOverridden;
 
