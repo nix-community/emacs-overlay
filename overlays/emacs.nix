@@ -108,7 +108,7 @@ let
 
   emacsUnstablePgtk = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; withPgtk = true; };
 
-  emacsLsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json { withTreeSitter = false; });
+  emacsLsp = super.lib.makeOverridable (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { withTreeSitter = false; };
 
 in
 {
