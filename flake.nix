@@ -9,11 +9,13 @@
   inputs = {
     flake-utils.url = "github:numtide/flake-utils";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-22.11";
   };
 
   outputs =
     { self
     , nixpkgs
+    , nixpkgs-stable
     , flake-utils
     }: {
       # self: super: must be named final: prev: for `nix flake check` to be happy
@@ -26,11 +28,14 @@
       overlay = self.overlays.default;
     } // flake-utils.lib.eachDefaultSystem (system: (
       let
-        pkgs = import nixpkgs {
+
+        importPkgs = path: import path {
           inherit system;
           config.allowAliases = false;
           overlays = [ self.overlays.default ];
         };
+        pkgs = importPkgs nixpkgs;
+
         inherit (pkgs) lib;
         overlayAttributes = lib.pipe (import ./. pkgs pkgs) [
           builtins.attrNames
@@ -45,6 +50,52 @@
       {
         lib = attributesToAttrset overlayAttributes.wrong;
         packages = attributesToAttrset overlayAttributes.right;
+
+        hydraJobs =
+          let
+          mkHydraJobs = pkgs: let
+            mkEmacsSet = emacs: pkgs.recurseIntoAttrs (
+              lib.filterAttrs
+              (n: v: builtins.typeOf v == "set" && ! lib.isDerivation v)
+              (pkgs.emacsPackagesFor emacs)
+            );
+
+          in {
+              emacsen = {
+                inherit (pkgs) emacsUnstable emacsUnstable-nox;
+                inherit (pkgs) emacsGit emacsGit-nox;
+                inherit (pkgs) emacsPgtk;
+              };
+
+              emacsen-cross =
+                let
+                  crossTargets = [ "aarch64-multiplatform" ];
+                in
+                lib.fold lib.recursiveUpdate { }
+                  (builtins.map
+                    (target:
+                      let
+                        targetPkgs = pkgs.pkgsCross.${target};
+                      in
+                      lib.mapAttrs' (name: job: lib.nameValuePair "${name}-${target}" job)
+                        ({
+                          inherit (targetPkgs) emacsUnstable emacsUnstable-nox;
+                          inherit (targetPkgs) emacsGit emacsGit-nox;
+                          inherit (targetPkgs) emacsPgtk;
+                        }))
+                    crossTargets);
+
+
+              packages = mkEmacsSet pkgs.emacs;
+              packages-unstable = mkEmacsSet pkgs.emacsUnstable;
+            };
+
+          in
+          {
+            "22.11" = mkHydraJobs (importPkgs nixpkgs-stable);
+            "unstable" = mkHydraJobs pkgs;
+          };
+
       }
     ));
 
