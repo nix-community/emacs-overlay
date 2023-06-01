@@ -40,10 +40,11 @@
           mkHydraJobs = pkgs:
             let
               mkEmacsSet = emacs: pkgs.recurseIntoAttrs (
-                pkgs.lib.filterAttrs
-                  (n: v: builtins.typeOf v == "set" && ! pkgs.lib.isDerivation v)
+                lib.filterAttrs
+                  (n: v: builtins.typeOf v == "set" && ! lib.isDerivation v)
                   (pkgs.emacsPackagesFor emacs)
               );
+              inherit (pkgs) lib;
 
             in
             {
@@ -78,7 +79,7 @@
         in
         {
           "22.11" = mkHydraJobs (importPkgs nixpkgs-stable { inherit system; });
-          "unstable" = mkHydraJobs (importPkgs nixpkgs { inherit system; };);
+          "unstable" = mkHydraJobs (importPkgs nixpkgs { inherit system; });
         };
     }) // flake-utils.lib.eachDefaultSystem (system: (
       let
