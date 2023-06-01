@@ -23,6 +23,7 @@ jobs:
       uses: cachix/cachix-action@v10
       with:
         name: nix-community
+        authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
 
     - name: Configure Git
       run: |
