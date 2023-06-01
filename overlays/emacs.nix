@@ -88,7 +88,7 @@ let
         )
       ]);
 
-  emacsGit = let base = (super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; });
+  emacs-git = let base = (super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; });
                  # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                  maybeOverridden = if super.lib.hasAttr "treeSitter" base then base.override { withTreeSitter = true; } else base;
              in
@@ -100,7 +100,7 @@ let
                    ]; }
                );
 
-  emacsPgtk = let base = super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; };
+  emacs-pgtk = let base = super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; };
                  # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                   maybeOverridden = if super.lib.hasAttr "treeSitter" base then base.override { withTreeSitter = true; } else base;
               in maybeOverridden.overrideAttrs (
@@ -111,70 +111,80 @@ let
                   ]; }
               );
 
-  emacsUnstable = let base = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; };
+  emacs-unstable = let base = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; };
                       # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                       maybeOverridden = if super.lib.hasAttr "treeSitter" base then base.override { withTreeSitter = true; } else base;
                       in maybeOverridden;
 
-  emacsUnstablePgtk = let base = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withPgtk = true; };
+  emacs-unstable-pgtk = let base = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withPgtk = true; };
                           # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                           maybeOverridden = if super.lib.hasAttr "treeSitter" base then base.override { withTreeSitter = true; } else base;
                       in maybeOverridden;
 
-  emacsLsp = let base = super.lib.makeOverridable (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { };
+  emacs-lsp = let base = super.lib.makeOverridable (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { };
                  # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                  maybeOverridden = if super.lib.hasAttr "treeSitter" base then base.override { withTreeSitter = false; } else base;
                  in maybeOverridden;
 
+  emacs-git-nox = (
+    (
+      emacs-git.override {
+        withNS = false;
+        withX = false;
+        withGTK2 = false;
+        withGTK3 = false;
+        withWebP = false;
+      }
+    ).overrideAttrs (
+      oa: {
+        name = "${oa.name}-nox";
+      }
+    )
+  );
+
+  emacs-unstable-nox = (
+    (
+      emacs-unstable.override {
+        withNS = false;
+        withX = false;
+        withGTK2 = false;
+        withGTK3 = false;
+        withWebP = false;
+      }
+    ).overrideAttrs (
+      oa: {
+        name = "${oa.name}-nox";
+      }
+    )
+  );
+
 in
 {
-  inherit emacsGit emacsUnstable;
+  inherit emacs-git emacs-unstable;
 
-  inherit emacsPgtk emacsUnstablePgtk;
+  inherit emacs-pgtk emacs-unstable-pgtk;
 
-  emacsGit-nox = (
-    (
-      emacsGit.override {
-        withNS = false;
-        withX = false;
-        withGTK2 = false;
-        withGTK3 = false;
-        withWebP = false;
-      }
-    ).overrideAttrs (
-      oa: {
-        name = "${oa.name}-nox";
-      }
-    )
-  );
+  inherit emacs-git-nox emacs-unstable-nox;
 
-  emacsUnstable-nox = (
-    (
-      emacsUnstable.override {
-        withNS = false;
-        withX = false;
-        withGTK2 = false;
-        withGTK3 = false;
-        withWebP = false;
-      }
-    ).overrideAttrs (
-      oa: {
-        name = "${oa.name}-nox";
-      }
-    )
-  );
-
-  inherit emacsLsp;
+  inherit emacs-lsp;
 
   emacsWithPackagesFromUsePackage = import ../elisp.nix { pkgs = self; };
 
   emacsWithPackagesFromPackageRequires = import ../packreq.nix { pkgs = self; };
 
 } // super.lib.optionalAttrs (super.config.allowAliases or true) {
-  emacsGcc = builtins.trace "emacsGcc has been renamed to emacsGit, please update your expression." emacsGit;
-  emacsGitNativeComp = builtins.trace "emacsGitNativeComp has been renamed to emacsGit, please update your expression." emacsGit;
-  emacsGitTreeSitter = builtins.trace "emacsGitTreeSitter has been renamed to emacsGit, please update your expression." emacsGit;
-  emacsNativeComp = builtins.trace "emacsNativeComp has been renamed to emacsUnstable, please update your expression." emacsUnstable;
-  emacsPgtkGcc = builtins.trace "emacsPgtkGcc has been renamed to emacsPgtk, please update your expression." emacsPgtk;
-  emacsPgtkNativeComp = builtins.trace "emacsPgtkNativeComp has been renamed to emacsPgtk, please update your expression." emacsPgtk;
+  emacsGcc = builtins.trace "emacsGcc has been renamed to emacs-git, please update your expression." emacs-git;
+  emacsGitNativeComp = builtins.trace "emacsGitNativeComp has been renamed to emacs-git, please update your expression." emacs-git;
+  emacsGitTreeSitter = builtins.trace "emacsGitTreeSitter has been renamed to emacs-git, please update your expression." emacs-git;
+  emacsNativeComp = builtins.trace "emacsNativeComp has been renamed to emacs-unstable, please update your expression." emacs-unstable;
+  emacsPgtkGcc = builtins.trace "emacsPgtkGcc has been renamed to emacs-pgtk, please update your expression." emacs-pgtk;
+  emacsPgtkNativeComp = builtins.trace "emacsPgtkNativeComp has been renamed to emacs-pgtk, please update your expression." emacs-pgtk;
+
+  emacsGit = builtins.trace "emacsGit has been renamed to emacs-git, please update your expression." emacs-git;
+  emacsUnstable = builtins.trace "emacsUnstable has been renamed to emacs-unstable, please update your expression." emacs-unstable;
+  emacsPgtk = builtins.trace "emacsPgtk has been renamed to emacs-pgtk, please update your expression." emacs-pgtk;
+  emacsUnstablePgtk = builtins.trace "emacsUnstablePgtk has been renamed to emacs-unstable-pgtk, please update your expression." emacs-unstable-pgtk;
+  emacsGitNox = builtins.trace "emacsGitNox has been renamed to emacs-git-nox, please update your expression." emacs-git-nox;
+  emacsUnstableNox = builtins.trace "emacsUnstableNox has been renamed to emacs-unstable-nox, please update your expression." emacs-unstable-nox;
+  emacsLsp = builtins.trace "emacsLsp has been renamed to emacs-lsp, please update your expression." emacs-lsp;
 }
