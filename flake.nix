@@ -34,27 +34,23 @@
       # for backward compatibility, is safe to delete, not referenced anywhere
       overlay = self.overlays.default;
     } // flake-utils.lib.eachSystem [ "x86_64-linux" ] (system:
-    let
-      pkgs = importPkgs nixpkgs { inherit system; };
-      inherit (pkgs) lib;
-    in
     {
       hydraJobs =
         let
           mkHydraJobs = pkgs:
             let
               mkEmacsSet = emacs: pkgs.recurseIntoAttrs (
-                lib.filterAttrs
-                  (n: v: builtins.typeOf v == "set" && ! lib.isDerivation v)
+                pkgs.lib.filterAttrs
+                  (n: v: builtins.typeOf v == "set" && ! pkgs.lib.isDerivation v)
                   (pkgs.emacsPackagesFor emacs)
               );
 
             in
             {
               emacsen = {
-                inherit (pkgs) emacsUnstable emacsUnstable-nox;
-                inherit (pkgs) emacsGit emacsGit-nox;
-                inherit (pkgs) emacsPgtk;
+                inherit (pkgs) emacs-unstable emacs-unstable-nox;
+                inherit (pkgs) emacs-git emacs-git-nox;
+                inherit (pkgs) emacs-pgtk;
               };
 
               emacsen-cross =
@@ -69,20 +65,20 @@
                       in
                       lib.mapAttrs' (name: job: lib.nameValuePair "${name}-${target}" job)
                         ({
-                          inherit (targetPkgs) emacsUnstable emacsUnstable-nox;
-                          inherit (targetPkgs) emacsGit emacsGit-nox;
-                          inherit (targetPkgs) emacsPgtk;
+                          inherit (targetPkgs) emacs-unstable emacs-unstable-nox;
+                          inherit (targetPkgs) emacs-git emacs-git-nox;
+                          inherit (targetPkgs) emacs-pgtk;
                         }))
                     crossTargets);
 
               packages = mkEmacsSet pkgs.emacs;
-              packages-unstable = mkEmacsSet pkgs.emacsUnstable;
+              packages-unstable = mkEmacsSet pkgs.emacs-unstable;
             };
 
         in
         {
           "22.11" = mkHydraJobs (importPkgs nixpkgs-stable { inherit system; });
-          "unstable" = mkHydraJobs pkgs;
+          "unstable" = mkHydraJobs (importPkgs nixpkgs { inherit system; };);
         };
     }) // flake-utils.lib.eachDefaultSystem (system: (
       let
