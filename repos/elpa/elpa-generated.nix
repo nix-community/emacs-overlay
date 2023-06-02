@@ -1893,6 +1893,24 @@
           license = lib.licenses.free;
         };
       }) {};
+    firefox-javascript-repl = callPackage ({ elpaBuild
+                                           , emacs
+                                           , fetchurl
+                                           , lib }:
+      elpaBuild {
+        pname = "firefox-javascript-repl";
+        ename = "firefox-javascript-repl";
+        version = "0.9.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/firefox-javascript-repl-0.9.0.tar";
+          sha256 = "1irdwbp3k3i31nib4vq6y8i0s3qz9l31vij0423vhnajk3xcszp7";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/firefox-javascript-repl.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     flylisp = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "flylisp";
@@ -5387,6 +5405,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/typo.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    ulisp-repl = callPackage ({ elpaBuild, emacs, fetchurl, lib, paredit }:
+      elpaBuild {
+        pname = "ulisp-repl";
+        ename = "ulisp-repl";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/ulisp-repl-1.0.0.tar";
+          sha256 = "0bnmnayrb0qgy1p5151fp7b9q44w3lmjvdnjsdq2z2djdidp5cfl";
+        };
+        packageRequires = [ emacs paredit ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/ulisp-repl.html";
           license = lib.licenses.free;
         };
       }) {};
