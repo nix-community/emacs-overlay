@@ -4829,6 +4829,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    spacious-padding = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "spacious-padding";
+        ename = "spacious-padding";
+        version = "0.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/spacious-padding-0.0.0.tar";
+          sha256 = "1qvq8fdlqlivxyfivw7nx996hlz8vnxp68spbvf122y4llcixm2d";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/spacious-padding.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     spinner = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "spinner";
@@ -5322,10 +5337,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.4.0";
+        version = "0.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/transient-0.4.0.tar";
-          sha256 = "121ahylnqdrcs8z6ky0ahc99sc9090bdslx549vd84i5vg3yx198";
+          url = "https://elpa.gnu.org/packages/transient-0.4.1.tar";
+          sha256 = "0mw619057spgz9rrf8rws1zywpjl8ri7hz30f4g8wxqsgrk4ph79";
         };
         packageRequires = [ compat emacs ];
         meta = {
