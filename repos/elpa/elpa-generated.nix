@@ -1900,10 +1900,10 @@
       elpaBuild {
         pname = "firefox-javascript-repl";
         ename = "firefox-javascript-repl";
-        version = "0.9.3";
+        version = "0.9.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/firefox-javascript-repl-0.9.3.tar";
-          sha256 = "1hvhy47lks299y1h7kgb1c59cq2y3l3lzswca8z3z3nk3fqmjy3k";
+          url = "https://elpa.gnu.org/packages/firefox-javascript-repl-0.9.4.tar";
+          sha256 = "0xnmz9v4l226dz3n3lqsa018x1vh6kjn5h6plp802cgbaa4qkr6f";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5408,16 +5408,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    ulisp-repl = callPackage ({ elpaBuild, emacs, fetchurl, lib, paredit }:
+    ulisp-repl = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "ulisp-repl";
         ename = "ulisp-repl";
-        version = "1.0.1";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ulisp-repl-1.0.1.tar";
-          sha256 = "14ccrjah2mhvmbdflwsns67akb8jh1z56ijhjjfdm4l4kj2sv0m6";
+          url = "https://elpa.gnu.org/packages/ulisp-repl-1.0.2.tar";
+          sha256 = "1ill0fz6c52l309wvgwj5bq404n654fw7g70k0gl04lhwr77n69i";
         };
-        packageRequires = [ emacs paredit ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ulisp-repl.html";
           license = lib.licenses.free;
