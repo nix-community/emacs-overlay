@@ -5427,10 +5427,10 @@
       elpaBuild {
         pname = "ulisp-repl";
         ename = "ulisp-repl";
-        version = "1.0.2";
+        version = "1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ulisp-repl-1.0.2.tar";
-          sha256 = "1ill0fz6c52l309wvgwj5bq404n654fw7g70k0gl04lhwr77n69i";
+          url = "https://elpa.gnu.org/packages/ulisp-repl-1.0.3.tar";
+          sha256 = "09n0wp0dfg9xyxw0hwwb5p6namninvsw1fs710hmnh224q6wffgy";
         };
         packageRequires = [ emacs ];
         meta = {
