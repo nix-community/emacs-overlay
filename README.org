@@ -7,7 +7,7 @@ To get up and running quickly, add the following lines to your =/etc/nixos/confi
 {
 # ...
 
-  services.emacs.package = pkgs.emacsUnstable;
+  services.emacs.package = pkgs.emacs-unstable;
 
   nixpkgs.overlays = [
     (import (builtins.fetchTarball {
@@ -19,7 +19,7 @@ To get up and running quickly, add the following lines to your =/etc/nixos/confi
 }
 #+END_SRC
 
-This configuration will enable this overlay, and define your system-wide emacs package as the =emacsUnstable= attribute it provides.
+This configuration will enable this overlay, and define your system-wide emacs package as the =emacs-unstable= attribute it provides.
 
 *NOTE:* Read the "Usage of the overlay" section below for further explanation of this configuration. This has the potential to break things, and will frequently trigger full source rebuilds of emacs.
 
@@ -58,13 +58,13 @@ updated daily.
 This overlay also provides two versions (latest from git) for Emacs. These
 are updated daily.
 
-These attributes are named =emacsGit= and =emacsUnstable=.
-=emacsGit= is built from the latest =master= branch and =emacsUnstable= is built from the latest tag.
+These attributes are named =emacsGit= and =emacs-unstable=.
+=emacsGit= is built from the latest =master= branch and =emacs-unstable= is built from the latest tag.
 
 Emacs from git is not guaranteed stable and may break your setup at any
 time, if it breaks you get to keep both pieces.
 
-We also provide two attributes named =emacsGit-nox= and =emacsUnstable-nox=
+We also provide two attributes named =emacsGit-nox= and =emacs-unstable-nox=
 if you wish to have Emacs built without X dependencies.
 =emacsPgtk= uses the experimental pgtk feature which supports Wayland natively.
 
