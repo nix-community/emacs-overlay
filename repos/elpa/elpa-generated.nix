@@ -1900,10 +1900,10 @@
       elpaBuild {
         pname = "firefox-javascript-repl";
         ename = "firefox-javascript-repl";
-        version = "0.9.4";
+        version = "0.9.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/firefox-javascript-repl-0.9.4.tar";
-          sha256 = "0xnmz9v4l226dz3n3lqsa018x1vh6kjn5h6plp802cgbaa4qkr6f";
+          url = "https://elpa.gnu.org/packages/firefox-javascript-repl-0.9.5.tar";
+          sha256 = "0ml59kiigqnss84az1c8hp87bmcs9dngz01ly63x47wfym2af8mi";
         };
         packageRequires = [ emacs ];
         meta = {
