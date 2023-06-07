@@ -4833,10 +4833,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.0.0";
+        version = "0.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/spacious-padding-0.0.0.tar";
-          sha256 = "1qvq8fdlqlivxyfivw7nx996hlz8vnxp68spbvf122y4llcixm2d";
+          url = "https://elpa.gnu.org/packages/spacious-padding-0.1.0.tar";
+          sha256 = "0kc5f1p9y2gp2sb6l2vljjhi330f8zxfm7gjjvyymhf2grr61mxw";
         };
         packageRequires = [ emacs ];
         meta = {
