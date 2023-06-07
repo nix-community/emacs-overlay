@@ -17155,15 +17155,15 @@
   "repo": "mohkale/consult-company",
   "unstable": {
    "version": [
-    20230403,
-    1911
+    20230606,
+    1824
    ],
    "deps": [
     "company",
     "consult"
    ],
-   "commit": "24559103a77210c0178b95a842ad13b555be3d43",
-   "sha256": "0dnfpavfmx96zkjfi1qc87cd3vy52n3wi2jhdgm8nmfbsakjdih4"
+   "commit": "6e309fa9115c9ecd29aa27bff4e3b733979e5dbc",
+   "sha256": "1r8a50bg4fz89idq6k1dy8iajbn3bawijml9i618zh4f4vkca4fa"
   }
  },
  {
@@ -27825,19 +27825,20 @@
   "repo": "doublep/eldev",
   "unstable": {
    "version": [
-    20230605,
-    2044
+    20230606,
+    1809
    ],
-   "commit": "28d9f68c7732181928fd8fc87789532a493b5b2a",
-   "sha256": "09xmqkzj684irmhm48ay4sjx04wwf7bgc6qgjw87ia1cx28hvh72"
+   "commit": "e6a2f6e523a8ddfa75fb99c27e4f416faa808eb3",
+   "sha256": "0w71h6642aigr5zhmiy3gs2mbngpbshrlgkjmflb8dmcyscipvvw"
   },
   "stable": {
    "version": [
     1,
-    4
+    4,
+    1
    ],
-   "commit": "86111ed1466b999a73677008838a62fa1481dda0",
-   "sha256": "1cziz1a8mh24aj79jfnkjb0llh6a2raqnlcfyaswha80bwzwp4ph"
+   "commit": "2307625a4953f3706608f0dae7c3e9dc3444f8bb",
+   "sha256": "1vvqs8x2chm2bgwnlsrq7llgql5m9hjbxi1x3xbnzbx5l1yvldbp"
   }
  },
  {
@@ -33317,15 +33318,15 @@
   "repo": "emacs-evil/evil",
   "unstable": {
    "version": [
-    20230604,
-    2113
+    20230606,
+    2141
    ],
    "deps": [
     "cl-lib",
     "goto-chg"
    ],
-   "commit": "fed81edfbac65b45de8831782ef9c6e76b61fcdc",
-   "sha256": "12ssnxy5hdpk39ahh6p13p2yxw35ii4bc1xg7c59kh1q0lx9azcf"
+   "commit": "55446ec083bfec20733230e4c4365ae9cf43d3ae",
+   "sha256": "15di1r89v8ql663906pp656y1b56r94zzh5gqkd08dwz489bkz7d"
   },
   "stable": {
    "version": [
@@ -41022,15 +41023,15 @@
   "repo": "mohkale/flymake-collection",
   "unstable": {
    "version": [
-    20230521,
-    1147
+    20230606,
+    2002
    ],
    "deps": [
     "flymake",
     "let-alist"
    ],
-   "commit": "3e1f44739d207d9ca8e59376c582836321dbfcf1",
-   "sha256": "0cngz50y7599n01srk5mkcx6ffmfiprc4q73cn202bg7prwz8izw"
+   "commit": "845c52a1aead7485450c62b48a92096160d99a25",
+   "sha256": "1dpqlcxnrbba10zqx3nwv3pf0qxkdgksk0lavcyhj238fzc9yvrd"
   },
   "stable": {
    "version": [
@@ -64955,20 +64956,20 @@
   "repo": "hperrey/khalel",
   "unstable": {
    "version": [
-    20230122,
-    1139
+    20230606,
+    1909
    ],
-   "commit": "fbd4b4d6ae8f152140674e843ed7d82d223d52fe",
-   "sha256": "025c12im3yvxb37a5y5x7zwdwll50lzx5nzsh54ipacrzhc0fyn5"
+   "commit": "85df973fe2785caee08d4ef5b23bdaae424a8d98",
+   "sha256": "1k88v8cg1b2dkb9v1jxmbl2sx22gz7xqqppbrnmlafyf3m3bg2hv"
   },
   "stable": {
    "version": [
     0,
     1,
-    9
+    10
    ],
-   "commit": "fbd4b4d6ae8f152140674e843ed7d82d223d52fe",
-   "sha256": "025c12im3yvxb37a5y5x7zwdwll50lzx5nzsh54ipacrzhc0fyn5"
+   "commit": "85df973fe2785caee08d4ef5b23bdaae424a8d98",
+   "sha256": "1k88v8cg1b2dkb9v1jxmbl2sx22gz7xqqppbrnmlafyf3m3bg2hv"
   }
  },
  {
@@ -69894,15 +69895,15 @@
   "repo": "rgherdt/emacs-lsp-scheme",
   "unstable": {
    "version": [
-    20230605,
-    1621
+    20230606,
+    1722
    ],
    "deps": [
     "f",
     "lsp-mode"
    ],
-   "commit": "8a2132d27c2176097ce1c557b0cbb67bc4450f4d",
-   "sha256": "1j393bgnq5dp6dkcb4qysn0c9y4qvmfzaizcvm6zb5mcmx12a4aw"
+   "commit": "99251252005650d6f39cead8b2b9698c83251f01",
+   "sha256": "1b96ziqf3lx429w7qcbh30n85bzq17yknx04qmvvs9a1zbvicw9n"
   },
   "stable": {
    "version": [
@@ -118852,6 +118853,29 @@
    ],
    "commit": "dfb4bc4265e7b06cddd4ecdc8b4a7fb9d5da135a",
    "sha256": "088c0gag4l4iha6gdsap42g2kw219s00lsnkicbky0km3sxmm1ac"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    0
+   ],
+   "deps": [
+    "ag",
+    "apheleia",
+    "async",
+    "company",
+    "eglot",
+    "flycheck",
+    "hydra",
+    "lsp-mode",
+    "outshine",
+    "ripgrep",
+    "verilog-mode",
+    "yasnippet"
+   ],
+   "commit": "dfb4bc4265e7b06cddd4ecdc8b4a7fb9d5da135a",
+   "sha256": "088c0gag4l4iha6gdsap42g2kw219s00lsnkicbky0km3sxmm1ac"
   }
  },
  {
@@ -125461,16 +125485,15 @@
   },
   "stable": {
    "version": [
-    0,
     1,
-    3
+    0,
+    0
    ],
    "deps": [
-    "avy",
-    "cl-lib"
+    "avy"
    ],
-   "commit": "e571da33a0dde629314847338eedec84b40e9c32",
-   "sha256": "03i5bdq7d8la9kbvykgi7aa7v3c35nibgcd4pam99l47pm599ili"
+   "commit": "3bc8e0b3b34f511be2ae663785e3cad758361ba2",
+   "sha256": "0vwqr6h3bp9sjgjkyxm351xmkm47939ky04y8jdlh4g61mjv7mr9"
   }
  }
 ]
