@@ -1522,7 +1522,7 @@
           license = lib.licenses.free;
         };
       }) {};
-    el-search = callPackage ({ cl-print
+    el-search = callPackage ({ cl-print ? null
                              , elpaBuild
                              , emacs
                              , fetchurl
@@ -4491,7 +4491,7 @@
       }) {};
     rudel = callPackage ({ cl-generic
                          , cl-lib ? null
-                         , cl-print
+                         , cl-print ? null
                          , elpaBuild
                          , emacs
                          , fetchurl
@@ -5487,10 +5487,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.1.0";
+        version = "0.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/urgrep-0.1.0.tar";
-          sha256 = "0j52fqbw7wpwl552hbljzsi3wxh6f5lp2m2q45aq5ihwb26df4za";
+          url = "https://elpa.gnu.org/packages/urgrep-0.1.1.tar";
+          sha256 = "0bdi0phx7in23g4pb6yrzp4b1n08zjk4cnvhj3ya76y7sah0hdsz";
         };
         packageRequires = [ compat emacs project ];
         meta = {
