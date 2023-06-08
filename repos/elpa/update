@@ -9,3 +9,8 @@ rm elpa-generated.nix
 
 eval $(nix-instantiate --eval --expr 'let nixpath = builtins.toString (import <nixpkgs> {}).path; in "${nixpath}/pkgs/applications/editors/emacs/elisp-packages/update-elpa"')
 env NIXPKGS_ALLOW_BROKEN=1 nix-instantiate --show-trace ./test.nix -A elpaPackages
+
+rm elpa-devel-generated.nix
+
+eval $(nix-instantiate --eval --expr 'let nixpath = builtins.toString (import <nixpkgs> {}).path; in "${nixpath}/pkgs/applications/editors/emacs/elisp-packages/update-elpa-devel"')
+env NIXPKGS_ALLOW_BROKEN=1 nix-instantiate --show-trace ./test.nix -A elpaDevelPackages
