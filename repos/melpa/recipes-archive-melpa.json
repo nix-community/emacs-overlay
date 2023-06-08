@@ -24508,14 +24508,25 @@
   "repo": "alphapapa/dogears.el",
   "unstable": {
    "version": [
-    20220829,
-    441
+    20230608,
+    400
    ],
    "deps": [
     "map"
    ],
-   "commit": "5b8a85d03ca17d8b8185868fdbacf320784026d5",
-   "sha256": "0h4gh4ja9dnslj286skc8nzp9dvpyp53ig9y4kniq5lji6gn3r1f"
+   "commit": "32cc340bdd87098c7de666a797dcae5f05a5a4de",
+   "sha256": "1iqvjc6d1z09kdmiqf3mnbhxdldi46ivsrkifgm1yrwi6bz9qbgi"
+  },
+  "stable": {
+   "version": [
+    0,
+    1
+   ],
+   "deps": [
+    "map"
+   ],
+   "commit": "7ba83bd8924cec66fe3ede3334e98b1845e6852e",
+   "sha256": "0icf0jdyd86w2sfkv499gbc579zypyc8lh9dgh3vcm6jp9fk0sc2"
   }
  },
  {
@@ -51929,15 +51940,27 @@
   "repo": "alphapapa/dogears.el",
   "unstable": {
    "version": [
-    20210822,
-    2106
+    20230608,
+    356
    ],
    "deps": [
     "dogears",
     "helm"
    ],
-   "commit": "a6bc2d578dfd1641d8c99bf7bf17dc5842ba688f",
-   "sha256": "0lq7s99cf9ffxvxc4ssfywf2q9sa3350bhrcqhfgrl2dsb02hnsi"
+   "commit": "7ba83bd8924cec66fe3ede3334e98b1845e6852e",
+   "sha256": "0icf0jdyd86w2sfkv499gbc579zypyc8lh9dgh3vcm6jp9fk0sc2"
+  },
+  "stable": {
+   "version": [
+    0,
+    1
+   ],
+   "deps": [
+    "dogears",
+    "helm"
+   ],
+   "commit": "7ba83bd8924cec66fe3ede3334e98b1845e6852e",
+   "sha256": "0icf0jdyd86w2sfkv499gbc579zypyc8lh9dgh3vcm6jp9fk0sc2"
   }
  },
  {
