@@ -43194,14 +43194,27 @@
   "unstable": {
    "version": [
     20230606,
-    726
+    925
    ],
    "deps": [
     "company",
     "ggtags"
    ],
-   "commit": "97e6a439081c9a736b41a715a39e9f6e02bba3e2",
-   "sha256": "0php17mz6wz0sa030xykmbq21zm9zapv9pxnssxm1gp37aprckja"
+   "commit": "37303621e6026da3f2d084b6c0fc72c37e77f8bf",
+   "sha256": "1gyhzr82lfrrn6vf3632xi7jw56j4692p51z37ygpzdhpc7adlgf"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    0
+   ],
+   "deps": [
+    "company",
+    "ggtags"
+   ],
+   "commit": "37303621e6026da3f2d084b6c0fc72c37e77f8bf",
+   "sha256": "1gyhzr82lfrrn6vf3632xi7jw56j4692p51z37ygpzdhpc7adlgf"
   }
  },
  {
@@ -44285,9 +44298,9 @@
   "unstable": {
    "version": [
     20230609,
-    1
+    506
    ],
-   "commit": "b0dd9d9d9c74a819f95efb9b7d1b1432804b9e31",
+   "commit": "4da309e209370d5bcbeadab79f509de50a5db240",
    "sha256": "1g3qs223g7rprvmszymkbxrkmyg8520h0n9dcv7z5pizdgy9sq07"
   }
  },
@@ -77753,11 +77766,11 @@
   "repo": "rainstormstudio/nerd-icons.el",
   "unstable": {
    "version": [
-    20230603,
-    1813
+    20230609,
+    641
    ],
-   "commit": "f7536c5fb9d61da091cb510bdbb545a7b7ea7480",
-   "sha256": "0ifc5fxpr2b7npcvs3czdwkhknqm8j4i48l54dh9brp2irdy0jzg"
+   "commit": "a6999ddd8b85043bb24547611524a7ec86c6a21f",
+   "sha256": "1h2q3zh156qacdvk4zp5rd4hnqkq9mdm828bz98ra8mdv8nx7m6z"
   }
  },
  {
@@ -119050,19 +119063,20 @@
   "repo": "gmlarumbe/vhdl-ext",
   "unstable": {
    "version": [
-    20230608,
-    1930
+    20230609,
+    1245
    ],
    "deps": [
     "ag",
+    "company",
     "eglot",
     "flycheck",
     "hydra",
     "lsp-mode",
     "ripgrep"
    ],
-   "commit": "7785be558c5128ec05bc4ebb6e81f27841aba237",
-   "sha256": "14s8ksrsjyqw8dqf3mcparn3lgsazswxcs4w23n0pyls4x9bxlfb"
+   "commit": "a9174cac40c0843259231ea0022f4e579f9f08a6",
+   "sha256": "0za03cnwi2lwlm4bwhi187k2d416fb6szbcalhhg9drdywvz2ggl"
   },
   "stable": {
    "version": [
@@ -124860,11 +124874,11 @@
   "repo": "localauthor/zk",
   "unstable": {
    "version": [
-    20230505,
-    1950
+    20230609,
+    742
    ],
-   "commit": "73139efd3a6e92de139adec864d26130ee5a942d",
-   "sha256": "092cp44n5w77i9vggq8d0imb4644nc9b3i897lxhkwp4isjqm4iv"
+   "commit": "6ba90de2b33a8717fb1e263fe6df7b3831d3bd8e",
+   "sha256": "1hihanix3jklpcfxyfl2hs58q4z2hqsgavk7bf3zq0x4g3sd9k8m"
   },
   "stable": {
    "version": [
@@ -124883,15 +124897,15 @@
   "repo": "localauthor/zk",
   "unstable": {
    "version": [
-    20230502,
-    2202
+    20230609,
+    742
    ],
    "deps": [
     "zk",
     "zk-index"
    ],
-   "commit": "6140c8bcfc52b35e6f74f6c8a21ed5660a589b8e",
-   "sha256": "1c1pj4agmrxqb0vy95radpw8ha2nnslwm2v3i2pcapkyq19p5ax1"
+   "commit": "6ba90de2b33a8717fb1e263fe6df7b3831d3bd8e",
+   "sha256": "1hihanix3jklpcfxyfl2hs58q4z2hqsgavk7bf3zq0x4g3sd9k8m"
   }
  },
  {
