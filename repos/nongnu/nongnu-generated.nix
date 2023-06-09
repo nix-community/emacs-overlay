@@ -2759,10 +2759,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.18.4";
+        version = "0.19.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.18.4.tar";
-          sha256 = "1jwjmaxwv0x2czn0dj2fk47rz085kq79161n6shkqdy7n5992m8b";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.19.0.tar";
+          sha256 = "13jq4kprxnv2wiz1hzzjcfg418d0gj2z0bm27y1myh4ak5x1jbvj";
         };
         packageRequires = [ emacs ];
         meta = {
