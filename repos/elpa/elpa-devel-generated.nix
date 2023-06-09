@@ -1169,17 +1169,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    cursory = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    cursory = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "cursory";
         ename = "cursory";
-        version = "0.3.0.0.20230101.152922";
+        version = "1.0.0.0.20230609.51943";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cursory-0.3.0.0.20230101.152922.tar";
-          sha256 = "1vnp9bh6g2jarzlq37lln05rqr2x3i6pv64s1g5fq7r0cw238p90";
+          url = "https://elpa.gnu.org/devel/cursory-1.0.0.0.20230609.51943.tar";
+          sha256 = "0c0hqrg2xbc3k5f2hvsg9amvv05flrjlc2xdx1ychh7nabz6x0nl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1674,10 +1671,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.0.2.0.20230605.70126";
+        version = "1.1.1.0.20230608.174002";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.0.2.0.20230605.70126.tar";
-          sha256 = "1pqi00s8qx2h3ns8lml17c29kkri919wii1xfgkyzcgq3x8fmz3a";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230608.174002.tar";
+          sha256 = "1lgn60jbansq45y5g8c3vb10rsd82d2vzcn3diqpwj2f5vl88zl4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1699,10 +1696,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20230525.132945";
+        version = "1.15.0.20230609.11219";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230525.132945.tar";
-          sha256 = "1w9r3mn4jfvi24knb29bs0maji7jp9hb556lamsr6v4mv9519h82";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230609.11219.tar";
+          sha256 = "1p6nhkg6nwkxbn4378bpwc8qrqr53srxxrwvnmzwzxfz047hbqaq";
         };
         packageRequires = [
           eldoc

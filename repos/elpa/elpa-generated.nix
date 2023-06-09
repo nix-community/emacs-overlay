@@ -1027,10 +1027,10 @@
       elpaBuild {
         pname = "cursory";
         ename = "cursory";
-        version = "0.3.0";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cursory-0.3.0.tar";
-          sha256 = "1mgvdncqgf0ll2mn5zp47lvvbzrzgdga9dbbjwqaapzy6llfg51x";
+          url = "https://elpa.gnu.org/packages/cursory-1.0.0.tar";
+          sha256 = "08mh6564xr4dni53dm7m4jz8cf8v6i99xnrxyp76zvaa809zc5q3";
         };
         packageRequires = [ emacs ];
         meta = {
