@@ -12,6 +12,10 @@ self: super:
             archiveJson = ../repos/melpa/recipes-archive-melpa.json;
           };
 
+          elpaDevelPackages = esuper.elpaDevelPackages.override {
+            generated = ../repos/elpa/elpa-devel-generated.nix;
+          };
+
           elpaPackages = esuper.elpaPackages.override {
             generated = ../repos/elpa/elpa-generated.nix;
           };
@@ -22,7 +26,7 @@ self: super:
 
         in
           esuper.override {
-            inherit melpaStablePackages melpaPackages elpaPackages
+            inherit melpaStablePackages melpaPackages elpaDevelPackages elpaPackages
               nongnuPackages;
           }
 
