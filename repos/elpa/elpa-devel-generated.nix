@@ -969,10 +969,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.34.0.20230606.101010";
+        version = "0.34.0.20230609.165451";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.34.0.20230606.101010.tar";
-          sha256 = "0v54ajplk92jfs37qi3w4gl2hzinabq6kwqjqfsk5was473dxh5r";
+          url = "https://elpa.gnu.org/devel/consult-0.34.0.20230609.165451.tar";
+          sha256 = "0dhh82ywl144dx8d7r3qc88h17jp63is4qljmvcvjaxv00dhh866";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2001,10 +2001,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.27.0.20221122.0";
+        version = "0.27.0.20230609.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.27.0.20221122.0.tar";
-          sha256 = "1vx1qy44vdnwzsc6xq69nql468yh6nc6k8b4fkx3xl45zkwnvck2";
+          url = "https://elpa.gnu.org/devel/exwm-0.27.0.20230609.0.tar";
+          sha256 = "0igqkdx2lwmwx9llidhk716lv9v5k1sd4r3j15c3qzaq5fzzqv2w";
         };
         packageRequires = [ xelb ];
         meta = {
