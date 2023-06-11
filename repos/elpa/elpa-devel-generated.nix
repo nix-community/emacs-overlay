@@ -1802,6 +1802,24 @@
           license = lib.licenses.free;
         };
       }) {};
+    emacs-gc-stats = callPackage ({ elpaBuild
+                                  , emacs
+                                  , fetchurl
+                                  , lib }:
+      elpaBuild {
+        pname = "emacs-gc-stats";
+        ename = "emacs-gc-stats";
+        version = "1.0.0.20230414.170313";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/emacs-gc-stats-1.0.0.20230414.170313.tar";
+          sha256 = "17jmxhxym6n3n61vf0my7c98pzx6d7gxfc8qb7k0yhac1b8s9fg3";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/emacs-gc-stats.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     embark = callPackage ({ compat
                           , elpaBuild
                           , emacs
@@ -5956,10 +5974,10 @@
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.2.7.0.20230416.5412";
+        version = "0.3.0.20230610.100448";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/triples-0.2.7.0.20230416.5412.tar";
-          sha256 = "01sjwnk3czmk553yz7p5aw2wy9i8q6r1cfx9crzz434r2xgssg00";
+          url = "https://elpa.gnu.org/devel/triples-0.3.0.20230610.100448.tar";
+          sha256 = "08bz6ypg6grp9vz12kr0bp7m8v3vc22klc0x1aiv3f7wgy451snk";
         };
         packageRequires = [ emacs seq ];
         meta = {
