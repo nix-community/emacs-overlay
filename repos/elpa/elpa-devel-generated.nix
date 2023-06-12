@@ -4831,10 +4831,10 @@
       elpaBuild {
         pname = "relint";
         ename = "relint";
-        version = "1.22.0.20230326.142643";
+        version = "1.22.0.20230612.72749";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/relint-1.22.0.20230326.142643.tar";
-          sha256 = "0ac7rckvvccvnlm52dw5dl83g5ywzziwkw6mnkgs27017mn3dlfh";
+          url = "https://elpa.gnu.org/devel/relint-1.22.0.20230612.72749.tar";
+          sha256 = "0p1md4s75f00bzl62dda2kggjkp8j4f8cv4iyhnklah9hqjw866w";
         };
         packageRequires = [ emacs xr ];
         meta = {
@@ -5970,14 +5970,18 @@
           license = lib.licenses.free;
         };
       }) {};
-    triples = callPackage ({ elpaBuild, emacs, fetchurl, lib, seq }:
+    triples = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib
+                           , seq }:
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.3.0.20230610.100448";
+        version = "0.3.1.0.20230611.170036";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/triples-0.3.0.20230610.100448.tar";
-          sha256 = "08bz6ypg6grp9vz12kr0bp7m8v3vc22klc0x1aiv3f7wgy451snk";
+          url = "https://elpa.gnu.org/devel/triples-0.3.1.0.20230611.170036.tar";
+          sha256 = "1pg7a4q20d0ggkkg99a0f37whdz3cc6lz45iwvv8ckqwnx8a03gs";
         };
         packageRequires = [ emacs seq ];
         meta = {
