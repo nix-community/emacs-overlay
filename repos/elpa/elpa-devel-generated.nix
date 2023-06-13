@@ -1820,18 +1820,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    embark = callPackage ({ compat
-                          , elpaBuild
-                          , emacs
-                          , fetchurl
-                          , lib }:
+    embark = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.22.1.0.20230612.103717";
+        version = "0.22.1.0.20230613.15430";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230612.103717.tar";
-          sha256 = "1d0h8vqqp25mars9jnjj3rha6837i30k423hnfyh07d44jzhyg1g";
+          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230613.15430.tar";
+          sha256 = "099ja8d1h7282vwbijagh7n0fign6i21i8mz90wcw4ykwqqij5i5";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1848,10 +1844,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.7.0.20230612.103717";
+        version = "0.7.0.20230613.15430";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230612.103717.tar";
-          sha256 = "1jibg7f0s3k26x7bjaqza5s3f8rq0pm70cj9d10w700qg1s015l1";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230613.15430.tar";
+          sha256 = "0nv4wd2r2v7a8i7mn3pp70hba1664vp7ccix6ws2h8aflmqxc405";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
