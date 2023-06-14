@@ -88,43 +88,29 @@ let
         )
       ]);
 
-  emacs-git = let base = (super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; });
-                  # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
-                  maybeOverridden = if (super.lib.hasAttr "treeSitter" base || super.lib.hasAttr "withTreeSitter" base) then base.override { withTreeSitter = true; } else base;
-              in
-                maybeOverridden.overrideAttrs (
-                  oa: {
-                    patches = oa.patches ++ [
-                      # XXX: #318
-                      ./bytecomp-revert.patch
-                    ]; }
-                );
+  emacs-git = (super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; }).overrideAttrs (
+    oa: {
+      patches = oa.patches ++ [
+        # XXX: #318
+        ./bytecomp-revert.patch
+      ];
+    }
+  );
 
-  emacs-pgtk = let base = super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; };
-                   # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
-                   maybeOverridden = if (super.lib.hasAttr "treeSitter" base || super.lib.hasAttr "withTreeSitter" base) then base.override { withTreeSitter = true; } else base;
-               in maybeOverridden.overrideAttrs (
-                 oa: {
-                   patches = oa.patches ++ [
-                     # XXX: #318
-                     ./bytecomp-revert.patch
-                   ]; }
-               );
+  emacs-pgtk = (super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; withPgtk = true; }).overrideAttrs (
+    oa: {
+      patches = oa.patches ++ [
+        # XXX: #318
+        ./bytecomp-revert.patch
+      ];
+    }
+  );
 
-  emacs-unstable = let base = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; };
-                       # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
-                       maybeOverridden = if (super.lib.hasAttr "treeSitter" base || super.lib.hasAttr "withTreeSitter" base) then base.override { withTreeSitter = true; } else base;
-                   in maybeOverridden;
+  emacs-unstable = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; };
 
-  emacs-unstable-pgtk = let base = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withPgtk = true; };
-                            # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
-                            maybeOverridden = if (super.lib.hasAttr "treeSitter" base || super.lib.hasAttr "withTreeSitter" base) then base.override { withTreeSitter = true; } else base;
-                        in maybeOverridden;
+  emacs-unstable-pgtk = super.lib.makeOverridable (mkGitEmacs "emacs-unstable-pgtk" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; withPgtk = true; };
 
-  emacs-lsp = let base = super.lib.makeOverridable (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { };
-                  # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
-                  maybeOverridden = if (super.lib.hasAttr "treeSitter" base || super.lib.hasAttr "withTreeSitter" base) then base.override { withTreeSitter = false; } else base;
-              in maybeOverridden;
+  emacs-lsp = super.lib.makeOverridable (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { withTreeSitter = false; };
 
   emacs-git-nox = (
     (
