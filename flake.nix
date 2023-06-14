@@ -50,6 +50,7 @@
             {
               emacsen = {
                 inherit (pkgs) emacs-unstable emacs-unstable-nox;
+                inherit (pkgs) emacs-unstable-pgtk;
                 inherit (pkgs) emacs-git emacs-git-nox;
                 inherit (pkgs) emacs-pgtk;
               };
@@ -67,6 +68,7 @@
                       lib.mapAttrs' (name: job: lib.nameValuePair "${name}-${target}" job)
                         ({
                           inherit (targetPkgs) emacs-unstable emacs-unstable-nox;
+                          inherit (targetPkgs) emacs-unstable-pgtk;
                           inherit (targetPkgs) emacs-git emacs-git-nox;
                           inherit (targetPkgs) emacs-pgtk;
                         }))
