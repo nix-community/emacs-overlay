@@ -5974,10 +5974,10 @@
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.3.1.0.20230611.170036";
+        version = "0.3.2.0.20230613.212718";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/triples-0.3.1.0.20230611.170036.tar";
-          sha256 = "1pg7a4q20d0ggkkg99a0f37whdz3cc6lz45iwvv8ckqwnx8a03gs";
+          url = "https://elpa.gnu.org/devel/triples-0.3.2.0.20230613.212718.tar";
+          sha256 = "0c5kv3phzxf56v7gzgarpymj2y8qz9y2f9bzy7fxifg4921y02np";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -6395,10 +6395,10 @@
       elpaBuild {
         pname = "vundo";
         ename = "vundo";
-        version = "2.1.0.0.20230510.170718";
+        version = "2.1.0.0.20230612.40515";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vundo-2.1.0.0.20230510.170718.tar";
-          sha256 = "0q48bwaxz39w8gppsmr32rk04zh50cfz4g2rlxf5bkziqgja0yyl";
+          url = "https://elpa.gnu.org/devel/vundo-2.1.0.0.20230612.40515.tar";
+          sha256 = "1dbzf9dnvyjikn5z256yrqy5i215vxby3ndg7i0i0pdzg3pjkj39";
         };
         packageRequires = [ emacs ];
         meta = {

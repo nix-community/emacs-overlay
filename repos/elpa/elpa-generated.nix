@@ -5412,10 +5412,10 @@
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.3.1";
+        version = "0.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/triples-0.3.1.tar";
-          sha256 = "1qqmcnx8zk98w8j5lz67pvkxkiqq3zvs677hdixz75gdjflycgm1";
+          url = "https://elpa.gnu.org/packages/triples-0.3.2.tar";
+          sha256 = "0v1iix2jvsr7pb5891dh82m394p0n3m8gd7wxbz13b5zl78vldlh";
         };
         packageRequires = [ emacs seq ];
         meta = {
