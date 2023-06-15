@@ -44,9 +44,15 @@ let
   configText =
     let
       type = builtins.typeOf config;
-    in
-      if type == "string" then config
+    in # configText can be sourced from either:
+      # - A string with context { config = "${hello}/config.el"; }
+      if type == "string" && builtins.hasContext config && lib.hasPrefix builtins.storeDir config then builtins.readFile config
+      # - A config literal { config = "(use-package foo)"; }
+      else if type == "string" then config
+      # - A config path { config = ./config.el; }
       else if type == "path" then builtins.readFile config
+      # - A derivation { config = pkgs.writeText "config.el" "(use-package foo)"; }
+      else if lib.isDerivation config then builtins.readFile "${config}"
       else throw "Unsupported type for config: \"${type}\"";
 
   packages = parse.parsePackagesFromUsePackage {
