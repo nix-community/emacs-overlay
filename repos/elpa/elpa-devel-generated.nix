@@ -969,10 +969,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.34.0.20230609.165451";
+        version = "0.34.0.20230614.93014";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.34.0.20230609.165451.tar";
-          sha256 = "0dhh82ywl144dx8d7r3qc88h17jp63is4qljmvcvjaxv00dhh866";
+          url = "https://elpa.gnu.org/devel/consult-0.34.0.20230614.93014.tar";
+          sha256 = "1rfk2f0lz581lfh6nsd7rnr6g7wwxxg7z5nppzxrhhslw54qzrwa";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1864,10 +1864,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "15.0.20230525.163835";
+        version = "15.0.20230614.150453";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-15.0.20230525.163835.tar";
-          sha256 = "084ax2gl1zjxr24sidnlmx1n7ra0myvmxzlicmwg49szl2majszp";
+          url = "https://elpa.gnu.org/devel/emms-15.0.20230614.150453.tar";
+          sha256 = "052ns707ymh1w7njw942s4rvrdsc06jhh1fypmgr6s0lh79wi7cm";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -3957,10 +3957,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "0.9.0.20230604.100249";
+        version = "0.9.0.20230614.170049";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-0.9.0.20230604.100249.tar";
-          sha256 = "0f7qnkh1cj4hmgxg6l7vmqq3fcck2shaszbfk86m94why3agh708";
+          url = "https://elpa.gnu.org/devel/org-modern-0.9.0.20230614.170049.tar";
+          sha256 = "1p4qxdpvin6q9ldjhwkqj65af4m8x3xcsvw2bs8aiswjd06f8mpi";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4301,6 +4301,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/pinentry.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    plz = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "plz";
+        ename = "plz";
+        version = "0.6.0.20230614.83717";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/plz-0.6.0.20230614.83717.tar";
+          sha256 = "01dsq94adsp4s7xjklpiwnavjc16xi9m9v7kipc2pcldl7d3mwpm";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/plz.html";
           license = lib.licenses.free;
         };
       }) {};
