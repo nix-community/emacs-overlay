@@ -1671,10 +1671,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.1.1.0.20230608.174002";
+        version = "1.1.1.0.20230616.61458";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230608.174002.tar";
-          sha256 = "1lgn60jbansq45y5g8c3vb10rsd82d2vzcn3diqpwj2f5vl88zl4";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230616.61458.tar";
+          sha256 = "1hilci840g60zzhj4jmfa9lbz9f1v5y152pgrs9yvkvbx5mqfh9y";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1820,14 +1820,18 @@
           license = lib.licenses.free;
         };
       }) {};
-    embark = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
+    embark = callPackage ({ compat
+                          , elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib }:
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.22.1.0.20230613.15430";
+        version = "0.22.1.0.20230615.183953";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230613.15430.tar";
-          sha256 = "099ja8d1h7282vwbijagh7n0fign6i21i8mz90wcw4ykwqqij5i5";
+          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230615.183953.tar";
+          sha256 = "1r7ifpn9d1zsh19b5aqjmbq1x4bqdlsdpbais8zfi174lp2hiy50";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1844,10 +1848,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.7.0.20230613.15430";
+        version = "0.7.0.20230615.183953";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230613.15430.tar";
-          sha256 = "0nv4wd2r2v7a8i7mn3pp70hba1664vp7ccix6ws2h8aflmqxc405";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230615.183953.tar";
+          sha256 = "0lf36918jf6svl9fxs6jy5f71wlz57lh35y8zvdy1fsjy5if6mh0";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
