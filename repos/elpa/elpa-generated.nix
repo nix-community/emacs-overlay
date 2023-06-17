@@ -1606,10 +1606,10 @@
       elpaBuild {
         pname = "emacs-gc-stats";
         ename = "emacs-gc-stats";
-        version = "1.2";
+        version = "1.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emacs-gc-stats-1.2.tar";
-          sha256 = "1ilgcl7f6s8652smadiy5gdi6vpa2gjqcqavkq64vljmpmj61g59";
+          url = "https://elpa.gnu.org/packages/emacs-gc-stats-1.2.1.tar";
+          sha256 = "0bn7zh4xsn1cd453sdk6wgiczbqahwb7b4nshn6rm9gz00jgidx7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1666,10 +1666,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.9.3";
+        version = "0.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.9.3.tar";
-          sha256 = "0pqxq2pqj5hjd2fg403y05x99i6x666vk2z2jbm3ipxwnp4krppw";
+          url = "https://elpa.gnu.org/packages/ement-0.10.tar";
+          sha256 = "0iw4vk99h15zhq507praqqar9sc5yyk5hbckygbr4x6af88jc02i";
         };
         packageRequires = [
           emacs
