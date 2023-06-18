@@ -1253,10 +1253,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.35.0.20221213.83424";
+        version = "0.35.0.20230617.182007";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/debbugs-0.35.0.20221213.83424.tar";
-          sha256 = "10s6vqvb4l136xry4683ahdq42s71bx19cvhip0x91rslcd6rrbd";
+          url = "https://elpa.gnu.org/devel/debbugs-0.35.0.20230617.182007.tar";
+          sha256 = "1hw126sg75lbfyx1wpy35ilihiily2lv1chm8kzjqbsl0mfnkvrn";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -3231,10 +3231,10 @@
       elpaBuild {
         pname = "lin";
         ename = "lin";
-        version = "1.0.0.0.20230120.90459";
+        version = "1.0.0.0.20230617.191618";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/lin-1.0.0.0.20230120.90459.tar";
-          sha256 = "1f7xgw4dvjhrkd3cgb0v20272ah2bdhlnmqhlcjbkw67wan8arrv";
+          url = "https://elpa.gnu.org/devel/lin-1.0.0.0.20230617.191618.tar";
+          sha256 = "1q3gz7i83v5v6y5plf8z1llq9r6bdjaj1ml6vl70z3jribrib8ga";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4007,10 +4007,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230615.93912";
+        version = "9.7pre0.20230617.120903";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230615.93912.tar";
-          sha256 = "15sh1dbk2xmch9mz1rbmgjq39n5wzafkzy5vjdxas2l01rnbjm0f";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230617.120903.tar";
+          sha256 = "0sg1sbd6jl51rgrr3k3nk66497mvwpb87nfb5h7djmlsn4hp39fp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4638,10 +4638,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20230603.55058";
+        version = "0.28.0.20230617.50255";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20230603.55058.tar";
-          sha256 = "083l5b0vppdi6pjkb2hh1wa12ja0z0ndqjzn4a7pry118xbjp4vz";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20230617.50255.tar";
+          sha256 = "1s24ryc6agyp9yg9cb5lrri1mx4r7rsgiyrjjkjy83qxj30vm3hz";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -6904,10 +6904,10 @@
       elpaBuild {
         pname = "ztree";
         ename = "ztree";
-        version = "1.0.6.0.20210415.194722";
+        version = "1.0.6.0.20230617.194317";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ztree-1.0.6.0.20210415.194722.tar";
-          sha256 = "1jcvzj0pwk4rwgp0xgzd2qlcgx0x3kg8843qsyr5banmphnmfma8";
+          url = "https://elpa.gnu.org/devel/ztree-1.0.6.0.20230617.194317.tar";
+          sha256 = "1sgii6lf06dqhld67vhac1319nbjrrd9npm2z8aysxg6hs26hfab";
         };
         packageRequires = [ cl-lib ];
         meta = {
