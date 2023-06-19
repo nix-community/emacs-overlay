@@ -1253,10 +1253,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.35.0.20230618.114817";
+        version = "0.36.0.20230619.72121";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/debbugs-0.35.0.20230618.114817.tar";
-          sha256 = "1va4p07agkvxqa0lav5rgbymfwc997p1sf2n96p1irp9wmxilz5l";
+          url = "https://elpa.gnu.org/devel/debbugs-0.36.0.20230619.72121.tar";
+          sha256 = "1abg80d397ndb7sds8p8d3z9zw2v5m4a87l9jqmi7b6pp07z7ah7";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -1671,10 +1671,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.1.1.0.20230618.64305";
+        version = "1.1.1.0.20230619.55809";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230618.64305.tar";
-          sha256 = "17y2pqqfsbknr1vfyx82hgr2gjx665hnwhkzaczwmxwf6cz1sk3r";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230619.55809.tar";
+          sha256 = "0vw4p5kbda3k6r6nwr9x95d63irqdxi9qj7hb21b30gzzmaxpl0g";
         };
         packageRequires = [ emacs ];
         meta = {
