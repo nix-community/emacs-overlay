@@ -1606,10 +1606,10 @@
       elpaBuild {
         pname = "emacs-gc-stats";
         ename = "emacs-gc-stats";
-        version = "1.2.1";
+        version = "1.2.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emacs-gc-stats-1.2.1.tar";
-          sha256 = "0bn7zh4xsn1cd453sdk6wgiczbqahwb7b4nshn6rm9gz00jgidx7";
+          url = "https://elpa.gnu.org/packages/emacs-gc-stats-1.2.3.tar";
+          sha256 = "03kkp3lj9blwh12y3322bp7ns0c10diqvfngfyf089w17zyavxmr";
         };
         packageRequires = [ emacs ];
         meta = {

@@ -1253,10 +1253,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.35.0.20230617.182007";
+        version = "0.35.0.20230618.114817";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/debbugs-0.35.0.20230617.182007.tar";
-          sha256 = "1hw126sg75lbfyx1wpy35ilihiily2lv1chm8kzjqbsl0mfnkvrn";
+          url = "https://elpa.gnu.org/devel/debbugs-0.35.0.20230618.114817.tar";
+          sha256 = "1va4p07agkvxqa0lav5rgbymfwc997p1sf2n96p1irp9wmxilz5l";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -1809,10 +1809,10 @@
       elpaBuild {
         pname = "emacs-gc-stats";
         ename = "emacs-gc-stats";
-        version = "1.2.1.0.20230616.114627";
+        version = "1.2.3.0.20230618.140121";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emacs-gc-stats-1.2.1.0.20230616.114627.tar";
-          sha256 = "0zhjlzdqp9w7wil0rq3b09r4rr62qgbqw8rb5mcnfqhpxyjrvnad";
+          url = "https://elpa.gnu.org/devel/emacs-gc-stats-1.2.3.0.20230618.140121.tar";
+          sha256 = "0xfwzwb5mnx102cb247k76mg555ibd8imlv0mrqwnpjx0r4bzv57";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4007,10 +4007,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230617.120903";
+        version = "9.7pre0.20230618.65147";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230617.120903.tar";
-          sha256 = "0sg1sbd6jl51rgrr3k3nk66497mvwpb87nfb5h7djmlsn4hp39fp";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230618.65147.tar";
+          sha256 = "1xla6p9mmn4wa8hzpdx52pjybwgk3cxzn04hldydxxdddmw842ph";
         };
         packageRequires = [ emacs ];
         meta = {
