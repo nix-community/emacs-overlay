@@ -1671,10 +1671,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.1.1.0.20230619.171720";
+        version = "1.1.1.0.20230620.20700";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230619.171720.tar";
-          sha256 = "1pn1vgwp70s5wsi1g3ibh16074x7q23lxmm04lpiwl8ilb3rsrwd";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230620.20700.tar";
+          sha256 = "1lr05i76jzjsk6w186cvpqxch44p92l3znhy1r556dzs6a74g01p";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6207,10 +6207,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.2.0snapshot0.20230617.160153";
+        version = "0.2.0snapshot0.20230619.200650";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.2.0snapshot0.20230617.160153.tar";
-          sha256 = "00npsfgd63jf1nzccr8jv51h7kyh7nl30bc3b665j1djsg12l9s8";
+          url = "https://elpa.gnu.org/devel/urgrep-0.2.0snapshot0.20230619.200650.tar";
+          sha256 = "04kn0npg6ibj30im01r5xlv8k3zl1lhl2n08hwd74lbazh4v3vvh";
         };
         packageRequires = [ compat emacs project ];
         meta = {
@@ -6541,10 +6541,10 @@
       elpaBuild {
         pname = "vundo";
         ename = "vundo";
-        version = "2.1.0.0.20230612.40515";
+        version = "2.1.0.0.20230619.221715";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vundo-2.1.0.0.20230612.40515.tar";
-          sha256 = "1dbzf9dnvyjikn5z256yrqy5i215vxby3ndg7i0i0pdzg3pjkj39";
+          url = "https://elpa.gnu.org/devel/vundo-2.1.0.0.20230619.221715.tar";
+          sha256 = "1vl1wfk68fy9jcr8dm673g8qbf5ax557fpb5wwpijffrsyss9qzk";
         };
         packageRequires = [ emacs ];
         meta = {
