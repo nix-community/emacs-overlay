@@ -3364,10 +3364,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "1.0.0";
+        version = "1.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-modeline-1.0.0.tar";
-          sha256 = "0fg4s3ydmb769mnyx3ngx7rp5g8pmm91rqwng05jb8sgn0sfmsni";
+          url = "https://elpa.gnu.org/packages/nano-modeline-1.0.1.tar";
+          sha256 = "1bjxsqbi540cx2zxzrps2bdwj3hkaxw1s9wha1lrldhvckq7dm91";
         };
         packageRequires = [ emacs ];
         meta = {

@@ -1056,10 +1056,10 @@
       elpaBuild {
         pname = "counsel";
         ename = "counsel";
-        version = "0.14.0.0.20230410.182848";
+        version = "0.14.0.0.20230619.162538";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/counsel-0.14.0.0.20230410.182848.tar";
-          sha256 = "0lqrbw1b9xypfsnjp4mijas0xi6h6bsrvv5maclvlnfp7pc7xbls";
+          url = "https://elpa.gnu.org/devel/counsel-0.14.0.0.20230619.162538.tar";
+          sha256 = "0lirnz10p9zyvdhwwqgvc7wasm31syifb2khxdwi4bqqgrmpqvix";
         };
         packageRequires = [ emacs ivy swiper ];
         meta = {
@@ -1671,10 +1671,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.1.1.0.20230619.55809";
+        version = "1.1.1.0.20230619.171720";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230619.55809.tar";
-          sha256 = "0vw4p5kbda3k6r6nwr9x95d63irqdxi9qj7hb21b30gzzmaxpl0g";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230619.171720.tar";
+          sha256 = "1pn1vgwp70s5wsi1g3ibh16074x7q23lxmm04lpiwl8ilb3rsrwd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1902,10 +1902,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "15.0.20230614.150453";
+        version = "15.0.20230619.145750";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-15.0.20230614.150453.tar";
-          sha256 = "052ns707ymh1w7njw942s4rvrdsc06jhh1fypmgr6s0lh79wi7cm";
+          url = "https://elpa.gnu.org/devel/emms-15.0.20230619.145750.tar";
+          sha256 = "0la60psh4cx874mz31c74j04g1hnmb40dvc6pkfzkhmqc48h5cqk";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -2754,10 +2754,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20230617.234040";
+        version = "8.0.1pre0.20230619.111829";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230617.234040.tar";
-          sha256 = "1gag24p6640yl3fcwbnq68bva5q150d6d5xgaxbfsa6w9l4jaz1b";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230619.111829.tar";
+          sha256 = "07ivjcnfngzqxbjafxmqlyb10s6l4v6hlf1qdca8i3p2klqzikzr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3103,10 +3103,10 @@
       elpaBuild {
         pname = "kind-icon";
         ename = "kind-icon";
-        version = "0.2.0.0.20230506.135746";
+        version = "0.2.0.0.20230619.123932";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/kind-icon-0.2.0.0.20230506.135746.tar";
-          sha256 = "141gj4yln50d36pdr171h3ykhw1c7yspvcnv5rsicy1kygi9x8km";
+          url = "https://elpa.gnu.org/devel/kind-icon-0.2.0.0.20230619.123932.tar";
+          sha256 = "0sjv5k0x8k4xibkbishl33lvfj0lqxwqsgsm8k0ampl4p1s7v7jv";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
@@ -3744,10 +3744,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "1.0.0.0.20230603.175642";
+        version = "1.0.1.0.20230619.141253";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/nano-modeline-1.0.0.0.20230603.175642.tar";
-          sha256 = "11wjf5rda157h60m5v2dhmigc91jr043x76g49fyzmk2v60ilrak";
+          url = "https://elpa.gnu.org/devel/nano-modeline-1.0.1.0.20230619.141253.tar";
+          sha256 = "0ayd95f6abin8fwhb4h2gi8vc4hxc321nyid893j4hjrxywhn1g1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4758,10 +4758,10 @@
       elpaBuild {
         pname = "realgud";
         ename = "realgud";
-        version = "1.5.1.0.20220818.135039";
+        version = "1.5.1.0.20230619.75833";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/realgud-1.5.1.0.20220818.135039.tar";
-          sha256 = "0sazlcbwmdyn4g8lyak0bl44nq8qkr2qajdnr9xd4dqkhvz9w4gd";
+          url = "https://elpa.gnu.org/devel/realgud-1.5.1.0.20230619.75833.tar";
+          sha256 = "03jy2c24khik3pvndazswral2y9gnmrxwa4d5glsmxf9x9gnib2d";
         };
         packageRequires = [ emacs load-relative loc-changes test-simple ];
         meta = {
@@ -5644,14 +5644,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    svg-lib = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    svg-lib = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.2.7.0.20230617.60623";
+        version = "0.2.7.0.20230619.143402";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/svg-lib-0.2.7.0.20230617.60623.tar";
-          sha256 = "1j7a9jyhzayqvnmlkx8aw70l7zp5cad82p5fnncmql521z18vbmm";
+          url = "https://elpa.gnu.org/devel/svg-lib-0.2.7.0.20230619.143402.tar";
+          sha256 = "1h4knhasimf496qhlvm132cghpam303vl9mbdg4p3ld5jcd6ghz5";
         };
         packageRequires = [ emacs ];
         meta = {
