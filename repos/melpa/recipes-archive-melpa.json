@@ -10829,11 +10829,11 @@
   "repo": "catppuccin/emacs",
   "unstable": {
    "version": [
-    20230603,
-    534
+    20230620,
+    11
    ],
-   "commit": "eacb31bfc219fc48e033f58c6fece4b5241a2c51",
-   "sha256": "0kwi094jarbvvahqmr9syvl8iag6k291jd2knnn0ph4jpr82rmdm"
+   "commit": "438622d74f1b0034c354fdd67ed39c36f059e1b4",
+   "sha256": "1z87rrqcmz0s0n54lpc3yzm2l1xzjbrzaplilw8naqp206qlxb08"
   },
   "stable": {
    "version": [
@@ -25325,19 +25325,19 @@
   "repo": "jscheid/dtrt-indent",
   "unstable": {
    "version": [
-    20230615,
-    911
+    20230619,
+    2007
    ],
-   "commit": "e77fb2d7041058e9b763efdaa47befee8fdac947",
-   "sha256": "0h2c9gmzxr0ry2irkcr5ndj0a82ax159ckwk3ah4lrihdg1xginq"
+   "commit": "8b13cad77dbce79db24a08a9ab6fa230b6b74bc9",
+   "sha256": "1r7mcsf9l7d5jrfq838620cy09xl3yj1ra264grx5jv4mhc1jijv"
   },
   "stable": {
    "version": [
     1,
-    9
+    10
    ],
-   "commit": "07364ae07301f6f0a1713a8dff520c813849ffb3",
-   "sha256": "0rpl48rdmgi7rsv6kgl048vfafnfcqwmvb46ibm9z3wjxsmfg131"
+   "commit": "8b13cad77dbce79db24a08a9ab6fa230b6b74bc9",
+   "sha256": "1r7mcsf9l7d5jrfq838620cy09xl3yj1ra264grx5jv4mhc1jijv"
   }
  },
  {
@@ -25723,11 +25723,11 @@
   "repo": "countvajhula/dynaring",
   "unstable": {
    "version": [
-    20210924,
-    2026
+    20230619,
+    1854
    ],
-   "commit": "76142cf100d9e611024638a761e62bd82af156cd",
-   "sha256": "1fsydk7pld2xpmmp1jnm8b3y7zdynibwicgmsfxpk11915y4fh6r"
+   "commit": "909a64aa96f09b05fe59d5703f7e0ad22d161bb5",
+   "sha256": "18vf0646wqnahnc7rj0wzq9shd1g69hr5j35psgcdzkrczma16m7"
   },
   "stable": {
    "version": [
@@ -30302,16 +30302,16 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20230614,
-    1904
+    20230619,
+    1857
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "0894fdc75d84cc0b6c1853945c53275d52e33108",
-   "sha256": "0nm0ppn2sn33mmh7pvsncq3gr4l5j04frk4ydgrh8bh684rlawrx"
+   "commit": "9e08a4b081abcf18c375214a50ff47f8919f8ab1",
+   "sha256": "1hzvga5pqfndrhja3gkv382qrb7nvd9kxds9sphpr2s6f17wcwl2"
   },
   "stable": {
    "version": [
@@ -31124,8 +31124,8 @@
   "repo": "emacscollective/epkg",
   "unstable": {
    "version": [
-    20230513,
-    2035
+    20230618,
+    1655
    ],
    "deps": [
     "closql",
@@ -31133,8 +31133,8 @@
     "emacsql",
     "llama"
    ],
-   "commit": "a72903cf2e7234a745b5ec4aac12a1e3dd85ea09",
-   "sha256": "05bwcvpy6c7zyimwwz5gcb0f3nqhahhj946vgnda61g776kcczpi"
+   "commit": "015e66729ca833ecb846eb17aa02653819e7358a",
+   "sha256": "1y2l4bg6r89ayx128g2r911zanr7q9885ya21ra96mbxjbc9n9ik"
   },
   "stable": {
    "version": [
@@ -42147,14 +42147,14 @@
   "repo": "erickgnavar/flymake-ruff",
   "unstable": {
    "version": [
-    20230618,
-    1852
+    20230620,
+    115
    ],
    "deps": [
     "project"
    ],
-   "commit": "31a7635da27dada872b28ad7adfa0df622438863",
-   "sha256": "1r1zp6g62xdf2z5jl19k1awcphsyf4lrdpd0x5wp8d0y47p4hing"
+   "commit": "7e3f88068b75d797e1efe0fc194f9725469f126e",
+   "sha256": "01wpp32fgqy1rsgdvmg1zkck7bkh8ciavhswsahv8sx3wpj3gp9v"
   }
  },
  {
@@ -50933,14 +50933,14 @@
   "unstable": {
    "version": [
     20230619,
-    959
+    2013
    ],
    "deps": [
     "helm-core",
     "popup"
    ],
-   "commit": "f930dff6fe92045e245bca9e6509ca3da87c5feb",
-   "sha256": "0slibrays5km882d9vryfqjlrzw3zm775c0cibhg330k37jybijl"
+   "commit": "21327f3e7715a54b5ebcc497d5b62fd250085442",
+   "sha256": "177fzkvifmn34i29gxfmdghfr49qmz6aza3dhc8svi3wwgpg6a16"
   },
   "stable": {
    "version": [
@@ -57728,8 +57728,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20230604,
-    332
+    20230619,
+    2253
    ],
    "deps": [
     "compat",
@@ -57737,8 +57737,8 @@
     "persist",
     "plz"
    ],
-   "commit": "10fd83be43cc901cf03ef7bfa6a7320c48743351",
-   "sha256": "0wvanx4fvdk5wyvqv6m4095almhs4shrxbk7wjai0i7bz82yy18q"
+   "commit": "e0da2e84e4e1787439e34b46266e784d38581f80",
+   "sha256": "11s4vz77r874l4r566023glyjfn2kw59y9az149wqg1l8ysl1ddn"
   }
  },
  {
@@ -78917,14 +78917,14 @@
   "repo": "emacscollective/no-littering",
   "unstable": {
    "version": [
-    20230611,
-    1653
+    20230619,
+    1801
    ],
    "deps": [
     "compat"
    ],
-   "commit": "44cbb50a8b40df90add21474c3558f1de122c51c",
-   "sha256": "1mpbrhk4mzcqil1awynrsbqswngsvqs8q9blykdapm968y93ylk1"
+   "commit": "4eef1a140f22ec700e7045b22352649bfaef72f3",
+   "sha256": "1dhi0wzhl2rk53a79c7yy6gydjqgi4cpzhaayn9riv95asrvg7al"
   },
   "stable": {
    "version": [
