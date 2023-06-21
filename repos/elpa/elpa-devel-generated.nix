@@ -1828,10 +1828,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.22.1.0.20230616.164357";
+        version = "0.22.1.0.20230620.185838";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230616.164357.tar";
-          sha256 = "1a76kqkszl9n9k42z009wxnz18901pjzpmcllwb54annww9dc51n";
+          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230620.185838.tar";
+          sha256 = "1889villknxdy71yd7vs4b7mdiahrwzq20nkqaxlbjjyahmrgnq1";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1848,10 +1848,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.7.0.20230616.164357";
+        version = "0.7.0.20230620.185838";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230616.164357.tar";
-          sha256 = "0rhkw8yp98gshshpfjdbmdlxk0n4shihg4bmvq8qw2mg9qziamsy";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230620.185838.tar";
+          sha256 = "19h39vssnrs5rswn2i712vq2z7m41alw5qzr3zxgppr5ydz4c3px";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -5842,10 +5842,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "0.7.0.20230606.80030";
+        version = "0.7.0.20230621.75645";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tempel-0.7.0.20230606.80030.tar";
-          sha256 = "0p2x5ba37a6f37m0bfs2a02hp8c81rs4f8q6v35n4r3652kbw7pm";
+          url = "https://elpa.gnu.org/devel/tempel-0.7.0.20230621.75645.tar";
+          sha256 = "1x9gc4rdf37fwnz4awcbf2ibk0b98b0xwzd1d9ixq9dafsa6jcxm";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6409,10 +6409,10 @@
       elpaBuild {
         pname = "vdiff";
         ename = "vdiff";
-        version = "0.2.4.0.20220830.105050";
+        version = "0.2.4.0.20230620.220116";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vdiff-0.2.4.0.20220830.105050.tar";
-          sha256 = "1q2jy95mdlk8cd66bbpzmqx1bgip8wr0zslgxrz6cgjcjaszpwra";
+          url = "https://elpa.gnu.org/devel/vdiff-0.2.4.0.20230620.220116.tar";
+          sha256 = "17767yyim333xwgzn3kb2l58z1w4wh55s45a5y1jv12ilfi08cnq";
         };
         packageRequires = [ emacs hydra ];
         meta = {
