@@ -676,10 +676,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.15.0.20230606.90445";
+        version = "0.15.0.20230620.154218";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-0.15.0.20230606.90445.tar";
-          sha256 = "0r63wp2h7qf7na1jcj1brgw86bvs3fs5xb2a3r24832wd0j5shic";
+          url = "https://elpa.gnu.org/devel/cape-0.15.0.20230620.154218.tar";
+          sha256 = "1q8pp02bzhdwhq58rs3463gx6ybwzdki8myvsyr8j18zn8sbxwaw";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -969,10 +969,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.34.0.20230616.131320";
+        version = "0.34.0.20230620.150826";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.34.0.20230616.131320.tar";
-          sha256 = "1ahzig0h8876abv8rc45fgc627ngix2zh2pjf6a1xf8225rb2vg0";
+          url = "https://elpa.gnu.org/devel/consult-0.34.0.20230620.150826.tar";
+          sha256 = "0jkrl6dw753x7am63mxf7y0vzpvkk8qmlndyn3xpz5lvwwqbhdfv";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1021,10 +1021,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.36.0.20200206.121427";
+        version = "0.36.0.20230620.114258";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.36.0.20200206.121427.tar";
-          sha256 = "169mwgip42rcin1bs76lq0586wzh4acllxdzgqq8nhb15ja90k1z";
+          url = "https://elpa.gnu.org/devel/corfu-0.36.0.20230620.114258.tar";
+          sha256 = "0wh35rdvfi5k473jdl20w8cx7ybqzfrq1sz0nasr511wsk5phkdq";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1671,10 +1671,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.1.1.0.20230620.20700";
+        version = "1.1.1.0.20230620.83511";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230620.20700.tar";
-          sha256 = "1lr05i76jzjsk6w186cvpqxch44p92l3znhy1r556dzs6a74g01p";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230620.83511.tar";
+          sha256 = "0qbs52csw6pv2xc014jb185g2hq2dbd4wfrkk2w4cw6n4knww7sw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1809,10 +1809,10 @@
       elpaBuild {
         pname = "emacs-gc-stats";
         ename = "emacs-gc-stats";
-        version = "1.2.3.0.20230618.140121";
+        version = "1.3.0.20230620.123844";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emacs-gc-stats-1.2.3.0.20230618.140121.tar";
-          sha256 = "0xfwzwb5mnx102cb247k76mg555ibd8imlv0mrqwnpjx0r4bzv57";
+          url = "https://elpa.gnu.org/devel/emacs-gc-stats-1.3.0.20230620.123844.tar";
+          sha256 = "1adppzbiac53cb4pc3f8vq727wwmkd5f8adrnd7z4zh8is8p9y0b";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3328,10 +3328,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "1.0.1.0.20230326.52119";
+        version = "1.1.0.0.20230620.122728";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/logos-1.0.1.0.20230326.52119.tar";
-          sha256 = "1a6hdlm738kfwd6h5hysxmj29yyigb1xin778431pd0jrznf1rva";
+          url = "https://elpa.gnu.org/devel/logos-1.1.0.0.20230620.122728.tar";
+          sha256 = "1rdgba7nbayj5550cqd5rn76g2ia2infr489vx0jhbn1qgmc7aii";
         };
         packageRequires = [ emacs ];
         meta = {
