@@ -2026,6 +2026,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    opam-switch-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "opam-switch-mode";
+        ename = "opam-switch-mode";
+        version = "1.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/opam-switch-mode-1.1.tar";
+          sha256 = "1pi825d42jzhh6ygi655h878w0vlz758fnxx0lsmg6k6rqr3cvgz";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/opam-switch-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     org-auto-tangle = callPackage ({ async, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "org-auto-tangle";
