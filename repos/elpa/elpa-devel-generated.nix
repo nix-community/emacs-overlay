@@ -1671,10 +1671,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.1.1.0.20230620.83511";
+        version = "1.1.1.0.20230621.184747";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230620.83511.tar";
-          sha256 = "0qbs52csw6pv2xc014jb185g2hq2dbd4wfrkk2w4cw6n4knww7sw";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230621.184747.tar";
+          sha256 = "0m61c5xnc8kpxfv8j5ws2avjzl0jwqh057w1fwwlgb6lfm0gmynp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3328,10 +3328,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "1.1.0.0.20230620.122728";
+        version = "1.1.1.0.20230621.190031";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/logos-1.1.0.0.20230620.122728.tar";
-          sha256 = "1rdgba7nbayj5550cqd5rn76g2ia2infr489vx0jhbn1qgmc7aii";
+          url = "https://elpa.gnu.org/devel/logos-1.1.1.0.20230621.190031.tar";
+          sha256 = "10bbjidfma7xsmh1gmv6qfnv315r9bvbik0hqdx9kd75sl7fvdj7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4007,10 +4007,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230618.65147";
+        version = "9.7pre0.20230621.172243";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230618.65147.tar";
-          sha256 = "1xla6p9mmn4wa8hzpdx52pjybwgk3cxzn04hldydxxdddmw842ph";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230621.172243.tar";
+          sha256 = "1fdll1ivfd0caiv1fvdcl366rwwgc3i4dz8l2cxlg39kk6w857s0";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5842,10 +5842,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "0.7.0.20230621.75645";
+        version = "0.7.0.20230621.80127";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tempel-0.7.0.20230621.75645.tar";
-          sha256 = "1x9gc4rdf37fwnz4awcbf2ibk0b98b0xwzd1d9ixq9dafsa6jcxm";
+          url = "https://elpa.gnu.org/devel/tempel-0.7.0.20230621.80127.tar";
+          sha256 = "1c6avyhzgiw0pi8p9x41cnhzg51flw54wc44wqxgj0qcmanxx070";
         };
         packageRequires = [ compat emacs ];
         meta = {

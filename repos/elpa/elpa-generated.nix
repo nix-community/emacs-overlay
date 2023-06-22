@@ -2984,10 +2984,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "1.1.0";
+        version = "1.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/logos-1.1.0.tar";
-          sha256 = "1hn725q6idd9zp93v81n60prvcmsa6shhv9nl8pzqmf71y1w1lrh";
+          url = "https://elpa.gnu.org/packages/logos-1.1.1.tar";
+          sha256 = "1lg4disxfzw9nf438j32q1cna447mlxy3sg523cqzhimh1mk5s9f";
         };
         packageRequires = [ emacs ];
         meta = {
