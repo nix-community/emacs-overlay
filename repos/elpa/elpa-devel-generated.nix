@@ -1696,10 +1696,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20230609.11219";
+        version = "1.15.0.20230622.85046";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230609.11219.tar";
-          sha256 = "1p6nhkg6nwkxbn4378bpwc8qrqr53srxxrwvnmzwzxfz047hbqaq";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230622.85046.tar";
+          sha256 = "0kgps5x73ndymkbfac72f6wmr6bmrk97y4bhqlf0pc56b0nsy02g";
         };
         packageRequires = [
           eldoc
@@ -4007,10 +4007,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230621.172243";
+        version = "9.7pre0.20230622.101412";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230621.172243.tar";
-          sha256 = "1fdll1ivfd0caiv1fvdcl366rwwgc3i4dz8l2cxlg39kk6w857s0";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230622.101412.tar";
+          sha256 = "18zqvb3vb840qrafs69g3gwda0zxb74rc5rki7hyga01wbcxk96m";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6100,10 +6100,10 @@
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.3.2.0.20230613.212718";
+        version = "0.3.3.0.20230622.143226";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/triples-0.3.2.0.20230613.212718.tar";
-          sha256 = "0c5kv3phzxf56v7gzgarpymj2y8qz9y2f9bzy7fxifg4921y02np";
+          url = "https://elpa.gnu.org/devel/triples-0.3.3.0.20230622.143226.tar";
+          sha256 = "0xwlrjwn9ki4d55smx4dlkiw3k27iyy2gc51ilbq6xgwx0imajyb";
         };
         packageRequires = [ emacs seq ];
         meta = {
