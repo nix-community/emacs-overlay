@@ -843,10 +843,10 @@
       elpaBuild {
         pname = "evil-matchit";
         ename = "evil-matchit";
-        version = "3.0.0";
+        version = "3.0.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/evil-matchit-3.0.0.tar";
-          sha256 = "036zf7l8pkhbyk7gz91r00v4fqi2wfdnqv95xkh7jpm2i9xcgg5p";
+          url = "https://elpa.nongnu.org/nongnu/evil-matchit-3.0.1.tar";
+          sha256 = "0fwlwvfs5qvq12ybakrlaw7p87hnwc0vcvxxgzn7dq7yyq1mmxby";
         };
         packageRequires = [ emacs ];
         meta = {
