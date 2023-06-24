@@ -2754,10 +2754,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20230619.111829";
+        version = "8.0.1pre0.20230623.222625";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230619.111829.tar";
-          sha256 = "07ivjcnfngzqxbjafxmqlyb10s6l4v6hlf1qdca8i3p2klqzikzr";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230623.222625.tar";
+          sha256 = "1rcwqii8gvd3cmw5spwhml7b56llq7sj15vf51lnkn16sxpcpjln";
         };
         packageRequires = [ emacs ];
         meta = {
