@@ -4007,10 +4007,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230622.101412";
+        version = "9.7pre0.20230623.104751";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230622.101412.tar";
-          sha256 = "18zqvb3vb840qrafs69g3gwda0zxb74rc5rki7hyga01wbcxk96m";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230623.104751.tar";
+          sha256 = "02zxg82v0snhc02rxxm1r6mmrxp958snrp1in7d5g2zkrdmzfl31";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4141,10 +4141,10 @@
       elpaBuild {
         pname = "org-transclusion";
         ename = "org-transclusion";
-        version = "1.3.2.0.20230524.192243";
+        version = "1.3.2.0.20230623.103407";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-transclusion-1.3.2.0.20230524.192243.tar";
-          sha256 = "0kw1kwgrsv5xbj3qkhqp11gh0w7q8p347frg6cqm8wsyp49psl9r";
+          url = "https://elpa.gnu.org/devel/org-transclusion-1.3.2.0.20230623.103407.tar";
+          sha256 = "121bds4h53ynpz7yyjws3j75rl7xhisminv4xx03nqj9ggv1w28i";
         };
         packageRequires = [ emacs org ];
         meta = {
