@@ -843,10 +843,10 @@
       elpaBuild {
         pname = "evil-matchit";
         ename = "evil-matchit";
-        version = "3.0.1";
+        version = "3.0.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/evil-matchit-3.0.1.tar";
-          sha256 = "0fwlwvfs5qvq12ybakrlaw7p87hnwc0vcvxxgzn7dq7yyq1mmxby";
+          url = "https://elpa.nongnu.org/nongnu/evil-matchit-3.0.2.tar";
+          sha256 = "02sim8hkclkp7lzj3hybjky75lyvf452wc7hmbkx1rjb3cx9j5m5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -858,10 +858,10 @@
       elpaBuild {
         pname = "evil-nerd-commenter";
         ename = "evil-nerd-commenter";
-        version = "3.6.0";
+        version = "3.6.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/evil-nerd-commenter-3.6.0.tar";
-          sha256 = "0709qlxhvmapdnl8bhqvg39cm6x4659mg0jzz5b9hmis5bpj1kiq";
+          url = "https://elpa.nongnu.org/nongnu/evil-nerd-commenter-3.6.1.tar";
+          sha256 = "0ixyn669fk7gcnl3nhjma67zvnavikn75yzsa4sx850s5i4i1b2a";
         };
         packageRequires = [ emacs ];
         meta = {
