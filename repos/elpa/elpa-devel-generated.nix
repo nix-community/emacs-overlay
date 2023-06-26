@@ -1671,10 +1671,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.1.1.0.20230625.50453";
+        version = "1.1.1.0.20230625.110125";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230625.50453.tar";
-          sha256 = "182in2z0v22i9v1a82yl0y2bfypgpbx0jcmv43daydfqw66d8x7f";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.1.1.0.20230625.110125.tar";
+          sha256 = "06140zkmrb7bip1rampn9mkb3bah4i5kj8kincky84r5ak7yq4al";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2754,10 +2754,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20230623.222625";
+        version = "8.0.1pre0.20230625.140920";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230623.222625.tar";
-          sha256 = "1rcwqii8gvd3cmw5spwhml7b56llq7sj15vf51lnkn16sxpcpjln";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230625.140920.tar";
+          sha256 = "1ykis1l32v69w7ajhmvynj2jh24c3la0k90avg090jmb88v4ajvk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3590,10 +3590,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.2.0.0.20230615.42214";
+        version = "4.2.0.0.20230625.132729";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230615.42214.tar";
-          sha256 = "07m6b8avf4ggpbji4lq35515scmrhwpw6fflx96zwwm320blm0pj";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230625.132729.tar";
+          sha256 = "0y9dj48cxm5sj40v50r0sgng83wh8xiqvfnyn24s1jlia70flm4y";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4007,10 +4007,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230624.123634";
+        version = "9.7pre0.20230625.104518";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230624.123634.tar";
-          sha256 = "00y2zlpvx29mj17f2vayxkfyc661xwqax2wlpkdkqqic36yc0nvk";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230625.104518.tar";
+          sha256 = "1f66qnfxgh1n4bj78i70f0cal4a4nvznqbxkzrs3bvxx1z2lrgww";
         };
         packageRequires = [ emacs ];
         meta = {
