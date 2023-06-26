@@ -24564,14 +24564,14 @@
   "repo": "hrs/docsim.el",
   "unstable": {
    "version": [
-    20230621,
-    2010
+    20230626,
+    326
    ],
    "deps": [
     "org"
    ],
-   "commit": "819f1a92abfb177254b3b08b9d723baabbc6dc3c",
-   "sha256": "02dhp683n2s4xx8y5yi30yfwljr2z5y1i9bgvin4nknhpczmjspa"
+   "commit": "e90f3610908301e9cb585c1b57e0d5c8e710ad2a",
+   "sha256": "1wih1qi8f5xa2cjx8kbifwxvrhdk1qbcpdc83h8kwz5qz39lsh2v"
   }
  },
  {
@@ -48794,11 +48794,11 @@
   "repo": "brownts/gpr-ts-mode",
   "unstable": {
    "version": [
-    20230613,
-    1237
+    20230626,
+    337
    ],
-   "commit": "b5c8419f3ff3e224aec922083b83654c77481e65",
-   "sha256": "1xygg2yrp1mpvwq7mzx9izkqaiy97916k47bk2p5yvwl18zlg203"
+   "commit": "c3ef169ff86dbd13b3d538219acc1d17da133688",
+   "sha256": "1fkrwmf2db7gya0gnyv171csp6wq4hrkli5v17zr143nc34lbmgg"
   }
  },
  {
@@ -57751,7 +57751,7 @@
   "unstable": {
    "version": [
     20230626,
-    14
+    346
    ],
    "deps": [
     "compat",
@@ -57759,8 +57759,8 @@
     "persist",
     "plz"
    ],
-   "commit": "02802c4ed8e5ecbfab87824a2dbfbc3b0fa7eeb1",
-   "sha256": "0qi1r3h6x1xr3km87wniam05di3jv156k18zvxipgsxxr5gmmgml"
+   "commit": "0bcc75f946ead0174e9d947fdd7c216dc90f8bbb",
+   "sha256": "1rasj3gr6dy63f0s3mp4hbs0gbnqpy86h9a7viy9hdvi1zxy9gmb"
   }
  },
  {
@@ -109078,9 +109078,16 @@
   "ename": "spanish-holidays",
   "commit": "843f452094c3e794200bfb2e9181892c22708c35",
   "sha256": "068mkkg1bq8mx7kybajykcy2p2x0bawsml8wlfff0ig9975ardz3",
-  "error": "Not in archive",
   "fetcher": "gitlab",
-  "repo": "gnuhack/spanish-holidays"
+  "repo": "gnuhack/spanish-holidays",
+  "unstable": {
+   "version": [
+    20230625,
+    1311
+   ],
+   "commit": "c8db8829311a7101bb0b9d8a054b177dd73190b9",
+   "sha256": "1rhzcs5zm3z09kmwf2hmhq8sl3vf5qclb5j7lyazr4hmg52f4k22"
+  }
  },
  {
   "ename": "spark",
