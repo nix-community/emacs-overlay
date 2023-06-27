@@ -665,10 +665,10 @@
       elpaBuild {
         pname = "elixir-mode";
         ename = "elixir-mode";
-        version = "2.4.0";
+        version = "2.5.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/elixir-mode-2.4.0.tar";
-          sha256 = "0h3ypyxmcpfh8kcwd08rsild4jy8s4mr3zr8va03bbh81pd3nm1m";
+          url = "https://elpa.nongnu.org/nongnu/elixir-mode-2.5.0.tar";
+          sha256 = "0j4rkwmzb3grs7c56m1f6h3mcxvf4cskxf2qw9jw4fc88j5135ym";
         };
         packageRequires = [ emacs ];
         meta = {
