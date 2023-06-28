@@ -969,10 +969,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.34.0.20230626.115425";
+        version = "0.34.0.20230627.180143";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.34.0.20230626.115425.tar";
-          sha256 = "0v39dy5f8kkbg33z2jckdhsqkkv8hhcfz8iw7xpnp9d2qgw9lazx";
+          url = "https://elpa.gnu.org/devel/consult-0.34.0.20230627.180143.tar";
+          sha256 = "1cbn9xvz9yxfj4w3agfpm5gm8yl1d4ms2qw20r3yzqvv4dwdf51d";
         };
         packageRequires = [ compat emacs ];
         meta = {
