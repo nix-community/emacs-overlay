@@ -126,6 +126,11 @@ let
                   maybeOverridden = if (super.lib.hasAttr "treeSitter" base || super.lib.hasAttr "withTreeSitter" base) then base.override { withTreeSitter = false; } else base;
               in maybeOverridden;
 
+  commercial-emacs = super.lib.makeOverridable (mkGitEmacs "commercial-emacs" ../repos/emacs/commercial-emacs-commercial-emacs.json) {
+    withTreeSitter = false;
+    nativeComp = false;
+  };
+
   emacs-git-nox = (
     (
       emacs-git.override {
@@ -167,6 +172,8 @@ in
   inherit emacs-git-nox emacs-unstable-nox;
 
   inherit emacs-lsp;
+
+  inherit commercial-emacs;
 
   emacsWithPackagesFromUsePackage = import ../elisp.nix { pkgs = self; };
 
