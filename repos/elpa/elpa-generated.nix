@@ -5292,10 +5292,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.0.5";
+        version = "2.6.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.6.0.5.tar";
-          sha256 = "0hbrrlcyhxkmjym4wnwipi47lzqpnlxc833p0hmghc6n0s8sx7hf";
+          url = "https://elpa.gnu.org/packages/tramp-2.6.1.tar";
+          sha256 = "0rk2bkr2n6064170741wjparsshziwj6j6w6sfzpl7xxbldpsqxa";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5919,6 +5919,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/which-key.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    window-commander = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "window-commander";
+        ename = "window-commander";
+        version = "3.0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/window-commander-3.0.1.tar";
+          sha256 = "1sjp9hca8315h9dqxgjffx2d6xxmaqfwhpbij5zzl8lgkggk9hld";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/window-commander.html";
           license = lib.licenses.free;
         };
       }) {};
