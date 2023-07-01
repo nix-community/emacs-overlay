@@ -871,17 +871,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    company = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    company = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.9.13.0.20230416.203422";
+        version = "0.9.13.0.20230701.3253";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.9.13.0.20230416.203422.tar";
-          sha256 = "1iwzhz938s11fwndiv59qcviqc5gwam08a6ygamlzr4z626i5zyh";
+          url = "https://elpa.gnu.org/devel/company-0.9.13.0.20230701.3253.tar";
+          sha256 = "0n3zm3girwfx4xdq04fwrqpvh36d4iwbbb4nj58hniq6bd1ig52p";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4416,10 +4413,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.7pre0.20230629.60023";
+        version = "0.7pre0.20230630.165256";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/plz-0.7pre0.20230629.60023.tar";
-          sha256 = "0vjryjnwda8980am05cmc030c8gld7lwy5k50sm8jb4d1vl9p8il";
+          url = "https://elpa.gnu.org/devel/plz-0.7pre0.20230630.165256.tar";
+          sha256 = "150fgp6jbn66psrbw3d63hmyaa49g59l17qwhw4kdpslf5jf302m";
         };
         packageRequires = [ emacs ];
         meta = {
