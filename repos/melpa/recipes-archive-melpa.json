@@ -12758,11 +12758,11 @@
   "repo": "universal-ctags/citre",
   "unstable": {
    "version": [
-    20230217,
-    1202
+    20230630,
+    1536
    ],
-   "commit": "4626ada80fabea6b62935567acc1cb8dad607016",
-   "sha256": "1bs66lk094g1bgk09zamv184j1nl64z8hvwjvf4w28kbjpvnxvsn"
+   "commit": "c617acef3dc2a88aaffa42a515ce7dbaba98228a",
+   "sha256": "10lj6w67vsdxdzg0y69qzpccai4054xg8kl9jpavnwn5i12nlp7l"
   },
   "stable": {
    "version": [
@@ -14929,11 +14929,11 @@
   "repo": "company-mode/company-mode",
   "unstable": {
    "version": [
-    20230416,
-    2034
+    20230701,
+    32
    ],
-   "commit": "8a78f320019574bc35b5727f95b052b27918da20",
-   "sha256": "1rmxcv5nfvp6j26zcv5fb563mzwf205s5417yqmfyc44v8j905i7"
+   "commit": "23f44eba28ec4736b95117a5f0c07265659245d9",
+   "sha256": "18rwdqpsv3hzng51lx1cy5aynpfmnjfy7gh3k8n7gvzk5kw149zd"
   },
   "stable": {
    "version": [
@@ -30705,14 +30705,14 @@
   "repo": "isamert/empv.el",
   "unstable": {
    "version": [
-    20230625,
-    1316
+    20230630,
+    2143
    ],
    "deps": [
     "s"
    ],
-   "commit": "f71bce1ea481b0578e62394d620ad7982c088dea",
-   "sha256": "16cayz4rxggap3l1q06prvw6r38xbdfszgj5b0ghhkz1625lk9r3"
+   "commit": "29dd313fea4083237b47162bad31202d132d5e40",
+   "sha256": "0g3srp183z9qyhjv4zh82zyhijxklkqvmag4mvx4khn5x6c45r58"
   },
   "stable": {
    "version": [
@@ -35277,15 +35277,15 @@
   "repo": "clsty/evil-tutor-sc",
   "unstable": {
    "version": [
-    20230629,
-    1231
+    20230630,
+    1541
    ],
    "deps": [
     "evil",
     "evil-tutor"
    ],
-   "commit": "c11083c1aaa2dc353ae3b885ae7111f72a4883e5",
-   "sha256": "1i68czha6q4k3b9zv87nk0h99hhh95y06ln7xk2dxccrvsbxmg6q"
+   "commit": "4570007e0056f48b6fef159f10f703937edc3208",
+   "sha256": "1q5fbr3ri0f5y7y3yfnv4p5b0xxs7l1dbiq91p6n687alg9gvq73"
   },
   "stable": {
    "version": [
@@ -39196,15 +39196,15 @@
   "repo": "intramurz/flycheck-eglot",
   "unstable": {
    "version": [
-    20230202,
-    1844
+    20230630,
+    1803
    ],
    "deps": [
     "eglot",
     "flycheck"
    ],
-   "commit": "31905ad676d67fb2967a3b6d907312380696615f",
-   "sha256": "1zkwb0w5rp0b53r4plvckwild717crv51ymfmhcdqdrjlv9qpzca"
+   "commit": "9ff8d0068be59b1450964b390349d75a68af21ed",
+   "sha256": "1ab4vp8qyhmg0ckr2h0bw1nm3lwh8zwckgjvzmr3lwcv6drcq67h"
   }
  },
  {
@@ -46254,13 +46254,13 @@
   "stable": {
    "version": [
     4,
-    11
+    13
    ],
    "deps": [
     "transient"
    ],
-   "commit": "391eb61050de321101e631fcf373fc70ec6e7700",
-   "sha256": "05pyjhi26charkjy0mhvigd72rvb4s1s8imycfynf0fmjy7f7n7x"
+   "commit": "ac933e5cd29583c131401f3bd991d98129c316df",
+   "sha256": "152vq34dn76m21ab97wwm31hgp2wl9y437vwmd4kcd5pvwjhx9c6"
   }
  },
  {
@@ -57784,8 +57784,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20230630,
-    830
+    20230701,
+    108
    ],
    "deps": [
     "compat",
@@ -57793,8 +57793,8 @@
     "persist",
     "plz"
    ],
-   "commit": "6568b9d0b62e9cf7036a927feab13106d4769171",
-   "sha256": "0iq96848kymnhh2av14a8583b84rdlk1ia79rvlqqq6c12m14kfx"
+   "commit": "c318bda327c2e3496660d05660fddc3891cfc15b",
+   "sha256": "1fzs3r0xa4sss5yl1hbnzpdwsb21qr97x00nck7m2pxa0rabadxl"
   }
  },
  {
@@ -66172,16 +66172,16 @@
   "repo": "isamert/lab.el",
   "unstable": {
    "version": [
-    20230617,
-    1339
+    20230630,
+    2005
    ],
    "deps": [
     "memoize",
     "request",
     "s"
    ],
-   "commit": "e4973c99af5837260122de0b8e234a4d87af2356",
-   "sha256": "05va6l7g96qaiplsdxnbnc7s4hvk2dsrs64qs3zbk7gf1ad85vj6"
+   "commit": "771a98c48c657f7a883b664617f2bc0370575f99",
+   "sha256": "1cg118ifbjmx6imdvdqqk6gjg25j1ypgcqnznpbr7dxw84crdv81"
   }
  },
  {
@@ -78431,11 +78431,11 @@
   "repo": "nickel-lang/nickel-mode",
   "unstable": {
    "version": [
-    20230502,
-    841
+    20230630,
+    1711
    ],
-   "commit": "4b92668564025b18a3d4da47db51d6360cf9da44",
-   "sha256": "01mlw1yjypffq8fpvsc9inw6gwrjmb2d944qw5mg51cdldddscc4"
+   "commit": "99010b65f54cf3a9d00e797d25bf51947a6dabf6",
+   "sha256": "048pcvvd852375xy7dzkvfp4wwnk8y6xkbr7sdda34irhkpsa3x8"
   }
  },
  {
