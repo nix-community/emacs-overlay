@@ -3458,10 +3458,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "0.2.2";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/notmuch-indicator-0.2.2.tar";
-          sha256 = "1jca5zm8vd91ivk5c6n2210ybp1i8rb8cpi1dymbxkcjxc61fzgp";
+          url = "https://elpa.gnu.org/packages/notmuch-indicator-1.0.0.tar";
+          sha256 = "1qlxm7v2zsbf8zq1nryv17cmzrxf0xrmxb354gp99ad35gv3yc9v";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5926,10 +5926,10 @@
       elpaBuild {
         pname = "window-commander";
         ename = "window-commander";
-        version = "3.0.1";
+        version = "3.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/window-commander-3.0.1.tar";
-          sha256 = "1sjp9hca8315h9dqxgjffx2d6xxmaqfwhpbij5zzl8lgkggk9hld";
+          url = "https://elpa.gnu.org/packages/window-commander-3.0.2.tar";
+          sha256 = "1v85g89rz8r2ypw6651lrb9mvrimdwhxan7kxzhpgam2i2g7kcr7";
         };
         packageRequires = [ emacs ];
         meta = {

@@ -1283,10 +1283,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "1.2.0.0.20230626.134030";
+        version = "1.2.0.0.20230630.131856";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-1.2.0.0.20230626.134030.tar";
-          sha256 = "17zbwd84ci69db8abfgx03lc13lvpyvzcm14ar7jxprwrxgfr42k";
+          url = "https://elpa.gnu.org/devel/denote-1.2.0.0.20230630.131856.tar";
+          sha256 = "1fbb64zk37j3h0sw33sj7p7dwaak8rc35mrp66ai91z5lklv4dhy";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3590,10 +3590,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.2.0.0.20230630.64210";
+        version = "4.2.0.0.20230630.131541";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230630.64210.tar";
-          sha256 = "1bzk1la1ssv4pwh3nvbnmpv8318a87iav73jkddga5za5liamixy";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230630.131541.tar";
+          sha256 = "1wcj6rda9nk5r31y2ir4j56w3f82idb20jxx8jsk31fw8frx2c81";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3848,10 +3848,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "0.2.2.0.20230616.105338";
+        version = "1.0.0.0.20230630.174300";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/notmuch-indicator-0.2.2.0.20230616.105338.tar";
-          sha256 = "1kyvhv9isv2l38ndkm2f2r7ilk2gk3d7vln4kwv58mb3aicic1xg";
+          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.0.0.0.20230630.174300.tar";
+          sha256 = "0r7lmn2icaa8jgwc7s3kbprrln0qz3lgln92287sira1qsvsam7b";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4007,10 +4007,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230629.191801";
+        version = "9.7pre0.20230630.124957";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230629.191801.tar";
-          sha256 = "0lsz9fa3dp9fbwgsi76p5bxw73w8qdr8s9dw6h530fldmx7nyxgb";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230630.124957.tar";
+          sha256 = "0shk09cqb4lf7prfrlhciva5fd67r873bqs665rhqrzvrayy433q";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6664,10 +6664,10 @@
       elpaBuild {
         pname = "window-commander";
         ename = "window-commander";
-        version = "3.0.1.0.20230629.160206";
+        version = "3.0.2.0.20230630.142949";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/window-commander-3.0.1.0.20230629.160206.tar";
-          sha256 = "1g81y4lfn79194lrymansk15545mipx64662yv5hrakw10kfgiwq";
+          url = "https://elpa.gnu.org/devel/window-commander-3.0.2.0.20230630.142949.tar";
+          sha256 = "0sr29bslv9b2avsb6s0ln7j19zbrfvk2xbxgylxi3r43nhm4lmy5";
         };
         packageRequires = [ emacs ];
         meta = {
