@@ -4938,10 +4938,10 @@
       elpaBuild {
         pname = "ssh-deploy";
         ename = "ssh-deploy";
-        version = "3.1.14";
+        version = "3.1.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ssh-deploy-3.1.14.tar";
-          sha256 = "079g5g3640hyqdikszkz8kmfqdnqdbkl8rwd6k3kkck39ng63zy6";
+          url = "https://elpa.gnu.org/packages/ssh-deploy-3.1.15.tar";
+          sha256 = "0sknxl4b88jfgr8k77sv4i6yvx4qjyk0m6jhzfvh05hh309c376b";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4983,10 +4983,10 @@
       elpaBuild {
         pname = "substitute";
         ename = "substitute";
-        version = "0.1.8";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/substitute-0.1.8.tar";
-          sha256 = "1xa1ny4iblifrylxkj2i99vnayrxh669dlbpcbk4rb7alvv1npnz";
+          url = "https://elpa.gnu.org/packages/substitute-0.2.0.tar";
+          sha256 = "0b9vlnkdijwdi20bid0xxwsvw71xcg2hnnbjrzkfwivp0x2b66sv";
         };
         packageRequires = [ emacs ];
         meta = {

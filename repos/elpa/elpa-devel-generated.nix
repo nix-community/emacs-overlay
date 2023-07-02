@@ -1968,10 +1968,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20230625.162640";
+        version = "5.6snapshot0.20230701.72130";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20230625.162640.tar";
-          sha256 = "1cknnkiy69ff68ppqnvsfry2sn1hgdcim0kjq6rc9w2j62f9m2vh";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20230701.72130.tar";
+          sha256 = "03k7c5nwp8j6r1x33ij8c5hh5l39hc3kf3aqwwm1v9di8vjmx4m1";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4413,10 +4413,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.7pre0.20230630.165256";
+        version = "0.7pre0.20230701.32336";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/plz-0.7pre0.20230630.165256.tar";
-          sha256 = "150fgp6jbn66psrbw3d63hmyaa49g59l17qwhw4kdpslf5jf302m";
+          url = "https://elpa.gnu.org/devel/plz-0.7pre0.20230701.32336.tar";
+          sha256 = "08cia5p6qaw5sgd4f7i95chvzdapbr5aj3ps5zigpkf8cn71mlcl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5549,10 +5549,10 @@
       elpaBuild {
         pname = "ssh-deploy";
         ename = "ssh-deploy";
-        version = "3.1.14.0.20230129.90300";
+        version = "3.1.15.0.20230701.90449";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ssh-deploy-3.1.14.0.20230129.90300.tar";
-          sha256 = "1184y9kc1x0jj8llz0hf0ysq64sxjhrdpikjl32gs7iilvpj950m";
+          url = "https://elpa.gnu.org/devel/ssh-deploy-3.1.15.0.20230701.90449.tar";
+          sha256 = "0iaj57qzs96xnq781xsqabm8r646dq7j99bdmj8gnjs50cxz2dzb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5600,10 +5600,10 @@
       elpaBuild {
         pname = "substitute";
         ename = "substitute";
-        version = "0.1.8.0.20230409.85458";
+        version = "0.2.0.0.20230701.184233";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/substitute-0.1.8.0.20230409.85458.tar";
-          sha256 = "1yrpkhbf0msa9pvhwwkcj49p9zk044872q1ifrnsr9av60klwfhv";
+          url = "https://elpa.gnu.org/devel/substitute-0.2.0.0.20230701.184233.tar";
+          sha256 = "1d5b0lc6p8phl7ns2sj8g81y1h8c2wpbp0j9aay8j2d09z713bjv";
         };
         packageRequires = [ emacs ];
         meta = {
