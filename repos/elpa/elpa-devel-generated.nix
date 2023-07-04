@@ -878,10 +878,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.9.13.0.20230702.143312";
+        version = "0.9.13.0.20230703.202120";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.9.13.0.20230702.143312.tar";
-          sha256 = "1qvcp1cwyp70jbn8xhz3g27fbj06knap9m1g8afy4f7fls9qz8s2";
+          url = "https://elpa.gnu.org/devel/company-0.9.13.0.20230703.202120.tar";
+          sha256 = "1v5xagayjf0dnfs0irngqvqfcw43iijcwzf4a3mf19il8634mx3k";
         };
         packageRequires = [ emacs ];
         meta = {
