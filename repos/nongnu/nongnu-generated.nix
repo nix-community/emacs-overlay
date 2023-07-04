@@ -406,10 +406,10 @@
       elpaBuild {
         pname = "corfu-terminal";
         ename = "corfu-terminal";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/corfu-terminal-0.5.tar";
-          sha256 = "1m53d4vi7cl91d8k550735r3ns4lm9vz3gvb0b7skib8jw3x5xqr";
+          url = "https://elpa.nongnu.org/nongnu/corfu-terminal-0.6.tar";
+          sha256 = "1ndg7ac61gi3ikzygaac8368jw0fwa0xs7kbnz1xp083095y5r0p";
         };
         packageRequires = [ corfu emacs popon ];
         meta = {
@@ -1184,10 +1184,10 @@
       elpaBuild {
         pname = "geiser-stklos";
         ename = "geiser-stklos";
-        version = "1.4";
+        version = "1.7";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-stklos-1.4.tar";
-          sha256 = "18z34x4xmn58080r2ar6wd07kap7f367my2q5ph6cdf0gs6nz4sv";
+          url = "https://elpa.nongnu.org/nongnu/geiser-stklos-1.7.tar";
+          sha256 = "0asfih60lid6m1mdshwj22kjnqx039g36ivwhhh3jcjfkzarfgns";
         };
         packageRequires = [ emacs geiser ];
         meta = {
@@ -2317,10 +2317,10 @@
       elpaBuild {
         pname = "popon";
         ename = "popon";
-        version = "0.12";
+        version = "0.13";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/popon-0.12.tar";
-          sha256 = "06vsri7dka3qbiwfkl4ml8b99alah24zq8y4n1szh587xy3c7dj0";
+          url = "https://elpa.nongnu.org/nongnu/popon-0.13.tar";
+          sha256 = "1ifwkiq8viic4ymph0xrpyrmr946brp2cx48yqf4jrhknafqv5qf";
         };
         packageRequires = [ emacs ];
         meta = {
