@@ -16,6 +16,7 @@ in
 , defaultInitFile ? false
 # emulate `use-package-always-ensure` behavior (defaulting to false)
 , alwaysEnsure ? null
+, withoutNotice ? null
 # emulate `#+PROPERTY: header-args:emacs-lisp :tangle yes`
 , alwaysTangle ? false
 , extraEmacsPackages ? epkgs: [ ]
@@ -31,8 +32,14 @@ let
 
     You can get back the old behaviour by passing `alwaysEnsure = true`.
     For a more in-depth usage example see https://github.com/nix-community/emacs-overlay#extra-library-functionality
+
+    To suppress this notice pass `withoutNotice = true`.
   '';
-  doEnsure = if (alwaysEnsure == null) then builtins.trace ensureNotice false else alwaysEnsure;
+
+  doEnsure = if (alwaysEnsure == null) then (if (withoutNotice == null) then
+                                               builtins.trace ensureNotice false
+                                             else false)
+             else alwaysEnsure;
 
   isOrgModeFile =
     let
