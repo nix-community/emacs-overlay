@@ -4638,10 +4638,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20230624.121139";
+        version = "0.28.0.20230706.72714";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20230624.121139.tar";
-          sha256 = "0svli4y8sg40xpm85h9x0fqi7jw1k86v9z2jrs5wgg3nbnpkb84w";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20230706.72714.tar";
+          sha256 = "1f4blldm5v2vwhj89r7nyyfk5rp6ag3mx8i0bijbg6jnbbdlq4ws";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
