@@ -676,10 +676,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.16.0.20230704.212803";
+        version = "0.16.0.20230705.162641";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-0.16.0.20230704.212803.tar";
-          sha256 = "1l9xg47swrdkm6mpj4w81cnp1g8b0c3qzcznm2mh4bcbmm476wqw";
+          url = "https://elpa.gnu.org/devel/cape-0.16.0.20230705.162641.tar";
+          sha256 = "110l1hxbxjr5x1wkxc15vn4a2g81viafyy4qfdgb3pi4aja09yvc";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1873,10 +1873,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.11pre0.20230624.35551";
+        version = "0.11pre0.20230705.63205";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.11pre0.20230624.35551.tar";
-          sha256 = "187ivc0h3dqnf588ickjz2xnxcn28pjvcr286h140as134afz656";
+          url = "https://elpa.gnu.org/devel/ement-0.11pre0.20230705.63205.tar";
+          sha256 = "1gk5j6wr3fi9jz6bjarzb2yi9ljqx79j8fkbf6i7jllnmr6j8sn4";
         };
         packageRequires = [
           emacs
@@ -4007,10 +4007,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230704.104321";
+        version = "9.7pre0.20230705.131219";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230704.104321.tar";
-          sha256 = "0a4igihd3ar9z0k4xsbb067a8yml4mzxl7npdsis0bx7bz46zdzv";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230705.131219.tar";
+          sha256 = "09g6is6dk7ipcx44xi6cvfz9ni96dk9wvkybxgkqpi9cbdj4dhfj";
         };
         packageRequires = [ emacs ];
         meta = {
