@@ -460,10 +460,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "0.3.0.0.20230615.35725";
+        version = "0.3.0.0.20230707.42330";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/beframe-0.3.0.0.20230615.35725.tar";
-          sha256 = "01rsc6n95n8nv2is63h30y5l8jshby3radk6zlsp8d0s6rb2n0wz";
+          url = "https://elpa.gnu.org/devel/beframe-0.3.0.0.20230707.42330.tar";
+          sha256 = "12a7hhdjw9fy5mh3sj7jyb249vlmrl45r4wq4faap23mdnbygw49";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1671,10 +1671,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.2.0.0.20230630.73806";
+        version = "1.2.0.0.20230707.71859";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.2.0.0.20230630.73806.tar";
-          sha256 = "0f6h2d2ir80rbjfla5jscpn721dqwr0v07f5ci989vq9y6dkfzq8";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.2.0.0.20230707.71859.tar";
+          sha256 = "1jypwi9q3hkf90rx0r8xqib3wng5772bzc1w4igz15idz3yyn1qd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3590,10 +3590,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.2.0.0.20230704.191036";
+        version = "4.2.0.0.20230707.65213";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230704.191036.tar";
-          sha256 = "1cdghwrg8dc7zmwkqhwny3n2k2ir7c0ygviv5vddfdbf7870jllx";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230707.65213.tar";
+          sha256 = "01j7gbymp65yrm8v7h120yjhxg5hy5f08hkgwqzihsrjil0qza4y";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4353,10 +4353,10 @@
       elpaBuild {
         pname = "perl-doc";
         ename = "perl-doc";
-        version = "0.6.0.20220929.155443";
+        version = "0.6.0.20230706.212801";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/perl-doc-0.6.0.20220929.155443.tar";
-          sha256 = "0sz036kvymq14ph03gqkzxmz4r64b8g44phx7bmz70w803w9rpxd";
+          url = "https://elpa.gnu.org/devel/perl-doc-0.6.0.20230706.212801.tar";
+          sha256 = "0730hnxk479kb9msa8jggg8f6wbcbyvfa4fhgmhbpnb05hrsc565";
         };
         packageRequires = [ emacs ];
         meta = {
