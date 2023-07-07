@@ -4593,16 +4593,16 @@
   "repo": "jyp/attrap",
   "unstable": {
    "version": [
-    20230703,
-    1926
+    20230707,
+    1457
    ],
    "deps": [
     "dash",
     "f",
     "s"
    ],
-   "commit": "1a0af0d210d5276f4d6c47ea53661c44437f9b12",
-   "sha256": "15v5rr0kniwbdk040si314yf10bbrflrld3zyv2vx9bv2jnl35l2"
+   "commit": "1019b86f5398dadef61efc76fefe8fa8be1193a8",
+   "sha256": "0g1zfmv9v8nfkz3y3hfspvrwh64mk6v73dsclmvpaq4lhjcdva0j"
   },
   "stable": {
    "version": [
@@ -44753,14 +44753,18 @@
   "repo": "emacs-geiser/chez",
   "unstable": {
    "version": [
-    20230228,
-    2253
+    20230707,
+    1334
    ],
    "deps": [
     "geiser"
    ],
-   "commit": "04ab4387fed68659f21377dbe74513edac2fd134",
-   "sha256": "19yv5brhzf10hsazmm8s1b058d434hv60a52s08m3kxyrkwr5sca"
+   "commit": "605a81ff7b2d2b275a3ec68e3ce7e5b50f85014d",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "warning: error: unable to download 'https://gitlab.com/api/v4/projects/emacs-geiser%2Fchez/repository/archive.tar.gz?ref=605a81ff7b2d2b275a3ec68e3ce7e5b50f85014d': HTTP error 503\n\n       response body:\n\n       \n       <!DOCTYPE html>\n       <html>\n       <head>\n         <meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">\n         <title>503 Server Unavailable</title>\n         <style>\n           body {\n             color: #666;\n             text-align: center;\n             font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n             margin: auto;\n             font-size: 14px;\n           }\n\n           h1 {\n             font-size: 56px;\n             line-height: 100px;\n             font-weight: normal;\n             color: #456;\n           }\n\n           h2 {\n             font-size: 24px;\n             color: #666;\n             line-height: 1.5em;\n           }\n\n           h3 {\n             color: #456;\n             font-size: 20px;\n             font-weight: normal;\n             line-height: 28px;\n           }\n\n           hr {\n             max-width: 800px;\n             margin: 18px auto;\n             border: 0;\n             border-top: 1px solid #EEE;\n             border-bottom: 1px solid white;\n           }\n\n           img {\n             max-width: 40vw;\n           }\n\n           .container {\n             margin: auto 20px;\n           }\n         </style>\n       </head>\n\n       <body>\n         <h1>\n           <img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEwIiBoZWlnaHQ9IjIxMCIgdmlld0JveD0iMCAwIDIxMCAyMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTEwNS4wNjE0IDIwMy42NTVsMzguNjQtMTE4LjkyMWgtNzcuMjhsMzguNjQgMTE4LjkyMXoiIGZpbGw9IiNlMjQzMjkiLz4KICA8cGF0aCBkPSJNMTA1LjA2MTQgMjAzLjY1NDhsLTM4LjY0LTExOC45MjFoLTU0LjE1M2w5Mi43OTMgMTE4LjkyMXoiIGZpbGw9IiNmYzZkMjYiLz4KICA8cGF0aCBkPSJNMTIuMjY4NSA4NC43MzQxbC0xMS43NDIgMzYuMTM5Yy0xLjA3MSAzLjI5Ni4xMDIgNi45MDcgMi45MDYgOC45NDRsMTAxLjYyOSA3My44MzgtOTIuNzkzLTExOC45MjF6IiBmaWxsPSIjZmNhMzI2Ii8+CiAgPHBhdGggZD0iTTEyLjI2ODUgODQuNzM0Mmg1NC4xNTNsLTIzLjI3My03MS42MjVjLTEuMTk3LTMuNjg2LTYuNDExLTMuNjg1LTcuNjA4IDBsLTIzLjI3MiA3MS42MjV6IiBmaWxsPSIjZTI0MzI5Ii8+CiAgPHBhdGggZD0iTTEwNS4wNjE0IDIwMy42NTQ4bDM4LjY0LTExOC45MjFoNTQuMTUzbC05Mi43OTMgMTE4LjkyMXoiIGZpbGw9IiNmYzZkMjYiLz4KICA8cGF0aCBkPSJNMTk3Ljg1NDQgODQuNzM0MWwxMS43NDIgMzYuMTM5YzEuMDcxIDMuMjk2LS4xMDIgNi45MDctMi45MDYgOC45NDRsLTEwMS42MjkgNzMuODM4IDkyLjc5My0xMTguOTIxeiIgZmlsbD0iI2ZjYTMyNiIvPgogIDxwYXRoIGQ9Ik0xOTcuODU0NCA4NC43MzQyaC01NC4xNTNsMjMuMjczLTcxLjYyNWMxLjE5Ny0zLjY4NiA2LjQxMS0zLjY4NSA3LjYwOCAwbDIzLjI3MiA3MS42MjV6IiBmaWxsPSIjZTI0MzI5Ii8+Cjwvc3ZnPgo=\" alt=\"GitLab Logo\" /><br />\n           503\n         </h1>\n         <div class=\"container\">\n           <h3>An internal server error occured.</h3>\n           <hr />\n           <p>Please see our <a href=\"https://status.gitlab.com\">status page</a> for more information.</p>\n         </div>\n       </body>\n       </html>; retrying in 337 ms\nwarning: error: unable to download 'https://gitlab.com/api/v4/projects/emacs-geiser%2Fchez/repository/archive.tar.gz?ref=605a81ff7b2d2b275a3ec68e3ce7e5b50f85014d': HTTP error 503\n\n       response body:\n\n       \n       <!DOCTYPE html>\n       <html>\n       <head>\n         <meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">\n         <title>503 Server Unavailable</title>\n         <style>\n           body {\n             color: #666;\n             text-align: center;\n             font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n             margin: auto;\n             font-size: 14px;\n           }\n\n           h1 {\n             font-size: 56px;\n             line-height: 100px;\n             font-weight: normal;\n             color: #456;\n           }\n\n           h2 {\n             font-size: 24px;\n             color: #666;\n             line-height: 1.5em;\n           }\n\n           h3 {\n             color: #456;\n             font-size: 20px;\n             font-weight: normal;\n             line-height: 28px;\n           }\n\n           hr {\n             max-width: 800px;\n             margin: 18px auto;\n             border: 0;\n             border-top: 1px solid #EEE;\n             border-bottom: 1px solid white;\n           }\n\n           img {\n             max-width: 40vw;\n           }\n\n           .container {\n             margin: auto 20px;\n           }\n         </style>\n       </head>\n\n       <body>\n         <h1>\n           <img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEwIiBoZWlnaHQ9IjIxMCIgdmlld0JveD0iMCAwIDIxMCAyMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTEwNS4wNjE0IDIwMy42NTVsMzguNjQtMTE4LjkyMWgtNzcuMjhsMzguNjQgMTE4LjkyMXoiIGZpbGw9IiNlMjQzMjkiLz4KICA8cGF0aCBkPSJNMTA1LjA2MTQgMjAzLjY1NDhsLTM4LjY0LTExOC45MjFoLTU0LjE1M2w5Mi43OTMgMTE4LjkyMXoiIGZpbGw9IiNmYzZkMjYiLz4KICA8cGF0aCBkPSJNMTIuMjY4NSA4NC43MzQxbC0xMS43NDIgMzYuMTM5Yy0xLjA3MSAzLjI5Ni4xMDIgNi45MDcgMi45MDYgOC45NDRsMTAxLjYyOSA3My44MzgtOTIuNzkzLTExOC45MjF6IiBmaWxsPSIjZmNhMzI2Ii8+CiAgPHBhdGggZD0iTTEyLjI2ODUgODQuNzM0Mmg1NC4xNTNsLTIzLjI3My03MS42MjVjLTEuMTk3LTMuNjg2LTYuNDExLTMuNjg1LTcuNjA4IDBsLTIzLjI3MiA3MS42MjV6IiBmaWxsPSIjZTI0MzI5Ii8+CiAgPHBhdGggZD0iTTEwNS4wNjE0IDIwMy42NTQ4bDM4LjY0LTExOC45MjFoNTQuMTUzbC05Mi43OTMgMTE4LjkyMXoiIGZpbGw9IiNmYzZkMjYiLz4KICA8cGF0aCBkPSJNMTk3Ljg1NDQgODQuNzM0MWwxMS43NDIgMzYuMTM5YzEuMDcxIDMuMjk2LS4xMDIgNi45MDctMi45MDYgOC45NDRsLTEwMS42MjkgNzMuODM4IDkyLjc5My0xMTguOTIxeiIgZmlsbD0iI2ZjYTMyNiIvPgogIDxwYXRoIGQ9Ik0xOTcuODU0NCA4NC43MzQyaC01NC4xNTNsMjMuMjczLTcxLjYyNWMxLjE5Ny0zLjY4NiA2LjQxMS0zLjY4NSA3LjYwOCAwbDIzLjI3MiA3MS42MjV6IiBmaWxsPSIjZTI0MzI5Ii8+Cjwvc3ZnPgo=\" alt=\"GitLab Logo\" /><br />\n           503\n         </h1>\n         <div class=\"container\">\n           <h3>An internal server error occured.</h3>\n           <hr />\n           <p>Please see our <a href=\"https://status.gitlab.com\">status page</a> for more information.</p>\n         </div>\n       </body>\n       </html>; retrying in 701 ms\nwarning: error: unable to download 'https://gitlab.com/api/v4/projects/emacs-geiser%2Fchez/repository/archive.tar.gz?ref=605a81ff7b2d2b275a3ec68e3ce7e5b50f85014d': HTTP error 503\n\n       response body:\n\n       \n       <!DOCTYPE html>\n       <html>\n       <head>\n         <meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">\n         <title>503 Server Unavailable</title>\n         <style>\n           body {\n             color: #666;\n             text-align: center;\n             font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n             margin: auto;\n             font-size: 14px;\n           }\n\n           h1 {\n             font-size: 56px;\n             line-height: 100px;\n             font-weight: normal;\n             color: #456;\n           }\n\n           h2 {\n             font-size: 24px;\n             color: #666;\n             line-height: 1.5em;\n           }\n\n           h3 {\n             color: #456;\n             font-size: 20px;\n             font-weight: normal;\n             line-height: 28px;\n           }\n\n           hr {\n             max-width: 800px;\n             margin: 18px auto;\n             border: 0;\n             border-top: 1px solid #EEE;\n             border-bottom: 1px solid white;\n           }\n\n           img {\n             max-width: 40vw;\n           }\n\n           .container {\n             margin: auto 20px;\n           }\n         </style>\n       </head>\n\n       <body>\n         <h1>\n           <img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEwIiBoZWlnaHQ9IjIxMCIgdmlld0JveD0iMCAwIDIxMCAyMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTEwNS4wNjE0IDIwMy42NTVsMzguNjQtMTE4LjkyMWgtNzcuMjhsMzguNjQgMTE4LjkyMXoiIGZpbGw9IiNlMjQzMjkiLz4KICA8cGF0aCBkPSJNMTA1LjA2MTQgMjAzLjY1NDhsLTM4LjY0LTExOC45MjFoLTU0LjE1M2w5Mi43OTMgMTE4LjkyMXoiIGZpbGw9IiNmYzZkMjYiLz4KICA8cGF0aCBkPSJNMTIuMjY4NSA4NC43MzQxbC0xMS43NDIgMzYuMTM5Yy0xLjA3MSAzLjI5Ni4xMDIgNi45MDcgMi45MDYgOC45NDRsMTAxLjYyOSA3My44MzgtOTIuNzkzLTExOC45MjF6IiBmaWxsPSIjZmNhMzI2Ii8+CiAgPHBhdGggZD0iTTEyLjI2ODUgODQuNzM0Mmg1NC4xNTNsLTIzLjI3My03MS42MjVjLTEuMTk3LTMuNjg2LTYuNDExLTMuNjg1LTcuNjA4IDBsLTIzLjI3MiA3MS42MjV6IiBmaWxsPSIjZTI0MzI5Ii8+CiAgPHBhdGggZD0iTTEwNS4wNjE0IDIwMy42NTQ4bDM4LjY0LTExOC45MjFoNTQuMTUzbC05Mi43OTMgMTE4LjkyMXoiIGZpbGw9IiNmYzZkMjYiLz4KICA8cGF0aCBkPSJNMTk3Ljg1NDQgODQuNzM0MWwxMS43NDIgMzYuMTM5YzEuMDcxIDMuMjk2LS4xMDIgNi45MDctMi45MDYgOC45NDRsLTEwMS42MjkgNzMuODM4IDkyLjc5My0xMTguOTIxeiIgZmlsbD0iI2ZjYTMyNiIvPgogIDxwYXRoIGQ9Ik0xOTcuODU0NCA4NC43MzQyaC01NC4xNTNsMjMuMjczLTcxLjYyNWMxLjE5Ny0zLjY4NiA2LjQxMS0zLjY4NSA3LjYwOCAwbDIzLjI3MiA3MS42MjV6IiBmaWxsPSIjZTI0MzI5Ii8+Cjwvc3ZnPgo=\" alt=\"GitLab Logo\" /><br />\n           503\n         </h1>\n         <div class=\"container\">\n           <h3>An internal server error occured.</h3>\n           <hr />\n           <p>Please see our <a href=\"https://status.gitlab.com\">status page</a> for more information.</p>\n         </div>\n       </body>\n       </html>; retrying in 1303 ms\nwarning: error: unable to download 'https://gitlab.com/api/v4/projects/emacs-geiser%2Fchez/repository/archive.tar.gz?ref=605a81ff7b2d2b275a3ec68e3ce7e5b50f85014d': HTTP error 503\n\n       response body:\n\n       \n       <!DOCTYPE html>\n       <html>\n       <head>\n         <meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">\n         <title>503 Server Unavailable</title>\n         <style>\n           body {\n             color: #666;\n             text-align: center;\n             font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n             margin: auto;\n             font-size: 14px;\n           }\n\n           h1 {\n             font-size: 56px;\n             line-height: 100px;\n             font-weight: normal;\n             color: #456;\n           }\n\n           h2 {\n             font-size: 24px;\n             color: #666;\n             line-height: 1.5em;\n           }\n\n           h3 {\n             color: #456;\n             font-size: 20px;\n             font-weight: normal;\n             line-height: 28px;\n           }\n\n           hr {\n             max-width: 800px;\n             margin: 18px auto;\n             border: 0;\n             border-top: 1px solid #EEE;\n             border-bottom: 1px solid white;\n           }\n\n           img {\n             max-width: 40vw;\n           }\n\n           .container {\n             margin: auto 20px;\n           }\n         </style>\n       </head>\n\n       <body>\n         <h1>\n           <img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEwIiBoZWlnaHQ9IjIxMCIgdmlld0JveD0iMCAwIDIxMCAyMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTEwNS4wNjE0IDIwMy42NTVsMzguNjQtMTE4LjkyMWgtNzcuMjhsMzguNjQgMTE4LjkyMXoiIGZpbGw9IiNlMjQzMjkiLz4KICA8cGF0aCBkPSJNMTA1LjA2MTQgMjAzLjY1NDhsLTM4LjY0LTExOC45MjFoLTU0LjE1M2w5Mi43OTMgMTE4LjkyMXoiIGZpbGw9IiNmYzZkMjYiLz4KICA8cGF0aCBkPSJNMTIuMjY4NSA4NC43MzQxbC0xMS43NDIgMzYuMTM5Yy0xLjA3MSAzLjI5Ni4xMDIgNi45MDcgMi45MDYgOC45NDRsMTAxLjYyOSA3My44MzgtOTIuNzkzLTExOC45MjF6IiBmaWxsPSIjZmNhMzI2Ii8+CiAgPHBhdGggZD0iTTEyLjI2ODUgODQuNzM0Mmg1NC4xNTNsLTIzLjI3My03MS42MjVjLTEuMTk3LTMuNjg2LTYuNDExLTMuNjg1LTcuNjA4IDBsLTIzLjI3MiA3MS42MjV6IiBmaWxsPSIjZTI0MzI5Ii8+CiAgPHBhdGggZD0iTTEwNS4wNjE0IDIwMy42NTQ4bDM4LjY0LTExOC45MjFoNTQuMTUzbC05Mi43OTMgMTE4LjkyMXoiIGZpbGw9IiNmYzZkMjYiLz4KICA8cGF0aCBkPSJNMTk3Ljg1NDQgODQuNzM0MWwxMS43NDIgMzYuMTM5YzEuMDcxIDMuMjk2LS4xMDIgNi45MDctMi45MDYgOC45NDRsLTEwMS42MjkgNzMuODM4IDkyLjc5My0xMTguOTIxeiIgZmlsbD0iI2ZjYTMyNiIvPgogIDxwYXRoIGQ9Ik0xOTcuODU0NCA4NC43MzQyaC01NC4xNTNsMjMuMjczLTcxLjYyNWMxLjE5Ny0zLjY4NiA2LjQxMS0zLjY4NSA3LjYwOCAwbDIzLjI3MiA3MS42MjV6IiBmaWxsPSIjZTI0MzI5Ii8+Cjwvc3ZnPgo=\" alt=\"GitLab Logo\" /><br />\n           503\n         </h1>\n         <div class=\"container\">\n           <h3>An internal server error occured.</h3>\n           <hr />\n           <p>Please see our <a href=\"https://status.gitlab.com\">status page</a> for more information.</p>\n         </div>\n       </body>\n       </html>; retrying in 2103 ms\nerror: unable to download 'https://gitlab.com/api/v4/projects/emacs-geiser%2Fchez/repository/archive.tar.gz?ref=605a81ff7b2d2b275a3ec68e3ce7e5b50f85014d': HTTP error 503\n\n       response body:\n\n       \n       <!DOCTYPE html>\n       <html>\n       <head>\n         <meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">\n         <title>503 Server Unavailable</title>\n         <style>\n           body {\n             color: #666;\n             text-align: center;\n             font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n             margin: auto;\n             font-size: 14px;\n           }\n\n           h1 {\n             font-size: 56px;\n             line-height: 100px;\n             font-weight: normal;\n             color: #456;\n           }\n\n           h2 {\n             font-size: 24px;\n             color: #666;\n             line-height: 1.5em;\n           }\n\n           h3 {\n             color: #456;\n             font-size: 20px;\n             font-weight: normal;\n             line-height: 28px;\n           }\n\n           hr {\n             max-width: 800px;\n             margin: 18px auto;\n             border: 0;\n             border-top: 1px solid #EEE;\n             border-bottom: 1px solid white;\n           }\n\n           img {\n             max-width: 40vw;\n           }\n\n           .container {\n             margin: auto 20px;\n           }\n         </style>\n       </head>\n\n       <body>\n         <h1>\n           <img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEwIiBoZWlnaHQ9IjIxMCIgdmlld0JveD0iMCAwIDIxMCAyMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTEwNS4wNjE0IDIwMy42NTVsMzguNjQtMTE4LjkyMWgtNzcuMjhsMzguNjQgMTE4LjkyMXoiIGZpbGw9IiNlMjQzMjkiLz4KICA8cGF0aCBkPSJNMTA1LjA2MTQgMjAzLjY1NDhsLTM4LjY0LTExOC45MjFoLTU0LjE1M2w5Mi43OTMgMTE4LjkyMXoiIGZpbGw9IiNmYzZkMjYiLz4KICA8cGF0aCBkPSJNMTIuMjY4NSA4NC43MzQxbC0xMS43NDIgMzYuMTM5Yy0xLjA3MSAzLjI5Ni4xMDIgNi45MDcgMi45MDYgOC45NDRsMTAxLjYyOSA3My44MzgtOTIuNzkzLTExOC45MjF6IiBmaWxsPSIjZmNhMzI2Ii8+CiAgPHBhdGggZD0iTTEyLjI2ODUgODQuNzM0Mmg1NC4xNTNsLTIzLjI3My03MS42MjVjLTEuMTk3LTMuNjg2LTYuNDExLTMuNjg1LTcuNjA4IDBsLTIzLjI3MiA3MS42MjV6IiBmaWxsPSIjZTI0MzI5Ii8+CiAgPHBhdGggZD0iTTEwNS4wNjE0IDIwMy42NTQ4bDM4LjY0LTExOC45MjFoNTQuMTUzbC05Mi43OTMgMTE4LjkyMXoiIGZpbGw9IiNmYzZkMjYiLz4KICA8cGF0aCBkPSJNMTk3Ljg1NDQgODQuNzM0MWwxMS43NDIgMzYuMTM5YzEuMDcxIDMuMjk2LS4xMDIgNi45MDctMi45MDYgOC45NDRsLTEwMS42MjkgNzMuODM4IDkyLjc5My0xMTguOTIxeiIgZmlsbD0iI2ZjYTMyNiIvPgogIDxwYXRoIGQ9Ik0xOTcuODU0NCA4NC43MzQyaC01NC4xNTNsMjMuMjczLTcxLjYyNWMxLjE5Ny0zLjY4NiA2LjQxMS0zLjY4NSA3LjYwOCAwbDIzLjI3MiA3MS42MjV6IiBmaWxsPSIjZTI0MzI5Ii8+Cjwvc3ZnPgo=\" alt=\"GitLab Logo\" /><br />\n           503\n         </h1>\n         <div class=\"container\">\n           <h3>An internal server error occured.</h3>\n           <hr />\n           <p>Please see our <a href=\"https://status.gitlab.com\">status page</a> for more information.</p>\n         </div>\n       </body>\n       </html>\n"
+   ]
   },
   "stable": {
    "version": [
@@ -64841,11 +64845,11 @@
   "repo": "conao3/keg.el",
   "unstable": {
    "version": [
-    20220923,
-    958
+    20230707,
+    1533
    ],
-   "commit": "7fbfd987d35e29eaab2ebad4f0ed6ee2e2adfe28",
-   "sha256": "1d5clcjqp48m5282my3akp47h996xn9jxr8kxs7pkz18wixy48aw"
+   "commit": "1d32001c8264901c33ecad495cbfda09951038a3",
+   "sha256": "1n3zdwkvgbcz7pi4vmmh32l9nb0w32l823hy4wlamz5966jb7sv9"
   }
  },
  {
@@ -78553,11 +78557,11 @@
   "repo": "nickel-lang/nickel-mode",
   "unstable": {
    "version": [
-    20230630,
-    1711
+    20230707,
+    1228
    ],
-   "commit": "99010b65f54cf3a9d00e797d25bf51947a6dabf6",
-   "sha256": "048pcvvd852375xy7dzkvfp4wwnk8y6xkbr7sdda34irhkpsa3x8"
+   "commit": "8b7828892341bbca789723d487546905ca443dc3",
+   "sha256": "06327va6dybljw4qvz7p30qndnwl18nblai04y689p8x4a69kgxq"
   }
  },
  {
@@ -79452,8 +79456,8 @@
   "repo": "p3r7/norns.el",
   "unstable": {
    "version": [
-    20230702,
-    2108
+    20230707,
+    857
    ],
    "deps": [
     "dash",
@@ -79462,8 +79466,8 @@
     "s",
     "websocket"
    ],
-   "commit": "b82aa3dbaef1216edcf06fd6db66abb17cd91a4a",
-   "sha256": "1afpqa3wnafr35lsq8vgpgwi3yycljwsaxgfs1jk345qlxn8j3dz"
+   "commit": "88a4a0e13eddbfe00885459600b74fdbd54dbd5d",
+   "sha256": "1fw0hpkg7fzn3z23kkc6slrg2x8ll3qwhfzq9yjbiz058klvnwna"
   }
  },
  {
@@ -87444,14 +87448,14 @@
   "unstable": {
    "version": [
     20230707,
-    814
+    847
    ],
    "deps": [
     "org-ql",
     "ts"
    ],
-   "commit": "0d54d84e77eac8b9f737212d9452a3feb58db868",
-   "sha256": "02cixc07m1knxhkgr5hbn3021m71ymbsl6r6sj5sgs7sxz54y18f"
+   "commit": "c3e4705ff2ade869e229f33090c92ac671362623",
+   "sha256": "1kib6c9426qkfrmhnhqw47r5y9z082xjw1qvbhqwrip69mi06yd7"
   },
   "stable": {
    "version": [
@@ -118613,26 +118617,26 @@
   "repo": "diml/utop",
   "unstable": {
    "version": [
-    20230703,
-    1403
+    20230707,
+    1535
    ],
    "deps": [
     "tuareg"
    ],
-   "commit": "97e7ecfb4f2be71dcd270e13155797d0f873f437",
-   "sha256": "0q7lrv3w7hgc740l0g4k78554lsbi03xmpd7cpad810kn3zjp8jb"
+   "commit": "5b98d2845bf8e46a253593578cf0371d773f6da0",
+   "sha256": "14z9asqx7z3i2j6vy0la699nxj2cxhggjc77jnsg9761kv159wym"
   },
   "stable": {
    "version": [
     2,
     13,
-    0
+    1
    ],
    "deps": [
     "tuareg"
    ],
-   "commit": "97e7ecfb4f2be71dcd270e13155797d0f873f437",
-   "sha256": "0q7lrv3w7hgc740l0g4k78554lsbi03xmpd7cpad810kn3zjp8jb"
+   "commit": "5b98d2845bf8e46a253593578cf0371d773f6da0",
+   "sha256": "14z9asqx7z3i2j6vy0la699nxj2cxhggjc77jnsg9761kv159wym"
   }
  },
  {
@@ -118696,11 +118700,11 @@
   "repo": "non/uxntal-mode",
   "unstable": {
    "version": [
-    20230131,
-    235
+    20230707,
+    1623
    ],
-   "commit": "aaaa7a7ac24eb142c68f691185166327ec1e4520",
-   "sha256": "1bba89vw937rzcm1lr2ym9kkyd56wkgpzhc7dxz73nh74wwh4mf5"
+   "commit": "0f0bb416d43a940ee7a057db075bf5804708dc5c",
+   "sha256": "0p1ig2wmldpiymz59gnz9yrrla58x8zyfpklj6rwdf37n6q64ykx"
   },
   "stable": {
    "version": [
