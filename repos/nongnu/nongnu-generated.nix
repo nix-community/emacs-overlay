@@ -1184,10 +1184,10 @@
       elpaBuild {
         pname = "geiser-stklos";
         ename = "geiser-stklos";
-        version = "1.7";
+        version = "1.8";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-stklos-1.7.tar";
-          sha256 = "0asfih60lid6m1mdshwj22kjnqx039g36ivwhhh3jcjfkzarfgns";
+          url = "https://elpa.nongnu.org/nongnu/geiser-stklos-1.8.tar";
+          sha256 = "1bz7ggq5pl08pr68nmn82sdpb2vqi7zvsjnai8zvr93dai7p3isa";
         };
         packageRequires = [ emacs geiser ];
         meta = {
