@@ -11041,11 +11041,11 @@
   "repo": "cdominik/cdlatex",
   "unstable": {
    "version": [
-    20230411,
-    748
+    20230708,
+    754
    ],
-   "commit": "692142603c6229e5aa5c8285eb797e401cef9ac3",
-   "sha256": "1avdm5pgsbhp796mq0nxm175r26gxxfrpmqhrzbnnd10zjbgrrpz"
+   "commit": "0f6dac9d75fcc6af3e7d16ac2e271d0c0f6ffd71",
+   "sha256": "0pxcx384ij019dj2mxq017m8645qdxc81vx6qc8fsl2cy4im1g61"
   },
   "stable": {
    "version": [
@@ -21392,11 +21392,11 @@
   "repo": "ideasman42/emacs-default-font-presets",
   "unstable": {
    "version": [
-    20230116,
-    951
+    20230708,
+    1012
    ],
-   "commit": "d52a31ba0860188ab27c58d1a3e2de62346700d5",
-   "sha256": "168rbyi3f5gp68qmlz4j57ly9f67wvfmjsw0r067k2vlgswqxcmq"
+   "commit": "21b0ab8e5363ad5b83df1458cca2380a8ebe318d",
+   "sha256": "1alfcx6dbbmshrm24yr17knr2gv0ais0f9qwkm02ja9rzcjkgrkl"
   }
  },
  {
@@ -28036,11 +28036,11 @@
   "repo": "doublep/eldev",
   "unstable": {
    "version": [
-    20230702,
-    1451
+    20230708,
+    1039
    ],
-   "commit": "c63b06f8950a8277fc8b7433afdeb9cd3f6ec938",
-   "sha256": "1iqidpmcclrc5h2lxi4wc2i13640g1bblx8b51dxfs76cmqn3nky"
+   "commit": "d710f3bf9d33767ebb456ade313498dcd4e01cd2",
+   "sha256": "044604wlx3fs3hh8dcqvz32kgkcrwk5s94glf3nnshgpdrscs1kg"
   },
   "stable": {
    "version": [
@@ -48964,6 +48964,19 @@
    "version": [
     20230706,
     2325
+   ],
+   "deps": [
+    "magit",
+    "request"
+   ],
+   "commit": "e3bdc836c7f423622e5c7984735a7dab2c2f342b",
+   "sha256": "1rd5crbmcp5dg3jyka7i3cs60752jaar31dp7d3ridsgywmbiqmv"
+  },
+  "stable": {
+   "version": [
+    0,
+    0,
+    2
    ],
    "deps": [
     "magit",
@@ -74149,14 +74162,14 @@
   "repo": "SqrtMinusOne/micromamba.el",
   "unstable": {
    "version": [
-    20230705,
-    1543
+    20230708,
+    926
    ],
    "deps": [
     "pythonic"
    ],
-   "commit": "5a152840a7aeaf585527baa265ec5136c3588ba2",
-   "sha256": "0zba5mrzk31xj2way9q5ay9g7mj5z9vj5cww8qwdnlp4jl7kgqs8"
+   "commit": "ce97237986668c31d9b023348f1ef16199276794",
+   "sha256": "182iz522899cc7qm5dc79vnph5jmcpm2hqi259xxs2hdl6mrx8y1"
   }
  },
  {
@@ -79452,8 +79465,8 @@
   "repo": "p3r7/norns.el",
   "unstable": {
    "version": [
-    20230707,
-    857
+    20230708,
+    1225
    ],
    "deps": [
     "dash",
@@ -79462,8 +79475,8 @@
     "s",
     "websocket"
    ],
-   "commit": "88a4a0e13eddbfe00885459600b74fdbd54dbd5d",
-   "sha256": "1fw0hpkg7fzn3z23kkc6slrg2x8ll3qwhfzq9yjbiz058klvnwna"
+   "commit": "bbdcc582fa0cea713bb6036c0affa48a9664b787",
+   "sha256": "1nxcw8gkhb63pgldf6pa08lxwg7xpbj3x9r1ghsr5khqwkmw1hld"
   }
  },
  {
@@ -108508,26 +108521,26 @@
   "repo": "md-arif-shaikh/soccer",
   "unstable": {
    "version": [
-    20230604,
-    351
+    20230708,
+    1444
    ],
    "deps": [
     "dash"
    ],
-   "commit": "556b043bab9ac8fd6132bf415ba048580c59ae1c",
-   "sha256": "0fa0lmdlfkri942qzzplr52pyvwa2zq2cidp98p45a7slh90v0cp"
+   "commit": "65e9d4cc045a6eab01d6e1b1e78a1e7bfff6a774",
+   "sha256": "08fq1g7j5s1n3xvrxibd0rblizgy3yxx3hiazs91njfkj7y0qvr1"
   },
   "stable": {
    "version": [
     1,
-    5,
+    6,
     0
    ],
    "deps": [
     "dash"
    ],
-   "commit": "4515eaa5e12613185f4569c79772db886dcfa2f7",
-   "sha256": "1l6cjn7dfg2kp9rqb69661q0c2v1jmxfr7by8r9pig5m6k98jvzc"
+   "commit": "65e9d4cc045a6eab01d6e1b1e78a1e7bfff6a774",
+   "sha256": "08fq1g7j5s1n3xvrxibd0rblizgy3yxx3hiazs91njfkj7y0qvr1"
   }
  },
  {
