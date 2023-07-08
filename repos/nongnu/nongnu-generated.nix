@@ -306,10 +306,10 @@
       elpaBuild {
         pname = "cdlatex";
         ename = "cdlatex";
-        version = "4.14";
+        version = "4.15";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/cdlatex-4.14.tar";
-          sha256 = "114g2afnq86c6662ychd0v64aam7nhk3hacbwx1cavhg1k2l7kci";
+          url = "https://elpa.nongnu.org/nongnu/cdlatex-4.15.tar";
+          sha256 = "1dj525adlc6qmv4msbhhlhli5603l0sgi40qfi6cs01ggqkpw64j";
         };
         packageRequires = [];
         meta = {
@@ -2789,10 +2789,10 @@
       elpaBuild {
         pname = "swift-mode";
         ename = "swift-mode";
-        version = "8.6.0";
+        version = "9.0.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/swift-mode-8.6.0.tar";
-          sha256 = "0zasgv311mjc1iih9wv8vb8h53y2pjx24xsbdnn0wk8xcdk4z8j6";
+          url = "https://elpa.nongnu.org/nongnu/swift-mode-9.0.0.tar";
+          sha256 = "1s69mm7yhz1dhxz118ik7nxqw6gliivbwv1qvylk8nz2lhr8sf9n";
         };
         packageRequires = [ emacs seq ];
         meta = {
