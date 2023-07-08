@@ -1044,10 +1044,10 @@
       elpaBuild {
         pname = "geiser-chez";
         ename = "geiser-chez";
-        version = "0.17";
+        version = "0.18";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-chez-0.17.tar";
-          sha256 = "139x7b3q5n04ig0m263jljm4bsjiiyvi3f84pcq3bgnj3dk5dlxh";
+          url = "https://elpa.nongnu.org/nongnu/geiser-chez-0.18.tar";
+          sha256 = "01pkcf0lpzmazah3ddd16yf2la4zd5x4mmi5lwpbsyvyfqhxhsca";
         };
         packageRequires = [ emacs geiser ];
         meta = {
@@ -3228,10 +3228,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "23.11.20230626152352";
+        version = "23.12.20230707122000";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-23.11.20230626152352.tar";
-          sha256 = "0z02h7wzj3fv0fnm7zdh4j7bp255q7yfa9vvs8r4bax80aga8143";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-23.12.20230707122000.tar";
+          sha256 = "1km3jjyxjwksn750ysw3gqc1clckiv5470v7i5jdgnz40mmvhld6";
         };
         packageRequires = [ emacs ];
         meta = {
