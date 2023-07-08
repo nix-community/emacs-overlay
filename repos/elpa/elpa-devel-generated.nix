@@ -1809,10 +1809,10 @@
       elpaBuild {
         pname = "emacs-gc-stats";
         ename = "emacs-gc-stats";
-        version = "1.3.0.20230620.123844";
+        version = "1.4.0.20230707.114201";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emacs-gc-stats-1.3.0.20230620.123844.tar";
-          sha256 = "1adppzbiac53cb4pc3f8vq727wwmkd5f8adrnd7z4zh8is8p9y0b";
+          url = "https://elpa.gnu.org/devel/emacs-gc-stats-1.4.0.20230707.114201.tar";
+          sha256 = "13bqmmhcg4f4h0f50lf7wlgr727pbvk8879fpivyn8v3aifyf50f";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4007,10 +4007,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230706.173813";
+        version = "9.7pre0.20230707.85843";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230706.173813.tar";
-          sha256 = "12kh3hdi2r7nzafkyahn7zvamg1zcg53l74632f9l8h3pijzkg3a";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230707.85843.tar";
+          sha256 = "109jlpc7s037lpdiynynhpfqvfxxh9yg9kkckp5n529ynmnx7r57";
         };
         packageRequires = [ emacs ];
         meta = {
