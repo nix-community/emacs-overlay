@@ -1169,14 +1169,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    cursory = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    cursory = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "cursory";
         ename = "cursory";
-        version = "1.0.0.0.20230625.42653";
+        version = "1.0.0.0.20230708.103719";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cursory-1.0.0.0.20230625.42653.tar";
-          sha256 = "01ykillfyk5ljm8k89qg5f827gayfks79g6jkqa8xsxsk36qx47g";
+          url = "https://elpa.gnu.org/devel/cursory-1.0.0.0.20230708.103719.tar";
+          sha256 = "1izdslk86ld3gd39ymmnqnka5hcyk2mbzlnr7dyhgpd9xbcy810f";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1374,10 +1377,10 @@
       elpaBuild {
         pname = "diff-hl";
         ename = "diff-hl";
-        version = "1.9.2.0.20230423.183732";
+        version = "1.9.2.0.20230708.183652";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/diff-hl-1.9.2.0.20230423.183732.tar";
-          sha256 = "1wgsd9c3n9f7sw0ma1i28dc0riwfv3f9gw43h3xbgydqw7hqa0r4";
+          url = "https://elpa.gnu.org/devel/diff-hl-1.9.2.0.20230708.183652.tar";
+          sha256 = "0s4jcclh6zm7kh5pha5l638y6q2x3fiiklp6syaj7h6z30czm4l2";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -1449,6 +1452,24 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/dired-git-info.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    dired-preview = callPackage ({ elpaBuild
+                                 , emacs
+                                 , fetchurl
+                                 , lib }:
+      elpaBuild {
+        pname = "dired-preview";
+        ename = "dired-preview";
+        version = "0.1.0.0.20230708.194952";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/dired-preview-0.1.0.0.20230708.194952.tar";
+          sha256 = "1vnxjsry6wfpw5fw3q9szcga4ca760b2bkr7j16fikfghqlh3wax";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/dired-preview.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -1873,10 +1894,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.11pre0.20230705.63205";
+        version = "0.11pre0.20230708.75452";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.11pre0.20230705.63205.tar";
-          sha256 = "1gk5j6wr3fi9jz6bjarzb2yi9ljqx79j8fkbf6i7jllnmr6j8sn4";
+          url = "https://elpa.gnu.org/devel/ement-0.11pre0.20230708.75452.tar";
+          sha256 = "0lzhw99lddipmz3272kckb01qzrl72414351wxrlnvx7h6py0kx2";
         };
         packageRequires = [
           emacs
@@ -2188,19 +2209,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    flymake = callPackage ({ eldoc
-                           , elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib
-                           , project }:
+    flymake = callPackage ({ eldoc, elpaBuild, emacs, fetchurl, lib, project }:
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.3.4.0.20230418.225726";
+        version = "1.3.4.0.20230708.54610";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/flymake-1.3.4.0.20230418.225726.tar";
-          sha256 = "1afzqxma730gdmbg6390v2bcm2mnpv8lbnjad4h1wvg95xg2c9ig";
+          url = "https://elpa.gnu.org/devel/flymake-1.3.4.0.20230708.54610.tar";
+          sha256 = "0k68n8f2kx8c1janwm6xigvvxzrmmif0yk588zzfr511768wlmcp";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
@@ -4007,10 +4023,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230707.85843";
+        version = "9.7pre0.20230708.90925";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230707.85843.tar";
-          sha256 = "109jlpc7s037lpdiynynhpfqvfxxh9yg9kkckp5n529ynmnx7r57";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230708.90925.tar";
+          sha256 = "009v3zss4l9kk5wy5kagzxgavfggyl5vjjf14c780gwdsrgsxp4s";
         };
         packageRequires = [ emacs ];
         meta = {
