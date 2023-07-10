@@ -4432,10 +4432,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.7pre0.20230701.32336";
+        version = "0.7.0.20230709.144610";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/plz-0.7pre0.20230701.32336.tar";
-          sha256 = "08cia5p6qaw5sgd4f7i95chvzdapbr5aj3ps5zigpkf8cn71mlcl";
+          url = "https://elpa.gnu.org/devel/plz-0.7.0.20230709.144610.tar";
+          sha256 = "1rqg1g07xk0bgbd7qig3zxwfnp2c80xs8pdys4v3pk3da6dc9dbx";
         };
         packageRequires = [ emacs ];
         meta = {
