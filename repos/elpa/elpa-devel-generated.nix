@@ -1377,10 +1377,10 @@
       elpaBuild {
         pname = "diff-hl";
         ename = "diff-hl";
-        version = "1.9.2.0.20230708.183652";
+        version = "1.9.2.0.20230709.211955";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/diff-hl-1.9.2.0.20230708.183652.tar";
-          sha256 = "0s4jcclh6zm7kh5pha5l638y6q2x3fiiklp6syaj7h6z30czm4l2";
+          url = "https://elpa.gnu.org/devel/diff-hl-1.9.2.0.20230709.211955.tar";
+          sha256 = "0lx4im3jz83qkmxwh3xzjpnkny6sgckzmxlp1v29d4n725jd5l79";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -1849,10 +1849,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.22.1.0.20230629.171404";
+        version = "0.22.1.0.20230709.151320";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230629.171404.tar";
-          sha256 = "12hsacdjvd19c6ivq6mc1jxwy77yalc50hpkcjdagkqpmvy7wmrg";
+          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230709.151320.tar";
+          sha256 = "0ilp0sxk8lxrph7pfd81rwcvx4im4qraz0m2vfacs51l8wj3n110";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1869,10 +1869,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.7.0.20230629.171404";
+        version = "0.7.0.20230709.151320";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230629.171404.tar";
-          sha256 = "1xvird2j7krgvnkik3i6yk0878j5pi0pxj4qci2cb642lbnsa8wh";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230709.151320.tar";
+          sha256 = "1phckc1qyqg6vxnsa10zxqryhlw1nzrm8y8fzl71n4s6dr63i41b";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -4432,10 +4432,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.7.0.20230709.144610";
+        version = "0.8pre0.20230709.214633";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/plz-0.7.0.20230709.144610.tar";
-          sha256 = "1rqg1g07xk0bgbd7qig3zxwfnp2c80xs8pdys4v3pk3da6dc9dbx";
+          url = "https://elpa.gnu.org/devel/plz-0.8pre0.20230709.214633.tar";
+          sha256 = "1gzwzqjr0rkpcqbjfadn3rhj01ar6m66xws8cvlvjm8qfb5j4740";
         };
         packageRequires = [ emacs ];
         meta = {
