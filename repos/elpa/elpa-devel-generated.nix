@@ -1717,10 +1717,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20230710.130642";
+        version = "1.15.0.20230710.230920";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230710.130642.tar";
-          sha256 = "1fd83g15jvcvw1cjshlvjxfyk4sycarisjg436164bkfsf49dvy8";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230710.230920.tar";
+          sha256 = "105amkvh4gd9l0nvq8gs7l468mfykiy0nd719m5ja0xyg4ymmsl8";
         };
         packageRequires = [
           eldoc
