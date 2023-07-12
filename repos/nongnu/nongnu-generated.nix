@@ -1869,10 +1869,10 @@
       elpaBuild {
         pname = "meow";
         ename = "meow";
-        version = "1.4.2";
+        version = "1.4.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/meow-1.4.2.tar";
-          sha256 = "1iwysqxmaw85k7g742nx8z9vr3nnmwaidwjmx5n96cyssf64hgkv";
+          url = "https://elpa.nongnu.org/nongnu/meow-1.4.3.tar";
+          sha256 = "0anpmgpr969lkyzmsms9pcbdhjpfpwyf865pmgl0zd23m922d8s6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2030,10 +2030,10 @@
       elpaBuild {
         pname = "opam-switch-mode";
         ename = "opam-switch-mode";
-        version = "1.1";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/opam-switch-mode-1.1.tar";
-          sha256 = "1pi825d42jzhh6ygi655h878w0vlz758fnxx0lsmg6k6rqr3cvgz";
+          url = "https://elpa.nongnu.org/nongnu/opam-switch-mode-1.4.tar";
+          sha256 = "183m6zl1g0v52x0p492l41m6jfnlf4pdmwwj6gzzrxmcskmq0kqz";
         };
         packageRequires = [ emacs ];
         meta = {
