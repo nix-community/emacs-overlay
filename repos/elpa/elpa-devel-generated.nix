@@ -1238,10 +1238,10 @@
       elpaBuild {
         pname = "dash";
         ename = "dash";
-        version = "2.19.1.0.20230617.204619";
+        version = "2.19.1.0.20230714.72308";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dash-2.19.1.0.20230617.204619.tar";
-          sha256 = "1g082j4dwy8w7gdcp7p7qfwjqx64qmx467m8d9glh3pfa7j401b8";
+          url = "https://elpa.gnu.org/devel/dash-2.19.1.0.20230714.72308.tar";
+          sha256 = "084vilvl6s74mv5p34n0hl8zif8zxzgizwd78zz6nhnlakzinqb5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1384,18 +1384,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    diff-hl = callPackage ({ cl-lib ? null
-                           , elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    diff-hl = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "diff-hl";
         ename = "diff-hl";
-        version = "1.9.2.0.20230709.211955";
+        version = "1.9.2.0.20230714.2731";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/diff-hl-1.9.2.0.20230709.211955.tar";
-          sha256 = "0lx4im3jz83qkmxwh3xzjpnkny6sgckzmxlp1v29d4n725jd5l79";
+          url = "https://elpa.gnu.org/devel/diff-hl-1.9.2.0.20230714.2731.tar";
+          sha256 = "0wpnbzz96j5v4pln9fh5szhjn3358b084wfmp07ld4bw07fcqpxb";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -2007,10 +2003,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20230701.72130";
+        version = "5.6snapshot0.20230713.184531";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20230701.72130.tar";
-          sha256 = "03k7c5nwp8j6r1x33ij8c5hh5l39hc3kf3aqwwm1v9di8vjmx4m1";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20230713.184531.tar";
+          sha256 = "08r2xmf2q9gyzkjdfmawmwmrihkbaknw9pwhyfwfikvv7bfa8ppx";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2889,10 +2885,10 @@
       elpaBuild {
         pname = "ivy";
         ename = "ivy";
-        version = "0.14.0.0.20230410.182111";
+        version = "0.14.0.0.20230714.75746";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ivy-0.14.0.0.20230410.182111.tar";
-          sha256 = "0dsx4z1afcnh4landah0srq6g4abdzm2khpa8nlvcfrgvfyzvhq1";
+          url = "https://elpa.gnu.org/devel/ivy-0.14.0.0.20230714.75746.tar";
+          sha256 = "166nysfapnz1b15dmag9hlfx26j0k882k5wmx7fpbm4mdj20y6q0";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3428,10 +3424,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.3.0.20230704.155136";
+        version = "1.3.0.20230713.184647";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/marginalia-1.3.0.20230704.155136.tar";
-          sha256 = "0y61dw73658lvdhr3acvds2aj4i8zcab1jgzk9laksmff9q302ga";
+          url = "https://elpa.gnu.org/devel/marginalia-1.3.0.20230713.184647.tar";
+          sha256 = "1sh8lv8m22970ls6cs09gwi93wbfmmadmpjqhz5kp20s104q3n1i";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4043,10 +4039,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230713.163249";
+        version = "9.7pre0.20230713.172441";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230713.163249.tar";
-          sha256 = "0v183j2hxr968mpi15fbahfgqwrj8s3imdw22lgjm7v775bic4dw";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230713.172441.tar";
+          sha256 = "0x2ibg861mc1bx7xzzggldz1b33k8kyyaf2fzy3awhllfzsx7lm5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4535,10 +4531,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "1.4.2.0.20230601.152949";
+        version = "1.4.2.0.20230714.22752";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/posframe-1.4.2.0.20230601.152949.tar";
-          sha256 = "02s06gn7s2idf372p62gn7zbkg9az52wgrbd8zkd8fjc2q7mh5bc";
+          url = "https://elpa.gnu.org/devel/posframe-1.4.2.0.20230714.22752.tar";
+          sha256 = "0v3g4z36gm87z4ar7r4q86alscl6r64wd7y3wf55ngbhb84fh02r";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6477,10 +6473,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20230703.192114";
+        version = "1.4.0.20230714.63923";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230703.192114.tar";
-          sha256 = "184h1dbl7fxy4306y6kp66r9gy2i83h8zxyslfzaz4rfb5x00yij";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230714.63923.tar";
+          sha256 = "1mj2gbcjbamfqx0nplw432f4ra064i8nalaj5c3spjlbsk0bh28a";
         };
         packageRequires = [ compat emacs ];
         meta = {
