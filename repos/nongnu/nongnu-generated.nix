@@ -2030,10 +2030,10 @@
       elpaBuild {
         pname = "opam-switch-mode";
         ename = "opam-switch-mode";
-        version = "1.5";
+        version = "1.6";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/opam-switch-mode-1.5.tar";
-          sha256 = "033lpa4rqbhmzry4xkqh2fgcg4zh8xxkjwmsjp5gr1nxcfcqc92h";
+          url = "https://elpa.nongnu.org/nongnu/opam-switch-mode-1.6.tar";
+          sha256 = "1s9hhj0c2x81pzvhhy8bsgar7015fk7c0k14f8vh5zil2whsl27f";
         };
         packageRequires = [ emacs ];
         meta = {
