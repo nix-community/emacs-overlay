@@ -15,7 +15,7 @@ in
 # bool to use the value of config or a derivation whose name is default.el
 , defaultInitFile ? false
 # emulate `use-package-always-ensure` behavior (defaulting to false)
-, alwaysEnsure ? null
+, alwaysEnsure ? false
 # emulate `#+PROPERTY: header-args:emacs-lisp :tangle yes`
 , alwaysTangle ? false
 , extraEmacsPackages ? epkgs: [ ]
@@ -23,17 +23,6 @@ in
 , override ? (self: super: { })
 }:
 let
-  ensureNotice = ''
-    Emacs-overlay API breakage notice:
-
-    Previously emacsWithPackagesFromUsePackage always added every use-package definition to the closure.
-    Now we will only add packages with `:ensure`, `:ensure t` or `:ensure <package name>`.
-
-    You can get back the old behaviour by passing `alwaysEnsure = true`.
-    For a more in-depth usage example see https://github.com/nix-community/emacs-overlay#extra-library-functionality
-  '';
-  doEnsure = if (alwaysEnsure == null) then builtins.trace ensureNotice false else alwaysEnsure;
-
   isOrgModeFile =
     let
       ext = lib.last (builtins.split "\\." (builtins.toString config));
@@ -56,8 +45,7 @@ let
       else throw "Unsupported type for config: \"${type}\"";
 
   packages = parse.parsePackagesFromUsePackage {
-    inherit configText isOrgModeFile alwaysTangle;
-    alwaysEnsure = doEnsure;
+    inherit configText isOrgModeFile alwaysTangle alwaysEnsure;
   };
   emacsPackages = (pkgs.emacsPackagesFor package).overrideScope' (self: super:
     # for backward compatibility: override was a function with one parameter
