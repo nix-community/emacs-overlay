@@ -1036,10 +1036,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.37.0.20230711.95417";
+        version = "0.37.0.20230714.150159";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.37.0.20230711.95417.tar";
-          sha256 = "1hncfx2hn2cc5cgpzkh09ija8y0kk8dpgs5q65rfxv1lbgwakc67";
+          url = "https://elpa.gnu.org/devel/corfu-0.37.0.20230714.150159.tar";
+          sha256 = "0270bfs4g6fcz4sqic3dxmafr2a0fggwqsybnh3dq7z3jcp86d89";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1301,10 +1301,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "1.2.0.0.20230713.150900";
+        version = "1.2.0.0.20230714.91255";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-1.2.0.0.20230713.150900.tar";
-          sha256 = "0wiwa1ml1f8ial3srdsdla6amkw41rkpp72jh8bpmw30x1qyivc1";
+          url = "https://elpa.gnu.org/devel/denote-1.2.0.0.20230714.91255.tar";
+          sha256 = "1hv6filvfs04l1q31pmbh4syjxz0cv7cn2wi67vqm5zawfl64ajk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5874,10 +5874,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "0.8.0.20230702.80109";
+        version = "0.8.0.20230714.161058";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tempel-0.8.0.20230702.80109.tar";
-          sha256 = "06f91qvd0lmfkqn2945fkf76hlfs0ppfrf7r6jgh2ry34mxkry6p";
+          url = "https://elpa.gnu.org/devel/tempel-0.8.0.20230714.161058.tar";
+          sha256 = "0s1c81njsbkyrjsj69idzp81ysv18gi633pxhn5s07x4rq6456lx";
         };
         packageRequires = [ compat emacs ];
         meta = {
