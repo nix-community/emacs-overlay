@@ -657,10 +657,10 @@
       elpaBuild {
         pname = "buildbot";
         ename = "buildbot";
-        version = "0.0.20230713.130851";
+        version = "0.0.20230715.63845";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/buildbot-0.0.20230713.130851.tar";
-          sha256 = "0ff64hw95rlmblh80z9cfxvsjailx8x1zf50kjrlhngg41sw0arm";
+          url = "https://elpa.gnu.org/devel/buildbot-0.0.20230715.63845.tar";
+          sha256 = "1qvbxpzxg4s773mqg6zfavvx0zi141wqbzz9ira2jlqc5b0rdwn7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4670,10 +4670,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20230706.72714";
+        version = "0.28.0.20230715.82434";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20230706.72714.tar";
-          sha256 = "1f4blldm5v2vwhj89r7nyyfk5rp6ag3mx8i0bijbg6jnbbdlq4ws";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20230715.82434.tar";
+          sha256 = "1yzx8ix6pvpsgm0qm6bi7ysjlrxzql9h460a8l14wm5s6kz1b18a";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
