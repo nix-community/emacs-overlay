@@ -63637,14 +63637,14 @@
   "repo": "joshwnj/json-mode",
   "unstable": {
    "version": [
-    20211011,
-    630
+    20230717,
+    711
    ],
    "deps": [
     "json-snatcher"
    ],
-   "commit": "eedb4560034f795a7950fa07016bd4347c368873",
-   "sha256": "0r0k56q58kb133l9x9nbisz9p2kbphfgw1l4g2xp0pjqsc9wvq8z"
+   "commit": "8844263e1a7b7f00da06c3c0b5323f48a1b5b0c1",
+   "sha256": "0gpdmk8xhq209dyzpjg9i6qkc9xwaijvmdn3vc4m8bwphsc78lja"
   },
   "stable": {
    "version": [
@@ -70120,8 +70120,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20230715,
-    2053
+    20230717,
+    608
    ],
    "deps": [
     "dash",
@@ -70132,8 +70132,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "5550e12616cbe7fbe9d85bd0a8bd504abeb54f4b",
-   "sha256": "1ggdjg2spk9zigzmz5hlink8xp15zmii3d8vrgpbndsf8hprgz5w"
+   "commit": "d3a63b055bf06f2cf9f8b6072e0631afb1e4cbb5",
+   "sha256": "1h7vygmx337shvp1zx09cqrfsyi0kkskzb2f8piaq3km8pvrknzw"
   },
   "stable": {
    "version": [
@@ -114480,11 +114480,11 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20230709,
-    934
+    20230716,
+    2307
    ],
-   "commit": "38c9f3987db579a7e39c99332ada5ba1ba3ab4af",
-   "sha256": "0k6l3jcya34cizn7pm2sfax981fh9q7bmjm318hfmwh8p75fr8j6"
+   "commit": "4758264b286163b21d76d714ae942b22bbfc529d",
+   "sha256": "09p732hs2w7241z9vdhldiw40l926byk64palnpgnx3vxbbxs4pk"
   },
   "stable": {
    "version": [
@@ -114618,6 +114618,18 @@
    ],
    "commit": "c3dbe245ef24b8bab1f919cf74ea2b20c5562cb0",
    "sha256": "1vqd0svsp4nq2i09j6vnbvakl7iiqd6xmblx0ar3zq7fva66cqvj"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    2
+   ],
+   "deps": [
+    "f"
+   ],
+   "commit": "0e48dc3e322e8bee03f07a6dd23b9b3f026400a8",
+   "sha256": "050fl60krrfgkx0ib6rnmx4hmlcskbdhvia1crd0vqd09mhbl7pa"
   }
  },
  {
@@ -122250,6 +122262,14 @@
    ],
    "commit": "119833ef5d21c5d64bdb3153a74e05050579ced5",
    "sha256": "13aymrs3dw5i20m82c32l5zpb6i77bn7nfnssy7wvdyf9c7385z1"
+  },
+  "stable": {
+   "version": [
+    0,
+    3
+   ],
+   "commit": "ab11354570abb5fcb8fe829183d99686040a7c59",
+   "sha256": "16qza52lkppcvlf9lfmkxzql4r1dpl8dlnyrzbxmwq27rjrma9dc"
   }
  },
  {
