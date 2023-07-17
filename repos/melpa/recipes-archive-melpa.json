@@ -7492,8 +7492,8 @@
   "repo": "tmalsburg/helm-bibtex",
   "unstable": {
    "version": [
-    20221024,
-    857
+    20230717,
+    959
    ],
    "deps": [
     "biblio",
@@ -7503,8 +7503,8 @@
     "parsebib",
     "s"
    ],
-   "commit": "78f5931e1cc82e7ae2bcf0508cf31d0d1629a8dd",
-   "sha256": "1qbrkq0yidrp2x2qjpxlyx14yjcv2lir0hjabylapmkmr048v3fk"
+   "commit": "ef07adfeda1e25d891875cb9a11983d5e26fc36d",
+   "sha256": "0iy3ikz0hfyghm5q2lgh71p2s3626d1nlc1fmgjp73w0nbxyrc77"
   },
   "stable": {
    "version": [
@@ -8591,15 +8591,15 @@
   "repo": "emacscollective/borg",
   "unstable": {
    "version": [
-    20230319,
-    1956
+    20230717,
+    1325
    ],
    "deps": [
     "epkg",
     "magit"
    ],
-   "commit": "723ffe760d535618794d9e90ff17c18f66120131",
-   "sha256": "0v56z5v21f3n1vvq1vr1cfy5dphhi9w16wlqd1w2d773p87nffb0"
+   "commit": "e29d9839390c0f9e6c375acb4374430cf5595fdf",
+   "sha256": "1k0r9jw2qyflsxy9kiw1s4izj78q7awpd24p59dngy52c9w5kjmk"
   },
   "stable": {
    "version": [
@@ -51136,16 +51136,16 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20230712,
-    1159
+    20230717,
+    1456
    ],
    "deps": [
     "helm-core",
     "popup",
     "wfnames"
    ],
-   "commit": "1bbcb458293e667f38ac79004598e238d7bc2b34",
-   "sha256": "16dbddda524c8gprg31wf3a2n1k9ib32yn8djja2gwj6cydpi3a5"
+   "commit": "8f64463df6c5a13690bde0073343c388857c6f0c",
+   "sha256": "00wpzjkgki0mda5nsjcw98rkshs7r0a33f9fmmzjix3ig4mvnscg"
   },
   "stable": {
    "version": [
@@ -63631,20 +63631,20 @@
  },
  {
   "ename": "json-mode",
-  "commit": "03d0ff6c8d724cf39446fa27f52aa5cc1a3cefb6",
-  "sha256": "014j10wgxsqy6d6aksnkz2dr5cmpsi8c7v4a825si1vgb4622a70",
+  "commit": "1016d63d5a3bb14b1e512f6fc6d5bc21fc3ca4ce",
+  "sha256": "1cnv4xxzpajqgyvx6f4a3133ylfprpq8ifs3pgxw7582yyjnczff",
   "fetcher": "github",
-  "repo": "joshwnj/json-mode",
+  "repo": "json-emacs/json-mode",
   "unstable": {
    "version": [
     20230717,
-    711
+    818
    ],
    "deps": [
     "json-snatcher"
    ],
-   "commit": "8844263e1a7b7f00da06c3c0b5323f48a1b5b0c1",
-   "sha256": "0gpdmk8xhq209dyzpjg9i6qkc9xwaijvmdn3vc4m8bwphsc78lja"
+   "commit": "20b9c21f44c58e94256c7826d0821205e017dfbb",
+   "sha256": "1in6cygicw06y7h9xl24h5a5w1y6dwlckj7fmclr2pcm6xnln9a1"
   },
   "stable": {
    "version": [
@@ -70013,26 +70013,28 @@
   "repo": "ROCKTAKEY/lsp-latex",
   "unstable": {
    "version": [
-    20230421,
-    1814
+    20230717,
+    1253
    ],
    "deps": [
+    "consult",
     "lsp-mode"
    ],
-   "commit": "51bd8a0306a21c81a0c765b1857c534a29d92877",
-   "sha256": "0yj5pgq8nr922fd2m842sqjnl77vag8d61qn2llnfvxrzl1g625l"
+   "commit": "b7193633509fe4a58bb70ebae2c8e970f5a843c8",
+   "sha256": "027xhrxjwh6d78yidwfpqp2cbgv0qlafm6z8nqkf6lh8fxnr8ig8"
   },
   "stable": {
    "version": [
     3,
-    5,
+    6,
     0
    ],
    "deps": [
+    "consult",
     "lsp-mode"
    ],
-   "commit": "51bd8a0306a21c81a0c765b1857c534a29d92877",
-   "sha256": "0yj5pgq8nr922fd2m842sqjnl77vag8d61qn2llnfvxrzl1g625l"
+   "commit": "b7193633509fe4a58bb70ebae2c8e970f5a843c8",
+   "sha256": "027xhrxjwh6d78yidwfpqp2cbgv0qlafm6z8nqkf6lh8fxnr8ig8"
   }
  },
  {
@@ -110527,8 +110529,8 @@
   "repo": "daanturo/starhugger.el",
   "unstable": {
    "version": [
-    20230710,
-    1617
+    20230717,
+    1036
    ],
    "deps": [
     "compat",
@@ -110536,8 +110538,23 @@
     "s",
     "spinner"
    ],
-   "commit": "7fe1369e0fdd7e89eab1ce918625c53c6a208404",
-   "sha256": "1c7q4rkqp74m4bc5q608ygr37gr5b5f9k8r867rf4iy7ljg8zx56"
+   "commit": "8b429cb2f7b5ad0d9c89db4577df5c7f8f5d8f6b",
+   "sha256": "0vnz3jk53xnykjyqq5zk9ipm9019x690m7sxk7djxlp6bj6kfw9g"
+  },
+  "stable": {
+   "version": [
+    0,
+    3,
+    1
+   ],
+   "deps": [
+    "compat",
+    "dash",
+    "s",
+    "spinner"
+   ],
+   "commit": "8b429cb2f7b5ad0d9c89db4577df5c7f8f5d8f6b",
+   "sha256": "0vnz3jk53xnykjyqq5zk9ipm9019x690m7sxk7djxlp6bj6kfw9g"
   }
  },
  {
@@ -114490,11 +114507,11 @@
    "version": [
     2023,
     7,
-    10,
+    17,
     0
    ],
-   "commit": "38c9f3987db579a7e39c99332ada5ba1ba3ab4af",
-   "sha256": "0k6l3jcya34cizn7pm2sfax981fh9q7bmjm318hfmwh8p75fr8j6"
+   "commit": "4758264b286163b21d76d714ae942b22bbfc529d",
+   "sha256": "09p732hs2w7241z9vdhldiw40l926byk64palnpgnx3vxbbxs4pk"
   }
  },
  {
