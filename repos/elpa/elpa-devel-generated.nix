@@ -1301,10 +1301,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "1.2.0.0.20230714.91255";
+        version = "1.2.0.0.20230717.100211";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-1.2.0.0.20230714.91255.tar";
-          sha256 = "1hv6filvfs04l1q31pmbh4syjxz0cv7cn2wi67vqm5zawfl64ajk";
+          url = "https://elpa.gnu.org/devel/denote-1.2.0.0.20230717.100211.tar";
+          sha256 = "1yiyinqj6q3j4wx8n1m4j0vpxs6ix039zqhiqbpsvms4whxdc2rl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1728,10 +1728,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20230712.91626";
+        version = "1.15.0.20230717.133651";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230712.91626.tar";
-          sha256 = "0allky41y1dx9zynvk74a4p0kvl00g1jijgf1a2vph71r3x3j7fb";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230717.133651.tar";
+          sha256 = "0jrmv72sxx9k3ya173zm860dlavy2gbddjkwfxxfks50f7979hsw";
         };
         packageRequires = [
           eldoc
@@ -2786,10 +2786,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20230713.84059";
+        version = "8.0.1pre0.20230717.3206";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230713.84059.tar";
-          sha256 = "0adb2fqld91fr0wl3cbywpfaa6ir8id6zmpl40713is7zbygc8wk";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230717.3206.tar";
+          sha256 = "1sv28ya2r2zf491av655bz8vqd49knz4n5zm52b5n5yn5zc7cg93";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3776,10 +3776,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "1.0.1.0.20230619.141253";
+        version = "1.0.1.0.20230712.92019";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/nano-modeline-1.0.1.0.20230619.141253.tar";
-          sha256 = "0ayd95f6abin8fwhb4h2gi8vc4hxc321nyid893j4hjrxywhn1g1";
+          url = "https://elpa.gnu.org/devel/nano-modeline-1.0.1.0.20230712.92019.tar";
+          sha256 = "10zq3zm8yv5gmi9kgw742zb52swzi09c4npvqjh31hmrzprvp4nn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4039,10 +4039,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230716.100221";
+        version = "9.7pre0.20230717.95735";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230716.100221.tar";
-          sha256 = "1jnpc7ddlxh4p9sjrq3kqf87v83pb8x4wnsq5zxa7nyhcbdaml16";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230717.95735.tar";
+          sha256 = "011a4s067aprkkr5bywx1cs1k7xb2xccip9dv43b2n4igl89k524";
         };
         packageRequires = [ emacs ];
         meta = {
