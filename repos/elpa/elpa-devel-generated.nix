@@ -1301,10 +1301,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "1.2.0.0.20230717.100211";
+        version = "1.2.0.0.20230719.72745";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-1.2.0.0.20230717.100211.tar";
-          sha256 = "1yiyinqj6q3j4wx8n1m4j0vpxs6ix039zqhiqbpsvms4whxdc2rl";
+          url = "https://elpa.gnu.org/devel/denote-1.2.0.0.20230719.72745.tar";
+          sha256 = "1h34l6n12nhvwkw3dmv2813n1qk2lpns76srihkwa5imdknmsxg1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4039,10 +4039,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230718.81046";
+        version = "9.7pre0.20230719.74852";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230718.81046.tar";
-          sha256 = "121yhxrfji0awyihhcp1w66hlaxvp4vj2lckiymgd25796cjxl9c";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230719.74852.tar";
+          sha256 = "0bqpz57fwavdm7mrcpwcdwzfzki56kmzgiqdgh6gkwklj4sadzgn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6411,10 +6411,10 @@
       elpaBuild {
         pname = "vcard";
         ename = "vcard";
-        version = "0.2.2.0.20221212.230951";
+        version = "0.2.2.0.20230718.145809";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vcard-0.2.2.0.20221212.230951.tar";
-          sha256 = "10m83a0vwjbv2jbdyhyzndc6vlaa7jm47310w7jiqz4r49835p6j";
+          url = "https://elpa.gnu.org/devel/vcard-0.2.2.0.20230718.145809.tar";
+          sha256 = "0b3pxl03kjdyi70hnnf5sb2jvrkhnk0srsn2gr555y9kfbgzwwj1";
         };
         packageRequires = [ emacs ];
         meta = {
