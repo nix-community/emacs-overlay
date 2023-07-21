@@ -13207,8 +13207,8 @@
   "repo": "clojure-emacs/clj-refactor.el",
   "unstable": {
    "version": [
-    20230715,
-    1114
+    20230721,
+    615
    ],
    "deps": [
     "cider",
@@ -13221,8 +13221,8 @@
     "seq",
     "yasnippet"
    ],
-   "commit": "af97aca1acc607dffcae9e932d926dc6482426bb",
-   "sha256": "16mbfih6f23lm595rg6fprl4gzpvpdr8kb1agrpdjd2lkramr1z8"
+   "commit": "740747dc175f578b255dae6ed87bf8a438431096",
+   "sha256": "18jbmgy62z32x0v2m6y27vmvsjpwi6pdir4cn3b29gckk7zx5lws"
   },
   "stable": {
    "version": [
@@ -23593,14 +23593,14 @@
   "repo": "wbolster/emacs-direnv",
   "unstable": {
    "version": [
-    20220812,
-    956
+    20230721,
+    714
    ],
    "deps": [
     "dash"
    ],
-   "commit": "268536f564b7eba99264a89a9149268eb4bc67ac",
-   "sha256": "1rfr6cby7syshs3fbk83hhb3s4mjp0pfxb4dkznm5sdp259s4rqs"
+   "commit": "14f74269af34f8c30ab4a521eff290b74460daed",
+   "sha256": "0q5n499vc7d57fyr98alyrfycdvwgykf2fia3jq090h6xn5jbjl3"
   },
   "stable": {
    "version": [
@@ -25659,11 +25659,11 @@
   "repo": "sadiq/dwim-coder-mode",
   "unstable": {
    "version": [
-    20230720,
-    1802
+    20230721,
+    706
    ],
-   "commit": "49afeb36f9781cb0e43da7267b6c4789d8dde91b",
-   "sha256": "0sy0nfz9kd3gppr6xybc8dsd5s60ml3sfp4ii3nfqa5z5y2ympw0"
+   "commit": "62a101b5477b544441eed57ee4aca6c52b1c8273",
+   "sha256": "17259s35z9s3jx9pgy2yyvr8xi40cq1nd3b2d3swb14ydcv750w9"
   }
  },
  {
@@ -49050,14 +49050,14 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20230720,
-    2114
+    20230721,
+    433
    ],
    "deps": [
     "transient"
    ],
-   "commit": "b92fc389d7fe582a447c6b42bdd32775f83f8342",
-   "sha256": "1hrcng5bfahyqsnnknb8crl1sr5r0w5cgvv2901kwzyaam1nkq51"
+   "commit": "a660e13a8bdea101d56cdbab0cb10731b8b8f1fa",
+   "sha256": "11dfs975f5hsvs1j8gwd60fx8b0xsy3sw6wng9pycl9q30rn6sa7"
   },
   "stable": {
    "version": [
@@ -57971,7 +57971,7 @@
   "unstable": {
    "version": [
     20230721,
-    141
+    221
    ],
    "deps": [
     "compat",
@@ -57979,8 +57979,8 @@
     "persist",
     "plz"
    ],
-   "commit": "c3fe34d198919c19c52e1cb7def3feca6771623b",
-   "sha256": "03ibkq71jjv5dcc4qycabkvig93j3gjbfqpj9f5d2x3jzfac2q4b"
+   "commit": "5e5cb5ff345968d47b47534276301e6f05dba4b6",
+   "sha256": "03xhkw69gyv2cn17zz633a3d2fvylyq6ch2x8ghqiawyh5x9bn1v"
   }
  },
  {
@@ -72526,11 +72526,11 @@
   "repo": "jrblevin/markdown-mode",
   "unstable": {
    "version": [
-    20230716,
-    1308
+    20230721,
+    136
    ],
-   "commit": "0a7404a1c7b1916ca6e8408a6c8bad9125c846d2",
-   "sha256": "06l79v8fq3b44fvg0sqzlfmq5ylzwhjaxlrm9kdmw39qpafrawhs"
+   "commit": "35e22965b12cf42e6c260f35dd2cbd14bf70df59",
+   "sha256": "0pw18fli1bqps4fbxiapsk1mg93l98adxa7bg1bf1v57zy5gja83"
   },
   "stable": {
    "version": [
@@ -78293,15 +78293,15 @@
   "repo": "seagle0128/nerd-icons-ivy-rich",
   "unstable": {
    "version": [
-    20230510,
-    243
+    20230721,
+    357
    ],
    "deps": [
     "ivy-rich",
     "nerd-icons"
    ],
-   "commit": "664f4cd0bfd9845ef429cb341a713d1a9ded76d6",
-   "sha256": "193psg005a4q1xcna5j8km64j3mfi92a369mnssh02h17jlwpkid"
+   "commit": "b3b605efa03d464d6138454ac3f60dcae50e7acb",
+   "sha256": "10xilnlp9nb1j8h5m413qsf52zi3rvz5ca7wj4zar8j2wmsszdkv"
   },
   "stable": {
    "version": [
@@ -83846,14 +83846,14 @@
   "url": "https://repo.or.cz/org-contacts.git",
   "unstable": {
    "version": [
-    20230710,
-    1148
+    20230721,
+    151
    ],
    "deps": [
     "org"
    ],
-   "commit": "2b3a3866aa6f8488520bd1e4608e58bf8597fa08",
-   "sha256": "0vsh99h0h9cy47dccrfh21vysbchd4i9ma3xh706gfzggi4vcfd0"
+   "commit": "7f03eafaad2e5746949c0bebb98353e939c51ade",
+   "sha256": "1s29h8chfskls13jb13j56cvzfyc4xgg4ckv97a6wy902lw83z8b"
   }
  },
  {
@@ -86682,8 +86682,8 @@
   "repo": "alhassy/org-special-block-extras",
   "unstable": {
    "version": [
-    20230718,
-    132
+    20230721,
+    43
    ],
    "deps": [
     "dad-joke",
@@ -86694,8 +86694,8 @@
     "s",
     "seq"
    ],
-   "commit": "58d4de9ecba7f79a470516903d07fd1e6a904d2c",
-   "sha256": "1k8k8ja6rxhxgps3x9qs3jzj2hv415sll43bll5nli9bi0hxmy0r"
+   "commit": "d7bdf9fcfe28f96f9470719f3985a6e413592de8",
+   "sha256": "060sfkh05fnrk8sfciszggxmyxyp7851i5zx4w9j2ki7kw8rfp2b"
   },
   "stable": {
    "version": [
@@ -87057,14 +87057,14 @@
   "url": "https://repo.or.cz/org-tag-beautify.git",
   "unstable": {
    "version": [
-    20230718,
-    1438
+    20230721,
+    203
    ],
    "deps": [
     "nerd-icons"
    ],
-   "commit": "f740ec25cd0ad8a732c083c99c2e34f8cc2ba398",
-   "sha256": "11jwbsgdr222pvrj3zdzsp99hzzghz4lkx2kanh6v9xl1yqrfrnw"
+   "commit": "4805dd105eca312c8ef6033bd57d356b37063ace",
+   "sha256": "1acjsnvj47gf1rnm5xzck7h817p9zipi0xqywcr10v15mqwk6p8b"
   }
  },
  {
@@ -122275,11 +122275,11 @@
   "repo": "habamax/wildcharm-theme",
   "unstable": {
    "version": [
-    20230720,
-    1306
+    20230721,
+    546
    ],
-   "commit": "876b5ff3b19f765e4e51a04a7714b5ad4d8f0140",
-   "sha256": "1mnrc90cf8is52jigjp04x1ijflp6awy3fllskl8ddjrwaq1v54d"
+   "commit": "3a9f520910d4097869cfcead4c2add1120bd3e9a",
+   "sha256": "0zv42qkcj10ry1s41l5y17qxd5ibzk9j33la44zbna4zrl7fz2d7"
   },
   "stable": {
    "version": [
@@ -122298,11 +122298,11 @@
   "repo": "habamax/wildcharm-theme",
   "unstable": {
    "version": [
-    20230720,
-    1306
+    20230721,
+    546
    ],
-   "commit": "876b5ff3b19f765e4e51a04a7714b5ad4d8f0140",
-   "sha256": "1mnrc90cf8is52jigjp04x1ijflp6awy3fllskl8ddjrwaq1v54d"
+   "commit": "3a9f520910d4097869cfcead4c2add1120bd3e9a",
+   "sha256": "0zv42qkcj10ry1s41l5y17qxd5ibzk9j33la44zbna4zrl7fz2d7"
   },
   "stable": {
    "version": [
