@@ -1838,10 +1838,10 @@
       elpaBuild {
         pname = "emacs-gc-stats";
         ename = "emacs-gc-stats";
-        version = "1.4.0.20230707.114201";
+        version = "1.4.0.20230721.75542";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emacs-gc-stats-1.4.0.20230707.114201.tar";
-          sha256 = "13bqmmhcg4f4h0f50lf7wlgr727pbvk8879fpivyn8v3aifyf50f";
+          url = "https://elpa.gnu.org/devel/emacs-gc-stats-1.4.0.20230721.75542.tar";
+          sha256 = "1sfldv4wi09fhfrdrqsdwbwnffhd2rys4jc190iq83sdyijn3zcf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2597,10 +2597,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.1.0.20230317.61441";
+        version = "0.1.0.20230720.105311";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.1.0.20230317.61441.tar";
-          sha256 = "1s1lz80irpgr4d69l098wj8dbvmy3h14hfl28k51ng6q95hxyizl";
+          url = "https://elpa.gnu.org/devel/greader-0.1.0.20230720.105311.tar";
+          sha256 = "1p9sk45lpz05m12f01qhz55y86al1i47rqwgqbzmhc3qn9i3dsj4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4036,10 +4036,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230720.70207";
+        version = "9.7pre0.20230721.71439";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230720.70207.tar";
-          sha256 = "102s2xzx0a60dn7kjanjay0lssd0galm5wqz1a6n1q2flg2y3aq6";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230721.71439.tar";
+          sha256 = "18wcz7py58v4yifkwj8q181ik4rnjf70qdvfxf82ipzmyipwcb4m";
         };
         packageRequires = [ emacs ];
         meta = {
