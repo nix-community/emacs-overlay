@@ -1614,10 +1614,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.8.17.0.20230219.150703";
+        version = "0.8.17.0.20230720.84151";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ebdb-0.8.17.0.20230219.150703.tar";
-          sha256 = "12zbh8556b0kmiwb2w7slb0cw8yba8drn873b3bd6bj6431pgkbv";
+          url = "https://elpa.gnu.org/devel/ebdb-0.8.17.0.20230720.84151.tar";
+          sha256 = "1nd0jd4y8zg5i4ng7k40h6j00hr416i07cmnqqpxvh6h3kycahsw";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -1725,10 +1725,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20230717.133651";
+        version = "1.15.0.20230720.50818";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230717.133651.tar";
-          sha256 = "0jrmv72sxx9k3ya173zm860dlavy2gbddjkwfxxfks50f7979hsw";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230720.50818.tar";
+          sha256 = "05ll6qnny216wgwmph9k9ma94gr3m6nsfcb2jm4csiwc9l15qrwz";
         };
         packageRequires = [
           eldoc
@@ -4667,10 +4667,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20230715.82434";
+        version = "0.28.0.20230720.160046";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20230715.82434.tar";
-          sha256 = "1yzx8ix6pvpsgm0qm6bi7ysjlrxzql9h460a8l14wm5s6kz1b18a";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20230720.160046.tar";
+          sha256 = "0irdqccqbs1lwyngxqbj7if9rsr2qdvrjmzisx7s9ibcgm16h7qs";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
