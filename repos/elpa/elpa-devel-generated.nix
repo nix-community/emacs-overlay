@@ -1700,10 +1700,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.2.0.0.20230719.181533";
+        version = "1.2.0.0.20230722.51149";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.2.0.0.20230719.181533.tar";
-          sha256 = "1d3rngbac9s5ixzv9zdbinp9swpbbm7nhfkaq7kli4v941s51jmz";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.2.0.0.20230722.51149.tar";
+          sha256 = "0qp9nhl4cvsldj0n69vac7x5564x1ncz3lnz76nzfbv9dzkdb3pz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6144,10 +6144,10 @@
       elpaBuild {
         pname = "typo";
         ename = "typo";
-        version = "1.0.1.0.20230527.83048";
+        version = "1.0.1.0.20230722.75238";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/typo-1.0.1.0.20230527.83048.tar";
-          sha256 = "12flvb976krxxidb8jlkrkfq0nm57gfwcsczjk5slxvwyjf4hvi8";
+          url = "https://elpa.gnu.org/devel/typo-1.0.1.0.20230722.75238.tar";
+          sha256 = "13c5kxnw41m2q34kaj9acm49lh1zmjvyn0xy3yj3r69r5ngzgf5h";
         };
         packageRequires = [ emacs ];
         meta = {
