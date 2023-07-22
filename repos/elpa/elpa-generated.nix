@@ -1132,10 +1132,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "1.2.0";
+        version = "2.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-1.2.0.tar";
-          sha256 = "09xbyh22xll82ywqmlbsvqhxlqawfivaqydha0gs5qc4yn71kp0k";
+          url = "https://elpa.gnu.org/packages/denote-2.0.0.tar";
+          sha256 = "1wrfbirkzf9szss1rgpmgdr0gy2dvhnbzlnyhw3sp2jvw5sb1xz9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1621,10 +1621,10 @@
       elpaBuild {
         pname = "emacs-gc-stats";
         ename = "emacs-gc-stats";
-        version = "1.4";
+        version = "1.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emacs-gc-stats-1.4.tar";
-          sha256 = "19195s2nw87nmdz861j6shw5m2lv0spbcb1wff0y338fgx9sicgz";
+          url = "https://elpa.gnu.org/packages/emacs-gc-stats-1.4.1.tar";
+          sha256 = "0k7vng4ikcgb3s9qwjxfyjaq4s45n9r2m9hhnvi953gh3q4xdyck";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4589,10 +4589,10 @@
       elpaBuild {
         pname = "sed-mode";
         ename = "sed-mode";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sed-mode-1.0.el";
-          sha256 = "1zpdai5k9zhy5hw0a5zx7qv3rcf8cn29hncfjnhk9k6sjq0302lg";
+          url = "https://elpa.gnu.org/packages/sed-mode-1.1.tar";
+          sha256 = "1vpfzr95xfvjiq7x1pkhjm96936yzsy9bzm1v8p3hyr486bar0mp";
         };
         packageRequires = [];
         meta = {

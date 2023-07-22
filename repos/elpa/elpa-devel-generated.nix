@@ -1298,10 +1298,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "1.2.0.0.20230719.175811";
+        version = "2.0.0.0.20230721.122838";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-1.2.0.0.20230719.175811.tar";
-          sha256 = "0wkrjdvvplv4zjsws1xmb67fg6bgb6ha6pr4hp75f3rnzjxhmp1s";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20230721.122838.tar";
+          sha256 = "1y3q409f9np9c6l8mccw8k34xdhyb0ln8wbzzph60m14nxn0r4jq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1838,10 +1838,10 @@
       elpaBuild {
         pname = "emacs-gc-stats";
         ename = "emacs-gc-stats";
-        version = "1.4.0.20230721.75542";
+        version = "1.4.1.0.20230721.81431";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emacs-gc-stats-1.4.0.20230721.75542.tar";
-          sha256 = "1sfldv4wi09fhfrdrqsdwbwnffhd2rys4jc190iq83sdyijn3zcf";
+          url = "https://elpa.gnu.org/devel/emacs-gc-stats-1.4.1.0.20230721.81431.tar";
+          sha256 = "044q2xviir38m467fs22mfx5p0s42dp7758fikwfqawqcsggr7hp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4036,10 +4036,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230721.71439";
+        version = "9.7pre0.20230721.165843";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230721.71439.tar";
-          sha256 = "18wcz7py58v4yifkwj8q181ik4rnjf70qdvfxf82ipzmyipwcb4m";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230721.165843.tar";
+          sha256 = "169ckylb062dfbh2m0mp9scjf5kmiihq7b5qwx1w5fk5in82z56l";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5147,10 +5147,10 @@
       elpaBuild {
         pname = "sed-mode";
         ename = "sed-mode";
-        version = "1.0.0.20221221.82014";
+        version = "1.1.0.20230721.154631";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/sed-mode-1.0.0.20221221.82014.tar";
-          sha256 = "1c2wdqazxwlllihyyhikzf1zrr0a12pmn789mwjchfv1y6r5iq55";
+          url = "https://elpa.gnu.org/devel/sed-mode-1.1.0.20230721.154631.tar";
+          sha256 = "1mp4xyca7g29vn5c7dl3dw3ng9n5kiryvdgrmqrha13ppyqqzd5x";
         };
         packageRequires = [];
         meta = {
