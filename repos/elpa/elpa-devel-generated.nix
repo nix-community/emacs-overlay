@@ -654,10 +654,10 @@
       elpaBuild {
         pname = "buildbot";
         ename = "buildbot";
-        version = "0.0.20230715.63845";
+        version = "0.0.20230723.60659";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/buildbot-0.0.20230715.63845.tar";
-          sha256 = "1qvbxpzxg4s773mqg6zfavvx0zi141wqbzz9ira2jlqc5b0rdwn7";
+          url = "https://elpa.gnu.org/devel/buildbot-0.0.20230723.60659.tar";
+          sha256 = "1fa4zd0lg7z4v96krdifvm0z04hnk0wqc8n5v1im8r487a1xd3z7";
         };
         packageRequires = [ emacs ];
         meta = {
