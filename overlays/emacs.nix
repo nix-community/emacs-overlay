@@ -128,7 +128,7 @@ let
 
   commercial-emacs = super.lib.makeOverridable (mkGitEmacs "commercial-emacs" ../repos/emacs/commercial-emacs-commercial-emacs.json) {
     withTreeSitter = false;
-    nativeComp = false;
+    withNativeCompilation = false;
   };
 
   emacs-git-nox = (
