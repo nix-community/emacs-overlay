@@ -232,10 +232,10 @@
       elpaBuild {
         pname = "altcaps";
         ename = "altcaps";
-        version = "1.1.0.0.20230101.152850";
+        version = "1.1.0.0.20230722.184329";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/altcaps-1.1.0.0.20230101.152850.tar";
-          sha256 = "112c8yv5vbz78j83qacv0d97lxmxyr7m3mk0l7hm7556424y5v3v";
+          url = "https://elpa.gnu.org/devel/altcaps-1.1.0.0.20230722.184329.tar";
+          sha256 = "06bmgbmski43c6zhdq8p0cqydva9l0s6lxbvgickz3czgkb0wa9d";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1725,10 +1725,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20230720.50818";
+        version = "1.15.0.20230722.93024";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230720.50818.tar";
-          sha256 = "05ll6qnny216wgwmph9k9ma94gr3m6nsfcb2jm4csiwc9l15qrwz";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230722.93024.tar";
+          sha256 = "0yfrjavh7s7s8kr2shj8p6i38rvw3ajgfdc1z12j70bdaiw1c01m";
         };
         packageRequires = [
           eldoc
@@ -2000,10 +2000,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20230719.61121";
+        version = "5.6snapshot0.20230722.73307";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20230719.61121.tar";
-          sha256 = "1jxf0335da8r87vr8lv1la1kfw0hbdrblzqibp500wi6xc66h3g8";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20230722.73307.tar";
+          sha256 = "0r0w4275ssbmb40jnnyxdyykb38xl3lkrj9swfc60j22lzcwk2df";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6853,10 +6853,10 @@
       elpaBuild {
         pname = "xr";
         ename = "xr";
-        version = "1.23.0.20230706.114649";
+        version = "1.23.0.20230722.160523";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xr-1.23.0.20230706.114649.tar";
-          sha256 = "1bq0kpq9srm1v56gc6n1rd6kqiwr53ylhbgy3pah8ams347hsxlj";
+          url = "https://elpa.gnu.org/devel/xr-1.23.0.20230722.160523.tar";
+          sha256 = "1q0fvjj32llfkgg9k2b75j8147aa1b0y5hqwci8448566qjx6k7w";
         };
         packageRequires = [ emacs ];
         meta = {
