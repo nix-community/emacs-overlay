@@ -2302,10 +2302,10 @@
       elpaBuild {
         pname = "php-mode";
         ename = "php-mode";
-        version = "1.24.3";
+        version = "1.25.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/php-mode-1.24.3.tar";
-          sha256 = "0k44vkkm2njmvw3vfbc2c9v2hm8qy3bnarp328aim9761x61n9gy";
+          url = "https://elpa.nongnu.org/nongnu/php-mode-1.25.0.tar";
+          sha256 = "05n53risvyzgyqr0r7v7bgd267dh30wq266mmfhj2q37v1gkfjiv";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3228,10 +3228,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "24.1.20230723004022";
+        version = "24.1.20230723010216";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.1.20230723004022.tar";
-          sha256 = "071q7gpa218s6lnnzm0zh73l1i23y2axlh9bqmzk1h8ky0kxcin5";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.1.20230723010216.tar";
+          sha256 = "1bn6z0yfwkldrx6rki19aqnc6f75qmiai2fzj0a2pbj9ib6d96kn";
         };
         packageRequires = [ emacs ];
         meta = {
