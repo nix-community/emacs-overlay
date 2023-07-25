@@ -12599,16 +12599,16 @@
   "repo": "emacs-citar/citar",
   "unstable": {
    "version": [
-    20230724,
-    2024
+    20230725,
+    1020
    ],
    "deps": [
     "citeproc",
     "org",
     "parsebib"
    ],
-   "commit": "ac524c85efd868859e84ec2af4856c6af2bdda67",
-   "sha256": "101nrhvsi077s3sld42pr41l1xz2615lhn85qqwbgay0c0f80nq0"
+   "commit": "2c0547db57f2fb30ff071d126b256287a4e9452c",
+   "sha256": "1v5zqr2azgxsln4z413ldwj1b0hsx3rjlh3g6mw0nhv0jbfgcxjf"
   },
   "stable": {
    "version": [
@@ -24873,16 +24873,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20230723,
-    1639
+    20230725,
+    1642
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "6ea0051a3b25b0fb9fc67d826f37d82884e5ffb9",
-   "sha256": "17iyvz14zd0812nzw82cwaxadfnavpbw6bqda7is1zs8ddsmj7x8"
+   "commit": "b55d6cb731a9557e3eb30af9ea259b214b53622b",
+   "sha256": "1ba0wky4vazir3idfbhrqn4ccdby6fywvgsn32apmiwsyvj51c7k"
   },
   "stable": {
    "version": [
@@ -25453,11 +25453,11 @@
   "repo": "jscheid/dtrt-indent",
   "unstable": {
    "version": [
-    20230720,
-    921
+    20230725,
+    1615
    ],
-   "commit": "c501e0b5857a6786b82791e485d10d28aa9c3478",
-   "sha256": "0n640cx266r2421ydlpa48gm9ki1mq1ijdl2758675012vmw43n5"
+   "commit": "69d8e93c33050b073228be2e8ec0b3ca52989f9b",
+   "sha256": "1d9bvbw31yrp14yl3yypwbxybdhzl3ybjiprbh1qcniv929lnydq"
   },
   "stable": {
    "version": [
@@ -25691,11 +25691,11 @@
   "repo": "sadiq/dwim-coder-mode",
   "unstable": {
    "version": [
-    20230724,
-    1402
+    20230725,
+    838
    ],
-   "commit": "40ec1c8843d458dd78f9264da2ac32b012e19a6e",
-   "sha256": "0d16cr1r39v1bj7i09khnhsilwyjgcrc5phjhv44wk31v3c7jf94"
+   "commit": "0cae783344277ea392563aa28b04f59d0ceada77",
+   "sha256": "0yink8qm9mj6545n7yy8d8z9bpxvx8hrcz85bqxg0x8my9q6ij4l"
   }
  },
  {
@@ -68035,20 +68035,20 @@
   "repo": "ligolang/ligo",
   "unstable": {
    "version": [
-    20230719,
-    1320
+    20230725,
+    24
    ],
-   "commit": "709efd88f1ddcdf44a2e91400ad912b2f0b14e0e",
-   "sha256": "10xlm8qypn7m3g4ajx0r0d0680xcn3kx5l37fr5i7319wlh0jwic"
+   "commit": "06791c7c53c9ab0a519af7472c699372377def11",
+   "sha256": "0mnfrk7s3raqhyr5pynjz4qkl4qk3c4z6qwiqgbgdxh0p6z3bxfr"
   },
   "stable": {
    "version": [
     0,
     70,
-    0
+    1
    ],
-   "commit": "709efd88f1ddcdf44a2e91400ad912b2f0b14e0e",
-   "sha256": "10xlm8qypn7m3g4ajx0r0d0680xcn3kx5l37fr5i7319wlh0jwic"
+   "commit": "06791c7c53c9ab0a519af7472c699372377def11",
+   "sha256": "0mnfrk7s3raqhyr5pynjz4qkl4qk3c4z6qwiqgbgdxh0p6z3bxfr"
   }
  },
  {
@@ -72897,16 +72897,16 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20230713,
-    835
+    20230725,
+    1217
    ],
    "deps": [
     "persist",
     "request",
     "ts"
    ],
-   "commit": "5123212fa191ce5215262367d1022fd1441dc19a",
-   "sha256": "1g4mvzvpww87krmk2lxixh85anfiw163fa2hmgkmac1dn82pd732"
+   "commit": "20dec8871c9bb5f5e418bfc197e7533b5e3065e3",
+   "sha256": "15cfjny99yw5frdp8nlyazlwgscvfvbinsj0fbdfprxf50k2zjs6"
   },
   "stable": {
    "version": [
@@ -74199,11 +74199,11 @@
   "repo": "ROCKTAKEY/mic",
   "unstable": {
    "version": [
-    20230123,
-    944
+    20230725,
+    1139
    ],
-   "commit": "7d0a31ace0b801cb8b58a7bb61a981b67508208d",
-   "sha256": "1gz6fbj7l0pm6ghv40665iaik2rw3qmbrbccb84jjky2a3d6vcch"
+   "commit": "95dcc9fa306f579e8de6e417839841efe88ae1fc",
+   "sha256": "19v6q0knrkzchis3bax4h9szbiqxfk0fm83sy0zvd1gqh8jlpfh7"
   },
   "stable": {
    "version": [
@@ -85516,8 +85516,8 @@
   "repo": "fuxialexander/org-pdftools",
   "unstable": {
    "version": [
-    20220320,
-    300
+    20230725,
+    1433
    ],
    "deps": [
     "org",
@@ -85525,8 +85525,8 @@
     "org-pdftools",
     "pdf-tools"
    ],
-   "commit": "c88130c90aac5a4759849df86fb1829db183bed4",
-   "sha256": "174r9nfazgnzqwvw06z10l1d82ysnvkfixgz9jy5wlkx6ynrrnpb"
+   "commit": "4e420233a153a9c4ab3d1a7e1d7d3211c836f0ac",
+   "sha256": "0n8apjqlm7rs66l635szvsvc4qn8m147g07rgkd30a4v4m24mj8x"
   }
  },
  {
@@ -122358,10 +122358,10 @@
   "unstable": {
    "version": [
     20230725,
-    511
+    1343
    ],
-   "commit": "49519bcdfb6066c26fce25a8bb241bf4d7143edb",
-   "sha256": "1lwrvv2wcjrjl7y7w3bpdxfc6rv2fs36k08p68adq90dc7dqmaw9"
+   "commit": "724f50d5dc4c1607c28a5158c0a2923214a67a86",
+   "sha256": "0d8agpqbb9yxlqpkln5q0sy2jaifp5ps2qpi0gzs665as4xflk1v"
   },
   "stable": {
    "version": [
@@ -122381,10 +122381,10 @@
   "unstable": {
    "version": [
     20230725,
-    511
+    1343
    ],
-   "commit": "49519bcdfb6066c26fce25a8bb241bf4d7143edb",
-   "sha256": "1lwrvv2wcjrjl7y7w3bpdxfc6rv2fs36k08p68adq90dc7dqmaw9"
+   "commit": "724f50d5dc4c1607c28a5158c0a2923214a67a86",
+   "sha256": "0d8agpqbb9yxlqpkln5q0sy2jaifp5ps2qpi0gzs665as4xflk1v"
   },
   "stable": {
    "version": [
