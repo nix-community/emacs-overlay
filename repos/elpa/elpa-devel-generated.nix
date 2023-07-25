@@ -966,10 +966,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.1.0.20230723.92640";
+        version = "29.1.4.1.0.20230725.75500";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/compat-29.1.4.1.0.20230723.92640.tar";
-          sha256 = "0847c3zp66zjqw68rw8jw6y6f5lay3plg8cw728v82sx5zspa6sd";
+          url = "https://elpa.gnu.org/devel/compat-29.1.4.1.0.20230725.75500.tar";
+          sha256 = "1mdchaq100ghc16ms97dq1w7mjyv7yps8khv5j9vn6ixzn2qfhpd";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -1931,10 +1931,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "15.0.20230619.145750";
+        version = "15.0.20230724.183241";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-15.0.20230619.145750.tar";
-          sha256 = "0la60psh4cx874mz31c74j04g1hnmb40dvc6pkfzkhmqc48h5cqk";
+          url = "https://elpa.gnu.org/devel/emms-15.0.20230724.183241.tar";
+          sha256 = "1l6xm4fkk1q2y9a4hf9b8vvvdfla9zawac69m9fvy5m646cdgy7v";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -6808,10 +6808,10 @@
       elpaBuild {
         pname = "xeft";
         ename = "xeft";
-        version = "3.3.0.20230322.153950";
+        version = "3.3.0.20230724.143339";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xeft-3.3.0.20230322.153950.tar";
-          sha256 = "0bnapb3kpyjlclysbs43003dzc7b2p80iqkxk42iqpwm2xyg9s8q";
+          url = "https://elpa.gnu.org/devel/xeft-3.3.0.20230724.143339.tar";
+          sha256 = "1q440lab148nwvvix29iyzjmknf243wam9cqsfz0vk1az7rp7pmb";
         };
         packageRequires = [ emacs ];
         meta = {
