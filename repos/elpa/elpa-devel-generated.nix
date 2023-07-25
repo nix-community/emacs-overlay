@@ -6144,10 +6144,10 @@
       elpaBuild {
         pname = "typo";
         ename = "typo";
-        version = "1.0.1.0.20230722.75238";
+        version = "1.0.1.0.20230724.175310";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/typo-1.0.1.0.20230722.75238.tar";
-          sha256 = "13c5kxnw41m2q34kaj9acm49lh1zmjvyn0xy3yj3r69r5ngzgf5h";
+          url = "https://elpa.gnu.org/devel/typo-1.0.1.0.20230724.175310.tar";
+          sha256 = "0yrcgb8193cqb5pff6rzvzq7sdidkhj7gq585fc2sa4kh2ikxbdn";
         };
         packageRequires = [ emacs ];
         meta = {
