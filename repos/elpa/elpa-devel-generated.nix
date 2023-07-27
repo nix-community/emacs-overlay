@@ -6133,10 +6133,10 @@
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.3.3.0.20230622.143226";
+        version = "0.3.4.0.20230726.211145";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/triples-0.3.3.0.20230622.143226.tar";
-          sha256 = "0xwlrjwn9ki4d55smx4dlkiw3k27iyy2gc51ilbq6xgwx0imajyb";
+          url = "https://elpa.gnu.org/devel/triples-0.3.4.0.20230726.211145.tar";
+          sha256 = "0v477ja1jw8mdz5hq86p2aqlj8nmavidw02j9fj0xahv8cvcmjm7";
         };
         packageRequires = [ emacs seq ];
         meta = {
