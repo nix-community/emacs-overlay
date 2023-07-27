@@ -647,14 +647,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    buildbot = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    buildbot = callPackage ({ elpaBuild
+                            , emacs
+                            , fetchurl
+                            , lib }:
       elpaBuild {
         pname = "buildbot";
         ename = "buildbot";
-        version = "0.0.20230723.60659";
+        version = "0.0.1.0.20230726.134747";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/buildbot-0.0.20230723.60659.tar";
-          sha256 = "1fa4zd0lg7z4v96krdifvm0z04hnk0wqc8n5v1im8r487a1xd3z7";
+          url = "https://elpa.gnu.org/devel/buildbot-0.0.1.0.20230726.134747.tar";
+          sha256 = "1knkx80fcmxhi8y3ns3vb4zrg8s6la81gr3rbs1v3fss4h1snka1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4033,10 +4036,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230725.111958";
+        version = "9.7pre0.20230726.80134";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230725.111958.tar";
-          sha256 = "0zsf7pvchmhhgzn5gzrhiis7hfnx66xq1qbfa03iy5gxlsd07rgw";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230726.80134.tar";
+          sha256 = "0cx776bw112vfdaq2ws57k1zx45myg05vwlkzjz245y0shfc3sc2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4568,14 +4571,18 @@
           license = lib.licenses.free;
         };
       }) {};
-    project = callPackage ({ elpaBuild, emacs, fetchurl, lib, xref }:
+    project = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib
+                           , xref }:
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.9.8.0.20230713.61428";
+        version = "0.9.8.0.20230726.151149";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.9.8.0.20230713.61428.tar";
-          sha256 = "12cyj56linqxhx1cjxacvlm2mwv95irxm3rmrhidyl4d9rj2690w";
+          url = "https://elpa.gnu.org/devel/project-0.9.8.0.20230726.151149.tar";
+          sha256 = "0f2kims21wkg4a8laigsjabh2kdgvdaivwdq69d2qjzpqbx6vk8s";
         };
         packageRequires = [ emacs xref ];
         meta = {
