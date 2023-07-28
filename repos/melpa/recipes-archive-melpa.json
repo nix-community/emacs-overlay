@@ -30460,15 +30460,15 @@
   },
   "stable": {
    "version": [
-    15
+    16
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "0f4bd0c551b6ec1debfa834464f28030ce9c287b",
-   "sha256": "1mlvpfm3phmcfna1jnmpjw3q0dxa6ah1dwbarjmgqq15rrjs1841"
+   "commit": "68fb73cbf7ca030506c585cbbe03efbb798f27e9",
+   "sha256": "0mx4qzdkz8sss61fl6vimsm4fd8h7jmcrhflibm1dbfaxalbp9rs"
   }
  },
  {
@@ -79497,11 +79497,11 @@
   "url": "https://git.sr.ht/~ashton314/nordic-night",
   "unstable": {
    "version": [
-    20230613,
-    1631
+    20230727,
+    1928
    ],
-   "commit": "0506e26c99a040fc8d2672401b40820bce2ea455",
-   "sha256": "1pcvj87wnlpa1gn0wi8z4jn4v5as1y6cqdlvfw1jhabljn7ivkwn"
+   "commit": "ae953b9c4046901e269dedcb62276c035efc2098",
+   "sha256": "0q0j52fw2lk0az993f40l9sx50bmhzp9bag76avglkcm4kgbxmgm"
   },
   "stable": {
    "version": [
@@ -79685,13 +79685,14 @@
   "stable": {
    "version": [
     0,
-    1
+    2
    ],
    "deps": [
+    "notmuch",
     "seq"
    ],
-   "commit": "c0071310f01dd5296600bdc4d6135667d38ef0de",
-   "sha256": "0zg53b77g4s05dj3a7n3vxdvfwya6pzc0v86kqk0443m2y96vfwc"
+   "commit": "7c053fd2d278dc3a9f07f86975867bfbb4e7448d",
+   "sha256": "1azg565r94h7qaxsv5qsc2x11clhsvlb49ssn06ashh2my9xxxj7"
   }
  },
  {
@@ -113771,15 +113772,15 @@
   "repo": "IvanMalison/term-manager",
   "unstable": {
    "version": [
-    20230724,
-    1651
+    20230727,
+    2308
    ],
    "deps": [
     "projectile",
     "term-manager"
    ],
-   "commit": "f6e55491aedac15b9bf1ef92aaebf35ba9c9dd94",
-   "sha256": "0ra4kjzh64kmv3f4lc31sh5r84ands5rvj3hhpmzr157dm9zsj4c"
+   "commit": "31a3d16ba5a4f9e6f4bc52275eaedf55a96154a8",
+   "sha256": "1c2fxsqfvyh0g77vsjc7qmpfc8d5vnwlxkb1gah57i6sri5c8hj0"
   },
   "stable": {
    "version": [
