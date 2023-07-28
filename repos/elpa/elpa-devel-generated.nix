@@ -225,14 +225,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    altcaps = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    altcaps = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "altcaps";
         ename = "altcaps";
-        version = "1.1.0.0.20230726.54650";
+        version = "1.1.0.0.20230727.121052";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/altcaps-1.1.0.0.20230726.54650.tar";
-          sha256 = "1z3ic4s1jqyasamkbn75zi7x1x9gnqlvcwjqn2cs2346csmdvbcr";
+          url = "https://elpa.gnu.org/devel/altcaps-1.1.0.0.20230727.121052.tar";
+          sha256 = "0xan62m56rskgk477rshw28pb64mvviv4mfyykc6ji5nd3hdndys";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1931,10 +1934,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "15.0.20230724.183241";
+        version = "16.0.20230727.114320";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-15.0.20230724.183241.tar";
-          sha256 = "1l6xm4fkk1q2y9a4hf9b8vvvdfla9zawac69m9fvy5m646cdgy7v";
+          url = "https://elpa.gnu.org/devel/emms-16.0.20230727.114320.tar";
+          sha256 = "0zdy9wxdsxjsgm0vil0f87d21d9cdlgsbnh2d4sg58my0lnh37b6";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -3877,10 +3880,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "1.0.0.0.20230630.174300";
+        version = "1.0.1.0.20230727.123155";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.0.0.0.20230630.174300.tar";
-          sha256 = "0r7lmn2icaa8jgwc7s3kbprrln0qz3lgln92287sira1qsvsam7b";
+          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.0.1.0.20230727.123155.tar";
+          sha256 = "15nskdl06pf6srwhl6kgc2rf79w5kpvyq1wpiq8r4qd6pknss3jp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4624,10 +4627,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "0.5.0.0.20230306.95333";
+        version = "0.5.0.0.20230727.121635";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pulsar-0.5.0.0.20230306.95333.tar";
-          sha256 = "1m6fws539lp8852aj40kl0cwsr1madg41l1clirgrxv8bsvkc9vd";
+          url = "https://elpa.gnu.org/devel/pulsar-0.5.0.0.20230727.121635.tar";
+          sha256 = "0c6wm4vbva307h930f2gk4s24rbjkcrw30qky91cbksrx5yvq9xw";
         };
         packageRequires = [ emacs ];
         meta = {

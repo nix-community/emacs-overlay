@@ -1725,10 +1725,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "15";
+        version = "16";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emms-15.tar";
-          sha256 = "0kd9qx93cgcxyqsnbp95xx414s08rd5bb35aif3c7qyab5w05yi6";
+          url = "https://elpa.gnu.org/packages/emms-16.tar";
+          sha256 = "1c18lrrfg1n5vn1av9p7q3jys27pdmxq8pq5gqb6397jnv9xywby";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -3488,10 +3488,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "1.0.0";
+        version = "1.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/notmuch-indicator-1.0.0.tar";
-          sha256 = "1qlxm7v2zsbf8zq1nryv17cmzrxf0xrmxb354gp99ad35gv3yc9v";
+          url = "https://elpa.gnu.org/packages/notmuch-indicator-1.0.1.tar";
+          sha256 = "1n5k2ikk93mdwqqysf6l7gd8i6iazk8yvbqpf8xnz5zny248cc2x";
         };
         packageRequires = [ emacs ];
         meta = {
