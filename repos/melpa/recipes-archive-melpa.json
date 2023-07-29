@@ -10539,12 +10539,12 @@
   },
   "stable": {
    "version": [
+    1,
     0,
-    10,
-    4
+    0
    ],
-   "commit": "a91ec65323c2577732224d0cf6f5bf1e79d3a724",
-   "sha256": "0zz1w35fbldwd9b6sgr9759jh4v8cyfia6vvicyqqq5jbjfk36z3"
+   "commit": "928c8390d4d562bd32dc79a42eb64e9bdba572d8",
+   "sha256": "0fkkzxhn05sa0h0sdkm77gza07jagg6r3vq4w1jaiklfswjwbd1l"
   }
  },
  {
@@ -28611,13 +28611,13 @@
    "version": [
     1,
     2,
-    6
+    7
    ],
    "deps": [
     "elfeed"
    ],
-   "commit": "640ffe17730b0024e873c634a1ef83966a45a018",
-   "sha256": "0d0dxldafgk3knc0d8g8ghm24zsq5x2p1pswh2syyl33nqf61s8s"
+   "commit": "cc1a05a95bff953eb28151056ce3ce14ba3e901d",
+   "sha256": "0s37m8566g396d8480jac07c89f2jjpg6p3hcwwmz89s27agp81q"
   }
  },
  {
@@ -49097,26 +49097,26 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20230725,
-    2303
+    20230728,
+    2305
    ],
    "deps": [
     "transient"
    ],
-   "commit": "e0a78986452b416996987a7773852b52667b68b1",
-   "sha256": "0a720lvn05i892dlq1sdrh6ky53h9kaink6s768ar3ysmj4fr48d"
+   "commit": "0f161a466b880cde864d8aa709ec04e1a86f445a",
+   "sha256": "1aac0jds8hzyfvav06mhqm32v81swrnvyv0ldrkd7qxc2b1x4q7n"
   },
   "stable": {
    "version": [
     0,
-    3,
-    6
+    4,
+    0
    ],
    "deps": [
     "transient"
    ],
-   "commit": "219e163dc76d3cb27d8438816a453ccb686c553b",
-   "sha256": "1ykqq763sm0km167vyqxcg3jq4g1dzrvn9zwm9q927v83ijh6pf9"
+   "commit": "0f161a466b880cde864d8aa709ec04e1a86f445a",
+   "sha256": "1aac0jds8hzyfvav06mhqm32v81swrnvyv0ldrkd7qxc2b1x4q7n"
   }
  },
  {
@@ -62999,14 +62999,14 @@
   "repo": "minad/jinx",
   "unstable": {
    "version": [
-    20230711,
-    1551
+    20230728,
+    1537
    ],
    "deps": [
     "compat"
    ],
-   "commit": "c9fbfd40259e59a2c0e4ad630611d8f88d040cc6",
-   "sha256": "0qhkpfs99b4fw0qvm776ip6251vxr3pyd9a09qk3ns9czx0qxd8c"
+   "commit": "fe82400abbd324ceb6e3c4c2df1a619588021e8e",
+   "sha256": "0chqgly24c6pz78573vncqryx5xz5xsvdf0jdw06lzrp1c7mnx7c"
   },
   "stable": {
    "version": [
@@ -65748,13 +65748,13 @@
   "unstable": {
    "version": [
     20230728,
-    926
+    1412
    ],
    "deps": [
     "compat"
    ],
-   "commit": "98e13a22921e4d270e363fadb67a0aafc779d8ed",
-   "sha256": "10n400fsl9fy0w6l0d4jl8ixv2hqkh1mpkv7an07v8n1vbp5cg24"
+   "commit": "86086ec13a489ac0300feaa0ae695f361c985abf",
+   "sha256": "1isi7v6qnrqn3s5z57l701hpz6jdcjfcjz6pjwq6rcdggj589hah"
   }
  },
  {
@@ -66481,16 +66481,16 @@
   "stable": {
    "version": [
     2,
-    3,
-    1
+    4,
+    0
    ],
    "deps": [
     "eglot",
     "highlight",
     "math-symbol-lists"
    ],
-   "commit": "60243e461f2d1e393265f46fcd290b0a64a0b1c4",
-   "sha256": "0ccb0crc4z2jc7f0b4pxi713zz8yq2pcmspq2dy8w2cn4x83c8jy"
+   "commit": "5faeb3838bc5f60d97b2466de6622c236c7d4de6",
+   "sha256": "0lcyqk83xrand4y5iyyfw92jg7r1nndv5rjhfmjyxvx4qafzq080"
   }
  },
  {
@@ -85490,15 +85490,15 @@
   "repo": "org-noter/org-noter",
   "unstable": {
    "version": [
-    20230628,
-    159
+    20230728,
+    2037
    ],
    "deps": [
     "cl-lib",
     "org"
    ],
-   "commit": "f9710c976823c180070cee4e958e0dc4531ba0de",
-   "sha256": "1impy2m4vvja3ji632z66h20c3vb7220px24aqv3pww0hkrg3mri"
+   "commit": "4d47516e0fadd31b03350241a6fb23e108bfd65e",
+   "sha256": "1fdh7msc8jxgg8jqqh17xg5n0aa9lvk0n6696nqqxixsgg33k6lr"
   }
  },
  {
@@ -96987,20 +96987,20 @@
   "url": "https://git.ookami.one/cgit/protobuf-ts-mode",
   "unstable": {
    "version": [
-    20230410,
-    855
+    20230728,
+    1747
    ],
-   "commit": "cde61510b711d90bf2978ca4cbd3f36fce8b4c3e",
-   "sha256": "1rzsvzwlpgghfg8brrhzqpiskb8v7ig2jwsr43f423d64a2i7azq"
+   "commit": "65152f5341ea4b3417390b3e60b195975161b8bc",
+   "sha256": "0hrxfnmaxlb9s0rqq8pb8lq0kl4w4vk6s62q55mbbhr0ad4c30p1"
   },
   "stable": {
    "version": [
     1,
     0,
-    2
+    3
    ],
-   "commit": "cde61510b711d90bf2978ca4cbd3f36fce8b4c3e",
-   "sha256": "1rzsvzwlpgghfg8brrhzqpiskb8v7ig2jwsr43f423d64a2i7azq"
+   "commit": "65152f5341ea4b3417390b3e60b195975161b8bc",
+   "sha256": "0hrxfnmaxlb9s0rqq8pb8lq0kl4w4vk6s62q55mbbhr0ad4c30p1"
   }
  },
  {
