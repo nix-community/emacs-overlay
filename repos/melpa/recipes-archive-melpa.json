@@ -25686,11 +25686,11 @@
   "repo": "sadiq/dwim-coder-mode",
   "unstable": {
    "version": [
-    20230728,
-    1353
+    20230730,
+    404
    ],
-   "commit": "da7b9b4223fa763f892dbbeb27d2709a9278817d",
-   "sha256": "17rgw86xa2y40d41jc9if9z3zwpnwslf08zhy7m452p6246jjllc"
+   "commit": "39a1b8d35480aec2b05a6804d2fba9fd71f13cfe",
+   "sha256": "016rsc3d4nm4p07h6b7ncbhwi7bbw4ln03knikj8j9y5c30k6hl7"
   }
  },
  {
@@ -36119,16 +36119,16 @@
   "repo": "ananthakumaran/exunit.el",
   "unstable": {
    "version": [
-    20221019,
-    1320
+    20230730,
+    445
    ],
    "deps": [
     "f",
     "s",
     "transient"
    ],
-   "commit": "e0a8c2b81f3d53885ed753b911b3cb6ee9229bec",
-   "sha256": "1wwhb42q86730wn08iyv4538xhvjq62jpm79bxpr1dcanc9w0wab"
+   "commit": "e008c89e01e5680473278c7e7bab42842e294e4d",
+   "sha256": "17r5r01br7k3nxy7vchhk94dz0zyrdlg66ip5wlj1kh89xwprvsq"
   }
  },
  {
@@ -50856,11 +50856,11 @@
   "repo": "haskell/haskell-mode",
   "unstable": {
    "version": [
-    20230713,
-    625
+    20230730,
+    702
    ],
-   "commit": "6f0bad7c730b99f4702267355656655b8b10049d",
-   "sha256": "00y3pcbicnvdlpra9f64qgxhh2566c5m34j1xhmdq30c6ncfcbyb"
+   "commit": "36bc06330c42105a0e7bb769b1740481976f85f1",
+   "sha256": "1sxrmw8dhrlqkmfv5ddm9ljg7y3d807kk7517aafcf0ddya88qy4"
   },
   "stable": {
    "version": [
@@ -57424,14 +57424,26 @@
   "repo": "kaorahi/howm",
   "unstable": {
    "version": [
-    20230715,
-    848
+    20230730,
+    534
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "5458e7d37a8db6de78a17adea81a2be6a8820cbe",
-   "sha256": "0w1bylq82i82ghlnfscsk2s8r8f31mwhxk20ll0aiw35jd831klr"
+   "commit": "4b68c83cd2398dabec7c10ea73526659e0d27231",
+   "sha256": "1mmc2nndwmsicc3lrji99cwl7y4bjp984pbhc2fqsbcn046skdqy"
+  },
+  "stable": {
+   "version": [
+    1,
+    5,
+    0
+   ],
+   "deps": [
+    "cl-lib"
+   ],
+   "commit": "6523a06a8d4fa3e82801d2752e927a972c9084d3",
+   "sha256": "0g3cvjxkckw0pk8xmccg5gd8hmssdl82m4awarqndp8xqp444fjn"
   }
  },
  {
@@ -112923,8 +112935,8 @@
   "repo": "shuxiao9058/tabnine",
   "unstable": {
    "version": [
-    20230728,
-    1332
+    20230730,
+    321
    ],
    "deps": [
     "dash",
@@ -112934,8 +112946,8 @@
     "transient",
     "vterm"
    ],
-   "commit": "a0030ca330621ba128243efa2a375fdaa48c48a2",
-   "sha256": "074prccpqq2k3237qklzp2ll06wb0k156hy05h9zcl8zfi7azv98"
+   "commit": "7e88eb1102695e1e495ccede6cad641e34927bf3",
+   "sha256": "0qbkfxgxs2sgrx6mbmph7py2mmxqpwd8bq7finkapyb84iv7z74h"
   }
  },
  {
@@ -121621,14 +121633,14 @@
   "repo": "ahyatt/emacs-websocket",
   "unstable": {
    "version": [
-    20230305,
-    410
+    20230730,
+    517
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "1a08093b122d8cf20366a1cba5faddf7a53d08ed",
-   "sha256": "0ji89vldf9axb34p0lwpwqb7x8qjgnk8c47k1gs71if8r1a76rph"
+   "commit": "a39ea953f27f6ae105ac5b1343852ddf13438048",
+   "sha256": "03g472k7nv0w10ap1z0vvjiwwfmxzkl8nfh6jpcsbvr2c0n8bb7h"
   },
   "stable": {
    "version": [
