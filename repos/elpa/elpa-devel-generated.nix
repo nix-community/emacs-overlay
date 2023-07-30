@@ -3101,10 +3101,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.17.0.20230415.124337";
+        version = "1.0.17.0.20230729.112319";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jsonrpc-1.0.17.0.20230415.124337.tar";
-          sha256 = "0xg2998bpdp3z6w1jp64shkwvzynnasagdgmz8gddpb3mmcqymjm";
+          url = "https://elpa.gnu.org/devel/jsonrpc-1.0.17.0.20230729.112319.tar";
+          sha256 = "0id8pih1svkp1ipnb92kh2avmb8cwrldxgj4b0kli4bi2q9i58x6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4039,10 +4039,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230728.91131";
+        version = "9.7pre0.20230729.82639";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230728.91131.tar";
-          sha256 = "159bhrk8sy7kn82rrz0m9j55k6va8x288pbdb8c8djkir9hdn7k4";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230729.82639.tar";
+          sha256 = "1w8gw08w4lqp3mwyl6cpgpc9wyqsxdmwzggxnpsk4wkqgfcv0b66";
         };
         packageRequires = [ emacs ];
         meta = {
