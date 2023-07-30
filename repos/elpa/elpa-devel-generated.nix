@@ -984,10 +984,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20230702.81913";
+        version = "0.35.0.20230729.232921";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230702.81913.tar";
-          sha256 = "0rbq67y017ghr5q5swnrqmh85ry45lj0c7n5rccaf3p9rlk9ax0s";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230729.232921.tar";
+          sha256 = "196m2flc1zhdy3iac3bk59l9402zhk4c7q99iblj7zmrf4bg5x7g";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4154,10 +4154,10 @@
       elpaBuild {
         pname = "org-remark";
         ename = "org-remark";
-        version = "1.1.0.0.20230723.144744";
+        version = "1.1.0.0.20230729.201928";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-remark-1.1.0.0.20230723.144744.tar";
-          sha256 = "0rlk2d7xm30qdymqx50b3b8rvg6maa0c6dlxw8and7mykgz2wm7q";
+          url = "https://elpa.gnu.org/devel/org-remark-1.1.0.0.20230729.201928.tar";
+          sha256 = "13kj9ncizqm5ng9hybb241v5wyl8d9mjmyfxhdam05vr9p582rwm";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -5993,10 +5993,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.1.0.20230629.64102";
+        version = "2.6.1.1.0.20230730.64606";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tramp-2.6.1.0.20230629.64102.tar";
-          sha256 = "1via5i7rc67zxajk0y9b16kqcvjvpilvazm4brvn6f518xa5yiq3";
+          url = "https://elpa.gnu.org/devel/tramp-2.6.1.1.0.20230730.64606.tar";
+          sha256 = "1vwwqf6q54cdysxbw4hqhcs3izmlzydb3k11q4x99j626rllj5nf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6664,10 +6664,10 @@
       elpaBuild {
         pname = "websocket";
         ename = "websocket";
-        version = "1.14.0.20230304.231043";
+        version = "1.14.0.20230730.11730";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/websocket-1.14.0.20230304.231043.tar";
-          sha256 = "03m3r7xsyhkz3zh84p4dkr6xn77ld8gdqpm6gjvcd4gfrs9i75wz";
+          url = "https://elpa.gnu.org/devel/websocket-1.14.0.20230730.11730.tar";
+          sha256 = "0184cjiqprf7g03kzl57623ww4jbv1pjb786gx3n25lcsv08iryr";
         };
         packageRequires = [ cl-lib ];
         meta = {
