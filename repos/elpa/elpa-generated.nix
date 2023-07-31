@@ -847,10 +847,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.1";
+        version = "29.1.4.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/compat-29.1.4.1.tar";
-          sha256 = "1r8laxmdyrpz4nmzjrndd668bks4fgmbya04m0bfzwvhlrsca940";
+          url = "https://elpa.gnu.org/packages/compat-29.1.4.2.tar";
+          sha256 = "1njvbvvx2gl10psswb8md2s9diiy476gy4yj6vwips40r0n96l3g";
         };
         packageRequires = [ emacs seq ];
         meta = {
