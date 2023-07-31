@@ -530,10 +530,10 @@
       elpaBuild {
         pname = "devil";
         ename = "devil";
-        version = "0.5.0";
+        version = "0.6.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/devil-0.5.0.tar";
-          sha256 = "0j3svcwqaysicynzhl7pmql3q75pn5hzj5q086rf43ih1p2sa1fv";
+          url = "https://elpa.nongnu.org/nongnu/devil-0.6.0.tar";
+          sha256 = "01n552pvr598igmd2q6w9kgjrwgzrgrb4w59mxpsylcv6wy2v2h5";
         };
         packageRequires = [ emacs ];
         meta = {
