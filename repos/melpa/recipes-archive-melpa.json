@@ -12288,8 +12288,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20230726,
-    1206
+    20230801,
+    1652
    ],
    "deps": [
     "clojure-mode",
@@ -12300,8 +12300,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "cc31f5b28a702238e56250535c71c180fb2bbda6",
-   "sha256": "00h08ngx4ng775ap0fmnni13wdf3pxcgj76cvnlin6s06bvxx0d9"
+   "commit": "be224e371f8b50d9870d2bac18b1c55eea3862bd",
+   "sha256": "0l9hgvxda4vfri1bf1pvxdpwv8kxp4azmsf1f0q3mkjagrrgird5"
   },
   "stable": {
    "version": [
@@ -13239,8 +13239,8 @@
   "repo": "clojure-emacs/clj-refactor.el",
   "unstable": {
    "version": [
-    20230726,
-    1357
+    20230801,
+    1030
    ],
    "deps": [
     "cider",
@@ -13253,8 +13253,8 @@
     "seq",
     "yasnippet"
    ],
-   "commit": "1fdc95a479406a83865d06f43122354c0dd2b93f",
-   "sha256": "1c7ndc81j3pljgf7n188f3mm6vm3gyiplh4mnb4y5wbkbnpiwgdc"
+   "commit": "a0f488206290acd83315f6d22171dcb9e671b7e7",
+   "sha256": "0ix028ca8s9m0az4mpvfj4gcdn3xqmhbc9bbymvy4y40g7kkf71q"
   },
   "stable": {
    "version": [
@@ -24886,16 +24886,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20230726,
-    1624
+    20230801,
+    907
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "59c18bc343b850617c4eaddc0d3a696bed9cdc80",
-   "sha256": "1mqfghlz189a3zfy7djar1v9rfnzq2l93k160cdz1x16jqzzaa2g"
+   "commit": "cb3234dab4ef2aa30e39143dc9e56ab2ce1f3e64",
+   "sha256": "1055i46w8445kc6b12zb6y0wwmfhclr93kbihrffbw7wjf0kbhs8"
   },
   "stable": {
    "version": [
@@ -65808,14 +65808,14 @@
   "repo": "benjaminor/kkp",
   "unstable": {
    "version": [
-    20230728,
-    1412
+    20230801,
+    851
    ],
    "deps": [
     "compat"
    ],
-   "commit": "86086ec13a489ac0300feaa0ae695f361c985abf",
-   "sha256": "1isi7v6qnrqn3s5z57l701hpz6jdcjfcjz6pjwq6rcdggj589hah"
+   "commit": "a8392e2e9f6fa45594a7b12cd0958c9066b28f03",
+   "sha256": "03zhikr4jwcrj6lwf2k9crykwr9d6sc94hijy27bhdjcvb29dz4l"
   }
  },
  {
@@ -69984,8 +69984,8 @@
   "repo": "emacs-lsp/lsp-java",
   "unstable": {
    "version": [
-    20230615,
-    614
+    20230801,
+    943
    ],
    "deps": [
     "dap-mode",
@@ -69997,8 +69997,8 @@
     "request",
     "treemacs"
    ],
-   "commit": "2fe0ba5cb61c0defe7a1f61f759213a9c7176fbe",
-   "sha256": "1iznmpg83iw8w5rl032yvv1m933jiy9wjjliql3haybij3f6gxq7"
+   "commit": "79882a2d2956c00a15b9497903ba0cc4da754cba",
+   "sha256": "1nifbr9pg75x3f4npp6lyy59j8r61r7sga536yn3afk6wf75kip9"
   },
   "stable": {
    "version": [
@@ -79309,14 +79309,14 @@
   "repo": "emacscollective/no-littering",
   "unstable": {
    "version": [
-    20230730,
-    1156
+    20230801,
+    1005
    ],
    "deps": [
     "compat"
    ],
-   "commit": "b448e73689bdb8ca2cfd58a843c68213247d5803",
-   "sha256": "19rnf7d126lbkxhycgmc9c49wcgl4drdmf520k6szicdv5pl8q3h"
+   "commit": "fcfd51fbdf08469e6d1b59bc4bd2d75aa708c791",
+   "sha256": "190lhzqdn4681frk0ih519c3riwxc6mz16q3bisl3l7brsp1rgwj"
   },
   "stable": {
    "version": [
@@ -125007,20 +125007,20 @@
   "repo": "thanosapollo/yeetube.el",
   "unstable": {
    "version": [
-    20230720,
-    1218
+    20230801,
+    1357
    ],
-   "commit": "36aa99af164aaf9769fcee8c48f9a832d26d2545",
-   "sha256": "0g47j36fw6827hkp7mkpv75l72czkh3a2x13rzwhfqflp6v67sd5"
+   "commit": "379202c0c8e6870866dc09336d4c9dccabf1d677",
+   "sha256": "189pvjzbn8rspkbpgr0lydvb9c0kajv5p3l1sqzbyykn90jvfi5f"
   },
   "stable": {
    "version": [
     1,
-    3,
-    4
+    4,
+    0
    ],
-   "commit": "36aa99af164aaf9769fcee8c48f9a832d26d2545",
-   "sha256": "0g47j36fw6827hkp7mkpv75l72czkh3a2x13rzwhfqflp6v67sd5"
+   "commit": "78a91ad3a33763563d1ba5bd2e5c2074b1ea3407",
+   "sha256": "0dqzdwbs1gy832qipj086zwdwhl379j4vykd5wkvivvlkafj9313"
   }
  },
  {
