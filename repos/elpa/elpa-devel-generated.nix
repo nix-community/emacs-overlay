@@ -225,17 +225,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    altcaps = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    altcaps = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "altcaps";
         ename = "altcaps";
-        version = "1.1.0.0.20230727.121052";
+        version = "1.1.0.0.20230801.43558";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/altcaps-1.1.0.0.20230727.121052.tar";
-          sha256 = "0xan62m56rskgk477rshw28pb64mvviv4mfyykc6ji5nd3hdndys";
+          url = "https://elpa.gnu.org/devel/altcaps-1.1.0.0.20230801.43558.tar";
+          sha256 = "12z37dc7add0lq1fqzjx9ipmzgnpymn4pipk3q1x9sngrg06q8q0";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1301,10 +1298,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20230721.122838";
+        version = "2.0.0.0.20230801.45022";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20230721.122838.tar";
-          sha256 = "1y3q409f9np9c6l8mccw8k34xdhyb0ln8wbzzph60m14nxn0r4jq";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20230801.45022.tar";
+          sha256 = "09qca4wqfz3gnji48gb5n0x1iv59k63xbgc53b2iggfxrfdblg4n";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1703,10 +1700,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.2.0.0.20230723.101032";
+        version = "1.2.0.0.20230801.62117";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.2.0.0.20230723.101032.tar";
-          sha256 = "00q6mi0nyp0r5idxmm93v7v69ad0lj4rfc0d7w532yr65snnfgps";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.2.0.0.20230801.62117.tar";
+          sha256 = "0p5h8xq1pb23s3slnrry8a65rh6pl39hhbkl404d40hil169nnyl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2786,10 +2783,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20230717.3206";
+        version = "8.0.1pre0.20230801.1831";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230717.3206.tar";
-          sha256 = "1sv28ya2r2zf491av655bz8vqd49knz4n5zm52b5n5yn5zc7cg93";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230801.1831.tar";
+          sha256 = "1r8i8nf03h712xyd3zrgkqrr1f6n5mwgq43s6b5vanj65vnf3dbh";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4154,10 +4151,10 @@
       elpaBuild {
         pname = "org-remark";
         ename = "org-remark";
-        version = "1.1.0.0.20230730.140659";
+        version = "1.1.0.0.20230731.204715";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-remark-1.1.0.0.20230730.140659.tar";
-          sha256 = "0l60jh9zail1qv6qws53jqr944q19309rfxw3f5d84cr5gpykyc7";
+          url = "https://elpa.gnu.org/devel/org-remark-1.1.0.0.20230731.204715.tar";
+          sha256 = "0pfy42rhg4cfm55j2dlbs2dc5j6gbs7xi91nx8qcmjm57mipq53i";
         };
         packageRequires = [ emacs org ];
         meta = {
