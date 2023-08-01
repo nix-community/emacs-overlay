@@ -19,10 +19,16 @@
     , flake-utils
     }:
     let
+      inherit (nixpkgs) lib;
       importPkgs = path: attrs: import path (attrs // {
         config.allowAliases = false;
         overlays = [ self.overlays.default ];
       });
+
+      emacsenSystems = [
+        "x86_64-linux"
+      ];
+
     in
     {
       # self: super: must be named final: prev: for `nix flake check` to be happy
@@ -35,28 +41,27 @@
       overlay = self.overlays.default;
 
       # Run Hercules CI for these systems.
-      herculesCI.ciSystems = [ "x86_64-linux" ];
+      herculesCI = { branch, ... }: let
+        # All package sets our Hercules CI deployment needs to support
+        pkgs' = flake-utils.lib.eachSystem emacsenSystems (
+          system: {
+            "unstable" = importPkgs nixpkgs { inherit system; };
+          } // lib.optionalAttrs (system != "aarch64-darwin") {
+            "23.05" = importPkgs nixpkgs-stable { inherit system; };
+          }
+        );
 
-    } // flake-utils.lib.eachSystem [ "x86_64-linux" ] (system:
-    {
-      hydraJobs =
-        let
-          mkHydraJobs = pkgs:
-            let
-              inherit (pkgs) lib;
+      in {
+        onPush.default.outputs = { };  # Do not use default set
 
-              filterNonDrvAttrs = s: lib.mapAttrs (_: v: if (lib.isDerivation v) then v else filterNonDrvAttrs v) (lib.filterAttrs (_: v: lib.isDerivation v || (builtins.typeOf v == "set" && ! builtins.hasAttr "__functor" v)) s);
+        onPush.emacsen = {
+          outputs = lib.optionalAttrs (branch != "master") (
+            lib.mapAttrs (system: channel: lib.mapAttrs (_: pkgs: {
 
-              mkEmacsSet = emacs: filterNonDrvAttrs (pkgs.recurseIntoAttrs (pkgs.emacsPackagesFor emacs));
-
-            in
-            {
-              emacsen = {
-                inherit (pkgs) emacs-unstable emacs-unstable-nox;
-                inherit (pkgs) emacs-unstable-pgtk;
-                inherit (pkgs) emacs-git emacs-git-nox;
-                inherit (pkgs) emacs-pgtk;
-              };
+              inherit (pkgs) emacs-unstable emacs-unstable-nox;
+              inherit (pkgs) emacs-unstable-pgtk;
+              inherit (pkgs) emacs-git emacs-git-nox;
+              inherit (pkgs) emacs-pgtk;
 
               emacsen-cross =
                 let
@@ -76,17 +81,26 @@
                           inherit (targetPkgs) emacs-pgtk;
                         }))
                     crossTargets);
-
-              packages = mkEmacsSet pkgs.emacs;
-              packages-unstable = mkEmacsSet pkgs.emacs-unstable;
-            };
-
-        in
-        {
-          "23.05" = mkHydraJobs (importPkgs nixpkgs-stable { inherit system; });
-          "unstable" = mkHydraJobs (importPkgs nixpkgs { inherit system; });
+                }) channel) pkgs');
         };
-    }) // flake-utils.lib.eachDefaultSystem (system: (
+
+        onPush.packages = let
+          filterNonDrvAttrs = s: lib.mapAttrs (_: v: if (lib.isDerivation v) then v else filterNonDrvAttrs v) (lib.filterAttrs (_: v: lib.isDerivation v || (builtins.typeOf v == "set" && ! builtins.hasAttr "__functor" v)) s);
+          mkEmacsSet' = pkgs: emacs: filterNonDrvAttrs (pkgs.recurseIntoAttrs (pkgs.emacsPackagesFor emacs));
+
+        in {
+          outputs = lib.optionalAttrs (branch != "master") (
+            lib.mapAttrs (system: channel: lib.mapAttrs (_: pkgs: let
+              mkEmacsSet = mkEmacsSet' pkgs;
+            in {
+              default = mkEmacsSet pkgs.emacs;
+              unstable = mkEmacsSet pkgs.emacs-unstable;
+            }) channel) pkgs');
+        };
+
+      };
+
+    } // flake-utils.lib.eachDefaultSystem (system: (
       let
         pkgs = importPkgs nixpkgs { inherit system; };
         inherit (pkgs) lib;
