@@ -33,6 +33,10 @@
       };
       # for backward compatibility, is safe to delete, not referenced anywhere
       overlay = self.overlays.default;
+
+      # Run Hercules CI for these systems.
+      herculesCI.ciSystems = [ "x86_64-linux" ];
+
     } // flake-utils.lib.eachSystem [ "x86_64-linux" ] (system:
     {
       hydraJobs =
