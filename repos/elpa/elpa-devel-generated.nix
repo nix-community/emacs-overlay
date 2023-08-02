@@ -966,10 +966,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.2.0.20230730.130029";
+        version = "29.1.4.2.0.20230801.155333";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/compat-29.1.4.2.0.20230730.130029.tar";
-          sha256 = "1bx923qf87xds2imwd1vf4l7gfsv5a7xbldnnx8vvf7g9jmfy80n";
+          url = "https://elpa.gnu.org/devel/compat-29.1.4.2.0.20230801.155333.tar";
+          sha256 = "0qx36ikpm9fjyk9azyghprljiz21fbxin7xm3kdl41qzhlzzqdr8";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -3877,10 +3877,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "1.0.1.0.20230727.123155";
+        version = "1.0.1.0.20230801.130142";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.0.1.0.20230727.123155.tar";
-          sha256 = "15nskdl06pf6srwhl6kgc2rf79w5kpvyq1wpiq8r4qd6pknss3jp";
+          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.0.1.0.20230801.130142.tar";
+          sha256 = "0c3iwgfaw4qy8a7s86nn82lqv1bw3cypmnr1bmyz4iyjdwfzb8xd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5875,10 +5875,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "0.8.0.20230714.161058";
+        version = "0.8.0.20230801.91019";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tempel-0.8.0.20230714.161058.tar";
-          sha256 = "0s1c81njsbkyrjsj69idzp81ysv18gi633pxhn5s07x4rq6456lx";
+          url = "https://elpa.gnu.org/devel/tempel-0.8.0.20230801.91019.tar";
+          sha256 = "0c4srhrb6pak34xqni0dxgi9n3la8avd0y9hgfb0n1xyzyh03v0v";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6857,10 +6857,10 @@
       elpaBuild {
         pname = "xr";
         ename = "xr";
-        version = "1.23.0.20230731.161809";
+        version = "1.24.0.20230801.101425";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xr-1.23.0.20230731.161809.tar";
-          sha256 = "1f9mr26wpb6mbicywrl7cxka8pfazh4176rwh54y3xpma57vmqrm";
+          url = "https://elpa.gnu.org/devel/xr-1.24.0.20230801.101425.tar";
+          sha256 = "0dzwvbs62z07fyni4xh73wd1s2ipvrhcvid3cqs7m86kwgbh3g41";
         };
         packageRequires = [ emacs ];
         meta = {

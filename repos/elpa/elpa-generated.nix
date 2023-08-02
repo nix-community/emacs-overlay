@@ -6111,10 +6111,10 @@
       elpaBuild {
         pname = "xr";
         ename = "xr";
-        version = "1.23";
+        version = "1.24";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xr-1.23.tar";
-          sha256 = "1nz3fhd4qx8fxib78y41jvnzn27lf7mlvpkz565d5zc9q4mr300z";
+          url = "https://elpa.gnu.org/packages/xr-1.24.tar";
+          sha256 = "04g7qx6qmhp98pw5iwdhspln9sg9jzjq2zp3nmq3q1yl82pzd214";
         };
         packageRequires = [ emacs ];
         meta = {
