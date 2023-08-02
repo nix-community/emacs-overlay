@@ -1042,10 +1042,10 @@
       elpaBuild {
         pname = "cursory";
         ename = "cursory";
-        version = "1.0.0";
+        version = "1.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cursory-1.0.0.tar";
-          sha256 = "08mh6564xr4dni53dm7m4jz8cf8v6i99xnrxyp76zvaa809zc5q3";
+          url = "https://elpa.gnu.org/packages/cursory-1.0.1.tar";
+          sha256 = "0m6q7x5144l2q582gdaqgirvgy30ljd1qyjf82l3v1jkc5qf9wfr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4448,10 +4448,10 @@
       elpaBuild {
         pname = "relint";
         ename = "relint";
-        version = "1.22";
+        version = "1.23";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/relint-1.22.tar";
-          sha256 = "1525hk961q4af06c5a60m7ryp5g8yvfxjp5nmmgkci7vl3ing8zi";
+          url = "https://elpa.gnu.org/packages/relint-1.23.tar";
+          sha256 = "0cyv9hjlyxy1c2394544ljq5d4prhi296y9j2zy6p1lq6irncmv9";
         };
         packageRequires = [ emacs xr ];
         meta = {
