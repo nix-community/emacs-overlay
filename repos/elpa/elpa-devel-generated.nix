@@ -294,10 +294,10 @@
       elpaBuild {
         pname = "async";
         ename = "async";
-        version = "1.9.7.0.20230528.62258";
+        version = "1.9.7.0.20230802.104021";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/async-1.9.7.0.20230528.62258.tar";
-          sha256 = "15gl3p29id1gzza6m39q9w23yiydfhcq7ckk0m8hj8i1y5d7bb7n";
+          url = "https://elpa.gnu.org/devel/async-1.9.7.0.20230802.104021.tar";
+          sha256 = "1w300q3fgnpibsbgkmxpicxv5ba8xj7cv9i28j7854b49d6xvjb6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -966,10 +966,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.2.0.20230801.155333";
+        version = "29.1.4.2.0.20230802.161111";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/compat-29.1.4.2.0.20230801.155333.tar";
-          sha256 = "0qx36ikpm9fjyk9azyghprljiz21fbxin7xm3kdl41qzhlzzqdr8";
+          url = "https://elpa.gnu.org/devel/compat-29.1.4.2.0.20230802.161111.tar";
+          sha256 = "17fqkg9r73gmb19nxdyx7wy9c0kyqwbzhfps7j2lfrvkfzki008l";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -4033,10 +4033,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230802.74239";
+        version = "9.7pre0.20230802.130602";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230802.74239.tar";
-          sha256 = "1yy26ik8mxyyiyck7vqhg09l24dprdkz41rzngiciw8bsav35ixc";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230802.130602.tar";
+          sha256 = "0x3c6kallx1370gbqh33mhq7jybharwjd7jd9wjslvjm7c009y8d";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4379,10 +4379,10 @@
       elpaBuild {
         pname = "perl-doc";
         ename = "perl-doc";
-        version = "0.6.0.20230706.212801";
+        version = "0.8.0.20230802.121441";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/perl-doc-0.6.0.20230706.212801.tar";
-          sha256 = "0730hnxk479kb9msa8jggg8f6wbcbyvfa4fhgmhbpnb05hrsc565";
+          url = "https://elpa.gnu.org/devel/perl-doc-0.8.0.20230802.121441.tar";
+          sha256 = "0yn3fmlg5i4582nwnr5fr00wzgwj833a2gsc8r9knicizc4wh846";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4621,10 +4621,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "0.5.0.0.20230727.121635";
+        version = "0.5.0.0.20230802.115005";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pulsar-0.5.0.0.20230727.121635.tar";
-          sha256 = "0c6wm4vbva307h930f2gk4s24rbjkcrw30qky91cbksrx5yvq9xw";
+          url = "https://elpa.gnu.org/devel/pulsar-0.5.0.0.20230802.115005.tar";
+          sha256 = "17ykmwwy364m8xvbjgavi9s9nlqysjwgvfbavjrr7c6ga7lm16ha";
         };
         packageRequires = [ emacs ];
         meta = {
