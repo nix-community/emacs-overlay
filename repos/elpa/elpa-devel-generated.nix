@@ -2035,10 +2035,10 @@
       elpaBuild {
         pname = "ess";
         ename = "ess";
-        version = "18.10.3snapshot0.20230419.152710";
+        version = "18.10.3snapshot0.20230803.60048";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ess-18.10.3snapshot0.20230419.152710.tar";
-          sha256 = "04mbnx6mlkpkdh700x0xdfyw31idgypcmag2sdk29dgqza761b9r";
+          url = "https://elpa.gnu.org/devel/ess-18.10.3snapshot0.20230803.60048.tar";
+          sha256 = "0glw3kgmk6c6iv7xlq9shh6w6y34pqnbma6a6j0jwd7fq0px7j8w";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3209,10 +3209,10 @@
       elpaBuild {
         pname = "leaf";
         ename = "leaf";
-        version = "4.5.5.0.20221107.5633";
+        version = "4.5.5.0.20230803.74443";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/leaf-4.5.5.0.20221107.5633.tar";
-          sha256 = "1r76jfd0z771dllxqzgrg5z0vli3y3516frdjrlcc1mprj35dml5";
+          url = "https://elpa.gnu.org/devel/leaf-4.5.5.0.20230803.74443.tar";
+          sha256 = "1ixyiy2zq3v0vz1jbazba41x3m3azb6zvpjm0721dakkqv8k7idj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4033,10 +4033,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230802.130602";
+        version = "9.7pre0.20230803.52954";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230802.130602.tar";
-          sha256 = "0x3c6kallx1370gbqh33mhq7jybharwjd7jd9wjslvjm7c009y8d";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230803.52954.tar";
+          sha256 = "0gmj562rrgnz9nj65hzvshcx6hflcm4r768s4kx22avf4c5hl5w4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5700,10 +5700,10 @@
       elpaBuild {
         pname = "svg-tag-mode";
         ename = "svg-tag-mode";
-        version = "0.3.2.0.20230110.182450";
+        version = "0.3.2.0.20230803.50443";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20230110.182450.tar";
-          sha256 = "0ym02nj3c2ca2dfkj5jyvzc1bq1ymhg5nq8r9rnjxh73y6069knw";
+          url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20230803.50443.tar";
+          sha256 = "1973scw129mx9v7z1ms2ai56ljj5slpckv80vxl3jjlgmjxxzg61";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
