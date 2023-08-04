@@ -472,10 +472,10 @@
       elpaBuild {
         pname = "bind-key";
         ename = "bind-key";
-        version = "2.4.1.0.20230101.54747";
+        version = "2.4.1.0.20230804.31751";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/bind-key-2.4.1.0.20230101.54747.tar";
-          sha256 = "0x6h8kbigak7m8570jz40iym0mzsjran090391f99dn6ka7qdsp2";
+          url = "https://elpa.gnu.org/devel/bind-key-2.4.1.0.20230804.31751.tar";
+          sha256 = "1h02g1lcl27fsz1jvisdy4fjp4ddknr9d1qj633bkmg3nrr06mr2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2780,10 +2780,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20230801.1831";
+        version = "8.0.1pre0.20230803.213520";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230801.1831.tar";
-          sha256 = "1r8i8nf03h712xyd3zrgkqrr1f6n5mwgq43s6b5vanj65vnf3dbh";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230803.213520.tar";
+          sha256 = "0j4yq47nk10q3lfsqr271ryq2r5j0n4nnclkvk5zrvv4abmv3v0b";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3418,10 +3418,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.3.0.20230713.184647";
+        version = "1.3.0.20230804.50410";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/marginalia-1.3.0.20230713.184647.tar";
-          sha256 = "1sh8lv8m22970ls6cs09gwi93wbfmmadmpjqhz5kp20s104q3n1i";
+          url = "https://elpa.gnu.org/devel/marginalia-1.3.0.20230804.50410.tar";
+          sha256 = "11qn47maa02b8qgm1b35vgks34r8dapi9cvglp4nljpn7gl7q07s";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4033,10 +4033,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230803.135204";
+        version = "9.7pre0.20230804.75419";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230803.135204.tar";
-          sha256 = "09mqrbjh2srf80j0i48cryyx9dkw3v1gkmviglr7i0kkvaq767lx";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230804.75419.tar";
+          sha256 = "1bca4l2n39qhbszs6wlpn1ganr5hfmjmb2mrqxsq87nmz5y5w14v";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6237,10 +6237,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.2.0snapshot0.20230801.205415";
+        version = "0.2.0snapshot0.20230803.140824";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.2.0snapshot0.20230801.205415.tar";
-          sha256 = "0paklvakyd8hjln0xvwdkv7zg7bh4713pk4w9z5c2b85qpiiyghr";
+          url = "https://elpa.gnu.org/devel/urgrep-0.2.0snapshot0.20230803.140824.tar";
+          sha256 = "04v2dzia264z07h5vkx1q2203mfdcj8apmyjp00nir63vb3i8d9z";
         };
         packageRequires = [ compat emacs project ];
         meta = {
