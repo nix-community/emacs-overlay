@@ -5133,10 +5133,10 @@
       elpaBuild {
         pname = "system-packages";
         ename = "system-packages";
-        version = "1.0.11";
+        version = "1.0.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/system-packages-1.0.11.tar";
-          sha256 = "0xf2q5bslxpw0wycgi2k983lnfpw182rgdzq0f99f64kb7ifns9y";
+          url = "https://elpa.gnu.org/packages/system-packages-1.0.12.tar";
+          sha256 = "1q962z0lbdz7qw60lbhzqs8cqc66rhvsyjghy6rs7iqmq6h2sf8c";
         };
         packageRequires = [ emacs ];
         meta = {
