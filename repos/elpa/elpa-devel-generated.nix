@@ -3418,10 +3418,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.3.0.20230804.50410";
+        version = "1.3.0.20230804.135705";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/marginalia-1.3.0.20230804.50410.tar";
-          sha256 = "11qn47maa02b8qgm1b35vgks34r8dapi9cvglp4nljpn7gl7q07s";
+          url = "https://elpa.gnu.org/devel/marginalia-1.3.0.20230804.135705.tar";
+          sha256 = "08lj9hfnrbdychslnbbn663z0a0zwpswqh5sfz54jkjcn1m29xml";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3616,10 +3616,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.2.0.0.20230718.41242";
+        version = "4.2.0.0.20230804.93355";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230718.41242.tar";
-          sha256 = "1x9n2bw1wi9i7ajcy83mm4i8v1mbnb8r4xbrg2qancy0i82l7n2b";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230804.93355.tar";
+          sha256 = "1vw5jfkwmn2xccvkqrfxd7glgrgm43va8fjb57wf2kqcy3hfk7dv";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4033,10 +4033,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230804.75419";
+        version = "9.7pre0.20230804.110825";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230804.75419.tar";
-          sha256 = "1bca4l2n39qhbszs6wlpn1ganr5hfmjmb2mrqxsq87nmz5y5w14v";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230804.110825.tar";
+          sha256 = "14z0jdjs6r8my12dn2w27qll8gcahr0jhs7bybk0yz4ygbgf450b";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4668,10 +4668,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20230720.160046";
+        version = "0.28.0.20230804.122126";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20230720.160046.tar";
-          sha256 = "0irdqccqbs1lwyngxqbj7if9rsr2qdvrjmzisx7s9ibcgm16h7qs";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20230804.122126.tar";
+          sha256 = "0wvjdsmxajz9dl7mnj0m2hqs0ln8s98gp3h1b60bpz18fww2r90y";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
