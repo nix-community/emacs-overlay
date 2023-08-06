@@ -24884,16 +24884,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20230805,
-    1703
+    20230806,
+    414
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "608c97f3e1c71d0bc0988a1834a43260e344033e",
-   "sha256": "02h4nq711q8fqb1p2wwl8zasy6zfbi896641qdl30rw5s1dylybq"
+   "commit": "9ffebb5783fa9c241ce470cb52bb3cd0b40e9228",
+   "sha256": "088gxkxr4m6gjgazpw3m27gl5cn2v357b5fmc2k7cxxxmkzkshvd"
   },
   "stable": {
    "version": [
@@ -51204,29 +51204,30 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20230805,
-    1606
+    20230806,
+    517
    ],
    "deps": [
     "helm-core",
     "popup",
     "wfnames"
    ],
-   "commit": "2e514ad65ea0fdd282becf4f99e16f9c2b360371",
-   "sha256": "00hiihb2n1nyb1h9lpyg777wmvfsir0y8yrgfm089qhlqpsl02gp"
+   "commit": "e347a2c98438e2dbb5b1f681729f00c0e816ffc6",
+   "sha256": "1mqr16vdlc2fqm5xkfrx5ll5iv61i7b63l1mpv48sl5rv2g8kb44"
   },
   "stable": {
    "version": [
     3,
     9,
-    1
+    3
    ],
    "deps": [
     "helm-core",
-    "popup"
+    "popup",
+    "wfnames"
    ],
-   "commit": "1b411786346f1df38af3d37c389975db3a103353",
-   "sha256": "0f9yqi0b7sdhpi9fkl1k5waaafccy0ryzbyq0pdrh79jh6bhqiv3"
+   "commit": "e347a2c98438e2dbb5b1f681729f00c0e816ffc6",
+   "sha256": "1mqr16vdlc2fqm5xkfrx5ll5iv61i7b63l1mpv48sl5rv2g8kb44"
   }
  },
  {
@@ -52078,26 +52079,26 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20230805,
-    1946
+    20230806,
+    517
    ],
    "deps": [
     "async"
    ],
-   "commit": "cc045f492ed07692987808f82b7c2bcfd59551e2",
-   "sha256": "022y5bix4jmh7gbhs0nfyl1c6ggavkx630glrr31g1rf10gpc40j"
+   "commit": "e347a2c98438e2dbb5b1f681729f00c0e816ffc6",
+   "sha256": "1mqr16vdlc2fqm5xkfrx5ll5iv61i7b63l1mpv48sl5rv2g8kb44"
   },
   "stable": {
    "version": [
     3,
     9,
-    1
+    3
    ],
    "deps": [
     "async"
    ],
-   "commit": "1b411786346f1df38af3d37c389975db3a103353",
-   "sha256": "0f9yqi0b7sdhpi9fkl1k5waaafccy0ryzbyq0pdrh79jh6bhqiv3"
+   "commit": "e347a2c98438e2dbb5b1f681729f00c0e816ffc6",
+   "sha256": "1mqr16vdlc2fqm5xkfrx5ll5iv61i7b63l1mpv48sl5rv2g8kb44"
   }
  },
  {
@@ -85141,15 +85142,15 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20230524,
-    1244
+    20230806,
+    741
    ],
    "deps": [
     "fb2-reader",
     "nerd-icons"
    ],
-   "commit": "003e0967d85f9589bc828cf044c149fd59b45d2e",
-   "sha256": "1g01gkxxpc9428fq2wnnrnsrxpq442x5xg24jp1wih2d6296q4li"
+   "commit": "0971b910dcaeed62f6a0afd5c31585a510d4eeb6",
+   "sha256": "0bsn8m505sj1pfks1gws2za3yvrqqk99nbqm2c4qcz6n6bxk0hr4"
   }
  },
  {
