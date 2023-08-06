@@ -890,10 +890,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.9.13.0.20230703.202120";
+        version = "0.9.13.0.20230805.204526";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.9.13.0.20230703.202120.tar";
-          sha256 = "1v5xagayjf0dnfs0irngqvqfcw43iijcwzf4a3mf19il8634mx3k";
+          url = "https://elpa.gnu.org/devel/company-0.9.13.0.20230805.204526.tar";
+          sha256 = "1z9kmx7r8wpy2vvzp6a12q48xcf43i0bqw56j2h0112h19m9zj8k";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4029,10 +4029,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230805.131735";
+        version = "9.7pre0.20230806.72218";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230805.131735.tar";
-          sha256 = "0jp6lmfryi3p0xnaq793dmm962da9a64vvix7xgv2g2y3id5fjp2";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230806.72218.tar";
+          sha256 = "11hk2zc3013i3dzqpgw2apbg6hb96kc1zbwnngnf3ld0fwaw5g0j";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4371,14 +4371,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    perl-doc = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    perl-doc = callPackage ({ elpaBuild
+                            , emacs
+                            , fetchurl
+                            , lib }:
       elpaBuild {
         pname = "perl-doc";
         ename = "perl-doc";
-        version = "0.8.0.20230802.121441";
+        version = "0.81.0.20230805.210315";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/perl-doc-0.8.0.20230802.121441.tar";
-          sha256 = "0yn3fmlg5i4582nwnr5fr00wzgwj833a2gsc8r9knicizc4wh846";
+          url = "https://elpa.gnu.org/devel/perl-doc-0.81.0.20230805.210315.tar";
+          sha256 = "0p4vryw3by2g9kqmmdn6vi01cqgj5pwgfjcimivcxvq7vzvdafz0";
         };
         packageRequires = [ emacs ];
         meta = {
