@@ -1029,10 +1029,10 @@
       elpaBuild {
         pname = "geiser";
         ename = "geiser";
-        version = "0.29";
+        version = "0.29.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-0.29.tar";
-          sha256 = "0dzqqxb83krvc6w6rwyh2i012js2qg261cgppn2dwck8cw843jx8";
+          url = "https://elpa.nongnu.org/nongnu/geiser-0.29.1.tar";
+          sha256 = "0k9jvnaci23swyf3zy67f9msz205d9vdm90rgidnl81w7hg8gjm4";
         };
         packageRequires = [ emacs project ];
         meta = {
@@ -1396,16 +1396,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    haskell-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+    haskell-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "haskell-mode";
         ename = "haskell-mode";
-        version = "17.2";
+        version = "17.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/haskell-mode-17.2.tar";
-          sha256 = "1crq9065jy3941z9wh09n82x7bbbmxgcn9ylfj9xgn1rcvgb0cmg";
+          url = "https://elpa.nongnu.org/nongnu/haskell-mode-17.4.tar";
+          sha256 = "0xf8smasbb53ddg4vxckpg5w48dnm16v2k5vimfqr73cig49z87f";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/haskell-mode.html";
           license = lib.licenses.free;
