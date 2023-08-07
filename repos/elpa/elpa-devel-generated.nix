@@ -1766,10 +1766,10 @@
       elpaBuild {
         pname = "eldoc";
         ename = "eldoc";
-        version = "1.14.0.0.20230413.164237";
+        version = "1.14.0.0.20230602.82442";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eldoc-1.14.0.0.20230413.164237.tar";
-          sha256 = "07fqmdm1fl9466272y1ywnsxq6d3j3vhy6sl7zqgh9kfq0b9xdn5";
+          url = "https://elpa.gnu.org/devel/eldoc-1.14.0.0.20230602.82442.tar";
+          sha256 = "1wz7m96i4kdhijfcgim58w23znq1r5g9q0l0ivyjik550lmr69c7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6236,10 +6236,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.2.0snapshot0.20230804.235827";
+        version = "0.2.0snapshot0.20230806.222346";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.2.0snapshot0.20230804.235827.tar";
-          sha256 = "0vlci7z2kpvrzlzlpfga0n3hbldqsi4whk73m6m3l8p8zxcidyca";
+          url = "https://elpa.gnu.org/devel/urgrep-0.2.0snapshot0.20230806.222346.tar";
+          sha256 = "0y8r3qhsyxa6q3hdq14ysligs7l3c6q6q6my8xyhg0rkmzg8kknx";
         };
         packageRequires = [ compat emacs project ];
         meta = {
