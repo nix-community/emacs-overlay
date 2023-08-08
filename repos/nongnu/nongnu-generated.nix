@@ -3111,6 +3111,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    wfnames = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "wfnames";
+        ename = "wfnames";
+        version = "1.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/wfnames-1.1.tar";
+          sha256 = "04plvqn4srv1v7d7zx6qb0xm62c1hwkiqpq34w17daw9si2pvpan";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/wfnames.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     wgrep = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "wgrep";
