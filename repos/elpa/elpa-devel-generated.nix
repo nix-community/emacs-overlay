@@ -3129,10 +3129,10 @@
       elpaBuild {
         pname = "kind-icon";
         ename = "kind-icon";
-        version = "0.2.0.0.20230805.145201";
+        version = "0.2.0.0.20230807.172220";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/kind-icon-0.2.0.0.20230805.145201.tar";
-          sha256 = "0calziv294vwbgqy7pjdnfhcgbx7x47129dhwnrdlim2xj5p4lj1";
+          url = "https://elpa.gnu.org/devel/kind-icon-0.2.0.0.20230807.172220.tar";
+          sha256 = "1c6331ygw9hnbxvh2vady14yzlqg72gjnl28ijgwfyhrrr6wni4i";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
@@ -4033,10 +4033,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230807.115917";
+        version = "9.7pre0.20230808.70100";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230807.115917.tar";
-          sha256 = "0kral8kinp687di1ssm6b33idm87g4q0fra4gdnssvqgcl43hypk";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230808.70100.tar";
+          sha256 = "0p1fzpsfxaricdrcpa9c9sd75ldpi8bv1mf1m9zwwzmff3dkyy5f";
         };
         packageRequires = [ emacs ];
         meta = {
