@@ -1426,16 +1426,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    helm = callPackage ({ elpaBuild, fetchurl, helm-core, lib, popup }:
+    helm = callPackage ({ elpaBuild, fetchurl, helm-core, lib, popup, wfnames }:
       elpaBuild {
         pname = "helm";
         ename = "helm";
-        version = "3.9.1";
+        version = "3.9.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-3.9.1.tar";
-          sha256 = "0gfhqag2f2ci3l9v504s1dv8shz5ncmiw2658q1d16w63fgakafk";
+          url = "https://elpa.nongnu.org/nongnu/helm-3.9.3.tar";
+          sha256 = "1wlkx0iyx00s15v30p0rdsdjzm1za7yk2gnyv806ln07k0gll4af";
         };
-        packageRequires = [ helm-core popup ];
+        packageRequires = [ helm-core popup wfnames ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/helm.html";
           license = lib.licenses.free;
