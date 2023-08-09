@@ -1701,10 +1701,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.2.0.0.20230802.50954";
+        version = "1.3.0.0.20230809.63319";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.2.0.0.20230802.50954.tar";
-          sha256 = "0sfcqcccpki50fia7z4bbx93z91rd3l8jfq4xwswxqppsx4icwgj";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.3.0.0.20230809.63319.tar";
+          sha256 = "02p9jj5kr3y1kn0l8n8bksh47vmhazl75cm3hff9hh879pd1cwx6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2780,10 +2780,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20230807.225228";
+        version = "8.0.1pre0.20230809.12131";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230807.225228.tar";
-          sha256 = "0kkjzpg8a5ni3a2jh2nmr067rh70srjdq97sgjnh357626izpknx";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230809.12131.tar";
+          sha256 = "00v62q8fzkcfa76kzcg8gms7gfkj0ckpmb45gc1r4vkl25caafaq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4033,10 +4033,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230808.125456";
+        version = "9.7pre0.20230809.72635";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230808.125456.tar";
-          sha256 = "1klgf6hi4k97gf0dgjj94s7pmp0hilsx5ayrrl299dqc0954pczd";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230809.72635.tar";
+          sha256 = "00alislh4x5s3wxjgzgliv26bps23cylsx6xkfv2if5mh62a8l5q";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4624,10 +4624,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "0.5.0.0.20230802.115005";
+        version = "0.5.0.0.20230809.50958";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pulsar-0.5.0.0.20230802.115005.tar";
-          sha256 = "17ykmwwy364m8xvbjgavi9s9nlqysjwgvfbavjrr7c6ga7lm16ha";
+          url = "https://elpa.gnu.org/devel/pulsar-0.5.0.0.20230809.50958.tar";
+          sha256 = "05lyic1bqmvblxvijdhnjy7vxzyz6fmq7xawmvqs7rc1z1cwp7a4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6243,10 +6243,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.2.0snapshot0.20230806.222346";
+        version = "0.2.0snapshot0.20230808.144515";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.2.0snapshot0.20230806.222346.tar";
-          sha256 = "0y8r3qhsyxa6q3hdq14ysligs7l3c6q6q6my8xyhg0rkmzg8kknx";
+          url = "https://elpa.gnu.org/devel/urgrep-0.2.0snapshot0.20230808.144515.tar";
+          sha256 = "17a4yv2z2gs5cd49rblwhk37ya12i8lr2m05l2g03wfna2xbd0ff";
         };
         packageRequires = [ compat emacs project ];
         meta = {
@@ -6664,10 +6664,10 @@
       elpaBuild {
         pname = "websocket";
         ename = "websocket";
-        version = "1.14.0.20230730.11730";
+        version = "1.15.0.20230808.230535";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/websocket-1.14.0.20230730.11730.tar";
-          sha256 = "0184cjiqprf7g03kzl57623ww4jbv1pjb786gx3n25lcsv08iryr";
+          url = "https://elpa.gnu.org/devel/websocket-1.15.0.20230808.230535.tar";
+          sha256 = "1li62x00jirf3z0llx262j6galpsvbcrq4daybnfkskmj4br5lhp";
         };
         packageRequires = [ cl-lib ];
         meta = {

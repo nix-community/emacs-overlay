@@ -1507,10 +1507,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.2.0";
+        version = "1.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-1.2.0.tar";
-          sha256 = "1s4kw4y8k66x76j6c03gr2my2s95ymdjxwh01lzhyy5xkggikqfj";
+          url = "https://elpa.gnu.org/packages/ef-themes-1.3.0.tar";
+          sha256 = "1cchc1cfp2y32d736r4523gjzvg4rd1nqddxsjsk5kialz06alms";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5926,10 +5926,10 @@
       elpaBuild {
         pname = "websocket";
         ename = "websocket";
-        version = "1.14";
+        version = "1.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/websocket-1.14.tar";
-          sha256 = "0g75kaw9bdk30apiyk09583amnw9458kkmgbbcl2myqfqspywnva";
+          url = "https://elpa.gnu.org/packages/websocket-1.15.tar";
+          sha256 = "0mvvq9gsx856ip2gkrvjw4k8a85vrrkp27dcpkvamxq93lfd7hin";
         };
         packageRequires = [ cl-lib ];
         meta = {
