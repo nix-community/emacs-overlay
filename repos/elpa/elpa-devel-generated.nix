@@ -966,10 +966,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.2.0.20230802.161111";
+        version = "29.1.4.2.0.20230809.125543";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/compat-29.1.4.2.0.20230802.161111.tar";
-          sha256 = "17fqkg9r73gmb19nxdyx7wy9c0kyqwbzhfps7j2lfrvkfzki008l";
+          url = "https://elpa.gnu.org/devel/compat-29.1.4.2.0.20230809.125543.tar";
+          sha256 = "1ln8p4p2canrg4jvirar5q8dc4r15vj1x1bc1hzs2znhp4m2iccy";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -1726,10 +1726,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20230803.101902";
+        version = "1.15.0.20230809.131525";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230803.101902.tar";
-          sha256 = "1vi1k5bps3gcp0vvl3zrysgbsccfn75mymvr8r8r062wwy6djbra";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230809.131525.tar";
+          sha256 = "1113y7i82capizmpvcl9bnlcsncgbsn4cyfmvf2sgl8arq2qpp22";
         };
         packageRequires = [
           eldoc
@@ -4033,10 +4033,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230809.72635";
+        version = "9.7pre0.20230809.95253";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230809.72635.tar";
-          sha256 = "00alislh4x5s3wxjgzgliv26bps23cylsx6xkfv2if5mh62a8l5q";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230809.95253.tar";
+          sha256 = "1332l8gnrr7wg9m29v595gxhlb0215j17ljrx8fnnxb5ic6fdpgb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6477,10 +6477,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20230806.182417";
+        version = "1.4.0.20230809.140817";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230806.182417.tar";
-          sha256 = "00jiv47pg3cqybyd0sdhzc9kz3zs0sq8ajfqkz9s9j7km5bmdfr0";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230809.140817.tar";
+          sha256 = "16p3dxacl064p0apyhyr1w8961h1d1ckzx65x20f6y43flpgv96i";
         };
         packageRequires = [ compat emacs ];
         meta = {
