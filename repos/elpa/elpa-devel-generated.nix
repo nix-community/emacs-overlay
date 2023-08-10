@@ -5603,10 +5603,10 @@
       elpaBuild {
         pname = "standard-themes";
         ename = "standard-themes";
-        version = "1.2.0.0.20230602.54907";
+        version = "1.2.0.0.20230810.52100";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/standard-themes-1.2.0.0.20230602.54907.tar";
-          sha256 = "0fjibdx8hif1d82d4l7x3ky64b45l9qdyq1sgbv16qlyl5lbhnbb";
+          url = "https://elpa.gnu.org/devel/standard-themes-1.2.0.0.20230810.52100.tar";
+          sha256 = "0595rwb88mks5db2y9dmf4lr96d389igxr9jzmq76l322saabql6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6136,10 +6136,10 @@
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.3.4.0.20230726.211145";
+        version = "0.3.5.0.20230809.231343";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/triples-0.3.4.0.20230726.211145.tar";
-          sha256 = "0v477ja1jw8mdz5hq86p2aqlj8nmavidw02j9fj0xahv8cvcmjm7";
+          url = "https://elpa.gnu.org/devel/triples-0.3.5.0.20230809.231343.tar";
+          sha256 = "0fhwwagwghygg64p05r5vzj6vd2n9inv8v53y2mfjxvsbbz463rc";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -6243,10 +6243,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.2.0snapshot0.20230808.144515";
+        version = "0.2.0snapshot0.20230809.222709";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.2.0snapshot0.20230808.144515.tar";
-          sha256 = "17a4yv2z2gs5cd49rblwhk37ya12i8lr2m05l2g03wfna2xbd0ff";
+          url = "https://elpa.gnu.org/devel/urgrep-0.2.0snapshot0.20230809.222709.tar";
+          sha256 = "1hjgzvjbhc9zs2n7fhlkbnndgpgzg7fzl82mq77qwx4xy9zn5xlk";
         };
         packageRequires = [ compat emacs project ];
         meta = {
