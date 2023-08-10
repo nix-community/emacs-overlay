@@ -406,10 +406,10 @@
       elpaBuild {
         pname = "corfu-terminal";
         ename = "corfu-terminal";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/corfu-terminal-0.6.tar";
-          sha256 = "1ndg7ac61gi3ikzygaac8368jw0fwa0xs7kbnz1xp083095y5r0p";
+          url = "https://elpa.nongnu.org/nongnu/corfu-terminal-0.7.tar";
+          sha256 = "1vva3wwmczdph8dlhvwy1vlan8nmzlz6370zia6hz3adwc496a4s";
         };
         packageRequires = [ corfu emacs popon ];
         meta = {
