@@ -688,10 +688,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.16.0.20230713.173507";
+        version = "0.16.0.20230810.92905";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-0.16.0.20230713.173507.tar";
-          sha256 = "0qy7crwvzkhbb3gyg3dg18gpb1x83rk6vqspz23bifrvgwyg3pxz";
+          url = "https://elpa.gnu.org/devel/cape-0.16.0.20230810.92905.tar";
+          sha256 = "04n9zgdqk13cilwqx3dk28vlmn6gmy07bary9w6mnfdsprz8g6xl";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1033,10 +1033,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.37.0.20230808.95500";
+        version = "0.37.0.20230810.103306";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.37.0.20230808.95500.tar";
-          sha256 = "00r477qf9kgynanmh3yrkjbb9jawyss52z72pwr0bvri8d2j9jvn";
+          url = "https://elpa.gnu.org/devel/corfu-0.37.0.20230810.103306.tar";
+          sha256 = "01y329m9bd7g0sv4krnpaza92j1hz075v6xib25w3gjwbjmhakc9";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3024,10 +3024,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.9.0.20230730.120017";
+        version = "0.9.0.20230810.103215";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230730.120017.tar";
-          sha256 = "15wl22ias9rhihxzrf0m81hdxgpq3kc6v6mlp44cfdrx50mkm1r6";
+          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230810.103215.tar";
+          sha256 = "0vi49cns7mkxgh5psj70a1yklf3k3z5a7llcgys2wpg26zicwgqa";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3616,10 +3616,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.2.0.0.20230804.93355";
+        version = "4.2.0.0.20230810.92808";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230804.93355.tar";
-          sha256 = "1vw5jfkwmn2xccvkqrfxd7glgrgm43va8fjb57wf2kqcy3hfk7dv";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230810.92808.tar";
+          sha256 = "1y137dhjwjssclak8kck0zqbpj69rdg860hl51ks4gjmcdm65dk1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4033,10 +4033,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230809.95253";
+        version = "9.7pre0.20230810.124730";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230809.95253.tar";
-          sha256 = "1332l8gnrr7wg9m29v595gxhlb0215j17ljrx8fnnxb5ic6fdpgb";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230810.124730.tar";
+          sha256 = "0s8n4asdpzvdv6ahj36qghkv3pw8rlzwrb5nwpinzhhlbrn263xy";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5875,10 +5875,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "0.8.0.20230801.91019";
+        version = "0.8.0.20230810.103124";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tempel-0.8.0.20230801.91019.tar";
-          sha256 = "0c4srhrb6pak34xqni0dxgi9n3la8avd0y9hgfb0n1xyzyh03v0v";
+          url = "https://elpa.gnu.org/devel/tempel-0.8.0.20230810.103124.tar";
+          sha256 = "03drjwih8qjwza2kif6jxkfj9mv7d7dr6dvxz0r2jydplmr8ridx";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6477,10 +6477,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20230809.140817";
+        version = "1.4.0.20230810.174755";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230809.140817.tar";
-          sha256 = "16p3dxacl064p0apyhyr1w8961h1d1ckzx65x20f6y43flpgv96i";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230810.174755.tar";
+          sha256 = "1cqmi1nj0i41fpv29aqglxld84xn0s9jsn8rfw150rxpw96fi82v";
         };
         packageRequires = [ compat emacs ];
         meta = {
