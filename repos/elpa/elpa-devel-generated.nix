@@ -688,10 +688,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.16.0.20230810.92905";
+        version = "0.16.0.20230811.162417";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-0.16.0.20230810.92905.tar";
-          sha256 = "04n9zgdqk13cilwqx3dk28vlmn6gmy07bary9w6mnfdsprz8g6xl";
+          url = "https://elpa.gnu.org/devel/cape-0.16.0.20230811.162417.tar";
+          sha256 = "1mk86l4sfcskxd85c9gclrnr8n4nkmvabv5dw10pbaj443kya4vr";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -981,10 +981,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20230806.180216";
+        version = "0.35.0.20230811.123250";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230806.180216.tar";
-          sha256 = "1rm70q1c4zfvy99r1af54l0hm54yx20mgfp73s9srmyz7af216l5";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230811.123250.tar";
+          sha256 = "1dsrlrs35w5qzmgczn69vr0javc7175hknd3hy5w5vfdgvmarrp5";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4033,10 +4033,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230810.124730";
+        version = "9.7pre0.20230811.162436";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230810.124730.tar";
-          sha256 = "0s8n4asdpzvdv6ahj36qghkv3pw8rlzwrb5nwpinzhhlbrn263xy";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230811.162436.tar";
+          sha256 = "04w5d92g09q280i1l0qflkl4xwa88qvq0mjjxrjg2njna864fgal";
         };
         packageRequires = [ emacs ];
         meta = {
