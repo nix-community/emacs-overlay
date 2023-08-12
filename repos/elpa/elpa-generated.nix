@@ -4103,10 +4103,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "0.5.0";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pulsar-0.5.0.tar";
-          sha256 = "1bs6f8j1a7vypwm087zsrccv5kbahxyg3nhc65ffgpwrnxfp4v96";
+          url = "https://elpa.gnu.org/packages/pulsar-1.0.0.tar";
+          sha256 = "0d7dpdiffa17r8phn9ifmzrl3s6svmwfmxwb2kdjvsx1ws14dqpl";
         };
         packageRequires = [ emacs ];
         meta = {
