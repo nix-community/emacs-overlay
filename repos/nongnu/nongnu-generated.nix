@@ -306,10 +306,10 @@
       elpaBuild {
         pname = "cdlatex";
         ename = "cdlatex";
-        version = "4.15";
+        version = "4.17";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/cdlatex-4.15.tar";
-          sha256 = "1dj525adlc6qmv4msbhhlhli5603l0sgi40qfi6cs01ggqkpw64j";
+          url = "https://elpa.nongnu.org/nongnu/cdlatex-4.17.tar";
+          sha256 = "1b30b89fjcgcaqhgz7xpacwwraxqxrji66v5b9gjzsx4zplfgxcn";
         };
         packageRequires = [];
         meta = {
@@ -3243,10 +3243,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "24.4.20230811133840";
+        version = "24.5.20230812104032";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.4.20230811133840.tar";
-          sha256 = "1q6690khr8r8agnjkdmjl616r80z30p4wr64glm8m8zmji3pscsn";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.5.20230812104032.tar";
+          sha256 = "19zqndrk6mk1x6r8bzv5xv020c3896rvw1x79b23apvq289fyr8z";
         };
         packageRequires = [ emacs ];
         meta = {
