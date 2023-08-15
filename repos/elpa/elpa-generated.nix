@@ -599,10 +599,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.16";
+        version = "0.17";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cape-0.16.tar";
-          sha256 = "1l9zw71dl5g3q9iysd64l27id63w3klqy9dzc1fn1q6y5gsf8bl4";
+          url = "https://elpa.gnu.org/packages/cape-0.17.tar";
+          sha256 = "1kby5qbw2z5c6629vfx6dx4f1a8gx58ciif9b9589drc6fnnsnlr";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -907,10 +907,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.37";
+        version = "0.38";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-0.37.tar";
-          sha256 = "0r5c8960nxfdn0kc0x7v0sla0mqids54s5xw9rj6818w1vk9r7g7";
+          url = "https://elpa.gnu.org/packages/corfu-0.38.tar";
+          sha256 = "1pj7zdcqfk77fvfqgvp1gri4m11akn5hd87av28k745i7s0nq0i6";
         };
         packageRequires = [ compat emacs ];
         meta = {
