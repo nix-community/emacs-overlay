@@ -4033,10 +4033,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230814.115911";
+        version = "9.7pre0.20230815.115058";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230814.115911.tar";
-          sha256 = "0m8djhiin5gcbrx0ixd1mhgrqxq1blxy4p1n72697fg72dyx23hl";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230815.115058.tar";
+          sha256 = "15phjp8ibrjz2a309ngaa45pp3q6lzn7rgvy4zrhxk5n99s4nrd7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4408,6 +4408,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    phpinspect = callPackage ({ compat, elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "phpinspect";
+        ename = "phpinspect";
+        version = "0.0.20230815.195253";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/phpinspect-0.0.20230815.195253.tar";
+          sha256 = "1nvw6y0rg7s44ld8a46zncm9lw456p8il3i4jnl79j1dh8wc8yi7";
+        };
+        packageRequires = [ compat ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/phpinspect.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     phps-mode = callPackage ({ elpaBuild
                              , emacs
                              , fetchurl
@@ -4620,10 +4635,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "1.0.0.0.20230812.65441";
+        version = "1.0.1.0.20230815.114437";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pulsar-1.0.0.0.20230812.65441.tar";
-          sha256 = "1sak7ykab4qkp1mlfk54d3xdk02awnkr1cgfma08gdjxszvpkw6d";
+          url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20230815.114437.tar";
+          sha256 = "0c2bp3p90xhxaihylndlvaqza126gngrajyfbayayrrb15bn1k8b";
         };
         packageRequires = [ emacs ];
         meta = {
