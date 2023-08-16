@@ -1899,10 +1899,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.11pre0.20230814.22533";
+        version = "0.11pre0.20230815.211946";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.11pre0.20230814.22533.tar";
-          sha256 = "1z2vcysdnn9w649qpbmmaipkk682zv2r6fd8gdhck03667pv40wr";
+          url = "https://elpa.gnu.org/devel/ement-0.11pre0.20230815.211946.tar";
+          sha256 = "0csm3f8z90bjm91dgkf20yhdfr9x1xvxx468mh7md5azn0ab4imk";
         };
         packageRequires = [
           emacs
@@ -4412,10 +4412,10 @@
       elpaBuild {
         pname = "phpinspect";
         ename = "phpinspect";
-        version = "0.0.20230815.195253";
+        version = "0.0.20230816.70410";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/phpinspect-0.0.20230815.195253.tar";
-          sha256 = "1nvw6y0rg7s44ld8a46zncm9lw456p8il3i4jnl79j1dh8wc8yi7";
+          url = "https://elpa.gnu.org/devel/phpinspect-0.0.20230816.70410.tar";
+          sha256 = "0r4qh7z0qm5j32n48ba6kd7r8shcwvxbzmawyh2x5rcsz67rpjv1";
         };
         packageRequires = [ compat ];
         meta = {
