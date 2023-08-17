@@ -981,10 +981,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20230812.142815";
+        version = "0.35.0.20230816.204947";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230812.142815.tar";
-          sha256 = "15v8j7g50hjj6qbinzz864k15kqk5ysfr6sb58cjxfrhshh2dilc";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230816.204947.tar";
+          sha256 = "1m6pwa0sk7qyn75924v06ndf4524frl8v3kffg4a7v0d11k22q68";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1033,10 +1033,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20230814.114446";
+        version = "0.38.0.20230816.203425";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20230814.114446.tar";
-          sha256 = "16hqq59gvb93lyr5lwj1crfapmbnav8zpikr8hk367glfk4zy2ma";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20230816.203425.tar";
+          sha256 = "14q6zyri914ac3hb08w6iyb13rqm322jkk3w9v63cs6c7jzqn5n2";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3024,10 +3024,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.9.0.20230812.125507";
+        version = "0.9.0.20230816.204512";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230812.125507.tar";
-          sha256 = "01ldzp380pm51r6h124zvimdrfhmm64429r5a17ixwk3m53s98hc";
+          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230816.204512.tar";
+          sha256 = "1qpd4n70822fwbg0cb8jdg4zahzwm8jlh3fq9m5482m2dk45fywb";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4091,10 +4091,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "0.10.0.20230702.80510";
+        version = "0.10.0.20230816.203404";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-0.10.0.20230702.80510.tar";
-          sha256 = "0jja7d7kk5ns5i5m617zqzvk2n4sxq4q323wgrzng50g2h4w505a";
+          url = "https://elpa.gnu.org/devel/org-modern-0.10.0.20230816.203404.tar";
+          sha256 = "0i6vqjd8cwpy2rphzx1gid1rln9ipk6pr3xclm5l44fq5lg1r075";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4590,10 +4590,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.9.8.0.20230812.5853";
+        version = "0.9.8.0.20230817.11609";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.9.8.0.20230812.5853.tar";
-          sha256 = "0p4b1zy3c2lmlfbzzhcrfyh2vn685l1ra8vm0ns6l9g2idd7n40f";
+          url = "https://elpa.gnu.org/devel/project-0.9.8.0.20230817.11609.tar";
+          sha256 = "17ks1dh6kffnm9zgsl21akwis0d7hkn9fp7xgl0v3v53fagxj915";
         };
         packageRequires = [ emacs xref ];
         meta = {
