@@ -4033,10 +4033,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230816.103206";
+        version = "9.7pre0.20230817.125420";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230816.103206.tar";
-          sha256 = "1rpsvmv4bhmcprf9ff7b5id6469a787wn0jb60spygsvyn6s9f00";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230817.125420.tar";
+          sha256 = "0wybhmjbmp3szk28alva2dql4a19k6dmjk7085v4rjyc4lz2jir8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4412,10 +4412,10 @@
       elpaBuild {
         pname = "phpinspect";
         ename = "phpinspect";
-        version = "0.0.20230816.103335";
+        version = "0.0.20230817.125220";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/phpinspect-0.0.20230816.103335.tar";
-          sha256 = "081fplwhqbj5mlmdwm4k8ik7mjag8a04lddlgrzb0hhlk5rnr435";
+          url = "https://elpa.gnu.org/devel/phpinspect-0.0.20230817.125220.tar";
+          sha256 = "15cifbfi8qp7d73x8zvgl7k3kngiy0abyi0bpr7w4nz2c0ic3cf6";
         };
         packageRequires = [ compat ];
         meta = {
@@ -6488,10 +6488,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20230810.174755";
+        version = "1.4.0.20230817.103229";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230810.174755.tar";
-          sha256 = "1cqmi1nj0i41fpv29aqglxld84xn0s9jsn8rfw150rxpw96fi82v";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230817.103229.tar";
+          sha256 = "0al9xc19bk6xyp6q2441hcxax6ja3swfq8xdbg49d1xr192yfihb";
         };
         packageRequires = [ compat emacs ];
         meta = {
