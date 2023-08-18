@@ -2770,16 +2770,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    sweeprolog = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    sweeprolog = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.22.2";
+        version = "0.23.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.22.2.tar";
-          sha256 = "1sq4r3np34fcgn844n0dz6x1vgy0c49whz8k8h6vy37s9fv9m56y";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.23.0.tar";
+          sha256 = "0l2n3411ljbsfy2b2akp30488yi2hbhkyhm8jr1fs39n9k8aks48";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/sweeprolog.html";
           license = lib.licenses.free;
