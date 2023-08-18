@@ -5773,10 +5773,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.7.2";
+        version = "0.7.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-posframe-0.7.2.tar";
-          sha256 = "1sbgg0syyk24phwzji40lyw5dmwxssgvwv2fs8mbmkhv0q44f9ny";
+          url = "https://elpa.gnu.org/packages/vertico-posframe-0.7.3.tar";
+          sha256 = "1gfapchkj9jkzlyz3hzkb9kpifcak0fn4y5jw6f2cs6379sjwvzm";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
