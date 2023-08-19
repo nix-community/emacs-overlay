@@ -1445,10 +1445,10 @@
       elpaBuild {
         pname = "helm-core";
         ename = "helm-core";
-        version = "3.9.3";
+        version = "3.9.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-core-3.9.3.tar";
-          sha256 = "07svs1hdj30vrncp0kbmkxlfmwmdvd7nb19851p1bk0a7llkbfpm";
+          url = "https://elpa.nongnu.org/nongnu/helm-core-3.9.4.tar";
+          sha256 = "11aa019d5impf6c3apaz44hv5hjfg3g4wn4a1m7a5svr6isfa79w";
         };
         packageRequires = [ async emacs ];
         meta = {
@@ -3243,10 +3243,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "24.6.20230815153238";
+        version = "24.6.20230818103059";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.6.20230815153238.tar";
-          sha256 = "0l9nyrbqq56lqvf0dhlqcr4l1i4n670rdwy39vn8qm7jrwxmi09r";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.6.20230818103059.tar";
+          sha256 = "1c58hd1xmwx21k5wh8n0ynfb9swcl5p9fii5i9a7qyjwrrw9v3zz";
         };
         packageRequires = [ emacs ];
         meta = {
