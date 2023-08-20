@@ -1858,10 +1858,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.22.1.0.20230819.101938";
+        version = "0.22.1.0.20230819.234248";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230819.101938.tar";
-          sha256 = "1pyjcjm67hrf0n4kmc1ipi6r1bgbpn8s89z9cxpds54cazhc1k6y";
+          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230819.234248.tar";
+          sha256 = "045prpg95yqhyd6bjxc7in68bgq2swm29m29a6wbqbi1j1481asv";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1878,10 +1878,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.7.0.20230819.101938";
+        version = "0.7.0.20230819.234248";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230819.101938.tar";
-          sha256 = "0mwbkkvfv27vya6fqgkx5x8zyvqh5hlax894jizclcp4xiskl4bf";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230819.234248.tar";
+          sha256 = "0r7lxxzz35qi32alzpwy86nsdg7yqw2k3570r6h6nlvxs5vk59rq";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -4037,10 +4037,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230819.94753";
+        version = "9.7pre0.20230820.64325";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230819.94753.tar";
-          sha256 = "0d3i4zw60d0487s3wrbh18ya351an9g9khzvcigpavdyn7x1q8n0";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230820.64325.tar";
+          sha256 = "0p0s4brbm6zhcrnrn7xa0rcfajm9cskxhm6f2grql12xj3mj3276";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4152,10 +4152,10 @@
       elpaBuild {
         pname = "org-remark";
         ename = "org-remark";
-        version = "1.1.0.0.20230819.63356";
+        version = "1.1.0.0.20230820.54618";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-remark-1.1.0.0.20230819.63356.tar";
-          sha256 = "08p30isfqikzm4jdpmnkm0hg99yq59f56wcy42838iqnnkpx32sw";
+          url = "https://elpa.gnu.org/devel/org-remark-1.1.0.0.20230820.54618.tar";
+          sha256 = "1019a4s0wr16qdhhya662s3ply8w84pa9576mi59dzih1hnqmgza";
         };
         packageRequires = [ emacs org ];
         meta = {
