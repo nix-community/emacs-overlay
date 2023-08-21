@@ -8053,11 +8053,11 @@
   "repo": "gdonald/blackjack-el",
   "unstable": {
    "version": [
-    20230820,
-    121
+    20230821,
+    41
    ],
-   "commit": "0398f9d59b323d7b9f6fd57f0c5c2e1b134e44aa",
-   "sha256": "0k9mpai7f1flai7vb13skasrsg6z0xrwxv5rdnklxn5ijw7vz0df"
+   "commit": "7f9072630a159b59a146346b5dae24ab8fb5f290",
+   "sha256": "1wnm2v9cv0idyks8q6qrxrsby0adpap5ywy9ab602jjidf6ajxm4"
   },
   "stable": {
    "version": [
@@ -12142,14 +12142,14 @@
   "repo": "breatheoutbreathein/chordpro-mode.el",
   "unstable": {
    "version": [
-    20230807,
-    1606
+    20230821,
+    750
    ],
    "deps": [
     "compat"
    ],
-   "commit": "2206eb246f47851a34da190169e2ce2486747c19",
-   "sha256": "1wavrld9ac2nbkqpxk50a697g3khxnawiinx83dcq58x5mdkh4l8"
+   "commit": "819a0913ca7967d4069f02fbfb24654352cb2a89",
+   "sha256": "18qdiz1kfwi1kf436hz82zdgi2l94h7y5lkpb21z2948hrw38a6d"
   },
   "stable": {
    "version": [
@@ -17843,15 +17843,15 @@
   "repo": "OlMon/consult-projectile",
   "unstable": {
    "version": [
-    20220617,
-    1042
+    20230821,
+    406
    ],
    "deps": [
     "consult",
     "projectile"
    ],
-   "commit": "5ef1ada3be767ea766255801050210f5d796deec",
-   "sha256": "1x0h9jbgkm32gs75hha3cwk5l24mpq0lmsik03msnc4wl2kvpnhm"
+   "commit": "400439c56d17bca7888f7d143d8a11f84900a406",
+   "sha256": "1abd2dw3zpiln9pd7l3j78wl3lwapcmf1ilijv3vin9g0wqb7hmn"
   }
  },
  {
@@ -58364,8 +58364,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20230820,
-    2356
+    20230821,
+    629
    ],
    "deps": [
     "compat",
@@ -58373,8 +58373,8 @@
     "persist",
     "plz"
    ],
-   "commit": "c7a4078c1c06ce328ab78aa2d86d8b10c7232958",
-   "sha256": "0w1yzsb64chj1c7q3al86gwgd5c146wa17bvd1y46wdhlivjyly2"
+   "commit": "c4c803b3b4463d9fba1820a019ca5e05b013d00c",
+   "sha256": "1hn0fr02g412bn2w7s8gilkds5gclrb1xw0pv46b50hqkjvlhq2g"
   }
  },
  {
@@ -64762,16 +64762,17 @@
   "repo": "psibi/justl.el",
   "unstable": {
    "version": [
-    20230810,
-    957
+    20230821,
+    318
    ],
    "deps": [
     "f",
+    "inheritenv",
     "s",
     "transient"
    ],
-   "commit": "d8fae037a873b51e0b14b137f1c2b813dc89b853",
-   "sha256": "18br70n3jv6pxm3hrvlj5g01ja7lhkqw9661fz28v63liidnpbkh"
+   "commit": "30350ded297b74980e0cafb75030001a21531acf",
+   "sha256": "0gp0xfjr4a39gxx971wshd0xb0wdkkdc0lvnj87894kl3pq37fc2"
   },
   "stable": {
    "version": [
@@ -113893,15 +113894,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20230820,
-    1547
+    20230821,
+    536
    ],
    "deps": [
     "rainbow-identifiers",
     "visual-fill-column"
    ],
-   "commit": "f28d640651b1164f7b462c89ac35f7546266ab77",
-   "sha256": "1w3vn0af6c93walnh7y3hn76gx9xxcc8abw35bmbzha5gz3gvhr2"
+   "commit": "51fcc0523f2928cf275788b8842cbba5c3173bf8",
+   "sha256": "0ld2793dqwd20g4rlqqaacfa3ywg96ssm7mybv1ymx6rfl2cqkl4"
   },
   "stable": {
    "version": [
