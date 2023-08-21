@@ -688,10 +688,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.17.0.20230819.173552";
+        version = "0.17.0.20230820.160922";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-0.17.0.20230819.173552.tar";
-          sha256 = "04h2a4fk3v0jb6lwxyhcgq8yi309bvvgi1imqydfy7xcaz9m9j5k";
+          url = "https://elpa.gnu.org/devel/cape-0.17.0.20230820.160922.tar";
+          sha256 = "0frqpvjlbnyylfx5l881nwpf2x2r51d967xc7yvn7mda0n2w7030";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2096,6 +2096,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/expand-region.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    expreg = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "expreg";
+        ename = "expreg";
+        version = "1.0.0.0.20230820.101011";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/expreg-1.0.0.0.20230820.101011.tar";
+          sha256 = "004flxkqwgdb3cki99q7wp6f011xka856mi6pzd9cv1s1zfq7ijq";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/expreg.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -4037,10 +4052,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230820.64325";
+        version = "9.7pre0.20230820.111549";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230820.64325.tar";
-          sha256 = "0p0s4brbm6zhcrnrn7xa0rcfajm9cskxhm6f2grql12xj3mj3276";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230820.111549.tar";
+          sha256 = "0sgrchkzz0smhzyv7ixgvsw54ia8cadqks1czlzz9m0fja9q92nz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4152,10 +4167,10 @@
       elpaBuild {
         pname = "org-remark";
         ename = "org-remark";
-        version = "1.1.0.0.20230820.54618";
+        version = "1.2.1.0.20230820.174914";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-remark-1.1.0.0.20230820.54618.tar";
-          sha256 = "1019a4s0wr16qdhhya662s3ply8w84pa9576mi59dzih1hnqmgza";
+          url = "https://elpa.gnu.org/devel/org-remark-1.2.1.0.20230820.174914.tar";
+          sha256 = "0r81zhyqpzzfw4cmz8c5jhspcvlimq47bql3mfk6s7hgvjf2zh7l";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -4590,14 +4605,18 @@
           license = lib.licenses.free;
         };
       }) {};
-    project = callPackage ({ elpaBuild, emacs, fetchurl, lib, xref }:
+    project = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib
+                           , xref }:
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.9.8.0.20230817.11609";
+        version = "0.9.8.0.20230820.162316";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.9.8.0.20230817.11609.tar";
-          sha256 = "17ks1dh6kffnm9zgsl21akwis0d7hkn9fp7xgl0v3v53fagxj915";
+          url = "https://elpa.gnu.org/devel/project-0.9.8.0.20230820.162316.tar";
+          sha256 = "08v4k5imhbv97l7cs1czn28kp6m2dyz4b3xcqj9zzmzgjhlyz5g6";
         };
         packageRequires = [ emacs xref ];
         meta = {

@@ -1863,6 +1863,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    expreg = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "expreg";
+        ename = "expreg";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/expreg-1.0.0.tar";
+          sha256 = "0fyyp1cqhgbqmyjb4dyr49zg3jpj3hkhgzl1lh2gcp08d83jl6av";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/expreg.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     external-completion = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "external-completion";
@@ -3728,10 +3743,10 @@
       elpaBuild {
         pname = "org-remark";
         ename = "org-remark";
-        version = "1.1.0";
+        version = "1.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-remark-1.1.0.tar";
-          sha256 = "0vbs4dz86bz1s5crf7gfm4h4wpb7ibky3698ghdb4v4d5piz86ld";
+          url = "https://elpa.gnu.org/packages/org-remark-1.2.1.tar";
+          sha256 = "0xf10kgb0g4y9i4s1d3a1i5a119a1pijzhp5xxj2b2wyvjs2g3yk";
         };
         packageRequires = [ emacs org ];
         meta = {
