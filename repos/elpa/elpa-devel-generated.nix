@@ -1903,10 +1903,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.11pre0.20230815.211946";
+        version = "0.11.0.20230821.121045";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.11pre0.20230815.211946.tar";
-          sha256 = "0csm3f8z90bjm91dgkf20yhdfr9x1xvxx468mh7md5azn0ab4imk";
+          url = "https://elpa.gnu.org/devel/ement-0.11.0.20230821.121045.tar";
+          sha256 = "1n2agp3r50dhmfd95a5kim2p44anvigdarvcwnw447x934f46410";
         };
         packageRequires = [
           emacs
@@ -2832,10 +2832,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.32.0.20230812.105121";
+        version = "0.33.0.20230821.101343";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/inspector-0.32.0.20230812.105121.tar";
-          sha256 = "073zl2x3584c0d3qafwy32m8zxv4hzpnij38w9fzpq61kb2m6628";
+          url = "https://elpa.gnu.org/devel/inspector-0.33.0.20230821.101343.tar";
+          sha256 = "15x73qhdkwsdh3dg8n1051jrcvyjdygpx44c4k23vfrsgjwkd66i";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3213,10 +3213,10 @@
       elpaBuild {
         pname = "latex-table-wizard";
         ename = "latex-table-wizard";
-        version = "1.5.2.0.20230516.145709";
+        version = "1.5.3.0.20230821.110703";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/latex-table-wizard-1.5.2.0.20230516.145709.tar";
-          sha256 = "0rdk12bdra2k5wncykx3268l66sbap7kx0z2ywnbrgqfnrkcvpx2";
+          url = "https://elpa.gnu.org/devel/latex-table-wizard-1.5.3.0.20230821.110703.tar";
+          sha256 = "0sbzmi279hni1rk02jg6jz2gfhl0q53vgm0ck0d6444yfdd9a3cg";
         };
         packageRequires = [ auctex emacs transient ];
         meta = {
@@ -4052,10 +4052,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230821.72133";
+        version = "9.7pre0.20230821.102441";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230821.72133.tar";
-          sha256 = "1yn1hf036xpgl7f02crv63n40rgwsnz7j90gx7dck4jbb26pr2fa";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230821.102441.tar";
+          sha256 = "0c0xim1lwi4vj2808py0599yz7b4dp4ffl2vgjgcqgp1h9vxn2dm";
         };
         packageRequires = [ emacs ];
         meta = {

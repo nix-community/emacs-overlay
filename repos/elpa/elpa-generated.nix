@@ -1696,10 +1696,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.10";
+        version = "0.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.10.tar";
-          sha256 = "0iw4vk99h15zhq507praqqar9sc5yyk5hbckygbr4x6af88jc02i";
+          url = "https://elpa.gnu.org/packages/ement-0.11.tar";
+          sha256 = "0hsing0iwb69qmnzqii66rqb0cwy3k35ybl68a9jh7iw97jcxm73";
         };
         packageRequires = [
           emacs
@@ -2539,10 +2539,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.32";
+        version = "0.33";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.32.tar";
-          sha256 = "1mjsnl1bbn6wql6v4jx5zd6lj81k73vdamfihfv6yqkgpy80nisp";
+          url = "https://elpa.gnu.org/packages/inspector-0.33.tar";
+          sha256 = "1kap3z68sjjaszmmznl4kk6mr31yd99cqv4yj34zb94vsb2xb6xj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2879,10 +2879,10 @@
       elpaBuild {
         pname = "latex-table-wizard";
         ename = "latex-table-wizard";
-        version = "1.5.2";
+        version = "1.5.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/latex-table-wizard-1.5.2.tar";
-          sha256 = "0vm4iv0ryff95yld8hlrlmn0wfgkj9690yiwd8pvja2w5m578mf2";
+          url = "https://elpa.gnu.org/packages/latex-table-wizard-1.5.3.tar";
+          sha256 = "1lwnz3c4228cnbxnqrm6g476khb0gqgh1qdjm39q8w89nw47vvfy";
         };
         packageRequires = [ auctex emacs transient ];
         meta = {
