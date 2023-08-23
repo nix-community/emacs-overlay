@@ -306,10 +306,10 @@
       elpaBuild {
         pname = "cdlatex";
         ename = "cdlatex";
-        version = "4.17";
+        version = "4.18";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/cdlatex-4.17.tar";
-          sha256 = "1b30b89fjcgcaqhgz7xpacwwraxqxrji66v5b9gjzsx4zplfgxcn";
+          url = "https://elpa.nongnu.org/nongnu/cdlatex-4.18.tar";
+          sha256 = "15jmy0m1rnpnldl5kwfkipzphgyw4l3fyh30ig3kmzyj8jnpfy4q";
         };
         packageRequires = [];
         meta = {
@@ -1869,10 +1869,10 @@
       elpaBuild {
         pname = "meow";
         ename = "meow";
-        version = "1.4.3";
+        version = "1.4.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/meow-1.4.3.tar";
-          sha256 = "0anpmgpr969lkyzmsms9pcbdhjpfpwyf865pmgl0zd23m922d8s6";
+          url = "https://elpa.nongnu.org/nongnu/meow-1.4.4.tar";
+          sha256 = "013nmc0jcvwfh6s1l59kld8393ld4sy5icbah9hzd0chj6l72mgh";
         };
         packageRequires = [ emacs ];
         meta = {
