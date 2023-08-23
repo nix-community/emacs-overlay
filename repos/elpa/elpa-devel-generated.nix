@@ -4052,10 +4052,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230821.102441";
+        version = "9.7pre0.20230822.82559";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230821.102441.tar";
-          sha256 = "0c0xim1lwi4vj2808py0599yz7b4dp4ffl2vgjgcqgp1h9vxn2dm";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230822.82559.tar";
+          sha256 = "112i3y565bwzxc6wmwah1jmdbnpjk0kw80x16m6lin75mk1xqqrj";
         };
         packageRequires = [ emacs ];
         meta = {
