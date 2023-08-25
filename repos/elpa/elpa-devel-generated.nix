@@ -1850,18 +1850,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    embark = callPackage ({ compat
-                          , elpaBuild
-                          , emacs
-                          , fetchurl
-                          , lib }:
+    embark = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.22.1.0.20230821.140757";
+        version = "0.22.1.0.20230824.80305";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230821.140757.tar";
-          sha256 = "1mpglgz20fhjix0dxcgjzhvxdw14vx2n977spql6gnsicpbj8p5n";
+          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230824.80305.tar";
+          sha256 = "1mdl8nczdhswr4i6mx0vay35b474kcvfbanzxqiy5d7jkjnlqki3";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1878,10 +1874,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.7.0.20230821.140757";
+        version = "0.7.0.20230824.80305";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230821.140757.tar";
-          sha256 = "1z03xfi83zi00xrqwfkwfv2cckfk32wf9rb4yvwrs43qx0jpwdij";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230824.80305.tar";
+          sha256 = "01nck4h8n54zy5hfir3fqhyggd6fyrif55fnlqf0xmhd19qrvy3b";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -3148,10 +3144,10 @@
       elpaBuild {
         pname = "kind-icon";
         ename = "kind-icon";
-        version = "0.2.0.0.20230807.172220";
+        version = "0.2.0.0.20230824.91306";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/kind-icon-0.2.0.0.20230807.172220.tar";
-          sha256 = "1c6331ygw9hnbxvh2vady14yzlqg72gjnl28ijgwfyhrrr6wni4i";
+          url = "https://elpa.gnu.org/devel/kind-icon-0.2.0.0.20230824.91306.tar";
+          sha256 = "0v1ic3q6cc5l09b6yx3dm9xd1wc0n5n6xc5f9vakak0xnjw8c88i";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
@@ -4052,10 +4048,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230824.73752";
+        version = "9.7pre0.20230824.121032";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230824.73752.tar";
-          sha256 = "0kfklb7dddp7pjvx4vbbslykpf7vgr97iwh3gkmklsn3v84gdgfd";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230824.121032.tar";
+          sha256 = "0ss1xjymvdm9aranqip0kyq41k053ljx3cl3n4kz5wjfv9sxn0a5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4431,10 +4427,10 @@
       elpaBuild {
         pname = "phpinspect";
         ename = "phpinspect";
-        version = "0.0.20230818.154809";
+        version = "0.0.20230824.182634";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/phpinspect-0.0.20230818.154809.tar";
-          sha256 = "0mlsl17gidc8w9ckmz1xj9k29kr83x5zdql91nlgw37zrk3sklk3";
+          url = "https://elpa.gnu.org/devel/phpinspect-0.0.20230824.182634.tar";
+          sha256 = "1rz8f59bwg4glrm5xjmg7xpssmlc9gb2s1wg65w0zi2lxakxz7fv";
         };
         packageRequires = [ compat ];
         meta = {
@@ -4613,10 +4609,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.9.8.0.20230823.163656";
+        version = "0.9.8.0.20230824.122600";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.9.8.0.20230823.163656.tar";
-          sha256 = "0r7f3m7iw9vk751p1zhfa3s5k4mr0sr99hrrf3p79spqw18q3gy7";
+          url = "https://elpa.gnu.org/devel/project-0.9.8.0.20230824.122600.tar";
+          sha256 = "07ssbvs9hmqcivjxyq1lycpjjdw7dvbxgw2ndw200jsrww7y065x";
         };
         packageRequires = [ emacs xref ];
         meta = {
@@ -5737,10 +5733,10 @@
       elpaBuild {
         pname = "svg-tag-mode";
         ename = "svg-tag-mode";
-        version = "0.3.2.0.20230803.50443";
+        version = "0.3.2.0.20230824.94303";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20230803.50443.tar";
-          sha256 = "1973scw129mx9v7z1ms2ai56ljj5slpckv80vxl3jjlgmjxxzg61";
+          url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20230824.94303.tar";
+          sha256 = "18pdzq1k3qign1rjfasfv4wfhiacgn2afycpfw5cxpdazx6hycv3";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
