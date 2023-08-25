@@ -364,6 +364,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    clojure-ts-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "clojure-ts-mode";
+        ename = "clojure-ts-mode";
+        version = "0.1.4";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/clojure-ts-mode-0.1.4.tar";
+          sha256 = "1swgcwn5wn23lbi4kjf4f1k7bayyprqm2bqvhdln7vghr5414pi0";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/clojure-ts-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     coffee-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "coffee-mode";
