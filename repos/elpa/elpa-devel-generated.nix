@@ -981,10 +981,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20230821.205528";
+        version = "0.35.0.20230825.84919";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230821.205528.tar";
-          sha256 = "0rnkca91parcwqvnl3y0327qjqnidafkn48hr5bblz3b1b764ill";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230825.84919.tar";
+          sha256 = "1mlzmb1mfv5i1hyg5y9l7sxz9w1qsa6xx8xb1v6c4qscsl3nb4gh";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2795,10 +2795,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20230809.12131";
+        version = "8.0.1pre0.20230825.105451";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230809.12131.tar";
-          sha256 = "00v62q8fzkcfa76kzcg8gms7gfkj0ckpmb45gc1r4vkl25caafaq";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230825.105451.tar";
+          sha256 = "018krzc1fikjxipdqv3cg4wmhzr3z81xgiy9m8wc05pakjk11kc3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4048,10 +4048,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230825.75650";
+        version = "9.7pre0.20230825.112644";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230825.75650.tar";
-          sha256 = "0wh3smjh1b0afn8cis826041piydc0q5di2537kyqc8wa3gnzzrr";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230825.112644.tar";
+          sha256 = "118ydjrn7sahn1x1qv2hyb3z4ijci370i1y6h2jxrxiv7lw87rsb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4246,10 +4246,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.13.0.20230703.182804";
+        version = "0.13.0.20230825.91944";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/osm-0.13.0.20230703.182804.tar";
-          sha256 = "0ypi2qar9a502wd48pag61v7fhay14f3dabb51rwg7xx7mza18j4";
+          url = "https://elpa.gnu.org/devel/osm-0.13.0.20230825.91944.tar";
+          sha256 = "13z4pz9q181jr9z66w2cn9ixh240x5dsyqjbjh455bqv2wf4kizl";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6095,10 +6095,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.4.1.0.20230812.214209";
+        version = "0.4.3.0.20230825.201957";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.4.1.0.20230812.214209.tar";
-          sha256 = "0ck83nvhyib6vg7xb4sg7hz0ahqfb1i9nq63imj9p0b2w7vcyzyb";
+          url = "https://elpa.gnu.org/devel/transient-0.4.3.0.20230825.201957.tar";
+          sha256 = "1g39zmlpk2rc49m4swjsq321hpdrkgxaxw4jlw9rwky0q9s8q39y";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6507,10 +6507,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20230817.103229";
+        version = "1.4.0.20230825.92114";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230817.103229.tar";
-          sha256 = "0al9xc19bk6xyp6q2441hcxax6ja3swfq8xdbg49d1xr192yfihb";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230825.92114.tar";
+          sha256 = "16kqsc82fas9pnhhmhgdnn0nqp26syl974yfczxc3qpfbapvh5nj";
         };
         packageRequires = [ compat emacs ];
         meta = {

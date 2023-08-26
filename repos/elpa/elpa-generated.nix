@@ -5397,10 +5397,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.4.1";
+        version = "0.4.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/transient-0.4.1.tar";
-          sha256 = "0mw619057spgz9rrf8rws1zywpjl8ri7hz30f4g8wxqsgrk4ph79";
+          url = "https://elpa.gnu.org/packages/transient-0.4.3.tar";
+          sha256 = "1aqw7fr5p2f1xs5pvfpmhhvh16491qvcbg40993siqkdi05w4i1j";
         };
         packageRequires = [ compat emacs ];
         meta = {
