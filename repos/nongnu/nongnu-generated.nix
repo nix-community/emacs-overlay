@@ -2171,10 +2171,10 @@
       elpaBuild {
         pname = "org-tree-slide";
         ename = "org-tree-slide";
-        version = "2.8.20";
+        version = "2.8.22";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/org-tree-slide-2.8.20.tar";
-          sha256 = "0aiqiawflgpf56mgr6pkkkqzdc7pwaw575q0yc6f6bvg7idn14qd";
+          url = "https://elpa.nongnu.org/nongnu/org-tree-slide-2.8.22.tar";
+          sha256 = "19y9lznk69k8s195z4s2h6s6y8vr7lzmr7x9pi5n67a7bapshs02";
         };
         packageRequires = [ emacs ];
         meta = {
