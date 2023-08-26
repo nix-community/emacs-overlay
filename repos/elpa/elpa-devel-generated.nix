@@ -1530,6 +1530,24 @@
           license = lib.licenses.free;
         };
       }) {};
+    do-at-point = callPackage ({ elpaBuild
+                               , emacs
+                               , fetchurl
+                               , lib }:
+      elpaBuild {
+        pname = "do-at-point";
+        ename = "do-at-point";
+        version = "0.1.0.0.20230825.211928";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/do-at-point-0.1.0.0.20230825.211928.tar";
+          sha256 = "14k7gjf6ih7gmny9205ckxih3l9kp1ghsfq55301zgz5zz80z1vi";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/do-at-point.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     doc-toc = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "doc-toc";
@@ -2609,10 +2627,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.1.0.20230815.3721";
+        version = "0.1.0.20230826.21808";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.1.0.20230815.3721.tar";
-          sha256 = "1322f0i6v1bmv89nqdp194n3ypvqj8rkn29w5h1c5yywyw2nkyr1";
+          url = "https://elpa.gnu.org/devel/greader-0.1.0.20230826.21808.tar";
+          sha256 = "1sinwnqfgj8avfypchggghl6vgxvlf9ggdrwff6brbgl5g2fnf0q";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6273,10 +6291,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.2.0snapshot0.20230821.140956";
+        version = "0.2.0snapshot0.20230825.232931";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.2.0snapshot0.20230821.140956.tar";
-          sha256 = "0qx2qhd9dckagzj1vssi9kbmnzylj08d5sqhfr75pah05bb3b1sq";
+          url = "https://elpa.gnu.org/devel/urgrep-0.2.0snapshot0.20230825.232931.tar";
+          sha256 = "0fqj4qrczn48lja74z8qjr1dddblvgdzxyb3dxaj8k7apdc0p4ri";
         };
         packageRequires = [ compat emacs project ];
         meta = {
