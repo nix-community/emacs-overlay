@@ -3076,10 +3076,10 @@
       elpaBuild {
         pname = "jit-spell";
         ename = "jit-spell";
-        version = "0.3.0.20230330.165659";
+        version = "0.3.0.20230826.155115";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jit-spell-0.3.0.20230330.165659.tar";
-          sha256 = "1qlk3srh34sqvl0vnm1r3vjm5qn9jxvzp60zl8hrhrip8cwi9l9j";
+          url = "https://elpa.gnu.org/devel/jit-spell-0.3.0.20230826.155115.tar";
+          sha256 = "08aamxml469jkyxsrg7nalc3ajfps4i2a639hix45w4wv48s20zi";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4066,10 +4066,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230825.112644";
+        version = "9.7pre0.20230826.161333";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230825.112644.tar";
-          sha256 = "118ydjrn7sahn1x1qv2hyb3z4ijci370i1y6h2jxrxiv7lw87rsb";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230826.161333.tar";
+          sha256 = "1mr9agd4my3qrjym1bm6ig911j0iib03rnh101kbnbn4icha16vw";
         };
         packageRequires = [ emacs ];
         meta = {
