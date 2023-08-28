@@ -1537,10 +1537,10 @@
       elpaBuild {
         pname = "do-at-point";
         ename = "do-at-point";
-        version = "0.1.0.0.20230826.202220";
+        version = "0.1.0.0.20230827.134830";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/do-at-point-0.1.0.0.20230826.202220.tar";
-          sha256 = "0g5kkvhg3r33z43f54fsfbavcz9q7jw0p93n59dznvrnkpafh94f";
+          url = "https://elpa.gnu.org/devel/do-at-point-0.1.0.0.20230827.134830.tar";
+          sha256 = "0vsvj5wg41g7p9fdj0xg83lsri23861kg4cn7iasfpz9ivr8ksij";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4066,10 +4066,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230826.161333";
+        version = "9.7pre0.20230827.121812";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230826.161333.tar";
-          sha256 = "1mr9agd4my3qrjym1bm6ig911j0iib03rnh101kbnbn4icha16vw";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230827.121812.tar";
+          sha256 = "1vphssiwh9wxnsb31ljxjw5fpqcnhj5p75zbiyx4cnsay3k18q38";
         };
         packageRequires = [ emacs ];
         meta = {
