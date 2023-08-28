@@ -1882,10 +1882,10 @@
       elpaBuild {
         pname = "expreg";
         ename = "expreg";
-        version = "1.0.0";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/expreg-1.0.0.tar";
-          sha256 = "0fyyp1cqhgbqmyjb4dyr49zg3jpj3hkhgzl1lh2gcp08d83jl6av";
+          url = "https://elpa.gnu.org/packages/expreg-1.1.0.tar";
+          sha256 = "14x748b2ng7jhhh713xm2k3k6awh2jvy3354wg8a168fm5cx0piw";
         };
         packageRequires = [ emacs ];
         meta = {
