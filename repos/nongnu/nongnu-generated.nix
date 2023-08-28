@@ -276,10 +276,10 @@
       elpaBuild {
         pname = "camera";
         ename = "camera";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/camera-0.2.tar";
-          sha256 = "1hdq24xy685wzjz3hfxwqmcmsvajcrkr4va4lmvgvdmkvmfk92cj";
+          url = "https://elpa.nongnu.org/nongnu/camera-0.3.tar";
+          sha256 = "0faqdsgi3kwkk0yqp1676d8x4mi11yj856fj7spf3j02y83r1lmj";
         };
         packageRequires = [ emacs ];
         meta = {
