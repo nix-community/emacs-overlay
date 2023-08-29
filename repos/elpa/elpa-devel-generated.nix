@@ -1537,10 +1537,10 @@
       elpaBuild {
         pname = "do-at-point";
         ename = "do-at-point";
-        version = "0.1.0.0.20230828.64609";
+        version = "0.1.0.0.20230828.165722";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/do-at-point-0.1.0.0.20230828.64609.tar";
-          sha256 = "07qvwrm0q6d9ky9h42y31ka185jd7f4y790d10d5ql7yxzyprcpb";
+          url = "https://elpa.gnu.org/devel/do-at-point-0.1.0.0.20230828.165722.tar";
+          sha256 = "04s1bnjifmgz6hvxaf9vkzak0i96wnyaj9g7h7m3799q8azqz22p";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6525,10 +6525,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20230828.73431";
+        version = "1.4.0.20230828.80547";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230828.73431.tar";
-          sha256 = "0cxpkgxvz39kwri6khrggvjiq54xc5zl4q3q8c3v7h73hldnw12r";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230828.80547.tar";
+          sha256 = "094rbb5s6077v22av29dbj2p0bark1z64n182q7b1jm789mk6qap";
         };
         packageRequires = [ compat emacs ];
         meta = {
