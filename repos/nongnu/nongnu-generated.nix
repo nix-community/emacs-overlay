@@ -2282,10 +2282,10 @@
       elpaBuild {
         pname = "pcre2el";
         ename = "pcre2el";
-        version = "1.11";
+        version = "1.12";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/pcre2el-1.11.tar";
-          sha256 = "147da1iqlgsjsnfffk4iwfjsrv98xz5s4wjdys9r98n0j723js7r";
+          url = "https://elpa.nongnu.org/nongnu/pcre2el-1.12.tar";
+          sha256 = "0w2c9y4qrx8lm14jdjnax6wpwi5sw284brm4k1dwkrx8244krv8x";
         };
         packageRequires = [ emacs ];
         meta = {
