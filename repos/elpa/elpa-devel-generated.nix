@@ -1917,10 +1917,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.12pre0.20230828.23348";
+        version = "0.12pre0.20230828.220933";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.12pre0.20230828.23348.tar";
-          sha256 = "1qm2arkn5mhyb0f9fb21g68nvphlh9i29ziz09svswavzggcwaxp";
+          url = "https://elpa.gnu.org/devel/ement-0.12pre0.20230828.220933.tar";
+          sha256 = "012pcq4bx0582y0xpw1xr69anzw64yyajg9nwd51m0f7v6id0dyb";
         };
         packageRequires = [
           emacs
@@ -2813,10 +2813,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20230825.105451";
+        version = "8.0.1pre0.20230828.125045";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230825.105451.tar";
-          sha256 = "018krzc1fikjxipdqv3cg4wmhzr3z81xgiy9m8wc05pakjk11kc3";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230828.125045.tar";
+          sha256 = "13d37s8292492r6qfkljx9i5ad2v9az4rajqnvv4q1vnd4xiwybx";
         };
         packageRequires = [ emacs ];
         meta = {
