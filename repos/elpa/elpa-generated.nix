@@ -1882,10 +1882,10 @@
       elpaBuild {
         pname = "expreg";
         ename = "expreg";
-        version = "1.1.0";
+        version = "1.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/expreg-1.1.0.tar";
-          sha256 = "14x748b2ng7jhhh713xm2k3k6awh2jvy3354wg8a168fm5cx0piw";
+          url = "https://elpa.gnu.org/packages/expreg-1.2.0.tar";
+          sha256 = "07frlhkm8fdq8ykpvgyyx73z63c5pg4jqf5r951s1vv4zxan47ds";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5352,10 +5352,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.1.1.1";
+        version = "2.6.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.6.1.1.1.tar";
-          sha256 = "1aclan50xl0cgsxy9l7c1dd73w4kklmap9c74gndcssdi6p1mw69";
+          url = "https://elpa.gnu.org/packages/tramp-2.6.1.2.tar";
+          sha256 = "0nazcrpkwy59dxbyzarj75zvz7vh4pgq4yzqgf6zfbvqp7q73wbn";
         };
         packageRequires = [ emacs ];
         meta = {

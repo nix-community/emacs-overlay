@@ -2117,10 +2117,10 @@
       elpaBuild {
         pname = "expreg";
         ename = "expreg";
-        version = "1.1.0.0.20230828.1154";
+        version = "1.2.0.0.20230830.3116";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/expreg-1.1.0.0.20230828.1154.tar";
-          sha256 = "19s3c4gylkbc103ghahwxx1hbd45s1w70mbk4f7xfgmh2k9hvm7f";
+          url = "https://elpa.gnu.org/devel/expreg-1.2.0.0.20230830.3116.tar";
+          sha256 = "1gfsa0sm0c70cij9qhixrkmhqd1rlaxvn4c4gqa9gncvibxvcwy5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4066,10 +4066,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230829.94712";
+        version = "9.7pre0.20230830.52411";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230829.94712.tar";
-          sha256 = "1daj0ny3pgg9fdlb9wh5frxnbrrxajmpx0g9wfikxbkxasylcd4w";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230830.52411.tar";
+          sha256 = "0xj5rm0ql07dn9cbrq3c5b0kgvzm5anbvh0fc5hw6s8mn9b8156q";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6034,17 +6034,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    tramp = callPackage ({ elpaBuild
-                         , emacs
-                         , fetchurl
-                         , lib }:
+    tramp = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.1.1.1.0.20230807.151320";
+        version = "2.6.1.2.0.20230830.72111";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tramp-2.6.1.1.1.0.20230807.151320.tar";
-          sha256 = "03ng854qza04hqdi6bl3wa1ppi6djlv1bq6ws2g36gi11drbd5d2";
+          url = "https://elpa.gnu.org/devel/tramp-2.6.1.2.0.20230830.72111.tar";
+          sha256 = "01ff3i8cji5hs4vjkf87bv866184n1c9v59sjmnywzmqgpgn1z5n";
         };
         packageRequires = [ emacs ];
         meta = {
