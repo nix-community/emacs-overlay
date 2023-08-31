@@ -49,10 +49,10 @@
       elpaBuild {
         pname = "annotate";
         ename = "annotate";
-        version = "2.0.1";
+        version = "2.0.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/annotate-2.0.1.tar";
-          sha256 = "1z7s75xcjnkvn7ik7cqylf5c2cih372k1rg4wwxkz3f217d9qjlf";
+          url = "https://elpa.nongnu.org/nongnu/annotate-2.0.2.tar";
+          sha256 = "03iigyh9s378jif2vaaii8d31nag6mzairmgl9ffhmryz08jkig1";
         };
         packageRequires = [];
         meta = {
@@ -368,10 +368,10 @@
       elpaBuild {
         pname = "clojure-ts-mode";
         ename = "clojure-ts-mode";
-        version = "0.1.4";
+        version = "0.1.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/clojure-ts-mode-0.1.4.tar";
-          sha256 = "1swgcwn5wn23lbi4kjf4f1k7bayyprqm2bqvhdln7vghr5414pi0";
+          url = "https://elpa.nongnu.org/nongnu/clojure-ts-mode-0.1.5.tar";
+          sha256 = "1py4kxw2w9ggkl8ljchbcry14v9anxn9zinbdfls9x120y1cljsa";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1832,14 +1832,34 @@
       elpaBuild {
         pname = "markdown-mode";
         ename = "markdown-mode";
-        version = "2.5";
+        version = "2.6";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/markdown-mode-2.5.tar";
-          sha256 = "195p4bz2k5rs6222pfxv6rk2r22snx33gvc1x3rs020lacppbhik";
+          url = "https://elpa.nongnu.org/nongnu/markdown-mode-2.6.tar";
+          sha256 = "1z1rzx1sc8hzvyqgnfdj64syr4pabv9grl57n4jis9arcqmx41zr";
         };
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/markdown-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    mastodon = callPackage ({ elpaBuild
+                            , emacs
+                            , fetchurl
+                            , lib
+                            , persist
+                            , request }:
+      elpaBuild {
+        pname = "mastodon";
+        ename = "mastodon";
+        version = "1.0.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.1.tar";
+          sha256 = "0xj5zsmacj68amcq9kshin5ddjhpyjyfhkc7nafzbjk63fnscjnb";
+        };
+        packageRequires = [ emacs persist request ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/mastodon.html";
           license = lib.licenses.free;
         };
       }) {};
