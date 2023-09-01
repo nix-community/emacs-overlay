@@ -981,10 +981,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20230825.84919";
+        version = "0.35.0.20230831.174436";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230825.84919.tar";
-          sha256 = "1mlzmb1mfv5i1hyg5y9l7sxz9w1qsa6xx8xb1v6c4qscsl3nb4gh";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230831.174436.tar";
+          sha256 = "1vv99sflxb2rghhrkm3gisn82axxda00zlfr75j86rvlygmmxl37";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1314,10 +1314,10 @@
       elpaBuild {
         pname = "denote-menu";
         ename = "denote-menu";
-        version = "1.1.1.0.20230818.141035";
+        version = "1.1.1.0.20230831.164141";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-menu-1.1.1.0.20230818.141035.tar";
-          sha256 = "0c9xa089ayy4nmgl0ab8prmpl6gr6p5f3vdpbqy25zlnglykpjyf";
+          url = "https://elpa.gnu.org/devel/denote-menu-1.1.1.0.20230831.164141.tar";
+          sha256 = "1799ni1l8v3h5mfqdrm7z6fi5bwnkmxw9mxcslq22wyhak1da0rp";
         };
         packageRequires = [ denote emacs ];
         meta = {
@@ -4066,10 +4066,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230830.214836";
+        version = "9.7pre0.20230831.112736";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230830.214836.tar";
-          sha256 = "040i8y600b4gyr7817vnlcpilyrdv2xn9bg6bqkhwhqmjpgrqq4w";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230831.112736.tar";
+          sha256 = "0jcbl3kz4faibbywgy86mkhk92icl3rzymc4d3njridbx2fcgzbd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4445,10 +4445,10 @@
       elpaBuild {
         pname = "phpinspect";
         ename = "phpinspect";
-        version = "0.0.20230824.182634";
+        version = "0.0.20230831.151323";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/phpinspect-0.0.20230824.182634.tar";
-          sha256 = "1rz8f59bwg4glrm5xjmg7xpssmlc9gb2s1wg65w0zi2lxakxz7fv";
+          url = "https://elpa.gnu.org/devel/phpinspect-0.0.20230831.151323.tar";
+          sha256 = "01qhyjs9ziz6qk652ibvwjzpbzd1a9038jrmxx79mj39yai4lwca";
         };
         packageRequires = [ compat ];
         meta = {
