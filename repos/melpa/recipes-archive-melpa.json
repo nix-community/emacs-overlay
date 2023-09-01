@@ -10865,11 +10865,11 @@
   "url": "https://hg.sr.ht/~zck/caser.el",
   "unstable": {
    "version": [
-    20230828,
-    402
+    20230831,
+    1922
    ],
-   "commit": "3d55de4dd2e4be5f2641a4c2388e8ea84c9d5b14",
-   "sha256": "00m3nkq9nqafan853mn24irrsp6pigffmxmdwszf3r50vwkjsq80"
+   "commit": "00167e37e5bacc06afdf35d246fe6d87829e8c4c",
+   "sha256": "132kichim7z93bvqmck40p2r5lgxsmfm94rbww424ygqv5whar18"
   }
  },
  {
@@ -12401,14 +12401,14 @@
  },
  {
   "ename": "cider",
-  "commit": "37d33dc8c24d027562bfee169ee673ee41dea369",
-  "sha256": "0j3sd8v05v05an5nzn7gbcnldwlnfb38qxg2ic77drib8nnn7455",
+  "commit": "88bf5f483cc9b1f8ebdc1446a37c9829d77bca4d",
+  "sha256": "0ha0kxgj3falxyb0ikid157zm6xhan64p6b4dh5kwm90xkh3dhdm",
   "fetcher": "github",
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20230829,
-    1935
+    20230831,
+    2034
    ],
    "deps": [
     "clojure-mode",
@@ -12419,8 +12419,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "ef5bbe080fdd7b4e33f31e8354eaea04413aefca",
-   "sha256": "0v52mv62qak35k827xcpc0az3z1nrvfdxk173crzqbgsjn2jy0az"
+   "commit": "866230788d762878df10c33eab89ccda284131de",
+   "sha256": "1l86g46axvlnlllpfknv501kfzsh2k7rrqfrqnmszlfbr8yifzk4"
   },
   "stable": {
    "version": [
@@ -17373,14 +17373,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20230821,
-    2055
+    20230831,
+    2212
    ],
    "deps": [
     "compat"
    ],
-   "commit": "5b7a9d0f506374f500a1216146f3dca3cb10306b",
-   "sha256": "0lpfh7cwn9ivwgm9dk9ag1rvdx09gwh3030myyij5hdsppp9sfic"
+   "commit": "c61572b71aa65090b4308f3f4fc0c7a611579c1d",
+   "sha256": "0ba30vwv6189sn491881qhvadqffsclr9lv4yn38zqib8vqcbd2x"
   },
   "stable": {
    "version": [
@@ -28319,11 +28319,11 @@
   "repo": "emacs-eldev/eldev",
   "unstable": {
    "version": [
-    20230829,
-    1903
+    20230831,
+    1856
    ],
-   "commit": "08db5ae31b1d4bf12a6d62b6d49a6fbd245d3d3e",
-   "sha256": "15grvanz3iailqczc8s90rgmbk3wjg3l6nhc2x69c7g8yi3dn49l"
+   "commit": "3ce958707dd9c8c13d46cab54bb31a4adced584c",
+   "sha256": "0hdd4hv3414nzkd7i1yqlw0m9ih8xnsv9w28ry0hbdf5hhvm38kf"
   },
   "stable": {
    "version": [
@@ -29219,15 +29219,15 @@
   "repo": "Wilfred/elisp-refs",
   "unstable": {
    "version": [
-    20230419,
-    405
+    20230831,
+    1516
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "bf3cca8f74065b1b31036f461e3a093b162311bd",
-   "sha256": "1wrfxbd45dxjfqf0fx0ij7hlrhxc5wmg7820vxvsvrphdkqxfkpc"
+   "commit": "9b6839c37977b5760784f644fc74bff1cbcebaa3",
+   "sha256": "134bzq04dyf71n6fj24d9kmv47vad2q64zxpga2x93rl463sn76r"
   },
   "stable": {
    "version": [
@@ -64097,15 +64097,15 @@
   "repo": "isamert/jsdoc.el",
   "unstable": {
    "version": [
-    20230808,
-    2224
+    20230831,
+    2205
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "98129da2d6f4b938f9833be3f760d30ebd2986aa",
-   "sha256": "186kp34gsb4bjjpdv9bajrg3hxhp2gqlvbnaz4gbyp4dyqmwq1fq"
+   "commit": "4efdae3b94b1bedc167625d5705daed74fcbc967",
+   "sha256": "1dm5rysglvrwljimpcy3fm55a0slkp8fsmwl4s5h4rlfki71fb7f"
   }
  },
  {
@@ -69508,14 +69508,18 @@
   "repo": "tarsius/llama",
   "unstable": {
    "version": [
-    20230830,
-    1715
+    20230831,
+    2227
    ],
    "deps": [
     "seq"
    ],
-   "commit": "beddc6a85787e2a95910e284076c162068c6f0de",
-   "sha256": "0rgm5jv9iv8b0xabdwicrpih2d3slchmv17xdjk705dqhfc18f4w"
+   "commit": "a938ac0ae7890cfaf3281beb13f5c2fa75b337fa",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "warning: error: unable to download 'https://git.sr.ht/~tarsius/llama/archive/a938ac0ae7890cfaf3281beb13f5c2fa75b337fa.tar.gz': HTTP error 504\n\n       response body:\n\n       <html>\n       <head><title>504 Gateway Time-out</title></head>\n       <body>\n       <center><h1>504 Gateway Time-out</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>; retrying in 267 ms\nwarning: error: unable to download 'https://git.sr.ht/~tarsius/llama/archive/a938ac0ae7890cfaf3281beb13f5c2fa75b337fa.tar.gz': HTTP error 504\n\n       response body:\n\n       <html>\n       <head><title>504 Gateway Time-out</title></head>\n       <body>\n       <center><h1>504 Gateway Time-out</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>; retrying in 678 ms\nwarning: error: unable to download 'https://git.sr.ht/~tarsius/llama/archive/a938ac0ae7890cfaf3281beb13f5c2fa75b337fa.tar.gz': HTTP error 504\n\n       response body:\n\n       <html>\n       <head><title>504 Gateway Time-out</title></head>\n       <body>\n       <center><h1>504 Gateway Time-out</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>; retrying in 1153 ms\nwarning: error: unable to download 'https://git.sr.ht/~tarsius/llama/archive/a938ac0ae7890cfaf3281beb13f5c2fa75b337fa.tar.gz': HTTP error 504\n\n       response body:\n\n       <html>\n       <head><title>504 Gateway Time-out</title></head>\n       <body>\n       <center><h1>504 Gateway Time-out</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>; retrying in 2539 ms\nerror: unable to download 'https://git.sr.ht/~tarsius/llama/archive/a938ac0ae7890cfaf3281beb13f5c2fa75b337fa.tar.gz': HTTP error 504\n\n       response body:\n\n       <html>\n       <head><title>504 Gateway Time-out</title></head>\n       <body>\n       <center><h1>504 Gateway Time-out</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>\n"
+   ]
   },
   "stable": {
    "version": [
@@ -80030,11 +80034,15 @@
   "url": "https://git.sr.ht/~ashton314/nordic-night",
   "unstable": {
    "version": [
-    20230830,
-    1625
+    20230831,
+    1732
    ],
-   "commit": "d13a78fb5494d931609fc8e714af7076afb6a503",
-   "sha256": "0v5c33dgxnzpymdnpawjljsysjzar4f9s2pzlw840z3n9mn45jxz"
+   "commit": "38020ebac496992a4b41bc721db9c28962e5b7df",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "Initialized empty Git repository in /run/user/1001/git-checkout-tmp-bxarQkmd/nordic-night-38020eb/.git/\nfatal: unable to access 'https://git.sr.ht/~ashton314/nordic-night/': The requested URL returned error: 500\nfatal: unable to access 'https://git.sr.ht/~ashton314/nordic-night/': The requested URL returned error: 500\nfatal: unable to access 'https://git.sr.ht/~ashton314/nordic-night/': The requested URL returned error: 500\nUnable to checkout 38020ebac496992a4b41bc721db9c28962e5b7df from https://git.sr.ht/~ashton314/nordic-night.\n"
+   ]
   },
   "stable": {
    "version": [
@@ -88378,31 +88386,30 @@
   "repo": "akhramov/org-wild-notifier.el",
   "unstable": {
    "version": [
-    20230828,
-    1323
+    20230831,
+    2035
    ],
    "deps": [
     "alert",
     "async",
     "dash"
    ],
-   "commit": "04d687730ce79cc12dff0de1e6df39d3b4292350",
-   "sha256": "1bz9svimv593kcj7lbgi6yylb2w56wxaza05xjh21g1gwpc9q19x"
+   "commit": "aa0f2d8ea282dea714ae67f3f5a0471488e6e396",
+   "sha256": "00xssqg0mvh5ma2053719bcchbrl7mmj8wzhbrjk34cl4lx9p9fb"
   },
   "stable": {
    "version": [
     0,
-    4,
-    1
+    5,
+    0
    ],
    "deps": [
     "alert",
     "async",
-    "dash",
-    "dash-functional"
+    "dash"
    ],
-   "commit": "b83d31422abcf9527d5ec0344f2fa2df5b76a357",
-   "sha256": "0cdd93sqx0ijajqa2z91bg6h6m1njsaqzwygr8q28dd2pazxq5xc"
+   "commit": "aa0f2d8ea282dea714ae67f3f5a0471488e6e396",
+   "sha256": "00xssqg0mvh5ma2053719bcchbrl7mmj8wzhbrjk34cl4lx9p9fb"
   }
  },
  {
@@ -113737,14 +113744,14 @@
   "repo": "mclear-tools/tabspaces",
   "unstable": {
    "version": [
-    20230612,
-    1404
+    20230831,
+    1645
    ],
    "deps": [
     "project"
    ],
-   "commit": "9c0915e1b19a1bbc65a365be3f7910a15dba3ac4",
-   "sha256": "0hqfhgjlamcrxxc3agbyll0x6ci9i85ansgfn2i4ifmhxgn70y8c"
+   "commit": "4c4ee483ff18f3ae04214f0d07efd8175c66f6d0",
+   "sha256": "18rjwgwjh43zdsq463x22krk9g4vqkv07bk7wqlmkq144gg31kl7"
   }
  },
  {
@@ -117200,25 +117207,25 @@
   "unstable": {
    "version": [
     20230831,
-    947
+    1716
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "28497aea5986e17fb3aeb6b53328fc80d5d5d262",
-   "sha256": "04pg3mj02mf83xgkmxg0yx3pa2y0hr3szgrp3dd253gagck2plmf"
+   "commit": "e2ba8ef96d6b230deafd0295d8e410f7d024c5d7",
+   "sha256": "1fz3hrgaark6vkwwrylzyzrg33k3zrka9dnlsys4q02974lm2mc6"
   },
   "stable": {
    "version": [
     0,
     12,
-    30
+    31
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "28497aea5986e17fb3aeb6b53328fc80d5d5d262",
-   "sha256": "04pg3mj02mf83xgkmxg0yx3pa2y0hr3szgrp3dd253gagck2plmf"
+   "commit": "e2ba8ef96d6b230deafd0295d8e410f7d024c5d7",
+   "sha256": "1fz3hrgaark6vkwwrylzyzrg33k3zrka9dnlsys4q02974lm2mc6"
   }
  },
  {
