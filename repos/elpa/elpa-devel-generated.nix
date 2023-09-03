@@ -2813,10 +2813,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20230828.125045";
+        version = "8.0.1pre0.20230829.21756";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230828.125045.tar";
-          sha256 = "13d37s8292492r6qfkljx9i5ad2v9az4rajqnvv4q1vnd4xiwybx";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230829.21756.tar";
+          sha256 = "19mx6nc1pr75s6p9i2vhyrbxrx56bmnlnpdwspyks98gr2jc20js";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4066,10 +4066,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230902.170707";
+        version = "9.7pre0.20230903.64841";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230902.170707.tar";
-          sha256 = "1l49325zyzsffy78ykr2x8z2497a4nxb3nqkdyaw4d71cwzspj8i";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230903.64841.tar";
+          sha256 = "0pjgb7gxriy26pfhb77ggj8h5hkkk0qq30yf3jmbi5v168rd8z2y";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4619,18 +4619,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    project = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib
-                           , xref }:
+    project = callPackage ({ elpaBuild, emacs, fetchurl, lib, xref }:
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.9.8.0.20230830.175253";
+        version = "0.9.8.0.20230903.1223";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.9.8.0.20230830.175253.tar";
-          sha256 = "10azjy2w34957f4iszwxfhwb1prz1yl0ns3nzjy38cpgcjj7mgrr";
+          url = "https://elpa.gnu.org/devel/project-0.9.8.0.20230903.1223.tar";
+          sha256 = "0i09kqlzbac0hs3p20p5hs7jcgnzq7lxyvcanvp0d2kni61xg699";
         };
         packageRequires = [ emacs xref ];
         meta = {
