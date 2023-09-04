@@ -25,10 +25,18 @@ in
 let
   isOrgModeFile =
     let
-      ext = lib.last (builtins.split "\\." (builtins.toString config));
+      ext = c: lib.last (builtins.split "\\." (builtins.toString c));
       type = builtins.typeOf config;
     in
-      type == "path" && ext == "org";
+      # - A string with context { config = "${hello}/config.org"; }, or config path { config = ./config.el; }
+      if type == "path" || (type == "string" && builtins.hasContext config && lib.hasPrefix builtins.storeDir config) then (ext config) == "org"
+      # - A derivation { config = pkgs.writeText "config.org" ''
+      #    #+begin_src elisp :tangle yes
+      #    (use-package foo)
+      #    #+end_src
+      #  ''; }
+      else if lib.isDerivation config then (ext config.name) == "org"
+      else false;
 
   configText =
     let
