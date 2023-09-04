@@ -1033,10 +1033,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20230825.73620";
+        version = "0.38.0.20230903.192458";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20230825.73620.tar";
-          sha256 = "0vn7fvsxqwpi7rqqj6a5w95g7wpyxsg43w16g7s9bhrnc1yz4sjh";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20230903.192458.tar";
+          sha256 = "1v3br4a9m0ywbm9z8w7kycmisbkyk691syrzwlz31snpm3xvg4aa";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6106,10 +6106,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.4.3.0.20230901.123728";
+        version = "0.4.3.0.20230903.183543";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.4.3.0.20230901.123728.tar";
-          sha256 = "1b3qcpnqkg2fy1g8j7cvy1mx66l611mdfbmqnaks69w5p4m7vq0x";
+          url = "https://elpa.gnu.org/devel/transient-0.4.3.0.20230903.183543.tar";
+          sha256 = "139lipr4ljp12k9hxwh9paga9mvib0dnxjihb7mbw6wl7dqv9a6a";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6518,10 +6518,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20230828.80547";
+        version = "1.4.0.20230903.192536";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230828.80547.tar";
-          sha256 = "094rbb5s6077v22av29dbj2p0bark1z64n182q7b1jm789mk6qap";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230903.192536.tar";
+          sha256 = "0skqalnzlgq81v8fl6id6i37qrc6zfhk4mcj2g61wncf75i5npda";
         };
         packageRequires = [ compat emacs ];
         meta = {
