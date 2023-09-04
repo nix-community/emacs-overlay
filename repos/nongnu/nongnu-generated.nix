@@ -1,5 +1,20 @@
 { callPackage }:
   {
+    adoc-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "adoc-mode";
+        ename = "adoc-mode";
+        version = "0.7.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/adoc-mode-0.7.0.tar";
+          sha256 = "055wljs3y8z9m9rvnqv8w0mvcpz5qd3v9sjhr5v0fv72p1vvf9rc";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/adoc-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     afternoon-theme = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "afternoon-theme";
@@ -1531,6 +1546,28 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/htmlize.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    hyperdrive = callPackage ({ compat
+                              , elpaBuild
+                              , emacs
+                              , fetchurl
+                              , lib
+                              , map
+                              , persist
+                              , plz }:
+      elpaBuild {
+        pname = "hyperdrive";
+        ename = "hyperdrive";
+        version = "0.1.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/hyperdrive-0.1.0.tar";
+          sha256 = "1dawm6wxwik7jks0xc2ina2nikdg9x4cnnws4srcf15vwh40van4";
+        };
+        packageRequires = [ compat emacs map persist plz ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/hyperdrive.html";
           license = lib.licenses.free;
         };
       }) {};
