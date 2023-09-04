@@ -2894,10 +2894,10 @@
       elpaBuild {
         pname = "latex-table-wizard";
         ename = "latex-table-wizard";
-        version = "1.5.3";
+        version = "1.5.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/latex-table-wizard-1.5.3.tar";
-          sha256 = "1lwnz3c4228cnbxnqrm6g476khb0gqgh1qdjm39q8w89nw47vvfy";
+          url = "https://elpa.gnu.org/packages/latex-table-wizard-1.5.4.tar";
+          sha256 = "1vmwx7g79chcr6hrzdjh1ndpnqy8qn52n03789dhmxxr1ji7nk0i";
         };
         packageRequires = [ auctex emacs transient ];
         meta = {

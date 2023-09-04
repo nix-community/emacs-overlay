@@ -688,10 +688,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.17.0.20230820.160922";
+        version = "0.17.0.20230903.221854";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-0.17.0.20230820.160922.tar";
-          sha256 = "0frqpvjlbnyylfx5l881nwpf2x2r51d967xc7yvn7mda0n2w7030";
+          url = "https://elpa.gnu.org/devel/cape-0.17.0.20230903.221854.tar";
+          sha256 = "0gh8dcfrz4r8phz0h6114f64yixj76ihicii15fk1m7k1kxkijyd";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1868,14 +1868,18 @@
           license = lib.licenses.free;
         };
       }) {};
-    embark = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
+    embark = callPackage ({ compat
+                          , elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib }:
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.22.1.0.20230828.4507";
+        version = "0.22.1.0.20230903.152328";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230828.4507.tar";
-          sha256 = "1xq74v30fhq0zas9pjd68zgicyg29g3f6bbl839jrqggs2hfzwf6";
+          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230903.152328.tar";
+          sha256 = "1a46493rvrwifz7wjc6yhxcksav07x3jphk3iza1ll0q7nji5l92";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1892,10 +1896,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.7.0.20230828.4507";
+        version = "0.7.0.20230903.152328";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230828.4507.tar";
-          sha256 = "08rjhzrbhsy70x76kgk4jg7fn7vkp5mi2m32zgfiry0fbi5q7gmf";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230903.152328.tar";
+          sha256 = "1wa1izc82fcramhnb08pbf7ljhskrsw22bldbq68xz7mainrs9g7";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -3227,10 +3231,10 @@
       elpaBuild {
         pname = "latex-table-wizard";
         ename = "latex-table-wizard";
-        version = "1.5.3.0.20230821.110703";
+        version = "1.5.4.0.20230903.170436";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/latex-table-wizard-1.5.3.0.20230821.110703.tar";
-          sha256 = "0sbzmi279hni1rk02jg6jz2gfhl0q53vgm0ck0d6444yfdd9a3cg";
+          url = "https://elpa.gnu.org/devel/latex-table-wizard-1.5.4.0.20230903.170436.tar";
+          sha256 = "1k6jcmj26p3xg73044yprj554bihr9gk5j6ip3cphdkm1c6b3663";
         };
         packageRequires = [ auctex emacs transient ];
         meta = {
@@ -4066,10 +4070,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230903.64841";
+        version = "9.7pre0.20230904.74728";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230903.64841.tar";
-          sha256 = "0pjgb7gxriy26pfhb77ggj8h5hkkk0qq30yf3jmbi5v168rd8z2y";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230904.74728.tar";
+          sha256 = "09wzpzfjmpjgq3g6c7lbk0n0kcwlw7iw0l1y6r0cjk81myg85rdl";
         };
         packageRequires = [ emacs ];
         meta = {
