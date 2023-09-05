@@ -929,6 +929,25 @@
           license = lib.licenses.free;
         };
       }) {};
+    exec-path-from-shell = callPackage ({ cl-lib ? null
+                                        , elpaBuild
+                                        , emacs
+                                        , fetchurl
+                                        , lib }:
+      elpaBuild {
+        pname = "exec-path-from-shell";
+        ename = "exec-path-from-shell";
+        version = "2.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/exec-path-from-shell-2.1.tar";
+          sha256 = "0vqjd44fiaqc2ppmb2yk7m75dndndrlrml4lfmar5213vlmds1cl";
+        };
+        packageRequires = [ cl-lib emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/exec-path-from-shell.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     flx = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "flx";
@@ -956,6 +975,25 @@
         packageRequires = [ cl-lib flx ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/flx-ido.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    flymake-guile = callPackage ({ elpaBuild
+                                 , emacs
+                                 , fetchurl
+                                 , flymake ? null
+                                 , lib }:
+      elpaBuild {
+        pname = "flymake-guile";
+        ename = "flymake-guile";
+        version = "0.4";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/flymake-guile-0.4.tar";
+          sha256 = "1v52gny0ma7k0mp8fh0mgkwfxyj6x6mf6m8gi5bxmvahjrn451s0";
+        };
+        packageRequires = [ emacs flymake ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/flymake-guile.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -2260,6 +2298,26 @@
           license = lib.licenses.free;
         };
       }) {};
+    package-lint = callPackage ({ cl-lib ? null
+                                , elpaBuild
+                                , emacs
+                                , fetchurl
+                                , let-alist
+                                , lib }:
+      elpaBuild {
+        pname = "package-lint";
+        ename = "package-lint";
+        version = "0.19";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/package-lint-0.19.tar";
+          sha256 = "0zq4kbir2l5fly8a37fdp4msygswl44vhjpwpcj1zqz13w30cd8h";
+        };
+        packageRequires = [ cl-lib emacs let-alist ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/package-lint.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     pacmacs = callPackage ({ dash, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "pacmacs";
@@ -2272,6 +2330,21 @@
         packageRequires = [ dash emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/pacmacs.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    page-break-lines = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "page-break-lines";
+        ename = "page-break-lines";
+        version = "0.15";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/page-break-lines-0.15.tar";
+          sha256 = "1i66254x49fwbzqrxmvp3v30aqas129kmy817rxbnqid7m5n1n7z";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/page-break-lines.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -2520,6 +2593,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/recomplete.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    reformatter = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "reformatter";
+        ename = "reformatter";
+        version = "0.7";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/reformatter-0.7.tar";
+          sha256 = "17y61gqljc4r66dp3qbggvpgj8wacnhv7kq4pwkpbb1h5a5l5b6z";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/reformatter.html";
           license = lib.licenses.free;
         };
       }) {};
