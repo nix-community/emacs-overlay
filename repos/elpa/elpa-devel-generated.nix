@@ -981,10 +981,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20230902.81513";
+        version = "0.35.0.20230904.213333";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230902.81513.tar";
-          sha256 = "1rk5r1iqhdfri3mj6yn7iipm5xw05368prdp4jrbp75wfqhnn5vw";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230904.213333.tar";
+          sha256 = "0q2574n50jmkpicppsr1dz5rr72iy96p2dxf42kj089kfzkag067";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -5990,10 +5990,10 @@
       elpaBuild {
         pname = "tmr";
         ename = "tmr";
-        version = "0.4.0.0.20230228.202513";
+        version = "0.4.0.0.20230905.43251";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tmr-0.4.0.0.20230228.202513.tar";
-          sha256 = "0xll0inryq2ajavnshpxrn3pjcraqbfmhyb0r9k15w3m6x4g38xk";
+          url = "https://elpa.gnu.org/devel/tmr-0.4.0.0.20230905.43251.tar";
+          sha256 = "0w4ss2jn4vc2ad4hcf37192si1iqkxri11mz3nzcl4lyxnb19n9a";
         };
         packageRequires = [ compat emacs ];
         meta = {
