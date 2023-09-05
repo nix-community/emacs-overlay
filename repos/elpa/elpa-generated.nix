@@ -4649,10 +4649,10 @@
       elpaBuild {
         pname = "seq";
         ename = "seq";
-        version = "2.23";
+        version = "2.24";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/seq-2.23.tar";
-          sha256 = "1lbxnrzq88z8k9dyylg2636pg9vc8bzfprs1hxwp9ah0zkvsn52p";
+          url = "https://elpa.gnu.org/packages/seq-2.24.tar";
+          sha256 = "1w2cysad3qwnzdabhq9xipbslsjm528fcxkwnslhlkh8v07karml";
         };
         packageRequires = [];
         meta = {
