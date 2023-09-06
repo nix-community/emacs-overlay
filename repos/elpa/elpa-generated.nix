@@ -505,10 +505,10 @@
       elpaBuild {
         pname = "breadcrumb";
         ename = "breadcrumb";
-        version = "1.0.0";
+        version = "1.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/breadcrumb-1.0.0.tar";
-          sha256 = "0m8lji8p73n0m19q823fwwi9q1jl4j5xf7f34m18967xvf2ykv08";
+          url = "https://elpa.gnu.org/packages/breadcrumb-1.0.1.tar";
+          sha256 = "0yqsyk8j0r1na2gybil64fb928dq7liwnk5xj18j9z8vgkdm0z0y";
         };
         packageRequires = [ emacs project ];
         meta = {
