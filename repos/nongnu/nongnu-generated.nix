@@ -986,10 +986,10 @@
       elpaBuild {
         pname = "flymake-guile";
         ename = "flymake-guile";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/flymake-guile-0.4.tar";
-          sha256 = "1v52gny0ma7k0mp8fh0mgkwfxyj6x6mf6m8gi5bxmvahjrn451s0";
+          url = "https://elpa.nongnu.org/nongnu/flymake-guile-0.5.tar";
+          sha256 = "1na5jxjwl2jy857ipvgy01m1wlsy0s7ingaxdzsldppjfvgwb7yd";
         };
         packageRequires = [ emacs flymake ];
         meta = {
