@@ -58565,8 +58565,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20230906,
-    2334
+    20230907,
+    631
    ],
    "deps": [
     "compat",
@@ -58574,8 +58574,8 @@
     "persist",
     "plz"
    ],
-   "commit": "e88112f2d2e44b7450450679bff183f33ba9519a",
-   "sha256": "123blvji85w2gcn9rygp6n07xbr3nm8q6hxb1xw0vqllxcmqi6qb"
+   "commit": "2b4ade87bcbb10c44327cf120b18dba3c85a2716",
+   "sha256": "1f3xf6w431xgd4n0kf980zv55ksrvyp7ayj9m5xvdagi99cvz59l"
   }
  },
  {
@@ -70822,8 +70822,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20230905,
-    1009
+    20230907,
+    220
    ],
    "deps": [
     "dash",
@@ -70834,8 +70834,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "6cbd592f51f939a2d9bd129cdb768a41fa00faf8",
-   "sha256": "1c4grbl3dpcbh26qsp0w88lz751pzb65i1mnn095nwaw3x2y2a7r"
+   "commit": "bab06f930a0ee52d45189986e0dd8f28eeb3b784",
+   "sha256": "03xag3il6fzdxpwiln3klh5hpyy2bb2697lcmhd7nwx1d0ydfgq1"
   },
   "stable": {
    "version": [
@@ -86127,14 +86127,14 @@
   "repo": "bpanthi977/org-mpv-notes",
   "unstable": {
    "version": [
-    20230828,
-    1747
+    20230907,
+    530
    ],
    "deps": [
     "mpv"
    ],
-   "commit": "04ff69a0494a2f81f2f982caf31326a03cb2135b",
-   "sha256": "050ilf925yvrd5igs7ls84sfcrgapdi7g6h650zl7nch1g6nxvz4"
+   "commit": "072cecf7097829c463fc38f4bb5026b2311036b6",
+   "sha256": "09siywwlks32rzr95aigb7lmhiq4b39jcbb5b16wik9z9vzjiq30"
   }
  },
  {
@@ -86760,8 +86760,29 @@
   "repo": "alphapapa/org-ql",
   "unstable": {
    "version": [
-    20230906,
-    2357
+    20230907,
+    151
+   ],
+   "deps": [
+    "dash",
+    "f",
+    "map",
+    "org",
+    "org-super-agenda",
+    "ov",
+    "peg",
+    "s",
+    "transient",
+    "ts"
+   ],
+   "commit": "f65b1d91a49468e176bd733d3b930ec4b7ed4cf1",
+   "sha256": "0xsg3j8xz868k023gz3i5y7yd925zlx1276vpp9db1zkink767nc"
+  },
+  "stable": {
+   "version": [
+    0,
+    7,
+    1
    ],
    "deps": [
     "dash",
@@ -86777,26 +86798,6 @@
    ],
    "commit": "d776e205d53adccd1d66a9c666fd885a2334262e",
    "sha256": "1k71v445qxsn754s913h39smavgz2kwfqwy6iqil1yfx345zhv5j"
-  },
-  "stable": {
-   "version": [
-    0,
-    7
-   ],
-   "deps": [
-    "dash",
-    "f",
-    "map",
-    "org",
-    "org-super-agenda",
-    "ov",
-    "peg",
-    "s",
-    "transient",
-    "ts"
-   ],
-   "commit": "aadddc4d84a72fa80d3bf909c9a3a4cbce53cd93",
-   "sha256": "092ckddjbs5d3h6w5x2zkpnm0qzcl00lb8q2656wa81q1kf6928k"
   }
  },
  {
