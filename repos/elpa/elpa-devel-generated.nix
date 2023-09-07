@@ -2172,10 +2172,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.27.0.20230609.0";
+        version = "0.27.0.20230818.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.27.0.20230609.0.tar";
-          sha256 = "0igqkdx2lwmwx9llidhk716lv9v5k1sd4r3j15c3qzaq5fzzqv2w";
+          url = "https://elpa.gnu.org/devel/exwm-0.27.0.20230818.0.tar";
+          sha256 = "07brry4dz21hp633cd09kwfxz5y1b69z7pl1kqdnd04qmqqvh8lw";
         };
         packageRequires = [ xelb ];
         meta = {
@@ -4089,10 +4089,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230904.74728";
+        version = "9.7pre0.20230906.93335";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230904.74728.tar";
-          sha256 = "09wzpzfjmpjgq3g6c7lbk0n0kcwlw7iw0l1y6r0cjk81myg85rdl";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230906.93335.tar";
+          sha256 = "0zrxnyn3c0h1dgcb9685sagz0b11dlac7v3zlbc8n8paybf484vn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4642,14 +4642,18 @@
           license = lib.licenses.free;
         };
       }) {};
-    project = callPackage ({ elpaBuild, emacs, fetchurl, lib, xref }:
+    project = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib
+                           , xref }:
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.9.8.0.20230903.1223";
+        version = "0.10.0.0.20230906.205430";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.9.8.0.20230903.1223.tar";
-          sha256 = "0i09kqlzbac0hs3p20p5hs7jcgnzq7lxyvcanvp0d2kni61xg699";
+          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20230906.205430.tar";
+          sha256 = "1232sn36dvz8i34a1ywfvisnj88fyin26lkrm0gr0a18fvwcmaaw";
         };
         packageRequires = [ emacs xref ];
         meta = {
