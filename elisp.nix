@@ -76,7 +76,7 @@ emacsWithPackages (epkgs:
             defaultInitFileName = "default.el";
           in
           epkgs.trivialBuild {
-            pname = "default-init-file";
+            pname = "default";
             src =
               if defaultInitFile == true
               then pkgs.writeText defaultInitFileName configText
