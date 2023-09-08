@@ -76,7 +76,7 @@ emacsWithPackages (epkgs:
             defaultInitFileName = "default.el";
           in
           epkgs.trivialBuild {
-            pname = "default-init-file";
+            pname = "default";
             src =
               if defaultInitFile == true
               then pkgs.writeText defaultInitFileName configText
@@ -84,6 +84,7 @@ emacsWithPackages (epkgs:
                 if defaultInitFile.name == defaultInitFileName
                 then defaultInitFile
                 else throw "name of defaultInitFile must be ${defaultInitFileName}";
+            version = "0.1.0";
             packageRequires = usePkgs;
           };
   in
