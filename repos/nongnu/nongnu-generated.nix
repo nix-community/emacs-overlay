@@ -1513,10 +1513,10 @@
       elpaBuild {
         pname = "helm";
         ename = "helm";
-        version = "3.9.4";
+        version = "3.9.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-3.9.4.tar";
-          sha256 = "1x0nvzm7xx3xik3znfhsmgbprysrapviv6lf7ndqxgi2cj27jfv3";
+          url = "https://elpa.nongnu.org/nongnu/helm-3.9.5.tar";
+          sha256 = "1vsg1xflz5880h477s8hqrxinv4wdx12gdvs08zy7xbmypzwhrz1";
         };
         packageRequires = [ helm-core popup wfnames ];
         meta = {
@@ -1528,10 +1528,10 @@
       elpaBuild {
         pname = "helm-core";
         ename = "helm-core";
-        version = "3.9.4";
+        version = "3.9.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-core-3.9.4.tar";
-          sha256 = "11aa019d5impf6c3apaz44hv5hjfg3g4wn4a1m7a5svr6isfa79w";
+          url = "https://elpa.nongnu.org/nongnu/helm-core-3.9.5.tar";
+          sha256 = "1ixbbh0zcxnkl5ry5sswgh8nw8a2hrgkw9hqzznz9wiw1avs4g9c";
         };
         packageRequires = [ async emacs ];
         meta = {
@@ -2949,10 +2949,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.23.1";
+        version = "0.24.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.23.1.tar";
-          sha256 = "0jvk9zr11ssg64hx240d30r4bd9gs64i0srlz3ys6s93slqfqsx1";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.24.0.tar";
+          sha256 = "0605nijbwqaxl5rng2lzka6m9f1mlp4aqmy492gz890yhmxyqwwd";
         };
         packageRequires = [ compat emacs ];
         meta = {
