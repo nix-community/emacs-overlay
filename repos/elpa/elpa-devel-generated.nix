@@ -1895,10 +1895,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.22.1.0.20230908.135001";
+        version = "0.22.1.0.20230908.144940";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230908.135001.tar";
-          sha256 = "1hm9pg59rmqxzihiv6xfb8lhhf3ndc2s5wahy5i45snp5ram8452";
+          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230908.144940.tar";
+          sha256 = "0yhh17md5lgvqcigvyb1ryw8m6wwl44m6mrnnl52xjh5lm1kvvvm";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1915,10 +1915,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.7.0.20230908.135001";
+        version = "0.7.0.20230908.144940";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230908.135001.tar";
-          sha256 = "05chqvw1483ikfgsclyrgyxx4d6wknvxj45h5l4ayck10sr7w1k8";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230908.144940.tar";
+          sha256 = "02m5x0k4kzy1472v6vrp50hi1k1r8zaah6gmvqys6pzvgmba599j";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -1940,10 +1940,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.12pre0.20230908.125631";
+        version = "0.12pre0.20230908.203729";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.12pre0.20230908.125631.tar";
-          sha256 = "0pkn79viq02ksiji2k6yapcqk0i22a2510164y596m6cqyss3kjm";
+          url = "https://elpa.gnu.org/devel/ement-0.12pre0.20230908.203729.tar";
+          sha256 = "1x8yj50hnidpdqn5fwhglrlzx22np94blh00gwrrls9lpbw89kk5";
         };
         packageRequires = [
           emacs
@@ -4596,10 +4596,10 @@
       elpaBuild {
         pname = "popper";
         ename = "popper";
-        version = "0.4.6.0.20230906.101040";
+        version = "0.4.6.0.20230908.183054";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/popper-0.4.6.0.20230906.101040.tar";
-          sha256 = "0bklm8mija34ipshiyzckbgy7iq5qd3y04j47xw6pc6adp66xwpg";
+          url = "https://elpa.gnu.org/devel/popper-0.4.6.0.20230908.183054.tar";
+          sha256 = "062ykss5kv0w1i254n9lzwkfwf5zliicianh1nvypmlqdp16hphx";
         };
         packageRequires = [ emacs ];
         meta = {
