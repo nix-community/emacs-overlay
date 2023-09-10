@@ -707,10 +707,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.17.0.20230903.221854";
+        version = "0.17.0.20230910.61037";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-0.17.0.20230903.221854.tar";
-          sha256 = "0gh8dcfrz4r8phz0h6114f64yixj76ihicii15fk1m7k1kxkijyd";
+          url = "https://elpa.gnu.org/devel/cape-0.17.0.20230910.61037.tar";
+          sha256 = "0lmdm42x9z3qdsb19v1lzcgmcgvi4x8jmy96wfz89fwpzdc3d5zs";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1936,10 +1936,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.12pre0.20230908.203729";
+        version = "0.12pre0.20230910.20115";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.12pre0.20230908.203729.tar";
-          sha256 = "1x8yj50hnidpdqn5fwhglrlzx22np94blh00gwrrls9lpbw89kk5";
+          url = "https://elpa.gnu.org/devel/ement-0.12pre0.20230910.20115.tar";
+          sha256 = "1qzjhz6k7pagy6khiyvpnjxf9kn35sm794yamzq00j9qi53330vy";
         };
         packageRequires = [
           emacs
@@ -2168,10 +2168,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.27.0.20230818.0";
+        version = "0.27.0.20230910.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.27.0.20230818.0.tar";
-          sha256 = "07brry4dz21hp633cd09kwfxz5y1b69z7pl1kqdnd04qmqqvh8lw";
+          url = "https://elpa.gnu.org/devel/exwm-0.27.0.20230910.0.tar";
+          sha256 = "1dc5k33i1yz6fms588fhi2820l4y88yhg9rxzz36ws7g58v72fbg";
         };
         packageRequires = [ xelb ];
         meta = {
@@ -2646,10 +2646,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.2.0.20230909.122544";
+        version = "0.2.0.20230910.44443";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.2.0.20230909.122544.tar";
-          sha256 = "1748716zx8l7dnh460nhj47v3n11nay5pilp8rp5spw9r69dsijj";
+          url = "https://elpa.gnu.org/devel/greader-0.2.0.20230910.44443.tar";
+          sha256 = "14psizyxcqy83j6nyk7hg3smxjip1ggni713z20p5xdrdrqwgxff";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3470,10 +3470,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.3.0.20230805.91509";
+        version = "1.3.0.20230910.73921";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/marginalia-1.3.0.20230805.91509.tar";
-          sha256 = "1xxx64vfx6i2ghnhk79fm33mqlmg8y1jjl9365wgsq51f5422041";
+          url = "https://elpa.gnu.org/devel/marginalia-1.3.0.20230910.73921.tar";
+          sha256 = "1zpjlh4vbgd6fkx78xgcgb6xz936y66dc9bxg43pxv732da8xs1j";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4085,10 +4085,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230909.105702";
+        version = "9.7pre0.20230910.73819";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230909.105702.tar";
-          sha256 = "17qcsbzy1b8q6550zlq6a3kxil2bq6j93298mik0h9ykp1cykhf6";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230910.73819.tar";
+          sha256 = "11j09chl2ma1kzn9fq51rjgn3p2x26qim6564jyp8w3679s02yjp";
         };
         packageRequires = [ emacs ];
         meta = {
