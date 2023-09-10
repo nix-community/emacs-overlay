@@ -2367,10 +2367,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.1.tar";
-          sha256 = "0mwhmidzv9vnmx6xls8pq4ra4m0f4yg677xgv34ivv34vsgg1mhb";
+          url = "https://elpa.gnu.org/packages/greader-0.2.tar";
+          sha256 = "01s9jdfn4rzbhfkjv3ydvrmll53kii0hrdsqvhqmk644v8v4gy3x";
         };
         packageRequires = [ emacs ];
         meta = {
