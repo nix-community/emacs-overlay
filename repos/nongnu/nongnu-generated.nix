@@ -368,10 +368,10 @@
       elpaBuild {
         pname = "clojure-mode";
         ename = "clojure-mode";
-        version = "5.16.2";
+        version = "5.17.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/clojure-mode-5.16.2.tar";
-          sha256 = "08bqacpdxkapga163fcjyq0r131a5xjhi85j8v470v0gpvfwvm61";
+          url = "https://elpa.nongnu.org/nongnu/clojure-mode-5.17.0.tar";
+          sha256 = "189kyj57q4v8m9r9cd9q2x9db42vl5vb1qvww401lxlappc58fmw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2934,10 +2934,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.2.3";
+        version = "1.2.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.2.3.tar";
-          sha256 = "0np4wp7pmpayz8r9p3cl7z1i7yfq8xmkn862n9d104szf4ffk0if";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.2.4.tar";
+          sha256 = "05pnjdrf9gq32bayvbd0yvp1lxpwj2xsarcy3s2jjb6zcgm6djyb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3418,10 +3418,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "24.9.20230909155929";
+        version = "24.10.20230911080522";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.9.20230909155929.tar";
-          sha256 = "13vdl89ayvmwnazjwjz6pi3m5vfaijz0xkpaff4z46wy2lb19vms";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.10.20230911080522.tar";
+          sha256 = "07k3v9gf7hbnicrggspd8xx2qwmd5x0vrfmy0x8fx21d61fylqvh";
         };
         packageRequires = [ emacs ];
         meta = {
