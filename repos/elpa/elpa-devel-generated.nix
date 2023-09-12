@@ -1940,10 +1940,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.12pre0.20230910.60516";
+        version = "0.12pre0.20230911.193113";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.12pre0.20230910.60516.tar";
-          sha256 = "085hbkqzs6v6c3pcwdsazbifvddrx6pmvp4vfl9x3q2z7fv9y7j9";
+          url = "https://elpa.gnu.org/devel/ement-0.12pre0.20230911.193113.tar";
+          sha256 = "1lnkg8k5bz2fqcp0dkiwdljxcr1yyynz4lgpa09adyr7j44hgkm2";
         };
         packageRequires = [
           emacs
@@ -2751,10 +2751,10 @@
       elpaBuild {
         pname = "hiddenquote";
         ename = "hiddenquote";
-        version = "1.2.0.20221206.105559";
+        version = "1.2.0.20230911.171055";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hiddenquote-1.2.0.20221206.105559.tar";
-          sha256 = "0jmlby1ic1sfymiz5rxpq7l7zfxp5hkmcik4ax62q1vnqm67gvq4";
+          url = "https://elpa.gnu.org/devel/hiddenquote-1.2.0.20230911.171055.tar";
+          sha256 = "00basln4s5ngxp353ldpzxp382chdxp05bafsazgxkh5mg94jsyf";
         };
         packageRequires = [ emacs ];
         meta = {
