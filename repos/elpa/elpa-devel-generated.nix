@@ -1763,10 +1763,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20230904.203541";
+        version = "1.15.0.20230911.130250";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230904.203541.tar";
-          sha256 = "1r435rzg57cylpy9x0hjgdcn0ndvpxczckz5lqvkcx4y39czv8kk";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230911.130250.tar";
+          sha256 = "1c2hrbq3g6f2dkcw68hvx5nc73d8pkpvg66hw6rjlzg20a5bgr7d";
         };
         packageRequires = [
           eldoc
@@ -3080,10 +3080,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.9.0.20230816.204512";
+        version = "0.9.0.20230911.165024";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230816.204512.tar";
-          sha256 = "1qpd4n70822fwbg0cb8jdg4zahzwm8jlh3fq9m5482m2dk45fywb";
+          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230911.165024.tar";
+          sha256 = "1ix0cvwnf1qz1dw9kwhwszi1nzkpcyw4psfflrmqw22q5n4a6jvh";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4089,10 +4089,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230910.133229";
+        version = "9.7pre0.20230911.91200";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230910.133229.tar";
-          sha256 = "0psb2bqx40nsqbih8i40l84jc4vbz891ixi39scpf4h933siwnhi";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230911.91200.tar";
+          sha256 = "19ga2val3q8qgcxbvrw815s6yi2xb142m1v9rmjl0l3iq5x7wlj4";
         };
         packageRequires = [ emacs ];
         meta = {
