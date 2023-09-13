@@ -3080,10 +3080,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.9.0.20230911.165024";
+        version = "0.9.0.20230912.84730";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230911.165024.tar";
-          sha256 = "1ix0cvwnf1qz1dw9kwhwszi1nzkpcyw4psfflrmqw22q5n4a6jvh";
+          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230912.84730.tar";
+          sha256 = "1rg6kiiqwpkm59q184sv7pnlx9nxszpysyx4sgxg3swf9fkkw1iy";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4089,10 +4089,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230911.91200";
+        version = "9.7pre0.20230912.93051";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230911.91200.tar";
-          sha256 = "19ga2val3q8qgcxbvrw815s6yi2xb142m1v9rmjl0l3iq5x7wlj4";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230912.93051.tar";
+          sha256 = "19f7hk9lbiaqlw8ds47zr0j9f98gqjmc4pjlg4vahz0gblr76g4s";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6560,10 +6560,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20230909.194453";
+        version = "1.4.0.20230912.93924";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230909.194453.tar";
-          sha256 = "1sij9k96ry06gpwcirbjbf638cdd3narsrs47z71lh41m62cx123";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230912.93924.tar";
+          sha256 = "1fi1y67rpzahpl9p6kzhz341ghalkn6r7pqlr0q13an7im6jcps1";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6994,10 +6994,10 @@
       elpaBuild {
         pname = "yasnippet";
         ename = "yasnippet";
-        version = "0.14.0.0.20210502.75302";
+        version = "0.14.0.0.20230912.111325";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20210502.75302.tar";
-          sha256 = "17xaw27b7sjpb6j4jhfdr9vgd5r6gqhavwfn2zwhqnnc4qmvnj4k";
+          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20230912.111325.tar";
+          sha256 = "0k9h33dgxhg20cg2wwxmhxl5yzyh2g4kims15l0rgs2ag496qn5a";
         };
         packageRequires = [ cl-lib ];
         meta = {
