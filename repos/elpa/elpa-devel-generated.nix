@@ -1000,10 +1000,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20230909.112510";
+        version = "0.35.0.20230913.63059";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230909.112510.tar";
-          sha256 = "0403bjy063fkax77zjrd7gpr8vpvmlv02vm8zmjchkg552ipgr6c";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230913.63059.tar";
+          sha256 = "0hywkdmkkgh07hrar49l94qhy27hwr42l1x9x22q1gqpnj0illmw";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2650,10 +2650,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.2.0.20230910.44443";
+        version = "0.2.1.0.20230913.31011";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.2.0.20230910.44443.tar";
-          sha256 = "14psizyxcqy83j6nyk7hg3smxjip1ggni713z20p5xdrdrqwgxff";
+          url = "https://elpa.gnu.org/devel/greader-0.2.1.0.20230913.31011.tar";
+          sha256 = "0iys8b4pp1rmsdil0dbf5l1apdmkwd98cn7qbp803qrbiwl3brr6";
         };
         packageRequires = [ emacs ];
         meta = {
