@@ -579,10 +579,10 @@
       elpaBuild {
         pname = "breadcrumb";
         ename = "breadcrumb";
-        version = "1.0.1.0.20230906.73738";
+        version = "1.0.1.0.20230913.180643";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20230906.73738.tar";
-          sha256 = "0bdw437lgwm4znc058927f93yacdazwiw7zhapx9lirk3ddvh3jm";
+          url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20230913.180643.tar";
+          sha256 = "1f2kgjmdn8m9sgwx42yv7ldn41s0az53kn6vzlshx5h77y2g1bsn";
         };
         packageRequires = [ emacs project ];
         meta = {
@@ -1000,10 +1000,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20230913.63059";
+        version = "0.35.0.20230913.101522";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230913.63059.tar";
-          sha256 = "0hywkdmkkgh07hrar49l94qhy27hwr42l1x9x22q1gqpnj0illmw";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230913.101522.tar";
+          sha256 = "06aj7i56825j0q8pq9nz492j0h6csflzxm5cbj6qmfkjaf7vzv78";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1738,10 +1738,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.3.0.0.20230825.34525";
+        version = "1.3.0.0.20230913.101951";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.3.0.0.20230825.34525.tar";
-          sha256 = "0qqmghz3jsyyqf5gs8pas5d7my6pfdqycfzfslw5cmfyljmwaz28";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.3.0.0.20230913.101951.tar";
+          sha256 = "0y81ry7dchz2swj01bgvw0gi00pnrk8gd7ysfayv6cswdk4a54yb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3080,10 +3080,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.9.0.20230912.84730";
+        version = "0.9.0.20230913.103414";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230912.84730.tar";
-          sha256 = "1rg6kiiqwpkm59q184sv7pnlx9nxszpysyx4sgxg3swf9fkkw1iy";
+          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230913.103414.tar";
+          sha256 = "0j0h5n62b3cqpn6bbygfis0ikijaa503kyqd5fjj2z05z5dmyahg";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3672,10 +3672,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.2.0.0.20230825.33718";
+        version = "4.2.0.0.20230913.154012";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230825.33718.tar";
-          sha256 = "12f5xqxcwi0zaf3zy7anazj8xc11w0cvx6yca7hbf7anckawjqdk";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230913.154012.tar";
+          sha256 = "0lww916s07260fbqm9yfxkxijrb8z9pcgkcdkq07h89x6bb2dyjh";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4089,10 +4089,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230912.93051";
+        version = "9.7pre0.20230913.82355";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230912.93051.tar";
-          sha256 = "19f7hk9lbiaqlw8ds47zr0j9f98gqjmc4pjlg4vahz0gblr76g4s";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230913.82355.tar";
+          sha256 = "0g12zji2mf3wakhcbkxx4za5ml6nrxgkpxcii1v2n8m2xqzc33ml";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5689,10 +5689,10 @@
       elpaBuild {
         pname = "standard-themes";
         ename = "standard-themes";
-        version = "1.2.0.0.20230825.34554";
+        version = "1.2.0.0.20230913.102100";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/standard-themes-1.2.0.0.20230825.34554.tar";
-          sha256 = "10w1mwfzlcbmss6pm9yph5gq2xz5bcgqy9ji4ssazcg76dyj3r75";
+          url = "https://elpa.gnu.org/devel/standard-themes-1.2.0.0.20230913.102100.tar";
+          sha256 = "092cbxk5yqdb07k6p0wp9pr70l7gksaq2crzis2iwp8mqsjd3vrq";
         };
         packageRequires = [ emacs ];
         meta = {
