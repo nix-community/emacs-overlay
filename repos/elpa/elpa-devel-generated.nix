@@ -1000,10 +1000,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20230913.101522";
+        version = "0.35.0.20230914.50345";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230913.101522.tar";
-          sha256 = "06aj7i56825j0q8pq9nz492j0h6csflzxm5cbj6qmfkjaf7vzv78";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230914.50345.tar";
+          sha256 = "0ic87xd6wa9zq14b9c392mi1fz717i6903yspxsigd0l7wsdplh7";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1652,10 +1652,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.8.17.0.20230720.84151";
+        version = "0.8.18.0.20230913.153353";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ebdb-0.8.17.0.20230720.84151.tar";
-          sha256 = "1nd0jd4y8zg5i4ng7k40h6j00hr416i07cmnqqpxvh6h3kycahsw";
+          url = "https://elpa.gnu.org/devel/ebdb-0.8.18.0.20230913.153353.tar";
+          sha256 = "1fk23p4hgj91mkykn4bi4ps2836fqyn1yww79nsvc2yx2w0q8i7x";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -4710,10 +4710,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "1.0.1.0.20230824.40645";
+        version = "1.0.1.0.20230914.41539";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20230824.40645.tar";
-          sha256 = "113rcvnajrj6nnqzlj9fk5sc59sqn2z1ipp6xflq7q92lh8h1g3a";
+          url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20230914.41539.tar";
+          sha256 = "0k7gg130pv2xaa6zkar3nff907wfmzmpv56h2lbxwmmmf2ag6f0r";
         };
         packageRequires = [ emacs ];
         meta = {
