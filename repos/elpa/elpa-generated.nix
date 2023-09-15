@@ -1726,10 +1726,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.11";
+        version = "0.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.11.tar";
-          sha256 = "0hsing0iwb69qmnzqii66rqb0cwy3k35ybl68a9jh7iw97jcxm73";
+          url = "https://elpa.gnu.org/packages/ement-0.12.tar";
+          sha256 = "0v63xfvkdijf8wfy7kafqrqxclq2jvk4amp69kzxx9i0gnp90hzi";
         };
         packageRequires = [
           emacs
@@ -2569,10 +2569,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.33";
+        version = "0.34";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.33.tar";
-          sha256 = "1kap3z68sjjaszmmznl4kk6mr31yd99cqv4yj34zb94vsb2xb6xj";
+          url = "https://elpa.gnu.org/packages/inspector-0.34.tar";
+          sha256 = "1r1gcrhcxixm15ygi4i8brxdpic5a1i2248m7fgwvzij4bvhcg5h";
         };
         packageRequires = [ emacs ];
         meta = {

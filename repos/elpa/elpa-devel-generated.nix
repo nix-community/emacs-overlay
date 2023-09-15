@@ -1940,10 +1940,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.12pre0.20230914.93645";
+        version = "0.13pre0.20230914.231642";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.12pre0.20230914.93645.tar";
-          sha256 = "07cy66wccgsy9xjdymajimwxjw0bsz0x53sya12fjl8ira2zr1q7";
+          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20230914.231642.tar";
+          sha256 = "1531bxwz3ilwdkrkwcrlrp4v2ifz2s9l06fcwa895g7xa3wp3xi3";
         };
         packageRequires = [
           emacs
@@ -2869,10 +2869,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.33.0.20230821.101343";
+        version = "0.34.0.20230914.190620";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/inspector-0.33.0.20230821.101343.tar";
-          sha256 = "15x73qhdkwsdh3dg8n1051jrcvyjdygpx44c4k23vfrsgjwkd66i";
+          url = "https://elpa.gnu.org/devel/inspector-0.34.0.20230914.190620.tar";
+          sha256 = "0lx8vwgnh3y6fxdxb0mn0fz7a7xrqkca612fjwfm46nwwbb5j7lf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3410,10 +3410,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "1.1.1.0.20230621.190031";
+        version = "1.1.1.0.20230915.41852";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/logos-1.1.1.0.20230621.190031.tar";
-          sha256 = "10bbjidfma7xsmh1gmv6qfnv315r9bvbik0hqdx9kd75sl7fvdj7";
+          url = "https://elpa.gnu.org/devel/logos-1.1.1.0.20230915.41852.tar";
+          sha256 = "1p7bz3p0ccp74pi4wbkz813zgkxz1lr9hxxfrnipgh120a72g3y8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6898,10 +6898,10 @@
       elpaBuild {
         pname = "xeft";
         ename = "xeft";
-        version = "3.3.0.20230724.143339";
+        version = "3.3.0.20230913.220528";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xeft-3.3.0.20230724.143339.tar";
-          sha256 = "1q440lab148nwvvix29iyzjmknf243wam9cqsfz0vk1az7rp7pmb";
+          url = "https://elpa.gnu.org/devel/xeft-3.3.0.20230913.220528.tar";
+          sha256 = "14kc375vxz6hi6i6fyamkhhjggzsx8bh57cpsqanihg45x3vcwdk";
         };
         packageRequires = [ emacs ];
         meta = {
