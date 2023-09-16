@@ -321,10 +321,10 @@
       elpaBuild {
         pname = "cdlatex";
         ename = "cdlatex";
-        version = "4.18";
+        version = "4.18.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/cdlatex-4.18.tar";
-          sha256 = "15jmy0m1rnpnldl5kwfkipzphgyw4l3fyh30ig3kmzyj8jnpfy4q";
+          url = "https://elpa.nongnu.org/nongnu/cdlatex-4.18.2.tar";
+          sha256 = "1sqmb7qcvdphkrak9bxw3xs0fdlv5vn36ckcqiannpm870s7ajnk";
         };
         packageRequires = [];
         meta = {
