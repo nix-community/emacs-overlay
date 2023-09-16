@@ -1897,10 +1897,10 @@
       elpaBuild {
         pname = "expreg";
         ename = "expreg";
-        version = "1.2.1";
+        version = "1.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/expreg-1.2.1.tar";
-          sha256 = "13m08my5pl8k5gj78lpkh0lh05mrbkphg0k0bb40aw4rbnv7yr7v";
+          url = "https://elpa.gnu.org/packages/expreg-1.3.1.tar";
+          sha256 = "13s3hq6nfnv4md2z704ad1axqnir0drz9vvhvisrlp2lis16xzik";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2367,10 +2367,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.3.0";
+        version = "0.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.3.0.tar";
-          sha256 = "1g0djxa8zplw9dmlpg5263wbhp80nkj4wispyikh09cc2lppidw8";
+          url = "https://elpa.gnu.org/packages/greader-0.4.0.tar";
+          sha256 = "0m464sr3h3pyshs5dza83a5213y3z5mgkhqv4f18pmcfnsk43y0n";
         };
         packageRequires = [ emacs ];
         meta = {

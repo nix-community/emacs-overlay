@@ -2136,10 +2136,10 @@
       elpaBuild {
         pname = "expreg";
         ename = "expreg";
-        version = "1.2.1.0.20230830.131742";
+        version = "1.3.1.0.20230915.150818";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/expreg-1.2.1.0.20230830.131742.tar";
-          sha256 = "10nb1k9ig61n11w7a5p59mq4n5nv7ma671vbclrm8ljv98259vfg";
+          url = "https://elpa.gnu.org/devel/expreg-1.3.1.0.20230915.150818.tar";
+          sha256 = "1wxayvfqc41c2qfqjmf8drzb0q7r5kyfygdl5l4c3idcm8agsim4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2646,10 +2646,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.3.0.0.20230914.90609";
+        version = "0.4.0.0.20230916.21258";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.3.0.0.20230914.90609.tar";
-          sha256 = "1pqk8w20178njzaa9d6m7xpqj1ipxp4jw05x9zd9ifq5xpkr443k";
+          url = "https://elpa.gnu.org/devel/greader-0.4.0.0.20230916.21258.tar";
+          sha256 = "1bfmxbc3g44grjnymz5jldil2bhnzrdvw8a6g7bqi7ivay098j09";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5957,10 +5957,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "0.8.0.20230810.233751";
+        version = "0.8.0.20230915.222920";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tempel-0.8.0.20230810.233751.tar";
-          sha256 = "0m982zs65vpk1sp9sasy4jpy3l4npqw6hzxn7687d0gplnjs1agw";
+          url = "https://elpa.gnu.org/devel/tempel-0.8.0.20230915.222920.tar";
+          sha256 = "1lsc3d8sqydbhyrd9ja43y06i0qxwc0dns2n4rnnb8039y2dvfnn";
         };
         packageRequires = [ compat emacs ];
         meta = {
