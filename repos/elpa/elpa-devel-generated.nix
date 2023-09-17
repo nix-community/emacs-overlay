@@ -450,14 +450,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    beframe = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    beframe = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "0.3.0.0.20230707.42330";
+        version = "0.3.0.0.20230916.171012";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/beframe-0.3.0.0.20230707.42330.tar";
-          sha256 = "12a7hhdjw9fy5mh3sj7jyb249vlmrl45r4wq4faap23mdnbygw49";
+          url = "https://elpa.gnu.org/devel/beframe-0.3.0.0.20230916.171012.tar";
+          sha256 = "1j8fbw19szr1cd5ij4gflw5z0j1ngfdciz4lkma2xd2d53b47hmb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1314,10 +1317,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20230915.85516";
+        version = "2.0.0.0.20230916.102437";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20230915.85516.tar";
-          sha256 = "0k5i4rr62a2rx7070xmpjfrmkq4906lrbbwpk0h0abn3dkaliagl";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20230916.102437.tar";
+          sha256 = "1sbqygcnjja7r79g01rsi99n97x2szyb4h45zpcqynxraxgpnfd1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1490,10 +1493,10 @@
       elpaBuild {
         pname = "dired-preview";
         ename = "dired-preview";
-        version = "0.1.1.0.20230713.184118";
+        version = "0.1.1.0.20230916.165543";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dired-preview-0.1.1.0.20230713.184118.tar";
-          sha256 = "1vrm6k9sdbgsjbx6s0yz250n08sp6pg5rwgly2y0zwxdxmhkx7br";
+          url = "https://elpa.gnu.org/devel/dired-preview-0.1.1.0.20230916.165543.tar";
+          sha256 = "14ia1ngj6pkhxml7bs542pnszbnc9hdjqkqmkrlh646pbx3h37m6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1738,10 +1741,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.3.0.0.20230913.101951";
+        version = "1.3.0.0.20230916.90606";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.3.0.0.20230913.101951.tar";
-          sha256 = "0y81ry7dchz2swj01bgvw0gi00pnrk8gd7ysfayv6cswdk4a54yb";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.3.0.0.20230916.90606.tar";
+          sha256 = "102bsq4i5h03cbd1lk3g9b5rcxsiw6ykmpc9ngvsj8iygxn1vh0j";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1763,10 +1766,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20230911.130250";
+        version = "1.15.0.20230916.100143";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230911.130250.tar";
-          sha256 = "1c2hrbq3g6f2dkcw68hvx5nc73d8pkpvg66hw6rjlzg20a5bgr7d";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230916.100143.tar";
+          sha256 = "1jbfi23709aqlvhlhxzma74c9h79nwbknm60zihdw368352acdwl";
         };
         packageRequires = [
           eldoc
@@ -3519,10 +3522,10 @@
       elpaBuild {
         pname = "mct";
         ename = "mct";
-        version = "0.5.0.0.20230329.161705";
+        version = "0.5.0.0.20230916.94536";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/mct-0.5.0.0.20230329.161705.tar";
-          sha256 = "0wrxhlcwgbpkfp1p0djhqj09s6q484vyr3sxlvg9vvqk75v73brv";
+          url = "https://elpa.gnu.org/devel/mct-0.5.0.0.20230916.94536.tar";
+          sha256 = "01sn9qq6m58612s64dxilh7d60lj088h1fpq9zkl79af0kfd6x51";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3668,10 +3671,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.2.0.0.20230913.154012";
+        version = "4.2.0.0.20230916.90500";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230913.154012.tar";
-          sha256 = "0lww916s07260fbqm9yfxkxijrb8z9pcgkcdkq07h89x6bb2dyjh";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230916.90500.tar";
+          sha256 = "0015ff6ai0f5wf01qkw41k7ab97h389lngxf97jlb3hr48m37n9z";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4085,10 +4088,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230915.103027";
+        version = "9.7pre0.20230916.92352";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230915.103027.tar";
-          sha256 = "1c767dvr21xajsnwq9k3f3c6majyjw15i98kvh3n2wjxw07sldcb";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230916.92352.tar";
+          sha256 = "1ljmjqyf1dmi17a8kwibcl1aiv5f5rxvc1h52zlzbcxwffkvz6n8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5685,10 +5688,10 @@
       elpaBuild {
         pname = "standard-themes";
         ename = "standard-themes";
-        version = "1.2.0.0.20230913.102100";
+        version = "1.2.0.0.20230916.90636";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/standard-themes-1.2.0.0.20230913.102100.tar";
-          sha256 = "092cbxk5yqdb07k6p0wp9pr70l7gksaq2crzis2iwp8mqsjd3vrq";
+          url = "https://elpa.gnu.org/devel/standard-themes-1.2.0.0.20230916.90636.tar";
+          sha256 = "0i1xqg65sbwm7xy26b116ips2769wa8yiqmyvcgsbsmig4vrydw8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5975,10 +5978,10 @@
       elpaBuild {
         pname = "test-simple";
         ename = "test-simple";
-        version = "1.3.0.0.20200722.214339";
+        version = "1.3.0.0.20230916.123447";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/test-simple-1.3.0.0.20200722.214339.tar";
-          sha256 = "0q7b6y7qw8arhcx0cmhx0y1bmj84zk0nqjlgvra9bav07wb9xxm9";
+          url = "https://elpa.gnu.org/devel/test-simple-1.3.0.0.20230916.123447.tar";
+          sha256 = "0wd0br7bc2lis9iy3ilnwjiav971rp0n8iad60b2n2jdhcdwbk6s";
         };
         packageRequires = [ cl-lib ];
         meta = {
