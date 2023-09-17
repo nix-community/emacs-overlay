@@ -3284,10 +3284,10 @@
       elpaBuild {
         pname = "mmm-mode";
         ename = "mmm-mode";
-        version = "0.5.9";
+        version = "0.5.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/mmm-mode-0.5.9.tar";
-          sha256 = "12fss1ccb66xc87m5wpr3vg7bfrzz5m0q6s7pa0avvhsm2f8r2yh";
+          url = "https://elpa.gnu.org/packages/mmm-mode-0.5.10.tar";
+          sha256 = "1ny9gm87qah4qy0iphw2nlhz2pfc87hzzsv58lrxl18gr69qhndi";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {

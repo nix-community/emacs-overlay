@@ -1890,14 +1890,18 @@
           license = lib.licenses.free;
         };
       }) {};
-    embark = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
+    embark = callPackage ({ compat
+                          , elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib }:
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.22.1.0.20230915.70406";
+        version = "0.22.1.0.20230916.230854";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230915.70406.tar";
-          sha256 = "0sf2yl7wdifr9aa3xavb0v42vhbdly0g6halix3031acmlaib6q5";
+          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230916.230854.tar";
+          sha256 = "0gl5psmv8qzi4n3si70sfyalqnvhs36xl8lghnq0mnjh37z9zh1c";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1914,10 +1918,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.7.0.20230915.70406";
+        version = "0.7.0.20230916.230854";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230915.70406.tar";
-          sha256 = "1m8qpca12a4g4pq7n5zz19lqpvyfx7ymznhz36q9q547b2af7769";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230916.230854.tar";
+          sha256 = "1d0xvzbmr37i5ks2dcfwcl41cywi6v7a4fhsprk03haxh918yl13";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -3653,10 +3657,10 @@
       elpaBuild {
         pname = "mmm-mode";
         ename = "mmm-mode";
-        version = "0.5.9.0.20221228.193134";
+        version = "0.5.10.0.20230917.2837";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/mmm-mode-0.5.9.0.20221228.193134.tar";
-          sha256 = "0hmj27q8b10dsf3scjq9nslybpdip8bivd0h5dd5bc29mhazld8g";
+          url = "https://elpa.gnu.org/devel/mmm-mode-0.5.10.0.20230917.2837.tar";
+          sha256 = "1md34a8bgkf54n6qwylknknzzhql4779jh0pjl3xgnl09wvvdb74";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
