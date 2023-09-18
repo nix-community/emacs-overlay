@@ -1943,10 +1943,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.13pre0.20230917.124648";
+        version = "0.13pre0.20230917.180237";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20230917.124648.tar";
-          sha256 = "1ap9n6hgz5h4qcmpr9jpykarabga50dqw8r6c5wygw1g7ziqjhsm";
+          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20230917.180237.tar";
+          sha256 = "0l3i2n6iarnkw51092bpyi68az5smw394aqpp56hz3fm004g7cnf";
         };
         packageRequires = [
           emacs
@@ -2041,10 +2041,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20230910.204449";
+        version = "5.6snapshot0.20230917.161759";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20230910.204449.tar";
-          sha256 = "0xxv3fy1cwbqvb4jk4nszmw6qh1i9aa0jii7cmwn42k3ciq62rbf";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20230917.161759.tar";
+          sha256 = "00v91vz0nxyhkwlcwpc5978n7p5kzmbxjcdz80kcygg6yd1y3h6z";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3675,10 +3675,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.2.0.0.20230916.90500";
+        version = "4.2.0.0.20230918.51449";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230916.90500.tar";
-          sha256 = "0015ff6ai0f5wf01qkw41k7ab97h389lngxf97jlb3hr48m37n9z";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230918.51449.tar";
+          sha256 = "0ifa09vn5v8jspblp128rm6ppglnxhi6vd84s77xikw616i95c8h";
         };
         packageRequires = [ emacs ];
         meta = {
