@@ -1898,10 +1898,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.22.1.0.20230916.230854";
+        version = "0.22.1.0.20230917.131712";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230916.230854.tar";
-          sha256 = "0gl5psmv8qzi4n3si70sfyalqnvhs36xl8lghnq0mnjh37z9zh1c";
+          url = "https://elpa.gnu.org/devel/embark-0.22.1.0.20230917.131712.tar";
+          sha256 = "02zq4jskqwgz74c5pb1k0f4b6xh2vjglb6y5185fxcc4p93k28lk";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1918,10 +1918,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.7.0.20230916.230854";
+        version = "0.7.0.20230917.131712";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230916.230854.tar";
-          sha256 = "1d0xvzbmr37i5ks2dcfwcl41cywi6v7a4fhsprk03haxh918yl13";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.7.0.20230917.131712.tar";
+          sha256 = "08dmwi57s8yihz6wpp1p0w8r7q8c3ybmbp4v4ws9pax873m4vnjr";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -1943,10 +1943,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.13pre0.20230914.231642";
+        version = "0.13pre0.20230917.124648";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20230914.231642.tar";
-          sha256 = "1531bxwz3ilwdkrkwcrlrp4v2ifz2s9l06fcwa895g7xa3wp3xi3";
+          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20230917.124648.tar";
+          sha256 = "1ap9n6hgz5h4qcmpr9jpykarabga50dqw8r6c5wygw1g7ziqjhsm";
         };
         packageRequires = [
           emacs
@@ -2282,10 +2282,10 @@
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.3.4.0.20230905.172742";
+        version = "1.3.4.0.20230917.163530";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/flymake-1.3.4.0.20230905.172742.tar";
-          sha256 = "13j7fxrb17rxg5lqiq6ladr8xvjskfccwsy4zwxln9h7sv8al0hz";
+          url = "https://elpa.gnu.org/devel/flymake-1.3.4.0.20230917.163530.tar";
+          sha256 = "15xfkqsdy9wayh6gw5v64d93ic9p11zwa9rbpd9cpr163n1biz7g";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
@@ -4092,10 +4092,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230916.92352";
+        version = "9.7pre0.20230917.102300";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230916.92352.tar";
-          sha256 = "1ljmjqyf1dmi17a8kwibcl1aiv5f5rxvc1h52zlzbcxwffkvz6n8";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230917.102300.tar";
+          sha256 = "1lavyb6vxbclq1j80441wjvmj8c4k592wj81k520vn009gv6cpyg";
         };
         packageRequires = [ emacs ];
         meta = {
