@@ -9565,8 +9565,8 @@
   "repo": "alphapapa/bufler.el",
   "unstable": {
    "version": [
-    20230917,
-    2310
+    20230918,
+    341
    ],
    "deps": [
     "burly",
@@ -9576,8 +9576,8 @@
     "map",
     "pretty-hydra"
    ],
-   "commit": "171e5899e9e00f40625079fe3161af969dfaa768",
-   "sha256": "0jl7zsxwffnjrxdjvm2f7hnlczp44h5s1w4zgrfz46h1sbp7lxyq"
+   "commit": "84e837f6c1afd3d8e33578781e06c65c8e4d70fc",
+   "sha256": "1yf0sk3759zqv7rf8dxm01v5iwggy198fr6ajwg4xnsvzbqk2gsb"
   },
   "stable": {
    "version": [
@@ -51786,16 +51786,16 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20230917,
-    426
+    20230918,
+    542
    ],
    "deps": [
     "helm-core",
     "popup",
     "wfnames"
    ],
-   "commit": "1c08fd5123a95fed0413931d1abb9c9257bdb8f8",
-   "sha256": "0r14vmaxl0a2lkp1m772g4yhi5r2hsr54pj7kbvizh7ag6ibkapr"
+   "commit": "2eabbadb04c5f1383b9f1038d2d1b93b6954a547",
+   "sha256": "0wjig6ym7lsz9vd4l46ax5406v201ip71rm4s3yh6b1f9k794h6h"
   },
   "stable": {
    "version": [
@@ -69847,14 +69847,14 @@
   "repo": "kurnevsky/llama-cpp.el",
   "unstable": {
    "version": [
-    20230915,
-    1941
+    20230918,
+    756
    ],
    "deps": [
     "dash"
    ],
-   "commit": "09cf982e421e5b0d66a1ee16ed77d4301b80e2a2",
-   "sha256": "0fyhcdfrnsscg8map4yp039bdz7wh0489n983z48s55zr8rnx544"
+   "commit": "5072cc2a7ddd7516518fa68655c38b9cf7ab94d9",
+   "sha256": "1wxhq7dqn4nmd734szzbh67kmiidlhd8lkwhj5m0h5b7j0z69rlk"
   }
  },
  {
@@ -75558,14 +75558,14 @@
   "repo": "szermatt/mistty",
   "unstable": {
    "version": [
-    20230917,
-    1928
+    20230918,
+    813
    ],
    "deps": [
     "iter2"
    ],
-   "commit": "70c4d9eafbf26cd90d8538e1389854c7d4ef227a",
-   "sha256": "1ljvvncdal7mvvg35hlcj3qzy5h957fdklxncdnamn6gg0icmg4k"
+   "commit": "513075f2c85005efd50acaee52436e2d7a5145d7",
+   "sha256": "01ip7igwdy34cirn1iajd42nfnnk4nsb8s6za3bkhpyqhnsfg7q8"
   }
  },
  {
@@ -76150,11 +76150,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20230916,
-    905
+    20230918,
+    514
    ],
-   "commit": "76109e4a28327608b33a1a9a00634d73e046374e",
-   "sha256": "1b9h8k9if1yll7a8wzl4xc5q2d28nn0cmkqrrb54rf5w5p6jpa1m"
+   "commit": "9c8d863f3f348fb02fa14ec676a9745cc584c901",
+   "sha256": "1gw2g57dlaqqc5k346nvd85jyjkxi13yg6c4l75k2zrkld7byxhz"
   },
   "stable": {
    "version": [
@@ -83117,14 +83117,14 @@
   "repo": "oer/oer-reveal",
   "unstable": {
    "version": [
-    20230912,
-    1059
+    20230918,
+    755
    ],
    "deps": [
     "org-re-reveal"
    ],
-   "commit": "7e4d2a43e6a821f5a4360bf243854c6a6503e04d",
-   "sha256": "1mv92lk3cvzcspcr31z1li454nxnj4milqhpxih4m71x4ylp17w9"
+   "commit": "630e0f8d44c9a422ae9f47b055358b73c41ce9be",
+   "sha256": "10msvzsc1wnsikjrv9j8p4wliq6q6fll8izf81kcwyzz5ngl7ghr"
   },
   "stable": {
    "version": [
@@ -97772,16 +97772,16 @@
   "repo": "mohkale/projection",
   "unstable": {
    "version": [
-    20230910,
-    1707
+    20230918,
+    737
    ],
    "deps": [
     "compat",
     "f",
     "project"
    ],
-   "commit": "c3fbf532bdc8ba3ae798ca2639751edd3b05fa95",
-   "sha256": "04gy3i1k2hr8rlwx9q4137sspkv85l3hfggdysdi3fg087wscm5a"
+   "commit": "85f033fa06974b87f79108ee34dfc54ff8a2e85f",
+   "sha256": "1lcia0paqwyb6y56mm8f7gc8mimj84znkvasd3s2s771mimg01j0"
   }
  },
  {
@@ -108513,9 +108513,19 @@
   "ename": "slint-mode",
   "commit": "38af585f0e5966cca0cd1723b0530cac1d3c241c",
   "sha256": "0nz3xn606ng689g5jpdkvjyhps194fqg28ln4wjc73hlp0pzisic",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "nilclass/slint-mode"
+  "repo": "nilclass/slint-mode",
+  "unstable": {
+   "version": [
+    20230918,
+    729
+   ],
+   "deps": [
+    "lsp-mode"
+   ],
+   "commit": "9fc038d57330c94d131a1770cbc25c297376ee6e",
+   "sha256": "1ica2pmg4hlr2l92qsmhr97kybkwyl7q26mhkpmgmrf5kfkb40rb"
+  }
  },
  {
   "ename": "slirm",
@@ -114735,14 +114745,14 @@
   "repo": "Crandel/tempel-collection",
   "unstable": {
    "version": [
-    20230916,
-    1319
+    20230918,
+    814
    ],
    "deps": [
     "tempel"
    ],
-   "commit": "0e02b36a33555c6f14f4cff85260a97d9beb6fea",
-   "sha256": "1ckd8zp47bs0db073z10wjla2zvph5c27im9h6wfp63n80cf4and"
+   "commit": "3b2b209a7e3871d85e7219c6f1701db6c16dc824",
+   "sha256": "17gwgkfsdx3i8bia0aa5984rwhlxahpv0lf7q5wspdy48n6xjaz6"
   }
  },
  {
@@ -115826,11 +115836,11 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20230910,
-    1712
+    20230916,
+    1645
    ],
-   "commit": "9f60376de40b48561ac50263089468b779195003",
-   "sha256": "1yiw1ff6p2i6ps0ajpw76f18fkbcdm6jhada33j29l5kaf561545"
+   "commit": "f19dcc844c67fda832ec068968b58d5c0e08e761",
+   "sha256": "1h5wcffqzpzz03cx8bjgwhcrr3hhnc7hiy8a2kljlkchq9c2qig5"
   },
   "stable": {
    "version": [
@@ -122560,9 +122570,16 @@
   "ename": "wat-ts-mode",
   "commit": "c36d467638bc9f3578b4699c7d1ae513fd23b782",
   "sha256": "0yv553nqjcq6a1xsh18smi9hnvnyshmnxcd04f2gz79nsmsj6kar",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "nverno/wat-ts-mode"
+  "repo": "nverno/wat-ts-mode",
+  "unstable": {
+   "version": [
+    20230918,
+    710
+   ],
+   "commit": "40c35ae388f44fbe60056e4f0f5f09c076a548ab",
+   "sha256": "0si975cddfi3ybra7bx2dgb0sfdk8j235hriia0s0x2fpxi64vpz"
+  }
  },
  {
   "ename": "watch-buffer",
