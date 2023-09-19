@@ -20746,8 +20746,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20230822,
-    603
+    20230918,
+    1618
    ],
    "deps": [
     "bui",
@@ -20760,8 +20760,8 @@
     "posframe",
     "s"
    ],
-   "commit": "096070aacff875a09c13e596e5d60a55e0f07ab1",
-   "sha256": "16fvhyzddyqjsnvbhr9d3fziz910jfm0ch4hqn9ddczvmnza4h4g"
+   "commit": "a31f2496605d076d50d49393116f77fbb29f2631",
+   "sha256": "0808flih1bdzjh78hq9r5lfdakpk1qx0jw8gfg7m2vvja5bd9zis"
   },
   "stable": {
    "version": [
@@ -20957,11 +20957,11 @@
   "repo": "emacsorphanage/dart-mode",
   "unstable": {
    "version": [
-    20220401,
-    0
+    20230918,
+    1801
    ],
-   "commit": "ae032b9b30ebadfe1b8a48a4cf278417e506d100",
-   "sha256": "1b9mmpay68ssljbz6v5aghdn2v5509gmxaz3s6w9xzqc3gxkczc8"
+   "commit": "2cb4dabe5c404b97d70febfdfdc1dcba76b6feee",
+   "sha256": "1b32129f3q1x4qdds1ca79ypsj0dxqigq19ayp7vrlc9qb7nfspc"
   },
   "stable": {
    "version": [
@@ -51034,11 +51034,11 @@
   "repo": "idlip/haki",
   "unstable": {
    "version": [
-    20230916,
-    921
+    20230918,
+    1541
    ],
-   "commit": "af6a3464f05227f2b9bdfcc3290063a7a5a11808",
-   "sha256": "1dyw2r52g6b743g4mn87ycgvzmjr6a4w5y4pyl0wds81a7hcdbn6"
+   "commit": "3726a2884fa02fdb83c8a4f43acd11d4b0883c1d",
+   "sha256": "0fpzfgbi3kybz649x2mzfbx6sqqz1y6672244q0xd4iz28zqln4p"
   }
  },
  {
@@ -52608,14 +52608,14 @@
   "repo": "emacs-helm/helm-comint",
   "unstable": {
    "version": [
-    20230911,
-    1725
+    20230918,
+    537
    ],
    "deps": [
     "helm"
    ],
-   "commit": "60476860d88b9786118ffb9a593f8006779a4c55",
-   "sha256": "1iipvsyig467lwhjj8jf9w235p0qzj90c4c45y94dhzbygvwma2f"
+   "commit": "2998787568b67ffe9fb898a9150d13b37387707a",
+   "sha256": "1bw74z53s0zs3yqqgxyhlxhmg8s5wmlrskr1033lyga05wbzblsq"
   }
  },
  {
@@ -73712,15 +73712,15 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20230831,
-    1012
+    20230918,
+    1743
    ],
    "deps": [
     "persist",
     "request"
    ],
-   "commit": "d4c105cc39315de3c9f3f29b97de0c0dec718770",
-   "sha256": "0jzgkbr7dmpv66cabmf8lnz3223m5vs25v06v27s1dfpy3grcxwf"
+   "commit": "d260eeb57917e289800c198b97e5d54c3e241b28",
+   "sha256": "0jn8xl52n4j04knhay1xwl9f47nxkssv3zgax3hkhz8k1sfw5ryx"
   },
   "stable": {
    "version": [
@@ -75571,13 +75571,13 @@
   "unstable": {
    "version": [
     20230918,
-    813
+    1909
    ],
    "deps": [
     "iter2"
    ],
-   "commit": "513075f2c85005efd50acaee52436e2d7a5145d7",
-   "sha256": "01ip7igwdy34cirn1iajd42nfnnk4nsb8s6za3bkhpyqhnsfg7q8"
+   "commit": "43adf85575ba86197e6d123d08e7b52605c989ba",
+   "sha256": "123rm21rpk9gszr65wzhwsb434p5fl5wh9v2dai5sgcwjv4mqh78"
   }
  },
  {
@@ -97804,15 +97804,15 @@
   "repo": "mohkale/projection",
   "unstable": {
    "version": [
-    20230910,
-    1702
+    20230918,
+    1933
    ],
    "deps": [
     "compile-multi",
     "projection"
    ],
-   "commit": "6fb860799ac0773dac408fdb984978ef1608c881",
-   "sha256": "1i4ggsqjg35rb0i6lxd74gdgqh5wxch00gcyvqmyj49v0pcy7m71"
+   "commit": "3dc583de7027d1fe6c8ca9bd67d761c3568569b6",
+   "sha256": "1pghng75y44jvxcaysnm14cll9cr2byjp84kqwxnp1a96n88dxl5"
   }
  },
  {
@@ -106600,11 +106600,11 @@
   "repo": "elizagamedev/shell-command-x.el",
   "unstable": {
    "version": [
-    20230702,
-    1852
+    20230918,
+    1955
    ],
-   "commit": "416dad677314e3eec704d5b02594b5f8a7e7fd65",
-   "sha256": "0my8yar603zdirr0wbyff0y8lqinkf808mipzf1j9skbgyjqfghc"
+   "commit": "5ad0a0270e22e6f89f2163e2dc65a0f39915793b",
+   "sha256": "1irgvim6b3ncdf1612r4z9rr7d6fymg7fs072pgkgcd7c6cs1h49"
   },
   "stable": {
    "version": [
@@ -110739,11 +110739,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20230915,
+    20230919,
     59
    ],
-   "commit": "01aa58cf83d97329f456d29e57ed324cf1b2dca6",
-   "sha256": "0m8ch7r5whr8ikj5wlafn9nnqhzmbsizj817yllglk4jl2nb1j67"
+   "commit": "7a509494e834d4fda41f6e4e5c4c5ac97aef5ec8",
+   "sha256": "0wqvsf8zdyb69ybqbxa27r02sa36jm23dclk0cyvjjxklzjy3ykv"
   }
  },
  {
@@ -122587,10 +122587,10 @@
   "unstable": {
    "version": [
     20230918,
-    1008
+    1757
    ],
-   "commit": "a7d69ccb1b1012301b16aa3205108e80135b10fa",
-   "sha256": "0f8k1i36hw2iyxjkzzphvri5ww66vic5hr7gwzgjwb0s4489v71h"
+   "commit": "4173d3813043de24337509c578d6e901b3bf9614",
+   "sha256": "0y4rrayh7ppjzhkb6lzasilvzyg2fck58k0ngdycj84dla1mv0gh"
   }
  },
  {
