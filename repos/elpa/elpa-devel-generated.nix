@@ -2872,10 +2872,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.34.0.20230914.190620";
+        version = "0.35.0.20230918.195001";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/inspector-0.34.0.20230914.190620.tar";
-          sha256 = "0lx8vwgnh3y6fxdxb0mn0fz7a7xrqkca612fjwfm46nwwbb5j7lf";
+          url = "https://elpa.gnu.org/devel/inspector-0.35.0.20230918.195001.tar";
+          sha256 = "14xddz38gikgpmmz28zhjnbp3sgn75pz8cs8n9ama26c3dhc3jvk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3675,10 +3675,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.2.0.0.20230918.51449";
+        version = "4.2.0.0.20230919.74548";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230918.51449.tar";
-          sha256 = "0ifa09vn5v8jspblp128rm6ppglnxhi6vd84s77xikw616i95c8h";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.2.0.0.20230919.74548.tar";
+          sha256 = "1xbln64mrv4dm1b285fk9yjxbpx251nbxcv06jfxh0bmq13ks27m";
         };
         packageRequires = [ emacs ];
         meta = {
