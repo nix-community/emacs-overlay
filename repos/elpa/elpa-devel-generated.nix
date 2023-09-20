@@ -1003,10 +1003,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20230919.195645";
+        version = "0.35.0.20230919.201223";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230919.195645.tar";
-          sha256 = "1g1xkpn8g6sk3k4nvawpcd3zzf44dv3bs9kpmvkj8r74jbhs9wh9";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20230919.201223.tar";
+          sha256 = "00zv8169y8sn7i8jicp8k3jgggwk67w3fl82vxj198zz5h6z584b";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3323,6 +3323,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    llm = callPackage ({ elpaBuild, emacs, fetchurl, lib, request }:
+      elpaBuild {
+        pname = "llm";
+        ename = "llm";
+        version = "0.1.0.20230919.184603";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/llm-0.1.0.20230919.184603.tar";
+          sha256 = "0w9i1cdpj7nb8rl2ik2x2ypjjwc0m85i8m2a9rwcrciypmlsb2iz";
+        };
+        packageRequires = [ emacs request ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/llm.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     lmc = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "lmc";
@@ -4073,10 +4088,10 @@
       elpaBuild {
         pname = "orderless";
         ename = "orderless";
-        version = "1.0.0.20230801.201828";
+        version = "1.0.0.20230919.235319";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/orderless-1.0.0.20230801.201828.tar";
-          sha256 = "1yn7rs9i2x75pv0nvwhm4dwrp7zj6lxgw8k516pari864ksk06zh";
+          url = "https://elpa.gnu.org/devel/orderless-1.0.0.20230919.235319.tar";
+          sha256 = "0j26253q0f6h016xpgxx6jy36mdi9sm5bvyki7i2374hmcp5lxd8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6147,10 +6162,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.4.3.0.20230919.125156";
+        version = "0.4.3.0.20230919.214625";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.4.3.0.20230919.125156.tar";
-          sha256 = "0fign4rvz9232v5vs1jdhyc1kgjql7rd4yj0x7ava5901ljl13y7";
+          url = "https://elpa.gnu.org/devel/transient-0.4.3.0.20230919.214625.tar";
+          sha256 = "1b4dlgk6x22mpacd4wiinlh5sjgprhabha7wq7dfcsgv7mqhk5z2";
         };
         packageRequires = [ compat emacs ];
         meta = {
