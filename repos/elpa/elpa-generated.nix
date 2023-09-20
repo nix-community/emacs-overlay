@@ -1681,10 +1681,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.22.1";
+        version = "0.23";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-0.22.1.tar";
-          sha256 = "0dxbvrp057a0kyydnf8vfwnf4m3q3jy4180agcmizlr64lm2pmh1";
+          url = "https://elpa.gnu.org/packages/embark-0.23.tar";
+          sha256 = "03qmhi5wlx4wpj8fnqx352cwnx0czrj6majr18hyavx5cih8i8v6";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1701,10 +1701,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-consult-0.7.tar";
-          sha256 = "12b8p2f1bpy43jzjz3ask9h38z23hq4nxkid5dljnpmvf31d8x9c";
+          url = "https://elpa.gnu.org/packages/embark-consult-0.8.tar";
+          sha256 = "1l6fcrf9hx7ll6zrm3igh80nkcig6i7fqwicm3dy9rwsjyjlmy2f";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -3299,10 +3299,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.2.0";
+        version = "4.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-themes-4.2.0.tar";
-          sha256 = "0bki4h3rs1ch47sygb4nib8960lyvvgs7yxgsy009il3hfxzdgsq";
+          url = "https://elpa.gnu.org/packages/modus-themes-4.3.0.tar";
+          sha256 = "0zsglzqc36bw9r7fgvxjdcrdjar6xwad29kwyqd2k36bq3pivzq3";
         };
         packageRequires = [ emacs ];
         meta = {
