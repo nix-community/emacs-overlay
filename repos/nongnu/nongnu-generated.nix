@@ -1727,10 +1727,10 @@
       elpaBuild {
         pname = "iwindow";
         ename = "iwindow";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/iwindow-1.0.tar";
-          sha256 = "076i0p9kq48hxkkwzzapnni6cpdr25hdrw9bs2cly8w4v5rmd6rj";
+          url = "https://elpa.nongnu.org/nongnu/iwindow-1.1.tar";
+          sha256 = "1sx0dqm7wwq05qaxqyrsg8v57i5ghzaq2hcdrywjq5x3cl5rmw17";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
