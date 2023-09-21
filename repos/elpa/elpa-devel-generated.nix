@@ -2269,19 +2269,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    flymake = callPackage ({ eldoc
-                           , elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib
-                           , project }:
+    flymake = callPackage ({ eldoc, elpaBuild, emacs, fetchurl, lib, project }:
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.3.4.0.20230920.135313";
+        version = "1.3.4.0.20230921.1400";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/flymake-1.3.4.0.20230920.135313.tar";
-          sha256 = "0hi9296d02w5vlb0c7p1vk9pmbpxwqi2qqnsacsls8db6wgxm3dv";
+          url = "https://elpa.gnu.org/devel/flymake-1.3.4.0.20230921.1400.tar";
+          sha256 = "1l96w6pi0mqr3icl7ynrhy75i126bcxfc3n4lp6xfz90g2pxzh05";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
@@ -3327,10 +3322,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.1.0.20230919.184603";
+        version = "0.1.1.0.20230921.3719";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.1.0.20230919.184603.tar";
-          sha256 = "0w9i1cdpj7nb8rl2ik2x2ypjjwc0m85i8m2a9rwcrciypmlsb2iz";
+          url = "https://elpa.gnu.org/devel/llm-0.1.1.0.20230921.3719.tar";
+          sha256 = "0svqlajmmihm6x3scqwv5gf556k58gb92b0gnc4gqzfcsh2idj4i";
         };
         packageRequires = [ emacs request ];
         meta = {
@@ -5915,6 +5910,21 @@
         packageRequires = [ queue ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/tNFA.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    tam = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "tam";
+        ename = "tam";
+        version = "0.1.0.20230920.103516";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/tam-0.1.0.20230920.103516.tar";
+          sha256 = "1asfy9kflslpmci639pjcb8pr9ndb4as1075lvy9xfk74lif4zx6";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/tam.html";
           license = lib.licenses.free;
         };
       }) {};

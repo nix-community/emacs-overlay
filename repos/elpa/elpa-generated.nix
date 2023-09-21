@@ -2980,6 +2980,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    llm = callPackage ({ elpaBuild, emacs, fetchurl, lib, request }:
+      elpaBuild {
+        pname = "llm";
+        ename = "llm";
+        version = "0.1.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/llm-0.1.1.tar";
+          sha256 = "1lv363c7ih4jiwgwy94wvwb7k6vjrykcragbkav04dsddfv5jqjz";
+        };
+        packageRequires = [ emacs request ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/llm.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     lmc = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "lmc";
@@ -5216,6 +5231,21 @@
         packageRequires = [ queue ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/tNFA.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    tam = callPackage ({ elpaBuild, emacs, fetchurl, lib, queue }:
+      elpaBuild {
+        pname = "tam";
+        ename = "tam";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/tam-0.1.tar";
+          sha256 = "1f66la9mmw1frpy2k9vr9k1q2x3b1y9018z43rdhrp50zx1b2vsg";
+        };
+        packageRequires = [ emacs queue ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/tam.html";
           license = lib.licenses.free;
         };
       }) {};
