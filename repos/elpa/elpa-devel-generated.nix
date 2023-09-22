@@ -1055,10 +1055,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20230921.162549";
+        version = "0.38.0.20230922.45112";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20230921.162549.tar";
-          sha256 = "1x9s4yp86q5g4cz5m0ccxnii87pphbr6gia07pqs6kfalnnscyz4";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20230922.45112.tar";
+          sha256 = "052w3azpid6ynbwmzis6agrjj1br8k0jalqwd3mi3cq7im55kvdd";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1894,10 +1894,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.23.0.20230920.101359";
+        version = "0.23.0.20230921.202646";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.23.0.20230920.101359.tar";
-          sha256 = "08cliygzwfanhll751srswvslwmiiajy9cgz1w2pljk6ys9yckjz";
+          url = "https://elpa.gnu.org/devel/embark-0.23.0.20230921.202646.tar";
+          sha256 = "0kkbqx7ph4bsxckyyr1f9m8qp83n6qq8lmnxy9603058axavmajl";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1914,10 +1914,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.8.0.20230920.101359";
+        version = "0.8.0.20230921.202646";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.8.0.20230920.101359.tar";
-          sha256 = "1dyf14fvisp2yl1rzga0fghf2qazf9i3m1gklq2z86xiim0klr82";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.8.0.20230921.202646.tar";
+          sha256 = "0sk4k2yp3v6fmy82lkdjdlx0np7m1p78h0v7l9vqgjmg3rl463gi";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -2278,10 +2278,10 @@
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.3.4.0.20230921.130313";
+        version = "1.3.6.0.20230921.213531";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/flymake-1.3.4.0.20230921.130313.tar";
-          sha256 = "0lvcjx3fkzv70dv9v8gpx93lmg4d5bpv2zkl68kmpnxkpw9960k6";
+          url = "https://elpa.gnu.org/devel/flymake-1.3.6.0.20230921.213531.tar";
+          sha256 = "0w0p3mf1s4vhcjkx7pzmbyj57wczy7v5f00ybdmvvgf25biasgib";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
@@ -2649,10 +2649,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.4.0.0.20230921.83327";
+        version = "0.4.0.0.20230922.41401";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.4.0.0.20230921.83327.tar";
-          sha256 = "14my1psykv4yxs63afx0kl8gzxs5kp1mf2zk6b3p6yfm90cpg08x";
+          url = "https://elpa.gnu.org/devel/greader-0.4.0.0.20230922.41401.tar";
+          sha256 = "1gcriarqrmnfilrsrpzvyixcbby1jkvb733hh20ssz53s02imcsd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3686,10 +3686,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.3.0.0.20230919.125341";
+        version = "4.3.0.0.20230922.53140";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20230919.125341.tar";
-          sha256 = "1rc4r6hl2zspnchr6mvpqyh79cjjx808g1hszi937ipqv7xgbvnh";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20230922.53140.tar";
+          sha256 = "06nfyf7vfr5p56bl63mxb17sk0qjal9ml83jb3nv0habkag0wcy4";
         };
         packageRequires = [ emacs ];
         meta = {

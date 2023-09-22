@@ -2020,10 +2020,10 @@
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.3.4";
+        version = "1.3.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/flymake-1.3.4.tar";
-          sha256 = "0gm08rj83if9cs0jz7zig363zfqp809j6lgaqdb0apzh48fbznkd";
+          url = "https://elpa.gnu.org/packages/flymake-1.3.6.tar";
+          sha256 = "1ihv8gh77849rrdc6qpbpjdw7ikr4biaibw6aggv3hzjf508dzi8";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
