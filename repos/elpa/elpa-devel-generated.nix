@@ -225,14 +225,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    altcaps = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    altcaps = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "altcaps";
         ename = "altcaps";
-        version = "1.1.0.0.20230801.43558";
+        version = "1.2.0.0.20230922.155347";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/altcaps-1.1.0.0.20230801.43558.tar";
-          sha256 = "12z37dc7add0lq1fqzjx9ipmzgnpymn4pipk3q1x9sngrg06q8q0";
+          url = "https://elpa.gnu.org/devel/altcaps-1.2.0.0.20230922.155347.tar";
+          sha256 = "1m6sihzjxv2cq3bz3j5a17fhbh8q1swvkpl99w53arhsfrmhphff";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1559,10 +1562,10 @@
       elpaBuild {
         pname = "do-at-point";
         ename = "do-at-point";
-        version = "0.1.0.0.20230828.165722";
+        version = "0.1.0.0.20230922.101825";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/do-at-point-0.1.0.0.20230828.165722.tar";
-          sha256 = "04s1bnjifmgz6hvxaf9vkzak0i96wnyaj9g7h7m3799q8azqz22p";
+          url = "https://elpa.gnu.org/devel/do-at-point-0.1.0.0.20230922.101825.tar";
+          sha256 = "0g3im1y1zkw6v208rw246q361wyk94wx30iqzhvigz7izi8rzl9k";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2649,10 +2652,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.4.0.0.20230922.41401";
+        version = "0.4.1.0.20230922.85403";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.4.0.0.20230922.41401.tar";
-          sha256 = "1gcriarqrmnfilrsrpzvyixcbby1jkvb733hh20ssz53s02imcsd";
+          url = "https://elpa.gnu.org/devel/greader-0.4.1.0.20230922.85403.tar";
+          sha256 = "0nny573ykn7c7iqf3ga10gimkh38h1i185bvk7nyf4kqppclyps5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4103,10 +4106,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230920.112231";
+        version = "9.7pre0.20230922.110936";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230920.112231.tar";
-          sha256 = "0mg1fabcwwfhbz1hqr5gsblgrz89x1qkvpagq506iw7lj902hy2m";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230922.110936.tar";
+          sha256 = "1swcwfr8f4kb129zdnpzr8z637nnizvj9x61rsi133prfaynxrqm";
         };
         packageRequires = [ emacs ];
         meta = {

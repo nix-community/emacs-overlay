@@ -190,10 +190,10 @@
       elpaBuild {
         pname = "altcaps";
         ename = "altcaps";
-        version = "1.1.0";
+        version = "1.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/altcaps-1.1.0.tar";
-          sha256 = "15jfhn9v74zi779a0m0v5dx8h135pbsxx0rh472sl13q2ark97bk";
+          url = "https://elpa.gnu.org/packages/altcaps-1.2.0.tar";
+          sha256 = "0pfd3j8x2ayqnvg418qcm4rkxjvm5qm2ks9xsw4irv04452zhahc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2367,10 +2367,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.4.0";
+        version = "0.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.4.0.tar";
-          sha256 = "0m464sr3h3pyshs5dza83a5213y3z5mgkhqv4f18pmcfnsk43y0n";
+          url = "https://elpa.gnu.org/packages/greader-0.4.1.tar";
+          sha256 = "190zvjm1l983b4g4cr5drg2fw41dgpdm8fr3j18pridi4dh9yima";
         };
         packageRequires = [ emacs ];
         meta = {
