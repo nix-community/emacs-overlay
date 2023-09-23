@@ -3120,10 +3120,10 @@
       elpaBuild {
         pname = "treeview";
         ename = "treeview";
-        version = "1.1.1";
+        version = "1.2.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/treeview-1.1.1.tar";
-          sha256 = "0ryycz2n1kam3ji0ibpy99ll5l6xnx1mx9i9bgfvma61f0ppcppd";
+          url = "https://elpa.nongnu.org/nongnu/treeview-1.2.0.tar";
+          sha256 = "1vwkqnjj380w13xxj670da4kyqsxmjcsivaqd8k6w7bs59yrljkr";
         };
         packageRequires = [ emacs ];
         meta = {
