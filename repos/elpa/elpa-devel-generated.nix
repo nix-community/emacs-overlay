@@ -3540,10 +3540,10 @@
       elpaBuild {
         pname = "mct";
         ename = "mct";
-        version = "0.5.0.0.20230916.94536";
+        version = "0.5.0.0.20230923.142038";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/mct-0.5.0.0.20230916.94536.tar";
-          sha256 = "01sn9qq6m58612s64dxilh7d60lj088h1fpq9zkl79af0kfd6x51";
+          url = "https://elpa.gnu.org/devel/mct-0.5.0.0.20230923.142038.tar";
+          sha256 = "06zpjkr8za5pwfij4hdidgxcl2z3c6v3hmxy6kk1sap5nc46n0h2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4106,10 +4106,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20230922.110936";
+        version = "9.7pre0.20230923.112359";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230922.110936.tar";
-          sha256 = "1swcwfr8f4kb129zdnpzr8z637nnizvj9x61rsi133prfaynxrqm";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20230923.112359.tar";
+          sha256 = "06vc0c3hqd0l58dd6p6gcvqj35jysf62pa17lfdd9sy87i0bf64d";
         };
         packageRequires = [ emacs ];
         meta = {
