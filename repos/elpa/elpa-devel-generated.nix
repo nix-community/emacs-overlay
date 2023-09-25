@@ -1942,10 +1942,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.13pre0.20230924.3544";
+        version = "0.13pre0.20230925.15421";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20230924.3544.tar";
-          sha256 = "1gqssvl24plw1hjql1v8zc7jrskb1k63rf3r22khphxgk8642v42";
+          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20230925.15421.tar";
+          sha256 = "0dl9fqygaiisdabp0q055cx8gwbch6wh4x2s3bzkwfmx156civ5d";
         };
         packageRequires = [
           emacs
@@ -2475,10 +2475,10 @@
       elpaBuild {
         pname = "gnome-c-style";
         ename = "gnome-c-style";
-        version = "0.1.0.20160130.1526";
+        version = "0.1.0.20230924.235858";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/gnome-c-style-0.1.0.20160130.1526.tar";
-          sha256 = "0jj6xxn35iijzxipqna3kpks6ffg7gpp566riy7icifcq1pxkws1";
+          url = "https://elpa.gnu.org/devel/gnome-c-style-0.1.0.20230924.235858.tar";
+          sha256 = "0zp4dyqm04vk0168s7s972bzxajl0h4d3ywxqw7a6lj3ykjg1ir5";
         };
         packageRequires = [];
         meta = {
@@ -3535,10 +3535,10 @@
       elpaBuild {
         pname = "mct";
         ename = "mct";
-        version = "1.0.0.0.20230924.75703";
+        version = "1.0.0.0.20230925.50052";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/mct-1.0.0.0.20230924.75703.tar";
-          sha256 = "1bpjv0kz13n8y3m2wid46x6hw828kpwgkli7p2prnc1w538hw7vs";
+          url = "https://elpa.gnu.org/devel/mct-1.0.0.0.20230925.50052.tar";
+          sha256 = "1splcr5aq3dc80i4rkqyxnadjrx7xg44hgiwi1sj353gf6q90q8h";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4299,10 +4299,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.13.0.20230825.91944";
+        version = "0.13.0.20230925.65502";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/osm-0.13.0.20230825.91944.tar";
-          sha256 = "13z4pz9q181jr9z66w2cn9ixh240x5dsyqjbjh455bqv2wf4kizl";
+          url = "https://elpa.gnu.org/devel/osm-0.13.0.20230925.65502.tar";
+          sha256 = "0xf2q5a9sa32ccknwchmp0fysml2697ym3x65s784402nfvi6ppf";
         };
         packageRequires = [ compat emacs ];
         meta = {
