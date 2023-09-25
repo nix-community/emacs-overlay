@@ -478,10 +478,10 @@
       elpaBuild {
         pname = "bind-key";
         ename = "bind-key";
-        version = "2.4.1.0.20230804.31751";
+        version = "2.4.1.0.20230924.202142";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/bind-key-2.4.1.0.20230804.31751.tar";
-          sha256 = "1h02g1lcl27fsz1jvisdy4fjp4ddknr9d1qj633bkmg3nrr06mr2";
+          url = "https://elpa.gnu.org/devel/bind-key-2.4.1.0.20230924.202142.tar";
+          sha256 = "1r3ak9d9mdjsnb8qwq5aqm14gpngm0z9lc0bjwd10pr1n08w6mmn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1897,10 +1897,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.23.0.20230924.10026";
+        version = "0.23.0.20230924.112653";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.23.0.20230924.10026.tar";
-          sha256 = "0yrks5q4c4kp6cqdyig8r5yyynwz360mc72a85ic9agb63lig8fw";
+          url = "https://elpa.gnu.org/devel/embark-0.23.0.20230924.112653.tar";
+          sha256 = "0c2y3n66bzmb6xl05b0nv613z1ylica0pr221w19rw106gllqgz3";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1917,10 +1917,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.8.0.20230924.10026";
+        version = "0.8.0.20230924.112653";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.8.0.20230924.10026.tar";
-          sha256 = "1zxks5drd4w5pykyqgx5i9snbcbb2na56wq9b48ayfp89l9bhcig";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.8.0.20230924.112653.tar";
+          sha256 = "0y3vxxh8yy43da08fp5wnjwc4agp7kbjppkc4hrir1crf9l1ih50";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -6261,10 +6261,10 @@
       elpaBuild {
         pname = "typo";
         ename = "typo";
-        version = "1.0.1.0.20230725.200324";
+        version = "1.0.1.0.20230730.150555";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/typo-1.0.1.0.20230725.200324.tar";
-          sha256 = "01280xwdm1n0x1n4avhy0zh6xl8dhxvzskhdarknszqz6yhxrc9x";
+          url = "https://elpa.gnu.org/devel/typo-1.0.1.0.20230730.150555.tar";
+          sha256 = "1fsv4jka06bgp6b39g9y28npbrb1i1rxvyamy95qw10nlsnw1130";
         };
         packageRequires = [ emacs ];
         meta = {
