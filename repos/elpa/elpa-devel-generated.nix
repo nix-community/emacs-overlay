@@ -1320,10 +1320,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20230925.135627";
+        version = "2.0.0.0.20230926.72341";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20230925.135627.tar";
-          sha256 = "1qmykz50aisw9476xim32fbmn3ckyc9k2p4nj0f94ryd6azpaksp";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20230926.72341.tar";
+          sha256 = "1shdi1iqfvqxpswj4s265il43ikg39cfzxyh7yckpn5x7krivviy";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1897,10 +1897,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.23.0.20230924.112653";
+        version = "0.23.0.20230926.2223";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.23.0.20230924.112653.tar";
-          sha256 = "0c2y3n66bzmb6xl05b0nv613z1ylica0pr221w19rw106gllqgz3";
+          url = "https://elpa.gnu.org/devel/embark-0.23.0.20230926.2223.tar";
+          sha256 = "1g3636y2gbwhrn2c2qls5vj1kmcl0d8j37cbkrllmqvhlj245x29";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1917,10 +1917,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.8.0.20230924.112653";
+        version = "0.8.0.20230926.2223";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.8.0.20230924.112653.tar";
-          sha256 = "0y3vxxh8yy43da08fp5wnjwc4agp7kbjppkc4hrir1crf9l1ih50";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.8.0.20230926.2223.tar";
+          sha256 = "121yrrlfanrvk3rjamj8ch6rv2an01a5161hd57lqha51gh0hwi2";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -1942,10 +1942,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.13pre0.20230925.15421";
+        version = "0.13pre0.20230925.182157";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20230925.15421.tar";
-          sha256 = "0dl9fqygaiisdabp0q055cx8gwbch6wh4x2s3bzkwfmx156civ5d";
+          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20230925.182157.tar";
+          sha256 = "1526ngh3nbxc3h0hhs6a5w31r7pjpgif7i79dmmnx9y24dl579yx";
         };
         packageRequires = [
           emacs
@@ -2866,10 +2866,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.35.0.20230918.195001";
+        version = "0.36.0.20230925.194622";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/inspector-0.35.0.20230918.195001.tar";
-          sha256 = "14xddz38gikgpmmz28zhjnbp3sgn75pz8cs8n9ama26c3dhc3jvk";
+          url = "https://elpa.gnu.org/devel/inspector-0.36.0.20230925.194622.tar";
+          sha256 = "1pn6p9hiar9fsjxxs7wmz2kcfaf31pyhar2wmb3bkm1md98zhirx";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6212,10 +6212,10 @@
       elpaBuild {
         pname = "tree-inspector";
         ename = "tree-inspector";
-        version = "0.3.0.20230505.172252";
+        version = "0.4.0.20230925.193758";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tree-inspector-0.3.0.20230505.172252.tar";
-          sha256 = "0hk961pkpnyyk9jxsd52hqhhx7gvgp8680ypc2d96ylxs6mfvkjx";
+          url = "https://elpa.gnu.org/devel/tree-inspector-0.4.0.20230925.193758.tar";
+          sha256 = "0ncg9yhngzn7cspqna62i21v8rra4hczpz74xckgzs34s98mv4y7";
         };
         packageRequires = [ emacs treeview ];
         meta = {

@@ -2569,10 +2569,10 @@
       elpaBuild {
         pname = "inspector";
         ename = "inspector";
-        version = "0.35";
+        version = "0.36";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/inspector-0.35.tar";
-          sha256 = "1x6mpvd1vy0cpk85dlis6kkpjh0qj4dmw8q06vnn9snqs0iil4nw";
+          url = "https://elpa.gnu.org/packages/inspector-0.36.tar";
+          sha256 = "139w0qc99grd6yzxkpfblgddnbza02mh4hhcpbjgsm4bwdxq8az0";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5502,10 +5502,10 @@
       elpaBuild {
         pname = "tree-inspector";
         ename = "tree-inspector";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tree-inspector-0.3.tar";
-          sha256 = "1hns99rfga8p85ylbr4ri14wyfcxf0bcni0fyr09awipxrpn6ikq";
+          url = "https://elpa.gnu.org/packages/tree-inspector-0.4.tar";
+          sha256 = "0jsd32qk9rap8mhmm6qkyafvb6c2gyaa0adzdsh3bh03byi3sj6c";
         };
         packageRequires = [ emacs treeview ];
         meta = {
