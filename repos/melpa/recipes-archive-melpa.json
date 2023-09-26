@@ -21006,11 +21006,11 @@
   "repo": "emacsorphanage/dart-mode",
   "unstable": {
    "version": [
-    20230918,
-    1801
+    20230925,
+    2315
    ],
-   "commit": "2cb4dabe5c404b97d70febfdfdc1dcba76b6feee",
-   "sha256": "1b32129f3q1x4qdds1ca79ypsj0dxqigq19ayp7vrlc9qb7nfspc"
+   "commit": "2c7bebed15af8e2f6e40118e031ba7136f8ced96",
+   "sha256": "1l7m1gzp90lvpldf2a26dh6fwabapy5h18sq5pgjwsmvi9kr6cjd"
   },
   "stable": {
    "version": [
@@ -21346,25 +21346,26 @@
   "repo": "doublep/datetime",
   "unstable": {
    "version": [
-    20230917,
-    1852
+    20230925,
+    2038
    ],
    "deps": [
     "extmap"
    ],
-   "commit": "32e6d3f1f32977a66169a11b38578bc29ceb6f6f",
-   "sha256": "1dbcxspfpx4yci1z014q5kh2d1gxyhzjnw9nz1p1kb5gzhp7smdl"
+   "commit": "3def4bf0d1ed58cdd424980dd01a4b2e056a86ad",
+   "sha256": "0q4w76b5ay21k011kmsmqcqgibn79j26a593kyj2bqs9fwvsxc5g"
   },
   "stable": {
    "version": [
     0,
-    9
+    9,
+    1
    ],
    "deps": [
     "extmap"
    ],
-   "commit": "98f70885e8af903fb08fde39467ba523f0608ab7",
-   "sha256": "0d7lh6yrnkj2i3ky9x281rrxaj936lwr4rb8dq2ppdrhs6chn6sr"
+   "commit": "9d512244d32870c113785278d8db3c51206c98af",
+   "sha256": "0d918312gpdiyx7zq8kdy19bdww6jqg94hs4j5l0n63bwrxsqdx2"
   }
  },
  {
@@ -22343,11 +22344,11 @@
   "repo": "susam/devil",
   "unstable": {
    "version": [
-    20230816,
-    2251
+    20230925,
+    2240
    ],
-   "commit": "95677d158fba0f0248e9cf5aa1357bee4b293d8e",
-   "sha256": "0xi41n5m2j6hl1x4hqj8gxik99ymygvlqcvbhjq3pyq9bmazqpx2"
+   "commit": "ad8320c647ec0078caf5f0745520e5c340b191ca",
+   "sha256": "1dicp7n2yas40n3vjyikmx3pzawl9b9y09agrvnz9fwas41x8axj"
   },
   "stable": {
    "version": [
@@ -49568,8 +49569,8 @@
   "repo": "vmware/govmomi",
   "unstable": {
    "version": [
-    20221216,
-    1712
+    20230925,
+    1912
    ],
    "deps": [
     "dash",
@@ -49577,14 +49578,14 @@
     "magit-popup",
     "s"
    ],
-   "commit": "c82a709c50c0cd1ae560dd4c8da2d5b266114c50",
-   "sha256": "1a9x8x45ylr3q87ryfrm3d4s5pahqvwrymvn9db194bx1wxj7mp6"
+   "commit": "2fab8d5337155ac7e6162b4cddd0b87fbfdf7515",
+   "sha256": "07pxhr6gkvz8bfbl2kh6jcpxhwji3ansq1bfdqh4417whs6lm62s"
   },
   "stable": {
    "version": [
     0,
-    30,
-    7
+    31,
+    0
    ],
    "deps": [
     "dash",
@@ -49592,8 +49593,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "46fd9d2d9b51098101affd161167d6bd93b78dee",
-   "sha256": "1jfhdnd9fq44lb0p5269hgbf6fvf2qq3kw128fblf05rcgvm5h7i"
+   "commit": "2fab8d5337155ac7e6162b4cddd0b87fbfdf7515",
+   "sha256": "07pxhr6gkvz8bfbl2kh6jcpxhwji3ansq1bfdqh4417whs6lm62s"
   }
  },
  {
@@ -51237,15 +51238,15 @@
   "repo": "alphapapa/hammy.el",
   "unstable": {
    "version": [
-    20230904,
-    237
+    20230925,
+    1945
    ],
    "deps": [
     "svg-lib",
     "ts"
    ],
-   "commit": "f005898d015289ce8709bf96813941c29715a312",
-   "sha256": "0zlwz8v4ldhadymjpdw1xbcvhyw8sv73jkxzigm1pwl3b409fm7z"
+   "commit": "116ce41c36d065f47918e3fde7bb6f1ee5976ac0",
+   "sha256": "04fhs6nrf1wbpcqla5jq2h7wi0k9ag8bmpzkkmhvnifpswc617gd"
   },
   "stable": {
    "version": [
@@ -58727,8 +58728,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20230922,
-    754
+    20230925,
+    2257
    ],
    "deps": [
     "compat",
@@ -58736,8 +58737,8 @@
     "persist",
     "plz"
    ],
-   "commit": "d2413785b0d973f946266263ce91d7067de0d8ff",
-   "sha256": "0iv1r589ljgd8987g7yzmag1azs2rcs9m2y07b73lr226z7bvglr"
+   "commit": "903847d50e894056c81fa87b343199f17bf91b8d",
+   "sha256": "1ipfx23skhyc2wn4h1fbwj9c0a9dd0li2iaqqw73jazrdk9zbvia"
   }
  },
  {
@@ -68878,11 +68879,11 @@
   "repo": "ligolang/ligo",
   "unstable": {
    "version": [
-    20230918,
-    1358
+    20230925,
+    1550
    ],
-   "commit": "9e515109956dd19184884eef422c127e6b198c1a",
-   "sha256": "0379knvsyvbpwrwa6lfj4r9w913dvd2h5m2fzhb17s0nm8a07msa"
+   "commit": "44579a86328e43a331ac26712295f99109f240e7",
+   "sha256": "0zjaj7bq2is0jn04hn69cvg5ap5ng8657n4nbasz834008yab3m5"
   },
   "stable": {
    "version": [
@@ -73308,14 +73309,14 @@
   "repo": "minad/marginalia",
   "unstable": {
    "version": [
-    20230910,
-    739
+    20230925,
+    1627
    ],
    "deps": [
     "compat"
    ],
-   "commit": "f1734375a5d8fa18e9cecb47ae4b5ae86c72399f",
-   "sha256": "0pig4wgnxkmdjrbxpg2p8i89y558zx8d7x0kyr66lj4gz1882ips"
+   "commit": "4e14bc0fa05ae8c35e019721d19acdec8b51248c",
+   "sha256": "0mv54hgb8cadwdhmn20d30fairhvvrvlvvp9awfi32dw91hma8gv"
   },
   "stable": {
    "version": [
@@ -74504,11 +74505,11 @@
   "repo": "meow-edit/meow",
   "unstable": {
    "version": [
-    20230916,
-    756
+    20230925,
+    1646
    ],
-   "commit": "ba0cf4d1607971374351a68e48581d3ff4184c0e",
-   "sha256": "0gz6dp36mgbjx9p4s8dz1f83w3pddzhmbs67qrap53s0g39zgaw4"
+   "commit": "ec94fa609bcbf7a3ad29bb09a9bf39943cc254e9",
+   "sha256": "0hw9shp6ccd9q8l4wkj21fa48s25msrmz7mrdaz5c5lx0yyc24ff"
   },
   "stable": {
    "version": [
@@ -75011,20 +75012,20 @@
   "repo": "purpleidea/mgmt",
   "unstable": {
    "version": [
-    20230420,
-    2202
+    20230925,
+    2253
    ],
-   "commit": "c5efe7a17b5b66a4bf2096b6213998287637c64a",
-   "sha256": "0aqfv2hqv3syzidb45f8jynvsw640k0iqn3hdx59kv4j6nc9sddy"
+   "commit": "53f9f352335857736f625a019fe14c6750f78434",
+   "sha256": "13jx2ndbjqa5rgslaplx551nnm240pdzcw7bx63wihk85c617lyg"
   },
   "stable": {
    "version": [
     0,
     0,
-    23
+    24
    ],
-   "commit": "c5efe7a17b5b66a4bf2096b6213998287637c64a",
-   "sha256": "0aqfv2hqv3syzidb45f8jynvsw640k0iqn3hdx59kv4j6nc9sddy"
+   "commit": "53f9f352335857736f625a019fe14c6750f78434",
+   "sha256": "13jx2ndbjqa5rgslaplx551nnm240pdzcw7bx63wihk85c617lyg"
   }
  },
  {
@@ -97238,16 +97239,16 @@
   "repo": "rejeep/prodigy.el",
   "unstable": {
    "version": [
-    20220523,
-    1728
+    20230925,
+    1820
    ],
    "deps": [
     "dash",
     "f",
     "s"
    ],
-   "commit": "a3be00d3b90a77118c2d7d9f5a2f26151091fa07",
-   "sha256": "0pijzj4a8q6acm8rsrx92gam04vhz5xgc5jzzv5ykl6d4xx4zskk"
+   "commit": "cc68fa9d604a0739a63247237a801b03a184aca6",
+   "sha256": "0g032xq19g5k29wypbk7klhkf602r3ih3ypq7h5zpd1gknkcqlbp"
   },
   "stable": {
    "version": [
@@ -112091,11 +112092,11 @@
   "repo": "motform/stimmung-themes",
   "unstable": {
    "version": [
-    20230830,
-    1917
+    20230925,
+    1808
    ],
-   "commit": "9a763725249dfa1a2644b5f26a8cfedfba312eee",
-   "sha256": "032lq95r3zr59q3500sxc4hhjysxjdxxh0b4pr0r6h4rzdx0zh00"
+   "commit": "6d0f9b34eba1abde6ee72e10c2b4dfdd18712065",
+   "sha256": "0p0pgfwd987ylsm8lhdkammqy6afx2bb582fb3lrjhj27dn572f1"
   }
  },
  {
