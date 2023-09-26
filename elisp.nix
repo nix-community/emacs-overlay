@@ -28,7 +28,7 @@ let
       ext = lib.last (builtins.split "\\." (builtins.toString config));
       type = builtins.typeOf config;
     in
-      type == "path" && ext == "org";
+      (lib.isDerivation config || type == "path") && ext == "org";
 
   configText =
     let
