@@ -12500,8 +12500,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20230926,
-    1139
+    20230927,
+    1218
    ],
    "deps": [
     "clojure-mode",
@@ -12512,8 +12512,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "52243cf2d7af8a89e4d37430cef1755fcb0f8d6c",
-   "sha256": "1j0z1km992kkq3bymlba98xsyg338hjxkifnrrksj1s3llf4mj3w"
+   "commit": "6b36f091069955a43d3d25ed5b681735af9528ae",
+   "sha256": "1pkbjmzmykpd89s0mv57ar0561rnajk911p221qzdcrzdwzs41h1"
   },
   "stable": {
    "version": [
@@ -30750,14 +30750,14 @@
   "repo": "oantolin/embark",
   "unstable": {
    "version": [
-    20230926,
-    622
+    20230927,
+    1241
    ],
    "deps": [
     "compat"
    ],
-   "commit": "e23da33f5283c1f8648ecb9a84dcc266c0d5a964",
-   "sha256": "1qkkp11ids77wsy0wb3hzlg90cvrpjrwi40d56l62h4si5yh8imd"
+   "commit": "fcf068c0e912baa9267cbec02e56a5972d8f31b4",
+   "sha256": "0n2lxsprnp8s327m8jdjdnl5gqpq7y9y6hynah3bkkydbh60g167"
   },
   "stable": {
    "version": [
@@ -34238,8 +34238,8 @@
   "repo": "emacs-evil/evil-cleverparens",
   "unstable": {
    "version": [
-    20230529,
-    2117
+    20230927,
+    840
    ],
    "deps": [
     "dash",
@@ -34247,8 +34247,8 @@
     "paredit",
     "smartparens"
    ],
-   "commit": "9ee249509281c387500e397df625ccb759804df4",
-   "sha256": "1lhy3b6ka6r488vjmzqkccqnfpgyygn8cjgs1xhhbjdah1bip91i"
+   "commit": "51b27359dfce1adad4301c2bc63f8086a6d68985",
+   "sha256": "1bmrmnjmqf61nwlx7wxib4d0lmms2s3k6i67914xrn1wkb9j2axb"
   }
  },
  {
@@ -34670,15 +34670,15 @@
   "repo": "TheBB/evil-indent-plus",
   "unstable": {
    "version": [
-    20220106,
-    931
+    20230927,
+    1513
    ],
    "deps": [
     "cl-lib",
     "evil"
    ],
-   "commit": "b4dacbfdb57f474f798bfbf5026d434d549eb65c",
-   "sha256": "1hlw0zv5niap3vwm4fkqqk8c1bysij76s54ksp84wb8sggkga53p"
+   "commit": "f392696e4813f1d3a92c7eeed333248914ba6dae",
+   "sha256": "1ib1yqcw9w1scc9lng2w2kiczabbkg1q4lh4dy06lsd85d9i9sik"
   }
  },
  {
@@ -66793,11 +66793,11 @@
   "repo": "bricka/emacs-kotlin-ts-mode",
   "unstable": {
    "version": [
-    20230913,
-    1227
+    20230927,
+    1314
    ],
-   "commit": "6b807fcf0eac023b493730349703a256ed4eb7d5",
-   "sha256": "0wv0r08299slbmn98ysd1dg22jkvw8kl27il637ls2mdbhrx82b6"
+   "commit": "a699d76adfdf263cef3ed13fa599219e611d26bc",
+   "sha256": "0jvfkwjispsxr4py1v8sx6q1hlw7vm20sakqi3wbv2ansbbcih0d"
   }
  },
  {
@@ -73784,15 +73784,15 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20230920,
-    947
+    20230927,
+    1230
    ],
    "deps": [
     "persist",
     "request"
    ],
-   "commit": "40aa02fb06692fab20f75e7314eecdf0ef638a63",
-   "sha256": "0zpmc6yd8g0bs6sigz8j80xifwp4af6hkbaddf9i6bhhj6ildjrf"
+   "commit": "016a3a2b331a0cc9ee916e401b1eb3a196006c06",
+   "sha256": "0fv7d2qqlcmnlylj94z9hyhardjkk8nm38c36q5p2yb6bb91glk3"
   },
   "stable": {
    "version": [
@@ -75642,11 +75642,11 @@
   "repo": "szermatt/mistty",
   "unstable": {
    "version": [
-    20230926,
-    1750
+    20230927,
+    1656
    ],
-   "commit": "8063041dd4e6ec4e4b5bc6941d0e9e3eb8cbc2b3",
-   "sha256": "0gjq0qbr7j1wzj91ap97c2601aj55a00vsvqgqsg4hcqza5s64lk"
+   "commit": "e15b94e4415f480bc3adcd8773c83de394745bd1",
+   "sha256": "0iy34c87wsa31ipzxb06l8h3i8f0lyh8sw4xk1w3zhwfzzcv595q"
   },
   "stable": {
    "version": [
@@ -100216,11 +100216,11 @@
   "repo": "eyeinsky/quick-shell-keybind",
   "unstable": {
    "version": [
-    20171023,
-    613
+    20230927,
+    1036
    ],
-   "commit": "5f4541a5a5554d108bf16b5fd1713e962161ca1b",
-   "sha256": "19hqywwf80q6ay886xmcjjpr4pghkw78hzdg0mrpkpkqn2vj06gk"
+   "commit": "be830a69cf7eec92d4ea269fd389ac39b0c162f1",
+   "sha256": "0ks3chy0jgbpn4pnamam2wnw3i88l4wk1xm3lq4pk9dc8dzyyv8s"
   }
  },
  {
@@ -117829,8 +117829,8 @@
   "repo": "Alexander-Miller/treemacs",
   "unstable": {
    "version": [
-    20230925,
-    1347
+    20230927,
+    1355
    ],
    "deps": [
     "ace-window",
@@ -117842,8 +117842,8 @@
     "pfuture",
     "s"
    ],
-   "commit": "bf1f4c284cf3a5bf4580eb3d47533c8d70888066",
-   "sha256": "05ha426620q3ighwr8ap2b0c9mqci0z6rg09cvlbh4w4x1scswq4"
+   "commit": "d94bbdacea7558a6624093b18359da387975810c",
+   "sha256": "1bw708zqvfql8n0cw1y07p97qq50h1gyvx6js1ffh131gcrwlgph"
   },
   "stable": {
    "version": [
@@ -127336,8 +127336,8 @@
   "repo": "WillForan/zim-wiki-mode",
   "unstable": {
    "version": [
-    20230211,
-    1650
+    20230927,
+    1410
    ],
    "deps": [
     "dokuwiki-mode",
@@ -127346,8 +127346,8 @@
     "link-hint",
     "pretty-hydra"
    ],
-   "commit": "cf3d5a0dfb53d6cba8d7d35420ec18bf81b5bf2f",
-   "sha256": "194wcyz1zwwkizpblq4pwixigpjyy3br7psiaj0p7fmrcicdfmlv"
+   "commit": "7c62e0304750654709b4173bcc1e2681cf1fbe49",
+   "sha256": "1vfc48vz0ajcqcdx89wrwd3ksncwjlvi1via681d88y9in9bpbv4"
   }
  },
  {
