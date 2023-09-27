@@ -3370,10 +3370,10 @@
       elpaBuild {
         pname = "workroom";
         ename = "workroom";
-        version = "2.3";
+        version = "2.3.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/workroom-2.3.tar";
-          sha256 = "0c05pbxkrcgsjk7zcyxiacxrpxyvf85rf38nhaqhxbywh4j071fg";
+          url = "https://elpa.nongnu.org/nongnu/workroom-2.3.1.tar";
+          sha256 = "1rwixacz8dwws54dvm9dbrwnjh8xpqp1j594hwd4xfq9z1kfzz4f";
         };
         packageRequires = [ compat emacs project ];
         meta = {
