@@ -2643,14 +2643,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    greader = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    greader = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.4.1.0.20230922.85403";
+        version = "0.4.1.0.20230925.152145";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.4.1.0.20230922.85403.tar";
-          sha256 = "0nny573ykn7c7iqf3ga10gimkh38h1i185bvk7nyf4kqppclyps5";
+          url = "https://elpa.gnu.org/devel/greader-0.4.1.0.20230925.152145.tar";
+          sha256 = "0w8gwsy5sb2yii9gwfbskvrf08645dr2b9f975dhj0zqrp7shyph";
         };
         packageRequires = [ emacs ];
         meta = {
