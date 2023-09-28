@@ -713,10 +713,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "0.17.0.20230914.93805";
+        version = "0.17.0.20230928.42453";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-0.17.0.20230914.93805.tar";
-          sha256 = "1pfz85vnbp29sq8s2njl42v9s25w1q2px0n9vdichb7aik3dyfih";
+          url = "https://elpa.gnu.org/devel/cape-0.17.0.20230928.42453.tar";
+          sha256 = "0d6243vxj6sf5mmmpkh658ywll1lb3h2wlx3qim41p8cx0d8vaaf";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -991,10 +991,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.2.0.20230927.182112";
+        version = "29.1.4.2.0.20230927.210420";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/compat-29.1.4.2.0.20230927.182112.tar";
-          sha256 = "08qrmibkmkv8i1r9vlf4d9amgk4g7idy9fw2r464hyvwb6kclzcv";
+          url = "https://elpa.gnu.org/devel/compat-29.1.4.2.0.20230927.210420.tar";
+          sha256 = "16apiq2aj82gmlg1xaqrrv6riikdb2m4iyg3b4abp472q8hwwfk5";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -2650,10 +2650,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.4.1.0.20230925.152145";
+        version = "0.5.0.0.20230927.204955";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.4.1.0.20230925.152145.tar";
-          sha256 = "0w8gwsy5sb2yii9gwfbskvrf08645dr2b9f975dhj0zqrp7shyph";
+          url = "https://elpa.gnu.org/devel/greader-0.5.0.0.20230927.204955.tar";
+          sha256 = "02kq8r2grdg8y2bjcw01d5wm5mkv4wir4yggs41cmgcwnk3gm1d1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4892,10 +4892,10 @@
       elpaBuild {
         pname = "realgud";
         ename = "realgud";
-        version = "1.5.1.0.20230704.91526";
+        version = "1.5.1.0.20230927.191126";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/realgud-1.5.1.0.20230704.91526.tar";
-          sha256 = "1cjpil5zdxwskw1r1in3w2zwqy9gyidz0wppzpxnfpfvk79vyf16";
+          url = "https://elpa.gnu.org/devel/realgud-1.5.1.0.20230927.191126.tar";
+          sha256 = "0jpzp5ld2ccw2jj074igzl995w25cmd8hd9kab5ifml4vsz38ar5";
         };
         packageRequires = [ emacs load-relative loc-changes test-simple ];
         meta = {
