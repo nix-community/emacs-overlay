@@ -1177,10 +1177,10 @@
       elpaBuild {
         pname = "denote-menu";
         ename = "denote-menu";
-        version = "1.1.1";
+        version = "1.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-menu-1.1.1.tar";
-          sha256 = "12ry0rv45hv1vrwx9wih72s9h0f3r18xssnkzfa9ilp77kgbas5q";
+          url = "https://elpa.gnu.org/packages/denote-menu-1.2.0.tar";
+          sha256 = "1zm68bz6hya360g5zvs4r5naznykamgzqxhvfhpfyxb70hsnmx5w";
         };
         packageRequires = [ denote emacs ];
         meta = {
