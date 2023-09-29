@@ -623,10 +623,10 @@
       elpaBuild {
         pname = "buffer-env";
         ename = "buffer-env";
-        version = "0.4.0.20230909.111820";
+        version = "0.4.0.20230929.61311";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/buffer-env-0.4.0.20230909.111820.tar";
-          sha256 = "00rsklrirshsm8dimjkmjsj9yjrcff8ck42vnmlgwkrsvcdwilcc";
+          url = "https://elpa.gnu.org/devel/buffer-env-0.4.0.20230929.61311.tar";
+          sha256 = "1iw54xqd2pp61c2mv527nmv4c6fcf50qzm9akif31hm13qsnb3ks";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1864,10 +1864,10 @@
       elpaBuild {
         pname = "elisp-benchmarks";
         ename = "elisp-benchmarks";
-        version = "1.14.0.20221221.75401";
+        version = "1.14.0.20230928.180802";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/elisp-benchmarks-1.14.0.20221221.75401.tar";
-          sha256 = "14gvzrcp32yg594g7pzxp7kic2zyrfqwn6a8ansil9adqsz8yarx";
+          url = "https://elpa.gnu.org/devel/elisp-benchmarks-1.14.0.20230928.180802.tar";
+          sha256 = "0izajmxmbanlwkflp4fr2b8inka8i9p68bh93fvnp062cpk44pfj";
         };
         packageRequires = [];
         meta = {
@@ -6106,10 +6106,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.1.2.0.20230830.72111";
+        version = "2.6.1.3.0.20230929.72305";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tramp-2.6.1.2.0.20230830.72111.tar";
-          sha256 = "01ff3i8cji5hs4vjkf87bv866184n1c9v59sjmnywzmqgpgn1z5n";
+          url = "https://elpa.gnu.org/devel/tramp-2.6.1.3.0.20230929.72305.tar";
+          sha256 = "1k0hmnr7wnkmahmqxcg2km2cr44h3fiv4x4kv9h0297jqqi2jiq4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6690,10 +6690,10 @@
       elpaBuild {
         pname = "vundo";
         ename = "vundo";
-        version = "2.1.0.0.20230619.221715";
+        version = "2.1.0.0.20230928.182756";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vundo-2.1.0.0.20230619.221715.tar";
-          sha256 = "1vl1wfk68fy9jcr8dm673g8qbf5ax557fpb5wwpijffrsyss9qzk";
+          url = "https://elpa.gnu.org/devel/vundo-2.1.0.0.20230928.182756.tar";
+          sha256 = "148c6c4bndj09lns44a85ja3r3q6frspvcqzx2iidb1ryyj79gx5";
         };
         packageRequires = [ emacs ];
         meta = {
