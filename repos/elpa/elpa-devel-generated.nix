@@ -1769,10 +1769,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20230920.100251";
+        version = "1.15.0.20230924.70443";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230920.100251.tar";
-          sha256 = "0v7n5mk4vxrc6kq669p28vz40ab4mabmf7hr9a6xh3l5vsrr9p2g";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230924.70443.tar";
+          sha256 = "0ca1gj77xwdvskm13wxan5xaq8x9f28y75pyhzq5akq8hcyim3vw";
         };
         packageRequires = [
           eldoc
@@ -1942,10 +1942,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.13pre0.20230925.182157";
+        version = "0.13pre0.20230928.132653";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20230925.182157.tar";
-          sha256 = "1526ngh3nbxc3h0hhs6a5w31r7pjpgif7i79dmmnx9y24dl579yx";
+          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20230928.132653.tar";
+          sha256 = "18nnal7crwq0lrwyl8dj9chcgm34b62fk3dxhkn67q4ivxdfxgq3";
         };
         packageRequires = [
           emacs
@@ -6426,10 +6426,10 @@
       elpaBuild {
         pname = "use-package";
         ename = "use-package";
-        version = "2.4.5.0.20230115.133305";
+        version = "2.4.5.0.20230812.104319";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20230115.133305.tar";
-          sha256 = "1xjyhd6wkf1z4jx7ffh1y6kk8yi44h4qrckwybwfj6zhiil42cjq";
+          url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20230812.104319.tar";
+          sha256 = "0qggwd27zgfpn2y56pm85a5hgcbmw9c3i44qwdfdw34dvdfqyskl";
         };
         packageRequires = [ bind-key emacs ];
         meta = {
