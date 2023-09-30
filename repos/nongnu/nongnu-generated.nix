@@ -2397,10 +2397,10 @@
       elpaBuild {
         pname = "parseedn";
         ename = "parseedn";
-        version = "1.1.0";
+        version = "1.2.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/parseedn-1.1.0.tar";
-          sha256 = "1by9cy7pn12124vbg59c9qmn2k8v5dbqq4c8if81fclrccjqhrz4";
+          url = "https://elpa.nongnu.org/nongnu/parseedn-1.2.0.tar";
+          sha256 = "10y6mpjzxpmg029j0kysyxqqxdc82wwhkxh79sf8hz1ffks2ysmm";
         };
         packageRequires = [ emacs map parseclj ];
         meta = {
