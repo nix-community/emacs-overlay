@@ -1055,10 +1055,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20230922.45112";
+        version = "0.38.0.20230930.192306";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20230922.45112.tar";
-          sha256 = "052w3azpid6ynbwmzis6agrjj1br8k0jalqwd3mi3cq7im55kvdd";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20230930.192306.tar";
+          sha256 = "1rpgmcx1y33d7kz5gz6lqkh8f97naxa9rcc6nhh76xq80yxg8plc";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3080,10 +3080,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.9.0.20230929.204720";
+        version = "0.9.0.20230930.172059";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230929.204720.tar";
-          sha256 = "069hn6sx2lk35z91zn2kjw1488ahzw4mw80p82xfhkslavk9x4kj";
+          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230930.172059.tar";
+          sha256 = "1jmffk31czrxd9yqkkiznbksw5ffqakabx64ja5907mp9icnbjb4";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6590,10 +6590,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20230923.202336";
+        version = "1.4.0.20230930.192253";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230923.202336.tar";
-          sha256 = "0hlz8z9qzlrps655g42fv0srm421vm996vrdzyfkwk0dmj8qbrm4";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230930.192253.tar";
+          sha256 = "142nf7n538jril2c0m643vd6dlkpcmznm4p06x7w3lp35334w8xk";
         };
         packageRequires = [ compat emacs ];
         meta = {
