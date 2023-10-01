@@ -64,10 +64,10 @@
       elpaBuild {
         pname = "annotate";
         ename = "annotate";
-        version = "2.0.2";
+        version = "2.0.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/annotate-2.0.2.tar";
-          sha256 = "03iigyh9s378jif2vaaii8d31nag6mzairmgl9ffhmryz08jkig1";
+          url = "https://elpa.nongnu.org/nongnu/annotate-2.0.3.tar";
+          sha256 = "1kq195nmspysb1kiqcfh0kwxzp40ij9ccw1c204ayr40a0wp7ilc";
         };
         packageRequires = [];
         meta = {
@@ -2964,10 +2964,10 @@
       elpaBuild {
         pname = "swift-mode";
         ename = "swift-mode";
-        version = "9.0.0";
+        version = "9.1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/swift-mode-9.0.0.tar";
-          sha256 = "1s69mm7yhz1dhxz118ik7nxqw6gliivbwv1qvylk8nz2lhr8sf9n";
+          url = "https://elpa.nongnu.org/nongnu/swift-mode-9.1.0.tar";
+          sha256 = "1zx25g2jdkc78pjhl36gwrc3kj5wxayfl8vgkl3k5gqsa7bjjbjm";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -3418,10 +3418,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "24.12.20230929141252";
+        version = "24.12.20230930093650";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.12.20230929141252.tar";
-          sha256 = "033n1784h8kzh7nkw2c3yk1p9230fijhgqjwbkymc5h8106m5xbx";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.12.20230930093650.tar";
+          sha256 = "1jyfpnqia11442rs9pgzffjjm6z18kl16kvs001pv2b5mdfsvxl4";
         };
         packageRequires = [ emacs ];
         meta = {
