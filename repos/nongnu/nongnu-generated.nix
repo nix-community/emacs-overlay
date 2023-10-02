@@ -257,6 +257,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    blueprint-ts-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "blueprint-ts-mode";
+        ename = "blueprint-ts-mode";
+        version = "0.0.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/blueprint-ts-mode-0.0.1.tar";
+          sha256 = "1kai3x78aw53jy1r8jhpn6316a8w11am4y4058nx112sfjcd823j";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/blueprint-ts-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     boxquote = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "boxquote";
