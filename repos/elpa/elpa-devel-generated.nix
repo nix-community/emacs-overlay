@@ -3080,10 +3080,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.9.0.20230930.172059";
+        version = "0.9.0.20231001.230824";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20230930.172059.tar";
-          sha256 = "1jmffk31czrxd9yqkkiznbksw5ffqakabx64ja5907mp9icnbjb4";
+          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20231001.230824.tar";
+          sha256 = "01i9y9y4mj9jl7lrdrmcyvl7aypp696w2ci33rknk2ran2yz2mh1";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3328,10 +3328,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.2.1.0.20231001.3627";
+        version = "0.3.0.0.20231001.211059";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.2.1.0.20231001.3627.tar";
-          sha256 = "1q6shw96mnyh6mhhx0i4s5nw250c6dndylbgmxf1zj2qxln9ryca";
+          url = "https://elpa.gnu.org/devel/llm-0.3.0.0.20231001.211059.tar";
+          sha256 = "0lvhmcvylm5w9qmin98mx08rsl30wxb2kg4mc4xci6zfrjrndrgs";
         };
         packageRequires = [ emacs ];
         meta = {
