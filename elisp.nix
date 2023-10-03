@@ -85,7 +85,7 @@ emacsWithPackages (epkgs:
                 then defaultInitFile
                 else throw "name of defaultInitFile must be ${defaultInitFileName}";
             version = "0.1.0";
-            packageRequires = usePkgs;
+            packageRequires = usePkgs ++ extraPkgs;
           };
   in
   usePkgs ++ extraPkgs ++ [ defaultInitFilePkg ])
