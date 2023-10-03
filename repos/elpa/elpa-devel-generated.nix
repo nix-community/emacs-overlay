@@ -1942,10 +1942,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.13pre0.20231002.40332";
+        version = "0.14pre0.20231003.12733";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20231002.40332.tar";
-          sha256 = "1g9aig2j8a9h82qcfr758qqph8z1d2r5sji41nrc77p2ncwbwsvj";
+          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20231003.12733.tar";
+          sha256 = "0m3wc6i3vw4p353v36kk6jwf9503azriym8n8y5qh1blbdm7dyfq";
         };
         packageRequires = [
           emacs
@@ -1971,10 +1971,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "16.0.20230818.103820";
+        version = "16.0.20231002.175546";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-16.0.20230818.103820.tar";
-          sha256 = "0p6dhvh5790q5qfyb3wm0jbbxhr3zkycnk64p6lx7r9jz03h5qxb";
+          url = "https://elpa.gnu.org/devel/emms-16.0.20231002.175546.tar";
+          sha256 = "1cgf931bq4vk6ajbnb84s09j6966zbk7f878rpj6x4dl3mxw5sx3";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -2040,10 +2040,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20230930.220905";
+        version = "5.6snapshot0.20231002.173129";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20230930.220905.tar";
-          sha256 = "1x9c8qazy2fiw8s07sljw1ml2kmvmx168bphz7kwzgddrcjf21f5";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231002.173129.tar";
+          sha256 = "0nza7cwg06pcib3ghnb5b69ic2v6x12rfzwb0h1qmrv3rfih8yq5";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -5384,10 +5384,10 @@
       elpaBuild {
         pname = "site-lisp";
         ename = "site-lisp";
-        version = "0.1.1.0.20230423.152517";
+        version = "0.1.2.0.20231003.74326";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/site-lisp-0.1.1.0.20230423.152517.tar";
-          sha256 = "1kx5zcd38m806piz3k1zqjykw5m5rwgs7lmz43rr46d3q920kniw";
+          url = "https://elpa.gnu.org/devel/site-lisp-0.1.2.0.20231003.74326.tar";
+          sha256 = "0a1l7cvibsrrhalr85vbg4g82y1z856krzia0h8pkv85mdjh1628";
         };
         packageRequires = [ emacs ];
         meta = {

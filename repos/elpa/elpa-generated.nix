@@ -1726,10 +1726,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.12";
+        version = "0.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.12.tar";
-          sha256 = "0v63xfvkdijf8wfy7kafqrqxclq2jvk4amp69kzxx9i0gnp90hzi";
+          url = "https://elpa.gnu.org/packages/ement-0.13.tar";
+          sha256 = "15pi9d5nxg3d7xnh36xpd0fa94fv3yra5imqpwbzz98d4wyacrv8";
         };
         packageRequires = [
           emacs
@@ -4784,10 +4784,10 @@
       elpaBuild {
         pname = "site-lisp";
         ename = "site-lisp";
-        version = "0.1.1";
+        version = "0.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/site-lisp-0.1.1.tar";
-          sha256 = "05fdh7hv3dwm8li4qsyrm9j6zdj43k82al1p5z9ir6xmy1r5b571";
+          url = "https://elpa.gnu.org/packages/site-lisp-0.1.2.tar";
+          sha256 = "07704nz5rrzixmvw65h79rf4fpnf58jrrgbp1brvknidp6j95r0n";
         };
         packageRequires = [ emacs ];
         meta = {
