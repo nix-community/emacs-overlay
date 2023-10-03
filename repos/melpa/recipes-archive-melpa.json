@@ -21612,11 +21612,11 @@
   "url": "https://salsa.debian.org/emacsen-team/debian-el.git",
   "unstable": {
    "version": [
-    20231001,
-    2222
+    20231003,
+    737
    ],
-   "commit": "b02428b9be806a62282d7a46aaf7e6be0b617eae",
-   "sha256": "1hz65zrbrx8wzp577h5r8ppr256i5xs326qvizvdxsa9krjcbxss"
+   "commit": "eb842697b4a7d04207e7e447d640873c6658a6f1",
+   "sha256": "187igjpvsrw7k0w3ch86mqn6nr1nqiqgrng7j5vk3sggydbq745v"
   },
   "stable": {
    "version": [
@@ -29057,13 +29057,25 @@
   "unstable": {
    "version": [
     20231001,
-    1837
+    1926
    ],
    "deps": [
     "elfeed"
    ],
-   "commit": "1a099323cafcb3f9176c5d7ca7fbe539f7dd77bc",
-   "sha256": "1zyd3k14z18jzpvc0vawnwaxd6wczj30m44066ygsj89x1fr3nj0"
+   "commit": "1f687356d5c5c0a661e22c16ef8c8062cf3d375b",
+   "sha256": "0xx1fd8gkr2clwijqggskqgwhy17hcqnhw2y0mzwkfnxpimpsyy2"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    0
+   ],
+   "deps": [
+    "elfeed"
+   ],
+   "commit": "1f687356d5c5c0a661e22c16ef8c8062cf3d375b",
+   "sha256": "0xx1fd8gkr2clwijqggskqgwhy17hcqnhw2y0mzwkfnxpimpsyy2"
   }
  },
  {
@@ -52062,25 +52074,25 @@
   "repo": "emacs-helm/helm-apt",
   "unstable": {
    "version": [
-    20230926,
-    1818
+    20231003,
+    514
    ],
    "deps": [
     "helm"
    ],
-   "commit": "a3629302b6878c8919f89d6d5913d37d9012a992",
-   "sha256": "0rzkk0vyqpls3v3n43339s0sfmpl38mbgy6p1fbvxbps3c7mw1rx"
+   "commit": "f020465c18908efe00807e1e0f828a3766fc6916",
+   "sha256": "01jcsfms5bg599nskgg7qa367z9b6iq74rdziy16cvw6xzygxdk3"
   },
   "stable": {
    "version": [
     1,
-    0
+    1
    ],
    "deps": [
     "helm"
    ],
-   "commit": "42923e367f6ccc1c94b1a5c070993e0ad96c9ea3",
-   "sha256": "1q5pxd0vjxqrvk0gf0nxbc9b77xidaijkddh6zz3j7fbjmzyrp4x"
+   "commit": "f020465c18908efe00807e1e0f828a3766fc6916",
+   "sha256": "01jcsfms5bg599nskgg7qa367z9b6iq74rdziy16cvw6xzygxdk3"
   }
  },
  {
@@ -69862,11 +69874,11 @@
   "repo": "donkirkby/live-py-plugin",
   "unstable": {
    "version": [
-    20231001,
-    459
+    20231003,
+    248
    ],
-   "commit": "a8c712d87c33a3455e1049cc5f72c0eb1dbed0e2",
-   "sha256": "1iz8fwhr6wy8znza1wkf6b2dxzlzack8xkihdnfwlcdnyfvnrni1"
+   "commit": "600ae9801977f19648caeec9fbaca4631567ea4e",
+   "sha256": "0n8fjw0hrg3s7q4ypnbkb5a7s9998yaych23kmxdgn12rirmmqqn"
   },
   "stable": {
    "version": [
@@ -87108,8 +87120,8 @@
   "repo": "alphapapa/org-ql",
   "unstable": {
    "version": [
-    20231001,
-    109
+    20231003,
+    352
    ],
    "deps": [
     "dash",
@@ -87123,8 +87135,8 @@
     "transient",
     "ts"
    ],
-   "commit": "ab720689e9385795efa34d787fcfb7d0e5d0bb38",
-   "sha256": "1x3ccml2i5yrms8pj907lx4bba89jad2kgjgic63088nxxgccbns"
+   "commit": "6d5b614fc5844420b3c3f5e0aec184e1e9027c04",
+   "sha256": "0m8scj72k5r2i3lr5fkkb4gyyd3kjk6bl2f1ck2bn2rbiki84fms"
   },
   "stable": {
    "version": [
@@ -87881,11 +87893,11 @@
   "repo": "localauthor/org-side-tree",
   "unstable": {
    "version": [
-    20231002,
-    2218
+    20231003,
+    640
    ],
-   "commit": "e1641feecccd0b22d786a6008953f2e093087843",
-   "sha256": "1p9iwg36n55i9yyzvjy4ykchvy29lhqx84kd53bqfa1nr0bxwh8w"
+   "commit": "dc4b6c0f5336aba163096be44eb66f821a5f5232",
+   "sha256": "090nzi4b48pkg999pgfxaa8gycwjxf9ymcc2dzrmp53p9fb6kipi"
   }
  },
  {
@@ -112770,8 +112782,8 @@
   "repo": "Wilfred/suggest.el",
   "unstable": {
    "version": [
-    20190807,
-    851
+    20231003,
+    404
    ],
    "deps": [
     "dash",
@@ -112780,8 +112792,8 @@
     "s",
     "spinner"
    ],
-   "commit": "41782f0d36c346670011f927d8fcd93ec75ed783",
-   "sha256": "0n8xypnrprjmxx52bxr85lr8hgavir17ivsd3cwzw30wpbfcyg2h"
+   "commit": "eca8f6f03b0a77ab649c791f21cb01f4ecae3e73",
+   "sha256": "0wrdig7nwr4fzhcnpnkxmisxbgjzg77qmal06h47b0csgphvfc9l"
   },
   "stable": {
    "version": [
