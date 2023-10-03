@@ -1562,10 +1562,10 @@
       elpaBuild {
         pname = "do-at-point";
         ename = "do-at-point";
-        version = "0.1.0.0.20230922.101825";
+        version = "0.1.1.0.20231002.131946";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/do-at-point-0.1.0.0.20230922.101825.tar";
-          sha256 = "0g3im1y1zkw6v208rw246q361wyk94wx30iqzhvigz7izi8rzl9k";
+          url = "https://elpa.gnu.org/devel/do-at-point-0.1.1.0.20231002.131946.tar";
+          sha256 = "1bqbfb2cj4qb46lximqz3nymdyq6lc5df74cvwksng09226nk9nj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1942,10 +1942,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.13pre0.20230928.132653";
+        version = "0.13pre0.20231002.40332";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20230928.132653.tar";
-          sha256 = "18nnal7crwq0lrwyl8dj9chcgm34b62fk3dxhkn67q4ivxdfxgq3";
+          url = "https://elpa.gnu.org/devel/ement-0.13pre0.20231002.40332.tar";
+          sha256 = "1g9aig2j8a9h82qcfr758qqph8z1d2r5sji41nrc77p2ncwbwsvj";
         };
         packageRequires = [
           emacs
@@ -2836,10 +2836,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20230829.21756";
+        version = "8.0.1pre0.20231002.175619";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20230829.21756.tar";
-          sha256 = "19mx6nc1pr75s6p9i2vhyrbxrx56bmnlnpdwspyks98gr2jc20js";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20231002.175619.tar";
+          sha256 = "16dy9mg00gjjg5q8xrc8iib9jsafwqfq5dpbw425bfnm05n0apb8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4104,10 +4104,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231001.104159";
+        version = "9.7pre0.20231002.132910";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231001.104159.tar";
-          sha256 = "1lk6af2s29d6nniflnvn857077c0r1h64cg4l42rqg8rq8g9p1ss";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231002.132910.tar";
+          sha256 = "0z8ccg5pkqa55aw2pifkfkvxb27pah12d98lphk1j8ags32j9xls";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6906,6 +6906,23 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/wpuzzle.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    wrap-search = callPackage ({ elpaBuild
+                               , fetchurl
+                               , lib }:
+      elpaBuild {
+        pname = "wrap-search";
+        ename = "wrap-search";
+        version = "4.12.10.0.20231002.184917";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/wrap-search-4.12.10.0.20231002.184917.tar";
+          sha256 = "0svxaqjalqny3q3xbkn60zni30m2r9wyfqhjlxx9zxyf05d1dypg";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/wrap-search.html";
           license = lib.licenses.free;
         };
       }) {};
