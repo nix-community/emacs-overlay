@@ -623,10 +623,10 @@
       elpaBuild {
         pname = "buffer-env";
         ename = "buffer-env";
-        version = "0.4.0.20230929.61311";
+        version = "0.4.0.20231003.160540";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/buffer-env-0.4.0.20230929.61311.tar";
-          sha256 = "1iw54xqd2pp61c2mv527nmv4c6fcf50qzm9akif31hm13qsnb3ks";
+          url = "https://elpa.gnu.org/devel/buffer-env-0.4.0.20231003.160540.tar";
+          sha256 = "02688m1b16y7q5lm6kvn5jxix331c8brgjw2591xi3ri032f0s6d";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1055,10 +1055,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20231001.160344";
+        version = "0.38.0.20231003.91628";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231001.160344.tar";
-          sha256 = "1df8sa4alj948xv0sh0095pd51d19gbfhdb6qdvjwkzsp8g9sy53";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231003.91628.tar";
+          sha256 = "18bx0hpw05sp540aa9z1354kq9vqpmc4r4mi3m98mf4v4s872372";
         };
         packageRequires = [ compat emacs ];
         meta = {
