@@ -261,10 +261,10 @@
       elpaBuild {
         pname = "blueprint-ts-mode";
         ename = "blueprint-ts-mode";
-        version = "0.0.1";
+        version = "0.0.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/blueprint-ts-mode-0.0.1.tar";
-          sha256 = "1kai3x78aw53jy1r8jhpn6316a8w11am4y4058nx112sfjcd823j";
+          url = "https://elpa.nongnu.org/nongnu/blueprint-ts-mode-0.0.2.tar";
+          sha256 = "0fyvff2zh6iiswhxcvqgnxdhq3yk5f0w4a2w0jp126fvd3ryspym";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3478,10 +3478,10 @@
       elpaBuild {
         pname = "yaml-mode";
         ename = "yaml-mode";
-        version = "0.0.15";
+        version = "0.0.16";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/yaml-mode-0.0.15.tar";
-          sha256 = "19r2kc894dd59f0r3q4gx52iw5cwj5gi1jjkmi8r9y0dya50rzfx";
+          url = "https://elpa.nongnu.org/nongnu/yaml-mode-0.0.16.tar";
+          sha256 = "19j90sss45gvs76nl1fxi0xahbygy2v639ziwcj93d9vs2p9axs0";
         };
         packageRequires = [ emacs ];
         meta = {
