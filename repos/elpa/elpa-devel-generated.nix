@@ -1897,10 +1897,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.23.0.20230927.64133";
+        version = "0.23.0.20231003.225721";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.23.0.20230927.64133.tar";
-          sha256 = "0w081cdk7dkgw7sq4vz95ha9z9lryhb8qa10gafp7rphk4wazkmr";
+          url = "https://elpa.gnu.org/devel/embark-0.23.0.20231003.225721.tar";
+          sha256 = "0n3hp4wcrnp4md4bd5jfp8x0axlygamnvwj8wnjsbl3vriapv5zj";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1917,10 +1917,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.8.0.20230927.64133";
+        version = "0.8.0.20231003.225721";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.8.0.20230927.64133.tar";
-          sha256 = "0xjff0lmmypfnm88il4gbm1gxmdyijf8672hpxkh3q194swr70n5";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.8.0.20231003.225721.tar";
+          sha256 = "183bkqy2lmmxk4n44ajla4xmss22mrdrdg66136mhiq8fbxdk3xq";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -1942,10 +1942,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.14pre0.20231003.12733";
+        version = "0.14pre0.20231004.22404";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20231003.12733.tar";
-          sha256 = "0m3wc6i3vw4p353v36kk6jwf9503azriym8n8y5qh1blbdm7dyfq";
+          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20231004.22404.tar";
+          sha256 = "0psbqb0pmmzh5plip9xqj2ak3gqan0bg54h124m1a8473vsszqy4";
         };
         packageRequires = [
           emacs
@@ -3032,10 +3032,10 @@
       elpaBuild {
         pname = "jarchive";
         ename = "jarchive";
-        version = "0.10.0.0.20230118.130252";
+        version = "0.10.0.0.20231003.230605";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jarchive-0.10.0.0.20230118.130252.tar";
-          sha256 = "19mfqk255bj6f56r9flgx07s4ylf144l08w5id89qn4l6rbmjvrg";
+          url = "https://elpa.gnu.org/devel/jarchive-0.10.0.0.20231003.230605.tar";
+          sha256 = "1j1mmfxj91yj3cx4glp6vcy7ks3h19h42b8zmyrpa82q1x3mky1l";
         };
         packageRequires = [ emacs ];
         meta = {
