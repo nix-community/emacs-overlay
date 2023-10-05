@@ -1293,10 +1293,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.36.0.20230905.202240";
+        version = "0.37.0.20231005.74414";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/debbugs-0.36.0.20230905.202240.tar";
-          sha256 = "058ci84wj1p0j4iijkmq2ij62hqxaajxjbanl8yy9hix8ilz19y5";
+          url = "https://elpa.gnu.org/devel/debbugs-0.37.0.20231005.74414.tar";
+          sha256 = "1sk71m0dydphfj0x370qx8p3lhnpxxdqy937vpp79prygxq6jn50";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -1499,10 +1499,10 @@
       elpaBuild {
         pname = "dired-preview";
         ename = "dired-preview";
-        version = "0.1.1.0.20230926.151953";
+        version = "0.1.1.0.20231005.53033";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dired-preview-0.1.1.0.20230926.151953.tar";
-          sha256 = "0gy054m03nb96pp6m5kdn01d386f9h4bb7k012l1jkirh69h43m2";
+          url = "https://elpa.gnu.org/devel/dired-preview-0.1.1.0.20231005.53033.tar";
+          sha256 = "1d7alqk5gj2ni0g8ndbq857rzlna24p8bv8knpg4b151bv1pgzp0";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3035,10 +3035,10 @@
       elpaBuild {
         pname = "jarchive";
         ename = "jarchive";
-        version = "0.10.0.0.20231003.230605";
+        version = "0.10.0.0.20231004.231314";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jarchive-0.10.0.0.20231003.230605.tar";
-          sha256 = "1j1mmfxj91yj3cx4glp6vcy7ks3h19h42b8zmyrpa82q1x3mky1l";
+          url = "https://elpa.gnu.org/devel/jarchive-0.10.0.0.20231004.231314.tar";
+          sha256 = "11ibhz5rqb813w1mnpld9n2gm02zhhsbr8li4frj77i16v7l3vg5";
         };
         packageRequires = [ emacs ];
         meta = {
