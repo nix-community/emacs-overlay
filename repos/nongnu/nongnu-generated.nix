@@ -1957,10 +1957,10 @@
       elpaBuild {
         pname = "mastodon";
         ename = "mastodon";
-        version = "1.0.2";
+        version = "1.0.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.2.tar";
-          sha256 = "1msw2cgml33dr7s2lmynn7iin7g7mn62mqg4x89b1jni39fwy9v4";
+          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.5.tar";
+          sha256 = "1cjgkw0d3illcfh6mx3hivsii1b8kbn6jf3xhnfbgl8lprw830b9";
         };
         packageRequires = [ emacs persist request ];
         meta = {
@@ -3433,10 +3433,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "24.12.20230930093650";
+        version = "24.13.20231005090319";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.12.20230930093650.tar";
-          sha256 = "1jyfpnqia11442rs9pgzffjjm6z18kl16kvs001pv2b5mdfsvxl4";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.13.20231005090319.tar";
+          sha256 = "1way8h3w4vd187dflllh5rzsk06iq6g92kxqvs7zdbkzzahwhrpi";
         };
         packageRequires = [ emacs ];
         meta = {
