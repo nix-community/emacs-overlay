@@ -794,10 +794,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.0";
+        version = "0.10.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/company-0.10.0.tar";
-          sha256 = "1bqriyv9k4457vqg78m8m8nia0cmvl1cnlhbyp813i5nl7s8ixlj";
+          url = "https://elpa.gnu.org/packages/company-0.10.1.tar";
+          sha256 = "05jsawpn68jmyg4ha91vmddk10vxq7spcxqalzfppbr1lf0wd8q0";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4523,10 +4523,10 @@
       elpaBuild {
         pname = "relint";
         ename = "relint";
-        version = "1.23";
+        version = "1.24";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/relint-1.23.tar";
-          sha256 = "0cyv9hjlyxy1c2394544ljq5d4prhi296y9j2zy6p1lq6irncmv9";
+          url = "https://elpa.gnu.org/packages/relint-1.24.tar";
+          sha256 = "0wc7jzapzc4s7v7yqwp315ymbs6xighy2clx1ylvf60zs49y2bwm";
         };
         packageRequires = [ emacs xr ];
         meta = {

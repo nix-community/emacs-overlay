@@ -915,10 +915,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.0.0.20231004.144512";
+        version = "0.10.1.0.20231005.215348";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.0.0.20231004.144512.tar";
-          sha256 = "13761jna3lyxdr8dq3g4rjd4qld6kybbjqia8gwv73lgp8yl7xd7";
+          url = "https://elpa.gnu.org/devel/company-0.10.1.0.20231005.215348.tar";
+          sha256 = "0a105jmws57dkzn6l5ir5ppnla39k6rxf392drrflvxaf67qmwyq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1006,10 +1006,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20231004.163302";
+        version = "0.35.0.20231006.74407";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231004.163302.tar";
-          sha256 = "1920hxlrq8s3n88pxfda3r4pfx9s4dac482cv2vlr5xz96rw3ghr";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231006.74407.tar";
+          sha256 = "094zgbmlzyn2mn0kcmj466zzhzyn2nkb621fxv1lmypp476qlnv5";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1747,10 +1747,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.3.0.0.20231004.103929";
+        version = "1.3.0.0.20231006.55753";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.3.0.0.20231004.103929.tar";
-          sha256 = "093y9gbwvhmb1p6hlv88sbpczaw524mf8ynm0f32imcjq1qajj9j";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.3.0.0.20231006.55753.tar";
+          sha256 = "0kznf6jgfxs9g3g6s81p846l0hjijcf9ix7rjfcd15qg34mkpcaj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5087,10 +5087,10 @@
       elpaBuild {
         pname = "relint";
         ename = "relint";
-        version = "1.23.0.20230909.133412";
+        version = "1.24.0.20231005.122642";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/relint-1.23.0.20230909.133412.tar";
-          sha256 = "09qw51bmdvw2gdy8zikqk2982i8g3qjyrd4crm613kk1hcm44v52";
+          url = "https://elpa.gnu.org/devel/relint-1.24.0.20231005.122642.tar";
+          sha256 = "0xlb4i0zj225q8l4a9riagc7qv795bigygmqrlm81ypxqvbm3r5n";
         };
         packageRequires = [ emacs xr ];
         meta = {
