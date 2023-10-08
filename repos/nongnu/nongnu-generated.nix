@@ -1957,10 +1957,10 @@
       elpaBuild {
         pname = "mastodon";
         ename = "mastodon";
-        version = "1.0.5";
+        version = "1.0.6";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.5.tar";
-          sha256 = "1cjgkw0d3illcfh6mx3hivsii1b8kbn6jf3xhnfbgl8lprw830b9";
+          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.6.tar";
+          sha256 = "0wilm43piw99zp8wpbzi19prbz2b8jgfw8i9visl1mwh7w79d6z3";
         };
         packageRequires = [ emacs persist request ];
         meta = {
@@ -2964,10 +2964,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.25.2";
+        version = "0.25.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.25.2.tar";
-          sha256 = "06rlk1f1il5i9zsp7lxraa31ii76k9r4fagbhlpnfyyy8684lkcj";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.25.3.tar";
+          sha256 = "01hpcks6aknn8nqq3l7dl2a6r967kz4m8342wab5m95ja6rrjzaa";
         };
         packageRequires = [ compat emacs ];
         meta = {
