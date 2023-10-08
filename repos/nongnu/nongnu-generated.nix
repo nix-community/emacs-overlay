@@ -661,16 +661,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    eat = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    eat = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "eat";
         ename = "eat";
-        version = "0.8";
+        version = "0.9";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/eat-0.8.tar";
-          sha256 = "1nvwd8iryjdcbm3v2xjgnf4ifcbs4d8hxn7xydxw6i7c5l8vya9f";
+          url = "https://elpa.nongnu.org/nongnu/eat-0.9.tar";
+          sha256 = "0l3p14y2rip5x861hzdsxl4dmvj9k66kkg7rcn7na8wavmnlvnhn";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/eat.html";
           license = lib.licenses.free;
