@@ -665,10 +665,10 @@
       elpaBuild {
         pname = "eat";
         ename = "eat";
-        version = "0.9";
+        version = "0.9.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/eat-0.9.tar";
-          sha256 = "0l3p14y2rip5x861hzdsxl4dmvj9k66kkg7rcn7na8wavmnlvnhn";
+          url = "https://elpa.nongnu.org/nongnu/eat-0.9.1.tar";
+          sha256 = "05mvglcb4271dr5a2xbf8ymlxgwavp93xlqs1k27mdv3kj67904s";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2964,10 +2964,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.25.3";
+        version = "0.25.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.25.3.tar";
-          sha256 = "01hpcks6aknn8nqq3l7dl2a6r967kz4m8342wab5m95ja6rrjzaa";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.25.4.tar";
+          sha256 = "0nk79i98mzjmzs5zgk0pcaqaq852w5fmjw5ck6pigl8d71p9maxp";
         };
         packageRequires = [ compat emacs ];
         meta = {
