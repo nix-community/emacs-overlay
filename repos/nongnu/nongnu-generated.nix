@@ -665,10 +665,10 @@
       elpaBuild {
         pname = "eat";
         ename = "eat";
-        version = "0.9.1";
+        version = "0.9.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/eat-0.9.1.tar";
-          sha256 = "05mvglcb4271dr5a2xbf8ymlxgwavp93xlqs1k27mdv3kj67904s";
+          url = "https://elpa.nongnu.org/nongnu/eat-0.9.2.tar";
+          sha256 = "0b9b6w8i79sq6h5ykq84665916m1ss4d4blr3842b2wyhnk6f805";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -926,6 +926,40 @@
         packageRequires = [ emacs evil ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/evil-numbers.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    evil-surround = callPackage ({ elpaBuild, evil, fetchurl, lib }:
+      elpaBuild {
+        pname = "evil-surround";
+        ename = "evil-surround";
+        version = "1.0.4";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-surround-1.0.4.tar";
+          sha256 = "1cc6n05j7a3q3n8hzxrhgjwk2a79h0llidh0sqhq5bc9d8ygrl2s";
+        };
+        packageRequires = [ evil ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-surround.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    evil-visual-mark-mode = callPackage ({ dash
+                                         , elpaBuild
+                                         , evil
+                                         , fetchurl
+                                         , lib }:
+      elpaBuild {
+        pname = "evil-visual-mark-mode";
+        ename = "evil-visual-mark-mode";
+        version = "0.0.5";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-visual-mark-mode-0.0.5.tar";
+          sha256 = "1k7slwf6m1brwy40j7j4j6qw4jna4sh0llbywsimdj63zral3fki";
+        };
+        packageRequires = [ dash evil ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-visual-mark-mode.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -3433,10 +3467,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "24.13.20231005090319";
+        version = "24.13.20231009115302";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.13.20231005090319.tar";
-          sha256 = "1way8h3w4vd187dflllh5rzsk06iq6g92kxqvs7zdbkzzahwhrpi";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.13.20231009115302.tar";
+          sha256 = "0k530ihjjwcvl24f815nk9jqfnbhzb95xlfm8721dlsbrsmsaiwc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3459,16 +3493,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    xml-rpc = callPackage ({ elpaBuild, fetchurl, lib }:
+    xml-rpc = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "xml-rpc";
         ename = "xml-rpc";
-        version = "1.6.16";
+        version = "1.6.17";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xml-rpc-1.6.16.tar";
-          sha256 = "0gglrrnicbsf1lrk4pwmif5658yrhx80ixgi5hm85p8yxarn3ynm";
+          url = "https://elpa.nongnu.org/nongnu/xml-rpc-1.6.17.tar";
+          sha256 = "0k029lsyz1gpx88pprx5nj2qzkgk6dfc9kvna6a94r6m14brrgyc";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/xml-rpc.html";
           license = lib.licenses.free;
