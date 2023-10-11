@@ -312,10 +312,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.2.1.0.20230720.82135";
+        version = "13.2.1.0.20231011.74144";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-13.2.1.0.20230720.82135.tar";
-          sha256 = "0m973vyb37d57309f51rbds3lvf908484p71a4l216q63qzmidnj";
+          url = "https://elpa.gnu.org/devel/auctex-13.2.1.0.20231011.74144.tar";
+          sha256 = "14rwwxvvgzffxvmbq9y5xkl88sg33b4hifb3hxm7gp1y7v5d90ir";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1323,10 +1323,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231009.175339";
+        version = "2.0.0.0.20231011.45215";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231009.175339.tar";
-          sha256 = "0814qg4q4mxv51014xg4d5vlknyvwz3961ixxwg0il7vykym4nwn";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231011.45215.tar";
+          sha256 = "1mbbj7ndz2b3wibq3jha8ckyl30479c6fv757fcgvxl7vn5gzvk6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2043,10 +2043,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20231002.173129";
+        version = "5.6snapshot0.20231010.193740";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231002.173129.tar";
-          sha256 = "0nza7cwg06pcib3ghnb5b69ic2v6x12rfzwb0h1qmrv3rfih8yq5";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231010.193740.tar";
+          sha256 = "005vs7balh3hwplinzmy0ippg055yd0mf1acsab94ck18q4kjfsb";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3035,10 +3035,10 @@
       elpaBuild {
         pname = "jarchive";
         ename = "jarchive";
-        version = "0.10.0.0.20231004.231314";
+        version = "0.11.0.0.20231010.221311";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jarchive-0.10.0.0.20231004.231314.tar";
-          sha256 = "11ibhz5rqb813w1mnpld9n2gm02zhhsbr8li4frj77i16v7l3vg5";
+          url = "https://elpa.gnu.org/devel/jarchive-0.11.0.0.20231010.221311.tar";
+          sha256 = "0px6ki34v029i9wif1pzs500gqj1ppaj0zdn96535zk22b137dfn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4683,10 +4683,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.10.0.0.20231010.114608";
+        version = "0.10.0.0.20231011.62728";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231010.114608.tar";
-          sha256 = "16gps2z1a8m6asys3la27bz713bflfgrz7z9xq88q5dxdwb6znld";
+          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231011.62728.tar";
+          sha256 = "14mg4r2ny6ibydcgag1piar81zjg1n1ynczpi2wx5l945in3wmsq";
         };
         packageRequires = [ emacs xref ];
         meta = {
