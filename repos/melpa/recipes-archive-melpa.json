@@ -35016,11 +35016,11 @@
   "repo": "redguardtoo/evil-matchit",
   "unstable": {
    "version": [
-    20230625,
-    302
+    20231011,
+    1119
    ],
-   "commit": "f27b2a87bab75e3b8a87c277049a4363cdfcbf61",
-   "sha256": "0igz4kcfb01f9h49n5x9p1idzap54nkw62i1xrql1zlj54s8rv6b"
+   "commit": "fe4cc5243a23ba7aa283803b200993f23b5dafef",
+   "sha256": "0zjlnl40yx1n5d275m5kd46hx758g301akr2jbnbrrifv18p3j7h"
   },
   "stable": {
    "version": [
@@ -42328,11 +42328,11 @@
   "repo": "orzechowskid/flymake-eslint",
   "unstable": {
    "version": [
-    20231001,
-    1252
+    20231011,
+    1349
    ],
-   "commit": "579f20f56e0d9ccb6c0618dc89ff0609e7be3743",
-   "sha256": "1pa86dvqjn8b793gghq3w8sfyi0i2phj4ahagr0j6xhbv51mms6b"
+   "commit": "e76071e3d8d941eedd106f13901fa5d904766973",
+   "sha256": "036xvi5xa9sbs7v2ga8qnr8vldfrg6fgrqch4nzbma7ky9nwd5qh"
   },
   "stable": {
    "version": [
@@ -51339,26 +51339,26 @@
   "url": "https://cicadas.surf/cgit/halloweenie-theme.git",
   "unstable": {
    "version": [
-    20231002,
-    1321
+    20231011,
+    1252
    ],
    "deps": [
     "autothemer"
    ],
-   "commit": "1a7b91541b05df7ace7d1ceb445aa441876154bd",
-   "sha256": "1kjs01mmqim2xvyiq1nnq18zmsa7i1y1qzsgmmxipacrvakjv9s6"
+   "commit": "db39ff0516e071aa890585c39fe411ea355e8b06",
+   "sha256": "033ignsigx8z5hxrry9yzl0dxc2vwdjlc9nrdpwhbbl15xgpjq7n"
   },
   "stable": {
    "version": [
     0,
     1,
-    0
+    1
    ],
    "deps": [
     "autothemer"
    ],
-   "commit": "1a7b91541b05df7ace7d1ceb445aa441876154bd",
-   "sha256": "1kjs01mmqim2xvyiq1nnq18zmsa7i1y1qzsgmmxipacrvakjv9s6"
+   "commit": "db39ff0516e071aa890585c39fe411ea355e8b06",
+   "sha256": "033ignsigx8z5hxrry9yzl0dxc2vwdjlc9nrdpwhbbl15xgpjq7n"
   }
  },
  {
@@ -59005,7 +59005,7 @@
   "unstable": {
    "version": [
     20231011,
-    536
+    1019
    ],
    "deps": [
     "compat",
@@ -59014,8 +59014,8 @@
     "plz",
     "transient"
    ],
-   "commit": "10275fa1f12b829b875e6f14b3553d05ee937d0b",
-   "sha256": "1fcix8br232ljwhsycn2df7w2p23smz7rg7ai8bis0fabyax44rb"
+   "commit": "f8de743c0cdf3e95284aaf0ecffb6b37a48bc2ba",
+   "sha256": "1fpbs3qx65hwa34b42r8xg7km601dmssrygfmsqjqdm4p0ylkabm"
   }
  },
  {
@@ -97950,11 +97950,11 @@
   "repo": "bbatsov/projectile",
   "unstable": {
    "version": [
-    20230919,
-    646
+    20231011,
+    744
    ],
-   "commit": "4247ac77173b6f92f28af04f5a72ff68de19f057",
-   "sha256": "0akw9qzlmm163kdmki0xa6am0nwk72b2b9ihjfvsnk74zsg4vl0y"
+   "commit": "f34d5245c0afee5ffe48ae9966892edb744d339e",
+   "sha256": "0d17b23pgjc6krz7lp4b2p9749870qyinxy2y8hxwbifbyyy0lji"
   },
   "stable": {
    "version": [
@@ -98960,14 +98960,14 @@
   "url": "https://cicadas.surf/cgit/pumpkin-spice-theme.git",
   "unstable": {
    "version": [
-    20231002,
-    1323
+    20231011,
+    1253
    ],
    "deps": [
     "autothemer"
    ],
-   "commit": "e87ad63bcf39cdde7b26bf5f1e30c899b0c6005c",
-   "sha256": "1r98y4ip4lxji6z358vff9a2q4d2fr47b3n4j5yyikfblph224wf"
+   "commit": "8d38276f6b2d16325ca372dd3630653b21e6e7ed",
+   "sha256": "18zla4ajw9x5dizs83lii8b4picsdr5a1nkmwi59d4gh85blqjvz"
   }
  },
  {
@@ -102739,8 +102739,8 @@
   "repo": "alhassy/repl-driven-development",
   "unstable": {
    "version": [
-    20231005,
-    142
+    20231011,
+    1135
    ],
    "deps": [
     "bind-key",
@@ -102748,12 +102748,15 @@
     "devdocs",
     "eros",
     "f",
+    "hierarchy",
+    "json-navigator",
     "lf",
+    "peg",
     "pulsar",
     "s"
    ],
-   "commit": "f532e9c7f8e655a1029836eb7d5c94700129aedb",
-   "sha256": "0d3n502cph02j5y135pp36ama04rf3fd6hqi6bx99yavq358w0k2"
+   "commit": "601c2bf21bf4a0cb75712e43c2e401e1fdfc98ba",
+   "sha256": "1xrqm18z74jqmld0zayfy2mhydq1j3gkpxfl7l3kr6kxhnmw6snm"
   }
  },
  {
