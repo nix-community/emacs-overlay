@@ -460,10 +460,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "0.3.0.0.20231008.125833";
+        version = "0.3.0.0.20231010.124455";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/beframe-0.3.0.0.20231008.125833.tar";
-          sha256 = "1y3z2iy06vrr7rj2p9kpczmvkaphx15s07kaz0hlq5j8hj55hjbh";
+          url = "https://elpa.gnu.org/devel/beframe-0.3.0.0.20231010.124455.tar";
+          sha256 = "1z3jmd4gx2xl48mk91bmv3h00ah881686bgqdq5p1db965pk6wgf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4107,10 +4107,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231009.133328";
+        version = "9.7pre0.20231010.162709";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231009.133328.tar";
-          sha256 = "0jnnca9ri22bh2242s3cfdbhx4zin8yppyysi6y7j0j7bsshw2sj";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231010.162709.tar";
+          sha256 = "0qkjggxscvs80lrd38qpj7g4s7ima5017y31vhhn60yll4wvv5q6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4683,10 +4683,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.10.0.0.20231009.180903";
+        version = "0.10.0.0.20231010.114608";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231009.180903.tar";
-          sha256 = "0mb5a8fqpb8c3q6vgi1pvzz6fc9djda1wsny2wl4b0d0krv7zrad";
+          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231010.114608.tar";
+          sha256 = "16gps2z1a8m6asys3la27bz713bflfgrz7z9xq88q5dxdwb6znld";
         };
         packageRequires = [ emacs xref ];
         meta = {
