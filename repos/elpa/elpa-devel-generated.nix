@@ -453,17 +453,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    beframe = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    beframe = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "0.3.0.0.20231010.124455";
+        version = "0.3.0.0.20231012.55528";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/beframe-0.3.0.0.20231010.124455.tar";
-          sha256 = "1z3jmd4gx2xl48mk91bmv3h00ah881686bgqdq5p1db965pk6wgf";
+          url = "https://elpa.gnu.org/devel/beframe-0.3.0.0.20231012.55528.tar";
+          sha256 = "1jazg985rmr36mfgk1nx4vwz5d29iiydvgn0488dpdzyiipiri78";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1323,10 +1320,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231011.154255";
+        version = "2.0.0.0.20231012.41650";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231011.154255.tar";
-          sha256 = "13iqq3xhyqhzwcwvwwpp0iw9irhbrdpc6dj2q1vzpg9l38ri4if3";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231012.41650.tar";
+          sha256 = "0q0ngizw8xjzwkxjwh77d7d7wcxmkvqa601vx6c6jk07nlgssg4q";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3331,10 +3328,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.3.0.0.20231009.358";
+        version = "0.3.0.0.20231011.214557";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.3.0.0.20231009.358.tar";
-          sha256 = "13sq3msgv13c698jswkyw2bz5svv79lgnf5whmxikjrymx9xfkbi";
+          url = "https://elpa.gnu.org/devel/llm-0.3.0.0.20231011.214557.tar";
+          sha256 = "1plzgw9k7as9cyqvg4adq3nipaq310y5p7ix3b3f7p3xhfizz191";
         };
         packageRequires = [ emacs ];
         meta = {
