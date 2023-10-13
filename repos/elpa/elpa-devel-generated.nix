@@ -908,17 +908,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    company = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    company = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231011.184104";
+        version = "0.10.2.0.20231013.4910";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231011.184104.tar";
-          sha256 = "0ql7kchkjv2fri6nj7vsw5b4kkrhvp0qpdlynln4rchvyninhjsr";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231013.4910.tar";
+          sha256 = "1nwbxz3m45sa0nil5dlx27syrx3yxghi4k507m4g13abacv2f0nc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1323,10 +1320,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231012.142243";
+        version = "2.0.0.0.20231013.51039";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231012.142243.tar";
-          sha256 = "0r5v6qhqj4k8gpxpxmzpjp57w144zii8xazymlssggrw0jwwv1fx";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231013.51039.tar";
+          sha256 = "190ngixivbhqd1d5kjad4vy94drl12ya9vpfxmxhkpl506b9vfdx";
         };
         packageRequires = [ emacs ];
         meta = {
