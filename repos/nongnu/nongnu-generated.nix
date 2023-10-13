@@ -383,10 +383,10 @@
       elpaBuild {
         pname = "clojure-mode";
         ename = "clojure-mode";
-        version = "5.17.0";
+        version = "5.17.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/clojure-mode-5.17.0.tar";
-          sha256 = "189kyj57q4v8m9r9cd9q2x9db42vl5vb1qvww401lxlappc58fmw";
+          url = "https://elpa.nongnu.org/nongnu/clojure-mode-5.17.1.tar";
+          sha256 = "0fcn4d4h8p9w500969i034lhgf2q75l96isfryjhgxzfcsfs5yzl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1991,10 +1991,10 @@
       elpaBuild {
         pname = "mastodon";
         ename = "mastodon";
-        version = "1.0.6";
+        version = "1.0.7";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.6.tar";
-          sha256 = "0wilm43piw99zp8wpbzi19prbz2b8jgfw8i9visl1mwh7w79d6z3";
+          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.7.tar";
+          sha256 = "1rch0gyzqv079l1vifd1klnc33bfa2yrnngjz05f6h617ygfjn80";
         };
         packageRequires = [ emacs persist request ];
         meta = {
