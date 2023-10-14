@@ -356,14 +356,15 @@
                          , queue
                          , seq
                          , sesman
-                         , spinner }:
+                         , spinner
+                         , transient }:
       elpaBuild {
         pname = "cider";
         ename = "cider";
-        version = "1.7.0";
+        version = "1.8.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/cider-1.7.0.tar";
-          sha256 = "0x0acszamylmmly6h8s56lskd5l7lm8hdnf8rbvjd89v0j2anb0l";
+          url = "https://elpa.nongnu.org/nongnu/cider-1.8.0.tar";
+          sha256 = "1zlpncfwmwvd524l2q9ga174709lnd420aff5vilyv7k4a4jdhp7";
         };
         packageRequires = [
           clojure-mode
@@ -373,6 +374,7 @@
           seq
           sesman
           spinner
+          transient
         ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/cider.html";
@@ -635,10 +637,10 @@
       elpaBuild {
         pname = "dracula-theme";
         ename = "dracula-theme";
-        version = "1.8.1";
+        version = "1.8.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/dracula-theme-1.8.1.tar";
-          sha256 = "0j7m9z4y6jh0wlbi8xrg5syjaybhxs4karwshh1919ajzjs0f8ql";
+          url = "https://elpa.nongnu.org/nongnu/dracula-theme-1.8.2.tar";
+          sha256 = "17szqyl63nn66sxdz403kcd2diif5afvgv6abgqkw6x01bsr11i0";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2556,10 +2558,10 @@
       elpaBuild {
         pname = "projectile";
         ename = "projectile";
-        version = "2.7.0";
+        version = "2.8.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/projectile-2.7.0.tar";
-          sha256 = "1ibxsa1lv9aiplkfplamyn2wc2c6vfwfszyaicfx79aq2w9427bg";
+          url = "https://elpa.nongnu.org/nongnu/projectile-2.8.0.tar";
+          sha256 = "0j3zd1i6c0vinizg6ini0wqgkczqm48g7m5ihp1njq34c6pgpx7y";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2694,10 +2696,10 @@
       elpaBuild {
         pname = "rfc-mode";
         ename = "rfc-mode";
-        version = "1.4.0";
+        version = "1.4.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/rfc-mode-1.4.0.tar";
-          sha256 = "0036ypsjm35x8vwrlm346wcqmh85kbjmw0813q65z6k0gvmnwldj";
+          url = "https://elpa.nongnu.org/nongnu/rfc-mode-1.4.2.tar";
+          sha256 = "1b2n52qn7s0zc2xxi45xp9zvlws963l3b45v9q0r1yr8mpbvcb9l";
         };
         packageRequires = [ emacs ];
         meta = {
