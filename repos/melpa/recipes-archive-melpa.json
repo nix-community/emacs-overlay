@@ -7983,20 +7983,20 @@
   "repo": "liuyinz/binky.el",
   "unstable": {
    "version": [
-    20231008,
-    2014
+    20231014,
+    1153
    ],
-   "commit": "98e4922fe5038ac5fe61cdc624ec07c60680923a",
-   "sha256": "094kf775gjs31cn15l75zbmrx8vzj5y7vkrjpjnrvinrq11v34qr"
+   "commit": "cf13825dc2f8510c18910f54495eaefaf318d6d0",
+   "sha256": "0w3wddlkgp3zv1j9wal0j583vrdavhs9qzhy663g5w9zyh5g9w5g"
   },
   "stable": {
    "version": [
     1,
     3,
-    2
+    3
    ],
-   "commit": "ba06421b4224e212b26fd18e8b2269a900fc8cc9",
-   "sha256": "054qk7n11v5bzqr9m5z4n1wlg7px0p8n2d7v4jkpnvmlls3ydf4b"
+   "commit": "cf13825dc2f8510c18910f54495eaefaf318d6d0",
+   "sha256": "0w3wddlkgp3zv1j9wal0j583vrdavhs9qzhy663g5w9zyh5g9w5g"
   }
  },
  {
@@ -11695,15 +11695,15 @@
   "repo": "plandes/cframe",
   "unstable": {
    "version": [
-    20201222,
-    1930
+    20231014,
+    1347
    ],
    "deps": [
     "buffer-manage",
     "dash"
    ],
-   "commit": "38544521e82befc06e397123a118dd96dda2c6b6",
-   "sha256": "04bgmh4rknfkfash1igav55hflkkrnkchbph6z61w36dqam06381"
+   "commit": "054f4f8f69a56cce3f834daa9ecf9d13bc348055",
+   "sha256": "00msjrhyr9qsgpd5i8xas98dx47q1fjvw5dqk2b78rmdavvwcjyj"
   },
   "stable": {
    "version": [
@@ -28925,14 +28925,14 @@
   "repo": "davidshepherd7/electric-operator",
   "unstable": {
    "version": [
-    20230828,
-    801
+    20231014,
+    1107
    ],
    "deps": [
     "dash"
    ],
-   "commit": "cb21b85b43255f9c1681995e7e36912e7f4e17b3",
-   "sha256": "1sfvgkni8xxm5zpvay125h93vmrgmjpsi2a97w2pc53v5614p6vh"
+   "commit": "18e555a5cdfd7264c179f810d7fd4c71a80b715a",
+   "sha256": "1r5g2n4lzns65lil9291jhxzwm3q4s1z99zhmyj9nmnxl3mf7aax"
   },
   "stable": {
    "version": [
@@ -44269,11 +44269,14 @@
   "repo": "larsbrinkhoff/forth-mode",
   "unstable": {
    "version": [
-    20220629,
-    519
+    20231014,
+    1018
    ],
-   "commit": "162b79f005a64b1f91e60b8f4c022d1d90cd3d95",
-   "sha256": "09x4ghfk1wri7awfmhk5l2xgidx590g979n5qk16ydk6f87nlxw0"
+   "deps": [
+    "cl-lib"
+   ],
+   "commit": "3ef319bf2da443cf9f999f42bf854160b32448a0",
+   "sha256": "19mygn1vns1di6l76gj43iffd8bn4wq5gwgyh501sv237knc031z"
   }
  },
  {
@@ -74103,14 +74106,14 @@
    "version": [
     1,
     0,
-    9
+    10
    ],
    "deps": [
     "persist",
     "request"
    ],
-   "commit": "2cb0a5012af337dd99663d0a3cbbebd332009633",
-   "sha256": "15b8ch9hwqpia4ajjchiawvq9yvza3i5slaq7zg4wmdl9s4dy0f7"
+   "commit": "dc6f827bcbf06e1f942318eeec4e58334beea3c0",
+   "sha256": "1qcpcjv1kc65xdcs2a0wlbkd2661jffs67i9axvp6xykirznd86j"
   }
  },
  {
@@ -90005,13 +90008,13 @@
   "unstable": {
    "version": [
     20231014,
-    530
+    1337
    ],
    "deps": [
     "compat"
    ],
-   "commit": "1957cf75127471bce0ebe91b5afdf566d5bec033",
-   "sha256": "1y0zkfc27pnhz5hqpapsqin2kc6al1zjgd6cd4nhzqmh49h81bsb"
+   "commit": "cccaf20de935b265832a6fc5c6a25eceb175d23c",
+   "sha256": "0bva1n1ij1xw8wdwhqs1258ihk7lw8f6ppbadw9s1ixq8fqja75l"
   },
   "stable": {
    "version": [
@@ -110219,15 +110222,15 @@
   "repo": "SpringHan/sniem",
   "unstable": {
    "version": [
-    20231008,
-    1143
+    20231014,
+    840
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "fd8782c8aac6daceab2509ddada2a6c0663cba58",
-   "sha256": "1ykha269f69mqqii90hnd9bnpy4m1gzy6h0pacpfn4wjpgbb45sw"
+   "commit": "cb873bec35a63bb4461ff831ded65d1525145abd",
+   "sha256": "1n2lqyn5ai3c9lpqw38r41lwl8n2j8qvxwb6xrs8jgm68j0fxb87"
   }
  },
  {
@@ -114681,14 +114684,14 @@
   "repo": "mclear-tools/tabspaces",
   "unstable": {
    "version": [
-    20230913,
-    1408
+    20231014,
+    1529
    ],
    "deps": [
     "project"
    ],
-   "commit": "4e4f3ac2deb375cfef9be5f67511442a518ebe63",
-   "sha256": "1xx6rx627hc8dwlaqlpy6db00s6w74mys2iy62hg0avf7mxjnb2k"
+   "commit": "a11882e3aa5caf2c86af48d66e067fc32884c432",
+   "sha256": "15zwcbd9kw2fcrgfdbgwcxzgh7hjrbhb6mmyy0gcmjnb1qvqzmy6"
   }
  },
  {
@@ -117203,11 +117206,11 @@
   "repo": "topikettunen/tok-theme",
   "unstable": {
    "version": [
-    20231013,
-    1919
+    20231014,
+    1309
    ],
-   "commit": "adf00c7fa7dd183a80f4ed2bdf4b7bb5c1f91615",
-   "sha256": "0vb5i84rldw1bca5j4gmxzsv3vjm6qipv85669kj5ja27q9hxw8a"
+   "commit": "b0093c3f670bd287f6b0afc07f82e5a5d02f8f6e",
+   "sha256": "0r9lfimj9831gpy41yv92cb6s6bjpjhk5ng1rcamljq5irv7sjk3"
   }
  },
  {
@@ -123537,11 +123540,11 @@
   "repo": "mauroaranda/emacs-webdriver",
   "unstable": {
    "version": [
-    20231013,
-    1308
+    20231014,
+    1319
    ],
-   "commit": "1c598fefbc2310c4add920c1da9f0c5bc1018372",
-   "sha256": "1g4c2y9k86wbfqssixcbi9lqviya40jcf7gm56da95l900qw3i1r"
+   "commit": "daaeb212aca1cd4a063152d99f8c857eb23c9382",
+   "sha256": "09lgfpdmn63vizyg994mnand89nhnpcj4rsbxx7v2wpi3vyhxjg8"
   }
  },
  {
