@@ -3863,10 +3863,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.13";
+        version = "0.14";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/osm-0.13.tar";
-          sha256 = "13bdp8cz1w396vdfxvv8ygla7cbln178rjliknhfl3kqggg32kqx";
+          url = "https://elpa.gnu.org/packages/osm-0.14.tar";
+          sha256 = "03zzdz7l76006x5540121ckbyd5gm10x30k9r43dlj7myd359i90";
         };
         packageRequires = [ compat emacs ];
         meta = {
