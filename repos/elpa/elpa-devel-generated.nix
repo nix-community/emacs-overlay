@@ -1055,10 +1055,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20231012.170750";
+        version = "0.38.0.20231013.185720";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231012.170750.tar";
-          sha256 = "0w6nhgdkhbc1vcc614y7hvfhf8i4la3snl6ankyrd4y4a0sgwyxm";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231013.185720.tar";
+          sha256 = "0573w5zgkchk5kkj2wb7sl1qrp88k99v44jv0cddrrn35r77hrpx";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1320,10 +1320,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231013.51039";
+        version = "2.0.0.0.20231013.104303";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231013.51039.tar";
-          sha256 = "190ngixivbhqd1d5kjad4vy94drl12ya9vpfxmxhkpl506b9vfdx";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231013.104303.tar";
+          sha256 = "1k8ankp18g99dya9f46b7ylhzjcmbqdlhljjfisl56dxqpmzkg8s";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2040,10 +2040,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20231010.193740";
+        version = "5.6snapshot0.20231013.74701";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231010.193740.tar";
-          sha256 = "005vs7balh3hwplinzmy0ippg055yd0mf1acsab94ck18q4kjfsb";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231013.74701.tar";
+          sha256 = "1309r04cnj2wsy482sjfws27azc6mwcr0nwwj8fh1shzjhmkv720";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4104,10 +4104,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231012.143454";
+        version = "9.7pre0.20231013.123439";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231012.143454.tar";
-          sha256 = "0vf4nxb76l6cixw1fs8qng8yws5n4mi4skr9swzl75hsl747f8s7";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231013.123439.tar";
+          sha256 = "0b0qngacglp3mx4cmr2h44vr4cxgp87qn06fh9ii1lrn2phq003b";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6575,10 +6575,10 @@
       elpaBuild {
         pname = "verilog-mode";
         ename = "verilog-mode";
-        version = "2023.6.6.141322628.0.20230606.214619";
+        version = "2023.6.6.141322628.0.20231013.132356";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/verilog-mode-2023.6.6.141322628.0.20230606.214619.tar";
-          sha256 = "1gm5p32kcg9nisbic5pfnbyy5hmj598s6wma285x8hpd0fhypgn5";
+          url = "https://elpa.gnu.org/devel/verilog-mode-2023.6.6.141322628.0.20231013.132356.tar";
+          sha256 = "024gy1wjf1m6ip9pzs0373vrvci8dqxp6hyqv5j1s9imb1j5ps63";
         };
         packageRequires = [];
         meta = {
