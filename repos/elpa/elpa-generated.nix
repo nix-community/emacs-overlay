@@ -2829,10 +2829,10 @@
       elpaBuild {
         pname = "jumpc";
         ename = "jumpc";
-        version = "3.0";
+        version = "3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jumpc-3.0.el";
-          sha256 = "1vhggw3mzaq33al8f16jbg5qq5f95s8365is9qqyb8yq77gqym6a";
+          url = "https://elpa.gnu.org/packages/jumpc-3.1.tar";
+          sha256 = "04wqajw4i7sslsw8cwqbw30kbwwf9qlqxjm17v0bsxh5sp27y1jc";
         };
         packageRequires = [];
         meta = {
@@ -3604,6 +3604,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    ob-asymptote = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "ob-asymptote";
+        ename = "ob-asymptote";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/ob-asymptote-1.0.tar";
+          sha256 = "0m9i21zailg7drglm19v9ysyigzvz3p2r3q069a3n04di56d4629";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/ob-asymptote.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     ob-haxe = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "ob-haxe";
@@ -4073,10 +4088,10 @@
       elpaBuild {
         pname = "poke-mode";
         ename = "poke-mode";
-        version = "3.0";
+        version = "3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/poke-mode-3.0.tar";
-          sha256 = "0xw50x3fx3ai3rsykh371hwlgkmyx4h37ps2583l69f7id7h2103";
+          url = "https://elpa.gnu.org/packages/poke-mode-3.1.tar";
+          sha256 = "1lirhws5d8l16qs5ddrvvz0f9xfl004q9yp333pdgsmcpk3ww7sr";
         };
         packageRequires = [];
         meta = {
@@ -5517,10 +5532,10 @@
       elpaBuild {
         pname = "trie";
         ename = "trie";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/trie-0.5.tar";
-          sha256 = "1qbzxw7h3p3k3r3fzq66pj223vjiw20dvaljkb8w3r5q16fnav3p";
+          url = "https://elpa.gnu.org/packages/trie-0.6.tar";
+          sha256 = "0vh0cizpbdiaq0y018rkrzjyv6lq0jwv9pwlvggbjfsz34kd10a4";
         };
         packageRequires = [ heap tNFA ];
         meta = {

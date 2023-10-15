@@ -912,10 +912,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231013.234730";
+        version = "0.10.2.0.20231015.12245";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231013.234730.tar";
-          sha256 = "10h2f51ry3cjhqvlynnysaadbf2nr060m31xdgdkqdf1l435zlim";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231015.12245.tar";
+          sha256 = "1812ljpgxkqx555k47skdm59pvsvxmzdz8wqqw4fliwgqmivszwq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1320,10 +1320,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231014.60747";
+        version = "2.0.0.0.20231015.63434";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231014.60747.tar";
-          sha256 = "0bwn68vgd0w30kfa54iwfjqyrbvv7qkb44y87jwfb6ccxv1nr93b";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231015.63434.tar";
+          sha256 = "0bygg9wadwr383vb6kb7a750gnl18fl37wl2gxlq2p1vrkwvnkcz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3166,10 +3166,10 @@
       elpaBuild {
         pname = "jumpc";
         ename = "jumpc";
-        version = "3.0.0.20221221.80412";
+        version = "3.1.0.20231015.14814";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jumpc-3.0.0.20221221.80412.tar";
-          sha256 = "17phcxzqf2drxjmg19iyn9r8mlrzbj26c834p76p9887k05xcjyg";
+          url = "https://elpa.gnu.org/devel/jumpc-3.1.0.20231015.14814.tar";
+          sha256 = "04qd2n7lsfcxw0j3h27dfp6gkjzlgp6562gwydmqbwfrd87a7qdd";
         };
         packageRequires = [];
         meta = {
@@ -4001,6 +4001,23 @@
           license = lib.licenses.free;
         };
       }) {};
+    ob-asymptote = callPackage ({ elpaBuild
+                                , fetchurl
+                                , lib }:
+      elpaBuild {
+        pname = "ob-asymptote";
+        ename = "ob-asymptote";
+        version = "1.0.0.20230908.121002";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/ob-asymptote-1.0.0.20230908.121002.tar";
+          sha256 = "0gldqmldbwa1rsfyzv9h1sl8za6i0k9j3lkar5capl5qs1c0lib1";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/ob-asymptote.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     ob-haxe = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "ob-haxe";
@@ -4563,10 +4580,10 @@
       elpaBuild {
         pname = "poke-mode";
         ename = "poke-mode";
-        version = "3.0.0.20230312.110305";
+        version = "3.1.0.20231014.222558";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/poke-mode-3.0.0.20230312.110305.tar";
-          sha256 = "0zm1kgvf8qypzjg2c256s0lhp3idybl0dzwszaa1yjpv7hs792ky";
+          url = "https://elpa.gnu.org/devel/poke-mode-3.1.0.20231014.222558.tar";
+          sha256 = "0n73viyn9wia6qpbjilipf69lrmv11avznpbl6cmry3rryzdyn38";
         };
         packageRequires = [];
         meta = {
@@ -6230,10 +6247,10 @@
       elpaBuild {
         pname = "trie";
         ename = "trie";
-        version = "0.5.0.20201214.113408";
+        version = "0.6.0.20231015.13107";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/trie-0.5.0.20201214.113408.tar";
-          sha256 = "0z7nagf0fyd0qi4fnc04b2dp03xiwaw97c8lrqd6ii2vvnbxiw84";
+          url = "https://elpa.gnu.org/devel/trie-0.6.0.20231015.13107.tar";
+          sha256 = "00qghzzm9584vigfijkgghbnn9yqnlqddqv8khbn5k13zbrslbcv";
         };
         packageRequires = [ heap tNFA ];
         meta = {
@@ -6590,10 +6607,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20230930.192253";
+        version = "1.4.0.20231014.223443";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20230930.192253.tar";
-          sha256 = "142nf7n538jril2c0m643vd6dlkpcmznm4p06x7w3lp35334w8xk";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20231014.223443.tar";
+          sha256 = "0b6cd5ly0h7l35f1bn1iylnyqn8qpys67fh41izqn041fvg4pbqh";
         };
         packageRequires = [ compat emacs ];
         meta = {
