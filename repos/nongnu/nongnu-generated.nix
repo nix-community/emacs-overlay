@@ -1660,16 +1660,17 @@
                               , lib
                               , map
                               , persist
-                              , plz }:
+                              , plz
+                              , transient }:
       elpaBuild {
         pname = "hyperdrive";
         ename = "hyperdrive";
-        version = "0.1.0";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/hyperdrive-0.1.0.tar";
-          sha256 = "1dawm6wxwik7jks0xc2ina2nikdg9x4cnnws4srcf15vwh40van4";
+          url = "https://elpa.nongnu.org/nongnu/hyperdrive-0.2.tar";
+          sha256 = "1cvsl7caprdms83mvhlv3crk4ylka1g0swg0klqld04hayzikq0z";
         };
-        packageRequires = [ compat emacs map persist plz ];
+        packageRequires = [ compat emacs map persist plz transient ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/hyperdrive.html";
           license = lib.licenses.free;
