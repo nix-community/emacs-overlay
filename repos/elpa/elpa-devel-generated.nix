@@ -3328,10 +3328,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.3.0.0.20231011.214557";
+        version = "0.4.0.0.20231014.154208";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.3.0.0.20231011.214557.tar";
-          sha256 = "1plzgw9k7as9cyqvg4adq3nipaq310y5p7ix3b3f7p3xhfizz191";
+          url = "https://elpa.gnu.org/devel/llm-0.4.0.0.20231014.154208.tar";
+          sha256 = "1ns0dcnh7v8aqm0bzbilkpsw6jg2xhaa8xy4skjb7kvyn3pgsaif";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3945,10 +3945,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "1.0.1.0.20231014.75027";
+        version = "1.1.0.0.20231014.82644";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.0.1.0.20231014.75027.tar";
-          sha256 = "0ar1yvhkbn9mznpx42f4aa0yis704zykkxcp97zdkvdn7kplgb8j";
+          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.1.0.0.20231014.82644.tar";
+          sha256 = "0ami3zpjjq7q191cylw44q72yspxd6i8gximgm4kqb0mplk4dd1w";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4104,10 +4104,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231013.123439";
+        version = "9.7pre0.20231014.90934";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231013.123439.tar";
-          sha256 = "0b0qngacglp3mx4cmr2h44vr4cxgp87qn06fh9ii1lrn2phq003b";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231014.90934.tar";
+          sha256 = "0568awddmb9g3v315jy4y56ij8dx1x6jcq3a4fqvgi05a4vanwfw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4302,10 +4302,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.14.0.20231014.53000";
+        version = "0.14.0.20231014.133720";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/osm-0.14.0.20231014.53000.tar";
-          sha256 = "0ymxzbwmbqrfldkx5yh1nn6i4mqmkh2qkazriaz3hzzjsfvdhld7";
+          url = "https://elpa.gnu.org/devel/osm-0.14.0.20231014.133720.tar";
+          sha256 = "1zfjn4p30f5d6j3mwgc7asvb2p4jfl16svq98mx0q1n270bgs098";
         };
         packageRequires = [ compat emacs ];
         meta = {

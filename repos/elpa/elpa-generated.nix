@@ -2984,10 +2984,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.3.0";
+        version = "0.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/llm-0.3.0.tar";
-          sha256 = "04qvfr0kkhvh384yz18r7l31qwvm4c10habl3ds017kpckncwdv4";
+          url = "https://elpa.gnu.org/packages/llm-0.4.0.tar";
+          sha256 = "0jq1q9gmm3nbdsycca2qkjpf04qpp9j615z6l41plmfv7bc0p0x6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3548,10 +3548,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "1.0.1";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/notmuch-indicator-1.0.1.tar";
-          sha256 = "1n5k2ikk93mdwqqysf6l7gd8i6iazk8yvbqpf8xnz5zny248cc2x";
+          url = "https://elpa.gnu.org/packages/notmuch-indicator-1.1.0.tar";
+          sha256 = "0k5csfrs8y1r6g7hs2y0961jpx0ih090kb6rkijljny2qhfj0573";
         };
         packageRequires = [ emacs ];
         meta = {
