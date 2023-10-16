@@ -361,10 +361,10 @@
       elpaBuild {
         pname = "cider";
         ename = "cider";
-        version = "1.8.0";
+        version = "1.8.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/cider-1.8.0.tar";
-          sha256 = "1zlpncfwmwvd524l2q9ga174709lnd420aff5vilyv7k4a4jdhp7";
+          url = "https://elpa.nongnu.org/nongnu/cider-1.8.2.tar";
+          sha256 = "1b0qnchrgz3f1vq1glw2k0y1bshla6ah0fpzwjk1fpm8w3njp0mk";
         };
         packageRequires = [
           clojure-mode
@@ -1994,10 +1994,10 @@
       elpaBuild {
         pname = "mastodon";
         ename = "mastodon";
-        version = "1.0.9";
+        version = "1.0.11";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.9.tar";
-          sha256 = "0k72j6jfjrx7xrkri4ihgq1lwhv9mk1mdwdnsn1wmpscg3qvl088";
+          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.11.tar";
+          sha256 = "0d14lsq45b6mi7addizkkzmla6ffwdbgsjms3lxwb1a7h4k3basc";
         };
         packageRequires = [ emacs persist request ];
         meta = {
@@ -2986,10 +2986,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.2.4";
+        version = "1.2.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.2.4.tar";
-          sha256 = "05pnjdrf9gq32bayvbd0yvp1lxpwj2xsarcy3s2jjb6zcgm6djyb";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.2.5.tar";
+          sha256 = "0qaliyn79zkpy3ppqb0s61i5hfbbcj8climj7x9c6vpq86s57mv1";
         };
         packageRequires = [ emacs ];
         meta = {
