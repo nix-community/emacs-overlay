@@ -1218,16 +1218,22 @@
           license = lib.licenses.free;
         };
       }) {};
-    dict-tree = callPackage ({ elpaBuild, fetchurl, heap, lib, tNFA, trie }:
+    dict-tree = callPackage ({ elpaBuild
+                             , emacs
+                             , fetchurl
+                             , heap
+                             , lib
+                             , tNFA
+                             , trie }:
       elpaBuild {
         pname = "dict-tree";
         ename = "dict-tree";
-        version = "0.16";
+        version = "0.17";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dict-tree-0.16.tar";
-          sha256 = "1myf26g3jjk2v8yp3k2n8m45vi20452wd7w2bja8csfkk0qx3300";
+          url = "https://elpa.gnu.org/packages/dict-tree-0.17.tar";
+          sha256 = "0f9vj6kr8q9mfd522svwy3wmzsl5lc4y2p8ggwmckn88dpz79w02";
         };
-        packageRequires = [ heap tNFA trie ];
+        packageRequires = [ emacs heap tNFA trie ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/dict-tree.html";
           license = lib.licenses.free;
