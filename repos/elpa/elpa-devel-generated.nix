@@ -905,14 +905,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    company = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    company = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231016.343";
+        version = "0.10.2.0.20231016.232437";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231016.343.tar";
-          sha256 = "0l96l3xl8nblk2d4r0x9aaxvppcc87skzy93cs488l999yr0cyjh";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231016.232437.tar";
+          sha256 = "16q3wlc1df8rlg67yihn33sshhg0c7lyvsajawf9xq92wqf2f5ik";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1317,10 +1320,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231016.120819";
+        version = "2.0.0.0.20231017.64333";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231016.120819.tar";
-          sha256 = "0zr616wk7qsvmx6m2i23znzmim1mm9l2w9bx195vmdqpajrqf4y1";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231017.64333.tar";
+          sha256 = "0s6gxb5ydnd32ca2vz0ijsw4h5yn2sniw14i6hc485cp673nig8w";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4696,10 +4699,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.10.0.0.20231011.62728";
+        version = "0.10.0.0.20231016.232802";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231011.62728.tar";
-          sha256 = "14mg4r2ny6ibydcgag1piar81zjg1n1ynczpi2wx5l945in3wmsq";
+          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231016.232802.tar";
+          sha256 = "03yaar8hzbyfkqbz56r8rb96y0nk2vxv5zlb7wsqsmv9r2vnkkma";
         };
         packageRequires = [ emacs xref ];
         meta = {
@@ -6688,16 +6691,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    vlf = callPackage ({ elpaBuild, fetchurl, lib }:
+    vlf = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "vlf";
         ename = "vlf";
-        version = "1.7.2.0.20201128.5141";
+        version = "1.7.2.0.20231016.224412";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vlf-1.7.2.0.20201128.5141.tar";
-          sha256 = "12m43ykq92hfnq91z27sabzj7gbjpl624k7acpg641909hm5nq1b";
+          url = "https://elpa.gnu.org/devel/vlf-1.7.2.0.20231016.224412.tar";
+          sha256 = "01r9li0pqypm37j0qh0aj29xvljvbcngsws0cc8bi1f8s9zlrnmw";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/vlf.html";
           license = lib.licenses.free;
