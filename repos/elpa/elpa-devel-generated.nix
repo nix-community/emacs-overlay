@@ -1317,10 +1317,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231016.52917";
+        version = "2.0.0.0.20231016.120819";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231016.52917.tar";
-          sha256 = "1n2khsdq2ps0yz3galmn42vz1v0l4a1zcvxrfl1izmr65g10y5dq";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231016.120819.tar";
+          sha256 = "0zr616wk7qsvmx6m2i23znzmim1mm9l2w9bx195vmdqpajrqf4y1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3079,10 +3079,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.9.0.20231015.170125";
+        version = "0.9.0.20231016.133850";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20231015.170125.tar";
-          sha256 = "0jjggahj2fqmvhdfgp3knxpxmh26fm4vj7hb1q60xvw55aq65y49";
+          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20231016.133850.tar";
+          sha256 = "1qg8hn3nnw2qzcyqg53drkaay82g42gicm9kicjplwlcmfhasp7n";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4120,10 +4120,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231016.73414";
+        version = "9.7pre0.20231016.130505";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231016.73414.tar";
-          sha256 = "10rwinl3xzkqkc0bizxx1ljyy2qnjdgf2vpnhdzw3fi3xbyfy49v";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231016.130505.tar";
+          sha256 = "0inh9g4h4sc326g5pli5y8hkfshz7igknzm6dqfi288gbdvk1ja8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4196,10 +4196,10 @@
       elpaBuild {
         pname = "org-notify";
         ename = "org-notify";
-        version = "0.1.0.0.20221102.174044";
+        version = "0.1.1.0.20231016.93952";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-notify-0.1.0.0.20221102.174044.tar";
-          sha256 = "1jp3d7f63jkqhamihc7x1pmcj0k2bg1y8hp4akjdv5sfwxm2gr9q";
+          url = "https://elpa.gnu.org/devel/org-notify-0.1.1.0.20231016.93952.tar";
+          sha256 = "1bf7q55c63rxwsbbiyqb1z33jbhx04qi6qxx6jnfva6fz0v63ag2";
         };
         packageRequires = [ emacs ];
         meta = {

@@ -3779,10 +3779,10 @@
       elpaBuild {
         pname = "org-notify";
         ename = "org-notify";
-        version = "0.1.0";
+        version = "0.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-notify-0.1.0.tar";
-          sha256 = "1ijwlv8493g19cascv7fl23sjljvdcak6pg4y1wbs595mmsmh409";
+          url = "https://elpa.gnu.org/packages/org-notify-0.1.1.tar";
+          sha256 = "0y0zj7sri7m0q3nibwv0m1snkwhma403hbxpcd346xk3s3ljiz2k";
         };
         packageRequires = [ emacs ];
         meta = {
