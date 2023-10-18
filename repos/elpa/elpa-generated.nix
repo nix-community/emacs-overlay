@@ -6300,10 +6300,10 @@
       elpaBuild {
         pname = "zones";
         ename = "zones";
-        version = "2019.7.13";
+        version = "2023.6.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/zones-2019.7.13.el";
-          sha256 = "0qp1ba2pkqx9d35g7z8hf8qs2k455krf2a92l4rka3ipsbnmq5k1";
+          url = "https://elpa.gnu.org/packages/zones-2023.6.11.tar";
+          sha256 = "1znz720s9pchc7r9g1mpz9jcnz122bppimmh09g1rn94fh3m6vm3";
         };
         packageRequires = [];
         meta = {

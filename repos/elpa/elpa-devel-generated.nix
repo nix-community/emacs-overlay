@@ -7065,10 +7065,10 @@
       elpaBuild {
         pname = "zones";
         ename = "zones";
-        version = "2019.7.13.0.20221212.231608";
+        version = "2023.6.11.0.20231017.215422";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/zones-2019.7.13.0.20221212.231608.tar";
-          sha256 = "1z7r295c2l1hxpz587szzbyxhig3b9siicwf3j1b31s8csdjzkvl";
+          url = "https://elpa.gnu.org/devel/zones-2023.6.11.0.20231017.215422.tar";
+          sha256 = "1g5sds7k05hwg5a5wynsyaxbqjijxab98b5mqb36k7b26wl21xgm";
         };
         packageRequires = [];
         meta = {
