@@ -1623,21 +1623,6 @@
           license = lib.licenses.free;
         };
       }) {};
-    eldoc-eval = callPackage ({ elpaBuild, fetchurl, lib }:
-      elpaBuild {
-        pname = "eldoc-eval";
-        ename = "eldoc-eval";
-        version = "0.2";
-        src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eldoc-eval-0.2.tar";
-          sha256 = "09g9y1w1dlq3s8sqzczgaj02y53x616ak9w3kynq53pwgaxq14j4";
-        };
-        packageRequires = [];
-        meta = {
-          homepage = "https://elpa.gnu.org/packages/eldoc-eval.html";
-          license = lib.licenses.free;
-        };
-      }) {};
     electric-spacing = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "electric-spacing";

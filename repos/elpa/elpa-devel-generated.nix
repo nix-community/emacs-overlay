@@ -453,14 +453,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    beframe = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    beframe = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "0.3.0.0.20231014.40858";
+        version = "0.3.0.0.20231017.145435";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/beframe-0.3.0.0.20231014.40858.tar";
-          sha256 = "1hfhbzjqrfx4z8a6h1q866jcgd8lyrwg96rgcjal2xamh2pcp2mb";
+          url = "https://elpa.gnu.org/devel/beframe-0.3.0.0.20231017.145435.tar";
+          sha256 = "1fnflpbnnjzfyccq6jcpwsq9byn7jda8mjhjynjk3l27jmzqd2g2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1003,10 +1006,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20231006.142354";
+        version = "0.35.0.20231017.195316";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231006.142354.tar";
-          sha256 = "0lql1p1zr0lry3mgm9q3lflz2k0nh4sik0cfqh2hjmg24rc35bgc";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231017.195316.tar";
+          sha256 = "15yki32brbirgp2rs246ycqafngkpj5v2gj3phyg7vy26ajxk2dn";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1320,10 +1323,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231017.64333";
+        version = "2.0.0.0.20231017.115315";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231017.64333.tar";
-          sha256 = "0s6gxb5ydnd32ca2vz0ijsw4h5yn2sniw14i6hc485cp673nig8w";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231017.115315.tar";
+          sha256 = "10s2p82nfyhsxna6p2fssapymr6jwczvxnvgql7ilcrd8a2b0766";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1825,23 +1828,6 @@
           license = lib.licenses.free;
         };
       }) {};
-    eldoc-eval = callPackage ({ elpaBuild
-                              , fetchurl
-                              , lib }:
-      elpaBuild {
-        pname = "eldoc-eval";
-        ename = "eldoc-eval";
-        version = "0.2.0.20220106.195151";
-        src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eldoc-eval-0.2.0.20220106.195151.tar";
-          sha256 = "0lidijrg9ylwl80dljhkhsqdmrspfz5n3wdvrnibzvhlqyan7vd1";
-        };
-        packageRequires = [];
-        meta = {
-          homepage = "https://elpa.gnu.org/packages/eldoc-eval.html";
-          license = lib.licenses.free;
-        };
-      }) {};
     electric-spacing = callPackage ({ elpaBuild
                                     , fetchurl
                                     , lib }:
@@ -1972,10 +1958,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "16.0.20231002.175546";
+        version = "16.0.20231017.153742";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-16.0.20231002.175546.tar";
-          sha256 = "1cgf931bq4vk6ajbnb84s09j6966zbk7f878rpj6x4dl3mxw5sx3";
+          url = "https://elpa.gnu.org/devel/emms-16.0.20231017.153742.tar";
+          sha256 = "02lvppyraqc66hb4q4smlcpccq3ggvhg6qj3ld66vmjl7gfasw1a";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -4123,10 +4109,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231016.130505";
+        version = "9.7pre0.20231017.100125";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231016.130505.tar";
-          sha256 = "0inh9g4h4sc326g5pli5y8hkfshz7igknzm6dqfi288gbdvk1ja8";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231017.100125.tar";
+          sha256 = "0vdrqhhm25l860wsi7qzxbybxzw7nfn9cx2kd2naqczdm0k273xf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4379,23 +4365,6 @@
         packageRequires = [ async emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/paced.html";
-          license = lib.licenses.free;
-        };
-      }) {};
-    package-fixes = callPackage ({ elpaBuild
-                                 , fetchurl
-                                 , lib }:
-      elpaBuild {
-        pname = "package-fixes";
-        ename = "package-fixes";
-        version = "0.0.20221221.81359";
-        src = fetchurl {
-          url = "https://elpa.gnu.org/devel/package-fixes-0.0.20221221.81359.tar";
-          sha256 = "0n86dq8l2hwknilrx0871w8w4i9hnkndjj6q0yas5gm8jm4w0wfq";
-        };
-        packageRequires = [];
-        meta = {
-          homepage = "https://elpa.gnu.org/packages/package-fixes.html";
           license = lib.licenses.free;
         };
       }) {};
