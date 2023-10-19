@@ -3816,11 +3816,11 @@
   "repo": "radian-software/apheleia",
   "unstable": {
    "version": [
-    20231017,
-    2020
+    20231018,
+    1901
    ],
-   "commit": "51b8a796b666c6ec7f961e5cb2e05c6aa60475f6",
-   "sha256": "0g7v4dj7kwxq6725bwp7a05idhd2safbvr8mg7bxz5cjjf56a098"
+   "commit": "8cccf12df25b08b9b7568ca21c7e9f123b81622e",
+   "sha256": "03y39ahasx7z8mbyy85sp7h8flbazky6kcfz6bjrjnbv15jq03lh"
   },
   "stable": {
    "version": [
@@ -12574,7 +12574,7 @@
    "version": [
     1,
     8,
-    2
+    3
    ],
    "deps": [
     "clojure-mode",
@@ -12585,8 +12585,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "0f689fd5136a00e35999ee2d642de6a1c0726273",
-   "sha256": "0762pm8frwnlx7zx5gfxfx0946cj0jyrm5s93j86734ii6d7fkcv"
+   "commit": "944d6773ac254d9fcac55c05489bff3d91d91402",
+   "sha256": "12505hbyiqlf4m0mhnkf5r1yaa11rqw4786qxzw56641msv8fxfi"
   }
  },
  {
@@ -29874,11 +29874,14 @@
   "repo": "s-kostyaev/ellama",
   "unstable": {
    "version": [
-    20231016,
-    932
+    20231018,
+    2055
    ],
-   "commit": "92d4349bacb3db9d84ccbbf1b5c55dc95b10bc51",
-   "sha256": "12j4sca3ya1368b8vb2wfb7ncm6vl9vk24qdbdabb52wjz321iw0"
+   "deps": [
+    "spinner"
+   ],
+   "commit": "316e982ef656624c16d16d83d70cbfb550034ab9",
+   "sha256": "05qag6asiznfm4qi2wjj5b9k0ip8hd619g5rdq02hb8dyr910gjf"
   }
  },
  {
@@ -42419,11 +42422,11 @@
   "repo": "orzechowskid/flymake-eslint",
   "unstable": {
    "version": [
-    20231011,
-    1349
+    20231018,
+    1900
    ],
-   "commit": "e76071e3d8d941eedd106f13901fa5d904766973",
-   "sha256": "036xvi5xa9sbs7v2ga8qnr8vldfrg6fgrqch4nzbma7ky9nwd5qh"
+   "commit": "e30c9a14e79c7151d92773fcc8c5bf3bcf4a3a6a",
+   "sha256": "0xr455qcnzjbgbnxzy0pk56nwgv48i552ygj00b2i0maifny70ya"
   },
   "stable": {
    "version": [
@@ -62154,28 +62157,28 @@
   "repo": "Sarcasm/irony-mode",
   "unstable": {
    "version": [
-    20230928,
-    826
+    20231018,
+    1915
    ],
    "deps": [
     "cl-lib",
     "json"
    ],
-   "commit": "f23f568cfd1996c7518de57a12748f68c4114e96",
-   "sha256": "1zwmarjy9lzi57m82dw67aj69cn4nscdgp4fm8glx1krk9xh35hp"
+   "commit": "40e0ce19eb850bdf1f77225f11713cc816250d95",
+   "sha256": "1w0rd74kjgda7mjbf853yavppkgzdfyw1a2hgskbqbbjii3mr1zy"
   },
   "stable": {
    "version": [
     1,
     6,
-    0
+    1
    ],
    "deps": [
     "cl-lib",
     "json"
    ],
-   "commit": "f23f568cfd1996c7518de57a12748f68c4114e96",
-   "sha256": "1zwmarjy9lzi57m82dw67aj69cn4nscdgp4fm8glx1krk9xh35hp"
+   "commit": "40e0ce19eb850bdf1f77225f11713cc816250d95",
+   "sha256": "1w0rd74kjgda7mjbf853yavppkgzdfyw1a2hgskbqbbjii3mr1zy"
   }
  },
  {
@@ -67313,11 +67316,11 @@
   "repo": "r0bobo/kubedoc.el",
   "unstable": {
    "version": [
-    20230513,
-    2014
+    20231018,
+    1913
    ],
-   "commit": "c07e356326b6f373694d43369c7110c2873e24cd",
-   "sha256": "1isrss1b79ms8mx9lmmc7mvqpbn6bpcvszbbqdvbp95z3830qbkv"
+   "commit": "e169cb7e7254d0c0f1e7a7eda5e27a0092366e1d",
+   "sha256": "0jw5v17yl06whnms25zfcxcabjfm99khqszbpjpjxkv8lg6kdl38"
   }
  },
  {
@@ -114873,14 +114876,14 @@
   "repo": "mclear-tools/tabspaces",
   "unstable": {
    "version": [
-    20231016,
-    13
+    20231018,
+    1932
    ],
    "deps": [
     "project"
    ],
-   "commit": "823c6b33afacccc728ea2b22c12bf26426724b93",
-   "sha256": "1dvbp610fh66bnjbfrksiimrv93k5p8cwz08shh3yck7p8945qvh"
+   "commit": "a971a63ae4bca93f2faa963d6a71eed413f0e37b",
+   "sha256": "00r7v97ndvs7szcv7yfym3qzi859kryjj2sr2yfkrzygp336v88l"
   }
  },
  {
