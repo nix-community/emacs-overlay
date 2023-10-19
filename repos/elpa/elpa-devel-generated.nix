@@ -1006,10 +1006,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20231017.195316";
+        version = "0.35.0.20231018.145413";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231017.195316.tar";
-          sha256 = "15yki32brbirgp2rs246ycqafngkpj5v2gj3phyg7vy26ajxk2dn";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231018.145413.tar";
+          sha256 = "0qjpmmfz3am3wv90fhrjs2vc7rys5p7z09yy5pns0srmmd9y9y1x";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1773,10 +1773,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20230924.70443";
+        version = "1.15.0.20231018.73757";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20230924.70443.tar";
-          sha256 = "0ca1gj77xwdvskm13wxan5xaq8x9f28y75pyhzq5akq8hcyim3vw";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20231018.73757.tar";
+          sha256 = "0iwrsf331fpxa3knb8bmv38im6yp124ikd2m0n1vf8l4n5f2kksq";
         };
         packageRequires = [
           eldoc
@@ -4109,10 +4109,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231017.100125";
+        version = "9.7pre0.20231018.104749";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231017.100125.tar";
-          sha256 = "0vdrqhhm25l860wsi7qzxbybxzw7nfn9cx2kd2naqczdm0k273xf";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231018.104749.tar";
+          sha256 = "1h1396mp28ysq1gyfbp57b6pngg8b8fqlxzh09z4ga6260wrknhn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7065,10 +7065,10 @@
       elpaBuild {
         pname = "zones";
         ename = "zones";
-        version = "2023.6.11.0.20231017.215422";
+        version = "2023.6.11.0.20231018.110342";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/zones-2023.6.11.0.20231017.215422.tar";
-          sha256 = "1g5sds7k05hwg5a5wynsyaxbqjijxab98b5mqb36k7b26wl21xgm";
+          url = "https://elpa.gnu.org/devel/zones-2023.6.11.0.20231018.110342.tar";
+          sha256 = "1hd4jlmy50050d1pr1r7civwv908ildpywr2525znhhh9nd29b9p";
         };
         packageRequires = [];
         meta = {
