@@ -385,10 +385,10 @@
       elpaBuild {
         pname = "clojure-mode";
         ename = "clojure-mode";
-        version = "5.17.1";
+        version = "5.18.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/clojure-mode-5.17.1.tar";
-          sha256 = "0fcn4d4h8p9w500969i034lhgf2q75l96isfryjhgxzfcsfs5yzl";
+          url = "https://elpa.nongnu.org/nongnu/clojure-mode-5.18.0.tar";
+          sha256 = "1wh1r3kdjya7aqnnm6ask9q93pxm7h6ff4b7p6lrhwg4iyn2njss";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -667,10 +667,10 @@
       elpaBuild {
         pname = "eat";
         ename = "eat";
-        version = "0.9.2";
+        version = "0.9.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/eat-0.9.2.tar";
-          sha256 = "0b9b6w8i79sq6h5ykq84665916m1ss4d4blr3842b2wyhnk6f805";
+          url = "https://elpa.nongnu.org/nongnu/eat-0.9.3.tar";
+          sha256 = "1dck6vvyn1y94z18p1b0kh3x4i587x8x5pk5bin56vwpkw05s40d";
         };
         packageRequires = [ compat emacs ];
         meta = {
