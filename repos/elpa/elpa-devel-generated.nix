@@ -2027,10 +2027,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20231013.74701";
+        version = "5.6snapshot0.20231020.152406";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231013.74701.tar";
-          sha256 = "1309r04cnj2wsy482sjfws27azc6mwcr0nwwj8fh1shzjhmkv720";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231020.152406.tar";
+          sha256 = "18h6jkp051mmixrnfgqnkh0c21qfnpaxzhjnsxxaknp3v17rvm5d";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4880,10 +4880,10 @@
       elpaBuild {
         pname = "realgud";
         ename = "realgud";
-        version = "1.5.1.0.20230927.191126";
+        version = "1.5.1.0.20231020.222710";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/realgud-1.5.1.0.20230927.191126.tar";
-          sha256 = "0jpzp5ld2ccw2jj074igzl995w25cmd8hd9kab5ifml4vsz38ar5";
+          url = "https://elpa.gnu.org/devel/realgud-1.5.1.0.20231020.222710.tar";
+          sha256 = "0lmq7x7x8cm6y8vp2gin1h6h7chkflj5fyzls4b61rh15yg8m1h0";
         };
         packageRequires = [ emacs load-relative loc-changes test-simple ];
         meta = {
