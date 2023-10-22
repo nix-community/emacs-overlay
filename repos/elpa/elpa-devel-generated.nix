@@ -1773,10 +1773,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20231018.73757";
+        version = "1.15.0.20231021.100531";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20231018.73757.tar";
-          sha256 = "0iwrsf331fpxa3knb8bmv38im6yp124ikd2m0n1vf8l4n5f2kksq";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20231021.100531.tar";
+          sha256 = "0rgf0s76sbmabmv1wvghs2qapl3g23j58ka4ks9dd95nc004b8i6";
         };
         packageRequires = [
           eldoc
@@ -4109,10 +4109,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231020.115225";
+        version = "9.7pre0.20231021.130825";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231020.115225.tar";
-          sha256 = "1hym63yhzqcprabgp1acl50lxl54g9q82j4hrj36z2b1scm93n7n";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231021.130825.tar";
+          sha256 = "1vfgzgd7zwcnv55n7v542zn90irwjwsgn7z8kmxqg5cpyw0r2x06";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5483,14 +5483,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    so-long = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    so-long = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "so-long";
         ename = "so-long";
-        version = "1.1.2.0.20230101.53112";
+        version = "1.1.2.0.20231021.130558";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/so-long-1.1.2.0.20230101.53112.tar";
-          sha256 = "03difjd7hd72a01b97sr30y2wk49nrh4imrlf0vfzgfii96n8k6i";
+          url = "https://elpa.gnu.org/devel/so-long-1.1.2.0.20231021.130558.tar";
+          sha256 = "0mvmb3b7z66qziifqhiny00iih5l9znb6fyn33ga0rvvnsra32n0";
         };
         packageRequires = [ emacs ];
         meta = {
