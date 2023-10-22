@@ -1662,10 +1662,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.8.18.0.20231019.194707";
+        version = "0.8.18.0.20231021.161113";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ebdb-0.8.18.0.20231019.194707.tar";
-          sha256 = "0cdy6f7zgpcgcy6adqp5l6c31gf198pqgbkiv03d93sx8w0ffy65";
+          url = "https://elpa.gnu.org/devel/ebdb-0.8.18.0.20231021.161113.tar";
+          sha256 = "0p6n69qzl3cpnhpyvfzn0pqmh0wjw2mrd4q4dnj4w4p9103g1z62";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -6418,10 +6418,10 @@
       elpaBuild {
         pname = "use-package";
         ename = "use-package";
-        version = "2.4.5.0.20230930.220905";
+        version = "2.4.5.0.20231022.75512";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20230930.220905.tar";
-          sha256 = "0ikid0yigkg9yxjqrfmsyd6a9chhjn0r5jzfrg18r7aibi06vxpp";
+          url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20231022.75512.tar";
+          sha256 = "0cvsqrbamg9nxcjxqiq6avjyk027dxxzskgnvv0drrlsgcvb3yai";
         };
         packageRequires = [ bind-key emacs ];
         meta = {
