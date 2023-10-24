@@ -915,10 +915,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231016.232437";
+        version = "0.10.2.0.20231023.103313";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231016.232437.tar";
-          sha256 = "16q3wlc1df8rlg67yihn33sshhg0c7lyvsajawf9xq92wqf2f5ik";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231023.103313.tar";
+          sha256 = "1zcap5mv6cn9a2j8axg4yw4iprxkwwyjmw7qahijlk02ycwmwwfn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1006,10 +1006,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20231020.193229";
+        version = "0.35.0.20231023.154305";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231020.193229.tar";
-          sha256 = "1k96wpiyyylcmyd7hyi8yv0s5qrzipnkz9jpdwh0j53vy6yd7a7i";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231023.154305.tar";
+          sha256 = "1cx8m0llk76z1kawkqg9dq7aws2i2bsgnhr3xvw7chdwvjywghs6";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4109,10 +4109,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231022.91853";
+        version = "9.7pre0.20231023.112804";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231022.91853.tar";
-          sha256 = "11gsb9k6qz84dnzczhj3iph6mwjb2agfd6q8v8c82bdrw9cxj9hx";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231023.112804.tar";
+          sha256 = "08dlrm2ncsm3s5x0mk50v3y632qhgvz5nfqf6s88sj47lp8mjrq9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6855,10 +6855,10 @@
       elpaBuild {
         pname = "wisi";
         ename = "wisi";
-        version = "4.2.2.0.20230126.2042";
+        version = "4.3.0.0.20231018.92008";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/wisi-4.2.2.0.20230126.2042.tar";
-          sha256 = "0b70yipm6wmz5034f5l7f78c2bgscm2c8lph75jgd5x1qwzngw47";
+          url = "https://elpa.gnu.org/devel/wisi-4.3.0.0.20231018.92008.tar";
+          sha256 = "004wdmg6vz2kmbkpqbn5730pvrvkg8ip35i9zmh1whzqcbxrgc1b";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -6875,10 +6875,10 @@
       elpaBuild {
         pname = "wisitoken-grammar-mode";
         ename = "wisitoken-grammar-mode";
-        version = "1.3.0.0.20230125.102656";
+        version = "1.3.0.0.20231023.83923";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/wisitoken-grammar-mode-1.3.0.0.20230125.102656.tar";
-          sha256 = "1h5pnghxg01f0hgxw7284b4rm5c43r48nbsxj19dcypxrzz3w1qw";
+          url = "https://elpa.gnu.org/devel/wisitoken-grammar-mode-1.3.0.0.20231023.83923.tar";
+          sha256 = "17kgrwm1jr1dxaprgay60jmgg5bfhmyrngzy0qfia6zs7w43bscx";
         };
         packageRequires = [ emacs mmm-mode wisi ];
         meta = {
@@ -6997,10 +6997,10 @@
       elpaBuild {
         pname = "xref";
         ename = "xref";
-        version = "1.6.3.0.20231009.180303";
+        version = "1.6.3.0.20231023.205120";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xref-1.6.3.0.20231009.180303.tar";
-          sha256 = "146bvnaxzfqjbpib8cm7mlq4j2695wh9czwi9lfbx5k8npakjrih";
+          url = "https://elpa.gnu.org/devel/xref-1.6.3.0.20231023.205120.tar";
+          sha256 = "1qszzbnn3pdpy7q7i9ir04dnp15rgkm7xnl73pp3wpvbqjwwgmd3";
         };
         packageRequires = [ emacs ];
         meta = {
