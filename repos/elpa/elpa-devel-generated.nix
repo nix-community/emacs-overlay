@@ -1323,10 +1323,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231024.53803";
+        version = "2.0.0.0.20231025.64729";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231024.53803.tar";
-          sha256 = "0c02qb0j577kjc6hzil2y342zcr56s7kfa45sby5h922qfrm7rf9";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231025.64729.tar";
+          sha256 = "0p2zq76w8c2z8ghrz2q1nrc3j0mhqch2x52x9byjybqnnmagqx36";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3316,10 +3316,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.4.0.0.20231018.234129";
+        version = "0.4.0.0.20231024.203551";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.4.0.0.20231018.234129.tar";
-          sha256 = "1zfqyqga38j319hy85pq7fqmma1x2p716z6zvydrnn0npnfnggry";
+          url = "https://elpa.gnu.org/devel/llm-0.4.0.0.20231024.203551.tar";
+          sha256 = "1f4qyb50da3wa14bkbax6rrqjd33c0z493g2fascb15cdqxq1sc9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6348,10 +6348,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.3.0snapshot0.20231023.212918";
+        version = "0.3.0snapshot0.20231024.215844";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.3.0snapshot0.20231023.212918.tar";
-          sha256 = "0rhyl2b74gmhwpqmrcsgkwpjiixss97zrqnwi01ki885gd1lvbg7";
+          url = "https://elpa.gnu.org/devel/urgrep-0.3.0snapshot0.20231024.215844.tar";
+          sha256 = "1cv3iq35pmby1vw1qq9ngw7acq1cd4yyzqhnlba3pgcp2zxkwj2h";
         };
         packageRequires = [ compat emacs project ];
         meta = {
