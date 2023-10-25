@@ -43,10 +43,10 @@
       elpaBuild {
         pname = "ada-mode";
         ename = "ada-mode";
-        version = "8.0.5.0.20230208.70712";
+        version = "8.1.0.0.20231018.91522";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ada-mode-8.0.5.0.20230208.70712.tar";
-          sha256 = "1957w6fynk345iwhgc4iq7zlda3fi211r7vi5420g761568wp4ca";
+          url = "https://elpa.gnu.org/devel/ada-mode-8.1.0.0.20231018.91522.tar";
+          sha256 = "00ywqyvqvynrskyg0wh2acl6a68f0s2r83w3cmsgxd569phlsrqp";
         };
         packageRequires = [ emacs gnat-compiler uniquify-files wisi ];
         meta = {
@@ -546,10 +546,10 @@
       elpaBuild {
         pname = "boxy";
         ename = "boxy";
-        version = "1.1.3.0.20230408.95238";
+        version = "1.1.3.0.20231024.113314";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/boxy-1.1.3.0.20230408.95238.tar";
-          sha256 = "0hzfrbc20qn9ld51ivkvclphsvc2qqq4ir056d2d9bjxq56zndl6";
+          url = "https://elpa.gnu.org/devel/boxy-1.1.3.0.20231024.113314.tar";
+          sha256 = "1b5dkjic7spzbkj78m03z00gh8a9f8yv1kkyhnr4gks81jdr1gsn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -566,10 +566,10 @@
       elpaBuild {
         pname = "boxy-headings";
         ename = "boxy-headings";
-        version = "2.1.4.0.20221114.84552";
+        version = "2.1.4.0.20231024.114002";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/boxy-headings-2.1.4.0.20221114.84552.tar";
-          sha256 = "1ximn07ri3wga73alglzlfmqly52v2dbr3y1hp6syv5m3mxk248f";
+          url = "https://elpa.gnu.org/devel/boxy-headings-2.1.4.0.20231024.114002.tar";
+          sha256 = "1fan3pdslmwxkdc8lj7svcjllzjqhnhsma1yjpfhi99dv4b8fyns";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
@@ -1884,10 +1884,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.23.0.20231007.130222";
+        version = "0.23.0.20231024.71123";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.23.0.20231007.130222.tar";
-          sha256 = "0q15m0zccz3h9w88y3pbdy7g09yn317pyhf880gqpiwpbprd831b";
+          url = "https://elpa.gnu.org/devel/embark-0.23.0.20231024.71123.tar";
+          sha256 = "0g6c9nc0hycgfyz77xgfbv6xld1naj0kaylxjrmf7vh1d7kfyzaf";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1904,10 +1904,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.8.0.20231007.130222";
+        version = "0.8.0.20231024.71123";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.8.0.20231007.130222.tar";
-          sha256 = "11c5r7j7hi5f91pn4dcx8z3i7p3lhrhqpj8jd6g36mwn3scb9m1b";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.8.0.20231024.71123.tar";
+          sha256 = "114n2c8lsndgs59ylj0i7m522ik1k39i753wb2wk0gh32520cq76";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -4109,10 +4109,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231023.112804";
+        version = "9.7pre0.20231024.104428";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231023.112804.tar";
-          sha256 = "08dlrm2ncsm3s5x0mk50v3y632qhgvz5nfqf6s88sj47lp8mjrq9";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231024.104428.tar";
+          sha256 = "1dhv9vi0wg4458n0y8nd593avby0jbhm3z823cclm9g8ykrq277d";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4205,10 +4205,10 @@
       elpaBuild {
         pname = "org-real";
         ename = "org-real";
-        version = "1.0.6.0.20221114.84409";
+        version = "1.0.7.0.20231024.111108";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-real-1.0.6.0.20221114.84409.tar";
-          sha256 = "1xmix5ldxxkh249fgyqlp31yndl14gz3ylpcsh6l9hmwqagzg20x";
+          url = "https://elpa.gnu.org/devel/org-real-1.0.7.0.20231024.111108.tar";
+          sha256 = "199900lvg5jxfspp1papx0aj88vm6addlyv7zhp8bc2f5a9igg21";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
@@ -6165,16 +6165,17 @@
                              , elpaBuild
                              , emacs
                              , fetchurl
-                             , lib }:
+                             , lib
+                             , seq }:
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.4.3.0.20230919.214625";
+        version = "0.4.3.0.20231024.181508";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.4.3.0.20230919.214625.tar";
-          sha256 = "1b4dlgk6x22mpacd4wiinlh5sjgprhabha7wq7dfcsgv7mqhk5z2";
+          url = "https://elpa.gnu.org/devel/transient-0.4.3.0.20231024.181508.tar";
+          sha256 = "0b092m462gndqlyv8lvfikkdqmly2w5dkbbkn405rbmki2r4bggk";
         };
-        packageRequires = [ compat emacs ];
+        packageRequires = [ compat emacs seq ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/transient.html";
           license = lib.licenses.free;

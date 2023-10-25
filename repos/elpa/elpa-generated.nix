@@ -3779,10 +3779,10 @@
       elpaBuild {
         pname = "org-real";
         ename = "org-real";
-        version = "1.0.6";
+        version = "1.0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-real-1.0.6.tar";
-          sha256 = "1qfzmmv3c1yc14v502x0438pxh2bcwli1r3xmcxibhb7h6p9mr3k";
+          url = "https://elpa.gnu.org/packages/org-real-1.0.7.tar";
+          sha256 = "16isfsaxmgxiqfqx4lcsqlxazxjgxakr0k9pgpam13bqqqkq3cmp";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
