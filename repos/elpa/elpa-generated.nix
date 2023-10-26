@@ -2620,10 +2620,10 @@
       elpaBuild {
         pname = "ivy";
         ename = "ivy";
-        version = "0.14.0";
+        version = "0.14.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ivy-0.14.0.tar";
-          sha256 = "1fzl7xcmxjg005g4676ac3jcshgmcmdr81ywmxvjcs8wj71v56jv";
+          url = "https://elpa.gnu.org/packages/ivy-0.14.2.tar";
+          sha256 = "1zjksh0jvxyqhzgwmh9i26gaip6c04q400xckh730r2gjs287pjj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2635,10 +2635,10 @@
       elpaBuild {
         pname = "ivy-avy";
         ename = "ivy-avy";
-        version = "0.14.0";
+        version = "0.14.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ivy-avy-0.14.0.tar";
-          sha256 = "0gjpvjahhkxsakqrcni78v71fsrh3f0jrs55a4kqc5hv6qyn8hk9";
+          url = "https://elpa.gnu.org/packages/ivy-avy-0.14.2.tar";
+          sha256 = "0vdrfn2i078567lklhxfhzq2cjplfpawyq2rzpdpww0fzz6fi426";
         };
         packageRequires = [ avy emacs ivy ];
         meta = {
@@ -2665,10 +2665,10 @@
       elpaBuild {
         pname = "ivy-hydra";
         ename = "ivy-hydra";
-        version = "0.14.0";
+        version = "0.14.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ivy-hydra-0.14.0.tar";
-          sha256 = "1gsjr2yny9qcj56cb4xy47la11z0lszq0f2qws0yzyh02ng30k1n";
+          url = "https://elpa.gnu.org/packages/ivy-hydra-0.14.2.tar";
+          sha256 = "10qav0rvgc5bnlazjiwnv9dlk6hivl4acif0zq2f0qqgld9nh528";
         };
         packageRequires = [ emacs hydra ivy ];
         meta = {
@@ -2975,10 +2975,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.4.0";
+        version = "0.5.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/llm-0.4.0.tar";
-          sha256 = "0jq1q9gmm3nbdsycca2qkjpf04qpp9j615z6l41plmfv7bc0p0x6";
+          url = "https://elpa.gnu.org/packages/llm-0.5.0.tar";
+          sha256 = "07n32hfzyjzj7vjy5l7rxaldpa4hyjwharkizs2gzz66lg83wix8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5169,10 +5169,10 @@
       elpaBuild {
         pname = "swiper";
         ename = "swiper";
-        version = "0.14.0";
+        version = "0.14.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/swiper-0.14.0.tar";
-          sha256 = "1p2qil6gj4y8y3ydqs8pbxn8j16q9r42nnc2f61c30hws504pkms";
+          url = "https://elpa.gnu.org/packages/swiper-0.14.2.tar";
+          sha256 = "1x6jnc0nrk68kww12gq6w8nss6ny76xz0fgxf57550bbipx9pa8m";
         };
         packageRequires = [ emacs ivy ];
         meta = {
