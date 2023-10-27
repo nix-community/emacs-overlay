@@ -40,10 +40,10 @@
       elpaBuild {
         pname = "ada-mode";
         ename = "ada-mode";
-        version = "8.0.5";
+        version = "8.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ada-mode-8.0.5.tar";
-          sha256 = "00baypl9bv2z42d6z2k531ai25yw2aj1dcv4pi1jhcp19c9kjg4l";
+          url = "https://elpa.gnu.org/packages/ada-mode-8.1.0.tar";
+          sha256 = "1nfqm173gbk6483xgdkmxp5nb8biihq1623058gbl0dfwn0p9njh";
         };
         packageRequires = [ emacs gnat-compiler uniquify-files wisi ];
         meta = {
@@ -952,10 +952,10 @@
       elpaBuild {
         pname = "counsel";
         ename = "counsel";
-        version = "0.14.0";
+        version = "0.14.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/counsel-0.14.0.tar";
-          sha256 = "03n1qk66dcbh9xlnlzpwkb441c2xdpfc7bzx4i2szw0xh4a6g5sj";
+          url = "https://elpa.gnu.org/packages/counsel-0.14.2.tar";
+          sha256 = "13119alyzr2xipk3jra3iawplqkqgvv0gdcm4yd527z592b0s7f0";
         };
         packageRequires = [ emacs ivy swiper ];
         meta = {
@@ -1543,10 +1543,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.3.0";
+        version = "1.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-1.3.0.tar";
-          sha256 = "1cchc1cfp2y32d736r4523gjzvg4rd1nqddxsjsk5kialz06alms";
+          url = "https://elpa.gnu.org/packages/ef-themes-1.4.0.tar";
+          sha256 = "0pp72bi9s7vyxyyy7dc0vql4k6hqzd1gg3a2i4wi09awdak85gi6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2011,10 +2011,10 @@
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.3.6";
+        version = "1.3.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/flymake-1.3.6.tar";
-          sha256 = "1ihv8gh77849rrdc6qpbpjdw7ikr4biaibw6aggv3hzjf508dzi8";
+          url = "https://elpa.gnu.org/packages/flymake-1.3.7.tar";
+          sha256 = "07n72y77q1vqvz1rv36jq1cxdp1brp572plvsi2g6mizif5y531z";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
@@ -2176,10 +2176,10 @@
       elpaBuild {
         pname = "gnat-compiler";
         ename = "gnat-compiler";
-        version = "1.0.2";
+        version = "1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gnat-compiler-1.0.2.tar";
-          sha256 = "1cwjv1ziw5hjnk493vwwg25bnvy98wcryy0c4gknl1xp5qr2qxdg";
+          url = "https://elpa.gnu.org/packages/gnat-compiler-1.0.3.tar";
+          sha256 = "1l5j3br5yrhp3ic0va666ar636hywfd8vssxma3gc858zb9qbzw2";
         };
         packageRequires = [ emacs wisi ];
         meta = {
@@ -2308,10 +2308,10 @@
       elpaBuild {
         pname = "gpr-mode";
         ename = "gpr-mode";
-        version = "1.0.3";
+        version = "1.0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gpr-mode-1.0.3.tar";
-          sha256 = "0m93szqyh9dd73z2pygvacg42n3siiy8pji3yzg1ynji859bc3b8";
+          url = "https://elpa.gnu.org/packages/gpr-mode-1.0.4.tar";
+          sha256 = "1c97m28i6lym07kb05jgssjxj6p9v3v56qrn48xwv55sriqrha4l";
         };
         packageRequires = [ emacs gnat-compiler wisi ];
         meta = {
@@ -2328,10 +2328,10 @@
       elpaBuild {
         pname = "gpr-query";
         ename = "gpr-query";
-        version = "1.0.3";
+        version = "1.0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gpr-query-1.0.3.tar";
-          sha256 = "13h8hl2g55mbaz95k9jfcvz718rv4vli9wccr3rr7cb7yfvn4c5j";
+          url = "https://elpa.gnu.org/packages/gpr-query-1.0.4.tar";
+          sha256 = "0a6wrkjqszqq4d0a1amrp7yx4w2hwjbyy7qxd40k9n1vdp7jbzri";
         };
         packageRequires = [ emacs gnat-compiler wisi ];
         meta = {
@@ -6098,10 +6098,10 @@
       elpaBuild {
         pname = "wisi";
         ename = "wisi";
-        version = "4.2.2";
+        version = "4.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wisi-4.2.2.tar";
-          sha256 = "041np2xssm4iv75wmwds25fwx0p2y3j6ph0j0pxmgcj9p028mbka";
+          url = "https://elpa.gnu.org/packages/wisi-4.3.2.tar";
+          sha256 = "0y3wh0wvxqw7ig2bfrha4zs03993aqcpdp9pald20nady6sqri37";
         };
         packageRequires = [ emacs seq ];
         meta = {
