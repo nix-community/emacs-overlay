@@ -12765,11 +12765,11 @@
   "repo": "guidoschmidt/circadian.el",
   "unstable": {
    "version": [
-    20221223,
-    1734
+    20231027,
+    744
    ],
-   "commit": "9959e4b9d2ed9920b668fc229aab1f5fa5bd8584",
-   "sha256": "1hydxhmcchaprfmp08xr6nlksz6y97jbf4mswj69bgdfjfbf22km"
+   "commit": "b3bb94040080ac18aab04b010752d4984feee37b",
+   "sha256": "062mci931fwaf12cyw0kidavasdkfcd415iiwizdvlb2dmr3qmsk"
   },
   "stable": {
    "version": [
@@ -18007,16 +18007,16 @@
   "repo": "mclear-tools/consult-notes",
   "unstable": {
    "version": [
-    20230706,
-    2018
+    20231027,
+    1436
    ],
    "deps": [
     "consult",
     "dash",
     "s"
    ],
-   "commit": "4d905df3b74a5a46ebf27ce601846e3adc6b8144",
-   "sha256": "17lz4bsp8vv9ksfg4a8d3kz2lz7qdpi81gfc0y4jvd9zllcafhnb"
+   "commit": "eb4c59b8a43c5b74250f92cf8eb05c659efb04d0",
+   "sha256": "01cs1w126r0czqszwrmfjx31drzq9rlmgfqi5swwvvsz1jcgp2pm"
   }
  },
  {
@@ -18175,14 +18175,14 @@
   "repo": "titus.pinta/consult-tex",
   "unstable": {
    "version": [
-    20231012,
-    1121
+    20231027,
+    1150
    ],
    "deps": [
     "consult"
    ],
-   "commit": "81cf7d7e2ef52c01c291c4ec7215020cbce29085",
-   "sha256": "1wb8sfmx0y5xwk2yx5alqspm9ddq9mzxfwwcccw8267kqkm3gs3j"
+   "commit": "a799f1a548e71151b5c0f625c9a532b670c07eb9",
+   "sha256": "143ihhan50nyfqznw6b331ms5776hq187q3k2i0ha8fcqasycxic"
   },
   "stable": {
    "version": [
@@ -59208,8 +59208,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20231026,
-    436
+    20231027,
+    1458
    ],
    "deps": [
     "compat",
@@ -59218,8 +59218,8 @@
     "plz",
     "transient"
    ],
-   "commit": "6d01fbb5c8950217f2d7789df11cfb11e73f0b19",
-   "sha256": "0maxnpb4wvb09pvdbgxbwjagc1vcsssighgpgli1g2r9f8kq365c"
+   "commit": "f37b757087a882d1736af3f06374bf81da940f06",
+   "sha256": "0l7gbqa8q5vkw2ydqgl5indf806shhi37pd2ihcr15g3az7indw3"
   },
   "stable": {
    "version": [
@@ -72517,8 +72517,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20231024,
-    1845
+    20231027,
+    1202
    ],
    "deps": [
     "compat",
@@ -72529,8 +72529,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "51eaa9fbe2c8426d4eeed76752fe55297cc552ea",
-   "sha256": "0dpg4kxfd8whxbm1pk5vcnx3lxixrm2p6szr978p7cp0plagd1wq"
+   "commit": "2ca552e3c4c0086f1097c2c7098888425ec6bdee",
+   "sha256": "0fpifvbnddx61y88ndr3sdx69knj50hvqd5bcapa8r1r3dic64dg"
   },
   "stable": {
    "version": [
@@ -73160,8 +73160,8 @@
   "repo": "alphapapa/magit-todos",
   "unstable": {
    "version": [
-    20230826,
-    1832
+    20231027,
+    1452
    ],
    "deps": [
     "async",
@@ -73173,8 +73173,8 @@
     "s",
     "transient"
    ],
-   "commit": "d85518d45d329cc0b465cc3b84910b7c66b3fc42",
-   "sha256": "1zjlf3bhz0a7r9sa5ic22vwr2w1zxbfk9z545pdd1fvp00c2kzd0"
+   "commit": "a197a04da1620ee7d41f3aa4f846a479760e2273",
+   "sha256": "16xdf60mw6lwklw2p2cv081c728d4qfrazrb36nq8pxxzz56bxas"
   },
   "stable": {
    "version": [
@@ -78067,20 +78067,20 @@
   "repo": "mkcms/mu4e-overview",
   "unstable": {
    "version": [
-    20231021,
-    46
+    20231027,
+    1038
    ],
-   "commit": "18b74e26616f7fe4d2db13d9def4b5a0fa44ddcd",
-   "sha256": "0ly0fcffdb73923hr1m5s1zfl9c7m9wh0khsn1zxj6bw7azjqk6i"
+   "commit": "0e711f47f9bab8bea9fe4f8e857920b879e70dcd",
+   "sha256": "0zh4pi4d74cs9p8ll7fzq8chxk84safvb7svxcss692jjsqvj89y"
   },
   "stable": {
    "version": [
     0,
-    2,
+    3,
     0
    ],
-   "commit": "467a7dfda4e534783469a137545193ded8a66723",
-   "sha256": "08lwvgwfsxmvm5bnw0sl96dry57h4wcjsi2fr2mmfq190kdjrizy"
+   "commit": "0e711f47f9bab8bea9fe4f8e857920b879e70dcd",
+   "sha256": "0zh4pi4d74cs9p8ll7fzq8chxk84safvb7svxcss692jjsqvj89y"
   }
  },
  {
@@ -87929,8 +87929,8 @@
   "repo": "jkitchin/org-ref",
   "unstable": {
    "version": [
-    20231024,
-    28
+    20231027,
+    1224
    ],
    "deps": [
     "avy",
@@ -87945,8 +87945,8 @@
     "parsebib",
     "s"
    ],
-   "commit": "e8518f4ad6e5adc6081386339fdd5f394b4822c9",
-   "sha256": "0wkm7c692npay46d415110sqcpqd8xjvcwfs409a6rjxn48w03wd"
+   "commit": "1773de623017e177e79b17ed6a5ee6f7162fd9e5",
+   "sha256": "0c2p68nhxf8abpnp28zskpqnnp13x5vb47pdzymad4zjc4zrdf3y"
   },
   "stable": {
    "version": [
@@ -105928,11 +105928,11 @@
   "repo": "meain/scopeline.el",
   "unstable": {
    "version": [
-    20230622,
-    829
+    20231027,
+    1524
    ],
-   "commit": "254d300aee0a22349b07fbe542fbec81547bae75",
-   "sha256": "1q4x5fmx95isiq47nk7r3q0n3q9dvbl855yph0p6wy7rr999v3jb"
+   "commit": "58d6ef20b6cf398c48571239311d812a2f926ecb",
+   "sha256": "0p10mpn9bbd6cccafw0h296xhavq8x46mn3292iks10v553b0li6"
   }
  },
  {
