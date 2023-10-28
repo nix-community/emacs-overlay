@@ -2024,10 +2024,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20231020.152406";
+        version = "5.6snapshot0.20231027.130929";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231020.152406.tar";
-          sha256 = "18h6jkp051mmixrnfgqnkh0c21qfnpaxzhjnsxxaknp3v17rvm5d";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231027.130929.tar";
+          sha256 = "1v1r86cpl4jnnds9ljwr71g3xc96b2gvjbcpcvkhjfbf8g58ky40";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4108,10 +4108,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231026.94821";
+        version = "9.7pre0.20231027.91944";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231026.94821.tar";
-          sha256 = "0p9b9h5nl31sjrp77y8018isi4gcqxwkn4kcwmn26z36annjs7ys";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231027.91944.tar";
+          sha256 = "0af65mm22bl6c38abqn39s5rz6i67pbcmhfq6n2hn0a8jgmmppwc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7028,17 +7028,18 @@
       }) {};
     yasnippet = callPackage ({ cl-lib ? null
                              , elpaBuild
+                             , emacs
                              , fetchurl
                              , lib }:
       elpaBuild {
         pname = "yasnippet";
         ename = "yasnippet";
-        version = "0.14.0.0.20230912.111325";
+        version = "0.14.0.0.20230914.100037";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20230912.111325.tar";
-          sha256 = "0k9h33dgxhg20cg2wwxmhxl5yzyh2g4kims15l0rgs2ag496qn5a";
+          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20230914.100037.tar";
+          sha256 = "0kqv0scxkxxczxc1fxmpv0lgddp92j600s972xwb681a0vq2ssz6";
         };
-        packageRequires = [ cl-lib ];
+        packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/yasnippet.html";
           license = lib.licenses.free;
