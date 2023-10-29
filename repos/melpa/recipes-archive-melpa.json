@@ -50175,14 +50175,14 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20231024,
-    2326
+    20231029,
+    734
    ],
    "deps": [
     "transient"
    ],
-   "commit": "644fc1de2f1934f2db1e448de1edae065e848b77",
-   "sha256": "1jr65afr7nk3qmc7qjb4xslaz3438j46vl4wavx8is3n41621sd3"
+   "commit": "aa50cbab704ce8e6cab57868c3358a2eda6bdd68",
+   "sha256": "11cfr5mia1q1ha6lc64k2vr74jbhdfy4qa9822fz8c623adrr25c"
   },
   "stable": {
    "version": [
@@ -89469,34 +89469,36 @@
   "repo": "alphapapa/org-web-tools",
   "unstable": {
    "version": [
-    20230904,
-    107
+    20231029,
+    453
    ],
    "deps": [
+    "compat",
     "dash",
     "esxml",
     "org",
+    "plz",
     "request",
     "s"
    ],
-   "commit": "d5bdeb7a772082885a77e98279ad63307977cef7",
-   "sha256": "1pyl4h57aqbv61r2vnc2bm06dx2kxpv4kqxi6pwzxd2pqfg7l8xp"
+   "commit": "821e6f032f5823e5e3344ea4d1a36870e236aba1",
+   "sha256": "19q79mjlx0iawnlh2imvs0cnqgkj90am1yclnbmvll1cjz0rzdx4"
   },
   "stable": {
    "version": [
     1,
-    1,
-    1
+    2
    ],
    "deps": [
+    "compat",
     "dash",
     "esxml",
     "org",
     "request",
     "s"
    ],
-   "commit": "ca87319cd42eaa2eb02213e81dec19b7bd2918f7",
-   "sha256": "0v4qad54r0z7dr7kg5lpfdsazi44qvrbybx9aciyl4w9grfajphb"
+   "commit": "067e6a2dc972f6ffb757c7fd204cd1dcb604edf7",
+   "sha256": "1w24d1cxzgjqycqz894kg3707n3ckwpv5cmbywfaffsz1v5i2p3a"
   }
  },
  {
