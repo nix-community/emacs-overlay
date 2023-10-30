@@ -11661,30 +11661,30 @@
   "repo": "worr/cfn-mode",
   "unstable": {
    "version": [
-    20220221,
-    1029
+    20231030,
+    1008
    ],
    "deps": [
     "f",
     "s",
     "yaml-mode"
    ],
-   "commit": "4cf56affe3035fda364109836e26499431095185",
-   "sha256": "1i9nqzk6nx4jdcn6q2yj2awb8rskblhnhqmxljd8bfv5s02fqr8z"
+   "commit": "3774a1eb8387ea18749862baf43e64fd328d4415",
+   "sha256": "1zk3rjabmpfl37zrnnim4h6cbnwp9vg8yjwirw8hjsayfh1pp0kk"
   },
   "stable": {
    "version": [
     1,
     0,
-    3
+    4
    ],
    "deps": [
     "f",
     "s",
     "yaml-mode"
    ],
-   "commit": "4cf56affe3035fda364109836e26499431095185",
-   "sha256": "1i9nqzk6nx4jdcn6q2yj2awb8rskblhnhqmxljd8bfv5s02fqr8z"
+   "commit": "2702d0aafb7c1a382ef726c67152ff09563d1d3a",
+   "sha256": "1zk3rjabmpfl37zrnnim4h6cbnwp9vg8yjwirw8hjsayfh1pp0kk"
   }
  },
  {
@@ -18203,13 +18203,13 @@
    "version": [
     0,
     1,
-    0
+    1
    ],
    "deps": [
     "consult"
    ],
-   "commit": "4f846ef7ef4ec0fbb4c62b603567c270860638e8",
-   "sha256": "1wb8sfmx0y5xwk2yx5alqspm9ddq9mzxfwwcccw8267kqkm3gs3j"
+   "commit": "a799f1a548e71151b5c0f625c9a532b670c07eb9",
+   "sha256": "143ihhan50nyfqznw6b331ms5776hq187q3k2i0ha8fcqasycxic"
   }
  },
  {
@@ -26346,11 +26346,11 @@
   "repo": "xenodium/dwim-shell-command",
   "unstable": {
    "version": [
-    20231029,
-    1905
+    20231030,
+    955
    ],
-   "commit": "853318d58a9060c17538eaeacc00e4e6eb4fd642",
-   "sha256": "0sq9h7cv22wvm0wz39ikj57dy6xz3bi2pvs7bhw0f1f2gd2nfbwr"
+   "commit": "fdb92936ecc8a8e3ca46e32cbd8fce4f4adb79fd",
+   "sha256": "10gyigdq881gij6izns98jbmlknwmdsj3lp2y67y4wb30zhvlzbb"
   }
  },
  {
@@ -32766,16 +32766,16 @@
   "repo": "positron-solutions/elisp-repo-kit",
   "unstable": {
    "version": [
-    20231029,
-    1548
+    20231030,
+    1514
    ],
    "deps": [
     "auto-compile",
     "dash",
     "license-templates"
    ],
-   "commit": "f22ffd2bf85bcebadc800be6f95ac4d8f163dc12",
-   "sha256": "0ian3471wq79yki8zrlncvxk8ngnqx0am9p3a541sz5hpfky1pn8"
+   "commit": "a29a165199fcc90fe7409db38977e3f1c6c9cc3a",
+   "sha256": "1k8wfvg12m398iqcmz2ifqq4cg4vdgmkl7h358n7hgyba61z1six"
   },
   "stable": {
    "version": [
@@ -39642,14 +39642,14 @@
   "repo": "worr/cfn-mode",
   "unstable": {
    "version": [
-    20220221,
-    1029
+    20231030,
+    1003
    ],
    "deps": [
     "flycheck"
    ],
-   "commit": "4cf56affe3035fda364109836e26499431095185",
-   "sha256": "1i9nqzk6nx4jdcn6q2yj2awb8rskblhnhqmxljd8bfv5s02fqr8z"
+   "commit": "0eb3dd630391e4d8a26e09c9032cfb9f4bd71e08",
+   "sha256": "1zk3rjabmpfl37zrnnim4h6cbnwp9vg8yjwirw8hjsayfh1pp0kk"
   },
   "stable": {
    "version": [
@@ -44555,13 +44555,13 @@
   "unstable": {
    "version": [
     20231030,
-    442
+    811
    ],
    "deps": [
     "seq"
    ],
-   "commit": "1cab3d41b2940f8db88cbe78e5f8358b3c85ef3e",
-   "sha256": "1xkgbyf9cmnd74hmhc0j7nm1i7q7zsflb1ybsbsbssdnccj5v3iy"
+   "commit": "b72da79e5be8cf96c82c19042fb5bbc80323e013",
+   "sha256": "0wacyacv52wn8mz0gs9sippcxs4halzs73w8dfq8ddi5dar0s0xp"
   },
   "stable": {
    "version": [
@@ -60367,15 +60367,15 @@
   "repo": "KarimAziev/igist",
   "unstable": {
    "version": [
-    20231021,
-    1749
+    20231030,
+    1304
    ],
    "deps": [
     "ghub",
     "transient"
    ],
-   "commit": "a47d3da93e9f8be3d3fb45cd939ef727203411eb",
-   "sha256": "1z8xbw40zrmplgfpk4znafq61f00pjbjrsgjcb84fvg3c465jx0i"
+   "commit": "3a46811cec944158888fe50ff3bf603035365a50",
+   "sha256": "0wlcjayfzsxm5w3klbzxgwbw4xa8lazl7n121b4ddsx3g6x2000m"
   },
   "stable": {
    "version": [
@@ -71630,8 +71630,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20231027,
-    613
+    20231030,
+    1126
    ],
    "deps": [
     "dash",
@@ -71642,8 +71642,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "0f5723f9ae5d7fe2a82ad45e4505710b6a13be41",
-   "sha256": "0zxsvz73whc44xgsvcfikdbb5d5f762r7ys6zpik07n7ry98qq85"
+   "commit": "291f730ee1d742d9d069578764c9267589be2b82",
+   "sha256": "00ff2qcp6j4p3gax9h1vhj81xr2gij868ilsf0i4sxai7d6114zk"
   },
   "stable": {
    "version": [
@@ -75874,11 +75874,11 @@
   "repo": "liuyinz/mini-echo.el",
   "unstable": {
    "version": [
-    20231029,
-    217
+    20231030,
+    955
    ],
-   "commit": "bbbbde4c8f1e14a1917e6bdc25cadd858c724937",
-   "sha256": "075si8f54nd8gy7rqrvlpsfx72a69cwa6fsnzyxifp5ijwcrx2xj"
+   "commit": "1a4622322bf3832bdb721d2c707dff1ff1906712",
+   "sha256": "0k1c1a5sa610zxvwlcf6d4znj5mgyr4k33v1rkvadbkgicmy0iwf"
   },
   "stable": {
    "version": [
@@ -86735,14 +86735,14 @@
   "unstable": {
    "version": [
     20231030,
-    559
+    1400
    ],
    "deps": [
     "fb2-reader",
     "nerd-icons"
    ],
-   "commit": "577f2e9e88ba04fb1793c456764f1b714fc059f7",
-   "sha256": "1gbykx946k732caj877vjdajkf09qwwk647w86shl40rz1s1cxsy"
+   "commit": "670bd54601cdcc129016bbbe6334f3277e88590b",
+   "sha256": "1lgys9d8qvw7jry50qfh1xq5znp23n8yi1rz6w7zq57b40na1rck"
   }
  },
  {
@@ -110612,15 +110612,15 @@
   "repo": "SpringHan/sniem",
   "unstable": {
    "version": [
-    20231028,
-    558
+    20231030,
+    1441
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "dd092660aa7204060223377ba07e5d6c8b766d41",
-   "sha256": "0ssbwygc5c9jmd4vmj4y2pn9fpk2zd0m7qpkq2c6wnsl7z9g07rg"
+   "commit": "1102019e72635f77940f351d379fdb0679e94afc",
+   "sha256": "1986g6cdzpyfg29x6xabybrpqmv1afz4915x82hpvk9inkd4r4gm"
   }
  },
  {
@@ -116793,21 +116793,21 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20231021,
-    1233
+    20231029,
+    345
    ],
-   "commit": "72cc23eeb9d696a22c6054d4de0a75a9c18fe46b",
-   "sha256": "05a64c2wmvky5m1vb9072scix2a6q7na448hf96aj40q3qbkh0ga"
+   "commit": "f22ad0a87b9e66b54bf825c01bd091808079e9ca",
+   "sha256": "1lvqkyxczy65gvap7872zrgkdr3z5vzjx5y7493ff0fscsgkrng3"
   },
   "stable": {
    "version": [
     2023,
     10,
-    23,
+    30,
     0
    ],
-   "commit": "72cc23eeb9d696a22c6054d4de0a75a9c18fe46b",
-   "sha256": "05a64c2wmvky5m1vb9072scix2a6q7na448hf96aj40q3qbkh0ga"
+   "commit": "f22ad0a87b9e66b54bf825c01bd091808079e9ca",
+   "sha256": "1lvqkyxczy65gvap7872zrgkdr3z5vzjx5y7493ff0fscsgkrng3"
   }
  },
  {
