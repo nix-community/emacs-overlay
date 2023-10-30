@@ -1003,10 +1003,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20231028.91523";
+        version = "0.35.0.20231030.43821";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231028.91523.tar";
-          sha256 = "1cbnbgvr6idxap365aql7df7bqavs49qx5sx90sydbzz2c6s9m14";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231030.43821.tar";
+          sha256 = "1q8m7lfi8rxifgk6zhs7y5hy4l8hg0kgw48mj2lymxiazr0nqdch";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3315,10 +3315,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.5.0.0.20231026.5843";
+        version = "0.5.0.0.20231029.235518";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.5.0.0.20231026.5843.tar";
-          sha256 = "0ywmfbis4jrqjg2gc3khgwc9kdbhjh99syag2bk1vzjmwfd2cq89";
+          url = "https://elpa.gnu.org/devel/llm-0.5.0.0.20231029.235518.tar";
+          sha256 = "1mxrj9w4wc8s8ylm5ciikp742r5rm759k17aijmk6lam6044d6lc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4667,10 +4667,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.10.0.0.20231020.190403";
+        version = "0.10.0.0.20231030.14249";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231020.190403.tar";
-          sha256 = "07ywa9rf3gy4jjh4xpyp9v6sk39jiqc1nifklrvckm1mp84hl0qq";
+          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231030.14249.tar";
+          sha256 = "1ss5yl588nvc8h47b2sisn2zrwr6ac9xfpcmg9jqzvs71532gfvk";
         };
         packageRequires = [ emacs xref ];
         meta = {
