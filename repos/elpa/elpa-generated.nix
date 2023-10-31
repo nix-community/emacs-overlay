@@ -2022,6 +2022,25 @@
           license = lib.licenses.free;
         };
       }) {};
+    flymake-codespell = callPackage ({ compat
+                                     , elpaBuild
+                                     , emacs
+                                     , fetchurl
+                                     , lib }:
+      elpaBuild {
+        pname = "flymake-codespell";
+        ename = "flymake-codespell";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/flymake-codespell-0.1.tar";
+          sha256 = "0r1g0imh9azy1yf0naxif80vmzrjvn5dx3lcrlpj70xb86wzliym";
+        };
+        packageRequires = [ compat emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/flymake-codespell.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     flymake-proselint = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "flymake-proselint";
