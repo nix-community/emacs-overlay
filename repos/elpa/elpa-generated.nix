@@ -3704,10 +3704,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.10";
+        version = "9.6.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.10.tar";
-          sha256 = "1lv503jf556hrv9s85q8sk6lg0rwxkchp2sn0sgdki208l0im8wj";
+          url = "https://elpa.gnu.org/packages/org-9.6.11.tar";
+          sha256 = "18hp5jx90wn9xsg8frql3r1kmn2q9qph6plcssj64fp34wcwxsd8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5418,10 +5418,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.1.3";
+        version = "2.6.1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.6.1.3.tar";
-          sha256 = "0z7q55yilwicgzl2m69r275pq6bzpyksxcjaf8fb3bcr3zvzil0y";
+          url = "https://elpa.gnu.org/packages/tramp-2.6.1.4.tar";
+          sha256 = "1ajlx0982hx6ypby9dvw1yh9zyl1h4j9xp4n9rfzxhfvvq3139bi";
         };
         packageRequires = [ emacs ];
         meta = {
