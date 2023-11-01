@@ -261,10 +261,10 @@
       elpaBuild {
         pname = "blueprint-ts-mode";
         ename = "blueprint-ts-mode";
-        version = "0.0.2";
+        version = "0.0.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/blueprint-ts-mode-0.0.2.tar";
-          sha256 = "0fyvff2zh6iiswhxcvqgnxdhq3yk5f0w4a2w0jp126fvd3ryspym";
+          url = "https://elpa.nongnu.org/nongnu/blueprint-ts-mode-0.0.3.tar";
+          sha256 = "1ii46kmiaxywymhjlj85c3ypdnkkhgyaqgzhnkzzfz6946dchj3v";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -361,10 +361,10 @@
       elpaBuild {
         pname = "cider";
         ename = "cider";
-        version = "1.9.0";
+        version = "1.10.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/cider-1.9.0.tar";
-          sha256 = "08vc1v4gzh1njvqhg10c07wq28r2s9qq3y7i4b5clrzgy9l872cw";
+          url = "https://elpa.nongnu.org/nongnu/cider-1.10.0.tar";
+          sha256 = "0zph9wbsd63mi8xim4vnccq6zddviy050lanbskpqfxk79my03a5";
         };
         packageRequires = [
           clojure-mode
