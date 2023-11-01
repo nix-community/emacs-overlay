@@ -3331,10 +3331,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.5.0.0.20231031.15744";
+        version = "0.5.0.0.20231101.12652";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.5.0.0.20231031.15744.tar";
-          sha256 = "0xfgbknp94skl77ayz5p9qrwf00m6wrsadhj2dhdmw20if2f3mb8";
+          url = "https://elpa.gnu.org/devel/llm-0.5.0.0.20231101.12652.tar";
+          sha256 = "0gchhc9wl2gyhbh14lg8y75mlsykqfc200wdaaxc3fg0wyn6rwdh";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4124,10 +4124,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231030.100509";
+        version = "9.7pre0.20231031.203823";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231030.100509.tar";
-          sha256 = "04y46ch8ppirxkk7jgn48az2j6zzncblv5q62mp2cgh90dslz87r";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231031.203823.tar";
+          sha256 = "16ccqw4al6m4mb90kk4pv85pv5xx96b0vnkd0a1w49zpvqwsy5vb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4683,10 +4683,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.10.0.0.20231031.73403";
+        version = "0.10.0.0.20231101.20153";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231031.73403.tar";
-          sha256 = "07wd6rp11sghh7v56cvfchlpyhzvyz5h8xyw007iqhflrhn7bbrw";
+          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231101.20153.tar";
+          sha256 = "19jfn4h5px2s5rvbwq9fl7qanjy75f7xpnca2nx9cilhyy2dam1y";
         };
         packageRequires = [ emacs xref ];
         meta = {
@@ -4728,10 +4728,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "1.0.1.0.20230929.115806";
+        version = "1.0.1.0.20231101.62313";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20230929.115806.tar";
-          sha256 = "1rs8jnvj4g5m675srf3civhk52csm4nf7df81xscgvh6pafgyfvj";
+          url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20231101.62313.tar";
+          sha256 = "10k57sd29hkbja85sn5yf7wm0g5wyk216ykdjl4vr03891ic03dg";
         };
         packageRequires = [ emacs ];
         meta = {
