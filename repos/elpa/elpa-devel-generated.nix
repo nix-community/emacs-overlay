@@ -1055,10 +1055,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20231013.185720";
+        version = "0.38.0.20231031.121412";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231013.185720.tar";
-          sha256 = "0573w5zgkchk5kkj2wb7sl1qrp88k99v44jv0cddrrn35r77hrpx";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231031.121412.tar";
+          sha256 = "1sdn4bb28vhwhddix8czx4qi2glhgsn23nc1n0p9q4dy4mswrmx6";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1320,10 +1320,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231028.53547";
+        version = "2.0.0.0.20231031.90747";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231028.53547.tar";
-          sha256 = "0ckh0pj86kmnk0p0xwpbag1ml0nq1i9jarqpy6nfdkdhfqc22yhx";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231031.90747.tar";
+          sha256 = "0zisv4x16iv0ija6mmndgrfx2xzk4fvflczn575ygis971x3m43b";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2754,10 +2754,10 @@
       elpaBuild {
         pname = "hiddenquote";
         ename = "hiddenquote";
-        version = "1.2.0.20230911.171055";
+        version = "1.2.0.20231031.71139";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hiddenquote-1.2.0.20230911.171055.tar";
-          sha256 = "00basln4s5ngxp353ldpzxp382chdxp05bafsazgxkh5mg94jsyf";
+          url = "https://elpa.gnu.org/devel/hiddenquote-1.2.0.20231031.71139.tar";
+          sha256 = "0s3iz0z1fb2fxyf7kmynn026niam9ywk8b8fjlr835ryf6syys5v";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5285,10 +5285,10 @@
       elpaBuild {
         pname = "setup";
         ename = "setup";
-        version = "1.3.2.0.20230826.202144";
+        version = "1.3.2.0.20231031.80845";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/setup-1.3.2.0.20230826.202144.tar";
-          sha256 = "15nsn4kgh50qrcxvar1j9rbbg9d4szvyxhy13r7fq0vp9n6wv6iw";
+          url = "https://elpa.gnu.org/devel/setup-1.3.2.0.20231031.80845.tar";
+          sha256 = "0bm5rbhhsl1wfrrf5ikvn368xv49fzxh375jhl9f5r5m4dj1l0s4";
         };
         packageRequires = [ emacs ];
         meta = {
