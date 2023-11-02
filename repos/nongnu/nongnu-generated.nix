@@ -1339,10 +1339,10 @@
       elpaBuild {
         pname = "git-modes";
         ename = "git-modes";
-        version = "1.4.1";
+        version = "1.4.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/git-modes-1.4.1.tar";
-          sha256 = "0zxab7rjy5rh8y0ln9h04pvcim8a4qdpj1zs0c0dwbxcsa7v7hz1";
+          url = "https://elpa.nongnu.org/nongnu/git-modes-1.4.2.tar";
+          sha256 = "15lvya85710wyyynmgq7a92lc5mrrv2nfh19nxh92mkdd3r0c3fg";
         };
         packageRequires = [ compat emacs ];
         meta = {
