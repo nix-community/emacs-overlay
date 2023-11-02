@@ -4079,6 +4079,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    plz-see = callPackage ({ elpaBuild, emacs, fetchurl, lib, plz }:
+      elpaBuild {
+        pname = "plz-see";
+        ename = "plz-see";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/plz-see-0.1.tar";
+          sha256 = "0dmckrny21rlm5spiwx7j6q0xikzwlsrhg8yz890w47zpdxpl3bb";
+        };
+        packageRequires = [ emacs plz ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/plz-see.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     poke = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "poke";

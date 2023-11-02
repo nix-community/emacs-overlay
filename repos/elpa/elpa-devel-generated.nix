@@ -1320,10 +1320,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231031.90747";
+        version = "2.0.0.0.20231102.60739";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231031.90747.tar";
-          sha256 = "0zisv4x16iv0ija6mmndgrfx2xzk4fvflczn575ygis971x3m43b";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231102.60739.tar";
+          sha256 = "0g7kwvnw26pbdmpz5j10397s6fn48h7ak47hf4q0m1jpm614f43x";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2024,10 +2024,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20231027.130929";
+        version = "5.6snapshot0.20231101.161410";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231027.130929.tar";
-          sha256 = "1v1r86cpl4jnnds9ljwr71g3xc96b2gvjbcpcvkhjfbf8g58ky40";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231101.161410.tar";
+          sha256 = "1p4vh94gb0dvr7yls952l3w7g0s5m64c53aacqyn9fsnzgq5jfxp";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4545,6 +4545,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    plz-see = callPackage ({ elpaBuild, emacs, fetchurl, lib, plz }:
+      elpaBuild {
+        pname = "plz-see";
+        ename = "plz-see";
+        version = "0.1.0.20231101.73512";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/plz-see-0.1.0.20231101.73512.tar";
+          sha256 = "1nqlv1ww8ba2a40bg3riv5w1sgj8cmhx6bldyzcgs88cpjjkia79";
+        };
+        packageRequires = [ emacs plz ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/plz-see.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     poke = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "poke";
@@ -6363,10 +6378,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.3.0snapshot0.20231029.122607";
+        version = "0.3.0snapshot0.20231101.193012";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.3.0snapshot0.20231029.122607.tar";
-          sha256 = "1janzlanvrjcl6v5lvczim8104z2pmaqi96anpdia7wifn52sbvz";
+          url = "https://elpa.gnu.org/devel/urgrep-0.3.0snapshot0.20231101.193012.tar";
+          sha256 = "12hmms0yr0vybayvzkbqbp5j428lsnirzwg93f1l8m05xxs3xm9w";
         };
         packageRequires = [ compat emacs project ];
         meta = {
