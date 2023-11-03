@@ -1320,10 +1320,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231102.60739";
+        version = "2.0.0.0.20231103.43442";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231102.60739.tar";
-          sha256 = "0g7kwvnw26pbdmpz5j10397s6fn48h7ak47hf4q0m1jpm614f43x";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231103.43442.tar";
+          sha256 = "10my5wnvwlkmx5jcr5clqmda3yyf4lcp7piz3iajhyqhm2ajp175";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4124,10 +4124,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231102.82223";
+        version = "9.7pre0.20231103.72137";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231102.82223.tar";
-          sha256 = "08kp6y0gbajv89vqckxk1x0xkkd8bjay7kgh6d9s12ik8nwqnkbw";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231103.72137.tar";
+          sha256 = "1rvxb6qphzfvx1qhkjgi7d7hm6538ql20467mrcw8f5844j9jf30";
         };
         packageRequires = [ emacs ];
         meta = {
