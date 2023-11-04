@@ -2377,10 +2377,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.5.0";
+        version = "0.6.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.5.0.tar";
-          sha256 = "11rcppg3850dbrvwsp3y814bibkv0h35rc5sf4w9qlmd5rc5ilxj";
+          url = "https://elpa.gnu.org/packages/greader-0.6.0.tar";
+          sha256 = "01sral1nrgkpbrajvg2pqhaj4rx48rryqfxckj3xprrs0yls3k8q";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5068,10 +5068,10 @@
       elpaBuild {
         pname = "srht";
         ename = "srht";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/srht-0.2.tar";
-          sha256 = "1qps9vdsiy5zkz88kh9kl1hnn1wlfz6n5brzcxi28fwx0hb3ksz2";
+          url = "https://elpa.gnu.org/packages/srht-0.3.tar";
+          sha256 = "03am21w1gsc1af7slsxny9ga4vqd8rbabbp4rl6mkrq46y5ak375";
         };
         packageRequires = [ emacs plz ];
         meta = {

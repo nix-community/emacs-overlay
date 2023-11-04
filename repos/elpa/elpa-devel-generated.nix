@@ -1320,10 +1320,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0.0.20231103.102923";
+        version = "2.0.0.0.20231104.60808";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231103.102923.tar";
-          sha256 = "16ak4hd83p0z0abvk9pr6m3aclj2jiszah2jxrs2jx26ayjs4yxy";
+          url = "https://elpa.gnu.org/devel/denote-2.0.0.0.20231104.60808.tar";
+          sha256 = "0pnvw2kahgs3qkfasxqki64k03p7clfw784rdv1874whqksm6gvh";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2653,10 +2653,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.5.0.0.20231026.5322";
+        version = "0.6.0.0.20231104.45848";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.5.0.0.20231026.5322.tar";
-          sha256 = "0m4d1cr637jsy75ax6y2aqhzjwax7qkidm25k4qiqa69lzbkckid";
+          url = "https://elpa.gnu.org/devel/greader-0.6.0.0.20231104.45848.tar";
+          sha256 = "1ppvgi17agzrsjfd9jaa5zszvqcm1n4rfy7z82da4rl5mbgnml9p";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4124,10 +4124,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231103.72137";
+        version = "9.7pre0.20231104.74839";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231103.72137.tar";
-          sha256 = "1rvxb6qphzfvx1qhkjgi7d7hm6538ql20467mrcw8f5844j9jf30";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231104.74839.tar";
+          sha256 = "0xnhwq11i23w01z0yqbxgq7q2vwd2kdd78jr6c5k0imw0whpmcmw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5689,10 +5689,10 @@
       elpaBuild {
         pname = "srht";
         ename = "srht";
-        version = "0.2.0.20221114.63606";
+        version = "0.3.0.20231103.213748";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/srht-0.2.0.20221114.63606.tar";
-          sha256 = "0y3xl9l0c7mjppsglwnbawrq4wx402mjvgnim2ilw1d7568ahi9i";
+          url = "https://elpa.gnu.org/devel/srht-0.3.0.20231103.213748.tar";
+          sha256 = "1nr6faizww1nzv5lpdikbqxkc6i1hswg2qa50cybl05ycqq9b10a";
         };
         packageRequires = [ emacs plz ];
         meta = {
