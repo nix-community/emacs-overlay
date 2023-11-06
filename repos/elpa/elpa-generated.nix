@@ -565,6 +565,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    bufferlo = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "bufferlo";
+        ename = "bufferlo";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/bufferlo-0.2.tar";
+          sha256 = "1dvpzxlnzs037wz9xhiwiz2qrc7r2i05z6p6p0sy8i4kb6scc6gy";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/bufferlo.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     bug-hunter = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib, seq }:
       elpaBuild {
         pname = "bug-hunter";

@@ -297,10 +297,10 @@
       elpaBuild {
         pname = "async";
         ename = "async";
-        version = "1.9.7.0.20231105.72154";
+        version = "1.9.7.0.20231105.171300";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/async-1.9.7.0.20231105.72154.tar";
-          sha256 = "0qjccymab3whr6knd1ig009md4xvnan962l5xs5dm283gncjfb34";
+          url = "https://elpa.gnu.org/devel/async-1.9.7.0.20231105.171300.tar";
+          sha256 = "1f3z679jlhv8xyc1kssmcgq9alwa06r64cpclf477fs6581nda2w";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -647,6 +647,21 @@
         packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/buffer-expose.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    bufferlo = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "bufferlo";
+        ename = "bufferlo";
+        version = "0.2.0.20231105.144449";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/bufferlo-0.2.0.20231105.144449.tar";
+          sha256 = "1h7hb0ckwfq0bcmjd3k3nd25yzyf72hxa29bpfh0znsczkirrq5f";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/bufferlo.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -4142,10 +4157,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231104.74839";
+        version = "9.7pre0.20231105.155155";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231104.74839.tar";
-          sha256 = "0xnhwq11i23w01z0yqbxgq7q2vwd2kdd78jr6c5k0imw0whpmcmw";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231105.155155.tar";
+          sha256 = "1g42wldb0yykp8p0c2ywgsbnkmxr04gn39x3qyg7gz9l2nq3rwv9";
         };
         packageRequires = [ emacs ];
         meta = {
