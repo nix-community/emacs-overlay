@@ -654,10 +654,10 @@
       elpaBuild {
         pname = "bufferlo";
         ename = "bufferlo";
-        version = "0.2.0.20231105.144449";
+        version = "0.2.0.20231105.220853";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/bufferlo-0.2.0.20231105.144449.tar";
-          sha256 = "1h7hb0ckwfq0bcmjd3k3nd25yzyf72hxa29bpfh0znsczkirrq5f";
+          url = "https://elpa.gnu.org/devel/bufferlo-0.2.0.20231105.220853.tar";
+          sha256 = "0lf75callmmvl1d9an3dsddb0shkv8xa6k9gryrk8hp5l867xrzw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6041,10 +6041,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "0.8.0.20230915.222920";
+        version = "0.8.0.20231106.72513";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tempel-0.8.0.20230915.222920.tar";
-          sha256 = "1lsc3d8sqydbhyrd9ja43y06i0qxwc0dns2n4rnnb8039y2dvfnn";
+          url = "https://elpa.gnu.org/devel/tempel-0.8.0.20231106.72513.tar";
+          sha256 = "1pbw7wrhz5h1xykbc1ihhpzqc0kki6k637wagx8yfz95n606808d";
         };
         packageRequires = [ compat emacs ];
         meta = {
