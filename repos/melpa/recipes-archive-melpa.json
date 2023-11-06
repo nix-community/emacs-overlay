@@ -3816,11 +3816,11 @@
   "repo": "radian-software/apheleia",
   "unstable": {
    "version": [
-    20231104,
-    1823
+    20231105,
+    2008
    ],
-   "commit": "392028d823cfe8804a3d97f9bc2a4c4b283e6c74",
-   "sha256": "1vjgq771a65gbn748ynk87i44zz0r5wsr51v3lgl53l49j1j17l7"
+   "commit": "54a192c3454e82be9d5ad910d80796b27d58035f",
+   "sha256": "0wac6qhv89c6x2scbdxhxdrjhqm3jmm7fzzvirxibyd94fxjzzd3"
   },
   "stable": {
    "version": [
@@ -4468,10 +4468,10 @@
   "unstable": {
    "version": [
     20231105,
-    721
+    1713
    ],
-   "commit": "aa7a29aaf8de4a82af4c5ed98391349911566d26",
-   "sha256": "17180q2hzb2ws40gka4mrxdfxjciplf5hm7rlp95pb0xa7jyiizh"
+   "commit": "3bade0e92e1ee8e716c5db14bc8315b17299f138",
+   "sha256": "13b88shazsi7crn8cpb3f0k4vzai45srymwriq14axmq48i8z33m"
   },
   "stable": {
    "version": [
@@ -21907,6 +21907,21 @@
    ],
    "commit": "426760126ab2d8300059cc9d2d808b7eb4ce9c7c",
    "sha256": "08wbil5ynpsjw8b8ld666zh9l2zc7cczwjakqv2nrpcb89hk12qw"
+  }
+ },
+ {
+  "ename": "decor",
+  "commit": "d1e2861bb7c39ad2741db8652b7ddfedf93da61e",
+  "sha256": "0xjrhkrzk6bkdvygnc57ib981jkl3npm8yslsbdkg2l5nrnnim15",
+  "fetcher": "github",
+  "repo": "keyweeusr/decor",
+  "unstable": {
+   "version": [
+    20231101,
+    2354
+   ],
+   "commit": "aad4fa9f4e0d4140e2707f4cc678b1dc3c0672fa",
+   "sha256": "0lxw55l0p5cgp1kgwh0yzh9bc3wvgnd932jmfy77nmiw6wl4achm"
   }
  },
  {
@@ -43406,14 +43421,14 @@
   "repo": "erickgnavar/flymake-ruff",
   "unstable": {
    "version": [
-    20230620,
-    115
+    20231105,
+    2043
    ],
    "deps": [
     "project"
    ],
-   "commit": "7e3f88068b75d797e1efe0fc194f9725469f126e",
-   "sha256": "01wpp32fgqy1rsgdvmg1zkck7bkh8ciavhswsahv8sx3wpj3gp9v"
+   "commit": "8b2392c45538a377fc3c8cfcda73165652b660ca",
+   "sha256": "0sagfcmbqw5q21d4wy9cs2yhpy53qa53amwwk3kih9ka64fnyhzy"
   }
  },
  {
@@ -43515,11 +43530,11 @@
   "repo": "erickgnavar/flymake-sqlfluff",
   "unstable": {
    "version": [
-    20231029,
-    1805
+    20231105,
+    2009
    ],
-   "commit": "f23324690066a2841f82f166d63f4d7ff0334b01",
-   "sha256": "0i2yhvc58yjybz23a3gdr3mipfy083xizq1p76h74cz5nfgrhmsq"
+   "commit": "598dff268231f74ba902e2c607c85dd014fbee28",
+   "sha256": "0r32vhb9krjhq4xk0bmzk43x756jcw39k7vl0ps10zha7p7mnm69"
   }
  },
  {
@@ -76268,11 +76283,11 @@
   "repo": "szermatt/mistty",
   "unstable": {
    "version": [
-    20231016,
-    1730
+    20231105,
+    2142
    ],
-   "commit": "2524edeff25ec4d51fbef1ac005a0b6a92a10b56",
-   "sha256": "07ixq2fgsjik0iyv6hizrci8jcr7zlyfghxpfs6agpb6appvdn7m"
+   "commit": "ce25f80f2779ca472b3d53e931e309f50d8b1c13",
+   "sha256": "0kiys0q3v19y283gm04pkld93mf3xm7di6yc059kyfpkhxi80wqv"
   },
   "stable": {
    "version": [
@@ -83563,8 +83578,8 @@
   "repo": "licht1stein/obsidian.el",
   "unstable": {
    "version": [
-    20231010,
-    1715
+    20231105,
+    1800
    ],
    "deps": [
     "dash",
@@ -83574,24 +83589,25 @@
     "s",
     "yaml"
    ],
-   "commit": "d02c3e78ac8b7ef711658f8ce282d6afe4b3fc1a",
-   "sha256": "0zb7pmw2kp1283zkxj7gxy30n2qrdxcav7xdpw8ccbxkczsk8hq9"
+   "commit": "f83c5d32eba8237dedeec66c44f464019840b264",
+   "sha256": "1fpqc5xwqdqg4l4aifqvsr5p00997z5xdvnlnrrc1p981ifxa67c"
   },
   "stable": {
    "version": [
     1,
-    3,
-    5
+    4,
+    0
    ],
    "deps": [
     "dash",
     "elgrep",
+    "f",
     "markdown-mode",
     "s",
     "yaml"
    ],
-   "commit": "53413f651fced9318777db9b9c8eccfce38c2c1f",
-   "sha256": "0nc7x5zahamp3910xigqsrpj81gwlihkbvgy33vpawnhkawxrjdm"
+   "commit": "f83c5d32eba8237dedeec66c44f464019840b264",
+   "sha256": "1fpqc5xwqdqg4l4aifqvsr5p00997z5xdvnlnrrc1p981ifxa67c"
   }
  },
  {
@@ -88253,8 +88269,8 @@
   "repo": "ahmed-shariff/org-roam-ql",
   "unstable": {
    "version": [
-    20231010,
-    2223
+    20231105,
+    2028
    ],
    "deps": [
     "magit-section",
@@ -88263,8 +88279,8 @@
     "s",
     "transient"
    ],
-   "commit": "eab43b342ee1e63e07e5d6bee5efa8180747f975",
-   "sha256": "10qc4aldqmg1w0pq0w3w3jw73lrlxrjva0sz3dldywnmvmgwwj8q"
+   "commit": "6c8b03638fd9f423104093fb2e4128435528a72e",
+   "sha256": "120jin5lzjg0mcj9bp197hxhwy2ghycsk00zlax1ymi3pmlcrsmy"
   },
   "stable": {
    "version": [
@@ -110333,6 +110349,24 @@
    ],
    "commit": "d2f9f70174c4cf68c67eb3bb8088235735e34d9a",
    "sha256": "18k2k213vgawxskp9m57r8qarg3pnza6nvbpyi6l03jnmf2kcw2b"
+  }
+ },
+ {
+  "ename": "smlfmt",
+  "commit": "a45339045d70e3a3f13dc2f4295c6f08fe3b5733",
+  "sha256": "1jvz81h0f7a95x5gkf4bh3pcjbxndji5yclza6s7kvxwdqpr7yrg",
+  "fetcher": "github",
+  "repo": "diku-dk/smlfmt.el",
+  "unstable": {
+   "version": [
+    20231102,
+    853
+   ],
+   "deps": [
+    "reformatter"
+   ],
+   "commit": "7a70cce029a7c37c5e976ab6b426f62561e4e352",
+   "sha256": "05q28pg0ikyv7gzlvwjdh2546k8cmibf5dq455jmfd2xsnia8i2b"
   }
  },
  {
