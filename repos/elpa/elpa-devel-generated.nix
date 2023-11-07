@@ -927,10 +927,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231023.103313";
+        version = "0.10.2.0.20231106.204304";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231023.103313.tar";
-          sha256 = "1zcap5mv6cn9a2j8axg4yw4iprxkwwyjmw7qahijlk02ycwmwwfn";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231106.204304.tar";
+          sha256 = "1g5xvar6xic3rvdnkd6sx5a6y0gzldy8drzkmnbwbc5y4kykpqzq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4157,10 +4157,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231105.155155";
+        version = "9.7pre0.20231106.94630";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231105.155155.tar";
-          sha256 = "1g42wldb0yykp8p0c2ywgsbnkmxr04gn39x3qyg7gz9l2nq3rwv9";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231106.94630.tar";
+          sha256 = "1ym3q7n0aksdknip0dry3m6v9jd25dfz6wvj8vha93krsjciy4xy";
         };
         packageRequires = [ emacs ];
         meta = {
