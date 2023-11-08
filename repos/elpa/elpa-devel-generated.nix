@@ -582,10 +582,10 @@
       elpaBuild {
         pname = "breadcrumb";
         ename = "breadcrumb";
-        version = "1.0.1.0.20231101.100116";
+        version = "1.0.1.0.20231107.53204";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20231101.100116.tar";
-          sha256 = "1gqqi2hgvxnr917c9ps0mljr95adds9r8g93bbh75mzmlxw43hyb";
+          url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20231107.53204.tar";
+          sha256 = "0ai8vw9mnlbsc6qmvapdw8mnkssxj1g3hg83acjc4vlcrdxr40vg";
         };
         packageRequires = [ emacs project ];
         meta = {
@@ -1003,10 +1003,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.3.0.20231104.83810";
+        version = "29.1.4.3.0.20231107.184238";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/compat-29.1.4.3.0.20231104.83810.tar";
-          sha256 = "0hnv1bisap34g1ch9p5adbr77gs2455f3f1afhq6gnb4726v92qi";
+          url = "https://elpa.gnu.org/devel/compat-29.1.4.3.0.20231107.184238.tar";
+          sha256 = "1mcfx5my48zr14syzmpidgr1kjji2v63sqmx3zh7spxxd274yviq";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -1070,10 +1070,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20231102.175728";
+        version = "0.38.0.20231107.202745";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231102.175728.tar";
-          sha256 = "1wzns99l4d6wmqnda6rz1s1sx2v3j71b8j2iagiaxwgazyxhppgf";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231107.202745.tar";
+          sha256 = "07yrjc3h0xrdz7f1plp8d0qdn7782brfagwsy138xcskrl0xsh8v";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1803,10 +1803,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20231104.52138";
+        version = "1.15.0.20231107.90944";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20231104.52138.tar";
-          sha256 = "04fsiyl57wx632ffdxllvnqnx5swqp7n046crhjywkadh93va195";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20231107.90944.tar";
+          sha256 = "135a3zyzjpv2n0c988b9g9mh93y7p1dp9nvmchm4i26mdmzn6jbz";
         };
         packageRequires = [
           eldoc
@@ -2872,10 +2872,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20231030.222339";
+        version = "8.0.1pre0.20231106.194732";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20231030.222339.tar";
-          sha256 = "0s0wqw68y3vq5yq6d0abfcbsmy94gs43v7f2pyjm5wz506an5qar";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20231106.194732.tar";
+          sha256 = "02d4r3w6angwjw2wr192gkgwyzfb3vszdsb18baziqbwq2xh5cch";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4157,10 +4157,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231106.94630";
+        version = "9.7pre0.20231107.105246";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231106.94630.tar";
-          sha256 = "1ym3q7n0aksdknip0dry3m6v9jd25dfz6wvj8vha93krsjciy4xy";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231107.105246.tar";
+          sha256 = "0xhja7bxcjfknzpwhbca1hi0a6risizhcwlfrh69zwhivdmyjbm7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6642,10 +6642,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20231015.92801";
+        version = "1.4.0.20231107.202818";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20231015.92801.tar";
-          sha256 = "0h73z4jbwd3pmn3rfgbklnrslcd0d60h1fg3j5ykbgqd770gklhc";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20231107.202818.tar";
+          sha256 = "08widcq3k4p0scn33wvjkxr0cd53brd79704wbinzx6wcs39x0na";
         };
         packageRequires = [ compat emacs ];
         meta = {
