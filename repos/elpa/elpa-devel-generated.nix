@@ -1018,10 +1018,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20231104.142724";
+        version = "0.35.0.20231107.212252";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231104.142724.tar";
-          sha256 = "0bb9gdlb808507f7mav6ssq95xabblhh9v05hdzandnaxyi2i5fp";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231107.212252.tar";
+          sha256 = "1p9l79sxxa06cxky5z08mccf34hbbp742iza57riknf0zmrglkpc";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2787,10 +2787,10 @@
       elpaBuild {
         pname = "hiddenquote";
         ename = "hiddenquote";
-        version = "1.2.0.20231031.71139";
+        version = "1.2.0.20231107.184113";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hiddenquote-1.2.0.20231031.71139.tar";
-          sha256 = "0s3iz0z1fb2fxyf7kmynn026niam9ywk8b8fjlr835ryf6syys5v";
+          url = "https://elpa.gnu.org/devel/hiddenquote-1.2.0.20231107.184113.tar";
+          sha256 = "0zgnxfcfd78c755rykmbnkvxx5lfpk7z3n8qky0lf3kj2hwas27v";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4157,10 +4157,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231107.105246";
+        version = "9.7pre0.20231107.233532";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231107.105246.tar";
-          sha256 = "0xhja7bxcjfknzpwhbca1hi0a6risizhcwlfrh69zwhivdmyjbm7";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231107.233532.tar";
+          sha256 = "0dwj6lswfii5k415bd8cmqvw2l8c79w654lzgsmrg316d2r9w9b6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4723,14 +4723,18 @@
           license = lib.licenses.free;
         };
       }) {};
-    project = callPackage ({ elpaBuild, emacs, fetchurl, lib, xref }:
+    project = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib
+                           , xref }:
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.10.0.0.20231105.4153";
+        version = "0.10.0.0.20231108.75740";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231105.4153.tar";
-          sha256 = "1iyqmsy2prf4q791ir99gd5acq1jnvy461ydq89xwxlay1xc0gna";
+          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231108.75740.tar";
+          sha256 = "02arwv35vcpspg2k8nasmaz2ggc32v7p3iq2q6z5sznmdanl1jm4";
         };
         packageRequires = [ emacs xref ];
         meta = {
