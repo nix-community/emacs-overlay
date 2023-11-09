@@ -1070,10 +1070,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20231107.202745";
+        version = "0.38.0.20231108.174629";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231107.202745.tar";
-          sha256 = "07yrjc3h0xrdz7f1plp8d0qdn7782brfagwsy138xcskrl0xsh8v";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231108.174629.tar";
+          sha256 = "1ynkyw7mkl8y66kxwy51gwdj60b4nadk9qbwsjljbfdnc80y6ws5";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4142,10 +4142,10 @@
       elpaBuild {
         pname = "orderless";
         ename = "orderless";
-        version = "1.0.0.20231025.204425";
+        version = "1.0.0.20231107.210315";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/orderless-1.0.0.20231025.204425.tar";
-          sha256 = "1lsfa62hpq6zmk49mnf1434lqv3p472la3aky003xplkvl0xbw7l";
+          url = "https://elpa.gnu.org/devel/orderless-1.0.0.20231107.210315.tar";
+          sha256 = "0j5fkmw4qy40ab2c6d0mf6637s8q95gi3sp7w477d6ymck5i2ck8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4157,10 +4157,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231107.233532";
+        version = "9.7pre0.20231108.95550";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231107.233532.tar";
-          sha256 = "0dwj6lswfii5k415bd8cmqvw2l8c79w654lzgsmrg316d2r9w9b6";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231108.95550.tar";
+          sha256 = "01dk4sq5wfiwj9g5bfriqqkfrgdfy3c7kixd7y4cf9k6pbjl4sfp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6646,10 +6646,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20231107.202818";
+        version = "1.4.0.20231108.202420";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20231107.202818.tar";
-          sha256 = "08widcq3k4p0scn33wvjkxr0cd53brd79704wbinzx6wcs39x0na";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20231108.202420.tar";
+          sha256 = "1c34pq5l7ckjlyimpa528d8a7q5pakz3li5bc4ka86mwf861kd7v";
         };
         packageRequires = [ compat emacs ];
         meta = {
