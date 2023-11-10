@@ -920,17 +920,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    company = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    company = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231107.11807";
+        version = "0.10.2.0.20231110.5234";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231107.11807.tar";
-          sha256 = "02m6yh01y0ybwsr9gq0361jkv6aah2yf47lyz41f5k7s5d19qb0q";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231110.5234.tar";
+          sha256 = "18533dlk7k77if51kjhwlf2yb872ixjf1cffg197bnfy29sdrm11";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3364,10 +3361,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.5.2.0.20231104.235817";
+        version = "0.5.2.0.20231110.3036";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.5.2.0.20231104.235817.tar";
-          sha256 = "1fr4fxiyxxsfr5bkfngpq8crxlafvzsdfg10y4l9ifh9nh0j5m0f";
+          url = "https://elpa.gnu.org/devel/llm-0.5.2.0.20231110.3036.tar";
+          sha256 = "0ai405k9lx0rmlawfmldphjpwrrpahyawhzzam0500jp6x02ppkg";
         };
         packageRequires = [ emacs ];
         meta = {
