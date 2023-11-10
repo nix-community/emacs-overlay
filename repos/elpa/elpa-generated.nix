@@ -1314,6 +1314,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    dired-duplicates = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "dired-duplicates";
+        ename = "dired-duplicates";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/dired-duplicates-0.2.tar";
+          sha256 = "1n5n961f1mrvcqfrz56734qj1ynajdjblyf4y60pw9m3fn03db4s";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/dired-duplicates.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     dired-git-info = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "dired-git-info";
