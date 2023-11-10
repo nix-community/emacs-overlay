@@ -2608,10 +2608,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20230919.113921";
+        version = "1.0.20231109.110741";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20230919.113921.tar";
-          sha256 = "00b4bw4cqm9yc8fxz14da5ahrjrmshf3497l8p65ss0s6qby5ag3";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20231109.110741.tar";
+          sha256 = "19d1bs0ajc28wa49f1mphdwrpfywib5cvv3mxip6az9x6faand7g";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3002,10 +3002,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.26.1";
+        version = "0.26.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.26.1.tar";
-          sha256 = "1hjj72x47p64zfdqgxslwsfhc3332z45g8ribz67zjfbf6ldlraq";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.26.2.tar";
+          sha256 = "14rcg6rs4dd4a0pr4makkg1flwxfrxyg5xrs5sa034bzxj6zqal5";
         };
         packageRequires = [ compat emacs ];
         meta = {
