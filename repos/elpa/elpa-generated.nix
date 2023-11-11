@@ -569,10 +569,10 @@
       elpaBuild {
         pname = "bufferlo";
         ename = "bufferlo";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bufferlo-0.2.tar";
-          sha256 = "1dvpzxlnzs037wz9xhiwiz2qrc7r2i05z6p6p0sy8i4kb6scc6gy";
+          url = "https://elpa.gnu.org/packages/bufferlo-0.3.tar";
+          sha256 = "16fj1wiqymyys0wjnbmmfwpvqxnm3mlqfrg7nrsryfgpv2mv9z17";
         };
         packageRequires = [ emacs ];
         meta = {
