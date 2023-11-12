@@ -3817,11 +3817,11 @@
   "repo": "radian-software/apheleia",
   "unstable": {
    "version": [
-    20231105,
-    2008
+    20231112,
+    32
    ],
-   "commit": "54a192c3454e82be9d5ad910d80796b27d58035f",
-   "sha256": "0wac6qhv89c6x2scbdxhxdrjhqm3jmm7fzzvirxibyd94fxjzzd3"
+   "commit": "ddea9bea708ce029cea6126b5be8e9f8979c58b3",
+   "sha256": "05lg9qych2x31cw8clfngrhzqgs858kcawnk07pyp45563pm0zjl"
   },
   "stable": {
    "version": [
@@ -11932,14 +11932,14 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20231108,
-    1115
+    20231111,
+    2324
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "a05e30073f42eb6c10dfe0741ff86d3c22e914b4",
-   "sha256": "07j4pvb7li43c6ldakzfyj88s20f0dnfzn0ilpvf76i5q66hpqcr"
+   "commit": "03f8edabb95c6ffc64050d79fdb3091532711b59",
+   "sha256": "0h94zdx1nn98pg3mdlj6zvlswmj6i1yldnm1hb9pj2hccsdfj3bj"
   }
  },
  {
@@ -12571,8 +12571,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20231108,
-    2054
+    20231111,
+    2213
    ],
    "deps": [
     "clojure-mode",
@@ -12583,14 +12583,14 @@
     "spinner",
     "transient"
    ],
-   "commit": "bf9dceca17e912605e2d8327c44ed241e2a556e2",
-   "sha256": "1wca624gdnrqlkadlqafj0xibma8xgsh9qqpzynr6b8q2vmff98j"
+   "commit": "9c605cd4938c0055c2766c55606f19ecbf664e8e",
+   "sha256": "15s8nvzgz4ymayg0k3nia9h7kcrn5c8m4clspgz2pzz3ywh10cfw"
   },
   "stable": {
    "version": [
     1,
     11,
-    0
+    1
    ],
    "deps": [
     "clojure-mode",
@@ -12601,8 +12601,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "6e5294624959736c486f7a466bd5e78ce6183ab9",
-   "sha256": "0zr3p8isidfh9w44cjq50wk13balbswyyn2ycs368afkraqbry5w"
+   "commit": "9c605cd4938c0055c2766c55606f19ecbf664e8e",
+   "sha256": "15s8nvzgz4ymayg0k3nia9h7kcrn5c8m4clspgz2pzz3ywh10cfw"
   }
  },
  {
@@ -37934,11 +37934,14 @@
   "repo": "martianh/fedi.el",
   "unstable": {
    "version": [
-    20231016,
-    1415
+    20231111,
+    1848
    ],
-   "commit": "a9f5c41f14dcde42bd384274de9b45c2d39f1dc2",
-   "sha256": "00gacr1rf40r8zgy7gkd7maq905mx6g4mcnczjc2jlxh4iwp6gw1"
+   "deps": [
+    "markdown-mode"
+   ],
+   "commit": "c23a9f52a7a41e73abde0a3cdb6ddb9bd041b93b",
+   "sha256": "1raagaahzm0qp1zvq3j3iwgfvipqdlb0hdlvk3qyilqqb59phb9w"
   }
  },
  {
@@ -45924,14 +45927,14 @@
   "repo": "emacs-geiser/geiser",
   "unstable": {
    "version": [
-    20231001,
-    1932
+    20231111,
+    1149
    ],
    "deps": [
     "project"
    ],
-   "commit": "58bd510da5d09d9de52f4a6e60882b35445ca17a",
-   "sha256": "0n4346dc6kd0czj666lpmfq6ir6mrw0i45nkwpym6fhpg9cdynhy"
+   "commit": "49d12a14482ce9a193c049a5ccdd2fed90b0bdbe",
+   "sha256": "05kk8pa8dgm2bv9k2rfxi0m1kdpzz40csn7jgl5a38w1l1yjcffl"
   },
   "stable": {
    "version": [
@@ -82231,14 +82234,14 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20231109,
-    914
+    20231111,
+    2324
    ],
    "deps": [
     "chatgpt-shell"
    ],
-   "commit": "58bb4d8eb9218be4925201a39596387d160f4593",
-   "sha256": "1mqwc2wkz2ax4pzi76vqq59v4qjwp221sw4nw91nr6zbk5ws1780"
+   "commit": "03f8edabb95c6ffc64050d79fdb3091532711b59",
+   "sha256": "0h94zdx1nn98pg3mdlj6zvlswmj6i1yldnm1hb9pj2hccsdfj3bj"
   }
  },
  {
@@ -89170,8 +89173,8 @@
   "repo": "ichernyshovvv/org-timeblock",
   "unstable": {
    "version": [
-    20231109,
-    843
+    20231111,
+    1532
    ],
    "deps": [
     "compat",
@@ -89180,8 +89183,8 @@
     "persist",
     "svg"
    ],
-   "commit": "7ac198c48646f864f18aef1c7e55c15ab8d8b679",
-   "sha256": "0m6gzjzv4criydhsz2s3q1kqc3bs11zg5svgjaksb7piks9368ds"
+   "commit": "f840da6c6722cecc16e8d24a0c500be89f830fd4",
+   "sha256": "10m68l6ydfba6l358fqkd9cf6fjw5wdfkqi3b9xcl09312z1lnmn"
   },
   "stable": {
    "version": [
@@ -99500,10 +99503,10 @@
   "unstable": {
    "version": [
     20231111,
-    1403
+    1538
    ],
-   "commit": "afd7454aabc6e31637b631e85b831af7a0f6b135",
-   "sha256": "0qrclf4mmyprm5pabr898cphjv9276rm00dy96jc4hcg4cg5v5pc"
+   "commit": "518a5362870b6ef01d2d4a158bd38c7280687256",
+   "sha256": "1m7gvizfmvf1f6s4x72fszja90zq7sslmywgihzs7585107wy8s3"
   }
  },
  {
@@ -102691,14 +102694,14 @@
   "repo": "emacs-pe/redis.el",
   "unstable": {
    "version": [
-    20220429,
-    1758
+    20231111,
+    1733
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "a6ad30d6a43b7be083c13f8725b45571d623001a",
-   "sha256": "048jvvxb6cskhs95n2ngl4cfgf8hbqidvbi1xsyb0gyzvvqbrhj1"
+   "commit": "84382456beae70677aed2f9558a0b446f8ccc17a",
+   "sha256": "0zrjfikpnj6pxaj348wnknv9dnzhzqwsi8b26dbsln5zcwl131jz"
   }
  },
  {
@@ -107609,11 +107612,11 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20230709,
-    2036
+    20231111,
+    2324
    ],
-   "commit": "1ec51235295f4685f6cc1a7601255fdcabffc1b3",
-   "sha256": "1yijz5hx5pidl29kfzf7skdvmvkl8vj7xnlha5p1r2v9l54n5asq"
+   "commit": "03f8edabb95c6ffc64050d79fdb3091532711b59",
+   "sha256": "0h94zdx1nn98pg3mdlj6zvlswmj6i1yldnm1hb9pj2hccsdfj3bj"
   }
  },
  {
