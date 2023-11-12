@@ -1067,10 +1067,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20231111.100851";
+        version = "0.38.0.20231112.81933";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231111.100851.tar";
-          sha256 = "06ci5g7pr84wipfy0j50n0f5jpnbp0njykk4ypzszdlvk0hpk1g2";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231112.81933.tar";
+          sha256 = "1zmd13qbdknw03l65fir3a4niq5lbacj28j5kqknka87f3lz4pd2";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1911,10 +1911,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.23.0.20231104.193345";
+        version = "0.23.0.20231111.182732";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-0.23.0.20231104.193345.tar";
-          sha256 = "10qny8wp74np12sczz08gfrxspvapwvz2zkdig76wcrpd4kdpjk4";
+          url = "https://elpa.gnu.org/devel/embark-0.23.0.20231111.182732.tar";
+          sha256 = "1nfa17prc5iz42dkn2yyy2445agm8vg2lfm1if6cwnks8qhsqqkg";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1931,10 +1931,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.8.0.20231104.193345";
+        version = "0.8.0.20231111.182732";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-0.8.0.20231104.193345.tar";
-          sha256 = "15syrabv26yq69g2lz2dqs8w4drw1v3whr0h2vzmc1p0pv9jpks2";
+          url = "https://elpa.gnu.org/devel/embark-consult-0.8.0.20231111.182732.tar";
+          sha256 = "1yjpkng35pw120k3ihdk4pq9kllw3gn8kkzkknfcizlgvc4b940q";
         };
         packageRequires = [ consult emacs embark ];
         meta = {
@@ -1956,10 +1956,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.14pre0.20231029.40923";
+        version = "0.14pre0.20231111.212243";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20231029.40923.tar";
-          sha256 = "06r0s8dxlxr63a1zgdk0qxzd6x27r6mlymi6hxp8923yvwqddkdf";
+          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20231111.212243.tar";
+          sha256 = "13xd7m5pigfvqnrxqr40dg9139djb0m9l3p7scvi0fi05247kf5l";
         };
         packageRequires = [
           emacs
@@ -5719,10 +5719,10 @@
       elpaBuild {
         pname = "srht";
         ename = "srht";
-        version = "0.3.0.20231110.195341";
+        version = "0.3.0.20231111.235341";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/srht-0.3.0.20231110.195341.tar";
-          sha256 = "1k874zs9p57bdj9jgyjgff0lkniir0mrpgm9q0hgr7dgzn5c6m2c";
+          url = "https://elpa.gnu.org/devel/srht-0.3.0.20231111.235341.tar";
+          sha256 = "03yz3yfh3idwvnx4py6dxvwvw9dxdxjfw5grv6fnlhzba9n8cj31";
         };
         packageRequires = [ emacs plz ];
         meta = {
@@ -6643,10 +6643,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20231110.193721";
+        version = "1.4.0.20231112.81633";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20231110.193721.tar";
-          sha256 = "03yzz1b23fkwm8sjnv0qgalid6wjhay3gp6l2d824yxbd80cyrkw";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20231112.81633.tar";
+          sha256 = "1bd09rynkgcib98sd7jgcbmgdqhg1gq89lckvyz4dy4z45lndcdr";
         };
         packageRequires = [ compat emacs ];
         meta = {
