@@ -654,10 +654,10 @@
       elpaBuild {
         pname = "bufferlo";
         ename = "bufferlo";
-        version = "0.3.0.20231110.215646";
+        version = "0.3.0.20231111.144610";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/bufferlo-0.3.0.20231110.215646.tar";
-          sha256 = "03wf5innk9cy9bpg0limynhc9dqnjmll5ns0ka6dr2x3ql0j79w4";
+          url = "https://elpa.gnu.org/devel/bufferlo-0.3.0.20231111.144610.tar";
+          sha256 = "02vsgmfn7z4772dgfy9laraqrslzz7nqdaibzpj5qx2k0gxrh0nb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1067,10 +1067,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20231108.174629";
+        version = "0.38.0.20231111.100851";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231108.174629.tar";
-          sha256 = "1ynkyw7mkl8y66kxwy51gwdj60b4nadk9qbwsjljbfdnc80y6ws5";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231111.100851.tar";
+          sha256 = "06ci5g7pr84wipfy0j50n0f5jpnbp0njykk4ypzszdlvk0hpk1g2";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1491,10 +1491,10 @@
       elpaBuild {
         pname = "dired-duplicates";
         ename = "dired-duplicates";
-        version = "0.2.0.20231109.135341";
+        version = "0.2.0.20231110.121435";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dired-duplicates-0.2.0.20231109.135341.tar";
-          sha256 = "07ridbcy3n0v3dax7kj3d7nk2k0w57dnapd4kki4xhkm4fklx6w6";
+          url = "https://elpa.gnu.org/devel/dired-duplicates-0.2.0.20231110.121435.tar";
+          sha256 = "18nwv1ns2aq0v8ww1biqs4rxdmpxjg8z4h0p75ny923alk8zvycv";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4154,10 +4154,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231110.103114";
+        version = "9.7pre0.20231111.113447";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231110.103114.tar";
-          sha256 = "0yrqqxkv0lvshwvpwa7v7fbkijxkxwjsi2js56j3c5kgapibm4yl";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231111.113447.tar";
+          sha256 = "0kb5nsdhrlx5mny7dkpaqv6p6ad90i59f4cf65r4hnq8yamf8knd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6042,10 +6042,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "0.8.0.20231106.72513";
+        version = "0.8.0.20231111.112832";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tempel-0.8.0.20231106.72513.tar";
-          sha256 = "1pbw7wrhz5h1xykbc1ihhpzqc0kki6k637wagx8yfz95n606808d";
+          url = "https://elpa.gnu.org/devel/tempel-0.8.0.20231111.112832.tar";
+          sha256 = "1gd4dvill1vvdncibjfv7vl1rxlkhcq2nfppczyp2sr565fgcb0c";
         };
         packageRequires = [ compat emacs ];
         meta = {
