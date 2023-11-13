@@ -1177,10 +1177,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.0.0";
+        version = "2.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-2.0.0.tar";
-          sha256 = "1wrfbirkzf9szss1rgpmgdr0gy2dvhnbzlnyhw3sp2jvw5sb1xz9";
+          url = "https://elpa.gnu.org/packages/denote-2.1.0.tar";
+          sha256 = "1igp9h327b9x3fxrp34bz0x5slk659r3asjdia3jm8amajm4bw6s";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1446,6 +1446,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/docbook.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    drepl = callPackage ({ comint-mime, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "drepl";
+        ename = "drepl";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/drepl-0.1.tar";
+          sha256 = "0lx94kcxgp8s13w7hz9857r9baqfswvj7vc9frjq4crc4ps7fi7r";
+        };
+        packageRequires = [ comint-mime emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/drepl.html";
           license = lib.licenses.free;
         };
       }) {};
