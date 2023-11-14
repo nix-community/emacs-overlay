@@ -4169,10 +4169,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231111.113447";
+        version = "9.7pre0.20231113.92855";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231111.113447.tar";
-          sha256 = "0kb5nsdhrlx5mny7dkpaqv6p6ad90i59f4cf65r4hnq8yamf8knd";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231113.92855.tar";
+          sha256 = "0fbhjw36i5gcds3v1qncq79916m4m6nvnhm06lgrlzk1qhm2926z";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4955,10 +4955,10 @@
       elpaBuild {
         pname = "realgud";
         ename = "realgud";
-        version = "1.5.1.0.20231020.222710";
+        version = "1.5.1.0.20231113.141045";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/realgud-1.5.1.0.20231020.222710.tar";
-          sha256 = "0lmq7x7x8cm6y8vp2gin1h6h7chkflj5fyzls4b61rh15yg8m1h0";
+          url = "https://elpa.gnu.org/devel/realgud-1.5.1.0.20231113.141045.tar";
+          sha256 = "1lidmlrsg0jax0mmsxgpjk70x4i4vhiv5ira744rj7m3w0mwgmrw";
         };
         packageRequires = [ emacs load-relative loc-changes test-simple ];
         meta = {
@@ -5734,10 +5734,10 @@
       elpaBuild {
         pname = "srht";
         ename = "srht";
-        version = "0.3.0.20231112.134334";
+        version = "0.3.0.20231113.204645";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/srht-0.3.0.20231112.134334.tar";
-          sha256 = "1zqz7qx5smrq307x43i6wpsfzin84jb42xqwdmlhf9h024hszbff";
+          url = "https://elpa.gnu.org/devel/srht-0.3.0.20231113.204645.tar";
+          sha256 = "1n0jdiz1p45fy9lxddfgal3mm6ppsf11iqrgvpcdxw43sb8rvr3q";
         };
         packageRequires = [ emacs plz ];
         meta = {
