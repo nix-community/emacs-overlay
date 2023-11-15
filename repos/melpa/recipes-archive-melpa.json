@@ -6202,11 +6202,11 @@
   "repo": "nverno/awk-ts-mode",
   "unstable": {
    "version": [
-    20231022,
-    1757
+    20231115,
+    1037
    ],
-   "commit": "a32d83a2c8714c5f2fdb8cc8cb6733a2eb1a4e87",
-   "sha256": "1k3nyp4h9iqz6cx90g469jf2j7kvr4q8mqn2i0han2a406izk9n5"
+   "commit": "7b3f26d24be4732e001ae3a0e0db35111e68c38f",
+   "sha256": "00zgkg3biy3lkaj9jsmn7b4nmnlyj0bqsjfc4qabm2mk0yar0is6"
   }
  },
  {
@@ -14227,11 +14227,11 @@
   "url": "https://gitlab.kitware.com/cmake/cmake.git",
   "unstable": {
    "version": [
-    20231006,
-    1308
+    20231115,
+    1355
    ],
-   "commit": "9532e1cf5b238ee5da2ea0b2fbb0194eaa5aaf03",
-   "sha256": "0nc3g5cv49mzn3g4zakprc8z2iqwa19x8lyzic1691857n0im5k3"
+   "commit": "9cfff766eb26ab8b29aa509e42d6b367dd00c7b7",
+   "sha256": "0z1f9hrrmgrpcigavadkzdz31m2fl2mm099gwqn550awwaqdp7y3"
   },
   "stable": {
    "version": [
@@ -36177,11 +36177,11 @@
   "repo": "meain/evil-textobj-tree-sitter",
   "unstable": {
    "version": [
-    20231026,
-    1357
+    20231115,
+    1445
    ],
-   "commit": "b98c1c6d0b08317c9094bb222739ee037afbe7cd",
-   "sha256": "05y2sy9kbxk81pg6s45n9d1pymfm7zd0bz5zp6b240hyqc5qx8m8"
+   "commit": "9a9edd42a2dca9dfd0bc6026d47f689fa117b90f",
+   "sha256": "0j2zrhdffr3i9bwnaam5n908xmaq9z230sx6flid94cp9pvsxmxb"
   }
  },
  {
@@ -71724,8 +71724,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20231111,
-    1344
+    20231115,
+    1221
    ],
    "deps": [
     "dash",
@@ -71736,8 +71736,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "f8727d35f794408e0e81682ac47cb598df06a4c5",
-   "sha256": "0kw1bb1vzchaw675wb6ppvv4ndznlz176gkwgqfp57zjkg3hpdcj"
+   "commit": "91dbd0240afb5223b2ddfca8326d1c2fb3e8cf7f",
+   "sha256": "1anibzm7w9arzqpfm6p01v0522j022g2mwa01w0p1idwg6jjiivf"
   },
   "stable": {
    "version": [
@@ -75240,11 +75240,11 @@
   "repo": "ocaml/merlin",
   "unstable": {
    "version": [
-    20231108,
-    1124
+    20231115,
+    1306
    ],
-   "commit": "f46ebad2216460cf58293b913bb76c5e9bdc968c",
-   "sha256": "1wirkcwi21s8z3210h9fwqbman2fg2366b05vgmgasphirsjdsw0"
+   "commit": "53eaad5df01bbdabc9e655dbadebc302d0475f31",
+   "sha256": "1a2snly1iraxmyal8f61jj0zhcywmyzq6gglf1fqmmcx3xpv8xra"
   },
   "stable": {
    "version": [
@@ -76971,11 +76971,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20231031,
-    716
+    20231115,
+    1302
    ],
-   "commit": "ff70fd4136df589945d06de6926286d70243345b",
-   "sha256": "16qr26ihf50w536r6646csd2vxl6xgyyzywn095cxs8mq2qp7jzq"
+   "commit": "bdb18b2ee27344e44e2a17c78524205d02d5174c",
+   "sha256": "08m6mzh87q05dx7xvfnyqpj0jsg59g626qq8y5nrnmscf7pf0rkz"
   },
   "stable": {
    "version": [
@@ -101326,11 +101326,11 @@
   "repo": "greghendershott/racket-mode",
   "unstable": {
    "version": [
-    20231113,
-    1445
+    20231115,
+    1300
    ],
-   "commit": "dfd9c2369292b0ea6a6e3f2b86b9b9c5ad59f9c9",
-   "sha256": "1a873r1565iarj9k42mkdf3if1zz4xgkb7jm9gfrkcc568rbqnac"
+   "commit": "a745a92579ff65d2941a1226383a80a00b0c490c",
+   "sha256": "1fki87hfs0a9gr0vr3sznm6rrz6894jkb0qri563qq9kfkw2jk1a"
   }
  },
  {
@@ -115622,14 +115622,14 @@
   "unstable": {
    "version": [
     20231115,
-    126
+    1148
    ],
    "deps": [
     "rainbow-identifiers",
     "visual-fill-column"
    ],
-   "commit": "0ab94070cb8f652f194863074b278eb84cf6b1b3",
-   "sha256": "0qa70qcvysx31wxml3q0l0y0g6h4yssiz0wvxvcjz1pwax1fjbpm"
+   "commit": "140c044e6caf4206d8843c48fce5633c77c758d0",
+   "sha256": "1xwn2lnzhmhz0li2yw66gnsjqqbiz7rvfw0pqza6abf2dhfk3c8p"
   },
   "stable": {
    "version": [
@@ -118774,26 +118774,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20231114,
-    1215
+    20231115,
+    1119
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "4371d9fe69702a84ce2ddccd264d0b2e6ceeae5d",
-   "sha256": "0h5aaqqf9yfh45qv6kxcxwkl5f4ci6jr4akjqjp1sdgxz2pppa90"
+   "commit": "3a3ad0527d5f8c7768678878eb5cfe399bedf703",
+   "sha256": "0hbkb2b5i3dgax7jsjds4h6zyyzxyk5r5hcgpzlna61vqjwvvd8l"
   },
   "stable": {
    "version": [
     0,
     12,
-    78
+    79
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "4371d9fe69702a84ce2ddccd264d0b2e6ceeae5d",
-   "sha256": "0h5aaqqf9yfh45qv6kxcxwkl5f4ci6jr4akjqjp1sdgxz2pppa90"
+   "commit": "3a3ad0527d5f8c7768678878eb5cfe399bedf703",
+   "sha256": "0hbkb2b5i3dgax7jsjds4h6zyyzxyk5r5hcgpzlna61vqjwvvd8l"
   }
  },
  {
