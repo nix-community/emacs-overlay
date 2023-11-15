@@ -1318,10 +1318,10 @@
       elpaBuild {
         pname = "dired-duplicates";
         ename = "dired-duplicates";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dired-duplicates-0.2.tar";
-          sha256 = "1n5n961f1mrvcqfrz56734qj1ynajdjblyf4y60pw9m3fn03db4s";
+          url = "https://elpa.gnu.org/packages/dired-duplicates-0.3.tar";
+          sha256 = "1b9drjkbs9anqil274jrn031agpkir9mhs96l2ylm13n8imx9msl";
         };
         packageRequires = [ emacs ];
         meta = {

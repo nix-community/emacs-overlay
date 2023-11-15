@@ -920,14 +920,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    company = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    company = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231110.5234";
+        version = "0.10.2.0.20231115.12252";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231110.5234.tar";
-          sha256 = "18533dlk7k77if51kjhwlf2yb872ixjf1cffg197bnfy29sdrm11";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231115.12252.tar";
+          sha256 = "1jva22im1vab749dr63gdi4mq5xli8h2pqsw754l5y8nphv53vcw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1332,10 +1335,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.1.0.0.20231113.63637";
+        version = "2.1.0.0.20231115.61756";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.1.0.0.20231113.63637.tar";
-          sha256 = "0dfcb1a297891m7a8zasphjxs04xiiyn7f9n4cfjdab3qxhw7cvr";
+          url = "https://elpa.gnu.org/devel/denote-2.1.0.0.20231115.61756.tar";
+          sha256 = "13qmpdzlwiapz99k5p4vfz59k8arfv6byhgzxm9b8kfz8k5xjh46";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1491,10 +1494,10 @@
       elpaBuild {
         pname = "dired-duplicates";
         ename = "dired-duplicates";
-        version = "0.2.0.20231110.121435";
+        version = "0.3.0.20231114.215046";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dired-duplicates-0.2.0.20231110.121435.tar";
-          sha256 = "18nwv1ns2aq0v8ww1biqs4rxdmpxjg8z4h0p75ny923alk8zvycv";
+          url = "https://elpa.gnu.org/devel/dired-duplicates-0.3.0.20231114.215046.tar";
+          sha256 = "0rla938sj1zig7qcdxybl7qm4x1b0ndpf9xf9ikj0vfdghyg7z2s";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4788,10 +4791,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "1.0.1.0.20231101.62313";
+        version = "1.0.1.0.20231115.55251";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20231101.62313.tar";
-          sha256 = "10k57sd29hkbja85sn5yf7wm0g5wyk216ykdjl4vr03891ic03dg";
+          url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20231115.55251.tar";
+          sha256 = "15pvf6f0g423w3vi86l8djxvzzrvziml7rlqp314xskp8kz7w6g6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6678,10 +6681,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.7.3.0.20230818.15224";
+        version = "0.7.3.0.20231115.51213";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.3.0.20230818.15224.tar";
-          sha256 = "0q23yw8dy9abawqlcpwjrk668kvxyffv972j0s6579z37i643gv6";
+          url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.3.0.20231115.51213.tar";
+          sha256 = "1ymjcby120181rfl353kdx1i4jpg5vb6vrag5775bknr3ijjqax9";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
