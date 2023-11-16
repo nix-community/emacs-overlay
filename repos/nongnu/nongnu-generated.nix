@@ -1534,10 +1534,10 @@
       elpaBuild {
         pname = "haskell-mode";
         ename = "haskell-mode";
-        version = "17.4";
+        version = "17.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/haskell-mode-17.4.tar";
-          sha256 = "0xf8smasbb53ddg4vxckpg5w48dnm16v2k5vimfqr73cig49z87f";
+          url = "https://elpa.nongnu.org/nongnu/haskell-mode-17.5.tar";
+          sha256 = "0ld9wjak3fzwi9w2552fzq1562h7g19q69pigp16rj30smp5gkj7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2608,10 +2608,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20231113.94505";
+        version = "1.0.20231115.104415";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20231113.94505.tar";
-          sha256 = "0cxbrw7jbrc3zvn5qbfg073ymxg1cmdki7m2ihhr75jkr43sk3sj";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20231115.104415.tar";
+          sha256 = "01ihh66c20c2dv6apswgww8wxwn1ldqhpk70mfbgjipc9a7ykwws";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3471,10 +3471,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "24.18.20231112185021";
+        version = "24.18.20231115084756";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.18.20231112185021.tar";
-          sha256 = "04jlkn56h74fvx0l78yvg2z7a3y0grfzs99zkx88bd906vkcfap0";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.18.20231115084756.tar";
+          sha256 = "1vj8l4g4hpdvs1yvgkcy79vbf2ibhwxfgcrg1mj26qj3f9naf25s";
         };
         packageRequires = [ emacs ];
         meta = {
