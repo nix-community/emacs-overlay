@@ -927,10 +927,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231115.182802";
+        version = "0.10.2.0.20231115.225420";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231115.182802.tar";
-          sha256 = "0l18qi7m8anawl466xd7r3i3cjvhqprhwzclpw92x7hzgnjv73nl";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231115.225420.tar";
+          sha256 = "0zam0s9878916r2s52wdlhkrqz4760n9kwkgncwckh3n8j9ny3lp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5639,10 +5639,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.1.0.0.20231115.114712";
+        version = "0.1.0.0.20231116.30741";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/spacious-padding-0.1.0.0.20231115.114712.tar";
-          sha256 = "1why1wwbpasmag8czsgb65f8gkqjcg5hckgmk9106ml834krhhx5";
+          url = "https://elpa.gnu.org/devel/spacious-padding-0.1.0.0.20231116.30741.tar";
+          sha256 = "15lab7szvgnbkqzr97g3xva7wvn1610jii923kvv96bsvlsi74c7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5733,16 +5733,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    srht = callPackage ({ elpaBuild, emacs, fetchurl, lib, plz }:
+    srht = callPackage ({ elpaBuild, emacs, fetchurl, lib, plz, transient }:
       elpaBuild {
         pname = "srht";
         ename = "srht";
-        version = "0.3.0.20231114.102408";
+        version = "0.3.0.20231115.214606";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/srht-0.3.0.20231114.102408.tar";
-          sha256 = "0s5xa8vqb6wzxmv3vx8cc8lkpnnkfzdjljra7lz105m3v2adz1a0";
+          url = "https://elpa.gnu.org/devel/srht-0.3.0.20231115.214606.tar";
+          sha256 = "1ak5znrb08clyycfpmx6a83hykm2k70k685grk3g7z2i66rp4fj4";
         };
-        packageRequires = [ emacs plz ];
+        packageRequires = [ emacs plz transient ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/srht.html";
           license = lib.licenses.free;
@@ -6681,10 +6681,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.7.3.0.20231115.51213";
+        version = "0.7.4.0.20231116.5442";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.3.0.20231115.51213.tar";
-          sha256 = "1ymjcby120181rfl353kdx1i4jpg5vb6vrag5775bknr3ijjqax9";
+          url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.4.0.20231116.5442.tar";
+          sha256 = "1imc632hsbhr00mj9lgw2mlxji9vmjfvb89vjki753wbmad1vaqj";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
