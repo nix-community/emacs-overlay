@@ -14778,11 +14778,11 @@
   "repo": "emacs-jp/replace-colorthemes",
   "unstable": {
    "version": [
-    20220506,
-    858
+    20231116,
+    2258
    ],
-   "commit": "74ad69bbca6fcfff3c0960d888c7c9c1f9f3e2e8",
-   "sha256": "13ff4s372wsl5x13vh4vywhi6qcc54gybhp6rxl0r1l4wxidanwn"
+   "commit": "5f790421b6eff5d2915819fa23cfcdb19827fa91",
+   "sha256": "19r9ymfj7b0m8w2ggmk2syydi57yh2ljg4mrvxi1rljplz4kgqy6"
   },
   "stable": {
    "version": [
@@ -17626,14 +17626,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20231115,
-    1746
+    20231116,
+    2120
    ],
    "deps": [
     "compat"
    ],
-   "commit": "d7a0415c4ff3a84b696e5ddbc2ef15d0d45c405d",
-   "sha256": "15lvjb0hv3vb7xylavi2xsqdxq3b2ryi0zd866h5a3njhkk1sv76"
+   "commit": "04c89250e7eb1bffd822bcfa57b6049af6da2ea6",
+   "sha256": "172inr2rm9al5rpdg3imjlqzj52amvwa9j5qraz2kgx3mix7wf8v"
   },
   "stable": {
    "version": [
@@ -28893,19 +28893,20 @@
   "repo": "emacs-eldev/eldev",
   "unstable": {
    "version": [
-    20231115,
-    1824
+    20231116,
+    1642
    ],
-   "commit": "2aefc4d2820d922073917c7f87ea83c80c930ca6",
-   "sha256": "0z98cwzfj71xnq5wk5hgvdf2ar150cr6xs8mxwdi2204mqzzdsnd"
+   "commit": "65e00433b5673f18328fc824cbdb54e6f7b872bc",
+   "sha256": "0l38v1yk53fi0zbp0g9sqc9aimpfjh6c14w4xfha7anab39p2i7a"
   },
   "stable": {
    "version": [
     1,
-    8
+    8,
+    1
    ],
-   "commit": "c207e9537255d9167f9c578b2effc864f7e87743",
-   "sha256": "1jzknbdcvq4dp36f7p5abksd524lrlnmh6wycf0h3513wqnrprf8"
+   "commit": "31bd1c947df416d469198a9ce2a5d1b9dc636fd5",
+   "sha256": "058f2k2qhwbyr7a759wig9x6v6n2rl7zshqjbp4jnhnkcqkr70g5"
   }
  },
  {
@@ -29999,15 +30000,15 @@
   "repo": "s-kostyaev/ellama",
   "unstable": {
    "version": [
-    20231105,
-    1147
+    20231116,
+    2010
    ],
    "deps": [
     "llm",
     "spinner"
    ],
-   "commit": "702042c0bf79a4e81133fb2acb9031f5eae817b0",
-   "sha256": "182i95q0n6r2i774f66jkkmd172d4r8ybhqvayxfmgxr2ryfqwjg"
+   "commit": "8ba8897578b136688e5783329beb9b5accf191c3",
+   "sha256": "18xc128wkyhhka8sv26x7lwx9crhsxv6vfyk7pvf192m6zilnlpf"
   }
  },
  {
@@ -66986,15 +66987,15 @@
   "repo": "khoj-ai/khoj",
   "unstable": {
    "version": [
-    20231110,
-    828
+    20231116,
+    1948
    ],
    "deps": [
     "dash",
     "transient"
    ],
-   "commit": "39ad1c6ce6c70c22c5d7a3a686a289ef0465a675",
-   "sha256": "17qyv28apbwa2id4mhmdwji2bmcpq8r1fnbd9q8dmqxzblbxhx85"
+   "commit": "e8a13f08130de8fa9518df7cf258b492cc6ec3dd",
+   "sha256": "1kxg599vz8470gg6k0ky63xn0xnzdr4hqpbd522gq6d4iqiblsra"
   },
   "stable": {
    "version": [
@@ -75983,11 +75984,11 @@
   "repo": "liuyinz/mini-echo.el",
   "unstable": {
    "version": [
-    20231115,
-    13
+    20231116,
+    2124
    ],
-   "commit": "5dfd1608d384be3176c4f06fef908933e2fd4a02",
-   "sha256": "0pknwad9mm0szb4a0ar7wrc8lnwn45vf3vfq0wbflh6071mdnmkv"
+   "commit": "2793a21472375ed01ec97922ceb0fa6df7a40b33",
+   "sha256": "0k60z1gsc5r9zhvvky6bqw9syy4c1zlsc26039hpjbk8f9mqw8ri"
   },
   "stable": {
    "version": [
@@ -88360,8 +88361,8 @@
   "repo": "ahmed-shariff/org-roam-ql",
   "unstable": {
    "version": [
-    20231105,
-    2028
+    20231116,
+    2131
    ],
    "deps": [
     "magit-section",
@@ -88370,8 +88371,8 @@
     "s",
     "transient"
    ],
-   "commit": "6c8b03638fd9f423104093fb2e4128435528a72e",
-   "sha256": "120jin5lzjg0mcj9bp197hxhwy2ghycsk00zlax1ymi3pmlcrsmy"
+   "commit": "d666686830823fc9e6eee3f1144f52b49ed63994",
+   "sha256": "0nrqnq2azjgra1sa2mmyw8j9p94i5ah5kggqajl3mb3408000kxm"
   },
   "stable": {
    "version": [
@@ -116336,15 +116337,15 @@
   "repo": "hcl-emacs/terraform-mode",
   "unstable": {
    "version": [
-    20230607,
-    1923
+    20231116,
+    1525
    ],
    "deps": [
     "dash",
     "hcl-mode"
    ],
-   "commit": "25a22a66f81e35c75f2fdaaab89aad7f9940fe06",
-   "sha256": "11c9bwgrzjw3y70xq5g8z53hi71gpg2xx79d63a337rxyd3yaia5"
+   "commit": "e8b57df8c2a3d3171f3768f60eb84067f553289c",
+   "sha256": "03gdyal1r0b64ljmnpz0wcq9rylfh06cv3vggcz81zvjnyssh9qi"
   },
   "stable": {
    "version": [
