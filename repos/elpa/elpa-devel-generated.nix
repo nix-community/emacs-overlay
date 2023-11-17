@@ -5568,10 +5568,10 @@
       elpaBuild {
         pname = "so-long";
         ename = "so-long";
-        version = "1.1.2.0.20231021.130558";
+        version = "1.1.2.0.20231108.232435";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/so-long-1.1.2.0.20231021.130558.tar";
-          sha256 = "0mvmb3b7z66qziifqhiny00iih5l9znb6fyn33ga0rvvnsra32n0";
+          url = "https://elpa.gnu.org/devel/so-long-1.1.2.0.20231108.232435.tar";
+          sha256 = "0f3vhs5infyh1qn8j5c40ny5y4iqn2bvh760c8bqz74pkfpbzx67";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5639,10 +5639,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.1.0.0.20231116.30741";
+        version = "0.1.0.0.20231116.113254";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/spacious-padding-0.1.0.0.20231116.30741.tar";
-          sha256 = "15lab7szvgnbkqzr97g3xva7wvn1610jii923kvv96bsvlsi74c7";
+          url = "https://elpa.gnu.org/devel/spacious-padding-0.1.0.0.20231116.113254.tar";
+          sha256 = "0j0drayhg3p46mq4sg640j1a2wnrz8aa5fja4h6d7h99ckh1qs8s";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5737,10 +5737,10 @@
       elpaBuild {
         pname = "srht";
         ename = "srht";
-        version = "0.3.0.20231115.214606";
+        version = "0.3.0.20231116.142430";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/srht-0.3.0.20231115.214606.tar";
-          sha256 = "1ak5znrb08clyycfpmx6a83hykm2k70k685grk3g7z2i66rp4fj4";
+          url = "https://elpa.gnu.org/devel/srht-0.3.0.20231116.142430.tar";
+          sha256 = "1b8wv5gnyvjd64091nsj25hnlkwk6734gqx2v704qdzbcmd72bdn";
         };
         packageRequires = [ emacs plz transient ];
         meta = {
