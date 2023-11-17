@@ -400,10 +400,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "0.3.0";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/beframe-0.3.0.tar";
-          sha256 = "0naa3agr4h0z1fc3fwnsq4k57zpzvg7ganbr6dyp7c70ja8x32h0";
+          url = "https://elpa.gnu.org/packages/beframe-1.0.0.tar";
+          sha256 = "0fw0nsdp78x194gkscwfyayq51yfb8r4k0q51ia1rnj43kxmmvr9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2422,10 +2422,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.6.0";
+        version = "0.7.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.6.0.tar";
-          sha256 = "01sral1nrgkpbrajvg2pqhaj4rx48rryqfxckj3xprrs0yls3k8q";
+          url = "https://elpa.gnu.org/packages/greader-0.7.0.tar";
+          sha256 = "1g2bln3cm4rbyzq8pjh5zc1dfdjn6jr0ri7jb1m0gksi6a85ljpd";
         };
         packageRequires = [ emacs ];
         meta = {
