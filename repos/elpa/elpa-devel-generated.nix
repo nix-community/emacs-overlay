@@ -2887,10 +2887,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20231106.194732";
+        version = "8.0.1pre0.20231117.105857";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20231106.194732.tar";
-          sha256 = "02d4r3w6angwjw2wr192gkgwyzfb3vszdsb18baziqbwq2xh5cch";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20231117.105857.tar";
+          sha256 = "00zfrggqj1j2m5x61vkwfb8h3sg72ih74flg83fsxs936kd33dnx";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4172,10 +4172,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231117.82832";
+        version = "9.7pre0.20231117.130428";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231117.82832.tar";
-          sha256 = "10hj439ycr5vsl0i88mzcfq67b3x0imdg9bbgack5blvi6mzmhic";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231117.130428.tar";
+          sha256 = "0pma429qx7x0wyxxqlxbpw9rwh1sxx6cqlmv2753h2vwm3z19c7v";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4370,10 +4370,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.14.0.20231029.105928";
+        version = "0.14.0.20231117.144329";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/osm-0.14.0.20231029.105928.tar";
-          sha256 = "0hd2yg7yqnpdiy0icxz6fa128arrf2zl1sknj20ig52ba7z0wk2w";
+          url = "https://elpa.gnu.org/devel/osm-0.14.0.20231117.144329.tar";
+          sha256 = "1d2gz1yzjbibg23y21azrw61kr45h5rgjicka3rmp24nbyb7wk7m";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -5737,10 +5737,10 @@
       elpaBuild {
         pname = "srht";
         ename = "srht";
-        version = "0.3.0.20231116.142430";
+        version = "0.4.0.20231117.115741";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/srht-0.3.0.20231116.142430.tar";
-          sha256 = "1b8wv5gnyvjd64091nsj25hnlkwk6734gqx2v704qdzbcmd72bdn";
+          url = "https://elpa.gnu.org/devel/srht-0.4.0.20231117.115741.tar";
+          sha256 = "0az2gkxqhg8dlvjmcqjgz3p82mzc2j881j72pwzc79dyv3akd2aq";
         };
         packageRequires = [ emacs plz transient ];
         meta = {
