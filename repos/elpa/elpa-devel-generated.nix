@@ -874,10 +874,10 @@
       elpaBuild {
         pname = "code-cells";
         ename = "code-cells";
-        version = "0.3.0.20231015.132845";
+        version = "0.3.0.20231118.163515";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/code-cells-0.3.0.20231015.132845.tar";
-          sha256 = "07d0y8xv5fzwmfma0xfmsm98ypvkwchscq0893d131y0q7cfx1gi";
+          url = "https://elpa.gnu.org/devel/code-cells-0.3.0.20231118.163515.tar";
+          sha256 = "10zbrb7q5yckq5w224wrypn8rnx2ni0syz3m4m2diz2kwa27xbjm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -924,10 +924,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231118.3033";
+        version = "0.10.2.0.20231119.5213";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231118.3033.tar";
-          sha256 = "0rgs3plg6g7nzhvxajsgf2670fk1si0liisshms6271b01xdv2yn";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231119.5213.tar";
+          sha256 = "1rp2l7r8zvhx7xxwhqdxz57pkywdhb32carxfnad83dzqwf9nkp9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4367,10 +4367,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "0.14.0.20231117.144329";
+        version = "0.14.0.20231119.85248";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/osm-0.14.0.20231117.144329.tar";
-          sha256 = "1d2gz1yzjbibg23y21azrw61kr45h5rgjicka3rmp24nbyb7wk7m";
+          url = "https://elpa.gnu.org/devel/osm-0.14.0.20231119.85248.tar";
+          sha256 = "0rpg4qqnn73hknjqf8hq6ghnasam83w4qhdkzgwcl834jay8fiab";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6423,10 +6423,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.3.0snapshot0.20231110.152111";
+        version = "0.3.0snapshot0.20231118.225421";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.3.0snapshot0.20231110.152111.tar";
-          sha256 = "15vbi4vjqr9kz1q1525snl5pz35mgbzrjkysl7gm4zpj6s6qcbar";
+          url = "https://elpa.gnu.org/devel/urgrep-0.3.0snapshot0.20231118.225421.tar";
+          sha256 = "0i1hp9mdnv9n6bri2agai2sj2xwa9qvp4zzrv606wkf9xpl5k699";
         };
         packageRequires = [ compat emacs project ];
         meta = {
