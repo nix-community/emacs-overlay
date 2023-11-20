@@ -654,10 +654,10 @@
       elpaBuild {
         pname = "bufferlo";
         ename = "bufferlo";
-        version = "0.3.0.20231111.144610";
+        version = "0.4.0.20231119.183340";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/bufferlo-0.3.0.20231111.144610.tar";
-          sha256 = "02vsgmfn7z4772dgfy9laraqrslzz7nqdaibzpj5qx2k0gxrh0nb";
+          url = "https://elpa.gnu.org/devel/bufferlo-0.4.0.20231119.183340.tar";
+          sha256 = "1qnzzqyc0qalhkw2mx7l50x02v1kdhc8d8lbdb67brs1b7wqwa96";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2694,14 +2694,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    greader = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    greader = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.7.0.0.20231117.65215";
+        version = "0.8.0.0.20231119.151038";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.7.0.0.20231117.65215.tar";
-          sha256 = "0bgq2g5s410332s4kbl80nsk4ihy0374ylvqrp2ya90vpq76kmxh";
+          url = "https://elpa.gnu.org/devel/greader-0.8.0.0.20231119.151038.tar";
+          sha256 = "1bxls9zpzphsl4byichnn9nhp8ahjg77pfd14g2lcvhh7dxmngvy";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3993,10 +3996,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "1.1.0.0.20231014.82644";
+        version = "1.1.0.0.20231119.91529";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.1.0.0.20231014.82644.tar";
-          sha256 = "0ami3zpjjq7q191cylw44q72yspxd6i8gximgm4kqb0mplk4dd1w";
+          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.1.0.0.20231119.91529.tar";
+          sha256 = "0y0hkxyvwz4hjcfm3wkacyvkfak7s61jmf87560p4420xv91kshi";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6658,10 +6661,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.4.0.20231115.164627";
+        version = "1.4.0.20231119.191143";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20231115.164627.tar";
-          sha256 = "1rb2lvk2h7qxddws53n0qp5mg71b6gy94rdqy6nz77f1p3rrxqwf";
+          url = "https://elpa.gnu.org/devel/vertico-1.4.0.20231119.191143.tar";
+          sha256 = "14p3ws4vpd41qhbzaq6ga4r1z6az9xjgm44xrff5p5j8my161a71";
         };
         packageRequires = [ compat emacs ];
         meta = {

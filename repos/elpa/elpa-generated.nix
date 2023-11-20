@@ -569,10 +569,10 @@
       elpaBuild {
         pname = "bufferlo";
         ename = "bufferlo";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bufferlo-0.3.tar";
-          sha256 = "16fj1wiqymyys0wjnbmmfwpvqxnm3mlqfrg7nrsryfgpv2mv9z17";
+          url = "https://elpa.gnu.org/packages/bufferlo-0.4.tar";
+          sha256 = "07adw1wapys4aqxm8wyazfvg2r1y4amis7q50zf1k5cs03py1zvf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2422,10 +2422,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.7.0";
+        version = "0.8.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.7.0.tar";
-          sha256 = "1g2bln3cm4rbyzq8pjh5zc1dfdjn6jr0ri7jb1m0gksi6a85ljpd";
+          url = "https://elpa.gnu.org/packages/greader-0.8.0.tar";
+          sha256 = "0w4i2h9gviybw5yryqjvv7v3mhhmsmwchfq3pya2zi8jvk2aia9a";
         };
         packageRequires = [ emacs ];
         meta = {
