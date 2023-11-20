@@ -764,10 +764,10 @@
       elpaBuild {
         pname = "code-cells";
         ename = "code-cells";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/code-cells-0.3.tar";
-          sha256 = "0i5n9xqpf0www553in3xibc93vw9x6659zaqnvr5rkad95gz456x";
+          url = "https://elpa.gnu.org/packages/code-cells-0.4.tar";
+          sha256 = "0a7m6d5slz2zarbk54900cihs5071i63qdz4yj8n7j3zfz28x5kg";
         };
         packageRequires = [ emacs ];
         meta = {

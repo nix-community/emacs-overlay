@@ -874,10 +874,10 @@
       elpaBuild {
         pname = "code-cells";
         ename = "code-cells";
-        version = "0.3.0.20231118.163515";
+        version = "0.4.0.20231119.213845";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/code-cells-0.3.0.20231118.163515.tar";
-          sha256 = "10zbrb7q5yckq5w224wrypn8rnx2ni0syz3m4m2diz2kwa27xbjm";
+          url = "https://elpa.gnu.org/devel/code-cells-0.4.0.20231119.213845.tar";
+          sha256 = "0wrsp2xrvfp8f20gjw4r6434i4f822hz794mhnz44sn2ggs2mrn2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1384,10 +1384,10 @@
       elpaBuild {
         pname = "devdocs";
         ename = "devdocs";
-        version = "0.5.0.20230220.204256";
+        version = "0.5.0.20231119.214735";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/devdocs-0.5.0.20230220.204256.tar";
-          sha256 = "19vjsvyikyli7f367gh6razvdwgsdvjxy6sfywk272q11wy1imcy";
+          url = "https://elpa.gnu.org/devel/devdocs-0.5.0.20231119.214735.tar";
+          sha256 = "1h0agzj6381fxfkykcwzlxkiv8s9z639lll5962im9dhpr58i4jy";
         };
         packageRequires = [ emacs ];
         meta = {
