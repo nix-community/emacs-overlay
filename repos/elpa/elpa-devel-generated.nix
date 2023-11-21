@@ -5118,10 +5118,10 @@
       elpaBuild {
         pname = "rec-mode";
         ename = "rec-mode";
-        version = "1.9.2.0.20231120.130926";
+        version = "1.9.3.0.20231120.221944";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/rec-mode-1.9.2.0.20231120.130926.tar";
-          sha256 = "1323vvfhq0y9sqil2pfkd18fs1p420f70ghxfiibhdad32fa9vx8";
+          url = "https://elpa.gnu.org/devel/rec-mode-1.9.3.0.20231120.221944.tar";
+          sha256 = "1k5ncn93vffa4yf84c1ri57lb1sfc9b5czvwvsiijlgci2795j91";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6426,10 +6426,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.3.0snapshot0.20231118.225421";
+        version = "0.3.0snapshot0.20231120.195149";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.3.0snapshot0.20231118.225421.tar";
-          sha256 = "0i1hp9mdnv9n6bri2agai2sj2xwa9qvp4zzrv606wkf9xpl5k699";
+          url = "https://elpa.gnu.org/devel/urgrep-0.3.0snapshot0.20231120.195149.tar";
+          sha256 = "0k0h3jn42qq42gzpcc4pjglqzfhg8ppylgp4vsi0w7pi8rjm0iam";
         };
         packageRequires = [ compat emacs project ];
         meta = {
@@ -6681,10 +6681,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.7.4.0.20231116.5442";
+        version = "0.7.5.0.20231121.23902";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.4.0.20231116.5442.tar";
-          sha256 = "1imc632hsbhr00mj9lgw2mlxji9vmjfvb89vjki753wbmad1vaqj";
+          url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.5.0.20231121.23902.tar";
+          sha256 = "16ww83xnbrk58h0ds0zb167bg52qsw5x27nsjxg3qq7sdhrm1wly";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
