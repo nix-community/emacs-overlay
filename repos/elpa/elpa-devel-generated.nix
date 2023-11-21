@@ -5118,10 +5118,10 @@
       elpaBuild {
         pname = "rec-mode";
         ename = "rec-mode";
-        version = "1.9.1.0.20221220.80844";
+        version = "1.9.2.0.20231120.130926";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/rec-mode-1.9.1.0.20221220.80844.tar";
-          sha256 = "0wzc76phg755q47qrin32i7a6d3g5qrsvlnl3kfzhncmjcb118lh";
+          url = "https://elpa.gnu.org/devel/rec-mode-1.9.2.0.20231120.130926.tar";
+          sha256 = "1323vvfhq0y9sqil2pfkd18fs1p420f70ghxfiibhdad32fa9vx8";
         };
         packageRequires = [ emacs ];
         meta = {
