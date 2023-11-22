@@ -1564,10 +1564,10 @@
       elpaBuild {
         pname = "helm";
         ename = "helm";
-        version = "3.9.5";
+        version = "3.9.6";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-3.9.5.tar";
-          sha256 = "1vsg1xflz5880h477s8hqrxinv4wdx12gdvs08zy7xbmypzwhrz1";
+          url = "https://elpa.nongnu.org/nongnu/helm-3.9.6.tar";
+          sha256 = "03w5zz8rj1v3hgyki1yciggmq8kwy9vncxs5llcya54wa7p1zmy2";
         };
         packageRequires = [ helm-core popup wfnames ];
         meta = {
@@ -1579,10 +1579,10 @@
       elpaBuild {
         pname = "helm-core";
         ename = "helm-core";
-        version = "3.9.5";
+        version = "3.9.6";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-core-3.9.5.tar";
-          sha256 = "1ixbbh0zcxnkl5ry5sswgh8nw8a2hrgkw9hqzznz9wiw1avs4g9c";
+          url = "https://elpa.nongnu.org/nongnu/helm-core-3.9.6.tar";
+          sha256 = "1n6c06mfjj3ja7nfapc0w3pvp73pinfss8br4bjafisj5lbhgxda";
         };
         packageRequires = [ async emacs ];
         meta = {
@@ -2608,10 +2608,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20231121.101845";
+        version = "1.0.20231121.123637";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20231121.101845.tar";
-          sha256 = "0sjd2kbyc7z0sxqwmi86wijrxrnf22lpwpbidg6pmvfldc05g4vp";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20231121.123637.tar";
+          sha256 = "0ix4icdz6fnac7ljca79jwzg6wrrj4rpjjjm8y9xdn59shxavb8w";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2668,10 +2668,10 @@
       elpaBuild {
         pname = "reformatter";
         ename = "reformatter";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/reformatter-0.7.tar";
-          sha256 = "17y61gqljc4r66dp3qbggvpgj8wacnhv7kq4pwkpbb1h5a5l5b6z";
+          url = "https://elpa.nongnu.org/nongnu/reformatter-0.8.tar";
+          sha256 = "0yr0h8f53gaxnfz0dvvs9b4jqwp6p0j8xvv01g76j0map0fxkcam";
         };
         packageRequires = [ emacs ];
         meta = {
