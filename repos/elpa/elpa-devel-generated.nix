@@ -2887,10 +2887,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.1pre0.20231117.105857";
+        version = "8.0.1pre0.20231121.124020";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20231117.105857.tar";
-          sha256 = "00zfrggqj1j2m5x61vkwfb8h3sg72ih74flg83fsxs936kd33dnx";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.1pre0.20231121.124020.tar";
+          sha256 = "0k2mi6rsql29ygps4f3d0i6zvm3ki55psa9r1gbj4x95xmld7c1b";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3996,10 +3996,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "1.1.0.0.20231119.91529";
+        version = "1.1.0.0.20231121.112821";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.1.0.0.20231119.91529.tar";
-          sha256 = "0y0hkxyvwz4hjcfm3wkacyvkfak7s61jmf87560p4420xv91kshi";
+          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.1.0.0.20231121.112821.tar";
+          sha256 = "0zsci5zb4hdcl5q3brqndhkjy7f6j7fb47kphrg0rh804z40d6mf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6248,10 +6248,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.4.3.0.20231112.92348";
+        version = "0.4.3.0.20231121.115422";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.4.3.0.20231112.92348.tar";
-          sha256 = "01yvwx8psllys34fry1vp2h7w3jll8kcrglsri8p2d3bps45pn14";
+          url = "https://elpa.gnu.org/devel/transient-0.4.3.0.20231121.115422.tar";
+          sha256 = "1619j0y81ynnb3k09j71c0xqlj167ayxgbk6dk2jd4267vh0j75j";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
