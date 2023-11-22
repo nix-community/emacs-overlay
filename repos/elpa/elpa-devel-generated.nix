@@ -582,10 +582,10 @@
       elpaBuild {
         pname = "breadcrumb";
         ename = "breadcrumb";
-        version = "1.0.1.0.20231107.53204";
+        version = "1.0.1.0.20231121.231915";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20231107.53204.tar";
-          sha256 = "0ai8vw9mnlbsc6qmvapdw8mnkssxj1g3hg83acjc4vlcrdxr40vg";
+          url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20231121.231915.tar";
+          sha256 = "10i1z8vpfjn4q4652w7ck14vlafnfg0rh5px59vpdkk5n3pmn1vm";
         };
         packageRequires = [ emacs project ];
         meta = {
@@ -924,10 +924,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231119.5213";
+        version = "0.10.2.0.20231122.608";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231119.5213.tar";
-          sha256 = "1rp2l7r8zvhx7xxwhqdxz57pkywdhb32carxfnad83dzqwf9nkp9";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231122.608.tar";
+          sha256 = "0a6r7rhbs83da67yp90kn3adk2sx9xa4r6hac4c42jqgkvlhf3kz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5847,17 +5847,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    svg-lib = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    svg-lib = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.2.7.0.20230619.143402";
+        version = "0.2.8.0.20231122.73323";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/svg-lib-0.2.7.0.20230619.143402.tar";
-          sha256 = "1h4knhasimf496qhlvm132cghpam303vl9mbdg4p3ld5jcd6ghz5";
+          url = "https://elpa.gnu.org/devel/svg-lib-0.2.8.0.20231122.73323.tar";
+          sha256 = "1hl0bvgpm0dnf0v0ayzxnbwr731afxbkinjj7q66i8hzmsf2val4";
         };
         packageRequires = [ emacs ];
         meta = {
