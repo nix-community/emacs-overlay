@@ -39202,11 +39202,11 @@
   "repo": "crmsnbleyd/flexoki-emacs-theme",
   "unstable": {
    "version": [
-    20231121,
-    1653
+    20231122,
+    256
    ],
-   "commit": "1b871e57e989d58a793cbfef7b4996a6bd47ba9f",
-   "sha256": "0npl45h1l8jhrd5dcaaql5in4pj7c3wxnqsp8di668pz2s4i9pfh"
+   "commit": "99a22e20796d31beb0de9394e9ce00b5fc1b1e13",
+   "sha256": "0szmm76xx5kkka7j5j0xmg6qpn7n9dzqw4hbw69471bnjnfad6y4"
   }
  },
  {
@@ -52472,30 +52472,30 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20231114,
-    1504
+    20231122,
+    631
    ],
    "deps": [
     "helm-core",
     "popup",
     "wfnames"
    ],
-   "commit": "74887ba26071fba4c66ac3b4dc11d7d632832394",
-   "sha256": "1gyd03dln19cjwgrh3m72qik77hdc2waiv61knzk30pq3dds965j"
+   "commit": "d1f10e5a998254a763304a925963dc6d54e934b1",
+   "sha256": "01b2608gsly557927wdkp71mbakk7h23icjnxq097r12zra4agc7"
   },
   "stable": {
    "version": [
     3,
     9,
-    5
+    6
    ],
    "deps": [
     "helm-core",
     "popup",
     "wfnames"
    ],
-   "commit": "ffff39b542196565dcec5641e287265aaa5517ed",
-   "sha256": "067nc728dfbwzfs07z26cwcqjj00l4lvw3n9bl1zw094v0x6hxxm"
+   "commit": "d1f10e5a998254a763304a925963dc6d54e934b1",
+   "sha256": "01b2608gsly557927wdkp71mbakk7h23icjnxq097r12zra4agc7"
   }
  },
  {
@@ -53365,26 +53365,26 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20231108,
-    1729
+    20231122,
+    631
    ],
    "deps": [
     "async"
    ],
-   "commit": "2534c228ef6699cb2588349c44627835fc444278",
-   "sha256": "1iq9cpf4nywfiw1f3ki5jcxpb2mlyqm6pgqfa6alfkkpvgrap9l3"
+   "commit": "d1f10e5a998254a763304a925963dc6d54e934b1",
+   "sha256": "01b2608gsly557927wdkp71mbakk7h23icjnxq097r12zra4agc7"
   },
   "stable": {
    "version": [
     3,
     9,
-    5
+    6
    ],
    "deps": [
     "async"
    ],
-   "commit": "ffff39b542196565dcec5641e287265aaa5517ed",
-   "sha256": "067nc728dfbwzfs07z26cwcqjj00l4lvw3n9bl1zw094v0x6hxxm"
+   "commit": "d1f10e5a998254a763304a925963dc6d54e934b1",
+   "sha256": "01b2608gsly557927wdkp71mbakk7h23icjnxq097r12zra4agc7"
   }
  },
  {
@@ -120270,6 +120270,22 @@
    "commit": "9893d09160ef7e8c0ecdcd74fca99ffeb5f9d70d",
    "sha256": "1ri50nab778kpq49m54ra75z8dphagp9sz92is0636j4qy3sbih1"
   }
+ },
+ {
+  "ename": "uiua-mode",
+  "commit": "4a2316e3209d44d8f8a940f2b3401afab5f0f081",
+  "sha256": "0qxcgnj8c3wawkmnf471k2zgkk50qw69facnj30gi4l3w3494zng",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "crmsnbleyd/uiua-mode"
+ },
+ {
+  "ename": "uiua-ts-mode",
+  "commit": "4a2316e3209d44d8f8a940f2b3401afab5f0f081",
+  "sha256": "016b3jmss59yiwh7wsigyrhs1cxgw11v0mhs5fjkhwy7c13rfffj",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "crmsnbleyd/uiua-mode"
  },
  {
   "ename": "ujelly-theme",
