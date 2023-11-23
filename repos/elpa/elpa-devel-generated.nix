@@ -297,10 +297,10 @@
       elpaBuild {
         pname = "async";
         ename = "async";
-        version = "1.9.7.0.20231122.121812";
+        version = "1.9.7.0.20231122.210110";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/async-1.9.7.0.20231122.121812.tar";
-          sha256 = "0iv5i6jd7jz2v2nx27dr70a1d4dqrvdaa3p5f76hhz9jd8qaqq0c";
+          url = "https://elpa.gnu.org/devel/async-1.9.7.0.20231122.210110.tar";
+          sha256 = "14qjz1gn0bv4p54sjpapp8g3kd3jhm6f3nkm0a2dc3z12a9r7gs9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -927,10 +927,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231122.175953";
+        version = "0.10.2.0.20231123.13539";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231122.175953.tar";
-          sha256 = "1k7jvbsdb18va7as3hn3dc4i3bpwb7p8ms2mxh277jwq3nqsf35s";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231123.13539.tar";
+          sha256 = "1a3nk2m4s8s32lw0ycf3lw2ar689x4hh3bqg3ywr89nx6agwajcn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1335,10 +1335,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.1.1.0.20231118.90011";
+        version = "2.1.1.0.20231123.62608";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.1.1.0.20231118.90011.tar";
-          sha256 = "1z3qfkm6bnram4zyccsb1gmfvr62labgg62kjy2chx8bflbl4apb";
+          url = "https://elpa.gnu.org/devel/denote-2.1.1.0.20231123.62608.tar";
+          sha256 = "0c183rh60crnarxmz59rik5svi6ldk7g8fi58lc8cfznrvpq7s4x";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3999,10 +3999,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "1.1.0.0.20231122.111413";
+        version = "1.1.0.0.20231123.51032";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.1.0.0.20231122.111413.tar";
-          sha256 = "0r5vmkpjvmhx7qdiasrxlp2fdaxq3z1nv609sgdypznvhx7lwwds";
+          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.1.0.0.20231123.51032.tar";
+          sha256 = "03vr87wd11i8q011vf3543mlxgr34lkf4znwl66k0qd2bs7hprj8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6426,10 +6426,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.3.0snapshot0.20231120.195149";
+        version = "0.3.0snapshot0.20231122.133734";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.3.0snapshot0.20231120.195149.tar";
-          sha256 = "0k0h3jn42qq42gzpcc4pjglqzfhg8ppylgp4vsi0w7pi8rjm0iam";
+          url = "https://elpa.gnu.org/devel/urgrep-0.3.0snapshot0.20231122.133734.tar";
+          sha256 = "026rd9fg6b2qnayxq7hv9py4v8m7h16qkw3q2hycxdcpr06ax7xa";
         };
         packageRequires = [ compat emacs project ];
         meta = {
