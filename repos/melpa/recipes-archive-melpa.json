@@ -4468,11 +4468,11 @@
   "repo": "jwiegley/emacs-async",
   "unstable": {
    "version": [
-    20231105,
-    1713
+    20231122,
+    2101
    ],
-   "commit": "3bade0e92e1ee8e716c5db14bc8315b17299f138",
-   "sha256": "13b88shazsi7crn8cpb3f0k4vzai45srymwriq14axmq48i8z33m"
+   "commit": "b4b5a7eedc30122aebf84ee950dc84da444e8953",
+   "sha256": "1si17msm721y3r5dp5jjb8ww60080z2yg53h153kmg86ifrgggry"
   },
   "stable": {
    "version": [
@@ -8851,15 +8851,15 @@
   "repo": "emacscollective/borg",
   "unstable": {
    "version": [
-    20231101,
-    2319
+    20231122,
+    2251
    ],
    "deps": [
     "epkg",
     "magit"
    ],
-   "commit": "d8aecb09193448de12d5a19ac7bf242f3c39e767",
-   "sha256": "07lfdmfs2bfn9a0zq6jvh8mizj0sr02ngib6fil9w31rlp7p8gnn"
+   "commit": "b6507ebd915a83e34558feb917c7324a18b84ce4",
+   "sha256": "0k320n0z1927k5y7xvdnxdwkrnqprazh6hql5w25dfn5dx2n4sl4"
   },
   "stable": {
    "version": [
@@ -12957,15 +12957,15 @@
   "repo": "emacs-citar/citar",
   "unstable": {
    "version": [
-    20231019,
-    2047
+    20231122,
+    1548
    ],
    "deps": [
     "citar",
     "embark"
    ],
-   "commit": "e21bf22b29d8ca40649517bb7dc503765f240282",
-   "sha256": "07q94iplkx29lggrs5xfzj42rxfcn2cnbr90jgifk29jshcz30pv"
+   "commit": "572b7b6e569e9423dd948539fa48d3f53ceffe57",
+   "sha256": "17qfkiwy2mvyp6rwkxwxhlx2lxw5j2rb7n15c3dyzvfdphxjfikd"
   },
   "stable": {
    "version": [
@@ -15273,11 +15273,11 @@
   "repo": "company-mode/company-mode",
   "unstable": {
    "version": [
-    20231121,
-    2103
+    20231122,
+    1759
    ],
-   "commit": "dde921a83912a055b09c193d29f499910efb1cd8",
-   "sha256": "0hjwxhyswmdi7qw6bdn6mypvqfq31mfc3i71zn9qwcsr33ik9322"
+   "commit": "de82743affd90e3c384bd94ec934e6fb5094d947",
+   "sha256": "0sjz5qmcygm93hxkj0qaz2grnc9n71xxswis3k0nprcmbi6jr971"
   },
   "stable": {
    "version": [
@@ -21968,6 +21968,15 @@
    ],
    "commit": "aad4fa9f4e0d4140e2707f4cc678b1dc3c0672fa",
    "sha256": "0lxw55l0p5cgp1kgwh0yzh9bc3wvgnd932jmfy77nmiw6wl4achm"
+  },
+  "stable": {
+   "version": [
+    1,
+    1,
+    0
+   ],
+   "commit": "add132447ade02afef1328bf50040f77cbd86087",
+   "sha256": "1zvg36d1s0qw321dpsv0yrvmyd35hi64s7k4bdpl4mrm2yffsfm6"
   }
  },
  {
@@ -34849,15 +34858,15 @@
   "repo": "emacsorphanage/evil-escape",
   "unstable": {
    "version": [
-    20221010,
-    2116
+    20231122,
+    2114
    ],
    "deps": [
     "cl-lib",
     "evil"
    ],
-   "commit": "3c335a5709b1abb08687960038746b36add465f9",
-   "sha256": "1z30v59igndqzxg9gcx4bsbf5jkh11wp936il8azkrz3qdryaj4a"
+   "commit": "bdb1e69971520cbd65fe61830a1cdea5734d743c",
+   "sha256": "0vdmzp4hxqvng5pw3iz7flc36ndaphnia8s1cg229i8vm27lrmqy"
   },
   "stable": {
    "version": [
@@ -76432,11 +76441,11 @@
   "repo": "szermatt/mistty",
   "unstable": {
    "version": [
-    20231121,
-    1957
+    20231122,
+    2029
    ],
-   "commit": "7b0548b178526881c3b9f9db8648b3e000d560d5",
-   "sha256": "0c5fp1jcwcjlw97hq68xa4vp2833a3912kmb8zycqrpgqp5qxky6"
+   "commit": "d51d6d995db42377d225169ec8ad200cbbfca401",
+   "sha256": "0534s8d565y9sgqxf531xnj4lc67wsixpgg5x630rxaf5b8dwzcy"
   },
   "stable": {
    "version": [
@@ -118994,8 +119003,8 @@
   "repo": "Alexander-Miller/treemacs",
   "unstable": {
    "version": [
-    20231109,
-    1915
+    20231122,
+    2131
    ],
    "deps": [
     "ace-window",
@@ -119007,8 +119016,8 @@
     "pfuture",
     "s"
    ],
-   "commit": "a1e855bce6c112d57994c991bc50775b6922f73e",
-   "sha256": "0vhlyqfa70jxc3yfh7g3vpr792kk88jsd16majn1jkqmldi6vk3r"
+   "commit": "fb8980cef6033afb97ed74173364817488daaad1",
+   "sha256": "1294s28xgz8wsaxh1bff3i5ibbcykwhws7ypjwg0cmv7awryb4fm"
   },
   "stable": {
    "version": [
@@ -119982,6 +119991,15 @@
    ],
    "commit": "3114d05731517d40972e2ed896806b25bdc0d8c2",
    "sha256": "0ns5warzk9hy4wivw5qc51lj95ik66wv4d82qxr49grrmy47924f"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    0
+   ],
+   "commit": "3114d05731517d40972e2ed896806b25bdc0d8c2",
+   "sha256": "0ns5warzk9hy4wivw5qc51lj95ik66wv4d82qxr49grrmy47924f"
   }
  },
  {
@@ -120280,13 +120298,13 @@
   "unstable": {
    "version": [
     20231122,
-    1344
+    1849
    ],
    "deps": [
     "reformatter"
    ],
-   "commit": "9649781f36dacac252bdbf7edc38d451f7d61ca5",
-   "sha256": "173zbcx5gx624r3mv2nl655kgx3riq395ynzjvxgcy243pzcc58q"
+   "commit": "babb5b7a41ec89fb936bfcb376b61fe3250a31d6",
+   "sha256": "115i3qm75lshk32l5b1bss87d7fzsfqjyj0vm4n4apsbigvv6p8k"
   }
  },
  {
