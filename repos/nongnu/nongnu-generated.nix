@@ -2365,6 +2365,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    p4-16-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "p4-16-mode";
+        ename = "p4-16-mode";
+        version = "0.3";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/p4-16-mode-0.3.tar";
+          sha256 = "1jl8mcwpzry7lmfm486wjvvx76053pjp68p1abcrjvg4ppsmbj93";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/p4-16-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     package-lint = callPackage ({ cl-lib ? null
                                 , compat
                                 , elpaBuild
