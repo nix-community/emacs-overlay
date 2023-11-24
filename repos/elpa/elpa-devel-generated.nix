@@ -1793,10 +1793,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.4.0.0.20231117.50558";
+        version = "1.4.0.0.20231124.82620";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.4.0.0.20231117.50558.tar";
-          sha256 = "09mrfbfarylc78zankclj0ri2q3i9xxacqy0ka7nlr8bpr2cf19l";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.4.0.0.20231124.82620.tar";
+          sha256 = "0riji1zb0604g43zg0xwq1ivsh1z1209gh46wjmgcjq558icm4qf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3479,10 +3479,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "1.1.1.0.20230915.41852";
+        version = "1.1.1.0.20231124.52443";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/logos-1.1.1.0.20230915.41852.tar";
-          sha256 = "1p7bz3p0ccp74pi4wbkz813zgkxz1lr9hxxfrnipgh120a72g3y8";
+          url = "https://elpa.gnu.org/devel/logos-1.1.1.0.20231124.52443.tar";
+          sha256 = "061bvyki036dfm9piiahmg2c0hv39vh5c9wdiaqdj1f28kxkxdcq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3741,10 +3741,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.3.0.0.20231118.61613";
+        version = "4.3.0.0.20231124.81421";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20231118.61613.tar";
-          sha256 = "0nr6a3g7ywaxz67dl1hhkqkx6pbbs2wybypna5qbn3ig3q8pna6s";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20231124.81421.tar";
+          sha256 = "13yn53b2wc50zlalyigaf62sp7yjgiwc2v3izp5f5zlyv63g4pcf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4794,10 +4794,10 @@
       elpaBuild {
         pname = "pulsar";
         ename = "pulsar";
-        version = "1.0.1.0.20231115.55251";
+        version = "1.0.1.0.20231124.52804";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20231115.55251.tar";
-          sha256 = "15pvf6f0g423w3vi86l8djxvzzrvziml7rlqp314xskp8kz7w6g6";
+          url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20231124.52804.tar";
+          sha256 = "086f3rndlk0jhzn1y982sncadh01xlmgxf13j72n6s42j6cb4kvg";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4841,10 +4841,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20230930.220905";
+        version = "0.28.0.20231124.4434";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20230930.220905.tar";
-          sha256 = "1wx5r444rzbqhxj9gqhcxaliv7w8iqiscnbdnz2h8px1wdsfqxw9";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20231124.4434.tar";
+          sha256 = "0nknwib91l47l99qbz6hw8r56qjr6c6dxhivzsg7854720s25vl3";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -5642,10 +5642,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.1.0.0.20231116.113254";
+        version = "0.2.0.0.20231124.54509";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/spacious-padding-0.1.0.0.20231116.113254.tar";
-          sha256 = "0j0drayhg3p46mq4sg640j1a2wnrz8aa5fja4h6d7h99ckh1qs8s";
+          url = "https://elpa.gnu.org/devel/spacious-padding-0.2.0.0.20231124.54509.tar";
+          sha256 = "1w4kcdadqqg0x46pd2ml9galljn86v12lxa4bbmi1dr53i2f8x6v";
         };
         packageRequires = [ emacs ];
         meta = {
