@@ -3060,8 +3060,8 @@
   "repo": "pythonic-emacs/anaconda-mode",
   "unstable": {
    "version": [
-    20230821,
-    2131
+    20231123,
+    1806
    ],
    "deps": [
     "dash",
@@ -3069,8 +3069,8 @@
     "pythonic",
     "s"
    ],
-   "commit": "9dbd65b034cef519c01f63703399ae59651f85ca",
-   "sha256": "14h0437i46hacnqi82rvc8bq3lgchhznq9ab5l49mmizq5fv25wq"
+   "commit": "92a6295622df7fae563d6b599e2dc8640e940ddf",
+   "sha256": "0x5srah4w3vrn5wqzfy02dfxmxyi0hfvlk7nq3h2dshz6q6x7b9z"
   },
   "stable": {
    "version": [
@@ -13531,8 +13531,8 @@
   "repo": "clojure-emacs/clj-refactor.el",
   "unstable": {
    "version": [
-    20231116,
-    525
+    20231124,
+    724
    ],
    "deps": [
     "cider",
@@ -13545,8 +13545,8 @@
     "seq",
     "yasnippet"
    ],
-   "commit": "05e90bd9a0f24027011aab1bf041c16a24797e0c",
-   "sha256": "0y91034nkvx9sz69k5wfynf0cj4rcwnav33n8bq72cknvv67zll8"
+   "commit": "0a2a6cbc2e29177f4f55730637a357433a03fa38",
+   "sha256": "052zcvbmx0bb9smnyhdhzyaf90finqrasm4gvvb2mbld5hil42b3"
   },
   "stable": {
    "version": [
@@ -13860,11 +13860,11 @@
   "repo": "clojure-emacs/clojure-mode",
   "unstable": {
    "version": [
-    20231105,
-    1254
+    20231124,
+    732
    ],
-   "commit": "481ca480e8b7b6c90881f8bd8434addab1d33778",
-   "sha256": "09124cnvq7cnllsnbbshx1frbha6sydjgzn00k3rkyxclhbm8vhd"
+   "commit": "25d713a67d8e0209ee74bfc0153fdf677697b43f",
+   "sha256": "1d5kkq2i8d04k2qfrb31zyjpij92ckbccnzvz01mls3xrvpr57m5"
   },
   "stable": {
    "version": [
@@ -13884,14 +13884,14 @@
   "repo": "clojure-emacs/clojure-mode",
   "unstable": {
    "version": [
-    20231018,
-    922
+    20231124,
+    732
    ],
    "deps": [
     "clojure-mode"
    ],
-   "commit": "525fc1b131b1fc537aa82d83d9eb2ea833cface6",
-   "sha256": "0g4x587fpzcj9y59k8sb1g7c6yvga9gjs8ximpmar7d8jq2cv5qa"
+   "commit": "25d713a67d8e0209ee74bfc0153fdf677697b43f",
+   "sha256": "1d5kkq2i8d04k2qfrb31zyjpij92ckbccnzvz01mls3xrvpr57m5"
   },
   "stable": {
    "version": [
@@ -27102,26 +27102,26 @@
   "repo": "knu/easy-kill-extras.el",
   "unstable": {
    "version": [
-    20231123,
-    2031
+    20231124,
+    443
    ],
    "deps": [
     "easy-kill"
    ],
-   "commit": "9dcdd662f8bdf9afd7366b5009e5f04e9dcf57d1",
-   "sha256": "1grhi6nvm14zba2cqia1dis3h29aamk81y4m8yfl665cs1q3rypd"
+   "commit": "ff9de0c9186f8e43cb29611c78756b14e728dbb3",
+   "sha256": "0a3zlp6vsz47rnj8cr2az71cdinkm951jp67yl1cbk2z0v1szjy7"
   },
   "stable": {
    "version": [
     0,
     9,
-    13
+    14
    ],
    "deps": [
     "easy-kill"
    ],
-   "commit": "7bb0cbf58ba83d743675a8e84215522d677b8d87",
-   "sha256": "1mmk4cy1m0gvi5mv54asdw10bjqb5xd83k2kab6dsc4sshx2bfwf"
+   "commit": "ff9de0c9186f8e43cb29611c78756b14e728dbb3",
+   "sha256": "0a3zlp6vsz47rnj8cr2az71cdinkm951jp67yl1cbk2z0v1szjy7"
   }
  },
  {
@@ -76521,20 +76521,20 @@
   "repo": "jdtsmith/mlscroll",
   "unstable": {
    "version": [
-    20221204,
-    1608
+    20231124,
+    336
    ],
-   "commit": "de9f84531ca4db6e54a2ca7201638decc0ccadd4",
-   "sha256": "04gqvlqb00jmkxj4wv4yr3hyvyal4vp2i2x0r338144bhwcxmi71"
+   "commit": "01ea3f85c3bd58f9c3d286947272ea69bd7db69e",
+   "sha256": "0cb4ijfw76890mpv1nylxr0nyr2fvn99dy228azk2k56fnw6y2q2"
   },
   "stable": {
    "version": [
     0,
     1,
-    6
+    7
    ],
-   "commit": "aca5dc9b1be2e38d051c098cf5bc3412cec1ccee",
-   "sha256": "0k8v6wnscwm5bn6ksr0sbd9cj559ddcbqj7vhh0w67sfy9lgvriz"
+   "commit": "8bf3e17a4f815acf00ff3d918d6f9315d5d05182",
+   "sha256": "143sdl4an44642pqsc1m5c6s4p77l1prk6nxwlyqjvqfdng0l95a"
   }
  },
  {
@@ -112488,11 +112488,11 @@
   "repo": "pekingduck/emacs-sqlite3-api",
   "unstable": {
    "version": [
-    20230315,
-    1221
+    20231124,
+    433
    ],
-   "commit": "b513b71012f61895f771fc6948d6511ea8ded0a6",
-   "sha256": "1y36818nd47mzfi3xcp31nr8n0izzmdyiqfx9hgp7ag98rbm7wlx"
+   "commit": "0aa2b039259b63c592e09ea815def52c95521c3f",
+   "sha256": "0h30ksqb38laj58xanyxm3hawi7dmhc2qq3y0z0x8c1nw8gm4wxa"
   },
   "stable": {
    "version": [
