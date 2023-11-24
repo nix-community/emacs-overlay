@@ -385,10 +385,10 @@
       elpaBuild {
         pname = "clojure-mode";
         ename = "clojure-mode";
-        version = "5.18.0";
+        version = "5.18.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/clojure-mode-5.18.0.tar";
-          sha256 = "1wh1r3kdjya7aqnnm6ask9q93pxm7h6ff4b7p6lrhwg4iyn2njss";
+          url = "https://elpa.nongnu.org/nongnu/clojure-mode-5.18.1.tar";
+          sha256 = "1wnl10r79cc1p9a1zwyzhj9ddvc166xkmc7f04pibwxw9j4l3ppg";
         };
         packageRequires = [ emacs ];
         meta = {
