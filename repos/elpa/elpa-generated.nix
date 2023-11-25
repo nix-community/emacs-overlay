@@ -5414,6 +5414,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    theme-buffet = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "theme-buffet";
+        ename = "theme-buffet";
+        version = "0.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/theme-buffet-0.0.0.tar";
+          sha256 = "1nwal18mrh3dy4mh1pzylk99jad7sj95hcx4b97mxpfxxhrbh8f4";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/theme-buffet.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     timerfunctions = callPackage ({ cl-lib ? null
                                   , elpaBuild
                                   , emacs

@@ -1018,10 +1018,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20231123.180333";
+        version = "0.35.0.20231124.125452";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231123.180333.tar";
-          sha256 = "1pkjp9ydqli4jdd752bm7ndicz98x6w00b5845iw1f9r8g8wck6p";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231124.125452.tar";
+          sha256 = "1hdwbnw1w5ahqbwk6g05vldwdw691xbvr6i4bfnw2ax46wblkap0";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1070,10 +1070,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20231123.181106";
+        version = "0.38.0.20231124.125646";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231123.181106.tar";
-          sha256 = "1hjrzmzq2j9ar9fcdngsm2cb5cfszi6l2s8h7j79h99a80imhffy";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231124.125646.tar";
+          sha256 = "055f9p3pxzvr4443inhb7zm64ycd6si336234x90wii5h0s8mzma";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2072,10 +2072,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20231118.123456";
+        version = "5.6snapshot0.20231124.133852";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231118.123456.tar";
-          sha256 = "061b56ziwc2j7076iscns24argmln62nhkhlcci4h8nwxm135328";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231124.133852.tar";
+          sha256 = "11g6g0arxp0l0wm10ixpi0xr6qpf6xf5hiskpx16wzqcwjs3q45d";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3134,10 +3134,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "0.9.0.20231123.181150";
+        version = "0.9.0.20231124.125024";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20231123.181150.tar";
-          sha256 = "169ll38ym786lw7nh64cv8pfwwha452g7pkfmmgpxdpynmrx3bqx";
+          url = "https://elpa.gnu.org/devel/jinx-0.9.0.20231124.125024.tar";
+          sha256 = "1xwll4ikhn8qjnwpn857880d4sjbs436izlby0gqyzknrnhqnc18";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6086,6 +6086,24 @@
         packageRequires = [ cl-lib ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/test-simple.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    theme-buffet = callPackage ({ elpaBuild
+                                , emacs
+                                , fetchurl
+                                , lib }:
+      elpaBuild {
+        pname = "theme-buffet";
+        ename = "theme-buffet";
+        version = "0.0.0.0.20231124.153552";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/theme-buffet-0.0.0.0.20231124.153552.tar";
+          sha256 = "11wng9r8i8snm8ms79xf2cdj19nzr2zfkxc0p7d2ic26dpm96kk4";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/theme-buffet.html";
           license = lib.licenses.free;
         };
       }) {};
