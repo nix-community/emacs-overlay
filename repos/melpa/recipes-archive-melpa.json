@@ -1970,10 +1970,10 @@
  },
  {
   "ename": "afternoon-theme",
-  "commit": "583256b7fa48501c8bfad305d76d2e16b6441539",
-  "sha256": "13xgdw8px58sxpl7nyhkcdxwqdpp13i8wghvlb3l4471plw3vqgj",
+  "commit": "a5676fa2b3228cb56e38449c4573afdc37f3994b",
+  "sha256": "0lb7qia4fqdz9jbklx4jiy4820dmblmbg7qpnww0pkqrc0nychh3",
   "fetcher": "github",
-  "repo": "osener/emacs-afternoon-theme",
+  "repo": "ozanmakes/emacs-afternoon-theme",
   "unstable": {
    "version": [
     20140104,
@@ -11939,14 +11939,14 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20231120,
-    1153
+    20231124,
+    2034
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "f02cefb7239b3c5b076650e52d7b328ef7f29ffc",
-   "sha256": "1sxx87qfvlx3vsbamz6ywynf3p99va6grvpggz7j5qr33a906lhm"
+   "commit": "a73f4f4063602e9b28152926489a3e4a67754a65",
+   "sha256": "00yq9lagbkachp32syf22ksdh7n1kcw0742vrsfsb753kpdb56b1"
   }
  },
  {
@@ -13861,10 +13861,10 @@
   "unstable": {
    "version": [
     20231124,
-    732
+    1721
    ],
-   "commit": "25d713a67d8e0209ee74bfc0153fdf677697b43f",
-   "sha256": "1d5kkq2i8d04k2qfrb31zyjpij92ckbccnzvz01mls3xrvpr57m5"
+   "commit": "222fdafa2add56a171ded245339a383e5e3078ec",
+   "sha256": "089xg4801h9vbgiyh1m58ib1c4y8k11n8znddsr7gk6rsmr9kb2g"
   },
   "stable": {
    "version": [
@@ -21153,11 +21153,11 @@
   "repo": "grtcdr/darkman.el",
   "unstable": {
    "version": [
-    20230901,
-    953
+    20231124,
+    1554
    ],
-   "commit": "d4d0587a40c60b2f23b953f4702e55a335762a24",
-   "sha256": "15ij4g0jg0gal3i4vjmy0kynkv9ji9h5kz6f2a6b0541nxhd8jpc"
+   "commit": "2b5eb6610026e5ae02ae9e8d26d2030cbb0fbd38",
+   "sha256": "18k2nakv0ng214y64337x1cfkl8ix0kh1idff7kvdml05z21np2h"
   },
   "stable": {
    "version": [
@@ -21957,17 +21957,17 @@
  },
  {
   "ename": "decor",
-  "commit": "6455cfe4559770fc53348eb3ddd8dbf6e0c3976b",
-  "sha256": "0rz1n7qrddy7qh50x04n3bjxkbfdmiqa0v9055clbc2f16snknsg",
+  "commit": "57abce9f9faa4109672516a3a9beff684f8f5a3e",
+  "sha256": "0p6zjxsfjw871qkfifsiiiqvbyp6scp26ysh749a7v2jdcqr7pz5",
   "fetcher": "github",
   "repo": "KeyWeeUsr/decor",
   "unstable": {
    "version": [
-    20231101,
-    2354
+    20231116,
+    1713
    ],
-   "commit": "aad4fa9f4e0d4140e2707f4cc678b1dc3c0672fa",
-   "sha256": "0lxw55l0p5cgp1kgwh0yzh9bc3wvgnd932jmfy77nmiw6wl4achm"
+   "commit": "add132447ade02afef1328bf50040f77cbd86087",
+   "sha256": "1zvg36d1s0qw321dpsv0yrvmyd35hi64s7k4bdpl4mrm2yffsfm6"
   },
   "stable": {
    "version": [
@@ -30002,14 +30002,14 @@
   "repo": "wkirschbaum/elixir-ts-mode",
   "unstable": {
    "version": [
-    20231115,
-    1851
+    20231124,
+    1826
    ],
    "deps": [
     "heex-ts-mode"
    ],
-   "commit": "d56d5915d4540a4f55f495e27407637d0359c774",
-   "sha256": "02jys0wnp2s601mgqa6fi3jamjy1dprima1q594wdjf82av2n8sv"
+   "commit": "70254355700ea5fa7fdfb5da42908f7b19cddb25",
+   "sha256": "1f57wsfgq37v090sj4p3vg26nnyr52qirk3ka4szswlrjr57g8ck"
   }
  },
  {
@@ -31514,10 +31514,10 @@
  },
  {
   "ename": "emms-soundcloud",
-  "commit": "19e423525255371cf479842885eca07e801f6d00",
-  "sha256": "0nf1f719m4pvxn0mf4qyx8mzwhrhv6kchnrpiy9clx520y8x3dqi",
+  "commit": "952c7a383d39825805127bd709fa60ac77ef724d",
+  "sha256": "13vpcgqhhxhvgf22jpqidb9a1q4l1x9m8kfdv9ba9h009xf2a1pi",
   "fetcher": "github",
-  "repo": "osener/emms-soundcloud",
+  "repo": "ozanmakes/emms-soundcloud",
   "unstable": {
    "version": [
     20131221,
@@ -36261,8 +36261,8 @@
   "repo": "ethan-leba/tree-edit",
   "unstable": {
    "version": [
-    20231108,
-    1749
+    20231124,
+    1712
    ],
    "deps": [
     "avy",
@@ -36271,8 +36271,8 @@
     "tree-edit",
     "tree-sitter"
    ],
-   "commit": "f5e2b467f14a2980dbe1a862ce0b27e768b2e980",
-   "sha256": "1xf4aygk4vc0pi590ca9nm1j9s64bv018xz5w8g4ln7rgpwdk408"
+   "commit": "0105806ee512c06431a9c1b7a950f69fa1878b11",
+   "sha256": "0iw0n0hcnyf5rg0bsyrjyl8flrxxmchs6fcp8y90pjv0g2chf3ir"
   }
  },
  {
@@ -47742,10 +47742,10 @@
  },
  {
   "ename": "github-browse-file",
-  "commit": "f8bca60348fc5e2ad55663e69b8690093cf861ca",
-  "sha256": "03xvgxlw7wmfby898din7dfcg87ihahkhlav1n7qklw6qi7skjcr",
+  "commit": "4a4e45ad670f6ffb567c4465844ecea7f698e027",
+  "sha256": "1lvbiv6nrpx4k0j8zldx4n52srkagkj1dfyns9bvnk58x8cizxp9",
   "fetcher": "github",
-  "repo": "osener/github-browse-file",
+  "repo": "ozanmakes/github-browse-file",
   "unstable": {
    "version": [
     20160205,
@@ -76050,11 +76050,11 @@
   "repo": "liuyinz/mini-echo.el",
   "unstable": {
    "version": [
-    20231120,
-    2121
+    20231124,
+    1559
    ],
-   "commit": "6d16c2808b325af30bc36b345cfd93fd7a1f14bb",
-   "sha256": "0p5qv27xixklrfpdapfqif1zynkcfshzs4ga05z6bp5jj7263g0z"
+   "commit": "1b25b17b4151c24fdd5e2650446aca7c20cfca0a",
+   "sha256": "11w1s2xqgifq646sy1m9l4s2484mcsdphr84xl3q94y5lrlh5in9"
   },
   "stable": {
    "version": [
@@ -89608,15 +89608,15 @@
   "repo": "unhammer/org-upcoming-modeline",
   "unstable": {
    "version": [
-    20231019,
-    735
+    20231124,
+    1726
    ],
    "deps": [
     "org-ql",
     "ts"
    ],
-   "commit": "136a6a76d770d351559091c8d9ad5a189f1f2622",
-   "sha256": "0p12jg3pwa2r3ilw6ln6x7cxg0kqhrdk27i85dhaw4i84w0019r3"
+   "commit": "37634ddeeda85a0036987b056ac71199ac3bd03e",
+   "sha256": "1p1lphf50c71n0rp5k26kl37a02ahqxklpk1z133bwdmmnqi1ckm"
   },
   "stable": {
    "version": [
@@ -118760,16 +118760,16 @@
   "repo": "ethan-leba/tree-edit",
   "unstable": {
    "version": [
-    20231108,
-    1749
+    20231124,
+    1712
    ],
    "deps": [
     "dash",
     "reazon",
     "s"
    ],
-   "commit": "5f12ca6f366aad2c311bac09817f079900dce8d2",
-   "sha256": "0gs9jfv20mnjk3b6ry7vd5yfib0278c3l9gkkcdflbchgwyggq92"
+   "commit": "3e71d276e7369ff4525f0e2b84356a31fe6b7782",
+   "sha256": "1f4r7bd4cvrv5piks62aq7m7y1wx8ddg7d7f5s6b3z9fmrh7jd2b"
   }
  },
  {
@@ -119980,8 +119980,8 @@
  },
  {
   "ename": "typewriter-roll-mode",
-  "commit": "4b17337429ea28905a8d8da0de1faf93149d7a3c",
-  "sha256": "153c9ij63r24ys8xgv06lyzbz89sxdnz1p7b34cg8wpm1jacmz74",
+  "commit": "57abce9f9faa4109672516a3a9beff684f8f5a3e",
+  "sha256": "1higdy13s19cqcbg2kvaqxx5larsc1h6x7wy5hpzpgbhasdbvc3g",
   "fetcher": "github",
   "repo": "KeyWeeUsr/typewriter-roll-mode",
   "unstable": {
@@ -124385,10 +124385,10 @@
  },
  {
   "ename": "webkit-color-picker",
-  "commit": "af9d2e39385c6833eff6b7c7e5a039238563c00f",
-  "sha256": "1i9244zghabyavxhz86d22fn40qspzdn2sjql8pl3mm8ks7a49a3",
+  "commit": "fdf3db5d263ec83c948273ea1390ccb16f788548",
+  "sha256": "1k0akmamci7r8rp95n4wpj2006g9089zcljxcp35ac8449xxz47v",
   "fetcher": "github",
-  "repo": "osener/emacs-webkit-color-picker",
+  "repo": "ozanmakes/emacs-webkit-color-picker",
   "unstable": {
    "version": [
     20180325,
