@@ -1854,10 +1854,10 @@
       elpaBuild {
         pname = "keycast";
         ename = "keycast";
-        version = "1.3.2";
+        version = "1.3.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/keycast-1.3.2.tar";
-          sha256 = "0z8q1xxx02di0788kgc4xpvl43iyknkj57l9cwf6qq6hi032c9kj";
+          url = "https://elpa.nongnu.org/nongnu/keycast-1.3.3.tar";
+          sha256 = "0cvya8vbbmzly1hjf5jm3n9phml4wmwy2hn4igxp8f2pg1x46049";
         };
         packageRequires = [ compat emacs ];
         meta = {
