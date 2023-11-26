@@ -4749,10 +4749,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.10.0.0.20231125.15921";
+        version = "0.10.0.0.20231125.150432";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231125.15921.tar";
-          sha256 = "191ah1i6y2wqix5wvpy51ks1ldq37zpw862aza5173jy7ia8szrj";
+          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231125.150432.tar";
+          sha256 = "0c1ql5g0fmz8jbvshj5bv8k6bjkp5hs16axwcqj4lysrmgmw0rvl";
         };
         packageRequires = [ emacs xref ];
         meta = {
@@ -5642,10 +5642,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.2.1.0.20231125.63930";
+        version = "0.2.2.0.20231125.121131";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/spacious-padding-0.2.1.0.20231125.63930.tar";
-          sha256 = "10hn995d63lrh6pqrvjqdv6vc3vx638jwf0j5z5g9vxgbx11r2rj";
+          url = "https://elpa.gnu.org/devel/spacious-padding-0.2.2.0.20231125.121131.tar";
+          sha256 = "1byxc8wx2xknw06rfjnjkkg9h5d24x3xzpnjc2pj14aa1aa872wi";
         };
         packageRequires = [ emacs ];
         meta = {
