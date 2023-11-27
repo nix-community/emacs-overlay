@@ -5143,10 +5143,10 @@
       elpaBuild {
         pname = "standard-themes";
         ename = "standard-themes";
-        version = "1.2.0";
+        version = "2.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/standard-themes-1.2.0.tar";
-          sha256 = "1prf89jk41cmd3bj51343jyz53k5bjbc871s54cqlhz3vvbgc4ww";
+          url = "https://elpa.gnu.org/packages/standard-themes-2.0.0.tar";
+          sha256 = "156rmag6n2k862jfblgr96w97hmxpalnfgqnyj8501mk360dzywj";
         };
         packageRequires = [ emacs ];
         meta = {

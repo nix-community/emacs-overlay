@@ -582,10 +582,10 @@
       elpaBuild {
         pname = "breadcrumb";
         ename = "breadcrumb";
-        version = "1.0.1.0.20231121.231915";
+        version = "1.0.1.0.20231126.221621";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20231121.231915.tar";
-          sha256 = "10i1z8vpfjn4q4652w7ck14vlafnfg0rh5px59vpdkk5n3pmn1vm";
+          url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20231126.221621.tar";
+          sha256 = "0z111vmwdc3lvbnbim8233ck3vm6haq2zx9pjaiimipv36jxkzf3";
         };
         packageRequires = [ emacs project ];
         meta = {
@@ -654,10 +654,10 @@
       elpaBuild {
         pname = "bufferlo";
         ename = "bufferlo";
-        version = "0.4.0.20231119.183340";
+        version = "0.4.0.20231125.144956";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/bufferlo-0.4.0.20231119.183340.tar";
-          sha256 = "1qnzzqyc0qalhkw2mx7l50x02v1kdhc8d8lbdb67brs1b7wqwa96";
+          url = "https://elpa.gnu.org/devel/bufferlo-0.4.0.20231125.144956.tar";
+          sha256 = "0zrm7aycrikikkilky6v4nkb5bxrsmgb66aqm474vlxshylcasqx";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -927,10 +927,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231123.184243";
+        version = "0.10.2.0.20231127.20511";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231123.184243.tar";
-          sha256 = "0rskck21mgflvdfrfmdzx2z79ap2vk3aw5qiyccvxrcd328rx4x4";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231127.20511.tar";
+          sha256 = "11zaljn11s5jqgys1pcmy4smm3nayv03wz4xpa0z5fk7wvac0r1b";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1335,10 +1335,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.1.1.0.20231126.122522";
+        version = "2.1.1.0.20231127.84223";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.1.1.0.20231126.122522.tar";
-          sha256 = "0cvxq2w1wrsykfd2v8kq2qckmindk7gr2yc91lapxg7lxwmjcqfx";
+          url = "https://elpa.gnu.org/devel/denote-2.1.1.0.20231127.84223.tar";
+          sha256 = "0hc7z41mx897jzdi1c15ll4mdphssa6wy6ppzcdj9rrrrid1jsc3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2072,10 +2072,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20231125.155958";
+        version = "5.6snapshot0.20231126.142527";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231125.155958.tar";
-          sha256 = "1c6d3fi76z84r04vyxga6d8nci6qd9dzzl08xxxcdxpf1pw5skfp";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231126.142527.tar";
+          sha256 = "061mjgrsrx460nrpjbcc4z6wlcnf3z2fkv3j7d5p9n9m4kvyid9j";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -5776,10 +5776,10 @@
       elpaBuild {
         pname = "standard-themes";
         ename = "standard-themes";
-        version = "1.2.0.0.20231126.110057";
+        version = "2.0.0.0.20231127.73018";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/standard-themes-1.2.0.0.20231126.110057.tar";
-          sha256 = "0saiqjr73hcpkzryjymy39y7rp4viw62iwajzqbyi846xsfkm3w8";
+          url = "https://elpa.gnu.org/devel/standard-themes-2.0.0.0.20231127.73018.tar";
+          sha256 = "1cvx8ifxf9z7r94v6dsdkdcglj25v68n8adf0c7yb1irv2kvpkk2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6266,10 +6266,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.4.3.0.20231121.115422";
+        version = "0.4.3.0.20231126.210009";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.4.3.0.20231121.115422.tar";
-          sha256 = "1619j0y81ynnb3k09j71c0xqlj167ayxgbk6dk2jd4267vh0j75j";
+          url = "https://elpa.gnu.org/devel/transient-0.4.3.0.20231126.210009.tar";
+          sha256 = "1wkmsngh61a8vvnjcp0v8pmvbxmayhgjdhf2mvlqqab2iz92r1wz";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
