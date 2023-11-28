@@ -1018,10 +1018,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20231127.95334";
+        version = "0.35.0.20231127.220415";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231127.95334.tar";
-          sha256 = "08vfd48xk8pc4y64c066lb5bx38wln2zydiqkijzq0cpll2a5k7p";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231127.220415.tar";
+          sha256 = "0i0rhdmd052ph1ganhyy2kfgdipiraj17b364s0ymjzbbm2x34k1";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1070,10 +1070,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "0.38.0.20231126.95200";
+        version = "0.38.0.20231127.210125";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231126.95200.tar";
-          sha256 = "1az5a6y6c845ywlbdy80fdmzb9yr02cmy32djs5wmz314mnymbg7";
+          url = "https://elpa.gnu.org/devel/corfu-0.38.0.20231127.210125.tar";
+          sha256 = "0gs4y5l11bc4iwif69gajxxcnj0i6xk1iwv5k1h6jnxy7v4hzzwz";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1335,10 +1335,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.1.1.0.20231127.84223";
+        version = "2.1.1.0.20231128.40521";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.1.1.0.20231127.84223.tar";
-          sha256 = "0hc7z41mx897jzdi1c15ll4mdphssa6wy6ppzcdj9rrrrid1jsc3";
+          url = "https://elpa.gnu.org/devel/denote-2.1.1.0.20231128.40521.tar";
+          sha256 = "1wgx1jpivdxv4g9947601yy04bav3ai7q14apzccdx8n6xi0c21z";
         };
         packageRequires = [ emacs ];
         meta = {
