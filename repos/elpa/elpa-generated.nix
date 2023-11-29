@@ -2869,10 +2869,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.17";
+        version = "1.0.18";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.17.tar";
-          sha256 = "0vfd1z78pyif3l6gapcq9vs6cjfxiyc420xzwn0krrb25jjzx1ab";
+          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.18.tar";
+          sha256 = "1j5kzrfrzw63l5wzq16nkvph27f4280wirsbia1yz73pcrmg1zgn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5512,10 +5512,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.1.4";
+        version = "2.6.1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.6.1.4.tar";
-          sha256 = "1ajlx0982hx6ypby9dvw1yh9zyl1h4j9xp4n9rfzxhfvvq3139bi";
+          url = "https://elpa.gnu.org/packages/tramp-2.6.1.5.tar";
+          sha256 = "1mi6d9i5z6l2cnqd9dam4g7kcsxana6w4wnzzmhl7vsgjdd6k1rz";
         };
         packageRequires = [ emacs ];
         meta = {

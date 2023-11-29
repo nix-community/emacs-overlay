@@ -1818,10 +1818,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20231118.60747";
+        version = "1.15.0.20231128.183309";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20231118.60747.tar";
-          sha256 = "1dj4s637jhcwydzi1dfhnmfbadyczcnpqkwaw4g1r8bjcmsqabm8";
+          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20231128.183309.tar";
+          sha256 = "1i8a6dg0v5mrg9r7sqw3m8bwbj962w3iaw80j41qrsh905i2rrll";
         };
         packageRequires = [
           eldoc
@@ -3205,10 +3205,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.17.0.20230729.112319";
+        version = "1.0.18.0.20231128.184709";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jsonrpc-1.0.17.0.20230729.112319.tar";
-          sha256 = "0id8pih1svkp1ipnb92kh2avmb8cwrldxgj4b0kli4bi2q9i58x6";
+          url = "https://elpa.gnu.org/devel/jsonrpc-1.0.18.0.20231128.184709.tar";
+          sha256 = "1k00868abpbdwndyrh0kdnd2wkpymzb0i89mz5w71rcrnlnh18cd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6193,10 +6193,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.1.4.0.20231030.81039";
+        version = "2.6.1.5.0.20231129.74513";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tramp-2.6.1.4.0.20231030.81039.tar";
-          sha256 = "1m8ij5xrh5yp5n70yqlxdxgvk0ap6mqnymhasncm2vqfzlxkdd45";
+          url = "https://elpa.gnu.org/devel/tramp-2.6.1.5.0.20231129.74513.tar";
+          sha256 = "0lqcq7s5hsg0cq1fbvcdmsdk5r3kdp6gsgyxs9gpjf6hjhv4r4d7";
         };
         packageRequires = [ emacs ];
         meta = {
