@@ -5568,16 +5568,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    transient = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
+    transient = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib, seq }:
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.4.3";
+        version = "0.5.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/transient-0.4.3.tar";
-          sha256 = "1aqw7fr5p2f1xs5pvfpmhhvh16491qvcbg40993siqkdi05w4i1j";
+          url = "https://elpa.gnu.org/packages/transient-0.5.0.tar";
+          sha256 = "0rn2whdb6ymgflkncmkqvsdi3pn869darz4b3li8yf2wwh115mg4";
         };
-        packageRequires = [ compat emacs ];
+        packageRequires = [ compat emacs seq ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/transient.html";
           license = lib.licenses.free;
