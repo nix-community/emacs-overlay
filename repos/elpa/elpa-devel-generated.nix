@@ -1018,10 +1018,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "0.35.0.20231127.220415";
+        version = "0.35.0.20231130.21331";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231127.220415.tar";
-          sha256 = "0i0rhdmd052ph1ganhyy2kfgdipiraj17b364s0ymjzbbm2x34k1";
+          url = "https://elpa.gnu.org/devel/consult-0.35.0.20231130.21331.tar";
+          sha256 = "1zvqflhcppwz5z7lhsa6hgcw6smj3c1kwwaapfwqc3lw3qf71yax";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1335,10 +1335,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.1.1.0.20231129.164058";
+        version = "2.1.1.0.20231130.82449";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.1.1.0.20231129.164058.tar";
-          sha256 = "0kjazqv2np8igfhgr0663vhwjcawcp8lcsp7irvcv1ir0hfzl33d";
+          url = "https://elpa.gnu.org/devel/denote-2.1.1.0.20231130.82449.tar";
+          sha256 = "0hc65wh1wxb73wds2a82qf97hfzkrr9v697za3jlazkd59qfxyhr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3544,10 +3544,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.3.0.20231126.93239";
+        version = "1.3.0.20231130.21417";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/marginalia-1.3.0.20231126.93239.tar";
-          sha256 = "0l6vdj1lqqp52d908r0sygsgrr83rxqf0p11zcx86h2al2rndr2w";
+          url = "https://elpa.gnu.org/devel/marginalia-1.3.0.20231130.21417.tar";
+          sha256 = "1jc8c4sraf9jqwlgg2psf9528hwcx2qm6b19wihzsg0qf6yrzaiw";
         };
         packageRequires = [ compat emacs ];
         meta = {
