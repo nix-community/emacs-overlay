@@ -1018,10 +1018,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.0.0.20231201.151459";
+        version = "1.0.0.20231202.102137";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.0.0.20231201.151459.tar";
-          sha256 = "185hyclyc1kmhxxbgshlv15zs0jkr49qlv0vr5x3qdb0jlxviwvn";
+          url = "https://elpa.gnu.org/devel/consult-1.0.0.20231202.102137.tar";
+          sha256 = "0m450czhgvyaqga202bhbppryzg1xh9qlrjnx62zgb5p59f3f6y0";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4176,10 +4176,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231129.100541";
+        version = "9.7pre0.20231202.90302";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231129.100541.tar";
-          sha256 = "0g572lpzf1gpimzk7mi5qgnlc4jhac7z2jaz6cswn6810mbjvvl0";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231202.90302.tar";
+          sha256 = "1yx46ssq7yb3vfyvkya2k9pmqcg8qmhqpgaq3jc22si2d4388igb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4234,10 +4234,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.1.0.20231201.83542";
+        version = "1.1.0.20231202.132043";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.1.0.20231201.83542.tar";
-          sha256 = "1c2vsvvapx1n5daga28lfzgdcyg9p3a511b65v28qjbpbl2qk9wd";
+          url = "https://elpa.gnu.org/devel/org-modern-1.1.0.20231202.132043.tar";
+          sha256 = "1w479kbc8sy9jz38cc3mga4n9glls23m1jgddr274iic3m3jigz6";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6097,10 +6097,10 @@
       elpaBuild {
         pname = "theme-buffet";
         ename = "theme-buffet";
-        version = "0.1.0.0.20231201.103519";
+        version = "0.1.0.0.20231202.155341";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/theme-buffet-0.1.0.0.20231201.103519.tar";
-          sha256 = "0vpgxcgx2qmghz5pw35wm8v9irx4qvp8wrbqnfs37bf11wcx9bg5";
+          url = "https://elpa.gnu.org/devel/theme-buffet-0.1.0.0.20231202.155341.tar";
+          sha256 = "16yl5c4i0qiclblgddj0yzdd08q0v8hvqfaz44mbxsbid896ap51";
         };
         packageRequires = [ emacs ];
         meta = {
