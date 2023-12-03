@@ -1661,16 +1661,25 @@
                               , map
                               , persist
                               , plz
+                              , taxy-magit-section
                               , transient }:
       elpaBuild {
         pname = "hyperdrive";
         ename = "hyperdrive";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/hyperdrive-0.2.tar";
-          sha256 = "1cvsl7caprdms83mvhlv3crk4ylka1g0swg0klqld04hayzikq0z";
+          url = "https://elpa.nongnu.org/nongnu/hyperdrive-0.3.tar";
+          sha256 = "1q23xrq80wmh4l87rpzfp6gc671gkalvhidfichlapk507sll1y6";
         };
-        packageRequires = [ compat emacs map persist plz transient ];
+        packageRequires = [
+          compat
+          emacs
+          map
+          persist
+          plz
+          taxy-magit-section
+          transient
+        ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/hyperdrive.html";
           license = lib.licenses.free;
