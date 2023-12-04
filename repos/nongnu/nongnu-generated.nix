@@ -2459,10 +2459,10 @@
       elpaBuild {
         pname = "parseclj";
         ename = "parseclj";
-        version = "1.1.0";
+        version = "1.1.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/parseclj-1.1.0.tar";
-          sha256 = "0h6fia59crqb1y83a04sjlhlpm6349s6c14zsiqsfi73m97dli6p";
+          url = "https://elpa.nongnu.org/nongnu/parseclj-1.1.1.tar";
+          sha256 = "14xczcd7vknsqkfwlk430kd6jz8fi51jwbjpzjqkymnixma32qd6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2632,10 +2632,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20231201.162829";
+        version = "1.0.20231203.100509";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20231201.162829.tar";
-          sha256 = "1fjmvf3j1n68i1ajfnamf6gyycfr8akqsnr54vvbmn9ls2lghq3h";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20231203.100509.tar";
+          sha256 = "0s1c6ig0y4z6skvlv07k7k88k1ngay9pzc7mwz9zh32l4cax7879";
         };
         packageRequires = [ emacs ];
         meta = {
