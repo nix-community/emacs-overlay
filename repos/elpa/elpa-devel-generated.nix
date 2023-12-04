@@ -1335,10 +1335,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.1.1.0.20231203.55235";
+        version = "2.1.1.0.20231204.44050";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.1.1.0.20231203.55235.tar";
-          sha256 = "07m05hqlzpp7n7axfrfb79h7j36frvbmh4zf7vd80ch8rpq5lf37";
+          url = "https://elpa.gnu.org/devel/denote-2.1.1.0.20231204.44050.tar";
+          sha256 = "12z7lzc8x4kps27l3qhfqfb2mbbb2bghgpcj0p9x1r4n2m594cqy";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6267,10 +6267,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.5.0.0.20231128.153642";
+        version = "0.5.0.0.20231204.3303";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.5.0.0.20231128.153642.tar";
-          sha256 = "1pj8ih221cjrz599p40x0c1vmrq8c2xsr9xw2hixsv93zyzkln4d";
+          url = "https://elpa.gnu.org/devel/transient-0.5.0.0.20231204.3303.tar";
+          sha256 = "0jdiiad1630jndlhv044mbj5qqn3wr55svgjb8waz0y5d3b7cflb";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
