@@ -1018,10 +1018,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.0.0.20231202.102137";
+        version = "1.0.0.20231203.170734";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.0.0.20231202.102137.tar";
-          sha256 = "0m450czhgvyaqga202bhbppryzg1xh9qlrjnx62zgb5p59f3f6y0";
+          url = "https://elpa.gnu.org/devel/consult-1.0.0.20231203.170734.tar";
+          sha256 = "06xm30sqn21xgwcbspwb7vacv62v4nzjs4vjhxy74kxx7dfzy81h";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6097,10 +6097,10 @@
       elpaBuild {
         pname = "theme-buffet";
         ename = "theme-buffet";
-        version = "0.1.0.0.20231203.15321";
+        version = "0.1.1.0.20231203.112653";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/theme-buffet-0.1.0.0.20231203.15321.tar";
-          sha256 = "16cqp12v6ji1dxyh7w578w37bx3lf2nv9dx23kp76ar2ryaq93hv";
+          url = "https://elpa.gnu.org/devel/theme-buffet-0.1.1.0.20231203.112653.tar";
+          sha256 = "08hqz6gnpbnwxfl214gg3xwylijxj58dzabxdy7rlsgs09vimgk4";
         };
         packageRequires = [ emacs ];
         meta = {

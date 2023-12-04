@@ -5418,10 +5418,10 @@
       elpaBuild {
         pname = "theme-buffet";
         ename = "theme-buffet";
-        version = "0.1.0";
+        version = "0.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/theme-buffet-0.1.0.tar";
-          sha256 = "1fnk70c6px0l4i89xn091r6jkpsdaw6v1xd2nfbfs05073blgd9c";
+          url = "https://elpa.gnu.org/packages/theme-buffet-0.1.1.tar";
+          sha256 = "03dmvc44shw9frhzvmhcswk8hjfk8mg99iy4ibxinn5h878ydp1j";
         };
         packageRequires = [ emacs ];
         meta = {
