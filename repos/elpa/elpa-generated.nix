@@ -1098,6 +1098,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    dape = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "dape";
+        ename = "dape";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/dape-0.2.tar";
+          sha256 = "0rd1ajypnzgh68dr0hrhmq4xvnl85hzwk93hygb8xkhlczq2cz9p";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/dape.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     darkroom = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "darkroom";
@@ -4668,10 +4683,10 @@
       elpaBuild {
         pname = "rt-liberation";
         ename = "rt-liberation";
-        version = "5";
+        version = "6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rt-liberation-5.tar";
-          sha256 = "1gjj38rag3hh42xkf7qlvwn0qj45i8v30h5wgs3w2a2ccs46bpy4";
+          url = "https://elpa.gnu.org/packages/rt-liberation-6.tar";
+          sha256 = "1l87q2h1hqm5zpg1fz835gmbf5fgl9fvcqg42c17v6kim4has8zd";
         };
         packageRequires = [];
         meta = {
