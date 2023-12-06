@@ -297,10 +297,10 @@
       elpaBuild {
         pname = "async";
         ename = "async";
-        version = "1.9.8.0.20231128.181326";
+        version = "1.9.8.0.20231206.60020";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/async-1.9.8.0.20231128.181326.tar";
-          sha256 = "1dawyvzl0x6h2ficcysa6lnh58ijdkvsiyp1bvzlfjyr6fg1ra1f";
+          url = "https://elpa.gnu.org/devel/async-1.9.8.0.20231206.60020.tar";
+          sha256 = "0n1v0v93c5byv5n4ci1qgdcikb2nrqf60jql9iypzp2129fvi8ji";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -920,14 +920,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    company = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    company = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20231205.5520";
+        version = "0.10.2.0.20231205.235330";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231205.5520.tar";
-          sha256 = "1iqggwllfl152x1qkix40k4kyppv91bppbs93nkrs8fdsi498nbj";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20231205.235330.tar";
+          sha256 = "11k1nb9iyfjxqjdbdh3pj4hh5796n3sg8v975s6fb8jcs09lrdlx";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1015,10 +1018,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.0.0.20231203.170734";
+        version = "1.0.0.20231206.82453";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.0.0.20231203.170734.tar";
-          sha256 = "06xm30sqn21xgwcbspwb7vacv62v4nzjs4vjhxy74kxx7dfzy81h";
+          url = "https://elpa.gnu.org/devel/consult-1.0.0.20231206.82453.tar";
+          sha256 = "0nbz20p1w9pdnr0qfqcxgw453k3cjqkbklwip7ljm363hla6xj1m";
         };
         packageRequires = [ compat emacs ];
         meta = {
