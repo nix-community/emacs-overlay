@@ -291,10 +291,10 @@
       elpaBuild {
         pname = "buttercup";
         ename = "buttercup";
-        version = "1.32";
+        version = "1.33";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/buttercup-1.32.tar";
-          sha256 = "07vxs1iq38m7ng9wia8h6q2sy4cdykv03jksqjqyqaab4cl7yl27";
+          url = "https://elpa.nongnu.org/nongnu/buttercup-1.33.tar";
+          sha256 = "0245fq4iny1jnm440dzkq0fadw10ncnhkj28mayqs9iyyzj9g5h4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2632,10 +2632,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20231203.100509";
+        version = "1.0.20231206.130741";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20231203.100509.tar";
-          sha256 = "0s1c6ig0y4z6skvlv07k7k88k1ngay9pzc7mwz9zh32l4cax7879";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20231206.130741.tar";
+          sha256 = "16ndcxrigj1yvmjqcz8x6hxhcd2nm4734s561p9lhsf6iwcvf5db";
         };
         packageRequires = [ emacs ];
         meta = {
