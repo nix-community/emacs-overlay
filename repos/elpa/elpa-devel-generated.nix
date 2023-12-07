@@ -312,10 +312,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.2.2.0.20231011.93504";
+        version = "13.2.3.0.20231207.85228";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-13.2.2.0.20231011.93504.tar";
-          sha256 = "0f13nfkzysp9l1ah74a00m2pr5fv5xx8jp82wqki5g9h60cwq5nk";
+          url = "https://elpa.gnu.org/devel/auctex-13.2.3.0.20231207.85228.tar";
+          sha256 = "0cbp8if2f0flfay8bgb2bhzz25k6plxpak2jl3qrz4a981f9369n";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1018,10 +1018,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.0.0.20231206.202539";
+        version = "1.0.0.20231206.211258";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.0.0.20231206.202539.tar";
-          sha256 = "17zw6i28qpsvggnfc58msag34wm4gwqczh92r2xkxxn916ajq7ah";
+          url = "https://elpa.gnu.org/devel/consult-1.0.0.20231206.211258.tar";
+          sha256 = "104fq80vdi8j3nyijkjbx23cfyg45c4pr5dc77cdr7xsfal8sr6k";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1434,18 +1434,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    diff-hl = callPackage ({ cl-lib ? null
-                           , elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    diff-hl = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "diff-hl";
         ename = "diff-hl";
-        version = "1.9.2.0.20230807.151654";
+        version = "1.9.2.0.20231207.3202";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/diff-hl-1.9.2.0.20230807.151654.tar";
-          sha256 = "0zzggv9h2943vm3xk1622fgksmczckmckxckgkh58l4wl9zdqm19";
+          url = "https://elpa.gnu.org/devel/diff-hl-1.9.2.0.20231207.3202.tar";
+          sha256 = "1sq79wbhxg374ccj9mzr0d4h5wiac8j90xfkf9zkgdqlsh7s589i";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -1990,10 +1986,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.14pre0.20231111.212243";
+        version = "0.14pre0.20231206.191420";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20231111.212243.tar";
-          sha256 = "13xd7m5pigfvqnrxqr40dg9139djb0m9l3p7scvi0fi05247kf5l";
+          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20231206.191420.tar";
+          sha256 = "162p9bbmryg5zzjlnxx2yidjm7y983a2w80jlly3fkn713w7lkah";
         };
         packageRequires = [
           emacs
@@ -5658,10 +5654,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.2.2.0.20231205.82637";
+        version = "0.2.2.0.20231207.63421";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/spacious-padding-0.2.2.0.20231205.82637.tar";
-          sha256 = "16yvwsdzhf8631ssmxsvayr4b69flfpvli4si5941m7i3zhf4hl5";
+          url = "https://elpa.gnu.org/devel/spacious-padding-0.2.2.0.20231207.63421.tar";
+          sha256 = "0s79izw68q6x750npfgrmziq3j38hgaw92zl9yd20i0qvdy8a99l";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6695,10 +6691,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.5.0.20231130.235537";
+        version = "1.5.0.20231207.5312";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.5.0.20231130.235537.tar";
-          sha256 = "0wdg0467d68ndayx4lr3x3ifp6pyn2b347wdhzqnx78wsw5a2f63";
+          url = "https://elpa.gnu.org/devel/vertico-1.5.0.20231207.5312.tar";
+          sha256 = "14g956m986ij2q67ikdav5x5z9mwb5amnrib70gjrpnza68szdm3";
         };
         packageRequires = [ compat emacs ];
         meta = {
