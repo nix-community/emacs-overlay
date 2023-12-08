@@ -6072,15 +6072,15 @@
   },
   "stable": {
    "version": [
-    0,
-    23
+    1,
+    0
    ],
    "deps": [
     "avy",
     "embark"
    ],
-   "commit": "07af44c7de72efde79ac563cbecdfff0b48d8411",
-   "sha256": "1dmsaw1m819kzmai45c4cqh5lyyha451f7dxzwwfz9crmzg2w5sf"
+   "commit": "47b0c75d4bf4f72a7af839667c877c80bd493cdb",
+   "sha256": "14alpanynww6z7yxxyiiy24c0p4pq1argsb0pmqavq25mdxgn4v2"
   }
  },
  {
@@ -10780,13 +10780,13 @@
   "unstable": {
    "version": [
     20231208,
-    721
+    1105
    ],
    "deps": [
     "compat"
    ],
-   "commit": "a878347ebd20e4e410133f3547f16a925b7c6d16",
-   "sha256": "1kcy97xisikjrzw57vcf28cy1ddyig3d3dkz1i8fg7ag6vrpakk8"
+   "commit": "5cf97cb67e52df80a5f3b30c888dbffd498ff9b8",
+   "sha256": "0kdd4818bz1xf33bgywqmqwvdnsj1bwf1br2nqbf4xch1lcb9l9r"
   },
   "stable": {
    "version": [
@@ -22994,15 +22994,15 @@
   "repo": "pkryger/difftastic.el",
   "unstable": {
    "version": [
-    20231018,
-    1043
+    20231208,
+    1407
    ],
    "deps": [
     "compat",
     "magit"
    ],
-   "commit": "3e63dc1dd6eb7c2b7910d9b31a84fab7addaa7f3",
-   "sha256": "14za0r446pw3yby6kx8rfkaixx6lcx3blq2nv6l5rly3bkidprjs"
+   "commit": "1b233ef01cfd25b348377737f40a95909037a964",
+   "sha256": "06dg848d0d6b95ya6crvki0rqr8hmqsgm7f4qp69x16apjp9krkg"
   }
  },
  {
@@ -25824,14 +25824,11 @@
   "url": "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git",
   "unstable": {
    "version": [
-    20230220,
-    1635
+    20231208,
+    521
    ],
-   "deps": [
-    "debian-el"
-   ],
-   "commit": "af9aad721cb263e495e2f77df458e9496549c04b",
-   "sha256": "1vqmi32n3yz4chrbi0473hhh4klxsh63qbydcl44xa91g3ly3vp5"
+   "commit": "4319c2b6964fb16bb39398460b37dd4238c86faa",
+   "sha256": "039ygsbnrbzrffq40lxwz788ch06fi14w0hjgc3sx1dchzhci7gx"
   },
   "stable": {
    "version": [
@@ -31193,14 +31190,14 @@
   },
   "stable": {
    "version": [
-    0,
-    23
+    1,
+    0
    ],
    "deps": [
     "compat"
    ],
-   "commit": "07af44c7de72efde79ac563cbecdfff0b48d8411",
-   "sha256": "1dmsaw1m819kzmai45c4cqh5lyyha451f7dxzwwfz9crmzg2w5sf"
+   "commit": "47b0c75d4bf4f72a7af839667c877c80bd493cdb",
+   "sha256": "14alpanynww6z7yxxyiiy24c0p4pq1argsb0pmqavq25mdxgn4v2"
   }
  },
  {
@@ -31224,15 +31221,16 @@
   },
   "stable": {
    "version": [
-    0,
-    23
+    1,
+    0
    ],
    "deps": [
+    "compat",
     "consult",
     "embark"
    ],
-   "commit": "07af44c7de72efde79ac563cbecdfff0b48d8411",
-   "sha256": "1dmsaw1m819kzmai45c4cqh5lyyha451f7dxzwwfz9crmzg2w5sf"
+   "commit": "47b0c75d4bf4f72a7af839667c877c80bd493cdb",
+   "sha256": "14alpanynww6z7yxxyiiy24c0p4pq1argsb0pmqavq25mdxgn4v2"
   }
  },
  {
@@ -47172,13 +47170,13 @@
   "unstable": {
    "version": [
     20231208,
-    625
+    1315
    ],
    "deps": [
     "transient"
    ],
-   "commit": "b96f59217c55f2ed8a8b441acb6d67169582360b",
-   "sha256": "1incgbhwb8fhp3w5k04p8xcv07k3f4lwvvfcpdj407r96k9kijfx"
+   "commit": "6bd365c883f2ec68589818fdac6925185b8b2330",
+   "sha256": "14sp4z8ix0pvs5744ip79qh8vgvaxqs8qdmpnqvsz3r7chgww66f"
   },
   "stable": {
    "version": [
@@ -66281,11 +66279,11 @@
   "repo": "meritamen/kanagawa-theme",
   "unstable": {
    "version": [
-    20231206,
-    149
+    20231208,
+    1115
    ],
-   "commit": "78ccf6930336da98f248896af53ab0307c4d6459",
-   "sha256": "1pcg3354wk2fxmc6kh37zvkwjq7yhl1m1f5sx1jjlpf3gfscr9q7"
+   "commit": "835bd1f9d6aa6effdc2a90682cfd0ebf060a616e",
+   "sha256": "0kcqnahmiafhhalqff8cin11m7n2djah02l4fvzfb0wgzdc7cw2b"
   }
  },
  {
@@ -70284,20 +70282,20 @@
   "repo": "publicimageltd/lister",
   "unstable": {
    "version": [
-    20230204,
-    1357
+    20231208,
+    1350
    ],
-   "commit": "b256c254f670ebaf50134655fbe430025fff41ab",
-   "sha256": "151wn6g49w15bjnqbnq12ig7f9zdi5d1j21yadp0jvb9jjzk6jg1"
+   "commit": "1ea85228e8f537734c51a440a3a65ae7de85bd77",
+   "sha256": "1gj0rvnvx4r4c9gq4d47n2ir5q33p75iqvqrzz5iy9ibrqs91ik2"
   },
   "stable": {
    "version": [
     0,
     9,
-    4
+    5
    ],
-   "commit": "35d485f53907d75e5135b177a2e1ab4de2a20a48",
-   "sha256": "1w9kay6mx58g82gs90i0df10p2hxc3nv748nah53wbp2s2lwchgp"
+   "commit": "1ea85228e8f537734c51a440a3a65ae7de85bd77",
+   "sha256": "1gj0rvnvx4r4c9gq4d47n2ir5q33p75iqvqrzz5iy9ibrqs91ik2"
   }
  },
  {
@@ -125237,11 +125235,11 @@
   "repo": "lassik/emacs-whois",
   "unstable": {
    "version": [
-    20231106,
-    1901
+    20231208,
+    1509
    ],
-   "commit": "93413908ec7d39a70700b4b97d3185b06ae69204",
-   "sha256": "15jgfh7kh6d76hpwp41p91y6blclmrjdw01b1g83sj3v9ncnykhq"
+   "commit": "b9b50bf30f823489734f5706a76e518f3644d8d9",
+   "sha256": "10vifn4svbbb79irjddrkxjgfmg8zb600qzrm2l3299dsya5vsn9"
   },
   "stable": {
    "version": [
