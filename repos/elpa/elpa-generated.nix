@@ -1603,10 +1603,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.4.0";
+        version = "1.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-1.4.0.tar";
-          sha256 = "0pp72bi9s7vyxyyy7dc0vql4k6hqzd1gg3a2i4wi09awdak85gi6";
+          url = "https://elpa.gnu.org/packages/ef-themes-1.4.1.tar";
+          sha256 = "0xr30msv7lsrwd2faikm8lshqxr2yk7zyg2sr3racj2wbqsizak3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1732,10 +1732,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "0.23";
+        version = "1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-0.23.tar";
-          sha256 = "03qmhi5wlx4wpj8fnqx352cwnx0czrj6majr18hyavx5cih8i8v6";
+          url = "https://elpa.gnu.org/packages/embark-1.0.tar";
+          sha256 = "01kgln4hvy0hfga7syjvrdvwwalx93pq0s2na0qyvy44rsszlwwh";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1743,7 +1743,8 @@
           license = lib.licenses.free;
         };
       }) {};
-    embark-consult = callPackage ({ consult
+    embark-consult = callPackage ({ compat
+                                  , consult
                                   , elpaBuild
                                   , emacs
                                   , embark
@@ -1752,12 +1753,12 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "0.8";
+        version = "1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-consult-0.8.tar";
-          sha256 = "1l6fcrf9hx7ll6zrm3igh80nkcig6i7fqwicm3dy9rwsjyjlmy2f";
+          url = "https://elpa.gnu.org/packages/embark-consult-1.0.tar";
+          sha256 = "18zbaanza8vvrmk3gbj0glijyxgb4qd7yzc46lv9fr7xr4l58jqc";
         };
-        packageRequires = [ consult emacs embark ];
+        packageRequires = [ compat consult emacs embark ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/embark-consult.html";
           license = lib.licenses.free;
