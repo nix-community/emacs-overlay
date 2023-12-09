@@ -79,7 +79,13 @@ emacsWithPackages (epkgs:
             pname = "default";
             src =
               if defaultInitFile == true
-              then pkgs.writeText defaultInitFileName configText
+              then
+                if isOrgModeFile then pkgs.runCommand defaultInitFileName {} ''
+                  cp ${config} config.org
+                  ${package}/bin/emacs -Q --batch config.org -f org-babel-tangle
+                  cp config.el $out
+                ''
+                else pkgs.writeText defaultInitFileName configText
               else
                 if defaultInitFile.name == defaultInitFileName
                 then defaultInitFile
