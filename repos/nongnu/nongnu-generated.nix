@@ -1579,10 +1579,10 @@
       elpaBuild {
         pname = "helm-core";
         ename = "helm-core";
-        version = "3.9.6";
+        version = "3.9.7";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-core-3.9.6.tar";
-          sha256 = "1n6c06mfjj3ja7nfapc0w3pvp73pinfss8br4bjafisj5lbhgxda";
+          url = "https://elpa.nongnu.org/nongnu/helm-core-3.9.7.tar";
+          sha256 = "125fqnj2g61lsagiwwd8fpnrp2s7mxsdppj8cfp3m6c3984fmsx0";
         };
         packageRequires = [ async emacs ];
         meta = {
