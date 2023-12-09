@@ -15291,10 +15291,10 @@
   "unstable": {
    "version": [
     20231208,
-    16
+    1730
    ],
-   "commit": "ead3d00e62eca7cb8febce7516ed163516ae84e6",
-   "sha256": "029x4wf2z9i5shp23ahmdjyb63sljr5zj77471g57mjxpwrw1060"
+   "commit": "10e9d6efea30c6911cb0d33c36003b2d8a1a5bdc",
+   "sha256": "0l4h9bkyccp9pc3a4fa5v6qy0245yf0qxyvsshbc1pzxk9ixf6jq"
   },
   "stable": {
    "version": [
@@ -25597,14 +25597,14 @@
   "repo": "doomemacs/themes",
   "unstable": {
    "version": [
-    20231206,
-    1732
+    20231208,
+    2011
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "ec5c7c64735e6c6cf6b912ee69477a805744a325",
-   "sha256": "02qymjhgdq3327nqagb7kcd9izz99ps9g87v9yn1inh9bnww94za"
+   "commit": "ff26f26ea3d761375f5fc4070438fbd0f3473d33",
+   "sha256": "0ag8va9xwr61ra3nn53alggmdnw42x2z7820jyjqff39f5ziqszs"
   },
   "stable": {
    "version": [
@@ -46526,16 +46526,16 @@
   "repo": "thisch/gerrit.el",
   "unstable": {
    "version": [
-    20230102,
-    1714
+    20231209,
+    26
    ],
    "deps": [
     "dash",
     "magit",
     "s"
    ],
-   "commit": "76cc426d62f1b4964159706eafa8f5b50b8427ea",
-   "sha256": "0wzb4z4hqx7n5nn7jsgzvjqxd65w9s6fnasz9mpkh9vfvv3zngjg"
+   "commit": "8acf7416beec47cd09eae0dceb134f9bcf57b1d4",
+   "sha256": "0jvr2wf57p371jkzp8bwj5qclz2fzd929lkhv9gql1kjjpy5qhbc"
   }
  },
  {
@@ -47170,25 +47170,25 @@
   "unstable": {
    "version": [
     20231208,
-    1315
+    1700
    ],
    "deps": [
     "transient"
    ],
-   "commit": "6bd365c883f2ec68589818fdac6925185b8b2330",
-   "sha256": "14sp4z8ix0pvs5744ip79qh8vgvaxqs8qdmpnqvsz3r7chgww66f"
+   "commit": "636415559042608c39a54bd792bcd73f809d2ad0",
+   "sha256": "1bwkr4581x1fvna5fycv0qwnylajbladswi6w1vq800jcqhm3yk8"
   },
   "stable": {
    "version": [
     0,
     4,
-    3
+    4
    ],
    "deps": [
     "transient"
    ],
-   "commit": "06a57cd964013cfde6a21f8dee32626034310a84",
-   "sha256": "0jnhxfwjmi1cza4dlk19955h81dizs966a52liacw4ipjwkbrknm"
+   "commit": "636415559042608c39a54bd792bcd73f809d2ad0",
+   "sha256": "1bwkr4581x1fvna5fycv0qwnylajbladswi6w1vq800jcqhm3yk8"
   }
  },
  {
@@ -59414,8 +59414,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20231206,
-    636
+    20231208,
+    2258
    ],
    "deps": [
     "compat",
@@ -59425,8 +59425,8 @@
     "taxy-magit-section",
     "transient"
    ],
-   "commit": "ef5d1bc95fff9640e01909158a116a8b5cbb747a",
-   "sha256": "060jibrs8ayqg1y3gq0xvqd8c1p1jrral0zq5kh0rcg2zcib3cmh"
+   "commit": "b096ed34ede79cab82252bf63448c579c26a8129",
+   "sha256": "0lv6q8zji6b6aqzzk6q3apwc81lrr3ywgip9g90qlvh665ga31dn"
   },
   "stable": {
    "version": [
@@ -70586,20 +70586,20 @@
   "repo": "donkirkby/live-py-plugin",
   "unstable": {
    "version": [
-    20231004,
-    537
+    20231208,
+    1803
    ],
-   "commit": "5a94b98a15fb8c4c539b37d8583db1e427308b44",
-   "sha256": "0y23dfncncfpddhxqf449d46qrc10bnhdb516yydkqqa6q5jlysb"
+   "commit": "578c47e4084fbca4992a9be327d45a9e4ff0f33e",
+   "sha256": "099hqhjwd3373q0gx5b4m4n81ln49fgnvmfanjgj4c7bqmi92nyv"
   },
   "stable": {
    "version": [
     4,
     11,
-    0
+    1
    ],
-   "commit": "5a94b98a15fb8c4c539b37d8583db1e427308b44",
-   "sha256": "0y23dfncncfpddhxqf449d46qrc10bnhdb516yydkqqa6q5jlysb"
+   "commit": "578c47e4084fbca4992a9be327d45a9e4ff0f33e",
+   "sha256": "099hqhjwd3373q0gx5b4m4n81ln49fgnvmfanjgj4c7bqmi92nyv"
   }
  },
  {
@@ -83863,8 +83863,8 @@
   "repo": "licht1stein/obsidian.el",
   "unstable": {
    "version": [
-    20231203,
-    1703
+    20231208,
+    2150
    ],
    "deps": [
     "dash",
@@ -83874,14 +83874,14 @@
     "s",
     "yaml"
    ],
-   "commit": "160863495b9cfb202ad0415e64a3bb459d7c6926",
-   "sha256": "09vx9yl34zxfm88iikh78qb9m81njzxx2n6h33wj4rnrlgwzb4z5"
+   "commit": "57168c8453c3a59d3fefb874ee57b133288c129d",
+   "sha256": "1a2vfqvhfchkgwj7m0a9xjl3mygj7jv3gwrjjqcxy9amldn853s8"
   },
   "stable": {
    "version": [
     1,
     4,
-    1
+    2
    ],
    "deps": [
     "dash",
@@ -83891,8 +83891,8 @@
     "s",
     "yaml"
    ],
-   "commit": "160863495b9cfb202ad0415e64a3bb459d7c6926",
-   "sha256": "09vx9yl34zxfm88iikh78qb9m81njzxx2n6h33wj4rnrlgwzb4z5"
+   "commit": "57168c8453c3a59d3fefb874ee57b133288c129d",
+   "sha256": "1a2vfqvhfchkgwj7m0a9xjl3mygj7jv3gwrjjqcxy9amldn853s8"
   }
  },
  {
@@ -114009,11 +114009,11 @@
   "repo": "bbatsov/super-save",
   "unstable": {
    "version": [
-    20220531,
-    1745
+    20231208,
+    2213
    ],
-   "commit": "6f6512bc44b09f7187e58772892fa330f4518c12",
-   "sha256": "1nbkx8hphszwn42g75f92n22zkp8kjl3pr0rbfpwdzbsla5lm2dz"
+   "commit": "0bbc1b16e3eabf8565749180f83cc80073a35da2",
+   "sha256": "0q63r8l76b0jrdk3bcmkb1sw24xqvf72j0hqsn2d3ggx0d3dkd2i"
   },
   "stable": {
    "version": [
