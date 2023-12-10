@@ -725,10 +725,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.0.0.20231209.203215";
+        version = "1.0.0.20231209.210242";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.0.0.20231209.203215.tar";
-          sha256 = "048lzaqq60n3rfkaw9d2rfi4kyg75fk3s85x4wlr1izk1kc0c4k8";
+          url = "https://elpa.gnu.org/devel/cape-1.0.0.20231209.210242.tar";
+          sha256 = "0aqsnhkl5cs8l3iwrwkb749x2yb0r2hqqg8zbbsyrx8bwggg1182";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1350,10 +1350,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.1.1.0.20231205.64123";
+        version = "2.2.0.0.20231210.65254";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.1.1.0.20231205.64123.tar";
-          sha256 = "1crakp41jw55bgjc5aw6aqp8ahh0869q61vhz0k2zpf32xqa13mm";
+          url = "https://elpa.gnu.org/devel/denote-2.2.0.0.20231210.65254.tar";
+          sha256 = "0fb03z9hcrz2n4zhy5714q0x8si02x6zsrk5s9qzvcl5b0dk1yxv";
         };
         packageRequires = [ emacs ];
         meta = {
