@@ -1018,10 +1018,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.0.0.20231211.205756";
+        version = "1.0.0.20231211.210250";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.0.0.20231211.205756.tar";
-          sha256 = "10sw2jrs2fliw5crd2ahifxrx28yfz8xf29fvhcsyfmz20h6i8hh";
+          url = "https://elpa.gnu.org/devel/consult-1.0.0.20231211.210250.tar";
+          sha256 = "043f0b8a3aagyv6ki2nxcicdjn5wk3m8pdiigwiq36a9adgz95yw";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1350,10 +1350,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.1.0.20231211.72714";
+        version = "2.2.2.0.20231212.70112";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.1.0.20231211.72714.tar";
-          sha256 = "1wrsz4wq9ffjgwbdk7iwh7h6s514vzmc4z02wwwxd20rm116wv9x";
+          url = "https://elpa.gnu.org/devel/denote-2.2.2.0.20231212.70112.tar";
+          sha256 = "1bz5lhjmha0jkkp2xswhc1748ng3n3x0kcm4fkgyyd670lwcqd0c";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4385,10 +4385,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "1.0.0.20231130.234432";
+        version = "1.0.0.20231212.85610";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/osm-1.0.0.20231130.234432.tar";
-          sha256 = "0y8sl6c128q1bzdkmd3vgrsd5hkxr5yvj7a325cmd5hgba4wdql0";
+          url = "https://elpa.gnu.org/devel/osm-1.0.0.20231212.85610.tar";
+          sha256 = "185zlpl78qw3ycggsq3ir9y6vy4fv909j5vxx34spy5bnkc9ahbp";
         };
         packageRequires = [ compat emacs ];
         meta = {
