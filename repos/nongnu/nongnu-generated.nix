@@ -1758,10 +1758,10 @@
       elpaBuild {
         pname = "inf-ruby";
         ename = "inf-ruby";
-        version = "2.8.0";
+        version = "2.8.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/inf-ruby-2.8.0.tar";
-          sha256 = "1ax2sab4rm5alg12n2k6bz1xwv0mi0jvxx5xmjzavjxl4x6qckxy";
+          url = "https://elpa.nongnu.org/nongnu/inf-ruby-2.8.1.tar";
+          sha256 = "0ghf6gaxyslkxfy8cyyglf8ldzyv9jqsyl6nz7iahfk930aiynpj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2632,10 +2632,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20231209.134147";
+        version = "1.0.20231211.122419";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20231209.134147.tar";
-          sha256 = "0v4cik2s2s7iy64k5dxh363gqp5g9bf4qq5a9bgdg2lk2kfdx6gp";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20231211.122419.tar";
+          sha256 = "1bglxa9nnasv4fz46z6p298sbwa41jbsjannv1mymvnwawa6zs7z";
         };
         packageRequires = [ emacs ];
         meta = {
