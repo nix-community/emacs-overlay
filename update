@@ -11,4 +11,4 @@ if git diff --exit-code "repos/$repo" > /dev/null; then
     exit 0
 fi
 
-git commit -m "Updated $repo" -- "$repo"
+git commit -m "Updated $repo" -- "repos/$repo"
