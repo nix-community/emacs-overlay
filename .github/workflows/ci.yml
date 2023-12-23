@@ -6,9 +6,47 @@ on:
   workflow_dispatch:
 
 jobs:
+  flake-inputs:
+    name: Update flake inputs
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'nix-community'
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2.3.4
+
+    - name: Install Nix
+      uses: cachix/install-nix-action@v20
+      with:
+        nix_path: nixpkgs=channel:nixos-unstable
+
+    - name: Add nix-community cache
+      uses: cachix/cachix-action@v10
+      with:
+        name: nix-community
+        authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+
+    - name: Configure Git
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+
+    - name: Update flake inputs
+      run: |
+        nix flake update
+        git commit -m "Updated flake inputs" flake.lock || true
+
+    - name: Push commit with updated inputs
+      run: |
+        git pull --rebase --autostash
+        git push
+
   refresh-overlay:
     name: Refresh inputs
+    needs: flake-inputs
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo: ["elpa", "emacs", "melpa", "fromElisp", "nongnu"]
     if: github.repository_owner == 'nix-community'
     steps:
     - name: Checkout repository
@@ -37,7 +75,7 @@ jobs:
 
     - name: Update inputs
       run: |
-        ./update
+        ./update ${{ matrix.repo }}
 
     - name: Push commit with updated inputs
       run: |

@@ -1,8 +1,14 @@
 #!/usr/bin/env nix-shell
 #! nix-shell -i bash -p bash git
 
-for repo in repos/*; do
-    $repo/update && (git diff --exit-code $repo > /dev/null || git commit -m "Updated $repo" -- $repo)
-done
+set -euo pipefail
 
-exit 0
+repo="$1"
+
+"repos/$repo/update"
+
+if git diff --exit-code "$repo" > /dev/null; then
+    exit 0
+fi
+
+git commit -m "Updated $repo" -- "$repo"
