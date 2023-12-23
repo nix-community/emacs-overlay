@@ -6,4 +6,4 @@ let
     ];
   };
 
-in pkgs.emacsPackages.nongnuPackages
+in pkgs.emacsPackages

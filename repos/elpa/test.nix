@@ -6,4 +6,4 @@ let
     ];
   };
 
-in pkgs.emacsPackages.elpaPackages
+in pkgs.emacsPackages
