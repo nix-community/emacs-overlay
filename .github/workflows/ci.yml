@@ -68,11 +68,6 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
 
-    - name: Update flake inputs
-      run: |
-        nix flake update
-        git commit -m "Updated flake inputs" flake.lock || true
-
     - name: Update inputs
       run: |
         ./update ${{ matrix.repo }}
