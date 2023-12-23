@@ -55,4 +55,4 @@ update_release
 update_github_repo emacs-lsp emacs json-rpc lsp
 update_github_repo commercial-emacs commercial-emacs master commercial-emacs
 
-nix-instantiate --no-out-link --show-trace ./test.nix
+nix-instantiate --show-trace ./test.nix
