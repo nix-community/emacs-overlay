@@ -7,7 +7,7 @@ repo="$1"
 
 "repos/$repo/update"
 
-if git diff --exit-code "$repo" > /dev/null; then
+if git diff --exit-code "repos/$repo" > /dev/null; then
     exit 0
 fi
 
