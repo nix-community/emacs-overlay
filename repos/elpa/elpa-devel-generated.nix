@@ -1786,10 +1786,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20231217.0.20231222.234931";
+        version = "20231217.0.20231223.223923";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20231217.0.20231222.234931.tar";
-          sha256 = "0ifzlf4bhh7cb47cpdcblyv6f29hfjsdjd4gn6q5yrppfy595ixs";
+          url = "https://elpa.gnu.org/devel/eev-20231217.0.20231223.223923.tar";
+          sha256 = "1hak2lr6mngfl8gjj9vvpjn747kagr8cj0352gayfvbr1bzvvayk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1922,10 +1922,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.4.7.0.20231223.172909";
+        version = "0.4.9.0.20231224.73230";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.4.7.0.20231223.172909.tar";
-          sha256 = "0jbxwngy0g61jqi0i74wk7mm5adxahm5vfqmmc8l79ny04c1xhdy";
+          url = "https://elpa.gnu.org/devel/ellama-0.4.9.0.20231224.73230.tar";
+          sha256 = "0svr4dvy8lb76ryfvvnscx73an1ymsj3wmfqmhh4kx6kizr9ffaa";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -4400,10 +4400,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "1.1.0.20231223.155748";
+        version = "1.1.0.20231224.64516";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/osm-1.1.0.20231223.155748.tar";
-          sha256 = "0ml6ngr79xnjzn10s2v9h7q2zf8gzlacc7j4p016d95gi12ay49y";
+          url = "https://elpa.gnu.org/devel/osm-1.1.0.20231224.64516.tar";
+          sha256 = "18h5xm2gnwlj3mnznq35a43k2m5nifvbgpj8gx8k2qqvgi05sqab";
         };
         packageRequires = [ compat emacs ];
         meta = {
