@@ -725,10 +725,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.0.0.20231221.71908";
+        version = "1.0.0.20231223.104538";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.0.0.20231221.71908.tar";
-          sha256 = "0m99qs97a3vc84f2hw7na5aw3p233yvshbbm7li1szxxqkspmzmn";
+          url = "https://elpa.gnu.org/devel/cape-1.0.0.20231223.104538.tar";
+          sha256 = "05pand5gg92l2z4lh4shm9nqyi2529azl1phkbla40vn8n0xvh9h";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1070,10 +1070,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.0.0.20231222.172308";
+        version = "1.0.0.20231223.110017";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.0.0.20231222.172308.tar";
-          sha256 = "1zjj697m54994jqad3azbqfy128q5mdzhfix5i5ys3y4g6mzxc3z";
+          url = "https://elpa.gnu.org/devel/corfu-1.0.0.20231223.110017.tar";
+          sha256 = "19h25vy8ykp294likl4kixl46z8dnjxcccy9rc97vnq46spyn532";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1922,10 +1922,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.4.6.0.20231222.200217";
+        version = "0.4.7.0.20231223.172909";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.4.6.0.20231222.200217.tar";
-          sha256 = "0nfbx6zf26pkvm7n15sg4x6vqv5gjdc6pl23bw1nxiczqdz8carr";
+          url = "https://elpa.gnu.org/devel/ellama-0.4.7.0.20231223.172909.tar";
+          sha256 = "0jbxwngy0g61jqi0i74wk7mm5adxahm5vfqmmc8l79ny04c1xhdy";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -4202,10 +4202,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231222.112241";
+        version = "9.7pre0.20231223.201954";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231222.112241.tar";
-          sha256 = "1vwwdyj74pmh513spdlfc7qzcwlg1mdbpfya719yk1ggiccifx4v";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231223.201954.tar";
+          sha256 = "0akgnf0mrqls48nfhqskizzxn0fc1ysb485rjhw5cc9214i1k3vj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4400,10 +4400,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "1.0.0.20231222.225048";
+        version = "1.1.0.20231223.155748";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/osm-1.0.0.20231222.225048.tar";
-          sha256 = "140sm1ghrhnw3wnd1qgx52kam6nxilmmdcqfpkpp1h642p9im98f";
+          url = "https://elpa.gnu.org/devel/osm-1.1.0.20231223.155748.tar";
+          sha256 = "0ml6ngr79xnjzn10s2v9h7q2zf8gzlacc7j4p016d95gi12ay49y";
         };
         packageRequires = [ compat emacs ];
         meta = {
