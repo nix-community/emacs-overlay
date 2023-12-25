@@ -3409,10 +3409,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.7.0.0.20231223.11300";
+        version = "0.7.0.0.20231224.174345";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.7.0.0.20231223.11300.tar";
-          sha256 = "06a785fw353jr3b57zaaznnmjqzpcylayk9md2y5cn2jy66m57rz";
+          url = "https://elpa.gnu.org/devel/llm-0.7.0.0.20231224.174345.tar";
+          sha256 = "0z2gmsncrjz450zqcq2h4ga3iac3vc5z2n6dyh8v053pdcq9r3mb";
         };
         packageRequires = [ emacs ];
         meta = {
