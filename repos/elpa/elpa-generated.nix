@@ -2870,10 +2870,10 @@
       elpaBuild {
         pname = "js2-mode";
         ename = "js2-mode";
-        version = "20230408";
+        version = "20231224";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/js2-mode-20230408.tar";
-          sha256 = "1rzlbqddvaa51dz13did5ylj0ggwqnl0wii8735sylfcv6b82241";
+          url = "https://elpa.gnu.org/packages/js2-mode-20231224.tar";
+          sha256 = "1yc7rs748dwpbxy2bqxfspinfiay28qh8l0fly1k76fhk159rwj4";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3799,10 +3799,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.13";
+        version = "9.6.14";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.13.tar";
-          sha256 = "1zn1gy1z435a0vxsa0x9kvifa56m951zyy5wih7yiaimg4xpq599";
+          url = "https://elpa.gnu.org/packages/org-9.6.14.tar";
+          sha256 = "0fkinb8f405a5gngfij8f8vyz791xm51bdj2qrcx8xr9vi6c9665";
         };
         packageRequires = [ emacs ];
         meta = {
