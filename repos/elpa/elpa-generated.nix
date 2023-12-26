@@ -1717,10 +1717,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.4.9";
+        version = "0.4.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.4.9.tar";
-          sha256 = "1491689yqn7a89n53fpkm4r2bmkdsfak5hpmn1lwxy9vqdvwyxav";
+          url = "https://elpa.gnu.org/packages/ellama-0.4.11.tar";
+          sha256 = "0ras06xpmr3xdlpdhxdci0ifv5brz3ac2cmr387nsy8rscpzbj7s";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -6378,10 +6378,10 @@
       elpaBuild {
         pname = "xref-union";
         ename = "xref-union";
-        version = "0.1.1";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xref-union-0.1.1.tar";
-          sha256 = "1v95l4j3w3zrjmii3pz319s4jmqnfdx6np120zhc6ccgj1fawy2c";
+          url = "https://elpa.gnu.org/packages/xref-union-0.2.0.tar";
+          sha256 = "0kcmg9fm9gcpdxfwx7c6zz29krf69j5nh6knv2x3df65sbzwdj0b";
         };
         packageRequires = [ emacs ];
         meta = {

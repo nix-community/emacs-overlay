@@ -1804,10 +1804,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.4.1.0.20231224.150545";
+        version = "1.4.1.0.20231225.114822";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.4.1.0.20231224.150545.tar";
-          sha256 = "1pzz9csbbkkr2329bzdr5m7fq0ldn1j1dia6rlc8y4iv9qys9npk";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.4.1.0.20231225.114822.tar";
+          sha256 = "1c8aijjx10y9nkyjf4b435lsfn5xz8v2lihgf0n0d4dd807vqjjm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1918,14 +1918,19 @@
           license = lib.licenses.free;
         };
       }) {};
-    ellama = callPackage ({ elpaBuild, emacs, fetchurl, lib, llm, spinner }:
+    ellama = callPackage ({ elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib
+                          , llm
+                          , spinner }:
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.4.9.0.20231224.73230";
+        version = "0.4.11.0.20231225.192534";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.4.9.0.20231224.73230.tar";
-          sha256 = "0svr4dvy8lb76ryfvvnscx73an1ymsj3wmfqmhh4kx6kizr9ffaa";
+          url = "https://elpa.gnu.org/devel/ellama-0.4.11.0.20231225.192534.tar";
+          sha256 = "0ribg50lp33r17ddwyij9pmq6r435fhcv20k0511dbzw5kxspw7h";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -3199,10 +3204,10 @@
       elpaBuild {
         pname = "js2-mode";
         ename = "js2-mode";
-        version = "20231224.0.20231224.185128";
+        version = "20231224.0.20231225.115039";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/js2-mode-20231224.0.20231224.185128.tar";
-          sha256 = "1w092jkd2pgawlxd6l5k2yqf12wm65ya54lhr0nk7bs0qnxqwdv9";
+          url = "https://elpa.gnu.org/devel/js2-mode-20231224.0.20231225.115039.tar";
+          sha256 = "0vgd6gf233y6q5xj169pavz4ywaywbbz5grv4y4xb7p3r72sg851";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -3768,10 +3773,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.3.0.0.20231224.150350";
+        version = "4.3.0.0.20231225.112903";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20231224.150350.tar";
-          sha256 = "0qhmv38p16hch37h146ak32skwm0mni5mvvcav0zjz125s2x8hlp";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20231225.112903.tar";
+          sha256 = "1qx1wia91z8njxg6vs0skamlr9yb58bisn63ga5ihfwzrdlmichq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4202,10 +4207,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231224.174607";
+        version = "9.7pre0.20231225.185741";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231224.174607.tar";
-          sha256 = "1zq95mnkhpiskg4i65y96hqrfkdq3na43mrwg4mhkvlfbp3jnlzg";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231225.185741.tar";
+          sha256 = "0wzpk5if5lkdbxdcdz44s056mdf46rgqkz0pz7z4ign36wij617k";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4400,10 +4405,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "1.1.0.20231224.64516";
+        version = "1.1.0.20231225.113800";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/osm-1.1.0.20231224.64516.tar";
-          sha256 = "18h5xm2gnwlj3mnznq35a43k2m5nifvbgpj8gx8k2qqvgi05sqab";
+          url = "https://elpa.gnu.org/devel/osm-1.1.0.20231225.113800.tar";
+          sha256 = "13fxdhsk07lywmh4y32xs9lv2siry1627cv746iwkx918nzjmfhj";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -7139,10 +7144,10 @@
       elpaBuild {
         pname = "xref-union";
         ename = "xref-union";
-        version = "0.1.1.0.20231209.190443";
+        version = "0.2.0.0.20231225.162837";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xref-union-0.1.1.0.20231209.190443.tar";
-          sha256 = "1836ikv5lia94gzxlink0n7sw3ysmhsrrbgyrb591k8h34sd4mdp";
+          url = "https://elpa.gnu.org/devel/xref-union-0.2.0.0.20231225.162837.tar";
+          sha256 = "1gfvd23d0ysrvricvcpqgbji705ibwpz3jcnk8lxiz890y4rs2vw";
         };
         packageRequires = [ emacs ];
         meta = {
