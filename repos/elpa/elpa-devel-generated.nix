@@ -1786,10 +1786,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20231217.0.20231223.223923";
+        version = "20231226.0.20231226.20138";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20231217.0.20231223.223923.tar";
-          sha256 = "1hak2lr6mngfl8gjj9vvpjn747kagr8cj0352gayfvbr1bzvvayk";
+          url = "https://elpa.gnu.org/devel/eev-20231226.0.20231226.20138.tar";
+          sha256 = "1hfx5yqify1n3dd868q4sagvwgwn5yqr48x9jy5x6cigwf7p2xfq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6711,10 +6711,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.5.0.20231207.202956";
+        version = "1.5.0.20231226.72058";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.5.0.20231207.202956.tar";
-          sha256 = "1g50qbrkylxfn7fwbyxp4s976x0v9j1hgv3rfcymnxfmkahbli9l";
+          url = "https://elpa.gnu.org/devel/vertico-1.5.0.20231226.72058.tar";
+          sha256 = "1sbrkz03yqsl0hjz83gl9l1q948a5gf4nb06kcv10np9r51ablvv";
         };
         packageRequires = [ compat emacs ];
         meta = {
