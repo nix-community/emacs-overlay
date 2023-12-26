@@ -3332,10 +3332,10 @@
       elpaBuild {
         pname = "web-mode";
         ename = "web-mode";
-        version = "17.3.16";
+        version = "17.3.17";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/web-mode-17.3.16.tar";
-          sha256 = "0kw39c9183ldgli4pb00g5n13yq9frlxh3aym0g9wnfz0f7z4yia";
+          url = "https://elpa.nongnu.org/nongnu/web-mode-17.3.17.tar";
+          sha256 = "0a9qsffj2451ccb2gvimkwa0qp9m2n5m70zb6bzjndqgq18n7rfb";
         };
         packageRequires = [ emacs ];
         meta = {
