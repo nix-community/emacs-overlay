@@ -4773,18 +4773,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    project = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib
-                           , xref }:
+    project = callPackage ({ elpaBuild, emacs, fetchurl, lib, xref }:
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.10.0.0.20231220.153412";
+        version = "0.10.0.0.20231227.2039";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231220.153412.tar";
-          sha256 = "09743gaqqkpkhghf16akd6884x0xb8yhc7328lkdiiw21fzd9zhd";
+          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20231227.2039.tar";
+          sha256 = "1ghxikxbj1sa0f6xzifgkrywi2asqkkgg919wsxcj9mi7yyq1b3c";
         };
         packageRequires = [ emacs xref ];
         meta = {
@@ -6476,10 +6472,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.3.1snapshot0.20231221.164910";
+        version = "0.4.0snapshot0.20231226.184833";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.3.1snapshot0.20231221.164910.tar";
-          sha256 = "12s8a9r06qcq2al8h75habw3xbx0li5941kifwfcq1rc5s88xdbx";
+          url = "https://elpa.gnu.org/devel/urgrep-0.4.0snapshot0.20231226.184833.tar";
+          sha256 = "1kdmfbsjzh8mbyidlkhdr0mpc41kdj3kl5y82la6krvvrn42s3dh";
         };
         packageRequires = [ compat emacs project ];
         meta = {
@@ -6711,10 +6707,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.5.0.20231226.195218";
+        version = "1.5.0.20231227.74953";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.5.0.20231226.195218.tar";
-          sha256 = "0c9l460gl6m0ac88mjln6m22ywnnjfskqrhh98vb27iw5aj40g5l";
+          url = "https://elpa.gnu.org/devel/vertico-1.5.0.20231227.74953.tar";
+          sha256 = "0k1ialzcqzy5ad5n8r9l0zgacl4zhvn0m5rrhi5rhfwgy2qbnwjh";
         };
         packageRequires = [ compat emacs ];
         meta = {
