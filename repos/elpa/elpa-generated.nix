@@ -2900,10 +2900,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.21";
+        version = "1.0.22";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.21.tar";
-          sha256 = "1sjfw994vbxw0whh9c85smm11nik54wdnznn6mi1k2907hzmqphi";
+          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.22.tar";
+          sha256 = "1g34jh37i6nxrm4aarl91kmxy1vkgas390lak8iy4vh9xwqgisja";
         };
         packageRequires = [ emacs ];
         meta = {
