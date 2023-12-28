@@ -1628,10 +1628,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.16";
+        version = "1.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eglot-1.16.tar";
-          sha256 = "10pxnsz6cf09fcw1irnclx017xx4bywg3hankj6yf2kj0b71ha5v";
+          url = "https://elpa.gnu.org/packages/eglot-1.15.tar";
+          sha256 = "1qywpa44bjyii09cyvyzbfqg1v1i1c86k7fgydmjzgfinw3fvr5g";
         };
         packageRequires = [
           eldoc
@@ -1717,10 +1717,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.4.12";
+        version = "0.4.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.4.12.tar";
-          sha256 = "0gzkn5by9rhygkxslfppmlygp0kabxwpwgf6y0sbv5r0yqr01r55";
+          url = "https://elpa.gnu.org/packages/ellama-0.4.13.tar";
+          sha256 = "0lyz2l0dhgiym1wj0ni05kh1z021bvs1mpm0i9dahr7j14x4gx0k";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -3220,10 +3220,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.4";
+        version = "1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/marginalia-1.4.tar";
-          sha256 = "1bhpz6jwwjjnijrpn93p5yz1096r7xhyjhwkswkg3z6v9d6xry1m";
+          url = "https://elpa.gnu.org/packages/marginalia-1.5.tar";
+          sha256 = "1hc4jjvrwfkqmhb1kvmjzzkmnqfx188ywy1cmxpns1wivnjic79h";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3964,10 +3964,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "1.1";
+        version = "1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/osm-1.1.tar";
-          sha256 = "1x3bj433kph9wp6iq3y1b4wwca4npisl7m1ma46x8kzwl6hwsj8c";
+          url = "https://elpa.gnu.org/packages/osm-1.2.tar";
+          sha256 = "1j38l2ijhhh9zw07mdm5av48h0wcyfvprpbcgi48njxd3s90w6f3";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -5975,10 +5975,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.5";
+        version = "1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-1.5.tar";
-          sha256 = "0fz1kpx62rjs21q6jq9bas0q77nk56fm429qi9adsnbamwajryli";
+          url = "https://elpa.gnu.org/packages/vertico-1.6.tar";
+          sha256 = "1vrxk78c0np186m5mpscwa9cx4fhpm5xy3nz5n2hgavq5g68wlcq";
         };
         packageRequires = [ compat emacs ];
         meta = {
