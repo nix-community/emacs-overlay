@@ -629,10 +629,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cape-1.0.tar";
-          sha256 = "1jphfjfk4sz5iw308ivx4l13l1dlkcim45apwvj3g5qz1xj3qyp5";
+          url = "https://elpa.gnu.org/packages/cape-1.1.tar";
+          sha256 = "0wfm4qi89vjf453hh2c167148zn65vbc89zr81w7n4vnxkpd10ql";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -892,10 +892,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-1.0.tar";
-          sha256 = "1kh31q69sp9yxqj5vaxajf4gdkhcna5c8j495m3h4xk5azzwjjs1";
+          url = "https://elpa.gnu.org/packages/consult-1.1.tar";
+          sha256 = "12mxmz39rgzfrhjgq0zdhlrn28zfw6h35w33rhif3hb6x1vzz0vg";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -937,10 +937,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-1.0.tar";
-          sha256 = "0hgk0yvmdkj448bb6nr9741rxlcawq5dmjmppc5kv2gsn5dfvk40";
+          url = "https://elpa.gnu.org/packages/corfu-1.1.tar";
+          sha256 = "1lbpklqqzplr6d3z56mqshhhn8l39hkx279nwhmbxp2hmqrmrhm1";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1628,10 +1628,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15";
+        version = "1.16";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eglot-1.15.tar";
-          sha256 = "05brq76xbdkbhbn572n0hyz80lwc3ly5waaqsaan5l1apxgl6ww7";
+          url = "https://elpa.gnu.org/packages/eglot-1.16.tar";
+          sha256 = "10pxnsz6cf09fcw1irnclx017xx4bywg3hankj6yf2kj0b71ha5v";
         };
         packageRequires = [
           eldoc
@@ -1717,10 +1717,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.4.11";
+        version = "0.4.12";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.4.11.tar";
-          sha256 = "0ras06xpmr3xdlpdhxdci0ifv5brz3ac2cmr387nsy8rscpzbj7s";
+          url = "https://elpa.gnu.org/packages/ellama-0.4.12.tar";
+          sha256 = "0gzkn5by9rhygkxslfppmlygp0kabxwpwgf6y0sbv5r0yqr01r55";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -2840,10 +2840,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jinx-1.0.tar";
-          sha256 = "1rlfdhjskyzsv65fgflypijfmrpl4381yq8z42dghlihqk28d2db";
+          url = "https://elpa.gnu.org/packages/jinx-1.1.tar";
+          sha256 = "1wzqh1lk61n5cw87h19aw469i64991y8jrn61g6fqmq7lqp430jh";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2900,10 +2900,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.22";
+        version = "1.0.23";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.22.tar";
-          sha256 = "1g34jh37i6nxrm4aarl91kmxy1vkgas390lak8iy4vh9xwqgisja";
+          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.23.tar";
+          sha256 = "0zkj893wb0mz6p8xpnmw61j0gnbmqagcggadvchnspm5vbza6nkw";
         };
         packageRequires = [ emacs ];
         meta = {
