@@ -10,8 +10,8 @@ jobs:
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: cachix/install-nix-action@v22
+      - uses: actions/checkout@v4.1.1
+      - uses: cachix/install-nix-action@v24
       - id: set-matrix
         name: Evaluate flake
         run: nix flake show --all-systems
