@@ -12,7 +12,7 @@ jobs:
     if: github.repository_owner == 'nix-community'
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2.3.4
+      uses: actions/checkout@v4.1.1
 
     - name: Install Nix
       uses: cachix/install-nix-action@v20
@@ -20,7 +20,7 @@ jobs:
         nix_path: nixpkgs=channel:nixos-unstable
 
     - name: Add nix-community cache
-      uses: cachix/cachix-action@v10
+      uses: cachix/cachix-action@v13
       with:
         name: nix-community
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
@@ -50,15 +50,15 @@ jobs:
     if: github.repository_owner == 'nix-community'
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2.3.4
+      uses: actions/checkout@v4.1.1
 
     - name: Install Nix
-      uses: cachix/install-nix-action@v20
+      uses: cachix/install-nix-action@v24
       with:
         nix_path: nixpkgs=channel:nixos-unstable
 
     - name: Add nix-community cache
-      uses: cachix/cachix-action@v10
+      uses: cachix/cachix-action@v13
       with:
         name: nix-community
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
