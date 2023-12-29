@@ -2876,10 +2876,10 @@
       elpaBuild {
         pname = "slime";
         ename = "slime";
-        version = "2.26.1";
+        version = "2.28";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/slime-2.26.1.tar";
-          sha256 = "0f7absmq0nnhhq0i8nfgn2862ydvwlqyzhcq4s6m91mn72d7dw5i";
+          url = "https://elpa.nongnu.org/nongnu/slime-2.28.tar";
+          sha256 = "0vfkvl09jsz4cjzx5p72r13km3q91xagm2f2wca1fdjprq4cl0gy";
         };
         packageRequires = [ cl-lib macrostep ];
         meta = {
