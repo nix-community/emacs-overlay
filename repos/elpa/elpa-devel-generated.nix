@@ -4202,10 +4202,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231227.134905";
+        version = "9.7pre0.20231228.151703";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231227.134905.tar";
-          sha256 = "1zm2024n4dcx3qih3zbhnvph9dbq0sqm23mv233fy419a1sxdj03";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231228.151703.tar";
+          sha256 = "1s7hzcx2hxw42ahk380rq519f3sq505b5vzzk7l45mmd7kbv5i4m";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4400,10 +4400,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "1.2.0.20231227.192519";
+        version = "1.2.0.20231228.132205";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/osm-1.2.0.20231227.192519.tar";
-          sha256 = "1ffya95h8qgp9ijqm7kmkmc2v8aw56mdc2qgcfmbwd5m16sfn66r";
+          url = "https://elpa.gnu.org/devel/osm-1.2.0.20231228.132205.tar";
+          sha256 = "03nx44jym67l84fidvzmjwb7f2ggy7ns9agqpmn90hakjdk06gy6";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6702,10 +6702,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.6.0.20231227.193420";
+        version = "1.6.0.20231228.172622";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.6.0.20231227.193420.tar";
-          sha256 = "0rc8rgxgpgp75yfc3l49v85rx59dhsz4n01sdq7mc5a2kwxcn64r";
+          url = "https://elpa.gnu.org/devel/vertico-1.6.0.20231228.172622.tar";
+          sha256 = "03b6iwsf19xz24305h2lrw520izik4pzxyfspyh7hmq2j897fv9h";
         };
         packageRequires = [ compat emacs ];
         meta = {
