@@ -3070,10 +3070,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.7.0";
+        version = "0.8.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/llm-0.7.0.tar";
-          sha256 = "1dl7bhs1b2gyvybvqmpny4yrr6fglm6xwydm4zg9bipj5clccd76";
+          url = "https://elpa.gnu.org/packages/llm-0.8.0.tar";
+          sha256 = "1pcpwkwdrpbdmq0macxy66p2cmrlq7y8j58k0qlbpiqssyrwakzp";
         };
         packageRequires = [ emacs ];
         meta = {
