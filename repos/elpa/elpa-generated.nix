@@ -5249,10 +5249,10 @@
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.2.8";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/svg-lib-0.2.8.tar";
-          sha256 = "0fsq8kyf32x2pfl6kfbmhby160cs96j488drxjf12ash9xqrza5i";
+          url = "https://elpa.gnu.org/packages/svg-lib-0.3.tar";
+          sha256 = "0d0xkfmk351h8lx28dxgync47r780nyk4fk12sb4j0byfr0lsh8d";
         };
         packageRequires = [ emacs ];
         meta = {
