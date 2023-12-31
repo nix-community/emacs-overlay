@@ -725,10 +725,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.1.0.20231230.61845";
+        version = "1.1.0.20231230.191351";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.1.0.20231230.61845.tar";
-          sha256 = "1rsb4j9n9wvgihc9cm2caajhrq9dsy9kj531lhpqk9f92c1v536c";
+          url = "https://elpa.gnu.org/devel/cape-1.1.0.20231230.191351.tar";
+          sha256 = "1s9sjvh6hlnkqqyc23c43k3lvm3p4dwiv4w40dw5i7b3zfmynrs6";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1070,10 +1070,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.1.0.20231230.82422";
+        version = "1.1.0.20231230.191401";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.1.0.20231230.82422.tar";
-          sha256 = "1grzlaqjffgwvr976nchxrgs1571lab9wbkp0b46d3vy59ka5wpf";
+          url = "https://elpa.gnu.org/devel/corfu-1.1.0.20231230.191401.tar";
+          sha256 = "07mpq5x7drnj7cv75ghi7822z9k2xqzqp2p4385rysqhfc749902";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3161,10 +3161,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.1.0.20231230.45844";
+        version = "1.1.0.20231230.191337";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.1.0.20231230.45844.tar";
-          sha256 = "16rs7ayrpgnh5czir33vdcd5cbf4ngw87c18csw12v5319yxhx70";
+          url = "https://elpa.gnu.org/devel/jinx-1.1.0.20231230.191337.tar";
+          sha256 = "1a15wskqnp1rc8yjayjjqag6rkdnv12437k485whc72x609vn24y";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4260,10 +4260,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.1.0.20231229.220627";
+        version = "1.1.0.20231230.191307";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.1.0.20231229.220627.tar";
-          sha256 = "02z1z1a7amd5a3az9x8p0cgrqki113a6il1w6vdgahb0cdd0syhi";
+          url = "https://elpa.gnu.org/devel/org-modern-1.1.0.20231230.191307.tar";
+          sha256 = "0mnj0s6dnf89m580kkynwpbsdmq7yl57y5fl2g9d12z33sx8rym9";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4317,10 +4317,10 @@
       elpaBuild {
         pname = "org-remark";
         ename = "org-remark";
-        version = "1.2.1.0.20231007.205129";
+        version = "1.2.1.0.20231230.155013";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-remark-1.2.1.0.20231007.205129.tar";
-          sha256 = "0k9pinnm26psr40pa1rib91kj6lrk0dnnsgbywlx0nmrfhs35yd2";
+          url = "https://elpa.gnu.org/devel/org-remark-1.2.1.0.20231230.155013.tar";
+          sha256 = "1zgpgkphckz36ry1s5f243wj6n8hdjc5y30g07fbrg6iqzqschj5";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -6083,10 +6083,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "1.0.0.20231229.220702";
+        version = "1.0.0.20231230.191414";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tempel-1.0.0.20231229.220702.tar";
-          sha256 = "0ib39zsi4hlzs169ng8aymd33z2calyi0jayflqx6d3cql59z86y";
+          url = "https://elpa.gnu.org/devel/tempel-1.0.0.20231230.191414.tar";
+          sha256 = "0rszi5xfwjsg6cffangz7g32c4nqxzzff0zpzycx731bgrca1kak";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6212,14 +6212,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    tramp = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    tramp = callPackage ({ elpaBuild
+                         , emacs
+                         , fetchurl
+                         , lib }:
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.1.5.0.20231129.74513";
+        version = "2.6.2.0.0.20231230.113126";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tramp-2.6.1.5.0.20231129.74513.tar";
-          sha256 = "0lqcq7s5hsg0cq1fbvcdmsdk5r3kdp6gsgyxs9gpjf6hjhv4r4d7";
+          url = "https://elpa.gnu.org/devel/tramp-2.6.2.0.0.20231230.113126.tar";
+          sha256 = "1lh7s7m81x2b8lbs9d54p96mg4pr0jkvmg4q5v5i9g7ic8r9skp9";
         };
         packageRequires = [ emacs ];
         meta = {
