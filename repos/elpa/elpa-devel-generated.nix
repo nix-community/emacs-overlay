@@ -1257,10 +1257,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.3.0.0.20231228.230722";
+        version = "0.3.0.0.20231230.235504";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.3.0.0.20231228.230722.tar";
-          sha256 = "18k9a0fnzis6kf7zdc7wg3s3ada2bmzvnqig0gx4gql7d6m15fww";
+          url = "https://elpa.gnu.org/devel/dape-0.3.0.0.20231230.235504.tar";
+          sha256 = "0bz8q3giwrp40468xbk1z7w2znc1s7fb8fwdyy69xgwa28931gqb";
         };
         packageRequires = [ emacs ];
         meta = {
