@@ -1628,10 +1628,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15";
+        version = "1.16";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eglot-1.15.tar";
-          sha256 = "1qywpa44bjyii09cyvyzbfqg1v1i1c86k7fgydmjzgfinw3fvr5g";
+          url = "https://elpa.gnu.org/packages/eglot-1.16.tar";
+          sha256 = "0zi2r8fp7acqlx8s4k2m9dc8w29bwsxyvfa6cnd1366nm3rlfybn";
         };
         packageRequires = [
           eldoc
@@ -3799,10 +3799,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.14";
+        version = "9.6.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.14.tar";
-          sha256 = "0fkinb8f405a5gngfij8f8vyz791xm51bdj2qrcx8xr9vi6c9665";
+          url = "https://elpa.gnu.org/packages/org-9.6.15.tar";
+          sha256 = "0l55x89kvix36qv52ifw0rkm397lkxqi736wlxpxkwps81459008";
         };
         packageRequires = [ emacs ];
         meta = {

@@ -1829,10 +1829,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.15.0.20231226.101014";
+        version = "1.16.0.20231229.112138";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.15.0.20231226.101014.tar";
-          sha256 = "05ly6y4qc9bpf03ab24wfqy2ydp7431vwqxkp8y3wkavkkisp55j";
+          url = "https://elpa.gnu.org/devel/eglot-1.16.0.20231229.112138.tar";
+          sha256 = "05w75w3knvm5c2l9xf7sl0mq3shi6ipmgq9chkgr3jans6s0lbmg";
         };
         packageRequires = [
           eldoc
@@ -2099,10 +2099,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20231223.64633";
+        version = "5.6snapshot0.20231231.65632";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231223.64633.tar";
-          sha256 = "00jfzsinmb7simx2frcllll7rckyz79rkq5gg14kw66f909l6q80";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20231231.65632.tar";
+          sha256 = "1cc3k6g34m9ypkhs4gy9bb2jwdwvggysis3qdnv1crk7jp7v9wqb";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3232,10 +3232,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.23.0.20231227.75345";
+        version = "1.0.23.0.20231230.61031";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jsonrpc-1.0.23.0.20231227.75345.tar";
-          sha256 = "1i10qbi8hg9rnw63020znjg9ppzs0mqcmv0y00wbzf71wh0pmrqa";
+          url = "https://elpa.gnu.org/devel/jsonrpc-1.0.23.0.20231230.61031.tar";
+          sha256 = "0hzgcq53mqs26901m9fzbv5zsyn9bmw0fh3ax0dd8zdsnfyznrr3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4202,10 +4202,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20231229.84417";
+        version = "9.7pre0.20231231.103255";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231229.84417.tar";
-          sha256 = "1pk6sqg4ib7ahrkszpc6jxp2j53salsypwa4smawi48vcv5063d5";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20231231.103255.tar";
+          sha256 = "01zpwh8jjlkz6hf6mjgxlcaxz09l41fg39sjqmgfi80p7s3ps7wx";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4864,10 +4864,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20231216.91751";
+        version = "0.28.0.20231230.45117";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20231216.91751.tar";
-          sha256 = "0kqf3grq8idwszxajfzmw5bmn1l4yhvnbwr80r6gnl83chz473rg";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20231230.45117.tar";
+          sha256 = "0ms1l9swnhfh8ska33xw0xah4f2jw0yh1qsp1mgjv2avc2bnah75";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -5877,10 +5877,10 @@
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.3.0.20231229.141443";
+        version = "0.3.0.20231231.90921";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/svg-lib-0.3.0.20231229.141443.tar";
-          sha256 = "1jy8pib9z3l6zx4g2aksc16kjzm7nmlmzlvawilpf2lqzg4pkl3d";
+          url = "https://elpa.gnu.org/devel/svg-lib-0.3.0.20231231.90921.tar";
+          sha256 = "1rxrrv1rzlzjmw2z402w1w3lpmp6bkyr9qp1vl9sl2lmdhjjwry4";
         };
         packageRequires = [ emacs ];
         meta = {
