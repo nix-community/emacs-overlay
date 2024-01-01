@@ -1018,10 +1018,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.1.0.20231229.220539";
+        version = "1.1.0.20240101.142";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.1.0.20231229.220539.tar";
-          sha256 = "14v0an5wn3gm5cfaxqh9ps05lxv32vgsw4mgmqr27wjyc5qyf8c2";
+          url = "https://elpa.gnu.org/devel/consult-1.1.0.20240101.142.tar";
+          sha256 = "0xqlw4m4101a60yn18i5q645n32kqappdds456cyry1k44p4mbkh";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1350,10 +1350,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.4.0.20231222.45014";
+        version = "2.2.4.0.20240101.85315";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20231222.45014.tar";
-          sha256 = "0r6h02gj01439iqndysfygdznfwblgfxbzrjzxlh42s5vl3116h1";
+          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240101.85315.tar";
+          sha256 = "0z0ffmk0mzv2cmhi2z7hya8xw3d77z6d4cw3704ln6psqszazibc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1804,10 +1804,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.4.1.0.20231230.70554";
+        version = "1.4.1.0.20240101.54744";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.4.1.0.20231230.70554.tar";
-          sha256 = "09vs6xs1cwajrdjj2yqw46dr17bqbn9z227q0k3q9fffmwad0h5s";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.4.1.0.20240101.54744.tar";
+          sha256 = "0zvfl3hv1sr642lqkz2n346vds8hrvxq6pp2phmqj5ml2rpcwavq";
         };
         packageRequires = [ emacs ];
         meta = {
