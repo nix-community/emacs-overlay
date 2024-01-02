@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repo: ["elpa", "melpa", "fromElisp", "nongnu"]
+        repo: ["elpa", "emacs", "melpa", "fromElisp", "nongnu"]
     if: github.repository_owner == 'nix-community'
     steps:
     - name: Checkout repository
