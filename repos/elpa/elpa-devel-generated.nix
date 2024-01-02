@@ -1257,10 +1257,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.3.0.0.20231230.235504";
+        version = "0.3.0.0.20240101.183448";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.3.0.0.20231230.235504.tar";
-          sha256 = "0bz8q3giwrp40468xbk1z7w2znc1s7fb8fwdyy69xgwa28931gqb";
+          url = "https://elpa.gnu.org/devel/dape-0.3.0.0.20240101.183448.tar";
+          sha256 = "0iyp8hsqjlzjni8ldm3vvjs1ypjdb9cjyr43zpm5gikzs7q0j0ld";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1350,10 +1350,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.4.0.20240101.85315";
+        version = "2.2.4.0.20240101.90700";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240101.85315.tar";
-          sha256 = "0z0ffmk0mzv2cmhi2z7hya8xw3d77z6d4cw3704ln6psqszazibc";
+          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240101.90700.tar";
+          sha256 = "1xbp3rhzfpl69bdjc8n2swisdpkr49kbr42n0bpivr210dxyiprn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1804,10 +1804,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.4.1.0.20240101.54744";
+        version = "1.4.1.0.20240101.102143";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.4.1.0.20240101.54744.tar";
-          sha256 = "0zvfl3hv1sr642lqkz2n346vds8hrvxq6pp2phmqj5ml2rpcwavq";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.4.1.0.20240101.102143.tar";
+          sha256 = "1xj29qjk29i3za95hv6i28dk90agxxdj2h22y6ci22716k2kpf72";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1829,10 +1829,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.16.0.20231229.112138";
+        version = "1.16.0.20240101.151243";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.16.0.20231229.112138.tar";
-          sha256 = "05w75w3knvm5c2l9xf7sl0mq3shi6ipmgq9chkgr3jans6s0lbmg";
+          url = "https://elpa.gnu.org/devel/eglot-1.16.0.20240101.151243.tar";
+          sha256 = "17whmh25wqs2dkgddgkr9iddj8jma0k1g7z36v7k52pxwvj2a9m5";
         };
         packageRequires = [
           eldoc
@@ -5522,14 +5522,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    sm-c-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+    sm-c-mode = callPackage ({ elpaBuild
+                             , fetchurl
+                             , lib }:
       elpaBuild {
         pname = "sm-c-mode";
         ename = "sm-c-mode";
-        version = "1.1.0.20221221.82204";
+        version = "1.1.0.20240101.165603";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/sm-c-mode-1.1.0.20221221.82204.tar";
-          sha256 = "0zdzncy64b2d2kp7bnlr6vk30ajbhmzzmvvdkbbacc3n03bpdv7d";
+          url = "https://elpa.gnu.org/devel/sm-c-mode-1.1.0.20240101.165603.tar";
+          sha256 = "00nh3fr57la0zj36c47rwjdkc7a3imvpc5jqh4pg98zn12mi1jdz";
         };
         packageRequires = [];
         meta = {
