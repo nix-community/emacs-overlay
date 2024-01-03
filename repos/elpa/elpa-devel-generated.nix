@@ -725,10 +725,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.1.0.20240102.44501";
+        version = "1.1.0.20240102.215048";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.1.0.20240102.44501.tar";
-          sha256 = "0kcb5s2bjfg54p2fszb6ynf3m219kkn7d0wwa0jc7pxrfkkfvv5y";
+          url = "https://elpa.gnu.org/devel/cape-1.1.0.20240102.215048.tar";
+          sha256 = "1dw7j5sjbnj4d2l857sk5c5n6ds02wjfv8v0vyid8hix38h0bzrm";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1070,10 +1070,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.1.0.20240102.33115";
+        version = "1.1.0.20240103.60628";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.1.0.20240102.33115.tar";
-          sha256 = "0bbby2kiphmzbwxw3l9d9k6w6ahwazbwwkk45pigygk2mp8h4ldz";
+          url = "https://elpa.gnu.org/devel/corfu-1.1.0.20240103.60628.tar";
+          sha256 = "02wvq665wphknvcv5nlk0kml8zy6p8y6nfg3qc3zi3r3x6qg1pdl";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1804,10 +1804,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.4.1.0.20240101.102143";
+        version = "1.4.1.0.20240103.75047";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.4.1.0.20240101.102143.tar";
-          sha256 = "1xj29qjk29i3za95hv6i28dk90agxxdj2h22y6ci22716k2kpf72";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.4.1.0.20240103.75047.tar";
+          sha256 = "0rqv9qrvj2ldbfl6glsdr9iz4q6ncq6g50a4ww22y6ajhrnzks7r";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3763,10 +3763,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.3.0.0.20231225.112903";
+        version = "4.3.0.0.20240103.75518";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20231225.112903.tar";
-          sha256 = "1qx1wia91z8njxg6vs0skamlr9yb58bisn63ga5ihfwzrdlmichq";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240103.75518.tar";
+          sha256 = "0q2fp8ib904fs3lpxaxqaxyf2g3kgj9l9rjbkb5ql4wi7nvrxyxl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6468,10 +6468,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.4.0snapshot0.20231226.184833";
+        version = "0.4.0snapshot0.20240102.142536";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.4.0snapshot0.20231226.184833.tar";
-          sha256 = "1kdmfbsjzh8mbyidlkhdr0mpc41kdj3kl5y82la6krvvrn42s3dh";
+          url = "https://elpa.gnu.org/devel/urgrep-0.4.0snapshot0.20240102.142536.tar";
+          sha256 = "1nmqd372abjn04nvp76x3bkr3w6q4zrlyycxphijs7m11n5vk2pp";
         };
         packageRequires = [ compat emacs project ];
         meta = {
@@ -6723,10 +6723,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.7.5.0.20240102.14030";
+        version = "0.7.6.0.20240103.60535";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.5.0.20240102.14030.tar";
-          sha256 = "0d1703xgg97xvkyncvs25szdg95488yalxigng94x06ki110rv8j";
+          url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.6.0.20240103.60535.tar";
+          sha256 = "1f8xrnqh93d49qz65hkfqnjg6zylri5my5gk45aa7qd508cqspx0";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
