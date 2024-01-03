@@ -70,6 +70,7 @@ jobs:
 
     - name: Update inputs
       run: |
+        export GIT_PAGER=
         ./update ${{ matrix.repo }}
 
     - name: Push commit with updated inputs
