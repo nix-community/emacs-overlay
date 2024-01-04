@@ -26940,14 +26940,14 @@
   "repo": "emacs-eask/eask",
   "unstable": {
    "version": [
-    20240101,
-    824
+    20240104,
+    38
    ],
    "deps": [
     "dash"
    ],
-   "commit": "e332aa05211097cf48f2755c755bcd19a838e35b",
-   "sha256": "0432d0644gbbs9nx10dnp4vwzsz6sny3x558fwz6whapgsv72b5c"
+   "commit": "2e36d7ce574207d6720bd02649ef3e5714a7f8f1",
+   "sha256": "1ss2krsgbpqbb0b9krvjkr1xxm6755ih5gxz7zm91n02hy0xn2zf"
   },
   "stable": {
    "version": [
@@ -52569,16 +52569,16 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20231229,
-    547
+    20240104,
+    553
    ],
    "deps": [
     "helm-core",
     "popup",
     "wfnames"
    ],
-   "commit": "4ab6bc9774e4f6a04f4b0d6fa37b9ae6c56100ce",
-   "sha256": "0jd044lgri1lm6ys2sdv6ji9grar5z6mb48n08gqd3bxrnpw6vs4"
+   "commit": "f7ca648c2c3b308b90739f1862b4f750585ee362",
+   "sha256": "08dsdr29pwg1d8bdnfwdjqpdp93y2rdn0a9x0ib36xfp3sadpcpg"
   },
   "stable": {
    "version": [
@@ -55562,7 +55562,8 @@
   "stable": {
    "version": [
     0,
-    8
+    8,
+    1
    ],
    "deps": [
     "dash",
@@ -55570,8 +55571,8 @@
     "org-ql",
     "s"
    ],
-   "commit": "087e99703efc236680e77f4d081b939139e1d782",
-   "sha256": "0l403n75xyjf14pbk7hfdzajv393mk5m0xp9csv8dl805rgzrdkr"
+   "commit": "51869fd7f968a8beaebf0dbaeaeaa08a21bb252a",
+   "sha256": "1ywqxnli6fxf6y3b9lmi6fwr248g7fyjlg853nrnrqjr0kb6xq34"
   }
  },
  {
@@ -87294,15 +87295,15 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20231224,
-    243
+    20240104,
+    247
    ],
    "deps": [
     "fb2-reader",
     "nerd-icons"
    ],
-   "commit": "12fb837e34ce3a73fbe6f6b8a6ca04d3f4cc0462",
-   "sha256": "02ygp45ni9r7bfznsblglqnyxw8zidppl4a6vkr6bfpgj8sdgm5d"
+   "commit": "0da5f4321bd1ed69e0597cdb99ecc2ee16d3538c",
+   "sha256": "1phwvf5m528fkp01k830gp1maqg65vbn3450dn4kdsrr28phk8z5"
   }
  },
  {
@@ -88265,8 +88266,8 @@
   "repo": "alphapapa/org-ql",
   "unstable": {
    "version": [
-    20231224,
-    710
+    20240104,
+    49
    ],
    "deps": [
     "compat",
@@ -88281,13 +88282,14 @@
     "transient",
     "ts"
    ],
-   "commit": "a4bf5b0a92e47fb4ea0c5e4e5462a71b1c9b20a9",
-   "sha256": "08b2azzwxlky39n5rycn8js79xlgalfjig8n9nlrldgw9rw621ys"
+   "commit": "39394c831a8e70d5c3156468d7c1c217069548d3",
+   "sha256": "15vypnwk3gzsfz390nyzn2mldpyj72dq97sk7f8a7dv7wynwyaxd"
   },
   "stable": {
    "version": [
     0,
-    8
+    8,
+    1
    ],
    "deps": [
     "compat",
@@ -88302,8 +88304,8 @@
     "transient",
     "ts"
    ],
-   "commit": "087e99703efc236680e77f4d081b939139e1d782",
-   "sha256": "0l403n75xyjf14pbk7hfdzajv393mk5m0xp9csv8dl805rgzrdkr"
+   "commit": "51869fd7f968a8beaebf0dbaeaeaa08a21bb252a",
+   "sha256": "1ywqxnli6fxf6y3b9lmi6fwr248g7fyjlg853nrnrqjr0kb6xq34"
   }
  },
  {
@@ -112237,11 +112239,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20240103,
+    20240104,
     102
    ],
-   "commit": "4e965208c81dbbf6ca27a2705e7b349afffe9ce3",
-   "sha256": "0hl043v9lxa51xingy1hk81qyln4mjm9p19c57s438id2j93jj83"
+   "commit": "2e84093e8ed6c04aca7da94cc1da74e06e0d2b70",
+   "sha256": "0vxdr04i21zxz15gapk1qrmx9nwcaz80kvg4sl0r3hcjhamji4bj"
   }
  },
  {
@@ -125680,15 +125682,15 @@
   "repo": "progfolio/wikinforg",
   "unstable": {
    "version": [
-    20231224,
-    220
+    20240104,
+    603
    ],
    "deps": [
     "org",
     "wikinfo"
    ],
-   "commit": "f3d090e81a45f453d05f721550d57e99873786ef",
-   "sha256": "15w43vl60zm4fypmmycrpd8jd7brzzsc1kxj8brzj1xm4xga0khh"
+   "commit": "6c06f297a45c457e5bd1e2b55e870cd102e2a878",
+   "sha256": "0xpizw611w18bfjqdlwsbh2280h7sdmpfshwfmznfgk2jkix8maw"
   }
  },
  {
@@ -126412,11 +126414,11 @@
   "repo": "progfolio/wordel",
   "unstable": {
    "version": [
-    20230818,
-    1324
+    20240104,
+    603
    ],
-   "commit": "70171a21cbe53e407b86440bf7ee93d39cb5ebde",
-   "sha256": "1irmabp8zdlp08mvf2xlamf8kg4qbvydm1h4a6ca0b8v53jpd95f"
+   "commit": "38a05283c014812c0a54207aa6146f163c707fa5",
+   "sha256": "181am26kb18aw0g93la2c5037p5d6fn6da8knsj0zf1rmisr2qyc"
   }
  },
  {
