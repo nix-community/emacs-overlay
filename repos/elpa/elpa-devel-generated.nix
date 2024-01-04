@@ -2001,10 +2001,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.14pre0.20231206.191420";
+        version = "0.14pre0.20240103.211443";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20231206.191420.tar";
-          sha256 = "162p9bbmryg5zzjlnxx2yidjm7y983a2w80jlly3fkn713w7lkah";
+          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20240103.211443.tar";
+          sha256 = "1wnbs5pknvjcsz3fzys6sv1gpypajw43l8pappr8gvwr4vr4ayrs";
         };
         packageRequires = [
           emacs
@@ -2719,17 +2719,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    greader = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    greader = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.8.0.0.20231119.151038";
+        version = "0.8.0.0.20240104.15357";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.8.0.0.20231119.151038.tar";
-          sha256 = "1bxls9zpzphsl4byichnn9nhp8ahjg77pfd14g2lcvhh7dxmngvy";
+          url = "https://elpa.gnu.org/devel/greader-0.8.0.0.20240104.15357.tar";
+          sha256 = "1ajxykn6nvpv2bcqycq8q7vdb2n0k9lvkld7fzrxqy879z3c8sb7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5875,10 +5872,10 @@
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.3.0.20240102.102609";
+        version = "0.3.0.20240104.62538";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/svg-lib-0.3.0.20240102.102609.tar";
-          sha256 = "1jdbfdhw15by0z7y8wj3f05jxxpagh00hpp5139ka6pb1kva3w18";
+          url = "https://elpa.gnu.org/devel/svg-lib-0.3.0.20240104.62538.tar";
+          sha256 = "0xwa8gilyj9qg98an64dsqyda1ij82f26dnvbwbyfkxgnj3s8ngl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6803,10 +6800,10 @@
       elpaBuild {
         pname = "vundo";
         ename = "vundo";
-        version = "2.2.0.0.20240101.144503";
+        version = "2.2.0.0.20240103.185517";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vundo-2.2.0.0.20240101.144503.tar";
-          sha256 = "03wgwzz85ny3q7n0rr8zqnhgq1nlpym3s9jw00nb2lmznvfv00qg";
+          url = "https://elpa.gnu.org/devel/vundo-2.2.0.0.20240103.185517.tar";
+          sha256 = "0wyhbrr3jdz8mgiqs09mg1hcm6fy9sksyfblh8qp069h3y9mg8rd";
         };
         packageRequires = [ emacs ];
         meta = {
