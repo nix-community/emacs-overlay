@@ -798,6 +798,26 @@
           license = lib.licenses.free;
         };
       }) {};
+    evil-escape = callPackage ({ cl-lib ? null
+                               , elpaBuild
+                               , emacs
+                               , evil
+                               , fetchurl
+                               , lib }:
+      elpaBuild {
+        pname = "evil-escape";
+        ename = "evil-escape";
+        version = "3.16";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/evil-escape-3.16.tar";
+          sha256 = "14289axdn3splza66wdyyvfj1hqslmqxfr63zk480cqvrn0dkpvz";
+        };
+        packageRequires = [ cl-lib emacs evil ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/evil-escape.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     evil-exchange = callPackage ({ cl-lib ? null
                                  , elpaBuild
                                  , evil
