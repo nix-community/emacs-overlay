@@ -1253,16 +1253,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    dape = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    dape = callPackage ({ elpaBuild, emacs, fetchurl, jsonrpc, lib }:
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.3.0.0.20240101.183448";
+        version = "0.3.0.0.20240104.230608";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.3.0.0.20240101.183448.tar";
-          sha256 = "0iyp8hsqjlzjni8ldm3vvjs1ypjdb9cjyr43zpm5gikzs7q0j0ld";
+          url = "https://elpa.gnu.org/devel/dape-0.3.0.0.20240104.230608.tar";
+          sha256 = "13bqd4d8fm9hrpj08zfavssg6y25sjbkqcmangb7m6hmysr4l39h";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ emacs jsonrpc ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/dape.html";
           license = lib.licenses.free;
@@ -1786,10 +1786,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20231226.0.20240104.125216";
+        version = "20240105.0.20240105.35830";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20231226.0.20240104.125216.tar";
-          sha256 = "1nbj0arvhfvakbj03x7d0v032n587abalajfzqsxsajx2azmn8b8";
+          url = "https://elpa.gnu.org/devel/eev-20240105.0.20240105.35830.tar";
+          sha256 = "0jrwy79ph7als1z065pl9c7zdybk6l0hnsrvnjsmkb15h7pifimi";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2099,10 +2099,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20240102.23005";
+        version = "5.6snapshot0.20240104.184443";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240102.23005.tar";
-          sha256 = "18g2m7iw94sb7iwdlrlglnac8y3cxr9mry93i5fcs9xnj3i62715";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240104.184443.tar";
+          sha256 = "028h3y0fqa11fg6zv4bihwcc82s481vmbvlsq1v1p46k1xl6xhyx";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3562,10 +3562,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.5.0.20240102.32825";
+        version = "1.5.0.20240105.70159";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/marginalia-1.5.0.20240102.32825.tar";
-          sha256 = "0b30k0cys6ri2r1hwxzvwwmbvy8dpc9cjbn74054kb69l1n2zvn7";
+          url = "https://elpa.gnu.org/devel/marginalia-1.5.0.20240105.70159.tar";
+          sha256 = "1x1n95scr1f6b3c6ymgi7hh7dl9z6ifiwgxyh29d657mn1sifxl9";
         };
         packageRequires = [ compat emacs ];
         meta = {
