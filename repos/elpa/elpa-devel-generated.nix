@@ -1804,10 +1804,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.4.1.0.20240104.123945";
+        version = "1.4.1.0.20240106.71049";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.4.1.0.20240104.123945.tar";
-          sha256 = "09xs1rydi64nxhs6zi8gxq7af2rpl2ghhf6944xg58f2akyzq86i";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.4.1.0.20240106.71049.tar";
+          sha256 = "08wnij3ksxf0i5kdp9vzdljfjyhig23rnk8kkgmqcm9p8ziihdma";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4018,10 +4018,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "1.1.0.0.20231123.51032";
+        version = "1.1.0.0.20240106.42028";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.1.0.0.20231123.51032.tar";
-          sha256 = "03vr87wd11i8q011vf3543mlxgr34lkf4znwl66k0qd2bs7hprj8";
+          url = "https://elpa.gnu.org/devel/notmuch-indicator-1.1.0.0.20240106.42028.tar";
+          sha256 = "1mvic6swb3psmcg01gn9qzychq3wx2j7g16d0ha7czhy4k8a4m6x";
         };
         packageRequires = [ emacs ];
         meta = {
