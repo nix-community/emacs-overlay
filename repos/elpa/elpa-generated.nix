@@ -569,10 +569,10 @@
       elpaBuild {
         pname = "bufferlo";
         ename = "bufferlo";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bufferlo-0.5.tar";
-          sha256 = "1njycdwxkdca1qw4hyqgqwmblvxw6nxa2prh4nnsxr1lgyw57yk2";
+          url = "https://elpa.gnu.org/packages/bufferlo-0.6.tar";
+          sha256 = "0q942zsxv27gvkx3b391yzshh58l2xd75y04rqyqk269q0cdhqff";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5449,10 +5449,10 @@
       elpaBuild {
         pname = "theme-buffet";
         ename = "theme-buffet";
-        version = "0.1.1";
+        version = "0.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/theme-buffet-0.1.1.tar";
-          sha256 = "03dmvc44shw9frhzvmhcswk8hjfk8mg99iy4ibxinn5h878ydp1j";
+          url = "https://elpa.gnu.org/packages/theme-buffet-0.1.2.tar";
+          sha256 = "1cb9kn07naz2dkl4cznnwi2hy5ccq9igl5jnm7qhaliaszpg2rf9";
         };
         packageRequires = [ emacs ];
         meta = {
