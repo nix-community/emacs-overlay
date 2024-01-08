@@ -1922,10 +1922,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.4.13.0.20231228.51916";
+        version = "0.5.2.0.20240107.193003";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.4.13.0.20231228.51916.tar";
-          sha256 = "0sm76x62sii3qpfrid4zy5k3bf1w167qg5mi6461hfh955bldrw8";
+          url = "https://elpa.gnu.org/devel/ellama-0.5.2.0.20240107.193003.tar";
+          sha256 = "0970zhccqx18a7i9x8k6f1cmdq3yjz7jpa5l648rigkmr063nfpi";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -3608,10 +3608,10 @@
       elpaBuild {
         pname = "mct";
         ename = "mct";
-        version = "1.0.0.0.20230925.50052";
+        version = "1.0.0.0.20240107.105307";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/mct-1.0.0.0.20230925.50052.tar";
-          sha256 = "1splcr5aq3dc80i4rkqyxnadjrx7xg44hgiwi1sj353gf6q90q8h";
+          url = "https://elpa.gnu.org/devel/mct-1.0.0.0.20240107.105307.tar";
+          sha256 = "0c8g1pcijkcsww2r092xkcmdf2khgfpl9p0q3rcn0n4ncb6gry0a";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4191,10 +4191,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240106.160647";
+        version = "9.7pre0.20240107.155040";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240106.160647.tar";
-          sha256 = "0lri4i249nkvc9pw064d5krrr5asm38qn92jmi41piywf8pr3qky";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240107.155040.tar";
+          sha256 = "1qhsqsdvwa7n911mjy8nwdx4djgz9qfyyjasp07ykngpab4fl7hq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4538,10 +4538,10 @@
       elpaBuild {
         pname = "persist";
         ename = "persist";
-        version = "0.5.0.20230905.151959";
+        version = "0.5.0.20240107.145528";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/persist-0.5.0.20230905.151959.tar";
-          sha256 = "116a33w3av2lxvabkw5lb183i6prhj6fb3pg34fqq0i9f6lzzfb6";
+          url = "https://elpa.gnu.org/devel/persist-0.5.0.20240107.145528.tar";
+          sha256 = "195gqn5miv3h338pwwf4rcsx00d9ml9lvcbcanzrk4p4l2awcnpa";
         };
         packageRequires = [];
         meta = {

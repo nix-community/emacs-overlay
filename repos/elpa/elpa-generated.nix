@@ -1717,10 +1717,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.4.13";
+        version = "0.5.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.4.13.tar";
-          sha256 = "0lyz2l0dhgiym1wj0ni05kh1z021bvs1mpm0i9dahr7j14x4gx0k";
+          url = "https://elpa.gnu.org/packages/ellama-0.5.2.tar";
+          sha256 = "1xsssw3br804w4vxi52ynbdyqmkn8ys7rkqi8461qpz7c6mifc40";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -3799,10 +3799,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.15";
+        version = "9.6.16";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.15.tar";
-          sha256 = "0l55x89kvix36qv52ifw0rkm397lkxqi736wlxpxkwps81459008";
+          url = "https://elpa.gnu.org/packages/org-9.6.16.tar";
+          sha256 = "0wip9hnl97ysg8zzflsds1yzzvg01fylkm219bpcwdqidh0vbs0i";
         };
         packageRequires = [ emacs ];
         meta = {
