@@ -682,10 +682,10 @@
       elpaBuild {
         pname = "edit-indirect";
         ename = "edit-indirect";
-        version = "0.1.10";
+        version = "0.1.11";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/edit-indirect-0.1.10.tar";
-          sha256 = "0mk6s5hc8n9s5c434im6r06mfgmdf5s44zlr9j3hfkjaic1lf45b";
+          url = "https://elpa.nongnu.org/nongnu/edit-indirect-0.1.11.tar";
+          sha256 = "1qc70400jfb56jrxsd34p0605ww889nndrd19pv36zfizgvxf2xg";
         };
         packageRequires = [ emacs ];
         meta = {
