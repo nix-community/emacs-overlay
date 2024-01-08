@@ -1717,10 +1717,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.5.2";
+        version = "0.5.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.5.2.tar";
-          sha256 = "1xsssw3br804w4vxi52ynbdyqmkn8ys7rkqi8461qpz7c6mifc40";
+          url = "https://elpa.gnu.org/packages/ellama-0.5.6.tar";
+          sha256 = "0s7plihyrszvzysh5yi9q0fz6sn2z7y62mlqwhz5q3f44ql27d5b";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
