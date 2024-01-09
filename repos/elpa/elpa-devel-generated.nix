@@ -2004,10 +2004,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.14pre0.20240106.150349";
+        version = "0.14pre0.20240109.21858";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20240106.150349.tar";
-          sha256 = "1l2rnp9qapky1k48siy5khd0q8cacjn32y3j2gj5qxhmn1574mfb";
+          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20240109.21858.tar";
+          sha256 = "1iasj73zj45hcgpccf4d6s96q57iy0jybmm7fyibk7hwg7v0nnwp";
         };
         packageRequires = [
           emacs
@@ -2033,10 +2033,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "17.0.20240107.195223";
+        version = "17.0.20240108.193017";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-17.0.20240107.195223.tar";
-          sha256 = "0cz5ng3ax3hq4wm165gi6sh1cd6908mfjryrgmczgrgldysv8xa3";
+          url = "https://elpa.gnu.org/devel/emms-17.0.20240108.193017.tar";
+          sha256 = "1laq35b3vbbrmwdkxsxlsaq3g2ds6s9l3ycg9j02xn6kkd0aqxnx";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
