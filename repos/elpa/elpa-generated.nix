@@ -265,10 +265,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.2.3";
+        version = "13.2.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.2.3.tar";
-          sha256 = "1590g2yd8q88xgxc449fxbxwgrbjh2cbcalcs7jk50lhzy3y8mc8";
+          url = "https://elpa.gnu.org/packages/auctex-13.2.4.tar";
+          sha256 = "0zqysxfrlk3ajfggyi58c1yivxk74slr0l5k41r3x9b7l7njjkwp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4654,10 +4654,10 @@
       elpaBuild {
         pname = "repology";
         ename = "repology";
-        version = "1.2.3";
+        version = "1.2.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/repology-1.2.3.tar";
-          sha256 = "1ngx23b7dilyps20nznrrn867kbxyn6nryf4p1sy5m576hkw18kn";
+          url = "https://elpa.gnu.org/packages/repology-1.2.4.tar";
+          sha256 = "0l53wl0bk8rnqwsjdh1hwvkvbay080l10bslcj3scn42bgbi59j1";
         };
         packageRequires = [ emacs ];
         meta = {

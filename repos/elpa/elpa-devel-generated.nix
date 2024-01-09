@@ -297,10 +297,10 @@
       elpaBuild {
         pname = "async";
         ename = "async";
-        version = "1.9.8.0.20240106.144823";
+        version = "1.9.8.0.20240108.152601";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/async-1.9.8.0.20240106.144823.tar";
-          sha256 = "0mkv53qjich5h6nx7vs95p7jrcr993mli6scd1hp55832cjcjcbz";
+          url = "https://elpa.gnu.org/devel/async-1.9.8.0.20240108.152601.tar";
+          sha256 = "01sh3szrpjc2hpmrdrkiv34whw37c9xdybvipjn9xzi5b66m613a";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -308,14 +308,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    auctex = callPackage ({ elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.2.3.0.20231219.80716";
+        version = "13.2.4.0.20240108.130055";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-13.2.3.0.20231219.80716.tar";
-          sha256 = "1v8z93pnghnxi0c4cwjlnvmlia6lfhf2xdhdcmmpa1qfjv16xwck";
+          url = "https://elpa.gnu.org/devel/auctex-13.2.4.0.20240108.130055.tar";
+          sha256 = "1xq9mkvcvzmnrmwvkcy9i7h7xsy2wdb28i4r3ccd737bs5ksmrfi";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2230,16 +2233,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    exwm = callPackage ({ elpaBuild, fetchurl, lib, xelb }:
+    exwm = callPackage ({ elpaBuild, emacs, fetchurl, lib, xelb }:
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.28.0.20231006.0";
+        version = "0.28.0.20240108.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20231006.0.tar";
-          sha256 = "1b7dpf6ahc76k22mdwvwdx72pm8z47l3bi050r12nd8vmbgmy0rh";
+          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240108.0.tar";
+          sha256 = "0im5p3hqw5v3i8nwfjr2vhiigwsnpxp72a6w71ifp8jkhf6xz3y7";
         };
-        packageRequires = [ xelb ];
+        packageRequires = [ emacs xelb ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/exwm.html";
           license = lib.licenses.free;
@@ -5187,10 +5190,10 @@
       elpaBuild {
         pname = "repology";
         ename = "repology";
-        version = "1.2.3.0.20220320.111223";
+        version = "1.2.4.0.20240108.130348";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/repology-1.2.3.0.20220320.111223.tar";
-          sha256 = "01gxmfr5v2zj0mj0i9ffk824qxdjfwc773vh4fyv67im2m17i8wc";
+          url = "https://elpa.gnu.org/devel/repology-1.2.4.0.20240108.130348.tar";
+          sha256 = "1w1aisspx5zvj1a2hmnnd93wra1kjizid7sr8kqkwsyva5c03wvd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5869,10 +5872,10 @@
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.3.0.20240104.62538";
+        version = "0.3.0.20240108.113737";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/svg-lib-0.3.0.20240104.62538.tar";
-          sha256 = "0xwa8gilyj9qg98an64dsqyda1ij82f26dnvbwbyfkxgnj3s8ngl";
+          url = "https://elpa.gnu.org/devel/svg-lib-0.3.0.20240108.113737.tar";
+          sha256 = "1fnw3pyp04x9vq1qy1gapx9hc5acii967zkqaqbirsz191a8b3b8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5888,10 +5891,10 @@
       elpaBuild {
         pname = "svg-tag-mode";
         ename = "svg-tag-mode";
-        version = "0.3.2.0.20230824.94303";
+        version = "0.3.2.0.20240108.113259";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20230824.94303.tar";
-          sha256 = "18pdzq1k3qign1rjfasfv4wfhiacgn2afycpfw5cxpdazx6hycv3";
+          url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20240108.113259.tar";
+          sha256 = "1hj1mb9hpzpw6vx1bjrdgk8rdga4qsk4w8cy6gv7dv7awwh96f3j";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
@@ -7149,10 +7152,10 @@
       elpaBuild {
         pname = "yasnippet";
         ename = "yasnippet";
-        version = "0.14.0.0.20240104.151351";
+        version = "0.14.0.0.20240108.114246";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20240104.151351.tar";
-          sha256 = "0rsbgg17d3rvf6va833knpzcgw2sjp4xr9pbppig54pbxsppsa3a";
+          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20240108.114246.tar";
+          sha256 = "18h0qnnf60dgaxvr2nq2jlf229hyc8kgwcfrmsz2a3ww8d4djm8l";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
