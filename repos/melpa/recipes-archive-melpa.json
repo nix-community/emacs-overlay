@@ -4469,11 +4469,11 @@
   "repo": "jwiegley/emacs-async",
   "unstable": {
    "version": [
-    20240106,
-    1448
+    20240108,
+    1526
    ],
-   "commit": "9e5814a0e1007d19795cac7fdb90d1dbd59b192a",
-   "sha256": "1mp5fkaxy3sffn6mm8lqv71635cvaxp2ak38626sa69b4v3kqvxk"
+   "commit": "d040f72cb0be5265d50ac541ddb09ebbc68b7908",
+   "sha256": "10lvsnvvs56l8n5f40hmqk7nwpf7d39az82mf2q7phpph7icgry2"
   },
   "stable": {
    "version": [
@@ -8836,16 +8836,16 @@
   "repo": "jyp/boon",
   "unstable": {
    "version": [
-    20240107,
-    1311
+    20240108,
+    1856
    ],
    "deps": [
     "dash",
     "expand-region",
     "multiple-cursors"
    ],
-   "commit": "ded55a290065e39856266e74fb6eb92795c0c214",
-   "sha256": "0jmmxav45sbch9prdxipd04rdmyh5ca1r9lpdlj61b5c4vlm4282"
+   "commit": "172eb6c4e3cad19c64189711925518e5b2a94d0f",
+   "sha256": "0sddm67cckncn5wc9c9flhx8fr9lphp3bffykyk3qz3y3xm2842i"
   },
   "stable": {
    "version": [
@@ -26477,11 +26477,11 @@
   "repo": "xenodium/dwim-shell-command",
   "unstable": {
    "version": [
-    20240105,
-    1024
+    20240108,
+    1754
    ],
-   "commit": "81c64e2015e70e3c2118dcb772d1aacf74416678",
-   "sha256": "0md96zc50avg28kv8b4b2pvypg803q2gwxy3zxz7fvh02fxw8sll"
+   "commit": "7a2c298424466d2bff7c050e01fb85b5f882dbc3",
+   "sha256": "0ac32n212g9jk76zns6z92syx2himhxll6qr8drvvz98ybjh46pm"
   }
  },
  {
@@ -31455,16 +31455,16 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20240108,
-    52
+    20240109,
+    30
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "925c16244b9e7579c8fad264e3f4d01c5a10c413",
-   "sha256": "0c6qcf35in794gd6ng6qkxkff0xm9rdvhfa6ck5d40gsyklxqss3"
+   "commit": "1a56772dee80bf6a2f05e14adb5431355813fd89",
+   "sha256": "09f320xz6a732dfwnqq3gvpfqvsxyy25qsz2hgmqd360lpssmspj"
   },
   "stable": {
    "version": [
@@ -69550,20 +69550,20 @@
   "repo": "rvirding/lfe",
   "unstable": {
    "version": [
-    20240104,
-    2230
+    20230102,
+    1428
    ],
-   "commit": "236313e9be2c50950e5ac58d8175c00a6323d42e",
-   "sha256": "1xws9rgrazgrv9289py1kpw5qij9a35nppmj3yzl5y3yhxh4jyzb"
+   "commit": "68c9c7ec8ef441eb79e68772ec4956fd2671b2e7",
+   "sha256": "1lx3szdlhvidys9vk8d0pznnsni31wjm7afks3hhmdjj6hcp3cxi"
   },
   "stable": {
    "version": [
     2,
     1,
-    3
+    4
    ],
-   "commit": "236313e9be2c50950e5ac58d8175c00a6323d42e",
-   "sha256": "1xws9rgrazgrv9289py1kpw5qij9a35nppmj3yzl5y3yhxh4jyzb"
+   "commit": "f3c0f02d2776b125bad33b3935e2118504bed0a4",
+   "sha256": "0yyh8jmdi7c4y6vjrk3zw4iy7iyqcs5h88hx96ml9dx2im2aydlq"
   }
  },
  {
@@ -72013,8 +72013,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20240107,
-    1801
+    20240108,
+    1526
    ],
    "deps": [
     "dash",
@@ -72025,8 +72025,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "81c2984ee01e96195f4b8eba61ee46c4d9c9fa1b",
-   "sha256": "0cq998a6nvdi902v8jwspl5grs4p7flzk8s12yanzaz0cp8b7qhq"
+   "commit": "51ef3c5b62d41d4b280e4bc9fe9487c7e3a7cbcf",
+   "sha256": "0nmxfhxvjhnv66l0nk79j1g50vnw7kp3h9pbyazshv6chzh4f2dp"
   },
   "stable": {
    "version": [
@@ -117557,21 +117557,21 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20231231,
-    1731
+    20240108,
+    1302
    ],
-   "commit": "193f1fd5edbf64349b261f971d301927a6224ebf",
-   "sha256": "1hs4r10mlgxxbs5ngqqpdw64y0dhpwq5lvdfi2l3x2cd8wfbyfkl"
+   "commit": "337dfa0e5a9d7bb2f7a24acc9a996b9e030b2535",
+   "sha256": "12kvri1if8f3xycd706zv34pl2bhinj46378jfdj4k2my55agbwn"
   },
   "stable": {
    "version": [
     2024,
     1,
-    1,
+    8,
     0
    ],
-   "commit": "193f1fd5edbf64349b261f971d301927a6224ebf",
-   "sha256": "1hs4r10mlgxxbs5ngqqpdw64y0dhpwq5lvdfi2l3x2cd8wfbyfkl"
+   "commit": "337dfa0e5a9d7bb2f7a24acc9a996b9e030b2535",
+   "sha256": "12kvri1if8f3xycd706zv34pl2bhinj46378jfdj4k2my55agbwn"
   }
  },
  {
@@ -128114,14 +128114,14 @@
   "repo": "joaotavora/yasnippet",
   "unstable": {
    "version": [
-    20240104,
-    2013
+    20240108,
+    1642
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "ae36504a5f4f1db8240ad99df1ee9f5e3f570db4",
-   "sha256": "1w1yp5mb7swgmbv3m1pxksw2sr1a6gajib5b4c5d83nvba759v1q"
+   "commit": "d7f55c7501a67a27f45154a6d4bdc50c2c235623",
+   "sha256": "1gvpdchj965nf72hdpr4k4qr917wmvjykzzdcc2rvp99yjck80lw"
   },
   "stable": {
    "version": [
