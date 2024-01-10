@@ -2033,10 +2033,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "17.0.20240109.154758";
+        version = "17.0.20240109.193537";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-17.0.20240109.154758.tar";
-          sha256 = "1pckz0nszrxi3hn3qsbkqcszanw8k2aqpjypbdkzzjcn9k54by8j";
+          url = "https://elpa.gnu.org/devel/emms-17.0.20240109.193537.tar";
+          sha256 = "0517a765g9qnwcs81clzv95h3dn37bd7yyxy9qmz2a95c3fn4km9";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -5872,10 +5872,10 @@
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.3.0.20240108.113737";
+        version = "0.3.0.20240109.211641";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/svg-lib-0.3.0.20240108.113737.tar";
-          sha256 = "1fnw3pyp04x9vq1qy1gapx9hc5acii967zkqaqbirsz191a8b3b8";
+          url = "https://elpa.gnu.org/devel/svg-lib-0.3.0.20240109.211641.tar";
+          sha256 = "1vyaqanpsr81d4sn2991x6jg3dvhay53pnga5nrrgkqshmkrn9nw";
         };
         packageRequires = [ emacs ];
         meta = {
