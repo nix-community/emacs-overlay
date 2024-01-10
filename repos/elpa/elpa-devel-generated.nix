@@ -2033,10 +2033,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "17.0.20240108.193017";
+        version = "17.0.20240109.154758";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-17.0.20240108.193017.tar";
-          sha256 = "1laq35b3vbbrmwdkxsxlsaq3g2ds6s9l3ycg9j02xn6kkd0aqxnx";
+          url = "https://elpa.gnu.org/devel/emms-17.0.20240109.154758.tar";
+          sha256 = "1pckz0nszrxi3hn3qsbkqcszanw8k2aqpjypbdkzzjcn9k54by8j";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -3156,10 +3156,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.1.0.20240104.183819";
+        version = "1.1.0.20240109.180616";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.1.0.20240104.183819.tar";
-          sha256 = "0xpk4vhhawrnssii7zlyfd6ys9wapq02b4yjybagpinpmy0jwnyb";
+          url = "https://elpa.gnu.org/devel/jinx-1.1.0.20240109.180616.tar";
+          sha256 = "0bsp0ypai54pls6xc0f2f3rj4grlgmf1dls70da6awasgr1j8bbv";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3914,10 +3914,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "1.0.1.0.20230712.92019";
+        version = "1.0.1.0.20240109.202347";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/nano-modeline-1.0.1.0.20230712.92019.tar";
-          sha256 = "10zq3zm8yv5gmi9kgw742zb52swzi09c4npvqjh31hmrzprvp4nn";
+          url = "https://elpa.gnu.org/devel/nano-modeline-1.0.1.0.20240109.202347.tar";
+          sha256 = "0dpcxq18zzxq627ixk8ypf7zj6zr5d7icrbryvvmkal455wh95r5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4194,10 +4194,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240107.155040";
+        version = "9.7pre0.20240109.154242";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240107.155040.tar";
-          sha256 = "1qhsqsdvwa7n911mjy8nwdx4djgz9qfyyjasp07ykngpab4fl7hq";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240109.154242.tar";
+          sha256 = "09jilvkff8dkn8zs4dpwcaby3gmn1iy5yxrb9bja0viy42lsdh57";
         };
         packageRequires = [ emacs ];
         meta = {
