@@ -3914,10 +3914,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "1.0.1.0.20240109.202347";
+        version = "1.0.1.0.20240110.165407";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/nano-modeline-1.0.1.0.20240109.202347.tar";
-          sha256 = "0dpcxq18zzxq627ixk8ypf7zj6zr5d7icrbryvvmkal455wh95r5";
+          url = "https://elpa.gnu.org/devel/nano-modeline-1.0.1.0.20240110.165407.tar";
+          sha256 = "0r2yiwk4gvhm5kc6j0g2gvr5v8y93c5ahrkdgbgpwc94vpc09fzr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4194,10 +4194,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240109.154242";
+        version = "9.7pre0.20240110.150711";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240109.154242.tar";
-          sha256 = "09jilvkff8dkn8zs4dpwcaby3gmn1iy5yxrb9bja0viy42lsdh57";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240110.150711.tar";
+          sha256 = "1za4dhywgdr4sjkbc664bkkniac9hvc8xflsq0cqsd2zh9r1jn4l";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4475,10 +4475,10 @@
       elpaBuild {
         pname = "parser-generator";
         ename = "parser-generator";
-        version = "0.1.6.0.20220512.173154";
+        version = "0.2.0.0.20240110.203302";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/parser-generator-0.1.6.0.20220512.173154.tar";
-          sha256 = "16kl8r8mgq17230gi2v61cqhxwawp1m6xjrbhc3qdlhy6plgidcy";
+          url = "https://elpa.gnu.org/devel/parser-generator-0.2.0.0.20240110.203302.tar";
+          sha256 = "10f1l10y92677nckfwz9778cxmcg9v28j7kllvhwhibxbyviy1z4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5872,10 +5872,10 @@
       elpaBuild {
         pname = "svg-lib";
         ename = "svg-lib";
-        version = "0.3.0.20240109.211641";
+        version = "0.3.0.20240110.131418";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/svg-lib-0.3.0.20240109.211641.tar";
-          sha256 = "1vyaqanpsr81d4sn2991x6jg3dvhay53pnga5nrrgkqshmkrn9nw";
+          url = "https://elpa.gnu.org/devel/svg-lib-0.3.0.20240110.131418.tar";
+          sha256 = "0fnaivb390jd09s9waifdcslnj4ws2glygr2l1llp35lx5xmfc1c";
         };
         packageRequires = [ emacs ];
         meta = {
