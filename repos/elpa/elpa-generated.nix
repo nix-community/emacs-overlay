@@ -3934,10 +3934,10 @@
       elpaBuild {
         pname = "orgalist";
         ename = "orgalist";
-        version = "1.13";
+        version = "1.14";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/orgalist-1.13.el";
-          sha256 = "1wkxc5kcy1g4lx6pd78pa8znncjyl9zyhsvz7wpp56qmhq4hlav3";
+          url = "https://elpa.gnu.org/packages/orgalist-1.14.tar";
+          sha256 = "08gx8aqi7ph75vhhss2xl1lfypzy8a3zmj7w8flcrvz1nk0z738s";
         };
         packageRequires = [ emacs ];
         meta = {
