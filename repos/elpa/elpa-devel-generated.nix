@@ -1003,10 +1003,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.4.0.20240106.133615";
+        version = "29.1.4.4.0.20240112.163440";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/compat-29.1.4.4.0.20240106.133615.tar";
-          sha256 = "0wa2pcxb446x7bczxqviyy44g1jjdi6lg3csh9qk8kvqfg35y1xl";
+          url = "https://elpa.gnu.org/devel/compat-29.1.4.4.0.20240112.163440.tar";
+          sha256 = "18i8sk7qbav0zg8iqdcwl5g3wdqjc9dh82hggqf7awy9fds3jjc5";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -1254,10 +1254,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.3.0.0.20240105.130404";
+        version = "0.3.0.0.20240112.160331";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.3.0.0.20240105.130404.tar";
-          sha256 = "11na8w13nr2pbsbmyhhsvxcyj94ayrj54vdy2jn8qfqfmwawy2rl";
+          url = "https://elpa.gnu.org/devel/dape-0.3.0.0.20240112.160331.tar";
+          sha256 = "02cch4ilrslrwarx6d5vxpd7h66xc5xazcwscdw1f1diqmz5vabl";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1783,10 +1783,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240107.0.20240107.33038";
+        version = "20240107.0.20240112.151619";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240107.0.20240107.33038.tar";
-          sha256 = "19nfl9y7jzixagvgd1zbls7maixq91lr24xrr1442fdqyh6p5kjb";
+          url = "https://elpa.gnu.org/devel/eev-20240107.0.20240112.151619.tar";
+          sha256 = "1md91plasivl96b4ngzs1ncv5rq4nr4qdcdkcf20mxg1707h060s";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2027,10 +2027,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "17.0.20240109.193537";
+        version = "17.0.20240112.191745";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-17.0.20240109.193537.tar";
-          sha256 = "0517a765g9qnwcs81clzv95h3dn37bd7yyxy9qmz2a95c3fn4km9";
+          url = "https://elpa.gnu.org/devel/emms-17.0.20240112.191745.tar";
+          sha256 = "00kg4r9l7znj7skdkk4dq096qzdyfr74v26d6vwcmnzs41w14f7f";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -2231,10 +2231,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.28.0.20240108.0";
+        version = "0.28.0.20240112.140118";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240108.0.tar";
-          sha256 = "0im5p3hqw5v3i8nwfjr2vhiigwsnpxp72a6w71ifp8jkhf6xz3y7";
+          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240112.140118.tar";
+          sha256 = "1sf5lkczqpmpkhzjm0jlzdhwjcc32rpgkcvzrlf6j3imszma35rp";
         };
         packageRequires = [ emacs xelb ];
         meta = {
@@ -4188,10 +4188,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240111.153459";
+        version = "9.7pre0.20240112.191712";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240111.153459.tar";
-          sha256 = "1pzgik0p6xm553a7mdmb4ifm6ca4j862k1vk9cwvrx54aqy00114";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240112.191712.tar";
+          sha256 = "030wa267lisw1ibb6m3h440bpp7c5a16wjx1jd1p2825rf9kc1hb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7063,16 +7063,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    xelb = callPackage ({ cl-generic, elpaBuild, emacs, fetchurl, lib }:
+    xelb = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "xelb";
         ename = "xelb";
-        version = "0.18.0.20200719.0";
+        version = "0.18.0.20240112.140915";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xelb-0.18.0.20200719.0.tar";
-          sha256 = "195zxjkrw9rmnzprvdr21pngfkwl7lcn0bnjqzywwaq19zb4c2rs";
+          url = "https://elpa.gnu.org/devel/xelb-0.18.0.20240112.140915.tar";
+          sha256 = "02h2zf8dczgq5h0ma13fy2dci3n7d4a4m4pzcg0m0hrxb2bhbiv6";
         };
-        packageRequires = [ cl-generic emacs ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/xelb.html";
           license = lib.licenses.free;
