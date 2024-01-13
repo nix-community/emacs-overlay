@@ -81,16 +81,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    adjust-parens = callPackage ({ elpaBuild, fetchurl, lib }:
+    adjust-parens = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "adjust-parens";
         ename = "adjust-parens";
-        version = "3.1";
+        version = "3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/adjust-parens-3.1.tar";
-          sha256 = "059v0njd52vxidr5xwv2jmknm2shnwpj3101069q6lsmz1wq242a";
+          url = "https://elpa.gnu.org/packages/adjust-parens-3.2.tar";
+          sha256 = "01l8bgfqgbkh5p9r8mc5pqizg0sgr7bl6x7x657gm0qjnwmfwai5";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/adjust-parens.html";
           license = lib.licenses.free;
@@ -4099,10 +4099,10 @@
       elpaBuild {
         pname = "persist";
         ename = "persist";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/persist-0.5.tar";
-          sha256 = "090n4479zs82by7a3vb551gyjvv8lpfcylk43ywr2lfyssc9xiq0";
+          url = "https://elpa.gnu.org/packages/persist-0.6.tar";
+          sha256 = "0n68dshbbyrs713989bllmm1vypch8766hc8b4y989nmyclixjwp";
         };
         packageRequires = [];
         meta = {
