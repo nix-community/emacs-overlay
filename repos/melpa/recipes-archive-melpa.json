@@ -21070,8 +21070,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20240104,
-    859
+    20240113,
+    926
    ],
    "deps": [
     "bui",
@@ -21084,8 +21084,8 @@
     "posframe",
     "s"
    ],
-   "commit": "038521a572e162fb5fc1744fe06816f93065c50a",
-   "sha256": "0izdn6lz9lr5bplif9b9shdkgzi3qa9dpn4a10iy68lc1ib82svs"
+   "commit": "03bcfe90b6acb6811bfa877882ba72949503234d",
+   "sha256": "0yahj7i1h1j824d2ginzvdik4llckjvnhlxfj24dgsh6rl7qnr7g"
   },
   "stable": {
    "version": [
@@ -30071,14 +30071,14 @@
   "repo": "wkirschbaum/elixir-ts-mode",
   "unstable": {
    "version": [
-    20231128,
-    645
+    20240113,
+    1103
    ],
    "deps": [
     "heex-ts-mode"
    ],
-   "commit": "23fc038fa783aa0e4d03139c39b98789f439378b",
-   "sha256": "01gf37pwnjzrdvcrdiq7ayqydfqf6xw934987g6x9274ggp0zn3v"
+   "commit": "0f43be6dd597f1110c09e2931761158f3e0ef60c",
+   "sha256": "0gb333xzl63x0148jby5gsqn9b0vx5b47sr3wqlh4a18zrs81nqf"
   }
  },
  {
@@ -43618,14 +43618,14 @@
   "repo": "erickgnavar/flymake-ruff",
   "unstable": {
    "version": [
-    20231105,
-    2043
+    20240113,
+    1441
    ],
    "deps": [
     "project"
    ],
-   "commit": "8b2392c45538a377fc3c8cfcda73165652b660ca",
-   "sha256": "0sagfcmbqw5q21d4wy9cs2yhpy53qa53amwwk3kih9ka64fnyhzy"
+   "commit": "8fbc83bbeea22eafed1c15b642a23cb87ad3f12a",
+   "sha256": "0wfkgdxzxvifs6w8d416nypsd8cfa28nb39ilh21h1lcpia04z88"
   }
  },
  {
@@ -50460,26 +50460,27 @@
   "unstable": {
    "version": [
     20240113,
-    705
+    717
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "3f3db912f6648480d186b39bb33e5cafd570993a",
-   "sha256": "0prz4whp0bhg0v4yqq95l8bcpizi766z8x4l9w1iy2apv3jxh0yn"
+   "commit": "c6a07043af9c185bdeb068ef7660991588714ea2",
+   "sha256": "0x98s4r2mrbwbsam317dbdq34mcgzfzdmxz3gyq4v2v8x427b3qa"
   },
   "stable": {
    "version": [
     0,
-    5,
-    5
+    6,
+    0
    ],
    "deps": [
+    "compat",
     "transient"
    ],
-   "commit": "ce75072f9dde5e89f41c26d374bb0b0891c691c7",
-   "sha256": "1vqs03plivb1dmal53j53y4r567ggx4781n2mqyjk6s6wfvyvn93"
+   "commit": "c6a07043af9c185bdeb068ef7660991588714ea2",
+   "sha256": "0x98s4r2mrbwbsam317dbdq34mcgzfzdmxz3gyq4v2v8x427b3qa"
   }
  },
  {
@@ -52578,11 +52579,11 @@
   "repo": "wkirschbaum/heex-ts-mode",
   "unstable": {
    "version": [
-    20231007,
-    725
+    20240113,
+    1104
    ],
-   "commit": "80f35c61eb99393179b58a75c0fdd9b546d25136",
-   "sha256": "19ivdadhxxdgc34ghwb3nlp02l81r083l6w6c7zz384y08amal3p"
+   "commit": "90142df2929956536dc1eaae3bb5ca04dc4232ab",
+   "sha256": "0yi3z59sc2ah2173ffpw2l033pmwg5km3id53mpry36pgki02ajn"
   }
  },
  {
@@ -55587,7 +55588,7 @@
    "version": [
     0,
     8,
-    3
+    4
    ],
    "deps": [
     "dash",
@@ -55595,8 +55596,8 @@
     "org-ql",
     "s"
    ],
-   "commit": "7d8bd8b8847e4cf7a9fa04c7d4a4cbb2ae223e46",
-   "sha256": "0sda3xd7125s8dryjhb7wj6w7mkymxghnsm9428sdh4944c1j60a"
+   "commit": "9606aaf81230d1faf2c7f54925b45e527fa32bf0",
+   "sha256": "07r9bx0bh7wyj5pbkhnrn8amzz3ynri94cxcxgcn1r3ypdhk6y85"
   }
  },
  {
@@ -66317,14 +66318,14 @@
   "repo": "bram85/kagi.el",
   "unstable": {
    "version": [
-    20240111,
-    2111
+    20240113,
+    908
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "5097198ef9ed033d7296483522df7f129dfd61cb",
-   "sha256": "0bk9ix7jng0fz86q0dw5ssfqxn8q4dk9qhsdrsza1n40iyqr1566"
+   "commit": "cd2856b4270d6a860cc178a58a01fc79e37b3515",
+   "sha256": "0nrppc0jgc7b1vb1szqzcn6h6qa5n94lzg8jvvqnl0w73i0nb5ck"
   },
   "stable": {
    "version": [
@@ -72815,14 +72816,14 @@
   "repo": "amake/macports.el",
   "unstable": {
    "version": [
-    20231211,
-    1430
+    20240113,
+    1224
    ],
    "deps": [
     "transient"
    ],
-   "commit": "bbc42883bfe40ff7b6ae179939c75fe8f51fd0fa",
-   "sha256": "1hnrq0df04yiiclp6q6i395y8gsq22fmh9mrxibsvx18i5nwf055"
+   "commit": "75604bb57040be06eabf41669e6e2553afa8f7ba",
+   "sha256": "1vkis7ahl08n9xfdisf2w2p0aih3jmb1apcccsaqy5b7bn9dc381"
   }
  },
  {
@@ -88352,7 +88353,7 @@
    "version": [
     0,
     8,
-    3
+    4
    ],
    "deps": [
     "compat",
@@ -88367,8 +88368,8 @@
     "transient",
     "ts"
    ],
-   "commit": "7d8bd8b8847e4cf7a9fa04c7d4a4cbb2ae223e46",
-   "sha256": "0sda3xd7125s8dryjhb7wj6w7mkymxghnsm9428sdh4944c1j60a"
+   "commit": "9606aaf81230d1faf2c7f54925b45e527fa32bf0",
+   "sha256": "07r9bx0bh7wyj5pbkhnrn8amzz3ynri94cxcxgcn1r3ypdhk6y85"
   }
  },
  {
@@ -99694,8 +99695,8 @@
   "repo": "purescript-emacs/psc-ide-emacs",
   "unstable": {
    "version": [
-    20231219,
-    49
+    20240113,
+    1224
    ],
    "deps": [
     "company",
@@ -99706,8 +99707,8 @@
     "s",
     "seq"
    ],
-   "commit": "9ab7c8419c199c85502b739c007015ac1ecced7c",
-   "sha256": "0p133sfrakvaj4qf5ri0h2snx6ksaxb0qabpz9w1sh5zv9kf42si"
+   "commit": "4e614df553fb315d32ee9dac085109ee7786a3cf",
+   "sha256": "1qj50nfjqjm16h56g8basapa5fkxayrib1wzlxx2h8d1y1zn4nmv"
   }
  },
  {
@@ -121579,14 +121580,18 @@
   "stable": {
    "version": [
     1,
-    4,
-    3
+    5,
+    0
    ],
    "deps": [
     "magit-section"
    ],
-   "commit": "cf2cdcef95f5e3c30943506dda269c4295f2f5a0",
-   "sha256": "1h98phb7hj8s0x5qkm4hzmgqcc61bi65xizwhi9nkwqj929256da"
+   "commit": "4c1be458ed7cde1d97d2e30630fb94958eb89ed3",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "warning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 303 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 678 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 1211 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 2567 ms\nerror: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28)\n"
+   ]
   }
  },
  {
@@ -121611,16 +121616,16 @@
   "stable": {
    "version": [
     1,
-    4,
-    3
+    5,
+    0
    ],
    "deps": [
     "bibtex-completion",
     "elfeed",
     "universal-sidecar"
    ],
-   "commit": "cf2cdcef95f5e3c30943506dda269c4295f2f5a0",
-   "sha256": "1h98phb7hj8s0x5qkm4hzmgqcc61bi65xizwhi9nkwqj929256da"
+   "commit": "4c1be458ed7cde1d97d2e30630fb94958eb89ed3",
+   "sha256": "03dvpzxv84farq90ppd4as2rb4j9zyilcmgvawkxdg9c0b9jfpf4"
   }
  },
  {
@@ -121645,16 +121650,16 @@
   "stable": {
    "version": [
     1,
-    4,
-    3
+    5,
+    0
    ],
    "deps": [
     "elfeed",
     "elfeed-score",
     "universal-sidecar"
    ],
-   "commit": "cf2cdcef95f5e3c30943506dda269c4295f2f5a0",
-   "sha256": "1h98phb7hj8s0x5qkm4hzmgqcc61bi65xizwhi9nkwqj929256da"
+   "commit": "4c1be458ed7cde1d97d2e30630fb94958eb89ed3",
+   "sha256": "03dvpzxv84farq90ppd4as2rb4j9zyilcmgvawkxdg9c0b9jfpf4"
   }
  },
  {
@@ -121678,15 +121683,15 @@
   "stable": {
    "version": [
     1,
-    4,
-    3
+    5,
+    0
    ],
    "deps": [
     "org-roam",
     "universal-sidecar"
    ],
-   "commit": "cf2cdcef95f5e3c30943506dda269c4295f2f5a0",
-   "sha256": "1h98phb7hj8s0x5qkm4hzmgqcc61bi65xizwhi9nkwqj929256da"
+   "commit": "4c1be458ed7cde1d97d2e30630fb94958eb89ed3",
+   "sha256": "03dvpzxv84farq90ppd4as2rb4j9zyilcmgvawkxdg9c0b9jfpf4"
   }
  },
  {
