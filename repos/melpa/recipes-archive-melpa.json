@@ -8275,14 +8275,15 @@
   "repo": "Artawower/blamer.el",
   "unstable": {
    "version": [
-    20231213,
-    2124
+    20240114,
+    1429
    ],
    "deps": [
+    "async",
     "posframe"
    ],
-   "commit": "bb83b0a511de73c8c2fa72126c68883e04058f14",
-   "sha256": "1s7g0ggnaa42m95i9j5lhgdbqws0wpf3lrczxyqmhlsh6144gija"
+   "commit": "e249fa3ae23cfc013883bcc138ef9f46107acb0c",
+   "sha256": "03wvmhv4m7am4hhy0m454bn1c2cvpi33z2sxdwf9fnfd5drwhrgm"
   },
   "stable": {
    "version": [
@@ -10781,14 +10782,14 @@
   "repo": "minad/cape",
   "unstable": {
    "version": [
-    20240102,
-    2150
+    20240114,
+    1039
    ],
    "deps": [
     "compat"
    ],
-   "commit": "86c5bdfc5c3ea1148a827702224190a70250c656",
-   "sha256": "1ywbpb18xnsjgayqwmn2q7pb9iw6w3bk0j517w6fnfrjqaa247h0"
+   "commit": "f021305d20a40021058fdd31f9acddc86e463eaf",
+   "sha256": "09wpjpzl4sixps3qvhpprwrv77whdqcwp5g1aq41ks30lgnq46x8"
   },
   "stable": {
    "version": [
@@ -13120,11 +13121,11 @@
   "repo": "universal-ctags/citre",
   "unstable": {
    "version": [
-    20230630,
-    1536
+    20240114,
+    712
    ],
-   "commit": "c617acef3dc2a88aaffa42a515ce7dbaba98228a",
-   "sha256": "10lj6w67vsdxdzg0y69qzpccai4054xg8kl9jpavnwn5i12nlp7l"
+   "commit": "a900987221930e03975178d2b75b6dcd2366013d",
+   "sha256": "11p9ljg0r1ajl01382m28alx3czgharnsh6395a00d4835qhy8hj"
   },
   "stable": {
    "version": [
@@ -66330,13 +66331,13 @@
   "stable": {
    "version": [
     0,
-    1
+    2
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "540ca654f80b78b31be36cf4051db5345bb5b46b",
-   "sha256": "1783aals070dc2aaw38a2nj9zfsgixxyj6kz7r3f4x2szz7l5zvx"
+   "commit": "f82823c422ef5c07ef4c45669df0b72ac5217fbc",
+   "sha256": "1hifd9xmnd3fhmyj4hnjnvqj69j2v2r1s0ppgzd0dkx96gmi0ji1"
   }
  },
  {
@@ -80251,11 +80252,11 @@
   "repo": "rainstormstudio/nerd-icons.el",
   "unstable": {
    "version": [
-    20231231,
-    710
+    20240114,
+    1150
    ],
-   "commit": "007d818f726a8dba75fc520207bb035ad9c46610",
-   "sha256": "076kphma5sw5x2r0qajg498bf93rqv36q7rcw0dqyjkkw5sy2igs"
+   "commit": "ba03500eb5ac2dd5159b4efba9a1bd4b2ee4ef26",
+   "sha256": "1dgl7pd4zvwsjfqv1wkan2df7sl4i48398hnrjyvwdiqy5dnf4bd"
   },
   "stable": {
    "version": [
@@ -89738,17 +89739,16 @@
   "repo": "ichernyshovvv/org-timeblock",
   "unstable": {
    "version": [
-    20240104,
-    1124
+    20240114,
+    1134
    ],
    "deps": [
     "compat",
     "org",
-    "persist",
     "svg"
    ],
-   "commit": "08ac5e9833c6d728d83a98dc92e35dcb4de6fa5b",
-   "sha256": "1wi7zs1n3f2g8j8vg61wmkq4sbm8hsfl06spzba51f4s3al1kny1"
+   "commit": "1b2a8d2e97339479d1451f7ea64accdee28b15aa",
+   "sha256": "1ac06lklyy5mgc7vizzhjwdhhyqyns9ci21ywas16b5x12sbc8jg"
   },
   "stable": {
    "version": [
@@ -121587,11 +121587,7 @@
     "magit-section"
    ],
    "commit": "4c1be458ed7cde1d97d2e30630fb94958eb89ed3",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "warning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 327 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 571 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 1171 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 2771 ms\nerror: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28)\n"
-   ]
+   "sha256": "03dvpzxv84farq90ppd4as2rb4j9zyilcmgvawkxdg9c0b9jfpf4"
   }
  },
  {
