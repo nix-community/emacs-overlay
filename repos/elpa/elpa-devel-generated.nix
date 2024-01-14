@@ -1005,10 +1005,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.4.0.20240112.163440";
+        version = "29.1.4.4.0.20240113.225710";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/compat-29.1.4.4.0.20240112.163440.tar";
-          sha256 = "18i8sk7qbav0zg8iqdcwl5g3wdqjc9dh82hggqf7awy9fds3jjc5";
+          url = "https://elpa.gnu.org/devel/compat-29.1.4.4.0.20240113.225710.tar";
+          sha256 = "1jd3rshfp5svm6qj55zrb2nk7qmbjf6a7zg9khm67ym5b2hcfnrs";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -2029,10 +2029,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "17.0.20240112.210839";
+        version = "17.0.20240113.181225";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-17.0.20240112.210839.tar";
-          sha256 = "048zb87cll29pfh2ixj877n1f0321ahxn528jvahww9hpl8v670v";
+          url = "https://elpa.gnu.org/devel/emms-17.0.20240113.181225.tar";
+          sha256 = "0fvzlg2yz0zs0ia72f7pn6w7kxxc3642kwa7bn0axivl9hzj5v8d";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -2233,10 +2233,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.28.0.20240113.194300";
+        version = "0.28.0.20240114.739";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240113.194300.tar";
-          sha256 = "0k57rgzv41bmxadq0j790r0qfn0x7bkwcy1z46j0yn5x0p5ir8hj";
+          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240114.739.tar";
+          sha256 = "1qpmcmnrkyrj4i6n6xm2ly3vg6vlmqy7jjbdhbd89pli5ry9ipyb";
         };
         packageRequires = [ emacs xelb ];
         meta = {
@@ -4536,16 +4536,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    persist = callPackage ({ elpaBuild, fetchurl, lib }:
+    persist = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "persist";
         ename = "persist";
-        version = "0.6.0.20240113.94225";
+        version = "0.6.0.20240114.52348";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/persist-0.6.0.20240113.94225.tar";
-          sha256 = "1wgjsy6chbp57j91cv9nyx191mxdh9wm6bx0khixf47nddaadymp";
+          url = "https://elpa.gnu.org/devel/persist-0.6.0.20240114.52348.tar";
+          sha256 = "0jml2w7l44l9dkr0bxvfw90a57p3iyya24n0ic6083c10mgnjs89";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/persist.html";
           license = lib.licenses.free;
@@ -7069,10 +7069,10 @@
       elpaBuild {
         pname = "xelb";
         ename = "xelb";
-        version = "0.18.0.20240113.193452";
+        version = "0.18.0.20240114.83709";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xelb-0.18.0.20240113.193452.tar";
-          sha256 = "0bcqi9n584xbfrx9x6yxc76xbr2ywb1mi59bw1axfjrp4gmz5p6y";
+          url = "https://elpa.gnu.org/devel/xelb-0.18.0.20240114.83709.tar";
+          sha256 = "01a8qn0zmp3ij8g9kwg49ajg41hihgnqp769ckcwdfibc8zy4j43";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7151,10 +7151,10 @@
       elpaBuild {
         pname = "yasnippet";
         ename = "yasnippet";
-        version = "0.14.0.0.20240108.114246";
+        version = "0.14.0.0.20240114.3422";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20240108.114246.tar";
-          sha256 = "18h0qnnf60dgaxvr2nq2jlf229hyc8kgwcfrmsz2a3ww8d4djm8l";
+          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20240114.3422.tar";
+          sha256 = "1naz1jvgyl4f0kkrl68wb411if9zxwxv35q3alaqvflg8pcnkqxp";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
