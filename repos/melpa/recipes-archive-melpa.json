@@ -2353,11 +2353,11 @@
   "repo": "wlemuel/alarm-clock",
   "unstable": {
    "version": [
-    20230711,
-    2139
+    20240114,
+    344
    ],
-   "commit": "93affc8a66e0b62e55635ac4a7373a1b6659825e",
-   "sha256": "00xl3ny0dn7mw21shsx83fhmr667zrxvnhp3w0rg22vdj39lq5wp"
+   "commit": "f924d0e75eb7ce29055bdc1a1e644bb1dcabda09",
+   "sha256": "1bw9n7gc44aamy0vfivracpncalxrcxl3whgcsmq0iajbnpx0j12"
   },
   "stable": {
    "version": [
@@ -6696,11 +6696,11 @@
   "repo": "tinted-theming/base16-emacs",
   "unstable": {
    "version": [
-    20231216,
-    839
+    20240114,
+    104
    ],
-   "commit": "d8f3ae99748be715154bc5dd90261d16718dc57a",
-   "sha256": "0pdgr3g418kxgfli672ssbh8xkz0qvqx35h5va0dd2ngmir9yn18"
+   "commit": "99ad4abecaf6060762f59f97f0859f1caab2194c",
+   "sha256": "1l1s0gq7skq64lr0xn865zg84zhz5b3a9a07d8kir0b413syd4c0"
   },
   "stable": {
    "version": [
@@ -26281,16 +26281,16 @@
   "repo": "jacktasia/dumb-jump",
   "unstable": {
    "version": [
-    20230716,
-    1717
+    20240114,
+    354
    ],
    "deps": [
     "dash",
     "popup",
     "s"
    ],
-   "commit": "d9503c157ab88f0ed2fa1301aeb57e95ac564760",
-   "sha256": "1v19valcwxn987bq698kd78hxyq4ri0m7s2phzbw3fm4nl65q3i8"
+   "commit": "ede6a04187e79a29ef31d14760ac0d8d4c5f4cc5",
+   "sha256": "1ly7xsfliyw38hqh862p6m37mxl460k4zq1fy3xs0jz9q3ak84iq"
   },
   "stable": {
    "version": [
@@ -31454,16 +31454,16 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20240112,
-    2108
+    20240113,
+    2312
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "de8d0a3aa855e1ea319d22671222ca612e31941d",
-   "sha256": "1n1navm4h83jh02d5ljvswcd431wimsm9yd10669391jiczjr3ry"
+   "commit": "6e36f3e1cc3ef6a56bbdbacd2567b2afe70255e3",
+   "sha256": "1ixcgc12lfmba32jryqka7q0aafzyjsii1596zpz1cig4v16l0n5"
   },
   "stable": {
    "version": [
@@ -66318,14 +66318,14 @@
   "repo": "bram85/kagi.el",
   "unstable": {
    "version": [
-    20240113,
-    908
+    20240114,
+    706
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "cd2856b4270d6a860cc178a58a01fc79e37b3515",
-   "sha256": "0nrppc0jgc7b1vb1szqzcn6h6qa5n94lzg8jvvqnl0w73i0nb5ck"
+   "commit": "f82823c422ef5c07ef4c45669df0b72ac5217fbc",
+   "sha256": "1hifd9xmnd3fhmyj4hnjnvqj69j2v2r1s0ppgzd0dkx96gmi0ji1"
   },
   "stable": {
    "version": [
@@ -121590,7 +121590,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 305 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 640 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 1275 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 2261 ms\nerror: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28)\n"
+    "warning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 327 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 571 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 1171 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 2771 ms\nerror: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28)\n"
    ]
   }
  },
@@ -128148,14 +128148,14 @@
   "repo": "joaotavora/yasnippet",
   "unstable": {
    "version": [
-    20240108,
-    1642
+    20240114,
+    534
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "d7f55c7501a67a27f45154a6d4bdc50c2c235623",
-   "sha256": "1gvpdchj965nf72hdpr4k4qr917wmvjykzzdcc2rvp99yjck80lw"
+   "commit": "8ce506e32f629b549fd3be8c466fe87819f54d13",
+   "sha256": "0ps14xdc2g6npkg5mpxz1lmhi9awx1lzzvshd88b70xgcss80lbj"
   },
   "stable": {
    "version": [
