@@ -11956,14 +11956,14 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20240112,
-    1749
+    20240113,
+    1737
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "39dd8e7415ebe6d836a1d721337019cfea89f5ad",
-   "sha256": "0xylvqjhdwmgbcm412jgyir8kwb16j1jzwp708z1p0yaw4j7c54c"
+   "commit": "3bf5464d2c7354f212446e9af151749aef80c2c9",
+   "sha256": "0qwchv14xrqvpk0gc7rr1gb64wy7lzn0fvknv45dw50pwp8iiw8p"
   }
  },
  {
@@ -43619,13 +43619,13 @@
   "unstable": {
    "version": [
     20240113,
-    1441
+    1518
    ],
    "deps": [
     "project"
    ],
-   "commit": "8fbc83bbeea22eafed1c15b642a23cb87ad3f12a",
-   "sha256": "0wfkgdxzxvifs6w8d416nypsd8cfa28nb39ilh21h1lcpia04z88"
+   "commit": "165ee1fe7b9d154a316c332bf73f341177126d8c",
+   "sha256": "016322zv6bp97jama1lsh9rrrgv0h30h8rrslq9lmf5y85bqikh4"
   }
  },
  {
@@ -46096,14 +46096,14 @@
   "repo": "emacs-geiser/geiser",
   "unstable": {
    "version": [
-    20231215,
-    2148
+    20240113,
+    2047
    ],
    "deps": [
     "project"
    ],
-   "commit": "f343592a52da0f947989d07c208a51ad6c972a5e",
-   "sha256": "1y9k9v7ll816rs20krchrk080b3a5q4hikskaamvr5hrmi0jw938"
+   "commit": "d25b2a3e176fb1a8dade23e2e827f774e3599a8c",
+   "sha256": "1w0g2w6ir32phs1czwq4zggnlfcxqh8p65vnwkdrnrvv0iilcmn9"
   },
   "stable": {
    "version": [
@@ -51776,20 +51776,20 @@
   "repo": "clarete/hackernews.el",
   "unstable": {
    "version": [
-    20230127,
-    1918
+    20240113,
+    2137
    ],
-   "commit": "dcb312194b60e9841a63455ba893d60856099c79",
-   "sha256": "1ga427kv77m5wr5pyjzag1mjqcyk2qh9avzn7qfmpdmfjrlrqhyb"
+   "commit": "38ad768e95ca651d836ee2fa2d795ac2e84e8e03",
+   "sha256": "100aa0vs1gjwpkfdc7avwv5v3sicj2npqfr1y3dsib3pimp21l6w"
   },
   "stable": {
    "version": [
     0,
-    6,
-    1
+    7,
+    0
    ],
-   "commit": "c9c2bb0f13f5bd64c74dbdf945d9613192c0e454",
-   "sha256": "17lkjcka6ydd6khhz5jbjlybfpx05153z0d8s1rxaxcwl7z2y6cf"
+   "commit": "38ad768e95ca651d836ee2fa2d795ac2e84e8e03",
+   "sha256": "100aa0vs1gjwpkfdc7avwv5v3sicj2npqfr1y3dsib3pimp21l6w"
   }
  },
  {
@@ -73520,15 +73520,15 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20240101,
-    2229
+    20240113,
+    1545
    ],
    "deps": [
     "compat",
     "dash"
    ],
-   "commit": "55d6b71cf571aea2f52f99b31c523540970e0ad2",
-   "sha256": "1wi4zglihi9sxsr9m11yvhsf622646qiikfwxym7c1lfr29bd3bw"
+   "commit": "47f333e1fa989a81c0265d2f523aff4108254238",
+   "sha256": "1w5hq09c7w69iv8jqxqr3h38m25vb89gnrxyym5ldc7hdfnfbjdj"
   },
   "stable": {
    "version": [
@@ -82693,14 +82693,14 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20240110,
-    1117
+    20240113,
+    1737
    ],
    "deps": [
     "chatgpt-shell"
    ],
-   "commit": "0274c8b0c35695f75ac7248e177fe8179eb31017",
-   "sha256": "08afcd00qbvb234cx8hqk72a1lan3z83sq9vxb8wc1c1d1fhbwdj"
+   "commit": "3bf5464d2c7354f212446e9af151749aef80c2c9",
+   "sha256": "0qwchv14xrqvpk0gc7rr1gb64wy7lzn0fvknv45dw50pwp8iiw8p"
   }
  },
  {
@@ -88642,8 +88642,8 @@
   "repo": "jkitchin/org-ref",
   "unstable": {
    "version": [
-    20240107,
-    1350
+    20240113,
+    2201
    ],
    "deps": [
     "avy",
@@ -88658,8 +88658,8 @@
     "parsebib",
     "s"
    ],
-   "commit": "d56a6c201c76ce0277af81ee8e8919908501e440",
-   "sha256": "0r8my2k4pilx5kmrgcixwg2nipdp3k3c6syvlvi0fmb2438hl8rp"
+   "commit": "7bcbd7c6ff36ff8950a1e6fa30a7970a9c4d288b",
+   "sha256": "0nxdkbs3pc2gfvbxxb0ix9sk9fan98wiljzknzljnjcaazln9kbc"
   },
   "stable": {
    "version": [
@@ -106535,11 +106535,11 @@
   "repo": "hvesalai/emacs-scala-mode",
   "unstable": {
    "version": [
-    20221025,
-    1502
+    20240113,
+    1743
    ],
-   "commit": "5d7cf21c37e345c49f921fe5111a49fd54efd1e0",
-   "sha256": "1dygncmjizlg33g2yghihmkf5hjwhrd8b63qvl4dndxwbq995n6r"
+   "commit": "4c6d636b86e3bb1d95de819dc48dda92abdfbcf4",
+   "sha256": "0d3x0fk09a2bl2f7sy6k28164r8s2hvshh20p5kp1rg75y0syksa"
   },
   "stable": {
    "version": [
@@ -113080,11 +113080,11 @@
   "repo": "srfi-explorations/emacs-srfi",
   "unstable": {
    "version": [
-    20231225,
-    755
+    20240113,
+    2244
    ],
-   "commit": "7cd699f428c729131fe7a7028f33aa491ec28a53",
-   "sha256": "1xhkwhilmbr705csr7awm96x0p3i2hnhd6dm94wpn50zf5x0s99h"
+   "commit": "78a31cc9714c80d41f19e33ce5b4cf09a14bfca9",
+   "sha256": "1xml90yrbswcq22lazrl5nwqamfflwry607zj88xk60xnxk2r55l"
   },
   "stable": {
    "version": [
@@ -116262,15 +116262,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20240112,
-    955
+    20240113,
+    1634
    ],
    "deps": [
     "rainbow-identifiers",
     "visual-fill-column"
    ],
-   "commit": "60d3de51cfc536e9afb14954ffe5a8991c4abc8e",
-   "sha256": "1vmlyq7nzdcscm93y5xxn8ypi3zpcwnsmc4ihsd2mmyqbpfzzr2z"
+   "commit": "0c5fb62b90a8ba2792036512ce4ea4c4bf359b63",
+   "sha256": "0j77fcjyh735xm0sw8lzhza21qanidw88x0nn2sbvi8h8mymhna9"
   },
   "stable": {
    "version": [
@@ -118335,16 +118335,16 @@
   "repo": "abrochard/emacs-todoist",
   "unstable": {
    "version": [
-    20230120,
-    2208
+    20240113,
+    1729
    ],
    "deps": [
     "dash",
     "org",
     "transient"
    ],
-   "commit": "d79b4ea4ea4891635966bfc2c769484d2916be80",
-   "sha256": "15hpayv41bb7gfy1s1mc0zmd8r1h8h5xmb18sgc4v6l1k4x17z1j"
+   "commit": "e756a345d213d93fbb965d1314c4dec62566c653",
+   "sha256": "18hnpmbbmn939s0z0ynjxl3fkgg9xzpj82rvks81xvv8nf19wfsx"
   }
  },
  {
@@ -118989,15 +118989,15 @@
   "repo": "magit/transient",
   "unstable": {
    "version": [
-    20240106,
-    1457
+    20240113,
+    1627
    ],
    "deps": [
     "compat",
     "seq"
    ],
-   "commit": "a2fe06ac00d419ddcbf8f9ef59bf1c4d2350ccbe",
-   "sha256": "0n39349l8xchv6mi43j1n1qan7k30rbpi77z30p849wh3xmb900h"
+   "commit": "3ebb6acfae3a08a747146606d7ae6ab7bf5fa305",
+   "sha256": "1pbvgbkp82cxhahysicnlfcqgdcrfg4ymfc7n6x21za1423p1g83"
   },
   "stable": {
    "version": [
@@ -121590,7 +121590,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "warning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 303 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 678 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 1211 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 2567 ms\nerror: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28)\n"
+    "warning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 305 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 640 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 1275 ms\nwarning: error: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28); retrying in 2261 ms\nerror: unable to download 'https://git.sr.ht/~swflint/emacs-universal-sidecar/archive/4c1be458ed7cde1d97d2e30630fb94958eb89ed3.tar.gz': Timeout was reached (28)\n"
    ]
   }
  },
