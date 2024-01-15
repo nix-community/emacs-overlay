@@ -1209,10 +1209,10 @@
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.22.0.20230208.161318";
+        version = "1.23.0.20240114.203711";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/csv-mode-1.22.0.20230208.161318.tar";
-          sha256 = "0jzna3i4dbz4lvpnvjm7lsggk71wiq0bdcgq4h2rcs6lqsr559dp";
+          url = "https://elpa.gnu.org/devel/csv-mode-1.23.0.20240114.203711.tar";
+          sha256 = "0y6zbqdh5gxhfbh2hfxx9k73h5aaknc041jr84s9ims67iavb17b";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -1256,10 +1256,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.3.0.0.20240113.185705";
+        version = "0.3.0.0.20240114.212012";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.3.0.0.20240113.185705.tar";
-          sha256 = "0zwhl3dr225syr8jg10b4889xpc3r36kf2hgcj3i8nkn0gsab9da";
+          url = "https://elpa.gnu.org/devel/dape-0.3.0.0.20240114.212012.tar";
+          sha256 = "14wl0l3dc4dw7w0gq887k6m90a0wdgriln7vx8gaiwj96a5cjl1y";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -7151,10 +7151,10 @@
       elpaBuild {
         pname = "yasnippet";
         ename = "yasnippet";
-        version = "0.14.0.0.20240114.3422";
+        version = "0.14.0.0.20240115.5521";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20240114.3422.tar";
-          sha256 = "1naz1jvgyl4f0kkrl68wb411if9zxwxv35q3alaqvflg8pcnkqxp";
+          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20240115.5521.tar";
+          sha256 = "0f6vgq1v91vbxg7crmz8r7crq2s2w29yx2dc28804122pnkx17hh";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
