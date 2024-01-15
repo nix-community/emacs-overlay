@@ -1822,10 +1822,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "17";
+        version = "18";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emms-17.tar";
-          sha256 = "103gqlmda24izhb5xrh14k0bwhijr98vnlnmdr9a9xxfla9n5xw0";
+          url = "https://elpa.gnu.org/packages/emms-18.tar";
+          sha256 = "1jslk37kx7yzvwy4hq1a6b71kp4a3bgfzzp8bpplv7z6vcmwrmgq";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -4144,10 +4144,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.7.1";
+        version = "0.7.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/plz-0.7.1.tar";
-          sha256 = "196xxxmib8ii23ras14fk9aldkvkr3c9xzp7nxg1yihjg39k6y9q";
+          url = "https://elpa.gnu.org/packages/plz-0.7.2.tar";
+          sha256 = "1qpr4j5rqpvr17arxrrix1z9fzbqy1mddakyylqbvm9lg5yg2wnk";
         };
         packageRequires = [ emacs ];
         meta = {

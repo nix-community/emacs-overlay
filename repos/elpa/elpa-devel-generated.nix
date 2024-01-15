@@ -727,10 +727,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.1.0.20240102.215048";
+        version = "1.1.0.20240114.103935";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.1.0.20240102.215048.tar";
-          sha256 = "1dw7j5sjbnj4d2l857sk5c5n6ds02wjfv8v0vyid8hix38h0bzrm";
+          url = "https://elpa.gnu.org/devel/cape-1.1.0.20240114.103935.tar";
+          sha256 = "1kxr7a3rzvddcd6z31k5pwqv5p4x13nw43dv79pnm0nmw9ncai29";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1785,10 +1785,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240107.0.20240113.14718";
+        version = "20240107.0.20240114.171043";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240107.0.20240113.14718.tar";
-          sha256 = "0qwvaszpa0pkmjm1qk8kikiskqhf75xsv18fq2mlvpvl8bbzcqsf";
+          url = "https://elpa.gnu.org/devel/eev-20240107.0.20240114.171043.tar";
+          sha256 = "1md6m1dkk6wy35djfmc01729cdfv7i2aiy38jf7iixlzlqkhl1sk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1921,10 +1921,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.5.6.0.20240107.221834";
+        version = "0.5.6.0.20240114.161101";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.5.6.0.20240107.221834.tar";
-          sha256 = "0yjjsnl3x1p51xj60vw4kmx8hchkvrcghgjwpm2kqvx1fp1924bd";
+          url = "https://elpa.gnu.org/devel/ellama-0.5.6.0.20240114.161101.tar";
+          sha256 = "10dlr1kck8zi1aljwp3rhssmqflbz8gfj5pgcq32ga8nsb01dbsv";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -2000,10 +2000,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.14pre0.20240109.21858";
+        version = "0.14pre0.20240114.41124";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20240109.21858.tar";
-          sha256 = "1iasj73zj45hcgpccf4d6s96q57iy0jybmm7fyibk7hwg7v0nnwp";
+          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20240114.41124.tar";
+          sha256 = "1yssd281kjjbg0lam0lv7jdmfhr822c2g6jxl16ymw9nvbh3rnsy";
         };
         packageRequires = [
           emacs
@@ -2029,10 +2029,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "17.0.20240113.181225";
+        version = "18.0.20240114.152422";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-17.0.20240113.181225.tar";
-          sha256 = "0fvzlg2yz0zs0ia72f7pn6w7kxxc3642kwa7bn0axivl9hzj5v8d";
+          url = "https://elpa.gnu.org/devel/emms-18.0.20240114.152422.tar";
+          sha256 = "0irvbzfrn0fjpl25whw1k3fmgmsk9fls7yjfac16k3bjzxv8mmis";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -2233,10 +2233,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.28.0.20240114.739";
+        version = "0.28.0.20240114.113202";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240114.739.tar";
-          sha256 = "1qpmcmnrkyrj4i6n6xm2ly3vg6vlmqy7jjbdhbd89pli5ry9ipyb";
+          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240114.113202.tar";
+          sha256 = "1si8ricmahh6v03vn2ya34lciwpkk1q1fw3acjkbchh67hvhwks9";
         };
         packageRequires = [ emacs xelb ];
         meta = {
@@ -4603,10 +4603,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.8pre0.20231218.45506";
+        version = "0.8pre0.20240114.34705";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/plz-0.8pre0.20231218.45506.tar";
-          sha256 = "14yvqp3lj7sjlncr19zi17ha41a88rv29rhzkvrvxvf7jps7mlb7";
+          url = "https://elpa.gnu.org/devel/plz-0.8pre0.20240114.34705.tar";
+          sha256 = "06wb543xci5h26cpazdwxgb6haf03yrmx7iwb5d2ja4rv50cirl3";
         };
         packageRequires = [ emacs ];
         meta = {
