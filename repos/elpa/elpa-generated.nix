@@ -1248,6 +1248,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    devicetree-ts-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "devicetree-ts-mode";
+        ename = "devicetree-ts-mode";
+        version = "0.3";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/devicetree-ts-mode-0.3.tar";
+          sha256 = "1vhk9b0aa9w6yalv0d712dc9d7pmcgbg5b4baggc7dyaa5n6ilkn";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/devicetree-ts-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     dict-tree = callPackage ({ elpaBuild
                              , emacs
                              , fetchurl
@@ -1588,10 +1603,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240107";
+        version = "20240115";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20240107.tar";
-          sha256 = "1sipa58hk1myx90m2ff4l5a0ymrybhf2aix1lalivk0v5qy8dbrj";
+          url = "https://elpa.gnu.org/packages/eev-20240115.tar";
+          sha256 = "0vlw88wjgzgl3wsa7k5p03qvj2yipvjsrjcrv8vjlvnm83pszskh";
         };
         packageRequires = [ emacs ];
         meta = {

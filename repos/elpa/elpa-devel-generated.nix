@@ -1256,10 +1256,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.3.0.0.20240115.204110";
+        version = "0.3.0.0.20240115.232907";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.3.0.0.20240115.204110.tar";
-          sha256 = "011h5srg1cvsxhgnhcg0d72bq2naqzcvmd4p01qyhb301bxafl4m";
+          url = "https://elpa.gnu.org/devel/dape-0.3.0.0.20240115.232907.tar";
+          sha256 = "17gaaz0xpr4kfi6hkanxbnsis1w4rx92n23x404izy2d504aldqd";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1409,6 +1409,24 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/devdocs.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    devicetree-ts-mode = callPackage ({ elpaBuild
+                                      , emacs
+                                      , fetchurl
+                                      , lib }:
+      elpaBuild {
+        pname = "devicetree-ts-mode";
+        ename = "devicetree-ts-mode";
+        version = "0.3.0.20231222.194823";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/devicetree-ts-mode-0.3.0.20231222.194823.tar";
+          sha256 = "1d5ijf8x607hmlsbbvf0idrl985smbbjvrpqakk7f8nakazywzrs";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/devicetree-ts-mode.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -1785,10 +1803,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240107.0.20240114.171043";
+        version = "20240115.0.20240115.214625";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240107.0.20240114.171043.tar";
-          sha256 = "1md6m1dkk6wy35djfmc01729cdfv7i2aiy38jf7iixlzlqkhl1sk";
+          url = "https://elpa.gnu.org/devel/eev-20240115.0.20240115.214625.tar";
+          sha256 = "1cdxbqrargibbpkbw0044xi1ax7fjg57x413x8xfj80ldm7gilxd";
         };
         packageRequires = [ emacs ];
         meta = {
