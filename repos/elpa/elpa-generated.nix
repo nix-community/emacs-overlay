@@ -1528,10 +1528,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.8.20";
+        version = "0.8.21";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.8.20.tar";
-          sha256 = "1kcygkfw7r3ixbb2dgsf3rl2662xls24992y2j1w32fdh9gqk03s";
+          url = "https://elpa.gnu.org/packages/ebdb-0.8.21.tar";
+          sha256 = "1dql8ql3b626m461fk0a29ip9v6kfxq6ygbawcfdsa6khjpxh47i";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -2900,10 +2900,10 @@
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.23";
+        version = "1.0.24";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.23.tar";
-          sha256 = "0zkj893wb0mz6p8xpnmw61j0gnbmqagcggadvchnspm5vbza6nkw";
+          url = "https://elpa.gnu.org/packages/jsonrpc-1.0.24.tar";
+          sha256 = "05nwxfybczxx7pmflq762dq3wypm3pmcfljqs5kh81icxvdqvk8s";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3799,10 +3799,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.16";
+        version = "9.6.17";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.16.tar";
-          sha256 = "0wip9hnl97ysg8zzflsds1yzzvg01fylkm219bpcwdqidh0vbs0i";
+          url = "https://elpa.gnu.org/packages/org-9.6.17.tar";
+          sha256 = "1gnm9hja2p93l0h5dz86035jh37wkngw7kk4bpgbzjlv74wih1jb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4114,10 +4114,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.46";
+        version = "0.4.47";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/phps-mode-0.4.46.tar";
-          sha256 = "128pbn2ndqwvaxxagwz23xa9adr3m5dac1cid7dichddsis849z8";
+          url = "https://elpa.gnu.org/packages/phps-mode-0.4.47.tar";
+          sha256 = "08zyk00vwi3wrw9shlv1faxcall3xcqlg02hj3yb8cg4071dv922";
         };
         packageRequires = [ emacs ];
         meta = {
