@@ -614,10 +614,10 @@
       elpaBuild {
         pname = "calibre";
         ename = "calibre";
-        version = "1.3.4";
+        version = "1.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/calibre-1.3.4.tar";
-          sha256 = "0rjaqnfajp9vj8ghiln7iis657qazxz77f91j3hz6g896g1bl42p";
+          url = "https://elpa.gnu.org/packages/calibre-1.4.0.tar";
+          sha256 = "1p3sla0j9v1d42z2amwb3hk2gs80ld50nxm1bfi30vdh563cfz4q";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1162,10 +1162,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.37";
+        version = "0.38";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/debbugs-0.37.tar";
-          sha256 = "0xj0sv5d3y88fsbm7yhm0v59mzj1srxayng1hr418v89ky43rxpr";
+          url = "https://elpa.gnu.org/packages/debbugs-0.38.tar";
+          sha256 = "0cl6vcnlyanrl3qzhd31pw9qvij6g88cgifl3mwgw54bbagl9hh6";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -1732,10 +1732,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.5.6";
+        version = "0.5.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.5.6.tar";
-          sha256 = "0s7plihyrszvzysh5yi9q0fz6sn2z7y62mlqwhz5q3f44ql27d5b";
+          url = "https://elpa.gnu.org/packages/ellama-0.5.7.tar";
+          sha256 = "1h9m14msbmzn7351bai07bs3f9fq067b1kgkz44smqrzpngylgy9";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
