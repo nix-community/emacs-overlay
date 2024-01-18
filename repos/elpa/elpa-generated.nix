@@ -411,6 +411,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    bicep-ts-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "bicep-ts-mode";
+        ename = "bicep-ts-mode";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/bicep-ts-mode-0.1.tar";
+          sha256 = "19fi5rrdj94djm7wndcmmicy8p5g477akn5dv57r15wc4sv5krll";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/bicep-ts-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     bind-key = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "bind-key";
@@ -1098,16 +1113,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    dape = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    dape = callPackage ({ elpaBuild, emacs, fetchurl, jsonrpc, lib }:
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.3.0";
+        version = "0.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dape-0.3.0.tar";
-          sha256 = "0jypxnizdrgvs5402acjhdr4z2bhi3m2mcvhr49xplfv2dl5xwmr";
+          url = "https://elpa.gnu.org/packages/dape-0.4.0.tar";
+          sha256 = "1yfv7mgr9jdw3i3a684fjvcb18asa92iy41f8xpn4qi36i1dbvyg";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ emacs jsonrpc ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/dape.html";
           license = lib.licenses.free;
@@ -1543,10 +1558,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.8.21";
+        version = "0.8.22";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ebdb-0.8.21.tar";
-          sha256 = "1dql8ql3b626m461fk0a29ip9v6kfxq6ygbawcfdsa6khjpxh47i";
+          url = "https://elpa.gnu.org/packages/ebdb-0.8.22.tar";
+          sha256 = "12sydb2lm571096gpb8r0jpg19wiqpl52rcnrhkvzlhzxgg18pg5";
         };
         packageRequires = [ emacs seq ];
         meta = {
