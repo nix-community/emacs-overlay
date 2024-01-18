@@ -307,17 +307,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild
-                          , emacs
-                          , fetchurl
-                          , lib }:
+    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.2.4.0.20240108.130055";
+        version = "13.3.0.0.20240118.92510";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-13.2.4.0.20240108.130055.tar";
-          sha256 = "1xq9mkvcvzmnrmwvkcy9i7h7xsy2wdb28i4r3ccd737bs5ksmrfi";
+          url = "https://elpa.gnu.org/devel/auctex-13.3.0.0.20240118.92510.tar";
+          sha256 = "1nnvyxcicxqwpxdj622hfgb3dwhivx3y680npby4bviaw3ap54s1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3187,10 +3184,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.1.0.20240109.180616";
+        version = "1.1.0.20240117.221120";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.1.0.20240109.180616.tar";
-          sha256 = "0bsp0ypai54pls6xc0f2f3rj4grlgmf1dls70da6awasgr1j8bbv";
+          url = "https://elpa.gnu.org/devel/jinx-1.1.0.20240117.221120.tar";
+          sha256 = "0hhnamif59fscfg7byf92pv9qx21yj7invs3s39axb4xvh49jx77";
         };
         packageRequires = [ compat emacs ];
         meta = {

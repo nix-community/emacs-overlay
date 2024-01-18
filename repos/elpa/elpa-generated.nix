@@ -265,10 +265,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.2.4";
+        version = "13.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.2.4.tar";
-          sha256 = "0zqysxfrlk3ajfggyi58c1yivxk74slr0l5k41r3x9b7l7njjkwp";
+          url = "https://elpa.gnu.org/packages/auctex-13.3.0.tar";
+          sha256 = "09yc9242xya2by8z72899li7zc9g23bb8j8m30kbvivynmdfhzkf";
         };
         packageRequires = [ emacs ];
         meta = {
