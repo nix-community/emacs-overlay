@@ -741,10 +741,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.1.0.20240114.103935";
+        version = "1.1.0.20240119.62928";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.1.0.20240114.103935.tar";
-          sha256 = "1kxr7a3rzvddcd6z31k5pwqv5p4x13nw43dv79pnm0nmw9ncai29";
+          url = "https://elpa.gnu.org/devel/cape-1.1.0.20240119.62928.tar";
+          sha256 = "1ffvk9pwrbgpcc3cvagxgwj9b1rw9x9q50f7d0p936q7v1pzw5h4";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2061,10 +2061,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "18.0.20240114.152422";
+        version = "18.0.20240118.163237";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-18.0.20240114.152422.tar";
-          sha256 = "0irvbzfrn0fjpl25whw1k3fmgmsk9fls7yjfac16k3bjzxv8mmis";
+          url = "https://elpa.gnu.org/devel/emms-18.0.20240118.163237.tar";
+          sha256 = "110fqr9kjn8g93906ij1gn8bzbwa77kfm3ksjmsgw1m1cl16dykw";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -2130,10 +2130,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20240110.210108";
+        version = "5.6snapshot0.20240118.170608";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240110.210108.tar";
-          sha256 = "0jmid7y4cd1201zwhsnp75rblkjpp23sa71sczgvy49iwbqx3wc1";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240118.170608.tar";
+          sha256 = "0nkff8mlg8m5pgrlhd35dch8aryp5mfszlppvnvxdr59m0qr63ix";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3432,10 +3432,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.8.0.0.20240112.170508";
+        version = "0.8.0.0.20240118.210934";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.8.0.0.20240112.170508.tar";
-          sha256 = "0kd5zws5kp6xnkx58sj34k2s2ccfkvhq35hk4jl37z8afahda4s1";
+          url = "https://elpa.gnu.org/devel/llm-0.8.0.0.20240118.210934.tar";
+          sha256 = "1zqfn351rxx65x6xg2vi3gq13knscxn4xlfyd8ppxr36bk3bg8bh";
         };
         packageRequires = [ emacs ];
         meta = {
