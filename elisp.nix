@@ -28,7 +28,7 @@ let
       ext = lib.last (builtins.split "\\." (builtins.toString config));
       type = builtins.typeOf config;
     in
-      type == "path" && ext == "org";
+      (type == "path" || lib.hasPrefix "/" config) && ext == "org";
 
   configText =
     let
@@ -74,12 +74,23 @@ emacsWithPackages (epkgs:
           let
             # name of the default init file must be default.el according to elisp manual
             defaultInitFileName = "default.el";
+            configFile = pkgs.writeText defaultInitFileName configText;
+            orgModeConfigFile = pkgs.runCommand defaultInitFileName {
+              nativeBuildInputs = [ package ];
+            } ''
+              cp ${configFile} config.org
+              emacs -Q --batch ./config.org -f org-babel-tangle
+              mv config.el $out
+            '';
           in
           epkgs.trivialBuild {
             pname = "default";
             src =
               if defaultInitFile == true
-              then pkgs.writeText defaultInitFileName configText
+              then
+                if isOrgModeFile
+                then orgModeConfigFile
+                else configFile
               else
                 if defaultInitFile.name == defaultInitFileName
                 then defaultInitFile
