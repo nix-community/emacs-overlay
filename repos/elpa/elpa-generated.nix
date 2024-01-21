@@ -1747,10 +1747,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.6.0";
+        version = "0.7.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.6.0.tar";
-          sha256 = "00bhc70zp0jd01146nl2kbvcihsrgxxv4v2wv4xypx2bvyxniw6c";
+          url = "https://elpa.gnu.org/packages/ellama-0.7.0.tar";
+          sha256 = "1vf96qsqg3ycrv9znyrngy2fv7nns9nr1hjrlvb8vqa0y7sanri4";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
