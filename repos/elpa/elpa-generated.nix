@@ -1943,6 +1943,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    ess = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "ess";
+        ename = "ess";
+        version = "24.1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/ess-24.1.0.tar";
+          sha256 = "1fxwlij53rwwyp0c6jyq2w1idxqmf1n601nza0z2gczs8ppv2wrg";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/ess.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     excorporate = callPackage ({ cl-lib ? null
                                , elpaBuild
                                , emacs
