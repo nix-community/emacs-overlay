@@ -1963,10 +1963,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.7.0.0.20240119.214811";
+        version = "0.7.1.0.20240122.200212";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.7.0.0.20240119.214811.tar";
-          sha256 = "0g24dg6cjv9gbqpi0qgx19q79w0064bk0gd44rdp7il97hv90nyw";
+          url = "https://elpa.gnu.org/devel/ellama-0.7.1.0.20240122.200212.tar";
+          sha256 = "1njrvxhn4f11agadfvkhgircsxmqmcvpn2i650x79c9abaap862n";
         };
         packageRequires = [ dash emacs llm spinner ];
         meta = {
@@ -2175,10 +2175,10 @@
       elpaBuild {
         pname = "ess";
         ename = "ess";
-        version = "24.1.0.0.20240121.134724";
+        version = "24.1.0.0.20240122.131137";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ess-24.1.0.0.20240121.134724.tar";
-          sha256 = "1sx6541d9zndyhrsgrs8bfr3jdca5ckc6ixw3nx0mir9nzi6hh7d";
+          url = "https://elpa.gnu.org/devel/ess-24.1.0.0.20240122.131137.tar";
+          sha256 = "028dyyz8hdsj18r1h4vrl9k4kg1r1iamf1k9qzqyjsm7pwpjkkx1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4237,10 +4237,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240121.124450";
+        version = "9.7pre0.20240122.152706";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240121.124450.tar";
-          sha256 = "1v01kspfsbl67q3bwhca9727n30lwk8wdyqjb957bv7df1ppf667";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240122.152706.tar";
+          sha256 = "18ky9k6qdb4bmk6s2vcqg4grr10zv16yrs4lyqaw79930lpr73vz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5937,10 +5937,10 @@
       elpaBuild {
         pname = "svg-tag-mode";
         ename = "svg-tag-mode";
-        version = "0.3.2.0.20240108.113259";
+        version = "0.3.2.0.20240122.120925";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20240108.113259.tar";
-          sha256 = "1hj1mb9hpzpw6vx1bjrdgk8rdga4qsk4w8cy6gv7dv7awwh96f3j";
+          url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20240122.120925.tar";
+          sha256 = "0p4vfrq3p32j4w4qksqll9wmcc4mgi42qdxwg9gny7jjbvpnvk62";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
@@ -6511,10 +6511,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.4.0snapshot0.20240103.111518";
+        version = "0.4.0snapshot0.20240122.104142";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.4.0snapshot0.20240103.111518.tar";
-          sha256 = "1nhms417lmil7xx7rkxwrawkbdgyai2dhbhfvzfbjgnavvr3fgmn";
+          url = "https://elpa.gnu.org/devel/urgrep-0.4.0snapshot0.20240122.104142.tar";
+          sha256 = "0dsry8v5dqrw9p9i3vylh4l1d406s6y61cr707p30jrd1mfjlil5";
         };
         packageRequires = [ compat emacs project ];
         meta = {
@@ -7198,10 +7198,10 @@
       elpaBuild {
         pname = "yasnippet";
         ename = "yasnippet";
-        version = "0.14.0.0.20240119.123821";
+        version = "0.14.0.0.20240122.134651";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20240119.123821.tar";
-          sha256 = "1mrci7wbzyziakb4s50ly3dkn4p92q3gvmp0n8zl5npqbcxh7b9j";
+          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20240122.134651.tar";
+          sha256 = "112ar8d5zz82wf2cw7ci4c4j573q71xwyw0wrp0l2c90dx5j0glk";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {

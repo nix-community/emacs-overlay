@@ -1743,16 +1743,22 @@
           license = lib.licenses.free;
         };
       }) {};
-    ellama = callPackage ({ elpaBuild, emacs, fetchurl, lib, llm, spinner }:
+    ellama = callPackage ({ dash
+                          , elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib
+                          , llm
+                          , spinner }:
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.7.0";
+        version = "0.7.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.7.0.tar";
-          sha256 = "1vf96qsqg3ycrv9znyrngy2fv7nns9nr1hjrlvb8vqa0y7sanri4";
+          url = "https://elpa.gnu.org/packages/ellama-0.7.1.tar";
+          sha256 = "1glxn2hbhdfbb6dn4apbkcbshpbs4chzcbfix0qrz7kkjva12q4c";
         };
-        packageRequires = [ emacs llm spinner ];
+        packageRequires = [ dash emacs llm spinner ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ellama.html";
           license = lib.licenses.free;
@@ -5798,10 +5804,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.3.0";
+        version = "0.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/urgrep-0.3.0.tar";
-          sha256 = "0hd2v1dhnrmmq3qwwqp9x3ggivhv2dyk2inpki18vrfws2f5kyfv";
+          url = "https://elpa.gnu.org/packages/urgrep-0.4.0.tar";
+          sha256 = "0l0gswml6hkna48gfljj3hajhcx3bbc1rqwb2v01hvqab05an7zs";
         };
         packageRequires = [ compat emacs project ];
         meta = {
