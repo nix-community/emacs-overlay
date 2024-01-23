@@ -92,24 +92,12 @@ let
                   # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                   maybeOverridden = if (super.lib.hasAttr "treeSitter" base || super.lib.hasAttr "withTreeSitter" base) then base.override { withTreeSitter = true; } else base;
               in
-                maybeOverridden.overrideAttrs (
-                  oa: {
-                    patches = oa.patches ++ [
-                      # XXX: #318
-                      ./bytecomp-revert.patch
-                    ]; }
-                );
+                maybeOverridden;
 
   emacs-pgtk = let base = super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; };
                    # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                    maybeOverridden = if (super.lib.hasAttr "treeSitter" base || super.lib.hasAttr "withTreeSitter" base) then base.override { withTreeSitter = true; } else base;
-               in maybeOverridden.overrideAttrs (
-                 oa: {
-                   patches = oa.patches ++ [
-                     # XXX: #318
-                     ./bytecomp-revert.patch
-                   ]; }
-               );
+               in maybeOverridden;
 
   emacs-unstable = let base = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; };
                        # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
