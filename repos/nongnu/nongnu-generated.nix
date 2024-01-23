@@ -2892,16 +2892,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    slime = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib, macrostep }:
+    slime = callPackage ({ elpaBuild, emacs, fetchurl, lib, macrostep }:
       elpaBuild {
         pname = "slime";
         ename = "slime";
-        version = "2.28";
+        version = "2.29";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/slime-2.28.tar";
-          sha256 = "0vfkvl09jsz4cjzx5p72r13km3q91xagm2f2wca1fdjprq4cl0gy";
+          url = "https://elpa.nongnu.org/nongnu/slime-2.29.tar";
+          sha256 = "0nwcv4zb311j6ry8wvvacfzv11r6gxaisjqcb3vv4bip0vmx9mhj";
         };
-        packageRequires = [ cl-lib macrostep ];
+        packageRequires = [ emacs macrostep ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/slime.html";
           license = lib.licenses.free;
