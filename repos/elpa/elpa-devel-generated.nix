@@ -2272,10 +2272,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.28.0.20240115.193050";
+        version = "0.28.0.20240124.50533";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240115.193050.tar";
-          sha256 = "1kq7prg3mgb5bkha0jfz3sdzllfyc77n30zw4qi5sm7df53nhfcl";
+          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240124.50533.tar";
+          sha256 = "1cqni0nhf9r0pr2c56c6xxb83vdgy2jnljr683fv02sari188irb";
         };
         packageRequires = [ emacs xelb ];
         meta = {
@@ -6091,10 +6091,10 @@
       elpaBuild {
         pname = "taxy-magit-section";
         ename = "taxy-magit-section";
-        version = "0.13pre0.20240123.52451";
+        version = "0.13.0.20240124.3519";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/taxy-magit-section-0.13pre0.20240123.52451.tar";
-          sha256 = "02n6awck3vs0fhbkgbz162al6qhqqzniarv929aj15srxavs9pwy";
+          url = "https://elpa.gnu.org/devel/taxy-magit-section-0.13.0.20240124.3519.tar";
+          sha256 = "1zr1rbmfmhqq94rahas4gqk31ma0ym9p5p8f3i0h7z6ghby8y6xp";
         };
         packageRequires = [ emacs magit-section taxy ];
         meta = {
@@ -7116,10 +7116,10 @@
       elpaBuild {
         pname = "xelb";
         ename = "xelb";
-        version = "0.18.0.20240122.62832";
+        version = "0.18.0.20240124.64549";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xelb-0.18.0.20240122.62832.tar";
-          sha256 = "033m774vcxlbrmzrfj2i6pjwr17sckx2jwknaxhiz9a5bmyjd0hx";
+          url = "https://elpa.gnu.org/devel/xelb-0.18.0.20240124.64549.tar";
+          sha256 = "1phpk0kwlz92mqb72l1n4n9nrxallvf9apxgrz9lg2fwcfrk03my";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7198,10 +7198,10 @@
       elpaBuild {
         pname = "yasnippet";
         ename = "yasnippet";
-        version = "0.14.0.0.20240122.134651";
+        version = "0.14.1.0.20240123.215824";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/yasnippet-0.14.0.0.20240122.134651.tar";
-          sha256 = "112ar8d5zz82wf2cw7ci4c4j573q71xwyw0wrp0l2c90dx5j0glk";
+          url = "https://elpa.gnu.org/devel/yasnippet-0.14.1.0.20240123.215824.tar";
+          sha256 = "1fr851wlj4l8354xx7lgvkx0khpbqgv2d3fj568s84l4zqrgmfz5";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {

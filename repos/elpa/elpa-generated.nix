@@ -5440,10 +5440,10 @@
       elpaBuild {
         pname = "taxy-magit-section";
         ename = "taxy-magit-section";
-        version = "0.12.2";
+        version = "0.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/taxy-magit-section-0.12.2.tar";
-          sha256 = "1pf83zz5ibhqqlqgcxig0dsl1rnkk5r6v16s5ngvbc37q40vkwn1";
+          url = "https://elpa.gnu.org/packages/taxy-magit-section-0.13.tar";
+          sha256 = "1712hbcna0ph9chaq28a6fanv4sccdiphd5z0hg34ig3g6pslgn9";
         };
         packageRequires = [ emacs magit-section taxy ];
         meta = {
@@ -6440,16 +6440,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    yasnippet = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+    yasnippet = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "yasnippet";
         ename = "yasnippet";
-        version = "0.14.0";
+        version = "0.14.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/yasnippet-0.14.0.tar";
-          sha256 = "1lbil3dyz43nmr2lvx9vhpybqynpb7shg7m1xl1f7j4vm4dh0r08";
+          url = "https://elpa.gnu.org/packages/yasnippet-0.14.1.tar";
+          sha256 = "05nc76wzc9b1a34998xx6l1wc5ss682afllf6dnl6rdj8hza65wy";
         };
-        packageRequires = [ cl-lib ];
+        packageRequires = [ cl-lib emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/yasnippet.html";
           license = lib.licenses.free;
