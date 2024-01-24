@@ -1270,10 +1270,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.4.0.0.20240121.165311";
+        version = "0.5.0.0.20240123.204017";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.4.0.0.20240121.165311.tar";
-          sha256 = "08jhib5wmwwfaxkf4jq51yn6symjmnis7ii89029kgpiaiddwx5d";
+          url = "https://elpa.gnu.org/devel/dape-0.5.0.0.20240123.204017.tar";
+          sha256 = "054w5h98r1fn05056z9gz2qw8rdma5y0xqyz2nh5dz28hzhibs01";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1300,10 +1300,10 @@
       elpaBuild {
         pname = "dash";
         ename = "dash";
-        version = "2.19.1.0.20240103.130123";
+        version = "2.19.1.0.20240123.123337";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dash-2.19.1.0.20240103.130123.tar";
-          sha256 = "0c0mb68cj315r03sid344absnjy070z84g2j5x00b4s94y44p1cj";
+          url = "https://elpa.gnu.org/devel/dash-2.19.1.0.20240123.123337.tar";
+          sha256 = "1iq6bnfn9ay67j6b6yapidsxmh3vg3zyji3fzqdvb84m0f1cl2i7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2175,10 +2175,10 @@
       elpaBuild {
         pname = "ess";
         ename = "ess";
-        version = "24.1.0.0.20240122.131137";
+        version = "24.1.0.0.20240123.115908";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ess-24.1.0.0.20240122.131137.tar";
-          sha256 = "028dyyz8hdsj18r1h4vrl9k4kg1r1iamf1k9qzqyjsm7pwpjkkx1";
+          url = "https://elpa.gnu.org/devel/ess-24.1.0.0.20240123.115908.tar";
+          sha256 = "1892psva19c96zwn5a78sijjbcrkbgj69xlb6p1zwwqx2q8vmldd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5218,10 +5218,10 @@
       elpaBuild {
         pname = "relint";
         ename = "relint";
-        version = "1.24.0.20231026.84057";
+        version = "1.24.0.20240123.121000";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/relint-1.24.0.20231026.84057.tar";
-          sha256 = "0s0gz6w6b04sif8yf83hb7y61jmjvksmslznmzlf8x3rq9p7kwyd";
+          url = "https://elpa.gnu.org/devel/relint-1.24.0.20240123.121000.tar";
+          sha256 = "11482r6h8b0n2ga74mi57nhf9zym2ignii6gfdivrlw8bgmnl1jx";
         };
         packageRequires = [ emacs xr ];
         meta = {
@@ -6091,10 +6091,10 @@
       elpaBuild {
         pname = "taxy-magit-section";
         ename = "taxy-magit-section";
-        version = "0.12.2.0.20230223.182024";
+        version = "0.13pre0.20240123.52451";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/taxy-magit-section-0.12.2.0.20230223.182024.tar";
-          sha256 = "1gd2z5rhns8d2bkz86h2j51xhxcpiqfmzllpz7mn3s7pfnfrva8w";
+          url = "https://elpa.gnu.org/devel/taxy-magit-section-0.13pre0.20240123.52451.tar";
+          sha256 = "02n6awck3vs0fhbkgbz162al6qhqqzniarv929aj15srxavs9pwy";
         };
         packageRequires = [ emacs magit-section taxy ];
         meta = {
@@ -6333,10 +6333,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.5.3.0.20240120.194455";
+        version = "0.5.3.0.20240121.200003";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.5.3.0.20240120.194455.tar";
-          sha256 = "1m2z2h0zyzbnw68nvjqvpy1amax3wnbxld42v8ghsjycklnhb6xn";
+          url = "https://elpa.gnu.org/devel/transient-0.5.3.0.20240121.200003.tar";
+          sha256 = "04fsffmvs0r3h5jwly3y1xylixiihdbd5i3wkvazcqrwv6il8nh9";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -7146,10 +7146,10 @@
       elpaBuild {
         pname = "xr";
         ename = "xr";
-        version = "1.25.0.20231216.93050";
+        version = "1.25.0.20240123.121048";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xr-1.25.0.20231216.93050.tar";
-          sha256 = "0662d9hymj0n7dpgd3g4qrlb051arm07fb76yvhhy2b1q7b22mj6";
+          url = "https://elpa.gnu.org/devel/xr-1.25.0.20240123.121048.tar";
+          sha256 = "0ishimhmmkkdzrx9pqq9y9j9n1h1vms49kfksg42mq6fahbc1hyn";
         };
         packageRequires = [ emacs ];
         meta = {
