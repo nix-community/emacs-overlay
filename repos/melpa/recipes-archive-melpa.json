@@ -17713,14 +17713,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20240123,
-    700
+    20240124,
+    2059
    ],
    "deps": [
     "compat"
    ],
-   "commit": "ba1ccbb45cd76b3fae20844bd2950631a3312a81",
-   "sha256": "1466f6j9bxw9mh0ad9yv2qfkhzlz1ysgch53nlkvbry4llhdhj43"
+   "commit": "59f26fe48d990699ed8e625a246eceb88d9b57bc",
+   "sha256": "0n3rxcc6pwyw70p9r5c9ghqrwxq1liak33g6ddg31w0h67amjd6k"
   },
   "stable": {
    "version": [
@@ -24296,14 +24296,14 @@
   "repo": "Boruch-Baum/emacs-diredc",
   "unstable": {
    "version": [
-    20240123,
-    1830
+    20240124,
+    1812
    ],
    "deps": [
     "key-assist"
    ],
-   "commit": "1063a3d588316038b636f30b126a70000f2267a7",
-   "sha256": "0zngv0s63agb7909rvbz838kq25pqwymjr8km32k45a66mvcjipd"
+   "commit": "35ec03ce9fbfd8c2783117ae4dcb00f272571c18",
+   "sha256": "15rg7756bwdccdswifh1fbffkwijxxrval0w7mk2hp00w8wnrljb"
   },
   "stable": {
    "version": [
@@ -31045,11 +31045,11 @@
   "repo": "magit/emacsql",
   "unstable": {
    "version": [
-    20240121,
-    1735
+    20240124,
+    1601
    ],
-   "commit": "eb69177f4e73fcdbab331c6f06670f8db080fe17",
-   "sha256": "1ws45myz1ff5isr1mj64afkrvsx8pbl8wq0iqxlcilpck8qa6l8j"
+   "commit": "5aba772e562f0b22e36e34c9b4c256ffe439654c",
+   "sha256": "124x32dlpxfg1qb9ssvlnakakkzaz4wx9k5cv65fnhr9spl8d7j3"
   },
   "stable": {
    "version": [
@@ -65889,11 +65889,11 @@
   "repo": "llemaitre19/jtsx",
   "unstable": {
    "version": [
-    20240104,
-    2058
+    20240122,
+    1601
    ],
-   "commit": "f0a9aab366f3638bfa59e011a250d204c45324ba",
-   "sha256": "1cji8h9k9xi4fc1qszbb3amkyw4373yqzr7x0qq86n1av6bhg973"
+   "commit": "c62d1cd286b4af70693f300dde1dd00283cc2084",
+   "sha256": "1z3xhnnbhja4v0layn1fxx6myiinspvzrribg8ygww0zhcyjfl62"
   },
   "stable": {
    "version": [
@@ -68048,8 +68048,8 @@
   "repo": "abrochard/kubel",
   "unstable": {
    "version": [
-    20231231,
-    1805
+    20240124,
+    1624
    ],
    "deps": [
     "dash",
@@ -68057,8 +68057,8 @@
     "transient",
     "yaml-mode"
    ],
-   "commit": "f6858ccd1ee3fa247f4de78da46673ce8354146e",
-   "sha256": "1zca81dfww38j88v9nz987dfv864vsglp4np9y2sdm935ahgv4sh"
+   "commit": "f6f7df553a292742fd1a087a8cc50e43116a1f0d",
+   "sha256": "1w1pivachwdb3p2cs4g9k02a0ghxpwmdpq3k1vl3w30pm05ps3zg"
   },
   "stable": {
    "version": [
@@ -89536,11 +89536,11 @@
   "repo": "bastibe/org-static-blog",
   "unstable": {
    "version": [
-    20240104,
-    1438
+    20240124,
+    1550
    ],
-   "commit": "52911f8be31ff7dbc40fce6076fcd08e785a494d",
-   "sha256": "08n8xhy55z8bxaxif94qyq717bkmpvh9raixsz9wy20pygc3vlp5"
+   "commit": "6459a46bd40abbfe21095504d229db0f66494e86",
+   "sha256": "061xnx36j1bapq60vsvi47a1619ndg0kg0yvfqm9d8g4a1mvay1p"
   },
   "stable": {
    "version": [
@@ -113281,10 +113281,10 @@
  },
  {
   "ename": "srefactor",
-  "commit": "81f5e9b664efb6a686f52f210bf67970a994cbb6",
-  "sha256": "1m8sd8yi6zigh3hr9269dks2ln09lv70qib9lpnasc53wjjdpy2p",
+  "commit": "bc2db57a308db64656ccb1b1f31106d0fd71666a",
+  "sha256": "01cd40jm4h00c5q2ix7cskp7klbkcd3n5763y5lqfv59bjxwdqd2",
   "fetcher": "github",
-  "repo": "emacsattic/semantic-refactor",
+  "repo": "tuhdo/semantic-refactor",
   "unstable": {
    "version": [
     20230504,
@@ -113830,10 +113830,10 @@
  },
  {
   "ename": "stickyfunc-enhance",
-  "commit": "81f5e9b664efb6a686f52f210bf67970a994cbb6",
-  "sha256": "1y5q4pfz7855svin2024rf5pxz2hjfxq5d0i2gpqvj4by9w60g7b",
+  "commit": "bc2db57a308db64656ccb1b1f31106d0fd71666a",
+  "sha256": "13dh19c3bljs83l847syqlg07g33hz6sapg6j4s4xv4skix8zfks",
   "fetcher": "github",
-  "repo": "emacsattic/semantic-stickyfunc-enhance",
+  "repo": "tuhdo/semantic-stickyfunc-enhance",
   "unstable": {
    "version": [
     20150429,
@@ -118954,13 +118954,13 @@
   "unstable": {
    "version": [
     20240124,
-    1323
+    2106
    ],
    "deps": [
     "base32"
    ],
-   "commit": "15e19abec52c0875edec684881879f90577d4777",
-   "sha256": "0gcrfcm1w4ifaqi6kx82i49zbb46bsvz0m4a5qc3jjc2c6krkv4v"
+   "commit": "7e7e43535e0bd9fdf5d373780a47ee622526b9a3",
+   "sha256": "1jc3s3rp1950by7rk9kwr10j0gq0562dafj5mdajj87wg86vb6c9"
   },
   "stable": {
    "version": [
@@ -127903,10 +127903,10 @@
  },
  {
   "ename": "xwidgete",
-  "commit": "81f5e9b664efb6a686f52f210bf67970a994cbb6",
-  "sha256": "18h3n2y0dgvqknzfcsncj9mxw8vv4d3m0f3nf71wvglz880rgld2",
+  "commit": "bc2db57a308db64656ccb1b1f31106d0fd71666a",
+  "sha256": "1v1dfykkb6nwjwz2623i6x1rl53z4457l6fpa4nv4krdqq79gl5d",
   "fetcher": "github",
-  "repo": "emacsattic/xwidgete",
+  "repo": "tuhdo/xwidgete",
   "unstable": {
    "version": [
     20171118,
