@@ -2896,10 +2896,10 @@
       elpaBuild {
         pname = "slime";
         ename = "slime";
-        version = "2.29";
+        version = "2.29.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/slime-2.29.tar";
-          sha256 = "0nwcv4zb311j6ry8wvvacfzv11r6gxaisjqcb3vv4bip0vmx9mhj";
+          url = "https://elpa.nongnu.org/nongnu/slime-2.29.1.tar";
+          sha256 = "1ad9m0a9rbn0gmpwdvnr1l7km833hqy43wp6q3cwv7azmj2sc1r2";
         };
         packageRequires = [ emacs macrostep ];
         meta = {
