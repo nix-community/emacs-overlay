@@ -1034,10 +1034,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.2.0.20240123.70055";
+        version = "1.2.0.20240124.205957";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.2.0.20240123.70055.tar";
-          sha256 = "1hscnx4x44j4vwbfia1fz56vbjdvbv624gbd1lkyldr6bbg9wrmg";
+          url = "https://elpa.gnu.org/devel/consult-1.2.0.20240124.205957.tar";
+          sha256 = "1iqml7694l682bivwc4z2rpavw2vq89bfyhn8kiscggx6gc7ddpy";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1363,10 +1363,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.4.0.20240123.55939";
+        version = "2.2.4.0.20240125.45659";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240123.55939.tar";
-          sha256 = "0xq24lwzy3ryp7cqw4dgg7qsk2p50y6nya46hw63f5dwqvbvw8n7";
+          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240125.45659.tar";
+          sha256 = "1ah3wpjpz46wdsw9wl0aawr4rnw65wj1yw45nsjajxk04bncr32q";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1864,10 +1864,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.16.0.20240123.91004";
+        version = "1.16.0.20240125.13757";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.16.0.20240123.91004.tar";
-          sha256 = "1mkp1fhflqj6iaidn7s55h6h4dh07nx2v0869wd229382ps0q49p";
+          url = "https://elpa.gnu.org/devel/eglot-1.16.0.20240125.13757.tar";
+          sha256 = "0winxr5f115apb0w52xx921fjbapdgzafxv9wyq3rzc7f85znml1";
         };
         packageRequires = [
           eldoc
@@ -2042,10 +2042,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.14pre0.20240114.41124";
+        version = "0.14pre0.20240124.162915";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20240114.41124.tar";
-          sha256 = "1yssd281kjjbg0lam0lv7jdmfhr822c2g6jxl16ymw9nvbh3rnsy";
+          url = "https://elpa.gnu.org/devel/ement-0.14pre0.20240124.162915.tar";
+          sha256 = "127g675k6gp5c25a1qvk973p546p7dxx50396h6mf7wvw1d7da89";
         };
         packageRequires = [
           emacs
@@ -2140,10 +2140,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20240121.142806";
+        version = "5.6snapshot0.20240124.205832";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240121.142806.tar";
-          sha256 = "1yicxpbr7vf01bpsny2xl2853ncj8czb993l8xpw23h825ih2vqf";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240124.205832.tar";
+          sha256 = "0cdqgi63n0ys2jxrcjf1brxznqc0rqn0vaw8bhfdkkcv3qcinrbr";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6511,10 +6511,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.4.0snapshot0.20240124.100005";
+        version = "0.4.0snapshot0.20240124.145836";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.4.0snapshot0.20240124.100005.tar";
-          sha256 = "1bcfzsx329fcm17mgmnc5l124dsbkz6wxjihj0ayxfs8xbg4xak4";
+          url = "https://elpa.gnu.org/devel/urgrep-0.4.0snapshot0.20240124.145836.tar";
+          sha256 = "1bi6hvkpcdk3kjdzj14lndsyxhl2bcscx57ggl6wmix7ga0bc8za";
         };
         packageRequires = [ compat emacs project ];
         meta = {
