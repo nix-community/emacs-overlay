@@ -1034,10 +1034,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.2.0.20240128.222246";
+        version = "1.2.0.20240129.152527";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.2.0.20240128.222246.tar";
-          sha256 = "0ykb8yim79lviarnsf8jhbiy5gnx9qabwr3lhcr8vb0g3znirdb9";
+          url = "https://elpa.gnu.org/devel/consult-1.2.0.20240129.152527.tar";
+          sha256 = "17dipqf7mdym1fpcsdwj86736gbr5wwrmifgj5lvxmrq0yp43py3";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2156,10 +2156,10 @@
       elpaBuild {
         pname = "ergoemacs-mode";
         ename = "ergoemacs-mode";
-        version = "5.16.10.12.0.20230207.95118";
+        version = "5.16.10.12.0.20240129.80712";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ergoemacs-mode-5.16.10.12.0.20230207.95118.tar";
-          sha256 = "1gf8mn2g453kwgibpawj6gjmd707p33lfkx6dq9wba66zh4cgp4a";
+          url = "https://elpa.gnu.org/devel/ergoemacs-mode-5.16.10.12.0.20240129.80712.tar";
+          sha256 = "14ydcz8mhq9cy1ivxdyjslh83lxigqcqw8nb1f22g9ksxxxsz9fr";
         };
         packageRequires = [ cl-lib emacs nadvice ];
         meta = {
@@ -3192,10 +3192,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.2.0.20240122.225757";
+        version = "1.2.0.20240129.152453";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.2.0.20240122.225757.tar";
-          sha256 = "0c872vf0j7pm28smfs4x6gaw3qa419z3ih1644qajnf67cbjkv0a";
+          url = "https://elpa.gnu.org/devel/jinx-1.2.0.20240129.152453.tar";
+          sha256 = "0cqykfazzrjxkxp4fldff5kf9m3him8mbq0llqr9zan4n8rkw0yi";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4233,10 +4233,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240128.134541";
+        version = "9.7pre0.20240129.165642";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240128.134541.tar";
-          sha256 = "17c7xpcdv41mp1wdkxvm2lf7v7vw4dw5gw3ibid8v6fgy6vmszbc";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240129.165642.tar";
+          sha256 = "05i90w8glq1h2cdcyvafwk1b24p2bb77s1vi5yc19wvgfcza7wb3";
         };
         packageRequires = [ emacs ];
         meta = {
