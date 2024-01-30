@@ -30,6 +30,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    activities = callPackage ({ elpaBuild, emacs, fetchurl, lib, persist }:
+      elpaBuild {
+        pname = "activities";
+        ename = "activities";
+        version = "0.3";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/activities-0.3.tar";
+          sha256 = "006r6678mzn2wvk6d27mprl4l6ck55jibkmkgsmxkz2i2rfyflx9";
+        };
+        packageRequires = [ emacs persist ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/activities.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     ada-mode = callPackage ({ elpaBuild
                             , emacs
                             , fetchurl
