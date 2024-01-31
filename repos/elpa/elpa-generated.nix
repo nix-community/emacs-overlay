@@ -2857,6 +2857,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    jami-bot = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "jami-bot";
+        ename = "jami-bot";
+        version = "0.0.3";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/jami-bot-0.0.3.tar";
+          sha256 = "1znvk72xvfxhbmpd2x8ja38y2f5bn5b1fj6hxzspgwzrkhng748r";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/jami-bot.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     jarchive = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "jarchive";
@@ -5609,10 +5624,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.2.0";
+        version = "2.6.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.6.2.0.tar";
-          sha256 = "06wpaqjr3qw1424k9rh5i28yxrkzh1z5dczpgp7mpv823l2x8ip3";
+          url = "https://elpa.gnu.org/packages/tramp-2.6.2.1.tar";
+          sha256 = "145riknpdvw7rvpz20m766yci3w012f241mw38pbbb9cb8pn2rbf";
         };
         packageRequires = [ emacs ];
         meta = {
