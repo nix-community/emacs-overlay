@@ -760,10 +760,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.2.0.20240130.175007";
+        version = "1.2.0.20240130.230120";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.2.0.20240130.175007.tar";
-          sha256 = "06l1dbqknlkm32w87vbdvfn0flzg389z16zwr9vcdg0hmnx8c15l";
+          url = "https://elpa.gnu.org/devel/cape-1.2.0.20240130.230120.tar";
+          sha256 = "0znx1n3fg95x14z30q0rxhb8aqxn7xy7z6w1nin126kmpvrlrgii";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1836,10 +1836,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240115.0.20240125.170533";
+        version = "20240115.0.20240130.222853";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240115.0.20240125.170533.tar";
-          sha256 = "0rvvwabpc5b2iai1ivxrb3bqkwhysvz10g1ldlaq411yd78lgaic";
+          url = "https://elpa.gnu.org/devel/eev-20240115.0.20240130.222853.tar";
+          sha256 = "0538b40sfc94kqiwjga6asg1igjkzkw82r7n2smhd3gw2bbxbn0n";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2781,10 +2781,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.8.0.0.20240104.15357";
+        version = "0.8.2.0.20240131.45308";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.8.0.0.20240104.15357.tar";
-          sha256 = "1ajxykn6nvpv2bcqycq8q7vdb2n0k9lvkld7fzrxqy879z3c8sb7";
+          url = "https://elpa.gnu.org/devel/greader-0.8.2.0.20240131.45308.tar";
+          sha256 = "0x5nvnrdwb3lbfffriyjfw5c7y2a5wk9xwykb7pqs9asqwcpzvrf";
         };
         packageRequires = [ emacs ];
         meta = {
