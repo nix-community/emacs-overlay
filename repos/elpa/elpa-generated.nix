@@ -34,10 +34,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.3";
+        version = "0.3.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/activities-0.3.tar";
-          sha256 = "006r6678mzn2wvk6d27mprl4l6ck55jibkmkgsmxkz2i2rfyflx9";
+          url = "https://elpa.gnu.org/packages/activities-0.3.3.tar";
+          sha256 = "0n88hqy4f4ix1dgz3w28rl4lsq4bjkpb905fk94wzqgc3883p3jj";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -1968,10 +1968,10 @@
       elpaBuild {
         pname = "ess";
         ename = "ess";
-        version = "24.1.0";
+        version = "24.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ess-24.1.0.tar";
-          sha256 = "1fxwlij53rwwyp0c6jyq2w1idxqmf1n601nza0z2gczs8ppv2wrg";
+          url = "https://elpa.gnu.org/packages/ess-24.1.1.tar";
+          sha256 = "1gy1yp6svr8agv38rikmfcji570n80c8jqssrcrrgrq3a2k9j34h";
         };
         packageRequires = [ emacs ];
         meta = {
