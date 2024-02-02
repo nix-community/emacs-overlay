@@ -41,10 +41,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.4pre0.20240201.11318";
+        version = "0.4.0.20240201.202903";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/activities-0.4pre0.20240201.11318.tar";
-          sha256 = "00llgafjz6vrd07pfp9wkynkrydihqcs4ks60w5i44j1jkcxl20j";
+          url = "https://elpa.gnu.org/devel/activities-0.4.0.20240201.202903.tar";
+          sha256 = "150qs08wmkgfkyqvm3a9hjvv5lpa4slxnr2canq24aavyykv6jj3";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -492,10 +492,10 @@
       elpaBuild {
         pname = "bicep-ts-mode";
         ename = "bicep-ts-mode";
-        version = "0.1.1.0.20240201.190203";
+        version = "0.1.1.0.20240202.73552";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.1.0.20240201.190203.tar";
-          sha256 = "0gw3x2iacj5wp455cbp8p3ldb86m68rvwk4k1paxgxsm5ylkzd24";
+          url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.1.0.20240202.73552.tar";
+          sha256 = "0hm2jz1hd8kjb9hv58lc1h8095z6fklb2mpjga6dric182jxk071";
         };
         packageRequires = [];
         meta = {
@@ -1289,10 +1289,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.5.0.0.20240123.204017";
+        version = "0.5.0.0.20240201.235219";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.5.0.0.20240123.204017.tar";
-          sha256 = "054w5h98r1fn05056z9gz2qw8rdma5y0xqyz2nh5dz28hzhibs01";
+          url = "https://elpa.gnu.org/devel/dape-0.5.0.0.20240201.235219.tar";
+          sha256 = "148mddqbv4symiz5227j7bb6xla9wxhgbxw1cqcb8lrh9p0xv9z5";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -2086,10 +2086,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "18.0.20240118.163237";
+        version = "18.0.20240201.161318";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-18.0.20240118.163237.tar";
-          sha256 = "110fqr9kjn8g93906ij1gn8bzbwa77kfm3ksjmsgw1m1cl16dykw";
+          url = "https://elpa.gnu.org/devel/emms-18.0.20240201.161318.tar";
+          sha256 = "0mx0dbpg88gjpdp5y704pdq5qlr9cgandpyjjfwy97d46k2mia65";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -6366,10 +6366,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.5.3.0.20240131.161244";
+        version = "0.5.3.0.20240201.110006";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.5.3.0.20240131.161244.tar";
-          sha256 = "04hr284clqfrwyp8lkpa9dvmk67bmil6kw185czwx2x541vigwx5";
+          url = "https://elpa.gnu.org/devel/transient-0.5.3.0.20240201.110006.tar";
+          sha256 = "07hg1bas7zvs6hxq189wp5ngi71skydal2h6q4xsv28ac7mi268g";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -6437,10 +6437,10 @@
       elpaBuild {
         pname = "triples";
         ename = "triples";
-        version = "0.3.5.0.20240130.111902";
+        version = "0.3.5.0.20240201.233852";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/triples-0.3.5.0.20240130.111902.tar";
-          sha256 = "0sj4xrma1hkarkj9fw26ynw8bcnfv1wghv1pbcg8310ik2dznsh8";
+          url = "https://elpa.gnu.org/devel/triples-0.3.5.0.20240201.233852.tar";
+          sha256 = "0fbm6f5xxixmmi1fywada5k1kgbh8ab0vsick8l0d1g5pm33c4x7";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -6799,10 +6799,10 @@
       elpaBuild {
         pname = "vertico-posframe";
         ename = "vertico-posframe";
-        version = "0.7.6.0.20240103.60535";
+        version = "0.7.7.0.20240202.84736";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.6.0.20240103.60535.tar";
-          sha256 = "1f8xrnqh93d49qz65hkfqnjg6zylri5my5gk45aa7qd508cqspx0";
+          url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.7.0.20240202.84736.tar";
+          sha256 = "0nx5lqkss2ya06c95apbmdii2rnidbhnywzyqs2mr2fyvlv1azwp";
         };
         packageRequires = [ emacs posframe vertico ];
         meta = {
