@@ -1768,10 +1768,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.7.4";
+        version = "0.7.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.7.4.tar";
-          sha256 = "0xpavi6kqrimgxyhpqlp1kkgisswkarm35s1b40938i70cyy3157";
+          url = "https://elpa.gnu.org/packages/ellama-0.7.6.tar";
+          sha256 = "0j4dnabws1grqwz87v7r5qw13qkfq42x80hi78r921d54wk4j0x2";
         };
         packageRequires = [ dash emacs llm spinner ];
         meta = {
@@ -3151,10 +3151,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.9.0";
+        version = "0.9.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/llm-0.9.0.tar";
-          sha256 = "16sin4l2wgwvzx0a4bjksv2g93ayfcamvjfan6hmflfmc0sd5s7v";
+          url = "https://elpa.gnu.org/packages/llm-0.9.1.tar";
+          sha256 = "0vib0zl41fsacc5d79f1l52j2vxnbqc37471b86cxw9rha0clr8m";
         };
         packageRequires = [ emacs ];
         meta = {
