@@ -1879,10 +1879,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240126.180451";
+        version = "1.17.0.20240203.64953";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240126.180451.tar";
-          sha256 = "0lvym8bc87yj1q5j53q7hpxayzv8zvfnwrs60ga7c2jixzm8r1xd";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240203.64953.tar";
+          sha256 = "0z065558906rm9zm0q1ygr1w5jpwprk9fylkdm81wnbv8jzg86qp";
         };
         packageRequires = [
           eldoc
@@ -1978,10 +1978,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.7.2.0.20240129.81337";
+        version = "0.7.4.0.20240203.195859";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.7.2.0.20240129.81337.tar";
-          sha256 = "0lcjy7q6f8c78zni85vnm4kq1w0kr2r4ff2by550dgx49f233spm";
+          url = "https://elpa.gnu.org/devel/ellama-0.7.4.0.20240203.195859.tar";
+          sha256 = "10h44skw358glzi9z6k5344snxl8gfayplqp1qgsqry221hj94h2";
         };
         packageRequires = [ dash emacs llm spinner ];
         meta = {
@@ -3163,10 +3163,10 @@
       elpaBuild {
         pname = "jami-bot";
         ename = "jami-bot";
-        version = "0.0.3.0.20240120.144422";
+        version = "0.0.4.0.20240203.101753";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jami-bot-0.0.3.0.20240120.144422.tar";
-          sha256 = "1h51jp2qhxf2kbycr55c4ypz4chbhj7bzracq7c46xdznymciba0";
+          url = "https://elpa.gnu.org/devel/jami-bot-0.0.4.0.20240203.101753.tar";
+          sha256 = "0c5lf8h8102anr6hqw6j58k7pxj046abaxfigp49snapapk2h6sv";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3477,10 +3477,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.9.0.0.20240127.230900";
+        version = "0.9.0.0.20240203.150426";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.9.0.0.20240127.230900.tar";
-          sha256 = "1p6c05x57ir1vl4h035z68sj6yn6x0g82yy4r1f6c2yvm98q5ang";
+          url = "https://elpa.gnu.org/devel/llm-0.9.0.0.20240203.150426.tar";
+          sha256 = "0wi166lahqlhi2ckr0nbpv1252di0spqf2f6y9x3y6yb1x5wpllm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4270,10 +4270,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240202.200130";
+        version = "9.7pre0.20240203.145841";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240202.200130.tar";
-          sha256 = "1bcb7vg39yixrs5xlxnk4dqxyxj6kp4l9gqs0pkvfy6rzps92igw";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240203.145841.tar";
+          sha256 = "14c1yjpq50kfrkm8fas5rsw9irdiw29ndxi26y81hq30yhlb71qz";
         };
         packageRequires = [ emacs ];
         meta = {

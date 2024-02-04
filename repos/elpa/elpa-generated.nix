@@ -1768,10 +1768,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.7.2";
+        version = "0.7.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.7.2.tar";
-          sha256 = "19580lvs70j75azkxja53isypvzwgr444n4nhxfj5hiq9smj2xj3";
+          url = "https://elpa.gnu.org/packages/ellama-0.7.4.tar";
+          sha256 = "0xpavi6kqrimgxyhpqlp1kkgisswkarm35s1b40938i70cyy3157";
         };
         packageRequires = [ dash emacs llm spinner ];
         meta = {
@@ -2861,10 +2861,10 @@
       elpaBuild {
         pname = "jami-bot";
         ename = "jami-bot";
-        version = "0.0.3";
+        version = "0.0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jami-bot-0.0.3.tar";
-          sha256 = "1znvk72xvfxhbmpd2x8ja38y2f5bn5b1fj6hxzspgwzrkhng748r";
+          url = "https://elpa.gnu.org/packages/jami-bot-0.0.4.tar";
+          sha256 = "1gspzqxznqskc008bcix2fyg1brr3xzxzbqx18q4cy4mz0vm8h1b";
         };
         packageRequires = [ emacs ];
         meta = {
