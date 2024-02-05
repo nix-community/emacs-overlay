@@ -760,10 +760,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.2.0.20240130.230120";
+        version = "1.2.0.20240204.221349";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.2.0.20240130.230120.tar";
-          sha256 = "0znx1n3fg95x14z30q0rxhb8aqxn7xy7z6w1nin126kmpvrlrgii";
+          url = "https://elpa.gnu.org/devel/cape-1.2.0.20240204.221349.tar";
+          sha256 = "00swdi468irr6bygbi8nxr3cdmqwb807pn3sa74j97s5sxis0r86";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1836,10 +1836,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240115.0.20240201.101218";
+        version = "20240115.0.20240205.2844";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240115.0.20240201.101218.tar";
-          sha256 = "0j423cflngmrvzrlvlm3j4k25niyjpxyyxh57s9h862ipk0lpy69";
+          url = "https://elpa.gnu.org/devel/eev-20240115.0.20240205.2844.tar";
+          sha256 = "1zjhn7g43znfvbkcs4x79k5n0l2laf1h1br0v9y4yyd0w66pvj8g";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2287,10 +2287,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.28.0.20240204.124933";
+        version = "0.28.0.20240204.213906";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240204.124933.tar";
-          sha256 = "0wwm2h5wyc312rm2lww7kf44irddvsrawg8nldp9camq3rg78bzf";
+          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240204.213906.tar";
+          sha256 = "03gzw3p6hjf51skmw1is16iwam5ag7jh0d930yd06miwnmj8bxrh";
         };
         packageRequires = [ emacs xelb ];
         meta = {
