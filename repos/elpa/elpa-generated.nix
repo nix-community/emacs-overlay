@@ -3880,10 +3880,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.17";
+        version = "9.6.18";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.17.tar";
-          sha256 = "1gnm9hja2p93l0h5dz86035jh37wkngw7kk4bpgbzjlv74wih1jb";
+          url = "https://elpa.gnu.org/packages/org-9.6.18.tar";
+          sha256 = "05z7q185mvzamxzsjrkj0cngl2b978z7ja1lyp5gl29vsbd7srg2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3918,6 +3918,21 @@
         packageRequires = [ emacs org seq ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/org-edna.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    org-jami-bot = callPackage ({ elpaBuild, emacs, fetchurl, jami-bot, lib }:
+      elpaBuild {
+        pname = "org-jami-bot";
+        ename = "org-jami-bot";
+        version = "0.0.5";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/org-jami-bot-0.0.5.tar";
+          sha256 = "0nh0sp1l8hn568n6j11nkl42rm6b3gbjwi3lsf6vanr0lzvrl58r";
+        };
+        packageRequires = [ emacs jami-bot ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-jami-bot.html";
           license = lib.licenses.free;
         };
       }) {};
