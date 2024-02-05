@@ -47,7 +47,7 @@ let
   packages = parse.parsePackagesFromUsePackage {
     inherit configText isOrgModeFile alwaysTangle alwaysEnsure;
   };
-  emacsPackages = (pkgs.emacsPackagesFor package).overrideScope' (self: super:
+  emacsPackages = (pkgs.emacsPackagesFor package).overrideScope (self: super:
     # for backward compatibility: override was a function with one parameter
     if builtins.isFunction (override super)
     then override self super

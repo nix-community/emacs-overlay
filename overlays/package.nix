@@ -1,7 +1,7 @@
 self: super:
 {
   emacsPackagesFor = emacs: (
-    (super.emacsPackagesFor emacs).overrideScope' (
+    (super.emacsPackagesFor emacs).overrideScope (
       eself: esuper:
         let
           melpaStablePackages = esuper.melpaStablePackages.override {
