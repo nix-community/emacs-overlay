@@ -1064,6 +1064,25 @@
           license = lib.licenses.free;
         };
       }) {};
+    consult-hoogle = callPackage ({ elpaBuild
+                                  , emacs
+                                  , fetchurl
+                                  , haskell-mode
+                                  , lib }:
+      elpaBuild {
+        pname = "consult-hoogle";
+        ename = "consult-hoogle";
+        version = "0.0.1.0.20240205.210806";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/consult-hoogle-0.0.1.0.20240205.210806.tar";
+          sha256 = "0c38z0vh2vk9bsgxksbrkv8nf8kp0x5spb6c1agbzpc81njn8n69";
+        };
+        packageRequires = [ emacs haskell-mode ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/consult-hoogle.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     consult-recoll = callPackage ({ consult
                                   , elpaBuild
                                   , emacs
@@ -1382,10 +1401,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.4.0.20240205.94103";
+        version = "2.2.4.0.20240206.53351";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240205.94103.tar";
-          sha256 = "097wfck9qc8cyz5jbhvwqgpv1ci3cbc90pcxn2mhlv6a93cfp28q";
+          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240206.53351.tar";
+          sha256 = "0b1l5fdhslm6g4gdc7jvkdagz2lzxiaa9nkds2417ygwsi581mp4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2011,10 +2030,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "1.0.0.20240205.133801";
+        version = "1.0.0.20240205.152225";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-1.0.0.20240205.133801.tar";
-          sha256 = "0a59d1w4bcysry80dvlrfpwd8x8jc370w5an5wl33safz4p7zg1y";
+          url = "https://elpa.gnu.org/devel/embark-1.0.0.20240205.152225.tar";
+          sha256 = "1rs0avcillckkqbxbx690pcd7jq6s4ynjg2n6jp3rb3ndkdajnbv";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2032,10 +2051,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "1.0.0.20240205.133801";
+        version = "1.0.0.20240205.152225";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-1.0.0.20240205.133801.tar";
-          sha256 = "1y2lpywlbaphdcrkpf9mxv1kwj6vmyd5inly363v0zhv50s57q6x";
+          url = "https://elpa.gnu.org/devel/embark-consult-1.0.0.20240205.152225.tar";
+          sha256 = "0zmr4pip9paj17y7gch0g3jh7h0i7ghhspnkxwmcbcx7n4id7p1v";
         };
         packageRequires = [ compat consult emacs embark ];
         meta = {
@@ -2057,10 +2076,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.15pre0.20240126.232546";
+        version = "0.15pre0.20240206.21358";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.15pre0.20240126.232546.tar";
-          sha256 = "0hs3q51gda0ifclffm7dr2l4r6s5bqlz4pwivd6ya1z82fidpw5w";
+          url = "https://elpa.gnu.org/devel/ement-0.15pre0.20240206.21358.tar";
+          sha256 = "0ff4mcd210kn06hp42rh4kmx4xnvmpniym5150prr8m7d3rvyji9";
         };
         packageRequires = [
           emacs
@@ -2331,6 +2350,25 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/face-shift.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    filechooser = callPackage ({ compat
+                               , elpaBuild
+                               , emacs
+                               , fetchurl
+                               , lib }:
+      elpaBuild {
+        pname = "filechooser";
+        ename = "filechooser";
+        version = "0.0.1.0.20240205.213114";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/filechooser-0.0.1.0.20240205.213114.tar";
+          sha256 = "13rzaigczkakv2nl91ll0qis1l7dxjj39mxij6511pbcbm9d980y";
+        };
+        packageRequires = [ compat emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/filechooser.html";
           license = lib.licenses.free;
         };
       }) {};
