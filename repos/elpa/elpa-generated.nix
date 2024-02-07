@@ -933,6 +933,25 @@
           license = lib.licenses.free;
         };
       }) {};
+    consult-hoogle = callPackage ({ elpaBuild
+                                  , emacs
+                                  , fetchurl
+                                  , haskell-mode
+                                  , lib }:
+      elpaBuild {
+        pname = "consult-hoogle";
+        ename = "consult-hoogle";
+        version = "0.1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/consult-hoogle-0.1.0.tar";
+          sha256 = "12y2lv1bvjdx1bdfb80px314diqj87li4jjm2cclafixr38ybrwh";
+        };
+        packageRequires = [ emacs haskell-mode ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/consult-hoogle.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     consult-recoll = callPackage ({ consult, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "consult-recoll";
@@ -2098,6 +2117,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/face-shift.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    filechooser = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "filechooser";
+        ename = "filechooser";
+        version = "0.1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/filechooser-0.1.0.tar";
+          sha256 = "0rfnj1zngbafrckyfi11jqg4j8lnhq2wnvz1x78bhj4xh7rabkaa";
+        };
+        packageRequires = [ compat emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/filechooser.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -4086,16 +4120,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    pabbrev = callPackage ({ elpaBuild, fetchurl, lib }:
+    pabbrev = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "pabbrev";
         ename = "pabbrev";
-        version = "4.2.2";
+        version = "4.2.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pabbrev-4.2.2.tar";
-          sha256 = "0iydz8yz866krxv1qv32k88w4464xpymh0wxgrxv6nvniwvhvd0s";
+          url = "https://elpa.gnu.org/packages/pabbrev-4.2.3.tar";
+          sha256 = "0hm37sfvv7vkww8dvnq2vb1l7ngfxcl7z0vnhiilif544lv2ihh6";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/pabbrev.html";
           license = lib.licenses.free;
