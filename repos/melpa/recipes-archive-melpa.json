@@ -9712,8 +9712,8 @@
   "repo": "alphapapa/bufler.el",
   "unstable": {
    "version": [
-    20231220,
-    1307
+    20240206,
+    1703
    ],
    "deps": [
     "burly",
@@ -9723,8 +9723,8 @@
     "map",
     "pretty-hydra"
    ],
-   "commit": "ff0d371b853a65943ccd3546fe947d407cd2e28a",
-   "sha256": "1hl9cy7ldfv9gmp3xvykz3a2j5rw90zjr3vk6srsl7akc0la4n4n"
+   "commit": "703b09ca6632555b67cc7125fa17127045c72b74",
+   "sha256": "05dcnzj8ldq9xm24qfbgmrzfy1a1hx9x4vjr03a0lipf7p1vmkp0"
   },
   "stable": {
    "version": [
@@ -34116,19 +34116,19 @@
   "unstable": {
    "version": [
     20240131,
-    1037
+    1041
    ],
-   "commit": "d8472e00da8fde3224d4512641093b526601af39",
-   "sha256": "094pwdzklzqk9gvf7z9phaxbwvw8hpghk2q05zrdyxjr4rmvq9bc"
+   "commit": "ab2faeca1ba6c456333312c58f58ef9e5ef4aa8b",
+   "sha256": "0jfdfqpa3x1zm65cllkzhqir057xd3hxi4z2ddii1i26zy56iikf"
   },
   "stable": {
    "version": [
     24,
     1,
-    0
+    1
    ],
-   "commit": "0ef7e6878f47d2492a371be5947e895c4b3dfeb8",
-   "sha256": "10j315plrpl4yax2srv9r2l7kdr0qqz8h3g2n4s7c1rhpzpfgyh2"
+   "commit": "ab2faeca1ba6c456333312c58f58ef9e5ef4aa8b",
+   "sha256": "0jfdfqpa3x1zm65cllkzhqir057xd3hxi4z2ddii1i26zy56iikf"
   }
  },
  {
@@ -44673,8 +44673,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20240204,
-    2302
+    20240206,
+    2125
    ],
    "deps": [
     "closql",
@@ -44689,8 +44689,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "b16b6ec4f7612f5a8fc6d50133cc6189f062c183",
-   "sha256": "1brnnnis1n8ynhfir8nrs025vkfa10dmsgygq3ihxp97lfmiay2m"
+   "commit": "3fc6c362b0162082317c128c9c3226529f6965ae",
+   "sha256": "0904y6plwd0a754f0pg0xjwm0rprydbf22ws99k641wjl68xgk5a"
   },
   "stable": {
    "version": [
@@ -67487,28 +67487,28 @@
   "repo": "khoj-ai/khoj",
   "unstable": {
    "version": [
-    20240129,
-    1235
+    20240206,
+    1739
    ],
    "deps": [
     "dash",
     "transient"
    ],
-   "commit": "da854703aa7808ff6a03c8e32c0023fba94cc079",
-   "sha256": "0p8djpfmwlaj8640g4rnfkrc2yvilaz4v26z9lybm5q5wy2z180d"
+   "commit": "8e5db721408958938e59f2a138760481117363af",
+   "sha256": "105dl68hpsxhs3sci8ffsjmqk550zly9jqy33kpy7dhwjspsbap2"
   },
   "stable": {
    "version": [
     1,
     5,
-    0
+    1
    ],
    "deps": [
     "dash",
     "transient"
    ],
-   "commit": "da854703aa7808ff6a03c8e32c0023fba94cc079",
-   "sha256": "0p8djpfmwlaj8640g4rnfkrc2yvilaz4v26z9lybm5q5wy2z180d"
+   "commit": "8e5db721408958938e59f2a138760481117363af",
+   "sha256": "105dl68hpsxhs3sci8ffsjmqk550zly9jqy33kpy7dhwjspsbap2"
   }
  },
  {
@@ -73224,8 +73224,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20240125,
-    1835
+    20240207,
+    0
    ],
    "deps": [
     "compat",
@@ -73236,8 +73236,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "54d37dc14c3f715dd0328a70bc65d63c54ee9613",
-   "sha256": "1h7iylrlgyz3i52vbrxrr7a2lna26ky496r76i15fz4znvzd1wq1"
+   "commit": "4e65de8d775b44c2fe2f5c9b034c6c423d0e7c23",
+   "sha256": "1ik4y605j0kqpf1grfccw5j25kabdb2wc386g0xdr2wfn19lfi9v"
   },
   "stable": {
    "version": [
@@ -79277,14 +79277,14 @@
   "repo": "zevlg/multitran.el",
   "unstable": {
    "version": [
-    20230920,
-    2009
+    20240206,
+    1617
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "285b625b5e94f5dd960cb4a3292407aa7568073e",
-   "sha256": "0br5gy1jxanj7sjvrhqgni6bfins6nr79pccyjibqc8ca29zvgsz"
+   "commit": "680f31d15b78876daf484bd926e5c172ab061595",
+   "sha256": "1x49n73faqmw5gkyrfyb4gxvnd6ql6a2xlxsvb4q4v0yl3jsxrn4"
   },
   "stable": {
    "version": [
@@ -92884,11 +92884,11 @@
   "repo": "phillord/pabbrev",
   "unstable": {
    "version": [
-    20240204,
-    1740
+    20240206,
+    1640
    ],
-   "commit": "aa1cb9d8f51a8d18167a37db160f9b878d201fe1",
-   "sha256": "0g9cynjxcp7y6r0xc1i2vfgg7nbzb34638466f5gj8rhg5spmhmr"
+   "commit": "7869017d6275bf20ed022d4bbf4aca1c21ea580f",
+   "sha256": "0j6fx3qnfda79hskq240l2c29g9b0akz6p6mps2jn2x25d4q6ibx"
   },
   "stable": {
    "version": [
@@ -107608,14 +107608,14 @@
   "repo": "captainflasmr/selected-window-accent-mode",
   "unstable": {
    "version": [
-    20240129,
-    2125
+    20240206,
+    2132
    ],
    "deps": [
     "visual-fill-column"
    ],
-   "commit": "3c1c1a019261b585e50776c6cdca136f451f15ac",
-   "sha256": "0ljnawf0mvk1wp47d8yyc0nahvd1kb4dvhxgj8i0cbh4pp1qfb1f"
+   "commit": "5f639bd761b9e69ff708c4401e9ca59b05a67b8f",
+   "sha256": "1dcj36qbp7rhzahbfjnsqk8215x2566bsc6xm95j97p9c576ikl6"
   },
   "stable": {
    "version": [
