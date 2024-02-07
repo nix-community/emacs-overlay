@@ -1064,7 +1064,8 @@
           license = lib.licenses.free;
         };
       }) {};
-    consult-hoogle = callPackage ({ elpaBuild
+    consult-hoogle = callPackage ({ consult
+                                  , elpaBuild
                                   , emacs
                                   , fetchurl
                                   , haskell-mode
@@ -1072,12 +1073,12 @@
       elpaBuild {
         pname = "consult-hoogle";
         ename = "consult-hoogle";
-        version = "0.1.0.0.20240206.192822";
+        version = "0.1.1.0.20240207.80608";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-hoogle-0.1.0.0.20240206.192822.tar";
-          sha256 = "1apknlf8ghimj663rrwszfxlybdmsw41kadjkk4x7j6rcw33dmga";
+          url = "https://elpa.gnu.org/devel/consult-hoogle-0.1.1.0.20240207.80608.tar";
+          sha256 = "0vwhhw03g3s2hvsjdj0mdrgqij2y5qix71fqpphkfp7hknavmcf7";
         };
-        packageRequires = [ emacs haskell-mode ];
+        packageRequires = [ consult emacs haskell-mode ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/consult-hoogle.html";
           license = lib.licenses.free;
@@ -1308,10 +1309,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.5.0.0.20240202.115007";
+        version = "0.5.0.0.20240206.220515";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.5.0.0.20240202.115007.tar";
-          sha256 = "03kpf3p0f8900gi7p5anq48i628rh5f3is9xwd14pbc88mx82294";
+          url = "https://elpa.gnu.org/devel/dape-0.5.0.0.20240206.220515.tar";
+          sha256 = "19wq1gs8xapx5jq5ny2f338mffjxivgkvrrbxrsz26bm3f5n253i";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -2361,10 +2362,10 @@
       elpaBuild {
         pname = "filechooser";
         ename = "filechooser";
-        version = "0.1.0.0.20240206.193014";
+        version = "0.1.1.0.20240206.212720";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/filechooser-0.1.0.0.20240206.193014.tar";
-          sha256 = "1hclia6488840swm4bm7ig5qkbmjrk7zajyz3y95098lj8i2w8pd";
+          url = "https://elpa.gnu.org/devel/filechooser-0.1.1.0.20240206.212720.tar";
+          sha256 = "1wq177zf5n1azhml6mdnjc9nh2lmmrh8acnfanzx72ly4yfn4i8l";
         };
         packageRequires = [ compat emacs ];
         meta = {

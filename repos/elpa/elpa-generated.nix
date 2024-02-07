@@ -933,7 +933,8 @@
           license = lib.licenses.free;
         };
       }) {};
-    consult-hoogle = callPackage ({ elpaBuild
+    consult-hoogle = callPackage ({ consult
+                                  , elpaBuild
                                   , emacs
                                   , fetchurl
                                   , haskell-mode
@@ -941,12 +942,12 @@
       elpaBuild {
         pname = "consult-hoogle";
         ename = "consult-hoogle";
-        version = "0.1.0";
+        version = "0.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-hoogle-0.1.0.tar";
-          sha256 = "12y2lv1bvjdx1bdfb80px314diqj87li4jjm2cclafixr38ybrwh";
+          url = "https://elpa.gnu.org/packages/consult-hoogle-0.1.1.tar";
+          sha256 = "1bcl7h5ykcgrsfj27wkv9l9jvbj2bbkh0w9d60663m1bkp0p3y2r";
         };
-        packageRequires = [ emacs haskell-mode ];
+        packageRequires = [ consult emacs haskell-mode ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/consult-hoogle.html";
           license = lib.licenses.free;
@@ -2124,10 +2125,10 @@
       elpaBuild {
         pname = "filechooser";
         ename = "filechooser";
-        version = "0.1.0";
+        version = "0.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/filechooser-0.1.0.tar";
-          sha256 = "0rfnj1zngbafrckyfi11jqg4j8lnhq2wnvz1x78bhj4xh7rabkaa";
+          url = "https://elpa.gnu.org/packages/filechooser-0.1.1.tar";
+          sha256 = "1dnrbqasmb21ch4b8jcbr9zhx5iqiqrfy1h43g3pabakfddnjsl8";
         };
         packageRequires = [ compat emacs ];
         meta = {
