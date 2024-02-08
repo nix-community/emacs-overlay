@@ -3519,10 +3519,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.9.1.0.20240203.181609";
+        version = "0.9.1.0.20240207.224339";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.9.1.0.20240203.181609.tar";
-          sha256 = "0sw579rhwylvc22j4v36sma8rzy9yxaq4d6zgq6as6cjhhihlyxk";
+          url = "https://elpa.gnu.org/devel/llm-0.9.1.0.20240207.224339.tar";
+          sha256 = "0z8v80h2i5d8ma8kfgyda3z9d3m9bqsyqg430hz9pa1ffsxm318x";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4561,17 +4561,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    pabbrev = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    pabbrev = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "pabbrev";
         ename = "pabbrev";
-        version = "4.2.3.0.20240206.164002";
+        version = "4.3.0.0.20240208.83050";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pabbrev-4.2.3.0.20240206.164002.tar";
-          sha256 = "1lxww332r8m2fz84hjfji6qxv6zllvwxgqypvzbbp7dqy8wljjkj";
+          url = "https://elpa.gnu.org/devel/pabbrev-4.3.0.0.20240208.83050.tar";
+          sha256 = "1jgxf80xnk7jbmack3hgynkpwn5a0i5zkwwyyf5dlqp7s26rch3k";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5108,6 +5105,24 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/rcirc-menu.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    rcirc-sqlite = callPackage ({ elpaBuild
+                                , emacs
+                                , fetchurl
+                                , lib }:
+      elpaBuild {
+        pname = "rcirc-sqlite";
+        ename = "rcirc-sqlite";
+        version = "0.1.0.20240203.160505";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/rcirc-sqlite-0.1.0.20240203.160505.tar";
+          sha256 = "16vxm293ck93d52d69qh0h6l3wsxjbxq2xdnmmcgrizxcld99267";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/rcirc-sqlite.html";
           license = lib.licenses.free;
         };
       }) {};

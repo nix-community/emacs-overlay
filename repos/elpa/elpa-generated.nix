@@ -4125,10 +4125,10 @@
       elpaBuild {
         pname = "pabbrev";
         ename = "pabbrev";
-        version = "4.2.3";
+        version = "4.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/pabbrev-4.2.3.tar";
-          sha256 = "0hm37sfvv7vkww8dvnq2vb1l7ngfxcl7z0vnhiilif544lv2ihh6";
+          url = "https://elpa.gnu.org/packages/pabbrev-4.3.0.tar";
+          sha256 = "0a54ld80s0r9zrc2kd861p4ii3jzqhxykzcnvi64fhxxg3x2aggx";
         };
         packageRequires = [ emacs ];
         meta = {
