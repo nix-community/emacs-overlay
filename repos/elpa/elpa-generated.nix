@@ -280,10 +280,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "13.3.0";
+        version = "14.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-13.3.0.tar";
-          sha256 = "09yc9242xya2by8z72899li7zc9g23bb8j8m30kbvivynmdfhzkf";
+          url = "https://elpa.gnu.org/packages/auctex-14.0.0.tar";
+          sha256 = "1972qwk2c79c0rly9n02ydnp8m2waaianzhx95xi43imvi42d4y7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -644,10 +644,10 @@
       elpaBuild {
         pname = "calibre";
         ename = "calibre";
-        version = "1.4.0";
+        version = "1.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/calibre-1.4.0.tar";
-          sha256 = "1p3sla0j9v1d42z2amwb3hk2gs80ld50nxm1bfi30vdh563cfz4q";
+          url = "https://elpa.gnu.org/packages/calibre-1.4.1.tar";
+          sha256 = "1wjz4d2hrhwcd9ljngygacxm28ddgwndp9krz5cxhjz2dkhs1pgb";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1212,10 +1212,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.38";
+        version = "0.39";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/debbugs-0.38.tar";
-          sha256 = "0cl6vcnlyanrl3qzhd31pw9qvij6g88cgifl3mwgw54bbagl9hh6";
+          url = "https://elpa.gnu.org/packages/debbugs-0.39.tar";
+          sha256 = "135n5lv76cgmriz8pp5fzmcc5kq6hqqjhwp45353grh4rrv14dl2";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
