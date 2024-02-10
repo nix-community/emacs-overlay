@@ -333,10 +333,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.0.0.20240208.115629";
+        version = "14.0.2.0.20240209.161258";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.0.0.20240208.115629.tar";
-          sha256 = "0gdby7xj0rwll21wyx3n929lkj4rqvjgrj8s8vfxzk1fy6m6s9cc";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.2.0.20240209.161258.tar";
+          sha256 = "0fkfg2b03sb99k5b289737avs4cy4yrk91nb6pylb3wj5i9mdb9g";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -474,14 +474,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    beframe = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    beframe = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "1.0.0.0.20240117.23842";
+        version = "1.0.0.0.20240209.140116";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/beframe-1.0.0.0.20240117.23842.tar";
-          sha256 = "00kg149zidzb76ibal2wsja7md9yiiw4mghybdwwf8h783vpb1qb";
+          url = "https://elpa.gnu.org/devel/beframe-1.0.0.0.20240209.140116.tar";
+          sha256 = "0hkmbmdhfynp0wjl5szppryaa700w8x6hpq5a2vslpl4vnh47hyf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -759,10 +762,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.2.0.20240204.221349";
+        version = "1.2.0.20240209.191120";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.2.0.20240204.221349.tar";
-          sha256 = "00swdi468irr6bygbi8nxr3cdmqwb807pn3sa74j97s5sxis0r86";
+          url = "https://elpa.gnu.org/devel/cape-1.2.0.20240209.191120.tar";
+          sha256 = "0lfwsnchyyi7qxv3017r49vmd2q671355h9ra4x3jsk8nv7bg2xf";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4308,10 +4311,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240208.191651";
+        version = "9.7pre0.20240209.203254";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240208.191651.tar";
-          sha256 = "1kpixh2mk79sk1j7wxwff58mfrg3f4wf4rphij2n24x6hzn83m4p";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240209.203254.tar";
+          sha256 = "172vbwvbh6h3adiqq39k8y42za65dwm2gkrzp69yffl6zy77jg12";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4557,14 +4560,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    pabbrev = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    pabbrev = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "pabbrev";
         ename = "pabbrev";
-        version = "4.3.0.0.20240208.83050";
+        version = "4.3.0.0.20240208.213625";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pabbrev-4.3.0.0.20240208.83050.tar";
-          sha256 = "1jgxf80xnk7jbmack3hgynkpwn5a0i5zkwwyyf5dlqp7s26rch3k";
+          url = "https://elpa.gnu.org/devel/pabbrev-4.3.0.0.20240208.213625.tar";
+          sha256 = "13czf94rna06pd6p43lc6z01s5pvb0nw8swpqqs24h7dq4rrs1d9";
         };
         packageRequires = [ emacs ];
         meta = {
