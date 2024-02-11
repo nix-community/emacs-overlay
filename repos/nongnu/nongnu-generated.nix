@@ -182,6 +182,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    base32 = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "base32";
+        ename = "base32";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/base32-1.0.tar";
+          sha256 = "02n227xwg621zh4na5lx8xh5q6zldq0hwwfzc4wkgfg2jb83n4g8";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/base32.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     bash-completion = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "bash-completion";
@@ -2075,10 +2090,10 @@
       elpaBuild {
         pname = "meow";
         ename = "meow";
-        version = "1.4.4";
+        version = "1.4.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/meow-1.4.4.tar";
-          sha256 = "013nmc0jcvwfh6s1l59kld8393ld4sy5icbah9hzd0chj6l72mgh";
+          url = "https://elpa.nongnu.org/nongnu/meow-1.4.5.tar";
+          sha256 = "0r1rmhmwgxl7q2rvjf8byc0ass00k3m87sn6sw9chip5cgd5g6gm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3210,6 +3225,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/toc-org.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    totp-auth = callPackage ({ base32, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "totp-auth";
+        ename = "totp-auth";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/totp-auth-1.0.tar";
+          sha256 = "0j5rr026n57crizrw4q4yi7q6psdw5qzfcby4slkrlz4yg58mpk3";
+        };
+        packageRequires = [ base32 emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/totp-auth.html";
           license = lib.licenses.free;
         };
       }) {};
