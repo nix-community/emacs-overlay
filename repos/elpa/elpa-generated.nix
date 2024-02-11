@@ -415,10 +415,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "1.0.0";
+        version = "1.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/beframe-1.0.0.tar";
-          sha256 = "0fw0nsdp78x194gkscwfyayq51yfb8r4k0q51ia1rnj43kxmmvr9";
+          url = "https://elpa.gnu.org/packages/beframe-1.0.1.tar";
+          sha256 = "0j4ks5i67ck1cid6whvwq564s94xb0q5fchb006wzbniy1inwcna";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1152,10 +1152,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.5.0";
+        version = "0.6.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dape-0.5.0.tar";
-          sha256 = "1pgrlgk1wf35afgfcbm256ikixk2r6rbkc05iwsr6x6l9y3h0v3w";
+          url = "https://elpa.gnu.org/packages/dape-0.6.0.tar";
+          sha256 = "1qmsfpqg3diz79l6hfkngdk664v4ydaz78kiib9h331lca560mxb";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1668,10 +1668,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.5.0";
+        version = "1.5.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-1.5.0.tar";
-          sha256 = "1jckhizsrlnkfrfal9ym214gb10kyfzws7vvmyxnpxn8pspiby4a";
+          url = "https://elpa.gnu.org/packages/ef-themes-1.5.1.tar";
+          sha256 = "00qh5b7kx0dlms7drnzj95mvgwfzg5h5m9prkbr8qi4ssx939gdw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1788,10 +1788,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.7.6";
+        version = "0.7.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.7.6.tar";
-          sha256 = "0j4dnabws1grqwz87v7r5qw13qkfq42x80hi78r921d54wk4j0x2";
+          url = "https://elpa.gnu.org/packages/ellama-0.7.7.tar";
+          sha256 = "0bngmql4ska0xhh841l5yf2x8r70znc3y3jcn1q4dqagd77lzqpy";
         };
         packageRequires = [ dash emacs llm spinner ];
         meta = {
