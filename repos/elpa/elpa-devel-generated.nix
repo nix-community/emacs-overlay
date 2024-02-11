@@ -1072,10 +1072,10 @@
       elpaBuild {
         pname = "consult-hoogle";
         ename = "consult-hoogle";
-        version = "0.1.1.0.20240207.80608";
+        version = "0.1.1.0.20240211.83945";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-hoogle-0.1.1.0.20240207.80608.tar";
-          sha256 = "0vwhhw03g3s2hvsjdj0mdrgqij2y5qix71fqpphkfp7hknavmcf7";
+          url = "https://elpa.gnu.org/devel/consult-hoogle-0.1.1.0.20240211.83945.tar";
+          sha256 = "1ka6k26k3zr86p4z7lxb7jsh9wrhkiz8mp552jbz3v6kyifcmaq1";
         };
         packageRequires = [ consult emacs haskell-mode ];
         meta = {
@@ -1401,10 +1401,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.4.0.20240210.135313";
+        version = "2.2.4.0.20240211.84642";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240210.135313.tar";
-          sha256 = "1lvfz0pvc208cslh40ag958fw87r55s6nncbdj2w7f365mrdjd9x";
+          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240211.84642.tar";
+          sha256 = "14gryczhahsg0wjc9vrwfi9dv9fd6mr5xadvhcdcb7v0jaj1ikap";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4308,10 +4308,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240210.205752";
+        version = "9.7pre0.20240210.211820";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240210.205752.tar";
-          sha256 = "1ms63qizsghjsycdmm2vamjgmahya2ybdp3zz40m1lanwb2i427p";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240210.211820.tar";
+          sha256 = "0p9h6df1j95q2vfcrv11azbxsqhc9cby8h1nfh9yl7acnz8g0myg";
         };
         packageRequires = [ emacs ];
         meta = {
