@@ -41,10 +41,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.5pre0.20240209.154246";
+        version = "0.6pre0.20240211.125321";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/activities-0.5pre0.20240209.154246.tar";
-          sha256 = "0y3my56fsswdkpisbixcxpildf69zkcn18232cj15ddnhwkhfgjr";
+          url = "https://elpa.gnu.org/devel/activities-0.6pre0.20240211.125321.tar";
+          sha256 = "0zql56lh1srk7y6xgmn9830j51fcnhxyybb3x23yc323yqd81mr5";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -1997,10 +1997,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.7.7.0.20240210.103133";
+        version = "0.8.1.0.20240211.191551";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.7.7.0.20240210.103133.tar";
-          sha256 = "15fj2jd80sl80a23yni27pzkrwvgjazyqm3ibdvkqb1wvmxyfsaf";
+          url = "https://elpa.gnu.org/devel/ellama-0.8.1.0.20240211.191551.tar";
+          sha256 = "0cjf5m02lydq1ibi29nnm006xsz0n3wnqmwy9nf3ym5r1lqxisam";
         };
         packageRequires = [ dash emacs llm spinner ];
         meta = {
@@ -4308,10 +4308,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240210.211820";
+        version = "9.7pre0.20240211.153911";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240210.211820.tar";
-          sha256 = "0p9h6df1j95q2vfcrv11azbxsqhc9cby8h1nfh9yl7acnz8g0myg";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240211.153911.tar";
+          sha256 = "0w1g7bnpbrzsyx11ywsvjgwnnl8glfmp9bwv8r1ak4a9mr2zd154";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4997,10 +4997,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20240208.120942";
+        version = "0.28.0.20240211.215029";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20240208.120942.tar";
-          sha256 = "12dsbxlms7pshsm6n53f772amxjx90mg8i1ymswax0w69p444c19";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20240211.215029.tar";
+          sha256 = "18b9byml85hcr2aq3nifg1s2pwi4xkizq3p4jvj0127q9bp1px4z";
         };
         packageRequires = [ compat emacs seq ];
         meta = {

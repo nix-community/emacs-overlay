@@ -34,10 +34,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.4";
+        version = "0.5.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/activities-0.4.tar";
-          sha256 = "0mmb7fslirb40n75m8zfib1999yndysm13lyj0mypn9ciy1mvm6l";
+          url = "https://elpa.gnu.org/packages/activities-0.5.1.tar";
+          sha256 = "0ng9sgajcpal881s3kavkmz0fc38f2h207hpqj62cf14z7bsk0zk";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -1788,10 +1788,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.7.7";
+        version = "0.8.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.7.7.tar";
-          sha256 = "0bngmql4ska0xhh841l5yf2x8r70znc3y3jcn1q4dqagd77lzqpy";
+          url = "https://elpa.gnu.org/packages/ellama-0.8.1.tar";
+          sha256 = "0mlg6mh5g6sn87qbkzk53byrld32n8yrysyhsr16fdy05x7h2j8y";
         };
         packageRequires = [ dash emacs llm spinner ];
         meta = {
@@ -3915,10 +3915,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.18";
+        version = "9.6.19";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.18.tar";
-          sha256 = "05z7q185mvzamxzsjrkj0cngl2b978z7ja1lyp5gl29vsbd7srg2";
+          url = "https://elpa.gnu.org/packages/org-9.6.19.tar";
+          sha256 = "0ibgw0i7nsn589k0ynifwdp1f3ia6p8369myhjqgmwy392cwrcxg";
         };
         packageRequires = [ emacs ];
         meta = {
