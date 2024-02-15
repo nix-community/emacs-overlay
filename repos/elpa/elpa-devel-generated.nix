@@ -41,10 +41,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.6pre0.20240213.121610";
+        version = "0.6pre0.20240214.153739";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/activities-0.6pre0.20240213.121610.tar";
-          sha256 = "04bzz47mrzd8g5nzqk3nsxfpjkg0n561g8gbavbs0yl5kvkx4x3k";
+          url = "https://elpa.gnu.org/devel/activities-0.6pre0.20240214.153739.tar";
+          sha256 = "0v7wjjfcjpdagj4z1py7x0d00dh24aaz3mjbikw31vvk7i4dcz0x";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -1401,10 +1401,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.4.0.20240214.135700";
+        version = "2.2.4.0.20240215.65554";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240214.135700.tar";
-          sha256 = "1xzlhyc15gkhzpjljxp3nxkw1r1s9pw789m0gf30yi4lp04b47wi";
+          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240215.65554.tar";
+          sha256 = "0pm36823s56rv8a19mq831z4wbm1ih9vpym38fspjs3faw2yd205";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4711,10 +4711,10 @@
       elpaBuild {
         pname = "phps-mode";
         ename = "phps-mode";
-        version = "0.4.47.0.20240115.73646";
+        version = "0.4.48.0.20240215.72135";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/phps-mode-0.4.47.0.20240115.73646.tar";
-          sha256 = "16gnsisn1v3gh9hfwms4r9g3m03qg20bvfj42h15zyi4wz424bcv";
+          url = "https://elpa.gnu.org/devel/phps-mode-0.4.48.0.20240215.72135.tar";
+          sha256 = "1rizb13l60d6mjg5fdpqgks2q2lihxhbhbhlcdvnc3l6gdgvzq0r";
         };
         packageRequires = [ emacs ];
         meta = {
