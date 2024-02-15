@@ -659,10 +659,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.2";
+        version = "1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cape-1.2.tar";
-          sha256 = "0f18y40ajrkl5kc2r656lvi5vqkz7cpvyz0h6dwbc4dfhsa3cyfs";
+          url = "https://elpa.gnu.org/packages/cape-1.3.tar";
+          sha256 = "1178f6js821zcmsc3zrlclnaf4sswgvzs2qazzi975dkcfqcn3vq";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4568,6 +4568,21 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/rcirc-menu.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    rcirc-sqlite = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "rcirc-sqlite";
+        ename = "rcirc-sqlite";
+        version = "0.1.3";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/rcirc-sqlite-0.1.3.tar";
+          sha256 = "1pwxkw6dzwbg5g3rxilpp6iy3mzxgpn0mw59i3dcx25hdyizqhip";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/rcirc-sqlite.html";
           license = lib.licenses.free;
         };
       }) {};
