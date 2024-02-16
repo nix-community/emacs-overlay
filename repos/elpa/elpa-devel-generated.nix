@@ -1371,10 +1371,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.39.0.20240208.211524";
+        version = "0.40.0.20240215.214858";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/debbugs-0.39.0.20240208.211524.tar";
-          sha256 = "1yckp7zd9smbansagv9awg8z5nzra8b0dgizqnmvmsp1l6plzpd1";
+          url = "https://elpa.gnu.org/devel/debbugs-0.40.0.20240215.214858.tar";
+          sha256 = "0kf6f8qpshdx07zbpgglpz01daq2ix3sw006yn1qx07bxj1kihsd";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -4557,17 +4557,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    pabbrev = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    pabbrev = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "pabbrev";
         ename = "pabbrev";
-        version = "4.3.0.0.20240208.213625";
+        version = "4.3.0.0.20240216.43949";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pabbrev-4.3.0.0.20240208.213625.tar";
-          sha256 = "13czf94rna06pd6p43lc6z01s5pvb0nw8swpqqs24h7dq4rrs1d9";
+          url = "https://elpa.gnu.org/devel/pabbrev-4.3.0.0.20240216.43949.tar";
+          sha256 = "08sbsr0dgw1yrfbsfcj9zslwiwvzafmdpflmj5g2bcmlx2jvck9h";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6233,10 +6230,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "1.0.0.20240102.33150";
+        version = "1.0.0.20240215.233514";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tempel-1.0.0.20240102.33150.tar";
-          sha256 = "16kfp6bshcsqps7fxfc6nm2wnhj1bffizjyakzcw6g2qzb5yig88";
+          url = "https://elpa.gnu.org/devel/tempel-1.0.0.20240215.233514.tar";
+          sha256 = "060if1wfd02nkw5ysymzxx76fc94r2pkxj3bgn25016pwdsixz36";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6955,10 +6952,10 @@
       elpaBuild {
         pname = "vundo";
         ename = "vundo";
-        version = "2.2.0.0.20240128.155237";
+        version = "2.2.0.0.20240215.203503";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vundo-2.2.0.0.20240128.155237.tar";
-          sha256 = "0x21zxvn6d9pdbwf00ahi23ly48hqq9fn8fblf8gbla6w8qg8ava";
+          url = "https://elpa.gnu.org/devel/vundo-2.2.0.0.20240215.203503.tar";
+          sha256 = "0giv996ny1iynja46hhxrmzqrfl8s0409p2cll7sff4j1d7dkjp6";
         };
         packageRequires = [ emacs ];
         meta = {
