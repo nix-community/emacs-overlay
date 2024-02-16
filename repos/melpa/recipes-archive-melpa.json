@@ -9712,8 +9712,8 @@
   "repo": "alphapapa/bufler.el",
   "unstable": {
    "version": [
-    20240206,
-    1703
+    20240216,
+    805
    ],
    "deps": [
     "burly",
@@ -9723,8 +9723,8 @@
     "map",
     "pretty-hydra"
    ],
-   "commit": "703b09ca6632555b67cc7125fa17127045c72b74",
-   "sha256": "05dcnzj8ldq9xm24qfbgmrzfy1a1hx9x4vjr03a0lipf7p1vmkp0"
+   "commit": "d686f6a303ed250da2ee01d82afea26058a0a533",
+   "sha256": "0842w4h4v0gkmn6mlgrp9qywqyks4k5ibz0frwqiq6dxsy0wz7x9"
   },
   "stable": {
    "version": [
@@ -14032,20 +14032,20 @@
   "repo": "clojure-emacs/clojure-ts-mode",
   "unstable": {
    "version": [
-    20240215,
-    543
+    20240216,
+    1323
    ],
-   "commit": "95520cb12bc2af57b55cb8a049906c7e40805a42",
-   "sha256": "08blpnwp2xqj73nly6hfygfwrdnm6jh6fvj3wa168s63bxs0x30i"
+   "commit": "a923aa83a61751a588ed3afc133d45898995762e",
+   "sha256": "15aisl4pzdgi5nqpjxllq053fj9011liz53ph9kqvl7mzspffgaj"
   },
   "stable": {
    "version": [
     0,
     2,
-    1
+    2
    ],
-   "commit": "32304543b5fac3481bf6928a4ca48c054903580d",
-   "sha256": "1a4iijjpkwilymg4nxlgy7jzixn5cg6nzir0brzsppf98vzhfjb8"
+   "commit": "a923aa83a61751a588ed3afc133d45898995762e",
+   "sha256": "15aisl4pzdgi5nqpjxllq053fj9011liz53ph9kqvl7mzspffgaj"
   }
  },
  {
@@ -35519,20 +35519,20 @@
   "repo": "redguardtoo/evil-matchit",
   "unstable": {
    "version": [
-    20231011,
-    1119
+    20240216,
+    1304
    ],
-   "commit": "fe4cc5243a23ba7aa283803b200993f23b5dafef",
-   "sha256": "0zjlnl40yx1n5d275m5kd46hx758g301akr2jbnbrrifv18p3j7h"
+   "commit": "1c4fefa9bb11cc4b1d7f10614d2021c12ed12e89",
+   "sha256": "1m5y5n38w0ijzx2kl9d0nnw70ykx2prmnvv4ip9siad71k7wpwjg"
   },
   "stable": {
    "version": [
     3,
     0,
-    2
+    3
    ],
-   "commit": "f27b2a87bab75e3b8a87c277049a4363cdfcbf61",
-   "sha256": "0igz4kcfb01f9h49n5x9p1idzap54nkw62i1xrql1zlj54s8rv6b"
+   "commit": "9f8d81e5a3d4eceda615dd5b21f3c8d257c652a4",
+   "sha256": "0p2cp0pa4bvlvq3872axash3q72skcy16dy4sxbnsmsh2ypywn6b"
   }
  },
  {
@@ -36959,14 +36959,14 @@
   "repo": "purcell/exec-path-from-shell",
   "unstable": {
    "version": [
-    20230804,
-    645
+    20240216,
+    1606
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "03fc0a38af9e396c98f5a30c392cf757b3a34feb",
-   "sha256": "1wmr1z603wmcv8hxzxn84qxzdwmzmdm8x6f3n0x7klviq4jw6v2x"
+   "commit": "d95677ad608c214647b87bc20df1642763e3b400",
+   "sha256": "1r32id7fkqhvr6whfx71v4svf70bav5k8b6dlp77gv6p1zyckm22"
   },
   "stable": {
    "version": [
@@ -53830,14 +53830,14 @@
   "repo": "emacs-helm/helm-descbinds",
   "unstable": {
    "version": [
-    20240212,
-    640
+    20240216,
+    1154
    ],
    "deps": [
     "helm"
    ],
-   "commit": "14d1929d547fe68eb6742703378bc8da303d79ea",
-   "sha256": "0sa9nyikxnfvi7fm3is8xd7qi95dlzmdb3p09n067lxif1msjwlp"
+   "commit": "ca03f02da4e54a1d0a2d5498b86e1639aa808d8c",
+   "sha256": "0rl0935pni1vi5v9wd7w19i214iiysxixcjkdvqk1plsaqnb3dag"
   },
   "stable": {
    "version": [
@@ -73246,14 +73246,14 @@
   "repo": "roadrunner1776/magik",
   "unstable": {
    "version": [
-    20240215,
-    1340
+    20240216,
+    921
    ],
    "deps": [
     "compat"
    ],
-   "commit": "a0897cf5cdcd12d6dab896b37ab9faed4851dc68",
-   "sha256": "0cvvirp1f729dsqhfsmslshpvbz9lcbvzngrmm545wb6m440y2hp"
+   "commit": "6ac83927a6c294619bb99cb1ceb2ecf352498599",
+   "sha256": "0x70dd12w0p44c7b5273fwi51sr2giqcl230170v8vk9rn73p12i"
   },
   "stable": {
    "version": [
@@ -89915,14 +89915,14 @@
   "url": "https://repo.or.cz/org-tag-beautify.git",
   "unstable": {
    "version": [
-    20240126,
-    314
+    20240216,
+    939
    ],
    "deps": [
     "nerd-icons"
    ],
-   "commit": "c04e13cd991d400e43a25f1ff39409dda0e4957b",
-   "sha256": "0gkzhnkk9lmb1ddrsfjj0p0q6jsk9zghga3dnjal99jdjcd4kx47"
+   "commit": "6ec9f65e98df1e7f8a55c98bd2a3c0433fbfc5db",
+   "sha256": "15glg771jh3xp1fyyyvrqbxfv7vxy91vg54cg204h04gl3z1bwdd"
   }
  },
  {
@@ -116851,14 +116851,14 @@
   "repo": "Crandel/tempel-collection",
   "unstable": {
    "version": [
-    20240205,
-    726
+    20240216,
+    1105
    ],
    "deps": [
     "tempel"
    ],
-   "commit": "65b92b44909ea6e958c479739cadf550ab3cbf8a",
-   "sha256": "09xsr0hdx1hv9bhrvvm9zgzqhnvwa2nvkz7hy1pnnlvl0x6i5vi8"
+   "commit": "6248e22b52fd7fb98bba977221eb8440c82e6c00",
+   "sha256": "1z1vawc62c2a72mkkyz8apczv6g2xbc3zj5zmj7jscc3p5b0h3lf"
   }
  },
  {
@@ -119928,13 +119928,13 @@
    "version": [
     0,
     12,
-    116
+    117
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "ed8a0d1c02f7ec49d5ed9a95a068df8b68a47073",
-   "sha256": "14r6lk3h65i4cgh82nj10zqrvq249a7xh3dv8pisvlg3zqbah1k2"
+   "commit": "0bfd6fcd2b1fd9adcd5e06edbd029cc300762c02",
+   "sha256": "111jxfsawnxa1q1cl0mbzx7s1sdvb4h6lm79vvw6myp8aki6rlna"
   }
  },
  {
