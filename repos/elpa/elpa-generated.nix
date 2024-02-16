@@ -1788,10 +1788,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.8.2";
+        version = "0.8.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.8.2.tar";
-          sha256 = "1sjvn40jhsn38d838rmw7h1pl0bsbdgq43nqsh6n77jvy5rijz32";
+          url = "https://elpa.gnu.org/packages/ellama-0.8.3.tar";
+          sha256 = "08520a4xx0jxd2ndhw0qrfmkhkg4r2qqmsg5an12lpqy2rm002kc";
         };
         packageRequires = [ dash emacs llm spinner ];
         meta = {
