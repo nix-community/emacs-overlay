@@ -2554,10 +2554,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.8.2";
+        version = "0.9.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.8.2.tar";
-          sha256 = "0cfdx4ybvdklsmxd2n10n8c0niw5k2d4cdnmm98ixadvh56bvflr";
+          url = "https://elpa.gnu.org/packages/greader-0.9.0.tar";
+          sha256 = "1jzr01v480bgis2p4x7nfxii8sx57sdmn76jqxzx3cj4jph2awsd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3156,10 +3156,10 @@
       elpaBuild {
         pname = "lex";
         ename = "lex";
-        version = "1.1";
+        version = "1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/lex-1.1.tar";
-          sha256 = "1i6ri3k2b2nginhnmwy67mdpv5p75jkxjfwbf42wymza8fxzwbb7";
+          url = "https://elpa.gnu.org/packages/lex-1.2.tar";
+          sha256 = "03g5lm6gyh4k8l4iccdl9z0qinr46fkpqlwdw0gdfj9d0b782mbs";
         };
         packageRequires = [];
         meta = {
@@ -5565,10 +5565,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tempel-1.0.tar";
-          sha256 = "0k9802fby7yh5kz6slkfzpyvfa0fvs3hcfni61l2bic8pfrdxwl7";
+          url = "https://elpa.gnu.org/packages/tempel-1.1.tar";
+          sha256 = "1780dgyfj569vxzzg8gqky9953fzw8x5kzy2l05vl7my06nyk46i";
         };
         packageRequires = [ compat emacs ];
         meta = {
