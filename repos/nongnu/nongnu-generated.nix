@@ -415,10 +415,10 @@
       elpaBuild {
         pname = "clojure-ts-mode";
         ename = "clojure-ts-mode";
-        version = "0.2.0";
+        version = "0.2.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/clojure-ts-mode-0.2.0.tar";
-          sha256 = "1jb6n84pk2ybrihh1s472q77pmnn288p4bzvhga0sxxqg88ial2p";
+          url = "https://elpa.nongnu.org/nongnu/clojure-ts-mode-0.2.2.tar";
+          sha256 = "19dskc53dx183kcb7p5qx41qsjsy1mqi46zrdfc1znl7rdknhvl7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -925,10 +925,10 @@
       elpaBuild {
         pname = "evil-matchit";
         ename = "evil-matchit";
-        version = "3.0.2";
+        version = "3.0.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/evil-matchit-3.0.2.tar";
-          sha256 = "02sim8hkclkp7lzj3hybjky75lyvf452wc7hmbkx1rjb3cx9j5m5";
+          url = "https://elpa.nongnu.org/nongnu/evil-matchit-3.0.4.tar";
+          sha256 = "1bc14r8cl0sd4ygj5didhzh74alzafc6rjk9fm4zgylkbcxal8nl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2817,16 +2817,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    scad-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    scad-mode = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "scad-mode";
         ename = "scad-mode";
-        version = "93.2";
+        version = "93.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/scad-mode-93.2.tar";
-          sha256 = "0gp7ghmch5wkbby0avmlgj5kajiccbarjrx1szh9r3f3gi1ahawj";
+          url = "https://elpa.nongnu.org/nongnu/scad-mode-93.3.tar";
+          sha256 = "0gh2s0hv8i100xsq656vfxy3586162dv1bz9gcj4aha3kk4ar3vk";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/scad-mode.html";
           license = lib.licenses.free;
