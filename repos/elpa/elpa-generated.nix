@@ -430,10 +430,10 @@
       elpaBuild {
         pname = "bicep-ts-mode";
         ename = "bicep-ts-mode";
-        version = "0.1.1";
+        version = "0.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bicep-ts-mode-0.1.1.tar";
-          sha256 = "0yxn9vk8hbsx50ljjy2swn38cxw2nkvkyc6hqw3qxj014vaavxvn";
+          url = "https://elpa.gnu.org/packages/bicep-ts-mode-0.1.2.tar";
+          sha256 = "1glyfg6f8cp441a410hz9330p0pf67jxhi8cij5na0h7n7pjhmvi";
         };
         packageRequires = [];
         meta = {
