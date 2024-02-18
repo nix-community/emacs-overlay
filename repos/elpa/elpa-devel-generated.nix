@@ -1401,10 +1401,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.4.0.20240217.75436";
+        version = "2.2.4.0.20240218.63237";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240217.75436.tar";
-          sha256 = "0cd07wp9256zlqyxc0akkkrmzlvkx7jn4z8cnpkg9s4kz29aa9hz";
+          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240218.63237.tar";
+          sha256 = "04fk5893nl36l496i2hgvhais216z8pwcnsr9qbbaijmdjvvn62b";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1855,10 +1855,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240205.0.20240205.122736";
+        version = "20240205.0.20240217.202235";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240205.0.20240205.122736.tar";
-          sha256 = "1bwaiqg9qv0fzpmx20h0fx26kdy4m8xw9jadycwkp0gk62x5hk3d";
+          url = "https://elpa.gnu.org/devel/eev-20240205.0.20240217.202235.tar";
+          sha256 = "0kfrp2jla9dylcfib0sw2vh6ialgiyw4g8ihj72yhznx1v69ms59";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2361,10 +2361,10 @@
       elpaBuild {
         pname = "filechooser";
         ename = "filechooser";
-        version = "0.1.1.0.20240206.212720";
+        version = "0.1.1.0.20240218.83323";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/filechooser-0.1.1.0.20240206.212720.tar";
-          sha256 = "1wq177zf5n1azhml6mdnjc9nh2lmmrh8acnfanzx72ly4yfn4i8l";
+          url = "https://elpa.gnu.org/devel/filechooser-0.1.1.0.20240218.83323.tar";
+          sha256 = "11p4a92hzxmbvb3cc5b3isbgab8zz03nr64435srd1j083vph8jg";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2815,17 +2815,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    greader = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    greader = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.0.0.20240216.131142";
+        version = "0.9.1.0.20240218.81649";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.9.0.0.20240216.131142.tar";
-          sha256 = "1q3s2jym7l2qmrlv7b9yc26jqri3qsfjdyvjlfm2g85d2810y677";
+          url = "https://elpa.gnu.org/devel/greader-0.9.1.0.20240218.81649.tar";
+          sha256 = "0v7wcm60wmpyizyk6bpj2ff88xwxw5f3jg5896gg3z48i9bk2r3x";
         };
         packageRequires = [ emacs ];
         meta = {
