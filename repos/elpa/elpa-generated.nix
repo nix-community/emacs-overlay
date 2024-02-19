@@ -430,10 +430,10 @@
       elpaBuild {
         pname = "bicep-ts-mode";
         ename = "bicep-ts-mode";
-        version = "0.1.2";
+        version = "0.1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bicep-ts-mode-0.1.2.tar";
-          sha256 = "1glyfg6f8cp441a410hz9330p0pf67jxhi8cij5na0h7n7pjhmvi";
+          url = "https://elpa.gnu.org/packages/bicep-ts-mode-0.1.3.tar";
+          sha256 = "1di4pkk682kl46acdq44d1xykzqnvayhd84rwf71rj3q252di5a6";
         };
         packageRequires = [];
         meta = {
@@ -1788,10 +1788,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.8.3";
+        version = "0.8.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.8.3.tar";
-          sha256 = "08520a4xx0jxd2ndhw0qrfmkhkg4r2qqmsg5an12lpqy2rm002kc";
+          url = "https://elpa.gnu.org/packages/ellama-0.8.4.tar";
+          sha256 = "04yxs12g7k2zg23xkn688k0vq2jkpikgm89iwin2r5gvw0yai04j";
         };
         packageRequires = [ dash emacs llm spinner ];
         meta = {
