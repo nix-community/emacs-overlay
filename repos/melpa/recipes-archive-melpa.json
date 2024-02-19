@@ -1696,16 +1696,16 @@
   "repo": "pauldub/activity-watch-mode",
   "unstable": {
    "version": [
-    20230731,
-    802
+    20240219,
+    1400
    ],
    "deps": [
     "cl-lib",
     "json",
     "request"
    ],
-   "commit": "63eb19a10e4262c529f1b205ef61d69055350f49",
-   "sha256": "10p9mpnbq1xrwhxy54idiz4vjy2kflm0ymqpidnh0sr5dcnap867"
+   "commit": "ad671767cffd625cd77119b5d2ccef40726e406a",
+   "sha256": "03x6psipc6bz8aynqaz09hyy8imhqwvjvb82dd6v9ra679iyfcky"
   },
   "stable": {
    "version": [
@@ -12638,8 +12638,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20240218,
-    2020
+    20240219,
+    818
    ],
    "deps": [
     "clojure-mode",
@@ -12650,8 +12650,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "e0ce74d212d9650d81217387cd494ba57cd4483d",
-   "sha256": "0z03sxaqmnlf01vz43ijs2w1h92wf27wr96b3hsd76xf7i4sl2yr"
+   "commit": "105847f6ac70e046ba18374883443ad8834c0406",
+   "sha256": "0r4gcg61558k85vygk4ygg0fzrjka7gap0p1b9gxj1x51jbwjbzb"
   },
   "stable": {
    "version": [
@@ -40619,10 +40619,10 @@
  },
  {
   "ename": "flycheck-eglot",
-  "commit": "ead6dfff6183385b6792bae4637bcaec76d87428",
-  "sha256": "0awm312r8my2fy7b2zchhfsf12mv7ad24d4wx85f9p5dalgi2340",
+  "commit": "0a9e5719881a28fdcb7dd0fda4e9d124ff0da912",
+  "sha256": "1inyc5mi6ym5gfrq4qk8j72z9mdbwybd7q0242zk7fcn7i2j6571",
   "fetcher": "github",
-  "repo": "intramurz/flycheck-eglot",
+  "repo": "flycheck/flycheck-eglot",
   "unstable": {
    "version": [
     20240214,
@@ -44737,8 +44737,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20240217,
-    1501
+    20240219,
+    1113
    ],
    "deps": [
     "closql",
@@ -44753,8 +44753,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "546d903bcfdf5aa3804b4b682ac34a661077b515",
-   "sha256": "0fjrclgasvndb90x03lrsgfrskpspk3k017zfzayarc0lvlfjhac"
+   "commit": "4ec54211b2cb695ad8eb5b395bbc9b522f600797",
+   "sha256": "1yjbz8d2jq90yn2scgiwad3ycz3jcyprnxgz59rp0j11a26d08rv"
   },
   "stable": {
    "version": [
@@ -69634,27 +69634,27 @@
   "repo": "martianh/lem.el",
   "unstable": {
    "version": [
-    20240218,
-    1628
+    20240219,
+    1119
    ],
    "deps": [
     "fedi",
     "markdown-mode"
    ],
-   "commit": "81ae24d1b4a9ca1d1064b5a419fb34c5de05417c",
-   "sha256": "0xgml3zy6hxpk11h5y8qgfz9ii9mlwdbva0jchjfavy0ni3hx470"
+   "commit": "429f9f5371e6e63e21b46fe361802b674a8606dd",
+   "sha256": "1rzdjwc49pjl4pkz6151cyxndhgq52g76q7iv6ia4r190srv7dbq"
   },
   "stable": {
    "version": [
     0,
-    13
+    16
    ],
    "deps": [
     "fedi",
     "markdown-mode"
    ],
-   "commit": "81ae24d1b4a9ca1d1064b5a419fb34c5de05417c",
-   "sha256": "0xgml3zy6hxpk11h5y8qgfz9ii9mlwdbva0jchjfavy0ni3hx470"
+   "commit": "429f9f5371e6e63e21b46fe361802b674a8606dd",
+   "sha256": "1rzdjwc49pjl4pkz6151cyxndhgq52g76q7iv6ia4r190srv7dbq"
   }
  },
  {
@@ -80204,10 +80204,10 @@
  },
  {
   "ename": "narumi",
-  "commit": "961a81f77cebaf9361699dec65b733bf33bc92b4",
-  "sha256": "1d81z6zxxlv2sih28ar6s93ic49z9qy4q03r115k0559bqy47gjh",
+  "commit": "407fe8b80df931460335c2f4ae1db11cab7ae508",
+  "sha256": "1zz4k42idan68j0b5sk7fspmdy1y1ynmhh73mdi3sp5adnqq8n0s",
   "fetcher": "github",
-  "repo": "nryotaro/narumi",
+  "repo": "ryotaro612/narumi",
   "unstable": {
    "version": [
     20220228,
@@ -99971,11 +99971,11 @@
   "repo": "ProofGeneral/PG",
   "unstable": {
    "version": [
-    20240218,
-    946
+    20240219,
+    1347
    ],
-   "commit": "9b38f844df79eaf77a64c82d21cfdc70351ccc03",
-   "sha256": "04n7blfhwl1624vqyqhbhprs452iq985cj1p7l19r660i25vf1ia"
+   "commit": "4814efb3668ec6c6a747c6b95691ca79d9f94bca",
+   "sha256": "18as5ygaknwx7qms6i0v3bpryvq4rgnx382vv9gaa7zj1rqwrzf2"
   },
   "stable": {
    "version": [
@@ -101811,10 +101811,10 @@
  },
  {
   "ename": "pyvenv-auto",
-  "commit": "ddf36d8974cc527db81d02c4f3792e16d1e5d80a",
-  "sha256": "141fjkrncmyls064w6kjxgj45zxip71p50scnrf74fizdbw2kn6d",
+  "commit": "3b6a9eb263ae8e509c658028b9b3d78e283837a2",
+  "sha256": "1rgh2nl3yah2y8v67f7hc2jib91wh3cd9nkgbx9xkbpgbdf4176j",
   "fetcher": "github",
-  "repo": "nryotaro/pyvenv-auto",
+  "repo": "ryotaro612/pyvenv-auto",
   "unstable": {
    "version": [
     20230106,
@@ -120086,13 +120086,13 @@
   "unstable": {
    "version": [
     20240219,
-    239
+    632
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "ef4540121c63c935b21d5c9cc26d76672ff7804b",
-   "sha256": "0g7h1s4g1m33rx36d2hc7nl1fcma4w4bg0jw4xav76zij6ccriiv"
+   "commit": "2f0bfac4b3acd6c23cda184242a96991a1e358ce",
+   "sha256": "03ig3ywhbf94sy6i8fs5hzgymhz5kww3b05lngx6f3iinkzfj7hk"
   },
   "stable": {
    "version": [
@@ -125103,10 +125103,10 @@
  },
  {
   "ename": "wallpreview",
-  "commit": "8822842e06fb8bce3b62847ed1ea7c9d64f4d7d3",
-  "sha256": "00i4j7ki84yw2sihd9xjwh6gvp0xi5yql7nmsgdqkhp91qcmkn8k",
+  "commit": "c3ddb574892855f0e23283cc8bded51d857265d0",
+  "sha256": "1p7i3ndm9rvqbdlycrqfqf8s1lfavxymwxg817zg37iwm6a2ya95",
   "fetcher": "github",
-  "repo": "nryotaro/wallpreview",
+  "repo": "ryotaro612/wallpreview",
   "unstable": {
    "version": [
     20220703,
