@@ -1788,10 +1788,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.8.4";
+        version = "0.8.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.8.4.tar";
-          sha256 = "04yxs12g7k2zg23xkn688k0vq2jkpikgm89iwin2r5gvw0yai04j";
+          url = "https://elpa.gnu.org/packages/ellama-0.8.5.tar";
+          sha256 = "17hjkjc354ds69sf3yqi5gvwgnky634mip3lbdpdmm5ywgg8d8sw";
         };
         packageRequires = [ dash emacs llm spinner ];
         meta = {
@@ -2012,10 +2012,10 @@
       elpaBuild {
         pname = "excorporate";
         ename = "excorporate";
-        version = "1.1.1";
+        version = "1.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/excorporate-1.1.1.tar";
-          sha256 = "06ilfkrlx6ca0qfqq3w1w07kdwak556i1wgf1875py2d5xkg4r90";
+          url = "https://elpa.gnu.org/packages/excorporate-1.1.2.tar";
+          sha256 = "11w53idm7m20jhmwnj9wiqiv6fzydjrgy2s3mp36barlj3xq0l0z";
         };
         packageRequires = [
           cl-lib
@@ -2125,10 +2125,10 @@
       elpaBuild {
         pname = "filechooser";
         ename = "filechooser";
-        version = "0.1.1";
+        version = "0.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/filechooser-0.1.1.tar";
-          sha256 = "1dnrbqasmb21ch4b8jcbr9zhx5iqiqrfy1h43g3pabakfddnjsl8";
+          url = "https://elpa.gnu.org/packages/filechooser-0.1.2.tar";
+          sha256 = "0s0mdc851zd2hy8hfpbamiimbh7c788cyz8mxnwzkpmf6jlj6xdw";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2554,10 +2554,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.1";
+        version = "0.9.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.9.1.tar";
-          sha256 = "1z1w2crjyi9gfis7qks0ygc0cpihapxkpijw010w4675s7anrzw5";
+          url = "https://elpa.gnu.org/packages/greader-0.9.4.tar";
+          sha256 = "015cgijw95hyrnbb51vq4c6zk1csn3g3v4l5fzjddwh6bfi9v4n6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2726,10 +2726,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.0";
+        version = "9.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/hyperbole-8.0.0.tar";
-          sha256 = "171x7jad62xd0n3xgs32dksyhn5abxj1kna0qgm65mm0v73hrv8d";
+          url = "https://elpa.gnu.org/packages/hyperbole-9.0.0.tar";
+          sha256 = "07kpyp3ggf4knakn18niy819l184apx4d9vbcwv57j8zyqgn4c3l";
         };
         packageRequires = [ emacs ];
         meta = {
