@@ -326,17 +326,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild
-                          , emacs
-                          , fetchurl
-                          , lib }:
+    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.2.0.20240209.161258";
+        version = "14.0.2.0.20240220.60955";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.2.0.20240209.161258.tar";
-          sha256 = "0fkfg2b03sb99k5b289737avs4cy4yrk91nb6pylb3wj5i9mdb9g";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.2.0.20240220.60955.tar";
+          sha256 = "1w8bqq5vhn7ygksss72l5hgbn2yxb7d82w6y6acdby23hnac2w0k";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1855,10 +1852,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240205.0.20240219.105102";
+        version = "20240205.0.20240220.34251";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240205.0.20240219.105102.tar";
-          sha256 = "0yrl3imimbcr6z7xpppxbycfxylqhc0kk8xshnnq7w582i6irkrq";
+          url = "https://elpa.gnu.org/devel/eev-20240205.0.20240220.34251.tar";
+          sha256 = "01m609prd554rgwjs9igxwxair1pl6g1vgm2p890mddd0741ci7k";
         };
         packageRequires = [ emacs ];
         meta = {
