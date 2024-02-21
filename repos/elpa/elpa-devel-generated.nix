@@ -326,14 +326,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    auctex = callPackage ({ elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.2.0.20240220.60955";
+        version = "14.0.3.0.20240220.160410";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.2.0.20240220.60955.tar";
-          sha256 = "1w8bqq5vhn7ygksss72l5hgbn2yxb7d82w6y6acdby23hnac2w0k";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.3.0.20240220.160410.tar";
+          sha256 = "1j4i9m9018s606wbrx4r439i479jqf9f5040m9b3qbqhgqwklw8z";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2484,10 +2487,10 @@
       elpaBuild {
         pname = "fontaine";
         ename = "fontaine";
-        version = "1.0.0.0.20240219.61437";
+        version = "1.0.0.0.20240220.124544";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/fontaine-1.0.0.0.20240219.61437.tar";
-          sha256 = "1g16kzvhaj3ph04zn2fkdzdvrjq33la44nnfipha84ir8k2gmdbw";
+          url = "https://elpa.gnu.org/devel/fontaine-1.0.0.0.20240220.124544.tar";
+          sha256 = "0vb68vnmg6l3vgkp1393mnk3j2r4g59x900vm1rzfd6slznrr4c3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4609,10 +4612,10 @@
       elpaBuild {
         pname = "parser-generator";
         ename = "parser-generator";
-        version = "0.2.0.0.20240110.203302";
+        version = "0.2.1.0.20240220.204114";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/parser-generator-0.2.0.0.20240110.203302.tar";
-          sha256 = "10f1l10y92677nckfwz9778cxmcg9v28j7kllvhwhibxbyviy1z4";
+          url = "https://elpa.gnu.org/devel/parser-generator-0.2.1.0.20240220.204114.tar";
+          sha256 = "08apzsgqxld3z2cpxhhygh2wj3mvs4pqxib6gfw4jliipkkrk1k6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7057,10 +7060,10 @@
       elpaBuild {
         pname = "which-key";
         ename = "which-key";
-        version = "3.6.0.0.20240208.213645";
+        version = "3.6.0.0.20240220.70814";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/which-key-3.6.0.0.20240208.213645.tar";
-          sha256 = "0n2nry2xvl8xkbf9nmibc6lj1i1nnzljcni6zvz7nhnnnmwhn6iy";
+          url = "https://elpa.gnu.org/devel/which-key-3.6.0.0.20240220.70814.tar";
+          sha256 = "1zjw18nqd4jsjkj5fkcicyn6q41jnf6fjlygqnhibjidbrrfs3dp";
         };
         packageRequires = [ emacs ];
         meta = {

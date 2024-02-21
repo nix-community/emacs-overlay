@@ -280,10 +280,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.2";
+        version = "14.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-14.0.2.tar";
-          sha256 = "037y608vi5yq5x7hvvsvzjkyv2k2zavy2m64q6z78g69bk66x0cs";
+          url = "https://elpa.gnu.org/packages/auctex-14.0.3.tar";
+          sha256 = "1xk29nk3r7ilxk2vag3diacamqvlws7mbjk5a0iivz5y6fy7hmjc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4170,10 +4170,10 @@
       elpaBuild {
         pname = "parser-generator";
         ename = "parser-generator";
-        version = "0.2.0";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/parser-generator-0.2.0.tar";
-          sha256 = "1pp11qnm09w69vc1sl2629r0ymd2vhnaqj4d4ly1bbwxrwjl2nsv";
+          url = "https://elpa.gnu.org/packages/parser-generator-0.2.1.tar";
+          sha256 = "17kqkqz3d29pmn8ydw5kxs2fdgwqh0q31f13hdf1bnw009j24rl9";
         };
         packageRequires = [ emacs ];
         meta = {
