@@ -2487,10 +2487,10 @@
       elpaBuild {
         pname = "fontaine";
         ename = "fontaine";
-        version = "1.0.0.0.20240221.110200";
+        version = "1.0.0.0.20240222.45628";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/fontaine-1.0.0.0.20240221.110200.tar";
-          sha256 = "0g8ld289bk42xbqssbbpawjzcdx2f63wfnlwl1v676ksl333i8bm";
+          url = "https://elpa.gnu.org/devel/fontaine-1.0.0.0.20240222.45628.tar";
+          sha256 = "0dg073mqw8wbwan2amw4pl967kb3fli6vhskw6spqm1gqcki6mm7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3008,10 +3008,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.2pre0.20240219.124329";
+        version = "8.0.2pre0.20240222.73640";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.2pre0.20240219.124329.tar";
-          sha256 = "1ylz6879pilscxznqmjjsla9nrw0g5l00v37qsjfrq7dbv2d07w5";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.2pre0.20240222.73640.tar";
+          sha256 = "0j94qx0gmfh3n43jmca7zvr3j0sjc4nd2bxz5impgajq19l94wmj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3270,10 +3270,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.2.0.20240214.201006";
+        version = "1.2.0.20240222.55933";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.2.0.20240214.201006.tar";
-          sha256 = "0nkiddj61b2fsmfh2qcyqks1xh4ljfccxffhjj89wj72qb411qib";
+          url = "https://elpa.gnu.org/devel/jinx-1.2.0.20240222.55933.tar";
+          sha256 = "16rl6b97vd4ha0v253vkw8f65i6flwxk6mslzh3d0yab5a8n2169";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3859,10 +3859,10 @@
       elpaBuild {
         pname = "mmm-mode";
         ename = "mmm-mode";
-        version = "0.5.10.0.20240221.145750";
+        version = "0.5.11.0.20240222.42825";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/mmm-mode-0.5.10.0.20240221.145750.tar";
-          sha256 = "00n22hmmkd7gwisn0928zwfmmzhr2zcjalpx0qfv9agca24d5bq7";
+          url = "https://elpa.gnu.org/devel/mmm-mode-0.5.11.0.20240222.42825.tar";
+          sha256 = "1bsccf8i48r4zjzg7pqi47n2r09dj8baylw83ksdrzc57n1s90x7";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -5815,10 +5815,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.3.0.0.20240221.60607";
+        version = "0.3.0.0.20240222.42842";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/spacious-padding-0.3.0.0.20240221.60607.tar";
-          sha256 = "1w4gmfl4xdb3jv3ri1x7q1crpc6dpw5wy2ffk9rj6hazrfykjcdj";
+          url = "https://elpa.gnu.org/devel/spacious-padding-0.3.0.0.20240222.42842.tar";
+          sha256 = "1raxfn0bha7z0h6hj0y5aj72cp9ridyq49jr66zzlb554fsi6yn9";
         };
         packageRequires = [ emacs ];
         meta = {
