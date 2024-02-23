@@ -1064,6 +1064,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    flycheck = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "flycheck";
+        ename = "flycheck";
+        version = "34.1";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/flycheck-34.1.tar";
+          sha256 = "1yyvlhv45gvjmv1rja16j12gv2afiaf4r852mcw3l97h6f40h4x9";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/flycheck.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     flymake-guile = callPackage ({ elpaBuild
                                  , emacs
                                  , fetchurl
@@ -3367,10 +3382,10 @@
       elpaBuild {
         pname = "visual-fill-column";
         ename = "visual-fill-column";
-        version = "2.5.2";
+        version = "2.6.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/visual-fill-column-2.5.2.tar";
-          sha256 = "023c8pwx63a8c4c11cmbarm01382j2f53y69yscygcyn9gxqzzww";
+          url = "https://elpa.nongnu.org/nongnu/visual-fill-column-2.6.0.tar";
+          sha256 = "1gpjby6g9wq8p25q1a35hr56nfb4sbcdrf0bjxidh1diw5g5saw4";
         };
         packageRequires = [ emacs ];
         meta = {
