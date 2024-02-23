@@ -1401,10 +1401,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.4.0.20240218.63237";
+        version = "2.2.4.0.20240222.141028";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240218.63237.tar";
-          sha256 = "04fk5893nl36l496i2hgvhais216z8pwcnsr9qbbaijmdjvvn62b";
+          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240222.141028.tar";
+          sha256 = "1lx3xz7hx4q7xgcjlzbiimynnhxfnvd1wqv1n1rnf6yihnq1y5h3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2487,10 +2487,10 @@
       elpaBuild {
         pname = "fontaine";
         ename = "fontaine";
-        version = "1.0.0.0.20240222.45628";
+        version = "1.0.0.0.20240222.132833";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/fontaine-1.0.0.0.20240222.45628.tar";
-          sha256 = "0dg073mqw8wbwan2amw4pl967kb3fli6vhskw6spqm1gqcki6mm7";
+          url = "https://elpa.gnu.org/devel/fontaine-1.0.0.0.20240222.132833.tar";
+          sha256 = "19smmj7fk5584fwh0yhf0h2h01xv5148rvwc4bcypdsm744rcvfj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2822,10 +2822,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.4.0.20240219.154408";
+        version = "0.9.5.0.20240222.111248";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.9.4.0.20240219.154408.tar";
-          sha256 = "1dybmfg3phjj1qdbw7w89h7f6fn7l5q3rkq1pfknlm18b8qwr8vr";
+          url = "https://elpa.gnu.org/devel/greader-0.9.5.0.20240222.111248.tar";
+          sha256 = "1mahqwjggng81dw5qxpkyz1fnwphcaw8iixbhxiwi597jlqi2vyj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4464,10 +4464,10 @@
       elpaBuild {
         pname = "org-transclusion";
         ename = "org-transclusion";
-        version = "1.3.2.0.20240207.204252";
+        version = "1.3.2.0.20240222.204851";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-transclusion-1.3.2.0.20240207.204252.tar";
-          sha256 = "1qaniaxj79b076nml5pv9s6260vgkbgg0fbv190bc9kimzvd2444";
+          url = "https://elpa.gnu.org/devel/org-transclusion-1.3.2.0.20240222.204851.tar";
+          sha256 = "0gbdhgz0bg6a4zy60wn39f2x4xyag32yxrkcaixsgpcrc3358c0y";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -5815,10 +5815,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.3.0.0.20240222.42842";
+        version = "0.3.0.0.20240222.124225";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/spacious-padding-0.3.0.0.20240222.42842.tar";
-          sha256 = "1raxfn0bha7z0h6hj0y5aj72cp9ridyq49jr66zzlb554fsi6yn9";
+          url = "https://elpa.gnu.org/devel/spacious-padding-0.3.0.0.20240222.124225.tar";
+          sha256 = "072biw4a146d7064j1zqi03nh7aiy465bna11sk102x90mhs9z25";
         };
         packageRequires = [ emacs ];
         meta = {
