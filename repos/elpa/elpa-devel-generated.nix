@@ -1401,10 +1401,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.4.0.20240222.141028";
+        version = "2.2.4.0.20240223.62237";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240222.141028.tar";
-          sha256 = "1lx3xz7hx4q7xgcjlzbiimynnhxfnvd1wqv1n1rnf6yihnq1y5h3";
+          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240223.62237.tar";
+          sha256 = "0h4cs61mipfxb8hzs6d7mafw7y97r0k0l68mcglr0c2lxcxv6sd3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1873,10 +1873,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.5.1.0.20240221.42903";
+        version = "1.5.1.0.20240223.55243";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.5.1.0.20240221.42903.tar";
-          sha256 = "0pr1ab4a38854z4hl75wn351va3ri9pmlrhjd4rj9rjj5psdda1d";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.5.1.0.20240223.55243.tar";
+          sha256 = "1i9rjlfnmq2in93q4j08w5hkhjf0mhd4sam329x2bzibq5rv4m24";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2815,17 +2815,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    greader = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    greader = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.5.0.20240222.111248";
+        version = "0.9.6.0.20240223.45528";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.9.5.0.20240222.111248.tar";
-          sha256 = "1mahqwjggng81dw5qxpkyz1fnwphcaw8iixbhxiwi597jlqi2vyj";
+          url = "https://elpa.gnu.org/devel/greader-0.9.6.0.20240223.45528.tar";
+          sha256 = "1h9h18ff71hrkpckzwvpcydpcn6bzsx9449mi6m7pmsw7b15sr5w";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3877,10 +3874,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.3.0.0.20240212.80607";
+        version = "4.3.0.0.20240223.71209";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240212.80607.tar";
-          sha256 = "0y9b2gw65v0432wza587y44hjjlvix6v8sdmxbinrmhjxy6hpbkj";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240223.71209.tar";
+          sha256 = "0gvzgq2h7nkh77kg82jflpnrn5ilp6gmsl1jsg4gkcrhs0v36i1s";
         };
         packageRequires = [ emacs ];
         meta = {
