@@ -478,10 +478,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "1.0.1.0.20240210.51926";
+        version = "1.0.1.0.20240224.51508";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/beframe-1.0.1.0.20240210.51926.tar";
-          sha256 = "13j35grsh452wwv69qkxckwa8ip27x10bnk5vs60higair15624k";
+          url = "https://elpa.gnu.org/devel/beframe-1.0.1.0.20240224.51508.tar";
+          sha256 = "1i22lbwck2q80byxd6bd6cba9jj3iqzsj129rb81a221wp91sarj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2174,10 +2174,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20240216.195938";
+        version = "5.6snapshot0.20240223.184544";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240216.195938.tar";
-          sha256 = "0ap7kibpas9fwfsyail09v2zx9jkfa7hlj7fi0dr67a6jkqmgvya";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240223.184544.tar";
+          sha256 = "0ljh1w1yg8i41xya00rjbpf4akffkd440nlh5jl0341lnj9kiv91";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3518,10 +3518,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.9.1.0.20240218.124933";
+        version = "0.9.1.0.20240224.4420";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.9.1.0.20240218.124933.tar";
-          sha256 = "1xdq5riyhxp5kff4v87mz5rr0df77ysmrc3vlarfhh12hg9bf3i4";
+          url = "https://elpa.gnu.org/devel/llm-0.9.1.0.20240224.4420.tar";
+          sha256 = "01p9bpbihp19nnpvm96aa1qsfvny75mqsdr854qrjr25iddbwbfy";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3615,10 +3615,10 @@
       elpaBuild {
         pname = "logos";
         ename = "logos";
-        version = "1.1.1.0.20240117.25050";
+        version = "1.1.1.0.20240224.55443";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/logos-1.1.1.0.20240117.25050.tar";
-          sha256 = "10l1v429am4x65hk4f5sghql9vd5w1z163ld7za2sd9qv18dxf4z";
+          url = "https://elpa.gnu.org/devel/logos-1.1.1.0.20240224.55443.tar";
+          sha256 = "10z609m2ak37yfbmlgv258j2rsvkq40h5rzmdwk8ibldz3n6ywgd";
         };
         packageRequires = [ emacs ];
         meta = {
