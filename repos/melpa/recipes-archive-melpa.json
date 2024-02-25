@@ -17731,13 +17731,13 @@
   "unstable": {
    "version": [
     20240224,
-    1029
+    2331
    ],
    "deps": [
     "compat"
    ],
-   "commit": "0e4c0dba792d52ee9e28f999a25c50aea64f2b12",
-   "sha256": "04l1ka3vgdmd2ldp2i1w93r0mnkyd9vp8iw141v0nkq1vd8b0lbi"
+   "commit": "53149320884d641bafe3e10a5275a20074a3f775",
+   "sha256": "1z5g7ak1qb2fyj3mc7ax7ij20i3pvs022157dfd1wrbvcsdnkg3s"
   },
   "stable": {
    "version": [
@@ -24178,14 +24178,14 @@
   "repo": "jojojames/dired-sidebar",
   "unstable": {
    "version": [
-    20230623,
-    1655
+    20240224,
+    1640
    ],
    "deps": [
     "dired-subtree"
    ],
-   "commit": "85ec4fffc2607d38ec2e3b8577320aceb8e652dd",
-   "sha256": "09708kcbzx9v904rg49yg3xjix8kbkx89xsysx66imxh3s8f8xjb"
+   "commit": "04b39fb52021832eed4bf9bb748f46892afaf62e",
+   "sha256": "0sxl6l1c3wx0yrw690w3za3xb0s5jrdlmnr3vkma9sd4y02p72f8"
   },
   "stable": {
    "version": [
@@ -45827,14 +45827,14 @@
   "repo": "jojojames/fussy",
   "unstable": {
    "version": [
-    20240103,
-    159
+    20240224,
+    1641
    ],
    "deps": [
     "flx"
    ],
-   "commit": "4080b373f3361126d4de1f063bb08718b0c08eed",
-   "sha256": "1x0vmbxd0ggslkxcam5da586plsjar9v5nka0dbxdkwx6k6n23r1"
+   "commit": "0f58683355986e3f8d49734cb1f2ecdd71729439",
+   "sha256": "1hqh656h7gy233d1557qrp4vq9vsalgdn9wa2bsd1c11z46f3r8f"
   },
   "stable": {
    "version": [
@@ -71815,15 +71815,16 @@
   "stable": {
    "version": [
     0,
-    11,
+    12,
     0
    ],
    "deps": [
+    "compat",
     "map",
     "seq"
    ],
-   "commit": "771c1d1edd4dfec96b576b1d2b551e4aae066dc9",
-   "sha256": "1z1bi1ms5508iv5w1jmmlml2fay21dhgl2lzbv2is5mnkkv0s6di"
+   "commit": "fc0296ca155c32ad3455f36602b7b34f2163bfd7",
+   "sha256": "0pk9vp28mdcwbycj2bdqagzjadl3xavsvl86xmil8g15hkym4m1r"
   }
  },
  {
@@ -71847,15 +71848,15 @@
   "stable": {
    "version": [
     0,
-    11,
+    12,
     0
    ],
    "deps": [
     "dash",
     "loopy"
    ],
-   "commit": "771c1d1edd4dfec96b576b1d2b551e4aae066dc9",
-   "sha256": "1z1bi1ms5508iv5w1jmmlml2fay21dhgl2lzbv2is5mnkkv0s6di"
+   "commit": "fc0296ca155c32ad3455f36602b7b34f2163bfd7",
+   "sha256": "0pk9vp28mdcwbycj2bdqagzjadl3xavsvl86xmil8g15hkym4m1r"
   }
  },
  {
@@ -83983,14 +83984,14 @@
   "repo": "jackkamm/ob-reticulate",
   "unstable": {
    "version": [
-    20210214,
-    2229
+    20240224,
+    1615
    ],
    "deps": [
     "org"
    ],
-   "commit": "56f4d74f5a2218927aeacce61442b373a0a189e3",
-   "sha256": "1r93i00g79jclfcpd6rla7c80rm30avmi66fc1z0qqyfpf29kvy0"
+   "commit": "dc08d43df967b15446f3d229fdc6bd600b7ea0df",
+   "sha256": "0sa1y4n51kvq6i3y79dbsx703gmir7k7idj84pbr9fp9qfjal45i"
   }
  },
  {
@@ -88084,14 +88085,14 @@
   "repo": "minad/org-modern",
   "unstable": {
    "version": [
-    20240102,
-    329
+    20240224,
+    1614
    ],
    "deps": [
     "compat"
    ],
-   "commit": "5f056aad428a0e4207012a0efa447aacb74c75b9",
-   "sha256": "1h3j58csbrzvz6fkabp97yrv0gpjrv7c6idlxplfb7qibjhg2lvp"
+   "commit": "2ab56bdf6dda272a0b7655fb45a2f3f7cd0feb81",
+   "sha256": "1dpwnrv799p8jzvk25xv4al9hryn84525xsg5qz18wmk27yp95f7"
   },
   "stable": {
    "version": [
@@ -118575,11 +118576,11 @@
   "repo": "aimebertrand/timu-caribbean-theme",
   "unstable": {
    "version": [
-    20231022,
-    1816
+    20240224,
+    2028
    ],
-   "commit": "5fc2cad6c91748afa98d1df2b65b3b5329d21b03",
-   "sha256": "0hsn3q36pdgg4w2nxmszsr7d3n0wkc291i1v04nakknhw8fx6b0m"
+   "commit": "ec83fc030ad7c098637df6f3a56d844f8526c571",
+   "sha256": "0pf7sdcc6gpb5k8qmig7bgxhdqxl3jgah4wcvxcv8s8cfmmhrlfx"
   },
   "stable": {
    "version": [
@@ -118650,11 +118651,11 @@
   "repo": "aimebertrand/timu-rouge-theme",
   "unstable": {
    "version": [
-    20230911,
-    2116
+    20240224,
+    2040
    ],
-   "commit": "49df5e054c87044fdd941796f423a621b9495f70",
-   "sha256": "1v5srm1gbsy31384lys21hc4mj4xd7q3bkwhgjp8i9k0rrl0hrb8"
+   "commit": "2095a2bedb2682145407e149d1c2b1c0aa02a6f8",
+   "sha256": "0zzk4ydf245x8wz6sbmpnch614k7h0k8zyllw9x4l2paw4las5fv"
   },
   "stable": {
    "version": [
@@ -118673,11 +118674,11 @@
   "repo": "aimebertrand/timu-spacegrey-theme",
   "unstable": {
    "version": [
-    20231010,
-    2137
+    20240224,
+    2010
    ],
-   "commit": "fbe0aacc0d1010631ba8b2848b78e26514ce60c6",
-   "sha256": "0h8kkzgfz5hkynlynml0pgkq9j6fzzq33hl9ww8mq1gzzq6n62db"
+   "commit": "1cca501c9640a9f1d6bf717dc36df96d35deeeba",
+   "sha256": "13ymng05yvdx1pddnb8hwqs8drvgmkyhndqqahdcg3bd41qkijb6"
   },
   "stable": {
    "version": [
