@@ -1788,10 +1788,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.8.8";
+        version = "0.8.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.8.8.tar";
-          sha256 = "0h7dvymc1n6d6zapa3j9fc0q4dxi66wvpbycc2ps8zb6zm27q43b";
+          url = "https://elpa.gnu.org/packages/ellama-0.8.10.tar";
+          sha256 = "0ci1qss0mlv760xnkddjpk0ql2kj6i78kvgpm19pjk8z4fcasbly";
         };
         packageRequires = [ dash emacs llm spinner ];
         meta = {
@@ -2554,10 +2554,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.8";
+        version = "0.9.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.9.8.tar";
-          sha256 = "1z7y6fahwwkbzdd1xqqydall8gvjhv4hbg3p2rzq0if4fvcs7ik6";
+          url = "https://elpa.gnu.org/packages/greader-0.9.9.tar";
+          sha256 = "01wm71jpfs39vf921jrw2lz7fi8iq0ggnrbz9nc0bj6ghy9vpyaz";
         };
         packageRequires = [ emacs ];
         meta = {
