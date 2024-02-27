@@ -2105,10 +2105,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "18.0.20240211.172953";
+        version = "18.0.20240227.41419";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-18.0.20240211.172953.tar";
-          sha256 = "1y70n5f0xw05z5ri4gj13z5fyibygcff019zazmy3wq4idn2ff2z";
+          url = "https://elpa.gnu.org/devel/emms-18.0.20240227.41419.tar";
+          sha256 = "0wc969sh8mfvyy0nqwmx2nayqyb55wpnc81174kapkirsi6calxj";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -2822,10 +2822,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.10.0.20240226.152512";
+        version = "0.9.11.0.20240227.44902";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.9.10.0.20240226.152512.tar";
-          sha256 = "1jkdmfxki3x16ghk10y1iaqqbwhxhrv2zpq4bf59la1nd9b9hsd3";
+          url = "https://elpa.gnu.org/devel/greader-0.9.11.0.20240227.44902.tar";
+          sha256 = "13h0jg460ib0jqdy64wc6dm0303wdsf083lh1m28zgi953rq84n5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3898,10 +3898,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.3.0.0.20240226.81844";
+        version = "4.3.0.0.20240227.71529";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240226.81844.tar";
-          sha256 = "1gcj7m3l5jkmw4yimiprm7kyq6q6j9ib5v7pijcgnpvgj4cmmdjj";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240227.71529.tar";
+          sha256 = "0cgxyzfk2ygp3a57fsa8iakqwr6w8r40586irflqq06fvva39yvg";
         };
         packageRequires = [ emacs ];
         meta = {
