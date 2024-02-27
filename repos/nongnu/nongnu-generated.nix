@@ -306,10 +306,10 @@
       elpaBuild {
         pname = "buttercup";
         ename = "buttercup";
-        version = "1.33";
+        version = "1.34";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/buttercup-1.33.tar";
-          sha256 = "0245fq4iny1jnm440dzkq0fadw10ncnhkj28mayqs9iyyzj9g5h4";
+          url = "https://elpa.nongnu.org/nongnu/buttercup-1.34.tar";
+          sha256 = "0bdlky9d5fzc9x9wpjxyvrclz1rmzsnvc89lf0m5fhyp4r8jvxy4";
         };
         packageRequires = [ emacs ];
         meta = {
