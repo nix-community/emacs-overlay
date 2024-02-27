@@ -2822,10 +2822,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.9.0.20240225.103444";
+        version = "0.9.10.0.20240226.152512";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.9.9.0.20240225.103444.tar";
-          sha256 = "0zpg9vvrk93xq2drd34z6rd7xh2n7xqvm2g52fsm5cp00y6r079i";
+          url = "https://elpa.gnu.org/devel/greader-0.9.10.0.20240226.152512.tar";
+          sha256 = "1jkdmfxki3x16ghk10y1iaqqbwhxhrv2zpq4bf59la1nd9b9hsd3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3270,10 +3270,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.3.0.20240223.131200";
+        version = "1.3.0.20240226.191403";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.3.0.20240223.131200.tar";
-          sha256 = "1iyi3ayrjwp0xvsz4r03hwdlph0jw454xrlpy7j4spbwcq3s50yn";
+          url = "https://elpa.gnu.org/devel/jinx-1.3.0.20240226.191403.tar";
+          sha256 = "1npkhv3xbv50gzvfn0l7smqkjb66kk99009b88588qabvkrnzf8l";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3511,6 +3511,27 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/lin.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    listen = callPackage ({ elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib
+                          , persist
+                          , taxy
+                          , taxy-magit-section }:
+      elpaBuild {
+        pname = "listen";
+        ename = "listen";
+        version = "0.3pre0.20240226.115455";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/listen-0.3pre0.20240226.115455.tar";
+          sha256 = "0g7vw5lvawhc4s0g94wf4a397grw39kmp3kk2sci7lr0394032mb";
+        };
+        packageRequires = [ emacs persist taxy taxy-magit-section ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/listen.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -4311,10 +4332,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240225.113038";
+        version = "9.7pre0.20240226.125225";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240225.113038.tar";
-          sha256 = "0pdjln4ivmj1ydpvsx21zp8alya1xkiizp67m67vws0pqyp52nk6";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240226.125225.tar";
+          sha256 = "0pdn3x0nhrgnx5zpzs99x2v118rammyjfg559lpzj720ld6b63hf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5114,10 +5135,10 @@
       elpaBuild {
         pname = "rcirc-sqlite";
         ename = "rcirc-sqlite";
-        version = "0.1.3.0.20240215.94754";
+        version = "0.1.4.0.20240226.165830";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/rcirc-sqlite-0.1.3.0.20240215.94754.tar";
-          sha256 = "169d4pb204jns39p2xbh37psy9pyi6yhiywlm7ywn2c4fagwj2q2";
+          url = "https://elpa.gnu.org/devel/rcirc-sqlite-0.1.4.0.20240226.165830.tar";
+          sha256 = "1j16p0i9yyv229f4jcq10vwld01yda6gdv7n5a0ap0xk5qhaj67k";
         };
         packageRequires = [ emacs ];
         meta = {

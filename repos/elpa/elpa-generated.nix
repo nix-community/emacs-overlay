@@ -2554,10 +2554,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.9";
+        version = "0.9.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.9.9.tar";
-          sha256 = "01wm71jpfs39vf921jrw2lz7fi8iq0ggnrbz9nc0bj6ghy9vpyaz";
+          url = "https://elpa.gnu.org/packages/greader-0.9.10.tar";
+          sha256 = "1x4ygkgqwzlrsrb21bh92b3w227853vh6ygpwzfvmxkc4l0w5ajg";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3179,6 +3179,27 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/lin.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    listen = callPackage ({ elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib
+                          , persist
+                          , taxy
+                          , taxy-magit-section }:
+      elpaBuild {
+        pname = "listen";
+        ename = "listen";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/listen-0.2.tar";
+          sha256 = "0pb2p975597bmkjmf3b3gs8ldbb5rhwkhm1np999yhbb7xvl2gyq";
+        };
+        packageRequires = [ emacs persist taxy taxy-magit-section ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/listen.html";
           license = lib.licenses.free;
         };
       }) {};
@@ -4575,10 +4596,10 @@
       elpaBuild {
         pname = "rcirc-sqlite";
         ename = "rcirc-sqlite";
-        version = "0.1.3";
+        version = "0.1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rcirc-sqlite-0.1.3.tar";
-          sha256 = "1pwxkw6dzwbg5g3rxilpp6iy3mzxgpn0mw59i3dcx25hdyizqhip";
+          url = "https://elpa.gnu.org/packages/rcirc-sqlite-0.1.4.tar";
+          sha256 = "0hz0nm35jq6fg9pr4j725r2awxbf1q23bzn85nhcbpafzb8mmajl";
         };
         packageRequires = [ emacs ];
         meta = {
