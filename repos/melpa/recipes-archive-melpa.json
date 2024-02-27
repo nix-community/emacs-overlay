@@ -31645,16 +31645,16 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20240211,
-    2229
+    20240227,
+    414
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "9fec86dbb768b3b5714036d08129a20664f57657",
-   "sha256": "1ig6jaw1cg9pchgi864vp812pj66pp2q9crk74b3pfgi2viqg3bz"
+   "commit": "0593926d4ad957b9c6f5a9c32f3b4c98b27d239f",
+   "sha256": "0giiya8a3qxlj5bsrc3p2lfwawgil847wgk8jn3a05scjxxlczkv"
   },
   "stable": {
    "version": [
@@ -72383,8 +72383,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20240225,
-    1747
+    20240227,
+    300
    ],
    "deps": [
     "dash",
@@ -72395,8 +72395,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "dbf13a329c022a9cf33f4d9a91aebb21b0f43adf",
-   "sha256": "0pjzwcr0izrafd473f82r24sr0is6aqy70p31n5qaq9l3zn7mqvm"
+   "commit": "18500c39db345904d7da2eba3a324667ec61937d",
+   "sha256": "08nnhwfincb4383iwy2h01v4s5p91lnn86b0576iry7nv2h5za1v"
   },
   "stable": {
    "version": [
@@ -77691,11 +77691,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20240226,
-    818
+    20240227,
+    715
    ],
-   "commit": "bef8b24801cdd740de27450ddd782429841ddb97",
-   "sha256": "1yks8amnq11vj5vchyad68flygp49l2l9apzab36s75r0cg326cw"
+   "commit": "fb634dd64c27e930a8aa3a194b95dc99872d2e7b",
+   "sha256": "0qaf8k5iv5zrgwcxwnb0s256v9gf4y4wxj3fbp2ph0hasw8nwa61"
   },
   "stable": {
    "version": [
@@ -88257,15 +88257,15 @@
   "repo": "Zweihander-Main/org-newtab",
   "unstable": {
    "version": [
-    20240225,
-    420
+    20240227,
+    155
    ],
    "deps": [
     "async",
     "websocket"
    ],
-   "commit": "144cefe43f58440bd8acfebbbb959e25325e7a59",
-   "sha256": "028395d1igwiagq2m8ld34wvi068ajpa0wkcs7kck26a6mwh0zqr"
+   "commit": "eca494a43e242558bd8db24d321ad62a8ec86c02",
+   "sha256": "0xl16f45kgmggknb7fphda67vzz67z72kqcqk22bxq7mjbav96kg"
   },
   "stable": {
    "version": [
@@ -88277,8 +88277,8 @@
     "async",
     "websocket"
    ],
-   "commit": "144cefe43f58440bd8acfebbbb959e25325e7a59",
-   "sha256": "028395d1igwiagq2m8ld34wvi068ajpa0wkcs7kck26a6mwh0zqr"
+   "commit": "eca494a43e242558bd8db24d321ad62a8ec86c02",
+   "sha256": "0xl16f45kgmggknb7fphda67vzz67z72kqcqk22bxq7mjbav96kg"
   }
  },
  {
@@ -109606,11 +109606,11 @@
   "repo": "ideasman42/emacs-sidecar-locals",
   "unstable": {
    "version": [
-    20240225,
-    637
+    20240227,
+    151
    ],
-   "commit": "ea23076fb19c8d5477418b25215dd33e7d4ddbb5",
-   "sha256": "0w5rcdz0klhab86s3qnki2vbvfgrlxdck2hkzm3vmjlb3gjxq78l"
+   "commit": "2b2b765387f2cbae9935c3ee6e2a32aa8d68f1b8",
+   "sha256": "1nbdip04zdk583s0glbfa5g657vvhsia3h19nr6gwakvlkgv33wb"
   }
  },
  {
@@ -120094,26 +120094,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20240226,
-    429
+    20240227,
+    342
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "2ff60edbdf2a21ed899ecea402f1133d6ff398cb",
-   "sha256": "0qm9cw0417qgnnna3qhnxx14kvva798j308jm9va9fq6dkn02flw"
+   "commit": "b6fd6758c7ea359363ab2761f3c4396981bb5329",
+   "sha256": "1c78qnyh18pg63xnhvamvrk7jb653yyac9rnl3wddp18dw3p5g01"
   },
   "stable": {
    "version": [
     0,
     12,
-    142
+    143
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "2ff60edbdf2a21ed899ecea402f1133d6ff398cb",
-   "sha256": "0qm9cw0417qgnnna3qhnxx14kvva798j308jm9va9fq6dkn02flw"
+   "commit": "b6fd6758c7ea359363ab2761f3c4396981bb5329",
+   "sha256": "1c78qnyh18pg63xnhvamvrk7jb653yyac9rnl3wddp18dw3p5g01"
   }
  },
  {
