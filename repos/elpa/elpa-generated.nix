@@ -2554,10 +2554,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.14";
+        version = "0.9.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.9.14.tar";
-          sha256 = "113j0j7w7lwq2xlk82xrhh4zsdma1ym81flc4dps1539maqa5dqw";
+          url = "https://elpa.gnu.org/packages/greader-0.9.15.tar";
+          sha256 = "12xpa3213fialdvggv3bk5bqbmnn7zzj7da83k1wvz1hb98c2zmm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5710,10 +5710,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.2.1";
+        version = "2.6.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.6.2.1.tar";
-          sha256 = "145riknpdvw7rvpz20m766yci3w012f241mw38pbbb9cb8pn2rbf";
+          url = "https://elpa.gnu.org/packages/tramp-2.6.2.2.tar";
+          sha256 = "0bbsff2qr71f70nxhdi19b3jzpv6bgfb7x7qkrccsygvsvgyrb2h";
         };
         packageRequires = [ emacs ];
         meta = {
