@@ -479,16 +479,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    crux = callPackage ({ elpaBuild, fetchurl, lib, seq }:
+    crux = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "crux";
         ename = "crux";
-        version = "0.4.0";
+        version = "0.5.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/crux-0.4.0.tar";
-          sha256 = "01yg54s2l3zr4h7h3nw408bqzrr4yds9rfgc575b76006v5d3ciy";
+          url = "https://elpa.nongnu.org/nongnu/crux-0.5.0.tar";
+          sha256 = "0zdzfglzvhkzyvnkk2d217c6f8gnbcxlp8adimwrxgqh7c6gwihp";
         };
-        packageRequires = [ seq ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/crux.html";
           license = lib.licenses.free;
@@ -2682,10 +2682,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20240222.110701";
+        version = "1.0.20240229.94646";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20240222.110701.tar";
-          sha256 = "11zv6mhxfwjfs9bfkhna7nspw306s6g4q00g2sm5fh0rqg567n04";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20240229.94646.tar";
+          sha256 = "1f0jy9qxw8ama4qqkp2h7rj6ivjvrkqhiw5bp216yzcbb93nzzbq";
         };
         packageRequires = [ emacs ];
         meta = {
