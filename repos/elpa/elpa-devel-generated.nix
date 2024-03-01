@@ -976,10 +976,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20240218.181202";
+        version = "0.10.2.0.20240301.34611";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240218.181202.tar";
-          sha256 = "0w170l9br7cxq8ili7jba89qx45wfkhqbz0yrvmmwa27qh2nz4ki";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240301.34611.tar";
+          sha256 = "1nj6ps7hhrhzkvvgzypzdz9cdk90k7r99w0jbi546jbw15mf10qk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1323,10 +1323,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.7.0.0.20240229.172704";
+        version = "0.7.0.0.20240229.230543";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240229.172704.tar";
-          sha256 = "1vjyrk8ggllxn4i6g9jnspqq3hxwpx8h173nacxcxdxq2bwxbj0n";
+          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240229.230543.tar";
+          sha256 = "0ig95f6a8s51v3vr0rm0081p9rrknvfaziynw881dpdzmw37jv0b";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -3816,10 +3816,10 @@
       elpaBuild {
         pname = "mct";
         ename = "mct";
-        version = "1.0.0.0.20240214.72309";
+        version = "1.0.0.0.20240301.60541";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/mct-1.0.0.0.20240214.72309.tar";
-          sha256 = "0iqv403ikrj4fpbbs01wcmm94klifr71mlx6kb5n1cxf4i12f8s9";
+          url = "https://elpa.gnu.org/devel/mct-1.0.0.0.20240301.60541.tar";
+          sha256 = "0skrb2wzcwccfyarsy257v4xr750dygdhj3zy48hjk3x1ypjixj8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4384,10 +4384,10 @@
       elpaBuild {
         pname = "orderless";
         ename = "orderless";
-        version = "1.0.0.20240225.124252";
+        version = "1.0.0.20240229.191501";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/orderless-1.0.0.20240225.124252.tar";
-          sha256 = "0lypc0ixhhrfrck0z78rd4al9ljd9aybc6vaqxmzla7pfw9n7jl9";
+          url = "https://elpa.gnu.org/devel/orderless-1.0.0.20240229.191501.tar";
+          sha256 = "0x5jwww2qz949kw1x4yh2wzx5krg8vcm2sp6qxf8ril77qkp5xvv";
         };
         packageRequires = [ emacs ];
         meta = {
