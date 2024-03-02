@@ -941,10 +941,10 @@
       elpaBuild {
         pname = "comint-mime";
         ename = "comint-mime";
-        version = "0.3.0.20231008.111300";
+        version = "0.4.0.20240302.74422";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/comint-mime-0.3.0.20231008.111300.tar";
-          sha256 = "184811v36aa080fx2xkpx1p7fmd1s739apxryywpmisjq9alkkl9";
+          url = "https://elpa.gnu.org/devel/comint-mime-0.4.0.20240302.74422.tar";
+          sha256 = "0zgna6h5v2mgmlkxyxla0faf3xrs13mv62xayyf3ddrhjgk82ggb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -976,10 +976,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20240301.34611";
+        version = "0.10.2.0.20240302.51303";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240301.34611.tar";
-          sha256 = "1nj6ps7hhrhzkvvgzypzdz9cdk90k7r99w0jbi546jbw15mf10qk";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240302.51303.tar";
+          sha256 = "04gnhb6b2ls57r4bq0zy0hgs2k2pnmz5yfymhbnb8xahh9bfyyia";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2120,10 +2120,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "18.0.20240301.164825";
+        version = "18.0.20240302.10800";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-18.0.20240301.164825.tar";
-          sha256 = "0alv37zr2aca2fbjw1fy0dcxdcl09pbsl7j317l2hc3n6353bbd7";
+          url = "https://elpa.gnu.org/devel/emms-18.0.20240302.10800.tar";
+          sha256 = "0ck4ckq2hw9fhass341b8rglgd7bg8igi12gmdxblcm3vy7wyn9n";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -3965,10 +3965,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.3.0.0.20240227.71529";
+        version = "4.3.0.0.20240302.55033";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240227.71529.tar";
-          sha256 = "0cgxyzfk2ygp3a57fsa8iakqwr6w8r40586irflqq06fvva39yvg";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240302.55033.tar";
+          sha256 = "0x95gkaypcm4avp669c6hiylbxgg1b64iyrl9a51rvp2sy97kahk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7395,10 +7395,10 @@
       elpaBuild {
         pname = "yasnippet";
         ename = "yasnippet";
-        version = "0.14.1.0.20240215.153445";
+        version = "0.14.1.0.20240301.182746";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/yasnippet-0.14.1.0.20240215.153445.tar";
-          sha256 = "121b54xh9jsqcb2x1a5r9nd1c3i5ayka932xd47z09ps46zlvpsr";
+          url = "https://elpa.gnu.org/devel/yasnippet-0.14.1.0.20240301.182746.tar";
+          sha256 = "000p2lc0c1sx3jwrmb637x2bgliymb14vpshr8y8n4p98idfvh0y";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
