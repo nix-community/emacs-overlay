@@ -1323,10 +1323,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.7.0.0.20240229.230543";
+        version = "0.7.0.0.20240301.171522";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240229.230543.tar";
-          sha256 = "0ig95f6a8s51v3vr0rm0081p9rrknvfaziynw881dpdzmw37jv0b";
+          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240301.171522.tar";
+          sha256 = "0dk4knhrycfixg4k4anx7ydwpmvk62sw8d1b75qsr26nkm7pv062";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1468,10 +1468,10 @@
       elpaBuild {
         pname = "devdocs";
         ename = "devdocs";
-        version = "0.5.0.20231127.190545";
+        version = "0.5.0.20240301.183845";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/devdocs-0.5.0.20231127.190545.tar";
-          sha256 = "19w6fdw6j3qpmm88nymym3h012yi6mc22bdzm6pr4m39d8m4qbqx";
+          url = "https://elpa.gnu.org/devel/devdocs-0.5.0.20240301.183845.tar";
+          sha256 = "07l9078vrqdhrl68p89fb20vr6hir24m8nh53h2hw5ygksanrhbs";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2120,10 +2120,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "18.0.20240227.41419";
+        version = "18.0.20240301.164825";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-18.0.20240227.41419.tar";
-          sha256 = "0wc969sh8mfvyy0nqwmx2nayqyb55wpnc81174kapkirsi6calxj";
+          url = "https://elpa.gnu.org/devel/emms-18.0.20240301.164825.tar";
+          sha256 = "0alv37zr2aca2fbjw1fy0dcxdcl09pbsl7j317l2hc3n6353bbd7";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -3304,10 +3304,10 @@
       elpaBuild {
         pname = "jit-spell";
         ename = "jit-spell";
-        version = "0.3.0.20230826.155115";
+        version = "0.3.0.20240301.183327";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jit-spell-0.3.0.20230826.155115.tar";
-          sha256 = "08aamxml469jkyxsrg7nalc3ajfps4i2a639hix45w4wv48s20zi";
+          url = "https://elpa.gnu.org/devel/jit-spell-0.3.0.20240301.183327.tar";
+          sha256 = "0snycpvy12d86wpx90vw01zr105vijmy2kyxbwgirywmisj7fzzd";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3573,10 +3573,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.4.0.20240229.121505";
+        version = "0.5pre0.20240301.120645";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.4.0.20240229.121505.tar";
-          sha256 = "000a85vgx4h9k11ka536g8y1bh00v3lpwyw3razii75kzyky86lb";
+          url = "https://elpa.gnu.org/devel/listen-0.5pre0.20240301.120645.tar";
+          sha256 = "03w7mphbdplvi3szb662d7blzr47nmrkk16ndj1z2xv3q67106m6";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section ];
         meta = {
@@ -6928,10 +6928,10 @@
       elpaBuild {
         pname = "verilog-mode";
         ename = "verilog-mode";
-        version = "2023.6.6.141322628.0.20240102.22814";
+        version = "2024.3.1.121933719.0.20240301.121107";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/verilog-mode-2023.6.6.141322628.0.20240102.22814.tar";
-          sha256 = "0zp9nasy8vd3b047bjpiyvl2c0l4k03nbba4yga5a77jkg7mzsh1";
+          url = "https://elpa.gnu.org/devel/verilog-mode-2024.3.1.121933719.0.20240301.121107.tar";
+          sha256 = "0da3ljzbv39g1710gbdkzs1byyw05j6dhlf9vyx4126fmgbvqv2n";
         };
         packageRequires = [];
         meta = {

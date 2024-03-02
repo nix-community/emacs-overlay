@@ -6127,10 +6127,10 @@
       elpaBuild {
         pname = "verilog-mode";
         ename = "verilog-mode";
-        version = "2023.6.6.141322628";
+        version = "2024.3.1.121933719";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/verilog-mode-2023.6.6.141322628.tar";
-          sha256 = "14qls4v5yxrgyiimvvggimw5ddlx0ll387a1r6awm274rj4p3d19";
+          url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
+          sha256 = "047kna2j1mbsibw1psxdp8qmg91dnjrdrskdzhys9pmaqggfl5ry";
         };
         packageRequires = [];
         meta = {
