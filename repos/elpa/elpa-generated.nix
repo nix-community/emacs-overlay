@@ -3338,6 +3338,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    m-buffer = callPackage ({ elpaBuild, fetchurl, lib, seq }:
+      elpaBuild {
+        pname = "m-buffer";
+        ename = "m-buffer";
+        version = "0.16";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/m-buffer-0.16.tar";
+          sha256 = "1mb03hrszxxsk61yvh70rnkn7iiwx1vx6n1br02clkpn2q2c0mq5";
+        };
+        packageRequires = [ seq ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/m-buffer.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     map = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "map";
