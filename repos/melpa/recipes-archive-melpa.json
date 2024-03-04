@@ -3893,11 +3893,11 @@
   "repo": "Greybeard-Entertainment/app-monochrome",
   "unstable": {
    "version": [
-    20240228,
-    1146
+    20240303,
+    1628
    ],
-   "commit": "182a6e562729f59ad440cb5006de2ba2160f23b2",
-   "sha256": "1raxgkw7dd6iq6148i2xb1zvw5x5an0gn42jgzp9k1fpxbklflgb"
+   "commit": "84de8c0424cd51feaf758cc636d9864e7311864c",
+   "sha256": "0m7ka3zwfka5d484j5v6f96jr5n8rs4qbb8vvw5r2nhky9ji4cna"
   }
  },
  {
@@ -4398,14 +4398,14 @@
   "repo": "phillord/assess",
   "unstable": {
    "version": [
-    20231120,
-    1701
+    20240303,
+    1454
    ],
    "deps": [
     "m-buffer"
    ],
-   "commit": "2399936d5b75094ed0e131b3f9d48041005383e2",
-   "sha256": "1a1c6f4d8mbygrl20kxlvrjcgvvbzv4zr7hhqkzywvnazf2kvj16"
+   "commit": "cadeb24a5d8261fad4bdfdc09e7d571cc395a6ca",
+   "sha256": "1vnqi3czhi0dp60rrdskyzakj3kvb7bacv9l5w8488l45wszr17d"
   },
   "stable": {
    "version": [
@@ -12013,14 +12013,14 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20240227,
-    2313
+    20240303,
+    2054
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "d09df22aa125c5c88dc7d363693f08ff18f490c9",
-   "sha256": "0dmfxc1k6ma3z6nrxq8lcqc3vw033g0pk4f7z53z2vq9yvixbam0"
+   "commit": "94a99f9d5613847ab660dec623040e87b52fa7d4",
+   "sha256": "150b50h8zd1jdpdrmz3mj6n438wcj8mp8sfwb8vgbgv02wzviwfz"
   }
  },
  {
@@ -25981,11 +25981,11 @@
   "url": "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git",
   "unstable": {
    "version": [
-    20231220,
-    35
+    20240303,
+    1522
    ],
-   "commit": "767ae6e9c2222e689272089a96f9545f1eb5552c",
-   "sha256": "1dhq1vdwggl8wz812v2r9ipmz35yry3ylkm851p11wizv0z91whm"
+   "commit": "69b294694c57d8e7571fada6a6651c40d266285e",
+   "sha256": "05zyjc0wcx70b1fzxhh8pwnhvmza03afqxvvbmip7hcxnyf2wajy"
   },
   "stable": {
    "version": [
@@ -31859,6 +31859,39 @@
    ],
    "commit": "bcc056364df5f405716006a8b7bb90102a57f62f",
    "sha256": "0kz31qsn3nrpi8r31nlxlkkkah0qcdkq9a9i9ypv4ky7pvnzx6m5"
+  }
+ },
+ {
+  "ename": "emms-player-spotify",
+  "commit": "e83ca8e7027f3886a6322664f2c8bcca12f1c83a",
+  "sha256": "1v1wpdhjsjdj19swhh2xc7l1b7ls1q197pb63xmw4633vvlij8g4",
+  "fetcher": "github",
+  "repo": "sarg/emms-spotify",
+  "unstable": {
+   "version": [
+    20240302,
+    2106
+   ],
+   "deps": [
+    "compat",
+    "emms",
+    "s"
+   ],
+   "commit": "3b1e8e5b5306173940d311191b13e2ace4d048b9",
+   "sha256": "1z96pwax3igw5sprk48v4wgxp2pb9qjfbp0dm5jqxqrmhza0qici"
+  },
+  "stable": {
+   "version": [
+    0,
+    1
+   ],
+   "deps": [
+    "compat",
+    "emms",
+    "s"
+   ],
+   "commit": "3b1e8e5b5306173940d311191b13e2ace4d048b9",
+   "sha256": "1z96pwax3igw5sprk48v4wgxp2pb9qjfbp0dm5jqxqrmhza0qici"
   }
  },
  {
@@ -43478,13 +43511,13 @@
   "unstable": {
    "version": [
     20240303,
-    212
+    1942
    ],
    "deps": [
     "compat"
    ],
-   "commit": "870012d34daba5d2ca44c8c060fd74f1ed48e28f",
-   "sha256": "0b00pjzriv3cz3qylzfw2wsjf0zvj3hvqxf57ln50valz95ng60n"
+   "commit": "371854904ec4baba50393ef5a30ac61f8048a6bf",
+   "sha256": "1wx13kv45c9gamr89776whz7m7kg2i8k059pl3hbcrmzsvdbly1s"
   },
   "stable": {
    "version": [
@@ -47893,20 +47926,20 @@
   "repo": "sshaw/git-link",
   "unstable": {
    "version": [
-    20230518,
-    204
+    20240303,
+    1546
    ],
-   "commit": "aded95807f277f30e1607313bdf9ac9a016a2305",
-   "sha256": "0mxhmza01837hqq1pfi6jf8y2bw48k74bccddlzngaa22xiz1d21"
+   "commit": "14156291e0eb7156bd779a80c17e1935a7f8f5e5",
+   "sha256": "1dxmzk4qrz69h097lwshfg4qavdp92an5212ndhjkpmkgvk1v0xl"
   },
   "stable": {
    "version": [
     0,
-    8,
-    6
+    9,
+    1
    ],
-   "commit": "f5691f8c66eb0f6050d9ab3834ab32661244b378",
-   "sha256": "1ifq9z4p0rbz2bpm6qz89xg5ycn5fflsyradzzxzsgyys0zc6szx"
+   "commit": "14156291e0eb7156bd779a80c17e1935a7f8f5e5",
+   "sha256": "1dxmzk4qrz69h097lwshfg4qavdp92an5212ndhjkpmkgvk1v0xl"
   }
  },
  {
@@ -61589,11 +61622,11 @@
   "repo": "jcs-elpa/indent-control",
   "unstable": {
    "version": [
-    20240101,
-    940
+    20240303,
+    2359
    ],
-   "commit": "27a545181d629e286009d313c60ce10abc407610",
-   "sha256": "0i9ny5pfxcjf1bp9jxgsy2k88xgvllc46pbg3niyw4hrvzk9nwbx"
+   "commit": "4ede831b8680946f8e4a6cafd4f522c464160c00",
+   "sha256": "0pjd6mdhf5x9nkm2g5bqgav6ii15gs8d74kj3bigqkfv0m3q5s53"
   },
   "stable": {
    "version": [
@@ -66252,8 +66285,8 @@
   "repo": "gcv/julia-snail",
   "unstable": {
    "version": [
-    20240227,
-    1914
+    20240303,
+    2335
    ],
    "deps": [
     "dash",
@@ -66262,8 +66295,8 @@
     "s",
     "spinner"
    ],
-   "commit": "4a0adf835dc650adcbec51bd0792ef53efbad65b",
-   "sha256": "1jphpyhg52c2gm8dkz42s3nsyb4b1bg9n4vx8qncn1flclczkgcz"
+   "commit": "a51972b3644f184f6caaf05ef788a2e0f742573c",
+   "sha256": "031dwn877yq59gk1jyin9a0k4dxf55ah2pc24jgyjg1xnpljhmbb"
   },
   "stable": {
    "version": [
@@ -76779,20 +76812,26 @@
   "repo": "liuyinz/mini-echo.el",
   "unstable": {
    "version": [
-    20240220,
-    1934
+    20240303,
+    1626
    ],
-   "commit": "f25a2f543b3e9fa5043ef37c81c17fc15aceb534",
-   "sha256": "1nbwwf087v1mp5vbmasxqnmbrsgzgm87yd5ajq1hnfxd412w3vhx"
+   "deps": [
+    "hide-mode-line"
+   ],
+   "commit": "9e01966d56514aa1fe9b7cc281da390ab33532d1",
+   "sha256": "0q4hvbypnjg5q1szwki2md45r5kkdxrr4zxqh57y7d53idjzhpnf"
   },
   "stable": {
    "version": [
     0,
-    7,
-    2
+    8,
+    0
    ],
-   "commit": "f25a2f543b3e9fa5043ef37c81c17fc15aceb534",
-   "sha256": "1nbwwf087v1mp5vbmasxqnmbrsgzgm87yd5ajq1hnfxd412w3vhx"
+   "deps": [
+    "hide-mode-line"
+   ],
+   "commit": "9e01966d56514aa1fe9b7cc281da390ab33532d1",
+   "sha256": "0q4hvbypnjg5q1szwki2md45r5kkdxrr4zxqh57y7d53idjzhpnf"
   }
  },
  {
@@ -129184,14 +129223,14 @@
   "url": "https://git.thanosapollo.org/yeetube",
   "unstable": {
    "version": [
-    20240229,
-    2027
+    20240303,
+    2047
    ],
    "deps": [
     "compat"
    ],
-   "commit": "68f9f626e3eb63c1bcdc49c958eefc0ff3536f09",
-   "sha256": "11c05dxan56bpxj9djj4l37ys9ddqfvdf9al6s31vbwvg1ifphh9"
+   "commit": "0c2171c105f1b62b4aa6cf4ac961c14d6672dfd0",
+   "sha256": "1hsp24pxlprkr0007ihgij0dmq4617w4i2jdbphk7dnfiifmh20k"
   },
   "stable": {
    "version": [
