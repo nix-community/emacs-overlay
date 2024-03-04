@@ -2569,10 +2569,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.16";
+        version = "0.9.17";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.9.16.tar";
-          sha256 = "10gf2i1xmldb1ly8cl65i9c8y9n05y1yg9kmmhvrny306d1z09id";
+          url = "https://elpa.gnu.org/packages/greader-0.9.17.tar";
+          sha256 = "1j4chb0whkqqzrgcwbi2k88rm6i9rkaxpqpxnpw78r4skpfc37bl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5281,10 +5281,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.3.0";
+        version = "0.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/spacious-padding-0.3.0.tar";
-          sha256 = "1iiaxgl18k8hkwwyz3qnargv6q8kwzyh39ai46k5xbpmyrsj4b16";
+          url = "https://elpa.gnu.org/packages/spacious-padding-0.4.0.tar";
+          sha256 = "0jgfrzmgisjw23qmc7vh9xll2ac8ahaznrpyxip38pivgabilfrv";
         };
         packageRequires = [ emacs ];
         meta = {

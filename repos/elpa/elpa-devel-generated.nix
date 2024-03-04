@@ -1323,10 +1323,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.7.0.0.20240303.115943";
+        version = "0.7.0.0.20240303.225540";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240303.115943.tar";
-          sha256 = "1njkllf14lvp6m6azz5nwdcrd2ir1p2kf55xbrxavvj032g45mn0";
+          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240303.225540.tar";
+          sha256 = "0mb2hzmq3a0vgrq7aj9hx6ralfy0y5hhawcnl2bbpj658mhkkvi5";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1870,10 +1870,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240205.0.20240228.175927";
+        version = "20240205.0.20240303.193726";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240205.0.20240228.175927.tar";
-          sha256 = "12sgwa1idy11k7lmpmnl0csbmxhplgnidz3274bvb4s6r49qiv35";
+          url = "https://elpa.gnu.org/devel/eev-20240205.0.20240303.193726.tar";
+          sha256 = "02wywyz81gl507q37zaj7qfl83q9x5zxpmgl2ypad5c4s3i480kd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2837,10 +2837,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.16.0.20240229.65507";
+        version = "0.9.17.0.20240304.34838";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.9.16.0.20240229.65507.tar";
-          sha256 = "0pcs4y8ylxdhiyf7xlp9qxva98rwjyvb98izmyhbbxv9yz1fmlyw";
+          url = "https://elpa.gnu.org/devel/greader-0.9.17.0.20240304.34838.tar";
+          sha256 = "0iyqf35q6rniscazsg86838ggbn9ivllbzzmwppibbwsy9b4n9qy";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3023,10 +3023,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "8.0.2pre0.20240303.151712";
+        version = "8.0.2pre0.20240304.5354";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-8.0.2pre0.20240303.151712.tar";
-          sha256 = "1ljn9v6dlzkr8s69i2n8axgwi349s3da7bizpsli90s8vbgkqimw";
+          url = "https://elpa.gnu.org/devel/hyperbole-8.0.2pre0.20240304.5354.tar";
+          sha256 = "0rnprixfs7ccwid1mq9wf1v0n56dmpj2fvks275h2ra3hwahqnln";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5903,10 +5903,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.3.0.0.20240228.60756";
+        version = "0.4.0.0.20240304.83852";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/spacious-padding-0.3.0.0.20240228.60756.tar";
-          sha256 = "1kighj249ck5xq9nckzcv53lnmi1pxxwkv46sdj472h3b2ppxgci";
+          url = "https://elpa.gnu.org/devel/spacious-padding-0.4.0.0.20240304.83852.tar";
+          sha256 = "0ychhzr8zq97jydw0bi5qr7wgaak15frm315gjw534jx6b4wzzrf";
         };
         packageRequires = [ emacs ];
         meta = {
