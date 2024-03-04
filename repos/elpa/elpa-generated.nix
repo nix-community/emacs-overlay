@@ -261,6 +261,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    assess = callPackage ({ elpaBuild, emacs, fetchurl, lib, m-buffer }:
+      elpaBuild {
+        pname = "assess";
+        ename = "assess";
+        version = "0.7";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/assess-0.7.tar";
+          sha256 = "0ixs6ab5j12q69bn9h423a6c7mpc7r5spf6m039x3rl14yc04cy4";
+        };
+        packageRequires = [ emacs m-buffer ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/assess.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     async = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "async";
@@ -3134,6 +3149,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/leaf.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    lentic = callPackage ({ dash, elpaBuild, emacs, fetchurl, lib, m-buffer }:
+      elpaBuild {
+        pname = "lentic";
+        ename = "lentic";
+        version = "0.12";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/lentic-0.12.tar";
+          sha256 = "15sb126sq5aw3n09vqydmsl1l5svfar70iz42hnqi783cpw1lh0m";
+        };
+        packageRequires = [ dash emacs m-buffer ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/lentic.html";
           license = lib.licenses.free;
         };
       }) {};
