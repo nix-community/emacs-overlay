@@ -34,10 +34,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.5.1";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/activities-0.5.1.tar";
-          sha256 = "0ng9sgajcpal881s3kavkmz0fc38f2h207hpqj62cf14z7bsk0zk";
+          url = "https://elpa.gnu.org/packages/activities-0.6.tar";
+          sha256 = "03dc2d9w40qp0qacv5vk49498qyb9y9n6ppd79jbglkpr0a60y21";
         };
         packageRequires = [ emacs persist ];
         meta = {
