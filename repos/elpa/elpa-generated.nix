@@ -3222,10 +3222,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.4";
+        version = "0.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/listen-0.4.tar";
-          sha256 = "1m8nli6qrqpmj9q3msx5djjnkndn9r44irdwcqapk5vbihac5gbh";
+          url = "https://elpa.gnu.org/packages/listen-0.5.tar";
+          sha256 = "1rnx3m433dvi5nv01xasihhdkm1xdsvx96rbsa0aws0wbz4pjwda";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section ];
         meta = {

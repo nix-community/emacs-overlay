@@ -1323,10 +1323,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.7.0.0.20240305.95755";
+        version = "0.7.0.0.20240306.82335";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240305.95755.tar";
-          sha256 = "1i0zrxjvnjxy7w55mk78ypmxldp1zp6byaafj0kn1zgsr6bn10gh";
+          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240306.82335.tar";
+          sha256 = "0inskw0x2zhn2b29rmgx5pcyh2i2wpxmxj2xybjpb76w95nr580s";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1416,10 +1416,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.4.0.20240305.95458";
+        version = "2.2.4.0.20240306.82942";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240305.95458.tar";
-          sha256 = "1jjrwk050bpgmr5gkyn9q8713kqw9n06saig237x8xbw0ppgywv7";
+          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240306.82942.tar";
+          sha256 = "07napdvcbacd05ww7k569sjy024q32wik9gnym6x21fb7jb2cprq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1870,10 +1870,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240205.0.20240304.225148";
+        version = "20240205.0.20240306.30650";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240205.0.20240304.225148.tar";
-          sha256 = "1v6by6ikmcvrwxxv4mnwhfk31jhcv44pafs3wsg1cdhl4wlafwic";
+          url = "https://elpa.gnu.org/devel/eev-20240205.0.20240306.30650.tar";
+          sha256 = "0g9z3z5cvwd1n05gbmdf4jqx725q3g4xhc0z28h9xrlgk6g1wsca";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3573,10 +3573,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.5pre0.20240304.204629";
+        version = "0.6pre0.20240306.24143";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.5pre0.20240304.204629.tar";
-          sha256 = "1652jf4hnzi2sad2i9isfsr25wvp6sxsy191a24gjjwgynljxymf";
+          url = "https://elpa.gnu.org/devel/listen-0.6pre0.20240306.24143.tar";
+          sha256 = "13m4skpmqj5xmihp0w5vhv8i22l3gyp7mjrd3wgm8s9m290gh7v4";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section ];
         meta = {
