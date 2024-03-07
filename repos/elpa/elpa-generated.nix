@@ -2569,10 +2569,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.17";
+        version = "0.9.18";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.9.17.tar";
-          sha256 = "1j4chb0whkqqzrgcwbi2k88rm6i9rkaxpqpxnpw78r4skpfc37bl";
+          url = "https://elpa.gnu.org/packages/greader-0.9.18.tar";
+          sha256 = "1m0ikwxkwd7mmn9ryf3jhwk686ammc3qhd1ymlqgz57rgvaxb9jr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4911,10 +4911,10 @@
       elpaBuild {
         pname = "rt-liberation";
         ename = "rt-liberation";
-        version = "6";
+        version = "7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rt-liberation-6.tar";
-          sha256 = "1l87q2h1hqm5zpg1fz835gmbf5fgl9fvcqg42c17v6kim4has8zd";
+          url = "https://elpa.gnu.org/packages/rt-liberation-7.tar";
+          sha256 = "0gb1an3a68ib27jrc8x8grq5z3xya4b1gl8ii82a1clzf87n7k63";
         };
         packageRequires = [];
         meta = {

@@ -1323,10 +1323,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.7.0.0.20240306.82335";
+        version = "0.7.0.0.20240306.130846";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240306.82335.tar";
-          sha256 = "0inskw0x2zhn2b29rmgx5pcyh2i2wpxmxj2xybjpb76w95nr580s";
+          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240306.130846.tar";
+          sha256 = "1d2kzda5s428p8k2sr38bi3ck9lgkbbsb13g0hng5xgz4m8rp6jm";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1802,10 +1802,10 @@
       elpaBuild {
         pname = "ebdb";
         ename = "ebdb";
-        version = "0.8.22.0.20240117.72338";
+        version = "0.8.22.0.20240305.123820";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ebdb-0.8.22.0.20240117.72338.tar";
-          sha256 = "0x7kccnwka9ajbc21mwli2x00ysh3gzadwrjf89aq7xy8ixkx56f";
+          url = "https://elpa.gnu.org/devel/ebdb-0.8.22.0.20240305.123820.tar";
+          sha256 = "1y680dfqvmbpq75ylgw16jx0p7hyggi12bb1f0c7z0w0y473gdj0";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -2837,10 +2837,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.17.0.20240304.34838";
+        version = "0.9.18.0.20240306.165821";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.9.17.0.20240304.34838.tar";
-          sha256 = "0iyqf35q6rniscazsg86838ggbn9ivllbzzmwppibbwsy9b4n9qy";
+          url = "https://elpa.gnu.org/devel/greader-0.9.18.0.20240306.165821.tar";
+          sha256 = "10819n097zj5h3dlr9xfnps6apkn60x29ysl0qz3rlsciv18ycpf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3767,10 +3767,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.5.0.20240105.70159";
+        version = "1.5.0.20240306.124156";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/marginalia-1.5.0.20240105.70159.tar";
-          sha256 = "1x1n95scr1f6b3c6ymgi7hh7dl9z6ifiwgxyh29d657mn1sifxl9";
+          url = "https://elpa.gnu.org/devel/marginalia-1.5.0.20240306.124156.tar";
+          sha256 = "13zxwk6px6x4kil6vvc75cvvqsfnz48sw7g2y54xv30cdi7fz38n";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4384,10 +4384,10 @@
       elpaBuild {
         pname = "orderless";
         ename = "orderless";
-        version = "1.0.0.20240305.185733";
+        version = "1.0.0.20240306.165915";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/orderless-1.0.0.20240305.185733.tar";
-          sha256 = "0a5mzva1aj4zkassqy47hbjkplj302a6afmc71d0g76j10i0ig5r";
+          url = "https://elpa.gnu.org/devel/orderless-1.0.0.20240306.165915.tar";
+          sha256 = "1ga4i0va0hw50mb468q6ln78858ypjsib92l339xvjnccik5h004";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4399,10 +4399,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240305.80221";
+        version = "9.7pre0.20240306.103656";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240305.80221.tar";
-          sha256 = "10wxmw8f273ykh4bq54pjs3pkgmiyc8pff3773svgfysji18wbxj";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240306.103656.tar";
+          sha256 = "0zj8s1v265r0wvgkzglk96ca6g9pp4m0m7j8daa54x2snq9vkwbk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5483,10 +5483,10 @@
       elpaBuild {
         pname = "rt-liberation";
         ename = "rt-liberation";
-        version = "6.0.20231204.173138";
+        version = "7.0.20240306.83828";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/rt-liberation-6.0.20231204.173138.tar";
-          sha256 = "0z6988s3hnbh4l5crn3m1ilz94dvsi8d11khjb45qdkmdpzvdmh3";
+          url = "https://elpa.gnu.org/devel/rt-liberation-7.0.20240306.83828.tar";
+          sha256 = "1bykgygci149vn2s722xg5bn0kp6srjb8mf5rygvy5h32lfdc4r9";
         };
         packageRequires = [];
         meta = {
