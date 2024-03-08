@@ -3981,10 +3981,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.20";
+        version = "9.6.21";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.20.tar";
-          sha256 = "1i5m618svpmbjgc08d9ll8hx6dvbi36h68m1y0d1gjl834gnw99r";
+          url = "https://elpa.gnu.org/packages/org-9.6.21.tar";
+          sha256 = "1hr97lardc1g3yxvqvanw91r96br4kj303zs3184bd2a9vm4y93f";
         };
         packageRequires = [ emacs ];
         meta = {
