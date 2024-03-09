@@ -1668,10 +1668,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240205";
+        version = "20240309";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20240205.tar";
-          sha256 = "06psmcf3yi7pincsbhjrcrml0wzwgmlv6xy2fbpg1sg8vlibbgi3";
+          url = "https://elpa.gnu.org/packages/eev-20240309.tar";
+          sha256 = "0j9hz5raxrk3d2ashbsp9yvi04d5ap0chb4lpljr4pbh2lnyjr4h";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3222,10 +3222,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/listen-0.5.tar";
-          sha256 = "1rnx3m433dvi5nv01xasihhdkm1xdsvx96rbsa0aws0wbz4pjwda";
+          url = "https://elpa.gnu.org/packages/listen-0.6.tar";
+          sha256 = "0ax9xsbr460wr7sihr5d5fk0mz4ny6kvpjy8ri6vzb11cfgm5y53";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section ];
         meta = {
