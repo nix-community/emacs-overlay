@@ -674,10 +674,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.3";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cape-1.3.tar";
-          sha256 = "1178f6js821zcmsc3zrlclnaf4sswgvzs2qazzi975dkcfqcn3vq";
+          url = "https://elpa.gnu.org/packages/cape-1.4.tar";
+          sha256 = "1y0b0lx6qb27x3d0yn3gxykfir07cw4w5jkkw3ff8x1ak6wrf4zv";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -937,10 +937,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.3";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-1.3.tar";
-          sha256 = "1qyqvc4rp0287lidpzhvi669ygjnqmlw8wq0hc0nks2703p283c8";
+          url = "https://elpa.gnu.org/packages/consult-1.4.tar";
+          sha256 = "1vxc9i4jwnq4q8svgqjzn6nqqjzh3b6gp81iyfcr5n2122y0aq1y";
         };
         packageRequires = [ compat emacs ];
         meta = {
