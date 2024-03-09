@@ -2322,15 +2322,15 @@
   "repo": "alan-platform/AlanForEmacs",
   "unstable": {
    "version": [
-    20240229,
-    1528
+    20240309,
+    650
    ],
    "deps": [
     "flycheck",
     "s"
    ],
-   "commit": "d6dae28eda662518cbd5838bbfff1893dc08760f",
-   "sha256": "0gx52ylqqdbndd10ysxi3alnag6z87g65sln4q5ng6cp46d7vpwp"
+   "commit": "df6c82f1a37a4bd6f18cb463c3f7ab7d087b91ab",
+   "sha256": "13fy6x7cs74zpqzix719jly01v5mzdwqhcq3m3kqrsxy1m9a0g49"
   },
   "stable": {
    "version": [
@@ -44854,7 +44854,7 @@
   "unstable": {
    "version": [
     20240308,
-    1516
+    2153
    ],
    "deps": [
     "closql",
@@ -44869,8 +44869,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "dc487e84ddfa48a95510db55a4f83a05841ba097",
-   "sha256": "1mjbmn2s0cjq81k6i9l3irfgwgrka696m9j7dd4h2fwpkka8cfgf"
+   "commit": "51c69819d79ea4ed146293a9314fc7e78f555ab5",
+   "sha256": "1l5375db173hrxa1wz47y3py5alc576f24kn96c96nkx9h9cd6hn"
   },
   "stable": {
    "version": [
@@ -48066,14 +48066,14 @@
   "repo": "pidu/git-timemachine",
   "unstable": {
    "version": [
-    20240219,
-    2108
+    20240309,
+    1109
    ],
    "deps": [
     "transient"
    ],
-   "commit": "69474bfc653bb076f94d97d22903e2299a3d8a8b",
-   "sha256": "02grsmgslvbm67g85iv2xq9jq3wj9xi16gn0dqrgrc96hh63mpjh"
+   "commit": "5ed73c3831cf6da10ba941e6abba708a86853e8f",
+   "sha256": "1cx2rqv1c162bpf6dn01arjbyqlaxjgr1a674bsvwjin3rwcx22j"
   },
   "stable": {
    "version": [
@@ -80012,11 +80012,11 @@
   "repo": "kenranunderscore/emacs-naga-theme",
   "unstable": {
    "version": [
-    20240307,
-    2104
+    20240309,
+    830
    ],
-   "commit": "9e39118c3ef281ff7263d27d215cc7e3ae03e06d",
-   "sha256": "1cpprnfd4fninmhm6bkljs2978yyz19gfgm0x8rjxz7k7hh1ydrn"
+   "commit": "fda2b66ce6111d776830d75d18149ebba7ee34b0",
+   "sha256": "1jkan6w6ip742pfphsdd3n8a1vxn3h3l2grsksmzgh63iznyxhij"
   }
  },
  {
@@ -99608,11 +99608,14 @@
   "stable": {
    "version": [
     0,
-    4,
-    1
+    5,
+    0
    ],
-   "commit": "36b7b9e3acb3399aec6c8ef89bf389a12fc87600",
-   "sha256": "1fwwh709ff660ii43nd0prq2jcc8gmn1v8sg9jki00xn9yas8hsi"
+   "deps": [
+    "project"
+   ],
+   "commit": "6a97747d53ba1e0c2cb7cfc7f4e9e3011e8e4208",
+   "sha256": "1bwnisl6hgm4b9kxm0qzj15hfkd5hw1g8mzq90prdnmjzp48hh0k"
   }
  },
  {
@@ -107274,11 +107277,11 @@
   "repo": "KaranAhlawat/scala-ts-mode",
   "unstable": {
    "version": [
-    20240302,
-    1300
+    20240309,
+    1136
    ],
-   "commit": "38dc7a294387f2f72ea41dc087415b31d445766c",
-   "sha256": "1mff39dzv1qs8rfkg4hxygpzd3cybjr9jl6jlp2vqg3r2hvsbk0h"
+   "commit": "0a34b23b3b71be1e0ce307df873434c08408fc57",
+   "sha256": "0dzzygq4cfckmwr7a5lhr140kyy45z15q02r4c9kaxz9cjg4zdvf"
   }
  },
  {
@@ -109837,16 +109840,16 @@
   "repo": "emacs-sideline/sideline-flycheck",
   "unstable": {
    "version": [
-    20240101,
-    918
+    20240309,
+    1218
    ],
    "deps": [
     "flycheck",
     "ht",
     "sideline"
    ],
-   "commit": "36262547f57699b02e456661156600b044ef26da",
-   "sha256": "1y24k66cjdq21pals5n01y2mj5nazn2nfiijww4znwzpaabsqi9p"
+   "commit": "b075f799073c9de3d766a4647d7d149d89b8dd9a",
+   "sha256": "0z00n59fr5wai8qhyqa6cwncw5mawm96d5v3a9sp2768m43q3yf2"
   },
   "stable": {
    "version": [
@@ -109870,14 +109873,14 @@
   "repo": "emacs-sideline/sideline-flymake",
   "unstable": {
    "version": [
-    20240101,
-    917
+    20240309,
+    1112
    ],
    "deps": [
     "sideline"
    ],
-   "commit": "e6b0e7dd7eea511aad1d9af1d944f1379bd7ad7d",
-   "sha256": "0viw2hhcy8af4knmcilzc9sp2dh4d0yakamyrqhgn2wn5a9q149z"
+   "commit": "e6a9ae69fc048f8eaacbf653e7136678dbef4597",
+   "sha256": "08mng3wqlrflnywiy8m29psk9sks32niy3xgzxrawkkidfv79m9p"
   },
   "stable": {
    "version": [
@@ -128994,14 +128997,14 @@
   "repo": "elken/yasnippet-capf",
   "unstable": {
    "version": [
-    20240116,
-    1646
+    20240309,
+    1316
    ],
    "deps": [
     "yasnippet"
    ],
-   "commit": "db12b55cd08b614cbba134008566e48d7faf660e",
-   "sha256": "0a5iqh3jcnkf5l9df2pp73aqcpzafjyj4a556q4v2w17v0wwn7f4"
+   "commit": "9043f8275176a8f198ce8e81fadab1870fa165bb",
+   "sha256": "19czzfjcd9m34ga51m5s10rlxp3v4q7fbq0cb5mc99ahbl763z9n"
   }
  },
  {
