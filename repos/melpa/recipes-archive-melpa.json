@@ -38462,11 +38462,11 @@
   "repo": "technomancy/fennel-mode",
   "unstable": {
    "version": [
-    20240308,
-    254
+    20240309,
+    623
    ],
-   "commit": "6c0e6fe92950001d91b804445c2103f2362c5023",
-   "sha256": "0s7nhadcsq5m05mn35x7bmfh4dgnnpiqiljsd3ad6wbixsv3a1v1"
+   "commit": "fd4444b03039a2ab2f4b717f7d8f758a00cc8007",
+   "sha256": "1qdl492i0rh30c153qwdqmhrh7klfk57h2wqxka9a0nvs8brppsd"
   }
  },
  {
@@ -50810,15 +50810,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20240308,
-    224
+    20240309,
+    309
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "b634f05fe50712f98b1e49a8bc0a3316e228a850",
-   "sha256": "0lwjzqpk079kj12jj4isp16h7yh6r6lk0d34gq4a2s4zbhlwfbbx"
+   "commit": "5e9e36d854ff9f748257507f83909377b9d61f90",
+   "sha256": "15yw36cdf3f1mmd2gwnd76a0rr9r21za4267ijg3dmcacm8wjd72"
   },
   "stable": {
    "version": [
@@ -71907,16 +71907,16 @@
   "repo": "okamsn/loopy",
   "unstable": {
    "version": [
-    20240225,
-    1740
+    20240309,
+    252
    ],
    "deps": [
     "compat",
     "map",
     "seq"
    ],
-   "commit": "eeebd2713d636b3cf08c6af22f46d23b9aa06592",
-   "sha256": "104vwcxcypib6w8706x27szdc2a40mcbz7kakkpk8qhvg5an6gq3"
+   "commit": "0e08afc6fe8ab24ecfb7d975e85723ebe146de9a",
+   "sha256": "0j7c81mimfp02c801dzp1wjm5k7aa5b64aqxypkzlgfiv7gnbl09"
   },
   "stable": {
    "version": [
@@ -99596,11 +99596,14 @@
   "repo": "TxGVNN/project-tasks",
   "unstable": {
    "version": [
-    20230808,
-    314
+    20240307,
+    252
    ],
-   "commit": "36b7b9e3acb3399aec6c8ef89bf389a12fc87600",
-   "sha256": "1fwwh709ff660ii43nd0prq2jcc8gmn1v8sg9jki00xn9yas8hsi"
+   "deps": [
+    "project"
+   ],
+   "commit": "6a97747d53ba1e0c2cb7cfc7f4e9e3011e8e4208",
+   "sha256": "1bwnisl6hgm4b9kxm0qzj15hfkd5hw1g8mzq90prdnmjzp48hh0k"
   },
   "stable": {
    "version": [
