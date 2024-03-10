@@ -1322,10 +1322,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.7.0.0.20240309.160726";
+        version = "0.7.0.0.20240309.232056";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240309.160726.tar";
-          sha256 = "1wj5nag3cqk3vlvp73q9bv43bkbkk2ax2hfnijhkx0z9hpqpqn71";
+          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240309.232056.tar";
+          sha256 = "05hix71dgdh4vh5qh0pngb2m73das7dxklxfks2937cbzw3kw553";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -3284,10 +3284,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.3.0.20240305.163259";
+        version = "1.3.0.20240309.215359";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.3.0.20240305.163259.tar";
-          sha256 = "1mbp7liywzaq868bfw6n2isanpw7bpji7y7yb0cjsq7zbngps3xh";
+          url = "https://elpa.gnu.org/devel/jinx-1.3.0.20240309.215359.tar";
+          sha256 = "1sg3v87ib4q5gjiqgskq30qgg4yknd52ds07b139vxskzm0jw0ds";
         };
         packageRequires = [ compat emacs ];
         meta = {
