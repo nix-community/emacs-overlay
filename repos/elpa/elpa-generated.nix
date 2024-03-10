@@ -948,8 +948,7 @@
           license = lib.licenses.free;
         };
       }) {};
-    consult-hoogle = callPackage ({ consult
-                                  , elpaBuild
+    consult-hoogle = callPackage ({ elpaBuild
                                   , emacs
                                   , fetchurl
                                   , haskell-mode
@@ -957,12 +956,12 @@
       elpaBuild {
         pname = "consult-hoogle";
         ename = "consult-hoogle";
-        version = "0.1.1";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-hoogle-0.1.1.tar";
-          sha256 = "1bcl7h5ykcgrsfj27wkv9l9jvbj2bbkh0w9d60663m1bkp0p3y2r";
+          url = "https://elpa.gnu.org/packages/consult-hoogle-0.2.0.tar";
+          sha256 = "1wzd7i7sfd1l8fkfgfaj5vyc9nx9aycfr4yp5yxg1mr6fz8m2rmz";
         };
-        packageRequires = [ consult emacs haskell-mode ];
+        packageRequires = [ emacs haskell-mode ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/consult-hoogle.html";
           license = lib.licenses.free;
@@ -2140,10 +2139,10 @@
       elpaBuild {
         pname = "filechooser";
         ename = "filechooser";
-        version = "0.1.2";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/filechooser-0.1.2.tar";
-          sha256 = "0s0mdc851zd2hy8hfpbamiimbh7c788cyz8mxnwzkpmf6jlj6xdw";
+          url = "https://elpa.gnu.org/packages/filechooser-0.2.0.tar";
+          sha256 = "1pl6n6d6gymdm0gx0nz96hwps8v1s2zpqph41d0h5hdvsvxacx6w";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2801,10 +2800,10 @@
       elpaBuild {
         pname = "isearch-mb";
         ename = "isearch-mb";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/isearch-mb-0.7.tar";
-          sha256 = "1dfjh4ya9515vx0q2dv1brddw350gxd40h1g1vsa783ivvm0hm75";
+          url = "https://elpa.gnu.org/packages/isearch-mb-0.8.tar";
+          sha256 = "06241rwz01z4ysgmizczq12zl0cc6xvfyds48glzk1jp82zp4adp";
         };
         packageRequires = [ emacs ];
         meta = {
