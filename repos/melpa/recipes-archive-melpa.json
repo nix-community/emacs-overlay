@@ -22352,11 +22352,11 @@
   "repo": "jrblevin/deft",
   "unstable": {
    "version": [
-    20210707,
-    1633
+    20240309,
+    2117
    ],
-   "commit": "28be94d89bff2e1c7edef7244d7c5ba0636b1296",
-   "sha256": "074d8apvfp9na14q080w14i9ixbswvp7akjyv8gmxmy5im4gm0y3"
+   "commit": "bb1a16b87c3e0fe70fade6227e47dd7712b89bf6",
+   "sha256": "0mmhqk7bh34l1zb4hskd914qs28vi688jvhlcdrgdl62s3184m8l"
   },
   "stable": {
    "version": [
@@ -32129,15 +32129,15 @@
   "repo": "isamert/empv.el",
   "unstable": {
    "version": [
-    20240301,
-    917
+    20240309,
+    2343
    ],
    "deps": [
     "compat",
     "s"
    ],
-   "commit": "b6a26fb5f4cd2904320f9bcac875fe0646ea4faf",
-   "sha256": "1ffq2dqj76i4da46g869fkb9hp2gdz586swi6ips1kckk95l9ilf"
+   "commit": "688c94d90a35cbef54218304597bb212df83a4db",
+   "sha256": "1i2k0pwxrl3d30sg141x9kchwv8i4mpfk0ml1bd5301iaknm6v6n"
   },
   "stable": {
    "version": [
@@ -44853,8 +44853,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20240308,
-    2153
+    20240309,
+    2100
    ],
    "deps": [
     "closql",
@@ -44869,8 +44869,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "51c69819d79ea4ed146293a9314fc7e78f555ab5",
-   "sha256": "1l5375db173hrxa1wz47y3py5alc576f24kn96c96nkx9h9cd6hn"
+   "commit": "3c341acd530ce850d1de41a8469b499fa8bdd3e8",
+   "sha256": "1bpbghpfxywnvgvx823bja21xxp4mjmnhf5p63my5sjg4qk72js0"
   },
   "stable": {
    "version": [
@@ -50811,14 +50811,14 @@
   "unstable": {
    "version": [
     20240309,
-    309
+    2226
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "5e9e36d854ff9f748257507f83909377b9d61f90",
-   "sha256": "15yw36cdf3f1mmd2gwnd76a0rr9r21za4267ijg3dmcacm8wjd72"
+   "commit": "3d6147830e8bae5787975b817e0f769f3123bc6a",
+   "sha256": "1c2rrwazz151cfrk34f7g0hjfh6dy08c28wrp659xjnzy68gzgq0"
   },
   "stable": {
    "version": [
@@ -65109,14 +65109,14 @@
   "repo": "minad/jinx",
   "unstable": {
    "version": [
-    20240305,
-    1632
+    20240309,
+    2134
    ],
    "deps": [
     "compat"
    ],
-   "commit": "c355493054bd0434e3985eb1804a0fdd9f28a687",
-   "sha256": "1m34wib83i6jdfnbsnvfs1vfv5xmcf47a6ndrwadpwkn912jy02z"
+   "commit": "8432ec301d62d5acf4558cd5ac5d518be7808af2",
+   "sha256": "1ks6xnfgnyr1g7l4y9hlqaxz37hjf29b6iacal9k8hsyn1fimck9"
   },
   "stable": {
    "version": [
@@ -71908,15 +71908,15 @@
   "unstable": {
    "version": [
     20240309,
-    252
+    1551
    ],
    "deps": [
     "compat",
     "map",
     "seq"
    ],
-   "commit": "0e08afc6fe8ab24ecfb7d975e85723ebe146de9a",
-   "sha256": "0j7c81mimfp02c801dzp1wjm5k7aa5b64aqxypkzlgfiv7gnbl09"
+   "commit": "395885b322975ef9ae4a4c7fcb14640a41c52562",
+   "sha256": "1izdicaj1lw0f3scffwg8msv7p0d9q1nk2q6cqkrq0jfr23dnbz3"
   },
   "stable": {
    "version": [
@@ -75276,28 +75276,28 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20240228,
-    913
+    20240309,
+    1753
    ],
    "deps": [
     "persist",
     "request"
    ],
-   "commit": "98351a7c4fb2bac778ca17ddd03706b0fb016c47",
-   "sha256": "0b3cnjfxjz5j35q0y8pi9khrs6nrzvvbjy7y4ih4s92y64a95pqs"
+   "commit": "90aeac60805ed49da29781b979b6ab3edab671aa",
+   "sha256": "1l4arid01m5475wq4sy8j598ww13847sbpg9grl71r72rs83071w"
   },
   "stable": {
    "version": [
     1,
     0,
-    17
+    18
    ],
    "deps": [
     "persist",
     "request"
    ],
-   "commit": "98351a7c4fb2bac778ca17ddd03706b0fb016c47",
-   "sha256": "0b3cnjfxjz5j35q0y8pi9khrs6nrzvvbjy7y4ih4s92y64a95pqs"
+   "commit": "90aeac60805ed49da29781b979b6ab3edab671aa",
+   "sha256": "1l4arid01m5475wq4sy8j598ww13847sbpg9grl71r72rs83071w"
   }
  },
  {
@@ -78465,19 +78465,20 @@
   "repo": "amnn/move-mode",
   "unstable": {
    "version": [
-    20221205,
-    1433
+    20240309,
+    2223
    ],
-   "commit": "fa34fbe977d62c8297abc3547b9cfb25802e033c",
-   "sha256": "1qxnkdvn0d2ybrkwm57wn0k5y1nr6sc82i9n3s2306anyflvn868"
+   "commit": "b07983c8df12fa428117cea8e09067ae952871d9",
+   "sha256": "09dnxmx0rc3v26fhi5s9f7ri05fx9p02m284qhkgr82ipdn0whnb"
   },
   "stable": {
    "version": [
     1,
-    0
+    0,
+    1
    ],
-   "commit": "87aabaac939b69bfd4cd23704e3b67f59c461358",
-   "sha256": "0sdb783i0rg1fgcs38xxn59z7mzkc43m9cgdx9vzb2ymzzfgg0z9"
+   "commit": "b07983c8df12fa428117cea8e09067ae952871d9",
+   "sha256": "09dnxmx0rc3v26fhi5s9f7ri05fx9p02m284qhkgr82ipdn0whnb"
   }
  },
  {
@@ -87959,15 +87960,15 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20240225,
-    511
+    20240309,
+    1858
    ],
    "deps": [
     "fb2-reader",
     "nerd-icons"
    ],
-   "commit": "09101daaf4090f95d033cfe4e6b1d6a6675120e9",
-   "sha256": "02i3xnnhkkfn0xybra66bw6lq2gyildp5cmbdicxnr715rxjqy00"
+   "commit": "e3375927a9c6bad0d0801ed905a7bacc89839dee",
+   "sha256": "04qbxrzb8lyqwjvmr5c5ymzf35a4b4jxsrqa0dbk63n7azg4wnf7"
   }
  },
  {
@@ -117025,15 +117026,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20240308,
-    1002
+    20240309,
+    1706
    ],
    "deps": [
     "rainbow-identifiers",
     "visual-fill-column"
    ],
-   "commit": "cd639d21469e2799d63d21b5120fc3dea77fd5f5",
-   "sha256": "02nbnvpxhcp488mmg6mkdr3zxan8ls0kcp3isss8px0yxk55vdk3"
+   "commit": "f0c9eeb7088f792780f5ea3a04f278797236bf9b",
+   "sha256": "1dxiy3bl2q0k471qn2gsfkzd96fc483bhqh2nzdsirz77q18xf0b"
   },
   "stable": {
    "version": [
