@@ -459,6 +459,26 @@
           license = lib.licenses.free;
         };
       }) {};
+    consult-flycheck = callPackage ({ consult
+                                    , elpaBuild
+                                    , emacs
+                                    , fetchurl
+                                    , flycheck
+                                    , lib }:
+      elpaBuild {
+        pname = "consult-flycheck";
+        ename = "consult-flycheck";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/consult-flycheck-1.0.tar";
+          sha256 = "0901wliqdzj5dmam1kkbq0nxhywqf11182q7yxjxh98czy5w3xh8";
+        };
+        packageRequires = [ consult emacs flycheck ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/consult-flycheck.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     corfu-terminal = callPackage ({ corfu
                                   , elpaBuild
                                   , emacs
