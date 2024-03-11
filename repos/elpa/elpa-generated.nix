@@ -1682,10 +1682,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.5.1";
+        version = "1.6.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-1.5.1.tar";
-          sha256 = "00qh5b7kx0dlms7drnzj95mvgwfzg5h5m9prkbr8qi4ssx939gdw";
+          url = "https://elpa.gnu.org/packages/ef-themes-1.6.0.tar";
+          sha256 = "0zki34gyfl8riiqlz8cf7zmwbpsyz9xpmyxrwxfkbpxzgi74lp59";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5280,10 +5280,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.4.0";
+        version = "0.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/spacious-padding-0.4.0.tar";
-          sha256 = "0jgfrzmgisjw23qmc7vh9xll2ac8ahaznrpyxip38pivgabilfrv";
+          url = "https://elpa.gnu.org/packages/spacious-padding-0.4.1.tar";
+          sha256 = "02bc0r20b4mgnlzryq26q0jq45wfgpvv7y3zhvnaaqj11rw7779f";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5964,10 +5964,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.4.0";
+        version = "0.4.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/urgrep-0.4.0.tar";
-          sha256 = "0l0gswml6hkna48gfljj3hajhcx3bbc1rqwb2v01hvqab05an7zs";
+          url = "https://elpa.gnu.org/packages/urgrep-0.4.1.tar";
+          sha256 = "1kwcb7xxk9lcby5s8gpd5dchya7qq063j217rxsjyn8vv9z91lfc";
         };
         packageRequires = [ compat emacs project ];
         meta = {

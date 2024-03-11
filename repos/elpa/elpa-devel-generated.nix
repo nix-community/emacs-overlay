@@ -774,10 +774,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.4.0.20240308.172957";
+        version = "1.4.0.20240311.70211";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.4.0.20240308.172957.tar";
-          sha256 = "07l78n1g4axcrh9qsbnkgvidp4iv4wmgmlv9pmzlqfh3r58n45ch";
+          url = "https://elpa.gnu.org/devel/cape-1.4.0.20240311.70211.tar";
+          sha256 = "1ja497if0x7rkabycwl115y5k3qh14cdp7cbravdj8x34k20c6qi";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1887,10 +1887,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.5.1.0.20240305.103017";
+        version = "1.6.0.0.20240311.43707";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.5.1.0.20240305.103017.tar";
-          sha256 = "10z5imxvys9imm6igvn003yp79h4w65c2y66r4ln03c0fshd1xnj";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.6.0.0.20240311.43707.tar";
+          sha256 = "0y4gxyb3b3z0wfxfa33l239xyz8bxql3vabz4nrxvdx47vmjrnl8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2375,10 +2375,10 @@
       elpaBuild {
         pname = "filechooser";
         ename = "filechooser";
-        version = "0.2.0.0.20240309.142847";
+        version = "0.2.0.0.20240310.203607";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/filechooser-0.2.0.0.20240309.142847.tar";
-          sha256 = "0hihf7yn7x29ls26xpnvsrkbzlqh6awa0hk9cn7ga07qcm8n1d52";
+          url = "https://elpa.gnu.org/devel/filechooser-0.2.0.0.20240310.203607.tar";
+          sha256 = "0ra072qdg38y92f73cimwlgcclvfpz4wvrr8wr7i808jv1rdagv7";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3572,10 +3572,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.7pre0.20240310.132218";
+        version = "0.7pre0.20240311.5227";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.7pre0.20240310.132218.tar";
-          sha256 = "072nfai0y8djs6fn728mhkqs0iv2cdvmh4nxh7s3pxxp7f4vdvr6";
+          url = "https://elpa.gnu.org/devel/listen-0.7pre0.20240311.5227.tar";
+          sha256 = "10jl3w67hq11pwa41lvpva3h3wp4637ldvj7ih5rmgwnmka5wwv7";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section ];
         meta = {
@@ -5917,10 +5917,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.4.0.0.20240304.83852";
+        version = "0.4.1.0.20240311.74539";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/spacious-padding-0.4.0.0.20240304.83852.tar";
-          sha256 = "0ychhzr8zq97jydw0bi5qr7wgaak15frm315gjw534jx6b4wzzrf";
+          url = "https://elpa.gnu.org/devel/spacious-padding-0.4.1.0.20240311.74539.tar";
+          sha256 = "1alvy1am8fjlj0wlmzbpvjjgjcln25v0dc19rbwfgwm8pzbq2apn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6722,10 +6722,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.4.0snapshot0.20240124.145836";
+        version = "0.4.2snapshot0.20240310.204507";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.4.0snapshot0.20240124.145836.tar";
-          sha256 = "1bi6hvkpcdk3kjdzj14lndsyxhl2bcscx57ggl6wmix7ga0bc8za";
+          url = "https://elpa.gnu.org/devel/urgrep-0.4.2snapshot0.20240310.204507.tar";
+          sha256 = "0pzicsyp8p2cbyy77l0fj7kzi7amc5xqyj6a6in1jvgc52wzg532";
         };
         packageRequires = [ compat emacs project ];
         meta = {
