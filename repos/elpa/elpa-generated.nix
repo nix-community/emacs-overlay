@@ -2740,10 +2740,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.0";
+        version = "9.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/hyperbole-9.0.0.tar";
-          sha256 = "07kpyp3ggf4knakn18niy819l184apx4d9vbcwv57j8zyqgn4c3l";
+          url = "https://elpa.gnu.org/packages/hyperbole-9.0.1.tar";
+          sha256 = "0a7py2dvszh0rf2smbmm8msjrc8vbbvlqnsqw0m2l12v8vllmxnb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2970,10 +2970,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.3";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jinx-1.3.tar";
-          sha256 = "0xlfw1sw92qf8bwpw9qnjhkz4ax6n7kcl72ypqm3swmj92jbgsg7";
+          url = "https://elpa.gnu.org/packages/jinx-1.4.tar";
+          sha256 = "1vv85pbhcpwjvd3iwnr8ksjpbydrsk7m3zm34hcbybg703yk2nl7";
         };
         packageRequires = [ compat emacs ];
         meta = {
