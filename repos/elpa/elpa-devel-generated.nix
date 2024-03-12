@@ -41,10 +41,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.7pre0.20240309.14846";
+        version = "0.7pre0.20240311.223616";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/activities-0.7pre0.20240309.14846.tar";
-          sha256 = "1lh6ac3b9vn60na59w95a0qqkrj1c1aalzvm0m694id9n775gy2w";
+          url = "https://elpa.gnu.org/devel/activities-0.7pre0.20240311.223616.tar";
+          sha256 = "0x1yzc65mxdmpm5zc0kbgkisdzdwsf6w73z7r4l2wbbfpbm7zkj4";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -1385,10 +1385,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.40.0.20240215.214858";
+        version = "0.40.0.20240312.90137";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/debbugs-0.40.0.20240215.214858.tar";
-          sha256 = "0kf6f8qpshdx07zbpgglpz01daq2ix3sw006yn1qx07bxj1kihsd";
+          url = "https://elpa.gnu.org/devel/debbugs-0.40.0.20240312.90137.tar";
+          sha256 = "03yjr2wm41l1ai9fcz28kdph0lcdjxdwmyvcn30dwvrykx5ici54";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -2869,10 +2869,10 @@
       elpaBuild {
         pname = "gtags-mode";
         ename = "gtags-mode";
-        version = "1.0.0.20240124.174821";
+        version = "1.0.0.20240311.233037";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/gtags-mode-1.0.0.20240124.174821.tar";
-          sha256 = "0j8i71z95y1crnfbcdpnrcwnfvpgcarvq1dqnmj7ic3fz40hd711";
+          url = "https://elpa.gnu.org/devel/gtags-mode-1.0.0.20240311.233037.tar";
+          sha256 = "1pc24g7wxba3gq3xh4xyknxk59g33csbd8c40r9jxl7nq122arw1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3572,10 +3572,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.7pre0.20240311.5227";
+        version = "0.7pre0.20240311.225820";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.7pre0.20240311.5227.tar";
-          sha256 = "10jl3w67hq11pwa41lvpva3h3wp4637ldvj7ih5rmgwnmka5wwv7";
+          url = "https://elpa.gnu.org/devel/listen-0.7pre0.20240311.225820.tar";
+          sha256 = "1r0mph3icbwxymsjvxyxma1mvljgn76imf5fy08a8wdh8wh9hs4w";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section ];
         meta = {
