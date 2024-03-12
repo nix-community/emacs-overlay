@@ -9750,8 +9750,8 @@
   "repo": "alphapapa/bufler.el",
   "unstable": {
    "version": [
-    20240216,
-    805
+    20240312,
+    552
    ],
    "deps": [
     "burly",
@@ -9761,8 +9761,8 @@
     "map",
     "pretty-hydra"
    ],
-   "commit": "d686f6a303ed250da2ee01d82afea26058a0a533",
-   "sha256": "0842w4h4v0gkmn6mlgrp9qywqyks4k5ibz0frwqiq6dxsy0wz7x9"
+   "commit": "ef3b28bbdcb1e813a1d5b06a91d09774998967c5",
+   "sha256": "0dl1ji045g8nd8739q28csvjrxwmaq9l7vxlsw1nk1hc7apbv1bx"
   },
   "stable": {
    "version": [
@@ -35155,15 +35155,15 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20240307,
-    1807
+    20240312,
+    229
    ],
    "deps": [
     "annalist",
     "evil"
    ],
-   "commit": "fe96b412f437f263f99492fe293499016b816a78",
-   "sha256": "06iy0dplh70fl4jgr9lszalc57zn606rk5vfi573s47i4wxgsvda"
+   "commit": "c2f48c9a26228a5bb0746dd64168ed76599496a9",
+   "sha256": "16bdzbjsicsjdm5prhi2kmgrxqqnsx8qvgd05yrahishj98gin85"
   },
   "stable": {
    "version": [
@@ -86553,14 +86553,14 @@
   "repo": "drghirlanda/org-change",
   "unstable": {
    "version": [
-    20231026,
-    2216
+    20240312,
+    509
    ],
    "deps": [
     "org"
    ],
-   "commit": "c74662112e8a857bd87c54128baba9307a393974",
-   "sha256": "0mpsghnzgyhxzjdsnj57sizv0dny75hm0kj61q13ckrc26bjlhg7"
+   "commit": "3ec32b40d61da72708bc8935e6394d397172c64f",
+   "sha256": "18rmqcsjyxsw0rr6knhdrykdkcb0lxc2rjr0ia62iwm0sgn7liap"
   }
  },
  {
@@ -88042,16 +88042,16 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20240311,
-    355
+    20240312,
+    529
    ],
    "deps": [
     "fb2-reader",
     "nerd-icons",
     "qrencode"
    ],
-   "commit": "cbaffe35ef7386764aa260ee1042804347e59831",
-   "sha256": "0scb3v7xrbapm0rrrlrgk2r4lxj0mzl8vaxkry4y80s4b0hkaa5j"
+   "commit": "c77338cfac89a41f90eafea80d11d8134e8096f4",
+   "sha256": "1pvq83lca6sj19vra0r2cvzngqkkcwswqq1ma96dkl5xyn01ggw9"
   }
  },
  {
@@ -92585,7 +92585,7 @@
   "commit": "b2fdd72363223f1433852e4cc982907a6d7dc32f",
   "sha256": "0k8lhkq141rlrk6fjvy4yqvpzyjly49zdga3vyci44h0pfkpbmya",
   "fetcher": "github",
-  "repo": "takumikinjo/org-impress-js.el",
+  "repo": "emacsattic/org-impress-js",
   "unstable": {
    "version": [
     20150412,
@@ -106676,11 +106676,11 @@
   "repo": "rust-lang/rust-mode",
   "unstable": {
    "version": [
-    20240302,
-    1316
+    20240312,
+    348
    ],
-   "commit": "d8a09f218e24407acbc9f36c641be4f913f1a63c",
-   "sha256": "18kh5jw3dprhh9g4v01f9ngcscmw5xb1xrr1nsxf2nxfbf763xpi"
+   "commit": "825a37dbf7b3a5c2ee44e3707c4ad081fdf7dd15",
+   "sha256": "1f2cc4533jb3i1m4c3y91lmj7k4i2p83d80j6ywrry0bkhk9mf0s"
   },
   "stable": {
    "version": [
@@ -117011,7 +117011,7 @@
   "commit": "78d82b77af53c95242ddc4879d6b923eb2463077",
   "sha256": "1z8izwqbs3775car9fbwa52vn4y6mbnlr4q0lnzhfxf8fylkwlri",
   "fetcher": "github",
-  "repo": "istib/tbx2org",
+  "repo": "emacsattic/tbx2org",
   "unstable": {
    "version": [
     20140224,
@@ -120357,13 +120357,13 @@
    "version": [
     0,
     12,
-    152
+    153
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "ab76db30ce3952cc5d1d2abc67fde6f62c306aa3",
-   "sha256": "01vs5ciqhij5lsd0yrhma93lvlgwnxdc0p97sdmg34v95fd2krk7"
+   "commit": "72e9e15ace735d72efcf1fa30251c271f2817d01",
+   "sha256": "18qs7nj5gqjnfqnbxndcn46yx8pcdy6xh2v7wc70zny12mv6gbks"
   }
  },
  {
