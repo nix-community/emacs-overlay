@@ -3592,6 +3592,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    mpdired = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "mpdired";
+        ename = "mpdired";
+        version = "1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/mpdired-1.tar";
+          sha256 = "1b7xsdgsrwy7qkshkk83bizz9r78g4pdfnavwl6riyb947gk6zkx";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/mpdired.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     multi-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "multi-mode";
