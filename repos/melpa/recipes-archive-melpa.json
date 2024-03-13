@@ -38486,11 +38486,11 @@
   "repo": "technomancy/fennel-mode",
   "unstable": {
    "version": [
-    20240311,
-    1542
+    20240313,
+    32
    ],
-   "commit": "c28ac6ffb152eebe7ee66d4447eb07335efd2cd7",
-   "sha256": "1kjvh2sr68xql19rhxm05vwlm2ah29anklkz398vlk4jy5nrcv5y"
+   "commit": "4cdf20b673ed1eb14342d7a470ef75cbe165b0c4",
+   "sha256": "1hvmcnagrz4zwzadsx406hw0gsn66h5rd5y4891pkc260bi8mcyc"
   }
  },
  {
@@ -50062,11 +50062,11 @@
   "repo": "lorniu/go-translate",
   "unstable": {
    "version": [
-    20240311,
-    822
+    20240313,
+    356
    ],
-   "commit": "880df609c1246a382005e143069b3fa1c4b0884e",
-   "sha256": "1rnvvjrzp9ic8yyyrs4gq9cg09djkbplmbapbkpcg6cbzmpxqsav"
+   "commit": "377375c87f64e7d069c8fc310ccfefd8771226f3",
+   "sha256": "1p5acy25ap0lpnv178xrkz2lyjppsfss8vcqarjpvd1hv40wfv5m"
   },
   "stable": {
    "version": [
@@ -50854,15 +50854,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20240311,
-    402
+    20240313,
+    748
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "3935a6dcf82389f9112473a7662e0ad802b124e8",
-   "sha256": "093d233k8fgyq00ac6h845ci4x2qbdi9sw0s948wvxkiyqvxkj7b"
+   "commit": "9925dc91b4b8fb8aa0df6ba6da91f97d0a97c03a",
+   "sha256": "1lypqz7dr9hzin0qcb02h1376577glqz5l4g78js85pxryiagqvs"
   },
   "stable": {
    "version": [
@@ -77864,11 +77864,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20240312,
-    833
+    20240313,
+    423
    ],
-   "commit": "435916a2555cf078a57295ee4468c52306552863",
-   "sha256": "1p2vx3zzr404sry66r89ljv868k7bxqgzjkcb7m7qdd2cx5hl1sg"
+   "commit": "114ffb4141f2ed430d3e179c4827b19a33bffc0d",
+   "sha256": "02yd46ih9lbyims0pm5z3v14c03y63ykfgrwqkhsi7b1bfk39hys"
   },
   "stable": {
    "version": [
@@ -86551,13 +86551,13 @@
   "unstable": {
    "version": [
     20240312,
-    509
+    2309
    ],
    "deps": [
     "org"
    ],
-   "commit": "3ec32b40d61da72708bc8935e6394d397172c64f",
-   "sha256": "18rmqcsjyxsw0rr6knhdrykdkcb0lxc2rjr0ia62iwm0sgn7liap"
+   "commit": "59dc89050e33d1d8841270e07fe6ed44713a8227",
+   "sha256": "0apxzw6zqckxv9fh62i5fb5cj4dfp4fx3bapij47vg90r4szprls"
   }
  },
  {
@@ -88041,6 +88041,20 @@
    "version": [
     20240312,
     529
+   ],
+   "deps": [
+    "fb2-reader",
+    "nerd-icons",
+    "qrencode"
+   ],
+   "commit": "c77338cfac89a41f90eafea80d11d8134e8096f4",
+   "sha256": "1pvq83lca6sj19vra0r2cvzngqkkcwswqq1ma96dkl5xyn01ggw9"
+  },
+  "stable": {
+   "version": [
+    1,
+    2,
+    3
    ],
    "deps": [
     "fb2-reader",
@@ -106673,11 +106687,11 @@
   "repo": "rust-lang/rust-mode",
   "unstable": {
    "version": [
-    20240312,
-    736
+    20240313,
+    157
    ],
-   "commit": "9239745140b1cef2bcf9b18842dece08052e749d",
-   "sha256": "1q93ffpg7kv46fj58j4v915gknz2g69p0v6c7nkp193phyq3grhf"
+   "commit": "87bf4ea711456c858445ec4c22b3552fd796708d",
+   "sha256": "16sc646nc54fnr52y5zrgpcr4rb7isbmc9gf8fd164k2x64h8gv0"
   },
   "stable": {
    "version": [
@@ -128832,14 +128846,14 @@
   "repo": "zkry/yaml-pro",
   "unstable": {
    "version": [
-    20240302,
-    531
+    20240313,
+    307
    ],
    "deps": [
     "yaml"
    ],
-   "commit": "c5d4d7eb3d2221dea7ee8c04286f1272806929c1",
-   "sha256": "0b0s3c7h3l94743qqpx16djn4d6xsrb59yhmz3fr7afrysp7d77q"
+   "commit": "775c0a4b82c79da0eb91620fb0cbbf6c8642815b",
+   "sha256": "16l1nmi9rizrcmx53xc8yr4y6lw5cg26hnwbw6l38i9nzhklx23n"
   },
   "stable": {
    "version": [
