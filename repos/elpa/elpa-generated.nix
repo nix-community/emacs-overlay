@@ -34,10 +34,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/activities-0.6.tar";
-          sha256 = "03dc2d9w40qp0qacv5vk49498qyb9y9n6ppd79jbglkpr0a60y21";
+          url = "https://elpa.gnu.org/packages/activities-0.7.tar";
+          sha256 = "17vwbblcwayf1lqfvc64s606cyv1pyh094i3d8fz0k5ivgfp6ybi";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -2598,10 +2598,10 @@
       elpaBuild {
         pname = "gtags-mode";
         ename = "gtags-mode";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gtags-mode-1.0.tar";
-          sha256 = "0nyzsr3fnds931ihw2dp5xlgv151kzph7qv1n751r1cajimzlp7n";
+          url = "https://elpa.gnu.org/packages/gtags-mode-1.1.tar";
+          sha256 = "0fgs6iqrivmyxfkjl6hxxs3zfjkkdas61z34q08qfjgw0ixz188h";
         };
         packageRequires = [ emacs ];
         meta = {
