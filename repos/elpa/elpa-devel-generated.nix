@@ -673,10 +673,10 @@
       elpaBuild {
         pname = "buffer-env";
         ename = "buffer-env";
-        version = "0.5.0.20231028.161716";
+        version = "0.5.0.20240313.181247";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/buffer-env-0.5.0.20231028.161716.tar";
-          sha256 = "1gi7092mfzsqfj8l000arxdwmg73xzbgzfliazzk0s617480ccbw";
+          url = "https://elpa.gnu.org/devel/buffer-env-0.5.0.20240313.181247.tar";
+          sha256 = "1jyp26j0s04kqshdm11nw9di6f9ngzravk0s37w053alhp12ib9c";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1322,10 +1322,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.7.0.0.20240312.94707";
+        version = "0.8.1.0.20240313.171804";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.7.0.0.20240312.94707.tar";
-          sha256 = "01g34hjfnbdg7i4niwhi76v8kgjrzd9h25bld91abnqpamfvmrd0";
+          url = "https://elpa.gnu.org/devel/dape-0.8.1.0.20240313.171804.tar";
+          sha256 = "1dg6rx8zlhdzn32avhs8aizc08a872n7x73bqssj1svcwxdxf3l5";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1415,10 +1415,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.4.0.20240313.71834";
+        version = "2.2.4.0.20240313.104406";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240313.71834.tar";
-          sha256 = "0qzns01pkg74ayj5kgaysi3fnrq2ln2z1f14kzkdrxz015g11462";
+          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240313.104406.tar";
+          sha256 = "0wg8n6y04xndbnvayg65njwzy7scc89kzlbr59583ybb55ja5813";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3569,10 +3569,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.7pre0.20240312.195702";
+        version = "0.7pre0.20240313.44641";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.7pre0.20240312.195702.tar";
-          sha256 = "17gs6x6r5a5gb4352m22z0h62cygb6acqkfm126323fcza9rz8jj";
+          url = "https://elpa.gnu.org/devel/listen-0.7pre0.20240313.44641.tar";
+          sha256 = "18qz64i4ahb1f36nxa9p5qcx85mb2q1m2nx157vm9i0m2d7zw6wm";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section ];
         meta = {
@@ -3961,10 +3961,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.3.0.0.20240313.42357";
+        version = "4.3.0.0.20240313.81305";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240313.42357.tar";
-          sha256 = "17bhl05xkfx0j5g1z656n23gdx38p93z7mlay154rcxnk1d759yw";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240313.81305.tar";
+          sha256 = "082d4b6v4qngnl6dws2f0cgfnjw2q6l7jvbsi59f08kb488mc850";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4410,10 +4410,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240312.131709";
+        version = "9.7pre0.20240313.141404";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240312.131709.tar";
-          sha256 = "00h24fv7xp1agn8kvzfc6ncpxa0cm7i92rw14pms3cicgca0b8mr";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240313.141404.tar";
+          sha256 = "1g6vs6418q0c9649jlp6sc9qsj5lm991zxacwnpqhnda35f6zarp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5659,10 +5659,10 @@
       elpaBuild {
         pname = "shell-command-plus";
         ename = "shell-command+";
-        version = "2.4.2.0.20230311.131100";
+        version = "2.4.2.0.20240313.182825";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/shell-command+-2.4.2.0.20230311.131100.tar";
-          sha256 = "03nlyl4r5dm2hr3j0z1qw3s2v4zf0qvij350caalm08qmc9apama";
+          url = "https://elpa.gnu.org/devel/shell-command+-2.4.2.0.20240313.182825.tar";
+          sha256 = "06yffzhfjgbqr4nsk1f098qmr72818n8466i2g75j03vmzacbzgd";
         };
         packageRequires = [ emacs ];
         meta = {
