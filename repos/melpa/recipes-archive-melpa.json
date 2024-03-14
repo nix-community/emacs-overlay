@@ -1082,8 +1082,8 @@
   "repo": "xcwen/ac-php",
   "unstable": {
    "version": [
-    20240311,
-    541
+    20240314,
+    549
    ],
    "deps": [
     "dash",
@@ -1093,8 +1093,8 @@
     "s",
     "xcscope"
    ],
-   "commit": "55a26d4cb66b1fcec4738e584810e6fb0fed7772",
-   "sha256": "19v1w8cp9wfkrjkmk965wrkgmnl55wmk3q972k5gpizgaxamlnhw"
+   "commit": "c1ad22c9b9354f038310ca380497e5db635fca26",
+   "sha256": "1s67mj733b4rvn2r0kjadffg50n8agdflmv5n43vb1787kh23m54"
   },
   "stable": {
    "version": [
@@ -14113,11 +14113,11 @@
   "repo": "clojure-emacs/clojure-ts-mode",
   "unstable": {
    "version": [
-    20240229,
-    2015
+    20240314,
+    552
    ],
-   "commit": "eab7dc3d507bf730bc86b215a249fe4ecf008c54",
-   "sha256": "13xgfcswaf9fmiyp39smrflhzx498p65qj160l7hcybkfbhnwcfq"
+   "commit": "8afa5656955814193b3b27020faf4edf00abda88",
+   "sha256": "0jxfzcmqlmc88ib483n6y445xs7bpaqw3b1w0z3nmcdfk512d0fr"
   },
   "stable": {
    "version": [
@@ -17788,14 +17788,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20240308,
-    1724
+    20240314,
+    642
    ],
    "deps": [
     "compat"
    ],
-   "commit": "0eab65fe3273c97a422c99ee426eef7f2d2dffa4",
-   "sha256": "0kp1xrivs111d8ksjyf3m1ldzb8qknwrh2k2lzbrq6yiwc4bigy7"
+   "commit": "b48ff6bf0527baeb6bfd07c6da9d303ff0b79c3d",
+   "sha256": "06hi3676nbbv49c0r3sk5fi71vlb5b086a7ikj8579pnik2rlkir"
   },
   "stable": {
    "version": [
@@ -33906,8 +33906,8 @@
   "ename": "eshell-outline",
   "commit": "517b88019524e52bd41f65153151101a2e77c159",
   "sha256": "1kn0s42z5wl21xzld80phvnvfqihkzwvz8v5xml9jvvrbvq92ps3",
-  "fetcher": "git",
-  "url": "https://git.jamzattack.xyz/eshell-outline",
+  "fetcher": "github",
+  "repo": "emacsattic/eshell-outline",
   "unstable": {
    "version": [
     20201121,
@@ -43209,8 +43209,8 @@
   "ename": "flymake-golangci",
   "commit": "b282ee5729bdcd1d70f798e2d52b68905fdc026b",
   "sha256": "1p8w5lhq1h2p2l7ws8hrsf9dgq5dqv1fhc42qf2230xm5scbq2x8",
-  "fetcher": "gitlab",
-  "repo": "shackra/flymake-golangci",
+  "fetcher": "github",
+  "repo": "emacsattic/flymake-golangci",
   "unstable": {
    "version": [
     20191028,
@@ -49136,15 +49136,15 @@
   "url": "https://git.thanosapollo.org/gnosis",
   "unstable": {
    "version": [
-    20240310,
-    1255
+    20240314,
+    612
    ],
    "deps": [
     "compat",
     "emacsql"
    ],
-   "commit": "2f29c48b9c90f10751bf24afdb5ab13f7fe4d3a8",
-   "sha256": "13hvp2a8wdmj52rpc0pk2h0ah6cpyib4si1bc7qa2cblw3y1glb4"
+   "commit": "78e066b94809fb7746086a1ca6b7d7c39d353343",
+   "sha256": "11kj6w1daqhblrmvc2zhzd17j5kq1nzrmn3379f80y9gjp4y1blk"
   },
   "stable": {
    "version": [
@@ -100342,8 +100342,8 @@
   "ename": "protobuf-ts-mode",
   "commit": "feb6e7b10f4adb9c6ba3981b60f72db6f4cedb95",
   "sha256": "1wx3yy624d4dx2gjfs8y8yfdmnl32xgy5wzbcnxvbhigjn4x6cbr",
-  "fetcher": "git",
-  "url": "https://git.ookami.one/cgit/protobuf-ts-mode",
+  "fetcher": "github",
+  "repo": "emacsattic/protobuf-ts-mode",
   "unstable": {
    "version": [
     20230728,
@@ -120355,26 +120355,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20240313,
-    2219
+    20240314,
+    221
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "98378cafb76ba107e8de0a92be22d9e329b676f4",
-   "sha256": "11z4j67my3zd0q9j6q0qz4xsh4kkhb1y4f4ghrs653scdna9avm9"
+   "commit": "e9577bec612a233c019f0b4278e7273a3a151b41",
+   "sha256": "17078j44appcc78an22h8dcf1bw100z415shfg47dv6ipnlxlyk1"
   },
   "stable": {
    "version": [
     0,
     12,
-    154
+    155
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "98378cafb76ba107e8de0a92be22d9e329b676f4",
-   "sha256": "11z4j67my3zd0q9j6q0qz4xsh4kkhb1y4f4ghrs653scdna9avm9"
+   "commit": "e9577bec612a233c019f0b4278e7273a3a151b41",
+   "sha256": "17078j44appcc78an22h8dcf1bw100z415shfg47dv6ipnlxlyk1"
   }
  },
  {
