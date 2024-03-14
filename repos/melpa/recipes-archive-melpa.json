@@ -9479,14 +9479,14 @@
   "repo": "astoff/buffer-env",
   "unstable": {
    "version": [
-    20231028,
-    1617
+    20240313,
+    1812
    ],
    "deps": [
     "compat"
    ],
-   "commit": "8ba30f5b7df3a219e792377b1d7163a536896a4b",
-   "sha256": "0ai2n443l3rp3pc40ppxsaldbsbqqx6822h4kk7zj6f84f9nf7cp"
+   "commit": "6d70dc4db21821b67ee2b5438f00866dbb8ac01a",
+   "sha256": "0qzw5csq7ysdwz711f1zkz6vvg7l0srx3wh4vsh668k1sl3ggq48"
   }
  },
  {
@@ -11328,20 +11328,20 @@
   "repo": "kickingvegas/cc-isearch-menu",
   "unstable": {
    "version": [
-    20240304,
-    1917
+    20240313,
+    1937
    ],
-   "commit": "4b983f518485380604167401387fe0128fb9e0af",
-   "sha256": "1a6qii5a2p33hyc2bk3p9h1cbz3vc71aiddmjaszd9wq34148bwx"
+   "commit": "507baf17fd27135df560e03ec2c34174e19b4254",
+   "sha256": "0iqrpm3216qbdplvah6n59wckqiz2pqfdzfdvbc9v6lw6pgjdhrz"
   },
   "stable": {
    "version": [
     1,
     2,
-    0
+    1
    ],
-   "commit": "4b983f518485380604167401387fe0128fb9e0af",
-   "sha256": "1a6qii5a2p33hyc2bk3p9h1cbz3vc71aiddmjaszd9wq34148bwx"
+   "commit": "507baf17fd27135df560e03ec2c34174e19b4254",
+   "sha256": "0iqrpm3216qbdplvah6n59wckqiz2pqfdzfdvbc9v6lw6pgjdhrz"
   }
  },
  {
@@ -33904,8 +33904,8 @@
  },
  {
   "ename": "eshell-outline",
-  "commit": "950b9323c19b145bbf07a9a8f780880a2593831c",
-  "sha256": "1k510vsfsnhp86y2587zbc0cmaf735sp802d6qk7bgdllljl18hd",
+  "commit": "517b88019524e52bd41f65153151101a2e77c159",
+  "sha256": "1kn0s42z5wl21xzld80phvnvfqihkzwvz8v5xml9jvvrbvq92ps3",
   "fetcher": "git",
   "url": "https://git.jamzattack.xyz/eshell-outline",
   "unstable": {
@@ -43207,8 +43207,8 @@
  },
  {
   "ename": "flymake-golangci",
-  "commit": "76c98b2e204eb2a733295037cbf13b60d1cad97b",
-  "sha256": "13p29d7b3pchyiw1rbdaif7h6jhzfg635ix8z2kzkqg9bvkxxr7y",
+  "commit": "b282ee5729bdcd1d70f798e2d52b68905fdc026b",
+  "sha256": "1p8w5lhq1h2p2l7ws8hrsf9dgq5dqv1fhc42qf2230xm5scbq2x8",
   "fetcher": "gitlab",
   "repo": "shackra/flymake-golangci",
   "unstable": {
@@ -50855,14 +50855,14 @@
   "unstable": {
    "version": [
     20240313,
-    1017
+    2231
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "0507862bbdb190f333c807cf659700fdd7b27e82",
-   "sha256": "0f3jh23pjqcwgvk8xh3hayhv44k1kwxk4lgdfbgmp02h9yxwq03g"
+   "commit": "b61d267c9b7335d2af3d9921b6d5434b2f8721b8",
+   "sha256": "0jhzqjgn03w0l4d44m93lgbi6zj1zjxbysmdbs0nwwxmh69l0vby"
   },
   "stable": {
    "version": [
@@ -100340,8 +100340,8 @@
  },
  {
   "ename": "protobuf-ts-mode",
-  "commit": "ef4f38a4e91870ebfd8fcd4cfaf3463f77ac31e1",
-  "sha256": "0kpp1sqwbvipwac95gj873w1zvmsrwdcz3qangqz8bck2f48pvv6",
+  "commit": "feb6e7b10f4adb9c6ba3981b60f72db6f4cedb95",
+  "sha256": "1wx3yy624d4dx2gjfs8y8yfdmnl32xgy5wzbcnxvbhigjn4x6cbr",
   "fetcher": "git",
   "url": "https://git.ookami.one/cgit/protobuf-ts-mode",
   "unstable": {
@@ -102596,11 +102596,11 @@
   "repo": "greghendershott/racket-mode",
   "unstable": {
    "version": [
-    20240301,
-    1714
+    20240312,
+    1312
    ],
-   "commit": "f803fa1ce5309ae074c12f1294bbbad8baf5a340",
-   "sha256": "0ijcf6fiwa03h1pzwqfp9dk35xrl1flbvqjbyr6n3vpdn26d7nm2"
+   "commit": "483a1e7dc78b8507a3204cf6d0f8c3e5a5b6be70",
+   "sha256": "0kvx6b1h8r8zvqwwp0qh729lbbviygqfwf9dn1v7phvl5avxinih"
   }
  },
  {
@@ -109879,14 +109879,14 @@
   "repo": "emacs-sideline/sideline",
   "unstable": {
    "version": [
-    20240311,
-    636
+    20240313,
+    2301
    ],
    "deps": [
     "ht"
    ],
-   "commit": "270a6627db7949c4467d412736138f368199be94",
-   "sha256": "1bgs6vqqba8wv65qa3ycdmx8iqd4pr2msnv54ghgh9z66hjh65sj"
+   "commit": "d574249c7a6780cde9d52de5a9865d95be577b9d",
+   "sha256": "1nm0qj0r9zhk297xmpcqfw09rcjglyg7fs4nvqabzin1wgikbzdd"
   },
   "stable": {
    "version": [
@@ -109938,16 +109938,16 @@
   "repo": "emacs-sideline/sideline-flycheck",
   "unstable": {
    "version": [
-    20240311,
-    440
+    20240313,
+    2304
    ],
    "deps": [
     "flycheck",
     "ht",
     "sideline"
    ],
-   "commit": "ce68ae1fede3442def4c58c6d4d0e64c8d96ccde",
-   "sha256": "0m5250n3iv05wy1nv5jz89pcrklcfjc4pj8zgfy1jbmrmd0l58kp"
+   "commit": "1b3fc4d41b93ab3fa3754d188545d9e8cc0150f1",
+   "sha256": "0qh2v4jx0bvpcgac3h7kbd87bvgqdrvr7fw2m2syjspfbk7jqb65"
   },
   "stable": {
    "version": [
@@ -120355,26 +120355,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20240310,
-    804
+    20240313,
+    2219
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "ab76db30ce3952cc5d1d2abc67fde6f62c306aa3",
-   "sha256": "01vs5ciqhij5lsd0yrhma93lvlgwnxdc0p97sdmg34v95fd2krk7"
+   "commit": "98378cafb76ba107e8de0a92be22d9e329b676f4",
+   "sha256": "11z4j67my3zd0q9j6q0qz4xsh4kkhb1y4f4ghrs653scdna9avm9"
   },
   "stable": {
    "version": [
     0,
     12,
-    153
+    154
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "72e9e15ace735d72efcf1fa30251c271f2817d01",
-   "sha256": "18qs7nj5gqjnfqnbxndcn46yx8pcdy6xh2v7wc70zny12mv6gbks"
+   "commit": "98378cafb76ba107e8de0a92be22d9e329b676f4",
+   "sha256": "11z4j67my3zd0q9j6q0qz4xsh4kkhb1y4f4ghrs653scdna9avm9"
   }
  },
  {
