@@ -41,10 +41,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.7.0.20240312.173832";
+        version = "0.8pre0.20240313.183743";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/activities-0.7.0.20240312.173832.tar";
-          sha256 = "0dc6niy5nr07l8p9h581a2adnk5azvpcma3mv2f9hja7cqp2h84q";
+          url = "https://elpa.gnu.org/devel/activities-0.8pre0.20240313.183743.tar";
+          sha256 = "1ba85ik0knxrlhw2prwsawin5r86n75qm240qkgkd05xhm7znqnw";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -1067,10 +1067,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.4.0.20240308.172420";
+        version = "1.4.0.20240314.64203";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.4.0.20240308.172420.tar";
-          sha256 = "0ca2pnrnwha2x3bl7m466v0w48zbqjal6g3p5cmggrs45xdc7lny";
+          url = "https://elpa.gnu.org/devel/consult-1.4.0.20240314.64203.tar";
+          sha256 = "0nir0wfnq8m9rm2di7m06mrjv28xamwnxlbxnk4hhd1xkk8pd930";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3565,16 +3565,17 @@
                           , lib
                           , persist
                           , taxy
-                          , taxy-magit-section }:
+                          , taxy-magit-section
+                          , transient }:
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.7pre0.20240313.44641";
+        version = "0.7.0.20240314.606";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.7pre0.20240313.44641.tar";
-          sha256 = "18qz64i4ahb1f36nxa9p5qcx85mb2q1m2nx157vm9i0m2d7zw6wm";
+          url = "https://elpa.gnu.org/devel/listen-0.7.0.20240314.606.tar";
+          sha256 = "0wynganfj25y4ihfmwzzp9fmihi2g3qkkxnrjm2987frvhk8q5vh";
         };
-        packageRequires = [ emacs persist taxy taxy-magit-section ];
+        packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/listen.html";
           license = lib.licenses.free;
@@ -7227,10 +7228,10 @@
       elpaBuild {
         pname = "wisi";
         ename = "wisi";
-        version = "4.3.2.0.20231026.105332";
+        version = "4.3.2.0.20240313.173240";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/wisi-4.3.2.0.20231026.105332.tar";
-          sha256 = "1jlqvimnjsdvaylfj2hq9k9bllvl74j1g4pd8w4kf3c30n7jyiql";
+          url = "https://elpa.gnu.org/devel/wisi-4.3.2.0.20240313.173240.tar";
+          sha256 = "0cd7y0wg52yz8bp74m9p9wnw4zhsgks61znxxm8y0mjxxac4g188";
         };
         packageRequires = [ emacs seq ];
         meta = {

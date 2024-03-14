@@ -3217,16 +3217,17 @@
                           , lib
                           , persist
                           , taxy
-                          , taxy-magit-section }:
+                          , taxy-magit-section
+                          , transient }:
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/listen-0.6.tar";
-          sha256 = "0ax9xsbr460wr7sihr5d5fk0mz4ny6kvpjy8ri6vzb11cfgm5y53";
+          url = "https://elpa.gnu.org/packages/listen-0.7.tar";
+          sha256 = "0bqw2vqfdsv9cdd4ajg4i03j38nyyv5nllhvrrybxlh2ylzy5ya0";
         };
-        packageRequires = [ emacs persist taxy taxy-magit-section ];
+        packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/listen.html";
           license = lib.licenses.free;
