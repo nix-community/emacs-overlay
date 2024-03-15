@@ -3166,6 +3166,25 @@
           license = lib.licenses.free;
         };
       }) {};
+    lentic-server = callPackage ({ elpaBuild
+                                 , fetchurl
+                                 , lentic
+                                 , lib
+                                 , web-server }:
+      elpaBuild {
+        pname = "lentic-server";
+        ename = "lentic-server";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/lentic-server-0.2.tar";
+          sha256 = "1vifs91r4rm57rka8by50f8zg5pr2hjqwbdz28mbbxhkj3war6s5";
+        };
+        packageRequires = [ lentic web-server ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/lentic-server.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     let-alist = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "let-alist";

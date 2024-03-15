@@ -774,10 +774,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.4.0.20240311.70211";
+        version = "1.4.0.20240315.54216";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.4.0.20240311.70211.tar";
-          sha256 = "1ja497if0x7rkabycwl115y5k3qh14cdp7cbravdj8x34k20c6qi";
+          url = "https://elpa.gnu.org/devel/cape-1.4.0.20240315.54216.tar";
+          sha256 = "0pqr36i8ijq32kf0qxb0hdm0gffakya12jjj4dy0hwan13scq77d";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1138,10 +1138,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.2.0.20240225.155830";
+        version = "1.2.0.20240314.200700";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.2.0.20240225.155830.tar";
-          sha256 = "19khsb8iccm73xbljhnmqnj1kgax9wv286yihm0bjdv26ifvqhii";
+          url = "https://elpa.gnu.org/devel/corfu-1.2.0.20240314.200700.tar";
+          sha256 = "1zvivyglbll2krjfns11xx1g2ljxgw4df01iqv9pifmmxf7iicny";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3500,10 +3500,10 @@
       elpaBuild {
         pname = "lentic-server";
         ename = "lentic-server";
-        version = "0.1.0.20240227.115743";
+        version = "0.2.0.20240314.214448";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/lentic-server-0.1.0.20240227.115743.tar";
-          sha256 = "1pdcra4wwbqwc0f24wkgg8pz6ssxnp92nis71la3za17147sm0q4";
+          url = "https://elpa.gnu.org/devel/lentic-server-0.2.0.20240314.214448.tar";
+          sha256 = "0nv50f4qa98cmj7r8azxbms6wbm1ij3bfld0fk1cqhn5b054ly0b";
         };
         packageRequires = [ lentic web-server ];
         meta = {
@@ -3570,10 +3570,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.7.0.20240314.606";
+        version = "0.8pre0.20240315.1453";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.7.0.20240314.606.tar";
-          sha256 = "0wynganfj25y4ihfmwzzp9fmihi2g3qkkxnrjm2987frvhk8q5vh";
+          url = "https://elpa.gnu.org/devel/listen-0.8pre0.20240315.1453.tar";
+          sha256 = "1d195284pxlim4krfl7gqwzmlikvqim92j7sdpqdz706p7c04r6y";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
@@ -3585,10 +3585,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.10.0.0.20240302.150322";
+        version = "0.10.0.0.20240314.213708";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.10.0.0.20240302.150322.tar";
-          sha256 = "0q558vpn7hf7xdhfgy3xhmplicpkq9m6zh34ld1594fq2dhsag1g";
+          url = "https://elpa.gnu.org/devel/llm-0.10.0.0.20240314.213708.tar";
+          sha256 = "1a0f54gcrbg0fl4jqv0wg977gmgp10wvkriiqxm0ycgiz6skzh7s";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3962,10 +3962,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.3.0.0.20240313.81305";
+        version = "4.3.0.0.20240315.51746";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240313.81305.tar";
-          sha256 = "082d4b6v4qngnl6dws2f0cgfnjw2q6l7jvbsi59f08kb488mc850";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240315.51746.tar";
+          sha256 = "0ir84f0xy0d2j8djgyx5fqixahng3f10xi010xpd4yw8pa137801";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5005,10 +5005,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.10.0.0.20240314.173744";
+        version = "0.10.0.0.20240315.22845";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20240314.173744.tar";
-          sha256 = "1w12k8y2l65h6dnlsiai1c1xrm4bvcl52m3b52dryn0ifs5vdz0h";
+          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20240315.22845.tar";
+          sha256 = "0l0aqa5xyj1wj3wxvbvyjx32cjq405dkp10fmy9ydb80a44l8jyw";
         };
         packageRequires = [ emacs xref ];
         meta = {
