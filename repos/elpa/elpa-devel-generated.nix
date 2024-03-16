@@ -3569,10 +3569,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.8pre0.20240315.1453";
+        version = "0.8pre0.20240315.234405";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.8pre0.20240315.1453.tar";
-          sha256 = "1d195284pxlim4krfl7gqwzmlikvqim92j7sdpqdz706p7c04r6y";
+          url = "https://elpa.gnu.org/devel/listen-0.8pre0.20240315.234405.tar";
+          sha256 = "03zhp7c9q5w4xhyz51zzc2x75qqbn0vs266c9y457gp45kyih75f";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
@@ -4410,10 +4410,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240314.212002";
+        version = "9.7pre0.20240315.212704";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240314.212002.tar";
-          sha256 = "1kq8vhiqy9m5a1vmj4bcvn24yn8pbv78130pgzijnb5gb5516f2a";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240315.212704.tar";
+          sha256 = "0j9s1k8j0dck9axn8cwad80w6mx9gps5cjakv99829xxgkdmislw";
         };
         packageRequires = [ emacs ];
         meta = {
