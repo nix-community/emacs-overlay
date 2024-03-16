@@ -1792,22 +1792,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    ellama = callPackage ({ dash
-                          , elpaBuild
-                          , emacs
-                          , fetchurl
-                          , lib
-                          , llm
-                          , spinner }:
+    ellama = callPackage ({ elpaBuild, emacs, fetchurl, lib, llm, spinner }:
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.8.10";
+        version = "0.8.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.8.10.tar";
-          sha256 = "0ci1qss0mlv760xnkddjpk0ql2kj6i78kvgpm19pjk8z4fcasbly";
+          url = "https://elpa.gnu.org/packages/ellama-0.8.11.tar";
+          sha256 = "1sbwxl0daq1xvykwl97pdbmgb871yky7v7bqyxx9jrvanyrjh2nl";
         };
-        packageRequires = [ dash emacs llm spinner ];
+        packageRequires = [ emacs llm spinner ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ellama.html";
           license = lib.licenses.free;
@@ -1907,10 +1901,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "18";
+        version = "19";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emms-18.tar";
-          sha256 = "1jslk37kx7yzvwy4hq1a6b71kp4a3bgfzzp8bpplv7z6vcmwrmgq";
+          url = "https://elpa.gnu.org/packages/emms-19.tar";
+          sha256 = "13c884s92ddn52psgkaz3zvb94g23gq41dbidpx7x4gzdhd9qqxm";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -2568,10 +2562,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.18";
+        version = "0.9.19";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.9.18.tar";
-          sha256 = "1m0ikwxkwd7mmn9ryf3jhwk686ammc3qhd1ymlqgz57rgvaxb9jr";
+          url = "https://elpa.gnu.org/packages/greader-0.9.19.tar";
+          sha256 = "1d04d1shzb505qs2mf7387dvl56pwlwh4b349s5fq2prwqrq71l7";
         };
         packageRequires = [ emacs ];
         meta = {

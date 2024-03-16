@@ -2001,8 +2001,7 @@
           license = lib.licenses.free;
         };
       }) {};
-    ellama = callPackage ({ dash
-                          , elpaBuild
+    ellama = callPackage ({ elpaBuild
                           , emacs
                           , fetchurl
                           , lib
@@ -2011,12 +2010,12 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.8.10.0.20240225.180309";
+        version = "0.8.11.0.20240315.174406";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.8.10.0.20240225.180309.tar";
-          sha256 = "03jzvsizj690h0mqp6n231a4wyfpil95zy6ka2pw38ndhf91gmi9";
+          url = "https://elpa.gnu.org/devel/ellama-0.8.11.0.20240315.174406.tar";
+          sha256 = "1a0zgyvsjdic5l0bljk4yagwwkzh8s86dlg5flq28h6379b2k9jz";
         };
-        packageRequires = [ dash emacs llm spinner ];
+        packageRequires = [ emacs llm spinner ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ellama.html";
           license = lib.licenses.free;
@@ -2119,10 +2118,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "18.0.20240302.183022";
+        version = "19.0.20240315.104856";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-18.0.20240302.183022.tar";
-          sha256 = "08v63f7qphwrajsripfnwnl2civfwhgmshpnyc5d7rsx4haqj9k3";
+          url = "https://elpa.gnu.org/devel/emms-19.0.20240315.104856.tar";
+          sha256 = "1dqig4h0ifrcrync7pf1gp3vklfvkvgrxyi1zxp1pn4f61ssja10";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -2320,10 +2319,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.28.0.20240212.225519";
+        version = "0.28.0.20240315.180800";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240212.225519.tar";
-          sha256 = "1ikp7q4cdss5isqrnl1iwlqwqgswh7sraz983ixdq706k1zsbcgr";
+          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240315.180800.tar";
+          sha256 = "16d4b5vrpix64vpayxn2zrvkdi53w5qrmy8hdhzs6r46sz8jgj71";
         };
         packageRequires = [ emacs xelb ];
         meta = {
@@ -2836,10 +2835,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.18.0.20240306.165821";
+        version = "0.9.19.0.20240315.175225";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.9.18.0.20240306.165821.tar";
-          sha256 = "10819n097zj5h3dlr9xfnps6apkn60x29ysl0qz3rlsciv18ycpf";
+          url = "https://elpa.gnu.org/devel/greader-0.9.19.0.20240315.175225.tar";
+          sha256 = "1z58dr4zpb2pk10ppjrqr7bxzbji6bgajhv71s6i6802k8il7r32";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3585,10 +3584,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.10.0.0.20240314.213708";
+        version = "0.10.0.0.20240315.111056";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.10.0.0.20240314.213708.tar";
-          sha256 = "1a0f54gcrbg0fl4jqv0wg977gmgp10wvkriiqxm0ycgiz6skzh7s";
+          url = "https://elpa.gnu.org/devel/llm-0.10.0.0.20240315.111056.tar";
+          sha256 = "1js6vnv18d9a7yy748dka9rsry9qmxhcazg8lp417r422a0cqby7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3977,10 +3976,10 @@
       elpaBuild {
         pname = "mpdired";
         ename = "mpdired";
-        version = "1.0.20240311.161639";
+        version = "2pre0.20240315.105319";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/mpdired-1.0.20240311.161639.tar";
-          sha256 = "0p0fvgrhrl5zvlng0rlh3ps6qgyyn17z79vgsy1y9pdj373rqygr";
+          url = "https://elpa.gnu.org/devel/mpdired-2pre0.20240315.105319.tar";
+          sha256 = "0bjpl3h3ml9pzjxlwq9ysy15xmlw63ilwqzlfy388gag98dmsi3q";
         };
         packageRequires = [ emacs ];
         meta = {
