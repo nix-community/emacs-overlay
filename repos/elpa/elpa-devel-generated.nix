@@ -3569,10 +3569,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.8pre0.20240316.70144";
+        version = "0.8pre0.20240317.21658";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.8pre0.20240316.70144.tar";
-          sha256 = "1ihip2m2imcm2hgd6fx3s366s6sjdlr6bmiwlbzgkj9cl8xqslxc";
+          url = "https://elpa.gnu.org/devel/listen-0.8pre0.20240317.21658.tar";
+          sha256 = "1607wgbwhsnvqhzcbygnmmk4xsdfcaz9y1ra194dwqk14m1mhzjr";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
@@ -3584,10 +3584,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.10.0.0.20240315.111056";
+        version = "0.12.0.0.20240317.12613";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.10.0.0.20240315.111056.tar";
-          sha256 = "1js6vnv18d9a7yy748dka9rsry9qmxhcazg8lp417r422a0cqby7";
+          url = "https://elpa.gnu.org/devel/llm-0.12.0.0.20240317.12613.tar";
+          sha256 = "0012108r7lrrqkqkjm0cf4jyxgg3rzka6min50r559lvzflssz1p";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3961,10 +3961,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.3.0.0.20240315.51746";
+        version = "4.3.0.0.20240317.64717";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240315.51746.tar";
-          sha256 = "0ir84f0xy0d2j8djgyx5fqixahng3f10xi010xpd4yw8pa137801";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240317.64717.tar";
+          sha256 = "0a7lpk0gr667lwjr89srs9qfckjxr8pn29v2fsm14gz9vl472y2h";
         };
         packageRequires = [ emacs ];
         meta = {
