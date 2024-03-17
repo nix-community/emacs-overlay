@@ -922,10 +922,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.4";
+        version = "29.1.4.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/compat-29.1.4.4.tar";
-          sha256 = "0710g552b1nznnfx2774gmg6yizs27s0bakqm95nsjrp6kgznbfr";
+          url = "https://elpa.gnu.org/packages/compat-29.1.4.5.tar";
+          sha256 = "191cjzrw9xm5bvcf8s1yr9hdcn9i02789xfd8pz33lk65s0rq413";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -1796,10 +1796,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.8.11";
+        version = "0.8.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.8.11.tar";
-          sha256 = "1sbwxl0daq1xvykwl97pdbmgb871yky7v7bqyxx9jrvanyrjh2nl";
+          url = "https://elpa.gnu.org/packages/ellama-0.8.13.tar";
+          sha256 = "012j3rnvwj8ajyjdlgdx6nrs773i71dyl5brs0jgx010jibzmafi";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -4069,10 +4069,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.1";
+        version = "1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-modern-1.1.tar";
-          sha256 = "1aclips7y3dasjh6rjdcx1b6fkaripjam6120b7wm487qpjcrzc8";
+          url = "https://elpa.gnu.org/packages/org-modern-1.2.tar";
+          sha256 = "1kgvrsmbgadbr7wk48sgx1prlgpbp31nih9bl9div35d496njcnw";
         };
         packageRequires = [ compat emacs ];
         meta = {
