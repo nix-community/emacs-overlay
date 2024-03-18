@@ -348,10 +348,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.3.0.20240220.160410";
+        version = "14.0.4.0.20240317.113904";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.3.0.20240220.160410.tar";
-          sha256 = "1j4i9m9018s606wbrx4r439i479jqf9f5040m9b3qbqhgqwklw8z";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240317.113904.tar";
+          sha256 = "1iwzym6ygq0wzb96qgbv7530fv3cxykjilbxzxb3la3xhqb93qhs";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3569,10 +3569,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.8pre0.20240317.21658";
+        version = "0.8pre0.20240317.64956";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.8pre0.20240317.21658.tar";
-          sha256 = "1607wgbwhsnvqhzcbygnmmk4xsdfcaz9y1ra194dwqk14m1mhzjr";
+          url = "https://elpa.gnu.org/devel/listen-0.8pre0.20240317.64956.tar";
+          sha256 = "0s40yiqn9fbka6fnzmpq68xnrygj0ykyrs8g9bw5hzmsxyzjj2id";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
@@ -3961,10 +3961,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.3.0.0.20240317.64717";
+        version = "4.4.0.0.20240317.161951";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.3.0.0.20240317.64717.tar";
-          sha256 = "0a7lpk0gr667lwjr89srs9qfckjxr8pn29v2fsm14gz9vl472y2h";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.4.0.0.20240317.161951.tar";
+          sha256 = "1mp5fxapp5qki5h3qckq9mhfqcljzzhn4hrz1ngdxbqpxf329ssb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4410,10 +4410,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240316.130300";
+        version = "9.7pre0.20240317.143538";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240316.130300.tar";
-          sha256 = "0bvr7k1faw6ydcd12w4b3rf7lw1x8v2ypws3br7xmzczlnlxrv8d";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240317.143538.tar";
+          sha256 = "1l85pb4l1p1kyvja0q7zyi4cvk9v41x1c26qxhml01w7ld86j6sm";
         };
         packageRequires = [ emacs ];
         meta = {

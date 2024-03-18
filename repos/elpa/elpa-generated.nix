@@ -295,10 +295,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.3";
+        version = "14.0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-14.0.3.tar";
-          sha256 = "1xk29nk3r7ilxk2vag3diacamqvlws7mbjk5a0iivz5y6fy7hmjc";
+          url = "https://elpa.gnu.org/packages/auctex-14.0.4.tar";
+          sha256 = "03w6qs4f0ksb8f54zsx189775w3wdyfaqg3dwn20a77y5cvisk52";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3595,10 +3595,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.3.0";
+        version = "4.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/modus-themes-4.3.0.tar";
-          sha256 = "0zsglzqc36bw9r7fgvxjdcrdjar6xwad29kwyqd2k36bq3pivzq3";
+          url = "https://elpa.gnu.org/packages/modus-themes-4.4.0.tar";
+          sha256 = "1n6fmgj2kpdy2mmwg5hh6dic30zy0gd3ap6hlipl9qn08lawbbgq";
         };
         packageRequires = [ emacs ];
         meta = {
