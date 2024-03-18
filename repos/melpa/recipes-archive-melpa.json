@@ -25506,11 +25506,14 @@
   "repo": "spotify/dockerfile-mode",
   "unstable": {
    "version": [
-    20240304,
-    1907
+    20240318,
+    24
    ],
-   "commit": "afcd418d82a0162dd59c44a5e0c558bcb1d1d7ca",
-   "sha256": "190v2mivmi5giavwxrdsxw17wm9cbz9zlya1zk8q5w00z6s3s9hw"
+   "deps": [
+    "s"
+   ],
+   "commit": "f6196726342b44081933597a343805db6366e7ac",
+   "sha256": "0whij3kfhapd15j69jb1jf76w0p83wb596sbv3vgjsaym7s1m4ka"
   },
   "stable": {
    "version": [
@@ -25763,16 +25766,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20240311,
-    1107
+    20240318,
+    234
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "8996917d1706522f1f5526094e84f5709398e20d",
-   "sha256": "1wp7wpdllmx6bqzis6mhd3zvzfiidizb7qd448ynaqjw5prrxfxc"
+   "commit": "e09b8e989fa5fc1d98320aaa29d7138631b20ae5",
+   "sha256": "00jgs4d2si2c6m7bghzlczl8vj48snyr7z68igh0lgq5afg0s81y"
   },
   "stable": {
    "version": [
@@ -69791,11 +69794,11 @@
   "repo": "ledger/ledger-mode",
   "unstable": {
    "version": [
-    20240317,
-    1906
+    20240318,
+    627
    ],
-   "commit": "59ccedb3958543afb9347cc088e2de5880927db8",
-   "sha256": "0qqhgsy1sg70rxisvccfg5b1r4kmdc8ix0pwdfc0k1s1yzdyhgwf"
+   "commit": "5f95628f2eea724ce63f7e06d4cf17e9a636f4a4",
+   "sha256": "024i36b727wyglw620mbmlcgzada3dc051nsxzwr89gl5ascj10n"
   },
   "stable": {
    "version": [
@@ -72544,14 +72547,14 @@
   "repo": "emacs-languagetool/lsp-ltex",
   "unstable": {
    "version": [
-    20240226,
-    1900
+    20240318,
+    224
    ],
    "deps": [
     "lsp-mode"
    ],
-   "commit": "9784627a5a6dc519136d51f60900a3a48c501e00",
-   "sha256": "0hbypcckkjbjpvj37yx5j0r1vl1srxdwrdy4cnh3vxz5znqpsvx5"
+   "commit": "c4bc1515be815b58d76bed2dbc5e7c400c37d6be",
+   "sha256": "0n2vgwag68wsszmjid0zz0jip7nb03chs3v1vh0zm15y0ri0rjl3"
   },
   "stable": {
    "version": [
@@ -72621,8 +72624,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20240317,
-    1845
+    20240318,
+    653
    ],
    "deps": [
     "dash",
@@ -72633,8 +72636,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "782e1dc15a590ae9aa2c9b7e39c4cc8a65952e13",
-   "sha256": "0m9ll8xb55sqmglipc209vwgcmm6g296kwxkxhsf93hrwxvq0kn4"
+   "commit": "facb404e541ab9dca3f0833930f17842193b2da5",
+   "sha256": "0vwjva60wgj8bl81k9mqyqjgrphszz47bzh189xfx9jndbqcl3af"
   },
   "stable": {
    "version": [
@@ -94286,11 +94289,11 @@
   "repo": "justinbarclay/parinfer-rust-mode",
   "unstable": {
    "version": [
-    20230831,
-    618
+    20240318,
+    159
    ],
-   "commit": "6e6bdeeba32534acca5928fe4201ce013094988d",
-   "sha256": "1dkvsk3damvimnzs56f1vq4fqfkfkhwag9fzanz7s97bywpanhc2"
+   "commit": "0eb7febd4e652261d224652ff5313946f0c67be4",
+   "sha256": "1n5anllhdbw4hp613w79l275f4ipbaiidvwqkfacpx2fy9vybr85"
   },
   "stable": {
    "version": [
@@ -105757,14 +105760,14 @@
   "repo": "dgutov/robe",
   "unstable": {
    "version": [
-    20240316,
-    259
+    20240318,
+    8
    ],
    "deps": [
     "inf-ruby"
    ],
-   "commit": "34ce25eb9b1956389276adeca93b679bf0a84451",
-   "sha256": "0kvyfyr4b0z0l964a8z9shy8nlnxzxc2ljcc02gj2pn1rn1wz0gq"
+   "commit": "87076072cb63c560407b11e50b0293c5ac33307f",
+   "sha256": "1kkmk4knkh70s9lb87z7rw7i1jn5ybvzwb1qqq9a8kqkh6j3g4wj"
   },
   "stable": {
    "version": [
