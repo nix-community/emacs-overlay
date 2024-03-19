@@ -1322,10 +1322,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.9.0.0.20240317.221901";
+        version = "0.9.0.0.20240318.94928";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.9.0.0.20240317.221901.tar";
-          sha256 = "15dpxs99j69izrnr912q4jjbdk30yn47sn5hpgip35275xv9d5kz";
+          url = "https://elpa.gnu.org/devel/dape-0.9.0.0.20240318.94928.tar";
+          sha256 = "0f190gkicqqj02irhgcwcjjalh4srbcd9y80src888wp775vwy1x";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1385,10 +1385,10 @@
       elpaBuild {
         pname = "debbugs";
         ename = "debbugs";
-        version = "0.40.0.20240312.90137";
+        version = "0.40.0.20240318.175047";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/debbugs-0.40.0.20240312.90137.tar";
-          sha256 = "03yjr2wm41l1ai9fcz28kdph0lcdjxdwmyvcn30dwvrykx5ici54";
+          url = "https://elpa.gnu.org/devel/debbugs-0.40.0.20240318.175047.tar";
+          sha256 = "1vkap2h2041hib1rw3n91z9hs6vfphkgi84257x7b8yj1f0dr2xn";
         };
         packageRequires = [ emacs soap-client ];
         meta = {
@@ -3976,10 +3976,10 @@
       elpaBuild {
         pname = "mpdired";
         ename = "mpdired";
-        version = "2pre0.20240315.105319";
+        version = "2pre0.20240318.91236";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/mpdired-2pre0.20240315.105319.tar";
-          sha256 = "0bjpl3h3ml9pzjxlwq9ysy15xmlw63ilwqzlfy388gag98dmsi3q";
+          url = "https://elpa.gnu.org/devel/mpdired-2pre0.20240318.91236.tar";
+          sha256 = "0f3d776kdd1zmk0srmirjj1lxwk8963j8zplgsi635m5cf3m20wj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4130,10 +4130,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "1.0.1.0.20240120.114819";
+        version = "1.0.1.0.20240318.92455";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/nano-modeline-1.0.1.0.20240120.114819.tar";
-          sha256 = "0m4zs3l3q077v0g1vp1z0kbddgb3cwvnd7i50f4ih9pjiymgjvkc";
+          url = "https://elpa.gnu.org/devel/nano-modeline-1.0.1.0.20240318.92455.tar";
+          sha256 = "1ncbyq2753s46aca2kklf5rrgccc1wddbp0qbhcn6v2j1y37c8k5";
         };
         packageRequires = [ emacs ];
         meta = {
