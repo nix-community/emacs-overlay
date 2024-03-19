@@ -2118,10 +2118,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "19.0.20240315.104856";
+        version = "19.0.20240318.161230";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-19.0.20240315.104856.tar";
-          sha256 = "1dqig4h0ifrcrync7pf1gp3vklfvkvgrxyi1zxp1pn4f61ssja10";
+          url = "https://elpa.gnu.org/devel/emms-19.0.20240318.161230.tar";
+          sha256 = "0yk3v3vglv8hl4x9piyis7q783gmbb49sw15zdgjys56plcg2k17";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -4968,10 +4968,10 @@
       elpaBuild {
         pname = "pq";
         ename = "pq";
-        version = "0.1.0.20220719.42000";
+        version = "0.2.0.20240317.135839";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pq-0.1.0.20220719.42000.tar";
-          sha256 = "11anvvmsjrfcfcz5sxfd40gsm6mlmc9llrvdnwhp4dsvi2llqv65";
+          url = "https://elpa.gnu.org/devel/pq-0.2.0.20240317.135839.tar";
+          sha256 = "0hfngsg0hqqrkm55q0ds09bprbpf7km7ry0s4y2lmvyybfaszkla";
         };
         packageRequires = [ emacs ];
         meta = {

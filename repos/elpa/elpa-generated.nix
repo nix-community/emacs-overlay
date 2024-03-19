@@ -4470,6 +4470,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    pq = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "pq";
+        ename = "pq";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/pq-0.2.tar";
+          sha256 = "0gy3i2l1fxwpav6l57yf3mml15lhwh9xp8sm40hlpgyn15nyz4c6";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/pq.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     project = callPackage ({ elpaBuild, emacs, fetchurl, lib, xref }:
       elpaBuild {
         pname = "project";
