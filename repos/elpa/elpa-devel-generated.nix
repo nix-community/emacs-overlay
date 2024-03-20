@@ -3976,10 +3976,10 @@
       elpaBuild {
         pname = "mpdired";
         ename = "mpdired";
-        version = "2pre0.20240318.91236";
+        version = "2pre0.20240319.164728";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/mpdired-2pre0.20240318.91236.tar";
-          sha256 = "0f3d776kdd1zmk0srmirjj1lxwk8963j8zplgsi635m5cf3m20wj";
+          url = "https://elpa.gnu.org/devel/mpdired-2pre0.20240319.164728.tar";
+          sha256 = "18xhxlxzl5kapjzhaqw0zsi5avp2wb0vrxj9rsigsjcr0p09asrd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4148,10 +4148,10 @@
       elpaBuild {
         pname = "nano-theme";
         ename = "nano-theme";
-        version = "0.3.4.0.20230421.53238";
+        version = "0.3.4.0.20240319.93238";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/nano-theme-0.3.4.0.20230421.53238.tar";
-          sha256 = "04fmfzy965d6wbaxgpkgyxaw9qv6103gc9g8kw1gcvbxdgq0rf56";
+          url = "https://elpa.gnu.org/devel/nano-theme-0.3.4.0.20240319.93238.tar";
+          sha256 = "0i7zxx2y052bn4ry3pr24zmm846zilcvv2pvkzcd450zp84p39hn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4410,10 +4410,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240317.143538";
+        version = "9.7pre0.20240319.192257";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240317.143538.tar";
-          sha256 = "1l85pb4l1p1kyvja0q7zyi4cvk9v41x1c26qxhml01w7ld86j6sm";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240319.192257.tar";
+          sha256 = "0ax3xbzw6qkl7xcsb2bjy6k7pljkn0b05wdybr19b249wrz6hvj9";
         };
         packageRequires = [ emacs ];
         meta = {
