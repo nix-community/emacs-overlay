@@ -64,10 +64,10 @@
       elpaBuild {
         pname = "annotate";
         ename = "annotate";
-        version = "2.1.0";
+        version = "2.2.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/annotate-2.1.0.tar";
-          sha256 = "07q8s3qi3lm8g01ypvqqq0cn5jx5jrgyv74fbfam3mmz5l3mqp6q";
+          url = "https://elpa.nongnu.org/nongnu/annotate-2.2.0.tar";
+          sha256 = "1h1whavdrwfsc79kcvh2vbvjzqd7n01xzjb1acgyiy9wkyl79p7b";
         };
         packageRequires = [];
         meta = {
