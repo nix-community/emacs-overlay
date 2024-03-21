@@ -646,18 +646,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    brief = callPackage ({ cl-lib ? null
-                         , elpaBuild
-                         , fetchurl
-                         , lib
-                         , nadvice }:
+    brief = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib, nadvice }:
       elpaBuild {
         pname = "brief";
         ename = "brief";
-        version = "5.88.22.2.0.20230818.125719";
+        version = "5.90.0.20240321.65101";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/brief-5.88.22.2.0.20230818.125719.tar";
-          sha256 = "1h9kqphbzmg0jwms8zd0ch0sgg8z1g847wcggr3842xhdayxds1k";
+          url = "https://elpa.gnu.org/devel/brief-5.90.0.20240321.65101.tar";
+          sha256 = "1z4nww74gaxjjjfg4i9qdk6lwfjnbsc41jq95k0pcj12ilwilg54";
         };
         packageRequires = [ cl-lib nadvice ];
         meta = {
@@ -3569,10 +3565,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.8pre0.20240320.55640";
+        version = "0.9pre0.20240320.213204";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.8pre0.20240320.55640.tar";
-          sha256 = "0am8m9bdz70fgq8cbgrah2l9m24ar091561jdwpzr6bgzgfv63r1";
+          url = "https://elpa.gnu.org/devel/listen-0.9pre0.20240320.213204.tar";
+          sha256 = "1vxs4bmlmsj25zpcxs40myx99l4pcpblnkrjmd5js9hcykcx4jbf";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {

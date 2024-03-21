@@ -565,10 +565,10 @@
       elpaBuild {
         pname = "brief";
         ename = "brief";
-        version = "5.88.22.2";
+        version = "5.90";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/brief-5.88.22.2.tar";
-          sha256 = "1i4sdm8kcrazzp22gb4hi1gd4lfq6hdh6pnldmi1zjjyhl1gbzn3";
+          url = "https://elpa.gnu.org/packages/brief-5.90.tar";
+          sha256 = "18v0qf3aj14sh6njrrjdahzaghsqy50hdjrwl3k1m7x2jqvzxd1z";
         };
         packageRequires = [ cl-lib nadvice ];
         meta = {
@@ -3235,10 +3235,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.7";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/listen-0.7.tar";
-          sha256 = "0bqw2vqfdsv9cdd4ajg4i03j38nyyv5nllhvrrybxlh2ylzy5ya0";
+          url = "https://elpa.gnu.org/packages/listen-0.8.tar";
+          sha256 = "1vj9fsyp5v1qh87asj23k625080x6c8mgkas4933lrz7l2g7h1y2";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
