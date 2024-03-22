@@ -3014,10 +3014,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.1.0.20240312.231742";
+        version = "9.0.1.0.20240321.162210";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.1.0.20240312.231742.tar";
-          sha256 = "18w8vqr0hdmbqxf3r03x0q3b8a3ybbzw56xbn51c7amxyspw8wdd";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.1.0.20240321.162210.tar";
+          sha256 = "052w5imprjdfzvgqdspgnxji2r2r0jy9xjl96kzfb1y6grp515hb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3381,10 +3381,10 @@
       elpaBuild {
         pname = "kind-icon";
         ename = "kind-icon";
-        version = "0.2.2.0.20240106.145829";
+        version = "0.2.2.0.20240321.120430";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/kind-icon-0.2.2.0.20240106.145829.tar";
-          sha256 = "16b0ilf3hqqlr9blc6vl1yc1y83hmfnxm0isl2f8rff29hw0k6y5";
+          url = "https://elpa.gnu.org/devel/kind-icon-0.2.2.0.20240321.120430.tar";
+          sha256 = "11f82zrdf5fmpbfv076pg55d0pybjv13wyl62pymcgw1i1jjsach";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
@@ -3580,10 +3580,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.12.0.0.20240317.12613";
+        version = "0.12.0.0.20240321.150705";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.12.0.0.20240317.12613.tar";
-          sha256 = "0012108r7lrrqkqkjm0cf4jyxgg3rzka6min50r559lvzflssz1p";
+          url = "https://elpa.gnu.org/devel/llm-0.12.0.0.20240321.150705.tar";
+          sha256 = "15i104gxrs247rrgihxca1kavqz299qas17w6qrbkjr648b4fgc8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4406,10 +4406,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240319.203530";
+        version = "9.7pre0.20240321.141258";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240319.203530.tar";
-          sha256 = "0ibshb3wj1gsa4vm8qs257lyhbl0rq16s6s4ddl2nq64kqmqfncw";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240321.141258.tar";
+          sha256 = "1midswazzf4advfxdzc42kwq33x181r5mg7qgkywyyf70sdbxg3z";
         };
         packageRequires = [ emacs ];
         meta = {
