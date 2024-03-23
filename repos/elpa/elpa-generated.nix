@@ -580,10 +580,10 @@
       elpaBuild {
         pname = "buffer-env";
         ename = "buffer-env";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/buffer-env-0.5.tar";
-          sha256 = "17q0flxp0rp52ksyh5ijcamvvm003icbyzv28r6vknrw3qsphb3p";
+          url = "https://elpa.gnu.org/packages/buffer-env-0.6.tar";
+          sha256 = "08li070s2s64lifgzns0z6xjk1qyaik56d6sbdp3gsyghc1sx7rn";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2979,10 +2979,10 @@
       elpaBuild {
         pname = "jit-spell";
         ename = "jit-spell";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jit-spell-0.3.tar";
-          sha256 = "0q8wd9phd0zcjhc92j633vz82fr0ji8zc9vir7kcn1msrf6jspwz";
+          url = "https://elpa.gnu.org/packages/jit-spell-0.4.tar";
+          sha256 = "1p83spcq52l7k63p56y3w5r3kl49wbrs4abynwn25ikhkd4wl8x3";
         };
         packageRequires = [ compat emacs ];
         meta = {

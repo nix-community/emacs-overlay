@@ -669,10 +669,10 @@
       elpaBuild {
         pname = "buffer-env";
         ename = "buffer-env";
-        version = "0.5.0.20240313.181247";
+        version = "0.6.0.20240323.72724";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/buffer-env-0.5.0.20240313.181247.tar";
-          sha256 = "1jyp26j0s04kqshdm11nw9di6f9ngzravk0s37w053alhp12ib9c";
+          url = "https://elpa.gnu.org/devel/buffer-env-0.6.0.20240323.72724.tar";
+          sha256 = "1bdch2ah5c0ikzl2zyfv7hkpbhvkvcdd4ljkzd5zmnwj11fk7ml2";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1411,10 +1411,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.2.4.0.20240318.54213";
+        version = "2.2.4.0.20240323.60736";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240318.54213.tar";
-          sha256 = "1pf9pvkxzqfciwpcc6vd1gbyxdx3mdna3qpzbbn2lbbh1j8pg465";
+          url = "https://elpa.gnu.org/devel/denote-2.2.4.0.20240323.60736.tar";
+          sha256 = "09dg1lffr5lqarpxdmp2nvz1l6dky4pql7z1ahpcbbl7zrhshz0a";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1908,10 +1908,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240314.151638";
+        version = "1.17.0.20240323.73745";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240314.151638.tar";
-          sha256 = "1z62dyx5q31jk24pyhjvkh0csbc0i8yr0nwkh9p8rm9ilhssg4bq";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240323.73745.tar";
+          sha256 = "0g2a6hj6k1z74ymsl568117bql1xalf0pqlckscj8dj1glcn6jq5";
         };
         packageRequires = [
           eldoc
@@ -3287,18 +3287,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    jit-spell = callPackage ({ compat
-                             , elpaBuild
-                             , emacs
-                             , fetchurl
-                             , lib }:
+    jit-spell = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "jit-spell";
         ename = "jit-spell";
-        version = "0.3.0.20240316.102941";
+        version = "0.4.0.20240323.72834";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jit-spell-0.3.0.20240316.102941.tar";
-          sha256 = "0jwnss0qmv72j95bw5049vsyyij9x9zhcqss87cizk96xh4f5qxa";
+          url = "https://elpa.gnu.org/devel/jit-spell-0.4.0.20240323.72834.tar";
+          sha256 = "14lqji9qyki7yq1kr1hc1ikcphvk18js3mp1rwx239mh3v079f0n";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4406,10 +4402,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240322.105045";
+        version = "9.7pre0.20240323.55820";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240322.105045.tar";
-          sha256 = "0d6j1wvspk48s0i0jp3amildzwcqw24f3dj4n0ywvgcv2hpn27yl";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240323.55820.tar";
+          sha256 = "1bny5dlpqvairmsksx4xffb87z8rkydgblxrbzakjxfh8680ix5x";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5978,10 +5974,10 @@
       elpaBuild {
         pname = "sql-indent";
         ename = "sql-indent";
-        version = "1.7.0.20230922.224618";
+        version = "1.7.0.20240323.40057";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/sql-indent-1.7.0.20230922.224618.tar";
-          sha256 = "1clffdk29mq5cbgjw5if2sfmx1dvvhn10lapnrpfz560r2lfykvg";
+          url = "https://elpa.gnu.org/devel/sql-indent-1.7.0.20240323.40057.tar";
+          sha256 = "1gvb4inym802zjx721l7qwwmvahaqaw0v1qkm3kl36nqcx7ykp52";
         };
         packageRequires = [ cl-lib ];
         meta = {
