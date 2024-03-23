@@ -1883,10 +1883,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.6.0.0.20240322.52632";
+        version = "1.6.1.0.20240322.140619";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.6.0.0.20240322.52632.tar";
-          sha256 = "1bsg57wwwmxvzcx6dv18dkwyqbc52nd603zhvzblg410339f8adl";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.6.1.0.20240322.140619.tar";
+          sha256 = "0zmwx7l3dgjrqwg4nlsjkaiqx95pswpznzzrbzzlkc4aajk9l047";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3014,10 +3014,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.1.0.20240321.162210";
+        version = "9.0.2pre0.20240322.162839";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.1.0.20240321.162210.tar";
-          sha256 = "052w5imprjdfzvgqdspgnxji2r2r0jy9xjl96kzfb1y6grp515hb";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240322.162839.tar";
+          sha256 = "14m1gnkbr9sg8i5bxwar71qs23i3wnqlfwf8cac76ihpminfzz1f";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3565,10 +3565,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.9pre0.20240322.23342";
+        version = "0.9pre0.20240322.72611";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.9pre0.20240322.23342.tar";
-          sha256 = "1spa0ggpnr8xlm1yv07q495ilqwn91canff559x12ny7lhxg7jji";
+          url = "https://elpa.gnu.org/devel/listen-0.9pre0.20240322.72611.tar";
+          sha256 = "0k50isjazhx0hbmxw3s2p2ny56il5ywbsq1bda6av86ifzr1620c";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
@@ -3580,10 +3580,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.12.1.0.20240322.10219";
+        version = "0.12.1.0.20240322.152308";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.12.1.0.20240322.10219.tar";
-          sha256 = "1h1nnca7ig9h8f9vid2ng8zkck8a1l10iwwyjim9x24nij5lxnc6";
+          url = "https://elpa.gnu.org/devel/llm-0.12.1.0.20240322.152308.tar";
+          sha256 = "0pqmdk76yhadygkqzqapcz36z32b6mz8niv3aqgs3v3l6k28qm1p";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4406,10 +4406,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240321.141258";
+        version = "9.7pre0.20240322.105045";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240321.141258.tar";
-          sha256 = "1midswazzf4advfxdzc42kwq33x181r5mg7qgkywyyf70sdbxg3z";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240322.105045.tar";
+          sha256 = "0d6j1wvspk48s0i0jp3amildzwcqw24f3dj4n0ywvgcv2hpn27yl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4788,10 +4788,10 @@
       elpaBuild {
         pname = "phpinspect";
         ename = "phpinspect";
-        version = "0.0.20240312.164804";
+        version = "0.0.20240322.152749";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/phpinspect-0.0.20240312.164804.tar";
-          sha256 = "1kymcgzlavfld8cy30y64f8pysr1dn2cyqhfwl74k2v5b5rx289y";
+          url = "https://elpa.gnu.org/devel/phpinspect-0.0.20240322.152749.tar";
+          sha256 = "1cm8m3zvqd000zv88md4qnrjlq29x8kl1zsivb1k4q6b0rxpva4g";
         };
         packageRequires = [ compat ];
         meta = {
@@ -6574,10 +6574,10 @@
       elpaBuild {
         pname = "tree-inspector";
         ename = "tree-inspector";
-        version = "0.4.0.20230925.193758";
+        version = "0.4.0.20240322.113138";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tree-inspector-0.4.0.20230925.193758.tar";
-          sha256 = "0ncg9yhngzn7cspqna62i21v8rra4hczpz74xckgzs34s98mv4y7";
+          url = "https://elpa.gnu.org/devel/tree-inspector-0.4.0.20240322.113138.tar";
+          sha256 = "0ic17jzzj5mqzdpg6hvwyas9s70jpqgfc96azmmb3mhpvs6xwak2";
         };
         packageRequires = [ emacs treeview ];
         meta = {
@@ -6950,10 +6950,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.7.0.20240320.105242";
+        version = "1.7.0.20240322.111445";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.7.0.20240320.105242.tar";
-          sha256 = "1n4yv24pnqpkvlr1sbn83in94zan6s17z8rv6gjrkhbszycjxhip";
+          url = "https://elpa.gnu.org/devel/vertico-1.7.0.20240322.111445.tar";
+          sha256 = "1v4c3h9qv1mr4dwirzh5r6vvkbxhxqw4cq245vla0ljgl9bhsm86";
         };
         packageRequires = [ compat emacs ];
         meta = {

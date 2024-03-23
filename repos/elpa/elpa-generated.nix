@@ -1682,10 +1682,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.6.0";
+        version = "1.6.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-1.6.0.tar";
-          sha256 = "0zki34gyfl8riiqlz8cf7zmwbpsyz9xpmyxrwxfkbpxzgi74lp59";
+          url = "https://elpa.gnu.org/packages/ef-themes-1.6.1.tar";
+          sha256 = "1ms0rqivxdsbx7jv6d5h1khvm4ghml152ab831chg4z77apmq1ga";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4009,10 +4009,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.21";
+        version = "9.6.22";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.21.tar";
-          sha256 = "1hr97lardc1g3yxvqvanw91r96br4kj303zs3184bd2a9vm4y93f";
+          url = "https://elpa.gnu.org/packages/org-9.6.22.tar";
+          sha256 = "1svfgmmdzyic2iqs920zphh0nf69f7xpg5wk65s6bll79p4s04f9";
         };
         packageRequires = [ emacs ];
         meta = {
