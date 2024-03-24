@@ -1301,10 +1301,10 @@
       elpaBuild {
         pname = "devdocs";
         ename = "devdocs";
-        version = "0.5";
+        version = "0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/devdocs-0.5.tar";
-          sha256 = "0qyp8lhf76yv2ym7cryvygvf2m9jah5nsl1g79gqjrsin6vlhqka";
+          url = "https://elpa.gnu.org/packages/devdocs-0.6.tar";
+          sha256 = "17av2l61mr4y8la4cqiq1dnaznni4xirr5k3wdix1jzl3q1apypy";
         };
         packageRequires = [ emacs ];
         meta = {
