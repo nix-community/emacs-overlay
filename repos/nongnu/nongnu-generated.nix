@@ -762,10 +762,10 @@
       elpaBuild {
         pname = "elpher";
         ename = "elpher";
-        version = "3.5.1";
+        version = "3.6.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/elpher-3.5.1.tar";
-          sha256 = "0687npypihavghz9bjs8f6h10awjgjv5fdd11dmh43p1krhrga2w";
+          url = "https://elpa.nongnu.org/nongnu/elpher-3.6.0.tar";
+          sha256 = "0pa8y3zc768wdgp43546qvwr6ly2q9gznfrl6qmm90gkv5wrc5ln";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3580,10 +3580,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "24.23.20240321233250";
+        version = "24.24.20240324101507";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.23.20240321233250.tar";
-          sha256 = "1c9a3d2d2pifngwmyp1asjp7pmd6d3v5h3wy5v768h303j7fp6rv";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-24.24.20240324101507.tar";
+          sha256 = "1lqrrs5j523q33vvs85j3dlnd56bmnzglfkc8jilv6yq44dmv7v7";
         };
         packageRequires = [ emacs ];
         meta = {
