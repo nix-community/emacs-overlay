@@ -4114,10 +4114,10 @@
       elpaBuild {
         pname = "org-remark";
         ename = "org-remark";
-        version = "1.2.1";
+        version = "1.2.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-remark-1.2.1.tar";
-          sha256 = "0xf10kgb0g4y9i4s1d3a1i5a119a1pijzhp5xxj2b2wyvjs2g3yk";
+          url = "https://elpa.gnu.org/packages/org-remark-1.2.2.tar";
+          sha256 = "0nxs01dzv7pmbhw35bb8f9inbb2al79y1f7y3a0llqf98b72hg9q";
         };
         packageRequires = [ emacs org ];
         meta = {
