@@ -58,13 +58,13 @@ updated daily.
 This overlay also provides two versions (latest from git) for Emacs. These
 are updated daily.
 
-These attributes are named =emacsGit= and =emacs-unstable=.
-=emacsGit= is built from the latest =master= branch and =emacs-unstable= is built from the latest tag.
+These attributes are named =emacs-git= and =emacs-unstable=.
+=emacs-git= is built from the latest =master= branch and =emacs-unstable= is built from the latest tag.
 
 Emacs from git is not guaranteed stable and may break your setup at any
 time, if it breaks you get to keep both pieces.
 
-We also provide two attributes named =emacsGit-nox= and =emacs-unstable-nox=
+We also provide two attributes named =emacs-git-nox= and =emacs-unstable-nox=
 if you wish to have Emacs built without X dependencies.
 =emacs-pgtk= uses the experimental pgtk feature which supports Wayland natively.
 
@@ -101,7 +101,7 @@ required in a user's config via =use-package= or =leaf=.
         defaultInitFile = true;
 
         # Package is optional, defaults to pkgs.emacs
-        package = pkgs.emacsGit;
+        package = pkgs.emacs-git;
 
         # By default emacsWithPackagesFromUsePackage will only pull in
         # packages with `:ensure`, `:ensure t` or `:ensure <package name>`.
@@ -191,7 +191,7 @@ package directly from the overlay. For example, you can install
 =emacsGit= from a clone of this repository with the following command:
 
 #+begin_src shell
-  nix-build --expr 'with (import <nixpkgs> { overlays = [ (import ./.) ]; }); emacsGit'
+  nix-build --expr 'with (import <nixpkgs> { overlays = [ (import ./.) ]; }); emacs-git'
 #+end_src
 
 * Community
