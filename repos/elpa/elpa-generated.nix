@@ -1256,10 +1256,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.1";
+        version = "2.3.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-2.3.1.tar";
-          sha256 = "1mv6drfjms68i719p00cicnq9ivbsh8bbrxyq3n651wcxmi5qq9m";
+          url = "https://elpa.gnu.org/packages/denote-2.3.2.tar";
+          sha256 = "17zp4kylbq6lla58c23n7wf3hdvpmalm9i55n7rjlg3zd2h37gm0";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3949,10 +3949,10 @@
       elpaBuild {
         pname = "omn-mode";
         ename = "omn-mode";
-        version = "1.2";
+        version = "1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/omn-mode-1.2.el";
-          sha256 = "0p7lmqabdcn625q9z7libn7q1b6mjc74bkic2kjhhckzvlfjk742";
+          url = "https://elpa.gnu.org/packages/omn-mode-1.3.tar";
+          sha256 = "1cabjp8ankhc4cqyi6kasa5jc6s6kmiaw7m8k3439pw0xyc3z4ba";
         };
         packageRequires = [];
         meta = {
