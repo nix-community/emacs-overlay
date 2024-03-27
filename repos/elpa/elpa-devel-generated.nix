@@ -596,10 +596,10 @@
       elpaBuild {
         pname = "boxy";
         ename = "boxy";
-        version = "1.1.3.0.20231024.113314";
+        version = "1.1.4.0.20240326.215209";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/boxy-1.1.3.0.20231024.113314.tar";
-          sha256 = "1b5dkjic7spzbkj78m03z00gh8a9f8yv1kkyhnr4gks81jdr1gsn";
+          url = "https://elpa.gnu.org/devel/boxy-1.1.4.0.20240326.215209.tar";
+          sha256 = "00b8m3ydyxzynzkh9n5crmnvrzsdkrjznkyajq0sb2japgmsqfxn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -616,10 +616,10 @@
       elpaBuild {
         pname = "boxy-headings";
         ename = "boxy-headings";
-        version = "2.1.4.0.20231024.114002";
+        version = "2.1.5.0.20240326.215829";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/boxy-headings-2.1.4.0.20231024.114002.tar";
-          sha256 = "1fan3pdslmwxkdc8lj7svcjllzjqhnhsma1yjpfhi99dv4b8fyns";
+          url = "https://elpa.gnu.org/devel/boxy-headings-2.1.5.0.20240326.215829.tar";
+          sha256 = "1nq5a2rqlhhk0lvi0r6asqjp4454xdj07kk4q5vg2jndid87ma2v";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
@@ -1411,10 +1411,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.2.0.20240326.114423";
+        version = "2.3.2.0.20240327.45810";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.2.0.20240326.114423.tar";
-          sha256 = "119yvgrmbghix15r66g9xxyfxw8lkr7y9wbn4hnh6kfcnr7yhqf0";
+          url = "https://elpa.gnu.org/devel/denote-2.3.2.0.20240327.45810.tar";
+          sha256 = "1jli9iz6635lpics0gh6nvkfcml4ry01jpysy26ahy5l5zh1dwmh";
         };
         packageRequires = [ emacs ];
         meta = {
