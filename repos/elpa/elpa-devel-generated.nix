@@ -1463,10 +1463,10 @@
       elpaBuild {
         pname = "devdocs";
         ename = "devdocs";
-        version = "0.6.0.20240325.95123";
+        version = "0.6.1.0.20240329.73808";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/devdocs-0.6.0.20240325.95123.tar";
-          sha256 = "0yjicyb2panpfial0hhh6ra3h8icsg6y9a849j4m4ngclfpb362g";
+          url = "https://elpa.gnu.org/devel/devdocs-0.6.1.0.20240329.73808.tar";
+          sha256 = "1agnh07072pmzn5wyybmdbg4id54i4yqprf13lxii7cln12asww4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1584,10 +1584,10 @@
       elpaBuild {
         pname = "dired-duplicates";
         ename = "dired-duplicates";
-        version = "0.3.0.20231114.215046";
+        version = "0.4.0.20240328.201645";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dired-duplicates-0.3.0.20231114.215046.tar";
-          sha256 = "0rla938sj1zig7qcdxybl7qm4x1b0ndpf9xf9ikj0vfdghyg7z2s";
+          url = "https://elpa.gnu.org/devel/dired-duplicates-0.4.0.20240328.201645.tar";
+          sha256 = "0hdx8zlqv0852j99hii9nqw0v0hdybmf0zyf9x1083j1ak5y2xgw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3561,10 +3561,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.9.0.20240328.111957";
+        version = "0.10pre0.20240328.164539";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.9.0.20240328.111957.tar";
-          sha256 = "0zvsrk6ddz0jc9kq1pd010npzfxiqcdi2qzi00cpmivx8rgh8d95";
+          url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240328.164539.tar";
+          sha256 = "12kjc0kg3cq79nfraiqhdcaf68fljvvzwfam343l8170azyjyzg1";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {

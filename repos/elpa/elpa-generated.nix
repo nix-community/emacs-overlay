@@ -1301,10 +1301,10 @@
       elpaBuild {
         pname = "devdocs";
         ename = "devdocs";
-        version = "0.6";
+        version = "0.6.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/devdocs-0.6.tar";
-          sha256 = "17av2l61mr4y8la4cqiq1dnaznni4xirr5k3wdix1jzl3q1apypy";
+          url = "https://elpa.gnu.org/packages/devdocs-0.6.1.tar";
+          sha256 = "10s6qi9q23vpmyczhq0702qjz14cgs6jyk807qb388y0kafh61cl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1412,10 +1412,10 @@
       elpaBuild {
         pname = "dired-duplicates";
         ename = "dired-duplicates";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dired-duplicates-0.3.tar";
-          sha256 = "1b9drjkbs9anqil274jrn031agpkir9mhs96l2ylm13n8imx9msl";
+          url = "https://elpa.gnu.org/packages/dired-duplicates-0.4.tar";
+          sha256 = "0kl6z1l4dabc4gwn952xhv709amykzwqj3qkd2mhvabzhdg8zlr0";
         };
         packageRequires = [ emacs ];
         meta = {
