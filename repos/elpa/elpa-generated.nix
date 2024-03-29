@@ -3235,10 +3235,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.8";
+        version = "0.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/listen-0.8.tar";
-          sha256 = "1vj9fsyp5v1qh87asj23k625080x6c8mgkas4933lrz7l2g7h1y2";
+          url = "https://elpa.gnu.org/packages/listen-0.9.tar";
+          sha256 = "07wbq913j0rywyfma4f68vxcrlxx6m4gqbk7baviiigjnybm5cja";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
@@ -4099,10 +4099,10 @@
       elpaBuild {
         pname = "org-real";
         ename = "org-real";
-        version = "1.0.7";
+        version = "1.0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-real-1.0.7.tar";
-          sha256 = "16isfsaxmgxiqfqx4lcsqlxazxjgxakr0k9pgpam13bqqqkq3cmp";
+          url = "https://elpa.gnu.org/packages/org-real-1.0.8.tar";
+          sha256 = "17wg8qzlcfdaasmwhl0jhqbvy6xvbz8g5qmd3ayby09lachr7ssd";
         };
         packageRequires = [ boxy emacs org ];
         meta = {

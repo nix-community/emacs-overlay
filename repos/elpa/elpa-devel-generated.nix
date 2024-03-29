@@ -41,10 +41,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.8pre0.20240313.183743";
+        version = "0.8pre0.20240328.110921";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/activities-0.8pre0.20240313.183743.tar";
-          sha256 = "1ba85ik0knxrlhw2prwsawin5r86n75qm240qkgkd05xhm7znqnw";
+          url = "https://elpa.gnu.org/devel/activities-0.8pre0.20240328.110921.tar";
+          sha256 = "1b3h8llq4myv9s0rprjqbv9w4ydqp397jg1s4wjv5n1vwdir1s72";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -2441,10 +2441,10 @@
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.3.7.0.20240223.154540";
+        version = "1.3.7.0.20240328.101513";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20240223.154540.tar";
-          sha256 = "1z9j0mrka8qznz3d81h1pzns2bn1sswqj2rd8m2drwjzzgaq4j0w";
+          url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20240328.101513.tar";
+          sha256 = "1fqbff0204mr21wd4zcl321rnl0xi94p87bzwxk4ka2p1fr5sg8f";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
@@ -3014,10 +3014,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240327.81148";
+        version = "9.0.2pre0.20240328.80113";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240327.81148.tar";
-          sha256 = "0zwfl0wljrw2y7wvvp8vksspmc01vbcnkp54kn3a1avlmfkg7f2c";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240328.80113.tar";
+          sha256 = "1dms9rvidw7ragaqcg6f4v5cx1zzasisdg839k2ch7smjisi6f3i";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3561,10 +3561,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.9pre0.20240322.72611";
+        version = "0.9.0.20240328.111957";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.9pre0.20240322.72611.tar";
-          sha256 = "0k50isjazhx0hbmxw3s2p2ny56il5ywbsq1bda6av86ifzr1620c";
+          url = "https://elpa.gnu.org/devel/listen-0.9.0.20240328.111957.tar";
+          sha256 = "0zvsrk6ddz0jc9kq1pd010npzfxiqcdi2qzi00cpmivx8rgh8d95";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
@@ -4517,10 +4517,10 @@
       elpaBuild {
         pname = "org-real";
         ename = "org-real";
-        version = "1.0.7.0.20231024.111108";
+        version = "1.0.8.0.20240328.105118";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-real-1.0.7.0.20231024.111108.tar";
-          sha256 = "199900lvg5jxfspp1papx0aj88vm6addlyv7zhp8bc2f5a9igg21";
+          url = "https://elpa.gnu.org/devel/org-real-1.0.8.0.20240328.105118.tar";
+          sha256 = "1m8c859y8lhyijs6k57gvb43flhi52pag326p8pprciaagypp12l";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
