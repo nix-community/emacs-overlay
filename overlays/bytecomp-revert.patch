@@ -1,17 +1,17 @@
 diff --git a/lisp/emacs-lisp/bytecomp.el b/lisp/emacs-lisp/bytecomp.el
-index 6c5051d70c4..a0063cbef7b 100644
+index 2b5eb34e571..8dbf431b52b 100644
 --- a/lisp/emacs-lisp/bytecomp.el
 +++ b/lisp/emacs-lisp/bytecomp.el
-@@ -3570,8 +3570,6 @@ byte-compile-form
+@@ -3443,8 +3443,6 @@ byte-compile-form
                  (setq form (cons 'progn (cdr form)))
                  (setq handler #'byte-compile-progn))
                 ((and (or sef (function-get (car form) 'important-return-value))
 -                     ;; Don't warn for arguments to `ignore'.
 -                     (not (eq byte-compile--for-effect 'for-effect-no-warn))
+                      (bytecomp--actually-important-return-value-p form)
                       (byte-compile-warning-enabled-p
                        'ignored-return-value (car form)))
-                 (byte-compile-warn-x
-@@ -4515,8 +4513,11 @@ byte-compile-goto-if
+@@ -4399,8 +4397,11 @@ byte-compile-goto-if
  
  (defun byte-compile-ignore (form)
    (dolist (arg (cdr form))
@@ -26,5 +26,5 @@ index 6c5051d70c4..a0063cbef7b 100644
  
  ;; Return the list of items in CONDITION-PARAM that match PRED-LIST.
 -- 
-2.42.0
+2.44.0
 
