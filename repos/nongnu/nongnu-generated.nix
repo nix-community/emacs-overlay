@@ -1667,10 +1667,10 @@
       elpaBuild {
         pname = "highlight-parentheses";
         ename = "highlight-parentheses";
-        version = "2.1.1";
+        version = "2.2.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/highlight-parentheses-2.1.1.tar";
-          sha256 = "1r0sk4da3apgbik8d84vknwna45k1ks3n0s1fspj5c88b4r7xnsx";
+          url = "https://elpa.nongnu.org/nongnu/highlight-parentheses-2.2.0.tar";
+          sha256 = "10nk9amhnmac23mscya0wjhvg1j8gblhm1h5srn2allzk1dslf9c";
         };
         packageRequires = [ emacs ];
         meta = {
