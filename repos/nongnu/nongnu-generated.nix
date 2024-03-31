@@ -2459,22 +2459,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    package-lint = callPackage ({ cl-lib ? null
-                                , compat
-                                , elpaBuild
-                                , emacs
-                                , fetchurl
-                                , let-alist
-                                , lib }:
+    package-lint = callPackage ({ elpaBuild, emacs, fetchurl, let-alist, lib }:
       elpaBuild {
         pname = "package-lint";
         ename = "package-lint";
-        version = "0.21";
+        version = "0.23";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/package-lint-0.21.tar";
-          sha256 = "01yli62vcnh763pf1bp0f649hhrbl8y7ad89q7b98xgcciqgzm93";
+          url = "https://elpa.nongnu.org/nongnu/package-lint-0.23.tar";
+          sha256 = "1alcvlwcbf5mklyi9bf38yd2557sl1rnqvrpyf789gp2j36xbbsj";
         };
-        packageRequires = [ cl-lib compat emacs let-alist ];
+        packageRequires = [ emacs let-alist ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/package-lint.html";
           license = lib.licenses.free;
