@@ -1134,10 +1134,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.2.0.20240329.94427";
+        version = "1.2.0.20240330.93001";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.2.0.20240329.94427.tar";
-          sha256 = "03pxwkykzn6zzzm9sajhhfha4r8m95gywwbc6mbhrhaz3zd5myhg";
+          url = "https://elpa.gnu.org/devel/corfu-1.2.0.20240330.93001.tar";
+          sha256 = "10myw069v643gn6a9c5c0mwv0cpc5261rlbv4a8gzgknynyah6mw";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1908,10 +1908,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240323.73745";
+        version = "1.17.0.20240330.194832";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240323.73745.tar";
-          sha256 = "0g2a6hj6k1z74ymsl568117bql1xalf0pqlckscj8dj1glcn6jq5";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240330.194832.tar";
+          sha256 = "1pqbcw0ph2kjvcag9f5jc461p2vsl2lb4s4k3yny0qrdng2hwwxz";
         };
         packageRequires = [
           eldoc
@@ -3014,10 +3014,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240328.80113";
+        version = "9.0.2pre0.20240330.135028";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240328.80113.tar";
-          sha256 = "1dms9rvidw7ragaqcg6f4v5cx1zzasisdg839k2ch7smjisi6f3i";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240330.135028.tar";
+          sha256 = "0j7hq9zkbyfiwv2m344sjb7717y46dvpbyk7niwsbb76i3pl7qb5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4402,10 +4402,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240329.111118";
+        version = "9.7pre0.20240330.100117";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240329.111118.tar";
-          sha256 = "10g8afpaabw4789587wbcpaa3gfdzzcqk4bl02yy7kmyx9fgcsbc";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240330.100117.tar";
+          sha256 = "0b2q9ijnj1a05glm0jr375sjvp76rxpfapxsysm97sffgf5yk3fb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6782,10 +6782,10 @@
       elpaBuild {
         pname = "use-package";
         ename = "use-package";
-        version = "2.4.5.0.20240113.53615";
+        version = "2.4.5.0.20240330.124921";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20240113.53615.tar";
-          sha256 = "17c7q2y8lf37gvzxzqhbpr2szkkfnam5yagsqmrv8h0b5cnmnrlq";
+          url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20240330.124921.tar";
+          sha256 = "1ys2gn93cw780hy7n6gvmql06ic0gy9aj4fwk0hnjs231gyasz3z";
         };
         packageRequires = [ bind-key emacs ];
         meta = {
