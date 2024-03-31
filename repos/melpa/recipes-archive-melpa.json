@@ -3824,11 +3824,11 @@
   "repo": "radian-software/apheleia",
   "unstable": {
    "version": [
-    20240323,
-    216
+    20240331,
+    329
    ],
-   "commit": "3e89e62922d610a3429707710d6636244a3c3f76",
-   "sha256": "1g711i4xims1mdh59cr0plfif17c9j9crgd7vv777xh19qff5imd"
+   "commit": "b776ed96b1a980af284c8fb07a8db387c1e6c358",
+   "sha256": "09bpx9am7ad0dq4ylkdnligmrbznb7527qgbilfwfbwfbqg6sp0z"
   },
   "stable": {
    "version": [
@@ -6710,11 +6710,11 @@
   "repo": "tinted-theming/base16-emacs",
   "unstable": {
    "version": [
-    20240218,
-    58
+    20240331,
+    101
    ],
-   "commit": "c24d84b6c4794d1fc92429b6c70009434a137fe4",
-   "sha256": "17am6rx8xmkkfx6dlbchym3xaj341z1aaam6zk3nkjxyz8srbm1c"
+   "commit": "b3ddc536d042ceebfb10853871fa17551f79b389",
+   "sha256": "131ghf7n6rcsq92w4zdk7x68a7v72q9lxznd465a5sr4ai369ixh"
   },
   "stable": {
    "version": [
@@ -10656,8 +10656,8 @@
   "repo": "chenyanming/calibredb.el",
   "unstable": {
    "version": [
-    20231107,
-    302
+    20240331,
+    409
    ],
    "deps": [
     "dash",
@@ -10667,8 +10667,8 @@
     "s",
     "transient"
    ],
-   "commit": "124c916f203511c64d03fac28d303dfb102a6ead",
-   "sha256": "0qmqk7a9ci3zwq6sv642898axnq9bw9nrb920s2yza43nj1pc860"
+   "commit": "b526095e4b1c7866958fe53518eb897a8c87a19b",
+   "sha256": "0092v35yv63ijqaqwjp368kw295f07p1vc2hlqx4fgarsz6kc71n"
   },
   "stable": {
    "version": [
@@ -32267,27 +32267,28 @@
   "repo": "isamert/empv.el",
   "unstable": {
    "version": [
-    20240310,
-    28
+    20240330,
+    2330
    ],
    "deps": [
     "compat",
     "s"
    ],
-   "commit": "cb284929a6a1364d1200677de38a75d90edc6fb2",
-   "sha256": "0yc147iln4hpfv74jzaq6z53m52cannllwn5ffafya6qih5rl4hm"
+   "commit": "c48cd223b145806a6a36167c299e9a0384a5f2e6",
+   "sha256": "0p62wfsxk0sh8lpjm52md8kaixkfagfsl9gpmps76448iznn04m7"
   },
   "stable": {
    "version": [
     4,
-    0,
+    1,
     0
    ],
    "deps": [
+    "compat",
     "s"
    ],
-   "commit": "449b6e3e00b2a2e28580bb7608817f203380b53a",
-   "sha256": "02vrvwgd1fba8986qc9idi6b6iinn44aid8jawvrz21visfzfmmg"
+   "commit": "c48cd223b145806a6a36167c299e9a0384a5f2e6",
+   "sha256": "0p62wfsxk0sh8lpjm52md8kaixkfagfsl9gpmps76448iznn04m7"
   }
  },
  {
@@ -35068,15 +35069,15 @@
   "repo": "emacs-evil/evil",
   "unstable": {
    "version": [
-    20240324,
-    1731
+    20240330,
+    2339
    ],
    "deps": [
     "cl-lib",
     "goto-chg"
    ],
-   "commit": "64a07c7aca2933ed1feec80704db49dc2c3476b3",
-   "sha256": "0m77bqnaqmqbd2w6710hplisbc9wwqhiymx63m7g2ddldzcmxyd0"
+   "commit": "476f5fbcf1288c5a46a6ba35efe0b8dd1e4dd0ec",
+   "sha256": "03fwyir5fgrf8md9vj8srn8f6jivvk3l8i38yaglsbsmxdddp7n8"
   },
   "stable": {
    "version": [
@@ -53150,16 +53151,16 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20240330,
-    1754
+    20240331,
+    717
    ],
    "deps": [
     "helm-core",
     "popup",
     "wfnames"
    ],
-   "commit": "ce29722e518b6a6c3c260ef90f7cbf2628104e28",
-   "sha256": "1fdmw00n4f4zr4znbwk84v7jb2ldbry7794qq49qgy346abrca4f"
+   "commit": "05234abf342346b76e422a24a2ca5d556a6ceb09",
+   "sha256": "0x6bkk13fi9dilsk16nxpqgdw8xckxy41acljdkh01xkj5mxjp7a"
   },
   "stable": {
    "version": [
@@ -82270,11 +82271,11 @@
   "repo": "hhamud/noir-ts-mode",
   "unstable": {
    "version": [
-    20230827,
-    2052
+    20240331,
+    137
    ],
-   "commit": "bb47c9b770b7401c0ecdac0bb54466df6ca62d29",
-   "sha256": "1bbxj2nglnbyj7v4n50mj3icwhdbp37jj0p4wkwizgqvgxy6cgjl"
+   "commit": "eb399cc69a3229f4141e193f98efead51d9b3cc8",
+   "sha256": "1nv2ccbsww7vkpxx0i5ds655ihkqxa1mvc6wq2lnla845j3mrpd8"
   },
   "stable": {
    "version": [
