@@ -4364,10 +4364,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.7.2";
+        version = "0.7.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/plz-0.7.2.tar";
-          sha256 = "1qpr4j5rqpvr17arxrrix1z9fzbqy1mddakyylqbvm9lg5yg2wnk";
+          url = "https://elpa.gnu.org/packages/plz-0.7.3.tar";
+          sha256 = "0wn2i3q9m74gm9by1jc449jxjkv75nzc0am4ngk40ry4hxf057n3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5788,10 +5788,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.2.2";
+        version = "2.6.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.6.2.2.tar";
-          sha256 = "1nawp8vaz8dzw8h9cky8vvw181cq8yx5a5naj1b925j2fqx2z6xy";
+          url = "https://elpa.gnu.org/packages/tramp-2.6.3.tar";
+          sha256 = "0z44mfpvn4qy2xc2fsiahw3xir140ljna8aq45dcb7qnmr044xjb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "1xgmv0z0529h51qwgg34ivij7x4z71dvbxnr38gnkgdbziz9wais";
+          sha256 = "0jcrna3glwllxk6z86qvh1simk7fpx6zgcf5yn7vx7axg2jca0vz";
         };
         packageRequires = [];
         meta = {
