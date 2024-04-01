@@ -650,10 +650,10 @@
       elpaBuild {
         pname = "brief";
         ename = "brief";
-        version = "5.90.0.20240321.65101";
+        version = "5.91.0.20240401.34715";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/brief-5.90.0.20240321.65101.tar";
-          sha256 = "1il64cb6gklsv66dcw0ays9i8cmzip4in8m2h8fdw639vz4jx6n8";
+          url = "https://elpa.gnu.org/devel/brief-5.91.0.20240401.34715.tar";
+          sha256 = "1knpamvbpz92b9zql6p0l7g1p5595l6kns0gw1vfhm7cl37dngyr";
         };
         packageRequires = [ cl-lib nadvice ];
         meta = {
@@ -1119,10 +1119,10 @@
       elpaBuild {
         pname = "context-coloring";
         ename = "context-coloring";
-        version = "8.1.0.0.20201127.182211";
+        version = "8.1.0.0.20240331.133753";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/context-coloring-8.1.0.0.20201127.182211.tar";
-          sha256 = "1d1q8ssi6rfscxhhr45w2rgj7fpjvn3kc58106qfij19d34l31zh";
+          url = "https://elpa.gnu.org/devel/context-coloring-8.1.0.0.20240331.133753.tar";
+          sha256 = "1m8c7vccdb868n777rqi8mhjwfbm25q7hbx7x6y145mxmnqr1vgn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1169,10 +1169,10 @@
       elpaBuild {
         pname = "counsel";
         ename = "counsel";
-        version = "0.14.2.0.20240229.151718";
+        version = "0.14.2.0.20240331.211121";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/counsel-0.14.2.0.20240229.151718.tar";
-          sha256 = "0zgl6id332vpsm2j82ryzgwh5wkz47s3pi6xp6pwni1hbnncqlc1";
+          url = "https://elpa.gnu.org/devel/counsel-0.14.2.0.20240331.211121.tar";
+          sha256 = "1cyrr0w0csvimpvlcz8k3irllbbiysw046959993w4df7r4nf1rr";
         };
         packageRequires = [ emacs ivy swiper ];
         meta = {
@@ -1348,10 +1348,10 @@
       elpaBuild {
         pname = "dash";
         ename = "dash";
-        version = "2.19.1.0.20240216.133446";
+        version = "2.19.1.0.20240331.212529";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dash-2.19.1.0.20240216.133446.tar";
-          sha256 = "1qj7h40nnghyl7hf3w2jxw6c6djxizd3xpshgy70pbm9q9zdkda8";
+          url = "https://elpa.gnu.org/devel/dash-2.19.1.0.20240331.212529.tar";
+          sha256 = "0zvnjrsfh98h7gcbsy1b7mp2sjyjra3n22an675446g1sf9agji6";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2857,14 +2857,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    gtags-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    gtags-mode = callPackage ({ elpaBuild
+                              , emacs
+                              , fetchurl
+                              , lib }:
       elpaBuild {
         pname = "gtags-mode";
         ename = "gtags-mode";
-        version = "1.1.0.20240313.5421";
+        version = "1.2.0.20240331.235816";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/gtags-mode-1.1.0.20240313.5421.tar";
-          sha256 = "1s2nfrg5axriq9bn6lazb4hw72fsk084p9dm4qy8b8mk9p9f232h";
+          url = "https://elpa.gnu.org/devel/gtags-mode-1.2.0.20240331.235816.tar";
+          sha256 = "15mfrf10l8y00llsiy9srrxrd224bqqfqs12xhz8m1vwjy6rsnhg";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3014,10 +3017,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240331.172630";
+        version = "9.0.2pre0.20240331.174544";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240331.172630.tar";
-          sha256 = "1pkld95mg02pyp6nmbvw1af039vsx4jibg341w70lwnhz79kysk1";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240331.174544.tar";
+          sha256 = "13y24cfyqq8mk1kbpzi4wy7hrhvpk4iaq0p88xaswcgf8v2b0pdb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5418,10 +5421,10 @@
       elpaBuild {
         pname = "relint";
         ename = "relint";
-        version = "1.24.0.20240123.121000";
+        version = "1.24.0.20240401.74454";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/relint-1.24.0.20240123.121000.tar";
-          sha256 = "0420sglfq7rgmcrb6ccbaxmm5h6cr5ckc68rc7xbkdcqih43ls9w";
+          url = "https://elpa.gnu.org/devel/relint-1.24.0.20240401.74454.tar";
+          sha256 = "07q0571ks81al09xl1ms52rznp6y7scvlnh2ax1nj67f3jmikzcd";
         };
         packageRequires = [ emacs xr ];
         meta = {

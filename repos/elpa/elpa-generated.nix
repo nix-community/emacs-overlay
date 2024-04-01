@@ -565,10 +565,10 @@
       elpaBuild {
         pname = "brief";
         ename = "brief";
-        version = "5.90";
+        version = "5.91";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/brief-5.90.tar";
-          sha256 = "0lcxw2ncswiaf0j3fp8hh39miqnb6jkixfksmds0pnzp3f7vvlis";
+          url = "https://elpa.gnu.org/packages/brief-5.91.tar";
+          sha256 = "106xm23045l3ds5q04s7c6wa00ffv7rw495cjqp99nzqvvbmivcb";
         };
         packageRequires = [ cl-lib nadvice ];
         meta = {
@@ -2592,10 +2592,10 @@
       elpaBuild {
         pname = "gtags-mode";
         ename = "gtags-mode";
-        version = "1.1";
+        version = "1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gtags-mode-1.1.tar";
-          sha256 = "09v9g7rfaism76cr65kg5i1ds3fscciiqnfhv89rx8wwj4m1yda7";
+          url = "https://elpa.gnu.org/packages/gtags-mode-1.2.tar";
+          sha256 = "01v583wi8abya7f895rc665d02ykxq9jrqwin5kp1hgzx3ibyg56";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "0jcrna3glwllxk6z86qvh1simk7fpx6zgcf5yn7vx7axg2jca0vz";
+          sha256 = "1dy5nmr3vwryfpy4dl34l3143cxwaphvprmlaybac566zi0yrb12";
         };
         packageRequires = [];
         meta = {
