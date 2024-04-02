@@ -1513,14 +1513,18 @@
           license = lib.licenses.free;
         };
       }) {};
-    diff-hl = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
+    diff-hl = callPackage ({ cl-lib ? null
+                           , elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "diff-hl";
         ename = "diff-hl";
-        version = "1.9.2.0.20240225.11635";
+        version = "1.9.2.0.20240401.235744";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/diff-hl-1.9.2.0.20240225.11635.tar";
-          sha256 = "12r2gzx5yrs3xc7j50w7m79n4ffm5nd7363w87ciclkwpgdzxkbz";
+          url = "https://elpa.gnu.org/devel/diff-hl-1.9.2.0.20240401.235744.tar";
+          sha256 = "1ilmi9a5g2h3xw49kiavr6pwp091i6j3qd7yxyixvw15ygvc6mi8";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -4211,10 +4215,10 @@
       elpaBuild {
         pname = "notes-mode";
         ename = "notes-mode";
-        version = "1.30.0.20201201.121157";
+        version = "1.31.0.20240402.80928";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/notes-mode-1.30.0.20201201.121157.tar";
-          sha256 = "08jyygmvvdq0rl5435lip5c5scyvgv9ii4m8fj7ck6r7cj56qk39";
+          url = "https://elpa.gnu.org/devel/notes-mode-1.31.0.20240402.80928.tar";
+          sha256 = "1kiki1b6bx3nn1xgbnh0xnwnhx5wkn0zzlk6jfsks5npj2a4h88g";
         };
         packageRequires = [];
         meta = {

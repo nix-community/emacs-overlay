@@ -3824,10 +3824,10 @@
       elpaBuild {
         pname = "notes-mode";
         ename = "notes-mode";
-        version = "1.30";
+        version = "1.31";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/notes-mode-1.30.tar";
-          sha256 = "1gchalqyjfa32m8z72p0pd8lhpl68bmmmf25370xql0s9vwgm37l";
+          url = "https://elpa.gnu.org/packages/notes-mode-1.31.tar";
+          sha256 = "0lwja53cknd1w432mcbfrcshmxmk23dqrbr9k2101pqfzbw8nri2";
         };
         packageRequires = [];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "0qgddvj5kgsjwb9103pspz555bk8693x08zkbqy87wwk3wvmi2xs";
+          sha256 = "1rzcf6lziyvfbaqnpg7ggffj9d1a4ygkymw2bb4yjz6aa8l3vf3a";
         };
         packageRequires = [];
         meta = {
