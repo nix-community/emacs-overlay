@@ -1796,10 +1796,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.8.13";
+        version = "0.9.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.8.13.tar";
-          sha256 = "1zsbn35nrf087i59ajc36pi40z163l7377aj7jn70v683ab8p8my";
+          url = "https://elpa.gnu.org/packages/ellama-0.9.0.tar";
+          sha256 = "0fl11yr857rqg9mvgf4c9msbsl8bavj12ga6z5gjl2nrf4b2pw0p";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "10wdw4nvg6347yp61aw8jahr01kc63sqx24q0i2wy47ww5np8b90";
+          sha256 = "1hic4lg9jq2nm0lc9hqxhrb5wyr399kf5gl88cpksv7527c8pw1i";
         };
         packageRequires = [];
         meta = {
