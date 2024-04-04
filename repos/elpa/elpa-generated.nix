@@ -2964,10 +2964,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.4";
+        version = "1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jinx-1.4.tar";
-          sha256 = "0dq1z08qm6nzz1si6ijmkgnm180cy7r6rbfxdd7bvrsj999p8xfp";
+          url = "https://elpa.gnu.org/packages/jinx-1.5.tar";
+          sha256 = "1sz5xjy7x7rap582hcjs70xc8dvchifpmnghlpk5xvbn2b1hh4q7";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3415,10 +3415,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.5";
+        version = "1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/marginalia-1.5.tar";
-          sha256 = "1fb34ammc24w8i6sk0x986l2xlmkjmcx3i5dj63p02kx39gg7hyx";
+          url = "https://elpa.gnu.org/packages/marginalia-1.6.tar";
+          sha256 = "0an3ayka1f7n511bjfwz42h9g5b1vhb6x47jy0k9psscr7pbhszg";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "1hic4lg9jq2nm0lc9hqxhrb5wyr399kf5gl88cpksv7527c8pw1i";
+          sha256 = "08h42h66i55d5kfwrzsdrm812844g9pif33wg4f4r51xg00n6lyh";
         };
         packageRequires = [];
         meta = {

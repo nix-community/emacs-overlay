@@ -2314,10 +2314,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.28.0.20240316.164011";
+        version = "0.28.0.20240403.140839";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240316.164011.tar";
-          sha256 = "0c8b8vy9qslddnvwkxb2w26q0fvpffihhqxdglxpjqihrgi4xk06";
+          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240403.140839.tar";
+          sha256 = "1hyf2m1inifvxzv6y2wmrfylp9vrb130nj1pvpy169miw2n50vzm";
         };
         packageRequires = [ emacs xelb ];
         meta = {
@@ -3278,10 +3278,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.4.0.20240403.15033";
+        version = "1.5.0.20240404.44438";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.4.0.20240403.15033.tar";
-          sha256 = "09dvwap9rwimwmf6dln2j8ivvmj6qpwg87m1vydmbvdkya0sliy7";
+          url = "https://elpa.gnu.org/devel/jinx-1.5.0.20240404.44438.tar";
+          sha256 = "1w894196x1hl0sbkbw2ly7hywr261vn7zgvylcxnzx708yiv1g1l";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3563,10 +3563,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.10pre0.20240328.164539";
+        version = "0.10pre0.20240403.221149";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240328.164539.tar";
-          sha256 = "1hamkvclz5wbdm7vgprci0awqalli4ygzw1bsdncymgawlhg43g2";
+          url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240403.221149.tar";
+          sha256 = "0xqr13ygzlrmyfp1l11m3v7y2xcp0y5xsihiw1s3466mba94imv7";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
@@ -3757,10 +3757,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.5.0.20240323.201536";
+        version = "1.6.0.20240404.45149";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/marginalia-1.5.0.20240323.201536.tar";
-          sha256 = "153ayhd9xs1gzrwib20dgkddy9blgv6r32s7jyajaxy54bswp1w6";
+          url = "https://elpa.gnu.org/devel/marginalia-1.6.0.20240404.45149.tar";
+          sha256 = "1bqynrmb99691k0cmdn30g780356gff30bd7lirlriraabj19y7h";
         };
         packageRequires = [ compat emacs ];
         meta = {
