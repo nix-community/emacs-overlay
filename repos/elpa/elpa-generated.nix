@@ -1166,10 +1166,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.9.0";
+        version = "0.10.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dape-0.9.0.tar";
-          sha256 = "1s0rksmq8m3cnbmisgbja1zz27as4pf7x3zayy0cl3kk62my044p";
+          url = "https://elpa.gnu.org/packages/dape-0.10.0.tar";
+          sha256 = "1x6mbis4vmghp3vf4pxyzdp68nnrraw9ayx3gzbp1bvcmr62qdig";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1547,10 +1547,10 @@
       elpaBuild {
         pname = "drepl";
         ename = "drepl";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/drepl-0.1.tar";
-          sha256 = "1hvcm6lfwfyin9q8y1ink3crcalsj851sji4wsc7s60r18hmvdri";
+          url = "https://elpa.gnu.org/packages/drepl-0.2.tar";
+          sha256 = "1vf61d6iihpnr3h4cyxksd64qj8rw2a9ihjm3krvjmigxr2r6awx";
         };
         packageRequires = [ comint-mime emacs ];
         meta = {
@@ -5190,10 +5190,10 @@
       elpaBuild {
         pname = "sm-c-mode";
         ename = "sm-c-mode";
-        version = "1.1";
+        version = "1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/sm-c-mode-1.1.tar";
-          sha256 = "10x5m1gxzr5rwnkf6f3kvjqkjmzcy5j4niihrf9pdmx9gjdmfpkg";
+          url = "https://elpa.gnu.org/packages/sm-c-mode-1.2.tar";
+          sha256 = "0xykl8wkbw5y7ah79zlfzz1k0di9ghfsv2xjxwx7rrb37wny5184";
         };
         packageRequires = [];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "08h42h66i55d5kfwrzsdrm812844g9pif33wg4f4r51xg00n6lyh";
+          sha256 = "0qxjz7b1nrjin0kpp4kasip9qzrvlpn8skq5q4mk8sfj52dj06vz";
         };
         packageRequires = [];
         meta = {
