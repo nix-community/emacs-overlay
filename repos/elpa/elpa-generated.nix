@@ -1001,10 +1001,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.2";
+        version = "1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-1.2.tar";
-          sha256 = "1l1giz20l2x7zb8zx6wagizrq9ivqv2yvsa539bm5dhls5a1qsv8";
+          url = "https://elpa.gnu.org/packages/corfu-1.3.tar";
+          sha256 = "13y0dws1k4682v039ab6b0xxqlg7anknscqs20bmj8lfm2z48znx";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "0qxjz7b1nrjin0kpp4kasip9qzrvlpn8skq5q4mk8sfj52dj06vz";
+          sha256 = "1hzdjama31rhzwzknb1zfd6gs9g5zckn5px7p3adgzafj4pn0zag";
         };
         packageRequires = [];
         meta = {

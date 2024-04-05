@@ -1134,10 +1134,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.2.0.20240330.93001";
+        version = "1.3.0.20240405.63443";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.2.0.20240330.93001.tar";
-          sha256 = "11sym46bwmcqzghj8kdv277x8cp2bla0l5nwf6ybl6vqzwpwffpm";
+          url = "https://elpa.gnu.org/devel/corfu-1.3.0.20240405.63443.tar";
+          sha256 = "1dn6v7zq9ywrs5lr83dz1gs4rp796s3ybs0wmc9az80m7lrf5288";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4987,18 +4987,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    project = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib
-                           , xref }:
+    project = callPackage ({ elpaBuild, emacs, fetchurl, lib, xref }:
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.10.0.0.20240328.34152";
+        version = "0.10.0.0.20240405.2942";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20240328.34152.tar";
-          sha256 = "0ylpsvlbc3dlag3l29jzvsa6z73i5k0ymcl6vakksk75vrx0k3v8";
+          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20240405.2942.tar";
+          sha256 = "0lc867hx0fl8nk0p0k41gwlf41jv5ck0fg4a8pvkyc7p81rc2f1g";
         };
         packageRequires = [ emacs xref ];
         meta = {
