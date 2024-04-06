@@ -770,10 +770,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.4.0.20240401.85720";
+        version = "1.4.0.20240406.72911";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.4.0.20240401.85720.tar";
-          sha256 = "086fi919bpv5hbvp8faff93gz8g62pfac1zqygf918pq44jfi371";
+          url = "https://elpa.gnu.org/devel/cape-1.4.0.20240406.72911.tar";
+          sha256 = "1a81vsch7zd209ks9kgzg4n4cmjrf8rff0z4pwg23j23b160r0dk";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1063,10 +1063,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.4.0.20240401.93112";
+        version = "1.4.0.20240405.211205";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.4.0.20240401.93112.tar";
-          sha256 = "0g0v665b5bl25mrfpd9mhl5h4rl1g5vpd1b581i74d3a52bmdc1k";
+          url = "https://elpa.gnu.org/devel/consult-1.4.0.20240405.211205.tar";
+          sha256 = "1n3ml47ajgbv1j7kv5lb6gd8xnwd3ldjzb1lavw5wh5qvn8ph0ib";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4944,10 +4944,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "1.4.2.0.20230714.22752";
+        version = "1.4.2.0.20240405.234029";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/posframe-1.4.2.0.20230714.22752.tar";
-          sha256 = "1kanr5dh8gzik1ih3p6iyqywd61kwy9ph96yqhnpv4xpwdwcl6hn";
+          url = "https://elpa.gnu.org/devel/posframe-1.4.2.0.20240405.234029.tar";
+          sha256 = "1f9cz3l9hqq0d2vrvsh3dnbwdk2hjlk4id217zjjbrlyvy9s2422";
         };
         packageRequires = [ emacs ];
         meta = {
