@@ -1031,7 +1031,7 @@
         version = "0.2.0";
         src = fetchurl {
           url = "https://elpa.nongnu.org/nongnu/evil-visualstar-0.2.0.tar";
-          sha256 = "0vjhwdp2ms7k008mm68vzlkxrq0zyrsf4r10w57w77qg5a96151c";
+          sha256 = "03liavxxpawvlgwdsihzz3z08yv227zjjqyll1cbmbk0678kbl7m";
         };
         packageRequires = [ evil ];
         meta = {
