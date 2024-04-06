@@ -186,16 +186,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    all = callPackage ({ elpaBuild, fetchurl, lib }:
+    all = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "all";
         ename = "all";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/all-1.0.el";
-          sha256 = "17h4cp0xnh08szh3snbmn1mqq2smgqkn45bq7v0cpsxq1i301hi3";
+          url = "https://elpa.gnu.org/packages/all-1.1.tar";
+          sha256 = "067c5ynklw1inbjwd1l6dkbpx3vw487qv39y7mdl55a6nqx7hgk4";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/all.html";
           license = lib.licenses.free;
@@ -4004,10 +4004,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.24";
+        version = "9.6.25";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.24.tar";
-          sha256 = "0ri96za9k6y90mpkx032mv804r891r0d6lxk39mhka1f15iywr1k";
+          url = "https://elpa.gnu.org/packages/org-9.6.25.tar";
+          sha256 = "0x454wpwgvfw7k3nax8gcvfyr1gcbvvsg6xxx28qdcc9kvhcwj5a";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "1hzdjama31rhzwzknb1zfd6gs9g5zckn5px7p3adgzafj4pn0zag";
+          sha256 = "1rqpg8ahby2x39xawk6hl6njd2kib6kbgzqds6y4nflh2zvgiinp";
         };
         packageRequires = [];
         meta = {

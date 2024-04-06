@@ -235,10 +235,10 @@
       elpaBuild {
         pname = "all";
         ename = "all";
-        version = "1.0.0.20240113.95556";
+        version = "1.1.0.20240405.133638";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/all-1.0.0.20240113.95556.tar";
-          sha256 = "03a64fhfxgw5mrvbj3jgax5qx1xq3zjh8fxy95gxyl98bfsffag5";
+          url = "https://elpa.gnu.org/devel/all-1.1.0.20240405.133638.tar";
+          sha256 = "0cybsyr7ksgslwdfnrz8cpymk34f9gz75ahz368rhg926qlxy95j";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1348,10 +1348,10 @@
       elpaBuild {
         pname = "dash";
         ename = "dash";
-        version = "2.19.1.0.20240331.212529";
+        version = "2.19.1.0.20240405.94636";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dash-2.19.1.0.20240331.212529.tar";
-          sha256 = "0zvnjrsfh98h7gcbsy1b7mp2sjyjra3n22an675446g1sf9agji6";
+          url = "https://elpa.gnu.org/devel/dash-2.19.1.0.20240405.94636.tar";
+          sha256 = "0s1wqxjv1xdhd251zpk52wlglcc5apbhdhld30vmb7c9bq9288xw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3115,10 +3115,10 @@
       elpaBuild {
         pname = "ivy";
         ename = "ivy";
-        version = "0.14.2.0.20240214.214034";
+        version = "0.14.2.0.20240405.203954";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ivy-0.14.2.0.20240214.214034.tar";
-          sha256 = "1hhrnv6c8j3g915dnpl7qxzr9qi0wkhypwisj4dgrym4dibba642";
+          url = "https://elpa.gnu.org/devel/ivy-0.14.2.0.20240405.203954.tar";
+          sha256 = "02mkfciafhdc9b41s0kv07l9z77zyq7a2j1ljdiwbmcbkdis028p";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4401,10 +4401,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240404.171104";
+        version = "9.7pre0.20240405.140341";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240404.171104.tar";
-          sha256 = "0lrcpxaaj02qyskb6rm4m4r1d8ip0n15gkjxn38703wy5w428yxf";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240405.140341.tar";
+          sha256 = "1xsz4wrakl4i0v6hknj1wm5kp5zmvh837i33wzvkm5ag9h8cs931";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4554,10 +4554,10 @@
       elpaBuild {
         pname = "org-transclusion";
         ename = "org-transclusion";
-        version = "1.3.2.0.20240222.204851";
+        version = "1.3.2.0.20240405.184457";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-transclusion-1.3.2.0.20240222.204851.tar";
-          sha256 = "01nb34mkpjxj3aas9jzsbn16nnmyiqmm48522hgqv88a8nk4sqmb";
+          url = "https://elpa.gnu.org/devel/org-transclusion-1.3.2.0.20240405.184457.tar";
+          sha256 = "1cz6b9jrzcypvm3br32z7pbzbgdvcif9qnn21q4lb5jqrcpkkziy";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -6149,10 +6149,10 @@
       elpaBuild {
         pname = "swiper";
         ename = "swiper";
-        version = "0.14.2.0.20240214.214428";
+        version = "0.14.2.0.20240405.204232";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/swiper-0.14.2.0.20240214.214428.tar";
-          sha256 = "04f089h07cykf76mzxf5q987wy39rk9mg5xpb2vp5caa1nzxg6sk";
+          url = "https://elpa.gnu.org/devel/swiper-0.14.2.0.20240405.204232.tar";
+          sha256 = "1b5dn8v6rm6m7b2agdxf50jkmrfx6ac8fnwyqabr3zzcshpl6ixm";
         };
         packageRequires = [ emacs ivy ];
         meta = {
@@ -6230,16 +6230,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    tNFA = callPackage ({ elpaBuild, fetchurl, lib, queue }:
+    tNFA = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib, queue }:
       elpaBuild {
         pname = "tNFA";
         ename = "tNFA";
-        version = "0.1.1.0.20170804.211606";
+        version = "0.1.1.0.20240405.140856";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tNFA-0.1.1.0.20170804.211606.tar";
-          sha256 = "1nbynv5nl3vg939cgzgg60db1a5x9skxm37vcflv2m61a1zcd424";
+          url = "https://elpa.gnu.org/devel/tNFA-0.1.1.0.20240405.140856.tar";
+          sha256 = "0m2lh50bz56j5gdpjvan0sksgnlb3cszb28q69xni88hajacn4aw";
         };
-        packageRequires = [ queue ];
+        packageRequires = [ cl-lib queue ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/tNFA.html";
           license = lib.licenses.free;
