@@ -3899,11 +3899,11 @@
   "repo": "Greybeard-Entertainment/app-monochrome",
   "unstable": {
    "version": [
-    20240303,
-    1628
+    20240406,
+    36
    ],
-   "commit": "84de8c0424cd51feaf758cc636d9864e7311864c",
-   "sha256": "0m7ka3zwfka5d484j5v6f96jr5n8rs4qbb8vvw5r2nhky9ji4cna"
+   "commit": "9324ec430a5154853c1da711e1c9738d61f1135a",
+   "sha256": "09jxb4b4lb19z2dfvpa0rjba89gcsphkx5d45p56rbb1b0i3h5iz"
   }
  },
  {
@@ -14485,11 +14485,11 @@
   "repo": "tumashu/cnfonts",
   "unstable": {
    "version": [
-    20240320,
-    254
+    20240405,
+    2342
    ],
-   "commit": "323bfd2f66ac0d9cc831cc1ff785c1ed603f5ef2",
-   "sha256": "0g73an139fvv4nqgky56d211781dj5hfilgmd3zvm97gnw7xv0nd"
+   "commit": "e821e6d28367e120ad2f9b92b02d914b5f387e8d",
+   "sha256": "1hq8xhaglpbfjvdbcbkilvkyzdj7kl2n847nmicahhpwf7913n34"
   },
   "stable": {
    "version": [
@@ -25823,16 +25823,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20240405,
-    533
+    20240406,
+    541
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "6a8b16bc6e29548212e0c761d4535c07a4544d77",
-   "sha256": "1rhf08xby88ilvawkcxkcqgra5y8ibrknf6cdzk43s234nasq1za"
+   "commit": "15a11b73c80d41d1205d463e4a99e7db3bf6db09",
+   "sha256": "0h2ka0wbm985gqkh8n47j7y3wd0zq5bywygkq699vdakhj4qp2kh"
   },
   "stable": {
    "version": [
@@ -72652,8 +72652,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20240403,
-    1643
+    20240406,
+    356
    ],
    "deps": [
     "dash",
@@ -72664,25 +72664,26 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "8861252880f6c2f6374a7bca2b945e6447eebd5a",
-   "sha256": "11497cp6gbllr736pbaq63aswahwfb3mpnisxqx2nkka78lyk32h"
+   "commit": "0f85b3854de0b1f54fbbbdbd542fb2fe72d1dbe6",
+   "sha256": "1njf76b67n7pqihfyj6749ib8p885wfmjkxj2ilsvqhd2xkzk95q"
   },
   "stable": {
    "version": [
-    8,
+    9,
     0,
     0
    ],
    "deps": [
     "dash",
+    "eldoc",
     "f",
     "ht",
     "lv",
     "markdown-mode",
     "spinner"
    ],
-   "commit": "5e0524cc9a4e21c4fe5b35153ad33e7b8a4f9117",
-   "sha256": "1a6jc9sxf9b8fj9h8xlv5k546bkzsy8j5nj19cfama389z0bzcsl"
+   "commit": "a478e03cd1a5dc84ad496234fd57241ff9dca57a",
+   "sha256": "1p4979qbmllmmszmnyml0msxkza4pm14rdacmqczbfs3cs9n6bd3"
   }
  },
  {
