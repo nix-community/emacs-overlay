@@ -1134,10 +1134,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.3.0.20240405.63443";
+        version = "1.3.0.20240407.64027";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.3.0.20240405.63443.tar";
-          sha256 = "1dn6v7zq9ywrs5lr83dz1gs4rp796s3ybs0wmc9az80m7lrf5288";
+          url = "https://elpa.gnu.org/devel/corfu-1.3.0.20240407.64027.tar";
+          sha256 = "1wiink69knmrxa90h2m87b2v713rm5h4dnzqaj2xp0n9qy631lx9";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2084,10 +2084,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.15pre0.20240402.105356";
+        version = "0.15pre0.20240406.190043";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.15pre0.20240402.105356.tar";
-          sha256 = "1s64bblbf01q88mj47492v59hyyf43z5qky467y83dbj6lzcsy7b";
+          url = "https://elpa.gnu.org/devel/ement-0.15pre0.20240406.190043.tar";
+          sha256 = "1iz4a6jwy4ks58d227sr340p1p226ks9chfi6jvlvcygcvy6rg54";
         };
         packageRequires = [
           emacs
