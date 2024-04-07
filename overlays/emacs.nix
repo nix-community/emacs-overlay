@@ -91,25 +91,33 @@ let
   emacs-git = let base = (super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; });
                   # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                   maybeOverridden = if (super.lib.hasAttr "treeSitter" base || super.lib.hasAttr "withTreeSitter" base) then base.override { withTreeSitter = true; } else base;
+                  emacs = emacs-git;
               in
                 maybeOverridden.overrideAttrs (
                   oa: {
                     patches = oa.patches ++ [
                       # XXX: #318
                       ./bytecomp-revert.patch
-                    ]; }
-                );
+                    ];
+                    passthru = oa.passthru // {
+                        pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
+                    };
+                  });
 
   emacs-pgtk = let base = super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; };
                    # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
                    maybeOverridden = if (super.lib.hasAttr "treeSitter" base || super.lib.hasAttr "withTreeSitter" base) then base.override { withTreeSitter = true; } else base;
+                   emacs = emacs-pgtk;
                in maybeOverridden.overrideAttrs (
                  oa: {
                    patches = oa.patches ++ [
                      # XXX: #318
                      ./bytecomp-revert.patch
-                   ]; }
-               );
+                   ];
+                    passthru = oa.passthru // {
+                        pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
+                    };
+                 });
 
   emacs-unstable = let base = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; };
                        # TODO: remove when we drop support for < 23.05, and instead move withTreeSitter to the above line with the other arguments
