@@ -1169,10 +1169,10 @@
       elpaBuild {
         pname = "counsel";
         ename = "counsel";
-        version = "0.14.2.0.20240331.211121";
+        version = "0.14.2.0.20240407.212752";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/counsel-0.14.2.0.20240331.211121.tar";
-          sha256 = "1cyrr0w0csvimpvlcz8k3irllbbiysw046959993w4df7r4nf1rr";
+          url = "https://elpa.gnu.org/devel/counsel-0.14.2.0.20240407.212752.tar";
+          sha256 = "0g84rrq143p3h89pchb0f5bmqayxpdzi8ip8pznfc1d84al5m7g1";
         };
         packageRequires = [ emacs ivy swiper ];
         meta = {
@@ -3016,10 +3016,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240407.105217";
+        version = "9.0.2pre0.20240407.185255";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240407.105217.tar";
-          sha256 = "13210cgqnnjwnmcx2kz02861pbarfbcdhgzwlf2dgihd1j5v4pqi";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240407.185255.tar";
+          sha256 = "109frhar5b1snvx5690kfbx77fjiqdryy4i37i2f8p13zwqy56va";
         };
         packageRequires = [ emacs ];
         meta = {
