@@ -2182,10 +2182,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20240323.151032";
+        version = "5.6snapshot0.20240407.125921";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240323.151032.tar";
-          sha256 = "0hsy2r0g2sv0w0m5h417a7vzmwxx5xvrgjyk8cqwmrww16v3hr7f";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240407.125921.tar";
+          sha256 = "1qc73h7lldnb1s3q8lnfna68mi26hqyx64dbk7lz8pfx28cq8kls";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3016,10 +3016,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240406.80329";
+        version = "9.0.2pre0.20240407.105217";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240406.80329.tar";
-          sha256 = "03azjfi8rkha77g0d3xcq23hnqhfx3bv7kxs40m98bjkiz1dashl";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240407.105217.tar";
+          sha256 = "13210cgqnnjwnmcx2kz02861pbarfbcdhgzwlf2dgihd1j5v4pqi";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4401,10 +4401,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240406.125435";
+        version = "9.7pre0.20240407.130310";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240406.125435.tar";
-          sha256 = "1qg56icabcs8q3ghy67xjf5cicjsjcxjx2yyqf51ib77qhli6i2x";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240407.130310.tar";
+          sha256 = "01aw5v9d8fj7bq5wblkv92izfip6gxmzf93j2p8ybhwqasr8bcph";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5051,10 +5051,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "5.3.3.0.20230908.3908";
+        version = "5.3.3.0.20240407.80210";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pyim-5.3.3.0.20230908.3908.tar";
-          sha256 = "0jf4vm6qf2mg9x5wfvgaqc36955i3aq8xh9a2wp4i0bpvq0409zm";
+          url = "https://elpa.gnu.org/devel/pyim-5.3.3.0.20240407.80210.tar";
+          sha256 = "1vk0q0wczr9yiwm89kljdlsil7plr2z0cr5sw48fxy4dzgjdjkfb";
         };
         packageRequires = [ async emacs xr ];
         meta = {
