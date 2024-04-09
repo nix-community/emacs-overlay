@@ -1134,10 +1134,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.3.0.20240407.64027";
+        version = "1.3.0.20240409.43825";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.3.0.20240407.64027.tar";
-          sha256 = "1wiink69knmrxa90h2m87b2v713rm5h4dnzqaj2xp0n9qy631lx9";
+          url = "https://elpa.gnu.org/devel/corfu-1.3.0.20240409.43825.tar";
+          sha256 = "0k95dpglz94kmi924kyz6j3ff0ia74zrlmzgv4kibqf8qajc31wc";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2830,10 +2830,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.19.0.20240315.175225";
+        version = "0.9.20.0.20240409.73238";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.9.19.0.20240315.175225.tar";
-          sha256 = "09nwhm8gpr124dszyq5lgb5d14p958hmn7hvsvq7jzp6afw2h886";
+          url = "https://elpa.gnu.org/devel/greader-0.9.20.0.20240409.73238.tar";
+          sha256 = "0gzlqpvp340hy0ragl4ar3c49bcsa2ym0p8gm053qhf70rjpgzz3";
         };
         packageRequires = [ emacs ];
         meta = {

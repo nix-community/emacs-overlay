@@ -2562,10 +2562,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.19";
+        version = "0.9.20";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.9.19.tar";
-          sha256 = "0wj16nbf5hl7l6kk3ryzlclk4hv54gkd608fhkcj3qssn096y4gd";
+          url = "https://elpa.gnu.org/packages/greader-0.9.20.tar";
+          sha256 = "11n88xmr2qa5as5kpy4yy616nlh08nw5rkcbgmf9skgka3g1hmip";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "0fai4ba04mnrsxi8js8m3fb32nyq55kg9kl0b7d4hjwjsfzjisy1";
+          sha256 = "1xbsjh840j543rnfr269abvm1vzndb1jsk0pcipvy2sxr3ibh95x";
         };
         packageRequires = [];
         meta = {
