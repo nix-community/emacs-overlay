@@ -22048,16 +22048,16 @@
   "repo": "Wilfred/deadgrep",
   "unstable": {
    "version": [
-    20231130,
-    1628
+    20240408,
+    1537
    ],
    "deps": [
     "dash",
     "s",
     "spinner"
    ],
-   "commit": "38abe362997d2f18633a75d04c09da751bf8085e",
-   "sha256": "14brz73fz9zfd95libxajxwc3b4vvljj76fp3xdskxi34z4bs1f3"
+   "commit": "eafc642c551e6d5df7eb1fee9aa7596e59811178",
+   "sha256": "029szbwssvdxrsrzv0ppgik30hl9apr0dp5hcp666zgpm415frc4"
   },
   "stable": {
    "version": [
@@ -24522,14 +24522,14 @@
   "repo": "Boruch-Baum/emacs-diredc",
   "unstable": {
    "version": [
-    20240314,
-    753
+    20240408,
+    1930
    ],
    "deps": [
     "key-assist"
    ],
-   "commit": "b638face71558cc1444c352fe6bab2d9b28bf281",
-   "sha256": "0askrlywbkj1x92l8hqdwb6xbcyj16gymmcima8spvjxjdbhm3y2"
+   "commit": "d99b51de2bc56cb779b1e3dde6b46e0e9cc0d2a6",
+   "sha256": "0h544k1s0w6lb1022l97si3rbfy9nyhdga1yglq62wdmp3c1w9dl"
   },
   "stable": {
    "version": [
@@ -39398,10 +39398,10 @@
    "version": [
     0,
     1,
-    1
+    2
    ],
-   "commit": "93d8b048187ae1e1bac4949c070ed4a8125e74bd",
-   "sha256": "1qp48fnf4ji8w4xn8sngknk79hwfwlk4cyz0717f0fmvk0wp7ias"
+   "commit": "2045d990509074a8151c8a27db50e477d254aa31",
+   "sha256": "1xaddr6zgnif4gng8sdqfsxckh2k35yblpn3mirz6zw7iyd46zs3"
   }
  },
  {
@@ -45134,8 +45134,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20240407,
-    2150
+    20240408,
+    2159
    ],
    "deps": [
     "closql",
@@ -45150,8 +45150,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "323a6f2ac5c4377ac8fce5e743b24af5605a743d",
-   "sha256": "1ii7p987a0xqzcz4d2r5ylsijmhfxf6l38pmac3pns94234his5y"
+   "commit": "93d3f2a8f9b6069765ad44088f1e6d7cfc135b70",
+   "sha256": "014wihqqij2jpjl1d3zfzvcbzslc918dh8qyiychr0gmxbygn3g1"
   },
   "stable": {
    "version": [
@@ -79321,20 +79321,6 @@
   }
  },
  {
-  "ename": "mu4e-crypto",
-  "error": "No recipe info",
-  "fetcher": "github",
-  "repo": "meritamen/mu4e-crypto",
-  "unstable": {
-   "version": [
-    20240326,
-    651
-   ],
-   "commit": "d371cbcdfdf37355331a28db1efe40d7de50c23f",
-   "sha256": "0fgwnyq5zm631m0v1sjddyjr1a38wvjllhgpvcpmg2xfpcfbj2f9"
-  }
- },
- {
   "ename": "mu4e-jump-to-list",
   "commit": "c1cf98dff029d494007fe25d29bd8bcfecc5b8e6",
   "sha256": "0yl1vi62pjgklwa7ifvr35fciiqqc5zkrc0m4yxjiv0c0dn50b7n",
@@ -90603,35 +90589,6 @@
    ],
    "commit": "f0d7d39106a1de5457f5160cddd98ab892b61066",
    "sha256": "1rwdibiq0w4nzccmvdkpwnmfga70y35lfg2xlkqxd02x7bfl7j3m"
-  }
- },
- {
-  "ename": "org-themis",
-  "error": "No recipe info",
-  "fetcher": "github",
-  "repo": "zellio/org-themis",
-  "unstable": {
-   "version": [
-    20160122,
-    404
-   ],
-   "deps": [
-    "cl-lib"
-   ],
-   "commit": "78aadbbe22b1993be5c4accd0d3f91a4e85c9a3c",
-   "sha256": "1apd5yyr12skagma7xpzrh22rhplmhhv0pma4zf5b0i6nkxy06j2"
-  },
-  "stable": {
-   "version": [
-    0,
-    4,
-    1
-   ],
-   "deps": [
-    "cl-lib"
-   ],
-   "commit": "4b4bf1fa1e853664bf006dda8afe2db00e522aaa",
-   "sha256": "12fksqi9flf84h1lbmbcjnqxa7dairp50wvlwfhbp1hbb8l9z63a"
   }
  },
  {
@@ -118796,11 +118753,11 @@
    "version": [
     2024,
     4,
-    1,
+    8,
     0
    ],
-   "commit": "1de93f4bd143c4187c0313adbfbf672cf68b8b36",
-   "sha256": "1va56sq7fi7h1fx2yjircd0k58mv7a1l5j8yrgfljvxr4727yk8p"
+   "commit": "fd1fdd1ec0e6f618fb4d969caabdbcea9c0254b3",
+   "sha256": "08sfdbkrfawvigf3sv2870wgdm94b1zkrbk94ir6bv0ng26br79j"
   }
  },
  {
