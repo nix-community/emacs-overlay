@@ -1735,10 +1735,10 @@
       elpaBuild {
         pname = "drepl";
         ename = "drepl";
-        version = "0.2.0.20240404.192414";
+        version = "0.2.0.20240408.185117";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/drepl-0.2.0.20240404.192414.tar";
-          sha256 = "03mmfdjvnzpx3gvh26dd6h8habljlg0qjaacaf6mfcvjkimcvmfw";
+          url = "https://elpa.gnu.org/devel/drepl-0.2.0.20240408.185117.tar";
+          sha256 = "0n1m93x5j8yq6k34cdyg72xfr65xxww0668ga372796h6m7dfpbz";
         };
         packageRequires = [ comint-mime emacs ];
         meta = {
@@ -3016,10 +3016,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240407.185255";
+        version = "9.0.2pre0.20240408.150105";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240407.185255.tar";
-          sha256 = "109frhar5b1snvx5690kfbx77fjiqdryy4i37i2f8p13zwqy56va";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240408.150105.tar";
+          sha256 = "1phs05sl8flm1kq42mxi0v3cz4c841ifhx28pmkyf8xrq6ddvid8";
         };
         packageRequires = [ emacs ];
         meta = {
