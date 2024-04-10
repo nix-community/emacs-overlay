@@ -433,10 +433,10 @@
       elpaBuild {
         pname = "autocrypt";
         ename = "autocrypt";
-        version = "0.4.1.0.20230505.70117";
+        version = "0.4.2.0.20240410.70023";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/autocrypt-0.4.1.0.20230505.70117.tar";
-          sha256 = "164l0br03s5zksza93rb6mj8zgp519sahhnn8y9xwq7rbl4iclwb";
+          url = "https://elpa.gnu.org/devel/autocrypt-0.4.2.0.20240410.70023.tar";
+          sha256 = "13g6422lcv8bjwcfrkxmw7fi5by1liz2ni6zxf10pr3qcpv6046n";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1082,10 +1082,10 @@
       elpaBuild {
         pname = "consult-hoogle";
         ename = "consult-hoogle";
-        version = "0.2.0.0.20240309.142502";
+        version = "0.2.0.0.20240409.225601";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-hoogle-0.2.0.0.20240309.142502.tar";
-          sha256 = "12pbsgnvwbw3q230nqh10fv9q68m4ygfi894p57jskbxjgkpar9q";
+          url = "https://elpa.gnu.org/devel/consult-hoogle-0.2.0.0.20240409.225601.tar";
+          sha256 = "0v3wl8gs11v0s7l1pkrfi95y7nwyhlfrxj5fididc0s6xiqkigdf";
         };
         packageRequires = [ emacs haskell-mode ];
         meta = {
@@ -1887,10 +1887,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.6.1.0.20240409.102009";
+        version = "1.6.1.0.20240410.52441";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.6.1.0.20240409.102009.tar";
-          sha256 = "0070w4q54kfgig3bxrv65avd20sjl65i3ccb9k5z0z5fn5lr5wr4";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.6.1.0.20240410.52441.tar";
+          sha256 = "05hgcd7f9m792blavkzd9bf5rb6r4gqc0myazhwrfhcgh3zmpywc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3016,10 +3016,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240408.150105";
+        version = "9.0.2pre0.20240409.234634";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240408.150105.tar";
-          sha256 = "1phs05sl8flm1kq42mxi0v3cz4c841ifhx28pmkyf8xrq6ddvid8";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240409.234634.tar";
+          sha256 = "07jzkq29y27xphnpqhhrg85i7ssfilsxz5avm1mzqmxkgjrwil67";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4420,10 +4420,10 @@
       elpaBuild {
         pname = "org-contacts";
         ename = "org-contacts";
-        version = "1.1.0.20230227.141730";
+        version = "1.1.0.20240410.35100";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20230227.141730.tar";
-          sha256 = "0y78hwcranqdlm9lip623v5qaj15gv335lnxaakxra9dfri703fm";
+          url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240410.35100.tar";
+          sha256 = "0gqjdcr7rqq9r7vi708szhz48yjigrwv7sbs8v94lqsjfann3x13";
         };
         packageRequires = [ emacs org ];
         meta = {

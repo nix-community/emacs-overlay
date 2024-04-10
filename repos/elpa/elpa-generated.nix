@@ -370,10 +370,10 @@
       elpaBuild {
         pname = "autocrypt";
         ename = "autocrypt";
-        version = "0.4.1";
+        version = "0.4.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/autocrypt-0.4.1.tar";
-          sha256 = "07lbs0wi81q6kz8csw4spj3k3pyx09iq4az8gs1i170xhaislzgl";
+          url = "https://elpa.gnu.org/packages/autocrypt-0.4.2.tar";
+          sha256 = "0mc4vb6x7qzn29dg9m05zgli6mwh9cj4vc5n6hvarzkn9lxl6mr3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "1ha20gy5p13jylp76sciny85r8xfhninc32vvxkcszickjz1gfk0";
+          sha256 = "1vwskkzfhlph96r1h48bk074iwys590h8yryqy1jf968c1114vhx";
         };
         packageRequires = [];
         meta = {
