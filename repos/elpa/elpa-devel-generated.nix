@@ -1887,10 +1887,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.6.1.0.20240322.140619";
+        version = "1.6.1.0.20240409.102009";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.6.1.0.20240322.140619.tar";
-          sha256 = "15vnn1r2lxw8ss5k82ff2r3nwjqa75r4mmpgj4h7hgxnk1rii4n7";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.6.1.0.20240409.102009.tar";
+          sha256 = "0070w4q54kfgig3bxrv65avd20sjl65i3ccb9k5z0z5fn5lr5wr4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2440,10 +2440,10 @@
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.3.7.0.20240328.101513";
+        version = "1.3.7.0.20240409.102607";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20240328.101513.tar";
-          sha256 = "089xsp6ix46vi2n0xb9i9vjwg7g791m6m1lgzii1dr15pf6yhf77";
+          url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20240409.102607.tar";
+          sha256 = "0bgkqym7z7s2wd26g4y4m54mka2pphhgmmc9mpshd0x9dicy4dw3";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
@@ -3278,10 +3278,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.5.0.20240404.44438";
+        version = "1.5.0.20240409.145330";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.5.0.20240404.44438.tar";
-          sha256 = "1w894196x1hl0sbkbw2ly7hywr261vn7zgvylcxnzx708yiv1g1l";
+          url = "https://elpa.gnu.org/devel/jinx-1.5.0.20240409.145330.tar";
+          sha256 = "0qzydfmkd5r33lrkcjkl7b9l7lqj98zqdh5fi81a5v1ml78p5qih";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4401,10 +4401,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240407.130310";
+        version = "9.7pre0.20240409.133544";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240407.130310.tar";
-          sha256 = "01aw5v9d8fj7bq5wblkv92izfip6gxmzf93j2p8ybhwqasr8bcph";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240409.133544.tar";
+          sha256 = "00fwxh9ld7rx3f8jijwcxyvqgm5f5b51m2mschzmyfi0ds321k3d";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5083,10 +5083,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20240314.140956";
+        version = "0.28.0.20240409.194043";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20240314.140956.tar";
-          sha256 = "17wlgmjmkig4farfv0lhnqg937szcys6phgnvbhwwd472ldrw2a9";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20240409.194043.tar";
+          sha256 = "1i40h4snr8klll0yp21i46p2w42day7jy5gbmkspl1mb9xmkkqm0";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
