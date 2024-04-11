@@ -3090,10 +3090,10 @@
       elpaBuild {
         pname = "sweeprolog";
         ename = "sweeprolog";
-        version = "0.27.4";
+        version = "0.27.5";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.27.4.tar";
-          sha256 = "1zsbi3a9ygaazrc5l2dvqs5gbmqjxp5c5halj3ncvlmr5hj50yhf";
+          url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.27.5.tar";
+          sha256 = "0mw8fddzcbn9h5l55v12n4nmickqdxc3y7y0xfzm6m42cvqkzdzf";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3396,10 +3396,10 @@
       elpaBuild {
         pname = "visual-fill-column";
         ename = "visual-fill-column";
-        version = "2.6.2";
+        version = "2.6.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/visual-fill-column-2.6.2.tar";
-          sha256 = "15i3ilp036q4sf04p5vik2l70yqhzn94nazsb6vmyq82lynl0zsd";
+          url = "https://elpa.nongnu.org/nongnu/visual-fill-column-2.6.3.tar";
+          sha256 = "0agxixxlv3lnsng8jk7y6x1kzzvx3sw5m3mhl8gr4i1didgxc37n";
         };
         packageRequires = [ emacs ];
         meta = {
