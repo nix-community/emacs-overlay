@@ -2217,10 +2217,10 @@
       elpaBuild {
         pname = "ess";
         ename = "ess";
-        version = "24.1.1.0.20240311.150545";
+        version = "24.1.1.0.20240410.183629";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20240311.150545.tar";
-          sha256 = "1plq71ab4i7hkgnj9gy6fqzji4wpn2f13mcva4d7abhpd80szxsh";
+          url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20240410.183629.tar";
+          sha256 = "0hj8vwqpimpp0d037k5lmsbl0qcq32icw58k8m91hmfkznbi7r7g";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4401,10 +4401,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240409.133544";
+        version = "9.7pre0.20240410.140201";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240409.133544.tar";
-          sha256 = "00fwxh9ld7rx3f8jijwcxyvqgm5f5b51m2mschzmyfi0ds321k3d";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240410.140201.tar";
+          sha256 = "0wmzxxkw9hmicfgs5xb02rl8ng4ybjadrg4iy7g6y6jaq48l2h3c";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4420,10 +4420,10 @@
       elpaBuild {
         pname = "org-contacts";
         ename = "org-contacts";
-        version = "1.1.0.20240410.35100";
+        version = "1.1.0.20240410.112834";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240410.35100.tar";
-          sha256 = "0gqjdcr7rqq9r7vi708szhz48yjigrwv7sbs8v94lqsjfann3x13";
+          url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240410.112834.tar";
+          sha256 = "0mns2fkzn1yc968k2nc4y5gys1m7dbcj67mdb8vfj54iwdkw316z";
         };
         packageRequires = [ emacs org ];
         meta = {
