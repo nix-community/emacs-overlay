@@ -1039,20 +1039,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    exec-path-from-shell = callPackage ({ cl-lib ? null
-                                        , elpaBuild
-                                        , emacs
-                                        , fetchurl
-                                        , lib }:
+    exec-path-from-shell = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "exec-path-from-shell";
         ename = "exec-path-from-shell";
-        version = "2.1";
+        version = "2.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/exec-path-from-shell-2.1.tar";
-          sha256 = "19wm5pm4rrrg0d1g6nm5k4cam26awg1sfj2xnz1kvmy4b91jzxpr";
+          url = "https://elpa.nongnu.org/nongnu/exec-path-from-shell-2.2.tar";
+          sha256 = "14nzk04aypqminpqs181nh3di23nnw64z0ir940ajs9bx5pv9s1w";
         };
-        packageRequires = [ cl-lib emacs ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/exec-path-from-shell.html";
           license = lib.licenses.free;
@@ -1653,10 +1649,10 @@
       elpaBuild {
         pname = "helm-core";
         ename = "helm-core";
-        version = "3.9.7";
+        version = "3.9.8";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-core-3.9.7.tar";
-          sha256 = "00vvffj02n3ayszncfypvjw37m492an7xf0yfwpw5b2yxcsl1frj";
+          url = "https://elpa.nongnu.org/nongnu/helm-core-3.9.8.tar";
+          sha256 = "03l5sva3qhfmjdpys1k2pbcja58fsdxljvmffjx70j7wyclb3v03";
         };
         packageRequires = [ async emacs ];
         meta = {
