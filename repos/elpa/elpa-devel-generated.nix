@@ -770,10 +770,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.4.0.20240406.80605";
+        version = "1.5.0.20240411.220758";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.4.0.20240406.80605.tar";
-          sha256 = "12ll8v7y0k8zvcq33x588yda3j6c6bq5fmbd6x3kpszmpfc4hnad";
+          url = "https://elpa.gnu.org/devel/cape-1.5.0.20240411.220758.tar";
+          sha256 = "0mbw0azs2a33ywq1iqqvm2r5pyhpl1qfjkzmqv473n7qm658gkfg";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2113,10 +2113,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "19.0.20240318.161230";
+        version = "19.0.20240411.201154";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-19.0.20240318.161230.tar";
-          sha256 = "13d6fzyvmk1whwig7p3yya8qnrqbzbfdqpr33db6lh3g062japjj";
+          url = "https://elpa.gnu.org/devel/emms-19.0.20240411.201154.tar";
+          sha256 = "0h49pkpwpmj12fb8bgdwps4nzin9adc0kfnw7b79vkqa21lrx9n5";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -3278,10 +3278,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.5.0.20240409.145330";
+        version = "1.6.0.20240411.220703";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.5.0.20240409.145330.tar";
-          sha256 = "0qzydfmkd5r33lrkcjkl7b9l7lqj98zqdh5fi81a5v1ml78p5qih";
+          url = "https://elpa.gnu.org/devel/jinx-1.6.0.20240411.220703.tar";
+          sha256 = "0ic4ncpqzv9cxswd7xsz4fxgdfbcbz8q2yk96ygx35z5mwk44grw";
         };
         packageRequires = [ compat emacs ];
         meta = {

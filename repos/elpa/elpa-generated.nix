@@ -674,10 +674,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.4";
+        version = "1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cape-1.4.tar";
-          sha256 = "1sgnhx5mq27cdspilay9kmqmw9yi1zzgmnsc7jwvxwihrgqwh43a";
+          url = "https://elpa.gnu.org/packages/cape-1.5.tar";
+          sha256 = "1kg5a2x23gmdcv8kwzmz8qjfr05r9rfzwb7cj38ambpqpppxl7ij";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2964,10 +2964,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.5";
+        version = "1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jinx-1.5.tar";
-          sha256 = "1sz5xjy7x7rap582hcjs70xc8dvchifpmnghlpk5xvbn2b1hh4q7";
+          url = "https://elpa.gnu.org/packages/jinx-1.6.tar";
+          sha256 = "0jy2g587930d4jqi4asrci3411bby9j6wrxczyskacvjs41vqyip";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "1xqsi18mrcm7hwgn2h1bbdjqk7qfcb7ndj022hb0jqazp7f4pjym";
+          sha256 = "0yd053vhwj8nr7v0lr8p3ivrq8ymr68ahcmq7ryqcmr3gmbqb74f";
         };
         packageRequires = [];
         meta = {
