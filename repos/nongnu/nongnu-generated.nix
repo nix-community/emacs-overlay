@@ -1634,10 +1634,10 @@
       elpaBuild {
         pname = "helm";
         ename = "helm";
-        version = "3.9.7";
+        version = "3.9.8";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-3.9.7.tar";
-          sha256 = "1zx25hrnb4k7dlfkmxaw9j3zljj2q3c2b3llchc36zk47hid44k6";
+          url = "https://elpa.nongnu.org/nongnu/helm-3.9.8.tar";
+          sha256 = "1vcz3vj6drp5v66s3nsrai39rcwp1q3l2qdd1qxw7n58m4fgrkm6";
         };
         packageRequires = [ helm-core popup wfnames ];
         meta = {
@@ -2236,10 +2236,10 @@
       elpaBuild {
         pname = "nginx-mode";
         ename = "nginx-mode";
-        version = "1.1.9";
+        version = "1.1.10";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/nginx-mode-1.1.9.tar";
-          sha256 = "0wqrbxkc6jdqmlhhxkraw7hji9i2ydd86mam9kvlr7s10xyamnlm";
+          url = "https://elpa.nongnu.org/nongnu/nginx-mode-1.1.10.tar";
+          sha256 = "0c6biqxbwpkrbqi639ifgv8jkfadssyznjkq6hxvqgjh3nnyrlx3";
         };
         packageRequires = [];
         meta = {
