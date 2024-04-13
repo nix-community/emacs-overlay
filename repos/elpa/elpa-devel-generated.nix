@@ -4401,10 +4401,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240411.131740";
+        version = "9.7pre0.20240412.180336";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240411.131740.tar";
-          sha256 = "01wk08kga955mcjgm48a2v38f5z5bymg7h98r7fjdyflimwpnsj7";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240412.180336.tar";
+          sha256 = "10d73yzm9xk9njv8d0kpnyx4fyj622m2ghq8vrzz5xhk7z0pm7vi";
         };
         packageRequires = [ emacs ];
         meta = {
