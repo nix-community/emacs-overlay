@@ -5070,10 +5070,10 @@
       elpaBuild {
         pname = "setup";
         ename = "setup";
-        version = "1.3.2";
+        version = "1.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/setup-1.3.2.tar";
-          sha256 = "0kaqm3xyb5s5ca3wbxjc21a2hbi8dqbxlssh17zyxfywnfvyhjyg";
+          url = "https://elpa.gnu.org/packages/setup-1.4.0.tar";
+          sha256 = "0id7j8xvbkbpfiv7m55dl64y27dpiczljagldf4p9q6qwlhf42f7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "05ay3czny5201ckh0kn59z6shllvp87sdmdspg7a342ir0q740lr";
+          sha256 = "1p7janyk4dnpwc52fllhbc325a10shl1zpfnmd7vyyfjdahqgffd";
         };
         packageRequires = [];
         meta = {
