@@ -6710,11 +6710,11 @@
   "repo": "tinted-theming/base16-emacs",
   "unstable": {
    "version": [
-    20240407,
-    101
+    20240416,
+    621
    ],
-   "commit": "36cf76931191bf03f40422e2c21edc17d612430c",
-   "sha256": "09592wqx5ymanln4chgc8jv233fx2l223rkbimbk18fdd5k2a8pp"
+   "commit": "8b760118bfd216bcb62edb069cff1a5ce523bb94",
+   "sha256": "19c34nx66lgjpb2v4r3c0l67x37zkznnkcf9l7vw8az80ygsygvx"
   },
   "stable": {
    "version": [
@@ -26144,11 +26144,11 @@
   "url": "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git",
   "unstable": {
    "version": [
-    20240405,
-    2009
+    20240416,
+    208
    ],
-   "commit": "afe824872a67a5340b07ab234ecb21a794d2cfe0",
-   "sha256": "016j013d34lfgc4sqfrn7jz0111byfryd3zg6dfrvavq9kbzscmx"
+   "commit": "d51cc495db8ca56b8195f2018f4f5aab8a4541a2",
+   "sha256": "17dgp5czvj6zqcgarhi4i7fhw1zi9l2nlpkl9p014pgrssz3rsif"
   },
   "stable": {
    "version": [
@@ -31367,11 +31367,11 @@
   "repo": "tecosaur/emacs-everywhere",
   "unstable": {
    "version": [
-    20240414,
-    1544
+    20240416,
+    354
    ],
-   "commit": "91d72e4c05f16afcce89d7230c1a426b1de8b1ea",
-   "sha256": "0m9zlp9vxkri51jnvygzs455arlz108vm2q35xidpwchi74ixf7g"
+   "commit": "2109b78ccadb084db302d5009b6d0f039ff240ec",
+   "sha256": "1bgp3dlgdkrxv0ri5rw5ib51zigwlf5gjaqdjqc5rh7q241ahqpi"
   }
  },
  {
@@ -34146,11 +34146,11 @@
   "repo": "akreisher/eshell-syntax-highlighting",
   "unstable": {
    "version": [
-    20240415,
-    523
+    20240416,
+    102
    ],
-   "commit": "66245bb0642148d17ea3e4ec121756b977c39530",
-   "sha256": "06z5r531wg2f6d7yffpk0qbgs035ym14w9ir2fharcgkahqy2lnb"
+   "commit": "070b33c20a907d973f41c0be1dcfd1335b8aa1e0",
+   "sha256": "0r4n6v9rlfmibrld1axbvxdll2j4c8vrp4glfpziglak1j764ifc"
   },
   "stable": {
    "version": [
@@ -36060,14 +36060,14 @@
   "repo": "juliapath/evil-numbers",
   "unstable": {
    "version": [
-    20230117,
-    53
+    20240416,
+    140
    ],
    "deps": [
     "evil"
    ],
-   "commit": "8724645c84dc310f6155eec452913bb79c0c44b3",
-   "sha256": "0dxw2d85zxnh7rgfq1vn9b71nrn48j5c7fwbzb02m74qddcjnjg0"
+   "commit": "c7899894515d6be40dfcd589fb27c1801c5b199c",
+   "sha256": "0nr07k1c99xdiiz5bpn0rlr2f8qvca21smpcyyxk70cxfpwksd0s"
   },
   "stable": {
    "version": [
@@ -69881,11 +69881,11 @@
   "repo": "ledger/ledger-mode",
   "unstable": {
    "version": [
-    20240414,
-    2206
+    20240416,
+    416
    ],
-   "commit": "e028a014d90b2f5331dd4981ae59c51beb9fd407",
-   "sha256": "1yfgyjix1f07jlc45rw28mdfdqx9pv1q3zwna2j90ywhrwxphd53"
+   "commit": "d25fd4b9ffefdd3d4f3564bda33f989bd7b06c05",
+   "sha256": "02lir3y5jmdmgh2rxz9z7pl55snbi1v8lxp01s2w5galh7f1gb11"
   },
   "stable": {
    "version": [
@@ -72887,16 +72887,16 @@
   "repo": "emacs-lsp/lsp-pyright",
   "unstable": {
    "version": [
-    20231006,
-    1212
+    20240416,
+    610
    ],
    "deps": [
     "dash",
     "ht",
     "lsp-mode"
    ],
-   "commit": "2f2631ae242d5770dbe6cb924e44c1ee5671789d",
-   "sha256": "1gk23a56jf1v4f4ag07hzji5pw3mq1rq622ggbvqcbc2i2bnvdn1"
+   "commit": "b891a5071fcb4371d7d817069cbb04f5bd160468",
+   "sha256": "1qiqbjvp315m7mjsyj1ab53fpk6m6qn6pjzkxls1m0rmmjmszzg4"
   },
   "stable": {
    "version": [
@@ -113549,11 +113549,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20240415,
-    322
+    20240416,
+    100
    ],
-   "commit": "19dcefd8dd2d5d592972dc65748bf0db9bbdaed2",
-   "sha256": "0s2qv024mgmq2vvywvxcrz89frz46581gfwi66aiiwbn1jm1x5bn"
+   "commit": "37d10dde1fc9e74d2a81087fdc1e0d82ffca9cb8",
+   "sha256": "16drvys9c2s94d50l5jsd4c5dbxfnajalgxxxbrzdfsydm90dm2b"
   }
  },
  {
@@ -120760,26 +120760,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20240414,
-    1923
+    20240415,
+    2347
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "6351acb48a2111cf711f918e457f253a63e1c528",
-   "sha256": "0l58jgawq0xac2g3jlpqb459dwqzzw8rinnpm9bh2qsq69ashaxb"
+   "commit": "86f50376f8e5452390afeb71f78b17e349603b2a",
+   "sha256": "002jxlipnq3fcyhwh42nc2j15vlq8hrjaka5v71lbj7jrnjslfis"
   },
   "stable": {
    "version": [
     0,
     12,
-    174
+    175
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "6351acb48a2111cf711f918e457f253a63e1c528",
-   "sha256": "0l58jgawq0xac2g3jlpqb459dwqzzw8rinnpm9bh2qsq69ashaxb"
+   "commit": "86f50376f8e5452390afeb71f78b17e349603b2a",
+   "sha256": "002jxlipnq3fcyhwh42nc2j15vlq8hrjaka5v71lbj7jrnjslfis"
   }
  },
  {
