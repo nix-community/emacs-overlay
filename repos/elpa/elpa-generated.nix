@@ -2245,10 +2245,10 @@
       elpaBuild {
         pname = "fontaine";
         ename = "fontaine";
-        version = "1.0.0";
+        version = "2.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/fontaine-1.0.0.tar";
-          sha256 = "05sfv8z7shkc98hbyl0rzai6g7bxiaqskwahq26mr12libi55d9z";
+          url = "https://elpa.gnu.org/packages/fontaine-2.0.0.tar";
+          sha256 = "1h3hsqfx16ff0s776xvnafrlmj0m0r66hjra1mq2j55ahvh0aavk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "1cnhz1svdmc93arcqns3pz1z1882yan4zxfgnj37iri50rxy93vk";
+          sha256 = "1ck1v3wkwjsc1r9rkc4iia1bbin384h1xm85gvljig6bqrdj7k44";
         };
         packageRequires = [];
         meta = {

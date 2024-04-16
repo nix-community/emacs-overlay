@@ -1318,10 +1318,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.10.0.0.20240404.182237";
+        version = "0.10.0.0.20240415.212303";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240404.182237.tar";
-          sha256 = "0z4xczfiw4n0l2b4khk9hhp8y7qici2mp0dwydfnyp43nf8jjwm9";
+          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240415.212303.tar";
+          sha256 = "0j27qryrrbp9y1ajicqaqhs9qh4jh8y62gs97k6rm0xz2rcaxjk9";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1887,10 +1887,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.6.1.0.20240415.35909";
+        version = "1.6.1.0.20240416.54414";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.6.1.0.20240415.35909.tar";
-          sha256 = "08w6bl7nvnajgpm850vwzzginvadbj71bfgip2ivcclx4n4rfafi";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.6.1.0.20240416.54414.tar";
+          sha256 = "1cx4a3kqw5qcvnmmll61qgwfasbyynyc6w0nnvwd0m1k6g3ns6b9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2495,10 +2495,10 @@
       elpaBuild {
         pname = "fontaine";
         ename = "fontaine";
-        version = "1.0.0.0.20240415.175805";
+        version = "2.0.0.0.20240416.71849";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/fontaine-1.0.0.0.20240415.175805.tar";
-          sha256 = "041hdzg0j8q3ygxzffa086fl8hxq9bawcw44ylc2a7yym18pqv2s";
+          url = "https://elpa.gnu.org/devel/fontaine-2.0.0.0.20240416.71849.tar";
+          sha256 = "1lkbkwf8h267r2gyvkqslagar6yvf0977f23myx4xjss4g4xwylm";
         };
         packageRequires = [ emacs ];
         meta = {
