@@ -1735,10 +1735,10 @@
       elpaBuild {
         pname = "drepl";
         ename = "drepl";
-        version = "0.2.0.20240414.141456";
+        version = "0.2.0.20240415.174559";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/drepl-0.2.0.20240414.141456.tar";
-          sha256 = "159jlizn7xyngcpr8rqb08vji2hxslbky8ww1hbw7xxy8x1mlxhk";
+          url = "https://elpa.gnu.org/devel/drepl-0.2.0.20240415.174559.tar";
+          sha256 = "0mkd5d7kf1yhmic5mywwc40byi4ymcl41wq2rq214w2qbdx6s3a7";
         };
         packageRequires = [ comint-mime emacs ];
         meta = {
@@ -2495,10 +2495,10 @@
       elpaBuild {
         pname = "fontaine";
         ename = "fontaine";
-        version = "1.0.0.0.20240222.132833";
+        version = "1.0.0.0.20240415.175805";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/fontaine-1.0.0.0.20240222.132833.tar";
-          sha256 = "1sp351r86nckyzjlqnvnkrvp4f7vr62wz498yi8kwykn4b1z9x5j";
+          url = "https://elpa.gnu.org/devel/fontaine-1.0.0.0.20240415.175805.tar";
+          sha256 = "041hdzg0j8q3ygxzffa086fl8hxq9bawcw44ylc2a7yym18pqv2s";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3016,10 +3016,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240414.141259";
+        version = "9.0.2pre0.20240415.2004";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240414.141259.tar";
-          sha256 = "1xgc9346y3z48ms367si7f3qd171lljw6wz7kz8p1jvarsv5ymyj";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240415.2004.tar";
+          sha256 = "00143r9csg7c15b9dndh9i1fzsrngxskcxdl45cprigv32gq1x8v";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4401,10 +4401,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240414.124615";
+        version = "9.7pre0.20240415.111950";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240414.124615.tar";
-          sha256 = "0sl37cl8m1sjyjg13ayzw1s1sgk3vh0x85aa077hlsmzh00qmixm";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240415.111950.tar";
+          sha256 = "1zifjfvx0havfy13kchmk2mpv5zz1c5015cw850xzh4zjcd7ympw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6527,10 +6527,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.6.0.0.20240321.220938";
+        version = "0.6.0.0.20240414.135949";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.6.0.0.20240321.220938.tar";
-          sha256 = "17dkp1n93b8p7hl1032083r4494bp2fjh1hgqnjyapz6799f69cw";
+          url = "https://elpa.gnu.org/devel/transient-0.6.0.0.20240414.135949.tar";
+          sha256 = "1rf1zszrfd02n4ky8n72sqzwb3zk16j92plflfc2wdrzaw9k2mmr";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
