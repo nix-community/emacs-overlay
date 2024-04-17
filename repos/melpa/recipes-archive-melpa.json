@@ -1030,16 +1030,16 @@
   "repo": "xcwen/ac-php",
   "unstable": {
    "version": [
-    20240222,
-    320
+    20240328,
+    1036
    ],
    "deps": [
     "ac-php-core",
     "auto-complete",
     "yasnippet"
    ],
-   "commit": "d4378a857aa1c60b34d86557aa10238785d1ac66",
-   "sha256": "1xz86cjsjm72b0rm50fr2z82rcllhczsd4jr5rnp2clbind5w697"
+   "commit": "a69ae4a12e40900619b4e5a1613fd449aef649c3",
+   "sha256": "1yn5cc6cmj3hwqgmjj44dz847xn5k99kirj36qwc04q7vhl8z8k7"
   },
   "stable": {
    "version": [
@@ -1064,8 +1064,8 @@
   "repo": "xcwen/ac-php",
   "unstable": {
    "version": [
-    20240325,
-    1034
+    20240328,
+    1036
    ],
    "deps": [
     "dash",
@@ -1075,8 +1075,8 @@
     "s",
     "xcscope"
    ],
-   "commit": "5b319bc61bb51cbdea3c591f2c6aa315b3e7becf",
-   "sha256": "1a9qa2nx48qmgqi5v8maxm8ax1vv8aswsmxg0lwdl2yfq8g3dqys"
+   "commit": "a69ae4a12e40900619b4e5a1613fd449aef649c3",
+   "sha256": "1yn5cc6cmj3hwqgmjj44dz847xn5k99kirj36qwc04q7vhl8z8k7"
   },
   "stable": {
    "version": [
@@ -16629,16 +16629,16 @@
   "repo": "xcwen/ac-php",
   "unstable": {
    "version": [
-    20240327,
-    608
+    20240328,
+    1036
    ],
    "deps": [
     "ac-php-core",
     "cl-lib",
     "company"
    ],
-   "commit": "0d4893f5d3eba668ed7784d3cb30d7bef4c5db3e",
-   "sha256": "0nhh6r44v2a56srjq6335971g9l0i02di2bj1gly0zlk0695jf16"
+   "commit": "a69ae4a12e40900619b4e5a1613fd449aef649c3",
+   "sha256": "1yn5cc6cmj3hwqgmjj44dz847xn5k99kirj36qwc04q7vhl8z8k7"
   },
   "stable": {
    "version": [
@@ -32349,15 +32349,15 @@
   "repo": "isamert/empv.el",
   "unstable": {
    "version": [
-    20240330,
-    2330
+    20240417,
+    13
    ],
    "deps": [
     "compat",
     "s"
    ],
-   "commit": "c48cd223b145806a6a36167c299e9a0384a5f2e6",
-   "sha256": "0p62wfsxk0sh8lpjm52md8kaixkfagfsl9gpmps76448iznn04m7"
+   "commit": "19c30cf7503ecab7d5e2227bd393f27489e267a6",
+   "sha256": "1np3lczym3f70gbvnvshh0q7vdq42a8awg2fxfzy617989yx7z3d"
   },
   "stable": {
    "version": [
@@ -60051,11 +60051,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20240416,
+    20240417,
     412
    ],
-   "commit": "fba4d6b6d4840b3aa47df38bfb6469c988f6b3bb",
-   "sha256": "0vp29cqm3k9jk10g8qnc9y4l1bv99xvjxz4scldlgcj860wc76nm"
+   "commit": "91de35dac59fcbedf9d39bbbd7145fb7f6514b05",
+   "sha256": "1ixfzh7b33fi1mm3id8g1mijfczj9xjyn4ckzb0dncv0308757nf"
   }
  },
  {
@@ -72726,8 +72726,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20240416,
-    830
+    20240417,
+    611
    ],
    "deps": [
     "dash",
@@ -72738,8 +72738,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "e67008b3d00a97840aa0a17f754ede7cf5551c97",
-   "sha256": "06ah1bqhk8k17qws1rvz1nyw48q7blxbzc8c4bk4gk5j2p1vrdk9"
+   "commit": "e379ae512787aee67cf383ee7639fc341104cd27",
+   "sha256": "141anz7nymaisbiyaf7dhvj05l35mjrj01pphhvabxvrkbbsjnp5"
   },
   "stable": {
    "version": [
@@ -76133,11 +76133,11 @@
   "repo": "baaash/melancholy-theme",
   "unstable": {
    "version": [
-    20230330,
-    835
+    20240417,
+    136
    ],
-   "commit": "a5c4360f57793401b63b0df382e845b4845c8f97",
-   "sha256": "0351m7py16kxfri5z2d4k89ld1x9kvgj82xd0dv9pyp7pkxrfxwz"
+   "commit": "7ba2bb3f062e798236bfb589381691c5bd9a22be",
+   "sha256": "071a2d9yvfz1cv4fnd1djdbcnqc73v6vb6jgg0nlp1f5dvy9r89x"
   }
  },
  {
@@ -121449,14 +121449,14 @@
   "repo": "echawk/tsort.el",
   "unstable": {
    "version": [
-    20231027,
-    334
+    20240417,
+    120
    ],
    "deps": [
     "compat"
    ],
-   "commit": "3f9cffdbd4ac83a6a69dd4ccbb135e95950494ad",
-   "sha256": "0zssgrkzsn3q2g8ayhs31c408yhsggmyrzfscklvvdhmgg5qcabj"
+   "commit": "32e4f5b7b6de6f012a51f3d7ec151579d7b3e4a7",
+   "sha256": "0ib900rldqni4aiwd19a8r9v3wwnfkki4p45mrxj9rv152fwiywx"
   }
  },
  {
