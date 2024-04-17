@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "1hcw7hm25wm9yghyfm8ij794cgdwj5m1c1rfi6w3gvr46krrkrd2";
+          sha256 = "1xxgin25j4p5c9z16z9bfzz4n9mqvaqj79nwpg9mc0c0rhgj0wbc";
         };
         packageRequires = [];
         meta = {
