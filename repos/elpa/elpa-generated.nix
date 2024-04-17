@@ -1872,10 +1872,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.14";
+        version = "0.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.14.tar";
-          sha256 = "06wqa5mdxj91b4wbh0w39sma94542z53n1hq0xac37lv30wb2h8a";
+          url = "https://elpa.gnu.org/packages/ement-0.15.tar";
+          sha256 = "0mphkvmsmrfyr3prr5a2x6ijr27z96ixpaxs9871kn7f1x0brn5r";
         };
         packageRequires = [
           emacs
@@ -4679,10 +4679,10 @@
       elpaBuild {
         pname = "rcirc-sqlite";
         ename = "rcirc-sqlite";
-        version = "0.1.4";
+        version = "1.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rcirc-sqlite-0.1.4.tar";
-          sha256 = "12j02mrjicgm0mdv102qq8z66cd56crjav5jkaz0cb5qcmfbwaja";
+          url = "https://elpa.gnu.org/packages/rcirc-sqlite-1.0.0.tar";
+          sha256 = "1xnzbjp31vc77a70jsb74587jkjpwb1b5w1djbymwy173l44jx8r";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6208,7 +6208,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "1ck1v3wkwjsc1r9rkc4iia1bbin384h1xm85gvljig6bqrdj7k44";
+          sha256 = "1hcw7hm25wm9yghyfm8ij794cgdwj5m1c1rfi6w3gvr46krrkrd2";
         };
         packageRequires = [];
         meta = {

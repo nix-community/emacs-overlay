@@ -1318,10 +1318,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.10.0.0.20240415.212303";
+        version = "0.10.0.0.20240416.152240";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240415.212303.tar";
-          sha256 = "0j27qryrrbp9y1ajicqaqhs9qh4jh8y62gs97k6rm0xz2rcaxjk9";
+          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240416.152240.tar";
+          sha256 = "0jpgdm3nsbqw9wkf385bws26wds82aclq79i7jqy539m8mlh17n8";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -2084,10 +2084,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.15pre0.20240406.190043";
+        version = "0.15.0.20240416.101741";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ement-0.15pre0.20240406.190043.tar";
-          sha256 = "1iz4a6jwy4ks58d227sr340p1p226ks9chfi6jvlvcygcvy6rg54";
+          url = "https://elpa.gnu.org/devel/ement-0.15.0.20240416.101741.tar";
+          sha256 = "1fjns4li3cvi3p2jkwxagzs6aj8x9s4zjc1lwpj013d54mflkndp";
         };
         packageRequires = [
           emacs
@@ -2863,10 +2863,10 @@
       elpaBuild {
         pname = "gtags-mode";
         ename = "gtags-mode";
-        version = "1.2.0.20240331.235816";
+        version = "1.2.0.20240416.183157";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/gtags-mode-1.2.0.20240331.235816.tar";
-          sha256 = "15mfrf10l8y00llsiy9srrxrd224bqqfqs12xhz8m1vwjy6rsnhg";
+          url = "https://elpa.gnu.org/devel/gtags-mode-1.2.0.20240416.183157.tar";
+          sha256 = "1la9pb32ywyh3i0nmx3xpy6is9yrw7646sfk373apivsj5k0js9z";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3016,10 +3016,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240415.2004";
+        version = "9.0.2pre0.20240416.1227";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240415.2004.tar";
-          sha256 = "00143r9csg7c15b9dndh9i1fzsrngxskcxdl45cprigv32gq1x8v";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240416.1227.tar";
+          sha256 = "0q6hmf9hy6h25qrvbm63xg1z3csm09qi28msc6w2bbs5vb60djb9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5204,10 +5204,10 @@
       elpaBuild {
         pname = "rcirc-sqlite";
         ename = "rcirc-sqlite";
-        version = "0.1.4.0.20240226.165830";
+        version = "1.0.0.0.20240416.152833";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/rcirc-sqlite-0.1.4.0.20240226.165830.tar";
-          sha256 = "1l7x1pk2gbdys0s1b8kg13qzl34x446kpiimnj3x2h6r9zqwx8q4";
+          url = "https://elpa.gnu.org/devel/rcirc-sqlite-1.0.0.0.20240416.152833.tar";
+          sha256 = "0bw0mzjvy04m2598ppnk6pk6vfiyirv2pf13akj2h49jw31dbj3l";
         };
         packageRequires = [ emacs ];
         meta = {
