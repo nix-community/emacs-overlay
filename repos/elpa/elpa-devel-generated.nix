@@ -1318,10 +1318,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.10.0.0.20240416.214045";
+        version = "0.10.0.0.20240417.162721";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240416.214045.tar";
-          sha256 = "06pw7lppk9n1b8qmg38zmwibrbiv83psbhp6mgcxw0lbh65dcmpq";
+          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240417.162721.tar";
+          sha256 = "115h7kg4d84yvvnbn84ia73iz61i87mbifdpjglzj3qpg8gbrzr5";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1735,10 +1735,10 @@
       elpaBuild {
         pname = "drepl";
         ename = "drepl";
-        version = "0.2.0.20240415.174559";
+        version = "0.2.0.20240417.185158";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/drepl-0.2.0.20240415.174559.tar";
-          sha256 = "0mkd5d7kf1yhmic5mywwc40byi4ymcl41wq2rq214w2qbdx6s3a7";
+          url = "https://elpa.gnu.org/devel/drepl-0.2.0.20240417.185158.tar";
+          sha256 = "1f3sxdc5vc90rdg3f5i3sca7df0jhwdp2170jwx9mbc53fdzir37";
         };
         packageRequires = [ comint-mime emacs ];
         meta = {
@@ -1912,10 +1912,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240416.215705";
+        version = "1.17.0.20240417.184223";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240416.215705.tar";
-          sha256 = "16fdi1f0q307k55fz7xm5aw8a2anjhy46cvqlz7iq17nyywpaa2q";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240417.184223.tar";
+          sha256 = "009lw5i4h7sw5k8q1kflzs89ab7ql5ydvfqrg6vr5y3vzcmdq9z3";
         };
         packageRequires = [
           eldoc
@@ -6447,6 +6447,24 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/topspace.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    track-changes = callPackage ({ elpaBuild
+                                 , emacs
+                                 , fetchurl
+                                 , lib }:
+      elpaBuild {
+        pname = "track-changes";
+        ename = "track-changes";
+        version = "1.1.0.20240417.105711";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/track-changes-1.1.0.20240417.105711.tar";
+          sha256 = "177rjj4asajcq5zbdc64igvxjsv18mhh1jxsnsvndc777bfvvsix";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/track-changes.html";
           license = lib.licenses.free;
         };
       }) {};

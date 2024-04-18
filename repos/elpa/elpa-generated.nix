@@ -5784,6 +5784,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    track-changes = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "track-changes";
+        ename = "track-changes";
+        version = "1.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/track-changes-1.1.tar";
+          sha256 = "04srqkpyc6l3s95jyf2p5pqqf1z67i7k89334r6ybqj1l91h2prn";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/track-changes.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     tramp = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "tramp";
@@ -6208,7 +6223,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "1xxgin25j4p5c9z16z9bfzz4n9mqvaqj79nwpg9mc0c0rhgj0wbc";
+          sha256 = "1g3v2mik54sc7c33qiiwwv80b25mq2a26rizs8488z8225h0lgyz";
         };
         packageRequires = [];
         meta = {
