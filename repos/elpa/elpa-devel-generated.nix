@@ -1909,10 +1909,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240418.93332";
+        version = "1.17.0.20240418.233930";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240418.93332.tar";
-          sha256 = "13j2kha1hb9mks8iq77dyhlqmxwrhksyp7iarrf9achrpxl2grpb";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240418.233930.tar";
+          sha256 = "0s13cwl9w5mbpwg9n5hg8b6ygjnnplfhqg07ffm087n18scwdywn";
         };
         packageRequires = [
           eldoc
@@ -2035,10 +2035,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "1.0.0.20240327.80802";
+        version = "1.1.0.20240418.225241";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-1.0.0.20240327.80802.tar";
-          sha256 = "1zixjry4njzahgcl0d90vjgsjb3bmlxkxvjpqxyyizr6jq38iqzc";
+          url = "https://elpa.gnu.org/devel/embark-1.1.0.20240418.225241.tar";
+          sha256 = "120wh0r76wnsk5kczdnr5b7029x78fyd8p0h9rl2sbss4ac8wa48";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2056,10 +2056,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "1.0.0.20240327.80802";
+        version = "1.1.0.20240418.225241";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/embark-consult-1.0.0.20240327.80802.tar";
-          sha256 = "0j116xhjbwwij3lzm001f5y830g7ifk5cn89d2lqhz1x314aacw5";
+          url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20240418.225241.tar";
+          sha256 = "09qqwd5p7gasazg0plz1ijq5lgxh26358sia4727rs75pxwlz0zv";
         };
         packageRequires = [ compat consult emacs embark ];
         meta = {

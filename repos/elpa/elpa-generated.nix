@@ -1826,10 +1826,10 @@
       elpaBuild {
         pname = "embark";
         ename = "embark";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-1.0.tar";
-          sha256 = "0wx48bgjcnq7gg5r7mw80xj2v171f5pbsfx4yz85gm8fg3jc6ayj";
+          url = "https://elpa.gnu.org/packages/embark-1.1.tar";
+          sha256 = "074ggh7dkr5jdkwcndl6znhkq48jmc62rp7mc6vjidr6yxf8d1rn";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1847,10 +1847,10 @@
       elpaBuild {
         pname = "embark-consult";
         ename = "embark-consult";
-        version = "1.0";
+        version = "1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/embark-consult-1.0.tar";
-          sha256 = "0z3n58ikbnianp3drdvpinnz7kl87vi65illxbv4bv844dcs27ny";
+          url = "https://elpa.gnu.org/packages/embark-consult-1.1.tar";
+          sha256 = "06yh6w4zgvvkfllmcr0szsgjrfhh9rpjwgmcrf6h2gai2ps9xdqr";
         };
         packageRequires = [ compat consult emacs embark ];
         meta = {
@@ -6223,7 +6223,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "0a6lg8v80hszb644w2m45llgh6n2wsll2mzsqsg28yy3gsihwara";
+          sha256 = "1rsb0qaipnl6lgcy1hjfsahkh06zlnp5an1cm2b8mykhhdxpwvpf";
         };
         packageRequires = [];
         meta = {
