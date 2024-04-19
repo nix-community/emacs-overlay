@@ -341,17 +341,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild
-                          , emacs
-                          , fetchurl
-                          , lib }:
+    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.4.0.20240317.113904";
+        version = "14.0.4.0.20240418.94233";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240317.113904.tar";
-          sha256 = "1h30mr30a00dsqfhnn285djlswkdriwzn6cyripibwxqfvi1ms2b";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240418.94233.tar";
+          sha256 = "0k3r8f0wm09i3a3qn97hl1f731nrz2v31q6bdwnc3iw2r9xqdkwb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1063,10 +1060,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.4.0.20240405.211205";
+        version = "1.4.0.20240418.161148";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.4.0.20240405.211205.tar";
-          sha256 = "1n3ml47ajgbv1j7kv5lb6gd8xnwd3ldjzb1lavw5wh5qvn8ph0ib";
+          url = "https://elpa.gnu.org/devel/consult-1.4.0.20240418.161148.tar";
+          sha256 = "13jjmcxf1k20s046myvbc3fw63gb0ln5ppp0gc3y7dm2qypv1d9p";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1912,10 +1909,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240417.184223";
+        version = "1.17.0.20240418.93332";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240417.184223.tar";
-          sha256 = "009lw5i4h7sw5k8q1kflzs89ab7ql5ydvfqrg6vr5y3vzcmdq9z3";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240418.93332.tar";
+          sha256 = "13j2kha1hb9mks8iq77dyhlqmxwrhksyp7iarrf9achrpxl2grpb";
         };
         packageRequires = [
           eldoc
@@ -2431,19 +2428,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    flymake = callPackage ({ eldoc
-                           , elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib
-                           , project }:
+    flymake = callPackage ({ eldoc, elpaBuild, emacs, fetchurl, lib, project }:
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.3.7.0.20240409.102607";
+        version = "1.3.7.0.20240418.90833";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20240409.102607.tar";
-          sha256 = "0bgkqym7z7s2wd26g4y4m54mka2pphhgmmc9mpshd0x9dicy4dw3";
+          url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20240418.90833.tar";
+          sha256 = "0vgcwxq7xvvias4f9631hygdv0rbn4c99j8g0hzmjxfaghs9l0gi";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
