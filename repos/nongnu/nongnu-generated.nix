@@ -3442,10 +3442,10 @@
       elpaBuild {
         pname = "wfnames";
         ename = "wfnames";
-        version = "1.1";
+        version = "1.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/wfnames-1.1.tar";
-          sha256 = "0hy0qyix9ca1kfrxd26jp3r7b8wx2bvlx1zw8s0sipx90kybhw36";
+          url = "https://elpa.nongnu.org/nongnu/wfnames-1.2.tar";
+          sha256 = "1yy034fx86wn6yv4671fybc4zn5g619zcnnfvryq6zpwibj6fikz";
         };
         packageRequires = [ emacs ];
         meta = {
