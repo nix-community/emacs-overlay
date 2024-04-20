@@ -1060,10 +1060,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.4.0.20240418.161148";
+        version = "1.5.0.20240419.130931";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.4.0.20240418.161148.tar";
-          sha256 = "13jjmcxf1k20s046myvbc3fw63gb0ln5ppp0gc3y7dm2qypv1d9p";
+          url = "https://elpa.gnu.org/devel/consult-1.5.0.20240419.130931.tar";
+          sha256 = "02hzl2hrvsf7hs5nhpmk5xrbp865b8lxb15a4vizb16yyyr03wad";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1909,10 +1909,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240418.233930";
+        version = "1.17.0.20240419.202138";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240418.233930.tar";
-          sha256 = "0s13cwl9w5mbpwg9n5hg8b6ygjnnplfhqg07ffm087n18scwdywn";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240419.202138.tar";
+          sha256 = "1amyyglwsy3chxl0b6dzvlrr9m7v83a75nlsp7y1f76k6pg7fj3q";
         };
         packageRequires = [
           eldoc
@@ -2179,10 +2179,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20240407.125921";
+        version = "5.6snapshot0.20240419.135452";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240407.125921.tar";
-          sha256 = "1qc73h7lldnb1s3q8lnfna68mi26hqyx64dbk7lz8pfx28cq8kls";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240419.135452.tar";
+          sha256 = "1yx1k6r6fg77r6h7bvi1v205mnxmw8qjqr96k4dh73a7ik972vmh";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4393,10 +4393,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240415.111950";
+        version = "9.7pre0.20240419.130644";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240415.111950.tar";
-          sha256 = "1zifjfvx0havfy13kchmk2mpv5zz1c5015cw850xzh4zjcd7ympw";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240419.130644.tar";
+          sha256 = "0wj35n2p1s49nxrhi50lz17i9wahfbbm0xmlhmnz3rj3g7z8s3sf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5196,10 +5196,10 @@
       elpaBuild {
         pname = "rcirc-sqlite";
         ename = "rcirc-sqlite";
-        version = "1.0.0.0.20240416.152833";
+        version = "1.0.0.0.20240419.100326";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/rcirc-sqlite-1.0.0.0.20240416.152833.tar";
-          sha256 = "0bw0mzjvy04m2598ppnk6pk6vfiyirv2pf13akj2h49jw31dbj3l";
+          url = "https://elpa.gnu.org/devel/rcirc-sqlite-1.0.0.0.20240419.100326.tar";
+          sha256 = "09kygzjmyk80nq4wzxw5543kz9h92pjqh99xfxi6sfwgsvgx4s9m";
         };
         packageRequires = [ emacs ];
         meta = {

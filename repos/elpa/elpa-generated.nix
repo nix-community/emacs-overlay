@@ -937,10 +937,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.4";
+        version = "1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-1.4.tar";
-          sha256 = "1sj1i8sd9a171z2a1fjhxkxk6j7n7jjrsxzh7g1s7ixfcinhjhkv";
+          url = "https://elpa.gnu.org/packages/consult-1.5.tar";
+          sha256 = "1gx4cjrcaq5dn3rrd2dm30jz07zrnddf0y33qi0dmiqlsyg7l9qw";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4004,10 +4004,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.6.26";
+        version = "9.6.27";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.6.26.tar";
-          sha256 = "1d3gs1yrpy7axga1l00p70dbikvw4wyqiy1i033974kk7xymr0fa";
+          url = "https://elpa.gnu.org/packages/org-9.6.27.tar";
+          sha256 = "1mahyic9kvwi4yqq127dw1hf6bd1i4dx8g8hi26jymm28f2mbmjx";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6223,7 +6223,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "1rsb0qaipnl6lgcy1hjfsahkh06zlnp5an1cm2b8mykhhdxpwvpf";
+          sha256 = "0ypwphh03f4a99pn4an8h373hya1bakispxfxdhydnz59g9fh7f7";
         };
         packageRequires = [];
         meta = {
