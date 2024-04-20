@@ -1909,10 +1909,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240419.202138";
+        version = "1.17.0.20240420.73234";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240419.202138.tar";
-          sha256 = "1amyyglwsy3chxl0b6dzvlrr9m7v83a75nlsp7y1f76k6pg7fj3q";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240420.73234.tar";
+          sha256 = "0yd16bvhgniih6g0kybkc9129is6lgj8anmss91kp9m2ig54snxn";
         };
         packageRequires = [
           eldoc
@@ -3555,10 +3555,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.10pre0.20240403.221149";
+        version = "0.10pre0.20240419.165028";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240403.221149.tar";
-          sha256 = "0xqr13ygzlrmyfp1l11m3v7y2xcp0y5xsihiw1s3466mba94imv7";
+          url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240419.165028.tar";
+          sha256 = "1bmjnigb4ly14i3n7wgd0jx4k0g06cf2n3dapfdwlv80bi57x20a";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
@@ -6449,10 +6449,10 @@
       elpaBuild {
         pname = "track-changes";
         ename = "track-changes";
-        version = "1.1.0.20240417.105711";
+        version = "1.1.0.20240419.221900";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/track-changes-1.1.0.20240417.105711.tar";
-          sha256 = "177rjj4asajcq5zbdc64igvxjsv18mhh1jxsnsvndc777bfvvsix";
+          url = "https://elpa.gnu.org/devel/track-changes-1.1.0.20240419.221900.tar";
+          sha256 = "16xvkp3fq89jbf87phk6yl9cbfmmgb8r376hh08kwrsmbpaz6bd2";
         };
         packageRequires = [ emacs ];
         meta = {
