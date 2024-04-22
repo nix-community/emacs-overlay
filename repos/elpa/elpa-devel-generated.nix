@@ -1315,10 +1315,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.10.0.0.20240420.223450";
+        version = "0.10.0.0.20240421.145056";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240420.223450.tar";
-          sha256 = "1qs8xacc6s4havd7n4q4an6fxkkgnk1zkyn7qdcdd236gkxchp1j";
+          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240421.145056.tar";
+          sha256 = "1lalkc76z97kii4119q84iky1fj8dqcz399bgz0crdycp2d62dff";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -2128,10 +2128,10 @@
       elpaBuild {
         pname = "engrave-faces";
         ename = "engrave-faces";
-        version = "0.3.1.0.20230115.70118";
+        version = "0.3.1.0.20240421.82802";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/engrave-faces-0.3.1.0.20230115.70118.tar";
-          sha256 = "03nvncp1g759mh6fn4jzbhzr7whqybp3xs7jib310g88v2803q1l";
+          url = "https://elpa.gnu.org/devel/engrave-faces-0.3.1.0.20240421.82802.tar";
+          sha256 = "0dxj9m9jyvrqhv67m2kkh0akjc7l6h40fvsy20k721zq9xvc6zkl";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4393,10 +4393,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240420.121911";
+        version = "9.7pre0.20240421.115937";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240420.121911.tar";
-          sha256 = "18iqcqnjlf2njxrzlxiwlb5wisb52zg9ry3lji0v8dghr9kahvhm";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240421.115937.tar";
+          sha256 = "04c1aadscjdc4fmvr3gq6c6i5nh5384nrhx9fgja1b3piz9sc6f4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4823,10 +4823,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.8pre0.20240331.105734";
+        version = "0.8pre0.20240421.63707";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/plz-0.8pre0.20240331.105734.tar";
-          sha256 = "0i8ifbcmqrl0r9agl1gysd4zzqn46pan47cww6y15ah47y1nbqrq";
+          url = "https://elpa.gnu.org/devel/plz-0.8pre0.20240421.63707.tar";
+          sha256 = "15pnvk55xlldad2x211hhc3g4c7n0w8hff941vdxjimww5rk2rky";
         };
         packageRequires = [ emacs ];
         meta = {
