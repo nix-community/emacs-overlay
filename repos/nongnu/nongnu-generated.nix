@@ -541,10 +541,10 @@
       elpaBuild {
         pname = "cycle-at-point";
         ename = "cycle-at-point";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/cycle-at-point-0.1.tar";
-          sha256 = "0rw0l19ymsf4aykgmqvdhzfimrjz4m880h5rcc84br2rmr23q9kq";
+          url = "https://elpa.nongnu.org/nongnu/cycle-at-point-0.2.tar";
+          sha256 = "1q3gylksr754s0pl8x1hdk0q4p0vz6lnasswgsqpx44nmnbsrw6z";
         };
         packageRequires = [ emacs recomplete ];
         meta = {
