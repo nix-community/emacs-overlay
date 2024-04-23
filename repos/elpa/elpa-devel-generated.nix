@@ -1315,10 +1315,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.10.0.0.20240421.145056";
+        version = "0.10.0.0.20240422.182145";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240421.145056.tar";
-          sha256 = "1lalkc76z97kii4119q84iky1fj8dqcz399bgz0crdycp2d62dff";
+          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240422.182145.tar";
+          sha256 = "0345lcrbm021s16kan3dxr4zz2nyijp7z7ap5563d0a0hkfz8h14";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1621,10 +1621,10 @@
       elpaBuild {
         pname = "dired-preview";
         ename = "dired-preview";
-        version = "0.1.1.0.20240413.104549";
+        version = "0.1.1.0.20240422.73636";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dired-preview-0.1.1.0.20240413.104549.tar";
-          sha256 = "1j96vgbbnv9ggwi4lm1xx1kspj5jb5xh80qc6gqsxdbghph1micn";
+          url = "https://elpa.gnu.org/devel/dired-preview-0.1.1.0.20240422.73636.tar";
+          sha256 = "1mzfvv40k16d197ks2i2qsdf543qd3dbk3nmla5cxvqr7r7jxwwx";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1732,10 +1732,10 @@
       elpaBuild {
         pname = "drepl";
         ename = "drepl";
-        version = "0.2.0.20240417.185158";
+        version = "0.2.0.20240421.84519";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/drepl-0.2.0.20240417.185158.tar";
-          sha256 = "1f3sxdc5vc90rdg3f5i3sca7df0jhwdp2170jwx9mbc53fdzir37";
+          url = "https://elpa.gnu.org/devel/drepl-0.2.0.20240421.84519.tar";
+          sha256 = "1kxxj0dd9yj168gaq89hm1sqajv8p8y7mgpqrxsqbz2hg6p568af";
         };
         packageRequires = [ comint-mime emacs ];
         meta = {
@@ -1884,10 +1884,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.6.1.0.20240416.54414";
+        version = "1.6.1.0.20240422.125944";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.6.1.0.20240416.54414.tar";
-          sha256 = "1cx4a3kqw5qcvnmmll61qgwfasbyynyc6w0nnvwd0m1k6g3ns6b9";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.6.1.0.20240422.125944.tar";
+          sha256 = "0zkirykdlvpr2arnj88kf4z383mrm9526mvskc284kzcwj9q3d1l";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2432,10 +2432,10 @@
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.3.7.0.20240418.90833";
+        version = "1.3.7.0.20240422.65418";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20240418.90833.tar";
-          sha256 = "0vgcwxq7xvvias4f9631hygdv0rbn4c99j8g0hzmjxfaghs9l0gi";
+          url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20240422.65418.tar";
+          sha256 = "0gq3x3ssvsccwjajd3w835dd1zvlakj7gxdn6b1fqj46rkyi60vw";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
@@ -4393,10 +4393,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240421.115937";
+        version = "9.7pre0.20240422.192049";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240421.115937.tar";
-          sha256 = "04c1aadscjdc4fmvr3gq6c6i5nh5384nrhx9fgja1b3piz9sc6f4";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240422.192049.tar";
+          sha256 = "0kck2rj6k67isfwccx4whjv64mlpmkgfk6mi0328vsv45cy9fxra";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5196,10 +5196,10 @@
       elpaBuild {
         pname = "rcirc-sqlite";
         ename = "rcirc-sqlite";
-        version = "1.0.0.0.20240419.100326";
+        version = "1.0.1.0.20240422.191938";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/rcirc-sqlite-1.0.0.0.20240419.100326.tar";
-          sha256 = "09kygzjmyk80nq4wzxw5543kz9h92pjqh99xfxi6sfwgsvgx4s9m";
+          url = "https://elpa.gnu.org/devel/rcirc-sqlite-1.0.1.0.20240422.191938.tar";
+          sha256 = "1nspv7qgwzjpy9jsgh3m75iimy8piicimv9r82ahm5vrpaxkwg3p";
         };
         packageRequires = [ emacs ];
         meta = {

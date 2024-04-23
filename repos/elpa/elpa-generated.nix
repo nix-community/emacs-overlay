@@ -4679,10 +4679,10 @@
       elpaBuild {
         pname = "rcirc-sqlite";
         ename = "rcirc-sqlite";
-        version = "1.0.0";
+        version = "1.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rcirc-sqlite-1.0.0.tar";
-          sha256 = "1xnzbjp31vc77a70jsb74587jkjpwb1b5w1djbymwy173l44jx8r";
+          url = "https://elpa.gnu.org/packages/rcirc-sqlite-1.0.1.tar";
+          sha256 = "0n0492s500gplmv7l8n8l7s3rpm1nli3n706n9f91qc15z6p6mcv";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6223,7 +6223,7 @@
         version = "2024.3.1.121933719";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/verilog-mode-2024.3.1.121933719.tar";
-          sha256 = "1cqa0m6kxrywpxgxn1yfrpblnfc228c7b4gx9ldz536sfr79p14v";
+          sha256 = "1qxflgzl2n84n1hvxsl32nzdq5y6xjp81whvirddm2f5ycswzz39";
         };
         packageRequires = [];
         meta = {
