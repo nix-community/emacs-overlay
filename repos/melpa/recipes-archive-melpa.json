@@ -13110,16 +13110,16 @@
   "repo": "pprevos/citar-denote",
   "unstable": {
    "version": [
-    20240422,
-    2118
+    20240424,
+    839
    ],
    "deps": [
     "citar",
     "dash",
     "denote"
    ],
-   "commit": "089d821a50339641d81ee9a3a06907d1aef227cd",
-   "sha256": "0b0p91818mb0xpnq6g4lggcg3f25x3zp7m64y191iwi92mpxcviv"
+   "commit": "35c3a2f108190f93f60aae480d244aab5920d83c",
+   "sha256": "087m5lq17hkrdqnrphmcfbxdnjfvbk2h1mg0ba2s0lcxbi8hvz14"
   },
   "stable": {
    "version": [
@@ -21289,8 +21289,8 @@
   "repo": "emacs-lsp/dap-mode",
   "unstable": {
    "version": [
-    20240406,
-    2116
+    20240424,
+    1359
    ],
    "deps": [
     "bui",
@@ -21303,8 +21303,8 @@
     "posframe",
     "s"
    ],
-   "commit": "71c2e5a3734debe265c0de11531bf1d1351f7483",
-   "sha256": "177ira42l1p7zjb24c0vp4biip9sczlvbgzfahp4mhgfd9h8a6bx"
+   "commit": "22af181d627577968f03213ba59d02458d3e734a",
+   "sha256": "1q360xhnmfnjgrkmzq69p2wc0rphz7fsbjzgn3hjw0a8kv3jsq0y"
   },
   "stable": {
    "version": [
@@ -27573,28 +27573,28 @@
   "repo": "joostkremers/ebib",
   "unstable": {
    "version": [
-    20240305,
-    752
+    20240424,
+    1254
    ],
    "deps": [
     "compat",
     "parsebib"
    ],
-   "commit": "3d7b09606a04cd4c8236e290e709b56872148bc8",
-   "sha256": "1ga8zzzqs6vrjzm6jily37jyzpq4vsgh49vxy8a68399bdl90s77"
+   "commit": "3458aa7777e0acf883b17008da78788c62d9a337",
+   "sha256": "1ylq4l044rals7xbf8rcx97gz84kypksl2fs5xwin2rc6rvpli8d"
   },
   "stable": {
    "version": [
     2,
-    40,
-    5
+    41,
+    1
    ],
    "deps": [
     "compat",
     "parsebib"
    ],
-   "commit": "3d7b09606a04cd4c8236e290e709b56872148bc8",
-   "sha256": "1ga8zzzqs6vrjzm6jily37jyzpq4vsgh49vxy8a68399bdl90s77"
+   "commit": "3458aa7777e0acf883b17008da78788c62d9a337",
+   "sha256": "1ylq4l044rals7xbf8rcx97gz84kypksl2fs5xwin2rc6rvpli8d"
   }
  },
  {
@@ -28687,30 +28687,30 @@
   "repo": "mekeor/emacs-eglot-signature-eldoc-talkative",
   "unstable": {
    "version": [
-    20240209,
-    2034
+    20240424,
+    801
    ],
    "deps": [
     "eglot",
     "eldoc",
     "jsonrpc"
    ],
-   "commit": "b6604648a2ea5d260fa315ffbaebebbf3872343a",
-   "sha256": "1fs868ddrb0fbgrk4wqk9jc1fyg3jcr6mfzrp65ypi5vdcx9y0kl"
+   "commit": "859aa6f2c0acf060a8e7549b79daf46c8d63ea8d",
+   "sha256": "1s44kz9b2b61f5gy922rvzv1kpmx62chvdsnb1g785skdhfdzb6v"
   },
   "stable": {
    "version": [
     0,
     0,
-    6
+    7
    ],
    "deps": [
     "eglot",
     "eldoc",
     "jsonrpc"
    ],
-   "commit": "b6604648a2ea5d260fa315ffbaebebbf3872343a",
-   "sha256": "1fs868ddrb0fbgrk4wqk9jc1fyg3jcr6mfzrp65ypi5vdcx9y0kl"
+   "commit": "859aa6f2c0acf060a8e7549b79daf46c8d63ea8d",
+   "sha256": "1s44kz9b2b61f5gy922rvzv1kpmx62chvdsnb1g785skdhfdzb6v"
   }
  },
  {
