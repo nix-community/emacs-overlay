@@ -1909,10 +1909,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240420.73234";
+        version = "1.17.0.20240423.182809";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240420.73234.tar";
-          sha256 = "0yd16bvhgniih6g0kybkc9129is6lgj8anmss91kp9m2ig54snxn";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240423.182809.tar";
+          sha256 = "129ibvdqcv7jablim041x55vm4awyvcjk295nrrffryzbb75fgi9";
         };
         packageRequires = [
           eldoc
@@ -4393,10 +4393,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240422.192049";
+        version = "9.7pre0.20240423.113052";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240422.192049.tar";
-          sha256 = "0kck2rj6k67isfwccx4whjv64mlpmkgfk6mi0328vsv45cy9fxra";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240423.113052.tar";
+          sha256 = "1f5rw33b7nqkrraiwg8kpq3mmwq4k1ly741pfhppgsl6k4qjdhid";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6935,10 +6935,10 @@
       elpaBuild {
         pname = "verilog-mode";
         ename = "verilog-mode";
-        version = "2024.3.1.121933719.0.20240314.104026";
+        version = "2024.3.1.121933719.0.20240301.121107";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/verilog-mode-2024.3.1.121933719.0.20240314.104026.tar";
-          sha256 = "1s82w382a63bq93wjrravi30ma56svrnrm04jmxfjrsa2bizbz0c";
+          url = "https://elpa.gnu.org/devel/verilog-mode-2024.3.1.121933719.0.20240301.121107.tar";
+          sha256 = "0f4767yixzbc9jbc3np36gs2zzxbncksmr54b3ngxw5h2ca6c7qp";
         };
         packageRequires = [];
         meta = {
