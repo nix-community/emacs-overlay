@@ -12974,11 +12974,11 @@
   "repo": "guidoschmidt/circadian.el",
   "unstable": {
    "version": [
-    20240424,
-    2208
+    20240425,
+    712
    ],
-   "commit": "b5efc25151ac844b57f2cc8de6af071c8b2d8944",
-   "sha256": "0z684i9b4x1qwlg4h3snrb9rfxwh6zns4ymf5l1cpga3ksmyls2y"
+   "commit": "33e621ae3b3a0688bf103b8a1eecb37d200176a6",
+   "sha256": "1hjr489vdxs3lvcyzl6sjz5fifxjy426v8s1b2jx7l98vwi059pp"
   },
   "stable": {
    "version": [
@@ -38703,11 +38703,20 @@
   "repo": "technomancy/fennel-mode",
   "unstable": {
    "version": [
-    20240313,
-    32
+    20240425,
+    129
    ],
-   "commit": "4cdf20b673ed1eb14342d7a470ef75cbe165b0c4",
-   "sha256": "1hvmcnagrz4zwzadsx406hw0gsn66h5rd5y4891pkc260bi8mcyc"
+   "commit": "dd7a320b1582b726d011f4fca24d36614b5ffba8",
+   "sha256": "0f19c55slndp0vdhbwx7s2cz54a26vvyy7knxd2nrhl6wnrazhma"
+  },
+  "stable": {
+   "version": [
+    0,
+    9,
+    1
+   ],
+   "commit": "1ce807cc664cb209afa0e0331d4d2f0cdbc09f78",
+   "sha256": "0dh50nkfxfiqyf19lfqnbfdpd8xf23q38axfli60d0vcix9nhxpv"
   }
  },
  {
@@ -48034,11 +48043,11 @@
   "repo": "emacsorphanage/git-gutter",
   "unstable": {
    "version": [
-    20220922,
-    256
+    20240425,
+    647
    ],
-   "commit": "ec28e85d237065cb3c28db4b66d129da6d309f9c",
-   "sha256": "1fx3jp65ibcsv8akd8g4k701cs8yq0sg1bd2qszzfh6lvc4pblmi"
+   "commit": "9afe45b41a82a332606d3e70ef85d323d27b9e4f",
+   "sha256": "04y6aj588068hr6xnyb15g38q9n3w01zh2r525ljmzvrry2lai7y"
   },
   "stable": {
    "version": [
@@ -113590,11 +113599,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20240418,
-    100
+    20240425,
+    103
    ],
-   "commit": "dfb600167dae95068d94e0c990fff77d235928d2",
-   "sha256": "11gx5kclbv9zf4lrhd8vfgvb8rslm75kvcq9gpx6nl6c5cs0kwrc"
+   "commit": "28801aa911d43bb0b2545f83781a3c629266fd72",
+   "sha256": "15a26n645snjr92vp46pyv1pbkskb8arvvfb6hi8sy8m4vxc1bm3"
   }
  },
  {
@@ -120801,26 +120810,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20240422,
-    2133
+    20240425,
+    231
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "ccb5529406fe2a1f9e54d6425ebf4931cd4c59c7",
-   "sha256": "19s4lpdm0g62cyiag1jnl3fhs9hvsvcx488kpl4j2s1m9dlddliy"
+   "commit": "ace4624f78ddb6c29e4efa904c6dd8636fad53fe",
+   "sha256": "1kaklazmr26gh6ff8p7r2xs1pc40ajwlhhinsbnl52prz3bc7702"
   },
   "stable": {
    "version": [
     0,
     12,
-    180
+    181
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "ccb5529406fe2a1f9e54d6425ebf4931cd4c59c7",
-   "sha256": "19s4lpdm0g62cyiag1jnl3fhs9hvsvcx488kpl4j2s1m9dlddliy"
+   "commit": "ace4624f78ddb6c29e4efa904c6dd8636fad53fe",
+   "sha256": "1kaklazmr26gh6ff8p7r2xs1pc40ajwlhhinsbnl52prz3bc7702"
   }
  },
  {
