@@ -2592,10 +2592,10 @@
       elpaBuild {
         pname = "gtags-mode";
         ename = "gtags-mode";
-        version = "1.4";
+        version = "1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gtags-mode-1.4.tar";
-          sha256 = "0aifmn1ayli438cfj23w0jl2b7phvby7z34cpgwxmm2qq3k5m4m6";
+          url = "https://elpa.gnu.org/packages/gtags-mode-1.5.tar";
+          sha256 = "15jmynzm2xrvb410vka3jzzdcxbsm3vkihz27yzym708jb0bd8ji";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6235,10 +6235,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.7";
+        version = "1.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-1.7.tar";
-          sha256 = "042bnvmdx9f8cmllan3ydq28r7j05dhcj8ccmr33smq2hamiq0nr";
+          url = "https://elpa.gnu.org/packages/vertico-1.8.tar";
+          sha256 = "0k6sfla0183vyjf2yd9sycck9nxz0x659kygxgiaip3zq7f9zkg8";
         };
         packageRequires = [ compat emacs ];
         meta = {

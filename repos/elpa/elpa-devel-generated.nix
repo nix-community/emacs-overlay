@@ -341,17 +341,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild
-                          , emacs
-                          , fetchurl
-                          , lib }:
+    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.4.0.20240423.155206";
+        version = "14.0.4.0.20240425.64855";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240423.155206.tar";
-          sha256 = "07xwv8b155b6pzza1dxd8r4f79gnfnhlrz0yiv37iifd8ksfndvc";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240425.64855.tar";
+          sha256 = "1k8n9scgibpc79gcxikxvb02zl5yh8r35x61qp54rkk9y2q1c0z3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1286,10 +1283,10 @@
       elpaBuild {
         pname = "cursory";
         ename = "cursory";
-        version = "1.0.1.0.20240117.23936";
+        version = "1.0.1.0.20240425.35714";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cursory-1.0.1.0.20240117.23936.tar";
-          sha256 = "0kacq56m83ms5wd8dgba5pw9mjjnx8pffnx80dp8caybsq91vj64";
+          url = "https://elpa.gnu.org/devel/cursory-1.0.1.0.20240425.35714.tar";
+          sha256 = "0bm381nbrnh4j0pq1a53whsbs0mjvznr9mp0ymhxw8w935cvbl72";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1318,10 +1315,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.10.0.0.20240422.182145";
+        version = "0.10.0.0.20240424.204207";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240422.182145.tar";
-          sha256 = "0345lcrbm021s16kan3dxr4zz2nyijp7z7ap5563d0a0hkfz8h14";
+          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240424.204207.tar";
+          sha256 = "0ry83cg9grpf6b8w1vpnib0d4rbvw8s17lfwmy566r8avynzgmg1";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -2858,10 +2855,10 @@
       elpaBuild {
         pname = "gtags-mode";
         ename = "gtags-mode";
-        version = "1.4.0.20240424.181514";
+        version = "1.5.0.20240425.21931";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/gtags-mode-1.4.0.20240424.181514.tar";
-          sha256 = "17pjcmzsp4f6brilzbi8sz9nyg2q4d1dxikvszh1h49z2vh1j5a7";
+          url = "https://elpa.gnu.org/devel/gtags-mode-1.5.0.20240425.21931.tar";
+          sha256 = "13gdalm2n75yifpfy2wsbf47l6q4rklvd4akszn423nmcl9bnb8x";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6953,10 +6950,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.7.0.20240423.45133";
+        version = "1.8.0.20240424.195903";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.7.0.20240423.45133.tar";
-          sha256 = "08hh7xqip3lxr1llmin328waqh0miq9z070m98fw6glf7gkqb8bk";
+          url = "https://elpa.gnu.org/devel/vertico-1.8.0.20240424.195903.tar";
+          sha256 = "0yhk9cp3qlan2vci31an1d3c4mqz2ckbs7xhs12qk6vich66yshk";
         };
         packageRequires = [ compat emacs ];
         meta = {
