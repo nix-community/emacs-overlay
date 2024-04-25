@@ -1274,7 +1274,7 @@
         version = "1.2.0";
         src = fetchurl {
           url = "https://elpa.gnu.org/packages/denote-menu-1.2.0.tar";
-          sha256 = "1zm68bz6hya360g5zvs4r5naznykamgzqxhvfhpfyxb70hsnmx5w";
+          sha256 = "042avabc97wgkz85x40dq7rmv4h9n5kmq935lrg9s20klbs9axs1";
         };
         packageRequires = [ denote emacs ];
         meta = {
@@ -2592,10 +2592,10 @@
       elpaBuild {
         pname = "gtags-mode";
         ename = "gtags-mode";
-        version = "1.2";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gtags-mode-1.2.tar";
-          sha256 = "01v583wi8abya7f895rc665d02ykxq9jrqwin5kp1hgzx3ibyg56";
+          url = "https://elpa.gnu.org/packages/gtags-mode-1.4.tar";
+          sha256 = "0aifmn1ayli438cfj23w0jl2b7phvby7z34cpgwxmm2qq3k5m4m6";
         };
         packageRequires = [ emacs ];
         meta = {

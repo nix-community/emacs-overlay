@@ -341,14 +341,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    auctex = callPackage ({ elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.4.0.20240418.94233";
+        version = "14.0.4.0.20240423.155206";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240418.94233.tar";
-          sha256 = "0k3r8f0wm09i3a3qn97hl1f731nrz2v31q6bdwnc3iw2r9xqdkwb";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240423.155206.tar";
+          sha256 = "07xwv8b155b6pzza1dxd8r4f79gnfnhlrz0yiv37iifd8ksfndvc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1430,7 +1433,7 @@
         version = "1.2.0.0.20230927.131718";
         src = fetchurl {
           url = "https://elpa.gnu.org/devel/denote-menu-1.2.0.0.20230927.131718.tar";
-          sha256 = "1hm13sg6sif4620c78vma9qdgkpak0v1k3hfc35c946vzv8399x8";
+          sha256 = "0pq8k2aif60y22sjxs6d4vlf43fqlizs1zlk3wrd1k52sn2dkgxp";
         };
         packageRequires = [ denote emacs ];
         meta = {
@@ -1884,10 +1887,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.6.1.0.20240422.125944";
+        version = "1.6.1.0.20240424.80807";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.6.1.0.20240422.125944.tar";
-          sha256 = "0zkirykdlvpr2arnj88kf4z383mrm9526mvskc284kzcwj9q3d1l";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.6.1.0.20240424.80807.tar";
+          sha256 = "03zj02a1cvvflv4x9n8pi76bfbic4z13a13iavg0nybknhf1hi7r";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2855,10 +2858,10 @@
       elpaBuild {
         pname = "gtags-mode";
         ename = "gtags-mode";
-        version = "1.2.0.20240416.183157";
+        version = "1.4.0.20240424.181514";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/gtags-mode-1.2.0.20240416.183157.tar";
-          sha256 = "1la9pb32ywyh3i0nmx3xpy6is9yrw7646sfk373apivsj5k0js9z";
+          url = "https://elpa.gnu.org/devel/gtags-mode-1.4.0.20240424.181514.tar";
+          sha256 = "17pjcmzsp4f6brilzbi8sz9nyg2q4d1dxikvszh1h49z2vh1j5a7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4393,10 +4396,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240423.113052";
+        version = "9.7pre0.20240424.130438";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240423.113052.tar";
-          sha256 = "1f5rw33b7nqkrraiwg8kpq3mmwq4k1ly741pfhppgsl6k4qjdhid";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240424.130438.tar";
+          sha256 = "1hmz65hj3xjl194zjvp1na0rzxwxfcki3x3r15qg0j8nk38mzy0v";
         };
         packageRequires = [ emacs ];
         meta = {
