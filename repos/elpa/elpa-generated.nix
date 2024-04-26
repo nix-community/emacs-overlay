@@ -4364,10 +4364,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.7.3";
+        version = "0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/plz-0.7.3.tar";
-          sha256 = "0wn2i3q9m74gm9by1jc449jxjkv75nzc0am4ngk40ry4hxf057n3";
+          url = "https://elpa.gnu.org/packages/plz-0.8.tar";
+          sha256 = "0kg275kq5hi83ry0n83w8pi0qn2lmlv9gnxcbwf1dcqk7n9i2v64";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4454,10 +4454,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "1.4.2";
+        version = "1.4.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/posframe-1.4.2.tar";
-          sha256 = "1rdqqfjmsp91a3ggimylc4is5gil6797l7xn4l7xrzqbddvkpxk7";
+          url = "https://elpa.gnu.org/packages/posframe-1.4.3.tar";
+          sha256 = "1kw37dhyd6qxj0h2qpzi539jrgc0pj90psf2k58z4jc9199bgsax";
         };
         packageRequires = [ emacs ];
         meta = {

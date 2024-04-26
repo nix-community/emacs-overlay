@@ -1411,10 +1411,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240421.63713";
+        version = "2.3.5.0.20240426.52601";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240421.63713.tar";
-          sha256 = "1ac1hz9gx1za25v948m27k9v8sg8g94m6p78yhav1wn5lp1dby53";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240426.52601.tar";
+          sha256 = "1f0wvb62f13bfbvxlgl8dymf88iy1k16gajym3jija2q3lqpr34h";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4826,10 +4826,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.8pre0.20240421.63707";
+        version = "0.8.0.20240425.201348";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/plz-0.8pre0.20240421.63707.tar";
-          sha256 = "15pnvk55xlldad2x211hhc3g4c7n0w8hff941vdxjimww5rk2rky";
+          url = "https://elpa.gnu.org/devel/plz-0.8.0.20240425.201348.tar";
+          sha256 = "00kprdnnz584fa2r8mkn4wzyk4fyxgn5d22z6s5c6lag0il1bjvc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4939,10 +4939,10 @@
       elpaBuild {
         pname = "posframe";
         ename = "posframe";
-        version = "1.4.2.0.20240415.60653";
+        version = "1.4.3.0.20240426.60433";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/posframe-1.4.2.0.20240415.60653.tar";
-          sha256 = "08n6jrhg8igfq7iavs4hfnlb4id9n83j7wirldqwzaqvqxc5fr63";
+          url = "https://elpa.gnu.org/devel/posframe-1.4.3.0.20240426.60433.tar";
+          sha256 = "1j5l16z765wz5qs1x49vpkmj1cbxbsa69wlrf19r4qc7b6gijzm5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7053,10 +7053,10 @@
       elpaBuild {
         pname = "vundo";
         ename = "vundo";
-        version = "2.3.0.0.20240420.153413";
+        version = "2.3.0.0.20240425.211317";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vundo-2.3.0.0.20240420.153413.tar";
-          sha256 = "177kw2jjvd8nwyrqbkv674v38ab6fqb9zfymsdnrb42qsigbwn1w";
+          url = "https://elpa.gnu.org/devel/vundo-2.3.0.0.20240425.211317.tar";
+          sha256 = "0dif9f3s3igpfi0r4dgzy14g8m6xf1g6lqyc0gfzf40n301iw4kz";
         };
         packageRequires = [ emacs ];
         meta = {
