@@ -6303,10 +6303,10 @@
       elpaBuild {
         pname = "visual-fill";
         ename = "visual-fill";
-        version = "0.1";
+        version = "0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/visual-fill-0.1.el";
-          sha256 = "1y4xqcr1am74y9jy7kdkjigvx7h3208si5lm4p6a0kzxa3xizhvx";
+          url = "https://elpa.gnu.org/packages/visual-fill-0.2.tar";
+          sha256 = "00r3cclhrdx5y0h1p1rrx5psvc8d95dayzpjdsy9xj44i8pcnvja";
         };
         packageRequires = [];
         meta = {

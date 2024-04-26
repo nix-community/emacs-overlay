@@ -341,14 +341,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    auctex = callPackage ({ elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.4.0.20240425.64855";
+        version = "14.0.4.0.20240425.125936";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240425.64855.tar";
-          sha256 = "1k8n9scgibpc79gcxikxvb02zl5yh8r35x61qp54rkk9y2q1c0z3";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240425.125936.tar";
+          sha256 = "0wm56bwzl7fnx3bd2lji82myqlq59j6qvih00n0h5dabfvxq63rk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1621,10 +1624,10 @@
       elpaBuild {
         pname = "dired-preview";
         ename = "dired-preview";
-        version = "0.1.1.0.20240422.73636";
+        version = "0.1.1.0.20240425.180328";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dired-preview-0.1.1.0.20240422.73636.tar";
-          sha256 = "1mzfvv40k16d197ks2i2qsdf543qd3dbk3nmla5cxvqr7r7jxwwx";
+          url = "https://elpa.gnu.org/devel/dired-preview-0.1.1.0.20240425.180328.tar";
+          sha256 = "1wn8k1wr126nw22sczjrhkxwsjnbhr08ym01sy8d4422wif0l4as";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7020,10 +7023,10 @@
       elpaBuild {
         pname = "visual-fill";
         ename = "visual-fill";
-        version = "0.1.0.20201201.173845";
+        version = "0.2.0.20240424.95324";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/visual-fill-0.1.0.20201201.173845.tar";
-          sha256 = "1rg87qkvq9ca3f6srcgb6bs9ih9vdlqyk9cm5wy511zw43c9999f";
+          url = "https://elpa.gnu.org/devel/visual-fill-0.2.0.20240424.95324.tar";
+          sha256 = "1vgfa29gl4rh6gx08r1imlabznrlmx21p41ns62w9lxi6y8hzf8y";
         };
         packageRequires = [];
         meta = {
