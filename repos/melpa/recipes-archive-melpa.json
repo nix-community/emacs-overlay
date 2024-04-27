@@ -87648,8 +87648,8 @@
   "repo": "kidd/org-gcal.el",
   "unstable": {
    "version": [
-    20221212,
-    1817
+    20240426,
+    2253
    ],
    "deps": [
     "aio",
@@ -87660,8 +87660,8 @@
     "request",
     "request-deferred"
    ],
-   "commit": "9bb3720525ad1c45823abab8ce910dd1225e7dcd",
-   "sha256": "0b7i1xc21vsjcvbkakkgzhidnypc5anmb9mdkh9mab09d7kxkbc7"
+   "commit": "9f9d93e4f0d5863b1318e9e702e1ee6e841c2649",
+   "sha256": "1v0mq8fh3d0az6w9bgn599l8rmns741j92iw0fskarfyfyn63z57"
   },
   "stable": {
    "version": [
@@ -111178,27 +111178,25 @@
   "repo": "slime/slime",
   "unstable": {
    "version": [
-    20240425,
-    2023
+    20240427,
+    406
    ],
    "deps": [
     "macrostep"
    ],
-   "commit": "3cdc647daad38cc65ee4f95ea0ef31f8bbc7cd64",
-   "sha256": "0b9ih2lhwsffz24jd7psfyqk109ri64nag9q40rc9fyh2nq6wq89"
+   "commit": "c2e45e7004743fdd8620e2fea67f30a17b6a558a",
+   "sha256": "1f8i31b2b21v5r0awahhjqn499agalqnzy8lyp3wj91r0pbsqn1f"
   },
   "stable": {
    "version": [
     2,
-    29,
-    1
+    30
    ],
    "deps": [
-    "cl-lib",
     "macrostep"
    ],
-   "commit": "d85dd9899f7524513c8ad1bd47b0dd248b1915cb",
-   "sha256": "10as5qz1f838rqf0jkd28zlz0sahls5rzpbx3mw48k2vgkjl24z6"
+   "commit": "ef2af895a9e79306f0789e72b101aa39e960c900",
+   "sha256": "0qb7m65gq0mbxfrdppkh3k4jn13i14i07ziga4r8b3rmrxhrmlv0"
   }
  },
  {
