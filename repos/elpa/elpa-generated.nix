@@ -956,10 +956,10 @@
       elpaBuild {
         pname = "consult-hoogle";
         ename = "consult-hoogle";
-        version = "0.2.0";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-hoogle-0.2.0.tar";
-          sha256 = "10wvcp582hgf7fri1xl6aa5v681x12526xnxjkxr6w280nm3m2cv";
+          url = "https://elpa.gnu.org/packages/consult-hoogle-0.2.1.tar";
+          sha256 = "15am29sn0qx6yn8xcmdafzh1ijph10yd65cphcax02yx782hv6pr";
         };
         packageRequires = [ emacs haskell-mode ];
         meta = {
@@ -6533,10 +6533,10 @@
       elpaBuild {
         pname = "wrap-search";
         ename = "wrap-search";
-        version = "4.14.10";
+        version = "4.14.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wrap-search-4.14.10.tar";
-          sha256 = "0rv785msi58ima3mfl2q0wllwibgx6kb1h7il34jr4gmlcgr0i1n";
+          url = "https://elpa.gnu.org/packages/wrap-search-4.14.11.tar";
+          sha256 = "07x6fcig69d3hmcmvpj75h605j8sfjwmd4z1yd4rb6np60dh42ff";
         };
         packageRequires = [];
         meta = {
