@@ -927,6 +927,25 @@
           license = lib.licenses.free;
         };
       }) {};
+    colorful-mode = callPackage ({ compat
+                                 , elpaBuild
+                                 , emacs
+                                 , fetchurl
+                                 , lib }:
+      elpaBuild {
+        pname = "colorful-mode";
+        ename = "colorful-mode";
+        version = "1.0.0.0.20240427.103837";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/colorful-mode-1.0.0.0.20240427.103837.tar";
+          sha256 = "1ggasm3b678rnh96l4bynlbqciwsznsrljhxsi9ifak4xb3zlg8s";
+        };
+        packageRequires = [ compat emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/colorful-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     comint-mime = callPackage ({ elpaBuild
                                , emacs
                                , fetchurl
@@ -1315,10 +1334,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.10.0.0.20240427.142238";
+        version = "0.10.0.0.20240427.232114";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240427.142238.tar";
-          sha256 = "0d2mn565l5ag023z1yqg5nj0fj0iraf5yifh54pyl6cnz7ipmcj3";
+          url = "https://elpa.gnu.org/devel/dape-0.10.0.0.20240427.232114.tar";
+          sha256 = "1811fxg0zdghx6g033k4kgbamvs7f95bd8wm9xnw8am5bih4mrc0";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1460,10 +1479,10 @@
       elpaBuild {
         pname = "devdocs";
         ename = "devdocs";
-        version = "0.6.1.0.20240329.73808";
+        version = "0.6.1.0.20240428.71147";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/devdocs-0.6.1.0.20240329.73808.tar";
-          sha256 = "1q4n5r5ki8f7qksr18w273l7qw8c38snn6d842kxwp9zg2417i8x";
+          url = "https://elpa.gnu.org/devel/devdocs-0.6.1.0.20240428.71147.tar";
+          sha256 = "0pvv4rvr14rc51gxb20zbyh42ijpq37dsmlzdsk8ypbfbgz3jw1s";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1884,10 +1903,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.6.1.0.20240427.83621";
+        version = "1.7.0.0.20240428.71635";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.6.1.0.20240427.83621.tar";
-          sha256 = "1pjq8yblcmk4mp83bqcnb154rq8dbn8qn6q394wzzwnn6kv08ay2";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240428.71635.tar";
+          sha256 = "18l6bvi9wdkz1dhl1wjy6jclfpay0xc3gn1c83mxbazjl2p3bx9v";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3008,10 +3027,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240420.120926";
+        version = "9.0.2pre0.20240427.202203";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240420.120926.tar";
-          sha256 = "1mr05p3lhz1xnivl8mqhzdw9qrh0klasjisl75gn14n7l233nir7";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240427.202203.tar";
+          sha256 = "10ya3wwcb48s3hcwgq5q4r9cpzprb1qxla1cfzc9a8wqdn8sq788";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4470,10 +4489,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.2.0.20240327.153104";
+        version = "1.2.0.20240428.74149";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.2.0.20240327.153104.tar";
-          sha256 = "0gkkcvjbjyr5h8idafc0lppjwdr84y860800ns7z894i89iy01li";
+          url = "https://elpa.gnu.org/devel/org-modern-1.2.0.20240428.74149.tar";
+          sha256 = "000hgni9rfj6psk9pjrci0lzljy6v2bwdzbvcdz0dlv6895ragqn";
         };
         packageRequires = [ compat emacs ];
         meta = {

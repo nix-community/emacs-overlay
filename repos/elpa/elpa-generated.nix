@@ -820,6 +820,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    colorful-mode = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "colorful-mode";
+        ename = "colorful-mode";
+        version = "1.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/colorful-mode-1.0.0.tar";
+          sha256 = "1gmbrb5z3rmw0fjrdymfbcx74szcy963dx53ksykvfd9355azj3x";
+        };
+        packageRequires = [ compat emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/colorful-mode.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     comint-mime = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "comint-mime";
@@ -1682,10 +1697,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.6.1";
+        version = "1.7.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ef-themes-1.6.1.tar";
-          sha256 = "0wkiqjnqnxwzskpxam44qxxz13fbpgnf17c1qrin8ad8i9b49bvq";
+          url = "https://elpa.gnu.org/packages/ef-themes-1.7.0.tar";
+          sha256 = "0d6rpwk1z9sc1yzfc4d4icb43pqwvdfvqap1m4r4aajvc5kasq1v";
         };
         packageRequires = [ emacs ];
         meta = {
