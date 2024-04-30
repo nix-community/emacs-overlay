@@ -3760,10 +3760,10 @@
       elpaBuild {
         pname = "nano-modeline";
         ename = "nano-modeline";
-        version = "1.0.1";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/nano-modeline-1.0.1.tar";
-          sha256 = "0frvg9zy9i8qqb6il0csxmgxsd373n696kwz1xqq28jikvhzkwyy";
+          url = "https://elpa.gnu.org/packages/nano-modeline-1.1.0.tar";
+          sha256 = "1x4b4j82vzbi1mhbs9bwgw41hcagnfk56kswjk928i179pnkr0cx";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5329,10 +5329,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.4.1";
+        version = "0.5.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/spacious-padding-0.4.1.tar";
-          sha256 = "0w9f19sxpbaagwxfnsg3qmk95v8vnkfcyd3l6i9ns9ww26sb2fgl";
+          url = "https://elpa.gnu.org/packages/spacious-padding-0.5.0.tar";
+          sha256 = "0x5bsyd6b1d3bzrsrpf9nvw7xj5ch114m2dilq64bg8y2db3452z";
         };
         packageRequires = [ emacs ];
         meta = {
