@@ -4448,10 +4448,10 @@
       elpaBuild {
         pname = "org-contacts";
         ename = "org-contacts";
-        version = "1.1.0.20240410.112834";
+        version = "1.1.0.20240430.11427";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240410.112834.tar";
-          sha256 = "0mns2fkzn1yc968k2nc4y5gys1m7dbcj67mdb8vfj54iwdkw316z";
+          url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240430.11427.tar";
+          sha256 = "1y0rpb3vjsy2xs253770lqqwsa42wb8j8nxnwrwg583af6gf07gz";
         };
         packageRequires = [ emacs org ];
         meta = {
