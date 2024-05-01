@@ -3044,10 +3044,10 @@
       elpaBuild {
         pname = "idlwave";
         ename = "idlwave";
-        version = "6.5.0.0.20240429.112457";
+        version = "6.5.0.0.20240430.163614";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/idlwave-6.5.0.0.20240429.112457.tar";
-          sha256 = "1fp1d4cfpirdac8ch696j91y7h63i3i17n3h4bxwk9pgc7v074q1";
+          url = "https://elpa.gnu.org/devel/idlwave-6.5.0.0.20240430.163614.tar";
+          sha256 = "165lbvhrvrd1szvqns6pd7wmr9zxszzvq3lqz11qg20didi6sngr";
         };
         packageRequires = [];
         meta = {
@@ -4506,10 +4506,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.2.0.20240429.142314";
+        version = "1.2.0.20240501.65538";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.2.0.20240429.142314.tar";
-          sha256 = "01p9ax46zr4f6dw1fd0h18x5851wigix4rxynlb2admcbn3m6pma";
+          url = "https://elpa.gnu.org/devel/org-modern-1.2.0.20240501.65538.tar";
+          sha256 = "088f43khcqyhcl5h51afsmxkpyz7v86yn4vivphb57ygi69w265w";
         };
         packageRequires = [ compat emacs ];
         meta = {
