@@ -1079,10 +1079,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.5.0.20240420.92954";
+        version = "1.5.0.20240430.171126";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.5.0.20240420.92954.tar";
-          sha256 = "1cg72m5aqvh7apdv3j4fhm232168vi0iddx3n9w42jwmhsxxq7fr";
+          url = "https://elpa.gnu.org/devel/consult-1.5.0.20240430.171126.tar";
+          sha256 = "031p4cxrair3r2165dg6madcxhir5ndha7sb04pginbnfh1iwxx5";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2129,10 +2129,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "19.0.20240414.193332";
+        version = "19.0.20240430.93543";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-19.0.20240414.193332.tar";
-          sha256 = "03jxpxgrlr1amxix4skfyag5pl6xvls011rcjjx1ka5sjdvnygvp";
+          url = "https://elpa.gnu.org/devel/emms-19.0.20240430.93543.tar";
+          sha256 = "1fq0grcf6cnk721nxk2p5dvny9inam84gvlvz3n9j0lb3w65vpli";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -4429,10 +4429,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240429.164631";
+        version = "9.7pre0.20240430.134101";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240429.164631.tar";
-          sha256 = "1s0iw19v8hh5fgn9556hgwag1whrrkh9sl0fq3664sv0ragzismy";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240430.134101.tar";
+          sha256 = "07w4k24w4jjdb7gii19hr49pvw8gbx8dpmh2fjxz9qp64d10gx83";
         };
         packageRequires = [ emacs ];
         meta = {
