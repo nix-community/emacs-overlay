@@ -1525,6 +1525,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    gptel = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib, transient }:
+      elpaBuild {
+        pname = "gptel";
+        ename = "gptel";
+        version = "0.8.5";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/gptel-0.8.5.tar";
+          sha256 = "0jazdky5q8r21m91gpp54a2rwkpf2j6p3xh2ad1awk4s8aiilf1l";
+        };
+        packageRequires = [ compat emacs transient ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/gptel.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     graphql-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "graphql-mode";
