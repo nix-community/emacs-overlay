@@ -1529,10 +1529,10 @@
       elpaBuild {
         pname = "gptel";
         ename = "gptel";
-        version = "0.8.5";
+        version = "0.8.6";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/gptel-0.8.5.tar";
-          sha256 = "0jazdky5q8r21m91gpp54a2rwkpf2j6p3xh2ad1awk4s8aiilf1l";
+          url = "https://elpa.nongnu.org/nongnu/gptel-0.8.6.tar";
+          sha256 = "1ds0i32bdmdi5w68cjxm9xlg0m9n29yr4hl6sqi8gn3kgswfx1sb";
         };
         packageRequires = [ compat emacs transient ];
         meta = {
