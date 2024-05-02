@@ -37722,16 +37722,17 @@
   "repo": "ananthakumaran/exunit.el",
   "unstable": {
    "version": [
-    20240401,
-    1344
+    20240502,
+    431
    ],
    "deps": [
     "f",
+    "project",
     "s",
     "transient"
    ],
-   "commit": "3b63d8835398ccadbcec080c8c1e00cd638b62b0",
-   "sha256": "0ci0x6jzw2ah3hm362r73wj3vipv1f01pybag29znmdvqfg95flb"
+   "commit": "b6134ce920a4bbc561f65fac1d1bf37206d97505",
+   "sha256": "1r28j6n373g85rrlwbx0z7mmjz76q9a9fs74grsl5rdjrpab57cn"
   }
  },
  {
@@ -47973,16 +47974,16 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20240429,
-    2011
+    20240502,
+    15
    ],
    "deps": [
     "compat",
     "transient",
     "with-editor"
    ],
-   "commit": "7c794201c473e19c6c41c73148221151997d8197",
-   "sha256": "08sv7wy2zpsj1bbdfih7r7wzc8yy738rmp6vgfp8m8my8sxydyyv"
+   "commit": "f72a02f852c12a18574ab68137950e673e5023d1",
+   "sha256": "1ks66idrn6q2rns4hbs69sj7m6sr0v5fx8inry1ydjsvj1bgbw12"
   },
   "stable": {
    "version": [
@@ -73796,8 +73797,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20240429,
-    2011
+    20240502,
+    15
    ],
    "deps": [
     "compat",
@@ -73808,8 +73809,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "7c794201c473e19c6c41c73148221151997d8197",
-   "sha256": "08sv7wy2zpsj1bbdfih7r7wzc8yy738rmp6vgfp8m8my8sxydyyv"
+   "commit": "534c12b908b191b033309470bd3894e0ed01ba86",
+   "sha256": "009xja2qhlzdxxph90h37vxhpw6glzm70iiq7kgnb040iwagx7cj"
   },
   "stable": {
    "version": [
@@ -74319,15 +74320,15 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20240429,
-    2011
+    20240502,
+    15
    ],
    "deps": [
     "compat",
     "dash"
    ],
-   "commit": "7c794201c473e19c6c41c73148221151997d8197",
-   "sha256": "08sv7wy2zpsj1bbdfih7r7wzc8yy738rmp6vgfp8m8my8sxydyyv"
+   "commit": "534c12b908b191b033309470bd3894e0ed01ba86",
+   "sha256": "009xja2qhlzdxxph90h37vxhpw6glzm70iiq7kgnb040iwagx7cj"
   },
   "stable": {
    "version": [
@@ -94577,20 +94578,20 @@
   "repo": "justinbarclay/parinfer-rust-mode",
   "unstable": {
    "version": [
-    20240419,
-    415
+    20240502,
+    612
    ],
-   "commit": "823188f3d8d1f00693c3d1d754e58ad95ad0a8dd",
-   "sha256": "0cfn4na6xrapc096yyqs0kw8ni7ls49fds9k92ahlr67919m437v"
+   "commit": "ef99d4229add1608e81453ef99acf1c844f017fd",
+   "sha256": "1yym3cscvsnknacjqy8cns6qliv3l04f2ys6zfmypbq4rxlmniw3"
   },
   "stable": {
    "version": [
     0,
     8,
-    6
+    7
    ],
-   "commit": "39f588e3f58ef1a8a301c031f831b8f74fbb3ec1",
-   "sha256": "1pr4dqzawgqid2aws31zxnlf3363bgnj7djav324b5q2xic5qfy7"
+   "commit": "823188f3d8d1f00693c3d1d754e58ad95ad0a8dd",
+   "sha256": "0cfn4na6xrapc096yyqs0kw8ni7ls49fds9k92ahlr67919m437v"
   }
  },
  {
@@ -120930,26 +120931,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20240501,
-    954
+    20240502,
+    116
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "d7cc62256e63950c989d28333bf3e1a24a6d1419",
-   "sha256": "1ffznjysdpl9rpll3la47x8rmavywkhid1vwy97021cscfxbbfk9"
+   "commit": "c7077e96a7d3dddb80bd944e7b56b53d5cb6d177",
+   "sha256": "1i40sfwcbrnnpbb0yhq634andl7a84zw0kk85cr7a3br93j43phj"
   },
   "stable": {
    "version": [
     0,
     12,
-    184
+    187
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "d7cc62256e63950c989d28333bf3e1a24a6d1419",
-   "sha256": "1ffznjysdpl9rpll3la47x8rmavywkhid1vwy97021cscfxbbfk9"
+   "commit": "c7077e96a7d3dddb80bd944e7b56b53d5cb6d177",
+   "sha256": "1i40sfwcbrnnpbb0yhq634andl7a84zw0kk85cr7a3br93j43phj"
   }
  },
  {
