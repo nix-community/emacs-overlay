@@ -18982,15 +18982,15 @@
   "repo": "abo-abo/swiper",
   "unstable": {
    "version": [
-    20240413,
-    1905
+    20240502,
+    743
    ],
    "deps": [
     "ivy",
     "swiper"
    ],
-   "commit": "28ac6c7e32ec0b90803fd35f8d1f04ed0fe2e6a5",
-   "sha256": "1zyxm69ld137k9qnjmn87a2qh9qls1phycfcr3h5p3a0d0ackgd6"
+   "commit": "d8dace96ed08e10ca9250fdcf6ec65912d6a789e",
+   "sha256": "19xywl2waikx3xy0wiqyxx7s8ip1wrzf9f93vlwyssh51m5xfwnb"
   },
   "stable": {
    "version": [
@@ -45195,8 +45195,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20240428,
-    1815
+    20240502,
+    1252
    ],
    "deps": [
     "closql",
@@ -45211,8 +45211,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "3a755d66ddfb5aeef12a3afa2245341624d3fba0",
-   "sha256": "1l5cw5hsiihfcjfbnm386s5c45x6yk7nly3srl9x2988av186kj2"
+   "commit": "dc4e9ca661ef667294a9700d3bafd17f4b3270e3",
+   "sha256": "1ccmkjlxvkwrfar8mp1nn4wnx47z8yrn4zm9rnr6rs43vky3ncld"
   },
   "stable": {
    "version": [
@@ -63623,11 +63623,11 @@
   "repo": "abo-abo/swiper",
   "unstable": {
    "version": [
-    20240405,
-    2019
+    20240502,
+    808
    ],
-   "commit": "a38bc60eb78e38304d1183d98d4fc76671263ee1",
-   "sha256": "0vi26fpm6pyhi7475pgs73prrb0yw4k6nss02b7536p2pjnaxckq"
+   "commit": "4c1690c5feb5b4e0b55ad7ad96cd3d9b51d3ec77",
+   "sha256": "01vljd1l4jj6gnjl28q4d8shcbxfcv0lbck9xbwzsrg9aam2fja0"
   },
   "stable": {
    "version": [
@@ -73798,7 +73798,7 @@
   "unstable": {
    "version": [
     20240502,
-    15
+    1559
    ],
    "deps": [
     "compat",
@@ -73809,8 +73809,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "534c12b908b191b033309470bd3894e0ed01ba86",
-   "sha256": "009xja2qhlzdxxph90h37vxhpw6glzm70iiq7kgnb040iwagx7cj"
+   "commit": "26be78eaef5b037b13056a68a17b569a1d6fa85e",
+   "sha256": "0lbb1a491lrjwby2m258ipp9pdmic9343v9jq4ba311szc3mypmp"
   },
   "stable": {
    "version": [
@@ -85232,26 +85232,26 @@
   "repo": "oer/oer-reveal",
   "unstable": {
    "version": [
-    20240414,
-    1312
+    20240502,
+    1334
    ],
    "deps": [
     "org-re-reveal"
    ],
-   "commit": "4a8000a196e663be9fec61d0e6fed27814945086",
-   "sha256": "1rcydba1si626bqdh6j8537lnivyvr201dw7dmrxvkqpk9q6v1xy"
+   "commit": "5d8cfc7a1b39cb39339caa1654d6072e94228488",
+   "sha256": "02gfngb8c9hih9c9jighrs3mqj5rl1yx5jpxb4p9hxdbiff1b3gg"
   },
   "stable": {
    "version": [
     4,
     24,
-    3
+    4
    ],
    "deps": [
     "org-re-reveal"
    ],
-   "commit": "4a8000a196e663be9fec61d0e6fed27814945086",
-   "sha256": "1rcydba1si626bqdh6j8537lnivyvr201dw7dmrxvkqpk9q6v1xy"
+   "commit": "5d8cfc7a1b39cb39339caa1654d6072e94228488",
+   "sha256": "02gfngb8c9hih9c9jighrs3mqj5rl1yx5jpxb4p9hxdbiff1b3gg"
   }
  },
  {
@@ -94579,10 +94579,13 @@
   "unstable": {
    "version": [
     20240502,
-    612
+    727
    ],
-   "commit": "ef99d4229add1608e81453ef99acf1c844f017fd",
-   "sha256": "1yym3cscvsnknacjqy8cns6qliv3l04f2ys6zfmypbq4rxlmniw3"
+   "deps": [
+    "track-changes"
+   ],
+   "commit": "a88eff726d50cbb9c666cf75c31df38b697c2ee4",
+   "sha256": "1r3fnpkkzn62mza74sl7k57l9x0669xh16sadlkhi1i4lf8iwk6b"
   },
   "stable": {
    "version": [
