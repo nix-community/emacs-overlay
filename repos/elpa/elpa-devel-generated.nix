@@ -2200,10 +2200,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20240419.135452";
+        version = "5.6snapshot0.20240502.192148";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240419.135452.tar";
-          sha256 = "1yx1k6r6fg77r6h7bvi1v205mnxmw8qjqr96k4dh73a7ik972vmh";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240502.192148.tar";
+          sha256 = "0p8iapmjmlyj1yg6x5jwxjh88j45d4xh2ay5cjnklf2qrcpv71j4";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2453,10 +2453,10 @@
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.3.7.0.20240422.65418";
+        version = "1.3.7.0.20240503.61639";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20240422.65418.tar";
-          sha256 = "0gq3x3ssvsccwjajd3w835dd1zvlakj7gxdn6b1fqj46rkyi60vw";
+          url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20240503.61639.tar";
+          sha256 = "0qrdjynam3nvhm5qwjks308r28f8wlgsfdmdw4d7sb4xqyr2mzrz";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
