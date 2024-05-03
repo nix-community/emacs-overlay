@@ -1181,10 +1181,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.10.0";
+        version = "0.11.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dape-0.10.0.tar";
-          sha256 = "1x6mbis4vmghp3vf4pxyzdp68nnrraw9ayx3gzbp1bvcmr62qdig";
+          url = "https://elpa.gnu.org/packages/dape-0.11.0.tar";
+          sha256 = "168cx50ji01rnm4f0b0k4wif12i8mj11yx4jgdxy8jp1ga2bdpy7";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
