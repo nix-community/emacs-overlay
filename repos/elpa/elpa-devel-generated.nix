@@ -613,10 +613,10 @@
       elpaBuild {
         pname = "boxy-headings";
         ename = "boxy-headings";
-        version = "2.1.5.0.20240326.215829";
+        version = "2.1.5.0.20240503.172743";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/boxy-headings-2.1.5.0.20240326.215829.tar";
-          sha256 = "0zh5g1k2nql8jyg9ws0spsbhzwfa28f6qxs9krihp5qgz8kihn2p";
+          url = "https://elpa.gnu.org/devel/boxy-headings-2.1.5.0.20240503.172743.tar";
+          sha256 = "1xc3qgr4sj1b6b3j18p09r1wx5yvvz8ap0rrckhfpckvkyhah8y5";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
@@ -4546,10 +4546,10 @@
       elpaBuild {
         pname = "org-real";
         ename = "org-real";
-        version = "1.0.8.0.20240328.105118";
+        version = "1.0.8.0.20240503.174325";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-real-1.0.8.0.20240328.105118.tar";
-          sha256 = "018bhg886mhv5wzvahvi36bpmh6lpgfahs2dxcrhlb5jqaf8kj50";
+          url = "https://elpa.gnu.org/devel/org-real-1.0.8.0.20240503.174325.tar";
+          sha256 = "0jl8sh6pjlxbkvxbvk036qd76cbpxyal6w9dsdv1lc1zd93vj3fl";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
