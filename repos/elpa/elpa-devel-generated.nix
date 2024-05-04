@@ -1929,10 +1929,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240502.85057";
+        version = "1.17.0.20240503.165157";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240502.85057.tar";
-          sha256 = "04kdsvzai5pm4afgv27a4q9zbdpbc83nmb0x6phik5pmr8sdwh5s";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240503.165157.tar";
+          sha256 = "0ggkyq5zwsf2d1njvv6mmjf9nnm6llq95qyvnasdq0417x2g8b94";
         };
         packageRequires = [
           compat
@@ -4431,10 +4431,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240502.164726";
+        version = "9.7pre0.20240503.132500";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240502.164726.tar";
-          sha256 = "1cafpqsk85caakdpjygf7k49lrfkwmhdjqp0vbsm8sqpl68ky5h3";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240503.132500.tar";
+          sha256 = "0my3g97cnfsbhvflmfvxasnvlzb2vpiwahgm5qszlsd7s13i74i9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6525,10 +6525,10 @@
       elpaBuild {
         pname = "track-changes";
         ename = "track-changes";
-        version = "1.1.0.20240419.221900";
+        version = "1.1.0.20240503.163929";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/track-changes-1.1.0.20240419.221900.tar";
-          sha256 = "16xvkp3fq89jbf87phk6yl9cbfmmgb8r376hh08kwrsmbpaz6bd2";
+          url = "https://elpa.gnu.org/devel/track-changes-1.1.0.20240503.163929.tar";
+          sha256 = "0wmg2fc0q5ga566vh15pg8fm181da1ms7qhalljnv0j3z21sdind";
         };
         packageRequires = [ emacs ];
         meta = {
