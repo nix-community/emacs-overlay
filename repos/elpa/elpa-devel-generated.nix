@@ -1334,10 +1334,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.11.0.0.20240502.190242";
+        version = "0.11.0.0.20240504.75901";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.11.0.0.20240502.190242.tar";
-          sha256 = "0wwr3092nmvikw7ivzdqkm2lrfx18bwd0rp6gp3vsrk7qg6p3bv2";
+          url = "https://elpa.gnu.org/devel/dape-0.11.0.0.20240504.75901.tar";
+          sha256 = "0hr11wwhn11ibzb828n6r8pb0gxn2i3jl8g9gw7li48p8gr85bcc";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -4431,10 +4431,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240503.132500";
+        version = "9.7pre0.20240504.192009";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240503.132500.tar";
-          sha256 = "0my3g97cnfsbhvflmfvxasnvlzb2vpiwahgm5qszlsd7s13i74i9";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240504.192009.tar";
+          sha256 = "0mxnj2mz3zxbvb4kra4rb89cyfl5pfb36g4cykid2a5vk4r7v8hw";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5155,10 +5155,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20240502.100415";
+        version = "0.28.0.20240504.115105";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20240502.100415.tar";
-          sha256 = "0y9hhaw6jh9rqxprlpxa1mz3mlmd5p6dvgv3hwwg3ix42wr6gnpz";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20240504.115105.tar";
+          sha256 = "11icdnkixb88wv6k6v2vsckddxz0301pw93ycn7s5fhmpzxv4128";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -7026,10 +7026,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.8.0.20240424.195903";
+        version = "1.8.0.20240504.80603";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.8.0.20240424.195903.tar";
-          sha256 = "0yhk9cp3qlan2vci31an1d3c4mqz2ckbs7xhs12qk6vich66yshk";
+          url = "https://elpa.gnu.org/devel/vertico-1.8.0.20240504.80603.tar";
+          sha256 = "0ysnw8kxg0adsa3dr7k0xnvzzv56fi7amjvnbad32hjx547w84km";
         };
         packageRequires = [ compat emacs ];
         meta = {
