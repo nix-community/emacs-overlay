@@ -535,10 +535,10 @@
       elpaBuild {
         pname = "boxy-headings";
         ename = "boxy-headings";
-        version = "2.1.5";
+        version = "2.1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/boxy-headings-2.1.5.tar";
-          sha256 = "0w3cy2r8iqsb79r33lllj08v719hq0xniq5pbr9sl8kn2raxcjhr";
+          url = "https://elpa.gnu.org/packages/boxy-headings-2.1.6.tar";
+          sha256 = "0wnks9a4agvqjivp9myl8zcdq6rj7hh5ig73f8qv5imar0i76izc";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
@@ -1682,10 +1682,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240309";
+        version = "20240505";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20240309.tar";
-          sha256 = "0nn6jdc37n2nx3i97ljl5a37dwxv5qx12ar15yr702hbsgaxyfa5";
+          url = "https://elpa.gnu.org/packages/eev-20240505.tar";
+          sha256 = "01k29z37521gvf1d43ljysnx6zbiwbpva4vx6jlx91rylykck1j5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4109,10 +4109,10 @@
       elpaBuild {
         pname = "org-real";
         ename = "org-real";
-        version = "1.0.8";
+        version = "1.0.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-real-1.0.8.tar";
-          sha256 = "03g12czy833yzj7idkharsbl2zd1ajnsf7ay8qxqljwqrz8m91gw";
+          url = "https://elpa.gnu.org/packages/org-real-1.0.9.tar";
+          sha256 = "0g19pgg7rqijb6q1vpifvpzl2gyc13a42q1n23x3kawl2srhcjp2";
         };
         packageRequires = [ boxy emacs org ];
         meta = {
@@ -5803,10 +5803,10 @@
       elpaBuild {
         pname = "track-changes";
         ename = "track-changes";
-        version = "1.1";
+        version = "1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/track-changes-1.1.tar";
-          sha256 = "04srqkpyc6l3s95jyf2p5pqqf1z67i7k89334r6ybqj1l91h2prn";
+          url = "https://elpa.gnu.org/packages/track-changes-1.2.tar";
+          sha256 = "0al6a1xjs6p2pn6z976pnmfqz2x5xcz99b5gkdzz90ywbn7018m4";
         };
         packageRequires = [ emacs ];
         meta = {
