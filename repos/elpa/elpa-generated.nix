@@ -1457,10 +1457,10 @@
       elpaBuild {
         pname = "dired-preview";
         ename = "dired-preview";
-        version = "0.1.1";
+        version = "0.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dired-preview-0.1.1.tar";
-          sha256 = "08c9bvsdb7w9ggav9yrpz12nf9zlq4h1zq8ssdf9pwrx2nzy06p7";
+          url = "https://elpa.gnu.org/packages/dired-preview-0.2.0.tar";
+          sha256 = "15l01javijjjjc9bycljgshg9jv3clmfnsisy7f3caqxq78sb61l";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6548,10 +6548,10 @@
       elpaBuild {
         pname = "wrap-search";
         ename = "wrap-search";
-        version = "4.14.11";
+        version = "4.15.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/wrap-search-4.14.11.tar";
-          sha256 = "07x6fcig69d3hmcmvpj75h605j8sfjwmd4z1yd4rb6np60dh42ff";
+          url = "https://elpa.gnu.org/packages/wrap-search-4.15.11.tar";
+          sha256 = "0b5jbbsgcgq56msv0fw0pczab3g2k2yp99f95apvn9j870j1rn3k";
         };
         packageRequires = [];
         meta = {
