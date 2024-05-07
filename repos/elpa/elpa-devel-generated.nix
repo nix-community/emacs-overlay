@@ -341,14 +341,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    auctex = callPackage ({ elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.4.0.20240427.91120";
+        version = "14.0.4.0.20240506.132858";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240427.91120.tar";
-          sha256 = "1qp2vgmna7fi66qdi4flgvl0l4cpz516klkx2rcd6wixvhyc53rx";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240506.132858.tar";
+          sha256 = "13rcd0lsgyigzxl54gq6k3k177arkn1cd7qivzrpnb246g2vhgqc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -490,10 +493,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "1.0.1.0.20240506.72544";
+        version = "1.1.0.0.20240506.81229";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/beframe-1.0.1.0.20240506.72544.tar";
-          sha256 = "0a4b9d0ibksv1sbmc7045xbgakm9s3hzd93f324w6rn6d69xc81j";
+          url = "https://elpa.gnu.org/devel/beframe-1.1.0.0.20240506.81229.tar";
+          sha256 = "02dqidwxh2c1wrjnfd4q2nch342jqm6srd46fjbv7gs3zj0j9ijh";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1925,14 +1928,15 @@
                          , lib
                          , project
                          , seq
+                         , track-changes
                          , xref }:
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240504.171446";
+        version = "1.17.0.20240505.172329";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240504.171446.tar";
-          sha256 = "02nxykr2wzz28yb7hk2rc0z5hhlpqqkh7f193c400jhh4ngj8yci";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240505.172329.tar";
+          sha256 = "0vr8pk115yl5kxijmjf5igpa0fnq9sk8mz6wa5yrzznyvm215ibd";
         };
         packageRequires = [
           compat
@@ -1943,6 +1947,7 @@
           jsonrpc
           project
           seq
+          track-changes
           xref
         ];
         meta = {
@@ -4431,10 +4436,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240505.172713";
+        version = "9.7pre0.20240506.125500";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240505.172713.tar";
-          sha256 = "153fq6078dgp4hpwhlhwrpf3db3zalvyhdxy3xx3nc2bxcdpbyr9";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240506.125500.tar";
+          sha256 = "1h5avprwnbg6fdirw93sx1nbpq1wys3ckfrah5nsdayj0wpgi3w1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6069,10 +6074,10 @@
       elpaBuild {
         pname = "srht";
         ename = "srht";
-        version = "0.4.0.20231117.115741";
+        version = "0.4.0.20240506.104337";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/srht-0.4.0.20231117.115741.tar";
-          sha256 = "03wyfx0zhgfpbhwyxrbd6mj0465m82910l77r12gsg1vbk78l4l0";
+          url = "https://elpa.gnu.org/devel/srht-0.4.0.20240506.104337.tar";
+          sha256 = "1fs6av8l3v4vvzxxhd20rzwrwh8dkk1d1x21jkjx8nczj2jydwb0";
         };
         packageRequires = [ emacs plz transient ];
         meta = {
