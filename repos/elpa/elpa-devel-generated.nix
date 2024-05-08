@@ -1430,10 +1430,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240507.60455";
+        version = "2.3.5.0.20240508.43740";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240507.60455.tar";
-          sha256 = "00jkmqad2bynvb5lifnblw3i3dlz05fasrb6a5jsla0xx80hxnnp";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240508.43740.tar";
+          sha256 = "18lch2bdgbk6jcwn3m5qsly16zd5k0idp8khbayr5m5xrl4z008m";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5128,10 +5128,10 @@
       elpaBuild {
         pname = "pyim";
         ename = "pyim";
-        version = "5.3.3.0.20240407.80210";
+        version = "5.3.4.0.20240508.25615";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pyim-5.3.3.0.20240407.80210.tar";
-          sha256 = "1vk0q0wczr9yiwm89kljdlsil7plr2z0cr5sw48fxy4dzgjdjkfb";
+          url = "https://elpa.gnu.org/devel/pyim-5.3.4.0.20240508.25615.tar";
+          sha256 = "0p079girx795fvqswdjh8l5mwdyndanfcsvb1qvj2klq063y1vv5";
         };
         packageRequires = [ async emacs xr ];
         meta = {
