@@ -1888,10 +1888,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240505.0.20240505.221832";
+        version = "20240505.0.20240507.83256";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240505.0.20240505.221832.tar";
-          sha256 = "1a7990j5cniz2qzjb3p1i4rq7b2jg4j8zdqral8yn1li85lrfy8k";
+          url = "https://elpa.gnu.org/devel/eev-20240505.0.20240507.83256.tar";
+          sha256 = "0i1m833w1rprlh7i6abaijmc531c278zmm2723lbgrv3ixqr3maf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4436,10 +4436,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240506.125500";
+        version = "9.7pre0.20240507.92146";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240506.125500.tar";
-          sha256 = "1h5avprwnbg6fdirw93sx1nbpq1wys3ckfrah5nsdayj0wpgi3w1";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240507.92146.tar";
+          sha256 = "0sdy7p9k9f84yx3bly3y859wr9bz43djgiiiicj66qpnjxbfm6aq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7446,10 +7446,10 @@
       elpaBuild {
         pname = "xref";
         ename = "xref";
-        version = "1.6.3.0.20240505.32755";
+        version = "1.6.3.0.20240507.161847";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xref-1.6.3.0.20240505.32755.tar";
-          sha256 = "1wffbi7maqqv5626nwmj94ks8kyaah46lgi920v1ki6xkv92fzkj";
+          url = "https://elpa.gnu.org/devel/xref-1.6.3.0.20240507.161847.tar";
+          sha256 = "1w4b4d43n6c3q23bi31zhx87gi6zr8cdxhb1qyphggrcffljilk9";
         };
         packageRequires = [ emacs ];
         meta = {
