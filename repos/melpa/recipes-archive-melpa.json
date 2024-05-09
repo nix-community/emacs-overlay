@@ -17926,14 +17926,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20240420,
-    929
+    20240508,
+    1533
    ],
    "deps": [
     "compat"
    ],
-   "commit": "8989c7a5c5035f9e3429f85f1006d0c6cb5d5e8d",
-   "sha256": "0zrxs4134csg7ygrlq800mpa7xs3z6z547l28jv3c5v2s2ls1k97"
+   "commit": "369592fe2f160c1b54f91266104992fc25bc5e14",
+   "sha256": "0l19idl35cbbckzpr789n1y5s8vdxy8k8rq4s028dhdnhiql58gs"
   },
   "stable": {
    "version": [
@@ -18346,16 +18346,16 @@
   "repo": "mclear-tools/consult-notes",
   "unstable": {
    "version": [
-    20240306,
-    1529
+    20240508,
+    2046
    ],
    "deps": [
     "consult",
     "dash",
     "s"
    ],
-   "commit": "652d0281b81becac643efe96386facf23e1dee01",
-   "sha256": "0ka4mr4gg2nmkg0fr7i9dq3f3jmq9m16wbzjk5w9x5yxhh9rymx2"
+   "commit": "4c9748fc621cdb184949f4638b04fca66ade1902",
+   "sha256": "0myj8amdslh1wcy95vamdhsc67p4b81y0wb7351jfqyl18p2qbbz"
   }
  },
  {
@@ -22166,11 +22166,11 @@
   "url": "https://salsa.debian.org/emacsen-team/debian-el.git",
   "unstable": {
    "version": [
-    20240404,
-    541
+    20240508,
+    2258
    ],
-   "commit": "7bbbf575f0ce11cb4b6acd89e56000ae388b1413",
-   "sha256": "1s2jqqmmnwcf8bx6vn1754ji5kgdwzcm5hi5j0s4rj1yl9s9jnd4"
+   "commit": "116b3e7c839bf52fa01adba0758487a47cade87a",
+   "sha256": "1qf1ly8hcpgjx1j6ii2hsi9dy12j58vvzc6i75ljkm7d7jakw21j"
   },
   "stable": {
    "version": [
@@ -77217,13 +77217,13 @@
   "unstable": {
    "version": [
     20240508,
-    130
+    2049
    ],
    "deps": [
     "magit"
    ],
-   "commit": "0eb1a8289deba7a305b0848dfc775c9969162303",
-   "sha256": "09z61hmxafm0b9lwvfrabxdxmhgqmsslw9vk4igpxiz9whsxn9wk"
+   "commit": "df8d11601abe61076ee6a18988995187f438d24b",
+   "sha256": "06lsb5m249qhilq512w6zjrp5irlvs4shy4cyk0vxf69ffqym2h7"
   },
   "stable": {
    "version": [
@@ -77278,26 +77278,26 @@
   "repo": "liuyinz/mini-echo.el",
   "unstable": {
    "version": [
-    20240506,
-    2201
+    20240508,
+    2021
    ],
    "deps": [
     "hide-mode-line"
    ],
-   "commit": "aca80ea92ee74f222ae82e52c146419484bf2abc",
-   "sha256": "107ah9ywrz0h5shfags9s3n7936vxdf3scrd1vib8496jgz6fhhi"
+   "commit": "cc1ffccbc35ccfffbefa5c5bb34d658dbdfe0763",
+   "sha256": "04c230gqfq8haq8c361vqm4jqvrnxb5qar5gkklwlyy8y4hnxv2s"
   },
   "stable": {
    "version": [
     0,
-    8,
+    9,
     0
    ],
    "deps": [
     "hide-mode-line"
    ],
-   "commit": "9e01966d56514aa1fe9b7cc281da390ab33532d1",
-   "sha256": "0q4hvbypnjg5q1szwki2md45r5kkdxrr4zxqh57y7d53idjzhpnf"
+   "commit": "bfb01037ebef466626e71587f91e4c249deb86ff",
+   "sha256": "18gyxn9d2jrda66j0kglgw781cxki743f0gbmg56yj1wc004kr9j"
   }
  },
  {
@@ -86388,26 +86388,26 @@
   "repo": "rksm/org-ai",
   "unstable": {
    "version": [
-    20240103,
-    235
+    20240508,
+    1927
    ],
    "deps": [
     "websocket"
    ],
-   "commit": "329bebaf90f013a54449806e6e65f2fab04cee1f",
-   "sha256": "104w41syib8dyysf4k551yrrw0s3cfn1w9dk9336zf2cz9n33svx"
+   "commit": "7b6897998bd8d976658b3985e4910006cbe87def",
+   "sha256": "0j025nmrn0p34pr027ci68bf49xkvkdmcbnhgch543a9gfkx40hc"
   },
   "stable": {
    "version": [
     0,
     4,
-    3
+    5
    ],
    "deps": [
     "websocket"
    ],
-   "commit": "329bebaf90f013a54449806e6e65f2fab04cee1f",
-   "sha256": "104w41syib8dyysf4k551yrrw0s3cfn1w9dk9336zf2cz9n33svx"
+   "commit": "7b6897998bd8d976658b3985e4910006cbe87def",
+   "sha256": "0j025nmrn0p34pr027ci68bf49xkvkdmcbnhgch543a9gfkx40hc"
   }
  },
  {
@@ -100517,8 +100517,8 @@
   "repo": "mohkale/projection",
   "unstable": {
    "version": [
-    20240507,
-    2015
+    20240508,
+    2057
    ],
    "deps": [
     "compat",
@@ -100526,8 +100526,8 @@
     "project",
     "s"
    ],
-   "commit": "4bb9cdd83b92d6b8da7417ae32e5fc18a0941554",
-   "sha256": "10iak67qc2dy3dc2nlxm86j4wib7pqchw2kml0hj511i2k6jxzsh"
+   "commit": "9d5abea7e762cbb2d65fe1084d3a6e4d9fa5c7cd",
+   "sha256": "1fx4hjs17x01h5sa1h7km3fsby2hrszj7plni783i2hcv71wwnfl"
   }
  },
  {
@@ -100557,15 +100557,15 @@
   "repo": "mohkale/projection",
   "unstable": {
    "version": [
-    20240507,
-    2041
+    20240508,
+    1958
    ],
    "deps": [
     "compile-multi",
     "projection"
    ],
-   "commit": "c63482a7cc933576c33f3e15af72929496e86557",
-   "sha256": "1iyyzbgwhacc8s257zbr1khac0d0gkrp1v4jxbx57z1636x53wh3"
+   "commit": "c7493dc62d263639a5b3af04d86ded4d692aa598",
+   "sha256": "0vh67acm0aldgrscbl0gv6wgycpi0w0nqsl51hki3l28dp318za4"
   }
  },
  {
