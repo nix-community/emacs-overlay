@@ -1082,10 +1082,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.5.0.20240430.171126";
+        version = "1.5.0.20240508.153300";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.5.0.20240430.171126.tar";
-          sha256 = "031p4cxrair3r2165dg6madcxhir5ndha7sb04pginbnfh1iwxx5";
+          url = "https://elpa.gnu.org/devel/consult-1.5.0.20240508.153300.tar";
+          sha256 = "0gmjwhwkxd35260srzhnd22i4is4d5asjyd0h6mfw10a39a8nfqj";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1430,10 +1430,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240508.43740";
+        version = "2.3.5.0.20240508.82753";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240508.43740.tar";
-          sha256 = "18lch2bdgbk6jcwn3m5qsly16zd5k0idp8khbayr5m5xrl4z008m";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240508.82753.tar";
+          sha256 = "16hji0mpwx0b4snwa38ilg4cwyjv8ad6wnwd44cmsngf25x5k485";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3313,10 +3313,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.6.0.20240429.70333";
+        version = "1.6.0.20240508.83506";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.6.0.20240429.70333.tar";
-          sha256 = "0kkn6cnnb58zkpxdd9mvw9h36kd339lkznx1v0jb4ngghkb0szsg";
+          url = "https://elpa.gnu.org/devel/jinx-1.6.0.20240508.83506.tar";
+          sha256 = "1ggw7n3h535hhd2n2zy7s5mwjxnyrl5qkg1ykxkmd737zdjfypdf";
         };
         packageRequires = [ compat emacs ];
         meta = {
