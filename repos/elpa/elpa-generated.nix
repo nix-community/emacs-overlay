@@ -963,6 +963,26 @@
           license = lib.licenses.free;
         };
       }) {};
+    consult-denote = callPackage ({ consult
+                                  , denote
+                                  , elpaBuild
+                                  , emacs
+                                  , fetchurl
+                                  , lib }:
+      elpaBuild {
+        pname = "consult-denote";
+        ename = "consult-denote";
+        version = "0.0.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/consult-denote-0.0.0.tar";
+          sha256 = "191qf8knrmimam98jv8kgrl6mfrnwpdmw160s5qw6wcik7j4z6kv";
+        };
+        packageRequires = [ consult denote emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/consult-denote.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     consult-hoogle = callPackage ({ elpaBuild
                                   , emacs
                                   , fetchurl
