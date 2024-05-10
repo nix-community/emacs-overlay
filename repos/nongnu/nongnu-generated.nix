@@ -2004,16 +2004,20 @@
           license = lib.licenses.free;
         };
       }) {};
-    macrostep = callPackage ({ cl-lib ? null, elpaBuild, fetchurl, lib }:
+    macrostep = callPackage ({ cl-lib ? null
+                             , compat
+                             , elpaBuild
+                             , fetchurl
+                             , lib }:
       elpaBuild {
         pname = "macrostep";
         ename = "macrostep";
-        version = "0.9.3";
+        version = "0.9.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/macrostep-0.9.3.tar";
-          sha256 = "0gzhd8xh3akvak761l18anz62kvkgxl50wc9fl5gam5f3yrjy89i";
+          url = "https://elpa.nongnu.org/nongnu/macrostep-0.9.4.tar";
+          sha256 = "01n3qhxfjd9vg93ddrhnm275v24ih5qczkphc232m0csswxghpdk";
         };
-        packageRequires = [ cl-lib ];
+        packageRequires = [ cl-lib compat ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/macrostep.html";
           license = lib.licenses.free;
