@@ -1082,10 +1082,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.5.0.20240509.193332";
+        version = "1.5.0.20240510.51210";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.5.0.20240509.193332.tar";
-          sha256 = "06sxinck6bhiqc65vb9j7jfdn0zwkq2m3yz48419pknh2hp05f6w";
+          url = "https://elpa.gnu.org/devel/consult-1.5.0.20240510.51210.tar";
+          sha256 = "0950i9crvr84d9pb9mx21vf25428bjbri90wdp133s6nr6pnda0y";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1450,10 +1450,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240509.105945";
+        version = "2.3.5.0.20240510.34958";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240509.105945.tar";
-          sha256 = "1wcd33iwgrd46r2fnb4vsih2l612xq9gxq3w72ykbhhypwlsc0kq";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240510.34958.tar";
+          sha256 = "0zwcn88aj18xqp4m7wkr7zhrfsqr01k4p92wx2ak9q3w4xmp9ld5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1926,10 +1926,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.7.0.0.20240428.71635";
+        version = "1.7.0.0.20240510.44643";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240428.71635.tar";
-          sha256 = "18l6bvi9wdkz1dhl1wjy6jclfpay0xc3gn1c83mxbazjl2p3bx9v";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240510.44643.tar";
+          sha256 = "0iygfxy4h74nd2glx7kb4faw4b0f2gpfakdwi1icfkkn021kr781";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2048,10 +2048,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.9.1.0.20240415.73018";
+        version = "0.9.1.0.20240510.71027";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.9.1.0.20240415.73018.tar";
-          sha256 = "1fcw0ll24bj32mjjb952in5shnyxz63gdkg80njy89s2bknw1ra1";
+          url = "https://elpa.gnu.org/devel/ellama-0.9.1.0.20240510.71027.tar";
+          sha256 = "08di0c1f855nc4h86ih8qysi4mvqmd4y5d68z4s4sjfn2l8gsqrs";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
