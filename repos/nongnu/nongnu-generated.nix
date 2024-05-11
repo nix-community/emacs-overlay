@@ -736,10 +736,10 @@
       elpaBuild {
         pname = "editorconfig";
         ename = "editorconfig";
-        version = "0.10.1";
+        version = "0.11.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/editorconfig-0.10.1.tar";
-          sha256 = "1xv2yfs8v2bcf9nvbchdw8lxryfnhy3zh0n6vnxyxnbx2590qa9s";
+          url = "https://elpa.nongnu.org/nongnu/editorconfig-0.11.0.tar";
+          sha256 = "0adzm6fhx5vgg20qy9f7cqpnx938mp1ls91y5cw71pjm9ihs2cyv";
         };
         packageRequires = [ emacs nadvice ];
         meta = {
