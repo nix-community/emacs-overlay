@@ -6048,10 +6048,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.4.1";
+        version = "0.5.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/urgrep-0.4.1.tar";
-          sha256 = "046096vk8d5xy33icv4s0s101lrx3xan9ppvh77rqxd95gglhgap";
+          url = "https://elpa.gnu.org/packages/urgrep-0.5.0.tar";
+          sha256 = "14vga04hf03hj1ilcpl3qblmb7mhl9j0qwkq2whbc50p98avkhqi";
         };
         packageRequires = [ compat emacs project ];
         meta = {

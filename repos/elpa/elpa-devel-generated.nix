@@ -1357,10 +1357,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.11.0.0.20240511.164850";
+        version = "0.11.0.0.20240511.225643";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.11.0.0.20240511.164850.tar";
-          sha256 = "17mb61jlr0qv0l654pzs9x7wwjlc0lk182gwf2p9dj980k8s6l4j";
+          url = "https://elpa.gnu.org/devel/dape-0.11.0.0.20240511.225643.tar";
+          sha256 = "023a9j0vg7mc24dvbf5wpnwajpdahjik7l6mkw4nspv7n9lkvayv";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1450,10 +1450,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240511.143902";
+        version = "2.3.5.0.20240512.45444";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240511.143902.tar";
-          sha256 = "11mplxvh7xkhl98kfw0vyxbgzk8x5rdy415hl63ldj06r5kw5ks6";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240512.45444.tar";
+          sha256 = "17090jmwq2v17sxkjsvcmgmghach9dmdy9r3zmqxyim6wcrhcpxh";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1908,10 +1908,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240505.0.20240507.83256";
+        version = "20240505.0.20240512.34514";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240505.0.20240507.83256.tar";
-          sha256 = "0i1m833w1rprlh7i6abaijmc531c278zmm2723lbgrv3ixqr3maf";
+          url = "https://elpa.gnu.org/devel/eev-20240505.0.20240512.34514.tar";
+          sha256 = "0nz4gabq0wkzj39q42mns1pk35kxlqfrhprwr891c1w99v4glhz1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6816,10 +6816,10 @@
       elpaBuild {
         pname = "urgrep";
         ename = "urgrep";
-        version = "0.5.0snapshot0.20240510.172152";
+        version = "0.5.1snapshot0.20240511.180511";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/urgrep-0.5.0snapshot0.20240510.172152.tar";
-          sha256 = "164r517h2vvvyzn7lpi4xjv1j9hn9jxjln5yallx87avsj55xarf";
+          url = "https://elpa.gnu.org/devel/urgrep-0.5.1snapshot0.20240511.180511.tar";
+          sha256 = "03dpbsmx11r14mi6vlh4phknmxlayxng2rfphv8q7wn4cvgv18q2";
         };
         packageRequires = [ compat emacs project ];
         meta = {
@@ -7051,10 +7051,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.8.0.20240504.80603";
+        version = "1.8.0.20240511.204721";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.8.0.20240504.80603.tar";
-          sha256 = "0ysnw8kxg0adsa3dr7k0xnvzzv56fi7amjvnbad32hjx547w84km";
+          url = "https://elpa.gnu.org/devel/vertico-1.8.0.20240511.204721.tar";
+          sha256 = "0gd68x98dghqa7da0ybah2w27bxipal262n9d6rpdhxb361cmpca";
         };
         packageRequires = [ compat emacs ];
         meta = {
