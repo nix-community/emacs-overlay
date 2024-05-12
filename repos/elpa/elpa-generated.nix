@@ -1582,10 +1582,10 @@
       elpaBuild {
         pname = "drepl";
         ename = "drepl";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/drepl-0.2.tar";
-          sha256 = "1vf61d6iihpnr3h4cyxksd64qj8rw2a9ihjm3krvjmigxr2r6awx";
+          url = "https://elpa.gnu.org/packages/drepl-0.3.tar";
+          sha256 = "0dy8xvx5nwibiyhddm6nhcw384vhkhsbbxcs4hah0yxwajfm8yds";
         };
         packageRequires = [ comint-mime emacs ];
         meta = {
@@ -3874,10 +3874,10 @@
       elpaBuild {
         pname = "notmuch-indicator";
         ename = "notmuch-indicator";
-        version = "1.1.0";
+        version = "1.2.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/notmuch-indicator-1.1.0.tar";
-          sha256 = "1g30hzb238w9cnxqw8w7gw5l8sl4rx122napmm9rx974hdk3zk9k";
+          url = "https://elpa.gnu.org/packages/notmuch-indicator-1.2.0.tar";
+          sha256 = "1n525slxs0l5nbila1sy62fz384yz7f54nrq1ixdlq0j3czgh9kz";
         };
         packageRequires = [ emacs ];
         meta = {
