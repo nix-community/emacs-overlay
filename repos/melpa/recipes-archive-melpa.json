@@ -76932,11 +76932,11 @@
   "repo": "kazu-yamamoto/Mew",
   "unstable": {
    "version": [
-    20240430,
-    305
+    20240513,
+    544
    ],
-   "commit": "8b223e884172cd6c34ff9462d536ebeb522b9623",
-   "sha256": "02a59lz08sn3j1kkjdwkd4100qwkamk408l73y0v5js0b1m5h203"
+   "commit": "3062560b5daee27c7f4fa73a6b2e3b048b0c3a46",
+   "sha256": "0qa71wavnvqdg504b5fq0ff26as58d4ywh9x63la2rq713db7f1n"
   },
   "stable": {
    "version": [
@@ -81186,11 +81186,11 @@
   "repo": "rainstormstudio/nerd-icons.el",
   "unstable": {
    "version": [
-    20240412,
-    1831
+    20240513,
+    204
    ],
-   "commit": "fb395120e9de33b276d16caaccaefd98d4340b92",
-   "sha256": "0iyjd18b3v730ixz5ayr72m4z8p6vv5m0nplpndl0s7a7ypdm9l9"
+   "commit": "66658b89287c3599c7b9b6babea7bcb3dff9a9e4",
+   "sha256": "0ihxgm82zxg9dyawb7a58kkj2is708nwprhas7g4jygqblbxkw74"
   },
   "stable": {
    "version": [
@@ -100068,9 +100068,25 @@
   "ename": "project-butler",
   "commit": "bb78b814f378e58997f2032fc79a41dfb1442a2c",
   "sha256": "0jdk3fax67f1prly0g8s3kb4fg1hjqyjcajhalzg1x2cxvwwbz70",
-  "error": "Not in archive",
   "fetcher": "codeberg",
-  "repo": "jabbo/project-butler"
+  "repo": "jabbo/project-butler",
+  "unstable": {
+   "version": [
+    20240512,
+    2009
+   ],
+   "commit": "31f1091c6ae3443a34862df765f0f2b8e12f723e",
+   "sha256": "1wpxps124ip3damap544bqyj3j5l8dgkmp6x4qn3vv56agmwd0jl"
+  },
+  "stable": {
+   "version": [
+    0,
+    2,
+    1
+   ],
+   "commit": "31f1091c6ae3443a34862df765f0f2b8e12f723e",
+   "sha256": "1wpxps124ip3damap544bqyj3j5l8dgkmp6x4qn3vv56agmwd0jl"
+  }
  },
  {
   "ename": "project-explorer",
@@ -121078,13 +121094,13 @@
   "unstable": {
    "version": [
     20240512,
-    902
+    2226
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "97b1c37f3cd281fe5fe82b5583601d0d1340bdf6",
-   "sha256": "1dg1g14y6cq0fiw2782rlmw1105c1shz644frjvskcaixqmw7x16"
+   "commit": "5c18599c371af14deda2a0ff12706ffbbfe171ca",
+   "sha256": "09pc5x6sy3fd8nskhpwmfwxyws76xhidkjr8mpj686rwp2lha9rf"
   },
   "stable": {
    "version": [
