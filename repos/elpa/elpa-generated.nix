@@ -614,10 +614,10 @@
       elpaBuild {
         pname = "bufferlo";
         ename = "bufferlo";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/bufferlo-0.6.tar";
-          sha256 = "0gvg1mag8ngjmjl4d6zr99k7mq368l1m6dxy9mk6icgxm3sqr1yk";
+          url = "https://elpa.gnu.org/packages/bufferlo-0.7.tar";
+          sha256 = "091zkdk61l6lks4vq3nrmp0kx5gmvfcawvnzll2k07p33f6d2qif";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1201,10 +1201,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.11.0";
+        version = "0.11.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dape-0.11.0.tar";
-          sha256 = "168cx50ji01rnm4f0b0k4wif12i8mj11yx4jgdxy8jp1ga2bdpy7";
+          url = "https://elpa.gnu.org/packages/dape-0.11.1.tar";
+          sha256 = "0i04wwklypzxh78gwd9zjxjm3lwi2sn7qpqnlgd6n8hhcigyzhp0";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1831,10 +1831,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.9.1";
+        version = "0.9.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.9.1.tar";
-          sha256 = "1kyylhavqa2wsgjgqybg25aiz0fyw4njpady2k2xhry5jw9i78vs";
+          url = "https://elpa.gnu.org/packages/ellama-0.9.2.tar";
+          sha256 = "01iqsmk71p9c8x0afranlqjzg7prqrcgcrs3y693pf59bv27gmrk";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
