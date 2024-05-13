@@ -3589,10 +3589,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "25.4.20240510104842";
+        version = "25.5.20240512100142";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-25.4.20240510104842.tar";
-          sha256 = "0ynggsh3qnw2j9whib5z7b8l8yqsx39snl900rqgcr2vfmmd80yz";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-25.5.20240512100142.tar";
+          sha256 = "1yqwdrqjs6hif86zi1ywlg6b2w75jps50fvrglmyjxjgnn61sg0d";
         };
         packageRequires = [ emacs ];
         meta = {
