@@ -47979,26 +47979,28 @@
   "repo": "liuyinz/git-cliff.el",
   "unstable": {
    "version": [
-    20240501,
-    1641
+    20240514,
+    346
    ],
    "deps": [
+    "dash",
     "transient"
    ],
-   "commit": "813f8569a784352c33200229aa0faafe269e4f16",
-   "sha256": "0ixx75mj0gfyvgbzj9245n8fwkaz1y05p5rb2h1kmxpyx0jji2zz"
+   "commit": "14be943b04c1a0e9a0771bc6fc748d0e961af825",
+   "sha256": "00bis5dk15wrmccd1pla87z2cbr5fgqg6gqjvkn7iry73sax8c61"
   },
   "stable": {
    "version": [
     0,
-    6,
+    7,
     0
    ],
    "deps": [
+    "dash",
     "transient"
    ],
-   "commit": "6715b76f0734aa730958e87555b63b59c80585ff",
-   "sha256": "1795zwcic7imh7ybzjvbybyqrnnfh887y1bvn95wyywqrjrkk22m"
+   "commit": "14be943b04c1a0e9a0771bc6fc748d0e961af825",
+   "sha256": "00bis5dk15wrmccd1pla87z2cbr5fgqg6gqjvkn7iry73sax8c61"
   }
  },
  {
@@ -77276,26 +77278,28 @@
   "repo": "liuyinz/mini-echo.el",
   "unstable": {
    "version": [
-    20240508,
-    2021
+    20240514,
+    420
    ],
    "deps": [
+    "dash",
     "hide-mode-line"
    ],
-   "commit": "cc1ffccbc35ccfffbefa5c5bb34d658dbdfe0763",
-   "sha256": "04c230gqfq8haq8c361vqm4jqvrnxb5qar5gkklwlyy8y4hnxv2s"
+   "commit": "f0feae3bbd0becd79ea086d4a1b811162470b162",
+   "sha256": "1wz5ssp480zlfxdvgywxx72gkf7mldrd4gxah18ys09yycawa0hi"
   },
   "stable": {
    "version": [
     0,
     9,
-    0
+    2
    ],
    "deps": [
+    "dash",
     "hide-mode-line"
    ],
-   "commit": "bfb01037ebef466626e71587f91e4c249deb86ff",
-   "sha256": "18gyxn9d2jrda66j0kglgw781cxki743f0gbmg56yj1wc004kr9j"
+   "commit": "f0feae3bbd0becd79ea086d4a1b811162470b162",
+   "sha256": "1wz5ssp480zlfxdvgywxx72gkf7mldrd4gxah18ys09yycawa0hi"
   }
  },
  {
@@ -77673,14 +77677,28 @@
   "repo": "liuyinz/mise.el",
   "unstable": {
    "version": [
-    20240428,
-    2309
+    20240514,
+    452
    ],
    "deps": [
+    "dash",
     "inheritenv"
    ],
-   "commit": "07ee51e71b744a9cb4922534a48d769c17e4873e",
-   "sha256": "1his6gi3rhmc0xakf3ji6bljp6qxpws66vyfyl106fjvh73nq1ln"
+   "commit": "cb19405eba3cfd679a5e3ac75c8c4c1146b16015",
+   "sha256": "0h0xkps9m1g7q21hij23rli7jq1ygzc74h8fn9am9rmj4dgy5dkg"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    0
+   ],
+   "deps": [
+    "dash",
+    "inheritenv"
+   ],
+   "commit": "e2db0d204890721e372ed89deb554d9a75385486",
+   "sha256": "02j067pyqf2xx48qg383wvhk267pj9wd6ckv1azsa20cm713bph4"
   }
  },
  {
@@ -121075,14 +121093,14 @@
   "repo": "erickgnavar/tree-sitter-ispell.el",
   "unstable": {
    "version": [
-    20230205,
-    533
+    20240514,
+    201
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "d8c33c05f689c2cab36b8a9856811f18a4ab7c59",
-   "sha256": "19i2hv6zy9797dz4b6xrwlkci5fdq4v2mxd55li2bpd6sgga28ns"
+   "commit": "16ba2d190cd387a0e5349c5b97a373bfad582eee",
+   "sha256": "0hbn11x5nmnddpnd6kixmlmy10hwf6zkz9cx1318p2baxw5h5bxd"
   }
  },
  {
