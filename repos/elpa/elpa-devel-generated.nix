@@ -991,10 +991,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20240428.225825";
+        version = "0.10.2.0.20240514.232026";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240428.225825.tar";
-          sha256 = "0siizqlk594arfi9fdfab0ywhm9wrxh0df9l85psfl9h7pjysgl0";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240514.232026.tar";
+          sha256 = "10sh1pi3wb38r5v6vka0g3dxsmp3yr6p2iqrr3icqrx8mbz2mhvz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1102,10 +1102,10 @@
       elpaBuild {
         pname = "consult-denote";
         ename = "consult-denote";
-        version = "0.0.0.0.20240511.40410";
+        version = "0.0.0.0.20240515.40125";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-denote-0.0.0.0.20240511.40410.tar";
-          sha256 = "0wzicpbb9yqd0mv68z0svl55fh0my16rx0dyaw2vgfz2skkjj8ar";
+          url = "https://elpa.gnu.org/devel/consult-denote-0.0.0.0.20240515.40125.tar";
+          sha256 = "1z8xa2g2g623g6c2wfkj1k1a2xna4rd1la2zlsiagjw60x4lqi3x";
         };
         packageRequires = [ consult denote emacs ];
         meta = {
@@ -1450,10 +1450,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240512.83232";
+        version = "2.3.5.0.20240515.34734";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240512.83232.tar";
-          sha256 = "0gc24lawgl0jfmw8w24qpyn7w910rx0iqldbh2lan1x3jky0svnw";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240515.34734.tar";
+          sha256 = "1iisb43y848gwqg908v2ih68xsvmshbydr427dcr68fskjb9g9s8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3633,10 +3633,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.14.1.0.20240513.222535";
+        version = "0.14.2.0.20240515.12959";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.14.1.0.20240513.222535.tar";
-          sha256 = "0y3y08yldf798xh39i4n3w9gij69l6asdws71m243grag7c77rbr";
+          url = "https://elpa.gnu.org/devel/llm-0.14.2.0.20240515.12959.tar";
+          sha256 = "1lfgl59zsmrzbgkdnl3zqr5ch9zp3fwzzbz3d6wcnm8f6ddbppdb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4533,10 +4533,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.2.0.20240501.65538";
+        version = "1.2.0.20240515.50040";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.2.0.20240501.65538.tar";
-          sha256 = "088f43khcqyhcl5h51afsmxkpyz7v86yn4vivphb57ygi69w265w";
+          url = "https://elpa.gnu.org/devel/org-modern-1.2.0.20240515.50040.tar";
+          sha256 = "00mw3fmcqlf6z5snj4swkcs9kpwfy06cp4rqflw49p7xaq4jgbv6";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -7466,10 +7466,10 @@
       elpaBuild {
         pname = "xref";
         ename = "xref";
-        version = "1.6.3.0.20240512.175655";
+        version = "1.6.3.0.20240514.212205";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xref-1.6.3.0.20240512.175655.tar";
-          sha256 = "1zlm7amsxq416micwqn9ax478fpcgm0j82b30s5jgrvccxw672ph";
+          url = "https://elpa.gnu.org/devel/xref-1.6.3.0.20240514.212205.tar";
+          sha256 = "13blghfamh7scni93qmda24aj1yp3rg82yv39iq0z4svps79y4h6";
         };
         packageRequires = [ emacs ];
         meta = {
