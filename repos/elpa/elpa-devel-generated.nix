@@ -700,10 +700,10 @@
       elpaBuild {
         pname = "bufferlo";
         ename = "bufferlo";
-        version = "0.7.0.20240512.165018";
+        version = "0.7.0.20240515.210946";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/bufferlo-0.7.0.20240512.165018.tar";
-          sha256 = "095cjx1db3859flm4gfxxazmn4l7cyds99161dic1220m64rrbfx";
+          url = "https://elpa.gnu.org/devel/bufferlo-0.7.0.20240515.210946.tar";
+          sha256 = "1hbx2f9h71xglnsa2jkzlda2lx1wln9bclr9i1jfilf0whyxsxab";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1079,10 +1079,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.6.0.20240515.132002";
+        version = "1.6.0.20240516.63909";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.6.0.20240515.132002.tar";
-          sha256 = "1r4b207xs2g0wdzrx90yqri7nm183a6f7l1hy7345dhdf5avzmaw";
+          url = "https://elpa.gnu.org/devel/consult-1.6.0.20240516.63909.tar";
+          sha256 = "1x4p8dr8x9m93glp0qpjrpirjc8w05wcxwxv9vwjvhacpi6z7b9f";
         };
         packageRequires = [ compat emacs ];
         meta = {
