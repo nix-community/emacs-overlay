@@ -952,10 +952,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.5";
+        version = "1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-1.5.tar";
-          sha256 = "1gx4cjrcaq5dn3rrd2dm30jz07zrnddf0y33qi0dmiqlsyg7l9qw";
+          url = "https://elpa.gnu.org/packages/consult-1.6.tar";
+          sha256 = "00wsv6dvlyf7ygi586pdyhgp7f5ic2qqyqjz3g2g8hmgya5javdb";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1816,10 +1816,10 @@
       elpaBuild {
         pname = "elisp-benchmarks";
         ename = "elisp-benchmarks";
-        version = "1.14";
+        version = "1.15";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.14.tar";
-          sha256 = "050wja4axngnxggfxhg4b4lcbf1q674zr933r9qkc3ww731f42qa";
+          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.15.tar";
+          sha256 = "1y15pqarrwy31jjcnb8yi2xchsg0d8af9njnbkj628bg9hb026qc";
         };
         packageRequires = [];
         meta = {
@@ -2999,10 +2999,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.6";
+        version = "1.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jinx-1.6.tar";
-          sha256 = "0jy2g587930d4jqi4asrci3411bby9j6wrxczyskacvjs41vqyip";
+          url = "https://elpa.gnu.org/packages/jinx-1.7.tar";
+          sha256 = "13snfsrwdbn23fdwpk42xp24x8bskl8sgsbq51nr896smjp2x3b4";
         };
         packageRequires = [ compat emacs ];
         meta = {

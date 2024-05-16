@@ -341,17 +341,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild
-                          , emacs
-                          , fetchurl
-                          , lib }:
+    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.4.0.20240506.132858";
+        version = "14.0.4.0.20240515.75917";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240506.132858.tar";
-          sha256 = "13rcd0lsgyigzxl54gq6k3k177arkn1cd7qivzrpnb246g2vhgqc";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240515.75917.tar";
+          sha256 = "1ydz1hb0719h9mwyk982rcr4pjr814fy7q12zphw320pqlsqshk7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1082,10 +1079,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.5.0.20240513.121114";
+        version = "1.6.0.20240515.132002";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.5.0.20240513.121114.tar";
-          sha256 = "1gf75248vqwb7ncnp1cm34lragzsn2xg6wb0qzf6r9pj94j96src";
+          url = "https://elpa.gnu.org/devel/consult-1.6.0.20240515.132002.tar";
+          sha256 = "1r4b207xs2g0wdzrx90yqri7nm183a6f7l1hy7345dhdf5avzmaw";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1953,10 +1950,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240505.172329";
+        version = "1.17.0.20240515.145018";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240505.172329.tar";
-          sha256 = "0vr8pk115yl5kxijmjf5igpa0fnq9sk8mz6wa5yrzznyvm215ibd";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240515.145018.tar";
+          sha256 = "15p7s67aln8yhbhbzmxwbd716bivmja42fki9civkjyh44dnamiw";
         };
         packageRequires = [
           compat
@@ -2033,10 +2030,10 @@
       elpaBuild {
         pname = "elisp-benchmarks";
         ename = "elisp-benchmarks";
-        version = "1.14.0.20240404.94558";
+        version = "1.15.0.20240515.183707";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/elisp-benchmarks-1.14.0.20240404.94558.tar";
-          sha256 = "1lfpwwm9114x7431pc12kppb0mgia1zd4b5pnfpvqyk3159xx40v";
+          url = "https://elpa.gnu.org/devel/elisp-benchmarks-1.15.0.20240515.183707.tar";
+          sha256 = "014na8x7js49cgj7h9gk1f74fxr51x77i119k8a44izaw20pz7s8";
         };
         packageRequires = [];
         meta = {
@@ -3333,10 +3330,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.6.0.20240508.83506";
+        version = "1.7.0.20240515.101640";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.6.0.20240508.83506.tar";
-          sha256 = "1ggw7n3h535hhd2n2zy7s5mwjxnyrl5qkg1ykxkmd737zdjfypdf";
+          url = "https://elpa.gnu.org/devel/jinx-1.7.0.20240515.101640.tar";
+          sha256 = "1ghp16kmplj9kj92867xsv3bnl6f0w95xl8hgjxbck4krj8k6is5";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4533,10 +4530,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.2.0.20240515.50040";
+        version = "1.2.0.20240515.193202";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.2.0.20240515.50040.tar";
-          sha256 = "00mw3fmcqlf6z5snj4swkcs9kpwfy06cp4rqflw49p7xaq4jgbv6";
+          url = "https://elpa.gnu.org/devel/org-modern-1.2.0.20240515.193202.tar";
+          sha256 = "05mbgm95rlcv5liswlckd26izz5p3a6mkcfnz60widnilfmza9k6";
         };
         packageRequires = [ compat emacs ];
         meta = {
