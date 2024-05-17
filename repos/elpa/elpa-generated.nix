@@ -3281,16 +3281,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    llm = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    llm = callPackage ({ elpaBuild, emacs, fetchurl, lib, plz }:
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.14.2";
+        version = "0.14.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/llm-0.14.2.tar";
-          sha256 = "1kgc93aq4kxf2ff5mcbkwsanx0q1i48f9xmprmbkcbsf0d6c8imz";
+          url = "https://elpa.gnu.org/packages/llm-0.14.3.tar";
+          sha256 = "1zb7jj7fsr4d5lpwlm5n160dbswdwcn77wjnrwm0rc3vr0kvl6zd";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ emacs plz ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/llm.html";
           license = lib.licenses.free;
