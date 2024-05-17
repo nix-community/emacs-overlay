@@ -700,10 +700,10 @@
       elpaBuild {
         pname = "bufferlo";
         ename = "bufferlo";
-        version = "0.7.0.20240515.210946";
+        version = "0.8.0.20240516.162426";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/bufferlo-0.7.0.20240515.210946.tar";
-          sha256 = "1hbx2f9h71xglnsa2jkzlda2lx1wln9bclr9i1jfilf0whyxsxab";
+          url = "https://elpa.gnu.org/devel/bufferlo-0.8.0.20240516.162426.tar";
+          sha256 = "1w4vw1f5qmgv9207wpgmw5ahq4kans5dh775l213vzh32s6cdxx1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1447,10 +1447,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240515.34734";
+        version = "2.3.5.0.20240516.130900";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240515.34734.tar";
-          sha256 = "1iisb43y848gwqg908v2ih68xsvmshbydr427dcr68fskjb9g9s8";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240516.130900.tar";
+          sha256 = "0hyv2jy32h405s68rxwf42d19qd6cag60dm45zavg34a22kw5igb";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2257,10 +2257,10 @@
       elpaBuild {
         pname = "ess";
         ename = "ess";
-        version = "24.1.1.0.20240513.131810";
+        version = "24.1.1.0.20240516.81354";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20240513.131810.tar";
-          sha256 = "1nlngj9v4wwrv1hhkl4w6848z9bmcvp6pbqx8bn8wlvna8qdzgs7";
+          url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20240516.81354.tar";
+          sha256 = "0r4kk65sd8kzdm11c7dz1m4qicjv6zg36r7gdg2mzpl0ym33g8aj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4472,10 +4472,10 @@
       elpaBuild {
         pname = "org-contacts";
         ename = "org-contacts";
-        version = "1.1.0.20240430.11427";
+        version = "1.1.0.20240516.95538";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240430.11427.tar";
-          sha256 = "1y0rpb3vjsy2xs253770lqqwsa42wb8j8nxnwrwg583af6gf07gz";
+          url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240516.95538.tar";
+          sha256 = "10lqkm1zkairvms9d42i5zzgn8b3j14lc0pggrk99k4cfxsb2vsn";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -6635,10 +6635,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.6.0.0.20240421.173733";
+        version = "0.6.0.0.20240509.184906";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.6.0.0.20240421.173733.tar";
-          sha256 = "0md6dn3vb5dpnksyv5lq3gla7ywlkh50y8gnx834b6gsyv8b0hm9";
+          url = "https://elpa.gnu.org/devel/transient-0.6.0.0.20240509.184906.tar";
+          sha256 = "1axy5ccwd4n63saaf10af182r2k3j8x4vbyhxa81rdv73ndr652g";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
