@@ -1831,10 +1831,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.9.3";
+        version = "0.9.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.9.3.tar";
-          sha256 = "1w2f4mjaqzy7ags442g8dh67jcsdraq2zjfzj9gjs6w0p4am0q6c";
+          url = "https://elpa.gnu.org/packages/ellama-0.9.4.tar";
+          sha256 = "12l8k7dwcdgndy0zbdgkhx94y46fkzwjrbwlgj9922zbk38nnz46";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
