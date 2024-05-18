@@ -767,10 +767,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.5.0.20240517.95557";
+        version = "1.5.0.20240517.221612";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.5.0.20240517.95557.tar";
-          sha256 = "0wpky2b5b87vs6r60d96y61bhq5c63j18hcydvpz6mmknza3p08z";
+          url = "https://elpa.gnu.org/devel/cape-1.5.0.20240517.221612.tar";
+          sha256 = "1gxk070lf204hp62zlxqkc0h8k7ml6sywms1m8kadbl650dl8fdc";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1354,10 +1354,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.11.1.0.20240514.180705";
+        version = "0.11.1.0.20240517.230526";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.11.1.0.20240514.180705.tar";
-          sha256 = "12nw5l26clh0bakvwr5fq373g2g0qhkh23c49ndlqlwgrn1rkjqb";
+          url = "https://elpa.gnu.org/devel/dape-0.11.1.0.20240517.230526.tar";
+          sha256 = "1036g3pfrcmzk9sc714szprv29q854b6fi8sgz3dplxd368vd3vw";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1447,10 +1447,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240517.100159";
+        version = "2.3.5.0.20240518.63648";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240517.100159.tar";
-          sha256 = "1glxw3ggj4ilpr9fr585vj1hcla3c7ln0qkaf4wfndzdybc4gqaf";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240518.63648.tar";
+          sha256 = "0h5m44a1f5hx12x650g619ngz30nz49z3lhpbvqnx4lni4gpa7aq";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7373,10 +7373,10 @@
       elpaBuild {
         pname = "wrap-search";
         ename = "wrap-search";
-        version = "4.15.11.0.20240507.65416";
+        version = "4.16.13.0.20240517.214404";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/wrap-search-4.15.11.0.20240507.65416.tar";
-          sha256 = "0drd0qpi5ygb1xbss5hdxfm4216pmxjhvp6fh2vqzj2fl7rwl7n4";
+          url = "https://elpa.gnu.org/devel/wrap-search-4.16.13.0.20240517.214404.tar";
+          sha256 = "14rk7gyab0m19z0rhrpqcfdqrdrbz9v5zw36rkn5qxzrpv6cw7hq";
         };
         packageRequires = [];
         meta = {
@@ -7463,10 +7463,10 @@
       elpaBuild {
         pname = "xref";
         ename = "xref";
-        version = "1.6.3.0.20240516.220611";
+        version = "1.6.3.0.20240518.3950";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xref-1.6.3.0.20240516.220611.tar";
-          sha256 = "16kq4xaxvl1l5kkd91iw98fab3937lr94wyzbbhl2prr31a00y94";
+          url = "https://elpa.gnu.org/devel/xref-1.6.3.0.20240518.3950.tar";
+          sha256 = "0k60vvhpw5bzbs3qv28sip7dl2p44m8bczx54ff32klgfwpk06zk";
         };
         packageRequires = [ emacs ];
         meta = {
