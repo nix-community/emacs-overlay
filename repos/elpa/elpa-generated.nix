@@ -295,10 +295,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.4";
+        version = "14.0.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-14.0.4.tar";
-          sha256 = "14rfv7xlwdqp42dilmpg11d58q8pzw15fv01hq80iv9kyzsfvxd7";
+          url = "https://elpa.gnu.org/packages/auctex-14.0.5.tar";
+          sha256 = "0sycj6ad5jazmsxq37hsnvbywkpj66lrw3d3mxqr1wqkb67cdd3k";
         };
         packageRequires = [ emacs ];
         meta = {

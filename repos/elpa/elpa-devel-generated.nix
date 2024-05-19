@@ -345,10 +345,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.4.0.20240515.75917";
+        version = "14.0.5.0.20240519.74332";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.4.0.20240515.75917.tar";
-          sha256 = "1ydz1hb0719h9mwyk982rcr4pjr814fy7q12zphw320pqlsqshk7";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.5.0.20240519.74332.tar";
+          sha256 = "02bqmdbvm7x19m23ad215m2alisr219vg0c1vjpl2kabywnhykz7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1447,10 +1447,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240518.175933";
+        version = "2.3.5.0.20240519.50847";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240518.175933.tar";
-          sha256 = "009f7slf24dl9l5iz3lcylw2j4sjb7rccsnnajj81rfwsa69c1i1";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240519.50847.tar";
+          sha256 = "1z76dbhj0fyvqz58xnk4k77zbjc05gk0r34b7h7xv2njzng9ryfy";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1950,10 +1950,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240515.145018";
+        version = "1.17.0.20240518.213720";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240515.145018.tar";
-          sha256 = "15p7s67aln8yhbhbzmxwbd716bivmja42fki9civkjyh44dnamiw";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240518.213720.tar";
+          sha256 = "10hpsip9ai41pxh5a32dwh9z90h2lrjvd3jh666zl3m11g906iwh";
         };
         packageRequires = [
           compat
@@ -2222,10 +2222,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20240508.171402";
+        version = "5.6snapshot0.20240518.154805";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240508.171402.tar";
-          sha256 = "1cks139h2gd4wzb5lf8sbdpqhdp6pbihm57vq2lnk879qjj68yqy";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240518.154805.tar";
+          sha256 = "0hscaz2nn08zv54gr2xfcg4pf66hycjsz31v603mbqyzgx6538hl";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3051,10 +3051,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240517.71341";
+        version = "9.0.2pre0.20240518.201031";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240517.71341.tar";
-          sha256 = "0adm4pvvbxhkkh3bx44ndaphigfm85vif5h3ckrnd8nm2qy1lakz";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240518.201031.tar";
+          sha256 = "1jypkbdkdb46i69dwvsn8v8q09fqfq2pyxnvn0v4f4fvbbyj8540";
         };
         packageRequires = [ emacs ];
         meta = {
