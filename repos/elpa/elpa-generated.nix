@@ -1816,10 +1816,10 @@
       elpaBuild {
         pname = "elisp-benchmarks";
         ename = "elisp-benchmarks";
-        version = "1.15";
+        version = "1.16";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.15.tar";
-          sha256 = "1y15pqarrwy31jjcnb8yi2xchsg0d8af9njnbkj628bg9hb026qc";
+          url = "https://elpa.gnu.org/packages/elisp-benchmarks-1.16.tar";
+          sha256 = "0v5db89z6hirvixgjwyz3a9dkx6xf486hy51sprvslki706m08p2";
         };
         packageRequires = [];
         meta = {
@@ -3285,10 +3285,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.14.3";
+        version = "0.15.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/llm-0.14.3.tar";
-          sha256 = "1zb7jj7fsr4d5lpwlm5n160dbswdwcn77wjnrwm0rc3vr0kvl6zd";
+          url = "https://elpa.gnu.org/packages/llm-0.15.0.tar";
+          sha256 = "1y3gs8zsng87wmlkx5az396hci4xyn0ww7cbaavisqbrxam51qvj";
         };
         packageRequires = [ emacs plz ];
         meta = {

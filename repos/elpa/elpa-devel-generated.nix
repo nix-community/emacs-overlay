@@ -1354,10 +1354,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.11.1.0.20240517.230526";
+        version = "0.11.1.0.20240518.161137";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.11.1.0.20240517.230526.tar";
-          sha256 = "1036g3pfrcmzk9sc714szprv29q854b6fi8sgz3dplxd368vd3vw";
+          url = "https://elpa.gnu.org/devel/dape-0.11.1.0.20240518.161137.tar";
+          sha256 = "1v359ilhbpsvyvr7x1c9lj2hadsblp2lxd7vwsqx87bf1ls2cpzi";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1447,10 +1447,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240518.63648";
+        version = "2.3.5.0.20240518.175933";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240518.63648.tar";
-          sha256 = "0h5m44a1f5hx12x650g619ngz30nz49z3lhpbvqnx4lni4gpa7aq";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240518.175933.tar";
+          sha256 = "009f7slf24dl9l5iz3lcylw2j4sjb7rccsnnajj81rfwsa69c1i1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2030,10 +2030,10 @@
       elpaBuild {
         pname = "elisp-benchmarks";
         ename = "elisp-benchmarks";
-        version = "1.15.0.20240515.183707";
+        version = "1.16.0.20240518.180006";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/elisp-benchmarks-1.15.0.20240515.183707.tar";
-          sha256 = "014na8x7js49cgj7h9gk1f74fxr51x77i119k8a44izaw20pz7s8";
+          url = "https://elpa.gnu.org/devel/elisp-benchmarks-1.16.0.20240518.180006.tar";
+          sha256 = "1pc3qs0j8hh68lbh4lqyf2xkahiylpqaaac3cpvard0wdp9b4wsr";
         };
         packageRequires = [];
         meta = {
@@ -3630,10 +3630,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.14.3.0.20240516.232255";
+        version = "0.15.0.0.20240518.145931";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.14.3.0.20240516.232255.tar";
-          sha256 = "1s8sbgn1c7g53wjilc8f0yqb43vmhvm6hqdqm9f7m48lbjxwxvnf";
+          url = "https://elpa.gnu.org/devel/llm-0.15.0.0.20240518.145931.tar";
+          sha256 = "0dzvgq7lvlg62rzv9p62r5m0gm5glwd37mnw3sf6w5h3jfnkpzv0";
         };
         packageRequires = [ emacs plz ];
         meta = {
@@ -4453,10 +4453,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240517.114304";
+        version = "9.7pre0.20240518.112018";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240517.114304.tar";
-          sha256 = "07h81y9xlaml0ycj1f77d2jnk6qfnj62v5xsflb0gwrqj3ab1hhw";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240518.112018.tar";
+          sha256 = "0prv40smysa92zyfjqswrmbwbkqdvm5a5gqs7vy5dixp51ci8lx5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5177,10 +5177,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20240509.75621";
+        version = "0.28.0.20240518.202234";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20240509.75621.tar";
-          sha256 = "0cr6sq1d658pw7agrscnwgydfkj09fy64x7895mwlwj0r165gfwk";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20240518.202234.tar";
+          sha256 = "0nk9rdr62c9j27gbjz3z6ri35aw026pmj6lhqvn6j9ci8ijif3yf";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -6884,10 +6884,10 @@
       elpaBuild {
         pname = "use-package";
         ename = "use-package";
-        version = "2.4.5.0.20240330.124921";
+        version = "2.4.5.0.20240518.103045";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20240330.124921.tar";
-          sha256 = "0jc1389g63bsy2w2fkw332vpwqrm5xci8skqf7mkg39y8nj2j0fw";
+          url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20240518.103045.tar";
+          sha256 = "0zh4vb5h2733glbj3izflw0laxvf2y34cm924jpgyrjkz66ld6wc";
         };
         packageRequires = [ bind-key emacs ];
         meta = {
