@@ -4159,10 +4159,10 @@
       elpaBuild {
         pname = "org-transclusion";
         ename = "org-transclusion";
-        version = "1.3.2";
+        version = "1.4.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-transclusion-1.3.2.tar";
-          sha256 = "14w9n10s6nh3nylkx3xzbqjb9pp4dja85agh0h2bzlbkaq4j7vij";
+          url = "https://elpa.gnu.org/packages/org-transclusion-1.4.0.tar";
+          sha256 = "0ci6xja3jkj1a9f76sf3780gcjrdpbds2y2bwba3b55fjmr1fscl";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -5484,10 +5484,10 @@
       elpaBuild {
         pname = "substitute";
         ename = "substitute";
-        version = "0.2.1";
+        version = "0.3.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/substitute-0.2.1.tar";
-          sha256 = "09cqxfp9az6cckh0bq1155g6xh9rjn0ppjyc6879ihx6ba61li53";
+          url = "https://elpa.gnu.org/packages/substitute-0.3.0.tar";
+          sha256 = "1rnri7rp6kbxmfv6r9sf8a6vs5dmn47qwlc7y2wr98iffww3hxzr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6481,6 +6481,21 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/window-commander.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    window-tool-bar = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "window-tool-bar";
+        ename = "window-tool-bar";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/window-tool-bar-0.2.tar";
+          sha256 = "191v21rrw1j560512mjn1s1avhirk1awy746xajjra8lb1ywnxw7";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/window-tool-bar.html";
           license = lib.licenses.free;
         };
       }) {};

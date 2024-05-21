@@ -1064,10 +1064,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.5.0.20240519.190339";
+        version = "29.1.4.5.0.20240520.101243";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/compat-29.1.4.5.0.20240519.190339.tar";
-          sha256 = "0ksqw47llj5s947cznqav2bc03618aydbhjag1qnnc8ladh7wvay";
+          url = "https://elpa.gnu.org/devel/compat-29.1.4.5.0.20240520.101243.tar";
+          sha256 = "0ik2qlvkd414fs2zpks7bfdylcwpchx0mw2d5932156k3bchm0ib";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -1099,10 +1099,10 @@
       elpaBuild {
         pname = "consult-denote";
         ename = "consult-denote";
-        version = "0.0.0.0.20240515.40125";
+        version = "0.0.0.0.20240520.90759";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-denote-0.0.0.0.20240515.40125.tar";
-          sha256 = "1z8xa2g2g623g6c2wfkj1k1a2xna4rd1la2zlsiagjw60x4lqi3x";
+          url = "https://elpa.gnu.org/devel/consult-denote-0.0.0.0.20240520.90759.tar";
+          sha256 = "1giawmca8kkhv3nhd5qjvy3lp6mb4ssqvib1fwzc3dkq43hb7sy2";
         };
         packageRequires = [ consult denote emacs ];
         meta = {
@@ -1205,10 +1205,10 @@
       elpaBuild {
         pname = "counsel";
         ename = "counsel";
-        version = "0.14.2.0.20240502.81210";
+        version = "0.14.2.0.20240520.132838";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/counsel-0.14.2.0.20240502.81210.tar";
-          sha256 = "1d99mdv8ya5b4za3g28rckr1h6pgviy66j833s5r9mqh0ca11m9z";
+          url = "https://elpa.gnu.org/devel/counsel-0.14.2.0.20240520.132838.tar";
+          sha256 = "1xpvkyljahcjf84f4b40ivax1i06vyyyhlj3v7x0g90qjl6ba2cr";
         };
         packageRequires = [ emacs ivy swiper ];
         meta = {
@@ -1447,10 +1447,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240519.150106";
+        version = "2.3.5.0.20240520.93621";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240519.150106.tar";
-          sha256 = "0yazki5j1a3r379vg0y7623p6ac8j2r4cjgmpnmxdgsqwmqym43b";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240520.93621.tar";
+          sha256 = "12mxsadpikjp3315cd20cp59r9f3g9jznkljp2yc3bkkjfrbjz5v";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4453,10 +4453,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240519.133845";
+        version = "9.7pre0.20240520.132413";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240519.133845.tar";
-          sha256 = "0m6fvd5hh67ln00j2ahmrx0sdc7f54y6c2m306si6vsdh97b2x2y";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240520.132413.tar";
+          sha256 = "1cff1r6chkz4v2ylh8k5nwr8j7wf7z019q9amhm8aiyixd0mjiix";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4606,10 +4606,10 @@
       elpaBuild {
         pname = "org-transclusion";
         ename = "org-transclusion";
-        version = "1.3.2.0.20240420.151651";
+        version = "1.4.0.0.20240520.170949";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-transclusion-1.3.2.0.20240420.151651.tar";
-          sha256 = "0izvaxis7yc2zfxff3dzsc27r8s4kl65x97rjxhz0cp3iqfsb91x";
+          url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20240520.170949.tar";
+          sha256 = "15i8my50y1m44rhk06rfs6bwlc3mavb73bjysg3wp1j132m2dcrl";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -6127,10 +6127,10 @@
       elpaBuild {
         pname = "standard-themes";
         ename = "standard-themes";
-        version = "2.0.1.0.20240427.84421";
+        version = "2.0.1.0.20240520.83250";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/standard-themes-2.0.1.0.20240427.84421.tar";
-          sha256 = "09vmyjm148r1ajxlsrdqrgi988a2px5dn5z9k0l3lg88a38rxgz6";
+          url = "https://elpa.gnu.org/devel/standard-themes-2.0.1.0.20240520.83250.tar";
+          sha256 = "08lb47hilg5dniqxlxp773s16m0shqmglcrf1qdm48ddg05911gx";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6160,10 +6160,10 @@
       elpaBuild {
         pname = "substitute";
         ename = "substitute";
-        version = "0.2.1.0.20240117.30048";
+        version = "0.3.0.0.20240520.81717";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/substitute-0.2.1.0.20240117.30048.tar";
-          sha256 = "1vkjg3w12r7j3dl5jx5wha412lknns37535vjd4x6xgk2rs3yvh0";
+          url = "https://elpa.gnu.org/devel/substitute-0.3.0.0.20240520.81717.tar";
+          sha256 = "1y30d2hslb7zpym45ss48nqv11hbdmgclm4k9w0yv5z0mwka1y2w";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6243,10 +6243,10 @@
       elpaBuild {
         pname = "swiper";
         ename = "swiper";
-        version = "0.14.2.0.20240405.204232";
+        version = "0.14.2.0.20240520.120545";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/swiper-0.14.2.0.20240405.204232.tar";
-          sha256 = "1b5dn8v6rm6m7b2agdxf50jkmrfx6ac8fnwyqabr3zzcshpl6ixm";
+          url = "https://elpa.gnu.org/devel/swiper-0.14.2.0.20240520.120545.tar";
+          sha256 = "1wcxf1d3kn19yq3gk4d4fqs7p61i1rm316glzlcksny6rp2f1sma";
         };
         packageRequires = [ emacs ivy ];
         meta = {
@@ -7279,6 +7279,24 @@
         packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/window-commander.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    window-tool-bar = callPackage ({ elpaBuild
+                                   , emacs
+                                   , fetchurl
+                                   , lib }:
+      elpaBuild {
+        pname = "window-tool-bar";
+        ename = "window-tool-bar";
+        version = "0.2.0.20240519.64147";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/window-tool-bar-0.2.0.20240519.64147.tar";
+          sha256 = "1z5fdlrrjdx0lhfwzahnlqxg75fy9abrj3izc8mfwy5j1bkrym6m";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/window-tool-bar.html";
           license = lib.licenses.free;
         };
       }) {};
