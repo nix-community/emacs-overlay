@@ -1099,10 +1099,10 @@
       elpaBuild {
         pname = "consult-denote";
         ename = "consult-denote";
-        version = "0.0.0.0.20240520.90759";
+        version = "0.0.0.0.20240521.82207";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-denote-0.0.0.0.20240520.90759.tar";
-          sha256 = "1giawmca8kkhv3nhd5qjvy3lp6mb4ssqvib1fwzc3dkq43hb7sy2";
+          url = "https://elpa.gnu.org/devel/consult-denote-0.0.0.0.20240521.82207.tar";
+          sha256 = "1yj93195gzjgwfms6k2chwbhq3w14vpab7r9dq24gjxcgb3f63w3";
         };
         packageRequires = [ consult denote emacs ];
         meta = {
@@ -4453,10 +4453,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240520.132413";
+        version = "9.7pre0.20240521.135840";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240520.132413.tar";
-          sha256 = "1cff1r6chkz4v2ylh8k5nwr8j7wf7z019q9amhm8aiyixd0mjiix";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240521.135840.tar";
+          sha256 = "06j7kjbpd390i0kqvvnlkpdzqkwiicbdgjymif338l0qx2kl4sg5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4472,10 +4472,10 @@
       elpaBuild {
         pname = "org-contacts";
         ename = "org-contacts";
-        version = "1.1.0.20240521.52328";
+        version = "1.1.0.20240521.114436";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240521.52328.tar";
-          sha256 = "1hrr7fvl6510vhza5297qrbd8591k2fb44sz98k1hgyi81bbrx1w";
+          url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240521.114436.tar";
+          sha256 = "0srbl81ngk24c9kf991ps2j53kpqriwgs8ld4lfcqmxzclr5y8iv";
         };
         packageRequires = [ emacs org ];
         meta = {
