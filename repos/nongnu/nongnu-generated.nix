@@ -2092,10 +2092,10 @@
       elpaBuild {
         pname = "mastodon";
         ename = "mastodon";
-        version = "1.0.12";
+        version = "1.0.21";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.12.tar";
-          sha256 = "1kmzlz9sb7vkyw84kmpg39zj2hhyrvpb0g6h54ikrxccbn8g22s2";
+          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.21.tar";
+          sha256 = "1qlpkg28q4iyvjjzv8b40b8q7ni7rc94lj5akgzxbzw4avpp1217";
         };
         packageRequires = [ emacs persist request ];
         meta = {
