@@ -11600,15 +11600,15 @@
   "repo": "ema2159/centaur-tabs",
   "unstable": {
    "version": [
-    20240518,
-    630
+    20240521,
+    2204
    ],
    "deps": [
     "cl-lib",
     "powerline"
    ],
-   "commit": "c86a0abdf2b3fbdfd0c2725a5807196cc9fa6e8e",
-   "sha256": "1b4may712jx55pdyi8sbwvrr9pricyvgyirrgwy5py0magr9xpd8"
+   "commit": "3346b23545932c73c4c88a4cdb54778ecff95443",
+   "sha256": "1p2jllqv6d5xh1j06y9844msww56ldinnil8c1zd9jd4q6jsvnrz"
   },
   "stable": {
    "version": [
@@ -17551,17 +17551,17 @@
   "repo": "mkcms/compiler-explorer.el",
   "unstable": {
    "version": [
-    20240516,
-    1500
+    20240517,
+    1816
    ],
    "deps": [
     "eldoc",
     "map",
-    "request",
+    "plz",
     "seq"
    ],
-   "commit": "620edfe492f33bc00672d5ff34ad6dcebda7a8f0",
-   "sha256": "0bilh9w76fspc96i21s44c6j1wnalm3f6w6mil83hqf9wbxac1hl"
+   "commit": "ca01cbfa5941750f3cf2232f00e28032ef7f9bce",
+   "sha256": "05yzp9gch1hw10xgk742zdgky0vbbqhyn6fzxj2n6ilwaslcnprh"
   },
   "stable": {
    "version": [
@@ -46858,14 +46858,14 @@
   "repo": "emacs-geiser/chibi",
   "unstable": {
    "version": [
-    20240519,
-    2215
+    20240521,
+    2252
    ],
    "deps": [
     "geiser"
    ],
-   "commit": "da68e9bcf4382f07121ae3c103f5b6847b3f3047",
-   "sha256": "0f883rcf8qqvfcfm3yfk5w6jzr0nxfmr2rlk0hf9395lcwyy5ccg"
+   "commit": "2502fed1349c2703eea528b74bcc980ad6bceab8",
+   "sha256": "1j8vld3s653af8jyvdb3sl16ix3al4fxprawgi3r9rrvrai2wz22"
   },
   "stable": {
    "version": [
@@ -53404,15 +53404,15 @@
   "unstable": {
    "version": [
     20240521,
-    633
+    1457
    ],
    "deps": [
     "helm-core",
     "popup",
     "wfnames"
    ],
-   "commit": "055ea7e3219f2177108bf226d25318af69faa265",
-   "sha256": "1pzn85s4yqv3lzd3pklp3wci1bfigky0x42k3xx0dwb2dxqqnr8i"
+   "commit": "c65a9039b6574183aa3f3e0b647c85470c002339",
+   "sha256": "0m0b6gb393q60cha19wm0xsry6rihqyp2v6yqcrbmhjr4qbsmni6"
   },
   "stable": {
    "version": [
@@ -75791,27 +75791,27 @@
   "unstable": {
    "version": [
     20240521,
-    1104
+    1721
    ],
    "deps": [
     "persist",
     "request"
    ],
-   "commit": "0d91d5e874c526865eda543d3cb7580ac1eb25ad",
-   "sha256": "1ywx955hwip6mqyd03r2b9vnzywqhdd3913zxbx2c8vq1qrg471i"
+   "commit": "49def07b3d9b6f0718ef9402a3808ca01557245e",
+   "sha256": "158a5hqhmz1dvdg7rcrdikbsqli8gc1kwks6gvbji2qb99zcd8x6"
   },
   "stable": {
    "version": [
     1,
     0,
-    20
+    21
    ],
    "deps": [
     "persist",
     "request"
    ],
-   "commit": "0d91d5e874c526865eda543d3cb7580ac1eb25ad",
-   "sha256": "1ywx955hwip6mqyd03r2b9vnzywqhdd3913zxbx2c8vq1qrg471i"
+   "commit": "49def07b3d9b6f0718ef9402a3808ca01557245e",
+   "sha256": "158a5hqhmz1dvdg7rcrdikbsqli8gc1kwks6gvbji2qb99zcd8x6"
   }
  },
  {
@@ -75949,11 +75949,11 @@
   "url": "https://git.code.sf.net/p/matlab-emacs/src",
   "unstable": {
    "version": [
-    20240520,
-    1643
+    20240521,
+    1748
    ],
-   "commit": "df9ea61c998325eb02b53eb7e40617dfcaf6ca32",
-   "sha256": "1h2q9nn9imarbiwai9dmk1kpyspbxbh4xfxmqxqgl0k1glvny10q"
+   "commit": "a78b368387c85437f8de187acf0a2b1cbeeacc3f",
+   "sha256": "1aw1xm0dawppzr8vjnry6rigvxx204h1msrxjxsvnljr4xr9i40h"
   }
  },
  {
@@ -79683,11 +79683,11 @@
   "repo": "mkcms/mu4e-overview",
   "unstable": {
    "version": [
-    20240520,
-    1559
+    20240521,
+    1445
    ],
-   "commit": "8b408949b8e0141001b7ef4cb7de6714ab9388f6",
-   "sha256": "05ay0xn2yi0dbqydw9j1m5nf1li902kpgsb5a2s29gmyk7sl4y0a"
+   "commit": "51327c894721680633292a43a4e610542b4eceb3",
+   "sha256": "1pxapgihcf5c8ycmqzd2gysm0v6r0pw41kbym4xdwyqr6alhz94a"
   },
   "stable": {
    "version": [
@@ -128764,14 +128764,14 @@
   "repo": "cjennings/emacs-wttrin",
   "unstable": {
    "version": [
-    20240422,
-    1633
+    20240521,
+    2004
    ],
    "deps": [
     "xterm-color"
    ],
-   "commit": "9b98fedc44b1ddcebaa48df2975493b37797c2fb",
-   "sha256": "180amp1n0qdn6m6vlzg0ddfxfqf37fjaswfxdxn03298j0jgzw14"
+   "commit": "5655b5fd438622581f84eb84c8880f20e11b87ed",
+   "sha256": "1mna2jahwv6kyr832jba4ch3xwx618v4dwhwaxxchv9hzgxpf38g"
   },
   "stable": {
    "version": [
