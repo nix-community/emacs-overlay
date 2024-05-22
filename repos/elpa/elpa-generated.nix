@@ -430,10 +430,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "1.1.0";
+        version = "1.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/beframe-1.1.0.tar";
-          sha256 = "1sdzpywyvy3db191msjc1579gfn23rsha8vvbz2x5g9hnpzxsd6x";
+          url = "https://elpa.gnu.org/packages/beframe-1.1.1.tar";
+          sha256 = "0xx2zvgjilivi6nnr2x9bwwcifinj66j6r07wxjawqkrsknyypas";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5484,10 +5484,10 @@
       elpaBuild {
         pname = "substitute";
         ename = "substitute";
-        version = "0.3.0";
+        version = "0.3.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/substitute-0.3.0.tar";
-          sha256 = "1rnri7rp6kbxmfv6r9sf8a6vs5dmn47qwlc7y2wr98iffww3hxzr";
+          url = "https://elpa.gnu.org/packages/substitute-0.3.1.tar";
+          sha256 = "0038kkn6v2w3asg9abwary2cacr9wbw90wdvq7q9wyk1818cygff";
         };
         packageRequires = [ emacs ];
         meta = {
