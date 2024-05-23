@@ -1079,10 +1079,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.6.0.20240517.91901";
+        version = "1.7.0.20240523.75413";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.6.0.20240517.91901.tar";
-          sha256 = "0nyx7dncdqv40cfwzy2hfi4f23mph6q41yz5d04r0mzachpbh5zg";
+          url = "https://elpa.gnu.org/devel/consult-1.7.0.20240523.75413.tar";
+          sha256 = "1az70x9ymb9sqp1c2sajyaz60rnpmb088a18jfmp8i8s1r2cx8af";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1170,10 +1170,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.3.0.20240514.120535";
+        version = "1.4.0.20240523.75251";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.3.0.20240514.120535.tar";
-          sha256 = "0nqq690pnjx7dlab6ba1y1n8m6bhbwm1yl7iqzv8php9j4bxyd20";
+          url = "https://elpa.gnu.org/devel/corfu-1.4.0.20240523.75251.tar";
+          sha256 = "0jff7pyks2bj9lsx2xjxq30mc5l4m3qn3xgs2anbpbhi2pwbaaf9";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4530,10 +4530,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.2.0.20240515.193202";
+        version = "1.2.0.20240523.75726";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.2.0.20240515.193202.tar";
-          sha256 = "05mbgm95rlcv5liswlckd26izz5p3a6mkcfnz60widnilfmza9k6";
+          url = "https://elpa.gnu.org/devel/org-modern-1.2.0.20240523.75726.tar";
+          sha256 = "1czxdlx1cp34092k5s91qrd2qmd8p1vc7xasv9kghprpr2qv0m7d";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4883,10 +4883,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.8.0.20240425.201348";
+        version = "0.9pre0.20240522.193655";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/plz-0.8.0.20240425.201348.tar";
-          sha256 = "00kprdnnz584fa2r8mkn4wzyk4fyxgn5d22z6s5c6lag0il1bjvc";
+          url = "https://elpa.gnu.org/devel/plz-0.9pre0.20240522.193655.tar";
+          sha256 = "0m0p254j3gcpyqldrv5498yzplansdrydvgq85j88ricmjdngch2";
         };
         packageRequires = [ emacs ];
         meta = {

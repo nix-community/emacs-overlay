@@ -952,10 +952,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.6";
+        version = "1.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-1.6.tar";
-          sha256 = "00wsv6dvlyf7ygi586pdyhgp7f5ic2qqyqjz3g2g8hmgya5javdb";
+          url = "https://elpa.gnu.org/packages/consult-1.7.tar";
+          sha256 = "02ji5yxa92jj7chs6al5amjdag1waz2sngbbk45mgg9nv81b4d3c";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1036,10 +1036,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.3";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-1.3.tar";
-          sha256 = "13y0dws1k4682v039ab6b0xxqlg7anknscqs20bmj8lfm2z48znx";
+          url = "https://elpa.gnu.org/packages/corfu-1.4.tar";
+          sha256 = "0jsxrs08zwbwb1mzn8a2ja3wr2w34cx8ca09l4fz05labv7p7i85";
         };
         packageRequires = [ compat emacs ];
         meta = {
