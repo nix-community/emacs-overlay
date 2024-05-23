@@ -1218,10 +1218,10 @@
       elpaBuild {
         pname = "geiser";
         ename = "geiser";
-        version = "0.30";
+        version = "0.31";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/geiser-0.30.tar";
-          sha256 = "0h63skslmc23rjlsrqmcnqf2s431ml0wmkbza38j44kzxnsz0x5g";
+          url = "https://elpa.nongnu.org/nongnu/geiser-0.31.tar";
+          sha256 = "0szyasza76ak4qny9v9i3sk1m3mahlxcvvsk078q8rp9cms5lzkv";
         };
         packageRequires = [ emacs project ];
         meta = {
