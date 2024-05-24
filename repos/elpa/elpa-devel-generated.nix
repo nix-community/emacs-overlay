@@ -507,10 +507,10 @@
       elpaBuild {
         pname = "bicep-ts-mode";
         ename = "bicep-ts-mode";
-        version = "0.1.3.0.20240218.140135";
+        version = "0.1.3.0.20240523.80959";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20240218.140135.tar";
-          sha256 = "1qa1ws7hvn7ni8qnrzhmwnf8hq2wb3dc36i49vdiv0rf68kci210";
+          url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20240523.80959.tar";
+          sha256 = "10kiywk5qkn9vyv4wsw033rj9i9zsnpjb6q1wzv1qlrghjpanhp5";
         };
         packageRequires = [];
         meta = {
@@ -1354,10 +1354,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.11.1.0.20240518.161137";
+        version = "0.11.1.0.20240523.175536";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.11.1.0.20240518.161137.tar";
-          sha256 = "1v359ilhbpsvyvr7x1c9lj2hadsblp2lxd7vwsqx87bf1ls2cpzi";
+          url = "https://elpa.gnu.org/devel/dape-0.11.1.0.20240523.175536.tar";
+          sha256 = "1b861lkkd833lg09xlipl2dfrlbvdc46f0jdppmx2varh7z3viqx";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -3068,10 +3068,10 @@
       elpaBuild {
         pname = "idlwave";
         ename = "idlwave";
-        version = "6.5.0.0.20240430.163614";
+        version = "6.5.1.0.20240523.142720";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/idlwave-6.5.0.0.20240430.163614.tar";
-          sha256 = "165lbvhrvrd1szvqns6pd7wmr9zxszzvq3lqz11qg20didi6sngr";
+          url = "https://elpa.gnu.org/devel/idlwave-6.5.1.0.20240523.142720.tar";
+          sha256 = "00i7kl0j7aacm7vyjgmm2kqhjjb3s70g69ka3sqhigm7s1hn3zk9";
         };
         packageRequires = [];
         meta = {
@@ -3809,10 +3809,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.6.0.20240404.45149";
+        version = "1.6.0.20240523.124011";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/marginalia-1.6.0.20240404.45149.tar";
-          sha256 = "1bqynrmb99691k0cmdn30g780356gff30bd7lirlriraabj19y7h";
+          url = "https://elpa.gnu.org/devel/marginalia-1.6.0.20240523.124011.tar";
+          sha256 = "0ysqhi1qbxrwsvssi459jf5mmfckmn63k108bsn7rrs0qgrnijpf";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -7436,10 +7436,10 @@
       elpaBuild {
         pname = "xelb";
         ename = "xelb";
-        version = "0.18.0.20240415.160551";
+        version = "0.19.0.20240523.171835";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xelb-0.18.0.20240415.160551.tar";
-          sha256 = "13bvf0k39bdwh8xr2m096idx371xqdxh2x0g9kh6y65hc80l1k1x";
+          url = "https://elpa.gnu.org/devel/xelb-0.19.0.20240523.171835.tar";
+          sha256 = "19g94lgfas3yyh78fqd981mlsack357hb5ydr4lbj0kr92wwi2cy";
         };
         packageRequires = [ emacs ];
         meta = {

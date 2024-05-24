@@ -2780,6 +2780,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    idlwave = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "idlwave";
+        ename = "idlwave";
+        version = "6.5.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/idlwave-6.5.1.tar";
+          sha256 = "0dd0dm92qyin8k4kgavrg82zwjhv6wsjq6gk55rzcspx0s8y2c24";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/idlwave.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     ilist = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "ilist";
@@ -6624,16 +6639,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    xelb = callPackage ({ cl-generic, elpaBuild, emacs, fetchurl, lib }:
+    xelb = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "xelb";
         ename = "xelb";
-        version = "0.18";
+        version = "0.19";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xelb-0.18.tar";
-          sha256 = "1qixb236z01azjbc1xycji99rjkq747hip4gcf0gli1is8ink0bs";
+          url = "https://elpa.gnu.org/packages/xelb-0.19.tar";
+          sha256 = "1jgpb1ym7p2dfkk45zrv6w1jqgw66sb76jvjfjsqbrkx5605x2hk";
         };
-        packageRequires = [ cl-generic emacs ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/xelb.html";
           license = lib.licenses.free;
