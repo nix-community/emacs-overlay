@@ -2119,16 +2119,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    exwm = callPackage ({ elpaBuild, fetchurl, lib, xelb }:
+    exwm = callPackage ({ elpaBuild, emacs, fetchurl, lib, xelb }:
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.28";
+        version = "0.30";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/exwm-0.28.tar";
-          sha256 = "11j1ciyrnzkbcb7ffgs670mxqd1xbxf41c6jwnwwqjfzmqhsm0m4";
+          url = "https://elpa.gnu.org/packages/exwm-0.30.tar";
+          sha256 = "1yscxs0knfb7wz7x6g9nixb6rpn5898q9dpsvk37ayda7nw75b2i";
         };
-        packageRequires = [ xelb ];
+        packageRequires = [ emacs xelb ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/exwm.html";
           license = lib.licenses.free;

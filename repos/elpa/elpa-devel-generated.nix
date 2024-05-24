@@ -988,10 +988,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20240514.232026";
+        version = "0.10.2.0.20240524.20634";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240514.232026.tar";
-          sha256 = "10sh1pi3wb38r5v6vka0g3dxsmp3yr6p2iqrr3icqrx8mbz2mhvz";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240524.20634.tar";
+          sha256 = "1ivrxdm7mwdww9ldacabnldwhcgkdif63wh4hxjx7vmn0y1fhn8v";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1354,10 +1354,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.11.1.0.20240523.175536";
+        version = "0.11.1.0.20240523.212242";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.11.1.0.20240523.175536.tar";
-          sha256 = "1b861lkkd833lg09xlipl2dfrlbvdc46f0jdppmx2varh7z3viqx";
+          url = "https://elpa.gnu.org/devel/dape-0.11.1.0.20240523.212242.tar";
+          sha256 = "0wzkzxwzsym02sr85x24n39zw953w7fv140ycfj6wqk6na4j1xzh";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -2354,10 +2354,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.28.0.20240517.92828";
+        version = "0.30.0.20240524.71918";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.28.0.20240517.92828.tar";
-          sha256 = "0d65091s706ajfqi9kp3m6k9hvlwhab6f484fs5v14c9rvspy1pa";
+          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240524.71918.tar";
+          sha256 = "09nswb6vj9qv0gv6sj9nv0krj7m22nfymhbam2qyh1awdnw641jd";
         };
         packageRequires = [ emacs xelb ];
         meta = {
