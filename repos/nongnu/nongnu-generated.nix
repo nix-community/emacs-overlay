@@ -2865,10 +2865,10 @@
       elpaBuild {
         pname = "scad-mode";
         ename = "scad-mode";
-        version = "93.3";
+        version = "94.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/scad-mode-93.3.tar";
-          sha256 = "1d3mv50n3d0qg1sxvp11a4i15vc75j9gpzlqcxnc0l1lqhn64rwh";
+          url = "https://elpa.nongnu.org/nongnu/scad-mode-94.0.tar";
+          sha256 = "1cqai7qb9m17rf7llkn9vbxddgn0ixcf3dbnsjk1aflvj8mq9nr3";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3589,10 +3589,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "25.6.20240521220424";
+        version = "25.6.20240523015137";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-25.6.20240521220424.tar";
-          sha256 = "029hy3qmf6nvibbq9w2b964gzbw99lja595h4g1y5zzyrgzqrhrn";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-25.6.20240523015137.tar";
+          sha256 = "1d8ygyp2hj0zmlviwvdkcgxikwfm37h496bf40q0kwvgqi7kyrav";
         };
         packageRequires = [ emacs ];
         meta = {
