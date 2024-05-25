@@ -3167,10 +3167,10 @@
       elpaBuild {
         pname = "ivy";
         ename = "ivy";
-        version = "0.14.2.0.20240519.163855";
+        version = "0.14.2.0.20240524.114155";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ivy-0.14.2.0.20240519.163855.tar";
-          sha256 = "1r1b5znx1dzwpz903sm85sm2yp03yp4mvds782j8lngl46r5ibsr";
+          url = "https://elpa.gnu.org/devel/ivy-0.14.2.0.20240524.114155.tar";
+          sha256 = "0k6nyyc1pmwdsqbvrz1w2bchm426cbgffgqq37sm2n4wjzcvmfz9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4453,10 +4453,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240522.131159";
+        version = "9.7pre0.20240524.175607";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240522.131159.tar";
-          sha256 = "04q9r93qqv9ax60gm2a30xfcjqv5ymbpp7wzsgg86h1qlraj2iyn";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240524.175607.tar";
+          sha256 = "04bbqjsl2iym0sgs5aj63hnzg7hrvhslnlr4f462n53hp71saig2";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5085,10 +5085,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.10.0.0.20240512.175655";
+        version = "0.10.0.0.20240524.200432";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20240512.175655.tar";
-          sha256 = "1228kpfyj3zd1bz8xjv257mhhxgvrj8d67saxgfxix3y62fhb2wc";
+          url = "https://elpa.gnu.org/devel/project-0.10.0.0.20240524.200432.tar";
+          sha256 = "1hxnj875anrk7l0mmbf70h8bg7hs0k4i96z2fmm3b4x8i55pijj1";
         };
         packageRequires = [ emacs xref ];
         meta = {
