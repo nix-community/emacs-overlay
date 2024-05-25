@@ -1299,18 +1299,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    csv-mode = callPackage ({ cl-lib ? null
-                            , elpaBuild
-                            , emacs
-                            , fetchurl
-                            , lib }:
+    csv-mode = callPackage ({ cl-lib ? null, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.23.0.20240114.203711";
+        version = "1.24.0.20240525.82545";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/csv-mode-1.23.0.20240114.203711.tar";
-          sha256 = "0r36dycnc76a5l94ad6p7lkx0f9ma6qmjvnivimgq6man5lw6lxh";
+          url = "https://elpa.gnu.org/devel/csv-mode-1.24.0.20240525.82545.tar";
+          sha256 = "12s0wcb50w1g8cgszafc546r9rgm1bhx2278d6zw7kg9jldz1408";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -4883,10 +4879,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.9pre0.20240522.193655";
+        version = "0.9pre0.20240525.20449";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/plz-0.9pre0.20240522.193655.tar";
-          sha256 = "0m0p254j3gcpyqldrv5498yzplansdrydvgq85j88ricmjdngch2";
+          url = "https://elpa.gnu.org/devel/plz-0.9pre0.20240525.20449.tar";
+          sha256 = "0wij8xqlv09kcwrxs47znxagjf11v4nxbknxn5bmw0hq8ljz5i2g";
         };
         packageRequires = [ emacs ];
         meta = {
