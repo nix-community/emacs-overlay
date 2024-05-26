@@ -35222,15 +35222,15 @@
   "repo": "emacs-evil/evil",
   "unstable": {
    "version": [
-    20240521,
-    954
+    20240526,
+    1348
    ],
    "deps": [
     "cl-lib",
     "goto-chg"
    ],
-   "commit": "0b134d3bbf73c93f5fed2bb89a35f408a9d627ed",
-   "sha256": "1nrvrb520wpphbhj1ck7jz2ks55yd7bkzycbjzbh534zax1nri93"
+   "commit": "e8c8e028261f9d57f8c570952043fcd165df41cb",
+   "sha256": "0vvs8mnk68x4c39v76w190z0wji5zg1vsv1alsy5clpvci7vwjlc"
   },
   "stable": {
    "version": [
@@ -53404,16 +53404,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20240524,
-    1522
+    20240526,
+    1107
    ],
    "deps": [
     "helm-core",
-    "popup",
     "wfnames"
    ],
-   "commit": "04b2baa9abacdd6642c5ace055e0d62a70271bd8",
-   "sha256": "1fszh02ac9j25dj8cr16v5d9x1412zg3bhswb95shwcvi8zcknsn"
+   "commit": "dda71478e367f90288e0c1b98954e7408f888e45",
+   "sha256": "0f6p6j78rk2gjz3aaalq4fj0q1mi6zi2xlyq450yizr0m08ypsj0"
   },
   "stable": {
    "version": [
@@ -54297,14 +54296,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20240524,
-    1522
+    20240525,
+    549
    ],
    "deps": [
     "async"
    ],
-   "commit": "04b2baa9abacdd6642c5ace055e0d62a70271bd8",
-   "sha256": "1fszh02ac9j25dj8cr16v5d9x1412zg3bhswb95shwcvi8zcknsn"
+   "commit": "dd5e1755bb45b88a746ba217914a7921a7807fa7",
+   "sha256": "1dmwkwfb13bfihkmmmcjkdjsfl3wndk1addyp1pml1xxj5xwf68p"
   },
   "stable": {
    "version": [
@@ -77761,28 +77760,28 @@
   "repo": "liuyinz/mise.el",
   "unstable": {
    "version": [
-    20240514,
-    452
+    20240526,
+    1246
    ],
    "deps": [
     "dash",
     "inheritenv"
    ],
-   "commit": "cb19405eba3cfd679a5e3ac75c8c4c1146b16015",
-   "sha256": "0h0xkps9m1g7q21hij23rli7jq1ygzc74h8fn9am9rmj4dgy5dkg"
+   "commit": "91b12eb11980fbf02f0a8548b96013082e4cb96a",
+   "sha256": "08mzq7lny4iqpv7j6irraa7nfc9hb4sqshbci829n6dfrzbj37in"
   },
   "stable": {
    "version": [
     0,
-    1,
+    2,
     0
    ],
    "deps": [
     "dash",
     "inheritenv"
    ],
-   "commit": "e2db0d204890721e372ed89deb554d9a75385486",
-   "sha256": "02j067pyqf2xx48qg383wvhk267pj9wd6ckv1azsa20cm713bph4"
+   "commit": "91b12eb11980fbf02f0a8548b96013082e4cb96a",
+   "sha256": "08mzq7lny4iqpv7j6irraa7nfc9hb4sqshbci829n6dfrzbj37in"
   }
  },
  {
@@ -90903,14 +90902,14 @@
   "url": "https://repo.or.cz/org-tag-beautify.git",
   "unstable": {
    "version": [
-    20240422,
-    607
+    20240526,
+    733
    ],
    "deps": [
     "nerd-icons"
    ],
-   "commit": "2f8b66e7aa2227411665f36d96bfc8a1b184bfbb",
-   "sha256": "0qz3f8phczmpyj8n6m9851cscwb7z0nkn4b5w79k21pgfhcmp6zf"
+   "commit": "a204c1b2026cfc4748a2640774494ef61f3dc802",
+   "sha256": "1d8l70j1nq7b61qdmzrpwkr8ygwycxxvlla62p0kcn48iw5l7jsw"
   }
  },
  {
@@ -121251,26 +121250,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20240519,
-    717
+    20240526,
+    1048
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "6ce3de71c21a55ffe33ecdead57fff290a5d07df",
-   "sha256": "1i36zfww14zjxlcq8gkwj5346356zfcx6ldi59bp9c7vvi2gavg8"
+   "commit": "acc7a3bdf1cb8762de4002251294aad83d0fef6f",
+   "sha256": "048gah738l9ak9i61s4hirpcnp2a0gp124gmd7c0v8c3vnq0l96n"
   },
   "stable": {
    "version": [
     0,
     12,
-    196
+    198
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "6ce3de71c21a55ffe33ecdead57fff290a5d07df",
-   "sha256": "1i36zfww14zjxlcq8gkwj5346356zfcx6ldi59bp9c7vvi2gavg8"
+   "commit": "acc7a3bdf1cb8762de4002251294aad83d0fef6f",
+   "sha256": "048gah738l9ak9i61s4hirpcnp2a0gp124gmd7c0v8c3vnq0l96n"
   }
  },
  {
