@@ -3660,10 +3660,10 @@
       elpaBuild {
         pname = "mpdired";
         ename = "mpdired";
-        version = "1";
+        version = "2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/mpdired-1.tar";
-          sha256 = "08lc0j25kxisykd2l9v4iamalmm5hzsnsm026v808krny28wwbp3";
+          url = "https://elpa.gnu.org/packages/mpdired-2.tar";
+          sha256 = "0synpanyqka8nyz9mma69na307vm5pjvn21znbdvz56gka2mbg23";
         };
         packageRequires = [ emacs ];
         meta = {
