@@ -12789,8 +12789,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20240525,
-    607
+    20240527,
+    703
    ],
    "deps": [
     "clojure-mode",
@@ -12801,8 +12801,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "fd955070f8ab7d8bcc3b373c93da0a75246c2d57",
-   "sha256": "04rknbm68gb4201q9nnzinhl0vchay460q6czd7q62akqcdxb40r"
+   "commit": "ab1fa133ba6110198b237495ba4a04a096fe4ade",
+   "sha256": "13664wlny89ma6zy42mnkd77fkv778b2rh6izcjbax1jaaqna4wv"
   },
   "stable": {
    "version": [
@@ -49548,15 +49548,15 @@
   "url": "https://git.thanosapollo.org/gnosis",
   "unstable": {
    "version": [
-    20240517,
-    334
+    20240527,
+    313
    ],
    "deps": [
     "compat",
     "emacsql"
    ],
-   "commit": "b9c6c04e33ad2f541ab116dda9e460f21034a8eb",
-   "sha256": "0h9jjag7ip4rgwr3if9rjlglsp7fiklx52685d527gkv6wqqd5a7"
+   "commit": "281ad1dbc903b48f250afb14d86cf81961a8a2f1",
+   "sha256": "1i4q77dj1avyf0nwrbz7xyyfzhw57k9zm40gzp8ywj9f8gaavqvx"
   },
   "stable": {
    "version": [
@@ -60292,11 +60292,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20240525,
-    2121
+    20240527,
+    651
    ],
-   "commit": "36e6dc66d39c5de82338c9220e643555bad29bc5",
-   "sha256": "04n255bfgw14zy37y1pyy9wbgapcccb9n63b2m1nxjsf78wlxnvp"
+   "commit": "c98fc9b64167f9da830f36f59f9b0fa85389c668",
+   "sha256": "1vf4f3ah0jy1x1k7h912s33c9gywsdr66n9zcz4ik5vrmgd60yh0"
   }
  },
  {
@@ -68098,11 +68098,11 @@
   "repo": "hperrey/khalel",
   "unstable": {
    "version": [
-    20240314,
-    1347
+    20240527,
+    527
    ],
-   "commit": "9dea9e45ebb2364f9fe873ca773b9324b34b720f",
-   "sha256": "0gqwqhbg4hjlgln5gvkppq3rx2iwrqpdp9ivwspnpfqxrn1b8ihd"
+   "commit": "14ef50352394cd1d62b80bc17ab14f4f801f47cd",
+   "sha256": "017hw2mr810r7hxs8jvnf590n6van8w29ibryz9dwxszrij21gd7"
   },
   "stable": {
    "version": [
@@ -96993,8 +96993,8 @@
   "repo": "emacs-php/phpactor.el",
   "unstable": {
    "version": [
-    20240407,
-    1500
+    20240527,
+    459
    ],
    "deps": [
     "async",
@@ -97002,8 +97002,8 @@
     "f",
     "php-runtime"
    ],
-   "commit": "1916e35e08d746a6ff8a2cd88ae43bdb6842feab",
-   "sha256": "0c9diqgy8v0bcx5011z2sd0q7s2xn2f4y7mpgv0x5fi0qh2a1mw1"
+   "commit": "6b5269ff82785a9bd1e648b2f91e5128353d5a67",
+   "sha256": "0ygnl1xpms8cnp5s7i9ng99azyzg0k3h830mazkhhpwlqhkjffyl"
   },
   "stable": {
    "version": [
@@ -120272,11 +120272,11 @@
   "repo": "justinlime/toggle-term.el",
   "unstable": {
    "version": [
-    20240526,
-    2103
+    20240527,
+    323
    ],
-   "commit": "d1c96a7f058080f3acddb537bea3113d2944b22d",
-   "sha256": "1bssz62samiym3h5r1mqlv359ckbq9fh4dg4w1820db6i2c85x3q"
+   "commit": "73e3dae13a28fec2c0dd52642ca7cfdf1397c730",
+   "sha256": "1mdp21gq0w722f2n8w10hr2d2i14lqpnkmhbq1kg6iksmk2s8rfk"
   }
  },
  {
@@ -130919,26 +130919,26 @@
   "url": "https://gitlab.emacsos.com/sylecn/zero-el",
   "unstable": {
    "version": [
-    20240526,
-    1545
+    20240527,
+    437
    ],
    "deps": [
     "s"
    ],
-   "commit": "4b40d25fac6892c19fe9840ce1d72d5a479ee4d1",
-   "sha256": "1xv9p2sw362lfczfd0sdyffs446l3v2rb5azwyrqj3m78c16j4n6"
+   "commit": "e8d7f3af0fb3a30464fe8239c29b152b3809369b",
+   "sha256": "0g28m88hazp3jzg9clxkcxhk7p045x7nzgaqf604vqpwp3kgnl8b"
   },
   "stable": {
    "version": [
     2,
     10,
-    1
+    2
    ],
    "deps": [
     "s"
    ],
-   "commit": "4b40d25fac6892c19fe9840ce1d72d5a479ee4d1",
-   "sha256": "1xv9p2sw362lfczfd0sdyffs446l3v2rb5azwyrqj3m78c16j4n6"
+   "commit": "e8d7f3af0fb3a30464fe8239c29b152b3809369b",
+   "sha256": "0g28m88hazp3jzg9clxkcxhk7p045x7nzgaqf604vqpwp3kgnl8b"
   }
  },
  {
