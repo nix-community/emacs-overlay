@@ -4120,14 +4120,14 @@
   "url": "https://repo.or.cz/arduino-mode.git",
   "unstable": {
    "version": [
-    20220210,
-    1355
+    20240527,
+    1603
    ],
    "deps": [
     "spinner"
    ],
-   "commit": "652c6a328fa8f2db06534d5f231c6b6933be3edc",
-   "sha256": "16izwrk1dfsa14kylfhsxdwkx76g0jdk0znl1z7cypxh5q9ijy1x"
+   "commit": "b2ffd8441851659cb1cc844156073967729585e5",
+   "sha256": "0jk7l9y3x8p6c6m6qpg7vmzn3yirv0m5h483plq1i2qs8njk5v23"
   }
  },
  {
@@ -42277,15 +42277,15 @@
   "repo": "emacs-php/phpstan.el",
   "unstable": {
    "version": [
-    20230417,
-    1142
+    20240527,
+    2142
    ],
    "deps": [
     "flycheck",
     "phpstan"
    ],
-   "commit": "2dc25cb2f3d83484ea0eb063c9ffca8148828a2b",
-   "sha256": "0drsp230nxs336zzfy8gjr7r3p7m8w9rp4ih1zjwarzl1svpp7yp"
+   "commit": "6f1c7bb357b1eb90b10a081f1831c1c548c40456",
+   "sha256": "1hnnhbma3mgbralp1f5c1gvm9pfswzf5xzi2nr22rs5d9r0zk2fj"
   },
   "stable": {
    "version": [
@@ -59841,11 +59841,11 @@
   "repo": "hniksic/emacs-htmlize",
   "unstable": {
    "version": [
-    20240422,
-    1351
+    20240527,
+    1456
    ],
-   "commit": "54ac89c5edc7a83344cf51d8be08e1e701f88863",
-   "sha256": "0sw9jc860fhlljq9s61qz6cgg2cf43zi2l0ff6mp4np5rdiyrwjd"
+   "commit": "ed5e5b05fd260e8f161a488d56f10e7f6e01fb75",
+   "sha256": "19q4m3bc7dljh04662vm4rr1kz5c11rwyyv27vp01yakwbfig772"
   },
   "stable": {
    "version": [
@@ -67316,21 +67316,6 @@
   }
  },
  {
-  "ename": "kanagawa-theme",
-  "commit": "e4033364b3a2898858cecee0d6deff5779195f29",
-  "sha256": "00zx1zjvshvld6f1q9lk8j08nng1ra0isyhbyhnic6mhljb20mk3",
-  "fetcher": "github",
-  "repo": "meritamen/emacs-kanagawa-theme",
-  "unstable": {
-   "version": [
-    20240526,
-    312
-   ],
-   "commit": "e54196bf3780aca4490d6ccc1f543dae592393c4",
-   "sha256": "1m0mf8hkpdxx13fmffyr3ry0i62xqr3bsk9ssz895a1wyg1b2g6y"
-  }
- },
- {
   "ename": "kanban",
   "commit": "c5c918900ad97075d788b3de658cddbb0c94f5d0",
   "sha256": "04sy524zz5y99pb1nvlvqf9qyk57mrlmjqbjy44crl34ypi8gik6",
@@ -70132,11 +70117,11 @@
   "repo": "ledger/ledger-mode",
   "unstable": {
    "version": [
-    20240423,
-    445
+    20240527,
+    2134
    ],
-   "commit": "c66e3e9adfb5d91f83a401387fad345f12004c8a",
-   "sha256": "1i0rar36xzv2gqkn8cn29m5xz0pwmd5y5in8iac2h2fcxvd48vc5"
+   "commit": "57de7d817296607a9a4721470f64e05c964744da",
+   "sha256": "0y96nxaw7rwc6v47jrgxkdsjhz61p4ylhkb0gk2w63af5009hhzg"
   },
   "stable": {
    "version": [
@@ -72977,8 +72962,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20240526,
-    2242
+    20240527,
+    2333
    ],
    "deps": [
     "dash",
@@ -72989,8 +72974,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "33c3afe43e7eb1b519a9433eaf4feb56cdf18cda",
-   "sha256": "1xw3vaclbdmcnmapgl11dnvjw1f0hjsli3wry4kqxs2w81zdvk12"
+   "commit": "fceda197b563e109a1ed5ff17916fc74bc6d5109",
+   "sha256": "1yy88d8ala50k10w8a8gdr6gdmasa2bfkl5ppj11ww1axmlgigri"
   },
   "stable": {
    "version": [
@@ -75835,28 +75820,28 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20240521,
-    1721
+    20240527,
+    1751
    ],
    "deps": [
     "persist",
     "request"
    ],
-   "commit": "49def07b3d9b6f0718ef9402a3808ca01557245e",
-   "sha256": "158a5hqhmz1dvdg7rcrdikbsqli8gc1kwks6gvbji2qb99zcd8x6"
+   "commit": "476268af7d78d3136d6d6bf11856d0c0d6fd1c7a",
+   "sha256": "1hp9dkyv7nc7123z33838h101jfvicr2gcylsw28sxqnldmakpxd"
   },
   "stable": {
    "version": [
     1,
     0,
-    21
+    22
    ],
    "deps": [
     "persist",
     "request"
    ],
-   "commit": "49def07b3d9b6f0718ef9402a3808ca01557245e",
-   "sha256": "158a5hqhmz1dvdg7rcrdikbsqli8gc1kwks6gvbji2qb99zcd8x6"
+   "commit": "476268af7d78d3136d6d6bf11856d0c0d6fd1c7a",
+   "sha256": "1hp9dkyv7nc7123z33838h101jfvicr2gcylsw28sxqnldmakpxd"
   }
  },
  {
@@ -94928,13 +94913,13 @@
    "version": [
     0,
     9,
-    0
+    1
    ],
    "deps": [
     "track-changes"
    ],
-   "commit": "d3bfb2745cc0858e2741dc2a2f00a86f456656ec",
-   "sha256": "0q60hj9300wiz1kr5x1r3zqhfk97ndyzj2ks49y1r5klmp9w5l9a"
+   "commit": "e9a23e136b8c5f1fb718af93c19cd6ed22d8c98c",
+   "sha256": "1kbn54v100rh6pxl3lc66pspd3nfy7pkv8iyqkg09xqcwyblbf86"
   }
  },
  {
@@ -96881,11 +96866,11 @@
   "repo": "emacs-php/php-mode",
   "unstable": {
    "version": [
-    20240118,
-    1458
+    20240527,
+    1834
    ],
-   "commit": "f0a14387427244251883889ba616c7f042323f6d",
-   "sha256": "1r3vgzfrq87ffp7g0xx44iwjpakcp23fhd5cxbbnwvia0y49vv8l"
+   "commit": "c8e4c16ca0d234f4a659713a94467f0c32ef4bc8",
+   "sha256": "1y42b9blg6l2yxjv0pjj1lw5inxrsvx73fz52qnqvc52rwxm59fq"
   },
   "stable": {
    "version": [
@@ -97027,16 +97012,16 @@
   "repo": "emacs-php/phpstan.el",
   "unstable": {
    "version": [
-    20230417,
-    1142
+    20240527,
+    2142
    ],
    "deps": [
     "compat",
     "php-mode",
     "php-runtime"
    ],
-   "commit": "2dc25cb2f3d83484ea0eb063c9ffca8148828a2b",
-   "sha256": "0drsp230nxs336zzfy8gjr7r3p7m8w9rp4ih1zjwarzl1svpp7yp"
+   "commit": "6f1c7bb357b1eb90b10a081f1831c1c548c40456",
+   "sha256": "1hnnhbma3mgbralp1f5c1gvm9pfswzf5xzi2nr22rs5d9r0zk2fj"
   },
   "stable": {
    "version": [
@@ -111717,14 +111702,14 @@
   "repo": "slime/slime",
   "unstable": {
    "version": [
-    20240524,
-    2130
+    20240527,
+    1527
    ],
    "deps": [
     "macrostep"
    ],
-   "commit": "6e8f9193308e77a3830df037cf73cb0ac278d8a0",
-   "sha256": "0swqr5s3l9kw4wv7li5kd65gn807x91qpivj1lvcv9dlbmwp8r9z"
+   "commit": "e261cc83b2a4675824c196965d060b135f6777ad",
+   "sha256": "1vdxcr77pdzadp2yqb3bwhwkcscyvbp0cxkhkd06nd8gicywxvzi"
   },
   "stable": {
    "version": [
