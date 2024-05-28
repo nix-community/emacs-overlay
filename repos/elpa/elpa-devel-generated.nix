@@ -1949,10 +1949,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240518.213720";
+        version = "1.17.0.20240527.165855";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240518.213720.tar";
-          sha256 = "10hpsip9ai41pxh5a32dwh9z90h2lrjvd3jh666zl3m11g906iwh";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240527.165855.tar";
+          sha256 = "0b9fzh1pny79fd16fmrzhiz4qf5fnjpa0517s0r2sgla3akwvf1i";
         };
         packageRequires = [
           compat
@@ -2221,10 +2221,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20240518.154805";
+        version = "5.6snapshot0.20240527.164724";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240518.154805.tar";
-          sha256 = "0hscaz2nn08zv54gr2xfcg4pf66hycjsz31v603mbqyzgx6538hl";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240527.164724.tar";
+          sha256 = "0yilbyy9f9gxd52ra1ck9h7wjdzjqqhvjbg6s7yzhz2n72lrn2ma";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3329,10 +3329,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.7.0.20240515.101640";
+        version = "1.7.0.20240528.65240";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.7.0.20240515.101640.tar";
-          sha256 = "1ghp16kmplj9kj92867xsv3bnl6f0w95xl8hgjxbck4krj8k6is5";
+          url = "https://elpa.gnu.org/devel/jinx-1.7.0.20240528.65240.tar";
+          sha256 = "0qv1myad7maas5q7q6k0bp3y7khwj6wv2vwhnn6wrj6ghljcl3ns";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4452,10 +4452,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240527.122735";
+        version = "9.7pre0.20240527.225514";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240527.122735.tar";
-          sha256 = "0jz2d0xkaza21pwzyxsxi6bn6q8ldxz8j43f8xfh2svac37mk3xa";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240527.225514.tar";
+          sha256 = "1w1bnh0ksgi0pagw99ygvqywyvsy960j4ly1jii1npzcksd3agpl";
         };
         packageRequires = [ emacs ];
         meta = {
