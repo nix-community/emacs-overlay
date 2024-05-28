@@ -139,10 +139,10 @@
       elpaBuild {
         pname = "arduino-mode";
         ename = "arduino-mode";
-        version = "1.3.0";
+        version = "1.3.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/arduino-mode-1.3.0.tar";
-          sha256 = "167b35s34x51qnlx59sawaz4wzlnk2kf9130ylz2b1bj7jy5n27a";
+          url = "https://elpa.nongnu.org/nongnu/arduino-mode-1.3.1.tar";
+          sha256 = "1k42qx7kgm8svv70czzlkmm3c7cddf93bqvf6267hbkaihhyd21y";
         };
         packageRequires = [ emacs spinner ];
         meta = {
@@ -2092,10 +2092,10 @@
       elpaBuild {
         pname = "mastodon";
         ename = "mastodon";
-        version = "1.0.21";
+        version = "1.0.22";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.21.tar";
-          sha256 = "1qlpkg28q4iyvjjzv8b40b8q7ni7rc94lj5akgzxbzw4avpp1217";
+          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.22.tar";
+          sha256 = "0h8vv7chbxi09zc1i1lqnhdr29bk8l4blnls3mhxnvhzdzil550a";
         };
         packageRequires = [ emacs persist request ];
         meta = {
