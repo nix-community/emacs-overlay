@@ -1306,10 +1306,10 @@
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.24.0.20240525.82545";
+        version = "1.25.0.20240529.65338";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/csv-mode-1.24.0.20240525.82545.tar";
-          sha256 = "12s0wcb50w1g8cgszafc546r9rgm1bhx2278d6zw7kg9jldz1408";
+          url = "https://elpa.gnu.org/devel/csv-mode-1.25.0.20240529.65338.tar";
+          sha256 = "0rr4gz38y1gyzg8mwyl62macjq31rs6fvx3pngamyq1y3ghpivsb";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -2044,10 +2044,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.9.4.0.20240517.145740";
+        version = "0.9.5.0.20240529.70127";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.9.4.0.20240517.145740.tar";
-          sha256 = "0qb849ij6v7d8kk9mkx7nbk24d1dh32kydjddxykyn64xixw79kc";
+          url = "https://elpa.gnu.org/devel/ellama-0.9.5.0.20240529.70127.tar";
+          sha256 = "1x0vlm1wn39icxpb7hifkqyrqah2swrf0lfsx82pbl0kys8qk4wc";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -2917,10 +2917,10 @@
       elpaBuild {
         pname = "guess-language";
         ename = "guess-language";
-        version = "0.0.1.0.20190417.81229";
+        version = "0.0.1.0.20240528.185800";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/guess-language-0.0.1.0.20190417.81229.tar";
-          sha256 = "167cz86pfxxszr57v312m9gb0l9318mvgg2lld6m5ppgzfmxlmnm";
+          url = "https://elpa.gnu.org/devel/guess-language-0.0.1.0.20240528.185800.tar";
+          sha256 = "0hlcnd69mqs90ndp59pqcjdwl27cswnpqy6yjzaspmbya6plv3g6";
         };
         packageRequires = [ cl-lib emacs nadvice ];
         meta = {
@@ -3050,10 +3050,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240527.25107";
+        version = "9.0.2pre0.20240529.11216";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240527.25107.tar";
-          sha256 = "1csi2dpa36vpmsy51hdpdhr17cpys6c1snvh7dhvj13z7ymy1qyd";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240529.11216.tar";
+          sha256 = "1na1bdxkhlif1131n9qhrc1mgx5iqbnq9av86xgxlsz0ksdm3ffs";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4452,10 +4452,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7pre0.20240527.225514";
+        version = "9.7pre0.20240528.234346";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240527.225514.tar";
-          sha256 = "1w1bnh0ksgi0pagw99ygvqywyvsy960j4ly1jii1npzcksd3agpl";
+          url = "https://elpa.gnu.org/devel/org-9.7pre0.20240528.234346.tar";
+          sha256 = "1zbrlizs3qbcxn8w4s6dns9yd6khlrc0zq2qmcqrdnp2i9fgv3ck";
         };
         packageRequires = [ emacs ];
         meta = {

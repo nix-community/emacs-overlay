@@ -1156,10 +1156,10 @@
       elpaBuild {
         pname = "csv-mode";
         ename = "csv-mode";
-        version = "1.24";
+        version = "1.25";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/csv-mode-1.24.tar";
-          sha256 = "00rxyxh9ykmgz42cvc5chbnzwwbngy78kk7jjyyn9rakbxysv7h5";
+          url = "https://elpa.gnu.org/packages/csv-mode-1.25.tar";
+          sha256 = "15yhhn742fqq7699i6jsimg3gpifrhhybiav1qwwzq4prmk9g984";
         };
         packageRequires = [ cl-lib emacs ];
         meta = {
@@ -1831,10 +1831,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.9.4";
+        version = "0.9.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.9.4.tar";
-          sha256 = "12l8k7dwcdgndy0zbdgkhx94y46fkzwjrbwlgj9922zbk38nnz46";
+          url = "https://elpa.gnu.org/packages/ellama-0.9.5.tar";
+          sha256 = "16yaxhb8yj338xrq7l9g6glzfahpqz3zmybjy4mziyn0b2wiqf5n";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
