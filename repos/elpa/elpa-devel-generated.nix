@@ -5084,10 +5084,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.11.0.0.20240526.222330";
+        version = "0.11.0.0.20240528.163155";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.11.0.0.20240526.222330.tar";
-          sha256 = "187xzm1cr3f95qm45hlypnpza71qk2lgin64cdda75r9j8x70hir";
+          url = "https://elpa.gnu.org/devel/project-0.11.0.0.20240528.163155.tar";
+          sha256 = "1cs10gd23samhrkjgh7x8gp0yn90wh0awzmg3s4p4vq6f7m09ddi";
         };
         packageRequires = [ emacs xref ];
         meta = {
