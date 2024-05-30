@@ -510,10 +510,10 @@
       elpaBuild {
         pname = "bicep-ts-mode";
         ename = "bicep-ts-mode";
-        version = "0.1.3.0.20240523.80959";
+        version = "0.1.3.0.20240530.63226";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20240523.80959.tar";
-          sha256 = "10kiywk5qkn9vyv4wsw033rj9i9zsnpjb6q1wzv1qlrghjpanhp5";
+          url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20240530.63226.tar";
+          sha256 = "0xmljjfx7a5b3jfqf7cbpb9102ci5vnkqqww1b328rr42v5sdmqm";
         };
         packageRequires = [];
         meta = {
@@ -1725,10 +1725,10 @@
       elpaBuild {
         pname = "do-at-point";
         ename = "do-at-point";
-        version = "0.1.1.0.20240527.155138";
+        version = "0.1.1.0.20240529.212108";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/do-at-point-0.1.1.0.20240527.155138.tar";
-          sha256 = "0j9jjfs1g61gx1nfmslxgrq0scds9vry2gcrmxv6ydp88irnyik7";
+          url = "https://elpa.gnu.org/devel/do-at-point-0.1.1.0.20240529.212108.tar";
+          sha256 = "18mvz15wic7ahn0fgvg94xg3a55776bxa3s0ifxv94k772j9wrmr";
         };
         packageRequires = [ emacs ];
         meta = {
