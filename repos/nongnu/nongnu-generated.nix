@@ -1645,16 +1645,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    helm = callPackage ({ elpaBuild, fetchurl, helm-core, lib, popup, wfnames }:
+    helm = callPackage ({ elpaBuild, fetchurl, helm-core, lib, wfnames }:
       elpaBuild {
         pname = "helm";
         ename = "helm";
-        version = "3.9.8";
+        version = "3.9.9";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/helm-3.9.8.tar";
-          sha256 = "1vcz3vj6drp5v66s3nsrai39rcwp1q3l2qdd1qxw7n58m4fgrkm6";
+          url = "https://elpa.nongnu.org/nongnu/helm-3.9.9.tar";
+          sha256 = "1k3jq2miivj881h0mpl68zgd229kj50axynsgxizdddg56nfsdm0";
         };
-        packageRequires = [ helm-core popup wfnames ];
+        packageRequires = [ helm-core wfnames ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/helm.html";
           license = lib.licenses.free;
@@ -2092,10 +2092,10 @@
       elpaBuild {
         pname = "mastodon";
         ename = "mastodon";
-        version = "1.0.22";
+        version = "1.0.23";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.22.tar";
-          sha256 = "0h8vv7chbxi09zc1i1lqnhdr29bk8l4blnls3mhxnvhzdzil550a";
+          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.23.tar";
+          sha256 = "0gzikzkjzvscn2q5ga4d351sakrxzihpjkx82v5hhv3495krxxlw";
         };
         packageRequires = [ emacs persist request ];
         meta = {
