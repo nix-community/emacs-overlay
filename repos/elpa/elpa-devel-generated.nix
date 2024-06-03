@@ -1446,10 +1446,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240520.93621";
+        version = "2.3.5.0.20240603.45432";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240520.93621.tar";
-          sha256 = "12mxsadpikjp3315cd20cp59r9f3g9jznkljp2yc3bkkjfrbjz5v";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240603.45432.tar";
+          sha256 = "0jm7q4f4aclgc819i8c6l1xpz2wx12iirvdbdmrsfvmjsj8i7562";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1770,10 +1770,10 @@
       elpaBuild {
         pname = "drepl";
         ename = "drepl";
-        version = "0.3.0.20240511.124331";
+        version = "0.3.0.20240603.71909";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/drepl-0.3.0.20240511.124331.tar";
-          sha256 = "0xfmna8a8nh48ir9nl5gv4y03kqsvrzars74lza5k0cdsslga4gr";
+          url = "https://elpa.gnu.org/devel/drepl-0.3.0.20240603.71909.tar";
+          sha256 = "0fjs0k36xm2sy3p0yi2km7pcrjv3f0gsc6qbrh47qimn7x5b9bkh";
         };
         packageRequires = [ comint-mime emacs ];
         meta = {
@@ -1922,10 +1922,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.7.0.0.20240510.44643";
+        version = "1.7.0.0.20240603.71830";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240510.44643.tar";
-          sha256 = "0iygfxy4h74nd2glx7kb4faw4b0f2gpfakdwi1icfkkn021kr781";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240603.71830.tar";
+          sha256 = "0kdjya01qq2wji0ii6pr3666rxh7l6ysjr2b2d8w0h9n95hfwicn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3050,10 +3050,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240602.81154";
+        version = "9.0.2pre0.20240602.162346";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240602.81154.tar";
-          sha256 = "1jdnw314czak0s76wi9j43w96h5ii2nxxsvn0hb9v2xwly45ri41";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240602.162346.tar";
+          sha256 = "1afkpq73v2vscmrypa1vmyrn1szs5sy7hq7gsynqkfwyvvmipzyk";
         };
         packageRequires = [ emacs ];
         meta = {
