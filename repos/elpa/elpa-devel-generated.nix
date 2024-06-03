@@ -2044,10 +2044,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.9.5.0.20240529.70127";
+        version = "0.9.7.0.20240602.185218";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.9.5.0.20240529.70127.tar";
-          sha256 = "1x0vlm1wn39icxpb7hifkqyrqah2swrf0lfsx82pbl0kys8qk4wc";
+          url = "https://elpa.gnu.org/devel/ellama-0.9.7.0.20240602.185218.tar";
+          sha256 = "1mkzx5ynmx6crbwhc46agrg7h05qrib6d2lvmc43d17sp4l1la8i";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -3050,10 +3050,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240531.203428";
+        version = "9.0.2pre0.20240602.81154";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240531.203428.tar";
-          sha256 = "129k39q80iscraxqjk4bh4x5janndjfbp4ka428majyps2acb9bx";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240602.81154.tar";
+          sha256 = "1jdnw314czak0s76wi9j43w96h5ii2nxxsvn0hb9v2xwly45ri41";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4529,10 +4529,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.2.0.20240523.75726";
+        version = "1.3.0.20240602.92604";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.2.0.20240523.75726.tar";
-          sha256 = "1czxdlx1cp34092k5s91qrd2qmd8p1vc7xasv9kghprpr2qv0m7d";
+          url = "https://elpa.gnu.org/devel/org-modern-1.3.0.20240602.92604.tar";
+          sha256 = "0l40rq6kzrhp71z8xqfdkwfvl0jhja9avrdgyrrrgkzx90abxggn";
         };
         packageRequires = [ compat emacs ];
         meta = {

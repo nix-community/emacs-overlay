@@ -1831,10 +1831,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.9.5";
+        version = "0.9.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.9.5.tar";
-          sha256 = "16yaxhb8yj338xrq7l9g6glzfahpqz3zmybjy4mziyn0b2wiqf5n";
+          url = "https://elpa.gnu.org/packages/ellama-0.9.7.tar";
+          sha256 = "1k59imynhkz7551kg5fna8dnmnqcazlawrx7dxlqy35fdpqb54vb";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -4114,10 +4114,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.2";
+        version = "1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-modern-1.2.tar";
-          sha256 = "1bm8kkcrn0glsb69sapj1zmb2ygd4sxksb3gag4hw1v5w3g51jjh";
+          url = "https://elpa.gnu.org/packages/org-modern-1.3.tar";
+          sha256 = "1lpl9q9ijyp6pwb0qap9ydzkq0pd5xkbfpaqy1nvcy5b906jmkdj";
         };
         packageRequires = [ compat emacs ];
         meta = {
