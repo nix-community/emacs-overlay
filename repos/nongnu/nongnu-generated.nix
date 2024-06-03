@@ -518,6 +518,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    csv2ledger = callPackage ({ csv-mode, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "csv2ledger";
+        ename = "csv2ledger";
+        version = "1.5.2";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/csv2ledger-1.5.2.tar";
+          sha256 = "0n4lvjdk9fllk7c256wp000l8kxmm0si7wzz4lb54r6a0l4diikf";
+        };
+        packageRequires = [ csv-mode emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/csv2ledger.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     cyberpunk-theme = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "cyberpunk-theme";
