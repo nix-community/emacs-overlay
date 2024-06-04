@@ -4054,10 +4054,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7.1";
+        version = "9.7.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.7.1.tar";
-          sha256 = "1igk1qww4r8ngy1mgxgkd9rm65dw90qnnpyi0chx01p9s80wix3b";
+          url = "https://elpa.gnu.org/packages/org-9.7.2.tar";
+          sha256 = "0dnzgd94y6844cvlynxczhy0yj8gmrdid6xrs97ij6arw7nqmh60";
         };
         packageRequires = [ emacs ];
         meta = {
