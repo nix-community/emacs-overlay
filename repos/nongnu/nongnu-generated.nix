@@ -522,10 +522,10 @@
       elpaBuild {
         pname = "csv2ledger";
         ename = "csv2ledger";
-        version = "1.5.2";
+        version = "1.5.3";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/csv2ledger-1.5.2.tar";
-          sha256 = "0n4lvjdk9fllk7c256wp000l8kxmm0si7wzz4lb54r6a0l4diikf";
+          url = "https://elpa.nongnu.org/nongnu/csv2ledger-1.5.3.tar";
+          sha256 = "0s806gd0nix8vywidl7jvqbkcfvjyndij0rrqsz7fqgpw7pspisi";
         };
         packageRequires = [ csv-mode emacs ];
         meta = {
@@ -3604,10 +3604,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "25.7.20240602075123";
+        version = "25.8.20240604084157";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-25.7.20240602075123.tar";
-          sha256 = "076g7qii4j4qg5kinhs57ai5bgp68sjhgaiav2prq04hvzgb2cqp";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-25.8.20240604084157.tar";
+          sha256 = "05zvyry7r9rwxppg3fddwlp4hwvnf0l1z731i1knyf59sngcadv7";
         };
         packageRequires = [ emacs ];
         meta = {
