@@ -2470,14 +2470,19 @@
           license = lib.licenses.free;
         };
       }) {};
-    flymake = callPackage ({ eldoc, elpaBuild, emacs, fetchurl, lib, project }:
+    flymake = callPackage ({ eldoc
+                           , elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib
+                           , project }:
       elpaBuild {
         pname = "flymake";
         ename = "flymake";
-        version = "1.3.7.0.20240503.61639";
+        version = "1.3.7.0.20240604.221628";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20240503.61639.tar";
-          sha256 = "0qrdjynam3nvhm5qwjks308r28f8wlgsfdmdw4d7sb4xqyr2mzrz";
+          url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20240604.221628.tar";
+          sha256 = "0ksvbbzsikpkrr41s5qj7hv8mg1s4mc9b1vfr3zgp2kcdbijkfgg";
         };
         packageRequires = [ eldoc emacs project ];
         meta = {
@@ -6550,10 +6555,10 @@
       elpaBuild {
         pname = "track-changes";
         ename = "track-changes";
-        version = "1.2.0.20240530.190023";
+        version = "1.2.0.20240604.221628";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/track-changes-1.2.0.20240530.190023.tar";
-          sha256 = "069sjg498xywncqz90w5yimdcid15sqiss6f7dw0jnpb00ri92bn";
+          url = "https://elpa.gnu.org/devel/track-changes-1.2.0.20240604.221628.tar";
+          sha256 = "1pkpifyfmll01n5jiq6819l6xxr05p4v9sw4a7ij49rm2lvdkanf";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7292,10 +7297,10 @@
       elpaBuild {
         pname = "window-tool-bar";
         ename = "window-tool-bar";
-        version = "0.2.0.20240519.64147";
+        version = "0.2.0.20240604.221628";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/window-tool-bar-0.2.0.20240519.64147.tar";
-          sha256 = "1z5fdlrrjdx0lhfwzahnlqxg75fy9abrj3izc8mfwy5j1bkrym6m";
+          url = "https://elpa.gnu.org/devel/window-tool-bar-0.2.0.20240604.221628.tar";
+          sha256 = "1fpbv9762ijllg5y4mlbwqydrgfn3fxd60aidis5193l726byksy";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -7484,10 +7489,10 @@
       elpaBuild {
         pname = "xref";
         ename = "xref";
-        version = "1.7.0.0.20240526.222227";
+        version = "1.7.0.0.20240605.63550";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20240526.222227.tar";
-          sha256 = "0cfqpv5z513pagknh32x3yzcirk2g6alqbznd5lsrrbssx4y79hq";
+          url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20240605.63550.tar";
+          sha256 = "0qzh9pjicm6hlff7wwzrybqysjhr7mlv21gnq5sjgglqnxcmnkfk";
         };
         packageRequires = [ emacs ];
         meta = {
