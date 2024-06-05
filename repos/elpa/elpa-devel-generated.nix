@@ -2152,10 +2152,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "19.0.20240512.173549";
+        version = "19.0.20240604.133626";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-19.0.20240512.173549.tar";
-          sha256 = "13y0g21giswhhysm5252q1rb066a3sap4z51j4cprmwhj282zglj";
+          url = "https://elpa.gnu.org/devel/emms-19.0.20240604.133626.tar";
+          sha256 = "1ss433jndsigz0l0rigmmm9cl8a53i26b0wdrq4xrf5mf5x232l9";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -2353,10 +2353,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.30.0.20240524.71918";
+        version = "0.30.0.20240604.152743";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240524.71918.tar";
-          sha256 = "09nswb6vj9qv0gv6sj9nv0krj7m22nfymhbam2qyh1awdnw641jd";
+          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240604.152743.tar";
+          sha256 = "0gwj5gxzi050rk2zma7fbqkj7rc3hyigr5znzv08ayc25widp9ms";
         };
         packageRequires = [ emacs xelb ];
         meta = {
@@ -3050,10 +3050,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240602.162346";
+        version = "9.0.2pre0.20240604.115353";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240602.162346.tar";
-          sha256 = "1afkpq73v2vscmrypa1vmyrn1szs5sy7hq7gsynqkfwyvvmipzyk";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240604.115353.tar";
+          sha256 = "11zzakf53zpr4f4rm2fmqnc2mi8m5j26ayf5992qv395zh5aqpvi";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3340,14 +3340,18 @@
           license = lib.licenses.free;
         };
       }) {};
-    jit-spell = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
+    jit-spell = callPackage ({ compat
+                             , elpaBuild
+                             , emacs
+                             , fetchurl
+                             , lib }:
       elpaBuild {
         pname = "jit-spell";
         ename = "jit-spell";
-        version = "0.4.0.20240323.72834";
+        version = "0.4.0.20240604.141707";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jit-spell-0.4.0.20240323.72834.tar";
-          sha256 = "1as5s3y1hgjzaz2325rayg0xm80wq2frswcxcarywn85gyfbpskn";
+          url = "https://elpa.gnu.org/devel/jit-spell-0.4.0.20240604.141707.tar";
+          sha256 = "0qz81zrqhdymir9kbmkyavb591abv2j5iz1in2y0v96hpilxfdw6";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4452,10 +4456,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240603.143202";
+        version = "9.8pre0.20240604.131712";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240603.143202.tar";
-          sha256 = "10f3b32yiz5k2ha3bbv23w6j6p679l9177k4wjf2fh5dcxllw8kr";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240604.131712.tar";
+          sha256 = "046dbqh86hqwcrz7kky9l1l2srr9va3k57p86prnn56lpq7dallh";
         };
         packageRequires = [ emacs ];
         meta = {
