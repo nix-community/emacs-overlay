@@ -11345,11 +11345,11 @@
   "repo": "catppuccin/emacs",
   "unstable": {
    "version": [
-    20240326,
-    900
+    20240604,
+    1956
    ],
-   "commit": "3d93abaa33e95f19b4a8b0e1e9bef1e3e68dd994",
-   "sha256": "1j6nsy9is067288x2riabb7kc3grghb2g7bkvwndn2jyglbbxgi0"
+   "commit": "25f3b4b6e298e6078a178771f5318501dab8c8c2",
+   "sha256": "1fl0c5yl7a7gdz73zi6f49b563giv4qd5z3nvj9yyfi2xh7c5f9s"
   },
   "stable": {
    "version": [
@@ -12813,8 +12813,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20240603,
-    1841
+    20240604,
+    2054
    ],
    "deps": [
     "clojure-mode",
@@ -12825,8 +12825,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "7c31f506d84f973d0843c8682edf32c2a017b8ae",
-   "sha256": "015w7i8r82k4lilbf5fsay723z325w75ys1w0h8da5fry038k3h2"
+   "commit": "1fcc6d29ff889e226e6e0a5ab201b02bba6f0551",
+   "sha256": "12f73ks78wgb3di0q6mgwryv0aqmigjhk3dblfnqbdf52bpn4ams"
   },
   "stable": {
    "version": [
@@ -27358,16 +27358,16 @@
   "unstable": {
    "version": [
     20240604,
-    934
+    2029
    ],
-   "commit": "dd366eef582e5f59b9a23976919d6f8e19c99049",
-   "sha256": "06wa4wfwm5p156qvcdb9smp1bn8xmbcc65ns6zn05p2rcssd0fa0"
+   "commit": "e8f278891ccedfc62823eca619d3e04aa36a4467",
+   "sha256": "17g0cpnmsbdv8s8b8q4h2hr2hx3dliilqskj8lg6wzq3pprgdq0k"
   },
   "stable": {
    "version": [
     0,
     9,
-    8
+    9
    ],
    "commit": "dd366eef582e5f59b9a23976919d6f8e19c99049",
    "sha256": "06wa4wfwm5p156qvcdb9smp1bn8xmbcc65ns6zn05p2rcssd0fa0"
@@ -32064,16 +32064,16 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20240512,
-    1735
+    20240604,
+    1736
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "c86ede13e80ad573f52e46de54fd24a97e2faa88",
-   "sha256": "04zw0al519n1xiyy15lzf1mv65d2fip5ha46h8lj03psl777bc4x"
+   "commit": "2350ab4d3ad1eab07adc264f97c3c80c80a1ba7b",
+   "sha256": "0y293kxc1zd53zvx4hpfhkb9kgplvqd782fczpv6cnrcixi8h7b9"
   },
   "stable": {
    "version": [
@@ -45351,7 +45351,7 @@
   "unstable": {
    "version": [
     20240604,
-    1224
+    1645
    ],
    "deps": [
     "closql",
@@ -45366,8 +45366,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "78c1b47f47e6b8d112f0c9ae4856689accf4a15a",
-   "sha256": "0f3j9ys28052zc619f1lk7gx8py1dwi29wd8qn6cn3brfdwh1adp"
+   "commit": "4727a5cc9a54223079ab6881772904e18585a342",
+   "sha256": "1sm8vdgpiz5nq0xxgslygjj68rf7xbycam15lb43scw3qz9la85g"
   },
   "stable": {
    "version": [
@@ -88753,15 +88753,14 @@
    "version": [
     0,
     6,
-    6
+    8
    ],
    "deps": [
     "dash",
-    "org",
     "s"
    ],
-   "commit": "83d5a657d4c190c62663c9b2357105002795b2e3",
-   "sha256": "1ma1grcwjfkps3chs1f0md33hkkl4bj7s9apws61anr2yfcj5j7k"
+   "commit": "7eaefbf0c48c107ee27ed756c3b1b5b5d7dc3598",
+   "sha256": "0j514dpidkzwfb2ha1gicpw5pm63qq8s08k11n82fhnyy0bnsn84"
   }
  },
  {
@@ -111815,14 +111814,14 @@
   "repo": "slime/slime",
   "unstable": {
    "version": [
-    20240527,
-    1527
+    20240604,
+    2342
    ],
    "deps": [
     "macrostep"
    ],
-   "commit": "e261cc83b2a4675824c196965d060b135f6777ad",
-   "sha256": "1vdxcr77pdzadp2yqb3bwhwkcscyvbp0cxkhkd06nd8gicywxvzi"
+   "commit": "9b2cb0899213f1ed3cebf65fefcde5537e870616",
+   "sha256": "1i8kxvrv5v7k2javq5csx687y95bs18pbh9igkcizs5g29mc2r3r"
   },
   "stable": {
    "version": [
@@ -117146,8 +117145,8 @@
   "repo": "drym-org/symex.el",
   "unstable": {
    "version": [
-    20240418,
-    806
+    20240604,
+    1738
    ],
    "deps": [
     "evil",
@@ -117160,8 +117159,8 @@
     "tree-sitter",
     "tsc"
    ],
-   "commit": "db8ac5b3039b91e28d4c403c98fcb799ec94369e",
-   "sha256": "065njm2610vhvsg1f0pm7ri51fp93f8234in1p791iqmmykdk7jx"
+   "commit": "c18a1d1b0b6d13f36a94eb18828b6b25822c410f",
+   "sha256": "0b30qsvkiac6gr9ny6a1i221s5iy4pyjd4mpjdz231p9n29zq6ck"
   },
   "stable": {
    "version": [
@@ -119076,15 +119075,15 @@
   "repo": "johannes-mueller/test-cockpit.el",
   "unstable": {
    "version": [
-    20240601,
-    1545
+    20240604,
+    1943
    ],
    "deps": [
     "projectile",
     "toml"
    ],
-   "commit": "ad7d4f02d9fe438449befeecf193a547760c0797",
-   "sha256": "1ibhk2z8asq4xym3isikknzijrsz1imhk7ddnvj7xk9riw2kis32"
+   "commit": "068d3a393cebdc871236b8d1e45e06f997e2b0d0",
+   "sha256": "1dhnvymy00f2h039v1cp4fq8fxhybswwsx4qnpvdjilf1lbcvxiw"
   }
  },
  {
