@@ -1922,10 +1922,10 @@
       elpaBuild {
         pname = "ef-themes";
         ename = "ef-themes";
-        version = "1.7.0.0.20240603.71830";
+        version = "1.7.0.0.20240605.183445";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240603.71830.tar";
-          sha256 = "0kdjya01qq2wji0ii6pr3666rxh7l6ysjr2b2d8w0h9n95hfwicn";
+          url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240605.183445.tar";
+          sha256 = "09zmi2rsykdjkmj7hdylsqhqfd87i1g2g4v6sizm94s0hmvxa148";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2152,10 +2152,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "19.0.20240604.133626";
+        version = "19.0.20240605.104532";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-19.0.20240604.133626.tar";
-          sha256 = "1ss433jndsigz0l0rigmmm9cl8a53i26b0wdrq4xrf5mf5x232l9";
+          url = "https://elpa.gnu.org/devel/emms-19.0.20240605.104532.tar";
+          sha256 = "15a837vqpvf83awddg9rysg6arq7ah54qfp8y54sz6li77j2csp9";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -2221,10 +2221,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6snapshot0.20240527.164724";
+        version = "5.6snapshot0.20240605.120638";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240527.164724.tar";
-          sha256 = "0yilbyy9f9gxd52ra1ck9h7wjdzjqqhvjbg6s7yzhz2n72lrn2ma";
+          url = "https://elpa.gnu.org/devel/erc-5.6snapshot0.20240605.120638.tar";
+          sha256 = "0zp7klww043f0pcs4ic13lnz941r51gm1pn2caynpnvss4gwrj1z";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4461,10 +4461,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240604.131712";
+        version = "9.8pre0.20240605.151110";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240604.131712.tar";
-          sha256 = "046dbqh86hqwcrz7kky9l1l2srr9va3k57p86prnn56lpq7dallh";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240605.151110.tar";
+          sha256 = "15nv4l644c2hmsaks5c8y94yp8i2r5crrfc9pzlx08p69x86dhv8";
         };
         packageRequires = [ emacs ];
         meta = {
