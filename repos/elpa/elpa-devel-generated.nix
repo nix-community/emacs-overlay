@@ -901,10 +901,10 @@
       elpaBuild {
         pname = "cobol-mode";
         ename = "cobol-mode";
-        version = "1.1.0.20221221.74904";
+        version = "1.1.0.20240505.191317";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cobol-mode-1.1.0.20221221.74904.tar";
-          sha256 = "0268d848pj3vszspmbcz9923945pzz4kzcd0jcrl7k3dasg3mpka";
+          url = "https://elpa.gnu.org/devel/cobol-mode-1.1.0.20240505.191317.tar";
+          sha256 = "1nv0594a244yp5rv9y7bna37sr4cn0869g7i48888dphg6savlb7";
         };
         packageRequires = [ cl-lib ];
         meta = {
@@ -2353,10 +2353,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.30.0.20240604.152743";
+        version = "0.30.0.20240606.75647";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240604.152743.tar";
-          sha256 = "0gwj5gxzi050rk2zma7fbqkj7rc3hyigr5znzv08ayc25widp9ms";
+          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240606.75647.tar";
+          sha256 = "0wakgqx88nvmcbswxilh23f58mw6lvzcjv308l930s2vjqx1cwgn";
         };
         packageRequires = [ emacs xelb ];
         meta = {
