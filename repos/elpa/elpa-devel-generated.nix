@@ -1949,10 +1949,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240606.203520";
+        version = "1.17.0.20240606.171357";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240606.203520.tar";
-          sha256 = "0dsd40q935ihcay0pms02j6faylfbk2wvx2ncw65vdvv4ixzpgbv";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240606.171357.tar";
+          sha256 = "08byc7mqna9y8kgdfginp2sn8yz0l4jg1pnx837cmn7zcswa8rrw";
         };
         packageRequires = [
           compat
