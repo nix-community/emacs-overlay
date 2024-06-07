@@ -1907,10 +1907,10 @@
       elpaBuild {
         pname = "ement";
         ename = "ement";
-        version = "0.15";
+        version = "0.15.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ement-0.15.tar";
-          sha256 = "0mphkvmsmrfyr3prr5a2x6ijr27z96ixpaxs9871kn7f1x0brn5r";
+          url = "https://elpa.gnu.org/packages/ement-0.15.1.tar";
+          sha256 = "1n1kxj5p6c6cnz6z54zayyb9lr6l54crfh5im2pbwpai1bk8lsld";
         };
         packageRequires = [
           emacs
@@ -4054,10 +4054,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7.2";
+        version = "9.7.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.7.2.tar";
-          sha256 = "0dnzgd94y6844cvlynxczhy0yj8gmrdid6xrs97ij6arw7nqmh60";
+          url = "https://elpa.gnu.org/packages/org-9.7.3.tar";
+          sha256 = "0ldxpj5d6j13p8dd11db1mpb6dc0xmc18h3nyny2afggmf5ijy4l";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4729,10 +4729,10 @@
       elpaBuild {
         pname = "rcirc-sqlite";
         ename = "rcirc-sqlite";
-        version = "1.0.1";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/rcirc-sqlite-1.0.1.tar";
-          sha256 = "0n0492s500gplmv7l8n8l7s3rpm1nli3n706n9f91qc15z6p6mcv";
+          url = "https://elpa.gnu.org/packages/rcirc-sqlite-1.0.2.tar";
+          sha256 = "128wq3mm2ckcchly6c31i87jrkq19q7ysvx5fg34jhjg53dkrz28";
         };
         packageRequires = [ emacs ];
         meta = {
