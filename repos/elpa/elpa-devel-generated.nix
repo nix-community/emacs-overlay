@@ -1102,10 +1102,10 @@
       elpaBuild {
         pname = "consult-denote";
         ename = "consult-denote";
-        version = "0.0.0.0.20240521.82207";
+        version = "0.0.0.0.20240607.111006";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-denote-0.0.0.0.20240521.82207.tar";
-          sha256 = "1yj93195gzjgwfms6k2chwbhq3w14vpab7r9dq24gjxcgb3f63w3";
+          url = "https://elpa.gnu.org/devel/consult-denote-0.0.0.0.20240607.111006.tar";
+          sha256 = "0jcc4ndmdbybr0ppz6x3sfa55bh1kifrk4pkyvm7ch78i24hb73z";
         };
         packageRequires = [ consult denote emacs ];
         meta = {
@@ -2152,10 +2152,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "19.0.20240605.104532";
+        version = "20.0.20240607.101900";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-19.0.20240605.104532.tar";
-          sha256 = "15a837vqpvf83awddg9rysg6arq7ah54qfp8y54sz6li77j2csp9";
+          url = "https://elpa.gnu.org/devel/emms-20.0.20240607.101900.tar";
+          sha256 = "1azvdhj66ph5hzgciswgw9n8710kijnm8ys6mbsw7hfq6kiyz7z3";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
@@ -2353,10 +2353,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.30.0.20240606.172939";
+        version = "0.30.0.20240607.103340";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240606.172939.tar";
-          sha256 = "14qz19z30czssz5v206l63chc27n056ax98fgx5dlvfqfiy4fwcw";
+          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240607.103340.tar";
+          sha256 = "0fhqnc5pc186anfijwyp3bkm6vpj0sqwzapkskmyp2gj5rx01i80";
         };
         packageRequires = [ emacs xelb ];
         meta = {
@@ -3638,10 +3638,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.16.0.0.20240601.150655";
+        version = "0.16.0.0.20240607.131632";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.16.0.0.20240601.150655.tar";
-          sha256 = "0a0j2garjcx6zrdhz5l0dfsnnypkvxpbkdgpjgbqvs2wkq8b0dgl";
+          url = "https://elpa.gnu.org/devel/llm-0.16.0.0.20240607.131632.tar";
+          sha256 = "0hznvy8d31znbbb7v9gc6llvqs7fx3ba1b8y9p82bmbsnqd38mg8";
         };
         packageRequires = [ emacs plz ];
         meta = {
@@ -4464,10 +4464,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240606.153053";
+        version = "9.8pre0.20240607.145413";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240606.153053.tar";
-          sha256 = "07hj7s55pxnk6ydrvhlk407ri658ygk2n546zq8sfscdg6hrx2bs";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240607.145413.tar";
+          sha256 = "1r8ajnc5hbhl0ncxrkpnbyziy1szp6yfyhl42526pflrgs72gj8z";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4913,10 +4913,10 @@
       elpaBuild {
         pname = "plz-event-source";
         ename = "plz-event-source";
-        version = "0.1pre0.20240501.111443";
+        version = "0.1pre0.20240607.160859";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/plz-event-source-0.1pre0.20240501.111443.tar";
-          sha256 = "1bygbgzvyc6k8bqrnl5gwdbjmlrdh25fmf7n0rllfz4b055cdj6a";
+          url = "https://elpa.gnu.org/devel/plz-event-source-0.1pre0.20240607.160859.tar";
+          sha256 = "02wv00dij35crkff82plxlkwgninjnllpc44lq0ynxwk1lgx3q5a";
         };
         packageRequires = [ emacs plz ];
         meta = {
@@ -4932,10 +4932,10 @@
       elpaBuild {
         pname = "plz-media-type";
         ename = "plz-media-type";
-        version = "0.1pre0.20240501.111146";
+        version = "0.1pre0.20240607.134302";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/plz-media-type-0.1pre0.20240501.111146.tar";
-          sha256 = "0l2zgxgi48rvzs79qq2bjmp7bg2qhd3709rpyzfkv77gigcjwqj6";
+          url = "https://elpa.gnu.org/devel/plz-media-type-0.1pre0.20240607.134302.tar";
+          sha256 = "1q6a4yyy339l2crc24mssxansmpmhq401h3mcqkzkcw60xh9wsr8";
         };
         packageRequires = [ emacs plz ];
         meta = {
