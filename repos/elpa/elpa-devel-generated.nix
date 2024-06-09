@@ -2353,10 +2353,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.30.0.20240607.103340";
+        version = "0.30.0.20240608.232408";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240607.103340.tar";
-          sha256 = "0fhqnc5pc186anfijwyp3bkm6vpj0sqwzapkskmyp2gj5rx01i80";
+          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240608.232408.tar";
+          sha256 = "1gbr9ymiw5x382n8ivaivf5if4y7imbd5d0cnbb8qfvz95cv63iq";
         };
         packageRequires = [ emacs xelb ];
         meta = {
@@ -3638,10 +3638,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.16.0.0.20240607.131632";
+        version = "0.16.0.0.20240608.171142";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.16.0.0.20240607.131632.tar";
-          sha256 = "0hznvy8d31znbbb7v9gc6llvqs7fx3ba1b8y9p82bmbsnqd38mg8";
+          url = "https://elpa.gnu.org/devel/llm-0.16.0.0.20240608.171142.tar";
+          sha256 = "0im2wgg5dc43kc2ynn86ddnab8k684l0yxjislb31kfnrcdqykav";
         };
         packageRequires = [ emacs plz ];
         meta = {
@@ -5096,10 +5096,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.11.0.0.20240528.163155";
+        version = "0.11.0.0.20240609.23742";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.11.0.0.20240528.163155.tar";
-          sha256 = "1cs10gd23samhrkjgh7x8gp0yn90wh0awzmg3s4p4vq6f7m09ddi";
+          url = "https://elpa.gnu.org/devel/project-0.11.0.0.20240609.23742.tar";
+          sha256 = "1bbxwdy2n79kci5yk0a1zifcdy5hfid9p8ja0776k2jpjg7kkzlh";
         };
         packageRequires = [ emacs xref ];
         meta = {
