@@ -824,10 +824,10 @@
       elpaBuild {
         pname = "colorful-mode";
         ename = "colorful-mode";
-        version = "1.0.0";
+        version = "1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/colorful-mode-1.0.0.tar";
-          sha256 = "1gmbrb5z3rmw0fjrdymfbcx74szcy963dx53ksykvfd9355azj3x";
+          url = "https://elpa.gnu.org/packages/colorful-mode-1.0.3.tar";
+          sha256 = "1jn5yxs81nvqy3c702wp8v5qi0l5qz59czq0dxg6q34p0ayjr2zc";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3300,10 +3300,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.16.0";
+        version = "0.16.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/llm-0.16.0.tar";
-          sha256 = "0ilr99b1zf1m4zwp6gv49j70ds4snhkfq90allkhvw5yw5nrbiil";
+          url = "https://elpa.gnu.org/packages/llm-0.16.1.tar";
+          sha256 = "1fqn4fdxhazpmlh8pf6ihnh132zjqrixry3kyymsmwang6vh2y7s";
         };
         packageRequires = [ emacs plz ];
         meta = {
