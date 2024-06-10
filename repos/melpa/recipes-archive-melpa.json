@@ -26311,14 +26311,14 @@
   "url": "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git",
   "unstable": {
    "version": [
-    20240609,
-    2251
+    20240610,
+    959
    ],
    "deps": [
     "debian-el"
    ],
-   "commit": "5500e9c846a4690355b7c6cc6b13b8e2cd247604",
-   "sha256": "1vvx53qlmya737f2mjbxb4npxkfsbbbh546bv4i66vjwh7y8f5ar"
+   "commit": "48042195489cb77ce3fded33640f83379fdf89db",
+   "sha256": "0cvs962rn80xa4f09y3khx56hndz4g7zp9wj9i9w8mqqifwa7pis"
   },
   "stable": {
    "version": [
@@ -61499,15 +61499,15 @@
   "repo": "idris-hackers/idris-mode",
   "unstable": {
    "version": [
-    20240423,
-    1320
+    20240610,
+    906
    ],
    "deps": [
     "cl-lib",
     "prop-menu"
    ],
-   "commit": "aa580b61eb3d409ae9ceb141547937ad27fae24c",
-   "sha256": "0ylb8my9qs9agqv6i7xj4lgca2pg0cdlqagn345pydjhgd8n5cbx"
+   "commit": "334fef6932a979fd3c59b26814c52682afc93406",
+   "sha256": "1rwrv1k7hcqsxwg5wwi6imy3mlfxg3vwq9md5z6wg52411r1p6ga"
   },
   "stable": {
    "version": [
@@ -62980,10 +62980,10 @@
   "repo": "ideasman42/emacs-theme-inkpot",
   "unstable": {
    "version": [
-    20230618,
-    715
+    20240610,
+    1406
    ],
-   "commit": "2f59c524e17f8fb157bdbae5cf10cfe42f63c6bd",
+   "commit": "259272084f8ead2453f83f526ed95061f879d464",
    "sha256": "08lnbvnn56hkm78sxs7k5h8wy4v0c2aynq41bqjr3p2j19hkxssr"
   }
  },
@@ -82861,11 +82861,11 @@
   "repo": "andykuszyk/noman.el",
   "unstable": {
    "version": [
-    20240530,
-    1439
+    20240610,
+    1145
    ],
-   "commit": "953e3761b05874dee49952fad63ce1cb3c91d707",
-   "sha256": "0rh1p9nlhkmhfqmp507rz8hwfgwrdvxx0zba41lxsd2admai90wv"
+   "commit": "61ab9c52273fc03b28881a5ce814b863cf050571",
+   "sha256": "0lxvl8mmmk01i14x7jjn3cq55620x420vxzsrqnbsmcpgzn5g6l5"
   },
   "stable": {
    "version": [
@@ -95055,14 +95055,14 @@
   "repo": "justinbarclay/parinfer-rust-mode",
   "unstable": {
    "version": [
-    20240523,
-    1909
+    20240610,
+    700
    ],
    "deps": [
     "track-changes"
    ],
-   "commit": "e9a23e136b8c5f1fb718af93c19cd6ed22d8c98c",
-   "sha256": "1kbn54v100rh6pxl3lc66pspd3nfy7pkv8iyqkg09xqcwyblbf86"
+   "commit": "7b122c5d1c6263611d1d78d77b7a804332521b85",
+   "sha256": "17kkyqkn0r3s2rbgc6v5jygrq5bm5jcw54byjfkhnif90zvdch0n"
   },
   "stable": {
    "version": [
@@ -101821,11 +101821,11 @@
   "repo": "smoeding/puppet-ts-mode",
   "unstable": {
    "version": [
-    20240530,
-    629
+    20240610,
+    829
    ],
-   "commit": "edd6a1f60ebc7b6d59458da482fd5e964f2922fb",
-   "sha256": "164pw9z002l65qbb0hdszw8qdl4pbrlfcbc32a31hxlnq48fqvzc"
+   "commit": "f17dc3bd86a4bf7e657c67c9af7352475b2c5002",
+   "sha256": "1gz4slzbichlisq78brsl7gqyxpcqqxhpwzq4b8vajrn5sgscs2w"
   }
  },
  {
@@ -119649,21 +119649,21 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20240603,
-    846
+    20240610,
+    1436
    ],
-   "commit": "e38e4a90339d119850e97f5dedbe9ce57a89c652",
-   "sha256": "15vrk7gxp2k47lnv2hq1h581fwl77di4ndlwvm76n1c6ri46x3n8"
+   "commit": "e6af185d2a3e39fce47bff1863469698be8aa19e",
+   "sha256": "0l53asrm6580fyb12pjl5xy355npi2crc78scl3zdg3m16rs4gl4"
   },
   "stable": {
    "version": [
     2024,
     6,
-    3,
+    10,
     0
    ],
-   "commit": "e38e4a90339d119850e97f5dedbe9ce57a89c652",
-   "sha256": "15vrk7gxp2k47lnv2hq1h581fwl77di4ndlwvm76n1c6ri46x3n8"
+   "commit": "e6af185d2a3e39fce47bff1863469698be8aa19e",
+   "sha256": "0l53asrm6580fyb12pjl5xy355npi2crc78scl3zdg3m16rs4gl4"
   }
  },
  {
