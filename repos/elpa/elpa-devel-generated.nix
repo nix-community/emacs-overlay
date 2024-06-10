@@ -2040,14 +2040,19 @@
           license = lib.licenses.free;
         };
       }) {};
-    ellama = callPackage ({ elpaBuild, emacs, fetchurl, lib, llm, spinner }:
+    ellama = callPackage ({ elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib
+                          , llm
+                          , spinner }:
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.9.7.0.20240602.185218";
+        version = "0.9.10.0.20240609.123155";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.9.7.0.20240602.185218.tar";
-          sha256 = "1mkzx5ynmx6crbwhc46agrg7h05qrib6d2lvmc43d17sp4l1la8i";
+          url = "https://elpa.gnu.org/devel/ellama-0.9.10.0.20240609.123155.tar";
+          sha256 = "0k9vpv98jwr97pkd7zdk87lb48idx6iv2g324w58jbpggn6fd0sq";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -2353,10 +2358,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.30.0.20240608.232408";
+        version = "0.30.0.20240609.81432";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240608.232408.tar";
-          sha256 = "1gbr9ymiw5x382n8ivaivf5if4y7imbd5d0cnbb8qfvz95cv63iq";
+          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240609.81432.tar";
+          sha256 = "150gh6j4nzcdfba49b7n43wc7il92gr5gym9snazzjspbp1mp68i";
         };
         packageRequires = [ emacs xelb ];
         meta = {
@@ -4464,10 +4469,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240608.190801";
+        version = "9.8pre0.20240609.122558";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240608.190801.tar";
-          sha256 = "1kqq821pl8prq4v4dmicqjzicly5vmzpr7n7maaxz5i3xk7wb540";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240609.122558.tar";
+          sha256 = "0vkgmg1bznfpjys2a6cbvizm0bv2jk72pmqy1i547r6slhjmgcyv";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4483,10 +4488,10 @@
       elpaBuild {
         pname = "org-contacts";
         ename = "org-contacts";
-        version = "1.1.0.20240521.114436";
+        version = "1.1.0.20240609.105801";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240521.114436.tar";
-          sha256 = "0srbl81ngk24c9kf991ps2j53kpqriwgs8ld4lfcqmxzclr5y8iv";
+          url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240609.105801.tar";
+          sha256 = "1rx5lnn151wn42zpnrr64g1qn5lvk0syfqm2v4h58np7lsf10c2y";
         };
         packageRequires = [ emacs org ];
         meta = {
@@ -5188,10 +5193,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20240608.122747";
+        version = "0.28.0.20240609.134905";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20240608.122747.tar";
-          sha256 = "0sagas8za78wm7lrab6in8mx5da3kwmin0flpxllscakxnajn3g9";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20240609.134905.tar";
+          sha256 = "0i9gsihs85yda678wbs37ac3iy119ipq9w8bm0d944y11yaxrbf5";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -7293,19 +7298,20 @@
           license = lib.licenses.free;
         };
       }) {};
-    window-tool-bar = callPackage ({ elpaBuild
+    window-tool-bar = callPackage ({ compat
+                                   , elpaBuild
                                    , emacs
                                    , fetchurl
                                    , lib }:
       elpaBuild {
         pname = "window-tool-bar";
         ename = "window-tool-bar";
-        version = "0.2.0.20240604.221628";
+        version = "0.2.1.0.20240609.122134";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/window-tool-bar-0.2.0.20240604.221628.tar";
-          sha256 = "1fpbv9762ijllg5y4mlbwqydrgfn3fxd60aidis5193l726byksy";
+          url = "https://elpa.gnu.org/devel/window-tool-bar-0.2.1.0.20240609.122134.tar";
+          sha256 = "1xfwirfdy69c349052jx31c3ib708mwl68458lj8dar5y2cqwk0q";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/window-tool-bar.html";
           license = lib.licenses.free;

@@ -1831,10 +1831,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.9.7";
+        version = "0.9.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.9.7.tar";
-          sha256 = "1k59imynhkz7551kg5fna8dnmnqcazlawrx7dxlqy35fdpqb54vb";
+          url = "https://elpa.gnu.org/packages/ellama-0.9.10.tar";
+          sha256 = "17w8f9vavxs8q5s0ppasqlqz217prcljgsjvqjy0b32n71dqpn9m";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -6499,16 +6499,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    window-tool-bar = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    window-tool-bar = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "window-tool-bar";
         ename = "window-tool-bar";
-        version = "0.2";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/window-tool-bar-0.2.tar";
-          sha256 = "191v21rrw1j560512mjn1s1avhirk1awy746xajjra8lb1ywnxw7";
+          url = "https://elpa.gnu.org/packages/window-tool-bar-0.2.1.tar";
+          sha256 = "06wf3kwc4sjd14ihagmahxjvk35skb28rh9yclpzbrvjqk0ss35v";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/window-tool-bar.html";
           license = lib.licenses.free;
