@@ -12813,8 +12813,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20240610,
-    1606
+    20240611,
+    523
    ],
    "deps": [
     "clojure-mode",
@@ -12825,8 +12825,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "63a6b0b2ff161981df769c2e1509f5e6dc769d92",
-   "sha256": "14p09ljircsrsi5dxp8r6cz7aakiybj3cra3vi6j4y8hi7zpj27j"
+   "commit": "abe972ad9f256972940d503a64b1012d21561146",
+   "sha256": "030qkwv4rbrngjd7ywic1c7f0x4gkp5q5z944grh1kdkn3wy8k39"
   },
   "stable": {
    "version": [
@@ -51429,15 +51429,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20240527,
-    5
+    20240611,
+    410
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "c0603cb973d160f3e450a0dec49dc5ae948f614c",
-   "sha256": "0kcnvck0jfzr6hhxfhlyii5n53zkzncs92aa1l8nvia3yr403n7f"
+   "commit": "a191850ab3115cb29e0da1da113db042e41a1109",
+   "sha256": "15b04ah91p85yfii4q0a0c12x74yy279n1g6ldz01k9qy85nn9k7"
   },
   "stable": {
    "version": [
@@ -60468,8 +60468,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20240610,
-    1945
+    20240611,
+    729
    ],
    "deps": [
     "compat",
@@ -60480,8 +60480,8 @@
     "taxy-magit-section",
     "transient"
    ],
-   "commit": "d43b015997f475aff5d752062f09f5c07cfa7ddf",
-   "sha256": "172k7saxzvvd297nx4xh7yxch2lj3c9ck45d0xqn9glk4w8pfr1p"
+   "commit": "6e03c15e6eace0456fb77611d7a215075df06b56",
+   "sha256": "170hawaizj9d2imr172vhs6vv0i77gr4cji7ilz64p6p1lawa9j6"
   },
   "stable": {
    "version": [
@@ -95001,14 +95001,14 @@
   "repo": "tarsius/paren-face",
   "unstable": {
    "version": [
-    20240415,
-    1547
+    20240611,
+    12
    ],
    "deps": [
     "compat"
    ],
-   "commit": "0cad6a4657ebfcdd2902746b99f01fea7cc05bd7",
-   "sha256": "17r70dwlg23kpv2dx4j7bs3pshisgz1j8k70vv3izyq0qg0n6vlp"
+   "commit": "29dcaf75e0af00f07ac035b486131280dac55fc8",
+   "sha256": "0fgpjxr7km5af05zf9v7b87cs73pxzf625y0am3j0l24y2lwqiff"
   },
   "stable": {
    "version": [
@@ -100071,28 +100071,28 @@
   "repo": "alphapapa/prism.el",
   "unstable": {
    "version": [
-    20240605,
-    1547
+    20240611,
+    305
    ],
    "deps": [
     "compat",
     "dash"
    ],
-   "commit": "1dad1d85e7a35e00abcddde22a192521f60cfdfc",
-   "sha256": "1fry7gjj6vhfw7qg8a0mab1s9k5ajp68fdw821z11m227rdqmhhw"
+   "commit": "73deba1a4a719f740827c000cf46bfecacb44adb",
+   "sha256": "1p0v2rd9wiz13ckwkj77v8bpzg01cjsgfqkqqyrf1hkv7b0ki2z9"
   },
   "stable": {
    "version": [
     0,
     3,
-    4
+    5
    ],
    "deps": [
     "compat",
     "dash"
    ],
-   "commit": "1dad1d85e7a35e00abcddde22a192521f60cfdfc",
-   "sha256": "1fry7gjj6vhfw7qg8a0mab1s9k5ajp68fdw821z11m227rdqmhhw"
+   "commit": "3a61852dd01c738dc18b88a7be524db67a2d5520",
+   "sha256": "1p4vqyc4jm0pg4999i0k04pl0sa9nhrczxf4bng4id1r19sxm6dh"
   }
  },
  {
@@ -122004,9 +122004,16 @@
   "ename": "treesit-ispell",
   "commit": "08692fd0e799bbe2afe086e5fa146628cd97bdc1",
   "sha256": "1dnzmw3vr59l7n2rryf6w4sfx9vay1626cb62yvk3zjxl2kpn0wj",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "erickgnavar/treesit-ispell.el"
+  "repo": "erickgnavar/treesit-ispell.el",
+  "unstable": {
+   "version": [
+    20240611,
+    117
+   ],
+   "commit": "56740dccd5a72277fa05f19491e032e0c4701ad2",
+   "sha256": "162q3i1c8v6k8zzbwfm7h6yn4w0r1xvw9039pn3z7widpcz5mczw"
+  }
  },
  {
   "ename": "treeview",
