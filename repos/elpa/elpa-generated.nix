@@ -3375,10 +3375,10 @@
       elpaBuild {
         pname = "loccur";
         ename = "loccur";
-        version = "1.2.4";
+        version = "1.2.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/loccur-1.2.4.tar";
-          sha256 = "1b8rmbl03k8fdy217ngbxsc0a3jxxmqnwshf72f4iay8ln4hasgk";
+          url = "https://elpa.gnu.org/packages/loccur-1.2.5.tar";
+          sha256 = "0dp7nhafx5x0aw4svd826bqsrn6qk46w12p04w7khpk7d9768a8x";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4414,10 +4414,10 @@
       elpaBuild {
         pname = "plz";
         ename = "plz";
-        version = "0.8";
+        version = "0.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/plz-0.8.tar";
-          sha256 = "0kg275kq5hi83ry0n83w8pi0qn2lmlv9gnxcbwf1dcqk7n9i2v64";
+          url = "https://elpa.gnu.org/packages/plz-0.9.tar";
+          sha256 = "1wgcfwrmbw6bl00midhn99hn3fvbavkibb4r6s99yzmd48vyapr8";
         };
         packageRequires = [ emacs ];
         meta = {
