@@ -1903,10 +1903,10 @@
       elpaBuild {
         pname = "j-mode";
         ename = "j-mode";
-        version = "1.1.1";
+        version = "2.0.1";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/j-mode-1.1.1.tar";
-          sha256 = "056af7l7rn116nygln41rsq2val5s3y0pz1pj2736mqsx3lcyiy2";
+          url = "https://elpa.nongnu.org/nongnu/j-mode-2.0.1.tar";
+          sha256 = "0kk29s3xqad72jxvzzbl4b4z8b4l7xx1vyfcbsj8ns8hv8cip3l3";
         };
         packageRequires = [];
         meta = {
@@ -2730,10 +2730,10 @@
       elpaBuild {
         pname = "racket-mode";
         ename = "racket-mode";
-        version = "1.0.20240607.81112";
+        version = "1.0.20240612.85629";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20240607.81112.tar";
-          sha256 = "1yvl9j89wv7lln70h29lyikf3qy1d0hc9wnkv71m2h49gql4pc0r";
+          url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20240612.85629.tar";
+          sha256 = "0v006bksh6qn5nhg5xafy3q3yznlq99rd53dffbbrlr46gw9n1dh";
         };
         packageRequires = [ emacs ];
         meta = {
