@@ -20,7 +20,7 @@ jobs:
         nix_path: nixpkgs=channel:nixos-unstable
 
     - name: Add nix-community cache
-      uses: cachix/cachix-action@v13
+      uses: cachix/cachix-action@v15
       with:
         name: nix-community
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
@@ -58,7 +58,7 @@ jobs:
         nix_path: nixpkgs=channel:nixos-unstable
 
     - name: Add nix-community cache
-      uses: cachix/cachix-action@v13
+      uses: cachix/cachix-action@v15
       with:
         name: nix-community
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
