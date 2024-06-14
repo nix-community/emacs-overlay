@@ -1996,10 +1996,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.5";
+        version = "5.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/erc-5.5.tar";
-          sha256 = "02649ijnpyalk0k1yq1dcinj92awhbnkia2x9sdb9xjk80xw1gqp";
+          url = "https://elpa.gnu.org/packages/erc-5.6.tar";
+          sha256 = "16qyfsa2q297xcfjiacjms9v14kjwwrsp3m8kcs5s50aavzfvc1s";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4534,10 +4534,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.11.0";
+        version = "0.11.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/project-0.11.0.tar";
-          sha256 = "1i1y7kvzra8zb0dl0jqzqwj4mcmx5yijw9gaqi6v8dz0l0p4hpy2";
+          url = "https://elpa.gnu.org/packages/project-0.11.1.tar";
+          sha256 = "1973d6z7nx9pp5gadqk8p71v6s5wqja40a0f8zjrn6rrnfarrcd0";
         };
         packageRequires = [ emacs xref ];
         meta = {
