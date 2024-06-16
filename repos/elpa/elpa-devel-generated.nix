@@ -4465,10 +4465,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240614.140305";
+        version = "9.8pre0.20240615.142724";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240614.140305.tar";
-          sha256 = "1p5rva1khln652d0yms8y9qra2qsa1alw83yc5ggxvajwligr0lf";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240615.142724.tar";
+          sha256 = "04g143fcmr73mfdhkydhi056rwvc9lk3639nz5za5ph7ds41q17g";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4828,14 +4828,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    persist = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    persist = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "persist";
         ename = "persist";
-        version = "0.6.0.20240114.52348";
+        version = "0.6.1.0.20240615.190609";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/persist-0.6.0.20240114.52348.tar";
-          sha256 = "1k4m2zmcb4l3q39qnx3kfl2wsm4380ih3mf0lc54g9l77fw4rfxr";
+          url = "https://elpa.gnu.org/devel/persist-0.6.1.0.20240615.190609.tar";
+          sha256 = "0qncm2q42y4xqijx468cpvbh841nw9fk27mm5zdc3l792i0i29y4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5189,10 +5192,10 @@
       elpaBuild {
         pname = "python";
         ename = "python";
-        version = "0.28.0.20240609.134905";
+        version = "0.28.0.20240615.104629";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/python-0.28.0.20240609.134905.tar";
-          sha256 = "0i9gsihs85yda678wbs37ac3iy119ipq9w8bm0d944y11yaxrbf5";
+          url = "https://elpa.gnu.org/devel/python-0.28.0.20240615.104629.tar";
+          sha256 = "07k00rswnrvzkshhpsfnxim0a2anavi8689dwjq95dfpc0lnskfn";
         };
         packageRequires = [ compat emacs seq ];
         meta = {

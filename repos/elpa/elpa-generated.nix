@@ -4054,10 +4054,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.7.3";
+        version = "9.7.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-9.7.3.tar";
-          sha256 = "0ldxpj5d6j13p8dd11db1mpb6dc0xmc18h3nyny2afggmf5ijy4l";
+          url = "https://elpa.gnu.org/packages/org-9.7.4.tar";
+          sha256 = "0rifr6v0b1skkh7a2ysapxv95azxrq0wqymbdp086v9p1h619awn";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4365,16 +4365,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    persist = callPackage ({ elpaBuild, fetchurl, lib }:
+    persist = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "persist";
         ename = "persist";
-        version = "0.6";
+        version = "0.6.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/persist-0.6.tar";
-          sha256 = "1p6h211xk0lrk4zqlm51rsms5lza9ymx6ayh9ij0afqrjqgffw77";
+          url = "https://elpa.gnu.org/packages/persist-0.6.1.tar";
+          sha256 = "1a7lls81q247mbkcnifmsva16cfjjma6yihxmj5zrj8ac774z9j3";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/persist.html";
           license = lib.licenses.free;
