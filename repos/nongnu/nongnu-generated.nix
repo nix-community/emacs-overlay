@@ -1690,6 +1690,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    hideshowvis = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "hideshowvis";
+        ename = "hideshowvis";
+        version = "0.8";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/hideshowvis-0.8.tar";
+          sha256 = "0xx2jjv95r1nhlf729y0zplfpjlh46nfnixmd3f5jc3z2pc6zf5b";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/hideshowvis.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     highlight-parentheses = callPackage ({ elpaBuild
                                          , emacs
                                          , fetchurl
@@ -2439,6 +2454,26 @@
         packageRequires = [ emacs org ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/org-superstar.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    org-transclusion-http = callPackage ({ elpaBuild
+                                         , emacs
+                                         , fetchurl
+                                         , lib
+                                         , org-transclusion
+                                         , plz }:
+      elpaBuild {
+        pname = "org-transclusion-http";
+        ename = "org-transclusion-http";
+        version = "0.3";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/org-transclusion-http-0.3.tar";
+          sha256 = "1iqzaga9xkkzisp9cb47j4nyc9f6wfmi6l9jy7g6mg51n7qriwa8";
+        };
+        packageRequires = [ emacs org-transclusion plz ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/org-transclusion-http.html";
           license = lib.licenses.free;
         };
       }) {};
