@@ -330,10 +330,10 @@
       elpaBuild {
         pname = "async";
         ename = "async";
-        version = "1.9.8.0.20240323.191212";
+        version = "1.9.8.0.20240617.60448";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/async-1.9.8.0.20240323.191212.tar";
-          sha256 = "0ji1ai2zx8wly0b0f670v0wij57hrclr4yr6kwiq0ljaqnbm59h3";
+          url = "https://elpa.gnu.org/devel/async-1.9.8.0.20240617.60448.tar";
+          sha256 = "1f4lggg23jnhrlawc67bpp91ix1vikkvhf0qdjfjqm8n76kz66in";
         };
         packageRequires = [ emacs ];
         meta = {
