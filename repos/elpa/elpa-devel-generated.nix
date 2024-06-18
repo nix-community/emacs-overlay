@@ -359,6 +359,44 @@
           license = lib.licenses.free;
         };
       }) {};
+    auctex-cont-latexmk = callPackage ({ auctex
+                                       , elpaBuild
+                                       , emacs
+                                       , fetchurl
+                                       , lib }:
+      elpaBuild {
+        pname = "auctex-cont-latexmk";
+        ename = "auctex-cont-latexmk";
+        version = "0.2.0.20240617.174742";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/auctex-cont-latexmk-0.2.0.20240617.174742.tar";
+          sha256 = "1cifg9ylqbyxpy3r07j48398p441ag6wviszkyzlry29ncbb3jc4";
+        };
+        packageRequires = [ auctex emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/auctex-cont-latexmk.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    auctex-label-numbers = callPackage ({ auctex
+                                        , elpaBuild
+                                        , emacs
+                                        , fetchurl
+                                        , lib }:
+      elpaBuild {
+        pname = "auctex-label-numbers";
+        ename = "auctex-label-numbers";
+        version = "0.2.0.20240617.174703";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/auctex-label-numbers-0.2.0.20240617.174703.tar";
+          sha256 = "14zj8wgk1vs96z5sba4m3m0zhl02zr3mbapgpypf9ff4c28v8g1b";
+        };
+        packageRequires = [ auctex emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/auctex-label-numbers.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     aumix-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "aumix-mode";
@@ -1353,10 +1391,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.12.0.0.20240617.180404";
+        version = "0.12.0.0.20240617.200328";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.12.0.0.20240617.180404.tar";
-          sha256 = "0k9l0kqv7bcpmikv38ifk60sx3h1r4ilc7arhmkdyzwxn5fcf0xq";
+          url = "https://elpa.gnu.org/devel/dape-0.12.0.0.20240617.200328.tar";
+          sha256 = "1y78c312ck2s0a9wqinpr1jqazgx4k7l8wlxmgm62ly8p7dibndi";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -5095,6 +5133,44 @@
           license = lib.licenses.free;
         };
       }) {};
+    preview-auto = callPackage ({ auctex
+                                , elpaBuild
+                                , emacs
+                                , fetchurl
+                                , lib }:
+      elpaBuild {
+        pname = "preview-auto";
+        ename = "preview-auto";
+        version = "0.3.0.20240617.174622";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/preview-auto-0.3.0.20240617.174622.tar";
+          sha256 = "0yqd9rdz90cgyz0qqan1lz1jkkjpp5nhpf16vdbf2s8ygys333jh";
+        };
+        packageRequires = [ auctex emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/preview-auto.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    preview-tailor = callPackage ({ auctex
+                                  , elpaBuild
+                                  , emacs
+                                  , fetchurl
+                                  , lib }:
+      elpaBuild {
+        pname = "preview-tailor";
+        ename = "preview-tailor";
+        version = "0.2.0.20240617.174356";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/preview-tailor-0.2.0.20240617.174356.tar";
+          sha256 = "17x74wzfi7kc08x1kwlzvsyiqmimxf77k58amskyg73l1iqmr8s8";
+        };
+        packageRequires = [ auctex emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/preview-tailor.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     project = callPackage ({ elpaBuild
                            , emacs
                            , fetchurl
@@ -6455,6 +6531,40 @@
         packageRequires = [ cl-lib ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/test-simple.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    tex-item = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "tex-item";
+        ename = "tex-item";
+        version = "0.1.0.20240617.174820";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/tex-item-0.1.0.20240617.174820.tar";
+          sha256 = "17b95npakxjzc03qrsxla5jhdzhq0clwdrx57f9ck94a0fnpji3x";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/tex-item.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    tex-parens = callPackage ({ auctex
+                              , elpaBuild
+                              , emacs
+                              , fetchurl
+                              , lib }:
+      elpaBuild {
+        pname = "tex-parens";
+        ename = "tex-parens";
+        version = "0.2.0.20240617.174921";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/tex-parens-0.2.0.20240617.174921.tar";
+          sha256 = "0px93bsnzd09q3v04payax3fq3js6ddgn2713nf13g53h2iiybxk";
+        };
+        packageRequires = [ auctex emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/tex-parens.html";
           license = lib.licenses.free;
         };
       }) {};

@@ -306,6 +306,44 @@
           license = lib.licenses.free;
         };
       }) {};
+    auctex-cont-latexmk = callPackage ({ auctex
+                                       , elpaBuild
+                                       , emacs
+                                       , fetchurl
+                                       , lib }:
+      elpaBuild {
+        pname = "auctex-cont-latexmk";
+        ename = "auctex-cont-latexmk";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/auctex-cont-latexmk-0.2.tar";
+          sha256 = "0ggyjxjqwpx3h1963i8w96m6kisc65ni9hksn2kjfjddnj1hx0hf";
+        };
+        packageRequires = [ auctex emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/auctex-cont-latexmk.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    auctex-label-numbers = callPackage ({ auctex
+                                        , elpaBuild
+                                        , emacs
+                                        , fetchurl
+                                        , lib }:
+      elpaBuild {
+        pname = "auctex-label-numbers";
+        ename = "auctex-label-numbers";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/auctex-label-numbers-0.2.tar";
+          sha256 = "1cd68yvpm061r9k4x6rvy3g2wdynv5gbjg2dyp06nkrgvakdb00x";
+        };
+        packageRequires = [ auctex emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/auctex-label-numbers.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     aumix-mode = callPackage ({ elpaBuild, fetchurl, lib }:
       elpaBuild {
         pname = "aumix-mode";
@@ -4530,6 +4568,36 @@
           license = lib.licenses.free;
         };
       }) {};
+    preview-auto = callPackage ({ auctex, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "preview-auto";
+        ename = "preview-auto";
+        version = "0.3";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/preview-auto-0.3.tar";
+          sha256 = "19jih2bn6ac82jx6w7jhv9hbz47c8argv24lfglvv6532fda218r";
+        };
+        packageRequires = [ auctex emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/preview-auto.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    preview-tailor = callPackage ({ auctex, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "preview-tailor";
+        ename = "preview-tailor";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/preview-tailor-0.2.tar";
+          sha256 = "1mqh2myz5w84f4n01ibd695h4mnqwjxmg7rvs7pz3sylz1xqyks7";
+        };
+        packageRequires = [ auctex emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/preview-tailor.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     project = callPackage ({ elpaBuild, emacs, fetchurl, lib, xref }:
       elpaBuild {
         pname = "project";
@@ -5737,6 +5805,36 @@
         packageRequires = [ cl-lib ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/test-simple.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    tex-item = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "tex-item";
+        ename = "tex-item";
+        version = "0.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/tex-item-0.1.tar";
+          sha256 = "0ggbn3lk64cv6pnw97ww7vn250jchj80zx3hvkcqlccyw34x6ziy";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/tex-item.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    tex-parens = callPackage ({ auctex, elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "tex-parens";
+        ename = "tex-parens";
+        version = "0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/tex-parens-0.2.tar";
+          sha256 = "01jlcc35bhcs4sg33s4n2yxw53wx9iavmklaqxjwkl3jab5lhzbl";
+        };
+        packageRequires = [ auctex emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/tex-parens.html";
           license = lib.licenses.free;
         };
       }) {};
