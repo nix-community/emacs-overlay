@@ -1353,10 +1353,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.12.0.0.20240612.200814";
+        version = "0.12.0.0.20240617.180404";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.12.0.0.20240612.200814.tar";
-          sha256 = "0vanxm1aq215cg3lnax2mmw6m3l1dm6d50bm95rxbv1r95ndmngx";
+          url = "https://elpa.gnu.org/devel/dape-0.12.0.0.20240617.180404.tar";
+          sha256 = "0k9l0kqv7bcpmikv38ifk60sx3h1r4ilc7arhmkdyzwxn5fcf0xq";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -4016,10 +4016,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.4.0.0.20240610.173055";
+        version = "4.4.0.0.20240617.140309";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.4.0.0.20240610.173055.tar";
-          sha256 = "1mvgsxrkcml0wb2gq6qiz7s1mx0a8q3am9gnx55c2cia6f5nbd6s";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.4.0.0.20240617.140309.tar";
+          sha256 = "0s0n9sjvpvh21dznpsxbx7vsd2f3bpgwrdfx9gxd69p80afhf2xk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4465,10 +4465,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240615.142724";
+        version = "9.8pre0.20240617.170312";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240615.142724.tar";
-          sha256 = "04g143fcmr73mfdhkydhi056rwvc9lk3639nz5za5ph7ds41q17g";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240617.170312.tar";
+          sha256 = "0la494d59sgfsgnq0l8gs04cwnjm02ifvcs07szw14cwzcn2zrcc";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4655,10 +4655,10 @@
       elpaBuild {
         pname = "orgalist";
         ename = "orgalist";
-        version = "1.14.0.20240111.181530";
+        version = "1.15.0.20240617.180607";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/orgalist-1.14.0.20240111.181530.tar";
-          sha256 = "05nbkphk3ii3ibfap9y9ss3w0g3qzl6qiynflib1dhbk2v222z3x";
+          url = "https://elpa.gnu.org/devel/orgalist-1.15.0.20240617.180607.tar";
+          sha256 = "1djljgci93jfgxg3zdbmmprdmv24jmcbz95kx598k5g0wsdkj942";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4714,14 +4714,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    pabbrev = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    pabbrev = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "pabbrev";
         ename = "pabbrev";
-        version = "4.3.0.0.20240216.43949";
+        version = "4.3.0.0.20240617.162224";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/pabbrev-4.3.0.0.20240216.43949.tar";
-          sha256 = "0lkqg6qv06ayianrxs9mivy8pny7hzr0743mlaa20adgk681v1s4";
+          url = "https://elpa.gnu.org/devel/pabbrev-4.3.0.0.20240617.162224.tar";
+          sha256 = "0wkizis0wb6syy2lzp1mi2cn5znzangi1w18jcn5ra8k8xj66yp4";
         };
         packageRequires = [ emacs ];
         meta = {
