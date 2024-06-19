@@ -1484,10 +1484,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240618.100452";
+        version = "2.3.5.0.20240619.74018";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240618.100452.tar";
-          sha256 = "1ph8va5bmsw406xy3c70d6zhgjpanz9v7p22gipab7zyp7wdazm0";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240619.74018.tar";
+          sha256 = "06xafrlvbqvzj80yvjk3sx42n8dh2qfgg7r47d313dqqhj5nrw2c";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2260,10 +2260,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6.0.20240612.122601";
+        version = "5.6.0.20240619.52630";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6.0.20240612.122601.tar";
-          sha256 = "12prf8h90icwflhnhl9yc2hdarsnc2yg5sg6lw5xji2k5h154p3k";
+          url = "https://elpa.gnu.org/devel/erc-5.6.0.20240619.52630.tar";
+          sha256 = "1i8j6y4xr4lrc7897ydbiza854hkhkjd3vy2qi4c59csinp1w1xv";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -7009,10 +7009,10 @@
       elpaBuild {
         pname = "use-package";
         ename = "use-package";
-        version = "2.4.5.0.20240518.103045";
+        version = "2.4.5.0.20240619.52630";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20240518.103045.tar";
-          sha256 = "0zh4vb5h2733glbj3izflw0laxvf2y34cm924jpgyrjkz66ld6wc";
+          url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20240619.52630.tar";
+          sha256 = "1bkf3pfvpgi9dx79f4pgnkn2nhdf835war900p96f03yr3vilnpd";
         };
         packageRequires = [ bind-key emacs ];
         meta = {
