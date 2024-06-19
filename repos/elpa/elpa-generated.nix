@@ -4242,10 +4242,10 @@
       elpaBuild {
         pname = "orgalist";
         ename = "orgalist";
-        version = "1.15";
+        version = "1.16";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/orgalist-1.15.tar";
-          sha256 = "1x425yv3dr0n390yapkn50afhb38vkcg8bksl08h86pq76g5jv6v";
+          url = "https://elpa.gnu.org/packages/orgalist-1.16.tar";
+          sha256 = "0j78g12q66piclraa2nvd1h4ri8d6cnw5jahw6k5zi4xfjag6yx3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6011,10 +6011,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.6.0";
+        version = "0.7.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/transient-0.6.0.tar";
-          sha256 = "0rk4gafx3yylzawiny86ml4jzrs8x6cf2bvmnv36p8l13wgp0w9p";
+          url = "https://elpa.gnu.org/packages/transient-0.7.0.tar";
+          sha256 = "10yra2scpljnb3h5h6jfnhdn5whvpw2pscfy6bqm5k9l685nabga";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
