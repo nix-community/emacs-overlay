@@ -2466,10 +2466,10 @@
       elpaBuild {
         pname = "org-transclusion-http";
         ename = "org-transclusion-http";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/org-transclusion-http-0.3.tar";
-          sha256 = "1iqzaga9xkkzisp9cb47j4nyc9f6wfmi6l9jy7g6mg51n7qriwa8";
+          url = "https://elpa.nongnu.org/nongnu/org-transclusion-http-0.4.tar";
+          sha256 = "1k57672w0dcw63dp1a6m5fc0pkm8p5la9811m16r440i7wqq0kmr";
         };
         packageRequires = [ emacs org-transclusion plz ];
         meta = {
