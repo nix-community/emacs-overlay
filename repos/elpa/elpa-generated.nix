@@ -3052,10 +3052,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.7";
+        version = "1.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jinx-1.7.tar";
-          sha256 = "13snfsrwdbn23fdwpk42xp24x8bskl8sgsbq51nr896smjp2x3b4";
+          url = "https://elpa.gnu.org/packages/jinx-1.8.tar";
+          sha256 = "0r1wlbh27bsvvbiwkip1j80akxza2jkpns8safva9074w7vixqbz";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6011,10 +6011,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.7.0";
+        version = "0.7.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/transient-0.7.0.tar";
-          sha256 = "10yra2scpljnb3h5h6jfnhdn5whvpw2pscfy6bqm5k9l685nabga";
+          url = "https://elpa.gnu.org/packages/transient-0.7.1.tar";
+          sha256 = "188jk36n93gnphwi7x1l72q98z5r57nr86d6dl349brvsiz2kng0";
         };
         packageRequires = [ compat emacs seq ];
         meta = {

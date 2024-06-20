@@ -808,10 +808,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.5.0.20240517.221612";
+        version = "1.5.0.20240619.170217";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.5.0.20240517.221612.tar";
-          sha256 = "1gxk070lf204hp62zlxqkc0h8k7ml6sywms1m8kadbl650dl8fdc";
+          url = "https://elpa.gnu.org/devel/cape-1.5.0.20240619.170217.tar";
+          sha256 = "0k0g8igld9306drnyf5kqqjjif2lvspipv22h98fm0fdwmlsi34x";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3373,10 +3373,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.7.0.20240606.90956";
+        version = "1.8.0.20240619.103054";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.7.0.20240606.90956.tar";
-          sha256 = "131i9g4b077q6gir1ij6v59rywpr0dxywbx10y9m969l12m95wjc";
+          url = "https://elpa.gnu.org/devel/jinx-1.8.0.20240619.103054.tar";
+          sha256 = "0vrqwiciijci2a1kljw2yw68mw08j9q6kb7nypynvx122mq9zzsv";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4503,10 +4503,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240618.160921";
+        version = "9.8pre0.20240619.151402";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240618.160921.tar";
-          sha256 = "0ldnd28akfjkhfglfgj20rw5mvgmdg85l3gq5yqymkarlwdajrp1";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240619.151402.tar";
+          sha256 = "1a4i4aw2ijxdyvfnhk9lq9bsh96kpcgk57jgjxphyibqd8qf1wmd";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6760,10 +6760,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.7.0.0.20240618.141306";
+        version = "0.7.1.0.20240619.132429";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.7.0.0.20240618.141306.tar";
-          sha256 = "0xaa5c3jcqprrdzhfmv52f2zlsyf53rky830y82vr4288n0jffy4";
+          url = "https://elpa.gnu.org/devel/transient-0.7.1.0.20240619.132429.tar";
+          sha256 = "066ydbw5qg79mmv7rn2db99phb8znw5j4qcqgxf8j9jpbf0mflfr";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
