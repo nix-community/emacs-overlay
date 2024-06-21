@@ -348,10 +348,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.5.0.20240527.190734";
+        version = "14.0.5.0.20240620.131047";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.5.0.20240527.190734.tar";
-          sha256 = "0xi1bsibipz2ah13vhifzvjc8ydbm7bxvjxmjaaibbw4900jh778";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.5.0.20240620.131047.tar";
+          sha256 = "0wx06y47qwr2id1dqvsidb78q42rhkwgahirvxdkkapg12iwpv7r";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1391,10 +1391,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.12.0.0.20240617.200328";
+        version = "0.12.0.0.20240620.175449";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.12.0.0.20240617.200328.tar";
-          sha256 = "1y78c312ck2s0a9wqinpr1jqazgx4k7l8wlxmgm62ly8p7dibndi";
+          url = "https://elpa.gnu.org/devel/dape-0.12.0.0.20240620.175449.tar";
+          sha256 = "1vqrm86vdpxyfbq6pary9djk0hbqgndp8wbhqhd7nmjyy7ymngip";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -3373,10 +3373,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.8.0.20240619.103054";
+        version = "1.8.0.20240620.112852";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.8.0.20240619.103054.tar";
-          sha256 = "0vrqwiciijci2a1kljw2yw68mw08j9q6kb7nypynvx122mq9zzsv";
+          url = "https://elpa.gnu.org/devel/jinx-1.8.0.20240620.112852.tar";
+          sha256 = "0p5j363pbxqzijykhk6yabax724npd4pr24j2ial19arfhyf7krq";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4503,10 +4503,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240620.54156";
+        version = "9.8pre0.20240620.162944";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240620.54156.tar";
-          sha256 = "0l3piz8xsqhlp4dkkfj6fmg8mz67v4m1lv2q1dqldq81lhjrkgj8";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240620.162944.tar";
+          sha256 = "1snw2g0i5dkb7556hr9d3fapy9bsrjx7cl0drlb3chqzmv8x49ha";
         };
         packageRequires = [ emacs ];
         meta = {
