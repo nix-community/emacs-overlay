@@ -3334,6 +3334,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    literate-scratch = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "literate-scratch";
+        ename = "literate-scratch";
+        version = "1.0";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/literate-scratch-1.0.tar";
+          sha256 = "1rby70wfj6g0p4hc6xqzwgqj2g8780qm5mnjn95bl2wrvdi0ds6n";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/literate-scratch.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     llm = callPackage ({ elpaBuild, emacs, fetchurl, lib, plz }:
       elpaBuild {
         pname = "llm";
