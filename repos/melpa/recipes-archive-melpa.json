@@ -45452,8 +45452,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20240620,
-    2206
+    20240621,
+    1920
    ],
    "deps": [
     "closql",
@@ -45468,8 +45468,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "4adb94d23c8f28ea3b15757936c2203b3376586a",
-   "sha256": "1blmimakscxwffw6fsbphdfjy6c8i1k8p1q1wjv8wh5drglwkaq0"
+   "commit": "f8a7e8a678c2e379aff91596a05a49678a3ebd84",
+   "sha256": "04mqpljah5wj9g65dzj909ybx6spzz35ak79jmsfp9h1qxgjxd81"
   },
   "stable": {
    "version": [
@@ -60511,11 +60511,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20240620,
-    605
+    20240622,
+    601
    ],
-   "commit": "c4cfe68db84a8b682a589791a336ce3c42899e34",
-   "sha256": "1f626iprdlglg4h1y34qam0gp4jw9p9hq6b9hi040dn47ilxx8kj"
+   "commit": "2d95b9ab3b247526c12d037cb7c4bb0650b26b0e",
+   "sha256": "04gsm7p0m2xw6rnc4h23xqlfdjw8nm57bw0p8yp86i4c3v35wwdv"
   }
  },
  {
@@ -87226,20 +87226,26 @@
   "repo": "alphapapa/org-bookmark-heading",
   "unstable": {
    "version": [
-    20231216,
-    1234
+    20240622,
+    947
    ],
-   "commit": "ed8b7fe2a08b06a1d750d1e1230e6728815e0bcd",
-   "sha256": "19fayjglgr3vk365a2f0c2mdnww30cxpzmi1sl2p2n3mic21av37"
+   "deps": [
+    "compat"
+   ],
+   "commit": "b667cfdde7631c656778473e6c87bc51e46280cd",
+   "sha256": "06pwxlhqcvz6fb8y4mm54r851x8gcqrwj3pgfnag7ydw881rlqg3"
   },
   "stable": {
    "version": [
     1,
     3,
-    1
+    2
    ],
-   "commit": "3e95313837898ec8660c7a8b0f601ec7edda7bfc",
-   "sha256": "0dixym930mxsl954rbjay2wk4p0r5d90jgz2cyv5hs3pa40msgdl"
+   "deps": [
+    "compat"
+   ],
+   "commit": "c7c7dcc52d3ad78084ea15e95bd7f6037bf02543",
+   "sha256": "1xzwbvhj6x5vszxbrf1sws37i8m3kff3sf1xkzijvjn8c8da9r97"
   }
  },
  {
@@ -89998,8 +90004,8 @@
   "repo": "alphapapa/org-ql",
   "unstable": {
    "version": [
-    20240613,
-    445
+    20240622,
+    1000
    ],
    "deps": [
     "compat",
@@ -90014,8 +90020,8 @@
     "transient",
     "ts"
    ],
-   "commit": "d5269bb5e283f3b12b45fb05c4a7926d23e07d1f",
-   "sha256": "1f9z997an70v2h31bin00qj5ppcy9l16c3yqb6shrwf5fr7h9lp5"
+   "commit": "5ef4364d0a439e409dcc5610f7df9e161a0144d7",
+   "sha256": "1li05l4qr05m2axk4z24hv5z3ajybzymz27vnx1zw6zs9c20n6wj"
   },
   "stable": {
    "version": [
@@ -110773,15 +110779,15 @@
   "repo": "chenyanming/shrface",
   "unstable": {
    "version": [
-    20240620,
-    327
+    20240622,
+    712
    ],
    "deps": [
     "language-detection",
     "org"
    ],
-   "commit": "fa16ee9b3485b5f1a2fec76e1f4b218789958795",
-   "sha256": "0pbiy07pbchw9fh34lpxkc6dqq0mmqmzyyjlfc068al9gb5dpf6r"
+   "commit": "a684fda3485684714a87b637c76b843fc15cecbb",
+   "sha256": "0x0x4plkmphz2qwxsv3vrgvhy2hcqbgs0aa03iqvxnyg22ih6pjk"
   },
   "stable": {
    "version": [
@@ -116889,14 +116895,14 @@
   "repo": "swift-emacs/swift-mode",
   "unstable": {
    "version": [
-    20240217,
-    631
+    20240622,
+    935
    ],
    "deps": [
     "seq"
    ],
-   "commit": "25cf8237312bf5eddc2c90001feb8f73633ab523",
-   "sha256": "0p7rfzyysmxzwvy595b72jlbl2gjb4b6pgm21qdg9dg00hmf3c1n"
+   "commit": "b06c97b909418b5dca3d15351b2ce86a04df32fb",
+   "sha256": "03b7n4sw5q7dhl06bm9bkdzhlzn5kyvlsc149jplc4c9xxnvnki6"
   },
   "stable": {
    "version": [
@@ -121173,15 +121179,15 @@
   "repo": "magit/transient",
   "unstable": {
    "version": [
-    20240619,
-    1324
+    20240622,
+    1240
    ],
    "deps": [
     "compat",
     "seq"
    ],
-   "commit": "f78aebdd03292241b45023c4379bcad5c746fc4c",
-   "sha256": "071kjj0n024k7fr7mdwkkk7qjnf0gbhhjjxbk3nkyjzzxhqwff1b"
+   "commit": "06a87bd0f39dced6fc892fe7f710f008a1dde308",
+   "sha256": "128b3xjafnphdddinwqhv64mzsahirzqvxm6bp8vgjdvyhpfk1zq"
   },
   "stable": {
    "version": [
@@ -126394,8 +126400,8 @@
   "repo": "d12frosted/vulpea",
   "unstable": {
    "version": [
-    20240528,
-    1638
+    20240622,
+    1018
    ],
    "deps": [
     "dash",
@@ -126403,8 +126409,8 @@
     "org-roam",
     "s"
    ],
-   "commit": "06c705a77f2b4b9ccee8d7726398c1668e2af752",
-   "sha256": "0kwjmanyz9dyp1qyidx886w7minsb2ixpzaaar8fkxf6qxbzny9m"
+   "commit": "2cd14af26e4ffafd069b2ed867c07102ad89bdd3",
+   "sha256": "0xhsymqd7y4wypz71gxcn11krsd2vd1svvvbki9rcl4aqqiybq6v"
   },
   "stable": {
    "version": [
