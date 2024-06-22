@@ -2389,10 +2389,10 @@
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.30.0.20240615.71721";
+        version = "0.30.0.20240621.175621";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240615.71721.tar";
-          sha256 = "0s3b5gvhpcm9xv81s76gqqs7qc8wf2laph74sc3d7vgfiw3xmfcj";
+          url = "https://elpa.gnu.org/devel/exwm-0.30.0.20240621.175621.tar";
+          sha256 = "0w695f42g6xcnpns59q3lvq58hjdx6lc2gda2x7jpcy8c7k189yp";
         };
         packageRequires = [ emacs xelb ];
         meta = {
