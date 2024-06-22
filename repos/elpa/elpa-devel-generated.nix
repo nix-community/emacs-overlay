@@ -738,10 +738,10 @@
       elpaBuild {
         pname = "bufferlo";
         ename = "bufferlo";
-        version = "0.8.0.20240516.162426";
+        version = "0.8.0.20240621.221659";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/bufferlo-0.8.0.20240516.162426.tar";
-          sha256 = "1w4vw1f5qmgv9207wpgmw5ahq4kans5dh775l213vzh32s6cdxx1";
+          url = "https://elpa.gnu.org/devel/bufferlo-0.8.0.20240621.221659.tar";
+          sha256 = "14nmd2c3d6vdbr5jj8mdyg0r1i4gvhjxq6y37xy3mj4lf96v1yjp";
         };
         packageRequires = [ emacs ];
         meta = {
