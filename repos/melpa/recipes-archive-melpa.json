@@ -11219,28 +11219,28 @@
   "repo": "kickingvegas/casual-avy",
   "unstable": {
    "version": [
-    20240620,
-    2204
+    20240621,
+    2151
    ],
    "deps": [
     "avy",
     "casual-lib"
    ],
-   "commit": "d913b8ad584268b3a1e72d982cbff94b013bb59e",
-   "sha256": "17whjqjwwx10f97n8i9k0x6d9wh0ghzhkpbrv9y53cd7ma1pyd6s"
+   "commit": "6835d78c5b75215da3a0971222ecefad1cfb1a8a",
+   "sha256": "07kjd0krarrl2cyw0sana2z6m19688ybrxcnqccxh082di7fdsyn"
   },
   "stable": {
    "version": [
     1,
     2,
-    1
+    2
    ],
    "deps": [
     "avy",
     "casual-lib"
    ],
-   "commit": "d913b8ad584268b3a1e72d982cbff94b013bb59e",
-   "sha256": "17whjqjwwx10f97n8i9k0x6d9wh0ghzhkpbrv9y53cd7ma1pyd6s"
+   "commit": "6835d78c5b75215da3a0971222ecefad1cfb1a8a",
+   "sha256": "07kjd0krarrl2cyw0sana2z6m19688ybrxcnqccxh082di7fdsyn"
   }
  },
  {
@@ -13307,8 +13307,8 @@
   "repo": "andras-simonyi/citeproc-el",
   "unstable": {
    "version": [
-    20240611,
-    1418
+    20240621,
+    1425
    ],
    "deps": [
     "compat",
@@ -13320,8 +13320,8 @@
     "s",
     "string-inflection"
    ],
-   "commit": "08f988e32fa53dfca363bd3d2b3e0a70f936e3b6",
-   "sha256": "0fp159phy3xx62mwfl0gh4jzrw38ij2nvl84sbngva01krqm8i43"
+   "commit": "cfa30b6c95c7465a05da98eccf273608880b22d7",
+   "sha256": "0layhvngypfxms7ivhiqfhfx5787kq0vdp2m4k51mwgjk0cagfqc"
   },
   "stable": {
    "version": [
@@ -67830,8 +67830,8 @@
   "repo": "jinnovation/kele.el",
   "unstable": {
    "version": [
-    20240617,
-    1147
+    20240621,
+    2110
    ],
    "deps": [
     "async",
@@ -67843,8 +67843,8 @@
     "s",
     "yaml"
    ],
-   "commit": "e3a3534222f22c85f7d53c676e13b6b60c24f6f0",
-   "sha256": "065dfqa03p60cwfpanmpxqvgaqsnp8zapqk2ivzyw6zvr6f44hay"
+   "commit": "2460094aede77054f3200c61d807a445e3b79c9a",
+   "sha256": "1izyfhabmlqhbn0zv0vxc8c2ncxs26qw17k4772gpksvxxa29i44"
   },
   "stable": {
    "version": [
@@ -74774,15 +74774,15 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20240613,
-    2254
+    20240621,
+    2229
    ],
    "deps": [
     "compat",
     "dash"
    ],
-   "commit": "5f7e558d5111e8ed46fb6b6c4978a4310d55a256",
-   "sha256": "1250r23bb1jz77mrqsxi72d47m1c07y2g5l2kv8qwrmhfnvz3jd3"
+   "commit": "ea0f07e54967197ac0b072a69ba314314a4080c1",
+   "sha256": "1zc25x8zvyfdqwxdplynyanc1aawhadjdnmjlsjgncmgkai6synd"
   },
   "stable": {
    "version": [
@@ -97718,14 +97718,14 @@
   "repo": "Wilfred/pip-requirements.el",
   "unstable": {
    "version": [
-    20181027,
-    1629
+    20240621,
+    2151
    ],
    "deps": [
     "dash"
    ],
-   "commit": "216cd1690f80cc965d4ae47b8753fc185f778ff6",
-   "sha256": "0da3q0n5nn0l96kk49kanw5knx3jmga439zbmiii76na16bg5y3i"
+   "commit": "31e0dc62abb2d88fa765e0ea88b919d756cc0e4f",
+   "sha256": "08q225h8kahh632qkzpb1ih3jqg5imlzgrrh8ynkyxrr710madkl"
   },
   "stable": {
    "version": [
@@ -102874,14 +102874,14 @@
   "repo": "jdtsmith/python-mls",
   "unstable": {
    "version": [
-    20230920,
-    1915
+    20240621,
+    2114
    ],
    "deps": [
     "compat"
    ],
-   "commit": "821b93ff7c94a13090598c22fd92bd19b5ad951b",
-   "sha256": "1p9dcjz8hgjb8gz742pxqdrjh68mnyr2hssy6glhd2qb78d4927y"
+   "commit": "3ebacc6c46e9f7de25279783001ca3fc8964d7a8",
+   "sha256": "0qspqx1jlpcq64d5j05xfn6xdfnxixb654pczilxp6bqhyca8ln4"
   },
   "stable": {
    "version": [
@@ -113812,25 +113812,19 @@
   "unstable": {
    "version": [
     20240621,
-    1513
+    1919
    ],
-   "deps": [
-    "s"
-   ],
-   "commit": "c89342d60a191bb1382b89252b4153d1c39331ba",
-   "sha256": "0bnd2iaqqkhzbh632mrbjy92g8q1azb4ini8459rl1hkhyw00dw3"
+   "commit": "2cb8621ed588c6f3e210c9e76d713e6dacc03030",
+   "sha256": "14pag50ky56wma1zcmsjy2270hvwwna2m85787r3cjkjkxhhhxmi"
   },
   "stable": {
    "version": [
     0,
     1,
-    2
+    4
    ],
-   "deps": [
-    "s"
-   ],
-   "commit": "c89342d60a191bb1382b89252b4153d1c39331ba",
-   "sha256": "0bnd2iaqqkhzbh632mrbjy92g8q1azb4ini8459rl1hkhyw00dw3"
+   "commit": "2cb8621ed588c6f3e210c9e76d713e6dacc03030",
+   "sha256": "14pag50ky56wma1zcmsjy2270hvwwna2m85787r3cjkjkxhhhxmi"
   }
  },
  {
