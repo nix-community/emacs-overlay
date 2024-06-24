@@ -4518,10 +4518,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240622.155926";
+        version = "9.8pre0.20240623.111440";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240622.155926.tar";
-          sha256 = "1azhbs5x49krj1k2kg22f4na8h7xa6w1nnjrgsk44x3iz4m9jcaw";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240623.111440.tar";
+          sha256 = "1ffchlxl3inzpm0v2k02skxxh5pg2d9whszrm5mmqwq1kdzxwnf7";
         };
         packageRequires = [ emacs ];
         meta = {
