@@ -212,6 +212,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    beancount = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "beancount";
+        ename = "beancount";
+        version = "0.9";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/beancount-0.9.tar";
+          sha256 = "1s0w17mq8kilkrd33pan78px6mz5z96d7gvdmy2shg3hvj1jbq09";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/beancount.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     better-jumper = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "better-jumper";
@@ -1544,10 +1559,10 @@
       elpaBuild {
         pname = "gptel";
         ename = "gptel";
-        version = "0.8.6";
+        version = "0.9.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/gptel-0.8.6.tar";
-          sha256 = "1ds0i32bdmdi5w68cjxm9xlg0m9n29yr4hl6sqi8gn3kgswfx1sb";
+          url = "https://elpa.nongnu.org/nongnu/gptel-0.9.0.tar";
+          sha256 = "1crcng1h6i64h6l3pha96k3hy2hga73pp0wy4i9gdrc1ra0dbjf4";
         };
         packageRequires = [ compat emacs transient ];
         meta = {
@@ -2122,10 +2137,10 @@
       elpaBuild {
         pname = "mastodon";
         ename = "mastodon";
-        version = "1.0.23";
+        version = "1.0.24";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.23.tar";
-          sha256 = "0gzikzkjzvscn2q5ga4d351sakrxzihpjkx82v5hhv3495krxxlw";
+          url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.24.tar";
+          sha256 = "05jj62klf7cf44nlkjxdzg63xi4z30n5c4806xd5i2yw19nfw023";
         };
         packageRequires = [ emacs persist request ];
         meta = {
