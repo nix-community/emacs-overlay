@@ -1026,10 +1026,10 @@
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20240613.191547";
+        version = "0.10.2.0.20240623.211403";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240613.191547.tar";
-          sha256 = "0xy24fapkzinifbdnmkvi2h3phkk1234ja4nmp8d2aqjfz86dh20";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240623.211403.tar";
+          sha256 = "0nrz261jfva1qxw5526a3hm573ymyfr0l4rsbgjxm1xnmz4jcibg";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1102,10 +1102,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.5.0.20240530.110732";
+        version = "29.1.4.5.0.20240624.145101";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/compat-29.1.4.5.0.20240530.110732.tar";
-          sha256 = "1qhr7ipb2kkkygh9svs37gp9i09myd9n5xhzq2aciwkpb9zkwqbd";
+          url = "https://elpa.gnu.org/devel/compat-29.1.4.5.0.20240624.145101.tar";
+          sha256 = "07rg37srkxrzl4zad994da6c9rd878gjsm64gm916xf5a207w1l7";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -4256,10 +4256,10 @@
       elpaBuild {
         pname = "nano-theme";
         ename = "nano-theme";
-        version = "0.3.4.0.20240319.93238";
+        version = "0.3.4.0.20240624.80231";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/nano-theme-0.3.4.0.20240319.93238.tar";
-          sha256 = "0xh3m9c4wq7zvc634nvfvxyyi0snlb67286znmnfkpgb3j84vshk";
+          url = "https://elpa.gnu.org/devel/nano-theme-0.3.4.0.20240624.80231.tar";
+          sha256 = "1h2sifcl26av1lzzmngb2svl23hchjnzd8aaszkxxwh34wg1cgnk";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6330,10 +6330,10 @@
       elpaBuild {
         pname = "svg-tag-mode";
         ename = "svg-tag-mode";
-        version = "0.3.2.0.20240429.105240";
+        version = "0.3.2.0.20240624.85758";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20240429.105240.tar";
-          sha256 = "0isp9zcyx9dqb0nah1b990nikwiaxm5lvqlbya9v1rcb3fbvf9hc";
+          url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20240624.85758.tar";
+          sha256 = "01hhdvbsrdbmaspdl1vbpsa1rxc5qxc5rhqi8yhgb711wcwghgln";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
@@ -6775,10 +6775,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.7.1.0.20240619.132429";
+        version = "0.7.2.0.20240624.110812";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.7.1.0.20240619.132429.tar";
-          sha256 = "066ydbw5qg79mmv7rn2db99phb8znw5j4qcqgxf8j9jpbf0mflfr";
+          url = "https://elpa.gnu.org/devel/transient-0.7.2.0.20240624.110812.tar";
+          sha256 = "0r8lhr84gx0f88z44x5nlly8fkab4a26y2yr493lzc4c02yi6sxm";
         };
         packageRequires = [ compat emacs seq ];
         meta = {

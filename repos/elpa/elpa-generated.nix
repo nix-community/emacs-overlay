@@ -6026,10 +6026,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.7.1";
+        version = "0.7.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/transient-0.7.1.tar";
-          sha256 = "188jk36n93gnphwi7x1l72q98z5r57nr86d6dl349brvsiz2kng0";
+          url = "https://elpa.gnu.org/packages/transient-0.7.2.tar";
+          sha256 = "0i68wpwxf729qxjxhafkp098wcmkqn06ka3hcqnlky2p1zl29hby";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
