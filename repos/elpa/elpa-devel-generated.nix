@@ -1019,17 +1019,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    company = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    company = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20240623.211403";
+        version = "0.10.2.0.20240625.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240623.211403.tar";
-          sha256 = "0nrz261jfva1qxw5526a3hm573ymyfr0l4rsbgjxm1xnmz4jcibg";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240625.7.tar";
+          sha256 = "0kz6ryjarvb18vdxsm6cqvackax8l0hyc8yb3bmaysg7w42m9451";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4069,10 +4066,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.4.0.0.20240622.183726";
+        version = "4.4.0.0.20240625.43731";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.4.0.0.20240622.183726.tar";
-          sha256 = "1l4a2kc9z8ba7qvc8l7inh91ir2mfqwcnxc3fdp1kjqn4vnhhval";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.4.0.0.20240625.43731.tar";
+          sha256 = "10z5zmr0qhnvpd79vdbsx9zr4l69l7b4lxzn5aaz63mkkrvy2yb3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4595,10 +4592,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.3.0.20240602.92604";
+        version = "1.3.0.20240625.45212";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.3.0.20240602.92604.tar";
-          sha256 = "0l40rq6kzrhp71z8xqfdkwfvl0jhja9avrdgyrrrgkzx90abxggn";
+          url = "https://elpa.gnu.org/devel/org-modern-1.3.0.20240625.45212.tar";
+          sha256 = "13csl722zamk5f91vg1jbjmcl4zx7pkl51iwkrx3q7a866mnj4gz";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -7188,10 +7185,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.8.0.20240511.204721";
+        version = "1.8.0.20240625.50630";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.8.0.20240511.204721.tar";
-          sha256 = "0gd68x98dghqa7da0ybah2w27bxipal262n9d6rpdhxb361cmpca";
+          url = "https://elpa.gnu.org/devel/vertico-1.8.0.20240625.50630.tar";
+          sha256 = "1zzx2rhsvsl7gkvq2s4bslv5mnlwg7azx8r4087q4b643g8qxh4q";
         };
         packageRequires = [ compat emacs ];
         meta = {
