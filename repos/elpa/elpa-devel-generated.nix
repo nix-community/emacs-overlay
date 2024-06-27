@@ -345,10 +345,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.5.0.20240626.64742";
+        version = "14.0.5.0.20240627.64752";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.5.0.20240626.64742.tar";
-          sha256 = "1rw52j7d33xjqk5rwd2psw2yianvfhjjfdl1w4imblppxszc8zan";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.5.0.20240627.64752.tar";
+          sha256 = "04xnfpwl1ildyj1lhsv3f15srlzvi3mr33zfsfvgsx43jqkq08k3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -805,10 +805,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.5.0.20240619.170217";
+        version = "1.5.0.20240626.225727";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.5.0.20240619.170217.tar";
-          sha256 = "0k0g8igld9306drnyf5kqqjjif2lvspipv22h98fm0fdwmlsi34x";
+          url = "https://elpa.gnu.org/devel/cape-1.5.0.20240626.225727.tar";
+          sha256 = "1wgfx9c98nl6mj6qjv9f85cpi7n7ng30b3lghs27hjl5f6wlmlhy";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -973,10 +973,10 @@
       elpaBuild {
         pname = "colorful-mode";
         ename = "colorful-mode";
-        version = "1.0.3.0.20240609.160019";
+        version = "1.0.4.0.20240626.184332";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/colorful-mode-1.0.3.0.20240609.160019.tar";
-          sha256 = "1mhyw56ibnr9crl978ah9hz6jw1621ghl5b3ynaqvbc83hbpyacg";
+          url = "https://elpa.gnu.org/devel/colorful-mode-1.0.4.0.20240626.184332.tar";
+          sha256 = "0ildmh96ympvhd8l8nq4n7k160sbwy6hl327wgkgq1871v49m8yv";
         };
         packageRequires = [ compat emacs ];
         meta = {
