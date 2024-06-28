@@ -2256,10 +2256,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6.1snapshot0.20240627.63618";
+        version = "5.6.1snapshot0.20240628.64658";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20240627.63618.tar";
-          sha256 = "087ki7agz54arqaf3gg33kir7552fg3df7cq6dmfd7rgiyr5ix8p";
+          url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20240628.64658.tar";
+          sha256 = "1z8hc43wayb4iqg2bklcpr37hyr9i3fww9ir5n2f7qnfgnrqf5fv";
         };
         packageRequires = [ compat emacs ];
         meta = {
