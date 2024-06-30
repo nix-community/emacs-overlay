@@ -1869,10 +1869,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.9.11";
+        version = "0.10.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.9.11.tar";
-          sha256 = "08ywk99cn452glih8wdisvwh6p3v6nn6vxlxsc3naga2c9avfpqc";
+          url = "https://elpa.gnu.org/packages/ellama-0.10.0.tar";
+          sha256 = "0kjqlljaw0bxrqjndjcasg764rc64ggc3za4sgqq6sxnvjfmc4q6";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -3052,10 +3052,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.8";
+        version = "1.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jinx-1.8.tar";
-          sha256 = "0r1wlbh27bsvvbiwkip1j80akxza2jkpns8safva9074w7vixqbz";
+          url = "https://elpa.gnu.org/packages/jinx-1.9.tar";
+          sha256 = "0k6km295y5w13kl18v9b6y0szdccf89nbar3zkdincy4iid5z6n1";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -5842,10 +5842,10 @@
       elpaBuild {
         pname = "tex-parens";
         ename = "tex-parens";
-        version = "0.2";
+        version = "0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tex-parens-0.2.tar";
-          sha256 = "01jlcc35bhcs4sg33s4n2yxw53wx9iavmklaqxjwkl3jab5lhzbl";
+          url = "https://elpa.gnu.org/packages/tex-parens-0.3.tar";
+          sha256 = "1jqsy7nbxz9qwr6kwa2acv92hkld0g115w9nxbpq74sl38690cr8";
         };
         packageRequires = [ auctex emacs ];
         meta = {
@@ -5966,10 +5966,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.6.3";
+        version = "2.7.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.6.3.tar";
-          sha256 = "0z44mfpvn4qy2xc2fsiahw3xir140ljna8aq45dcb7qnmr044xjb";
+          url = "https://elpa.gnu.org/packages/tramp-2.7.1.tar";
+          sha256 = "128k591219ffwbk1cifki0xx94rg6b7crh7gmhaiqfa6jylqhcg8";
         };
         packageRequires = [ emacs ];
         meta = {
