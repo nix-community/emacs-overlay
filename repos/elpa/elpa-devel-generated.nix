@@ -341,17 +341,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild
-                          , emacs
-                          , fetchurl
-                          , lib }:
+    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.5.0.20240627.121349";
+        version = "14.0.6.0.20240630.74018";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.5.0.20240627.121349.tar";
-          sha256 = "0fsayhmzxdblm7jq3mi4vgiyql062s8l1vsjz3hsxw2yb7c1irr3";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240630.74018.tar";
+          sha256 = "06rrgsad94rg5w7wf1hlx81gag33hcckvzka3accy213aqxhwbj8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1388,10 +1385,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.12.0.0.20240629.180135";
+        version = "0.12.0.0.20240629.205204";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.12.0.0.20240629.180135.tar";
-          sha256 = "14znflr65l24xpf4s6rzy007sbwkn51c19j15pc42h0lpz9gw6ra";
+          url = "https://elpa.gnu.org/devel/dape-0.12.0.0.20240629.205204.tar";
+          sha256 = "00y2axhw162mk0a0fh5f9ynjzkl8hxm4csgn8x2yc9h9yddivb6s";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1481,10 +1478,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5.0.20240625.83828";
+        version = "2.3.5.0.20240630.43609";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240625.83828.tar";
-          sha256 = "0rm0y32g5zwh20xzz77vk8zlz9azknnkwwj8wsfhv68rg04wqh24";
+          url = "https://elpa.gnu.org/devel/denote-2.3.5.0.20240630.43609.tar";
+          sha256 = "0cxnvm74206rzd0sdw7hrcz9asla6r3gphkrf6gqlk78vsm9xnms";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1984,10 +1981,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240622.94636";
+        version = "1.17.0.20240629.152938";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240622.94636.tar";
-          sha256 = "1f3gvcwx53b0qbsfzjsl3hcbqdwja2pwy02dza9s2vgc6s6cf9nx";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240629.152938.tar";
+          sha256 = "0qqzw1b987916dwq5vkpl2y53jyyym8ycjm7cfpx4glaxig9mipj";
         };
         packageRequires = [
           compat
@@ -2256,10 +2253,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6.1snapshot0.20240628.64658";
+        version = "5.6.1snapshot0.20240630.20609";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20240628.64658.tar";
-          sha256 = "1z8hc43wayb4iqg2bklcpr37hyr9i3fww9ir5n2f7qnfgnrqf5fv";
+          url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20240630.20609.tar";
+          sha256 = "06q20ljnrs87bs7i3a4dlq8b4zalms77avw6ndpy4rxnckal4ifh";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3092,10 +3089,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240623.2532";
+        version = "9.0.2pre0.20240629.194245";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240623.2532.tar";
-          sha256 = "1zibllp6r3cjas7mgv549srccjlnydg9izj6wvh17x655wnwwap4";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240629.194245.tar";
+          sha256 = "1y1pi5fzp3kncrbm0d272sl8agw4h1qci7s9had35lwl8h80gbig";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5154,10 +5151,10 @@
       elpaBuild {
         pname = "preview-auto";
         ename = "preview-auto";
-        version = "0.3.0.20240617.174622";
+        version = "0.3.0.20240629.205058";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/preview-auto-0.3.0.20240617.174622.tar";
-          sha256 = "0yqd9rdz90cgyz0qqan1lz1jkkjpp5nhpf16vdbf2s8ygys333jh";
+          url = "https://elpa.gnu.org/devel/preview-auto-0.3.0.20240629.205058.tar";
+          sha256 = "12qmpx9lamxkwkvximygqkczyvwxv6dn8zyv8x55v2qiav0vcp1r";
         };
         packageRequires = [ auctex emacs ];
         meta = {
@@ -6562,20 +6559,19 @@
           license = lib.licenses.free;
         };
       }) {};
-    tex-parens = callPackage ({ auctex
-                              , elpaBuild
+    tex-parens = callPackage ({ elpaBuild
                               , emacs
                               , fetchurl
                               , lib }:
       elpaBuild {
         pname = "tex-parens";
         ename = "tex-parens";
-        version = "0.3.0.20240629.14342";
+        version = "0.4.0.20240630.70456";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tex-parens-0.3.0.20240629.14342.tar";
-          sha256 = "0ql42hb79pkx270q5xvzsl8yhmkpl17kp9lzhq8vzabgghqdwrcz";
+          url = "https://elpa.gnu.org/devel/tex-parens-0.4.0.20240630.70456.tar";
+          sha256 = "0rz6qmmmfajndq3irvrfvmjp1l3j0cfkz5fp36nabyrpj0v8g821";
         };
-        packageRequires = [ auctex emacs ];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/tex-parens.html";
           license = lib.licenses.free;

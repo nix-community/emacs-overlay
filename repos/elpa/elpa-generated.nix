@@ -295,10 +295,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.5";
+        version = "14.0.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/auctex-14.0.5.tar";
-          sha256 = "0sycj6ad5jazmsxq37hsnvbywkpj66lrw3d3mxqr1wqkb67cdd3k";
+          url = "https://elpa.gnu.org/packages/auctex-14.0.6.tar";
+          sha256 = "0cajri7x6770wjkrasa0p2s0dvcp74fpv1znac5wdfiwhvl1i9yr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -5842,10 +5842,10 @@
       elpaBuild {
         pname = "tex-parens";
         ename = "tex-parens";
-        version = "0.3";
+        version = "0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tex-parens-0.3.tar";
-          sha256 = "1jqsy7nbxz9qwr6kwa2acv92hkld0g115w9nxbpq74sl38690cr8";
+          url = "https://elpa.gnu.org/packages/tex-parens-0.4.tar";
+          sha256 = "08mj18sh32z61kjizf3y6bb0zvb6qgdhrk9q7b15bi5mllk834zd";
         };
         packageRequires = [ auctex emacs ];
         meta = {
