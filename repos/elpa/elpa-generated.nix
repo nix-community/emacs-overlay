@@ -1239,10 +1239,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.12.0";
+        version = "0.13.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dape-0.12.0.tar";
-          sha256 = "1s73lp7gmbch5kn32iv7pw7cyfsnvb4jvb7cdh1c7mcigfif2aip";
+          url = "https://elpa.gnu.org/packages/dape-0.13.0.tar";
+          sha256 = "1zzghp73yh1vl9vf3njkqyhh6vmmx6klnd9z37p62467bd19wr8a";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1329,10 +1329,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "2.3.5";
+        version = "3.0.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-2.3.5.tar";
-          sha256 = "1l8nlr8q7c51j2f528a0568pa3ywfv8pr47fzpd6pk2scc0y372b";
+          url = "https://elpa.gnu.org/packages/denote-3.0.1.tar";
+          sha256 = "0wwrk225k0fbix87gk0plr84gwjpgch5mf276561li7m54m1rkdz";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1869,10 +1869,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.10.0";
+        version = "0.10.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.10.0.tar";
-          sha256 = "0kjqlljaw0bxrqjndjcasg764rc64ggc3za4sgqq6sxnvjfmc4q6";
+          url = "https://elpa.gnu.org/packages/ellama-0.10.2.tar";
+          sha256 = "171m8xsdcfdkf87mgzmyacfdgdd9w917sz073bw3b7mfpsg7gxd5";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -2631,16 +2631,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    greader = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    greader = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib, seq }:
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.9.20";
+        version = "0.11.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.9.20.tar";
-          sha256 = "11n88xmr2qa5as5kpy4yy616nlh08nw5rkcbgmf9skgka3g1hmip";
+          url = "https://elpa.gnu.org/packages/greader-0.11.10.tar";
+          sha256 = "05gkyp2c2c89djmz71pkm786zda1sabh9asfag6zywsx061x5qwh";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs seq ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/greader.html";
           license = lib.licenses.free;
