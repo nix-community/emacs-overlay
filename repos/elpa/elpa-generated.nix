@@ -1329,10 +1329,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "3.0.1";
+        version = "3.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-3.0.1.tar";
-          sha256 = "0wwrk225k0fbix87gk0plr84gwjpgch5mf276561li7m54m1rkdz";
+          url = "https://elpa.gnu.org/packages/denote-3.0.2.tar";
+          sha256 = "148igvgdr73q9pms302zdiay933410ifxck8rypm2vzrkp5nw14r";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2635,10 +2635,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.11.10";
+        version = "0.11.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/greader-0.11.10.tar";
-          sha256 = "05gkyp2c2c89djmz71pkm786zda1sabh9asfag6zywsx061x5qwh";
+          url = "https://elpa.gnu.org/packages/greader-0.11.11.tar";
+          sha256 = "05zgxqjhbbpxiqrpp4gqm24yvrb03ax02gzr2x7s50jr20hg65x3";
         };
         packageRequires = [ compat emacs seq ];
         meta = {

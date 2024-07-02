@@ -341,14 +341,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    auctex = callPackage ({ elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.6.0.20240630.83437";
+        version = "14.0.6.0.20240630.205810";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240630.83437.tar";
-          sha256 = "1vmglba52k5c60ymbdzvhc16li843dvdhyszl62kglw77z9lk6cs";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240630.205810.tar";
+          sha256 = "0d1pkrqghyz2fqf7qs1yxnibjq0c7a0633j4kq7aqahcb9izpzj1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1478,10 +1481,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "3.0.1.0.20240630.81144";
+        version = "3.0.2.0.20240701.162220";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-3.0.1.0.20240630.81144.tar";
-          sha256 = "05yai89lnsbxaj277nqr85nn44qpks3ga69g9f66w6livrz005zx";
+          url = "https://elpa.gnu.org/devel/denote-3.0.2.0.20240701.162220.tar";
+          sha256 = "0gjznz0rpw8d6czybi64gk16zv4q5vcgd92dcds49clyx08hy4zm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2908,10 +2911,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.11.10.0.20240630.162512";
+        version = "0.11.11.0.20240701.34907";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.11.10.0.20240630.162512.tar";
-          sha256 = "0qjvdjbrhja4c5jh22kkvxajmhzzilwrxdwbp8cn2341q7cj5ha2";
+          url = "https://elpa.gnu.org/devel/greader-0.11.11.0.20240701.34907.tar";
+          sha256 = "0dagg66hi0lmgcwbnd1zic7p2if4c1v54wazbzr6c5m00bcwb7c3";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -3094,10 +3097,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240630.172306";
+        version = "9.0.2pre0.20240630.180255";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240630.172306.tar";
-          sha256 = "0acavqf2vgdj3476p8l590dg7y5xf4p1q8zfyalfifyfxgjvds2r";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240630.180255.tar";
+          sha256 = "0vnahg9zy5fx2ibqma7642y97y1avakzjsb96zygnr8bp730wcg1";
         };
         packageRequires = [ emacs ];
         meta = {
