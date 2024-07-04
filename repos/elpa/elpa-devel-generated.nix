@@ -1137,10 +1137,10 @@
       elpaBuild {
         pname = "consult-denote";
         ename = "consult-denote";
-        version = "0.0.0.0.20240607.111006";
+        version = "0.1.1.0.20240703.93551";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-denote-0.0.0.0.20240607.111006.tar";
-          sha256 = "0jcc4ndmdbybr0ppz6x3sfa55bh1kifrk4pkyvm7ch78i24hb73z";
+          url = "https://elpa.gnu.org/devel/consult-denote-0.1.1.0.20240703.93551.tar";
+          sha256 = "1275qhz4fyrh1qr1mjhzy923x4rs90v80sdiazmszn72dcvp25bq";
         };
         packageRequires = [ consult denote emacs ];
         meta = {
@@ -6490,10 +6490,10 @@
       elpaBuild {
         pname = "taxy-magit-section";
         ename = "taxy-magit-section";
-        version = "0.13.0.20240124.3519";
+        version = "0.14pre0.20240703.212805";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/taxy-magit-section-0.13.0.20240124.3519.tar";
-          sha256 = "1z1cypw7g5vs8vrm1mjvfzxaasr8nz89w1br9dhk8wshyy4kmgf3";
+          url = "https://elpa.gnu.org/devel/taxy-magit-section-0.14pre0.20240703.212805.tar";
+          sha256 = "0sdjfryyg0lgr8mry0v662j9m3kaqcap6f73s4ds81yc67y30qbg";
         };
         packageRequires = [ emacs magit-section taxy ];
         meta = {

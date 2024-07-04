@@ -1010,10 +1010,10 @@
       elpaBuild {
         pname = "consult-denote";
         ename = "consult-denote";
-        version = "0.0.0";
+        version = "0.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-denote-0.0.0.tar";
-          sha256 = "191qf8knrmimam98jv8kgrl6mfrnwpdmw160s5qw6wcik7j4z6kv";
+          url = "https://elpa.gnu.org/packages/consult-denote-0.1.1.tar";
+          sha256 = "0yhf9fifas87rs4wdapszbpx1xqyq44izjq7vzpyvdlh5a5fhhx1";
         };
         packageRequires = [ consult denote emacs ];
         meta = {
