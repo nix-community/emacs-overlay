@@ -11748,14 +11748,14 @@
   "repo": "ema2159/centaur-tabs",
   "unstable": {
    "version": [
-    20240703,
-    147
+    20240704,
+    1048
    ],
    "deps": [
     "powerline"
    ],
-   "commit": "c72029609c7a6ae64cfcbf69331d6253319c0906",
-   "sha256": "0755mq4lxpa06hjxbld9j0irsip92j13h0czrw427m03b89ma9mq"
+   "commit": "12663a3ea01d2652d28e63a9644b68ac31c400be",
+   "sha256": "1jlwk3930i389f38mmkrzq5nwk1vfffczdcsc9i0si5rzr010zbs"
   },
   "stable": {
    "version": [
@@ -32235,16 +32235,16 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20240701,
-    2150
+    20240704,
+    1359
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "e0331bd7c480b3ac326140bd5b312bfdbc4881c9",
-   "sha256": "06vsf3mlj0sxhmcgz70haihsrskr98w2jnhy68h7g3b9rkbxgmhc"
+   "commit": "b5567be2176dcbdf42aa2d0ccad32a44f245dd09",
+   "sha256": "1kwybpr86ih0g739x3mqfpvbgsd9pfns1h6hm89f79qlgla282xz"
   },
   "stable": {
    "version": [
@@ -53776,15 +53776,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20240702,
-    1804
+    20240703,
+    1314
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "1a026492de4673c276653cc3958f9cf3a5dbc389",
-   "sha256": "1rqdx96z0yfnshn9aiyakxp0bwkfdc8ph4in7yjk41av60456a7d"
+   "commit": "e7466894d03721035e8b041d28cb9b5fe97b760f",
+   "sha256": "1wsffsndal9rrm6kmir76b46ib8mf1vvdmymx067n9pjck00difd"
   },
   "stable": {
    "version": [
@@ -54667,14 +54667,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20240701,
-    1821
+    20240704,
+    1306
    ],
    "deps": [
     "async"
    ],
-   "commit": "4fe3a6a7ed735cbf03bc88ac15d70e1b6e0fc8ce",
-   "sha256": "0rs0f9nzk20bf6z13ikd84yvdwksifn62vhmxmnbvwxjcqi12rfb"
+   "commit": "808642f86bb4e551b9b7877c960cef0dd540e52b",
+   "sha256": "054hr0b8w75ykvajf47ybj396ix8cp8dmh58na7yyq0fhpnlwlv1"
   },
   "stable": {
    "version": [
@@ -61665,15 +61665,15 @@
   "repo": "idris-hackers/idris-mode",
   "unstable": {
    "version": [
-    20240610,
-    906
+    20240704,
+    1334
    ],
    "deps": [
     "cl-lib",
     "prop-menu"
    ],
-   "commit": "334fef6932a979fd3c59b26814c52682afc93406",
-   "sha256": "1rwrv1k7hcqsxwg5wwi6imy3mlfxg3vwq9md5z6wg52411r1p6ga"
+   "commit": "09de86a8f056c61de72c678386039894779a9375",
+   "sha256": "1kdsrbh32dr3j0icnplpd4wjyp0n6d0kp7gfgbz1xcvh21gn8rdb"
   },
   "stable": {
    "version": [
@@ -89216,16 +89216,16 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20240630,
-    1705
+    20240704,
+    1535
    ],
    "deps": [
     "fb2-reader",
     "nerd-icons",
     "qrencode"
    ],
-   "commit": "ea2eb5107c342ac914b60fc81077592a7b882c81",
-   "sha256": "0wgk81ickzz462czwpifpqrc2mxgjrq641sv4jzwkygdk6h0f3zs"
+   "commit": "7f56338c5c14d8db7ae98e4c3178040afcfde9ed",
+   "sha256": "0kpbzildi567j96j36m20n420nnga77k2k91a7lczgw973vg2na5"
   },
   "stable": {
    "version": [
@@ -103193,17 +103193,16 @@
   "repo": "wbolster/emacs-python-pytest",
   "unstable": {
    "version": [
-    20240416,
-    1128
+    20240704,
+    1054
    ],
    "deps": [
     "dash",
-    "projectile",
     "s",
     "transient"
    ],
-   "commit": "9f850e22df93812a5b109968c549f9b3dd828ed1",
-   "sha256": "1f5b7ffcpmry2xiphclc4vv1zqva9rrhn08fgjq8qhdq3x0i5jah"
+   "commit": "1ecfb4461615374aac7786a07359c2d3d561f3c7",
+   "sha256": "1crdx42rdqyczccl5wqxnblqrs9ijskh5zj970800lk3xhsr4kql"
   },
   "stable": {
    "version": [
@@ -132079,11 +132078,11 @@
   "repo": "localauthor/zk",
   "unstable": {
    "version": [
-    20240102,
-    1405
+    20240704,
+    910
    ],
-   "commit": "82f636c1edda416794c7115757ecded64f22afbf",
-   "sha256": "1rxrasmhk28h3z9iyssvnhf3a57y2xmfjbl4il3mfd98gg6mhb8i"
+   "commit": "225d2628025195283170908e81341e3a8d49b022",
+   "sha256": "0x0cc42r56mfwi9cbyaxlnjpjv7hpkhcvn4whx545hzyr51hr53v"
   },
   "stable": {
    "version": [
@@ -132133,14 +132132,14 @@
   "repo": "localauthor/zk",
   "unstable": {
    "version": [
-    20240102,
-    1405
+    20240704,
+    1102
    ],
    "deps": [
     "zk"
    ],
-   "commit": "82f636c1edda416794c7115757ecded64f22afbf",
-   "sha256": "1rxrasmhk28h3z9iyssvnhf3a57y2xmfjbl4il3mfd98gg6mhb8i"
+   "commit": "9a2ece35d2ecec20cc11e2888413a86d03beb40b",
+   "sha256": "14lxs2r8awp92k5ijsvw1fwiz95vc3p5md913cqka4l7hvw9x2cv"
   },
   "stable": {
    "version": [
