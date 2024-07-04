@@ -1481,10 +1481,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "3.0.2.0.20240703.75731";
+        version = "3.0.3.0.20240703.92103";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-3.0.2.0.20240703.75731.tar";
-          sha256 = "081pl9ry0al3pacdmmnbz4cmcvvldv0j3z90rljdz7risx3jxa05";
+          url = "https://elpa.gnu.org/devel/denote-3.0.3.0.20240703.92103.tar";
+          sha256 = "1lzyvhwrfbhy9k980dg6f2ackwdbriga30br51hbnf3p350rgikf";
         };
         packageRequires = [ emacs ];
         meta = {
