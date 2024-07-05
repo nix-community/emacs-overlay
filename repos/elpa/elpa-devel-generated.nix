@@ -1208,10 +1208,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.4.0.20240523.75251";
+        version = "1.4.0.20240704.151042";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.4.0.20240523.75251.tar";
-          sha256 = "0jff7pyks2bj9lsx2xjxq30mc5l4m3qn3xgs2anbpbhi2pwbaaf9";
+          url = "https://elpa.gnu.org/devel/corfu-1.4.0.20240704.151042.tar";
+          sha256 = "17zx1vg2giwwbdcggwb5bmxds3w2q1fa7ksw5ajqvglk9912gg61";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1388,10 +1388,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.13.0.0.20240630.143258";
+        version = "0.13.0.0.20240704.162727";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.13.0.0.20240630.143258.tar";
-          sha256 = "16qqrvqwc89fzdsir3vfm483fj8mbfw00r1g5ycmbvjh32z9av45";
+          url = "https://elpa.gnu.org/devel/dape-0.13.0.0.20240704.162727.tar";
+          sha256 = "0lpkpykbq4jn8409xbf6hk6dbhs05c2rfcm8cy4969axfypbwzvk";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -2192,10 +2192,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "20.0.20240701.175026";
+        version = "20.1.0.20240704.95932";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/emms-20.0.20240701.175026.tar";
-          sha256 = "03g966hjg7sa4br5q08nvvr9r1k3z6n11ddyfj7x87x1a1vivmhy";
+          url = "https://elpa.gnu.org/devel/emms-20.1.0.20240704.95932.tar";
+          sha256 = "1mid0m39af2mcq99xbdjxiiliw6axaysm6cfriyl00w0w6ybfrjf";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {

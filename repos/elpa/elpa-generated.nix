@@ -1974,10 +1974,10 @@
       elpaBuild {
         pname = "emms";
         ename = "emms";
-        version = "20";
+        version = "20.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/emms-20.tar";
-          sha256 = "0g61fgnslpaqvh6l872hjdwhnkzz79g1950wllx8hk9hr35nb2ag";
+          url = "https://elpa.gnu.org/packages/emms-20.1.tar";
+          sha256 = "0h0v31f1q7k45k8s9kncvim3a7np7fgjz4qg9v8gjc5ag01dzwkx";
         };
         packageRequires = [ cl-lib nadvice seq ];
         meta = {
