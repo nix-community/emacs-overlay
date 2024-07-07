@@ -9,7 +9,7 @@
   inputs = {
     flake-utils.url = "github:numtide/flake-utils";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-23.11";
+    nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-24.05";
   };
 
   outputs =
@@ -83,7 +83,7 @@
 
         in
         {
-          "23.05" = mkHydraJobs (importPkgs nixpkgs-stable { inherit system; });
+          "stable" = mkHydraJobs (importPkgs nixpkgs-stable { inherit system; });
           "unstable" = mkHydraJobs (importPkgs nixpkgs { inherit system; });
         };
     }) // flake-utils.lib.eachDefaultSystem (system: (
