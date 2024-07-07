@@ -83,7 +83,7 @@
 
         in
         {
-          "23.05" = mkHydraJobs (importPkgs nixpkgs-stable { inherit system; });
+          "stable" = mkHydraJobs (importPkgs nixpkgs-stable { inherit system; });
           "unstable" = mkHydraJobs (importPkgs nixpkgs { inherit system; });
         };
     }) // flake-utils.lib.eachDefaultSystem (system: (
