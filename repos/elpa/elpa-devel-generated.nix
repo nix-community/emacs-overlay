@@ -2911,10 +2911,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.11.12.0.20240705.165533";
+        version = "0.11.12.0.20240707.10710";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.11.12.0.20240705.165533.tar";
-          sha256 = "0lnra0x2f87cpl65rbqw5misv3zfb0bnsn5dy157g92n8fmywx19";
+          url = "https://elpa.gnu.org/devel/greader-0.11.12.0.20240707.10710.tar";
+          sha256 = "0axwjz0sld3v23yhqfmgnwwr61pcrqp4cv5hf6nq715dsjzlbapp";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -3698,10 +3698,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.16.1.0.20240705.231922";
+        version = "0.16.1.0.20240706.201250";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.16.1.0.20240705.231922.tar";
-          sha256 = "18wpdwcqjba2inm80vlkmq5d4zrrhs1qqwl0xav0s5pkca88ynvx";
+          url = "https://elpa.gnu.org/devel/llm-0.16.1.0.20240706.201250.tar";
+          sha256 = "0kx90fqdsp762774f07jb4m9vr4lnimls45g4a16rq7xy783cd57";
         };
         packageRequires = [ emacs plz ];
         meta = {
@@ -4524,10 +4524,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240630.152233";
+        version = "9.8pre0.20240707.62623";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240630.152233.tar";
-          sha256 = "0586i8vk299fm9yaw2fxxmhyszirk7lkfm5aqpnghgf63irn97zz";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240707.62623.tar";
+          sha256 = "1ia6zckwld3lzv7w2c4hi3iqg25i1gg3507am2ya28yqmkgwmqm7";
         };
         packageRequires = [ emacs ];
         meta = {
