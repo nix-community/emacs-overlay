@@ -1481,10 +1481,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "3.0.3.0.20240705.163432";
+        version = "3.0.6.0.20240706.91742";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-3.0.3.0.20240705.163432.tar";
-          sha256 = "04rkgc2ym61qv3d1b7slfc9id1nd6ivccbq2jlza8zlfhahbsmk2";
+          url = "https://elpa.gnu.org/devel/denote-3.0.6.0.20240706.91742.tar";
+          sha256 = "1mcpk97s9y1b3qqrpxqyr7k2ns3vdkn8qhjjfhyc3566ilq9fmdr";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1984,10 +1984,10 @@
       elpaBuild {
         pname = "eglot";
         ename = "eglot";
-        version = "1.17.0.20240629.152938";
+        version = "1.17.0.20240706.91742";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240629.152938.tar";
-          sha256 = "0qqzw1b987916dwq5vkpl2y53jyyym8ycjm7cfpx4glaxig9mipj";
+          url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240706.91742.tar";
+          sha256 = "184ffxg00aa609mc0jpwx9fdi74g1zw49ry0pklv6wivqpa2jwx9";
         };
         packageRequires = [
           compat
