@@ -2206,10 +2206,10 @@
       elpaBuild {
         pname = "filechooser";
         ename = "filechooser";
-        version = "0.2.0";
+        version = "0.2.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/filechooser-0.2.0.tar";
-          sha256 = "1fjf8bmdrrrgbv4sgx4nry5pl8plg9kyzyfd038985v3dsqasi9q";
+          url = "https://elpa.gnu.org/packages/filechooser-0.2.1.tar";
+          sha256 = "1q9yxq4c6lp1fllcd60mcj4bs0ia03i649jilknkcp7jmjihq07i";
         };
         packageRequires = [ compat emacs ];
         meta = {
