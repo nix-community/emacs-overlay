@@ -975,10 +975,10 @@
       elpaBuild {
         pname = "compat";
         ename = "compat";
-        version = "29.1.4.5";
+        version = "30.0.0.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/compat-29.1.4.5.tar";
-          sha256 = "0i57hs3ak5y0fsfdwg87ib64ny0ar1nk67f5dy2qrm8x3i0h086s";
+          url = "https://elpa.gnu.org/packages/compat-30.0.0.0.tar";
+          sha256 = "0z7049xkdyx22ywq821d19lp73ywaz6brxj461h0h2a73y7999cl";
         };
         packageRequires = [ emacs seq ];
         meta = {
@@ -1869,10 +1869,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.11.2";
+        version = "0.11.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.11.2.tar";
-          sha256 = "1m0wya972bf815r6ji81snswh6qz0zqah9y6dca16a966zspfyi9";
+          url = "https://elpa.gnu.org/packages/ellama-0.11.3.tar";
+          sha256 = "1fvkq7wrpv7lcwh1q6hb3cprl1bxlb7zx4yb4qj384dgpj9c06jm";
         };
         packageRequires = [ emacs llm spinner ];
         meta = {
@@ -2157,16 +2157,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    exwm = callPackage ({ elpaBuild, emacs, fetchurl, lib, xelb }:
+    exwm = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib, xelb }:
       elpaBuild {
         pname = "exwm";
         ename = "exwm";
-        version = "0.30";
+        version = "0.31";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/exwm-0.30.tar";
-          sha256 = "1yscxs0knfb7wz7x6g9nixb6rpn5898q9dpsvk37ayda7nw75b2i";
+          url = "https://elpa.gnu.org/packages/exwm-0.31.tar";
+          sha256 = "1i1k8w641n2fd6xifl92pvvq0s0b820lq76d1cyc7iyaqs44w9qq";
         };
-        packageRequires = [ emacs xelb ];
+        packageRequires = [ compat emacs xelb ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/exwm.html";
           license = lib.licenses.free;
@@ -6752,16 +6752,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    xelb = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    xelb = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "xelb";
         ename = "xelb";
-        version = "0.19";
+        version = "0.20";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/xelb-0.19.tar";
-          sha256 = "1jgpb1ym7p2dfkk45zrv6w1jqgw66sb76jvjfjsqbrkx5605x2hk";
+          url = "https://elpa.gnu.org/packages/xelb-0.20.tar";
+          sha256 = "12ikrnvik1n1fdc6ixx53d0z84v269wi463380k0i5zb6q8ncwpk";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/xelb.html";
           license = lib.licenses.free;
