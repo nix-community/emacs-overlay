@@ -41,10 +41,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.8pre0.20240328.110921";
+        version = "0.8pre0.20240709.193836";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/activities-0.8pre0.20240328.110921.tar";
-          sha256 = "0b8g9zb0x0hx0fgkrvn0lr7sxakrm931m1mrdzxrg779h8h24025";
+          url = "https://elpa.gnu.org/devel/activities-0.8pre0.20240709.193836.tar";
+          sha256 = "1spvk9z1gc522nq36mhyvn86cq9j64chd3mkizj21j93wkd5i3gy";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -976,10 +976,10 @@
       elpaBuild {
         pname = "colorful-mode";
         ename = "colorful-mode";
-        version = "1.0.4.0.20240626.184332";
+        version = "1.0.4.0.20240709.183202";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/colorful-mode-1.0.4.0.20240626.184332.tar";
-          sha256 = "0ildmh96ympvhd8l8nq4n7k160sbwy6hl327wgkgq1871v49m8yv";
+          url = "https://elpa.gnu.org/devel/colorful-mode-1.0.4.0.20240709.183202.tar";
+          sha256 = "0ba0mdvgsa2p1nwy50sbnv2wl78nbfrw7npn1261b1zyn1ykgs4y";
         };
         packageRequires = [ compat emacs ];
         meta = {
