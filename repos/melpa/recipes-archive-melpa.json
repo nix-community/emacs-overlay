@@ -3261,11 +3261,11 @@
   "repo": "anki-editor/anki-editor",
   "unstable": {
    "version": [
-    20240514,
-    1944
+    20240710,
+    536
    ],
-   "commit": "32d81be1d8305c5ccde12c7d0b29845d4f831888",
-   "sha256": "1chlj0igxk2mmmdvmw3qahp3pz9ra6yabm4711xhlnx7zj028lkc"
+   "commit": "b14a6ccb2c3d0b06f2359ce44f8fe6fb535bf391",
+   "sha256": "180f6wb9whnzifpl3x9gcqfs94w04plyy99xk1nl5syx6ila6km3"
   }
  },
  {
@@ -50895,11 +50895,11 @@
   "repo": "lorniu/go-translate",
   "unstable": {
    "version": [
-    20240709,
-    1357
+    20240710,
+    628
    ],
-   "commit": "aab98d002b7156f569b26c0b306fa72c00e05410",
-   "sha256": "0p5yi9wry44hrh294sms9kxl4izs5h61d1mvhlgiyqmypa8n0050"
+   "commit": "13975ae19a55401ee7bcd42d7b71584a554a0a1d",
+   "sha256": "15rwnh8i1jawi3z3m91s0vmf1ry3qkdlf9r2amsdpm2s4i9kxyb0"
   },
   "stable": {
    "version": [
@@ -53888,15 +53888,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20240703,
-    1314
+    20240710,
+    509
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "e7466894d03721035e8b041d28cb9b5fe97b760f",
-   "sha256": "1wsffsndal9rrm6kmir76b46ib8mf1vvdmymx067n9pjck00difd"
+   "commit": "568f104747876a675aad5f2ded395f487a5e6492",
+   "sha256": "1kgkvx6ys43awv6vryr6k0n8z70svn5i3pdx0lcwzc51sysy3zil"
   },
   "stable": {
    "version": [
@@ -54779,14 +54779,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20240704,
-    1306
+    20240709,
+    428
    ],
    "deps": [
     "async"
    ],
-   "commit": "808642f86bb4e551b9b7877c960cef0dd540e52b",
-   "sha256": "054hr0b8w75ykvajf47ybj396ix8cp8dmh58na7yyq0fhpnlwlv1"
+   "commit": "4032587fc99d01c6058e904e6571f7bbf1a57e0b",
+   "sha256": "0ig778sdqnpd1f0j1693vd06hbi7a4f68qs5jgkpj32c9nfn92mi"
   },
   "stable": {
    "version": [
@@ -73651,16 +73651,16 @@
   "repo": "emacs-lsp/lsp-pyright",
   "unstable": {
    "version": [
-    20240709,
-    221
+    20240710,
+    611
    ],
    "deps": [
     "dash",
     "ht",
     "lsp-mode"
    ],
-   "commit": "410870f8a195bf27da08e74f46e14e96b340812a",
-   "sha256": "1p7kvs9k26912wzcl65a3mklbsghwqwl678c4w2ns7vwi8dyzn92"
+   "commit": "b3ed995c335e4195f35322645c2624fdd95673fb",
+   "sha256": "0f8rg6p81rqsglzpgkm97sixgzp76hn0j54q4krrs2gm0cs1651b"
   },
   "stable": {
    "version": [
@@ -87199,26 +87199,26 @@
   "repo": "rksm/org-ai",
   "unstable": {
    "version": [
-    20240709,
-    2307
+    20240710,
+    155
    ],
    "deps": [
     "websocket"
    ],
-   "commit": "afc8ad065f665ab227e7f93943df862dac337594",
-   "sha256": "088l1vss2pqv9nl7bm44y25db1arzf1zc1yg7bz5vfalhn75ahjk"
+   "commit": "812b59f88851536ed3ded199fb55d303c16c7c12",
+   "sha256": "00f6k2gcglcr5mwdr3ixy5gazn2p1dnw3cvzsvzz870pl855f8fk"
   },
   "stable": {
    "version": [
     0,
-    4,
-    9
+    5,
+    1
    ],
    "deps": [
     "websocket"
    ],
-   "commit": "cd4a7bf2067679e5c2512c362a8041f2e8b96c95",
-   "sha256": "1zijz22w9x1w708idlzckwj8mlryxqgax00spss5294fi1c3scn3"
+   "commit": "812b59f88851536ed3ded199fb55d303c16c7c12",
+   "sha256": "00f6k2gcglcr5mwdr3ixy5gazn2p1dnw3cvzsvzz870pl855f8fk"
   }
  },
  {
@@ -87604,11 +87604,11 @@
   "url": "https://repo.or.cz/org-bookmarks.git",
   "unstable": {
    "version": [
-    20240606,
-    758
+    20240710,
+    509
    ],
-   "commit": "e96919be0199edf68eccac1dc92956fff1bc968c",
-   "sha256": "0g4whinpbprl3d0qmc61dz50zvlakyqikmf9yw5rmd1gm07niwn4"
+   "commit": "fc397f81f9d0b58a7d81ee7ee3a200cf5462a4cc",
+   "sha256": "06ps2c7g94j4r4q9w1mvxjz6q9rlr8b1b8xayf9i0kia0lrrdz1a"
   },
   "stable": {
    "version": [
@@ -123781,11 +123781,11 @@
   "repo": "ideasman42/emacs-undo-fu-session",
   "unstable": {
    "version": [
-    20240708,
-    7
+    20240709,
+    1418
    ],
-   "commit": "2355a4c6618c80cd79f4a420341ee54e5ce67dc3",
-   "sha256": "1i7a29lsn19jqj8j7qzfi60ncgrs1ggyjpar0l1yn0xkby251mdm"
+   "commit": "ae94c87b3f6f0ac0639005f506762866e65dcf9a",
+   "sha256": "1irqs9sl0lsjkwxknv54nkwcrq788hz1h4jmh2xx1xn25gfh7nmw"
   }
  },
  {
