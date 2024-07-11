@@ -5853,10 +5853,10 @@
       elpaBuild {
         pname = "shell-command-plus";
         ename = "shell-command+";
-        version = "2.4.2.0.20240313.182825";
+        version = "2.4.2.0.20240711.63841";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/shell-command+-2.4.2.0.20240313.182825.tar";
-          sha256 = "17rqdk23w41dl44imrk6b7p3r4g0ldppj84hp7s6w7amx6fia7ah";
+          url = "https://elpa.gnu.org/devel/shell-command+-2.4.2.0.20240711.63841.tar";
+          sha256 = "109i4w7ib4mjqj23q0n0zkfvpjmp20n027xfv3485l0ykwj7gizx";
         };
         packageRequires = [ emacs ];
         meta = {
