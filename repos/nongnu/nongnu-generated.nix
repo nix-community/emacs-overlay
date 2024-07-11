@@ -732,6 +732,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    dslide = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+      elpaBuild {
+        pname = "dslide";
+        ename = "dslide";
+        version = "0.5.3";
+        src = fetchurl {
+          url = "https://elpa.nongnu.org/nongnu/dslide-0.5.3.tar";
+          sha256 = "11q807jp90y37s1njmr6qlnqi9pk371gj8mwg57kgjvc55qdyas5";
+        };
+        packageRequires = [ emacs ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/dslide.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     eat = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "eat";
@@ -3155,10 +3170,10 @@
       elpaBuild {
         pname = "subed";
         ename = "subed";
-        version = "1.2.11";
+        version = "1.2.14";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/subed-1.2.11.tar";
-          sha256 = "0grzlxibv57qds3dml6yjpw9hag86hbkrb1f66k7qn5hxaadmvpw";
+          url = "https://elpa.nongnu.org/nongnu/subed-1.2.14.tar";
+          sha256 = "0kzb054radxq9hqviadmbr4cln39yp7yz4inq4ip52rd3qdm8vy4";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3431,10 +3446,10 @@
       elpaBuild {
         pname = "undo-fu-session";
         ename = "undo-fu-session";
-        version = "0.6";
+        version = "0.7";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/undo-fu-session-0.6.tar";
-          sha256 = "057izvr86har50z1sfk4s6r88w2ga57afwm2w9p5v14lq31vj7cp";
+          url = "https://elpa.nongnu.org/nongnu/undo-fu-session-0.7.tar";
+          sha256 = "1gly9fl8kvfssh2h90j9qcqvxvmnckn0x1wfm4qbz9ax57xvms23";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3654,10 +3669,10 @@
       elpaBuild {
         pname = "xah-fly-keys";
         ename = "xah-fly-keys";
-        version = "25.9.20240621104221";
+        version = "25.9.20240703220947";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-25.9.20240621104221.tar";
-          sha256 = "0x3scxgvcj4kx5kd6ipjyqgm9fn16qf363hc5nrj8jd2b00dm6c5";
+          url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-25.9.20240703220947.tar";
+          sha256 = "1kg8qhr1wnbcm44bmvan62k68603pjickaaj68q7g78vkzlzwpya";
         };
         packageRequires = [ emacs ];
         meta = {
