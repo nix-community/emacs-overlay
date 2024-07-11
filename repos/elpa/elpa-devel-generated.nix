@@ -808,10 +808,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.5.0.20240708.215804";
+        version = "1.5.0.20240710.192144";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.5.0.20240708.215804.tar";
-          sha256 = "00k1fbj9rlydx6kaal22jn52r0bflxh33abx5ifpwv5hrhxgnk51";
+          url = "https://elpa.gnu.org/devel/cape-1.5.0.20240710.192144.tar";
+          sha256 = "0kg9qv8qkcs2v3x1dkyg3j1zxqql000bhbdh7awfk42dfq181lcj";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1208,10 +1208,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.4.0.20240709.181437";
+        version = "1.4.0.20240710.100013";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.4.0.20240709.181437.tar";
-          sha256 = "0p38ybr7vcl0h46p20nqsdy94mdk2jcx5fhk3xb3kxf2ah4f21l6";
+          url = "https://elpa.gnu.org/devel/corfu-1.4.0.20240710.100013.tar";
+          sha256 = "1cva3wywiqnzdpfys5hm1pksl7qh9ra59g6clnsfq83a2w4806rg";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2075,7 +2075,8 @@
           license = lib.licenses.free;
         };
       }) {};
-    ellama = callPackage ({ elpaBuild
+    ellama = callPackage ({ compat
+                          , elpaBuild
                           , emacs
                           , fetchurl
                           , lib
@@ -2084,12 +2085,12 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.11.5.0.20240709.131535";
+        version = "0.11.7.0.20240710.195120";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.11.5.0.20240709.131535.tar";
-          sha256 = "04db8mxvzy1rmwh0mxs1ha4kh6vv7ram5aki2zb72n4mn8k71lig";
+          url = "https://elpa.gnu.org/devel/ellama-0.11.7.0.20240710.195120.tar";
+          sha256 = "0cm0gcx4f6q8881wjcdiw7n2sz8rfgjx1baxs0nnmhdkml0wvvg3";
         };
-        packageRequires = [ emacs llm spinner ];
+        packageRequires = [ compat emacs llm spinner ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ellama.html";
           license = lib.licenses.free;
@@ -3877,10 +3878,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.6.0.20240708.215847";
+        version = "1.6.0.20240710.95347";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/marginalia-1.6.0.20240708.215847.tar";
-          sha256 = "1i8him38mcah4pi49addnwp5h4mra5ajpkfmgashhkhvhf79kcsy";
+          url = "https://elpa.gnu.org/devel/marginalia-1.6.0.20240710.95347.tar";
+          sha256 = "1943srwzm6w4ixcb48d968pbf4hs3y3rwcmcnryh8az2q3j6sqgm";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4524,10 +4525,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240709.184828";
+        version = "9.8pre0.20240710.140031";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240709.184828.tar";
-          sha256 = "0lgfi67vyy8kykvyyg3s25qssvx660glgscxqypz6c434hd5wp0q";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240710.140031.tar";
+          sha256 = "14f2n02ga16hpgx394wgjc1f11xf1ww9zdx2ckpbjsnq1nsjhkiv";
         };
         packageRequires = [ emacs ];
         meta = {

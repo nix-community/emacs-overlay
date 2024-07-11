@@ -1865,16 +1865,22 @@
           license = lib.licenses.free;
         };
       }) {};
-    ellama = callPackage ({ elpaBuild, emacs, fetchurl, lib, llm, spinner }:
+    ellama = callPackage ({ compat
+                          , elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib
+                          , llm
+                          , spinner }:
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.11.5";
+        version = "0.11.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.11.5.tar";
-          sha256 = "0cikggn5wd565v43apk0w57rcxfi440fdfxpbm0fg1bajaxyrjf8";
+          url = "https://elpa.gnu.org/packages/ellama-0.11.7.tar";
+          sha256 = "12gq2fds47fdklcp9f5qh85vmdd162plh6l4sh6bkx3pb77sgb4l";
         };
-        packageRequires = [ emacs llm spinner ];
+        packageRequires = [ compat emacs llm spinner ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/ellama.html";
           license = lib.licenses.free;
