@@ -1208,10 +1208,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.4.0.20240710.100013";
+        version = "1.4.0.20240711.184800";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.4.0.20240710.100013.tar";
-          sha256 = "1cva3wywiqnzdpfys5hm1pksl7qh9ra59g6clnsfq83a2w4806rg";
+          url = "https://elpa.gnu.org/devel/corfu-1.4.0.20240711.184800.tar";
+          sha256 = "0fvpsblz8750vlnv4mbwh0zz90xn35svbii2hyz2ngzb0yjrygch";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -7194,10 +7194,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.8.0.20240708.215701";
+        version = "1.8.0.20240711.185118";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.8.0.20240708.215701.tar";
-          sha256 = "1vlpj5nm959b81w6khndpihlpjmhl9fw3sdv1lcad06k6f1n0jd8";
+          url = "https://elpa.gnu.org/devel/vertico-1.8.0.20240711.185118.tar";
+          sha256 = "1wsybijh4h46swlxx7viz0wiwh5hbkh4q3a51r60flvys90cjkgz";
         };
         packageRequires = [ compat emacs ];
         meta = {
