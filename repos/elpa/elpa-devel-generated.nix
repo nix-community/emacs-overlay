@@ -976,10 +976,10 @@
       elpaBuild {
         pname = "colorful-mode";
         ename = "colorful-mode";
-        version = "1.0.4.0.20240709.183202";
+        version = "1.0.4.0.20240711.181025";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/colorful-mode-1.0.4.0.20240709.183202.tar";
-          sha256 = "0ba0mdvgsa2p1nwy50sbnv2wl78nbfrw7npn1261b1zyn1ykgs4y";
+          url = "https://elpa.gnu.org/devel/colorful-mode-1.0.4.0.20240711.181025.tar";
+          sha256 = "1n092yy77c9bxxjyyi16fch5i0zbbsr2znw5yx2m38i9hw4fj1az";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1388,10 +1388,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.13.0.0.20240708.214012";
+        version = "0.13.0.0.20240711.211516";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/dape-0.13.0.0.20240708.214012.tar";
-          sha256 = "16b2vj7my6ywa00zr4w7iv7iy4j9ps1vhpfalh7p6db3zinydi94";
+          url = "https://elpa.gnu.org/devel/dape-0.13.0.0.20240711.211516.tar";
+          sha256 = "13wzg3z8pfd0gydld2np2bih7bpmpvm98m6z5cwmc2bfh20p8xpa";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -4510,10 +4510,10 @@
       elpaBuild {
         pname = "orderless";
         ename = "orderless";
-        version = "1.1.0.20240709.134410";
+        version = "1.1.0.20240711.200241";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/orderless-1.1.0.20240709.134410.tar";
-          sha256 = "033rg8j8acdk9lanlb37n3qr2f23p6dvawrm89h69x3wqv1asbng";
+          url = "https://elpa.gnu.org/devel/orderless-1.1.0.20240711.200241.tar";
+          sha256 = "04ambf76p24z45b5zswbqprbvy31vdg48mk36dmd85apl0myvi95";
         };
         packageRequires = [ emacs ];
         meta = {
