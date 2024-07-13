@@ -976,10 +976,10 @@
       elpaBuild {
         pname = "colorful-mode";
         ename = "colorful-mode";
-        version = "1.0.4.0.20240711.181025";
+        version = "1.0.4.0.20240712.155246";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/colorful-mode-1.0.4.0.20240711.181025.tar";
-          sha256 = "1n092yy77c9bxxjyyi16fch5i0zbbsr2znw5yx2m38i9hw4fj1az";
+          url = "https://elpa.gnu.org/devel/colorful-mode-1.0.4.0.20240712.155246.tar";
+          sha256 = "1n2b5av3k8kwx6f5x0ziq7virv7n2d9npw11s934qzq3qfk2m8i3";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1022,14 +1022,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    company = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    company = callPackage ({ elpaBuild
+                           , emacs
+                           , fetchurl
+                           , lib }:
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20240625.7";
+        version = "0.10.2.0.20240713.30311";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240625.7.tar";
-          sha256 = "0kz6ryjarvb18vdxsm6cqvackax8l0hyc8yb3bmaysg7w42m9451";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240713.30311.tar";
+          sha256 = "166sgcwvwysvnlwm91bz2c4k85y846qflpg80ywyhnjklskldjh9";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2912,10 +2915,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.11.12.0.20240707.10710";
+        version = "0.11.13.0.20240712.232251";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.11.12.0.20240707.10710.tar";
-          sha256 = "0axwjz0sld3v23yhqfmgnwwr61pcrqp4cv5hf6nq715dsjzlbapp";
+          url = "https://elpa.gnu.org/devel/greader-0.11.13.0.20240712.232251.tar";
+          sha256 = "08gajcssq4h84r61sh1hpg86dklrh86slvd3q5b65nlwps5mslh6";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
