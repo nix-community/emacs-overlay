@@ -2671,10 +2671,10 @@
       elpaBuild {
         pname = "gtags-mode";
         ename = "gtags-mode";
-        version = "1.6";
+        version = "1.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/gtags-mode-1.6.tar";
-          sha256 = "1r3ih44kzkrx9bmfl8ri2yv90b7g4nhb0vvdnz1ba3f44x15ppjx";
+          url = "https://elpa.gnu.org/packages/gtags-mode-1.8.tar";
+          sha256 = "1rd0a3q45b5i46hi8snf25cyv65b7699ghbz8c6hrr4991h3ksll";
         };
         packageRequires = [ emacs ];
         meta = {
