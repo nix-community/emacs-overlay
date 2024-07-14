@@ -3359,10 +3359,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.16.1";
+        version = "0.17.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/llm-0.16.1.tar";
-          sha256 = "1fqn4fdxhazpmlh8pf6ihnh132zjqrixry3kyymsmwang6vh2y7s";
+          url = "https://elpa.gnu.org/packages/llm-0.17.0.tar";
+          sha256 = "1yg35n8gk37rkrrjl7mjdllynmb8ahnwxwbxw54y3kz71q0ajw4a";
         };
         packageRequires = [ emacs plz ];
         meta = {
@@ -6032,10 +6032,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.7.2";
+        version = "0.7.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/transient-0.7.2.tar";
-          sha256 = "0i68wpwxf729qxjxhafkp098wcmkqn06ka3hcqnlky2p1zl29hby";
+          url = "https://elpa.gnu.org/packages/transient-0.7.3.tar";
+          sha256 = "0lr2aii0w43gxhlharniy27h6d165333hghb2hc6jdlnj0gs6ymw";
         };
         packageRequires = [ compat emacs seq ];
         meta = {

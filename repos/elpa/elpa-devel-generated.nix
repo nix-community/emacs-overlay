@@ -330,10 +330,10 @@
       elpaBuild {
         pname = "async";
         ename = "async";
-        version = "1.9.8.0.20240712.45742";
+        version = "1.9.8.0.20240714.70901";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/async-1.9.8.0.20240712.45742.tar";
-          sha256 = "0a4zbpb58mdcmfq7vfwbsqhcfghxx8c3fkvwsrlg5a3gdcjv4ymv";
+          url = "https://elpa.gnu.org/devel/async-1.9.8.0.20240714.70901.tar";
+          sha256 = "1a39d3q2q9h3ljkldyb7l907n2yl8dryfddlj5g3xdfdm3ypm4qm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1022,17 +1022,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    company = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    company = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20240713.30311";
+        version = "0.10.2.0.20240714.2904";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240713.30311.tar";
-          sha256 = "166sgcwvwysvnlwm91bz2c4k85y846qflpg80ywyhnjklskldjh9";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240714.2904.tar";
+          sha256 = "13pfc3zfh5rd6damggj8zf0isaf2939rvq0bxp3fxy2pj32amak1";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3702,10 +3699,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.16.1.0.20240706.201250";
+        version = "0.17.0.0.20240713.175029";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.16.1.0.20240706.201250.tar";
-          sha256 = "0kx90fqdsp762774f07jb4m9vr4lnimls45g4a16rq7xy783cd57";
+          url = "https://elpa.gnu.org/devel/llm-0.17.0.0.20240713.175029.tar";
+          sha256 = "1k8nmbs9q5gppzqbbyjr6fvsm1z7w8y21mfvap206vwvikqa4hd0";
         };
         packageRequires = [ emacs plz ];
         meta = {
@@ -6784,10 +6781,10 @@
       elpaBuild {
         pname = "transient";
         ename = "transient";
-        version = "0.7.2.0.20240629.150812";
+        version = "0.7.3.0.20240713.210218";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/transient-0.7.2.0.20240629.150812.tar";
-          sha256 = "02d73zfxcbk2p5pzs5j2hv0qznj2zbjyjd6xhinpxx657w1c3zsx";
+          url = "https://elpa.gnu.org/devel/transient-0.7.3.0.20240713.210218.tar";
+          sha256 = "1zd8qphhyvhllgszm1xar82g033xyclfxnyl6qbxk2659ia082y4";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
