@@ -41,10 +41,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.8pre0.20240709.193836";
+        version = "0.8pre0.20240713.105610";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/activities-0.8pre0.20240709.193836.tar";
-          sha256 = "1spvk9z1gc522nq36mhyvn86cq9j64chd3mkizj21j93wkd5i3gy";
+          url = "https://elpa.gnu.org/devel/activities-0.8pre0.20240713.105610.tar";
+          sha256 = "0jfgysvbxfzwm5lqml2wzbf6sxg1qb2afvbn0mb1n8cbqwrs893m";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -1211,10 +1211,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.4.0.20240711.184800";
+        version = "1.4.0.20240713.133924";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.4.0.20240711.184800.tar";
-          sha256 = "0fvpsblz8750vlnv4mbwh0zz90xn35svbii2hyz2ngzb0yjrygch";
+          url = "https://elpa.gnu.org/devel/corfu-1.4.0.20240713.133924.tar";
+          sha256 = "0gp9y5h5gbcv003nlg8y3ac8jrn2jfdv446bl3b26yml1qpycnar";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2265,10 +2265,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6.1snapshot0.20240709.13309";
+        version = "5.6.1snapshot0.20240713.84449";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20240709.13309.tar";
-          sha256 = "1ijn2rwl2lpqckps4xxqxsn6385y84xmid83a2cj4fkkgjks7jnv";
+          url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20240713.84449.tar";
+          sha256 = "0qwgbmnkh63hc95c938v8rcvk7xfqrj4ijcnjjdcdisvfqp5wh0y";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3101,10 +3101,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240707.235928";
+        version = "9.0.2pre0.20240713.82730";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240707.235928.tar";
-          sha256 = "1rrj0zmc5wfrdzzwpihpxrw6xawswnkszb1753p5sg3sxmj5h2kw";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240713.82730.tar";
+          sha256 = "08knnxjlx6mk0bc1qc8969mvr4z9g74y77h2si2kv3ympgy8qfif";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4528,10 +4528,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240712.111340";
+        version = "9.8pre0.20240713.133030";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240712.111340.tar";
-          sha256 = "1nqx0kvmxf7prfip30l1br9gl2s7bmcacds5ifafawywnc720jl6";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240713.133030.tar";
+          sha256 = "0gvgfbp3qij1yd93q059w458dw3myx29f31c79xy21l3gvkfi5cv";
         };
         packageRequires = [ emacs ];
         meta = {
