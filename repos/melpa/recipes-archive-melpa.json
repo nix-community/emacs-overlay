@@ -4462,10 +4462,10 @@
   "unstable": {
    "version": [
     20240714,
-    558
+    709
    ],
-   "commit": "3cd3464130981263325c3faf09eb3c8e0561522a",
-   "sha256": "0s9dcsd1467v9qn460x9j842r492y481bj5ifkzssisx7jvdqr51"
+   "commit": "3623cb328a8d810d3277de6f005cce18fbcd8b1e",
+   "sha256": "1z12dis53am4nglllgk22aqdwgwlbbfw5k87cxj4x7fn6vnx9rp2"
   },
   "stable": {
    "version": [
@@ -15716,6 +15716,14 @@
    "commit": "fc5c2683952328927a6d1c1f2694b85ddf7e9053",
    "sha256": "1835kg05794p1wdi7fsmpzlnnqy79dgfnfrxjfjj2j1gzcwmynsw"
   }
+ },
+ {
+  "ename": "communinfo",
+  "commit": "4e4c7240098f486d91cc819a13add2aabfc1f2b3",
+  "sha256": "1g6jhy7ibpxpri1spl4p26f52ba3bgcxf93sxg6vbi03f8p2dcwa",
+  "error": "Not in archive",
+  "fetcher": "codeberg",
+  "repo": "mekeor/communinfo"
  },
  {
   "ename": "company",
@@ -90835,8 +90843,8 @@
   "repo": "org-roam/org-roam",
   "unstable": {
    "version": [
-    20240703,
-    1856
+    20240714,
+    815
    ],
    "deps": [
     "dash",
@@ -90844,8 +90852,8 @@
     "magit-section",
     "org"
    ],
-   "commit": "6644cb27a902b2ceeca89e83fde31e6ad01be79e",
-   "sha256": "05l15xfv1cdyqmqw2y6m1rb68y4h0g8f6lv6qzqlxim7w17ja10c"
+   "commit": "fdd834d9bf2d98a05488854f1201df5e701f000b",
+   "sha256": "12hm8r98y7s6bbna282r49w6sy49hb9syv4065d7qnanx4a9xykm"
   },
   "stable": {
    "version": [
@@ -112673,6 +112681,14 @@
   }
  },
  {
+  "ename": "slurpbarf",
+  "commit": "f04f3351fde50e02dbf673c84c2b90a45afa6b05",
+  "sha256": "07d52g9iaxlr7bs833fc5z3qwajxdzqlpbp5hran9gy0dcdk530k",
+  "error": "Not in archive",
+  "fetcher": "codeberg",
+  "repo": "vilij/slurpbarf-elcute"
+ },
+ {
   "ename": "sly",
   "commit": "28d1f6bc44ef8ab731b37c3eb6bdc29b68465e50",
   "sha256": "0rmglbkq3fhmaqm8gar3mn6f5r9cdb14anrnvr4n44x2d2qgrbn7",
@@ -123799,11 +123815,11 @@
   "repo": "ideasman42/emacs-undo-fu-session",
   "unstable": {
    "version": [
-    20240709,
-    1418
+    20240713,
+    1427
    ],
-   "commit": "ae94c87b3f6f0ac0639005f506762866e65dcf9a",
-   "sha256": "1irqs9sl0lsjkwxknv54nkwcrq788hz1h4jmh2xx1xn25gfh7nmw"
+   "commit": "beb0e285d074145eaf481a959c903b77c19ae91e",
+   "sha256": "02wvdnzc229aga5pjb5sqbpi22afjqn6q5v8qay901bgc6r6f9pl"
   }
  },
  {
@@ -128281,15 +128297,14 @@
   "repo": "SalOrak/whaler.el",
   "unstable": {
    "version": [
-    20240609,
-    1850
+    20240714,
+    1136
    ],
    "deps": [
-    "f",
-    "ivy"
+    "f"
    ],
-   "commit": "18791f9b5cfa05f7eabd686d572fa37f210ebe85",
-   "sha256": "0gjc9hqq1wz2npk2gw8nfkg2ikfhl3bcmlc0d3jzlpizc9mk6w7f"
+   "commit": "20ce0a6f0803828272679b698e93d7f56d329746",
+   "sha256": "0qhd2ry55hg24sfn4lm6grlliqv3kaswp1qqf9w40vdlrmmpcknv"
   }
  },
  {
