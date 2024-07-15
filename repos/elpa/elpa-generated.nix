@@ -1239,10 +1239,10 @@
       elpaBuild {
         pname = "dape";
         ename = "dape";
-        version = "0.13.0";
+        version = "0.14.0";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/dape-0.13.0.tar";
-          sha256 = "1zzghp73yh1vl9vf3njkqyhh6vmmx6klnd9z37p62467bd19wr8a";
+          url = "https://elpa.gnu.org/packages/dape-0.14.0.tar";
+          sha256 = "1aakk2v3nw1pl4ai9bb4h748z6bkfkilw283ndfah7jz61j90van";
         };
         packageRequires = [ emacs jsonrpc ];
         meta = {
@@ -1875,10 +1875,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.11.9";
+        version = "0.11.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.11.9.tar";
-          sha256 = "0h41hsvz34v0gb9d7d8aw6phc7iyrpbs0r8djsz59yd0ijzbz12j";
+          url = "https://elpa.gnu.org/packages/ellama-0.11.10.tar";
+          sha256 = "1ikd1byl52bdicjzx4qizwg26hw8j49zlhr9whvbyjzi0y2aqbwb";
         };
         packageRequires = [ compat emacs llm spinner ];
         meta = {
