@@ -1117,10 +1117,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.7.0.20240715.184337";
+        version = "1.7.0.20240716.104403";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.7.0.20240715.184337.tar";
-          sha256 = "18snpcq0yzkpa8c30mnnnkfiwf6w2bnxzr12zbl2dwpl3inl1liv";
+          url = "https://elpa.gnu.org/devel/consult-1.7.0.20240716.104403.tar";
+          sha256 = "1f4s1yd0r3ap9nnrv2gn6s47qhv4mkkg1l10pm24fgashgkwli5a";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2908,10 +2908,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.11.13.0.20240712.232251";
+        version = "0.11.14.0.20240716.33302";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.11.13.0.20240712.232251.tar";
-          sha256 = "08gajcssq4h84r61sh1hpg86dklrh86slvd3q5b65nlwps5mslh6";
+          url = "https://elpa.gnu.org/devel/greader-0.11.14.0.20240716.33302.tar";
+          sha256 = "0rddg8vl3lfpr6ddh6wkvf9wsmvwi6fcyx9lrib9ia1nmjbkv239";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -3373,10 +3373,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.9.0.20240708.212221";
+        version = "1.9.0.20240716.103003";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.9.0.20240708.212221.tar";
-          sha256 = "10lp9pnlxaxr1rblkg3996m6bvhdkqhc4my8gxbswxsv9djaw621";
+          url = "https://elpa.gnu.org/devel/jinx-1.9.0.20240716.103003.tar";
+          sha256 = "11sqrig7vkx4x2d1avarcpjyr8w13ybfff7157mnbmmyaq777m29";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -5194,10 +5194,10 @@
       elpaBuild {
         pname = "project";
         ename = "project";
-        version = "0.11.1.0.20240614.152748";
+        version = "0.11.1.0.20240716.15911";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/project-0.11.1.0.20240614.152748.tar";
-          sha256 = "0izv7szsi3gqqafdjrqnpy3znsk1izr2zkcyc45jiyv5bafd76ik";
+          url = "https://elpa.gnu.org/devel/project-0.11.1.0.20240716.15911.tar";
+          sha256 = "1vhlnwphrrki1ijmdbln45iydnd1hzhi2lidww34w23kbgklh05m";
         };
         packageRequires = [ emacs xref ];
         meta = {
