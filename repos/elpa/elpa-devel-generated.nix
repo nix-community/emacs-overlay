@@ -1481,10 +1481,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "3.0.6.0.20240717.90319";
+        version = "3.0.7.0.20240717.174500";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-3.0.6.0.20240717.90319.tar";
-          sha256 = "01sz4933y9029gz8q6mdg1ah8b5y98parmhmvnm2m0z136ivrbjz";
+          url = "https://elpa.gnu.org/devel/denote-3.0.7.0.20240717.174500.tar";
+          sha256 = "1lg071j95vqqxhclr4w7v08dl216j4rd62vw8yrk6bl75pdy09b5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2081,10 +2081,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.11.10.0.20240714.180246";
+        version = "0.11.11.0.20240717.171511";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.11.10.0.20240714.180246.tar";
-          sha256 = "1sviplc416pmz1js20hxgq8i3fdp8fsnp931jqqxgimjl727k75x";
+          url = "https://elpa.gnu.org/devel/ellama-0.11.11.0.20240717.171511.tar";
+          sha256 = "1n1w92whxzrc8ys2z40jqvbbnifa03kf8ap19ni0f73ild6g2qpb";
         };
         packageRequires = [ compat emacs llm spinner ];
         meta = {
@@ -3478,10 +3478,10 @@
       elpaBuild {
         pname = "kind-icon";
         ename = "kind-icon";
-        version = "0.2.2.0.20240716.122822";
+        version = "0.2.2.0.20240717.130344";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/kind-icon-0.2.2.0.20240716.122822.tar";
-          sha256 = "0kmvalbgzk4xz0dma6pbyhv001ml0p43h16hcjfl22fdgfzzyjrr";
+          url = "https://elpa.gnu.org/devel/kind-icon-0.2.2.0.20240717.130344.tar";
+          sha256 = "1rp4fx1ygwaz4sd26xkp3iz008dwg430dx7xzdba0prycdc9kh7f";
         };
         packageRequires = [ emacs svg-lib ];
         meta = {
@@ -4499,19 +4499,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    orderless = callPackage ({ elpaBuild
-                             , emacs
-                             , fetchurl
-                             , lib }:
+    orderless = callPackage ({ compat, elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "orderless";
         ename = "orderless";
-        version = "1.1.0.20240711.200241";
+        version = "1.1.0.20240717.75820";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/orderless-1.1.0.20240711.200241.tar";
-          sha256 = "04ambf76p24z45b5zswbqprbvy31vdg48mk36dmd85apl0myvi95";
+          url = "https://elpa.gnu.org/devel/orderless-1.1.0.20240717.75820.tar";
+          sha256 = "0x54jhhxm1j8hbxhwpn5ws3dcg20bszpwm7qhqg3hk1jf3f9xp61";
         };
-        packageRequires = [ emacs ];
+        packageRequires = [ compat emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/orderless.html";
           license = lib.licenses.free;
@@ -4521,10 +4518,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240716.170945";
+        version = "9.8pre0.20240717.141114";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240716.170945.tar";
-          sha256 = "0p23gy24wligw4v70bbcy68qbwql5mn4agkl58qi3pmfahn2179p";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240717.141114.tar";
+          sha256 = "11vj0cc69s8wsldy26pfzj4qx3xwdzql1b45afqgmmxf430cq767";
         };
         packageRequires = [ emacs ];
         meta = {

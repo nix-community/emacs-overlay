@@ -1329,10 +1329,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "3.0.6";
+        version = "3.0.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-3.0.6.tar";
-          sha256 = "1wq44r4j624hiwpyzkrrbk998321wzj7x45y9rwy4gpi8f6xi1nv";
+          url = "https://elpa.gnu.org/packages/denote-3.0.7.tar";
+          sha256 = "1qgid843m6ga5rcadxigvb8m9r1wnrbnwf6dc7091h6nn2ml0gq3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1875,10 +1875,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.11.10";
+        version = "0.11.11";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.11.10.tar";
-          sha256 = "1ikd1byl52bdicjzx4qizwg26hw8j49zlhr9whvbyjzi0y2aqbwb";
+          url = "https://elpa.gnu.org/packages/ellama-0.11.11.tar";
+          sha256 = "02rgskk47lpjkg589dhc3i7bcrc524imqyyv57ps35rs1sas2g0f";
         };
         packageRequires = [ compat emacs llm spinner ];
         meta = {
