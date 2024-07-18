@@ -1740,10 +1740,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240710";
+        version = "20240718";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20240710.tar";
-          sha256 = "1mia27ilfg4zkkwvwy3m24ypgi1fm8k27rm77xwjpq87pb2wvr02";
+          url = "https://elpa.gnu.org/packages/eev-20240718.tar";
+          sha256 = "1z8dd71976s1a0ssh4q52jnr215cs34qaiyz4spys3sazpmywfc7";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1847,6 +1847,28 @@
         packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/electric-spacing.html";
+          license = lib.licenses.free;
+        };
+      }) {};
+    elisa = callPackage ({ async
+                         , ellama
+                         , elpaBuild
+                         , emacs
+                         , fetchurl
+                         , lib
+                         , llm
+                         , plz }:
+      elpaBuild {
+        pname = "elisa";
+        ename = "elisa";
+        version = "1.0.2";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/elisa-1.0.2.tar";
+          sha256 = "06plpv2z9q4q4gsmyfh5w3d9n3vvwqnbsvywsywan4li4sds770f";
+        };
+        packageRequires = [ async ellama emacs llm plz ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/elisa.html";
           license = lib.licenses.free;
         };
       }) {};
