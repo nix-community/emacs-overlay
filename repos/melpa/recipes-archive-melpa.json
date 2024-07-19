@@ -11430,26 +11430,26 @@
   "repo": "kickingvegas/casual-re-builder",
   "unstable": {
    "version": [
-    20240714,
-    1923
+    20240718,
+    1754
    ],
    "deps": [
     "casual-lib"
    ],
-   "commit": "e5ae8b2d0ca6d694b803e5952d0135f38e4c2e1b",
-   "sha256": "0plc9nrcksr7b594mbjvx5yqprmfdnpcxd9bl1yf3r9vz1bwg7n7"
+   "commit": "e5bc2c12e9c546d83dde2314d699afa9eec18c0a",
+   "sha256": "0zp5srim2zrqlfhp6zq9kvpywbq4383nf4q33mpcsc5iww1cpn23"
   },
   "stable": {
    "version": [
     1,
-    0,
-    2
+    1,
+    0
    ],
    "deps": [
     "casual-lib"
    ],
-   "commit": "e5ae8b2d0ca6d694b803e5952d0135f38e4c2e1b",
-   "sha256": "0plc9nrcksr7b594mbjvx5yqprmfdnpcxd9bl1yf3r9vz1bwg7n7"
+   "commit": "e5bc2c12e9c546d83dde2314d699afa9eec18c0a",
+   "sha256": "0zp5srim2zrqlfhp6zq9kvpywbq4383nf4q33mpcsc5iww1cpn23"
   }
  },
  {
@@ -12312,13 +12312,13 @@
   "unstable": {
    "version": [
     20240718,
-    1234
+    1612
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "ce3168bb3e6f7531292a1fd46f12163188e98939",
-   "sha256": "1qq80a8b1a8r9i5dia9kav7jhcpdyc7lbnncn0y6b4l9n4pli7xb"
+   "commit": "d3e5c43db1ecb05b4d567bb38d707fe49ae463ba",
+   "sha256": "022z49vr8k27lgvm0ny474fmwsgwgs2r190l2mb6k642ryd4p7ch"
   }
  },
  {
@@ -14698,10 +14698,10 @@
    "version": [
     3,
     30,
-    0
+    1
    ],
-   "commit": "0f88f57389fd636d76b7f726ac94933476d6c195",
-   "sha256": "1p6jq4yq81r0vdzr7wshllvn8dl80snz6q4ihp2fhd2yjngxj1l4"
+   "commit": "cd386f6425f2558a5eb69de8a2265df52bdc5147",
+   "sha256": "19n1hp4cr7zl0swqrmwmgwawv1p7q96fjsbvrk03n8sqh7pbyikk"
   }
  },
  {
@@ -28550,14 +28550,11 @@
   "repo": "editorconfig/editorconfig-emacs",
   "unstable": {
    "version": [
-    20240604,
-    602
+    20240718,
+    1623
    ],
-   "deps": [
-    "nadvice"
-   ],
-   "commit": "0ce1abc65bfb030ccec97b0d4231667ca431e663",
-   "sha256": "1kxj0srq9f6ibhdd25428585h5v73xgdf5wq95qlz2r4vshmpxw0"
+   "commit": "7c7b1f81f8fac654791fa2b04da55edced2cef33",
+   "sha256": "0bvcfqgjjhyhas5kc94rq311r42lskd8khz52fg1jj250civ87lk"
   },
   "stable": {
    "version": [
@@ -29845,10 +29842,10 @@
   "unstable": {
    "version": [
     20240718,
-    1057
+    1750
    ],
-   "commit": "9584261bf54f2f9284bdf790a2ac6a87129f2791",
-   "sha256": "1bbhvlpk8hzdf34ay0sn6jnjsv3nbm1mn06dqgd3a0nwrkpkhdgi"
+   "commit": "75780ea4cc5d9af697e4c46f405b34565ac45766",
+   "sha256": "1bc9awfw87i58cfih3q82izyh4d2gyixmw362ji4mwydlk8yn3v4"
   }
  },
  {
@@ -51747,15 +51744,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20240626,
-    2246
+    20240718,
+    2048
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "dcc4e3640ebaa0f94e24b3ad2099a01f7f3a517a",
-   "sha256": "00y8kmzgsyqgvy0hcjinnqnm6jsf22wyg7jfadybwbnw9aiy7q6a"
+   "commit": "3f33307a17ab1b3f0963a81a91ed00183117ef1a",
+   "sha256": "1xg9xjhc0vj8n60a3f5lj79glj09ij6br65v438j5iyqcw18br8y"
   },
   "stable": {
    "version": [
@@ -53948,15 +53945,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20240716,
-    552
+    20240718,
+    1334
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "c7ecfdfe5057b4cf3279e20627a6498a025f1550",
-   "sha256": "040vdg8i1wbvyhv43ww8bwzp5sm29y6nw95s4lmnrqbzrs469yr3"
+   "commit": "602c128a7da42d66329a611b7b8a94853bf08ce8",
+   "sha256": "01410sp1rcddqql3gdyawq4hj1gzp6zqz7cycp62l415dx9k189h"
   },
   "stable": {
    "version": [
@@ -100973,20 +100970,20 @@
   "repo": "jabbo/project-butler",
   "unstable": {
    "version": [
-    20240520,
-    943
+    20240718,
+    1920
    ],
-   "commit": "1cf28f5e5e584bac2411662405c96f13d43179f9",
-   "sha256": "129m9mhpfsghk5gwvqjn7zblncj3wd2n3b46mcj0j20qqbkmbblr"
+   "commit": "7a20dd1e0672942ba971978baffa063b399151ef",
+   "sha256": "1a4d0m6gri04njm70xyc64nk8ypcvbywdhxpvvwa13sbaqq8af3p"
   },
   "stable": {
    "version": [
     0,
-    3,
+    4,
     0
    ],
-   "commit": "1cf28f5e5e584bac2411662405c96f13d43179f9",
-   "sha256": "129m9mhpfsghk5gwvqjn7zblncj3wd2n3b46mcj0j20qqbkmbblr"
+   "commit": "7a20dd1e0672942ba971978baffa063b399151ef",
+   "sha256": "1a4d0m6gri04njm70xyc64nk8ypcvbywdhxpvvwa13sbaqq8af3p"
   }
  },
  {
@@ -104119,11 +104116,11 @@
   "repo": "greghendershott/racket-mode",
   "unstable": {
    "version": [
-    20240717,
-    1625
+    20240718,
+    1905
    ],
-   "commit": "675f96672605867b68c7514ba837d43a91700a42",
-   "sha256": "0dbp2jv7y2w03zmmyx02yxk20j44yncxcs32v0q2gcccni3ddjln"
+   "commit": "b6db517f79c067e5519871909bb842bb2d266047",
+   "sha256": "1z59rgrlski59h6ghcv098ai9wxzml670kswfk4xrc1x3bn0ws19"
   }
  },
  {
