@@ -1861,10 +1861,10 @@
       elpaBuild {
         pname = "elisa";
         ename = "elisa";
-        version = "1.0.2";
+        version = "1.0.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/elisa-1.0.2.tar";
-          sha256 = "06plpv2z9q4q4gsmyfh5w3d9n3vvwqnbsvywsywan4li4sds770f";
+          url = "https://elpa.gnu.org/packages/elisa-1.0.3.tar";
+          sha256 = "19c90p28n80p9shspkdz19ck9fjfxjf9k5m3lag6zdmdvpfnyryh";
         };
         packageRequires = [ async ellama emacs llm plz ];
         meta = {
