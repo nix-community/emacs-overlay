@@ -1120,10 +1120,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.7.0.20240716.104403";
+        version = "1.7.0.20240720.173324";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.7.0.20240716.104403.tar";
-          sha256 = "1f4s1yd0r3ap9nnrv2gn6s47qhv4mkkg1l10pm24fgashgkwli5a";
+          url = "https://elpa.gnu.org/devel/consult-1.7.0.20240720.173324.tar";
+          sha256 = "1b3l6ljw6s9zjwyq5lj5xcqgg184kir4gbx664xmr8jbsws8z4s3";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1211,10 +1211,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.4.0.20240718.101009";
+        version = "1.4.0.20240720.85423";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.4.0.20240718.101009.tar";
-          sha256 = "1dli3l8zgw44r1dw3xi241s2f6zf62a2507y7xwzhlzx0jxqrndw";
+          url = "https://elpa.gnu.org/devel/corfu-1.4.0.20240720.85423.tar";
+          sha256 = "0dh9q1hpd78qscgl13h6lmhqvvkjirj3zv6y6iymw5l55h5j9ahw";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2404,10 +2404,10 @@
       elpaBuild {
         pname = "external-completion";
         ename = "external-completion";
-        version = "0.1.0.20240616.203826";
+        version = "0.1.0.20240720.4208";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/external-completion-0.1.0.20240616.203826.tar";
-          sha256 = "1zg7v08wbk8ma5k2zj0jrchf2wz483bklgi0rshjividniy99877";
+          url = "https://elpa.gnu.org/devel/external-completion-0.1.0.20240720.4208.tar";
+          sha256 = "18172ynzgjx54spnwmb5ynb2zpjzl1nkkn5ln1s8i745msjb4hsr";
         };
         packageRequires = [];
         meta = {
@@ -3466,17 +3466,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    jsonrpc = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    jsonrpc = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "jsonrpc";
         ename = "jsonrpc";
-        version = "1.0.25.0.20240616.203826";
+        version = "1.0.25.0.20240720.4208";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jsonrpc-1.0.25.0.20240616.203826.tar";
-          sha256 = "0jkhhds21vw4i03ya8lflkkh0yaqxqhj49zdzb1l7wgsb499hhya";
+          url = "https://elpa.gnu.org/devel/jsonrpc-1.0.25.0.20240720.4208.tar";
+          sha256 = "0r5aw8w5qxf2kqxh4x4q1lyhci2cbcxf31shshagf16zpcm71qz3";
         };
         packageRequires = [ emacs ];
         meta = {
