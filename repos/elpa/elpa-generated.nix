@@ -6479,10 +6479,10 @@
       elpaBuild {
         pname = "visual-filename-abbrev";
         ename = "visual-filename-abbrev";
-        version = "1.2";
+        version = "1.3";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/visual-filename-abbrev-1.2.tar";
-          sha256 = "0vy4ar10wbdykzl47xnrfcwszjxyq2f1vhdbynfcmkcyrr40v4wm";
+          url = "https://elpa.gnu.org/packages/visual-filename-abbrev-1.3.tar";
+          sha256 = "0aly8lkiykcxq3yyyd3lwyc7fmjpcxjdgny0iw0mzl8nhshrqrs0";
         };
         packageRequires = [ emacs ];
         meta = {
