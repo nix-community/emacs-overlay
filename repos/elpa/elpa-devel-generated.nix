@@ -1355,6 +1355,24 @@
           license = lib.licenses.free;
         };
       }) {};
+    cursor-undo = callPackage ({ cl-lib ? null
+                               , elpaBuild
+                               , fetchurl
+                               , lib }:
+      elpaBuild {
+        pname = "cursor-undo";
+        ename = "cursor-undo";
+        version = "1.0.0.20240721.171240";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/devel/cursor-undo-1.0.0.20240721.171240.tar";
+          sha256 = "17df4xg82r77wws48x03xzzsbvb6hzkky0a19958rwy7f7ihyxim";
+        };
+        packageRequires = [ cl-lib ];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/cursor-undo.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     cursory = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "cursory";
@@ -2072,10 +2090,10 @@
       elpaBuild {
         pname = "elisa";
         ename = "elisa";
-        version = "1.0.3.0.20240719.60641";
+        version = "1.0.4.0.20240721.124701";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/elisa-1.0.3.0.20240719.60641.tar";
-          sha256 = "1z57gv79s8mx9636gydrc8sflp4fzyvp3c5qlkngqkybv68d9dmw";
+          url = "https://elpa.gnu.org/devel/elisa-1.0.4.0.20240721.124701.tar";
+          sha256 = "0p903ljagaza0n2kw2hicvara903mwwjia4587wqwvydrfvhal7a";
         };
         packageRequires = [ async ellama emacs llm plz ];
         meta = {
@@ -2110,10 +2128,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.11.12.0.20240719.171953";
+        version = "0.11.13.0.20240721.113845";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/ellama-0.11.12.0.20240719.171953.tar";
-          sha256 = "0yj9qy5lnrm5q14hradff1xcyapdip98pva0k38g35z7vry0npyv";
+          url = "https://elpa.gnu.org/devel/ellama-0.11.13.0.20240721.113845.tar";
+          sha256 = "123gzcxmszx25464d7as8w9c2pv94kpr1br2njf03474vj7fa91m";
         };
         packageRequires = [ compat emacs llm spinner ];
         meta = {
@@ -3900,10 +3918,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.6.0.20240718.100602";
+        version = "1.6.0.20240721.112002";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/marginalia-1.6.0.20240718.100602.tar";
-          sha256 = "1r9lzfmvv81jdg3ic0bbndjba6a3b7hipy67yvl19xhaf8brjf3l";
+          url = "https://elpa.gnu.org/devel/marginalia-1.6.0.20240721.112002.tar";
+          sha256 = "125ijvp82f9i9fqqsq9f094ci3nvjdqvzpxv1lffbj0k8k7a2csw";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4621,10 +4639,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.3.0.20240718.100714";
+        version = "1.3.0.20240721.154011";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.3.0.20240718.100714.tar";
-          sha256 = "16fjy28ybyx2cv9z7hiik4yx3zg1wzgppkk8ccvjqjh8npk1sx58";
+          url = "https://elpa.gnu.org/devel/org-modern-1.3.0.20240721.154011.tar";
+          sha256 = "1p5saqjk4q8cw84r5wn36fv7rb87cv0jizxnckwyir7njw7hz7dk";
         };
         packageRequires = [ compat emacs ];
         meta = {

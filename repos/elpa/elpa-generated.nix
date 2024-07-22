@@ -1861,10 +1861,10 @@
       elpaBuild {
         pname = "elisa";
         ename = "elisa";
-        version = "1.0.3";
+        version = "1.0.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/elisa-1.0.3.tar";
-          sha256 = "19c90p28n80p9shspkdz19ck9fjfxjf9k5m3lag6zdmdvpfnyryh";
+          url = "https://elpa.gnu.org/packages/elisa-1.0.4.tar";
+          sha256 = "07f9micfp3p8r58kdnqv0pa7i8nyqaz35llahwp2jl16c63pl9wn";
         };
         packageRequires = [ async ellama emacs llm plz ];
         meta = {
@@ -1897,10 +1897,10 @@
       elpaBuild {
         pname = "ellama";
         ename = "ellama";
-        version = "0.11.12";
+        version = "0.11.13";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/ellama-0.11.12.tar";
-          sha256 = "0v7l0h9dzpl3yipnvah9khxnqqwfsa09xrzalvpsjzxa6n9n4145";
+          url = "https://elpa.gnu.org/packages/ellama-0.11.13.tar";
+          sha256 = "1i5pn976a8y3b6927wq51cy9adjipn7xqlmdxy9gnhfnjsma2446";
         };
         packageRequires = [ compat emacs llm spinner ];
         meta = {
