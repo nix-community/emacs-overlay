@@ -8908,15 +8908,15 @@
   "repo": "emacscollective/borg",
   "unstable": {
    "version": [
-    20240609,
-    1435
+    20240722,
+    1326
    ],
    "deps": [
     "epkg",
     "magit"
    ],
-   "commit": "940dc6af73cc40b5254fdb15ff1a6058e1b2b8a5",
-   "sha256": "1hlq3ss6waz6xi8qcqig1267l626fddpaz9038xy96w5zcm5wzdj"
+   "commit": "a403ee1ace20dc99a70c6ee3922f89a0e6e9eabf",
+   "sha256": "0wyllbbz4ls55zz0cjhpk8kw713nmsf63fg0njq17cfv4n6kfqi6"
   },
   "stable": {
    "version": [
@@ -12038,16 +12038,16 @@
   "repo": "worr/cfn-mode",
   "unstable": {
    "version": [
-    20240630,
-    804
+    20240721,
+    805
    ],
    "deps": [
     "f",
     "s",
     "yaml-mode"
    ],
-   "commit": "a16c17e7765f1ae54ae7d40e748871e6b1ffced6",
-   "sha256": "1m1v2an9dpsksar9v60srg9bdhsiiwjxba7lbd7s6iyraj30r2dn"
+   "commit": "f492c795f1a0f4c6266bd6960224aedcf1ddbb0b",
+   "sha256": "0gzbcyq6wiwrsyckf66vnbwvp8fd50fx5j1qld12545f1ly0qima"
   },
   "stable": {
    "version": [
@@ -13428,8 +13428,8 @@
   "repo": "andras-simonyi/citeproc-el",
   "unstable": {
    "version": [
-    20240621,
-    1425
+    20240722,
+    1110
    ],
    "deps": [
     "compat",
@@ -13441,8 +13441,8 @@
     "s",
     "string-inflection"
    ],
-   "commit": "cfa30b6c95c7465a05da98eccf273608880b22d7",
-   "sha256": "0layhvngypfxms7ivhiqfhfx5787kq0vdp2m4k51mwgjk0cagfqc"
+   "commit": "54184baaff555b5c7993d566d75dd04ed485b5c0",
+   "sha256": "003c8xjdz69irdgi58yibkgai4is0ffbavvkl370n214rwhhhib9"
   },
   "stable": {
    "version": [
@@ -48613,11 +48613,11 @@
   "repo": "danilshvalov/git-commit-ts-mode",
   "unstable": {
    "version": [
-    20240527,
-    708
+    20240722,
+    1010
    ],
-   "commit": "04219fdac2a5c1816cd08141513770adc0c2a48b",
-   "sha256": "0chhls16pz215hxsh2c9c95msz4jmj941fvpiqp57alsv7fva9ci"
+   "commit": "02391c4a2745e304b724b01c058764defce49a73",
+   "sha256": "1vvxq6hnrv5m0mz5brpx6ya1b1hy68b33lkccpkvgyhx86imrdva"
   }
  },
  {
@@ -55511,10 +55511,10 @@
  },
  {
   "ename": "helm-flymake",
-  "commit": "d8547036dceaa466957f4c5a07eb0461f313b924",
-  "sha256": "0h87yd56nhxpahrcpk6hin142hzv3sdr5bvz0injbv8a2lwnny3b",
+  "commit": "07799dc4acea7123ab1021b6be9bab9a37f5a6c1",
+  "sha256": "18hy2qvxaxvw58crzj41kqjdmnqc6fdnhp9klfy1j3751vfs9ik7",
   "fetcher": "github",
-  "repo": "tam17aki/helm-flymake",
+  "repo": "emacs-helm/helm-flymake",
   "unstable": {
    "version": [
     20160610,
@@ -69765,30 +69765,30 @@
   "repo": "Deducteam/lambdapi",
   "unstable": {
    "version": [
-    20240425,
-    941
+    20240708,
+    1514
    ],
    "deps": [
     "eglot",
     "highlight",
     "math-symbol-lists"
    ],
-   "commit": "a4bc3a492ff542be2989b545362cd98ed38412e1",
-   "sha256": "1968s3bmwhjrvp2lrwbjkjij0xl3s6isxy1fhdkhrpin0iyfizy9"
+   "commit": "e119c8cee3647e1d17fa6fdaf1bb6129f42927bc",
+   "sha256": "1fnlbf2aqjrkywf4ajgbhlcmw5j93z66ygljpn2ip5zjf9hkr54r"
   },
   "stable": {
    "version": [
     2,
     5,
-    0
+    1
    ],
    "deps": [
     "eglot",
     "highlight",
     "math-symbol-lists"
    ],
-   "commit": "3730715c845c0732b912e10e14391350c327b6d3",
-   "sha256": "0cbs4nhj4lk6sj454vf6kfsljidchhh9h2ayn611kn9xd95hr082"
+   "commit": "e119c8cee3647e1d17fa6fdaf1bb6129f42927bc",
+   "sha256": "1fnlbf2aqjrkywf4ajgbhlcmw5j93z66ygljpn2ip5zjf9hkr54r"
   }
  },
  {
@@ -89724,13 +89724,13 @@
   "unstable": {
    "version": [
     20240722,
-    602
+    830
    ],
    "deps": [
     "compat"
    ],
-   "commit": "ba24c9907f3f4a2921b55888a07e98b4c932053e",
-   "sha256": "06nvavyj259c6mhm3yznn50bs8d85hrxgxb0cljqzrrg53555wak"
+   "commit": "96cd1dc2c8f523f1f4f02b927375deaa924368b4",
+   "sha256": "167xbw8f3gldsgv3zxrhicyr3v2vhc2hfmc5khagirdwr9a2g7q5"
   },
   "stable": {
    "version": [
@@ -120361,11 +120361,11 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20240714,
-    1630
+    20240722,
+    1427
    ],
-   "commit": "7e7f3e67c13675623168894a167fe99cf13d21e9",
-   "sha256": "1w8ggv9ddh0afwr3ghsbwmm0xcm49yk9yysimwkgq01h34ff4k1n"
+   "commit": "1e426a5aa43e7a14f4d2df6f4749fdba7a3dab7c",
+   "sha256": "15ywdykdvydrhq0ws9359jkhbmrpxsnpa18d89cxl6905bwa3ki0"
   },
   "stable": {
    "version": [
@@ -122316,26 +122316,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20240714,
-    524
+    20240722,
+    909
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "01d16875317efc7a61c2e19c8f5b94bf4b914bfd",
-   "sha256": "0dyi690gfp63njpk00yvhg0531b3whgh5ajb3hjb7c1lfg4knaw2"
+   "commit": "2fccc9cca61a89629911b812487f81cd3d310313",
+   "sha256": "1qjwi7h8mjcqy484wfg44304zdhl9f4r7c38pasv5sicambsk6rv"
   },
   "stable": {
    "version": [
     0,
     12,
-    205
+    206
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "01d16875317efc7a61c2e19c8f5b94bf4b914bfd",
-   "sha256": "0dyi690gfp63njpk00yvhg0531b3whgh5ajb3hjb7c1lfg4knaw2"
+   "commit": "2fccc9cca61a89629911b812487f81cd3d310313",
+   "sha256": "1qjwi7h8mjcqy484wfg44304zdhl9f4r7c38pasv5sicambsk6rv"
   }
  },
  {
