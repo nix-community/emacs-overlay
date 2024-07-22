@@ -586,10 +586,10 @@
       elpaBuild {
         pname = "d-mode";
         ename = "d-mode";
-        version = "202003130913";
+        version = "202405290611";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/d-mode-202003130913.tar";
-          sha256 = "0sdyk8q1pfk5gbj5hdyc1djmyb02vvhs4s2fbbxk52nlkx95p46s";
+          url = "https://elpa.nongnu.org/nongnu/d-mode-202405290611.tar";
+          sha256 = "0znfiivxak0r1a6ximmm6gljnpdnkrlqlsb65dq4jl9vkxyf1yqy";
         };
         packageRequires = [ emacs ];
         meta = {
