@@ -1355,19 +1355,18 @@
           license = lib.licenses.free;
         };
       }) {};
-    cursor-undo = callPackage ({ cl-lib ? null
-                               , elpaBuild
+    cursor-undo = callPackage ({ elpaBuild
                                , fetchurl
                                , lib }:
       elpaBuild {
         pname = "cursor-undo";
         ename = "cursor-undo";
-        version = "1.0.0.20240721.171240";
+        version = "1.0.0.20240722.160900";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cursor-undo-1.0.0.20240721.171240.tar";
-          sha256 = "17df4xg82r77wws48x03xzzsbvb6hzkky0a19958rwy7f7ihyxim";
+          url = "https://elpa.gnu.org/devel/cursor-undo-1.0.0.20240722.160900.tar";
+          sha256 = "10w89cwxrrsffa65p1z1hqwinbgs4a3m07lzlbw5dpd4sc916fq1";
         };
-        packageRequires = [ cl-lib ];
+        packageRequires = [];
         meta = {
           homepage = "https://elpa.gnu.org/packages/cursor-undo.html";
           license = lib.licenses.free;
@@ -3739,10 +3738,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.17.0.0.20240713.175029";
+        version = "0.17.0.0.20240722.133153";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.17.0.0.20240713.175029.tar";
-          sha256 = "1k8nmbs9q5gppzqbbyjr6fvsm1z7w8y21mfvap206vwvikqa4hd0";
+          url = "https://elpa.gnu.org/devel/llm-0.17.0.0.20240722.133153.tar";
+          sha256 = "1q5hpypk6va5942dqxv2mmlh3lznr16fmblvq4pd15c4xi4m0dsq";
         };
         packageRequires = [ emacs plz ];
         meta = {
@@ -4562,10 +4561,10 @@
       elpaBuild {
         pname = "org";
         ename = "org";
-        version = "9.8pre0.20240717.141114";
+        version = "9.8pre0.20240722.190120";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240717.141114.tar";
-          sha256 = "11vj0cc69s8wsldy26pfzj4qx3xwdzql1b45afqgmmxf430cq767";
+          url = "https://elpa.gnu.org/devel/org-9.8pre0.20240722.190120.tar";
+          sha256 = "0w6s1mhbbab5lsh978dwcwww879wwzlsn7vwh3i39da549mhkvjm";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4639,10 +4638,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.3.0.20240722.60225";
+        version = "1.3.0.20240722.83058";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.3.0.20240722.60225.tar";
-          sha256 = "1avbdwaz31wrvmrvpmvmj9aga9anjbdw0crm2cbkh3ps7zw0vp8p";
+          url = "https://elpa.gnu.org/devel/org-modern-1.3.0.20240722.83058.tar";
+          sha256 = "1kjhwxnnxa2jwg4207aqlfbqqmgh2l0674vg9nd810bygn38hmkz";
         };
         packageRequires = [ compat emacs ];
         meta = {
