@@ -808,10 +808,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.5.0.20240718.101028";
+        version = "1.5.0.20240723.191145";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cape-1.5.0.20240718.101028.tar";
-          sha256 = "10wkr032v1lq2kwx974djidl4v737779bsspz4nn5n70wfc2d9r5";
+          url = "https://elpa.gnu.org/devel/cape-1.5.0.20240723.191145.tar";
+          sha256 = "09cyf6qi6ldpqfns81awn6909jmxks9d65vi023rsvi7mw4w0ygs";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2954,10 +2954,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.11.14.0.20240720.31235";
+        version = "0.11.14.0.20240723.104928";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.11.14.0.20240720.31235.tar";
-          sha256 = "07b5yhgb7j23i7jyjbw3yqxawskzhzkii01wlcha416zkqnpxvi3";
+          url = "https://elpa.gnu.org/devel/greader-0.11.14.0.20240723.104928.tar";
+          sha256 = "0w6kl6m2pmz54d1g2ad99da5c6vqml3abyhrb5262ri8hvcljp9n";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -3419,10 +3419,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.9.0.20240718.100839";
+        version = "1.9.0.20240723.191335";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/jinx-1.9.0.20240718.100839.tar";
-          sha256 = "0dgimrfvgr62spsvbf346jhnwknh78k7wfgqf88jsms0yh16xj6z";
+          url = "https://elpa.gnu.org/devel/jinx-1.9.0.20240723.191335.tar";
+          sha256 = "0lxik6i1psa6f8wk9xpcswlpy0xs0g0sdlvsk6mcyp2nrfjmr15r";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4115,10 +4115,10 @@
       elpaBuild {
         pname = "modus-themes";
         ename = "modus-themes";
-        version = "4.4.0.0.20240709.63840";
+        version = "4.4.0.0.20240723.60616";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/modus-themes-4.4.0.0.20240709.63840.tar";
-          sha256 = "19yys9lkfsrcbib4rd0ph8d1a3698bih0ghihpb7i1mxy2x0dxwj";
+          url = "https://elpa.gnu.org/devel/modus-themes-4.4.0.0.20240723.60616.tar";
+          sha256 = "1qs3vp551b9a22f5x9amkjdgj045vaqyhwnyw2d48p85sr95rx7h";
         };
         packageRequires = [ emacs ];
         meta = {
