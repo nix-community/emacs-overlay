@@ -990,10 +990,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.7";
+        version = "1.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/consult-1.7.tar";
-          sha256 = "02ji5yxa92jj7chs6al5amjdag1waz2sngbbk45mgg9nv81b4d3c";
+          url = "https://elpa.gnu.org/packages/consult-1.8.tar";
+          sha256 = "0k3k1jmwdw4w8rr5z2030ba37mcia2zghh6p4c36ck51hwvfkb8w";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1205,6 +1205,21 @@
           license = lib.licenses.free;
         };
       }) {};
+    cursor-undo = callPackage ({ elpaBuild, fetchurl, lib }:
+      elpaBuild {
+        pname = "cursor-undo";
+        ename = "cursor-undo";
+        version = "1.1";
+        src = fetchurl {
+          url = "https://elpa.gnu.org/packages/cursor-undo-1.1.tar";
+          sha256 = "0sn9zby4qmij4zg52l52xzp7ghfxigf44iy2bsab0bsqp2idi7ll";
+        };
+        packageRequires = [];
+        meta = {
+          homepage = "https://elpa.gnu.org/packages/cursor-undo.html";
+          license = lib.licenses.free;
+        };
+      }) {};
     cursory = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "cursory";
@@ -1329,10 +1344,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "3.0.7";
+        version = "3.0.8";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/denote-3.0.7.tar";
-          sha256 = "1qgid843m6ga5rcadxigvb8m9r1wnrbnwf6dc7091h6nn2ml0gq3";
+          url = "https://elpa.gnu.org/packages/denote-3.0.8.tar";
+          sha256 = "0hqv0lbjjs3df2vjwx3mnyj98kl3shh9aahl2y9mnmfq4fingdi8";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4195,10 +4210,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.3";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/org-modern-1.3.tar";
-          sha256 = "1lpl9q9ijyp6pwb0qap9ydzkq0pd5xkbfpaqy1nvcy5b906jmkdj";
+          url = "https://elpa.gnu.org/packages/org-modern-1.4.tar";
+          sha256 = "130942pz6didav2f7zfmzgrqhzcq70b2isww4ll3ihxbqgswk4mn";
         };
         packageRequires = [ compat emacs ];
         meta = {

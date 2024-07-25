@@ -1120,10 +1120,10 @@
       elpaBuild {
         pname = "consult";
         ename = "consult";
-        version = "1.7.0.20240720.173324";
+        version = "1.8.0.20240725.50842";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/consult-1.7.0.20240720.173324.tar";
-          sha256 = "1b3l6ljw6s9zjwyq5lj5xcqgg184kir4gbx664xmr8jbsws8z4s3";
+          url = "https://elpa.gnu.org/devel/consult-1.8.0.20240725.50842.tar";
+          sha256 = "1q4b197lk9ps9c8i0gd5k21pdhfsq15syq4lfpy22cprdi4vrv0r";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1361,10 +1361,10 @@
       elpaBuild {
         pname = "cursor-undo";
         ename = "cursor-undo";
-        version = "1.0.0.20240722.160900";
+        version = "1.1.0.20240725.50728";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cursor-undo-1.0.0.20240722.160900.tar";
-          sha256 = "10w89cwxrrsffa65p1z1hqwinbgs4a3m07lzlbw5dpd4sc916fq1";
+          url = "https://elpa.gnu.org/devel/cursor-undo-1.1.0.20240725.50728.tar";
+          sha256 = "1gggiy7b0hn67v7ij3r4gc6jksybf00fi207dkxpzz3a9v0pj474";
         };
         packageRequires = [];
         meta = {
@@ -1501,10 +1501,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "3.0.7.0.20240724.100808";
+        version = "3.0.8.0.20240725.73233";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-3.0.7.0.20240724.100808.tar";
-          sha256 = "13w059zk2svqzhync2zii5vjsqxddagij9haywz5p00x2c8g2ri7";
+          url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240725.73233.tar";
+          sha256 = "0cyljx4rqyyb35wr16i2nwas4p5bqjmbk69lcsxpigsjnhl54a99";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4638,10 +4638,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.3.0.20240722.83058";
+        version = "1.4.0.20240725.50959";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.3.0.20240722.83058.tar";
-          sha256 = "1kjhwxnnxa2jwg4207aqlfbqqmgh2l0674vg9nd810bygn38hmkz";
+          url = "https://elpa.gnu.org/devel/org-modern-1.4.0.20240725.50959.tar";
+          sha256 = "191mzssiqq9wdx5f9cf6wl98q26y9paskkkh3kfwv0ic4n1r5y5x";
         };
         packageRequires = [ compat emacs ];
         meta = {
