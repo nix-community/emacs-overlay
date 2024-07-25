@@ -712,10 +712,10 @@
       elpaBuild {
         pname = "cape";
         ename = "cape";
-        version = "1.5";
+        version = "1.6";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cape-1.5.tar";
-          sha256 = "1kg5a2x23gmdcv8kwzmz8qjfr05r9rfzwb7cj38ambpqpppxl7ij";
+          url = "https://elpa.gnu.org/packages/cape-1.6.tar";
+          sha256 = "1pqkdajl7nd510hxq4lph5cqj3j84mi01nl0ka2k4j8wrvb9zagn";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -3080,10 +3080,10 @@
       elpaBuild {
         pname = "jinx";
         ename = "jinx";
-        version = "1.9";
+        version = "1.10";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/jinx-1.9.tar";
-          sha256 = "0k6km295y5w13kl18v9b6y0szdccf89nbar3zkdincy4iid5z6n1";
+          url = "https://elpa.gnu.org/packages/jinx-1.10.tar";
+          sha256 = "19l1wcrv610l6alb9xzyfmdkmnzgcf60z3557q4dkgvz35959p4y";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -4315,10 +4315,10 @@
       elpaBuild {
         pname = "osm";
         ename = "osm";
-        version = "1.3";
+        version = "1.4";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/osm-1.3.tar";
-          sha256 = "0s5k6akdvbm9gsgzjlz795vgfy3pkl4qdk45p16p40f59dr49g4r";
+          url = "https://elpa.gnu.org/packages/osm-1.4.tar";
+          sha256 = "0cix4jn3919xnlsj85l4m83znkqf4m2988zzqwcsvvvjrmgccanh";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -5825,10 +5825,10 @@
       elpaBuild {
         pname = "tempel";
         ename = "tempel";
-        version = "1.1";
+        version = "1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tempel-1.1.tar";
-          sha256 = "01zrp3wi4nvp67wda1b5fyjfxd0akhk7aqc2nqh1sk4mjp5zpnsq";
+          url = "https://elpa.gnu.org/packages/tempel-1.2.tar";
+          sha256 = "0lvdd7lvdx4yf0zhrv380y5q3zvvk7gsxjgxj2c40np86c4q2q7m";
         };
         packageRequires = [ compat emacs ];
         meta = {
