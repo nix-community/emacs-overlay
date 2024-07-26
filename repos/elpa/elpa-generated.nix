@@ -1074,10 +1074,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.4";
+        version = "1.5";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/corfu-1.4.tar";
-          sha256 = "0jsxrs08zwbwb1mzn8a2ja3wr2w34cx8ca09l4fz05labv7p7i85";
+          url = "https://elpa.gnu.org/packages/corfu-1.5.tar";
+          sha256 = "0m80slhpr9xd57b3nvrqgfxm44851v9gfcy8ky3d3v2g5i2mrm6x";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1209,10 +1209,10 @@
       elpaBuild {
         pname = "cursor-undo";
         ename = "cursor-undo";
-        version = "1.1";
+        version = "1.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cursor-undo-1.1.tar";
-          sha256 = "0sn9zby4qmij4zg52l52xzp7ghfxigf44iy2bsab0bsqp2idi7ll";
+          url = "https://elpa.gnu.org/packages/cursor-undo-1.1.1.tar";
+          sha256 = "1iyy478c4vrgrlvki7s9vj7i54f3s545vasfhqb0j9pyf6fn1jvb";
         };
         packageRequires = [];
         meta = {

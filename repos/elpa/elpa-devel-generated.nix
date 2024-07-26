@@ -1211,10 +1211,10 @@
       elpaBuild {
         pname = "corfu";
         ename = "corfu";
-        version = "1.4.0.20240720.85423";
+        version = "1.5.0.20240726.35927";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/corfu-1.4.0.20240720.85423.tar";
-          sha256 = "0dh9q1hpd78qscgl13h6lmhqvvkjirj3zv6y6iymw5l55h5j9ahw";
+          url = "https://elpa.gnu.org/devel/corfu-1.5.0.20240726.35927.tar";
+          sha256 = "1nk3i6l8x4aaa2xj4kq6y110g29vyid8sr56bdhcfvr2n2g3skcy";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -1361,10 +1361,10 @@
       elpaBuild {
         pname = "cursor-undo";
         ename = "cursor-undo";
-        version = "1.1.0.20240725.50728";
+        version = "1.1.1.0.20240726.41446";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cursor-undo-1.1.0.20240725.50728.tar";
-          sha256 = "1gggiy7b0hn67v7ij3r4gc6jksybf00fi207dkxpzz3a9v0pj474";
+          url = "https://elpa.gnu.org/devel/cursor-undo-1.1.1.0.20240726.41446.tar";
+          sha256 = "04ish0qy4vwrbibxdzby2wwp044j8ijg8gr80b0vd21l0r0fsiw4";
         };
         packageRequires = [];
         meta = {
@@ -2954,10 +2954,10 @@
       elpaBuild {
         pname = "greader";
         ename = "greader";
-        version = "0.11.14.0.20240723.104928";
+        version = "0.11.14.0.20240725.231524";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/greader-0.11.14.0.20240723.104928.tar";
-          sha256 = "0w6kl6m2pmz54d1g2ad99da5c6vqml3abyhrb5262ri8hvcljp9n";
+          url = "https://elpa.gnu.org/devel/greader-0.11.14.0.20240725.231524.tar";
+          sha256 = "0yxcpm7c2daxhnyv2d6wmdvafksabymkzpryfi26kxd5f2xqp0yq";
         };
         packageRequires = [ compat emacs seq ];
         meta = {
@@ -3738,10 +3738,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.17.0.0.20240722.133153";
+        version = "0.17.0.0.20240726.4558";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.17.0.0.20240722.133153.tar";
-          sha256 = "1q5hpypk6va5942dqxv2mmlh3lznr16fmblvq4pd15c4xi4m0dsq";
+          url = "https://elpa.gnu.org/devel/llm-0.17.0.0.20240726.4558.tar";
+          sha256 = "1hpqvg1c5sp0575a486pwxdbd36pq7p8d02xm8ml9vlv1viw4l91";
         };
         packageRequires = [ emacs plz ];
         meta = {
