@@ -3586,10 +3586,10 @@
       elpaBuild {
         pname = "with-editor";
         ename = "with-editor";
-        version = "3.3.4";
+        version = "3.4.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/with-editor-3.3.4.tar";
-          sha256 = "1q9h181r1192zz5ff95rb3j2j69w9ha00qrap5df8cs73z8kh2vc";
+          url = "https://elpa.nongnu.org/nongnu/with-editor-3.4.0.tar";
+          sha256 = "02irmnra6b19xg0b07ph57mq17c346wag530pw47wd64xkvsp0jh";
         };
         packageRequires = [ compat emacs ];
         meta = {
