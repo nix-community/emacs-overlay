@@ -1209,10 +1209,10 @@
       elpaBuild {
         pname = "cursor-undo";
         ename = "cursor-undo";
-        version = "1.1.1";
+        version = "1.1.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/cursor-undo-1.1.1.tar";
-          sha256 = "1iyy478c4vrgrlvki7s9vj7i54f3s545vasfhqb0j9pyf6fn1jvb";
+          url = "https://elpa.gnu.org/packages/cursor-undo-1.1.2.tar";
+          sha256 = "1cwhgkndyvc3d6y36vf0qfld2i6bfymsyyj3l5p9w32nwa800ssw";
         };
         packageRequires = [];
         meta = {
@@ -1755,10 +1755,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240718";
+        version = "20240726";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/eev-20240718.tar";
-          sha256 = "1z8dd71976s1a0ssh4q52jnr215cs34qaiyz4spys3sazpmywfc7";
+          url = "https://elpa.gnu.org/packages/eev-20240726.tar";
+          sha256 = "126142bcxszs3jfclafb492jyhl500m7hxljn9m9ab1259rcxzwg";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4120,10 +4120,10 @@
       elpaBuild {
         pname = "openpgp";
         ename = "openpgp";
-        version = "1.0.1";
+        version = "1.0.2";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/openpgp-1.0.1.tar";
-          sha256 = "052wh38q6r09avxa0bgc5gn4769763zmgijza76mb0b3lzj66syv";
+          url = "https://elpa.gnu.org/packages/openpgp-1.0.2.tar";
+          sha256 = "1gaq6hf9mwk52zjqw3d0wrj9l8mgzrbrk7nzywap4psnriq0vs0j";
         };
         packageRequires = [ emacs ];
         meta = {

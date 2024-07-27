@@ -348,10 +348,10 @@
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.6.0.20240725.154414";
+        version = "14.0.6.0.20240726.160210";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240725.154414.tar";
-          sha256 = "1wf1xji8ns9cclfm6i4vizngdcfkrj5vdc8lxhc9awlciznj1w84";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240726.160210.tar";
+          sha256 = "00qf7654sj8hrdyk7c2bwkaz9vn52lmdr90sz35rl8068jvhq1hp";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1361,10 +1361,10 @@
       elpaBuild {
         pname = "cursor-undo";
         ename = "cursor-undo";
-        version = "1.1.1.0.20240726.41446";
+        version = "1.1.2.0.20240726.154440";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/cursor-undo-1.1.1.0.20240726.41446.tar";
-          sha256 = "04ish0qy4vwrbibxdzby2wwp044j8ijg8gr80b0vd21l0r0fsiw4";
+          url = "https://elpa.gnu.org/devel/cursor-undo-1.1.2.0.20240726.154440.tar";
+          sha256 = "1z2ash3w5qrvda84lp2gpa27pxjrjq3yk3sfnd4z2sx23hirg9d9";
         };
         packageRequires = [];
         meta = {
@@ -1959,10 +1959,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240718.0.20240722.24043";
+        version = "20240726.0.20240726.23119";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240718.0.20240722.24043.tar";
-          sha256 = "0i56q72hja6vmwwqylabixfyjy5dljng36wyv8ij1kk4p2fkpa94";
+          url = "https://elpa.gnu.org/devel/eev-20240726.0.20240726.23119.tar";
+          sha256 = "0x46x2mq0ln34qcyxpj7rsfyf60ims9d1688p05q0sdxxxynh9a3";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4524,17 +4524,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    openpgp = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    openpgp = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "openpgp";
         ename = "openpgp";
-        version = "1.0.1.0.20230325.141904";
+        version = "1.0.2.0.20240726.81226";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/openpgp-1.0.1.0.20230325.141904.tar";
-          sha256 = "012svyzmr4rwi2a1v99klyjnwrrfqz8jd053f9xjfm44payfafkg";
+          url = "https://elpa.gnu.org/devel/openpgp-1.0.2.0.20240726.81226.tar";
+          sha256 = "0yxvzc0jbkgx9hvd57cicmw38bm178w0ahqqa6fvxn55i4ssgmjs";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -4638,10 +4635,10 @@
       elpaBuild {
         pname = "org-modern";
         ename = "org-modern";
-        version = "1.4.0.20240725.50959";
+        version = "1.4.0.20240726.173421";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/org-modern-1.4.0.20240725.50959.tar";
-          sha256 = "191mzssiqq9wdx5f9cf6wl98q26y9paskkkh3kfwv0ic4n1r5y5x";
+          url = "https://elpa.gnu.org/devel/org-modern-1.4.0.20240726.173421.tar";
+          sha256 = "1q9fn9nvndxis9bsq3j5ch03igfjvlx8ww0b7gwn6bxv36k49fip";
         };
         packageRequires = [ compat emacs ];
         meta = {
