@@ -34,10 +34,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.7";
+        version = "0.7.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/activities-0.7.tar";
-          sha256 = "1775cdk9hv257m6l7icg247fc36g7lwgjg8iivj52m6qg7p7cz9g";
+          url = "https://elpa.gnu.org/packages/activities-0.7.1.tar";
+          sha256 = "1khhkfyy251mag5zqybsvfg3sak0aac1qlsdl1wyiin7f6sq9563";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -3561,10 +3561,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.6";
+        version = "1.7";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/marginalia-1.6.tar";
-          sha256 = "0an3ayka1f7n511bjfwz42h9g5b1vhb6x47jy0k9psscr7pbhszg";
+          url = "https://elpa.gnu.org/packages/marginalia-1.7.tar";
+          sha256 = "1bwbkz71w81zcqsydvqic2xri52pm1h9nac8i7i04nl5b98pszkk";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -6441,10 +6441,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.8";
+        version = "1.9";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/vertico-1.8.tar";
-          sha256 = "0k6sfla0183vyjf2yd9sycck9nxz0x659kygxgiaip3zq7f9zkg8";
+          url = "https://elpa.gnu.org/packages/vertico-1.9.tar";
+          sha256 = "12aiqxsar86xlmsfzvilza10wf184nwhg218bv6bip7v51ikh37y";
         };
         packageRequires = [ compat emacs ];
         meta = {

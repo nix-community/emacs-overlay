@@ -41,10 +41,10 @@
       elpaBuild {
         pname = "activities";
         ename = "activities";
-        version = "0.8pre0.20240713.105610";
+        version = "0.8pre0.20240727.5721";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/activities-0.8pre0.20240713.105610.tar";
-          sha256 = "0jfgysvbxfzwm5lqml2wzbf6sxg1qb2afvbn0mb1n8cbqwrs893m";
+          url = "https://elpa.gnu.org/devel/activities-0.8pre0.20240727.5721.tar";
+          sha256 = "0f4p39vgi7fv3bh97267ys6rfy0ak0b4c15p57xfbybc47f8iwi1";
         };
         packageRequires = [ emacs persist ];
         meta = {
@@ -1501,10 +1501,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "3.0.8.0.20240725.145703";
+        version = "3.0.8.0.20240727.42049";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240725.145703.tar";
-          sha256 = "1lxfshbshdc6v2wi22wl66an9g8vihd40vsp76b9czwdgkpfpcqd";
+          url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240727.42049.tar";
+          sha256 = "0wk63n52kjnrwxhgnd81i8xb63h6k4wlgw3zrmphzlkridzvjbll";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1959,10 +1959,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240726.0.20240726.23119";
+        version = "20240726.0.20240726.211949";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240726.0.20240726.23119.tar";
-          sha256 = "0x46x2mq0ln34qcyxpj7rsfyf60ims9d1688p05q0sdxxxynh9a3";
+          url = "https://elpa.gnu.org/devel/eev-20240726.0.20240726.211949.tar";
+          sha256 = "1j82n9rw3xxjx1h8331k8m5wzr29mag6g0b94m4sak42p9xzsh0r";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -2304,10 +2304,10 @@
       elpaBuild {
         pname = "erc";
         ename = "erc";
-        version = "5.6.1snapshot0.20240713.84449";
+        version = "5.6.1snapshot0.20240727.42753";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20240713.84449.tar";
-          sha256 = "0qwgbmnkh63hc95c938v8rcvk7xfqrj4ijcnjjdcdisvfqp5wh0y";
+          url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20240727.42753.tar";
+          sha256 = "09vkh8h250v5yhhqf94dhiccqa355ad5hz63qnys3wmwfk2vah5m";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -2421,10 +2421,10 @@
       elpaBuild {
         pname = "external-completion";
         ename = "external-completion";
-        version = "0.1.0.20240720.4208";
+        version = "0.1.0.20240725.13518";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/external-completion-0.1.0.20240720.4208.tar";
-          sha256 = "18172ynzgjx54spnwmb5ynb2zpjzl1nkkn5ln1s8i745msjb4hsr";
+          url = "https://elpa.gnu.org/devel/external-completion-0.1.0.20240725.13518.tar";
+          sha256 = "0xhpmayv23iiysi5smk0sq9r8rp3vr5sq12p6584128pss75viqh";
         };
         packageRequires = [];
         meta = {
@@ -3705,10 +3705,10 @@
       elpaBuild {
         pname = "listen";
         ename = "listen";
-        version = "0.10pre0.20240419.165028";
+        version = "0.10pre0.20240727.12347";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240419.165028.tar";
-          sha256 = "1bmjnigb4ly14i3n7wgd0jx4k0g06cf2n3dapfdwlv80bi57x20a";
+          url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240727.12347.tar";
+          sha256 = "1w2zj6scq17ggc21s23kq817w1h3m7hhj0zydw4qy2k6caywr4vh";
         };
         packageRequires = [ emacs persist taxy taxy-magit-section transient ];
         meta = {
@@ -3917,10 +3917,10 @@
       elpaBuild {
         pname = "marginalia";
         ename = "marginalia";
-        version = "1.6.0.20240723.200424";
+        version = "1.7.0.20240726.212934";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/marginalia-1.6.0.20240723.200424.tar";
-          sha256 = "0snjn00lf0swsfdh70wh1skm0kdxs2wsf0b36p9sdsr49mzbfhh1";
+          url = "https://elpa.gnu.org/devel/marginalia-1.7.0.20240726.212934.tar";
+          sha256 = "0z5q3ar987yn3yql3rv7j1nip4y5gm3lhldks238cm88zbxhvp8k";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -7063,10 +7063,10 @@
       elpaBuild {
         pname = "use-package";
         ename = "use-package";
-        version = "2.4.5.0.20240724.110101";
+        version = "2.4.5.0.20240725.13518";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20240724.110101.tar";
-          sha256 = "1k5b0fnd2c8h18s9n326yapfqxydp4kij4i6rrrx624rhzgar5b6";
+          url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20240725.13518.tar";
+          sha256 = "10q862l8frip6vvv08ak4qsdzx7q3c06im2wihlrv9f23r4ll0jp";
         };
         packageRequires = [ bind-key emacs ];
         meta = {
@@ -7227,10 +7227,10 @@
       elpaBuild {
         pname = "vertico";
         ename = "vertico";
-        version = "1.8.0.20240718.100953";
+        version = "1.9.0.20240726.213105";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/vertico-1.8.0.20240718.100953.tar";
-          sha256 = "1ngf0s27cvi4q30cdv6ch3brr38xdk3gi4fjlzy7swhwcgi47yln";
+          url = "https://elpa.gnu.org/devel/vertico-1.9.0.20240726.213105.tar";
+          sha256 = "1gdmn8xs5d4mma8q8zvvnqvzdblxcv2xyc3lbkjw1rjjqg5xzj2i";
         };
         packageRequires = [ compat emacs ];
         meta = {
@@ -7432,10 +7432,10 @@
       elpaBuild {
         pname = "which-key";
         ename = "which-key";
-        version = "3.6.1.0.20240719.174244";
+        version = "3.6.1.0.20240727.42753";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/which-key-3.6.1.0.20240719.174244.tar";
-          sha256 = "1qaqf8x6akmdizps50nfa70c2cf54yigps8jwvrflgam030l48i8";
+          url = "https://elpa.gnu.org/devel/which-key-3.6.1.0.20240727.42753.tar";
+          sha256 = "1db4g0yhin44lxl4hpzsnn68f8hik705a89dgq20jiyihdji5ldq";
         };
         packageRequires = [ emacs ];
         meta = {
