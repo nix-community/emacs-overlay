@@ -2956,16 +2956,16 @@
           license = lib.licenses.free;
         };
       }) {};
-    scala-mode = callPackage ({ elpaBuild, fetchurl, lib }:
+    scala-mode = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "scala-mode";
         ename = "scala-mode";
-        version = "0.23";
+        version = "1.1.0";
         src = fetchurl {
-          url = "https://elpa.nongnu.org/nongnu/scala-mode-0.23.tar";
-          sha256 = "1zwd9cajw90v25rwdlylhdrc1xwvnf74c2rckz3cs096xsxc1qx2";
+          url = "https://elpa.nongnu.org/nongnu/scala-mode-1.1.0.tar";
+          sha256 = "1x3vw4fzy1z6gavnbsm4lnwzkp47zd8gasvxxvfk57qn09hpwixh";
         };
-        packageRequires = [];
+        packageRequires = [ emacs ];
         meta = {
           homepage = "https://elpa.gnu.org/packages/scala-mode.html";
           license = lib.licenses.free;
