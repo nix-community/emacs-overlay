@@ -1022,17 +1022,14 @@
           license = lib.licenses.free;
         };
       }) {};
-    company = callPackage ({ elpaBuild
-                           , emacs
-                           , fetchurl
-                           , lib }:
+    company = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
       elpaBuild {
         pname = "company";
         ename = "company";
-        version = "0.10.2.0.20240719.203812";
+        version = "0.10.2.0.20240729.647";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240719.203812.tar";
-          sha256 = "15d6yknz39g504hczr69kq7mh1pcp55fxapmlnyvv3jmhk11l6q9";
+          url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240729.647.tar";
+          sha256 = "1kjq2nakhawi7imwdr80xdxvxb5kka4x8pw4lqv2q4m5b8i7gyhj";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1959,10 +1956,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240726.0.20240726.211949";
+        version = "20240726.0.20240729.20326";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240726.0.20240726.211949.tar";
-          sha256 = "1j82n9rw3xxjx1h8331k8m5wzr29mag6g0b94m4sak42p9xzsh0r";
+          url = "https://elpa.gnu.org/devel/eev-20240726.0.20240729.20326.tar";
+          sha256 = "1k9zalgci1nfskz32zia1w98kd4r0vc92na9hdyk7pgwwkibp7na";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3738,10 +3735,10 @@
       elpaBuild {
         pname = "llm";
         ename = "llm";
-        version = "0.17.0.0.20240728.5309";
+        version = "0.17.0.0.20240728.192633";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/llm-0.17.0.0.20240728.5309.tar";
-          sha256 = "0c7wdfbnsdhm67sqr6j5nrz5p1zlfzvmyf8q41f2gmnz3xiijgad";
+          url = "https://elpa.gnu.org/devel/llm-0.17.0.0.20240728.192633.tar";
+          sha256 = "1f62arhxkbjyfs2qbkjb8npdigd0zz38g6c7zwivz04s2r0a57pd";
         };
         packageRequires = [ emacs plz ];
         meta = {
