@@ -20,6 +20,10 @@ self: super:
             generated = ../repos/elpa/elpa-generated.nix;
           };
 
+          nongnuDevelPackages = esuper.nongnuDevelPackages.override {
+            generated = ../repos/nongnu/nongnu-devel-generated.nix;
+          };
+
           nongnuPackages = esuper.nongnuPackages.override {
             generated = ../repos/nongnu/nongnu-generated.nix;
           };
@@ -27,7 +31,7 @@ self: super:
         in
           esuper.override {
             inherit melpaStablePackages melpaPackages elpaDevelPackages elpaPackages
-              nongnuPackages;
+              nongnuDevelPackages nongnuPackages;
           }
 
     )
