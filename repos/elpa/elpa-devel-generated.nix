@@ -528,10 +528,10 @@
       elpaBuild {
         pname = "beframe";
         ename = "beframe";
-        version = "1.1.1.0.20240522.34215";
+        version = "1.1.1.0.20240731.72124";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/beframe-1.1.1.0.20240522.34215.tar";
-          sha256 = "1ws11ynbcgi37sbh6p3nilq9ca26694qzqvd1h4dk0lb815b66l4";
+          url = "https://elpa.gnu.org/devel/beframe-1.1.1.0.20240731.72124.tar";
+          sha256 = "1mrdym01zcpy9da7v217qlk9yd200gjaqfnb3kjacrmyfk7p3w7a";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1956,10 +1956,10 @@
       elpaBuild {
         pname = "eev";
         ename = "eev";
-        version = "20240726.0.20240729.20326";
+        version = "20240731.0.20240731.25540";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/eev-20240726.0.20240729.20326.tar";
-          sha256 = "1k9zalgci1nfskz32zia1w98kd4r0vc92na9hdyk7pgwwkibp7na";
+          url = "https://elpa.gnu.org/devel/eev-20240731.0.20240731.25540.tar";
+          sha256 = "0pirxj2crrszswy4zr0ng1f0hbhfq31pndnjc0hd4cj85w2ivfbg";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -3137,10 +3137,10 @@
       elpaBuild {
         pname = "hyperbole";
         ename = "hyperbole";
-        version = "9.0.2pre0.20240728.171144";
+        version = "9.0.2pre0.20240731.15303";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240728.171144.tar";
-          sha256 = "0pj2l9q4jdpp219gjx73pfg87mv5mbajq4ss6r527jikgqqzlpxj";
+          url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240731.15303.tar";
+          sha256 = "14pyx3svb67bii18kwp0pmrx4z8xcak7vp7mc9s0v1zvbahgi9x6";
         };
         packageRequires = [ emacs ];
         meta = {
