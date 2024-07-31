@@ -1498,10 +1498,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "3.0.8.0.20240730.63858";
+        version = "3.0.8.0.20240730.102543";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240730.63858.tar";
-          sha256 = "0mq1j3x2qfhmn6fvac0w1ir8mx8fr92pdwy2jl7n2dhdv76f441i";
+          url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240730.102543.tar";
+          sha256 = "1rv34kh7356f1w69nxqn6w3vyb089a2framvar0zfc58x7zarpc5";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6136,10 +6136,10 @@
       elpaBuild {
         pname = "spacious-padding";
         ename = "spacious-padding";
-        version = "0.5.0.0.20240429.82953";
+        version = "0.5.0.0.20240730.104245";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/spacious-padding-0.5.0.0.20240429.82953.tar";
-          sha256 = "0k5w5d9prlasvv6074nxl8782mbhhvccpkc1zjrp228frkbgfpmi";
+          url = "https://elpa.gnu.org/devel/spacious-padding-0.5.0.0.20240730.104245.tar";
+          sha256 = "0l394ihv048i9b6l2i2hhdm0aigcq0ycim070ysdrxj64wfbzkql";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -6734,14 +6734,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    tramp = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    tramp = callPackage ({ elpaBuild
+                         , emacs
+                         , fetchurl
+                         , lib }:
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.7.1.0.20240629.82953";
+        version = "2.7.1.1.0.20240730.150621";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/tramp-2.7.1.0.20240629.82953.tar";
-          sha256 = "0kf7l5v84hqhbxzvg6xmffs8b03shd6062wjxfxy9z8y9xb6zpar";
+          url = "https://elpa.gnu.org/devel/tramp-2.7.1.1.0.20240730.150621.tar";
+          sha256 = "13abfs3a483ird3gwc49ixbxdwmayrlqnh349wm0j1hlmbciqczh";
         };
         packageRequires = [ emacs ];
         meta = {

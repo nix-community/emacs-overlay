@@ -6009,10 +6009,10 @@
       elpaBuild {
         pname = "tramp";
         ename = "tramp";
-        version = "2.7.1";
+        version = "2.7.1.1";
         src = fetchurl {
-          url = "https://elpa.gnu.org/packages/tramp-2.7.1.tar";
-          sha256 = "128k591219ffwbk1cifki0xx94rg6b7crh7gmhaiqfa6jylqhcg8";
+          url = "https://elpa.gnu.org/packages/tramp-2.7.1.1.tar";
+          sha256 = "1b14gwgfwx9n01mvbpi8q8lr9n4ik8lm580b8dvcaz456pm7bxb8";
         };
         packageRequires = [ emacs ];
         meta = {
