@@ -8923,15 +8923,15 @@
   "repo": "emacscollective/borg",
   "unstable": {
    "version": [
-    20240724,
-    1948
+    20240801,
+    1509
    ],
    "deps": [
     "epkg",
     "magit"
    ],
-   "commit": "5c2b630cbdc79961ba4f75d4109cf54f83431ea2",
-   "sha256": "0vlshqyccarfdhamvzrwf1q8za2zvw8wik7qyywhxgp9kcl42zmp"
+   "commit": "5d5f627f4d788ad12aaa3a3e6765681deef01803",
+   "sha256": "1lszxv3jgg8lh9qiw4dc9gbyj3hwjzz2ch577ayghn1q5ijqi7zr"
   },
   "stable": {
    "version": [
@@ -30776,11 +30776,11 @@
   "repo": "ideasman42/emacs-elisp-autofmt",
   "unstable": {
    "version": [
-    20240616,
-    2345
+    20240801,
+    1325
    ],
-   "commit": "98edd8158b778ff9a0e34b5c6615523c0035f8d6",
-   "sha256": "11p41lpw0vvbwm3mshmhqmgqs39b9lmrba45im0hwfpa9wcmx73z"
+   "commit": "43a44dcbd17adf3b235de93e748321c7076f1c3c",
+   "sha256": "1c03qssa74jrsszcsvz1whj5md5vcdximxg8yfyq0s3spld8bs2n"
   }
  },
  {
@@ -49407,21 +49407,6 @@
   }
  },
  {
-  "ename": "github-modern-theme",
-  "commit": "f84c1fe6cdc6a2ba46e20cde477ac52bacc14587",
-  "sha256": "1yz0f7rnf8gk67x873mzz0gsiiljb4vjvx18zkby29cb6f75kgj6",
-  "fetcher": "github",
-  "repo": "tx46/GitHub-Modern-Theme-for-Emacs",
-  "unstable": {
-   "version": [
-    20171109,
-    1251
-   ],
-   "commit": "a7e7b8e5e9c122138e79e837caf9b7299e748d44",
-   "sha256": "0agfy3wiznb2ksfa00g7066mb0vps4g74mj6nl9wkvx847dzg34h"
-  }
- },
- {
   "ename": "github-notifier",
   "commit": "c09f4e7e8a84a241881d214e8359f8a50ab14ddf",
   "sha256": "1jqc2wx1pvkca8syj97ds32404szm0wn12b7zpa98265sg3n64nw",
@@ -49534,21 +49519,6 @@
    ],
    "commit": "bb79c80574cfff865342b6e262f2c9762edb4c15",
    "sha256": "03lx8ndhikl2frdblbi3fsaz6xzfay6w2ngl1z0ib85wca55lzqp"
-  }
- },
- {
-  "ename": "github-theme",
-  "commit": "8e2ec66cd3332c3e11d73830ad178690cb9c2c9f",
-  "sha256": "06bxzfmfs30y276kbb4j4angk929hrf8qma6hq2fggr0428x4piy",
-  "fetcher": "github",
-  "repo": "tx46/GitHub-Theme-for-Emacs",
-  "unstable": {
-   "version": [
-    20170630,
-    2201
-   ],
-   "commit": "29f00a51d949a248a5f6355a97131e216747c797",
-   "sha256": "16ldfz1k0hxc1b785gzrf70hg0q88ijjxp39hb62iax1k1aw9vlw"
   }
  },
  {
@@ -53248,11 +53218,11 @@
   "repo": "idlip/haki",
   "unstable": {
    "version": [
-    20240501,
-    1610
+    20240801,
+    1217
    ],
-   "commit": "e076785ca936b723751b8957c5d5eab8dde12346",
-   "sha256": "17ypcl68d2f3m0nqma80g1mrbj50wbf4ljl02xl518y0i9cix50a"
+   "commit": "6b3f555cbf038cf4ad4fd296554467137892776c",
+   "sha256": "1l0wb1v3x3ngg3x0mv2pfa97qfxblm3ff6r2d7b5y5767ifmbn6j"
   }
  },
  {
@@ -79084,11 +79054,11 @@
   "repo": "ideasman42/emacs-mode-line-idle",
   "unstable": {
    "version": [
-    20240729,
-    4
+    20240801,
+    1318
    ],
-   "commit": "49ee81c6f2c3bf7f4e3e0a6ccbf6e09705ed32ea",
-   "sha256": "11mdm377zaakajc0mx53fkgwdk2fj0wp9g9j38a8a1mgbyay2bcb"
+   "commit": "f1224688be854183ebe939876f6ac8372d3e9679",
+   "sha256": "1042ma7c6hbb2shi2m834c7aajk2qbygxdl4fhnp20ipf1gqchbw"
   }
  },
  {
@@ -119897,15 +119867,15 @@
   "repo": "hcl-emacs/terraform-mode",
   "unstable": {
    "version": [
-    20240729,
-    1847
+    20240801,
+    921
    ],
    "deps": [
     "dash",
     "hcl-mode"
    ],
-   "commit": "bd59e4c34c57b0e0a29c57ecffc2ed31c86b5d60",
-   "sha256": "0sxv9g2q48l2ymavqs1vd7a2sa08zw62h2yjy2y4ark8cmvgn15g"
+   "commit": "abfc10f5e313c4bb99de136a14636e9bc6df74f6",
+   "sha256": "0rlzx80dx1gv0hcpkjnlvabhf124l442pfish1vii1jaqm5b07ps"
   },
   "stable": {
    "version": [
@@ -130231,14 +130201,14 @@
   "repo": "jobbflykt/x509-mode",
   "unstable": {
    "version": [
-    20240725,
-    905
+    20240801,
+    719
    ],
    "deps": [
     "compat"
    ],
-   "commit": "09f1b57550f2ef52016506fd0e0bb14511308921",
-   "sha256": "03mh0rifs8l285c3ii1xrpnz7c9klign0f0icqmyyvm23y75wdmc"
+   "commit": "d62e83f1041680df8de7bbfe19aaaa0f2dfa79b6",
+   "sha256": "0dbi5fwid24ilrvagj0s9v9gn1737889swycm20vggkdcij8fzh8"
   }
  },
  {
@@ -133157,21 +133127,6 @@
    ],
    "commit": "f05677f9696e573c8c607e8876fb4a0cccbc491f",
    "sha256": "1kav7xiarm0dgvgxf49qqcy2jp388b51x3qb92dyd3i73n6bk09j"
-  }
- },
- {
-  "ename": "zweilight-theme",
-  "commit": "c28d239a5380afc0ae67b93a61b177d59d110885",
-  "sha256": "19ik1kxcjh6ymccchh4r40qdqmj8jxdk9s0dqa5w69lihsv51sfx",
-  "fetcher": "github",
-  "repo": "tx46/Zweilight-Theme-for-Emacs",
-  "unstable": {
-   "version": [
-    20170113,
-    605
-   ],
-   "commit": "890f27c939d8a358c9ef0f402fc3314f475ec874",
-   "sha256": "0pl254c61405n6sgr01qj4z42vqdvbmf59nz55cl23l2q7kdbfdv"
   }
  },
  {
