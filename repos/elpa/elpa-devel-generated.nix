@@ -341,14 +341,17 @@
           license = lib.licenses.free;
         };
       }) {};
-    auctex = callPackage ({ elpaBuild, emacs, fetchurl, lib }:
+    auctex = callPackage ({ elpaBuild
+                          , emacs
+                          , fetchurl
+                          , lib }:
       elpaBuild {
         pname = "auctex";
         ename = "auctex";
-        version = "14.0.6.0.20240730.45339";
+        version = "14.0.6.0.20240731.173501";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240730.45339.tar";
-          sha256 = "17x2qaqrxxa5lrkhrsqfbmfpkjrq8z9adwn0vjs8mncjb7bz126i";
+          url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240731.173501.tar";
+          sha256 = "0f19cyhg2gxw378w8i30yawc17fki1f5ljbsgswx346mjlwzcl2z";
         };
         packageRequires = [ emacs ];
         meta = {
@@ -1498,10 +1501,10 @@
       elpaBuild {
         pname = "denote";
         ename = "denote";
-        version = "3.0.8.0.20240730.102543";
+        version = "3.0.8.0.20240731.155918";
         src = fetchurl {
-          url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240730.102543.tar";
-          sha256 = "1rv34kh7356f1w69nxqn6w3vyb089a2framvar0zfc58x7zarpc5";
+          url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240731.155918.tar";
+          sha256 = "1qmnm51692v97mkxxbp0k1skbah0s4f26xm3dsas2xzw0hl4nhy9";
         };
         packageRequires = [ emacs ];
         meta = {
