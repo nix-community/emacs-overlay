@@ -7294,10 +7294,10 @@
     elpaBuild {
       pname = "relint";
       ename = "relint";
-      version = "1.24.0.20240714.124402";
+      version = "1.24.0.20240801.165720";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/relint-1.24.0.20240714.124402.tar";
-        sha256 = "08g9hxj7ndjljaw4rjlbbnmrfwzv43sk1s7gr1vsmj61v47li936";
+        url = "https://elpa.gnu.org/devel/relint-1.24.0.20240801.165720.tar";
+        sha256 = "01xfq0p26s8g8mjgvngqgwyhcqkfibh0p2c5yfvvlzh9w4csaa6f";
       };
       packageRequires = [ xr ];
       meta = {
@@ -7598,10 +7598,10 @@
     elpaBuild {
       pname = "shell-command-plus";
       ename = "shell-command+";
-      version = "2.4.2.0.20240728.121048";
+      version = "2.4.2.0.20240801.143007";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/shell-command+-2.4.2.0.20240728.121048.tar";
-        sha256 = "0pzs9h9g5k95r1w38axj3pp307mici5dvr4zslba5i0pvcvxy0kd";
+        url = "https://elpa.gnu.org/devel/shell-command+-2.4.2.0.20240801.143007.tar";
+        sha256 = "0mhr5yki3b0px40ldk8wzwpzy5ji0l301v4wilivzii8lgaq571c";
       };
       packageRequires = [ ];
       meta = {
@@ -7917,10 +7917,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.5.0.0.20240730.104245";
+      version = "0.5.0.0.20240801.94014";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/spacious-padding-0.5.0.0.20240730.104245.tar";
-        sha256 = "0l394ihv048i9b6l2i2hhdm0aigcq0ycim070ysdrxj64wfbzkql";
+        url = "https://elpa.gnu.org/devel/spacious-padding-0.5.0.0.20240801.94014.tar";
+        sha256 = "0nv1gg30kwdcb0isp159ir03xh3l28yv11m9rznch48axwd1bjwp";
       };
       packageRequires = [ ];
       meta = {
@@ -9870,10 +9870,10 @@
     elpaBuild {
       pname = "xr";
       ename = "xr";
-      version = "1.25.0.20240401.74532";
+      version = "1.25.0.20240801.165631";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xr-1.25.0.20240401.74532.tar";
-        sha256 = "0q9s706dz52mfnjhc9b5km7756zsx9ws4nlc607i1v71hhz2k3lg";
+        url = "https://elpa.gnu.org/devel/xr-1.25.0.20240801.165631.tar";
+        sha256 = "16k5yjnaamdifzdq1r22dcaml16ip53davl6v83z4x8w5nqq0b8a";
       };
       packageRequires = [ ];
       meta = {
