@@ -54050,15 +54050,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20240729,
-    1705
+    20240802,
+    1017
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "228ba22048e3a7d48d4bd62f415906a397be45d0",
-   "sha256": "0jszn2cmvwhdid3jxmp2cax6jli963mh4hv1nny6zskiyyjy3pjy"
+   "commit": "f48231d98e2ffb9fad2d445b0fd473aba973a1a9",
+   "sha256": "0pi0499cr9h1ak43j9d9lnx3r77xrc3ajc38kqmm66602i71kdzg"
   },
   "stable": {
    "version": [
@@ -54940,14 +54940,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20240726,
-    1600
+    20240802,
+    1013
    ],
    "deps": [
     "async"
    ],
-   "commit": "4a4b2a44948a7cac8c52e260e5c835249ce04224",
-   "sha256": "0jz8cqj945syc52inkv78vjaipzr62sm856p2jc829kdbgw0f6sn"
+   "commit": "d2497a8ceae2d99b20135569d1aab75f0a47d936",
+   "sha256": "0dwvyswgcd7r7szjb52p3pr7739x425y67b7pd00dlrxa40a39xm"
   },
   "stable": {
    "version": [
@@ -79590,11 +79590,11 @@
   "repo": "takaxp/moom",
   "unstable": {
    "version": [
-    20230722,
-    2037
+    20240802,
+    800
    ],
-   "commit": "54750aa2e3e9476375a32ef94714e22ece6e4039",
-   "sha256": "119jzkf3ccqrxrjxx5x32rgpl7nip9c333ypmssy4pmylpcqls73"
+   "commit": "b90adeff532b39568a84f04f72a1eb60dbe4b175",
+   "sha256": "1flsbrw431jd2gqnhw3hddgy5vgp1vm7vqr4617rr6hdiscgx6kd"
   },
   "stable": {
    "version": [
@@ -88321,14 +88321,14 @@
   "url": "https://repo.or.cz/org-contacts.git",
   "unstable": {
    "version": [
-    20240727,
-    1320
+    20240802,
+    906
    ],
    "deps": [
     "org"
    ],
-   "commit": "daeaaefd7d01c7460bb27bae49cc7d1c391a6dcc",
-   "sha256": "1ddh56lv0hp1dya7z54djw2f55qrqvs3k944hm86akay71yl4mk7"
+   "commit": "30d137fbac8b9b908ad978ba588f1d47e8ca59cd",
+   "sha256": "1az9gsbh7z3ai07wm7dlnd4ixi18ignr9q76pwdlbkklvp484j38"
   }
  },
  {
@@ -90889,7 +90889,7 @@
   "unstable": {
    "version": [
     20240802,
-    109
+    1213
    ],
    "deps": [
     "avy",
@@ -90905,8 +90905,8 @@
     "request",
     "s"
    ],
-   "commit": "db133f851e10cf8803f4ecb9e9f128661450ae1c",
-   "sha256": "09zh2ggdiijq2cxi78f7r5n7jc92x2xl7hqm5rnrpr17fcah484m"
+   "commit": "fd178abf12a85f8e12005d1df683564bdc534124",
+   "sha256": "0rdi1n4vay93xs7gwxxmivg3lq13sk10f0g505z0hagzcv2f48w7"
   },
   "stable": {
    "version": [
@@ -108506,7 +108506,7 @@
   "unstable": {
    "version": [
     20240802,
-    458
+    1009
    ],
    "deps": [
     "dash",
@@ -108520,8 +108520,8 @@
     "spinner",
     "xterm-color"
    ],
-   "commit": "a44813abb657daed276910a3edba2f7bb89c6dc1",
-   "sha256": "07025f42vdhmq39n6xzv82mkkg2d0qzfh3v0r5x7kd21ildqlifd"
+   "commit": "00e47fea4be9e1f66aa08f6ac3e161f9e423be8e",
+   "sha256": "0p873dw9h1x3kgznf9j6j2wcdd0cqv43nwwcmarb10phi20s39nx"
   },
   "stable": {
    "version": [
@@ -115714,29 +115714,6 @@
    ],
    "commit": "0cdb882874ba0853f4f831a07a85b511258472b2",
    "sha256": "07ka6fqcbvbvzsdmwris89cj3dpg3qcfhmww2h6qs69za3h7mify"
-  }
- },
- {
-  "ename": "sqlite",
-  "commit": "949556b57cea0fbbfc98b95d894de95257dfe1e5",
-  "sha256": "1c5dprdl8q09yd0kvpkm19z60m9rhkilj5zmj938wlj5bmdlydv8",
-  "fetcher": "gitlab",
-  "repo": "cnngimenez/sqlite.el",
-  "unstable": {
-   "version": [
-    20201227,
-    1822
-   ],
-   "commit": "f3da716302c929b9df4ba0c281968f72a9d1d188",
-   "sha256": "00fkjsc01fymhjrzlx3anl9vj85yw4jlxvh77d0mvchwzym8wi8l"
-  },
-  "stable": {
-   "version": [
-    1,
-    0
-   ],
-   "commit": "f3da716302c929b9df4ba0c281968f72a9d1d188",
-   "sha256": "00fkjsc01fymhjrzlx3anl9vj85yw4jlxvh77d0mvchwzym8wi8l"
   }
  },
  {
