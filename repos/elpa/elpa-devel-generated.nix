@@ -5909,10 +5909,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.1.0.20240727.132027";
+      version = "1.1.0.20240802.90605";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240727.132027.tar";
-        sha256 = "1ddpnfr0v8qn4a2762gdxzghrrm77m6g3aa1h9km0fbgj7l16a4j";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240802.90605.tar";
+        sha256 = "00wp50b6lw7522dxaniild1qd2yk9may3d7jlakrzvlnxpfvap6j";
       };
       packageRequires = [ org ];
       meta = {
@@ -6369,10 +6369,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "0.0.20240322.152749";
+      version = "0.0.20240802.74138";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-0.0.20240322.152749.tar";
-        sha256 = "0060s1p60cqq0llx5m41iwqj1bxl98c444kyhfvdvx3c7z5dapmp";
+        url = "https://elpa.gnu.org/devel/phpinspect-0.0.20240802.74138.tar";
+        sha256 = "19wkwn8xsd3dy5z8axd8znw5k8mlk2556wb8myny85mz0171kpnq";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9870,10 +9870,10 @@
     elpaBuild {
       pname = "xr";
       ename = "xr";
-      version = "1.25.0.20240801.165631";
+      version = "2.0.0.20240802.81742";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xr-1.25.0.20240801.165631.tar";
-        sha256 = "16k5yjnaamdifzdq1r22dcaml16ip53davl6v83z4x8w5nqq0b8a";
+        url = "https://elpa.gnu.org/devel/xr-2.0.0.20240802.81742.tar";
+        sha256 = "1x93v2x8zkr3s55c8r8lpimavqzcq0zjxshg5kif84gir10jgcdn";
       };
       packageRequires = [ ];
       meta = {

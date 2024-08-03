@@ -9659,10 +9659,10 @@
     elpaBuild {
       pname = "xr";
       ename = "xr";
-      version = "1.25";
+      version = "2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/xr-1.25.tar";
-        sha256 = "0jmhcrz6mj3fwm9acwv1jj6nlnqikprjgvglr3cgxysinqh6y3xi";
+        url = "https://elpa.gnu.org/packages/xr-2.0.tar";
+        sha256 = "1y5pcrph6v8q06mipv3l49qhw55yvvb1nnq0817bzm25k0s3z70v";
       };
       packageRequires = [ ];
       meta = {
