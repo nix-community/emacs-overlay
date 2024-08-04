@@ -1717,10 +1717,10 @@
     elpaBuild {
       pname = "cursor-undo";
       ename = "cursor-undo";
-      version = "1.1.2";
+      version = "1.1.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cursor-undo-1.1.2.tar";
-        sha256 = "1cwhgkndyvc3d6y36vf0qfld2i6bfymsyyj3l5p9w32nwa800ssw";
+        url = "https://elpa.gnu.org/packages/cursor-undo-1.1.3.tar";
+        sha256 = "0mdb06az4vqbizvghbzdj8x7qhk8d04qir09ad42954a1rz3zcsr";
       };
       packageRequires = [ ];
       meta = {
@@ -2050,10 +2050,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.9.2";
+      version = "1.10.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/diff-hl-1.9.2.tar";
-        sha256 = "0skla012qw55qhzykgrk3zk5x76dfsj11kq8q2msyrq3jxcbyq6p";
+        url = "https://elpa.gnu.org/packages/diff-hl-1.10.0.tar";
+        sha256 = "0v8nm2sx3v405fj6i5v7nnar47j6na0q5cm5za9y33n6xaw3v2yh";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -5950,10 +5950,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.4";
+      version = "1.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-modern-1.4.tar";
-        sha256 = "130942pz6didav2f7zfmzgrqhzcq70b2isww4ll3ihxbqgswk4mn";
+        url = "https://elpa.gnu.org/packages/org-modern-1.5.tar";
+        sha256 = "08s253r3z5r37swlsgrp97ls7p3bdr4hr2xvyb1pm57j7livv74b";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7152,10 +7152,10 @@
     elpaBuild {
       pname = "relint";
       ename = "relint";
-      version = "1.24";
+      version = "2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/relint-1.24.tar";
-        sha256 = "0pnv2pkx5jq30049zplrmspkm1cc7p6vy9xfv215d27v8nas0374";
+        url = "https://elpa.gnu.org/packages/relint-2.0.tar";
+        sha256 = "0r89b5yk5lp92k4gnr0sx6ccilqzpv6kd5csqhxydk0xmqh8rsff";
       };
       packageRequires = [ xr ];
       meta = {
