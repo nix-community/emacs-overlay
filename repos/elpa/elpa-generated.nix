@@ -4720,10 +4720,10 @@
     elpaBuild {
       pname = "lin";
       ename = "lin";
-      version = "1.0.0";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/lin-1.0.0.tar";
-        sha256 = "1yxvpgh3sbw0d0zkjfgbhjc2bziqvkyj7fgwcl3814q7hh8m4146";
+        url = "https://elpa.gnu.org/packages/lin-1.1.0.tar";
+        sha256 = "1rf81r8ylq2cccx4svdkiy2rvz1rq6cw0dakrcd4jrrscww52d7c";
       };
       packageRequires = [ ];
       meta = {
