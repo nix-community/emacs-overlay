@@ -1696,10 +1696,10 @@
     elpaBuild {
       pname = "csv-mode";
       ename = "csv-mode";
-      version = "1.25";
+      version = "1.26";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/csv-mode-1.25.tar";
-        sha256 = "15yhhn742fqq7699i6jsimg3gpifrhhybiav1qwwzq4prmk9g984";
+        url = "https://elpa.gnu.org/packages/csv-mode-1.26.tar";
+        sha256 = "01plib138vffqnfggmrj9cvxjfnvmwfxp0hikp40xx1qjzvkqjxq";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -1717,10 +1717,10 @@
     elpaBuild {
       pname = "cursor-undo";
       ename = "cursor-undo";
-      version = "1.1.3";
+      version = "1.1.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cursor-undo-1.1.3.tar";
-        sha256 = "0mdb06az4vqbizvghbzdj8x7qhk8d04qir09ad42954a1rz3zcsr";
+        url = "https://elpa.gnu.org/packages/cursor-undo-1.1.4.tar";
+        sha256 = "0igbrapi9lqh94sh1yl3sbkr9iifgh5asdwzzm3vmq99fmnc62h5";
       };
       packageRequires = [ ];
       meta = {
@@ -9548,10 +9548,10 @@
     elpaBuild {
       pname = "wrap-search";
       ename = "wrap-search";
-      version = "4.16.15";
+      version = "4.16.17";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/wrap-search-4.16.15.tar";
-        sha256 = "1mklskgs7ww3rpvydwlc3rgv5c9qibx62yygb1cb948mh2zjcdhk";
+        url = "https://elpa.gnu.org/packages/wrap-search-4.16.17.tar";
+        sha256 = "1l4ps2sqj854slhalynss0qsg3spbw5qpk7f8dyhp0w0j9slvnwh";
       };
       packageRequires = [ ];
       meta = {
