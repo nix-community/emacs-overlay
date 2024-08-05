@@ -1741,10 +1741,10 @@
  },
  {
   "ename": "add-hooks",
-  "commit": "901f846aef46d512dc0a1770bab7f07c0ae330cd",
-  "sha256": "09a5b3prznibkb5igfn8x3vsjrlkh3534zycs8g25g4li87mcb6p",
+  "commit": "acd620719dff4fcbd32c6cd50d7954732c182c73",
+  "sha256": "14jh1nfzn529i6l3zf005rx9zmlmrxl7pgb6vwkc469ij1hdddn5",
   "fetcher": "github",
-  "repo": "nickmccurdy/add-hooks",
+  "repo": "nickserv/add-hooks",
   "unstable": {
    "version": [
     20171217,
@@ -11554,11 +11554,11 @@
   "repo": "catppuccin/emacs",
   "unstable": {
    "version": [
-    20240803,
-    2336
+    20240805,
+    42
    ],
-   "commit": "e0deed202a23619b017d48a97153aa19b1fbdf90",
-   "sha256": "0y4fgn3z19jdbqkrr9rylifbybli49695p1zzm4jziwlq8ya2y1v"
+   "commit": "633261e809a93e8ad061d27711991932564b07bf",
+   "sha256": "15x6jnlhcpgg9vvnmrq793bzmc6xhnnvvd9mxw5qb2yj8k5f5bpl"
   },
   "stable": {
    "version": [
@@ -22687,10 +22687,10 @@
  },
  {
   "ename": "defcapture",
-  "commit": "dda29cf2595727c6f76ce34bb3be90b82de49e40",
-  "sha256": "1hkbmhirlb1pbpavr61nxzw58a9pjvh0f93abbdf3sqs1lhybbbk",
+  "commit": "4075575ffa0487a8371fb893cf8acdcdf012573d",
+  "sha256": "062y3pna2yx2fi66a3ig2asdd3is5r3a7ki6fqis92rijlh39h0c",
   "fetcher": "github",
-  "repo": "sawyerkirbi/defcapture",
+  "repo": "aaguilarss/defcapture",
   "unstable": {
    "version": [
     20230909,
@@ -70820,11 +70820,11 @@
   "repo": "ledger/ledger-mode",
   "unstable": {
    "version": [
-    20240709,
-    1803
+    20240804,
+    1623
    ],
-   "commit": "17983be9e9de42eadccd50709ccc1d3c147e85ca",
-   "sha256": "008hb5d9xyq16mfgxg1hll4szf12q4r1i4p6kc3l7xc7ancb7vr6"
+   "commit": "a6be7a2d79281a442ce5abd3f073b6c20d7d11d8",
+   "sha256": "0faj0q9amfisrjzf7cb0idnsyiw1sf4ravgjlh0k24y0mx25j1xw"
   },
   "stable": {
    "version": [
@@ -74165,10 +74165,10 @@
  },
  {
   "ename": "lurk-mode",
-  "commit": "4d2e408fe6728027e9b54e944c5c252e3fa5c25e",
-  "sha256": "1khsl69wm3b90ydxks1rc1rii9yzpj8b7ms1lpf0g1d6a6grkfx6",
+  "commit": "6042f02b6ea81b22e05278c865ed03a9df1baf45",
+  "sha256": "10fdqxvd2v58a65njimgk3xy0gp05x9wkw89j3a0xyjjh3s8m6kx",
   "fetcher": "github",
-  "repo": "lurk-lab/lurk-emacs",
+  "repo": "argumentcomputer/lurk-emacs",
   "unstable": {
    "version": [
     20230120,
@@ -93607,6 +93607,30 @@
    ],
    "commit": "cf85424b305e8f89debb756dc67eebc84639f711",
    "sha256": "09649ahqjp8kgi89s93qfqz3f27sf28qdmd8nyramz1yppklfia2"
+  }
+ },
+ {
+  "ename": "outline-indent",
+  "commit": "330f86638778f4f104808bddc3e4d09d2ab18372",
+  "sha256": "1lfz87hhfqrva2g4hbsc9n8783zbvq6m1w6jf6ll9wi3v32lva0z",
+  "fetcher": "github",
+  "repo": "jamescherti/outline-indent.el",
+  "unstable": {
+   "version": [
+    20240725,
+    2005
+   ],
+   "commit": "69de157db109b9af94241f6b15c67d834e944361",
+   "sha256": "1mnkspl01hqsb5x5z2frhvk632l63c27h8g8bdrlapf7h7r4h7kd"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    5
+   ],
+   "commit": "69de157db109b9af94241f6b15c67d834e944361",
+   "sha256": "1mnkspl01hqsb5x5z2frhvk632l63c27h8g8bdrlapf7h7r4h7kd"
   }
  },
  {
@@ -126361,11 +126385,11 @@
   "repo": "gmlarumbe/vhdl-ts-mode",
   "unstable": {
    "version": [
-    20240406,
-    2155
+    20240804,
+    2327
    ],
-   "commit": "eaeefce408085159cacf1ee9424fee20f20b6c39",
-   "sha256": "0p7qw4b8p1rgxd6zh9gpgxvhx7cr0xb9sjykmz74mscl4nfg7wck"
+   "commit": "cd1dc505e27ab529cd1f33d9125038cc57bc6350",
+   "sha256": "1b3a6477k3hf9qjayknxayjgrssd6rx72w0bl6wkvqv6qwpym1s9"
   },
   "stable": {
    "version": [
@@ -127015,6 +127039,21 @@
    ],
    "commit": "3976bc2e7e2fe0068ae59c11d226f67e0e87aaea",
    "sha256": "168hvmj3nlbi1p7w5m424sn6shn12kbgjd9spyj60pj1867jq7r1"
+  }
+ },
+ {
+  "ename": "vsh-mode",
+  "commit": "9a1a2389ac6878bda016186a6741f4296b845615",
+  "sha256": "1wkcl9shpzvgzqpbs9wqjwhf0y8nbysyimq3wwiinxxmvpxybgnd",
+  "fetcher": "github",
+  "repo": "hardenedapple/vsh",
+  "unstable": {
+   "version": [
+    20240730,
+    2036
+   ],
+   "commit": "0d98be666ccc59f9b31521d20dda8d0e07dd53cd",
+   "sha256": "0l7m8i40hfhnd4jrvkjn4n18nfbigmh4sdbc0086mgn9xn23shv5"
   }
  },
  {
