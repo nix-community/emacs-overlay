@@ -2038,10 +2038,10 @@
     elpaBuild {
       pname = "git-modes";
       ename = "git-modes";
-      version = "1.4.3";
+      version = "1.4.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/git-modes-1.4.3.tar";
-        sha256 = "0fhmzx4cmj7g4cbv3h1gjwhwnvfqcgiifhz4hl98r7zzmz8z7kdk";
+        url = "https://elpa.nongnu.org/nongnu/git-modes-1.4.4.tar";
+        sha256 = "161n8anh3i7aj9995nry879kkfvawm1dkzlxdqfwmzl85g8yqx58";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2811,10 +2811,10 @@
     elpaBuild {
       pname = "keycast";
       ename = "keycast";
-      version = "1.4.0";
+      version = "1.4.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/keycast-1.4.0.tar";
-        sha256 = "0az8jixzncbz042il45hq1hwj6qvcm53f2fns19bspf1k4v4dphk";
+        url = "https://elpa.nongnu.org/nongnu/keycast-1.4.1.tar";
+        sha256 = "0xpdz6fqvmx6ha20c957r4psz393r0ag7ml971x21v035r3gfx8r";
       };
       packageRequires = [ compat ];
       meta = {
