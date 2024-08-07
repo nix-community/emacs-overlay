@@ -12339,14 +12339,14 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20240806,
-    1414
+    20240807,
+    1213
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "e42e4d42b8978cdf8d7e7e8a5b7936cba80a035a",
-   "sha256": "0gf64yhkmfjy7b5k5dqwr0gb3dqbil4fmvhl7jjsxz6257ih51i0"
+   "commit": "96f40272f64384915afe01274f8ae595d3ddb216",
+   "sha256": "0l7yvv8r1mcwjcz6kw958y3c1jnjylhxygyvgrr8zgpx9b1mh6sf"
   },
   "stable": {
    "version": [
@@ -12846,16 +12846,16 @@
   "repo": "contrapunctus/chronometrist",
   "unstable": {
    "version": [
-    20230712,
-    1532
+    20240807,
+    1358
    ],
    "deps": [
     "dash",
     "seq",
     "ts"
    ],
-   "commit": "dbbcdfd4398cc2845a20aca4161358fafcb60c65",
-   "sha256": "1dq7gnvcck1sg7d8xr93inljfdc736kdlg8y4fa3796mbwb22vl9"
+   "commit": "6159f18c199480dac5fc06321296985a3cb6bd63",
+   "sha256": "1a70niq2frc22dnqz2f41asni59gr64gfp3k1193622ch2fxv27f"
   },
   "stable": {
    "version": [
@@ -27230,11 +27230,11 @@
   "repo": "xenodium/dwim-shell-command",
   "unstable": {
    "version": [
-    20240726,
-    2003
+    20240807,
+    1509
    ],
-   "commit": "f73e8f4ec2cb5a48922621d8de07a945cb430563",
-   "sha256": "0b727vbqc4dh0qjc5w282zb68sknr7jiq8mm10xvqs01n7af70h3"
+   "commit": "38c893a87dc9d458f5fb2cd8bd6a60b58d307cb9",
+   "sha256": "18nf21fd9p96j539mqwwy3hhd8w2y6m5dcr2w9ivssgba16sfp8y"
   },
   "stable": {
    "version": [
@@ -45817,7 +45817,7 @@
   "unstable": {
    "version": [
     20240806,
-    1759
+    1923
    ],
    "deps": [
     "closql",
@@ -45832,8 +45832,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "a5e41013d0d85eeb1c61aceef942f6dd4a49a85e",
-   "sha256": "0hgi0jzx9rcxsznhsnmikjgy8zvmk5zi21ki1dd4bfprbxk9mcf6"
+   "commit": "bdf823eb83e69c236d08c6163537c2d795796332",
+   "sha256": "1x0h8j570i5mg47a35bkrfxga8760jnalij6hqlypfbcik09srfk"
   },
   "stable": {
    "version": [
@@ -50116,15 +50116,16 @@
   "url": "https://git.thanosapollo.org/gnosis",
   "unstable": {
    "version": [
-    20240717,
-    722
+    20240807,
+    1204
    ],
    "deps": [
     "compat",
-    "emacsql"
+    "emacsql",
+    "transient"
    ],
-   "commit": "4cd3ce6993a9b97b698537c428addf7387b13a3f",
-   "sha256": "0klggh9vx994i962m5a86ggxcr87vh5pwvm0qhdapwsag2ma08pk"
+   "commit": "bc0d2a3ec6195d79903ad7badec10a26538763c2",
+   "sha256": "0m10nnghg9j7pc8zqm9jfc49q8jbrnq4nimdd5rwbjyijhywhclr"
   },
   "stable": {
    "version": [
@@ -69434,8 +69435,8 @@
   "repo": "abrochard/kubel",
   "unstable": {
    "version": [
-    20240419,
-    1521
+    20240807,
+    905
    ],
    "deps": [
     "dash",
@@ -69443,8 +69444,8 @@
     "transient",
     "yaml-mode"
    ],
-   "commit": "eb41a6420d20142e5cd33cd34e17654294c99c86",
-   "sha256": "1zqm65vng1fiwfra21hz0xqnbiqh97av8jr981rczxin0byic66a"
+   "commit": "68da30c647e16307dff71e1614015ba9877cd621",
+   "sha256": "0mzrnzr23fva3kbkinn4a5m2lms415a2c71gwicbb02kxxwl1f7h"
   },
   "stable": {
    "version": [
@@ -70859,8 +70860,8 @@
   "repo": "kaiwk/leetcode.el",
   "unstable": {
    "version": [
-    20240806,
-    1834
+    20240807,
+    1457
    ],
    "deps": [
     "aio",
@@ -70868,8 +70869,8 @@
     "log4e",
     "s"
    ],
-   "commit": "997c890b777741a516abcc1f435538fedab4df7a",
-   "sha256": "076wzygwqlpyfb0pwyibmg7y54l672hpbhs5najsl3d4133zc2rn"
+   "commit": "38959aa5002d6f913a7ed2116f128da25520dd94",
+   "sha256": "1f0byk8c7l74lkxpsvlyg26rw9q8yxi5xa338lsxkl9xs1yqk3wh"
   },
   "stable": {
    "version": [
@@ -88324,14 +88325,14 @@
   "url": "https://repo.or.cz/org-contacts.git",
   "unstable": {
    "version": [
-    20240803,
-    141
+    20240807,
+    733
    ],
    "deps": [
     "org"
    ],
-   "commit": "1f20cec04f933491ecac86b2d9ced6b85febeacd",
-   "sha256": "1z8sk1khvl3lpdl8lq4lmcj5dgnlnphr6lvj8lbjnckwy51y491j"
+   "commit": "f0a430442b2ae60035dcd74fc6a76299875694f3",
+   "sha256": "1xs8693dhji2fa8gn3j3fr4qvp1zad0g71f9qlrd3ynkhgdai2r3"
   }
  },
  {
