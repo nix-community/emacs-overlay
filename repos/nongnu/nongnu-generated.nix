@@ -5012,10 +5012,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.0";
+      version = "3.4.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/with-editor-3.4.0.tar";
-        sha256 = "02irmnra6b19xg0b07ph57mq17c346wag530pw47wd64xkvsp0jh";
+        url = "https://elpa.nongnu.org/nongnu/with-editor-3.4.1.tar";
+        sha256 = "0nhlr2qjn351p0vd8vdnrwsb6wi2klh5ny84k90m8kzwcmvglhfd";
       };
       packageRequires = [ compat ];
       meta = {
