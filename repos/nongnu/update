@@ -7,3 +7,6 @@ cd $SCRIPTPATH
 
 eval $(nix-instantiate --eval --expr 'let nixpath = builtins.toString (import <nixpkgs> {}).path; in "${nixpath}/pkgs/applications/editors/emacs/elisp-packages/update-nongnu"')
 env NIXPKGS_ALLOW_BROKEN=1 nix-instantiate --show-trace ./test.nix -A nongnuPackages
+
+eval $(nix-instantiate --eval --expr 'let nixpath = builtins.toString (import <nixpkgs> {}).path; in "${nixpath}/pkgs/applications/editors/emacs/elisp-packages/update-nongnu-devel"')
+env NIXPKGS_ALLOW_BROKEN=1 nix-instantiate --show-trace ./test.nix -A nongnuDevelPackages
