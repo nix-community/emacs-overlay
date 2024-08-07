@@ -4052,10 +4052,10 @@
     elpaBuild {
       pname = "ilist";
       ename = "ilist";
-      version = "0.3";
+      version = "0.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ilist-0.3.tar";
-        sha256 = "01a522sqx7j5m6b1k8xn71963igm93cd7ms1aawh1v2wmb09vbhm";
+        url = "https://elpa.gnu.org/packages/ilist-0.4.tar";
+        sha256 = "1hsja208yaszviv8p3mzi04j0jz8ij02nbl1y6shk3b965sflhyp";
       };
       packageRequires = [ ];
       meta = {
