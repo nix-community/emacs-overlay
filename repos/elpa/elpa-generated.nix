@@ -3766,10 +3766,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.11.14";
+      version = "0.11.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greader-0.11.14.tar";
-        sha256 = "1x917rmxyzbpjnc0w071919axnphs34rcbpjm1fl37f7fp6jksml";
+        url = "https://elpa.gnu.org/packages/greader-0.11.15.tar";
+        sha256 = "0052gsjdqnlxgwd8l3h3x2zh2lzw76cwfdxvgxdk6x1g4cvhmjbx";
       };
       packageRequires = [
         compat
@@ -4545,6 +4545,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/kmb.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  kubed = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "kubed";
+      ename = "kubed";
+      version = "0.3.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/kubed-0.3.1.tar";
+        sha256 = "0s6z7nczh7l7zd9pwaafl0pmsy5y19bwzv0bc89qgnsk2v91359v";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/kubed.html";
         license = lib.licenses.free;
       };
     }
