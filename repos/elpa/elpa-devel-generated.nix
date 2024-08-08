@@ -419,10 +419,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.8.0.20240719.73008";
+      version = "1.9.8.0.20240808.64504";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/async-1.9.8.0.20240719.73008.tar";
-        sha256 = "1zxw8l9pgki14gwjyg046b4vkd9bpvqj7pspvjkpqw4jhy6xai2s";
+        url = "https://elpa.gnu.org/devel/async-1.9.8.0.20240808.64504.tar";
+        sha256 = "15bswvpidiiqpajlgi32qlw4v5rv9y6r8g8d7p3m4k0ysfz83347";
       };
       packageRequires = [ ];
       meta = {
@@ -6390,10 +6390,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "0.0.20240805.74550";
+      version = "0.0.20240807.204202";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-0.0.20240805.74550.tar";
-        sha256 = "01cqcjphsqm4qrmxfc553i2nh93kpcfdy33hyv3snbm2cv7iabis";
+        url = "https://elpa.gnu.org/devel/phpinspect-0.0.20240807.204202.tar";
+        sha256 = "02skc70pc00vn682b809fq12lakjg9f73hkddshz8a6vrg5683rh";
       };
       packageRequires = [ compat ];
       meta = {
