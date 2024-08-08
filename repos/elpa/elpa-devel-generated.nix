@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240807.44336";
+      version = "14.0.6.0.20240807.191155";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240807.44336.tar";
-        sha256 = "07r14lsclygs45wjfyz6f7v01f0babf63qc08xd0w2x0pq8pyyks";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240807.191155.tar";
+        sha256 = "1z0zwjamm95bkwq3d7bkq7cfmyqxn3ma58cdprmbv94px2f7k56k";
       };
       packageRequires = [ ];
       meta = {
@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "blist";
       ename = "blist";
-      version = "0.3.0.20231213.61103";
+      version = "0.4.0.20240807.40202";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/blist-0.3.0.20231213.61103.tar";
-        sha256 = "01pqf794syngh6v4bym3qzg2rh2gp3z9h6hvpw74nadimfg5pz61";
+        url = "https://elpa.gnu.org/devel/blist-0.4.0.20240807.40202.tar";
+        sha256 = "1y1sfyvxca5g2rsh579lly1drr9qs1czb1z692fysir7l48p3y3w";
       };
       packageRequires = [ ilist ];
       meta = {
@@ -2578,10 +2578,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.17.0.20240724.34158";
+      version = "1.17.0.20240807.134419";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240724.34158.tar";
-        sha256 = "1p3xkk8nykhrbz9kyqr26j7nmagjrj9f2yj2vjkral0sywzq3cvn";
+        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240807.134419.tar";
+        sha256 = "0j8wsgf55snijyfbynmspz43rml6pa2dk10w6z7y48cblb11ll5q";
       };
       packageRequires = [
         compat
@@ -4581,10 +4581,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.3.1.0.20240806.160729";
+      version = "0.3.1.0.20240807.155928";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.3.1.0.20240806.160729.tar";
-        sha256 = "1r6k92ciqzjg9pg4pi5dy28d9f3n8xkr8mcvz6xkfycy95pmx6yp";
+        url = "https://elpa.gnu.org/devel/kubed-0.3.1.0.20240807.155928.tar";
+        sha256 = "1fxg5afl4m2dpkmildkai7d1ac024fjkv8qa7vp2wlmzdqlwy82k";
       };
       packageRequires = [ ];
       meta = {
