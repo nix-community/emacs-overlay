@@ -1994,10 +1994,10 @@
     elpaBuild {
       pname = "git-commit";
       ename = "git-commit";
-      version = "3.3.0.50snapshot0.20240805.181546";
+      version = "3.3.0.50snapshot0.20240808.120842";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/git-commit-3.3.0.50snapshot0.20240805.181546.tar";
-        sha256 = "1ksxc9iyrqim69yrh31rrp9zag2prj10y6a1mzp2hgs36if524lk";
+        url = "https://elpa.nongnu.org/nongnu-devel/git-commit-3.3.0.50snapshot0.20240808.120842.tar";
+        sha256 = "1yhnsszpx96wnqc6977w6and5pgfdhfdy1yicdj6s74xj0jrj1h1";
       };
       packageRequires = [
         compat
@@ -2914,10 +2914,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "3.3.0.50snapshot0.20240805.181546";
+      version = "3.3.0.50snapshot0.20240808.120842";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-3.3.0.50snapshot0.20240805.181546.tar";
-        sha256 = "01p8czxm1wlg246xybbv3rrz4sy3vwik93j9pa668qkfcd3m0y6j";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-3.3.0.50snapshot0.20240808.120842.tar";
+        sha256 = "1kp1b7v7h53pk43mxiwbhvqsz6h276xpgv1w61fz8ns8gxqx90np";
       };
       packageRequires = [
         compat
@@ -2946,10 +2946,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "3.3.0.50snapshot0.20240805.181546";
+      version = "3.3.0.50snapshot0.20240808.120842";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-3.3.0.50snapshot0.20240805.181546.tar";
-        sha256 = "0xx3f1iliiqjyzgy4pwmhvl2cjyjdg0jmdx024m107mxw981hsxi";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-3.3.0.50snapshot0.20240808.120842.tar";
+        sha256 = "1m1bhi1ar8ld0y8jymnlyjkdq0hbhjs4dk1awq0s8y91xwlcb277";
       };
       packageRequires = [
         compat
@@ -3846,10 +3846,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20240730.82029";
+      version = "1.0.20240808.93008";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240730.82029.tar";
-        sha256 = "1dllab0khijf5fs1zw6jm95j49qyvz52g600lfh46d6wy5k9pvf6";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240808.93008.tar";
+        sha256 = "0xl467dyha7rgpbkwaky306na575vr1di9x7mvb03f2fl9wrafqr";
       };
       packageRequires = [ ];
       meta = {
