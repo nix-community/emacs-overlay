@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240807.191155";
+      version = "14.0.6.0.20240808.153706";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240807.191155.tar";
-        sha256 = "1z0zwjamm95bkwq3d7bkq7cfmyqxn3ma58cdprmbv94px2f7k56k";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240808.153706.tar";
+        sha256 = "0mgsbnyf91dc4skingq2cc2qm0c7i9gwb2pmf238x2zmfypdqx31";
       };
       packageRequires = [ ];
       meta = {
@@ -3838,10 +3838,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.8.0.20240712.131914";
+      version = "1.8.1.0.20240808.153728";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gtags-mode-1.8.0.20240712.131914.tar";
-        sha256 = "1rzmgzirxxrhm8f3vbwf76nrrzd1svf4ddy20h0khp7ycldhd3hp";
+        url = "https://elpa.gnu.org/devel/gtags-mode-1.8.1.0.20240808.153728.tar";
+        sha256 = "1bfblsay8qsglhh4iqhv9wl8s445piwykyx4lz7cbn74wpn2prin";
       };
       packageRequires = [ ];
       meta = {
@@ -4033,10 +4033,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20240807.62633";
+      version = "9.0.2pre0.20240808.94140";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240807.62633.tar";
-        sha256 = "1iy0shg01hmvarhl2529x2j0swnz6ci1rx15sv1blkr5i6d1h53x";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240808.94140.tar";
+        sha256 = "1a71ms8mw2gkw9bgwb1m9cd9rkyb4xkzlm4rxcl51a32zr473gbr";
       };
       packageRequires = [ ];
       meta = {
