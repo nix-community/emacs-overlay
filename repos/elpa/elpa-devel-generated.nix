@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240808.153706";
+      version = "14.0.6.0.20240809.45536";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240808.153706.tar";
-        sha256 = "0mgsbnyf91dc4skingq2cc2qm0c7i9gwb2pmf238x2zmfypdqx31";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240809.45536.tar";
+        sha256 = "0vy9a6xg1x7nzh13bib1sp5z4j1bcc6cvzflslqxzsgwqfbnn5af";
       };
       packageRequires = [ ];
       meta = {
@@ -1717,10 +1717,10 @@
     elpaBuild {
       pname = "csv-mode";
       ename = "csv-mode";
-      version = "1.26.0.20240804.143344";
+      version = "1.27.0.20240809.72715";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/csv-mode-1.26.0.20240804.143344.tar";
-        sha256 = "0p72vc396l6q0gj3cq6g21mqcmn5vv3z0cjhcq2jgw5fp61bh9il";
+        url = "https://elpa.gnu.org/devel/csv-mode-1.27.0.20240809.72715.tar";
+        sha256 = "0dvpx0spd8zp3h9v3pmsay3wcdn4g72gxxklqb5sqcgxgxajgjcb";
       };
       packageRequires = [ cl-lib ];
       meta = {

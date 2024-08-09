@@ -1696,10 +1696,10 @@
     elpaBuild {
       pname = "csv-mode";
       ename = "csv-mode";
-      version = "1.26";
+      version = "1.27";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/csv-mode-1.26.tar";
-        sha256 = "01plib138vffqnfggmrj9cvxjfnvmwfxp0hikp40xx1qjzvkqjxq";
+        url = "https://elpa.gnu.org/packages/csv-mode-1.27.tar";
+        sha256 = "0jxf4id5c9696nh666x0xbzqx3vskyv810km61y9nkg7sp4ln2qf";
       };
       packageRequires = [ cl-lib ];
       meta = {
