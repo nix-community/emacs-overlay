@@ -1226,10 +1226,10 @@
     elpaBuild {
       pname = "code-cells";
       ename = "code-cells";
-      version = "0.4.0.20231119.213845";
+      version = "0.4.0.20240809.93222";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/code-cells-0.4.0.20231119.213845.tar";
-        sha256 = "1i66d234fb9g4aqnpzjz9dn6hs37bq5l1vrk076hib1rb1vm36ir";
+        url = "https://elpa.gnu.org/devel/code-cells-0.4.0.20240809.93222.tar";
+        sha256 = "19mibw99y13fmbngbg1x1zv02j50pcbrifl62slrx4aj3v796839";
       };
       packageRequires = [ ];
       meta = {
@@ -4581,10 +4581,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.3.1.0.20240807.155928";
+      version = "0.3.1.0.20240809.124144";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.3.1.0.20240807.155928.tar";
-        sha256 = "1fxg5afl4m2dpkmildkai7d1ac024fjkv8qa7vp2wlmzdqlwy82k";
+        url = "https://elpa.gnu.org/devel/kubed-0.3.1.0.20240809.124144.tar";
+        sha256 = "1ny3c71mla3ng7g4mp1d8i23g78i3lk9qblpkfcw98r6izfm2qx1";
       };
       packageRequires = [ ];
       meta = {
