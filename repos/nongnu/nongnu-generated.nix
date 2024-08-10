@@ -1128,6 +1128,27 @@
       };
     }
   ) { };
+  emacsql = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "emacsql";
+      ename = "emacsql";
+      version = "4.0.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/emacsql-4.0.0.tar";
+        sha256 = "1f87d3ql9j27m180krn671fha7i7ykdh0k7mjlifrlsirds1g6lh";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/emacsql.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   engine-mode = callPackage (
     {
       cl-lib ? null,
@@ -2002,23 +2023,25 @@
   ) { };
   git-commit = callPackage (
     {
-      dash,
+      compat,
       elpaBuild,
       fetchurl,
       lib,
+      seq,
       transient,
       with-editor,
     }:
     elpaBuild {
       pname = "git-commit";
       ename = "git-commit";
-      version = "3.3.0";
+      version = "4.0.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/git-commit-3.3.0.tar";
-        sha256 = "0lp6r4w1k0idvfc2h0chlplap2i4x2slva9cw3iw1rhhxbcvlmdx";
+        url = "https://elpa.nongnu.org/nongnu/git-commit-4.0.0.tar";
+        sha256 = "10fh8i3l07qxsfw23q2mkb7rxgc7n2chirzdjd9bnlqrxybrayli";
       };
       packageRequires = [
-        dash
+        compat
+        seq
         transient
         with-editor
       ];
@@ -2946,20 +2969,26 @@
   ) { };
   magit-section = callPackage (
     {
+      compat,
       dash,
       elpaBuild,
       fetchurl,
       lib,
+      seq,
     }:
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "3.3.0";
+      version = "4.0.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-3.3.0.tar";
-        sha256 = "08ac10vips6f2gy4x4w2wkz2ki3q0d6dhynkmlpdinsdmgagziny";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.0.0.tar";
+        sha256 = "1dyw275qfnpz7fs1s952b9fl9vgfzfk8aiclznfhhl43nvxxglb7";
       };
-      packageRequires = [ dash ];
+      packageRequires = [
+        compat
+        dash
+        seq
+      ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/magit-section.html";
         license = lib.licenses.free;

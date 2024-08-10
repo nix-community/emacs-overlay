@@ -1092,10 +1092,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "3.1.1.50snapshot0.20240730.133904";
+      version = "4.0.0.0.20240808.185621";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-3.1.1.50snapshot0.20240730.133904.tar";
-        sha256 = "13xlwg2jgfl806a7z0jzfbdr4ivqspacp32qnaalj55sx26ci1xg";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.0.0.20240808.185621.tar";
+        sha256 = "1l7dg60hnq351msbn24j1i7rr0aifwfnszzn4vy3qjans1l0gv4j";
       };
       packageRequires = [ ];
       meta = {
@@ -1994,10 +1994,10 @@
     elpaBuild {
       pname = "git-commit";
       ename = "git-commit";
-      version = "3.3.0.50snapshot0.20240808.120842";
+      version = "4.0.0.0.20240808.185229";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/git-commit-3.3.0.50snapshot0.20240808.120842.tar";
-        sha256 = "1yhnsszpx96wnqc6977w6and5pgfdhfdy1yicdj6s74xj0jrj1h1";
+        url = "https://elpa.nongnu.org/nongnu-devel/git-commit-4.0.0.0.20240808.185229.tar";
+        sha256 = "1a6nq9x6az5r95lq29fnvzh2jmxic0l82n5q74lyd5snfwn9ncb2";
       };
       packageRequires = [
         compat
@@ -2525,10 +2525,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240807.134745";
+      version = "0.4pre0.20240809.41930";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240807.134745.tar";
-        sha256 = "08qlz35q6vdg24ikm4ins7vjimfl42m0ynk3xljw53fv1lx5vmyd";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240809.41930.tar";
+        sha256 = "0ay7li06irxghr2xigm9pb1jdi4nh0vwm7ikyskf91i5pwl4zd7n";
       };
       packageRequires = [
         compat
@@ -2946,10 +2946,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "3.3.0.50snapshot0.20240808.120842";
+      version = "4.0.0.0.20240808.185229";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-3.3.0.50snapshot0.20240808.120842.tar";
-        sha256 = "1m1bhi1ar8ld0y8jymnlyjkdq0hbhjs4dk1awq0s8y91xwlcb277";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.0.0.0.20240808.185229.tar";
+        sha256 = "08yx2gnnridkkkm1d3b4ql231h36l8qq1azzi9nix79h0jdvbgq8";
       };
       packageRequires = [
         compat
@@ -3048,10 +3048,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.4.5.0.20240807.152712";
+      version = "1.4.5.0.20240809.144304";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20240807.152712.tar";
-        sha256 = "1qpy4rz5z8bly0l5i458wp6w1vgsh3bhdza372wk6daif4jsgqal";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20240809.144304.tar";
+        sha256 = "1ig9xl2kaadq4iyk4m6vfkzhab5m59mmqy3syvv33299n8mr1zq8";
       };
       packageRequires = [ ];
       meta = {
