@@ -2347,10 +2347,10 @@
     elpaBuild {
       pname = "drepl";
       ename = "drepl";
-      version = "0.3.0.20240603.71909";
+      version = "0.3.0.20240810.74103";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/drepl-0.3.0.20240603.71909.tar";
-        sha256 = "0fjs0k36xm2sy3p0yi2km7pcrjv3f0gsc6qbrh47qimn7x5b9bkh";
+        url = "https://elpa.gnu.org/devel/drepl-0.3.0.20240810.74103.tar";
+        sha256 = "0l1xgw6wh1j6xmiqhf7h5h9wg010dhclpxn6xxb372mqxlnylvld";
       };
       packageRequires = [ comint-mime ];
       meta = {
@@ -2978,10 +2978,10 @@
     elpaBuild {
       pname = "ergoemacs-mode";
       ename = "ergoemacs-mode";
-      version = "5.16.10.12.0.20240129.80712";
+      version = "5.16.10.12.0.20240809.174605";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ergoemacs-mode-5.16.10.12.0.20240129.80712.tar";
-        sha256 = "0jsl7yyhbcg1y20lp50r3i3rcxmxq035mks1kwbsnyqmdikby9s3";
+        url = "https://elpa.gnu.org/devel/ergoemacs-mode-5.16.10.12.0.20240809.174605.tar";
+        sha256 = "1pq78fyr26rmg1vg4xhl095yhaxi8pdnhx0hjcwv5gvxxd462ggq";
       };
       packageRequires = [
         cl-lib
