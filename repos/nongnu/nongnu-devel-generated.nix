@@ -2191,10 +2191,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.0.0.20240730.123127";
+      version = "0.9.0.0.20240809.214602";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240730.123127.tar";
-        sha256 = "0pznirnm1pvawwmvwg51yigh3ssy0nl9dnragw1n6l86k4pkhz22";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240809.214602.tar";
+        sha256 = "0kj5lf8if3liaqz5g08abdsx0kf7vf2vw46qanapina8448kkihy";
       };
       packageRequires = [
         compat
@@ -2525,10 +2525,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240809.41930";
+      version = "0.4pre0.20240809.145455";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240809.41930.tar";
-        sha256 = "0ay7li06irxghr2xigm9pb1jdi4nh0vwm7ikyskf91i5pwl4zd7n";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240809.145455.tar";
+        sha256 = "0a0yhblksxzpj3n4v0zaw8c8hzy6jrqkh80bjz5mcraxb8w28lks";
       };
       packageRequires = [
         compat
@@ -2914,10 +2914,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "3.3.0.50snapshot0.20240808.120842";
+      version = "4.0.0.0.20240808.185229";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-3.3.0.50snapshot0.20240808.120842.tar";
-        sha256 = "1kp1b7v7h53pk43mxiwbhvqsz6h276xpgv1w61fz8ns8gxqx90np";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.0.0.0.20240808.185229.tar";
+        sha256 = "0wr5qylrwclpk667vn8w21wk96xa36vcz2gx8l49s8w8sc4ccn88";
       };
       packageRequires = [
         compat
@@ -3493,10 +3493,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "1.9.0.0.20240805.142859";
+      version = "2.0.0.0.20240808.194549";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-1.9.0.0.20240805.142859.tar";
-        sha256 = "08bx6rh6rynnyc36ijh2vdbxvlflpz50p1dx9plh6kyp8m1dxh7b";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.0.0.20240808.194549.tar";
+        sha256 = "14ql24z977myihyn5hv4ivayzfpj580dhr7rgwwb6yqzj8j1bz4l";
       };
       packageRequires = [
         compat
@@ -4210,10 +4210,10 @@
     elpaBuild {
       pname = "sly";
       ename = "sly";
-      version = "1.0.43.0.20240501.111815";
+      version = "1.0.43.0.20240809.211904";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20240501.111815.tar";
-        sha256 = "0zpcad35ig5ci2a4rd9v3146c12mj7c9zhafwxvbmjhzd5aqfv82";
+        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20240809.211904.tar";
+        sha256 = "1np4rciwcijr6bv13s5vvl95wl28ad60snr6wdbjh7ya922x37rv";
       };
       packageRequires = [ ];
       meta = {

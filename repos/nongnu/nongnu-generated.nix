@@ -2937,27 +2937,31 @@
   ) { };
   magit = callPackage (
     {
+      compat,
       dash,
       elpaBuild,
       fetchurl,
       git-commit,
       lib,
       magit-section,
+      seq,
       transient,
       with-editor,
     }:
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "3.3.0";
+      version = "4.0.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-3.3.0.tar";
-        sha256 = "0ihrds45z12z155c1y7haz1mxc95w6v4rynh0izm159xhz44121z";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.0.0.tar";
+        sha256 = "0sii8gr69j29fzvcdyabnabldkvi6r5dpiamfs3bsmh66vf8wvjh";
       };
       packageRequires = [
+        compat
         dash
         git-commit
         magit-section
+        seq
         transient
         with-editor
       ];
@@ -3554,10 +3558,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "1.9.0";
+      version = "2.0.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/orgit-1.9.0.tar";
-        sha256 = "0g0nr284lgmd6jmk0w412gcildl6fzxv9kskgzr7ksk09qk9qfll";
+        url = "https://elpa.nongnu.org/nongnu/orgit-2.0.0.tar";
+        sha256 = "16i702ziy5z9zrmgz55bky0nar2hy55mkllswf7pgk8x4aihlda0";
       };
       packageRequires = [
         compat
