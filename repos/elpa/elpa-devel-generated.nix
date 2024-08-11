@@ -1269,10 +1269,10 @@
     elpaBuild {
       pname = "comint-mime";
       ename = "comint-mime";
-      version = "0.4.0.20240426.193136";
+      version = "0.4.0.20240810.184048";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/comint-mime-0.4.0.20240426.193136.tar";
-        sha256 = "1znk6anr6yxb9jfh3z7702msl011k54z37vbixbdk2bvd7hihcx3";
+        url = "https://elpa.gnu.org/devel/comint-mime-0.4.0.20240810.184048.tar";
+        sha256 = "0gaz8f730d6z8y1f8yckklgimm85c7qm96ascdj8yw0mh483xcg6";
       };
       packageRequires = [ ];
       meta = {
@@ -1802,10 +1802,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.14.0.0.20240715.192057";
+      version = "0.14.0.0.20240802.171613";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.14.0.0.20240715.192057.tar";
-        sha256 = "1kd380dvd5w0dldsgjw9vcbp11zxhnf0l0i1flkj637p33vbc97a";
+        url = "https://elpa.gnu.org/devel/dape-0.14.0.0.20240802.171613.tar";
+        sha256 = "1ggi23l240p9dkfr31ivk4h8x3v969w3kd40x2zfc3v7byd3n067";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -4410,10 +4410,10 @@
     elpaBuild {
       pname = "jit-spell";
       ename = "jit-spell";
-      version = "0.4.0.20240604.141707";
+      version = "0.4.0.20240810.110215";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jit-spell-0.4.0.20240604.141707.tar";
-        sha256 = "0qz81zrqhdymir9kbmkyavb591abv2j5iz1in2y0v96hpilxfdw6";
+        url = "https://elpa.gnu.org/devel/jit-spell-0.4.0.20240810.110215.tar";
+        sha256 = "0k4icsk8wdshdza9mgdlfyg5ybnhkzdwjjkjq4s2g6d5h0ai1xzl";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4581,10 +4581,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.3.1.0.20240809.124144";
+      version = "0.3.1.0.20240810.151008";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.3.1.0.20240809.124144.tar";
-        sha256 = "1ny3c71mla3ng7g4mp1d8i23g78i3lk9qblpkfcw98r6izfm2qx1";
+        url = "https://elpa.gnu.org/devel/kubed-0.3.1.0.20240810.151008.tar";
+        sha256 = "0n020da76sydgnsgwq4dhh5994f37sdvsbqjs290xkn4arlzmlq0";
       };
       packageRequires = [ ];
       meta = {
@@ -5908,10 +5908,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20240806.181145";
+      version = "9.8pre0.20240810.124752";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20240806.181145.tar";
-        sha256 = "1iql7h4j5y42qj81rf9m3cvm9w8hvbbiqbb6876niyzh290gd76x";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20240810.124752.tar";
+        sha256 = "1ws06vmkw3bwdc6skadwzhq9dgs9cwvk3wjwsdyl2dbbxdrjnhkp";
       };
       packageRequires = [ ];
       meta = {
