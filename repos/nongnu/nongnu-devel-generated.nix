@@ -1136,10 +1136,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20240721.204520";
+      version = "1.15.0.0.20240810.165559";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20240721.204520.tar";
-        sha256 = "1fqxqzdlrm9i7ipkn0yvn18yh8yi3mqilnadm389k1lylw4aqamj";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20240810.165559.tar";
+        sha256 = "0a406n947j8blv7yrx691bjfgfqmkbpszxjdvwq5hda0mrc9g2kl";
       };
       packageRequires = [
         cl-lib
@@ -3846,10 +3846,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20240808.93008";
+      version = "1.0.20240810.92632";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240808.93008.tar";
-        sha256 = "0xl467dyha7rgpbkwaky306na575vr1di9x7mvb03f2fl9wrafqr";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240810.92632.tar";
+        sha256 = "08dqgswpc3kdi6gi4jklhs4332r7kih1x5klfwmv1gj2zrql298n";
       };
       packageRequires = [ ];
       meta = {
