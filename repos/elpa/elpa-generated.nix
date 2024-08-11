@@ -2506,10 +2506,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20240803";
+      version = "20240811";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/eev-20240803.tar";
-        sha256 = "0xckyrx55rw8ridqmnz90r84am9ybsdvbh2gnrvxvgqj54crzc6f";
+        url = "https://elpa.gnu.org/packages/eev-20240811.tar";
+        sha256 = "1m5d0jr408fc42kk5vdkdb2kk3x4k1q7k32hwbjb7fkmp8nkv7ll";
       };
       packageRequires = [ ];
       meta = {
@@ -7928,10 +7928,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.0.1";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/standard-themes-2.0.1.tar";
-        sha256 = "0cyr3n9w359sa8ylcgzsvhxrk9f1rl1scb5339ci2la7zpg5vxwr";
+        url = "https://elpa.gnu.org/packages/standard-themes-2.1.0.tar";
+        sha256 = "0x7fphd36kwg4vfwix5rq7260xl6x6cjfwsq11rj4af30sm4hlfn";
       };
       packageRequires = [ ];
       meta = {
