@@ -6414,6 +6414,28 @@
       };
     }
   ) { };
+  plz-media-type = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      plz,
+    }:
+    elpaBuild {
+      pname = "plz-media-type";
+      ename = "plz-media-type";
+      version = "0.1.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/plz-media-type-0.1.0.tar";
+        sha256 = "00zp26rkzvsapzc99b17wlgwmchcgncsis4gvc33ga7c9b4ywzmb";
+      };
+      packageRequires = [ plz ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/plz-media-type.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   plz-see = callPackage (
     {
       elpaBuild,
