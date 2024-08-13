@@ -6414,6 +6414,28 @@
       };
     }
   ) { };
+  plz-event-source = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      plz-media-type,
+    }:
+    elpaBuild {
+      pname = "plz-event-source";
+      ename = "plz-event-source";
+      version = "0.1.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/plz-event-source-0.1.0.tar";
+        sha256 = "0jvw2lyg92n7f6z70mkpidnqny5wgnr9nfzpcpx0wqp37zspknjg";
+      };
+      packageRequires = [ plz-media-type ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/plz-event-source.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   plz-media-type = callPackage (
     {
       elpaBuild,
@@ -6424,10 +6446,10 @@
     elpaBuild {
       pname = "plz-media-type";
       ename = "plz-media-type";
-      version = "0.1.0";
+      version = "0.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/plz-media-type-0.1.0.tar";
-        sha256 = "00zp26rkzvsapzc99b17wlgwmchcgncsis4gvc33ga7c9b4ywzmb";
+        url = "https://elpa.gnu.org/packages/plz-media-type-0.2.0.tar";
+        sha256 = "09dn1r1c9njap882rssx2ilic23nr6wjw6njzcmd64lh8w1q16d9";
       };
       packageRequires = [ plz ];
       meta = {

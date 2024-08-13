@@ -1889,10 +1889,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.40.0.20240811.125440";
+      version = "0.40.0.20240812.95045";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.40.0.20240811.125440.tar";
-        sha256 = "1xdvcmxlm3hdjsw7kmv3w0nr9vlk285i7pcqa87yljz4kmcn5mc0";
+        url = "https://elpa.gnu.org/devel/debbugs-0.40.0.20240812.95045.tar";
+        sha256 = "0lylhjg1a6iwb7w08xnblv9890c3din8w7hgja8bf4qq8j6w8xwq";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -6470,17 +6470,17 @@
       elpaBuild,
       fetchurl,
       lib,
-      plz,
+      plz-media-type,
     }:
     elpaBuild {
       pname = "plz-event-source";
       ename = "plz-event-source";
-      version = "0.1pre0.20240607.160859";
+      version = "0.1.0.0.20240812.174207";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/plz-event-source-0.1pre0.20240607.160859.tar";
-        sha256 = "02wv00dij35crkff82plxlkwgninjnllpc44lq0ynxwk1lgx3q5a";
+        url = "https://elpa.gnu.org/devel/plz-event-source-0.1.0.0.20240812.174207.tar";
+        sha256 = "15jnlsqc56jqlh6gsb2m5cbdfzi9jmv2agba4xvdxf5h3aigazkb";
       };
-      packageRequires = [ plz ];
+      packageRequires = [ plz-media-type ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/plz-event-source.html";
         license = lib.licenses.free;
@@ -6497,10 +6497,10 @@
     elpaBuild {
       pname = "plz-media-type";
       ename = "plz-media-type";
-      version = "0.1.1pre0.20240811.123119";
+      version = "0.2.0.0.20240812.162315";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/plz-media-type-0.1.1pre0.20240811.123119.tar";
-        sha256 = "1d4kqyv68hn2wx1z0yiz2crd43h9lqwiir635qap2bz8nxbxk0mn";
+        url = "https://elpa.gnu.org/devel/plz-media-type-0.2.0.0.20240812.162315.tar";
+        sha256 = "103dq5sfcllzidsck7a4iz796iwg044dycbqr9gz8gzc9vspaq9x";
       };
       packageRequires = [ plz ];
       meta = {
