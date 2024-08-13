@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240812.33620";
+      version = "14.0.6.0.20240813.44145";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240812.33620.tar";
-        sha256 = "1wcn61a17wy41a931bk3pzr9w7ap67zkiam3d88jl11xry6jgkj7";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240813.44145.tar";
+        sha256 = "15g20yqrs9172315fcq4d6x4waj5pvdcxi3371jvam229il6f385";
       };
       packageRequires = [ ];
       meta = {
@@ -2548,10 +2548,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.7.0.0.20240811.50310";
+      version = "1.7.0.0.20240813.65544";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240811.50310.tar";
-        sha256 = "17g8h0xxzwky088k97d1vcym3vpy7q9wxzxhg1yicrq44dmg00d9";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240813.65544.tar";
+        sha256 = "0wf7nk1z51cssx53x6nirrf46vmr6y0qsb4jk3n6ghk0pd5k8y6b";
       };
       packageRequires = [ ];
       meta = {
@@ -2955,10 +2955,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1snapshot0.20240807.12127";
+      version = "5.6.1snapshot0.20240813.11230";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20240807.12127.tar";
-        sha256 = "0rlr3xsib5hmm037cz9k3rbb042acgxf2x7j3ahhs4bp87bjdscj";
+        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20240813.11230.tar";
+        sha256 = "1r2a3n4lfsjmlg7vg816hmxvdzmapp89vym2jh4vwkng1v5bfzq1";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4033,10 +4033,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20240811.12419";
+      version = "9.0.2pre0.20240813.73259";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240811.12419.tar";
-        sha256 = "0ck0nmpqgqmfjgprafc9xmbx3wjjr8n54ggwyy5i611rl23nhb13";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240813.73259.tar";
+        sha256 = "04cjlmr5n21nckvhpsdnvd18d5sycvl3kszijim7yp9l8kbyavzl";
       };
       packageRequires = [ ];
       meta = {
@@ -5072,10 +5072,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "1.7.0.20240726.212934";
+      version = "1.7.0.20240813.70136";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-1.7.0.20240726.212934.tar";
-        sha256 = "0z5q3ar987yn3yql3rv7j1nip4y5gm3lhldks238cm88zbxhvp8k";
+        url = "https://elpa.gnu.org/devel/marginalia-1.7.0.20240813.70136.tar";
+        sha256 = "13drb697n6x9zdr7mw6ssqhn7jkrsygqwyzs3jhcd12svih4q6cz";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9780,10 +9780,10 @@
     elpaBuild {
       pname = "wrap-search";
       ename = "wrap-search";
-      version = "4.16.17.0.20240804.163021";
+      version = "4.16.19.0.20240813.40618";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/wrap-search-4.16.17.0.20240804.163021.tar";
-        sha256 = "0b8iyc06z41m2hhyykqqr9dk3vasal8xqgv5hp79qjyj362jlv7w";
+        url = "https://elpa.gnu.org/devel/wrap-search-4.16.19.0.20240813.40618.tar";
+        sha256 = "1g8c6wdwb6clrqy61n914ilk1bq1023dilfcqx98c37x8yi0wmm2";
       };
       packageRequires = [ ];
       meta = {

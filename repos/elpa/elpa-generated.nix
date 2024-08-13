@@ -9613,10 +9613,10 @@
     elpaBuild {
       pname = "wrap-search";
       ename = "wrap-search";
-      version = "4.16.17";
+      version = "4.16.19";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/wrap-search-4.16.17.tar";
-        sha256 = "1l4ps2sqj854slhalynss0qsg3spbw5qpk7f8dyhp0w0j9slvnwh";
+        url = "https://elpa.gnu.org/packages/wrap-search-4.16.19.tar";
+        sha256 = "1qrvn5cxvd5sl18hyn979f9kany5vnypbflkhzmxas5q0n2miyfw";
       };
       packageRequires = [ ];
       meta = {
