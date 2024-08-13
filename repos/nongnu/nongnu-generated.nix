@@ -797,10 +797,10 @@
     elpaBuild {
       pname = "d-mode";
       ename = "d-mode";
-      version = "202405290611";
+      version = "202408131340";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/d-mode-202405290611.tar";
-        sha256 = "0znfiivxak0r1a6ximmm6gljnpdnkrlqlsb65dq4jl9vkxyf1yqy";
+        url = "https://elpa.nongnu.org/nongnu/d-mode-202408131340.tar";
+        sha256 = "19dgc0yd2fmc9xbrajc1l98p7p2wiwg43ajq4gssxdshb5vi5mn9";
       };
       packageRequires = [ ];
       meta = {

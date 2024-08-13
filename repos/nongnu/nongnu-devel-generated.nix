@@ -774,10 +774,10 @@
     elpaBuild {
       pname = "d-mode";
       ename = "d-mode";
-      version = "202405290611.0.20240722.23216";
+      version = "202408131340.0.20240813.65913";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/d-mode-202405290611.0.20240722.23216.tar";
-        sha256 = "1ldl6pb1dk75zgmf92x35zv5wxn6hhj9ljj33kyf3pbw3jpmaljw";
+        url = "https://elpa.nongnu.org/nongnu-devel/d-mode-202408131340.0.20240813.65913.tar";
+        sha256 = "1lf78x8bkb41mr5p8api0f447z9k5yd2v9w97qw6l4dxcj2dldv5";
       };
       packageRequires = [ ];
       meta = {
@@ -2367,10 +2367,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "3.9.9.0.20240811.112703";
+      version = "3.9.9.0.20240812.174452";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-3.9.9.0.20240811.112703.tar";
-        sha256 = "057kbddi8gg2mpmlgr8xp9jp2n278dp9cllfcf473s5bsqhz4qqx";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-3.9.9.0.20240812.174452.tar";
+        sha256 = "000k8bc5a4b4772gpffza56ga19s38nkm2imfag8qfnsinlyv8m3";
       };
       packageRequires = [
         helm-core
@@ -2392,10 +2392,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "3.9.9.0.20240811.112703";
+      version = "3.9.9.0.20240812.174452";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-3.9.9.0.20240811.112703.tar";
-        sha256 = "1sgvcjj5k0f99ibba6wv44srha5vz34k8zdwbrb6q32dcgb6rasw";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-3.9.9.0.20240812.174452.tar";
+        sha256 = "0pi41wyxy5nfls5f5p7h532k1aad3klwd91mn8hnlg96kqbkgcrz";
       };
       packageRequires = [ async ];
       meta = {
