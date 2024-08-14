@@ -2525,10 +2525,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240812.121027";
+      version = "0.4pre0.20240814.2936";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240812.121027.tar";
-        sha256 = "1r51f92fav8s2rrl24klxpfdm8a5vfffl17gs1w47j0mj4j2lha6";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240814.2936.tar";
+        sha256 = "1cl2f6b31zgqshdnhv3rlbk84n1vb5nh8ycp861399h80ajk5dzi";
       };
       packageRequires = [
         compat
@@ -4854,10 +4854,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.0snapshot0.20240724.160938";
+      version = "8.3.0snapshot0.20240814.44941";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20240724.160938.tar";
-        sha256 = "14xcgbi52dbs3kiqci810l7hjvxln00ifib21d6hisx0lhs5743l";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20240814.44941.tar";
+        sha256 = "1w5a0jm22xr6m1i2c5gghgy159dpqndkqhkyma3sagx5bmdsldrb";
       };
       packageRequires = [
         cl-lib
