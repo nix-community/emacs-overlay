@@ -5908,10 +5908,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20240811.152924";
+      version = "9.8pre0.20240813.181152";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20240811.152924.tar";
-        sha256 = "17r9l33797nb06kxxwy2lnl3ni5ymf11875krcijcak9h52lzh89";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20240813.181152.tar";
+        sha256 = "05658jhnc0pyswbhs247p6avh4w74rzgafy3zj86s7bp9m97wcj1";
       };
       packageRequires = [ ];
       meta = {
