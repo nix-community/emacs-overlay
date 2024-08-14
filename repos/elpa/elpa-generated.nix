@@ -1937,10 +1937,10 @@
     elpaBuild {
       pname = "denote-menu";
       ename = "denote-menu";
-      version = "1.2.0";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-menu-1.2.0.tar";
-        sha256 = "042avabc97wgkz85x40dq7rmv4h9n5kmq935lrg9s20klbs9axs1";
+        url = "https://elpa.gnu.org/packages/denote-menu-1.3.0.tar";
+        sha256 = "0flkb3f1zpp3sbjx6h7qb6fnjgg44s53zkv3q3fj6cl7c0f11n02";
       };
       packageRequires = [ denote ];
       meta = {
@@ -6424,10 +6424,10 @@
     elpaBuild {
       pname = "plz-event-source";
       ename = "plz-event-source";
-      version = "0.1.0";
+      version = "0.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/plz-event-source-0.1.0.tar";
-        sha256 = "0jvw2lyg92n7f6z70mkpidnqny5wgnr9nfzpcpx0wqp37zspknjg";
+        url = "https://elpa.gnu.org/packages/plz-event-source-0.1.1.tar";
+        sha256 = "0mraza6r8p6rwmsmgz7kkllhwi6spz8jzkk458jlgqxilm0jajib";
       };
       packageRequires = [ plz-media-type ];
       meta = {
@@ -6446,10 +6446,10 @@
     elpaBuild {
       pname = "plz-media-type";
       ename = "plz-media-type";
-      version = "0.2.0";
+      version = "0.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/plz-media-type-0.2.0.tar";
-        sha256 = "09dn1r1c9njap882rssx2ilic23nr6wjw6njzcmd64lh8w1q16d9";
+        url = "https://elpa.gnu.org/packages/plz-media-type-0.2.1.tar";
+        sha256 = "05hr78iw9s34vf2lpyh79xfnd4gs4q07rha1ahdrmxvkk9mnmk90";
       };
       packageRequires = [ plz ];
       meta = {
