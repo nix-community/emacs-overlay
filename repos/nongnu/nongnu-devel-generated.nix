@@ -2191,10 +2191,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.0.0.20240809.214602";
+      version = "0.9.0.0.20240814.85808";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240809.214602.tar";
-        sha256 = "0kj5lf8if3liaqz5g08abdsx0kf7vf2vw46qanapina8448kkihy";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240814.85808.tar";
+        sha256 = "0kpd0fypky0mwfb1lfyd3jbpr2lxispx02nqiz3a61zziljgdazd";
       };
       packageRequires = [
         compat
@@ -2525,10 +2525,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240814.2936";
+      version = "0.4pre0.20240814.110719";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240814.2936.tar";
-        sha256 = "1cl2f6b31zgqshdnhv3rlbk84n1vb5nh8ycp861399h80ajk5dzi";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240814.110719.tar";
+        sha256 = "1057x0f0y4ajr1jsid3742ggh4knp2r55w960k9b8dyjmc2m0n8s";
       };
       packageRequires = [
         compat
@@ -3782,10 +3782,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20240212.110040";
+      version = "2.9.0snapshot0.20240814.185449";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20240212.110040.tar";
-        sha256 = "0gbci7zwfwj8g69dla72arj3s5w49y6wgwcrilnlfmm3fc1h9lqy";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20240814.185449.tar";
+        sha256 = "059pjfr5gqmd7mrpxmkgasqaqcbhp8q0nj9dhrwqrlfm6g5xgg1q";
       };
       packageRequires = [ ];
       meta = {
