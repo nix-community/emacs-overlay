@@ -1717,10 +1717,10 @@
     elpaBuild {
       pname = "csv-mode";
       ename = "csv-mode";
-      version = "1.27.0.20240809.72715";
+      version = "1.27.0.20240814.110630";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/csv-mode-1.27.0.20240809.72715.tar";
-        sha256 = "0dvpx0spd8zp3h9v3pmsay3wcdn4g72gxxklqb5sqcgxgxajgjcb";
+        url = "https://elpa.gnu.org/devel/csv-mode-1.27.0.20240814.110630.tar";
+        sha256 = "0hymcni0ls0q1bixra5cn1kscl8j4w5mvnnhcd7sa78cym5881qy";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -4581,10 +4581,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.3.1.0.20240810.151008";
+      version = "0.3.1.0.20240814.161552";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.3.1.0.20240810.151008.tar";
-        sha256 = "0n020da76sydgnsgwq4dhh5994f37sdvsbqjs290xkn4arlzmlq0";
+        url = "https://elpa.gnu.org/devel/kubed-0.3.1.0.20240814.161552.tar";
+        sha256 = "1qw9p2zs1wwggghjappgdbq0c7qq03y7fgprk9jj5ay3jjzspnan";
       };
       packageRequires = [ ];
       meta = {
@@ -5908,10 +5908,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20240813.181152";
+      version = "9.8pre0.20240814.90218";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20240813.181152.tar";
-        sha256 = "05658jhnc0pyswbhs247p6avh4w74rzgafy3zj86s7bp9m97wcj1";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20240814.90218.tar";
+        sha256 = "1qzqb1wh41iwgc3gvjrkagqmipz4zhmb6hvkwd2bvpbb48jf8wi4";
       };
       packageRequires = [ ];
       meta = {
