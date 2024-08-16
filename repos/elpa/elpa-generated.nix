@@ -4558,10 +4558,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.3.1";
+      version = "0.3.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/kubed-0.3.1.tar";
-        sha256 = "0s6z7nczh7l7zd9pwaafl0pmsy5y19bwzv0bc89qgnsk2v91359v";
+        url = "https://elpa.gnu.org/packages/kubed-0.3.2.tar";
+        sha256 = "1adr74gdfvg9djd8hr457jgx2p08drc235l3p4ni76fnjngki1z2";
       };
       packageRequires = [ ];
       meta = {
