@@ -3439,11 +3439,11 @@
   "stable": {
    "version": [
     2,
-    6,
-    20240806
+    7,
+    0
    ],
-   "commit": "e19509f5dd51e9458f4b78074993a86bc9ca6158",
-   "sha256": "0xwn040vwnq1m93ygsbwx0gh2yndwckg969xmngg0y829pz300cc"
+   "commit": "df1a26d96683ebb06aa8476e4af6bbeddf23efbe",
+   "sha256": "1vi2h8lwfixpphh0kz5jiam43ld8ddzz71jspwfvmyhmyrriabb8"
   }
  },
  {
@@ -12339,14 +12339,14 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20240814,
-    938
+    20240816,
+    737
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "6fb85746bd0d316c97e375dcc14eb5314778e74d",
-   "sha256": "1kkq4wxkhv7cgksjpbdzm0r9x17y3sra1zk6h0213w4fi20z06lc"
+   "commit": "0efead292f053774bba3c0789370e8e383aa49ec",
+   "sha256": "0bqc5d93nplfhhcfh1605pi6ymqbb15774f7ij58wvy98yb5rh0s"
   },
   "stable": {
    "version": [
@@ -26304,16 +26304,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20240811,
-    1437
+    20240816,
+    749
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "790e6817814a1fa893a91722861cba9424b0f004",
-   "sha256": "17xdssj1i56cdzwfdqpkazivgyai7lx0r5apibrrbypisc6gf67k"
+   "commit": "37fc5cfe4cc8487e82942cf8478c4e42eb0a95bd",
+   "sha256": "104k3mj44qhb6m3bi3h84zgqrncfbhcc4frlig1ikbzpybmlxyi3"
   },
   "stable": {
    "version": [
@@ -26795,26 +26795,26 @@
   "repo": "arnested/drupal-mode",
   "unstable": {
    "version": [
-    20220125,
-    1044
+    20240816,
+    1236
    ],
    "deps": [
     "php-mode"
    ],
-   "commit": "17927723adc5921e8058f7c29e5e50e88b975639",
-   "sha256": "1j0zlcjrz0pswcc8wh476vx503qvlyzjscwh0gs3cfss8j6r6gd5"
+   "commit": "3f91d1d44df11ebd0137a896055fca6a1bb2f554",
+   "sha256": "0gia6qrzdai0qa903gnxvnfn5mnva577jdf8zccz3i3f2ki02ygb"
   },
   "stable": {
    "version": [
     0,
-    7,
-    3
+    8,
+    1
    ],
    "deps": [
     "php-mode"
    ],
-   "commit": "49ce63c659aa0af7a2daf0c9e74e58fbce6deb71",
-   "sha256": "1l2xc24y037b3z62yxmq2bx1x3qqv56d15bf3qmb3mpgm4gh85j6"
+   "commit": "a353f8bdf3ed98f76b9418afbbc4ef17b5552647",
+   "sha256": "0gia6qrzdai0qa903gnxvnfn5mnva577jdf8zccz3i3f2ki02ygb"
   }
  },
  {
@@ -34004,11 +34004,11 @@
   "stable": {
    "version": [
     2,
-    6,
-    20240806
+    7,
+    0
    ],
-   "commit": "e19509f5dd51e9458f4b78074993a86bc9ca6158",
-   "sha256": "0xwn040vwnq1m93ygsbwx0gh2yndwckg969xmngg0y829pz300cc"
+   "commit": "df1a26d96683ebb06aa8476e4af6bbeddf23efbe",
+   "sha256": "1vi2h8lwfixpphh0kz5jiam43ld8ddzz71jspwfvmyhmyrriabb8"
   }
  },
  {
@@ -39872,8 +39872,8 @@
   "repo": "LaurenceWarne/finito.el",
   "unstable": {
    "version": [
-    20240803,
-    1549
+    20240816,
+    1237
    ],
    "deps": [
     "async",
@@ -39884,8 +39884,8 @@
     "s",
     "transient"
    ],
-   "commit": "7441c73271fc44a33078f0d8d5f47c4e181804b1",
-   "sha256": "0xj6s3f0anz8cb4i9gsrwn5360hk184gdj8wk0kavzjwwhpmlcia"
+   "commit": "06727cbe86f0d0d956912ab23a6b92f67ea9ed0f",
+   "sha256": "00b5k7xr20snxzq0a80siyjrqxv498zsnm2wqzzgq3iyfhgg2bkc"
   },
   "stable": {
    "version": [
@@ -68832,15 +68832,15 @@
   "repo": "khoj-ai/khoj",
   "unstable": {
    "version": [
-    20240811,
-    1030
+    20240816,
+    1432
    ],
    "deps": [
     "dash",
     "transient"
    ],
-   "commit": "7815e02dd421b705461df6a97033dafd61ba6419",
-   "sha256": "0rdnar6d85cdf5vligxxnxbsawmdmkxlq1niadk4mg6fmfb7akrz"
+   "commit": "2b1482d2b44efeface0aff6b7479e4c46aca72b1",
+   "sha256": "0lr0v08c468m4i8w80xgpqzpfj621igff5c2xr0v5nn2phmi05rn"
   },
   "stable": {
    "version": [
@@ -76556,15 +76556,15 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20240804,
-    751
+    20240816,
+    709
    ],
    "deps": [
     "persist",
     "request"
    ],
-   "commit": "45903de823d3c6b46c4aa694112e9f5429e1a3f9",
-   "sha256": "02ykj4hyddd5p0idl8gvgl9q770vni69xsza99y3rpyilc2a8r66"
+   "commit": "3443b49c55f65ae8e0b07e93e1e0299ce1bf8ed6",
+   "sha256": "0564nylzj5ysjma3vnphga6ngds2s9x4410qg3yqgy5caxkpz321"
   },
   "stable": {
    "version": [
@@ -109017,11 +109017,11 @@
   "repo": "nicolaisingh/saveplace-pdf-view",
   "unstable": {
    "version": [
-    20240209,
-    505
+    20240816,
+    1351
    ],
-   "commit": "ee95460cd934080338f03a16f95b549577425216",
-   "sha256": "00cqk1qvmdw07vmmyxc843m2qgx1n9ivwzp73r27v4jxx1i38vx2"
+   "commit": "70e9ec40565021f4b5d51e4523f4c716183a8eef",
+   "sha256": "000xhr0f2hbdykycm7d5l1nc9knhh65dfnm307y39k236nwy4msc"
   }
  },
  {
