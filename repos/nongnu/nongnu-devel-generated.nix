@@ -2525,10 +2525,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240814.110719";
+      version = "0.4pre0.20240815.152721";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240814.110719.tar";
-        sha256 = "1057x0f0y4ajr1jsid3742ggh4knp2r55w960k9b8dyjmc2m0n8s";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240815.152721.tar";
+        sha256 = "1090sirzb47ywq9gb6h0q7mnlj5b07xa65dbmq3qkbxya8fh2z68";
       };
       packageRequires = [
         compat
@@ -2973,10 +2973,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.0.24.0.20240804.75147";
+      version = "1.0.26.0.20240816.70908";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.0.24.0.20240804.75147.tar";
-        sha256 = "048hhfxnz81vmc83lwwzghi7z9w41ns11qxirkjd46cjf6kl2h86";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.0.26.0.20240816.70908.tar";
+        sha256 = "0nayg2py0n2m1ldpl1hwmiqv7yzvjxbbwndzxwipak0wvjzw0psl";
       };
       packageRequires = [
         persist
@@ -4273,10 +4273,10 @@
     elpaBuild {
       pname = "spacemacs-theme";
       ename = "spacemacs-theme";
-      version = "0.2.0.20240715.144003";
+      version = "0.2.0.20240815.213429";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20240715.144003.tar";
-        sha256 = "14d22bdm33jbwv9dphqydgww93scqdfbkjg80iivb48s0br86qld";
+        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20240815.213429.tar";
+        sha256 = "1g7fzghy5nmz8v8vx5y6g3cwc2n9c1ryr09nrdfz3zlrv7r32df6";
       };
       packageRequires = [ ];
       meta = {
