@@ -6402,10 +6402,10 @@
     elpaBuild {
       pname = "plz";
       ename = "plz";
-      version = "0.9";
+      version = "0.9.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/plz-0.9.tar";
-        sha256 = "1wgcfwrmbw6bl00midhn99hn3fvbavkibb4r6s99yzmd48vyapr8";
+        url = "https://elpa.gnu.org/packages/plz-0.9.1.tar";
+        sha256 = "0kx8zjqczsqhxd95bdy9b0kkpgkva4zq549d2hcfrkqhrqivm6qd";
       };
       packageRequires = [ ];
       meta = {
@@ -8251,10 +8251,10 @@
     elpaBuild {
       pname = "taxy";
       ename = "taxy";
-      version = "0.10.1";
+      version = "0.10.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/taxy-0.10.1.tar";
-        sha256 = "0r4kv0lqjk720p8kfah256370miqg68598jp5466sc6v9qax4wd9";
+        url = "https://elpa.gnu.org/packages/taxy-0.10.2.tar";
+        sha256 = "1nmlx2rvlgzvmz1h3s5yn3qnad12pn2a83gjzxf3ln79p8rv1mj6";
       };
       packageRequires = [ ];
       meta = {
@@ -8274,10 +8274,10 @@
     elpaBuild {
       pname = "taxy-magit-section";
       ename = "taxy-magit-section";
-      version = "0.13";
+      version = "0.14";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/taxy-magit-section-0.13.tar";
-        sha256 = "06sivl4rc06qr67qw2gqpw7lsaqf3j78llkrljwby7a77yzlhbrj";
+        url = "https://elpa.gnu.org/packages/taxy-magit-section-0.14.tar";
+        sha256 = "13xwhqlvzfkm5gpprv683r8jri6wy54bhbzg3wiw3m020hqw6ygi";
       };
       packageRequires = [
         magit-section
