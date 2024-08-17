@@ -1717,10 +1717,10 @@
     elpaBuild {
       pname = "csv-mode";
       ename = "csv-mode";
-      version = "1.27.0.20240814.110630";
+      version = "1.27.0.20240816.74202";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/csv-mode-1.27.0.20240814.110630.tar";
-        sha256 = "0hymcni0ls0q1bixra5cn1kscl8j4w5mvnnhcd7sa78cym5881qy";
+        url = "https://elpa.gnu.org/devel/csv-mode-1.27.0.20240816.74202.tar";
+        sha256 = "1j6iqjp9k14i3d9n9dnk3m4wpixkflq8dlr6mapbgvd2kksmgigp";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -1802,10 +1802,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.14.0.0.20240813.195828";
+      version = "0.14.0.0.20240816.152041";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.14.0.0.20240813.195828.tar";
-        sha256 = "1yb8mj35fp19inswiy2dqx88zikla74ik3z76x1jbwillc00md2i";
+        url = "https://elpa.gnu.org/devel/dape-0.14.0.0.20240816.152041.tar";
+        sha256 = "12p7fkswzpbsg0wkiralqx366h0sp0rm2d03ckd2d20dsh5rv2sb";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -6390,10 +6390,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "0.0.20240807.204202";
+      version = "0.0.20240816.195739";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-0.0.20240807.204202.tar";
-        sha256 = "02skc70pc00vn682b809fq12lakjg9f73hkddshz8a6vrg5683rh";
+        url = "https://elpa.gnu.org/devel/phpinspect-0.0.20240816.195739.tar";
+        sha256 = "0xdj8iqghwwqrlgh476y5klyn4d0vgxcq63x580rf7qg5280x6pq";
       };
       packageRequires = [ compat ];
       meta = {
