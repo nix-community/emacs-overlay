@@ -944,10 +944,10 @@
     elpaBuild {
       pname = "drupal-mode";
       ename = "drupal-mode";
-      version = "0.7.4.0.20220125.104446";
+      version = "0.8.1.0.20240816.123653";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/drupal-mode-0.7.4.0.20220125.104446.tar";
-        sha256 = "03j8qa0yh382mr5jzlgyh60v9xaln1a3rs101cvnd9sibbw08p4g";
+        url = "https://elpa.nongnu.org/nongnu-devel/drupal-mode-0.8.1.0.20240816.123653.tar";
+        sha256 = "135h1bm7zyk2nhcx6j3nc7n0fi180sld655212sin650hidiygnl";
       };
       packageRequires = [ php-mode ];
       meta = {
@@ -2525,10 +2525,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240815.152721";
+      version = "0.4pre0.20240816.113405";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240815.152721.tar";
-        sha256 = "1090sirzb47ywq9gb6h0q7mnlj5b07xa65dbmq3qkbxya8fh2z68";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240816.113405.tar";
+        sha256 = "0chxs2sbg04gmqg53k7bg3pswd0bq9npxr4x1rbfwmfi7i6h2wzd";
       };
       packageRequires = [
         compat
@@ -4989,10 +4989,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.1.0.20240815.121220";
+      version = "3.4.1.0.20240816.195813";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.1.0.20240815.121220.tar";
-        sha256 = "1dkxj40bw0brgcpx2yrq79bffyyhk3qmldvlh26bijqs3ccszq7p";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.1.0.20240816.195813.tar";
+        sha256 = "1z9c5ymia0g8mpx0nszrbw0yy23a7f91kyqxpvx544kbxh6k62dy";
       };
       packageRequires = [ compat ];
       meta = {

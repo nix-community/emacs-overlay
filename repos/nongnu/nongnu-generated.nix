@@ -988,10 +988,10 @@
     elpaBuild {
       pname = "drupal-mode";
       ename = "drupal-mode";
-      version = "0.7.4";
+      version = "0.8.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/drupal-mode-0.7.4.tar";
-        sha256 = "1wr05pi5sm994cdzj329gr1lwxvq4w9wmc806izxq3fjifx0m609";
+        url = "https://elpa.nongnu.org/nongnu/drupal-mode-0.8.1.tar";
+        sha256 = "0f3dd2647g964grzq95d73iznhpmrr9w7fmkifjk3ivz0rgdgjsq";
       };
       packageRequires = [ php-mode ];
       meta = {
