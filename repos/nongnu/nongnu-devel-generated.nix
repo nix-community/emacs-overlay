@@ -2367,10 +2367,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "3.9.9.0.20240817.82405";
+      version = "3.9.9.0.20240818.65121";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-3.9.9.0.20240817.82405.tar";
-        sha256 = "1nm4apfhq22vq2f7r6lv2afs50qgk5dj98fq3g1pvckq63fjq0qi";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-3.9.9.0.20240818.65121.tar";
+        sha256 = "1nzkia4sprqapzwkhqzvj0r9wm7zh8gs5yad1q07j6c09fcyygm7";
       };
       packageRequires = [
         helm-core
@@ -2392,10 +2392,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "3.9.9.0.20240817.82405";
+      version = "3.9.9.0.20240818.65121";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-3.9.9.0.20240817.82405.tar";
-        sha256 = "0ny1nqdqdl7x7mglmw5anxp1zj6rn9bsvkgq2980brrhknf4ihvm";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-3.9.9.0.20240818.65121.tar";
+        sha256 = "12p7wkv7wczmnbmc83z1f1hijzqalnxgqhjklayzxlbgkxaf9g0p";
       };
       packageRequires = [ async ];
       meta = {
@@ -2525,10 +2525,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240817.113037";
+      version = "0.4pre0.20240817.172726";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240817.113037.tar";
-        sha256 = "17g05h55z7i18qibaqkvpb8wav7q7xkrbqbcfdhafngd6gpsrir6";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240817.172726.tar";
+        sha256 = "0ia9m7h5lnn9ammvbqshbwgnsrav9myhayfnhdrfrqirfijgbhv8";
       };
       packageRequires = [
         compat
@@ -3378,10 +3378,10 @@
     elpaBuild {
       pname = "org-mime";
       ename = "org-mime";
-      version = "0.3.2.0.20240129.232731";
+      version = "0.3.3.0.20240818.24342";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.2.0.20240129.232731.tar";
-        sha256 = "1a9pjvn9w138b4417gkdvcjvw9d68pqx5g6sjplldf6z23p3d6bp";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.3.0.20240818.24342.tar";
+        sha256 = "0xg73swqd6dff1nh4z2jhhvj9ssq65wymq3jlbyb1nscm3g4lr83";
       };
       packageRequires = [ ];
       meta = {

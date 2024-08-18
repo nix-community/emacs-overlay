@@ -3443,10 +3443,10 @@
     elpaBuild {
       pname = "org-mime";
       ename = "org-mime";
-      version = "0.3.2";
+      version = "0.3.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/org-mime-0.3.2.tar";
-        sha256 = "1r24inqadhlsqc896vlm10bhr76aj6hnm6q5snhzpz4kk9j0gybd";
+        url = "https://elpa.nongnu.org/nongnu/org-mime-0.3.3.tar";
+        sha256 = "1ylsdfifa4ykrf5vncnnj6v2bgc3ixlskgxb1v7qggmkb5mzy2yv";
       };
       packageRequires = [ ];
       meta = {
