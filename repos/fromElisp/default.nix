@@ -2,7 +2,8 @@
 # https://github.com/talyz/fromElisp. Don't make any changes to it
 # locally - they will be discarded on update!
 
-{ pkgs ? import <nixpkgs> {}
+{ lib ? pkgs.lib
+, pkgs ? import <nixpkgs> { }
 , commentMaxLength ? 300
 , stringMaxLength ? 3000
 , characterMaxLength ? 50
@@ -14,10 +15,18 @@
 , orgModeBabelCodeBlockArgMaxLength ? 30
 }:
 
-with pkgs.lib;
-with builtins;
-
 let
+  inherit (lib)
+    substring length replaceStrings genList head const max elem seq
+    stringLength stringToCharacters tail elemAt isList
+    isString toLower
+    ;
+  inherit (builtins) match foldl' filter fromJSON;
+
+  # Modulo
+  mod = i: d: i - ((i / d) * d);
+
+  isWhitespace = lib.flip elem [ " " "\t" "\r" ];
 
   # Create a matcher from a regex string and maximum length. A
   # matcher takes a string and returns the first match produced by
@@ -31,60 +40,63 @@ let
       in
         if matched != null then head matched else null;
 
-  removeStrings = stringsToRemove: string:
-    let
-      len = length stringsToRemove;
-      listOfNullStrings = genList (const "") len;
-    in
-      replaceStrings stringsToRemove listOfNullStrings string;
+  removeStrings = stringsToRemove: let
+    len = length stringsToRemove;
+    listOfNullStrings = genList (const "") len;
+  in replaceStrings stringsToRemove listOfNullStrings;
 
   # Split a string of elisp into individual tokens and add useful
   # metadata.
-  tokenizeElisp' = { elisp, startLineNumber ? 1 }:
+  tokenizeElisp' = let
+    # These are the only characters that can not be unescaped in a
+    # symbol name. We match the inverse of these to get the actual
+    # symbol characters and use them to differentiate between
+    # symbols and tokens that could potentially look like symbols,
+    # such as numbers. Due to the leading bracket, this has to be
+    # placed _first_ inside a bracket expression.
+    notInSymbol = '']["'`,#;\\()[:space:][:cntrl:]'';
+
+    matchComment = mkMatcher "(;[^\n]*).*" commentMaxLength;
+
+    matchString = mkMatcher ''("([^"\\]|\\.)*").*'' stringMaxLength;
+
+    matchCharacter = mkMatcher ''([?]((\\[sSHMAC]-)|\\\^)*(([^][\\()]|\\[][\\()])|\\[^^SHMACNuUx0-7]|\\[uU][[:digit:]a-fA-F]+|\\x[[:digit:]a-fA-F]*|\\[0-7]{1,3}|\\N\{[^}]+}))([${notInSymbol}?]|$).*'' characterMaxLength;
+
+    matchNonBase10Integer = mkMatcher ''(#([BbOoXx]|[[:digit:]]{1,2}r)[[:digit:]a-fA-F]+)([${notInSymbol}]|$).*'' integerMaxLength;
+
+    matchInteger = mkMatcher ''([+-]?[[:digit:]]+[.]?)([${notInSymbol}]|$).*'' integerMaxLength;
+
+    matchBoolVector = mkMatcher ''(#&[[:digit:]]+"([^"\\]|\\.)*").*'' boolVectorMaxLength;
+
+    matchFloat = mkMatcher ''([+-]?([[:digit:]]*[.][[:digit:]]+|([[:digit:]]*[.])?[[:digit:]]+e([+-]?[[:digit:]]+|[+](INF|NaN))))([${notInSymbol}]|$).*'' floatMaxLength;
+
+    matchDot = mkMatcher ''([.])([${notInSymbol}]|$).*'' 2;
+
+    matchFunction = throw "matchFunction: Not implemented";
+
+    # Symbols can contain pretty much any characters - the general
+    # rule is that if nothing else matches, it's a symbol, so we
+    # should be pretty generous here and match for symbols last. See
+    # https://www.gnu.org/software/emacs/manual/html_node/elisp/Symbol-Type.html
+    matchSymbol =
+      let
+        symbolChar = ''([^${notInSymbol}]|\\.)'';
+      in mkMatcher ''(${symbolChar}+)([${notInSymbol}]|$).*'' symbolMaxLength;
+
+
+    isDigit = lib.flip elem [ "+" "-" "." "0" "1" "2" "3" "4" "5" "6" "7" "8" "9" ];
+
+    maxTokenLength = foldl' max 0 [
+      commentMaxLength
+      stringMaxLength
+      characterMaxLength
+      integerMaxLength
+      floatMaxLength
+      boolVectorMaxLength
+      symbolMaxLength
+    ];
+  in { elisp, startLineNumber ? 1 }:
     let
-      # These are the only characters that can not be unescaped in a
-      # symbol name. We match the inverse of these to get the actual
-      # symbol characters and use them to differentiate between
-      # symbols and tokens that could potentially look like symbols,
-      # such as numbers. Due to the leading bracket, this has to be
-      # placed _first_ inside a bracket expression.
-      notInSymbol = '']["'`,#;\\()[:space:][:cntrl:]'';
-
-      matchComment = mkMatcher "(;[^\n]*).*" commentMaxLength;
-
-      matchString = mkMatcher ''("([^"\\]|\\.)*").*'' stringMaxLength;
-
-      matchCharacter = mkMatcher ''([?]((\\[sSHMAC]-)|\\\^)*(([^][\\()]|\\[][\\()])|\\[^^SHMACNuUx0-7]|\\[uU][[:digit:]a-fA-F]+|\\x[[:digit:]a-fA-F]*|\\[0-7]{1,3}|\\N\{[^}]+}))([${notInSymbol}?]|$).*'' characterMaxLength;
-
-      matchNonBase10Integer = mkMatcher ''(#([BbOoXx]|[[:digit:]]{1,2}r)[[:digit:]a-fA-F]+)([${notInSymbol}]|$).*'' integerMaxLength;
-
-      matchInteger = mkMatcher ''([+-]?[[:digit:]]+[.]?)([${notInSymbol}]|$).*'' integerMaxLength;
-
-      matchBoolVector = mkMatcher ''(#&[[:digit:]]+"([^"\\]|\\.)*").*'' boolVectorMaxLength;
-
-      matchFloat = mkMatcher ''([+-]?([[:digit:]]*[.][[:digit:]]+|([[:digit:]]*[.])?[[:digit:]]+e([+-]?[[:digit:]]+|[+](INF|NaN))))([${notInSymbol}]|$).*'' floatMaxLength;
-
-      matchDot = mkMatcher ''([.])([${notInSymbol}]|$).*'' 2;
-
-      # Symbols can contain pretty much any characters - the general
-      # rule is that if nothing else matches, it's a symbol, so we
-      # should be pretty generous here and match for symbols last. See
-      # https://www.gnu.org/software/emacs/manual/html_node/elisp/Symbol-Type.html
-      matchSymbol =
-        let
-          symbolChar = ''([^${notInSymbol}]|\\.)'';
-        in mkMatcher ''(${symbolChar}+)([${notInSymbol}]|$).*'' symbolMaxLength;
-
-      maxTokenLength = foldl' max 0 [
-        commentMaxLength
-        stringMaxLength
-        characterMaxLength
-        integerMaxLength
-        floatMaxLength
-        boolVectorMaxLength
-        symbolMaxLength
-      ];
-
       # Fold over all the characters in a string, checking for
       # matching tokens.
       #
@@ -133,11 +145,9 @@ let
             }
           else if char == "\n" then
             let
-              mod = state.line / 1000;
               newState = {
                 pos = state.pos + 1;
                 line = state.line + 1;
-                inherit mod;
               };
             in
               state // (
@@ -145,12 +155,12 @@ let
                 # doesn't have a modulo builtin, so we have to save
                 # the result of an integer division and compare
                 # between runs.
-                if mod > state.mod then
+                if mod state.line 1000 == 0 then
                   seq state.acc newState
                 else
                   newState
               )
-          else if elem char [ " " "\t" "\r" ] then
+          else if isWhitespace char then
             state // {
               pos = state.pos + 1;
               inherit (state) line;
@@ -232,7 +242,7 @@ let
                   skip = (stringLength nonBase10Integer) - 1;
                 }
               else throw "Unrecognized token on line ${toString state.line}: ${rest}"
-          else if elem char [ "+" "-" "." "0" "1" "2" "3" "4" "5" "6" "7" "8" "9" ] then
+          else if isDigit char then
             if integer != null then
               state // {
                 acc = state.acc ++ [{ type = "integer"; value = integer; inherit (state) line; }];
@@ -291,13 +301,22 @@ let
             }
           else
             throw "Unrecognized token on line ${toString state.line}: ${rest}";
-    in (builtins.foldl' readToken { acc = []; pos = 0; skip = 0; line = startLineNumber; mod = 0; } (stringToCharacters elisp)).acc;
+      in (builtins.foldl' readToken {
+        acc = [];
+        pos = 0;
+        skip = 0;
+        line = startLineNumber;
+      } (stringToCharacters elisp)).acc;
 
   tokenizeElisp = elisp:
     tokenizeElisp' { inherit elisp; };
 
   # Produce an AST from a list of tokens produced by `tokenizeElisp`.
-  parseElisp' = tokens:
+  parseElisp' = let
+    removeIntDelimiter = removeStrings ["+" "."];
+    removePlus = removeStrings ["+"];
+    removeMinus = removeStrings ["-"];
+  in tokens:
     let
       # Convert literal value tokens in a flat list to their
       # corresponding nix representation.
@@ -309,7 +328,7 @@ let
             }
           else if token.type == "integer" then
             token // {
-              value = fromJSON (removeStrings ["+" "."] token.value);
+              value = fromJSON (removeIntDelimiter token.value);
             }
           else if token.type == "symbol" && token.value == "t" then
             token // {
@@ -319,12 +338,12 @@ let
             let
               initial = head (match "([+-]?([[:digit:]]*[.])?[[:digit:]]+(e([+-]?[[:digit:]]+|[+](INF|NaN)))?)" token.value);
               isSpecial = (match "(.+(e[+](INF|NaN)))" initial) != null;
-              withoutPlus = removeStrings ["+"] initial;
+              withoutPlus = removePlus initial;
               withPrefix =
                 if substring 0 1 withoutPlus == "." then
                   "0" + withoutPlus
                 else if substring 0 2 withoutPlus == "-." then
-                  "-0" + removeStrings ["-"] withoutPlus
+                  "-0" + removeMinus withoutPlus
                 else
                   withoutPlus;
             in
@@ -462,7 +481,9 @@ let
         in
           (foldl' parseToken { acc = []; dotted = false; inList = false; depthReduction = 0; } tokens).acc;
 
-      parseQuotes = tokens:
+      parseQuotes = let
+        isQuote = lib.flip elem [ "quote" "expand" "slice" "backquote" "function" "record" "byteCode" ];
+      in tokens:
         let
           parseToken = state: token':
             let
@@ -474,7 +495,7 @@ let
                 else
                   token';
             in
-              if elem token.type [ "quote" "expand" "slice" "backquote" "function" "record" "byteCode" ] then
+              if isQuote token.type then
                 state // {
                   quotes = [ token ] ++ state.quotes;
                 }
@@ -550,15 +571,18 @@ let
   # the code block's `body` attribute, until a footer is successfully
   # matched and the block is added to the list of parsed blocks,
   # `state.acc`.
-  parseOrgModeBabel = text:
+  parseOrgModeBabel = let
+    matchBeginCodeBlock = mkMatcher "(#[+][bB][eE][gG][iI][nN]_[sS][rR][cC])([[:space:]]+).*" orgModeBabelCodeBlockHeaderMaxLength;
+    matchHeader = mkMatcher "(#[+][hH][eE][aA][dD][eE][rR][sS]?:)([[:space:]]+).*" orgModeBabelCodeBlockHeaderMaxLength;
+    matchEndCodeBlock = mkMatcher "(#[+][eE][nN][dD]_[sS][rR][cC][^\n]*).*" orgModeBabelCodeBlockHeaderMaxLength;
+
+    matchBeginCodeBlockLang = match "([[:blank:]]*)([[:alnum:]][[:alnum:]-]*).*";
+    matchBeginCodeBlockFlags = mkMatcher "([^\n]*[\n]).*" orgModeBabelCodeBlockHeaderMaxLength;
+
+    isItem = lib.flip elem [ ":" "-" "+" ];
+
+  in text:
     let
-      matchBeginCodeBlock = mkMatcher "(#[+][bB][eE][gG][iI][nN]_[sS][rR][cC])([[:space:]]+).*" orgModeBabelCodeBlockHeaderMaxLength;
-      matchHeader = mkMatcher "(#[+][hH][eE][aA][dD][eE][rR][sS]?:)([[:space:]]+).*" orgModeBabelCodeBlockHeaderMaxLength;
-      matchEndCodeBlock = mkMatcher "(#[+][eE][nN][dD]_[sS][rR][cC][^\n]*).*" orgModeBabelCodeBlockHeaderMaxLength;
-
-      matchBeginCodeBlockLang = match "([[:blank:]]*)([[:alnum:]][[:alnum:]-]*).*";
-      matchBeginCodeBlockFlags = mkMatcher "([^\n]*[\n]).*" orgModeBabelCodeBlockHeaderMaxLength;
-
       parseToken = state: char:
         let
           rest = substring state.pos orgModeBabelCodeBlockHeaderMaxLength text;
@@ -575,7 +599,7 @@ let
               pos = state.pos + 1;
               skip = state.skip - 1;
               line = if char == "\n" then state.line + 1 else state.line;
-              leadingWhitespace = char == "\n" || (state.leadingWhitespace && elem char [ " " "\t" "\r" ]);
+              leadingWhitespace = char == "\n" || (state.leadingWhitespace && isWhitespace char);
             }
           else if char == "#" && state.leadingWhitespace && !state.readBody && beginCodeBlock != null then
             state // {
@@ -612,7 +636,7 @@ let
                   let
                     prefix = if isString item then substring 0 1 item else null;
                   in
-                    if elem prefix [ ":" "-" "+" ] then
+                    if isItem prefix then
                       state // {
                         acc = state.acc // { ${item} = true; };
                         flag = item;
@@ -659,18 +683,16 @@ let
             }
           else if state.readBody then
             let
-              mod = state.pos / 100;
               newState = {
                 block = state.block // {
                   body = state.block.body + char;
                 };
-                inherit mod;
                 pos = state.pos + 1;
                 line = if char == "\n" then state.line + 1 else state.line;
-                leadingWhitespace = char == "\n" || (state.leadingWhitespace && elem char [ " " "\t" "\r" ]);
+                leadingWhitespace = char == "\n" || (state.leadingWhitespace && isWhitespace char);
               };
             in
-              if mod > state.mod then
+              if mod state.pos 100 == 0 then
                 state // seq state.block.body (force newState)
               else
                 state // newState
@@ -678,13 +700,12 @@ let
             state // force {
               pos = state.pos + 1;
               line = if char == "\n" then state.line + 1 else state.line;
-              leadingWhitespace = char == "\n" || (state.leadingWhitespace && elem char [ " " "\t" "\r" ]);
+              leadingWhitespace = char == "\n" || (state.leadingWhitespace && isWhitespace char);
             };
     in
       (foldl'
         parseToken
         { acc = [];
-          mod = 0;
           pos = 0;
           skip = 0;
           line = 1;
@@ -703,7 +724,10 @@ let
   # Run tokenizeElisp' on all Elisp code blocks (with `:tangle yes`
   # set) from an Org mode babel text. If the block doesn't have a
   # `tangle` attribute, it's determined by `defaultArgs`.
-  tokenizeOrgModeBabelElisp' = defaultArgs: text:
+  tokenizeOrgModeBabelElisp' = let
+    isElisp = lib.flip elem [ "elisp" "emacs-lisp" ];
+    doTangle = lib.flip elem [ "yes" ''"yes"'' ];
+  in defaultArgs: text:
     let
       codeBlocks =
         filter
@@ -711,9 +735,7 @@ let
             let
               tangle = toLower (block.flags.":tangle" or defaultArgs.":tangle" or "no");
               language = toLower block.language;
-            in
-              elem language [ "elisp" "emacs-lisp" ]
-                && elem tangle [ "yes" ''"yes"'' ])
+            in isElisp language && doTangle tangle)
           (parseOrgModeBabel text);
       in
         foldl'
