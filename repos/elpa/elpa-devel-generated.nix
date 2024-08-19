@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240816.72607";
+      version = "14.0.6.0.20240819.61415";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240816.72607.tar";
-        sha256 = "0mbnz74p2dzjw5znd95363cip2icfx0f3pvihm4qw48yrd0pdb9v";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240819.61415.tar";
+        sha256 = "0vcw6mdcb4mv5zkbbrh7bk7cbhxs78ngbpbipcfzqjr5b151g7lr";
       };
       packageRequires = [ ];
       meta = {
@@ -4033,10 +4033,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20240818.174038";
+      version = "9.0.2pre0.20240819.10443";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240818.174038.tar";
-        sha256 = "0kk035pkcbyfg7rb8k98ldgr53aaw510ssn5rva1wilf1skvsxwm";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240819.10443.tar";
+        sha256 = "0j3rz9hpqbv8757y3cbg5yx1kf56f5wkdvncch5pmg774v4lk5cl";
       };
       packageRequires = [ ];
       meta = {
@@ -4789,10 +4789,10 @@
     elpaBuild {
       pname = "listen";
       ename = "listen";
-      version = "0.10pre0.20240818.42925";
+      version = "0.10pre0.20240818.210429";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240818.42925.tar";
-        sha256 = "1vhhrsqdjysab06gq675mkjx1w7r3k9w4sn9w264v1vi2sd9q8ai";
+        url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240818.210429.tar";
+        sha256 = "1cww04hcna6biv9928xrfwh6vxhp8n66z3ws1xckg08wj18apnwv";
       };
       packageRequires = [
         persist
@@ -6390,10 +6390,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "0.0.20240817.182757";
+      version = "0.0.20240819.71411";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-0.0.20240817.182757.tar";
-        sha256 = "0dcyf7y4g0ywx55z8s0slzqrrhvl2pcr3fa1hxx9vmi7f7vzl87d";
+        url = "https://elpa.gnu.org/devel/phpinspect-0.0.20240819.71411.tar";
+        sha256 = "0ag1a2ggrjw80m6i0lrnqzsqji4bw1rr6922aylqkmhbr2ykqnsk";
       };
       packageRequires = [ compat ];
       meta = {
