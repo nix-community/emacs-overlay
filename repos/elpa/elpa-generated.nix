@@ -1717,10 +1717,10 @@
     elpaBuild {
       pname = "cursor-undo";
       ename = "cursor-undo";
-      version = "1.1.4";
+      version = "1.1.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cursor-undo-1.1.4.tar";
-        sha256 = "0igbrapi9lqh94sh1yl3sbkr9iifgh5asdwzzm3vmq99fmnc62h5";
+        url = "https://elpa.gnu.org/packages/cursor-undo-1.1.5.tar";
+        sha256 = "1zbn4wfirnwjhy4q0lz8s0zffp84v6zs1x6wjxlcr0la7xn2sx4v";
       };
       packageRequires = [ ];
       meta = {
@@ -5879,10 +5879,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.9";
+      version = "9.7.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.9.tar";
-        sha256 = "1y1s9ndqwxk1jpxxvmibx53k6n9zbvbqfyimzafbwg3xdmhb68fg";
+        url = "https://elpa.gnu.org/packages/org-9.7.10.tar";
+        sha256 = "0rabxq2diikdwifybril1b9cxkwry7agyw8gsdyf1n800f8vq5ka";
       };
       packageRequires = [ ];
       meta = {
