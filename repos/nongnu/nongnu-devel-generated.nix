@@ -859,10 +859,10 @@
     elpaBuild {
       pname = "diff-ansi";
       ename = "diff-ansi";
-      version = "0.2.0.20240616.234552";
+      version = "0.2.0.20240818.235912";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20240616.234552.tar";
-        sha256 = "12cb4h3w6j0hissma1p9q173q9g379b01h8359wrj9ynbyrvdbsh";
+        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20240818.235912.tar";
+        sha256 = "085h7xb75dkdmsnc572rmqgzw1pp4jmxcfrr3nnpbvirgjij8pma";
       };
       packageRequires = [ ];
       meta = {
@@ -2033,6 +2033,34 @@
       };
     }
   ) { };
+  gnosis = callPackage (
+    {
+      compat,
+      elpaBuild,
+      emacsql,
+      fetchurl,
+      lib,
+      transient,
+    }:
+    elpaBuild {
+      pname = "gnosis";
+      ename = "gnosis";
+      version = "0.4.1.0.20240818.212703";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.1.0.20240818.212703.tar";
+        sha256 = "1nw13pfbgfja5c70zpmcrm6wqvps4zchskj26x1fh171233m8wln";
+      };
+      packageRequires = [
+        compat
+        emacsql
+        transient
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/gnosis.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   gnu-apl-mode = callPackage (
     {
       elpaBuild,
@@ -2525,10 +2553,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240818.114918";
+      version = "0.4pre0.20240818.142318";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240818.114918.tar";
-        sha256 = "0f0i9igbznakni9i9l5ywvy1fdal7xpzpm734npv57azpy0hhdyq";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240818.142318.tar";
+        sha256 = "0ggsxw2s974l7m4v8p3f535fz13d0z15gwpx6pp7k3rrs5was9vp";
       };
       packageRequires = [
         compat

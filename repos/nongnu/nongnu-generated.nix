@@ -2073,6 +2073,34 @@
       };
     }
   ) { };
+  gnosis = callPackage (
+    {
+      compat,
+      elpaBuild,
+      emacsql,
+      fetchurl,
+      lib,
+      transient,
+    }:
+    elpaBuild {
+      pname = "gnosis";
+      ename = "gnosis";
+      version = "0.4.1";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/gnosis-0.4.1.tar";
+        sha256 = "1iqpssf3gxv54gig718529y3cfjybvvjcvndzhjsiyw5b33pkbby";
+      };
+      packageRequires = [
+        compat
+        emacsql
+        transient
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/gnosis.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   gnu-apl-mode = callPackage (
     {
       elpaBuild,
