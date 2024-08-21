@@ -398,10 +398,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.8";
+      version = "1.9.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/async-1.9.8.tar";
-        sha256 = "0m9w7f8rgpcljsv2p6a9gwqx12whf66mbjranwwzacn98rwchh4v";
+        url = "https://elpa.gnu.org/packages/async-1.9.9.tar";
+        sha256 = "00slbyzjjn2v90lkaa9kc3wvlibs0rldh9crzjgp43y31xrzgpsg";
       };
       packageRequires = [ ];
       meta = {
@@ -5302,10 +5302,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.4.0";
+      version = "4.5.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/modus-themes-4.4.0.tar";
-        sha256 = "1bqvyf8xq55dligwqhw4d6z9bv529rhnijxv5y5gdlzap973bf71";
+        url = "https://elpa.gnu.org/packages/modus-themes-4.5.0.tar";
+        sha256 = "1f75rkl6bvqsc2s4fz67rk3h3fl9qw4vay0dj1agas4x0zskm89v";
       };
       packageRequires = [ ];
       meta = {
@@ -6347,6 +6347,28 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/persist.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  phpinspect = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "phpinspect";
+      ename = "phpinspect";
+      version = "1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/phpinspect-1.tar";
+        sha256 = "1g2r84aawrvci47a6ks23gh48y90zgbjsn0yadvi1488xsbjlkjv";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/phpinspect.html";
         license = lib.licenses.free;
       };
     }
