@@ -8963,10 +8963,10 @@
     elpaBuild {
       pname = "use-package";
       ename = "use-package";
-      version = "2.4.5";
+      version = "2.4.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/use-package-2.4.5.tar";
-        sha256 = "060bbrbmx3psv4jkn95zjyhbyfidip86sfi8975fhqcc0aagnwhp";
+        url = "https://elpa.gnu.org/packages/use-package-2.4.6.tar";
+        sha256 = "0idy78mpg9zikjqfg431q7fd34mwz18blvp6yq1bf29q582a9jyf";
       };
       packageRequires = [ bind-key ];
       meta = {

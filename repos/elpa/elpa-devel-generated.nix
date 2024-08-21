@@ -2548,10 +2548,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.7.0.0.20240819.163406";
+      version = "1.7.0.0.20240820.110009";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240819.163406.tar";
-        sha256 = "1shapc9zjw3ca1x4gxwy7pz7ajm0h07nk8xrf4bypc629gzsg107";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240820.110009.tar";
+        sha256 = "13ldhv19lk0h14vqdysl52hkpl021mrcmdfm7d1akmiz092nqrq7";
       };
       packageRequires = [ ];
       meta = {
@@ -4581,10 +4581,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.3.2.0.20240815.172320";
+      version = "0.3.2.0.20240820.105226";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.3.2.0.20240815.172320.tar";
-        sha256 = "0rzf1vyzmxm36w1ljxc09adqrp2w8bn0bn5gk5k0z4vy3r5yysj6";
+        url = "https://elpa.gnu.org/devel/kubed-0.3.2.0.20240820.105226.tar";
+        sha256 = "1qv9z45v85f0lm2fw8aks6308g0dcb748pabda1cc5bkjkr3fw60";
       };
       packageRequires = [ ];
       meta = {
@@ -6390,10 +6390,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "0.0.20240819.94625";
+      version = "0.0.20240820.192818";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-0.0.20240819.94625.tar";
-        sha256 = "1xmyhfzl04aq82a1880p9l7m0az3267amz2qi0a36p5pxcnshz7z";
+        url = "https://elpa.gnu.org/devel/phpinspect-0.0.20240820.192818.tar";
+        sha256 = "01h6nj1razfvb3wng7nr5m8ckyij1vjh018mgx78cm1m7f62d3v4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6816,10 +6816,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.0.1.0.20240429.64508";
+      version = "1.0.1.0.20240820.155302";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20240429.64508.tar";
-        sha256 = "1ak3vphfw0rsm4rrqyg72zjjwm68ypwxbbif8fz31rnsp0n66f8n";
+        url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20240820.155302.tar";
+        sha256 = "1p8mn5aa9qa589rg8vfg7g29z1p59g28njlsnnqysk18wfkyg6cb";
       };
       packageRequires = [ ];
       meta = {
@@ -8810,10 +8810,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.4.0.20240805.123130";
+      version = "0.7.4.0.20240820.193152";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.4.0.20240805.123130.tar";
-        sha256 = "1bm1kv7n24bzixa2gmb6km2iacqag4l8kwrcxdf09yxwisg0a3zf";
+        url = "https://elpa.gnu.org/devel/transient-0.7.4.0.20240820.193152.tar";
+        sha256 = "1qchmm86alvqx5zadifxhv126wipi2vnc03fq9wvb9iam6fijp0c";
       };
       packageRequires = [
         compat
@@ -9128,10 +9128,10 @@
     elpaBuild {
       pname = "use-package";
       ename = "use-package";
-      version = "2.4.5.0.20240804.85212";
+      version = "2.4.6.0.20240820.135725";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/use-package-2.4.5.0.20240804.85212.tar";
-        sha256 = "1i1vm2vsc9wa25lxyrfaizrnj47l5cbfaxaan3n6rc7i88zw62bx";
+        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20240820.135725.tar";
+        sha256 = "1xradbi7jxvr3i4n84cfw271445wxdgg92xkygkxp051mnb309xi";
       };
       packageRequires = [ bind-key ];
       meta = {
