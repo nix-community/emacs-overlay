@@ -28096,8 +28096,20 @@
   "repo": "joostkremers/ebib",
   "unstable": {
    "version": [
-    20240723,
-    1149
+    20240821,
+    752
+   ],
+   "deps": [
+    "compat",
+    "parsebib"
+   ],
+   "commit": "66d35ede5c209e2aaa81c885acde1214b5a1c132",
+   "sha256": "16pzr6djwqiz12xbvd5lvq5p2ai7916z7jr68xnjwc7mpxxb8kfz"
+  },
+  "stable": {
+   "version": [
+    2,
+    43
    ],
    "deps": [
     "compat",
@@ -28105,19 +28117,6 @@
    ],
    "commit": "5ea510a1e4ab17a442352d0212777da5f78d4be2",
    "sha256": "080n9k0r9w4hdcg5g89blyyr0c6q2jhwqn42fvizn6z8xkkn5cbp"
-  },
-  "stable": {
-   "version": [
-    2,
-    42,
-    2
-   ],
-   "deps": [
-    "compat",
-    "parsebib"
-   ],
-   "commit": "dcebdbfdd3129a8e0b40fe69c27a6933bc0b7a4f",
-   "sha256": "1ib9jicj3hfwqz909fw4mzspbdg61g1kbi142r6qg99kaim5py2k"
   }
  },
  {
@@ -37533,11 +37532,11 @@
   "repo": "meain/evil-textobj-tree-sitter",
   "unstable": {
    "version": [
-    20240213,
-    522
+    20240821,
+    1356
    ],
-   "commit": "856773515072bdce88c8420f44bc84fbcbf96af4",
-   "sha256": "10shjlp6dihhnriw8mg7mkwb2b5xnagkikzq5nknf9xpn7pjp3rr"
+   "commit": "6e5722cf6a42fa7dd7af80e6820205e4a5598999",
+   "sha256": "00gzg9v0g0rjbszqz4lqj20k3kzdsnd6miwmi2b98irckvl6r3ss"
   }
  },
  {
@@ -46098,11 +46097,11 @@
   "repo": "gmlarumbe/fpga",
   "unstable": {
    "version": [
-    20240329,
-    1759
+    20240821,
+    1256
    ],
-   "commit": "34e521962ba3842321d456bd587aa93e4b627969",
-   "sha256": "07v8ybmljx9894q5q8qpvqdia892907ikl9q7vixhxkx5g4adjb6"
+   "commit": "a244912196be0d65d783d9627fab4b8217eaa567",
+   "sha256": "0pf0vvzd1a08idf7gsfp0lmy7s0nw7h6rmanpbsibp6ms8m5wahv"
   },
   "stable": {
    "version": [
@@ -79239,20 +79238,20 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20240811,
-    502
+    20240821,
+    724
    ],
-   "commit": "3002f6fb64e147ece4284880ffa93c6c3baa0e75",
-   "sha256": "15sv711y34h6w5lzbkyvvbyh5j02288p5iqj3jngl1qsdz7xb79m"
+   "commit": "db70c2ca923261591419de084f9e4c806b409b60",
+   "sha256": "04nr06w7zvvkk0m368pkp4pdlv6m91qnxizrvns2530prddb4c7i"
   },
   "stable": {
    "version": [
     4,
-    4,
+    5,
     0
    ],
-   "commit": "a082d7739f627523c6d9098c869cf143fa60b014",
-   "sha256": "1vy6wyq8hv8fih4m8m1k9n7fdp913nmv0k5g8vppnjivmnrwfswy"
+   "commit": "db70c2ca923261591419de084f9e4c806b409b60",
+   "sha256": "04nr06w7zvvkk0m368pkp4pdlv6m91qnxizrvns2530prddb4c7i"
   }
  },
  {
@@ -94013,14 +94012,14 @@
   "repo": "yashi/org-asciidoc",
   "unstable": {
    "version": [
-    20240316,
-    1959
+    20240821,
+    753
    ],
    "deps": [
     "org"
    ],
-   "commit": "d6736852a5479c73c253d2ea8b352dcb232d02f8",
-   "sha256": "0sfc38p4jc6dxppmx1mxk7sni45jy6qq6220md4pnigsn8q6pr7k"
+   "commit": "cec4555555e660413b509a204b9e40a86aa586ac",
+   "sha256": "04p1a285nacsjgk0i5wzwkwwj3jq9hxc98sp9wcwhbxk78z2dn6g"
   }
  },
  {
@@ -119331,14 +119330,14 @@
   "repo": "Crandel/tempel-collection",
   "unstable": {
    "version": [
-    20240507,
-    805
+    20240821,
+    1025
    ],
    "deps": [
     "tempel"
    ],
-   "commit": "cf2594313a41f6a29205e378411ebb10e9d764c3",
-   "sha256": "1zq17avwf9mfgr5jq9fnvx4c25a2mfr2wf3ip1ix5n3700z48ry7"
+   "commit": "17ae488e8d39f7cdf4dbc3272f8ca6ea4990d7a9",
+   "sha256": "1r3mm62l266dfmm8fj32zrwyk70mi7khyya67vj44g23bgrb2skh"
   }
  },
  {
@@ -127102,11 +127101,11 @@
   "repo": "hardenedapple/vsh",
   "unstable": {
    "version": [
-    20240730,
-    2036
+    20240820,
+    1320
    ],
-   "commit": "0d98be666ccc59f9b31521d20dda8d0e07dd53cd",
-   "sha256": "0l7m8i40hfhnd4jrvkjn4n18nfbigmh4sdbc0086mgn9xn23shv5"
+   "commit": "40daabb4b05e1dce8bc9b68cb437d9aff3cfa7d0",
+   "sha256": "0bzl82dpga2nazpilrrih35mdqxp5ar360rbvk12b96xlas7lbnr"
   }
  },
  {
