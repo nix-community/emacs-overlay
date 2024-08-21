@@ -1994,10 +1994,10 @@
     elpaBuild {
       pname = "git-commit";
       ename = "git-commit";
-      version = "4.0.0.0.20240818.190757";
+      version = "4.0.0.0.20240820.552";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/git-commit-4.0.0.0.20240818.190757.tar";
-        sha256 = "057xpp0w1hyb2c8h0sr4lnpyr5hphgb9yn27rq5jqhwkn8v9r8b2";
+        url = "https://elpa.nongnu.org/nongnu-devel/git-commit-4.0.0.0.20240820.552.tar";
+        sha256 = "18121z6jrbv3xqy40nskgkhv2nc1ivwaycqgzlk4msqhxx09snl2";
       };
       packageRequires = [
         compat
@@ -2395,10 +2395,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "3.9.9.0.20240818.123128";
+      version = "3.9.9.0.20240820.155334";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-3.9.9.0.20240818.123128.tar";
-        sha256 = "01zj0bi9189nbpgp88sdpl61ly1xhqaf33cp8k41sfpka3v0g24f";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-3.9.9.0.20240820.155334.tar";
+        sha256 = "0vkxc02inm2q8a3r1c8zggals8v73sjbbyx8pdg9dvm2018mp37n";
       };
       packageRequires = [
         helm-core
@@ -2420,10 +2420,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "3.9.9.0.20240818.123128";
+      version = "3.9.9.0.20240820.155334";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-3.9.9.0.20240818.123128.tar";
-        sha256 = "185acikmdvzlwjnac7xkh5agzihka1h6r8ng3ma05gwdxkxnb28s";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-3.9.9.0.20240820.155334.tar";
+        sha256 = "0cf9rwx82ammkbx87k1jylvxss0sc729k0c5b3wn5mvwfmqqpd7w";
       };
       packageRequires = [ async ];
       meta = {
@@ -2553,10 +2553,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240818.142318";
+      version = "0.4pre0.20240820.13043";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240818.142318.tar";
-        sha256 = "0ggsxw2s974l7m4v8p3f535fz13d0z15gwpx6pp7k3rrs5was9vp";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240820.13043.tar";
+        sha256 = "011bac321dqrrag6910mpwyh19yg0kirmfqhp5pm2mq90skascaw";
       };
       packageRequires = [
         compat
@@ -2942,10 +2942,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.0.0.0.20240817.175213";
+      version = "4.0.0.0.20240820.552";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.0.0.0.20240817.175213.tar";
-        sha256 = "1abp8d21dm8ygmmmx2bhq1wsz23w259l110743zyx77jbrynizci";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.0.0.0.20240820.552.tar";
+        sha256 = "18wn3jigicm244xjv0p0azkl2fdr0nrzb6cv646wp9j623qr37bq";
       };
       packageRequires = [
         compat
@@ -2974,10 +2974,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.0.0.0.20240818.190757";
+      version = "4.0.0.0.20240820.552";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.0.0.0.20240818.190757.tar";
-        sha256 = "1bm8k9a8x06310099s71s11igh838fk4k26nb0gsd8xp1szima38";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.0.0.0.20240820.552.tar";
+        sha256 = "0k1h7a8vp2fr4md8sdj4fd6906wdimf3g15mp5br2hc9pl9d2fd4";
       };
       packageRequires = [
         compat
@@ -4953,10 +4953,10 @@
     elpaBuild {
       pname = "wfnames";
       ename = "wfnames";
-      version = "1.2.0.20240418.100527";
+      version = "1.2.0.20240820.90633";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/wfnames-1.2.0.20240418.100527.tar";
-        sha256 = "112m3y96bdsk75vza4lh9lgdcnv35c3iqgidkgpynsgxil4njshj";
+        url = "https://elpa.nongnu.org/nongnu-devel/wfnames-1.2.0.20240820.90633.tar";
+        sha256 = "1q7blrhkj1y7fgqwqgslihr7qqqq4fbgwpfcbhja5ivlxv973ay8";
       };
       packageRequires = [ ];
       meta = {
