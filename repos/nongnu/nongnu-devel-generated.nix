@@ -1994,10 +1994,10 @@
     elpaBuild {
       pname = "git-commit";
       ename = "git-commit";
-      version = "4.0.0.0.20240820.552";
+      version = "4.0.0.0.20240820.215621";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/git-commit-4.0.0.0.20240820.552.tar";
-        sha256 = "18121z6jrbv3xqy40nskgkhv2nc1ivwaycqgzlk4msqhxx09snl2";
+        url = "https://elpa.nongnu.org/nongnu-devel/git-commit-4.0.0.0.20240820.215621.tar";
+        sha256 = "19s99jdbp53czkin9gz9qqmynxpjk70vy3l797g8p435jd7x2rly";
       };
       packageRequires = [
         compat
@@ -2553,10 +2553,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240820.13043";
+      version = "0.4pre0.20240820.223106";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240820.13043.tar";
-        sha256 = "011bac321dqrrag6910mpwyh19yg0kirmfqhp5pm2mq90skascaw";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240820.223106.tar";
+        sha256 = "0x9f5qaql9lvnwa1yzyqbal2rxa4yzcv0c442zssvkbzbg95fi4w";
       };
       packageRequires = [
         compat
@@ -2942,10 +2942,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.0.0.0.20240820.552";
+      version = "4.0.0.0.20240820.215621";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.0.0.0.20240820.552.tar";
-        sha256 = "18wn3jigicm244xjv0p0azkl2fdr0nrzb6cv646wp9j623qr37bq";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.0.0.0.20240820.215621.tar";
+        sha256 = "0y6q2y7dkr16vxd856gpc2p7kncp8g31gi7599r79gpxrngl0sp7";
       };
       packageRequires = [
         compat
@@ -2974,10 +2974,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.0.0.0.20240820.552";
+      version = "4.0.0.0.20240820.215621";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.0.0.0.20240820.552.tar";
-        sha256 = "0k1h7a8vp2fr4md8sdj4fd6906wdimf3g15mp5br2hc9pl9d2fd4";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.0.0.0.20240820.215621.tar";
+        sha256 = "13agphsg86nxalwb80j93gvwbxk5g705lv2ysj393h80v0sfkz3c";
       };
       packageRequires = [
         compat
