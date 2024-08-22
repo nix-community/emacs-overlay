@@ -2459,10 +2459,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "3.9.9";
+      version = "4.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/helm-core-3.9.9.tar";
-        sha256 = "067x4g19w032671545bfah4262xyhgnwxkaw8pdk4fqd5znw0yck";
+        url = "https://elpa.nongnu.org/nongnu/helm-core-4.0.tar";
+        sha256 = "043pavv01m7frhdvfnp3f1xfbs1xjv43p1xs96yg75gyg1cigfd5";
       };
       packageRequires = [ async ];
       meta = {
@@ -4128,10 +4128,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.5";
+      version = "1.0.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/rust-mode-1.0.5.tar";
-        sha256 = "1cilbf4yw4723bn1vh9ww79875fxh0r1j2c7wxjqfjk5xnx4s6q4";
+        url = "https://elpa.nongnu.org/nongnu/rust-mode-1.0.6.tar";
+        sha256 = "1x2hj5rhdcm9hdnr78430jh1ycwjiva5vv7xqm7758vcxw7x0nag";
       };
       packageRequires = [ ];
       meta = {

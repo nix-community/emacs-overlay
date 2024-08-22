@@ -922,10 +922,10 @@
     elpaBuild {
       pname = "dracula-theme";
       ename = "dracula-theme";
-      version = "1.8.2.0.20240614.130330";
+      version = "1.8.2.0.20240821.204622";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.2.0.20240614.130330.tar";
-        sha256 = "04z1n3ay5n75bdz2fic9nzgjgsvvagl6620abi8gnznig85d60k7";
+        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.2.0.20240821.204622.tar";
+        sha256 = "1qn0gxsg7z7n6r8wxgcswapg0jizxpng6fkgpfqy3h8nx2pg5l5i";
       };
       packageRequires = [ ];
       meta = {
@@ -1994,10 +1994,10 @@
     elpaBuild {
       pname = "git-commit";
       ename = "git-commit";
-      version = "4.0.0.0.20240820.215621";
+      version = "4.0.0.0.20240821.221222";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/git-commit-4.0.0.0.20240820.215621.tar";
-        sha256 = "19s99jdbp53czkin9gz9qqmynxpjk70vy3l797g8p435jd7x2rly";
+        url = "https://elpa.nongnu.org/nongnu-devel/git-commit-4.0.0.0.20240821.221222.tar";
+        sha256 = "0vczjywli9nxxdm0ifw3p6m86zs7c3fdqkypyihkgkasqvl09xgq";
       };
       packageRequires = [
         compat
@@ -2420,10 +2420,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "3.9.9.0.20240820.155334";
+      version = "4.0.0.20240822.53416";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-3.9.9.0.20240820.155334.tar";
-        sha256 = "0cf9rwx82ammkbx87k1jylvxss0sc729k0c5b3wn5mvwfmqqpd7w";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240822.53416.tar";
+        sha256 = "1dryl1b2jj5jzhdvjki7qa1xy38a328n24ml95ks18xn7b32y6xv";
       };
       packageRequires = [ async ];
       meta = {
@@ -2553,10 +2553,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240821.112931";
+      version = "0.4pre0.20240821.174144";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240821.112931.tar";
-        sha256 = "16k6dpriq7ppp1llch9fydbxkr5412fsmyidm3dfcv1xmsw0sh7l";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240821.174144.tar";
+        sha256 = "075javf8kq64sl8an77qyxmsc16x20gazwp54qpcwyi76nxh02zi";
       };
       packageRequires = [
         compat
@@ -2942,10 +2942,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.0.0.0.20240820.215621";
+      version = "4.0.0.0.20240821.221222";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.0.0.0.20240820.215621.tar";
-        sha256 = "0y6q2y7dkr16vxd856gpc2p7kncp8g31gi7599r79gpxrngl0sp7";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.0.0.0.20240821.221222.tar";
+        sha256 = "13dxng8wlvi8k10r6a2w056air9l1m4k67w0ph6a9s3x23ifb98d";
       };
       packageRequires = [
         compat
@@ -2974,10 +2974,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.0.0.0.20240820.215621";
+      version = "4.0.0.0.20240821.221222";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.0.0.0.20240820.215621.tar";
-        sha256 = "13agphsg86nxalwb80j93gvwbxk5g705lv2ysj393h80v0sfkz3c";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.0.0.0.20240821.221222.tar";
+        sha256 = "0026ixvgagzsrb3xfkncdlyhdpxjqj7ggzrsmj0prl7rl637gfm6";
       };
       packageRequires = [
         compat
@@ -4042,10 +4042,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.5.0.20240520.74946";
+      version = "1.0.6.0.20240822.42601";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.5.0.20240520.74946.tar";
-        sha256 = "0k64mr7z18rf1w8fn83ajsbdghc9i8qf6lmc2wyckif8cwj3f9fa";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20240822.42601.tar";
+        sha256 = "16vlkgr1c0j218gjna87gs4hrhrwj78xbb665z7ij5cc68qm1yg6";
       };
       packageRequires = [ ];
       meta = {
