@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240821.93601";
+      version = "14.0.6.0.20240822.65933";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240821.93601.tar";
-        sha256 = "0i9szw21y7sf4gkrbpnw32b3k6c4xdarp15hrl47dh85mkmaajjp";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240822.65933.tar";
+        sha256 = "1wzvl0nvq4ji0rfjjxm093iw7vbqsvmxk74pxj8vxmws3n42mmdf";
       };
       packageRequires = [ ];
       meta = {
@@ -4837,10 +4837,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.17.1.0.20240817.163032";
+      version = "0.17.1.0.20240822.10119";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.17.1.0.20240817.163032.tar";
-        sha256 = "13c6fr5xjiynya6dx39bp5zs9q0csq98a92nb8mg4bdx6lkldqaa";
+        url = "https://elpa.gnu.org/devel/llm-0.17.1.0.20240822.10119.tar";
+        sha256 = "1g82jc17csr15d92xizkf1ajsss145rygm7c5mi93n5g0nv952sx";
       };
       packageRequires = [ plz ];
       meta = {
@@ -6390,10 +6390,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "1.1.0.0.20240821.194355";
+      version = "1.1.0.0.20240821.202333";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-1.1.0.0.20240821.194355.tar";
-        sha256 = "17pincnhgkaakpyc4jf2qadwsdlygnafg1qlasn73hhhlkwx9jay";
+        url = "https://elpa.gnu.org/devel/phpinspect-1.1.0.0.20240821.202333.tar";
+        sha256 = "1cbq75lxl2zjmnxvss2kdlfga2gqsx3b8y513axzsajcchp2n06i";
       };
       packageRequires = [ compat ];
       meta = {
