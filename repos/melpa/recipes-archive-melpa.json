@@ -25240,11 +25240,11 @@
   "repo": "jart/disaster",
   "unstable": {
    "version": [
-    20230311,
-    2324
+    20240822,
+    708
    ],
-   "commit": "16bba9afb92aacf06c088c29ba47813b65a80d87",
-   "sha256": "1jbnycp9k78c9gp14flf4997fmsd95x3n62a108l8wr26a3cy95i"
+   "commit": "b20f8e1ef96167a7beed5eb4fc6ef72488bd3662",
+   "sha256": "15qi8szd1cggvy7qjd0z9aryw1qgps7hx97shvz03jakg8ik13fv"
   },
   "stable": {
    "version": [
@@ -30503,15 +30503,15 @@
   "repo": "fasheng/elfeed-protocol",
   "unstable": {
    "version": [
-    20231007,
-    1535
+    20240822,
+    805
    ],
    "deps": [
     "cl-lib",
     "elfeed"
    ],
-   "commit": "bcefb85a1d4075f36e73a94bda569e71f28a52c2",
-   "sha256": "1n5bns7181j6n603a626jsv26v06s3wm86ml7vixlp234p0frypp"
+   "commit": "4f5e77a28c501db686ac06a2ea250a7b37d5420c",
+   "sha256": "04dvg0haz5b2gl4iz7aqiryys24fwjrp6h23fcga3gjipwwwxzmb"
   },
   "stable": {
    "version": [
@@ -37531,19 +37531,19 @@
   "repo": "meain/evil-textobj-tree-sitter",
   "unstable": {
    "version": [
-    20240821,
-    1441
+    20240822,
+    933
    ],
-   "commit": "404b67b62e5a661805b8cb7b0429f60f7ebe5517",
-   "sha256": "0wiskavvn0n4yiydbisf3ilxmyxcx9cjvbq1rdfdijsadfn5xqv4"
+   "commit": "041fcb9fbb00deac92a4e58b5fca03f7dc0a32e8",
+   "sha256": "1nlary0nlgkryk7a7qrx5dfq6d1097mg1myaii24vgwamym6vd03"
   },
   "stable": {
    "version": [
     0,
-    3
+    4
    ],
-   "commit": "404b67b62e5a661805b8cb7b0429f60f7ebe5517",
-   "sha256": "0wiskavvn0n4yiydbisf3ilxmyxcx9cjvbq1rdfdijsadfn5xqv4"
+   "commit": "041fcb9fbb00deac92a4e58b5fca03f7dc0a32e8",
+   "sha256": "1nlary0nlgkryk7a7qrx5dfq6d1097mg1myaii24vgwamym6vd03"
   }
  },
  {
@@ -74265,11 +74265,11 @@
   "repo": "hawk/lux",
   "unstable": {
    "version": [
-    20230823,
-    844
+    20240108,
+    1004
    ],
-   "commit": "f3b8efa86568e88c71da92fd44b1000bfe006825",
-   "sha256": "0z9qkdkn4mhpxv9vl3jwdmybl7507lvdiw8mp4hixrqkc1cck1hl"
+   "commit": "322f50143d164cd1375c9f5b432cd19095aedbad",
+   "sha256": "0k8sbq57njsn1visjjl9x1il4grwdp9wxhly9q3ffgsl36qfcx3b"
   }
  },
  {
@@ -87742,14 +87742,25 @@
   "repo": "zondo/org-autoexport",
   "unstable": {
    "version": [
-    20240817,
-    623
+    20240822,
+    1359
    ],
    "deps": [
     "org"
    ],
-   "commit": "effe8d6a90e3ab26a7da65e21593e721784b1be7",
-   "sha256": "16h3rlyxlh09d0j42nk1p1kklb1kgi16767j86nz9xqamfjz90kl"
+   "commit": "47acc4a367c621075cfd27ddc3ad7c9282865771",
+   "sha256": "11a93qs86jxwvwsjvda6c51gg1db1w6zwp2disd3bnplbrsyskdr"
+  },
+  "stable": {
+   "version": [
+    1,
+    0
+   ],
+   "deps": [
+    "org"
+   ],
+   "commit": "47acc4a367c621075cfd27ddc3ad7c9282865771",
+   "sha256": "11a93qs86jxwvwsjvda6c51gg1db1w6zwp2disd3bnplbrsyskdr"
   }
  },
  {
@@ -105082,11 +105093,11 @@
   "repo": "xenodium/ready-player",
   "unstable": {
    "version": [
-    20240821,
-    1839
+    20240822,
+    745
    ],
-   "commit": "3bd1c34a0b60fa14e12374124afe6d4f7faa8406",
-   "sha256": "1fkhf17mpx5sln0k3agwj2cm7nwsbz7cpg3l0fp02llsydf8xr71"
+   "commit": "10fd98bf722b617fbb742dd89348f3b3896515ba",
+   "sha256": "0xpmkdn6i3cbxg3pascq2ggrwayl02g3aksv12mhgz19n4zzhrgx"
   },
   "stable": {
    "version": [
@@ -105652,14 +105663,14 @@
   "repo": "thierryvolpiatto/rectangle-utils",
   "unstable": {
    "version": [
-    20190411,
-    1757
+    20240822,
+    1134
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "46f7e73340fee40c1ab9a4e766a08ae3fce83ebe",
-   "sha256": "0dcga10lg2bl1p259s78jib7pd03v183hima8aksfr0c84s438yq"
+   "commit": "0d6e305e0da86477e14eaae8200b73b9f4fa17e5",
+   "sha256": "12jv6cn3zy1jlzmrv38dsislx1w77mi0kakbr6kjr014zy0qfk1q"
   },
   "stable": {
    "version": [
