@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240819.102544";
+      version = "14.0.6.0.20240821.93601";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240819.102544.tar";
-        sha256 = "1ca4h7d3shaykzay0cv48sfwkykjwc717557f1syy42xgnq1ghhd";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240821.93601.tar";
+        sha256 = "0i9szw21y7sf4gkrbpnw32b3k6c4xdarp15hrl47dh85mkmaajjp";
       };
       packageRequires = [ ];
       meta = {
@@ -3002,10 +3002,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "24.1.1.0.20240819.131103";
+      version = "24.1.1.0.20240821.145259";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20240819.131103.tar";
-        sha256 = "0kh6xbnw3w21dxz7d32cfckfrii104bjh05gi94agqqb2npkhgkm";
+        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20240821.145259.tar";
+        sha256 = "15qani3cvb5sb087k8rmsm55h3fx6dhhhjkv18c50060phwxr2q5";
       };
       packageRequires = [ ];
       meta = {
@@ -4581,10 +4581,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.3.2.0.20240820.105226";
+      version = "0.3.2.0.20240821.164727";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.3.2.0.20240820.105226.tar";
-        sha256 = "1qv9z45v85f0lm2fw8aks6308g0dcb748pabda1cc5bkjkr3fw60";
+        url = "https://elpa.gnu.org/devel/kubed-0.3.2.0.20240821.164727.tar";
+        sha256 = "0bb6x2cs82vahbi9lvmapfhwmhawx7fm7n0labk384gn41l4gj0p";
       };
       packageRequires = [ ];
       meta = {
@@ -6390,10 +6390,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "1.0.20240820.223912";
+      version = "1.1.0.0.20240821.194355";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-1.0.20240820.223912.tar";
-        sha256 = "1dbcggcqwhkv4qclpnzjd6hys47kd5r02byjz0mrw0j29kmva29z";
+        url = "https://elpa.gnu.org/devel/phpinspect-1.1.0.0.20240821.194355.tar";
+        sha256 = "17pincnhgkaakpyc4jf2qadwsdlygnafg1qlasn73hhhlkwx9jay";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6816,10 +6816,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.0.1.0.20240820.155302";
+      version = "1.0.1.0.20240821.133319";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20240820.155302.tar";
-        sha256 = "1p8mn5aa9qa589rg8vfg7g29z1p59g28njlsnnqysk18wfkyg6cb";
+        url = "https://elpa.gnu.org/devel/pulsar-1.0.1.0.20240821.133319.tar";
+        sha256 = "15yl4gz93qknh87rmclbqvh12wkw5vj9lnzwbv119j4a7h4xsawx";
       };
       packageRequires = [ ];
       meta = {

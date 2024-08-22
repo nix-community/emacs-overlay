@@ -6361,10 +6361,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "1";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/phpinspect-1.tar";
-        sha256 = "1g2r84aawrvci47a6ks23gh48y90zgbjsn0yadvi1488xsbjlkjv";
+        url = "https://elpa.gnu.org/packages/phpinspect-1.1.0.tar";
+        sha256 = "04wk864nf6n3gld3kgn53hfwnnnr23h8z9jqgny3lnrymnpydq45";
       };
       packageRequires = [ compat ];
       meta = {
