@@ -876,10 +876,10 @@
     elpaBuild {
       pname = "brief";
       ename = "brief";
-      version = "5.91.0.20240401.34715";
+      version = "5.92.0.20240823.62608";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/brief-5.91.0.20240401.34715.tar";
-        sha256 = "1knpamvbpz92b9zql6p0l7g1p5595l6kns0gw1vfhm7cl37dngyr";
+        url = "https://elpa.gnu.org/devel/brief-5.92.0.20240823.62608.tar";
+        sha256 = "0v2cdk4bs9xq7sn2a3qj3iaxmpmji5m9063cjhkhfd1crngv8a5a";
       };
       packageRequires = [
         cl-lib
@@ -3793,10 +3793,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.11.15.0.20240806.162404";
+      version = "0.11.15.0.20240823.24519";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.11.15.0.20240806.162404.tar";
-        sha256 = "11mh3cii9713bdl00kcxf2jhk04k9yi4x2bpazymz1iwfg4pk1hq";
+        url = "https://elpa.gnu.org/devel/greader-0.11.15.0.20240823.24519.tar";
+        sha256 = "0mnmq121z50kgr96c61ahqbsz2sh8g3xq81xp0dnzlxp5m9zrn2i";
       };
       packageRequires = [
         compat
@@ -6390,10 +6390,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "1.1.0.0.20240821.202333";
+      version = "1.2.0.0.20240822.230037";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-1.1.0.0.20240821.202333.tar";
-        sha256 = "1cbq75lxl2zjmnxvss2kdlfga2gqsx3b8y513axzsajcchp2n06i";
+        url = "https://elpa.gnu.org/devel/phpinspect-1.2.0.0.20240822.230037.tar";
+        sha256 = "1yd10227pfzn2gyavqihf651bkwq5ab4z4fsyg1rjn7j6p9mxxif";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9033,10 +9033,10 @@
     elpaBuild {
       pname = "urgrep";
       ename = "urgrep";
-      version = "0.5.1snapshot0.20240729.214836";
+      version = "0.5.2snapshot0.20240822.215612";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/urgrep-0.5.1snapshot0.20240729.214836.tar";
-        sha256 = "008kdywxj0zpgiqbjcngs8kbj4az2liisblkcc2cifhj31427cyd";
+        url = "https://elpa.gnu.org/devel/urgrep-0.5.2snapshot0.20240822.215612.tar";
+        sha256 = "01bkcz0zmzgf75x9zqm67i6bgz7rj5kazqqv0yjvnz4657cb5isr";
       };
       packageRequires = [
         compat

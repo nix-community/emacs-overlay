@@ -855,10 +855,10 @@
     elpaBuild {
       pname = "brief";
       ename = "brief";
-      version = "5.91";
+      version = "5.92";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/brief-5.91.tar";
-        sha256 = "106xm23045l3ds5q04s7c6wa00ffv7rw495cjqp99nzqvvbmivcb";
+        url = "https://elpa.gnu.org/packages/brief-5.92.tar";
+        sha256 = "0nfnk5aag5w7170njdl9gq2kf48gzmbmdpz209y1vzdxw91jrwql";
       };
       packageRequires = [
         cl-lib
@@ -6361,10 +6361,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "1.1.0";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/phpinspect-1.1.0.tar";
-        sha256 = "04wk864nf6n3gld3kgn53hfwnnnr23h8z9jqgny3lnrymnpydq45";
+        url = "https://elpa.gnu.org/packages/phpinspect-1.2.0.tar";
+        sha256 = "08kh9ci25dg6xjjcjrysz32rhq0pd8xl4lqdxa4wzw40zalr7jir";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8890,10 +8890,10 @@
     elpaBuild {
       pname = "urgrep";
       ename = "urgrep";
-      version = "0.5.0";
+      version = "0.5.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/urgrep-0.5.0.tar";
-        sha256 = "14vga04hf03hj1ilcpl3qblmb7mhl9j0qwkq2whbc50p98avkhqi";
+        url = "https://elpa.gnu.org/packages/urgrep-0.5.1.tar";
+        sha256 = "1g0gcd3ayqjaj5yl95psh8qnjgaxd6l4r8gn4wlj5pnjnkz4llmv";
       };
       packageRequires = [
         compat
