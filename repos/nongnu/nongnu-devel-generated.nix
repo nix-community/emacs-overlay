@@ -2395,10 +2395,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20240822.53416";
+      version = "4.0.0.20240824.55909";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240822.53416.tar";
-        sha256 = "0sv7i7mpysvgva249qrqyk7f4crw91w68m5f1z3ia0a44z3rxnla";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240824.55909.tar";
+        sha256 = "0cp4k2d0v5kzcsfn04b600vk45av3vn0alii51mim4kcy2280c3m";
       };
       packageRequires = [
         helm-core
@@ -2420,10 +2420,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20240822.53416";
+      version = "4.0.0.20240824.55909";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240822.53416.tar";
-        sha256 = "1dryl1b2jj5jzhdvjki7qa1xy38a328n24ml95ks18xn7b32y6xv";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240824.55909.tar";
+        sha256 = "1vyz2jlxd5kcfqsmjjzqd5yjskrzhpgphmhmnvyh70vzg83irnsw";
       };
       packageRequires = [ async ];
       meta = {
@@ -2553,10 +2553,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240821.174144";
+      version = "0.4pre0.20240823.223236";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240821.174144.tar";
-        sha256 = "075javf8kq64sl8an77qyxmsc16x20gazwp54qpcwyi76nxh02zi";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240823.223236.tar";
+        sha256 = "0x5cjiw7vxcwb86z5vgy8n9zxxraqn3039lfxqjl885fvkgj22vf";
       };
       packageRequires = [
         compat
