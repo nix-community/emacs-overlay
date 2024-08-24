@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240822.121429";
+      version = "14.0.6.0.20240823.121001";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240822.121429.tar";
-        sha256 = "0gb7pi5lm0gfbkw23ibk8jcfncvd2awrfsn4vj9phmwip0895w7x";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240823.121001.tar";
+        sha256 = "07gqsskvn2kl933db2bbj8fdji6xifw0gnnz5a0n5ji6hpyh4csf";
       };
       packageRequires = [ ];
       meta = {
@@ -3122,10 +3122,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.31.0.20240818.191337";
+      version = "0.31.0.20240823.190802";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.31.0.20240818.191337.tar";
-        sha256 = "1mx4a3pvymja31g0b97h90qgqj11w5gddldyk4xragxq71avnf18";
+        url = "https://elpa.gnu.org/devel/exwm-0.31.0.20240823.190802.tar";
+        sha256 = "0327dqyh9k5w74qn7rm39fa2g633dqks0iv3ff5r9bcblv1434k6";
       };
       packageRequires = [
         compat
@@ -4581,10 +4581,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.3.2.0.20240821.164727";
+      version = "0.4.0.0.20240823.180117";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.3.2.0.20240821.164727.tar";
-        sha256 = "0bb6x2cs82vahbi9lvmapfhwmhawx7fm7n0labk384gn41l4gj0p";
+        url = "https://elpa.gnu.org/devel/kubed-0.4.0.0.20240823.180117.tar";
+        sha256 = "0i6glw7bhwymsax2w3vf06fpkizwbj4f7qig1pmir78qa85s1cv9";
       };
       packageRequires = [ ];
       meta = {
@@ -4789,10 +4789,10 @@
     elpaBuild {
       pname = "listen";
       ename = "listen";
-      version = "0.10pre0.20240818.210429";
+      version = "0.10pre0.20240823.41212";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240818.210429.tar";
-        sha256 = "1cww04hcna6biv9928xrfwh6vxhp8n66z3ws1xckg08wj18apnwv";
+        url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240823.41212.tar";
+        sha256 = "13wc03pif99acz13bhp1s2gdiclvls0frc6g1xhasf85abjdp433";
       };
       packageRequires = [
         persist
