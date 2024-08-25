@@ -1429,10 +1429,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20240818.112757";
+      version = "1.8.0.20240824.80054";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20240818.112757.tar";
-        sha256 = "1f5likm0mv41by193dc714lvcjz9604k31pswr2nnfknia164x5k";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20240824.80054.tar";
+        sha256 = "0rcj75y6z7rn7is0nbhbfj2db0jppz051ypxjmmcbkg7x718pfq6";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4033,10 +4033,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20240824.24346";
+      version = "9.0.2pre0.20240824.164105";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240824.24346.tar";
-        sha256 = "08cb9i0x59xv092c64qy838rri361fhqr9s8a9nw4lglq79sad7c";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240824.164105.tar";
+        sha256 = "1w73mdx3ymq4dgraxr1hrqv1s7ki0is6yy1xlwzsmqaszgin0p58";
       };
       packageRequires = [ ];
       meta = {
@@ -4388,10 +4388,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "1.10.0.20240724.91709";
+      version = "1.10.0.20240824.81752";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20240724.91709.tar";
-        sha256 = "1pfx68hcd0gfs78kq2xwr34cq6p1fm6ab4kmmhalld87jkq11ss1";
+        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20240824.81752.tar";
+        sha256 = "0fxkmxnligbmwl0fcv80igvrk5n4w5zi48d3zlkqq2m4vk199irv";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4837,10 +4837,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.17.1.0.20240822.10119";
+      version = "0.17.2.0.20240824.120732";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.17.1.0.20240822.10119.tar";
-        sha256 = "1g82jc17csr15d92xizkf1ajsss145rygm7c5mi93n5g0nv952sx";
+        url = "https://elpa.gnu.org/devel/llm-0.17.2.0.20240824.120732.tar";
+        sha256 = "1ag6h9mqf9ri2d8l3rfbgdafq859jsxwdgfd1m0hjgmg21kzxslh";
       };
       packageRequires = [ plz ];
       meta = {
@@ -9128,10 +9128,10 @@
     elpaBuild {
       pname = "use-package";
       ename = "use-package";
-      version = "2.4.6.0.20240820.135725";
+      version = "2.4.6.0.20240824.60447";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20240820.135725.tar";
-        sha256 = "1xradbi7jxvr3i4n84cfw271445wxdgg92xkygkxp051mnb309xi";
+        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20240824.60447.tar";
+        sha256 = "0dlgl3yxk9acxg6fxv1h23dn6i27cjfgysxp44jv10p9y42777yd";
       };
       packageRequires = [ bind-key ];
       meta = {
