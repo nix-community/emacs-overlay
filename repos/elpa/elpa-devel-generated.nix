@@ -1802,10 +1802,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.14.0.0.20240818.195258";
+      version = "0.15.0.0.20240825.122412";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.14.0.0.20240818.195258.tar";
-        sha256 = "0bl8a05vrf7z7pc5gj947cir7cg3rzzljn2ck11l5801w5zq5yr5";
+        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240825.122412.tar";
+        sha256 = "08b7hjpbaanrx51zx3cd1wj5vif1lzd84v7x6018g0abm85a2jna";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2578,10 +2578,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.17.0.20240817.135350";
+      version = "1.17.0.20240825.145403";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240817.135350.tar";
-        sha256 = "1sk1xgliar7c5glhx8k9r6di7f5xpxx6m0myh8kdsmrsh67198gh";
+        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240825.145403.tar";
+        sha256 = "104cggbbwa9yldjj68h77hp5fmdj4varzbsizi71np8rv29nhb5r";
       };
       packageRequires = [
         compat
