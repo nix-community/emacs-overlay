@@ -2045,10 +2045,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.1.0.20240818.212703";
+      version = "0.4.1.0.20240824.213824";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.1.0.20240818.212703.tar";
-        sha256 = "1nw13pfbgfja5c70zpmcrm6wqvps4zchskj26x1fh171233m8wln";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.1.0.20240824.213824.tar";
+        sha256 = "1xqfmg6laykrcxvwsk10wq3vqlzwyd75fnnfrydsh7prbqfnsxlf";
       };
       packageRequires = [
         compat
@@ -2395,10 +2395,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20240825.80925";
+      version = "4.0.0.20240826.70350";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240825.80925.tar";
-        sha256 = "1wdqzw5zckwglkpn1agvrsd6kjbqipvmjx0ccyd71109dpyrx0z5";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240826.70350.tar";
+        sha256 = "0kpif6c8q22xnx9hx8rr53hksmb0ba2bjfq8yy747icbp9mwp0h9";
       };
       packageRequires = [
         helm-core
@@ -2420,10 +2420,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20240825.80925";
+      version = "4.0.0.20240826.70350";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240825.80925.tar";
-        sha256 = "0qfm0mklrni35zb7g42c6xw15mq75gi0k2lajsix4zd6a08gq7aq";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240826.70350.tar";
+        sha256 = "1kbyw4jx7377qdb4i1gr3i4hk1vjkl1lddf0y9r4lzraicdg9d7m";
       };
       packageRequires = [ async ];
       meta = {
@@ -2553,10 +2553,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240823.223236";
+      version = "0.4pre0.20240826.1816";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240823.223236.tar";
-        sha256 = "0x5cjiw7vxcwb86z5vgy8n9zxxraqn3039lfxqjl885fvkgj22vf";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240826.1816.tar";
+        sha256 = "00v7df5359r6hzjiznb44xjbz99ixinpcqlb7ajabc8s84kvm371";
       };
       packageRequires = [
         compat
