@@ -2395,10 +2395,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20240825.60425";
+      version = "4.0.0.20240825.80925";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240825.60425.tar";
-        sha256 = "1bxda0ncgh1d7d5p4qsw66x018bfhjbq5vlp5iggwisxisnk95xm";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240825.80925.tar";
+        sha256 = "1wdqzw5zckwglkpn1agvrsd6kjbqipvmjx0ccyd71109dpyrx0z5";
       };
       packageRequires = [
         helm-core
@@ -2420,10 +2420,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20240825.60425";
+      version = "4.0.0.20240825.80925";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240825.60425.tar";
-        sha256 = "1x7lpk5w2gcs7hm78hdaik04ry3m7k1jx2a3yq23ljqjz1z67df4";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240825.80925.tar";
+        sha256 = "0qfm0mklrni35zb7g42c6xw15mq75gi0k2lajsix4zd6a08gq7aq";
       };
       packageRequires = [ async ];
       meta = {
@@ -3874,10 +3874,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20240813.124142";
+      version = "1.0.20240825.102113";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240813.124142.tar";
-        sha256 = "0ypqv36wibcagkqpjwl3mwpqa4k59wns6kb1v55w2gywnk6qgv1y";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240825.102113.tar";
+        sha256 = "11s4xp56v8swg6q8fk6d7fxc811hnir40jajhpvlm4h73s0k4ng8";
       };
       packageRequires = [ ];
       meta = {
@@ -4301,10 +4301,10 @@
     elpaBuild {
       pname = "spacemacs-theme";
       ename = "spacemacs-theme";
-      version = "0.2.0.20240815.213429";
+      version = "0.2.0.20240825.170904";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20240815.213429.tar";
-        sha256 = "1g7fzghy5nmz8v8vx5y6g3cwc2n9c1ryr09nrdfz3zlrv7r32df6";
+        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20240825.170904.tar";
+        sha256 = "196nby3c283qls06m6vgjr0g964jpyy760y1mmllkczbm4ia34aw";
       };
       packageRequires = [ ];
       meta = {
