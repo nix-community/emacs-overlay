@@ -1014,10 +1014,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.6";
+      version = "1.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cape-1.6.tar";
-        sha256 = "1pqkdajl7nd510hxq4lph5cqj3j84mi01nl0ka2k4j8wrvb9zagn";
+        url = "https://elpa.gnu.org/packages/cape-1.7.tar";
+        sha256 = "03npj4a8g73dgrivjgc27w0c957naqhxq0hfzshdqci6mrq1gph3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3766,10 +3766,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.11.15";
+      version = "0.11.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greader-0.11.15.tar";
-        sha256 = "0052gsjdqnlxgwd8l3h3x2zh2lzw76cwfdxvgxdk6x1g4cvhmjbx";
+        url = "https://elpa.gnu.org/packages/greader-0.11.16.tar";
+        sha256 = "1ancpnamn2w9343jnlwrr5dyrllrd22ilgd0b2nvmrl31qhygnha";
       };
       packageRequires = [
         compat
