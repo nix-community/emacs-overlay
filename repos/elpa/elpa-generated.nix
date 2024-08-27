@@ -6595,10 +6595,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.4.3";
+      version = "1.4.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/posframe-1.4.3.tar";
-        sha256 = "1kw37dhyd6qxj0h2qpzi539jrgc0pj90psf2k58z4jc9199bgsax";
+        url = "https://elpa.gnu.org/packages/posframe-1.4.4.tar";
+        sha256 = "18cvfr2jxwsnsdg9f8wr0g64rkk6q1cc4gchrw76lnnknanidpk7";
       };
       packageRequires = [ ];
       meta = {

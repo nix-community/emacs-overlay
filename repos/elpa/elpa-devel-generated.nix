@@ -1311,10 +1311,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "0.10.2.0.20240729.84605";
+      version = "0.10.2.0.20240827.20240";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240729.84605.tar";
-        sha256 = "09r7jjz0hqks08syxg889d1qbwwla6kwp29n5h660np4ymx38gbq";
+        url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240827.20240.tar";
+        sha256 = "03njrbzxn57gap2d7xhsx1pk2w6hzkacjfxir17zq03shxqlajhs";
       };
       packageRequires = [ ];
       meta = {
@@ -2548,10 +2548,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.7.0.0.20240826.64843";
+      version = "1.7.0.0.20240827.75128";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240826.64843.tar";
-        sha256 = "1z1qv2b0ymb4vykyz4nc41672z449p2jd6ixbb86rqdcvkwzjak4";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.7.0.0.20240827.75128.tar";
+        sha256 = "0gbqz9b3ajjckjflpd64f6ssg7bx8jrawm0gw42q0w7clhihsx76";
       };
       packageRequires = [ ];
       meta = {
@@ -6645,10 +6645,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.4.3.0.20240703.35906";
+      version = "1.4.4.0.20240827.65408";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.4.3.0.20240703.35906.tar";
-        sha256 = "19jwqgrns7i7dpyb83p7b07qbxw2w50vzcr722i1kzz0nrjl30dj";
+        url = "https://elpa.gnu.org/devel/posframe-1.4.4.0.20240827.65408.tar";
+        sha256 = "0bpakrjgasx911k9niqmd4zf3g08zvwydfyxj6fr8096wazqyrrc";
       };
       packageRequires = [ ];
       meta = {
