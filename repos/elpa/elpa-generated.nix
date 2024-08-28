@@ -1398,6 +1398,27 @@
       };
     }
   ) { };
+  constants = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "constants";
+      ename = "constants";
+      version = "2.11.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/constants-2.11.1.tar";
+        sha256 = "0n1wa9hr0841733s6w30x1n5mmis8fpjfzl5mn7s9q12djpp20fy";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/constants.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   consult = callPackage (
     {
       compat,
@@ -2527,10 +2548,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.7.0";
+      version = "1.8.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ef-themes-1.7.0.tar";
-        sha256 = "0d6rpwk1z9sc1yzfc4d4icb43pqwvdfvqap1m4r4aajvc5kasq1v";
+        url = "https://elpa.gnu.org/packages/ef-themes-1.8.0.tar";
+        sha256 = "0fv7m4cd4sdn8skx5li8g41kyjniwzfp8sn7jd9s4f7wzls5rnay";
       };
       packageRequires = [ ];
       meta = {
