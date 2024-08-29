@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.15.1.0.20240815.91839";
+      version = "1.15.1.0.20240828.134352";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.15.1.0.20240815.91839.tar";
-        sha256 = "0bp0f886gmka3ryb8yr8qspwl5rxnca38yn6fhrwnm5ga8j11d90";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.15.1.0.20240828.134352.tar";
+        sha256 = "092s4z2h984k3bkaijf94zy1np7x8mvn9z8mq6by22pjl1dn6x8i";
       };
       packageRequires = [
         clojure-mode
@@ -1092,10 +1092,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.1.0.20240819.155921";
+      version = "4.0.1.0.20240828.144323";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.1.0.20240819.155921.tar";
-        sha256 = "0xm5b913ja85rw7h7fjhbzz288brsgd8xiq5wi7f8s8dwkbmqdv4";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.1.0.20240828.144323.tar";
+        sha256 = "1jxxnkg45lc4dirvwjlsy5qi2x2wi4ymd4m5psa15sw7pbbicmy2";
       };
       packageRequires = [ ];
       meta = {
