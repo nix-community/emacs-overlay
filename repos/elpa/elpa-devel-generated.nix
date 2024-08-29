@@ -1957,10 +1957,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.0.8.0.20240828.163119";
+      version = "3.0.8.0.20240829.41052";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240828.163119.tar";
-        sha256 = "1sf6b97sc9zhkhrwx8jjg6r9mqm6g53va3r48mp9f711x482012g";
+        url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240829.41052.tar";
+        sha256 = "00mz5a9fb0ib5hfscy6lcp6zgq1s29p68y8ddl52sia4qnyssb3p";
       };
       packageRequires = [ ];
       meta = {
@@ -2599,10 +2599,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.17.0.20240825.145403";
+      version = "1.17.0.20240829.5352";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240825.145403.tar";
-        sha256 = "104cggbbwa9yldjj68h77hp5fmdj4varzbsizi71np8rv29nhb5r";
+        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20240829.5352.tar";
+        sha256 = "15vkv9w9h2crbrzs788d3wlr16x5zqglqizam2i061wh2ax6n2zp";
       };
       packageRequires = [
         compat
@@ -2999,10 +2999,10 @@
     elpaBuild {
       pname = "ergoemacs-mode";
       ename = "ergoemacs-mode";
-      version = "5.16.10.12.0.20240809.174605";
+      version = "5.16.10.12.0.20240828.210215";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ergoemacs-mode-5.16.10.12.0.20240809.174605.tar";
-        sha256 = "1pq78fyr26rmg1vg4xhl095yhaxi8pdnhx0hjcwv5gvxxd462ggq";
+        url = "https://elpa.gnu.org/devel/ergoemacs-mode-5.16.10.12.0.20240828.210215.tar";
+        sha256 = "1n87f2si44hyyiy3nj3hr0pjxkjdb419pkybs7vawi27k59dd8rw";
       };
       packageRequires = [
         cl-lib
@@ -4858,10 +4858,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.17.2.0.20240824.120732";
+      version = "0.17.2.0.20240828.202826";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.17.2.0.20240824.120732.tar";
-        sha256 = "1ag6h9mqf9ri2d8l3rfbgdafq859jsxwdgfd1m0hjgmg21kzxslh";
+        url = "https://elpa.gnu.org/devel/llm-0.17.2.0.20240828.202826.tar";
+        sha256 = "0jjv369bvv3sx88rcjf2s4f847wqhkhwj7qa6s1hv09cyrapcv25";
       };
       packageRequires = [ plz ];
       meta = {
