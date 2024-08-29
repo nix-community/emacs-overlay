@@ -1957,10 +1957,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.0.8.0.20240826.50504";
+      version = "3.0.8.0.20240828.163119";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240826.50504.tar";
-        sha256 = "1alsq66irb1qvjnxanlx439sa76wv9y0k2dp38qin4dl3j8kcfcw";
+        url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240828.163119.tar";
+        sha256 = "1sf6b97sc9zhkhrwx8jjg6r9mqm6g53va3r48mp9f711x482012g";
       };
       packageRequires = [ ];
       meta = {
@@ -8261,10 +8261,10 @@
     elpaBuild {
       pname = "svg-tag-mode";
       ename = "svg-tag-mode";
-      version = "0.3.2.0.20240624.85758";
+      version = "0.3.2.0.20240828.82058";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20240624.85758.tar";
-        sha256 = "01hhdvbsrdbmaspdl1vbpsa1rxc5qxc5rhqi8yhgb711wcwghgln";
+        url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20240828.82058.tar";
+        sha256 = "1jx2dx1d8w4p37q4x5shj1xf1fqbclv10i6a8q8inq05qjlfq1ak";
       };
       packageRequires = [ svg-lib ];
       meta = {
