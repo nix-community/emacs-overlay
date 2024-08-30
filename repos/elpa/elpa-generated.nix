@@ -6766,10 +6766,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.0.1";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/pulsar-1.0.1.tar";
-        sha256 = "0xljxkls6lckfg5whx2kb44dp67q2jfs7cbk6ih5b3zm6h599d4k";
+        url = "https://elpa.gnu.org/packages/pulsar-1.1.0.tar";
+        sha256 = "0hs65y2avl8w5g4zd68sdg4rl4q15ac53xlbc4qrfjynlajma6mm";
       };
       packageRequires = [ ];
       meta = {
@@ -7217,10 +7217,10 @@
     elpaBuild {
       pname = "rec-mode";
       ename = "rec-mode";
-      version = "1.9.3";
+      version = "1.9.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/rec-mode-1.9.3.tar";
-        sha256 = "00hps4pi7r20qqqlfl8g5dqwipgyqqrhxc4hi5igl0rg563jc1wx";
+        url = "https://elpa.gnu.org/packages/rec-mode-1.9.4.tar";
+        sha256 = "0pi483g5qgz6gvyi13a4ldfbkaad3xkad08aqfcnmsdylvc9zzma";
       };
       packageRequires = [ ];
       meta = {
