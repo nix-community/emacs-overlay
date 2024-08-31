@@ -1957,10 +1957,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.0.8.0.20240829.41052";
+      version = "3.0.8.0.20240831.63237";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240829.41052.tar";
-        sha256 = "00mz5a9fb0ib5hfscy6lcp6zgq1s29p68y8ddl52sia4qnyssb3p";
+        url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240831.63237.tar";
+        sha256 = "0sv38220qinih2lxpna94n61q76w0jb8zcxld949pxzq0y20zd6q";
       };
       packageRequires = [ ];
       meta = {
@@ -8831,10 +8831,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.4.0.20240820.215343";
+      version = "0.7.4.0.20240830.181745";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.4.0.20240820.215343.tar";
-        sha256 = "0l22mcs5r4dv17vi06fr7dgi609zm09pk3gywxygp2qxi9c7xp5d";
+        url = "https://elpa.gnu.org/devel/transient-0.7.4.0.20240830.181745.tar";
+        sha256 = "0qjyh552gn4yy0q63dirdhppqz8l9g4szsr651l177ija82qmcdg";
       };
       packageRequires = [
         compat
