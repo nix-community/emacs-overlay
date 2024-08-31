@@ -5727,10 +5727,10 @@
     elpaBuild {
       pname = "oauth2";
       ename = "oauth2";
-      version = "0.16";
+      version = "0.17";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/oauth2-0.16.tar";
-        sha256 = "0bz4gqg5bhv6zk875q7sb0y56yvylnv0chj77ivjjpkha6rdp311";
+        url = "https://elpa.gnu.org/packages/oauth2-0.17.tar";
+        sha256 = "0ah0h3k6hiqm977414kyg96r6rrvnwvik3hz3ra3r0mxx7lksqha";
       };
       packageRequires = [
         cl-lib
@@ -8506,6 +8506,7 @@
   ) { };
   tmr = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -8513,12 +8514,12 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "0.4.0";
+      version = "1.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tmr-0.4.0.tar";
-        sha256 = "0vvsanjs6b9m3gxm84qr0ywwdj0378y5jkv1nzqdn980rfgfimsv";
+        url = "https://elpa.gnu.org/packages/tmr-1.0.0.tar";
+        sha256 = "02dj5kh8ayhfy1w9vy77s7izz4495n4jkcbw6xscc8wyfml0j15f";
       };
-      packageRequires = [ ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/tmr.html";
         license = lib.licenses.free;
@@ -8602,10 +8603,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.1.1";
+      version = "2.7.1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.7.1.1.tar";
-        sha256 = "1b14gwgfwx9n01mvbpi8q8lr9n4ik8lm580b8dvcaz456pm7bxb8";
+        url = "https://elpa.gnu.org/packages/tramp-2.7.1.2.tar";
+        sha256 = "1kvamv0shj9ra3pnfkigbv05p62aw70di4gq4f24xhgpg2x04rp0";
       };
       packageRequires = [ ];
       meta = {
