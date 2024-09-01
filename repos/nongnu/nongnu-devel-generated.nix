@@ -1092,10 +1092,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.1.0.20240828.144323";
+      version = "4.0.2.0.20240831.221713";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.1.0.20240828.144323.tar";
-        sha256 = "1jxxnkg45lc4dirvwjlsy5qi2x2wi4ymd4m5psa15sw7pbbicmy2";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.2.0.20240831.221713.tar";
+        sha256 = "0g1rps3fm7ji7qrbrfwrx7wxssms5jkz3wkazi0i4v28kvp0h4ga";
       };
       packageRequires = [ ];
       meta = {
@@ -2219,10 +2219,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.0.0.20240830.124944";
+      version = "0.9.0.0.20240831.191032";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240830.124944.tar";
-        sha256 = "1psg3g0ldq8jxz4s4prlwbbznx5jmy43z1zb3v1py1qms5b0fh5s";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240831.191032.tar";
+        sha256 = "18yjd5gwmds02k2fa2xwbw21gn4z8pa93vj6y9gg89lj4jaychqn";
       };
       packageRequires = [
         compat
@@ -5017,10 +5017,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.1.0.20240830.222853";
+      version = "3.4.2.0.20240831.223035";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.1.0.20240830.222853.tar";
-        sha256 = "0gc20mwnzz9ypb9asaf7dh9ka7r14dpy2m3cdsy5lqcgh24i8fh4";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.2.0.20240831.223035.tar";
+        sha256 = "120v2n8py0qjcmlnf8l7p83w3bb5vg614ci65gliqhgmikhbwafh";
       };
       packageRequires = [ compat ];
       meta = {

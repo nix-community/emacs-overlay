@@ -1137,10 +1137,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.1";
+      version = "4.0.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/emacsql-4.0.1.tar";
-        sha256 = "0098ixlx70vx4mxlcyddkij9aj4sgcf7p699cii0pz51lg9bymc0";
+        url = "https://elpa.nongnu.org/nongnu/emacsql-4.0.2.tar";
+        sha256 = "1jzskfpbvcrkmgmrz6qswln13zhpxpj9ml2qd2hlzn1pw78dfxi8";
       };
       packageRequires = [ ];
       meta = {
@@ -5073,10 +5073,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.1";
+      version = "3.4.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/with-editor-3.4.1.tar";
-        sha256 = "0nhlr2qjn351p0vd8vdnrwsb6wi2klh5ny84k90m8kzwcmvglhfd";
+        url = "https://elpa.nongnu.org/nongnu/with-editor-3.4.2.tar";
+        sha256 = "0z6zi271p2ch4gylkz4ynj44hyxjmvvmg7xjsxwjmsyi800kwr58";
       };
       packageRequires = [ compat ];
       meta = {
