@@ -5900,10 +5900,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.10";
+      version = "9.7.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.10.tar";
-        sha256 = "0rabxq2diikdwifybril1b9cxkwry7agyw8gsdyf1n800f8vq5ka";
+        url = "https://elpa.gnu.org/packages/org-9.7.11.tar";
+        sha256 = "08gfzj1siy2lr4vny1zqkv7290qd9skwd4lqa8ky3y4a25spz0ia";
       };
       packageRequires = [ ];
       meta = {
@@ -6382,10 +6382,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "1.2.0";
+      version = "2.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/phpinspect-1.2.0.tar";
-        sha256 = "08kh9ci25dg6xjjcjrysz32rhq0pd8xl4lqdxa4wzw40zalr7jir";
+        url = "https://elpa.gnu.org/packages/phpinspect-2.0.0.tar";
+        sha256 = "0h7ql6fzwnkfjd33624fadn2s74ir8i8lgwskvfgdiwzx32y6ypk";
       };
       packageRequires = [ compat ];
       meta = {
