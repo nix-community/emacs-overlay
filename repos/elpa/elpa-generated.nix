@@ -8689,10 +8689,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.4";
+      version = "0.7.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.7.4.tar";
-        sha256 = "00fcrbdk7gxaa25n5j1g688mlislnyj6w4743870liavvg982z9w";
+        url = "https://elpa.gnu.org/packages/transient-0.7.5.tar";
+        sha256 = "1xxr41af0dbv349bsnf2nljsnir3f0w79yl7xvk4r7hdczp4qmd4";
       };
       packageRequires = [
         compat
@@ -8783,10 +8783,10 @@
     elpaBuild {
       pname = "triples";
       ename = "triples";
-      version = "0.3.5";
+      version = "0.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/triples-0.3.5.tar";
-        sha256 = "1wvmfw8yc7nh42f1skmpxqz5f57vkhg7x2cdngpq11lqbgvypj7m";
+        url = "https://elpa.gnu.org/packages/triples-0.4.0.tar";
+        sha256 = "0g29i33bmh9gh4mmk92h6vhhw42k1f2ph02qlrasn0w5fq3pg8vp";
       };
       packageRequires = [ seq ];
       meta = {

@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240830.122938";
+      version = "14.0.6.0.20240901.72504";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240830.122938.tar";
-        sha256 = "0l4bbrhf0zg8iksljmaff6wby4s48cymnbbxls20dml1g4yksmsl";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240901.72504.tar";
+        sha256 = "0qgrwkbd8p768c2nl90z7gqr36755alj94zypniqqjj1gj8836vw";
       };
       packageRequires = [ ];
       meta = {
@@ -1957,10 +1957,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.0.8.0.20240831.63237";
+      version = "3.0.8.0.20240901.62824";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240831.63237.tar";
-        sha256 = "0sv38220qinih2lxpna94n61q76w0jb8zcxld949pxzq0y20zd6q";
+        url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240901.62824.tar";
+        sha256 = "06nk918xq14z241frxcsbc8bz3nhny4wp45p2lq26vx2d46prsg5";
       };
       packageRequires = [ ];
       meta = {
@@ -8831,10 +8831,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.4.0.20240830.181745";
+      version = "0.7.5.0.20240831.223336";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.4.0.20240830.181745.tar";
-        sha256 = "0qjyh552gn4yy0q63dirdhppqz8l9g4szsr651l177ija82qmcdg";
+        url = "https://elpa.gnu.org/devel/transient-0.7.5.0.20240831.223336.tar";
+        sha256 = "0128inm0apsh7gqmclw14slbhqn9cbj0rs0ccd7nl1zwbajznxc8";
       };
       packageRequires = [
         compat
@@ -8925,10 +8925,10 @@
     elpaBuild {
       pname = "triples";
       ename = "triples";
-      version = "0.3.5.0.20240831.154754";
+      version = "0.4.0.0.20240831.171334";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/triples-0.3.5.0.20240831.154754.tar";
-        sha256 = "1abdrl811rd0sjhday5dh2cncll6wq6z00ff6gipf6xj5q275qyr";
+        url = "https://elpa.gnu.org/devel/triples-0.4.0.0.20240831.171334.tar";
+        sha256 = "1xa6yhgjpj8vb5i9znx7nhavz21yv0wbiknwiv2ccal03dfs3n1c";
       };
       packageRequires = [ seq ];
       meta = {
