@@ -1785,10 +1785,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.31";
+      version = "0.31.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/geiser-0.31.tar";
-        sha256 = "0szyasza76ak4qny9v9i3sk1m3mahlxcvvsk078q8rp9cms5lzkv";
+        url = "https://elpa.nongnu.org/nongnu/geiser-0.31.1.tar";
+        sha256 = "14d8syc51fkagc5isb8pym7mq5bw6ng83qxv1g5dnnj7nydl0gcr";
       };
       packageRequires = [ project ];
       meta = {
@@ -3011,10 +3011,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.0.0";
+      version = "4.1.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.0.0.tar";
-        sha256 = "1dyw275qfnpz7fs1s952b9fl9vgfzfk8aiclznfhhl43nvxxglb7";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.1.0.tar";
+        sha256 = "05ppc34y1b15ba63jxbyichigm61fk4vkh7raarnsm5vdm9x8jif";
       };
       packageRequires = [
         compat
