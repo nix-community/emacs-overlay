@@ -2969,7 +2969,6 @@
       dash,
       elpaBuild,
       fetchurl,
-      git-commit,
       lib,
       magit-section,
       seq,
@@ -2979,15 +2978,14 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.0.0";
+      version = "4.1.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-4.0.0.tar";
-        sha256 = "0sii8gr69j29fzvcdyabnabldkvi6r5dpiamfs3bsmh66vf8wvjh";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.1.0.tar";
+        sha256 = "0ns9wvgif55lmagzda8hz99j9a0r56vz2f3a54v2p04qa03fhrdw";
       };
       packageRequires = [
         compat
         dash
-        git-commit
         magit-section
         seq
         transient

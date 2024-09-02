@@ -2219,10 +2219,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.0.0.20240831.191032";
+      version = "0.9.0.0.20240901.222432";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240831.191032.tar";
-        sha256 = "18yjd5gwmds02k2fa2xwbw21gn4z8pa93vj6y9gg89lj4jaychqn";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240901.222432.tar";
+        sha256 = "001k00cw14n0d9wz8yb1389qn0c9rpvghna5rlk9ijmjrwkj7c3k";
       };
       packageRequires = [
         compat
@@ -2932,7 +2932,6 @@
       dash,
       elpaBuild,
       fetchurl,
-      git-commit,
       lib,
       magit-section,
       seq,
@@ -2942,15 +2941,14 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.0.0.0.20240830.211722";
+      version = "4.1.0.0.20240831.225533";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.0.0.0.20240830.211722.tar";
-        sha256 = "1nz63rypj8671mxaf4rrgr0x05x3yz9w1gy0z734raby99cd5xjm";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.1.0.0.20240831.225533.tar";
+        sha256 = "1al924kjx3g7jfy11d5dnmqlcrm4735j3v68ync23ljrwprppj99";
       };
       packageRequires = [
         compat
         dash
-        git-commit
         magit-section
         seq
         transient
@@ -4428,10 +4426,10 @@
     elpaBuild {
       pname = "sweeprolog";
       ename = "sweeprolog";
-      version = "0.27.5.0.20240411.60241";
+      version = "0.27.5.0.20240902.75715";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.5.0.20240411.60241.tar";
-        sha256 = "03diw4psd0chk3l6vd3fm1y99xby9b77nnd48jlxa06dgdx3jan9";
+        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.5.0.20240902.75715.tar";
+        sha256 = "17axkpy0yyx0zy30gxbhgx5a5nmdv1fpp5zq5mk0cnsch6a7rzb7";
       };
       packageRequires = [ compat ];
       meta = {
