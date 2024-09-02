@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240901.72504";
+      version = "14.0.6.0.20240901.81000";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240901.72504.tar";
-        sha256 = "0qgrwkbd8p768c2nl90z7gqr36755alj94zypniqqjj1gj8836vw";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240901.81000.tar";
+        sha256 = "03rmkcw7d3scqc36lqs8b420ix7nqi7dz3386xkjp1pxclmphrw0";
       };
       packageRequires = [ ];
       meta = {
@@ -9149,10 +9149,10 @@
     elpaBuild {
       pname = "use-package";
       ename = "use-package";
-      version = "2.4.6.0.20240831.81414";
+      version = "2.4.6.0.20240901.93048";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20240831.81414.tar";
-        sha256 = "136x107wi03basg7b3p5cigcd6d4ilnzmrkzczwgw0hkfjhhwl1r";
+        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20240901.93048.tar";
+        sha256 = "0qx98aas0bc9arzxyvcwn4n5qxxlgqbdx6z7y32bjr3hcshs1gsa";
       };
       packageRequires = [ bind-key ];
       meta = {
@@ -9367,10 +9367,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.9.0.20240726.213105";
+      version = "1.9.0.20240901.142522";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20240726.213105.tar";
-        sha256 = "1gdmn8xs5d4mma8q8zvvnqvzdblxcv2xyc3lbkjw1rjjqg5xzj2i";
+        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20240901.142522.tar";
+        sha256 = "112py52x01vmifqqa9z9dzriwsm3kark2lg67yw64l0614ya9r33";
       };
       packageRequires = [ compat ];
       meta = {
