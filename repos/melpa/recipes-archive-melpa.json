@@ -2992,16 +2992,15 @@
   "url": "https://repo.or.cz/amread-mode.git",
   "unstable": {
    "version": [
-    20230409,
-    1018
+    20240903,
+    1506
    ],
    "deps": [
-    "cl-lib",
     "hydra",
     "pyim"
    ],
-   "commit": "b8622ae7b05f27d6f84c4e5d724bc79163ba9ce3",
-   "sha256": "1xjm3bqv517v95lcjjncw2yb6vamjc4la6xdw6afc6dwyq0cy19l"
+   "commit": "f053dca9fca783ff1c89f9f5d9d8307c15036bea",
+   "sha256": "154id1fw8mzxvs58zjas19z4phlq2lzz63vqhx55yw008ncjvw65"
   }
  },
  {
@@ -19263,14 +19262,14 @@
   "repo": "minad/corfu",
   "unstable": {
    "version": [
-    20240726,
-    359
+    20240903,
+    1507
    ],
    "deps": [
     "compat"
    ],
-   "commit": "5e3a959766d2313651c5db3beedd937bfc27b57a",
-   "sha256": "00w0qzx2cqyxy15ndqzl3d6f1k8gvqdxz407zbgy5n46408pjsi0"
+   "commit": "157b373abc791ee906a8b310c9d2730626a8d409",
+   "sha256": "09fgi1ylj0zjlh3a31v6yykyrfnrq8wskksp5cr7mfxv72y2dfci"
   },
   "stable": {
    "version": [
@@ -32073,11 +32072,11 @@
   "repo": "magit/emacsql",
   "unstable": {
    "version": [
-    20240831,
-    2217
+    20240903,
+    1144
    ],
-   "commit": "07699353a43f629848c66c0949e7170e8f29e299",
-   "sha256": "1d0g3h54rpakw47aiablgqw0szsfmvhmg3x7sniv4v71qaciyl7x"
+   "commit": "bfcd07895992a3a1b170088e4e3b014118d59672",
+   "sha256": "07r386nghfyn0fz5p7xfrrsdq89k6mmhmfgs4vzr4hrx93gmaagn"
   },
   "stable": {
    "version": [
@@ -45984,8 +45983,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20240831,
-    2307
+    20240903,
+    1233
    ],
    "deps": [
     "closql",
@@ -46000,8 +45999,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "35cc600d62a01d50699a529b0caa7d40e642d62a",
-   "sha256": "0nn003rcxxa9ii2jjlwia7xngghl23hikgzhj9wp9ks4zdzwkvpc"
+   "commit": "90c22f93277b22c1d865e4ff85c83148765829ce",
+   "sha256": "1hwpp808kdl1fwz8ds00nzcyj1lrsbj8q4wzbhj829vls6s0ynf1"
   },
   "stable": {
    "version": [
@@ -87457,14 +87456,14 @@
   "repo": "oantolin/orderless",
   "unstable": {
    "version": [
-    20240717,
-    758
+    20240903,
+    1602
    ],
    "deps": [
     "compat"
    ],
-   "commit": "49d1fdfb80b55699a00b11bc916ad29c0447039b",
-   "sha256": "0i18n5s52c98z1gjy7hd403f5bkdykifzpvfnchh90rgi24harng"
+   "commit": "afaec1bb0513dd5cebfeb6f3891c69ec93f0c299",
+   "sha256": "00x2flns6vk552ybmc718636mz9ml4bxgdwn3ilvaxhpc3kaa3gx"
   },
   "stable": {
    "version": [
@@ -90281,8 +90280,8 @@
   "repo": "meedstrom/org-node",
   "unstable": {
    "version": [
-    20240902,
-    2230
+    20240903,
+    1541
    ],
    "deps": [
     "compat",
@@ -90290,8 +90289,8 @@
     "persist",
     "transient"
    ],
-   "commit": "42fad777df8238679feda63880e3cd70382a97f9",
-   "sha256": "1j37fqb61k4rb842k7bimg814f5xzdgql7bq70ny6ljn8ifiszlx"
+   "commit": "1f379cc01d7e2cdeb02b4c3bcd3ea10b2ad4d91e",
+   "sha256": "05gp39dlslzj66i88x073csc6b56rncwrs8rp5yy0knwgdf418lp"
   }
  },
  {
@@ -105335,11 +105334,11 @@
   "repo": "xenodium/ready-player",
   "unstable": {
    "version": [
-    20240902,
-    1341
+    20240903,
+    1336
    ],
-   "commit": "791aff25b8b8de4eaf3a8bdc87665ad984e02551",
-   "sha256": "1ad8q38588rbm7y1xmc3il10ppfnlsvrjk5pfby1sykwmmjic38d"
+   "commit": "449f1dd16901e091a622657eb01cc5a9dc179a15",
+   "sha256": "0ydkx9y7m0x7q39qr0dz1bckgrwxlyh3101939x118kzsabsdrgv"
   },
   "stable": {
    "version": [
@@ -106202,11 +106201,11 @@
   "repo": "purcell/emacs-reformatter",
   "unstable": {
    "version": [
-    20231122,
-    838
+    20240903,
+    948
    ],
-   "commit": "ebea79504b40fecb150caf8c39621146164f997e",
-   "sha256": "1n8qxrs8103bibzxjs21mzjdmjsnb44hsb2cy7fnx2rax19r9dja"
+   "commit": "e7216e8d89bfeb9da76733c0b3bcaf2ecb4adfbd",
+   "sha256": "1yq90bxgd4ikciilqaj8fph8hvphbm57kg71f10ad62vzvxfamrm"
   },
   "stable": {
    "version": [
@@ -108815,11 +108814,11 @@
   "repo": "rust-lang/rust-mode",
   "unstable": {
    "version": [
-    20240902,
-    1300
+    20240903,
+    1233
    ],
-   "commit": "4686c6e5f5042cb2c692f022afc4d170d344deda",
-   "sha256": "02a299khwfrr2dn25pr847l8v5kvyk3pzdh04clrfdhfj0wm1aay"
+   "commit": "c87f6f82bd484fb1c15009c8a3518ebb62942605",
+   "sha256": "15nafhm0ssvqg1w55gpk91hsr7mq6ryswhnnhwmz007g8d6zc34q"
   },
   "stable": {
    "version": [
@@ -119606,14 +119605,14 @@
   "repo": "Crandel/tempel-collection",
   "unstable": {
    "version": [
-    20240821,
-    1025
+    20240903,
+    1136
    ],
    "deps": [
     "tempel"
    ],
-   "commit": "17ae488e8d39f7cdf4dbc3272f8ca6ea4990d7a9",
-   "sha256": "1r3mm62l266dfmm8fj32zrwyk70mi7khyya67vj44g23bgrb2skh"
+   "commit": "cb7367ac57e3ddec687e11d1567e8b3843e0d311",
+   "sha256": "18m9pxk9shwdr80h18kzy8sgr0ifa3sma6y4k5n59lcq4nkmlpg1"
   }
  },
  {
