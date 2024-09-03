@@ -1563,10 +1563,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20240818.102943";
+      version = "1.5.0.20240902.184135";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20240818.102943.tar";
-        sha256 = "0arfkrnls7gj6z1k764p6vgfmb915fa61hwbflfgsnhms3x0vpmv";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20240902.184135.tar";
+        sha256 = "0ag2na9ac6pirf9cb1vd58y73v4f3cprvgfr2nqv9lx5yd96jl18";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1910,10 +1910,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.40.0.20240831.165556";
+      version = "0.40.0.20240902.113631";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.40.0.20240831.165556.tar";
-        sha256 = "1v3sc1fcfg0cylszrf2k5rbqdm36ma4r8cn9n5i2gzbjr2a6729f";
+        url = "https://elpa.gnu.org/devel/debbugs-0.40.0.20240902.113631.tar";
+        sha256 = "0n7k9bk3q4mrzy0n5x3phan73w3isymicc17apn25cqp2spsxnwz";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -1957,10 +1957,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.0.8.0.20240901.62824";
+      version = "3.0.8.0.20240902.144432";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240901.62824.tar";
-        sha256 = "06nk918xq14z241frxcsbc8bz3nhny4wp45p2lq26vx2d46prsg5";
+        url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240902.144432.tar";
+        sha256 = "11fw5bjpgihlmsyf5phr9frbxj55ki18033s90a3b5vn15yf5gpx";
       };
       packageRequires = [ ];
       meta = {
@@ -3365,10 +3365,10 @@
     elpaBuild {
       pname = "fontaine";
       ename = "fontaine";
-      version = "2.0.0.0.20240902.73452";
+      version = "2.1.0.0.20240902.75748";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/fontaine-2.0.0.0.20240902.73452.tar";
-        sha256 = "0xfyndrca4p74h36xjhhwq6vj2mm5vska41cyhj5yzddzq0kq3qk";
+        url = "https://elpa.gnu.org/devel/fontaine-2.1.0.0.20240902.75748.tar";
+        sha256 = "1fbw9rlgrs7b16mgj0hyz5w4l8zjz3kx7mh67dcsx5kcycnsj354";
       };
       packageRequires = [ ];
       meta = {
@@ -6411,10 +6411,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "2.0.0.0.20240831.111355";
+      version = "2.0.1.0.20240902.185021";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-2.0.0.0.20240831.111355.tar";
-        sha256 = "133z28xc62pzdmp9f7l9wjqrbydms1byblkwdsqnqcr8hqqcn0dj";
+        url = "https://elpa.gnu.org/devel/phpinspect-2.0.1.0.20240902.185021.tar";
+        sha256 = "158464asnjzj18j0wgn6c14ml1g6xsj8azwzhygqh17iqcp3gs2w";
       };
       packageRequires = [ compat ];
       meta = {

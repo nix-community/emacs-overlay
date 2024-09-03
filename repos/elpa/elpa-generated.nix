@@ -3338,10 +3338,10 @@
     elpaBuild {
       pname = "fontaine";
       ename = "fontaine";
-      version = "2.0.0";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/fontaine-2.0.0.tar";
-        sha256 = "1h3hsqfx16ff0s776xvnafrlmj0m0r66hjra1mq2j55ahvh0aavk";
+        url = "https://elpa.gnu.org/packages/fontaine-2.1.0.tar";
+        sha256 = "10wywr7h4li99zxw3mzmy44rnkvii8rwri23b7vkacvhv3z8sfrf";
       };
       packageRequires = [ ];
       meta = {
@@ -6382,10 +6382,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/phpinspect-2.0.0.tar";
-        sha256 = "0h7ql6fzwnkfjd33624fadn2s74ir8i8lgwskvfgdiwzx32y6ypk";
+        url = "https://elpa.gnu.org/packages/phpinspect-2.0.1.tar";
+        sha256 = "0lw05sywlg8nf502h2xyrgvzhsmklhxizll95zpnb9k4qfmaf89q";
       };
       packageRequires = [ compat ];
       meta = {
