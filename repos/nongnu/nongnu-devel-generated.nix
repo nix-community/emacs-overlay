@@ -3829,10 +3829,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20240708.152546";
+      version = "4.6snapshot0.20240902.112159";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20240708.152546.tar";
-        sha256 = "1gc8g6gm0q7iirvgniv7fm3djlb651czr9iws0p41fvi4kq28b1r";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20240902.112159.tar";
+        sha256 = "03kys94z9lb26al582f9hcfaxmb22wly5bqman0bkwlbrfwb3m0l";
       };
       packageRequires = [ ];
       meta = {
@@ -4040,10 +4040,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20240822.42601";
+      version = "1.0.6.0.20240902.130057";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20240822.42601.tar";
-        sha256 = "16vlkgr1c0j218gjna87gs4hrhrwj78xbb665z7ij5cc68qm1yg6";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20240902.130057.tar";
+        sha256 = "175v4rxja21kl5ibz0dhqf0yzxhlrswx6f1sn1p03gwbk6jjpdyz";
       };
       packageRequires = [ ];
       meta = {
