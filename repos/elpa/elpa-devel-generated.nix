@@ -1563,10 +1563,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20240902.184135";
+      version = "1.5.0.20240903.150746";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20240902.184135.tar";
-        sha256 = "0ag2na9ac6pirf9cb1vd58y73v4f3cprvgfr2nqv9lx5yd96jl18";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20240903.150746.tar";
+        sha256 = "04c640px9nw5kh83n8s9m0qr6xr1ynxhg7l7z68wz4ry58h9i8aw";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1823,10 +1823,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0.0.20240825.122412";
+      version = "0.15.0.0.20240903.170823";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240825.122412.tar";
-        sha256 = "08b7hjpbaanrx51zx3cd1wj5vif1lzd84v7x6018g0abm85a2jna";
+        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240903.170823.tar";
+        sha256 = "0mz8rpsjq40l0g9b060avcs3zwkhrhn479lzdypvp8gs69fvkc7r";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -1910,10 +1910,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.40.0.20240902.113631";
+      version = "0.40.0.20240903.140218";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.40.0.20240902.113631.tar";
-        sha256 = "0n7k9bk3q4mrzy0n5x3phan73w3isymicc17apn25cqp2spsxnwz";
+        url = "https://elpa.gnu.org/devel/debbugs-0.40.0.20240903.140218.tar";
+        sha256 = "0fsxsmkwpfvk7qgxdirn0mgzq50z2majkkadw1rh1gaavsq7vj0c";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -1957,10 +1957,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.0.8.0.20240903.61857";
+      version = "3.0.8.0.20240903.112754";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240903.61857.tar";
-        sha256 = "0w3hx1ld8kbvnfxb6k4cxfapg1k20fpjxxf5hxh6jdnygvr0p3l7";
+        url = "https://elpa.gnu.org/devel/denote-3.0.8.0.20240903.112754.tar";
+        sha256 = "0pv1kp7c1xqw9111w4xjxay33pm7n04d7y57fym8py6p8k61h2q4";
       };
       packageRequires = [ ];
       meta = {
@@ -4986,10 +4986,10 @@
     elpaBuild {
       pname = "logos";
       ename = "logos";
-      version = "1.1.1.0.20240224.55443";
+      version = "1.2.0.0.20240903.93854";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/logos-1.1.1.0.20240224.55443.tar";
-        sha256 = "1zr2g2bj2xkjwj509vijqdqhx1dgmbr73i605677hjw01d2skch3";
+        url = "https://elpa.gnu.org/devel/logos-1.2.0.0.20240903.93854.tar";
+        sha256 = "0vpvqzvxvgnvlrihd4ms3q76270x7my94rcxfskiis3547m8z1pp";
       };
       packageRequires = [ ];
       meta = {
@@ -5908,10 +5908,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.1.0.20240717.75820";
+      version = "1.1.0.20240903.160234";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.1.0.20240717.75820.tar";
-        sha256 = "0x54jhhxm1j8hbxhwpn5ws3dcg20bszpwm7qhqg3hk1jf3f9xp61";
+        url = "https://elpa.gnu.org/devel/orderless-1.1.0.20240903.160234.tar";
+        sha256 = "0a10cswxnwmw5sqhyvmsks8m4jv9p0smwswb9xnh8bb8r5k1xvg4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6411,10 +6411,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "2.0.1.0.20240902.205540";
+      version = "2.0.1.0.20240903.161704";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-2.0.1.0.20240902.205540.tar";
-        sha256 = "06ffhrc20d1ag6iikxglxvdy1k77apqjrni55h8jmdj42p18lxlw";
+        url = "https://elpa.gnu.org/devel/phpinspect-2.0.1.0.20240903.161704.tar";
+        sha256 = "1v4m5qz5vqwclf0y38m6zwlq31dpms8ad88kcm57p1ipz2nglfrv";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9367,10 +9367,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.9.0.20240901.142522";
+      version = "1.9.0.20240903.160548";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20240901.142522.tar";
-        sha256 = "112py52x01vmifqqa9z9dzriwsm3kark2lg67yw64l0614ya9r33";
+        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20240903.160548.tar";
+        sha256 = "0cvya028852l543rlnvrf95l47krf1wp59hxm22s0vlw1g1js22g";
       };
       packageRequires = [ compat ];
       meta = {

@@ -4961,10 +4961,10 @@
     elpaBuild {
       pname = "logos";
       ename = "logos";
-      version = "1.1.1";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/logos-1.1.1.tar";
-        sha256 = "0dyy1y6225kbmsl5zy4hp0bdnnp06l05m8zqxc22alsivy2qvkjb";
+        url = "https://elpa.gnu.org/packages/logos-1.2.0.tar";
+        sha256 = "0a609jfgfwq71ksxw4h2q25qbix75yrf7vm0dfpyzjvgcmqiviab";
       };
       packageRequires = [ ];
       meta = {
