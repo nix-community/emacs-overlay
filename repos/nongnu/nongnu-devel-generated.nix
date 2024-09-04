@@ -1092,10 +1092,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.2.0.20240831.221713";
+      version = "4.0.2.0.20240903.114455";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.2.0.20240831.221713.tar";
-        sha256 = "0g1rps3fm7ji7qrbrfwrx7wxssms5jkz3wkazi0i4v28kvp0h4ga";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.2.0.20240903.114455.tar";
+        sha256 = "122r45w16xwpx50y817gkqb9w8ap5cmvj6msf6mvqd0phf1mdcr3";
       };
       packageRequires = [ ];
       meta = {
@@ -3956,10 +3956,10 @@
     elpaBuild {
       pname = "reformatter";
       ename = "reformatter";
-      version = "0.8.0.20240515.204925";
+      version = "0.8.0.20240903.94840";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20240515.204925.tar";
-        sha256 = "1iq4a99fxaaq2k0q9rfsprxx21sam8cpn455jddpcdcl71flbd72";
+        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20240903.94840.tar";
+        sha256 = "0mdwc7nd6gk42mr689xyzmm9n2g1iwjl9g25rdcsm0mk9i2gccws";
       };
       packageRequires = [ ];
       meta = {
@@ -4040,10 +4040,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20240902.130057";
+      version = "1.0.6.0.20240903.123345";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20240902.130057.tar";
-        sha256 = "175v4rxja21kl5ibz0dhqf0yzxhlrswx6f1sn1p03gwbk6jjpdyz";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20240903.123345.tar";
+        sha256 = "1vvz3dkvv0h53y60i2wq0sqfgy45fzrn4k161whjzavi51c9sbkr";
       };
       packageRequires = [ ];
       meta = {
