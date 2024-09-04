@@ -2384,6 +2384,27 @@
       };
     }
   ) { };
+  haskell-ts-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "haskell-ts-mode";
+      ename = "haskell-ts-mode";
+      version = "1.0.20240904.65301";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240904.65301.tar";
+        sha256 = "0f9zpf4yn64y9ak3z080mrvga15h2szy8jdyv4370w6042yrplni";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   helm = callPackage (
     {
       elpaBuild,
