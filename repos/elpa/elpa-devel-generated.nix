@@ -1563,10 +1563,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20240904.163546";
+      version = "1.5.0.20240904.200438";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20240904.163546.tar";
-        sha256 = "00flyk5k6954a2vlwsn07kkrfkvm59zv6vzlxx5f25mkrbb0gnzh";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20240904.200438.tar";
+        sha256 = "1zy9fww12h1fcrn386l6qwv3lj49g9p47vf4mlcyll7pjgva3bpb";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4785,10 +4785,10 @@
     elpaBuild {
       pname = "lin";
       ename = "lin";
-      version = "1.1.0.0.20240805.61912";
+      version = "1.1.0.0.20240905.52526";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/lin-1.1.0.0.20240805.61912.tar";
-        sha256 = "1r7l28h60cv3ba361rq1r6ksf8401q147j4n76q6d51w4v0gvjfm";
+        url = "https://elpa.gnu.org/devel/lin-1.1.0.0.20240905.52526.tar";
+        sha256 = "1i8af4pgnk47cvw8gm7h5yfyc7bhlx6iincd3w3d7ixjkjlzw7g8";
       };
       packageRequires = [ ];
       meta = {
@@ -5908,10 +5908,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.1.0.20240903.160234";
+      version = "1.1.0.20240905.42117";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.1.0.20240903.160234.tar";
-        sha256 = "0a10cswxnwmw5sqhyvmsks8m4jv9p0smwswb9xnh8bb8r5k1xvg4";
+        url = "https://elpa.gnu.org/devel/orderless-1.1.0.20240905.42117.tar";
+        sha256 = "0pbpdz478q6x5pqj1lgvf9gr0b2227843wgb7jhygjah4csc57kd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9367,10 +9367,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.9.0.20240903.160548";
+      version = "1.9.0.20240904.200818";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20240903.160548.tar";
-        sha256 = "0cvya028852l543rlnvrf95l47krf1wp59hxm22s0vlw1g1js22g";
+        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20240904.200818.tar";
+        sha256 = "08nf420wf4nf4c9r3g0k2hifgwm8rajwwal03rs7sgppb1f649pm";
       };
       packageRequires = [ compat ];
       meta = {
