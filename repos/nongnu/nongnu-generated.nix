@@ -2085,10 +2085,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.1";
+      version = "0.4.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gnosis-0.4.1.tar";
-        sha256 = "1iqpssf3gxv54gig718529y3cfjybvvjcvndzhjsiyw5b33pkbby";
+        url = "https://elpa.nongnu.org/nongnu/gnosis-0.4.2.tar";
+        sha256 = "1vp6ykr90d4rg7z9jvsb1inq27qr80n81zdlh3cd2xicrv12z2vw";
       };
       packageRequires = [
         compat
@@ -4529,10 +4529,10 @@
     elpaBuild {
       pname = "sweeprolog";
       ename = "sweeprolog";
-      version = "0.27.5";
+      version = "0.27.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.27.5.tar";
-        sha256 = "0mw8fddzcbn9h5l55v12n4nmickqdxc3y7y0xfzm6m42cvqkzdzf";
+        url = "https://elpa.nongnu.org/nongnu/sweeprolog-0.27.6.tar";
+        sha256 = "063bindr1rfbpa59nf0zrjq3axj3siiskaxd7d37pada411j654i";
       };
       packageRequires = [ compat ];
       meta = {

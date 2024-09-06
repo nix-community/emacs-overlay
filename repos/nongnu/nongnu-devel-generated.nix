@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.15.1.0.20240828.134352";
+      version = "1.15.1.0.20240905.142415";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.15.1.0.20240828.134352.tar";
-        sha256 = "092s4z2h984k3bkaijf94zy1np7x8mvn9z8mq6by22pjl1dn6x8i";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.15.1.0.20240905.142415.tar";
+        sha256 = "0fpdba936n08r2cb8l4mvkbbdnz5zqkar6x68wbzbqvz9rfbdalh";
       };
       packageRequires = [
         clojure-mode
@@ -2045,10 +2045,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.1.0.20240824.213824";
+      version = "0.4.2.0.20240905.162744";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.1.0.20240824.213824.tar";
-        sha256 = "1xqfmg6laykrcxvwsk10wq3vqlzwyd75fnnfrydsh7prbqfnsxlf";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.2.0.20240905.162744.tar";
+        sha256 = "0ljvvccs5n55pdaq8qjad8g3bagrnsr3yy2krf5pxbal00z72vba";
       };
       packageRequires = [
         compat
@@ -2219,10 +2219,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.0.0.20240904.213934";
+      version = "0.9.0.0.20240905.124650";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240904.213934.tar";
-        sha256 = "0a687hdjk2600xcw280agzagimqxip19lmx1czzq1s005vvkxc18";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240905.124650.tar";
+        sha256 = "03qabav4aqwk2kpchmv73iyv5cwqvssw6qf2prdmy8g3fnls28v4";
       };
       packageRequires = [
         compat
@@ -2393,10 +2393,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20240905.72933";
+      version = "1.0.20240905.82852";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240905.72933.tar";
-        sha256 = "1v6q5qcr81sv1wx3wmbk89cfds6vpqgp4ifmrq5vk65qzzylkm0d";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240905.82852.tar";
+        sha256 = "15ydnmrm2d17zli545qf034hb8spg07abkwcxfl8f6l04fdmdn6k";
       };
       packageRequires = [ ];
       meta = {
@@ -3850,10 +3850,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20240902.112159";
+      version = "4.6snapshot0.20240905.110528";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20240902.112159.tar";
-        sha256 = "03kys94z9lb26al582f9hcfaxmb22wly5bqman0bkwlbrfwb3m0l";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20240905.110528.tar";
+        sha256 = "1683kr73628ivmnj2pnzfamb8ddzrkh85m2k6pd6mkcyz7n56nmh";
       };
       packageRequires = [ ];
       meta = {
@@ -4447,10 +4447,10 @@
     elpaBuild {
       pname = "sweeprolog";
       ename = "sweeprolog";
-      version = "0.27.5.0.20240902.75715";
+      version = "0.27.6.0.20240905.90947";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.5.0.20240902.75715.tar";
-        sha256 = "17axkpy0yyx0zy30gxbhgx5a5nmdv1fpp5zq5mk0cnsch6a7rzb7";
+        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20240905.90947.tar";
+        sha256 = "0wsl9dnz1vrr5qajcps5095gaxpqwspb16qac72sdafxidjfgabh";
       };
       packageRequires = [ compat ];
       meta = {
