@@ -1137,10 +1137,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.2";
+      version = "4.0.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/emacsql-4.0.2.tar";
-        sha256 = "1jzskfpbvcrkmgmrz6qswln13zhpxpj9ml2qd2hlzn1pw78dfxi8";
+        url = "https://elpa.nongnu.org/nongnu/emacsql-4.0.3.tar";
+        sha256 = "1179z8d5mzhmnq2b1q9pf450jflxvrk5y2i3hzdl8lvd4nrm6kgw";
       };
       packageRequires = [ ];
       meta = {
@@ -2085,10 +2085,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.2";
+      version = "0.4.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gnosis-0.4.2.tar";
-        sha256 = "1vp6ykr90d4rg7z9jvsb1inq27qr80n81zdlh3cd2xicrv12z2vw";
+        url = "https://elpa.nongnu.org/nongnu/gnosis-0.4.3.tar";
+        sha256 = "1bfz7sd56w3z54fjvbinbz1ldj6k4kpgc51qpbhnzmmhn49kn1rk";
       };
       packageRequires = [
         compat

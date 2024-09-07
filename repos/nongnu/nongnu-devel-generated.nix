@@ -1092,10 +1092,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.2.0.20240903.114455";
+      version = "4.0.3.0.20240906.134234";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.2.0.20240903.114455.tar";
-        sha256 = "122r45w16xwpx50y817gkqb9w8ap5cmvj6msf6mvqd0phf1mdcr3";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20240906.134234.tar";
+        sha256 = "0a9456snizy8w47vh8zj00180kncg0h3vv3iq86lckqhv2qbp0az";
       };
       packageRequires = [ ];
       meta = {
@@ -2045,10 +2045,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.2.0.20240905.162744";
+      version = "0.4.3.0.20240906.122813";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.2.0.20240905.162744.tar";
-        sha256 = "0ljvvccs5n55pdaq8qjad8g3bagrnsr3yy2krf5pxbal00z72vba";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.3.0.20240906.122813.tar";
+        sha256 = "0zw2anliw9l5w65b9f7sgqjhhqj24vkzw1dkij0fgx5m0b0lykrj";
       };
       packageRequires = [
         compat
@@ -2416,10 +2416,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20240831.50134";
+      version = "4.0.0.20240906.192746";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240831.50134.tar";
-        sha256 = "004kd97q2nm8q2m8qx28vaqsxp8sp4w7y935giwwm5yxb4fphnnn";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240906.192746.tar";
+        sha256 = "16c1d9vlh9nggnlvrycfzr6a5nfpha0qq4vl0a0b5p3zdrb8s4di";
       };
       packageRequires = [
         helm-core
@@ -2441,10 +2441,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20240831.50134";
+      version = "4.0.0.20240906.192746";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240831.50134.tar";
-        sha256 = "18myb5z3gfxd0a5nb0dwmcbg8idhm7qpksmb9rnmr3h57api9snf";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240906.192746.tar";
+        sha256 = "0gq559hja1s7qc0rhz2aicnmp3c8z2vp702kxpf6qm6ild6sk82w";
       };
       packageRequires = [ async ];
       meta = {
@@ -2574,10 +2574,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4pre0.20240831.102158";
+      version = "0.4pre0.20240906.110022";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240831.102158.tar";
-        sha256 = "0n1s93xfxj3y3a90bx6b6d5s23zq76fbyqpiadd7valyrrqmi2x0";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.4pre0.20240906.110022.tar";
+        sha256 = "1pwxsg0jkn6z1pyfsdfqcc50zxxssijrqicj7xvyjmk67brdl6p7";
       };
       packageRequires = [
         compat
@@ -3977,10 +3977,10 @@
     elpaBuild {
       pname = "reformatter";
       ename = "reformatter";
-      version = "0.8.0.20240903.94840";
+      version = "0.8.0.20240906.140555";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20240903.94840.tar";
-        sha256 = "0mdwc7nd6gk42mr689xyzmm9n2g1iwjl9g25rdcsm0mk9i2gccws";
+        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20240906.140555.tar";
+        sha256 = "0x6fgwg436dncz1d8vjcxc02mrl13p78ns7bhghnmx0hwhnc93z6";
       };
       packageRequires = [ ];
       meta = {
