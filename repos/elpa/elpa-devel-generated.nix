@@ -419,10 +419,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.9.0.20240821.25342";
+      version = "1.9.9.0.20240906.100354";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20240821.25342.tar";
-        sha256 = "07fhgw4frnsl4g0kx37q18kglbcc0n39d7lw6qbaycj3vji5q43y";
+        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20240906.100354.tar";
+        sha256 = "12blx687kfq759rncj5vcjawxx4xb82xd543i9af1wdb2b99qvag";
       };
       packageRequires = [ ];
       meta = {
@@ -1311,10 +1311,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "0.10.2.0.20240827.20240";
+      version = "0.10.2.0.20240906.162633";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240827.20240.tar";
-        sha256 = "03njrbzxn57gap2d7xhsx1pk2w6hzkacjfxir17zq03shxqlajhs";
+        url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240906.162633.tar";
+        sha256 = "117bpq7swfcmdlqw46kxlsjhzka2g9mhw4qfxarx5jb2kmvj7iyv";
       };
       packageRequires = [ ];
       meta = {
@@ -6730,10 +6730,10 @@
     elpaBuild {
       pname = "preview-auto";
       ename = "preview-auto";
-      version = "0.3.0.20240818.113948";
+      version = "0.3.0.20240906.80544";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/preview-auto-0.3.0.20240818.113948.tar";
-        sha256 = "1nr80nrzkq0pak5pinxz3v6j6kr879y35whaxn9q6as1c93aay9d";
+        url = "https://elpa.gnu.org/devel/preview-auto-0.3.0.20240906.80544.tar";
+        sha256 = "0qjbni9a40sbizq0bklkqd0aqjgj10idkvgmrnh9hpxsy56kgbxn";
       };
       packageRequires = [ auctex ];
       meta = {
@@ -6774,10 +6774,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20240817.24032";
+      version = "0.11.1.0.20240906.174333";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20240817.24032.tar";
-        sha256 = "1f29qrv2g772sgc4m1y2agm3hwz9fl06mpizak1kbx6ak8klw6zk";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20240906.174333.tar";
+        sha256 = "1m1ag9y0ljqb98mxlfk5rgpqz776s5l3dz8zrp2n7ns5ycc2za7n";
       };
       packageRequires = [ xref ];
       meta = {
@@ -8831,10 +8831,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.5.0.20240831.223336";
+      version = "0.7.5.0.20240902.104801";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.5.0.20240831.223336.tar";
-        sha256 = "0128inm0apsh7gqmclw14slbhqn9cbj0rs0ccd7nl1zwbajznxc8";
+        url = "https://elpa.gnu.org/devel/transient-0.7.5.0.20240902.104801.tar";
+        sha256 = "0rzsng6zhkfl2mvcy1vgw1505n77m6zc8cms92ki8zspj39sr35l";
       };
       packageRequires = [
         compat
