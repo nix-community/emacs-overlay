@@ -9149,10 +9149,10 @@
     elpaBuild {
       pname = "use-package";
       ename = "use-package";
-      version = "2.4.6.0.20240901.93048";
+      version = "2.4.6.0.20240907.62515";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20240901.93048.tar";
-        sha256 = "0qx98aas0bc9arzxyvcwn4n5qxxlgqbdx6z7y32bjr3hcshs1gsa";
+        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20240907.62515.tar";
+        sha256 = "0z6iz3v3k6jay4xp471nxlkaqvnwngdl3gq6r6d6s682svfs8hy7";
       };
       packageRequires = [ bind-key ];
       meta = {
@@ -9626,10 +9626,10 @@
     elpaBuild {
       pname = "which-key";
       ename = "which-key";
-      version = "3.6.1.0.20240727.42753";
+      version = "3.6.1.0.20240907.62515";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/which-key-3.6.1.0.20240727.42753.tar";
-        sha256 = "1db4g0yhin44lxl4hpzsnn68f8hik705a89dgq20jiyihdji5ldq";
+        url = "https://elpa.gnu.org/devel/which-key-3.6.1.0.20240907.62515.tar";
+        sha256 = "06lhx8ccsmxb814650fdxp5wlk3pn68650qamlwvizgnnz6975n0";
       };
       packageRequires = [ ];
       meta = {
