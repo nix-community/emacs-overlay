@@ -3419,10 +3419,10 @@
     elpaBuild {
       pname = "org-contrib";
       ename = "org-contrib";
-      version = "0.4.2";
+      version = "0.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/org-contrib-0.4.2.tar";
-        sha256 = "1v1g359dqyq8h4y5rjhllc93dq1vysnfk23lqn3smdvdi3ba9zlr";
+        url = "https://elpa.nongnu.org/nongnu/org-contrib-0.6.tar";
+        sha256 = "02rpy7psjp1mj2nbzzbc06i4961m83hkq5ndks56mfkcz4hdhj2m";
       };
       packageRequires = [ org ];
       meta = {
