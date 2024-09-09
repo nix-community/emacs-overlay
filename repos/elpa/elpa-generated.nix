@@ -8317,10 +8317,10 @@
     elpaBuild {
       pname = "taxy-magit-section";
       ename = "taxy-magit-section";
-      version = "0.14";
+      version = "0.14.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/taxy-magit-section-0.14.tar";
-        sha256 = "13xwhqlvzfkm5gpprv683r8jri6wy54bhbzg3wiw3m020hqw6ygi";
+        url = "https://elpa.gnu.org/packages/taxy-magit-section-0.14.1.tar";
+        sha256 = "03dldc28qpilra4ifpv4p51zp20bl8z87mikv8nwaqz05dm3mmly";
       };
       packageRequires = [
         magit-section
