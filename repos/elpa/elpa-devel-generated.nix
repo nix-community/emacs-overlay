@@ -1473,10 +1473,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.1.1.0.20240703.93551";
+      version = "0.1.2.0.20240909.51553";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.1.1.0.20240703.93551.tar";
-        sha256 = "1275qhz4fyrh1qr1mjhzy923x4rs90v80sdiazmszn72dcvp25bq";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.1.2.0.20240909.51553.tar";
+        sha256 = "0b9lwmnca2ji4m5vzvwqxg2v4smkks91c19wl2ri139lqybc508w";
       };
       packageRequires = [
         consult
@@ -1957,10 +1957,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20240904.83156";
+      version = "3.1.0.0.20240909.70244";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20240904.83156.tar";
-        sha256 = "0dhgbk2vhf0f7qdf9cj3afz0r0fnc475rh4gw8qdzhgrn2mvigg9";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20240909.70244.tar";
+        sha256 = "1dnwki8di7fwn5cznihz70q9m6kxlb07mbml16pwfgqn62xmlgh7";
       };
       packageRequires = [ ];
       meta = {
@@ -2569,10 +2569,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.8.0.0.20240905.85946";
+      version = "1.8.0.0.20240909.62010";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20240905.85946.tar";
-        sha256 = "1y3qmbghirf8hznsx58974sb4zaqmib9dkijd1pf15xg22l12j6p";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20240909.62010.tar";
+        sha256 = "06b8rcp2782dy2yr7w0myrni7n24vffqn5na47niw6ncq0ksld7j";
       };
       packageRequires = [ ];
       meta = {
@@ -2855,10 +2855,10 @@
     elpaBuild {
       pname = "ement";
       ename = "ement";
-      version = "0.16pre0.20240907.231259";
+      version = "0.16pre0.20240909.12609";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ement-0.16pre0.20240907.231259.tar";
-        sha256 = "1w2dd7d0j2fcxjq1a4srarly8ip93mp7r5f9v4y8kynb9b0cdw27";
+        url = "https://elpa.gnu.org/devel/ement-0.16pre0.20240909.12609.tar";
+        sha256 = "0pv074cqixrd70gfyp3yxshjzk1i6fakyymyf38flhg7ijim0wcc";
       };
       packageRequires = [
         map
@@ -4810,10 +4810,10 @@
     elpaBuild {
       pname = "listen";
       ename = "listen";
-      version = "0.10pre0.20240823.41212";
+      version = "0.10pre0.20240909.20100";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240823.41212.tar";
-        sha256 = "13wc03pif99acz13bhp1s2gdiclvls0frc6g1xhasf85abjdp433";
+        url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240909.20100.tar";
+        sha256 = "1nw8d5q8z7z67gnv31292ial4l4pfsgiyiqg64flc9hg050q1vfr";
       };
       packageRequires = [
         persist
