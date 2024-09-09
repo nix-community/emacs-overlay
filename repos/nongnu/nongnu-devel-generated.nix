@@ -305,10 +305,10 @@
     elpaBuild {
       pname = "beancount";
       ename = "beancount";
-      version = "0.9.0.20240801.232930";
+      version = "0.9.0.20240908.163924";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/beancount-0.9.0.20240801.232930.tar";
-        sha256 = "0mjf5nsp4zpck6nrqrbzk4xwkwglngs1nv8vdifdzgfdj1gxc8l0";
+        url = "https://elpa.nongnu.org/nongnu-devel/beancount-0.9.0.20240908.163924.tar";
+        sha256 = "0iqshz6xamnhx4m5phr5zrfmai61l41f44hmyiqvwqg6spyf6nzi";
       };
       packageRequires = [ ];
       meta = {
@@ -4901,10 +4901,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.0snapshot0.20240908.162052";
+      version = "8.3.0snapshot0.20240908.225110";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20240908.162052.tar";
-        sha256 = "0r49xvwfgg26j1r41j5d5qh770kcn2iaaf3ajfnl86zvksm00rpi";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20240908.225110.tar";
+        sha256 = "010h61aik37v80s0nhsccp0p98gjyldmslrrdr4lwilzlihmd11q";
       };
       packageRequires = [
         cl-lib
