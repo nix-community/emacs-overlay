@@ -1311,10 +1311,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "0.10.2.0.20240906.162633";
+      version = "0.10.2.0.20240909.115835";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240906.162633.tar";
-        sha256 = "117bpq7swfcmdlqw46kxlsjhzka2g9mhw4qfxarx5jb2kmvj7iyv";
+        url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240909.115835.tar";
+        sha256 = "1w7a2y31bcbbypbyn2d4kgshi3vms8zmm3vxa9ll6l5hh50wch9z";
       };
       packageRequires = [ ];
       meta = {
@@ -2855,10 +2855,10 @@
     elpaBuild {
       pname = "ement";
       ename = "ement";
-      version = "0.16pre0.20240909.12609";
+      version = "0.16pre0.20240909.35000";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ement-0.16pre0.20240909.12609.tar";
-        sha256 = "0pv074cqixrd70gfyp3yxshjzk1i6fakyymyf38flhg7ijim0wcc";
+        url = "https://elpa.gnu.org/devel/ement-0.16pre0.20240909.35000.tar";
+        sha256 = "1cc5wvp37cwagnjc4s4g2289jl37ldn97di58l8ydhv8piwhmvhq";
       };
       packageRequires = [
         map
@@ -4810,10 +4810,10 @@
     elpaBuild {
       pname = "listen";
       ename = "listen";
-      version = "0.10pre0.20240909.20100";
+      version = "0.10pre0.20240909.32908";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240909.20100.tar";
-        sha256 = "1nw8d5q8z7z67gnv31292ial4l4pfsgiyiqg64flc9hg050q1vfr";
+        url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240909.32908.tar";
+        sha256 = "16zm0z9g9h08p079x1c287baw3wddgbik49r4vjqzgd87fwnfrsi";
       };
       packageRequires = [
         persist
@@ -6774,10 +6774,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20240906.174333";
+      version = "0.11.1.0.20240909.174321";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20240906.174333.tar";
-        sha256 = "1m1ag9y0ljqb98mxlfk5rgpqz776s5l3dz8zrp2n7ns5ycc2za7n";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20240909.174321.tar";
+        sha256 = "1g869plsgbnfixz4ikdcal02qi06xchjf993blhj2v8sfkqvdaca";
       };
       packageRequires = [ xref ];
       meta = {
