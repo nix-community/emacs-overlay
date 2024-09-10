@@ -7694,6 +7694,27 @@
       };
     }
   ) { };
+  show-font = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "show-font";
+      ename = "show-font";
+      version = "0.1.1.0.20240910.61712";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/show-font-0.1.1.0.20240910.61712.tar";
+        sha256 = "0z6xx5vplsvgi7fmdczhfn1363gygr36vfh1swm5q7dn74a5q560";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/show-font.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   sisu-mode = callPackage (
     {
       elpaBuild,
