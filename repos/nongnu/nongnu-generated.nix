@@ -2604,6 +2604,7 @@
       fetchurl,
       lib,
       map,
+      org,
       persist,
       plz,
       taxy-magit-section,
@@ -2612,14 +2613,15 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.3";
+      version = "0.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hyperdrive-0.3.tar";
-        sha256 = "03r5qx3a0w1ll4ql7nrjgp19cnk7rrf7ibvj8gd57gqqihkdmqqw";
+        url = "https://elpa.nongnu.org/nongnu/hyperdrive-0.4.tar";
+        sha256 = "0hkyxjxfjrxc6a69a6wih3kq5xxg0xrkzxfk52vv24p4zkyw9lh7";
       };
       packageRequires = [
         compat
         map
+        org
         persist
         plz
         taxy-magit-section
