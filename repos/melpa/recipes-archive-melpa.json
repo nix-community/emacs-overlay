@@ -12479,11 +12479,11 @@
   "repo": "ataka/chatwork",
   "unstable": {
    "version": [
-    20170511,
-    442
+    20240910,
+    1531
    ],
-   "commit": "fea231d479f06bf40dbfcf45de143eecc9ed744c",
-   "sha256": "163xr18lm4awfgh4lcp7pr04jirpvlk8w1g4445zbxbpjfvv268z"
+   "commit": "5abbf07bd6063c922191cc645f5771a943e3043c",
+   "sha256": "1gxaycb22wj9sw83n3807j46vr60higv0a5lg6igwm603v8xmg7c"
   },
   "stable": {
    "version": [
@@ -43331,15 +43331,15 @@
   "repo": "purcell/flycheck-relint",
   "unstable": {
    "version": [
-    20240909,
-    1002
+    20240910,
+    1036
    ],
    "deps": [
     "flycheck",
     "relint"
    ],
-   "commit": "9b0baed3fb143be2440de7936a0cc2a51ee226ac",
-   "sha256": "0fcsfv675zvh1x6yl4qw9995yfv1s8cga0jza4h9iq4gzrkbjmsc"
+   "commit": "88da7151b1781ec950eb9ec0b2ad32b90dae7427",
+   "sha256": "1r8bcn29mv0s5jcv14h1n04xd6akzm4blnd4ngsqqdmgxh714f8c"
   },
   "stable": {
    "version": [
@@ -56977,14 +56977,14 @@
   "repo": "emacs-helm/helm-mu",
   "unstable": {
    "version": [
-    20240726,
-    608
+    20240910,
+    854
    ],
    "deps": [
     "helm"
    ],
-   "commit": "4a45bb87215a47c8638034a06bf6529369779c5c",
-   "sha256": "0344rmwl6g9wy2vf919idm0fnrplyw112sfb39h533y0sy2244sy"
+   "commit": "d0bbc46338337d92b58708b906b40d0e12ae8006",
+   "sha256": "0l7cysci0cmg0mg64gjxismkwqc3rfwl4ixjz5a0434zc1pg502j"
   }
  },
  {
@@ -59781,11 +59781,11 @@
   "repo": "dantecatalfamo/himalaya-emacs",
   "unstable": {
    "version": [
-    20240101,
-    2203
+    20240321,
+    1324
    ],
-   "commit": "108e275f25ea35f2adeedbeb4af28c4a99c07fa7",
-   "sha256": "0i8rg5dinjkypyxgcqzaxrxs52j5x1nyalns23g20kvmfg3aivan"
+   "commit": "6c2c7f354a0bed95b2199e1814342620119bf13e",
+   "sha256": "07hih5q0n6af1cr33ilzri3y3nqdmvqgd860qa9wv5wl3s8rymnz"
   },
   "stable": {
    "version": [
@@ -61137,11 +61137,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20240908,
-    732
+    20240910,
+    536
    ],
-   "commit": "25ad337b6be9ebe59ec0925a4ab0095ad7743dc2",
-   "sha256": "00p72c93337g8spsgc1rljirq1krb831jxd23slza1vz225gk4zc"
+   "commit": "246ab46e6566e353f603dc58253e9fabf37a0c01",
+   "sha256": "0qhm27fhpfyjsjjl4vf7gs55pryk37kx3m1y4wd7y9b0h44czgvc"
   }
  },
  {
@@ -68580,19 +68580,20 @@
   "repo": "emacsorphanage/key-chord",
   "unstable": {
    "version": [
-    20240109,
-    1430
+    20240910,
+    1441
    ],
-   "commit": "dbf91fefdad58b1c2f07c92e658ce81490837c60",
-   "sha256": "0r3zvq1z79csgcq0mgifdakx0z0li3haxk4wxvijwxllfb9kn22g"
+   "commit": "fc75b1451759121601110da8ddfadcf5156318af",
+   "sha256": "1ikg1kfyb8rgms5yvvg4117kmzw2jlq8h1wyq2l93my99c5qwm2g"
   },
   "stable": {
    "version": [
     0,
-    7
+    7,
+    1
    ],
-   "commit": "dbf91fefdad58b1c2f07c92e658ce81490837c60",
-   "sha256": "0r3zvq1z79csgcq0mgifdakx0z0li3haxk4wxvijwxllfb9kn22g"
+   "commit": "fc75b1451759121601110da8ddfadcf5156318af",
+   "sha256": "1ikg1kfyb8rgms5yvvg4117kmzw2jlq8h1wyq2l93my99c5qwm2g"
   }
  },
  {
@@ -87491,22 +87492,25 @@
   "repo": "oantolin/orderless",
   "unstable": {
    "version": [
-    20240905,
-    913
+    20240910,
+    1457
    ],
    "deps": [
     "compat"
    ],
-   "commit": "860a10222a1a6be3ea87a77d34d09cd0e2dfd422",
-   "sha256": "0j250a39bp1b9swkw9wv7f93dxh8dry448504nilj42zzivv7h0g"
+   "commit": "416c62a4a8e7199567a5df63d03cf320dc4d6ab0",
+   "sha256": "0yqnbcrf8ai1fivd13d8w619qwjd51rf4pqyakqp2kf02z7m4kpb"
   },
   "stable": {
    "version": [
     1,
-    1
+    2
    ],
-   "commit": "3847f311077efa17951a786d2759f2639c5f43c8",
-   "sha256": "1gc3ysa1yhi6pz8bafbdpj0avdhms0rfd1r3k5mrhnm8mgh6zq8q"
+   "deps": [
+    "compat"
+   ],
+   "commit": "416c62a4a8e7199567a5df63d03cf320dc4d6ab0",
+   "sha256": "0yqnbcrf8ai1fivd13d8w619qwjd51rf4pqyakqp2kf02z7m4kpb"
   }
  },
  {
@@ -90084,14 +90088,14 @@
   "repo": "minad/org-modern",
   "unstable": {
    "version": [
-    20240803,
-    1952
+    20240910,
+    1454
    ],
    "deps": [
     "compat"
    ],
-   "commit": "e306c7df4985f77e5c4e2146900259a23a76c974",
-   "sha256": "0zvg7jqfgaaayw8x3bi704ad47kpk4g8hxxfsd5p0xhyhxkq528m"
+   "commit": "f619912e55b409a8a3ecb807a8c2a35faa0e482d",
+   "sha256": "19zb67w2kfz55ifixz4vhs6m0jlgx77fjn56gcmcmbx8ijjsf651"
   },
   "stable": {
    "version": [
@@ -121807,11 +121811,11 @@
   "repo": "jamescherti/tomorrow-night-deepblue-theme.el",
   "unstable": {
    "version": [
-    20240902,
-    1622
+    20240910,
+    1323
    ],
-   "commit": "cebf87c7c19eff0cb7a81225dc052e21861b12ae",
-   "sha256": "0gmy84p30g16nhx4scwyyjg2jsisrpki577m9hyiyg7wjwq2x85b"
+   "commit": "1a3257dd785ff096349cc16f18dae0d2330fe3bd",
+   "sha256": "016pd3pan4qsaw35vmsr1fi0fp8m54f8chk73vc44qzvmbdfhprq"
   },
   "stable": {
    "version": [
