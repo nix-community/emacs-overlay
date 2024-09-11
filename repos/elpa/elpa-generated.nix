@@ -5872,6 +5872,7 @@
   ) { };
   orderless = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -5879,12 +5880,12 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.1";
+      version = "1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/orderless-1.1.tar";
-        sha256 = "1qjxln21ydc86kabk5kwa6ky40qjqcrk5nmc92w42x3ypxs711f3";
+        url = "https://elpa.gnu.org/packages/orderless-1.2.tar";
+        sha256 = "1iyfnvwqwn8y4bkv25zw15y8yy5dm89kyk7wlxw0al22bhfc2cm7";
       };
-      packageRequires = [ ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/orderless.html";
         license = lib.licenses.free;

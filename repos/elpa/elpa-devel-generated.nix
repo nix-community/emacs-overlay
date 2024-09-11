@@ -1407,10 +1407,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.0.0.0.0.20240803.181300";
+      version = "30.0.0.0.0.20240910.150701";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-30.0.0.0.0.20240803.181300.tar";
-        sha256 = "15an93nh3l0njb9vl1bmg59r8z7mcp3zpjp27vwg0rmvldqg72r3";
+        url = "https://elpa.gnu.org/devel/compat-30.0.0.0.0.20240910.150701.tar";
+        sha256 = "1mi1fk574fdi1xx6pj0i449ng9y8a8hpj46dxmjjl8kgzipi79pq";
       };
       packageRequires = [ seq ];
       meta = {
@@ -4054,10 +4054,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20240908.73211";
+      version = "9.0.2pre0.20240910.13607";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240908.73211.tar";
-        sha256 = "0p565h423lw95v2g1fx8wirz7gyj3l1aj7rkdy6wm1zd49m1qpw6";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240910.13607.tar";
+        sha256 = "0rjxcp365bjzkf2f24w7b7jdqvgm3i570damv97pvswfgj5k4lks";
       };
       packageRequires = [ ];
       meta = {
@@ -5908,10 +5908,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.1.0.20240905.91300";
+      version = "1.2.0.20240910.145750";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.1.0.20240905.91300.tar";
-        sha256 = "01dlhbbn79kqcb9fmssf3bqr080rbxzjaxjh4sx81w27infsf0wv";
+        url = "https://elpa.gnu.org/devel/orderless-1.2.0.20240910.145750.tar";
+        sha256 = "0ihcp82va5hpm0k50c5iacipipfpi4fz3hj5rbz2mpw0qz73n70c";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6021,10 +6021,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.5.0.20240803.195206";
+      version = "1.5.0.20240910.145422";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.5.0.20240803.195206.tar";
-        sha256 = "1nrry2zn7ldmbmsr0iznf4w01dhkc618ywbqbbz10ahhja509z2v";
+        url = "https://elpa.gnu.org/devel/org-modern-1.5.0.20240910.145422.tar";
+        sha256 = "0wnj1n2vk8x469i6wqi0fhc545rqlbln4lknbfzbyyga9d041x5i";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6411,10 +6411,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "2.0.1.0.20240908.123918";
+      version = "2.0.1.0.20240910.193458";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-2.0.1.0.20240908.123918.tar";
-        sha256 = "1qvghmqpigl0ipnkihn7icawfzj71phkal599lb21skfzcgz941n";
+        url = "https://elpa.gnu.org/devel/phpinspect-2.0.1.0.20240910.193458.tar";
+        sha256 = "08pnrys0x6kxdxzjnj8ny4rb5ya8jz56ia9r6kyq73ipgwsyk5yi";
       };
       packageRequires = [ compat ];
       meta = {
