@@ -9106,11 +9106,14 @@
   "repo": "museoa/bqn-mode",
   "unstable": {
    "version": [
-    20240721,
-    2036
+    20240910,
+    1638
    ],
-   "commit": "80f6be6ca678d2f072be7a39e88b10d3c56e63e5",
-   "sha256": "1nwa39yslizdqkh8wixx55b153gri8gnj68s6b612jn8mry1dgny"
+   "deps": [
+    "compat"
+   ],
+   "commit": "2471b5e1b90c678db5732305723f24642b7dec38",
+   "sha256": "0a4whlx8065c15nfyqy8176mwysnc13z4q7mmdfnf6skdnvi2pk6"
   }
  },
  {
@@ -51883,7 +51886,7 @@
   "stable": {
    "version": [
     0,
-    42,
+    43,
     0
    ],
    "deps": [
@@ -51892,8 +51895,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "7a7c064655147daa9d03c20c764c0dc3cd8111ff",
-   "sha256": "0hy96w8milg8ap7d3145ab84da9gjlwzh9f0c7ll6y6dg4jdrgaa"
+   "commit": "b17abb207fe027e2ec99bef1c195430da5030718",
+   "sha256": "0i49f1wshpdpinadkyml930lnxcvwzy0byiy22a3mwrc5w715fac"
   }
  },
  {
@@ -69051,15 +69054,15 @@
   "repo": "khoj-ai/khoj",
   "unstable": {
    "version": [
-    20240909,
-    2222
+    20240910,
+    2057
    ],
    "deps": [
     "dash",
     "transient"
    ],
-   "commit": "549686a7a4188d5deb48f7fe34c45b66f4140e42",
-   "sha256": "1viqc27k4wdc7pgc8dgrx9cc1cg712mp2hfyzmnmgbdkf17sp56v"
+   "commit": "596db603e03735e3fb6ecae0696a4fe9bbfce385",
+   "sha256": "03prb9047bvzzi7pafpmpxj3f4qjlf7wvj7l8l101rzd5dpdv1l2"
   },
   "stable": {
    "version": [
@@ -74883,8 +74886,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20240908,
-    1411
+    20240910,
+    2131
    ],
    "deps": [
     "compat",
@@ -74894,8 +74897,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "05d7565f15beb57d1f92298d0dad55eda1e527b5",
-   "sha256": "0v7x19yf8lqvsgg3sri8hk4a2ri2a8kvblxwnmdsbvxm2bw211i2"
+   "commit": "61c051ea1cda5fe6c9404cb5ae228088d2e254f0",
+   "sha256": "02jdf7gq9x6b8685ind197rva4fpphfxjjpg6y6dpfjqzmymk4nb"
   },
   "stable": {
    "version": [
@@ -105393,10 +105396,10 @@
   "unstable": {
    "version": [
     20240910,
-    802
+    1847
    ],
-   "commit": "1064ec0e9690470f24eaed673541d689c78a2ba8",
-   "sha256": "0lkrmkr4vgp0j9wma1arcaiqs9yww01xnyg15yrmj07qjrr6z4qd"
+   "commit": "1ad6fdc88e39bc83237b1e95188986a910be4943",
+   "sha256": "1nsncsfnpa0c6fddvmj09640rw3y7c8ljqfqcbrbawqf68b8jm0g"
   },
   "stable": {
    "version": [
@@ -126484,11 +126487,11 @@
   "repo": "gmlarumbe/verilog-ts-mode",
   "unstable": {
    "version": [
-    20240902,
-    1250
+    20240910,
+    1638
    ],
-   "commit": "a1aabc000ad0afbd43f38e88cb3d395c0f51eab3",
-   "sha256": "0xn7c8k2gjf1d12iqzj8vk8i3dah5cxsnhd19lc0k1k1mrls0mqy"
+   "commit": "60ea684ee343e091fdc138fb506fb4774578301f",
+   "sha256": "1rk19fpl8gkwkriyrjl4kbhjx9jxg9aq62w439jbz61kn7559hig"
   },
   "stable": {
    "version": [
