@@ -1311,10 +1311,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "0.10.2.0.20240911.15800";
+      version = "0.10.2.0.20240911.20707";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240911.15800.tar";
-        sha256 = "0xpijlylsj76fxrbwqh36zvjry7xncw9iywcwswgja6hj9kqdfg1";
+        url = "https://elpa.gnu.org/devel/company-0.10.2.0.20240911.20707.tar";
+        sha256 = "17qqwqs036r5794zkpd0vnp70pcmjrihv1vw7wm02qwmrdxkklwz";
       };
       packageRequires = [ ];
       meta = {
@@ -1823,10 +1823,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0.0.20240911.165620";
+      version = "0.15.0.0.20240911.203510";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240911.165620.tar";
-        sha256 = "0bgcj0fd3j4sb4yczjr34bkcy32rp7ck4aigi8wzr5z3qvdfry1l";
+        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240911.203510.tar";
+        sha256 = "1q0zb5xlqph06ahkrkfd4m81dhb6h94bavcv5s861khxhlys5q32";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2569,10 +2569,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.8.0.0.20240909.62010";
+      version = "1.8.0.0.20240912.63954";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20240909.62010.tar";
-        sha256 = "06b8rcp2782dy2yr7w0myrni7n24vffqn5na47niw6ncq0ksld7j";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20240912.63954.tar";
+        sha256 = "0cn01gg2yryaqp91my8wpzr71v2svibfpg3dz17kya6c8s8gpj8n";
       };
       packageRequires = [ ];
       meta = {
