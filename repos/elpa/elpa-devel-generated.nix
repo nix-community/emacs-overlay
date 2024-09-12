@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240910.203234";
+      version = "14.0.6.0.20240911.191143";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240910.203234.tar";
-        sha256 = "0nma5rlykxcy4l8n89m5lhvbk6yjjqw5npss7hgkiy3lcvdfl4aq";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240911.191143.tar";
+        sha256 = "15y4rrmbv58avkq35ag7ibn1djs43qf1j9ci6j0hbh4hjqpdfmbf";
       };
       packageRequires = [ ];
       meta = {
@@ -1823,10 +1823,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0.0.20240903.201231";
+      version = "0.15.0.0.20240911.165620";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240903.201231.tar";
-        sha256 = "0iaqn04dkcp7pafdr3giqzd7jd5cil7xx0ldnh6fixifvkw8dam6";
+        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240911.165620.tar";
+        sha256 = "0bgcj0fd3j4sb4yczjr34bkcy32rp7ck4aigi8wzr5z3qvdfry1l";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -4054,10 +4054,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20240910.13607";
+      version = "9.0.2pre0.20240911.143007";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240910.13607.tar";
-        sha256 = "0rjxcp365bjzkf2f24w7b7jdqvgm3i570damv97pvswfgj5k4lks";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240911.143007.tar";
+        sha256 = "1vbjxx70jnv3avqgdaflw4wf3id7ia54l3k2xps8bn50799zqch1";
       };
       packageRequires = [ ];
       meta = {
@@ -4117,10 +4117,10 @@
     elpaBuild {
       pname = "inspector";
       ename = "inspector";
-      version = "0.37.0.20240731.203714";
+      version = "0.38.0.20240911.94847";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/inspector-0.37.0.20240731.203714.tar";
-        sha256 = "0w6hqi2hv7vps8l5mgzvgxn53wxnyc24fhrmvxldajw8q8isi122";
+        url = "https://elpa.gnu.org/devel/inspector-0.38.0.20240911.94847.tar";
+        sha256 = "1w7zaxf77f7r0bdwqa276vqnhql1jsxl3y13gc13ikibhxb5jf2w";
       };
       packageRequires = [ ];
       meta = {
