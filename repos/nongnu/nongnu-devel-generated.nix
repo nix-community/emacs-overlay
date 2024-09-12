@@ -2350,10 +2350,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20240527.85346";
+      version = "17.5.0.20240911.102048";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20240527.85346.tar";
-        sha256 = "0wdanl6dh3j4z00mrqz3763gg8gjx9c3qsfd1mkz4as17dmqppjm";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20240911.102048.tar";
+        sha256 = "076aa77i72pllb330fcd3h8x9z63vmns99d3n8c286xz65svx7sh";
       };
       packageRequires = [ ];
       meta = {
@@ -2416,10 +2416,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20240910.64121";
+      version = "4.0.0.20240910.95656";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240910.64121.tar";
-        sha256 = "0yxahznnc4sm3qmqjfk43xbz2gli6kwlgmm7d8jnyz45cpyrb36z";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240910.95656.tar";
+        sha256 = "1aafghs3jb169hq8b07afzy4lf3d6q8xzvlszkqyxwzicc723chk";
       };
       packageRequires = [
         helm-core
@@ -2441,10 +2441,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20240910.64121";
+      version = "4.0.0.20240910.95656";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240910.64121.tar";
-        sha256 = "13ag2ip2ynwyjmdd08pqhgz33c7df0jyn78wqc4v2dpqiybblcdg";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240910.95656.tar";
+        sha256 = "0fbilh1r2vi8galrjvswfwm522h0r5kixg5sy9mwlyssgxljs38g";
       };
       packageRequires = [ async ];
       meta = {
@@ -3158,10 +3158,10 @@
     elpaBuild {
       pname = "monokai-theme";
       ename = "monokai-theme";
-      version = "3.5.3.0.20240710.102754";
+      version = "3.5.3.0.20240911.104603";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/monokai-theme-3.5.3.0.20240710.102754.tar";
-        sha256 = "0xncnb5fx7q55cl18gs6gw63di7p9kjyrfq7an5fig1rkmsyp4sx";
+        url = "https://elpa.nongnu.org/nongnu-devel/monokai-theme-3.5.3.0.20240911.104603.tar";
+        sha256 = "0721jwpyzvnqhzjldjdp98j585ivg02240jnxlnmry3428vc37av";
       };
       packageRequires = [ ];
       meta = {
@@ -3630,10 +3630,10 @@
     elpaBuild {
       pname = "page-break-lines";
       ename = "page-break-lines";
-      version = "0.15.0.20240311.102621";
+      version = "0.15.0.20240911.171451";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/page-break-lines-0.15.0.20240311.102621.tar";
-        sha256 = "03bz8kr6mk7k9sfnai805kjfb7w4q45ba83k4vylwb8c1x5km32h";
+        url = "https://elpa.nongnu.org/nongnu-devel/page-break-lines-0.15.0.20240911.171451.tar";
+        sha256 = "142s6q9fyr030rkdj1i349nbsfab7r742h2i1x430g8m19qai4zr";
       };
       packageRequires = [ ];
       meta = {
@@ -3766,10 +3766,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.25.1.0.20240722.164315";
+      version = "1.25.1.0.20240911.185503";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.25.1.0.20240722.164315.tar";
-        sha256 = "1fz4w8sbz59ylrag2kdv4wqjmvxj4dhi4q0bhslxa55vwgg2yfd6";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.25.1.0.20240911.185503.tar";
+        sha256 = "1h441ixrjbk90qncvc3pbwiqnx7zyzzkv1ynp13i5n7bam0xzjl4";
       };
       packageRequires = [ ];
       meta = {
@@ -5232,10 +5232,10 @@
     elpaBuild {
       pname = "yasnippet-snippets";
       ename = "yasnippet-snippets";
-      version = "1.0.0.20240911.75814";
+      version = "1.0.0.20240911.80118";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/yasnippet-snippets-1.0.0.20240911.75814.tar";
-        sha256 = "1dpyzif0y9jzzw58xk8hwd9zkz2yn1ps6z6g5qmfgdf13b4yh2y5";
+        url = "https://elpa.nongnu.org/nongnu-devel/yasnippet-snippets-1.0.0.20240911.80118.tar";
+        sha256 = "1wn5ckrlpacrlil6ap9j1x1lfr1yydnf0hcy268ji52hwvkdf55p";
       };
       packageRequires = [ yasnippet ];
       meta = {
