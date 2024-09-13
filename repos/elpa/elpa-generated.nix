@@ -9700,10 +9700,10 @@
     elpaBuild {
       pname = "xclip";
       ename = "xclip";
-      version = "1.11";
+      version = "1.11.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/xclip-1.11.tar";
-        sha256 = "081k9azz9jnmjmqlcc1yw9s4nziac772lw75xcm78fgsfrx42hmr";
+        url = "https://elpa.gnu.org/packages/xclip-1.11.1.tar";
+        sha256 = "0raqlpskjrkxv7a0q5ikq8dqf2h21g0vcxdw03vqcah2v43zxflx";
       };
       packageRequires = [ ];
       meta = {
