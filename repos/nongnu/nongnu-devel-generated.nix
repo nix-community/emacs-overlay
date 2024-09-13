@@ -638,10 +638,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0.0.20240718.101150";
+      version = "1.0.0.20240912.160617";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20240718.101150.tar";
-        sha256 = "054mkwddsdyh3kkj0ky35gq38j2j4hxx98k5igx6awqsm1mpwgz1";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20240912.160617.tar";
+        sha256 = "0h8h9ccli5qn6kp4fdyb6hq4f3vbj3sxxk61jy65v2y1xzwld6k1";
       };
       packageRequires = [
         consult
@@ -3850,10 +3850,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20240909.140904";
+      version = "4.6snapshot0.20240912.155825";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20240909.140904.tar";
-        sha256 = "1c1nk58j6im1dhhjcivc60rrdk9mjgbqzw7bkvsjjvb4q3hab087";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20240912.155825.tar";
+        sha256 = "0jw6wfjv5zbjwwcsxa29ckyy9ik633yghnc7jvd3zvf7s1j99z60";
       };
       packageRequires = [ ];
       meta = {
@@ -4491,10 +4491,10 @@
     elpaBuild {
       pname = "symbol-overlay";
       ename = "symbol-overlay";
-      version = "4.1.0.20240311.120733";
+      version = "4.2.0.20240912.105304";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/symbol-overlay-4.1.0.20240311.120733.tar";
-        sha256 = "0q4jj92l2xj5lj6hbxx42flrx4x923jidqmvkqq3japc2gvp8g00";
+        url = "https://elpa.nongnu.org/nongnu-devel/symbol-overlay-4.2.0.20240912.105304.tar";
+        sha256 = "1i4v8hpvl1m89cdb5pmjnvphdypkv8l69bnifgzj72s7py2xcg4v";
       };
       packageRequires = [ seq ];
       meta = {
