@@ -922,10 +922,10 @@
     elpaBuild {
       pname = "dracula-theme";
       ename = "dracula-theme";
-      version = "1.8.2.0.20240821.204622";
+      version = "1.8.2.0.20240912.203213";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.2.0.20240821.204622.tar";
-        sha256 = "1qn0gxsg7z7n6r8wxgcswapg0jizxpng6fkgpfqy3h8nx2pg5l5i";
+        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.2.0.20240912.203213.tar";
+        sha256 = "1wkyn7wswrgda7y267mxb6bi0h5ywp7hh2d4cmz3yfglnq1pmp1g";
       };
       packageRequires = [ ];
       meta = {
@@ -3766,10 +3766,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.25.1.0.20240911.185503";
+      version = "1.26.1.0.20240912.223846";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.25.1.0.20240911.185503.tar";
-        sha256 = "1h441ixrjbk90qncvc3pbwiqnx7zyzzkv1ynp13i5n7bam0xzjl4";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20240912.223846.tar";
+        sha256 = "09jppnrpl6y1y41g7bshy674c3p39l8r060zq57kr2f022z93mg8";
       };
       packageRequires = [ ];
       meta = {

@@ -3854,10 +3854,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.25.1";
+      version = "1.26.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/php-mode-1.25.1.tar";
-        sha256 = "1cfk7nq5x2p4adcf6q9igsh2jm0sdmsaf5l2sqx4idda28vp3gwc";
+        url = "https://elpa.nongnu.org/nongnu/php-mode-1.26.1.tar";
+        sha256 = "151hk9kmwlaq243qfwh2s1vqk5xsyikl9gj5b65ywhhf326dirz1";
       };
       packageRequires = [ ];
       meta = {
