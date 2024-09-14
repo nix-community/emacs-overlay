@@ -1780,10 +1780,10 @@
     elpaBuild {
       pname = "cursory";
       ename = "cursory";
-      version = "1.0.1.0.20240913.70428";
+      version = "1.1.0.0.20240914.63105";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cursory-1.0.1.0.20240913.70428.tar";
-        sha256 = "1g44fzdy76b1jqj8q7dsk0ni93wgzp2j3j3h15p7aby491zjqzpn";
+        url = "https://elpa.gnu.org/devel/cursory-1.1.0.0.20240914.63105.tar";
+        sha256 = "0g5mv4sabmyz5d9b43zby6cm2bg6sfh3s0hn1wm86zv5zpzpy0hq";
       };
       packageRequires = [ ];
       meta = {
