@@ -2393,10 +2393,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20240906.11701";
+      version = "1.0.20240914.30703";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240906.11701.tar";
-        sha256 = "060mhgnyrhm2hxmafazrp8k1gjqfnj6bdnsqs08qikpg1zn37q14";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240914.30703.tar";
+        sha256 = "0iv5vkh8ijmyfp6y3q9y9sbcrp1j9icf5b3sjip12s3r8dy6s8hd";
       };
       packageRequires = [ ];
       meta = {
@@ -2574,10 +2574,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20240910.232932";
+      version = "0.5pre0.20240913.164307";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20240910.232932.tar";
-        sha256 = "05yzdg7chzy4mcvij7yq1irv10v8k2r9z6ahgxbx3ir1wkvkj5mm";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20240913.164307.tar";
+        sha256 = "03bwc463i4c295357hc1wk0cx2rmjy45j5571xz7w8a3nyak7ddx";
       };
       packageRequires = [
         compat
