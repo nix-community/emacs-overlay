@@ -4597,10 +4597,10 @@
     elpaBuild {
       pname = "symbol-overlay";
       ename = "symbol-overlay";
-      version = "4.2";
+      version = "4.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/symbol-overlay-4.2.tar";
-        sha256 = "1lin8s07wwd7iacv9hf19cfssczs8kyv7b3x2hvqg335slpnr4ik";
+        url = "https://elpa.nongnu.org/nongnu/symbol-overlay-4.3.tar";
+        sha256 = "0f27axzjbrh4nx6ixpjbb8vx7s2y6l074cdqzia1c87a8b6301c6";
       };
       packageRequires = [ seq ];
       meta = {

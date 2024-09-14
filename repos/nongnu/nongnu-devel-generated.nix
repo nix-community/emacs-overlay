@@ -284,10 +284,10 @@
     elpaBuild {
       pname = "bash-completion";
       ename = "bash-completion";
-      version = "3.1.1.0.20230612.110320";
+      version = "3.1.1.0.20240913.153607";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.1.1.0.20230612.110320.tar";
-        sha256 = "1jw3cx6mzxv0mpk9xs1q3vll9sfyvw2mvvvpk9zirq2l13c31cjg";
+        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.1.1.0.20240913.153607.tar";
+        sha256 = "1srdcjjh1xzz732v1ib7m5v4s2kg1apdnqvs1h90b6y76v2g5hlh";
       };
       packageRequires = [ ];
       meta = {
@@ -2350,10 +2350,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20240911.102048";
+      version = "17.5.0.20240913.154408";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20240911.102048.tar";
-        sha256 = "076aa77i72pllb330fcd3h8x9z63vmns99d3n8c286xz65svx7sh";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20240913.154408.tar";
+        sha256 = "1iwwjbwy5q3qk9sh6qhrs1nq7871jllcnkhflk5ky015kndpfr90";
       };
       packageRequires = [ ];
       meta = {
@@ -2962,10 +2962,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.1.0.0.20240910.213130";
+      version = "4.1.0.0.20240913.145559";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.1.0.0.20240910.213130.tar";
-        sha256 = "1fp9jpgwwvfbx42spgs1ccfcja9jpnq1n3xh62gzfy3mrv37c6f2";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.1.0.0.20240913.145559.tar";
+        sha256 = "1dndxcpx7z62am2djzx3vz2zrbasy3xi533ybwzb7rsib63mssy3";
       };
       packageRequires = [
         compat
@@ -2993,10 +2993,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.1.0.0.20240910.213130";
+      version = "4.1.0.0.20240913.145559";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.0.0.20240910.213130.tar";
-        sha256 = "0cz62phwnwkm69accsdj7j3m162p993aaqrmdnp03vw542rwajxa";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.0.0.20240913.145559.tar";
+        sha256 = "0wgg7hp82n9hjcn8ihpppgxp2np39cs2g45sm81l08jk222x8lf7";
       };
       packageRequires = [
         compat
@@ -3587,10 +3587,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.23.0.20240516.73305";
+      version = "0.23.0.20240913.154609";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.23.0.20240516.73305.tar";
-        sha256 = "1g1jinavkrlxnrpsjkfc8d9n9ag9y1svi0p8yqb4rswvjv0l6vll";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.23.0.20240913.154609.tar";
+        sha256 = "1cp5fs45rfbs5xb5y46nbg9677q5mwzamqdd22jknz4i51r5d1mx";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -3977,10 +3977,10 @@
     elpaBuild {
       pname = "reformatter";
       ename = "reformatter";
-      version = "0.8.0.20240906.140555";
+      version = "0.8.0.20240913.153354";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20240906.140555.tar";
-        sha256 = "0x6fgwg436dncz1d8vjcxc02mrl13p78ns7bhghnmx0hwhnc93z6";
+        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20240913.153354.tar";
+        sha256 = "1k8im34si57hqwpqzcr07b8zd5ynwv0227h41npydfwc5lxwrx9m";
       };
       packageRequires = [ ];
       meta = {
@@ -4491,10 +4491,10 @@
     elpaBuild {
       pname = "symbol-overlay";
       ename = "symbol-overlay";
-      version = "4.2.0.20240912.105304";
+      version = "4.3.0.20240913.162400";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/symbol-overlay-4.2.0.20240912.105304.tar";
-        sha256 = "1i4v8hpvl1m89cdb5pmjnvphdypkv8l69bnifgzj72s7py2xcg4v";
+        url = "https://elpa.nongnu.org/nongnu-devel/symbol-overlay-4.3.0.20240913.162400.tar";
+        sha256 = "0i5rs6cqfjl1c6m8wf0wwlzbsc7zvw9x0b8g8rds9n5c23b7gv15";
       };
       packageRequires = [ seq ];
       meta = {
