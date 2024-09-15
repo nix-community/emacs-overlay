@@ -784,10 +784,10 @@
     elpaBuild {
       pname = "bnf-mode";
       ename = "bnf-mode";
-      version = "0.4.5.0.20221205.150230";
+      version = "0.4.5.0.20240915.75211";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bnf-mode-0.4.5.0.20221205.150230.tar";
-        sha256 = "0ljzk39ck12hyshm32vbwjx1a87dw7v9v3wmf01cyc7k2i5d8rip";
+        url = "https://elpa.gnu.org/devel/bnf-mode-0.4.5.0.20240915.75211.tar";
+        sha256 = "0m3895ylr7krb4hcips0n12y0sh2qsc7qmk7sygxg7ir83xna6q6";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -1473,10 +1473,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.1.2.0.20240909.51553";
+      version = "0.2.1.0.20240915.62227";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.1.2.0.20240909.51553.tar";
-        sha256 = "0b9lwmnca2ji4m5vzvwqxg2v4smkks91c19wl2ri139lqybc508w";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.2.1.0.20240915.62227.tar";
+        sha256 = "062wzk3yq2bbav24mxw184chv0g76xn7l1panvl4nwjsxsr3vxra";
       };
       packageRequires = [
         consult
@@ -1823,10 +1823,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0.0.20240914.150338";
+      version = "0.15.0.0.20240914.214605";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240914.150338.tar";
-        sha256 = "0ivs04gwx49djb6ivij02jcyxrkrj4m18fp9dbw2qsavs2b6smkn";
+        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240914.214605.tar";
+        sha256 = "1gl7hpsql4vlr96i01l60na6b0rh9a9fv3s9ady6crz7hv56jlyd";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2569,10 +2569,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.8.0.0.20240913.70926";
+      version = "1.8.0.0.20240915.52105";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20240913.70926.tar";
-        sha256 = "0by9aij24vknhsl1hfh7kr11wv2znd2m736qiqj2z7jnm6wpprh8";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20240915.52105.tar";
+        sha256 = "0xhnp3awgiw00hbld6xywpa3v9z69f72arwaz1ry4d5jq0sw9zn6";
       };
       packageRequires = [ ];
       meta = {
@@ -4054,10 +4054,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20240911.143007";
+      version = "9.0.2pre0.20240914.204218";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240911.143007.tar";
-        sha256 = "1vbjxx70jnv3avqgdaflw4wf3id7ia54l3k2xps8bn50799zqch1";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240914.204218.tar";
+        sha256 = "0m2j2s5hc14y1mh1cyas6avpg9c48424jw2r4lfnskl50fmw0213";
       };
       packageRequires = [ ];
       meta = {
@@ -6021,10 +6021,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.5.0.20240910.145422";
+      version = "1.5.0.20240914.202549";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.5.0.20240910.145422.tar";
-        sha256 = "0wnj1n2vk8x469i6wqi0fhc545rqlbln4lknbfzbyyga9d041x5i";
+        url = "https://elpa.gnu.org/devel/org-modern-1.5.0.20240914.202549.tar";
+        sha256 = "15xgh2zvrnnb8c7x2nicpbm63nfa7ih1qvcy5p0d2ybwl72l92s5";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7703,10 +7703,10 @@
     elpaBuild {
       pname = "show-font";
       ename = "show-font";
-      version = "0.1.1.0.20240910.61712";
+      version = "0.1.1.0.20240915.55011";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/show-font-0.1.1.0.20240910.61712.tar";
-        sha256 = "0z6xx5vplsvgi7fmdczhfn1363gygr36vfh1swm5q7dn74a5q560";
+        url = "https://elpa.gnu.org/devel/show-font-0.1.1.0.20240915.55011.tar";
+        sha256 = "0rfav8axwqkgihnhf51c3w1igi9w6ia2ambw6vd2zg7gl54ga2vm";
       };
       packageRequires = [ ];
       meta = {
