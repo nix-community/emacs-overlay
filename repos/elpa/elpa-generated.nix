@@ -3787,10 +3787,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.11.16";
+      version = "0.11.17";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greader-0.11.16.tar";
-        sha256 = "1ancpnamn2w9343jnlwrr5dyrllrd22ilgd0b2nvmrl31qhygnha";
+        url = "https://elpa.gnu.org/packages/greader-0.11.17.tar";
+        sha256 = "07qikvpbfmmmkd0zc7jr0j366c8kscdkqrqfq3400ajgmkrb0fm9";
       };
       packageRequires = [
         compat
@@ -6383,10 +6383,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "2.0.1";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/phpinspect-2.0.1.tar";
-        sha256 = "0lw05sywlg8nf502h2xyrgvzhsmklhxizll95zpnb9k4qfmaf89q";
+        url = "https://elpa.gnu.org/packages/phpinspect-2.1.0.tar";
+        sha256 = "1ic5dnp2sgahzpfxxgkfbk5as91l23vs1ly23b1igi3b4ajcaqjz";
       };
       packageRequires = [ compat ];
       meta = {

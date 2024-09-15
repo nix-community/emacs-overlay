@@ -1035,10 +1035,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.7.0.20240913.74720";
+      version = "1.7.0.20240914.161442";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-1.7.0.20240913.74720.tar";
-        sha256 = "1hvy5bsm26sdflsizkj09zdpnb22k7gr7kkphflkjbi09113nqpw";
+        url = "https://elpa.gnu.org/devel/cape-1.7.0.20240914.161442.tar";
+        sha256 = "1z7af358npqvsl7x05mbgf4c2dbsxgi91i1zl9az8bh87f5567i0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1450,10 +1450,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20240912.163234";
+      version = "1.8.0.20240914.160755";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20240912.163234.tar";
-        sha256 = "1wg5w0hd288cgkqfx05id6lxbp86kkbxyrwkhsdcl0i9nxgqr4wh";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20240914.160755.tar";
+        sha256 = "1a0k7s4g93910vfnsfhwqxljkimxa0m9n1faybhi1j7g8shrwf10";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1823,10 +1823,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0.0.20240911.203510";
+      version = "0.15.0.0.20240914.150338";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240911.203510.tar";
-        sha256 = "1q0zb5xlqph06ahkrkfd4m81dhb6h94bavcv5s861khxhlys5q32";
+        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240914.150338.tar";
+        sha256 = "0ivs04gwx49djb6ivij02jcyxrkrj4m18fp9dbw2qsavs2b6smkn";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -3814,10 +3814,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.11.16.0.20240826.100857";
+      version = "0.11.17.0.20240914.103101";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.11.16.0.20240826.100857.tar";
-        sha256 = "1y2r3d3vyqid4gch5538ibk355n18qkgc6i5rrvsz419s1ajvyq0";
+        url = "https://elpa.gnu.org/devel/greader-0.11.17.0.20240914.103101.tar";
+        sha256 = "1q5j8z79pngfnwbk8zyrvsp80ilqn3w4pkq82qi1fw6bqnykmipw";
       };
       packageRequires = [
         compat
@@ -4409,10 +4409,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "1.10.0.20240908.190940";
+      version = "1.10.0.20240914.160722";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20240908.190940.tar";
-        sha256 = "1ymdfq4s8jhkc9kvrvq4qkiwr8d6ph7m7inp28mz4adc92pxd71n";
+        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20240914.160722.tar";
+        sha256 = "14l7hld89jqcng2bzrwzngns54m699i5qwdf6rkrpkdazhljm8fi";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6411,10 +6411,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "2.0.1.0.20240910.210823";
+      version = "2.1.0.0.20240914.170959";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-2.0.1.0.20240910.210823.tar";
-        sha256 = "086kihgd0pzhln1z234vqw2m7xsmrc2j32hagk43azn42sfs47a3";
+        url = "https://elpa.gnu.org/devel/phpinspect-2.1.0.0.20240914.170959.tar";
+        sha256 = "07i26jiz0vwij6a2m2hgna12lrnxq0zrbagigb924iqbzh65jh7q";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8852,10 +8852,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.5.0.20240902.104801";
+      version = "0.7.5.0.20240911.155138";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.5.0.20240902.104801.tar";
-        sha256 = "0rzsng6zhkfl2mvcy1vgw1505n77m6zc8cms92ki8zspj39sr35l";
+        url = "https://elpa.gnu.org/devel/transient-0.7.5.0.20240911.155138.tar";
+        sha256 = "1yddw49y4q9vg41shs45k35czlgkqzjx5b6w7xnb13sqdxs73c38";
       };
       packageRequires = [
         compat
