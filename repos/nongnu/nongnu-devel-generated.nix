@@ -284,10 +284,10 @@
     elpaBuild {
       pname = "bash-completion";
       ename = "bash-completion";
-      version = "3.1.1.0.20240913.153607";
+      version = "3.1.1.0.20240914.174817";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.1.1.0.20240913.153607.tar";
-        sha256 = "1srdcjjh1xzz732v1ib7m5v4s2kg1apdnqvs1h90b6y76v2g5hlh";
+        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.1.1.0.20240914.174817.tar";
+        sha256 = "1s5wx8374naay0silh95vlci5qrxxz04av4f5iz94iwvi6jz0fa0";
       };
       packageRequires = [ ];
       meta = {
@@ -901,10 +901,10 @@
     elpaBuild {
       pname = "dockerfile-mode";
       ename = "dockerfile-mode";
-      version = "1.7.0.20240324.61044";
+      version = "1.7.0.20240914.114946";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dockerfile-mode-1.7.0.20240324.61044.tar";
-        sha256 = "0815zw60kjhsypriafi603vm3svp5x1bh5la0m9m9kw7dvgy04bj";
+        url = "https://elpa.nongnu.org/nongnu-devel/dockerfile-mode-1.7.0.20240914.114946.tar";
+        sha256 = "1v7yv221p844249m75ip41p0khn2gas7hfv8b0np3g78pzdai4mw";
       };
       packageRequires = [ ];
       meta = {
@@ -2112,10 +2112,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.8.1.0.20230727.75810";
+      version = "0.8.1.0.20240914.153054";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.8.1.0.20230727.75810.tar";
-        sha256 = "16708cxz3jc0yw7wppdbqywy1k9drq9kqbk6j1sv1s7n1gc0xh00";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.8.1.0.20240914.153054.tar";
+        sha256 = "0pv7ql14d7srb98nidw6fr4mwgssqyv95yskflz27dbbwjlycmn6";
       };
       packageRequires = [ ];
       meta = {
@@ -2574,10 +2574,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20240913.164307";
+      version = "0.5pre0.20240914.165306";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20240913.164307.tar";
-        sha256 = "03bwc463i4c295357hc1wk0cx2rmjy45j5571xz7w8a3nyak7ddx";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20240914.165306.tar";
+        sha256 = "1klrk0g5v7nij2f6dwrr8ibcvclp908yg3j4pq3lwjnwc20v3y04";
       };
       packageRequires = [
         compat
@@ -3893,10 +3893,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20240907.162948";
+      version = "1.0.20240914.104237";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240907.162948.tar";
-        sha256 = "0n141rkfcp5qmsjld49kd5ymm37mqc683fsngw1mf8dinxf14myf";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240914.104237.tar";
+        sha256 = "1zya9j76pnlfqla7n01rzhmzm9rwq0b7y3mqva3xz0a5mpk8kvca";
       };
       packageRequires = [ ];
       meta = {
