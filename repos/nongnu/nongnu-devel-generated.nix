@@ -1132,18 +1132,20 @@
       fetchurl,
       goto-chg,
       lib,
+      nadvice,
     }:
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20240810.165559";
+      version = "1.15.0.0.20240915.83214";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20240810.165559.tar";
-        sha256 = "0a406n947j8blv7yrx691bjfgfqmkbpszxjdvwq5hda0mrc9g2kl";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20240915.83214.tar";
+        sha256 = "1qm7acknxc2lnmngdszz2ry5v4byc147xb6nnkvd9xi44hkzm8vb";
       };
       packageRequires = [
         cl-lib
         goto-chg
+        nadvice
       ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/evil.html";
@@ -2546,10 +2548,10 @@
     elpaBuild {
       pname = "htmlize";
       ename = "htmlize";
-      version = "1.57.0.20240527.145632";
+      version = "1.58.0.20240915.165713";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/htmlize-1.57.0.20240527.145632.tar";
-        sha256 = "1wcx6hi2jiaac801hzhiix5ymhxmh8whwbjd5l9fbjfhxf0m0r9b";
+        url = "https://elpa.nongnu.org/nongnu-devel/htmlize-1.58.0.20240915.165713.tar";
+        sha256 = "1i2gp0m2qy7rknymn3ps1ss1vsbrx0zkxb6ya1ymc5vlqblqfwya";
       };
       packageRequires = [ ];
       meta = {
