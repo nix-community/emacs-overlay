@@ -784,10 +784,10 @@
     elpaBuild {
       pname = "bnf-mode";
       ename = "bnf-mode";
-      version = "0.4.5.0.20240915.75211";
+      version = "0.4.5.0.20240915.125256";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bnf-mode-0.4.5.0.20240915.75211.tar";
-        sha256 = "0m3895ylr7krb4hcips0n12y0sh2qsc7qmk7sygxg7ir83xna6q6";
+        url = "https://elpa.gnu.org/devel/bnf-mode-0.4.5.0.20240915.125256.tar";
+        sha256 = "02z2s3dvmiaw8xhcl9lplhzjjhalb8ps5skjbh0gpg13y77flbal";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2752,10 +2752,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.11.13.0.20240721.113845";
+      version = "0.11.14.0.20240915.152338";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-0.11.13.0.20240721.113845.tar";
-        sha256 = "123gzcxmszx25464d7as8w9c2pv94kpr1br2njf03474vj7fa91m";
+        url = "https://elpa.gnu.org/devel/ellama-0.11.14.0.20240915.152338.tar";
+        sha256 = "0qxwhk6kdj9w1436p7hxlwhi7c9mb8j3ghrp8sskcqy6dck7mqn3";
       };
       packageRequires = [
         compat
@@ -5908,10 +5908,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.2.0.20240910.145750";
+      version = "1.2.0.20240915.75915";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.2.0.20240910.145750.tar";
-        sha256 = "0ihcp82va5hpm0k50c5iacipipfpi4fz3hj5rbz2mpw0qz73n70c";
+        url = "https://elpa.gnu.org/devel/orderless-1.2.0.20240915.75915.tar";
+        sha256 = "0v6dn1iizczlq2wjvqb2ijw15igj2w9khwg9j883xi8y077pfvb7";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5929,10 +5929,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20240831.133113";
+      version = "9.8pre0.20240915.141059";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20240831.133113.tar";
-        sha256 = "0ig84pn2hjl3l31v7j09b3yag3nxjwrp2hb928d0y6ylgn51knn9";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20240915.141059.tar";
+        sha256 = "1bg7apxa350rvcgqas5nj6c6p0fz4rdfbn25hb8ai6dqvmk0jc5d";
       };
       packageRequires = [ ];
       meta = {
@@ -6730,10 +6730,10 @@
     elpaBuild {
       pname = "preview-auto";
       ename = "preview-auto";
-      version = "0.3.0.20240906.80544";
+      version = "0.3.0.20240915.183530";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/preview-auto-0.3.0.20240906.80544.tar";
-        sha256 = "0qjbni9a40sbizq0bklkqd0aqjgj10idkvgmrnh9hpxsy56kgbxn";
+        url = "https://elpa.gnu.org/devel/preview-auto-0.3.0.20240915.183530.tar";
+        sha256 = "0di2idjrxz5xb9klb6cvcwdgnd9q5h8b3pl6qkg4m8nb30w71mka";
       };
       packageRequires = [ auctex ];
       meta = {
@@ -8591,10 +8591,10 @@
     elpaBuild {
       pname = "tex-parens";
       ename = "tex-parens";
-      version = "0.4.0.20240630.70456";
+      version = "0.4.0.20240915.183749";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tex-parens-0.4.0.20240630.70456.tar";
-        sha256 = "0rz6qmmmfajndq3irvrfvmjp1l3j0cfkz5fp36nabyrpj0v8g821";
+        url = "https://elpa.gnu.org/devel/tex-parens-0.4.0.20240915.183749.tar";
+        sha256 = "1wf3dzwv1nqv85v26zrklqdy2n4vfd0c4s6vllcg3l4wf5p4nv9r";
       };
       packageRequires = [ ];
       meta = {

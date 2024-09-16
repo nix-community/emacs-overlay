@@ -2727,10 +2727,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.11.13";
+      version = "0.11.14";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-0.11.13.tar";
-        sha256 = "1i5pn976a8y3b6927wq51cy9adjipn7xqlmdxy9gnhfnjsma2446";
+        url = "https://elpa.gnu.org/packages/ellama-0.11.14.tar";
+        sha256 = "1xd1pj02kgz83wsvygi5p7hlzx2898d38jmwq899qzpjn80jajb1";
       };
       packageRequires = [
         compat
