@@ -11,7 +11,7 @@ jobs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - uses: actions/checkout@v4.1.7
-      - uses: cachix/install-nix-action@V27
+      - uses: cachix/install-nix-action@V28
       - id: set-matrix
         name: Evaluate flake
         run: nix flake show --all-systems
