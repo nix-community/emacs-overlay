@@ -2198,10 +2198,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.2.0";
+      version = "0.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dired-preview-0.2.0.tar";
-        sha256 = "15l01javijjjjc9bycljgshg9jv3clmfnsisy7f3caqxq78sb61l";
+        url = "https://elpa.gnu.org/packages/dired-preview-0.3.0.tar";
+        sha256 = "0cfwpdh70a7n37nkwqqnjfjb6nc8mfkcry3dl95xj2wj70bavsf8";
       };
       packageRequires = [ ];
       meta = {
@@ -8442,7 +8442,6 @@
   ) { };
   tex-parens = callPackage (
     {
-      auctex,
       elpaBuild,
       fetchurl,
       lib,
@@ -8450,12 +8449,12 @@
     elpaBuild {
       pname = "tex-parens";
       ename = "tex-parens";
-      version = "0.4";
+      version = "0.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tex-parens-0.4.tar";
-        sha256 = "08mj18sh32z61kjizf3y6bb0zvb6qgdhrk9q7b15bi5mllk834zd";
+        url = "https://elpa.gnu.org/packages/tex-parens-0.5.tar";
+        sha256 = "1qjfcrhm418saj6shnzn1ibs6g3f1n0r4n1b01d2l417nqdgy7qq";
       };
-      packageRequires = [ auctex ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/tex-parens.html";
         license = lib.licenses.free;
