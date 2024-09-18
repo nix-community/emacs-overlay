@@ -1248,10 +1248,10 @@
     elpaBuild {
       pname = "comint-mime";
       ename = "comint-mime";
-      version = "0.4";
+      version = "0.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/comint-mime-0.4.tar";
-        sha256 = "13vi973p0ahpvssv5m1pb63f2wkca0lz0nw3nsj6p4s3jzp46npa";
+        url = "https://elpa.gnu.org/packages/comint-mime-0.5.tar";
+        sha256 = "13y4imhvcrrfsvxvgn8493274lws14fi08apg73kswxpr67l4xna";
       };
       packageRequires = [ ];
       meta = {
