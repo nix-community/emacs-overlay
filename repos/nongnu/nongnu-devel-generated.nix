@@ -2221,10 +2221,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.0.0.20240910.170706";
+      version = "0.9.0.0.20240917.160435";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240910.170706.tar";
-        sha256 = "1mnymwm0aaxwxg6kgbb7ynwq54mv1ri0h1d9kxqh5qpd7amdasam";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240917.160435.tar";
+        sha256 = "0frgkajwfxn7pfwwzqms6fzcib9y8c90dkppnn55f0bkjndyzbnw";
       };
       packageRequires = [
         compat
@@ -2395,10 +2395,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20240917.55922";
+      version = "1.0.20240918.43015";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240917.55922.tar";
-        sha256 = "12spwf37pfd75gany9vxcvf1wksvzh5slk6w4n92nbf5v0k7a7m1";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240918.43015.tar";
+        sha256 = "06gs25y7lghx1nh1i1jmvphbngy0c0ag4dzr2a0sfz4n3mplkl28";
       };
       packageRequires = [ ];
       meta = {
