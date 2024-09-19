@@ -27341,20 +27341,26 @@
   "repo": "liuyinz/duplexer.el",
   "unstable": {
    "version": [
-    20230903,
-    1836
+    20240919,
+    1018
    ],
-   "commit": "aa617ffa1cc37a06ce89a02fd8b38963e09fd4f3",
-   "sha256": "1zcgg6l2xf6z3zrkzmyym1qhc1n51chvqkamk1hh4g4c739xjx0r"
+   "deps": [
+    "dash"
+   ],
+   "commit": "883e9e24f1c7bb7132c1eac0bf5bedf78081058f",
+   "sha256": "0mpjjyqnr8izirpgnyckci2fmnxfnmlblzayribgzqrj8mgyzdhy"
   },
   "stable": {
    "version": [
     0,
-    1,
+    2,
     0
    ],
-   "commit": "aa617ffa1cc37a06ce89a02fd8b38963e09fd4f3",
-   "sha256": "1zcgg6l2xf6z3zrkzmyym1qhc1n51chvqkamk1hh4g4c739xjx0r"
+   "deps": [
+    "dash"
+   ],
+   "commit": "883e9e24f1c7bb7132c1eac0bf5bedf78081058f",
+   "sha256": "0mpjjyqnr8izirpgnyckci2fmnxfnmlblzayribgzqrj8mgyzdhy"
   }
  },
  {
@@ -38401,11 +38407,11 @@
   "repo": "magnars/expand-region.el",
   "unstable": {
    "version": [
-    20240119,
-    1039
+    20240919,
+    1427
    ],
-   "commit": "e8f4e0fe9c9a80a6a26e2b438502aba9a799d580",
-   "sha256": "0mw1jlgdp17k56rq4g801z7y35h4infm9cy3mh8jw5wqqar5ifa6"
+   "commit": "541d971f7c77ca5c0f66c88bcbfeb0d165883023",
+   "sha256": "0i612v2v5s2yjj69wq92rm8qsm5cpqaksslwp02pf64hkf50ylmw"
   },
   "stable": {
    "version": [
@@ -54411,15 +54417,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20240910,
-    956
+    20240919,
+    642
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "eef5d8b918f2504ef3aa398caf1c0e5d51159036",
-   "sha256": "1mbjkb5klsywlrh98isf6z6vkr0fvd5ckfl5p7x6mjx5xaq8zxzq"
+   "commit": "5f3a973daf27a9cd4ec573c271fa42a2109021e8",
+   "sha256": "0njszzbacwvj46jqb74lsr8yb0pj29h6pwzx8k45jay9qpyypabj"
   },
   "stable": {
    "version": [
@@ -55300,14 +55306,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20240913,
-    525
+    20240918,
+    712
    ],
    "deps": [
     "async"
    ],
-   "commit": "2d6718ef0938ad193a98b60534cd5170b2a1eabd",
-   "sha256": "190ni8q7ilqiqa1akwxgpr0nq72g3jgpwnfznpb7krj1sm08g1mp"
+   "commit": "c2dcd1cc1cc50993a12ca20eb91244d9933716e9",
+   "sha256": "0si09qn2dawdig2fkir4lj3z5ahm227yli6zqr1a762asrlqwmfh"
   },
   "stable": {
    "version": [
@@ -95302,26 +95308,26 @@
   "repo": "ox-tufte/ox-tufte",
   "unstable": {
    "version": [
-    20240317,
-    2053
+    20240919,
+    1332
    ],
    "deps": [
     "org"
    ],
-   "commit": "ebdde02e4d33c3321543d67db8f1aef80adc03bd",
-   "sha256": "0rdainmx0xg6rfql7rai75x0v2r2s1snjy6b61jd53caif7aigbk"
+   "commit": "03e6c9e5e0ee467516139ed6b3f2b4bb13f847ec",
+   "sha256": "0jn0f5r3yy0kcrdspkpk7hhblfd41qf8ayi7z207albvkvyisl4i"
   },
   "stable": {
    "version": [
     4,
     2,
-    0
+    1
    ],
    "deps": [
     "org"
    ],
-   "commit": "ebdde02e4d33c3321543d67db8f1aef80adc03bd",
-   "sha256": "0rdainmx0xg6rfql7rai75x0v2r2s1snjy6b61jd53caif7aigbk"
+   "commit": "03e6c9e5e0ee467516139ed6b3f2b4bb13f847ec",
+   "sha256": "0jn0f5r3yy0kcrdspkpk7hhblfd41qf8ayi7z207albvkvyisl4i"
   }
  },
  {
