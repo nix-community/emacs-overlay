@@ -1880,10 +1880,10 @@
     elpaBuild {
       pname = "geiser-guile";
       ename = "geiser-guile";
-      version = "0.28.2.0.20240811.112008";
+      version = "0.28.2.0.20240918.232036";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-guile-0.28.2.0.20240811.112008.tar";
-        sha256 = "144543qkxxycnailc8m7fhfqz4c8wphi9xc4b4p2cc009zn51xqs";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-guile-0.28.2.0.20240918.232036.tar";
+        sha256 = "1s5jgcvxciympakrxb3pwx07nhdakmja4xy61zikzgffkhdr38qm";
       };
       packageRequires = [
         geiser
@@ -4063,10 +4063,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20240903.123345";
+      version = "1.0.6.0.20240918.132656";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20240903.123345.tar";
-        sha256 = "1vvz3dkvv0h53y60i2wq0sqfgy45fzrn4k161whjzavi51c9sbkr";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20240918.132656.tar";
+        sha256 = "1335g481yrkszilr55wfzx92apqca1zc705j5q623sqp07vgh11n";
       };
       packageRequires = [ ];
       meta = {
