@@ -1957,10 +1957,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20240918.52648";
+      version = "3.1.0.0.20240918.141614";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20240918.52648.tar";
-        sha256 = "03pfpq4qq7lmczlc43lkz94ws0f39sc2dbh949y8hmjcpxkaf0j0";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20240918.141614.tar";
+        sha256 = "1ps9x3ivx7hlmzpbhdk0p1fkzc9aym5wbmrmx0y8hp9s2dzjdvff";
       };
       packageRequires = [ ];
       meta = {
@@ -4118,10 +4118,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.3.0.20240917.220118";
+      version = "0.7.4.0.20240918.134305";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.3.0.20240917.220118.tar";
-        sha256 = "1ksfffh34jydhba197skmfx89i0h7ja9ina26crz6xdcnjvjil5l";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.4.0.20240918.134305.tar";
+        sha256 = "0qmya12wxswj61ksfrd47jn3h819w8hqpaimy44dj36p8gfx6kyv";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4624,10 +4624,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.4.0.0.20240823.180117";
+      version = "0.4.0.0.20240918.145853";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.4.0.0.20240823.180117.tar";
-        sha256 = "0i6glw7bhwymsax2w3vf06fpkizwbj4f7qig1pmir78qa85s1cv9";
+        url = "https://elpa.gnu.org/devel/kubed-0.4.0.0.20240918.145853.tar";
+        sha256 = "11pifmqz8l1jv86q721drv9kiia2vyfn9xv45zgwilax110qyj01";
       };
       packageRequires = [ ];
       meta = {
@@ -6134,10 +6134,10 @@
     elpaBuild {
       pname = "org-transclusion";
       ename = "org-transclusion";
-      version = "1.4.0.0.20240520.170949";
+      version = "1.4.0.0.20240918.173027";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20240520.170949.tar";
-        sha256 = "15i8my50y1m44rhk06rfs6bwlc3mavb73bjysg3wp1j132m2dcrl";
+        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20240918.173027.tar";
+        sha256 = "1fpbbvcswlrsda8ycyz7amq1blybpipxylll0kwdlwfvxk2sk6if";
       };
       packageRequires = [ org ];
       meta = {
@@ -8874,10 +8874,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.5.0.20240913.104129";
+      version = "0.7.5.0.20240918.113839";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.5.0.20240913.104129.tar";
-        sha256 = "0m27xml0s8kmsr3dmycvln9771l6sj59q90249jf1ykshgkqgdrg";
+        url = "https://elpa.gnu.org/devel/transient-0.7.5.0.20240918.113839.tar";
+        sha256 = "01y6swcy6xmdsb6kr9c2vy54vf1nm6b6908vsq8qj667hkl8pk9x";
       };
       packageRequires = [
         compat
