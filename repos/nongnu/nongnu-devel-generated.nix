@@ -795,10 +795,10 @@
     elpaBuild {
       pname = "dart-mode";
       ename = "dart-mode";
-      version = "1.0.7.0.20240523.181912";
+      version = "1.0.7.0.20240918.50912";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20240523.181912.tar";
-        sha256 = "1v2nxiin07g3kycids2f9ixgnc3gcm592xs6022ks9px5x3rnnv9";
+        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20240918.50912.tar";
+        sha256 = "0r4klq8krndy37kg26g63jqjsnyznllngi6axyxjqi8y95djkpss";
       };
       packageRequires = [ ];
       meta = {
@@ -2245,10 +2245,10 @@
     elpaBuild {
       pname = "graphql-mode";
       ename = "graphql-mode";
-      version = "1.0.0.0.20240328.173129";
+      version = "1.0.0.0.20240918.121927";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20240328.173129.tar";
-        sha256 = "1pwlmi35iyp397a3f7ipb5i1lx6v6qc03xz0l7nh4xlv0bkwxzk5";
+        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20240918.121927.tar";
+        sha256 = "198kbpazgczyb0qjclm8xgaha6wh6spr8ybvrbhm6nsf90zgv5kw";
       };
       packageRequires = [ ];
       meta = {
