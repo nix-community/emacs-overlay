@@ -1880,10 +1880,10 @@
     elpaBuild {
       pname = "geiser-guile";
       ename = "geiser-guile";
-      version = "0.28.2.0.20240918.232036";
+      version = "0.28.3.0.20240920.3540";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-guile-0.28.2.0.20240918.232036.tar";
-        sha256 = "1s5jgcvxciympakrxb3pwx07nhdakmja4xy61zikzgffkhdr38qm";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-guile-0.28.3.0.20240920.3540.tar";
+        sha256 = "1ijrhz86nva194qsdch2zm9v4bzdppcg3vslnh03ss4f6qkcrfzz";
       };
       packageRequires = [
         geiser
@@ -2418,10 +2418,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20240919.180001";
+      version = "4.0.0.20240920.53454";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240919.180001.tar";
-        sha256 = "1r67i9fm3zfq1kikha309hwbd0q506j6rkvwff0sz9y9w0rq52ad";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240920.53454.tar";
+        sha256 = "1zpy2rfs09p8ap953f9bczna52xczr6wqdwgvprqd7mq3d2xykj1";
       };
       packageRequires = [
         helm-core
@@ -2443,10 +2443,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20240919.180001";
+      version = "4.0.0.20240920.53454";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240919.180001.tar";
-        sha256 = "0wijh4437hfwk7hrwpjpqpgkx1vq19xk0a03j7nqlzgfa15dzhlx";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240920.53454.tar";
+        sha256 = "0pbc4vk1zmjz7r0g950743fh6jp68lbjb2nidq6fzpcihzc682p8";
       };
       packageRequires = [ async ];
       meta = {
@@ -3097,10 +3097,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.4.5.0.20240818.154515";
+      version = "1.4.5.0.20240920.12253";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20240818.154515.tar";
-        sha256 = "0n716x8vyk44n4cw1rw68b747n2r3hvagx4asbhjck8mprnlw6z7";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20240920.12253.tar";
+        sha256 = "18cvl7h2cwjba9c9dqxpbs1f3azy3hp6aj0l9lyhjlw7zzr0dbsd";
       };
       packageRequires = [ ];
       meta = {
@@ -4063,10 +4063,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20240918.132656";
+      version = "1.0.6.0.20240919.160702";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20240918.132656.tar";
-        sha256 = "1335g481yrkszilr55wfzx92apqca1zc705j5q623sqp07vgh11n";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20240919.160702.tar";
+        sha256 = "10ack1z2zpfsn2li5nl6l7rpsm43hivgikjdqz5zgiskmqdfy1m5";
       };
       packageRequires = [ ];
       meta = {

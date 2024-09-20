@@ -1918,10 +1918,10 @@
     elpaBuild {
       pname = "geiser-guile";
       ename = "geiser-guile";
-      version = "0.28.2";
+      version = "0.28.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/geiser-guile-0.28.2.tar";
-        sha256 = "02s44dj6cr6fmiby6yljil7cgp00h31h3fs1a428lr3v51z1i38m";
+        url = "https://elpa.nongnu.org/nongnu/geiser-guile-0.28.3.tar";
+        sha256 = "163p8ll68qdgpz6l1ixwcmffcsv1kas095davgwgq001hfx9db5x";
       };
       packageRequires = [
         geiser
