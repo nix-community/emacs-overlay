@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240913.55439";
+      version = "14.0.6.0.20240920.62731";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240913.55439.tar";
-        sha256 = "03lhm8pzvvvh7aa08im964m88m1lqxj34lv2gxdxzkzlr2lla04l";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240920.62731.tar";
+        sha256 = "1a2amgavm030nk8nl6ifglsiwb3ias6fs8wl6vbjq96x6c0dcqbd";
       };
       packageRequires = [ ];
       meta = {
@@ -1910,10 +1910,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.40.0.20240912.143316";
+      version = "0.41.0.20240920.82324";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.40.0.20240912.143316.tar";
-        sha256 = "0bad73mx6363x7ai6b8mxxzki7fg1r8h9iab66i64nbj61cg3445";
+        url = "https://elpa.gnu.org/devel/debbugs-0.41.0.20240920.82324.tar";
+        sha256 = "1lwigvqhfmgfgcxwzab9qszig28qsciy0p1sb2cpwq8nv98byhsx";
       };
       packageRequires = [ soap-client ];
       meta = {
