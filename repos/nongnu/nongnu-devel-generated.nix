@@ -2395,10 +2395,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20240918.43015";
+      version = "1.0.20240920.70721";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240918.43015.tar";
-        sha256 = "06gs25y7lghx1nh1i1jmvphbngy0c0ag4dzr2a0sfz4n3mplkl28";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240920.70721.tar";
+        sha256 = "1vf1hs1mry7hd1qz5s969v7s1rw3jbshrl6d8ggncqhmyxkfjc27";
       };
       packageRequires = [ ];
       meta = {
@@ -2418,10 +2418,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20240920.53454";
+      version = "4.0.0.20240921.33401";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240920.53454.tar";
-        sha256 = "1zpy2rfs09p8ap953f9bczna52xczr6wqdwgvprqd7mq3d2xykj1";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240921.33401.tar";
+        sha256 = "1m32r8p1b555m17yn32xvs39p7l8zln6wj7qskwa4jnz39i64wic";
       };
       packageRequires = [
         helm-core
@@ -2443,10 +2443,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20240920.53454";
+      version = "4.0.0.20240921.33401";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240920.53454.tar";
-        sha256 = "0pbc4vk1zmjz7r0g950743fh6jp68lbjb2nidq6fzpcihzc682p8";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240921.33401.tar";
+        sha256 = "0vvbh00id8k1dpz9qdk4dgxg2vhrfczm0xdmmw1wlm494icaxf0w";
       };
       packageRequires = [ async ];
       meta = {
@@ -2763,10 +2763,10 @@
     elpaBuild {
       pname = "j-mode";
       ename = "j-mode";
-      version = "2.0.1.0.20240611.171122";
+      version = "2.0.1.0.20240920.120622";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/j-mode-2.0.1.0.20240611.171122.tar";
-        sha256 = "1c4k74an4ib2zv19mjxxn9vl34w0ybyhmmgiv1l8jimqn5vi293h";
+        url = "https://elpa.nongnu.org/nongnu-devel/j-mode-2.0.1.0.20240920.120622.tar";
+        sha256 = "1v0qffz9qd943fmxny0ik5vrgrfskmf6rv9mgxp7xz6wz3v38ypd";
       };
       packageRequires = [ ];
       meta = {
@@ -3022,10 +3022,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.0.26.0.20240816.70908";
+      version = "1.0.27.0.20240920.183931";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.0.26.0.20240816.70908.tar";
-        sha256 = "0nayg2py0n2m1ldpl1hwmiqv7yzvjxbbwndzxwipak0wvjzw0psl";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.0.27.0.20240920.183931.tar";
+        sha256 = "0wy6ibdbj984aycscvsg24k4z3a0dlzi2ghbvrb8zq3lma8sy2a6";
       };
       packageRequires = [
         persist
@@ -4471,10 +4471,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "9.1.0.0.20240622.93531";
+      version = "9.2.0.0.20240921.44423";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-9.1.0.0.20240622.93531.tar";
-        sha256 = "0b4x4p8iypmmqw0yn4c683rbvkn5n7nccr9pjnn89yx93d4pab0y";
+        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-9.2.0.0.20240921.44423.tar";
+        sha256 = "113gx8yrb5b75fca04k1335pfqwm5mhy5ns7wa9115wagdksfkj8";
       };
       packageRequires = [ seq ];
       meta = {

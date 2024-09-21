@@ -3080,10 +3080,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.0.26";
+      version = "1.0.27";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.26.tar";
-        sha256 = "1p4nzgw8rf7zx4z17nn7bdh106qdhb54m20dkkz43wr4dgqp61bn";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-1.0.27.tar";
+        sha256 = "0kbbzmqnnh0pvd215660p1c2wljnxr5139vs17k9cnh8n5qsddjr";
       };
       packageRequires = [
         persist
@@ -4553,10 +4553,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "9.1.0";
+      version = "9.2.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/swift-mode-9.1.0.tar";
-        sha256 = "1h7fbrgp2jsn0nk6c84vzvipm86macxf2975l0av8gxv0kpzcaiv";
+        url = "https://elpa.nongnu.org/nongnu/swift-mode-9.2.0.tar";
+        sha256 = "1mnkwy7cglwrfln8hknbxyzg4z6zb6cmycl19acxslbgrviwh9j3";
       };
       packageRequires = [ seq ];
       meta = {
