@@ -177,10 +177,10 @@
     elpaBuild {
       pname = "apropospriate-theme";
       ename = "apropospriate-theme";
-      version = "0.2.0.0.20240517.142324";
+      version = "0.2.0.0.20240921.102210";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/apropospriate-theme-0.2.0.0.20240517.142324.tar";
-        sha256 = "0pcgwz5qwl45h2c0mknw7h977v74lzpyyaxavnnm3hr8mfx1jlgm";
+        url = "https://elpa.nongnu.org/nongnu-devel/apropospriate-theme-0.2.0.0.20240921.102210.tar";
+        sha256 = "04x4s341lvygxxnjq3wjy8sp8p9y66kx3csklp46x33qyqbbdx82";
       };
       packageRequires = [ ];
       meta = {
@@ -3895,10 +3895,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20240919.94104";
+      version = "1.0.20240920.145936";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240919.94104.tar";
-        sha256 = "12h8fds32z7lr5jzk4p31jf07ffyivhyjyj1ksl8b6qjranc0sb7";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240920.145936.tar";
+        sha256 = "1w0ckrmnlqrlipvvjba6j1cki2pwxpwjahgcz2y0gxgrn50fpdip";
       };
       packageRequires = [ ];
       meta = {
