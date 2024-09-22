@@ -2395,10 +2395,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20240920.70721";
+      version = "1.0.20240922.24808";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240920.70721.tar";
-        sha256 = "1vf1hs1mry7hd1qz5s969v7s1rw3jbshrl6d8ggncqhmyxkfjc27";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240922.24808.tar";
+        sha256 = "117k222fpy016yl1yd45albm5jjjr2jazp9mcdhjx0mmim2w4iv5";
       };
       packageRequires = [ ];
       meta = {
