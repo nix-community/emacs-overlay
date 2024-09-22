@@ -1290,10 +1290,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/company-1.0.0.tar";
-        sha256 = "1iqln5xqdh75gqmlgrjcrralb6k6921hq1d4q7r61cayqzv68l14";
+        url = "https://elpa.gnu.org/packages/company-1.0.1.tar";
+        sha256 = "1a632agpzzpqq8ka1x549mvgbacvxd8fazm17x0q77anaa0kdhvp";
       };
       packageRequires = [ ];
       meta = {
@@ -3787,10 +3787,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.11.17";
+      version = "0.11.18";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greader-0.11.17.tar";
-        sha256 = "07qikvpbfmmmkd0zc7jr0j366c8kscdkqrqfq3400ajgmkrb0fm9";
+        url = "https://elpa.gnu.org/packages/greader-0.11.18.tar";
+        sha256 = "122mvjcbvi7dzggx1dl02iw9jl0h33l8ka4mzvlr6sl0wwwzfpr8";
       };
       packageRequires = [
         compat
