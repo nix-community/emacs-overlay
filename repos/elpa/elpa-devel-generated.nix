@@ -1490,6 +1490,7 @@
   ) { };
   consult-hoogle = callPackage (
     {
+      consult,
       elpaBuild,
       fetchurl,
       haskell-mode,
@@ -1498,12 +1499,15 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.2.1.0.20240427.131842";
+      version = "0.2.2.0.20240922.132051";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-hoogle-0.2.1.0.20240427.131842.tar";
-        sha256 = "05rx4kw9w51cbgx8nm1jbi2yv7p70w1yv9np8gmpj7z65gbw7v0m";
+        url = "https://elpa.gnu.org/devel/consult-hoogle-0.2.2.0.20240922.132051.tar";
+        sha256 = "11x88j0j7lxfrf2lww4h9dw1m4sbxwz5d615cl8qsr2hsa46bv75";
       };
-      packageRequires = [ haskell-mode ];
+      packageRequires = [
+        consult
+        haskell-mode
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/consult-hoogle.html";
         license = lib.licenses.free;
@@ -2368,10 +2372,10 @@
     elpaBuild {
       pname = "drepl";
       ename = "drepl";
-      version = "0.3.0.20240921.80645";
+      version = "0.3.0.20240922.110340";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/drepl-0.3.0.20240921.80645.tar";
-        sha256 = "0s8ajnn4l2kdj6sfp61ghmar8b63wimvf115ggvn277krvh7qrpy";
+        url = "https://elpa.gnu.org/devel/drepl-0.3.0.20240922.110340.tar";
+        sha256 = "0rgiflc6sb1cgxiykmklx92vycpgvwz99ff1hvap5dh31kzyaaic";
       };
       packageRequires = [ comint-mime ];
       meta = {
@@ -4118,10 +4122,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.4.0.20240919.155641";
+      version = "0.7.4.0.20240922.90643";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.4.0.20240919.155641.tar";
-        sha256 = "1nzjd4m3y7mm7pgkfdpqiv2qq7wrb416zdl3wdnxig3ilvxwmzak";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.4.0.20240922.90643.tar";
+        sha256 = "19q8hdpsph9sdl0a67zambglp5pg28jspf8rcy1mrwg528m96gpc";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4832,10 +4836,10 @@
     elpaBuild {
       pname = "listen";
       ename = "listen";
-      version = "0.10pre0.20240909.32908";
+      version = "0.10pre0.20240922.131841";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240909.32908.tar";
-        sha256 = "16zm0z9g9h08p079x1c287baw3wddgbik49r4vjqzgd87fwnfrsi";
+        url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240922.131841.tar";
+        sha256 = "18ypnf5linph20jn13f06z4vqchgpd6m7hkk689dxc70j66rdp67";
       };
       packageRequires = [
         persist
@@ -5951,10 +5955,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20240917.183215";
+      version = "9.8pre0.20240922.161519";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20240917.183215.tar";
-        sha256 = "1c1rfa3syig0x2h6zwnmgiblzdw5bs7pzhyz8jfafwc9a2c0mzb9";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20240922.161519.tar";
+        sha256 = "18kqrl3irnd2ammpji2bir7lm6ryl7526c9c2ydcxq285i0f2mw2";
       };
       packageRequires = [ ];
       meta = {
@@ -6134,10 +6138,10 @@
     elpaBuild {
       pname = "org-transclusion";
       ename = "org-transclusion";
-      version = "1.4.0.0.20240919.122714";
+      version = "1.4.0.0.20240922.152934";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20240919.122714.tar";
-        sha256 = "1v4sys8alispcm4s8zxpgb2x7sc5jkn78lifkfsjdhnfhny3z8ih";
+        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20240922.152934.tar";
+        sha256 = "1p391rjvzp9im2fas8vih3mpvd9w176ykashyy5g94i0pmjfazfi";
       };
       packageRequires = [ org ];
       meta = {
