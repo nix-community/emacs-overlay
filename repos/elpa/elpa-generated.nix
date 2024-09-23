@@ -1290,10 +1290,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/company-1.0.1.tar";
-        sha256 = "1a632agpzzpqq8ka1x549mvgbacvxd8fazm17x0q77anaa0kdhvp";
+        url = "https://elpa.gnu.org/packages/company-1.0.2.tar";
+        sha256 = "00vmqra0fav0w4q13ngwpyqpxqah0ahfg7kp5l2nd0h2l8sp79qr";
       };
       packageRequires = [ ];
       meta = {
@@ -4605,10 +4605,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.4.0";
+      version = "0.4.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/kubed-0.4.0.tar";
-        sha256 = "0njfbchr520jyg24m8sdpr0pwwwqi3z82viik47y7milpz1plr94";
+        url = "https://elpa.gnu.org/packages/kubed-0.4.1.tar";
+        sha256 = "1p0r6jcwydh25ff613imr49yjw4hhy9wcxlzxrk3d2szipj4q8hs";
       };
       packageRequires = [ ];
       meta = {
@@ -6836,16 +6836,17 @@
       elpaBuild,
       fetchurl,
       lib,
+      pyim,
     }:
     elpaBuild {
       pname = "pyim-basedict";
       ename = "pyim-basedict";
-      version = "0.5.4";
+      version = "0.5.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/pyim-basedict-0.5.4.tar";
-        sha256 = "0i42i9jr0p940w17fjjrzd258winjl7sv4g423ihd6057xmdpyd8";
+        url = "https://elpa.gnu.org/packages/pyim-basedict-0.5.5.tar";
+        sha256 = "04sfiywyrvilymg013gk81ya0ax6p24d4zyrjg8limjw0fn1b347";
       };
-      packageRequires = [ ];
+      packageRequires = [ pyim ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/pyim-basedict.html";
         license = lib.licenses.free;
