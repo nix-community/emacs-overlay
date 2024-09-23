@@ -2633,6 +2633,32 @@
       };
     }
   ) { };
+  hyperdrive-org-transclusion = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      hyperdrive,
+      lib,
+      org-transclusion,
+    }:
+    elpaBuild {
+      pname = "hyperdrive-org-transclusion";
+      ename = "hyperdrive-org-transclusion";
+      version = "0.1";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/hyperdrive-org-transclusion-0.1.tar";
+        sha256 = "1ix4ykq454cjknv67cabm6qslj3lzxfz6y4ibwgzfq3qhplg1514";
+      };
+      packageRequires = [
+        hyperdrive
+        org-transclusion
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/hyperdrive-org-transclusion.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   idle-highlight-mode = callPackage (
     {
       elpaBuild,

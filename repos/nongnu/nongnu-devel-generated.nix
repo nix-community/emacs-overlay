@@ -2221,10 +2221,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.0.0.20240917.160435";
+      version = "0.9.0.0.20240923.3543";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240917.160435.tar";
-        sha256 = "0frgkajwfxn7pfwwzqms6fzcib9y8c90dkppnn55f0bkjndyzbnw";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240923.3543.tar";
+        sha256 = "02llwk744qkmvhnf2im3vlfiyqaxhgyanws5n6f617fgn6g5yvpk";
       };
       packageRequires = [
         compat
@@ -2418,10 +2418,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20240921.33401";
+      version = "4.0.0.20240923.62033";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240921.33401.tar";
-        sha256 = "1m32r8p1b555m17yn32xvs39p7l8zln6wj7qskwa4jnz39i64wic";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240923.62033.tar";
+        sha256 = "1ch3j8dz64w481asyhm8knp7xjk661ldncd8bf9l0cb3ikn1iqrd";
       };
       packageRequires = [
         helm-core
@@ -2443,10 +2443,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20240921.33401";
+      version = "4.0.0.20240923.62033";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240921.33401.tar";
-        sha256 = "0vvbh00id8k1dpz9qdk4dgxg2vhrfczm0xdmmw1wlm494icaxf0w";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240923.62033.tar";
+        sha256 = "0ccggb3h2p981vp4sy45h10iqakrfisnp5xn3rk1lfzw2flq0k79";
       };
       packageRequires = [ async ];
       meta = {
@@ -2592,6 +2592,32 @@
       ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/hyperdrive.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  hyperdrive-org-transclusion = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      hyperdrive,
+      lib,
+      org-transclusion,
+    }:
+    elpaBuild {
+      pname = "hyperdrive-org-transclusion";
+      ename = "hyperdrive-org-transclusion";
+      version = "0.2pre0.20240914.164247";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-org-transclusion-0.2pre0.20240914.164247.tar";
+        sha256 = "0j34z15iq4dd3x5kn5xsx4bdakv0j2jf2wmc0h6bi7ndwcxvgl1s";
+      };
+      packageRequires = [
+        hyperdrive
+        org-transclusion
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-org-transclusion.html";
         license = lib.licenses.free;
       };
     }
@@ -2964,10 +2990,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.1.0.0.20240913.145559";
+      version = "4.1.0.0.20240920.113516";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.1.0.0.20240913.145559.tar";
-        sha256 = "1dndxcpx7z62am2djzx3vz2zrbasy3xi533ybwzb7rsib63mssy3";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.1.0.0.20240920.113516.tar";
+        sha256 = "05bmq9xr2p83mjcbkdnb8kmh5xf8z8vaczzws7sd1h6kff3bg3cj";
       };
       packageRequires = [
         compat
@@ -2995,10 +3021,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.1.0.0.20240913.145559";
+      version = "4.1.0.0.20240920.113516";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.0.0.20240913.145559.tar";
-        sha256 = "0wgg7hp82n9hjcn8ihpppgxp2np39cs2g45sm81l08jk222x8lf7";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.0.0.20240920.113516.tar";
+        sha256 = "1mdvdd5xpl9d0qi2kf2i7k2fwjj1kpjxnrpw3ivw6d0la2figvjh";
       };
       packageRequires = [
         compat
