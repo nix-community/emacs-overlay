@@ -1269,10 +1269,10 @@
     elpaBuild {
       pname = "comint-mime";
       ename = "comint-mime";
-      version = "0.5.0.20240917.84146";
+      version = "0.5.0.20240923.190642";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/comint-mime-0.5.0.20240917.84146.tar";
-        sha256 = "1ag307jsag3ybwm8i7xrpk18m1grk7xgxfqj8lybqxx251d9z1w9";
+        url = "https://elpa.gnu.org/devel/comint-mime-0.5.0.20240923.190642.tar";
+        sha256 = "0jvxm9dnsn8nfa4h9crhhihqfn5hl8fadrrajr7kq4gfx7grxc70";
       };
       packageRequires = [ ];
       meta = {
@@ -1450,10 +1450,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20240923.73430";
+      version = "1.8.0.20240923.164155";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20240923.73430.tar";
-        sha256 = "1x5l0sf4kh47sprxd0kjjy6m073wwm5ca05iajrxwrs021cgs5fa";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20240923.164155.tar";
+        sha256 = "1rlj65xy1fv342dp2sqxypwgdh0k5a5n4drfcrmyhh0ivl9nvpnm";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4122,10 +4122,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.4.0.20240922.90643";
+      version = "0.7.4.0.20240923.85344";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.4.0.20240922.90643.tar";
-        sha256 = "19q8hdpsph9sdl0a67zambglp5pg28jspf8rcy1mrwg528m96gpc";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.4.0.20240923.85344.tar";
+        sha256 = "1wmvkqwspnkcq6agq7c8srdcjmfq368zn4v1w9v5y1amqf7gnyb9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4628,10 +4628,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.4.1.0.20240923.71918";
+      version = "0.4.1.0.20240923.163501";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.4.1.0.20240923.71918.tar";
-        sha256 = "1g1cqirii0gjmbm30y2zpc806gpls7xf9p94r89vmsi81y9cmsv1";
+        url = "https://elpa.gnu.org/devel/kubed-0.4.1.0.20240923.163501.tar";
+        sha256 = "0gjl87py72l7kybi92wabycp6bdwvpyml0msfd0lpan5nqzdyiwj";
       };
       packageRequires = [ ];
       meta = {
