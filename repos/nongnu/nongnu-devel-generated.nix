@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.15.1.0.20240909.195107";
+      version = "1.16.0.0.20240924.65338";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.15.1.0.20240909.195107.tar";
-        sha256 = "1cxx1d5ngn1vg4q1mwxss9nk2xypg4fi3snwfl8ll6al35810hg3";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.0.0.20240924.65338.tar";
+        sha256 = "0ypfcs4ijnkjsx6byxnb6zynvdhip5ng390p0w6lmhxbvrsv0c5m";
       };
       packageRequires = [
         clojure-mode
@@ -5174,10 +5174,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.1.20240916184601.0.20240916.191301";
+      version = "26.3.20240923235902.0.20240924.218";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.1.20240916184601.0.20240916.191301.tar";
-        sha256 = "01wy7sn7ia0wwhj2lk0yyp6wjk7s83q4mvbpszr71w395wdfwrdn";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.3.20240923235902.0.20240924.218.tar";
+        sha256 = "0kq1ackvab8pdyrmn15xq906w1n7s641jbfgilf2kzzfc6p5lqgd";
       };
       packageRequires = [ ];
       meta = {
