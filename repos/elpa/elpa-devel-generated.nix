@@ -2859,10 +2859,10 @@
     elpaBuild {
       pname = "ement";
       ename = "ement";
-      version = "0.16pre0.20240921.111106";
+      version = "0.16pre0.20240923.194752";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ement-0.16pre0.20240921.111106.tar";
-        sha256 = "18242w9jpfnyk9kn7jdd47g1j2dsig5masi18dzcblbbqg150c1m";
+        url = "https://elpa.gnu.org/devel/ement-0.16pre0.20240923.194752.tar";
+        sha256 = "07648b16935jnnzxp53k1p3ljj0i3zx07afk87iqrigfgmzf2nma";
       };
       packageRequires = [
         map
@@ -3147,10 +3147,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.31.0.20240823.190802";
+      version = "0.31.0.20240924.63618";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.31.0.20240823.190802.tar";
-        sha256 = "0327dqyh9k5w74qn7rm39fa2g633dqks0iv3ff5r9bcblv1434k6";
+        url = "https://elpa.gnu.org/devel/exwm-0.31.0.20240924.63618.tar";
+        sha256 = "182lrdypwb9hh11hg4hkfg7ia2xn5f41fb6nnpdwcrv6c5ssszh9";
       };
       packageRequires = [
         compat
@@ -4836,10 +4836,10 @@
     elpaBuild {
       pname = "listen";
       ename = "listen";
-      version = "0.10pre0.20240922.131841";
+      version = "0.10pre0.20240923.201649";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240922.131841.tar";
-        sha256 = "18ypnf5linph20jn13f06z4vqchgpd6m7hkk689dxc70j66rdp67";
+        url = "https://elpa.gnu.org/devel/listen-0.10pre0.20240923.201649.tar";
+        sha256 = "0klkjl8g7r6i0cx5yp1f2z6vafxpx0llbsk024bp6jjx9l6n7vp9";
       };
       packageRequires = [
         persist
@@ -8508,10 +8508,10 @@
     elpaBuild {
       pname = "taxy-magit-section";
       ename = "taxy-magit-section";
-      version = "0.14.2.0.20240919.62537";
+      version = "0.14.3.0.20240923.174028";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/taxy-magit-section-0.14.2.0.20240919.62537.tar";
-        sha256 = "0dz464avmd4yk8ymnrimpawzv6s9k6a63xw2g5fvn7wzmzjjs856";
+        url = "https://elpa.gnu.org/devel/taxy-magit-section-0.14.3.0.20240923.174028.tar";
+        sha256 = "104vhlbr03sz1lrvqh3qs96a61d0kcjqqc71q84q400890an3gh9";
       };
       packageRequires = [
         magit-section
