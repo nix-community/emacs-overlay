@@ -3615,10 +3615,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.23.0.20240919.164757";
+      version = "0.24.0.20240923.104445";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.23.0.20240919.164757.tar";
-        sha256 = "0abiqc7p5c0dw9ikgnc2gacaki4gynj16xl524c8q5i9l5yi63a4";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20240923.104445.tar";
+        sha256 = "0hmhy7d414s5r3bis1avim42afp1pzhxh2km0xyw7r8sa3kzr3g9";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -3921,10 +3921,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20240921.204525";
+      version = "1.0.20240923.101637";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240921.204525.tar";
-        sha256 = "0k9k70d5wh4zqin4l9csm3fcw61sz4lhnwmh1npi83aa762k0grw";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240923.101637.tar";
+        sha256 = "0zm88palnxjsdqkb3n1y3mzd4ci4rh3mzddsmvwbf102pzxbcd3i";
       };
       packageRequires = [ ];
       meta = {
