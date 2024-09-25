@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240920.62731";
+      version = "14.0.6.0.20240924.204152";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240920.62731.tar";
-        sha256 = "1a2amgavm030nk8nl6ifglsiwb3ias6fs8wl6vbjq96x6c0dcqbd";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240924.204152.tar";
+        sha256 = "12xf5038m0lanvdb28gbyky3h9vy69fadamdq2lf6glirs1ksn3k";
       };
       packageRequires = [ ];
       meta = {
@@ -1248,10 +1248,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.0.4.0.20240712.155246";
+      version = "1.0.4.0.20240924.193317";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.0.4.0.20240712.155246.tar";
-        sha256 = "1n2b5av3k8kwx6f5x0ziq7virv7n2d9npw11s934qzq3qfk2m8i3";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.0.4.0.20240924.193317.tar";
+        sha256 = "06rzr4g2qv7d8hgil46v1vipq6rw4518sf5vqf22n8g893blcvjm";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2891,10 +2891,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "20.1.0.20240907.221454";
+      version = "20.1.0.20240924.230829";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-20.1.0.20240907.221454.tar";
-        sha256 = "1a28gizkda3bphz9rhi32pgvzq7h5c9gm9n6ik0cd3j468k4yabn";
+        url = "https://elpa.gnu.org/devel/emms-20.1.0.20240924.230829.tar";
+        sha256 = "1prhwlhfvfr81j02xsadh8gw1qbirmmzlhafnwq9w1qcaz9jnclw";
       };
       packageRequires = [
         cl-lib
@@ -7406,10 +7406,10 @@
     elpaBuild {
       pname = "rich-minority";
       ename = "rich-minority";
-      version = "1.0.3.0.20190419.83620";
+      version = "1.0.3.0.20240924.201748";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/rich-minority-1.0.3.0.20190419.83620.tar";
-        sha256 = "0kx516s0kv8ni3w408hb9bpnig83bv4m1l7b5lhdigmp8zvqm8jm";
+        url = "https://elpa.gnu.org/devel/rich-minority-1.0.3.0.20240924.201748.tar";
+        sha256 = "1jywghc41c5i0y0f2vi32yykfbkh7kccs9h46idlfq7a2fq42z55";
       };
       packageRequires = [ cl-lib ];
       meta = {
