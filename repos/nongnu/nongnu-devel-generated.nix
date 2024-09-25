@@ -795,10 +795,10 @@
     elpaBuild {
       pname = "dart-mode";
       ename = "dart-mode";
-      version = "1.0.7.0.20240918.50912";
+      version = "1.0.7.0.20240925.1934";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20240918.50912.tar";
-        sha256 = "0r4klq8krndy37kg26g63jqjsnyznllngi6axyxjqi8y95djkpss";
+        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20240925.1934.tar";
+        sha256 = "0pzhvlbfdk0adj4by21knbpvkj99dzclhixad2cdyfvqgw3j1xkk";
       };
       packageRequires = [ ];
       meta = {
@@ -2395,10 +2395,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20240924.102005";
+      version = "1.0.20240925.24042";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240924.102005.tar";
-        sha256 = "09aadhp8h6yhraag3mwds5w8yvl3ppsx07gm6bm03h0kb4xgi6pw";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240925.24042.tar";
+        sha256 = "1kkfg9b0cfa2ygxkp5da98sc0w2b8q2q99rcfdqm00i8l6lj5wm9";
       };
       packageRequires = [ ];
       meta = {
@@ -2576,10 +2576,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20240914.165306";
+      version = "0.5pre0.20240925.215";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20240914.165306.tar";
-        sha256 = "1klrk0g5v7nij2f6dwrr8ibcvclp908yg3j4pq3lwjnwc20v3y04";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20240925.215.tar";
+        sha256 = "02xxpmr6jaqyiw4zmjywgsqcwsd738cp95qb4i43wlssw9429i3w";
       };
       packageRequires = [
         compat
@@ -2607,10 +2607,10 @@
     elpaBuild {
       pname = "hyperdrive-org-transclusion";
       ename = "hyperdrive-org-transclusion";
-      version = "0.2pre0.20240914.164247";
+      version = "0.3pre0.20240924.232819";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-org-transclusion-0.2pre0.20240914.164247.tar";
-        sha256 = "0j34z15iq4dd3x5kn5xsx4bdakv0j2jf2wmc0h6bi7ndwcxvgl1s";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-org-transclusion-0.3pre0.20240924.232819.tar";
+        sha256 = "1bqjkcb58vk8gx3izzfqgprzj2c19c6cvnsg1ds54dyjzwy265wn";
       };
       packageRequires = [
         hyperdrive
@@ -2721,10 +2721,10 @@
     elpaBuild {
       pname = "inf-ruby";
       ename = "inf-ruby";
-      version = "2.8.1.0.20240627.213541";
+      version = "2.8.1.0.20240925.4944";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/inf-ruby-2.8.1.0.20240627.213541.tar";
-        sha256 = "0yw67r2jwhrsxdzx1hnri6w8wxm5z76fxxbk333xf043gw5cg8ay";
+        url = "https://elpa.nongnu.org/nongnu-devel/inf-ruby-2.8.1.0.20240925.4944.tar";
+        sha256 = "1wl5nzrbafvmvvvq477lsvc14pvlmq8x9j1cqbd0cj11lvn4k1qb";
       };
       packageRequires = [ ];
       meta = {
@@ -3921,10 +3921,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20240923.215918";
+      version = "1.0.20240924.164110";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240923.215918.tar";
-        sha256 = "00d8m3bxvk7ypa9r1mjzz38krkrgvaysrxk417ykl6inpp5k3rag";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20240924.164110.tar";
+        sha256 = "0y4d3l9d8vvvks5vz9s5y9kqsvsjv4irji54y4ydi0jn02i61dqk";
       };
       packageRequires = [ ];
       meta = {
