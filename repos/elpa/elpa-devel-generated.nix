@@ -1827,10 +1827,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0.0.20240914.214605";
+      version = "0.15.0.0.20240924.195104";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240914.214605.tar";
-        sha256 = "1gl7hpsql4vlr96i01l60na6b0rh9a9fv3s9ady6crz7hv56jlyd";
+        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240924.195104.tar";
+        sha256 = "1rwjcjj6yjpahcjvdsh2a998316paadsp3dcy9hwhlm8frx90fmr";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2859,10 +2859,10 @@
     elpaBuild {
       pname = "ement";
       ename = "ement";
-      version = "0.16pre0.20240923.194752";
+      version = "0.16pre0.20240924.134235";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ement-0.16pre0.20240923.194752.tar";
-        sha256 = "07648b16935jnnzxp53k1p3ljj0i3zx07afk87iqrigfgmzf2nma";
+        url = "https://elpa.gnu.org/devel/ement-0.16pre0.20240924.134235.tar";
+        sha256 = "08cl7k637n1lg23y4bd3hpcgv0k3rr4al66k784wgzdrgvxpaa6h";
       };
       packageRequires = [
         map
@@ -4122,10 +4122,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.4.0.20240923.85344";
+      version = "0.7.4.0.20240924.113036";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.4.0.20240923.85344.tar";
-        sha256 = "1wmvkqwspnkcq6agq7c8srdcjmfq368zn4v1w9v5y1amqf7gnyb9";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.4.0.20240924.113036.tar";
+        sha256 = "159ma783xy7zvxp98g9h5y9fzxzci41zc7zns1wzn1p9pmjr9026";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6522,10 +6522,10 @@
     elpaBuild {
       pname = "plz-event-source";
       ename = "plz-event-source";
-      version = "0.1.1.0.20240814.73632";
+      version = "0.1.2pre0.20240924.181709";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/plz-event-source-0.1.1.0.20240814.73632.tar";
-        sha256 = "1bcmc2wribnhvkp0yg57k8xvdbi2hp39jmvapjfpy6hhs1c5j7n9";
+        url = "https://elpa.gnu.org/devel/plz-event-source-0.1.2pre0.20240924.181709.tar";
+        sha256 = "0ydi2xs9sbbc3qz4dp0jpaipdbmzc1nw36wm0cgmqk71a3s5aw67";
       };
       packageRequires = [ plz-media-type ];
       meta = {
@@ -6544,10 +6544,10 @@
     elpaBuild {
       pname = "plz-media-type";
       ename = "plz-media-type";
-      version = "0.2.1.0.20240814.73530";
+      version = "0.2.2pre0.20240924.181631";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/plz-media-type-0.2.1.0.20240814.73530.tar";
-        sha256 = "0lw95balq4zasj7q2ck1fmbkzs8rkasaqsda3aj859y3zdsqlqkd";
+        url = "https://elpa.gnu.org/devel/plz-media-type-0.2.2pre0.20240924.181631.tar";
+        sha256 = "0pm4hh03bgrq1c7xmb4xw4x7ns967biq0nq7y0bqn42bzcjfxbh9";
       };
       packageRequires = [ plz ];
       meta = {
