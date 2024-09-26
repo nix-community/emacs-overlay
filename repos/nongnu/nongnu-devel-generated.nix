@@ -2221,10 +2221,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.0.0.20240924.123148";
+      version = "0.9.0.0.20240925.224857";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240924.123148.tar";
-        sha256 = "0qb675i6s3g00wsc5grqclkizgk8rms36kbagf1jhira3wbr4xiz";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240925.224857.tar";
+        sha256 = "0nlll5yvzbw8qxlnn67aj4nww3sbbkiks07n2300qyiiiawsgmsq";
       };
       packageRequires = [
         compat
@@ -5281,10 +5281,10 @@
     elpaBuild {
       pname = "zenburn-theme";
       ename = "zenburn-theme";
-      version = "2.9.0snapshot0.20240612.125832";
+      version = "2.9.0snapshot0.20240926.61928";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.9.0snapshot0.20240612.125832.tar";
-        sha256 = "1wgpb9x591z28gy7cm8i45qxl7srhj6sgcpnbzi303rbh90rd4sg";
+        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.9.0snapshot0.20240926.61928.tar";
+        sha256 = "029ip7ar11vif0c7qazsizp8600z7j0yznwl3j6wywpi6dzx4sii";
       };
       packageRequires = [ ];
       meta = {
