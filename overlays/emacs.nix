@@ -88,7 +88,7 @@ let
         )
       ]);
 
-  emacs-git = let base = (super.lib.makeOverridable (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; });
+  emacs-git = let base = (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; };
                   emacs = emacs-git;
               in
                 base.overrideAttrs (
@@ -102,7 +102,7 @@ let
                     };
                   });
 
-  emacs-pgtk = let base = super.lib.makeOverridable (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; withTreeSitter = true; };
+  emacs-pgtk = let base = (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; withTreeSitter = true; };
                    emacs = emacs-pgtk;
                in base.overrideAttrs (
                  oa: {
@@ -115,13 +115,13 @@ let
                     };
                  });
 
-  emacs-unstable = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; };
+  emacs-unstable = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; };
 
-  emacs-unstable-pgtk = super.lib.makeOverridable (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withPgtk = true; withTreeSitter = true; };
+  emacs-unstable-pgtk = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withPgtk = true; withTreeSitter = true; };
 
-  emacs-lsp = super.lib.makeOverridable (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { withTreeSitter = false; };
+  emacs-lsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { withTreeSitter = false; };
 
-  commercial-emacs = super.lib.makeOverridable (mkGitEmacs "commercial-emacs" ../repos/emacs/commercial-emacs-commercial-emacs.json) {
+  commercial-emacs = (mkGitEmacs "commercial-emacs" ../repos/emacs/commercial-emacs-commercial-emacs.json) {
     withTreeSitter = false;
     withNativeCompilation = false;
   };
