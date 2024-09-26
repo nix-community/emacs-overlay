@@ -88,7 +88,7 @@ let
         )
       ]);
 
-  emacs-git = let base = (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; };
+  emacs-git = let base = (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { };
                   emacs = emacs-git;
               in
                 base.overrideAttrs (
@@ -102,7 +102,7 @@ let
                     };
                   });
 
-  emacs-pgtk = let base = (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withSQLite3 = true; withWebP = true; withPgtk = true; withTreeSitter = true; };
+  emacs-pgtk = let base = (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withPgtk = true; };
                    emacs = emacs-pgtk;
                in base.overrideAttrs (
                  oa: {
@@ -115,9 +115,9 @@ let
                     };
                  });
 
-  emacs-unstable = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withTreeSitter = true; };
+  emacs-unstable = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { };
 
-  emacs-unstable-pgtk = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withSQLite3 = true; withWebP = true; withPgtk = true; withTreeSitter = true; };
+  emacs-unstable-pgtk = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withPgtk = true; };
 
   emacs-lsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { withTreeSitter = false; };
 
