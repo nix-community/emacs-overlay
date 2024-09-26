@@ -117,7 +117,7 @@ let
 
   emacs-unstable = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { };
 
-  emacs-unstable-pgtk = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { withPgtk = true; };
+  emacs-unstable-pgtk = (mkGitEmacs "emacs-unstable-pgtk" ../repos/emacs/emacs-unstable.json) { withPgtk = true; };
 
   emacs-lsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { withTreeSitter = false; };
 
