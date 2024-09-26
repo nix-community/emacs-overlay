@@ -4122,10 +4122,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.4.0.20240924.113036";
+      version = "0.7.4.0.20240925.134246";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.4.0.20240924.113036.tar";
-        sha256 = "159ma783xy7zvxp98g9h5y9fzxzci41zc7zns1wzn1p9pmjr9026";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.4.0.20240925.134246.tar";
+        sha256 = "0l8v1z7rkjd6qig2lj1mx11n3bxmis1q76cr4s9mmxwnzhacvlf7";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9415,10 +9415,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.9.0.20240912.173131";
+      version = "1.9.0.20240925.193125";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20240912.173131.tar";
-        sha256 = "0fmr4gxf1xamw74npf8lphl7fmn8hjwn86fn3bfxn8bbv80sxrbn";
+        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20240925.193125.tar";
+        sha256 = "0mbg73q4xmmm3pc7v70lbz3wdy5akn1zs8si23lraixpwd4rcr5r";
       };
       packageRequires = [ compat ];
       meta = {
