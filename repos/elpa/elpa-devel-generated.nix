@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20240925.201918";
+      version = "14.0.6.0.20240926.205122";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240925.201918.tar";
-        sha256 = "0jbc6kg1vj3l2di0997dg6akqb6m7wdzxb37267xzhcx90dd6qi6";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20240926.205122.tar";
+        sha256 = "1f63fhc022hzsm9p76q52911r5xi0q2xhwnpfrk0y4zncrxyipiq";
       };
       packageRequires = [ ];
       meta = {
@@ -1311,10 +1311,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20240923.3408";
+      version = "1.0.2.0.20240926.212727";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20240923.3408.tar";
-        sha256 = "0v1yg9ylxjm84as7lv5zrnanfy7xf2m8g9d306nh748vbbjxs021";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20240926.212727.tar";
+        sha256 = "1qp8k5f0pa4c3mlk48dw3j9y67fhlfyfb123jbl213gdc6wlqjp9";
       };
       packageRequires = [ ];
       meta = {
@@ -4122,10 +4122,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.4.0.20240925.134246";
+      version = "0.7.5.0.20240926.165113";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.4.0.20240925.134246.tar";
-        sha256 = "0l8v1z7rkjd6qig2lj1mx11n3bxmis1q76cr4s9mmxwnzhacvlf7";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.5.0.20240926.165113.tar";
+        sha256 = "07y04z0yhi08zk5fbr3yz6s4rj756vh1c1izdgrsfwn80sakq5cs";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6934,10 +6934,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20240926.153538";
+      version = "0.28.0.20240927.54435";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20240926.153538.tar";
-        sha256 = "15kri602sai8hcczjzhgd1z8zd7h8s3xkzj3pz482l1d6yc3nnf1";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20240927.54435.tar";
+        sha256 = "0b0np07ssxbwcc6azr1c6r0lkzfl6xr95hnanx5kns67hw4w38rb";
       };
       packageRequires = [
         compat
@@ -8554,10 +8554,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.2.0.20240926.92553";
+      version = "1.2.0.20240926.233155";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20240926.92553.tar";
-        sha256 = "0iwlnwbr646y7mkz64p48swdzm6s1461swpjzfzb4cslibwmd0w9";
+        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20240926.233155.tar";
+        sha256 = "0qflff5c96pipxnnjnb960qbh1dqr6bnjixqk86hnnddwv67p414";
       };
       packageRequires = [ compat ];
       meta = {
