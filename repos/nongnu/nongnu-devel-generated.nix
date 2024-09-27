@@ -638,10 +638,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0.0.20240912.160617";
+      version = "1.0.0.20240926.91748";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20240912.160617.tar";
-        sha256 = "0h8h9ccli5qn6kp4fdyb6hq4f3vbj3sxxk61jy65v2y1xzwld6k1";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20240926.91748.tar";
+        sha256 = "1f5869y8614hv91f3sc7i10wr3393mygz841crw4an4m03kxkq7f";
       };
       packageRequires = [
         consult
@@ -2418,10 +2418,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20240924.184050";
+      version = "4.0.0.20240926.182853";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240924.184050.tar";
-        sha256 = "1qfk5a5h36c4mn79p293anfak6knkfqgbld05sd9p1lii9ngqxl6";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240926.182853.tar";
+        sha256 = "0056f9zhm2cy07iy6438zqnljk7wsjw783243c7akfrg59cmpy4p";
       };
       packageRequires = [
         helm-core
@@ -2443,10 +2443,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20240924.184050";
+      version = "4.0.0.20240926.182853";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240924.184050.tar";
-        sha256 = "1cr0zhl5w3g7ap0w8vnyl2hb6c8c44cfnmy5rw4xrfg9njmxzwcp";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240926.182853.tar";
+        sha256 = "0cs07b9fgs0ms13piinm1k6dlzz9blcfrx2531yhgks5kradkrnc";
       };
       packageRequires = [ async ];
       meta = {
@@ -2852,10 +2852,10 @@
     elpaBuild {
       pname = "julia-mode";
       ename = "julia-mode";
-      version = "0.4.0.20240506.120530";
+      version = "1.0.0.0.20240926.152808";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-0.4.0.20240506.120530.tar";
-        sha256 = "0kiwlc017bw8y2p166y2hpkpssml2rrx6p056qqn99ki5m682kav";
+        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.0.0.0.20240926.152808.tar";
+        sha256 = "0hhpzarz8xa61mp6drm0j98832h8sdammkp55ap6bj35vlyppc13";
       };
       packageRequires = [ ];
       meta = {
@@ -4137,10 +4137,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "94.0.0.20240708.212011";
+      version = "94.0.0.20240926.92457";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-94.0.0.20240708.212011.tar";
-        sha256 = "01jyhpqqskizsclvxzii1kv20iklb8y01hglhhavrddf1dri7jza";
+        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-94.0.0.20240926.92457.tar";
+        sha256 = "09hgnzzfi6wdy3p0nfl6a00npxpsdy30dyc89m1h087wlhkjjyci";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4264,10 +4264,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.30snapshot0.20240826.230454";
+      version = "2.30snapshot0.20240926.183645";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20240826.230454.tar";
-        sha256 = "1cagpmpi91a1cyy4p1air5gwasixk08fzl95dhdw52dpad1isijk";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20240926.183645.tar";
+        sha256 = "05qr051lya41avwqjadzsxw0vky8aaaab7kapp9wx1bijd5vp44l";
       };
       packageRequires = [ macrostep ];
       meta = {

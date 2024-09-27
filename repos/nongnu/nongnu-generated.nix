@@ -2889,10 +2889,10 @@
     elpaBuild {
       pname = "julia-mode";
       ename = "julia-mode";
-      version = "0.4";
+      version = "1.0.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/julia-mode-0.4.tar";
-        sha256 = "15x63nwq6rh1yxwwd8hf0a8nznws8gzxqiw45n6pv8vp8h2v3fsi";
+        url = "https://elpa.nongnu.org/nongnu/julia-mode-1.0.0.tar";
+        sha256 = "02xab8qhf1z4cdn847n9ar2g65843qknca88jkaa94zzkxpv2bi1";
       };
       packageRequires = [ ];
       meta = {
