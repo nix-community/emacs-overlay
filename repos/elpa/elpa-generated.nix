@@ -7010,10 +7010,10 @@
     elpaBuild {
       pname = "rcirc-sqlite";
       ename = "rcirc-sqlite";
-      version = "1.0.2";
+      version = "1.0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/rcirc-sqlite-1.0.2.tar";
-        sha256 = "128wq3mm2ckcchly6c31i87jrkq19q7ysvx5fg34jhjg53dkrz28";
+        url = "https://elpa.gnu.org/packages/rcirc-sqlite-1.0.3.tar";
+        sha256 = "11m6n93qwfkn6jhn3vlvdz48wsqixlkbwbxsx3qdyj8jmjqpjvz6";
       };
       packageRequires = [ ];
       meta = {
