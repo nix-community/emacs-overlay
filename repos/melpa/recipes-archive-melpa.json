@@ -1634,6 +1634,14 @@
    ],
    "commit": "90d7d626691591b24d83596149bc89fd51ba39b4",
    "sha256": "14ym2i12d3nz7wrqbq6xy44zvh8fw601idapafi5zcsl1mpfc9f0"
+  },
+  "stable": {
+   "version": [
+    1,
+    1
+   ],
+   "commit": "90d7d626691591b24d83596149bc89fd51ba39b4",
+   "sha256": "14ym2i12d3nz7wrqbq6xy44zvh8fw601idapafi5zcsl1mpfc9f0"
   }
  },
  {
@@ -52390,15 +52398,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20240926,
-    548
+    20240927,
+    349
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "ff3c8e8df953a25fecbcd9e8b31ea48d02712739",
-   "sha256": "0mqrigf98h5d733b37099wfm5ds6cfdargwafg7igx7vyjimi0bx"
+   "commit": "c4ff7d6e850b8fdf2ee623ffd2766e605cdd9cb8",
+   "sha256": "19vvjg90djdwanr3jmlh579divkrfwg8hvgxxjrnl58kkpndhrpp"
   },
   "stable": {
    "version": [
@@ -61503,8 +61511,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20240925,
-    702
+    20240927,
+    653
    ],
    "deps": [
     "compat",
@@ -61515,8 +61523,8 @@
     "taxy-magit-section",
     "transient"
    ],
-   "commit": "d66fd46f189536d6959019addf2627e5539cb894",
-   "sha256": "15hjvidvmn6drf4mc00vyk4vqzw7ccysyxq5jpdj4gb1zllk6xn9"
+   "commit": "a4c847b5a7e13eb8f8e1481e6ff499e1310f9539",
+   "sha256": "0i0drixx8xan2difjbs0cg057x0qwhdr268lv3w55jywhzlibgvm"
   },
   "stable": {
    "version": [
@@ -71872,11 +71880,11 @@
   "repo": "merrickluo/liberime",
   "unstable": {
    "version": [
-    20240515,
-    255
+    20240927,
+    141
    ],
-   "commit": "c5839f541763f661a4d46784f3f14adad28ee2b0",
-   "sha256": "1h4q0nmckfwl2cmp1kaj83ac2lzpdwq7m3r8q722zd05lvnm145v"
+   "commit": "23c0caa1bf73f4e9ab58d52dc46cf21088dc6c54",
+   "sha256": "0zq39p51mnpi3gy6pwkzs7sck56w4y4rwd2cxzm7pk9rldj18ab0"
   },
   "stable": {
    "version": [
@@ -75989,8 +75997,8 @@
   "repo": "alphapapa/magit-todos",
   "unstable": {
    "version": [
-    20240922,
-    1507
+    20240927,
+    52
    ],
    "deps": [
     "async",
@@ -76002,8 +76010,8 @@
     "s",
     "transient"
    ],
-   "commit": "4c17b73355ad0f6537bec5776154ee7465a4c2f8",
-   "sha256": "0rjr5q73609bs8gx2h5lp7c7bk5nkplfqfd56ifwdrdzdfzn5khy"
+   "commit": "bd27c57eada0fda1cc0a813db04731a9bcc51b7b",
+   "sha256": "0q3rplkvd4ny02zpnrzkfhflg8yx7zq2brq15c603f2yjiwiy7xl"
   },
   "stable": {
    "version": [
@@ -90717,28 +90725,28 @@
   "repo": "meedstrom/org-node",
   "unstable": {
    "version": [
-    20240926,
-    2026
+    20240927,
+    16
    ],
    "deps": [
     "compat",
     "llama"
    ],
-   "commit": "b6d97c71de93fcf0eb0ce9705811fa6e976c5977",
-   "sha256": "19q4fw0dwdzxs1qjspsng5fbixvsh5c414nba1fhsz474jp0gm69"
+   "commit": "a87d1e80fb3be8497583d672bb78752e217f1a6c",
+   "sha256": "0jcq4kil3yg4m6shnm1fqfk5xx2nlcbp7glmn328hwdqaflvrjh6"
   },
   "stable": {
    "version": [
     1,
     2,
-    2
+    4
    ],
    "deps": [
     "compat",
     "llama"
    ],
-   "commit": "7deca1ef84e1d33738dd401e2f2a61da2be05f7e",
-   "sha256": "01dr7ziiasvb0paban3c9n2jdd385hpj9bjnjwpvd994kmj10px5"
+   "commit": "a87d1e80fb3be8497583d672bb78752e217f1a6c",
+   "sha256": "0jcq4kil3yg4m6shnm1fqfk5xx2nlcbp7glmn328hwdqaflvrjh6"
   }
  },
  {
