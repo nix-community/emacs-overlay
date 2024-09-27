@@ -115,9 +115,33 @@ let
                     };
                  });
 
-  emacs-unstable = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { };
+  emacs-unstable = let base = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { };
+                       emacs = emacs-unstable;
+                   in
+                     base.overrideAttrs (
+                       oa: {
+                         patches = oa.patches ++ [
+                           # XXX: #318
+                           ./bytecomp-revert.patch
+                         ];
+                         passthru = oa.passthru // {
+                           pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
+                         };
+                       });
 
-  emacs-unstable-pgtk = (mkGitEmacs "emacs-unstable-pgtk" ../repos/emacs/emacs-unstable.json) { withPgtk = true; };
+  emacs-unstable-pgtk = let base = (mkGitEmacs "emacs-unstable-pgtk" ../repos/emacs/emacs-unstable.json) { withPgtk = true; };
+                            emacs = emacs-unstable-pgtk;
+                        in
+                          base.overrideAttrs (
+                            oa: {
+                              patches = oa.patches ++ [
+                                # XXX: #318
+                                ./bytecomp-revert.patch
+                              ];
+                              passthru = oa.passthru // {
+                                pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
+                              };
+                            });
 
   emacs-lsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { withTreeSitter = false; };
 
