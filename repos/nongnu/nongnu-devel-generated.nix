@@ -2576,10 +2576,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20240927.93639";
+      version = "0.5pre0.20240927.164953";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20240927.93639.tar";
-        sha256 = "1c2lgvy6cwqvs2r88hq6arryrf3yyrzswa6cda9xagr5ny75inh5";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20240927.164953.tar";
+        sha256 = "0ynwlyk9pmaiizfgbk6nf1n8x7g3x1dqscxfd0l1p2jh1dcckgsr";
       };
       packageRequires = [
         compat
@@ -5174,10 +5174,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.4.20240926100036.0.20240926.205526";
+      version = "26.5.20240927134725.0.20240927.135922";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.4.20240926100036.0.20240926.205526.tar";
-        sha256 = "1al7qbra0al8wwwjb9xbxjbih187fgs3pl5da5r9p7r17kc31x1m";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.5.20240927134725.0.20240927.135922.tar";
+        sha256 = "055mwaf938kswdiixp695bylc786ccidckng043zcp1gpcpls0gs";
       };
       packageRequires = [ ];
       meta = {
