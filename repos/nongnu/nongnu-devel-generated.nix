@@ -1071,10 +1071,10 @@
     elpaBuild {
       pname = "elpher";
       ename = "elpher";
-      version = "3.6.2.0.20240702.81639";
+      version = "3.6.2.0.20240917.200138";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elpher-3.6.2.0.20240702.81639.tar";
-        sha256 = "18b8g5z0w81704b84av6mcq2mf9mlj83qr18l2y7fv2qv16kwz85";
+        url = "https://elpa.nongnu.org/nongnu-devel/elpher-3.6.2.0.20240917.200138.tar";
+        sha256 = "04jpwz04s3filxrwmx4d4qnb9c2xwb6lx7a8369lr5zv3jk5hqbq";
       };
       packageRequires = [ ];
       meta = {
@@ -2221,10 +2221,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.0.0.20240926.204923";
+      version = "0.9.0.0.20240927.81816";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240926.204923.tar";
-        sha256 = "0wa9yrpyp8wjfx8dq69p8809dpdp7ffv1ys9a325fx10shnb8b23";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20240927.81816.tar";
+        sha256 = "1ailvz9v9k4hkdxzfmi4b7343g2lmbix44haniggapmr1zsdrsx0";
       };
       packageRequires = [
         compat
@@ -2352,10 +2352,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20240913.154408";
+      version = "17.5.0.20240927.92409";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20240913.154408.tar";
-        sha256 = "1iwwjbwy5q3qk9sh6qhrs1nq7871jllcnkhflk5ky015kndpfr90";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20240927.92409.tar";
+        sha256 = "0kzr6q2ddbfz6xxlr86g9fsy4j81hc0m9i8r9g4y18lvrbhqjgfa";
       };
       packageRequires = [ ];
       meta = {
@@ -2576,10 +2576,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20240926.235340";
+      version = "0.5pre0.20240927.93639";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20240926.235340.tar";
-        sha256 = "11qjw8baqdi3h4fm1slpn7rp7cax7ll1lf0bkf9d53ykmh89h7qm";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20240927.93639.tar";
+        sha256 = "1c2lgvy6cwqvs2r88hq6arryrf3yyrzswa6cda9xagr5ny75inh5";
       };
       packageRequires = [
         compat
@@ -3615,10 +3615,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.24.0.20240923.104445";
+      version = "0.24.0.20240927.92356";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20240923.104445.tar";
-        sha256 = "0hmhy7d414s5r3bis1avim42afp1pzhxh2km0xyw7r8sa3kzr3g9";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20240927.92356.tar";
+        sha256 = "0nm8rxy1rnn5ab6ic716bj59pbb7n55al7p0famhf4safdab6979";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -4005,10 +4005,10 @@
     elpaBuild {
       pname = "reformatter";
       ename = "reformatter";
-      version = "0.8.0.20240913.153354";
+      version = "0.8.0.20240927.92254";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20240913.153354.tar";
-        sha256 = "1k8im34si57hqwpqzcr07b8zd5ynwv0227h41npydfwc5lxwrx9m";
+        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20240927.92254.tar";
+        sha256 = "0bhcn2r6jkky06y8rjsklakhs9yfc1vxiqg22nvl5d4xzzl638c1";
       };
       packageRequires = [ ];
       meta = {
