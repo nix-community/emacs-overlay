@@ -4122,10 +4122,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.5.0.20240927.120335";
+      version = "0.7.5.0.20240927.164640";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.5.0.20240927.120335.tar";
-        sha256 = "1wkrs87szrhcg5833fxbc4q78jr7zi8yhhpl5byysl2jbhci6w6b";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.5.0.20240927.164640.tar";
+        sha256 = "1x3g92pcwqbw7cybqzmpab178hg7i73wcbyrccr30pgs1ac7wz0g";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6437,10 +6437,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "2.1.0.0.20240923.70903";
+      version = "2.1.0.0.20240927.225711";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-2.1.0.0.20240923.70903.tar";
-        sha256 = "0n19iwchj7f998294z62dcznx2mzcvad0xd9c2xfazjyk4mpr91h";
+        url = "https://elpa.gnu.org/devel/phpinspect-2.1.0.0.20240927.225711.tar";
+        sha256 = "0bk0qs4fmblc6g7f7fl1skbbl6x0awdms1qskbgjnf61g9h49dj4";
       };
       packageRequires = [ compat ];
       meta = {
