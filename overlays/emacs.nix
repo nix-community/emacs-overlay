@@ -155,7 +155,6 @@ let
       emacs-git.override {
         withNS = false;
         withX = false;
-        withGTK2 = false;
         withGTK3 = false;
         withWebP = false;
       }
@@ -171,7 +170,6 @@ let
       emacs-unstable.override {
         withNS = false;
         withX = false;
-        withGTK2 = false;
         withGTK3 = false;
         withWebP = false;
       }
