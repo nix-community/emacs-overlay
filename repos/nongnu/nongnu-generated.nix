@@ -135,10 +135,10 @@
     elpaBuild {
       pname = "anzu";
       ename = "anzu";
-      version = "0.65";
+      version = "0.66";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/anzu-0.65.tar";
-        sha256 = "0waw5fsnczak7ypq1dbwq8l7kh3q4ym4fy81549rm266m72nrb5f";
+        url = "https://elpa.nongnu.org/nongnu/anzu-0.66.tar";
+        sha256 = "17pyi02mydv59g5qwdzmf1rymkvvg52kx4b8n45pkwkhrwdmj2g3";
       };
       packageRequires = [ ];
       meta = {
