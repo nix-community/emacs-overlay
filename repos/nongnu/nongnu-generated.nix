@@ -135,10 +135,10 @@
     elpaBuild {
       pname = "anzu";
       ename = "anzu";
-      version = "0.64";
+      version = "0.65";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/anzu-0.64.tar";
-        sha256 = "0mv4xiy3481d5r4rypmw7nn1hjmsvlfz5dhgmpn6cqbpzkgb6zjb";
+        url = "https://elpa.nongnu.org/nongnu/anzu-0.65.tar";
+        sha256 = "0waw5fsnczak7ypq1dbwq8l7kh3q4ym4fy81549rm266m72nrb5f";
       };
       packageRequires = [ ];
       meta = {
@@ -5231,10 +5231,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.5.20240927134725";
+      version = "26.5.20240928104513";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.5.20240927134725.tar";
-        sha256 = "0rg16pyqnh7kczycrwr8vy3n5rqjdv2ckx55mp4a8rv76nr0vdjb";
+        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.5.20240928104513.tar";
+        sha256 = "1z0527kday3wn9nmxz1i7zx445f4nsp8yp824czqdal2cp1mnc4b";
       };
       packageRequires = [ ];
       meta = {
