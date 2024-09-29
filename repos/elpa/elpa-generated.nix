@@ -8651,10 +8651,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.1.2";
+      version = "2.7.1.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.7.1.2.tar";
-        sha256 = "1kvamv0shj9ra3pnfkigbv05p62aw70di4gq4f24xhgpg2x04rp0";
+        url = "https://elpa.gnu.org/packages/tramp-2.7.1.3.tar";
+        sha256 = "0ii16y283yidql05f69yx0x2jf71w8niq5k8mlrqq05z5h4h3sw3";
       };
       packageRequires = [ ];
       meta = {
@@ -9705,10 +9705,10 @@
     elpaBuild {
       pname = "wrap-search";
       ename = "wrap-search";
-      version = "4.16.19";
+      version = "4.17.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/wrap-search-4.16.19.tar";
-        sha256 = "1qrvn5cxvd5sl18hyn979f9kany5vnypbflkhzmxas5q0n2miyfw";
+        url = "https://elpa.gnu.org/packages/wrap-search-4.17.6.tar";
+        sha256 = "0wq0fw5ry5fnp96q9bffawc1vdl4p6kknwhlyf4xypmja011afys";
       };
       packageRequires = [ ];
       meta = {
