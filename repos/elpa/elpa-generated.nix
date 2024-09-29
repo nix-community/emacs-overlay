@@ -1248,10 +1248,10 @@
     elpaBuild {
       pname = "comint-mime";
       ename = "comint-mime";
-      version = "0.5";
+      version = "0.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/comint-mime-0.5.tar";
-        sha256 = "13y4imhvcrrfsvxvgn8493274lws14fi08apg73kswxpr67l4xna";
+        url = "https://elpa.gnu.org/packages/comint-mime-0.6.tar";
+        sha256 = "017d62n3n2jmsxb3r9jm4vk8vpapddbxfjjh8ww1vgcbzqr76zwy";
       };
       packageRequires = [ ];
       meta = {
@@ -4099,10 +4099,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.5";
+      version = "0.7.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/indent-bars-0.7.5.tar";
-        sha256 = "0x8as11xjhvgal4yk1vfzsgjc0lyhsri89kcii7dhbkgcjgq2j7s";
+        url = "https://elpa.gnu.org/packages/indent-bars-0.7.6.tar";
+        sha256 = "0qypi99n8z4wfcwzjq4fxri30c9v6mm593rsx823wyvk4ddazd8g";
       };
       packageRequires = [ compat ];
       meta = {

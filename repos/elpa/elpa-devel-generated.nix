@@ -1269,10 +1269,10 @@
     elpaBuild {
       pname = "comint-mime";
       ename = "comint-mime";
-      version = "0.5.0.20240923.190642";
+      version = "0.6.0.20240928.153818";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/comint-mime-0.5.0.20240923.190642.tar";
-        sha256 = "0jvxm9dnsn8nfa4h9crhhihqfn5hl8fadrrajr7kq4gfx7grxc70";
+        url = "https://elpa.gnu.org/devel/comint-mime-0.6.0.20240928.153818.tar";
+        sha256 = "1vhkv3a2vccj2lbb5dn1gz9dfni0f5y03qwfkyl6r785i0ss976i";
       };
       packageRequires = [ ];
       meta = {
@@ -4122,10 +4122,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.5.0.20240927.164640";
+      version = "0.7.6.0.20240928.134754";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.5.0.20240927.164640.tar";
-        sha256 = "1x3g92pcwqbw7cybqzmpab178hg7i73wcbyrccr30pgs1ac7wz0g";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.6.0.20240928.134754.tar";
+        sha256 = "04fwh2qih587s2m70k6ci2fsgq2knxss9p7s2nqsgf9lr70ph42d";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6437,10 +6437,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "2.1.0.0.20240927.225711";
+      version = "2.1.0.0.20240928.184618";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phpinspect-2.1.0.0.20240927.225711.tar";
-        sha256 = "0bk0qs4fmblc6g7f7fl1skbbl6x0awdms1qskbgjnf61g9h49dj4";
+        url = "https://elpa.gnu.org/devel/phpinspect-2.1.0.0.20240928.184618.tar";
+        sha256 = "0al90jip08lx7drfypvzhmv1hr1v83m43zcggk2vr1wyfcs70q0j";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6934,10 +6934,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20240927.54435";
+      version = "0.28.0.20240928.165330";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20240927.54435.tar";
-        sha256 = "0b0np07ssxbwcc6azr1c6r0lkzfl6xr95hnanx5kns67hw4w38rb";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20240928.165330.tar";
+        sha256 = "1nggfbm300arp9p8d0wy903l75vlyi1hj3gxdhcipal0wl4ygdd1";
       };
       packageRequires = [
         compat
@@ -9674,10 +9674,10 @@
     elpaBuild {
       pname = "which-key";
       ename = "which-key";
-      version = "3.6.1.0.20240908.161748";
+      version = "3.6.1.0.20240928.75916";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/which-key-3.6.1.0.20240908.161748.tar";
-        sha256 = "0a6fl4ykbvdkwyzsjnbaxr0jr8d6grm5bw791ilii86ynph48spd";
+        url = "https://elpa.gnu.org/devel/which-key-3.6.1.0.20240928.75916.tar";
+        sha256 = "0z2vl3w5yhy77y96c7hxkncwi0pgxanb712hhdyjybmkg73v8qmn";
       };
       packageRequires = [ ];
       meta = {
