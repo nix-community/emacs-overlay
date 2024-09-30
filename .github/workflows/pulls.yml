@@ -10,7 +10,7 @@ jobs:
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
-      - uses: actions/checkout@v4.1.7
+      - uses: actions/checkout@v4.2.0
       - uses: cachix/install-nix-action@v29
       - id: set-matrix
         name: Evaluate flake
