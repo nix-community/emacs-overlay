@@ -1205,10 +1205,10 @@
     elpaBuild {
       pname = "cobol-mode";
       ename = "cobol-mode";
-      version = "1.1.0.20240702.201136";
+      version = "1.1.0.20240929.185547";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cobol-mode-1.1.0.20240702.201136.tar";
-        sha256 = "0b0xdjvnsvyyih506dfnpf32hdj5bjc1r97m1b8ny0vca3agzf5b";
+        url = "https://elpa.gnu.org/devel/cobol-mode-1.1.0.20240929.185547.tar";
+        sha256 = "0lk1izh1mmv916k5hgk8hpcjiiix1z5lqx19lqmr5g174i8afb21";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -1226,10 +1226,10 @@
     elpaBuild {
       pname = "code-cells";
       ename = "code-cells";
-      version = "0.4.0.20240809.93222";
+      version = "0.4.0.20240929.112300";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/code-cells-0.4.0.20240809.93222.tar";
-        sha256 = "19mibw99y13fmbngbg1x1zv02j50pcbrifl62slrx4aj3v796839";
+        url = "https://elpa.gnu.org/devel/code-cells-0.4.0.20240929.112300.tar";
+        sha256 = "0vh8v5zdbd511adfw33rgxlxfpnv0bx95s10775l731yv7rhrkz7";
       };
       packageRequires = [ ];
       meta = {
@@ -1827,10 +1827,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0.0.20240924.195104";
+      version = "0.15.0.0.20240929.93305";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240924.195104.tar";
-        sha256 = "1rwjcjj6yjpahcjvdsh2a998316paadsp3dcy9hwhlm8frx90fmr";
+        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20240929.93305.tar";
+        sha256 = "00cg6ac4cgk9x4iljb7hgf0gj4vmr7afqsg66g7971vxrdzaa2jw";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -6116,10 +6116,10 @@
     elpaBuild {
       pname = "org-remark";
       ename = "org-remark";
-      version = "1.2.2.0.20240629.103632";
+      version = "1.2.2.0.20240929.93321";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-remark-1.2.2.0.20240629.103632.tar";
-        sha256 = "1jhqnrg8priqhs5g39jjgrnlh2bw2k0n39g3hk2m30vxbgyydqbm";
+        url = "https://elpa.gnu.org/devel/org-remark-1.2.2.0.20240929.93321.tar";
+        sha256 = "0723l2galyczbr28ymhvhq026ajrwr9rpkgr7r2rd26m4bdghqiv";
       };
       packageRequires = [ org ];
       meta = {
@@ -8879,10 +8879,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.5.0.20240918.113839";
+      version = "0.7.5.0.20240929.184756";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.5.0.20240918.113839.tar";
-        sha256 = "01y6swcy6xmdsb6kr9c2vy54vf1nm6b6908vsq8qj667hkl8pk9x";
+        url = "https://elpa.gnu.org/devel/transient-0.7.5.0.20240929.184756.tar";
+        sha256 = "13r8yf3ikj50ggkv9ydgik7jyaldn7y64w0p23389gwnfhxwy26z";
       };
       packageRequires = [
         compat
