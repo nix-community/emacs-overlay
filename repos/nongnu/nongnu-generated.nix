@@ -3518,10 +3518,10 @@
     elpaBuild {
       pname = "org-mime";
       ename = "org-mime";
-      version = "0.3.3";
+      version = "0.3.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/org-mime-0.3.3.tar";
-        sha256 = "1ylsdfifa4ykrf5vncnnj6v2bgc3ixlskgxb1v7qggmkb5mzy2yv";
+        url = "https://elpa.nongnu.org/nongnu/org-mime-0.3.4.tar";
+        sha256 = "06ard0fndp1iffd8lqqrf4dahbxkh76blava9s6xzxf75zzmlsyj";
       };
       packageRequires = [ ];
       meta = {
@@ -4007,10 +4007,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20240929.145735";
+      version = "1.0.20241001.105847";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20240929.145735.tar";
-        sha256 = "156pmcxw7am4a6kxg2ggj0wkkvf47v4270rb9k92r6lbsij3shyz";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20241001.105847.tar";
+        sha256 = "0wwg30wbigmnb7yz9wc2yrq58jzysd2vp1g2324lbc95z61ng5yd";
       };
       packageRequires = [ ];
       meta = {
