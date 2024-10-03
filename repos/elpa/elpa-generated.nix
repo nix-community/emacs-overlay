@@ -2531,10 +2531,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20240925";
+      version = "20241002";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/eev-20240925.tar";
-        sha256 = "02bn7nrypg423g1v900chi5v3lgn1dl55l16jr2pgbrkpm9aiaa7";
+        url = "https://elpa.gnu.org/packages/eev-20241002.tar";
+        sha256 = "0cl65zxryr6mlhbbpb9nbmabn8vnwc17vpqr7611s79jb9a7xsvf";
       };
       packageRequires = [ ];
       meta = {
@@ -8737,10 +8737,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.5";
+      version = "0.7.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.7.5.tar";
-        sha256 = "1xxr41af0dbv349bsnf2nljsnir3f0w79yl7xvk4r7hdczp4qmd4";
+        url = "https://elpa.gnu.org/packages/transient-0.7.6.tar";
+        sha256 = "0dnl05g18slm2smwipznalxzizbng54nzcyh9xbayz57wrf7wzb8";
       };
       packageRequires = [
         compat
