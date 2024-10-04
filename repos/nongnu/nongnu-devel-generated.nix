@@ -2221,10 +2221,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.0.0.20241002.200401";
+      version = "0.9.0.0.20241003.120047";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20241002.200401.tar";
-        sha256 = "0crfbc69wyiz3019ki8yk1s2x505km1vvd366s7011mzhismbdr2";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20241003.120047.tar";
+        sha256 = "0wamxkbxzyp9wpjb1y1hazkvaa41ifldm34dnanyqprhfiqd9n8a";
       };
       packageRequires = [
         compat
@@ -3123,10 +3123,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.4.5.0.20241002.172858";
+      version = "1.4.5.0.20241003.174813";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20241002.172858.tar";
-        sha256 = "12bh2ava3gw47nzlzmcjpb7ci5rhfi623m496r8dsack6lwfjqxm";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20241003.174813.tar";
+        sha256 = "0h62izvm80ffxj5a0jq5kcna65xxp055lynhq61b0ay3pg3775md";
       };
       packageRequires = [ ];
       meta = {
