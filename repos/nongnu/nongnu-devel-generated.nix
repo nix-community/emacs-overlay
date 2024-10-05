@@ -850,6 +850,27 @@
       };
     }
   ) { };
+  devil = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "devil";
+      ename = "devil";
+      version = "0.7.0beta3.0.20240129.2809";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/devil-0.7.0beta3.0.20240129.2809.tar";
+        sha256 = "1fhvp1kvvli5g9a3575bsa8zyfnf1q0p5wn15819zvncjp1912nl";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/devil.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   diff-ansi = callPackage (
     {
       elpaBuild,
@@ -3037,6 +3058,27 @@
       };
     }
   ) { };
+  markdown-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "markdown-mode";
+      ename = "markdown-mode";
+      version = "2.7alpha0.20240829.32430";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20240829.32430.tar";
+        sha256 = "0npgvcni0h5nr253fsn0d1cm3fnq1s662ba7aa23vsvkyk1x54d9";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/markdown-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   mastodon = callPackage (
     {
       elpaBuild,
@@ -3666,6 +3708,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/page-break-lines.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  paredit = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "paredit";
+      ename = "paredit";
+      version = "27beta0.20230718.202710";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/paredit-27beta0.20230718.202710.tar";
+        sha256 = "0fz65pr6p6dz3i78rzprzznzhyw34w8msnd4mzkls63bm4548gmd";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/paredit.html";
         license = lib.licenses.free;
       };
     }
