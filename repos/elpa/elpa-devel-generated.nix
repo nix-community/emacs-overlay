@@ -2553,10 +2553,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20241002.0.20241002.14740";
+      version = "20241002.0.20241005.38";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20241002.0.20241002.14740.tar";
-        sha256 = "10hq3vzba2w76k491v70ayylvmg4n7zjf8iih0idr6q1m9bysl5s";
+        url = "https://elpa.gnu.org/devel/eev-20241002.0.20241005.38.tar";
+        sha256 = "030miacmwf9620mdd64a12ln1srk3a5g50wvhy2fx526hfr8bvnk";
       };
       packageRequires = [ ];
       meta = {
@@ -4123,10 +4123,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.6.0.20241003.220914";
+      version = "0.7.6.0.20241004.231826";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.6.0.20241003.220914.tar";
-        sha256 = "1rld00kd6iijgvk3b0zpldgvph7clmqm32gbxfrl7jcia43cdqqc";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.6.0.20241004.231826.tar";
+        sha256 = "0xj8ggy4313rsm3cwvxzkhkalz940kj7s5aj9ng44qydf9cr5ml9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4629,10 +4629,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.4.1.0.20240923.163501";
+      version = "0.4.1.0.20241004.194446";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.4.1.0.20240923.163501.tar";
-        sha256 = "0gjl87py72l7kybi92wabycp6bdwvpyml0msfd0lpan5nqzdyiwj";
+        url = "https://elpa.gnu.org/devel/kubed-0.4.1.0.20241004.194446.tar";
+        sha256 = "1ja8kk7vpwfayqkcf7maz8y25xlxl77i1mk8s4qq9q6fm06n14w5";
       };
       packageRequires = [ ];
       meta = {
@@ -6941,10 +6941,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20241003.235144";
+      version = "0.28.0.20241004.230814";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20241003.235144.tar";
-        sha256 = "0aw4rhlcz6rpzj092dwihvffcbcq330m9br5qn7rx1989fxa4qb7";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20241004.230814.tar";
+        sha256 = "0smd4qf5ny0090f4v3q7c3b4n84qkrpk7c3mwy20hdg06k6fzxns";
       };
       packageRequires = [
         compat
