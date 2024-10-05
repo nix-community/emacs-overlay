@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.6.0.20241002.61849";
+      version = "14.0.6.0.20241004.121356";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20241002.61849.tar";
-        sha256 = "0jkigkdz0cbkip3h1mw21grfx6f0pgrkqsxmmzhbp0wssg4mmzpp";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.6.0.20241004.121356.tar";
+        sha256 = "1kirv1h5djbx7wk06zm2s69iwxhib9hzicxwx37ab03q9w1q773y";
       };
       packageRequires = [ ];
       meta = {
@@ -1828,10 +1828,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0.0.20241003.215004";
+      version = "0.15.0.0.20241004.163604";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20241003.215004.tar";
-        sha256 = "001m1mdgm18s3v2cmlylb7pcd3hqbs99kf7ryfq2vcadi6wjxsll";
+        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20241004.163604.tar";
+        sha256 = "1hqabja8jqha459gczp56gckzh33xldk6d877clc893j49n24cgv";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -1962,10 +1962,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20240926.70141";
+      version = "3.1.0.0.20241004.95013";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20240926.70141.tar";
-        sha256 = "112xi9qj1zh7qncsn9hcmnr9c64hkfv6qr4gzc6jvyjwpl8zi6dn";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241004.95013.tar";
+        sha256 = "0avxn9kqrmmn13md7inr62g5kgfad6hvgazjs7vjkbs14072rmcf";
       };
       packageRequires = [ ];
       meta = {
@@ -6870,10 +6870,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.1.0.0.20240916.63854";
+      version = "1.1.0.0.20241004.91712";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.1.0.0.20240916.63854.tar";
-        sha256 = "0q7ldjzh1hjvxh988fbs0v1cjv3ayhx4fhd6k8wnj2505j9n11g7";
+        url = "https://elpa.gnu.org/devel/pulsar-1.1.0.0.20241004.91712.tar";
+        sha256 = "1rqkgksnz4nxrxish837nghzp139x7j47q0nxp19x9z2pmr6fdyg";
       };
       packageRequires = [ ];
       meta = {
@@ -9422,10 +9422,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.9.0.20240926.92404";
+      version = "1.9.0.20241004.135012";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20240926.92404.tar";
-        sha256 = "13if2mav85as66mzrixz8amgk2sdxzihv5gf9agk52ixglb81c5q";
+        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20241004.135012.tar";
+        sha256 = "1dfhnn1n3i8a916adgzbvpy1fiqbam40r4k0c8ildxg1rhq5zmwg";
       };
       packageRequires = [ compat ];
       meta = {
