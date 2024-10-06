@@ -3817,11 +3817,11 @@
   "repo": "radian-software/apheleia",
   "unstable": {
    "version": [
-    20240926,
-    228
+    20241006,
+    142
    ],
-   "commit": "302a41c86c5ffe1e8f50cbe156e0f7b21835c02c",
-   "sha256": "1xcj7h102hwf4lz9mj1dvw9rq5ajnmyz510pxfyasxh7f8a0v5n2"
+   "commit": "d6f520752a77923a420f2ef894a6f2d26d29d7d0",
+   "sha256": "0zsaxm72qbnjb35sain605zlrlxfia2m9yfp371cfgvn6bgpgn31"
   },
   "stable": {
    "version": [
@@ -23628,11 +23628,14 @@
   "repo": "astoff/devdocs.el",
   "unstable": {
    "version": [
-    20241003,
-    1422
+    20241006,
+    51
    ],
-   "commit": "5e43e4f9bfb254c5cb1b98bb098190e755f3a7ef",
-   "sha256": "0nwkb5pcjq9i85zj182wj6dvds2kz2igp9i6dv8lc0fr97850dbn"
+   "deps": [
+    "compat"
+   ],
+   "commit": "98518166efe18c2f2dd9a1c4c89430b83fdbbe3c",
+   "sha256": "0nm9ryq29hsgvmis2f51vwlhm5lw1571smmb2gq0qbm4zrd1h9pk"
   }
  },
  {
@@ -50754,16 +50757,16 @@
   "url": "https://git.thanosapollo.org/gnosis",
   "unstable": {
    "version": [
-    20240906,
-    1228
+    20241006,
+    536
    ],
    "deps": [
     "compat",
     "emacsql",
     "transient"
    ],
-   "commit": "40f63788afdb74fa71177abd882e852177829881",
-   "sha256": "0kp4vwzldcyf7c8dqjrfrqgwkfysiy8n8zc4c1j1p72p0m4rxwv8"
+   "commit": "4f437a3b23090d2591eb36a26c146ff3595a6256",
+   "sha256": "1fmfhmsfkw3rhbgrwj59p0z8jfjyplprfb7rzdg19qwv4km680iq"
   },
   "stable": {
    "version": [
@@ -94168,14 +94171,14 @@
   "repo": "minad/osm",
   "unstable": {
    "version": [
-    20241005,
-    1401
+    20241006,
+    13
    ],
    "deps": [
     "compat"
    ],
-   "commit": "c774c8783ce1b8b21cc3d2389fefe9b10098e66c",
-   "sha256": "1mjq5gilprr6wnaab10i7d09kvd13cvjx6yl1bqn9azihniiqpyh"
+   "commit": "e9db7161f62459d61518888bb7d4aadea15c7b1c",
+   "sha256": "1kpvbd31r6rp9nikbmab2g7ksd4llx3g5wpj50m3qmq1h293wqgn"
   },
   "stable": {
    "version": [
