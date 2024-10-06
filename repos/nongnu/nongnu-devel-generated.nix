@@ -2068,10 +2068,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.3.0.20240906.122813";
+      version = "0.4.4.0.20241006.53624";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.3.0.20240906.122813.tar";
-        sha256 = "0zw2anliw9l5w65b9f7sgqjhhqj24vkzw1dkij0fgx5m0b0lykrj";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.4.0.20241006.53624.tar";
+        sha256 = "0z5lx30wmqgpkkhav3i9f7d75fxrm0405wdhmsrlahn1v6qcmani";
       };
       packageRequires = [
         compat
