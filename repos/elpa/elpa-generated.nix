@@ -2510,10 +2510,10 @@
     elpaBuild {
       pname = "ediprolog";
       ename = "ediprolog";
-      version = "2.2";
+      version = "2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ediprolog-2.2.tar";
-        sha256 = "13g8y51lvdphi1v6rdca36c0r9v35lldx5979yrccsf07h0hw5gm";
+        url = "https://elpa.gnu.org/packages/ediprolog-2.3.tar";
+        sha256 = "02ynwqhkpv4wcz87zkr9188kjmhd8s9zkfiawn7gywb5jkki6nd0";
       };
       packageRequires = [ ];
       meta = {
