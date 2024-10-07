@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241005.85553";
+      version = "14.0.7.0.20241006.82210";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241005.85553.tar";
-        sha256 = "09qs4lp85lc5f6gm71lghh6nxq4dxj62f4vyq9qc48nxhypxmfly";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241006.82210.tar";
+        sha256 = "106vx9q7jwf9skrsflcrg3kz8j4cj7hdzgbf1c6pxqp92kcisnmi";
       };
       packageRequires = [ ];
       meta = {
@@ -2533,10 +2533,10 @@
     elpaBuild {
       pname = "ediprolog";
       ename = "ediprolog";
-      version = "2.3.0.20241005.184905";
+      version = "2.3.0.20241006.95158";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ediprolog-2.3.0.20241005.184905.tar";
-        sha256 = "1ijbn493r54kwp427qyy4js89v3134w1hafl1nrqx3zbr8ybvs0i";
+        url = "https://elpa.gnu.org/devel/ediprolog-2.3.0.20241006.95158.tar";
+        sha256 = "0jbbxyx2xcfqg8jgs63dri1d5cc3x6b3scys8khf6acd4f9grnxd";
       };
       packageRequires = [ ];
       meta = {
@@ -4124,10 +4124,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.6.0.20241004.231826";
+      version = "0.7.6.0.20241006.143149";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.6.0.20241004.231826.tar";
-        sha256 = "0xj8ggy4313rsm3cwvxzkhkalz940kj7s5aj9ng44qydf9cr5ml9";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.6.0.20241006.143149.tar";
+        sha256 = "0gl4hpx5ph46n7axmndfiy2n81117kbdmkbb6nxvqidw91ky8g63";
       };
       packageRequires = [ compat ];
       meta = {
