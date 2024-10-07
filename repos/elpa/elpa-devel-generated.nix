@@ -1035,10 +1035,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.7.0.20241004.61437";
+      version = "1.7.0.20241007.50103";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-1.7.0.20241004.61437.tar";
-        sha256 = "1a9b104v2nxfqrxbqazp3ss4lpmswkrcpsbb6m6qll1bcnnqzy7c";
+        url = "https://elpa.gnu.org/devel/cape-1.7.0.20241007.50103.tar";
+        sha256 = "0gqyr8d7yh0sqwrl62h6kb9j6zv578xsas0skhm51bgkv5v7px92";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1828,10 +1828,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0.0.20241004.163604";
+      version = "0.15.0.0.20241006.212252";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20241004.163604.tar";
-        sha256 = "1hqabja8jqha459gczp56gckzh33xldk6d877clc893j49n24cgv";
+        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20241006.212252.tar";
+        sha256 = "1bk0ag2by0xc8zbzh7sfz982c8fz993q5lawii367z2zn3vvada1";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -1962,10 +1962,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241004.95013";
+      version = "3.1.0.0.20241007.54924";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241004.95013.tar";
-        sha256 = "0avxn9kqrmmn13md7inr62g5kgfad6hvgazjs7vjkbs14072rmcf";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241007.54924.tar";
+        sha256 = "0i9vaa5n7y7cffa4068qnrbi1n75asq2qhxldwiafbr43iapsx06";
       };
       packageRequires = [ ];
       meta = {
@@ -4124,10 +4124,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.6.0.20241006.143149";
+      version = "0.7.6.0.20241006.183010";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.6.0.20241006.143149.tar";
-        sha256 = "0gl4hpx5ph46n7axmndfiy2n81117kbdmkbb6nxvqidw91ky8g63";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.6.0.20241006.183010.tar";
+        sha256 = "0vs9r2yy6gcz92d8nk3j8n3i71lj2w06v5rhlrxmb4nvs3f5465x";
       };
       packageRequires = [ compat ];
       meta = {
