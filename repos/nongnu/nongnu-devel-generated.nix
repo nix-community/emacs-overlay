@@ -1158,10 +1158,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20240915.83214";
+      version = "1.15.0.0.20241006.175409";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20240915.83214.tar";
-        sha256 = "1qm7acknxc2lnmngdszz2ry5v4byc147xb6nnkvd9xi44hkzm8vb";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20241006.175409.tar";
+        sha256 = "0w752hhnpkfa5wqm1rk6nzq6n9y8c8mjzjhzri91l06jngpl6ckd";
       };
       packageRequires = [
         cl-lib
