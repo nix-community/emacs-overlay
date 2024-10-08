@@ -762,10 +762,10 @@
     elpaBuild {
       pname = "bluetooth";
       ename = "bluetooth";
-      version = "0.3.1.0.20230119.122638";
+      version = "0.3.1.0.20241007.201319";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bluetooth-0.3.1.0.20230119.122638.tar";
-        sha256 = "1s5vfprs06xf400p01qiwxbcy0y05pbgmp731c8z3zyk5ai4s88g";
+        url = "https://elpa.gnu.org/devel/bluetooth-0.3.1.0.20241007.201319.tar";
+        sha256 = "1zq3169ci5ysdxh3cvp8dnnzcg032swgh4akfymmi8swm7p1laz0";
       };
       packageRequires = [ dash ];
       meta = {
@@ -6808,10 +6808,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20240929.10213";
+      version = "0.11.1.0.20241007.234715";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20240929.10213.tar";
-        sha256 = "118zzmixnypnj90nxycd5xw8f08hz2r4dsh5p1qn2si0wwrrb2za";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20241007.234715.tar";
+        sha256 = "185nx2ww47c8808b0z8gsf2f4arc4cj3i31fp735i5qamxlx1bxp";
       };
       packageRequires = [ xref ];
       meta = {
