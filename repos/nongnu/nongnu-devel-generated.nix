@@ -516,10 +516,10 @@
     elpaBuild {
       pname = "cdlatex";
       ename = "cdlatex";
-      version = "4.18.4.0.20231118.64512";
+      version = "4.18.5.0.20241007.162342";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cdlatex-4.18.4.0.20231118.64512.tar";
-        sha256 = "037lh3j49cv8yz0vwl441gg9s24im614gzjys6095mj794q47bq7";
+        url = "https://elpa.nongnu.org/nongnu-devel/cdlatex-4.18.5.0.20241007.162342.tar";
+        sha256 = "0zk8whr3644kab13p11rvbdrqlr2np6s0h329ggvw7bnsphg35yw";
       };
       packageRequires = [ ];
       meta = {
@@ -2373,10 +2373,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20240927.92409";
+      version = "17.5.0.20241007.132004";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20240927.92409.tar";
-        sha256 = "0kzr6q2ddbfz6xxlr86g9fsy4j81hc0m9i8r9g4y18lvrbhqjgfa";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20241007.132004.tar";
+        sha256 = "1dj72kjy3jjxbfxxhj27yspc7n0059p7bxrv66hrzb0iginip45f";
       };
       packageRequires = [ ];
       meta = {
@@ -3657,10 +3657,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.24.0.20240927.92356";
+      version = "0.24.0.20241007.131950";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20240927.92356.tar";
-        sha256 = "0nm8rxy1rnn5ab6ic716bj59pbb7n55al7p0famhf4safdab6979";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20241007.131950.tar";
+        sha256 = "1srjs8xwwiqzjh550snzk0yzd4vy3ynk0d3i41y2i7wgfdggyl0p";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -4068,10 +4068,10 @@
     elpaBuild {
       pname = "reformatter";
       ename = "reformatter";
-      version = "0.8.0.20240927.92254";
+      version = "0.8.0.20241007.102705";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20240927.92254.tar";
-        sha256 = "0bhcn2r6jkky06y8rjsklakhs9yfc1vxiqg22nvl5d4xzzl638c1";
+        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20241007.102705.tar";
+        sha256 = "1z3zdmq78vziv45g133y1bnyzaszx0v16vdmwdfpcakj7b11qqw7";
       };
       packageRequires = [ ];
       meta = {
