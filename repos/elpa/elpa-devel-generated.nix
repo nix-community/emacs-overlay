@@ -1828,10 +1828,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0.0.20241006.212252";
+      version = "0.15.0.0.20241007.163740";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20241006.212252.tar";
-        sha256 = "1bk0ag2by0xc8zbzh7sfz982c8fz993q5lawii367z2zn3vvada1";
+        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20241007.163740.tar";
+        sha256 = "0yv2mk3algnf4fy8p5jf5d8swgbp0i3lh097pjf0aknryqrhx1mc";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2575,10 +2575,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.8.0.0.20241002.123653";
+      version = "1.8.0.0.20241007.133203";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20241002.123653.tar";
-        sha256 = "030i2vc8y2r02faz3xpq319swr58n8a0n62l0xffqr9050a4pqrw";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20241007.133203.tar";
+        sha256 = "07dzmvbzvyyxd747kgdsjwgg95minzfn5kw74qhy8x3xh95n6wwl";
       };
       packageRequires = [ ];
       meta = {
@@ -4124,10 +4124,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.6.0.20241006.183010";
+      version = "0.7.6.0.20241007.142643";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.6.0.20241006.183010.tar";
-        sha256 = "0vs9r2yy6gcz92d8nk3j8n3i71lj2w06v5rhlrxmb4nvs3f5465x";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.6.0.20241007.142643.tar";
+        sha256 = "0fmm3rba6bjbbvwq9aa9ms91gn9lxiwhx9sqf1w53gkxv14lyqag";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5382,10 +5382,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.5.0.0.20241004.74841";
+      version = "4.5.0.0.20241007.133219";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.5.0.0.20241004.74841.tar";
-        sha256 = "1d295ybh408nys7g4cw0my06f7liv571yr3ypqhmqw6s60xrfmkr";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.5.0.0.20241007.133219.tar";
+        sha256 = "1smf7zlwvkinjm6kdlmb5qm2dc9qxg5dpn0nyd7vjz1krycmvni6";
       };
       packageRequires = [ ];
       meta = {
@@ -5963,10 +5963,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20240922.161519";
+      version = "9.8pre0.20241007.184147";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20240922.161519.tar";
-        sha256 = "18kqrl3irnd2ammpji2bir7lm6ryl7526c9c2ydcxq285i0f2mw2";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241007.184147.tar";
+        sha256 = "0m4ispwvvjn0anhk6c6mxkyhxhdnxdwi24hiinaf0nrv06r634wj";
       };
       packageRequires = [ ];
       meta = {

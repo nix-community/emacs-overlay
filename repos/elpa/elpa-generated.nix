@@ -5927,10 +5927,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.11";
+      version = "9.7.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.11.tar";
-        sha256 = "08gfzj1siy2lr4vny1zqkv7290qd9skwd4lqa8ky3y4a25spz0ia";
+        url = "https://elpa.gnu.org/packages/org-9.7.12.tar";
+        sha256 = "0v0mims57k5ffaf9i8szmrq3zvk3zd7xz7386k8lwc58mmhhdw15";
       };
       packageRequires = [ ];
       meta = {
