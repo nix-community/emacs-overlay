@@ -1828,10 +1828,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0.0.20241007.163740";
+      version = "0.15.0.0.20241008.185348";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20241007.163740.tar";
-        sha256 = "0yv2mk3algnf4fy8p5jf5d8swgbp0i3lh097pjf0aknryqrhx1mc";
+        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20241008.185348.tar";
+        sha256 = "14ljzb6g9h6fvmbyn7pksqz73f2dlxkyn0a6336hkbbkm0cyccis";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -4060,10 +4060,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20240922.30531";
+      version = "9.0.2pre0.20241008.11453";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20240922.30531.tar";
-        sha256 = "1ii8zvg8k3d72nibqdccflsjr7g4g50wj7nw38jk1lwbs6m27mfs";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241008.11453.tar";
+        sha256 = "015cwlrqz4pyxk6ffki0l44ycajzd509vlbz10skwikl2xqmp01x";
       };
       packageRequires = [ ];
       meta = {
@@ -4124,10 +4124,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.6.0.20241007.142643";
+      version = "0.7.6.0.20241008.83403";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.6.0.20241007.142643.tar";
-        sha256 = "0fmm3rba6bjbbvwq9aa9ms91gn9lxiwhx9sqf1w53gkxv14lyqag";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.7.6.0.20241008.83403.tar";
+        sha256 = "1bn3k2ni5cj0bx93wsfbswkq8k7y7a6f776rarksiwrpr960rcki";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8887,10 +8887,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.7.0.20241004.173912";
+      version = "0.7.7.0.20241006.215035";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.7.0.20241004.173912.tar";
-        sha256 = "12256gn9i5zk5cdz3pw8cdq1mm09xccmki6cdishys66zb434v5h";
+        url = "https://elpa.gnu.org/devel/transient-0.7.7.0.20241006.215035.tar";
+        sha256 = "1sbxqpx2fzi58cy4ja76zyvm6ginwvw00rcci0v7s7jhqxi8a8p2";
       };
       packageRequires = [
         compat
