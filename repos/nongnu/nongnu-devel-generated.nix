@@ -326,10 +326,10 @@
     elpaBuild {
       pname = "better-jumper";
       ename = "better-jumper";
-      version = "1.0.1.0.20220111.101829";
+      version = "1.0.1.0.20241009.111701";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/better-jumper-1.0.1.0.20220111.101829.tar";
-        sha256 = "10wgfplj5sxr6lp0i9p5r0mvb2cf2xbpyfs6ky2kr4i5d9x29gaq";
+        url = "https://elpa.nongnu.org/nongnu-devel/better-jumper-1.0.1.0.20241009.111701.tar";
+        sha256 = "1ghi9g9bdai7i7fh9s5nldl9zfk3si9vjjn66qldb6q7v4g86gxx";
       };
       packageRequires = [ ];
       meta = {
@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20240927.164953";
+      version = "0.5pre0.20241009.175921";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20240927.164953.tar";
-        sha256 = "0ynwlyk9pmaiizfgbk6nf1n8x7g3x1dqscxfd0l1p2jh1dcckgsr";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241009.175921.tar";
+        sha256 = "0izxqqny2dnhp33pngph96lplbi1ivn9i99f97nvl050z275s0j5";
       };
       packageRequires = [
         compat
@@ -3920,10 +3920,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20240901.155412";
+      version = "2.9.0snapshot0.20241009.115247";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20240901.155412.tar";
-        sha256 = "0y3vs3ac3y5qrvg3sqmjqss95pslsgp0wvl3lxc78xmczmf16758";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20241009.115247.tar";
+        sha256 = "0lns0g1b52ib512dc0mqr8si6yqvnpcv148s262j5jqmm4a2sdm5";
       };
       packageRequires = [ ];
       meta = {
