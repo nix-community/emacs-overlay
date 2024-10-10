@@ -7493,11 +7493,11 @@
   "repo": "gilbertw1/better-jumper",
   "unstable": {
    "version": [
-    20220110,
-    118
+    20241009,
+    1517
    ],
-   "commit": "205e7a539d1611dbe50f003ddf52890360f87597",
-   "sha256": "0877p6wc3ppfnqixrcq0cxvk8f82lfkysgbc592fv3q6977r18b1"
+   "commit": "b1bf7a3c8cb820d942a0305e0e6412ef369f819c",
+   "sha256": "0cq99w9lpd9sg7hb6i9r6qirq626xcgzyjbk438h8qrjgm3xigh4"
   }
  },
  {
@@ -11452,8 +11452,8 @@
   "repo": "kickingvegas/casual-editkit",
   "unstable": {
    "version": [
-    20240930,
-    2305
+    20241009,
+    2252
    ],
    "deps": [
     "casual-lib",
@@ -11461,14 +11461,14 @@
     "magit",
     "transpose-frame"
    ],
-   "commit": "b84ba70335862975efa55d2a69fa560727b010e9",
-   "sha256": "1b144777cxsxmlhd98194wjmj909wn643pc92v23jszw31qphkgr"
+   "commit": "53ea0e05e275f9359b5a3aed8a0c864eb3cf8b50",
+   "sha256": "08ixzsm4xml3mas0scnc2qcwq3if5v2r18p4qxj89fg4flbqmkm7"
   },
   "stable": {
    "version": [
     1,
     0,
-    12
+    13
    ],
    "deps": [
     "casual-lib",
@@ -11476,8 +11476,8 @@
     "magit",
     "transpose-frame"
    ],
-   "commit": "b84ba70335862975efa55d2a69fa560727b010e9",
-   "sha256": "1b144777cxsxmlhd98194wjmj909wn643pc92v23jszw31qphkgr"
+   "commit": "53ea0e05e275f9359b5a3aed8a0c864eb3cf8b50",
+   "sha256": "08ixzsm4xml3mas0scnc2qcwq3if5v2r18p4qxj89fg4flbqmkm7"
   }
  },
  {
@@ -18094,8 +18094,8 @@
   "repo": "mkcms/compiler-explorer.el",
   "unstable": {
    "version": [
-    20240617,
-    2152
+    20241008,
+    2153
    ],
    "deps": [
     "eldoc",
@@ -18103,8 +18103,8 @@
     "plz",
     "seq"
    ],
-   "commit": "d4703aa55271efbe3c65db2016fb17c171094484",
-   "sha256": "1awiasvxh16zxvgngkcsg7ccnn99kajrk7h25saipnn7yb96jymj"
+   "commit": "6b5b86c836b6e926a80a1bef4536a78161c8fcd7",
+   "sha256": "11g2xmb5wf8lbzbd3g628k2sclx77r0zwbhxbpycvw5y89ad254k"
   },
   "stable": {
    "version": [
@@ -22846,11 +22846,11 @@
   "url": "https://salsa.debian.org/emacsen-team/debian-el.git",
   "unstable": {
    "version": [
-    20240829,
-    1723
+    20241009,
+    2240
    ],
-   "commit": "e45b6597873602295fb33c030617a3e0986a1d3a",
-   "sha256": "0b4wzb3vj84bnvablpqkvp0373i2ia0i6l3q71bgxw4y2z81ibx2"
+   "commit": "7a955451f923c05eba40b56488dacff9f0fcc893",
+   "sha256": "1rlkj0gs3abg2dp6nzl86qy6zx7y0f85pvwrhjxghrhzv01h2cqc"
   },
   "stable": {
    "version": [
@@ -61631,8 +61631,8 @@
   "repo": "ushin/hyperdrive.el",
   "unstable": {
    "version": [
-    20240927,
-    2349
+    20241009,
+    1759
    ],
    "deps": [
     "compat",
@@ -61643,8 +61643,8 @@
     "taxy-magit-section",
     "transient"
    ],
-   "commit": "5ce03ec0c4cc183c1a286f671cefd6e6d1414b6c",
-   "sha256": "1lqmk744m5mwmkkck8pr8zjscdkgz1l58yb6s9sc39dyfa1qhc9j"
+   "commit": "915b50ff21cc5487762fa255b3ceaf3a5035a630",
+   "sha256": "0xhg0iv4ilscvr0pmg743wc1kslx15dgr0n0q13p5ibk1lgwhb5s"
   },
   "stable": {
    "version": [
@@ -76048,15 +76048,15 @@
   "repo": "stacked-git/magit-stgit",
   "unstable": {
    "version": [
-    20231226,
-    1514
+    20241009,
+    2229
    ],
    "deps": [
     "magit",
-    "magit-popup"
+    "transient"
    ],
-   "commit": "59d1eb355caf4adbbdf1e351f5861de61b0b5efa",
-   "sha256": "0inv7xcm9nf3q5cf2l0vmi3kgwak4xbp3nk8ksna0nk8rxqwpy5v"
+   "commit": "ef2aa776c2404a3dc59bc369361d7de3790d487b",
+   "sha256": "1nmi4figh8kv3ix91kvz2151s1122hpiffa3vjb9139gb2ipwcw2"
   },
   "stable": {
    "version": [
@@ -79357,11 +79357,11 @@
   "repo": "szermatt/mistty",
   "unstable": {
    "version": [
-    20241008,
-    930
+    20241009,
+    2021
    ],
-   "commit": "a4c6f2376393470197523186a2029b25dd7ffcdf",
-   "sha256": "0xd4ka6nimx3a869gjjrdial6gkkwiqfzc1cw07j1c4ksw747z83"
+   "commit": "4cd299c7148058e3231d45a190168f31f28d49e7",
+   "sha256": "04qrynw550i26xnw7dvb86cqys0wls3hnbn3c5f2a1w86rfmn3rl"
   },
   "stable": {
    "version": [
