@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241009.181831";
+      version = "14.0.7.0.20241010.50356";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241009.181831.tar";
-        sha256 = "0j2xk1dg29y8isr584kbwsandfh81rn7zd4gnhsp4ksd2a8g5wyy";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241010.50356.tar";
+        sha256 = "014sf9gsj56jzxshlrvcbwhfl5y1wp2ws67g2j9b70x0zpz6klc6";
       };
       packageRequires = [ ];
       meta = {
@@ -1962,10 +1962,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241009.61001";
+      version = "3.1.0.0.20241010.62715";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241009.61001.tar";
-        sha256 = "1hj5y26xrssa3arf634w5qj8f024fri35vxlj1f94am0krzrpamz";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241010.62715.tar";
+        sha256 = "189hv0r2lyi8h67m32kn5qac4fx9dd9isqmqsf8ckhcfc8042rfw";
       };
       packageRequires = [ ];
       meta = {
@@ -4124,10 +4124,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.7.6.0.20241008.83403";
+      version = "0.8.0.20241009.165106";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.7.6.0.20241008.83403.tar";
-        sha256 = "1bn3k2ni5cj0bx93wsfbswkq8k7y7a6f776rarksiwrpr960rcki";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.0.20241009.165106.tar";
+        sha256 = "0xczpgcdpa3lq6ls69nr2qmb55kxalq84j6c22wh0cwzf5qqxjjp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9401,10 +9401,10 @@
     elpaBuild {
       pname = "verilog-mode";
       ename = "verilog-mode";
-      version = "2024.3.1.121933719.0.20240707.154630";
+      version = "2024.10.9.140346409.0.20241009.223438";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/verilog-mode-2024.3.1.121933719.0.20240707.154630.tar";
-        sha256 = "1sh1piff0jiahn7w9i607l6j28g74ysylr3n7xrp59nh07y2br6b";
+        url = "https://elpa.gnu.org/devel/verilog-mode-2024.10.9.140346409.0.20241009.223438.tar";
+        sha256 = "1zkdlq5ly9phjmg4ga1blbr184a7l3jldfpw58qx5njvyq5b3jq8";
       };
       packageRequires = [ ];
       meta = {
@@ -9446,10 +9446,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.7.7.0.20240202.84736";
+      version = "0.7.7.0.20241010.24145";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.7.0.20240202.84736.tar";
-        sha256 = "02kwhyhvcjpnq5wskhydjf0v2qbk4dfp8x4nvsxfh31jfvxqvn8k";
+        url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.7.0.20241010.24145.tar";
+        sha256 = "05np5iassbia1acn99cy4l4947lkq7vggcnh5gp21xjjm1mpk0jw";
       };
       packageRequires = [
         posframe
