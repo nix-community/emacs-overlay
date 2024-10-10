@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241008.211923";
+      version = "14.0.7.0.20241009.181831";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241008.211923.tar";
-        sha256 = "0wlxnz66d0zncbvr1nl594sh0imdqkqjicgm4pk7cr9ibwqabjjy";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241009.181831.tar";
+        sha256 = "0j2xk1dg29y8isr584kbwsandfh81rn7zd4gnhsp4ksd2a8g5wyy";
       };
       packageRequires = [ ];
       meta = {
@@ -8887,10 +8887,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.7.0.20241006.215035";
+      version = "0.7.7.0.20241008.182431";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.7.0.20241006.215035.tar";
-        sha256 = "1sbxqpx2fzi58cy4ja76zyvm6ginwvw00rcci0v7s7jhqxi8a8p2";
+        url = "https://elpa.gnu.org/devel/transient-0.7.7.0.20241008.182431.tar";
+        sha256 = "1vih4zkjzklj00fnp3yjj99vs0xy528316qf9b9bidgpqnsfk9mi";
       };
       packageRequires = [
         compat
