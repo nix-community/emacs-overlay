@@ -1962,10 +1962,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241010.62715";
+      version = "3.1.0.0.20241011.45629";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241010.62715.tar";
-        sha256 = "189hv0r2lyi8h67m32kn5qac4fx9dd9isqmqsf8ckhcfc8042rfw";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241011.45629.tar";
+        sha256 = "1mddbc1l62razwc3rnmmfl4jc4mwnpldlzwj7j40iq8sjyxsi56h";
       };
       packageRequires = [ ];
       meta = {
@@ -2982,10 +2982,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1snapshot0.20241003.233811";
+      version = "5.6.1snapshot0.20241011.83910";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20241003.233811.tar";
-        sha256 = "0yb961gqjvph7vyj02pzdd0lcrza5qrvsy7wlz0b99yaw8pxdxng";
+        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20241011.83910.tar";
+        sha256 = "1a6zbl5mag1q06vmjhy0rk5rh9fxy93abfmdciimadwy8s4r0zq6";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6124,10 +6124,10 @@
     elpaBuild {
       pname = "org-remark";
       ename = "org-remark";
-      version = "1.2.2.0.20240929.93321";
+      version = "1.2.2.0.20241010.195850";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-remark-1.2.2.0.20240929.93321.tar";
-        sha256 = "0723l2galyczbr28ymhvhq026ajrwr9rpkgr7r2rd26m4bdghqiv";
+        url = "https://elpa.gnu.org/devel/org-remark-1.2.2.0.20241010.195850.tar";
+        sha256 = "1y260csn6810dbv7libfyjlrx6r1rcna3kh4wbd5mn79ik1f8f6z";
       };
       packageRequires = [ org ];
       meta = {
