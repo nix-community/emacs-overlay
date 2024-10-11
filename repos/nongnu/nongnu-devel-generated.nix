@@ -4432,10 +4432,10 @@
     elpaBuild {
       pname = "spell-fu";
       ename = "spell-fu";
-      version = "0.3.0.20240616.234552";
+      version = "0.3.0.20241011.20613";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20240616.234552.tar";
-        sha256 = "1dnyz5dm2p6nj8imqpmz23n2j368ygnff4z6f90vl6g52pv07d9r";
+        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20241011.20613.tar";
+        sha256 = "1v9qzc7hqq0scs9vsgp88pp8hihxlsa8mcq5hmcz4g3p1ffhc1lb";
       };
       packageRequires = [ ];
       meta = {
