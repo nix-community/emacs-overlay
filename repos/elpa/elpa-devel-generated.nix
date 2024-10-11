@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241010.50356";
+      version = "14.0.7.0.20241010.141835";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241010.50356.tar";
-        sha256 = "014sf9gsj56jzxshlrvcbwhfl5y1wp2ws67g2j9b70x0zpz6klc6";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241010.141835.tar";
+        sha256 = "121b3xh5329mfwfm2zf19ddcp3hjbkwz4qnz1ybbd2y9yd6qw19z";
       };
       packageRequires = [ ];
       meta = {
@@ -4124,10 +4124,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.0.20241009.165106";
+      version = "0.8.0.20241010.103406";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.0.20241009.165106.tar";
-        sha256 = "0xczpgcdpa3lq6ls69nr2qmb55kxalq84j6c22wh0cwzf5qqxjjp";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.0.20241010.103406.tar";
+        sha256 = "0bnkyp5il1vj7gkb4qjwsk5mfzdcddvyr6vfchy4xnbdy5hr3i3r";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5963,10 +5963,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241007.184147";
+      version = "9.8pre0.20241010.174203";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241007.184147.tar";
-        sha256 = "0m4ispwvvjn0anhk6c6mxkyhxhdnxdwi24hiinaf0nrv06r634wj";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241010.174203.tar";
+        sha256 = "0d1a9xm1lqp0r8zillca9sxjsz6g82zzwf6lyvymkhckcrjw752c";
       };
       packageRequires = [ ];
       meta = {
