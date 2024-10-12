@@ -2098,10 +2098,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20240802.231611";
+      version = "1.10.0.0.20241011.223237";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20240802.231611.tar";
-        sha256 = "11zp0h0n1myj1d9x5bi8b0kdrgs4wf0nc3zc2zkz8zh7fz5rhc9p";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20241011.223237.tar";
+        sha256 = "13dvxri2jj2qljvv90rsnzq6bw73g1c6775w55g6cfwp70998550";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2982,10 +2982,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1snapshot0.20241011.83910";
+      version = "5.6.1snapshot0.20241011.161309";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20241011.83910.tar";
-        sha256 = "1a6zbl5mag1q06vmjhy0rk5rh9fxy93abfmdciimadwy8s4r0zq6";
+        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20241011.161309.tar";
+        sha256 = "1pps1r3b49zppdqdfd4ikh121myw7fwpnk0glmr27d7fdrihwfmk";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5963,10 +5963,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241010.174203";
+      version = "9.8pre0.20241012.73144";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241010.174203.tar";
-        sha256 = "0d1a9xm1lqp0r8zillca9sxjsz6g82zzwf6lyvymkhckcrjw752c";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241012.73144.tar";
+        sha256 = "0c6jqhd23jg3cv0gffn99bkwxhvzplfpd4cw2ckqjk1bfrk6v6pb";
       };
       packageRequires = [ ];
       meta = {
