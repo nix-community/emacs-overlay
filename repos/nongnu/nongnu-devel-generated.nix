@@ -2068,10 +2068,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.4.0.20241006.53624";
+      version = "0.4.5.0.20241009.160730";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.4.0.20241006.53624.tar";
-        sha256 = "0z5lx30wmqgpkkhav3i9f7d75fxrm0405wdhmsrlahn1v6qcmani";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.5.0.20241009.160730.tar";
+        sha256 = "0kmmxhbmxi7l1ig01b2v36diidlz0192y8nxjr3znycx0qzdbn7x";
       };
       packageRequires = [
         compat
@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.0.0.20241010.94430";
+      version = "0.9.5.0.20241012.3301";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.0.0.20241010.94430.tar";
-        sha256 = "10jd0hrny9zjwqmcpivnvkhmgqcv6njga2l1zf4nn5nvclq83xml";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.5.0.20241012.3301.tar";
+        sha256 = "0jdhlgj6cky569y0y80m663mmyrfdg1bqlffm1pzdqjijf8b9yac";
       };
       packageRequires = [
         compat
@@ -3165,10 +3165,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.4.5.0.20241005.72811";
+      version = "1.4.5.0.20241012.65409";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20241005.72811.tar";
-        sha256 = "0v0cnxcxi348065iammz9sa8m1angrxv4j0f5l6271mygbi9q7p0";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20241012.65409.tar";
+        sha256 = "029vvdvp3hq48zca5rhgv2cxa5dypy22ffh4av86kz92z5apinx0";
       };
       packageRequires = [ ];
       meta = {

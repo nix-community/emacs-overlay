@@ -2085,10 +2085,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.4";
+      version = "0.4.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gnosis-0.4.4.tar";
-        sha256 = "03i4i7a0b9fyd7gy79qji5wm4x0nn9fm05324xwji2nblwczg1i2";
+        url = "https://elpa.nongnu.org/nongnu/gnosis-0.4.5.tar";
+        sha256 = "00rca3rfij2c8120kzs8wc6xsarpcj20gzwys05c7fhf7j8l5bdy";
       };
       packageRequires = [
         compat
@@ -2259,10 +2259,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.0";
+      version = "0.9.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gptel-0.9.0.tar";
-        sha256 = "1crcng1h6i64h6l3pha96k3hy2hga73pp0wy4i9gdrc1ra0dbjf4";
+        url = "https://elpa.nongnu.org/nongnu/gptel-0.9.5.tar";
+        sha256 = "0ixji76xaqkm0ziidjmanax4q0xqyj1qcwva6r5sbsks6gpmrziv";
       };
       packageRequires = [
         compat
