@@ -1828,10 +1828,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0.0.20241008.202355";
+      version = "0.16.0.0.20241011.173555";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.15.0.0.20241008.202355.tar";
-        sha256 = "1gq14ymg6lyfq50dg5s7d06z4lp0r9g845g915szdvvjlawnchfy";
+        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241011.173555.tar";
+        sha256 = "19fz8n94y5qdbdyxblr6rmb56g703zj1ymixgj120zgplxzm0gd5";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -1915,10 +1915,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.41.0.20240921.90348";
+      version = "0.41.0.20241011.103524";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.41.0.20240921.90348.tar";
-        sha256 = "0xl82n8clfpjb0rs0bgnajim365whfan45i96snc9iqribi20lgx";
+        url = "https://elpa.gnu.org/devel/debbugs-0.41.0.20241011.103524.tar";
+        sha256 = "1lgr0bcaqifxmf27mhlhbyxbfbz98ykdzfmjhp8hbhjab08wxisg";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -1962,10 +1962,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241011.45629";
+      version = "3.1.0.0.20241011.101951";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241011.45629.tar";
-        sha256 = "1mddbc1l62razwc3rnmmfl4jc4mwnpldlzwj7j40iq8sjyxsi56h";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241011.101951.tar";
+        sha256 = "0m38i2pzl4182bxk356hwcja2j9xs0syq8qjdsydh80jaq8j2rsy";
       };
       packageRequires = [ ];
       meta = {

@@ -1806,10 +1806,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.15.0";
+      version = "0.16.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dape-0.15.0.tar";
-        sha256 = "0l684hygqvh5d842b6j01g28k8lzjlqm2r6w6aaagvdwyhy5k2j5";
+        url = "https://elpa.gnu.org/packages/dape-0.16.0.tar";
+        sha256 = "0zv2l2d91ywbi2v36kn7na94lm09zz5yyq50xdf5i44h9ridz7zw";
       };
       packageRequires = [ jsonrpc ];
       meta = {
