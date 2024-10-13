@@ -2834,10 +2834,10 @@
     elpaBuild {
       pname = "ement";
       ename = "ement";
-      version = "0.15.1";
+      version = "0.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ement-0.15.1.tar";
-        sha256 = "1n1kxj5p6c6cnz6z54zayyb9lr6l54crfh5im2pbwpai1bk8lsld";
+        url = "https://elpa.gnu.org/packages/ement-0.16.tar";
+        sha256 = "1c496sm9lad5m18pjfwnqf6l1kjrnyayip8flj1ijm13996c3mp3";
       };
       packageRequires = [
         map
