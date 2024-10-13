@@ -8476,10 +8476,10 @@
     elpaBuild {
       pname = "tex-parens";
       ename = "tex-parens";
-      version = "0.5";
+      version = "0.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tex-parens-0.5.tar";
-        sha256 = "1qjfcrhm418saj6shnzn1ibs6g3f1n0r4n1b01d2l417nqdgy7qq";
+        url = "https://elpa.gnu.org/packages/tex-parens-0.6.tar";
+        sha256 = "0pgzs0fw2ijns2xqbyq7whlhjjrhp0axja0381q9v75c7fxrp6ba";
       };
       packageRequires = [ ];
       meta = {

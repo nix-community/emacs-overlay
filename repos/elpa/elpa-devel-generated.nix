@@ -1205,10 +1205,10 @@
     elpaBuild {
       pname = "cobol-mode";
       ename = "cobol-mode";
-      version = "1.1.0.20240929.185547";
+      version = "1.1.0.20241012.193933";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cobol-mode-1.1.0.20240929.185547.tar";
-        sha256 = "0lk1izh1mmv916k5hgk8hpcjiiix1z5lqx19lqmr5g174i8afb21";
+        url = "https://elpa.gnu.org/devel/cobol-mode-1.1.0.20241012.193933.tar";
+        sha256 = "0l04al26n7b6nh9824r75jv60byx32s0xk3b943d4lqn1g7ww9bv";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2605,10 +2605,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.17.0.20241005.74122";
+      version = "1.17.0.20241012.55327";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20241005.74122.tar";
-        sha256 = "1am82x739lihf9sbpyvnfnrw2gwfm7d7yfn8yiwwp1f2fdrd7n6f";
+        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20241012.55327.tar";
+        sha256 = "14clgkni1awzac58ffqx9cwjy939y4y0fmzjkhnahii5sj1hp2mj";
       };
       packageRequires = [
         compat
@@ -5963,10 +5963,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241012.73144";
+      version = "9.8pre0.20241012.173956";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241012.73144.tar";
-        sha256 = "0c6jqhd23jg3cv0gffn99bkwxhvzplfpd4cw2ckqjk1bfrk6v6pb";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241012.173956.tar";
+        sha256 = "0q5493jl4x59xjm9d6g0gwmfyib7rw9gdxxiy7nqa973gb05581a";
       };
       packageRequires = [ ];
       meta = {
@@ -8626,10 +8626,10 @@
     elpaBuild {
       pname = "tex-parens";
       ename = "tex-parens";
-      version = "0.5.0.20240915.214910";
+      version = "0.6.0.20241012.150939";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tex-parens-0.5.0.20240915.214910.tar";
-        sha256 = "08y8ckc2c3p4hpqpvrgixmzp03px8jk5pr3jkjf3zi9inxn7444a";
+        url = "https://elpa.gnu.org/devel/tex-parens-0.6.0.20241012.150939.tar";
+        sha256 = "0f48c5x6mpf0c456d0jy2jprbclhcifmjid8s77ghmlnvazypg7b";
       };
       packageRequires = [ ];
       meta = {
