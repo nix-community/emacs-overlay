@@ -3165,10 +3165,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.4.5.0.20241012.65409";
+      version = "1.4.5.0.20241014.63605";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20241012.65409.tar";
-        sha256 = "029vvdvp3hq48zca5rhgv2cxa5dypy22ffh4av86kz92z5apinx0";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20241014.63605.tar";
+        sha256 = "1ws4i72gmr6g8fxvc27p28rm6wjdm71xpi03xiwy33x7m960g470";
       };
       packageRequires = [ ];
       meta = {
