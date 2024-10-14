@@ -19535,14 +19535,14 @@
   "repo": "minad/corfu",
   "unstable": {
    "version": [
-    20240926,
-    1810
+    20241014,
+    915
    ],
    "deps": [
     "compat"
    ],
-   "commit": "4c5a584dcbd984b0fb8f1a5650f7ef3d03e4d940",
-   "sha256": "15nl0ikh2554z3xdpiiw2flybmdkx9b2n727s904lfsrsv1zp0mk"
+   "commit": "fa2be6c66ff2eb10b4b609832f25df49e90381af",
+   "sha256": "15fmwmsbbb4609rcg0xmcip88rzy6vv9ri8camdysy6lisi9fhsa"
   },
   "stable": {
    "version": [
@@ -28157,20 +28157,20 @@
   "repo": "emacs-eask/eask",
   "unstable": {
    "version": [
-    20240614,
-    541
+    20241014,
+    738
    ],
-   "commit": "8015c62602188c008988fc6825ff97b04c614c8f",
-   "sha256": "1qz7jql5g2n643hws5ybaj78zdrqm6pnnbi0bvgzchfbc5nc1h2b"
+   "commit": "34fd32468a62604b5d75e3ad562cb9e84a5e5ac7",
+   "sha256": "10sv8d22zqrh7qijh19byddbry971xk72b7lvdmp15i1ra3842xv"
   },
   "stable": {
    "version": [
     0,
     10,
-    0
+    1
    ],
-   "commit": "94a45a3422a04819a5090d8acaec4fc563c6dfa9",
-   "sha256": "0wm2bhadsgs429f67bgvxxfdxkhf4z3v3mypdxbyrhlkzwqdmiag"
+   "commit": "34c20849530c59547e032900bba87f5ef05f192a",
+   "sha256": "1jy29mjkw0a6y8aawsmzcq246m4bg85iq35jcl7kdjccwywpj1b7"
   }
  },
  {
@@ -28423,14 +28423,14 @@
   "repo": "jamescherti/easysession.el",
   "unstable": {
    "version": [
-    20241009,
-    140
+    20241014,
+    1422
    ],
    "deps": [
     "f"
    ],
-   "commit": "1535977abb46f6ea36b910b18740da14700c9115",
-   "sha256": "07badgv808n3ccfvmcs3szilppxv43ckrmj4j9km86hazwrk32gy"
+   "commit": "d8a5a491cbfe0536348713b556bd2790450136bb",
+   "sha256": "0rx9j64c4rlf2g4ch5zc9fisrncwziwki8plhmyjm0n8yfd32a40"
   },
   "stable": {
    "version": [
@@ -46448,8 +46448,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20241001,
-    2058
+    20241014,
+    1340
    ],
    "deps": [
     "closql",
@@ -46464,8 +46464,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "a63685b921f25e861bf1e172e46beb771e56b924",
-   "sha256": "1nrr3l19p3hcm4jyghkl16d1pn0nqq6v6s19s54xl5yzjxfj44yq"
+   "commit": "c819271dd056d9608e6dd7e788bb3007f0a44517",
+   "sha256": "01gvx5imldgx3mmj1glgrspvxwnp8x068d1x6k8c928ad535z60x"
   },
   "stable": {
    "version": [
@@ -50826,16 +50826,16 @@
   "url": "https://git.thanosapollo.org/gnosis",
   "unstable": {
    "version": [
-    20241006,
-    536
+    20241009,
+    1607
    ],
    "deps": [
     "compat",
     "emacsql",
     "transient"
    ],
-   "commit": "4f437a3b23090d2591eb36a26c146ff3595a6256",
-   "sha256": "1fmfhmsfkw3rhbgrwj59p0z8jfjyplprfb7rzdg19qwv4km680iq"
+   "commit": "505ce5cff58923acec6e83351042f2b1d150f65c",
+   "sha256": "15x7ny693ch8bsdjlf3mg2apvkyf9r49d7kv9qz3zdg574cnh0pf"
   },
   "stable": {
    "version": [
@@ -61010,14 +61010,14 @@
   "repo": "kaorahi/howm",
   "unstable": {
    "version": [
-    20240921,
-    1835
+    20241014,
+    1050
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "ac8eed0dc8694445d9f07ee2b6d42f40caec0ce0",
-   "sha256": "18bnk206wfcvn07jgx7hcjh14ajkki7c2d831ms6hvmcqfxqcswx"
+   "commit": "280eead4fffdc2ef78aee4fcb522f24a3f1f4dec",
+   "sha256": "00w8dnszispfv1y7zqggmjfn2xhmn0fls1gdx8gx7vhkyjyzpvqr"
   },
   "stable": {
    "version": [
@@ -74455,7 +74455,7 @@
   "unstable": {
    "version": [
     20241014,
-    337
+    1431
    ],
    "deps": [
     "dash",
@@ -74466,8 +74466,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "1bec6551cbb67b7ccaab6bc70fd4f65efc678723",
-   "sha256": "14vh9j4ygz2fijan456zga5klpbhl6931qfdpaajpfn7zyqp8g65"
+   "commit": "8200fa1e71f16e10f42fce95c47822c4bd756df1",
+   "sha256": "0iq509iiy1xpdhpxk80v74lmwby2i1nl46iszlc7d07c2wvbjdm1"
   },
   "stable": {
    "version": [
@@ -95219,14 +95219,14 @@
   "repo": "stig/ox-jira.el",
   "unstable": {
    "version": [
-    20241009,
-    1040
+    20241014,
+    953
    ],
    "deps": [
     "org"
    ],
-   "commit": "6edb4968284c45b50e42150af4afdf1225a273df",
-   "sha256": "1y8xzawq71s5dl0wpvqcjkbcjfswjdr4jl9a01wsk0i0g76mpdg1"
+   "commit": "6c2013088f442530cbd895abcf4a290c06e2beb0",
+   "sha256": "1n9hsd2ydhmj4ijbc4pn7h81kx7sr6gjkvfasqjaw5bgn8yi01xa"
   }
  },
  {
@@ -121509,11 +121509,11 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20241007,
-    1431
+    20241014,
+    1131
    ],
-   "commit": "8d6d2cea014274c23db498400f1559e5a82995e7",
-   "sha256": "17nxbjab5kr2hyy34mys22k7h7wz4b8ha1yy05cvrryhiyi45gf7"
+   "commit": "f2c4e6c61f8235d909f0af06ac0bb3043a2ce3a5",
+   "sha256": "07wz8di70q1cpb853rfkxa70bfqpkwidm31wmxxk8abar4zm0a3i"
   },
   "stable": {
    "version": [
@@ -125561,14 +125561,14 @@
   "repo": "tbanel/uniline",
   "unstable": {
    "version": [
-    20241008,
-    2114
+    20241014,
+    1600
    ],
    "deps": [
     "hydra"
    ],
-   "commit": "a901fc9a41ab72a9e0617e39f468bfa7ead5b5e5",
-   "sha256": "11p84w3h5hvzc5c0fskfiw2p370p0y32fc1lv4ss5mr3266kk4kv"
+   "commit": "51f8096af29bc67ab6defedf3bf71e82e64e67c2",
+   "sha256": "04l48gaqyvsxfpvrgi412qjx95283yi30r6kcw9rldpx9hvqywwk"
   }
  },
  {
@@ -132583,14 +132583,14 @@
   "repo": "AndreaCrotti/yasnippet-snippets",
   "unstable": {
    "version": [
-    20240911,
-    801
+    20241014,
+    949
    ],
    "deps": [
     "yasnippet"
    ],
-   "commit": "f9d12a931f803cd1a24bb20113bd716db8c01b48",
-   "sha256": "05n3slyzysc2wzsqbzfpjygyk5b92g08jr1srxv8zlz0gpmp0g2z"
+   "commit": "23bcbcd11f567a2659ae413c62c82892eb50a3f1",
+   "sha256": "0g1d676jq6ayisck2garlk9cwvf8m6w17ajw07mybcadq2nm03g9"
   },
   "stable": {
    "version": [
@@ -132776,14 +132776,14 @@
   "url": "https://git.thanosapollo.org/yeetube",
   "unstable": {
    "version": [
-    20240926,
-    2140
+    20241012,
+    758
    ],
    "deps": [
     "compat"
    ],
-   "commit": "dc33d92a9c6765b7859551d19d1e910b81484726",
-   "sha256": "1zx84kjik96asry1ai9v7qckqy99x0w1yh13lr2klxhmy6fg76kq"
+   "commit": "f73172433a944551558204554efae0e441388034",
+   "sha256": "0issjdi1j1cvapxjxbansbmdmfs9khxmr2k0cr6pqm0hfzak4c9s"
   },
   "stable": {
    "version": [
