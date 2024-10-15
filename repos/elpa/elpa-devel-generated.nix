@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241010.141835";
+      version = "14.0.7.0.20241014.204947";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241010.141835.tar";
-        sha256 = "121b3xh5329mfwfm2zf19ddcp3hjbkwz4qnz1ybbd2y9yd6qw19z";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241014.204947.tar";
+        sha256 = "0k6alz5z877plxcs5bvy92ai868v941s5mik8npqacqfy1s5y342";
       };
       packageRequires = [ ];
       meta = {
@@ -1828,10 +1828,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.16.0.0.20241014.173514";
+      version = "0.16.0.0.20241014.202657";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241014.173514.tar";
-        sha256 = "101kn4kg39xkc6r6zh1njd1ayn27gmx71cc30ylw7yd505kndyqb";
+        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241014.202657.tar";
+        sha256 = "0s9l7ac17yfrcp9x0dfqdfl15d4a0vcyidy88x4w97mbqzj017d7";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -6942,10 +6942,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20241013.93011";
+      version = "0.28.0.20241014.202623";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20241013.93011.tar";
-        sha256 = "01rcnwk7hdzx5qlrhd8mnkqzsn7x5dpn3zwh16941cjc3fr9xq7r";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20241014.202623.tar";
+        sha256 = "0x8vxb2x7kdy23xp89k6sqg4f5hlmgv4mkpfya7x75fcjyfm5jpn";
       };
       packageRequires = [
         compat
