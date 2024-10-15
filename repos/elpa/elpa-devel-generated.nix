@@ -1568,10 +1568,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20241001.155010";
+      version = "1.5.0.20241014.91521";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241001.155010.tar";
-        sha256 = "0xmki9d0szqpqg1agyx9l6viqmcw6ndwj9mi4zkmxqyy8589qf16";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241014.91521.tar";
+        sha256 = "1qq5bl2qw1rm19nlwcm06qraj2amrhqb5cz8sl225a9zs2fh1y82";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1828,10 +1828,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.16.0.0.20241013.222215";
+      version = "0.16.0.0.20241014.173514";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241013.222215.tar";
-        sha256 = "0nfs1293sb5m5dn7cz7z983q7kp5qb7b5bmv54zp9lx33kxm5z9z";
+        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241014.173514.tar";
+        sha256 = "101kn4kg39xkc6r6zh1njd1ayn27gmx71cc30ylw7yd505kndyqb";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2554,10 +2554,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20241002.0.20241013.214806";
+      version = "20241014.0.20241014.62314";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20241002.0.20241013.214806.tar";
-        sha256 = "19694hal4v7qfrpjmpm1m6yfgqmgyvzf5cwkiz290m3nc65znnzw";
+        url = "https://elpa.gnu.org/devel/eev-20241014.0.20241014.62314.tar";
+        sha256 = "1386ig81b6miv3dm4yc7cp6scdcm6g07sv5fs7r5xrfbx206nm7i";
       };
       packageRequires = [ ];
       meta = {
@@ -5190,10 +5190,10 @@
     elpaBuild {
       pname = "mct";
       ename = "mct";
-      version = "1.0.0.0.20240913.71126";
+      version = "1.0.0.0.20241014.102146";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mct-1.0.0.0.20240913.71126.tar";
-        sha256 = "0nxw6vnc9q63vnly9ffvrj8m1dnn9wlhcidld478p07qlighp8lm";
+        url = "https://elpa.gnu.org/devel/mct-1.0.0.0.20241014.102146.tar";
+        sha256 = "176zcpdfm5b5i6l7ilpdrrsxxnfbp21dgw5pr6dl4vk00k7dv99x";
       };
       packageRequires = [ ];
       meta = {
@@ -5963,10 +5963,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241013.101728";
+      version = "9.8pre0.20241014.183947";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241013.101728.tar";
-        sha256 = "1lr95jkjdp19cv5k21h5yn29sy744sxr2995v4a6pkjif0dnvj5v";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241014.183947.tar";
+        sha256 = "0dlv7yn99in8v6jysgilr2c5sm4894pla4zb6hq5j1qp3j6a10ww";
       };
       packageRequires = [ ];
       meta = {
