@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.5.0.20241013.125757";
+      version = "0.9.5.0.20241014.103213";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.5.0.20241013.125757.tar";
-        sha256 = "123bvwfh6anp6arwznzinyckakpadagz6pn7381848k9zp5xz6lg";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.5.0.20241014.103213.tar";
+        sha256 = "09l4im6xads0dad8pfgf04490q0ykifsscn4xg3mm062drpxjxjk";
       };
       packageRequires = [
         compat
@@ -4538,10 +4538,10 @@
     elpaBuild {
       pname = "sweeprolog";
       ename = "sweeprolog";
-      version = "0.27.6.0.20240905.90947";
+      version = "0.27.6.0.20241014.185421";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20240905.90947.tar";
-        sha256 = "0wsl9dnz1vrr5qajcps5095gaxpqwspb16qac72sdafxidjfgabh";
+        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20241014.185421.tar";
+        sha256 = "1yhq69rzzc19jjrrk4acyc85lhk11824ww3rdgbsc00kbkz3qvd4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5323,10 +5323,10 @@
     elpaBuild {
       pname = "yasnippet-snippets";
       ename = "yasnippet-snippets";
-      version = "1.0.0.20240911.80118";
+      version = "1.0.0.20241014.94920";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/yasnippet-snippets-1.0.0.20240911.80118.tar";
-        sha256 = "1wn5ckrlpacrlil6ap9j1x1lfr1yydnf0hcy268ji52hwvkdf55p";
+        url = "https://elpa.nongnu.org/nongnu-devel/yasnippet-snippets-1.0.0.20241014.94920.tar";
+        sha256 = "065wcvb295dhyi6jvb80vagzb8idqycchqgy32pj0fr6vcxx7y88";
       };
       packageRequires = [ yasnippet ];
       meta = {
