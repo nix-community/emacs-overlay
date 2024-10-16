@@ -2727,19 +2727,21 @@
       lib,
       llm,
       spinner,
+      transient,
     }:
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.11.14";
+      version = "0.12.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-0.11.14.tar";
-        sha256 = "1xd1pj02kgz83wsvygi5p7hlzx2898d38jmwq899qzpjn80jajb1";
+        url = "https://elpa.gnu.org/packages/ellama-0.12.2.tar";
+        sha256 = "0rb0hdajrj141p051zv7616ac5gkcf78l9wfh49pmy542jwy4kkb";
       };
       packageRequires = [
         compat
         llm
         spinner
+        transient
       ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/ellama.html";

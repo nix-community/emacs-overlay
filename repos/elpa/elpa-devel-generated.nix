@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241015.91404";
+      version = "14.0.7.0.20241016.71057";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241015.91404.tar";
-        sha256 = "0x6jk2lr5kgj4718qcrhpvw7d3l21lcrhn69rvbzrwidmfzqsd3x";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241016.71057.tar";
+        sha256 = "0khkswd6xmjghaayyf2f7sxjnzh5mk9kc8vwdi1srsh6r91jgqg8";
       };
       packageRequires = [ ];
       meta = {
@@ -1962,10 +1962,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241011.101951";
+      version = "3.1.0.0.20241016.73630";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241011.101951.tar";
-        sha256 = "0m38i2pzl4182bxk356hwcja2j9xs0syq8qjdsydh80jaq8j2rsy";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241016.73630.tar";
+        sha256 = "1jiwjlz5wvddjvk6i72rv48x3n0a2rjq537ls18rbv3v6wrc3r99";
       };
       packageRequires = [ ];
       meta = {
@@ -2754,19 +2754,21 @@
       lib,
       llm,
       spinner,
+      transient,
     }:
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.11.14.0.20240915.152338";
+      version = "0.12.2.0.20241015.214357";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-0.11.14.0.20240915.152338.tar";
-        sha256 = "0qxwhk6kdj9w1436p7hxlwhi7c9mb8j3ghrp8sskcqy6dck7mqn3";
+        url = "https://elpa.gnu.org/devel/ellama-0.12.2.0.20241015.214357.tar";
+        sha256 = "1wrzykdjsz5nia7ggmadcv961i09ywdih9cqnyidnfw0897ybf35";
       };
       packageRequires = [
         compat
         llm
         spinner
+        transient
       ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/ellama.html";
@@ -4124,10 +4126,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.0.20241013.161522";
+      version = "0.8.0.20241015.191702";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.0.20241013.161522.tar";
-        sha256 = "0h7r1lm06rybqp7lq3ggclgv8b2akgqabizqy6xzimmibgf61vwj";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.0.20241015.191702.tar";
+        sha256 = "09y69mb5xbn71jzsk90lp2fzwyd1whpbmxd4gc98j2rhvks1wln5";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4888,10 +4890,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.17.4.0.20241003.232025";
+      version = "0.17.4.0.20241015.234800";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.17.4.0.20241003.232025.tar";
-        sha256 = "1wsbf0c0hmspw3sx94ji0xr9h65q1xbls1nhhadajayclrp3rxhq";
+        url = "https://elpa.gnu.org/devel/llm-0.17.4.0.20241015.234800.tar";
+        sha256 = "0fsckx7fh67g1hi8cwwhxchlwfnqsw8hz5b73jzv4rz1shw8ng9i";
       };
       packageRequires = [
         plz
