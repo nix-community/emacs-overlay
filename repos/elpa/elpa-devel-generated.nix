@@ -6810,10 +6810,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20241007.234715";
+      version = "0.11.1.0.20241016.225809";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20241007.234715.tar";
-        sha256 = "185nx2ww47c8808b0z8gsf2f4arc4cj3i31fp735i5qamxlx1bxp";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20241016.225809.tar";
+        sha256 = "0jbg0mc3fxc1n1xjhfzv950nmrcapl65vlhd8cc1nyxvc1finkqh";
       };
       packageRequires = [ xref ];
       meta = {
