@@ -4700,10 +4700,10 @@
     elpaBuild {
       pname = "leaf";
       ename = "leaf";
-      version = "4.5.5.0.20230803.74443";
+      version = "4.5.5.0.20241018.51628";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/leaf-4.5.5.0.20230803.74443.tar";
-        sha256 = "1xkqwkkk3k5k3lg10amh2lvric2xcqd35ad30c0jyvzn9fsxkbn0";
+        url = "https://elpa.gnu.org/devel/leaf-4.5.5.0.20241018.51628.tar";
+        sha256 = "1d2y0qhy9qz0wahclwnskf5kdqhr51iljnrki7jmkzxfya3r1dwa";
       };
       packageRequires = [ ];
       meta = {
@@ -5815,10 +5815,10 @@
     elpaBuild {
       pname = "ob-asymptote";
       ename = "ob-asymptote";
-      version = "1.0.0.20230908.121002";
+      version = "1.0.0.20241018.73938";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ob-asymptote-1.0.0.20230908.121002.tar";
-        sha256 = "1lpv4rf7qf1yvpm4j3wiajdk72lgl4gk8qgwflzyq9yvmksakdvp";
+        url = "https://elpa.gnu.org/devel/ob-asymptote-1.0.0.20241018.73938.tar";
+        sha256 = "1kqhdbfbfcvk1qwpk2xh95drqm7nah7x1ap01hy1x4alh0ixna6q";
       };
       packageRequires = [ ];
       meta = {
@@ -8983,10 +8983,10 @@
     elpaBuild {
       pname = "triples";
       ename = "triples";
-      version = "0.4.0.0.20240831.171334";
+      version = "0.4.1.0.20241017.213639";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/triples-0.4.0.0.20240831.171334.tar";
-        sha256 = "1xa6yhgjpj8vb5i9znx7nhavz21yv0wbiknwiv2ccal03dfs3n1c";
+        url = "https://elpa.gnu.org/devel/triples-0.4.1.0.20241017.213639.tar";
+        sha256 = "1kzzpdaimk8bixf0fi2sba6958szmyp5vk08b60v5x80qzghmq9n";
       };
       packageRequires = [ seq ];
       meta = {

@@ -8833,10 +8833,10 @@
     elpaBuild {
       pname = "triples";
       ename = "triples";
-      version = "0.4.0";
+      version = "0.4.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/triples-0.4.0.tar";
-        sha256 = "0g29i33bmh9gh4mmk92h6vhhw42k1f2ph02qlrasn0w5fq3pg8vp";
+        url = "https://elpa.gnu.org/packages/triples-0.4.1.tar";
+        sha256 = "1x5sws7zhm9wz5d430bs8g8rnxn4y57pqkqhxcsi9d3vbs39wfn8";
       };
       packageRequires = [ seq ];
       meta = {
