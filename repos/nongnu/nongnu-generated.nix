@@ -93,10 +93,10 @@
     elpaBuild {
       pname = "annotate";
       ename = "annotate";
-      version = "2.2.2";
+      version = "2.2.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/annotate-2.2.2.tar";
-        sha256 = "0hrb7kjzhgy46hxaa77rv5ilsdsv6zxpawnkx4viw5jq0v5s4fl6";
+        url = "https://elpa.nongnu.org/nongnu/annotate-2.2.3.tar";
+        sha256 = "1x0v51rbnyzwvjwp4xwsd2a4xisid65zgww6yk0bb81421i54ps3";
       };
       packageRequires = [ ];
       meta = {
@@ -4535,10 +4535,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.16";
+      version = "1.2.17";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/subed-1.2.16.tar";
-        sha256 = "0fsxsp8g70mr36njmv2h3qrmp1mw3r4clrlzib33iq02wmw7q3rg";
+        url = "https://elpa.nongnu.org/nongnu/subed-1.2.17.tar";
+        sha256 = "0pksd191gzdq42rnj96d00kqfr761y2zwkc7sz8i644qk87g0165";
       };
       packageRequires = [ ];
       meta = {
