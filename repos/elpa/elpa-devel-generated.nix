@@ -3822,10 +3822,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.11.18.0.20240921.191926";
+      version = "0.11.18.0.20241013.14255";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.11.18.0.20240921.191926.tar";
-        sha256 = "1bnss7xgzzclkk715i3v6bpr2zn1b85hr7mpxvpprm3hknpalq5p";
+        url = "https://elpa.gnu.org/devel/greader-0.11.18.0.20241013.14255.tar";
+        sha256 = "16akgg38zcc2i38zmg5pxnjk12jznhxkv4qkzcspkbxkz021bwd0";
       };
       packageRequires = [
         compat
@@ -4126,10 +4126,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.0.20241015.191702";
+      version = "0.8.0.20241017.93530";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.0.20241015.191702.tar";
-        sha256 = "09y69mb5xbn71jzsk90lp2fzwyd1whpbmxd4gc98j2rhvks1wln5";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.0.20241017.93530.tar";
+        sha256 = "1zx5wxdbcsf4gvy2nni626fz9qlicpc4gnavif6z56c1hyv9d0ak";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8782,10 +8782,10 @@
     elpaBuild {
       pname = "track-changes";
       ename = "track-changes";
-      version = "1.2.0.20241003.143209";
+      version = "1.2.0.20241017.125404";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/track-changes-1.2.0.20241003.143209.tar";
-        sha256 = "1xzx886gzvm0rchzchnd4cl675mlkgnjbmkvzjkx9wpi42xnw94j";
+        url = "https://elpa.gnu.org/devel/track-changes-1.2.0.20241017.125404.tar";
+        sha256 = "1s7fi6k3mwazymhsghfvcjkjcnpv2i8kjpwrjcyqm99kqwyhlpck";
       };
       packageRequires = [ ];
       meta = {
