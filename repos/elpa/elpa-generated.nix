@@ -5779,10 +5779,10 @@
     elpaBuild {
       pname = "ob-asymptote";
       ename = "ob-asymptote";
-      version = "1.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ob-asymptote-1.0.tar";
-        sha256 = "1hmqbkrqg18w454xg37rg5cg0q3vd0b0fm14n5chihqrwwnwrf4l";
+        url = "https://elpa.gnu.org/packages/ob-asymptote-1.0.1.tar";
+        sha256 = "0f1vpq691pna1p1lgqw2nzmdw25sjsmpcvgm2lj7n14kg7dizxal";
       };
       packageRequires = [ ];
       meta = {
@@ -5929,10 +5929,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.12";
+      version = "9.7.13";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.12.tar";
-        sha256 = "0v0mims57k5ffaf9i8szmrq3zvk3zd7xz7386k8lwc58mmhhdw15";
+        url = "https://elpa.gnu.org/packages/org-9.7.13.tar";
+        sha256 = "0j324yi91jd0vnihi7lpf647hccqc6wh4455s7mkn12vccddh967";
       };
       packageRequires = [ ];
       meta = {
