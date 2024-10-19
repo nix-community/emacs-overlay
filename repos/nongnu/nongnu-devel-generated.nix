@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.16.0.0.20240925.134028";
+      version = "1.16.0.0.20241019.74815";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.0.0.20240925.134028.tar";
-        sha256 = "1j874gyrdiy90f8hlxjkvxjdwzs8pixi19l28d009npj69mv0f6n";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.0.0.20241019.74815.tar";
+        sha256 = "1sq31nf3fcswrxhs4ikh10xx1wsy6ydg0slad869mbvrrs432gki";
       };
       packageRequires = [
         clojure-mode
@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241018.123512";
+      version = "0.9.6.0.20241018.183721";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241018.123512.tar";
-        sha256 = "0jspl2zzyyn45s5fz77v8bpyvgg6gi10k2rn6cs4nlimqxingfcb";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241018.183721.tar";
+        sha256 = "0av0gp6ygi0mfgsigixsskncchh64kfx208z3lgjqds8hvlmbhbw";
       };
       packageRequires = [
         compat
@@ -4766,6 +4766,27 @@
       packageRequires = [ base32 ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/totp-auth.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  tp = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "tp";
+      ename = "tp";
+      version = "0.1.0.20241014.70030";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/tp-0.1.0.20241014.70030.tar";
+        sha256 = "17sdrniw7wfpny8a1ww0yl5zb655c6612p1zkkag5663mrygwjdb";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/tp.html";
         license = lib.licenses.free;
       };
     }
