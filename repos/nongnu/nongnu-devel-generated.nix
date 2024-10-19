@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241017.95734";
+      version = "0.9.6.0.20241018.123512";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241017.95734.tar";
-        sha256 = "081af9gqlndnpbdbr7ns481z3kknkdqnhkigrym1zh8w1lfcgbdh";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241018.123512.tar";
+        sha256 = "0jspl2zzyyn45s5fz77v8bpyvgg6gi10k2rn6cs4nlimqxingfcb";
       };
       packageRequires = [
         compat
@@ -3984,10 +3984,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20241001.105847";
+      version = "1.0.20241018.114543";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241001.105847.tar";
-        sha256 = "0yhvr3c6f2hsdj4i699h7z4gjjim359wk09z917lb8dqdd3ddjdv";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241018.114543.tar";
+        sha256 = "0ds8jf4b6m194pk8ab9y7d9bpqvzrka8a098vrk8lhkykbia7zcc";
       };
       packageRequires = [ ];
       meta = {
@@ -4327,10 +4327,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.30snapshot0.20241013.100856";
+      version = "2.30snapshot0.20241018.144750";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241013.100856.tar";
-        sha256 = "19i9vgb1h20lmfskr13b7jkj7xg16dkm0ymhndi41xbimdnvav42";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241018.144750.tar";
+        sha256 = "1087qwcbhkgpbz7xs92q832yp90ldg7aq9fnnmvs3g4y6wr0q3xb";
       };
       packageRequires = [ macrostep ];
       meta = {
