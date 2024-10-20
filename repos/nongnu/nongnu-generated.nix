@@ -4820,10 +4820,10 @@
     elpaBuild {
       pname = "tp";
       ename = "tp";
-      version = "0.2";
+      version = "0.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/tp-0.2.tar";
-        sha256 = "07y36f7vksvsjji0kghgx02bzpwxm2dl4ajf8ph0h54izb9n9alm";
+        url = "https://elpa.nongnu.org/nongnu/tp-0.3.tar";
+        sha256 = "077zxzvfgmhbmgi119m83g25qxx87dr3gr9kznhsf20a78jm2y5s";
       };
       packageRequires = [ ];
       meta = {

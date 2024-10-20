@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.16.0.0.20241019.74815";
+      version = "1.16.0.0.20241020.60643";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.0.0.20241019.74815.tar";
-        sha256 = "1sq31nf3fcswrxhs4ikh10xx1wsy6ydg0slad869mbvrrs432gki";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.0.0.20241020.60643.tar";
+        sha256 = "0ijcwbgqxlf75q94r986hz3v34754qxapgq6xnx0i5n8wndm5fhw";
       };
       packageRequires = [
         clojure-mode
@@ -986,10 +986,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.5.3.0.20240704.131127";
+      version = "0.5.3.0.20241020.72705";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.3.0.20240704.131127.tar";
-        sha256 = "0mr4p3w5932bz9cj9b4b2lmp5dkrix79s6vf4s2h2rr8cjhgbb6s";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.3.0.20241020.72705.tar";
+        sha256 = "1k3v8zvjn0r9yzi3aicldsbpff2vzc6h3pxfysi3z3b9amhsnzn7";
       };
       packageRequires = [ ];
       meta = {
@@ -2266,10 +2266,10 @@
     elpaBuild {
       pname = "graphql-mode";
       ename = "graphql-mode";
-      version = "1.0.0.0.20240918.121927";
+      version = "1.0.0.0.20241020.75405";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20240918.121927.tar";
-        sha256 = "198kbpazgczyb0qjclm8xgaha6wh6spr8ybvrbhm6nsf90zgv5kw";
+        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20241020.75405.tar";
+        sha256 = "0bds1zv0syg1jfdak2hk3kank4c532r6ki095wamxy06rwdbm2il";
       };
       packageRequires = [ ];
       meta = {
@@ -2628,10 +2628,10 @@
     elpaBuild {
       pname = "hyperdrive-org-transclusion";
       ename = "hyperdrive-org-transclusion";
-      version = "0.3pre0.20240930.224512";
+      version = "0.3pre0.20241019.235120";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-org-transclusion-0.3pre0.20240930.224512.tar";
-        sha256 = "13wacgy29zm9yly58hznj0k1liah9kqw2b6gkpk8804yrjzjhgd4";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-org-transclusion-0.3pre0.20241019.235120.tar";
+        sha256 = "1gbncr23py3jz6fxi7bi8az3yqslsj12ggxpvjagp68lilqp2xiv";
       };
       packageRequires = [
         hyperdrive
@@ -3165,10 +3165,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.4.5.0.20241017.214223";
+      version = "1.4.5.0.20241019.210631";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20241017.214223.tar";
-        sha256 = "1z5d5f7vam47yl8pflv3br34fk1s1qrl0vp7r1mjnc50pv90dgsg";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20241019.210631.tar";
+        sha256 = "1hi12icb3xv2qd66gjmm2fmyh5fj7l8m8hkm6kka2n6nl0da7sq1";
       };
       packageRequires = [ ];
       meta = {
@@ -4779,10 +4779,10 @@
     elpaBuild {
       pname = "tp";
       ename = "tp";
-      version = "0.2.0.20241019.165551";
+      version = "0.3.0.20241019.215054";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tp-0.2.0.20241019.165551.tar";
-        sha256 = "0arwd0jrxvc2sayx3gil71lcdsclzvmvkyhrya1djn1mm2pac8f9";
+        url = "https://elpa.nongnu.org/nongnu-devel/tp-0.3.0.20241019.215054.tar";
+        sha256 = "08dscm74qsw7s4isgynmm5x1aah01pl84fz29260y9zfq2v38aq5";
       };
       packageRequires = [ ];
       meta = {
