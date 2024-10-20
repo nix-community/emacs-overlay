@@ -5384,10 +5384,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.5.0.0.20241018.171552";
+      version = "4.5.0.0.20241019.93116";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.5.0.0.20241018.171552.tar";
-        sha256 = "0666spbs6qn23qj2f0v6x0bg9d7fzv6hdr7qjglmnghb84gfhf6i";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.5.0.0.20241019.93116.tar";
+        sha256 = "0fwwyzn5iw31ah7qqb8ap37w728m17xrab62pv5s8ycbm1wdxykx";
       };
       packageRequires = [ ];
       meta = {
@@ -5965,10 +5965,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241018.173731";
+      version = "9.8pre0.20241019.82913";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241018.173731.tar";
-        sha256 = "1b360vp0snrvi0w7q82l8wwsz7x4d55an7jw5gimj3yi2jnbdbm9";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241019.82913.tar";
+        sha256 = "0hfj91ablvis6gl27xkks2phm2mr83ddvpjsgfgr6jndvx8dlg73";
       };
       packageRequires = [ ];
       meta = {
@@ -8889,10 +8889,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.7.0.20241008.182431";
+      version = "0.7.7.0.20241018.175029";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.7.0.20241008.182431.tar";
-        sha256 = "1vih4zkjzklj00fnp3yjj99vs0xy528316qf9b9bidgpqnsfk9mi";
+        url = "https://elpa.gnu.org/devel/transient-0.7.7.0.20241018.175029.tar";
+        sha256 = "1l4k3ayja61x82qx3ff8var86s73rwq6q22dg6bxkycy52w9a28s";
       };
       packageRequires = [
         compat
