@@ -3011,10 +3011,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.1.1.0.20241010.193053";
+      version = "4.1.1.0.20241019.20540";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.1.1.0.20241010.193053.tar";
-        sha256 = "0qk8d2zx748ksahkmrcfxdkn5gdjp8vq3cwwv6iflhcqymh9lwz2";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.1.1.0.20241019.20540.tar";
+        sha256 = "05bgm8wn1n6wn2p6lq5na690rc3l34dg0z0lyr42fg3q02l5xhx2";
       };
       packageRequires = [
         compat
@@ -3042,10 +3042,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.1.1.0.20241010.193053";
+      version = "4.1.1.0.20241019.20540";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.1.0.20241010.193053.tar";
-        sha256 = "00hl7lgsm1pv8qck53n8fxvhr3yrji3z6awbaiwvsqsb0mqw9zhq";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.1.0.20241019.20540.tar";
+        sha256 = "18bri8hyf23vpisrr1qm0qdkjsmj2lay8lnmdr4mb1qnwn3mhrq7";
       };
       packageRequires = [
         compat
@@ -4327,10 +4327,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.30snapshot0.20241018.144750";
+      version = "2.30snapshot0.20241019.142630";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241018.144750.tar";
-        sha256 = "1087qwcbhkgpbz7xs92q832yp90ldg7aq9fnnmvs3g4y6wr0q3xb";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241019.142630.tar";
+        sha256 = "05d7jynayyk5jjwr5ijcnz8wl2mlf83456s05cyy0m5wg1v269r7";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -4779,10 +4779,10 @@
     elpaBuild {
       pname = "tp";
       ename = "tp";
-      version = "0.1.0.20241014.70030";
+      version = "0.2.0.20241019.165551";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tp-0.1.0.20241014.70030.tar";
-        sha256 = "17sdrniw7wfpny8a1ww0yl5zb655c6612p1zkkag5663mrygwjdb";
+        url = "https://elpa.nongnu.org/nongnu-devel/tp-0.2.0.20241019.165551.tar";
+        sha256 = "0arwd0jrxvc2sayx3gil71lcdsclzvmvkyhrya1djn1mm2pac8f9";
       };
       packageRequires = [ ];
       meta = {

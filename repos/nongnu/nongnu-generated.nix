@@ -4811,6 +4811,27 @@
       };
     }
   ) { };
+  tp = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "tp";
+      ename = "tp";
+      version = "0.2";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/tp-0.2.tar";
+        sha256 = "07y36f7vksvsjji0kghgx02bzpwxm2dl4ajf8ph0h54izb9n9alm";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/tp.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   treeview = callPackage (
     {
       elpaBuild,
