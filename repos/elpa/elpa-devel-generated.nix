@@ -4126,10 +4126,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.0.20241018.130505";
+      version = "0.8.1.0.20241019.170236";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.0.20241018.130505.tar";
-        sha256 = "03vkalajllcp6jlbqr3bw4r2ldcsdrxi4r442z6kw64qdsrpfbjy";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.1.0.20241019.170236.tar";
+        sha256 = "1p3cb1bdc36vi6c3m6dpbmb2rpz71id76wr0hd5jn3i38c6zxi0m";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5384,10 +5384,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.5.0.0.20241019.93116";
+      version = "4.5.0.0.20241020.73718";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.5.0.0.20241019.93116.tar";
-        sha256 = "0fwwyzn5iw31ah7qqb8ap37w728m17xrab62pv5s8ycbm1wdxykx";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.5.0.0.20241020.73718.tar";
+        sha256 = "07mjbs2bndp4rsw8wfis7457hxjkxlcyixqb9vanfc5vvqkfc99w";
       };
       packageRequires = [ ];
       meta = {
