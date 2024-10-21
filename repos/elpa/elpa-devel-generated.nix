@@ -1197,7 +1197,6 @@
   ) { };
   cobol-mode = callPackage (
     {
-      cl-lib ? null,
       elpaBuild,
       fetchurl,
       lib,
@@ -1205,12 +1204,12 @@
     elpaBuild {
       pname = "cobol-mode";
       ename = "cobol-mode";
-      version = "1.1.0.20241012.193933";
+      version = "1.1.0.20241020.181020";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cobol-mode-1.1.0.20241012.193933.tar";
-        sha256 = "0l04al26n7b6nh9824r75jv60byx32s0xk3b943d4lqn1g7ww9bv";
+        url = "https://elpa.gnu.org/devel/cobol-mode-1.1.0.20241020.181020.tar";
+        sha256 = "05vxahbqs8an5s5c7v40yhziaa61n5yg4j92k8pqjypqrwhpw7vw";
       };
-      packageRequires = [ cl-lib ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/cobol-mode.html";
         license = lib.licenses.free;
@@ -1962,10 +1961,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241016.140707";
+      version = "3.1.0.0.20241020.135139";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241016.140707.tar";
-        sha256 = "024qxp6qh35rl0s77i5q0z4kglpsmp3rpkqc2a9z56s2hlnh40j8";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241020.135139.tar";
+        sha256 = "02l9i1ambc14hxikxzlmp1insm4vmi5smdi403qv6ndj93s4l9wz";
       };
       packageRequires = [ ];
       meta = {
@@ -5384,10 +5383,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.5.0.0.20241020.73718";
+      version = "4.5.0.0.20241020.133815";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.5.0.0.20241020.73718.tar";
-        sha256 = "07mjbs2bndp4rsw8wfis7457hxjkxlcyixqb9vanfc5vvqkfc99w";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.5.0.0.20241020.133815.tar";
+        sha256 = "025xqqj8gq2a0l2rzcbxwyg7y1g5rl995ggjv1byk1b91pmbl29d";
       };
       packageRequires = [ ];
       meta = {
@@ -5965,10 +5964,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241019.82913";
+      version = "9.8pre0.20241020.114104";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241019.82913.tar";
-        sha256 = "0hfj91ablvis6gl27xkks2phm2mr83ddvpjsgfgr6jndvx8dlg73";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241020.114104.tar";
+        sha256 = "1vzhzpp632n7zzaqsdg801r18l3h2p7q0rxj1p151lswaghqcwhv";
       };
       packageRequires = [ ];
       meta = {
@@ -8628,10 +8627,10 @@
     elpaBuild {
       pname = "tex-parens";
       ename = "tex-parens";
-      version = "0.6.0.20241019.12839";
+      version = "0.6.0.20241020.142549";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tex-parens-0.6.0.20241019.12839.tar";
-        sha256 = "1nqn6a8p21b0awiy8w0r9d1qivl6nkw8zb9vw64nsx09mwnp8ah4";
+        url = "https://elpa.gnu.org/devel/tex-parens-0.6.0.20241020.142549.tar";
+        sha256 = "1hi5v58vgd5y2mb429a5cd77wra3dbqahzwr8pssw3wr3ycxfwqx";
       };
       packageRequires = [ ];
       meta = {
