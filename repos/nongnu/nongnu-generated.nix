@@ -3181,10 +3181,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.4.5";
+      version = "1.5.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/meow-1.4.5.tar";
-        sha256 = "1d63mw88vq97rq3a7qhkxid2xaag5dp21ijisw9s3fk972kcks3s";
+        url = "https://elpa.nongnu.org/nongnu/meow-1.5.0.tar";
+        sha256 = "1fwd6lwaci23scgv65fxrxg51w334pw92l4c51ci9s0qgh1vjb01";
       };
       packageRequires = [ ];
       meta = {
@@ -4820,10 +4820,10 @@
     elpaBuild {
       pname = "tp";
       ename = "tp";
-      version = "0.3";
+      version = "0.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/tp-0.3.tar";
-        sha256 = "077zxzvfgmhbmgi119m83g25qxx87dr3gr9kznhsf20a78jm2y5s";
+        url = "https://elpa.nongnu.org/nongnu/tp-0.4.tar";
+        sha256 = "0f4sz94xz0h1zlc569jazn63332siff1z33vv6r0db1sbnlx08a3";
       };
       packageRequires = [ ];
       meta = {

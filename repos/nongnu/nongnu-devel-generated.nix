@@ -1588,10 +1588,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0snapshot0.20240726.45656";
+      version = "35.0snapshot0.20241020.182247";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20240726.45656.tar";
-        sha256 = "09hy61g6rcvl1xng2bnav9x58rg0ddq39mj4gicsyyxyqfyp2gc7";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20241020.182247.tar";
+        sha256 = "139hihkfrqis9xdkcdrw05ndyhc8qa9db1krbdcq987i31n6fdm5";
       };
       packageRequires = [ ];
       meta = {
@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20241012.232703";
+      version = "0.5pre0.20241017.160707";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241012.232703.tar";
-        sha256 = "1wj52cs86jzl2cx9a3599fjncnra1x8as9md6i5afwmm9flb3yn6";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241017.160707.tar";
+        sha256 = "1105pfq422c4aambvdz06yxl0g115xxzf8x0lky4yqzpg2vdlvc2";
       };
       packageRequires = [
         compat
@@ -3165,10 +3165,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.4.5.0.20241019.210631";
+      version = "1.5.0.0.20241020.193209";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.4.5.0.20241019.210631.tar";
-        sha256 = "1hi12icb3xv2qd66gjmm2fmyh5fj7l8m8hkm6kka2n6nl0da7sq1";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241020.193209.tar";
+        sha256 = "031n8nlapi9fin1m3vb1xf0zl4jk4cqmzdygspcicw4zvx6b7r5r";
       };
       packageRequires = [ ];
       meta = {
@@ -4779,10 +4779,10 @@
     elpaBuild {
       pname = "tp";
       ename = "tp";
-      version = "0.3.0.20241019.215054";
+      version = "0.4.0.20241020.114621";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tp-0.3.0.20241019.215054.tar";
-        sha256 = "08dscm74qsw7s4isgynmm5x1aah01pl84fz29260y9zfq2v38aq5";
+        url = "https://elpa.nongnu.org/nongnu-devel/tp-0.4.0.20241020.114621.tar";
+        sha256 = "17wi2dxyyidwsgr8axskgckfwnmif6hghswx33lz0ryzifw6lhb8";
       };
       packageRequires = [ ];
       meta = {
