@@ -986,10 +986,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.5.3.0.20241020.72705";
+      version = "0.5.3.0.20241021.43919";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.3.0.20241020.72705.tar";
-        sha256 = "1k3v8zvjn0r9yzi3aicldsbpff2vzc6h3pxfysi3z3b9amhsnzn7";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.3.0.20241021.43919.tar";
+        sha256 = "0vamzjzwq66n6417iqsqdb00wpzn5jljqa19f5jvs7zvrnj4hjhv";
       };
       packageRequires = [ ];
       meta = {
@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20241017.160707";
+      version = "0.5pre0.20241021.5754";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241017.160707.tar";
-        sha256 = "1105pfq422c4aambvdz06yxl0g115xxzf8x0lky4yqzpg2vdlvc2";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241021.5754.tar";
+        sha256 = "1f31i37inp5mp85jg0ivj7kg63sjihm638xai81gfrxcnmlxmx3l";
       };
       packageRequires = [
         compat
@@ -4779,10 +4779,10 @@
     elpaBuild {
       pname = "tp";
       ename = "tp";
-      version = "0.4.0.20241020.114621";
+      version = "0.4.0.20241021.65437";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tp-0.4.0.20241020.114621.tar";
-        sha256 = "17wi2dxyyidwsgr8axskgckfwnmif6hghswx33lz0ryzifw6lhb8";
+        url = "https://elpa.nongnu.org/nongnu-devel/tp-0.4.0.20241021.65437.tar";
+        sha256 = "16xrg9fw1q192rspwgy4dph8g4qzfxqbfxqc926qmmfsaxw28zbm";
       };
       packageRequires = [ ];
       meta = {
