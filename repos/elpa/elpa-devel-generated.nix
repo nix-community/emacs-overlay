@@ -228,10 +228,10 @@
     elpaBuild {
       pname = "agitate";
       ename = "agitate";
-      version = "0.0.20240117.23316";
+      version = "0.0.20241021.65229";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/agitate-0.0.20240117.23316.tar";
-        sha256 = "0md795hvmz15bb3vsji4p12g9lm8j34mj9wqq338dhn6zw91n5hi";
+        url = "https://elpa.gnu.org/devel/agitate-0.0.20241021.65229.tar";
+        sha256 = "11f1yj937wfnn6d12845pwa8045wp5pk9mbcvzhigni3jkm8820p";
       };
       packageRequires = [ ];
       meta = {
@@ -1961,10 +1961,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241020.135139";
+      version = "3.1.0.0.20241021.63734";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241020.135139.tar";
-        sha256 = "02l9i1ambc14hxikxzlmp1insm4vmi5smdi403qv6ndj93s4l9wz";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241021.63734.tar";
+        sha256 = "0xx4pdh1jivgkasx9hx1sxq5v71fsbyw02x89askx283w18nb9ix";
       };
       packageRequires = [ ];
       meta = {
@@ -2553,10 +2553,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20241014.0.20241014.62314";
+      version = "20241014.0.20241020.201248";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20241014.0.20241014.62314.tar";
-        sha256 = "1386ig81b6miv3dm4yc7cp6scdcm6g07sv5fs7r5xrfbx206nm7i";
+        url = "https://elpa.gnu.org/devel/eev-20241014.0.20241020.201248.tar";
+        sha256 = "1rlcm4m8qr4l0hzbq0n73y1cbqh8xn6q8p2qzzgkb2jyzamh15ki";
       };
       packageRequires = [ ];
       meta = {
@@ -2574,10 +2574,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.8.0.0.20241007.133203";
+      version = "1.8.0.0.20241021.62227";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20241007.133203.tar";
-        sha256 = "07dzmvbzvyyxd747kgdsjwgg95minzfn5kw74qhy8x3xh95n6wwl";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20241021.62227.tar";
+        sha256 = "0pkmhvz2x47y44l1h4lxlicsp8bzf6franpm18pw4lny705dnwny";
       };
       packageRequires = [ ];
       meta = {
@@ -2862,10 +2862,10 @@
     elpaBuild {
       pname = "ement";
       ename = "ement";
-      version = "0.16.0.20241012.164056";
+      version = "0.17pre0.20241021.14639";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ement-0.16.0.20241012.164056.tar";
-        sha256 = "0fsck2gx84y8r94770zhjiq37g97vgc61dkrp9k7f3q4xb05gqvi";
+        url = "https://elpa.gnu.org/devel/ement-0.17pre0.20241021.14639.tar";
+        sha256 = "0wkqd454y1pdk9f6wk08yvp559jqp1zliqn796423b67zvva4aka";
       };
       packageRequires = [
         map
@@ -9447,10 +9447,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.7.7.0.20241010.24145";
+      version = "0.7.7.0.20241021.13420";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.7.0.20241010.24145.tar";
-        sha256 = "05np5iassbia1acn99cy4l4947lkq7vggcnh5gp21xjjm1mpk0jw";
+        url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.7.0.20241021.13420.tar";
+        sha256 = "0x3n6qzwlca43x163f55c31c7drzx62n4pd340pk0s7kzqd4zdfz";
       };
       packageRequires = [
         posframe
