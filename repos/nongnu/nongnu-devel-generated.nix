@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20241021.15039";
+      version = "0.5pre0.20241022.4645";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241021.15039.tar";
-        sha256 = "03mzwyalpb4vggr833lqyf6k14bhf586ycj2jrybszcja0grbg0r";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241022.4645.tar";
+        sha256 = "19qykkc317njax9nfr61zcaxcrljq63mvmgzdy6wfs8bfnhqr9q4";
       };
       packageRequires = [
         compat
@@ -2628,10 +2628,10 @@
     elpaBuild {
       pname = "hyperdrive-org-transclusion";
       ename = "hyperdrive-org-transclusion";
-      version = "0.3pre0.20241019.235120";
+      version = "0.3.0.20241022.3614";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-org-transclusion-0.3pre0.20241019.235120.tar";
-        sha256 = "1gbncr23py3jz6fxi7bi8az3yqslsj12ggxpvjagp68lilqp2xiv";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-org-transclusion-0.3.0.20241022.3614.tar";
+        sha256 = "0sk6nyv7qms2mq6wvfhrjwc3y8pn1kh4w1x5z1iig5lm2b6azjnz";
       };
       packageRequires = [
         hyperdrive
@@ -3086,18 +3086,20 @@
       lib,
       persist,
       request,
+      tp,
     }:
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.0.27.0.20240920.183931";
+      version = "1.1.1.0.20241022.60426";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.0.27.0.20240920.183931.tar";
-        sha256 = "0wy6ibdbj984aycscvsg24k4z3a0dlzi2ghbvrb8zq3lma8sy2a6";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.1.0.20241022.60426.tar";
+        sha256 = "0dxqd0xmbmjrw8fk3bp9q322iij4434in5nd75559gaianpp2axi";
       };
       packageRequires = [
         persist
         request
+        tp
       ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/mastodon.html";
@@ -4327,10 +4329,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.30snapshot0.20241021.182508";
+      version = "2.30snapshot0.20241021.224923";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241021.182508.tar";
-        sha256 = "1v3bjc5ydmn93wn9vmjh1isdzb5b6546jx3b3zp9sapzxgrq4mkm";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241021.224923.tar";
+        sha256 = "04zjfnb5wjv3ympvphsd2ifdmai0h2z2icrjvhxwbcfq5hcq375h";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -5258,10 +5260,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.6.20241009212806.0.20241009.212859";
+      version = "26.6.20241021131107.0.20241021.131222";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.6.20241009212806.0.20241009.212859.tar";
-        sha256 = "07vpnsrifc6nkf7zrhahzgxn196wm3w71zvsvb249sjf3za9gz07";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.6.20241021131107.0.20241021.131222.tar";
+        sha256 = "1j4h8ssm9lgkz2df8irrp27rclf8ilkmpcjba8km4m312yxw1ydz";
       };
       packageRequires = [ ];
       meta = {
