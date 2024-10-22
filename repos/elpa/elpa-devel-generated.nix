@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241016.165022";
+      version = "14.0.7.0.20241021.193139";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241016.165022.tar";
-        sha256 = "0cqr5z50csrwm4sm57jbrs66x0v7bk691drnqwjk3k9qd9qb05qh";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241021.193139.tar";
+        sha256 = "0c6slmj6yjp839j2wzy9aq274gkcbva7602q3na1w6qh8b68pwg0";
       };
       packageRequires = [ ];
       meta = {
@@ -1827,10 +1827,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.16.0.0.20241018.204818";
+      version = "0.16.0.0.20241021.161933";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241018.204818.tar";
-        sha256 = "0vzs6wcxqzkmqaisbx9fi5axkgig2jsvg1fk9bzas84wcl2h5xkq";
+        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241021.161933.tar";
+        sha256 = "1v7z034ijvk8sz1q5qjcbr4yawk70j4qhi2i5z4cb56v0bv3v3vs";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -8318,10 +8318,10 @@
     elpaBuild {
       pname = "svg-tag-mode";
       ename = "svg-tag-mode";
-      version = "0.3.2.0.20240828.82058";
+      version = "0.3.3.0.20241021.134153";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.2.0.20240828.82058.tar";
-        sha256 = "1jx2dx1d8w4p37q4x5shj1xf1fqbclv10i6a8q8inq05qjlfq1ak";
+        url = "https://elpa.gnu.org/devel/svg-tag-mode-0.3.3.0.20241021.134153.tar";
+        sha256 = "1zhmjpskaqsv2rl8lqbnb93b08d0xjk0d84ksjzwgr3bzmscpz5n";
       };
       packageRequires = [ svg-lib ];
       meta = {

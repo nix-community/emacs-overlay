@@ -8194,10 +8194,10 @@
     elpaBuild {
       pname = "svg-tag-mode";
       ename = "svg-tag-mode";
-      version = "0.3.2";
+      version = "0.3.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/svg-tag-mode-0.3.2.tar";
-        sha256 = "0wzcq00kbjpbwz7acn4d7jd98v5kicq3iwgf6dnmz2kflvkfwkvr";
+        url = "https://elpa.gnu.org/packages/svg-tag-mode-0.3.3.tar";
+        sha256 = "14vkjy3dvvvkhxi3m8d56m0dpvg9gpbwmmb0dchz8ap8wjbvc85j";
       };
       packageRequires = [ svg-lib ];
       meta = {
