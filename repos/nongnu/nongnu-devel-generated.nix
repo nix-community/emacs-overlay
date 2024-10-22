@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.16.0.0.20241020.60643";
+      version = "1.16.0.0.20241021.175754";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.0.0.20241020.60643.tar";
-        sha256 = "0ijcwbgqxlf75q94r986hz3v34754qxapgq6xnx0i5n8wndm5fhw";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.0.0.20241021.175754.tar";
+        sha256 = "1mpcaxi7g2zqffkqn6g5jn4kjlqipxlvxajn3pwsqizl06hlyifd";
       };
       packageRequires = [
         clojure-mode
@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20241021.5754";
+      version = "0.5pre0.20241021.15039";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241021.5754.tar";
-        sha256 = "1f31i37inp5mp85jg0ivj7kg63sjihm638xai81gfrxcnmlxmx3l";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241021.15039.tar";
+        sha256 = "03mzwyalpb4vggr833lqyf6k14bhf586ycj2jrybszcja0grbg0r";
       };
       packageRequires = [
         compat
@@ -4327,10 +4327,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.30snapshot0.20241019.142630";
+      version = "2.30snapshot0.20241021.182508";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241019.142630.tar";
-        sha256 = "05d7jynayyk5jjwr5ijcnz8wl2mlf83456s05cyy0m5wg1v269r7";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241021.182508.tar";
+        sha256 = "1v3bjc5ydmn93wn9vmjh1isdzb5b6546jx3b3zp9sapzxgrq4mkm";
       };
       packageRequires = [ macrostep ];
       meta = {
