@@ -2553,10 +2553,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20241014.0.20241020.201248";
+      version = "20241022.0.20241022.221213";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20241014.0.20241020.201248.tar";
-        sha256 = "1rlcm4m8qr4l0hzbq0n73y1cbqh8xn6q8p2qzzgkb2jyzamh15ki";
+        url = "https://elpa.gnu.org/devel/eev-20241022.0.20241022.221213.tar";
+        sha256 = "1k1sxq7h11nj794ky7h5lahjiz148b39vpc7y0nll0ia5hm9grr4";
       };
       packageRequires = [ ];
       meta = {
@@ -4328,10 +4328,10 @@
     elpaBuild {
       pname = "ivy-posframe";
       ename = "ivy-posframe";
-      version = "0.6.3.0.20211217.23411";
+      version = "0.6.3.0.20241023.25839";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ivy-posframe-0.6.3.0.20211217.23411.tar";
-        sha256 = "03v4k7hx2bdxhjghanpmy9r50q9ksmz2xcwypxxhyywlglfk0d69";
+        url = "https://elpa.gnu.org/devel/ivy-posframe-0.6.3.0.20241023.25839.tar";
+        sha256 = "01wiviygb0c5kjdds1fk10jf9rcf6f59iychqp42yk2lghhw9k1z";
       };
       packageRequires = [
         ivy
@@ -4889,10 +4889,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.17.4.0.20241015.234800";
+      version = "0.17.4.0.20241022.232945";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.17.4.0.20241015.234800.tar";
-        sha256 = "0fsckx7fh67g1hi8cwwhxchlwfnqsw8hz5b73jzv4rz1shw8ng9i";
+        url = "https://elpa.gnu.org/devel/llm-0.17.4.0.20241022.232945.tar";
+        sha256 = "1nvidc1wr1l9c4sxv68v19hc6spqa3n3z3wfxsw3k278s7pqqb5v";
       };
       packageRequires = [
         plz
@@ -6701,10 +6701,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.4.4.0.20240827.65408";
+      version = "1.4.4.0.20241023.31905";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.4.4.0.20240827.65408.tar";
-        sha256 = "0bpakrjgasx911k9niqmd4zf3g08zvwydfyxj6fr8096wazqyrrc";
+        url = "https://elpa.gnu.org/devel/posframe-1.4.4.0.20241023.31905.tar";
+        sha256 = "0dphws4lbfyjz4cqh6jc5ma6rf4q1kmrf47y8sp5mg615nvrryrm";
       };
       packageRequires = [ ];
       meta = {
@@ -9447,10 +9447,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.7.7.0.20241021.13420";
+      version = "0.7.7.0.20241023.25940";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.7.0.20241021.13420.tar";
-        sha256 = "0x3n6qzwlca43x163f55c31c7drzx62n4pd340pk0s7kzqd4zdfz";
+        url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.7.0.20241023.25940.tar";
+        sha256 = "0gvi8z5jhgy5jqp4q80ax01djzswp2ygq9rfryy8p3m3pgf36g4n";
       };
       packageRequires = [
         posframe
