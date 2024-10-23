@@ -1116,10 +1116,10 @@
     elpaBuild {
       pname = "elpher";
       ename = "elpher";
-      version = "3.6.3";
+      version = "3.6.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/elpher-3.6.3.tar";
-        sha256 = "0vjsb2jfgnf9jya14zigy2jcd8agxsncm7cxg61jm940jyvs8fsq";
+        url = "https://elpa.nongnu.org/nongnu/elpher-3.6.4.tar";
+        sha256 = "0f6hsw50a36jyp1ikawcdj9yn3isks03ax47x8vflmayydndir4g";
       };
       packageRequires = [ ];
       meta = {
@@ -2644,10 +2644,10 @@
     elpaBuild {
       pname = "hyperdrive-org-transclusion";
       ename = "hyperdrive-org-transclusion";
-      version = "0.3";
+      version = "0.3.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hyperdrive-org-transclusion-0.3.tar";
-        sha256 = "0l3hj0mb59sx62ax0l7rr4p843wpfr9bzv0lkngssfq1rhxl3hkl";
+        url = "https://elpa.nongnu.org/nongnu/hyperdrive-org-transclusion-0.3.1.tar";
+        sha256 = "074ylcblg6wg2yg8jv1i6cn8vig56br0bqp5xwmhkslwrkqj05cj";
       };
       packageRequires = [
         hyperdrive

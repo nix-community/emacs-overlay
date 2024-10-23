@@ -1092,10 +1092,10 @@
     elpaBuild {
       pname = "elpher";
       ename = "elpher";
-      version = "3.6.3.0.20240930.91332";
+      version = "3.6.4.0.20241022.162545";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elpher-3.6.3.0.20240930.91332.tar";
-        sha256 = "1mf0d6gzykvpyjk2kxivlqs5xwxqdsxj9adfi92bna01dv5vrj3n";
+        url = "https://elpa.nongnu.org/nongnu-devel/elpher-3.6.4.0.20241022.162545.tar";
+        sha256 = "070njpzhspzgpry9wy69l76kmfdwzy8c5nx32kr0isx7b6qzvb5v";
       };
       packageRequires = [ ];
       meta = {
@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20241022.4645";
+      version = "0.5pre0.20241022.21347";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241022.4645.tar";
-        sha256 = "19qykkc317njax9nfr61zcaxcrljq63mvmgzdy6wfs8bfnhqr9q4";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241022.21347.tar";
+        sha256 = "0y5p7zdr9j66wz2r3n0agry4hn7nqaamlhq352cxbvgr27zpin6c";
       };
       packageRequires = [
         compat
@@ -2628,10 +2628,10 @@
     elpaBuild {
       pname = "hyperdrive-org-transclusion";
       ename = "hyperdrive-org-transclusion";
-      version = "0.3.0.20241022.3614";
+      version = "0.3.1.0.20241022.13301";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-org-transclusion-0.3.0.20241022.3614.tar";
-        sha256 = "0sk6nyv7qms2mq6wvfhrjwc3y8pn1kh4w1x5z1iig5lm2b6azjnz";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-org-transclusion-0.3.1.0.20241022.13301.tar";
+        sha256 = "171vbbc878vn2r3ls7ivzm3bbd9mkpm5isjkdz0mc9nxnmihfgfy";
       };
       packageRequires = [
         hyperdrive
@@ -3922,10 +3922,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20241009.115247";
+      version = "2.9.0snapshot0.20241022.85831";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20241009.115247.tar";
-        sha256 = "0lns0g1b52ib512dc0mqr8si6yqvnpcv148s262j5jqmm4a2sdm5";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20241022.85831.tar";
+        sha256 = "05bbigpfzlk790fm1jcxky669vbkdcc3gcc10qxj31fw3942j1jf";
       };
       packageRequires = [ ];
       meta = {
