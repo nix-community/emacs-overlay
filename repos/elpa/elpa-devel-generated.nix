@@ -676,10 +676,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.1.1.0.20241019.74754";
+      version = "1.1.1.0.20241022.135625";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.1.1.0.20241019.74754.tar";
-        sha256 = "1b3j0hhhlwxsj3fnpw0zb4davjgzz8kzcg4q401pics8md9zsyw3";
+        url = "https://elpa.gnu.org/devel/beframe-1.1.1.0.20241022.135625.tar";
+        sha256 = "0rhk08m7i4yhigd4rfjwj4in8an99y3p3srwghcr42wv38ax3ajj";
       };
       packageRequires = [ ];
       meta = {
@@ -1567,10 +1567,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20241022.74427";
+      version = "1.5.0.20241022.104040";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241022.74427.tar";
-        sha256 = "17psdasch8qa2zqwgg0zw5i24lp574h2hwalhpgydwrbdiryhzny";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241022.104040.tar";
+        sha256 = "1zq3xvxb7p6i6h7nrsxi1nd5v2641iczi1jlgr0x6ybwp8ix9mfr";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4631,10 +4631,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.4.2.0.20241022.55919";
+      version = "0.4.2.0.20241022.131056";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.4.2.0.20241022.55919.tar";
-        sha256 = "1spq0kacdnw8lzd0l6ssxrnjfimlljl1d2ing0njdsjpnflg1cpn";
+        url = "https://elpa.gnu.org/devel/kubed-0.4.2.0.20241022.131056.tar";
+        sha256 = "02sg5h2iv9zb2i1prxab9xcm682j8y5c3h10cqd66gcvpiwb790f";
       };
       packageRequires = [ ];
       meta = {
@@ -6056,10 +6056,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.5.0.20240926.92259";
+      version = "1.5.0.20241022.103450";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.5.0.20240926.92259.tar";
-        sha256 = "0i99ky6csk3gvshvr2f6gpql1k3a8dl6xvnyd8nk33jydacjs6bl";
+        url = "https://elpa.gnu.org/devel/org-modern-1.5.0.20241022.103450.tar";
+        sha256 = "1hbgf2yggrp2jfcgi1d9wk2fg3f7f082g8xn60znkyaa7zfsn5nb";
       };
       packageRequires = [ compat ];
       meta = {
