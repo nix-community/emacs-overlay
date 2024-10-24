@@ -676,10 +676,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.1.1.0.20241022.135625";
+      version = "1.2.1.0.20241023.143947";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.1.1.0.20241022.135625.tar";
-        sha256 = "0rhk08m7i4yhigd4rfjwj4in8an99y3p3srwghcr42wv38ax3ajj";
+        url = "https://elpa.gnu.org/devel/beframe-1.2.1.0.20241023.143947.tar";
+        sha256 = "1g5m8zlcrjixxhnyyg9lrp7jys31m1vm82b130fl3pjadqkqp1hr";
       };
       packageRequires = [ ];
       meta = {
@@ -4125,10 +4125,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.1.0.20241019.170236";
+      version = "0.8.1.0.20241023.144054";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.1.0.20241019.170236.tar";
-        sha256 = "1p3cb1bdc36vi6c3m6dpbmb2rpz71id76wr0hd5jn3i38c6zxi0m";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.1.0.20241023.144054.tar";
+        sha256 = "17y3wg340d4x9v5sl39rx15hndgdb3w4zjfbnky2pj1k3kq65q8m";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6809,10 +6809,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20241016.225809";
+      version = "0.11.1.0.20241023.194318";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20241016.225809.tar";
-        sha256 = "0jbg0mc3fxc1n1xjhfzv950nmrcapl65vlhd8cc1nyxvc1finkqh";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20241023.194318.tar";
+        sha256 = "1inmc3v4imi3sxcqn444778331adkv2xr6w8v98rgyrgx2yhavmh";
       };
       packageRequires = [ xref ];
       meta = {

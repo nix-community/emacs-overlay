@@ -655,10 +655,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.1.1";
+      version = "1.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/beframe-1.1.1.tar";
-        sha256 = "0xx2zvgjilivi6nnr2x9bwwcifinj66j6r07wxjawqkrsknyypas";
+        url = "https://elpa.gnu.org/packages/beframe-1.2.1.tar";
+        sha256 = "0a92n45dy5f0d69a2dxzqfy7wvi9d7mrfjqy2z52gr2f8nkl7qgf";
       };
       packageRequires = [ ];
       meta = {
