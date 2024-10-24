@@ -2068,10 +2068,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.5.0.20241009.160730";
+      version = "0.4.6.0.20241023.11347";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.5.0.20241009.160730.tar";
-        sha256 = "0kmmxhbmxi7l1ig01b2v36diidlz0192y8nxjr3znycx0qzdbn7x";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.6.0.20241023.11347.tar";
+        sha256 = "0a4c2mw3ary7y66i1j5w7n3fn7q79555mwimir9nl08jg78cmjvx";
       };
       packageRequires = [
         compat
@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241018.183721";
+      version = "0.9.6.0.20241022.201525";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241018.183721.tar";
-        sha256 = "0av0gp6ygi0mfgsigixsskncchh64kfx208z3lgjqds8hvlmbhbw";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241022.201525.tar";
+        sha256 = "08fgc1mbj4hywghandklarwq8vdps8sfgd2gf1d5x3x782qdjs25";
       };
       packageRequires = [
         compat
@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20241022.21347";
+      version = "0.5pre0.20241023.121340";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241022.21347.tar";
-        sha256 = "0y5p7zdr9j66wz2r3n0agry4hn7nqaamlhq352cxbvgr27zpin6c";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241023.121340.tar";
+        sha256 = "1vx63yyiqxn2pz0ypx762xf6c1sdqcdwzbbfp198qanxsm13hm9p";
       };
       packageRequires = [
         compat
@@ -3167,10 +3167,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241020.193209";
+      version = "1.5.0.0.20241023.101010";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241020.193209.tar";
-        sha256 = "031n8nlapi9fin1m3vb1xf0zl4jk4cqmzdygspcicw4zvx6b7r5r";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241023.101010.tar";
+        sha256 = "0jzrfck60kfypm4zzb2kysnr6130dav9k0kqlwr8j550dlmahss0";
       };
       packageRequires = [ ];
       meta = {
