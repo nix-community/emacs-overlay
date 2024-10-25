@@ -1050,10 +1050,10 @@
     elpaBuild {
       pname = "editorconfig";
       ename = "editorconfig";
-      version = "0.11.0.0.20240813.80135";
+      version = "0.11.0.0.20241024.173936";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20240813.80135.tar";
-        sha256 = "1ak09a6ay4234x4x9b8k6mqayb99129yk0p45iv782xsyc9r05h8";
+        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20241024.173936.tar";
+        sha256 = "03av307ivrjgw1y3wr7lvxchyrzsnj61a772p108fpnafkfipryi";
       };
       packageRequires = [ ];
       meta = {
@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20241023.121340";
+      version = "0.5pre0.20241024.101451";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241023.121340.tar";
-        sha256 = "1vx63yyiqxn2pz0ypx762xf6c1sdqcdwzbbfp198qanxsm13hm9p";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241024.101451.tar";
+        sha256 = "0jij77n3qcmly0g3c8phl5bphmjjg0wpp4f4pfxa9afm9sns7a78";
       };
       packageRequires = [
         compat
@@ -3167,10 +3167,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241023.101010";
+      version = "1.5.0.0.20241024.162557";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241023.101010.tar";
-        sha256 = "0jzrfck60kfypm4zzb2kysnr6130dav9k0kqlwr8j550dlmahss0";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241024.162557.tar";
+        sha256 = "1bi2h1gspfbnn4gca34q8k7fgf38g27mbb7kprgh55gdrfnika17";
       };
       packageRequires = [ ];
       meta = {
@@ -3859,10 +3859,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1.0.20240912.223846";
+      version = "1.26.1.0.20241024.124149";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20240912.223846.tar";
-        sha256 = "09jppnrpl6y1y41g7bshy674c3p39l8r060zq57kr2f022z93mg8";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20241024.124149.tar";
+        sha256 = "0h5lzvsssk0nf3g408a7jg25crglsjkhcfp1ckjnzpgiwf59i6w8";
       };
       packageRequires = [ ];
       meta = {
