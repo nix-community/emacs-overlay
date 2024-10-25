@@ -1961,10 +1961,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241024.52743";
+      version = "3.1.0.0.20241024.133053";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241024.52743.tar";
-        sha256 = "13cgn9ndrsgnvsw4hx98gsv6idw54ldlirn91n9zmj0kziv99bwz";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241024.133053.tar";
+        sha256 = "0k38kjqzidjw8mfwzz0iasmryg67a028mcq9d8r2mlm2wgw48gfz";
       };
       packageRequires = [ ];
       meta = {
@@ -4438,10 +4438,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "1.10.0.20240926.181428";
+      version = "1.10.0.20241024.160237";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20240926.181428.tar";
-        sha256 = "1qn5lrc2843x1bihg38iba8dc4r24d257hwnyqjfpgpffak7ma4b";
+        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20241024.160237.tar";
+        sha256 = "1jj0vln24vhs47ffmp8i0miishn6plijppi224131184zafp6vzr";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5964,10 +5964,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241020.114104";
+      version = "9.8pre0.20241024.90440";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241020.114104.tar";
-        sha256 = "1vzhzpp632n7zzaqsdg801r18l3h2p7q0rxj1p151lswaghqcwhv";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241024.90440.tar";
+        sha256 = "0lzynbyd6cby8j4palc6rp16dw0sy0sd1pgwzlmsk8r2d8xkcss4";
       };
       packageRequires = [ ];
       meta = {
