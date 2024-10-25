@@ -2574,10 +2574,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.8.0.0.20241021.62227";
+      version = "1.8.0.0.20241025.72738";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20241021.62227.tar";
-        sha256 = "0pkmhvz2x47y44l1h4lxlicsp8bzf6franpm18pw4lny705dnwny";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20241025.72738.tar";
+        sha256 = "1fg78dq55g0i31m6a6bvkmzhjy3qa91wlxpcc3h5fminxznmdpin";
       };
       packageRequires = [ ];
       meta = {
@@ -5383,10 +5383,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.5.0.0.20241020.133815";
+      version = "4.5.0.0.20241025.70927";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.5.0.0.20241020.133815.tar";
-        sha256 = "025xqqj8gq2a0l2rzcbxwyg7y1g5rl995ggjv1byk1b91pmbl29d";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.5.0.0.20241025.70927.tar";
+        sha256 = "1c2svllzca9znkbnlqkgyy7pdwsg90bqgv8dcxzvzyl0wvdwzz5c";
       };
       packageRequires = [ ];
       meta = {
@@ -9111,10 +9111,10 @@
     elpaBuild {
       pname = "urgrep";
       ename = "urgrep";
-      version = "0.5.2snapshot0.20240822.215612";
+      version = "0.5.2snapshot0.20241024.210047";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/urgrep-0.5.2snapshot0.20240822.215612.tar";
-        sha256 = "01bkcz0zmzgf75x9zqm67i6bgz7rj5kazqqv0yjvnz4657cb5isr";
+        url = "https://elpa.gnu.org/devel/urgrep-0.5.2snapshot0.20241024.210047.tar";
+        sha256 = "0m12x3mrryc0czihavx8kc48df6404bi534dicnjia2v9xv574jv";
       };
       packageRequires = [
         compat
