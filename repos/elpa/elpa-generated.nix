@@ -2681,10 +2681,10 @@
     elpaBuild {
       pname = "elisa";
       ename = "elisa";
-      version = "1.0.4";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/elisa-1.0.4.tar";
-        sha256 = "07f9micfp3p8r58kdnqv0pa7i8nyqaz35llahwp2jl16c63pl9wn";
+        url = "https://elpa.gnu.org/packages/elisa-1.1.0.tar";
+        sha256 = "0sx2rllb6xjnr804z2mr94nzs9081jjwj34rlglhb398c42dvncy";
       };
       packageRequires = [
         async

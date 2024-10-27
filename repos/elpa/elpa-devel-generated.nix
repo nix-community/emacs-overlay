@@ -1827,10 +1827,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.16.0.0.20241021.161933";
+      version = "0.16.0.0.20241027.1850";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241021.161933.tar";
-        sha256 = "1v7z034ijvk8sz1q5qjcbr4yawk70j4qhi2i5z4cb56v0bv3v3vs";
+        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241027.1850.tar";
+        sha256 = "0kjnjj21ad0rarh6wp4x6m28gba946a41bxga442jhzrqc9sxm2r";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -1961,10 +1961,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241026.64338";
+      version = "3.1.0.0.20241027.73228";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241026.64338.tar";
-        sha256 = "0072spc4riz6b7ynhgjzimp38s51cdpjsn15r9kbfi3czy36dfr5";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241027.73228.tar";
+        sha256 = "111dc8q1xypp30lpx9ayh0h6af5ajwfrgza6lgr0276qg6hxn6g3";
       };
       packageRequires = [ ];
       meta = {
@@ -2707,10 +2707,10 @@
     elpaBuild {
       pname = "elisa";
       ename = "elisa";
-      version = "1.0.4.0.20240721.124701";
+      version = "1.1.0.0.20241026.204743";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/elisa-1.0.4.0.20240721.124701.tar";
-        sha256 = "0p903ljagaza0n2kw2hicvara903mwwjia4587wqwvydrfvhal7a";
+        url = "https://elpa.gnu.org/devel/elisa-1.1.0.0.20241026.204743.tar";
+        sha256 = "04932l5g9qk6w3nxnw70s7rqi1h97zvsxl8lizayan61a7h62i68";
       };
       packageRequires = [
         async
