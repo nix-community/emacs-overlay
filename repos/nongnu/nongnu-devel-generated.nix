@@ -594,10 +594,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.2.2.0.20241026.51700";
+      version = "0.2.2.0.20241027.45810";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.2.2.0.20241026.51700.tar";
-        sha256 = "1bbw253rjcy7d2zybnixzp77lm83j5ihgdarim907a32n33lcws4";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.2.2.0.20241027.45810.tar";
+        sha256 = "1y3qxzq2xjgfh1i2cxrbq35mcmxhbzi5f74zxdhzy72njpbnk7yx";
       };
       packageRequires = [ ];
       meta = {
