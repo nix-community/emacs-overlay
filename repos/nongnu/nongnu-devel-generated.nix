@@ -2628,10 +2628,10 @@
     elpaBuild {
       pname = "hyperdrive-org-transclusion";
       ename = "hyperdrive-org-transclusion";
-      version = "0.3.1.0.20241022.13301";
+      version = "0.3.1.0.20241027.212737";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-org-transclusion-0.3.1.0.20241022.13301.tar";
-        sha256 = "171vbbc878vn2r3ls7ivzm3bbd9mkpm5isjkdz0mc9nxnmihfgfy";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-org-transclusion-0.3.1.0.20241027.212737.tar";
+        sha256 = "1lwiqhjlanxkbv556m6f8xfp63b5xk66zhmg2zazw4sx0zy97s75";
       };
       packageRequires = [
         hyperdrive
@@ -4329,10 +4329,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.30snapshot0.20241024.14452";
+      version = "2.30snapshot0.20241027.210446";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241024.14452.tar";
-        sha256 = "0l8b8g902ndhji301l5c6zwzs3r9vxbvkmar3aj6h4k7i93nywad";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241027.210446.tar";
+        sha256 = "1j8zz4x0wbbsra7sc88ynxprgs4wjjbmhxry8r68lh41bxn07xcy";
       };
       packageRequires = [ macrostep ];
       meta = {
