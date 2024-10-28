@@ -5351,10 +5351,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.5.0";
+      version = "4.6.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/modus-themes-4.5.0.tar";
-        sha256 = "1f75rkl6bvqsc2s4fz67rk3h3fl9qw4vay0dj1agas4x0zskm89v";
+        url = "https://elpa.gnu.org/packages/modus-themes-4.6.0.tar";
+        sha256 = "19hg2gqpa19rnlj0pn7v8sd52q5mkinf39l7rb0a6xqbkfzqvsnd";
       };
       packageRequires = [ ];
       meta = {
