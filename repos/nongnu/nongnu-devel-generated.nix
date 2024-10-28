@@ -1050,10 +1050,10 @@
     elpaBuild {
       pname = "editorconfig";
       ename = "editorconfig";
-      version = "0.11.0.0.20241025.123238";
+      version = "0.11.0.0.20241027.181535";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20241025.123238.tar";
-        sha256 = "06lxx8knc4k4043r8s4nizx4pfkgxx6z6s4wps1sd1mivcavm2gh";
+        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20241027.181535.tar";
+        sha256 = "17vx1rf8dnyfkj1c7cv2zw9kvrc9cllm3wr4r0wik31xrkw7zpdj";
       };
       packageRequires = [ ];
       meta = {
@@ -3167,10 +3167,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241026.91422";
+      version = "1.5.0.0.20241027.164844";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241026.91422.tar";
-        sha256 = "0rl8br2lykw99blqq2z4vfs7p17v03gkq4kqxfk2ixx87f5nxcay";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241027.164844.tar";
+        sha256 = "1yi6l1sjmyglpz80kzz4i2fhhdrjdalmaggb60vchi2id0h0y1si";
       };
       packageRequires = [ ];
       meta = {
