@@ -733,20 +733,26 @@
   ) { };
   bluetooth = callPackage (
     {
+      compat,
       dash,
       elpaBuild,
       fetchurl,
       lib,
+      transient,
     }:
     elpaBuild {
       pname = "bluetooth";
       ename = "bluetooth";
-      version = "0.3.1";
+      version = "0.4.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/bluetooth-0.3.1.tar";
-        sha256 = "1yjqjm6cis6bq18li63hbhc4qzki3486xvdjkzs2gj4chc1yw1x4";
+        url = "https://elpa.gnu.org/packages/bluetooth-0.4.1.tar";
+        sha256 = "1chi9xjg5zcg6qycn2n442adhhmip1vpvg12szf1raq3zhg7lr01";
       };
-      packageRequires = [ dash ];
+      packageRequires = [
+        compat
+        dash
+        transient
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/bluetooth.html";
         license = lib.licenses.free;

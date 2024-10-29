@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241025.122852";
+      version = "14.0.7.0.20241028.120017";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241025.122852.tar";
-        sha256 = "1aw6hrbhlvqz4x0pqj4gv3y9divdld5i7077h8810x993217i69k";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241028.120017.tar";
+        sha256 = "07xj46ycnsnhzx7smyxzah28nggnzhqbq5x4f88nfvpaxn0y6y7h";
       };
       packageRequires = [ ];
       meta = {
@@ -754,20 +754,26 @@
   ) { };
   bluetooth = callPackage (
     {
+      compat,
       dash,
       elpaBuild,
       fetchurl,
       lib,
+      transient,
     }:
     elpaBuild {
       pname = "bluetooth";
       ename = "bluetooth";
-      version = "0.3.1.0.20241007.201319";
+      version = "0.4.1.0.20241028.70437";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bluetooth-0.3.1.0.20241007.201319.tar";
-        sha256 = "1zq3169ci5ysdxh3cvp8dnnzcg032swgh4akfymmi8swm7p1laz0";
+        url = "https://elpa.gnu.org/devel/bluetooth-0.4.1.0.20241028.70437.tar";
+        sha256 = "0j4znabnbzdj2kskvma63svhiq2l3nahd7saqk2v2jc1xrzllfvm";
       };
-      packageRequires = [ dash ];
+      packageRequires = [
+        compat
+        dash
+        transient
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/bluetooth.html";
         license = lib.licenses.free;
@@ -1961,10 +1967,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241027.73228";
+      version = "3.1.0.0.20241028.80746";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241027.73228.tar";
-        sha256 = "111dc8q1xypp30lpx9ayh0h6af5ajwfrgza6lgr0276qg6hxn6g3";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241028.80746.tar";
+        sha256 = "029gq527rbhlsydacn559m5lkfbjzjdk3z13nlcwqk66x351y3ni";
       };
       packageRequires = [ ];
       meta = {
@@ -2574,10 +2580,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.8.0.0.20241025.72738";
+      version = "1.8.0.0.20241028.85115";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20241025.72738.tar";
-        sha256 = "1fg78dq55g0i31m6a6bvkmzhjy3qa91wlxpcc3h5fminxznmdpin";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20241028.85115.tar";
+        sha256 = "015ch2x59j15cp084ai2l7k04zvqnyai3hf4mr0dllqi05blb0dy";
       };
       packageRequires = [ ];
       meta = {
@@ -4061,10 +4067,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20241025.222257";
+      version = "9.0.2pre0.20241028.15147";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241025.222257.tar";
-        sha256 = "1kxpqalv48cx8xqw0fdsay6rf621dh46j5y8pj9h6paf79w3w9qf";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241028.15147.tar";
+        sha256 = "1qsr11vrzv980xxash5g4jjwqg4f45myrkdm30vfrx8kpaf61pc2";
       };
       packageRequires = [ ];
       meta = {
@@ -5383,10 +5389,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.6.0.0.20241027.155511";
+      version = "4.6.0.0.20241028.84907";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20241027.155511.tar";
-        sha256 = "0h3j7lgrz1if9pn37qf1l22la315gvaai9di8scn5a19cdwymjqj";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20241028.84907.tar";
+        sha256 = "1imsk8p3l9rq0i0qj8ncbyb5m4s191k1928538nc5sjhlz7hmwfm";
       };
       packageRequires = [ ];
       meta = {
@@ -6809,10 +6815,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20241024.85007";
+      version = "0.11.1.0.20241028.35334";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20241024.85007.tar";
-        sha256 = "1frqz5chpgw8z3v9cp42bx2h4csvgi4l42h05apnmamm7d1s5v5b";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20241028.35334.tar";
+        sha256 = "0l0lrd8y9jn3wz1rvqamqwdjrz7sag87n7fhsrs5w82r1sd6mb26";
       };
       packageRequires = [ xref ];
       meta = {
