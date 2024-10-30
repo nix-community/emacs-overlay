@@ -1681,10 +1681,10 @@
     elpaBuild {
       pname = "focus";
       ename = "focus";
-      version = "1.0.1.0.20240528.90117";
+      version = "1.0.1.0.20241029.150652";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/focus-1.0.1.0.20240528.90117.tar";
-        sha256 = "0krfsxswwjzajxzr6kjxnkmzgi5nysnwa1yrhd205z1spb36i9i0";
+        url = "https://elpa.nongnu.org/nongnu-devel/focus-1.0.1.0.20241029.150652.tar";
+        sha256 = "08ryv68xfvlgbsyq80r9bycj4d9dbdz0v7ipdgjxnxfkp3di2s01";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241028.190521";
+      version = "0.9.6.0.20241029.143710";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241028.190521.tar";
-        sha256 = "149ps4cfvwdvvqnl4yibv922pcpgjhsc5f78gp1a3yzqs85pqqxc";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241029.143710.tar";
+        sha256 = "0zc8zkwrnjmflkgf6611vfkzp15wb71db5xkjaw50m9v7z8jggsp";
       };
       packageRequires = [
         compat
@@ -3167,10 +3167,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241029.194445";
+      version = "1.5.0.0.20241029.230159";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241029.194445.tar";
-        sha256 = "02qyqayjdr84crlcdnmcvnq1r7g0csvwadyzcbz913b0gr8mv0nm";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241029.230159.tar";
+        sha256 = "0mm1b0ghl2q5zw2l06dncsradfrjjdww6kmd7s7dsx9kknsq4lsf";
       };
       packageRequires = [ ];
       meta = {
@@ -3426,10 +3426,10 @@
     elpaBuild {
       pname = "org-contrib";
       ename = "org-contrib";
-      version = "0.6.0.20241029.190326";
+      version = "0.6.0.20241029.204012";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-contrib-0.6.0.20241029.190326.tar";
-        sha256 = "0wrjlcpl69ki640xwrv95pq4waxx3dl8ac4aiyva2cn59b9ldgi2";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-contrib-0.6.0.20241029.204012.tar";
+        sha256 = "12pfmv5ns5igdvc06glcc8nxqcj7lwjqc3s86720ys57y4py566w";
       };
       packageRequires = [ org ];
       meta = {
