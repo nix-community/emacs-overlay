@@ -3091,10 +3091,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.1.1.0.20241022.60426";
+      version = "1.1.2.0.20241029.92056";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.1.0.20241022.60426.tar";
-        sha256 = "0dxqd0xmbmjrw8fk3bp9q322iij4434in5nd75559gaianpp2axi";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.2.0.20241029.92056.tar";
+        sha256 = "07j1gyy8b7fpkivb2a12ld1liw53mmhhz71470n06amijxqmki5s";
       };
       packageRequires = [
         persist
@@ -3167,10 +3167,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241027.164844";
+      version = "1.5.0.0.20241029.194445";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241027.164844.tar";
-        sha256 = "1yi6l1sjmyglpz80kzz4i2fhhdrjdalmaggb60vchi2id0h0y1si";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241029.194445.tar";
+        sha256 = "02qyqayjdr84crlcdnmcvnq1r7g0csvwadyzcbz913b0gr8mv0nm";
       };
       packageRequires = [ ];
       meta = {
@@ -3426,10 +3426,10 @@
     elpaBuild {
       pname = "org-contrib";
       ename = "org-contrib";
-      version = "0.6.0.20241029.60809";
+      version = "0.6.0.20241029.190326";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-contrib-0.6.0.20241029.60809.tar";
-        sha256 = "14qb2v1a755s1f232gwcq1xanwhilwyr2s9sppmm748x5a262h2b";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-contrib-0.6.0.20241029.190326.tar";
+        sha256 = "0wrjlcpl69ki640xwrv95pq4waxx3dl8ac4aiyva2cn59b9ldgi2";
       };
       packageRequires = [ org ];
       meta = {
