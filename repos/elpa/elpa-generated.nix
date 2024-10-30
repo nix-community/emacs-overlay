@@ -441,10 +441,10 @@
     elpaBuild {
       pname = "auctex-cont-latexmk";
       ename = "auctex-cont-latexmk";
-      version = "0.2";
+      version = "0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/auctex-cont-latexmk-0.2.tar";
-        sha256 = "0ggyjxjqwpx3h1963i8w96m6kisc65ni9hksn2kjfjddnj1hx0hf";
+        url = "https://elpa.gnu.org/packages/auctex-cont-latexmk-0.3.tar";
+        sha256 = "1s1fp8cajwcsvrnvbhnlzfsphpflsv6fzmc624578sz2m0p1wg6n";
       };
       packageRequires = [ auctex ];
       meta = {
@@ -6694,10 +6694,10 @@
     elpaBuild {
       pname = "preview-auto";
       ename = "preview-auto";
-      version = "0.3";
+      version = "0.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/preview-auto-0.3.tar";
-        sha256 = "19jih2bn6ac82jx6w7jhv9hbz47c8argv24lfglvv6532fda218r";
+        url = "https://elpa.gnu.org/packages/preview-auto-0.4.tar";
+        sha256 = "0jsahj6ylrs4hlr57i0ibkj9bhc3jbg84k3pk8g5rg27xiwncczy";
       };
       packageRequires = [ auctex ];
       meta = {
