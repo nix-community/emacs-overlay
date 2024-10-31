@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241030.53601";
+      version = "14.0.7.0.20241030.123237";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241030.53601.tar";
-        sha256 = "06rs7xmnrlzij99s9f3yqsb5f856g146wsz37vx2bxkjxvw43z1g";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241030.123237.tar";
+        sha256 = "1kcngz5rlpfnlijih5xacg3dkxfh4p2i5qi7fv57da9sgxgmw4w3";
       };
       packageRequires = [ ];
       meta = {
@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20241022.104040";
+      version = "1.5.0.20241030.100544";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241022.104040.tar";
-        sha256 = "1zq3xvxb7p6i6h7nrsxi1nd5v2641iczi1jlgr0x6ybwp8ix9mfr";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241030.100544.tar";
+        sha256 = "1ag92j1s1vzdj1cl3llqpk1bdaln3hpi7mk5dk23ag4cicqbfn5p";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8711,7 +8711,6 @@
   ) { };
   tmr = callPackage (
     {
-      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -8719,12 +8718,12 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.0.0.0.20241030.71820";
+      version = "1.0.0.0.20241030.91813";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.0.0.0.20241030.71820.tar";
-        sha256 = "0x2861yj58xw42camp6i86ps3bk6slzcg4yn56g1shipm9ll35wd";
+        url = "https://elpa.gnu.org/devel/tmr-1.0.0.0.20241030.91813.tar";
+        sha256 = "1167sm45nh7107ni0i3i9nh0hs1z7dqvafksc9w5xqbndji6300g";
       };
-      packageRequires = [ compat ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/tmr.html";
         license = lib.licenses.free;
@@ -8808,10 +8807,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.1.3.0.20240929.75703";
+      version = "2.7.1.4.0.20241030.81545";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.7.1.3.0.20240929.75703.tar";
-        sha256 = "0bcxhgbjaysrvj3y4dhq0xzwna3nlm332yvswsy4qw7fwa4n9x6c";
+        url = "https://elpa.gnu.org/devel/tramp-2.7.1.4.0.20241030.81545.tar";
+        sha256 = "0vc61yyi42804nqckapyrn12v33lii0cy88m6icfd2isd7pn3a3d";
       };
       packageRequires = [ ];
       meta = {
