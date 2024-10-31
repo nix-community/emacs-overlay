@@ -4818,16 +4818,17 @@
       elpaBuild,
       fetchurl,
       lib,
+      transient,
     }:
     elpaBuild {
       pname = "tp";
       ename = "tp";
-      version = "0.5";
+      version = "0.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/tp-0.5.tar";
-        sha256 = "0g0kgy9db65ps4kh24ax42kjj8pmgjpzk9winxgz0vx7xk91w387";
+        url = "https://elpa.nongnu.org/nongnu/tp-0.6.tar";
+        sha256 = "1a4n6bhaxiiwy11ig09w7p1jxrsl5gfk7ikma9jzv2z54f2p97kz";
       };
-      packageRequires = [ ];
+      packageRequires = [ transient ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/tp.html";
         license = lib.licenses.free;
