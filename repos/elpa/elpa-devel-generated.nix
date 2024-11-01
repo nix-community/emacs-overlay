@@ -1967,10 +1967,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241028.80746";
+      version = "3.1.0.0.20241031.91128";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241028.80746.tar";
-        sha256 = "029gq527rbhlsydacn559m5lkfbjzjdk3z13nlcwqk66x351y3ni";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241031.91128.tar";
+        sha256 = "0yjyr118yy41dj8fzh32qdhl9410qjh23wcxax0y3glqs11hdqdg";
       };
       packageRequires = [ ];
       meta = {
