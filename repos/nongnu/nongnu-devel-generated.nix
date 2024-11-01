@@ -594,10 +594,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.2.2.0.20241031.64845";
+      version = "0.2.2.0.20241031.204533";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.2.2.0.20241031.64845.tar";
-        sha256 = "1kz31hvp56l9pp5jqp1znd6k9yvy58w7ccg1lvxgychwfyy2dwv5";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.2.2.0.20241031.204533.tar";
+        sha256 = "17v907v0gff9h500vpal8xgr9b2knnns1w3dm4s0zdxriyicfabf";
       };
       packageRequires = [ ];
       meta = {
@@ -2068,10 +2068,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.6.0.20241026.22607";
+      version = "0.4.6.0.20241031.50528";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.6.0.20241026.22607.tar";
-        sha256 = "0x93gjs3axssg4w72im9jbj4262al3f1l7hfmy6jwmhdjb3vcary";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.6.0.20241031.50528.tar";
+        sha256 = "1pcrdc9jz50qp2afl1bzpdq0385xa66f5vh8zdn2qjz1d71yx2s1";
       };
       packageRequires = [
         compat
@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241029.143710";
+      version = "0.9.6.0.20241031.193012";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241029.143710.tar";
-        sha256 = "0zc8zkwrnjmflkgf6611vfkzp15wb71db5xkjaw50m9v7z8jggsp";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241031.193012.tar";
+        sha256 = "15yb1lxgmaal1gvsmq6jsgkpqhcg2z5xyv0i1c19p0g8kl0df5x3";
       };
       packageRequires = [
         compat
@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20241031.104535";
+      version = "0.5pre0.20241031.222502";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241031.104535.tar";
-        sha256 = "0ca3wnvpvh140p7w664zzcwhmzlg66nhcilmm6n31vq01qrcjkn8";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241031.222502.tar";
+        sha256 = "05xaizinpsd1rp5swgcpdfppgdqbycffyfzvbifvpajb4p54qhpl";
       };
       packageRequires = [
         compat
@@ -4824,10 +4824,10 @@
     elpaBuild {
       pname = "treeview";
       ename = "treeview";
-      version = "1.3.0.0.20241025.224947";
+      version = "1.3.1.0.20241101.11503";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treeview-1.3.0.0.20241025.224947.tar";
-        sha256 = "00s7hvvqzr1r88n2jjhyi5mi62ipnmib6s361pbd03k5ikhh7r9n";
+        url = "https://elpa.nongnu.org/nongnu-devel/treeview-1.3.1.0.20241101.11503.tar";
+        sha256 = "0hf893bhnqg4ixfvs16h3rdiizkd14gsiq0cfg63cz077vp9bskh";
       };
       packageRequires = [ ];
       meta = {
