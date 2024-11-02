@@ -612,10 +612,10 @@
     elpaBuild {
       pname = "avy";
       ename = "avy";
-      version = "0.5.0.0.20230424.65712";
+      version = "0.5.0.0.20241101.125753";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/avy-0.5.0.0.20230424.65712.tar";
-        sha256 = "1z7d59fif97j12jx9vmk2p91sr01d53gp57gjvqdcdr2lqvdsaz8";
+        url = "https://elpa.gnu.org/devel/avy-0.5.0.0.20241101.125753.tar";
+        sha256 = "0rg6jgq1iyhw7vwf8kv3mzjpwzbq44n5csv3lgd3hj8f72y4jpvb";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -697,10 +697,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.3.0.20240530.63226";
+      version = "0.1.3.0.20241101.92331";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20240530.63226.tar";
-        sha256 = "0xmljjfx7a5b3jfqf7cbpb9102ci5vnkqqww1b328rr42v5sdmqm";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20241101.92331.tar";
+        sha256 = "0fnkzb4m0ank7892cjqjzxdjf1amjnpfbm3wh0g5j3xf44g8hk44";
       };
       packageRequires = [ ];
       meta = {
@@ -1232,10 +1232,10 @@
     elpaBuild {
       pname = "code-cells";
       ename = "code-cells";
-      version = "0.4.0.20241003.103649";
+      version = "0.4.0.20241101.161812";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/code-cells-0.4.0.20241003.103649.tar";
-        sha256 = "1lzr37w7i2bb2sqh48i92s6hbih1q0j311mavb8xsdsf04dz1yzb";
+        url = "https://elpa.gnu.org/devel/code-cells-0.4.0.20241101.161812.tar";
+        sha256 = "0y7kaib91ncqk2bbaqhlakj4kdnhchi5l6n3006d0wi23ay0yp19";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20241030.100544";
+      version = "1.5.0.20241101.192955";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241030.100544.tar";
-        sha256 = "1ag92j1s1vzdj1cl3llqpk1bdaln3hpi7mk5dk23ag4cicqbfn5p";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241101.192955.tar";
+        sha256 = "0vfn1vqdh2ywy903vcd0m1g03739pjyprnpp0gj4fai6f69245kb";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1642,10 +1642,10 @@
     elpaBuild {
       pname = "cpio-mode";
       ename = "cpio-mode";
-      version = "0.17.0.20211211.193556";
+      version = "0.17.0.20241101.133717";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cpio-mode-0.17.0.20211211.193556.tar";
-        sha256 = "0z9dkdz1s1b7gfd0fgfxjdvbjlwwqwa6q4jjf8kkvvkgwwvqv3yq";
+        url = "https://elpa.gnu.org/devel/cpio-mode-0.17.0.20241101.133717.tar";
+        sha256 = "0kf5h4x3yz69360vp3ikqxrg1nx4cxnlv01kgfpm5kcr94zdzyka";
       };
       packageRequires = [ ];
       meta = {
@@ -8569,10 +8569,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.2.0.20240926.233155";
+      version = "1.2.0.20241101.170122";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20240926.233155.tar";
-        sha256 = "0qflff5c96pipxnnjnb960qbh1dqr6bnjixqk86hnnddwv67p414";
+        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20241101.170122.tar";
+        sha256 = "0lyjsl1x6pylw3n1343y1qaaagzpc20im27b4f48dqlc63267822";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8633,10 +8633,10 @@
     elpaBuild {
       pname = "tex-parens";
       ename = "tex-parens";
-      version = "0.6.0.20241029.61540";
+      version = "0.6.0.20241101.151607";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tex-parens-0.6.0.20241029.61540.tar";
-        sha256 = "0a924r09ssdg587h1k30y3g8cmddvb81yvrdv7r65xjfl5vrvcyz";
+        url = "https://elpa.gnu.org/devel/tex-parens-0.6.0.20241101.151607.tar";
+        sha256 = "16b5s137jnjln3l3x97cxxhn4bsxhn6gs6xkbszp4vkx3cww8kzk";
       };
       packageRequires = [ ];
       meta = {
