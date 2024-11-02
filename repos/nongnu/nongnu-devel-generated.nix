@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20241031.222502";
+      version = "0.5pre0.20241101.165336";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241031.222502.tar";
-        sha256 = "05xaizinpsd1rp5swgcpdfppgdqbycffyfzvbifvpajb4p54qhpl";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241101.165336.tar";
+        sha256 = "1hwixdj9dx41lsd98di3mhl815wyfrv4v2ns4hb9isqgnc5l3lv0";
       };
       packageRequires = [
         compat
@@ -3922,10 +3922,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20241022.85831";
+      version = "2.9.0snapshot0.20241101.210159";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20241022.85831.tar";
-        sha256 = "05bbigpfzlk790fm1jcxky669vbkdcc3gcc10qxj31fw3942j1jf";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20241101.210159.tar";
+        sha256 = "1dk355mmsp5x3llhrsyx0gps1amdi3d96cla0my0vm9j07vd8h2z";
       };
       packageRequires = [ ];
       meta = {
@@ -5390,10 +5390,10 @@
     elpaBuild {
       pname = "zig-mode";
       ename = "zig-mode";
-      version = "0.0.8.0.20240507.233944";
+      version = "0.0.8.0.20241101.214610";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20240507.233944.tar";
-        sha256 = "1skx0if2ac40csgsrfvkd73ydsvr24ijkmqrpya65n67388gibfv";
+        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20241101.214610.tar";
+        sha256 = "1sc8s0d54lrlfb0dd2k0fjvpxs14k3jnys22vbf674cy3imwsy2h";
       };
       packageRequires = [ reformatter ];
       meta = {
