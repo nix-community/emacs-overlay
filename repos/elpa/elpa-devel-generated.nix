@@ -462,10 +462,10 @@
     elpaBuild {
       pname = "auctex-cont-latexmk";
       ename = "auctex-cont-latexmk";
-      version = "0.3.0.20241029.61743";
+      version = "0.3.0.20241102.3051";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-cont-latexmk-0.3.0.20241029.61743.tar";
-        sha256 = "0cfnyjm7cp721pdx7r9i9xjsrq4x4c4smcfdxafa9q8zlas1g5lf";
+        url = "https://elpa.gnu.org/devel/auctex-cont-latexmk-0.3.0.20241102.3051.tar";
+        sha256 = "0p054cf7hgn06chniz536ai8sj1j3n0mfssipmv101n5b7gw21p8";
       };
       packageRequires = [ auctex ];
       meta = {
@@ -2989,10 +2989,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1snapshot0.20241024.85007";
+      version = "5.6.1snapshot0.20241101.225612";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20241024.85007.tar";
-        sha256 = "0h3qm9xqk8fc6ihz6cj1v0raybclgg0ybiq08sc82aiazjglmh3c";
+        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20241101.225612.tar";
+        sha256 = "0bb8kkm4jzk7an5z98six4pp791ahcw3dan9g46nx1g0yl70gjah";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5970,10 +5970,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241026.173319";
+      version = "9.8pre0.20241101.171600";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241026.173319.tar";
-        sha256 = "0k5jcsnlm2793nzbwgrbzhh4arv1v8m53v2ysmhl9gpypfs41caq";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241101.171600.tar";
+        sha256 = "06mlkn38pvg7y0wc594zhycg12kdqfb6w51lh2vd0mcp6fjlgmq8";
       };
       packageRequires = [ ];
       meta = {
@@ -6131,10 +6131,10 @@
     elpaBuild {
       pname = "org-remark";
       ename = "org-remark";
-      version = "1.2.2.0.20241025.163652";
+      version = "1.2.2.0.20241101.223839";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-remark-1.2.2.0.20241025.163652.tar";
-        sha256 = "0ijzvaliby1va0gz6zcfx69kjjvf1xppajsnbg61vvq7br924lr4";
+        url = "https://elpa.gnu.org/devel/org-remark-1.2.2.0.20241101.223839.tar";
+        sha256 = "1vs3g79ywkjmfwz6v258l37ykagw1pz5kzwfrbxf2adg7l60palc";
       };
       packageRequires = [ org ];
       meta = {
@@ -9688,10 +9688,10 @@
     elpaBuild {
       pname = "which-key";
       ename = "which-key";
-      version = "3.6.1.0.20240928.75916";
+      version = "3.6.1.0.20241101.225612";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/which-key-3.6.1.0.20240928.75916.tar";
-        sha256 = "0z2vl3w5yhy77y96c7hxkncwi0pgxanb712hhdyjybmkg73v8qmn";
+        url = "https://elpa.gnu.org/devel/which-key-3.6.1.0.20241101.225612.tar";
+        sha256 = "1l7bggnlg48g61044lmjn9y072n3knzksgylfkc8narfw3vql4v0";
       };
       packageRequires = [ ];
       meta = {

@@ -5935,10 +5935,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.14";
+      version = "9.7.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.14.tar";
-        sha256 = "1rqc2wr80dk3rlzkrjngf0fgvl8s4vqxz5n1h9rpb8bnh1gv18fq";
+        url = "https://elpa.gnu.org/packages/org-9.7.15.tar";
+        sha256 = "0gc2y4piw07l4dvmc3gghz2ixwyginj68mr4sihxwbxmzgwl3ch3";
       };
       packageRequires = [ ];
       meta = {
