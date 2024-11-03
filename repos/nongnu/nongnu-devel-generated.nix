@@ -2439,10 +2439,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20240929.123002";
+      version = "4.0.0.20241103.44410";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20240929.123002.tar";
-        sha256 = "0sm1llh4v6d2ni7kj57la62bda3i5g9wg66lpwx7ayygivjf3rzj";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241103.44410.tar";
+        sha256 = "1sixydnff0c7f0pzqb1154hq10iai2lmkdisdqsmdvk07b2c009l";
       };
       packageRequires = [
         helm-core
@@ -2464,10 +2464,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20240929.123002";
+      version = "4.0.0.20241103.44410";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20240929.123002.tar";
-        sha256 = "0923w7hbfa5l09fwdjpr39xbadfq461aqlm12shhyhyfbygmhlkb";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241103.44410.tar";
+        sha256 = "0prayaff031mw1gn68rhvjza4rdpbsbzq0if99riy6sya6ki21f6";
       };
       packageRequires = [ async ];
       meta = {
@@ -3167,10 +3167,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241102.131500";
+      version = "1.5.0.0.20241103.163937";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241102.131500.tar";
-        sha256 = "1vn4sxm259gdga44njin67x594k9xvhvgirq6axr7a5p06r2y0pk";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241103.163937.tar";
+        sha256 = "11x4y4m0hl9s1a13zxhj4jcsiffz1cqzhs34kafvmqv6syhiglag";
       };
       packageRequires = [ ];
       meta = {
@@ -5390,10 +5390,10 @@
     elpaBuild {
       pname = "zig-mode";
       ename = "zig-mode";
-      version = "0.0.8.0.20241101.214610";
+      version = "0.0.8.0.20241103.131414";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20241101.214610.tar";
-        sha256 = "1sc8s0d54lrlfb0dd2k0fjvpxs14k3jnys22vbf674cy3imwsy2h";
+        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20241103.131414.tar";
+        sha256 = "1rxz34napnpgj1dw2z7rilnb68x9592v01zdysw460zbx7zhdmk2";
       };
       packageRequires = [ reformatter ];
       meta = {
