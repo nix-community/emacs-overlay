@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241030.123237";
+      version = "14.0.7.0.20241102.90632";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241030.123237.tar";
-        sha256 = "1kcngz5rlpfnlijih5xacg3dkxfh4p2i5qi7fv57da9sgxgmw4w3";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241102.90632.tar";
+        sha256 = "196wvkccwvdjd10918cba4n7sa7pkg3528435l20iiix7hxmy9l7";
       };
       packageRequires = [ ];
       meta = {
@@ -1413,10 +1413,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.0.0.0.0.20240910.150701";
+      version = "30.0.0.0.0.20241103.105632";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-30.0.0.0.0.20240910.150701.tar";
-        sha256 = "1mi1fk574fdi1xx6pj0i449ng9y8a8hpj46dxmjjl8kgzipi79pq";
+        url = "https://elpa.gnu.org/devel/compat-30.0.0.0.0.20241103.105632.tar";
+        sha256 = "1vjqcfvi7yc2w3cnw1ky5qaf8bmap2skdn97318d3rixd5ni4bpn";
       };
       packageRequires = [ seq ];
       meta = {
@@ -1967,10 +1967,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241103.71752";
+      version = "3.1.0.0.20241103.152811";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241103.71752.tar";
-        sha256 = "1skn5bldg2cbvrj160zl86jrsfblq4q5l013jiizjr39y9186nry";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241103.152811.tar";
+        sha256 = "17wcf4zwg20ffr3xl9xmw10n4wpmsy75kryys5wfraa2rb52r87m";
       };
       packageRequires = [ ];
       meta = {
@@ -7100,10 +7100,10 @@
     elpaBuild {
       pname = "rcirc-sqlite";
       ename = "rcirc-sqlite";
-      version = "1.0.3.0.20241102.165625";
+      version = "1.0.3.0.20241103.111527";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/rcirc-sqlite-1.0.3.0.20241102.165625.tar";
-        sha256 = "1r6yqdfzc5yrs4vlqnk8w8v1viicn74byryv96dwnmnnx642jqic";
+        url = "https://elpa.gnu.org/devel/rcirc-sqlite-1.0.3.0.20241103.111527.tar";
+        sha256 = "16h16k3wvcynzy1h906vpd9j9sx0campnszsqsa296z5g2mi2fsh";
       };
       packageRequires = [ ];
       meta = {
