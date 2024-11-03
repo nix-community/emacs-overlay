@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241031.193012";
+      version = "0.9.6.0.20241102.221326";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241031.193012.tar";
-        sha256 = "15yb1lxgmaal1gvsmq6jsgkpqhcg2z5xyv0i1c19p0g8kl0df5x3";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241102.221326.tar";
+        sha256 = "0dzc0396nb5vippmcv1545gga7i8div7z4c4i3awjfpxq23b5a5k";
       };
       packageRequires = [
         compat
@@ -3011,10 +3011,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.1.1.0.20241019.20540";
+      version = "4.1.2.0.20241102.130025";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.1.1.0.20241019.20540.tar";
-        sha256 = "05bgm8wn1n6wn2p6lq5na690rc3l34dg0z0lyr42fg3q02l5xhx2";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.1.2.0.20241102.130025.tar";
+        sha256 = "1y3fr2qj8a1h7hkrh47zshbmrcfxhw6i8wiqcrrba7ypnas53gcg";
       };
       packageRequires = [
         compat

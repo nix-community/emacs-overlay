@@ -3027,10 +3027,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.1.1";
+      version = "4.1.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-4.1.1.tar";
-        sha256 = "0rjxlrs5ik6mqnvs9mz2pjmz23np3ch0ybkzimd9ji70283fyif6";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.1.2.tar";
+        sha256 = "1jyivrk78fnp7kcrac9sm2ldbxg9c96qhnlz06wv1m7hbvd3fgfx";
       };
       packageRequires = [
         compat
