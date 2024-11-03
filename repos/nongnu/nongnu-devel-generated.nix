@@ -943,10 +943,10 @@
     elpaBuild {
       pname = "dracula-theme";
       ename = "dracula-theme";
-      version = "1.8.2.0.20240912.203213";
+      version = "1.8.2.0.20241102.130126";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.2.0.20240912.203213.tar";
-        sha256 = "1wkyn7wswrgda7y267mxb6bi0h5ywp7hh2d4cmz3yfglnq1pmp1g";
+        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.2.0.20241102.130126.tar";
+        sha256 = "01f3g7cy9snm4f2b2rx7zd82kwxzlf9g0wapwa83k3i60p23rf5s";
       };
       packageRequires = [ ];
       meta = {
@@ -3042,10 +3042,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.1.1.0.20241019.20540";
+      version = "4.1.2.0.20241102.130025";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.1.0.20241019.20540.tar";
-        sha256 = "18bri8hyf23vpisrr1qm0qdkjsmj2lay8lnmdr4mb1qnwn3mhrq7";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.2.0.20241102.130025.tar";
+        sha256 = "1cnpklpsvbsi1wsmfbp5m8379cbr6jdifxm07zj4hnvi8lyr49vn";
       };
       packageRequires = [
         compat
@@ -3091,10 +3091,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.1.4.0.20241031.74313";
+      version = "1.1.5.0.20241102.163459";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.4.0.20241031.74313.tar";
-        sha256 = "0142r28kg1r0z6k7rjb8ghicj3d1d808bgay1gfziyy8w7jd3l8n";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.5.0.20241102.163459.tar";
+        sha256 = "07wxa57qci5b4ac86qwg6fmqsbbnmwyfz0vqwspqy96qx4qmfpav";
       };
       packageRequires = [
         persist
@@ -3167,10 +3167,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241031.121311";
+      version = "1.5.0.0.20241102.131500";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241031.121311.tar";
-        sha256 = "1kdq869wabghmp5i79zs7pqipm5kqqc3qgwkzhri0fnf2k4mqhky";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241102.131500.tar";
+        sha256 = "1vn4sxm259gdga44njin67x594k9xvhvgirq6axr7a5p06r2y0pk";
       };
       packageRequires = [ ];
       meta = {
@@ -3922,10 +3922,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20241101.210159";
+      version = "2.9.0snapshot0.20241102.141046";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20241101.210159.tar";
-        sha256 = "1dk355mmsp5x3llhrsyx0gps1amdi3d96cla0my0vm9j07vd8h2z";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20241102.141046.tar";
+        sha256 = "1h3i767sbqsvwsydpkdjp1xs78h784ri68ja4jhj520k93701fiw";
       };
       packageRequires = [ ];
       meta = {
