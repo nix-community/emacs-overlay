@@ -8745,10 +8745,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.7";
+      version = "0.7.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.7.7.tar";
-        sha256 = "07c1n76nlchm5pp74hnx7bkwiibpal1ajdkmj559ja3099rgghkx";
+        url = "https://elpa.gnu.org/packages/transient-0.7.8.tar";
+        sha256 = "06hv3h6m7p894dxcxlf2ayhf5a80xz9clcf87qb2gcwfhsvi1mhs";
       };
       packageRequires = [
         compat

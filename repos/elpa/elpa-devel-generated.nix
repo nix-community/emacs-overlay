@@ -4895,10 +4895,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.17.4.0.20241022.232945";
+      version = "0.17.4.0.20241102.113057";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.17.4.0.20241022.232945.tar";
-        sha256 = "1nvidc1wr1l9c4sxv68v19hc6spqa3n3z3wfxsw3k278s7pqqb5v";
+        url = "https://elpa.gnu.org/devel/llm-0.17.4.0.20241102.113057.tar";
+        sha256 = "028pfy6yk1djy61arlz6vs21wmnhzi17hvapmy1hv3za8gk24pa6";
       };
       packageRequires = [
         plz
@@ -6131,10 +6131,10 @@
     elpaBuild {
       pname = "org-remark";
       ename = "org-remark";
-      version = "1.2.2.0.20241101.223839";
+      version = "1.2.2.0.20241102.192817";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-remark-1.2.2.0.20241101.223839.tar";
-        sha256 = "1vs3g79ywkjmfwz6v258l37ykagw1pz5kzwfrbxf2adg7l60palc";
+        url = "https://elpa.gnu.org/devel/org-remark-1.2.2.0.20241102.192817.tar";
+        sha256 = "0mac9diswm1pavhbf5hc7hw7p60ppajcbnyak9b8insp1spfbbbw";
       };
       packageRequires = [ org ];
       meta = {
@@ -6559,10 +6559,10 @@
     elpaBuild {
       pname = "plz-media-type";
       ename = "plz-media-type";
-      version = "0.2.2pre0.20240924.181631";
+      version = "0.2.2pre0.20241102.115439";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/plz-media-type-0.2.2pre0.20240924.181631.tar";
-        sha256 = "0pm4hh03bgrq1c7xmb4xw4x7ns967biq0nq7y0bqn42bzcjfxbh9";
+        url = "https://elpa.gnu.org/devel/plz-media-type-0.2.2pre0.20241102.115439.tar";
+        sha256 = "1wmm5rqhc13qj3784zxv748djrb1kzz3rph8072562bak2acy1qg";
       };
       packageRequires = [ plz ];
       meta = {
@@ -7100,10 +7100,10 @@
     elpaBuild {
       pname = "rcirc-sqlite";
       ename = "rcirc-sqlite";
-      version = "1.0.3.0.20240926.134441";
+      version = "1.0.3.0.20241102.165625";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/rcirc-sqlite-1.0.3.0.20240926.134441.tar";
-        sha256 = "1pz9gflnyz0p6bg0x87gs7byy34yhi1qf84f3mah79489wad1x84";
+        url = "https://elpa.gnu.org/devel/rcirc-sqlite-1.0.3.0.20241102.165625.tar";
+        sha256 = "1r6yqdfzc5yrs4vlqnk8w8v1viicn74byryv96dwnmnnx642jqic";
       };
       packageRequires = [ ];
       meta = {
@@ -8893,10 +8893,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.7.0.20241018.175029";
+      version = "0.7.8.0.20241102.122925";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.7.0.20241018.175029.tar";
-        sha256 = "1l4k3ayja61x82qx3ff8var86s73rwq6q22dg6bxkycy52w9a28s";
+        url = "https://elpa.gnu.org/devel/transient-0.7.8.0.20241102.122925.tar";
+        sha256 = "1lwgshzk9d7q4bk8bcx6npavbh5ymaa1wr99yhb3pr9k3qayfj13";
       };
       packageRequires = [
         compat
