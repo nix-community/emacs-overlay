@@ -1,10 +1,17 @@
 #!/usr/bin/env nix-shell
-#! nix-shell -i bash -p bash
+#! nix-shell -i bash -p bash jq
 set -euxo pipefail
 
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 cd $SCRIPTPATH
 
-eval $(nix-instantiate --eval --expr 'let nixpath = builtins.toString (import <nixpkgs> {}).path; in "${nixpath}/pkgs/applications/editors/emacs/elisp-packages/update-melpa"')
+# Hack updater env not to use broken Nix
+elisp_packages=$(nix-instantiate --eval --expr 'let nixpath = builtins.toString (import <nixpkgs> {}).path; in "${nixpath}/pkgs/applications/editors/emacs/elisp-packages"' | jq -r)
+update_script="$elisp_packages/update-melpa"
+update_env="$elisp_packages/updater-emacs.nix"
+sed s/'pkgs = .*'/'pkgs = import <nixpkgs> { };'/ "$update_env" | grep -vP ' *pkgs\.nix$' > shell.nix
+
+nix-shell shell.nix --run "bash $update_script"
+
 env NIXPKGS_ALLOW_BROKEN=1 nix-instantiate --show-trace ./test.nix -A melpaStablePackages
 env NIXPKGS_ALLOW_BROKEN=1 nix-instantiate --show-trace ./test.nix -A melpaPackages
