@@ -5390,10 +5390,10 @@
     elpaBuild {
       pname = "zig-mode";
       ename = "zig-mode";
-      version = "0.0.8.0.20241103.131414";
+      version = "0.0.8.0.20241104.162434";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20241103.131414.tar";
-        sha256 = "1rxz34napnpgj1dw2z7rilnb68x9592v01zdysw460zbx7zhdmk2";
+        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20241104.162434.tar";
+        sha256 = "01g51mvsg578hcnr8kbda8pbgy7yrk57p9djy3bn1rp4vwjh2f46";
       };
       packageRequires = [ reformatter ];
       meta = {
