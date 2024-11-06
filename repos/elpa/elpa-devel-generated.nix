@@ -1041,10 +1041,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.7.0.20241007.50103";
+      version = "1.7.0.20241105.85806";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-1.7.0.20241007.50103.tar";
-        sha256 = "0gqyr8d7yh0sqwrl62h6kb9j6zv578xsas0skhm51bgkv5v7px92";
+        url = "https://elpa.gnu.org/devel/cape-1.7.0.20241105.85806.tar";
+        sha256 = "0dzh8l2lzkd3fn0sianq2cq6ridksbg5r87ka28y8ysaf9v8i42q";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1317,10 +1317,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20240926.212727";
+      version = "1.0.2.0.20241105.170935";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20240926.212727.tar";
-        sha256 = "1qp8k5f0pa4c3mlk48dw3j9y67fhlfyfb123jbl213gdc6wlqjp9";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20241105.170935.tar";
+        sha256 = "018xyywgzc89q2msh2rkyqvw6gl725i0nf9sgxy4123f3a44mags";
       };
       packageRequires = [ ];
       meta = {
@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20241105.83924";
+      version = "1.5.0.20241105.191642";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241105.83924.tar";
-        sha256 = "1afc1wvkhfyk34zlsjf3z25z7fsyzsghjkj7sn11xb91dhdsf21n";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241105.191642.tar";
+        sha256 = "05n08szx4w8z9wpdsh5z7rqklxmp3xwwmqnvs9m7h8bv3n32si3l";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5188,6 +5188,27 @@
       };
     }
   ) { };
+  mathjax = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "mathjax";
+      ename = "mathjax";
+      version = "0.0.20241105.182944";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/mathjax-0.0.20241105.182944.tar";
+        sha256 = "12l5dhyw1v7f0fj51cbbxbdviqqf6g83wqhg8w0kgjjwnb18ijfb";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/mathjax.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   mct = callPackage (
     {
       elpaBuild,
@@ -6239,10 +6260,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.4.0.20241006.1334";
+      version = "1.4.0.20241105.201930";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.4.0.20241006.1334.tar";
-        sha256 = "0k6ncc3xlvz804m0ixqn2p18ggq6knx7xpvzcl99fcn85x0wqals";
+        url = "https://elpa.gnu.org/devel/osm-1.4.0.20241105.201930.tar";
+        sha256 = "1qx5lm3fidhrnbvgx5kwdxhrhvmszg9an6a7kd78gdrk16nkqhgw";
       };
       packageRequires = [ compat ];
       meta = {
