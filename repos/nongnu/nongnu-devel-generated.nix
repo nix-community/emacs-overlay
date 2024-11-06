@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241105.110828";
+      version = "0.9.6.0.20241105.195044";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241105.110828.tar";
-        sha256 = "0njnjpakx2q8pgkjbhhl0f9aw36v353x1pzi8pjamcivqdx2yqgp";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241105.195044.tar";
+        sha256 = "0ks3y2y6i7rw4500i0fvb6nnzb3mkwxma3hx26wmlrir68jbfibk";
       };
       packageRequires = [
         compat
@@ -2873,10 +2873,10 @@
     elpaBuild {
       pname = "julia-mode";
       ename = "julia-mode";
-      version = "1.0.0.0.20240926.152808";
+      version = "1.0.0.0.20241105.181608";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.0.0.0.20240926.152808.tar";
-        sha256 = "0hhpzarz8xa61mp6drm0j98832h8sdammkp55ap6bj35vlyppc13";
+        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.0.0.0.20241105.181608.tar";
+        sha256 = "1mc9slr2qh8z41cg2r8br5rqw3m4sskq51jr6bpgd9ils0xdr6in";
       };
       packageRequires = [ ];
       meta = {
@@ -3067,10 +3067,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.7alpha0.20240829.32430";
+      version = "2.7alpha0.20241106.65709";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20240829.32430.tar";
-        sha256 = "0npgvcni0h5nr253fsn0d1cm3fnq1s662ba7aa23vsvkyk1x54d9";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20241106.65709.tar";
+        sha256 = "025ragx36hxbj2byis6lcmsiks1jcn4bz8ibm0jvhbh58mhglm6c";
       };
       packageRequires = [ ];
       meta = {
