@@ -1317,10 +1317,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20241106.1255";
+      version = "1.0.2.0.20241106.200056";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20241106.1255.tar";
-        sha256 = "1r29sg70lyyyrsrhdbxn1sigq2aqck52n7isgyd6c50c7kwfkl8b";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20241106.200056.tar";
+        sha256 = "10pn52y3pgi2cbqi96sr3gghashsqvinc7lbylwg7mrhjgj0jdnv";
       };
       packageRequires = [ ];
       meta = {
@@ -1920,10 +1920,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.41.0.20241011.103524";
+      version = "0.41.0.20241106.150024";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.41.0.20241011.103524.tar";
-        sha256 = "1lgr0bcaqifxmf27mhlhbyxbfbz98ykdzfmjhp8hbhjab08wxisg";
+        url = "https://elpa.gnu.org/devel/debbugs-0.41.0.20241106.150024.tar";
+        sha256 = "145iicicmhg62myi3v6n4hj3imj4whmsa3fxp72jdkplpwwljm0k";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -2713,10 +2713,10 @@
     elpaBuild {
       pname = "elisa";
       ename = "elisa";
-      version = "1.1.0.0.20241026.204743";
+      version = "1.1.1.0.20241106.190550";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/elisa-1.1.0.0.20241026.204743.tar";
-        sha256 = "04932l5g9qk6w3nxnw70s7rqi1h97zvsxl8lizayan61a7h62i68";
+        url = "https://elpa.gnu.org/devel/elisa-1.1.1.0.20241106.190550.tar";
+        sha256 = "0nvc5yn0jzgg7c0fy3w89mw6xzlz2h033777y20jha6x69vyqwqg";
       };
       packageRequires = [
         async
@@ -3036,10 +3036,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "24.1.1.0.20240821.145259";
+      version = "24.1.1.0.20241106.142847";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20240821.145259.tar";
-        sha256 = "15qani3cvb5sb087k8rmsm55h3fx6dhhhjkv18c50060phwxr2q5";
+        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20241106.142847.tar";
+        sha256 = "15dwyrvnaj6w216v71rkx7sgz5ycpy9xciarffkr5fsyh9xldl9p";
       };
       packageRequires = [ ];
       meta = {
@@ -4131,10 +4131,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.1.0.20241025.124636";
+      version = "0.8.1.0.20241106.145109";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.1.0.20241025.124636.tar";
-        sha256 = "0j5hld5r96w8g976f0kv7ng6q5kd77g0fvgmxnlzwygp3vjg1kk3";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.1.0.20241106.145109.tar";
+        sha256 = "18pz0ln8k379g05w2ynxwc7zc605fqwrfs2dl1d92bl5d26gx4l7";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6558,10 +6558,10 @@
     elpaBuild {
       pname = "plz-event-source";
       ename = "plz-event-source";
-      version = "0.1.2pre0.20240924.181709";
+      version = "0.1.2pre0.20241106.190958";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/plz-event-source-0.1.2pre0.20240924.181709.tar";
-        sha256 = "0ydi2xs9sbbc3qz4dp0jpaipdbmzc1nw36wm0cgmqk71a3s5aw67";
+        url = "https://elpa.gnu.org/devel/plz-event-source-0.1.2pre0.20241106.190958.tar";
+        sha256 = "1kpwrc4c48dspyk1zm0b2wp7xmr7h1wm1j7ppqi0wrl350wjzh6f";
       };
       packageRequires = [ plz-media-type ];
       meta = {
@@ -6580,10 +6580,10 @@
     elpaBuild {
       pname = "plz-media-type";
       ename = "plz-media-type";
-      version = "0.2.3pre0.20241104.193258";
+      version = "0.2.3pre0.20241106.190902";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/plz-media-type-0.2.3pre0.20241104.193258.tar";
-        sha256 = "03zfdk3q5zzrcnbnnypd243kipv9d92lwsk64xiaissbg06m20k2";
+        url = "https://elpa.gnu.org/devel/plz-media-type-0.2.3pre0.20241106.190902.tar";
+        sha256 = "1yx1yqqqps6cj1bwr0dq9n850jr0vh6nph85rw4b70qy6g63k473";
       };
       packageRequires = [ plz ];
       meta = {
