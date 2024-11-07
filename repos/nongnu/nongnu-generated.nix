@@ -2085,10 +2085,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.6";
+      version = "0.4.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gnosis-0.4.6.tar";
-        sha256 = "0frb5hss8dk6pgmwasl9wsgcl4ya1lwsj9zsyh6vgmn802r7hkr7";
+        url = "https://elpa.nongnu.org/nongnu/gnosis-0.4.7.tar";
+        sha256 = "0lnppjy5n5c58nvayryx69yvqb702hjjpfl2r445py388jwn6smw";
       };
       packageRequires = [
         compat
@@ -5234,10 +5234,10 @@
     elpaBuild {
       pname = "ws-butler";
       ename = "ws-butler";
-      version = "0.6";
+      version = "0.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/ws-butler-0.6.tar";
-        sha256 = "1jzlwj2pqan3bj0mipvh8vzvmgynrxf1dqphix7g86ppjv1ivmfy";
+        url = "https://elpa.nongnu.org/nongnu/ws-butler-0.7.tar";
+        sha256 = "1rwkwcb4079czdsccldzq4kjrl25y53k4zy2n7026cd7hxxvc959";
       };
       packageRequires = [ ];
       meta = {
