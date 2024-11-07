@@ -4070,10 +4070,10 @@
     elpaBuild {
       pname = "reformatter";
       ename = "reformatter";
-      version = "0.8.0.20241007.102705";
+      version = "0.8.0.20241106.203153";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20241007.102705.tar";
-        sha256 = "1z3zdmq78vziv45g133y1bnyzaszx0v16vdmwdfpcakj7b11qqw7";
+        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20241106.203153.tar";
+        sha256 = "1gni5f8x8d6m063k9bgaqah80w2hnb12d7qwdw1ai0xg7jb92vp7";
       };
       packageRequires = [ ];
       meta = {
@@ -4518,10 +4518,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.17.0.20241017.103100";
+      version = "1.2.18.0.20241106.141029";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.17.0.20241017.103100.tar";
-        sha256 = "0ddgsmnc4jhgx3nnb2zhg55jqm74f30bb22fcvzwhc0wfm9s8x1r";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.18.0.20241106.141029.tar";
+        sha256 = "0933q33rzrkbay0xpfjicnki4ll5rf6sm255fhl3pm5nyzqyq98r";
       };
       packageRequires = [ ];
       meta = {
