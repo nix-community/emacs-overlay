@@ -4540,10 +4540,10 @@
     elpaBuild {
       pname = "sweeprolog";
       ename = "sweeprolog";
-      version = "0.27.6.0.20241014.185421";
+      version = "0.27.6.0.20241107.191437";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20241014.185421.tar";
-        sha256 = "1yhq69rzzc19jjrrk4acyc85lhk11824ww3rdgbsc00kbkz3qvd4";
+        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20241107.191437.tar";
+        sha256 = "0y543svzd7sqqb2izlflvmv0mdyfwwzjgli107ra89w5jl6jxawh";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5063,10 +5063,10 @@
     elpaBuild {
       pname = "webpaste";
       ename = "webpaste";
-      version = "3.2.2.0.20241002.53654";
+      version = "3.2.2.0.20241107.103741";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/webpaste-3.2.2.0.20241002.53654.tar";
-        sha256 = "0y63yrid0cxszfsm99pj6nig2siq85flma5l12fiydkpa6xh3ybj";
+        url = "https://elpa.nongnu.org/nongnu-devel/webpaste-3.2.2.0.20241107.103741.tar";
+        sha256 = "1ma2abqsr7mczk30mrqyaa19jv6qvbr8k0smklwhksbxr3p5lnxi";
       };
       packageRequires = [
         cl-lib
