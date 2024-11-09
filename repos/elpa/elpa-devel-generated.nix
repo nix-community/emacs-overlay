@@ -4131,10 +4131,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.2.0.20241107.71825";
+      version = "0.8.2.0.20241108.212854";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.2.0.20241107.71825.tar";
-        sha256 = "0696hirhqfk3mzy9sjhb4z4ixxf38djm0b4241lyjlrxi91zjxpz";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.2.0.20241108.212854.tar";
+        sha256 = "144lnzkli5ip49y6v6cw6h1vw005vwzpgh20054lbnxfz01q0vxj";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4895,10 +4895,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.17.4.0.20241105.12427";
+      version = "0.17.4.0.20241109.3239";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.17.4.0.20241105.12427.tar";
-        sha256 = "0qa99gg5cayjygx23mgkvg4yfa7rvy27vjx3ahj52bzjhw1cb9qm";
+        url = "https://elpa.gnu.org/devel/llm-0.17.4.0.20241109.3239.tar";
+        sha256 = "0sjhjgpj2yqb84af2n4zg63x324366ag61amg7vg21a5jcyyqva5";
       };
       packageRequires = [
         plz
@@ -6792,10 +6792,10 @@
     elpaBuild {
       pname = "preview-auto";
       ename = "preview-auto";
-      version = "0.4.0.20241104.92709";
+      version = "0.4.0.20241109.62806";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/preview-auto-0.4.0.20241104.92709.tar";
-        sha256 = "1w7dqj44gp52ifc8m920fhywpkr2iiwqz7iiprkcgfly0g3znz24";
+        url = "https://elpa.gnu.org/devel/preview-auto-0.4.0.20241109.62806.tar";
+        sha256 = "0vcrwi3pjvp46k1c52l4q774fkq93hn3dbbvrhaz160r6d9b477b";
       };
       packageRequires = [ auctex ];
       meta = {
@@ -8128,10 +8128,10 @@
     elpaBuild {
       pname = "sql-indent";
       ename = "sql-indent";
-      version = "1.7.0.20240323.40057";
+      version = "1.7.0.20241109.2223";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/sql-indent-1.7.0.20240323.40057.tar";
-        sha256 = "0zrsglgw2zjxn9810r022kanvfj0zrhvr696yxlnvd05f9hv9bpp";
+        url = "https://elpa.gnu.org/devel/sql-indent-1.7.0.20241109.2223.tar";
+        sha256 = "0hrpal1di201x62hq2xhck0xhv2vnn972j6nb2mca9lxyvz6h625";
       };
       packageRequires = [ cl-lib ];
       meta = {
