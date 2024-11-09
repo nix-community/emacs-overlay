@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241106.193103";
+      version = "0.9.6.0.20241108.80917";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241106.193103.tar";
-        sha256 = "1fynhi0611rb9y8lqzac6mghh3mndzyfy5wkfy73scar5h6yzpjm";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241108.80917.tar";
+        sha256 = "069vkcp1d88z4d6h0dymjifm1qs3iyn3zzdapgxrh133ckpl3n0i";
       };
       packageRequires = [
         compat
@@ -2416,10 +2416,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20240925.24042";
+      version = "1.0.20241108.150811";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20240925.24042.tar";
-        sha256 = "1kkfg9b0cfa2ygxkp5da98sc0w2b8q2q99rcfdqm00i8l6lj5wm9";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241108.150811.tar";
+        sha256 = "1ycbcwhj9j77jgpb3ag7hy8474qdj4rzzg7z5z79f0fqvlnv94m7";
       };
       packageRequires = [ ];
       meta = {
@@ -3167,10 +3167,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241107.84202";
+      version = "1.5.0.0.20241108.125042";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241107.84202.tar";
-        sha256 = "1xyx1nzz14b4jrx0jp0znlh9l76qdai5298wvdw345yzv3i3k0rv";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241108.125042.tar";
+        sha256 = "1nyafwfqqmkhgwr45c1qqzvbiwpksc4sfc598n5driapv5aqnkbk";
       };
       packageRequires = [ ];
       meta = {
