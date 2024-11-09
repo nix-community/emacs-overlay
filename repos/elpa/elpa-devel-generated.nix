@@ -4152,10 +4152,10 @@
     elpaBuild {
       pname = "inspector";
       ename = "inspector";
-      version = "0.38.0.20240911.94847";
+      version = "0.38.0.20241108.155318";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/inspector-0.38.0.20240911.94847.tar";
-        sha256 = "1w7zaxf77f7r0bdwqa276vqnhql1jsxl3y13gc13ikibhxb5jf2w";
+        url = "https://elpa.gnu.org/devel/inspector-0.38.0.20241108.155318.tar";
+        sha256 = "1x0cgn7w1gdm60hg7a2ym82hvf60l594v7k4mrln87m1yk4wqgak";
       };
       packageRequires = [ ];
       meta = {
@@ -6970,10 +6970,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20241024.85007";
+      version = "0.28.0.20241108.132112";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20241024.85007.tar";
-        sha256 = "1shrwns82bl6fbdyk9kflnzl1mwd1mm1zkg7fhbb9ml4di2xivmi";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20241108.132112.tar";
+        sha256 = "0hypjgcyp7id5hh3c4qvdxzfz276pwaa5zpd7sfr57lb32y6ylbi";
       };
       packageRequires = [
         compat
@@ -7121,10 +7121,10 @@
     elpaBuild {
       pname = "rcirc-sqlite";
       ename = "rcirc-sqlite";
-      version = "1.0.3.0.20241103.111527";
+      version = "1.0.4.0.20241108.161537";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/rcirc-sqlite-1.0.3.0.20241103.111527.tar";
-        sha256 = "16h16k3wvcynzy1h906vpd9j9sx0campnszsqsa296z5g2mi2fsh";
+        url = "https://elpa.gnu.org/devel/rcirc-sqlite-1.0.4.0.20241108.161537.tar";
+        sha256 = "0x5pngsnmny2ppg3cgdp5g3nmds6ys3zvamaj8wr6n1qw6k5b4z1";
       };
       packageRequires = [ ];
       meta = {
