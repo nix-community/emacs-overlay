@@ -4865,16 +4865,22 @@
       fetchurl,
       lib,
       plz,
+      plz-event-source,
+      plz-media-type,
     }:
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.17.4";
+      version = "0.18.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/llm-0.17.4.tar";
-        sha256 = "01a4vnbffrh53q1j2if63a05j4859rzrrf7p3fisfbfj1cr2ywvw";
+        url = "https://elpa.gnu.org/packages/llm-0.18.0.tar";
+        sha256 = "1gvr7axzqrkibxwcirpdlwafbl8ibv69qrfw5wzr719gkjvc3ffw";
       };
-      packageRequires = [ plz ];
+      packageRequires = [
+        plz
+        plz-event-source
+        plz-media-type
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/llm.html";
         license = lib.licenses.free;

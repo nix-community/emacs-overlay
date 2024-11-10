@@ -1413,10 +1413,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.0.0.0.0.20241103.105632";
+      version = "30.0.0.0.0.20241110.84905";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-30.0.0.0.0.20241103.105632.tar";
-        sha256 = "1vjqcfvi7yc2w3cnw1ky5qaf8bmap2skdn97318d3rixd5ni4bpn";
+        url = "https://elpa.gnu.org/devel/compat-30.0.0.0.0.20241110.84905.tar";
+        sha256 = "1yd5csw15718k2dcm4id3hz9s9nnx0563nw4v5qjfw68q1hs2fca";
       };
       packageRequires = [ seq ];
       meta = {
@@ -1967,10 +1967,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241107.84441";
+      version = "3.1.0.0.20241110.55801";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241107.84441.tar";
-        sha256 = "1jkldx1z157jcdxr5109rkphq4ili6b55k3lmxmcqhflmgwglgzq";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241110.55801.tar";
+        sha256 = "0n91ykgymzbvp269d27dafmypv050iwf4bdsgr18v2kavy895yvy";
       };
       packageRequires = [ ];
       meta = {
@@ -4895,10 +4895,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.17.4.0.20241109.95059";
+      version = "0.18.0.0.20241110.948";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.17.4.0.20241109.95059.tar";
-        sha256 = "0wmlhm7hzywg1kg80k20vymhk4kbcsqr5yqjcw998hs153qy6r1z";
+        url = "https://elpa.gnu.org/devel/llm-0.18.0.0.20241110.948.tar";
+        sha256 = "0ski9dqvjmbz0hc0da7v4j7sdxfrgnz9ivpcwy79lfr9i93hbrn5";
       };
       packageRequires = [
         plz
