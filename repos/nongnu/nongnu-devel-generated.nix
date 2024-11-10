@@ -710,10 +710,10 @@
     elpaBuild {
       pname = "csv2ledger";
       ename = "csv2ledger";
-      version = "1.5.4.0.20240605.63224";
+      version = "1.5.4.0.20241109.230511";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/csv2ledger-1.5.4.0.20240605.63224.tar";
-        sha256 = "0vh626mic3nd4ci7hc1ci8rmfh3k6frh8azgkj4784n3nhgr18h8";
+        url = "https://elpa.nongnu.org/nongnu-devel/csv2ledger-1.5.4.0.20241109.230511.tar";
+        sha256 = "1ank47lk4qgmbgr7qb9fgkramc7qngs93rq0rnlvkdh2fm198ywj";
       };
       packageRequires = [ csv-mode ];
       meta = {
@@ -3167,10 +3167,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241108.125042";
+      version = "1.5.0.0.20241109.234617";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241108.125042.tar";
-        sha256 = "1nyafwfqqmkhgwr45c1qqzvbiwpksc4sfc598n5driapv5aqnkbk";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241109.234617.tar";
+        sha256 = "12mxd5vy96wxzw9zvwqf0w6wi0iwckysrfgq63yzh0l2ik0m1w54";
       };
       packageRequires = [ ];
       meta = {
@@ -4888,10 +4888,10 @@
     elpaBuild {
       pname = "ujelly-theme";
       ename = "ujelly-theme";
-      version = "1.3.1.0.20241109.24507";
+      version = "1.3.2.0.20241109.172246";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/ujelly-theme-1.3.1.0.20241109.24507.tar";
-        sha256 = "1jhwxb85jh04rgh0aracj3j3fndmpvy2sv2ksk1maf49clh05szs";
+        url = "https://elpa.nongnu.org/nongnu-devel/ujelly-theme-1.3.2.0.20241109.172246.tar";
+        sha256 = "0d2kqn9fhsjnh3s3gf1d72mgwfyw7s4m25rpkivwwx4c7kdhrjdh";
       };
       packageRequires = [ ];
       meta = {
@@ -4993,10 +4993,10 @@
     elpaBuild {
       pname = "visual-fill-column";
       ename = "visual-fill-column";
-      version = "2.6.3.0.20241107.83102";
+      version = "2.6.3.0.20241109.231059";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/visual-fill-column-2.6.3.0.20241107.83102.tar";
-        sha256 = "1nk9agj61qh3pr0m1583nkipcclhf0k5wffyz9lzbdvybvi6cfz3";
+        url = "https://elpa.nongnu.org/nongnu-devel/visual-fill-column-2.6.3.0.20241109.231059.tar";
+        sha256 = "1k6ih7fw0xmbm6m249cdinyx8g5k3gpdglla8242w64bqrxxcpr8";
       };
       packageRequires = [ ];
       meta = {

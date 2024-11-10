@@ -4908,10 +4908,10 @@
     elpaBuild {
       pname = "ujelly-theme";
       ename = "ujelly-theme";
-      version = "1.3.1";
+      version = "1.3.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/ujelly-theme-1.3.1.tar";
-        sha256 = "0gp6lhfb2r57vggd231rnfxwkm0fzqs4cd8cry0nfzha8xmifv91";
+        url = "https://elpa.nongnu.org/nongnu/ujelly-theme-1.3.2.tar";
+        sha256 = "0069znmsnlipz1ahzmhfq3dxf282k4drz6zx2bf5vbrbk82nvk0b";
       };
       packageRequires = [ ];
       meta = {
