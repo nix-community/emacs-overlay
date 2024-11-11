@@ -4888,10 +4888,10 @@
     elpaBuild {
       pname = "ujelly-theme";
       ename = "ujelly-theme";
-      version = "1.3.2.0.20241109.172246";
+      version = "1.3.6.0.20241111.2243";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/ujelly-theme-1.3.2.0.20241109.172246.tar";
-        sha256 = "0d2kqn9fhsjnh3s3gf1d72mgwfyw7s4m25rpkivwwx4c7kdhrjdh";
+        url = "https://elpa.nongnu.org/nongnu-devel/ujelly-theme-1.3.6.0.20241111.2243.tar";
+        sha256 = "16q5n2854x9km0kd4vfr0wskbkw66pd1rf1qy34v1yacq2phb77b";
       };
       packageRequires = [ ];
       meta = {
