@@ -1478,21 +1478,17 @@
       consult,
       elpaBuild,
       fetchurl,
-      haskell-mode,
       lib,
     }:
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.2.2";
+      version = "0.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-hoogle-0.2.2.tar";
-        sha256 = "07z98nnxcaaws18by4id6c45yxlfwb9fk3p0gzll4ngym29zkd8c";
+        url = "https://elpa.gnu.org/packages/consult-hoogle-0.3.0.tar";
+        sha256 = "0jpyncx1zc8kzmnr0wlq81qz0y3jgk421yw0picjj8yflj6905ix";
       };
-      packageRequires = [
-        consult
-        haskell-mode
-      ];
+      packageRequires = [ consult ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/consult-hoogle.html";
         license = lib.licenses.free;

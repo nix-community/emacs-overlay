@@ -1499,21 +1499,17 @@
       consult,
       elpaBuild,
       fetchurl,
-      haskell-mode,
       lib,
     }:
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.2.2.0.20240922.132051";
+      version = "0.3.0.0.20241110.114039";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-hoogle-0.2.2.0.20240922.132051.tar";
-        sha256 = "11x88j0j7lxfrf2lww4h9dw1m4sbxwz5d615cl8qsr2hsa46bv75";
+        url = "https://elpa.gnu.org/devel/consult-hoogle-0.3.0.0.20241110.114039.tar";
+        sha256 = "1ghirvjn26dhhh9ivdwc20z0ydd6k682mbs9l1i3xk1vha6fxni6";
       };
-      packageRequires = [
-        consult
-        haskell-mode
-      ];
+      packageRequires = [ consult ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/consult-hoogle.html";
         license = lib.licenses.free;
@@ -1833,10 +1829,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.16.0.0.20241107.220005";
+      version = "0.16.0.0.20241110.134736";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241107.220005.tar";
-        sha256 = "17v3llw0y7c7h0g9dw5gvb8n24xjy4f5cczxbf1mr0vph2q7nsq0";
+        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241110.134736.tar";
+        sha256 = "083a9gz4p9zxn9s9bw2l1y29lmg7nka4l3d07sskjsmszjjfinb5";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2900,10 +2896,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "20.1.0.20241016.82112";
+      version = "20.1.0.20241110.143620";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-20.1.0.20241016.82112.tar";
-        sha256 = "1zn3wwm95x0p57frd0rmg6550n6ibn09sqzcsj4vr2fcq724dknb";
+        url = "https://elpa.gnu.org/devel/emms-20.1.0.20241110.143620.tar";
+        sha256 = "0s3cmp5c7p7qymp9f6nmy8y4hcxclg18fgj589zqhkx86222ghw3";
       };
       packageRequires = [
         cl-lib
@@ -4895,10 +4891,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.18.0.0.20241110.948";
+      version = "0.18.0.0.20241110.104443";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.18.0.0.20241110.948.tar";
-        sha256 = "0ski9dqvjmbz0hc0da7v4j7sdxfrgnz9ivpcwy79lfr9i93hbrn5";
+        url = "https://elpa.gnu.org/devel/llm-0.18.0.0.20241110.104443.tar";
+        sha256 = "1j3q1l4xgcbdp26ih2ckpdpzwp856xm7fzxph4i7xqjfr3vfpq7c";
       };
       packageRequires = [
         plz
