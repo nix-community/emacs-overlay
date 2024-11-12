@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241111.93832";
+      version = "0.9.6.0.20241111.222459";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241111.93832.tar";
-        sha256 = "1plgan08hah6qg7g1sp6klxivq3rdalfdi0rnfyqayw0n1ndaz7i";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241111.222459.tar";
+        sha256 = "0s87mdn4mgq04fsi0ny1g3x0nqmapikcj37v5ibmb80s0x9k2s0x";
       };
       packageRequires = [
         compat
@@ -4154,10 +4154,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20240919.160702";
+      version = "1.0.6.0.20241112.43839";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20240919.160702.tar";
-        sha256 = "10ack1z2zpfsn2li5nl6l7rpsm43hivgikjdqz5zgiskmqdfy1m5";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20241112.43839.tar";
+        sha256 = "1jmby08vp18qr2cx3k6skw9mar7vb7wr5ph9q2g95wx8836g6mbp";
       };
       packageRequires = [ ];
       meta = {
