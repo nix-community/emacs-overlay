@@ -1569,10 +1569,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20241105.213155";
+      version = "1.5.0.20241112.83005";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241105.213155.tar";
-        sha256 = "0cyfwyxplc30j2wkcmjzr51ydvvczy70g4851bjllbhdcz96zpvl";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241112.83005.tar";
+        sha256 = "0za1wr3g329kwnzf5cn1zrdxlv02zp7jf4j76x44n5piz4gz6kw6";
       };
       packageRequires = [ compat ];
       meta = {
