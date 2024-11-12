@@ -19261,14 +19261,14 @@
   "repo": "minad/corfu",
   "unstable": {
    "version": [
-    20241105,
-    2131
+    20241112,
+    830
    ],
    "deps": [
     "compat"
    ],
-   "commit": "f6b5ec1069b6d0bfb8b8109b1667086aa55f84a5",
-   "sha256": "1874yhs3k7dh57wwpcrwzcw92na5s7xbp7i5hqzc29qbg5xkk2hv"
+   "commit": "3f468e9f355bb4e9a3e48d6323a51cc64eee3cc2",
+   "sha256": "0wgs4y2rwrwhkzmggryhqln5gsmkmpp3aaxzb4na4r22mw5mf1rs"
   },
   "stable": {
    "version": [
@@ -32275,8 +32275,7 @@
  },
  {
   "ename": "emacsql-mysql",
-  "commit": "9875de56d4c4f5e1d6f127a0b2e408e87a9dd932",
-  "sha256": "1bpi5iqfydcii7di990l5nskgxk0cqg6zg1yddadbdfdznsi37hm",
+  "error": "No recipe info",
   "fetcher": "github",
   "repo": "magit/emacsql",
   "unstable": {
@@ -32299,8 +32298,7 @@
  },
  {
   "ename": "emacsql-pg",
-  "commit": "9875de56d4c4f5e1d6f127a0b2e408e87a9dd932",
-  "sha256": "0pryfj9wi3kd6cbxnh8wwgyxhj17ihnic26a9a21rd769m2bsg5a",
+  "error": "No recipe info",
   "fetcher": "github",
   "repo": "magit/emacsql",
   "unstable": {
@@ -32323,8 +32321,7 @@
  },
  {
   "ename": "emacsql-psql",
-  "commit": "9875de56d4c4f5e1d6f127a0b2e408e87a9dd932",
-  "sha256": "1kgpmjc81y1851cwn3z2hfs4ia3hllh5b7h7iw5kzpb44kpicqpl",
+  "error": "No recipe info",
   "fetcher": "github",
   "repo": "magit/emacsql",
   "unstable": {
@@ -32347,8 +32344,7 @@
  },
  {
   "ename": "emacsql-sqlite",
-  "commit": "9875de56d4c4f5e1d6f127a0b2e408e87a9dd932",
-  "sha256": "1dxc8iyshlg5k4hn3alpg4wwfs138f0i65bdjj9rlwl6qinxq0ab",
+  "error": "No recipe info",
   "fetcher": "github",
   "repo": "magit/emacsql",
   "unstable": {
@@ -32371,8 +32367,7 @@
  },
  {
   "ename": "emacsql-sqlite-builtin",
-  "commit": "9875de56d4c4f5e1d6f127a0b2e408e87a9dd932",
-  "sha256": "0yyabz7ai276lhqyc9w7jac8rky96635p34jy9bssh3nq2l99b9b",
+  "error": "No recipe info",
   "fetcher": "github",
   "repo": "magit/emacsql",
   "unstable": {
@@ -32395,8 +32390,7 @@
  },
  {
   "ename": "emacsql-sqlite-module",
-  "commit": "9875de56d4c4f5e1d6f127a0b2e408e87a9dd932",
-  "sha256": "07flj471cxdbhx4z8qzqghgk0n4y72mnw947ighasg9042564vqs",
+  "error": "No recipe info",
   "fetcher": "github",
   "repo": "magit/emacsql",
   "unstable": {
@@ -52345,14 +52339,14 @@
   "unstable": {
    "version": [
     20241112,
-    618
+    624
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "6295362eab6913cf79cd9d7e6a8bb969cd20b5ce",
-   "sha256": "159b5vk6lgir0m4k9pzyp8lf1dk5dk2xf7lmdnm25vx9m1f134z1"
+   "commit": "4aa6b7ca79b1548c36e593d0d68d2dfa644fa958",
+   "sha256": "1p3mf0n8z3s7vl640mwi3bnzwk1z6jsc8pdc3wca5fknqvk67vs6"
   },
   "stable": {
    "version": [
@@ -61389,11 +61383,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20241111,
-    609
+    20241112,
+    1433
    ],
-   "commit": "9ebfcfe2e35e87c8df3c072c6b00ec4d63a5c47c",
-   "sha256": "13rgyyniikavddyfip5ijwifi86x4x0q3j0ajj413c219fyyvhkq"
+   "commit": "dea72c9f4511e926726bedc3a84b895972af8270",
+   "sha256": "02jh4ddkl898sj6ficcdv41ijp4lnxf3saka3azzsr7idw30w4fb"
   },
   "stable": {
    "version": [
@@ -74193,8 +74187,8 @@
   "repo": "emacs-lsp/lsp-metals",
   "unstable": {
    "version": [
-    20240821,
-    1959
+    20241112,
+    1142
    ],
    "deps": [
     "dap-mode",
@@ -74203,12 +74197,11 @@
     "ht",
     "lsp-mode",
     "lsp-treemacs",
-    "posframe",
     "scala-mode",
     "treemacs"
    ],
-   "commit": "0dc938be1190d147e7013e3dce08ac8bff5d1662",
-   "sha256": "06fbmw01ax5rybkhxya5fs6ndjx3p7zn6rjhxr0124dqhmq2jlzh"
+   "commit": "b5139c959336758a93d0e55458e6ca938d9fd16a",
+   "sha256": "1axbcmfnz176dfpd5nbx2f1nfad8pzl8ah9gddia4smad23cpvcm"
   },
   "stable": {
    "version": [
@@ -74238,8 +74231,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20241110,
-    712
+    20241112,
+    740
    ],
    "deps": [
     "dash",
@@ -74250,8 +74243,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "a49b38678cafe6c06859d5c56b6f1666a9d9fba9",
-   "sha256": "1v8j514ssakzk98sgkx49hxkwwb1h8wrv01pvb2m195rf4qpsyrd"
+   "commit": "e178115078a8ec70552118400b8110c46f0c0eea",
+   "sha256": "16nx3ksfibap9mnpd1nrd83hi1nc0jkh1asgykg5gfa09mhjfddf"
   },
   "stable": {
    "version": [
@@ -103308,11 +103301,11 @@
   "repo": "smoeding/puppet-ts-mode",
   "unstable": {
    "version": [
-    20240626,
-    646
+    20241112,
+    1430
    ],
-   "commit": "9622188612f3be347bd92f5a195999b36f95f988",
-   "sha256": "0jrrmd77i5md8psxq313i8amw2f8hmmh518f1bsajm4wg46pfh3c"
+   "commit": "65c65a32a299c4679fb09e06deeecafe62675794",
+   "sha256": "0b9wm79jmcx7nvn6n8qir45v4b155l31wzl2m6sw3s8cla3piymj"
   }
  },
  {
@@ -113554,14 +113547,14 @@
   "repo": "slime/slime",
   "unstable": {
    "version": [
-    20241027,
-    2104
+    20241112,
+    1544
    ],
    "deps": [
     "macrostep"
    ],
-   "commit": "8633e663856bcbea438a7b33f615ab8ab42a2fd9",
-   "sha256": "1dapjq5fmk2cs7gjm4yqn8d0167hw1lmhd2wy7pnf05mk5fa84rh"
+   "commit": "bcbac8322244265037dd57d885485a0b6ff1f60d",
+   "sha256": "01llxa1nkq8lqycc0r55llhy5fr5mp2xk3cpf3bsajs5ywakxizq"
   },
   "stable": {
    "version": [
@@ -119572,8 +119565,8 @@
   "repo": "shuxiao9058/tabnine",
   "unstable": {
    "version": [
-    20240629,
-    1347
+    20241112,
+    1549
    ],
    "deps": [
     "dash",
@@ -119582,8 +119575,8 @@
     "s",
     "transient"
    ],
-   "commit": "64b1556e5acd165112827e4219d29cb0f5d24c7b",
-   "sha256": "1r7n1ksjvxi8gpk7a5s4vblxm6hrsc9s6gmfgn37wykxfmdad8yb"
+   "commit": "59108b8669165c6209e848b28fe1a76936e0fe93",
+   "sha256": "1ca09w99pa19j7mq79m9n57ns97pc8abmwh9vrgx6awrnkjqxhjd"
   },
   "stable": {
    "version": [
@@ -128958,10 +128951,10 @@
    "version": [
     17,
     3,
-    13
+    20
    ],
-   "commit": "90502d9cd2b5bc9a13d2628e48fd66b78243e090",
-   "sha256": "0d4j97vywfqabc896w8d30niig19lg2q1bdd3kxyvz3b8027zn4g"
+   "commit": "0c83581d1e93d1d802c730a1d5e90cd1c740e1b2",
+   "sha256": "0lvixg4c5apwrpqljj11b3yrq8nklz4ky4njnh8y6h1j5bisx40p"
   }
  },
  {
@@ -131284,14 +131277,14 @@
   "repo": "jobbflykt/x509-mode",
   "unstable": {
    "version": [
-    20241111,
-    1812
+    20241112,
+    1238
    ],
    "deps": [
     "compat"
    ],
-   "commit": "c3874db7001bc2726b1548d05950671dd052ed24",
-   "sha256": "1s7gah72f1m2sfhifmb6bm377alqzaax9kpr5wyjgr01jns3f2z5"
+   "commit": "403197168a77b26ac9c1ce6b8aa57537731b3d11",
+   "sha256": "0f2q4vxg26sgpf4cw5310ll3hwxll2g6wskbl5rli73zsf320imh"
   }
  },
  {
