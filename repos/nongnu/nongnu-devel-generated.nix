@@ -1385,10 +1385,10 @@
     elpaBuild {
       pname = "evil-matchit";
       ename = "evil-matchit";
-      version = "3.0.4.0.20241107.84310";
+      version = "3.0.4.0.20241111.120111";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-matchit-3.0.4.0.20241107.84310.tar";
-        sha256 = "0wamq57z6594pykxf7mip046wzlhkn2nhipi9ganshzs6cy2l7hl";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-matchit-3.0.4.0.20241111.120111.tar";
+        sha256 = "1jv7rs102i00kwdkj1n3l0j9as0kbrylhkkn2rrgwv9b97lmlirs";
       };
       packageRequires = [ ];
       meta = {
@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241109.85928";
+      version = "0.9.6.0.20241111.93832";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241109.85928.tar";
-        sha256 = "03sy6069lbir10v1gqr30q0bm48njrf1kggq9jk5c0pdyxrjq3kv";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241111.93832.tar";
+        sha256 = "1plgan08hah6qg7g1sp6klxivq3rdalfdi0rnfyqayw0n1ndaz7i";
       };
       packageRequires = [
         compat
@@ -2373,10 +2373,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20241007.132004";
+      version = "17.5.0.20241111.151419";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20241007.132004.tar";
-        sha256 = "1dj72kjy3jjxbfxxhj27yspc7n0059p7bxrv66hrzb0iginip45f";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20241111.151419.tar";
+        sha256 = "1pshx7i45smkwg09w2am9q87iqawfds2nn48jczdyxh6bnk558zz";
       };
       packageRequires = [ ];
       meta = {
