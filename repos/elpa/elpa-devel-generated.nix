@@ -5193,10 +5193,10 @@
     elpaBuild {
       pname = "mathjax";
       ename = "mathjax";
-      version = "0.0.20241105.182944";
+      version = "0.0.20241111.94448";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mathjax-0.0.20241105.182944.tar";
-        sha256 = "12l5dhyw1v7f0fj51cbbxbdviqqf6g83wqhg8w0kgjjwnb18ijfb";
+        url = "https://elpa.gnu.org/devel/mathjax-0.0.20241111.94448.tar";
+        sha256 = "0lbx3diiyzgfv6kfjw0wn6bkxydcf32xlldgk43svmdsv1zyqjc9";
       };
       packageRequires = [ ];
       meta = {
@@ -8735,10 +8735,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.0.0.0.20241108.73028";
+      version = "1.0.0.0.20241111.101250";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.0.0.0.20241108.73028.tar";
-        sha256 = "1j54fy8q9j92pk0q20vhj7ni0hd36rfm97rnx09c4qbscmnj8wp2";
+        url = "https://elpa.gnu.org/devel/tmr-1.0.0.0.20241111.101250.tar";
+        sha256 = "19g5xz0vfxjrfghdl8h4566v6sdr8cf4svm5yx98jijdr5np2a6s";
       };
       packageRequires = [ ];
       meta = {
