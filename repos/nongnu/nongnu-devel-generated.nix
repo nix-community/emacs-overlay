@@ -3986,10 +3986,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20241103.192733";
+      version = "1.0.20241112.143851";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241103.192733.tar";
-        sha256 = "1cp16dyml3w564xz037apz62cf0n9x2d3r1vxwydnwmqnjc93rb7";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241112.143851.tar";
+        sha256 = "0lhl77z96xxpy0yhng8ryqnjb7nvwvhvm8jr9ddjgbnlxsgidmb9";
       };
       packageRequires = [ ];
       meta = {
@@ -4329,10 +4329,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.30snapshot0.20241027.210446";
+      version = "2.30snapshot0.20241112.154432";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241027.210446.tar";
-        sha256 = "1j8zz4x0wbbsra7sc88ynxprgs4wjjbmhxry8r68lh41bxn07xcy";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241112.154432.tar";
+        sha256 = "17xk0anm9d6sm71r946x320gh9r4dysp1mn9gd2k0k9y2awvbnjh";
       };
       packageRequires = [ macrostep ];
       meta = {
