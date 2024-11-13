@@ -3817,19 +3817,19 @@
   "repo": "radian-software/apheleia",
   "unstable": {
    "version": [
-    20241018,
-    35
+    20241113,
+    351
    ],
-   "commit": "429daf5f28859c265aaf8e0e27682785a3f506a2",
-   "sha256": "15pkixlqlgpn72rw5pq6l7wasdxzknnx6zjr2m0rs43s24qh6159"
+   "commit": "543f6d651d11322f26665f017f051fbcfc21ceb0",
+   "sha256": "0pw16nh2pbb33fkwk2wmr73x6z405w2acsjfli77j2j9vg4nxh52"
   },
   "stable": {
    "version": [
     4,
-    2
+    3
    ],
-   "commit": "3e347cff47eb0072b47c56f6188c4f440e477770",
-   "sha256": "1an8k1zgahsjscmdm5s4mp71afb1mf86s63vg3pc8kalj4yw9gbj"
+   "commit": "543f6d651d11322f26665f017f051fbcfc21ceb0",
+   "sha256": "0pw16nh2pbb33fkwk2wmr73x6z405w2acsjfli77j2j9vg4nxh52"
   }
  },
  {
@@ -12238,8 +12238,8 @@
  },
  {
   "ename": "chatgpt-shell",
-  "commit": "c7f36f62391f888e2485c096890739de0c71305a",
-  "sha256": "1sggzb13i70n81q7jr96hyq179p6g7b4yxh37wwfxwlvqrkik2y7",
+  "commit": "bd7bfd8814e2e81d4022984f6b2baf2b1d1d0225",
+  "sha256": "17x7c6fhm01shphd28k85bsr6ylkq882xzncps5lzp1f77qjwvhm",
   "fetcher": "github",
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
@@ -21642,20 +21642,20 @@
  },
  {
   "ename": "dall-e-shell",
-  "commit": "578e261826b0825cdcae0ab07bea4226bdef7fa3",
-  "sha256": "016x2fga6iq3llxp7yd7f4pc4w0gi0bxv9abhhznncsn008mgnj1",
+  "commit": "bd7bfd8814e2e81d4022984f6b2baf2b1d1d0225",
+  "sha256": "1ivbi9z7gld8dzh91gs3msfyw77dgqjfrd8clgr6kci3h4akyw9w",
   "fetcher": "github",
-  "repo": "xenodium/chatgpt-shell",
+  "repo": "xenodium/dall-e-shell",
   "unstable": {
    "version": [
     20241112,
-    1929
+    1928
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "0bd52d7efb3af92e00cfc8bd2e77f66e22f62ed3",
-   "sha256": "0llrzkxj6wrq656asyv6rx2yzbgp0xh93n2liv0szqi638c6k3bk"
+   "commit": "11d318a4ac37e6a5077ea4d66ddaa144f448cd14",
+   "sha256": "11rpgs5c50a8bbd9acqbgfh1jbnyrc745npg10h9bbibngz58fjy"
   },
   "stable": {
    "version": [
@@ -54428,15 +54428,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20241104,
-    43
+    20241112,
+    620
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "79c914247b2640c3053faf64815bb8f51247ea90",
-   "sha256": "0ranw1dj0wln6zbjm4iisw8d4hww42nsaax7k5ka1wj7lfk5k6aj"
+   "commit": "0e2aef09de299e72f7fd914191713989de760166",
+   "sha256": "167wg9mfaasxdkrzgzzcnqcd3raw8rkh5all8isvvrvfc751gk4k"
   },
   "stable": {
    "version": [
@@ -55317,14 +55317,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20241104,
-    43
+    20241109,
+    438
    ],
    "deps": [
     "async"
    ],
-   "commit": "79c914247b2640c3053faf64815bb8f51247ea90",
-   "sha256": "0ranw1dj0wln6zbjm4iisw8d4hww42nsaax7k5ka1wj7lfk5k6aj"
+   "commit": "dd059c1f7022391466ac339c2c64bad5a30c498c",
+   "sha256": "13lz4h5whb88infgnzvrz5sx0zgydm4b1lyx5i0xr7js1vpljml4"
   },
   "stable": {
    "version": [
@@ -85108,20 +85108,20 @@
  },
  {
   "ename": "ob-chatgpt-shell",
-  "commit": "deb0341c1559472ae28a2dbd72b3d83340232b8d",
-  "sha256": "1gy5zcznzaialvnxfdyia847i974n41hzwsrg0fcgj4s6abhcsw4",
+  "commit": "bd7bfd8814e2e81d4022984f6b2baf2b1d1d0225",
+  "sha256": "025qr0jwf9w3px7azdrjh625r7rjp1cj4ynjczpqyfm8m0xzfipi",
   "fetcher": "github",
-  "repo": "xenodium/chatgpt-shell",
+  "repo": "xenodium/ob-chatgpt-shell",
   "unstable": {
    "version": [
-    20241109,
-    931
+    20241112,
+    1848
    ],
    "deps": [
     "chatgpt-shell"
    ],
-   "commit": "f9ba963a77b90535876823b52f09cb8afb68a15b",
-   "sha256": "1fxf35fxgl727sc7a4d0l5j2dr9c6k2sbhkrpk3zlgcrragi48ax"
+   "commit": "a5ac132f8066a4029e72ba11267e6251de24c759",
+   "sha256": "195wxfwmksx05nacl03akimp32dcwm8jkw4biswhh6sv54fl9lhi"
   },
   "stable": {
    "version": [
@@ -85281,20 +85281,20 @@
  },
  {
   "ename": "ob-dall-e-shell",
-  "commit": "578e261826b0825cdcae0ab07bea4226bdef7fa3",
-  "sha256": "1ljqcg9qa3av6r4512f7sym641dymjv4fnymhw1sqz8bjgq0m775",
+  "commit": "bd7bfd8814e2e81d4022984f6b2baf2b1d1d0225",
+  "sha256": "1b2xbnwr01fax1qsknh1vcwlhhd5phwvgjd8014bnf370xzwb4fi",
   "fetcher": "github",
-  "repo": "xenodium/chatgpt-shell",
+  "repo": "xenodium/ob-dall-e-shell",
   "unstable": {
    "version": [
-    20241101,
-    2256
+    20241112,
+    2008
    ],
    "deps": [
     "dall-e-shell"
    ],
-   "commit": "6d1ab77ddf6819413b1656aa66ae938b500970ea",
-   "sha256": "0rgrs9x8647z9pjn1fr0m6bksf0gvlqjrsm0ryb0cjimjxicga4h"
+   "commit": "1ef7951bf47f63d2d0808c3f475f82eac8c9b219",
+   "sha256": "0188whx3yr0p8c6xzx5zmh1rxavan8a6z6ibmzfhsxgj8a1zid6f"
   },
   "stable": {
    "version": [
@@ -111660,17 +111660,17 @@
  },
  {
   "ename": "shell-maker",
-  "commit": "c7f36f62391f888e2485c096890739de0c71305a",
-  "sha256": "0a03brzbasnamry39nxybdh0r71igpkva8b0svsvw96j0dc4chbc",
+  "commit": "bd7bfd8814e2e81d4022984f6b2baf2b1d1d0225",
+  "sha256": "1c8zixkkn7xl7z89x006q15qhq3j4hzlbgqcrnbq4xy9w3vcwmj7",
   "fetcher": "github",
-  "repo": "xenodium/chatgpt-shell",
+  "repo": "xenodium/shell-maker",
   "unstable": {
    "version": [
     20241112,
-    1907
+    1906
    ],
-   "commit": "42d24de2e2e7e6badb0137ad642b98cfba8a6ccc",
-   "sha256": "075d7943zm7anrcp930p6facr6wyyh0wvxf9lsxivwwh8bidzh6l"
+   "commit": "a0452a1c832a7ca6ecfa3e5a34d695a25b2a22a4",
+   "sha256": "1555gppm9gs4yym879kqh790m4qlf0v2ms63rkbfsm0zhfb06pq3"
   },
   "stable": {
    "version": [
