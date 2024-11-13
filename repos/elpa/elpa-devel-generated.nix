@@ -4063,10 +4063,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20241111.10942";
+      version = "9.0.2pre0.20241112.143347";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241111.10942.tar";
-        sha256 = "0jqs9g2hqwdl0lalcyzprryq1b1h6gp73kp18cr0fn2i5phws0vq";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241112.143347.tar";
+        sha256 = "14bdhi87d11zrpb8z421sjpd2f0r4v3sdnb3xgqmvv96j9n9hn4j";
       };
       packageRequires = [ ];
       meta = {
@@ -5193,10 +5193,10 @@
     elpaBuild {
       pname = "mathjax";
       ename = "mathjax";
-      version = "0.0.20241111.94448";
+      version = "0.0.20241112.121629";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mathjax-0.0.20241111.94448.tar";
-        sha256 = "0lbx3diiyzgfv6kfjw0wn6bkxydcf32xlldgk43svmdsv1zyqjc9";
+        url = "https://elpa.gnu.org/devel/mathjax-0.0.20241112.121629.tar";
+        sha256 = "14h9a3ivih3f3xr0znlbhl7a45w66xpylq119msxv2lwfn6zgiww";
       };
       packageRequires = [ ];
       meta = {
