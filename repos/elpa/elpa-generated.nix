@@ -3840,10 +3840,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.8.1";
+      version = "1.8.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gtags-mode-1.8.1.tar";
-        sha256 = "1n4mc33hz12p0fljrs4big317148272vz2zn16n98sakpv7jk4b6";
+        url = "https://elpa.gnu.org/packages/gtags-mode-1.8.2.tar";
+        sha256 = "1lmaaqlklsifjzagi3miplr17vmzqjzglbkxccffj50mi6y5w4cs";
       };
       packageRequires = [ ];
       meta = {
@@ -5154,6 +5154,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/math-symbol-lists.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  mathjax = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "mathjax";
+      ename = "mathjax";
+      version = "0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/mathjax-0.1.tar";
+        sha256 = "16023kbzkc2v455bx7l4pfy3j7z1iba7rpv0ykzk2rz21i4jan7w";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/mathjax.html";
         license = lib.licenses.free;
       };
     }

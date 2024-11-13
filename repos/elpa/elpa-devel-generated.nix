@@ -3868,10 +3868,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.8.1.0.20240808.153728";
+      version = "1.8.2.0.20241113.2312";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gtags-mode-1.8.1.0.20240808.153728.tar";
-        sha256 = "1bfblsay8qsglhh4iqhv9wl8s445piwykyx4lz7cbn74wpn2prin";
+        url = "https://elpa.gnu.org/devel/gtags-mode-1.8.2.0.20241113.2312.tar";
+        sha256 = "0mxw27kn5f85rprk13171k56q2dq2gfmvgyhfxrbz3zj7ijvrfg1";
       };
       packageRequires = [ ];
       meta = {
@@ -5193,10 +5193,10 @@
     elpaBuild {
       pname = "mathjax";
       ename = "mathjax";
-      version = "0.0.20241112.121629";
+      version = "0.1.0.20241113.83941";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mathjax-0.0.20241112.121629.tar";
-        sha256 = "14h9a3ivih3f3xr0znlbhl7a45w66xpylq119msxv2lwfn6zgiww";
+        url = "https://elpa.gnu.org/devel/mathjax-0.1.0.20241113.83941.tar";
+        sha256 = "1n49nj70bpxpm72caffx0lmcnlfqdljy8sn8mzwhfiingrif2spb";
       };
       packageRequires = [ ];
       meta = {
@@ -5987,10 +5987,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241109.145322";
+      version = "9.8pre0.20241112.195428";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241109.145322.tar";
-        sha256 = "1787kb6ndwiwlnfkhkd53w11sa5j7rr2sqliizy8ch40n7g5ygh6";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241112.195428.tar";
+        sha256 = "0xwcsvv6c0a34ndvjcih6x4f81r8w17lcxky3h766zm1x4cs8s2l";
       };
       packageRequires = [ ];
       meta = {
