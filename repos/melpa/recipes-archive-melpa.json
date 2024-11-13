@@ -2167,11 +2167,11 @@
   "url": "https://bitbucket.org/agriggio/ahg",
   "unstable": {
    "version": [
-    20230904,
-    701
+    20241113,
+    748
    ],
-   "commit": "6a8dd876d767b50431db2c695a8c21d5df9944e2",
-   "sha256": "1jq411g0ryxkqw4wig6mlm0dpjzx87cw3x277bcj796s3nxl95ln"
+   "commit": "d57b91d52e5c2c501cb7112af53c6549397ea1b5",
+   "sha256": "1whzlwad6fgg88fby7fsbzqdipz6s6xhqlnjna9vlcckbdzhs23b"
   }
  },
  {
@@ -19096,8 +19096,8 @@
   "repo": "chep/copilot-chat.el",
   "unstable": {
    "version": [
-    20241106,
-    816
+    20241113,
+    752
    ],
    "deps": [
     "chatgpt-shell",
@@ -19105,8 +19105,8 @@
     "markdown-mode",
     "request"
    ],
-   "commit": "654e9fb644f1b479a3cb1c46d0f395bf61498233",
-   "sha256": "1757l7cj3qrwrki4lq00rmjvpsysvpscbx2qfswkmiylyqliaw47"
+   "commit": "05c3c64bc16955270cb98f37190edab918dfc284",
+   "sha256": "0k17pdkjfp4pvi8bk2l41dfzpslbqnd3yd47klgh7c49fsxn0a8a"
   },
   "stable": {
    "version": [
@@ -23413,14 +23413,15 @@
   "repo": "astoff/devdocs.el",
   "unstable": {
    "version": [
-    20241006,
-    51
+    20241113,
+    1341
    ],
    "deps": [
-    "compat"
+    "compat",
+    "mathjax"
    ],
-   "commit": "98518166efe18c2f2dd9a1c4c89430b83fdbbe3c",
-   "sha256": "0nm9ryq29hsgvmis2f51vwlhm5lw1571smmb2gq0qbm4zrd1h9pk"
+   "commit": "d2214d34cdeb4483a594dd6973fcd095cef4653f",
+   "sha256": "0qgc2wb5bmpqjm7r9127cby97ps2bfxx5cx3yqcm0crmlgrayw2p"
   }
  },
  {
@@ -67738,14 +67739,14 @@
   "repo": "tpapp/julia-repl",
   "unstable": {
    "version": [
-    20240408,
-    850
+    20241113,
+    1152
    ],
    "deps": [
     "s"
    ],
-   "commit": "801d0fc3d8f6f08f66a11515e6517739a0b312a1",
-   "sha256": "074m8hzg66j9xk44l5qh3fdzwbs5sn97nlwnr5b097431hxwk119"
+   "commit": "bb90cc1fceccc8dfd0e4b60d624271e4aca6b9b8",
+   "sha256": "066m7i5bilmm67l41rsr6p38rfqmqj85vy7wpm6dp0cq8kw2zihq"
   },
   "stable": {
    "version": [
@@ -74105,8 +74106,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20241112,
-    740
+    20241113,
+    743
    ],
    "deps": [
     "dash",
@@ -74117,8 +74118,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "e178115078a8ec70552118400b8110c46f0c0eea",
-   "sha256": "16nx3ksfibap9mnpd1nrd83hi1nc0jkh1asgykg5gfa09mhjfddf"
+   "commit": "c41769e32c8db9bb7357bf078def7255477798ac",
+   "sha256": "0dviabxxxzvnvn8k4a4pf3inryq8dvl120mzmw1rzihmgqb19vli"
   },
   "stable": {
    "version": [
