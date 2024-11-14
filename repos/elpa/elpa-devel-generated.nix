@@ -1413,10 +1413,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.0.0.0.0.20241110.84905";
+      version = "30.0.0.0.0.20241113.165030";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-30.0.0.0.0.20241110.84905.tar";
-        sha256 = "1yd5csw15718k2dcm4id3hz9s9nnx0563nw4v5qjfw68q1hs2fca";
+        url = "https://elpa.gnu.org/devel/compat-30.0.0.0.0.20241113.165030.tar";
+        sha256 = "1d4k8zl8fmlsxmhln7914lr224q3zdysnj0cw6wj3apl9x0wya39";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2024,16 +2024,20 @@
       elpaBuild,
       fetchurl,
       lib,
+      mathjax,
     }:
     elpaBuild {
       pname = "devdocs";
       ename = "devdocs";
-      version = "0.6.1.0.20241006.5137";
+      version = "0.6.1.0.20241113.134137";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/devdocs-0.6.1.0.20241006.5137.tar";
-        sha256 = "19xbq406mlj6nm7dfp38kisxabjdqr89nsvnaghjilpc59bjqnxj";
+        url = "https://elpa.gnu.org/devel/devdocs-0.6.1.0.20241113.134137.tar";
+        sha256 = "0p8p0bp9wyrl4xqnj60k2hxmqcg40angzhsc240cvlyfg965ixx1";
       };
-      packageRequires = [ compat ];
+      packageRequires = [
+        compat
+        mathjax
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/devdocs.html";
         license = lib.licenses.free;
