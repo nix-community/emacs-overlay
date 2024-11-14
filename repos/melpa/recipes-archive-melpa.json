@@ -7991,30 +7991,6 @@
   }
  },
  {
-  "ename": "bind-key",
-  "commit": "d39d33af6b6c9af9fe49bda319ea05c711a1b16e",
-  "sha256": "1qw2c27016d3yfg0w10is1v72y2jvzhq07ca4h6v17yi94ahj5xm",
-  "fetcher": "github",
-  "repo": "jwiegley/use-package",
-  "unstable": {
-   "version": [
-    20230203,
-    2004
-   ],
-   "commit": "77945e002f11440eae72d8730d3de218163d551e",
-   "sha256": "1irr8a8r28n8c0c2x5w1flgv1f3z5jy2i5r5dknddiqa93b3rm84"
-  },
-  "stable": {
-   "version": [
-    2,
-    4,
-    4
-   ],
-   "commit": "9090080b15486c3e337be254226efe7e5fde4c99",
-   "sha256": "03mqkv63ink2ysy86slac8ac7a5g22bi0pwvxyncfasm43q9d0sx"
-  }
- },
- {
   "ename": "bind-map",
   "commit": "f58800af5965a6e7c9314aa00e971196ea0d036e",
   "sha256": "1jzkp010b4vs1bdhccf5igmymfxab4vxs1pccpk9n5n5a4xaa358",
@@ -12244,14 +12220,14 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20241112,
-    1907
+    20241113,
+    2229
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "42d24de2e2e7e6badb0137ad642b98cfba8a6ccc",
-   "sha256": "075d7943zm7anrcp930p6facr6wyyh0wvxf9lsxivwwh8bidzh6l"
+   "commit": "fa383b47ed258c1d7b61d7399df02f74a0f8aa98",
+   "sha256": "0h937mj2mzcp63i5zv58dv4jqlfj9hg15v1iwygm8pi4i25xc90w"
   },
   "stable": {
    "version": [
@@ -61455,14 +61431,14 @@
   "repo": "zzkt/i-ching",
   "unstable": {
    "version": [
-    20240729,
-    1054
+    20241113,
+    1642
    ],
    "deps": [
     "request"
    ],
-   "commit": "0870cb1fa5bca0b7848e3f4e902e6d58445eab09",
-   "sha256": "19prq2kmzk33i2w4bargls7zad41rvmdflbw7f1gyz4lyh7spgzg"
+   "commit": "e4339cb64a97e0d04a4cb8e7183aeec4e4ae6a29",
+   "sha256": "08827zq4jni4bxlmjq24nbj6k2q07ks6mb47xfs2bp8hjqb0m07f"
   }
  },
  {
@@ -63684,11 +63660,11 @@
   "repo": "jamescherti/inhibit-mouse.el",
   "unstable": {
    "version": [
-    20241111,
-    1500
+    20241113,
+    1936
    ],
-   "commit": "93a7f268c853566c04671c899fd64353dd4c8150",
-   "sha256": "07pw3amwz0nwidgrblw0han99scv3hwqc6y8a964jn31whzhz5qv"
+   "commit": "ac22005ea6d057fefaaf0bc51bb1fd0720c730fe",
+   "sha256": "0csj7a6g0vwcdg5yphq4ddc9lfzcy4j5cddzjdgjk0iz0mpzwx9f"
   }
  },
  {
@@ -77159,11 +77135,11 @@
   "repo": "mathworks/Emacs-MATLAB-Mode",
   "unstable": {
    "version": [
-    20241111,
-    1826
+    20241113,
+    1829
    ],
-   "commit": "8c3d23b921cb027dda228e007332a820f6d2115a",
-   "sha256": "0nx9xdhfbhy62b13db0zhm9r21dd1b4bah9n90rd11jwhblw2bzb"
+   "commit": "c4cf0f0dcef89bb8e261e5d8b512ce7b293edbba",
+   "sha256": "0m58q50qcfhyb40g204nh7aibjmjh0d88pczkdw5j3shads7bx9i"
   }
  },
  {
@@ -123292,8 +123268,8 @@
   "repo": "Alexander-Miller/treemacs",
   "unstable": {
    "version": [
-    20241028,
-    2122
+    20241113,
+    2139
    ],
    "deps": [
     "ace-window",
@@ -123305,8 +123281,8 @@
     "pfuture",
     "s"
    ],
-   "commit": "2f0668439dfa246b2807497f2824ec7c7fbbeb49",
-   "sha256": "1dhxg30jiix9s94al2n88nafm9vs4p1343lqnx1pi729zqkxc5yf"
+   "commit": "2fd7745f1bc446fc590dc7ba2eb4e062a51fbb3e",
+   "sha256": "0pspxkja58zpic2gnprhg5jkdy49ydw09rgg9wpf6vjwr5zbxp5b"
   },
   "stable": {
    "version": [
@@ -125839,36 +125815,6 @@
   }
  },
  {
-  "ename": "use-package",
-  "commit": "570bde6b4b89eb74eaf47dda64004cd575f9d953",
-  "sha256": "0rlccqjdynh03ww9jqnnyvn86mr9cd4hlfni8hz2r7a726b70xf1",
-  "fetcher": "github",
-  "repo": "jwiegley/use-package",
-  "unstable": {
-   "version": [
-    20230426,
-    2324
-   ],
-   "deps": [
-    "bind-key"
-   ],
-   "commit": "b59b4dc2361c7b351238990d0c34eece8d79ecf0",
-   "sha256": "05995kr3chn918l0hywslqfvk0rbr2pzbdbfkdfij65hpmdjaznh"
-  },
-  "stable": {
-   "version": [
-    2,
-    4,
-    4
-   ],
-   "deps": [
-    "bind-key"
-   ],
-   "commit": "9090080b15486c3e337be254226efe7e5fde4c99",
-   "sha256": "03mqkv63ink2ysy86slac8ac7a5g22bi0pwvxyncfasm43q9d0sx"
-  }
- },
- {
   "ename": "use-package-chords",
   "commit": "6240afa625290187785e4b7535ee7b0d7aad8969",
   "sha256": "1217l0gpxcp8532p0d3g1xd2015qpx2g5xm0kwsbxdmffqqdaar3",
@@ -125898,38 +125844,6 @@
     "bind-chord",
     "bind-key",
     "key-chord",
-    "use-package"
-   ],
-   "commit": "9090080b15486c3e337be254226efe7e5fde4c99",
-   "sha256": "03mqkv63ink2ysy86slac8ac7a5g22bi0pwvxyncfasm43q9d0sx"
-  }
- },
- {
-  "ename": "use-package-ensure-system-package",
-  "commit": "6240afa625290187785e4b7535ee7b0d7aad8969",
-  "sha256": "1cl61nwgsz5dh3v9rdiww8mq2k1sbx27gr6izb4ij4pnzjp7aaj6",
-  "fetcher": "github",
-  "repo": "jwiegley/use-package",
-  "unstable": {
-   "version": [
-    20221209,
-    2013
-   ],
-   "deps": [
-    "system-packages",
-    "use-package"
-   ],
-   "commit": "bcf0984cf55b70fe6896c6a15f61df92b24f8ffd",
-   "sha256": "0pmz5x7ghwsjyr4lhaqa53c7190bjqxaczljpsr62s60bn55fdsi"
-  },
-  "stable": {
-   "version": [
-    2,
-    4,
-    4
-   ],
-   "deps": [
-    "system-packages",
     "use-package"
    ],
    "commit": "9090080b15486c3e337be254226efe7e5fde4c99",
@@ -131152,14 +131066,14 @@
   "repo": "jobbflykt/x509-mode",
   "unstable": {
    "version": [
-    20241112,
-    1238
+    20241113,
+    1733
    ],
    "deps": [
     "compat"
    ],
-   "commit": "403197168a77b26ac9c1ce6b8aa57537731b3d11",
-   "sha256": "0f2q4vxg26sgpf4cw5310ll3hwxll2g6wskbl5rli73zsf320imh"
+   "commit": "72719e38a98d780d6da4f17ebdc2941c9b734039",
+   "sha256": "0p8f7wmf80i3jglgihwwxl2askrpi2y0wxxs9sm9v6d00s8jzbw8"
   }
  },
  {
