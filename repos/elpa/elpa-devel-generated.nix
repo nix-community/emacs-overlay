@@ -1456,10 +1456,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20241114.174004";
+      version = "1.8.0.20241115.72624";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241114.174004.tar";
-        sha256 = "1yhrnwj8x380mn09jaj92hlmcakx90y80yy888pma7c551jsdmq6";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241115.72624.tar";
+        sha256 = "1wrgswlgzjhx4ridmh82bxy1m90h5yyid803a4nz54naxyyk49wp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1569,10 +1569,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20241114.153703";
+      version = "1.5.0.20241115.52833";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241114.153703.tar";
-        sha256 = "1c9cbyllpd3al9199c47yy02p60kc1nmxkvlcbkc211idspkp1bz";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241115.52833.tar";
+        sha256 = "1f3s412dq09dvmmw33g8q7innhlc0m78yvbqs5jdz6c5x6ildqiq";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8590,10 +8590,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.2.0.20241101.170122";
+      version = "1.2.0.20241115.72722";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20241101.170122.tar";
-        sha256 = "0lyjsl1x6pylw3n1343y1qaaagzpc20im27b4f48dqlc63267822";
+        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20241115.72722.tar";
+        sha256 = "0bckgqyxmxrram33mgs780xn86g8ifzj93pzs4yzi1d1gbjgfp2y";
       };
       packageRequires = [ compat ];
       meta = {
