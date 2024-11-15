@@ -638,10 +638,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0.0.20240926.91748";
+      version = "1.0.0.20241114.112007";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20240926.91748.tar";
-        sha256 = "1f5869y8614hv91f3sc7i10wr3393mygz841crw4an4m03kxkq7f";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20241114.112007.tar";
+        sha256 = "1jzli50sjr8pv2j9qg7glxdgm54sx2yw6xr7ka738gisa1r0iscl";
       };
       packageRequires = [
         consult
@@ -2068,10 +2068,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.8.0.20241108.63223";
+      version = "0.4.8.0.20241114.155820";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.8.0.20241108.63223.tar";
-        sha256 = "06nf1chdiir32nqjn9aj34v7sfz716v0l791pwplci72zl9s4f9p";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.8.0.20241114.155820.tar";
+        sha256 = "11d8dbm2i5h9ynpl9fvibw982qss8czggs9bmr2pb7a9b3b23rsa";
       };
       packageRequires = [
         compat
