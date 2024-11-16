@@ -8590,10 +8590,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.2.0.20241115.72722";
+      version = "1.2.0.20241116.82753";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20241115.72722.tar";
-        sha256 = "0bckgqyxmxrram33mgs780xn86g8ifzj93pzs4yzi1d1gbjgfp2y";
+        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20241116.82753.tar";
+        sha256 = "13qakkcx260iscxa8w6160bzdxg7n0mr3dfa44jnb9l7dc5cs6vh";
       };
       packageRequires = [ compat ];
       meta = {
