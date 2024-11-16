@@ -1113,10 +1113,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.3.0.20240906.134234";
+      version = "4.0.3.0.20241115.195403";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20240906.134234.tar";
-        sha256 = "0a9456snizy8w47vh8zj00180kncg0h3vv3iq86lckqhv2qbp0az";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20241115.195403.tar";
+        sha256 = "0r771znqpccq5fiqnzarw7vrpkziwjdixw9j4k4iaik1sjksg3yr";
       };
       packageRequires = [ ];
       meta = {
@@ -2068,10 +2068,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.8.0.20241114.155820";
+      version = "0.4.8.0.20241115.104152";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.8.0.20241114.155820.tar";
-        sha256 = "11d8dbm2i5h9ynpl9fvibw982qss8czggs9bmr2pb7a9b3b23rsa";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.8.0.20241115.104152.tar";
+        sha256 = "143pmwp5g2wzmmhmbwc1q6hhf86j1cywi8x2hzvlq0p5mhkkilr1";
       };
       packageRequires = [
         compat
@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241114.205625";
+      version = "0.9.6.0.20241115.83706";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241114.205625.tar";
-        sha256 = "183nl5ws4q8klcjdgimcnnjmyy3zkxbfqf4kjxaqmrbrb7lh4if5";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241115.83706.tar";
+        sha256 = "0frqk2rqhlmrrq4dbsnbny93i1fi4r0imgg73p5a1kllj6vjz84y";
       };
       packageRequires = [
         compat
