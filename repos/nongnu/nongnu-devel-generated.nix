@@ -3067,10 +3067,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.7alpha0.20241107.34939";
+      version = "2.7alpha0.20241117.30744";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20241107.34939.tar";
-        sha256 = "19fylmyrc7525441ygv4l1hfgqgd3ra1bnsc2x8kk0wl3pndlw87";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20241117.30744.tar";
+        sha256 = "1qlb874z8balm6n4i72z3vblcf8gk4q4xqc4njlpwh7rfaq805lb";
       };
       packageRequires = [ ];
       meta = {
