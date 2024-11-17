@@ -1268,19 +1268,24 @@
   ) { };
   comint-mime = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
+      mathjax,
     }:
     elpaBuild {
       pname = "comint-mime";
       ename = "comint-mime";
-      version = "0.6.0.20240928.153818";
+      version = "0.7.0.20241116.123039";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/comint-mime-0.6.0.20240928.153818.tar";
-        sha256 = "1vhkv3a2vccj2lbb5dn1gz9dfni0f5y03qwfkyl6r785i0ss976i";
+        url = "https://elpa.gnu.org/devel/comint-mime-0.7.0.20241116.123039.tar";
+        sha256 = "0sypcmpx5fyl92kkcaas3k877lwqvy02694riqp0rpm5rnpr182v";
       };
-      packageRequires = [ ];
+      packageRequires = [
+        compat
+        mathjax
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/comint-mime.html";
         license = lib.licenses.free;
@@ -1829,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.16.0.0.20241114.161411";
+      version = "0.16.0.0.20241116.195941";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241114.161411.tar";
-        sha256 = "0225mzza0rx7cw57csml28wbzqrvakd2hps0a198xravbw4z9xn3";
+        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241116.195941.tar";
+        sha256 = "09f943apj5srs3zmblqhdizdn9v9cv8wkyg7vidbk197v32qv7za";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2580,10 +2585,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.8.0.0.20241114.54747";
+      version = "1.9.0.0.20241116.183040";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.8.0.0.20241114.54747.tar";
-        sha256 = "1ffnx55r2sm9wk8f2309hhhn8h3rc0vajx45wzc9ww6mhxx393pn";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.9.0.0.20241116.183040.tar";
+        sha256 = "1xyw2pq4mv5pmssngqbvqbzqkirxm4xwg4xfbninwrk5474kmhip";
       };
       packageRequires = [ ];
       meta = {

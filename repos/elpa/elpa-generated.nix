@@ -1247,19 +1247,24 @@
   ) { };
   comint-mime = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
+      mathjax,
     }:
     elpaBuild {
       pname = "comint-mime";
       ename = "comint-mime";
-      version = "0.6";
+      version = "0.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/comint-mime-0.6.tar";
-        sha256 = "017d62n3n2jmsxb3r9jm4vk8vpapddbxfjjh8ww1vgcbzqr76zwy";
+        url = "https://elpa.gnu.org/packages/comint-mime-0.7.tar";
+        sha256 = "1scf7b72kzqcf51svww3rbamdnm607pvzg04rdcglc2cna1n2apa";
       };
-      packageRequires = [ ];
+      packageRequires = [
+        compat
+        mathjax
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/comint-mime.html";
         license = lib.licenses.free;
@@ -2554,10 +2559,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.8.0";
+      version = "1.9.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ef-themes-1.8.0.tar";
-        sha256 = "0fv7m4cd4sdn8skx5li8g41kyjniwzfp8sn7jd9s4f7wzls5rnay";
+        url = "https://elpa.gnu.org/packages/ef-themes-1.9.0.tar";
+        sha256 = "03gi3gwrng9arffypmlnd96404yxac78k59q5yb1y1f8fahy199k";
       };
       packageRequires = [ ];
       meta = {
