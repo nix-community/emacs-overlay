@@ -1113,10 +1113,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.3.0.20241115.195403";
+      version = "4.0.3.0.20241116.152358";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20241115.195403.tar";
-        sha256 = "0r771znqpccq5fiqnzarw7vrpkziwjdixw9j4k4iaik1sjksg3yr";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20241116.152358.tar";
+        sha256 = "1s0kyz83x01h6qw9hlqas0zc795pnrcimy59kccr4c0p27i0xm1c";
       };
       packageRequires = [ ];
       meta = {
@@ -3986,10 +3986,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20241115.161209";
+      version = "1.0.20241116.120019";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241115.161209.tar";
-        sha256 = "1kcwj06x6x7jmkk49954p3gp306pfn5r90sk67cq3w1asrdaz8wp";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241116.120019.tar";
+        sha256 = "1lq9s5697wbsn7gvac72rp4yj4zzy3gl8ryzwhcvh05yjacbp8zf";
       };
       packageRequires = [ ];
       meta = {
@@ -4518,10 +4518,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.18.0.20241115.211153";
+      version = "1.2.19.0.20241116.125743";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.18.0.20241115.211153.tar";
-        sha256 = "0yxd31lvgrf4vmyg0r65lpimrwa1rdyk4y43b5fz9kbjwyqri7r2";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.19.0.20241116.125743.tar";
+        sha256 = "0r0la2gd23pq1ywsrksx52rrlw398yvp6cfz29wvd2syyllm9915";
       };
       packageRequires = [ ];
       meta = {
