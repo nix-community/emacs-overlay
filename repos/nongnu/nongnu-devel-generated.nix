@@ -1113,10 +1113,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.3.0.20241116.152358";
+      version = "4.0.3.0.20241117.161417";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20241116.152358.tar";
-        sha256 = "1s0kyz83x01h6qw9hlqas0zc795pnrcimy59kccr4c0p27i0xm1c";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20241117.161417.tar";
+        sha256 = "0y8iwgah0i7c2allkkck6ciybp89qgxv7rysjqd0f3rmapxgfw5q";
       };
       packageRequires = [ ];
       meta = {
@@ -3067,10 +3067,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.7alpha0.20241117.30744";
+      version = "2.7alpha0.20241117.151004";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20241117.30744.tar";
-        sha256 = "1qlb874z8balm6n4i72z3vblcf8gk4q4xqc4njlpwh7rfaq805lb";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20241117.151004.tar";
+        sha256 = "15qd5a07i8bmjp8l3vyhpi9i75vza9yypadx4d332fmjhrahmw44";
       };
       packageRequires = [ ];
       meta = {
@@ -4518,10 +4518,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.19.0.20241116.125743";
+      version = "1.2.21.0.20241117.83905";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.19.0.20241116.125743.tar";
-        sha256 = "0r0la2gd23pq1ywsrksx52rrlw398yvp6cfz29wvd2syyllm9915";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.21.0.20241117.83905.tar";
+        sha256 = "0v95g129yp9s3kknbw1fp4iqn0f0g65bhvw4433v3dbinw9l3k74";
       };
       packageRequires = [ ];
       meta = {
@@ -4647,10 +4647,10 @@
     elpaBuild {
       pname = "tangotango-theme";
       ename = "tangotango-theme";
-      version = "0.0.7.0.20240522.132740";
+      version = "0.0.7.0.20241117.114955";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tangotango-theme-0.0.7.0.20240522.132740.tar";
-        sha256 = "1psr1amscknyw41dmsw6mvy73v271l8mzibwhl6kfp41a97cnlki";
+        url = "https://elpa.nongnu.org/nongnu-devel/tangotango-theme-0.0.7.0.20241117.114955.tar";
+        sha256 = "1p9j3pqgp0nzsypqdx9bc1qhkgyc3s3p9rbm3la356yfc3d3wxa3";
       };
       packageRequires = [ ];
       meta = {
