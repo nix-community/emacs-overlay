@@ -676,10 +676,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.2.1.0.20241023.143947";
+      version = "1.2.1.0.20241117.91644";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.2.1.0.20241023.143947.tar";
-        sha256 = "1g5m8zlcrjixxhnyyg9lrp7jys31m1vm82b130fl3pjadqkqp1hr";
+        url = "https://elpa.gnu.org/devel/beframe-1.2.1.0.20241117.91644.tar";
+        sha256 = "0s7cc79zd3cvmpn2i8lkn8xqy35yizps6nwhqgpf77xfbp8k3n13";
       };
       packageRequires = [ ];
       meta = {
@@ -4072,10 +4072,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20241116.222005";
+      version = "9.0.2pre0.20241117.155348";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241116.222005.tar";
-        sha256 = "02qy68big6nv7q96gh77h7byswphk7nmnnf0i34iz15njq65zkkr";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241117.155348.tar";
+        sha256 = "0jd3v3rjay451l10zx1q0f92jjgiyrd6xjy2d7lvyd9vz478agg5";
       };
       packageRequires = [ ];
       meta = {
@@ -6904,10 +6904,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.1.0.0.20241006.54333";
+      version = "1.1.0.0.20241117.165957";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.1.0.0.20241006.54333.tar";
-        sha256 = "03q0mxkm06mdp9y11nmwxfbgcc4r4h2w41lj6ba67npawjc0m5mg";
+        url = "https://elpa.gnu.org/devel/pulsar-1.1.0.0.20241117.165957.tar";
+        sha256 = "1ykg2vh3p9palpck0gw6wr2b5rj0mbr6191qy5fa1y1knyhizbwc";
       };
       packageRequires = [ ];
       meta = {
@@ -8201,10 +8201,10 @@
     elpaBuild {
       pname = "ssh-deploy";
       ename = "ssh-deploy";
-      version = "3.1.16.0.20230702.92809";
+      version = "3.1.16.0.20241117.185025";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ssh-deploy-3.1.16.0.20230702.92809.tar";
-        sha256 = "0zjkc1gb3hpknx8012crcbdy3w1w597qk8qajhpaijhjhispm507";
+        url = "https://elpa.gnu.org/devel/ssh-deploy-3.1.16.0.20241117.185025.tar";
+        sha256 = "03slq2jz6npx33n8ygs761mgqzbain6gqyyl38581gsl8kawx9zs";
       };
       packageRequires = [ ];
       meta = {
