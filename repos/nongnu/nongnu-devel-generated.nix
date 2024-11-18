@@ -1113,10 +1113,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.3.0.20241117.161417";
+      version = "4.0.3.0.20241117.234120";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20241117.161417.tar";
-        sha256 = "0y8iwgah0i7c2allkkck6ciybp89qgxv7rysjqd0f3rmapxgfw5q";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20241117.234120.tar";
+        sha256 = "0zzfv89fxyx62v7rwvs9pjhzav3dg0pkai2l3kbpvvbq2ah2yjma";
       };
       packageRequires = [ ];
       meta = {
