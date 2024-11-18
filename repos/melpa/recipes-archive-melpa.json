@@ -19087,8 +19087,8 @@
   "repo": "chep/copilot-chat.el",
   "unstable": {
    "version": [
-    20241114,
-    1226
+    20241118,
+    1209
    ],
    "deps": [
     "chatgpt-shell",
@@ -19096,8 +19096,8 @@
     "markdown-mode",
     "request"
    ],
-   "commit": "d0bf1751a67cea931d732af1ee9bcc63bd1faaf6",
-   "sha256": "1n9a6pzhglhf0qfx44cy68jqp4b5zhf0mnyfhawkn51m556a2wpx"
+   "commit": "d2f3ef17d755d8920c747ee5677db5b003a13406",
+   "sha256": "16nmhl0x2inbckl2dbq2flaqpk031wn102g0nxagh6b8d6n7vq9l"
   },
   "stable": {
    "version": [
@@ -21663,14 +21663,14 @@
   "repo": "xenodium/dall-e-shell",
   "unstable": {
    "version": [
-    20241112,
-    1928
+    20241118,
+    1015
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "11d318a4ac37e6a5077ea4d66ddaa144f448cd14",
-   "sha256": "11rpgs5c50a8bbd9acqbgfh1jbnyrc745npg10h9bbibngz58fjy"
+   "commit": "d7f54f002c9271bc46c7403af898ed12e3abea69",
+   "sha256": "0cf81h9acc1ql5148y00jsl7v80190s2q71wd0q9j70vdghz8xhv"
   },
   "stable": {
    "version": [
@@ -31413,8 +31413,8 @@
   "repo": "s-kostyaev/ellama",
   "unstable": {
    "version": [
-    20241025,
-    2349
+    20241118,
+    1307
    ],
    "deps": [
     "compat",
@@ -31422,8 +31422,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "882b0b241c2f69124edce70d41dc95ff49cb40e8",
-   "sha256": "0b55m87dqrc07y6jbjf3lf4d2gjyd0s6ndvap43y3fpwz1yq28fp"
+   "commit": "e8f64969d66aa71341804e0a4f8d3e7c632bf3b6",
+   "sha256": "16gr03byhcdway96ryq0gi56gb1yipl5fs0ak6anf2ll2binqiwr"
   },
   "stable": {
    "version": [
@@ -90665,30 +90665,30 @@
   "repo": "meedstrom/org-node",
   "unstable": {
    "version": [
-    20241116,
-    320
+    20241118,
+    1103
    ],
    "deps": [
     "compat",
     "el-job",
     "llama"
    ],
-   "commit": "ba89d1b2c6f4f13a4fac3ca94491ee43116d39d9",
-   "sha256": "1bwzk63za23llig5924c568nk16lkazqs9zzvwm68g4mfnrhn75d"
+   "commit": "2b00e581249c99b24699a47c9a4c6c8657960792",
+   "sha256": "1zdiw5hqd1qmxirvpam5pb4f9la7a48p6xm6cx9yi6ccvlq0qph3"
   },
   "stable": {
    "version": [
     1,
     8,
-    3
+    6
    ],
    "deps": [
     "compat",
     "el-job",
     "llama"
    ],
-   "commit": "ba89d1b2c6f4f13a4fac3ca94491ee43116d39d9",
-   "sha256": "1bwzk63za23llig5924c568nk16lkazqs9zzvwm68g4mfnrhn75d"
+   "commit": "2b00e581249c99b24699a47c9a4c6c8657960792",
+   "sha256": "1zdiw5hqd1qmxirvpam5pb4f9la7a48p6xm6cx9yi6ccvlq0qph3"
   }
  },
  {
@@ -90699,8 +90699,8 @@
   "repo": "meedstrom/org-node-fakeroam",
   "unstable": {
    "version": [
-    20241103,
-    2000
+    20241118,
+    951
    ],
    "deps": [
     "compat",
@@ -90708,14 +90708,14 @@
     "org-node",
     "org-roam"
    ],
-   "commit": "d77d7c4e1570b7d0cda05a944df6ffe9b78630c8",
-   "sha256": "0s6m66jix554gy4b7scgcj67rd9xzrx08yp2c8cqfjsmrxhlzc99"
+   "commit": "803f5f7cde3634b0f983645f6480bbf1a619fb3c",
+   "sha256": "16n5658qg18ky1flxy66ck8bqsbdlhcqri1srdgschw9axhclqyk"
   },
   "stable": {
    "version": [
     1,
     5,
-    1
+    2
    ],
    "deps": [
     "compat",
@@ -90723,8 +90723,8 @@
     "org-node",
     "org-roam"
    ],
-   "commit": "d77d7c4e1570b7d0cda05a944df6ffe9b78630c8",
-   "sha256": "0s6m66jix554gy4b7scgcj67rd9xzrx08yp2c8cqfjsmrxhlzc99"
+   "commit": "803f5f7cde3634b0f983645f6480bbf1a619fb3c",
+   "sha256": "16n5658qg18ky1flxy66ck8bqsbdlhcqri1srdgschw9axhclqyk"
   }
  },
  {
@@ -111791,20 +111791,20 @@
   "repo": "xenodium/shell-maker",
   "unstable": {
    "version": [
-    20241112,
-    1906
+    20241118,
+    1014
    ],
-   "commit": "a0452a1c832a7ca6ecfa3e5a34d695a25b2a22a4",
-   "sha256": "1555gppm9gs4yym879kqh790m4qlf0v2ms63rkbfsm0zhfb06pq3"
+   "commit": "a6d5ec61c1e36c7b8d87dcb1a04264541d332309",
+   "sha256": "1xr910adgk13d81923r8jqa7hgwmprc8bklxcp95q5mn3pyhqkzx"
   },
   "stable": {
    "version": [
-    1,
-    20,
+    0,
+    64,
     1
    ],
-   "commit": "a24c003c79a720eafffc79bc3885070735f667f6",
-   "sha256": "161q8d2b4sq481jh4zwagvh88wg51dsnf76n2l2b7wv3nh7cjh2m"
+   "commit": "d0aa7c03186ef02fab988a7ff18eae862097d692",
+   "sha256": "1r64r3dryhmdzvnsia417pkwc7f7zxb4xi620dl7vy1gad2kb47h"
   }
  },
  {
@@ -119999,15 +119999,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20241115,
-    1854
+    20241118,
+    1404
    ],
    "deps": [
     "transient",
     "visual-fill-column"
    ],
-   "commit": "6ff8203a2f208c0d0cd070e07f785f62f438aeae",
-   "sha256": "1b6dshps5pwgpihccnbgls4dgkf6s7fss57b93q7ljsyaw45bg2g"
+   "commit": "f4f957253093a449c806397fd6157e19d84a7c02",
+   "sha256": "1v6v813lglgwcl8kv6jrvqjyqgp4crpbkv8qyckh9bhkjbmcgxma"
   },
   "stable": {
    "version": [
