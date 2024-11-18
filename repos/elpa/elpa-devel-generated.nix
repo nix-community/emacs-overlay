@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20241115.72624";
+      version = "1.8.0.20241117.211309";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241115.72624.tar";
-        sha256 = "1wrgswlgzjhx4ridmh82bxy1m90h5yyid803a4nz54naxyyk49wp";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241117.211309.tar";
+        sha256 = "176y2ml0mxfkkkw1z07mprvv4g67gqb41l1bv0p51ijg7pqj2cxp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241114.90407";
+      version = "3.1.0.0.20241118.63734";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241114.90407.tar";
-        sha256 = "1zjf4hrl8j60skw9ddv4gkml75cw80pbnymzdsly083vjm4bvd16";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241118.63734.tar";
+        sha256 = "0sn6yy4apf5haqnxfdi5psli7ji34ppbqijjw77kw99kpg3shnly";
       };
       packageRequires = [ ];
       meta = {
@@ -4900,10 +4900,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.18.0.0.20241116.213048";
+      version = "0.18.1.0.20241117.214015";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.18.0.0.20241116.213048.tar";
-        sha256 = "11dmf3pz2b9mjqwhqdpq3wb8n65wr6mdsdv95f8jbvvmk8r153v5";
+        url = "https://elpa.gnu.org/devel/llm-0.18.1.0.20241117.214015.tar";
+        sha256 = "1pd1wysb65yn34s2fjkgn09yzllbs0nls5ak1j8pfsag6s45gz1m";
       };
       packageRequires = [
         plz
@@ -6904,10 +6904,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.1.0.0.20241117.165957";
+      version = "1.1.0.0.20241118.55710";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.1.0.0.20241117.165957.tar";
-        sha256 = "1ykg2vh3p9palpck0gw6wr2b5rj0mbr6191qy5fa1y1knyhizbwc";
+        url = "https://elpa.gnu.org/devel/pulsar-1.1.0.0.20241118.55710.tar";
+        sha256 = "0pnha74gv8af9zzna5v5ql139adg8qc0dh3vf4icvkm3w9v6d5ai";
       };
       packageRequires = [ ];
       meta = {
@@ -8243,10 +8243,10 @@
     elpaBuild {
       pname = "stream";
       ename = "stream";
-      version = "2.3.0.0.20230908.74447";
+      version = "2.3.0.0.20241117.211530";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/stream-2.3.0.0.20230908.74447.tar";
-        sha256 = "1zfw7plnlsijs8aw5726adjwd65g1x3xs4vcs3rcc2ybv8cz886s";
+        url = "https://elpa.gnu.org/devel/stream-2.3.0.0.20241117.211530.tar";
+        sha256 = "1hhvp3rikl1dv2ca090cy5jh61nq3mvxznjwz8p39y0gn6ym3x7x";
       };
       packageRequires = [ ];
       meta = {
