@@ -284,10 +284,10 @@
     elpaBuild {
       pname = "bash-completion";
       ename = "bash-completion";
-      version = "3.1.1.0.20240914.174817";
+      version = "3.1.1.0.20241118.194353";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.1.1.0.20240914.174817.tar";
-        sha256 = "1s5wx8374naay0silh95vlci5qrxxz04av4f5iz94iwvi6jz0fa0";
+        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.1.1.0.20241118.194353.tar";
+        sha256 = "10cirfnwz34yc7glf1xzshq3926jdwdf3s7bdarykrkxmsrha4f7";
       };
       packageRequires = [ ];
       meta = {
@@ -4329,10 +4329,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.30snapshot0.20241112.154432";
+      version = "2.30snapshot0.20241118.154433";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241112.154432.tar";
-        sha256 = "17xk0anm9d6sm71r946x320gh9r4dysp1mn9gd2k0k9y2awvbnjh";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241118.154433.tar";
+        sha256 = "1x5p4xqmbjyvqnirh9rgfyg5bsbr8jz0g9c53lyawz976j1zkm99";
       };
       packageRequires = [ macrostep ];
       meta = {
