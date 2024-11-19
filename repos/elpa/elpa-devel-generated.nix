@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.16.0.0.20241116.195941";
+      version = "0.16.0.0.20241118.220207";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241116.195941.tar";
-        sha256 = "09f943apj5srs3zmblqhdizdn9v9cv8wkyg7vidbk197v32qv7za";
+        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241118.220207.tar";
+        sha256 = "0x94108vf0mxjv00d5hrczrl8bv7v8rmrflv2378kmb5i110rfka";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -4072,10 +4072,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20241117.155348";
+      version = "9.0.2pre0.20241119.3407";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241117.155348.tar";
-        sha256 = "0jd3v3rjay451l10zx1q0f92jjgiyrd6xjy2d7lvyd9vz478agg5";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241119.3407.tar";
+        sha256 = "0cwqb3c4rvma5m4vc2blcscrkkphdavqv1gf18lc996h6jn4m9vi";
       };
       packageRequires = [ ];
       meta = {
@@ -7229,10 +7229,10 @@
     elpaBuild {
       pname = "realgud-lldb";
       ename = "realgud-lldb";
-      version = "1.0.2.0.20230319.171320";
+      version = "1.0.2.0.20241118.210939";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/realgud-lldb-1.0.2.0.20230319.171320.tar";
-        sha256 = "0isnyflg507qngv8xjw8zwzwh4qy0d3c123d5rirwbissjcfxmrs";
+        url = "https://elpa.gnu.org/devel/realgud-lldb-1.0.2.0.20241118.210939.tar";
+        sha256 = "1wpl9608rg6a6nbrnqmhhd8wwwdaf6cpw4lxv59bz2n903bbyr1d";
       };
       packageRequires = [
         load-relative
