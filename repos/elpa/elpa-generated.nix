@@ -2739,10 +2739,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.12.4";
+      version = "0.12.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-0.12.4.tar";
-        sha256 = "1c0j59cwmbdk7ik5z2iwjjhj12k9z2h9crxs1ykrp25clhqj6wy6";
+        url = "https://elpa.gnu.org/packages/ellama-0.12.5.tar";
+        sha256 = "14rvpcyvyjikj5hdja4ad00ya6pcr16n4rw040inndfcmyzflc4d";
       };
       packageRequires = [
         compat

@@ -2769,10 +2769,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.12.4.0.20241025.234932";
+      version = "0.12.5.0.20241118.130703";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-0.12.4.0.20241025.234932.tar";
-        sha256 = "1ly6jfnpzpj40fz3vnwyfjzzkn8667pavb3s09hg2gc8xdzsn0dc";
+        url = "https://elpa.gnu.org/devel/ellama-0.12.5.0.20241118.130703.tar";
+        sha256 = "1jf861z5qxhcfzzjcikdl04wqinmpbzcjpcgc0x5rdlpd4h0hpdh";
       };
       packageRequires = [
         compat
@@ -3161,10 +3161,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.32.0.20241006.3203";
+      version = "0.32.0.20241118.90416";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.32.0.20241006.3203.tar";
-        sha256 = "0rbn0w867wihfpg2d1hffnnvif300f8b7ss6a4r0ls6929i8qcr5";
+        url = "https://elpa.gnu.org/devel/exwm-0.32.0.20241118.90416.tar";
+        sha256 = "1ssryfd1x9cidch3w0xq8750c1ifg58b672grw8x70spy2mrvqr1";
       };
       packageRequires = [
         compat
