@@ -177,10 +177,10 @@
     elpaBuild {
       pname = "apropospriate-theme";
       ename = "apropospriate-theme";
-      version = "0.2.0.0.20240921.102210";
+      version = "0.2.0.0.20241118.190153";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/apropospriate-theme-0.2.0.0.20240921.102210.tar";
-        sha256 = "04x4s341lvygxxnjq3wjy8sp8p9y66kx3csklp46x33qyqbbdx82";
+        url = "https://elpa.nongnu.org/nongnu-devel/apropospriate-theme-0.2.0.0.20241118.190153.tar";
+        sha256 = "0nqnf57bf21wg2vlw85msg927618hhsn4qfwd60vrx70260432kf";
       };
       packageRequires = [ ];
       meta = {
@@ -5261,10 +5261,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.7.20241109085947.0.20241109.90555";
+      version = "26.8.20241118173945.0.20241118.174137";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.7.20241109085947.0.20241109.90555.tar";
-        sha256 = "1hb9ldamf003br71z0827fazs88g8mahf205v9cy0ibmg5575lfb";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.8.20241118173945.0.20241118.174137.tar";
+        sha256 = "196hv8hjzp87b8y9k65w2zag46bx2jhmah1w9mdjxwkfbq6bjcmq";
       };
       packageRequires = [ ];
       meta = {
