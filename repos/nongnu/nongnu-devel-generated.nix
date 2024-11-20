@@ -986,10 +986,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.5.3.0.20241021.43919";
+      version = "0.5.3.0.20241119.85917";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.3.0.20241021.43919.tar";
-        sha256 = "0vamzjzwq66n6417iqsqdb00wpzn5jljqa19f5jvs7zvrnj4hjhv";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.3.0.20241119.85917.tar";
+        sha256 = "1vk6im7p3975j4ng1xyfhh4n5yfhdfh6iylhx4ix1srn03vsrbv1";
       };
       packageRequires = [ ];
       meta = {
@@ -4867,10 +4867,10 @@
     elpaBuild {
       pname = "typescript-mode";
       ename = "typescript-mode";
-      version = "0.4.0.20240603.115709";
+      version = "0.4.0.20241119.194738";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/typescript-mode-0.4.0.20240603.115709.tar";
-        sha256 = "0v00kk4035i7b4b7clcwqxiavz89l2zxfpgk7f773ymamxpr3g82";
+        url = "https://elpa.nongnu.org/nongnu-devel/typescript-mode-0.4.0.20241119.194738.tar";
+        sha256 = "0yndbfnalj22bp2bzmrsa24a0v4cbk85b5yiqcg2diknrvsxkg2c";
       };
       packageRequires = [ ];
       meta = {
