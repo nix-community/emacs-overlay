@@ -1204,6 +1204,7 @@
   ) { };
   code-cells = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -1211,12 +1212,12 @@
     elpaBuild {
       pname = "code-cells";
       ename = "code-cells";
-      version = "0.4";
+      version = "0.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/code-cells-0.4.tar";
-        sha256 = "0kxpnydxlj8pqh54c4c80jlyc6jcplf89bkh3jmm509fmyr7sf20";
+        url = "https://elpa.gnu.org/packages/code-cells-0.5.tar";
+        sha256 = "04fvn0lwvnvf907k13822jpxyyi6cf55v543i9iqy57dav6sn2jx";
       };
-      packageRequires = [ ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/code-cells.html";
         license = lib.licenses.free;

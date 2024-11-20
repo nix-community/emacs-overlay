@@ -1232,10 +1232,10 @@
     elpaBuild {
       pname = "code-cells";
       ename = "code-cells";
-      version = "0.4.0.20241101.161812";
+      version = "0.5.0.20241119.142112";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/code-cells-0.4.0.20241101.161812.tar";
-        sha256 = "0y7kaib91ncqk2bbaqhlakj4kdnhchi5l6n3006d0wi23ay0yp19";
+        url = "https://elpa.gnu.org/devel/code-cells-0.5.0.20241119.142112.tar";
+        sha256 = "1jzqp6d7xj2ya18x0dahqn2if46wphbk63f76pw09bhwh71qc9g3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1531,10 +1531,10 @@
     elpaBuild {
       pname = "consult-recoll";
       ename = "consult-recoll";
-      version = "0.8.1.0.20231211.122134";
+      version = "0.8.1.0.20241119.180703";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-recoll-0.8.1.0.20231211.122134.tar";
-        sha256 = "1hpgcqbnvqcd6vzhxqi4axihjyp764hvbggk1skviys2apywk4s1";
+        url = "https://elpa.gnu.org/devel/consult-recoll-0.8.1.0.20241119.180703.tar";
+        sha256 = "0bha88jfb68bmgn4mfi04762ik8f3d6sxhrbpjc4ra0k3yyn2286";
       };
       packageRequires = [ consult ];
       meta = {
@@ -3041,10 +3041,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "24.1.1.0.20241106.142847";
+      version = "24.1.1.0.20241119.142354";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20241106.142847.tar";
-        sha256 = "15dwyrvnaj6w216v71rkx7sgz5ycpy9xciarffkr5fsyh9xldl9p";
+        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20241119.142354.tar";
+        sha256 = "10266bdhwrxxpjf0y0i5k0ixv1iwmz67n1h8iyw7lkd4q7lryp59";
       };
       packageRequires = [ ];
       meta = {
@@ -4449,10 +4449,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "1.10.0.20241105.213225";
+      version = "1.10.0.20241119.164445";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20241105.213225.tar";
-        sha256 = "0pca25g3299rivd5bdd5krs8gwxjqi48zama6ixnq07b9j4fidpq";
+        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20241119.164445.tar";
+        sha256 = "1d67l50q42ng344crilnq8zvdw1q97pajpfqpwjj2477gi6wgmzy";
       };
       packageRequires = [ compat ];
       meta = {
