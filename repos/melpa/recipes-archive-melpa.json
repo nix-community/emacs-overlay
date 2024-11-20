@@ -12221,13 +12221,13 @@
   "unstable": {
    "version": [
     20241120,
-    649
+    1025
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "9c8215e2325d95909c9f4fee0df0d8df997fcd58",
-   "sha256": "056xm88z01krywlswy2is24qv973w8wiazz4jv11gnh82iwlvgs6"
+   "commit": "7132a3d718941493818df47a61f6d6006a513ac1",
+   "sha256": "0lh8qiw5bji58nf6xyd4zcm9jxmw6n9ba9yk5qwmv7dvisynyv8x"
   },
   "stable": {
    "version": [
@@ -25612,14 +25612,14 @@
   "repo": "aurtzy/disproject",
   "unstable": {
    "version": [
-    20241118,
-    452
+    20241120,
+    654
    ],
    "deps": [
     "transient"
    ],
-   "commit": "a4884ddb722c58bad90ab896d9eb641104b08219",
-   "sha256": "0c3gx6l5m90l063q24w7whs4a3xb6dd4v1y203fwp1zghvkcbkdz"
+   "commit": "cdde9bd1c32dc99f9ea4a42741f242c99dd4570e",
+   "sha256": "17mgqg9l6v8zlnr9zv3widj8k3zfbd4fq1krc2diddak6lcafn9s"
   },
   "stable": {
    "version": [
@@ -36468,14 +36468,14 @@
   "repo": "edkolev/evil-expat",
   "unstable": {
    "version": [
-    20190521,
-    714
+    20241120,
+    1350
    ],
    "deps": [
     "evil"
    ],
-   "commit": "f4fcd0aa3edc359adb5c986b5dd9188d220d84e2",
-   "sha256": "0872ix682hkdz0k8pn6sb54rqkx00rz5fxpd5j2snx406yagpaxz"
+   "commit": "23610598a9f1450f2deafc47726d5b7ce61e8695",
+   "sha256": "09yvysacsaka7pw2jkf0208igi10cclkdr2gk9zx4xc8khkd2213"
   }
  },
  {
@@ -36697,14 +36697,14 @@
   "repo": "edkolev/evil-lion",
   "unstable": {
    "version": [
-    20220317,
-    1030
+    20241120,
+    1351
    ],
    "deps": [
     "evil"
    ],
-   "commit": "4da660e124731ed65e7aaa6c067c30e876619429",
-   "sha256": "0akhw0a9qsk65lvanb57fqh7hf601xdzkbyi560ximfrsr7f94pi"
+   "commit": "5a0bca151466960e090d1803c4c5ded88875f90a",
+   "sha256": "1fmb5rdzc063rhrkm7945xabyzjm1j84nh9spg7caydbndkhhva3"
   }
  },
  {
@@ -47302,15 +47302,15 @@
   "repo": "diku-dk/futhark-mode",
   "unstable": {
    "version": [
-    20241119,
-    1308
+    20241120,
+    854
    ],
    "deps": [
     "cl-lib",
     "reformatter"
    ],
-   "commit": "5889280f7f2fb9f20bbee0539a68ab321cd4458a",
-   "sha256": "02wdrvws6dkz70wvvlwqfj9mbxjqnnbcskap6nmns19nswwax1sf"
+   "commit": "a9cb4ee550d1ae14a7274d4e0c9bb6a2dff17c5a",
+   "sha256": "0kl8xcg5lp26cx5r8ikprzw2py7d0s4gibfkn525fnx94fdqcswr"
   }
  },
  {
@@ -67800,11 +67800,11 @@
   "repo": "JuliaEditorSupport/julia-emacs",
   "unstable": {
    "version": [
-    20240926,
-    1528
+    20241120,
+    857
    ],
-   "commit": "09897a8cbab48adaacdef6f852d7cebd3945a645",
-   "sha256": "01lyz25i41320jlcpykvg2zdm4klwzhf1lcbqfn8shjdjm41svw0"
+   "commit": "709c43410fb5da068d7d582cf3f545f7a7a68133",
+   "sha256": "0dmh3cd5mbsxz6fahvq2apzij53zdv2pvlxhqb3ix7ayb8l67a62"
   },
   "stable": {
    "version": [
@@ -98566,8 +98566,8 @@
   "repo": "emacs-php/phpactor.el",
   "unstable": {
    "version": [
-    20241015,
-    1105
+    20241120,
+    1122
    ],
    "deps": [
     "async",
@@ -98575,8 +98575,8 @@
     "f",
     "php-runtime"
    ],
-   "commit": "47c4311843dd523f0409016a1f2c93c9d13b213a",
-   "sha256": "0ax1i0s2ckhif6q9ps3pdbdi5xlp4w0dyysy81hmjn5x6y987ksj"
+   "commit": "47fe67c450ef73dc27e009d765b67b2b3911633e",
+   "sha256": "1vncx8sqywr9f6i393qj4s5jnxzz4kbxjzb4w3g4ilpbqxba0n6g"
   },
   "stable": {
    "version": [
@@ -113500,8 +113500,8 @@
   "repo": "emacs-slack/emacs-slack",
   "unstable": {
    "version": [
-    20241119,
-    2336
+    20241120,
+    1329
    ],
    "deps": [
     "alert",
@@ -113513,8 +113513,8 @@
     "s",
     "websocket"
    ],
-   "commit": "113cb87e0a0a3daeae4f1c587fe7c1a0b66cdb61",
-   "sha256": "16anxdz2m3ka9bk4rpkg6z73sy8pkfi5hpldvazcfkg3ljzmb29m"
+   "commit": "549cbb8dc800288f00be3c97e3f34b3f42bf9a71",
+   "sha256": "118ncjkl6dm8qzdlya92c1j8732030k5yyaiwv7y568zm29hqn69"
   }
  },
  {
@@ -123244,15 +123244,15 @@
   "unstable": {
    "version": [
     20241120,
-    649
+    757
    ],
    "deps": [
     "ess",
     "tree-sitter",
     "tree-sitter-langs"
    ],
-   "commit": "9999f4e6450f858493d9aac2c93e3bea65e3c6c2",
-   "sha256": "1z0x0gzdyz3zn4ly23429ix3gvh5avxzm2dwwjhmnp20hrxx5rng"
+   "commit": "895846900530017e91f95374a125c66b01d8925c",
+   "sha256": "187r9fbgzwi7f0xk744xpiyv0wzqjvbdg3mf1rw5z3n2nqlag594"
   },
   "stable": {
    "version": [
@@ -125412,14 +125412,14 @@
   "repo": "tbanel/uniline",
   "unstable": {
    "version": [
-    20241116,
-    1149
+    20241120,
+    1225
    ],
    "deps": [
     "hydra"
    ],
-   "commit": "7f94b02530fc7ad4da2f540d8afaddbb963f7eb8",
-   "sha256": "0hmrawqk9ddbq9vgqkz9hz3k0brrnm31xgaihng0ksr892ii9w3i"
+   "commit": "f4593f9b31edb0e5a1bbda3e50e346d0f82f8d9e",
+   "sha256": "1dc6lnh5ngxwab6zk10bddv985q352lp0qi8p2gdzh2bmr14k8sp"
   }
  },
  {
