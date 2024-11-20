@@ -1113,10 +1113,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.3.0.20241117.234120";
+      version = "4.0.3.0.20241120.60906";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20241117.234120.tar";
-        sha256 = "0zzfv89fxyx62v7rwvs9pjhzav3dg0pkai2l3kbpvvbq2ah2yjma";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20241120.60906.tar";
+        sha256 = "0685cdlf8a9wn6pasm5xyxdfa4g1mpr8k9ivxyd7fnfpabk5dpwk";
       };
       packageRequires = [ ];
       meta = {
@@ -2873,10 +2873,10 @@
     elpaBuild {
       pname = "julia-mode";
       ename = "julia-mode";
-      version = "1.0.0.0.20241105.181608";
+      version = "1.0.1.0.20241120.85729";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.0.0.0.20241105.181608.tar";
-        sha256 = "1mc9slr2qh8z41cg2r8br5rqw3m4sskq51jr6bpgd9ils0xdr6in";
+        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.0.1.0.20241120.85729.tar";
+        sha256 = "0a6xi5zcq1nfbsjqk84x6avlrzbjdh6fbq1h6jkqcczy7mm5rg5h";
       };
       packageRequires = [ ];
       meta = {
@@ -5151,10 +5151,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.2.0.20240831.223035";
+      version = "3.4.2.0.20241120.61145";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.2.0.20240831.223035.tar";
-        sha256 = "120v2n8py0qjcmlnf8l7p83w3bb5vg614ci65gliqhgmikhbwafh";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.2.0.20241120.61145.tar";
+        sha256 = "1rwr7vx49s72kbqnyfp5i1qgrhvn5bm2cl571ffnhj3wawqijsn0";
       };
       packageRequires = [ compat ];
       meta = {
