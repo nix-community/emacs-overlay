@@ -6265,10 +6265,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.4.0.20241119.213723";
+      version = "1.4.0.20241122.13029";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.4.0.20241119.213723.tar";
-        sha256 = "1qxrx31szgi4gs0r510qkdb7692h6c3gw1hqgrwi297yb8ay6qh4";
+        url = "https://elpa.gnu.org/devel/osm-1.4.0.20241122.13029.tar";
+        sha256 = "0c4b0ddb5l2pipnnwcqqfjj08v9ppr93ailxq000hd683mw48kaz";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6520,10 +6520,10 @@
     elpaBuild {
       pname = "pinentry";
       ename = "pinentry";
-      version = "0.1.0.20231126.141402";
+      version = "0.1.0.20241122.13623";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pinentry-0.1.0.20231126.141402.tar";
-        sha256 = "056h9zfbk4mfpvfpli2kr48i5cdcrf73v15id0dk762iy7iz38af";
+        url = "https://elpa.gnu.org/devel/pinentry-0.1.0.20241122.13623.tar";
+        sha256 = "0vgl9ydlwdfk81n240akds58iy08vfscw4ga0ms1nl5icgj71dx6";
       };
       packageRequires = [ ];
       meta = {
