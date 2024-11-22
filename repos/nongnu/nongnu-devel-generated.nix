@@ -3251,10 +3251,10 @@
     elpaBuild {
       pname = "mpv";
       ename = "mpv";
-      version = "0.2.0.0.20220801.191738";
+      version = "0.2.0.0.20241121.230837";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mpv-0.2.0.0.20220801.191738.tar";
-        sha256 = "0fanxxgmpjmy13lawr15ccnlzc5k89pix6m020kxbpi6aj2n1apc";
+        url = "https://elpa.nongnu.org/nongnu-devel/mpv-0.2.0.0.20241121.230837.tar";
+        sha256 = "1aynlwp90xrprri3m1v8yxa5zvbx6d12m662lsn9qdzvhl2dy5hk";
       };
       packageRequires = [ ];
       meta = {
