@@ -419,10 +419,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.9.0.20241005.182443";
+      version = "1.9.9.0.20241120.64208";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20241005.182443.tar";
-        sha256 = "11a8hy4y0rad9c38w74gpczzb45zgv63mikx9slkv5hfbhihjz2a";
+        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20241120.64208.tar";
+        sha256 = "0fgilwvpj4d03fzpx2wfh6k0lpckfd50rn2w8xmkqcy8151gmbmn";
       };
       packageRequires = [ ];
       meta = {
@@ -2905,10 +2905,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "20.1.0.20241110.143620";
+      version = "20.2.0.20241121.153927";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-20.1.0.20241110.143620.tar";
-        sha256 = "0s3cmp5c7p7qymp9f6nmy8y4hcxclg18fgj589zqhkx86222ghw3";
+        url = "https://elpa.gnu.org/devel/emms-20.2.0.20241121.153927.tar";
+        sha256 = "1nkf73vrd9244dhgir7anqz13bpwslg59lca79m5854yzjay4vb3";
       };
       packageRequires = [
         cl-lib

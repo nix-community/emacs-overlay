@@ -2876,10 +2876,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "20.1";
+      version = "20.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/emms-20.1.tar";
-        sha256 = "0h0v31f1q7k45k8s9kncvim3a7np7fgjz4qg9v8gjc5ag01dzwkx";
+        url = "https://elpa.gnu.org/packages/emms-20.2.tar";
+        sha256 = "0amc956amyfsjlq5aqc7nk2cs2ph2zcpci5wkms6w973wx67z2j6";
       };
       packageRequires = [
         cl-lib
