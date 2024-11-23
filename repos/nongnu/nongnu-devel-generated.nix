@@ -986,10 +986,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.5.3.0.20241122.92914";
+      version = "0.5.4.0.20241123.62749";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.3.0.20241122.92914.tar";
-        sha256 = "0zib675dw1nhsh4425swp9xhrrz9b0jn2vycnc73w2fqq7ds7j8p";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.4.0.20241123.62749.tar";
+        sha256 = "0vvzxy4c1h8nn4aj4cwmy51i3wf4b5mbjqwgnx9zhlkmz9aqbzzv";
       };
       packageRequires = [ ];
       meta = {
@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241122.125829";
+      version = "0.9.6.0.20241123.3610";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241122.125829.tar";
-        sha256 = "0vr1qjmfld43kzp1rqvd03ks91vf6gd2gr309hcvi901b48i4nq4";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241123.3610.tar";
+        sha256 = "0sbjaf64kbn8gcdhpbvvy54xqdjqllqd17x58iayq8a7h4g9q5fh";
       };
       packageRequires = [
         compat
@@ -3167,10 +3167,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241110.143155";
+      version = "1.5.0.0.20241122.215906";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241110.143155.tar";
-        sha256 = "1ygyahmdrfryxax3mimzicd0zsnpy2sz4n86vw1iiff2zs0h2n3x";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241122.215906.tar";
+        sha256 = "1x58w453ym6ib94za91kb1h12rwm6rllidpr8g8q7y3imjxk54cg";
       };
       packageRequires = [ ];
       meta = {
@@ -3986,10 +3986,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20241116.120019";
+      version = "1.0.20241121.151851";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241116.120019.tar";
-        sha256 = "1lq9s5697wbsn7gvac72rp4yj4zzy3gl8ryzwhcvh05yjacbp8zf";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241121.151851.tar";
+        sha256 = "0n28jqiiq7kkjwa102i2g0klk0r3sa0flia30wkiwh63xfmy24lm";
       };
       packageRequires = [ ];
       meta = {
