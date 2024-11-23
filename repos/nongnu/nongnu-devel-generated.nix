@@ -986,10 +986,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.5.3.0.20241121.95631";
+      version = "0.5.3.0.20241122.92914";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.3.0.20241121.95631.tar";
-        sha256 = "1738wiqz0rvhlmfafrc9b3y1aqysaa7c7rjwnrw4bm452gb3ikfy";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.3.0.20241122.92914.tar";
+        sha256 = "0zib675dw1nhsh4425swp9xhrrz9b0jn2vycnc73w2fqq7ds7j8p";
       };
       packageRequires = [ ];
       meta = {
@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241115.83706";
+      version = "0.9.6.0.20241122.125829";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241115.83706.tar";
-        sha256 = "0frqk2rqhlmrrq4dbsnbny93i1fi4r0imgg73p5a1kllj6vjz84y";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241122.125829.tar";
+        sha256 = "0vr1qjmfld43kzp1rqvd03ks91vf6gd2gr309hcvi901b48i4nq4";
       };
       packageRequires = [
         compat
