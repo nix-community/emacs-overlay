@@ -2689,10 +2689,10 @@
     elpaBuild {
       pname = "elisa";
       ename = "elisa";
-      version = "1.1.2";
+      version = "1.1.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/elisa-1.1.2.tar";
-        sha256 = "0q86v39cvalgn0lx26qzwqrcf9q16wg4r1l2dd885w33psd878nw";
+        url = "https://elpa.gnu.org/packages/elisa-1.1.3.tar";
+        sha256 = "0370gvj3r701i2acp3wq705a9n534g719nzz8bg9a4lry76f2crv";
       };
       packageRequires = [
         async
