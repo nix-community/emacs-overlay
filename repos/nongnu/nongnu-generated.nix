@@ -1009,10 +1009,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.5.4";
+      version = "0.5.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/dslide-0.5.4.tar";
-        sha256 = "1sq02aygbm5wq1crp3qiqnmzpz3hq0ipn7hy216rhl2s582r904j";
+        url = "https://elpa.nongnu.org/nongnu/dslide-0.5.5.tar";
+        sha256 = "1hnmnl6ildr2cyc8hx1maa3vnz621d41yhsx8naxq3mssz4rkajp";
       };
       packageRequires = [ ];
       meta = {
