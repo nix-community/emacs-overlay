@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20241117.211309";
+      version = "1.8.0.20241124.163238";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241117.211309.tar";
-        sha256 = "176y2ml0mxfkkkw1z07mprvv4g67gqb41l1bv0p51ijg7pqj2cxp";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241124.163238.tar";
+        sha256 = "0i3dlsz45qh2afjvwys56in2vbadbjsbi8z216ahcsg6r7c144w9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.16.0.0.20241123.153005";
+      version = "0.17.0.0.20241124.142948";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.16.0.0.20241123.153005.tar";
-        sha256 = "14xx3ln27lkr010nzi0cjm9i1xrnazpjhxbp5rr4w1n27j534y7w";
+        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241124.142948.tar";
+        sha256 = "12vyr404693y4hig1n4nj2j712a8r6dlr3hv1qrw6rrcb96blivi";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2769,10 +2769,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.12.6.0.20241123.135509";
+      version = "0.12.7.0.20241124.200225";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-0.12.6.0.20241123.135509.tar";
-        sha256 = "1ij6zghmaixg20gx6bcj42bh0ig66z4h8byngn510b66mgrqdji5";
+        url = "https://elpa.gnu.org/devel/ellama-0.12.7.0.20241124.200225.tar";
+        sha256 = "13m582lh3pp2mgzm1ra8q0vzh9ijk3nmmwb9rb83zaw2zfc61iqv";
       };
       packageRequires = [
         compat
@@ -5139,10 +5139,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "1.7.0.20240926.91821";
+      version = "1.7.0.20241124.113844";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-1.7.0.20240926.91821.tar";
-        sha256 = "1rdv3jkc7g59gypa949har94wl0sqpr6qpbjcravailbhd8a4zsn";
+        url = "https://elpa.gnu.org/devel/marginalia-1.7.0.20241124.113844.tar";
+        sha256 = "19b1xc3q4mdzlipjn47drhg4k818iigf95jy2cj4hcmg6d6k37r7";
       };
       packageRequires = [ compat ];
       meta = {
