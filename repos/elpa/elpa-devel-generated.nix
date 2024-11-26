@@ -419,10 +419,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.9.0.20241125.165359";
+      version = "1.9.9.0.20241126.81020";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20241125.165359.tar";
-        sha256 = "1y805lq1564pj7vp7mg38sg4gk01cd675bssg2983s9syzc4i2la";
+        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20241126.81020.tar";
+        sha256 = "0h101k5s68kgki9s50pg2hgwqrbnf21mcvcwxgy9jbrbs64snh4a";
       };
       packageRequires = [ ];
       meta = {
@@ -6904,10 +6904,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.1.0.0.20241118.55710";
+      version = "1.1.0.0.20241126.85726";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.1.0.0.20241118.55710.tar";
-        sha256 = "0pnha74gv8af9zzna5v5ql139adg8qc0dh3vf4icvkm3w9v6d5ai";
+        url = "https://elpa.gnu.org/devel/pulsar-1.1.0.0.20241126.85726.tar";
+        sha256 = "1mff4ki4hfxsjbwjzn64jzz7wh24x2lxr5lwdzlzhpnz16rnl2hp";
       };
       packageRequires = [ ];
       meta = {
