@@ -774,10 +774,10 @@
     elpaBuild {
       pname = "d-mode";
       ename = "d-mode";
-      version = "202408131340.0.20240813.65913";
+      version = "202408131340.0.20241126.105644";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/d-mode-202408131340.0.20240813.65913.tar";
-        sha256 = "1lf78x8bkb41mr5p8api0f447z9k5yd2v9w97qw6l4dxcj2dldv5";
+        url = "https://elpa.nongnu.org/nongnu-devel/d-mode-202408131340.0.20241126.105644.tar";
+        sha256 = "11hc3dyxyr1pcq25jvw9x3ys4v73rbqw9p19s4i59p9mdb0bnxpy";
       };
       packageRequires = [ ];
       meta = {
@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241125.152146";
+      version = "0.9.6.0.20241126.82700";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241125.152146.tar";
-        sha256 = "1x72s7azdrb0cliy93ww6x83jaxx56md9397cqf2ca3818nyd9n8";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241126.82700.tar";
+        sha256 = "03vvggwgcza046kgsx442438zhjvxiyd4j41x9vgfnz94j1pdypk";
       };
       packageRequires = [
         compat
