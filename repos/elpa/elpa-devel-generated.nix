@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.17.0.0.20241127.203352";
+      version = "0.17.0.0.20241127.224305";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241127.203352.tar";
-        sha256 = "02bqpik3ydrvz95r1x339gpzlgifacc82sy30yaqk9w40n15s1nl";
+        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241127.224305.tar";
+        sha256 = "049dbnq8jgfh4h9sfy374y1w6qd1687943vw0pc8n6zw56f7n3n4";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2905,10 +2905,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "20.2.0.20241122.160521";
+      version = "20.2.0.20241128.15531";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-20.2.0.20241122.160521.tar";
-        sha256 = "0yia1k6ahkcg2bijlcxgb8mhap3fgka212zgl4wvah98276iylsp";
+        url = "https://elpa.gnu.org/devel/emms-20.2.0.20241128.15531.tar";
+        sha256 = "18yr0zh9mj85piwpz33wpghkqblsn0am1a6f9016lsgsmi2n7rhp";
       };
       packageRequires = [
         cl-lib
