@@ -1113,10 +1113,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.3.0.20241123.212548";
+      version = "4.0.3.0.20241127.171053";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20241123.212548.tar";
-        sha256 = "0n4krjwy6nlbmjlw7vlbwl4psr2g8ayrn177nbkniz3jaag4pdcr";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20241127.171053.tar";
+        sha256 = "19cckwl33h95s6j4m4a2dab5dssiv6nrs0q930id0xdgcgd4yizr";
       };
       packageRequires = [ ];
       meta = {
@@ -2439,10 +2439,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20241125.192833";
+      version = "4.0.0.20241127.64219";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241125.192833.tar";
-        sha256 = "0d59r30zmbl80288jf701lhc3qn3qxk3bd3w13zi228zyb6glkws";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241127.64219.tar";
+        sha256 = "1v7s08mmfms2khbyhwr3g0gdgi4snxm4qjs90qp55wrsb1c6wkwb";
       };
       packageRequires = [
         helm-core
@@ -2464,10 +2464,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20241125.192833";
+      version = "4.0.0.20241127.64219";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241125.192833.tar";
-        sha256 = "1n08xlrxwk18dqh7nar0m537z4j1mfr1wgdpyibdwp589dpx985h";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241127.64219.tar";
+        sha256 = "0s1h61nr4a92hy1c25lhi2ldgbdcsdwyrnvz9mbjfp519p6kfx5c";
       };
       packageRequires = [ async ];
       meta = {
@@ -3659,10 +3659,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.24.0.20241007.131950";
+      version = "0.24.0.20241127.182614";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20241007.131950.tar";
-        sha256 = "1srjs8xwwiqzjh550snzk0yzd4vy3ynk0d3i41y2i7wgfdggyl0p";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20241127.182614.tar";
+        sha256 = "0wlz1hc387jcbh75hqjkxmydlsl0ai2adiam2axmqfdfn5p68llq";
       };
       packageRequires = [ let-alist ];
       meta = {
