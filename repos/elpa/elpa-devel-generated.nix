@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241127.142527";
+      version = "14.0.7.0.20241129.84113";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241127.142527.tar";
-        sha256 = "0qpf0xxn67kn2nln0m9m7gjwamdkx8dwlpn6cp008yz819gk5xnc";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241129.84113.tar";
+        sha256 = "0z7a9zsbljwzrn3xzn9hcl1zlqczafvcbx62cbmlrib0cknlxqp8";
       };
       packageRequires = [ ];
       meta = {
@@ -2108,10 +2108,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20241012.214233";
+      version = "1.10.0.0.20241128.233206";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20241012.214233.tar";
-        sha256 = "0i681c501a6hyzik6hrlwdgmq46ajj62hizm7j525wpwlv45012g";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20241128.233206.tar";
+        sha256 = "1728i37sz52hf2bsbr5msvzciqdcn98xlnv812sd7mc7zz6j2q27";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2905,10 +2905,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "20.2.0.20241128.15531";
+      version = "20.2.0.20241128.221848";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-20.2.0.20241128.15531.tar";
-        sha256 = "18yr0zh9mj85piwpz33wpghkqblsn0am1a6f9016lsgsmi2n7rhp";
+        url = "https://elpa.gnu.org/devel/emms-20.2.0.20241128.221848.tar";
+        sha256 = "1iigzn9dhfcv9bf04mx7khp60fqcj3x7v7hm4035nh01misk9i8h";
       };
       packageRequires = [
         cl-lib
@@ -4900,10 +4900,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.18.1.0.20241128.141054";
+      version = "0.18.1.0.20241129.2303";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.18.1.0.20241128.141054.tar";
-        sha256 = "0nv1q3j66rf0ixgnc2zsg8z38sc0hlis597s97xni0p14m3mq9pr";
+        url = "https://elpa.gnu.org/devel/llm-0.18.1.0.20241129.2303.tar";
+        sha256 = "0yqgz1vcbv794ab9nsg006z54ywkmb5fwn0vafyknb9lj7hmy25z";
       };
       packageRequires = [
         plz
@@ -8833,10 +8833,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.1.4.0.20241030.81545";
+      version = "2.7.1.5.0.20241129.83130";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.7.1.4.0.20241030.81545.tar";
-        sha256 = "0vc61yyi42804nqckapyrn12v33lii0cy88m6icfd2isd7pn3a3d";
+        url = "https://elpa.gnu.org/devel/tramp-2.7.1.5.0.20241129.83130.tar";
+        sha256 = "06b14ggsb2ckbqrcqsafbf94zxf08ad49yjb162xwyfbcwifkpri";
       };
       packageRequires = [ ];
       meta = {
