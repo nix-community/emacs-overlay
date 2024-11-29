@@ -915,6 +915,28 @@
       };
     }
   ) { };
+  dirvish = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      transient,
+    }:
+    elpaBuild {
+      pname = "dirvish";
+      ename = "dirvish";
+      version = "2.0.53";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/dirvish-2.0.53.tar";
+        sha256 = "02ji38zsb7lw43s919a8xfxcz2fl5cdrs3rk99cfqyvc4c1lywql";
+      };
+      packageRequires = [ transient ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/dirvish.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   doc-show-inline = callPackage (
     {
       elpaBuild,

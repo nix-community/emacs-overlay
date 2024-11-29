@@ -892,6 +892,28 @@
       };
     }
   ) { };
+  dirvish = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      transient,
+    }:
+    elpaBuild {
+      pname = "dirvish";
+      ename = "dirvish";
+      version = "2.0.53.0.20230519.150010";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20230519.150010.tar";
+        sha256 = "0n73giyvg244s0cxfrkc3j0jrq20bs1zili6liab0s3ks02kvqdg";
+      };
+      packageRequires = [ transient ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/dirvish.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   doc-show-inline = callPackage (
     {
       elpaBuild,
@@ -2242,10 +2264,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241126.82700";
+      version = "0.9.6.0.20241128.165441";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241126.82700.tar";
-        sha256 = "03vvggwgcza046kgsx442438zhjvxiyd4j41x9vgfnz94j1pdypk";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241128.165441.tar";
+        sha256 = "1cd4b3cgpc0xls89xwmzy9d7dhzh4xvcyf4la4l4j920jm4q32nz";
       };
       packageRequires = [
         compat
