@@ -2769,10 +2769,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.12.8.0.20241128.180658";
+      version = "0.13.0.0.20241129.214739";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-0.12.8.0.20241128.180658.tar";
-        sha256 = "0xipl0nk6fyryl64wci4pxcw9z0827daxzzpfggc3f9sbrq4lqiw";
+        url = "https://elpa.gnu.org/devel/ellama-0.13.0.0.20241129.214739.tar";
+        sha256 = "1242ra8fbyq5lci44myvl62k76c234kxa0lsim1rmnbpsa3w3h0p";
       };
       packageRequires = [
         compat
@@ -8833,10 +8833,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.1.5.0.20241129.83130";
+      version = "2.7.1.5.0.20241130.82948";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.7.1.5.0.20241129.83130.tar";
-        sha256 = "06b14ggsb2ckbqrcqsafbf94zxf08ad49yjb162xwyfbcwifkpri";
+        url = "https://elpa.gnu.org/devel/tramp-2.7.1.5.0.20241130.82948.tar";
+        sha256 = "0ypb44lhdv6hnx2rzpn8746sqa0wafknkf4bjxsvlh402xfjbypq";
       };
       packageRequires = [ ];
       meta = {
@@ -9455,10 +9455,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.9.0.20241105.213100";
+      version = "1.9.0.20241130.70347";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20241105.213100.tar";
-        sha256 = "1p8j19x31gp348kydgqkxjyva5lzlgic5jlnshjsxmnadf4a7wbz";
+        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20241130.70347.tar";
+        sha256 = "0xqyzmsyxrqvr1r25qyw59r5997f5ldj0c7nl8l821855dnm2c2y";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10050,6 +10050,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/xref-union.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  yaml = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "yaml";
+      ename = "yaml";
+      version = "1.0.0.0.20241129.211417";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/yaml-1.0.0.0.20241129.211417.tar";
+        sha256 = "0wvyq8hwh10ldpd56xw7n6z4w2zhn4nyk949pyf78vigvr7rv8ll";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/yaml.html";
         license = lib.licenses.free;
       };
     }

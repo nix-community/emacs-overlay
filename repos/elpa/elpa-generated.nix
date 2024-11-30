@@ -2740,10 +2740,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.12.8";
+      version = "0.13.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-0.12.8.tar";
-        sha256 = "17hsl1dpbxha9gh6g68b86941y7b460z6njv0qk8l4vp9ncgmhjk";
+        url = "https://elpa.gnu.org/packages/ellama-0.13.0.tar";
+        sha256 = "0wfn8fv124qxf9yxl4lsa3hwlicmaiv2zzn8w4vhmlni1kf37nlw";
       };
       packageRequires = [
         compat
@@ -9903,6 +9903,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/xref-union.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  yaml = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "yaml";
+      ename = "yaml";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/yaml-1.0.0.tar";
+        sha256 = "0yvfrijjjm17qidyi50nrsvw2m3bqw6p72za7w8v4ywxfl7b59c6";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/yaml.html";
         license = lib.licenses.free;
       };
     }
