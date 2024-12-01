@@ -6712,10 +6712,10 @@
     elpaBuild {
       pname = "popper";
       ename = "popper";
-      version = "0.4.6.0.20240701.211603";
+      version = "0.4.6.0.20241130.171037";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/popper-0.4.6.0.20240701.211603.tar";
-        sha256 = "0jhcpz0y5girsqqfliyg3a4h798hz316i813qdhz1s1xivpd91pk";
+        url = "https://elpa.gnu.org/devel/popper-0.4.6.0.20241130.171037.tar";
+        sha256 = "1gypxgkzaf422pdv9v2rfj010mbvb0qcw3hl3aw99qd7w1ndrd9k";
       };
       packageRequires = [ ];
       meta = {
