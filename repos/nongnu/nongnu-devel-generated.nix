@@ -3189,10 +3189,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241201.193527";
+      version = "1.5.0.0.20241202.10557";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241201.193527.tar";
-        sha256 = "1ck75wb16wfpdnkqkcpg43si4xz3vzm0gid8d1b4laiv50808bdq";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241202.10557.tar";
+        sha256 = "1czvjab3k8vpgmzigsg3wp3pgn3z0w0vyqv76ak4av38rwa57gk7";
       };
       packageRequires = [ ];
       meta = {
@@ -4351,10 +4351,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.30snapshot0.20241126.31749";
+      version = "2.31.0.20241201.210325";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.30snapshot0.20241126.31749.tar";
-        sha256 = "1gxd4qp61m1fvdcj42b3i99nha4d12dv6g46wff6fx3jm2i5va7b";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31.0.20241201.210325.tar";
+        sha256 = "05skikmrfcwbahph8z50kf1zh5vps7459zw7l1bipgyvhfvpq9fn";
       };
       packageRequires = [ macrostep ];
       meta = {
