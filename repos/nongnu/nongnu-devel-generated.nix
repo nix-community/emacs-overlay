@@ -1135,10 +1135,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.0.3.0.20241127.171053";
+      version = "4.1.0.0.20241201.155153";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.0.3.0.20241127.171053.tar";
-        sha256 = "19cckwl33h95s6j4m4a2dab5dssiv6nrs0q930id0xdgcgd4yizr";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.1.0.0.20241201.155153.tar";
+        sha256 = "10sqyqba0jsf1w6i7x77vxgj13wjzr3k9bcpzmzxhqgprakndixy";
       };
       packageRequires = [ ];
       meta = {
@@ -3189,10 +3189,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241130.102626";
+      version = "1.5.0.0.20241201.193527";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241130.102626.tar";
-        sha256 = "0k9rn9vpf4p12416cjjzcgp9i97lxk68vqwciffj5jvi5akdgzl1";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241201.193527.tar";
+        sha256 = "1ck75wb16wfpdnkqkcpg43si4xz3vzm0gid8d1b4laiv50808bdq";
       };
       packageRequires = [ ];
       meta = {
@@ -3294,10 +3294,10 @@
     elpaBuild {
       pname = "multiple-cursors";
       ename = "multiple-cursors";
-      version = "1.4.0.0.20240223.113445";
+      version = "1.4.0.0.20241201.184118";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors-1.4.0.0.20240223.113445.tar";
-        sha256 = "17wq8apfvcrmx4mvyw2pbkp9jg5c960w8j81blzxq1qxh1ggdv3z";
+        url = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors-1.4.0.0.20241201.184118.tar";
+        sha256 = "1qnfhlqzzrbiszkvcxhqgnzlkghakcdskhg1av3j459qvh2sbq8n";
       };
       packageRequires = [ ];
       meta = {
@@ -5173,10 +5173,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.2.0.20241123.213728";
+      version = "3.4.3.0.20241201.141907";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.2.0.20241123.213728.tar";
-        sha256 = "0kq1iafazbb5530ap98fd1jpcjxvd720mwmrz7ai7mnmpx7a6vrf";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.3.0.20241201.141907.tar";
+        sha256 = "1srqg86809lb1b0dj421gb6n522cx19snhvhvxb4nxkk98afiywp";
       };
       packageRequires = [ compat ];
       meta = {
