@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20241129.151647";
+      version = "1.8.0.20241201.134410";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241129.151647.tar";
-        sha256 = "136q7pvjn2ijas18x58zv51971yzn3wnwjvrqqc7s1qbn497mmhx";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241201.134410.tar";
+        sha256 = "11ndnrjfk9s99kyyygyip8bwx0icb2n8bfxk05g3ll43scblpnpx";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2994,10 +2994,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1snapshot0.20241115.112710";
+      version = "5.6.1snapshot0.20241201.105608";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20241115.112710.tar";
-        sha256 = "0a5ngy6w3dl8sy9z2kpj52b4splq6g0l11akx65zmwg6nk35s5iv";
+        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20241201.105608.tar";
+        sha256 = "080ppzpc7r1myl2xig9jlzns9j8sbyd7qdmmijiwcfwgl6dsjg3b";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4449,10 +4449,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "1.10.0.20241119.164445";
+      version = "1.10.0.20241201.134324";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20241119.164445.tar";
-        sha256 = "1d67l50q42ng344crilnq8zvdw1q97pajpfqpwjj2477gi6wgmzy";
+        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20241201.134324.tar";
+        sha256 = "19clhxy5p41ri0b2fsdk2rc9wf37nn90ya5mkhpn8mccfcs9kh7y";
       };
       packageRequires = [ compat ];
       meta = {
