@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.17.0.0.20241130.161407";
+      version = "0.17.0.0.20241201.221131";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241130.161407.tar";
-        sha256 = "0sf1q3jqy3i58mjb9whbx5p39mcxag3ng1i8vqk6y8n6hxva6z3c";
+        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241201.221131.tar";
+        sha256 = "16q5fb0gk2l7fhcrsdvaqqcig4wpch91j94lgff6v4j9i2kzyrs6";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2564,10 +2564,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20241123.0.20241129.94125";
+      version = "20241123.0.20241202.14309";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20241123.0.20241129.94125.tar";
-        sha256 = "147rx5n1i2jzrigy8jy206vby4cxahl7cqf8b0pz3pd83j7qn856";
+        url = "https://elpa.gnu.org/devel/eev-20241123.0.20241202.14309.tar";
+        sha256 = "0w51fvq0qy8n4rqp3xsjzgpjvhyn223240yc460i5rrq79zx3zhl";
       };
       packageRequires = [ ];
       meta = {
