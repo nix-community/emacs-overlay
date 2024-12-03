@@ -2264,10 +2264,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6.0.20241130.123216";
+      version = "0.9.6.0.20241202.31839";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241130.123216.tar";
-        sha256 = "12j803jypdra5s8ndzbkxsr488jxwwii5kp4r7fj551w8g958yka";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.6.0.20241202.31839.tar";
+        sha256 = "1sh6fqp122vwmi3cnifazfmzp90c2xn6znsyxzrk6kpvlh8lpyai";
       };
       packageRequires = [
         compat
@@ -2461,10 +2461,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20241201.64846";
+      version = "4.0.0.20241202.60631";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241201.64846.tar";
-        sha256 = "0pfj0fdj7xasd21agnb4iqy01qlwi011r3x9iv1qfcxnk5q9sh8c";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241202.60631.tar";
+        sha256 = "1ph1m51s65sn77pz05q2gl5q0khlljbnq6rh9rbxkzfizhvnd2jq";
       };
       packageRequires = [
         helm-core
@@ -2486,10 +2486,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20241201.64846";
+      version = "4.0.0.20241202.60631";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241201.64846.tar";
-        sha256 = "0g7zmm5fff17q18b9avn7f2zvyjzs9710ny1bjgk3kcg21dcsing";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241202.60631.tar";
+        sha256 = "09v02gyfb61dsldcm3vzzsbcqm989zp0km9ar84979hgaj0qfrbw";
       };
       packageRequires = [ async ];
       meta = {
@@ -3113,10 +3113,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.1.5.0.20241121.172405";
+      version = "1.1.7.0.20241202.183936";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.5.0.20241121.172405.tar";
-        sha256 = "0z8r752jfy31f2xzxwwaz8mjh88x1lci9xjxvawfhd5mdzwj66s9";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.7.0.20241202.183936.tar";
+        sha256 = "08683fah6xkfzgxi6si4qgl4mxccczj4dcaivif1qlhfrc3bh66f";
       };
       packageRequires = [
         persist
@@ -3189,10 +3189,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241202.10557";
+      version = "1.5.0.0.20241202.155049";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241202.10557.tar";
-        sha256 = "1czvjab3k8vpgmzigsg3wp3pgn3z0w0vyqv76ak4av38rwa57gk7";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241202.155049.tar";
+        sha256 = "0dvciqsm5qc7738zbwpniv8kdlhz3q91m4696f6s75i1dfibvnqq";
       };
       packageRequires = [ ];
       meta = {
@@ -3294,10 +3294,10 @@
     elpaBuild {
       pname = "multiple-cursors";
       ename = "multiple-cursors";
-      version = "1.4.0.0.20241201.184118";
+      version = "1.4.0.0.20241202.163103";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors-1.4.0.0.20241201.184118.tar";
-        sha256 = "1qnfhlqzzrbiszkvcxhqgnzlkghakcdskhg1av3j459qvh2sbq8n";
+        url = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors-1.4.0.0.20241202.163103.tar";
+        sha256 = "018f3fpv0ganvhcwykpb2rfw41nqlkj87dx1zfzkf7s9011grkfv";
       };
       packageRequires = [ ];
       meta = {
