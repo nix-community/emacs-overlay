@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.17.0.0.20241201.221131";
+      version = "0.17.0.0.20241202.202451";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241201.221131.tar";
-        sha256 = "16q5fb0gk2l7fhcrsdvaqqcig4wpch91j94lgff6v4j9i2kzyrs6";
+        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241202.202451.tar";
+        sha256 = "156ppm3f79kw3mfb81w4xj85is21r6nhpb0m8q10qv9k4b99il91";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241126.95244";
+      version = "3.1.0.0.20241202.130526";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241126.95244.tar";
-        sha256 = "1ips7pbl7f38nrn9afsm4a33dwp5rzvh2p2yfdj8ibxkaakhad63";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241202.130526.tar";
+        sha256 = "1fi1zjvcsj7v4wmzahyyggprhm9cf9ibdjh36rzqd81b4z3y20gv";
       };
       packageRequires = [ ];
       meta = {
@@ -2564,10 +2564,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20241123.0.20241202.14309";
+      version = "20241123.0.20241202.94858";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20241123.0.20241202.14309.tar";
-        sha256 = "0w51fvq0qy8n4rqp3xsjzgpjvhyn223240yc460i5rrq79zx3zhl";
+        url = "https://elpa.gnu.org/devel/eev-20241123.0.20241202.94858.tar";
+        sha256 = "0id1rqva96hpn6hfn3iiprwh5k99g3cs6bn368263m2h6xvrgzsh";
       };
       packageRequires = [ ];
       meta = {
@@ -6733,10 +6733,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.4.4.0.20241023.31905";
+      version = "1.4.4.0.20241202.131153";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.4.4.0.20241023.31905.tar";
-        sha256 = "0dphws4lbfyjz4cqh6jc5ma6rf4q1kmrf47y8sp5mg615nvrryrm";
+        url = "https://elpa.gnu.org/devel/posframe-1.4.4.0.20241202.131153.tar";
+        sha256 = "1rlzgl2bjc46g261m513dgl52n2vq0xlfmfpdm1qrdww06jjklg6";
       };
       packageRequires = [ ];
       meta = {
