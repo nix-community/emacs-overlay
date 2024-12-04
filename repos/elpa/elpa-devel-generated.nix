@@ -6018,10 +6018,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.1.0.20240807.73345";
+      version = "1.1.0.20241203.194117";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20240807.73345.tar";
-        sha256 = "1j0qwzhxaj1499qk0bjfvvgywi34v7p9cmpc585kxcanb8g1lvg2";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20241203.194117.tar";
+        sha256 = "03mbak4dv1z49j3sa3v97vmk82b4s5j5fhnwxdy7qqkf7v06jrha";
       };
       packageRequires = [ org ];
       meta = {
@@ -8919,10 +8919,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.9.0.20241120.93248";
+      version = "0.7.9.0.20241202.211122";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.9.0.20241120.93248.tar";
-        sha256 = "1cmagddjas3xc6cig32nr3xbk3bjrzy2x28bqnwbn4pgkgwq3qb6";
+        url = "https://elpa.gnu.org/devel/transient-0.7.9.0.20241202.211122.tar";
+        sha256 = "1hs066qanfrmkfrhjhpqars6q2biyfgp9m0n1ra2x95086fhz0ql";
       };
       packageRequires = [
         compat
