@@ -63,9 +63,9 @@ let
                         "${super.lib.getBin self.stdenv.cc.cc}/bin"
                         "${super.lib.getBin self.stdenv.cc.bintools}/bin"
                         "${super.lib.getBin self.stdenv.cc.bintools.bintools}/bin"
-                      ] ++ super.lib.optionals (self.stdenv.hostPlatform.isDarwin && super ? apple-sdk) [
+                      ] ++ super.lib.optionals (self.stdenv.hostPlatform.isDarwin && self ? apple-sdk) [
                         # The linker needs to know where to find libSystem on Darwin.
-                        "${super.apple-sdk.sdkroot}/usr/lib"
+                        "${self.apple-sdk.sdkroot}/usr/lib"
                       ])));
                      in ''
                         substituteInPlace lisp/emacs-lisp/comp.el --replace-warn \
