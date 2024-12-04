@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.16.0.0.20241115.34320";
+      version = "1.16.1.0.20241203.160720";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.0.0.20241115.34320.tar";
-        sha256 = "0hwhqw6w7il7kvkbz21nbsll6q966jay90rdl66ljhdl99qzrv59";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.1.0.20241203.160720.tar";
+        sha256 = "0b6nqhg5c0ny8ilm4653c7pd34aj02bh6ya9bzc9swdpyq7pwnqr";
       };
       packageRequires = [
         clojure-mode
@@ -2461,10 +2461,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20241202.60631";
+      version = "4.0.0.20241203.54416";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241202.60631.tar";
-        sha256 = "1ph1m51s65sn77pz05q2gl5q0khlljbnq6rh9rbxkzfizhvnd2jq";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241203.54416.tar";
+        sha256 = "0h3c3bizkhrzlb4yr3d7ywqqqvbigg42v99s3g9jv6hgmks9ii8r";
       };
       packageRequires = [
         helm-core
@@ -2486,10 +2486,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20241202.60631";
+      version = "4.0.0.20241203.54416";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241202.60631.tar";
-        sha256 = "09v02gyfb61dsldcm3vzzsbcqm989zp0km9ar84979hgaj0qfrbw";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241203.54416.tar";
+        sha256 = "0mycvfkyqzvclsj5m3fmmb903zv9qzhk2kjpnzwxzy01k57cr8k6";
       };
       packageRequires = [ async ];
       meta = {
@@ -3089,10 +3089,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.7alpha0.20241117.151004";
+      version = "2.7alpha0.20241203.113852";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20241117.151004.tar";
-        sha256 = "15qd5a07i8bmjp8l3vyhpi9i75vza9yypadx4d332fmjhrahmw44";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20241203.113852.tar";
+        sha256 = "14kkg7wj6qkq84jsa5cdwc7i7lqvilx21nb9lyddqxqxm8h7sld8";
       };
       packageRequires = [ ];
       meta = {
@@ -3189,10 +3189,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241202.155049";
+      version = "1.5.0.0.20241203.160407";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241202.155049.tar";
-        sha256 = "0dvciqsm5qc7738zbwpniv8kdlhz3q91m4696f6s75i1dfibvnqq";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241203.160407.tar";
+        sha256 = "0a3zdx91j5q0mllm71951392hgnn5q9l960qs2lazs8plpv4pn9f";
       };
       packageRequires = [ ];
       meta = {
