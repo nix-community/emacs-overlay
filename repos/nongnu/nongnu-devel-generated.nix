@@ -1856,10 +1856,10 @@
     elpaBuild {
       pname = "geiser-chicken";
       ename = "geiser-chicken";
-      version = "0.17.0.20241204.11932";
+      version = "0.17.0.20241204.144210";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-chicken-0.17.0.20241204.11932.tar";
-        sha256 = "1l95d72wl74mlfa50m9m999skj993vqdmm13qm42n0lp0y9ndvyf";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-chicken-0.17.0.20241204.144210.tar";
+        sha256 = "0lss1nz7kdbpmky96r10gvsbnjxxnqlymz0d0579ggvf9hi1cj66";
       };
       packageRequires = [ geiser ];
       meta = {
@@ -2461,10 +2461,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20241204.51511";
+      version = "4.0.0.20241204.173250";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241204.51511.tar";
-        sha256 = "1dzc1jg6p9r589mzwdzhlhj58239ssy85mz27kwr7yyg36cz3m3l";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241204.173250.tar";
+        sha256 = "10jrbbsa1v80sa4176rsq6hj6k7f34kzpnlx4jn349ampyl11838";
       };
       packageRequires = [
         helm-core
@@ -2486,10 +2486,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20241204.51511";
+      version = "4.0.0.20241204.173250";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241204.51511.tar";
-        sha256 = "1xvx1x6p7r1ak40n3740q9iyah2d1npqg7aw1zybshcrai5bm9jm";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241204.173250.tar";
+        sha256 = "0g27cq4m5bz7l6sk9p7hkvpzndfcr5fczkgccpg8bz28215a7gzf";
       };
       packageRequires = [ async ];
       meta = {
@@ -3189,10 +3189,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241203.160407";
+      version = "1.5.0.0.20241204.194347";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241203.160407.tar";
-        sha256 = "0a3zdx91j5q0mllm71951392hgnn5q9l960qs2lazs8plpv4pn9f";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241204.194347.tar";
+        sha256 = "083wgx219f66kzaz6fplrrksqfrkiy0f0lp6mv087p2ahhbqmm0l";
       };
       packageRequires = [ ];
       meta = {
@@ -4092,10 +4092,10 @@
     elpaBuild {
       pname = "reformatter";
       ename = "reformatter";
-      version = "0.8.0.20241106.203153";
+      version = "0.8.0.20241204.105138";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20241106.203153.tar";
-        sha256 = "1gni5f8x8d6m063k9bgaqah80w2hnb12d7qwdw1ai0xg7jb92vp7";
+        url = "https://elpa.nongnu.org/nongnu-devel/reformatter-0.8.0.20241204.105138.tar";
+        sha256 = "1j78naw4jikh7nby67gdbx9banchmf1q5fysal1328gxnyqknmzi";
       };
       packageRequires = [ ];
       meta = {
