@@ -1425,10 +1425,10 @@
     elpaBuild {
       pname = "evil-matchit";
       ename = "evil-matchit";
-      version = "3.0.4";
+      version = "4.0.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/evil-matchit-3.0.4.tar";
-        sha256 = "1ib2xlz7ciaszw2j5184mf6560jmap93vh515sk8dmkkahdwsjgz";
+        url = "https://elpa.nongnu.org/nongnu/evil-matchit-4.0.1.tar";
+        sha256 = "08vnf56zmqicfjwf7ihlmg9iil3bivhwpafq8vwlvp5nkmirhivv";
       };
       packageRequires = [ ];
       meta = {
@@ -2281,10 +2281,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.6";
+      version = "0.9.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gptel-0.9.6.tar";
-        sha256 = "0n7d8plabgmpyl224079cqrwlgqq7wwysba0wd0ry75h6z388rcb";
+        url = "https://elpa.nongnu.org/nongnu/gptel-0.9.7.tar";
+        sha256 = "0sh8q80q620d6yr4437ddrjrzygd15iwkc9jvwh3pw9sncv2laqn";
       };
       packageRequires = [
         compat
