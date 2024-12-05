@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241129.84113";
+      version = "14.0.7.0.20241204.185038";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241129.84113.tar";
-        sha256 = "0z7a9zsbljwzrn3xzn9hcl1zlqczafvcbx62cbmlrib0cknlxqp8";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241204.185038.tar";
+        sha256 = "17syq1n4bcsv0phxhp01nrlicv7g05hkcvf723hn593xkp8yn6b5";
       };
       packageRequires = [ ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241203.81843";
+      version = "3.1.0.0.20241204.155650";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241203.81843.tar";
-        sha256 = "1irr0z942qdjypaxx6q1scndzzkby0kcsa18jqsxnrc5np4f8p3i";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241204.155650.tar";
+        sha256 = "1i39xz7wdbjsc5cl3f9q00jw966by8d0i4aazr8jiq976q94ai4k";
       };
       packageRequires = [ ];
       meta = {
@@ -2235,10 +2235,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.3.0.0.20241025.80757";
+      version = "0.3.0.0.20241204.160518";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20241025.80757.tar";
-        sha256 = "0xw629nhbcbk5sndgxgwl6nwf5rva7nj2h87fx73dy1fb89jz827";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20241204.160518.tar";
+        sha256 = "14ar1p7vbxdf8bhb30g9wjkh6aabxa3brvd98rlxsjav269mkmvq";
       };
       packageRequires = [ ];
       meta = {
@@ -3041,10 +3041,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "24.1.1.0.20241127.102031";
+      version = "24.1.1.0.20241204.131358";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20241127.102031.tar";
-        sha256 = "19gkxkslg9y84fc9shc655fqgcr27rbjnn4rsnhkpqvwbzn54kkq";
+        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20241204.131358.tar";
+        sha256 = "163cr3832dsqmmd0k0lyirh0i4yawghnr76mpr9izz6acbj8mcry";
       };
       packageRequires = [ ];
       meta = {
@@ -6691,10 +6691,10 @@
     elpaBuild {
       pname = "polymode";
       ename = "polymode";
-      version = "0.2.2.0.20241129.123411";
+      version = "0.2.2.0.20241204.120252";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20241129.123411.tar";
-        sha256 = "0mrs7a8kp2mlidps76h5w0xgnilhpka7qi5pq2xc0i0lk09jd9gv";
+        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20241204.120252.tar";
+        sha256 = "1ipdg4byc58gc4jncak5p6w7iyw0y173y4aky2fz88h1ccag2s2g";
       };
       packageRequires = [ ];
       meta = {
