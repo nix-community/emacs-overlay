@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20241204.224824";
+      version = "1.8.0.20241205.161912";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241204.224824.tar";
-        sha256 = "1grq1b5lbpq33rc43vh3pwgvvn9kw07xgcxccvb6cd187lqby3g3";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241205.161912.tar";
+        sha256 = "0wnm63fxkhph44hwqrmrgjjb5jvji3clgf2wn6d7amh9p3vh2h93";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241204.155650";
+      version = "3.1.0.0.20241205.160244";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241204.155650.tar";
-        sha256 = "1i39xz7wdbjsc5cl3f9q00jw966by8d0i4aazr8jiq976q94ai4k";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241205.160244.tar";
+        sha256 = "112rxhgj64400qi79ycvm6n710lmj85smlx0s9iab3bs0ik09wp1";
       };
       packageRequires = [ ];
       meta = {
@@ -2905,10 +2905,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "20.2.0.20241129.151319";
+      version = "20.2.0.20241205.81932";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-20.2.0.20241129.151319.tar";
-        sha256 = "17rqxmrcr3p150nhi2yyn21g7hg68yjpxdg7bjdpif5086h8snff";
+        url = "https://elpa.gnu.org/devel/emms-20.2.0.20241205.81932.tar";
+        sha256 = "0kja0iwrqsxfjjr99j74b5agra5nrm74x62vi9w04f6spmyf64vm";
       };
       packageRequires = [
         cl-lib
@@ -8595,10 +8595,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.2.0.20241204.224137";
+      version = "1.2.0.20241205.91548";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20241204.224137.tar";
-        sha256 = "0y8ilnda2qgm5fhgb2rasipqak65l9inz7kjja34dqfsczv4sg2n";
+        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20241205.91548.tar";
+        sha256 = "0g1kv5php6sx2wg76a7ph5y7l0piq1220288kz0y3bm4ilsp5nzr";
       };
       packageRequires = [ compat ];
       meta = {
