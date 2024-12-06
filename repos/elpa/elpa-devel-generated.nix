@@ -1041,10 +1041,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.7.0.20241123.92531";
+      version = "1.7.0.20241206.63056";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-1.7.0.20241123.92531.tar";
-        sha256 = "0f1l510lzhd2p6003mnp4bvrhjqpqfvvz30lrj1ic9x453z80fpq";
+        url = "https://elpa.gnu.org/devel/cape-1.7.0.20241206.63056.tar";
+        sha256 = "02ij4lyi1r9s1sz47m5mhhimp2b88srbci9ljq7kd6dv2vm9f7w0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20241205.161912";
+      version = "1.8.0.20241206.2228";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241205.161912.tar";
-        sha256 = "0wnm63fxkhph44hwqrmrgjjb5jvji3clgf2wn6d7amh9p3vh2h93";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241206.2228.tar";
+        sha256 = "0g0mgn48y0p6nmy8wr98b1x4grnyk87vc2nn203a27gsc0ys8y7b";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2108,10 +2108,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20241128.233206";
+      version = "1.10.0.0.20241205.233841";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20241128.233206.tar";
-        sha256 = "1728i37sz52hf2bsbr5msvzciqdcn98xlnv812sd7mc7zz6j2q27";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20241205.233841.tar";
+        sha256 = "1a1ndnf6w7j0k85k1rzdi8r0m4fj78lafzsf9dl4s3dj11lqrphh";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2905,10 +2905,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "20.2.0.20241205.81932";
+      version = "20.2.0.20241205.193710";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-20.2.0.20241205.81932.tar";
-        sha256 = "0kja0iwrqsxfjjr99j74b5agra5nrm74x62vi9w04f6spmyf64vm";
+        url = "https://elpa.gnu.org/devel/emms-20.2.0.20241205.193710.tar";
+        sha256 = "1s95vsjazxgnsl17q25q8sbzbx1p9jdpb2j2pnn7ywxg0wpjc2g6";
       };
       packageRequires = [
         cl-lib
