@@ -2288,10 +2288,10 @@
     elpaBuild {
       pname = "graphql-mode";
       ename = "graphql-mode";
-      version = "1.0.0.0.20241020.75405";
+      version = "1.0.0.0.20241206.72535";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20241020.75405.tar";
-        sha256 = "0bds1zv0syg1jfdak2hk3kank4c532r6ki095wamxy06rwdbm2il";
+        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20241206.72535.tar";
+        sha256 = "06pn5rk0mkswrx2sd589hbqir1wkczjwy453ssk0az4z49g85ks9";
       };
       packageRequires = [ ];
       meta = {
@@ -2619,10 +2619,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20241106.231359";
+      version = "0.5pre0.20241206.1204";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241106.231359.tar";
-        sha256 = "11b3dvwzrsgg2nj3kasgrz5bwhd2i3ig4v9blzlzhyybw6wy0i1f";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241206.1204.tar";
+        sha256 = "0v7hkazrr10f1h9681r1aw93wn5lcc14j1rwcrhm5i4pphds2c89";
       };
       packageRequires = [
         compat
@@ -4931,10 +4931,10 @@
     elpaBuild {
       pname = "undo-fu";
       ename = "undo-fu";
-      version = "0.5.0.20240707.141050";
+      version = "0.5.0.20241206.21950";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-0.5.0.20240707.141050.tar";
-        sha256 = "0glgy1manfv9rykkxhafc969mhazd119zgrkm5fg9shcyb7q629a";
+        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-0.5.0.20241206.21950.tar";
+        sha256 = "0kslql79g5y0sszjm6xxyxjzrnskm70dgglwwl2g4a1rjwavcp3v";
       };
       packageRequires = [ ];
       meta = {
