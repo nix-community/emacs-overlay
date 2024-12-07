@@ -1093,10 +1093,10 @@
     elpaBuild {
       pname = "eglot-inactive-regions";
       ename = "eglot-inactive-regions";
-      version = "0.6.3.0.20241206.115752";
+      version = "0.6.3.0.20241207.54343";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eglot-inactive-regions-0.6.3.0.20241206.115752.tar";
-        sha256 = "0bkhnprizmdm6hdwi936dasyv5c50gnpwiab4flpnrzbkr9fj3sl";
+        url = "https://elpa.nongnu.org/nongnu-devel/eglot-inactive-regions-0.6.3.0.20241207.54343.tar";
+        sha256 = "0h1l82r77782pjbpggjw88lavdilaz8pq0vhqjv8g1rqxbj0i7gy";
       };
       packageRequires = [ ];
       meta = {
@@ -2640,10 +2640,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20241206.121537";
+      version = "0.6pre0.20241206.224118";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241206.121537.tar";
-        sha256 = "02fz54vh4x01m2rqklgsgwlbhpbf3znhb83hsbfrx0qhiqrf4bh4";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.6pre0.20241206.224118.tar";
+        sha256 = "0dqv4l6aq8np4bkyg94xc1v4w6wczvmfclii1gi7wyslrapn4fvg";
       };
       packageRequires = [
         compat
@@ -3085,10 +3085,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.1.2.0.20241102.130025";
+      version = "4.1.3.0.20241206.221431";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.2.0.20241102.130025.tar";
-        sha256 = "1cnpklpsvbsi1wsmfbp5m8379cbr6jdifxm07zj4hnvi8lyr49vn";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.3.0.20241206.221431.tar";
+        sha256 = "0vf7v9b6b1jmd8si0ih6dc835q5c6w1wlh29vfgcr6vi2ppx2m93";
       };
       packageRequires = [
         compat
@@ -3469,10 +3469,10 @@
     elpaBuild {
       pname = "org-contrib";
       ename = "org-contrib";
-      version = "0.6.0.20241029.204012";
+      version = "0.6.0.20241207.74256";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-contrib-0.6.0.20241029.204012.tar";
-        sha256 = "12pfmv5ns5igdvc06glcc8nxqcj7lwjqc3s86720ys57y4py566w";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-contrib-0.6.0.20241207.74256.tar";
+        sha256 = "0i9ii3ngimx1l8s4pq2zn73lnry1npsbrsxzn92gwayj0sm77bkp";
       };
       packageRequires = [ org ];
       meta = {
@@ -4029,10 +4029,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20241206.91913";
+      version = "1.0.20241206.163553";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241206.91913.tar";
-        sha256 = "1ackaynbxnlm1iqhjr15y3rbrkhwvwrg0g3d0qhfp2mwxm5sv5sc";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241206.163553.tar";
+        sha256 = "0r1093xcvfbmrz1j10mklgc33b47a1fwwc7nihhcz9y0maz35hjz";
       };
       packageRequires = [ ];
       meta = {

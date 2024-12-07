@@ -2656,10 +2656,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.4.2";
+      version = "0.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hyperdrive-0.4.2.tar";
-        sha256 = "19cgx0x54xj2z98m8mr1xmz0bbja0nilh8n47mkbnzmcqidv75gq";
+        url = "https://elpa.nongnu.org/nongnu/hyperdrive-0.5.tar";
+        sha256 = "03ms0chvyaljj0g40wbpg5m6mp3j6hhfgj9n9y0d8bh9r9vfjfnm";
       };
       packageRequires = [
         compat
@@ -3101,10 +3101,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.1.2";
+      version = "4.1.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.1.2.tar";
-        sha256 = "0g24aj030fh55y44f3c33708fbm02jwzggh75zvg63bka3g6j242";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.1.3.tar";
+        sha256 = "166ca6mivb3p0bcqvv9icg6n8k62rak1hil5hxrbdaw3wwks0hqw";
       };
       packageRequires = [
         compat
@@ -4052,10 +4052,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20241206.91913";
+      version = "1.0.20241206.163553";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20241206.91913.tar";
-        sha256 = "03fjnzrn149r2k9fp78pdvs7y0r16i6q87yl5n6ihp6k01xlb88n";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20241206.163553.tar";
+        sha256 = "0yb3i465l1ycawkf74fin55wm235572wgfsxv768pzr5b2fnprb2";
       };
       packageRequires = [ ];
       meta = {
