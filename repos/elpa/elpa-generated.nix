@@ -5964,10 +5964,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.16";
+      version = "9.7.17";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.16.tar";
-        sha256 = "1d6vxd7ssfb1v00a37dr723v9cg8i8v78lcymqndqhy6f2ji1f06";
+        url = "https://elpa.gnu.org/packages/org-9.7.17.tar";
+        sha256 = "0zwjw5zabl22jqc8ncn5npbcl73m3flfx5mz77v62r23kdhwgsjs";
       };
       packageRequires = [ ];
       meta = {
@@ -7960,6 +7960,28 @@
       };
     }
   ) { };
+  speedrect = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "speedrect";
+      ename = "speedrect";
+      version = "0.6";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/speedrect-0.6.tar";
+        sha256 = "1jm4phv6gy156bkzbmxfb08pm6z7rhfr52la2wsqshj9m3ss7495";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/speedrect.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   spinner = callPackage (
     {
       elpaBuild,
@@ -8774,10 +8796,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.9";
+      version = "0.8.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.7.9.tar";
-        sha256 = "07d5pzd7nalnjxn6wpj6vpfg8pldnwh69l85immmiww03vl8ngrf";
+        url = "https://elpa.gnu.org/packages/transient-0.8.0.tar";
+        sha256 = "0p24ia027b6jm5azjjmqzf4ipiri072y8452nic626ijvjbimf3b";
       };
       packageRequires = [
         compat

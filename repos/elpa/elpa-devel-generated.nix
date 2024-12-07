@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241206.104806";
+      version = "3.1.0.0.20241207.63409";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241206.104806.tar";
-        sha256 = "166c2r1zjrn03miwvxpb9igcn4sf3spxy8jbbybp2bl0wxdgh8qr";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241207.63409.tar";
+        sha256 = "01lcxhmmjmsqmd784gsmq5vr3dbr8si0f1hlrp97gl31qff5xjc2";
       };
       packageRequires = [ ];
       meta = {
@@ -5996,10 +5996,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241127.183434";
+      version = "9.8pre0.20241207.72755";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241127.183434.tar";
-        sha256 = "1v7inlp4mm2c9395jw814krg2yp5h70h0cj0q86m26zgg9f2wicy";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241207.72755.tar";
+        sha256 = "0ivipncnqg8dh7bvmcz5qxahgs9mjkik9dfdv41cpc512ajfyp3b";
       };
       packageRequires = [ ];
       meta = {
@@ -8060,6 +8060,28 @@
       };
     }
   ) { };
+  speedrect = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "speedrect";
+      ename = "speedrect";
+      version = "0.6.0.20241203.154705";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/speedrect-0.6.0.20241203.154705.tar";
+        sha256 = "0cck48rw08wp3j69psasp177a3kk2l26177j5sgnya0b0ha6iwiv";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/speedrect.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   spinner = callPackage (
     {
       elpaBuild,
@@ -8415,10 +8437,10 @@
     elpaBuild {
       pname = "sxhkdrc-mode";
       ename = "sxhkdrc-mode";
-      version = "1.0.0.0.20240913.71503";
+      version = "1.0.0.0.20241207.74849";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/sxhkdrc-mode-1.0.0.0.20240913.71503.tar";
-        sha256 = "02qgyk2f1jglwkk34sph8j1ab1rq8r6pad7ixvi9idq7ya6wzfdb";
+        url = "https://elpa.gnu.org/devel/sxhkdrc-mode-1.0.0.0.20241207.74849.tar";
+        sha256 = "1rq8j65apf3slhs34d2fdrbd0x02l7mb28vhvqvhgygw5c70xg50";
       };
       packageRequires = [ ];
       meta = {
@@ -8919,10 +8941,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.7.9.0.20241203.214158";
+      version = "0.8.0.0.20241206.220403";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.7.9.0.20241203.214158.tar";
-        sha256 = "0yrc8y035yxrirjnbq3hl4jb3mj5xdnv0sy6aji4pdln2ywv122d";
+        url = "https://elpa.gnu.org/devel/transient-0.8.0.0.20241206.220403.tar";
+        sha256 = "1x8bpiy9blqlv4mqlrlfaa547hd1igxm26dns121hmy2h7hxn9ws";
       };
       packageRequires = [
         compat
