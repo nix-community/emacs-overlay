@@ -1084,6 +1084,27 @@
       };
     }
   ) { };
+  eglot-inactive-regions = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "eglot-inactive-regions";
+      ename = "eglot-inactive-regions";
+      version = "0.6.3.0.20241206.115752";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/eglot-inactive-regions-0.6.3.0.20241206.115752.tar";
+        sha256 = "0bkhnprizmdm6hdwi936dasyv5c50gnpwiab4flpnrzbkr9fj3sl";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/eglot-inactive-regions.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   elixir-mode = callPackage (
     {
       elpaBuild,
@@ -2264,10 +2285,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20241204.185355";
+      version = "0.9.7.0.20241206.84011";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20241204.185355.tar";
-        sha256 = "1wv3schny7bxfklk5d3vcj28i1qjv2im46shfyp774afp8wkczzy";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20241206.84011.tar";
+        sha256 = "0jscl993ax6djwcn1qmwm8nnlz1718840s1h6ivmikbyr5j62kdi";
       };
       packageRequires = [
         compat
@@ -2619,10 +2640,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5pre0.20241206.1204";
+      version = "0.5pre0.20241206.121537";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241206.1204.tar";
-        sha256 = "0v7hkazrr10f1h9681r1aw93wn5lcc14j1rwcrhm5i4pphds2c89";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.5pre0.20241206.121537.tar";
+        sha256 = "02fz54vh4x01m2rqklgsgwlbhpbf3znhb83hsbfrx0qhiqrf4bh4";
       };
       packageRequires = [
         compat
@@ -3189,10 +3210,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241204.194347";
+      version = "1.5.0.0.20241206.92210";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241204.194347.tar";
-        sha256 = "083wgx219f66kzaz6fplrrksqfrkiy0f0lp6mv087p2ahhbqmm0l";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241206.92210.tar";
+        sha256 = "1i7cdgdra60nxhkcm4qqvv4lagv1q0ig9gg2g08l4j3an9sfbjky";
       };
       packageRequires = [ ];
       meta = {
@@ -4008,10 +4029,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20241129.85359";
+      version = "1.0.20241206.91913";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241129.85359.tar";
-        sha256 = "0j6hs2wpaknzprcm18y1ayqjcr2sl0z22fhw1yla5rv74lyqzglx";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241206.91913.tar";
+        sha256 = "1ackaynbxnlm1iqhjr15y3rbrkhwvwrg0g3d0qhfp2mwxm5sv5sc";
       };
       packageRequires = [ ];
       meta = {
@@ -5130,10 +5151,10 @@
     elpaBuild {
       pname = "wgrep";
       ename = "wgrep";
-      version = "3.0.0.0.20231216.120954";
+      version = "3.0.0.0.20241206.130617";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/wgrep-3.0.0.0.20231216.120954.tar";
-        sha256 = "1qadyl29a70d9m5z32s0r18rjxg0jdmbpjr47zgvppl807mfni85";
+        url = "https://elpa.nongnu.org/nongnu-devel/wgrep-3.0.0.0.20241206.130617.tar";
+        sha256 = "1ihwqz865wcdb83aw6nmzhnkrf7rnxqkcncmz7rvzddsrg19hahr";
       };
       packageRequires = [ ];
       meta = {

@@ -1108,6 +1108,27 @@
       };
     }
   ) { };
+  eglot-inactive-regions = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "eglot-inactive-regions";
+      ename = "eglot-inactive-regions";
+      version = "0.6.3";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/eglot-inactive-regions-0.6.3.tar";
+        sha256 = "03958dgr48zqak06qjqdz6qgfxn5rs60425qcvb7wdv2jb4400hc";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/eglot-inactive-regions.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   elixir-mode = callPackage (
     {
       elpaBuild,
@@ -4031,10 +4052,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20241129.85359";
+      version = "1.0.20241206.91913";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20241129.85359.tar";
-        sha256 = "0ish7ysdqypw849k9d3cw0bl69r5ksc3hrqdmyh8k2ipq2xbcn2w";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20241206.91913.tar";
+        sha256 = "03fjnzrn149r2k9fp78pdvs7y0r16i6q87yl5n6ihp6k01xlb88n";
       };
       packageRequires = [ ];
       meta = {
