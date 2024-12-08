@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20241207.180427";
+      version = "1.8.0.20241208.70522";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241207.180427.tar";
-        sha256 = "054520cwnl42b783g5piss0pyyxq8yi46b48arf0glxx40jzclaz";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241208.70522.tar";
+        sha256 = "0cg9ly1dsq784amwffkdf6s47njrfn338kza7vn2bi5wrgn5k0ax";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.17.0.0.20241204.214735";
+      version = "0.17.0.0.20241207.232555";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241204.214735.tar";
-        sha256 = "127k1i8ys3l8n67pzlpfgxni9lzyab7cz4acs95n253vx5rvb0x4";
+        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241207.232555.tar";
+        sha256 = "0w5ajdq42lay0nbkr2hws580smz65mh89lhifq511pxrzydpdf9n";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2235,10 +2235,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.3.0.0.20241204.160518";
+      version = "0.3.0.0.20241208.83138";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20241204.160518.tar";
-        sha256 = "14ar1p7vbxdf8bhb30g9wjkh6aabxa3brvd98rlxsjav269mkmvq";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20241208.83138.tar";
+        sha256 = "0208w61qd7g05ngsb6l199zh19pw42czms1cyn5wy7d91icz5izj";
       };
       packageRequires = [ ];
       meta = {
@@ -2564,10 +2564,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20241123.0.20241202.94858";
+      version = "20241207.0.20241207.211822";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20241123.0.20241202.94858.tar";
-        sha256 = "0id1rqva96hpn6hfn3iiprwh5k99g3cs6bn368263m2h6xvrgzsh";
+        url = "https://elpa.gnu.org/devel/eev-20241207.0.20241207.211822.tar";
+        sha256 = "055lmambmrwl0niidn2z61l7xxrj0va277rwxlaqswals5gbqmi4";
       };
       packageRequires = [ ];
       meta = {
