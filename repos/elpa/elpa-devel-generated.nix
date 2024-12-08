@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20241206.2228";
+      version = "1.8.0.20241207.180427";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241206.2228.tar";
-        sha256 = "0g0mgn48y0p6nmy8wr98b1x4grnyk87vc2nn203a27gsc0ys8y7b";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241207.180427.tar";
+        sha256 = "054520cwnl42b783g5piss0pyyxq8yi46b48arf0glxx40jzclaz";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241207.63409";
+      version = "3.1.0.0.20241207.170330";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241207.63409.tar";
-        sha256 = "01lcxhmmjmsqmd784gsmq5vr3dbr8si0f1hlrp97gl31qff5xjc2";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241207.170330.tar";
+        sha256 = "0ch5jnk36ymmxhdra2ynz9b4xbrczwss5k486jl9bhk5xjc87m34";
       };
       packageRequires = [ ];
       meta = {
