@@ -1574,10 +1574,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20241127.155437";
+      version = "1.5.0.20241208.184033";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241127.155437.tar";
-        sha256 = "15xs0mdbw5h84m5msviw6vp73yxjxkh6hynzaa011a8xwaz7r5v1";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241208.184033.tar";
+        sha256 = "1xl0k6n12vmn5mdggpqsnm5f85m9hq1f14rc0m1vrp289sfnaa7i";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241207.170330";
+      version = "3.1.0.0.20241208.164609";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241207.170330.tar";
-        sha256 = "0ch5jnk36ymmxhdra2ynz9b4xbrczwss5k486jl9bhk5xjc87m34";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241208.164609.tar";
+        sha256 = "18d3v1n38i84hsww77j09x3hp041d7j2gavisms3am1cabaf6cmx";
       };
       packageRequires = [ ];
       meta = {
@@ -3832,10 +3832,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.11.18.0.20241025.123748";
+      version = "0.11.18.0.20241208.143035";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.11.18.0.20241025.123748.tar";
-        sha256 = "17sh65y476zd5lwmvialk399g5gl11d52p4jmhgjv7kpb4xl3jly";
+        url = "https://elpa.gnu.org/devel/greader-0.11.18.0.20241208.143035.tar";
+        sha256 = "0dh3vnl7b6c18810nk84an0fks58fi5krsnmfkg0r7kdm724ik60";
       };
       packageRequires = [
         compat
@@ -5214,6 +5214,27 @@
       };
     }
   ) { };
+  matlab-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "matlab-mode";
+      ename = "matlab-mode";
+      version = "6.3.0.20241208.165742";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20241208.165742.tar";
+        sha256 = "1qs3c14mnxp91gxqc96ribc4hgbmyy6lprlp9xjwl5aq7w7gv3kv";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/matlab-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   mct = callPackage (
     {
       elpaBuild,
@@ -5996,10 +6017,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241207.72755";
+      version = "9.8pre0.20241208.123440";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241207.72755.tar";
-        sha256 = "0ivipncnqg8dh7bvmcz5qxahgs9mjkik9dfdv41cpc512ajfyp3b";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241208.123440.tar";
+        sha256 = "172v5xqsyphlbyban53lz85rn1yicwbk4axw8flzhlswlrj2c8dc";
       };
       packageRequires = [ ];
       meta = {
@@ -9477,10 +9498,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.9.0.20241130.70347";
+      version = "1.9.0.20241208.184015";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20241130.70347.tar";
-        sha256 = "0xqyzmsyxrqvr1r25qyw59r5997f5ldj0c7nl8l821855dnm2c2y";
+        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20241208.184015.tar";
+        sha256 = "00x9jdjgpk3bxfmbqcwx17vlgqfndr3h9hxwplxlxiqyk88rd4cz";
       };
       packageRequires = [ compat ];
       meta = {
