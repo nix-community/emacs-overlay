@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20241208.70522";
+      version = "1.8.0.20241209.84937";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241208.70522.tar";
-        sha256 = "0cg9ly1dsq784amwffkdf6s47njrfn338kza7vn2bi5wrgn5k0ax";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241209.84937.tar";
+        sha256 = "08jmfdanlmdybvxfy84c078q5s1fgf7sm9xczq0ik4p51y26xvk7";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1574,10 +1574,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20241208.184033";
+      version = "1.5.0.20241208.224221";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241208.184033.tar";
-        sha256 = "1xl0k6n12vmn5mdggpqsnm5f85m9hq1f14rc0m1vrp289sfnaa7i";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241208.224221.tar";
+        sha256 = "0xvqf0hpr4plcq0fa75waj7wnd3mxqzdw5rncy96xbbz5p1aw7ri";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4900,10 +4900,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.19.1.0.20241129.152751";
+      version = "0.19.1.0.20241209.3443";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.19.1.0.20241129.152751.tar";
-        sha256 = "07jcm718wivagwnr53rriwa7gp3zkxgybff5wivi1n6xdfhm9b1y";
+        url = "https://elpa.gnu.org/devel/llm-0.19.1.0.20241209.3443.tar";
+        sha256 = "1s5ldys1ga08ciwqi250x0gfajhk5rs94mv5lakfyqr65385rpid";
       };
       packageRequires = [
         plz
@@ -8091,10 +8091,10 @@
     elpaBuild {
       pname = "speedrect";
       ename = "speedrect";
-      version = "0.6.0.20241203.154705";
+      version = "0.6.0.20241209.32904";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/speedrect-0.6.0.20241203.154705.tar";
-        sha256 = "0cck48rw08wp3j69psasp177a3kk2l26177j5sgnya0b0ha6iwiv";
+        url = "https://elpa.gnu.org/devel/speedrect-0.6.0.20241209.32904.tar";
+        sha256 = "0a9xa2ci5bm317qwxkd00hcsrcp6p5nxmh9q6l1yk6cfgmpm927k";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8962,10 +8962,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.0.0.20241206.220403";
+      version = "0.8.1.0.20241208.222738";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.8.0.0.20241206.220403.tar";
-        sha256 = "1x8bpiy9blqlv4mqlrlfaa547hd1igxm26dns121hmy2h7hxn9ws";
+        url = "https://elpa.gnu.org/devel/transient-0.8.1.0.20241208.222738.tar";
+        sha256 = "0m47bbr363cwsrq9n9q3w0d2i3zsnjxjhy3352w8dxn9l1z2p0aj";
       };
       packageRequires = [
         compat
@@ -9498,10 +9498,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.9.0.20241208.184015";
+      version = "1.9.0.20241208.223312";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20241208.184015.tar";
-        sha256 = "00x9jdjgpk3bxfmbqcwx17vlgqfndr3h9hxwplxlxiqyk88rd4cz";
+        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20241208.223312.tar";
+        sha256 = "0q5hd6y9zlyx4dh09anl9np1fk5sb0sqxi9jz4n0a90zb6a5sasv";
       };
       packageRequires = [ compat ];
       meta = {
