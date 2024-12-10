@@ -4372,10 +4372,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31.0.20241201.210325";
+      version = "2.31snapshot0.20241209.160311";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31.0.20241201.210325.tar";
-        sha256 = "05skikmrfcwbahph8z50kf1zh5vps7459zw7l1bipgyvhfvpq9fn";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20241209.160311.tar";
+        sha256 = "1fkcdz0j5b58m3nxb7p249rsszzxlala1nwcgvdq7jx1am7njrcv";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -4561,10 +4561,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.21.0.20241117.83905";
+      version = "1.2.21.0.20241209.124112";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.21.0.20241117.83905.tar";
-        sha256 = "0v95g129yp9s3kknbw1fp4iqn0f0g65bhvw4433v3dbinw9l3k74";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.21.0.20241209.124112.tar";
+        sha256 = "1sgd6hjqc4manjsc6crqm4b0vqkgksmd68gjg4cfl6kbklb5y3as";
       };
       packageRequires = [ ];
       meta = {
