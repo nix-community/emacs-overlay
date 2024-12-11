@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7.0.20241204.185038";
+      version = "14.0.7.0.20241210.204642";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241204.185038.tar";
-        sha256 = "17syq1n4bcsv0phxhp01nrlicv7g05hkcvf723hn593xkp8yn6b5";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.7.0.20241210.204642.tar";
+        sha256 = "0cr82spb5k0mns7zs20n8alwk5axyvjh360k5b4zrxr9rp2h42da";
       };
       packageRequires = [ ];
       meta = {
@@ -1322,10 +1322,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20241106.200056";
+      version = "1.0.2.0.20241210.201947";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20241106.200056.tar";
-        sha256 = "10pn52y3pgi2cbqi96sr3gghashsqvinc7lbylwg7mrhjgj0jdnv";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20241210.201947.tar";
+        sha256 = "070fjrh59wwggrd18rcdbs0nb4hqawrag2ym36jsq7z5vvixkp82";
       };
       packageRequires = [ ];
       meta = {
@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.8.0.20241210.63112";
+      version = "1.8.0.20241210.131319";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241210.63112.tar";
-        sha256 = "11nmbfvrpqf1zsf5hm3k0jwalas02472y6vql56rl3h41zx44jwx";
+        url = "https://elpa.gnu.org/devel/consult-1.8.0.20241210.131319.tar";
+        sha256 = "1agsv6qppsg8sidp7kfzrsx25f5ppmfdfjs863lpn6hf1rm7n65k";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.17.0.0.20241209.181313";
+      version = "0.17.0.0.20241210.204426";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241209.181313.tar";
-        sha256 = "0x9kpd0mcxi4qpmby3q3zqzfjrzq40m1waafmz6qjga6xdy5rlgv";
+        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241210.204426.tar";
+        sha256 = "01hqa74zq6x2a0r6r58diqda3q3yi4hw5v40fylggffg0af6fxzd";
       };
       packageRequires = [ jsonrpc ];
       meta = {
