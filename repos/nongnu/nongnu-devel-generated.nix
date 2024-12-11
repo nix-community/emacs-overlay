@@ -573,10 +573,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.20.0snapshot0.20241125.112305";
+      version = "5.20.0snapshot0.20241211.61959";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.20.0snapshot0.20241125.112305.tar";
-        sha256 = "0hh17w63j5x4687kbd2vmlj9qs468ivq54mwwcm6p43wr7rvk2cj";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.20.0snapshot0.20241211.61959.tar";
+        sha256 = "186wfnwhmgcaw6psxbbvr5zm5zj8mlm0rqs1ip21ap6s2z9mgvkl";
       };
       packageRequires = [ ];
       meta = {
@@ -1008,10 +1008,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.5.5.0.20241210.123353";
+      version = "0.5.5.0.20241211.60925";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.5.0.20241210.123353.tar";
-        sha256 = "0vvddp8d6krzzn244jh52027di89wwc3kadhv187r6qr58am1689";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.5.0.20241211.60925.tar";
+        sha256 = "0p86j2ljq1jvh0dxkhqa3zn1xddr56050w9gksbzac5sqcwm2fp6";
       };
       packageRequires = [ ];
       meta = {
@@ -2640,10 +2640,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.6pre0.20241206.224118";
+      version = "0.6pre0.20241211.5237";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.6pre0.20241206.224118.tar";
-        sha256 = "0dqv4l6aq8np4bkyg94xc1v4w6wczvmfclii1gi7wyslrapn4fvg";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.6pre0.20241211.5237.tar";
+        sha256 = "1ynibsrfmblac9rwhiwm703xkr9aaycbij5x8ndsc5picjrm5nd3";
       };
       packageRequires = [
         compat
@@ -3210,10 +3210,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20241206.92210";
+      version = "1.5.0.0.20241211.74417";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241206.92210.tar";
-        sha256 = "1i7cdgdra60nxhkcm4qqvv4lagv1q0ig9gg2g08l4j3an9sfbjky";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20241211.74417.tar";
+        sha256 = "0znyyikgvy9qjdyasnikxfzwnqwcngh4cm669hv8yysjjfvpb34y";
       };
       packageRequires = [ ];
       meta = {
