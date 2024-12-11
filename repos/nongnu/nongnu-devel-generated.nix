@@ -1008,10 +1008,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.5.5.0.20241205.144749";
+      version = "0.5.5.0.20241210.123353";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.5.0.20241205.144749.tar";
-        sha256 = "1parzy7kvfrwq66ir63wwv24lkwdg5ywxmkqn8z42xspqyx19vzf";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.5.5.0.20241210.123353.tar";
+        sha256 = "0vvddp8d6krzzn244jh52027di89wwc3kadhv187r6qr58am1689";
       };
       packageRequires = [ ];
       meta = {
@@ -2111,10 +2111,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.8.0.20241115.104152";
+      version = "0.4.10.0.20241210.204105";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.8.0.20241115.104152.tar";
-        sha256 = "143pmwp5g2wzmmhmbwc1q6hhf86j1cywi8x2hzvlq0p5mhkkilr1";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.10.0.20241210.204105.tar";
+        sha256 = "0ccpk4kc3pqjcz1r4zrpxj24wkarzhavwy9pz3rmmgx7g7f6npkp";
       };
       packageRequires = [
         compat
