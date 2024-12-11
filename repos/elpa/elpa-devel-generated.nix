@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.17.0.0.20241210.204426";
+      version = "0.17.0.0.20241210.223651";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241210.204426.tar";
-        sha256 = "01hqa74zq6x2a0r6r58diqda3q3yi4hw5v40fylggffg0af6fxzd";
+        url = "https://elpa.gnu.org/devel/dape-0.17.0.0.20241210.223651.tar";
+        sha256 = "16qisyk4n3zngv8ms733jifaqd6j2d5ddh6mmsihix50fz36yp4s";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241210.61335";
+      version = "3.1.0.0.20241211.65725";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241210.61335.tar";
-        sha256 = "0j8gklj104vrbnbnd78rynjwwal1xbkzfrs26hxb2qri0qaic9ri";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241211.65725.tar";
+        sha256 = "1llydfmw0djr9cnpilm2ndz08yrixp2xwk23w49196bbrk9w04bc";
       };
       packageRequires = [ ];
       meta = {
@@ -6862,10 +6862,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20241210.15409";
+      version = "0.11.1.0.20241210.232915";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20241210.15409.tar";
-        sha256 = "0mrd0inpc0jvwjdigcf5dvg61apc81nq5siwdyay0sxc9871z695";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20241210.232915.tar";
+        sha256 = "10lwqimijyfq3mghwa9rh8wywhvhdflh26fyhiwqfrf4rskmr24i";
       };
       packageRequires = [ xref ];
       meta = {
