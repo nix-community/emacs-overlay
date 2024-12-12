@@ -419,10 +419,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.7";
+      version = "14.0.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/auctex-14.0.7.tar";
-        sha256 = "1m71jr853b4d713z1k4jj73c8ba4753hv8nighx62razgmpn4ci8";
+        url = "https://elpa.gnu.org/packages/auctex-14.0.8.tar";
+        sha256 = "0bcjkbwhbkmm0r7pbh44j7vw9b39g2iw1jgw4sq54qp7387j6lmy";
       };
       packageRequires = [ ];
       meta = {
@@ -6851,10 +6851,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.1.0";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/pulsar-1.1.0.tar";
-        sha256 = "0hs65y2avl8w5g4zd68sdg4rl4q15ac53xlbc4qrfjynlajma6mm";
+        url = "https://elpa.gnu.org/packages/pulsar-1.2.0.tar";
+        sha256 = "03bx06fa7md78xrn10kigrf3p8pm07lxpw70wbhfqgq1b3zr46rl";
       };
       packageRequires = [ ];
       meta = {
