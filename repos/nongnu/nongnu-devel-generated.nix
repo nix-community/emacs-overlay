@@ -573,10 +573,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.20.0snapshot0.20241211.61959";
+      version = "5.20.0snapshot0.20241211.152233";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.20.0snapshot0.20241211.61959.tar";
-        sha256 = "186wfnwhmgcaw6psxbbvr5zm5zj8mlm0rqs1ip21ap6s2z9mgvkl";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.20.0snapshot0.20241211.152233.tar";
+        sha256 = "0m6bafwl3687ccl815q70bw4q8k3w12vkfl24g5x9rn6dn44ppxx";
       };
       packageRequires = [ ];
       meta = {
@@ -2111,10 +2111,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.10.0.20241210.204105";
+      version = "0.4.10.0.20241211.105407";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.10.0.20241210.204105.tar";
-        sha256 = "0ccpk4kc3pqjcz1r4zrpxj24wkarzhavwy9pz3rmmgx7g7f6npkp";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.10.0.20241211.105407.tar";
+        sha256 = "0wvqk279qfdvwk7k27lzw9063x7w6jypprlh1rgj6xlhnn3kv9y8";
       };
       packageRequires = [
         compat
@@ -3134,10 +3134,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.1.7.0.20241202.183936";
+      version = "1.1.7.0.20241211.113302";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.7.0.20241202.183936.tar";
-        sha256 = "08683fah6xkfzgxi6si4qgl4mxccczj4dcaivif1qlhfrc3bh66f";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.7.0.20241211.113302.tar";
+        sha256 = "11hjl6zjmqkkd5dr81mrafh5am3z1gc2kjq44b9xfsij8y6wzn39";
       };
       packageRequires = [
         persist
