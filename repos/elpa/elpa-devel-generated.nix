@@ -1041,10 +1041,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.7.0.20241206.63056";
+      version = "1.7.0.20241211.180410";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-1.7.0.20241206.63056.tar";
-        sha256 = "02ij4lyi1r9s1sz47m5mhhimp2b88srbci9ljq7kd6dv2vm9f7w0";
+        url = "https://elpa.gnu.org/devel/cape-1.7.0.20241211.180410.tar";
+        sha256 = "040xd9plja4h3cnlw65p02jsfhdmn9wvskg9alx4f462qwljxna2";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8638,10 +8638,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.2.0.20241205.91548";
+      version = "1.2.0.20241211.185515";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20241205.91548.tar";
-        sha256 = "0g1kv5php6sx2wg76a7ph5y7l0piq1220288kz0y3bm4ilsp5nzr";
+        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20241211.185515.tar";
+        sha256 = "1ipgip6qp5wflgv5vaazx7z91ppwnfjyklx89v102k3x090zclca";
       };
       packageRequires = [ compat ];
       meta = {
