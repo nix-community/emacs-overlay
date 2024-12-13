@@ -4900,10 +4900,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.19.1.0.20241209.3443";
+      version = "0.19.1.0.20241213.20057";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.19.1.0.20241209.3443.tar";
-        sha256 = "1s5ldys1ga08ciwqi250x0gfajhk5rs94mv5lakfyqr65385rpid";
+        url = "https://elpa.gnu.org/devel/llm-0.19.1.0.20241213.20057.tar";
+        sha256 = "1inq5algjck295g2s373n5yvcbilq333sxy5yval6h9j9fflcbm5";
       };
       packageRequires = [
         plz
@@ -6996,10 +6996,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20241123.154630";
+      version = "0.28.0.20241212.205908";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20241123.154630.tar";
-        sha256 = "09ir2jxjk7jvzv7mz5iir3wzx0zas4ikhhh3ig9kbrsj7bsdz6dd";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20241212.205908.tar";
+        sha256 = "0i97db9pigcnsw2vjnz81fqx3p1ff2kdlfhmsvlhwwldfmzx5psp";
       };
       packageRequires = [
         compat
@@ -9521,10 +9521,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.7.7.0.20241023.25940";
+      version = "0.7.7.0.20241213.55409";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.7.0.20241023.25940.tar";
-        sha256 = "0gvi8z5jhgy5jqp4q80ax01djzswp2ygq9rfryy8p3m3pgf36g4n";
+        url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.7.0.20241213.55409.tar";
+        sha256 = "0wv1aqzsf2kxlm57s26kskj3qnqzjbpni8gscgz5m9mx64nq9r74";
       };
       packageRequires = [
         posframe
