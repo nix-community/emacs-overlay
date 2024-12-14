@@ -1129,6 +1129,27 @@
       };
     }
   ) { };
+  eldoc-diffstat = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "eldoc-diffstat";
+      ename = "eldoc-diffstat";
+      version = "0.1";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/eldoc-diffstat-0.1.tar";
+        sha256 = "12780kq35rvs99d39z58kqc5476qhqvy409lgzgw20pgwvqsj9w9";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/eldoc-diffstat.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   elixir-mode = callPackage (
     {
       elpaBuild,
@@ -2932,10 +2953,10 @@
     elpaBuild {
       pname = "julia-mode";
       ename = "julia-mode";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/julia-mode-1.0.1.tar";
-        sha256 = "0203h99yia5k37ansy2wshkiyn105jaahmkm0ncf54far8dw6mwx";
+        url = "https://elpa.nongnu.org/nongnu/julia-mode-1.0.2.tar";
+        sha256 = "1wwnyanxbpzy4n8n3ixafdbx7badkl1krcnk0yf5923f2ahiqhlr";
       };
       packageRequires = [ ];
       meta = {
