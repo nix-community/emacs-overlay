@@ -1222,10 +1222,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20241212.233523";
+      version = "1.15.0.0.20241214.5948";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20241212.233523.tar";
-        sha256 = "1xi0nzg59cip3a5r7vq52yj6piqrkz483l60j135m76bnffs8kr5";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20241214.5948.tar";
+        sha256 = "050njm13cj65wgw8lm6888hazgi4sixkhigkxigk37h7qnzrxzlh";
       };
       packageRequires = [
         cl-lib
@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20241213.123734";
+      version = "0.9.7.0.20241213.132649";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20241213.123734.tar";
-        sha256 = "0xpnpad1wh6zzgk4bz9g7plrq8dpf4jabj4m67pq0iiqb29ic552";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20241213.132649.tar";
+        sha256 = "0c5vzbfszyfaw87k1amxm8bci88bz5bdbscdznfv19ky7llgw0dh";
       };
       packageRequires = [
         compat
