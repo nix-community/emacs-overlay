@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241213.91842";
+      version = "3.1.0.0.20241214.71059";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241213.91842.tar";
-        sha256 = "1gk6sixnjc9d45m5ndiwfx1zl0bjng2aikdmnkqdk7l25d6liz9h";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241214.71059.tar";
+        sha256 = "0an1y0q5fdzfcdmpgba3j7k0k2ji6y08akpf5bmizjgnbvacscaz";
       };
       packageRequires = [ ];
       meta = {
@@ -5096,10 +5096,10 @@
     elpaBuild {
       pname = "m-buffer";
       ename = "m-buffer";
-      version = "0.16.0.20240302.175529";
+      version = "0.16.0.20241213.162101";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/m-buffer-0.16.0.20240302.175529.tar";
-        sha256 = "18lj0gb56xhwrbihijy4p5lyxqvdfcwyabcd30qy1dn4k715v614";
+        url = "https://elpa.gnu.org/devel/m-buffer-0.16.0.20241213.162101.tar";
+        sha256 = "1msg8p0kqpxhiin50vgkjf1i2q6k7862nivzrij6dbd4krwbz2g2";
       };
       packageRequires = [ seq ];
       meta = {
@@ -6393,10 +6393,10 @@
     elpaBuild {
       pname = "parser-generator";
       ename = "parser-generator";
-      version = "0.2.1.0.20240220.204114";
+      version = "0.2.3.0.20241214.83947";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/parser-generator-0.2.1.0.20240220.204114.tar";
-        sha256 = "1yb3wv183xii4rvj7asccg9cgkv061vprakcpdq99fgc9zdx0maq";
+        url = "https://elpa.gnu.org/devel/parser-generator-0.2.3.0.20241214.83947.tar";
+        sha256 = "0nipj91l1pv2l0ls2cng05d9llfm2j166yap99fmpykwlnfh99pf";
       };
       packageRequires = [ ];
       meta = {
@@ -6996,10 +6996,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20241212.205908";
+      version = "0.28.0.20241213.183341";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20241212.205908.tar";
-        sha256 = "0i97db9pigcnsw2vjnz81fqx3p1ff2kdlfhmsvlhwwldfmzx5psp";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20241213.183341.tar";
+        sha256 = "1aygqbrdws9gc95z69sja30cvlb4v9sddnbh7c6jmsv1s1gicrkn";
       };
       packageRequires = [
         compat
@@ -8069,10 +8069,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.5.0.0.20241114.85358";
+      version = "0.5.0.0.20241214.72200";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/spacious-padding-0.5.0.0.20241114.85358.tar";
-        sha256 = "1xs9mac6mrhk6519g13rf8s7q9iivd021bnwmxn54pal904x6q83";
+        url = "https://elpa.gnu.org/devel/spacious-padding-0.5.0.0.20241214.72200.tar";
+        sha256 = "1fm0r7w81cszb2az3xkazd15sfh4593myci6kqsaivnqakyvgj46";
       };
       packageRequires = [ ];
       meta = {

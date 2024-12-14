@@ -6361,10 +6361,10 @@
     elpaBuild {
       pname = "parser-generator";
       ename = "parser-generator";
-      version = "0.2.1";
+      version = "0.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/parser-generator-0.2.1.tar";
-        sha256 = "1vrgkvcj16550frq2jivw31cmq6rhwrifmdk4rf0266br3jdarpf";
+        url = "https://elpa.gnu.org/packages/parser-generator-0.2.3.tar";
+        sha256 = "021j4nvhgc4357jymf1sgmf1g3dvmcbbccd4gjbqdfa1gcc7bh2v";
       };
       packageRequires = [ ];
       meta = {
