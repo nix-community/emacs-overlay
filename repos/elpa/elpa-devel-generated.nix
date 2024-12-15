@@ -2235,10 +2235,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.3.0.0.20241208.83138";
+      version = "0.3.0.0.20241214.125243";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20241208.83138.tar";
-        sha256 = "0208w61qd7g05ngsb6l199zh19pw42czms1cyn5wy7d91icz5izj";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20241214.125243.tar";
+        sha256 = "12s20xlsvznlqybvxkl1rdx7bh0dsfd05j9p4953mdscfqwbbkrs";
       };
       packageRequires = [ ];
       meta = {
@@ -4449,10 +4449,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "1.10.0.20241201.134324";
+      version = "1.10.0.20241214.115518";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20241201.134324.tar";
-        sha256 = "19clhxy5p41ri0b2fsdk2rc9wf37nn90ya5mkhpn8mccfcs9kh7y";
+        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20241214.115518.tar";
+        sha256 = "18khn6fzv17385vcsr3k5bjbaim8p7kwgrad2z49nl3q4anjykzf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6286,10 +6286,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.4.0.20241122.13029";
+      version = "1.4.0.20241214.134010";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.4.0.20241122.13029.tar";
-        sha256 = "0c4b0ddb5l2pipnnwcqqfjj08v9ppr93ailxq000hd683mw48kaz";
+        url = "https://elpa.gnu.org/devel/osm-1.4.0.20241214.134010.tar";
+        sha256 = "1ifiygk142cv0fszb5l6zmrbsz4wg7yxcvl5jwnykg4ly0av6y6b";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8918,10 +8918,10 @@
     elpaBuild {
       pname = "tramp-theme";
       ename = "tramp-theme";
-      version = "0.2.0.20221221.82451";
+      version = "0.3.0.20241214.144045";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-theme-0.2.0.20221221.82451.tar";
-        sha256 = "0x7wa17f2pnhd6nv7p2m5pafqqgpfp9n773qcmyxkawi4l5bp5d3";
+        url = "https://elpa.gnu.org/devel/tramp-theme-0.3.0.20241214.144045.tar";
+        sha256 = "1fhd8pag716h7x71bz059wd6vqn4mz058yg0apfz68dlchma4zhk";
       };
       packageRequires = [ ];
       meta = {
@@ -9498,10 +9498,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.9.0.20241208.223312";
+      version = "1.9.0.20241214.124810";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20241208.223312.tar";
-        sha256 = "0q5hd6y9zlyx4dh09anl9np1fk5sb0sqxi9jz4n0a90zb6a5sasv";
+        url = "https://elpa.gnu.org/devel/vertico-1.9.0.20241214.124810.tar";
+        sha256 = "1q705nwqzdqvxgcywzbnasmxqw6prsxlicgmadppaiy200d52yld";
       };
       packageRequires = [ compat ];
       meta = {

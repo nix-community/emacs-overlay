@@ -8773,10 +8773,10 @@
     elpaBuild {
       pname = "tramp-theme";
       ename = "tramp-theme";
-      version = "0.2";
+      version = "0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-theme-0.2.tar";
-        sha256 = "0dz8ndnmwc38g1gy30f3jcjqg5nzdi6721x921r4s5a8i1mx2kpm";
+        url = "https://elpa.gnu.org/packages/tramp-theme-0.3.tar";
+        sha256 = "1v9265cnk858jl522zcnqf2cv3f3g93f0mk52plz3n4a8k5nlfa7";
       };
       packageRequires = [ ];
       meta = {
