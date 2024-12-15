@@ -1418,10 +1418,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.0.0.0.0.20241120.163841";
+      version = "30.0.1.0.0.20241215.2426";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-30.0.0.0.0.20241120.163841.tar";
-        sha256 = "0a67xpvjfzzbhwflldqhs8gd6cb38m6gqlv6il33d4w7wsnch4p2";
+        url = "https://elpa.gnu.org/devel/compat-30.0.1.0.0.20241215.2426.tar";
+        sha256 = "0vr9npphxkp9pvbayzk04mkn7vkmmrpnxy2as94fi0xliyyrysjz";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2564,10 +2564,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20241207.0.20241207.211822";
+      version = "20241207.0.20241214.223051";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20241207.0.20241207.211822.tar";
-        sha256 = "055lmambmrwl0niidn2z61l7xxrj0va277rwxlaqswals5gbqmi4";
+        url = "https://elpa.gnu.org/devel/eev-20241207.0.20241214.223051.tar";
+        sha256 = "13hx2rw4a2ihdv3kysly0f6x82l2k48nl70vx6a2cir1zr0264qq";
       };
       packageRequires = [ ];
       meta = {
