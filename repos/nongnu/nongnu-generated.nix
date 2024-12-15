@@ -1138,10 +1138,10 @@
     elpaBuild {
       pname = "eldoc-diffstat";
       ename = "eldoc-diffstat";
-      version = "0.1";
+      version = "1.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/eldoc-diffstat-0.1.tar";
-        sha256 = "12780kq35rvs99d39z58kqc5476qhqvy409lgzgw20pgwvqsj9w9";
+        url = "https://elpa.nongnu.org/nongnu/eldoc-diffstat-1.0.tar";
+        sha256 = "0cxmhi1whzh4z62vv1pyvl2v6wr0jbq560m6zib8zicvdfxqlpgk";
       };
       packageRequires = [ ];
       meta = {

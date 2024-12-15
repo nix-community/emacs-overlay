@@ -1114,10 +1114,10 @@
     elpaBuild {
       pname = "eldoc-diffstat";
       ename = "eldoc-diffstat";
-      version = "0.1.0.20241210.214113";
+      version = "1.0.0.20241214.213403";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-diffstat-0.1.0.20241210.214113.tar";
-        sha256 = "0srjjqaji2sdz1sszw319zsfj880ylp6icgn2zlcwr8rqzprypg2";
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-diffstat-1.0.0.20241214.213403.tar";
+        sha256 = "10rjz33lhsp61pjdj64k0y9wh9nlfnz1w89xck0gfp2p42kya87n";
       };
       packageRequires = [ ];
       meta = {
@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20241213.132649";
+      version = "0.9.7.0.20241214.140953";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20241213.132649.tar";
-        sha256 = "0c5vzbfszyfaw87k1amxm8bci88bz5bdbscdznfv19ky7llgw0dh";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20241214.140953.tar";
+        sha256 = "03ns1zlijr2j95iwk4b3lm9a2b32c81p3fpvxp8bf0gj29582i2c";
       };
       packageRequires = [
         compat
