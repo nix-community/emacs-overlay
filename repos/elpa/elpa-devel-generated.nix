@@ -4900,10 +4900,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.19.1.0.20241213.20057";
+      version = "0.19.1.0.20241215.105127";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.19.1.0.20241213.20057.tar";
-        sha256 = "1inq5algjck295g2s373n5yvcbilq333sxy5yval6h9j9fflcbm5";
+        url = "https://elpa.gnu.org/devel/llm-0.19.1.0.20241215.105127.tar";
+        sha256 = "04fy2hm9593cd9z75a6s51s9gwq22hw88rkq5h5qqa784dv77pgl";
       };
       packageRequires = [
         plz
@@ -6017,10 +6017,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241208.123440";
+      version = "9.8pre0.20241215.153355";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241208.123440.tar";
-        sha256 = "172v5xqsyphlbyban53lz85rn1yicwbk4axw8flzhlswlrj2c8dc";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241215.153355.tar";
+        sha256 = "0p95cdshvn3wh40ckjzhjjy8y1b9vw6sm8fggc48b4r4nry6yc9y";
       };
       packageRequires = [ ];
       meta = {
@@ -6996,10 +6996,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20241213.183341";
+      version = "0.28.0.20241215.100302";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20241213.183341.tar";
-        sha256 = "1aygqbrdws9gc95z69sja30cvlb4v9sddnbh7c6jmsv1s1gicrkn";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20241215.100302.tar";
+        sha256 = "12lggjzmcjk93xnga5z608rkrawwbv0pdcdbh4wskbar8bmp28nc";
       };
       packageRequires = [
         compat
