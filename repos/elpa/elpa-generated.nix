@@ -5067,10 +5067,10 @@
     elpaBuild {
       pname = "m-buffer";
       ename = "m-buffer";
-      version = "0.16";
+      version = "0.16.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/m-buffer-0.16.tar";
-        sha256 = "16drbgamp7yd1ndw2qrycrgmnknv5k7h4d7svcdhv9az6fg1vzn4";
+        url = "https://elpa.gnu.org/packages/m-buffer-0.16.1.tar";
+        sha256 = "1iq7nld1i8v0da1ajhvfdarx4bx3wnwgz5lhb78fcnsq8zb6cp5y";
       };
       packageRequires = [ seq ];
       meta = {
