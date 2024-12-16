@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20241214.140953";
+      version = "0.9.7.0.20241215.201156";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20241214.140953.tar";
-        sha256 = "03ns1zlijr2j95iwk4b3lm9a2b32c81p3fpvxp8bf0gj29582i2c";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20241215.201156.tar";
+        sha256 = "189wrzmz054vgl67anfbmkv606b87m34himinyvqrgwrn5zxi3si";
       };
       packageRequires = [
         compat
@@ -2480,10 +2480,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20241108.150811";
+      version = "1.0.20241216.63538";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241108.150811.tar";
-        sha256 = "1ycbcwhj9j77jgpb3ag7hy8474qdj4rzzg7z5z79f0fqvlnv94m7";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241216.63538.tar";
+        sha256 = "0ffy91mf2pcdh3f6p045pdmq2pkqh5ihq0rl2qy1sgpnvvvz4d93";
       };
       packageRequires = [ ];
       meta = {
@@ -2806,10 +2806,10 @@
     elpaBuild {
       pname = "inf-ruby";
       ename = "inf-ruby";
-      version = "2.8.1.0.20240925.4944";
+      version = "2.8.1.0.20241216.20701";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/inf-ruby-2.8.1.0.20240925.4944.tar";
-        sha256 = "1wl5nzrbafvmvvvq477lsvc14pvlmq8x9j1cqbd0cj11lvn4k1qb";
+        url = "https://elpa.nongnu.org/nongnu-devel/inf-ruby-2.8.1.0.20241216.20701.tar";
+        sha256 = "1bwdg49mlrlbhqf01d9lyal8is6sxlzdsnbf6pp2zfd3amkyf3kd";
       };
       packageRequires = [ ];
       meta = {
