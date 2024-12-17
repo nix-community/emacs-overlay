@@ -3075,10 +3075,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.1.3.0.20241208.134502";
+      version = "4.1.3.0.20241209.93339";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.1.3.0.20241208.134502.tar";
-        sha256 = "05pdsq0hf6dzf4hi429q2d5qyss7hlyndaibmf8ijzk0syh509fc";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.1.3.0.20241209.93339.tar";
+        sha256 = "10j1ly0k9n1xj7z31r4fa832x3gdq2b4d4hz4bjihd19i69miq3l";
       };
       packageRequires = [
         compat
@@ -3106,10 +3106,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.1.3.0.20241208.134502";
+      version = "4.1.3.0.20241209.93339";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.3.0.20241208.134502.tar";
-        sha256 = "1k4wdzsc2m1gwcr82a0ljaqkfzb5qdcpdfkf1z1skv9na8w8axfp";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.3.0.20241209.93339.tar";
+        sha256 = "19q1lxix0b33hkvl96bzqvxd2bspkbx261133hdgjk1swdzsfh53";
       };
       packageRequires = [
         compat
@@ -4050,10 +4050,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20241207.124605";
+      version = "1.0.20241216.83424";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241207.124605.tar";
-        sha256 = "1rbvzap8bc5nffd7fvg5n5nnibmfxdx6sg9y3cqfqvw8lkr23cgb";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241216.83424.tar";
+        sha256 = "1hs7g57mnl52xinxypc9hjciz0smlbzib061q4iagpg03wx9c7gz";
       };
       packageRequires = [ ];
       meta = {
