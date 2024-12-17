@@ -53,10 +53,10 @@
     elpaBuild {
       pname = "activities";
       ename = "activities";
-      version = "0.7.1";
+      version = "0.7.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/activities-0.7.1.tar";
-        sha256 = "1khhkfyy251mag5zqybsvfg3sak0aac1qlsdl1wyiin7f6sq9563";
+        url = "https://elpa.gnu.org/packages/activities-0.7.2.tar";
+        sha256 = "1b6d77b5h2vikfxqjlb1jx5pnij5bif788nysvvn3wlzpwdi88s0";
       };
       packageRequires = [ persist ];
       meta = {
@@ -1814,10 +1814,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.17.0";
+      version = "0.18.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dape-0.17.0.tar";
-        sha256 = "113lmy0q1yk81cfi9dbig8p9bmhyqy6w1bvhn91m79my05ny2rxd";
+        url = "https://elpa.gnu.org/packages/dape-0.18.0.tar";
+        sha256 = "0jqwng5dii2kzv26qmgxpkksm9nhvpfln47wzkplsb3ziwg066as";
       };
       packageRequires = [ jsonrpc ];
       meta = {
