@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.8.0.20241211.205621";
+      version = "14.0.8.0.20241216.202842";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.8.0.20241211.205621.tar";
-        sha256 = "062vpvll1c013aklhdx0za1sd9dl20xbpng2pzxrxncvyrwqzn21";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.8.0.20241216.202842.tar";
+        sha256 = "0hvnbfkm0s17iy4plcr63vx8akvfz8d71yqa337qx3m3vriaphx4";
       };
       packageRequires = [ ];
       meta = {
@@ -1418,10 +1418,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.0.1.0.0.20241215.2426";
+      version = "30.0.1.0.0.20241216.161209";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-30.0.1.0.0.20241215.2426.tar";
-        sha256 = "0vr9npphxkp9pvbayzk04mkn7vkmmrpnxy2as94fi0xliyyrysjz";
+        url = "https://elpa.gnu.org/devel/compat-30.0.1.0.0.20241216.161209.tar";
+        sha256 = "1ha0634cjb8gj46af8w1w2vx2ik6kvfkv2vg169avw5n70ikcp4f";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3041,10 +3041,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "24.1.1.0.20241213.122946";
+      version = "24.1.1.0.20241216.113727";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20241213.122946.tar";
-        sha256 = "08mlz0avlgfkd0lg6zr8ypykv6pzq6ncf9ifr1khxg1d08lvlnrw";
+        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20241216.113727.tar";
+        sha256 = "0kynw62rgabhyriasp5sdh4pj2af5k5w0jnn3hsaaxdbaij8r60x";
       };
       packageRequires = [ ];
       meta = {
@@ -4072,10 +4072,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20241126.91748";
+      version = "9.0.2pre0.20241216.10928";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241126.91748.tar";
-        sha256 = "136xbqhm4gwfw7cyd1p45hx6pnc6wbqc7dmv6q620vall1r9s7nb";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241216.10928.tar";
+        sha256 = "00rxngi6hianb4qk92qi9i6whdgj5lqplrqycsnkmp2k2wahqp6n";
       };
       packageRequires = [ ];
       meta = {
@@ -4449,10 +4449,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "1.10.0.20241214.115518";
+      version = "1.10.0.20241216.170039";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20241214.115518.tar";
-        sha256 = "18khn6fzv17385vcsr3k5bjbaim8p7kwgrad2z49nl3q4anjykzf";
+        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20241216.170039.tar";
+        sha256 = "1vsnrvcs97rvarj74plwsmycv19mpwxvhqcfv78lv2d82dwgr62g";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6996,10 +6996,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20241215.100302";
+      version = "0.28.0.20241216.210107";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20241215.100302.tar";
-        sha256 = "12lggjzmcjk93xnga5z608rkrawwbv0pdcdbh4wskbar8bmp28nc";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20241216.210107.tar";
+        sha256 = "1vfi8bhjdxpk186liyxlhy6c6s2sidc2kibgpbn7b5a4hi2zgh2q";
       };
       packageRequires = [
         compat
@@ -8091,10 +8091,10 @@
     elpaBuild {
       pname = "speedrect";
       ename = "speedrect";
-      version = "0.6.0.20241209.32904";
+      version = "0.6.0.20241216.114729";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/speedrect-0.6.0.20241209.32904.tar";
-        sha256 = "0a9xa2ci5bm317qwxkd00hcsrcp6p5nxmh9q6l1yk6cfgmpm927k";
+        url = "https://elpa.gnu.org/devel/speedrect-0.6.0.20241216.114729.tar";
+        sha256 = "0lb7vpj0dsrrag18ybmvvi6py3l6hbild24s9snrxk6c2l9lpj7l";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9521,10 +9521,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.7.7.0.20241213.55409";
+      version = "0.7.8.0.20241216.124922";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.7.0.20241213.55409.tar";
-        sha256 = "0wv1aqzsf2kxlm57s26kskj3qnqzjbpni8gscgz5m9mx64nq9r74";
+        url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.8.0.20241216.124922.tar";
+        sha256 = "1917f4y5spr3lpxz589aza5cad1flxl1hm6x4fzcy7svish7j7pz";
       };
       packageRequires = [
         posframe
