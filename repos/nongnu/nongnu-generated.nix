@@ -2677,10 +2677,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.5";
+      version = "0.5.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hyperdrive-0.5.tar";
-        sha256 = "03ms0chvyaljj0g40wbpg5m6mp3j6hhfgj9n9y0d8bh9r9vfjfnm";
+        url = "https://elpa.nongnu.org/nongnu/hyperdrive-0.5.1.tar";
+        sha256 = "1k4n5bqasd53mvf5whx6ffx6h47msh0vd48373x93y4hng60pwgj";
       };
       packageRequires = [
         compat
