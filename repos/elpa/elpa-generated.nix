@@ -7991,10 +7991,10 @@
     elpaBuild {
       pname = "speedrect";
       ename = "speedrect";
-      version = "0.6";
+      version = "0.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/speedrect-0.6.tar";
-        sha256 = "1jm4phv6gy156bkzbmxfb08pm6z7rhfr52la2wsqshj9m3ss7495";
+        url = "https://elpa.gnu.org/packages/speedrect-0.7.tar";
+        sha256 = "0nxwwd12qqyxq1fg8n6miyx63fp29cvpfp8w33zmf9dhkcjwyfd1";
       };
       packageRequires = [ compat ];
       meta = {

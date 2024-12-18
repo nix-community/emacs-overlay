@@ -3041,10 +3041,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "24.1.1.0.20241216.113727";
+      version = "24.1.1.0.20241217.162023";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20241216.113727.tar";
-        sha256 = "0kynw62rgabhyriasp5sdh4pj2af5k5w0jnn3hsaaxdbaij8r60x";
+        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20241217.162023.tar";
+        sha256 = "0c96ha0qhbvzgdsk4nn9kafzp7zjz90ccbis5kgnn1314lgijian";
       };
       packageRequires = [ ];
       meta = {
@@ -6996,10 +6996,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20241217.133732";
+      version = "0.28.0.20241218.24835";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20241217.133732.tar";
-        sha256 = "1r7yvdf24slpkwi0q0sra8s31d0ndx6bbs6ccia6f94hcpxdq13r";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20241218.24835.tar";
+        sha256 = "067c7354f94h106f3chijqvx7q5k891a8f96jsnzhd9cmrdl8wpi";
       };
       packageRequires = [
         compat
@@ -8091,10 +8091,10 @@
     elpaBuild {
       pname = "speedrect";
       ename = "speedrect";
-      version = "0.6.0.20241216.114729";
+      version = "0.7.0.20241217.183451";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/speedrect-0.6.0.20241216.114729.tar";
-        sha256 = "0lb7vpj0dsrrag18ybmvvi6py3l6hbild24s9snrxk6c2l9lpj7l";
+        url = "https://elpa.gnu.org/devel/speedrect-0.7.0.20241217.183451.tar";
+        sha256 = "1rf86gmm36w4nrfhwxm1kxfspri49zh22fch7gay43sl181431ya";
       };
       packageRequires = [ compat ];
       meta = {
