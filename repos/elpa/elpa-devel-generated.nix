@@ -1041,10 +1041,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.7.0.20241211.180410";
+      version = "1.7.0.20241217.142154";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-1.7.0.20241211.180410.tar";
-        sha256 = "040xd9plja4h3cnlw65p02jsfhdmn9wvskg9alx4f462qwljxna2";
+        url = "https://elpa.gnu.org/devel/cape-1.7.0.20241217.142154.tar";
+        sha256 = "054qir0lxjq3hz2v6x6gasf30v3vhy3qrny5cmbz52fm5x45xv41";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2585,10 +2585,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.9.0.0.20241216.81852";
+      version = "1.9.0.0.20241217.94217";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.9.0.0.20241216.81852.tar";
-        sha256 = "05s1jw5ly7xl1nad1y7rpry62mnrx6fxvh0kpkjg318ycgfi6rhg";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.9.0.0.20241217.94217.tar";
+        sha256 = "0hksbzik08njsdnkd1wdq539k7hfn8k8mf6wrpa4mh06ys9b6f99";
       };
       packageRequires = [ ];
       meta = {
@@ -3096,10 +3096,10 @@
     elpaBuild {
       pname = "expand-region";
       ename = "expand-region";
-      version = "1.0.0.0.20240919.142744";
+      version = "1.0.0.0.20241217.184034";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/expand-region-1.0.0.0.20240919.142744.tar";
-        sha256 = "01mr4aqzl8cb8jhap6pz6y561dv2hj5mykc5gdjnnfaqhypipwnq";
+        url = "https://elpa.gnu.org/devel/expand-region-1.0.0.0.20241217.184034.tar";
+        sha256 = "1bh8109irsh2hpk70fg38d0rf8as32a39677gz1m7k7v4fvs3nv5";
       };
       packageRequires = [ ];
       meta = {
@@ -4449,10 +4449,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "1.10.0.20241216.170039";
+      version = "1.10.0.20241217.180709";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20241216.170039.tar";
-        sha256 = "1vsnrvcs97rvarj74plwsmycv19mpwxvhqcfv78lv2d82dwgr62g";
+        url = "https://elpa.gnu.org/devel/jinx-1.10.0.20241217.180709.tar";
+        sha256 = "12hkrapmig5mpps6icmd4ry03w0gb3xz82f81an3wb93ayigs59l";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5436,10 +5436,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.6.0.0.20241216.81658";
+      version = "4.6.0.0.20241217.94013";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20241216.81658.tar";
-        sha256 = "06gp5labgnr7138bmydh2cxsiqjp53m14zmhb5ja6bf0y3w2sgq8";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20241217.94013.tar";
+        sha256 = "0d9npv0y1847m422wcya3z8g67qkhgv4bvjricwhlk74xrj4w590";
       };
       packageRequires = [ ];
       meta = {
@@ -6286,10 +6286,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.4.0.20241214.134010";
+      version = "1.4.0.20241217.180410";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.4.0.20241214.134010.tar";
-        sha256 = "1ifiygk142cv0fszb5l6zmrbsz4wg7yxcvl5jwnykg4ly0av6y6b";
+        url = "https://elpa.gnu.org/devel/osm-1.4.0.20241217.180410.tar";
+        sha256 = "0r09m7pla7vgn94y0j8sslii2cvpi6ga20qb059l8psqnw2zspzy";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6996,10 +6996,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20241216.210107";
+      version = "0.28.0.20241217.133732";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20241216.210107.tar";
-        sha256 = "1vfi8bhjdxpk186liyxlhy6c6s2sidc2kibgpbn7b5a4hi2zgh2q";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20241217.133732.tar";
+        sha256 = "1r7yvdf24slpkwi0q0sra8s31d0ndx6bbs6ccia6f94hcpxdq13r";
       };
       packageRequires = [
         compat
