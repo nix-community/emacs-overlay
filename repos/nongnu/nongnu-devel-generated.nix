@@ -965,10 +965,10 @@
     elpaBuild {
       pname = "dracula-theme";
       ename = "dracula-theme";
-      version = "1.8.2.0.20241102.130126";
+      version = "1.8.2.0.20241217.214522";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.2.0.20241102.130126.tar";
-        sha256 = "01f3g7cy9snm4f2b2rx7zd82kwxzlf9g0wapwa83k3i60p23rf5s";
+        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.2.0.20241217.214522.tar";
+        sha256 = "0dizqwzgygkim66lxkxpwcidhhi7ppwazi57nqkahyd3n03ka2f9";
       };
       packageRequires = [ ];
       meta = {
@@ -4582,10 +4582,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.21.0.20241217.144916";
+      version = "1.2.21.0.20241218.131730";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.21.0.20241217.144916.tar";
-        sha256 = "1b35ds1bbm1xx0r46vqbkxmdalmn274yksvdn4f0236r54w3c6wd";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.21.0.20241218.131730.tar";
+        sha256 = "0xgmn965bslq0pzncdcm04ngphbgaapbm12437j6zqshf7gri2cm";
       };
       packageRequires = [ ];
       meta = {
