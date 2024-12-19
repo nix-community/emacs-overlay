@@ -220,10 +220,10 @@
     elpaBuild {
       pname = "auto-dim-other-buffers";
       ename = "auto-dim-other-buffers";
-      version = "2.1.1.0.20241217.175530";
+      version = "2.2.0.0.20241218.220440";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/auto-dim-other-buffers-2.1.1.0.20241217.175530.tar";
-        sha256 = "1k7mfihkkaim0an9ni3hjf3zqhj0pd893rcdwzfzdh4aq2sh1kxh";
+        url = "https://elpa.nongnu.org/nongnu-devel/auto-dim-other-buffers-2.2.0.0.20241218.220440.tar";
+        sha256 = "0kzjmdr9k3qiar4qci3fyvs3cyfvlia2n33ngc6xma5afm0jg94c";
       };
       packageRequires = [ ];
       meta = {
@@ -3923,10 +3923,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1.0.20241024.124149";
+      version = "1.26.1.0.20241219.54051";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20241024.124149.tar";
-        sha256 = "0h5lzvsssk0nf3g408a7jg25crglsjkhcfp1ckjnzpgiwf59i6w8";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20241219.54051.tar";
+        sha256 = "15zpxy2pbv914lvl51nh8h0nhfdawiazbi21hjvjpsgjccd6h794";
       };
       packageRequires = [ ];
       meta = {
