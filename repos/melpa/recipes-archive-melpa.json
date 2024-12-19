@@ -18443,26 +18443,29 @@
   "repo": "armindarvish/consult-gh",
   "unstable": {
    "version": [
-    20241207,
-    2323
+    20241219,
+    614
    ],
    "deps": [
     "consult",
-    "markdown-mode"
+    "markdown-mode",
+    "ox-gfm"
    ],
-   "commit": "e32335129e5358b5609b357210f1bd6f987a5891",
-   "sha256": "0irg0dhr8avw0a2d587kby5xaq8zilnky1v5xqcnb6979rvi5fjj"
+   "commit": "7f37703a1a5fef1e697e1c899eb12fbf2063e781",
+   "sha256": "03kbll3a45cpy0b95h3li0ssdnsmwgwv3w7zxjly5q8x74cjxxzg"
   },
   "stable": {
    "version": [
-    1,
+    2,
     0
    ],
    "deps": [
-    "consult"
+    "consult",
+    "markdown-mode",
+    "ox-gfm"
    ],
-   "commit": "077c076f1623fd8f2b93f6eb6f8c79ea58662783",
-   "sha256": "114nx7p3gc495hgy0b8227i653qnyawjwrmx1qjpl0gfq3vgnqd9"
+   "commit": "1acaf7b2a5fe8a8be19f83f5b20bb2bc377d1fc8",
+   "sha256": "09s9ph7xk7xrqrs6rw8md4q3pl6b4iw0114krshkyf79rgjgsvzl"
   }
  },
  {
@@ -18473,27 +18476,27 @@
   "repo": "armindarvish/consult-gh",
   "unstable": {
    "version": [
-    20240929,
-    803
+    20241219,
+    507
    ],
    "deps": [
     "consult-gh",
     "embark-consult"
    ],
-   "commit": "4e4a1ef9a4823b37cf7057208f712aa69e1e0e2c",
-   "sha256": "0yx8mqx17iz2q28077z0w2pxnbxqr41mvj418wrqw2fgwm012v6n"
+   "commit": "1acaf7b2a5fe8a8be19f83f5b20bb2bc377d1fc8",
+   "sha256": "09s9ph7xk7xrqrs6rw8md4q3pl6b4iw0114krshkyf79rgjgsvzl"
   },
   "stable": {
    "version": [
-    1,
+    2,
     0
    ],
    "deps": [
-    "consult",
-    "consult-gh"
+    "consult-gh",
+    "embark-consult"
    ],
-   "commit": "077c076f1623fd8f2b93f6eb6f8c79ea58662783",
-   "sha256": "114nx7p3gc495hgy0b8227i653qnyawjwrmx1qjpl0gfq3vgnqd9"
+   "commit": "1acaf7b2a5fe8a8be19f83f5b20bb2bc377d1fc8",
+   "sha256": "09s9ph7xk7xrqrs6rw8md4q3pl6b4iw0114krshkyf79rgjgsvzl"
   }
  },
  {
@@ -18504,20 +18507,20 @@
   "repo": "armindarvish/consult-gh",
   "unstable": {
    "version": [
-    20240927,
-    1004
+    20241219,
+    507
    ],
    "deps": [
     "consult",
     "consult-gh",
     "forge"
    ],
-   "commit": "79204bab021d9c58687dbce44694419c966d6998",
-   "sha256": "008gak4q21qw4bm1lsrxsz8dad5s6rh8v0fvlasjhhyfwwywdk09"
+   "commit": "1acaf7b2a5fe8a8be19f83f5b20bb2bc377d1fc8",
+   "sha256": "09s9ph7xk7xrqrs6rw8md4q3pl6b4iw0114krshkyf79rgjgsvzl"
   },
   "stable": {
    "version": [
-    1,
+    2,
     0
    ],
    "deps": [
@@ -18525,8 +18528,8 @@
     "consult-gh",
     "forge"
    ],
-   "commit": "077c076f1623fd8f2b93f6eb6f8c79ea58662783",
-   "sha256": "114nx7p3gc495hgy0b8227i653qnyawjwrmx1qjpl0gfq3vgnqd9"
+   "commit": "1acaf7b2a5fe8a8be19f83f5b20bb2bc377d1fc8",
+   "sha256": "09s9ph7xk7xrqrs6rw8md4q3pl6b4iw0114krshkyf79rgjgsvzl"
   }
  },
  {
@@ -52780,15 +52783,15 @@
   "repo": "michelangelo-rodriguez/greader",
   "unstable": {
    "version": [
-    20241218,
-    2225
+    20241219,
+    542
    ],
    "deps": [
     "compat",
     "seq"
    ],
-   "commit": "a24a0a5efe200830813835428b85443b2e828264",
-   "sha256": "0a76s79ifl9i365vj902vnh3ymk66np04s3v0h2ag722d22qwndy"
+   "commit": "fb2c9031ba52abbbfd39406aabfaca5be65382e0",
+   "sha256": "0x33haa6s8mjw7vs3zh7n3b8kb258q5a58ma60jlhv6c41li5y0l"
   }
  },
  {
@@ -83226,8 +83229,8 @@
   "repo": "ewantown/nice-org-html",
   "unstable": {
    "version": [
-    20241217,
-    1019
+    20241219,
+    114
    ],
    "deps": [
     "dash",
@@ -83235,8 +83238,8 @@
     "s",
     "uuidgen"
    ],
-   "commit": "0b4163c8b2d3a7cfa48a6378cc4ab43e5302a356",
-   "sha256": "1w266pdj79m7k45awidxmgpkcnrkg0wzw127v75vyha96qhf6k6p"
+   "commit": "b9020403ffa0ac7e3ad17cd28647d42de731ac7a",
+   "sha256": "01d4xryk1n2kl7wfklfhs81n42syj1zrg3nc5x81msb75whc43sn"
   }
  },
  {
@@ -96741,11 +96744,11 @@
   "repo": "joostkremers/parsebib",
   "unstable": {
    "version": [
-    20241217,
-    2146
+    20241219,
+    14
    ],
-   "commit": "0cde83b8a0c51acea510d1b373de2f484e215699",
-   "sha256": "1dc9c81y5r991aghg55abzy7ns5v43ia95wd56jjnkwp2yfzvhfz"
+   "commit": "db2de6e30a4fa2a56f165fe7a493307689cc7279",
+   "sha256": "1rgawqwa7dqfiz74fsj1z6nsmjp7dszrxm9jjc9kgnr8w4s3yb2a"
   },
   "stable": {
    "version": [
@@ -98593,11 +98596,11 @@
   "repo": "emacs-php/php-mode",
   "unstable": {
    "version": [
-    20241024,
-    1241
+    20241219,
+    540
    ],
-   "commit": "31f702ee2de35d514fb633c0c37531cb648bff70",
-   "sha256": "0rz0qdi82swvvqmb44jdzwfkaz9xl4y4ic70i6i950rmrbz970pd"
+   "commit": "69e9c16fda61c3aef9219bf55adadcbba62c0586",
+   "sha256": "1n87pzx0bymis132m5dl3pmfkjw38lckwq0h4kh3hsqv46sykp9a"
   },
   "stable": {
    "version": [
