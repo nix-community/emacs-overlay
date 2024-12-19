@@ -14622,10 +14622,10 @@
    "version": [
     3,
     31,
-    2
+    3
    ],
-   "commit": "793c5f11f6863284ec1561970bee816037e40b91",
-   "sha256": "1y3ksh2ncsdqaijrz5n6mql2wnlri9i8kmmbgxrgfs3a0qy9i541"
+   "commit": "41abd532b64f178017ed4ffdbdb5af42d9056a8d",
+   "sha256": "1manw6lvfq5ik7h6lxw9g62i38fhdxr3srgzgfmwvd4hssikmw31"
   }
  },
  {
@@ -23870,15 +23870,16 @@
   "repo": "pkryger/difftastic.el",
   "unstable": {
    "version": [
-    20241210,
-    1616
+    20241219,
+    917
    ],
    "deps": [
     "compat",
-    "magit"
+    "magit",
+    "transient"
    ],
-   "commit": "67e52739a48062b26ed0f7285f920f4efa2eaddb",
-   "sha256": "14yx7z75hwjb6b32gjggrx002yr8gffgs6maasva9mcdc2nwnq4q"
+   "commit": "2a1e9691379e3462801e0510f59e7e2edf5bd236",
+   "sha256": "0hqam9l52kyff04vkdbsbqj3jasf0fbys7s9x57kv2w5yyd5c4nv"
   }
  },
  {
@@ -27104,11 +27105,11 @@
   "repo": "positron-solutions/dslide",
   "unstable": {
    "version": [
-    20241218,
-    700
+    20241219,
+    1347
    ],
-   "commit": "a37298579b76630b8c17f81fc5e14a5809d678ec",
-   "sha256": "0zzfd54iy4qs1cvw7mvs07yyjj3kr4cwmk2ib2sznmhrxjrkrbfg"
+   "commit": "2706574958ee76cfa38111d2c52fa639a2acc3d2",
+   "sha256": "1clcqgl367h8jgn4ah2jzb136hhan1di1rv19hcmxpdbg2y130dr"
   },
   "stable": {
    "version": [
@@ -38634,11 +38635,11 @@
   "url": "https://repo.or.cz/external-dict.el.git",
   "unstable": {
    "version": [
-    20241101,
-    1326
+    20241219,
+    842
    ],
-   "commit": "3515a8d3485cede35e8cfcf791a83ce30d0f728e",
-   "sha256": "1286isnlxj5lgx7yw4m1a4k9crgc0a8in60hkcizizh3amy4jspw"
+   "commit": "0027fa623ebb15a9453b8619ea68e17df3a171d3",
+   "sha256": "08rv38957p2winxiq3w6i6van7p274amm2x0ndxpf3swpln2ic8h"
   }
  },
  {
@@ -47435,11 +47436,11 @@
   "repo": "10sr/fuzzy-finder-el",
   "unstable": {
    "version": [
-    20210906,
-    217
+    20241219,
+    1044
    ],
-   "commit": "915a281fc8e50df84dcc205f9357e8314d60fa54",
-   "sha256": "15b6nbkv8xpvin8i1443s1mnpag5p33asgwpxijrmwp3xm2xkyl6"
+   "commit": "ed3fb35d33b38d5baad49ed5a2ea046085de4498",
+   "sha256": "0fqdd9mb81mpi24n517rb6bbm3bi6dymnwcz3kpxydkm65cjvmzh"
   },
   "stable": {
    "version": [
@@ -75279,8 +75280,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20241217,
-    2208
+    20241219,
+    950
    ],
    "deps": [
     "compat",
@@ -75290,8 +75291,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "ef0c6dfa3389a4d9b45664345fc6ee614faeef75",
-   "sha256": "1mk2fpfv64m09qi2w6cf8bn48d011j65js8jmi488cr66l1g0xav"
+   "commit": "bee964c56a83fd58add073c34343c6c2307df06f",
+   "sha256": "0lscb8y5jdvyw9pynvb9n2xlj7ijyzml59gnc94ajnxd30fqy4c5"
   },
   "stable": {
    "version": [
@@ -83230,7 +83231,7 @@
   "unstable": {
    "version": [
     20241219,
-    114
+    746
    ],
    "deps": [
     "dash",
@@ -83238,8 +83239,8 @@
     "s",
     "uuidgen"
    ],
-   "commit": "b9020403ffa0ac7e3ad17cd28647d42de731ac7a",
-   "sha256": "01d4xryk1n2kl7wfklfhs81n42syj1zrg3nc5x81msb75whc43sn"
+   "commit": "becbcedc216ce64c12da1821ceca37913e7fe8cb",
+   "sha256": "0x5i1vdp05jz625gy5zp960h5kdb4m0a5h6zaf2p0idhvfgrr3g4"
   }
  },
  {
@@ -94150,14 +94151,14 @@
   "repo": "minad/osm",
   "unstable": {
    "version": [
-    20241217,
-    1804
+    20241219,
+    1418
    ],
    "deps": [
     "compat"
    ],
-   "commit": "35fe481c53a4dcace5d91a94bf137f570617f85b",
-   "sha256": "1n3vwhh01vvs715hwlv37rm75kmq3vnxi33905nqwyaxnv21vzvb"
+   "commit": "f532acda0dde4dafa115a3d1c82267473a3895e6",
+   "sha256": "17w6y18pal6dz7aayncz91w7v3kzqgwvlxpvijplb96bv6pibvnw"
   },
   "stable": {
    "version": [
@@ -98597,10 +98598,10 @@
   "unstable": {
    "version": [
     20241219,
-    540
+    1246
    ],
-   "commit": "69e9c16fda61c3aef9219bf55adadcbba62c0586",
-   "sha256": "1n87pzx0bymis132m5dl3pmfkjw38lckwq0h4kh3hsqv46sykp9a"
+   "commit": "c77eb101e2c6cf324789341cf05e744eca22068e",
+   "sha256": "19h9lj2s1n3d17xvk4avd5kfpbngpcdf3g1ni7fd8zh1f1572naa"
   },
   "stable": {
    "version": [
@@ -123093,15 +123094,15 @@
   "repo": "magit/transient",
   "unstable": {
    "version": [
-    20241218,
-    1310
+    20241219,
+    829
    ],
    "deps": [
     "compat",
     "seq"
    ],
-   "commit": "a45ac411526030ad601a384c4c293af18bd2db75",
-   "sha256": "0zfgx9ywfp6bx071mnxkrf77davj6bsdqkgpfrmc4i11l2gcmx4l"
+   "commit": "03ef2e75665fe53d377bba5b72bde3a317d62ebd",
+   "sha256": "12dkl2ib1f6lqs8qd7m7lk12ha1mb1w7fihzlxs9yy4pjndxi2rw"
   },
   "stable": {
    "version": [
@@ -124653,14 +124654,14 @@
   "repo": "deadblackclover/twtxt-el",
   "unstable": {
    "version": [
-    20241218,
-    1613
+    20241219,
+    937
    ],
    "deps": [
     "request"
    ],
-   "commit": "aff2fe89171880b0224b5b805fc7d0db00579745",
-   "sha256": "01z8bkn3wfn0wi1qfybqw6cwcgm00jis0p9rhzvvipazgdw2v1gq"
+   "commit": "8780c0f637ce5687033a0a0820df41d60d0d49b9",
+   "sha256": "0r469n76xahhqsyalan45fhn67i4a4fw3cnlkfi6yxgfh33hbl2w"
   }
  },
  {
