@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.8.0.20241218.192108";
+      version = "14.0.8.0.20241219.62819";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.8.0.20241218.192108.tar";
-        sha256 = "07012jc592c19nmcx4sn9f3pcw8i87s1jg2lcbggw1c0x1p59zlk";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.8.0.20241219.62819.tar";
+        sha256 = "159ws093gh9cv4isrgilx0nm2i83wi8hxm1im4xfdbv4dnf8qyw0";
       };
       packageRequires = [ ];
       meta = {
@@ -3832,10 +3832,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.11.18.0.20241208.143035";
+      version = "0.12.1.0.20241219.54202";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.11.18.0.20241208.143035.tar";
-        sha256 = "0dh3vnl7b6c18810nk84an0fks58fi5krsnmfkg0r7kdm724ik60";
+        url = "https://elpa.gnu.org/devel/greader-0.12.1.0.20241219.54202.tar";
+        sha256 = "08ns8gk1gl3jv73a8rmp0l979slj108fqwagiav2jhijjn2ycg4a";
       };
       packageRequires = [
         compat
@@ -4900,10 +4900,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.19.1.0.20241218.105708";
+      version = "0.19.1.0.20241219.2355";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.19.1.0.20241218.105708.tar";
-        sha256 = "1gf1nib29y86qlfn19xw7mfzafzqapmghsrcq8cn4kmj19bz2k2d";
+        url = "https://elpa.gnu.org/devel/llm-0.19.1.0.20241219.2355.tar";
+        sha256 = "1wd7zq0drgcivq0wkv4v3rbvmims447cqgvdb0yi6ngw5imgglb1";
       };
       packageRequires = [
         plz
@@ -6925,10 +6925,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.2.0.0.20241218.104140";
+      version = "1.2.0.0.20241219.62359";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.2.0.0.20241218.104140.tar";
-        sha256 = "0w0ijrkkbndq6pvwfkf5xnni6c0gjmcxk50v8vdajpbfczzk64ai";
+        url = "https://elpa.gnu.org/devel/pulsar-1.2.0.0.20241219.62359.tar";
+        sha256 = "1a7mvpfdvq1cbl7lqp4k25vq1wshi402sc77x6mjj8hspp9qn5xn";
       };
       packageRequires = [ ];
       meta = {
@@ -8091,10 +8091,10 @@
     elpaBuild {
       pname = "speedrect";
       ename = "speedrect";
-      version = "0.7.0.20241217.183451";
+      version = "0.7.0.20241218.223517";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/speedrect-0.7.0.20241217.183451.tar";
-        sha256 = "1rf86gmm36w4nrfhwxm1kxfspri49zh22fch7gay43sl181431ya";
+        url = "https://elpa.gnu.org/devel/speedrect-0.7.0.20241218.223517.tar";
+        sha256 = "1n6z4igl9j3his9fv9qyrzs5r2m9hlj8ys5yr69irdr94xmpr8kr";
       };
       packageRequires = [ compat ];
       meta = {
