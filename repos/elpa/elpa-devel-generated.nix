@@ -3832,10 +3832,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.12.1.0.20241219.54202";
+      version = "0.12.3.0.20241220.71000";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.12.1.0.20241219.54202.tar";
-        sha256 = "08ns8gk1gl3jv73a8rmp0l979slj108fqwagiav2jhijjn2ycg4a";
+        url = "https://elpa.gnu.org/devel/greader-0.12.3.0.20241220.71000.tar";
+        sha256 = "1pz0bm6i7c0pnpd1x4rkdh0l3qbl8xlvxjay29kibnq16fvk9ms3";
       };
       packageRequires = [
         compat
@@ -8638,10 +8638,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.2.0.20241211.185515";
+      version = "1.2.0.20241219.231651";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20241211.185515.tar";
-        sha256 = "1ipgip6qp5wflgv5vaazx7z91ppwnfjyklx89v102k3x090zclca";
+        url = "https://elpa.gnu.org/devel/tempel-1.2.0.20241219.231651.tar";
+        sha256 = "0h1gq9lrk3jnrzla36494jrz8lgbglgi437k401n6fkyx1nvlhha";
       };
       packageRequires = [ compat ];
       meta = {
