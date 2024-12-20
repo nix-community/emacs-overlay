@@ -2503,10 +2503,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20241218.63914";
+      version = "4.0.0.20241219.80042";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241218.63914.tar";
-        sha256 = "03b8hh3a91zp8cxknr8q5f735xs7b9kp9s4sjb098nnxhkcah7kz";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241219.80042.tar";
+        sha256 = "0r40b9wng2nbqafj4dxqyci9ql8m0xjzfls9khh16cv39ndc6xn0";
       };
       packageRequires = [
         helm-core
@@ -2528,10 +2528,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20241218.63914";
+      version = "4.0.0.20241219.80042";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241218.63914.tar";
-        sha256 = "0daxms3q8hc11arlbw62xavg3039hd6jbvykg2qwrlxadhppyaxd";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241219.80042.tar";
+        sha256 = "06axy26049gbqwakdq4a2hx0gbhnl65yy0jxq81ygicjvx6npm9v";
       };
       packageRequires = [ async ];
       meta = {
@@ -2806,10 +2806,10 @@
     elpaBuild {
       pname = "inf-ruby";
       ename = "inf-ruby";
-      version = "2.8.1.0.20241216.20701";
+      version = "2.8.1.0.20241220.25141";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/inf-ruby-2.8.1.0.20241216.20701.tar";
-        sha256 = "1bwdg49mlrlbhqf01d9lyal8is6sxlzdsnbf6pp2zfd3amkyf3kd";
+        url = "https://elpa.nongnu.org/nongnu-devel/inf-ruby-2.8.1.0.20241220.25141.tar";
+        sha256 = "0z3vbdb1df0vwjm2lk6bk11c0afg8w6p5n2x8q4wgmwqyp3h3gb2";
       };
       packageRequires = [ ];
       meta = {
