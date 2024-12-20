@@ -220,10 +220,10 @@
     elpaBuild {
       pname = "auto-dim-other-buffers";
       ename = "auto-dim-other-buffers";
-      version = "2.2.0.0.20241218.220440";
+      version = "2.2.1.0.20241219.184527";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/auto-dim-other-buffers-2.2.0.0.20241218.220440.tar";
-        sha256 = "0kzjmdr9k3qiar4qci3fyvs3cyfvlia2n33ngc6xma5afm0jg94c";
+        url = "https://elpa.nongnu.org/nongnu-devel/auto-dim-other-buffers-2.2.1.0.20241219.184527.tar";
+        sha256 = "0596jw2qxk79z26blq7vlch7wszv39f84kpi7gwrbad0jyjcryfw";
       };
       packageRequires = [ ];
       meta = {
@@ -1008,10 +1008,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.6.0.0.20241218.70053";
+      version = "0.6.0.0.20241219.134732";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241218.70053.tar";
-        sha256 = "0kbfs7hif807psvcd5xm0y01vxr1brbzp91jpzigsrahbllf6rwk";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241219.134732.tar";
+        sha256 = "1mcl6b8aq2p70yf77drn0rigqkxiyal84w9fdjqqv1h9v0afjicz";
       };
       packageRequires = [ ];
       meta = {
@@ -3923,10 +3923,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1.0.20241219.54051";
+      version = "1.26.1.0.20241219.164506";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20241219.54051.tar";
-        sha256 = "15zpxy2pbv914lvl51nh8h0nhfdawiazbi21hjvjpsgjccd6h794";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20241219.164506.tar";
+        sha256 = "0x6dqaz7rhsrp1k6h3h2xzacdl8bh6y4l17g3l29r03lppnd1460";
       };
       packageRequires = [ ];
       meta = {
@@ -4582,10 +4582,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.21.0.20241218.131730";
+      version = "1.2.23.0.20241219.92926";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.21.0.20241218.131730.tar";
-        sha256 = "0xgmn965bslq0pzncdcm04ngphbgaapbm12437j6zqshf7gri2cm";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.23.0.20241219.92926.tar";
+        sha256 = "002piq1fnn6jpf9vq8j5rnl79hx1wb4x4gks2mzsm9g4gg9ldq9x";
       };
       packageRequires = [ ];
       meta = {

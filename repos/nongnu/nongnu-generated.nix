@@ -220,10 +220,10 @@
     elpaBuild {
       pname = "auto-dim-other-buffers";
       ename = "auto-dim-other-buffers";
-      version = "2.2.0";
+      version = "2.2.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/auto-dim-other-buffers-2.2.0.tar";
-        sha256 = "1s8z0hnryh03gzigw350z36jla0f36nbwnvnwn75n5qai8f7g9jn";
+        url = "https://elpa.nongnu.org/nongnu/auto-dim-other-buffers-2.2.1.tar";
+        sha256 = "00x0niv1zd47b2xl19k3fi0xxskdndiabns107cxzwb7pnkp4f0m";
       };
       packageRequires = [ ];
       meta = {
@@ -4601,10 +4601,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.21";
+      version = "1.2.23";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/subed-1.2.21.tar";
-        sha256 = "1d0w96amchcpblcbkl16yiwsvj8qfpax66ysjg02550lhpb493x7";
+        url = "https://elpa.nongnu.org/nongnu/subed-1.2.23.tar";
+        sha256 = "0bvsv688mqhga8dffy3841wxs5pkw0vish15dgligll47cj98mzp";
       };
       packageRequires = [ ];
       meta = {
