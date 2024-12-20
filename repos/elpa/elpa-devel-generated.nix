@@ -1574,10 +1574,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20241208.224221";
+      version = "1.5.0.20241219.170155";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241208.224221.tar";
-        sha256 = "0xvqf0hpr4plcq0fa75waj7wnd3mxqzdw5rncy96xbbz5p1aw7ri";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241219.170155.tar";
+        sha256 = "1z6sl9133fbjlz0k4905ph83461c19sp3lbmk927ph59pwqdq055";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6286,10 +6286,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.4.0.20241217.180410";
+      version = "1.4.0.20241219.141823";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.4.0.20241217.180410.tar";
-        sha256 = "0r09m7pla7vgn94y0j8sslii2cvpi6ga20qb059l8psqnw2zspzy";
+        url = "https://elpa.gnu.org/devel/osm-1.4.0.20241219.141823.tar";
+        sha256 = "093prbw45ns1wihrlfmqncbqn3zk94x2rj8fip30zw9h7c55sw5d";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8091,10 +8091,10 @@
     elpaBuild {
       pname = "speedrect";
       ename = "speedrect";
-      version = "0.7.0.20241218.223517";
+      version = "0.7.0.20241219.85730";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/speedrect-0.7.0.20241218.223517.tar";
-        sha256 = "1n6z4igl9j3his9fv9qyrzs5r2m9hlj8ys5yr69irdr94xmpr8kr";
+        url = "https://elpa.gnu.org/devel/speedrect-0.7.0.20241219.85730.tar";
+        sha256 = "1f95838jmcgjxvwrghamwiibbsxxv1mbjivyn25ihmi47zwj8fhc";
       };
       packageRequires = [ compat ];
       meta = {
