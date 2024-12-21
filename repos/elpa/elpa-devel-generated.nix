@@ -1574,10 +1574,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.5.0.20241219.170155";
+      version = "1.5.0.20241220.220050";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241219.170155.tar";
-        sha256 = "1z6sl9133fbjlz0k4905ph83461c19sp3lbmk927ph59pwqdq055";
+        url = "https://elpa.gnu.org/devel/corfu-1.5.0.20241220.220050.tar";
+        sha256 = "10bf43z0vf2m7n3hvvawl0qxvkykb2m8d6ay0scylk0scyi4vq9s";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.18.0.0.20241220.172330";
+      version = "0.19.0.0.20241221.85536";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.18.0.0.20241220.172330.tar";
-        sha256 = "1iiy0wvzyl7x2gqzbv1sssc007098ysipd6m6j2hjcr16azrbpxm";
+        url = "https://elpa.gnu.org/devel/dape-0.19.0.0.20241221.85536.tar";
+        sha256 = "17nnys1jwa2wnslvc4k7b15ba38j7viz04cylqnn6318iqfl89qb";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2080,10 +2080,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "0.1.0.20241220.204823";
+      version = "0.2.0.20241220.230136";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dicom-0.1.0.20241220.204823.tar";
-        sha256 = "0475qv5hawcf5xq2dkqavzq5wjxc86rv8z97f0rw22m2zvsa0fak";
+        url = "https://elpa.gnu.org/devel/dicom-0.2.0.20241220.230136.tar";
+        sha256 = "03akf8ipf1qqwrlsbdwxzc64dnqw4npq18835aq7ndhnr1zb7v52";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2637,10 +2637,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.17.0.20241024.85007";
+      version = "1.17.0.20241220.231147";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20241024.85007.tar";
-        sha256 = "158022p4711xymcnkgck2bnv6w2bxj78kd7zgnxh7wp5424h4zd0";
+        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20241220.231147.tar";
+        sha256 = "1l09malb2g087jgv4qwvvh5d067bqj5y3j9ph8rrd62jr872ganz";
       };
       packageRequires = [
         compat
@@ -3016,10 +3016,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1snapshot0.20241209.114245";
+      version = "5.6.1snapshot0.20241220.181802";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20241209.114245.tar";
-        sha256 = "1bbdirpz2zsjhjh8zzf3w8vdr11mmjfwx6k7kmib9l213jj5s8wp";
+        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20241220.181802.tar";
+        sha256 = "1dyj17f6npg1dl1dw4r89d79l3jy233f3g01kfg95zs7vw6p1xk8";
       };
       packageRequires = [ compat ];
       meta = {

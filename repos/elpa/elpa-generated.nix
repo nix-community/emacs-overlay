@@ -1814,10 +1814,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.18.0";
+      version = "0.19.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dape-0.18.0.tar";
-        sha256 = "0jqwng5dii2kzv26qmgxpkksm9nhvpfln47wzkplsb3ziwg066as";
+        url = "https://elpa.gnu.org/packages/dape-0.19.0.tar";
+        sha256 = "11hs0cnzyp75gmz32mqplaknf4lq0zf9zp07h1rhlvz31aacvrqh";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2055,10 +2055,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "0.1";
+      version = "0.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dicom-0.1.tar";
-        sha256 = "0z20b1j29a81fz0anfx929b8lmj27maz404nnwksc3gzwciy3kna";
+        url = "https://elpa.gnu.org/packages/dicom-0.2.tar";
+        sha256 = "02djvga17ynjxxinlpkkvzkxx58y2myyg3l6ir3rdchxl5xz9izy";
       };
       packageRequires = [ compat ];
       meta = {
