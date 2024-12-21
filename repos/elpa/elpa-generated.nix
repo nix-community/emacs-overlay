@@ -2045,6 +2045,28 @@
       };
     }
   ) { };
+  dicom = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "dicom";
+      ename = "dicom";
+      version = "0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/dicom-0.1.tar";
+        sha256 = "0z20b1j29a81fz0anfx929b8lmj27maz404nnwksc3gzwciy3kna";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/dicom.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   dict-tree = callPackage (
     {
       elpaBuild,
@@ -6361,10 +6383,10 @@
     elpaBuild {
       pname = "parser-generator";
       ename = "parser-generator";
-      version = "0.2.3";
+      version = "0.2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/parser-generator-0.2.3.tar";
-        sha256 = "021j4nvhgc4357jymf1sgmf1g3dvmcbbccd4gjbqdfa1gcc7bh2v";
+        url = "https://elpa.gnu.org/packages/parser-generator-0.2.4.tar";
+        sha256 = "01b5bwh484fpicv0g2z64694pjkhrcqz9f8jpq6hk41kzhvr23m1";
       };
       packageRequires = [ ];
       meta = {

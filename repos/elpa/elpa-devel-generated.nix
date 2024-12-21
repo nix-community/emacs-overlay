@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.18.0.0.20241216.220230";
+      version = "0.18.0.0.20241220.172330";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.18.0.0.20241216.220230.tar";
-        sha256 = "1xiikyscrd2j3qanfp6b46q9y1mkq6vspibkrifd4s957g3q8ihc";
+        url = "https://elpa.gnu.org/devel/dape-0.18.0.0.20241220.172330.tar";
+        sha256 = "1iiy0wvzyl7x2gqzbv1sssc007098ysipd6m6j2hjcr16azrbpxm";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2066,6 +2066,28 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/devicetree-ts-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  dicom = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "dicom";
+      ename = "dicom";
+      version = "0.1.0.20241220.204823";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/dicom-0.1.0.20241220.204823.tar";
+        sha256 = "0475qv5hawcf5xq2dkqavzq5wjxc86rv8z97f0rw22m2zvsa0fak";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/dicom.html";
         license = lib.licenses.free;
       };
     }
@@ -2320,10 +2342,10 @@
     elpaBuild {
       pname = "do-at-point";
       ename = "do-at-point";
-      version = "0.1.2.0.20240625.155102";
+      version = "0.1.2.0.20241220.111054";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/do-at-point-0.1.2.0.20240625.155102.tar";
-        sha256 = "035f0gqywlrr8cwwk9b04nczcv8slf76f2ixvam949fphhc0zkrb";
+        url = "https://elpa.gnu.org/devel/do-at-point-0.1.2.0.20241220.111054.tar";
+        sha256 = "0y9rgxnrar6gwqj3w622xdavi5gnb748kbym25q19a4vsjdazvi1";
       };
       packageRequires = [ ];
       meta = {
@@ -6393,10 +6415,10 @@
     elpaBuild {
       pname = "parser-generator";
       ename = "parser-generator";
-      version = "0.2.3.0.20241214.83947";
+      version = "0.2.4.0.20241220.142732";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/parser-generator-0.2.3.0.20241214.83947.tar";
-        sha256 = "0nipj91l1pv2l0ls2cng05d9llfm2j166yap99fmpykwlnfh99pf";
+        url = "https://elpa.gnu.org/devel/parser-generator-0.2.4.0.20241220.142732.tar";
+        sha256 = "0q46ywjv4ymjal0jfmrm4i1ck6nkcil06xgzhncqp6j8fbn4mvj5";
       };
       packageRequires = [ ];
       meta = {
@@ -8091,10 +8113,10 @@
     elpaBuild {
       pname = "speedrect";
       ename = "speedrect";
-      version = "0.7.0.20241219.85730";
+      version = "0.7.0.20241220.133155";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/speedrect-0.7.0.20241219.85730.tar";
-        sha256 = "1f95838jmcgjxvwrghamwiibbsxxv1mbjivyn25ihmi47zwj8fhc";
+        url = "https://elpa.gnu.org/devel/speedrect-0.7.0.20241220.133155.tar";
+        sha256 = "10bcmxy5pcni1789fa67awv03q17d5b3ls47vxkn1p6diiha95jw";
       };
       packageRequires = [ compat ];
       meta = {
