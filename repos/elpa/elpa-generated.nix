@@ -8359,10 +8359,10 @@
     elpaBuild {
       pname = "sxhkdrc-mode";
       ename = "sxhkdrc-mode";
-      version = "1.0.0";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/sxhkdrc-mode-1.0.0.tar";
-        sha256 = "0gfv5l71md2ica9jfa8ynwfag3zvayc435pl91lzcz92qy5n0hlj";
+        url = "https://elpa.gnu.org/packages/sxhkdrc-mode-1.1.0.tar";
+        sha256 = "00mzhxrlcbswsv3jysgqniq02inakz7j5a2hx2w83is5rbmb9bhc";
       };
       packageRequires = [ ];
       meta = {
