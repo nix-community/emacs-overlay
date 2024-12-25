@@ -53,10 +53,10 @@
     elpaBuild {
       pname = "activities";
       ename = "activities";
-      version = "0.8pre0.20241216.192117";
+      version = "0.8pre0.20241225.10347";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/activities-0.8pre0.20241216.192117.tar";
-        sha256 = "0z94ipxkb8jw29fzfh3w377hfh75007649zm8mcffaxy1hwrj129";
+        url = "https://elpa.gnu.org/devel/activities-0.8pre0.20241225.10347.tar";
+        sha256 = "0c6rivd7qvrd02pvryffr2h6y0lyp9z0zrvdk2rygxz6l5pq0g9x";
       };
       packageRequires = [ persist ];
       meta = {
@@ -2257,10 +2257,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.3.0.0.20241214.125243";
+      version = "0.3.0.0.20241225.64652";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20241214.125243.tar";
-        sha256 = "12s20xlsvznlqybvxkl1rdx7bh0dsfd05j9p4953mdscfqwbbkrs";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20241225.64652.tar";
+        sha256 = "0faylkpxfsrikygg05b92xq4a5b0ivlcgm9acl6pa4rf856zgnpd";
       };
       packageRequires = [ ];
       meta = {
@@ -3854,10 +3854,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.12.3.0.20241220.71000";
+      version = "0.12.4.0.20241225.12830";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.12.3.0.20241220.71000.tar";
-        sha256 = "1pz0bm6i7c0pnpd1x4rkdh0l3qbl8xlvxjay29kibnq16fvk9ms3";
+        url = "https://elpa.gnu.org/devel/greader-0.12.4.0.20241225.12830.tar";
+        sha256 = "1kb427z0y8kcshs5hsjyymqwi88qa4rh0909qcwf2bzx0mqcd8xf";
       };
       packageRequires = [
         compat
@@ -4094,10 +4094,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20241223.81150";
+      version = "9.0.2pre0.20241224.224852";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241223.81150.tar";
-        sha256 = "0ljrqwzyv33v0gxqjfglsbc4xk3qjzmkkc41vjbipiah3arkmab8";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241224.224852.tar";
+        sha256 = "0an21byy9bjyfkqbicd8mk2nlfd1nzv5x45z6mpsmr36791yy9c8";
       };
       packageRequires = [ ];
       meta = {
@@ -8984,10 +8984,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.1.0.20241222.210436";
+      version = "0.8.1.0.20241224.223457";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.8.1.0.20241222.210436.tar";
-        sha256 = "1k9sqf6diwlw9xqayi6ggkfr588sxkd4cv6bmk92v279mrg4rx1l";
+        url = "https://elpa.gnu.org/devel/transient-0.8.1.0.20241224.223457.tar";
+        sha256 = "08z7kwilm124hxp8jlbfwr4m2m8z06jgqg05k0gsjj43x22ay0xl";
       };
       packageRequires = [
         compat
