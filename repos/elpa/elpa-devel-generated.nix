@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241225.155902";
+      version = "3.1.0.0.20241226.72507";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241225.155902.tar";
-        sha256 = "1wfgg1nf6vgd6rqzkkakjlfxmdi0l2k49a0a86f71c9y1pb40skx";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241226.72507.tar";
+        sha256 = "0srv0dgrrrqcad14q9zg6nn4h3jkspf3kddpzm2063vxvxb63y3y";
       };
       packageRequires = [ ];
       meta = {
@@ -9651,10 +9651,10 @@
     elpaBuild {
       pname = "vundo";
       ename = "vundo";
-      version = "2.3.0.0.20240425.211317";
+      version = "2.3.0.0.20241225.170413";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vundo-2.3.0.0.20240425.211317.tar";
-        sha256 = "0dif9f3s3igpfi0r4dgzy14g8m6xf1g6lqyc0gfzf40n301iw4kz";
+        url = "https://elpa.gnu.org/devel/vundo-2.3.0.0.20241225.170413.tar";
+        sha256 = "0cl9ysfh9jkdk602183lbqb4xfb3z0y85ybs8ql6fl2n483n934a";
       };
       packageRequires = [ ];
       meta = {
