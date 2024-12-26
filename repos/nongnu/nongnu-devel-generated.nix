@@ -1008,10 +1008,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.6.0.0.20241225.105610";
+      version = "0.6.0.0.20241226.84424";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241225.105610.tar";
-        sha256 = "1bn2l19n112g87l2i505a4n7flx2ww497arjk5xbvv9wcv9wa9i1";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241226.84424.tar";
+        sha256 = "0033h89w9zr72zvskzmhgi1nfhga74vmcknzxc53ln3hlbh70yr2";
       };
       packageRequires = [ ];
       meta = {
@@ -5326,10 +5326,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.9.20241220195053.0.20241220.195159";
+      version = "26.9.20241225173150.0.20241225.173444";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.9.20241220195053.0.20241220.195159.tar";
-        sha256 = "1yxmcmyhfw1mjdi2jq7z4caqzwax26gf8q9dh7shdjppd7v32srz";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.9.20241225173150.0.20241225.173444.tar";
+        sha256 = "08c168kcb0ds9g8hfqwd4qnymmg7z32k3g51ap9rqw6048cyl5fw";
       };
       packageRequires = [ ];
       meta = {
