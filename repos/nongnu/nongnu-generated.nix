@@ -4306,10 +4306,10 @@
     elpaBuild {
       pname = "scala-mode";
       ename = "scala-mode";
-      version = "1.1.0";
+      version = "1.1.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/scala-mode-1.1.0.tar";
-        sha256 = "1x3vw4fzy1z6gavnbsm4lnwzkp47zd8gasvxxvfk57qn09hpwixh";
+        url = "https://elpa.nongnu.org/nongnu/scala-mode-1.1.1.tar";
+        sha256 = "1dmaq00432smrwqx6ybw855vdwp7s8h358c135ji5d581mkhpai5";
       };
       packageRequires = [ ];
       meta = {

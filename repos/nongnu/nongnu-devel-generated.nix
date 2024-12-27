@@ -1008,10 +1008,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.6.0.0.20241226.125104";
+      version = "0.6.0.0.20241227.15817";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241226.125104.tar";
-        sha256 = "0c95az4d310slh960yqvq833h7yn0aj0yplj0p4racxczy7pxp04";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241227.15817.tar";
+        sha256 = "15854yzkvkkns051xrx7j8ha6v21md3p7pcx29hmmbzip505arxg";
       };
       packageRequires = [ ];
       meta = {
@@ -4287,10 +4287,10 @@
     elpaBuild {
       pname = "scala-mode";
       ename = "scala-mode";
-      version = "1.1.0.0.20241226.205348";
+      version = "1.1.1.0.20241227.80659";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scala-mode-1.1.0.0.20241226.205348.tar";
-        sha256 = "1cl3j5zjljkykbh30rfj1fbnvf61yd8h4v1bdabic29s2xk1zjav";
+        url = "https://elpa.nongnu.org/nongnu-devel/scala-mode-1.1.1.0.20241227.80659.tar";
+        sha256 = "09vif0p0jf8jf9ignb4rr8bpcg0grsg9qlk5rj4r9dazmja2854p";
       };
       packageRequires = [ ];
       meta = {
@@ -5105,10 +5105,10 @@
     elpaBuild {
       pname = "web-mode";
       ename = "web-mode";
-      version = "17.3.21.0.20241226.90519";
+      version = "17.3.21.0.20241227.53016";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/web-mode-17.3.21.0.20241226.90519.tar";
-        sha256 = "11h6i15d7g707haplhckyfkxr0jrqldhb935m0sggla86s7hw7i9";
+        url = "https://elpa.nongnu.org/nongnu-devel/web-mode-17.3.21.0.20241227.53016.tar";
+        sha256 = "0syhyqryfh2rvf2688rqfs3j0p0fh794vw85qwdh3kxi57w8ra8h";
       };
       packageRequires = [ ];
       meta = {
