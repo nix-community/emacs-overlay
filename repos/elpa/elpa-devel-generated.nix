@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.19.0.0.20241227.155807";
+      version = "0.19.0.0.20241227.225053";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.19.0.0.20241227.155807.tar";
-        sha256 = "0h9m1z7xp99y15802xcckyhffz64v73mrj7639zs2lfanpa2xqjd";
+        url = "https://elpa.gnu.org/devel/dape-0.19.0.0.20241227.225053.tar";
+        sha256 = "11fnv0gfq6srs8faz8lnyr6c6d8ck6qam24ca8y7w8lq8ryxnw2g";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20241226.144434";
+      version = "3.1.0.0.20241228.60349";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241226.144434.tar";
-        sha256 = "0zgmg0hzfxq2r8l0hvrxiqx7kz2prjn313520p0flhmmmh8571is";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20241228.60349.tar";
+        sha256 = "0x8ysavfyswsp9gnzxm69rjaq9vdsp5am3p79pnw518rrkjnarpf";
       };
       packageRequires = [ ];
       meta = {
@@ -3016,10 +3016,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1snapshot0.20241220.181802";
+      version = "5.6.1snapshot0.20241227.152029";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20241220.181802.tar";
-        sha256 = "1dyj17f6npg1dl1dw4r89d79l3jy233f3g01kfg95zs7vw6p1xk8";
+        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20241227.152029.tar";
+        sha256 = "0z6h8vrl8iz6na6al5dfwrggagbpwr1iyxsa3daj3rdfasvrgmr6";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3183,10 +3183,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.32.0.20241223.213205";
+      version = "0.32.0.20241228.12110";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.32.0.20241223.213205.tar";
-        sha256 = "0ffc6l6zm2kf0jvasg7q64x970l6p51llp7khhck7n1f6y4wha4k";
+        url = "https://elpa.gnu.org/devel/exwm-0.32.0.20241228.12110.tar";
+        sha256 = "12r2ivan412lz9x4sxkzv6y8djin5cg9vclh1m73kkrmv5vn8plv";
       };
       packageRequires = [
         compat
