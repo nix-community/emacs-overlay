@@ -1008,10 +1008,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.6.0.0.20241227.15817";
+      version = "0.6.0.0.20241227.150838";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241227.15817.tar";
-        sha256 = "15854yzkvkkns051xrx7j8ha6v21md3p7pcx29hmmbzip505arxg";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241227.150838.tar";
+        sha256 = "05bjg2vwqm9g8rmx4m1614js49jbwanc8vaxif146kra7l58nn30";
       };
       packageRequires = [ ];
       meta = {
@@ -4050,10 +4050,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20241217.125843";
+      version = "1.0.20241227.82611";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241217.125843.tar";
-        sha256 = "1m5f0wjh7a8z4vzxiiql1yqy5kdwybflyd28fjnp23xxn1s6lhsd";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241227.82611.tar";
+        sha256 = "0wic75hrkpfjy4wkranl8rbk13cy7nbm47n7pvg2bghclkdsl6xn";
       };
       packageRequires = [ ];
       meta = {
