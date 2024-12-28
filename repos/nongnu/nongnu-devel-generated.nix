@@ -1008,10 +1008,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.6.0.0.20241227.150838";
+      version = "0.6.0.0.20241228.73913";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241227.150838.tar";
-        sha256 = "05bjg2vwqm9g8rmx4m1614js49jbwanc8vaxif146kra7l58nn30";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241228.73913.tar";
+        sha256 = "1jzkz28klik648pd742bcfcq161nv95zq8nkbb1bj0kmshnqbik1";
       };
       packageRequires = [ ];
       meta = {
@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20241226.110113";
+      version = "0.9.7.0.20241227.231927";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20241226.110113.tar";
-        sha256 = "138xasy7y1qmgnqjd5rim9iswr4kihsx38lsx0lmjahh56jqwnks";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20241227.231927.tar";
+        sha256 = "12nbma6z2gqkcqp2xmmgq8chwlmvzwlm6463rgzcm2qplkcijn6r";
       };
       packageRequires = [
         compat
@@ -2480,10 +2480,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20241216.63538";
+      version = "1.0.20241228.81405";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241216.63538.tar";
-        sha256 = "0ffy91mf2pcdh3f6p045pdmq2pkqh5ihq0rl2qy1sgpnvvvz4d93";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241228.81405.tar";
+        sha256 = "15jwvha2ih09axx5smafmk13nsa4gg207ivgbx2lqkkia8c8sa9y";
       };
       packageRequires = [ ];
       meta = {
@@ -4287,10 +4287,10 @@
     elpaBuild {
       pname = "scala-mode";
       ename = "scala-mode";
-      version = "1.1.1.0.20241227.80659";
+      version = "1.1.1.0.20241227.211000";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scala-mode-1.1.1.0.20241227.80659.tar";
-        sha256 = "09vif0p0jf8jf9ignb4rr8bpcg0grsg9qlk5rj4r9dazmja2854p";
+        url = "https://elpa.nongnu.org/nongnu-devel/scala-mode-1.1.1.0.20241227.211000.tar";
+        sha256 = "0q74zwfmm3ah7ziq4jw8mxll80v35xlsgj2yqfkf1r7qd29wpvh0";
       };
       packageRequires = [ ];
       meta = {
@@ -4393,10 +4393,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20241214.202129";
+      version = "2.31snapshot0.20241228.11424";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20241214.202129.tar";
-        sha256 = "062ba8iap43s0dw23264qq14f3510f7n3swcxbyzq35mnfbhs1bn";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20241228.11424.tar";
+        sha256 = "0xd84d9qdgr92xkln9fy6cxvdf2a920a2ax17hwrzhzd5ybzywph";
       };
       packageRequires = [ macrostep ];
       meta = {
