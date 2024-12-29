@@ -23243,15 +23243,27 @@
   "repo": "pprevos/denote-explore",
   "unstable": {
    "version": [
-    20241228,
-    2231
+    20241229,
+    43
    ],
    "deps": [
     "dash",
     "denote"
    ],
-   "commit": "1e35592a55d6c8ba2eaf63862544a2b86f187a58",
-   "sha256": "1lx6mnlp3ryk7cn9s8433dds3n8gg8a8g2xk89mp4gnrjcvcxbf8"
+   "commit": "55ff67ddaddc98b5e4892f2bacf85af2446b31b7",
+   "sha256": "09w081dh5b9nvkfp1d9yj9spp9srqsal2x8p7skxdkn6caw1w0xs"
+  },
+  "stable": {
+   "version": [
+    3,
+    2
+   ],
+   "deps": [
+    "dash",
+    "denote"
+   ],
+   "commit": "55ff67ddaddc98b5e4892f2bacf85af2446b31b7",
+   "sha256": "09w081dh5b9nvkfp1d9yj9spp9srqsal2x8p7skxdkn6caw1w0xs"
   }
  },
  {
@@ -52286,15 +52298,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20241228,
-    2236
+    20241229,
+    458
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "f44c2305b9a9046442bf271b0c0e39bab2b92cda",
-   "sha256": "0rnyj94rq98s2ccmwlcdpc0nilzd6wr01l935lpwcrgcrixmndcp"
+   "commit": "676503e88e7d26e862a74a6f3c9c3895b7870e1f",
+   "sha256": "1yz3j0wvgaihz8dwwdn6dkf600zhdnqkv0wjr59c3pzfsv0hhshb"
   },
   "stable": {
    "version": [
@@ -64498,11 +64510,11 @@
   "repo": "BriansEmacs/insert-pair-edit.el",
   "unstable": {
    "version": [
-    20241018,
-    749
+    20241229,
+    54
    ],
-   "commit": "757a9c3bd7b2d1f803e7e83af1a07c1656f3ba1a",
-   "sha256": "006k6mll9p86c6iv34rlvqly4rx7r7mq7xbss9p82hms45za6jyl"
+   "commit": "5701e598a0d115a4f0261c82320d180e6be3045e",
+   "sha256": "0z36s751fsh2a84573754s004x6i65xh29dy5parr9xqsj55x7xx"
   }
  },
  {
@@ -82818,11 +82830,11 @@
   "repo": "rainstormstudio/nerd-icons.el",
   "unstable": {
    "version": [
-    20241211,
-    56
+    20241229,
+    125
    ],
-   "commit": "4bd9795f1f3f47cb874e10ff5c3845e037f0b3e2",
-   "sha256": "1imklm81jsq2jdjprsjm8pdq701c4l0rgn7l0f3l3xs602kg49l1"
+   "commit": "9fc567ca7d1081e3356a28444d085d3cf5ffe3a7",
+   "sha256": "15akvwwy7icyx4as8ja7yqvg26hcfhv23bg4y61938f06ra2lhj3"
   },
   "stable": {
    "version": [
@@ -92694,14 +92706,14 @@
   "url": "https://repo.or.cz/org-tag-beautify.git",
   "unstable": {
    "version": [
-    20241211,
-    1235
+    20241229,
+    516
    ],
    "deps": [
     "nerd-icons"
    ],
-   "commit": "34f4ee4a447cf57730f59cae543cd86815fa0e13",
-   "sha256": "1xjw4x7pnhy4r3v8s088948gp6ivhz9431qav2i2fzhla56i6311"
+   "commit": "245ac5f991f073a4baa68c01cf5330a4fe29bee7",
+   "sha256": "0rpps1grr0xzjghq6wr6k8c7w8mg3sfwprydgkqwm0pz18ac9rwy"
   }
  },
  {
@@ -123722,13 +123734,13 @@
    "version": [
     0,
     12,
-    243
+    244
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "789f559e59223d14368987c482b274a0920ccdf6",
-   "sha256": "1ngdcgfi4f03kn5fcly7zv0vsnnqcbaz7klwxxpyjiss04pzanj5"
+   "commit": "dd57f2e908c420405ba06c46b483511e1f3411da",
+   "sha256": "0id0hdz3d2rd65g4inxqz2xd60rvmh5l938aaawnva71wkwhz6wi"
   }
  },
  {
