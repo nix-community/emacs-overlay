@@ -284,10 +284,10 @@
     elpaBuild {
       pname = "bash-completion";
       ename = "bash-completion";
-      version = "3.1.1.0.20241215.171719";
+      version = "3.1.1.0.20241228.184752";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.1.1.0.20241215.171719.tar";
-        sha256 = "1rhlpglv0hx37bihwlpkkn1szmv2ahdrw9bjvch4wdkagwnqdx9b";
+        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.1.1.0.20241228.184752.tar";
+        sha256 = "1nvqimyckkwfpvhf8qxnkzw4bsc3g7xd9q400wjxk1g4aw0w0xw2";
       };
       packageRequires = [ ];
       meta = {
@@ -1222,10 +1222,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20241214.5948";
+      version = "1.15.0.0.20241228.190117";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20241214.5948.tar";
-        sha256 = "050njm13cj65wgw8lm6888hazgi4sixkhigkxigk37h7qnzrxzlh";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20241228.190117.tar";
+        sha256 = "08s51ai37bwyw2kbg9nmrnhb665fpvil1gf7sjd2l7ixk5xjd67h";
       };
       packageRequires = [
         cl-lib
@@ -2480,10 +2480,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20241228.81405";
+      version = "1.0.20241228.191314";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241228.81405.tar";
-        sha256 = "15jwvha2ih09axx5smafmk13nsa4gg207ivgbx2lqkkia8c8sa9y";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241228.191314.tar";
+        sha256 = "0dy9p21w21c2si1gzzy4jnaa86xipx2347ixnffmvb8yvcrfpzcy";
       };
       packageRequires = [ ];
       meta = {
@@ -4583,10 +4583,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.23.0.20241219.92926";
+      version = "1.2.23.0.20241228.114101";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.23.0.20241219.92926.tar";
-        sha256 = "002piq1fnn6jpf9vq8j5rnl79hx1wb4x4gks2mzsm9g4gg9ldq9x";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.23.0.20241228.114101.tar";
+        sha256 = "1hm4klx0rxgv7lfsnikrz3b6liiwc4ajkkwyfzak7l7220vpsp4q";
       };
       packageRequires = [ ];
       meta = {
