@@ -7368,10 +7368,10 @@
     elpaBuild {
       pname = "relint";
       ename = "relint";
-      version = "2.0";
+      version = "2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/relint-2.0.tar";
-        sha256 = "0r89b5yk5lp92k4gnr0sx6ccilqzpv6kd5csqhxydk0xmqh8rsff";
+        url = "https://elpa.gnu.org/packages/relint-2.1.tar";
+        sha256 = "0ikml87y0k85qd92m3l1gkzjd9ng3mhjfk19w15ln0w801351cq0";
       };
       packageRequires = [ xr ];
       meta = {
@@ -9918,10 +9918,10 @@
     elpaBuild {
       pname = "xr";
       ename = "xr";
-      version = "2.0";
+      version = "2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/xr-2.0.tar";
-        sha256 = "1y5pcrph6v8q06mipv3l49qhw55yvvb1nnq0817bzm25k0s3z70v";
+        url = "https://elpa.gnu.org/packages/xr-2.1.tar";
+        sha256 = "1yssl7av2rpanzmm93iw74acnb3pbrnh0b51kr64wcj6hwb26cy2";
       };
       packageRequires = [ ];
       meta = {
