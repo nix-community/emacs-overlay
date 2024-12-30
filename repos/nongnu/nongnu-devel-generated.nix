@@ -1008,10 +1008,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.6.0.0.20241228.73913";
+      version = "0.6.0.0.20241229.120954";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241228.73913.tar";
-        sha256 = "1jzkz28klik648pd742bcfcq161nv95zq8nkbb1bj0kmshnqbik1";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241229.120954.tar";
+        sha256 = "11cfqgxardyh6ws5phxlgbcknnb6f9wi3wpl8miazj9lr88q5aj1";
       };
       packageRequires = [ ];
       meta = {
@@ -1222,10 +1222,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20241228.190117";
+      version = "1.15.0.0.20241229.162330";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20241228.190117.tar";
-        sha256 = "08s51ai37bwyw2kbg9nmrnhb665fpvil1gf7sjd2l7ixk5xjd67h";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20241229.162330.tar";
+        sha256 = "03l1cg2d4zdh59cf93cvc3i5daq2pw7j8hw7kbdxjy5cl7136d32";
       };
       packageRequires = [
         cl-lib
@@ -2480,10 +2480,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20241228.191314";
+      version = "1.0.20241229.153001";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241228.191314.tar";
-        sha256 = "0dy9p21w21c2si1gzzy4jnaa86xipx2347ixnffmvb8yvcrfpzcy";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241229.153001.tar";
+        sha256 = "11zlkgl62l4k8fidbddrnajxnddcb8wyv0fdg3r0x87s3jp0ksbx";
       };
       packageRequires = [ ];
       meta = {
