@@ -1574,10 +1574,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.6.0.20241227.113734";
+      version = "1.6.0.20241229.194318";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.6.0.20241227.113734.tar";
-        sha256 = "1xiyv1z4y5xkdng26ldrrw9zyipc20w55vm0f8rq0lvnffvkv5kv";
+        url = "https://elpa.gnu.org/devel/corfu-1.6.0.20241229.194318.tar";
+        sha256 = "1jprvyvl4w0ynnsbydinrcw2k04274lh8cp21w8abis4an4ilicx";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2080,10 +2080,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "0.4.0.20241223.200138";
+      version = "0.5.0.20241229.162830";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dicom-0.4.0.20241223.200138.tar";
-        sha256 = "0yswawi4086iri8p73ki46p2fvaxify81l9yays564l3ksmv68yw";
+        url = "https://elpa.gnu.org/devel/dicom-0.5.0.20241229.162830.tar";
+        sha256 = "0z2ycrm2cwsmqgnv345xafln0gsmvyq3dx1j1g1ig42fr69k8sp8";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8287,10 +8287,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.1.0.0.20241228.104925";
+      version = "2.2.0.0.20241229.165414";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.1.0.0.20241228.104925.tar";
-        sha256 = "0m69cn850ab5nzb508prhjh8i2hq8z41klwyga4a67af38b794p3";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20241229.165414.tar";
+        sha256 = "04bw89j09fsvj69k0jn87mhb3fka4x3mjcxmalfmki263d6qmg5f";
       };
       packageRequires = [ ];
       meta = {
@@ -10065,10 +10065,10 @@
     elpaBuild {
       pname = "xr";
       ename = "xr";
-      version = "2.0.0.20240802.81742";
+      version = "2.0.0.20240909.123639";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xr-2.0.0.20240802.81742.tar";
-        sha256 = "1x93v2x8zkr3s55c8r8lpimavqzcq0zjxshg5kif84gir10jgcdn";
+        url = "https://elpa.gnu.org/devel/xr-2.0.0.20240909.123639.tar";
+        sha256 = "1badpj6qhaf8ars9x6kx3cr3vvfynycb6g5axkvnz7za3qrnm85g";
       };
       packageRequires = [ ];
       meta = {

@@ -2055,10 +2055,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "0.4";
+      version = "0.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dicom-0.4.tar";
-        sha256 = "0qrcz6263bjrz1yzw65zaxxx8l0q1rn895ngcfczm39sf3b1q969";
+        url = "https://elpa.gnu.org/packages/dicom-0.5.tar";
+        sha256 = "1qz4zhq0fcfl7l42qib60j2dzm1vp2vmwfhm48s0ia6dgdkvad3x";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8166,10 +8166,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.1.0";
+      version = "2.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/standard-themes-2.1.0.tar";
-        sha256 = "0x7fphd36kwg4vfwix5rq7260xl6x6cjfwsq11rj4af30sm4hlfn";
+        url = "https://elpa.gnu.org/packages/standard-themes-2.2.0.tar";
+        sha256 = "0qdld75vcfhsn2l0xips52vrlp5q7ss3973hd722h2gp1wddn5f7";
       };
       packageRequires = [ ];
       meta = {
