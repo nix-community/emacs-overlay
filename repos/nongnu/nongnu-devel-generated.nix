@@ -1008,10 +1008,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.6.0.0.20241229.120954";
+      version = "0.6.1.0.20241230.13758";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.0.0.20241229.120954.tar";
-        sha256 = "11cfqgxardyh6ws5phxlgbcknnb6f9wi3wpl8miazj9lr88q5aj1";
+        url = "https://elpa.nongnu.org/nongnu-devel/dslide-0.6.1.0.20241230.13758.tar";
+        sha256 = "0b7kg1xkyq4y27yp5qp3jd09yr4vphwbfdzhnznqxw7qcggm194q";
       };
       packageRequires = [ ];
       meta = {
@@ -2503,10 +2503,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20241225.64139";
+      version = "4.0.0.20241229.195748";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241225.64139.tar";
-        sha256 = "189ksrjira8r42sbfzgk7n97hn25v62rw8vwfcahsvrr96qfnam9";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20241229.195748.tar";
+        sha256 = "17apgnv0aazrgxpgwzajqw3yckw7p1w3dnk3mlvr6xam001b42cb";
       };
       packageRequires = [
         helm-core
@@ -2528,10 +2528,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20241225.64139";
+      version = "4.0.0.20241229.195748";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241225.64139.tar";
-        sha256 = "0fynrlfhw8mk4jqdq5r92pq1nhfdjgvhyrxysqwddzpnizhj6wgd";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20241229.195748.tar";
+        sha256 = "0w7hvi805r9ghxbniz8il2x1x3y6pmk4migjwq2812wahd18rhjd";
       };
       packageRequires = [ async ];
       meta = {
