@@ -1652,10 +1652,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0snapshot0.20241130.150233";
+      version = "35.0snapshot0.20241231.70751";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20241130.150233.tar";
-        sha256 = "08viqbba50alfj3783ykymjqwpi08si6bi411sm29gagga1cjxr6";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20241231.70751.tar";
+        sha256 = "01raa4820k8m163z1s0rmj6622v59mnlpji2fs8jxs63cssdb14p";
       };
       packageRequires = [ ];
       meta = {
@@ -2480,10 +2480,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20241230.104752";
+      version = "1.0.20241231.74452";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241230.104752.tar";
-        sha256 = "080p01f3i7354djw38dav4i6dlhfy2326xnkxhgjy0hmc7sby2h3";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241231.74452.tar";
+        sha256 = "1ny14z7f6xcfj0s54gkhi933x251wlha0xl1jj2x79glhsz1fz3m";
       };
       packageRequires = [ ];
       meta = {
@@ -4287,10 +4287,10 @@
     elpaBuild {
       pname = "scala-mode";
       ename = "scala-mode";
-      version = "1.1.1.0.20241230.185317";
+      version = "1.1.1.0.20241231.83915";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scala-mode-1.1.1.0.20241230.185317.tar";
-        sha256 = "08r2yavf11v6fmv920kxyi684q27v1gv2xzc0j2x6aafxkzxwfnj";
+        url = "https://elpa.nongnu.org/nongnu-devel/scala-mode-1.1.1.0.20241231.83915.tar";
+        sha256 = "079w6awnk36h33fz4gsqcnc3llsfmv1pmwzqyy8vv27x65i9fxjs";
       };
       packageRequires = [ ];
       meta = {
@@ -4393,10 +4393,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20241228.11424";
+      version = "2.31snapshot0.20241231.43444";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20241228.11424.tar";
-        sha256 = "0xd84d9qdgr92xkln9fy6cxvdf2a920a2ax17hwrzhzd5ybzywph";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20241231.43444.tar";
+        sha256 = "1wd5gw1ji8p2iz9j9hlg3d4srsly1zvzv297gyplfqs7zjrwjyv3";
       };
       packageRequires = [ macrostep ];
       meta = {
