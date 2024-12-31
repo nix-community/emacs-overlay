@@ -3823,10 +3823,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.12.4";
+      version = "0.12.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greader-0.12.4.tar";
-        sha256 = "10dmj3iqlrb2bxkv3xblxhkdqdkblbk98ycn9y10spqsnsmm11nr";
+        url = "https://elpa.gnu.org/packages/greader-0.12.5.tar";
+        sha256 = "041lrl09v6smngfawq1rvhfz1v6k5aijlmm0kkrzqldfd28rx02z";
       };
       packageRequires = [
         compat

@@ -3063,10 +3063,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "24.1.1.0.20241227.102259";
+      version = "24.1.1.0.20241230.154327";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20241227.102259.tar";
-        sha256 = "0q08wd1ryfn92gq5wq04rxr7r0gs120cd7jvlgqmqcbqy8gg57kz";
+        url = "https://elpa.gnu.org/devel/ess-24.1.1.0.20241230.154327.tar";
+        sha256 = "0sdqrzsii4sgyppkw6zzmci4fivhma5wap9m8wsz5g2d2qbbag2s";
       };
       packageRequires = [ ];
       meta = {
@@ -3854,10 +3854,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.12.4.0.20241225.12830";
+      version = "0.12.5.0.20241231.3518";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.12.4.0.20241225.12830.tar";
-        sha256 = "1kb427z0y8kcshs5hsjyymqwi88qa4rh0909qcwf2bzx0mqcd8xf";
+        url = "https://elpa.gnu.org/devel/greader-0.12.5.0.20241231.3518.tar";
+        sha256 = "0jdzmds3d9cpmv2nhifzmshw1w4xb6b8md4w1mrshmin4ybb7qlm";
       };
       packageRequires = [
         compat
@@ -4094,10 +4094,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20241229.143304";
+      version = "9.0.2pre0.20241230.225211";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241229.143304.tar";
-        sha256 = "0bhya91g7cadcd5sp504n6a8yww72gikrn4ha8i0xhv5w632d6pi";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20241230.225211.tar";
+        sha256 = "0r9q9qpyc6h2320xsd5m821djii9ghpfh3wsgxkldcsb6li2qcl8";
       };
       packageRequires = [ ];
       meta = {
@@ -6222,10 +6222,10 @@
     elpaBuild {
       pname = "org-transclusion";
       ename = "org-transclusion";
-      version = "1.4.0.0.20241230.144433";
+      version = "1.4.0.0.20241231.83512";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20241230.144433.tar";
-        sha256 = "1vmjmiwvakkrpy4mwasrgick5ypxisjrzh05q5fmjaxnsq2cl3cq";
+        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20241231.83512.tar";
+        sha256 = "04hm4mpfcqvv5fgfs654wwqz2ziqs2n67x0fyhdd9jc2z8ry4i5f";
       };
       packageRequires = [ org ];
       meta = {
