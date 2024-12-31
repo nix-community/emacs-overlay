@@ -1574,10 +1574,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.6.0.20241229.194318";
+      version = "1.6.0.20241230.175117";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.6.0.20241229.194318.tar";
-        sha256 = "1jprvyvl4w0ynnsbydinrcw2k04274lh8cp21w8abis4an4ilicx";
+        url = "https://elpa.gnu.org/devel/corfu-1.6.0.20241230.175117.tar";
+        sha256 = "02l4vwa2pvvl6gv4lfjbr2mhldwbj9fd4xdbbjhdif3w1s2xinl8";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6039,10 +6039,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20241229.71458";
+      version = "9.8pre0.20241230.165510";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241229.71458.tar";
-        sha256 = "1nja1syc1ijwlcxjizragnwg73nll4jszmcid8rf3cgdai8dp9fy";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20241230.165510.tar";
+        sha256 = "1aqa4kjiwx5ns0frg46k2v4q2p8dwga5g3ndk58xgdcsl3z1kfpk";
       };
       packageRequires = [ ];
       meta = {
@@ -6222,10 +6222,10 @@
     elpaBuild {
       pname = "org-transclusion";
       ename = "org-transclusion";
-      version = "1.4.0.0.20240922.152934";
+      version = "1.4.0.0.20241230.144433";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20240922.152934.tar";
-        sha256 = "1p391rjvzp9im2fas8vih3mpvd9w176ykashyy5g94i0pmjfazfi";
+        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20241230.144433.tar";
+        sha256 = "1vmjmiwvakkrpy4mwasrgick5ypxisjrzh05q5fmjaxnsq2cl3cq";
       };
       packageRequires = [ org ];
       meta = {
@@ -8898,10 +8898,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.1.5.0.20241130.82948";
+      version = "2.7.2.0.20241230.102100";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.7.1.5.0.20241130.82948.tar";
-        sha256 = "0ypb44lhdv6hnx2rzpn8746sqa0wafknkf4bjxsvlh402xfjbypq";
+        url = "https://elpa.gnu.org/devel/tramp-2.7.2.0.20241230.102100.tar";
+        sha256 = "01zkg7xzp9jis13pb8x26c8h8nbrd92xx4i8zvvwg3qylia8bcxx";
       };
       packageRequires = [ ];
       meta = {
