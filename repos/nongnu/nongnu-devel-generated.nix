@@ -2480,10 +2480,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20241229.153001";
+      version = "1.0.20241230.104752";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241229.153001.tar";
-        sha256 = "11zlkgl62l4k8fidbddrnajxnddcb8wyv0fdg3r0x87s3jp0ksbx";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241230.104752.tar";
+        sha256 = "080p01f3i7354djw38dav4i6dlhfy2326xnkxhgjy0hmc7sby2h3";
       };
       packageRequires = [ ];
       meta = {
@@ -4287,10 +4287,10 @@
     elpaBuild {
       pname = "scala-mode";
       ename = "scala-mode";
-      version = "1.1.1.0.20241227.211000";
+      version = "1.1.1.0.20241230.185317";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scala-mode-1.1.1.0.20241227.211000.tar";
-        sha256 = "0q74zwfmm3ah7ziq4jw8mxll80v35xlsgj2yqfkf1r7qd29wpvh0";
+        url = "https://elpa.nongnu.org/nongnu-devel/scala-mode-1.1.1.0.20241230.185317.tar";
+        sha256 = "08r2yavf11v6fmv920kxyi684q27v1gv2xzc0j2x6aafxkzxwfnj";
       };
       packageRequires = [ ];
       meta = {
