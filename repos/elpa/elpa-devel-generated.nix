@@ -3183,10 +3183,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.32.0.20241229.52916";
+      version = "0.32.0.20241231.150510";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.32.0.20241229.52916.tar";
-        sha256 = "1ijd7gkzxjfsgs1zgarxdmwh7bhdsrrpf0jv1lqjw3fr8x7q18b0";
+        url = "https://elpa.gnu.org/devel/exwm-0.32.0.20241231.150510.tar";
+        sha256 = "1mbvs0j6ih2hvrj7zdbr3d0ghqy3i8cm14fnbi8q4m57y98g4xdy";
       };
       packageRequires = [
         compat
