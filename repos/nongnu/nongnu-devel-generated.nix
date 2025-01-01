@@ -3965,10 +3965,10 @@
     elpaBuild {
       pname = "popup";
       ename = "popup";
-      version = "0.5.9.0.20240721.5155";
+      version = "0.5.9.0.20250101.4328";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/popup-0.5.9.0.20240721.5155.tar";
-        sha256 = "11ay4yknbc6dy7c08dcaz4sy1ly98m0ghchif0m2mm72s2hgw7g7";
+        url = "https://elpa.nongnu.org/nongnu-devel/popup-0.5.9.0.20250101.4328.tar";
+        sha256 = "0qgkwd0kbkifkpfv0gznd4n81xhf62q9s0bd0831yp1mkxd9y03x";
       };
       packageRequires = [ ];
       meta = {
@@ -4393,10 +4393,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20241231.43444";
+      version = "2.31snapshot0.20250101.45918";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20241231.43444.tar";
-        sha256 = "1wd5gw1ji8p2iz9j9hlg3d4srsly1zvzv297gyplfqs7zjrwjyv3";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250101.45918.tar";
+        sha256 = "153phs96ibjap5hp0ffs9c9isdhc05vgdqr4hlhjyk62b71n71k4";
       };
       packageRequires = [ macrostep ];
       meta = {
