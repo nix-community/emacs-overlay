@@ -1031,10 +1031,10 @@
     elpaBuild {
       pname = "dslide";
       ename = "dslide";
-      version = "0.6.1";
+      version = "0.6.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/dslide-0.6.1.tar";
-        sha256 = "13152f6m4fmvh27d4b9ddgcxkfdrv1zi8qv70157bhk69v65fg3h";
+        url = "https://elpa.nongnu.org/nongnu/dslide-0.6.2.tar";
+        sha256 = "02lny7c7v6345nlprmpi39pyk7m9lpr85g8xkd70ivkpc122qdy2";
       };
       packageRequires = [ ];
       meta = {
@@ -3091,10 +3091,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.1.3";
+      version = "4.2.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-4.1.3.tar";
-        sha256 = "027ddy4xjm9s950xmp7rbpksvf2dzwz6cl3jam1l9bvwsf8pqyvb";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.2.0.tar";
+        sha256 = "04nf4ff7a11z65mcw6qnkxwk9srpi248f1k0li947i4264gl3prd";
       };
       packageRequires = [
         compat
@@ -4285,10 +4285,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "94.0";
+      version = "95.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/scad-mode-94.0.tar";
-        sha256 = "1cqai7qb9m17rf7llkn9vbxddgn0ixcf3dbnsjk1aflvj8mq9nr3";
+        url = "https://elpa.nongnu.org/nongnu/scad-mode-95.0.tar";
+        sha256 = "1wkpgrkx3cjmh72qg9yiq2x9sqswx6x6pbr8zzhldyjs6kmjl7km";
       };
       packageRequires = [ compat ];
       meta = {
