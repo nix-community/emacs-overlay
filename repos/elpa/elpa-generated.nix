@@ -8839,10 +8839,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.1";
+      version = "0.8.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.8.1.tar";
-        sha256 = "0gibcx6wv0nfgg2qalnh4zza7xq018bbmd1rj80rxz52pfksd4qq";
+        url = "https://elpa.gnu.org/packages/transient-0.8.2.tar";
+        sha256 = "1s9aa1zi2vwxlhmadr0ygvfnkcx4sl846hqsb4g5a87ca711g3a8";
       };
       packageRequires = [
         compat
@@ -9352,10 +9352,10 @@
     elpaBuild {
       pname = "verilog-mode";
       ename = "verilog-mode";
-      version = "2024.10.9.140346409";
+      version = "2025.1.1.100165202";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/verilog-mode-2024.10.9.140346409.tar";
-        sha256 = "1hm0id8sivb7znvw1f63asbs4sf4v6hkimr0j8bqqda3h9sz197l";
+        url = "https://elpa.gnu.org/packages/verilog-mode-2025.1.1.100165202.tar";
+        sha256 = "1cgv081dlarc0b4s6rjkqbvs4fa9npyq9pjxj7173vmgkfdwmkp5";
       };
       packageRequires = [ ];
       meta = {
