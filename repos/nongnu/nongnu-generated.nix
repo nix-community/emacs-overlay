@@ -284,10 +284,10 @@
     elpaBuild {
       pname = "bash-completion";
       ename = "bash-completion";
-      version = "3.1.1";
+      version = "3.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/bash-completion-3.1.1.tar";
-        sha256 = "1yc1a5cvmnp8dranrglpd7qjg35r6x4ndniinbmzinqr7dmydh62";
+        url = "https://elpa.nongnu.org/nongnu/bash-completion-3.2.tar";
+        sha256 = "19xpv87nb1gskfsfqj8hmhbzlhxk0m6dflizsnrq94bh7rbw3s12";
       };
       packageRequires = [ ];
       meta = {
@@ -3122,10 +3122,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.1.3";
+      version = "4.2.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.1.3.tar";
-        sha256 = "166ca6mivb3p0bcqvv9icg6n8k62rak1hil5hxrbdaw3wwks0hqw";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.2.0.tar";
+        sha256 = "05wlc327x45vfsphwz9bf1hl8w46ychqkp6j7wsngjzwzsifxmb4";
       };
       packageRequires = [
         compat

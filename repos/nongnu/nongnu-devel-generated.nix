@@ -284,10 +284,10 @@
     elpaBuild {
       pname = "bash-completion";
       ename = "bash-completion";
-      version = "3.1.1.0.20241228.184752";
+      version = "3.2.1snapshot0.20250101.145820";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.1.1.0.20241228.184752.tar";
-        sha256 = "1nvqimyckkwfpvhf8qxnkzw4bsc3g7xd9q400wjxk1g4aw0w0xw2";
+        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.2.1snapshot0.20250101.145820.tar";
+        sha256 = "11a2fijxi102mnm63vbxgrrw2rr9nf5rhlfal3766m8rv2drwhd7";
       };
       packageRequires = [ ];
       meta = {
@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.16.1.0.20241223.132011";
+      version = "1.16.1.0.20250101.190515";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.1.0.20241223.132011.tar";
-        sha256 = "1q0xq5fmygwg9j300wg79jkxhkd0hnd13hx5wfs938xrphc1zgfw";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.1.0.20250101.190515.tar";
+        sha256 = "10rmbai6q9pwh5wlj2khgd44dxv8l835smp4mz15h27mmaalp7rc";
       };
       packageRequires = [
         clojure-mode
@@ -638,10 +638,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0.0.20241114.112007";
+      version = "1.0.0.20250101.91433";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20241114.112007.tar";
-        sha256 = "1jzli50sjr8pv2j9qg7glxdgm54sx2yw6xr7ka738gisa1r0iscl";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250101.91433.tar";
+        sha256 = "05ms0zhswsdlvvrz71md4nsqisshar284xn7idw7z01ddd05rjmb";
       };
       packageRequires = [
         consult
@@ -2480,10 +2480,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20241231.74452";
+      version = "1.0.20250101.102728";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20241231.74452.tar";
-        sha256 = "1ny14z7f6xcfj0s54gkhi933x251wlha0xl1jj2x79glhsz1fz3m";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20250101.102728.tar";
+        sha256 = "15m1qdcb899wmdx7ih53c5ndlvv3q5fny885l287sf17f6p563k7";
       };
       packageRequires = [ ];
       meta = {
@@ -3106,10 +3106,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.1.3.0.20241223.213330";
+      version = "4.2.0.0.20250101.180326";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.1.3.0.20241223.213330.tar";
-        sha256 = "07c9cigb5kwcdp29aczrc8p9rxpxjzfr6i381ka6h0kfad98z7np";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.2.0.0.20250101.180326.tar";
+        sha256 = "0wyh9fvgnbn35nak6f3v8651j33sz929xwvkqgyrbicxwdwxinbr";
       };
       packageRequires = [
         compat
@@ -4266,10 +4266,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "94.0.0.20240926.92457";
+      version = "94.0.0.20250101.200539";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-94.0.0.20240926.92457.tar";
-        sha256 = "09hgnzzfi6wdy3p0nfl6a00npxpsdy30dyc89m1h087wlhkjjyci";
+        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-94.0.0.20250101.200539.tar";
+        sha256 = "0s42kpfww0cgakpw7qd04pqncps8zdnpagqmlnpc9072d8xlk5q2";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4583,10 +4583,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.23.0.20241228.114101";
+      version = "1.2.23.0.20250101.141954";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.23.0.20241228.114101.tar";
-        sha256 = "1hm4klx0rxgv7lfsnikrz3b6liiwc4ajkkwyfzak7l7220vpsp4q";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.23.0.20250101.141954.tar";
+        sha256 = "1srh30xxx7s4y79rc6fkq3aggywvnkd1wrhbmidhqd3lkfw3f1ms";
       };
       packageRequires = [ ];
       meta = {
