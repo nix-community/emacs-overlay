@@ -1901,10 +1901,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.42";
+      version = "0.43";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/debbugs-0.42.tar";
-        sha256 = "0n0kvkyzggn8q72dpy6c7rsjwn1rjx0r33y5jc080j7sw85xpigg";
+        url = "https://elpa.gnu.org/packages/debbugs-0.43.tar";
+        sha256 = "1jzdr7bp48incg1bdnq4s1ldnyp6hncz0mydy0bizk3c68chsls5";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -2711,10 +2711,10 @@
     elpaBuild {
       pname = "elisa";
       ename = "elisa";
-      version = "1.1.3";
+      version = "1.1.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/elisa-1.1.3.tar";
-        sha256 = "0370gvj3r701i2acp3wq705a9n534g719nzz8bg9a4lry76f2crv";
+        url = "https://elpa.gnu.org/packages/elisa-1.1.4.tar";
+        sha256 = "1v5y0piqz31dx38mv217l5z4xn6hnggznmrcxd2ffs0xdvr9iv3s";
       };
       packageRequires = [
         async
@@ -2762,10 +2762,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.13.0";
+      version = "0.13.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-0.13.0.tar";
-        sha256 = "0wfn8fv124qxf9yxl4lsa3hwlicmaiv2zzn8w4vhmlni1kf37nlw";
+        url = "https://elpa.gnu.org/packages/ellama-0.13.1.tar";
+        sha256 = "1hf9lqjcg33xahz8i5ng123z6yljmwm3zw15n96x83x0szxi1wl1";
       };
       packageRequires = [
         compat
@@ -8187,10 +8187,10 @@
     elpaBuild {
       pname = "stream";
       ename = "stream";
-      version = "2.3.0";
+      version = "2.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/stream-2.3.0.tar";
-        sha256 = "0224hjcxvy3cxv1c3pz9j2laxld2cxqbs5sigr02fcdcb9qn7hay";
+        url = "https://elpa.gnu.org/packages/stream-2.4.0.tar";
+        sha256 = "16wl1q7wikk0wyzfwjz16azq025dx4wdh1j9q0nadi68ygxi172b";
       };
       packageRequires = [ ];
       meta = {
