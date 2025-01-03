@@ -4266,10 +4266,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "95.0.0.20250102.72825";
+      version = "95.0.0.20250102.95738";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-95.0.0.20250102.72825.tar";
-        sha256 = "0sglhf7z7gd9fl5zqc0pfyq8w1ffjvzfjadk6zys90n0635pxq5y";
+        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-95.0.0.20250102.95738.tar";
+        sha256 = "0pzqzz1a0shf0dm70c1d730m3dndal2dvm4dw65vxasj8vc1v8nx";
       };
       packageRequires = [ compat ];
       meta = {
