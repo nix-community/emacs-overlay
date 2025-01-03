@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250101.185515";
+      version = "0.9.7.0.20250102.210215";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250101.185515.tar";
-        sha256 = "0v7hc0khpk8wwnfyxs1pjgcg6r4zi9a1hqv74fdxi7v9dmkg3k8i";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250102.210215.tar";
+        sha256 = "1bqsz2qbpgwx2rwrl8rn6fq8yxk8rly23g5zxr6pkhhzvx8y4r86";
       };
       packageRequires = [
         compat
@@ -3923,10 +3923,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1.0.20241219.164506";
+      version = "1.26.1.0.20250103.15745";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20241219.164506.tar";
-        sha256 = "0x6dqaz7rhsrp1k6h3h2xzacdl8bh6y4l17g3l29r03lppnd1460";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20250103.15745.tar";
+        sha256 = "0ls4wpcn6lk5qn7n7gamk9sx6fm35cdbrv96pzi6srf3q1r71wpr";
       };
       packageRequires = [ ];
       meta = {
