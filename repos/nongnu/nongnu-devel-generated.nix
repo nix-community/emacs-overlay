@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.16.1.0.20250101.214638";
+      version = "1.16.1.0.20250103.102622";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.1.0.20250101.214638.tar";
-        sha256 = "0z5hwzf9vcb1n962h2xps3ks3cs46k4vyqrg55j12w9z234iql86";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.16.1.0.20250103.102622.tar";
+        sha256 = "0xxmarmq2mja45yb4a4aqddbcnhi91dcdlw0xq5j5ab3k9grmmpa";
       };
       packageRequires = [
         clojure-mode
@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250102.210215";
+      version = "0.9.7.0.20250103.103741";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250102.210215.tar";
-        sha256 = "1bqsz2qbpgwx2rwrl8rn6fq8yxk8rly23g5zxr6pkhhzvx8y4r86";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250103.103741.tar";
+        sha256 = "00d22c6hgm8cr2wfqk4s2xcqblljzcv4iyrvbcjbgipr2nynb6iw";
       };
       packageRequires = [
         compat
@@ -4050,10 +4050,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20241227.82611";
+      version = "1.0.20250103.151851";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20241227.82611.tar";
-        sha256 = "0wic75hrkpfjy4wkranl8rbk13cy7nbm47n7pvg2bghclkdsl6xn";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250103.151851.tar";
+        sha256 = "03m0ky98s647ajrjf85i9zvqwmwh4l33rdywbcc5vg516hgsnh0d";
       };
       packageRequires = [ ];
       meta = {
@@ -4847,10 +4847,10 @@
     elpaBuild {
       pname = "tp";
       ename = "tp";
-      version = "0.6.0.20241031.72940";
+      version = "0.6.0.20250103.142809";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tp-0.6.0.20241031.72940.tar";
-        sha256 = "1m8qhar75cglg8qjh3sbgwkzkhfp3640nm73nddxrshnajn978bf";
+        url = "https://elpa.nongnu.org/nongnu-devel/tp-0.6.0.20250103.142809.tar";
+        sha256 = "19mrjhi7qxwxp1shqqvkpmj49kari9g74wym3v2k80586kj2j0cm";
       };
       packageRequires = [ transient ];
       meta = {
