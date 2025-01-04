@@ -6007,10 +6007,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.18";
+      version = "9.7.19";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.18.tar";
-        sha256 = "1hdhxmcpzd334sclkmb4z7yaysw7hg3s2m3v984g7ya594dkkirx";
+        url = "https://elpa.gnu.org/packages/org-9.7.19.tar";
+        sha256 = "0v7ridhsz12iwznk8165ll61i1w1avhxfrq3p82p9r6ir2xdan1g";
       };
       packageRequires = [ ];
       meta = {
@@ -8839,10 +8839,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.2";
+      version = "0.8.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.8.2.tar";
-        sha256 = "1s9aa1zi2vwxlhmadr0ygvfnkcx4sl846hqsb4g5a87ca711g3a8";
+        url = "https://elpa.gnu.org/packages/transient-0.8.3.tar";
+        sha256 = "0cx9h7knkyzalkyvbvl762mnl2mslcfxh899mf5wgqfavwkzgqp7";
       };
       packageRequires = [
         compat
