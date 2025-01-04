@@ -790,10 +790,10 @@
     elpaBuild {
       pname = "boxy";
       ename = "boxy";
-      version = "1.1.4";
+      version = "2.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/boxy-1.1.4.tar";
-        sha256 = "0mwj1qc626f1iaq5iaqm1f4iwyz91hzqhzfk5f53gsqka7yz2fnf";
+        url = "https://elpa.gnu.org/packages/boxy-2.0.0.tar";
+        sha256 = "1vfgwgk3vzzp2cy7n0qwhn7hzjxbp9vzxp1al1pkynv9hfs503gb";
       };
       packageRequires = [ ];
       meta = {
