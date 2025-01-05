@@ -813,10 +813,10 @@
     elpaBuild {
       pname = "boxy-headings";
       ename = "boxy-headings";
-      version = "2.1.6";
+      version = "2.1.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/boxy-headings-2.1.6.tar";
-        sha256 = "0wnks9a4agvqjivp9myl8zcdq6rj7hh5ig73f8qv5imar0i76izc";
+        url = "https://elpa.gnu.org/packages/boxy-headings-2.1.8.tar";
+        sha256 = "1r356z090dkgc7wb5qq35pkq3932rr6zy90d85jb9frxf7w1zmd7";
       };
       packageRequires = [
         boxy
@@ -1398,10 +1398,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.0.1.0";
+      version = "30.0.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/compat-30.0.1.0.tar";
-        sha256 = "130n9h3f11dsr5fx7kip0qqa436mhah7jc826qaagws887pqmk4b";
+        url = "https://elpa.gnu.org/packages/compat-30.0.2.0.tar";
+        sha256 = "0pizq8vwfqls04in95rpnfwv4xc1r2qjpf41g6bjy826i53cfdx0";
       };
       packageRequires = [ seq ];
       meta = {
@@ -6143,10 +6143,10 @@
     elpaBuild {
       pname = "org-real";
       ename = "org-real";
-      version = "1.0.9";
+      version = "1.0.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-real-1.0.9.tar";
-        sha256 = "0g19pgg7rqijb6q1vpifvpzl2gyc13a42q1n23x3kawl2srhcjp2";
+        url = "https://elpa.gnu.org/packages/org-real-1.0.11.tar";
+        sha256 = "1mm2p6487m4sr8zvj7xqryvicvj0qbv7as39hxh1ad7yhfdhgpvw";
       };
       packageRequires = [
         boxy
