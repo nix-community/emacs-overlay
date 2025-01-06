@@ -1464,10 +1464,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.2.3";
+      version = "0.2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-denote-0.2.3.tar";
-        sha256 = "0v3s7bzbgahqadhifrcv8j4i8xn115lmhxgxx720ip6mx5b5fz17";
+        url = "https://elpa.gnu.org/packages/consult-denote-0.2.4.tar";
+        sha256 = "1a5gxrm8qw638hdplvlizwmyvm84ispm5w751vd7ngmcsiaabvmp";
       };
       packageRequires = [
         consult
