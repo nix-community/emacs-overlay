@@ -834,10 +834,10 @@
     elpaBuild {
       pname = "boxy-headings";
       ename = "boxy-headings";
-      version = "2.1.8.0.20250104.93059";
+      version = "2.1.9.0.20250105.115329";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/boxy-headings-2.1.8.0.20250104.93059.tar";
-        sha256 = "1r4afw9m9sgk041vfrjzcz0in45wx8vc0bgl3wxr64yb64nydhx6";
+        url = "https://elpa.gnu.org/devel/boxy-headings-2.1.9.0.20250105.115329.tar";
+        sha256 = "0ragw1jah7isrfgxh3kzqjrr77d292yk1y8g8i2j71ms83c0v6nj";
       };
       packageRequires = [
         boxy
@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.9.0.20250105.3909";
+      version = "1.9.0.20250105.205708";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250105.3909.tar";
-        sha256 = "1zmvyi8z24zj0v5ifi1l0bj6v85g3h7sg14v6p3f10yp6f11pch8";
+        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250105.205708.tar";
+        sha256 = "02f6j02i0m5305y223lc0lw21kska2ayz0lhcnhs5017yhwm3kqd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1484,10 +1484,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.2.2.0.20241104.75213";
+      version = "0.2.3.0.20250105.182722";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.2.2.0.20241104.75213.tar";
-        sha256 = "17pqw2l9qdfqi5scbq7n7kr7x3ypv1l06hf6ck6s36cly8mnk6rb";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.2.3.0.20250105.182722.tar";
+        sha256 = "03lvgfm1qgrm3hsipq81wrsqkvrsd3hs4cl86hal0r856r4xpgyh";
       };
       packageRequires = [
         consult
@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.19.0.0.20241229.225058";
+      version = "0.20.0.0.20250105.195134";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.19.0.0.20241229.225058.tar";
-        sha256 = "0v0995d4046ywwi60kcapis25nq51qdmx56i3248290nxhvd70iy";
+        url = "https://elpa.gnu.org/devel/dape-0.20.0.0.20250105.195134.tar";
+        sha256 = "1w9b6jqizmqbx5a14khzgd1igc71zskackc7f5qhx9shwhb2a0sa";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250105.81800";
+      version = "3.1.0.0.20250105.101925";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250105.81800.tar";
-        sha256 = "00flwiidx184g8pdnfj098rvw370ghkjfxc9h7q5fbr3ggsmzkjq";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250105.101925.tar";
+        sha256 = "1h0pcm8rq4np5s0ax842v4m7yc46qxkjjlhfwkl804595g3ibv0d";
       };
       packageRequires = [ ];
       meta = {
@@ -4094,10 +4094,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250105.13506";
+      version = "9.0.2pre0.20250105.123756";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250105.13506.tar";
-        sha256 = "103isn6m86fcmgz5xsdqbrv75izzrkc3jw70a1f54jwzxx4gdpr6";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250105.123756.tar";
+        sha256 = "16g6ayiz53g7gir7qz62zldch56wf4w67r81xm49wk19qyy1cxr4";
       };
       packageRequires = [ ];
       meta = {
@@ -6039,10 +6039,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250104.140343";
+      version = "9.8pre0.20250105.164645";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250104.140343.tar";
-        sha256 = "033zb7izh6mc458kwi2iz3sbs47mrcx6v1km3z2dg39f8x87037n";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250105.164645.tar";
+        sha256 = "17v6p42arzi7gizh62wzrc0h5scbq04f05innx84wlb3lzks41hb";
       };
       packageRequires = [ ];
       meta = {

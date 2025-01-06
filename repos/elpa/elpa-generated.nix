@@ -813,10 +813,10 @@
     elpaBuild {
       pname = "boxy-headings";
       ename = "boxy-headings";
-      version = "2.1.8";
+      version = "2.1.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/boxy-headings-2.1.8.tar";
-        sha256 = "1r356z090dkgc7wb5qq35pkq3932rr6zy90d85jb9frxf7w1zmd7";
+        url = "https://elpa.gnu.org/packages/boxy-headings-2.1.9.tar";
+        sha256 = "0i8qq6w7m0p7wby7cnyb3wlnp1bb1yjw44msx5r0l4lk4255vynf";
       };
       packageRequires = [
         boxy
@@ -1464,10 +1464,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.2.2";
+      version = "0.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-denote-0.2.2.tar";
-        sha256 = "1dpl9aq25j9nbrxa469gl584km93ry2rnkm0ydxljid9w15szpls";
+        url = "https://elpa.gnu.org/packages/consult-denote-0.2.3.tar";
+        sha256 = "0v3s7bzbgahqadhifrcv8j4i8xn115lmhxgxx720ip6mx5b5fz17";
       };
       packageRequires = [
         consult
@@ -1814,10 +1814,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.19.0";
+      version = "0.20.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dape-0.19.0.tar";
-        sha256 = "11hs0cnzyp75gmz32mqplaknf4lq0zf9zp07h1rhlvz31aacvrqh";
+        url = "https://elpa.gnu.org/packages/dape-0.20.0.tar";
+        sha256 = "08q9rgqxhr8ji0sa6zhhavijl2qamrixk0r3jb9jlhbvy80ninwz";
       };
       packageRequires = [ jsonrpc ];
       meta = {
