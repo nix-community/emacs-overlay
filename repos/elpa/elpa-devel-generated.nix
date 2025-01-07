@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.9.0.20250106.30014";
+      version = "1.9.0.20250106.170610";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250106.30014.tar";
-        sha256 = "1b7sjbl2p2fl8dbmzalak1vkgvaywrv15grcf102jq3yw0b28777";
+        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250106.170610.tar";
+        sha256 = "0v8hr0vrykfhh497qcyax03g7i34gp4ks07yliblphwmlacxi7gh";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1509,10 +1509,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.3.0.0.20241110.114039";
+      version = "0.3.0.0.20250106.182936";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-hoogle-0.3.0.0.20241110.114039.tar";
-        sha256 = "1ghirvjn26dhhh9ivdwc20z0ydd6k682mbs9l1i3xk1vha6fxni6";
+        url = "https://elpa.gnu.org/devel/consult-hoogle-0.3.0.0.20250106.182936.tar";
+        sha256 = "108z3a733kw6v5a10jmgx4myymqxmf9y01wpi1yh9bj1m1z9i0g5";
       };
       packageRequires = [ consult ];
       meta = {
@@ -1531,10 +1531,10 @@
     elpaBuild {
       pname = "consult-recoll";
       ename = "consult-recoll";
-      version = "0.8.1.0.20241119.180703";
+      version = "0.8.1.0.20250106.172405";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-recoll-0.8.1.0.20241119.180703.tar";
-        sha256 = "0bha88jfb68bmgn4mfi04762ik8f3d6sxhrbpjc4ra0k3yyn2286";
+        url = "https://elpa.gnu.org/devel/consult-recoll-0.8.1.0.20250106.172405.tar";
+        sha256 = "178vlkdbjkjp6h2zcnwdfilnmk91rz41lbyrhy6xpjxz3s0jqdsx";
       };
       packageRequires = [ consult ];
       meta = {
@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.20.0.0.20250105.195134";
+      version = "0.20.0.0.20250106.115339";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.20.0.0.20250105.195134.tar";
-        sha256 = "1w9b6jqizmqbx5a14khzgd1igc71zskackc7f5qhx9shwhb2a0sa";
+        url = "https://elpa.gnu.org/devel/dape-0.20.0.0.20250106.115339.tar";
+        sha256 = "04jwdv4iajbkzcq78qy8gxmr1hgl9lb0f515hplvawxnli025355";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2637,10 +2637,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.17.0.20250105.203951";
+      version = "1.17.0.20250106.104713";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20250105.203951.tar";
-        sha256 = "0k9j30zbqz9glgvyjbnvkns1nn4bkkgp6s8bjcnzh2kqasaryfsr";
+        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20250106.104713.tar";
+        sha256 = "1p4iy0s26dcb5xqnv9p5396p4nfplmklyxj84z9qrxdkw3r30xx0";
       };
       packageRequires = [
         compat
@@ -3854,10 +3854,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.12.6.0.20241231.233142";
+      version = "0.12.6.0.20250106.183831";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.12.6.0.20241231.233142.tar";
-        sha256 = "0gn0dbqb0lmmq5s9h5hgr2qrw229c7hgip5lpjv3lrkm1aanm72f";
+        url = "https://elpa.gnu.org/devel/greader-0.12.6.0.20250106.183831.tar";
+        sha256 = "1x10m46azmsvndi40vn3am3pjj8p90dkg9gnyh2v9wzzavdbb26j";
       };
       packageRequires = [
         compat
@@ -6039,10 +6039,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250105.164645";
+      version = "9.8pre0.20250106.181327";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250105.164645.tar";
-        sha256 = "17v6p42arzi7gizh62wzrc0h5scbq04f05innx84wlb3lzks41hb";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250106.181327.tar";
+        sha256 = "03qpnf7smralxkdsipyxfigp54dqk4zq66dkxj3ci33i7rv6gcrc";
       };
       packageRequires = [ ];
       meta = {
@@ -8091,10 +8091,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.5.0.0.20241214.72200";
+      version = "0.6.0.0.20250106.104943";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/spacious-padding-0.5.0.0.20241214.72200.tar";
-        sha256 = "1fm0r7w81cszb2az3xkazd15sfh4593myci6kqsaivnqakyvgj46";
+        url = "https://elpa.gnu.org/devel/spacious-padding-0.6.0.0.20250106.104943.tar";
+        sha256 = "0z27zcpfsxbkqhdajh42r201yzr2143cgszm3slxa4qalmzpmjsx";
       };
       packageRequires = [ ];
       meta = {
