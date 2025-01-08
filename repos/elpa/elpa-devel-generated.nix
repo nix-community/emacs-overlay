@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.9.0.20250106.170610";
+      version = "1.9.0.20250107.92737";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250106.170610.tar";
-        sha256 = "0v8hr0vrykfhh497qcyax03g7i34gp4ks07yliblphwmlacxi7gh";
+        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250107.92737.tar";
+        sha256 = "1hdgk73c29mfcp4ngyp8j3mbbqv4iwskfy6cw7fpcz8i2farhc0b";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.20.0.0.20250106.115339";
+      version = "0.20.0.0.20250107.202302";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.20.0.0.20250106.115339.tar";
-        sha256 = "04jwdv4iajbkzcq78qy8gxmr1hgl9lb0f515hplvawxnli025355";
+        url = "https://elpa.gnu.org/devel/dape-0.20.0.0.20250107.202302.tar";
+        sha256 = "0d2f8x4blq5rw1p29rn9ccjxcidpv7v6wjqax90w4ignhwh30rpr";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -5458,10 +5458,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.6.0.0.20241228.105002";
+      version = "4.6.0.0.20250107.103440";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20241228.105002.tar";
-        sha256 = "174v9cxi60hng57ky2a5cssk5xjdck4sjnjhg7qlq57cbp6arj96";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250107.103440.tar";
+        sha256 = "1j8hddwyq3y75km6rmqvpgj4hydwhbd45rmrxfv51fr40hkja7dy";
       };
       packageRequires = [ ];
       meta = {
@@ -6308,10 +6308,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.5.0.20250101.92420";
+      version = "1.5.0.20250107.43924";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.5.0.20250101.92420.tar";
-        sha256 = "0cdx068pziprbsqz99p3383qlgk0v2q6q56ywrph1rnal7k19m5g";
+        url = "https://elpa.gnu.org/devel/osm-1.5.0.20250107.43924.tar";
+        sha256 = "08hmxf65akii1qakq6xldcjqls7gfcnqgsl8vysr6zs86cxpl34r";
       };
       packageRequires = [ compat ];
       meta = {
