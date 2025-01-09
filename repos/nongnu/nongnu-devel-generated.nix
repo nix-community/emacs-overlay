@@ -1222,10 +1222,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20250105.223025";
+      version = "1.15.0.0.20250108.171926";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20250105.223025.tar";
-        sha256 = "1kcd1jkw5fryzwrki9g8z87fd9lbb0qvg9ly9rnnjz0va4pgch4f";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20250108.171926.tar";
+        sha256 = "1sqrfwjgyf1rz6wp16qdsj138b7fg51ji0qhbcr6r9wp7n46s645";
       };
       packageRequires = [
         cl-lib
@@ -3723,10 +3723,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.24.0.20241127.182614";
+      version = "0.24.0.20250108.140733";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20241127.182614.tar";
-        sha256 = "0wlz1hc387jcbh75hqjkxmydlsl0ai2adiam2axmqfdfn5p68llq";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20250108.140733.tar";
+        sha256 = "1d6axrq2ymfxybzsk9xg4001cqkj4kkxpdj5fwfx28nf82f594cm";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -4583,10 +4583,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.23.0.20250101.141954";
+      version = "1.2.23.0.20250108.152143";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.23.0.20250101.141954.tar";
-        sha256 = "1srh30xxx7s4y79rc6fkq3aggywvnkd1wrhbmidhqd3lkfw3f1ms";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.23.0.20250108.152143.tar";
+        sha256 = "1dfscmxxy6ips1d2a1bn85ks1ran9rhr4yzi2jwlw1a7af7d79vf";
       };
       packageRequires = [ ];
       meta = {
