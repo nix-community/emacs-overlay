@@ -1652,10 +1652,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0snapshot0.20250104.70510";
+      version = "35.0snapshot0.20250109.71404";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20250104.70510.tar";
-        sha256 = "1p186zsjjhaz99776zgys9zxx9fk01mllv9g6bsmzd6srmcf9bc5";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20250109.71404.tar";
+        sha256 = "1rm45wl7cpsr9h98xc2k1j628sdkpp9b9fy6bn9axnpxhl0kzsfi";
       };
       packageRequires = [ ];
       meta = {
@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250106.163403";
+      version = "0.9.7.0.20250108.184339";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250106.163403.tar";
-        sha256 = "1bybzgai6n594cwiiafg4gb2bffvk2kx5f0xz78s7gg6bsh3kyn4";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250108.184339.tar";
+        sha256 = "1jqbffaz8wj0n0nr1477xkamgfmj7fc5hjvmbsj8mfilnvg9vir4";
       };
       packageRequires = [
         compat
@@ -2503,10 +2503,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20250106.73013";
+      version = "4.0.0.20250109.81646";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20250106.73013.tar";
-        sha256 = "1q5hlr4qabbbsmqsahghlnlrgviznjk9za6ld6fayiq2ikhsr32z";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20250109.81646.tar";
+        sha256 = "1yjsslwszdcj9ws1qp06ahbfm3j9202rqvh3k122yc07bzc236n4";
       };
       packageRequires = [
         helm-core
@@ -2528,10 +2528,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20250106.73013";
+      version = "4.0.0.20250109.81646";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20250106.73013.tar";
-        sha256 = "04k2p2bgbhbc61c937wv0x0qkyc827r6r6nr21mr2lszhrh9vxc9";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20250109.81646.tar";
+        sha256 = "1i93jshjish5rzkfjwafy13bd9my5i3d8y04sylfd8rkcyj0m1m6";
       };
       packageRequires = [ async ];
       meta = {
@@ -3131,10 +3131,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.7alpha0.20241210.10425";
+      version = "2.7alpha0.20250109.32342";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20241210.10425.tar";
-        sha256 = "1rlja17nqr9ly5mab5824dc97w7sgr45adrfhn5li79g89hazd3n";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20250109.32342.tar";
+        sha256 = "0820z5s23k5zl8dfnzy6qcyzppwc9nvav2824a8ynwl7pjk4y2sq";
       };
       packageRequires = [ ];
       meta = {
