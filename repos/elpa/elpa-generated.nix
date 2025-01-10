@@ -1814,10 +1814,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.20.0";
+      version = "0.21.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dape-0.20.0.tar";
-        sha256 = "08q9rgqxhr8ji0sa6zhhavijl2qamrixk0r3jb9jlhbvy80ninwz";
+        url = "https://elpa.gnu.org/packages/dape-0.21.0.tar";
+        sha256 = "0n4bcpjzrzamb0s75hmz8wva39vk603yy45di3iqb8zszd9b3wxj";
       };
       packageRequires = [ jsonrpc ];
       meta = {
