@@ -10963,55 +10963,6 @@
   }
  },
  {
-  "ename": "cardano-tx",
-  "commit": "7979d0bfcd5a7492b5943355615b0cfcf767ce08",
-  "sha256": "1lbxkvcsmffppk5ryxhwjdwm60k45a3yjysragh1n0bpyvkqgj1l",
-  "fetcher": "github",
-  "repo": "Titan-C/cardano.el",
-  "unstable": {
-   "version": [
-    20230606,
-    1150
-   ],
-   "deps": [
-    "bech32",
-    "cbor",
-    "emacsql",
-    "emacsql-sqlite",
-    "f",
-    "helm",
-    "readable-numbers",
-    "yaml",
-    "yaml-mode",
-    "yasnippet"
-   ],
-   "commit": "cf85424b305e8f89debb756dc67eebc84639f711",
-   "sha256": "09649ahqjp8kgi89s93qfqz3f27sf28qdmd8nyramz1yppklfia2"
-  }
- },
- {
-  "ename": "cardano-wallet",
-  "commit": "7a53b6e81d08b4671b0e8ba9e552d33621e5cbc9",
-  "sha256": "1x74gc7n3dw0ixsgz23v10rwhfxkchx29q6vd5lw4b3f9326l466",
-  "fetcher": "github",
-  "repo": "Titan-C/cardano.el",
-  "unstable": {
-   "version": [
-    20230606,
-    1150
-   ],
-   "deps": [
-    "cardano-tx",
-    "dash",
-    "readable-numbers",
-    "yaml",
-    "yaml-mode"
-   ],
-   "commit": "cf85424b305e8f89debb756dc67eebc84639f711",
-   "sha256": "09649ahqjp8kgi89s93qfqz3f27sf28qdmd8nyramz1yppklfia2"
-  }
- },
- {
   "ename": "cargo",
   "commit": "e997b356b009b3d2ab467fe49b79d728a8cfe24b",
   "sha256": "06zq657cxfk5l4867qqsvhskcqc9wswyl030wj27a43idj8n41jx",
@@ -18317,16 +18268,16 @@
   "repo": "mohkale/consult-eglot",
   "unstable": {
    "version": [
-    20250107,
-    1907
+    20250109,
+    2107
    ],
    "deps": [
     "consult",
     "eglot",
     "project"
    ],
-   "commit": "9b490eb384d34ffc60c16cf16fe725ce5c72303a",
-   "sha256": "0jwl4scj63y6c1fpvx3mxh7acy623pqmd87va5hf5bx3xh8pzhj0"
+   "commit": "34eab339ae412b98c160ad1cbd4f443dd70f9202",
+   "sha256": "0axikghlnbzgwl9a6vkykw79nncpn5c63r19lch8zkx6ycwdy5md"
   },
   "stable": {
    "version": [
@@ -32757,16 +32708,16 @@
   "url": "https://git.savannah.gnu.org/git/emms.git",
   "unstable": {
    "version": [
-    20241227,
-    1254
+    20250109,
+    2129
    ],
    "deps": [
     "cl-lib",
     "nadvice",
     "seq"
    ],
-   "commit": "28127920e4e7dfb225bcff250e1efef30d347663",
-   "sha256": "05ynmzgspc66z3i6r95lk302zyx78yn7m6ap3s1dvqb14ykx6gn7"
+   "commit": "e5a733384ec6b5eec2bda4c65d00c48eb0343306",
+   "sha256": "0q6bbrnzbnaap6wvpkci5z5wrzk55plw6ndjrbjk83ipwn54mnyl"
   },
   "stable": {
    "version": [
@@ -52333,14 +52284,14 @@
   "unstable": {
    "version": [
     20250109,
-    243
+    1917
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "ea041a499b26f677689d8df8588a65bd4938ebe0",
-   "sha256": "0g8cbh0ah11n5vcmmrhi0vh6fc0a3w9vz05pn25frsmn340ffr2r"
+   "commit": "99d7bb3861164740ab9228dbaaf097984f7d7fe7",
+   "sha256": "12hhrc3zq74dyq98zwagdyp3zkf7vsxkb18fiy9a9ig99pxwn4gm"
   },
   "stable": {
    "version": [
@@ -61410,11 +61361,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20250107,
-    2133
+    20250109,
+    1748
    ],
-   "commit": "ec44804a87ad4210ef3b62e990eac80d60f1e764",
-   "sha256": "1n455a87pj3zkj05f9pkw5gdyf8i402f9037sjswq2147xsksla3"
+   "commit": "7e3bb0f41fafd587b03e34738ceee98a42f7f392",
+   "sha256": "0p03acqz3jmkb5hqfixwy8yrknhbbf6vnq0n0bl1pqkzdj9fw2rd"
   },
   "stable": {
    "version": [
@@ -75348,8 +75299,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250107,
-    2324
+    20250109,
+    1854
    ],
    "deps": [
     "compat",
@@ -75359,8 +75310,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "8b6bb7c7e88c298e1447ca7c86138588a3953784",
-   "sha256": "0nq5x386lj5c4papcdpnnxkww0zmygk208wzdbazi71b8pw2hhby"
+   "commit": "46c3d8b0ad0a7e583fc382243ab84b95a1d2da52",
+   "sha256": "0477fjrybhnvpd7ssn7ivvr205i6i63byy865gjng0sf4bmp3frn"
   },
   "stable": {
    "version": [
@@ -75937,16 +75888,16 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250107,
-    641
+    20250109,
+    1854
    ],
    "deps": [
     "compat",
     "dash",
     "seq"
    ],
-   "commit": "3ec4a182a602ac890844588ab39829912f0e168d",
-   "sha256": "1sdb196r59l8qsxbb5mdf7acmp5af3s0pacr2d6rjjg2f3fpzz8b"
+   "commit": "46c3d8b0ad0a7e583fc382243ab84b95a1d2da52",
+   "sha256": "0477fjrybhnvpd7ssn7ivvr205i6i63byy865gjng0sf4bmp3frn"
   },
   "stable": {
    "version": [
@@ -98744,11 +98695,11 @@
   "repo": "emacs-php/php-mode",
   "unstable": {
    "version": [
-    20250103,
-    157
+    20250109,
+    2103
    ],
-   "commit": "b45992a6a9d019fafe7a9dcde19401b0f20a20bf",
-   "sha256": "0810hbdakjasldl4vanigjhj7pixkq3dxad2w60grg0kb8xj9rz6"
+   "commit": "0f756a8c0782ebdc00557addc68763305c91ca51",
+   "sha256": "12alin9lfp8lxrd8g9d1nld8cha4zmfbpjz6mjzmi1midv4b0zdc"
   },
   "stable": {
    "version": [
@@ -113985,14 +113936,14 @@
   "repo": "slime/slime",
   "unstable": {
    "version": [
-    20250101,
-    459
+    20250109,
+    1458
    ],
    "deps": [
     "macrostep"
    ],
-   "commit": "af6f1fca2f45c151f830f42905d6fc0f66053798",
-   "sha256": "0wxxlcik32cggjr591ksvxcrsbwalf1bcysjj5yal8jw0b8k7fi1"
+   "commit": "10403bd980640b098e7bd3f4e067f9a428799a58",
+   "sha256": "1648pzirlc857lhhph95916cpflf78ikd0yz9ki84b5avzr9y3vx"
   },
   "stable": {
    "version": [
@@ -127557,8 +127508,8 @@
   "repo": "gmlarumbe/verilog-ext",
   "unstable": {
    "version": [
-    20241205,
-    2105
+    20250109,
+    1727
    ],
    "deps": [
     "ag",
@@ -127573,8 +127524,8 @@
     "verilog-ts-mode",
     "yasnippet"
    ],
-   "commit": "ca8713c3a406877976314e41ff75896cb44c7560",
-   "sha256": "1q5ca8la3wynqwkgaqwdyk36dshrr3yzmn9a22zpcmwnddhgahrn"
+   "commit": "3d5ca4d0f74ac23336f5e970e2b0ea8bcc520513",
+   "sha256": "1ngf1sdxhcnlm4d0p3gm487wsxmzgbjxjw3a373kxvxkl384dgp7"
   },
   "stable": {
    "version": [
@@ -127607,14 +127558,14 @@
   "repo": "gmlarumbe/verilog-ts-mode",
   "unstable": {
    "version": [
-    20250108,
-    1614
+    20250109,
+    2114
    ],
    "deps": [
     "verilog-mode"
    ],
-   "commit": "a4ac914bf6a1a915b26a89fb89cdf72e75190977",
-   "sha256": "14hvbm2b425ndi1jka1lidrkdzy38g5ydajgmjj4y314i08794hn"
+   "commit": "7470732c2bdc934ce0454e1e8923694164fb1603",
+   "sha256": "0vrinq0252hbp6qh555igc222kgrj4ww586x2j1c5m9720gxi07s"
   },
   "stable": {
    "version": [
@@ -127899,11 +127850,11 @@
   "repo": "gmlarumbe/vhdl-ts-mode",
   "unstable": {
    "version": [
-    20250108,
-    1218
+    20250110,
+    32
    ],
-   "commit": "aacb5e4920c2b26c0e651f58afda656dfdbd021d",
-   "sha256": "08pnsc7gyjida32mq12gc6ns6py5fhc4w0p7s3myc0h33vkx84wg"
+   "commit": "974fbf7af53d65a1560570d13d08faa5dae0b936",
+   "sha256": "1pniqkbgbgjys48anaxjh53w416xphy5n4lkqkmd858sf915wkc9"
   },
   "stable": {
    "version": [
