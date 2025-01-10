@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.9.0.20250109.143600";
+      version = "1.9.0.20250110.60047";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250109.143600.tar";
-        sha256 = "1v8vwg8a1j3s74j3gk7a6in5y79nnlv289jxbq3n3g6292zb4n96";
+        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250110.60047.tar";
+        sha256 = "0aadi4swpfmb2azrf5v7f5zla4lag17y855cpvwznnch1fx9rayi";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1574,10 +1574,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.6.0.20250103.202938";
+      version = "1.6.0.20250110.60416";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.6.0.20250103.202938.tar";
-        sha256 = "06kw1kj4aqr85swi35291zsv2l37fz03502qvhsqbn912kcjdaxg";
+        url = "https://elpa.gnu.org/devel/corfu-1.6.0.20250110.60416.tar";
+        sha256 = "180rd7knabdphphmjm9dfqdf8lzl0ikf6lv68rpv45f7nv7h9zkw";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2607,10 +2607,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.9.0.0.20250108.134618";
+      version = "1.9.0.0.20250110.75248";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.9.0.0.20250108.134618.tar";
-        sha256 = "031j7wxcnapys15p5i2b3whs5m3wmjsqpivyj6qshbb8pw24v7nd";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.9.0.0.20250110.75248.tar";
+        sha256 = "1cikzinldpfm7g4k8shmyq0gpyri8442jsz92a99xqwzhgx9nv5j";
       };
       packageRequires = [ ];
       meta = {
@@ -2927,10 +2927,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "21.0.20241227.75423";
+      version = "21.0.20250109.162914";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-21.0.20241227.75423.tar";
-        sha256 = "1h5hzn9va97jn4kvkd42hrrr76hh70dr19h17ikbilqn3lf2c0hl";
+        url = "https://elpa.gnu.org/devel/emms-21.0.20250109.162914.tar";
+        sha256 = "1mrghnprxvjzps4yikidiv12h0pfjrhyf27brda8vxvfxh9wvcyl";
       };
       packageRequires = [
         cl-lib
@@ -3405,10 +3405,10 @@
     elpaBuild {
       pname = "fontaine";
       ename = "fontaine";
-      version = "2.1.0.0.20250108.195523";
+      version = "2.1.0.0.20250110.54904";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/fontaine-2.1.0.0.20250108.195523.tar";
-        sha256 = "0mn6hwqm7z4jgy4nj0jspfajacxsf95aq77zjr9d9wfyd70cl4wc";
+        url = "https://elpa.gnu.org/devel/fontaine-2.1.0.0.20250110.54904.tar";
+        sha256 = "0l8qyr4mxkmf5bbi5ym4rg5130rikggir4jdixj6hz52wbwhy5a8";
       };
       packageRequires = [ ];
       meta = {
@@ -5458,10 +5458,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.6.0.0.20250107.103440";
+      version = "4.6.0.0.20250110.75618";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250107.103440.tar";
-        sha256 = "1j8hddwyq3y75km6rmqvpgj4hydwhbd45rmrxfv51fr40hkja7dy";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250110.75618.tar";
+        sha256 = "0vnl8q5k9077adcjjx9q9hvs1p4s933v2vn4gzlnmq3bv779nd87";
       };
       packageRequires = [ ];
       meta = {
@@ -6308,10 +6308,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.5.0.20250107.43924";
+      version = "1.5.0.20250110.61306";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.5.0.20250107.43924.tar";
-        sha256 = "08hmxf65akii1qakq6xldcjqls7gfcnqgsl8vysr6zs86cxpl34r";
+        url = "https://elpa.gnu.org/devel/osm-1.5.0.20250110.61306.tar";
+        sha256 = "1nnl4674dvb7qillr0ld8w7lqvfgk639rv90dw8wbwddg9i6276x";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9520,10 +9520,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.10.0.20250101.92843";
+      version = "1.10.0.20250110.60447";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.10.0.20250101.92843.tar";
-        sha256 = "1868m8ss9d9hyk55an6vmn6hb19qvvdadxn3jmngmbvxvgcsh4gm";
+        url = "https://elpa.gnu.org/devel/vertico-1.10.0.20250110.60447.tar";
+        sha256 = "0spzhp0i8jalbq0gnp0lg5f4m2rxgrqpnl2ndhjknfslri8hvc14";
       };
       packageRequires = [ compat ];
       meta = {
