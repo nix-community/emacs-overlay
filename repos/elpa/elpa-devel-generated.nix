@@ -1041,10 +1041,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.8.0.20250103.174415";
+      version = "1.8.0.20250110.210959";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-1.8.0.20250103.174415.tar";
-        sha256 = "18dw6zdnppncjik06mslc0wwp65lj32x123iidb3vbk84j6qwjai";
+        url = "https://elpa.gnu.org/devel/cape-1.8.0.20250110.210959.tar";
+        sha256 = "1lx09anifvzxikqgwnaa633bmkbjzxrgmy8yscm6hf89rxkg7syy";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.9.0.20250110.60047";
+      version = "1.9.0.20250110.233859";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250110.60047.tar";
-        sha256 = "0aadi4swpfmb2azrf5v7f5zla4lag17y855cpvwznnch1fx9rayi";
+        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250110.233859.tar";
+        sha256 = "1sx9dlf08bxz3qi1069xxlndyh4x5m5givdrzznsqw5mpddiyj5f";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250108.145411";
+      version = "3.1.0.0.20250111.62121";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250108.145411.tar";
-        sha256 = "1nbdy55aq415cm28275rn2qicxq5yhn281542yz81j957vxqmm9k";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250111.62121.tar";
+        sha256 = "1ykw609xrnq11pvgc1scxifhbl5z3cwr1jxfcli584a5djf7vlhd";
       };
       packageRequires = [ ];
       meta = {
@@ -4922,10 +4922,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.20.0.0.20250102.194115";
+      version = "0.20.0.0.20250111.2622";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.20.0.0.20250102.194115.tar";
-        sha256 = "1gcrks096fawiygknbny683l8m8rqiw6z29wgmal3h67z6dssvlz";
+        url = "https://elpa.gnu.org/devel/llm-0.20.0.0.20250111.2622.tar";
+        sha256 = "1ljcc36sxbgiq41si632v78v7lj9j9wng594hnz20ws46a41lnxq";
       };
       packageRequires = [
         plz
