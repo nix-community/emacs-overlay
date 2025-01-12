@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.17.0snapshot0.20250111.205822";
+      version = "1.17.0snapshot0.20250111.210240";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250111.205822.tar";
-        sha256 = "180czw36l0ffbygrrk3xbnairmkgk122ypxdcjhczb3gpapqk0rq";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250111.210240.tar";
+        sha256 = "0dck89i2spg9rfgf2x4px8yh8m085abaayd9q3pfpzjvjk5dzw3i";
       };
       packageRequires = [
         clojure-mode
@@ -4266,10 +4266,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "95.0.0.20250102.95738";
+      version = "95.0.0.20250111.213723";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-95.0.0.20250102.95738.tar";
-        sha256 = "0pzqzz1a0shf0dm70c1d730m3dndal2dvm4dw65vxasj8vc1v8nx";
+        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-95.0.0.20250111.213723.tar";
+        sha256 = "01anmhjacy5jnhdwk6x54859i6vzjbrhchyclpvflqxawh2zcjrw";
       };
       packageRequires = [ compat ];
       meta = {
