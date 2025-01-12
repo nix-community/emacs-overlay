@@ -676,10 +676,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.2.1.0.20241117.91644";
+      version = "1.2.1.0.20250112.75110";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.2.1.0.20241117.91644.tar";
-        sha256 = "0s7cc79zd3cvmpn2i8lkn8xqy35yizps6nwhqgpf77xfbp8k3n13";
+        url = "https://elpa.gnu.org/devel/beframe-1.2.1.0.20250112.75110.tar";
+        sha256 = "0w5hpx03dprx3h1cy0i418k3cskpbfgnpafy64q3dkg7hp8568ip";
       };
       packageRequires = [ ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250111.62121";
+      version = "3.1.0.0.20250112.65801";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250111.62121.tar";
-        sha256 = "1ykw609xrnq11pvgc1scxifhbl5z3cwr1jxfcli584a5djf7vlhd";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250112.65801.tar";
+        sha256 = "0l87xkfzjzf0ll0sl6lzqp6f714n5ia18pqprglqnpnn43xcmbrj";
       };
       packageRequires = [ ];
       meta = {
@@ -6039,10 +6039,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250111.182738";
+      version = "9.8pre0.20250112.80914";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250111.182738.tar";
-        sha256 = "1vs66dnlvgh73vn64rdk0xchs7pahi92cmajayvzpxgg6yan1pms";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250112.80914.tar";
+        sha256 = "1qcpdr9rlciwcjwmga5vbdb03daya33425jg3gxf03dndzyq7y7r";
       };
       packageRequires = [ ];
       meta = {
@@ -6308,10 +6308,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.5.0.20250110.61306";
+      version = "1.5.0.20250111.213555";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.5.0.20250110.61306.tar";
-        sha256 = "1nnl4674dvb7qillr0ld8w7lqvfgk639rv90dw8wbwddg9i6276x";
+        url = "https://elpa.gnu.org/devel/osm-1.5.0.20250111.213555.tar";
+        sha256 = "1cvqrhsb8r4gq86v4rq1hkpxgzf3hfbdw8wa6ylycd6rncsdwglx";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9520,10 +9520,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.10.0.20250111.131059";
+      version = "1.10.0.20250112.85315";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.10.0.20250111.131059.tar";
-        sha256 = "0j6q6ms91fgwr7hzvp6xs65ijdxr8wfkywa253b8khm3q5wpdbvm";
+        url = "https://elpa.gnu.org/devel/vertico-1.10.0.20250112.85315.tar";
+        sha256 = "0n3khrmc0amr5r2mbfjzrpz3qph1d0jb4ix598b0q558z9wdjjpa";
       };
       packageRequires = [ compat ];
       meta = {
