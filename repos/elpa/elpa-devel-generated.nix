@@ -2257,10 +2257,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.3.0.0.20250112.104053";
+      version = "0.3.0.0.20250113.70933";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20250112.104053.tar";
-        sha256 = "1qgir6dnm524ggkh4lv97wrr1j5mpcm1khzd089ma1ng7hiwniyc";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20250113.70933.tar";
+        sha256 = "0scwfpx1vigmfvzgq974xpz96i2sdmjaia46hvkah5lvjvr7jzkm";
       };
       packageRequires = [ ];
       meta = {
@@ -10150,10 +10150,10 @@
     elpaBuild {
       pname = "yasnippet";
       ename = "yasnippet";
-      version = "0.14.1.0.20250112.100411";
+      version = "0.14.1.0.20250112.175154";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/yasnippet-0.14.1.0.20250112.100411.tar";
-        sha256 = "16ahb2xjx17qp5jlzfll4cknn3x6b697cbrrxxbnns7wq4ns1by0";
+        url = "https://elpa.gnu.org/devel/yasnippet-0.14.1.0.20250112.175154.tar";
+        sha256 = "0f6fx935lv1rar7blqprwrcz0vilpgh4k564y801pnlcxh5ssnnh";
       };
       packageRequires = [ cl-lib ];
       meta = {
