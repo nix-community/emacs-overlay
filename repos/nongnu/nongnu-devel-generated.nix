@@ -3490,10 +3490,10 @@
     elpaBuild {
       pname = "org-contrib";
       ename = "org-contrib";
-      version = "0.6.0.20241207.74256";
+      version = "0.6.0.20250112.165818";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-contrib-0.6.0.20241207.74256.tar";
-        sha256 = "0i9ii3ngimx1l8s4pq2zn73lnry1npsbrsxzn92gwayj0sm77bkp";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-contrib-0.6.0.20250112.165818.tar";
+        sha256 = "0n7jdhrfv8w26k09nzbsry57pfak1wwv33axrpl683k3m90r1xv5";
       };
       packageRequires = [ org ];
       meta = {
@@ -4266,10 +4266,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "95.0.0.20250111.213723";
+      version = "95.0.0.20250112.185745";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-95.0.0.20250111.213723.tar";
-        sha256 = "01anmhjacy5jnhdwk6x54859i6vzjbrhchyclpvflqxawh2zcjrw";
+        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-95.0.0.20250112.185745.tar";
+        sha256 = "1rqlckjwwvgbxkznd682snh4nb0w59z8d9lz0ghlpp7jb1qy7qs2";
       };
       packageRequires = [ compat ];
       meta = {
