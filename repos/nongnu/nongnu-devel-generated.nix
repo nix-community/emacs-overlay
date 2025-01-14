@@ -2480,10 +2480,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20250107.161140";
+      version = "1.0.20250113.153114";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20250107.161140.tar";
-        sha256 = "0jias9aj07man1gv67vpgy73fj569c0drcqxix7xkjsn7r1668p1";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20250113.153114.tar";
+        sha256 = "02pqvv001za9bpcskrchyqlh3w1njac7hxcd5y6a2fw37m8acxza";
       };
       packageRequires = [ ];
       meta = {
@@ -2591,10 +2591,10 @@
     elpaBuild {
       pname = "hl-block-mode";
       ename = "hl-block-mode";
-      version = "0.2.0.20241208.45934";
+      version = "0.2.0.20250113.124218";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hl-block-mode-0.2.0.20241208.45934.tar";
-        sha256 = "0s9x68h46qf49xg7fd7gbrr78l7zc53hnprq6hxhzlw5fara7xsn";
+        url = "https://elpa.nongnu.org/nongnu-devel/hl-block-mode-0.2.0.20250113.124218.tar";
+        sha256 = "00xs4cdcwyggccvlsv7l0q58hv4qhbyv0fyl3js8hqs9091qyv70";
       };
       packageRequires = [ ];
       meta = {
@@ -4329,10 +4329,10 @@
     elpaBuild {
       pname = "scroll-on-jump";
       ename = "scroll-on-jump";
-      version = "0.2.0.20240421.90558";
+      version = "0.2.0.20250113.92302";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.2.0.20240421.90558.tar";
-        sha256 = "0wfdq7myzywqq1nl5f0mz43xiqmpl8vq3p87z7222szi0mm9r6ra";
+        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.2.0.20250113.92302.tar";
+        sha256 = "1m0xq5mnls82gvbvqlzvxl540wz53xz7s8xphpf93pfm5qf8lkw5";
       };
       packageRequires = [ ];
       meta = {
