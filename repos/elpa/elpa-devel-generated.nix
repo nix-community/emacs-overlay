@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.8.0.20250101.100039";
+      version = "14.0.8.0.20250113.203445";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.8.0.20250101.100039.tar";
-        sha256 = "0nslxh8ai5rjpzg46ihirz4igq178f7lpybih47is7wlkj0vn68i";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.8.0.20250113.203445.tar";
+        sha256 = "0icm98wmddxn0p5gfslnkaq53kdcpsqmp4xmlszns2asbzb4xr1l";
       };
       packageRequires = [ ];
       meta = {
@@ -1509,10 +1509,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.3.0.0.20250106.182936";
+      version = "0.3.0.0.20250113.172042";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-hoogle-0.3.0.0.20250106.182936.tar";
-        sha256 = "108z3a733kw6v5a10jmgx4myymqxmf9y01wpi1yh9bj1m1z9i0g5";
+        url = "https://elpa.gnu.org/devel/consult-hoogle-0.3.0.0.20250113.172042.tar";
+        sha256 = "0qd8kkppfnkw0y6as19iv75yc0r6khjm71qni5dp98lbya6fk7im";
       };
       packageRequires = [ consult ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250112.92425";
+      version = "3.1.0.0.20250113.92454";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250112.92425.tar";
-        sha256 = "07ivxmzr0qnmbawkw9jnbz4wdsmnq2z133bp06z0a1zddsdhs0hn";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250113.92454.tar";
+        sha256 = "0v9326q8r4bfnv0p0jw22s1mivasjhgi40zdagdk90sn35m975hr";
       };
       packageRequires = [ ];
       meta = {
