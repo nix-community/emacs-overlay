@@ -676,10 +676,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.2.1.0.20250112.102724";
+      version = "1.2.1.0.20250114.64132";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.2.1.0.20250112.102724.tar";
-        sha256 = "0wa2gzqj08amys0c24gshlgs8hybypny09a6mskfpxc75j556931";
+        url = "https://elpa.gnu.org/devel/beframe-1.2.1.0.20250114.64132.tar";
+        sha256 = "00ylhvnsc7swv2bdnjzbba5azyk4abirbwin7bph2d2igax2ygd1";
       };
       packageRequires = [ ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250113.92454";
+      version = "3.1.0.0.20250114.61218";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250113.92454.tar";
-        sha256 = "0v9326q8r4bfnv0p0jw22s1mivasjhgi40zdagdk90sn35m975hr";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250114.61218.tar";
+        sha256 = "1hzlcby02k1dyjqmgnabfwzb0vbbx5p5ad0d800bk5w4p8ymi50n";
       };
       packageRequires = [ ];
       meta = {
