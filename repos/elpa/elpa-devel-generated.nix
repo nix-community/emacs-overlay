@@ -1322,10 +1322,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20250105.44550";
+      version = "1.0.2.0.20250114.210922";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20250105.44550.tar";
-        sha256 = "196lf317sqh8fz1g5drvcj596s1098yz1828apwahh70dl97in3x";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20250114.210922.tar";
+        sha256 = "12h08awsmmf166ls5y49jv51273lyhvifpxk08r8vwy546jv2q5b";
       };
       packageRequires = [ ];
       meta = {
@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.9.0.20250114.202828";
+      version = "1.9.0.20250114.212121";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250114.202828.tar";
-        sha256 = "0iia7sk23qr6kz8wbj8mvd5l7gmh2psk4x5x9smd6xs9rk6w8fxa";
+        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250114.212121.tar";
+        sha256 = "03shhhzpq6f12pfwdxpamy7nqnk5k8232xk5szsm62zx9ss5lsrp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250114.61218";
+      version = "3.1.0.0.20250115.62502";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250114.61218.tar";
-        sha256 = "1hzlcby02k1dyjqmgnabfwzb0vbbx5p5ad0d800bk5w4p8ymi50n";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250115.62502.tar";
+        sha256 = "0f7hpgdissrgjbh59iawp4x2hnyrg9k5bv972ngwxr989sjzcblr";
       };
       packageRequires = [ ];
       meta = {
@@ -2791,10 +2791,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.13.1.0.20250102.151353";
+      version = "0.13.2.0.20250114.214218";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-0.13.1.0.20250102.151353.tar";
-        sha256 = "17pgzzanz4fcwrbirwa6pgiqv0cgsiknn9vzb0j1zd6slbbapy0h";
+        url = "https://elpa.gnu.org/devel/ellama-0.13.2.0.20250114.214218.tar";
+        sha256 = "0sgd752hjakc6rgyppcr5jjhb65iw78xqya438k225y0h6maf8v1";
       };
       packageRequires = [
         compat
@@ -9651,10 +9651,10 @@
     elpaBuild {
       pname = "vundo";
       ename = "vundo";
-      version = "2.3.0.0.20241225.170413";
+      version = "2.3.0.0.20250114.230321";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vundo-2.3.0.0.20241225.170413.tar";
-        sha256 = "0cl9ysfh9jkdk602183lbqb4xfb3z0y85ybs8ql6fl2n483n934a";
+        url = "https://elpa.gnu.org/devel/vundo-2.3.0.0.20250114.230321.tar";
+        sha256 = "1bqv7s4z4vkb1w4n2cyjsf181faycm95g7z2ikcb18hhag1q2fi1";
       };
       packageRequires = [ ];
       meta = {
