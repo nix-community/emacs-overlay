@@ -2132,10 +2132,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.4.10.0.20241211.105407";
+      version = "0.4.10.0.20241212.14747";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.10.0.20241211.105407.tar";
-        sha256 = "0wvqk279qfdvwk7k27lzw9063x7w6jypprlh1rgj6xlhnn3kv9y8";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.4.10.0.20241212.14747.tar";
+        sha256 = "1nzx6idhpzz33awaqsylnzzy13xlbgjraxzw2gfd0iwx9p28dj3k";
       };
       packageRequires = [
         compat
@@ -4393,10 +4393,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250109.145853";
+      version = "2.31snapshot0.20250115.41312";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250109.145853.tar";
-        sha256 = "02v25bjhd9sivbpq63mwzmpk2r3hlw6dcw97z2157i39azznqih3";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250115.41312.tar";
+        sha256 = "055c23lwcyqgsng4zlir64l3c09ga4956jzrlwahsaw2b8nmr8m8";
       };
       packageRequires = [ macrostep ];
       meta = {
