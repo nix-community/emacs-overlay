@@ -3131,10 +3131,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.7alpha0.20250109.32342";
+      version = "2.7alpha0.20250115.165803";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20250109.32342.tar";
-        sha256 = "0820z5s23k5zl8dfnzy6qcyzppwc9nvav2824a8ynwl7pjk4y2sq";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20250115.165803.tar";
+        sha256 = "1hmqfd4azc62qhfialnc2c6c97d9wp2mh16dahb6sgkl5axsr9rp";
       };
       packageRequires = [ ];
       meta = {
@@ -4050,10 +4050,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250113.151817";
+      version = "1.0.20250115.114907";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250113.151817.tar";
-        sha256 = "1xpcb4gb48qlscqxpl04zpgx2izrcvrkmbf3kvdm8j5q4y191bcz";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250115.114907.tar";
+        sha256 = "13xlqqm3mk6srk0cr94vfss9303d7gj6hmfzj05f0rdy1x5072z6";
       };
       packageRequires = [ ];
       meta = {
