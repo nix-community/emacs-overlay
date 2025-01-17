@@ -1041,10 +1041,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.8.0.20250110.210959";
+      version = "1.8.0.20250116.123043";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-1.8.0.20250110.210959.tar";
-        sha256 = "1lx09anifvzxikqgwnaa633bmkbjzxrgmy8yscm6hf89rxkg7syy";
+        url = "https://elpa.gnu.org/devel/cape-1.8.0.20250116.123043.tar";
+        sha256 = "1iqf0j18l6lr6052gs3wa6bjfcn2pd335w64xk3rz8kix4wsa09n";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3183,10 +3183,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.32.0.20250103.173706";
+      version = "0.32.0.20250116.180602";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.32.0.20250103.173706.tar";
-        sha256 = "0j5lvxm09vqfpggk3i1nipjmrjqbipnw9dn6gjb1xwxb7lclk62z";
+        url = "https://elpa.gnu.org/devel/exwm-0.32.0.20250116.180602.tar";
+        sha256 = "0z1miwm2hzslgzpfacy5mh5bzqr7frzpiig85hi2q6wa5j6s99lb";
       };
       packageRequires = [
         compat
