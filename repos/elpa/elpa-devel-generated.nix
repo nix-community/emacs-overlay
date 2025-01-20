@@ -676,10 +676,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.2.1.0.20250115.94242";
+      version = "1.2.1.0.20250120.74531";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.2.1.0.20250115.94242.tar";
-        sha256 = "07nc1dh6296v61afhwm6nph7liqmqy7p22m2ha3vl5hvi6dg8hav";
+        url = "https://elpa.gnu.org/devel/beframe-1.2.1.0.20250120.74531.tar";
+        sha256 = "13y85z7s1nvaf4aic9ry6j4lhpi4kzkkddyfg9gklp47v67ghxv6";
       };
       packageRequires = [ ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250119.73303";
+      version = "3.1.0.0.20250120.63109";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250119.73303.tar";
-        sha256 = "08n3api0y9hly7xliakxza2mjakygk1ij4gf6svlyfkmayflwir2";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250120.63109.tar";
+        sha256 = "01iff6g7j3zada1gc2jw4bxzbxzi9hk1g257i72q5yqyj3xx9hdk";
       };
       packageRequires = [ ];
       meta = {
@@ -4094,10 +4094,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250119.94705";
+      version = "9.0.2pre0.20250120.20417";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250119.94705.tar";
-        sha256 = "0zp2zc1iffxdsqx4qrpndz9y8fzwsipswiklfq9wxqkm9slrgyg8";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250120.20417.tar";
+        sha256 = "0zfckczgv79k3l3igsyazn0dzbxwqi5vlygrni9fgg9kvwh7ddlf";
       };
       packageRequires = [ ];
       meta = {
@@ -9543,10 +9543,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.8.0.0.20250117.11219";
+      version = "0.8.0.0.20250120.15236";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-posframe-0.8.0.0.20250117.11219.tar";
-        sha256 = "12vl52nh8br714riqkggrblkqzczwvr6kwha0avb9vzz1l0x4fvf";
+        url = "https://elpa.gnu.org/devel/vertico-posframe-0.8.0.0.20250120.15236.tar";
+        sha256 = "18zcjyb2m3my6inwg6p0x77236vijyppqb1ka89zfbr8cwwvcxqp";
       };
       packageRequires = [
         posframe
