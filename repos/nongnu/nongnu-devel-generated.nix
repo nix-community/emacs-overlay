@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.17.0snapshot0.20250118.90655";
+      version = "1.17.0snapshot0.20250120.93508";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250118.90655.tar";
-        sha256 = "0rbjvh9hakp4nmx4zv61gspjcv393xrb0nk3d08j9aams7hsipsm";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250120.93508.tar";
+        sha256 = "15c0gzpqn90cbxgj60yrc1cmgh00lc89zv9cs9giaq0xmspyq22h";
       };
       packageRequires = [
         clojure-mode
@@ -1222,10 +1222,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20250116.102803";
+      version = "1.15.0.0.20250120.195229";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20250116.102803.tar";
-        sha256 = "1q3hn1gxbln908gl6jyjkmigajpdwddiwmx1r1xlrdlycjv66z0f";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20250120.195229.tar";
+        sha256 = "0hbsnwyzb3igr8bfaqsp0b3s09y4y5q68fhlpal17h2c4rlsd8xx";
       };
       packageRequires = [
         cl-lib
@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250119.204825";
+      version = "0.9.7.0.20250120.95913";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250119.204825.tar";
-        sha256 = "1kqqr709p3gbxc251dfaml1251hd9lsn43fikw12cm0b0a0cwn23";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250120.95913.tar";
+        sha256 = "098ayyvvl9np2lra9bah1bgrr81r9w6abinkfaqkc8dcqvkhxyxd";
       };
       packageRequires = [
         compat
@@ -2480,10 +2480,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20250119.81018";
+      version = "1.0.20250120.151713";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20250119.81018.tar";
-        sha256 = "0478c08ys1km7a6jpcx4b3dy8i7af4r43a6h49g5psl728bcwmr4";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20250120.151713.tar";
+        sha256 = "1ggdqidazx0vba50mrhsr18zg4h7a78jlql9vlj2pz6dkhdbak20";
       };
       packageRequires = [ ];
       meta = {
@@ -3986,10 +3986,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20250118.90750";
+      version = "2.9.0snapshot0.20250120.100216";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250118.90750.tar";
-        sha256 = "0jgljm7x5n0f9csfpf8js8sw78120rj433acifjzyk78jf2nj3if";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250120.100216.tar";
+        sha256 = "1rr6fgd6hj8xx8kiwa5ajkq2cxk0ldv5fmgg85n3aisfjn3zia18";
       };
       packageRequires = [ ];
       meta = {
@@ -4050,10 +4050,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250115.114907";
+      version = "1.0.20250120.105804";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250115.114907.tar";
-        sha256 = "13xlqqm3mk6srk0cr94vfss9303d7gj6hmfzj05f0rdy1x5072z6";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250120.105804.tar";
+        sha256 = "160giwc53b8grazxpwsv65qg7ga73frlgrihw4l2b7q4f308zdp9";
       };
       packageRequires = [ ];
       meta = {
@@ -4393,10 +4393,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250117.164658";
+      version = "2.31snapshot0.20250120.165234";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250117.164658.tar";
-        sha256 = "1wscb3vxq9zqc5hnf15ifrw19myczq0fwmjbv1icxyy6kx8ys1md";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250120.165234.tar";
+        sha256 = "11khzjnzbpd6lv5yvfbg1p29xa6q6d5jq810dxpzijk4ymrpifi3";
       };
       packageRequires = [ macrostep ];
       meta = {
