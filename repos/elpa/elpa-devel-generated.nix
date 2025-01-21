@@ -1574,10 +1574,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.6.0.20250114.110135";
+      version = "1.6.0.20250120.185556";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.6.0.20250114.110135.tar";
-        sha256 = "11965b4fsp17pqbs8jsicpwk0wbxbxpjaippq26fv4wbbzc2xm32";
+        url = "https://elpa.gnu.org/devel/corfu-1.6.0.20250120.185556.tar";
+        sha256 = "09nv0zdx6d5ldryl9njxg9j0a95799aqk1wvxzdsyb08pf6w3z37";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2637,10 +2637,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.17.0.20250111.74423";
+      version = "1.18.0.20250120.214445";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.17.0.20250111.74423.tar";
-        sha256 = "0mm9z9s3sxbrsrvzhsismczc22b7fvf6h997i3hphlfwgjjh03ml";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250120.214445.tar";
+        sha256 = "0k15crj5nhc2sfsjc4x7fmch0p0hca6acx3lsllpg23srjf4gjym";
       };
       packageRequires = [
         compat
@@ -2927,10 +2927,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "21.0.20250112.170700";
+      version = "21.0.20250120.141327";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-21.0.20250112.170700.tar";
-        sha256 = "0iwg11yda0ri5xag6kb0dv9qd6hkclnz6ppd4mv19px59psy6hjc";
+        url = "https://elpa.gnu.org/devel/emms-21.0.20250120.141327.tar";
+        sha256 = "1vcpp171rgvgm3mf04z0ayha7avfvjkp17ybs98fjl09160ih3ny";
       };
       packageRequires = [
         cl-lib
@@ -3405,10 +3405,10 @@
     elpaBuild {
       pname = "fontaine";
       ename = "fontaine";
-      version = "2.1.0.0.20250118.103848";
+      version = "2.1.0.0.20250120.155508";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/fontaine-2.1.0.0.20250118.103848.tar";
-        sha256 = "14j6f4kql4rzc6ygpm95makcli9jvfpmpl40zijs6pbp28gvap8r";
+        url = "https://elpa.gnu.org/devel/fontaine-2.1.0.0.20250120.155508.tar";
+        sha256 = "13frw37fq46nrgy04074cpkyicj3ycgdfaal8zfzqszlslx8iiwm";
       };
       packageRequires = [ ];
       meta = {
@@ -4922,10 +4922,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.20.0.0.20250111.2622";
+      version = "0.21.0.0.20250120.145937";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.20.0.0.20250111.2622.tar";
-        sha256 = "1ljcc36sxbgiq41si632v78v7lj9j9wng594hnz20ws46a41lnxq";
+        url = "https://elpa.gnu.org/devel/llm-0.21.0.0.20250120.145937.tar";
+        sha256 = "0swz3fjpidvsf897jy2239k06xfgcvbaw0dy9qfgbcpdif1844iy";
       };
       packageRequires = [
         plz

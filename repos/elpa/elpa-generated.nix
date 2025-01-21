@@ -2596,6 +2596,7 @@
   ) { };
   eglot = callPackage (
     {
+      compat,
       eldoc,
       elpaBuild,
       external-completion,
@@ -2605,23 +2606,26 @@
       lib,
       project,
       seq,
+      track-changes,
       xref,
     }:
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.17";
+      version = "1.18";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/eglot-1.17.tar";
-        sha256 = "1cnx522wb49f1dkm80sigz3kvzrblmq5b1lnfyq9wdnh6zdm4l00";
+        url = "https://elpa.gnu.org/packages/eglot-1.18.tar";
+        sha256 = "1zqs498yn3i8wn045jgq9nw4pddiyrwwgyq39mndzvgvi1j6a431";
       };
       packageRequires = [
+        compat
         eldoc
         external-completion
         flymake
         jsonrpc
         project
         seq
+        track-changes
         xref
       ];
       meta = {
@@ -4895,10 +4899,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.20.0";
+      version = "0.21.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/llm-0.20.0.tar";
-        sha256 = "12a6z2knsxp8jy0v9hsfsb7kdzyj6pnq5h58vnkrizd95zp6zf91";
+        url = "https://elpa.gnu.org/packages/llm-0.21.0.tar";
+        sha256 = "155j2p87nya249qr22rycr60wiz9hvr8r2xysfvzv4warid9j7qs";
       };
       packageRequires = [
         plz
