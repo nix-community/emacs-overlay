@@ -1222,10 +1222,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20250121.63536";
+      version = "1.15.0.0.20250121.180033";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20250121.63536.tar";
-        sha256 = "1jpjpjmb0lj39swkr72097pgswvrz0cp8drn72spz9w5i4xym67f";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20250121.180033.tar";
+        sha256 = "1c1dd14l9hjjgqzi872bni27q8z4q6sxd2sxfrj0x13gppa3jcnv";
       };
       packageRequires = [
         cl-lib
@@ -4393,10 +4393,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250120.165234";
+      version = "2.31snapshot0.20250121.163204";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250120.165234.tar";
-        sha256 = "11khzjnzbpd6lv5yvfbg1p29xa6q6d5jq810dxpzijk4ymrpifi3";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250121.163204.tar";
+        sha256 = "1rj15ill9lm4hfkbvz6xabldy1n8jp3fldpr633lc1knv5s713f0";
       };
       packageRequires = [ macrostep ];
       meta = {
