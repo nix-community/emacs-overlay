@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.17.0snapshot0.20250122.80901";
+      version = "1.17.0snapshot0.20250123.82048";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250122.80901.tar";
-        sha256 = "11vw7qbkix7zs562j1cc0z03d7dyc2l5ml2njp656bgahi4w7l5g";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250123.82048.tar";
+        sha256 = "0bdzsfqg2ra7c4gw3diian7zmas44z15g718ccb9cjf9w7sk3qix";
       };
       packageRequires = [
         clojure-mode
@@ -2503,10 +2503,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20250121.51825";
+      version = "4.0.0.20250123.70535";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20250121.51825.tar";
-        sha256 = "1hdg538ay4rmy4vch1wd53c6i6xr6axgpsxl2bcijj2n7ap41kn8";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20250123.70535.tar";
+        sha256 = "0x8gfkssp3q29k48gyilyg7981m4jja0pxnhkphv619n6qr5965v";
       };
       packageRequires = [
         helm-core
@@ -2528,10 +2528,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20250121.51825";
+      version = "4.0.0.20250123.70535";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20250121.51825.tar";
-        sha256 = "1a5bk0qbzal2f5snplprwlp5603xkvby26ff2m6cps23pmqf32a7";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20250123.70535.tar";
+        sha256 = "1aial6qc62i8pzg0fgnmhf4kvx0vz0zbjw1707lkpi9kaqcqh0y7";
       };
       packageRequires = [ async ];
       meta = {
@@ -3986,10 +3986,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20250120.100216";
+      version = "2.9.0snapshot0.20250123.81919";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250120.100216.tar";
-        sha256 = "1rr6fgd6hj8xx8kiwa5ajkq2cxk0ldv5fmgg85n3aisfjn3zia18";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250123.81919.tar";
+        sha256 = "1vg5q7d6icj5ayqahwm1dqd8f8fg13g4jchplyqavzqimzq462hd";
       };
       packageRequires = [ ];
       meta = {
