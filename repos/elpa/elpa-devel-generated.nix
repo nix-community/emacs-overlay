@@ -2257,10 +2257,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.3.0.0.20250121.154604";
+      version = "0.3.0.0.20250123.60306";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20250121.154604.tar";
-        sha256 = "0glw3l6rrr7qbll5qhhx6h62gkxaqmmnky02ak1ccyilyl8lc9z7";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20250123.60306.tar";
+        sha256 = "0nyawvv7mlhddiyjfb4ya2h9hj293b31a6bbx5v2xpnnv52dd5w7";
       };
       packageRequires = [ ];
       meta = {
@@ -2621,7 +2621,6 @@
   ) { };
   eglot = callPackage (
     {
-      compat,
       eldoc,
       elpaBuild,
       external-completion,
@@ -2631,26 +2630,23 @@
       lib,
       project,
       seq,
-      track-changes,
       xref,
     }:
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250120.214445";
+      version = "1.18.0.20250122.230728";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250120.214445.tar";
-        sha256 = "0k15crj5nhc2sfsjc4x7fmch0p0hca6acx3lsllpg23srjf4gjym";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250122.230728.tar";
+        sha256 = "04l0p2m0801153xw513d8sjn7nwqqlgd59g42bylw0s70p42xhs7";
       };
       packageRequires = [
-        compat
         eldoc
         external-completion
         flymake
         jsonrpc
         project
         seq
-        track-changes
         xref
       ];
       meta = {
@@ -3016,10 +3012,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1snapshot0.20250107.173118";
+      version = "5.6.1snapshot0.20250122.160755";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20250107.173118.tar";
-        sha256 = "0ljwd0pllz2pgnvaqg5xbnj26xjiyz22swd6siwzawh22v61ikrg";
+        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20250122.160755.tar";
+        sha256 = "03vg1nspy7j945l3vpk65li29jggnyrggkn0a0pgfmy2x2hj8ga2";
       };
       packageRequires = [ compat ];
       meta = {
