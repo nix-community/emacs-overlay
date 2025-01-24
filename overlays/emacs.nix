@@ -146,6 +146,38 @@ let
                               };
                             });
 
+  emacs-igc = let base = (mkGitEmacs "emacs-igc" ../repos/emacs/emacs-feature_igc.json) { };
+                  emacs = emacs-igc;
+              in
+                base.overrideAttrs (
+                  oa: {
+                    buildInputs = oa.buildInputs ++ [ super.mps ];
+                    configureFlags = oa.configureFlags ++ [ "--with-mps=yes" ];
+                    patches = oa.patches ++ [
+                      # XXX: #318
+                      ./bytecomp-revert.patch
+                    ];
+                    passthru = oa.passthru // {
+                      pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
+                    };
+                  });
+
+  emacs-igc-pgtk = let base = (mkGitEmacs "emacs-igc-pgtk" ../repos/emacs/emacs-feature_igc.json) { withPgtk = true; };
+                       emacs = emacs-igc-pgtk;
+                   in
+                     base.overrideAttrs (
+                       oa: {
+                         buildInputs = oa.buildInputs ++ [ super.mps ];
+                         configureFlags = oa.configureFlags ++ [ "--with-mps=yes" ];
+                         patches = oa.patches ++ [
+                           # XXX: #318
+                           ./bytecomp-revert.patch
+                         ];
+                         passthru = oa.passthru // {
+                           pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
+                         };
+                       });
+
   emacs-lsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { withTreeSitter = false; };
 
   commercial-emacs = (mkGitEmacs "commercial-emacs" ../repos/emacs/commercial-emacs-commercial-emacs.json) {
@@ -194,6 +226,8 @@ in
   inherit emacs-lsp;
 
   inherit commercial-emacs;
+
+  inherit emacs-igc emacs-igc-pgtk;
 
   emacsWithPackagesFromUsePackage = import ../elisp.nix { pkgs = self; };
 

@@ -10,4 +10,5 @@ in {
   emacsUnstable = mkTestBuild pkgs.emacsUnstable;
   emacsGit = mkTestBuild pkgs.emacsGit;
   emacsPgtk = mkTestBuild pkgs.emacsPgtk;
+  emacsIgc = mkTestBuild pkgs.emacs-igc;
 }
