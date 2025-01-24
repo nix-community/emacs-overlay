@@ -75,6 +75,7 @@
                 inherit (pkgs) emacs-unstable-pgtk;
                 inherit (pkgs) emacs-git emacs-git-nox;
                 inherit (pkgs) emacs-pgtk;
+                inherit (pkgs) emacs-igc emacs-igc-pgtk;
               };
 
               packages = mkEmacsSet pkgs.emacs;
