@@ -52,7 +52,7 @@ function update_release() {
 
 # https://github.com/nix-community/emacs-overlay/issues/460
 # update_savannah_branch master
-# update_release
+update_release
 update_github_repo emacs-lsp emacs json-rpc lsp
 update_github_repo commercial-emacs commercial-emacs master commercial-emacs
 
