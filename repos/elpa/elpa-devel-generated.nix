@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250122.55837";
+      version = "3.1.0.0.20250125.70626";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250122.55837.tar";
-        sha256 = "1hbam4k1rssqp8xx70gvbkp1lz9f971jxnsv5p0hc6a7yl50l8l0";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250125.70626.tar";
+        sha256 = "1p1l4kir2mp9avi00zkvcmylhx915vrwigi0g3b3jglirbws2dg4";
       };
       packageRequires = [ ];
       meta = {
@@ -7810,10 +7810,10 @@
     elpaBuild {
       pname = "show-font";
       ename = "show-font";
-      version = "0.1.1.0.20241025.81606";
+      version = "0.2.1.0.20250125.80419";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/show-font-0.1.1.0.20241025.81606.tar";
-        sha256 = "0ha8fnnjx3j57g0gjz4p65xyys47p0qsy0wr5k858zvw61ka2jdn";
+        url = "https://elpa.gnu.org/devel/show-font-0.2.1.0.20250125.80419.tar";
+        sha256 = "0h5bh6wqqx8v8bxjnilrcz7764di5cgycwrs5vm93zmhkkxdfx1p";
       };
       packageRequires = [ ];
       meta = {
