@@ -4007,10 +4007,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20241126.3245";
+      version = "4.6snapshot0.20250125.155626";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20241126.3245.tar";
-        sha256 = "12py1s85wrvxqiha2bfbdmszy4dl9wh8pbbhfx2q7qds2hd9c3wc";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250125.155626.tar";
+        sha256 = "0z57b7m78yh0dizixm3rqmya34wry8cb5529bj8ihqwv2sn1xcfs";
       };
       packageRequires = [ ];
       meta = {
