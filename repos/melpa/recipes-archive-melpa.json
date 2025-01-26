@@ -23237,15 +23237,15 @@
   "repo": "pprevos/denote-explore",
   "unstable": {
    "version": [
-    20250114,
-    937
+    20250126,
+    525
    ],
    "deps": [
     "dash",
     "denote"
    ],
-   "commit": "255ebe57f683c1c0318ae59def399ad328708ab6",
-   "sha256": "1fv0jyhcxl5f1sfgjykc3fqrgfv4xnm84ivrfsyjw80635x9j2iw"
+   "commit": "0fb807bd22a2cd031ef74c14904d760181749b96",
+   "sha256": "0ifpqwydjsb7cp1nmm6m73waamv407x02zbrg9ghk6g3gc70lasl"
   },
   "stable": {
    "version": [
@@ -55431,14 +55431,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20250120,
-    806
+    20250126,
+    757
    ],
    "deps": [
     "async"
    ],
-   "commit": "68e4d7c90242efbe15dab8df3c0a66b062f55f7c",
-   "sha256": "1psnfg71nb33lzszkdd5v7acg7f6r84cpr1i6gji9b11q23px3kq"
+   "commit": "b30d1f3e3bf2e5db6fbc48f5535c501504d8b735",
+   "sha256": "0jz7vfc7qgvdp2v320hxzlk7xz8palp3mw0dasfgixf4g8liics2"
   },
   "stable": {
    "version": [
@@ -60078,11 +60078,11 @@
   "repo": "bdsatish/hindu-calendar",
   "unstable": {
    "version": [
-    20241220,
-    1951
+    20250126,
+    743
    ],
-   "commit": "057fd579c5d3ca69a11d130bf7972efc9fe2e83a",
-   "sha256": "0v1srz1727bdxg3n96gvcz307majj2yb8hpp15wz53irgbpf9y82"
+   "commit": "83466761789adc230ec3b586cc08bb70eadf5616",
+   "sha256": "1pvrzzwhf265k8rmsk0xdx3dbhr8c11qw2xlipx4rzs9yh6i0hw6"
   }
  },
  {
@@ -74105,15 +74105,14 @@
   "repo": "emacs-lsp/lsp-haskell",
   "unstable": {
    "version": [
-    20241024,
-    1701
+    20250126,
+    1101
    ],
    "deps": [
-    "haskell-mode",
     "lsp-mode"
    ],
-   "commit": "6981f8d1225c038c1a130e8cf70530cfe15f976e",
-   "sha256": "1l51v2di8hgm2n8fb8kj5q6ns501vfkv5706v1q0fa8amvmralgb"
+   "commit": "1d618c62e87e0dd254cb267e7c41a24f2f054296",
+   "sha256": "1jb069k7n7w46wfl2wk158nih2km1z94c2ayqgnjdr8iyrk0fj9v"
   }
  },
  {
@@ -74300,28 +74299,28 @@
   "repo": "ROCKTAKEY/lsp-latex",
   "unstable": {
    "version": [
-    20250101,
-    655
+    20250126,
+    1416
    ],
    "deps": [
     "consult",
     "lsp-mode"
    ],
-   "commit": "ec9a8674781162c8878f6339087cae0679e3a6e3",
-   "sha256": "0iqy4xfgxfhc17kxrwf1lgz3v8sacazr5m5l0231lf2kbhjb2lnb"
+   "commit": "07741fe9a959bfd1f831eec15e1c5e1c6fe04794",
+   "sha256": "1772jjp4hfqan91ngx9dlgsah1z5bqqnwa52pgc82l1hv6izn82r"
   },
   "stable": {
    "version": [
     3,
-    9,
+    10,
     0
    ],
    "deps": [
     "consult",
     "lsp-mode"
    ],
-   "commit": "570e61629a3a2a895067f7a5766482717c820004",
-   "sha256": "0q08bazvkpmgbkq2bxw4kj32mljs2is14gyl27hh1v58x17616p0"
+   "commit": "07741fe9a959bfd1f831eec15e1c5e1c6fe04794",
+   "sha256": "1772jjp4hfqan91ngx9dlgsah1z5bqqnwa52pgc82l1hv6izn82r"
   }
  },
  {
@@ -74408,8 +74407,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20250123,
-    1111
+    20250126,
+    826
    ],
    "deps": [
     "dash",
@@ -74420,8 +74419,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "e6345d6aaad692b0019fc4806410179b4053f556",
-   "sha256": "1nadjr1pq83rbbgiqrfnchi6cxxrzh9psgx3lllwdk559nvwcyhs"
+   "commit": "521108a57da4a3e4443978b030335c036c1c8e4c",
+   "sha256": "0payq36a8safc30fnyyq8mw15m1c8yypjzpg3sp52n4qxnxw4bq0"
   },
   "stable": {
    "version": [
@@ -106251,20 +106250,20 @@
   "repo": "xenodium/ready-player",
   "unstable": {
    "version": [
-    20250124,
-    1235
+    20250126,
+    1157
    ],
-   "commit": "ecf895458ead0b006c329145bba8b3226fbc65b2",
-   "sha256": "0vh8vdf32z89ircjgm0ix7rc561knd8ynb2fzybbi4g8102xlbc4"
+   "commit": "b343eaad59b144c48ad35287be4d97cef4c2e57f",
+   "sha256": "1ppcz2n6fj5iv97hgi8w6xh8mr7gx7abxajnjk4qmnnx80vr143y"
   },
   "stable": {
    "version": [
     0,
-    25,
-    1
+    26,
+    4
    ],
-   "commit": "ecd1a42fa02bac4080a7605f4d2243603a2c30fa",
-   "sha256": "19v9a4x18ayqa1m81zcc23bywz74pd2qsqhvcvwrgrpil1mrrp91"
+   "commit": "b343eaad59b144c48ad35287be4d97cef4c2e57f",
+   "sha256": "1ppcz2n6fj5iv97hgi8w6xh8mr7gx7abxajnjk4qmnnx80vr143y"
   }
  },
  {
