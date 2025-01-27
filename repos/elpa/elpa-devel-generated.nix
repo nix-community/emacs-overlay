@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.21.0.0.20250126.5922";
+      version = "0.21.0.0.20250126.114449";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.21.0.0.20250126.5922.tar";
-        sha256 = "0mrqvm8hjl59ics8jch71lzczk5s0k8y9izca3pwryxvbj1sqqhc";
+        url = "https://elpa.gnu.org/devel/dape-0.21.0.0.20250126.114449.tar";
+        sha256 = "10v8pl246ly350ylp1s4v8gxsm0r9bn6b1p3pnslnyz67zh0c60q";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2607,10 +2607,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.9.0.0.20250122.71800";
+      version = "1.9.0.0.20250126.150552";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.9.0.0.20250122.71800.tar";
-        sha256 = "1aqbm7mh93j8jq9p8011069k3p8i4r2fgk6rgy7q7msjzmj2pcac";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.9.0.0.20250126.150552.tar";
+        sha256 = "1w04wfv6jrgbp79pk64gc9v73pf2c697apga11y39lvqbzx2wk5r";
       };
       packageRequires = [ ];
       meta = {
@@ -2787,10 +2787,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.13.2.0.20250114.214218";
+      version = "0.13.4.0.20250126.204518";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-0.13.2.0.20250114.214218.tar";
-        sha256 = "0sgd752hjakc6rgyppcr5jjhb65iw78xqya438k225y0h6maf8v1";
+        url = "https://elpa.gnu.org/devel/ellama-0.13.4.0.20250126.204518.tar";
+        sha256 = "05pcyswrnv138wpqigaiif3x95gwcb16kvl3s84czyz5ypgidl7w";
       };
       packageRequires = [
         compat
@@ -6196,10 +6196,10 @@
     elpaBuild {
       pname = "org-remark";
       ename = "org-remark";
-      version = "1.2.2.0.20250123.194710";
+      version = "1.2.2.0.20250126.193848";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-remark-1.2.2.0.20250123.194710.tar";
-        sha256 = "1xg6yq24yg0y80dnkhf2i4f8z5zrjjv1p2k4bjx77950wj798qs7";
+        url = "https://elpa.gnu.org/devel/org-remark-1.2.2.0.20250126.193848.tar";
+        sha256 = "0axraha5d88gwsdl45xcy0qmigh10ib18nb86c257afkay08s13g";
       };
       packageRequires = [ org ];
       meta = {
@@ -8980,10 +8980,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.3.0.20250103.173148";
+      version = "0.8.3.0.20250122.121927";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.8.3.0.20250103.173148.tar";
-        sha256 = "1fd867jcq8jh60p9y5bk06visx5hpjik78d31ayipvf1y2ijmjq2";
+        url = "https://elpa.gnu.org/devel/transient-0.8.3.0.20250122.121927.tar";
+        sha256 = "1cf0dmgw1ghi2z0k6a2a1hbpdfm29ddg5np7492dn55xlggmjlny";
       };
       packageRequires = [
         compat
