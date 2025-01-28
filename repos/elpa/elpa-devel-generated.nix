@@ -312,10 +312,10 @@
     elpaBuild {
       pname = "altcaps";
       ename = "altcaps";
-      version = "1.2.0.0.20250127.91114";
+      version = "1.3.0.0.20250128.71323";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/altcaps-1.2.0.0.20250127.91114.tar";
-        sha256 = "16djpjk9h54v2bigfkgbkfwfhjn20w18wg2wabfiilbb5dip38q2";
+        url = "https://elpa.gnu.org/devel/altcaps-1.3.0.0.20250128.71323.tar";
+        sha256 = "0ilfba0cz5rh1dwgbj9cvbj46kc98ipa2yw8cjcvr7267y30d2a3";
       };
       packageRequires = [ ];
       meta = {
@@ -1041,10 +1041,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.8.0.20250116.123043";
+      version = "1.9.0.20250128.81944";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-1.8.0.20250116.123043.tar";
-        sha256 = "1iqf0j18l6lr6052gs3wa6bjfcn2pd335w64xk3rz8kix4wsa09n";
+        url = "https://elpa.gnu.org/devel/cape-1.9.0.20250128.81944.tar";
+        sha256 = "1yccij3mv2lvf047d8qayafczfpvjj1pxg3b7hqbfmhlmk35jkj5";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1461,10 +1461,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.9.0.20250121.142346";
+      version = "2.0.0.20250128.83544";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-1.9.0.20250121.142346.tar";
-        sha256 = "08vag3gw2pvcnhdsdk31b6av26vxfjhlc93hnfwmh11naihbsqbq";
+        url = "https://elpa.gnu.org/devel/consult-2.0.0.20250128.83544.tar";
+        sha256 = "1z170yk9ylbzvgdsk1yzzm18yhcqqwq3xpqkh3zaq29knyknzhqf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1574,10 +1574,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.6.0.20250120.185556";
+      version = "1.7.0.20250128.82142";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.6.0.20250120.185556.tar";
-        sha256 = "09nv0zdx6d5ldryl9njxg9j0a95799aqk1wvxzdsyb08pf6w3z37";
+        url = "https://elpa.gnu.org/devel/corfu-1.7.0.20250128.82142.tar";
+        sha256 = "17wih4xrba4ilx8jkdm5f1l47ihmvg30wzycfzb67h60hqb6gb97";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.21.0.0.20250126.114449";
+      version = "0.21.0.0.20250127.222946";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.21.0.0.20250126.114449.tar";
-        sha256 = "10v8pl246ly350ylp1s4v8gxsm0r9bn6b1p3pnslnyz67zh0c60q";
+        url = "https://elpa.gnu.org/devel/dape-0.21.0.0.20250127.222946.tar";
+        sha256 = "1i4cvbi1ax2686j8xk8p2gdmv4a4lnvnqnmfgdw26im5dmdp9xqh";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -1921,10 +1921,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.43.0.20250127.155729";
+      version = "0.43.0.20250128.92424";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.43.0.20250127.155729.tar";
-        sha256 = "0q7xdizp6w9qhi6sdfv7ixz5m2r08wdmdbmq8xc93ga7r6qdgwyi";
+        url = "https://elpa.gnu.org/devel/debbugs-0.43.0.20250128.92424.tar";
+        sha256 = "1nabm7k6r1qj1x48api5dpcaxm557xdmywbb5g851kyzvrbp8k1w";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -2736,10 +2736,10 @@
     elpaBuild {
       pname = "elisa";
       ename = "elisa";
-      version = "1.1.4.0.20250127.174605";
+      version = "1.1.5.0.20250128.73617";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/elisa-1.1.4.0.20250127.174605.tar";
-        sha256 = "181v7g7nnggm8h2m9hn1wscd6lhg96qv5yd5hxzpa26d8fd714hm";
+        url = "https://elpa.gnu.org/devel/elisa-1.1.5.0.20250128.73617.tar";
+        sha256 = "1cyh4d3v16lspjldzsni282smjx9icvdkly0qcwkhxn90mgfzxqm";
       };
       packageRequires = [
         async
@@ -4090,10 +4090,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250126.183751";
+      version = "9.0.2pre0.20250128.84122";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250126.183751.tar";
-        sha256 = "1cannxqjpz6rs0ccjv8iii5ig1l3jxlvr7casfsd8b7shjb02ycl";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250128.84122.tar";
+        sha256 = "0jdd90ybwjzn1fr0bgwn0zphjjcy345iy1ghd0107hc9lismdr59";
       };
       packageRequires = [ ];
       meta = {
@@ -4467,10 +4467,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "1.11.0.20250125.194747";
+      version = "1.12.0.20250128.70732";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-1.11.0.20250125.194747.tar";
-        sha256 = "1xvczmpshlk3ga07g15185as794fqfk2vg3wfjn98a54rlzg906w";
+        url = "https://elpa.gnu.org/devel/jinx-1.12.0.20250128.70732.tar";
+        sha256 = "05ys8v3pdkg9058lx5rga6qrzp3d2vhzxwrmd1faazpc3j4h5bhm";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6304,10 +6304,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.5.0.20250111.213555";
+      version = "1.6.0.20250128.82432";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.5.0.20250111.213555.tar";
-        sha256 = "1cvqrhsb8r4gq86v4rq1hkpxgzf3hfbdw8wa6ylycd6rncsdwglx";
+        url = "https://elpa.gnu.org/devel/osm-1.6.0.20250128.82432.tar";
+        sha256 = "1gci9ig7f5vdznf0syj6s08ifz1m8m9a60r777pb94z8y7h9zn7f";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9516,10 +9516,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.10.0.20250117.181439";
+      version = "1.11.0.20250128.82914";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.10.0.20250117.181439.tar";
-        sha256 = "1hdx42d8rggywkyr6m13hsfxc4j1m98ghbvl3n3ylxmj5p12hxj2";
+        url = "https://elpa.gnu.org/devel/vertico-1.11.0.20250128.82914.tar";
+        sha256 = "0nsqlrjfsclkp9rlj5bzin197x15pkbngj8pbi0x88v0967wnp4j";
       };
       packageRequires = [ compat ];
       meta = {

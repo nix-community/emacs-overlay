@@ -291,10 +291,10 @@
     elpaBuild {
       pname = "altcaps";
       ename = "altcaps";
-      version = "1.2.0";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/altcaps-1.2.0.tar";
-        sha256 = "1smqvq21jparnph03kyyzm47rv5kia6bna1m1pf8ibpkph64rykw";
+        url = "https://elpa.gnu.org/packages/altcaps-1.3.0.tar";
+        sha256 = "1q75hnx9pc65r069dg1m0r88b40q58p509m13v0mykbpfsinncag";
       };
       packageRequires = [ ];
       meta = {
@@ -1020,10 +1020,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.8";
+      version = "1.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cape-1.8.tar";
-        sha256 = "18z3c3d1wbf2j40rym74918hxccmi84rbqkzc2g73jbigp78kyq4";
+        url = "https://elpa.gnu.org/packages/cape-1.9.tar";
+        sha256 = "0g9zv5fi86ky6jjqzqxn8hd4xkfdl6fp4cqpn91zn5sp35dbvrvv";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1441,10 +1441,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "1.9";
+      version = "2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-1.9.tar";
-        sha256 = "0qz8l962995znf9lhgy8hdd9z78bdhb8m95dxj1g3266jsgjf8sv";
+        url = "https://elpa.gnu.org/packages/consult-2.0.tar";
+        sha256 = "14xwd5i27km3kqv8xny1mjb9h1y5m55d51hh7l9zyc603080fry0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1554,10 +1554,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.6";
+      version = "1.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/corfu-1.6.tar";
-        sha256 = "1wx7hjvccb2jss4k0vcmmdxkyivs2qnzai6xw2l1fgdan9ngg89n";
+        url = "https://elpa.gnu.org/packages/corfu-1.7.tar";
+        sha256 = "1jd6vrbsr5h1j8lsvdkhb1z3nrh1m11fi1hcvhh6nbhqnidwsrii";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2715,10 +2715,10 @@
     elpaBuild {
       pname = "elisa";
       ename = "elisa";
-      version = "1.1.4";
+      version = "1.1.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/elisa-1.1.4.tar";
-        sha256 = "1v5y0piqz31dx38mv217l5z4xn6hnggznmrcxd2ffs0xdvr9iv3s";
+        url = "https://elpa.gnu.org/packages/elisa-1.1.5.tar";
+        sha256 = "1ab8mvnsvip6ws4wflwkdpn8bilcqfryrcr0ps66v8dh80ws4iyh";
       };
       packageRequires = [
         async
@@ -4448,10 +4448,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "1.11";
+      version = "1.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jinx-1.11.tar";
-        sha256 = "0g0iys02k488lbkd7a8qn3hwcmfhmyfp8v3mm07z3zsjhlqw0m57";
+        url = "https://elpa.gnu.org/packages/jinx-1.12.tar";
+        sha256 = "0hy79bdzzbn45yqyfx4ybg742n5ci1ivazm67g4jhyd43vdfd8gf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6280,10 +6280,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.5";
+      version = "1.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/osm-1.5.tar";
-        sha256 = "1hgr1gfkii75nmfsz3nvn5hv9x9jg09as7k12rr7vr9k0fs0j4hk";
+        url = "https://elpa.gnu.org/packages/osm-1.6.tar";
+        sha256 = "09fybkkcjn0c55w0accxgv2581kf3s2nhcn3wvny2zfpysijpw13";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9378,10 +9378,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.10";
+      version = "1.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-1.10.tar";
-        sha256 = "1mka141i5dmdw8c8dsxgxwqfr78s3gjy4rrra8qd5b8qrhv797dx";
+        url = "https://elpa.gnu.org/packages/vertico-1.11.tar";
+        sha256 = "0wfx0hrjkdhqqgi954npam6nv505bnq76jc18sxcca6dilzjzwnf";
       };
       packageRequires = [ compat ];
       meta = {
