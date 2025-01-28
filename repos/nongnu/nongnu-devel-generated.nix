@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250126.160907";
+      version = "0.9.7.0.20250127.232020";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250126.160907.tar";
-        sha256 = "0lf5sfr0f82lnh8vbr995i6qvv8gd6m9frb3xxbjf4iki4dwb9kf";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250127.232020.tar";
+        sha256 = "00hln2j2q3611m41swfw3qqx2s8pn11s8j8b5fghwlmarf2id7wv";
       };
       packageRequires = [
         compat
@@ -2503,10 +2503,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20250127.202333";
+      version = "4.0.0.20250128.63027";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20250127.202333.tar";
-        sha256 = "1dyg79z9d85kmv96da1lnsxplxi0ss3m4l57jqizcip3nf2mx3zf";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20250128.63027.tar";
+        sha256 = "17f47c136crgj2yb7vwckiwbazmm39x3y9kdmyl7w13ah0d7fml2";
       };
       packageRequires = [
         helm-core
@@ -2528,10 +2528,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20250127.202333";
+      version = "4.0.0.20250128.63027";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20250127.202333.tar";
-        sha256 = "00pmyrlbbx141grsldy89wcqdzykfa3a8vfs6f50hlwng7li9spq";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20250128.63027.tar";
+        sha256 = "1q209qfwxfr57m34gm50nz6a2rmfcnz6w8bc4nhkqmv0y96sbxhf";
       };
       packageRequires = [ async ];
       meta = {
@@ -4266,10 +4266,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "95.0.0.20250112.185745";
+      version = "96.0.0.20250128.82539";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-95.0.0.20250112.185745.tar";
-        sha256 = "1rqlckjwwvgbxkznd682snh4nb0w59z8d9lz0ghlpp7jb1qy7qs2";
+        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-96.0.0.20250128.82539.tar";
+        sha256 = "1h4xwy2spbbrp1lxwvg3cldf28wlb4yy7dwx3ry3d1ng5dsrx55w";
       };
       packageRequires = [ compat ];
       meta = {

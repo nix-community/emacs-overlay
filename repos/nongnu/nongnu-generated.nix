@@ -4285,10 +4285,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "95.0";
+      version = "96.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/scad-mode-95.0.tar";
-        sha256 = "1wkpgrkx3cjmh72qg9yiq2x9sqswx6x6pbr8zzhldyjs6kmjl7km";
+        url = "https://elpa.nongnu.org/nongnu/scad-mode-96.0.tar";
+        sha256 = "0l5r88srzzxy143kjghyfcm0n7vbm79qxy0mgxfd66i8gmvw85m4";
       };
       packageRequires = [ compat ];
       meta = {
