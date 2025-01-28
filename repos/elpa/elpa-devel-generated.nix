@@ -312,10 +312,10 @@
     elpaBuild {
       pname = "altcaps";
       ename = "altcaps";
-      version = "1.2.0.0.20241025.80421";
+      version = "1.2.0.0.20250127.91114";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/altcaps-1.2.0.0.20241025.80421.tar";
-        sha256 = "1qnrahxi23xyzqlp3hqmhhqj87w1yfsw4cbh3hd36h44f344nxp0";
+        url = "https://elpa.gnu.org/devel/altcaps-1.2.0.0.20250127.91114.tar";
+        sha256 = "16djpjk9h54v2bigfkgbkfwfhjn20w18wg2wabfiilbb5dip38q2";
       };
       packageRequires = [ ];
       meta = {
@@ -1921,10 +1921,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.43.0.20250102.111202";
+      version = "0.43.0.20250127.155729";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.43.0.20250102.111202.tar";
-        sha256 = "1jy1k6sggsg84zypvy7smz1jzixz5bq08zqxs626amg29lhg3j4l";
+        url = "https://elpa.gnu.org/devel/debbugs-0.43.0.20250127.155729.tar";
+        sha256 = "0q7xdizp6w9qhi6sdfv7ixz5m2r08wdmdbmq8xc93ga7r6qdgwyi";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -2736,10 +2736,10 @@
     elpaBuild {
       pname = "elisa";
       ename = "elisa";
-      version = "1.1.4.0.20250102.163931";
+      version = "1.1.4.0.20250127.174605";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/elisa-1.1.4.0.20250102.163931.tar";
-        sha256 = "0cfxg4ipz6k3dkap1d2clsr18nl5fi26ybkaw8fipb9z3k6hkj0h";
+        url = "https://elpa.gnu.org/devel/elisa-1.1.4.0.20250127.174605.tar";
+        sha256 = "181v7g7nnggm8h2m9hn1wscd6lhg96qv5yd5hxzpa26d8fd714hm";
       };
       packageRequires = [
         async
@@ -2835,10 +2835,10 @@
     elpaBuild {
       pname = "embark";
       ename = "embark";
-      version = "1.1.0.20241003.135329";
+      version = "1.1.0.20250127.71505";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-1.1.0.20241003.135329.tar";
-        sha256 = "0m1ljw87b95gpjs7m3by3vvb9mp05kyk4wqph9cn55w8xxv8piv2";
+        url = "https://elpa.gnu.org/devel/embark-1.1.0.20250127.71505.tar";
+        sha256 = "1drhc5sjvg5l17xqws889aggp1zw80zvj9vlh5j2m5m56szqnzgz";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2859,10 +2859,10 @@
     elpaBuild {
       pname = "embark-consult";
       ename = "embark-consult";
-      version = "1.1.0.20241003.135329";
+      version = "1.1.0.20250127.71505";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20241003.135329.tar";
-        sha256 = "0xm33iv8z0hq62wgck4a3ygnvgigsfjn4i8y36iq7pfgzwic7500";
+        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20250127.71505.tar";
+        sha256 = "0kprj6wkd8qyg2fcb0an0sp8gxg38zb7aps8a97lmls50klk1v4m";
       };
       packageRequires = [
         compat
@@ -4090,10 +4090,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250126.112759";
+      version = "9.0.2pre0.20250126.183751";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250126.112759.tar";
-        sha256 = "19nz3mh6bf49w9c7lk4cvhmnqs0m1jk6gi6gwyplhbl4apfwyk87";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250126.183751.tar";
+        sha256 = "1cannxqjpz6rs0ccjv8iii5ig1l3jxlvr7casfsd8b7shjb02ycl";
       };
       packageRequires = [ ];
       meta = {
