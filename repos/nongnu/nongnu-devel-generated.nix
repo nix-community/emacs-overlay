@@ -2503,10 +2503,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20250128.63027";
+      version = "4.0.0.20250128.193019";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20250128.63027.tar";
-        sha256 = "17f47c136crgj2yb7vwckiwbazmm39x3y9kdmyl7w13ah0d7fml2";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20250128.193019.tar";
+        sha256 = "14071dh7ma2j8rm60pzk6z2nwbqkkva08canjn0slkmfs5hy7dyr";
       };
       packageRequires = [
         helm-core
@@ -2528,10 +2528,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20250128.63027";
+      version = "4.0.0.20250128.193019";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20250128.63027.tar";
-        sha256 = "1q209qfwxfr57m34gm50nz6a2rmfcnz6w8bc4nhkqmv0y96sbxhf";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20250128.193019.tar";
+        sha256 = "1gk2xsm6rpq6hr14mvy34n0j7wihfqk5rxfdqvs2wa4brrxkpfni";
       };
       packageRequires = [ async ];
       meta = {
@@ -3986,10 +3986,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20250124.115515";
+      version = "2.9.0snapshot0.20250128.132146";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250124.115515.tar";
-        sha256 = "02a8ahxr30f3wh4q9w8zvnq1fplkjn1xlxw1qwfvifk1y3s1h2n2";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250128.132146.tar";
+        sha256 = "0j3pmb5rlifpb68czza017fmvmhwafbahpmbxgx3f24pbc5fnjkl";
       };
       packageRequires = [ ];
       meta = {
@@ -4583,10 +4583,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.23.0.20250110.185347";
+      version = "1.2.25.0.20250128.122549";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.23.0.20250110.185347.tar";
-        sha256 = "02wcjp94sbzbqm2a6gb12jkv7fv8qjvd74nys1kgmsc3kqjz5dff";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.25.0.20250128.122549.tar";
+        sha256 = "0h53z43vxyn03sa621ajig637akyjijbby3nrkjibhz47gc2nyyn";
       };
       packageRequires = [ ];
       meta = {
