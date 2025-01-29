@@ -813,10 +813,10 @@
     elpaBuild {
       pname = "boxy-headings";
       ename = "boxy-headings";
-      version = "2.1.9";
+      version = "2.1.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/boxy-headings-2.1.9.tar";
-        sha256 = "0i8qq6w7m0p7wby7cnyb3wlnp1bb1yjw44msx5r0l4lk4255vynf";
+        url = "https://elpa.gnu.org/packages/boxy-headings-2.1.10.tar";
+        sha256 = "0a3933yckjw7b8jk5nnlb6hwjf1vzi1ydwk70csmz73402k0jxk1";
       };
       packageRequires = [
         boxy
