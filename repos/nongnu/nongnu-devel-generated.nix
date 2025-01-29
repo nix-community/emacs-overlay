@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250127.232020";
+      version = "0.9.7.0.20250128.193130";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250127.232020.tar";
-        sha256 = "00hln2j2q3611m41swfw3qqx2s8pn11s8j8b5fghwlmarf2id7wv";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250128.193130.tar";
+        sha256 = "10pz3vaxqyvka3hygpcbd7m35rnlxp82gs1zj1jc2dls48sfpqyd";
       };
       packageRequires = [
         compat
@@ -4266,10 +4266,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "96.0.0.20250128.82539";
+      version = "96.0.0.20250128.214002";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-96.0.0.20250128.82539.tar";
-        sha256 = "1h4xwy2spbbrp1lxwvg3cldf28wlb4yy7dwx3ry3d1ng5dsrx55w";
+        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-96.0.0.20250128.214002.tar";
+        sha256 = "1ivx4yaz13505w4k6p3q25pg5xwgrbyygfgwzc22vqdv498rg102";
       };
       packageRequires = [ compat ];
       meta = {
