@@ -1814,10 +1814,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.21.0";
+      version = "0.22.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dape-0.21.0.tar";
-        sha256 = "0n4bcpjzrzamb0s75hmz8wva39vk603yy45di3iqb8zszd9b3wxj";
+        url = "https://elpa.gnu.org/packages/dape-0.22.0.tar";
+        sha256 = "06sfhh4sn9ddmf83h3a7hcx6ghinrigl5s7a2pa3c0abfg3jjbsb";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -6172,10 +6172,10 @@
     elpaBuild {
       pname = "org-remark";
       ename = "org-remark";
-      version = "1.2.2";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-remark-1.2.2.tar";
-        sha256 = "01iprzgbyvbfpxp6fls4lfx2lxx7xkff80m35s9kc0ih5jlxc5qs";
+        url = "https://elpa.gnu.org/packages/org-remark-1.3.0.tar";
+        sha256 = "0i4srqhxl2rslzf3fy3rk231hsvwkn46yghy7x40kmc2jgnvs1gf";
       };
       packageRequires = [ org ];
       meta = {

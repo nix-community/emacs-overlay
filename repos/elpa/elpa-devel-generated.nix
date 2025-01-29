@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.21.0.0.20250128.205334";
+      version = "0.22.0.0.20250128.210025";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.21.0.0.20250128.205334.tar";
-        sha256 = "0szm2zc24lx7vlrawafnxnmhl1j9j3f1abdhfk23ng0ia97arpry";
+        url = "https://elpa.gnu.org/devel/dape-0.22.0.0.20250128.210025.tar";
+        sha256 = "00can9w71pdx09d0spaaiav9lhlg4b0wln03v066zwq2qak0ryf7";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2635,10 +2635,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250128.110421";
+      version = "1.18.0.20250129.85907";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250128.110421.tar";
-        sha256 = "11yc9dwjb5m7pkynlgmnymndhmcxdd46gkk30r632y5shr80ib9r";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250129.85907.tar";
+        sha256 = "0456xa4ms9qjd5z90l61zd9jg68z26kf1y59gkaz153a63pary47";
       };
       packageRequires = [
         eldoc
@@ -6196,10 +6196,10 @@
     elpaBuild {
       pname = "org-remark";
       ename = "org-remark";
-      version = "1.2.2.0.20250128.201413";
+      version = "1.3.0.0.20250128.210354";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-remark-1.2.2.0.20250128.201413.tar";
-        sha256 = "1xi4a0hbk988wigkprja636j1fa88bkcfmjanbbpqzpg1imm45ls";
+        url = "https://elpa.gnu.org/devel/org-remark-1.3.0.0.20250128.210354.tar";
+        sha256 = "194xnyzh0s0510igd4m34via2mvgkm55x4cfsa9y0vyr0rn2g05z";
       };
       packageRequires = [ org ];
       meta = {
