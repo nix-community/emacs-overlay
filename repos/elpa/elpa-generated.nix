@@ -1489,10 +1489,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.3.0";
+      version = "0.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-hoogle-0.3.0.tar";
-        sha256 = "0jpyncx1zc8kzmnr0wlq81qz0y3jgk421yw0picjj8yflj6905ix";
+        url = "https://elpa.gnu.org/packages/consult-hoogle-0.4.0.tar";
+        sha256 = "0x5bnf5fk15w9j7jrqg26k1fb79iabc8yl3ix4jlkb4cjgv35dfj";
       };
       packageRequires = [ consult ];
       meta = {
@@ -8757,10 +8757,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.2";
+      version = "2.7.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.7.2.tar";
-        sha256 = "1m1ar9k5f4yx98m8v0y8rm7hq5dwjafb096gmdg6mz57k1k3y6vl";
+        url = "https://elpa.gnu.org/packages/tramp-2.7.2.1.tar";
+        sha256 = "17178jpn05bpy1cmxf27kdmrabcgcghslr7ri49dqm3sqydk4fmm";
       };
       packageRequires = [ ];
       meta = {
