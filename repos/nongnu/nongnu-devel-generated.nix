@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.17.0snapshot0.20250123.112306";
+      version = "1.17.0snapshot0.20250130.80122";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250123.112306.tar";
-        sha256 = "1sqxlqh4zm7xn5mg9whzc5zx2safggp9k6ri483yfc16zk0k14dw";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250130.80122.tar";
+        sha256 = "1k3vrnml83vlfjq3qindaii2laj8m0zcifvp97hm8ibfsdz2qmbg";
       };
       packageRequires = [
         clojure-mode
@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250129.124929";
+      version = "0.9.7.0.20250129.235140";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250129.124929.tar";
-        sha256 = "1q90v8llai8xbbr18lvbb63jbzjilf6smnzfbv2h1k5dmagc86n7";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250129.235140.tar";
+        sha256 = "02s5vdh60kiywm83m53v7p88fs4h417b8qqcixiyf0s70xsrgaq9";
       };
       packageRequires = [
         compat
@@ -3986,10 +3986,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20250128.132146";
+      version = "2.9.0snapshot0.20250130.82822";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250128.132146.tar";
-        sha256 = "0j3pmb5rlifpb68czza017fmvmhwafbahpmbxgx3f24pbc5fnjkl";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250130.82822.tar";
+        sha256 = "1gm011v0zchirmxhvgr26y07njg11nvis31s2yy34jk8hwfw02cd";
       };
       packageRequires = [ ];
       meta = {
@@ -5081,10 +5081,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.0snapshot0.20250116.23542";
+      version = "8.3.0snapshot0.20250130.63839";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250116.23542.tar";
-        sha256 = "0hbymb8ky1j1qdwnm5faada7sj144grhr32jfh5mjy3gz21ka1ps";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250130.63839.tar";
+        sha256 = "1irvc02mr9ik4ib565sn3dwhxmihrlj3dz7bhgi16126gaai19j7";
       };
       packageRequires = [
         cl-lib
