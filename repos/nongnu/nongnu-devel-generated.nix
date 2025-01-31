@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250130.83523";
+      version = "0.9.7.0.20250131.323";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250130.83523.tar";
-        sha256 = "0g6nyc6w78ddfs67p9y1k2b0plml0qrpbly9fhnjvawgi1i11hpr";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250131.323.tar";
+        sha256 = "0s9k7p40dbmfirvhv1bzf0pd08f3j507gszrs99wdpx4ihikayfj";
       };
       packageRequires = [
         compat
@@ -3075,10 +3075,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.2.0.0.20250127.101759";
+      version = "4.2.0.0.20250130.203401";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.2.0.0.20250127.101759.tar";
-        sha256 = "05mzricqm66zc6zmh073wnw58dlrg9sd46dqa97vb58xah9mb8sf";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.2.0.0.20250130.203401.tar";
+        sha256 = "08lmpmnm6fxlfyildvc5i7ds2y917k104hplxxygj9k36h3nsxpx";
       };
       packageRequires = [
         compat
@@ -3106,10 +3106,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.2.0.0.20250127.101759";
+      version = "4.2.0.0.20250130.203401";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.2.0.0.20250127.101759.tar";
-        sha256 = "0an42y1wir5166iv5g6b0f3ghjdzqgicli3r3srl1xfs2srs8dd5";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.2.0.0.20250130.203401.tar";
+        sha256 = "0d6mj4is9gq1acr62kcxn48i4qxrr1fxaihl2k4lvn400i3n7n1n";
       };
       packageRequires = [
         compat
@@ -3986,10 +3986,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20250130.203230";
+      version = "2.9.0snapshot0.20250131.82243";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250130.203230.tar";
-        sha256 = "1f80h2vp9dr3nyfcipn73xw18472z5xg528chj1h280za28j3p3f";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250131.82243.tar";
+        sha256 = "08wqqxacsaclqlprvb0y67qivrx3zlhkhp033rc1845xc25cca7j";
       };
       packageRequires = [ ];
       meta = {
