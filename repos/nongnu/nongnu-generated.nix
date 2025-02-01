@@ -1613,6 +1613,27 @@
       };
     }
   ) { };
+  extmap = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "extmap";
+      ename = "extmap";
+      version = "1.3";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/extmap-1.3.tar";
+        sha256 = "0k4xh101wi3jby74a44mlqsqinsfsjdrv2k19aanp6xvl60smb04";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/extmap.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   flx = callPackage (
     {
       cl-lib ? null,

@@ -1595,6 +1595,27 @@
       };
     }
   ) { };
+  extmap = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "extmap";
+      ename = "extmap";
+      version = "1.3.1snapshot0.20230907.195908";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/extmap-1.3.1snapshot0.20230907.195908.tar";
+        sha256 = "023dzbqdsw67pvm6k3jlp5my5bhzgv6j672pnlnrhcq1cvavax1p";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/extmap.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   flx = callPackage (
     {
       cl-lib ? null,
@@ -2480,10 +2501,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20250126.114656";
+      version = "1.0.20250131.124137";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20250126.114656.tar";
-        sha256 = "07jscrfjw3wm6ra9pikr3n6md7j4qsgfnzi3lflja196pxg93z7j";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20250131.124137.tar";
+        sha256 = "0fk3zpwhbh06gfh81qa883lj69a747gfvll99mkfhaq6jship0kl";
       };
       packageRequires = [ ];
       meta = {
@@ -3273,10 +3294,10 @@
     elpaBuild {
       pname = "moe-theme";
       ename = "moe-theme";
-      version = "1.0.2.0.20240716.85432";
+      version = "1.0.2.0.20250131.152504";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/moe-theme-1.0.2.0.20240716.85432.tar";
-        sha256 = "0xcqpdw7p6mphgrjl93cv25zj63r8bi1zi8jzd65k5s6sxlvz7bs";
+        url = "https://elpa.nongnu.org/nongnu-devel/moe-theme-1.0.2.0.20250131.152504.tar";
+        sha256 = "19y25cp6rqq9djagjs2948ypcy18q2iai3dyq3s4hvx71xwfnbx2";
       };
       packageRequires = [ ];
       meta = {
@@ -3986,10 +4007,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20250131.82243";
+      version = "2.9.0snapshot0.20250131.200909";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250131.82243.tar";
-        sha256 = "08wqqxacsaclqlprvb0y67qivrx3zlhkhp033rc1845xc25cca7j";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250131.200909.tar";
+        sha256 = "07p1knasa62vqkd3qg64f18hh2vqfkxzgmg2nk80nyvknks6bqq5";
       };
       packageRequires = [ ];
       meta = {
