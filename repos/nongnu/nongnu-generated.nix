@@ -830,6 +830,28 @@
       };
     }
   ) { };
+  datetime = callPackage (
+    {
+      elpaBuild,
+      extmap,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "datetime";
+      ename = "datetime";
+      version = "0.10.1";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/datetime-0.10.1.tar";
+        sha256 = "126zfpvy8xxdhzfwx2ax6b1i42q1yv0k7k89vsgc7qaf20qrc318";
+      };
+      packageRequires = [ extmap ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/datetime.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   denote-refs = callPackage (
     {
       denote,
@@ -3025,6 +3047,34 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/kotlin-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  logview = callPackage (
+    {
+      compat,
+      datetime,
+      elpaBuild,
+      extmap,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "logview";
+      ename = "logview";
+      version = "0.19.1";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/logview-0.19.1.tar";
+        sha256 = "0gg393ygrqyghmaa0ykml9dfkxj13bh5pw82hiahmngy5lrygb26";
+      };
+      packageRequires = [
+        compat
+        datetime
+        extmap
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/logview.html";
         license = lib.licenses.free;
       };
     }
