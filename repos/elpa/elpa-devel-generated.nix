@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.22.0.0.20250129.191028";
+      version = "0.22.0.0.20250131.170613";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.22.0.0.20250129.191028.tar";
-        sha256 = "0xbcwfzscl1fnns8j4sg4xv6ynssxjz3bh6wr7d841wd9294ayim";
+        url = "https://elpa.gnu.org/devel/dape-0.22.0.0.20250131.170613.tar";
+        sha256 = "1zkx94csbr13hh4i6109w2as4ppcgxij68dlaz5ip95739jqgrdb";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2342,10 +2342,10 @@
     elpaBuild {
       pname = "do-at-point";
       ename = "do-at-point";
-      version = "0.1.2.0.20241220.111054";
+      version = "0.1.2.0.20250131.91127";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/do-at-point-0.1.2.0.20241220.111054.tar";
-        sha256 = "0y9rgxnrar6gwqj3w622xdavi5gnb748kbym25q19a4vsjdazvi1";
+        url = "https://elpa.gnu.org/devel/do-at-point-0.1.2.0.20250131.91127.tar";
+        sha256 = "0bjw91hrv4d5vqrgkx9bas3nwgqyfpbar7b5d07m3agw436yafqf";
       };
       packageRequires = [ ];
       meta = {
@@ -2635,10 +2635,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250129.85907";
+      version = "1.18.0.20250131.103144";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250129.85907.tar";
-        sha256 = "0456xa4ms9qjd5z90l61zd9jg68z26kf1y59gkaz153a63pary47";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250131.103144.tar";
+        sha256 = "0l4mxaqx6zy00zhhspch79gy544i6b9bfj1r8b3nrx9p2974rxba";
       };
       packageRequires = [
         eldoc
@@ -3708,10 +3708,10 @@
     elpaBuild {
       pname = "gnugo";
       ename = "gnugo";
-      version = "3.1.2.0.20230911.4426";
+      version = "3.1.2.0.20250131.151403";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnugo-3.1.2.0.20230911.4426.tar";
-        sha256 = "0pxw1z6inw0ikagcfvi14i83sg6affii277mbyzh5liv655hn9rj";
+        url = "https://elpa.gnu.org/devel/gnugo-3.1.2.0.20250131.151403.tar";
+        sha256 = "1afx15bab0zx5iykx9fjn0k32m8rj58n2998kgvpmnyxwl449v77";
       };
       packageRequires = [
         ascii-art-to-unicode
