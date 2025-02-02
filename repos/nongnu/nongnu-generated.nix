@@ -3079,6 +3079,62 @@
       };
     }
   ) { };
+  loopy = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+      map,
+      seq,
+      stream,
+    }:
+    elpaBuild {
+      pname = "loopy";
+      ename = "loopy";
+      version = "0.14.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/loopy-0.14.0.tar";
+        sha256 = "0kfa4rqmnc26nzwff4bd50rkpclmxpmw9r5hhnfasmm6k2m7fmpj";
+      };
+      packageRequires = [
+        compat
+        map
+        seq
+        stream
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/loopy.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  loopy-dash = callPackage (
+    {
+      dash,
+      elpaBuild,
+      fetchurl,
+      lib,
+      loopy,
+    }:
+    elpaBuild {
+      pname = "loopy-dash";
+      ename = "loopy-dash";
+      version = "0.13.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/loopy-dash-0.13.0.tar";
+        sha256 = "1hylniv839x8cl4nbdl64s4h1cnmbwfl47138z32bgdmcv1kbxqi";
+      };
+      packageRequires = [
+        dash
+        loopy
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/loopy-dash.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   lorem-ipsum = callPackage (
     {
       elpaBuild,
@@ -4144,10 +4200,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250125.153651";
+      version = "1.0.20250201.91223";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250125.153651.tar";
-        sha256 = "0sr2m99mnkjh2byxmy3pgn3gbzyrj64xjkcgwrjd5g4hyci7pdvq";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250201.91223.tar";
+        sha256 = "0z7dz8dzrvgff36r5hlm2ciw0xbqnknharys2z1622hl7p5klyv5";
       };
       packageRequires = [ ];
       meta = {
