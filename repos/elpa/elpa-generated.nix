@@ -8843,10 +8843,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.3";
+      version = "0.8.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.8.3.tar";
-        sha256 = "0cx9h7knkyzalkyvbvl762mnl2mslcfxh899mf5wgqfavwkzgqp7";
+        url = "https://elpa.gnu.org/packages/transient-0.8.4.tar";
+        sha256 = "1dc636j9194i9pfj4rxxfy33f5rwsqp5qkf1c7a06yazblvgaqxi";
       };
       packageRequires = [
         compat

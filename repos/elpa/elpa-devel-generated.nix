@@ -1509,10 +1509,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.4.0.0.20250130.54523";
+      version = "0.4.0.0.20250201.154931";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-hoogle-0.4.0.0.20250130.54523.tar";
-        sha256 = "0jbhqhnx5aaayhva9d5fvs3llcf7s4pg46h1949chacy3bp48bbh";
+        url = "https://elpa.gnu.org/devel/consult-hoogle-0.4.0.0.20250201.154931.tar";
+        sha256 = "1ib2k17bzsimd0jsmr7cw910ji8si7yn5vl86wc72mdb2cn498h2";
       };
       packageRequires = [ consult ];
       meta = {
@@ -2635,10 +2635,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250131.103144";
+      version = "1.18.0.20250201.74019";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250131.103144.tar";
-        sha256 = "0l4mxaqx6zy00zhhspch79gy544i6b9bfj1r8b3nrx9p2974rxba";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250201.74019.tar";
+        sha256 = "0v2hk03d1mh8dgvr5vmrjd6yh5rdl4jr333zscp13dsp88vyapxw";
       };
       packageRequires = [
         eldoc
@@ -4090,10 +4090,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250130.145450";
+      version = "9.0.2pre0.20250201.142503";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250130.145450.tar";
-        sha256 = "0z30yxv5945iipj7x8zjbzh65y9ymhrk7ws2a7slfhdmci998jzb";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250201.142503.tar";
+        sha256 = "15w835pgy4y0lh33czd1in2xmm07ycc4yfjjw4jlm43zimkviy61";
       };
       packageRequires = [ ];
       meta = {
@@ -4154,10 +4154,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.2.0.20250123.153037";
+      version = "0.8.2.0.20250201.115728";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.2.0.20250123.153037.tar";
-        sha256 = "1affd306vy71v6krn17wl0z7cq3305skksyxiq2h78fn8l1g4mc6";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.2.0.20250201.115728.tar";
+        sha256 = "1xp9lhk1yz842b3z6j181ziql99b0pj1wy7nnpjlqxnga0pcf8z9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4801,10 +4801,10 @@
     elpaBuild {
       pname = "let-alist";
       ename = "let-alist";
-      version = "1.0.6.0.20250101.73917";
+      version = "1.0.6.0.20250201.73956";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/let-alist-1.0.6.0.20250101.73917.tar";
-        sha256 = "0lr22q8crlk160j38y5dyla1i3h882yv5zjh7f9rbfaqqs6w5xqm";
+        url = "https://elpa.gnu.org/devel/let-alist-1.0.6.0.20250201.73956.tar";
+        sha256 = "0qnp9dnnjmygirg8qncnc3mdi6kj08x63njsj6qwbb3276rr18w8";
       };
       packageRequires = [ ];
       meta = {
@@ -8980,10 +8980,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.3.0.20250122.121927";
+      version = "0.8.4.0.20250201.131431";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.8.3.0.20250122.121927.tar";
-        sha256 = "1cf0dmgw1ghi2z0k6a2a1hbpdfm29ddg5np7492dn55xlggmjlny";
+        url = "https://elpa.gnu.org/devel/transient-0.8.4.0.20250201.131431.tar";
+        sha256 = "1micgh8w9x0x95wis581f5p3mbhmiq5q3mg8rz1fn3xnjjiqr8a3";
       };
       packageRequires = [
         compat
