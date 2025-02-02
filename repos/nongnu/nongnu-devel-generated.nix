@@ -924,10 +924,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.0.53.0.20250117.153934";
+      version = "2.0.53.0.20250202.83432";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20250117.153934.tar";
-        sha256 = "1k886i4l7qcrdxdhm0arc2fg796fa4gz75vkp4q5fnvvbirwlqvc";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20250202.83432.tar";
+        sha256 = "00vnay3nijg3hxq5ynsbrfnyj3scw6cnn6bn6kl9i1wbn7ybwq68";
       };
       packageRequires = [ transient ];
       meta = {
@@ -2349,10 +2349,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250201.124348";
+      version = "0.9.7.0.20250201.232448";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250201.124348.tar";
-        sha256 = "1kjs8ak2lhpv4zxya0iqmf32r0jf9wr0r04dlzl99cs6fmqc0jdw";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250201.232448.tar";
+        sha256 = "0xczy5vsc3aprg607r8n70kiq15n8qf17pmx21219lvvvb9mjm56";
       };
       packageRequires = [
         compat
@@ -2523,10 +2523,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20250131.124137";
+      version = "1.0.20250202.61612";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20250131.124137.tar";
-        sha256 = "0fk3zpwhbh06gfh81qa883lj69a747gfvll99mkfhaq6jship0kl";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20250202.61612.tar";
+        sha256 = "1i3is0js2sjr61bd7w1jz05a9gl4aj5b0ivar5iq1l0kmnhq7w54";
       };
       packageRequires = [ ];
       meta = {
@@ -3172,10 +3172,10 @@
     elpaBuild {
       pname = "macrostep";
       ename = "macrostep";
-      version = "0.9.4.0.20241228.221506";
+      version = "0.9.5.0.20250201.225002";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/macrostep-0.9.4.0.20241228.221506.tar";
-        sha256 = "0yza9ms8i3nq4fh42s475r0m77b2phq8sx41p6irywi0clc33m0y";
+        url = "https://elpa.nongnu.org/nongnu-devel/macrostep-0.9.5.0.20250201.225002.tar";
+        sha256 = "0fg6bv9157mc6h88c3v1xcf03pzj5jv7ca6299dfx8ijx1gfp0fd";
       };
       packageRequires = [
         cl-lib
@@ -4113,10 +4113,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20250131.213250";
+      version = "2.9.0snapshot0.20250201.213046";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250131.213250.tar";
-        sha256 = "0ixgdvydgldxnk62jl7fpmk8018h8db911wy3sz4p4yzr9xzwndz";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250201.213046.tar";
+        sha256 = "1r15466412k0gh26bak0dcn63sf5if6lg58jmcr1mhpdp5sm45b7";
       };
       packageRequires = [ ];
       meta = {
