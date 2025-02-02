@@ -75294,14 +75294,14 @@
    "version": [
     0,
     9,
-    4
+    5
    ],
    "deps": [
     "cl-lib",
     "compat"
    ],
-   "commit": "31d4adcca4f08cfd7a45f85e691aaa7a9316b355",
-   "sha256": "0f0rjpjwzpw6hxqbh8ghr7838slf7w22z7szy68bbg3bbnrjjlai"
+   "commit": "8e8487712d150178be7297604d0f47fd036a6d8d",
+   "sha256": "1sdi8kmcvf39p1m6bahnzi3h0djg23lppb2hf1y1snihcf3ibwi9"
   }
  },
  {
@@ -75442,19 +75442,20 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250201,
-    1912
+    20250202,
+    7
    ],
    "deps": [
     "compat",
     "dash",
+    "llama",
     "magit-section",
     "seq",
     "transient",
     "with-editor"
    ],
-   "commit": "8397a8412a3565c5eac6d0004be4a3d701a8f7bb",
-   "sha256": "1pbl40phw6xg66ja46zjsaingnslb0jfryiss8vvx5fii2b7yn7r"
+   "commit": "e2aecc347c88ee871f73472d122d06a0ddd1e282",
+   "sha256": "0adfm99na2p6pxj0li0bb29rg43b28kajf6pcbmdndgdfrqgbs4m"
   },
   "stable": {
    "version": [
@@ -76031,16 +76032,17 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250126,
-    2059
+    20250202,
+    7
    ],
    "deps": [
     "compat",
     "dash",
+    "llama",
     "seq"
    ],
-   "commit": "a5962c0b916c1caf211a4f87fb85023068ab50b9",
-   "sha256": "0vyjdamws4505dwna3j60vzmc1v5b3smaykicp7hs9ksllr0j3sb"
+   "commit": "59ba18a060ad2075a9d34aea9064e2d62f1cd752",
+   "sha256": "12rhfms7h030xvpvscf7zihvirg3sxg49bmcqy975xm36w93fgvv"
   },
   "stable": {
    "version": [
@@ -101038,15 +101040,15 @@
   "stable": {
    "version": [
     1,
-    4,
+    5,
     0
    ],
    "deps": [
     "log4e",
     "yaxception"
    ],
-   "commit": "92854bb12c275980c89c9f6f33eaa36b633db6d7",
-   "sha256": "110lgic3r04q1xlw35vgmdi1ncafm8cp0a3zl5v9z3r5hmxghjv4"
+   "commit": "c37195caec62a56af77432a8bd92ac720689b5fe",
+   "sha256": "1gj3hhd6vdlzk9y60491w9y083273ajnv93n056h4f2iv9d2g10q"
   }
  },
  {
@@ -109935,8 +109937,8 @@
   "repo": "emacs-rustic/rustic",
   "unstable": {
    "version": [
-    20250130,
-    1903
+    20250202,
+    336
    ],
    "deps": [
     "dash",
@@ -109950,8 +109952,8 @@
     "spinner",
     "xterm-color"
    ],
-   "commit": "4404bdbf77a82f4d201d9bc4cb80d2a6c4a280b5",
-   "sha256": "0v3k6plxns1zpb21k4a0af4hg3v3x5y1fl6apz0lrlzw24pk852d"
+   "commit": "31ecd5582cd8f54c736a3ee5f0b0ec1f6d128dcf",
+   "sha256": "1mw7i98fkg3mqjp5g4sik1fhpmazz9igfyq5si7b86wdranvavds"
   },
   "stable": {
    "version": [
