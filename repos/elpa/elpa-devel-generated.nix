@@ -1,5 +1,26 @@
 { callPackage }:
 {
+  a68-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "a68-mode";
+      ename = "a68-mode";
+      version = "0.1.0.20250202.83222";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/a68-mode-0.1.0.20250202.83222.tar";
+        sha256 = "0zvy48v6lcfkmbxfbgarldsv3j2baz3ymbmc1ixiz8v9893fcl9z";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/a68-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   ace-window = callPackage (
     {
       avy,
@@ -1509,10 +1530,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.4.0.0.20250201.154931";
+      version = "0.4.1.0.20250202.52435";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-hoogle-0.4.0.0.20250201.154931.tar";
-        sha256 = "1ib2k17bzsimd0jsmr7cw910ji8si7yn5vl86wc72mdb2cn498h2";
+        url = "https://elpa.gnu.org/devel/consult-hoogle-0.4.1.0.20250202.52435.tar";
+        sha256 = "1nlf2icdy8b5jkqp33m0izf40z7h9nbsfcb4wx36db3dn4ajjb7p";
       };
       packageRequires = [ consult ];
       meta = {
@@ -6014,10 +6035,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.3.0.20250101.92243";
+      version = "1.3.0.20250201.234121";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.3.0.20250101.92243.tar";
-        sha256 = "1n28izngnqs2xy2iw7s0mw78mx7b4ahwf8yirr1jlv00vc51qiab";
+        url = "https://elpa.gnu.org/devel/orderless-1.3.0.20250201.234121.tar";
+        sha256 = "1skvlpvn49qivvn33c3y9nx0v3mn8ds1cagddd070ykpqyccrihp";
       };
       packageRequires = [ compat ];
       meta = {
