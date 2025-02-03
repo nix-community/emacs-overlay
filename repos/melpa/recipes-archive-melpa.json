@@ -20653,11 +20653,11 @@
   "repo": "crystal-lang-tools/emacs-crystal-mode",
   "unstable": {
    "version": [
-    20231205,
-    1943
+    20250203,
+    1157
    ],
-   "commit": "ea89b108fa4222df94ffb99e6e7eaec5d7aa4fea",
-   "sha256": "0h7nj0lwb90va0z1j3p2i14vggkn4j2hmnf3jknig5dfn39wwbpm"
+   "commit": "39993f821e6d7ca1da125d0ceba6218c3ca4c5b7",
+   "sha256": "09097r4l4gzasg7zcamdbmd5rgmw1piz5z9wfhmvfxp65gwv25cl"
   },
   "stable": {
    "version": [
@@ -46285,8 +46285,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20250129,
-    2012
+    20250203,
+    1409
    ],
    "deps": [
     "closql",
@@ -46301,8 +46301,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "0e1579b49fd65bd2bba34487c03cec1dd977313d",
-   "sha256": "1ywkxx9k5m6bwfsn37v1cm6qqggsw7x6y3a4sk7sf5kaa44lqivc"
+   "commit": "b17be58bc995f8cd3e00c87fb828458f1c5d52fa",
+   "sha256": "0iyl1cbpgp326zf3z5ms7sal1bpi6xkmv5fgzia7z723hv0i7jm5"
   },
   "stable": {
    "version": [
@@ -75443,19 +75443,18 @@
   "unstable": {
    "version": [
     20250203,
-    422
+    1351
    ],
    "deps": [
     "compat",
-    "dash",
     "llama",
     "magit-section",
     "seq",
     "transient",
     "with-editor"
    ],
-   "commit": "be9b722e2248b8465c561867cc99cb0c62e79dd4",
-   "sha256": "0yy9dvwyb6sshwdzrz35b9pxf3grpff36aq5kzb9aqaa1njmv2z9"
+   "commit": "e40e8f199447bc8f121ad128ecd50017a595659f",
+   "sha256": "06hdbw2yavwvn9yibhlp572jl5xkm3g3rqmbp54pjnz0q41p0hwg"
   },
   "stable": {
    "version": [
@@ -75570,30 +75569,28 @@
   "repo": "gekoke/magit-file-icons",
   "unstable": {
    "version": [
-    20240627,
-    1228
+    20250203,
+    1225
    ],
    "deps": [
     "el-patch",
-    "magit",
     "nerd-icons"
    ],
-   "commit": "861670d448df4fba6fb993941d41953cee230a7b",
-   "sha256": "0zldfmx9vx6fnaadx0q0vmgdsarfs284ffsj0b6qmcgxsbl2z67b"
+   "commit": "29df32e717a1d4ece474f278ae7cb9ce4dd467e5",
+   "sha256": "1xzpk0div6kcdg582sk1rx2h1hfgv2hzdwvhaidhz5afx9cacy9n"
   },
   "stable": {
    "version": [
-    2,
+    3,
     0,
     0
    ],
    "deps": [
     "el-patch",
-    "magit",
     "nerd-icons"
    ],
-   "commit": "861670d448df4fba6fb993941d41953cee230a7b",
-   "sha256": "0zldfmx9vx6fnaadx0q0vmgdsarfs284ffsj0b6qmcgxsbl2z67b"
+   "commit": "29df32e717a1d4ece474f278ae7cb9ce4dd467e5",
+   "sha256": "1xzpk0div6kcdg582sk1rx2h1hfgv2hzdwvhaidhz5afx9cacy9n"
   }
  },
  {
@@ -76032,17 +76029,16 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250202,
-    7
+    20250203,
+    1351
    ],
    "deps": [
     "compat",
-    "dash",
     "llama",
     "seq"
    ],
-   "commit": "59ba18a060ad2075a9d34aea9064e2d62f1cd752",
-   "sha256": "12rhfms7h030xvpvscf7zihvirg3sxg49bmcqy975xm36w93fgvv"
+   "commit": "e40e8f199447bc8f121ad128ecd50017a595659f",
+   "sha256": "06hdbw2yavwvn9yibhlp572jl5xkm3g3rqmbp54pjnz0q41p0hwg"
   },
   "stable": {
    "version": [
@@ -76825,14 +76821,14 @@
   "repo": "minad/marginalia",
   "unstable": {
    "version": [
-    20250128,
-    1729
+    20250203,
+    1018
    ],
    "deps": [
     "compat"
    ],
-   "commit": "5282d5755ad1098c1f06113bf9180fd26450b92a",
-   "sha256": "1xr24wsxp7p4r3ycb2jqfsq7vagjwmjr5i13jb9qgwcq9wxmcgp4"
+   "commit": "a527fb03b76a2bce1e360c6e73a095e06922c3f3",
+   "sha256": "0q6n426yplj6iijsfx11lnlaz4l5iddav2dxml1p2zxvc4k2njy5"
   },
   "stable": {
    "version": [
@@ -80086,11 +80082,11 @@
   "repo": "kuanyui/moe-theme.el",
   "unstable": {
    "version": [
-    20250131,
-    1525
+    20250203,
+    907
    ],
-   "commit": "c2f6c12dbc6e06706be4fd0752e4174fa5f6c5c2",
-   "sha256": "04w2qcjqwwhawaw9nbr058gxxqx4ig1inxqzsgv1im4xl6b4fp29"
+   "commit": "0a8ca29701170ea307a7f46d868c53bbce02f3c3",
+   "sha256": "0r5hbjx9cbgdwha9p4fvphqx9xxiq8kd2wpnz4jszr3x89gx9sqh"
   },
   "stable": {
    "version": [
@@ -83440,8 +83436,8 @@
   "repo": "ewantown/nice-org-html",
   "unstable": {
    "version": [
-    20250201,
-    933
+    20250203,
+    848
    ],
    "deps": [
     "dash",
@@ -83449,8 +83445,8 @@
     "s",
     "uuidgen"
    ],
-   "commit": "51ed48ef25db3abba771b95fcc462394f35edfb1",
-   "sha256": "0h4ll8cwlqcp8z5mbay0f3rccnrn002v0bc5vhyjfva1kq6h7yfl"
+   "commit": "8f35b640cf8335aa40ce9bb6e471e76b79192774",
+   "sha256": "1rsvl74d3amp5nsgdsjpyzrkywbaq1h6zshbs28kxxnc4da85nck"
   }
  },
  {
@@ -91076,15 +91072,15 @@
    "version": [
     1,
     9,
-    34
+    35
    ],
    "deps": [
     "compat",
     "el-job",
     "llama"
    ],
-   "commit": "884a5e2136591e41d20ee16b4f0aea7b6918adb9",
-   "sha256": "1vkprf35nvaqy8h7msi821j7jlbn4a8fgk690ib8czy2kbpp6pir"
+   "commit": "0f58a8e584e036a97aaa023813c273b9fc83f41e",
+   "sha256": "0h2kmpki4c8c87lm3wzpl23adilfrrg9vbcv2yf4s034r4bvd949"
   }
  },
  {
@@ -102622,11 +102618,11 @@
   "repo": "bbatsov/projectile",
   "unstable": {
    "version": [
-    20250201,
-    2127
+    20250203,
+    915
    ],
-   "commit": "cc85811f9a32d6939a9841b8d2b14c2a4fce8e64",
-   "sha256": "0kx9c6rxzkl70r76qm544p4csz49j6qgy0jv2bjnglvql5dq6ccx"
+   "commit": "e6c0f5f236b2e60fcf7f8d090fb3e2af0096d4ff",
+   "sha256": "0n7wrrmm93g83jfj0vsxm7zi2js2x84apjslivclaix3b9833yrh"
   },
   "stable": {
    "version": [
@@ -120667,15 +120663,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20250202,
-    2123
+    20250203,
+    1232
    ],
    "deps": [
     "transient",
     "visual-fill-column"
    ],
-   "commit": "06a428f5fe4e9bf4593dcf2b44763add797d4e3a",
-   "sha256": "19vr2ba4mfvbp62zhsbgil1wmsafdafmydvwpfiwqhgki8b8fp7m"
+   "commit": "85ad1717de4a47ebeb293e836e5a89e901b55dbd",
+   "sha256": "099a9269fb9p4hj9v8lqgij9cnc2zr0ayzxws4bh3w82qz5hvi22"
   },
   "stable": {
    "version": [
@@ -127972,14 +127968,14 @@
   "repo": "minad/vertico",
   "unstable": {
    "version": [
-    20250202,
-    2138
+    20250203,
+    1055
    ],
    "deps": [
     "compat"
    ],
-   "commit": "d556e22cb556c02c3f4c0be37da67c68e80f3697",
-   "sha256": "0azm4gzmmr45x6xzjsmgw3vlxfjr6xwxbq3byw96ik3dq5kjf5lf"
+   "commit": "e69ef62ffa4bc42dd42437881c251ecdcae0e0c5",
+   "sha256": "1s0m38nxrlgcmr4nd02p33hi6bf60jswmysvlv1q5vvpygq4j84z"
   },
   "stable": {
    "version": [
