@@ -2349,10 +2349,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250201.232448";
+      version = "0.9.7.0.20250202.173645";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250201.232448.tar";
-        sha256 = "0xczy5vsc3aprg607r8n70kiq15n8qf17pmx21219lvvvb9mjm56";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250202.173645.tar";
+        sha256 = "057wcxvpfa952w7h88mgq3y2pcyliswdgj1960jdpvxwjvrq29x8";
       };
       packageRequires = [
         compat
@@ -3172,10 +3172,10 @@
     elpaBuild {
       pname = "macrostep";
       ename = "macrostep";
-      version = "0.9.5.0.20250201.225002";
+      version = "0.9.5.0.20250202.220532";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/macrostep-0.9.5.0.20250201.225002.tar";
-        sha256 = "0fg6bv9157mc6h88c3v1xcf03pzj5jv7ca6299dfx8ijx1gfp0fd";
+        url = "https://elpa.nongnu.org/nongnu-devel/macrostep-0.9.5.0.20250202.220532.tar";
+        sha256 = "089kw24sl8dm1dk45r0gj2h2y0pxazwcp7z5z0pvmnln98mgy4i1";
       };
       packageRequires = [
         cl-lib
@@ -4113,10 +4113,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20250201.213046";
+      version = "2.9.0snapshot0.20250203.72427";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250201.213046.tar";
-        sha256 = "1r15466412k0gh26bak0dcn63sf5if6lg58jmcr1mhpdp5sm45b7";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250203.72427.tar";
+        sha256 = "12qhqf27iazbryv82bnbzgfhl0wn47h9pn4qpay9d5kfxr4k7dii";
       };
       packageRequires = [ ];
       meta = {
