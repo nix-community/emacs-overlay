@@ -2715,10 +2715,10 @@
     elpaBuild {
       pname = "elisa";
       ename = "elisa";
-      version = "1.1.5";
+      version = "1.1.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/elisa-1.1.5.tar";
-        sha256 = "1ab8mvnsvip6ws4wflwkdpn8bilcqfryrcr0ps66v8dh80ws4iyh";
+        url = "https://elpa.gnu.org/packages/elisa-1.1.7.tar";
+        sha256 = "042bdbaxz521xs4ra89mn408vaqax0f0dn6xl6823f4vv1spq6k7";
       };
       packageRequires = [
         async
@@ -2766,10 +2766,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.13.4";
+      version = "0.13.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-0.13.4.tar";
-        sha256 = "1dsd9xj21x9v5wajzqvx1n4jbrnz29j3na9sz7l2hik7g090498f";
+        url = "https://elpa.gnu.org/packages/ellama-0.13.5.tar";
+        sha256 = "1afkjah3rz5pgsl9didl758aci9yrxl2r6n8ipd87q9lq0zjg1gl";
       };
       packageRequires = [
         compat
@@ -6011,10 +6011,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.20";
+      version = "9.7.21";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.20.tar";
-        sha256 = "06pp3092mzrn5fqs0rzhrsa3k8sknx96bwn7vr7w1y0n1m81s0ln";
+        url = "https://elpa.gnu.org/packages/org-9.7.21.tar";
+        sha256 = "0g2zwzidf4wzw0f120445a5j2297l9xgjbr0szhacspkfrxgjxg5";
       };
       packageRequires = [ ];
       meta = {
