@@ -840,10 +840,10 @@
     elpaBuild {
       pname = "datetime";
       ename = "datetime";
-      version = "0.10.1";
+      version = "0.10.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/datetime-0.10.1.tar";
-        sha256 = "126zfpvy8xxdhzfwx2ax6b1i42q1yv0k7k89vsgc7qaf20qrc318";
+        url = "https://elpa.nongnu.org/nongnu/datetime-0.10.2.tar";
+        sha256 = "1mpsk5zrl7kja0pk6fw1qw2drq3laphmnnj8ppr0ahinyrqy05kw";
       };
       packageRequires = [ extmap ];
       meta = {
@@ -3416,10 +3416,10 @@
     elpaBuild {
       pname = "moe-theme";
       ename = "moe-theme";
-      version = "1.0.2";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/moe-theme-1.0.2.tar";
-        sha256 = "13c4rj0c9fi4nipzsrmvgb8ddvk3dckijga07yxp71x5ba6mrp2n";
+        url = "https://elpa.nongnu.org/nongnu/moe-theme-1.1.0.tar";
+        sha256 = "103xs821rvq3dq886jy53rc3lycv7xzyr69x1a4yn4lbyf5q4bp6";
       };
       packageRequires = [ ];
       meta = {

@@ -817,10 +817,10 @@
     elpaBuild {
       pname = "datetime";
       ename = "datetime";
-      version = "0.10.2snapshot0.20240418.160158";
+      version = "0.10.3snapshot0.20250203.204701";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/datetime-0.10.2snapshot0.20240418.160158.tar";
-        sha256 = "1v981sn7zsr1k5fp54al3jlssixghjzkqd1xijvdc8b74p95ag6g";
+        url = "https://elpa.nongnu.org/nongnu-devel/datetime-0.10.3snapshot0.20250203.204701.tar";
+        sha256 = "0l9z5bqbxbn456rin27x4zfa5pjvqjr2vhzxpgssrndm7bprm614";
       };
       packageRequires = [ extmap ];
       meta = {
@@ -1626,10 +1626,10 @@
     elpaBuild {
       pname = "extmap";
       ename = "extmap";
-      version = "1.3.1snapshot0.20230907.195908";
+      version = "1.3.1snapshot0.20250203.193959";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/extmap-1.3.1snapshot0.20230907.195908.tar";
-        sha256 = "023dzbqdsw67pvm6k3jlp5my5bhzgv6j672pnlnrhcq1cvavax1p";
+        url = "https://elpa.nongnu.org/nongnu-devel/extmap-1.3.1snapshot0.20250203.193959.tar";
+        sha256 = "16sfa2zv0g7dz1zflg848dh643c8vfrb93blqvnd1vmlmf3bsyqy";
       };
       packageRequires = [ ];
       meta = {
@@ -3047,10 +3047,10 @@
     elpaBuild {
       pname = "logview";
       ename = "logview";
-      version = "0.19.2snapshot0.20241225.141048";
+      version = "0.19.2snapshot0.20250203.195605";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/logview-0.19.2snapshot0.20241225.141048.tar";
-        sha256 = "03qhb3yk205knsx439pafvm5ab71a3p6q883xlrvgbhabns2hlq5";
+        url = "https://elpa.nongnu.org/nongnu-devel/logview-0.19.2snapshot0.20250203.195605.tar";
+        sha256 = "16mr8ki4xg2yqday18x3a3fcbj8krcmwrj09xww43c8rhkixnk4k";
       };
       packageRequires = [
         compat
@@ -3400,10 +3400,10 @@
     elpaBuild {
       pname = "moe-theme";
       ename = "moe-theme";
-      version = "1.0.2.0.20250131.152504";
+      version = "1.1.0.0.20250203.180833";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/moe-theme-1.0.2.0.20250131.152504.tar";
-        sha256 = "19y25cp6rqq9djagjs2948ypcy18q2iai3dyq3s4hvx71xwfnbx2";
+        url = "https://elpa.nongnu.org/nongnu-devel/moe-theme-1.1.0.0.20250203.180833.tar";
+        sha256 = "1vazqmwvn0cpzni1hyjilcdq2zynl4gijkrkhdgaqnskzqp437rm";
       };
       packageRequires = [ ];
       meta = {
@@ -4113,10 +4113,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20250203.72427";
+      version = "2.9.0snapshot0.20250203.204317";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250203.72427.tar";
-        sha256 = "12qhqf27iazbryv82bnbzgfhl0wn47h9pn4qpay9d5kfxr4k7dii";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250203.204317.tar";
+        sha256 = "1xpq8mhl8w033vj5n53zkg5vyjk0vpv0m9b8vmz0vmxwzjd6ddha";
       };
       packageRequires = [ ];
       meta = {
@@ -4520,10 +4520,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250126.224330";
+      version = "2.31snapshot0.20250203.182938";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250126.224330.tar";
-        sha256 = "1x5q759n06f499ivzplb16wxrid5kjnwnf6yia8rbp9dp09ksada";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250203.182938.tar";
+        sha256 = "179h8fk5hkdcbq4w9gdcqc8gs4pafl5kdy3818vsmvgvfy6rvzq6";
       };
       packageRequires = [ macrostep ];
       meta = {
