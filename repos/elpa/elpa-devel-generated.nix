@@ -1989,10 +1989,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250131.84208";
+      version = "3.1.0.0.20250203.155125";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250131.84208.tar";
-        sha256 = "0krffkyisfmwfd19q2sdnvms2lf4iyadmab233ymzrskr1ai38sx";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250203.155125.tar";
+        sha256 = "03ihqbj39p80gs0qdjbf2bkg1imwpky06vvawygvmmhc363yh1pi";
       };
       packageRequires = [ ];
       meta = {
@@ -5178,10 +5178,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "1.8.0.20250128.172920";
+      version = "1.8.0.20250203.101833";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-1.8.0.20250128.172920.tar";
-        sha256 = "1kl9b91aqcjf969mkpvf2lc47xxlc2qzqkmjzdvvwdyzvqdcnfmn";
+        url = "https://elpa.gnu.org/devel/marginalia-1.8.0.20250203.101833.tar";
+        sha256 = "0yphb9wkg04c6fqb5cbblbk5vmnn15njhp774kivxhxjr7p282n3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9537,10 +9537,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.11.0.20250202.213811";
+      version = "1.11.0.20250203.105541";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.11.0.20250202.213811.tar";
-        sha256 = "1hc5dvrzpbhqz75a6x2nlf80iripj16ki3y1is3rrlddykchqp1x";
+        url = "https://elpa.gnu.org/devel/vertico-1.11.0.20250203.105541.tar";
+        sha256 = "14mykwn0wypd6h5s6l175q8ibsvqc6mnrnws6plmqzlpghir1ipk";
       };
       packageRequires = [ compat ];
       meta = {
