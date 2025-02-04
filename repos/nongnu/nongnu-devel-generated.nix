@@ -924,10 +924,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.0.53.0.20250202.150346";
+      version = "2.0.53.0.20250204.4316";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20250202.150346.tar";
-        sha256 = "0rdd26pzmaxxsn6kwll11yrhs5hn38djgvaryl2hrc16917v1sn3";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20250204.4316.tar";
+        sha256 = "0g02cvnv0n50d72kdn0ldc8l7zrwazm7q4zvgjqlb9qkbjkv444z";
       };
       packageRequires = [ transient ];
       meta = {
@@ -2546,10 +2546,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20250201.54156";
+      version = "4.0.0.20250204.62423";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20250201.54156.tar";
-        sha256 = "053fv8mlp8879s1mxk0s8f25l2kbh509045lqcmg2cx7pgjwg3fj";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20250204.62423.tar";
+        sha256 = "06s20v1yq6swn9195zblh1masbjkkq98d9vfgikv2jbr3rwrpa0z";
       };
       packageRequires = [
         helm-core
@@ -2571,10 +2571,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20250201.54156";
+      version = "4.0.0.20250204.62423";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20250201.54156.tar";
-        sha256 = "0j5w16xp71q1ph9y2x4ci5s61mnajx4rp7xk94834c39p83abbc7";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20250204.62423.tar";
+        sha256 = "1jj4gxj2agm02ghhhknj9si18a2vlrx0ysmn43bqmxk2n0dsn7pb";
       };
       packageRequires = [ async ];
       meta = {
@@ -3035,6 +3035,28 @@
       };
     }
   ) { };
+  llama = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "llama";
+      ename = "llama";
+      version = "0.6.0.0.20250201.130026";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/llama-0.6.0.0.20250201.130026.tar";
+        sha256 = "09z94xb9hm4769fsw91aiw2lp1lv3siqa6gk3ik77591bzbax2l0";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/llama.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   logview = callPackage (
     {
       compat,
@@ -3190,10 +3212,10 @@
   magit = callPackage (
     {
       compat,
-      dash,
       elpaBuild,
       fetchurl,
       lib,
+      llama,
       magit-section,
       seq,
       transient,
@@ -3202,14 +3224,14 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.2.0.0.20250130.203401";
+      version = "4.2.0.0.20250203.232159";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.2.0.0.20250130.203401.tar";
-        sha256 = "08lmpmnm6fxlfyildvc5i7ds2y917k104hplxxygj9k36h3nsxpx";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.2.0.0.20250203.232159.tar";
+        sha256 = "0bww4qwfki36yrr55kx7svplmc33ypac69mq8smcd7bmjbn3hwzf";
       };
       packageRequires = [
         compat
-        dash
+        llama
         magit-section
         seq
         transient
@@ -3224,23 +3246,23 @@
   magit-section = callPackage (
     {
       compat,
-      dash,
       elpaBuild,
       fetchurl,
       lib,
+      llama,
       seq,
     }:
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.2.0.0.20250130.203401";
+      version = "4.2.0.0.20250203.232159";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.2.0.0.20250130.203401.tar";
-        sha256 = "0d6mj4is9gq1acr62kcxn48i4qxrr1fxaihl2k4lvn400i3n7n1n";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.2.0.0.20250203.232159.tar";
+        sha256 = "0fz1ikcivak072blqwvmj9lk2rhdxnwjxks0x0b4qcd3583c7ldk";
       };
       packageRequires = [
         compat
-        dash
+        llama
         seq
       ];
       meta = {

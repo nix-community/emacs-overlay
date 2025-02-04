@@ -3051,6 +3051,28 @@
       };
     }
   ) { };
+  llama = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "llama";
+      ename = "llama";
+      version = "0.6.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/llama-0.6.0.tar";
+        sha256 = "14rfpi40rhn906s4glj565v1b1kd7fa668sq7b7hh83pq47iylyr";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/llama.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   logview = callPackage (
     {
       compat,
