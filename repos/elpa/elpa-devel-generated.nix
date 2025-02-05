@@ -1989,10 +1989,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250203.155125";
+      version = "3.1.0.0.20250205.61207";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250203.155125.tar";
-        sha256 = "03ihqbj39p80gs0qdjbf2bkg1imwpky06vvawygvmmhc363yh1pi";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250205.61207.tar";
+        sha256 = "0196s2jy08cf7pbysxlxzfziysm7sq87xkr19z1dxbd4284ad9qk";
       };
       packageRequires = [ ];
       meta = {
@@ -2278,10 +2278,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.3.0.0.20250203.71230";
+      version = "0.3.0.0.20250205.71516";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20250203.71230.tar";
-        sha256 = "0ycgjva7rmfdh8wk4pv19bcjvjf30vv7hqwbx0l48fm5hq87df4n";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20250205.71516.tar";
+        sha256 = "0qva3hbi29xbwn33c2ddvb095ciahf0h98icfss469b6lr0mak7w";
       };
       packageRequires = [ ];
       meta = {
@@ -7035,10 +7035,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20250201.35652";
+      version = "0.28.0.20250204.222800";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20250201.35652.tar";
-        sha256 = "112s1y0mvrjxawldrs1n6mbslk2m44ddrqbb19iiivppamqrzz1l";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20250204.222800.tar";
+        sha256 = "0ljnj4k793i53z9hgg148443x3q2yvmfp8f8kgjc0p0kz95d7m6m";
       };
       packageRequires = [
         compat
