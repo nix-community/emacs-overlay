@@ -3262,23 +3262,23 @@
   magit-section = callPackage (
     {
       compat,
-      dash,
       elpaBuild,
       fetchurl,
       lib,
+      llama,
       seq,
     }:
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.2.0";
+      version = "4.3.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.2.0.tar";
-        sha256 = "05wlc327x45vfsphwz9bf1hl8w46ychqkp6j7wsngjzwzsifxmb4";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.3.0.tar";
+        sha256 = "0f6axq5iqfwlbzllzvqd6yk3p8l7ny624qlmnidrynij53rycy0n";
       };
       packageRequires = [
         compat
-        dash
+        llama
         seq
       ];
       meta = {
@@ -3320,10 +3320,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.1.8";
+      version = "1.1.9";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-1.1.8.tar";
-        sha256 = "06jy1n7ikz4xdpw4rkma596pqgkxcmh7qfkz93584rjfqav88anl";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-1.1.9.tar";
+        sha256 = "01csrqkbjch7cxvmsp8lp3ipaijsqbr230nmk0ss2q19rkmh4sc9";
       };
       packageRequires = [
         persist
@@ -4624,10 +4624,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.0.1";
+      version = "2.0.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/solarized-theme-2.0.1.tar";
-        sha256 = "1lk1g8v2chjrbbxplw3pd7yn3syjgywxkbdc7dbd76x168qz54qx";
+        url = "https://elpa.nongnu.org/nongnu/solarized-theme-2.0.4.tar";
+        sha256 = "03vrgs29ifpvsxd4278fx7rmpd0d5ilwl8v1qgrz9gk6bnzphb9f";
       };
       packageRequires = [ ];
       meta = {
