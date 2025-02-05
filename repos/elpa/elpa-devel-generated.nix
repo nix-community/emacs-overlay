@@ -2656,10 +2656,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250201.74019";
+      version = "1.18.0.20250204.145951";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250201.74019.tar";
-        sha256 = "0v2hk03d1mh8dgvr5vmrjd6yh5rdl4jr333zscp13dsp88vyapxw";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250204.145951.tar";
+        sha256 = "0k7vrpvwkygw22bj00cvca0nkvz415q8n28l4jpf3p3i6a8rg096";
       };
       packageRequires = [
         eldoc
@@ -2944,10 +2944,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "21.0.20250120.141327";
+      version = "21.0.20250204.152247";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-21.0.20250120.141327.tar";
-        sha256 = "1vcpp171rgvgm3mf04z0ayha7avfvjkp17ybs98fjl09160ih3ny";
+        url = "https://elpa.gnu.org/devel/emms-21.0.20250204.152247.tar";
+        sha256 = "00m56k9j69xh03agj5xsw61brz69r54n2qqkyg0gs1ahaqcf52cc";
       };
       packageRequires = [
         cl-lib
@@ -10145,10 +10145,10 @@
     elpaBuild {
       pname = "yaml";
       ename = "yaml";
-      version = "1.0.0.0.20241129.211417";
+      version = "1.1.0.0.20250204.162341";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/yaml-1.0.0.0.20241129.211417.tar";
-        sha256 = "0wvyq8hwh10ldpd56xw7n6z4w2zhn4nyk949pyf78vigvr7rv8ll";
+        url = "https://elpa.gnu.org/devel/yaml-1.1.0.0.20250204.162341.tar";
+        sha256 = "1lx88ay1al1l1qb5927f3wcj9hkc4s3yz0fkb9zld4dm67q3zfrd";
       };
       packageRequires = [ ];
       meta = {

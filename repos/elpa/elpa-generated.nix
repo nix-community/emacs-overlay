@@ -9985,10 +9985,10 @@
     elpaBuild {
       pname = "yaml";
       ename = "yaml";
-      version = "1.0.0";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/yaml-1.0.0.tar";
-        sha256 = "0yvfrijjjm17qidyi50nrsvw2m3bqw6p72za7w8v4ywxfl7b59c6";
+        url = "https://elpa.gnu.org/packages/yaml-1.1.0.tar";
+        sha256 = "1wxwh8wy2hnrbr6h0li1mr9rfp8c9sqbmlfvm10hj7bb7qjwm1bg";
       };
       packageRequires = [ ];
       meta = {
