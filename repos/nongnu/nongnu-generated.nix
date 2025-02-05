@@ -3228,10 +3228,10 @@
   magit = callPackage (
     {
       compat,
-      dash,
       elpaBuild,
       fetchurl,
       lib,
+      llama,
       magit-section,
       seq,
       transient,
@@ -3240,14 +3240,14 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.2.0";
+      version = "4.3.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-4.2.0.tar";
-        sha256 = "04nf4ff7a11z65mcw6qnkxwk9srpi248f1k0li947i4264gl3prd";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.3.0.tar";
+        sha256 = "0s9i6pn7j36yvd6nhrnkj7amrgywv02bxhxyg2ac56gsf9bwgqas";
       };
       packageRequires = [
         compat
-        dash
+        llama
         magit-section
         seq
         transient

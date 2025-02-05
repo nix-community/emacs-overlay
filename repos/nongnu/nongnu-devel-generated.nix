@@ -924,10 +924,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.0.53.0.20250204.4316";
+      version = "2.0.53.0.20250204.210154";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20250204.4316.tar";
-        sha256 = "0g02cvnv0n50d72kdn0ldc8l7zrwazm7q4zvgjqlb9qkbjkv444z";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20250204.210154.tar";
+        sha256 = "1kpbr6b5n3i5jvnls6q7zzkawxcw1cg4q8jn8lsxbfmpc3b3qkka";
       };
       packageRequires = [ transient ];
       meta = {
@@ -3224,10 +3224,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.2.0.0.20250203.232159";
+      version = "4.3.0.0.20250204.133404";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.2.0.0.20250203.232159.tar";
-        sha256 = "0bww4qwfki36yrr55kx7svplmc33ypac69mq8smcd7bmjbn3hwzf";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.0.0.20250204.133404.tar";
+        sha256 = "1bj6sqb54lzdnk31lwxmgzgwgy5j55i29z8ad5m9sxjxxzlg700m";
       };
       packageRequires = [
         compat
