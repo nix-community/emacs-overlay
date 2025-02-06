@@ -1,5 +1,26 @@
 { callPackage }:
 {
+  a68-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "a68-mode";
+      ename = "a68-mode";
+      version = "1.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/a68-mode-1.0.tar";
+        sha256 = "1fhmsix14wmysbp3w0zaywlf3m5wqmgydw2377zsgbaz7k3s3y8x";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/a68-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   ace-window = callPackage (
     {
       avy,
