@@ -2480,10 +2480,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20250202.204418";
+      version = "17.5.0.20250205.144004";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20250202.204418.tar";
-        sha256 = "178bm9c669klizj1cbwv9xw55manhg6hx4gpa9vk0bz8krrcmb15";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20250205.144004.tar";
+        sha256 = "1p3dgr8zyv3ir34x9nbgbz67bpb491kd45haplvk8c32xddli8c3";
       };
       packageRequires = [ ];
       meta = {
@@ -4135,10 +4135,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20250204.142149";
+      version = "2.9.0snapshot0.20250205.190809";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250204.142149.tar";
-        sha256 = "0mgh0lq81zgzns6y521gwlzsis4xac5c26j7mjpcm4yhw5c9zz4j";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250205.190809.tar";
+        sha256 = "1pr542p0038ffd19gl77sadnmb1jz6lrxcbjqzjg1axl4z5wx6jb";
       };
       packageRequires = [ ];
       meta = {
