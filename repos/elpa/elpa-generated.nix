@@ -1511,10 +1511,10 @@
     elpaBuild {
       pname = "consult-recoll";
       ename = "consult-recoll";
-      version = "0.8.1";
+      version = "1.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-recoll-0.8.1.tar";
-        sha256 = "1zdmkq9cjb6kb0hf3ngm07r3mhrjal27x34i1bm7ri3089wbsp8v";
+        url = "https://elpa.gnu.org/packages/consult-recoll-1.0.0.tar";
+        sha256 = "1fjc5s1xn15vglmaqywnrpqnjb46w15xysk7n18ifqapcya5g0x0";
       };
       packageRequires = [ consult ];
       meta = {

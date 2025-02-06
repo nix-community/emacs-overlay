@@ -1552,10 +1552,10 @@
     elpaBuild {
       pname = "consult-recoll";
       ename = "consult-recoll";
-      version = "0.8.1.0.20250106.172405";
+      version = "1.0.0.0.20250205.171239";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-recoll-0.8.1.0.20250106.172405.tar";
-        sha256 = "178vlkdbjkjp6h2zcnwdfilnmk91rz41lbyrhy6xpjxz3s0jqdsx";
+        url = "https://elpa.gnu.org/devel/consult-recoll-1.0.0.0.20250205.171239.tar";
+        sha256 = "1mpvf601nyb8wz0brcxs2dvzf87s66wg83k9q6c605brnkg23cyb";
       };
       packageRequires = [ consult ];
       meta = {
@@ -2278,10 +2278,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.3.0.0.20250205.71516";
+      version = "0.3.0.0.20250205.94505";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20250205.71516.tar";
-        sha256 = "0qva3hbi29xbwn33c2ddvb095ciahf0h98icfss469b6lr0mak7w";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.3.0.0.20250205.94505.tar";
+        sha256 = "1z9wg3z3kgmx3xv300r61ss5af23zs4cmhjn3xl7acn7ym6mpg33";
       };
       packageRequires = [ ];
       meta = {
