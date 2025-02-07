@@ -1275,10 +1275,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.0.4.0.20240924.193317";
+      version = "1.0.4.0.20250206.125027";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.0.4.0.20240924.193317.tar";
-        sha256 = "06rzr4g2qv7d8hgil46v1vipq6rw4518sf5vqf22n8g893blcvjm";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.0.4.0.20250206.125027.tar";
+        sha256 = "0ld19l2rwap4j89rlhmypm7i8i6jp3gszm3swn1116frryi7ml8a";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4111,10 +4111,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250202.233158";
+      version = "9.0.2pre0.20250206.124635";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250202.233158.tar";
-        sha256 = "0jllg8br60d5b0y9vk6m7mnx093brmr9ylj2s13vjimj6pbqkxdh";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250206.124635.tar";
+        sha256 = "1wmi8ydhk2djma4h11hcmpcaahsndd071xfldfpf91b8q7xqy0d1";
       };
       packageRequires = [ ];
       meta = {
