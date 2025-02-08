@@ -517,6 +517,28 @@
       };
     }
   ) { };
+  auth-source-xoauth2-plugin = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      oauth2,
+    }:
+    elpaBuild {
+      pname = "auth-source-xoauth2-plugin";
+      ename = "auth-source-xoauth2-plugin";
+      version = "0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/auth-source-xoauth2-plugin-0.1.tar";
+        sha256 = "1mni58ckvcs33jnp78y39pg6rfnm4908iz6g7l7d9y8hbjwin4xm";
+      };
+      packageRequires = [ oauth2 ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/auth-source-xoauth2-plugin.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   auto-correct = callPackage (
     {
       elpaBuild,
