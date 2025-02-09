@@ -2699,10 +2699,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250207.203403";
+      version = "1.18.0.20250208.134208";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250207.203403.tar";
-        sha256 = "1p836cim1kgj6ihyll5qmnva89aydpz5jx2ccp66x86mkbpkybf2";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250208.134208.tar";
+        sha256 = "0sqm6z9phbdhy6f4dzcbk5w44j4kpxnk3hgd0y233v0nhxz80ahs";
       };
       packageRequires = [
         eldoc
@@ -9882,10 +9882,10 @@
     elpaBuild {
       pname = "window-tool-bar";
       ename = "window-tool-bar";
-      version = "0.2.1.0.20250101.73917";
+      version = "0.3.0.20250208.111330";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/window-tool-bar-0.2.1.0.20250101.73917.tar";
-        sha256 = "0cc1s4jrz9zy9986v27hlm6aj9iq11vd7xc4i2wymy47fkmqfbhl";
+        url = "https://elpa.gnu.org/devel/window-tool-bar-0.3.0.20250208.111330.tar";
+        sha256 = "1xg1jkb08hw0a1q9rfd3fvdkwmcd04syzj9lihlyww2am8ki286v";
       };
       packageRequires = [ compat ];
       meta = {
