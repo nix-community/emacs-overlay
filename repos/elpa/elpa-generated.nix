@@ -624,6 +624,27 @@
       };
     }
   ) { };
+  autorevert-tail-truncate = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "autorevert-tail-truncate";
+      ename = "autorevert-tail-truncate";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/autorevert-tail-truncate-1.0.0.tar";
+        sha256 = "0p8gbcgmra4av4c0sbrazfb56vp564m2cyjrspkmsjlzwgl3634r";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/autorevert-tail-truncate.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   avy = callPackage (
     {
       cl-lib ? null,
@@ -2809,10 +2830,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.13.5";
+      version = "0.13.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-0.13.5.tar";
-        sha256 = "1afkjah3rz5pgsl9didl758aci9yrxl2r6n8ipd87q9lq0zjg1gl";
+        url = "https://elpa.gnu.org/packages/ellama-0.13.7.tar";
+        sha256 = "1nlav89rb1xdrjj4kb9pvz3wjvlvwyz7h11fm098g8s81r703hcx";
       };
       packageRequires = [
         compat
@@ -7593,10 +7614,10 @@
     elpaBuild {
       pname = "scanner";
       ename = "scanner";
-      version = "0.2";
+      version = "0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/scanner-0.2.tar";
-        sha256 = "1c42mg7m6fa7xw3svv741sgrc9zjl1zcq0vg45k61iqmnx8d44vp";
+        url = "https://elpa.gnu.org/packages/scanner-0.3.tar";
+        sha256 = "07cqbphpgcqz2bb204c26mh3pc4h4z792dz9pxh1fjwh4d0iasqy";
       };
       packageRequires = [ dash ];
       meta = {
@@ -10028,10 +10049,10 @@
     elpaBuild {
       pname = "yaml";
       ename = "yaml";
-      version = "1.1.0";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/yaml-1.1.0.tar";
-        sha256 = "1wxwh8wy2hnrbr6h0li1mr9rfp8c9sqbmlfvm10hj7bb7qjwm1bg";
+        url = "https://elpa.gnu.org/packages/yaml-1.2.0.tar";
+        sha256 = "1j1shz85vdj7w7bslpmpfws92fi3afp44533irq8caf7zj9masph";
       };
       packageRequires = [ ];
       meta = {
