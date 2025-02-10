@@ -654,10 +654,10 @@
     elpaBuild {
       pname = "autorevert-tail-truncate";
       ename = "autorevert-tail-truncate";
-      version = "1.0.0.0.20250208.61538";
+      version = "1.0.1.0.20250209.105211";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/autorevert-tail-truncate-1.0.0.0.20250208.61538.tar";
-        sha256 = "1m00rr3mnv79vbczs7dg0fvqz1l0zyrbsqqz54gaqyl6r27hlwfl";
+        url = "https://elpa.gnu.org/devel/autorevert-tail-truncate-1.0.1.0.20250209.105211.tar";
+        sha256 = "07nlbvlassaj0rcph1kwf2h9bxdkfk3s77q300aj6kp0k73a17rd";
       };
       packageRequires = [ ];
       meta = {
@@ -2851,10 +2851,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.13.7.0.20250208.110313";
+      version = "0.13.11.0.20250209.202508";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-0.13.7.0.20250208.110313.tar";
-        sha256 = "0mglzqh4pjwzjqrrpkrg8296c32nv0ja778nmb27r6zdig9ss5zj";
+        url = "https://elpa.gnu.org/devel/ellama-0.13.11.0.20250209.202508.tar";
+        sha256 = "099jg3ab5bv1z4srzsvcagi0vixpx56paflr15zhy46hwsb885zq";
       };
       packageRequires = [
         compat
@@ -4154,10 +4154,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250208.215943";
+      version = "9.0.2pre0.20250209.112554";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250208.215943.tar";
-        sha256 = "1bqc2zvch5aldyjy6ncsyvw034rhxrpk9r27qrq706n3n3b140b8";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250209.112554.tar";
+        sha256 = "0ahhaq0c8aw4kgf44js03v7bj0vmbv2h807z0i1s5vnbiwyrqky8";
       };
       packageRequires = [ ];
       meta = {
@@ -6099,10 +6099,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250202.170245";
+      version = "9.8pre0.20250209.182815";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250202.170245.tar";
-        sha256 = "13ipl0crx6n896084shax8i2j6cp7xc1x1acpvarjfwk7cix6s04";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250209.182815.tar";
+        sha256 = "0k7pmpmh76va94dy41h5mw1anp51c8lwvxxs5is16g4xw3mjh1h6";
       };
       packageRequires = [ ];
       meta = {

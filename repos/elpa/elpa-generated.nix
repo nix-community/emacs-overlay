@@ -633,10 +633,10 @@
     elpaBuild {
       pname = "autorevert-tail-truncate";
       ename = "autorevert-tail-truncate";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/autorevert-tail-truncate-1.0.0.tar";
-        sha256 = "0p8gbcgmra4av4c0sbrazfb56vp564m2cyjrspkmsjlzwgl3634r";
+        url = "https://elpa.gnu.org/packages/autorevert-tail-truncate-1.0.1.tar";
+        sha256 = "1g7bqd617vmanjf3s1c4adsj5zhvsxrzib2pkj508fs5hbyyi1wi";
       };
       packageRequires = [ ];
       meta = {
@@ -2830,10 +2830,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.13.7";
+      version = "0.13.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-0.13.7.tar";
-        sha256 = "1nlav89rb1xdrjj4kb9pvz3wjvlvwyz7h11fm098g8s81r703hcx";
+        url = "https://elpa.gnu.org/packages/ellama-0.13.11.tar";
+        sha256 = "1mm6bnywy84r59sn7dsba2cszd2gz95mxkgqg13j72bkcvxkn8wp";
       };
       packageRequires = [
         compat
