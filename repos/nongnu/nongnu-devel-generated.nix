@@ -3224,10 +3224,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.0.0.20250204.133404";
+      version = "4.3.0.0.20250208.183956";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.0.0.20250204.133404.tar";
-        sha256 = "1bj6sqb54lzdnk31lwxmgzgwgy5j55i29z8ad5m9sxjxxzlg700m";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.0.0.20250208.183956.tar";
+        sha256 = "1p3rhx0rqsm36337lsq6n9yyclc2ndbs2cr8xz4mg01l6pn7y0hj";
       };
       packageRequires = [
         compat
@@ -3255,10 +3255,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.3.0.0.20250204.133404";
+      version = "4.3.0.0.20250208.183956";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.0.0.20250204.133404.tar";
-        sha256 = "1c7zmjpvqqgybmws7wr7bh1nhp26r3v3mr7a7yhdhaij1xwxjjj2";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.0.0.20250208.183956.tar";
+        sha256 = "0i7nh1vbih8v33lrfcb8wcg2571imiqagc794l989x3ikiwglpmj";
       };
       packageRequires = [
         compat
@@ -4542,10 +4542,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250203.182938";
+      version = "2.31snapshot0.20250209.172150";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250203.182938.tar";
-        sha256 = "179h8fk5hkdcbq4w9gdcqc8gs4pafl5kdy3818vsmvgvfy6rvzq6";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250209.172150.tar";
+        sha256 = "1w4aa5ns1a7j44xlpnvvkfjxlzwmv37356767y781gdvh34np4r7";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -4606,10 +4606,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.0.4.0.20250204.123251";
+      version = "2.0.4.0.20250209.90540";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.0.4.0.20250204.123251.tar";
-        sha256 = "1vhzxz5nlx59kmxscf1jxwkb3bsjp0h0yk2dr777inyi5dqpi8gl";
+        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.0.4.0.20250209.90540.tar";
+        sha256 = "0r13r0k93r7528mvlcm6l4cylmzhssrb7h8mbh7052j0xkwvmib7";
       };
       packageRequires = [ ];
       meta = {
