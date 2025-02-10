@@ -783,10 +783,10 @@
     elpaBuild {
       pname = "blist";
       ename = "blist";
-      version = "0.4";
+      version = "0.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/blist-0.4.tar";
-        sha256 = "0k1h6rmyphqsgznk53hc1xbbnj2h2n2jknlb8vjxlv01z83s32wy";
+        url = "https://elpa.gnu.org/packages/blist-0.6.tar";
+        sha256 = "1r7pnbz4vdwbnga271d03i5dy1hvnxbf17q5bcrn05vwxlf8g83m";
       };
       packageRequires = [ ilist ];
       meta = {
