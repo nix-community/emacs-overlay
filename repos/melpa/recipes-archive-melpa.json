@@ -1235,14 +1235,14 @@
   "repo": "eliascotto/accent",
   "unstable": {
    "version": [
-    20240130,
-    1109
+    20250210,
+    906
    ],
    "deps": [
     "popup"
    ],
-   "commit": "9b02a73f3a73cc4aef73c1f2c54a2b6168b0d301",
-   "sha256": "1hdyhrjgvmdzj4yiwz9bl37a2smrak40a5a1cmqlm9328lvhsam8"
+   "commit": "d613700dc4159692f5c30dc5f241c9de41bbb1dc",
+   "sha256": "0chvcjc77s4dvvci4fd5kp7h7l56hgi9ra31p1azns6bvgm52jiq"
   }
  },
  {
@@ -10752,8 +10752,8 @@
   "repo": "chenyanming/calibredb.el",
   "unstable": {
    "version": [
-    20240714,
-    642
+    20250210,
+    1435
    ],
    "deps": [
     "dash",
@@ -10763,8 +10763,8 @@
     "s",
     "transient"
    ],
-   "commit": "bb9cfb5e5f9c2bb45386c1a9d1273a7832f8c28b",
-   "sha256": "0hmcmwmcv951v9bl8cr1cij6pkak84b9frr7h4aiydw6jpb0lcaa"
+   "commit": "807eb6397bc6fe61defd54efaf170e783853eace",
+   "sha256": "1dfck5gwmr0c4qc04kyyxv4p5x3pap7vd524h8z1cc037zhq6ibp"
   },
   "stable": {
    "version": [
@@ -25429,13 +25429,13 @@
   "unstable": {
    "version": [
     20250210,
-    201
+    1407
    ],
    "deps": [
     "transient"
    ],
-   "commit": "3bdb7f23b94aeebd9c6e6fd218e8135c26f5ec1b",
-   "sha256": "0fqbd8vd7av07f2y96acipvdh7rw5ibwhinzfj7073md7mv1n45i"
+   "commit": "885c2d84b48a52c8042d9289e11ee7757a930590",
+   "sha256": "1ijxryzbj1fjlxgd08ajclgxkx939a0aq3wkpk31yyi0iv125qlj"
   },
   "stable": {
    "version": [
@@ -34429,13 +34429,13 @@
   "stable": {
    "version": [
     0,
-    1
+    2
    ],
    "deps": [
     "erlang"
    ],
-   "commit": "2654269ffd01081f5b82306cbfacb0bebf90a12a",
-   "sha256": "1ljdns4ryxc2qnwbqc408kcwby28bz065akh62hpg9z0dqfdc4fx"
+   "commit": "eb579dd55fbb2cf721290939e7b3a50be19c0305",
+   "sha256": "055gmrlx30jm9wzgbkqpf0z9bsmaqgywxxnw41w7ia00wwfwh562"
   }
  },
  {
@@ -53012,11 +53012,11 @@
   "repo": "seagle0128/grip-mode",
   "unstable": {
    "version": [
-    20250123,
-    1407
+    20250210,
+    1010
    ],
-   "commit": "008a8bb829045113848f504269221fbb76180cab",
-   "sha256": "0injp6mxb6cyngf61nlg7vdim36brlplcpaijbyf6c4x0dfy8cy2"
+   "commit": "1bd6913eb811f67531052755a60edae79cd61afc",
+   "sha256": "0pzjd70hvylwq5r020wqjwn8fpkzd6z3pgw8j5g9cm0x8acy80gd"
   },
   "stable": {
    "version": [
@@ -76154,28 +76154,30 @@
   "repo": "emacsorphanage/magit-svn",
   "unstable": {
    "version": [
-    20220314,
-    1451
+    20250210,
+    1141
    ],
    "deps": [
+    "dash",
     "magit",
     "transient"
    ],
-   "commit": "b8277081db90977247ae3900ea6afeb0ca644d36",
-   "sha256": "1ywwylxasgyk6gldypvbn6hlbmkp24rx6kcd0qvxsp39bbd0in50"
+   "commit": "ca637c648835eddbeb277cc8089d3ffd6f75ae13",
+   "sha256": "0x419qz80ir9ni94j3n08a5ygfq1265fpr13dsnxjjnlwjbq7sx7"
   },
   "stable": {
    "version": [
     2,
     2,
-    3
+    4
    ],
    "deps": [
+    "dash",
     "magit",
     "transient"
    ],
-   "commit": "350493217afdb7637564e089f475909adecd9208",
-   "sha256": "1v1y4fir1plz4kj0cvkcd29wibli4dw7vp4fmbxq4df76d8iy8yd"
+   "commit": "ca637c648835eddbeb277cc8089d3ffd6f75ae13",
+   "sha256": "0x419qz80ir9ni94j3n08a5ygfq1265fpr13dsnxjjnlwjbq7sx7"
   }
  },
  {
@@ -114200,14 +114202,14 @@
   "repo": "slime/slime",
   "unstable": {
    "version": [
-    20250209,
-    1721
+    20250210,
+    1149
    ],
    "deps": [
     "macrostep"
    ],
-   "commit": "e20765caf12db8e118bdf7beab7dc5a11da7329e",
-   "sha256": "1qxhqfmfrg4jnwrnr170z20l8sr8ish1hirba1d88dhqvhp0kvnj"
+   "commit": "b2ee8a8c991c5195804e7f2c2f38482f3a6f12b2",
+   "sha256": "02qvlvx46hnmnvqd47my34j3zry2sk7kif6n5a7g2a1pma9qn77d"
   },
   "stable": {
    "version": [
@@ -120725,15 +120727,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20250203,
-    1232
+    20250210,
+    1111
    ],
    "deps": [
     "transient",
     "visual-fill-column"
    ],
-   "commit": "85ad1717de4a47ebeb293e836e5a89e901b55dbd",
-   "sha256": "099a9269fb9p4hj9v8lqgij9cnc2zr0ayzxws4bh3w82qz5hvi22"
+   "commit": "cfeaf8bb9b3ab3438defe8642302c951426da7b4",
+   "sha256": "1z3sc18fcn1zqacicdnk559hpa433dxa2inrv6s7h08nr11ijb81"
   },
   "stable": {
    "version": [
