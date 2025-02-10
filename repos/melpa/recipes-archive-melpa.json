@@ -25428,14 +25428,14 @@
   "repo": "alexluigit/dirvish",
   "unstable": {
    "version": [
-    20250209,
-    1639
+    20250210,
+    201
    ],
    "deps": [
     "transient"
    ],
-   "commit": "51ab5fa884fd1c2289befd51d695a6afaf01d400",
-   "sha256": "1jv84gybg31nqnajp7h44dzayzk6xkzbhm0wqwlpvzgybcrp405z"
+   "commit": "3bdb7f23b94aeebd9c6e6fd218e8135c26f5ec1b",
+   "sha256": "0fqbd8vd7av07f2y96acipvdh7rw5ibwhinzfj7073md7mv1n45i"
   },
   "stable": {
    "version": [
@@ -69822,11 +69822,26 @@
   "repo": "mew/kixtart-mode",
   "unstable": {
    "version": [
-    20150611,
-    1604
+    20250208,
+    1949
    ],
-   "commit": "1c2356797e7b766bbaaa2b341176a8b10499cd79",
-   "sha256": "1ld3ccg8q7hmjrj60rxvmmfy4dpm2lvlshjqdf9ifgjzp221g4vb"
+   "deps": [
+    "eldoc"
+   ],
+   "commit": "1d08d755969d27c5460193e09f5a1121614dbe22",
+   "sha256": "0i0j5dda4hp2p1glxgilzpkcwgpnb88r6q43yaipyrm10lyap5d8"
+  },
+  "stable": {
+   "version": [
+    1,
+    4,
+    1
+   ],
+   "deps": [
+    "eldoc"
+   ],
+   "commit": "1d08d755969d27c5460193e09f5a1121614dbe22",
+   "sha256": "0i0j5dda4hp2p1glxgilzpkcwgpnb88r6q43yaipyrm10lyap5d8"
   }
  },
  {
@@ -75471,8 +75486,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250208,
-    1839
+    20250209,
+    2318
    ],
    "deps": [
     "compat",
@@ -75482,8 +75497,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "085baa2ac96df90bdb2a1bedd3598df19919d731",
-   "sha256": "0w6phljp6l4fn7sa17n6jhfq8r0q03lv2xl5pqyrbdg8q373v1d7"
+   "commit": "689716648c883d546a018c9bb550f1179941c94b",
+   "sha256": "0b4jh21n143c89rspbry0s3b0rjwhdgxhckwy5hgpm7yyp5dqxii"
   },
   "stable": {
    "version": [
@@ -75824,16 +75839,16 @@
   "repo": "douo/magit-gptcommit",
   "unstable": {
    "version": [
-    20250209,
-    903
+    20250210,
+    157
    ],
    "deps": [
     "dash",
     "llm",
     "magit"
    ],
-   "commit": "2c3af41c40fb9fd849945b43f744bd788d3aa6f5",
-   "sha256": "140gcmdfkasf3rkgkal4a4j3kj1ni7b97y20bj7kja1rslcqrk48"
+   "commit": "79cc660e113aa2d9a520c352920430744e833dc2",
+   "sha256": "1vb361dxjgmh76hryviprvmy3djm2dj723f8sipfbshgrgqwpsl8"
   }
  },
  {
@@ -79359,27 +79374,28 @@
   "repo": "milanglacier/minuet-ai.el",
   "unstable": {
    "version": [
-    20250205,
-    1919
+    20250210,
+    621
    ],
    "deps": [
     "dash",
     "plz"
    ],
-   "commit": "034317580d67f5eb3113a0d597c509ccbcc57adc",
-   "sha256": "1hlzkn5qgv9dpis5y6vdi8ncyw3yl227cr5nf5k9y6mpkrxlyycm"
+   "commit": "59e0da86a4e41470092e26535b3a48a79002b952",
+   "sha256": "0khvii2g1g0q18msssmm8vkq2wz866hm5zrka6pncqmk1xk2whbd"
   },
   "stable": {
    "version": [
     0,
-    3
+    4,
+    1
    ],
    "deps": [
     "dash",
     "plz"
    ],
-   "commit": "cc8c890413cab2008e7674b4b9ef55627fcf5766",
-   "sha256": "1ff9ia8lcz919p5n9jnqw6259nlqj7vdb58lhxvps86xcralrk4h"
+   "commit": "59e0da86a4e41470092e26535b3a48a79002b952",
+   "sha256": "0khvii2g1g0q18msssmm8vkq2wz866hm5zrka6pncqmk1xk2whbd"
   }
  },
  {
@@ -91392,16 +91408,16 @@
   "repo": "fuxialexander/org-pdftools",
   "unstable": {
    "version": [
-    20220320,
-    301
+    20250210,
+    118
    ],
    "deps": [
     "org",
     "org-noter",
     "pdf-tools"
    ],
-   "commit": "967f48fb5038bba32915ee9da8dc4e8b10ba3376",
-   "sha256": "0f47ww8r00b7lb1msybnmnqdhm9i2vwz5lrz9m9bn6gbh97mzhn8"
+   "commit": "5613b7ae561e0af199f25aacc0a9c34c16638408",
+   "sha256": "0p86943abk55bc2402w5lb7115l3b61wv0w07m84wxi4hbfqk8k6"
   }
  },
  {
