@@ -924,10 +924,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.0.53.0.20250210.20120";
+      version = "2.0.53.0.20250210.175040";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20250210.20120.tar";
-        sha256 = "0yngvl7w6505w2fjg32gzfa465g4d8crf47r2iqjbj2icywh71vx";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20250210.175040.tar";
+        sha256 = "0sa9bp4rnm0v719p5mxixqzngbs1aackcxazz8s7ska71f3v1p1n";
       };
       packageRequires = [ transient ];
       meta = {
@@ -2349,10 +2349,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250209.145201";
+      version = "0.9.7.0.20250210.110925";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250209.145201.tar";
-        sha256 = "1xvabgpggbcqfzm81n54h1w8s66mwfdkjqcba68614g8b3gi8rx7";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250210.110925.tar";
+        sha256 = "0v6w8b1czx93bwr2b7w1lz4f024ax972yjmyrxyrdv6q39ccgh39";
       };
       packageRequires = [
         compat
@@ -2480,10 +2480,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20250209.225818";
+      version = "17.5.0.20250210.192701";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20250209.225818.tar";
-        sha256 = "14h1g8g7jf5aqigwkkl89hvgx9qgh3zrx8xki1hd8y5fs7ab82vl";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20250210.192701.tar";
+        sha256 = "1zwryx2l9h1g4aaz04vx5l9xp5hzkcy3yl7qy89pf8dhy4a1qf17";
       };
       packageRequires = [ ];
       meta = {
@@ -3478,6 +3478,7 @@
   ) { };
   multiple-cursors = callPackage (
     {
+      cl-lib ? null,
       elpaBuild,
       fetchurl,
       lib,
@@ -3485,12 +3486,12 @@
     elpaBuild {
       pname = "multiple-cursors";
       ename = "multiple-cursors";
-      version = "1.4.0.0.20241202.163103";
+      version = "1.5.0.0.20250210.181349";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors-1.4.0.0.20241202.163103.tar";
-        sha256 = "018f3fpv0ganvhcwykpb2rfw41nqlkj87dx1zfzkf7s9011grkfv";
+        url = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors-1.5.0.0.20250210.181349.tar";
+        sha256 = "072vlw8cb1f1mbzlx68lg8yrmyc7ca2f2iyxmvjy5nn3lx7v6lkd";
       };
-      packageRequires = [ ];
+      packageRequires = [ cl-lib ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors.html";
         license = lib.licenses.free;
@@ -4542,10 +4543,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250209.172150";
+      version = "2.31snapshot0.20250210.114954";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250209.172150.tar";
-        sha256 = "1w4aa5ns1a7j44xlpnvvkfjxlzwmv37356767y781gdvh34np4r7";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250210.114954.tar";
+        sha256 = "0s2w9wa24hra23x0cbw2k05sxnjaqm2hrm0hjlb1c0frq845lxgz";
       };
       packageRequires = [ macrostep ];
       meta = {

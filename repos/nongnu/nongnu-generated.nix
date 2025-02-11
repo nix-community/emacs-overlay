@@ -3501,6 +3501,7 @@
   ) { };
   multiple-cursors = callPackage (
     {
+      cl-lib ? null,
       elpaBuild,
       fetchurl,
       lib,
@@ -3508,12 +3509,12 @@
     elpaBuild {
       pname = "multiple-cursors";
       ename = "multiple-cursors";
-      version = "1.4.0";
+      version = "1.5.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/multiple-cursors-1.4.0.tar";
-        sha256 = "0452wrbwg8hyvsri99h71g04dll5w65na265pp9whphq6l06ikrx";
+        url = "https://elpa.nongnu.org/nongnu/multiple-cursors-1.5.0.tar";
+        sha256 = "05nvanam57mwa1rajnjrp9j9j23bmr5za90yp56jb6rsi8mphzbx";
       };
-      packageRequires = [ ];
+      packageRequires = [ cl-lib ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/multiple-cursors.html";
         license = lib.licenses.free;
