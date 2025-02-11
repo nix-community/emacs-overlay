@@ -6135,6 +6135,32 @@
       };
     }
   ) { };
+  org-gnosis = callPackage (
+    {
+      compat,
+      elpaBuild,
+      emacsql,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "org-gnosis";
+      ename = "org-gnosis";
+      version = "0.0.2";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/org-gnosis-0.0.2.tar";
+        sha256 = "1gmiwi9w9ylmqys7ybb35v87f87ld8kwhn9chc9n6ym98arx4c35";
+      };
+      packageRequires = [
+        compat
+        emacsql
+      ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/org-gnosis.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   org-jami-bot = callPackage (
     {
       elpaBuild,

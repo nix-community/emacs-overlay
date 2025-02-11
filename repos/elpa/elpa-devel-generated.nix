@@ -4982,10 +4982,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.23.0.0.20250208.202943";
+      version = "0.23.0.0.20250211.5543";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.23.0.0.20250208.202943.tar";
-        sha256 = "0mxrhq3vch02asbj7v4xfmi8n953byy5bc1s3g9nwb75cjlvrcvz";
+        url = "https://elpa.gnu.org/devel/llm-0.23.0.0.20250211.5543.tar";
+        sha256 = "1smgv7s3phwg9wp1z5q1q1daysffv9fayryqr8x80zgris3aqp7n";
       };
       packageRequires = [
         plz
@@ -6159,6 +6159,32 @@
       };
     }
   ) { };
+  org-gnosis = callPackage (
+    {
+      compat,
+      elpaBuild,
+      emacsql,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "org-gnosis";
+      ename = "org-gnosis";
+      version = "0.0.2.0.20250211.25508";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/org-gnosis-0.0.2.0.20250211.25508.tar";
+        sha256 = "0zc8bzvx78id1sc6pq7pyr9nkkhlpvyqg3q89xp04jf0km9a8vgc";
+      };
+      packageRequires = [
+        compat
+        emacsql
+      ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/org-gnosis.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   org-jami-bot = callPackage (
     {
       elpaBuild,
@@ -6836,10 +6862,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.4.4.0.20241202.131153";
+      version = "1.4.4.0.20250211.11057";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.4.4.0.20241202.131153.tar";
-        sha256 = "1rlzgl2bjc46g261m513dgl52n2vq0xlfmfpdm1qrdww06jjklg6";
+        url = "https://elpa.gnu.org/devel/posframe-1.4.4.0.20250211.11057.tar";
+        sha256 = "18vmjb0qx39danlvq0r4k2crqvb8xkfrpfj5xk7yxwj7al92q390";
       };
       packageRequires = [ ];
       meta = {
@@ -6944,10 +6970,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20250104.95952";
+      version = "0.11.1.0.20250211.74959";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250104.95952.tar";
-        sha256 = "1qdffp243idkgmswqyhz0fyq120f0xx5ay31y65zfgwxbrcb35cf";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250211.74959.tar";
+        sha256 = "0cd4lydvhi5nhafzvm079hb0311pirqzqvjhkd7z020ij0vqc0q4";
       };
       packageRequires = [ xref ];
       meta = {
@@ -9603,10 +9629,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.8.0.0.20250120.15236";
+      version = "0.8.0.0.20250211.11642";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-posframe-0.8.0.0.20250120.15236.tar";
-        sha256 = "18zcjyb2m3my6inwg6p0x77236vijyppqb1ka89zfbr8cwwvcxqp";
+        url = "https://elpa.gnu.org/devel/vertico-posframe-0.8.0.0.20250211.11642.tar";
+        sha256 = "0l9s2r9s8gm2xyaz8alik7m3qy4jjg6mdpbdrgd5n9bp6jk85kz5";
       };
       packageRequires = [
         posframe
