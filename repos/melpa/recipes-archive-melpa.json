@@ -19103,8 +19103,8 @@
   "repo": "chep/copilot-chat.el",
   "unstable": {
    "version": [
-    20250205,
-    1106
+    20250211,
+    826
    ],
    "deps": [
     "chatgpt-shell",
@@ -19115,8 +19115,8 @@
     "shell-maker",
     "transient"
    ],
-   "commit": "a3a9f13506f6bb8105c625bbd731e6c0e741eec2",
-   "sha256": "0igjhnz9447c0x3431l1f5k142v3bqcm5wzjppbhdx7gqf9i1cs6"
+   "commit": "e5c1e32d6555510b97f120ad713d5997531c6ea8",
+   "sha256": "0vjwhyv8nzcfxad760hhl99gmf0pv24pjfghb1qax7kxnxdz8hpr"
   },
   "stable": {
    "version": [
@@ -20605,11 +20605,11 @@
   "repo": "bbatsov/crux",
   "unstable": {
    "version": [
-    20240401,
-    1136
+    20250211,
+    1142
    ],
-   "commit": "6ed75a69f542fb7feab6b8f182caf0924b3fb510",
-   "sha256": "09lybi0bld14bdfvbji5cxrwrwflcvfnkdk618yybv1zphxmj2nx"
+   "commit": "519c2907c31259cd07b45264a7c2b885881be1d8",
+   "sha256": "0yr6jrky9bm0il96jb5w81nxfxppb7dclzk8as451ibzxharkgjq"
   },
   "stable": {
    "version": [
@@ -31202,10 +31202,10 @@
   "unstable": {
    "version": [
     20250211,
-    351
+    1012
    ],
-   "commit": "1dbe00d6d1a867b9c472d38f309416128cbdff2a",
-   "sha256": "184dvki97qdl48djcf6r009r4ic4chp995dn8jqplrvcilf9ilqq"
+   "commit": "cafea0de76bafaf37595dcb2f91b7c5b7b0314a6",
+   "sha256": "1s93g9pxyc87sfnk2maihf9ihg6v3mnrb8zg1frci7998c7fyic9"
   }
  },
  {
@@ -70925,14 +70925,14 @@
   "repo": "slotThe/change-env",
   "unstable": {
    "version": [
-    20240318,
-    855
+    20250210,
+    637
    ],
    "deps": [
     "auctex"
    ],
-   "commit": "8b6bcd562c8ba5753551f7a6837b01b562b6439a",
-   "sha256": "0qqhxbxynii3sqywqvni9i0r32jrnljriky0fsfs8bf1sndzpdc7"
+   "commit": "c39f8fbc6c378e6969bd94a19213f548c88a949c",
+   "sha256": "04018ravgjkpvg1qn9cgpfs3bzk5w8lrqj1sgfpn5k525278bck2"
   }
  },
  {
@@ -74497,8 +74497,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20250210,
-    1905
+    20250211,
+    750
    ],
    "deps": [
     "dash",
@@ -74509,8 +74509,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "9c1dfd8c55b0f4cd8733aa9f0dfff7d64fd57d8d",
-   "sha256": "1xmf4in5236vg4pi5njjqacqx502zllhrllmrq7p3v0ski5sgyis"
+   "commit": "2264d17e1b99d4d46aee6bb49d9c857e840c1782",
+   "sha256": "05kqcz3d6bs2630fk9c8q64wr02nh0rpkbpgvmwvllv95wb4nzbm"
   },
   "stable": {
    "version": [
@@ -75487,7 +75487,7 @@
   "unstable": {
    "version": [
     20250211,
-    22
+    1033
    ],
    "deps": [
     "compat",
@@ -75497,8 +75497,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "7116d0572765ab4ca79084e16536fa54f5cffdfd",
-   "sha256": "1djin3a7af2r08j1ak7fwdq77gdidg4sqbp6nqidr26nqphnq20f"
+   "commit": "4a01405bf1b6cdcaafabcbf7692a1ad0f67ea7b5",
+   "sha256": "1iwccrvbxxa8mv97mwx4jvix1xmq1yf1h5rm9sj2sajxrcqxkhl7"
   },
   "stable": {
    "version": [
@@ -82711,8 +82711,8 @@
  },
  {
   "ename": "nav",
-  "commit": "0fda2b54a0ff0b6fc3bd6d20cfcbbf63cae5380f",
-  "sha256": "0ly1fk4ak1p8gkz3qmmxyslcjgicnfm8bpqqgndvwcznp8pvpjml",
+  "commit": "ed952164529951679398bd977838a88716952987",
+  "sha256": "00vbqrpkzhzv7zig33za7v0rg2vsr6ks2k0119g0zbvn4990yvmx",
   "fetcher": "github",
   "repo": "ijt/emacs-nav",
   "unstable": {
@@ -82822,8 +82822,7 @@
  },
  {
   "ename": "navorski",
-  "commit": "9246cef94029d2da2211345c076ed55deb91e8fa",
-  "sha256": "0dnzpsm0ya8rbcik5wp378hc9k7gjb3gwmkqqj889c38q5cdwsx7",
+  "error": "No recipe info",
   "fetcher": "github",
   "repo": "roman/navorski.el",
   "unstable": {
@@ -85005,8 +85004,8 @@
   "repo": "pyluyten/emacs-nu",
   "unstable": {
    "version": [
-    20190404,
-    2032
+    20250211,
+    1243
    ],
    "deps": [
     "ace-window",
@@ -85016,8 +85015,8 @@
     "undo-tree",
     "which-key"
    ],
-   "commit": "d5fb4d26d1b0bb383ea2827cc5af5dfb2a269d2b",
-   "sha256": "0nd7ypin9kl784iqffznld6kknghdjywqnjw5nwinfgkwhcrjpdd"
+   "commit": "6510bc3f22e921aeb8ef3190bca1f432acc2870e",
+   "sha256": "0i636xql6s9fg9ggs5a1j70bsn6qgabdhqdic8vmxy1sjggiv2g7"
   }
  },
  {
@@ -103842,11 +103841,11 @@
   "repo": "purescript-emacs/purescript-mode",
   "unstable": {
    "version": [
-    20250204,
-    1410
+    20250211,
+    833
    ],
-   "commit": "e0de552627487e4c6613318e42d4402563362d28",
-   "sha256": "0afrcaxrj2ih822s41l6cbdzn3acfmm0ajc2j1c82cmbwbh8xga3"
+   "commit": "ae7b21c547e25a96b06c58d6936e9e74017a4071",
+   "sha256": "144hy2vyz3c1dqfj20bpp68pgan51qbyina51rw6sbdbp1sm5d22"
   }
  },
  {
@@ -125176,8 +125175,7 @@
  },
  {
   "ename": "twittering-mode",
-  "commit": "091dcc3775ec2137cb61d66df4e72aca4900897a",
-  "sha256": "0v9ijxw5jazh2hc0qab48y71za2l9ryff0mpkxhr3f79irlqy0a1",
+  "error": "No recipe info",
   "fetcher": "github",
   "repo": "hayamiz/twittering-mode",
   "unstable": {
