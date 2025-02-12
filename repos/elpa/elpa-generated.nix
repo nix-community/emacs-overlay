@@ -527,10 +527,10 @@
     elpaBuild {
       pname = "auth-source-xoauth2-plugin";
       ename = "auth-source-xoauth2-plugin";
-      version = "0.1";
+      version = "0.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/auth-source-xoauth2-plugin-0.1.tar";
-        sha256 = "1mni58ckvcs33jnp78y39pg6rfnm4908iz6g7l7d9y8hbjwin4xm";
+        url = "https://elpa.gnu.org/packages/auth-source-xoauth2-plugin-0.1.1.tar";
+        sha256 = "0wag5iq3bgk3sazlc4a0g67l4517kv4khidkiwrrgv1b1nq0kcrl";
       };
       packageRequires = [ oauth2 ];
       meta = {
@@ -2831,10 +2831,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.0.0.tar";
-        sha256 = "0kd704dsp5q13ncl5462y6md4li0iwlzbqxzb1x6zqign5jkk5s9";
+        url = "https://elpa.gnu.org/packages/ellama-1.0.1.tar";
+        sha256 = "0sp5s46amnz8954nyxc6lbn7bwfb316g1j3smmq0cdwi3v4chhbh";
       };
       packageRequires = [
         compat
@@ -6148,10 +6148,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.0.2";
+      version = "0.0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-gnosis-0.0.2.tar";
-        sha256 = "1gmiwi9w9ylmqys7ybb35v87f87ld8kwhn9chc9n6ym98arx4c35";
+        url = "https://elpa.gnu.org/packages/org-gnosis-0.0.3.tar";
+        sha256 = "187hdkxn805cgh88qaqa1p0kbhvir3x2plqr8avv9gib4q8j1vg4";
       };
       packageRequires = [
         compat
