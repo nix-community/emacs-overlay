@@ -2824,20 +2824,22 @@
       fetchurl,
       lib,
       llm,
+      posframe,
       spinner,
       transient,
     }:
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.13.11";
+      version = "1.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-0.13.11.tar";
-        sha256 = "1mm6bnywy84r59sn7dsba2cszd2gz95mxkgqg13j72bkcvxkn8wp";
+        url = "https://elpa.gnu.org/packages/ellama-1.0.0.tar";
+        sha256 = "0kd704dsp5q13ncl5462y6md4li0iwlzbqxzb1x6zqign5jkk5s9";
       };
       packageRequires = [
         compat
         llm
+        posframe
         spinner
         transient
       ];

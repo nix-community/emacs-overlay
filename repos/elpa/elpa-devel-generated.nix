@@ -1985,10 +1985,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.43.0.20250208.110220";
+      version = "0.43.0.20250211.110100";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.43.0.20250208.110220.tar";
-        sha256 = "1hwvdlx9gwm52vc3yddd58iwa1m69lr6wclwcc848ic8ag001zk2";
+        url = "https://elpa.gnu.org/devel/debbugs-0.43.0.20250211.110100.tar";
+        sha256 = "1am5f8k7y2si8i3dgdfm2id7jxkqmb02zrq4q0zi9fp52mdim912";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -2699,10 +2699,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250208.134208";
+      version = "1.18.0.20250211.161443";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250208.134208.tar";
-        sha256 = "0sqm6z9phbdhy6f4dzcbk5w44j4kpxnk3hgd0y233v0nhxz80ahs";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250211.161443.tar";
+        sha256 = "1ipc5661z0rz7s303nvgzrrqgq98pldw4j28apwyd6vrc5swsbmf";
       };
       packageRequires = [
         eldoc
@@ -2845,20 +2845,22 @@
       fetchurl,
       lib,
       llm,
+      posframe,
       spinner,
       transient,
     }:
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.13.11.0.20250209.202508";
+      version = "1.0.0.0.20250211.190744";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-0.13.11.0.20250209.202508.tar";
-        sha256 = "099jg3ab5bv1z4srzsvcagi0vixpx56paflr15zhy46hwsb885zq";
+        url = "https://elpa.gnu.org/devel/ellama-1.0.0.0.20250211.190744.tar";
+        sha256 = "0wdzzdkbb4d1l8h2cdjvk7g3hhabmwsdsnizx4ixdi8wsjrsx9y4";
       };
       packageRequires = [
         compat
         llm
+        posframe
         spinner
         transient
       ];
@@ -4724,10 +4726,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.4.3.0.20250121.152631";
+      version = "0.4.3.0.20250211.173738";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.4.3.0.20250121.152631.tar";
-        sha256 = "0l2nji86pkdswj8x5a5cdyqqdmh8rmlv5bm4a38zdi84kw22wfm0";
+        url = "https://elpa.gnu.org/devel/kubed-0.4.3.0.20250211.173738.tar";
+        sha256 = "0fwlhq9l4bcfscyfch83vkxnp14dv24qalrhxrjffh06h3lw96zm";
       };
       packageRequires = [ ];
       meta = {
@@ -6170,10 +6172,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.0.2.0.20250211.25508";
+      version = "0.0.2.0.20250211.203914";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-gnosis-0.0.2.0.20250211.25508.tar";
-        sha256 = "0zc8bzvx78id1sc6pq7pyr9nkkhlpvyqg3q89xp04jf0km9a8vgc";
+        url = "https://elpa.gnu.org/devel/org-gnosis-0.0.2.0.20250211.203914.tar";
+        sha256 = "16dk2nqq66xj8i1axbadccsx2z17plyisydi6q969rdrj4gf91y9";
       };
       packageRequires = [
         compat
