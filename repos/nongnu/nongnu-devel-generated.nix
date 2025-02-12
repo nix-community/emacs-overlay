@@ -688,10 +688,10 @@
     elpaBuild {
       pname = "crux";
       ename = "crux";
-      version = "0.5.0.0.20240401.113645";
+      version = "0.5.0.0.20250211.114204";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.5.0.0.20240401.113645.tar";
-        sha256 = "12pk351yrj850rg1yd9spxwrhkjlllgxbpbpfs829vnbpnvxlp6f";
+        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.5.0.0.20250211.114204.tar";
+        sha256 = "0da9w6diii2l4dm0761z2bk4cgwc3vsaz9ianf50hjlf22sbi2yn";
       };
       packageRequires = [ ];
       meta = {
@@ -2349,10 +2349,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250210.192058";
+      version = "0.9.7.0.20250211.121142";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250210.192058.tar";
-        sha256 = "0cmah6cf0vg319hayrbrmpc434l812qwjz9i45h0jd2kfrbnpgms";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250211.121142.tar";
+        sha256 = "0qna8jprqcdj0iiladynnz5vws74c07y3h2msqhcs2zh2ca2rlz9";
       };
       packageRequires = [
         compat
