@@ -2349,10 +2349,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250211.121142";
+      version = "0.9.7.0.20250211.221950";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250211.121142.tar";
-        sha256 = "0qna8jprqcdj0iiladynnz5vws74c07y3h2msqhcs2zh2ca2rlz9";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250211.221950.tar";
+        sha256 = "0mhj1h0qv2fgi0p8v2602vgyczpdpa8chhychxiy21w26169p5cj";
       };
       packageRequires = [
         compat
@@ -2849,10 +2849,10 @@
     elpaBuild {
       pname = "inf-ruby";
       ename = "inf-ruby";
-      version = "2.8.1.0.20241220.25141";
+      version = "2.9.0.0.20250212.2927";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/inf-ruby-2.8.1.0.20241220.25141.tar";
-        sha256 = "0z3vbdb1df0vwjm2lk6bk11c0afg8w6p5n2x8q4wgmwqyp3h3gb2";
+        url = "https://elpa.nongnu.org/nongnu-devel/inf-ruby-2.9.0.0.20250212.2927.tar";
+        sha256 = "0hnwrybc89fdpkn3l1ff4x3vf5c2d6rgjjxbwyikk67b6p405zm7";
       };
       packageRequires = [ ];
       meta = {
@@ -3280,10 +3280,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.7alpha0.20250115.165803";
+      version = "2.7alpha0.20250212.25916";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20250115.165803.tar";
-        sha256 = "1hmqfd4azc62qhfialnc2c6c97d9wp2mh16dahb6sgkl5axsr9rp";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20250212.25916.tar";
+        sha256 = "1shrnl18vq8287fbrjyh87ydccb3yy6h6kx45b9amxk5j18m2vvs";
       };
       packageRequires = [ ];
       meta = {

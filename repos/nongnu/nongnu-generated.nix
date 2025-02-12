@@ -2865,10 +2865,10 @@
     elpaBuild {
       pname = "inf-ruby";
       ename = "inf-ruby";
-      version = "2.8.1";
+      version = "2.9.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/inf-ruby-2.8.1.tar";
-        sha256 = "1iisxgrw7lkrcl86mj3s3578qxnx1cn615swsmnch2ilwjqdrdza";
+        url = "https://elpa.nongnu.org/nongnu/inf-ruby-2.9.0.tar";
+        sha256 = "0q6vfll2s1wc1fkmjdqsfws51j6x13knr96k94z2mjnjclv4qgcj";
       };
       packageRequires = [ ];
       meta = {
