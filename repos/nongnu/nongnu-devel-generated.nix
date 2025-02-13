@@ -688,10 +688,10 @@
     elpaBuild {
       pname = "crux";
       ename = "crux";
-      version = "0.5.0.0.20250211.114204";
+      version = "0.6.0snapshot0.20250212.201746";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.5.0.0.20250211.114204.tar";
-        sha256 = "0da9w6diii2l4dm0761z2bk4cgwc3vsaz9ianf50hjlf22sbi2yn";
+        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20250212.201746.tar";
+        sha256 = "1apz9kfs416l9r47wkbw1a6wpysxn1fvyywpkfwfb4r7j9dlmsdm";
       };
       packageRequires = [ ];
       meta = {
@@ -2571,10 +2571,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.0.20250208.103323";
+      version = "4.0.1.0.20250212.165652";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.0.20250208.103323.tar";
-        sha256 = "14h1kh1ng6dfhgg062civsh0r6gsnsaw48h5h1b726ypdd5lgh4c";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.1.0.20250212.165652.tar";
+        sha256 = "070nsz09jvz2496kf0gmyjlzfakp53dv6fhmv46z82672knkk140";
       };
       packageRequires = [ async ];
       meta = {
@@ -3873,10 +3873,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.24.0.20250108.140733";
+      version = "0.24.0.20250212.151509";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20250108.140733.tar";
-        sha256 = "1d6axrq2ymfxybzsk9xg4001cqkj4kkxpdj5fwfx28nf82f594cm";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20250212.151509.tar";
+        sha256 = "0qg60qwgbv8d0src7nr635l238yqj7sc19wb08q0n36z4njqv7gy";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -4136,10 +4136,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0snapshot0.20250209.60525";
+      version = "2.9.0.0.20250212.205908";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0snapshot0.20250209.60525.tar";
-        sha256 = "00x2xilxzgckv8i0bjq8zpwm6l7j8ac55hld7vf4iyzv100jhf9g";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0.0.20250212.205908.tar";
+        sha256 = "0pn0q5qmcc76kh94d4mvd6fjwwjf6j5z60qjplmnbbwckbd6ayjr";
       };
       packageRequires = [ ];
       meta = {
@@ -4200,14 +4200,35 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250205.162816";
+      version = "1.0.20250212.102351";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250205.162816.tar";
-        sha256 = "1cq7yl4g7s4gvzfqfkxnx0k507xws5d8iy1lnawwclw7gsc4y9hk";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250212.102351.tar";
+        sha256 = "1byfpwv7nk4ncqd1cx3qphs37xllmw8mx9gdxd86l66qr1hyp22j";
       };
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/racket-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  radio = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "radio";
+      ename = "radio";
+      version = "0.1.3.0.20250212.101912";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/radio-0.1.3.0.20250212.101912.tar";
+        sha256 = "1kar1b9yrwdj1bh1fyv096yjqp9yaf7p7s16hhm9ic7r2q5m3g98";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/radio.html";
         license = lib.licenses.free;
       };
     }
@@ -4874,6 +4895,27 @@
       };
     }
   ) { };
+  teco = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "teco";
+      ename = "teco";
+      version = "9.0.20200801.144333";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/teco-9.0.20200801.144333.tar";
+        sha256 = "0j3wzsyr28qf8pcb73nim54rmw00p45gfh2s6dnlvpfbcg96r83v";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/teco.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   telephone-line = callPackage (
     {
       cl-generic,
@@ -5018,10 +5060,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.1.0.0.20250210.180703";
+      version = "0.1.0.0.20250212.114521";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.1.0.0.20250210.180703.tar";
-        sha256 = "0dy6lc7rmnvg0a06k08wv6pqlrpp2in1q1npbjsjbn50d3rkc8kf";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.1.0.0.20250212.114521.tar";
+        sha256 = "0sy4skynxfs3lwb9ipmqln07ndi01m5jgav4awavk6ydxpyclb5m";
       };
       packageRequires = [ ];
       meta = {

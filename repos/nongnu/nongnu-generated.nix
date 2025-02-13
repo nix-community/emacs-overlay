@@ -2587,10 +2587,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0";
+      version = "4.0.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/helm-core-4.0.tar";
-        sha256 = "043pavv01m7frhdvfnp3f1xfbs1xjv43p1xs96yg75gyg1cigfd5";
+        url = "https://elpa.nongnu.org/nongnu/helm-core-4.0.1.tar";
+        sha256 = "04l43197hqxzqy1zil7zsrw0inz43j4lmybirpvqzkqy32ls0zmq";
       };
       packageRequires = [ async ];
       meta = {
@@ -4159,10 +4159,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.8.0";
+      version = "2.9.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/projectile-2.8.0.tar";
-        sha256 = "05llvm3xw3dbjdnfhy2kk6z3pysrsc9f6i7dm4glw5j1k7vig306";
+        url = "https://elpa.nongnu.org/nongnu/projectile-2.9.0.tar";
+        sha256 = "1niqyiycpmwcf2hwilf6b04varyb9x4f877xdlfm07770cq2ps0p";
       };
       packageRequires = [ ];
       meta = {
@@ -4223,10 +4223,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250205.162816";
+      version = "1.0.20250212.102351";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250205.162816.tar";
-        sha256 = "0mzm7qd89z6y5ivc7qfsahmlhamxr9rpxzm9arbx2hbnqlhj1il5";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250212.102351.tar";
+        sha256 = "14c7y8n562x7dy03078db4xxvyvvxb5kkw9vgg1296xrcpj7mls2";
       };
       packageRequires = [ ];
       meta = {
@@ -4910,6 +4910,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/tangotango-theme.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  teco = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "teco";
+      ename = "teco";
+      version = "9";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/teco-9.tar";
+        sha256 = "1c794lb22pbqc3dsaadjp0jn50j1c6wrx1b2xq1pp39yja49qvpp";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/teco.html";
         license = lib.licenses.free;
       };
     }
