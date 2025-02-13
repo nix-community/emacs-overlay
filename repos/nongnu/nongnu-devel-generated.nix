@@ -795,10 +795,10 @@
     elpaBuild {
       pname = "dart-mode";
       ename = "dart-mode";
-      version = "1.0.7.0.20240925.1934";
+      version = "1.0.7.0.20250212.213832";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20240925.1934.tar";
-        sha256 = "0pzhvlbfdk0adj4by21knbpvkj99dzclhixad2cdyfvqgw3j1xkk";
+        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20250212.213832.tar";
+        sha256 = "04scs02kc0n1jb69hh4710qai6dma3zsd4h2zppq3jb4hakfzcnj";
       };
       packageRequires = [ ];
       meta = {
@@ -924,10 +924,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.0.53.0.20250211.54001";
+      version = "2.0.53.0.20250213.82233";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20250211.54001.tar";
-        sha256 = "0kk4vrh1bkm1iml5yfzkq1jnlqzggydcqmajdk8h1y0ichr1rclq";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20250213.82233.tar";
+        sha256 = "0lkazsj222jqkk157bczscj4bjpsnqm8916ix162p66lrm8x12wl";
       };
       packageRequires = [ transient ];
       meta = {
@@ -2349,10 +2349,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250211.221950";
+      version = "0.9.7.0.20250212.170346";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250211.221950.tar";
-        sha256 = "0mhj1h0qv2fgi0p8v2602vgyczpdpa8chhychxiy21w26169p5cj";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250212.170346.tar";
+        sha256 = "0v7s784b6823djxv5ziak931gkxm9nnr228vpcdrnrh5y83azlsj";
       };
       packageRequires = [
         compat
@@ -2546,10 +2546,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.0.20250208.103323";
+      version = "4.0.1.0.20250213.73946";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.0.20250208.103323.tar";
-        sha256 = "0gs5n6qfhq6b8mgqfmiaqaziw4p5r4w22m9fcj2dxvp3vm2nrk5m";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.1.0.20250213.73946.tar";
+        sha256 = "0cqxqrhiqq7bnqs53fdi3f6n035590qkgxhry3fpz7pwsgajb5vf";
       };
       packageRequires = [
         helm-core
@@ -2571,10 +2571,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.1.0.20250212.165652";
+      version = "4.0.1.0.20250213.73946";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.1.0.20250212.165652.tar";
-        sha256 = "070nsz09jvz2496kf0gmyjlzfakp53dv6fhmv46z82672knkk140";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.1.0.20250213.73946.tar";
+        sha256 = "0gfx4fgjm84f2ggl8sfakn8ld775rjl4hp53b0gn7svq94g97lcz";
       };
       packageRequires = [ async ];
       meta = {
@@ -4136,10 +4136,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0.0.20250212.205908";
+      version = "2.9.0.0.20250213.82013";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0.0.20250212.205908.tar";
-        sha256 = "0pn0q5qmcc76kh94d4mvd6fjwwjf6j5z60qjplmnbbwckbd6ayjr";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.0.0.20250213.82013.tar";
+        sha256 = "1bls9js8zddy24ch6akhl7g8ysqyj300darvpdvz5cgclw93jfih";
       };
       packageRequires = [ ];
       meta = {
@@ -4221,10 +4221,10 @@
     elpaBuild {
       pname = "radio";
       ename = "radio";
-      version = "0.1.3.0.20250212.101912";
+      version = "0.2.0.0.20250213.64125";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/radio-0.1.3.0.20250212.101912.tar";
-        sha256 = "1kar1b9yrwdj1bh1fyv096yjqp9yaf7p7s16hhm9ic7r2q5m3g98";
+        url = "https://elpa.nongnu.org/nongnu-devel/radio-0.2.0.0.20250213.64125.tar";
+        sha256 = "1ajr6y5xyiys40yf5kqsngik25gyzya886gh20854kdrijd9wk95";
       };
       packageRequires = [ ];
       meta = {
@@ -5060,10 +5060,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.1.0.0.20250212.114521";
+      version = "0.2.1.0.20250212.204712";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.1.0.0.20250212.114521.tar";
-        sha256 = "0sy4skynxfs3lwb9ipmqln07ndi01m5jgav4awavk6ydxpyclb5m";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250212.204712.tar";
+        sha256 = "0ndynndaaalnnq3nzs95jhah7fwzzdyg1khs389rsh5cl8aij1jc";
       };
       packageRequires = [ ];
       meta = {

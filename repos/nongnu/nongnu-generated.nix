@@ -2562,10 +2562,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0";
+      version = "4.0.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/helm-4.0.tar";
-        sha256 = "1nvdadphkqizrpd92wp9n8dhbqp7dh7m4vhpxf9m18hqwrwsbm0v";
+        url = "https://elpa.nongnu.org/nongnu/helm-4.0.1.tar";
+        sha256 = "0szyw6p5542p7xbcvs174chkhvn4qgv0b0f4g0cwjd2hns3jgmbl";
       };
       packageRequires = [
         helm-core
@@ -4235,6 +4235,27 @@
       };
     }
   ) { };
+  radio = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "radio";
+      ename = "radio";
+      version = "0.2.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/radio-0.2.0.tar";
+        sha256 = "0m47bmx0bbnb8y17zdxiks41y1f1w9jsxvdmmdx389s8anxbpqjp";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/radio.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   rainbow-delimiters = callPackage (
     {
       elpaBuild,
@@ -5066,6 +5087,27 @@
       packageRequires = [ transient ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/tp.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  treesit-fold = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "treesit-fold";
+      ename = "treesit-fold";
+      version = "0.2.1";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/treesit-fold-0.2.1.tar";
+        sha256 = "1dxrp6rd6bp90h7yhkr61jf83w7ivryk2ln6hdyl6lirfk7d4h43";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/treesit-fold.html";
         license = lib.licenses.free;
       };
     }
