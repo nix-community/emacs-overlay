@@ -2831,10 +2831,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.0.1.tar";
-        sha256 = "0sp5s46amnz8954nyxc6lbn7bwfb316g1j3smmq0cdwi3v4chhbh";
+        url = "https://elpa.gnu.org/packages/ellama-1.0.2.tar";
+        sha256 = "02jm4psgqcy1zvpfcvwna0s0bfy54dfhllw97rm0k8316p2xam4v";
       };
       packageRequires = [
         compat
@@ -6148,10 +6148,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.0.3";
+      version = "0.0.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-gnosis-0.0.3.tar";
-        sha256 = "187hdkxn805cgh88qaqa1p0kbhvir3x2plqr8avv9gib4q8j1vg4";
+        url = "https://elpa.gnu.org/packages/org-gnosis-0.0.4.tar";
+        sha256 = "0x60lc2wkizrvqfmigdnn494gk8gg7kf3xj9962ymchns2m40zcm";
       };
       packageRequires = [
         compat
