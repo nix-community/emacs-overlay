@@ -4159,10 +4159,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.0";
+      version = "2.9.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/projectile-2.9.0.tar";
-        sha256 = "1niqyiycpmwcf2hwilf6b04varyb9x4f877xdlfm07770cq2ps0p";
+        url = "https://elpa.nongnu.org/nongnu/projectile-2.9.1.tar";
+        sha256 = "07icp9baa7jkyqnz4b1sxl1dg88y5vzzhiwyfb12q349flbkkkb1";
       };
       packageRequires = [ ];
       meta = {
@@ -4244,10 +4244,10 @@
     elpaBuild {
       pname = "radio";
       ename = "radio";
-      version = "0.2.0";
+      version = "0.2.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/radio-0.2.0.tar";
-        sha256 = "0m47bmx0bbnb8y17zdxiks41y1f1w9jsxvdmmdx389s8anxbpqjp";
+        url = "https://elpa.nongnu.org/nongnu/radio-0.2.1.tar";
+        sha256 = "0i29mmvr80rwkq8w17a4pvm0fddxj2i883lhx2s70p59dbfb654r";
       };
       packageRequires = [ ];
       meta = {
