@@ -5520,10 +5520,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.6.0.0.20250212.62612";
+      version = "4.6.0.0.20250213.90005";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250212.62612.tar";
-        sha256 = "090hrl699ifckm546ril85s46n2gy9zj58y7nnm3plsdwnbdj9jn";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250213.90005.tar";
+        sha256 = "1fypgfg346r6pw0nvpyraaaq81g75l3qd6jvj01lasr9wfj6idx0";
       };
       packageRequires = [ ];
       meta = {
@@ -6172,10 +6172,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.0.5.0.20250213.15639";
+      version = "0.0.5.0.20250213.192936";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-gnosis-0.0.5.0.20250213.15639.tar";
-        sha256 = "1xv1n0d3li76y026cjzlk8gnxnjizbxphlbv1nhyr2d1dj7xka9y";
+        url = "https://elpa.gnu.org/devel/org-gnosis-0.0.5.0.20250213.192936.tar";
+        sha256 = "0q327lnjm6kncdnla7dxc48bv8mr9cy595c35lzdf80b81pbyhlq";
       };
       packageRequires = [
         compat
@@ -7535,10 +7535,10 @@
     elpaBuild {
       pname = "register-list";
       ename = "register-list";
-      version = "0.1.0.20221212.230034";
+      version = "0.1.0.20250213.102055";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/register-list-0.1.0.20221212.230034.tar";
-        sha256 = "02qc5ll26br1smx5d0ci3wm0s4hdj8sw72xdapn5bql5509n75dx";
+        url = "https://elpa.gnu.org/devel/register-list-0.1.0.20250213.102055.tar";
+        sha256 = "1q0lcj1ranylqawvi9y0c6rc87bl7g6bdwd08hpnsjh3jzyzmvqk";
       };
       packageRequires = [ ];
       meta = {
