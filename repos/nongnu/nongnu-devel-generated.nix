@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.17.0snapshot0.20250130.80122";
+      version = "1.17.0snapshot0.20250214.85554";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250130.80122.tar";
-        sha256 = "1k3vrnml83vlfjq3qindaii2laj8m0zcifvp97hm8ibfsdz2qmbg";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250214.85554.tar";
+        sha256 = "1iz22g416syhwphjwkjnblbc3czmqaagmw1yq278944j97jbzmh8";
       };
       packageRequires = [
         clojure-mode
@@ -924,10 +924,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.0.53.0.20250213.165220";
+      version = "2.0.53.0.20250214.84334";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20250213.165220.tar";
-        sha256 = "1blj031pnnw8cykhabxmycg0yhk22sprvgh1fpk6k0carljaq5w7";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.0.53.0.20250214.84334.tar";
+        sha256 = "17c06dzsh2zi2jj62y9qpgidl3b9k5xc5dmr6hgfyzj3m9m9dyvv";
       };
       packageRequires = [ transient ];
       meta = {
@@ -2349,10 +2349,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250213.112137";
+      version = "0.9.7.0.20250213.193252";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250213.112137.tar";
-        sha256 = "0g4idrs88hpvghvip3khnshbzqml2jridf3isvkybj3rgx5g7nv5";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250213.193252.tar";
+        sha256 = "1ddr943w85y4mjixf3c8anmx6dwvv8lzmjdkmznqvrs2yi2jfc9n";
       };
       packageRequires = [
         compat
@@ -3690,10 +3690,10 @@
     elpaBuild {
       pname = "org-journal";
       ename = "org-journal";
-      version = "2.2.0.0.20240225.201950";
+      version = "2.2.0.0.20250214.74227";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-journal-2.2.0.0.20240225.201950.tar";
-        sha256 = "013yyxalngcl55z0z23qgjz0gwgjp5px0hd2ykibflw2vlqkl97p";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-journal-2.2.0.0.20250214.74227.tar";
+        sha256 = "1gs31yh7r3444p4v4xvqwbrnypgw7wiwmrq005cqv53s4rdzgax5";
       };
       packageRequires = [ org ];
       meta = {
@@ -4136,10 +4136,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1.0.20250213.113753";
+      version = "2.9.1.0.20250214.61213";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250213.113753.tar";
-        sha256 = "0sn7zhjwrm4k7qrfw24lnsxvnc5lv1aap1f87a919ayqfb1dp0bq";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250214.61213.tar";
+        sha256 = "1qhp4nmsqp0cqgifgky42afkjfkm8kgdz55vgq2j3krjyxxh2y0m";
       };
       packageRequires = [ ];
       meta = {
