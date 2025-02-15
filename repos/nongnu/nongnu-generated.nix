@@ -942,17 +942,16 @@
       elpaBuild,
       fetchurl,
       lib,
-      transient,
     }:
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.0.53";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/dirvish-2.0.53.tar";
-        sha256 = "02ji38zsb7lw43s919a8xfxcz2fl5cdrs3rk99cfqyvc4c1lywql";
+        url = "https://elpa.nongnu.org/nongnu/dirvish-2.1.0.tar";
+        sha256 = "09ngncazniz1b4z5azlgcyfgwcjg2fpk0yrp2by3n6db24fpali0";
       };
-      packageRequires = [ transient ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/dirvish.html";
         license = lib.licenses.free;
@@ -3320,10 +3319,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.1.9";
+      version = "1.1.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-1.1.9.tar";
-        sha256 = "01csrqkbjch7cxvmsp8lp3ipaijsqbr230nmk0ss2q19rkmh4sc9";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-1.1.10.tar";
+        sha256 = "1w656nbdk4rzfa3kpmbdzvf9py6p30wjwvndqp7v0pp59lj1bl2p";
       };
       packageRequires = [
         persist
@@ -5172,6 +5171,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/typescript-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  typst-ts-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "typst-ts-mode";
+      ename = "typst-ts-mode";
+      version = "0.11.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/typst-ts-mode-0.11.0.tar";
+        sha256 = "0waf2m5cypfpcbb5g39xf9z5ik84wx83178d8s4npspw1zfhmbh3";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/typst-ts-mode.html";
         license = lib.licenses.free;
       };
     }
