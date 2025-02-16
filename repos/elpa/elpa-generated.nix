@@ -1298,10 +1298,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.1.0";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/colorful-mode-1.1.0.tar";
-        sha256 = "1rq9jsa6imj6bw8s63sg7v6xc1zgrr4afrm4pydl280ly6cmp5bv";
+        url = "https://elpa.gnu.org/packages/colorful-mode-1.2.0.tar";
+        sha256 = "1xddrvz3zyzqngp5xyvh5pbp86lw7bmkdcc4qc2a3k3dbw18469j";
       };
       packageRequires = [ compat ];
       meta = {
