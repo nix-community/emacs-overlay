@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.17.0snapshot0.20250216.184721";
+      version = "1.17.0.0.20250217.143837";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250216.184721.tar";
-        sha256 = "071555frnyfam3hwgjvh21c146c9lzh38lla0n2zkymadg11avjb";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0.0.20250217.143837.tar";
+        sha256 = "08vz0lvg6wgl310jzlrgaxhj8wqjb3v2yjmp9jlq4gfrsxq7y534";
       };
       packageRequires = [
         clojure-mode
@@ -1694,10 +1694,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0snapshot0.20250201.75945";
+      version = "35.0snapshot0.20250217.204636";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20250201.75945.tar";
-        sha256 = "1sd7ayqw1jv86yy84jvw708kzxmx1js754yx7l4ijp76dgb7pwsm";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20250217.204636.tar";
+        sha256 = "08j9r64w9dlkzgmmwv17ysrsv1ammf8sfida7gdkdn75aay667iq";
       };
       packageRequires = [ ];
       meta = {
@@ -2545,10 +2545,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.1.0.20250216.153112";
+      version = "4.0.1.0.20250217.154410";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.1.0.20250216.153112.tar";
-        sha256 = "045q4w3mh1lg697q0wjbfapxbavgyjp0ycgnr4qvf0wsk84z2hp1";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.1.0.20250217.154410.tar";
+        sha256 = "1h2ic49nynxr3864ra41s5ip8fsqxkp0alrhi0p3gkph3193qa5k";
       };
       packageRequires = [
         helm-core
@@ -2570,10 +2570,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.1.0.20250216.153112";
+      version = "4.0.1.0.20250217.154410";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.1.0.20250216.153112.tar";
-        sha256 = "0vz3q3zbsvhbq1sdc49jla7kp2bbksiw00cryfc3hfd3r8kdhbl4";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.1.0.20250217.154410.tar";
+        sha256 = "13w7djmv1qq9rgw6bpbawy3va64nl5kzwr3k4cvw6njk5gfa3yhq";
       };
       packageRequires = [ async ];
       meta = {
@@ -4220,10 +4220,10 @@
     elpaBuild {
       pname = "radio";
       ename = "radio";
-      version = "0.2.1.0.20250216.184309";
+      version = "0.3.0.0.20250217.170828";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/radio-0.2.1.0.20250216.184309.tar";
-        sha256 = "1i60z6hbjs3a0sk168mf2kdkxn2mz59xpm565b031f8cr1l07rc1";
+        url = "https://elpa.nongnu.org/nongnu-devel/radio-0.3.0.0.20250217.170828.tar";
+        sha256 = "1gc30cj685ys3p5i6wzfgaqjfri1hf6jgyks1g6zn9jdkirr5x0h";
       };
       packageRequires = [ ];
       meta = {

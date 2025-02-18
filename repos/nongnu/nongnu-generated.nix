@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.16.1";
+      version = "1.17.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/cider-1.16.1.tar";
-        sha256 = "12nzhxy614fbmck7k7yy5yfknvmrsafc06vysc7c6ya6q4mmb91x";
+        url = "https://elpa.nongnu.org/nongnu/cider-1.17.0.tar";
+        sha256 = "02vcj9256ifc5gx41ncd1a83zmblhx91y36yh34hpm63fwnj6l5z";
       };
       packageRequires = [
         clojure-mode
@@ -4243,10 +4243,10 @@
     elpaBuild {
       pname = "radio";
       ename = "radio";
-      version = "0.2.1";
+      version = "0.3.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/radio-0.2.1.tar";
-        sha256 = "0i29mmvr80rwkq8w17a4pvm0fddxj2i883lhx2s70p59dbfb654r";
+        url = "https://elpa.nongnu.org/nongnu/radio-0.3.0.tar";
+        sha256 = "0mcq659rg3jp6qrs548a2qix67ga3qp7qqv3jpx712xrdncndn2k";
       };
       packageRequires = [ ];
       meta = {
