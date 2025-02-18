@@ -1694,10 +1694,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0snapshot0.20250217.204636";
+      version = "35.0snapshot0.20250217.212415";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20250217.204636.tar";
-        sha256 = "08j9r64w9dlkzgmmwv17ysrsv1ammf8sfida7gdkdn75aay667iq";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20250217.212415.tar";
+        sha256 = "11ah7hircsrhzkyhhn998hb82glb2bk4j5fgfiy6xcscaxld8f0a";
       };
       packageRequires = [ ];
       meta = {
@@ -5517,10 +5517,10 @@
     elpaBuild {
       pname = "ws-butler";
       ename = "ws-butler";
-      version = "0.7.0.20241107.1911";
+      version = "1.0.0.20250218.32544";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/ws-butler-0.7.0.20241107.1911.tar";
-        sha256 = "1571dns6zdvdqvz5mnca207jpbijm9aiaf6x4iy69w91hszsdda0";
+        url = "https://elpa.nongnu.org/nongnu-devel/ws-butler-1.0.0.20250218.32544.tar";
+        sha256 = "0smdcdsr2wbg640q15fgm985073md3c5lfkyw43zvk6a4jvyjs1j";
       };
       packageRequires = [ ];
       meta = {
