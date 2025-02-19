@@ -1386,10 +1386,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20250218.35401";
+      version = "1.0.2.0.20250219.15231";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20250218.35401.tar";
-        sha256 = "0hph8adp07x3fk9nz0hfdjyanyl03g33ax98m602mdnc5n8a16wv";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20250219.15231.tar";
+        sha256 = "07yx6mrzp3ril7fsqi41is33r1dmfqmfv89w97dy2alh6w5fvpxh";
       };
       packageRequires = [ ];
       meta = {
@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.4.1.0.20250202.52435";
+      version = "0.5.0.0.20250219.74017";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-hoogle-0.4.1.0.20250202.52435.tar";
-        sha256 = "1nlf2icdy8b5jkqp33m0izf40z7h9nbsfcb4wx36db3dn4ajjb7p";
+        url = "https://elpa.gnu.org/devel/consult-hoogle-0.5.0.0.20250219.74017.tar";
+        sha256 = "0k0xqnwg75cm284niyfmcnmdx3qbnslr1ssz5hz0yca99bz8sypx";
       };
       packageRequires = [ consult ];
       meta = {
@@ -2852,10 +2852,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.1.7.0.20250217.203042";
+      version = "1.2.0.0.20250218.221050";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.1.7.0.20250217.203042.tar";
-        sha256 = "15g3njadwrkz5zfvlbv10230ckqmx0n2dhxzsvphg6frzdaay4h0";
+        url = "https://elpa.gnu.org/devel/ellama-1.2.0.0.20250218.221050.tar";
+        sha256 = "1zi5ss534k8zf2qy78d5r56d3bx40n86vlvj4x61qb622kspzd36";
       };
       packageRequires = [
         compat
@@ -4533,10 +4533,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "1.12.0.20250207.140139";
+      version = "1.12.0.20250219.33530";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-1.12.0.20250207.140139.tar";
-        sha256 = "0lankxybmh4d7vkyaadrm53ph4w165mnjmfmr8kfnsy7k16hqc41";
+        url = "https://elpa.gnu.org/devel/jinx-1.12.0.20250219.33530.tar";
+        sha256 = "06klpbx45ga01p137j603qmhxcg38lamclq8yznszzf0pk60f5sh";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4984,10 +4984,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.23.0.0.20250213.4241";
+      version = "0.23.0.0.20250218.223125";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.23.0.0.20250213.4241.tar";
-        sha256 = "0rbzambxfam6cmdb6przwv58ip7xsz5xmb4vb2kwn72h3rarhadn";
+        url = "https://elpa.gnu.org/devel/llm-0.23.0.0.20250218.223125.tar";
+        sha256 = "1yi2am7m16gsmny20vq48gz8511wcv4w6jis2m4m97xd1ispi4d0";
       };
       packageRequires = [
         plz
@@ -7128,10 +7128,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20250218.190417";
+      version = "0.28.0.20250219.20734";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20250218.190417.tar";
-        sha256 = "1v4jafkr74grbp360r8f92z0y1db64d41rw9jmvl81vw2q988px6";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20250219.20734.tar";
+        sha256 = "0bi11vw4987v8s41a1kcb029p8cbc9gsw4j19l5x0vl516wadfcy";
       };
       packageRequires = [
         compat

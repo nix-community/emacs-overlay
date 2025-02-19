@@ -1553,10 +1553,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.4.1";
+      version = "0.5.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-hoogle-0.4.1.tar";
-        sha256 = "18gb1ggj184c7v2fbykyqj49cxcid8gnds2ab0r13mm1ad2q6xdi";
+        url = "https://elpa.gnu.org/packages/consult-hoogle-0.5.0.tar";
+        sha256 = "183mms98c5ajr2z60qwpl2b8b466dqz6nd84vvpqdzvxr9qkw14n";
       };
       packageRequires = [ consult ];
       meta = {
@@ -2831,10 +2831,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.1.7";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.1.7.tar";
-        sha256 = "1z6rs6g12riff0srbnbnzqyb4vmy28f8nyjdz6jzfzamacx38bz8";
+        url = "https://elpa.gnu.org/packages/ellama-1.2.0.tar";
+        sha256 = "1ivgdg3hdl3hrgmvmcq9vy00wf0amcacgcv1bmp21zjqrdbw6hcj";
       };
       packageRequires = [
         compat
