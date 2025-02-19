@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.8.0.20250212.113701";
+      version = "14.0.8.0.20250218.204154";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.8.0.20250212.113701.tar";
-        sha256 = "0h99fzfnp67nww3jnx126hrh6890lw01iyj3kjys91v3n2zhfi74";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.8.0.20250218.204154.tar";
+        sha256 = "19pdwmsalw7cizwp3dh7idn1zaqa464vc2mi64q2j7f95ji0inn2";
       };
       packageRequires = [ ];
       meta = {
@@ -761,10 +761,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.3.0.20241101.92331";
+      version = "0.1.3.0.20250218.153038";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20241101.92331.tar";
-        sha256 = "0fnkzb4m0ank7892cjqjzxdjf1amjnpfbm3wh0g5j3xf44g8hk44";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20250218.153038.tar";
+        sha256 = "1blazv8xailaipqwl9r35vllph6c4ry1i0iivnbpynjgmc8zisq7";
       };
       packageRequires = [ ];
       meta = {
@@ -1638,10 +1638,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.7.0.20250128.82142";
+      version = "1.7.0.20250218.122349";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.7.0.20250128.82142.tar";
-        sha256 = "17wih4xrba4ilx8jkdm5f1l47ihmvg30wzycfzb67h60hqb6gb97";
+        url = "https://elpa.gnu.org/devel/corfu-1.7.0.20250218.122349.tar";
+        sha256 = "05hf8bkjcmrfvpnlzbnbqa7xy6waiqsyvivkjar4j340liw0h2rp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4220,10 +4220,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.2.0.20250201.115728";
+      version = "0.8.2.0.20250218.150202";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.2.0.20250201.115728.tar";
-        sha256 = "1xp9lhk1yz842b3z6j181ziql99b0pj1wy7nnpjlqxnga0pcf8z9";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.2.0.20250218.150202.tar";
+        sha256 = "03fsqx4my1lr2q93d88jdq10i3ffvibmwl4f8kmmhsimz30qv3ys";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6101,10 +6101,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250215.150127";
+      version = "9.8pre0.20250218.183739";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250215.150127.tar";
-        sha256 = "1bc92k3m6x2i8yxldyh8fqr0cmgid377vkj6f43g845q2kncp7ih";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250218.183739.tar";
+        sha256 = "0kz7jb1plhdd36dsdi5wq441j1h61mwyfl6fv1zam69b0kdm04ac";
       };
       packageRequires = [ ];
       meta = {
@@ -7128,10 +7128,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28.0.20250215.112459";
+      version = "0.28.0.20250218.190417";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.28.0.20250215.112459.tar";
-        sha256 = "1nr6dk180vpfb9cv77v2yx5h8zq8a7hlmapid1wgp3g2n51yiwx1";
+        url = "https://elpa.gnu.org/devel/python-0.28.0.20250218.190417.tar";
+        sha256 = "1v4jafkr74grbp360r8f92z0y1db64d41rw9jmvl81vw2q988px6";
       };
       packageRequires = [
         compat
@@ -9630,10 +9630,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.11.0.20250216.145105";
+      version = "1.11.0.20250218.95149";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.11.0.20250216.145105.tar";
-        sha256 = "0wm3vr5bybwzffk6f5jgc0iqh9h2sc3wwkh05f8a2683s80wrymn";
+        url = "https://elpa.gnu.org/devel/vertico-1.11.0.20250218.95149.tar";
+        sha256 = "1a5wjfmsanv9avygpgjk0rk33rng79xf5llvci1z4f902glmig5i";
       };
       packageRequires = [ compat ];
       meta = {
