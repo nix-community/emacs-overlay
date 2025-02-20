@@ -761,10 +761,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.3.0.20250218.153038";
+      version = "0.1.3.0.20250219.151707";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20250218.153038.tar";
-        sha256 = "1blazv8xailaipqwl9r35vllph6c4ry1i0iivnbpynjgmc8zisq7";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20250219.151707.tar";
+        sha256 = "199y2bfsi7cjb3f0lprc1h8h4xc6k96jipjzyw3sh16ax1fjww62";
       };
       packageRequires = [ ];
       meta = {
@@ -1105,10 +1105,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.9.0.20250128.81944";
+      version = "1.9.0.20250219.194316";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-1.9.0.20250128.81944.tar";
-        sha256 = "1yccij3mv2lvf047d8qayafczfpvjj1pxg3b7hqbfmhlmk35jkj5";
+        url = "https://elpa.gnu.org/devel/cape-1.9.0.20250219.194316.tar";
+        sha256 = "1jpqxs7llzfpknl4k432wbwdjiwrcmm2l8ldpx1kxcn5q00f7m7q";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2852,10 +2852,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.2.0.0.20250218.221050";
+      version = "1.2.2.0.20250219.205423";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.2.0.0.20250218.221050.tar";
-        sha256 = "1zi5ss534k8zf2qy78d5r56d3bx40n86vlvj4x61qb622kspzd36";
+        url = "https://elpa.gnu.org/devel/ellama-1.2.2.0.20250219.205423.tar";
+        sha256 = "0j6hnhrrpk1vc63mq7yhkk36vrnylhv6rjig30dszs7ckpxlbnsl";
       };
       packageRequires = [
         compat
@@ -6172,10 +6172,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.0.6.0.20250214.203307";
+      version = "0.0.7.0.20250219.93341";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-gnosis-0.0.6.0.20250214.203307.tar";
-        sha256 = "0w94dg0cdzbgym9waxhgydl4amxdhzb4jvns0a53llvzcd19jccy";
+        url = "https://elpa.gnu.org/devel/org-gnosis-0.0.7.0.20250219.93341.tar";
+        sha256 = "0aq8w3lxvjbjqkk2w0cbfqs6z6sagkim7wkqdb3riyg6cqch7wf1";
       };
       packageRequires = [
         compat
