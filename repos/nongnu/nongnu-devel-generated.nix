@@ -2545,10 +2545,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.1.0.20250219.165049";
+      version = "4.0.1.0.20250220.44640";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.1.0.20250219.165049.tar";
-        sha256 = "0fmmrrz1q58kdpycwqi1aa6fxmymyg7ndydnzjd0i8hsfh7pwm4r";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.1.0.20250220.44640.tar";
+        sha256 = "0j6d0rihxim8rg3g0zhr8bs5p81s44zkyc1r8b9cvr0f33x0k4vk";
       };
       packageRequires = [
         helm-core
@@ -2570,10 +2570,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.1.0.20250219.165049";
+      version = "4.0.1.0.20250220.44640";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.1.0.20250219.165049.tar";
-        sha256 = "03w4gpqif2kqims66c3fbzm7r1aq3rzhp708mqzbrjq28m9gb906";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.1.0.20250220.44640.tar";
+        sha256 = "035wvv2vjmn50ay7sqsjlivhqw3ricdk0n74ssa90p1jyfy7881d";
       };
       packageRequires = [ async ];
       meta = {
@@ -4325,10 +4325,10 @@
     elpaBuild {
       pname = "request";
       ename = "request";
-      version = "0.3.3.0.20230126.231738";
+      version = "0.3.3.0.20250219.185201";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/request-0.3.3.0.20230126.231738.tar";
-        sha256 = "1fsyi1g65am1ln72hmxi216g95l29v9xdx9hrhky7i3j96fflnf6";
+        url = "https://elpa.nongnu.org/nongnu-devel/request-0.3.3.0.20250219.185201.tar";
+        sha256 = "0r2rzkgfw8ka31v7hyrsymnra3v40g2sdwvz7s34fgxx9fkryihb";
       };
       packageRequires = [ ];
       meta = {
@@ -5144,10 +5144,10 @@
     elpaBuild {
       pname = "typst-ts-mode";
       ename = "typst-ts-mode";
-      version = "0.11.0.0.20250212.192208";
+      version = "0.11.0.0.20250220.50237";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.11.0.0.20250212.192208.tar";
-        sha256 = "17j0j01q2wqx1f7whwwx1qrhn0m7n8fv99164mdzfgp3ss2wb78p";
+        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.11.0.0.20250220.50237.tar";
+        sha256 = "1swwg7ryah0czxvdlqfpnf4n0pbla2glv9b04x4fyfaww4yrsaa1";
       };
       packageRequires = [ ];
       meta = {
