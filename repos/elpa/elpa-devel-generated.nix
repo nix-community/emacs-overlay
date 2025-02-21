@@ -2852,10 +2852,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.2.2.0.20250219.205423";
+      version = "1.2.3.0.20250220.180235";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.2.2.0.20250219.205423.tar";
-        sha256 = "0j6hnhrrpk1vc63mq7yhkk36vrnylhv6rjig30dszs7ckpxlbnsl";
+        url = "https://elpa.gnu.org/devel/ellama-1.2.3.0.20250220.180235.tar";
+        sha256 = "15l5apya3djfjv5s4xgsp58ahgna2v0xqjp5pxh5bd5si3q0dk4h";
       };
       packageRequires = [
         compat
@@ -3467,10 +3467,10 @@
     elpaBuild {
       pname = "fontaine";
       ename = "fontaine";
-      version = "2.1.0.0.20250125.104950";
+      version = "3.0.0.0.20250220.111012";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/fontaine-2.1.0.0.20250125.104950.tar";
-        sha256 = "1jaz58gci7d8wgxmjwgg3qwhh1m6rnphbfvmrr0g6hr741vif65r";
+        url = "https://elpa.gnu.org/devel/fontaine-3.0.0.0.20250220.111012.tar";
+        sha256 = "122a5hapm0jk43gd7sn1qsv9nz9b55rhff9irnqmv78f0wxxy3sy";
       };
       packageRequires = [ ];
       meta = {
