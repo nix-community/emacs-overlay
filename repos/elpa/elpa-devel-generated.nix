@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.8.0.20250218.204154";
+      version = "14.0.8.0.20250221.153103";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.8.0.20250218.204154.tar";
-        sha256 = "19pdwmsalw7cizwp3dh7idn1zaqa464vc2mi64q2j7f95ji0inn2";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.8.0.20250221.153103.tar";
+        sha256 = "14kn2gjra0rzk3i15gl1blcbi0kmvdqgnxh44926d4778rrrdv09";
       };
       packageRequires = [ ];
       meta = {
@@ -761,10 +761,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.3.0.20250219.151707";
+      version = "0.1.3.0.20250221.141540";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20250219.151707.tar";
-        sha256 = "199y2bfsi7cjb3f0lprc1h8h4xc6k96jipjzyw3sh16ax1fjww62";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20250221.141540.tar";
+        sha256 = "086l7sqs6hczxn2bh1jin0mb8lsnya3vqsh3cb7wf23108h5ks4k";
       };
       packageRequires = [ ];
       meta = {
@@ -4050,10 +4050,10 @@
     elpaBuild {
       pname = "hiddenquote";
       ename = "hiddenquote";
-      version = "1.2.0.20231107.184113";
+      version = "1.2.0.20250221.162200";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hiddenquote-1.2.0.20231107.184113.tar";
-        sha256 = "0iy7mxqhph4kmp4a96r141f4dpk5vwiydx9i9gx5c13zzwvy2y7r";
+        url = "https://elpa.gnu.org/devel/hiddenquote-1.2.0.20250221.162200.tar";
+        sha256 = "1ngiw6z1rfabszx3gwyx1bj1jw92n8c49qqp3ay876n2va34w197";
       };
       packageRequires = [ ];
       meta = {
