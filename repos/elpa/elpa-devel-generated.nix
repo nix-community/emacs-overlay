@@ -1386,10 +1386,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20250219.15231";
+      version = "1.0.2.0.20250222.31230";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20250219.15231.tar";
-        sha256 = "07yx6mrzp3ril7fsqi41is33r1dmfqmfv89w97dy2alh6w5fvpxh";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20250222.31230.tar";
+        sha256 = "1h91adq51l2wza2s8c6mcwxzv0jlndxxvnqd0w7d0hrcfmfg45ai";
       };
       packageRequires = [ ];
       meta = {
@@ -3078,10 +3078,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1snapshot0.20250217.10051";
+      version = "5.6.1snapshot0.20250221.184006";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20250217.10051.tar";
-        sha256 = "0ay9naajaswnfijifj2j438b2sakd4z3il1nrzxwd34yi21cw35z";
+        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20250221.184006.tar";
+        sha256 = "1gfvv408msmp18jsacbslkbmqyxh7mh9bi4lj5xxjk80mll93fyk";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4050,10 +4050,10 @@
     elpaBuild {
       pname = "hiddenquote";
       ename = "hiddenquote";
-      version = "1.2.0.20250221.162200";
+      version = "1.2.0.20250221.215559";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hiddenquote-1.2.0.20250221.162200.tar";
-        sha256 = "1ngiw6z1rfabszx3gwyx1bj1jw92n8c49qqp3ay876n2va34w197";
+        url = "https://elpa.gnu.org/devel/hiddenquote-1.2.0.20250221.215559.tar";
+        sha256 = "01b291r6730skwawddlq1byhnxpjxm0zzfkwj4agpjsjrjmzcdvm";
       };
       packageRequires = [ ];
       meta = {
