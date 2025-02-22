@@ -39,10 +39,10 @@ function update_github_repo() {
     echo "{\"type\": \"github\", \"owner\": \"${owner}\", \"repo\": \"${repo}\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > $repo-$output_name.json
 }
 
-function update_release() {
-    echo emacs release
+function update_unstable() {
+    echo emacs unstable
 
-    tag=$(git ls-remote --tags --refs --sort=-v:refname https://git.savannah.gnu.org/git/emacs.git 'emacs-[1-9]*' | grep -Eo 'emacs-.*' | grep -v '\-rc' | head -n1)
+    tag=$(git ls-remote --tags --refs --sort=-v:refname https://git.savannah.gnu.org/git/emacs.git 'emacs-[1-9]*' | grep -Eo 'emacs-.*' | head -n1)
 
     digest=$(nix-prefetch-url --unpack "https://git.savannah.gnu.org/cgit/emacs.git/snapshot/${tag}.tar.gz")
     version_number=$(echo $tag | cut -d '-' -f 2)
@@ -52,7 +52,7 @@ function update_release() {
 
 update_savannah_branch master
 update_savannah_branch feature/igc
-update_release
+update_unstable
 update_github_repo emacs-lsp emacs json-rpc lsp
 update_github_repo commercial-emacs commercial-emacs master commercial-emacs
 
