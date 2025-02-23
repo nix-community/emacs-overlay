@@ -31511,30 +31511,32 @@
   "repo": "s-kostyaev/ellama",
   "unstable": {
    "version": [
-    20250222,
-    1416
+    20250223,
+    1046
    ],
    "deps": [
     "compat",
     "llm",
+    "plz",
     "transient"
    ],
-   "commit": "1c52902d4de4933b61cd3a3bcdd3f74cadd31f9f",
-   "sha256": "0ysl6f01yqm0xrks3hgf2swdrwn5wcippjvp6s4x6s79hlz5ck92"
+   "commit": "ad88edf9edc313f10107c45a8a21ecf6b6b6d139",
+   "sha256": "1zy09qlcs8jkacljx6cxm637f2c971c2kc9gjbfb70q9kc6syh82"
   },
   "stable": {
    "version": [
     1,
-    3,
+    4,
     0
    ],
    "deps": [
     "compat",
     "llm",
+    "plz",
     "transient"
    ],
-   "commit": "1c52902d4de4933b61cd3a3bcdd3f74cadd31f9f",
-   "sha256": "0ysl6f01yqm0xrks3hgf2swdrwn5wcippjvp6s4x6s79hlz5ck92"
+   "commit": "ad88edf9edc313f10107c45a8a21ecf6b6b6d139",
+   "sha256": "1zy09qlcs8jkacljx6cxm637f2c971c2kc9gjbfb70q9kc6syh82"
   }
  },
  {
@@ -32392,11 +32394,11 @@
   "repo": "magit/emacsql",
   "unstable": {
    "version": [
-    20250220,
-    1155
+    20250223,
+    1203
    ],
-   "commit": "48cbd1600b932ba0f7ecfcae3404d47c3685f721",
-   "sha256": "18bsqdiv15bpn56as8qkj18mr2l2ln4lvn0rd0sh4zqrhahlbfzc"
+   "commit": "ad9d1b97156975bf808ecdd8eb65b374b24db1a6",
+   "sha256": "1m9nlfpim5igsj9f37gxr2n37858827g1qnpmry2fp1g1ydiz49r"
   },
   "stable": {
    "version": [
@@ -103848,11 +103850,11 @@
   "repo": "smoeding/puppet-ts-mode",
   "unstable": {
    "version": [
-    20250107,
-    1617
+    20250223,
+    1347
    ],
-   "commit": "052145cf6c30114c6e6492a1b6fdfda4945e0ac9",
-   "sha256": "0hnd7xixrji80c3k3khm2ypwd4ixij9fix5cpb784xq276y84h7z"
+   "commit": "5d5b55d9b36aada96e3913c61c5aa47fd8602d17",
+   "sha256": "0shdvxvwk504wnxq1qgrhjhvl1v5qzvi3h6qlip4xyyaq3610i1h"
   }
  },
  {
