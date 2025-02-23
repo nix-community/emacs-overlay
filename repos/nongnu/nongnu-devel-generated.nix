@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0.0.20250222.22937";
+      version = "2.1.0.0.20250222.152753";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250222.22937.tar";
-        sha256 = "0a32mbw963azm5wv34596f3h4jwgh26886h7ix4crssys8h48kbk";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250222.152753.tar";
+        sha256 = "0jclrrd14l6hciqgjp7cqnxbmrbcphpf59w9s90djrdf6v2k5cq1";
       };
       packageRequires = [ ];
       meta = {
@@ -2545,10 +2545,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.1.0.20250222.45111";
+      version = "4.0.1.0.20250222.182905";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.1.0.20250222.45111.tar";
-        sha256 = "0qakrbln8a42rafaqn0pbsin1hpj536dmca3mn0xda2abf4xw3jm";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.1.0.20250222.182905.tar";
+        sha256 = "1f592f0n03h9lh6d526xcpagkvaykvxksyiais6kl8gs8c137fib";
       };
       packageRequires = [
         helm-core
@@ -2570,10 +2570,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.1.0.20250222.45111";
+      version = "4.0.1.0.20250222.182905";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.1.0.20250222.45111.tar";
-        sha256 = "1vgbq674l1sgisl4bc4876c34kdv2i3dr5dqwywvdfrcvqay4f9n";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.1.0.20250222.182905.tar";
+        sha256 = "1fa0nx78i8xi63qyh5jca1613csg22qa7lzp8b8mj9dmiih7hpm7";
       };
       packageRequires = [ async ];
       meta = {
@@ -4627,10 +4627,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.0.4.0.20250209.90540";
+      version = "2.0.4.0.20250222.142943";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.0.4.0.20250209.90540.tar";
-        sha256 = "0r13r0k93r7528mvlcm6l4cylmzhssrb7h8mbh7052j0xkwvmib7";
+        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.0.4.0.20250222.142943.tar";
+        sha256 = "0m8wxvm9a501w4pfc1an4i99h0wv6hpfk1yizh8yjw0y3y8fz606";
       };
       packageRequires = [ ];
       meta = {
