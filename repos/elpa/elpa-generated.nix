@@ -2824,23 +2824,19 @@
       fetchurl,
       lib,
       llm,
-      posframe,
-      spinner,
       transient,
     }:
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.2.5";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.2.5.tar";
-        sha256 = "0j1b2vwdvfzjj57dhxscbq3rrf631hdgyqfscy1y53vf95xfiag0";
+        url = "https://elpa.gnu.org/packages/ellama-1.3.0.tar";
+        sha256 = "1p6da9z5qrn2n9xzsi2q1ddn9dq67svanl01bb1xmdgbskdh56zh";
       };
       packageRequires = [
         compat
         llm
-        posframe
-        spinner
         transient
       ];
       meta = {
@@ -6077,10 +6073,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.22";
+      version = "9.7.23";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.22.tar";
-        sha256 = "02hka40mswx5fqnnvqyxjyvj00x5lic3mabk7s12xxwpl7m05p9w";
+        url = "https://elpa.gnu.org/packages/org-9.7.23.tar";
+        sha256 = "12j1akbkwq2rxijn78p86xvih8ggd3zq92vglk4vqci7gq1pi5an";
       };
       packageRequires = [ ];
       meta = {
