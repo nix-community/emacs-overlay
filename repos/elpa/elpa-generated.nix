@@ -2824,19 +2824,21 @@
       fetchurl,
       lib,
       llm,
+      plz,
       transient,
     }:
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.3.0";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.3.0.tar";
-        sha256 = "1p6da9z5qrn2n9xzsi2q1ddn9dq67svanl01bb1xmdgbskdh56zh";
+        url = "https://elpa.gnu.org/packages/ellama-1.4.0.tar";
+        sha256 = "0zgwrsqlcrkcrhgqfv7jlzg1df9i4jl3jzrvcy36jjlyr7b35vw2";
       };
       packageRequires = [
         compat
         llm
+        plz
         transient
       ];
       meta = {

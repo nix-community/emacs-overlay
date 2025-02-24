@@ -1898,10 +1898,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.22.0.0.20250223.4543";
+      version = "0.22.0.0.20250223.195720";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.22.0.0.20250223.4543.tar";
-        sha256 = "02r22paiynpc043sv19pj4p7la828ajjvmbd8d0cb91lz3wngylm";
+        url = "https://elpa.gnu.org/devel/dape-0.22.0.0.20250223.195720.tar";
+        sha256 = "08mzflvagjkqx8npwf2ng8bz55bc7ir3whxq7c8slvd9nrx22bhk";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2845,19 +2845,21 @@
       fetchurl,
       lib,
       llm,
+      plz,
       transient,
     }:
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.3.0.0.20250222.141653";
+      version = "1.4.0.0.20250223.115812";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.3.0.0.20250222.141653.tar";
-        sha256 = "17khnkkvja9sgsv1r1frdihk51cnd4h6iz6xckcc4lqaibaqsjrs";
+        url = "https://elpa.gnu.org/devel/ellama-1.4.0.0.20250223.115812.tar";
+        sha256 = "15jfaam72xj1b25g8srs1p4l8z6i5xp9q3bviy7l770qmch3645c";
       };
       packageRequires = [
         compat
         llm
+        plz
         transient
       ];
       meta = {
@@ -4152,10 +4154,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250221.80824";
+      version = "9.0.2pre0.20250223.115739";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250221.80824.tar";
-        sha256 = "04smcahcy3qd58ibbamyfdir3ahpb1y0mw107i03m5bqry7x3kph";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250223.115739.tar";
+        sha256 = "06jsv85wb2r9c25pvc87v4kznj7wmsyg09d5rljbyvk6i5lgkqjx";
       };
       packageRequires = [ ];
       meta = {
@@ -6097,10 +6099,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250222.144116";
+      version = "9.8pre0.20250223.155539";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250222.144116.tar";
-        sha256 = "0fziwr6dadh3i07r8rifypb2sflmhkzkmjdhgavqbp6fpkb7a5j0";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250223.155539.tar";
+        sha256 = "0sm845k55ybmmrsyk2k9km4frw17knaahlxnyaih1zlqbx3dbzcw";
       };
       packageRequires = [ ];
       meta = {
@@ -9498,10 +9500,10 @@
     elpaBuild {
       pname = "vc-got";
       ename = "vc-got";
-      version = "1.2.0.20230129.104658";
+      version = "1.2.0.20250223.143804";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-got-1.2.0.20230129.104658.tar";
-        sha256 = "0dwigmr1rm8a80ngx25jrqlgnbdj51db6avmyg3v7avhkyg5x455";
+        url = "https://elpa.gnu.org/devel/vc-got-1.2.0.20250223.143804.tar";
+        sha256 = "18rph07s97jhnfc13kpfma82i7y5nkj9z697xxqxzzz8ijnqncnw";
       };
       packageRequires = [ ];
       meta = {
