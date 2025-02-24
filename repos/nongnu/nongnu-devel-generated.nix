@@ -1198,10 +1198,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.1.0.0.20250220.115530";
+      version = "4.1.0.0.20250223.174337";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.1.0.0.20250220.115530.tar";
-        sha256 = "0mlydba80s2di1v632zp7my5gdhbzpj0ifhn8nmazfwqb2g6n32i";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.1.0.0.20250223.174337.tar";
+        sha256 = "0n7rwi2gs2xhysakawlf87cwmiiayrhpqf8qwcs4mkxmwamvyacv";
       };
       packageRequires = [ ];
       meta = {
@@ -2545,10 +2545,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.1.0.20250223.53447";
+      version = "4.0.1.0.20250223.140205";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.1.0.20250223.53447.tar";
-        sha256 = "17lbi2dd64vlsmn6vdiz8j6jh331v1piqspaja5mkaw7lz8mhw37";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.1.0.20250223.140205.tar";
+        sha256 = "1xiafsiylzai759mzfbxx4n9cqqw40xnlhm9yj3mymjqd35rnlbz";
       };
       packageRequires = [
         helm-core
@@ -2570,10 +2570,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.1.0.20250223.53447";
+      version = "4.0.1.0.20250223.140205";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.1.0.20250223.53447.tar";
-        sha256 = "1j86gnqhcimjhcwjq6fq8887c2n3crbqv5xsrlf1km347fmgcwpv";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.1.0.20250223.140205.tar";
+        sha256 = "0xcx166qac3xhvxfpsc1xl2167lfa0hgwppy0clxqqalns1m10cb";
       };
       packageRequires = [ async ];
       meta = {
