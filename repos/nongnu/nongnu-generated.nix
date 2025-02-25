@@ -5531,10 +5531,10 @@
     elpaBuild {
       pname = "ws-butler";
       ename = "ws-butler";
-      version = "1.1";
+      version = "1.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/ws-butler-1.1.tar";
-        sha256 = "1vy7g2ryg1drcz9zpn011d36zcd9a5b5yny5hwpjrllqj5dg73jx";
+        url = "https://elpa.nongnu.org/nongnu/ws-butler-1.2.tar";
+        sha256 = "1gkkzr945dgwpi2i8rl4g7d1ixbk2rfl2fj0555why4h5438236p";
       };
       packageRequires = [ ];
       meta = {
