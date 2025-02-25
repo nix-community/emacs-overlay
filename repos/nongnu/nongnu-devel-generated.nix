@@ -795,10 +795,10 @@
     elpaBuild {
       pname = "dart-mode";
       ename = "dart-mode";
-      version = "1.0.7.0.20250212.213832";
+      version = "1.0.7.0.20250224.120240";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20250212.213832.tar";
-        sha256 = "04scs02kc0n1jb69hh4710qai6dma3zsd4h2zppq3jb4hakfzcnj";
+        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20250224.120240.tar";
+        sha256 = "0jc4snbk62fi2ksnca8cp7m3jc7xr0yaap9p9hjjv72h1hnnl1rl";
       };
       packageRequires = [ ];
       meta = {
@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0.0.20250224.13605";
+      version = "2.1.0.0.20250224.173635";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250224.13605.tar";
-        sha256 = "0r625rir4an464z6vbdfl7zlymxhqjw43qyxp7sfcw17x1r1x0r7";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250224.173635.tar";
+        sha256 = "0dnhrz7qzjh663f9f29d23lh8137wrp1kxq3k3gj5zd0m7kkg4mw";
       };
       packageRequires = [ ];
       meta = {
@@ -2479,10 +2479,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20250210.192701";
+      version = "17.5.0.20250224.154800";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20250210.192701.tar";
-        sha256 = "1zwryx2l9h1g4aaz04vx5l9xp5hzkcy3yl7qy89pf8dhy4a1qf17";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20250224.154800.tar";
+        sha256 = "1ac93cgr1w6x260k5gyhgjg17v9j46v5kp0kbw59sqzplicwvzlj";
       };
       packageRequires = [ ];
       meta = {
@@ -3872,10 +3872,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.24.0.20250212.151509";
+      version = "0.24.0.20250224.172310";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20250212.151509.tar";
-        sha256 = "0qg60qwgbv8d0src7nr635l238yqj7sc19wb08q0n36z4njqv7gy";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20250224.172310.tar";
+        sha256 = "0nhylbksa0yg839lzivlk0n1fmkpah37vilknbxzfnrd4ci7247a";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -4114,10 +4114,10 @@
     elpaBuild {
       pname = "popup";
       ename = "popup";
-      version = "0.5.9.0.20250210.202254";
+      version = "0.5.9.0.20250224.15605";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/popup-0.5.9.0.20250210.202254.tar";
-        sha256 = "0n8zaz1gi8akrxwam3pmsjj715sjjxcqf1mnjkr7sfdk7ndzbk08";
+        url = "https://elpa.nongnu.org/nongnu-devel/popup-0.5.9.0.20250224.15605.tar";
+        sha256 = "11l0k9lrh7jhjshag9mclq5qa8vmll98vqf08837svlgpf0nwc4z";
       };
       packageRequires = [ ];
       meta = {
@@ -5059,10 +5059,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20250221.123518";
+      version = "0.2.1.0.20250224.13641";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250221.123518.tar";
-        sha256 = "09ap8zs9xhsxmgm378lz6pysrg5f4xh6ijm224gd6sg86pinfpnc";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250224.13641.tar";
+        sha256 = "0bxcm39q7i7by1vxfi18lpmmm2270xvp231yxj8w5qb05p1n5aaq";
       };
       packageRequires = [ ];
       meta = {
