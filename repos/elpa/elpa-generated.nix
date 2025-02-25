@@ -4305,10 +4305,10 @@
     elpaBuild {
       pname = "ivy";
       ename = "ivy";
-      version = "0.14.2";
+      version = "0.15.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ivy-0.14.2.tar";
-        sha256 = "1h9gfkkcw9nfw85m0mh08qfmi2y0jkvdk54qx0iy5p04ysmhs6k1";
+        url = "https://elpa.gnu.org/packages/ivy-0.15.0.tar";
+        sha256 = "13kikgvrhi2b6dg0py4n51kc881dv7bll71iaxq1bjlzdwvsn20h";
       };
       packageRequires = [ ];
       meta = {
@@ -8978,10 +8978,10 @@
     elpaBuild {
       pname = "transient-cycles";
       ename = "transient-cycles";
-      version = "1.0";
+      version = "1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-cycles-1.0.tar";
-        sha256 = "0s6cxagqxj4i3qf4kx8mdrihciz3v6ga7zw19jcv896rdhx75bx5";
+        url = "https://elpa.gnu.org/packages/transient-cycles-1.1.tar";
+        sha256 = "0y19kns3xfppyhriyapam3m134yvm9idylmsj12s9g9zva0sal45";
       };
       packageRequires = [ ];
       meta = {

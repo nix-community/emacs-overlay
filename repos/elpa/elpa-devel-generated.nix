@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.8.0.20250224.195056";
+      version = "14.0.8.0.20250225.60136";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.8.0.20250224.195056.tar";
-        sha256 = "0pn26876w59g310aryacrmzbj3yz2y1nxmn40nn7ga09fj8z6yan";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.8.0.20250225.60136.tar";
+        sha256 = "0pfnjf8xsvvzc1fgrbfyz0l3lgvf3firsip3rwmylz01qj4z7psg";
       };
       packageRequires = [ ];
       meta = {
@@ -2699,10 +2699,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250222.134829";
+      version = "1.18.0.20250225.2515";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250222.134829.tar";
-        sha256 = "1wqbrvbf3z2wvdmqvd5f9d5sa6kb2sbams0vdskqr10w3gvd4smz";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250225.2515.tar";
+        sha256 = "1v557jc91nrqg4pdkcg9cc44x93yz4l0n7v4c9sj5wcrdnb44bgl";
       };
       packageRequires = [
         eldoc
@@ -3398,10 +3398,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.3.7.0.20250117.105815";
+      version = "1.3.7.0.20250225.2515";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20250117.105815.tar";
-        sha256 = "0ya7pdm1npa80prrcbfwk2k9rf8sgyphfmghvwqc6w4svwh4kf2m";
+        url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20250225.2515.tar";
+        sha256 = "0n7ffwfgz6s3rkl1fw0zzaqknzm93xr7vpc92h3grfjgrkl7526a";
       };
       packageRequires = [
         eldoc
@@ -4154,10 +4154,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250224.10051";
+      version = "9.0.2pre0.20250225.84434";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250224.10051.tar";
-        sha256 = "0jj8kyh5w0rzryikq6k39rcbk9qfjn9pigza81l8y892pjvygwh4";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250225.84434.tar";
+        sha256 = "1ysqcsc6sa261jvd1hpxwsfnbkxrlvzakplbz6h3sr7j2vr753vl";
       };
       packageRequires = [ ];
       meta = {
@@ -4324,10 +4324,10 @@
     elpaBuild {
       pname = "ivy";
       ename = "ivy";
-      version = "0.14.2.0.20240829.172705";
+      version = "0.15.0.0.20250225.83943";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ivy-0.14.2.0.20240829.172705.tar";
-        sha256 = "0rsgrrzy33gpm8h0w0zk7al5awj14rvxlklgb7v2jllsd6z6c9gx";
+        url = "https://elpa.gnu.org/devel/ivy-0.15.0.0.20250225.83943.tar";
+        sha256 = "1h26hx2cvw73nlaryrqhdmxsyagqzcy9iiiglxihq4sp302kcqar";
       };
       packageRequires = [ ];
       meta = {
@@ -4617,10 +4617,10 @@
     elpaBuild {
       pname = "jsonrpc";
       ename = "jsonrpc";
-      version = "1.0.25.0.20250222.134829";
+      version = "1.0.25.0.20250225.2515";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.25.0.20250222.134829.tar";
-        sha256 = "1hg3higwck94f0k6yylz9848ndpwcmn512v9fmqii313z5hgi0v4";
+        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.25.0.20250225.2515.tar";
+        sha256 = "1zfgpyrlbydnqwim4zrh9xbj37g8yqbwdz9ci0r90d1s4h6nyzgv";
       };
       packageRequires = [ ];
       meta = {
@@ -7078,10 +7078,10 @@
     elpaBuild {
       pname = "pyim";
       ename = "pyim";
-      version = "5.3.4.0.20240508.25615";
+      version = "5.3.4.0.20250225.70943";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pyim-5.3.4.0.20240508.25615.tar";
-        sha256 = "0p079girx795fvqswdjh8l5mwdyndanfcsvb1qvj2klq063y1vv5";
+        url = "https://elpa.gnu.org/devel/pyim-5.3.4.0.20250225.70943.tar";
+        sha256 = "07549ppwkx8xr71a4xdkxwhg9ilmnmxmqac83klcpzscm9gasyh3";
       };
       packageRequires = [
         async
@@ -9116,10 +9116,10 @@
     elpaBuild {
       pname = "transient-cycles";
       ename = "transient-cycles";
-      version = "1.0.0.20220410.130412";
+      version = "1.1.0.20250225.93512";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-cycles-1.0.0.20220410.130412.tar";
-        sha256 = "1rmgmlbjig866gr5jr89mv8ikvpf0p0pcgpa236nmiw3j6jsywa8";
+        url = "https://elpa.gnu.org/devel/transient-cycles-1.1.0.20250225.93512.tar";
+        sha256 = "1j6w8zy39h744wps9dgc05l7zrk7pg6vwx91rh7kvzrj6m8hmwds";
       };
       packageRequires = [ ];
       meta = {
