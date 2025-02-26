@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0.0.20250225.170910";
+      version = "2.1.0.0.20250226.21751";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250225.170910.tar";
-        sha256 = "0igdqdw8ivi7agp3vfx02a3aix5yqiqya3zplaw69z6f4fj938qb";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250226.21751.tar";
+        sha256 = "02dgsvilj2viqn4315kyiv1ji5a842753ab83ryfqqw48lzsd9aa";
       };
       packageRequires = [ ];
       meta = {
@@ -2348,10 +2348,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250224.210001";
+      version = "0.9.7.0.20250225.142110";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250224.210001.tar";
-        sha256 = "0nxk9xsgls4d2scj8b4kfg0bly8wn8rndjl6r042lc331db85mya";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250225.142110.tar";
+        sha256 = "1wjjskx066k04w6bfddcwkranz0nnqvcwcz3fhbv0gpqdi9ms1y8";
       };
       packageRequires = [
         compat
@@ -2545,10 +2545,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.1.0.20250225.62416";
+      version = "4.0.2.0.20250225.194248";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.1.0.20250225.62416.tar";
-        sha256 = "1j33ad4kp4lhjmzy9vmdm03kjr9g0kyyi65jh0mna2kv98nxkb1c";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250225.194248.tar";
+        sha256 = "0fijdrcg04r1c26lwbjdsnlkxya7ll3p3y4gg4wq7cr97x3j2kpd";
       };
       packageRequires = [
         helm-core
@@ -3279,10 +3279,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.7alpha0.20250216.81025";
+      version = "2.8alpha0.20250226.23105";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.7alpha0.20250216.81025.tar";
-        sha256 = "094hv5kp9halwd1l8mya63qfc7g4xnx91ys9g887sxhgn3r59q8f";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20250226.23105.tar";
+        sha256 = "1g78mmrm221s0v9ix84mj16dclrc98ji9rdpg1lkmx3ych05cwy5";
       };
       packageRequires = [ ];
       meta = {
@@ -5102,10 +5102,10 @@
     elpaBuild {
       pname = "tuareg";
       ename = "tuareg";
-      version = "3.0.2snapshot0.20231009.174342";
+      version = "3.0.2snapshot0.20250225.233138";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tuareg-3.0.2snapshot0.20231009.174342.tar";
-        sha256 = "10ijh4h8srm810b74jb0bqb8zxca91bsbhlb85fyyscbsvhms2f1";
+        url = "https://elpa.nongnu.org/nongnu-devel/tuareg-3.0.2snapshot0.20250225.233138.tar";
+        sha256 = "0wcsb106dv415cdpin8x2z89gsx3lj8x5h54dcair0nmqxi0d9vj";
       };
       packageRequires = [ caml ];
       meta = {
