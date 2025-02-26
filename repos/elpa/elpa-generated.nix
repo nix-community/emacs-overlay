@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.8";
+      version = "14.0.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/auctex-14.0.8.tar";
-        sha256 = "0bcjkbwhbkmm0r7pbh44j7vw9b39g2iw1jgw4sq54qp7387j6lmy";
+        url = "https://elpa.gnu.org/packages/auctex-14.0.9.tar";
+        sha256 = "1mhzrqln0fjj9nn04dhgzpcyv2wzysz4l85wmp4fw620jksf8j7n";
       };
       packageRequires = [ ];
       meta = {
@@ -4328,10 +4328,10 @@
     elpaBuild {
       pname = "ivy-avy";
       ename = "ivy-avy";
-      version = "0.14.2";
+      version = "0.15.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ivy-avy-0.14.2.tar";
-        sha256 = "12s5z3h8bpa6vdk7f54i2dy18hd3p782pq3x6mkclkvlxijv7d11";
+        url = "https://elpa.gnu.org/packages/ivy-avy-0.15.0.tar";
+        sha256 = "0xqykxvsm7q81744qj4w7ma83v6s9a4wx4flywqch4dn7liaiqwj";
       };
       packageRequires = [
         avy
@@ -4376,10 +4376,10 @@
     elpaBuild {
       pname = "ivy-hydra";
       ename = "ivy-hydra";
-      version = "0.14.2";
+      version = "0.15.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ivy-hydra-0.14.2.tar";
-        sha256 = "1p08rpj3ac2rwjcqbzkq9r5pmc1d9ci7s9bl0qv5cj5r8wpl69mx";
+        url = "https://elpa.gnu.org/packages/ivy-hydra-0.15.0.tar";
+        sha256 = "1crznifig71l6h4zjsr39d2w02blw7vla1vafv0yhhj6ryd4030g";
       };
       packageRequires = [
         hydra
@@ -8431,10 +8431,10 @@
     elpaBuild {
       pname = "swiper";
       ename = "swiper";
-      version = "0.14.2";
+      version = "0.15.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/swiper-0.14.2.tar";
-        sha256 = "1rzp78ix19ddm7fx7p4i5iybd5lw244kqvf3nrafz3r7q6hi8yds";
+        url = "https://elpa.gnu.org/packages/swiper-0.15.0.tar";
+        sha256 = "16vznhb8zqzqvg3i2pkwfani2h19dm08aj7qv334mlyj97rv1ppn";
       };
       packageRequires = [ ivy ];
       meta = {
