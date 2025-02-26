@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.17.0";
+      version = "1.17.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/cider-1.17.0.tar";
-        sha256 = "02vcj9256ifc5gx41ncd1a83zmblhx91y36yh34hpm63fwnj6l5z";
+        url = "https://elpa.nongnu.org/nongnu/cider-1.17.1.tar";
+        sha256 = "0h708n6yz4v50843rp5wan9g35zd4f91nia5lryzmdqskah1yrcg";
       };
       packageRequires = [
         clojure-mode
@@ -988,10 +988,10 @@
     elpaBuild {
       pname = "dockerfile-mode";
       ename = "dockerfile-mode";
-      version = "1.7";
+      version = "1.9";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/dockerfile-mode-1.7.tar";
-        sha256 = "1rpgjhbb2vzz6fqcqksvx27a1mj8p3bgmjh00433qd8g7hghc9v7";
+        url = "https://elpa.nongnu.org/nongnu/dockerfile-mode-1.9.tar";
+        sha256 = "11cdwb3l0fkzx8xgcf9xi6mi7q86jf9vfhagpc076qxwwjz0vgp7";
       };
       packageRequires = [ ];
       meta = {
@@ -2586,10 +2586,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.1";
+      version = "4.0.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/helm-core-4.0.1.tar";
-        sha256 = "04l43197hqxzqy1zil7zsrw0inz43j4lmybirpvqzkqy32ls0zmq";
+        url = "https://elpa.nongnu.org/nongnu/helm-core-4.0.2.tar";
+        sha256 = "1mgc89k12lwivj453q3frcwzwag10wngy13jz6jxdl7135gsmywd";
       };
       packageRequires = [ async ];
       meta = {

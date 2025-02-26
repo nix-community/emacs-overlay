@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.17.0.0.20250223.74342";
+      version = "1.17.1.0.20250225.103758";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0.0.20250223.74342.tar";
-        sha256 = "1kyqyjpmimg5xf8knz5zd1npaq3ziw78v3lll1fa48da5lsbd7dc";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.1.0.20250225.103758.tar";
+        sha256 = "05323l40gh1bk42l169kjsygqgm0chdc2di262bhidaanwriyfdc";
       };
       packageRequires = [
         clojure-mode
@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0.0.20250225.71139";
+      version = "2.1.0.0.20250225.170910";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250225.71139.tar";
-        sha256 = "0hi1wrh7lpiqp69qc30a6qi5scpf0zfm3163llxdi1b3cfrid34j";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250225.170910.tar";
+        sha256 = "0igdqdw8ivi7agp3vfx02a3aix5yqiqya3zplaw69z6f4fj938qb";
       };
       packageRequires = [ ];
       meta = {
@@ -965,10 +965,10 @@
     elpaBuild {
       pname = "dockerfile-mode";
       ename = "dockerfile-mode";
-      version = "1.7.0.20240914.114946";
+      version = "1.9.0.20250225.102722";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dockerfile-mode-1.7.0.20240914.114946.tar";
-        sha256 = "1v7yv221p844249m75ip41p0khn2gas7hfv8b0np3g78pzdai4mw";
+        url = "https://elpa.nongnu.org/nongnu-devel/dockerfile-mode-1.9.0.20250225.102722.tar";
+        sha256 = "1mmylgvlmx7cdppfsi28hnf2s3v6qnpk5ii2r2qjbyj7vnbnk97g";
       };
       packageRequires = [ ];
       meta = {
@@ -2570,10 +2570,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.1.0.20250225.62416";
+      version = "4.0.2.0.20250225.194248";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.1.0.20250225.62416.tar";
-        sha256 = "0fjcqcbcgg7x47pqkr4adrl0g909kc37ys01hmhh13c97w33ihy7";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250225.194248.tar";
+        sha256 = "19q5a9bkaxacidw75qw03iwrspzhmhfp5aibc1qlr22jpr00bdc3";
       };
       packageRequires = [ async ];
       meta = {
@@ -2591,10 +2591,10 @@
     elpaBuild {
       pname = "hideshowvis";
       ename = "hideshowvis";
-      version = "0.8.0.20240529.112833";
+      version = "0.8.0.20250225.175051";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hideshowvis-0.8.0.20240529.112833.tar";
-        sha256 = "0wb1i3p79wf39svgbvdjlhivbyankm4xklf1r63i5vlaxz5fc6di";
+        url = "https://elpa.nongnu.org/nongnu-devel/hideshowvis-0.8.0.20250225.175051.tar";
+        sha256 = "1f0p5ir99n5m41habjkhy2c2nj7infianp6zy0d6i8493gxcxay4";
       };
       packageRequires = [ ];
       meta = {
@@ -5059,10 +5059,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20250224.13641";
+      version = "0.2.1.0.20250225.13153";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250224.13641.tar";
-        sha256 = "0bxcm39q7i7by1vxfi18lpmmm2270xvp231yxj8w5qb05p1n5aaq";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250225.13153.tar";
+        sha256 = "10xsxv2idskr2l8fq2j1xxwj14f685ssr2waagljzgmwi9lk1d2b";
       };
       packageRequires = [ ];
       meta = {
@@ -5624,10 +5624,10 @@
     elpaBuild {
       pname = "yasnippet-snippets";
       ename = "yasnippet-snippets";
-      version = "1.0.0.20241207.222105";
+      version = "1.0.0.20250225.95035";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/yasnippet-snippets-1.0.0.20241207.222105.tar";
-        sha256 = "1nd9cnnwqrxizfzqdx3a4l9wj5sdr6gg42fss9dngbd22spa3kkb";
+        url = "https://elpa.nongnu.org/nongnu-devel/yasnippet-snippets-1.0.0.20250225.95035.tar";
+        sha256 = "1cmf2vg50lhbkcq5wrzgcc8h5idwdywg42dnizv3dbsvv4h5kcpl";
       };
       packageRequires = [ yasnippet ];
       meta = {
