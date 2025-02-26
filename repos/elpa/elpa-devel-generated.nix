@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250225.191959";
+      version = "14.0.9.0.20250225.213505";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250225.191959.tar";
-        sha256 = "1g1wh8ypdks3czmaw5kr4xmg9zmnwq1mxrk2qhgmkgj03yf9nsjc";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250225.213505.tar";
+        sha256 = "1wf8v20r70zryir592xvdhn6h1dk7ym5grwfsk7mdkccwkd9y1z0";
       };
       packageRequires = [ ];
       meta = {
@@ -1683,10 +1683,10 @@
     elpaBuild {
       pname = "counsel";
       ename = "counsel";
-      version = "0.14.2.0.20240520.132838";
+      version = "0.15.0.0.20250225.84128";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/counsel-0.14.2.0.20240520.132838.tar";
-        sha256 = "1xpvkyljahcjf84f4b40ivax1i06vyyyhlj3v7x0g90qjl6ba2cr";
+        url = "https://elpa.gnu.org/devel/counsel-0.15.0.0.20250225.84128.tar";
+        sha256 = "0gpn38fp7rkyx6jrhxyi9zfy1mw9jzzsfzk3p4n2ymbid2d0pnr8";
       };
       packageRequires = [
         ivy
@@ -8135,10 +8135,10 @@
     elpaBuild {
       pname = "soap-client";
       ename = "soap-client";
-      version = "3.2.3.0.20250101.73917";
+      version = "3.2.3.0.20250226.15703";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/soap-client-3.2.3.0.20250101.73917.tar";
-        sha256 = "0y2zzf5c1yfxx2wrr2ixymk2brp3x73qlxsnjkbmlb6hvjzqp704";
+        url = "https://elpa.gnu.org/devel/soap-client-3.2.3.0.20250226.15703.tar";
+        sha256 = "0nnksnwhx9fhj3lrc8s1l2c075xgpcfz5hmdk253835n0wzfz3n5";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -9930,10 +9930,10 @@
     elpaBuild {
       pname = "window-tool-bar";
       ename = "window-tool-bar";
-      version = "0.3.0.20250208.111330";
+      version = "0.3.0.20250226.15703";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/window-tool-bar-0.3.0.20250208.111330.tar";
-        sha256 = "1xg1jkb08hw0a1q9rfd3fvdkwmcd04syzj9lihlyww2am8ki286v";
+        url = "https://elpa.gnu.org/devel/window-tool-bar-0.3.0.20250226.15703.tar";
+        sha256 = "02jg7fkd0ax5cxxi9snqv4kgpnwcvfak1dpp9hazzsvinf7bbf68";
       };
       packageRequires = [ compat ];
       meta = {
