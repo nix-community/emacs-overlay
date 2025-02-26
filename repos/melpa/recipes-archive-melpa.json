@@ -3307,11 +3307,11 @@
   "repo": "anki-editor/anki-editor",
   "unstable": {
    "version": [
-    20250222,
-    1110
+    20250226,
+    627
    ],
-   "commit": "ca273ea43a24493c8717921027804eb78f7a43fb",
-   "sha256": "0plgqnlgmg4k4427c4bpk9kn9vlrc181n9n3py7i9g15kyn407cm"
+   "commit": "de89acb203a387427ce84472168b1c1b04919ad6",
+   "sha256": "10bca3659im7hnz9ilr3sh6ldr4psma5vxy2q3njjadasw2q7a10"
   }
  },
  {
@@ -25464,11 +25464,11 @@
   "repo": "alexluigit/dirvish",
   "unstable": {
    "version": [
-    20250225,
-    1709
+    20250226,
+    217
    ],
-   "commit": "3c5e2aa006fe02e0acc3ecc150a6dc48217f0509",
-   "sha256": "1xk774szjlxhjgqzx82f6w00pgd1xsmyzng6ln5b14pjrlrfvjqr"
+   "commit": "9f06a1361903921076b415d1b1f6d9fbb4379eff",
+   "sha256": "0lwwhyj7z5qjqqa3vas4wkby13za1vlnj5qpgk2vs4gxzh8d0xc1"
   },
   "stable": {
    "version": [
@@ -52421,14 +52421,14 @@
   "repo": "dolmens/gptel-aibo",
   "unstable": {
    "version": [
-    20250223,
-    28
+    20250226,
+    333
    ],
    "deps": [
     "gptel"
    ],
-   "commit": "d063cef514cae6ea6c8226092729983fba48d100",
-   "sha256": "0yv9vl62bbg5ca74fhry6xi4d5i5a26aw5q57lp0vkgp588gns5j"
+   "commit": "1d20271ca1f1c4ef463af0ce0dc82859b0b03455",
+   "sha256": "1zwfgp1n0f52kmammqrmvixgciw3flb932i6yvg5ksm9csaxj6yh"
   }
  },
  {
@@ -77100,19 +77100,19 @@
   "repo": "jrblevin/markdown-mode",
   "unstable": {
    "version": [
-    20250216,
-    810
+    20250226,
+    231
    ],
-   "commit": "ee9d6de1d246936c1b63bbc4515986b489c7add6",
-   "sha256": "146jvprlyah5l8hc1b7ci5fbjzi9iax3141l5n6ji2r36vndk21g"
+   "commit": "f945f12d517ea3fd03bf7d8496c1251dbdf71ebe",
+   "sha256": "02a1l3dk9b00yn1lzfw141r6fqxmbfh0sr6wg7a911rd31mp16ql"
   },
   "stable": {
    "version": [
     2,
-    6
+    7
    ],
-   "commit": "193b61605f44c85d261b8bd82e0a213fd8f1ff32",
-   "sha256": "1i0b32z3zis39k412xa7jsikp5wdv2rxvbg8slm4phwi31n52r47"
+   "commit": "1c7aecba67cc478ca3f6bd7899dc06956e4762f4",
+   "sha256": "1w6y18bg0fpvb5xwr827ynzbj0f0nh3dms3n0xq6hg38dcyly46b"
   }
  },
  {
@@ -91218,15 +91218,15 @@
    "version": [
     1,
     9,
-    39
+    40
    ],
    "deps": [
     "compat",
     "el-job",
     "llama"
    ],
-   "commit": "eab016ad9d6de71c6fecf9479ad3be7df15b6bff",
-   "sha256": "1mg1c90zmr53lgvdjmia0xjhhcrwbppbch9bg6kl8nqkrj0nswrd"
+   "commit": "c5c328f299684b6886ee30fac874a6895aede87c",
+   "sha256": "1v76vsp07znakvwr01h9nxpz1a36s5rz9bpl3wwnz0d2kyk8p88a"
   }
  },
  {
@@ -119711,11 +119711,11 @@
   "repo": "liushihao456/symbols-outline.el",
   "unstable": {
    "version": [
-    20240701,
-    849
+    20250226,
+    456
    ],
-   "commit": "9664a1338b5755fe811eddd59f20a64a23da4063",
-   "sha256": "172hnb2jgc5z3c89sdb3jnif4lwisrj7yanr2kl418mg61ngm024"
+   "commit": "01e4438981e4884cf44ecc44dbf2e6e4e89c0a1a",
+   "sha256": "07gs54hwhr019d9zxv6a3inhr5b2065y5ykrdp76j6cabzlpj5gp"
   }
  },
  {
@@ -125105,14 +125105,14 @@
   "repo": "ocaml/tuareg",
   "unstable": {
    "version": [
-    20231009,
-    2143
+    20250226,
+    431
    ],
    "deps": [
     "caml"
    ],
-   "commit": "1d53723e39f22ab4ab76d31f2b188a2879305092",
-   "sha256": "05afiixj9ag3r36k4xhfizb7frldc2g6i3jr3mxmdgnbm08r3l2v"
+   "commit": "4c107dd37f62a5b3d37b795c2fe9c44ac2ee3bcb",
+   "sha256": "03fwf049521f5p6ywqm0jqd6x2g80ska5q84qnlsq95bcxzbj4j4"
   },
   "stable": {
    "version": [
@@ -133576,11 +133576,7 @@
     "compat"
    ],
    "commit": "eb76b1d644170f2a685882a207e4644c399bb668",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/git-checkout-tmp-jCkBD59o/yeetube-eb76b1d/.git/\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nUnable to checkout eb76b1d644170f2a685882a207e4644c399bb668 from https://git.thanosapollo.org/yeetube.\n"
-   ]
+   "sha256": "05n56s56xpiy47f88an1qm30y0dcjiz5ah7almz5mnc0fsb4qsrn"
   },
   "stable": {
    "version": [
