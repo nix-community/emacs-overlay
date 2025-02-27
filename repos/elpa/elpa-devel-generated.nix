@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "a68-mode";
       ename = "a68-mode";
-      version = "1.0.0.20250205.220528";
+      version = "1.0.0.20250226.200747";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/a68-mode-1.0.0.20250205.220528.tar";
-        sha256 = "0ds8kifvc3557xvb1vas7ivc4kn8wkjaqqj5h3azbh1bcbdj1xnp";
+        url = "https://elpa.gnu.org/devel/a68-mode-1.0.0.20250226.200747.tar";
+        sha256 = "1h07lgxrrr3838hnl2zzdfm4gj7d6gbdsmnzdbmnzz8h65pk1x93";
       };
       packageRequires = [ ];
       meta = {
@@ -2699,10 +2699,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250225.2515";
+      version = "1.18.0.20250226.171122";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250225.2515.tar";
-        sha256 = "1v557jc91nrqg4pdkcg9cc44x93yz4l0n7v4c9sj5wcrdnb44bgl";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250226.171122.tar";
+        sha256 = "1xbxhx5f4n188qs493k2z2a5ys91m4qlm08h7q5nsi7yxg4yk8j5";
       };
       packageRequires = [
         eldoc
@@ -2851,10 +2851,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.4.2.0.20250224.41731";
+      version = "1.4.4.0.20250226.204530";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.4.2.0.20250224.41731.tar";
-        sha256 = "11apxs0angyv9lw403b7fbb10gpn2id83cd591wryavjffqa15hj";
+        url = "https://elpa.gnu.org/devel/ellama-1.4.4.0.20250226.204530.tar";
+        sha256 = "1khbyjg00gqr5w53kl7yvdb1lqv30rf5h6s41pj1vlp1nx0hjxjq";
       };
       packageRequires = [
         compat
@@ -6099,10 +6099,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250225.182051";
+      version = "9.8pre0.20250226.170533";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250225.182051.tar";
-        sha256 = "1d6rzdqlndw4zma5p3ra4wjp5z26j70x6428f1lk2vzncxfk2238";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250226.170533.tar";
+        sha256 = "19q0qhvjbddipyn4v74zb8813m17y0pxff67hx893wayw32vrrzw";
       };
       packageRequires = [ ];
       meta = {
@@ -6170,10 +6170,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.0.7.0.20250219.93341";
+      version = "0.0.9.0.20250226.154732";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-gnosis-0.0.7.0.20250219.93341.tar";
-        sha256 = "0aq8w3lxvjbjqkk2w0cbfqs6z6sagkim7wkqdb3riyg6cqch7wf1";
+        url = "https://elpa.gnu.org/devel/org-gnosis-0.0.9.0.20250226.154732.tar";
+        sha256 = "1yk5fp4l3q1ycgbgmgn9biy3na22ssvx15j76k6almx50cgcngyp";
       };
       packageRequires = [
         compat
