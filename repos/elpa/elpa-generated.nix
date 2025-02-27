@@ -8868,10 +8868,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.2.1";
+      version = "2.7.2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.7.2.1.tar";
-        sha256 = "17178jpn05bpy1cmxf27kdmrabcgcghslr7ri49dqm3sqydk4fmm";
+        url = "https://elpa.gnu.org/packages/tramp-2.7.2.2.tar";
+        sha256 = "0nq441hdr9akpdklplnf4hcza4jgj4vq2718mvf2iznbqqs4b33k";
       };
       packageRequires = [ ];
       meta = {
