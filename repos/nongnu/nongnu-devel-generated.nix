@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.17.1.0.20250225.103758";
+      version = "1.17.1.0.20250226.185114";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.1.0.20250225.103758.tar";
-        sha256 = "05323l40gh1bk42l169kjsygqgm0chdc2di262bhidaanwriyfdc";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.1.0.20250226.185114.tar";
+        sha256 = "1bwj4hfkj1gr81xcznh38l5rjnyjkc7gq1z621f0q51hdn88rcri";
       };
       packageRequires = [
         clojure-mode
@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0.0.20250226.21751";
+      version = "2.1.0.0.20250226.153908";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250226.21751.tar";
-        sha256 = "02dgsvilj2viqn4315kyiv1ji5a842753ab83ryfqqw48lzsd9aa";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250226.153908.tar";
+        sha256 = "1avg6zrqc354w2wgpq419y9lfi0vqngql2nif44s5x2nx1x8chmr";
       };
       packageRequires = [ ];
       meta = {
@@ -1243,10 +1243,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20250121.180033";
+      version = "1.15.0.0.20250226.180415";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20250121.180033.tar";
-        sha256 = "1c1dd14l9hjjgqzi872bni27q8z4q6sxd2sxfrj0x13gppa3jcnv";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20250226.180415.tar";
+        sha256 = "0rnwk67fzaa8kysxm432qfzhb3x6msl40fj16zal7sgysnkxrzgc";
       };
       packageRequires = [
         cl-lib
@@ -1694,10 +1694,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0snapshot0.20250217.212415";
+      version = "35.0snapshot0.20250226.154115";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20250217.212415.tar";
-        sha256 = "11ah7hircsrhzkyhhn998hb82glb2bk4j5fgfiy6xcscaxld8f0a";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20250226.154115.tar";
+        sha256 = "1sxlipzvh0sr057zydh1pqdnx6ginh0yrfycbv1ps3bwvpc7g8a5";
       };
       packageRequires = [ ];
       meta = {
@@ -2348,10 +2348,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250225.142110";
+      version = "0.9.7.0.20250226.82842";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250225.142110.tar";
-        sha256 = "1wjjskx066k04w6bfddcwkranz0nnqvcwcz3fhbv0gpqdi9ms1y8";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250226.82842.tar";
+        sha256 = "0zn0i15vyp2ha29yg8l87jj16qilrilh3wp2hq4mmkxj0cm51npy";
       };
       packageRequires = [
         compat
@@ -5059,10 +5059,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20250225.13153";
+      version = "0.2.1.0.20250226.11731";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250225.13153.tar";
-        sha256 = "10xsxv2idskr2l8fq2j1xxwj14f685ssr2waagljzgmwi9lk1d2b";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250226.11731.tar";
+        sha256 = "0pxh6nm6d9vb3bh52flgyipclrq5pm6acdzg8fcgsq06iw8744w9";
       };
       packageRequires = [ ];
       meta = {
