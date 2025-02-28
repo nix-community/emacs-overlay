@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0.0.20250227.160233";
+      version = "2.1.0.0.20250228.42705";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250227.160233.tar";
-        sha256 = "0rls50rb4dsbm74wray3n58aan1kb30y84hsyfxzy3nhfql5bj7z";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250228.42705.tar";
+        sha256 = "1fm84xy0kmdg5h15m6bkivn5i3sx9g3rxyc3y3i916ydfc12adm6";
       };
       packageRequires = [ ];
       meta = {
@@ -2545,10 +2545,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.2.0.20250227.163848";
+      version = "4.0.2.0.20250228.64018";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250227.163848.tar";
-        sha256 = "087nxpqxg52nhx8jwks6gjrxdmigx7raik4dxxgr26cy68ahkq0p";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250228.64018.tar";
+        sha256 = "1mjgc22vp68wk1klq7f5i74pqr5wmwb53cc81n04zi6jynv2rimm";
       };
       packageRequires = [
         helm-core
@@ -2570,10 +2570,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.2.0.20250227.163848";
+      version = "4.0.2.0.20250228.64018";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250227.163848.tar";
-        sha256 = "1r552l0lfzhksa26h6mwpjr80gngv876imjwsgdppkyl0m5hrmxf";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250228.64018.tar";
+        sha256 = "1i7f8n4gk7fppxdlylm1hwp8ab2dqpg9h30ppv46nzp6bp0fywyw";
       };
       packageRequires = [ async ];
       meta = {
@@ -3303,10 +3303,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.1.10.0.20250214.91752";
+      version = "1.1.11.0.20250228.84554";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.10.0.20250214.91752.tar";
-        sha256 = "0i1gq66qyaz59rhxwh1h8vvfdx4mpnxd6vq037x1y7kwlvwzghiz";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.11.0.20250228.84554.tar";
+        sha256 = "0gdjp5y6mpbr3wc1va3454krqxb232src2q60rnc83jab221l76j";
       };
       packageRequires = [
         persist
@@ -5102,10 +5102,10 @@
     elpaBuild {
       pname = "tuareg";
       ename = "tuareg";
-      version = "3.0.2snapshot0.20250227.123629";
+      version = "3.0.2snapshot0.20250227.215734";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tuareg-3.0.2snapshot0.20250227.123629.tar";
-        sha256 = "1svab3rg0ipwjxs3k3b28y4f6r49gr63z8ld287pvnr1fk220881";
+        url = "https://elpa.nongnu.org/nongnu-devel/tuareg-3.0.2snapshot0.20250227.215734.tar";
+        sha256 = "1ngkjn7dr2k61w5vv8qjgjj8wwc9674px7w1hc8539f7nplf7i71";
       };
       packageRequires = [ caml ];
       meta = {
