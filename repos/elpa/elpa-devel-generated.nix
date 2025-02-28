@@ -1386,10 +1386,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20250223.35229";
+      version = "1.0.2.0.20250228.25856";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20250223.35229.tar";
-        sha256 = "1mm4pmmnpzl1snz0zz2v1fbci3jy989792nwapi1mqa8vhd2vd54";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20250228.25856.tar";
+        sha256 = "0bjl3i1vxqxinj396f22072z7xpzd9j7cd0mp55v8sa9kb1riiq3";
       };
       packageRequires = [ ];
       meta = {
@@ -2754,10 +2754,10 @@
     elpaBuild {
       pname = "eldoc";
       ename = "eldoc";
-      version = "1.15.0.0.20250222.233822";
+      version = "1.15.0.0.20250228.13027";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eldoc-1.15.0.0.20250222.233822.tar";
-        sha256 = "1jm86l0gah6fb2scc2w2dgn4mwx7hf4mxswxsgzgbf6vn5kc3d4k";
+        url = "https://elpa.gnu.org/devel/eldoc-1.15.0.0.20250228.13027.tar";
+        sha256 = "036j8hlv4hs0rzsrqz8y15cha5qkbaspqw3y997kk1flqa5802h9";
       };
       packageRequires = [ ];
       meta = {
