@@ -2072,20 +2072,20 @@
   "repo": "anticomputer/age.el",
   "unstable": {
    "version": [
-    20250225,
-    131
+    20250228,
+    521
    ],
-   "commit": "43090e31659ea79b87c8fc32cd687ac7ab9c4aec",
-   "sha256": "1j5m1l4n6qn27slxgh5vhsy0m3z5flcdzjgfvsw4lkhafn9zjisp"
+   "commit": "05ad63306bdac3a58f3a3b23adfd94c8d573f9f2",
+   "sha256": "014zdv86qsi48yyy6z40ix514ssixw39jd34sj5wsxbngm03w14l"
   },
   "stable": {
    "version": [
     0,
     1,
-    6
+    7
    ],
-   "commit": "43090e31659ea79b87c8fc32cd687ac7ab9c4aec",
-   "sha256": "1j5m1l4n6qn27slxgh5vhsy0m3z5flcdzjgfvsw4lkhafn9zjisp"
+   "commit": "05ad63306bdac3a58f3a3b23adfd94c8d573f9f2",
+   "sha256": "014zdv86qsi48yyy6z40ix514ssixw39jd34sj5wsxbngm03w14l"
   }
  },
  {
@@ -15743,11 +15743,11 @@
   "repo": "company-mode/company-mode",
   "unstable": {
    "version": [
-    20250223,
-    352
+    20250228,
+    258
    ],
-   "commit": "5bb6f6d3d44ed919378e6968a06feed442165545",
-   "sha256": "1jmy2f2d4wa19fd4kd2a3fh479nq5k783yg7c4qi206nr8h7jdwf"
+   "commit": "8d599ebc8a9aca27c0a6157aeb31c5b7f05ed0a3",
+   "sha256": "0k1k1rzqi6gc2iirlcg8nw1alv1hs8qf72a1wqcifmkx1ajb7d8i"
   },
   "stable": {
    "version": [
@@ -25464,11 +25464,11 @@
   "repo": "alexluigit/dirvish",
   "unstable": {
    "version": [
-    20250227,
-    1602
+    20250228,
+    427
    ],
-   "commit": "5ec7c66a4e8389be8712abd7b8e83d8b43f9a09d",
-   "sha256": "0194ach7lc7m9ddlgc0cdi6fz1i8aw1aib9l2w5dmilxn13vhc25"
+   "commit": "2781c59ecbbe6aeb75f68129e1ae6d374305f3b1",
+   "sha256": "045kmz5jjqjcf1b3v12xlhaf4w4wwrq9hj5lg2pcf3x1ycayqi2h"
   },
   "stable": {
    "version": [
@@ -54462,10 +54462,10 @@
   "unstable": {
    "version": [
     20250227,
-    957
+    2326
    ],
-   "commit": "25fcffa9fcc96ef44fbfa7583873deda6a1dda81",
-   "sha256": "12klhmsqpvbb3arbq8wc1nbhgq218ickvjy9p8j7w3pymiyvkgv0"
+   "commit": "dd95986529fa90e47eaadeedd671986c5ab15aa7",
+   "sha256": "0gs6gbgaxr1p7j4gqnzx5lq3krnn6nxlmgwfp5d5i8fdkg1c1ka7"
   },
   "stable": {
    "version": [
@@ -70392,8 +70392,8 @@
   "repo": "kubernetes-el/kubernetes-el",
   "unstable": {
    "version": [
-    20250224,
-    42
+    20250228,
+    328
    ],
    "deps": [
     "dash",
@@ -70404,8 +70404,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "cd43b4b256a92930619c0d8aed4295783b1427de",
-   "sha256": "0ihyrzik09s55ycgr0im84sjvm0iypbh4rhm79mbihicv6740d77"
+   "commit": "97cfa568fcc2ce633312c31f8c22449a981145c6",
+   "sha256": "1d1lkfbfi1vliimz9adrprv4rdnx9148qcjkjnc0vkiphhwgvxk6"
   },
   "stable": {
    "version": [
@@ -78947,14 +78947,11 @@
   "repo": "emacs-jp/migemo",
   "unstable": {
    "version": [
-    20231120,
-    842
+    20250228,
+    324
    ],
-   "deps": [
-    "cl-lib"
-   ],
-   "commit": "7d78901773da3b503e5c0d5fa14a53ad6060c97f",
-   "sha256": "1098lf50fcm25wb41g1b27wg8hc3g2w6cgjq02sc8pq6qnrr0ql2"
+   "commit": "fbc16b57eace9bf25bcb325032c59c50b186b9d7",
+   "sha256": "10d27jrmn7k4mqqd5cgqf8jwa0pq9yh2550b1r6lwmz6wx509552"
   },
   "stable": {
    "version": [
@@ -81534,14 +81531,14 @@
   "url": "https://repo.or.cz/mu4e-marker-icons.git",
   "unstable": {
    "version": [
-    20230423,
-    1039
+    20250228,
+    218
    ],
    "deps": [
     "nerd-icons"
    ],
-   "commit": "09fe0ca72b5c000d45a875c7cfa58016f740c1ae",
-   "sha256": "0xv1k3wp1f80qkd4gxnm9jvzfbbgf76khlw282377i0gp5gkc18r"
+   "commit": "13541181d5144ee91d570ab74558abce194b083f",
+   "sha256": "1lvwg0yb993j57y7663jm33g7j0x0jqbhqgf8vdy6qv198wpj5nc"
   }
  },
  {
@@ -103986,11 +103983,11 @@
   "repo": "purescript-emacs/purescript-mode",
   "unstable": {
    "version": [
-    20250224,
-    2248
+    20250228,
+    410
    ],
-   "commit": "0f679b15a12b4998d861c06194083ce4ec80cfb7",
-   "sha256": "1q9419adhqlap0jls13pwpj4zbjax8ksrfm8kd5g4ajayg3cif72"
+   "commit": "b51d489e5b143d91feebf36ee4db7f5b3736a27b",
+   "sha256": "1phkqr1cwd9zs3piwa67dn2p9qw2603i7kwhkr913aqpdwar5jk7"
   }
  },
  {
@@ -125105,14 +125102,14 @@
   "repo": "ocaml/tuareg",
   "unstable": {
    "version": [
-    20250227,
-    1736
+    20250228,
+    257
    ],
    "deps": [
     "caml"
    ],
-   "commit": "f661844ba91a1942d17d83aee5b6b1818a6204c1",
-   "sha256": "18mmv1qls4yk1c9r0h5pn0cb95lp5a79mm61fl4prarb5kmqd21p"
+   "commit": "1600fdad28bdd2c55e52a87e7987713c6d5d1718",
+   "sha256": "0s5nc0pqk9l28gw5sv3wzv9qk7r1p25m1kjmkrnl9agk6f1rck0i"
   },
   "stable": {
    "version": [
