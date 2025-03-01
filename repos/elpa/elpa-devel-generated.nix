@@ -2032,10 +2032,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250205.61207";
+      version = "3.1.0.0.20250301.71048";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250205.61207.tar";
-        sha256 = "0196s2jy08cf7pbysxlxzfziysm7sq87xkr19z1dxbd4284ad9qk";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250301.71048.tar";
+        sha256 = "0snzwdr0dgvdxhvcj91wm0nxjjrm0pxlkcxc1mywpg6w3dn4cw3f";
       };
       packageRequires = [ ];
       meta = {
@@ -2076,10 +2076,10 @@
     elpaBuild {
       pname = "denote-search";
       ename = "denote-search";
-      version = "1.0.2.0.20250228.102658";
+      version = "1.0.2.0.20250228.191331";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-search-1.0.2.0.20250228.102658.tar";
-        sha256 = "1gq9lqzb2lcr9zsadvqp6h9fbmflipk6bckpwpj3yisq8q5cbdb7";
+        url = "https://elpa.gnu.org/devel/denote-search-1.0.2.0.20250228.191331.tar";
+        sha256 = "1if2iqqbp5lhv8349a2fi03m6bjm5fgdrxz8rqk38l1dwl5pwif9";
       };
       packageRequires = [ denote ];
       meta = {
@@ -6736,10 +6736,10 @@
     elpaBuild {
       pname = "plz-event-source";
       ename = "plz-event-source";
-      version = "0.1.2pre0.20241227.143348";
+      version = "0.1.3pre0.20250228.134816";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/plz-event-source-0.1.2pre0.20241227.143348.tar";
-        sha256 = "010s4kfx3apdhh9z4r9d2c44arf90nbn8r1j9j3gjhpimsdjhbgq";
+        url = "https://elpa.gnu.org/devel/plz-event-source-0.1.3pre0.20250228.134816.tar";
+        sha256 = "08dasdzl53rnb29jl023vmcqs0xall1ra2dfpzqsjjzc1a1lz08y";
       };
       packageRequires = [ plz-media-type ];
       meta = {

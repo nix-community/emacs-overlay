@@ -6711,10 +6711,10 @@
     elpaBuild {
       pname = "plz-event-source";
       ename = "plz-event-source";
-      version = "0.1.1";
+      version = "0.1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/plz-event-source-0.1.1.tar";
-        sha256 = "0mraza6r8p6rwmsmgz7kkllhwi6spz8jzkk458jlgqxilm0jajib";
+        url = "https://elpa.gnu.org/packages/plz-event-source-0.1.2.tar";
+        sha256 = "1gq0w6pkg58066gwc58y3j0w2hbfzmy1r62j02jfiqjb5am1gfjk";
       };
       packageRequires = [ plz-media-type ];
       meta = {
