@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.17.1.0.20250226.185114";
+      version = "1.17.1.0.20250228.141103";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.1.0.20250226.185114.tar";
-        sha256 = "1bwj4hfkj1gr81xcznh38l5rjnyjkc7gq1z621f0q51hdn88rcri";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.1.0.20250228.141103.tar";
+        sha256 = "00ipppxrzhvfafmdl3skqif5y6wppav7kscc05lv08wp5axwaq1f";
       };
       packageRequires = [
         clojure-mode
@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0.0.20250228.42705";
+      version = "2.1.0.0.20250228.90945";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250228.42705.tar";
-        sha256 = "1fm84xy0kmdg5h15m6bkivn5i3sx9g3rxyc3y3i916ydfc12adm6";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250228.90945.tar";
+        sha256 = "1k3bwqcqifq35wb5p4ybx1ya4xw6lkjll7g9czwq1xdn2i266xzp";
       };
       packageRequires = [ ];
       meta = {
@@ -3279,10 +3279,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.8alpha0.20250226.23105";
+      version = "2.8alpha0.20250228.151302";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20250226.23105.tar";
-        sha256 = "1g78mmrm221s0v9ix84mj16dclrc98ji9rdpg1lkmx3ych05cwy5";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20250228.151302.tar";
+        sha256 = "0llw7acv4047safqgwi3zvk8s64l2ppighfi5mqv7vza7v42j3sa";
       };
       packageRequires = [ ];
       meta = {
@@ -3872,10 +3872,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.24.0.20250224.172310";
+      version = "0.24.0.20250228.132233";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20250224.172310.tar";
-        sha256 = "0nhylbksa0yg839lzivlk0n1fmkpah37vilknbxzfnrd4ci7247a";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20250228.132233.tar";
+        sha256 = "03kw9wij5hk7ch98l2f9mksvbccmyb4layl08abpc6j84m5gr110";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -5667,10 +5667,10 @@
     elpaBuild {
       pname = "zig-mode";
       ename = "zig-mode";
-      version = "0.0.8.0.20241104.162434";
+      version = "0.0.8.0.20250228.122402";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20241104.162434.tar";
-        sha256 = "01g51mvsg578hcnr8kbda8pbgy7yrk57p9djy3bn1rp4vwjh2f46";
+        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20250228.122402.tar";
+        sha256 = "036wk2x7l4izfamd71169scg7xk97cp0iyya1almsphhmzin12yw";
       };
       packageRequires = [ reformatter ];
       meta = {
