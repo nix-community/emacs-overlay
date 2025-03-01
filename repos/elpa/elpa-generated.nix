@@ -2046,6 +2046,28 @@
       };
     }
   ) { };
+  denote-search = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-search";
+      ename = "denote-search";
+      version = "1.0.2";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/denote-search-1.0.2.tar";
+        sha256 = "0apwrfq2ajhx4x2pyr7zz1qp1gawgg5ngr98y6zcn71f3by0zykn";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/denote-search.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   detached = callPackage (
     {
       elpaBuild,
@@ -6711,10 +6733,10 @@
     elpaBuild {
       pname = "plz-media-type";
       ename = "plz-media-type";
-      version = "0.2.2";
+      version = "0.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/plz-media-type-0.2.2.tar";
-        sha256 = "0m1hm2myc5pqax8kkz910wn3443pxdsav7rcf7bcqnim4l0ismvn";
+        url = "https://elpa.gnu.org/packages/plz-media-type-0.2.3.tar";
+        sha256 = "1qb0zag7isnl9hx71jma5yk6rinfdbscmlgwg2489067vshf9x7b";
       };
       packageRequires = [ plz ];
       meta = {

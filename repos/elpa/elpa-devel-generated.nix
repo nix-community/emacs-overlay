@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250225.213505";
+      version = "14.0.9.0.20250228.124408";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250225.213505.tar";
-        sha256 = "1wf8v20r70zryir592xvdhn6h1dk7ym5grwfsk7mdkccwkd9y1z0";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250228.124408.tar";
+        sha256 = "06smjz08mf19wkrpqiv6gpsl7xgkbpi8wvf65nzgkz543r86zljk";
       };
       packageRequires = [ ];
       meta = {
@@ -2062,6 +2062,28 @@
       packageRequires = [ denote ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/denote-menu.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  denote-search = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-search";
+      ename = "denote-search";
+      version = "1.0.2.0.20250228.102658";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/denote-search-1.0.2.0.20250228.102658.tar";
+        sha256 = "1gq9lqzb2lcr9zsadvqp6h9fbmflipk6bckpwpj3yisq8q5cbdb7";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/denote-search.html";
         license = lib.licenses.free;
       };
     }
@@ -6736,10 +6758,10 @@
     elpaBuild {
       pname = "plz-media-type";
       ename = "plz-media-type";
-      version = "0.2.3pre0.20241106.190902";
+      version = "0.2.4pre0.20250228.133501";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/plz-media-type-0.2.3pre0.20241106.190902.tar";
-        sha256 = "1yx1yqqqps6cj1bwr0dq9n850jr0vh6nph85rw4b70qy6g63k473";
+        url = "https://elpa.gnu.org/devel/plz-media-type-0.2.4pre0.20250228.133501.tar";
+        sha256 = "1m38fzbcmvqh8nwxsb2wic549af8wicpqxsd18d5631z04910ryb";
       };
       packageRequires = [ plz ];
       meta = {
