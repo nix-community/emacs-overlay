@@ -1222,10 +1222,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.1.0";
+      version = "4.2.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/emacsql-4.1.0.tar";
-        sha256 = "1nf7piakf1v23bnqdyivp4l9vq6xyzjxrgxaswncmvzqxb4qvhyx";
+        url = "https://elpa.nongnu.org/nongnu/emacsql-4.2.0.tar";
+        sha256 = "03nxfdbha7apar6qhjg57pa4cawjjwswlkci2wm9044wps87734c";
       };
       packageRequires = [ ];
       meta = {
@@ -3017,10 +3017,10 @@
     elpaBuild {
       pname = "keycast";
       ename = "keycast";
-      version = "1.4.1";
+      version = "1.4.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/keycast-1.4.1.tar";
-        sha256 = "0xpdz6fqvmx6ha20c957r4psz393r0ag7ml971x21v035r3gfx8r";
+        url = "https://elpa.nongnu.org/nongnu/keycast-1.4.2.tar";
+        sha256 = "0lmqqpqib7gz12m9ckappf3rw8n8x0nridmsf4c48vbn2jh607hy";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3060,10 +3060,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "0.6.0";
+      version = "0.6.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/llama-0.6.0.tar";
-        sha256 = "14rfpi40rhn906s4glj565v1b1kd7fa668sq7b7hh83pq47iylyr";
+        url = "https://elpa.nongnu.org/nongnu/llama-0.6.1.tar";
+        sha256 = "0ri0pql710v6yrsnl5hv7xqax6ap1whk4xip9xx732a59fws60cg";
       };
       packageRequires = [ compat ];
       meta = {

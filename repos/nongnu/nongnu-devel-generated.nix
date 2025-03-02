@@ -594,10 +594,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.2.2.0.20250216.85255";
+      version = "0.2.2.0.20250301.145938";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.2.2.0.20250216.85255.tar";
-        sha256 = "0y7sk979ybk2xxnnv27h063xh9rbkba6pld7jqm29ar2ijn657ga";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.2.2.0.20250301.145938.tar";
+        sha256 = "0yr8wr8rmbzvccb74n6zammh58l475dcgghngg0azgi9a0jqmqxk";
       };
       packageRequires = [ ];
       meta = {
@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0.0.20250228.90945";
+      version = "2.1.0.0.20250301.144226";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250228.90945.tar";
-        sha256 = "1k3bwqcqifq35wb5p4ybx1ya4xw6lkjll7g9czwq1xdn2i266xzp";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250301.144226.tar";
+        sha256 = "1lnmdaqk8ckalb8k0g0hvr2rrvraybcds4by5kl35y9jhf0ja4dk";
       };
       packageRequires = [ ];
       meta = {
@@ -1198,10 +1198,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.1.0.0.20250223.174337";
+      version = "4.2.0.0.20250301.163737";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.1.0.0.20250223.174337.tar";
-        sha256 = "0n7rwi2gs2xhysakawlf87cwmiiayrhpqf8qwcs4mkxmwamvyacv";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.2.0.0.20250301.163737.tar";
+        sha256 = "1rzxgfykrckxw6sbgw71dd99s8rnz0jjjpddsf8rsy7ialjzw4w4";
       };
       packageRequires = [ ];
       meta = {
@@ -3001,10 +3001,10 @@
     elpaBuild {
       pname = "keycast";
       ename = "keycast";
-      version = "1.4.1.0.20250221.153401";
+      version = "1.4.2.0.20250301.164536";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/keycast-1.4.1.0.20250221.153401.tar";
-        sha256 = "1l8dzq72wq2klxxjr4gv4yfsj5l94f380z5da0bzf82qnd5r3w5r";
+        url = "https://elpa.nongnu.org/nongnu-devel/keycast-1.4.2.0.20250301.164536.tar";
+        sha256 = "1zipc2baxzx5ima0r34q9d8v9bfw3a41hv2423gbx8036ndq3h2g";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3044,10 +3044,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "0.6.0.0.20250218.154441";
+      version = "0.6.1.0.20250301.163350";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/llama-0.6.0.0.20250218.154441.tar";
-        sha256 = "0f9sgdg7n4c41068nl4656z0ry78bkahwxw8zjmn55pcmrvqzwff";
+        url = "https://elpa.nongnu.org/nongnu-devel/llama-0.6.1.0.20250301.163350.tar";
+        sha256 = "05xxwi87whx8c1crg582cxyfajw4r588i8zxixcjy7hj1jdpnzch";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3223,10 +3223,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.0.0.20250227.214029";
+      version = "4.3.0.0.20250301.162342";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.0.0.20250227.214029.tar";
-        sha256 = "0rgymy4xikw1zx1m3gilw9vf17qzamxami9830100gj2pf1aacqg";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.0.0.20250301.162342.tar";
+        sha256 = "1i3yj9bigpdp47knh9i2sxg7khbi17mcw79kyh79j0c4mw3alz13";
       };
       packageRequires = [
         compat
@@ -3254,10 +3254,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.3.0.0.20250227.214029";
+      version = "4.3.0.0.20250301.162342";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.0.0.20250227.214029.tar";
-        sha256 = "1n35sjj0bvjc0xdlzxk05x9ps4x77q7hq9lk5ykq5szwg7n7ql6q";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.0.0.20250301.162342.tar";
+        sha256 = "0xmimapyi09gg931wf9x333g3dmlrwfp1pmfxldgv51yzwf8b7wz";
       };
       packageRequires = [
         compat
