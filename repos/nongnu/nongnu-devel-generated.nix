@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.17.1.0.20250228.141103";
+      version = "1.17.1.0.20250303.70215";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.1.0.20250228.141103.tar";
-        sha256 = "00ipppxrzhvfafmdl3skqif5y6wppav7kscc05lv08wp5axwaq1f";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.1.0.20250303.70215.tar";
+        sha256 = "1845r6djdx010m35gvrc5g0nq100crp7sf110bcfqd7y8sg1ip9n";
       };
       packageRequires = [
         clojure-mode
@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0.0.20250302.153907";
+      version = "2.1.0.0.20250303.51345";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250302.153907.tar";
-        sha256 = "0xpc3aj06ppfh2z8lj90z642fwiskfwjy5m8z7q9y5d93v4igin5";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250303.51345.tar";
+        sha256 = "1rxbzhfqkh88dfc1652n1dv7ysq3ifvp30pj3gc7nq26q8v4ks6g";
       };
       packageRequires = [ ];
       meta = {
@@ -4135,10 +4135,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1.0.20250215.64641";
+      version = "2.9.1.0.20250302.215149";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250215.64641.tar";
-        sha256 = "1pyai9z1jdp9f2dxl66qhxlfiz7sxdir9isq62i24v8ansad6rqh";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250302.215149.tar";
+        sha256 = "1853vh8cj8nvsscmb82b7ahcaqlxgk8fabym6b2bsxgvf09zxr05";
       };
       packageRequires = [ ];
       meta = {
