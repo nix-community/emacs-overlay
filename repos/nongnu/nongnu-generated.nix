@@ -3239,10 +3239,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.0";
+      version = "4.3.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-4.3.0.tar";
-        sha256 = "0s9i6pn7j36yvd6nhrnkj7amrgywv02bxhxyg2ac56gsf9bwgqas";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.3.1.tar";
+        sha256 = "1wac8k466pmq79qvh70k7hfr1c5pyh2ignjsh4df46n08y2c67ys";
       };
       packageRequires = [
         compat
@@ -3270,10 +3270,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.3.0";
+      version = "4.3.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.3.0.tar";
-        sha256 = "0f6axq5iqfwlbzllzvqd6yk3p8l7ny624qlmnidrynij53rycy0n";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.3.1.tar";
+        sha256 = "0rkr6lw1m4mc695k4pqpsfc5fnbp94pgl7j6y6c5f96d4dzvcx24";
       };
       packageRequires = [
         compat
@@ -3848,10 +3848,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/orgit-2.0.0.tar";
-        sha256 = "16i702ziy5z9zrmgz55bky0nar2hy55mkllswf7pgk8x4aihlda0";
+        url = "https://elpa.nongnu.org/nongnu/orgit-2.0.1.tar";
+        sha256 = "0fisk3gkqlkndkv185xffxn75msd26wsv77m0m0a25fr6xlvn2hn";
       };
       packageRequires = [
         compat
@@ -5552,10 +5552,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.9.20250205172500";
+      version = "26.9.20250301145516";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.9.20250205172500.tar";
-        sha256 = "1la0chy12vbm4wcmgc6iwbmbn9zaiz8xfpp1c11lp3dsv1w5gfj3";
+        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.9.20250301145516.tar";
+        sha256 = "1lqvkpjq5hxjnl0gbdvp0hb7zpwdx6cy172757g1ipr5z23p9g56";
       };
       packageRequires = [ ];
       meta = {
