@@ -2056,10 +2056,10 @@
     elpaBuild {
       pname = "denote-search";
       ename = "denote-search";
-      version = "1.0.2";
+      version = "1.0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-search-1.0.2.tar";
-        sha256 = "0apwrfq2ajhx4x2pyr7zz1qp1gawgg5ngr98y6zcn71f3by0zykn";
+        url = "https://elpa.gnu.org/packages/denote-search-1.0.3.tar";
+        sha256 = "1537c5xr7gvsvwn7khjs03z4g6js03mwwz9i5rwnmksajhkyfiv7";
       };
       packageRequires = [ denote ];
       meta = {
@@ -6097,10 +6097,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.23";
+      version = "9.7.24";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.23.tar";
-        sha256 = "12j1akbkwq2rxijn78p86xvih8ggd3zq92vglk4vqci7gq1pi5an";
+        url = "https://elpa.gnu.org/packages/org-9.7.24.tar";
+        sha256 = "17jv8sh7aif759jgbrn60sjlzlc70kmrrmaiiwpgvx3bj5bwcvd6";
       };
       packageRequires = [ ];
       meta = {
@@ -7072,20 +7072,28 @@
   ) { };
   python = callPackage (
     {
-      cl-lib ? null,
+      compat,
       elpaBuild,
       fetchurl,
+      flymake ? null,
       lib,
+      project,
+      seq,
     }:
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.28";
+      version = "0.29";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/python-0.28.tar";
-        sha256 = "042jhg87bnc750wwjwvp32ici3pyswx1pza2qz014ykdqqnsx0aq";
+        url = "https://elpa.gnu.org/packages/python-0.29.tar";
+        sha256 = "1855azwha6ncvvnpnj2md2awx4cr8i5326a91ignczg10pc3qiz0";
       };
-      packageRequires = [ cl-lib ];
+      packageRequires = [
+        compat
+        flymake
+        project
+        seq
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/python.html";
         license = lib.licenses.free;
@@ -8976,10 +8984,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.4";
+      version = "0.8.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.8.4.tar";
-        sha256 = "1dc636j9194i9pfj4rxxfy33f5rwsqp5qkf1c7a06yazblvgaqxi";
+        url = "https://elpa.gnu.org/packages/transient-0.8.5.tar";
+        sha256 = "0ydxddlf9aniindgi135rj3c1d1ar5qi5kwh1qkdff9124d6f0kh";
       };
       packageRequires = [
         compat
