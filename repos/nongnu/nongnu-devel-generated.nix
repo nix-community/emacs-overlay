@@ -594,10 +594,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.2.2.0.20250301.145938";
+      version = "0.2.2.0.20250303.205551";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.2.2.0.20250301.145938.tar";
-        sha256 = "0yr8wr8rmbzvccb74n6zammh58l475dcgghngg0azgi9a0jqmqxk";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.2.2.0.20250303.205551.tar";
+        sha256 = "1jrf600w8xw2x40klrkc78gv4bxxdlbqr77qm571qhn6krn314zv";
       };
       packageRequires = [ ];
       meta = {
@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0.0.20250303.51345";
+      version = "2.1.0.0.20250303.111229";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250303.51345.tar";
-        sha256 = "1rxbzhfqkh88dfc1652n1dv7ysq3ifvp30pj3gc7nq26q8v4ks6g";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250303.111229.tar";
+        sha256 = "0ckwr0rzy1jk9pca7nmp3p9g95pxzaym24zhwawcqz0l8k029h69";
       };
       packageRequires = [ ];
       meta = {
@@ -2869,10 +2869,10 @@
     elpaBuild {
       pname = "inkpot-theme";
       ename = "inkpot-theme";
-      version = "0.1.0.20240610.140611";
+      version = "0.1.0.20250303.103930";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/inkpot-theme-0.1.0.20240610.140611.tar";
-        sha256 = "1291cwg6vk9y8an6a1pfbv05g2yqcswwry25c9ingsyb4ql0pr6k";
+        url = "https://elpa.nongnu.org/nongnu-devel/inkpot-theme-0.1.0.20250303.103930.tar";
+        sha256 = "02lkb9yl83bkad0jj6im6yhv160fsk0zf02zi9y9fzqx4p4qrn1g";
       };
       packageRequires = [ ];
       meta = {
@@ -3872,10 +3872,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.24.0.20250228.132233";
+      version = "0.24.0.20250303.135334";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20250228.132233.tar";
-        sha256 = "03kw9wij5hk7ch98l2f9mksvbccmyb4layl08abpc6j84m5gr110";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20250303.135334.tar";
+        sha256 = "172a46ji7dvb4fqqyf3dvnj2gd4ifwysvwrl1d6b9kwpda0w4czf";
       };
       packageRequires = [ let-alist ];
       meta = {
