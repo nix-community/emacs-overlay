@@ -2873,10 +2873,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.4.4.0.20250226.204530";
+      version = "1.4.5.0.20250303.165816";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.4.4.0.20250226.204530.tar";
-        sha256 = "1khbyjg00gqr5w53kl7yvdb1lqv30rf5h6s41pj1vlp1nx0hjxjq";
+        url = "https://elpa.gnu.org/devel/ellama-1.4.5.0.20250303.165816.tar";
+        sha256 = "1lwbi9q90p5kffphb15lszcjxdijirnv27216vx1n75qyiyi66al";
       };
       packageRequires = [
         compat
@@ -6672,10 +6672,10 @@
     elpaBuild {
       pname = "phps-mode";
       ename = "phps-mode";
-      version = "0.4.49.0.20240424.65247";
+      version = "0.4.50.0.20250303.193108";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phps-mode-0.4.49.0.20240424.65247.tar";
-        sha256 = "03xz1ig3zsbwixa4hkh7g9ihjxlw2jmzydqldkvjsyv1yhyyf2j4";
+        url = "https://elpa.gnu.org/devel/phps-mode-0.4.50.0.20250303.193108.tar";
+        sha256 = "1a7251cn5jiq6322ffs7bzz3bqyfdap2skwb0s1kwxn0zhq1hjcz";
       };
       packageRequires = [ ];
       meta = {
