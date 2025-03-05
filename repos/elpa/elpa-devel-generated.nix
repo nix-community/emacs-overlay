@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250303.210051";
+      version = "14.0.9.0.20250304.160127";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250303.210051.tar";
-        sha256 = "0lwlppvqifs3klws7av95lz0yp0z0nsvj0xzvx9wwba2y3pbbm8g";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250304.160127.tar";
+        sha256 = "1d7yjqy2rqv5bcfgwzbscrpnvk70rmajjahvxc6rqan4lfh6ppji";
       };
       packageRequires = [ ];
       meta = {
@@ -761,10 +761,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.3.0.20250227.114615";
+      version = "0.1.3.0.20250304.140930";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20250227.114615.tar";
-        sha256 = "09gz93kgaggi77rkc8wd1rkaakw5smn6sxw9hb6bjmw2ya1gbjf5";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20250304.140930.tar";
+        sha256 = "0cklqjwr45qffsil8bdjfwdal1fc8pyxq136bbakjds7x5xsg2ss";
       };
       packageRequires = [ ];
       meta = {
@@ -1482,10 +1482,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.0.2.0.0.20250302.173915";
+      version = "30.0.2.0.0.20250304.144722";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-30.0.2.0.0.20250302.173915.tar";
-        sha256 = "0i4v4bfdb7vvaw4z2x2jm59jxi6m6j34f2x74jsz8b9al9as5vhp";
+        url = "https://elpa.gnu.org/devel/compat-30.0.2.0.0.20250304.144722.tar";
+        sha256 = "12xg24xhwm8jdn6cj2qfgydfq1iqh39cmlsc3rc67naifdikwqcx";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3936,10 +3936,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.12.6.0.20250106.183831";
+      version = "0.12.6.0.20250304.171535";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.12.6.0.20250106.183831.tar";
-        sha256 = "1x10m46azmsvndi40vn3am3pjj8p90dkg9gnyh2v9wzzavdbb26j";
+        url = "https://elpa.gnu.org/devel/greader-0.12.6.0.20250304.171535.tar";
+        sha256 = "0maqbx42xg1zbijdbs354iqxclzkfi0pdy5zjyi1n9pwxgxmc7vd";
       };
       packageRequires = [
         compat
