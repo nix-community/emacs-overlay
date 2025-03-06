@@ -105,8 +105,8 @@ let
                     };
                   });
 
-  emacs-pgtk = let base = (mkGitEmacs "emacs-pgtk" ../repos/emacs/emacs-master.json) { withPgtk = true; };
-                   emacs = emacs-pgtk;
+  emacs-git-pgtk = let base = (mkGitEmacs "emacs-git-pgtk" ../repos/emacs/emacs-master.json) { withPgtk = true; };
+                   emacs = emacs-git-pgtk;
                in base.overrideAttrs (
                  oa: {
                    patches = oa.patches ++ [
@@ -219,7 +219,7 @@ in
 {
   inherit emacs-git emacs-unstable;
 
-  inherit emacs-pgtk emacs-unstable-pgtk;
+  inherit emacs-git-pgtk emacs-unstable-pgtk;
 
   inherit emacs-git-nox emacs-unstable-nox;
 
@@ -238,14 +238,15 @@ in
   emacsGitNativeComp = builtins.trace "emacsGitNativeComp has been renamed to emacs-git, please update your expression." emacs-git;
   emacsGitTreeSitter = builtins.trace "emacsGitTreeSitter has been renamed to emacs-git, please update your expression." emacs-git;
   emacsNativeComp = builtins.trace "emacsNativeComp has been renamed to emacs-unstable, please update your expression." emacs-unstable;
-  emacsPgtkGcc = builtins.trace "emacsPgtkGcc has been renamed to emacs-pgtk, please update your expression." emacs-pgtk;
-  emacsPgtkNativeComp = builtins.trace "emacsPgtkNativeComp has been renamed to emacs-pgtk, please update your expression." emacs-pgtk;
+  emacsPgtkGcc = builtins.trace "emacsPgtkGcc has been renamed to emacs-pgtk, please update your expression." self.emacs-pgtk;
+  emacsPgtkNativeComp = builtins.trace "emacsPgtkNativeComp has been renamed to emacs-pgtk, please update your expression." self.emacs-pgtk;
 
   emacsGit = builtins.trace "emacsGit has been renamed to emacs-git, please update your expression." emacs-git;
   emacsUnstable = builtins.trace "emacsUnstable has been renamed to emacs-unstable, please update your expression." emacs-unstable;
-  emacsPgtk = builtins.trace "emacsPgtk has been renamed to emacs-pgtk, please update your expression." emacs-pgtk;
+  emacsPgtk = builtins.trace "emacsPgtk has been renamed to emacs-pgtk, please update your expression." self.emacs-pgtk;
   emacsUnstablePgtk = builtins.trace "emacsUnstablePgtk has been renamed to emacs-unstable-pgtk, please update your expression." emacs-unstable-pgtk;
   emacsGitNox = builtins.trace "emacsGitNox has been renamed to emacs-git-nox, please update your expression." emacs-git-nox;
   emacsUnstableNox = builtins.trace "emacsUnstableNox has been renamed to emacs-unstable-nox, please update your expression." emacs-unstable-nox;
   emacsLsp = builtins.trace "emacsLsp has been renamed to emacs-lsp, please update your expression." emacs-lsp;
+  emacs-pgtk = builtins.trace "emacs-pgtk has been renamed to emacs-git-pgtk. emacs-pgtk will be removed from this overlay.  After that, it will point to the one in Nixpkgs." emacs-git-pgtk;
 }
