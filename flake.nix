@@ -78,11 +78,7 @@
                 inherit (pkgs) emacs-igc emacs-igc-pgtk;
               };
 
-              # packages = mkEmacsSet pkgs.emacs;
-
-              # XXX: temporary workaround for the fact that at the time of writing, pkgs.emacs === pkgs.emacs-unstable, except pkgs.emacs is fetched from hydra and the NixOS channels have yet to be bumped to contain a relevant upstream patch
-              packages = mkEmacsSet pkgs.emacs-unstable;
-
+              packages = mkEmacsSet pkgs.emacs;
               packages-unstable = mkEmacsSet pkgs.emacs-unstable;
             };
 
