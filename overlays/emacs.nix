@@ -219,6 +219,9 @@ in
 
   inherit emacs-igc emacs-igc-pgtk;
 
+  # XXX: temporary workaround for the fact that at the time of writing, pkgs.emacs === pkgs.emacs-unstable, except pkgs.emacs is fetched from hydra and the NixOS channels have yet to be bumped to contain a relevant upstream patch
+  emacs = emacs-unstable;
+
   emacsWithPackagesFromUsePackage = import ../elisp.nix { pkgs = self; };
 
   emacsWithPackagesFromPackageRequires = import ../packreq.nix { pkgs = self; };
