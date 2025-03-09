@@ -93,10 +93,10 @@
     elpaBuild {
       pname = "annotate";
       ename = "annotate";
-      version = "2.2.3";
+      version = "2.3.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/annotate-2.2.3.tar";
-        sha256 = "1x0v51rbnyzwvjwp4xwsd2a4xisid65zgww6yk0bb81421i54ps3";
+        url = "https://elpa.nongnu.org/nongnu/annotate-2.3.0.tar";
+        sha256 = "0l5pw9z4i1mlf346dg7brha37jmlrq6pyvjdj2mxhdfs6nzddaba";
       };
       packageRequires = [ ];
       meta = {
@@ -946,10 +946,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0";
+      version = "2.2.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/dirvish-2.1.0.tar";
-        sha256 = "09ngncazniz1b4z5azlgcyfgwcjg2fpk0yrp2by3n6db24fpali0";
+        url = "https://elpa.nongnu.org/nongnu/dirvish-2.2.3.tar";
+        sha256 = "0s5fff644clpkwjbz8a478cdmb7rsngqq13n6x190viwhn9nrhkn";
       };
       packageRequires = [ ];
       meta = {
@@ -1201,10 +1201,10 @@
     elpaBuild {
       pname = "elpher";
       ename = "elpher";
-      version = "3.6.4";
+      version = "3.6.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/elpher-3.6.4.tar";
-        sha256 = "0f6hsw50a36jyp1ikawcdj9yn3isks03ax47x8vflmayydndir4g";
+        url = "https://elpa.nongnu.org/nongnu/elpher-3.6.5.tar";
+        sha256 = "0ab6m1c32j3rp577v8qb4k542fjgpvvkcgjvzfcc56fwb9d6xfy0";
       };
       packageRequires = [ ];
       meta = {
@@ -3084,10 +3084,10 @@
     elpaBuild {
       pname = "logview";
       ename = "logview";
-      version = "0.19.1";
+      version = "0.19.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/logview-0.19.1.tar";
-        sha256 = "0gg393ygrqyghmaa0ykml9dfkxj13bh5pw82hiahmngy5lrygb26";
+        url = "https://elpa.nongnu.org/nongnu/logview-0.19.2.tar";
+        sha256 = "0jcc726fh6lq9x6hhl9cm4i98irf5z3pz1lchkwwy21jippxwj2i";
       };
       packageRequires = [
         compat
@@ -3319,10 +3319,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.1.11";
+      version = "1.1.12";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-1.1.11.tar";
-        sha256 = "0gzkwwaqpgkn6pkzfcg9vzy94cjmia6drr3gb6idz3jfnrw9cgn6";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-1.1.12.tar";
+        sha256 = "1yad0f5qbz3q0h3g4ckmzjha6y1ql954h0p19ibi8rl1kqb6f574";
       };
       packageRequires = [
         persist
@@ -3895,10 +3895,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.24";
+      version = "0.25";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/package-lint-0.24.tar";
-        sha256 = "1cdm86vyi3whq2gmb3dfkzir6hx2pf5m0yxg8pfj7ja31jfi4r25";
+        url = "https://elpa.nongnu.org/nongnu/package-lint-0.25.tar";
+        sha256 = "0nagz2ynqg0vlh8sz1ss0g78j1qi3ni1x74gzbnk3i67wwkrld8k";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -4243,10 +4243,10 @@
     elpaBuild {
       pname = "radio";
       ename = "radio";
-      version = "0.4.0";
+      version = "0.4.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/radio-0.4.0.tar";
-        sha256 = "0krpd5zi7kf7makhq9y01p3sj35gmxd1ian43id5smz36v3faxwn";
+        url = "https://elpa.nongnu.org/nongnu/radio-0.4.1.tar";
+        sha256 = "049j72m7f3a2naffpp8q4q0qrgqw0mnw5paqwabig417mwzzhqqr";
       };
       packageRequires = [ ];
       meta = {
@@ -5552,10 +5552,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.9.20250301145516";
+      version = "26.10.20250308091402";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.9.20250301145516.tar";
-        sha256 = "1lqvkpjq5hxjnl0gbdvp0hb7zpwdx6cy172757g1ipr5z23p9g56";
+        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.10.20250308091402.tar";
+        sha256 = "1rni5rjz7m4lxjcxhn2h4cds4d67hbd6c8hf731n6ygygarhjp9p";
       };
       packageRequires = [ ];
       meta = {
