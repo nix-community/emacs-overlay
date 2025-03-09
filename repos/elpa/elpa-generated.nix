@@ -1298,10 +1298,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.0";
+      version = "1.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/colorful-mode-1.2.0.tar";
-        sha256 = "1xddrvz3zyzqngp5xyvh5pbp86lw7bmkdcc4qc2a3k3dbw18469j";
+        url = "https://elpa.gnu.org/packages/colorful-mode-1.2.3.tar";
+        sha256 = "0y8bsmb27lxa87a9q9vk36dx914dl07np3bkyn019p2ak73wakgk";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1470,6 +1470,27 @@
       packageRequires = [ seq ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/compat.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  cond-star = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "cond-star";
+      ename = "cond-star";
+      version = "1.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/cond-star-1.0.tar";
+        sha256 = "1r8wfb7g6dknpnqvsszrcdpc695srk0f8s85zi0d93k1iyl3yi2q";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/cond-star.html";
         license = lib.licenses.free;
       };
     }
@@ -1965,10 +1986,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.43";
+      version = "0.44";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/debbugs-0.43.tar";
-        sha256 = "1jzdr7bp48incg1bdnq4s1ldnyp6hncz0mydy0bizk3c68chsls5";
+        url = "https://elpa.gnu.org/packages/debbugs-0.44.tar";
+        sha256 = "02kb24rscbhs4w6xknf5d6l1cicy99b0004hr20pkki6faapzpx2";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -2852,10 +2873,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.4.5";
+      version = "1.5.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.4.5.tar";
-        sha256 = "048gnn0w6igr6zv7bqaz4sd18idm536hz90lf6l568f0zzvmnjd8";
+        url = "https://elpa.gnu.org/packages/ellama-1.5.0.tar";
+        sha256 = "07661j2gpcrxvwm3ix3iarw381c429srbjq2802d7df0665by09j";
       };
       packageRequires = [
         compat
@@ -3691,6 +3712,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/gnome-c-style.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  gnome-dark-style = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "gnome-dark-style";
+      ename = "gnome-dark-style";
+      version = "0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/gnome-dark-style-0.1.tar";
+        sha256 = "01m8p90gbszlay9p1zwx5np6ra3hs40rvb5rmm12g9cx6b32wx48";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/gnome-dark-style.html";
         license = lib.licenses.free;
       };
     }
@@ -4985,10 +5027,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.23.0";
+      version = "0.24.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/llm-0.23.0.tar";
-        sha256 = "0a277fvi28xxjkr0884pdq23alk6rs3m42vs75r5ivv6ggznjzz9";
+        url = "https://elpa.gnu.org/packages/llm-0.24.0.tar";
+        sha256 = "1fz1cglfwbm9z7ppzkbpq0g5cld52sg7fr9q9jwq3692d5vka7ga";
       };
       packageRequires = [
         plz
