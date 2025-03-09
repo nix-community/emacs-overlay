@@ -18,6 +18,7 @@ jobs:
       uses: cachix/install-nix-action@v30
       with:
         nix_path: nixpkgs=channel:nixos-unstable
+        install_url: https://releases.nixos.org/nix/nix-2.24.12/install
 
     - name: Add nix-community cache
       uses: cachix/cachix-action@v15
@@ -56,6 +57,7 @@ jobs:
       uses: cachix/install-nix-action@v30
       with:
         nix_path: nixpkgs=channel:nixos-unstable
+        install_url: https://releases.nixos.org/nix/nix-2.24.12/install
 
     - name: Add nix-community cache
       uses: cachix/cachix-action@v15
