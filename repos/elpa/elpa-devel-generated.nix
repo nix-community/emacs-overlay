@@ -3769,10 +3769,10 @@
     elpaBuild {
       pname = "gnome-dark-style";
       ename = "gnome-dark-style";
-      version = "0.1.0.20250307.184114";
+      version = "0.2.1.0.20250308.192802";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnome-dark-style-0.1.0.20250307.184114.tar";
-        sha256 = "15byx403w6cchsiv07sqpvm5qx27sdy6m8img72zld4b6zfw5nq1";
+        url = "https://elpa.gnu.org/devel/gnome-dark-style-0.2.1.0.20250308.192802.tar";
+        sha256 = "19jhlg5j0012hnq369q8xi6hfw9yysa0i5i65qq98ycmgx7lmi83";
       };
       packageRequires = [ ];
       meta = {
