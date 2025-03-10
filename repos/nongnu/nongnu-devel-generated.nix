@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.3.0.20250309.183203";
+      version = "2.2.3.0.20250310.73535";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.3.0.20250309.183203.tar";
-        sha256 = "026nhc3gzpd81j70ch2ccpsw7zz02hwmkqhq4zwjjnmy75fhik03";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.3.0.20250310.73535.tar";
+        sha256 = "1m9pjr3jn1x8rk19ncg7d1i583f9wcq0pxfnswnzgc14ffr989kv";
       };
       packageRequires = [ ];
       meta = {
@@ -2348,10 +2348,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250309.125204";
+      version = "0.9.7.0.20250309.135410";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250309.125204.tar";
-        sha256 = "0g0ksw0pbrgl96v1qp869kpjc4vyw936mi7alyfm9chs08j8qz34";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250309.135410.tar";
+        sha256 = "0xpqylm64zgfmiif41c9c1kjkii12i429wj2r1l38pvc35v53kyj";
       };
       packageRequires = [
         compat
@@ -3279,10 +3279,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.8alpha0.20250228.151302";
+      version = "2.8alpha0.20250310.41740";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20250228.151302.tar";
-        sha256 = "0llw7acv4047safqgwi3zvk8s64l2ppighfi5mqv7vza7v42j3sa";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20250310.41740.tar";
+        sha256 = "0ds62m57kzcm89k79n7nycn9n14y5br3xkbdrk5xjbcad82bqqh7";
       };
       packageRequires = [ ];
       meta = {
@@ -5517,10 +5517,10 @@
     elpaBuild {
       pname = "ws-butler";
       ename = "ws-butler";
-      version = "1.2.0.20250225.12712";
+      version = "1.3.0.20250310.20542";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/ws-butler-1.2.0.20250225.12712.tar";
-        sha256 = "0q6wzcfwdq6mfhndvb669755j7vjihqsbwrxqkhxdm515rbw8hgg";
+        url = "https://elpa.nongnu.org/nongnu-devel/ws-butler-1.3.0.20250310.20542.tar";
+        sha256 = "1np6n8n54awwbcny84l3k53416a4xa7gl6420296k7f9r588ngw0";
       };
       packageRequires = [ ];
       meta = {
