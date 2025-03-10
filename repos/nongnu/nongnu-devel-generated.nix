@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.3.0.20250308.132626";
+      version = "2.2.3.0.20250309.183203";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.3.0.20250308.132626.tar";
-        sha256 = "0r8qmrziw88skpafbq5m415iz2dffdmdk31l6hsjp25pirkfivm6";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.3.0.20250309.183203.tar";
+        sha256 = "026nhc3gzpd81j70ch2ccpsw7zz02hwmkqhq4zwjjnmy75fhik03";
       };
       packageRequires = [ ];
       meta = {
@@ -2348,10 +2348,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250308.165242";
+      version = "0.9.7.0.20250309.125204";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250308.165242.tar";
-        sha256 = "0v0ay5ig37ps29c88j64kawjr6rdvfxhwsraw067an43k360wlmk";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250309.125204.tar";
+        sha256 = "0g0ksw0pbrgl96v1qp869kpjc4vyw936mi7alyfm9chs08j8qz34";
       };
       packageRequires = [
         compat
@@ -3044,10 +3044,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "0.6.1.0.20250307.172949";
+      version = "0.6.1.0.20250309.162200";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/llama-0.6.1.0.20250307.172949.tar";
-        sha256 = "10ipwhbh3k8qdi9xlxhkknqmdii0zxlydy24x8x8adwqwkwbnzmf";
+        url = "https://elpa.nongnu.org/nongnu-devel/llama-0.6.1.0.20250309.162200.tar";
+        sha256 = "1fbwl28a40cs6fdyhcz876pwwa8q49rwgzi1ava8kzgcma0nc98p";
       };
       packageRequires = [ compat ];
       meta = {
