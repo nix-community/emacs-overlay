@@ -2915,10 +2915,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.5.1.0.20250309.162618";
+      version = "1.5.2.0.20250310.74227";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.5.1.0.20250309.162618.tar";
-        sha256 = "0ipxmzy78fbzzi7jvp9hyaz86dybhwk0c4ynjb81g3lak3hfpdha";
+        url = "https://elpa.gnu.org/devel/ellama-1.5.2.0.20250310.74227.tar";
+        sha256 = "1ixms3dxcyc9wl3x8dm6j4y6hs41ls98ddvrkvqg3wg31y9kblkj";
       };
       packageRequires = [
         compat
@@ -5067,10 +5067,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.24.0.0.20250308.10834";
+      version = "0.24.1.0.20250309.220649";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.24.0.0.20250308.10834.tar";
-        sha256 = "1jcnpwdxczyc14m1krii7bdbrb39gpwszkl3vq0cnm9b87cqpfg3";
+        url = "https://elpa.gnu.org/devel/llm-0.24.1.0.20250309.220649.tar";
+        sha256 = "005b28kl669mzjbns83z5nd0hkq46v8608py1db4vn30941jjc1a";
       };
       packageRequires = [
         plz
@@ -9717,10 +9717,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.11.0.20250305.161908";
+      version = "1.11.0.20250309.195919";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-1.11.0.20250305.161908.tar";
-        sha256 = "0l5dz4vsx3g753max52hzmyy7q5fbqajrhmadsck8qrf6hkwzvly";
+        url = "https://elpa.gnu.org/devel/vertico-1.11.0.20250309.195919.tar";
+        sha256 = "0kj3b4zm13f88k452w0n3il5vlqil4rwv4zsmk2hvy6sgpmq3mrh";
       };
       packageRequires = [ compat ];
       meta = {
