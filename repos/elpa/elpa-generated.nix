@@ -2873,10 +2873,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.5.0";
+      version = "1.5.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.5.0.tar";
-        sha256 = "07661j2gpcrxvwm3ix3iarw381c429srbjq2802d7df0665by09j";
+        url = "https://elpa.gnu.org/packages/ellama-1.5.1.tar";
+        sha256 = "0gljnpgvj9x44bbf0kbq0gn5296b8i8hd8x866qjc962nq69piaa";
       };
       packageRequires = [
         compat
@@ -3725,10 +3725,10 @@
     elpaBuild {
       pname = "gnome-dark-style";
       ename = "gnome-dark-style";
-      version = "0.2.1";
+      version = "0.2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gnome-dark-style-0.2.1.tar";
-        sha256 = "1shy4iymbzdcppa3w8k1b66fxw60118xiqhr3lnpdwhkd4chkrx6";
+        url = "https://elpa.gnu.org/packages/gnome-dark-style-0.2.2.tar";
+        sha256 = "1vf0ka0xg8mvaq3s3b8rgsdv77q7qd73k9mqfvyk7ywhxj7zdb9i";
       };
       packageRequires = [ ];
       meta = {
@@ -6139,10 +6139,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.24";
+      version = "9.7.25";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.24.tar";
-        sha256 = "17jv8sh7aif759jgbrn60sjlzlc70kmrrmaiiwpgvx3bj5bwcvd6";
+        url = "https://elpa.gnu.org/packages/org-9.7.25.tar";
+        sha256 = "0isa5mqsmnyw874kh980kal4r45h6qdzizg186lvczmhdqir85bm";
       };
       packageRequires = [ ];
       meta = {

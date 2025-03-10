@@ -2915,10 +2915,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.5.0.0.20250308.94813";
+      version = "1.5.1.0.20250309.162618";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.5.0.0.20250308.94813.tar";
-        sha256 = "1rwcdyb4dc1hfb436dwvck9bzxmzdkarb78wr1gw9kg4bp3pslkh";
+        url = "https://elpa.gnu.org/devel/ellama-1.5.1.0.20250309.162618.tar";
+        sha256 = "0ipxmzy78fbzzi7jvp9hyaz86dybhwk0c4ynjb81g3lak3hfpdha";
       };
       packageRequires = [
         compat
@@ -3769,10 +3769,10 @@
     elpaBuild {
       pname = "gnome-dark-style";
       ename = "gnome-dark-style";
-      version = "0.2.1.0.20250308.192802";
+      version = "0.2.2.0.20250309.73232";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnome-dark-style-0.2.1.0.20250308.192802.tar";
-        sha256 = "19jhlg5j0012hnq369q8xi6hfw9yysa0i5i65qq98ycmgx7lmi83";
+        url = "https://elpa.gnu.org/devel/gnome-dark-style-0.2.2.0.20250309.73232.tar";
+        sha256 = "09bplrzfik4hqg041a0992nd64wnr208sr37dd013n992gwj7gqn";
       };
       packageRequires = [ ];
       meta = {
@@ -6184,10 +6184,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250307.15349";
+      version = "9.8pre0.20250309.155705";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250307.15349.tar";
-        sha256 = "1gb0sr6f0862ciwd6hfgb2ayanvlac1grc28k13jwddnz23hrb0b";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250309.155705.tar";
+        sha256 = "0x3ska3hlx3xkbcijrw4j3nnc11pa0hj1ckad1r881dp5pvzir07";
       };
       packageRequires = [ ];
       meta = {
@@ -6206,10 +6206,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.1.0.20241203.194117";
+      version = "1.1.0.20250309.165914";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20241203.194117.tar";
-        sha256 = "03mbak4dv1z49j3sa3v97vmk82b4s5j5fhnwxdy7qqkf7v06jrha";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250309.165914.tar";
+        sha256 = "1nx4b15g7zai76587phi3dy19adywmhmaan2jg62vl11mij2z08b";
       };
       packageRequires = [ org ];
       meta = {
@@ -7077,10 +7077,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20250306.24933";
+      version = "0.11.1.0.20250309.172421";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250306.24933.tar";
-        sha256 = "12hcpbf03k0bcwvqkgricm7glx4r0qnyp2dg1ks9xyvkb0mkwvkl";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250309.172421.tar";
+        sha256 = "1bgvi3k80yjj3s1msf28yiq3xqksalzlrd7xipw29ll24f12bvx3";
       };
       packageRequires = [ xref ];
       meta = {
@@ -7213,10 +7213,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.29.0.20250306.232308";
+      version = "0.29.0.20250309.73313";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.29.0.20250306.232308.tar";
-        sha256 = "1wz9nhc289frbn8kgf2ahmpvmpbc3w1ja7i2g5abadwi26v1c9nr";
+        url = "https://elpa.gnu.org/devel/python-0.29.0.20250309.73313.tar";
+        sha256 = "0vbwnmqxhx6adxxl98095y3yfrygi6wldm00gsr52232xfrc8s5v";
       };
       packageRequires = [
         compat
