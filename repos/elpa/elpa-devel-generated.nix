@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250306.111653";
+      version = "14.0.9.0.20250310.211723";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250306.111653.tar";
-        sha256 = "19ids3rvdlby4vf3b22bjj8pxycklyzd2hd6i19fvd6zm3ajzr6k";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250310.211723.tar";
+        sha256 = "012vml3jq5zaxi1z8nkpiabc554mplfzp9fdxzm6f664mxmrc9yq";
       };
       packageRequires = [ ];
       meta = {
@@ -1318,10 +1318,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.3.0.20250306.110523";
+      version = "1.2.3.0.20250310.213131";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250306.110523.tar";
-        sha256 = "1nl8fyfrw9gf5pl8a6n66ivymgg6464xqqnm9m7sdinqrh4p650p";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250310.213131.tar";
+        sha256 = "1k457wzqbyps7wrhk7klpa06jnw9mbf00g2cp52l76911hcmfwbj";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1940,10 +1940,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.22.0.0.20250302.232351";
+      version = "0.23.0.0.20250310.201518";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.22.0.0.20250302.232351.tar";
-        sha256 = "1nxgqhm7dqiafywwm8fa1nq7fp24lan0mgywsidmygmzrdblwmhm";
+        url = "https://elpa.gnu.org/devel/dape-0.23.0.0.20250310.201518.tar";
+        sha256 = "1g8nq6bhzh7kg8gw8f45lj5a6x25965qfyrzyzaapif0ndxfvpxc";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -7213,10 +7213,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.29.0.20250309.73313";
+      version = "0.30.0.20250311.1541";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.29.0.20250309.73313.tar";
-        sha256 = "0vbwnmqxhx6adxxl98095y3yfrygi6wldm00gsr52232xfrc8s5v";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20250311.1541.tar";
+        sha256 = "0mx17q36rjf2ax1vy0pm79ya35ys5wg0n97flk98x4w1l5wggx6w";
       };
       packageRequires = [
         compat

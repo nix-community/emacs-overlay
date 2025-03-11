@@ -1899,10 +1899,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.22.0";
+      version = "0.23.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dape-0.22.0.tar";
-        sha256 = "06sfhh4sn9ddmf83h3a7hcx6ghinrigl5s7a2pa3c0abfg3jjbsb";
+        url = "https://elpa.gnu.org/packages/dape-0.23.0.tar";
+        sha256 = "0y6snj9cwn1f754bn2smyf8ggjihws7a0rxb3b5s8dsvdkgz5hzy";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -7125,10 +7125,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.29";
+      version = "0.30";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/python-0.29.tar";
-        sha256 = "1855azwha6ncvvnpnj2md2awx4cr8i5326a91ignczg10pc3qiz0";
+        url = "https://elpa.gnu.org/packages/python-0.30.tar";
+        sha256 = "1m8jmjkf5cgw0jr5j4ca525kllaf1ailx5mg2z4xzvqwxkzwhwxd";
       };
       packageRequires = [
         compat
