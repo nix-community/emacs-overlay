@@ -1503,10 +1503,10 @@
     elpaBuild {
       pname = "cond-star";
       ename = "cond-star";
-      version = "1.0.0.20250306.185816";
+      version = "1.0.0.20250310.74521";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cond-star-1.0.0.20250306.185816.tar";
-        sha256 = "1yz41i1zsfm5k620kpv5bmp6r1lqb26mglav5rpffxzyfwvcmdsf";
+        url = "https://elpa.gnu.org/devel/cond-star-1.0.0.20250310.74521.tar";
+        sha256 = "1j7s227aih10np8j74b880lgk8v3g35dgpph23bzkqzrybl3w0z6";
       };
       packageRequires = [ ];
       meta = {
@@ -6302,10 +6302,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.6.0.20250227.144028";
+      version = "1.6.0.20250310.182355";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.6.0.20250227.144028.tar";
-        sha256 = "1qjqsvi04krgwyrq3f4k3pvfanl5bq0calg39x7kikq8h55lbypj";
+        url = "https://elpa.gnu.org/devel/org-modern-1.6.0.20250310.182355.tar";
+        sha256 = "04k006cpzp7qjzchfagqxncfvqqgy39clmd22ydwarrcxfklm0s8";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9074,10 +9074,10 @@
     elpaBuild {
       pname = "track-changes";
       ename = "track-changes";
-      version = "1.2.0.20250222.233822";
+      version = "1.3.0.20250310.154833";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/track-changes-1.2.0.20250222.233822.tar";
-        sha256 = "1hn3z4dk6akk868wvxyfark563sqr9ahn4g2m93aail2lv3svdw2";
+        url = "https://elpa.gnu.org/devel/track-changes-1.3.0.20250310.154833.tar";
+        sha256 = "13d4gmqsbz13l1bc706qz73pzrrdjwddcjlfyh1ya0n005kmr9vh";
       };
       packageRequires = [ ];
       meta = {
