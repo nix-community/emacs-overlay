@@ -594,10 +594,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.2.3.0.20250308.183559";
+      version = "0.2.4snapshot0.20250310.123844";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.2.3.0.20250308.183559.tar";
-        sha256 = "0rha0h795zdjczb6dp695b2pw420nl7c2la3ww1nd8zpaqbccg20";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.2.4snapshot0.20250310.123844.tar";
+        sha256 = "0nnw6bwcca9nxwhg3a1m25c8n2s4x6frkmi1j7x0dlxiy5hj8ddb";
       };
       packageRequires = [ ];
       meta = {
@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.3.0.20250310.73535";
+      version = "2.2.3.0.20250310.180040";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.3.0.20250310.73535.tar";
-        sha256 = "1m9pjr3jn1x8rk19ncg7d1i583f9wcq0pxfnswnzgc14ffr989kv";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.3.0.20250310.180040.tar";
+        sha256 = "0xn7xfmalcmd58l0fqxcxcn5yxdx01mqqyg3cqd4ipib1bv2mr1w";
       };
       packageRequires = [ ];
       meta = {
@@ -2348,10 +2348,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250309.135410";
+      version = "0.9.7.0.20250310.92816";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250309.135410.tar";
-        sha256 = "0xpqylm64zgfmiif41c9c1kjkii12i429wj2r1l38pvc35v53kyj";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250310.92816.tar";
+        sha256 = "0b0j0h35l2ji2w8pjzx545m5an1gqwkzrbzkr3jjldkf90dbf4r7";
       };
       packageRequires = [
         compat
@@ -3170,10 +3170,10 @@
     elpaBuild {
       pname = "lua-mode";
       ename = "lua-mode";
-      version = "20221027.0.20231023.94721";
+      version = "20221027.0.20250310.115056";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/lua-mode-20221027.0.20231023.94721.tar";
-        sha256 = "1zlllyj2w8am1fv3iia8yrqhwsk2pi9kkw8ml6qc2lamfa09y65p";
+        url = "https://elpa.nongnu.org/nongnu-devel/lua-mode-20221027.0.20250310.115056.tar";
+        sha256 = "0k1cgb6ld0bgy0bzir2v743ddxp15ng95j0k4sgcdzj5cyzj46kj";
       };
       packageRequires = [ ];
       meta = {
@@ -3279,10 +3279,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.8alpha0.20250310.41740";
+      version = "2.8alpha0.20250310.105434";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20250310.41740.tar";
-        sha256 = "0ds62m57kzcm89k79n7nycn9n14y5br3xkbdrk5xjbcad82bqqh7";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20250310.105434.tar";
+        sha256 = "1hs8kaw22r9fskh6pwchv1343k3phcfk1a1zdk41wvvc622pl11m";
       };
       packageRequires = [ ];
       meta = {
