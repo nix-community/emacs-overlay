@@ -1984,10 +1984,10 @@
     elpaBuild {
       pname = "geiser-gauche";
       ename = "geiser-gauche";
-      version = "0.0.2.0.20220503.170006";
+      version = "0.0.2.0.20250311.73546";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-gauche-0.0.2.0.20220503.170006.tar";
-        sha256 = "159wlbsv6wr0wpp4y0a5y2dm7bk4rpzkvc7phl9ry3a60r10h8yc";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-gauche-0.0.2.0.20250311.73546.tar";
+        sha256 = "1fw2fxbzl2mjvm2pj7fzdqlz3l76j8xd76kz0719vb7m6fnf1kwg";
       };
       packageRequires = [ geiser ];
       meta = {
@@ -2262,10 +2262,10 @@
     elpaBuild {
       pname = "go-mode";
       ename = "go-mode";
-      version = "1.6.0.0.20240630.202407";
+      version = "1.6.0.0.20250311.20239";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/go-mode-1.6.0.0.20240630.202407.tar";
-        sha256 = "0l99vsah7j79pfz0wnvpw4c7i9fw3miipfi7givgxanjrnyra859";
+        url = "https://elpa.nongnu.org/nongnu-devel/go-mode-1.6.0.0.20250311.20239.tar";
+        sha256 = "1viwxqbp6jdhbmapjgcgrjyrzn4m2r68b5vb0814y3w4gi55rzgq";
       };
       packageRequires = [ ];
       meta = {
@@ -2348,10 +2348,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250310.92816";
+      version = "0.9.7.0.20250311.633";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250310.92816.tar";
-        sha256 = "0b0j0h35l2ji2w8pjzx545m5an1gqwkzrbzkr3jjldkf90dbf4r7";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250311.633.tar";
+        sha256 = "030ng9qbg3n17mb5acyl7vq5ja4hg1w11c8cmk83fbg249nn6hbf";
       };
       packageRequires = [
         compat
@@ -4563,10 +4563,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250218.131229";
+      version = "2.31snapshot0.20250310.203219";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250218.131229.tar";
-        sha256 = "09fw736xvsfqvgyflhwpi8x75bs1zj006ncq3pvqw1njh08m8br1";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250310.203219.tar";
+        sha256 = "0f9j1phl36xnjh4g1263nkfqnjc79jrk1c0yqawykhljal87xyka";
       };
       packageRequires = [ macrostep ];
       meta = {
