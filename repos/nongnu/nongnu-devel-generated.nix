@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.3.0.20250311.153743";
+      version = "2.2.3.0.20250312.30811";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.3.0.20250311.153743.tar";
-        sha256 = "0ryfac83mdnis82055mny1r7b5djr1jcv09z8sg6kz0a855akb7x";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.3.0.20250312.30811.tar";
+        sha256 = "0vfmmclxm2vbysnmi295lj4x8gimp2psvixczqcipy2g5pzvxfcm";
       };
       packageRequires = [ ];
       meta = {
@@ -2348,10 +2348,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250311.633";
+      version = "0.9.7.0.20250312.1236";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250311.633.tar";
-        sha256 = "030ng9qbg3n17mb5acyl7vq5ja4hg1w11c8cmk83fbg249nn6hbf";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250312.1236.tar";
+        sha256 = "1zsh6f2v5dwf6ga188ykv9mzamhpmjcb650603nfj6l3fn0k8x4l";
       };
       packageRequires = [
         compat
