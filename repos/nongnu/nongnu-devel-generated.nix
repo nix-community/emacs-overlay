@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.3.0.20250310.180040";
+      version = "2.2.3.0.20250311.153743";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.3.0.20250310.180040.tar";
-        sha256 = "0xn7xfmalcmd58l0fqxcxcn5yxdx01mqqyg3cqd4ipib1bv2mr1w";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.3.0.20250311.153743.tar";
+        sha256 = "0ryfac83mdnis82055mny1r7b5djr1jcv09z8sg6kz0a855akb7x";
       };
       packageRequires = [ ];
       meta = {
@@ -1787,10 +1787,10 @@
     elpaBuild {
       pname = "focus";
       ename = "focus";
-      version = "1.0.1.0.20241029.150652";
+      version = "1.0.1.0.20250311.185538";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/focus-1.0.1.0.20241029.150652.tar";
-        sha256 = "08ryv68xfvlgbsyq80r9bycj4d9dbdz0v7ipdgjxnxfkp3di2s01";
+        url = "https://elpa.nongnu.org/nongnu-devel/focus-1.0.1.0.20250311.185538.tar";
+        sha256 = "1n5ph519fl0snfi2xvj7zhby2bscjlw7gfxjcs1acwhvn3ywwchd";
       };
       packageRequires = [ cl-lib ];
       meta = {
