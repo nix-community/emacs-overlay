@@ -1084,10 +1084,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "1.9";
+      version = "2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cape-1.9.tar";
-        sha256 = "0g9zv5fi86ky6jjqzqxn8hd4xkfdl6fp4cqpn91zn5sp35dbvrvv";
+        url = "https://elpa.gnu.org/packages/cape-2.0.tar";
+        sha256 = "0llcvbqbr296niag7z60kqxpahcv1809734j7d9vnwpl3kgcxg9v";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1526,10 +1526,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.0";
+      version = "2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-2.0.tar";
-        sha256 = "14xwd5i27km3kqv8xny1mjb9h1y5m55d51hh7l9zyc603080fry0";
+        url = "https://elpa.gnu.org/packages/consult-2.1.tar";
+        sha256 = "0w88gpgkqjmllypckrkc54gm42yjsfjp4mj9q9pii8qir49sh8ls";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2873,10 +2873,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.5.2";
+      version = "1.5.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.5.2.tar";
-        sha256 = "13xcd8ma6zlp25k3lk70jwnzb6dbvhp5kw70qj9n49nng1yn4kx5";
+        url = "https://elpa.gnu.org/packages/ellama-1.5.3.tar";
+        sha256 = "0q3gv8s3ag7fxs53mxdxzlp8zdpnr82qjrfxkzzbvd7fjxfjdk0p";
       };
       packageRequires = [
         compat
@@ -4576,10 +4576,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "1.12";
+      version = "2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jinx-1.12.tar";
-        sha256 = "0hy79bdzzbn45yqyfx4ybg742n5ci1ivazm67g4jhyd43vdfd8gf";
+        url = "https://elpa.gnu.org/packages/jinx-2.0.tar";
+        sha256 = "1haix1q4rfz18m4bblp4k4gqjd9jbwg9j9zl411b8s2ga268pdkk";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6257,10 +6257,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.6";
+      version = "1.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-modern-1.6.tar";
-        sha256 = "1fmmblqs6v52690fvky3xq48m5a3xh8xrl7j8pqw6hc06igm4m5q";
+        url = "https://elpa.gnu.org/packages/org-modern-1.7.tar";
+        sha256 = "0f1i28x7a9m69xjl3n4bb91pjxm21xw1byhqilyw524y8s22j3wm";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9561,10 +9561,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "1.11";
+      version = "2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-1.11.tar";
-        sha256 = "0wfx0hrjkdhqqgi954npam6nv505bnq76jc18sxcca6dilzjzwnf";
+        url = "https://elpa.gnu.org/packages/vertico-2.0.tar";
+        sha256 = "1x34vsrr812wlawb5wy5aq81467xsjxjz0zsjsxq121d4pzam4z3";
       };
       packageRequires = [ compat ];
       meta = {
