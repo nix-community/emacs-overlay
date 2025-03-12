@@ -3140,10 +3140,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1snapshot0.20250221.184006";
+      version = "5.6.1snapshot0.20250312.13833";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20250221.184006.tar";
-        sha256 = "1gfvv408msmp18jsacbslkbmqyxh7mh9bi4lj5xxjk80mll93fyk";
+        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20250312.13833.tar";
+        sha256 = "03352zza9zmv5paha806yj4pbv0p9pmbnr2b574a7xlw6qn5kzn0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9074,10 +9074,10 @@
     elpaBuild {
       pname = "track-changes";
       ename = "track-changes";
-      version = "1.3.0.20250310.154833";
+      version = "1.4.0.20250312.1734";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/track-changes-1.3.0.20250310.154833.tar";
-        sha256 = "13d4gmqsbz13l1bc706qz73pzrrdjwddcjlfyh1ya0n005kmr9vh";
+        url = "https://elpa.gnu.org/devel/track-changes-1.4.0.20250312.1734.tar";
+        sha256 = "003cp1sz74nj92dbvcm4gzsr546v5l38ifi76371lv3j5wxjfgsi";
       };
       packageRequires = [ ];
       meta = {

@@ -8919,10 +8919,10 @@
     elpaBuild {
       pname = "track-changes";
       ename = "track-changes";
-      version = "1.3";
+      version = "1.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/track-changes-1.3.tar";
-        sha256 = "0a9348ca7dhvawmw0y0fb2slgn19jdrl37i7fxndb0kkzvznd6pz";
+        url = "https://elpa.gnu.org/packages/track-changes-1.4.tar";
+        sha256 = "0ygc53dm144ld4f7ig1fh1z345gnkrin7q108kj9d4dhgp8f2381";
       };
       packageRequires = [ ];
       meta = {
