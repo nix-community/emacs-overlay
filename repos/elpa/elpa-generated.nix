@@ -1942,10 +1942,10 @@
     elpaBuild {
       pname = "dash";
       ename = "dash";
-      version = "2.19.1";
+      version = "2.20.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dash-2.19.1.tar";
-        sha256 = "1c7yibfikkwlip8zh4kiamh3kljil3hyl250g8fkxpdyhljjdk6m";
+        url = "https://elpa.gnu.org/packages/dash-2.20.0.tar";
+        sha256 = "1ckcsfksvwcknbp39v5p4yyl5h6a8xz0iljx7wb20igq0l4lpy18";
       };
       packageRequires = [ ];
       meta = {
@@ -2873,10 +2873,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.5.3";
+      version = "1.5.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.5.3.tar";
-        sha256 = "0q3gv8s3ag7fxs53mxdxzlp8zdpnr82qjrfxkzzbvd7fjxfjdk0p";
+        url = "https://elpa.gnu.org/packages/ellama-1.5.4.tar";
+        sha256 = "0kf25znwzc9mdy2adhramzcr30y9f8qa1q9s0swbsa4ilja7ks7w";
       };
       packageRequires = [
         compat
