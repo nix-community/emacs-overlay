@@ -263,10 +263,10 @@
     elpaBuild {
       pname = "base32";
       ename = "base32";
-      version = "1.0.0.20240227.184114";
+      version = "1.0.0.20250312.191912";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/base32-1.0.0.20240227.184114.tar";
-        sha256 = "0nxxymnxy9sd12w1kfj8n86zbhxf40mi12nmb3q0wigg2nynl31k";
+        url = "https://elpa.nongnu.org/nongnu-devel/base32-1.0.0.20250312.191912.tar";
+        sha256 = "1aglwd9mm2c53nqm7j6hrh02mag9gg5x5yc25jmaajqy9qrbh54n";
       };
       packageRequires = [ ];
       meta = {
@@ -1114,10 +1114,10 @@
     elpaBuild {
       pname = "eglot-inactive-regions";
       ename = "eglot-inactive-regions";
-      version = "0.6.3.0.20241217.45248";
+      version = "0.6.3.0.20250313.74527";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eglot-inactive-regions-0.6.3.0.20241217.45248.tar";
-        sha256 = "1kf84wzfdysskmxjv45c1vdp5vpg7issk92gvcvrw59afsv25cza";
+        url = "https://elpa.nongnu.org/nongnu-devel/eglot-inactive-regions-0.6.3.0.20250313.74527.tar";
+        sha256 = "1vrrngpbfi9gbkx9bn2fqznr8wg8m9msdj438nsysl8175ai0c1d";
       };
       packageRequires = [ ];
       meta = {
@@ -2348,10 +2348,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250312.12622";
+      version = "0.9.7.0.20250312.185844";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250312.12622.tar";
-        sha256 = "0rs1wbx5l5ss3pzbrlhipx09hnql3bxpj8pi1zkxzpwac6n46s3h";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250312.185844.tar";
+        sha256 = "16jrv9aw5h40vfwhv2wmlgngbzgbi68pianx6flfx6fzmlsdxpww";
       };
       packageRequires = [
         compat
@@ -5016,10 +5016,10 @@
     elpaBuild {
       pname = "totp-auth";
       ename = "totp-auth";
-      version = "1.0.0.20250312.191912";
+      version = "1.0.0.20250312.200047";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/totp-auth-1.0.0.20250312.191912.tar";
-        sha256 = "1b2i3v0mh61gbbnda2jmkhnc03my1vsnwjrxnbkxkgqvybr63cli";
+        url = "https://elpa.nongnu.org/nongnu-devel/totp-auth-1.0.0.20250312.200047.tar";
+        sha256 = "1qi0svqdbk389kzlm4i7ghrrp01nc87vvqzjgynd56bw5nalibcr";
       };
       packageRequires = [ base32 ];
       meta = {
