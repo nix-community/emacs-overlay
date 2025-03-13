@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.3.0.20250312.30811";
+      version = "2.2.7.0.20250312.165153";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.3.0.20250312.30811.tar";
-        sha256 = "0vfmmclxm2vbysnmi295lj4x8gimp2psvixczqcipy2g5pzvxfcm";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250312.165153.tar";
+        sha256 = "1k6y9simcqfszyq5s0vb41s6pjmr9pd3djbnjdk5vvqhqyphig21";
       };
       packageRequires = [ ];
       meta = {
@@ -2348,10 +2348,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250312.1236";
+      version = "0.9.7.0.20250312.12622";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250312.1236.tar";
-        sha256 = "1zsh6f2v5dwf6ga188ykv9mzamhpmjcb650603nfj6l3fn0k8x4l";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250312.12622.tar";
+        sha256 = "0rs1wbx5l5ss3pzbrlhipx09hnql3bxpj8pi1zkxzpwac6n46s3h";
       };
       packageRequires = [
         compat
@@ -3044,10 +3044,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "0.6.1.0.20250309.162200";
+      version = "0.6.1.0.20250312.142844";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/llama-0.6.1.0.20250309.162200.tar";
-        sha256 = "1fbwl28a40cs6fdyhcz876pwwa8q49rwgzi1ava8kzgcma0nc98p";
+        url = "https://elpa.nongnu.org/nongnu-devel/llama-0.6.1.0.20250312.142844.tar";
+        sha256 = "099m6knzf6rh4r9x6f285mimg8i7znrays1bsi1y22hvik5mmgl2";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3223,10 +3223,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.1.0.20250301.231530";
+      version = "4.3.1.0.20250312.143226";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.1.0.20250301.231530.tar";
-        sha256 = "1633fihqqdsapzswvzzjincyg2pv0dxj7wa0f92snsgnwp83kg1n";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.1.0.20250312.143226.tar";
+        sha256 = "0mba1qf1z6dsbhrzl7d4rz8f6xbqqlwrxa16dbi9gl5ibaf4kx0p";
       };
       packageRequires = [
         compat
@@ -3254,10 +3254,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.3.1.0.20250301.231530";
+      version = "4.3.1.0.20250312.143226";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.1.0.20250301.231530.tar";
-        sha256 = "1xrbcxhijazbzhrq6qqql4mhbjzg7bapal9kj40rwk37w4qyc49z";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.1.0.20250312.143226.tar";
+        sha256 = "1s9dz5bayf852bdmd656zdzsch5w2jj687hnbpbmb2zbj050r45g";
       };
       packageRequires = [
         compat
@@ -4135,10 +4135,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1.0.20250302.215149";
+      version = "2.9.1.0.20250312.165928";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250302.215149.tar";
-        sha256 = "1853vh8cj8nvsscmb82b7ahcaqlxgk8fabym6b2bsxgvf09zxr05";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250312.165928.tar";
+        sha256 = "0wqgzph6vkgq55h5669l0rxqjxz7chbzrrjxb16r6pisxnw4b2dd";
       };
       packageRequires = [ ];
       meta = {
@@ -5016,10 +5016,10 @@
     elpaBuild {
       pname = "totp-auth";
       ename = "totp-auth";
-      version = "1.0.0.20240227.184114";
+      version = "1.0.0.20250312.191912";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/totp-auth-1.0.0.20240227.184114.tar";
-        sha256 = "1yqvn30qc1vdhshcss4znzily08rbv77mf8hrhmy5zayq4n23nca";
+        url = "https://elpa.nongnu.org/nongnu-devel/totp-auth-1.0.0.20250312.191912.tar";
+        sha256 = "1b2i3v0mh61gbbnda2jmkhnc03my1vsnwjrxnbkxkgqvybr63cli";
       };
       packageRequires = [ base32 ];
       meta = {
