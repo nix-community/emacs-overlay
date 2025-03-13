@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250311.172401";
+      version = "14.0.9.0.20250312.215110";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250311.172401.tar";
-        sha256 = "1c061v53lzqcak77jrrhkwdfp1071y1idm7ds8mzrdwr3y4dwn03";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250312.215110.tar";
+        sha256 = "1xphcw0p1q9snk420l9x9xy02lgjxdm4m7d3vynwkb3lcwz9hi3s";
       };
       packageRequires = [ ];
       meta = {
@@ -761,10 +761,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.3.0.20250312.140118";
+      version = "0.1.4.0.20250312.213251";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.3.0.20250312.140118.tar";
-        sha256 = "06adacq7nlxbs2p5fkxs7yx8r71askwsppams19dkv19848a1zkp";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20250312.213251.tar";
+        sha256 = "10vzdld0776gsmjg0wfk731vvwlaw7zf0zhccw0crf7hr5rhhfhg";
       };
       packageRequires = [ ];
       meta = {
@@ -10019,10 +10019,10 @@
     elpaBuild {
       pname = "window-tool-bar";
       ename = "window-tool-bar";
-      version = "0.3.0.20250226.15703";
+      version = "0.3.0.20250313.50858";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/window-tool-bar-0.3.0.20250226.15703.tar";
-        sha256 = "02jg7fkd0ax5cxxi9snqv4kgpnwcvfak1dpp9hazzsvinf7bbf68";
+        url = "https://elpa.gnu.org/devel/window-tool-bar-0.3.0.20250313.50858.tar";
+        sha256 = "00cvxm8qgfck1ydc3089c4p707wmqb2x0z2nc8xjzb38p4khw0pr";
       };
       packageRequires = [ compat ];
       meta = {
