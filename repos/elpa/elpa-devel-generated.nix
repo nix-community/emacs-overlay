@@ -761,10 +761,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.4.0.20250312.213251";
+      version = "0.1.4.0.20250313.105706";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20250312.213251.tar";
-        sha256 = "10vzdld0776gsmjg0wfk731vvwlaw7zf0zhccw0crf7hr5rhhfhg";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20250313.105706.tar";
+        sha256 = "0gp0w02j1klva4cnbx2cn5vskbjl3a28ib0kvhpwh9h9iip9yacr";
       };
       packageRequires = [ ];
       meta = {
@@ -2915,10 +2915,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.5.4.0.20250312.193157";
+      version = "1.5.5.0.20250313.165205";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.5.4.0.20250312.193157.tar";
-        sha256 = "0sqfkv552ibcyfi8q69xxlfghi46908xk7fb6qhz5c7i0d933r96";
+        url = "https://elpa.gnu.org/devel/ellama-1.5.5.0.20250313.165205.tar";
+        sha256 = "03s37mav0p6jk5n7iws9g2qilxrq4nml97rh0qj2wzidr71sk753";
       };
       packageRequires = [
         compat
@@ -3051,10 +3051,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "21.0.20250204.152247";
+      version = "21.0.20250313.94213";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-21.0.20250204.152247.tar";
-        sha256 = "00m56k9j69xh03agj5xsw61brz69r54n2qqkyg0gs1ahaqcf52cc";
+        url = "https://elpa.gnu.org/devel/emms-21.0.20250313.94213.tar";
+        sha256 = "1wja0wf9g7qzmg3hygbkb10q4r7k3clh5qjmdxng9jbzinaws8if";
       };
       packageRequires = [
         cl-lib
@@ -4239,10 +4239,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250305.163914";
+      version = "9.0.2pre0.20250313.150830";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250305.163914.tar";
-        sha256 = "1w7kql8q62h5fm496bdp6gq7j6f6lbp3bz1h1g3vb7qplbx4mkys";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250313.150830.tar";
+        sha256 = "1g7hvkd7xwxv053872j3zk8n688hpfwc2ykdsk9x7c5pjjxvk0pd";
       };
       packageRequires = [ ];
       meta = {
