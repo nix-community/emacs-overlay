@@ -1138,10 +1138,10 @@
     elpaBuild {
       pname = "eglot-inactive-regions";
       ename = "eglot-inactive-regions";
-      version = "0.6.3";
+      version = "0.6.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/eglot-inactive-regions-0.6.3.tar";
-        sha256 = "03958dgr48zqak06qjqdz6qgfxn5rs60425qcvb7wdv2jb4400hc";
+        url = "https://elpa.nongnu.org/nongnu/eglot-inactive-regions-0.6.4.tar";
+        sha256 = "0c0dpvimh71jpa8f40ns8lk9y8i5vpl159zz621sx0c9wlvgwjsc";
       };
       packageRequires = [ ];
       meta = {
@@ -2365,10 +2365,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7";
+      version = "0.9.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gptel-0.9.7.tar";
-        sha256 = "0sh8q80q620d6yr4437ddrjrzygd15iwkc9jvwh3pw9sncv2laqn";
+        url = "https://elpa.nongnu.org/nongnu/gptel-0.9.8.tar";
+        sha256 = "1rym3y1fcwfw9dh51nhw7v8rbap8ixysjlrv39v4hksfwv17gvbr";
       };
       packageRequires = [
         compat
@@ -3060,10 +3060,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "0.6.1";
+      version = "0.6.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/llama-0.6.1.tar";
-        sha256 = "0ri0pql710v6yrsnl5hv7xqax6ap1whk4xip9xx732a59fws60cg";
+        url = "https://elpa.nongnu.org/nongnu/llama-0.6.2.tar";
+        sha256 = "1adafy7klbx2h0pjrbl989czh7yf2m8gmk5s87c26ih01sjiwwwz";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4222,10 +4222,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250212.102351";
+      version = "1.0.20250312.143158";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250212.102351.tar";
-        sha256 = "14c7y8n562x7dy03078db4xxvyvvxb5kkw9vgg1296xrcpj7mls2";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250312.143158.tar";
+        sha256 = "1jfzj1dgnsyzv0lr9lir7lx3j1mpfj0qv99g6bp0s31krgamh2bj";
       };
       packageRequires = [ ];
       meta = {
