@@ -1,5 +1,6 @@
 self: super:
 let
+  darwinCFlags = super.lib.optionalString super.stdenv.isDarwin " -DFD_SETSIZE=10000 -DDARWIN_UNLIMITED_SELECT ";
   mkGitEmacs = namePrefix: jsonFile: { ... }@args:
     let
       repoMeta = super.lib.importJSON jsonFile;
@@ -96,6 +97,7 @@ let
               in
                 base.overrideAttrs (
                   oa: {
+                    CFLAGS = darwinCFlags;
                     passthru = oa.passthru // {
                         pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                     };
@@ -105,6 +107,7 @@ let
                    emacs = emacs-git-pgtk;
                in base.overrideAttrs (
                  oa: {
+                   CFLAGS = darwinCFlags;
                     passthru = oa.passthru // {
                         pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                     };
@@ -115,6 +118,7 @@ let
                    in
                      base.overrideAttrs (
                        oa: {
+                         CFLAGS = darwinCFlags;
                          patches = oa.patches ++ [
                            # XXX: #318
                            (self.fetchpatch {
@@ -132,6 +136,7 @@ let
                         in
                           base.overrideAttrs (
                             oa: {
+                              CFLAGS = darwinCFlags;
                               patches = oa.patches ++ [
                                 # XXX: #318
                                 (self.fetchpatch {
@@ -149,6 +154,7 @@ let
               in
                 base.overrideAttrs (
                   oa: {
+                    CFLAGS = darwinCFlags;
                     buildInputs = oa.buildInputs ++ [ super.mps ];
                     configureFlags = oa.configureFlags ++ [ "--with-mps=yes" ];
                     passthru = oa.passthru // {
@@ -161,6 +167,7 @@ let
                    in
                      base.overrideAttrs (
                        oa: {
+                         CFLAGS = darwinCFlags;
                          buildInputs = oa.buildInputs ++ [ super.mps ];
                          configureFlags = oa.configureFlags ++ [ "--with-mps=yes" ];
                          passthru = oa.passthru // {
@@ -185,6 +192,7 @@ let
       }
     ).overrideAttrs (
       oa: {
+        CFLAGS = darwinCFlags;
         name = "${oa.name}-nox";
       }
     )
@@ -200,6 +208,7 @@ let
       }
     ).overrideAttrs (
       oa: {
+        CFLAGS = darwinCFlags;
         name = "${oa.name}-nox";
       }
     )
