@@ -6417,21 +6417,6 @@
   }
  },
  {
-  "ename": "axiom-environment",
-  "commit": "570bde6b4b89eb74eaf47dda64004cd575f9d953",
-  "sha256": "11ldwj88hi7chbbxfkhdfx58w1xybk4ch6xmh99fa2vl8ybk16p1",
-  "fetcher": "git",
-  "url": "https://bitbucket.org/pdo/axiom-environment",
-  "unstable": {
-   "version": [
-    20220612,
-    1535
-   ],
-   "commit": "01d88daa0c864af9918db5a147fbb5e435dec199",
-   "sha256": "03cxb6zdqmzgjp8r6hcirf8xl772j7xqk2nw17gjkn4xqbwfyn62"
-  }
- },
- {
   "ename": "ayu-theme",
   "commit": "22bdc35d5c432c5d58d751c0fc3f2e5d0fafe583",
   "sha256": "1ygg6dwzg0kjxxd8c6w5j174jcjkc7f4hljgd70vkh4k7817kxj8",
@@ -11048,14 +11033,14 @@
   "repo": "minad/cape",
   "unstable": {
    "version": [
-    20250311,
-    1650
+    20250315,
+    855
    ],
    "deps": [
     "compat"
    ],
-   "commit": "2e86b6deed2844fc1345ff01bc92c3a849a33778",
-   "sha256": "0wm0y982zrfzzbdizpvr39c55bhp9y7l7w1sp8ps1b4ijbmgd0r9"
+   "commit": "f72ebcaeff4252ca0d7a9ac4636d8db0fdf54c55",
+   "sha256": "01wwn54q6izgkrbp0n0lmi3a0vgj3bp9kpy8ldbkq72kf0fj187v"
   },
   "stable": {
    "version": [
@@ -12116,11 +12101,11 @@
   "repo": "GrammarSoft/cg3",
   "unstable": {
    "version": [
-    20250311,
-    1539
+    20250315,
+    1016
    ],
-   "commit": "51c6f82d7cc686aec96587abd2eabe1b5c1ed9e1",
-   "sha256": "07jh0nirsij9v311nmff5yzcs2hq9izri7abrrml5k0kk115nnpp"
+   "commit": "9cbd0db112347de6f60e52475d435ca1d97626cd",
+   "sha256": "1lah7587npz5jqaavfwybjhrrif4kibk0vhzc9ibqgjczcm2ljs9"
   },
   "stable": {
    "version": [
@@ -15974,25 +15959,6 @@
   }
  },
  {
-  "ename": "company-axiom",
-  "commit": "8b4c6b03c5ff78ce327dcf66b175e266bbc53dbf",
-  "sha256": "061n8zn11r5a9m96sqnw8kx252n1m401cmcyqla8n9valjbnvsag",
-  "fetcher": "git",
-  "url": "https://bitbucket.org/pdo/axiom-environment",
-  "unstable": {
-   "version": [
-    20220612,
-    1535
-   ],
-   "deps": [
-    "axiom-environment",
-    "company"
-   ],
-   "commit": "01d88daa0c864af9918db5a147fbb5e435dec199",
-   "sha256": "03cxb6zdqmzgjp8r6hcirf8xl772j7xqk2nw17gjkn4xqbwfyn62"
-  }
- },
- {
   "ename": "company-bibtex",
   "commit": "855ea20024b606314f8590129259747cac0bcc97",
   "sha256": "1b96p5qyxl6jlq0kz0dbma5pwvgqcy4x4gmpknjqrjabafbq1ynn",
@@ -19255,8 +19221,8 @@
   "repo": "chep/copilot-chat.el",
   "unstable": {
    "version": [
-    20250313,
-    822
+    20250315,
+    1056
    ],
    "deps": [
     "magit",
@@ -19267,8 +19233,8 @@
     "shell-maker",
     "transient"
    ],
-   "commit": "0337869a7d19171133198453985009655a846f75",
-   "sha256": "1qmaqqwr38d0br5prc2wrq9qcdwwx09v5312ip7ln1lgzd9a1b18"
+   "commit": "fe28abe5ba3ef98d848c036630abf965b65e9ca8",
+   "sha256": "0hzm85h1ixzib74x99khrr89njmb1393l1icrbc5wmhf5l79qnv9"
   },
   "stable": {
    "version": [
@@ -25647,11 +25613,11 @@
   "repo": "alexluigit/dirvish",
   "unstable": {
    "version": [
-    20250314,
-    305
+    20250315,
+    1347
    ],
-   "commit": "532199928742b95df9c815c35cbade218052f7a1",
-   "sha256": "1qxppcr4jlay7n7vqxd4p20lk1g86nmvgjifbiffrdnp9j41jxya"
+   "commit": "ddfa9cc77e71b916be68e52a7b0e355770fcbe3b",
+   "sha256": "0g414gdl4wavmxncv0himl5n8qlgvz9p6qfjrzsbp7akjp4ldd0v"
   },
   "stable": {
    "version": [
@@ -26558,11 +26524,11 @@
   "repo": "spotify/dockerfile-mode",
   "unstable": {
    "version": [
-    20250225,
-    1527
+    20250315,
+    1426
    ],
-   "commit": "7ce17e054eca4d56ca8bc1e4a6a0dbf58efd8d52",
-   "sha256": "1ilnfv57d2rinf0np3i675gfdv8n6iv8vlls92m6d45yahykqacw"
+   "commit": "8135740bfc6ad96ab82d39d9fe68dbce56180f4c",
+   "sha256": "0flbf53cqwldrpbbbschkacf105bzm42bd0c7pdkjr5bdc37wlai"
   },
   "stable": {
    "version": [
@@ -78414,11 +78380,11 @@
   "repo": "meow-edit/meow",
   "unstable": {
    "version": [
-    20250201,
-    1911
+    20250315,
+    1407
    ],
-   "commit": "0314cd1bc661c8900bae5ef65d55f67a9ddc7193",
-   "sha256": "0knd02sx26cv76lci2w63fzvmvql30i052y2c15j1c9lhn7nz3pq"
+   "commit": "57efe6bf3039f2c2eb71683acce1eeea03863ea1",
+   "sha256": "1rnp2wp04f7d0814z4byvqri38g0yjknasfqxn7jvmpmqd9sn66j"
   },
   "stable": {
    "version": [
@@ -84922,11 +84888,11 @@
   "url": "https://git.notmuchmail.org/git/notmuch",
   "unstable": {
    "version": [
-    20250313,
-    2351
+    20250315,
+    919
    ],
-   "commit": "190e958d17b9cf3704c61e73994ba9e6aac95205",
-   "sha256": "0ij5vwpdr43q7cij1cdzyvi2ipirh6wvh2nflqf1lblf76f18f9n"
+   "commit": "599a88fe679835054104daa9797dc08db1aca1b2",
+   "sha256": "1gp4kf516vz3rn3sx0lap4gldlqggqvsjsynz55mfn64lrbshmvr"
   },
   "stable": {
    "version": [
@@ -85767,24 +85733,6 @@
    ],
    "commit": "5984d6172c179528adf9aeba414598604dfb5c9a",
    "sha256": "10x4hxrjm4pr6vg42a961h9ilqzyd0l0fv7fsbq9clxi439f1nd6"
-  }
- },
- {
-  "ename": "ob-axiom",
-  "commit": "8b4c6b03c5ff78ce327dcf66b175e266bbc53dbf",
-  "sha256": "17qh4hsr3aw4d0p81px3qcbax6dv2zjhyn5n9pxqwcp2skm5vff5",
-  "fetcher": "git",
-  "url": "https://bitbucket.org/pdo/axiom-environment",
-  "unstable": {
-   "version": [
-    20220612,
-    1535
-   ],
-   "deps": [
-    "axiom-environment"
-   ],
-   "commit": "01d88daa0c864af9918db5a147fbb5e435dec199",
-   "sha256": "03cxb6zdqmzgjp8r6hcirf8xl772j7xqk2nw17gjkn4xqbwfyn62"
   }
  },
  {
@@ -87832,11 +87780,11 @@
   "repo": "captainflasmr/ollama-buddy",
   "unstable": {
    "version": [
-    20250314,
-    1314
+    20250315,
+    852
    ],
-   "commit": "57fd5c2e208a0a8aa0599c2e7e90e496972f2b64",
-   "sha256": "0h6w037948h2a61ajhqgwv17n0njna2mzama2knpvx7cg13y2l5p"
+   "commit": "4b5f89f765b8e8465d51efe6062b9242122de189",
+   "sha256": "0mq74zb3jr0i3p9p4qicm31yym0wmq3i846ayg9qb4vdf94amz4l"
   },
   "stable": {
    "version": [
@@ -121354,14 +121302,14 @@
   "repo": "minad/tempel",
   "unstable": {
    "version": [
-    20250101,
-    927
+    20250315,
+    852
    ],
    "deps": [
     "compat"
    ],
-   "commit": "12a2072ce97d7489296dbb950da946b77d215506",
-   "sha256": "1yjp2fk0fzvj9xsshvbha9csranqgrwhf8ggx52qmfn4shssxrn7"
+   "commit": "36841d2795e79fedc945c856c3c4d1368fdc1a88",
+   "sha256": "1lmk4n9s5l3rnywiprp1cz777c5k70g19334yn0cx5g7ladh57lk"
   },
   "stable": {
    "version": [
