@@ -1318,10 +1318,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.3.0.20250310.213131";
+      version = "1.2.3.0.20250313.231844";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250310.213131.tar";
-        sha256 = "1k457wzqbyps7wrhk7klpa06jnw9mbf00g2cp52l76911hcmfwbj";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250313.231844.tar";
+        sha256 = "1fp8j97h1ifl8784q5cxzvb8hn8zglrdjlff4xjlxzbzld5qm8qs";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2086,6 +2086,50 @@
       };
     }
   ) { };
+  denote-journal = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-journal";
+      ename = "denote-journal";
+      version = "0.0.0.0.20250314.50903";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/denote-journal-0.0.0.0.20250314.50903.tar";
+        sha256 = "1q9y411zicksz4k2p4wnfbhfpfvg8b78iwwj9ilc5936yq8jdp17";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/denote-journal.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  denote-markdown = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-markdown";
+      ename = "denote-markdown";
+      version = "0.0.0.0.20250314.50820";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/denote-markdown-0.0.0.0.20250314.50820.tar";
+        sha256 = "1k5l360df8g953kxgz115gkmvxg3dwznckma6ycxzi0lhzhaq13y";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/denote-markdown.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   denote-menu = callPackage (
     {
       denote,
@@ -2108,6 +2152,28 @@
       };
     }
   ) { };
+  denote-org = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-org";
+      ename = "denote-org";
+      version = "0.0.0.0.20250314.50942";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/denote-org-0.0.0.0.20250314.50942.tar";
+        sha256 = "06i58qpdb3x2xk2sg9p3vama44qjnkx4zz01m0g9c5n124g398lm";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/denote-org.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   denote-search = callPackage (
     {
       denote,
@@ -2126,6 +2192,50 @@
       packageRequires = [ denote ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/denote-search.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  denote-sequence = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-sequence";
+      ename = "denote-sequence";
+      version = "0.0.0.0.20250314.51010";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.0.0.0.20250314.51010.tar";
+        sha256 = "0jgbl8dl0825gnlc7h5h9lr8qpahy4jgl2i92wvp2k98071qrmkq";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/denote-sequence.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  denote-silo = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-silo";
+      ename = "denote-silo";
+      version = "0.0.0.0.20250314.51057";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/denote-silo-0.0.0.0.20250314.51057.tar";
+        sha256 = "0xx8ixp8pppy0y3chhgv9cv6pmw22bym8p6j9zvq2i0w6bs06pks";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/denote-silo.html";
         license = lib.licenses.free;
       };
     }
@@ -2915,10 +3025,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.5.5.0.20250313.165205";
+      version = "1.5.6.0.20250313.205435";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.5.5.0.20250313.165205.tar";
-        sha256 = "03s37mav0p6jk5n7iws9g2qilxrq4nml97rh0qj2wzidr71sk753";
+        url = "https://elpa.gnu.org/devel/ellama-1.5.6.0.20250313.205435.tar";
+        sha256 = "1f3k7jnfqkr3cqaw9m0lnjfhj0vs801ksbh9vf4pfy0l2sca0hda";
       };
       packageRequires = [
         compat

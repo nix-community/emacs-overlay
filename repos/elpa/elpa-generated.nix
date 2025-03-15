@@ -2873,10 +2873,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.5.5";
+      version = "1.5.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.5.5.tar";
-        sha256 = "10qlx832jpizfxk7j2n2ivhs0fzbwl71csphg833dbx5dvb7793v";
+        url = "https://elpa.gnu.org/packages/ellama-1.5.6.tar";
+        sha256 = "0nxrhhnhzap1kc21ly51nz4ba2y2z9v6ynpiwjjhxjlm0jaaaxdd";
       };
       packageRequires = [
         compat
