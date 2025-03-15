@@ -2045,6 +2045,50 @@
       };
     }
   ) { };
+  denote-journal = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-journal";
+      ename = "denote-journal";
+      version = "0.0.0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/denote-journal-0.0.0.1.tar";
+        sha256 = "07xb58jqkh0nwzc8l8k1cvqdlkm7iyb3ajjndkz6kvg7vhxiaaqi";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/denote-journal.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  denote-markdown = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-markdown";
+      ename = "denote-markdown";
+      version = "0.0.0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/denote-markdown-0.0.0.1.tar";
+        sha256 = "1sn3h6jjclqwda5hch8c23s485w9sra2m3lqz9qcsjdcmb85cxk1";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/denote-markdown.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   denote-menu = callPackage (
     {
       denote,
@@ -2067,6 +2111,28 @@
       };
     }
   ) { };
+  denote-org = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-org";
+      ename = "denote-org";
+      version = "0.0.0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/denote-org-0.0.0.1.tar";
+        sha256 = "0mipl5b728qwxwskc28jrvxjf1n5x25gggsrfx8qmdz5z4p0dglr";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/denote-org.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   denote-search = callPackage (
     {
       denote,
@@ -2085,6 +2151,50 @@
       packageRequires = [ denote ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/denote-search.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  denote-sequence = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-sequence";
+      ename = "denote-sequence";
+      version = "0.0.0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/denote-sequence-0.0.0.1.tar";
+        sha256 = "0z947wk5n2ign2d36b1ahdldr99ir7cmvdhmq4i5dv2kwj36ga1n";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/denote-sequence.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  denote-silo = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-silo";
+      ename = "denote-silo";
+      version = "0.0.0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/denote-silo-0.0.0.1.tar";
+        sha256 = "011l6nd7wqjy2zwg0pifi1zqr1diay4i170binl78wv4bxd5z0ln";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/denote-silo.html";
         license = lib.licenses.free;
       };
     }
@@ -5582,10 +5692,10 @@
     elpaBuild {
       pname = "mpdired";
       ename = "mpdired";
-      version = "2";
+      version = "3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/mpdired-2.tar";
-        sha256 = "0synpanyqka8nyz9mma69na307vm5pjvn21znbdvz56gka2mbg23";
+        url = "https://elpa.gnu.org/packages/mpdired-3.tar";
+        sha256 = "19qkg7cjh037l4cw3q0b52hpp3fwmly6alc7z683baiz5fklcjc8";
       };
       packageRequires = [ ];
       meta = {
@@ -9692,10 +9802,10 @@
     elpaBuild {
       pname = "vundo";
       ename = "vundo";
-      version = "2.3.0";
+      version = "2.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vundo-2.3.0.tar";
-        sha256 = "165y277fi0vp9301hy3pqgfnf160k29n8vri0zyq8a3vz3f8lqrl";
+        url = "https://elpa.gnu.org/packages/vundo-2.4.0.tar";
+        sha256 = "1aj2l6iivgv6mh3rvrj8w8jhznx7cywn5f2b2ivl4hmrxlfbgsjr";
       };
       packageRequires = [ ];
       meta = {
