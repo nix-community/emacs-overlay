@@ -1105,10 +1105,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.0.0.20250311.165029";
+      version = "2.0.0.20250315.85532";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.0.0.20250311.165029.tar";
-        sha256 = "1birjf3znacrv82vx8y346xhmzy4ssrd9hmdwp0jjin440lfd7wc";
+        url = "https://elpa.gnu.org/devel/cape-2.0.0.20250315.85532.tar";
+        sha256 = "0jvn4schd8d2dks0wmprl9q4ads7yal60a9yblhpbgpsvn7jn5cf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1546,10 +1546,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.1.0.20250311.165829";
+      version = "2.1.0.20250315.180046";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.1.0.20250311.165829.tar";
-        sha256 = "1j5xz5985dgwkcvw44arxndjyylbzmcz51j8rq48hdb5206jpgfj";
+        url = "https://elpa.gnu.org/devel/consult-2.1.0.20250315.180046.tar";
+        sha256 = "1cv558d87y09gz7dyzkwnlzjr1lasf9b5440yxw6ahpfdfhhal99";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8079,10 +8079,10 @@
     elpaBuild {
       pname = "shell-quasiquote";
       ename = "shell-quasiquote";
-      version = "0.0.20221221.82030";
+      version = "0.0.20250315.115249";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/shell-quasiquote-0.0.20221221.82030.tar";
-        sha256 = "0g2yq64yyim35lvxify65kq3y49qrvgri7jyl9rgz8999gb3h8dj";
+        url = "https://elpa.gnu.org/devel/shell-quasiquote-0.0.20250315.115249.tar";
+        sha256 = "0z7w8wxi8v4668klcfa3gs5azzpj1n7n2dvq0ajkmhjlm4sfhcps";
       };
       packageRequires = [ ];
       meta = {
@@ -8312,10 +8312,10 @@
     elpaBuild {
       pname = "so-long";
       ename = "so-long";
-      version = "1.1.2.0.20250101.73917";
+      version = "1.1.2.0.20250315.100518";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/so-long-1.1.2.0.20250101.73917.tar";
-        sha256 = "1z9mf5kac7bsqq0kkd2alcx9vvz87vsgbw753shd23y9m7ayapvx";
+        url = "https://elpa.gnu.org/devel/so-long-1.1.2.0.20250315.100518.tar";
+        sha256 = "0jjf9y2swl23njng62l43avy37s4ca18z8g647mkp50rx02j9q8b";
       };
       packageRequires = [ ];
       meta = {
@@ -8967,10 +8967,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.3.0.20250101.92736";
+      version = "1.3.0.20250315.163443";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.3.0.20250101.92736.tar";
-        sha256 = "1jqg7k6pr088jmbvyzqwm5xyzpjlz0a4fk4z5qmrcr6hdzyjlhgi";
+        url = "https://elpa.gnu.org/devel/tempel-1.3.0.20250315.163443.tar";
+        sha256 = "1wd34ag9fcmmbhb2p5z575m165a3b5xndymwyscj9wv2l96kzgy7";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9291,10 +9291,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.5.0.20250306.191617";
+      version = "0.8.6.0.20250315.190303";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.8.5.0.20250306.191617.tar";
-        sha256 = "1yjq58925f4f13ln7i2hzmyknhswmgpwh1n5dc8bnk7pbfnkzcq3";
+        url = "https://elpa.gnu.org/devel/transient-0.8.6.0.20250315.190303.tar";
+        sha256 = "13j0fqigilz8hrydlxjnq16vinl5yxxi4jq2d8gd9q9bj08dwa49";
       };
       packageRequires = [
         compat
@@ -9722,6 +9722,28 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/vc-hgcmd.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  vc-jj = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "vc-jj";
+      ename = "vc-jj";
+      version = "0.1.0.20250315.132907";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/vc-jj-0.1.0.20250315.132907.tar";
+        sha256 = "1qwsynkwd0w16225ammqspfjh3d42hyky53i9zpy8imhlxfmwiyz";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/vc-jj.html";
         license = lib.licenses.free;
       };
     }
