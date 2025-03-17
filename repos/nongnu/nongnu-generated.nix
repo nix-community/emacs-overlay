@@ -42,6 +42,27 @@
       };
     }
   ) { };
+  aidermacs = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "aidermacs";
+      ename = "aidermacs";
+      version = "1.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.0.tar";
+        sha256 = "1mrm82794nzkhg9f7qbnzk36cvfdnkjmjdh40smi85ggjrdqxx9c";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/aidermacs.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   alect-themes = callPackage (
     {
       elpaBuild,
