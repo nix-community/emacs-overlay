@@ -8811,10 +8811,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.3";
+      version = "1.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tempel-1.3.tar";
-        sha256 = "0fivsldisk17a1vbzx91kmvsd85vl0dnih77pqnzriyqs8dl1wdm";
+        url = "https://elpa.gnu.org/packages/tempel-1.4.tar";
+        sha256 = "0gh573np15wdy7vd0zj92ivslaga7kalmnkdjlfiw5pamyy5xsl4";
       };
       packageRequires = [ compat ];
       meta = {

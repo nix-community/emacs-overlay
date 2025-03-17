@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250314.114131";
+      version = "14.0.9.0.20250315.223852";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250314.114131.tar";
-        sha256 = "0frjw370vgvypz2apmbvqnfr72rmvp61vr2aigd4396xp04vzrv5";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250315.223852.tar";
+        sha256 = "19jnyknl0xd41cyhfjdykvn6c5bszrg0g19xnvd4fb3asxh7l2is";
       };
       packageRequires = [ ];
       meta = {
@@ -1546,10 +1546,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.1.0.20250315.180046";
+      version = "2.1.0.20250316.182333";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.1.0.20250315.180046.tar";
-        sha256 = "1cv558d87y09gz7dyzkwnlzjr1lasf9b5440yxw6ahpfdfhhal99";
+        url = "https://elpa.gnu.org/devel/consult-2.1.0.20250316.182333.tar";
+        sha256 = "1l849f6d6gc4nxw9zm1pxjhblrisqrhzqiq1p468varc23657p7m";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1940,10 +1940,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.23.0.0.20250310.201518";
+      version = "0.23.0.0.20250316.15007";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.23.0.0.20250310.201518.tar";
-        sha256 = "1g8nq6bhzh7kg8gw8f45lj5a6x25965qfyrzyzaapif0ndxfvpxc";
+        url = "https://elpa.gnu.org/devel/dape-0.23.0.0.20250316.15007.tar";
+        sha256 = "1yp7im05y344l1pxpr227k0y6qk85lmrgfc4l7xrp1zixrnsb7k5";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250315.52749";
+      version = "3.1.0.0.20250316.162346";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250315.52749.tar";
-        sha256 = "0vmb91kwi8yhzrxf5kjjkzgsl10xr8x349ks04g53icry08cncha";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250316.162346.tar";
+        sha256 = "0bmyd7cxi0p5sfmxnp2llp4zga5kfvn55v5h419vf7fk22f84910";
       };
       packageRequires = [ ];
       meta = {
@@ -6294,10 +6294,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250312.181832";
+      version = "9.8pre0.20250316.131601";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250312.181832.tar";
-        sha256 = "1bp5a6h7f458awla2ywhjj2wjbwj4bqkz891xsfirsj5801bc72i";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250316.131601.tar";
+        sha256 = "1jl3mm2j4macx2gfvlchh5i0nk5vqadp8s3wad9syi43csbz75hi";
       };
       packageRequires = [ ];
       meta = {
@@ -7187,10 +7187,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20250311.202651";
+      version = "0.11.1.0.20250316.33155";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250311.202651.tar";
-        sha256 = "12d3v449rk70l71i1hyfy9fkvqv82y4gadcdwn9n4hdgqzknj598";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250316.33155.tar";
+        sha256 = "12vv5xq2a2lpd2w17zsml21qndzzx3a7mkkrsbi9fmbikf9j7af8";
       };
       packageRequires = [ xref ];
       meta = {
@@ -8079,10 +8079,10 @@
     elpaBuild {
       pname = "shell-quasiquote";
       ename = "shell-quasiquote";
-      version = "0.0.20250315.115249";
+      version = "0.0.20250316.162215";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/shell-quasiquote-0.0.20250315.115249.tar";
-        sha256 = "0z7w8wxi8v4668klcfa3gs5azzpj1n7n2dvq0ajkmhjlm4sfhcps";
+        url = "https://elpa.gnu.org/devel/shell-quasiquote-0.0.20250316.162215.tar";
+        sha256 = "1f19k60y30vnp3dw62fn2wi94bkgdfx6nl8i50yx5nnw0cjp9f7l";
       };
       packageRequires = [ ];
       meta = {
@@ -8967,10 +8967,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.3.0.20250315.163443";
+      version = "1.4.0.20250316.101606";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.3.0.20250315.163443.tar";
-        sha256 = "1wd34ag9fcmmbhb2p5z575m165a3b5xndymwyscj9wv2l96kzgy7";
+        url = "https://elpa.gnu.org/devel/tempel-1.4.0.20250316.101606.tar";
+        sha256 = "179kwky5k79ci5yl0spj28c32f9jl3ka0q9b0702spgmv8slf5h4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9514,10 +9514,10 @@
     elpaBuild {
       pname = "urgrep";
       ename = "urgrep";
-      version = "0.5.2snapshot0.20250304.194036";
+      version = "0.5.2snapshot0.20250315.173144";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/urgrep-0.5.2snapshot0.20250304.194036.tar";
-        sha256 = "0hcskhl9qs9rajv1kxna1xqfkhil5w5mdiyrj0swh7mcaw63fwr1";
+        url = "https://elpa.gnu.org/devel/urgrep-0.5.2snapshot0.20250315.173144.tar";
+        sha256 = "18rnj1dm8551sqkqjfq9485v455n97ixivbnds6lmwxaafrr8yxr";
       };
       packageRequires = [
         compat
