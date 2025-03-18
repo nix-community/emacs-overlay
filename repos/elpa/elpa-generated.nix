@@ -2099,10 +2099,10 @@
     elpaBuild {
       pname = "denote-menu";
       ename = "denote-menu";
-      version = "1.3.0";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-menu-1.3.0.tar";
-        sha256 = "0flkb3f1zpp3sbjx6h7qb6fnjgg44s53zkv3q3fj6cl7c0f11n02";
+        url = "https://elpa.gnu.org/packages/denote-menu-1.4.0.tar";
+        sha256 = "1lw8fyf749wmkrcn8ixvrias1a84wcgy9snlmlk0w2h02dqapazi";
       };
       packageRequires = [ denote ];
       meta = {
@@ -5374,10 +5374,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "1.8";
+      version = "2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/marginalia-1.8.tar";
-        sha256 = "0q8mflfsl4vj2r2m47jgm5hrg3a4k5pildb53vlgm5k9wb4sd7md";
+        url = "https://elpa.gnu.org/packages/marginalia-2.0.tar";
+        sha256 = "1qklwzz0swd96vdqymbm91y6h53id6ch1lr1dpdwmz6qknwamrlc";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6228,10 +6228,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.3";
+      version = "1.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/orderless-1.3.tar";
-        sha256 = "1gh2xw34adk5q6v9sz42j5mwyjjp1yix70jvjylnapwsjjsjm5qk";
+        url = "https://elpa.gnu.org/packages/orderless-1.4.tar";
+        sha256 = "151df7azrhyxaa768bp6mxmc44mmc4h1x180s2a9ns4b3lsfczrv";
       };
       packageRequires = [ compat ];
       meta = {
