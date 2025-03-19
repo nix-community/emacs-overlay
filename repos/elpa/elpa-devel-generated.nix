@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250315.223852";
+      version = "14.0.9.0.20250318.175758";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250315.223852.tar";
-        sha256 = "19jnyknl0xd41cyhfjdykvn6c5bszrg0g19xnvd4fb3asxh7l2is";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250318.175758.tar";
+        sha256 = "1vr2r7q0355vgrhnhzj29005v7hjdjcd3lmfkwjqx7cmgxsx6pxp";
       };
       packageRequires = [ ];
       meta = {
@@ -4318,6 +4318,28 @@
       };
     }
   ) { };
+  hugoista = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      seq,
+    }:
+    elpaBuild {
+      pname = "hugoista";
+      ename = "hugoista";
+      version = "0.1.0.0.20250317.175206";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/hugoista-0.1.0.0.20250317.175206.tar";
+        sha256 = "0pcyvpw7yjr3rqmgq19mnjw9crvfmln19vi6055i5r5qif5zggij";
+      };
+      packageRequires = [ seq ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/hugoista.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   hydra = callPackage (
     {
       elpaBuild,
@@ -5500,10 +5522,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "6.3.0.20241224.134640";
+      version = "6.3.0.20250318.114111";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20241224.134640.tar";
-        sha256 = "02y2ii89safyfj74221rlri99gr7382ir62zq2iqwvy6668srn4r";
+        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250318.114111.tar";
+        sha256 = "1wlmm61jzdanhrdgbh8xzwxkchaj72wkrhwkzwq5achbk6hdscjc";
       };
       packageRequires = [ ];
       meta = {
@@ -6294,10 +6316,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250317.125618";
+      version = "9.8pre0.20250318.185330";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250317.125618.tar";
-        sha256 = "0cqybrk1py55hgawr7ygddxdd5spk856n69jqb6p0ws67kv2jj02";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250318.185330.tar";
+        sha256 = "0wpysvvrq38kqh90fr03jdxcpjawvja1dknwd9x4p4iqlxj4mhlp";
       };
       packageRequires = [ ];
       meta = {
@@ -9843,10 +9865,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.0.0.20250311.165544";
+      version = "2.0.0.20250318.163034";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.0.0.20250311.165544.tar";
-        sha256 = "1vw6qjrbsymx18kpn47p89ni7gpnwb0zs7prbzzpn1p370bb578r";
+        url = "https://elpa.gnu.org/devel/vertico-2.0.0.20250318.163034.tar";
+        sha256 = "0pdcbav6q64kjdxq4i61i33lqisbjn23z3yzaiif9svkl1ljhzny";
       };
       packageRequires = [ compat ];
       meta = {
