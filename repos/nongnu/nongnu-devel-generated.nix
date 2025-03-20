@@ -1140,10 +1140,10 @@
     elpaBuild {
       pname = "eglot-inactive-regions";
       ename = "eglot-inactive-regions";
-      version = "0.6.4.0.20250316.80903";
+      version = "0.6.4.0.20250320.22942";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eglot-inactive-regions-0.6.4.0.20250316.80903.tar";
-        sha256 = "10zs34hirlq13kr6jsb6314m8wnyxz8dkynrslim55xwhi5hp3y6";
+        url = "https://elpa.nongnu.org/nongnu-devel/eglot-inactive-regions-0.6.4.0.20250320.22942.tar";
+        sha256 = "1smr4d1hb6hhzcj34c15hwz93wbz2kgdigh06brvfainln6aj417";
       };
       packageRequires = [ ];
       meta = {
@@ -2374,10 +2374,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250318.100616";
+      version = "0.9.8.0.20250319.194426";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250318.100616.tar";
-        sha256 = "1ykrx31yin05p43l5566l5rzxz9gy9ahb5s2vxhv0r6sqrzg2yxh";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250319.194426.tar";
+        sha256 = "0hyhs915hkwq3fc3q4giq4d7ma6jivgnlhk8m7929xg08qgpylm8";
       };
       packageRequires = [
         compat
