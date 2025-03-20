@@ -4274,6 +4274,28 @@
       };
     }
   ) { };
+  hugoista = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      seq,
+    }:
+    elpaBuild {
+      pname = "hugoista";
+      ename = "hugoista";
+      version = "0.2.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/hugoista-0.2.0.tar";
+        sha256 = "1fxlr7j7nvnghbasqz69spf9w9z7gy90gzfjwqk0cc5cgmg3qwa0";
+      };
+      packageRequires = [ seq ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/hugoista.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   hydra = callPackage (
     {
       cl-lib ? null,
