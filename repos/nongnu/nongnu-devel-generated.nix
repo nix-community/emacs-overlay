@@ -53,10 +53,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.0.0.20250319.144438";
+      version = "1.0.0.20250320.134220";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.0.0.20250319.144438.tar";
-        sha256 = "144l0fkr556rjkvwj7b7r1crcs7fgrx6hwzqjp6mybq5hxwx14gj";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.0.0.20250320.134220.tar";
+        sha256 = "1bic0645blb12bv3phy9x2h2jyqk8yha9rq6xc7nf9x9yr08m0sl";
       };
       packageRequires = [
         compat
@@ -119,10 +119,10 @@
     elpaBuild {
       pname = "annotate";
       ename = "annotate";
-      version = "2.3.0.0.20250306.133745";
+      version = "2.3.1.0.20250320.130448";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/annotate-2.3.0.0.20250306.133745.tar";
-        sha256 = "14p1yaxzns3zmi0d799fn76pca3d0ayl5v73bdssr0fq6rq04q5a";
+        url = "https://elpa.nongnu.org/nongnu-devel/annotate-2.3.1.0.20250320.130448.tar";
+        sha256 = "16djnp8mknq8rdk4sa4szsmbbg879677dx736pqg621gdy0p2p8m";
       };
       packageRequires = [ ];
       meta = {
@@ -1224,10 +1224,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.2.0.0.20250301.163737";
+      version = "4.2.0.0.20250320.150152";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.2.0.0.20250301.163737.tar";
-        sha256 = "1rzxgfykrckxw6sbgw71dd99s8rnz0jjjpddsf8rsy7ialjzw4w4";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.2.0.0.20250320.150152.tar";
+        sha256 = "1q5f46mvw813vzxm7z3x7f1nhgzwvjbyzvxghwlkcqnmr4drawyi";
       };
       packageRequires = [ ];
       meta = {
@@ -3532,10 +3532,10 @@
     elpaBuild {
       pname = "nasm-mode";
       ename = "nasm-mode";
-      version = "1.1.1.0.20240610.150504";
+      version = "1.1.1.0.20250320.164627";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/nasm-mode-1.1.1.0.20240610.150504.tar";
-        sha256 = "1kkv7r6j02472d6c91xsrg9qlfvl70iyi538w2mh3s2adfkh7ps9";
+        url = "https://elpa.nongnu.org/nongnu-devel/nasm-mode-1.1.1.0.20250320.164627.tar";
+        sha256 = "0dm1zg15q18v9y4mx2p8hdqvql4dikw8chkj3i3jb1jp9d0v2rf3";
       };
       packageRequires = [ ];
       meta = {
@@ -4225,10 +4225,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250312.143158";
+      version = "1.0.20250320.101804";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250312.143158.tar";
-        sha256 = "1gmryjxszvh4nvpbxgrak8bydp9rfybyzil8cx5pa7cv60lj3la6";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250320.101804.tar";
+        sha256 = "1x80ganb03vfnpckz4wahaip7az93cxdj49fzznjman50rnar172";
       };
       packageRequires = [ ];
       meta = {

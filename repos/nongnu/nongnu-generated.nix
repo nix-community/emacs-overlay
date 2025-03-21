@@ -114,10 +114,10 @@
     elpaBuild {
       pname = "annotate";
       ename = "annotate";
-      version = "2.3.0";
+      version = "2.3.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/annotate-2.3.0.tar";
-        sha256 = "0l5pw9z4i1mlf346dg7brha37jmlrq6pyvjdj2mxhdfs6nzddaba";
+        url = "https://elpa.nongnu.org/nongnu/annotate-2.3.1.tar";
+        sha256 = "1s5v3zxr7fvwm0xz176vl3y50rl7mvn748jgn19b8x7zn4zsnf42";
       };
       packageRequires = [ ];
       meta = {
@@ -4243,10 +4243,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250312.143158";
+      version = "1.0.20250320.101804";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250312.143158.tar";
-        sha256 = "1jfzj1dgnsyzv0lr9lir7lx3j1mpfj0qv99g6bp0s31krgamh2bj";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250320.101804.tar";
+        sha256 = "0p569rm1pivj4mfbns0ayhnnc9bh4l2cs41qgqj5j8fs5swix0v8";
       };
       packageRequires = [ ];
       meta = {
