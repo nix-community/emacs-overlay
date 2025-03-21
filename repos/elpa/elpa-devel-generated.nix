@@ -4541,10 +4541,10 @@
     elpaBuild {
       pname = "ivy";
       ename = "ivy";
-      version = "0.15.0.0.20250225.83943";
+      version = "0.15.0.0.20250320.224909";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ivy-0.15.0.0.20250225.83943.tar";
-        sha256 = "1h26hx2cvw73nlaryrqhdmxsyagqzcy9iiiglxihq4sp302kcqar";
+        url = "https://elpa.gnu.org/devel/ivy-0.15.0.0.20250320.224909.tar";
+        sha256 = "0n9hz31xfp57xgfqgaz90ibz2km3h5d28bvshp1rc08pab8s7fgl";
       };
       packageRequires = [ ];
       meta = {
