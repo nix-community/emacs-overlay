@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "a68-mode";
       ename = "a68-mode";
-      version = "1.0.0.20250226.200747";
+      version = "1.0.0.20250320.185734";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/a68-mode-1.0.0.20250226.200747.tar";
-        sha256 = "1h07lgxrrr3838hnl2zzdfm4gj7d6gbdsmnzdbmnzz8h65pk1x93";
+        url = "https://elpa.gnu.org/devel/a68-mode-1.0.0.20250320.185734.tar";
+        sha256 = "0lh6vgikqrd8jyaclvqi5jb9rih4d8q8pi5ns2kcwwas8dlfxis4";
       };
       packageRequires = [ ];
       meta = {
@@ -761,10 +761,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.4.0.20250314.91952";
+      version = "0.1.4.0.20250320.94622";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20250314.91952.tar";
-        sha256 = "0b41pckc10msz4ppf8il390n008nnb0againjzp7zg07kdakm84l";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20250320.94622.tar";
+        sha256 = "1psvm6g2mklyqfa349ikx78l3hfkw3xr9314schc7j73m9mlbj44";
       };
       packageRequires = [ ];
       meta = {
@@ -1318,10 +1318,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.3.0.20250315.133110";
+      version = "1.2.3.0.20250320.124024";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250315.133110.tar";
-        sha256 = "1n9snrmxfilw29fmvd5npw3qg4svx5zic2448zxlg9m7aqawi0y7";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250320.124024.tar";
+        sha256 = "14pzfpxaza09qlli9frx2wqqhc4xzvmh0gjsqic7ay28xmhca6l4";
       };
       packageRequires = [ compat ];
       meta = {
