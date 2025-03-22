@@ -4243,10 +4243,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250320.101804";
+      version = "1.0.20250321.115935";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250320.101804.tar";
-        sha256 = "0p569rm1pivj4mfbns0ayhnnc9bh4l2cs41qgqj5j8fs5swix0v8";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250321.115935.tar";
+        sha256 = "1daqmc7v9xqg78kkapad6g2f6c82jjpg8gb0lq04bix6f8h1gvl2";
       };
       packageRequires = [ ];
       meta = {
@@ -5573,10 +5573,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.10.20250308091402";
+      version = "26.11.20250321120953";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.10.20250308091402.tar";
-        sha256 = "1rni5rjz7m4lxjcxhn2h4cds4d67hbd6c8hf731n6ygygarhjp9p";
+        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.11.20250321120953.tar";
+        sha256 = "188asqkpk12y8a9fv1hqi94gfxwb140ccslif614ybcv5hisr8hm";
       };
       packageRequires = [ ];
       meta = {

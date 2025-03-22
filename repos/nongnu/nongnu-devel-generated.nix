@@ -53,10 +53,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.0.0.20250321.34854";
+      version = "1.0.0.20250321.153817";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.0.0.20250321.34854.tar";
-        sha256 = "1h68igj5cji01jna88h4ljki4110kgn8iahvcasg88wl0mnm4aw5";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.0.0.20250321.153817.tar";
+        sha256 = "17bd8z9v064az3wapbz28nia55kg4ycc1j9aw226lr3dqv2nb6mf";
       };
       packageRequires = [
         compat
@@ -949,10 +949,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.7.0.20250319.150855";
+      version = "2.2.7.0.20250321.142120";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250319.150855.tar";
-        sha256 = "0zxjb8m6n0lnq63af5933rvxxghid1196idk31165c75yfh3bs07";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250321.142120.tar";
+        sha256 = "0pfglr4hhf0lk35qyshjgvz46fgl325nmp87l5sdj252i3l2qq06";
       };
       packageRequires = [ ];
       meta = {
@@ -2374,10 +2374,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250319.194426";
+      version = "0.9.8.0.20250321.125703";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250319.194426.tar";
-        sha256 = "0hyhs915hkwq3fc3q4giq4d7ma6jivgnlhk8m7929xg08qgpylm8";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250321.125703.tar";
+        sha256 = "0ymx6yx43yc66mcshaic81ggbpip0196pg5b4ww96ylnyprwn5qn";
       };
       packageRequires = [
         compat
@@ -2571,10 +2571,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.2.0.20250318.81601";
+      version = "4.0.2.0.20250321.63229";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250318.81601.tar";
-        sha256 = "1wg4b2gmnr0p6xkjc9f3j3sf7vzpw22rsy0za20ax4p12pyd07wq";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250321.63229.tar";
+        sha256 = "00lpinkm4rq8nnmbbvk9wkg5nv5881ynvjcna1lbar4z0sk5icsd";
       };
       packageRequires = [
         helm-core
@@ -2596,10 +2596,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.2.0.20250318.81601";
+      version = "4.0.2.0.20250321.63229";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250318.81601.tar";
-        sha256 = "1ar7s78npxx2ji71gbndp5qnx1702y5w1whgymr7v84c96rcn8c3";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250321.63229.tar";
+        sha256 = "1ljz4s6v13apjc6m1c8yjmy0sc35kaz0ia3rglm8392i39m38vbc";
       };
       packageRequires = [ async ];
       meta = {
@@ -4225,10 +4225,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250320.101804";
+      version = "1.0.20250321.115935";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250320.101804.tar";
-        sha256 = "1x80ganb03vfnpckz4wahaip7az93cxdj49fzznjman50rnar172";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250321.115935.tar";
+        sha256 = "10h20fp90iznxk51vdikfm3j6m9bixwi9rc8l6bm6p333hsisapa";
       };
       packageRequires = [ ];
       meta = {
@@ -5564,10 +5564,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.10.20250308091402.0.20250308.122854";
+      version = "26.11.20250321120953.0.20250321.121535";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.10.20250308091402.0.20250308.122854.tar";
-        sha256 = "0c0afwkjp8p445qs2rfg7n9gs842bq46di95q10ab9s8qcg4j7d8";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.11.20250321120953.0.20250321.121535.tar";
+        sha256 = "1qzb5iiv4acwk0hbizjcs3kp8jv2hn29snakyhchxgwlmwixj607";
       };
       packageRequires = [ ];
       meta = {
