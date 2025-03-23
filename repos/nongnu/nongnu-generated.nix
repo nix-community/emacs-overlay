@@ -44,19 +44,24 @@
   ) { };
   aidermacs = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
+      transient,
     }:
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.0";
+      version = "1.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.0.tar";
-        sha256 = "1mrm82794nzkhg9f7qbnzk36cvfdnkjmjdh40smi85ggjrdqxx9c";
+        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.1.tar";
+        sha256 = "1g1p5prz9b2giy01hja04zqf90s53yckjxfwkrznpqvpar25l1nz";
       };
-      packageRequires = [ ];
+      packageRequires = [
+        compat
+        transient
+      ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/aidermacs.html";
         license = lib.licenses.free;

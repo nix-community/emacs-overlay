@@ -53,10 +53,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.0.0.20250322.152044";
+      version = "1.1.0.20250323.21209";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.0.0.20250322.152044.tar";
-        sha256 = "09vrzbz0vf4412f1zbnclbdw52ysskz8sfjcvx96hsd1wryjjc9l";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.1.0.20250323.21209.tar";
+        sha256 = "1jmjz74nhqkidhih0jsirg8c0lhz7dnyhs0iai968l0j1zixnrgz";
       };
       packageRequires = [
         compat
@@ -949,10 +949,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.7.0.20250322.161048";
+      version = "2.2.7.0.20250323.11606";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250322.161048.tar";
-        sha256 = "1pnna82kcxnjznycwhij11zh7bs4pp20ym385vss7ld2b50vmd7d";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250323.11606.tar";
+        sha256 = "08ki07r97781i71rxjwn1i61m6zvzas9c85g4sqdn7kkgh41dxzs";
       };
       packageRequires = [ ];
       meta = {
@@ -2374,10 +2374,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250322.90655";
+      version = "0.9.8.0.20250322.213556";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250322.90655.tar";
-        sha256 = "0bmh0qr8hc1zg6dyrmw3vr0dmvxlv6a249krza36i1qnijhdxn7h";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250322.213556.tar";
+        sha256 = "15jhaawllmpvwpfgb9nlh3lrz70zxwbbwjx5v7z9275vbwza2az5";
       };
       packageRequires = [
         compat
