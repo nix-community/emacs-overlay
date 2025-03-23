@@ -2902,10 +2902,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.3.1.0.20250322.162024";
+      version = "2.3.1.0.20250322.212812";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.3.1.0.20250322.162024.tar";
-        sha256 = "18wmap3zfadf6pk6x0h9rihynva27s812q1g9cgydmp15jznqhv1";
+        url = "https://elpa.gnu.org/devel/el-job-2.3.1.0.20250322.212812.tar";
+        sha256 = "1738v7p622j0wz4mbcq378snif0jcd3wk63nd2wsdpwpdvnal1dv";
       };
       packageRequires = [ ];
       meta = {
@@ -3604,6 +3604,27 @@
       ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/flymake.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  flymake-clippy = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "flymake-clippy";
+      ename = "flymake-clippy";
+      version = "1.1.0.0.20250323.23403";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/flymake-clippy-1.1.0.0.20250323.23403.tar";
+        sha256 = "1fxa1w4rj5c6rmhllwwc2c44mkn667rw9z9v29yk4v9k41905gmr";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/flymake-clippy.html";
         license = lib.licenses.free;
       };
     }

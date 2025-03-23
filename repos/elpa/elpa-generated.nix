@@ -3564,6 +3564,27 @@
       };
     }
   ) { };
+  flymake-clippy = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "flymake-clippy";
+      ename = "flymake-clippy";
+      version = "1.1.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/flymake-clippy-1.1.0.tar";
+        sha256 = "1sij8qn7q9jvjnnnqqm152hnvkw079m66pwjyhvsqdqivqjvlnrd";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/flymake-clippy.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   flymake-codespell = callPackage (
     {
       compat,
