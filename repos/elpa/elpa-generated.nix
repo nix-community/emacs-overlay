@@ -2851,6 +2851,27 @@
       };
     }
   ) { };
+  el-job = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "el-job";
+      ename = "el-job";
+      version = "2.3.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/el-job-2.3.1.tar";
+        sha256 = "1ddq0l8g9h6pbh5f7sk7s9aga0an5hlpd9xl0b9mb6n38a8dgpds";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/el-job.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   el-search = callPackage (
     {
       cl-print ? null,
@@ -6271,10 +6292,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.25";
+      version = "9.7.26";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.25.tar";
-        sha256 = "0isa5mqsmnyw874kh980kal4r45h6qdzizg186lvczmhdqir85bm";
+        url = "https://elpa.gnu.org/packages/org-9.7.26.tar";
+        sha256 = "1ddn8yiba41rsash82snwxci7riar71wcyffq58m2gp9a8y9cb1l";
       };
       packageRequires = [ ];
       meta = {
@@ -8897,10 +8918,10 @@
     elpaBuild {
       pname = "tex-parens";
       ename = "tex-parens";
-      version = "0.6";
+      version = "0.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tex-parens-0.6.tar";
-        sha256 = "0pgzs0fw2ijns2xqbyq7whlhjjrhp0axja0381q9v75c7fxrp6ba";
+        url = "https://elpa.gnu.org/packages/tex-parens-0.7.tar";
+        sha256 = "1h3l4kn154mmzxgz6s7y2qrkpqk4ava3j1iwx07gsgnr5pcpgvfr";
       };
       packageRequires = [ ];
       meta = {
