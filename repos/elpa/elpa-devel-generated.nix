@@ -5241,10 +5241,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.24.1.0.20250322.104341";
+      version = "0.24.1.0.20250323.173650";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.24.1.0.20250322.104341.tar";
-        sha256 = "1ddr95fjpq7mz3z4gya94flawrwciiwxvngvhhpx1ph6vajbmkv1";
+        url = "https://elpa.gnu.org/devel/llm-0.24.1.0.20250323.173650.tar";
+        sha256 = "0si49sjzqrgdvlzjhpl2l1c28zh1mvajf078jfh1ymxaki8b8y99";
       };
       packageRequires = [
         plz
@@ -7126,10 +7126,10 @@
     elpaBuild {
       pname = "popper";
       ename = "popper";
-      version = "0.4.8.0.20250222.131836";
+      version = "0.4.8.0.20250323.144723";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/popper-0.4.8.0.20250222.131836.tar";
-        sha256 = "03h7i6z8zm1najw5vz9kflf6l35vlkcb6gkqp9g94q1r6j8s7bl2";
+        url = "https://elpa.gnu.org/devel/popper-0.4.8.0.20250323.144723.tar";
+        sha256 = "0hfl4krm53blsm9bvki4gf1as43f8i7rszcjivbsiz1r4h99j9v8";
       };
       packageRequires = [ ];
       meta = {
@@ -9804,10 +9804,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.1.0.20250317.95726";
+      version = "0.1.0.20250323.115851";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.1.0.20250317.95726.tar";
-        sha256 = "06krlmkhayqv960cp69ggar7z581x9pqqsdr7jb9w7sjwga569al";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.1.0.20250323.115851.tar";
+        sha256 = "15qjv10assm3zn2ny6kz9x0xfl88cmha1sxcj39qc6zaixzfvi2c";
       };
       packageRequires = [ compat ];
       meta = {
