@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250322.142811";
+      version = "3.1.0.0.20250323.152228";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250322.142811.tar";
-        sha256 = "0zqnjrzxr9q21b940772cx0qnv0dyna1hj8i9hkaw457pmhq0bmw";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250323.152228.tar";
+        sha256 = "0f5mmsnfs9l430yaj6lf3imy99bch6vwlgdwkixzzdka52q4jzis";
       };
       packageRequires = [ ];
       meta = {
@@ -2902,10 +2902,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.3.1.0.20250322.212812";
+      version = "2.3.1.0.20250323.100750";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.3.1.0.20250322.212812.tar";
-        sha256 = "1738v7p622j0wz4mbcq378snif0jcd3wk63nd2wsdpwpdvnal1dv";
+        url = "https://elpa.gnu.org/devel/el-job-2.3.1.0.20250323.100750.tar";
+        sha256 = "1vahz108pgi619vhmpkyrhg4d81p5z25jcac0n3yfdfx43hr3sks";
       };
       packageRequires = [ ];
       meta = {
@@ -3046,10 +3046,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.6.0.0.20250318.195847";
+      version = "1.6.1.0.20250323.101341";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.6.0.0.20250318.195847.tar";
-        sha256 = "1c9pf7h8c0zsl7adcxfs1i5zrill1vy2cjsmms2bnyg37pbnx8by";
+        url = "https://elpa.gnu.org/devel/ellama-1.6.1.0.20250323.101341.tar";
+        sha256 = "0p1gbla9hkp6hdzl515c5in5b9m53mjwc2lqj5xb5zwpxpw8l0sm";
       };
       packageRequires = [
         compat
@@ -3617,10 +3617,10 @@
     elpaBuild {
       pname = "flymake-clippy";
       ename = "flymake-clippy";
-      version = "1.1.0.0.20250323.23403";
+      version = "1.1.0.0.20250323.141048";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-clippy-1.1.0.0.20250323.23403.tar";
-        sha256 = "1fxa1w4rj5c6rmhllwwc2c44mkn667rw9z9v29yk4v9k41905gmr";
+        url = "https://elpa.gnu.org/devel/flymake-clippy-1.1.0.0.20250323.141048.tar";
+        sha256 = "04w4z16iny2z22wffzgrkijsxyjcd24p2ip5yx35wvk7np6r3hxk";
       };
       packageRequires = [ ];
       meta = {
@@ -4413,10 +4413,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250321.85611";
+      version = "9.0.2pre0.20250323.145134";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250321.85611.tar";
-        sha256 = "0l4x6wzla04fxc6zhczas35r5rfl1xwgkhgqy9a22jfck48yv7k3";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250323.145134.tar";
+        sha256 = "0q5hb3mi7cfiksv83mx2qhi663ngq7k9sgj0r1zbvivb8br6lbza";
       };
       packageRequires = [ ];
       meta = {
@@ -4583,10 +4583,10 @@
     elpaBuild {
       pname = "ivy";
       ename = "ivy";
-      version = "0.15.0.0.20250322.200744";
+      version = "0.15.0.0.20250323.152753";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ivy-0.15.0.0.20250322.200744.tar";
-        sha256 = "07d4i2qdh2nr5zrd014yv8bpvxz5w3bax8n3qxvyigdz5ynd840z";
+        url = "https://elpa.gnu.org/devel/ivy-0.15.0.0.20250323.152753.tar";
+        sha256 = "0d6qb3cmwf1pq76ygbwgw6mb9dp82cc9ygdf6acpf3pj2a8g5rc8";
       };
       packageRequires = [ ];
       meta = {
@@ -6472,16 +6472,20 @@
       elpaBuild,
       fetchurl,
       lib,
+      org,
     }:
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.7.0.20250311.170125";
+      version = "1.7.0.20250323.173657";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.7.0.20250311.170125.tar";
-        sha256 = "0xijjr2y15ghjicflmsq3l5ir2laz6pvsfcr0p7jziiz0ax97fx9";
+        url = "https://elpa.gnu.org/devel/org-modern-1.7.0.20250323.173657.tar";
+        sha256 = "16m5sgdaf0w50ckjin2wkg4bkpcqczjy7vbnqhma97h6al433420";
       };
-      packageRequires = [ compat ];
+      packageRequires = [
+        compat
+        org
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/org-modern.html";
         license = lib.licenses.free;
@@ -8808,10 +8812,10 @@
     elpaBuild {
       pname = "swiper";
       ename = "swiper";
-      version = "0.15.0.0.20250322.162553";
+      version = "0.15.0.0.20250323.152852";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/swiper-0.15.0.0.20250322.162553.tar";
-        sha256 = "18jkjxlyb4bq8rar67m6xf11nnqnq92k1wm95gzj0r1pc621skvv";
+        url = "https://elpa.gnu.org/devel/swiper-0.15.0.0.20250323.152852.tar";
+        sha256 = "06w21h60qza6hasmhh52jggsy1cgcz4nrkzldvgs86sg980zh2vd";
       };
       packageRequires = [ ivy ];
       meta = {
