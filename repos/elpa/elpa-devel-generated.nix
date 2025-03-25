@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.9.0.20241126.81020";
+      version = "1.9.9.0.20250325.50900";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20241126.81020.tar";
-        sha256 = "0h101k5s68kgki9s50pg2hgwqrbnf21mcvcwxgy9jbrbs64snh4a";
+        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20250325.50900.tar";
+        sha256 = "094wj61sh7v8qamysmrpdclm93p8w33nq9vs9j2c1jpjskd5m3jh";
       };
       packageRequires = [ ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250324.135757";
+      version = "3.1.0.0.20250325.43655";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250324.135757.tar";
-        sha256 = "11min8mhjmvd0srclmalp5dp75njp6rbm0bwk063vm086aw0pi1a";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250325.43655.tar";
+        sha256 = "0xrp3sf0gpqr6bhkym8l5h8dx3rhcgfc4qvcqnm6yalzx1yi5avf";
       };
       packageRequires = [ ];
       meta = {
@@ -2096,10 +2096,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.0.0.1.0.20250322.142457";
+      version = "0.0.0.1.0.20250325.50326";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.0.0.1.0.20250322.142457.tar";
-        sha256 = "00fc2vb38q4rvrg506l4h9c1qvcbgyahl3x7i4i5gdia7amwqysd";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.0.0.1.0.20250325.50326.tar";
+        sha256 = "0di826c05xjn62ixz67yglzjmbksl2w8yz8xbqa2z1lgqdwmb1cs";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2368,10 +2368,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20250317.24225";
+      version = "1.10.0.0.20250324.212130";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250317.24225.tar";
-        sha256 = "1id3igw8fhkidr0xblbx2s4kyqbxv5g30aynlcg3jv7xbrmy4h17";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250324.212130.tar";
+        sha256 = "1gzybnfg34q77qa9afc8lk1qcz3y4i06lwafbjhvh3v2lyszcqsw";
       };
       packageRequires = [ cl-lib ];
       meta = {
