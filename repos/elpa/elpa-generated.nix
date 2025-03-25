@@ -3004,10 +3004,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.6.1";
+      version = "1.6.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.6.1.tar";
-        sha256 = "1bfr2cgq3yggn83pyni7isbniq9zpyq0xrvr4n1zj6pgf2zqj2ii";
+        url = "https://elpa.gnu.org/packages/ellama-1.6.2.tar";
+        sha256 = "1nm8mks7q1z6r6q2h337rz3rlmpffrhmblyppdc7swbpmxkpzyl5";
       };
       packageRequires = [
         compat
@@ -4326,10 +4326,10 @@
     elpaBuild {
       pname = "hugoista";
       ename = "hugoista";
-      version = "0.2.0";
+      version = "0.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/hugoista-0.2.0.tar";
-        sha256 = "1fxlr7j7nvnghbasqz69spf9w9z7gy90gzfjwqk0cc5cgmg3qwa0";
+        url = "https://elpa.gnu.org/packages/hugoista-0.2.1.tar";
+        sha256 = "02rv1r2xr6dhkfqwgbrrsdajxv6inbny5biimkb0qcf3i8b43dih";
       };
       packageRequires = [ seq ];
       meta = {
