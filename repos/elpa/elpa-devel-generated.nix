@@ -875,10 +875,10 @@
     elpaBuild {
       pname = "boxy";
       ename = "boxy";
-      version = "2.0.0.0.20250104.25705";
+      version = "2.0.0.0.20250325.150735";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/boxy-2.0.0.0.20250104.25705.tar";
-        sha256 = "1zy4vwlzm5gqhw2slg6j760b3hd1x989wx5p9xi9gqi2gaa43a1m";
+        url = "https://elpa.gnu.org/devel/boxy-2.0.0.0.20250325.150735.tar";
+        sha256 = "1qk6z7z9ya9d173c3ic5wmxvjq4gdk3z6817inpq43l2npq15hi6";
       };
       packageRequires = [ ];
       meta = {
@@ -1546,10 +1546,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.1.0.20250322.81004";
+      version = "2.1.0.20250325.170545";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.1.0.20250322.81004.tar";
-        sha256 = "0fdap2p3xdhl8xi839fbv6knvvm04sr804gsmzyvfsk252j06k7z";
+        url = "https://elpa.gnu.org/devel/consult-2.1.0.20250325.170545.tar";
+        sha256 = "1kx0p1fx57da7za7yp9s8hhqmdmgbg735mqfsh3h1hvf6km2h4av";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1569,10 +1569,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.2.4.0.20250322.71556";
+      version = "0.2.4.0.20250325.81913";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.2.4.0.20250322.71556.tar";
-        sha256 = "0ywdkabdl50r9jshp89id3kmwf3hb2334lz813h1zv3q4f27plhs";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.2.4.0.20250325.81913.tar";
+        sha256 = "1cw4yxh76xg68my7d6nsi9hdy7iflw11rnyk7hq7yrgfhr4ynfsw";
       };
       packageRequires = [
         consult
@@ -2902,10 +2902,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.3.1.0.20250323.100750";
+      version = "2.3.1.0.20250325.175815";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.3.1.0.20250323.100750.tar";
-        sha256 = "1vahz108pgi619vhmpkyrhg4d81p5z25jcac0n3yfdfx43hr3sks";
+        url = "https://elpa.gnu.org/devel/el-job-2.3.1.0.20250325.175815.tar";
+        sha256 = "1hpln8nd12zxs39pwg10diiypi4v4rqlp7hpmz61xkz7fach5gxi";
       };
       packageRequires = [ ];
       meta = {
