@@ -2860,10 +2860,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.3.1";
+      version = "2.4.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/el-job-2.3.1.tar";
-        sha256 = "1ddq0l8g9h6pbh5f7sk7s9aga0an5hlpd9xl0b9mb6n38a8dgpds";
+        url = "https://elpa.gnu.org/packages/el-job-2.4.1.tar";
+        sha256 = "12x89830zxxp5qjn2ikkw28hqk7zzsnycl89mlmxhviiaf9hvwsj";
       };
       packageRequires = [ ];
       meta = {
@@ -3140,10 +3140,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "21";
+      version = "22";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/emms-21.tar";
-        sha256 = "188rij39qqaya7hk0p05ygcw5vlha7qd6pm4ws6nfw7g0nv1rbcc";
+        url = "https://elpa.gnu.org/packages/emms-22.tar";
+        sha256 = "0jn8si9m8pxd7ni543p8z697297i9dva319dw141zwpbxqhmyvpi";
       };
       packageRequires = [
         cl-lib
@@ -3877,10 +3877,10 @@
     elpaBuild {
       pname = "gnome-dark-style";
       ename = "gnome-dark-style";
-      version = "0.2.2";
+      version = "0.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gnome-dark-style-0.2.2.tar";
-        sha256 = "1vf0ka0xg8mvaq3s3b8rgsdv77q7qd73k9mqfvyk7ywhxj7zdb9i";
+        url = "https://elpa.gnu.org/packages/gnome-dark-style-0.2.3.tar";
+        sha256 = "04cp31252svf5pkkkmx9b6nlcv3v4xffn739bna77jjyrw98mhv5";
       };
       packageRequires = [ ];
       meta = {

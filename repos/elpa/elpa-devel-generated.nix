@@ -1546,10 +1546,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.1.0.20250325.170545";
+      version = "2.1.0.20250326.52849";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.1.0.20250325.170545.tar";
-        sha256 = "1kx0p1fx57da7za7yp9s8hhqmdmgbg735mqfsh3h1hvf6km2h4av";
+        url = "https://elpa.gnu.org/devel/consult-2.1.0.20250326.52849.tar";
+        sha256 = "0rzk7i1h66704az4za8pcswpr31pnf2najwj8q5cxgg8sxcsn5vq";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250325.43655";
+      version = "3.1.0.0.20250326.64357";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250325.43655.tar";
-        sha256 = "0xrp3sf0gpqr6bhkym8l5h8dx3rhcgfc4qvcqnm6yalzx1yi5avf";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250326.64357.tar";
+        sha256 = "0yjj301sdyfmrgsa55rsdx82b3m6nmlhqa2jqbknxhwfhr7c4b5q";
       };
       packageRequires = [ ];
       meta = {
@@ -2902,10 +2902,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.3.1.0.20250325.175815";
+      version = "2.4.1.0.20250326.81020";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.3.1.0.20250325.175815.tar";
-        sha256 = "1hpln8nd12zxs39pwg10diiypi4v4rqlp7hpmz61xkz7fach5gxi";
+        url = "https://elpa.gnu.org/devel/el-job-2.4.1.0.20250326.81020.tar";
+        sha256 = "0ajnqrr9iyqc2hhimgbbpwccpyx9rbpw3gid8d4q871vic3r39h9";
       };
       packageRequires = [ ];
       meta = {
@@ -3182,10 +3182,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "21.0.20250319.94220";
+      version = "22.0.20250326.124336";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-21.0.20250319.94220.tar";
-        sha256 = "1zh8rpxh2wq639zqck289408lpnfjqn8kjx3n1maj0yi7xg7s00w";
+        url = "https://elpa.gnu.org/devel/emms-22.0.20250326.124336.tar";
+        sha256 = "0d0n1lmhvqdbkdw4in1625a1wzh0phzj19nhlq3zdmqkzk6fqv4g";
       };
       packageRequires = [
         cl-lib
@@ -3921,10 +3921,10 @@
     elpaBuild {
       pname = "gnome-dark-style";
       ename = "gnome-dark-style";
-      version = "0.2.2.0.20250309.73232";
+      version = "0.2.3.0.20250325.182321";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnome-dark-style-0.2.2.0.20250309.73232.tar";
-        sha256 = "09bplrzfik4hqg041a0992nd64wnr208sr37dd013n992gwj7gqn";
+        url = "https://elpa.gnu.org/devel/gnome-dark-style-0.2.3.0.20250325.182321.tar";
+        sha256 = "1kk6pgl79zgd2jvnh011177080w7vz2561mqi88s1rpv43lf4qxa";
       };
       packageRequires = [ ];
       meta = {
@@ -6477,10 +6477,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.7.0.20250323.173657";
+      version = "1.7.0.20250326.153939";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.7.0.20250323.173657.tar";
-        sha256 = "16m5sgdaf0w50ckjin2wkg4bkpcqczjy7vbnqhma97h6al433420";
+        url = "https://elpa.gnu.org/devel/org-modern-1.7.0.20250326.153939.tar";
+        sha256 = "1604fr4q7arxlwsy46g9vj5xjwr8vm78d1sfjkyg1ryz6a7hfv9z";
       };
       packageRequires = [
         compat
