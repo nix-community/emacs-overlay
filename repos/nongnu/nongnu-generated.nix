@@ -1164,10 +1164,10 @@
     elpaBuild {
       pname = "eglot-inactive-regions";
       ename = "eglot-inactive-regions";
-      version = "0.6.4";
+      version = "0.6.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/eglot-inactive-regions-0.6.4.tar";
-        sha256 = "0c0dpvimh71jpa8f40ns8lk9y8i5vpl159zz621sx0c9wlvgwjsc";
+        url = "https://elpa.nongnu.org/nongnu/eglot-inactive-regions-0.6.5.tar";
+        sha256 = "133wbmmzxfhzkjlm3sjllg3wl5r2dyprs2rmwi8r7nq3p831ak0n";
       };
       packageRequires = [ ];
       meta = {
@@ -4407,6 +4407,27 @@
       };
     }
   ) { };
+  rpm-spec-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "rpm-spec-mode";
+      ename = "rpm-spec-mode";
+      version = "0.16";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/rpm-spec-mode-0.16.tar";
+        sha256 = "0gc50kn1wmvz6k9afra7zcnsk7z76cc50vkvw3q8i7p911z55rfj";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/rpm-spec-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   rubocop = callPackage (
     {
       elpaBuild,
@@ -5578,10 +5599,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.11.20250324000003";
+      version = "26.11.20250325184849";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.11.20250324000003.tar";
-        sha256 = "0y6ixfgbw1whcql6m9ja3bprqqw07ikswhlkxp8w7dwzlh8wg8q1";
+        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.11.20250325184849.tar";
+        sha256 = "0j5a89pq304bzyg8qb6y8yysw5z6p4436fyy7lk61kbavc5srqvs";
       };
       packageRequires = [ ];
       meta = {
