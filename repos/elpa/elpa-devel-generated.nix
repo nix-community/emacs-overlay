@@ -2368,10 +2368,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20250324.212130";
+      version = "1.10.0.0.20250327.31410";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250324.212130.tar";
-        sha256 = "1gzybnfg34q77qa9afc8lk1qcz3y4i06lwafbjhvh3v2lyszcqsw";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250327.31410.tar";
+        sha256 = "0j594as6idkzyiqns2n41qh909zb490cfkdh025i2jymcv5k24lr";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2902,10 +2902,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.4.1.0.20250326.81020";
+      version = "2.4.3.0.20250327.30600";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.4.1.0.20250326.81020.tar";
-        sha256 = "0ajnqrr9iyqc2hhimgbbpwccpyx9rbpw3gid8d4q871vic3r39h9";
+        url = "https://elpa.gnu.org/devel/el-job-2.4.3.0.20250327.30600.tar";
+        sha256 = "12mpsky46qrm9aj67sp1df05rl7p0hn9ikd718hk6gbipyd2jcra";
       };
       packageRequires = [ ];
       meta = {
@@ -5241,10 +5241,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.24.1.0.20250323.173650";
+      version = "0.24.1.0.20250326.190119";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.24.1.0.20250323.173650.tar";
-        sha256 = "0si49sjzqrgdvlzjhpl2l1c28zh1mvajf078jfh1ymxaki8b8y99";
+        url = "https://elpa.gnu.org/devel/llm-0.24.1.0.20250326.190119.tar";
+        sha256 = "13wnh5dc126balqa4y99kwfzfyxbwym80d8mqb6i1g25g6dxn450";
       };
       packageRequires = [
         plz
