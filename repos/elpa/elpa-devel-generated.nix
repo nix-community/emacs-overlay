@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250318.175758";
+      version = "14.0.9.0.20250327.81133";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250318.175758.tar";
-        sha256 = "1vr2r7q0355vgrhnhzj29005v7hjdjcd3lmfkwjqx7cmgxsx6pxp";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250327.81133.tar";
+        sha256 = "1065iwnm09iznvvdjzzr7kr7wsi8rgbjswiq06yf4j19lljm9frm";
       };
       packageRequires = [ ];
       meta = {
@@ -3593,10 +3593,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.3.7.0.20250225.2515";
+      version = "1.3.7.0.20250327.181545";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20250225.2515.tar";
-        sha256 = "0n7ffwfgz6s3rkl1fw0zzaqknzm93xr7vpc92h3grfjgrkl7526a";
+        url = "https://elpa.gnu.org/devel/flymake-1.3.7.0.20250327.181545.tar";
+        sha256 = "14q04ih94qb8ff2mnl9lbmgza3rdny1cy81nl0p3akk47sn2vwk1";
       };
       packageRequires = [
         eldoc
@@ -5777,10 +5777,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.6.0.0.20250220.64729";
+      version = "4.6.0.0.20250327.84301";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250220.64729.tar";
-        sha256 = "1gr24821rbfj6jb4qnzka5445jq0k11k30a1xr8xjvy6kq62knqc";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250327.84301.tar";
+        sha256 = "0cgrifxm8iy4dnjx48m1csl3g3vai3xsz3b06n1nfkgdffiiimn4";
       };
       packageRequires = [ ];
       meta = {
@@ -6358,10 +6358,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250324.172107";
+      version = "9.8pre0.20250327.182508";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250324.172107.tar";
-        sha256 = "0nila3plxr73h4w1vm08rjhngpswmfliiqmw8sdy3ggmmc80avzd";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250327.182508.tar";
+        sha256 = "03r9mk5ywrcnb1v3zmjj8cq09s3kxwikzb827dcvf6vycfvlwlrs";
       };
       packageRequires = [ ];
       meta = {
