@@ -942,6 +942,7 @@
   ) { };
   dirvish = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -949,12 +950,12 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.7.0.20250326.100632";
+      version = "2.2.7.0.20250328.14809";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250326.100632.tar";
-        sha256 = "1ipjaagg4gnxmwadflrhmw0mnx1p87dc6l53vgabc1crb874vjbc";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250328.14809.tar";
+        sha256 = "1lmvwywpr285dbxyy4lq8ksp8zf8a7zaqnrxv88nacjs7b8q8d0m";
       };
-      packageRequires = [ ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/dirvish.html";
         license = lib.licenses.free;
