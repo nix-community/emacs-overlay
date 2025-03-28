@@ -25682,11 +25682,14 @@
   "repo": "alexluigit/dirvish",
   "unstable": {
    "version": [
-    20250326,
-    1006
+    20250328,
+    148
    ],
-   "commit": "5a3cf2b0a655c841a492f59fd1af4bbb1e6857f5",
-   "sha256": "06i3221kvgnhi7d0971z2gfqxrs83l6g6vznnhzxfbqyk5qp932p"
+   "deps": [
+    "compat"
+   ],
+   "commit": "2d63995d3296c259cef90830cf0433602429ecec",
+   "sha256": "0q6xadd2vrylmhm8kmnh653y653vzx0g1ch3dm2sq45idk1py31l"
   },
   "stable": {
    "version": [
@@ -26850,16 +26853,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20250327,
-    613
+    20250328,
+    750
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "1ce87bea1fcf045d1d2cb52e8e7e2bed7d89bf3a",
-   "sha256": "0ayna0hrcn212q6ck25smw70v0z24adqxsl84pbggamjiazybdvq"
+   "commit": "1708db2d354922888be264b7719c74c25a35a253",
+   "sha256": "0vf55inyccj29gr9c6nxa1amxwic4acf6yz5p9qlnh990ajkvy9z"
   },
   "stable": {
    "version": [
@@ -27130,14 +27133,14 @@
   "url": "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git",
   "unstable": {
    "version": [
-    20250324,
-    714
+    20250328,
+    519
    ],
    "deps": [
     "debian-el"
    ],
-   "commit": "e16f2c5286f53179eeca479c7ceea0d10e7f923d",
-   "sha256": "18ncaqqxz6rrwicx46l68z9zxqwcjs76ihl2n82128v93kx9qxwi"
+   "commit": "7ec0b6794e016a9e5eddcdd6015289b176b5e711",
+   "sha256": "0h5qak9gc95yipklfs23zl8vimww9y840bnix328mgsqrh81cr0b"
   },
   "stable": {
    "version": [
@@ -70677,8 +70680,8 @@
   "repo": "kubernetes-el/kubernetes-el",
   "unstable": {
    "version": [
-    20250323,
-    1339
+    20250328,
+    308
    ],
    "deps": [
     "dash",
@@ -70689,8 +70692,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "7e8eae7b7de8b53d2bc94adb27439453ff884ac2",
-   "sha256": "063hgd2n97a6icm64a1k52h8srbam7dp4h2gwch7shp2n6305zg0"
+   "commit": "7cb9779de290b53b181f6c32099ccbe6fd5c654f",
+   "sha256": "0l2pr0dj7ha4qg31jpfwc9a49vxp7yqwsfq8vgb1r1v46xlbpw0g"
   },
   "stable": {
    "version": [
@@ -100579,11 +100582,11 @@
   "repo": "flexibeast/plisp-mode",
   "unstable": {
    "version": [
-    20221130,
-    524
+    20250328,
+    45
    ],
-   "commit": "3a0ec9741ae7ca67852022c6fa85519fcb4b69ba",
-   "sha256": "1lfn6bylpsam2la8r1k0gb3aik1fbbvpln37zc0hmdj3k0w4clci"
+   "commit": "062c333343e64427dd70a2739ab9225fd23e550a",
+   "sha256": "15562wnrw14s9pjrjfwz03jzsppf0l6mrvj88vglsghaayyps3r9"
   }
  },
  {
@@ -102169,8 +102172,8 @@
   "repo": "blahgeek/emacs-pr-review",
   "unstable": {
    "version": [
-    20250305,
-    1646
+    20250328,
+    132
    ],
    "deps": [
     "ghub",
@@ -102178,8 +102181,8 @@
     "magit-section",
     "markdown-mode"
    ],
-   "commit": "47bc3b00fd509a7bfd0bf5697cf9f7cb9cfacdd3",
-   "sha256": "0c28xbgq837694z9dag24y48mb3r4ffalci1zxp8hgqrijfqmakd"
+   "commit": "6b3895c7919762b87a57e4373920ff3592e4a696",
+   "sha256": "0xlqkfy71ncn6kpwq5243a396j2mz092z4vg21bhr0zq0g91ak54"
   },
   "stable": {
    "version": [
@@ -113503,15 +113506,15 @@
   "repo": "chenyanming/shrface",
   "unstable": {
    "version": [
-    20250308,
-    1630
+    20250328,
+    241
    ],
    "deps": [
     "language-detection",
     "org"
    ],
-   "commit": "779c94b561177210ae03c042f191a7a6cec663c2",
-   "sha256": "0jbmp1f9bdv18k9xfkblyv2gxawcj8hwacd76ygr2xrgj3i5d89p"
+   "commit": "c4e94c45a12ce966bf038773dee3842c3a944bf0",
+   "sha256": "007lf5byw7akc57w42kfvjklywz5qzlvaxa1qazb48qsq0kkiikc"
   },
   "stable": {
    "version": [
@@ -114410,11 +114413,11 @@
   "repo": "laishulu/emacs-smart-input-source",
   "unstable": {
    "version": [
-    20250207,
-    1321
+    20250328,
+    142
    ],
-   "commit": "e09728891a99a078470cc29a30a6e32f814682fe",
-   "sha256": "02r8z2dng0ian1qig5c1g5xwfa4azpkja9r5lwi4qyd9mkw5cjzy"
+   "commit": "f7881a9af563b99db9f8efa47af738d0748f83d8",
+   "sha256": "1p7zismv1gm3r5kv7jan9wf7afza2lz4xrk30xk84pyk6xaq8kcj"
   }
  },
  {
