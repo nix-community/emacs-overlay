@@ -3541,11 +3541,11 @@
   "repo": "agda/agda",
   "unstable": {
    "version": [
-    20200914,
-    644
+    20250328,
+    1043
    ],
-   "commit": "aa5e3a127bf17a8c80d947f3c286758a36dadc36",
-   "sha256": "0nwriahnkyg1p0xn50c4h2bxg9idm6d9n8mfl7ddzm98j8gv1vwi"
+   "commit": "ad8ea74ccefd3507006a7ea9a7d9ff5b7a973603",
+   "sha256": "0qiqw69h9vpvwisqngkfdpfqibi5w5ddhxhwvbrv0ah2n29saswr"
   },
   "stable": {
    "version": [
@@ -16447,15 +16447,15 @@
   "repo": "pkryger/company-forge.el",
   "unstable": {
    "version": [
-    20250317,
-    1414
+    20250328,
+    912
    ],
    "deps": [
     "company",
     "forge"
    ],
-   "commit": "eff2bbf6fb40475164b6b525dc0028a1369326fc",
-   "sha256": "1f8998k1a3pv346gmj6qhfhckwbjwhx3a04d6gksfhacpsf2q7x1"
+   "commit": "a0375abbdf8d7f269cc22903c49c53ee6bb74684",
+   "sha256": "10xdplvdxrphn46plx1za5fpwq3hn1m41g9p0z40y0mdhz1f8bfj"
   }
  },
  {
@@ -19485,14 +19485,14 @@
   },
   "stable": {
    "version": [
-    1,
-    7
+    2,
+    0
    ],
    "deps": [
     "compat"
    ],
-   "commit": "2c476b442ccfda9935e472b26d9cd60d45726560",
-   "sha256": "0yyc64bfqpsjs5iwgwxm171sg85al4mzj4pv3qd4cpmkgmamrrv3"
+   "commit": "061d926d0f0eb2633416deeddc403a1a67b062ae",
+   "sha256": "15vmhbwpjgvc9ly8icrjf74jhbplhigfyfa762s45ipnrq6gyixq"
   }
  },
  {
@@ -34593,11 +34593,11 @@
   "repo": "agda/agda",
   "unstable": {
    "version": [
-    20240220,
-    2129
+    20250328,
+    1043
    ],
-   "commit": "d4ac6d038e25bb8d4912da7a4c5df91a856e1c9c",
-   "sha256": "0sfd2y2h606m5800a978sm2ram4sx1cbx2ng1d2hf37qqa950j85"
+   "commit": "ad8ea74ccefd3507006a7ea9a7d9ff5b7a973603",
+   "sha256": "0qiqw69h9vpvwisqngkfdpfqibi5w5ddhxhwvbrv0ah2n29saswr"
   },
   "stable": {
    "version": [
@@ -34661,10 +34661,11 @@
   "stable": {
    "version": [
     27,
-    3
+    3,
+    1
    ],
-   "commit": "05737d130706c7189a8e6750d9c2252d2cc7987e",
-   "sha256": "1g5nhsq26gknz8705k9lk0vgmlwkimzzw90vx1wqswkdm7crsgv5"
+   "commit": "76266a91989378ce53159eee4bd16773e248f5f3",
+   "sha256": "077k6aq141ypr7qx0irycc0z9jkvrv0jrvmn9zc00kmnqk0m3ran"
   }
  },
  {
@@ -39935,10 +39936,11 @@
   "stable": {
    "version": [
     0,
-    6
+    6,
+    1
    ],
-   "commit": "4609bf1b547935bc41983314a1c4a9fc72c7f26c",
-   "sha256": "1vgf4h7ygm9ag8xszhqzdf44g5805jlfx1lxqpzxm6ynffgrxgb8"
+   "commit": "eea85684660ef0e63c55778eee5c392990f8eac9",
+   "sha256": "0aa22c51fbllcslaqbq4kq45dlbc7gz69hz3b0cvrvfjfdw5rsbk"
   }
  },
  {
@@ -79766,28 +79768,28 @@
   "repo": "milanglacier/minuet-ai.el",
   "unstable": {
    "version": [
-    20250316,
-    446
+    20250328,
+    818
    ],
    "deps": [
     "dash",
     "plz"
    ],
-   "commit": "bf78ef27e9bbd8fc7d8afdc82081d75f31269dc1",
-   "sha256": "08drgghykk3k4bhc1lhd20lz1za8rz7v85j329gnvz9nxq933nhz"
+   "commit": "f98350cafd8163b832a2903590b206bbcc287b17",
+   "sha256": "1v6bhsqbc08y9bmshvc8frh0hn1lfpijzl0j60fqksyjnc8prk1i"
   },
   "stable": {
    "version": [
     0,
-    4,
-    4
+    5,
+    0
    ],
    "deps": [
     "dash",
     "plz"
    ],
-   "commit": "fffbb3a39a996fabb65b8f06ab5422bb53c500cd",
-   "sha256": "0cq06rmm7j3xxfvsnb5s69byna3pwljcgp7bklfqm395h2d39wyr"
+   "commit": "bb1bff593496713ea7be99ea25060087905378dd",
+   "sha256": "1fb9azpxpayx99045ih85hrp377kyndhd4js8zmnkj24xbmin4iw"
   }
  },
  {
@@ -87465,20 +87467,20 @@
   "repo": "tarides/ocaml-eglot",
   "unstable": {
    "version": [
-    20250327,
-    1330
+    20250328,
+    1248
    ],
-   "commit": "b2553deeb6181ba1ae0bedc72187c3268e97182f",
-   "sha256": "1jarlzbq623z9yjbzdy5wic06ghk365vpv8z6w5bni6441lixmcq"
+   "commit": "08b35089c4f3cd1bab18a314b2baa733a0e09e42",
+   "sha256": "0r2y4mfh27lysc77vv3xpaqn25h69j1m7wpa8h37n8dq0pq41746"
   },
   "stable": {
    "version": [
     1,
-    0,
+    1,
     0
    ],
-   "commit": "43e60321cf3b12e7a4137087f8810346e4e1bcfd",
-   "sha256": "04kcs40mizfm792qjqfmabyiapam54vxvsjcc2yyavwrwiz2m94q"
+   "commit": "08b35089c4f3cd1bab18a314b2baa733a0e09e42",
+   "sha256": "0r2y4mfh27lysc77vv3xpaqn25h69j1m7wpa8h37n8dq0pq41746"
   }
  },
  {
@@ -87919,11 +87921,11 @@
   "repo": "captainflasmr/ollama-buddy",
   "unstable": {
    "version": [
-    20250327,
-    1921
+    20250328,
+    1016
    ],
-   "commit": "a56585308a8b62cde41693f412e26af6ce02d69f",
-   "sha256": "0wrijzcvpigf5kdaks11907ac5bpgx88w0ssfirgqfpd6mflywiz"
+   "commit": "a10c893c3af437a3aad5260879f4d59fd85192e4",
+   "sha256": "0dmgqnms82hnggyfxkwpy08swjkflnf9cpcdyxcwbiqv4vggnjx6"
   },
   "stable": {
    "version": [
@@ -113507,14 +113509,14 @@
   "unstable": {
    "version": [
     20250328,
-    241
+    709
    ],
    "deps": [
     "language-detection",
     "org"
    ],
-   "commit": "c4e94c45a12ce966bf038773dee3842c3a944bf0",
-   "sha256": "007lf5byw7akc57w42kfvjklywz5qzlvaxa1qazb48qsq0kkiikc"
+   "commit": "e87139424f2047282509afdfcdf5fccc040ff231",
+   "sha256": "060aalfk7lwz4ldq78ha2d2pzrd5dfilv1bkszjnvbrifaaykkpy"
   },
   "stable": {
    "version": [
