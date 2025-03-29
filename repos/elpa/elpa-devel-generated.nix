@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250327.81133";
+      version = "14.0.9.0.20250328.92719";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250327.81133.tar";
-        sha256 = "1065iwnm09iznvvdjzzr7kr7wsi8rgbjswiq06yf4j19lljm9frm";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250328.92719.tar";
+        sha256 = "0sz1477cwkbqbjybclm3rg1all9xidda0l9ifpp23f56gjm2lmn5";
       };
       packageRequires = [ ];
       meta = {
@@ -1659,10 +1659,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "1.7.0.20250219.165655";
+      version = "2.0.0.20250328.143011";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-1.7.0.20250219.165655.tar";
-        sha256 = "0xk3sqba3aii619rv7rjm5pvzaj3mvirk4hv7yijr1cd3qp7jghf";
+        url = "https://elpa.gnu.org/devel/corfu-2.0.0.20250328.143011.tar";
+        sha256 = "0s43c3sr5d33q980nn0rci4g7x737nrm4p7bclgi35dwn0svgpcw";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250328.64228";
+      version = "3.1.0.0.20250328.183304";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250328.64228.tar";
-        sha256 = "1jxlhjfwqjb1k9p1kfpgi9bgwq1szqpzv2jns8vgcnxdizl5fwwi";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250328.183304.tar";
+        sha256 = "1ign9mz8mawxyfzy18qnjw3kj2j5rc4x02dj29jwzk4n126rv8s6";
       };
       packageRequires = [ ];
       meta = {
@@ -2873,10 +2873,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250308.53648";
+      version = "1.18.0.20250328.134833";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250308.53648.tar";
-        sha256 = "0km41xslg9d1gv6dl7kldzg4aw8fg797nnbr45m91ywgj2cxiicl";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250328.134833.tar";
+        sha256 = "092k6xj24yl02njylhgcz270yl5cfxx114cc1dyzga841mb88cyn";
       };
       packageRequires = [
         eldoc
@@ -3046,10 +3046,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.6.2.0.20250324.132650";
+      version = "1.7.2.0.20250328.193935";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.6.2.0.20250324.132650.tar";
-        sha256 = "067zblqrvvx13n28bj1s775xn4ld21qfi4rq848l3imb9h177axb";
+        url = "https://elpa.gnu.org/devel/ellama-1.7.2.0.20250328.193935.tar";
+        sha256 = "1kbl2sdizslfn1nysbps7c8ry2zh96c6vskgxzjarpvq40r9cgx6";
       };
       packageRequires = [
         compat
@@ -9359,10 +9359,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.6.0.20250315.190303";
+      version = "0.8.6.0.20250328.194012";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.8.6.0.20250315.190303.tar";
-        sha256 = "13j0fqigilz8hrydlxjnq16vinl5yxxi4jq2d8gd9q9bj08dwa49";
+        url = "https://elpa.gnu.org/devel/transient-0.8.6.0.20250328.194012.tar";
+        sha256 = "03fgrl2vnqq0rvacyfiaksj7dqwkla5m0sv5kkc1k5cv5xgjm4mj";
       };
       packageRequires = [
         compat
