@@ -570,10 +570,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.18.0snapshot0.20250326.192142";
+      version = "1.18.0snapshot0.20250328.162804";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250326.192142.tar";
-        sha256 = "1gwy5m6m8i404zl6bkxrzg0yiymw505fhshvawhpajwjqgnkciic";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250328.162804.tar";
+        sha256 = "1lckxcii0dbfylal1jqw2m85nx28i20p04iaginrfw4l2hw5kfib";
       };
       packageRequires = [
         clojure-mode
@@ -3250,10 +3250,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.1.0.20250325.174309";
+      version = "4.3.1.0.20250328.190004";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.1.0.20250325.174309.tar";
-        sha256 = "0ayf6s0glv231i64nrha4rzbrprz7qqx6aziz6np16v5fxs90cdz";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.1.0.20250328.190004.tar";
+        sha256 = "1qn88lhrfivi4j01vf9iqs0qi42k7ff75jnn7pwhg3xwlr7hpp6r";
       };
       packageRequires = [
         compat
@@ -3281,10 +3281,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.3.1.0.20250325.174309";
+      version = "4.3.1.0.20250328.190004";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.1.0.20250325.174309.tar";
-        sha256 = "06cw6hlc2x62ci1wd5knfn8z1vszf22zlmpl2lx0pmph6jrsa05r";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.1.0.20250328.190004.tar";
+        sha256 = "16q551drvd8d1wbs71aivid0c9ia9zyx18mfpnhz2j4jmyjlzxgj";
       };
       packageRequires = [
         compat
@@ -4183,10 +4183,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20250129.125602";
+      version = "4.6snapshot0.20250328.174011";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250129.125602.tar";
-        sha256 = "1w7s5sdxa05m80nicykqagk5y50q76gmr86ivwl09sibmwb6c9kh";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250328.174011.tar";
+        sha256 = "140c0w8hkib3c8cvma5ir95k742j5s0k1j3i2iarrg7hzcd1y1pi";
       };
       packageRequires = [ ];
       meta = {
