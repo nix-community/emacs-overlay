@@ -2254,16 +2254,16 @@
   "repo": "tninja/aider.el",
   "unstable": {
    "version": [
-    20250325,
-    327
+    20250329,
+    414
    ],
    "deps": [
     "magit",
     "markdown-mode",
     "transient"
    ],
-   "commit": "ab8d7a515ec8c8021608a561c59e4135c1723615",
-   "sha256": "0q1gvfj0ws8r1yxgjw486ipw128wn25srm8lqn2r8zgbm8wbv202"
+   "commit": "4aa24f139dfd5d77f17c7fff8d14fca750e2e7ce",
+   "sha256": "0nbpa761cji5mx2k08v006s467jw6gc5m803nsrqi4i2viqf1dwc"
   },
   "stable": {
    "version": [
@@ -2288,15 +2288,15 @@
   "repo": "MatthewZMD/aidermacs",
   "unstable": {
    "version": [
-    20250327,
-    1932
+    20250329,
+    444
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "304543cbd756e0c343b8e096dac14faf0920d9cc",
-   "sha256": "1iyasxqbai65khq47dlm692abx2cli5pww8cmrmn6qavg5a84rbm"
+   "commit": "a252760d74a06c4287244ac9d5f4fb19ef2e33fb",
+   "sha256": "17l53phblh4k6w14vr9ljbbwj8kdaab4cpv85slf7m03fq5yash0"
   },
   "stable": {
    "version": [
@@ -75910,8 +75910,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250328,
-    1900
+    20250329,
+    10
    ],
    "deps": [
     "compat",
@@ -75921,8 +75921,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "107e9015e69585e1b0fd551b5b95df6619bdd61c",
-   "sha256": "1ir7393c9wj7ymhh34qp0zkj0x3d7cpvisgd731dw5x6r5384dpp"
+   "commit": "7b13ced2978fec4a45bf24a9124d9767249a55a5",
+   "sha256": "0pwm4605xsxh7ws2x217cjbdwsfs6mgisgyjf1fk021f2n5j97ga"
   },
   "stable": {
    "version": [
@@ -76466,16 +76466,16 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250307,
-    1739
+    20250329,
+    10
    ],
    "deps": [
     "compat",
     "llama",
     "seq"
    ],
-   "commit": "3f79700f1b9a6f5f6fd6a77fd1e812c1b8e6463b",
-   "sha256": "0hm4wcnr9ybsll507xdhmprb2in93pdn2mw9a1zf7cfvr4ygk0yg"
+   "commit": "7b13ced2978fec4a45bf24a9124d9767249a55a5",
+   "sha256": "0pwm4605xsxh7ws2x217cjbdwsfs6mgisgyjf1fk021f2n5j97ga"
   },
   "stable": {
    "version": [
@@ -77910,11 +77910,11 @@
   "repo": "mathworks/Emacs-MATLAB-Mode",
   "unstable": {
    "version": [
-    20250318,
-    1541
+    20250329,
+    58
    ],
-   "commit": "89b585e6d935fd36176791caa66d4dad0405407b",
-   "sha256": "1w531wjx8rvxzcncfh9zr5lyz4p0kwrhq5wx282bf75mjy50z7kb"
+   "commit": "42fabf83c63c369713075d5af6a6c81830fbfb5f",
+   "sha256": "12afnxf2f3y9zyvf6p06kdzbmhrq1ck5xqzn1i85x178zxvpaz53"
   },
   "stable": {
    "version": [
@@ -88533,11 +88533,14 @@
   "repo": "danielfleischer/opensub",
   "unstable": {
    "version": [
-    20240501,
-    1946
+    20250329,
+    717
    ],
-   "commit": "22cc8ef1e119c3cc5f605ca5be4cf680745c503a",
-   "sha256": "1v7cn4j43xzdwgpn9103bv057n5pmd9yrdvciv3lwz85dqimlp9a"
+   "deps": [
+    "plz"
+   ],
+   "commit": "d8b11e979897616a661edd22a759e5cb025af356",
+   "sha256": "0qjlikmy4rhn3rg0g1cjq9aad9q83xqq9mnlwjkr6a0f3d33imbn"
   },
   "stable": {
    "version": [
@@ -109738,11 +109741,11 @@
   "repo": "Thaodan/rpm-spec-mode",
   "unstable": {
    "version": [
-    20241209,
-    2001
+    20250329,
+    139
    ],
-   "commit": "283d2aac4ede343586a1fb9e9d2a5917f34809a1",
-   "sha256": "160kkf4jswlnv0prwxws2l93cq7b1x21kkkrics0cg7kfkkyrvrr"
+   "commit": "8cd329b78c7bc6285b7b9f2c65a58a9e778a59ca",
+   "sha256": "02ll930smiixlgaf3bxs2g30gc5alc1yd1fv8spx6d4hxrp9jvy5"
   },
   "stable": {
    "version": [
@@ -114770,14 +114773,14 @@
   "repo": "slime/slime",
   "unstable": {
    "version": [
-    20250318,
-    1712
+    20250329,
+    12
    ],
    "deps": [
     "macrostep"
    ],
-   "commit": "64493b369876b612f3dadb2f0b377d035a716ac0",
-   "sha256": "0l3llih1dp2qcc2619i74b2a4q47iw0pc9mcwynx1q07b5n6jy7q"
+   "commit": "1b098201545a473d3f3e6eaab18a56556706a0d5",
+   "sha256": "0279rca7fbggzq0sglajd14rfnkyyzgds0llgi8616wlnxiy64mn"
   },
   "stable": {
    "version": [
@@ -126882,14 +126885,14 @@
   "repo": "tbanel/uniline",
   "unstable": {
    "version": [
-    20250326,
-    901
+    20250329,
+    809
    ],
    "deps": [
     "hydra"
    ],
-   "commit": "e38afc5bc26fa7e6616dcd1a8c7ef1b102004b84",
-   "sha256": "12jqbs2rzv04lrhkma6jkhhn9yqwxk8linf4b4zmb895xqfvmbbl"
+   "commit": "05e965a1af586fcf5554c8e5c854f1be50933626",
+   "sha256": "02bx0gkjn6mahawvb1k5sq2r1cs6yk3vwhcb2417v34sflkg783d"
   }
  },
  {
