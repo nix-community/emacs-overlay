@@ -4543,10 +4543,10 @@
     elpaBuild {
       pname = "ivy";
       ename = "ivy";
-      version = "0.15.0";
+      version = "0.15.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ivy-0.15.0.tar";
-        sha256 = "13kikgvrhi2b6dg0py4n51kc881dv7bll71iaxq1bjlzdwvsn20h";
+        url = "https://elpa.gnu.org/packages/ivy-0.15.1.tar";
+        sha256 = "12ni3n8h7316hv4nrx4kbjah58n8zdxkf1v8fi0w39da1aqn3r0p";
       };
       packageRequires = [ ];
       meta = {
@@ -6313,10 +6313,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.26";
+      version = "9.7.27";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.26.tar";
-        sha256 = "1ddn8yiba41rsash82snwxci7riar71wcyffq58m2gp9a8y9cb1l";
+        url = "https://elpa.gnu.org/packages/org-9.7.27.tar";
+        sha256 = "0y2x94qxi6wa7mrcdppyynylv9j5sszik25bmjwsfriiwqwk5gp6";
       };
       packageRequires = [ ];
       meta = {

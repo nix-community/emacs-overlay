@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250329.72557";
+      version = "3.1.0.0.20250329.164053";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250329.72557.tar";
-        sha256 = "107dr0229k9ra5n2iy18n06wvwqcfnf4hw57qv7xm2b6n8dd4f8w";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250329.164053.tar";
+        sha256 = "0s5dr0q9ss8xs54kg9kz0f6i7vsi3bccnpfxymin6kllcmyida3a";
       };
       packageRequires = [ ];
       meta = {
@@ -2949,10 +2949,10 @@
     elpaBuild {
       pname = "eldoc";
       ename = "eldoc";
-      version = "1.15.0.0.20250322.115509";
+      version = "1.15.0.0.20250329.105231";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eldoc-1.15.0.0.20250322.115509.tar";
-        sha256 = "045ww7f8p6bb0x59sa63754nn1yh0cg0ppym3mccql4r05gnm3qr";
+        url = "https://elpa.gnu.org/devel/eldoc-1.15.0.0.20250329.105231.tar";
+        sha256 = "0jzsa6m4k2wg7frlbc6mn0g3lwlhbgrhg10ik2yp3fcdav5nfkq1";
       };
       packageRequires = [ ];
       meta = {
@@ -3415,10 +3415,10 @@
     elpaBuild {
       pname = "external-completion";
       ename = "external-completion";
-      version = "0.1.0.20250101.73917";
+      version = "0.1.0.20250329.135944";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/external-completion-0.1.0.20250101.73917.tar";
-        sha256 = "1z3an1r72sxw4l5xlrshxcdmyv3slzqfk42wwg7zi25lq2wf60pg";
+        url = "https://elpa.gnu.org/devel/external-completion-0.1.0.20250329.135944.tar";
+        sha256 = "00hgqksypn9mr6acbyf2xxzg84z6cfrmldzv3ssg9j5zxg0pf4n4";
       };
       packageRequires = [ ];
       meta = {
@@ -4583,10 +4583,10 @@
     elpaBuild {
       pname = "ivy";
       ename = "ivy";
-      version = "0.15.0.0.20250323.152753";
+      version = "0.15.1.0.20250329.144259";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ivy-0.15.0.0.20250323.152753.tar";
-        sha256 = "0d6qb3cmwf1pq76ygbwgw6mb9dp82cc9ygdf6acpf3pj2a8g5rc8";
+        url = "https://elpa.gnu.org/devel/ivy-0.15.1.0.20250329.144259.tar";
+        sha256 = "0zq2g603sqnvjmyib4q69nia4dvci6p2bmpvnsghwb6kbfm99wlv";
       };
       packageRequires = [ ];
       meta = {
@@ -4790,10 +4790,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.0.0.20250322.84205";
+      version = "2.0.0.20250329.125145";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.0.0.20250322.84205.tar";
-        sha256 = "040czwblkfmfw6d7g8qgfqc73pbls8di1amlsdksdpjshw24h6wf";
+        url = "https://elpa.gnu.org/devel/jinx-2.0.0.20250329.125145.tar";
+        sha256 = "1x50sgb9fxrvqqni584qz6lmyi4rwrggrifyhdvk8i2gcvscm83i";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5458,10 +5458,10 @@
     elpaBuild {
       pname = "map";
       ename = "map";
-      version = "3.3.1.0.20250123.102904";
+      version = "3.3.1.0.20250329.135944";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/map-3.3.1.0.20250123.102904.tar";
-        sha256 = "0jjx46m5m81vgnl67njnd3x65sbxhwl065kwn2l63jjrwbk7kzq1";
+        url = "https://elpa.gnu.org/devel/map-3.3.1.0.20250329.135944.tar";
+        sha256 = "0gsc71i87dx4a9hhs6vp6b8d4nq6lh7d8zqm8nlwdrkqyv0m57bd";
       };
       packageRequires = [ ];
       meta = {
@@ -6358,10 +6358,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250327.182508";
+      version = "9.8pre0.20250329.175613";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250327.182508.tar";
-        sha256 = "03r9mk5ywrcnb1v3zmjj8cq09s3kxwikzb827dcvf6vycfvlwlrs";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250329.175613.tar";
+        sha256 = "1qns93j3a3y00rmb9mlynj7v0qym50lw8zrviqrh0bwf997iwc5l";
       };
       packageRequires = [ ];
       meta = {
@@ -7211,10 +7211,10 @@
     elpaBuild {
       pname = "preview-auto";
       ename = "preview-auto";
-      version = "0.4.0.20241109.62806";
+      version = "0.4.0.20241203.135521";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/preview-auto-0.4.0.20241109.62806.tar";
-        sha256 = "0vcrwi3pjvp46k1c52l4q774fkq93hn3dbbvrhaz160r6d9b477b";
+        url = "https://elpa.gnu.org/devel/preview-auto-0.4.0.20241203.135521.tar";
+        sha256 = "0pcncvr4nv251fm0c66c3wqazv89vxqcv9j2jq0kvylx9ks2vzaz";
       };
       packageRequires = [ auctex ];
       meta = {
