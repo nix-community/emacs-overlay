@@ -1482,10 +1482,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.0.2.0.0.20250308.104508";
+      version = "30.0.2.0.0.20250330.3524";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-30.0.2.0.0.20250308.104508.tar";
-        sha256 = "1rri9hknrzkm51vq9m6ji6w6zrdglvr3k3345lwd5vl79lfqhv5c";
+        url = "https://elpa.gnu.org/devel/compat-30.0.2.0.0.20250330.3524.tar";
+        sha256 = "1bx81h3b5gghqs69zs8ph0acfikl4dvdb4fcqklq95cif2zzfqcp";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250329.164053";
+      version = "3.1.0.0.20250330.54559";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250329.164053.tar";
-        sha256 = "0s5dr0q9ss8xs54kg9kz0f6i7vsi3bccnpfxymin6kllcmyida3a";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250330.54559.tar";
+        sha256 = "0gimk8k11zg9pmaw5057a8nqhwiaifgij2sp6wz4mjrgj50z0d2k";
       };
       packageRequires = [ ];
       meta = {
@@ -2873,10 +2873,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250328.134833";
+      version = "1.18.0.20250329.174949";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250328.134833.tar";
-        sha256 = "092k6xj24yl02njylhgcz270yl5cfxx114cc1dyzga841mb88cyn";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250329.174949.tar";
+        sha256 = "1kb90wkqxb9cnqfm4v6139n6wzalzk0war7skd1pm9yxgwfk23lj";
       };
       packageRequires = [
         eldoc
@@ -4606,10 +4606,10 @@
     elpaBuild {
       pname = "ivy-avy";
       ename = "ivy-avy";
-      version = "0.15.0.0.20250322.162413";
+      version = "0.15.1.0.20250329.150930";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ivy-avy-0.15.0.0.20250322.162413.tar";
-        sha256 = "1ncxlm4l10phd752imzmgzd71mcvp3avf5ci23ljmxmzh835wp3l";
+        url = "https://elpa.gnu.org/devel/ivy-avy-0.15.1.0.20250329.150930.tar";
+        sha256 = "0zqjfv86p52nr5vfmnliw5awsrzxalhlqwkninnp9sxgdib59z0k";
       };
       packageRequires = [
         avy
@@ -4654,10 +4654,10 @@
     elpaBuild {
       pname = "ivy-hydra";
       ename = "ivy-hydra";
-      version = "0.15.0.0.20250225.84034";
+      version = "0.15.1.0.20250329.151244";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ivy-hydra-0.15.0.0.20250225.84034.tar";
-        sha256 = "0ammfla2zvzzy4cy80ki8404qij3766gnwmqjjd4ld102jn606m8";
+        url = "https://elpa.gnu.org/devel/ivy-hydra-0.15.1.0.20250329.151244.tar";
+        sha256 = "19a9bs0hynz203zw6f1y3khgyd3nv7mf3pp2da5gd6h0012j3k5s";
       };
       packageRequires = [
         hydra
@@ -5564,10 +5564,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "6.3.0.20250328.205816";
+      version = "6.3.0.20250329.205306";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250328.205816.tar";
-        sha256 = "1mx8i142zvyfrfjl5w7c1ipyimpwxvnzm99d1q17cy6hj7xnh9gs";
+        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250329.205306.tar";
+        sha256 = "05wn4zvlzxfrl90grwb9ixizhvs2s5v830k3rhfzmgsrbjxwp547";
       };
       packageRequires = [ ];
       meta = {
@@ -7391,10 +7391,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20250322.115509";
+      version = "0.30.0.20250329.174949";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20250322.115509.tar";
-        sha256 = "1cpj90l454fmg68nmhmf5q1x6msq86cfrx8vh1i6vbqlk2zjbicp";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20250329.174949.tar";
+        sha256 = "0ri9h0qc2kdlcg5nw9x7yhpqiiblhhzjj5zm1gb8fixx3css3x2m";
       };
       packageRequires = [
         compat
@@ -8812,10 +8812,10 @@
     elpaBuild {
       pname = "swiper";
       ename = "swiper";
-      version = "0.15.0.0.20250323.152852";
+      version = "0.15.1.0.20250329.151337";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/swiper-0.15.0.0.20250323.152852.tar";
-        sha256 = "06w21h60qza6hasmhh52jggsy1cgcz4nrkzldvgs86sg980zh2vd";
+        url = "https://elpa.gnu.org/devel/swiper-0.15.1.0.20250329.151337.tar";
+        sha256 = "08glyqqvj3m9bph1i53m32wg58xvxzglc44gidmg2b1gf2w3gl82";
       };
       packageRequires = [ ivy ];
       meta = {

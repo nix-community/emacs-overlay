@@ -4566,10 +4566,10 @@
     elpaBuild {
       pname = "ivy-avy";
       ename = "ivy-avy";
-      version = "0.15.0";
+      version = "0.15.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ivy-avy-0.15.0.tar";
-        sha256 = "0xqykxvsm7q81744qj4w7ma83v6s9a4wx4flywqch4dn7liaiqwj";
+        url = "https://elpa.gnu.org/packages/ivy-avy-0.15.1.tar";
+        sha256 = "0csysx22sf3bbfh000c2m48rzfn274km0zxbfbcx2871haskwva1";
       };
       packageRequires = [
         avy
@@ -4614,10 +4614,10 @@
     elpaBuild {
       pname = "ivy-hydra";
       ename = "ivy-hydra";
-      version = "0.15.0";
+      version = "0.15.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ivy-hydra-0.15.0.tar";
-        sha256 = "1crznifig71l6h4zjsr39d2w02blw7vla1vafv0yhhj6ryd4030g";
+        url = "https://elpa.gnu.org/packages/ivy-hydra-0.15.1.tar";
+        sha256 = "16z3ic50zbx9iaw0w6fv04cxpl6qz81424jdian1br1942pz3kdy";
       };
       packageRequires = [
         hydra
@@ -8677,10 +8677,10 @@
     elpaBuild {
       pname = "swiper";
       ename = "swiper";
-      version = "0.15.0";
+      version = "0.15.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/swiper-0.15.0.tar";
-        sha256 = "16vznhb8zqzqvg3i2pkwfani2h19dm08aj7qv334mlyj97rv1ppn";
+        url = "https://elpa.gnu.org/packages/swiper-0.15.1.tar";
+        sha256 = "0m70jgcdsbrj6i5b1srrdgzkwavzi098532fv6vi2051nl42snvz";
       };
       packageRequires = [ ivy ];
       meta = {
