@@ -2730,10 +2730,10 @@
     elpaBuild {
       pname = "hyperdrive";
       ename = "hyperdrive";
-      version = "0.6pre0.20241222.235250";
+      version = "0.6pre0.20250330.212748";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.6pre0.20241222.235250.tar";
-        sha256 = "0a9z9kbnlzbv21w62zyw3mpbvjfnl5vhjmlpq65w7cc4d1qd2jp5";
+        url = "https://elpa.nongnu.org/nongnu-devel/hyperdrive-0.6pre0.20250330.212748.tar";
+        sha256 = "01lz4aak0ccqfffp61d8gfwpscbhdy9132bwbxpsrfiasxvkbfl8";
       };
       packageRequires = [
         compat
@@ -3850,10 +3850,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.0.1.0.20250301.233925";
+      version = "2.0.1.0.20250330.232538";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.1.0.20250301.233925.tar";
-        sha256 = "0adppm61dn3cfkgdyc5ik42z0byvyc2dkwhjdzvw66nnl3fjb3ch";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.1.0.20250330.232538.tar";
+        sha256 = "1cynsibmw7sf4piv3lwwlqrmrz16hvgmar4camxk3bnr1d79h0s5";
       };
       packageRequires = [
         compat
