@@ -2572,10 +2572,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.2.0.20250326.71953";
+      version = "4.0.2.0.20250330.154306";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250326.71953.tar";
-        sha256 = "1w6y3nh2hk81bn23635i77dgkaajxp1vdpjpbkhanvs29m70yn3y";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250330.154306.tar";
+        sha256 = "06lr8clj25ahjwn2d5cjm6blrs3jdfwly6xm4dzv17fm4aj2xx1d";
       };
       packageRequires = [
         helm-core
@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.2.0.20250326.71953";
+      version = "4.0.2.0.20250330.154306";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250326.71953.tar";
-        sha256 = "0mmnsq4fkr930chzz6yvgb5x5gvdqymf0da7fn3g6mfcl8h9rqnk";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250330.154306.tar";
+        sha256 = "0kvd33j0xbvnf9jhan3nx4aij792gnz1nk9db1511ddgzp5gqfxn";
       };
       packageRequires = [ async ];
       meta = {
@@ -3324,20 +3324,18 @@
       fetchurl,
       lib,
       persist,
-      request,
       tp,
     }:
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.1.12.0.20250305.210452";
+      version = "2.0.0.0.20250330.151927";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.12.0.20250305.210452.tar";
-        sha256 = "1dnii6hwxjbprm9cskah40vk41hgnbnvxnjykf8hssf2d5g1qsg3";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.0.0.20250330.151927.tar";
+        sha256 = "16xfvaacilfd075nln38hijzmx1wr30gmibrksn6zhfl6mj0lhnk";
       };
       packageRequires = [
         persist
-        request
         tp
       ];
       meta = {
@@ -4611,10 +4609,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250329.154102";
+      version = "2.31snapshot0.20250330.174001";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250329.154102.tar";
-        sha256 = "1mbyd61cvka3k467pw7yj4bdn2mcnh65wzjnpxwnlp6shg52m9g1";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250330.174001.tar";
+        sha256 = "03hmilx1w1jf4gcz2bmlidpfd99znhpjrs540qgy6grrrnhqny3s";
       };
       packageRequires = [ macrostep ];
       meta = {
