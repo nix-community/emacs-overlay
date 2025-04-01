@@ -2096,10 +2096,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.0.0.1.0.20250331.185914";
+      version = "0.0.0.1.0.20250401.64852";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.0.0.1.0.20250331.185914.tar";
-        sha256 = "1zww42v98c59npqd0dgf3hy59wzhd52h7dz60fyggd6gypgnr0b7";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.0.0.1.0.20250401.64852.tar";
+        sha256 = "0ha3fhv83dfvdwh73nihr7lqn53m777dzvw6haip2nivimwrlip5";
       };
       packageRequires = [ denote ];
       meta = {
@@ -5241,10 +5241,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.24.2.0.20250330.214155";
+      version = "0.24.2.0.20250331.211307";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.24.2.0.20250330.214155.tar";
-        sha256 = "19dbdcdffqijwkr95isywcq8dwffs7wkldvsrkmqmwkx627ya0kw";
+        url = "https://elpa.gnu.org/devel/llm-0.24.2.0.20250331.211307.tar";
+        sha256 = "1n95x8430kasbcrv12j6wv0g12lk4xvbz1cav37y1lig09ak87pz";
       };
       packageRequires = [
         plz
@@ -5564,10 +5564,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "6.3.0.20250331.102143";
+      version = "6.3.0.20250331.193016";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250331.102143.tar";
-        sha256 = "0vfjalf695dq0rmyjgvdvi2a8aqpamaaah2m9xibd1kaxahsmmgl";
+        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250331.193016.tar";
+        sha256 = "0q7819vw7d4zpp4qigyd2yxcrdrcpab88zzy0jsgs7ddp2ns8j45";
       };
       packageRequires = [ ];
       meta = {
