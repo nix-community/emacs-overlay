@@ -1546,10 +1546,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.1.0.20250326.52849";
+      version = "2.1.0.20250331.163057";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.1.0.20250326.52849.tar";
-        sha256 = "0rzk7i1h66704az4za8pcswpr31pnf2najwj8q5cxgg8sxcsn5vq";
+        url = "https://elpa.gnu.org/devel/consult-2.1.0.20250331.163057.tar";
+        sha256 = "0d1cbyjn1mkpzsm07gnjramcsbhcwnq0p026rm6pr4x10z4hd53v";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1704,10 +1704,10 @@
     elpaBuild {
       pname = "counsel";
       ename = "counsel";
-      version = "0.15.0.0.20250322.162656";
+      version = "0.15.1.0.20250329.151454";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/counsel-0.15.0.0.20250322.162656.tar";
-        sha256 = "02cjcb90xvijrjqz66cnblg4cpa19glkjz1a973q30cq1s3i3lcz";
+        url = "https://elpa.gnu.org/devel/counsel-0.15.1.0.20250329.151454.tar";
+        sha256 = "0fnxgf08dkq16d65xcaa822vasdqzixmd7ihw48hncx80jzqk1s6";
       };
       packageRequires = [
         ivy
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250330.100301";
+      version = "3.1.0.0.20250331.81427";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250330.100301.tar";
-        sha256 = "10cacxb5wv4zbr083yn3wgyvnfn0j61bf5n70pimff984fifw0ff";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250331.81427.tar";
+        sha256 = "0hh116prs73s7ykv9vsqmi7s4snavg7yadhp0rgc4djk0anw58s5";
       };
       packageRequires = [ ];
       meta = {
@@ -2096,10 +2096,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.0.0.1.0.20250325.50326";
+      version = "0.0.0.1.0.20250331.185914";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.0.0.1.0.20250325.50326.tar";
-        sha256 = "0di826c05xjn62ixz67yglzjmbksl2w8yz8xbqa2z1lgqdwmb1cs";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.0.0.1.0.20250331.185914.tar";
+        sha256 = "1zww42v98c59npqd0dgf3hy59wzhd52h7dz60fyggd6gypgnr0b7";
       };
       packageRequires = [ denote ];
       meta = {
@@ -4413,10 +4413,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250330.142732";
+      version = "9.0.2pre0.20250331.73512";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250330.142732.tar";
-        sha256 = "0hzfx9q6nh50jbvc49n2mb6cwnmjbg1kaxbvwzf55l345z7nmrad";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250331.73512.tar";
+        sha256 = "1y9xqfznlh827x3arram5yq6wj2r32pjcrd8pdlnzk4yq8zjmx37";
       };
       packageRequires = [ ];
       meta = {
@@ -5564,10 +5564,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "6.3.0.20250329.205306";
+      version = "6.3.0.20250331.102143";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250329.205306.tar";
-        sha256 = "05wn4zvlzxfrl90grwb9ixizhvs2s5v830k3rhfzmgsrbjxwp547";
+        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250331.102143.tar";
+        sha256 = "0vfjalf695dq0rmyjgvdvi2a8aqpamaaah2m9xibd1kaxahsmmgl";
       };
       packageRequires = [ ];
       meta = {

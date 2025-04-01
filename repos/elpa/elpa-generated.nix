@@ -1684,10 +1684,10 @@
     elpaBuild {
       pname = "counsel";
       ename = "counsel";
-      version = "0.15.0";
+      version = "0.15.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/counsel-0.15.0.tar";
-        sha256 = "1mw13iw7ygnigjarcfg7lazrdwk7l17clxs2igf75kdkk4l4jgb4";
+        url = "https://elpa.gnu.org/packages/counsel-0.15.1.tar";
+        sha256 = "1sgaph2wb4mkxlfq6448i1kymaxhs7h37nrn7vzbp9fhik634rhc";
       };
       packageRequires = [
         ivy
