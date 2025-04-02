@@ -1462,10 +1462,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.0.2.0";
+      version = "30.1.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/compat-30.0.2.0.tar";
-        sha256 = "0pizq8vwfqls04in95rpnfwv4xc1r2qjpf41g6bjy826i53cfdx0";
+        url = "https://elpa.gnu.org/packages/compat-30.1.0.0.tar";
+        sha256 = "1wmq4sj3kkb4shvsi8djrk9znjxj20lm4v389jyn18q55gqigq6b";
       };
       packageRequires = [ seq ];
       meta = {
@@ -1526,10 +1526,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.1";
+      version = "2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-2.1.tar";
-        sha256 = "0w88gpgkqjmllypckrkc54gm42yjsfjp4mj9q9pii8qir49sh8ls";
+        url = "https://elpa.gnu.org/packages/consult-2.2.tar";
+        sha256 = "082n0a27jpdz4z8g46m0c35s6xhca5s042wbzvrvh9hhd3mz64b7";
       };
       packageRequires = [ compat ];
       meta = {
