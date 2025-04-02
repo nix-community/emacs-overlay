@@ -53,10 +53,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.1.0.20250401.150826";
+      version = "1.1.0.20250401.165709";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.1.0.20250401.150826.tar";
-        sha256 = "1j6fphx4fgzrcxkgnxn91m53qbn6lxy8pnllnyz6p6hyc6sc8pcx";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.1.0.20250401.165709.tar";
+        sha256 = "1jk832psy61ss04dr7h0563np2v6j57qxbf78b5kpzfsc0x1m946";
       };
       packageRequires = [
         compat
@@ -2375,10 +2375,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250331.142420";
+      version = "0.9.8.0.20250401.224641";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250331.142420.tar";
-        sha256 = "1qm9dy3am0cwyqjcj974cklrg4nic6i8vm0yl5g28f5gw1a0x5fj";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250401.224641.tar";
+        sha256 = "1pyia4nzdw0vkz0ghim2jc334bwg615ib54a744nbbdh741nrpkm";
       };
       packageRequires = [
         compat
@@ -3250,10 +3250,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.1.0.20250329.93558";
+      version = "4.3.2.0.20250401.175331";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.1.0.20250329.93558.tar";
-        sha256 = "0i6avd2k40kid7rnmrbv48xaaiwyf5ji9rs16bhyy01bp49b12ws";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.2.0.20250401.175331.tar";
+        sha256 = "1way4hifyj0p5ly2p84as1amivv67qr22ph292rgwizrj0d5j60y";
       };
       packageRequires = [
         compat
@@ -3306,10 +3306,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.8alpha0.20250314.31135";
+      version = "2.8alpha0.20250402.45223";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20250314.31135.tar";
-        sha256 = "1vgywm19fqwdsg7jrvkd13l4v2k7fn5q1rqf2jd1di7ksyxi9kdl";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20250402.45223.tar";
+        sha256 = "1j8axf1p9ijx4kgyr8qnhhy2rs9y52kammqq8zpqp25zh0a8ydjr";
       };
       packageRequires = [ ];
       meta = {
@@ -3850,10 +3850,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.0.1.0.20250330.232538";
+      version = "2.0.2.0.20250401.181022";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.1.0.20250330.232538.tar";
-        sha256 = "1cynsibmw7sf4piv3lwwlqrmrz16hvgmar4camxk3bnr1d79h0s5";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.2.0.20250401.181022.tar";
+        sha256 = "1imiy9h0yrr995x5swy7mlrzn7zmgscr11a1g4b53dxcinywndcj";
       };
       packageRequires = [
         compat
@@ -4160,10 +4160,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1.0.20250312.165928";
+      version = "2.9.1.0.20250402.71553";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250312.165928.tar";
-        sha256 = "0wqgzph6vkgq55h5669l0rxqjxz7chbzrrjxb16r6pisxnw4b2dd";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250402.71553.tar";
+        sha256 = "0cnidaysnma7bvzzw5vbkggy3z9zq51zlg4k2kd5b1f8dagjlzv7";
       };
       packageRequires = [ ];
       meta = {
@@ -4181,10 +4181,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20250331.112818";
+      version = "4.6snapshot0.20250402.70535";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250331.112818.tar";
-        sha256 = "0bdjnlba8mp9dkpfmk29556jlvfh7l4yx37y396j379vbmgj8a20";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250402.70535.tar";
+        sha256 = "1shphbc74h7lvvzqc7ljy9cch0cvsddrgrl9lp0n88iqqic3839w";
       };
       packageRequires = [ ];
       meta = {
