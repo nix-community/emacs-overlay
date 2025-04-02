@@ -1248,10 +1248,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.2.0";
+      version = "4.3.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/emacsql-4.2.0.tar";
-        sha256 = "03nxfdbha7apar6qhjg57pa4cawjjwswlkci2wm9044wps87734c";
+        url = "https://elpa.nongnu.org/nongnu/emacsql-4.3.0.tar";
+        sha256 = "18nr7fvrdhny59lmr7x3z48y7kjsmrrdwi659dsqjnnlxz0xcl11";
       };
       packageRequires = [ ];
       meta = {
@@ -3296,10 +3296,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.3.1";
+      version = "4.3.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.3.1.tar";
-        sha256 = "0rkr6lw1m4mc695k4pqpsfc5fnbp94pgl7j6y6c5f96d4dzvcx24";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.3.2.tar";
+        sha256 = "0dnmwciz26wrsmp48h9axmj6qjgzhz9i7g3bvlpsq3i8y32xwdf6";
       };
       packageRequires = [
         compat
