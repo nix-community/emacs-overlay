@@ -5704,6 +5704,32 @@
       };
     }
   ) { };
+  minuet = callPackage (
+    {
+      dash,
+      elpaBuild,
+      fetchurl,
+      lib,
+      plz,
+    }:
+    elpaBuild {
+      pname = "minuet";
+      ename = "minuet";
+      version = "0.4.4";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/minuet-0.4.4.tar";
+        sha256 = "0ci47awqky1c28zk3azd4id9wcpd3n9nj5jw5s8ji613kqc1nqs2";
+      };
+      packageRequires = [
+        dash
+        plz
+      ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/minuet.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   mmm-mode = callPackage (
     {
       cl-lib ? null,
@@ -9200,10 +9226,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.6";
+      version = "0.8.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.8.6.tar";
-        sha256 = "0z657lppaysjxfpr85r3y1x9mvvpad14p9jv212rccgnsgrvaa00";
+        url = "https://elpa.gnu.org/packages/transient-0.8.7.tar";
+        sha256 = "0j4n8zqnc2l2p6hy3k9b7zahzqxwk8d239whnn0yjp91z11i945c";
       };
       packageRequires = [
         compat
