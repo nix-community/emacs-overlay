@@ -950,10 +950,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.7.0.20250402.153806";
+      version = "2.2.7.0.20250403.72318";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250402.153806.tar";
-        sha256 = "0zqyvcqmvxjrbnj8s47phmmx3fxdgj6613i27w8mjjd8p3l6ggn7";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250403.72318.tar";
+        sha256 = "0kfl9vljpg9fwdp4c4sqj739slrfahjsl8xjl75k53why4227vcr";
       };
       packageRequires = [ compat ];
       meta = {
