@@ -950,10 +950,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.7.0.20250328.14809";
+      version = "2.2.7.0.20250402.153806";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250328.14809.tar";
-        sha256 = "1lmvwywpr285dbxyy4lq8ksp8zf8a7zaqnrxv88nacjs7b8q8d0m";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250402.153806.tar";
+        sha256 = "0zqyvcqmvxjrbnj8s47phmmx3fxdgj6613i27w8mjjd8p3l6ggn7";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2375,10 +2375,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250401.224641";
+      version = "0.9.8.0.20250402.114541";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250401.224641.tar";
-        sha256 = "1pyia4nzdw0vkz0ghim2jc334bwg615ib54a744nbbdh741nrpkm";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250402.114541.tar";
+        sha256 = "0nc9dxhva2wrdsan84vxjhc9pavzrnsjs4zm916rg46bmm8z01j1";
       };
       packageRequires = [
         compat
@@ -4181,10 +4181,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20250402.70535";
+      version = "4.6snapshot0.20250402.90650";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250402.70535.tar";
-        sha256 = "1shphbc74h7lvvzqc7ljy9cch0cvsddrgrl9lp0n88iqqic3839w";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250402.90650.tar";
+        sha256 = "0ay9r63scg3zray4cx0vp7qrl74sfz9vl7kj2bw31jf891sal4s1";
       };
       packageRequires = [ ];
       meta = {
