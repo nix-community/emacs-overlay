@@ -3046,10 +3046,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.7.2.0.20250328.193935";
+      version = "1.8.1.0.20250402.164949";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.7.2.0.20250328.193935.tar";
-        sha256 = "1kbl2sdizslfn1nysbps7c8ry2zh96c6vskgxzjarpvq40r9cgx6";
+        url = "https://elpa.gnu.org/devel/ellama-1.8.1.0.20250402.164949.tar";
+        sha256 = "04ydy4lapx67r6lcg9dardvzznda2wisffzz3g9fxiyxrri5810w";
       };
       packageRequires = [
         compat
@@ -4790,10 +4790,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.0.0.20250401.154045";
+      version = "2.0.0.20250402.103750";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.0.0.20250401.154045.tar";
-        sha256 = "1mljh93607q7fsqbi78kczp2g8nbqqmmy36hmzlljpb9b3zhwp1f";
+        url = "https://elpa.gnu.org/devel/jinx-2.0.0.20250402.103750.tar";
+        sha256 = "18jpcfm1q4ksnynzavv35im0a6c81h8s8aj9ly7xxcq78yydy55h";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5757,10 +5757,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.4.4.0.20250402.4327";
+      version = "0.4.4.0.20250402.134355";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.4.4.0.20250402.4327.tar";
-        sha256 = "04qsh62q1cfmqzfrfval2hd1461az4kcv547qqzd0mc8m3mizwgs";
+        url = "https://elpa.gnu.org/devel/minuet-0.4.4.0.20250402.134355.tar";
+        sha256 = "0lpm8mvg5xxja60cdpdcfgvb93mb0rgiagbvc529av4l5mk3i9gy";
       };
       packageRequires = [
         dash
@@ -6503,10 +6503,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.7.0.20250326.153939";
+      version = "1.7.0.20250402.171258";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.7.0.20250326.153939.tar";
-        sha256 = "1604fr4q7arxlwsy46g9vj5xjwr8vm78d1sfjkyg1ryz6a7hfv9z";
+        url = "https://elpa.gnu.org/devel/org-modern-1.7.0.20250402.171258.tar";
+        sha256 = "1axg6l5gxrmbwgp8v3l7rzlwsf0ys4p6pdabwaqp4fyipdhh5mz4";
       };
       packageRequires = [
         compat
