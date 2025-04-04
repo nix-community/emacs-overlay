@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250401.125949";
+      version = "14.0.9.0.20250402.211039";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250401.125949.tar";
-        sha256 = "1nbf08jz1i5n9iwijswhv8x0kknv9wlkpfnj58rxgjqgb6pnxw9z";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250402.211039.tar";
+        sha256 = "0hki9algjpmwwr70hwnzdl2bfv436zjq12hqcxax0v21xj4h1gv0";
       };
       packageRequires = [ ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250331.81427";
+      version = "3.1.0.0.20250403.54749";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250331.81427.tar";
-        sha256 = "0hh116prs73s7ykv9vsqmi7s4snavg7yadhp0rgc4djk0anw58s5";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250403.54749.tar";
+        sha256 = "056kr6qk7l00qkkzv5kfyl5yglcjal920ncq21cw7ca61xwdc45a";
       };
       packageRequires = [ ];
       meta = {
@@ -2096,10 +2096,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.0.0.1.0.20250402.42932";
+      version = "0.0.0.1.0.20250403.180126";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.0.0.1.0.20250402.42932.tar";
-        sha256 = "1bdh2pj9vp8nfvmps5m4rxvnddmrl9f7m7r9pqspi62rr35a1zx7";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.0.0.1.0.20250403.180126.tar";
+        sha256 = "17lx2jx18dld91qcynjkmhjgy38wn9zcnszkgdrb8axmz9fs8hnc";
       };
       packageRequires = [ denote ];
       meta = {
@@ -5757,10 +5757,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.4.4.0.20250402.134355";
+      version = "0.5.1.0.20250403.133914";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.4.4.0.20250402.134355.tar";
-        sha256 = "0lpm8mvg5xxja60cdpdcfgvb93mb0rgiagbvc529av4l5mk3i9gy";
+        url = "https://elpa.gnu.org/devel/minuet-0.5.1.0.20250403.133914.tar";
+        sha256 = "12l4hz9q0ngcbw9f3n8v48lwh4064s3gng9bpxgrggbh66xlay6f";
       };
       packageRequires = [
         dash
@@ -10567,10 +10567,10 @@
     elpaBuild {
       pname = "yasnippet";
       ename = "yasnippet";
-      version = "0.14.1.0.20250112.175154";
+      version = "0.14.2.0.20250403.152613";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/yasnippet-0.14.1.0.20250112.175154.tar";
-        sha256 = "0f6fx935lv1rar7blqprwrcz0vilpgh4k564y801pnlcxh5ssnnh";
+        url = "https://elpa.gnu.org/devel/yasnippet-0.14.2.0.20250403.152613.tar";
+        sha256 = "0lsd7j5g3fk0gbk5qjr3vrwffyy56pf6hzgkqcsjz7jps0s8jw2v";
       };
       packageRequires = [ cl-lib ];
       meta = {

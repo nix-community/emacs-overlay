@@ -5715,10 +5715,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.4.4";
+      version = "0.5.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/minuet-0.4.4.tar";
-        sha256 = "0ci47awqky1c28zk3azd4id9wcpd3n9nj5jw5s8ji613kqc1nqs2";
+        url = "https://elpa.gnu.org/packages/minuet-0.5.1.tar";
+        sha256 = "0frzvl788cf53lhqcbkq62cd8xmxqr80wz8d0jv05jj6c2dx4scj";
       };
       packageRequires = [
         dash
@@ -10390,10 +10390,10 @@
     elpaBuild {
       pname = "yasnippet";
       ename = "yasnippet";
-      version = "0.14.1";
+      version = "0.14.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/yasnippet-0.14.1.tar";
-        sha256 = "0xsq0i9xv9hib5a52rv5vywq1v6gr44gjsyfmqxwffmw1a25x25g";
+        url = "https://elpa.gnu.org/packages/yasnippet-0.14.2.tar";
+        sha256 = "0cq31r58vxh660bws26yhpnjz89yr5f2ldjw1q5a1gp3hbzd2130";
       };
       packageRequires = [ cl-lib ];
       meta = {
