@@ -4750,10 +4750,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.0";
+      version = "2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jinx-2.0.tar";
-        sha256 = "1haix1q4rfz18m4bblp4k4gqjd9jbwg9j9zl411b8s2ga268pdkk";
+        url = "https://elpa.gnu.org/packages/jinx-2.1.tar";
+        sha256 = "1v4a00bgs6qcpim861kky1i2w0qfn2hza9vj0inn7lh1sic82rkm";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6634,10 +6634,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.6";
+      version = "1.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/osm-1.6.tar";
-        sha256 = "09fybkkcjn0c55w0accxgv2581kf3s2nhcn3wvny2zfpysijpw13";
+        url = "https://elpa.gnu.org/packages/osm-1.7.tar";
+        sha256 = "1iqg0cjqq2fzrimzgxqa7jsvhzajycl4nq1c7fsr3pd5yjp8d4z8";
       };
       packageRequires = [ compat ];
       meta = {
