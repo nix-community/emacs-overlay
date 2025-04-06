@@ -1659,10 +1659,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.0.0.20250328.143011";
+      version = "2.0.0.20250406.47";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.0.0.20250328.143011.tar";
-        sha256 = "0s43c3sr5d33q980nn0rci4g7x737nrm4p7bclgi35dwn0svgpcw";
+        url = "https://elpa.gnu.org/devel/corfu-2.0.0.20250406.47.tar";
+        sha256 = "1p5akd0l2m8g2bnb7hyyjwllk5hxa09w0c3ij07rgg9wn66mwc7y";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250404.50909";
+      version = "3.1.0.0.20250406.71258";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250404.50909.tar";
-        sha256 = "1pnhl7f88bp487f2mqzr3h8qwf647ws5yx8r29bjh8z6yg03adik";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250406.71258.tar";
+        sha256 = "10lrvncijrbgjgcxa7qjx44iyghflwdipwx5kssacnjh1l0037a2";
       };
       packageRequires = [ ];
       meta = {
@@ -5803,10 +5803,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.6.0.0.20250405.102356";
+      version = "4.6.0.0.20250406.71037";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250405.102356.tar";
-        sha256 = "1zhpqd5ggivvazhbrq0csnbqvs9j9pbxxmlan7qkmxif4vv09hpv";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250406.71037.tar";
+        sha256 = "053j874jdksl4ghnkm8ksms9gphd55h8cpxni527yvhj7zf7vgq2";
       };
       packageRequires = [ ];
       meta = {
@@ -9937,10 +9937,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.0.0.20250405.190608";
+      version = "2.0.0.20250406.347";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.0.0.20250405.190608.tar";
-        sha256 = "0326g3dl1aj6qddw75n8br08klxh5hlswbv8wj6dcfcxdxs26ph5";
+        url = "https://elpa.gnu.org/devel/vertico-2.0.0.20250406.347.tar";
+        sha256 = "0v6w7naxbnhhmyhbr55fdq35ds14hvd7c954hm0ilpl3mzz7jjjl";
       };
       packageRequires = [ compat ];
       meta = {
