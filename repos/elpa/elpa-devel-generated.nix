@@ -3182,10 +3182,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "22.0.20250404.123501";
+      version = "22.0.20250405.101736";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-22.0.20250404.123501.tar";
-        sha256 = "0ilrhf5gb90kswxjhjrqsajhjh6wrnbjp0zhm75zmnz6icbvzb61";
+        url = "https://elpa.gnu.org/devel/emms-22.0.20250405.101736.tar";
+        sha256 = "0vz92gq1hw9p4s24w0vc1finq9bx6is7vsi1izi9b5bghd837rb8";
       };
       packageRequires = [
         cl-lib
@@ -5803,10 +5803,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.6.0.0.20250405.53854";
+      version = "4.6.0.0.20250405.102356";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250405.53854.tar";
-        sha256 = "1yvy39z0l7k229yah9jyz4f958ln88dlydsgv8lw1lxjx789bmdf";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250405.102356.tar";
+        sha256 = "1zhpqd5ggivvazhbrq0csnbqvs9j9pbxxmlan7qkmxif4vv09hpv";
       };
       packageRequires = [ ];
       meta = {
@@ -9937,10 +9937,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.0.0.20250401.162832";
+      version = "2.0.0.20250405.190608";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.0.0.20250401.162832.tar";
-        sha256 = "0aczd29i9g2rlvsmnrl5h9vhglp54bggjh97a3pb04mqmp0i0w9p";
+        url = "https://elpa.gnu.org/devel/vertico-2.0.0.20250405.190608.tar";
+        sha256 = "0326g3dl1aj6qddw75n8br08klxh5hlswbv8wj6dcfcxdxs26ph5";
       };
       packageRequires = [ compat ];
       meta = {
