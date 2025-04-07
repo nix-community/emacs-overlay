@@ -53,10 +53,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.1.0.20250401.165709";
+      version = "1.1.0.20250406.155320";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.1.0.20250401.165709.tar";
-        sha256 = "1jk832psy61ss04dr7h0563np2v6j57qxbf78b5kpzfsc0x1m946";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.1.0.20250406.155320.tar";
+        sha256 = "0kn6kr1qkw08anpvr6l9d85jfhywwz3cq9lgf4a1c698fclvqs51";
       };
       packageRequires = [
         compat
@@ -599,10 +599,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.20.0snapshot0.20241211.152233";
+      version = "5.20.0snapshot0.20250406.154328";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.20.0snapshot0.20241211.152233.tar";
-        sha256 = "0m6bafwl3687ccl815q70bw4q8k3w12vkfl24g5x9rn6dn44ppxx";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.20.0snapshot0.20250406.154328.tar";
+        sha256 = "16m89nva2wrin5pbn3iskv43clc9vmvvzc3m2ldyy2vl08lkzbbd";
       };
       packageRequires = [ ];
       meta = {
@@ -620,10 +620,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.3.0snapshot0.20250405.160845";
+      version = "0.3.0snapshot0.20250406.154128";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.3.0snapshot0.20250405.160845.tar";
-        sha256 = "0hwa7pfw219891627av845siivprzjzgscnkqvws93img1lirbz7";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.3.0snapshot0.20250406.154128.tar";
+        sha256 = "17g8gb7nk5gyn192hqqq0ycgq0x38hb7nw1dsaj9f2afzgc5982a";
       };
       packageRequires = [ ];
       meta = {
@@ -3028,10 +3028,10 @@
     elpaBuild {
       pname = "keycast";
       ename = "keycast";
-      version = "1.4.2.0.20250301.164536";
+      version = "1.4.2.0.20250406.110303";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/keycast-1.4.2.0.20250301.164536.tar";
-        sha256 = "1zipc2baxzx5ima0r34q9d8v9bfw3a41hv2423gbx8036ndq3h2g";
+        url = "https://elpa.nongnu.org/nongnu-devel/keycast-1.4.2.0.20250406.110303.tar";
+        sha256 = "1zqvdhfyhndx9va4v6r96sqgsr27ar7jb4s46xgii07sdl17bbv4";
       };
       packageRequires = [ compat ];
       meta = {
