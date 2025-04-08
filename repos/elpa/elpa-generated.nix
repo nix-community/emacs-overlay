@@ -5715,10 +5715,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.5.1";
+      version = "0.5.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/minuet-0.5.1.tar";
-        sha256 = "0frzvl788cf53lhqcbkq62cd8xmxqr80wz8d0jv05jj6c2dx4scj";
+        url = "https://elpa.gnu.org/packages/minuet-0.5.3.tar";
+        sha256 = "0lxnd8rkf530069dpkmq6y9rm3fqy7lsk9l24lwv3zysj63sc7pv";
       };
       packageRequires = [
         dash
@@ -9140,10 +9140,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.2.2";
+      version = "2.7.2.3.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.7.2.2.tar";
-        sha256 = "0nq441hdr9akpdklplnf4hcza4jgj4vq2718mvf2iznbqqs4b33k";
+        url = "https://elpa.gnu.org/packages/tramp-2.7.2.3.1.tar";
+        sha256 = "171jmgb9sdj1iqq6a77kxin15yik952vvavhpvdr0wxhdq095mgg";
       };
       packageRequires = [ ];
       meta = {

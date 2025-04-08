@@ -2873,10 +2873,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250329.174949";
+      version = "1.18.0.20250408.74617";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250329.174949.tar";
-        sha256 = "1kb90wkqxb9cnqfm4v6139n6wzalzk0war7skd1pm9yxgwfk23lj";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250408.74617.tar";
+        sha256 = "0pwp5fl1sxggkzqvp1za3lf3m353i1cb2xpqamzlp2c6k4mwgz5n";
       };
       packageRequires = [
         eldoc
@@ -5564,10 +5564,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "6.3.0.20250401.100138";
+      version = "6.3.0.20250407.201504";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250401.100138.tar";
-        sha256 = "1bfx0n5s24kzppl3m914ax8y2yx56hn8kyj8zxb836crr0ad5yad";
+        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250407.201504.tar";
+        sha256 = "04is0ivn9y0226a0b823wxp6qszh94r350jcv9kq1lz4gj7drhkb";
       };
       packageRequires = [ ];
       meta = {
@@ -5757,10 +5757,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.5.1.0.20250403.194507";
+      version = "0.5.3.0.20250408.15434";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.5.1.0.20250403.194507.tar";
-        sha256 = "0vxxl1s16qxyf0gmacr61pmrq4gy0lqx35hfr9p31y1hf7ihjqag";
+        url = "https://elpa.gnu.org/devel/minuet-0.5.3.0.20250408.15434.tar";
+        sha256 = "0wwax2w36nzxknbzvkiax467fw2g72r0iz4sq5xlimw1zgw19gnv";
       };
       packageRequires = [
         dash
@@ -6960,10 +6960,10 @@
     elpaBuild {
       pname = "pinentry";
       ename = "pinentry";
-      version = "0.1.0.20241123.141";
+      version = "0.1.0.20250408.22039";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pinentry-0.1.0.20241123.141.tar";
-        sha256 = "14ssm8hrkx70iaww77yrhsbp7k6962bp4k2w7mgj4mj4wkfyrw89";
+        url = "https://elpa.gnu.org/devel/pinentry-0.1.0.20250408.22039.tar";
+        sha256 = "10372ijcmwz48k03lbfw5s4lh2kmizhzfpd7in61zl12f2qv9rw7";
       };
       packageRequires = [ ];
       meta = {
@@ -9299,10 +9299,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.2.3.0.20250407.195439";
+      version = "2.7.2.3.1.0.20250408.65900";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.7.2.3.0.20250407.195439.tar";
-        sha256 = "0134i0d24h7ac1j7j6wdr9wkmdqvcj3rl5y1djna0qwc0mi8mghw";
+        url = "https://elpa.gnu.org/devel/tramp-2.7.2.3.1.0.20250408.65900.tar";
+        sha256 = "0fl70dainnhz78bx611x4295ic751d4ranz9zh89xdygaj6hvzz8";
       };
       packageRequires = [ ];
       meta = {
