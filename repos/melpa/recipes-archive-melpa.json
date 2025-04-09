@@ -2257,15 +2257,15 @@
   "repo": "MatthewZMD/aidermacs",
   "unstable": {
    "version": [
-    20250401,
-    2057
+    20250409,
+    328
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "38aa5bfa5c5a66664abb5bb9cd7f191d1ac3d915",
-   "sha256": "15l28149akn1xxcqbqzymyw2r84sr3dafdxil8x7m7cx3260p7ni"
+   "commit": "658eca5aaf63ab0f2ec732dc0b87f64f9e88a05d",
+   "sha256": "0qy27lsaacx9krkgws8rv0wpms9shyqy4assbr99jhp9x7nyfd89"
   },
   "stable": {
    "version": [
@@ -30023,15 +30023,15 @@
   "stable": {
    "version": [
     0,
-    6,
-    4
+    7,
+    0
    ],
    "deps": [
     "llm",
     "triples"
    ],
-   "commit": "942457bb75574f17058cba1da25e46aeee3fde4b",
-   "sha256": "0cmridxl0ngvh93lbndpbvzp4wbi5wd3hm30hhh4wp8qw280xygj"
+   "commit": "8a3447abeb460db394a90c957f90a4af55ff86b3",
+   "sha256": "1kr6mqqmw8h611748a5q79wvikw43bnmfvw3lk1qb9dap3km96yr"
   }
  },
  {
@@ -52650,15 +52650,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20250407,
-    818
+    20250409,
+    548
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "55355bdead3d19d520157236f4420241cdb89e63",
-   "sha256": "0jl9mk0ac5xwv6cikx7fvimy87ikb9ygylkxh6nv9j3wc2amwn48"
+   "commit": "c818ce3426a7ebac78c737cf6106282f26dcbb80",
+   "sha256": "0llby9x391a862hm82karv5d4rkdjv53yd28bcqss2f0vwcm9rwf"
   },
   "stable": {
    "version": [
@@ -76269,16 +76269,16 @@
   "repo": "douo/magit-gptcommit",
   "unstable": {
    "version": [
-    20250327,
-    139
+    20250409,
+    131
    ],
    "deps": [
     "dash",
     "llm",
     "magit"
    ],
-   "commit": "bd8b2ba558d0a6c44209488404755889d02c1b80",
-   "sha256": "1i82gqdcv30av538cxz927jc7kj5r0c1fq7xbx2iz7gyks93r9sv"
+   "commit": "41022230c565c52a7db6bda8ceacdf064456e1a4",
+   "sha256": "1rmang0n716vhi7s767c31aycm73530r1b8m4g2vv40x2imjrl02"
   }
  },
  {
@@ -87496,20 +87496,21 @@
   },
   "stable": {
    "version": [
-    1,
-    4,
-    4
+    2,
+    0,
+    0
    ],
    "deps": [
     "dash",
     "elgrep",
     "f",
+    "ht",
     "markdown-mode",
     "s",
     "yaml"
    ],
-   "commit": "3814b08fb43d633c4a31b17deef1c2b71e5b5420",
-   "sha256": "0hkwiha8xrw3iila3wny287lwbmwqmraar8xfp53xvhpg8fxkl7c"
+   "commit": "0b31775d5da1dfd3d1ffcf9fa05908a3ba26ed15",
+   "sha256": "0djxlkhqm1zrrq2xqjlcc1vygd4a6h4jcivn7iq8ryg2iga15i9z"
   }
  },
  {
@@ -90845,20 +90846,20 @@
   "repo": "trevdev/org-invoice-table",
   "unstable": {
    "version": [
-    20250408,
-    456
+    20250409,
+    402
    ],
-   "commit": "73dbed9c00b1e5b8dc7fdd55b7c6222cf9422c22",
-   "sha256": "0yd39qrlsd070fm2vn55cqav2p106cajcf4lfd8daxb0yqszc8rr"
+   "commit": "3fe481f54050bb98493a0e3a1eb2a0693cda36d6",
+   "sha256": "0srhfw3rcq7k9vrl9wf20a75hzcarcq3ni9nnkrchym66fj76psb"
   },
   "stable": {
    "version": [
     1,
     1,
-    1
+    2
    ],
-   "commit": "73dbed9c00b1e5b8dc7fdd55b7c6222cf9422c22",
-   "sha256": "0yd39qrlsd070fm2vn55cqav2p106cajcf4lfd8daxb0yqszc8rr"
+   "commit": "3fe481f54050bb98493a0e3a1eb2a0693cda36d6",
+   "sha256": "0srhfw3rcq7k9vrl9wf20a75hzcarcq3ni9nnkrchym66fj76psb"
   }
  },
  {
@@ -91146,15 +91147,15 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20250331,
-    814
+    20250409,
+    44
    ],
    "deps": [
     "nerd-icons",
     "qrencode"
    ],
-   "commit": "f1047d50c2a13a5a7fd010fc1e6a90e7bbc9f72d",
-   "sha256": "0hqmlzn4c1xlj3c3dwi37hn9ncfqc6h5vah11jsf6l58p3fplrj6"
+   "commit": "c44ecd1078fcbab31c24d0a8a41619e25a8c6a70",
+   "sha256": "07v6i60sdwxqhhhqxllkya24nmhc7frly7nc7lnvc84iscrmvgpr"
   },
   "stable": {
    "version": [
@@ -104459,11 +104460,11 @@
   "repo": "purescript-emacs/purescript-mode",
   "unstable": {
    "version": [
-    20250307,
-    416
+    20250409,
+    446
    ],
-   "commit": "a3d6ca4ba5b6ead6f19cf635258f2560c25a6e1f",
-   "sha256": "1sghd6mi1nm0yyl5wg5gbv3hnyd3gfrsrfkfwh1ks8j31xqqnwyc"
+   "commit": "8c4736759afc0d567394740729d535774662afba",
+   "sha256": "17wqrxyqxvf707p4ikxvc1njklih79yc7j4d9wilxgx82q3iwg59"
   }
  },
  {
@@ -123301,11 +123302,11 @@
   "repo": "aimebertrand/timu-macos-theme",
   "unstable": {
    "version": [
-    20250320,
-    125
+    20250409,
+    41
    ],
-   "commit": "437a52fa460dbcbc51c82006c9d9db88a8916a71",
-   "sha256": "1b385w8wwrikz4mpp3lv6vpwsb9z9hy55pk0957gl4b2b2whpdnh"
+   "commit": "48bf3f4f011efaa0392bd93d7e4d0acd0c159bcb",
+   "sha256": "196rcv3zjpsb5vpwd4rv4dlds9xbx02jrl3hjinqqjx6xs43bpkd"
   },
   "stable": {
    "version": [
@@ -130130,8 +130131,8 @@
   "repo": "chenyanming/wallabag.el",
   "unstable": {
    "version": [
-    20250331,
-    118
+    20250409,
+    217
    ],
    "deps": [
     "emacsql",
@@ -130139,8 +130140,8 @@
     "request",
     "s"
    ],
-   "commit": "071cf68d3b150c4ae20eef79e301c3ba96d312ab",
-   "sha256": "17awlzmxw3l7l8882k89gj1wv3ssni9vfxhih6mrwcminns83drl"
+   "commit": "848d6567bf1165ede2070cac540d7bc17b95109c",
+   "sha256": "0d8qw6qxzv0c584kfk0rgdgki731h83hmd5l7s8mzmch9c8gg1v1"
   }
  },
  {
