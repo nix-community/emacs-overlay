@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250402.211039";
+      version = "14.0.9.0.20250409.63736";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250402.211039.tar";
-        sha256 = "0hki9algjpmwwr70hwnzdl2bfv436zjq12hqcxax0v21xj4h1gv0";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250409.63736.tar";
+        sha256 = "12m7ijf2mamlf3pacaxi4m3zbvyx3gi768ns02i5cyqydk4vznxw";
       };
       packageRequires = [ ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250406.71258";
+      version = "3.1.0.0.20250409.42743";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250406.71258.tar";
-        sha256 = "10lrvncijrbgjgcxa7qjx44iyghflwdipwx5kssacnjh1l0037a2";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250409.42743.tar";
+        sha256 = "1i16226w8kjl0kza628fq6b3351b9d125gy37q61lmrr1hmjc5pj";
       };
       packageRequires = [ ];
       meta = {
@@ -2873,10 +2873,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250408.74617";
+      version = "1.18.0.20250408.211627";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250408.74617.tar";
-        sha256 = "0pwp5fl1sxggkzqvp1za3lf3m353i1cb2xpqamzlp2c6k4mwgz5n";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250408.211627.tar";
+        sha256 = "16iz43ljzymlwsxvw44psycn45x4irscw3wkljrmj3xp48m9dgbk";
       };
       packageRequires = [
         eldoc
@@ -4196,10 +4196,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.8.2.0.20241113.2312";
+      version = "1.8.3.0.20250408.223632";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gtags-mode-1.8.2.0.20241113.2312.tar";
-        sha256 = "0mxw27kn5f85rprk13171k56q2dq2gfmvgyhfxrbz3zj7ijvrfg1";
+        url = "https://elpa.gnu.org/devel/gtags-mode-1.8.3.0.20250408.223632.tar";
+        sha256 = "0jfdx701fr7zh1rfimzx7prpjwk52sc9k3hd6bwiz5h5lm0csznl";
       };
       packageRequires = [ ];
       meta = {
@@ -5757,10 +5757,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.5.3.0.20250408.15434";
+      version = "0.5.3.0.20250408.224020";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.5.3.0.20250408.15434.tar";
-        sha256 = "0wwax2w36nzxknbzvkiax467fw2g72r0iz4sq5xlimw1zgw19gnv";
+        url = "https://elpa.gnu.org/devel/minuet-0.5.3.0.20250408.224020.tar";
+        sha256 = "0b74db7i2nz3hc4knava4vj3h8nyiqi5pfflpj8vvi9cmiz5yy5v";
       };
       packageRequires = [
         dash
