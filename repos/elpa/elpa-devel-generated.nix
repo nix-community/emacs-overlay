@@ -1940,10 +1940,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.23.0.0.20250330.183823";
+      version = "0.23.0.0.20250408.62434";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.23.0.0.20250330.183823.tar";
-        sha256 = "0p4511jm8hi9bb832g8f1w1v4dy5maabfi9mgkr3plzpyk5xrvia";
+        url = "https://elpa.gnu.org/devel/dape-0.23.0.0.20250408.62434.tar";
+        sha256 = "1d2wf5xy6dazkblxvm8gdiil4pgn11c2i4kn5mh63sbg04c4ybgg";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2495,10 +2495,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.4.0.0.20250407.53944";
+      version = "0.4.0.0.20250408.94611";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.4.0.0.20250407.53944.tar";
-        sha256 = "095v8rgkmk5agfn9sfpi8cw8qckxdzw2ifcn6aw0lppgx96szbba";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.4.0.0.20250408.94611.tar";
+        sha256 = "1jrwzk3hb763w9v6hihsm83c51rzm42q2rqrh3r0b4wl9s3ybjc4";
       };
       packageRequires = [ ];
       meta = {
@@ -5803,10 +5803,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.6.0.0.20250407.65250";
+      version = "4.6.0.0.20250408.140505";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250407.65250.tar";
-        sha256 = "1fdwdfj165l2xzp7jfg5j186a7hd8b66bhnvsi49l3hk3cvfxn7v";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250408.140505.tar";
+        sha256 = "0r9skpzyrdyzpb3nl2p8mvddxvg8qjfs9sxvz8kmginmh9d9qk65";
       };
       packageRequires = [ ];
       meta = {
