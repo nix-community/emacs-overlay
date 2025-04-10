@@ -2495,10 +2495,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.4.0.0.20250408.94611";
+      version = "0.5.0.0.20250409.85250";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.4.0.0.20250408.94611.tar";
-        sha256 = "1jrwzk3hb763w9v6hihsm83c51rzm42q2rqrh3r0b4wl9s3ybjc4";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.5.0.0.20250409.85250.tar";
+        sha256 = "0vyk8lc372ciawh5x0v1ff7df4s9gfnjqn8f1sqwrqh8308xgcsp";
       };
       packageRequires = [ ];
       meta = {
@@ -5803,10 +5803,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.6.0.0.20250408.140505";
+      version = "4.6.0.0.20250409.122048";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250408.140505.tar";
-        sha256 = "0r9skpzyrdyzpb3nl2p8mvddxvg8qjfs9sxvz8kmginmh9d9qk65";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250409.122048.tar";
+        sha256 = "083pj1nigbmcjvf06c0vmljn1xms6vy9wggqzim2j5gi96zjmk8n";
       };
       packageRequires = [ ];
       meta = {
