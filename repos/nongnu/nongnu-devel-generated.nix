@@ -620,10 +620,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.3.0snapshot0.20250406.154128";
+      version = "0.3.0snapshot0.20250410.74703";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.3.0snapshot0.20250406.154128.tar";
-        sha256 = "17g8gb7nk5gyn192hqqq0ycgq0x38hb7nw1dsaj9f2afzgc5982a";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.3.0snapshot0.20250410.74703.tar";
+        sha256 = "0jnf062psyl1qndwv69ifri1q9rimnl2zqd6k2ki06i3rbmk6xrw";
       };
       packageRequires = [ ];
       meta = {
@@ -4609,10 +4609,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250330.174001";
+      version = "2.31snapshot0.20250410.13033";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250330.174001.tar";
-        sha256 = "03hmilx1w1jf4gcz2bmlidpfd99znhpjrs540qgy6grrrnhqny3s";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250410.13033.tar";
+        sha256 = "0d01fjsrd44jlpb18m1vrjl5nr2ajjzhzm5pszphnx75vg0c7kdf";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -5584,10 +5584,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.11.20250325184849.0.20250325.185005";
+      version = "26.11.20250409222002.0.20250409.222245";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.11.20250325184849.0.20250325.185005.tar";
-        sha256 = "1ihvslx530i6q1iwz58wailwjqk1qmq07s2c8kpnynrpbi53jr3h";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.11.20250409222002.0.20250409.222245.tar";
+        sha256 = "1zqgzrc2il3cc054fdlmn7qqxcm1sfd5j98mj9zzkjqnnismjqcq";
       };
       packageRequires = [ ];
       meta = {
