@@ -3150,10 +3150,10 @@
     elpaBuild {
       pname = "ement";
       ename = "ement";
-      version = "0.17pre0.20241122.210222";
+      version = "0.17pre0.20250409.225433";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ement-0.17pre0.20241122.210222.tar";
-        sha256 = "1gn5hjlggcs7p31mkr8vg398jgzsnhjv04g1hpx4b03j31rxwhxl";
+        url = "https://elpa.gnu.org/devel/ement-0.17pre0.20250409.225433.tar";
+        sha256 = "18r88z97knci4yp15mdngmhkj118690kdhpl5p140x2pm72vi2s0";
       };
       packageRequires = [
         map
@@ -4477,10 +4477,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.2.0.20250306.142956";
+      version = "0.8.3.0.20250409.225457";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.2.0.20250306.142956.tar";
-        sha256 = "1j2a8jixv1k52dmh57id1l4b70rz79hl3gaydmk6pzpdri38msd5";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.3.0.20250409.225457.tar";
+        sha256 = "0cgp8k6yasgbikq588vcmgwmvn9hyjciaa2s0w9yffvr8jwx6d52";
       };
       packageRequires = [ compat ];
       meta = {

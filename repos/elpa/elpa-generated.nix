@@ -4437,10 +4437,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.2";
+      version = "0.8.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/indent-bars-0.8.2.tar";
-        sha256 = "1bhdrykkklsscgiz3p29x8kdkw0kbc4mlpnhxghvphx159clhgym";
+        url = "https://elpa.gnu.org/packages/indent-bars-0.8.3.tar";
+        sha256 = "1x4b4s8wq7jr0lwwn3smm5l3wn5lnwb9s9iir6kna875zgvfvw2s";
       };
       packageRequires = [ compat ];
       meta = {
