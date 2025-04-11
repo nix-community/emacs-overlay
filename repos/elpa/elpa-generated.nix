@@ -6447,6 +6447,28 @@
       };
     }
   ) { };
+  org-mathsheet = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      peg,
+    }:
+    elpaBuild {
+      pname = "org-mathsheet";
+      ename = "org-mathsheet";
+      version = "1.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/org-mathsheet-1.0.tar";
+        sha256 = "12d6biddp1jjmfrjcpcsvbnlml64vaxicfbmknkn92z6d21yzqai";
+      };
+      packageRequires = [ peg ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/org-mathsheet.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   org-modern = callPackage (
     {
       compat,

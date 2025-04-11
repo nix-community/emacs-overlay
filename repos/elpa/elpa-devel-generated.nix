@@ -1318,10 +1318,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.3.0.20250330.183449";
+      version = "1.2.3.0.20250410.221546";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250330.183449.tar";
-        sha256 = "1xj4020g8k2h18syd6vns09glhhziq0x5q86siq47zqyw8v9046k";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250410.221546.tar";
+        sha256 = "022ip4r2bm99wbwlw1zjr2p8r56prplmyiajydnvmm6r7186likw";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5757,10 +5757,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.5.3.0.20250408.224020";
+      version = "0.5.3.0.20250411.23155";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.5.3.0.20250408.224020.tar";
-        sha256 = "0b74db7i2nz3hc4knava4vj3h8nyiqi5pfflpj8vvi9cmiz5yy5v";
+        url = "https://elpa.gnu.org/devel/minuet-0.5.3.0.20250411.23155.tar";
+        sha256 = "0dbkjj9lzp64jbm3glj6skkvgdpp5aidiqjl7blxj4cnvcsmm4y7";
       };
       packageRequires = [
         dash
