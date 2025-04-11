@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.3.0.0.20250124.74505";
+      version = "1.3.0.0.20250410.82528";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.3.0.0.20250124.74505.tar";
-        sha256 = "0g99znfyx4zbqacmq5xmkhxzw9rr6l3nmwci6srvdijncvqbmzas";
+        url = "https://elpa.gnu.org/devel/beframe-1.3.0.0.20250410.82528.tar";
+        sha256 = "1rdq1yrszn22np2maibn54qrq1d5231a34l9xrczi13fv0b6sah2";
       };
       packageRequires = [ ];
       meta = {
@@ -5803,10 +5803,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.6.0.0.20250409.122048";
+      version = "4.6.0.0.20250410.100041";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250409.122048.tar";
-        sha256 = "083pj1nigbmcjvf06c0vmljn1xms6vy9wggqzim2j5gi96zjmk8n";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.6.0.0.20250410.100041.tar";
+        sha256 = "0wxb0mbknc0k1pawn1bm8avzmcxy8kcgmsanihqds60517mljvq4";
       };
       packageRequires = [ ];
       meta = {
