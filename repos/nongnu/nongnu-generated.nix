@@ -4860,10 +4860,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "9.2.0";
+      version = "9.3.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/swift-mode-9.2.0.tar";
-        sha256 = "1mnkwy7cglwrfln8hknbxyzg4z6zb6cmycl19acxslbgrviwh9j3";
+        url = "https://elpa.nongnu.org/nongnu/swift-mode-9.3.0.tar";
+        sha256 = "04pp8hpqxibzcfyzrls1r18r6v3hyga4f39vxcdzn75lan4qgpqd";
       };
       packageRequires = [ seq ];
       meta = {

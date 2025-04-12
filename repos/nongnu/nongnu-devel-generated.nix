@@ -2375,10 +2375,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250408.224837";
+      version = "0.9.8.0.20250411.223754";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250408.224837.tar";
-        sha256 = "1j7li1y14i7m0swa5d3y0r6lyjy1r32ikklj6ryjnp33jw8r0cbb";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250411.223754.tar";
+        sha256 = "17835np21blkh5acdl4k7npzn4xv81mlcqsyc6k8xyxc7bjm01fa";
       };
       packageRequires = [
         compat
@@ -4843,10 +4843,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "9.2.0.0.20250111.53952";
+      version = "9.3.0.0.20250412.62413";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-9.2.0.0.20250111.53952.tar";
-        sha256 = "0xv6ia7nsk1bq9ybmqlckl8qy3p0cjnxfb2zkd7lr2sal476gnlx";
+        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-9.3.0.0.20250412.62413.tar";
+        sha256 = "0mgjswp1ldqcwicgxa3rr6nv8g2yi6pgqlxi9m2pvzihy9x70b53";
       };
       packageRequires = [ seq ];
       meta = {
