@@ -2860,10 +2860,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.4.3";
+      version = "2.4.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/el-job-2.4.3.tar";
-        sha256 = "1iqbs2f71a0mmrmfr2l6dwr6l5h1399z14jv8zfl5zh8h75sm9pm";
+        url = "https://elpa.gnu.org/packages/el-job-2.4.4.tar";
+        sha256 = "1g435zvdk166blanqhdpd4dv5bfykaa9rxvy9fqg1g820x0r9v0p";
       };
       packageRequires = [ ];
       meta = {
@@ -3463,10 +3463,10 @@
     elpaBuild {
       pname = "filechooser";
       ename = "filechooser";
-      version = "0.2.1";
+      version = "0.2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/filechooser-0.2.1.tar";
-        sha256 = "1q9yxq4c6lp1fllcd60mcj4bs0ia03i649jilknkcp7jmjihq07i";
+        url = "https://elpa.gnu.org/packages/filechooser-0.2.2.tar";
+        sha256 = "1y1f6nihay2xbnywki39kp01x20pmg41jl2r0qhw7s31q4qaxyrv";
       };
       packageRequires = [ compat ];
       meta = {

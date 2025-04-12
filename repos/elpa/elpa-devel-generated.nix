@@ -2902,10 +2902,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.4.3.0.20250327.30600";
+      version = "2.4.4.0.20250411.183926";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.4.3.0.20250327.30600.tar";
-        sha256 = "12mpsky46qrm9aj67sp1df05rl7p0hn9ikd718hk6gbipyd2jcra";
+        url = "https://elpa.gnu.org/devel/el-job-2.4.4.0.20250411.183926.tar";
+        sha256 = "0ijjcdsrpv5y8dh2j8x7vvbsk9rgyhbhazlnbhm8by2rw0fqbl20";
       };
       packageRequires = [ ];
       meta = {
@@ -3506,10 +3506,10 @@
     elpaBuild {
       pname = "filechooser";
       ename = "filechooser";
-      version = "0.2.1.0.20240707.120050";
+      version = "0.2.2.0.20250411.154303";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/filechooser-0.2.1.0.20240707.120050.tar";
-        sha256 = "0ri460zys97h9q4bqg43vlfdpjrizvv412y3f4hj4cazsvwlr9k1";
+        url = "https://elpa.gnu.org/devel/filechooser-0.2.2.0.20250411.154303.tar";
+        sha256 = "0xgvwjxsckmdijmrsb4c6ln515an07x84az3x5vd4mjll85mcm86";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6384,10 +6384,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250401.155443";
+      version = "9.8pre0.20250411.173935";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250401.155443.tar";
-        sha256 = "1d03254n53x5icvmpzd3mgw7l9xcgcx44mky4gx7prc30pm97gf2";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250411.173935.tar";
+        sha256 = "1n6b42npynkij9n4hd45mmbxhfxzdbrw7463a0zx03m40d3vrvzc";
       };
       packageRequires = [ ];
       meta = {
