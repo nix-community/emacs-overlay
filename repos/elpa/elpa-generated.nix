@@ -6997,10 +6997,10 @@
     elpaBuild {
       pname = "plz-media-type";
       ename = "plz-media-type";
-      version = "0.2.3";
+      version = "0.2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/plz-media-type-0.2.3.tar";
-        sha256 = "1qb0zag7isnl9hx71jma5yk6rinfdbscmlgwg2489067vshf9x7b";
+        url = "https://elpa.gnu.org/packages/plz-media-type-0.2.4.tar";
+        sha256 = "1gsq86zb3bsasryafhgxbln2sy1w722iz61pd6fi4j6xszb5pb32";
       };
       packageRequires = [ plz ];
       meta = {
