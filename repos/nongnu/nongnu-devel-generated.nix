@@ -5339,10 +5339,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.0snapshot0.20250208.60553";
+      version = "8.3.0snapshot0.20250412.155913";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250208.60553.tar";
-        sha256 = "0d2m9q8zwpd2i0zvcmkasp59ihsymmqyg8c0a1wp72akffxh3if1";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250412.155913.tar";
+        sha256 = "062sq4sqn6iy81ngh4l7064zbnx0llpi8y2bwhk12injrw0ii3qz";
       };
       packageRequires = [
         cl-lib
@@ -5584,10 +5584,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.11.20250409222002.0.20250409.222245";
+      version = "26.11.20250412183917.0.20250412.184315";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.11.20250409222002.0.20250409.222245.tar";
-        sha256 = "1zqgzrc2il3cc054fdlmn7qqxcm1sfd5j98mj9zzkjqnnismjqcq";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.11.20250412183917.0.20250412.184315.tar";
+        sha256 = "05hpgwii0m5l2d6v8kh9w7cjrpsi72sqgawxd4hvr0qqm91k3h1a";
       };
       packageRequires = [ ];
       meta = {
