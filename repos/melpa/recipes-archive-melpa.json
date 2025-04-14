@@ -2223,16 +2223,16 @@
   "repo": "tninja/aider.el",
   "unstable": {
    "version": [
-    20250413,
-    1408
+    20250414,
+    11
    ],
    "deps": [
     "magit",
     "markdown-mode",
     "transient"
    ],
-   "commit": "ab73713a04cbb47cfee9808550a44528041e2096",
-   "sha256": "1450x0hx8kmw1z3ahq521ydf0jzw2mjvjvb6xhw4vgzi6zv3qpc8"
+   "commit": "d1412e1269279c3d22eb9430599f0934cb50bdc9",
+   "sha256": "0rvn8dx1d9zf8krsxdcjcnjrfgb788z3bbwcnvkv6xs5rqwhgl63"
   },
   "stable": {
    "version": [
@@ -68652,14 +68652,14 @@
   "repo": "shg/julia-vterm.el",
   "unstable": {
    "version": [
-    20240514,
-    724
+    20250412,
+    1006
    ],
    "deps": [
     "vterm"
    ],
-   "commit": "2298cd42d354f069adbb7bb06b3b15222e5f54a2",
-   "sha256": "0r0anwzar8rwiwzwg637nshj59mssiipbilcc6kvxr73ffviy127"
+   "commit": "74d7802a03f53f2d0467eafe8afbd0ca4061383b",
+   "sha256": "0dlcvndyz1pmyk2m15m8fdagrnvb1qi430h0l4chmzqp0vrkf1x6"
   },
   "stable": {
    "version": [
@@ -79928,28 +79928,28 @@
   "repo": "milanglacier/minuet-ai.el",
   "unstable": {
    "version": [
-    20250412,
-    2034
+    20250414,
+    344
    ],
    "deps": [
     "dash",
     "plz"
    ],
-   "commit": "aa5e30ba1a8a8ca7afbd4997ff6518157d7d6f87",
-   "sha256": "0agbi71kmf8chcy5rf6yx1br6rpayyjx24xvrpdcj31jxysvkayl"
+   "commit": "8e4075713885f7ec7253936e3e74c7860ce7f77f",
+   "sha256": "0r8316spbcmv9nsqhmw5df3cwghbra4ncck0dzihjn9agss7zj27"
   },
   "stable": {
    "version": [
     0,
     5,
-    3
+    4
    ],
    "deps": [
     "dash",
     "plz"
    ],
-   "commit": "60a8cf0a5df5c26d09a695297bf4b967b2a7a48b",
-   "sha256": "0h9psz4ihsywq4q9pcx4bjr6w9hr4r6rr66x49bbrrcrrj3i8wr6"
+   "commit": "8e4075713885f7ec7253936e3e74c7860ce7f77f",
+   "sha256": "0r8316spbcmv9nsqhmw5df3cwghbra4ncck0dzihjn9agss7zj27"
   }
  },
  {
@@ -86736,15 +86736,15 @@
   "repo": "shg/ob-julia-vterm.el",
   "unstable": {
    "version": [
-    20240514,
-    328
+    20250414,
+    558
    ],
    "deps": [
     "julia-vterm",
     "queue"
    ],
-   "commit": "e1aae4f54cd06f33c63a16d88df4856947f46201",
-   "sha256": "04hknkcqkfn5bfbxx9mx1naczjxnk1aalhyqvra6m7p1n832mvqm"
+   "commit": "2996d851c2676631396429c4374ce4ff06ff318e",
+   "sha256": "03hgr705fq4faxsskrxghlpn6n03ivp92ir4fxy735zafgljlls6"
   },
   "stable": {
    "version": [
@@ -92865,8 +92865,8 @@
   "repo": "ahmed-shariff/org-roam-ql",
   "unstable": {
    "version": [
-    20241231,
-    1802
+    20250414,
+    247
    ],
    "deps": [
     "dash",
@@ -92876,8 +92876,8 @@
     "s",
     "transient"
    ],
-   "commit": "2b7cf0110c5c13b26c3e1b35c9854263089ba13e",
-   "sha256": "0gwd4cyhwmnwkzc6ps5pikdf1ak17y1k006sl1b0sc2lwxyr4p4v"
+   "commit": "d891f9a184dd79ad00d064131ace292d22254c32",
+   "sha256": "1fkzyp0b2s4phw4483mpaxwm7380r926l6wy4qrvgjkyjmgagwnq"
   },
   "stable": {
    "version": [
@@ -94889,11 +94889,11 @@
   "repo": "tbanel/orgaggregate",
   "unstable": {
    "version": [
-    20250403,
-    2015
+    20250414,
+    757
    ],
-   "commit": "273d16cdd6670577d0518fcfe505b67eb06685bf",
-   "sha256": "19fb2g6xfkv5arjrif3yb0139lk837i62c0mpgk3azgz4rdzxl69"
+   "commit": "26daa0d73b48620551ab172abfa74efafb48f712",
+   "sha256": "10k8j1amm9ha0vrwnz20a8hj7ahgdsff7yws36my945mwnra0m8a"
   }
  },
  {
@@ -95371,25 +95371,25 @@
   "unstable": {
    "version": [
     20250414,
-    26
+    47
+   ],
+   "deps": [
+    "compat"
+   ],
+   "commit": "5a4f043cdeb057b52910a4a9de776ba22a567e63",
+   "sha256": "1drnk6hddq5l1fzwvgxh3zl46n3mq2jqinx7724xcz5z0xzs35dc"
+  },
+  "stable": {
+   "version": [
+    3,
+    2,
+    0
    ],
    "deps": [
     "compat"
    ],
    "commit": "60bf78108c83817c79ce164bf2511ab77db50d03",
    "sha256": "15kjak4k33rmh3glyndy2z2sg3jvcij6gcxh1yh8cffwc13i6n1c"
-  },
-  "stable": {
-   "version": [
-    3,
-    1,
-    2
-   ],
-   "deps": [
-    "compat"
-   ],
-   "commit": "82c49c5c8551d2c0dd33f6b56549e1890d621651",
-   "sha256": "0dj8mfgzlmvybkg7z4cvaa75v0hq8sbv3fkd2wxs8mhz2hhvmxl2"
   }
  },
  {
