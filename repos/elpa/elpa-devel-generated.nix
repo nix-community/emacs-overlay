@@ -1546,10 +1546,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.2.0.20250402.65908";
+      version = "2.2.0.20250413.171422";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.2.0.20250402.65908.tar";
-        sha256 = "001v9pf0aknbni1jmrm7wk8fkc8f01qz0mvi665sxngfzncviz03";
+        url = "https://elpa.gnu.org/devel/consult-2.2.0.20250413.171422.tar";
+        sha256 = "068zvhdn6nrhfhwf3qd4ax6m8c8wdz1myfv92fa27wr4lcg19rmz";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2609,6 +2609,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/doc-toc.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  doc-view-follow = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "doc-view-follow";
+      ename = "doc-view-follow";
+      version = "0.2.0.20250413.175937";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/doc-view-follow-0.2.0.20250413.175937.tar";
+        sha256 = "1z6ppjba2wkvh4gmnjm8i8j257ybrgdjfw65yyzp3baxxxcr5vba";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/doc-view-follow.html";
         license = lib.licenses.free;
       };
     }
@@ -4413,10 +4434,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250406.213357";
+      version = "9.0.2pre0.20250413.43904";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250406.213357.tar";
-        sha256 = "1v7aw1s1mkaxbwp0lq2hcxfymbwvv9wsmgr5zi982ly3wld4vpgk";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250413.43904.tar";
+        sha256 = "18l2p8i5lyhrbd49qfbinmvvah8bnajayd288r0qgnkczxz8bvzi";
       };
       packageRequires = [ ];
       meta = {
@@ -6384,10 +6405,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250412.175727";
+      version = "9.8pre0.20250413.163523";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250412.175727.tar";
-        sha256 = "0rlmnnkqgnq174lb0x3f0a8452p8wmhynmizxc28vqh719ysc0lf";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250413.163523.tar";
+        sha256 = "161s04v4givx3nxb6fsrhxa4fmqfi472cagiwqv3yd9skvm78c67";
       };
       packageRequires = [ ];
       meta = {
@@ -7003,10 +7024,10 @@
     elpaBuild {
       pname = "plz-event-source";
       ename = "plz-event-source";
-      version = "0.1.3pre0.20250228.134816";
+      version = "0.1.4pre0.20250413.93107";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/plz-event-source-0.1.3pre0.20250228.134816.tar";
-        sha256 = "08dasdzl53rnb29jl023vmcqs0xall1ra2dfpzqsjjzc1a1lz08y";
+        url = "https://elpa.gnu.org/devel/plz-event-source-0.1.4pre0.20250413.93107.tar";
+        sha256 = "1g4bvdbdg5c0ch62l8314rv44b2wyymkbydyi0fkdjjb3a9ns4b0";
       };
       packageRequires = [ plz-media-type ];
       meta = {
