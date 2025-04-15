@@ -3043,10 +3043,10 @@
     elpaBuild {
       pname = "keycast";
       ename = "keycast";
-      version = "1.4.2";
+      version = "1.4.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/keycast-1.4.2.tar";
-        sha256 = "0lmqqpqib7gz12m9ckappf3rw8n8x0nridmsf4c48vbn2jh607hy";
+        url = "https://elpa.nongnu.org/nongnu/keycast-1.4.3.tar";
+        sha256 = "1d0n8jshjblrb7c5finjpnkdil96zbcy0696sqx4si9kak6j4k5i";
       };
       packageRequires = [ compat ];
       meta = {

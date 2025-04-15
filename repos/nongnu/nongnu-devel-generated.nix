@@ -570,10 +570,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.18.0snapshot0.20250411.51046";
+      version = "1.18.0snapshot0.20250414.160557";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250411.51046.tar";
-        sha256 = "0yhx376158fffyr53n2qv84zx1jfqgkx54awxsh741jqfz5mrx07";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250414.160557.tar";
+        sha256 = "0ckl1xj5ml08a9y89czx208f4ixyq3ip4d9pk9bfyqz5krhvfwap";
       };
       packageRequires = [
         clojure-mode
@@ -620,10 +620,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.3.0snapshot0.20250411.91252";
+      version = "0.3.0snapshot0.20250414.191754";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.3.0snapshot0.20250411.91252.tar";
-        sha256 = "00l4gi0mfikfh88fw7822dz6pdls4j8585di2wj2gs7iqcyylrqb";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.3.0snapshot0.20250414.191754.tar";
+        sha256 = "1442b2fnpfyngl2jdx353xbaddzwzbira4yh1ndmp5q7yg6fhnjf";
       };
       packageRequires = [ ];
       meta = {
@@ -3028,10 +3028,10 @@
     elpaBuild {
       pname = "keycast";
       ename = "keycast";
-      version = "1.4.2.0.20250406.110303";
+      version = "1.4.3.0.20250414.154935";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/keycast-1.4.2.0.20250406.110303.tar";
-        sha256 = "1zqvdhfyhndx9va4v6r96sqgsr27ar7jb4s46xgii07sdl17bbv4";
+        url = "https://elpa.nongnu.org/nongnu-devel/keycast-1.4.3.0.20250414.154935.tar";
+        sha256 = "1lw5pnyviwgwf2qcg344sgclba18s7y50j1kn3an2c3d3akk3hq8";
       };
       packageRequires = [ compat ];
       meta = {
