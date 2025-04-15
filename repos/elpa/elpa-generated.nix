@@ -2567,6 +2567,27 @@
       };
     }
   ) { };
+  doc-view-follow = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "doc-view-follow";
+      ename = "doc-view-follow";
+      version = "0.3";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/doc-view-follow-0.3.tar";
+        sha256 = "0mpvqslx9nrvsa3bk99khmnd37y3s9iwnam97sjx3aqwazzv4c7k";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/doc-view-follow.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   docbook = callPackage (
     {
       elpaBuild,

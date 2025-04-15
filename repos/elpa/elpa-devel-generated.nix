@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250414.53318";
+      version = "3.1.0.0.20250414.165616";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250414.53318.tar";
-        sha256 = "1fqgzzmk6npm1nxkslq23mk3s03zhfjr5ar05b6igwmpp7n74wia";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250414.165616.tar";
+        sha256 = "1xv7n5bck0ydcg7mgi6zkw956mv7abgc21ag8dlrr9qc3nnzwrqn";
       };
       packageRequires = [ ];
       meta = {
@@ -2609,6 +2609,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/doc-toc.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  doc-view-follow = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "doc-view-follow";
+      ename = "doc-view-follow";
+      version = "0.3.0.20250414.142827";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/doc-view-follow-0.3.0.20250414.142827.tar";
+        sha256 = "0hcc8lsnmg0l7rk1rfm01jrq4zw7j60xm2xczczzc94rr60br0lh";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/doc-view-follow.html";
         license = lib.licenses.free;
       };
     }
@@ -3318,10 +3339,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "25.1.0.0.20250110.143746";
+      version = "25.1.0.0.20250414.141409";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20250110.143746.tar";
-        sha256 = "0mppliby454pm7x0w7mrxk5741gcgzmim6sq36rdq8yh3q0abk77";
+        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20250414.141409.tar";
+        sha256 = "053bs9xvx9zyrl1n5m1zfhld8qmklykcrj4fdiqry5nw99q7r9v6";
       };
       packageRequires = [ ];
       meta = {
@@ -6384,10 +6405,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250413.163523";
+      version = "9.8pre0.20250414.174603";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250413.163523.tar";
-        sha256 = "161s04v4givx3nxb6fsrhxa4fmqfi472cagiwqv3yd9skvm78c67";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250414.174603.tar";
+        sha256 = "0fjbyqqmz65f68zw1yn8pblzhwwmjrgi0qq01xapbclr033153xd";
       };
       packageRequires = [ ];
       meta = {
