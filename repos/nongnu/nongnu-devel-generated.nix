@@ -620,10 +620,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.3.0snapshot0.20250415.75830";
+      version = "0.4.0snapshot0.20250415.80611";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.3.0snapshot0.20250415.75830.tar";
-        sha256 = "1bdgck18vs7zlg3044sjisb56dzzjx5jarg395gh3w36vbvxckwg";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.4.0snapshot0.20250415.80611.tar";
+        sha256 = "06id5z70h8yms03hg0q5xqvdjrzrjiw5isimw6w6sw5r9jinl1a9";
       };
       packageRequires = [ ];
       meta = {
@@ -1721,10 +1721,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0snapshot0.20250226.154115";
+      version = "35.0snapshot0.20250415.130640";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20250226.154115.tar";
-        sha256 = "1sxlipzvh0sr057zydh1pqdnx6ginh0yrfycbv1ps3bwvpc7g8a5";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0snapshot0.20250415.130640.tar";
+        sha256 = "1gym864nmwld1q9i5mscbcjyl1n34myv2mv4a9b27qsw8y05kav0";
       };
       packageRequires = [ ];
       meta = {
@@ -2375,10 +2375,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250412.93237";
+      version = "0.9.8.0.20250415.115804";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250412.93237.tar";
-        sha256 = "083jhnw6y81vb8j0pld2vkz1nwacxaqcb53jm41cq6f91819bi31";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250415.115804.tar";
+        sha256 = "1676w8j65hvr9z15i0z8s8qs01ds80rind38jszw1840cgrqsgi8";
       };
       packageRequires = [
         compat
@@ -2808,10 +2808,10 @@
     elpaBuild {
       pname = "idris-mode";
       ename = "idris-mode";
-      version = "1.1.0.0.20240704.133442";
+      version = "1.1.0.0.20250415.110953";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20240704.133442.tar";
-        sha256 = "0rbgv5gkm6q3a6l8yqmgn3mn6ic9jr1w80vrl4gvkfpklwys9y5f";
+        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20250415.110953.tar";
+        sha256 = "1xz0dzw0vjlsrdxa5w580dkv14phm9jakihkws6s0lbsdvx5nkwm";
       };
       packageRequires = [
         cl-lib
