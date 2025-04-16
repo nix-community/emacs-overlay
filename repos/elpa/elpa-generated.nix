@@ -1549,10 +1549,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.2.4";
+      version = "0.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-denote-0.2.4.tar";
-        sha256 = "1a5gxrm8qw638hdplvlizwmyvm84ispm5w751vd7ngmcsiaabvmp";
+        url = "https://elpa.gnu.org/packages/consult-denote-0.3.0.tar";
+        sha256 = "1b240cfd6gk0rjsmqjx096iqckcs6v74nf928p25kj53rsy1ky1v";
       };
       packageRequires = [
         consult
@@ -2033,10 +2033,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0";
+      version = "4.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-3.1.0.tar";
-        sha256 = "03l9ya2n0nrj72dpnflxv19k8agzl3lab7hq0aqb7vzxafjfip74";
+        url = "https://elpa.gnu.org/packages/denote-4.0.0.tar";
+        sha256 = "13a1aynmrj1vzq9xljs2h96pywqhr7iblyag51asxjynkzj2z27g";
       };
       packageRequires = [ ];
       meta = {
@@ -2055,10 +2055,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.0.0.1";
+      version = "0.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-journal-0.0.0.1.tar";
-        sha256 = "07xb58jqkh0nwzc8l8k1cvqdlkm7iyb3ajjndkz6kvg7vhxiaaqi";
+        url = "https://elpa.gnu.org/packages/denote-journal-0.1.0.tar";
+        sha256 = "1xbigv5m69k43pzlqa4yfcqyksrhq78bs9vn5d634i40003y5x5i";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2077,10 +2077,10 @@
     elpaBuild {
       pname = "denote-markdown";
       ename = "denote-markdown";
-      version = "0.0.0.1";
+      version = "0.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-markdown-0.0.0.1.tar";
-        sha256 = "1sn3h6jjclqwda5hch8c23s485w9sra2m3lqz9qcsjdcmb85cxk1";
+        url = "https://elpa.gnu.org/packages/denote-markdown-0.1.0.tar";
+        sha256 = "0yxrqqcnnr2lmaqk1wrxff174v2d1bdvlh323v7j3l7w7qg0qxkq";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2121,10 +2121,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.0.0.1";
+      version = "0.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-org-0.0.0.1.tar";
-        sha256 = "0mipl5b728qwxwskc28jrvxjf1n5x25gggsrfx8qmdz5z4p0dglr";
+        url = "https://elpa.gnu.org/packages/denote-org-0.1.0.tar";
+        sha256 = "0prrynkpihycqy2pk2xjbxs7rngnfcffzr9bqdpzjzpvg8mqd0p5";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2165,10 +2165,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.0.0.1";
+      version = "0.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-sequence-0.0.0.1.tar";
-        sha256 = "0z947wk5n2ign2d36b1ahdldr99ir7cmvdhmq4i5dv2kwj36ga1n";
+        url = "https://elpa.gnu.org/packages/denote-sequence-0.1.0.tar";
+        sha256 = "1mjf7r4z164p6qprrg710ksjdwfzfzk3l2v879rz364s8a2wkxdd";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2187,10 +2187,10 @@
     elpaBuild {
       pname = "denote-silo";
       ename = "denote-silo";
-      version = "0.0.0.1";
+      version = "0.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-silo-0.0.0.1.tar";
-        sha256 = "011l6nd7wqjy2zwg0pifi1zqr1diay4i170binl78wv4bxd5z0ln";
+        url = "https://elpa.gnu.org/packages/denote-silo-0.1.0.tar";
+        sha256 = "1h20z8g94kma9b6c4indr700kh3ssijqlzc1syn5rxh35bddx484";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2576,10 +2576,10 @@
     elpaBuild {
       pname = "doc-view-follow";
       ename = "doc-view-follow";
-      version = "0.3";
+      version = "0.3.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/doc-view-follow-0.3.tar";
-        sha256 = "0mpvqslx9nrvsa3bk99khmnd37y3s9iwnam97sjx3aqwazzv4c7k";
+        url = "https://elpa.gnu.org/packages/doc-view-follow-0.3.1.tar";
+        sha256 = "0ai8f7p1vl8844zzv1qrw9x05x6sgimggy7zw9jkk8gm83a6q9ri";
       };
       packageRequires = [ ];
       meta = {
@@ -3658,10 +3658,10 @@
     elpaBuild {
       pname = "fontaine";
       ename = "fontaine";
-      version = "3.0.0";
+      version = "3.0.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/fontaine-3.0.0.tar";
-        sha256 = "1v2gwry755m3gj6gxrxgcbvw39sdgrmazpw09nkayrvx9ar5fszw";
+        url = "https://elpa.gnu.org/packages/fontaine-3.0.1.tar";
+        sha256 = "0bgfg6pkw724id1d3igiw4g0204wnjwsbnabfy2rq6nrf99z1qwr";
       };
       packageRequires = [ ];
       meta = {
