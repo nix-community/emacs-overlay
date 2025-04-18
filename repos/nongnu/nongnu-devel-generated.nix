@@ -2375,10 +2375,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250416.181316";
+      version = "0.9.8.0.20250417.185549";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250416.181316.tar";
-        sha256 = "1ra1y9ngskp59vqsmsyd593z5f6ljd4b8sda3cir3iy96gyxihd9";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250417.185549.tar";
+        sha256 = "102yyl0m2ngwadcazisrghjsmqzzw68s3q9g18q9mzpfadwryjwh";
       };
       packageRequires = [
         compat
@@ -2549,10 +2549,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.0.20250404.64448";
+      version = "1.1.0.20250418.63920";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.0.20250404.64448.tar";
-        sha256 = "0s4djic8rivvv4ilcj2sqs5rgvxl6dwxqd2hbsq6y22iyzp3avw3";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.1.0.20250418.63920.tar";
+        sha256 = "1mwp8bc7rqb9xj4i70kk4azwa7qd0dqqladpszfsghrsa502zg2h";
       };
       packageRequires = [ ];
       meta = {
@@ -4609,10 +4609,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250413.225417";
+      version = "2.31snapshot0.20250417.201511";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250413.225417.tar";
-        sha256 = "1gqxgn5fdfqipyqfprx36awy2ynl33pyg7bgh39zzv1rdlym8acw";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250417.201511.tar";
+        sha256 = "0pbm04m0wzr63vs45xs624xgkjskpcvprwgizqmh84bvqg6g4zvh";
       };
       packageRequires = [ macrostep ];
       meta = {
