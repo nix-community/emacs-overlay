@@ -2375,10 +2375,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250417.185549";
+      version = "0.9.8.0.20250418.111210";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250417.185549.tar";
-        sha256 = "102yyl0m2ngwadcazisrghjsmqzzw68s3q9g18q9mzpfadwryjwh";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250418.111210.tar";
+        sha256 = "0bli29pndg2rr8rlq0ip1jxyvpfw1bdn7gcvv4b6kz3qpj9727y0";
       };
       packageRequires = [
         compat
@@ -2549,10 +2549,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.1.0.20250418.63920";
+      version = "1.1.0.20250418.133456";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.1.0.20250418.63920.tar";
-        sha256 = "1mwp8bc7rqb9xj4i70kk4azwa7qd0dqqladpszfsghrsa502zg2h";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.1.0.20250418.133456.tar";
+        sha256 = "13h2n7aan1r7xl5qjrainghs589p1c0skvsrn3297siqgs0n8jr5";
       };
       packageRequires = [ ];
       meta = {
@@ -2572,10 +2572,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.2.0.20250412.55049";
+      version = "4.0.2.0.20250418.194417";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250412.55049.tar";
-        sha256 = "13nalqzkasl27fqsj5id0jr0qdm183rninnfj6jdyiscyizcpcdc";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250418.194417.tar";
+        sha256 = "1vs2r1ws9girq8whi5g81amfd93z1yd62a1y8xxslg0gym4x3513";
       };
       packageRequires = [
         helm-core
@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.2.0.20250412.55049";
+      version = "4.0.2.0.20250418.194417";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250412.55049.tar";
-        sha256 = "1kg8a7vv6vcmf5b4fr2d5xn41qgzprzw80hy5s88aaavc0qk5w9c";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250418.194417.tar";
+        sha256 = "0ir957gpmkshxgz0pa0lrlcf7hzh6lgx22kk9kqsh1yj1410zma3";
       };
       packageRequires = [ async ];
       meta = {
@@ -3897,10 +3897,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.25.0.20250324.192216";
+      version = "0.26.0.20250418.142545";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.25.0.20250324.192216.tar";
-        sha256 = "0m1a5bs4kiplxqva0fmsznpxbq3jhpprgji3dpf0jq226cjm45d9";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.26.0.20250418.142545.tar";
+        sha256 = "0qpsyimq3i6p8s03ax2grnzn474ngmx2lcvsvf5db6fryhw9qxj3";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -5584,10 +5584,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.11.20250412183917.0.20250412.184315";
+      version = "26.11.20250418094205.0.20250418.94543";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.11.20250412183917.0.20250412.184315.tar";
-        sha256 = "05hpgwii0m5l2d6v8kh9w7cjrpsi72sqgawxd4hvr0qqm91k3h1a";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.11.20250418094205.0.20250418.94543.tar";
+        sha256 = "1rz749zx85lgipaajhw4fmhx29n0i9qjmvx35n41jfkk2xfzh7c5";
       };
       packageRequires = [ ];
       meta = {

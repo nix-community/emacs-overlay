@@ -3919,10 +3919,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.25";
+      version = "0.26";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/package-lint-0.25.tar";
-        sha256 = "0nagz2ynqg0vlh8sz1ss0g78j1qi3ni1x74gzbnk3i67wwkrld8k";
+        url = "https://elpa.nongnu.org/nongnu/package-lint-0.26.tar";
+        sha256 = "0sgqq19zvnlvf64ash2cig3n2avjrsjn107wfvm222sk2bm0ld1j";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -5597,10 +5597,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.11.20250412183917";
+      version = "26.11.20250418094205";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.11.20250412183917.tar";
-        sha256 = "0m4hv3xzx83vpk7fq4sxscswv3zkyrbxfcjwa4x4knbg7y9fawzl";
+        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.11.20250418094205.tar";
+        sha256 = "0773w30z7v8fxhx8z94m8z54zzyxc35xvzpz60zr78syl48971n2";
       };
       packageRequires = [ ];
       meta = {
