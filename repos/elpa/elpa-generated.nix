@@ -2449,10 +2449,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.5.0";
+      version = "0.5.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dired-preview-0.5.0.tar";
-        sha256 = "0l4vggf2g8jw2yz0z8bjgvi18283slrsq0jcvwvh6aay7p5ajn8k";
+        url = "https://elpa.gnu.org/packages/dired-preview-0.5.1.tar";
+        sha256 = "146k4jirawicnrcj9qn2gzfqd7adapl0yp8r18xpnkl3pqbwkm4v";
       };
       packageRequires = [ ];
       meta = {
@@ -5198,10 +5198,10 @@
     elpaBuild {
       pname = "literate-scratch";
       ename = "literate-scratch";
-      version = "1.0";
+      version = "2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/literate-scratch-1.0.tar";
-        sha256 = "1rby70wfj6g0p4hc6xqzwgqj2g8780qm5mnjn95bl2wrvdi0ds6n";
+        url = "https://elpa.gnu.org/packages/literate-scratch-2.0.tar";
+        sha256 = "0gd09304y51dg2ddslbgipd15c4ingdf6qdw8qygfl0h0vkdkbp6";
       };
       packageRequires = [ ];
       meta = {
@@ -6360,10 +6360,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.27";
+      version = "9.7.28";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.27.tar";
-        sha256 = "0y2x94qxi6wa7mrcdppyynylv9j5sszik25bmjwsfriiwqwk5gp6";
+        url = "https://elpa.gnu.org/packages/org-9.7.28.tar";
+        sha256 = "1md0w2kjdd5fbnpmhaabking3mqy2b23kqi78vy3hlbrmvnnw830";
       };
       packageRequires = [ ];
       meta = {
@@ -9086,7 +9086,6 @@
   ) { };
   tmr = callPackage (
     {
-      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -9094,12 +9093,12 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.0.0";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tmr-1.0.0.tar";
-        sha256 = "02dj5kh8ayhfy1w9vy77s7izz4495n4jkcbw6xscc8wyfml0j15f";
+        url = "https://elpa.gnu.org/packages/tmr-1.1.0.tar";
+        sha256 = "1bvysr05007qgzy2z6rxhhxpaq4b648icfmnj6qf8ydn8b5ih5kw";
       };
-      packageRequires = [ compat ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/tmr.html";
         license = lib.licenses.free;
@@ -9709,6 +9708,28 @@
       };
     }
   ) { };
+  vc-jj = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "vc-jj";
+      ename = "vc-jj";
+      version = "0.2";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/vc-jj-0.2.tar";
+        sha256 = "19yhv1jgix49pvclf42xx23fh2zbr32q51664a99dncn8jhy7bdy";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/vc-jj.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   vcard = callPackage (
     {
       elpaBuild,
@@ -10279,10 +10300,10 @@
     elpaBuild {
       pname = "xeft";
       ename = "xeft";
-      version = "3.3";
+      version = "3.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/xeft-3.3.tar";
-        sha256 = "00zkhqajkkf979ccbnz076dpav2v52q44li2m4m4c6p3z0c3y255";
+        url = "https://elpa.gnu.org/packages/xeft-3.4.tar";
+        sha256 = "0gz8qzhh3isnf27351k6n32wvjhrx0mn2pdmiwr7jwb0jhlnkfk0";
       };
       packageRequires = [ ];
       meta = {
