@@ -5198,10 +5198,10 @@
     elpaBuild {
       pname = "literate-scratch";
       ename = "literate-scratch";
-      version = "2.0";
+      version = "2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/literate-scratch-2.0.tar";
-        sha256 = "0gd09304y51dg2ddslbgipd15c4ingdf6qdw8qygfl0h0vkdkbp6";
+        url = "https://elpa.gnu.org/packages/literate-scratch-2.1.tar";
+        sha256 = "1mfj5b973gwyz37z7q01v8wlxrykrqw8x8nal0szqs2imayi247n";
       };
       packageRequires = [ ];
       meta = {

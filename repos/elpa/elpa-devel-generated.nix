@@ -1940,10 +1940,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.23.0.0.20250419.174715";
+      version = "0.23.0.0.20250419.214824";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.23.0.0.20250419.174715.tar";
-        sha256 = "1pxs62zxrc41wfmf648ri91zxq5mvmyixnyxwi2dmsfn4jncm74h";
+        url = "https://elpa.gnu.org/devel/dape-0.23.0.0.20250419.214824.tar";
+        sha256 = "08b8pj8q9mig8wwy22lc558r3p7f16dskjygbp26pp816yma6wwp";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2318,10 +2318,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "0.5.0.20250322.120827";
+      version = "0.5.0.20250420.64813";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dicom-0.5.0.20250322.120827.tar";
-        sha256 = "09qrvvadvdrab7p70w8b0mj40vvx3prkbqrfprnk95r5absvdzyb";
+        url = "https://elpa.gnu.org/devel/dicom-0.5.0.20250420.64813.tar";
+        sha256 = "1mi5va8im9867mpqs0dxx4x2njci85hwf82kwgnp105xn83lra8l";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4811,10 +4811,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.1.0.20250406.114650";
+      version = "2.1.0.20250420.64236";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.1.0.20250406.114650.tar";
-        sha256 = "0rrjxly0xcxzwwl1vfaqnxs6764r6v9nfs0ixmpqmf9ryfw96l6r";
+        url = "https://elpa.gnu.org/devel/jinx-2.1.0.20250420.64236.tar";
+        sha256 = "1bg7g3vm84zvqxylbxcgkaa1gn417lsa54hdb8b6vx7li5vxr3az";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5238,10 +5238,10 @@
     elpaBuild {
       pname = "literate-scratch";
       ename = "literate-scratch";
-      version = "2.0.0.20250418.62743";
+      version = "2.1.0.20250420.10042";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/literate-scratch-2.0.0.20250418.62743.tar";
-        sha256 = "0pnjaif9qd6gy0sqbyr0pcs7np9y5d2v1r77nlgdgb7pg1g9f6lh";
+        url = "https://elpa.gnu.org/devel/literate-scratch-2.1.0.20250420.10042.tar";
+        sha256 = "16ijnl6ks8vhsh5ya5v8w55kxyrmvqh2p4860ryr3pfx9nwgvkl3";
       };
       packageRequires = [ ];
       meta = {
@@ -6704,10 +6704,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.7.0.20250404.113122";
+      version = "1.7.0.20250420.65034";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.7.0.20250404.113122.tar";
-        sha256 = "1v65fqbqyb6i0sl536zi9fj65mhm9lvyl04g41dwi75ghqa0kzhy";
+        url = "https://elpa.gnu.org/devel/osm-1.7.0.20250420.65034.tar";
+        sha256 = "1fl32l0y2g7qwysw5cnrhkvpkdabxzqk05yk0crmzasp9qsb4cl2";
       };
       packageRequires = [ compat ];
       meta = {
