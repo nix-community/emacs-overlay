@@ -6814,11 +6814,11 @@
   "repo": "tinted-theming/base16-emacs",
   "unstable": {
    "version": [
-    20250330,
-    125
+    20250420,
+    126
    ],
-   "commit": "73bfd1adebd712f93bab06b5bee471822d8bb2f5",
-   "sha256": "0lfqkbvbd0j1l25q38w55g7qqdrvf970fmzfihspd8aaykf6fycm"
+   "commit": "71e1ccc7bbc7a12b20b230944d91128f380e82db",
+   "sha256": "180q3jb1l2gyl2vpygf3vjr87zljmncxkb18gbshbxsbyrzb3cph"
   },
   "stable": {
    "version": [
@@ -26944,16 +26944,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20250415,
-    623
+    20250420,
+    550
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "2a359eba37036341f236537da4eb3e587bda2834",
-   "sha256": "1kczgzj39k7mn6wig0z7mpj2vg5pscwi83qh5x0f6clmh4md0jyd"
+   "commit": "75dc662c5c2183bf25e47c6c5268ddbb819e1b40",
+   "sha256": "0i8gcxmlm4zll0w1d58sfm7zh5118c6lcpzc577damx10l6msb0q"
   },
   "stable": {
    "version": [
@@ -47231,15 +47231,28 @@
   "repo": "skyefreeman/fretboard.el",
   "unstable": {
    "version": [
-    20250331,
-    509
+    20250420,
+    326
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "78124dc24d942c678ce59037d98056f0e4c048f3",
-   "sha256": "143wsw74zi9qx3hh1d51k0wmqwif0pkvg3ikwickv65idmhxpcpv"
+   "commit": "064aeb7553c9bef86cf3de8d3c124809f1b3b381",
+   "sha256": "1w3a4acbg1202n9qdjx2f17gsn1fy4yjwlq7ndys0znsq81xw0rp"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    3
+   ],
+   "deps": [
+    "dash",
+    "s"
+   ],
+   "commit": "064aeb7553c9bef86cf3de8d3c124809f1b3b381",
+   "sha256": "1w3a4acbg1202n9qdjx2f17gsn1fy4yjwlq7ndys0znsq81xw0rp"
   }
  },
  {
@@ -55028,15 +55041,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20250419,
-    618
+    20250420,
+    518
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "0f53f8e160c8c4f07fc9fab8e34b3f5b176d4364",
-   "sha256": "08mqii77n1mrnj3hpyzjvqdb2xnmmr7qjk72i0iiysq2skrgypmn"
+   "commit": "a4e82db8d8bfc5629239a047887313421ecc9afa",
+   "sha256": "1798n9194s4i834cvaj23rvr0kbwrxzinqhzya15xinm9z2iyz70"
   },
   "stable": {
    "version": [
@@ -67352,14 +67365,14 @@
   "repo": "minad/jinx",
   "unstable": {
    "version": [
-    20250406,
-    1146
+    20250420,
+    642
    ],
    "deps": [
     "compat"
    ],
-   "commit": "9c71f2c896c3d004019aa45cff3a54e09f2d5aee",
-   "sha256": "02widh1mbazyh90gy30406x09nijr4agzn2bf4gf1ah83g2vmmiw"
+   "commit": "eef32c319a0625c287c3c9eaac0326204fa314b1",
+   "sha256": "04yxs1z7i8g3z003zf9fn5z2gzvxzia2pi2sv42w2qr0d1rmala2"
   },
   "stable": {
    "version": [
@@ -133877,13 +133890,13 @@
    "version": [
     1,
     3,
-    1
+    2
    ],
    "deps": [
     "yaml"
    ],
-   "commit": "f7706ea170de98d29b7cdd5a4f189bd038b1e27b",
-   "sha256": "0gx6sxr68bbmqv6rbs9gd4kfgw0avg2fqgbwq14n35yfgr18xc7l"
+   "commit": "dd3e14adc0f1bc9483ac32fccedceeefeb3533d9",
+   "sha256": "0pj5rnj77ia3g9bx2yhhwg971ma880j30gakdg8fx21396wx2h4v"
   }
  },
  {
