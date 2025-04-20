@@ -1526,10 +1526,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.2";
+      version = "2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-2.2.tar";
-        sha256 = "082n0a27jpdz4z8g46m0c35s6xhca5s042wbzvrvh9hhd3mz64b7";
+        url = "https://elpa.gnu.org/packages/consult-2.3.tar";
+        sha256 = "0rmb5j0kv36lqy135rknfabbzaa7cpfqsgzkicsyzbq3rh3nmf1p";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1549,10 +1549,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.3.0";
+      version = "0.3.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-denote-0.3.0.tar";
-        sha256 = "1b240cfd6gk0rjsmqjx096iqckcs6v74nf928p25kj53rsy1ky1v";
+        url = "https://elpa.gnu.org/packages/consult-denote-0.3.1.tar";
+        sha256 = "1rvn90wv6r48129w4s8wcc2gp9wa92zxwc0a4yc70xc5xxm85xi4";
       };
       packageRequires = [
         consult
@@ -2055,10 +2055,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.1.0";
+      version = "0.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-journal-0.1.0.tar";
-        sha256 = "1xbigv5m69k43pzlqa4yfcqyksrhq78bs9vn5d634i40003y5x5i";
+        url = "https://elpa.gnu.org/packages/denote-journal-0.1.1.tar";
+        sha256 = "0922hjzah7nz49z3q3qyq06n77yqxd7mxiw7fmawavjh920dv3fq";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2077,10 +2077,10 @@
     elpaBuild {
       pname = "denote-markdown";
       ename = "denote-markdown";
-      version = "0.1.0";
+      version = "0.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-markdown-0.1.0.tar";
-        sha256 = "0yxrqqcnnr2lmaqk1wrxff174v2d1bdvlh323v7j3l7w7qg0qxkq";
+        url = "https://elpa.gnu.org/packages/denote-markdown-0.1.1.tar";
+        sha256 = "0ic8kqfw56xsm9s0rlq7cgnh0dzjsbbcx7kdk55dggpvxv67jj62";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2121,10 +2121,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.1.0";
+      version = "0.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-org-0.1.0.tar";
-        sha256 = "0prrynkpihycqy2pk2xjbxs7rngnfcffzr9bqdpzjzpvg8mqd0p5";
+        url = "https://elpa.gnu.org/packages/denote-org-0.1.1.tar";
+        sha256 = "0nwyyzx96d5k6dw4jb8bvni9fjr1plip57mdsyabrha19p6n282d";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2165,10 +2165,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.1.0";
+      version = "0.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-sequence-0.1.0.tar";
-        sha256 = "1mjf7r4z164p6qprrg710ksjdwfzfzk3l2v879rz364s8a2wkxdd";
+        url = "https://elpa.gnu.org/packages/denote-sequence-0.1.1.tar";
+        sha256 = "06s2k555in897rpr2iabzv29dr79lm6fkpjp3yssidr9irxymf0h";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2187,10 +2187,10 @@
     elpaBuild {
       pname = "denote-silo";
       ename = "denote-silo";
-      version = "0.1.0";
+      version = "0.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-silo-0.1.0.tar";
-        sha256 = "1h20z8g94kma9b6c4indr700kh3ssijqlzc1syn5rxh35bddx484";
+        url = "https://elpa.gnu.org/packages/denote-silo-0.1.1.tar";
+        sha256 = "1jxr52npjiwisambwav6rasndjdxhll8x278q8cr7giq71am7c8b";
       };
       packageRequires = [ denote ];
       meta = {
@@ -9825,10 +9825,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.0";
+      version = "2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-2.0.tar";
-        sha256 = "1x34vsrr812wlawb5wy5aq81467xsjxjz0zsjsxq121d4pzam4z3";
+        url = "https://elpa.gnu.org/packages/vertico-2.1.tar";
+        sha256 = "03xkl8df90gs26cy00qbk0w23192bkaj32fgaf1w3ajq7mdvfd6p";
       };
       packageRequires = [ compat ];
       meta = {
