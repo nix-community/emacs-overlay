@@ -3570,10 +3570,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.3.7";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/flymake-1.3.7.tar";
-        sha256 = "15ikzdqyh77cgx94jaigfrrzfvwvpca8s2120gi82i9aaiypr7jl";
+        url = "https://elpa.gnu.org/packages/flymake-1.4.0.tar";
+        sha256 = "0j2vjbf5dp9kyi64bfbz9sn1s80zpvlxhbmggwv90g2n2x62h27s";
       };
       packageRequires = [
         eldoc
