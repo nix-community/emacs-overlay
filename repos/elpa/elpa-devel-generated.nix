@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "a68-mode";
       ename = "a68-mode";
-      version = "1.0.0.20250421.32325";
+      version = "1.0.0.20250422.5612";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/a68-mode-1.0.0.20250421.32325.tar";
-        sha256 = "0zcvsycl1n7v71jd3zafnfjin0rrcs6s54qzhs9kvncrr6nwydwd";
+        url = "https://elpa.gnu.org/devel/a68-mode-1.0.0.20250422.5612.tar";
+        sha256 = "0lj3jlznv6hcm1fjw1l7xlr4crlb7v47g7wkgmsvf7pyqgmvj83y";
       };
       packageRequires = [ ];
       meta = {
@@ -1659,10 +1659,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.0.0.20250419.53010";
+      version = "2.1.0.20250422.74540";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.0.0.20250419.53010.tar";
-        sha256 = "19v4dkv4m3g0fskq2yfq3y2yjkw6wpp7l8v7hczw42jf9d4bq6qh";
+        url = "https://elpa.gnu.org/devel/corfu-2.1.0.20250422.74540.tar";
+        sha256 = "0hardh905nys96gxlg0lfxq0rz9i59k47kp0l26qahyxhq9czfva";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2096,10 +2096,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.1.1.0.20250419.74254";
+      version = "0.1.1.0.20250422.45242";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250419.74254.tar";
-        sha256 = "15bcf0bg3il4r9hm9pq5pi4hx8fbf6njgxx3mnxdil7rak64mg1a";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250422.45242.tar";
+        sha256 = "1hyhahdyxnx6q2lxy8pngj0isscb0wv1946w5bp1qkq6ygjp3chv";
       };
       packageRequires = [ denote ];
       meta = {
