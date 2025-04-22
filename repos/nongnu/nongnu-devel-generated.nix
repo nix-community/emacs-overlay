@@ -714,10 +714,10 @@
     elpaBuild {
       pname = "crux";
       ename = "crux";
-      version = "0.6.0snapshot0.20250212.201746";
+      version = "0.6.0snapshot0.20250421.93605";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20250212.201746.tar";
-        sha256 = "1apz9kfs416l9r47wkbw1a6wpysxn1fvyywpkfwfb4r7j9dlmsdm";
+        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20250421.93605.tar";
+        sha256 = "1kzscg15rb237q0y9brl9xbb5z5ygfq6malzhr3axlx2r20xgdi4";
       };
       packageRequires = [ ];
       meta = {
@@ -779,10 +779,10 @@
     elpaBuild {
       pname = "cycle-at-point";
       ename = "cycle-at-point";
-      version = "0.2.0.20240422.30057";
+      version = "0.2.0.20250421.105916";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cycle-at-point-0.2.0.20240422.30057.tar";
-        sha256 = "18nlbg8jwdgvi56qgbvqs0z8yfj9nkw30da45d7anjaln6a8089j";
+        url = "https://elpa.nongnu.org/nongnu-devel/cycle-at-point-0.2.0.20250421.105916.tar";
+        sha256 = "1k8wx7lvdv6194l1367a3z15qbgx8ypipqwrk99wbq1hjiwqs07q";
       };
       packageRequires = [ recomplete ];
       meta = {
@@ -2375,10 +2375,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250418.192900";
+      version = "0.9.8.0.20250421.103917";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250418.192900.tar";
-        sha256 = "1h9idp44bndxv040h34vifg2j79i5k67f4mk3k661faf409i55k9";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250421.103917.tar";
+        sha256 = "1aj5sqdapq3jw18by6h0n3ybsx5kgjb7l6vq2c3780whmsdai5k8";
       };
       packageRequires = [
         compat
@@ -2572,10 +2572,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.2.0.20250420.51820";
+      version = "4.0.2.0.20250420.173846";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250420.51820.tar";
-        sha256 = "13f6dp4cl16asc55nks7lp7xwjrvvq60zyl2vahvb6p1na93n43r";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250420.173846.tar";
+        sha256 = "0h8sva3snkknxzh635sf266hijza7xa35bq6dwkkpaknfdv8ka8c";
       };
       packageRequires = [
         helm-core
@@ -2597,10 +2597,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.2.0.20250420.51820";
+      version = "4.0.2.0.20250420.173846";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250420.51820.tar";
-        sha256 = "11iz66jhi5kvdmrl00imid0ndd8nyxr1k1yzzinpisyyb7wqjh8r";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250420.173846.tar";
+        sha256 = "06xqpdbir27hf9vskkdm98yz2dhxr9b12zknrhi2w4bnf05l802z";
       };
       packageRequires = [ async ];
       meta = {
@@ -4224,10 +4224,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250324.74422";
+      version = "1.0.20250421.81943";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250324.74422.tar";
-        sha256 = "0pwn822nyzbysq1h2gvyrwcxbrg7dbsn7rxv02sg7bl4nsmqzjjk";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250421.81943.tar";
+        sha256 = "0qirhc3m4jb4gyv4pz7isc4jv7zjr0jpikfd4dkw7jh3z4hgmlig";
       };
       packageRequires = [ ];
       meta = {
