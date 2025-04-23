@@ -182,10 +182,10 @@
     elpaBuild {
       pname = "apache-mode";
       ename = "apache-mode";
-      version = "2.2.0.0.20240327.1751";
+      version = "2.2.0.0.20250422.172352";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/apache-mode-2.2.0.0.20240327.1751.tar";
-        sha256 = "0yr3m1340327skxln7z2acns6kingaid4wryi9lyfv05fwhfgl5a";
+        url = "https://elpa.nongnu.org/nongnu-devel/apache-mode-2.2.0.0.20250422.172352.tar";
+        sha256 = "1gqjb98d1wihfryacdyjivsxidydilb6glgivf39l8ca2xk44dbg";
       };
       packageRequires = [ ];
       meta = {
@@ -821,10 +821,10 @@
     elpaBuild {
       pname = "dart-mode";
       ename = "dart-mode";
-      version = "1.0.7.0.20250224.120240";
+      version = "1.0.7.0.20250422.170214";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20250224.120240.tar";
-        sha256 = "0jc4snbk62fi2ksnca8cp7m3jc7xr0yaap9p9hjjv72h1hnnl1rl";
+        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20250422.170214.tar";
+        sha256 = "1q0znwlbg9adgp2nis1mzyxn281ddh3jyjwqan7mr116qxjsrxcv";
       };
       packageRequires = [ ];
       meta = {
@@ -2375,10 +2375,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250422.104600";
+      version = "0.9.8.0.20250422.164933";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250422.104600.tar";
-        sha256 = "1xd1csy0xb4hgbdy65g2zkgda9x93bknh9xw6d18lhll92jvjbib";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250422.164933.tar";
+        sha256 = "197ffsm8hnqzk0lkb66hfkavfchk9igjckkjs68jgisrrcl12w1h";
       };
       packageRequires = [
         compat
@@ -4097,10 +4097,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1.0.20250331.173641";
+      version = "1.26.1.0.20250422.172013";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20250331.173641.tar";
-        sha256 = "16glbb3rinpqpqb3vd9j9h3ldgsjc18ics324rfajx3kilwp00gv";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20250422.172013.tar";
+        sha256 = "1d2ahw3vd7r9ylwb5cm5rjdd70cvfp7zy82rkx1ix2ddamfmbqya";
       };
       packageRequires = [ ];
       meta = {
@@ -4139,10 +4139,10 @@
     elpaBuild {
       pname = "popup";
       ename = "popup";
-      version = "0.5.9.0.20250224.15605";
+      version = "0.5.9.0.20250422.161227";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/popup-0.5.9.0.20250224.15605.tar";
-        sha256 = "11l0k9lrh7jhjshag9mclq5qa8vmll98vqf08837svlgpf0nwc4z";
+        url = "https://elpa.nongnu.org/nongnu-devel/popup-0.5.9.0.20250422.161227.tar";
+        sha256 = "0rj578i7l0hcmb3apch5ld05habq1iw3f3fazlax0n6r85g6phmy";
       };
       packageRequires = [ ];
       meta = {
@@ -4434,10 +4434,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20250225.10231";
+      version = "1.0.6.0.20250423.1515";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20250225.10231.tar";
-        sha256 = "1j25kqpwrg898zgs21vad5zzh6i54g48lxgzc2rb8wmifd2zd792";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20250423.1515.tar";
+        sha256 = "1vkbg2gg9i1lyz4g7zkqjrixh7867x8py7ay7pcq76srwn01hja3";
       };
       packageRequires = [ ];
       meta = {
@@ -5105,10 +5105,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20250305.214142";
+      version = "0.2.1.0.20250422.155540";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250305.214142.tar";
-        sha256 = "1h3ymlcimrvgm62k2w05xf53fk8n80n3pxz9f4lm6nwpjn8ns8ll";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250422.155540.tar";
+        sha256 = "02svdk7sas6xy2acqsm2d0qmafxp16qhb2p8n2mchg6aa3yldk9b";
       };
       packageRequires = [ ];
       meta = {
