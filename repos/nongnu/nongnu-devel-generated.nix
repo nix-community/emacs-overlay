@@ -570,10 +570,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.18.0snapshot0.20250416.111728";
+      version = "1.18.0snapshot0.20250422.80223";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250416.111728.tar";
-        sha256 = "0bi05z3mw0fn3fvc117kr8ll0bcn0sf85qi4c6qlsqyv964z38ld";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250422.80223.tar";
+        sha256 = "13siaibjpxfdip3bpf3iaiklnfzfnwaa7jjprh6y0yhmfkxd096p";
       };
       packageRequires = [
         clojure-mode
@@ -2375,10 +2375,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250421.103917";
+      version = "0.9.8.0.20250422.104600";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250421.103917.tar";
-        sha256 = "1aj5sqdapq3jw18by6h0n3ybsx5kgjb7l6vq2c3780whmsdai5k8";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250422.104600.tar";
+        sha256 = "1xd1csy0xb4hgbdy65g2zkgda9x93bknh9xw6d18lhll92jvjbib";
       };
       packageRequires = [
         compat
@@ -2808,10 +2808,10 @@
     elpaBuild {
       pname = "idris-mode";
       ename = "idris-mode";
-      version = "1.1.0.0.20250415.110953";
+      version = "1.1.0.0.20250422.115932";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20250415.110953.tar";
-        sha256 = "1xz0dzw0vjlsrdxa5w580dkv14phm9jakihkws6s0lbsdvx5nkwm";
+        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20250422.115932.tar";
+        sha256 = "1yrnvd2dqfqk7h75dvwhjraym1gj3488nd1lak8diqynp6c2zgvp";
       };
       packageRequires = [
         cl-lib
