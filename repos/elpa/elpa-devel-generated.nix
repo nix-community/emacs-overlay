@@ -2894,10 +2894,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250420.222033";
+      version = "1.18.0.20250423.73530";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250420.222033.tar";
-        sha256 = "10rljs2pk6vpjr6pgnqy0awgv43jgzakbjgpvvkmsjfyd4q77vfv";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250423.73530.tar";
+        sha256 = "1h9wq25k8yj76h41fw0xsprsxbjvlwba9rvcrvdk9bcyi0pj42sl";
       };
       packageRequires = [
         eldoc
@@ -3614,10 +3614,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.0.0.20250420.222033";
+      version = "1.4.1.0.20250423.73530";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.0.0.20250420.222033.tar";
-        sha256 = "18s1psiaslp8llzapm58wz79pz041csshpp2n4kz59p8f9k238pf";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250423.73530.tar";
+        sha256 = "1ap3g8s534rhhvaavkvrwbl30wknshq9i8d54zh7nnwkadw6insi";
       };
       packageRequires = [
         eldoc
