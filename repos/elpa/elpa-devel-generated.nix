@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250409.63736";
+      version = "14.0.9.0.20250422.154139";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250409.63736.tar";
-        sha256 = "12m7ijf2mamlf3pacaxi4m3zbvyx3gi768ns02i5cyqydk4vznxw";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250422.154139.tar";
+        sha256 = "10c62svlzl8vd36ghjid0zzifqkjd0rkr4hl0c75yi7l0lndiz9m";
       };
       packageRequires = [ ];
       meta = {
@@ -2495,10 +2495,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.5.1.0.20250418.45438";
+      version = "0.5.1.0.20250422.111408";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.5.1.0.20250418.45438.tar";
-        sha256 = "1ywv2ddjz5vd3f0802gakfg8s9am45fla45hja6kqgqiqrgbx1k9";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.5.1.0.20250422.111408.tar";
+        sha256 = "0y76g5yy3mqvp3lpcxs43vf0irlidk6596ky03d7j42k1prlyfhw";
       };
       packageRequires = [ ];
       meta = {
@@ -5004,10 +5004,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.4.3.0.20250211.173738";
+      version = "0.4.3.0.20250422.135008";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.4.3.0.20250211.173738.tar";
-        sha256 = "0fwlhq9l4bcfscyfch83vkxnp14dv24qalrhxrjffh06h3lw96zm";
+        url = "https://elpa.gnu.org/devel/kubed-0.4.3.0.20250422.135008.tar";
+        sha256 = "1mcx3zah4yifrissa5065gsbkaj90m11rbhz70pk8yl60hyn9d0a";
       };
       packageRequires = [ ];
       meta = {
@@ -5585,10 +5585,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "6.3.0.20250420.83810";
+      version = "6.3.0.20250422.131049";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250420.83810.tar";
-        sha256 = "0fl06j6bdnm7gdgc9kjfgkk79xwr72pn7cmh03z7i5qxwwq63r2p";
+        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250422.131049.tar";
+        sha256 = "10wfbam7r4rfanlyv36qggyjbr12i4xqyj9ygrb2q0p0j8vs24xs";
       };
       packageRequires = [ ];
       meta = {
@@ -9851,10 +9851,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.2.0.20250419.72627";
+      version = "0.2.0.20250422.190724";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.2.0.20250419.72627.tar";
-        sha256 = "0hib2h6vjc5dl6skddr0zyblplwpflj11ffljqxn4z8frjjj2cz4";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.2.0.20250422.190724.tar";
+        sha256 = "16kxxd3yckcz3xf2k66clp1bc86pfl5v992d46faxn1cq46kihrf";
       };
       packageRequires = [ compat ];
       meta = {
