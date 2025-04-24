@@ -1738,10 +1738,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "34.1";
+      version = "35.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/flycheck-34.1.tar";
-        sha256 = "1jj1c4gq39ik8fihsz13wp4c26fm2m6kyr7ir22ql0d007zm3173";
+        url = "https://elpa.nongnu.org/nongnu/flycheck-35.0.tar";
+        sha256 = "1nrsnp5d2jfrg6k9qf55v9mlygkc3ln44j31qmirsp5ad5xrflhm";
       };
       packageRequires = [ ];
       meta = {
@@ -4246,10 +4246,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250421.81943";
+      version = "1.0.20250423.143818";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250421.81943.tar";
-        sha256 = "1v02f6nr9wxgqk3d47m8460w6nlnvynllkrsvawpz3xkzddnfpjq";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250423.143818.tar";
+        sha256 = "15cv8vy208a1c41lvisp6r4s8qblfcbpm7qsni3xd14fyvnjan61";
       };
       packageRequires = [ ];
       meta = {
