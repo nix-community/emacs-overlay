@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "a68-mode";
       ename = "a68-mode";
-      version = "1.0.0.20250423.134854";
+      version = "1.0.0.20250424.10059";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/a68-mode-1.0.0.20250423.134854.tar";
-        sha256 = "0rbaj345azq8x1vly8i9nyh938fjqhvpgjiy7zvr5dbycnzpx0jv";
+        url = "https://elpa.gnu.org/devel/a68-mode-1.0.0.20250424.10059.tar";
+        sha256 = "10nzagjb2765i13bbz3kzzpykmsmsz1fi9c41gv8m74z0v814qj5";
       };
       packageRequires = [ ];
       meta = {
@@ -5824,10 +5824,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.7.0.0.20250423.102657";
+      version = "4.7.0.0.20250424.45408";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.7.0.0.20250423.102657.tar";
-        sha256 = "0inh7rp8a2f7p93kisn3d3qv876bf386iqnmn883hlkq38zvga7h";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.7.0.0.20250424.45408.tar";
+        sha256 = "0wrhp4bngfaksi32jxhrbppj52brbmdb1fmn46ac1h4q47li9bwa";
       };
       packageRequires = [ ];
       meta = {
@@ -8236,10 +8236,10 @@
     elpaBuild {
       pname = "show-font";
       ename = "show-font";
-      version = "0.2.1.0.20250423.183357";
+      version = "0.2.1.0.20250424.51218";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/show-font-0.2.1.0.20250423.183357.tar";
-        sha256 = "17c8ddi5q7z9d5i1cxhanb7cnhfbczgpxf47j7flrpml4b38mf5f";
+        url = "https://elpa.gnu.org/devel/show-font-0.2.1.0.20250424.51218.tar";
+        sha256 = "00xaszj0n2vmr32k41h884a5p75zpr5xazhi9mjwvq6fxl8f0wxs";
       };
       packageRequires = [ ];
       meta = {
@@ -9231,10 +9231,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.1.0.0.20250423.171102";
+      version = "1.1.0.0.20250424.42325";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.1.0.0.20250423.171102.tar";
-        sha256 = "0mpd0df7i218vr1hcl1ghxi1jhik55nd1zf3j5havyvsvskxzpnw";
+        url = "https://elpa.gnu.org/devel/tmr-1.1.0.0.20250424.42325.tar";
+        sha256 = "0sk78x08xlllbx15kbh2w1gdir618dbgzj0n4gvshbk89s0plyqg";
       };
       packageRequires = [ ];
       meta = {
