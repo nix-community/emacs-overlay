@@ -10300,10 +10300,10 @@
     elpaBuild {
       pname = "xeft";
       ename = "xeft";
-      version = "3.4";
+      version = "3.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/xeft-3.4.tar";
-        sha256 = "0gz8qzhh3isnf27351k6n32wvjhrx0mn2pdmiwr7jwb0jhlnkfk0";
+        url = "https://elpa.gnu.org/packages/xeft-3.5.tar";
+        sha256 = "0dgpj6a1h3xzmc58g21s8wdhx9nsdlkwvwwr9wjgczwjfaw3gh4z";
       };
       packageRequires = [ ];
       meta = {
