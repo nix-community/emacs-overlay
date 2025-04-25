@@ -5229,10 +5229,10 @@
     elpaBuild {
       pname = "typst-ts-mode";
       ename = "typst-ts-mode";
-      version = "0.11.0";
+      version = "0.12.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/typst-ts-mode-0.11.0.tar";
-        sha256 = "0waf2m5cypfpcbb5g39xf9z5ik84wx83178d8s4npspw1zfhmbh3";
+        url = "https://elpa.nongnu.org/nongnu/typst-ts-mode-0.12.0.tar";
+        sha256 = "1wks4jqh1bh4gr0m507dqa0a0mka21v10agqpsy7ws4k2sjsyp9h";
       };
       packageRequires = [ ];
       meta = {
