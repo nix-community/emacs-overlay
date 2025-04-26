@@ -6770,13 +6770,13 @@
   "unstable": {
    "version": [
     20250426,
-    745
+    1329
    ],
    "deps": [
     "async"
    ],
-   "commit": "4b1f9e746583a02a0fc7e11b2a1a044ccc1a8ffd",
-   "sha256": "0i4pfbgibw911y6mydvh3rihdwa2rj5z11rkp8mgbm4g4gp64d1d"
+   "commit": "82a7ca11b59d28c808758a1765f3ce4d60cd40f5",
+   "sha256": "18rfkbcymgl8zy2das1wnwsxgdpi7fcfcr8axcaiccxjs90g3wam"
   },
   "stable": {
    "version": [
@@ -13057,8 +13057,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20250425,
-    907
+    20250426,
+    1207
    ],
    "deps": [
     "clojure-mode",
@@ -13069,8 +13069,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "cbffc285023bfa3a0d035da804b42d89ee5d66eb",
-   "sha256": "0ncavjna61xw9ai5gb28v81agpmxnbqcjcqcv8kphcf3fq080ga9"
+   "commit": "ec9c651116916fbaab3f952ab296c79d16033a14",
+   "sha256": "1km7a04lpbk5h8ppzqbk0vx5gcnbh18zlp0va74d7h0k71106dk7"
   },
   "stable": {
    "version": [
@@ -15977,11 +15977,11 @@
   "repo": "company-mode/company-mode",
   "unstable": {
    "version": [
-    20250421,
-    152
+    20250426,
+    1319
    ],
-   "commit": "28306f64c3b1358470326932c9d4275a14cef01e",
-   "sha256": "1ha24hxrkk25i3j1fqqs12h71zcd2149ldi13qy2r7iwp59nrqh5"
+   "commit": "41f07c7d401c1374a76f3004a3448d3d36bdf347",
+   "sha256": "16x0ssni2fxahdv292v3zqik12y3zvpqjkdbzsdgpb6z2p0j9ja0"
   },
   "stable": {
    "version": [
@@ -25844,22 +25844,25 @@
   "unstable": {
    "version": [
     20250426,
-    749
+    1121
    ],
    "deps": [
     "compat"
    ],
-   "commit": "7926fec51b8d31a13f65b24b49fab814c1ac75c5",
-   "sha256": "0zfayh8v7h5wrd68p2w0wgljyaxsfb7zd2p7sdr0q2206bknxc2x"
+   "commit": "cd235f87ecd67c9195e3e857b4ea313f258c8457",
+   "sha256": "1x79j3xlvhrvigh38vqhfrzqvdnpzaivbxsjzfi0pnx00y8czs5q"
   },
   "stable": {
    "version": [
     2,
-    2,
-    7
+    3,
+    0
    ],
-   "commit": "a8e3a4ddcfe07dce284acb6276515bb813a57e14",
-   "sha256": "13y066sj6ax8czlfp6vy2da310q988vij933wvw31frihwd2v200"
+   "deps": [
+    "compat"
+   ],
+   "commit": "cd235f87ecd67c9195e3e857b4ea313f258c8457",
+   "sha256": "1x79j3xlvhrvigh38vqhfrzqvdnpzaivbxsjzfi0pnx00y8czs5q"
   }
  },
  {
@@ -28504,10 +28507,10 @@
    "version": [
     0,
     11,
-    1
+    2
    ],
-   "commit": "7faf9fda3314cdd8fa0d837b71a8613a6e4c3a76",
-   "sha256": "1kzjhil822lv1hcgb8mwmx1b58h768mmir82395slvzvr12axbhj"
+   "commit": "cf518a3af9209eb750556d7042e76ee11789df63",
+   "sha256": "054h2vf3nfr64p6kcdmvb6p6yrld0c5zzfz8avpx83s2x197nq6n"
   }
  },
  {
@@ -61992,11 +61995,15 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20250425,
-    738
+    20250426,
+    813
    ],
-   "commit": "3f13371dfb42b3059f86296b1dd11bee801ca1c2",
-   "sha256": "0vfhd1g308namphz523844x8xkgm0dxvihi0z2475yxxvxnlmw81"
+   "commit": "e6401cb89d90981b19c88b3bc1c634aac15a7794",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2597-0/nix-shell-2789-0/nix-shell-2824-0/git-checkout-tmp-J627IUe0/hyperbole-e6401cb/.git/\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': The requested URL returned error: 502\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': The requested URL returned error: 502\nUnable to checkout e6401cb89d90981b19c88b3bc1c634aac15a7794 from https://git.savannah.gnu.org/git/hyperbole.git.\n"
+   ]
   },
   "stable": {
    "version": [
@@ -76145,8 +76152,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250425,
-    2007
+    20250426,
+    1033
    ],
    "deps": [
     "compat",
@@ -76156,8 +76163,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "a634cf7b3ce3c578930d76df92eba59356e2399b",
-   "sha256": "1xdzbjw8kzfmgnaa2k5v7m0nzmisxgm2872lh86k0l1gvrgm9ryj"
+   "commit": "95ee9d8c5102bc5619f0e2c6d50104cae17b2009",
+   "sha256": "0nwffcgf6wxn3k4jqqhly70cbvd5kkxn1diy3dnwikw39wf9v33s"
   },
   "stable": {
    "version": [
@@ -79888,14 +79895,14 @@
   "repo": "tarsius/minions",
   "unstable": {
    "version": [
-    20250101,
-    1417
+    20250426,
+    913
    ],
    "deps": [
     "compat"
    ],
-   "commit": "7ccb5e23a54c10f64880d1f55676f86681ff2f07",
-   "sha256": "1rinshdxln1wvzf7by8gq9wiqgcqy406k5jl1f86jd17b3wv5bxx"
+   "commit": "161f0408469e151325caaad8befe3a5693c9bcac",
+   "sha256": "0qk3ryqiwhps87rbbfgc1f719jzrpjn87xanxr0pnqlamwhkqrdd"
   },
   "stable": {
    "version": [
@@ -105695,11 +105702,11 @@
   "repo": "python-mode-devs/python-mode",
   "unstable": {
    "version": [
-    20250419,
-    859
+    20250426,
+    805
    ],
-   "commit": "93d5f194601fe98a70ed3fafcfb72baad81906d3",
-   "sha256": "1f8mmmmpicw99h8pw4201nfa30p3258q43ydkp1k8nxkhi5y4ams"
+   "commit": "cd391cfe01924962e398eeff9c90ce8ede1b3709",
+   "sha256": "0j1k7f8c6xbschp96c33hgpvvqpzrip0j2sdg6xgr38gzpc0jdw2"
   },
   "stable": {
    "version": [
