@@ -53,10 +53,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.1.0.20250424.213041";
+      version = "1.1.0.20250426.10602";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.1.0.20250424.213041.tar";
-        sha256 = "1vaadlpgkvdj5gai4y70g58i7wywqnbx512mpdazcrjarxshhwh7";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.1.0.20250426.10602.tar";
+        sha256 = "1m4f8pbq5irc8wad78scgfxl8zd0lq41zlh8b7siic7k5fiw29dd";
       };
       packageRequires = [
         compat
@@ -310,10 +310,10 @@
     elpaBuild {
       pname = "bash-completion";
       ename = "bash-completion";
-      version = "3.2.1snapshot0.20250425.184459";
+      version = "3.2.1snapshot0.20250425.222123";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.2.1snapshot0.20250425.184459.tar";
-        sha256 = "0191070w5yja8ra5gzpcl911asijchg80186p064sb8y6dc3h6qk";
+        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.2.1snapshot0.20250425.222123.tar";
+        sha256 = "0a9z0r6sj5jyyqhmai5cfkc147aprqzy6kmbix2n3kwnn95vbqkq";
       };
       packageRequires = [ ];
       meta = {
@@ -620,10 +620,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.4.0snapshot0.20250425.151458";
+      version = "0.4.0snapshot0.20250426.63913";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.4.0snapshot0.20250425.151458.tar";
-        sha256 = "0hy0qdb63414413da7lv6qm3d3b7lndr9gm6w5b98m6c00bslhgk";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.4.0snapshot0.20250426.63913.tar";
+        sha256 = "034s86jc9xraikz1ygcfnsv2r7536w63l0v6vbalfirbgg30cl70";
       };
       packageRequires = [ ];
       meta = {
@@ -950,10 +950,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.7.0.20250419.44844";
+      version = "2.2.7.0.20250426.74903";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250419.44844.tar";
-        sha256 = "12420j0bi6w20liqmc59nxm54v898pqkbsxzhy2ngs3rfxhhxcnz";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250426.74903.tar";
+        sha256 = "038k0wd1fy5lqqziqw83fd6v4iwakh5yj13mkdczj715y2zq063f";
       };
       packageRequires = [ compat ];
       meta = {
