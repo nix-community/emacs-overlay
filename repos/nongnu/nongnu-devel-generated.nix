@@ -48,18 +48,20 @@
       elpaBuild,
       fetchurl,
       lib,
+      markdown-mode,
       transient,
     }:
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.1.0.20250426.10602";
+      version = "1.1.0.20250426.113604";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.1.0.20250426.10602.tar";
-        sha256 = "1m4f8pbq5irc8wad78scgfxl8zd0lq41zlh8b7siic7k5fiw29dd";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.1.0.20250426.113604.tar";
+        sha256 = "1xk0pmvs87b2cjlir4ging6g03qs95yi52hghj4hiphdxrzpvm2s";
       };
       packageRequires = [
         compat
+        markdown-mode
         transient
       ];
       meta = {
@@ -570,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.18.0snapshot0.20250425.90745";
+      version = "1.18.0snapshot0.20250426.120750";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250425.90745.tar";
-        sha256 = "0ragvkhma51inb75zsl2xq9xqhms52dhzvas3knfqx489z3vx7x8";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250426.120750.tar";
+        sha256 = "0xw9ms34pbd2jvv0mjx8aynmw1xcvvsjvxjl8ralqxdcdqxqdzz9";
       };
       packageRequires = [
         clojure-mode
@@ -664,10 +666,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0.0.20250101.91433";
+      version = "1.0.0.20250426.184748";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250101.91433.tar";
-        sha256 = "05ms0zhswsdlvvrz71md4nsqisshar284xn7idw7z01ddd05rjmb";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250426.184748.tar";
+        sha256 = "17m545jk0akdah9293102ifa8im4xifb43zphnfxpkbpv1cd1yzj";
       };
       packageRequires = [
         consult
@@ -950,10 +952,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.2.7.0.20250426.74903";
+      version = "2.3.0.0.20250426.112157";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.7.0.20250426.74903.tar";
-        sha256 = "038k0wd1fy5lqqziqw83fd6v4iwakh5yj13mkdczj715y2zq063f";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.3.0.0.20250426.112157.tar";
+        sha256 = "1mscvvx9ni5g98pc0bj3h57l8lfg8gyndpnls7z2rp1wv942skh2";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2572,10 +2574,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.2.0.20250425.72119";
+      version = "4.0.2.0.20250426.41530";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250425.72119.tar";
-        sha256 = "13ig2g7c6w1daj5v3alv2dh751q8cwqb9qav7alh9amqj6apxvhq";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.2.0.20250426.41530.tar";
+        sha256 = "15al3hgf7mf3sgjvfl0bqzqws8cvqk7pmpqz0f19pbhb643162zw";
       };
       packageRequires = [
         helm-core
@@ -2597,10 +2599,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.2.0.20250425.72119";
+      version = "4.0.2.0.20250426.41530";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250425.72119.tar";
-        sha256 = "05yw2xdd16qs5aa9p0bgqqhy6sszjqp3gbkkgj64rlyn3i3qxir4";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.2.0.20250426.41530.tar";
+        sha256 = "0006if31afxzryv7brgyjs3xsajlv4swgq9lwn9ahgnf468wrjbx";
       };
       packageRequires = [ async ];
       meta = {
