@@ -1899,10 +1899,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.23.0";
+      version = "0.24.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dape-0.23.0.tar";
-        sha256 = "0y6snj9cwn1f754bn2smyf8ggjihws7a0rxb3b5s8dsvdkgz5hzy";
+        url = "https://elpa.gnu.org/packages/dape-0.24.0.tar";
+        sha256 = "1gapza1g1nv9axagb0rx2mcyn950xy4dypwa851p0pizxgpi23kb";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -8144,10 +8144,10 @@
     elpaBuild {
       pname = "show-font";
       ename = "show-font";
-      version = "0.2.1";
+      version = "0.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/show-font-0.2.1.tar";
-        sha256 = "1nbmzbf6gqzllv025xdbrqpq1j7prmv8vh86h9abaikjradiysmx";
+        url = "https://elpa.gnu.org/packages/show-font-0.3.0.tar";
+        sha256 = "1xrpzrb1i3593fawqy6bgfjn0fixgpnkq0kad14fk8qibh9iwb0x";
       };
       packageRequires = [ ];
       meta = {
