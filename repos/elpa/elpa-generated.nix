@@ -2449,10 +2449,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.5.1";
+      version = "0.5.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dired-preview-0.5.1.tar";
-        sha256 = "146k4jirawicnrcj9qn2gzfqd7adapl0yp8r18xpnkl3pqbwkm4v";
+        url = "https://elpa.gnu.org/packages/dired-preview-0.5.2.tar";
+        sha256 = "1zipwb9ydyx6cscpf8p7vf2fl03rd7diivdvq9h73pbz754m0bq9";
       };
       packageRequires = [ ];
       meta = {
