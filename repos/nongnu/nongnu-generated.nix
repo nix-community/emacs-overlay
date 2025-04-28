@@ -48,18 +48,20 @@
       elpaBuild,
       fetchurl,
       lib,
+      markdown-mode,
       transient,
     }:
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.1";
+      version = "1.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.1.tar";
-        sha256 = "1g1p5prz9b2giy01hja04zqf90s53yckjxfwkrznpqvpar25l1nz";
+        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.3.tar";
+        sha256 = "03s08h5xp57l228gn9lay4a7h19zk6wyn777r2icsn1a1ii63l82";
       };
       packageRequires = [
         compat
+        markdown-mode
         transient
       ];
       meta = {
