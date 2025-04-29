@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.18.0snapshot0.20250426.201430";
+      version = "1.18.0snapshot0.20250428.165758";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250426.201430.tar";
-        sha256 = "1nzlvpvvbjxvms1wdfq3xrfc1vvbnhrafyv5rmykgirmlw6gk03g";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250428.165758.tar";
+        sha256 = "09gp1dvm9l9g5g7vriapw9pln015w4yhl2hz6mzcsdvlphq1w22k";
       };
       packageRequires = [
         clojure-mode
@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.4.0snapshot0.20250427.72445";
+      version = "0.4.0snapshot0.20250428.83538";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.4.0snapshot0.20250427.72445.tar";
-        sha256 = "1ik35lg86vr36jgn0l29ipn4fd64hzsvlddijy1nk08z1fcpkam3";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.4.0snapshot0.20250428.83538.tar";
+        sha256 = "1f6pbaj9pmp6qvlypg7zbgia3qaxzmclq54dqnqmvx60c8s2r9n8";
       };
       packageRequires = [ ];
       meta = {
@@ -666,10 +666,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0.0.20250426.184748";
+      version = "1.0.0.20250428.62043";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250426.184748.tar";
-        sha256 = "17m545jk0akdah9293102ifa8im4xifb43zphnfxpkbpv1cd1yzj";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250428.62043.tar";
+        sha256 = "18d4a27mbj9nzc8rr60b594mmza4hbw4vjyzacvdjia4r0y0mlwf";
       };
       packageRequires = [
         consult
@@ -3008,10 +3008,10 @@
     elpaBuild {
       pname = "julia-mode";
       ename = "julia-mode";
-      version = "1.0.2.0.20250407.84154";
+      version = "1.0.2.0.20250428.81943";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.0.2.0.20250407.84154.tar";
-        sha256 = "1k6jd3z9bgf4ycqx38fx09jbvvlmpsm0argbnxb5z5cxx0aqb8w9";
+        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.0.2.0.20250428.81943.tar";
+        sha256 = "05sx6pwwrvxwrpd1fskhqnr8yvzav7yafk7im5iscxic061xggpv";
       };
       packageRequires = [ ];
       meta = {
@@ -5341,10 +5341,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.0snapshot0.20250427.105004";
+      version = "8.3.0snapshot0.20250427.153737";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250427.105004.tar";
-        sha256 = "07my4x1b46kr8hwrjxlr82jcg3bn4dsvjwk7hrzf8s4jprysss37";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250427.153737.tar";
+        sha256 = "0g69p3rndkyaxrzv2rqfmgrbnqrvap706d4sfnzncginqs9qbxrl";
       };
       packageRequires = [
         cl-lib
