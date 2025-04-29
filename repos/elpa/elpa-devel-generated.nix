@@ -1569,10 +1569,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.3.1.0.20250419.74436";
+      version = "0.3.1.0.20250429.44437";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.3.1.0.20250419.74436.tar";
-        sha256 = "1828ln1qym4yns27n4aayy6sdpz6z6bfwy2b0d5l3ya9h24kxc32";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.3.1.0.20250429.44437.tar";
+        sha256 = "0g46i5gakbz7cn68h9c2npm068hzyvx8n8jw10i0nhqv2nndk6ia";
       };
       packageRequires = [
         consult
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250428.142439";
+      version = "4.0.0.0.20250429.55420";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250428.142439.tar";
-        sha256 = "15gf1q33b9xxsinxqvv3ps9p46ccnlsx19c6jsh192r70a3kmhqr";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250429.55420.tar";
+        sha256 = "00wsfvncn2n8lmpaqjx8yrc7ljhzafb9aww464imimqdvm8i921k";
       };
       packageRequires = [ ];
       meta = {
@@ -2162,10 +2162,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.1.1.0.20250425.131400";
+      version = "0.1.1.0.20250429.51200";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-org-0.1.1.0.20250425.131400.tar";
-        sha256 = "1icws352hpnwlbzyiwzzv551qvz1f82q238lyxn8virvc5dcgwss";
+        url = "https://elpa.gnu.org/devel/denote-org-0.1.1.0.20250429.51200.tar";
+        sha256 = "0ncinza0n474lljqamzk1z7ikckj65cq774qqm5yvvwgw4r0ac7a";
       };
       packageRequires = [ denote ];
       meta = {
@@ -4811,10 +4811,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.1.0.20250428.62000";
+      version = "2.1.0.20250429.72703";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.1.0.20250428.62000.tar";
-        sha256 = "0g3b66jxvj35ksq19gi0d32696ssp3qf2ry1gk23flsc4pfdibpn";
+        url = "https://elpa.gnu.org/devel/jinx-2.1.0.20250429.72703.tar";
+        sha256 = "1ma0jlvph4klj0cp2c9j2dpxs2h6wq1inzx2d4ys79disi9sr0w9";
       };
       packageRequires = [ compat ];
       meta = {
