@@ -2576,10 +2576,10 @@
     elpaBuild {
       pname = "doc-view-follow";
       ename = "doc-view-follow";
-      version = "0.3.1";
+      version = "0.3.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/doc-view-follow-0.3.1.tar";
-        sha256 = "0ai8f7p1vl8844zzv1qrw9x05x6sgimggy7zw9jkk8gm83a6q9ri";
+        url = "https://elpa.gnu.org/packages/doc-view-follow-0.3.2.tar";
+        sha256 = "1lwzcmxsqcbwf42s8yisw3wraka3yphhwf51pznlvdwhwax4h4ph";
       };
       packageRequires = [ ];
       meta = {
@@ -6360,10 +6360,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.28";
+      version = "9.7.29";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.28.tar";
-        sha256 = "1md0w2kjdd5fbnpmhaabking3mqy2b23kqi78vy3hlbrmvnnw830";
+        url = "https://elpa.gnu.org/packages/org-9.7.29.tar";
+        sha256 = "0m22kb52v97sbk46lkc56z509cfkdwidrzavwg2vwz8z0yc305j2";
       };
       packageRequires = [ ];
       meta = {
@@ -6932,10 +6932,10 @@
     elpaBuild {
       pname = "phps-mode";
       ename = "phps-mode";
-      version = "0.4.50";
+      version = "0.4.51";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/phps-mode-0.4.50.tar";
-        sha256 = "1dyxqkyik6cxmqnwmxlxd1v42jcnkh0hl1qqm65nhvmf3ksq59kh";
+        url = "https://elpa.gnu.org/packages/phps-mode-0.4.51.tar";
+        sha256 = "1qiy16gh24sh274sasshxb230r2r2bx1b7awr9php854840p7pvx";
       };
       packageRequires = [ ];
       meta = {
