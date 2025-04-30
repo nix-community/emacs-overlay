@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.3.0.20250427.134931";
+      version = "1.3.0.20250429.222358";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.3.0.20250427.134931.tar";
-        sha256 = "169i400130x46dx7bhd3qfk5d0vlmyv68sk65ycjrwc7k91v3g49";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.3.0.20250429.222358.tar";
+        sha256 = "0c5ry9dc960nid151cidgklv5rmi0jhmzjbm7snvqrsjksngqpsc";
       };
       packageRequires = [
         compat
@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.18.0snapshot0.20250429.195259";
+      version = "1.18.0.0.20250430.73212";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250429.195259.tar";
-        sha256 = "0xc1gzzjq960dsxp5v0lj0p705yi3hawz61banf676zyfrzsakap";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0.0.20250430.73212.tar";
+        sha256 = "12qbx8xn93f74iiggl0p6mig5f42c3k2jczcq4xcwn8jfn6g2hwh";
       };
       packageRequires = [
         clojure-mode
@@ -2551,10 +2551,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.1.2.0.20250427.133210";
+      version = "1.1.2.0.20250430.64713";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.1.2.0.20250427.133210.tar";
-        sha256 = "0vbk8zrpvjw974qm540231krv8s4qwnspkc1w5jn4wsxjclsknw0";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.1.2.0.20250430.64713.tar";
+        sha256 = "0n57nnkzn83wajgmzpah3rc82xx1zd3vd0c8fjw9fxpq7wam50sg";
       };
       packageRequires = [ ];
       meta = {
