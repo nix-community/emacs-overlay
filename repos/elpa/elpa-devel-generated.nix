@@ -1569,10 +1569,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.3.1.0.20250429.44437";
+      version = "0.3.1.0.20250501.44152";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.3.1.0.20250429.44437.tar";
-        sha256 = "0g46i5gakbz7cn68h9c2npm068hzyvx8n8jw10i0nhqv2nndk6ia";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.3.1.0.20250501.44152.tar";
+        sha256 = "1kxk38yi1m9z4j422skn43xyynazwd2n0d9sq78yn7cbnpf050wn";
       };
       packageRequires = [
         consult
@@ -2206,10 +2206,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.1.1.0.20250428.155636";
+      version = "0.1.1.0.20250501.65656";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250428.155636.tar";
-        sha256 = "0cqmy0bx9cr99yd1lm1h2j89mfkcdv1yrv0i0bkprmz96axh77js";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250501.65656.tar";
+        sha256 = "0vi5bffl4an4i1cnlr9ryx8ylz3bjhcvr8whn8d6f5r9lh76gk8d";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2894,10 +2894,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250429.112306";
+      version = "1.18.0.20250430.214544";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250429.112306.tar";
-        sha256 = "177hkav7z7xsgbfa16kkbkh0y4qnrfp322pf8h4kibxxzwkh9iw9";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250430.214544.tar";
+        sha256 = "0zfz6ffzhj17l6188jq136kfxb46wg522mzy2r3lnz8lx4ky2m3p";
       };
       packageRequires = [
         eldoc
@@ -5778,10 +5778,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.5.4.0.20250425.155848";
+      version = "0.5.4.0.20250501.854";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.5.4.0.20250425.155848.tar";
-        sha256 = "0n3j1l3zxjk4yr53vp10kgv92znvhs2iy4lgl47vyn38sy6rca6c";
+        url = "https://elpa.gnu.org/devel/minuet-0.5.4.0.20250501.854.tar";
+        sha256 = "1jyblnzgwgj94x601bg11kfyaakmhfggrsfwihjyk1lhgka1wfsd";
       };
       packageRequires = [
         dash
@@ -7438,10 +7438,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20250430.172805";
+      version = "0.30.0.20250501.5433";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20250430.172805.tar";
-        sha256 = "02w6m4y2avxypww5b0x5jkmbamz9bk9yk0rx6d4hk0a1k4wczrkj";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20250501.5433.tar";
+        sha256 = "1y7v6zwkpid7ldp8kxga4n61ws2iwsz7rrb6h6y0mdpix9mb56jr";
       };
       packageRequires = [
         compat
