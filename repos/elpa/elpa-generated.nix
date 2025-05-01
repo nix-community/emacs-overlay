@@ -2820,10 +2820,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.9.0";
+      version = "1.10.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ef-themes-1.9.0.tar";
-        sha256 = "03gi3gwrng9arffypmlnd96404yxac78k59q5yb1y1f8fahy199k";
+        url = "https://elpa.gnu.org/packages/ef-themes-1.10.0.tar";
+        sha256 = "1mpaw1icvalq1ydxby9zfbjdgkk9wvld31xjrbr684ps5ix8f1f2";
       };
       packageRequires = [ ];
       meta = {
@@ -8421,10 +8421,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.6.0";
+      version = "0.6.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/spacious-padding-0.6.0.tar";
-        sha256 = "0czx4w6vm56blvc26gymmijvcqhvmrlakqwlks1prckgnkgsvcpx";
+        url = "https://elpa.gnu.org/packages/spacious-padding-0.6.1.tar";
+        sha256 = "0g5f8hagv494773mdzaajmccjzzqgd2ixv2rmwwhjgwck910zwqg";
       };
       packageRequires = [ ];
       meta = {
