@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.4.0snapshot0.20250429.104525";
+      version = "0.4.0snapshot0.20250430.151429";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.4.0snapshot0.20250429.104525.tar";
-        sha256 = "1knjsmkg8kd5rprgwyg1srx6g8n2nbhrq8j8zn5csndywy8dm913";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.4.0snapshot0.20250430.151429.tar";
+        sha256 = "0nj7gbxs7a3rmkhmlmi5xpvki2cqb0lys1jl93k18wh0k8h4ayws";
       };
       packageRequires = [ ];
       meta = {
@@ -4823,10 +4823,10 @@
     elpaBuild {
       pname = "sweeprolog";
       ename = "sweeprolog";
-      version = "0.27.6.0.20241107.191437";
+      version = "0.27.6.0.20250430.125630";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20241107.191437.tar";
-        sha256 = "0y543svzd7sqqb2izlflvmv0mdyfwwzjgli107ra89w5jl6jxawh";
+        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20250430.125630.tar";
+        sha256 = "172vzsbiy1xy08isxwn10cqzwh0vbcivj390qhnyzcmw1ncd22hx";
       };
       packageRequires = [ compat ];
       meta = {
