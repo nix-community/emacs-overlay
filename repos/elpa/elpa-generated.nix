@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "a68-mode";
       ename = "a68-mode";
-      version = "1.0";
+      version = "1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/a68-mode-1.0.tar";
-        sha256 = "1fhmsix14wmysbp3w0zaywlf3m5wqmgydw2377zsgbaz7k3s3y8x";
+        url = "https://elpa.gnu.org/packages/a68-mode-1.1.tar";
+        sha256 = "0h9bk1ca333w2cb7wqsmy2znscjf6vcgs3xbji5a00x6y6qdyn8b";
       };
       packageRequires = [ ];
       meta = {
@@ -2881,10 +2881,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.4.4";
+      version = "2.4.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/el-job-2.4.4.tar";
-        sha256 = "1g435zvdk166blanqhdpd4dv5bfykaa9rxvy9fqg1g820x0r9v0p";
+        url = "https://elpa.gnu.org/packages/el-job-2.4.5.tar";
+        sha256 = "0pzcbhdzhhwkpxz8vbsjb9vgwfwmbii64jjqpvv1svwdhxb0lq1f";
       };
       packageRequires = [ ];
       meta = {
@@ -10300,10 +10300,10 @@
     elpaBuild {
       pname = "xeft";
       ename = "xeft";
-      version = "3.5";
+      version = "3.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/xeft-3.5.tar";
-        sha256 = "0dgpj6a1h3xzmc58g21s8wdhx9nsdlkwvwwr9wjgczwjfaw3gh4z";
+        url = "https://elpa.gnu.org/packages/xeft-3.6.tar";
+        sha256 = "0vdnl0rp9bkl5gyyacqczbl41vl8hrvah51jbfx4szf4qldmfhsm";
       };
       packageRequires = [ ];
       meta = {
