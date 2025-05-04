@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250428.72855";
+      version = "14.0.9.0.20250503.205857";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250428.72855.tar";
-        sha256 = "01wz66zw9vm44pqb2ksviwhigpkga1m6hwzdvx4pzfmwgdss4nfg";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250503.205857.tar";
+        sha256 = "1xxylbgl3hjlxy3if7jw4f1320383qdrnv2g8145j03jskssywnz";
       };
       packageRequires = [ ];
       meta = {
@@ -1014,10 +1014,10 @@
     elpaBuild {
       pname = "bufferlo";
       ename = "bufferlo";
-      version = "1.1pre0.20250503.175753";
+      version = "1.1.0.20250503.201002";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bufferlo-1.1pre0.20250503.175753.tar";
-        sha256 = "1m6b76qss9gazzg04dkl4i2spf94r8b8az9x977f5kkgk047alac";
+        url = "https://elpa.gnu.org/devel/bufferlo-1.1.0.20250503.201002.tar";
+        sha256 = "05bpgfyizzc6364c7jv8l2d8z78ighmswxn2hxgzwsvbyhnfmxpr";
       };
       packageRequires = [ ];
       meta = {
@@ -2894,10 +2894,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250430.214544";
+      version = "1.18.0.20250504.72743";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250430.214544.tar";
-        sha256 = "0zfz6ffzhj17l6188jq136kfxb46wg522mzy2r3lnz8lx4ky2m3p";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250504.72743.tar";
+        sha256 = "1l4kgc9nbq6rbyqfik3bbs9pjl32gqk6vg0jmjai880191vkjm99";
       };
       packageRequires = [
         eldoc

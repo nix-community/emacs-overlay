@@ -993,10 +993,10 @@
     elpaBuild {
       pname = "bufferlo";
       ename = "bufferlo";
-      version = "0.8";
+      version = "1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/bufferlo-0.8.tar";
-        sha256 = "0ypd611xmjsir24nv8gr19pq7f1n0gbgq9yzvfy3m6k97gpw2jzq";
+        url = "https://elpa.gnu.org/packages/bufferlo-1.1.tar";
+        sha256 = "0g72k2y5nfqa6j3y0c4z0x3crn8ynlkgvwysxhgh9vypq7cqldj0";
       };
       packageRequires = [ ];
       meta = {
