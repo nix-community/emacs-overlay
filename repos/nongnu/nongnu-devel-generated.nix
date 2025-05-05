@@ -952,10 +952,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.3.0.0.20250504.74739";
+      version = "2.3.0.0.20250504.80741";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.3.0.0.20250504.74739.tar";
-        sha256 = "0dh194bhih9mgv1i4nnp9qa6lxdin41f7y7g4pp2lzxirlzsb8w2";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.3.0.0.20250504.80741.tar";
+        sha256 = "0h8ap8bnqy2czvgkc71l49ms3kwk8lciz0ydzi2yy5xgh5pvs71k";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2551,10 +2551,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.1.2.0.20250501.94930";
+      version = "1.1.3.0.20250504.122148";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.1.2.0.20250501.94930.tar";
-        sha256 = "16nk33d559q1m5s0bn9bnbkkdrsmfb6yg3kkcsifimnfrn5ff3cj";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.1.3.0.20250504.122148.tar";
+        sha256 = "14qd3ih342hc89y1gac6ihirm20ac63m1ixhl2rf5rrx4b1g1sig";
       };
       packageRequires = [ ];
       meta = {
