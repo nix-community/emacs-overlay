@@ -2377,10 +2377,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250505.115612";
+      version = "0.9.8.0.20250505.183444";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250505.115612.tar";
-        sha256 = "18sy4sqz3x4y8818yp0hbadawg8sd4mzdbb9raqha9jwhn5xqhcd";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250505.183444.tar";
+        sha256 = "003kpdwxqk8clrpklcj89b3xcz6agzm0xsghfznlldhdiyn9900v";
       };
       packageRequires = [
         compat
@@ -3030,10 +3030,10 @@
     elpaBuild {
       pname = "keycast";
       ename = "keycast";
-      version = "1.4.3.0.20250414.154935";
+      version = "1.4.3.0.20250505.214611";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/keycast-1.4.3.0.20250414.154935.tar";
-        sha256 = "1lw5pnyviwgwf2qcg344sgclba18s7y50j1kn3an2c3d3akk3hq8";
+        url = "https://elpa.nongnu.org/nongnu-devel/keycast-1.4.3.0.20250505.214611.tar";
+        sha256 = "1kqr4750yjvac6px0cj6vy0jcj9wipwmj1ids5gsjky3i2w6nqv2";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5318,10 +5318,10 @@
     elpaBuild {
       pname = "visual-fill-column";
       ename = "visual-fill-column";
-      version = "2.6.3.0.20250323.152945";
+      version = "2.6.3.0.20250505.230743";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/visual-fill-column-2.6.3.0.20250323.152945.tar";
-        sha256 = "0rcn0wxdylcb0ci0cjipbjc5hrrvigrj5in2qh3fpj742pqda6mm";
+        url = "https://elpa.nongnu.org/nongnu-devel/visual-fill-column-2.6.3.0.20250505.230743.tar";
+        sha256 = "1cl39911k73cz5qbllyy82jw7hhbd6dly3s4p0kfnmav461b3qcp";
       };
       packageRequires = [ ];
       meta = {
