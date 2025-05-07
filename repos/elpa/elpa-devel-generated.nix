@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250503.205857";
+      version = "14.0.9.0.20250506.195241";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250503.205857.tar";
-        sha256 = "1xxylbgl3hjlxy3if7jw4f1320383qdrnv2g8145j03jskssywnz";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250506.195241.tar";
+        sha256 = "0vb6sa5lfg01xknwrwp9qpa962n3yr9qzg0qwhhk43fwhbc45win";
       };
       packageRequires = [ ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250505.94626";
+      version = "4.0.0.0.20250506.50040";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250505.94626.tar";
-        sha256 = "1isxayl1hkxdly23jfwrjb2chmd2197cl1l45p8y64iyyxcdyx7z";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250506.50040.tar";
+        sha256 = "044g9k2bczd8ln4jkyq6q3jl3kqq2yrif24rchi4xa1rz2mgdgpr";
       };
       packageRequires = [ ];
       meta = {
@@ -2894,10 +2894,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250504.72743";
+      version = "1.18.0.20250506.95852";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250504.72743.tar";
-        sha256 = "1l4kgc9nbq6rbyqfik3bbs9pjl32gqk6vg0jmjai880191vkjm99";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250506.95852.tar";
+        sha256 = "1rk2xg4fsy9sr3zlg7rdp8rbdmjz3q0lhb6whn0fvvjayp4xh0bb";
       };
       packageRequires = [
         eldoc
@@ -5778,10 +5778,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.5.4.0.20250503.124743";
+      version = "0.5.4.0.20250506.112300";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.5.4.0.20250503.124743.tar";
-        sha256 = "0nc94firdhq8pvychs4vkjv5h6q0nzcnnvp66f9hw73z3lmj7gs1";
+        url = "https://elpa.gnu.org/devel/minuet-0.5.4.0.20250506.112300.tar";
+        sha256 = "0bjcbn4xkay5p044ps5a6vd8b2b9dgb8vgi3nx31znasbp214zjm";
       };
       packageRequires = [
         dash
