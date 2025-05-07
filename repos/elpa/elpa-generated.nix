@@ -4173,10 +4173,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.8.3";
+      version = "1.8.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gtags-mode-1.8.3.tar";
-        sha256 = "1iysqbck922irs376xnfxvg0zl7ka3dw0fq42lmb049ni65sni2r";
+        url = "https://elpa.gnu.org/packages/gtags-mode-1.8.4.tar";
+        sha256 = "1ypp720p5ffvzyl93vkfb47p07ki32qmmql6glmm4yd1pg2y01n9";
       };
       packageRequires = [ ];
       meta = {
