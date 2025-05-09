@@ -1318,10 +1318,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.3.0.20250422.173257";
+      version = "1.2.3.0.20250508.204004";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250422.173257.tar";
-        sha256 = "0b6aq07spg9fn5bidv9w57dlqldl38n2z3qpzly33lmgdb6d2nll";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250508.204004.tar";
+        sha256 = "1zrdxxc115h4zk2a1lhl45is7cjvxq333m1f1lmrmnyahzgg3a46";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1546,10 +1546,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.3.0.20250504.202631";
+      version = "2.3.0.20250509.239";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.3.0.20250504.202631.tar";
-        sha256 = "1k5849ppyrnw32q1xckx7zl1saxwi0cssk1px9zc2i4a56y7ygy0";
+        url = "https://elpa.gnu.org/devel/consult-2.3.0.20250509.239.tar";
+        sha256 = "0vwq6ixvx62m973pxf86yxg3x9bd09k11lqxmz2vggyg353r7vs9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2894,10 +2894,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250506.95852";
+      version = "1.18.0.20250508.221328";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250506.95852.tar";
-        sha256 = "1rk2xg4fsy9sr3zlg7rdp8rbdmjz3q0lhb6whn0fvvjayp4xh0bb";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250508.221328.tar";
+        sha256 = "0x86ic2d09z27m96bkyh68n9gica17rqzafbqgrfbyaxw3pgn3dj";
       };
       packageRequires = [
         eldoc
@@ -3614,10 +3614,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.1.0.20250503.85111";
+      version = "1.4.1.0.20250508.221328";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250503.85111.tar";
-        sha256 = "0pss2qaphcdvsq21jn47xgwbz4cyyv19f1g2wh3x49yc7mcv8bs6";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250508.221328.tar";
+        sha256 = "0sc45x3fwxmdbq4pz23kjibk38zwv1zxx8ihfg368syinik883gw";
       };
       packageRequires = [
         eldoc
@@ -4498,10 +4498,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.3.0.20250409.225457";
+      version = "0.8.4.0.20250508.135540";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.3.0.20250409.225457.tar";
-        sha256 = "0cgp8k6yasgbikq588vcmgwmvn9hyjciaa2s0w9yffvr8jwx6d52";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.4.0.20250508.135540.tar";
+        sha256 = "0167f1q8snk98j7akns3mg07pxm1221i9vxplc4x55z7qlryvi7c";
       };
       packageRequires = [ compat ];
       meta = {
