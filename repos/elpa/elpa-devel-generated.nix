@@ -1105,10 +1105,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.0.0.20250509.172037";
+      version = "2.0.0.20250509.203255";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.0.0.20250509.172037.tar";
-        sha256 = "0p5r3nxagyi0kwqavayfikg92wlmk2f8269wgwlkk90gdq7yy5zb";
+        url = "https://elpa.gnu.org/devel/cape-2.0.0.20250509.203255.tar";
+        sha256 = "0qrdpx75m2599sn1azw4rs39p7czpd2znq9kw2hhd642kj5hwlg2";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3171,10 +3171,10 @@
     elpaBuild {
       pname = "ement";
       ename = "ement";
-      version = "0.17pre0.20250503.12506";
+      version = "0.17pre0.20250509.222426";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ement-0.17pre0.20250503.12506.tar";
-        sha256 = "1m19hxvdp1wzwj4ll87p1bk1lli3k49j1zx0zj95yhcm9hlypxj8";
+        url = "https://elpa.gnu.org/devel/ement-0.17pre0.20250509.222426.tar";
+        sha256 = "1h0sfl2vq0z7gqn4prbbspcd0f5k1ph1g9q076bh1vzb04anl3db";
       };
       packageRequires = [
         map
@@ -5778,10 +5778,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.5.4.0.20250509.125935";
+      version = "0.5.4.0.20250510.3940";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.5.4.0.20250509.125935.tar";
-        sha256 = "0qgp65yhl0l6cyxjmzgv1dxz361nv694rk6fl4wcj1ih0306qq0b";
+        url = "https://elpa.gnu.org/devel/minuet-0.5.4.0.20250510.3940.tar";
+        sha256 = "0akavbg2bl1amwr55ch1m3apkjdwdgiqar1kjnld28rfa027gxj6";
       };
       packageRequires = [
         dash
