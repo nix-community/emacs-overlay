@@ -6468,28 +6468,6 @@
       };
     }
   ) { };
-  org-mathsheet = callPackage (
-    {
-      elpaBuild,
-      fetchurl,
-      lib,
-      peg,
-    }:
-    elpaBuild {
-      pname = "org-mathsheet";
-      ename = "org-mathsheet";
-      version = "1.0";
-      src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-mathsheet-1.0.tar";
-        sha256 = "12d6biddp1jjmfrjcpcsvbnlml64vaxicfbmknkn92z6d21yzqai";
-      };
-      packageRequires = [ peg ];
-      meta = {
-        homepage = "https://elpa.gnu.org/packages/org-mathsheet.html";
-        license = lib.licenses.free;
-      };
-    }
-  ) { };
   org-modern = callPackage (
     {
       compat,
@@ -9362,10 +9340,10 @@
     elpaBuild {
       pname = "triples";
       ename = "triples";
-      version = "0.5.1";
+      version = "0.6.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/triples-0.5.1.tar";
-        sha256 = "1c8vspqklmcql6mh6kxvqpb922mw4q88zji9kvvql4j2virm7b7f";
+        url = "https://elpa.gnu.org/packages/triples-0.6.0.tar";
+        sha256 = "12qf91ldgkwgkwj3a5g68qy4sbmrqmxq4qcgcnygj570ipjv49q8";
       };
       packageRequires = [ seq ];
       meta = {
