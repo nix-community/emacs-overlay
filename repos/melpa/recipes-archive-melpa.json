@@ -30788,11 +30788,11 @@
   "repo": "casouri/eldoc-box",
   "unstable": {
    "version": [
-    20250508,
-    1838
+    20250510,
+    1854
    ],
-   "commit": "3cf770ac54af512a325b9044aede5255c7c46f62",
-   "sha256": "187amnffd3va12jx41l6ncbr7972prlmhi0j4vc50snfqjxr2xdq"
+   "commit": "fb1ae42c37c5f3bb80b441b2fdfada914891a714",
+   "sha256": "0id77zab8q7pll9akdb0l1akvpl25zc61qyz3lx9wvavg59aby3w"
   },
   "stable": {
    "version": [
@@ -54002,28 +54002,6 @@
   }
  },
  {
-  "ename": "guix",
-  "commit": "f01c0af156ac4f89ebb706c93085f46f1740f212",
-  "sha256": "17gd0farvxs38l0a8v20cc1d6h1ri7nmdjl7i1mnwfb410rijvhy",
-  "fetcher": "git",
-  "url": "https://git.savannah.gnu.org/git/guix/emacs-guix.git",
-  "unstable": {
-   "version": [
-    20250309,
-    2106
-   ],
-   "deps": [
-    "bui",
-    "dash",
-    "edit-indirect",
-    "geiser",
-    "magit-popup"
-   ],
-   "commit": "287fc4fbea0c90efca01af8fd0d64748903253cf",
-   "sha256": "09dxbl2r8f2l6axqpmfh620mnbs37j9wnaz89pq8hhh7fmfz8xff"
-  }
- },
- {
   "ename": "gulp-task-runner",
   "commit": "34a2bede5ea70cf9df623c32e789d78205f9ebb0",
   "sha256": "0211mws99bc9ipg7r3qqm1n7gszvwil31psinf0250wliyppjij7",
@@ -56023,14 +56001,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20250509,
-    1235
+    20250510,
+    1626
    ],
    "deps": [
     "async"
    ],
-   "commit": "dfdb7ad492396c653f227d7f161de83bda2dbfc1",
-   "sha256": "0b2p9sxk1viykda7v4n2s465qbjdwfa6s2m8xag6w8v2am4i9g30"
+   "commit": "e6527edd1d8d7f72801e9fc5b73bceb339aa1e76",
+   "sha256": "0avl5gimlzjyr0ndxcqayi6zsmv946jg758ahb9p2lf4xwkcf664"
   },
   "stable": {
    "version": [
@@ -67481,14 +67459,14 @@
   "repo": "minad/jinx",
   "unstable": {
    "version": [
-    20250505,
-    1641
+    20250510,
+    1639
    ],
    "deps": [
     "compat"
    ],
-   "commit": "c349bc7f39cb40713910bf1190f5ead3bf3b9acb",
-   "sha256": "13qjfyiwpj1l86n0k7ifjglr7myjdzig6vfsw7y7hs4w91y293q9"
+   "commit": "1c9be6c3293a5f34c205042c326ac3617ccab7fe",
+   "sha256": "1abdgjh1mfrcq6h4vh7r7bba1p0l62xibzghgv4qmhc039y7kydr"
   },
   "stable": {
    "version": [
@@ -99937,8 +99915,8 @@
   "repo": "emacs-php/phpactor.el",
   "unstable": {
    "version": [
-    20250331,
-    1310
+    20250510,
+    1951
    ],
    "deps": [
     "async",
@@ -99946,8 +99924,8 @@
     "f",
     "php-runtime"
    ],
-   "commit": "e22e9820992aae9220a81ee4f04faece0265215d",
-   "sha256": "0b46kag95b1hk6vw2fdwiv0nqwdsz2yy10xxack7iv7isp73h2ja"
+   "commit": "037187f9e204d3ed17017e7fb54236c005725fb7",
+   "sha256": "0vz9ckpkbqcf30aca7swizc1nx2jaghmyr4b1s64cncwr8z4jg5h"
   },
   "stable": {
    "version": [
@@ -109036,14 +109014,14 @@
   "repo": "swflint/retraction-viewer",
   "unstable": {
    "version": [
-    20240509,
-    1440
+    20250510,
+    1847
    ],
    "deps": [
     "plz"
    ],
-   "commit": "e8ab96e5a95a93849b912e2684b9776c685ac4bd",
-   "sha256": "10kyj2jjykbzi2afyqg57w1pkf310155zjb3hzl6nm6h844gnhji"
+   "commit": "21fc8844a744b28153dff055cec6c6a3859b1529",
+   "sha256": "0fqsxzj45451sjzb2fhkangb891gzj2ccfbq0gxkr420av422fgv"
   },
   "stable": {
    "version": [
