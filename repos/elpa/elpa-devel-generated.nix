@@ -4811,10 +4811,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.1.0.20250505.164125";
+      version = "2.1.0.20250510.163902";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.1.0.20250505.164125.tar";
-        sha256 = "1wn3smhalb4i90c1giyw9hd3idj8c7i11l7363f7vkq80nn108ph";
+        url = "https://elpa.gnu.org/devel/jinx-2.1.0.20250510.163902.tar";
+        sha256 = "0xvddphwagiiqvszh1wfrz1mhsz37dhgbipvbg9g7cb8kki4p8r0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5252,6 +5252,7 @@
   ) { };
   llm = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -5262,12 +5263,13 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.25.0.0.20250426.12816";
+      version = "0.25.0.0.20250510.105336";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.25.0.0.20250426.12816.tar";
-        sha256 = "1bjn4a9daaa01ifz4n3xaw3lyjjshhq0yl5l6r0hi10dwmjxf584";
+        url = "https://elpa.gnu.org/devel/llm-0.25.0.0.20250510.105336.tar";
+        sha256 = "0mnc820if3jcj909bmsjgcvdg10d7ijzqa4fgc0bw2s92hrzp37n";
       };
       packageRequires = [
+        compat
         plz
         plz-event-source
         plz-media-type
