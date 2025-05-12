@@ -6210,10 +6210,10 @@
     elpaBuild {
       pname = "ob-asymptote";
       ename = "ob-asymptote";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ob-asymptote-1.0.1.tar";
-        sha256 = "0f1vpq691pna1p1lgqw2nzmdw25sjsmpcvgm2lj7n14kg7dizxal";
+        url = "https://elpa.gnu.org/packages/ob-asymptote-1.0.2.tar";
+        sha256 = "0b9glzj3aq39rksb0bg4qvsnqknwjk7lbixapw9695hfr2l4hv02";
       };
       packageRequires = [ ];
       meta = {
