@@ -2223,30 +2223,32 @@
   "repo": "tninja/aider.el",
   "unstable": {
    "version": [
-    20250511,
-    17
+    20250512,
+    212
    ],
    "deps": [
     "magit",
     "markdown-mode",
+    "s",
     "transient"
    ],
-   "commit": "a9bde7314fae3c8bf5feb81b6e20f7ab00b4456d",
-   "sha256": "0vfvjpbqvm6vh8rkv5nc0vl0hjbq6xb7pvljp95xyyx0ifqwmgkv"
+   "commit": "a86111360cc9d1fd69c7082923feac67ce8743cd",
+   "sha256": "0r2axp6nx1wrc84z6mby4ixabwcq52n5q4lwfwllzgig85flx56x"
   },
   "stable": {
    "version": [
     0,
-    8,
-    4
+    9,
+    0
    ],
    "deps": [
     "magit",
     "markdown-mode",
+    "s",
     "transient"
    ],
-   "commit": "62a6100c54f8d44d1e73b845c769e8056f39427d",
-   "sha256": "07pb337whg4kbbljkkg5kjsfg9kbxnc83sgzh30dwdff79jkbi4b"
+   "commit": "a86111360cc9d1fd69c7082923feac67ce8743cd",
+   "sha256": "0r2axp6nx1wrc84z6mby4ixabwcq52n5q4lwfwllzgig85flx56x"
   }
  },
  {
@@ -90681,11 +90683,11 @@
   "repo": "lorniu/org-expose-emphasis-markers",
   "unstable": {
    "version": [
-    20250320,
-    848
+    20250512,
+    511
    ],
-   "commit": "79479b72a683faaad01e73ca4ee16deabd11d533",
-   "sha256": "0w65dmm7icyx98vv964frg1zm68y7yz1y85a2vfbksy0y2nic40d"
+   "commit": "ca6b5a1057be8ecf73888345af732ad9dfd0f83c",
+   "sha256": "0n4s0g5p02ky0hj2m9ps5mzygg87ljkzabrgbih2dmbp0jv1b55w"
   }
  },
  {
