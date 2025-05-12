@@ -1860,10 +1860,10 @@
     elpaBuild {
       pname = "free-keys";
       ename = "free-keys";
-      version = "1.0.0.20211116.150106";
+      version = "1.0.0.20250511.203538";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/free-keys-1.0.0.20211116.150106.tar";
-        sha256 = "08z5w5xxaz577lnwfmvrbh7485rbra7rl6b77m54vjxi24m75jhv";
+        url = "https://elpa.nongnu.org/nongnu-devel/free-keys-1.0.0.20250511.203538.tar";
+        sha256 = "0cbpx1cjnr0fd16sd4jak41n68afjsgpb8ahf5sgzv14bjgmzc94";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -4654,10 +4654,10 @@
     elpaBuild {
       pname = "smartparens";
       ename = "smartparens";
-      version = "1.11.0.0.20241220.125445";
+      version = "1.11.0.0.20250511.235418";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/smartparens-1.11.0.0.20241220.125445.tar";
-        sha256 = "0ww5m3cj78abbpfrshbszgs21mnd6pfcpwrbnqz81a4qk37q3nny";
+        url = "https://elpa.nongnu.org/nongnu-devel/smartparens-1.11.0.0.20250511.235418.tar";
+        sha256 = "0ah3jlc4s90xziccf0s2kvbl4cildhf2li572pryps7zh1bn319f";
       };
       packageRequires = [ dash ];
       meta = {
