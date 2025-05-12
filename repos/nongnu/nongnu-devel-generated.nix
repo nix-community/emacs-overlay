@@ -666,10 +666,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0.0.20250428.62043";
+      version = "1.0.0.20250511.113212";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250428.62043.tar";
-        sha256 = "18d4a27mbj9nzc8rr60b594mmza4hbw4vjyzacvdjia4r0y0mlwf";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250511.113212.tar";
+        sha256 = "1b037lgq5afyrjhp26q8f0nzigvlyw5fcnmc3y5980iiy6qpnn76";
       };
       packageRequires = [
         consult
@@ -2551,10 +2551,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.1.3.0.20250509.80915";
+      version = "1.1.4.0.20250511.130817";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.1.3.0.20250509.80915.tar";
-        sha256 = "1djg1bzrkzhrv5m752x0vxplk9c528ypw2gq8pp7ml3vn85r4dv4";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.1.4.0.20250511.130817.tar";
+        sha256 = "1h5w44jfl4hxxbjj2dyyq9xmfapnvd8q707wzpha15k1cd1ajd85";
       };
       packageRequires = [ ];
       meta = {
