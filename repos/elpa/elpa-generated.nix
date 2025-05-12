@@ -4173,10 +4173,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.8.4";
+      version = "1.8.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gtags-mode-1.8.4.tar";
-        sha256 = "1ypp720p5ffvzyl93vkfb47p07ki32qmmql6glmm4yd1pg2y01n9";
+        url = "https://elpa.gnu.org/packages/gtags-mode-1.8.5.tar";
+        sha256 = "0pia7ivd11hw9ngdghvcbrapndkpq5ra0jx566f7vgrdxxl73ynm";
       };
       packageRequires = [ ];
       meta = {
@@ -9246,10 +9246,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.7";
+      version = "0.8.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.8.7.tar";
-        sha256 = "0j4n8zqnc2l2p6hy3k9b7zahzqxwk8d239whnn0yjp91z11i945c";
+        url = "https://elpa.gnu.org/packages/transient-0.8.8.tar";
+        sha256 = "0rirggilwk42ha9lykfca6ma4l1pn0wwkvdh2njviaksidy7jasi";
       };
       packageRequires = [
         compat
