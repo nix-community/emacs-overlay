@@ -121,10 +121,10 @@
     elpaBuild {
       pname = "annotate";
       ename = "annotate";
-      version = "2.4.1.0.20250510.85251";
+      version = "2.4.1.0.20250512.162050";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/annotate-2.4.1.0.20250510.85251.tar";
-        sha256 = "0gx3pyg9k0yr877lwm4mjb43n66dpw95a3szpp6ywzy1h11cwdzh";
+        url = "https://elpa.nongnu.org/nongnu-devel/annotate-2.4.1.0.20250512.162050.tar";
+        sha256 = "1x0ri17ahdwv6j847p429pylmmsfxbmc45148k0hdicjyd8gncy5";
       };
       packageRequires = [ ];
       meta = {
@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.18.0.0.20250508.50422";
+      version = "1.18.0.0.20250512.132717";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0.0.20250508.50422.tar";
-        sha256 = "0rxz0yb23ilhk34dr5r1ghg06pm1q8lhcla65y4aqqyfp9hnpyh3";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0.0.20250512.132717.tar";
+        sha256 = "0xg81szscjzi8acq96frknpsqqpqwy4lrjs0xjd96smfdz22l47c";
       };
       packageRequires = [
         clojure-mode
@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.4.0snapshot0.20250511.70314";
+      version = "0.4.0snapshot0.20250512.110513";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.4.0snapshot0.20250511.70314.tar";
-        sha256 = "0yf4xf76c7fr260jb5ra3zkg35z3byfsh4345s6jq6sl9z5p2mgn";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.4.0snapshot0.20250512.110513.tar";
+        sha256 = "0w4h9hx1z3xa0942rvya5jjzhkwahcjpnxys2nb3fn471n7vc8kw";
       };
       packageRequires = [ ];
       meta = {
@@ -666,10 +666,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0.0.20250511.113212";
+      version = "1.0.0.20250512.155519";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250511.113212.tar";
-        sha256 = "1b037lgq5afyrjhp26q8f0nzigvlyw5fcnmc3y5980iiy6qpnn76";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250512.155519.tar";
+        sha256 = "09zzr69iais44669bm52ciw3jh55zi98z3kc0nr1v2h656z5yaq4";
       };
       packageRequires = [
         consult
@@ -1860,10 +1860,10 @@
     elpaBuild {
       pname = "free-keys";
       ename = "free-keys";
-      version = "1.0.0.20250511.203538";
+      version = "1.0.0.20250512.152751";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/free-keys-1.0.0.20250511.203538.tar";
-        sha256 = "0cbpx1cjnr0fd16sd4jak41n68afjsgpb8ahf5sgzv14bjgmzc94";
+        url = "https://elpa.nongnu.org/nongnu-devel/free-keys-1.0.0.20250512.152751.tar";
+        sha256 = "0nf29341jhwbpiqqzfi66yn9gw8m7y8cnd6afb0bixci1hnhaz1n";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2377,10 +2377,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250511.4828";
+      version = "0.9.8.0.20250512.100933";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250511.4828.tar";
-        sha256 = "0apw74blkv18dap5f8ighdnd677qw4frk7004xgkkj4i10mb3xc8";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250512.100933.tar";
+        sha256 = "10ksy01maf57n2g1yh043c8vyf2s0g62w3gnvwvq1iqpsnvx4zkv";
       };
       packageRequires = [
         compat
