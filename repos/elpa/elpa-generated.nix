@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "a68-mode";
       ename = "a68-mode";
-      version = "1.1";
+      version = "1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/a68-mode-1.1.tar";
-        sha256 = "0h9bk1ca333w2cb7wqsmy2znscjf6vcgs3xbji5a00x6y6qdyn8b";
+        url = "https://elpa.gnu.org/packages/a68-mode-1.2.tar";
+        sha256 = "1x40j0w6kzjxxrj7qdvll1psackq526cfrihfmacmq97c9g8xwm6";
       };
       packageRequires = [ ];
       meta = {
@@ -6360,10 +6360,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.29";
+      version = "9.7.30";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.29.tar";
-        sha256 = "0m22kb52v97sbk46lkc56z509cfkdwidrzavwg2vwz8z0yc305j2";
+        url = "https://elpa.gnu.org/packages/org-9.7.30.tar";
+        sha256 = "1886c5aw050iwqh7k3grp73ghdr70y20nfbpxgcwbzwkhkz2w9xy";
       };
       packageRequires = [ ];
       meta = {
