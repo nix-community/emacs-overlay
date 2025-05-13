@@ -12391,14 +12391,14 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20250511,
-    1641
+    20250513,
+    904
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "3c8d95d9a550d2fb278bdf32e8446fed1974af03",
-   "sha256": "1fdav9jj06nav696xlqq4shmqshchsxyankmbllz6hlsjyxgfwvm"
+   "commit": "80c75e0775f171d537ea4fd3d44ce9cdcf6b28a7",
+   "sha256": "0ir6xvw2l6y1z38dcwbyhpp73k2z7dfgg089a2gpqpf2w5jl1bmn"
   },
   "stable": {
    "version": [
@@ -19418,8 +19418,8 @@
   "repo": "chep/copilot-chat.el",
   "unstable": {
    "version": [
-    20250507,
-    850
+    20250513,
+    1124
    ],
    "deps": [
     "aio",
@@ -19430,8 +19430,8 @@
     "shell-maker",
     "transient"
    ],
-   "commit": "6c2dd00ded8bee0dd644f47ae4a8302df33d72ce",
-   "sha256": "06xplja7i90ngbmfqx0jimaizhasrm6ad386cclxxm6a9qy7k3pn"
+   "commit": "566dd4ce90f9bd48727bc2de21a562e9f7ab576f",
+   "sha256": "1dvlh0r6gl7wnz9jkb93n0ac8xviiff50ajvs0527176ppablq47"
   },
   "stable": {
    "version": [
@@ -46743,8 +46743,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20250512,
-    1150
+    20250513,
+    824
    ],
    "deps": [
     "closql",
@@ -46759,8 +46759,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "0f5f2a35fde92e8d77cd8d5c1e6fec0f26976e61",
-   "sha256": "0370rx8saq6imlicpr510iyl8m5g3l4p5rpjglhnjrx5lzhyi7fd"
+   "commit": "35100096174379c0a78e6a1e7ab153d679faede3",
+   "sha256": "0ds3rpjwzpsrzpvhgw02kfgd6f7pgwmhd5i9yczpi1pahckq3rhg"
   },
   "stable": {
    "version": [
@@ -76269,8 +76269,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250512,
-    1700
+    20250513,
+    1444
    ],
    "deps": [
     "compat",
@@ -76280,8 +76280,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "084f749a7e090d2cdb67d68bc6f3d4be7a7f1587",
-   "sha256": "1sp3pix8w3bwgvdirmvr9wrjijkmycambwliik3i8rh4c62qhqig"
+   "commit": "f88225f6a8731a5f950e7c6e4c955eddbf820c87",
+   "sha256": "0z0dwmq4kp1ypqi46l0al9xp12w4bvw5yk2mb4rr687v0386lsh4"
   },
   "stable": {
    "version": [
@@ -76857,16 +76857,16 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250508,
-    1457
+    20250513,
+    1444
    ],
    "deps": [
     "compat",
     "llama",
     "seq"
    ],
-   "commit": "e65dce2a04003dd3f839e5a8d5d189c7526e9fb9",
-   "sha256": "0hqania39qqaf2xbinhfdsxx884wf8x6ywm0774fr16yb12nwmvr"
+   "commit": "f88225f6a8731a5f950e7c6e4c955eddbf820c87",
+   "sha256": "0z0dwmq4kp1ypqi46l0al9xp12w4bvw5yk2mb4rr687v0386lsh4"
   },
   "stable": {
    "version": [
@@ -88328,11 +88328,11 @@
   "repo": "captainflasmr/ollama-buddy",
   "unstable": {
    "version": [
-    20250506,
-    613
+    20250513,
+    717
    ],
-   "commit": "4be4c0d47e34423813c666e1fa52122e20e28727",
-   "sha256": "0m4n01bkxnwgmv8jqzbl68j52mjqcy07lpw9y3351rva59vvzb0v"
+   "commit": "92870a2f1857af5aad1f9e0c964d53365adfb50f",
+   "sha256": "1bkdxrl2gf76q7sp1mpf3pp67ha835a4za9gr8y2w10vfi4zi0xg"
   },
   "stable": {
    "version": [
@@ -90161,14 +90161,14 @@
   "url": "https://repo.or.cz/org-contacts.git",
   "unstable": {
    "version": [
-    20250309,
-    1659
+    20250513,
+    1001
    ],
    "deps": [
     "org"
    ],
-   "commit": "b06a59736800865b8a7e8d6d45774169cb31528a",
-   "sha256": "0kpk62606is9wwigwd8bwna24zz95nbcz3r052x5fg7rq7v5wq0h"
+   "commit": "3d9ef1d5a9df30c7135d7a4085a450bc2a1a2cf2",
+   "sha256": "0h32cwbam0z24igj8n2mv0r88zbf1lhbb1m86p4ff87rq4inxhr9"
   }
  },
  {
@@ -92995,28 +92995,28 @@
   "repo": "akirak/org-reverse-datetree",
   "unstable": {
    "version": [
-    20250512,
-    1654
+    20250513,
+    848
    ],
    "deps": [
     "dash",
     "org"
    ],
-   "commit": "bef2e26639e940320d3b4b498f4cbba03eb9dd86",
-   "sha256": "0904i1357mpd3qalld53h706z157l0344xixjhdf3ldskbsn0vjg"
+   "commit": "8466a3566292cf17e70e6ab4e7fb9e1b48831586",
+   "sha256": "0hivhanj3jz32qp64mppi0wx0zavvvchh5g2g9pjbza90l6alxhy"
   },
   "stable": {
    "version": [
     0,
     4,
-    3
+    4
    ],
    "deps": [
     "dash",
     "org"
    ],
-   "commit": "4ba47f2cd3a08a032858795fa37416212662b585",
-   "sha256": "0y95im68xgxbfnpslkhmh743fw7dik1dnki1jncw8q6nsx2jkvvy"
+   "commit": "8466a3566292cf17e70e6ab4e7fb9e1b48831586",
+   "sha256": "0hivhanj3jz32qp64mppi0wx0zavvvchh5g2g9pjbza90l6alxhy"
   }
  },
  {
@@ -104151,11 +104151,11 @@
   "repo": "ProofGeneral/PG",
   "unstable": {
    "version": [
-    20250419,
-    1016
+    20250513,
+    1422
    ],
-   "commit": "af2e7b9a4e938ec485915b8a4d1ea918438758a0",
-   "sha256": "1h5j6n6ydq8xdw57glbp55vinhy8aw0r0nr5n481226ygfvqgxpn"
+   "commit": "2b1fe31698fcf56c3f7b2b1e34090d9dbc55b2b1",
+   "sha256": "1nnpacadlw2d7q9y9b2b6q2wcvwfq6jaddwmasn7in3fwzgrsv1j"
   },
   "stable": {
    "version": [
