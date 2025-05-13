@@ -5578,6 +5578,28 @@
       };
     }
   ) { };
+  mathsheet = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      peg,
+    }:
+    elpaBuild {
+      pname = "mathsheet";
+      ename = "mathsheet";
+      version = "1.1.0.20250512.213305";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/mathsheet-1.1.0.20250512.213305.tar";
+        sha256 = "0x8gcsqr0dz05mw5rdi1gc9zrxz8hj1ymi5xvhzrcpkq80dhz5m6";
+      };
+      packageRequires = [ peg ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/mathsheet.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   matlab-mode = callPackage (
     {
       elpaBuild,
