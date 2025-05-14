@@ -23,30 +23,47 @@ in
 , override ? (self: super: { })
 }:
 let
-  isOrgModeFile =
+  isOrgModeFile = config:
     let
       ext = lib.last (builtins.split "\\." (builtins.toString config));
       type = builtins.typeOf config;
     in
       (type == "path" || lib.hasPrefix "/" config) && ext == "org";
 
+  readFile' = configFile:
+            let
+              orgModeConfigFile = pkgs.runCommand "readFile-${configFile}" {
+                nativeBuildInputs = [ package ];
+              } ''
+                cp ${configFile} config.org
+                emacs -Q --batch ./config.org -f org-babel-tangle
+                mv config.el $out
+              '';
+            in builtins.readFile (if isOrgModeFile configFile then orgModeConfigFile else configFile);
+
   configText =
+    let f = config:
     let
       type = builtins.typeOf config;
     in # configText can be sourced from either:
       # - A string with context { config = "${hello}/config.el"; }
-      if type == "string" && builtins.hasContext config && lib.hasPrefix builtins.storeDir config then builtins.readFile config
+      if type == "string" && builtins.hasContext config && lib.hasPrefix builtins.storeDir config then readFile' config
       # - A config literal { config = "(use-package foo)"; }
       else if type == "string" then config
       # - A config path { config = ./config.el; }
       else if type == "path" then builtins.readFile config
       # - A derivation { config = pkgs.writeText "config.el" "(use-package foo)"; }
-      else if lib.isDerivation config then builtins.readFile "${config}"
+      else if lib.isDerivation config then readFile' "${config}"
+      # - A list of any combination of these types
+      else if type == "list" then map f config
       else throw "Unsupported type for config: \"${type}\"";
+    in lib.concatStringsSep "\n" (lib.lists.flatten (f config));
+
 
   packages = parse.parsePackagesFromUsePackage {
-    inherit configText isOrgModeFile alwaysTangle alwaysEnsure;
+    inherit configText alwaysTangle alwaysEnsure;
   };
+
   emacsPackages = (pkgs.emacsPackagesFor package).overrideScope (self: super:
     # for backward compatibility: override was a function with one parameter
     if builtins.isFunction (override super)
@@ -75,22 +92,11 @@ emacsWithPackages (epkgs:
             # name of the default init file must be default.el according to elisp manual
             defaultInitFileName = "default.el";
             configFile = pkgs.writeText defaultInitFileName configText;
-            orgModeConfigFile = pkgs.runCommand defaultInitFileName {
-              nativeBuildInputs = [ package ];
-            } ''
-              cp ${configFile} config.org
-              emacs -Q --batch ./config.org -f org-babel-tangle
-              mv config.el $out
-            '';
           in
           epkgs.trivialBuild {
             pname = "default";
             src =
-              if defaultInitFile == true
-              then
-                if isOrgModeFile
-                then orgModeConfigFile
-                else configFile
+              if defaultInitFile == true then configFile
               else
                 if defaultInitFile.name == defaultInitFileName
                 then defaultInitFile
