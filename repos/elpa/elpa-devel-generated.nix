@@ -2894,10 +2894,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250511.101418";
+      version = "1.18.0.20250513.114504";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250511.101418.tar";
-        sha256 = "0drw5nw7nan8gizsl3npd238l70licxwgayxv2c06w6h46adw3n2";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250513.114504.tar";
+        sha256 = "0jgma92l0smvm8np78sx924dlvbli1j3pgjrpps8m7av7xjab5v1";
       };
       packageRequires = [
         eldoc
@@ -5588,10 +5588,10 @@
     elpaBuild {
       pname = "mathsheet";
       ename = "mathsheet";
-      version = "1.1.0.20250512.213305";
+      version = "1.1.0.20250513.62537";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mathsheet-1.1.0.20250512.213305.tar";
-        sha256 = "0x8gcsqr0dz05mw5rdi1gc9zrxz8hj1ymi5xvhzrcpkq80dhz5m6";
+        url = "https://elpa.gnu.org/devel/mathsheet-1.1.0.20250513.62537.tar";
+        sha256 = "05fghv85j1fddb8y3frdz61xa2x5srm1fv6d1k030arwqqzq7224";
       };
       packageRequires = [ peg ];
       meta = {
@@ -6451,10 +6451,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.1.0.20250309.165914";
+      version = "1.1.0.20250513.100113";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250309.165914.tar";
-        sha256 = "1nx4b15g7zai76587phi3dy19adywmhmaan2jg62vl11mij2z08b";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250513.100113.tar";
+        sha256 = "03rbhicxw9glwrdhsw364kyjxdzbs4h63h927n5scbn71gkwr3bc";
       };
       packageRequires = [ org ];
       meta = {
