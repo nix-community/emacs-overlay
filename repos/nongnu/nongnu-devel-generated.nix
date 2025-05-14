@@ -2551,10 +2551,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.1.4.0.20250511.130817";
+      version = "1.1.4.0.20250513.122127";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.1.4.0.20250511.130817.tar";
-        sha256 = "1h5w44jfl4hxxbjj2dyyq9xmfapnvd8q707wzpha15k1cd1ajd85";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.1.4.0.20250513.122127.tar";
+        sha256 = "0d6p4fifb34h7ywz4602k74j95h18949mfq7zlh2ix95b1fpkqhc";
       };
       packageRequires = [ ];
       meta = {
@@ -4183,10 +4183,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20250419.101649";
+      version = "4.6snapshot0.20250513.142216";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250419.101649.tar";
-        sha256 = "0rf7a9ym5aq6kh3zbnc8213frrfhaa4kyx7fy0za8g5vz9fvn7sk";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250513.142216.tar";
+        sha256 = "0iq8ca941kd6ivqj8c6fz7slv8f1ili7i3xwvqvaryp15fcj8wbv";
       };
       packageRequires = [ ];
       meta = {
