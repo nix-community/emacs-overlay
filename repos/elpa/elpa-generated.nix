@@ -2881,10 +2881,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.4.5";
+      version = "2.4.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/el-job-2.4.5.tar";
-        sha256 = "0pzcbhdzhhwkpxz8vbsjb9vgwfwmbii64jjqpvv1svwdhxb0lq1f";
+        url = "https://elpa.gnu.org/packages/el-job-2.4.6.tar";
+        sha256 = "0bcgw4jsmkx0f7yx5bi8qcj0viz84jgr1gax63992bzh4d8rzpjk";
       };
       packageRequires = [ ];
       meta = {
