@@ -2615,10 +2615,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.2";
+      version = "4.0.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/helm-core-4.0.2.tar";
-        sha256 = "1mgc89k12lwivj453q3frcwzwag10wngy13jz6jxdl7135gsmywd";
+        url = "https://elpa.nongnu.org/nongnu/helm-core-4.0.3.tar";
+        sha256 = "16c9fv3xh1rr1fcayvbf09c5jd0xvajlg19b2kfc2z40sryy95ip";
       };
       packageRequires = [ async ];
       meta = {
@@ -4242,6 +4242,7 @@
   ) { };
   racket-mode = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -4249,12 +4250,12 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250507.84244";
+      version = "1.0.20250514.102731";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250507.84244.tar";
-        sha256 = "1i1ipxm3x14v0m52a9p6y5kmjbqnxrqrhfdcm7fm52hh71lxq5m5";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250514.102731.tar";
+        sha256 = "0d5q08q3bm2ws0g0cys1xzjvznrqxhwxikjrkdri9js8y14z50l3";
       };
-      packageRequires = [ ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/racket-mode.html";
         license = lib.licenses.free;
