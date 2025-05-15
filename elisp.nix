@@ -51,7 +51,7 @@ let
       # - A config literal { config = "(use-package foo)"; }
       else if type == "string" then config
       # - A config path { config = ./config.el; }
-      else if type == "path" then builtins.readFile config
+      else if type == "path" then readFile' config
       # - A derivation { config = pkgs.writeText "config.el" "(use-package foo)"; }
       else if lib.isDerivation config then readFile' "${config}"
       # - A list of any combination of these types
