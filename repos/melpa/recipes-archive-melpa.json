@@ -2890,10 +2890,10 @@
   "unstable": {
    "version": [
     20250515,
-    630
+    743
    ],
-   "commit": "2bad73bca68ff372b4781b70f5f16b269b5d018a",
-   "sha256": "07pw2vscjfcvrk77nr3h15v1xmxq80ngc2mdg7rv77xjqscjxvgp"
+   "commit": "5d70b6860aed9a2ef312bff4ff4101b12561e3de",
+   "sha256": "1h507l0nwi5w9zms3zhxiwhjfxdlcg5ffx5f9pvzf8d3l1cm49v4"
   }
  },
  {
@@ -3475,11 +3475,11 @@
   "repo": "bastibe/annotate.el",
   "unstable": {
    "version": [
-    20250512,
-    1620
+    20250515,
+    1428
    ],
-   "commit": "2db6d5ef31aeacaaffe21d159401014c899feb76",
-   "sha256": "07p3b87ljyb5rwyapdnpvq9ks6spq8f0n3ikb2xx4aravns34jrk"
+   "commit": "dc6e884265c9de5b0e486b9f6bd9509a14b85c94",
+   "sha256": "07jbi3ripkmbsx51w57qiwi9pi2bd1a05rd627vg99avv9j00mj5"
   },
   "stable": {
    "version": [
@@ -14599,19 +14599,19 @@
   "unstable": {
    "version": [
     20250515,
-    723
+    732
    ],
-   "commit": "cca0e9f8a9f3736d503b2a87977c01f5d6b297ee",
-   "sha256": "1rpxzwb9909kfmqy832xnp58z313ay0m462g1a9mkjh8nw9g9s7c"
+   "commit": "c2269ea10a9129113a98eb58fc8abd8888a07e94",
+   "sha256": "0xd2gdny14x43d553bxn63nmscgkcqhy30196fzyn7m7imfv6hkx"
   },
   "stable": {
    "version": [
     0,
-    3,
+    4,
     0
    ],
-   "commit": "27da9a6a935b65a5a24d93cfd88c421e8867f6d0",
-   "sha256": "0kwpc4v3d3ggivaa1ascq9d4zfigc4f4h3s77qlq4wj7dxa1jhrk"
+   "commit": "c2269ea10a9129113a98eb58fc8abd8888a07e94",
+   "sha256": "0xd2gdny14x43d553bxn63nmscgkcqhy30196fzyn7m7imfv6hkx"
   }
  },
  {
@@ -36079,15 +36079,16 @@
   "repo": "ShuguangSun/ess-view-data",
   "unstable": {
    "version": [
-    20240127,
-    1701
+    20250515,
+    958
    ],
    "deps": [
     "csv-mode",
-    "ess"
+    "ess",
+    "transient"
    ],
-   "commit": "c077741bc3386a469635ca7438db4cf58b7541b9",
-   "sha256": "0gbim8hkflj5cxg84wnv32zfwacri3v26azmcfzh6w3mkflfp1bq"
+   "commit": "dc1355d838eeac47143790b2745ae826400609ab",
+   "sha256": "1ar1lbylgwlhvfln3xc1avhaji1drkbs3xnh6018x9mbg35va4l9"
   },
   "stable": {
    "version": [
@@ -76236,8 +76237,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250514,
-    1738
+    20250515,
+    1348
    ],
    "deps": [
     "compat",
@@ -76247,8 +76248,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "04ee83d93fabbfbe202e9e7dc781b0dcd4d5b502",
-   "sha256": "0g0ji4m39z8mcq1krj8v3kdhb2a8v2w0m00dqq3z925ibq0lv01r"
+   "commit": "415bd700992a70e50fd6fdf8e37519bf22fa2aa7",
+   "sha256": "1gd72kjb8ad2ks5ivhmgvqg898vvbacmf9lbpk760qk55id8345m"
   },
   "stable": {
    "version": [
@@ -88295,11 +88296,11 @@
   "repo": "captainflasmr/ollama-buddy",
   "unstable": {
    "version": [
-    20250513,
-    717
+    20250515,
+    1327
    ],
-   "commit": "92870a2f1857af5aad1f9e0c964d53365adfb50f",
-   "sha256": "1bkdxrl2gf76q7sp1mpf3pp67ha835a4za9gr8y2w10vfi4zi0xg"
+   "commit": "88f72aa80c59eef3fd85629408e31e252db3e657",
+   "sha256": "1jmdkc1y3i55lkg8jqafx73p50gdzqhlz2vgcllacycbh3vhkfd4"
   },
   "stable": {
    "version": [
@@ -91645,28 +91646,28 @@
   "repo": "meedstrom/org-mem",
   "unstable": {
    "version": [
-    20250512,
-    1403
+    20250515,
+    1440
    ],
    "deps": [
     "el-job",
     "llama"
    ],
-   "commit": "7e8ae9c4dbdd93391a27ede6c41f58331f6e1e40",
-   "sha256": "1miiyz1mlc8w2y1hajrs5ppy9wacmrfp8k9iv6a98s1z6gxwa8a2"
+   "commit": "6abda0a1699a069fa7cd0a27cfe411784d5fc9c6",
+   "sha256": "1ghpii1apknj0sf89cqlpnn0rckbb4k2kj31d6sycfk1dkhni4gh"
   },
   "stable": {
    "version": [
     0,
-    7,
-    1
+    8,
+    4
    ],
    "deps": [
     "el-job",
     "llama"
    ],
-   "commit": "7e8ae9c4dbdd93391a27ede6c41f58331f6e1e40",
-   "sha256": "1miiyz1mlc8w2y1hajrs5ppy9wacmrfp8k9iv6a98s1z6gxwa8a2"
+   "commit": "6abda0a1699a069fa7cd0a27cfe411784d5fc9c6",
+   "sha256": "1ghpii1apknj0sf89cqlpnn0rckbb4k2kj31d6sycfk1dkhni4gh"
   }
  },
  {
@@ -92007,30 +92008,30 @@
   "repo": "meedstrom/org-node",
   "unstable": {
    "version": [
-    20250326,
-    1504
+    20250515,
+    1428
    ],
    "deps": [
-    "el-job",
     "llama",
-    "magit-section"
+    "magit-section",
+    "org-mem"
    ],
-   "commit": "a6d42efe84f1e3c881c0aeca7521b9f5cba3c3f1",
-   "sha256": "03600cxy8dr2sd49d07v61izxpvdxgfyiangjzkbma4qdpbkmjgh"
+   "commit": "f3f273b1febb6841ec805fc83a99f7b9e5bb5468",
+   "sha256": "1ri46ll63rqqdprfz561w3mzh89zn3la9f1i0q4rlvbbjmabzvy0"
   },
   "stable": {
    "version": [
-    2,
-    4,
-    1
+    3,
+    0,
+    4
    ],
    "deps": [
-    "el-job",
     "llama",
-    "magit-section"
+    "magit-section",
+    "org-mem"
    ],
-   "commit": "cdd28c693986879e6460535ee8a34d4eeeeef35d",
-   "sha256": "0yvc61ydz8c8wms5pwb14v67da7w4l3xvd5w4x83qf81d9f44w9v"
+   "commit": "5c68e57e39eba38a8a278bf843facb08ba8f2f59",
+   "sha256": "0yjipjad14f5wf9mjggb0gkl449cw15vqhqvcdcv6i1k7mb4p544"
   }
  },
  {
@@ -92041,32 +92042,30 @@
   "repo": "meedstrom/org-node-fakeroam",
   "unstable": {
    "version": [
-    20250316,
-    1005
+    20250515,
+    1314
    ],
    "deps": [
-    "compat",
-    "emacsql",
+    "org-mem",
     "org-node",
     "org-roam"
    ],
-   "commit": "fda864320606e1e860b5bd9a6b2b08aec9abc8de",
-   "sha256": "0kf9a3fzczjwc2m1gi1kvmka49rw3682867i1f0xzb63hhdln5pg"
+   "commit": "61617d6075923c6191fbac0f107e3abb14395e61",
+   "sha256": "00pfp1v0rp03xgp9yi5g0hfm38hf7jp0948r48y054nr89iksikw"
   },
   "stable": {
    "version": [
-    2,
+    3,
     0,
-    0
+    1
    ],
    "deps": [
-    "compat",
-    "emacsql",
+    "org-mem",
     "org-node",
     "org-roam"
    ],
-   "commit": "6e0c5afed0f99eebcda6d824c2ef7ec258ad3546",
-   "sha256": "1gy88r44625vis6md88sh38z8i8viav42sg52x9p48374lhrchdx"
+   "commit": "61617d6075923c6191fbac0f107e3abb14395e61",
+   "sha256": "00pfp1v0rp03xgp9yi5g0hfm38hf7jp0948r48y054nr89iksikw"
   }
  },
  {
