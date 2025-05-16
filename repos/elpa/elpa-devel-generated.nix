@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "a68-mode";
       ename = "a68-mode";
-      version = "1.2.0.20250515.102401";
+      version = "1.2.0.20250516.72801";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/a68-mode-1.2.0.20250515.102401.tar";
-        sha256 = "0sr2agrjgzgrb85czjf3mzawvp17fs5fjpk7nf7p13hr589qlgmg";
+        url = "https://elpa.gnu.org/devel/a68-mode-1.2.0.20250516.72801.tar";
+        sha256 = "09nxmij8db3ddhl9hyz0khw2crpfxgrhp2rci1v4w4g3y6k6pjxk";
       };
       packageRequires = [ ];
       meta = {
