@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.3.0.20250507.203412";
+      version = "1.3.0.20250515.132734";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.3.0.20250507.203412.tar";
-        sha256 = "0aw8b43r2kivib74yx8f9n4cf3w57sdrxgidbp8ck2x5dyjkb96y";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.3.0.20250515.132734.tar";
+        sha256 = "010sxd4k7xqkpf2jyyffrkxkgn1cq6wq0mkmmh56xpj3mrrxchyp";
       };
       packageRequires = [
         compat
@@ -121,10 +121,10 @@
     elpaBuild {
       pname = "annotate";
       ename = "annotate";
-      version = "2.4.1.0.20250512.162050";
+      version = "2.4.2.0.20250515.142850";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/annotate-2.4.1.0.20250512.162050.tar";
-        sha256 = "1x0ri17ahdwv6j847p429pylmmsfxbmc45148k0hdicjyd8gncy5";
+        url = "https://elpa.nongnu.org/nongnu-devel/annotate-2.4.2.0.20250515.142850.tar";
+        sha256 = "0g30jcpb44vdb43msn93w8j4f2zk0zm7n3l2ghndvm31qc3qr1k8";
       };
       packageRequires = [ ];
       meta = {
@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.4.0.0.20250515.73252";
+      version = "0.4.0.0.20250515.90703";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.4.0.0.20250515.73252.tar";
-        sha256 = "0hrncqvmniycnlll74mqj55xkpdl484r7if60s69bap6k7ywyssc";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.4.0.0.20250515.90703.tar";
+        sha256 = "0kpsrfnz3z8y8lxlmd1irmxs9g6xf382j1aqaq8hqq9qx38yyyd3";
       };
       packageRequires = [ ];
       meta = {
