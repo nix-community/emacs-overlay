@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "a68-mode";
       ename = "a68-mode";
-      version = "1.2.0.20250514.94833";
+      version = "1.2.0.20250515.102401";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/a68-mode-1.2.0.20250514.94833.tar";
-        sha256 = "07m9gi9hkwz1rjfqskn5q5s98lkivwzl30a7k1pjv5ip54kp7fwb";
+        url = "https://elpa.gnu.org/devel/a68-mode-1.2.0.20250515.102401.tar";
+        sha256 = "0sr2agrjgzgrb85czjf3mzawvp17fs5fjpk7nf7p13hr589qlgmg";
       };
       packageRequires = [ ];
       meta = {
@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250514.184350";
+      version = "14.0.9.0.20250515.195355";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250514.184350.tar";
-        sha256 = "1c511g6l3l2xjq6hazc083l2z99wm17m2967hd0zhfh2hi02nx02";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250515.195355.tar";
+        sha256 = "0n39wh9cw1pfjmyjcahxrgsa3b1p0swwkh31wn5wc2c2rfjkl8xk";
       };
       packageRequires = [ ];
       meta = {
@@ -10548,10 +10548,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20250321.211107";
+      version = "1.7.0.0.20250515.124004";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20250321.211107.tar";
-        sha256 = "059wmg5ch8smgs3ir2flhjj2dibqpr1875724lni1vk2dr3g6kmq";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20250515.124004.tar";
+        sha256 = "1h93z4dlk7vd2wif93zsypr55mdfnd2yyy6n69wz3d410jf51jf7";
       };
       packageRequires = [ ];
       meta = {
