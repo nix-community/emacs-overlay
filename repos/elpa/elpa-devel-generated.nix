@@ -548,10 +548,10 @@
     elpaBuild {
       pname = "auth-source-xoauth2-plugin";
       ename = "auth-source-xoauth2-plugin";
-      version = "0.1.1.0.20250211.151603";
+      version = "0.2.0.20250516.15306";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auth-source-xoauth2-plugin-0.1.1.0.20250211.151603.tar";
-        sha256 = "1qirlk0wjrhxxy0k01mr2cx3dzp16ns3047j2a3mpfhq83413w43";
+        url = "https://elpa.gnu.org/devel/auth-source-xoauth2-plugin-0.2.0.20250516.15306.tar";
+        sha256 = "0i205h7fc4gkaa7hn1516bqzffv64bani2v1080kn7cbnrf9kq1b";
       };
       packageRequires = [ oauth2 ];
       meta = {
@@ -971,10 +971,10 @@
     elpaBuild {
       pname = "buffer-env";
       ename = "buffer-env";
-      version = "0.6.0.20240323.72724";
+      version = "0.6.0.20250516.122320";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/buffer-env-0.6.0.20240323.72724.tar";
-        sha256 = "061cbq2pb5wg3jap3l9lbm1axb700aqar9s8vx2zys0hl65klw51";
+        url = "https://elpa.gnu.org/devel/buffer-env-0.6.0.20250516.122320.tar";
+        sha256 = "0m1kb8h2mjjd5hznp86yxjdic0zngq89x67vd7srvikxxbj312d9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1659,10 +1659,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.1.0.20250512.155354";
+      version = "2.1.0.20250516.184150";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.1.0.20250512.155354.tar";
-        sha256 = "0s34xzn8m7aahbzjk816r22w5pniqnaaryazg8wagd0pl34b7yyc";
+        url = "https://elpa.gnu.org/devel/corfu-2.1.0.20250516.184150.tar";
+        sha256 = "1fnhsn6mvz2cp6cwphrjgr0lizkkfpirp3bxg2vxnj869asyayva";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2923,10 +2923,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.4.6.0.20250514.195543";
+      version = "2.4.7.0.20250516.190810";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.4.6.0.20250514.195543.tar";
-        sha256 = "12837x2k26c9djqw4633mzvvkl0cq05971iqhn30qvxngm6455z2";
+        url = "https://elpa.gnu.org/devel/el-job-2.4.7.0.20250516.190810.tar";
+        sha256 = "14l3xa5xii7xg6006gyap5jcd3z5ramik0q9sd14gaqx7i9s8081";
       };
       packageRequires = [ ];
       meta = {
@@ -6813,10 +6813,10 @@
     elpaBuild {
       pname = "package-x";
       ename = "package-x";
-      version = "1.0.0.20250212.211602";
+      version = "1.0.0.20250516.155254";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/package-x-1.0.0.20250212.211602.tar";
-        sha256 = "0plkkpdf9apjhr60n4j7idbg5brmx3hndfg2lq8d00si6gr5c73b";
+        url = "https://elpa.gnu.org/devel/package-x-1.0.0.20250516.155254.tar";
+        sha256 = "1lr9g496sm8h6ph8x7w8c2ayhnlh7w30hhl6xwwfdsh0sqp2hy50";
       };
       packageRequires = [ ];
       meta = {
@@ -9982,10 +9982,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.1.0.20250512.155333";
+      version = "2.1.0.20250516.184229";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.1.0.20250512.155333.tar";
-        sha256 = "086l7j4dybm7b4yvx4zh0zq0ixqa3z1kkyjwvjh01x77cjkhvxl0";
+        url = "https://elpa.gnu.org/devel/vertico-2.1.0.20250516.184229.tar";
+        sha256 = "07dmj8p760c13grz45fc1wvpy7li2xvqg6scy7jx3jc9j5gdqdk9";
       };
       packageRequires = [ compat ];
       meta = {
