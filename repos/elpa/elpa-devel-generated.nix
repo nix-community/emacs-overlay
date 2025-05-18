@@ -2923,10 +2923,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.4.7.0.20250516.190810";
+      version = "2.4.7.0.20250517.174834";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.4.7.0.20250516.190810.tar";
-        sha256 = "14l3xa5xii7xg6006gyap5jcd3z5ramik0q9sd14gaqx7i9s8081";
+        url = "https://elpa.gnu.org/devel/el-job-2.4.7.0.20250517.174834.tar";
+        sha256 = "1f7n4szcwqgblbx1bm68ixkz85vqvv11gfy62k65j61ybqw4r711";
       };
       packageRequires = [ ];
       meta = {
@@ -4172,10 +4172,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.12.6.0.20250304.172206";
+      version = "0.12.6.0.20250426.221703";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.12.6.0.20250304.172206.tar";
-        sha256 = "1cpvh9pn855q8gjz43alpipbchfbbgg0ds6qbnn7k9s0n38iyzr3";
+        url = "https://elpa.gnu.org/devel/greader-0.12.6.0.20250426.221703.tar";
+        sha256 = "0mg1fapzs45j5lr3sd3wl71n5z2rccd7lalshn0bq4pznqyiax28";
       };
       packageRequires = [
         compat
@@ -4217,10 +4217,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.8.5.0.20250511.220137";
+      version = "1.8.6.0.20250518.10237";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gtags-mode-1.8.5.0.20250511.220137.tar";
-        sha256 = "185c583y06lm97hd1nlhsx96byz34m0fg2xlz99vwxzm75ch3s5h";
+        url = "https://elpa.gnu.org/devel/gtags-mode-1.8.6.0.20250518.10237.tar";
+        sha256 = "0xisbx4k8baj8hzklmpz0gfkx82f3sss3mnji9v0pbv1g9q7v2w9";
       };
       packageRequires = [ ];
       meta = {
@@ -4434,10 +4434,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250509.132519";
+      version = "9.0.2pre0.20250517.155725";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250509.132519.tar";
-        sha256 = "0jmjaa6bj93qw7i62spc4kk117bbc3g3nvdq0lkcwd9900ir1xhb";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250517.155725.tar";
+        sha256 = "1k0nwx3yya715599pl4vwcsbap7c26nqrgw69h0ggl8jjiszlnks";
       };
       packageRequires = [ ];
       meta = {
@@ -5263,10 +5263,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.25.0.0.20250510.105336";
+      version = "0.25.0.0.20250518.11603";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.25.0.0.20250510.105336.tar";
-        sha256 = "0mnc820if3jcj909bmsjgcvdg10d7ijzqa4fgc0bw2s92hrzp37n";
+        url = "https://elpa.gnu.org/devel/llm-0.25.0.0.20250518.11603.tar";
+        sha256 = "0ps3sw7vn5kay86pjjf40j6cissrnwqy5vb96aghqh4602qv6n0h";
       };
       packageRequires = [
         compat
@@ -5609,10 +5609,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "6.3.0.20250512.120312";
+      version = "6.3.0.20250517.135056";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250512.120312.tar";
-        sha256 = "07lsjj3ch66xl680isn9mrmbiz28n7r85gwgrzqva9gyxilfh1wm";
+        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250517.135056.tar";
+        sha256 = "1wsnjfc3g54smmbcai34325giihysl8ad0k68x6nlqm3q8klphya";
       };
       packageRequires = [ ];
       meta = {
