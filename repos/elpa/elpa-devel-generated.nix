@@ -1318,10 +1318,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.3.0.20250508.204004";
+      version = "1.2.3.0.20250517.510";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250508.204004.tar";
-        sha256 = "1zrdxxc115h4zk2a1lhl45is7cjvxq333m1f1lmrmnyahzgg3a46";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250517.510.tar";
+        sha256 = "1hp9a51nfdspffcm94x83qafly7hnrksws8ivm8xd7iw3blvjaps";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2096,10 +2096,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.1.1.0.20250422.45242";
+      version = "0.1.1.0.20250517.43843";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250422.45242.tar";
-        sha256 = "1hyhahdyxnx6q2lxy8pngj0isscb0wv1946w5bp1qkq6ygjp3chv";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250517.43843.tar";
+        sha256 = "1v5r87mdmdpfqdyb0zr3z9brkml7dac92pp6gam8qsc1l7zx359l";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2495,10 +2495,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.5.2.0.20250427.44935";
+      version = "0.5.2.0.20250507.81237";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.5.2.0.20250427.44935.tar";
-        sha256 = "0zc7kd1apyq0bwxi3qjihxayjb5j6ga9rhmzc3lmm29ysxfz90n5";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.5.2.0.20250507.81237.tar";
+        sha256 = "12f510r8f6z9qp679dipyv1damincr2q6bbi4vcn17ylwhaqdp6s";
       };
       packageRequires = [ ];
       meta = {
