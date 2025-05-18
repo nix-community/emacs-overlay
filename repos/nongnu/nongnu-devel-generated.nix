@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.3.0.20250515.132734";
+      version = "1.3.0.20250517.171551";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.3.0.20250515.132734.tar";
-        sha256 = "010sxd4k7xqkpf2jyyffrkxkgn1cq6wq0mkmmh56xpj3mrrxchyp";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.3.0.20250517.171551.tar";
+        sha256 = "0awqxazb0pvwqkld9xrcc8sfzyjrfbbzzr2jvjykypbfvalq33gd";
       };
       packageRequires = [
         compat
@@ -2377,10 +2377,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250515.225537";
+      version = "0.9.8.0.20250517.194157";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250515.225537.tar";
-        sha256 = "0wcy7qq8d1pnpjf6fqwcff8r4gbl08azlayyxabqsakgr3498p5d";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250517.194157.tar";
+        sha256 = "0gj3glb1glsykha3hvyd779hmib7qx6dhscw7b3byanqc2r0hdm8";
       };
       packageRequires = [
         compat
@@ -2551,10 +2551,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.1.4.0.20250516.134138";
+      version = "1.2.0.0.20250518.53811";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.1.4.0.20250516.134138.tar";
-        sha256 = "15d4bc5i7p7r9psqdaljyvhxvzlwigzy8sb4iv0wxhbv7wwgwv37";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.2.0.0.20250518.53811.tar";
+        sha256 = "1n5rnyd02mfp77r8h71dpi18q7kayf4dh9rz8aglsx1087mrfm3g";
       };
       packageRequires = [ ];
       meta = {
@@ -4846,10 +4846,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "9.3.0.0.20250412.62413";
+      version = "9.3.0.0.20250517.130945";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-9.3.0.0.20250412.62413.tar";
-        sha256 = "0mgjswp1ldqcwicgxa3rr6nv8g2yi6pgqlxi9m2pvzihy9x70b53";
+        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-9.3.0.0.20250517.130945.tar";
+        sha256 = "08vji7k38464q63hdmm79zn545ckw3560lq4s65qijv2mhmkc460";
       };
       packageRequires = [ seq ];
       meta = {
@@ -5587,10 +5587,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.12.20250503115607.0.20250503.115753";
+      version = "26.12.20250517213917.0.20250517.214741";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.12.20250503115607.0.20250503.115753.tar";
-        sha256 = "1vn45rxy14ij4w7iswcwlkgvgjnjbgana2v2a34k71xn392gsf32";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.12.20250517213917.0.20250517.214741.tar";
+        sha256 = "1wihfan7mxi1d4qxwdqwpfzdi0zjmwwq3ssiscg9i39mqnlyn93s";
       };
       packageRequires = [ ];
       meta = {

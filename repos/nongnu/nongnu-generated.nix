@@ -2567,10 +2567,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.1.4";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/haskell-ts-mode-1.1.4.tar";
-        sha256 = "1430hddrj9lkfxapxa5d13q800awqxhg84r87abmry9skn35jfs7";
+        url = "https://elpa.nongnu.org/nongnu/haskell-ts-mode-1.2.0.tar";
+        sha256 = "016722wrs24i5kzirlc5mzs12m4g6wg4aba6fda2q1ghmf41g8pp";
       };
       packageRequires = [ ];
       meta = {
@@ -5601,10 +5601,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.12.20250503115607";
+      version = "26.12.20250517213917";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.12.20250503115607.tar";
-        sha256 = "1mh6rssi7g6dfl2glpivfixpdfk0kdlsbilszazmhzc6bh34blj5";
+        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.12.20250517213917.tar";
+        sha256 = "19wandxd82i2v3qm4njhvvmdd36rmf2d28nn5cp8ain71zx6vk4a";
       };
       packageRequires = [ ];
       meta = {
