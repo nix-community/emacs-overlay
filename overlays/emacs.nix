@@ -115,13 +115,6 @@ let
                    in
                      base.overrideAttrs (
                        oa: {
-                         patches = oa.patches ++ [
-                           # XXX: #318
-                           (self.fetchpatch {
-                             url = "https://git.savannah.gnu.org/cgit/emacs.git/patch/?id=53a5dada413662389a17c551a00d215e51f5049f";
-                             hash = "sha256-AEvsQfpdR18z6VroJkWoC3sBoApIYQQgeF/P2DprPQ8=";
-                           })
-                         ];
                          passthru = oa.passthru // {
                            pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                          };
@@ -132,13 +125,6 @@ let
                         in
                           base.overrideAttrs (
                             oa: {
-                              patches = oa.patches ++ [
-                                # XXX: #318
-                                (self.fetchpatch {
-                                  url = "https://git.savannah.gnu.org/cgit/emacs.git/patch/?id=53a5dada413662389a17c551a00d215e51f5049f";
-                                  hash = "sha256-AEvsQfpdR18z6VroJkWoC3sBoApIYQQgeF/P2DprPQ8=";
-                                })
-                              ];
                               passthru = oa.passthru // {
                                 pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                               };
