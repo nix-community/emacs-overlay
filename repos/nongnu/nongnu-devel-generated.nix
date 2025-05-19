@@ -2377,10 +2377,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250517.194157";
+      version = "0.9.8.0.20250518.225133";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250517.194157.tar";
-        sha256 = "0gj3glb1glsykha3hvyd779hmib7qx6dhscw7b3byanqc2r0hdm8";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250518.225133.tar";
+        sha256 = "145wznh2dx4afmh9ra4n652dvw0nd5yx4ymjy7rxain284sk4pjz";
       };
       packageRequires = [
         compat
@@ -3283,10 +3283,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.3.2.0.20250401.175331";
+      version = "4.3.5.0.20250518.142550";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.2.0.20250401.175331.tar";
-        sha256 = "1wif3d5vb04f39g38w2nbamqcbb89ivh2w5b0w362k3pk0vq2a70";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.5.0.20250518.142550.tar";
+        sha256 = "0kxl9l1qngvl3m5qxz3vcf7cvlkl02jcn2q90jnz7zwp3kp6nxyi";
       };
       packageRequires = [
         compat

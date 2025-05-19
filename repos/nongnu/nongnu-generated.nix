@@ -3299,10 +3299,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.3.2";
+      version = "4.3.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.3.2.tar";
-        sha256 = "0dnmwciz26wrsmp48h9axmj6qjgzhz9i7g3bvlpsq3i8y32xwdf6";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.3.5.tar";
+        sha256 = "1rik2sh3v6y6qsyjnqiy5vbf5ls0gnc32lhsnrkyaryfc3kis7cf";
       };
       packageRequires = [
         compat
