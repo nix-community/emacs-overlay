@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.18.0.0.20250512.132717";
+      version = "1.19.0snapshot0.20250519.82237";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0.0.20250512.132717.tar";
-        sha256 = "0xg81szscjzi8acq96frknpsqqpqwy4lrjs0xjd96smfdz22l47c";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250519.82237.tar";
+        sha256 = "11w183nr767ab59nl5vaw8s3r8ay735m9nwrr4yzwjdah3lksgv7";
       };
       packageRequires = [
         clojure-mode
@@ -2377,10 +2377,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250518.225133";
+      version = "0.9.8.0.20250519.123354";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250518.225133.tar";
-        sha256 = "145wznh2dx4afmh9ra4n652dvw0nd5yx4ymjy7rxain284sk4pjz";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250519.123354.tar";
+        sha256 = "1mv0yhajf2amwz4vli7qvnmyc3h8q9kwp97jxdldwrhhirwvyvbj";
       };
       packageRequires = [
         compat
@@ -2508,10 +2508,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20250401.174200";
+      version = "17.5.0.20250519.115454";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20250401.174200.tar";
-        sha256 = "1dxfwd4yhwzy59d55hnz0z23dg5vh1fzkrpicdaz93m9yvfzy1aa";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20250519.115454.tar";
+        sha256 = "17si5n0mdaij4kx19rhzy1p3asczkgcd5bhc1fsspi60kzwsmmi8";
       };
       packageRequires = [ ];
       meta = {
@@ -3252,10 +3252,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.2.0.20250401.175331";
+      version = "4.3.5.0.20250520.83537";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.2.0.20250401.175331.tar";
-        sha256 = "1way4hifyj0p5ly2p84as1amivv67qr22ph292rgwizrj0d5j60y";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.5.0.20250520.83537.tar";
+        sha256 = "14x7qvkpgjyhf5wcc26gq4plrysd61dr8i4yywxyf09d67xmam8q";
       };
       packageRequires = [
         compat
@@ -3283,10 +3283,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.3.5.0.20250518.142550";
+      version = "4.3.5.0.20250520.83537";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.5.0.20250518.142550.tar";
-        sha256 = "0kxl9l1qngvl3m5qxz3vcf7cvlkl02jcn2q90jnz7zwp3kp6nxyi";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.5.0.20250520.83537.tar";
+        sha256 = "1c0n0cdgc7mf910pdpxp75wsan7772k5iw307lybf465maabjx1i";
       };
       packageRequires = [
         compat
@@ -4227,10 +4227,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250514.102731";
+      version = "1.0.20250519.91508";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250514.102731.tar";
-        sha256 = "1da7v2w83kn7q07nb3pili3hsiymxa9h2l7nhf7y8sskq8j1sscc";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250519.91508.tar";
+        sha256 = "0wp4wdi9r3bdfrzprh46af02jvswyp88nxnrdchdqfvywfbqhm0g";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4612,10 +4612,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250417.201511";
+      version = "2.31snapshot0.20250520.4450";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250417.201511.tar";
-        sha256 = "0pbm04m0wzr63vs45xs624xgkjskpcvprwgizqmh84bvqg6g4zvh";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250520.4450.tar";
+        sha256 = "0b1kxhimlx73nmhgkidjpz3dm1nsyikqhflz2c7mhmdii50nramy";
       };
       packageRequires = [ macrostep ];
       meta = {
