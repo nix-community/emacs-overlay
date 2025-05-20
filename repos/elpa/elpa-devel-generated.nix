@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "a68-mode";
       ename = "a68-mode";
-      version = "1.2.0.20250518.221801";
+      version = "1.2.0.20250519.94948";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/a68-mode-1.2.0.20250518.221801.tar";
-        sha256 = "14zj26n070dcvrs30fkjsijpskbp1bkmxbpdpr6zg5p20rbk2ji7";
+        url = "https://elpa.gnu.org/devel/a68-mode-1.2.0.20250519.94948.tar";
+        sha256 = "1laryyl46kc4mqcb5bhr227ydvln4y1hr0p4bl0sx7plr0lnkk4h";
       };
       packageRequires = [ ];
       meta = {
@@ -4604,10 +4604,10 @@
     elpaBuild {
       pname = "ivy";
       ename = "ivy";
-      version = "0.15.1.0.20250417.121946";
+      version = "0.15.1.0.20250519.175035";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ivy-0.15.1.0.20250417.121946.tar";
-        sha256 = "13xrixysvh3g358fi91lx2b4ra8npyhl573klfzvwr0w1pkpzc8g";
+        url = "https://elpa.gnu.org/devel/ivy-0.15.1.0.20250519.175035.tar";
+        sha256 = "094xx1zpxs1qf799s3cv2ymr5q7bgs87yr8haf6wqwf44rxdwycw";
       };
       packageRequires = [ ];
       meta = {
