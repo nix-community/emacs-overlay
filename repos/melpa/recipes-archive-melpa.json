@@ -11168,14 +11168,14 @@
   "repo": "minad/cape",
   "unstable": {
    "version": [
-    20250509,
-    2032
+    20250520,
+    1810
    ],
    "deps": [
     "compat"
    ],
-   "commit": "4b5be758515cf06cf22de2d1b5de459491f7197b",
-   "sha256": "106b179y26y93zd897dx3clglqnvw2xz2f3k3siv9nb4ggcjsvhj"
+   "commit": "cec3ab4b1447f3e27bd6193c1a7ec287744bf592",
+   "sha256": "0cp6fc8byn669mhx38if3gqi30fwky0kf77napjmbz21xzk700c1"
   },
   "stable": {
    "version": [
@@ -12410,14 +12410,14 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20250519,
-    1503
+    20250520,
+    1743
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "65be81b78ee60f3dbc243ba69add4a4cc9c681cc",
-   "sha256": "19yg1nqig0rfan8h1iaycj1rgd66ckp34dr6qdh0s46ggg40nlsb"
+   "commit": "620b58740b75d339b08a671391d6e9f3c5d3ba39",
+   "sha256": "08px4p1w13clf9nnmapbs2w6jjk22nb7ra9c0381x98kw7gjza5f"
   },
   "stable": {
    "version": [
@@ -62103,11 +62103,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20250518,
-    2150
+    20250520,
+    2149
    ],
-   "commit": "2e4857aef4957eb4e1967c09b199385540c52d27",
-   "sha256": "1j9i8vaf2hd3jp1xx85nw8sri0xxz6qx9jzs85fx957vhipk7rqb"
+   "commit": "c1636759c0775a5082e06fcef30889e845706179",
+   "sha256": "0zy12qlq2hb16r0lxllrwf1s7k969xsabk2jkc6y6nbj3sgdmk0y"
   },
   "stable": {
    "version": [
@@ -91671,14 +91671,14 @@
   "unstable": {
    "version": [
     20250520,
-    1248
+    1530
    ],
    "deps": [
     "el-job",
     "llama"
    ],
-   "commit": "a8f72b70540f933b1204ad5ae64b038b78aae7b8",
-   "sha256": "1fak703zi2sbv75smk46jqx84g3k37xm1jijldvxv48hjkjql6nm"
+   "commit": "828d87d882ab321c1bcb99f32e8fee4ef6260a86",
+   "sha256": "172jx7ppxd9vyrvgmqmmwy8p42ma0g334q32n5k50mn049qixkdc"
   },
   "stable": {
    "version": [
@@ -95937,16 +95937,17 @@
   "repo": "vale981/overleaf.el",
   "unstable": {
    "version": [
-    20250518,
-    1852
+    20250520,
+    1758
    ],
    "deps": [
     "plz",
+    "posframe",
     "webdriver",
     "websocket"
    ],
-   "commit": "19b317afd9a21f6c3b55d8bcfbeef7b2d65238fc",
-   "sha256": "18jxhi3rrvq2l598j6jlvbkd6d9g4zpx7xkl1mj2g4cq2wk7158z"
+   "commit": "8e4da83351c1b69bc8097ba58a1fd2d723a15ede",
+   "sha256": "0vhxkb5xzn9yvpd0ynwdn4agqw0iahv6a9n4893k6myglf548f7a"
   },
   "stable": {
    "version": [
@@ -96978,14 +96979,14 @@
   "repo": "jmpunkt/ox-typst",
   "unstable": {
    "version": [
-    20250326,
-    1817
+    20250520,
+    1803
    ],
    "deps": [
     "org"
    ],
-   "commit": "0cb0aa7f0c54bb2239516a0a4b02ce5ff7458a84",
-   "sha256": "0qw2r32d3dld409k3806i56vcny7nnjmlcp11wgqdfx32vy6hz02"
+   "commit": "e7110b97401242a85449d05957a169b29642e89a",
+   "sha256": "0xk6pgmlyyj7wn3vig6l1y77qhq19l1l82h2s9pp1rc5gmh44nrq"
   }
  },
  {
@@ -97240,14 +97241,14 @@
   "repo": "melpa/package-build",
   "unstable": {
    "version": [
-    20250224,
-    2129
+    20250520,
+    1504
    ],
    "deps": [
     "compat"
    ],
-   "commit": "d1722503145facf96631ac118ec0213a73082b76",
-   "sha256": "0q14k0mgr7wg9r6y6cb5ig3ww3f0cvr5li8c9wjda5s8dwp1knxs"
+   "commit": "59f91ad5026eaf21db72973de89b56a5d1597fb3",
+   "sha256": "12jghjj40iccb4c1aj2aizsxmqd6aglf0008lh8i95s62r070qa5"
   },
   "stable": {
    "version": [
@@ -105933,11 +105934,11 @@
   "repo": "python-mode-devs/python-mode",
   "unstable": {
    "version": [
-    20250514,
-    727
+    20250520,
+    1831
    ],
-   "commit": "413e7b99bb1495aa00df6c84b21558ab81d36cdb",
-   "sha256": "1d8wfvr8766jfbhmzy6fhqdf6yn5qwddijf61jmd9wp1i891bx08"
+   "commit": "1d184822bdcdc1d41536597b29948bc5a12a583e",
+   "sha256": "000q538f16xvf348035mj5ygbi8bppf4gwpp57404v9mvg21r14z"
   },
   "stable": {
    "version": [
@@ -109181,14 +109182,14 @@
   "repo": "swflint/retraction-viewer",
   "unstable": {
    "version": [
-    20250510,
-    1847
+    20250520,
+    1615
    ],
    "deps": [
     "plz"
    ],
-   "commit": "21fc8844a744b28153dff055cec6c6a3859b1529",
-   "sha256": "0fqsxzj45451sjzb2fhkangb891gzj2ccfbq0gxkr420av422fgv"
+   "commit": "8c913286dcb4bfdbb96c1e87770fae8ec644a966",
+   "sha256": "177xx9c1b7pgzgn7zqcbwpakjpb2004692rqqmvjnszn6g2hl2qm"
   },
   "stable": {
    "version": [
