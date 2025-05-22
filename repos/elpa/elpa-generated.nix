@@ -1084,10 +1084,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.0";
+      version = "2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cape-2.0.tar";
-        sha256 = "0llcvbqbr296niag7z60kqxpahcv1809734j7d9vnwpl3kgcxg9v";
+        url = "https://elpa.gnu.org/packages/cape-2.1.tar";
+        sha256 = "10g0nxdg6cb2v08qip8dskh1zkdqv23vy8x2f0lyscbmwi72zkrd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1526,10 +1526,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.3";
+      version = "2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-2.3.tar";
-        sha256 = "0rmb5j0kv36lqy135rknfabbzaa7cpfqsgzkicsyzbq3rh3nmf1p";
+        url = "https://elpa.gnu.org/packages/consult-2.4.tar";
+        sha256 = "1jiqgh0f9dnh954hf3vql6l2crfarfnfc9bg7nvisqi3wywd35mf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3373,10 +3373,10 @@
     elpaBuild {
       pname = "expreg";
       ename = "expreg";
-      version = "1.3.1";
+      version = "1.4.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/expreg-1.3.1.tar";
-        sha256 = "12msng4ypmw6s3pja66kkjxkbadla0fxmak1r3drxiihpwmh5zm6";
+        url = "https://elpa.gnu.org/packages/expreg-1.4.1.tar";
+        sha256 = "1m30d8yp46al7g1hakq95icmgjz0crcvj1h1yd6bj887v1nrnvkk";
       };
       packageRequires = [ ];
       meta = {
