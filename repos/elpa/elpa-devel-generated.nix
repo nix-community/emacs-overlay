@@ -2915,10 +2915,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250513.114504";
+      version = "1.18.0.20250521.224235";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250513.114504.tar";
-        sha256 = "0jgma92l0smvm8np78sx924dlvbli1j3pgjrpps8m7av7xjab5v1";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250521.224235.tar";
+        sha256 = "1fxgxhjrnra2x3cgvng97kwpb6r6i9n46swdailzhg56m498r8wx";
       };
       packageRequires = [
         eldoc
