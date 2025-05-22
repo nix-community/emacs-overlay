@@ -4162,10 +4162,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1.0.20250402.71553";
+      version = "2.9.1.0.20250521.131940";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250402.71553.tar";
-        sha256 = "0cnidaysnma7bvzzw5vbkggy3z9zq51zlg4k2kd5b1f8dagjlzv7";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250521.131940.tar";
+        sha256 = "1s5yrn1mqn3hhmi1dpgkzz4w1wbzawyksi5wl8cw1aav0j2xvnxr";
       };
       packageRequires = [ ];
       meta = {
@@ -4227,10 +4227,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250519.91508";
+      version = "1.0.20250521.90337";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250519.91508.tar";
-        sha256 = "0wp4wdi9r3bdfrzprh46af02jvswyp88nxnrdchdqfvywfbqhm0g";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250521.90337.tar";
+        sha256 = "1l8gjac0ls502sj7gpg4n9m6jj0qncjz4ql5qad6gxdycqd3dh8d";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5477,10 +5477,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.3.0.20250509.145538";
+      version = "3.4.3.0.20250521.153138";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.3.0.20250509.145538.tar";
-        sha256 = "1chrmrlxx61q1n2kqghka8vq2mj7rnk2slx8rfp7nkcsja4b6nz7";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.3.0.20250521.153138.tar";
+        sha256 = "0i1912zgn5v06pbbyw03vxhn329d58p39li6b8jxrniz74si3h7x";
       };
       packageRequires = [ compat ];
       meta = {
