@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.3.0.20250517.171551";
+      version = "1.3.0.20250521.181323";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.3.0.20250517.171551.tar";
-        sha256 = "0awqxazb0pvwqkld9xrcc8sfzyjrfbbzzr2jvjykypbfvalq33gd";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.3.0.20250521.181323.tar";
+        sha256 = "0az05802srf6fsv8sr5k6z5ar74c5cag69fb2l0svkdgbdnbaji9";
       };
       packageRequires = [
         compat
@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.19.0snapshot0.20250520.111021";
+      version = "1.19.0snapshot0.20250522.70452";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250520.111021.tar";
-        sha256 = "0xpkmpdipnfrksnhnr58fqnaa9bdzx1ysybf2csh0rszcmlbr1wb";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250522.70452.tar";
+        sha256 = "0fj9vynpwxwn2d0n23inkzjqmwdb8slap9swj2a8879k04qfxpg3";
       };
       packageRequires = [
         clojure-mode
@@ -2377,10 +2377,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250519.123354";
+      version = "0.9.8.0.20250522.4804";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250519.123354.tar";
-        sha256 = "1mv0yhajf2amwz4vli7qvnmyc3h8q9kwp97jxdldwrhhirwvyvbj";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250522.4804.tar";
+        sha256 = "1aj1rx6jvlgqqcp54jsr4vl6lfqn9mjg53j9c6vg31cp9vh3f8yi";
       };
       packageRequires = [
         compat
@@ -5108,10 +5108,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20250422.155540";
+      version = "0.2.1.0.20250521.182836";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250422.155540.tar";
-        sha256 = "02svdk7sas6xy2acqsm2d0qmafxp16qhb2p8n2mchg6aa3yldk9b";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250521.182836.tar";
+        sha256 = "0d1a2fqm2j60cz3ssqnmdvp0qd906i7wnxvn6nxmq6ny77lvhk0y";
       };
       packageRequires = [ ];
       meta = {
