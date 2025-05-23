@@ -2609,6 +2609,27 @@
       };
     }
   ) { };
+  doric-themes = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "doric-themes";
+      ename = "doric-themes";
+      version = "0.0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/doric-themes-0.0.1.tar";
+        sha256 = "13fk7q37cxw5pskmlqmhbxxndjm3sav9bvs55r81w6q14m1z0spr";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/doric-themes.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   drepl = callPackage (
     {
       comint-mime,

@@ -1386,10 +1386,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20250426.131956";
+      version = "1.0.2.0.20250522.193744";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20250426.131956.tar";
-        sha256 = "1lkrhb0xc9d2ylb85k49h62w9k3dnm4j2i6438xc2jkjrjids575";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20250522.193744.tar";
+        sha256 = "1h74h8rh3ya89ajfhkym879ll6v5qsvww4rjv0r1kn0yhhn79c3j";
       };
       packageRequires = [ ];
       meta = {
@@ -2206,10 +2206,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.1.1.0.20250521.81942";
+      version = "0.1.1.0.20250522.82830";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250521.81942.tar";
-        sha256 = "0cjis40q65cjv5qrhnybppn5lhz2ws0w2a21ran6ybkmkm6adwqf";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250522.82830.tar";
+        sha256 = "1g0fxfkj5asv0zixwril4di3sqbgb5hzph6mam1igz359nnkabc3";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2664,10 +2664,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.0.0.0.20250521.125218";
+      version = "0.0.1.0.20250522.54555";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.0.0.0.20250521.125218.tar";
-        sha256 = "1a2z3152p9ym83hpl7l20apaka6x1wxyaxnqdgbxqf4hrmnm9mj6";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.0.1.0.20250522.54555.tar";
+        sha256 = "0a57zm7gvn3137agg6n2h8xri626ki88a1q3zxxk5nghd8nbn53h";
       };
       packageRequires = [ ];
       meta = {
@@ -5630,10 +5630,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "6.3.0.20250519.162242";
+      version = "6.3.0.20250522.152143";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250519.162242.tar";
-        sha256 = "0myg4ncjf76drmc2bxqj6f2mcyqgjq5s0s48nrrw3gjqb553s4bb";
+        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250522.152143.tar";
+        sha256 = "1kl5kqfcmp4j2873b1y964gdl29ff2pjamfk2nkdiifsyl4yr7m3";
       };
       packageRequires = [ ];
       meta = {
