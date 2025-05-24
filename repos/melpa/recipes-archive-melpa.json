@@ -6891,11 +6891,11 @@
   "repo": "tinted-theming/base16-emacs",
   "unstable": {
    "version": [
-    20250420,
-    126
+    20250524,
+    658
    ],
-   "commit": "71e1ccc7bbc7a12b20b230944d91128f380e82db",
-   "sha256": "180q3jb1l2gyl2vpygf3vjr87zljmncxkb18gbshbxsbyrzb3cph"
+   "commit": "840a3ab3c7216e283133edb344447bcba267f7a5",
+   "sha256": "0gfmh4i6qviackajx99zw3n6ksjd99gkm89q9rbgh1c0hyr34s6b"
   },
   "stable": {
    "version": [
@@ -52913,15 +52913,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20250523,
-    2320
+    20250524,
+    720
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "09c6a6b6adaf411256439aac4477db914e590f98",
-   "sha256": "1v5v2zv36fz1cqww31p19ladjprwnx5ksbv1j5c9y8c3wgihb1h8"
+   "commit": "fc06fe9e3b0f5a269d9c8eaf7195de43d1fbee67",
+   "sha256": "0mvw25smil719q7dirvnn5l65ivzafgb6an3kv1a5hsdqdxwwxxv"
   },
   "stable": {
    "version": [
@@ -62102,11 +62102,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20250523,
-    647
+    20250524,
+    807
    ],
-   "commit": "8eaf97e901ab88704d8266daaf0a67309ba23850",
-   "sha256": "1dxgm8lhl7q90fjfzkphczzn4skwcr46g802kydr3gljv9snzivj"
+   "commit": "5b6855e2257bbccc5b898fac9dad5d85ac3ee79e",
+   "sha256": "1f0g0ffv36c9hwdjh89z4rixjdsv8s1y74f8rl4xlz6vjbkldkxk"
   },
   "stable": {
    "version": [
@@ -90689,7 +90689,7 @@
     20250520,
     205
    ],
-   "commit": "7c15b876ff8db998c8f5d4475f8c1342ccae5ac3",
+   "commit": "eff78856b3ba3382d3dae46eabae02f0dd210213",
    "sha256": "17szxnpp7b0f8rqfrg6pfcw288kfsj11s19x77bxbkzpnfxbj0pf"
   }
  },
@@ -91669,28 +91669,28 @@
   "repo": "meedstrom/org-mem",
   "unstable": {
    "version": [
-    20250523,
-    2301
+    20250524,
+    124
    ],
    "deps": [
     "el-job",
     "llama"
    ],
-   "commit": "f95e15619edc1f70d37592e66adcf1c25f0dd383",
-   "sha256": "1c1q9q1xrd9rj9yi5mqpjgcrn8hpmj34j1gsf7kb5jkv5dx7y42n"
+   "commit": "5c6ff07d8615414f4112406008f49f17ea9c1070",
+   "sha256": "0kwbfrwwj2jcb7hh7n3bdpibahwrl4q0zq8z6j05s1npprinjcyv"
   },
   "stable": {
    "version": [
     0,
     12,
-    3
+    4
    ],
    "deps": [
     "el-job",
     "llama"
    ],
-   "commit": "a3f242b50e00d4f96621965944a3028f1aab7427",
-   "sha256": "03p2grfr6nynja00pyp4m1fpmhf1zkg5m8s073mzjyngfz6p81h0"
+   "commit": "5c6ff07d8615414f4112406008f49f17ea9c1070",
+   "sha256": "0kwbfrwwj2jcb7hh7n3bdpibahwrl4q0zq8z6j05s1npprinjcyv"
   }
  },
  {
@@ -92031,30 +92031,30 @@
   "repo": "meedstrom/org-node",
   "unstable": {
    "version": [
-    20250523,
-    2211
+    20250524,
+    258
    ],
    "deps": [
     "llama",
     "magit-section",
     "org-mem"
    ],
-   "commit": "3a00d4f2c530ee57291878d065f493555422ca53",
-   "sha256": "1b01ny1s4050i4d75wj9xbnq1r89331xm82llhb1jdnjlpj3xl76"
+   "commit": "20d4e8570beb46c33460112e6692af781f87aa0f",
+   "sha256": "1dqsr5pr4lzyqpj5azd3cc6zdq7abi9ihqldj1dhppfjbw7cc84q"
   },
   "stable": {
    "version": [
     3,
     3,
-    7
+    9
    ],
    "deps": [
     "llama",
     "magit-section",
     "org-mem"
    ],
-   "commit": "755645cd59b0ecb9c7a77b5279e95446bc5c38cc",
-   "sha256": "1fj2wij16f26cy9xnjncphwzdh785fs93yg5gpzgnhnlpqv862ni"
+   "commit": "20d4e8570beb46c33460112e6692af781f87aa0f",
+   "sha256": "1dqsr5pr4lzyqpj5azd3cc6zdq7abi9ihqldj1dhppfjbw7cc84q"
   }
  },
  {
@@ -98868,11 +98868,11 @@
   "repo": "lorniu/pdd.el",
   "unstable": {
    "version": [
-    20250523,
-    532
+    20250524,
+    251
    ],
-   "commit": "b82a34b3dd2a70cddf74de2d29fc8754a50548b6",
-   "sha256": "073fmcw9gqzxqwilyii82p9kdwn6q8mq3a5z0wlffy4c9l2ak2xi"
+   "commit": "5d69a15d4bfbe219ca698673f7a4913a354885eb",
+   "sha256": "10nl75klc67v0rvlzcp82yh9v4412p36q30n1frg32w2wxdq7j4r"
   }
  },
  {
@@ -120399,14 +120399,14 @@
   "repo": "swift-emacs/swift-mode",
   "unstable": {
    "version": [
-    20250517,
-    1309
+    20250524,
+    530
    ],
    "deps": [
     "seq"
    ],
-   "commit": "b79f0542bac8e7d740244a1d4c61180101bccf7e",
-   "sha256": "0pg023gh2bh4df9pdvjxlfvz0kf8h4v94fcggyqf7n8ka6qm7gx1"
+   "commit": "839e46d1621a60ed79e3cfe01266dc27721654bd",
+   "sha256": "18khhvs9r1wafh25y4l0i8frqw2nyg05xmzsgh4b00vvs77b3c86"
   },
   "stable": {
    "version": [
@@ -125096,14 +125096,14 @@
   "repo": "holomorph/transmission",
   "unstable": {
    "version": [
-    20221130,
-    212
+    20250524,
+    340
    ],
    "deps": [
     "let-alist"
    ],
-   "commit": "243d5dc15917df2611fd0c9f288faea17a00a396",
-   "sha256": "1dp1ypz0vwcggp09rwr1d7dh34d05vlxz0mvry9p44g58dc99cz0"
+   "commit": "ae36637fe63e530c7b8baa59bf566a99e40fbfe4",
+   "sha256": "0ilg549gsza7adfwmivw52z5533zirrv17h41xk3ij6igwg1fk8c"
   },
   "stable": {
    "version": [
