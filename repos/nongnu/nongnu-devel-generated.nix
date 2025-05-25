@@ -1723,10 +1723,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0.0.20250424.133949";
+      version = "35.0.0.20250524.163328";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20250424.133949.tar";
-        sha256 = "1k54zvcrl3wms2bsza44h56kxbwjqpaym4p70a6dxxw3ac60jlfq";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20250524.163328.tar";
+        sha256 = "1vqg9mw36qsfj738yfdjsrkb54xcyl034vkahnshngynhhf8ybqf";
       };
       packageRequires = [ ];
       meta = {
@@ -2377,10 +2377,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250524.2057";
+      version = "0.9.8.0.20250524.14010";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250524.2057.tar";
-        sha256 = "0jhbsmd9xvh28aprplnj6fif7ypmyfzrlzcv2vk0jspx9l4yi5l5";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250524.14010.tar";
+        sha256 = "0xrqx587svs3za0gggcxalanp7vnpn3mjxi49gdbxnkb0h94fcn9";
       };
       packageRequires = [
         compat
@@ -2856,10 +2856,10 @@
     elpaBuild {
       pname = "inf-clojure";
       ename = "inf-clojure";
-      version = "3.2.1.0.20230909.44557";
+      version = "3.2.1.0.20250524.191502";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/inf-clojure-3.2.1.0.20230909.44557.tar";
-        sha256 = "0ncdqbz8z8wrcf3s1y3n1b11b7k3mwxdk4w5v7pr0j6jn3yfnbby";
+        url = "https://elpa.nongnu.org/nongnu-devel/inf-clojure-3.2.1.0.20250524.191502.tar";
+        sha256 = "0iigigjs2dx1iik4dm0nicy2nyzs8pvwr10ga09vi1jyyx9jinfv";
       };
       packageRequires = [ clojure-mode ];
       meta = {
