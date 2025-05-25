@@ -2223,8 +2223,8 @@
   "repo": "tninja/aider.el",
   "unstable": {
    "version": [
-    20250524,
-    2029
+    20250525,
+    307
    ],
    "deps": [
     "magit",
@@ -2232,8 +2232,8 @@
     "s",
     "transient"
    ],
-   "commit": "9ce32910a5268a9eeaea5c643d9f68dedca571cf",
-   "sha256": "05zgkdsrxsrvq2idc8v20h422m73byca8yaawqf3n73byzfs86bj"
+   "commit": "38f87a0d00cd0e7870b1964971864d72f30d3494",
+   "sha256": "0k2mdk9i1q9b5hlw211b82659pffhk1ppwyjk1k7rx2xcf0qa3ff"
   },
   "stable": {
    "version": [
@@ -6891,11 +6891,11 @@
   "repo": "tinted-theming/base16-emacs",
   "unstable": {
    "version": [
-    20250524,
-    658
+    20250525,
+    140
    ],
-   "commit": "840a3ab3c7216e283133edb344447bcba267f7a5",
-   "sha256": "0gfmh4i6qviackajx99zw3n6ksjd99gkm89q9rbgh1c0hyr34s6b"
+   "commit": "178d602a5433ce7268f9d27a684622e16df442ef",
+   "sha256": "0wffxnnlwqkfd6hi87wlw0pqdaj5aq6rapibn0wv1a6cdmr94cz4"
   },
   "stable": {
    "version": [
@@ -68715,14 +68715,14 @@
   "repo": "FelipeLema/julia-formatter.el",
   "unstable": {
    "version": [
-    20250320,
-    2047
+    20250524,
+    2338
    ],
    "deps": [
     "session-async"
    ],
-   "commit": "a94b9ff00af3d64a08d447c90bcc2a4499eae55d",
-   "sha256": "0llhazgwjnypdkfy2yipr4k1w3zrpv4xnpsnlmpm6375gw5s7yp4"
+   "commit": "a2d86565b1d74a7fa1667468fe17e20aa0dfc0b9",
+   "sha256": "176kf4q8k64mm4pqiy8pq30ifrsizr642cf8di38swa8mjv8bh7h"
   }
  },
  {
@@ -78305,11 +78305,11 @@
   "repo": "mathworks/Emacs-MATLAB-Mode",
   "unstable": {
    "version": [
-    20250524,
-    1611
+    20250525,
+    32
    ],
-   "commit": "7d0d26a0312cf3a7b0cb07ff982f1b5274f96424",
-   "sha256": "0xfcxcmskp538cvsy2w61pg6w953kd6w1i6cx4rkghag3m414fm3"
+   "commit": "f744cc2bd2fa2b8402a5d3d4229274304033a1d5",
+   "sha256": "12i33cc3nz8lyivizq6fxlvph1jw9k2nw4zabkmz62nyydv3i3jb"
   },
   "stable": {
    "version": [
@@ -91500,15 +91500,15 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20250524,
-    1617
+    20250525,
+    338
    ],
    "deps": [
     "nerd-icons",
     "qrencode"
    ],
-   "commit": "8f88b821c5787a2961c6b7ab2f2d71d2e817a7d6",
-   "sha256": "015h3x5hxyz2rymxj3dj4ww44ilfcvv51a5p53kk2ld3g8613r1r"
+   "commit": "507002b7b4baa1e182120ca417cd37de580e9b39",
+   "sha256": "0drm1i814zx3g6jv35798xcjckppvmdl768x6zw25vclql26svp2"
   },
   "stable": {
    "version": [
@@ -93087,8 +93087,8 @@
   "repo": "org-roam/org-roam",
   "unstable": {
    "version": [
-    20250324,
-    2140
+    20250525,
+    606
    ],
    "deps": [
     "dash",
@@ -93096,24 +93096,23 @@
     "magit-section",
     "org"
    ],
-   "commit": "046822b512ffecdee7d110f73dd3a511802ca590",
-   "sha256": "0jbj48glh0r6fkb0lk1xb9067x2myp3krkw2byycijwdq1nlqzv2"
+   "commit": "2ff616fbd8277bd797254befe34d5036b35a7dbf",
+   "sha256": "00ijpvsghak5d9p703gnyaksfbniwj062qids0m8xkvvxbzqsdda"
   },
   "stable": {
    "version": [
     2,
-    2,
-    2
+    3,
+    0
    ],
    "deps": [
     "dash",
     "emacsql",
-    "emacsql-sqlite",
     "magit-section",
     "org"
    ],
-   "commit": "69116a4da49448e79ac03aedceeecd9f5ae9b2d4",
-   "sha256": "09wcqdqy2gcsyd1mbcm90b70y3qj921m4ky8l3avhzpdwgyw8wy5"
+   "commit": "2ff616fbd8277bd797254befe34d5036b35a7dbf",
+   "sha256": "00ijpvsghak5d9p703gnyaksfbniwj062qids0m8xkvvxbzqsdda"
   }
  },
  {
@@ -98868,11 +98867,11 @@
   "repo": "lorniu/pdd.el",
   "unstable": {
    "version": [
-    20250524,
-    1443
+    20250525,
+    418
    ],
-   "commit": "c47a49f484e769a352b56501dc0bcf9258a23a2f",
-   "sha256": "1680zpqr20scj6kirmj6zwids5wq7g6cd5cw1xk1ya99h6iqybwg"
+   "commit": "353301396497c3f37a43f9af51c89d5feb47320a",
+   "sha256": "1jysz0sq2w39fa0737sxqxgi9i7hmqzd34lfx0rd9snlxxlsff12"
   }
  },
  {
