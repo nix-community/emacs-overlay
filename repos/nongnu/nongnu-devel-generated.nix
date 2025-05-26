@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.4.0.20250523.1243";
+      version = "1.4.0.20250525.105531";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250523.1243.tar";
-        sha256 = "1wxmzhsnbdnfwr9wlgyyk7f22zp0icw7cgzv138smp2f4n1dsn35";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250525.105531.tar";
+        sha256 = "0igvza5616dravqs8jk91cbd2x66hbliz8g3js861a3hcqcs4kvd";
       };
       packageRequires = [
         compat
@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.19.0snapshot0.20250522.70452";
+      version = "1.19.0snapshot0.20250525.121903";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250522.70452.tar";
-        sha256 = "0fj9vynpwxwn2d0n23inkzjqmwdb8slap9swj2a8879k04qfxpg3";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250525.121903.tar";
+        sha256 = "0cw7lj2d24cq8isqq5c7x428g7q21yya3d6zv2pipchasbzbdmqy";
       };
       packageRequires = [
         clojure-mode
@@ -716,10 +716,10 @@
     elpaBuild {
       pname = "crux";
       ename = "crux";
-      version = "0.6.0snapshot0.20250421.93605";
+      version = "0.6.0snapshot0.20250525.163240";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20250421.93605.tar";
-        sha256 = "1kzscg15rb237q0y9brl9xbb5z5ygfq6malzhr3axlx2r20xgdi4";
+        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20250525.163240.tar";
+        sha256 = "07rdz5ns0bh8qgndz7q0xqymcpyvcgl3c1h4f2hajr2jqjbhhdv2";
       };
       packageRequires = [ ];
       meta = {
@@ -2856,10 +2856,10 @@
     elpaBuild {
       pname = "inf-clojure";
       ename = "inf-clojure";
-      version = "3.2.1.0.20250524.191502";
+      version = "3.3.0snapshot0.20250525.132658";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/inf-clojure-3.2.1.0.20250524.191502.tar";
-        sha256 = "0iigigjs2dx1iik4dm0nicy2nyzs8pvwr10ga09vi1jyyx9jinfv";
+        url = "https://elpa.nongnu.org/nongnu-devel/inf-clojure-3.3.0snapshot0.20250525.132658.tar";
+        sha256 = "0b8vyniq1gscmnnxlkk147jh57a70jdrsa5ml0krlr19js8ji5x3";
       };
       packageRequires = [ clojure-mode ];
       meta = {
@@ -3716,10 +3716,10 @@
     elpaBuild {
       pname = "org-journal";
       ename = "org-journal";
-      version = "2.2.0.0.20250425.93636";
+      version = "2.2.0.0.20250525.35745";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-journal-2.2.0.0.20250425.93636.tar";
-        sha256 = "0si4zircvmqkh1rk46gs102w0a6kaqx1jc5pr5zk90bgah54jy8f";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-journal-2.2.0.0.20250525.35745.tar";
+        sha256 = "0b00a6sn1ykqzz4f9zqi3z0n586n6q9swf92af3kxc9157av9wq5";
       };
       packageRequires = [ org ];
       meta = {
@@ -4162,10 +4162,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1.0.20250521.131940";
+      version = "2.9.1.0.20250525.163148";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250521.131940.tar";
-        sha256 = "1s5yrn1mqn3hhmi1dpgkzz4w1wbzawyksi5wl8cw1aav0j2xvnxr";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250525.163148.tar";
+        sha256 = "028mfjqsjmj3qp0kbw6z9ndlqdx8iqgc5ql7hrs0xh1z1i9mjfcs";
       };
       packageRequires = [ ];
       meta = {
