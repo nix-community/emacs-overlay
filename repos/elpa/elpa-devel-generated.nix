@@ -1546,10 +1546,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.4.0.20250524.152211";
+      version = "2.4.0.20250525.165351";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.4.0.20250524.152211.tar";
-        sha256 = "045hxcrvix0sy6gz3nqs58pfb2f3j517qqx4wgmv6f5fbaayb2i8";
+        url = "https://elpa.gnu.org/devel/consult-2.4.0.20250525.165351.tar";
+        sha256 = "19cb87nm1n70lqi0y1khjlrg4jghwdsdizlsg67jbiw88qif9lv3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250521.104044";
+      version = "4.0.0.0.20250525.143413";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250521.104044.tar";
-        sha256 = "0wafn4yppcjwx6kvm4nvr27y3nrmi1h2flw3mhkkwda2k9haay43";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250525.143413.tar";
+        sha256 = "1n6zjpx5qbwahvnmj3al4xx17f6vrh6apll4vyla5xingp3h4mf5";
       };
       packageRequires = [ ];
       meta = {
@@ -2664,10 +2664,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.0.1.0.20250525.75609";
+      version = "0.0.1.0.20250525.81443";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.0.1.0.20250525.75609.tar";
-        sha256 = "1y7cxcxb61p2n1m3xippqacmwls6w20kng6igpffq5ss5h8ibh1k";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.0.1.0.20250525.81443.tar";
+        sha256 = "0gdy70cak66jwpri4qdc30cpsdyf18ywgywa652sqw73vd0jf9vw";
       };
       packageRequires = [ ];
       meta = {
@@ -5630,10 +5630,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "6.3.0.20250524.204552";
+      version = "6.3.0.20250525.81922";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250524.204552.tar";
-        sha256 = "0cpml2vqf6vnhx7wcxf1bfvfz91l8djks8zbi932b010n2vzfgz7";
+        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250525.81922.tar";
+        sha256 = "132ksq843lmcask505majg6qgh2xmgf5j6g2gdaf0da81rvhcbgs";
       };
       packageRequires = [ ];
       meta = {
@@ -7197,10 +7197,10 @@
     elpaBuild {
       pname = "polymode";
       ename = "polymode";
-      version = "0.2.2.0.20250511.135208";
+      version = "0.2.2.0.20250525.173634";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250511.135208.tar";
-        sha256 = "1l5x9y6m8la0rlz56s1iqlqfr9v5gq0wfykiv8gir8sk0xgnz315";
+        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250525.173634.tar";
+        sha256 = "1rgcd1c1sqj3xw9c5zxaqf34d1xiimn0b2kj8gdgzyz9v9clg4ig";
       };
       packageRequires = [ ];
       meta = {
@@ -10003,10 +10003,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.1.0.20250516.184229";
+      version = "2.1.0.20250525.165512";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.1.0.20250516.184229.tar";
-        sha256 = "07dmj8p760c13grz45fc1wvpy7li2xvqg6scy7jx3jc9j5gdqdk9";
+        url = "https://elpa.gnu.org/devel/vertico-2.1.0.20250525.165512.tar";
+        sha256 = "0cx16i8rnzkpc8vgbn82q0bbfhmvbagmg0ivvnj11l6pgg4lkww3";
       };
       packageRequires = [ compat ];
       meta = {
