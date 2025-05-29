@@ -1639,10 +1639,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.1";
+      version = "2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/corfu-2.1.tar";
-        sha256 = "07ffi16b2ay1rcc8bdryg1h901pjbhfaq1qqsm463iis490rzm81";
+        url = "https://elpa.gnu.org/packages/corfu-2.2.tar";
+        sha256 = "17armdh7369fyvxjbj7sv6vawy6mw72vsw4sqf21ra7q2m3h2vca";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2618,10 +2618,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.0.1";
+      version = "0.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/doric-themes-0.0.1.tar";
-        sha256 = "13fk7q37cxw5pskmlqmhbxxndjm3sav9bvs55r81w6q14m1z0spr";
+        url = "https://elpa.gnu.org/packages/doric-themes-0.1.0.tar";
+        sha256 = "12aj50hs7yydr40fj5wlzc8k7a1r2pl6r6gsmd5629bmhd8albmr";
       };
       packageRequires = [ ];
       meta = {
@@ -4792,10 +4792,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.1";
+      version = "2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jinx-2.1.tar";
-        sha256 = "1v4a00bgs6qcpim861kky1i2w0qfn2hza9vj0inn7lh1sic82rkm";
+        url = "https://elpa.gnu.org/packages/jinx-2.2.tar";
+        sha256 = "17f7p7q21f0l8zzr2z05y6mzrh6pw036cnp1375hbssnpsrh3wc1";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6497,16 +6497,20 @@
       elpaBuild,
       fetchurl,
       lib,
+      org,
     }:
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.7";
+      version = "1.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-modern-1.7.tar";
-        sha256 = "0f1i28x7a9m69xjl3n4bb91pjxm21xw1byhqilyw524y8s22j3wm";
+        url = "https://elpa.gnu.org/packages/org-modern-1.8.tar";
+        sha256 = "0ibn6xwssg2llb6hgpbg0p62995skc6g1g469cr58wlb6xb2qxvl";
       };
-      packageRequires = [ compat ];
+      packageRequires = [
+        compat
+        org
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/org-modern.html";
         license = lib.licenses.free;
@@ -9826,10 +9830,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.1";
+      version = "2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-2.1.tar";
-        sha256 = "03xkl8df90gs26cy00qbk0w23192bkaj32fgaf1w3ajq7mdvfd6p";
+        url = "https://elpa.gnu.org/packages/vertico-2.2.tar";
+        sha256 = "1mb2j32wkcv7j310xwhf9pjddf0b85ffna84ywbbnyn9x1xb8qyf";
       };
       packageRequires = [ compat ];
       meta = {
