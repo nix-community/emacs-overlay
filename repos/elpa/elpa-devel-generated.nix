@@ -2664,10 +2664,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.1.0.0.20250528.34615";
+      version = "0.1.0.0.20250529.45709";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250528.34615.tar";
-        sha256 = "00mbl6md23g6lf3yc5xzil509qai0r13aw32ajkvqc8b8rpinvnm";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250529.45709.tar";
+        sha256 = "1lvk7y6bia6c3zw6slmfwz03kyzc05d0z8d62p9rmy7w5k3kwbhs";
       };
       packageRequires = [ ];
       meta = {
@@ -5630,10 +5630,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "6.3.0.20250527.135136";
+      version = "6.3.0.20250528.210256";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250527.135136.tar";
-        sha256 = "0b94aszx58w7rfzd69i9qgfznys4fflasvynabwzlghw4n1z61pv";
+        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250528.210256.tar";
+        sha256 = "0kk3pd5f3scm8mw907zxvzadwb14hcc74wjnrm8yj0sp7mg5qvrv";
       };
       packageRequires = [ ];
       meta = {
