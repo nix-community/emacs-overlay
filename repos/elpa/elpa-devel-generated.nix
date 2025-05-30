@@ -1546,10 +1546,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.4.0.20250527.213815";
+      version = "2.4.0.20250529.81641";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.4.0.20250527.213815.tar";
-        sha256 = "1h943yjfbi7w0xvn9zvyfzmp1alh29ni89g1fm1x49q96vjx5kgy";
+        url = "https://elpa.gnu.org/devel/consult-2.4.0.20250529.81641.tar";
+        sha256 = "1q5iafzpy48ghd31r6c2dyxa4d72m8yr99wcva91nxb0s3kfrgsn";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1940,10 +1940,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250509.163537";
+      version = "0.24.1.0.20250529.103551";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250509.163537.tar";
-        sha256 = "0r0kjrzqw0dlj0vw7lgsc2mg2sr0js1aambkwc3qvf57jp875jwb";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250529.103551.tar";
+        sha256 = "0wyhcncgxqp9jc65k8zwha21rvgxk0zfm79psmwz9i64rg9j9bn1";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -4519,10 +4519,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.4.0.20250523.201734";
+      version = "0.8.4.0.20250529.124834";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.4.0.20250523.201734.tar";
-        sha256 = "1vh9g4kyvyqz6fhyky8cv4x4lw7c4dxn6nlxf88vlfc07iy6hl5p";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.4.0.20250529.124834.tar";
+        sha256 = "0bxcbwhnn9v5km4zj6im4k0xrakxwp8clvsrl13yjkpag00m1nz8";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5630,10 +5630,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "6.3.0.20250528.210256";
+      version = "6.3.0.20250529.135623";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250528.210256.tar";
-        sha256 = "0kk3pd5f3scm8mw907zxvzadwb14hcc74wjnrm8yj0sp7mg5qvrv";
+        url = "https://elpa.gnu.org/devel/matlab-mode-6.3.0.20250529.135623.tar";
+        sha256 = "1i1s4mns33q7r0rrmb2b901mik7jc1kkaq1axqhl7f7fsciiqiwl";
       };
       packageRequires = [ ];
       meta = {
@@ -7347,10 +7347,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20250428.24648";
+      version = "0.11.1.0.20250529.192738";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250428.24648.tar";
-        sha256 = "142jsslwxg2s590szngpzm2srw1n7qdvl3gzbqrnngy91wpv7n9a";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250529.192738.tar";
+        sha256 = "1p3g2h7yakj8vzffyilsgqifdrv2mdvl8zpqjv2x7dp3ljs79cqn";
       };
       packageRequires = [ xref ];
       meta = {
