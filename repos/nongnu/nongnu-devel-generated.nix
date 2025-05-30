@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.19.0snapshot0.20250529.104404";
+      version = "1.19.0snapshot0.20250530.75900";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250529.104404.tar";
-        sha256 = "1n4l6n7na7hvkzl8pynah1i8apx3xv87s8xx38a79qgfi49x8dgk";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250530.75900.tar";
+        sha256 = "0d111svx7n094imprnj63kc8zpjdp1h4gg8wsznzx6pij137y72k";
       };
       packageRequires = [
         clojure-mode
@@ -2270,10 +2270,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.8.1.0.20250529.101625";
+      version = "0.8.1.0.20250529.225145";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.8.1.0.20250529.101625.tar";
-        sha256 = "1p46w73i4i288bi5np6ydrzkllzpx963k5f1cgy4hdwgwgfp189c";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.8.1.0.20250529.225145.tar";
+        sha256 = "0z3qjccycvhnpnaz6wbmz5v4pprp6wjwbls3xlbs8mk32n319wvl";
       };
       packageRequires = [ ];
       meta = {
@@ -2377,10 +2377,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250529.11226";
+      version = "0.9.8.0.20250529.230850";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250529.11226.tar";
-        sha256 = "0dl1kqabsqvfhlk5c45xak57a2pav4xg1k8xn86s9va052nb60p5";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250529.230850.tar";
+        sha256 = "1xza3riy1799sbqy2f5h1q5d1lpr8rl6xvbknxv51zmp74mnajkg";
       };
       packageRequires = [
         compat
