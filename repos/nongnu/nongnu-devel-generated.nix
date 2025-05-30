@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.19.0snapshot0.20250527.102329";
+      version = "1.19.0snapshot0.20250529.104404";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250527.102329.tar";
-        sha256 = "060084j4jici563n4glf20b7iff4w85b97dnhnsxsck0rs819k3k";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250529.104404.tar";
+        sha256 = "1n4l6n7na7hvkzl8pynah1i8apx3xv87s8xx38a79qgfi49x8dgk";
       };
       packageRequires = [
         clojure-mode
@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.5.0snapshot0.20250527.155119";
+      version = "0.5.0snapshot0.20250529.95839";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.5.0snapshot0.20250527.155119.tar";
-        sha256 = "029xz1qqlpalbhk1cxqqahx1f1gwbfsig8d8f85lcg6brca162c1";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.5.0snapshot0.20250529.95839.tar";
+        sha256 = "1bbg9clgirn2r7zx9xgifn48h4phfy8skayyw3wvv1wz46bqvk2c";
       };
       packageRequires = [ ];
       meta = {
@@ -1227,10 +1227,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.3.0.0.20250509.141847";
+      version = "4.3.0.0.20250529.95634";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.3.0.0.20250509.141847.tar";
-        sha256 = "140mzggvkfjgfx52q4zahbbskcqcbv6vxpw7k9ky9hawr30gbq0a";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.3.0.0.20250529.95634.tar";
+        sha256 = "1q5jf8fbh7kj7lfm7qh2n6v3admqcdi7mgjbf9lr0j5zzfyz3bbc";
       };
       packageRequires = [ ];
       meta = {
@@ -2270,10 +2270,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.8.1.0.20250528.114141";
+      version = "0.8.1.0.20250529.101625";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.8.1.0.20250528.114141.tar";
-        sha256 = "0q7za19lwvrn0grp2y7nir4s87qqj2naqpvz1kw91ncr2lk4fbdx";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.8.1.0.20250529.101625.tar";
+        sha256 = "1p46w73i4i288bi5np6ydrzkllzpx963k5f1cgy4hdwgwgfp189c";
       };
       packageRequires = [ ];
       meta = {
@@ -2377,10 +2377,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250529.4548";
+      version = "0.9.8.0.20250529.11226";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250529.4548.tar";
-        sha256 = "0yz0apj4160cn0b7pl6rljvm23yahpxvw2w6diad1l6axv32k0v8";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250529.11226.tar";
+        sha256 = "0dl1kqabsqvfhlk5c45xak57a2pav4xg1k8xn86s9va052nb60p5";
       };
       packageRequires = [
         compat
