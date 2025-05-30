@@ -1298,10 +1298,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.3";
+      version = "1.2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/colorful-mode-1.2.3.tar";
-        sha256 = "0y8bsmb27lxa87a9q9vk36dx914dl07np3bkyn019p2ak73wakgk";
+        url = "https://elpa.gnu.org/packages/colorful-mode-1.2.4.tar";
+        sha256 = "18gymjgsa5hxzy502b7mi99d8sypnn07i9934k4bj1py1xwl8q2b";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9187,10 +9187,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.2.3.1";
+      version = "2.7.2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.7.2.3.1.tar";
-        sha256 = "171jmgb9sdj1iqq6a77kxin15yik952vvavhpvdr0wxhdq095mgg";
+        url = "https://elpa.gnu.org/packages/tramp-2.7.2.4.tar";
+        sha256 = "0crlnb421z99vnbvzbq63cqhfy62q96j45qhrzx2v3kajijv77ha";
       };
       packageRequires = [ ];
       meta = {

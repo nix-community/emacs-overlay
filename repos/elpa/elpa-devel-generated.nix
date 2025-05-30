@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.3.0.0.20250410.82528";
+      version = "1.3.0.0.20250530.55351";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.3.0.0.20250410.82528.tar";
-        sha256 = "1rdq1yrszn22np2maibn54qrq1d5231a34l9xrczi13fv0b6sah2";
+        url = "https://elpa.gnu.org/devel/beframe-1.3.0.0.20250530.55351.tar";
+        sha256 = "1f9gf6cy46dd52701vg8xnm8nmbqk09c2xwhcz03f3djbd1fxhjl";
       };
       packageRequires = [ ];
       meta = {
@@ -1318,10 +1318,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.3.0.20250527.202632";
+      version = "1.2.4.0.20250529.222523";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.3.0.20250527.202632.tar";
-        sha256 = "0j3viw2257dk4pfsd2bh0qqnrcq5dp3qbskzpd73hj7q49npb2wn";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.4.0.20250529.222523.tar";
+        sha256 = "1g1x1p6ayy6nqmhj109k3y4bddas0bdljia5rwzkkysfqqxj8rqr";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4519,10 +4519,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.4.0.20250529.124834";
+      version = "0.8.4.0.20250529.164202";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.4.0.20250529.124834.tar";
-        sha256 = "0bxcbwhnn9v5km4zj6im4k0xrakxwp8clvsrl13yjkpag00m1nz8";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.8.4.0.20250529.164202.tar";
+        sha256 = "1zwrd6g43qqzm1kzacpgq6m20kir3m2r94li8yx74vqpw9cca8hp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6450,10 +6450,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250527.62131";
+      version = "9.8pre0.20250529.210300";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250527.62131.tar";
-        sha256 = "0brp9h8xw79vfpd559n36d0if7g1irnc0n1d1zzaisr5nm6dw7vn";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250529.210300.tar";
+        sha256 = "1nnas0kdnymi6c8m7i683cacimzfjvakmy5c347ayqq9z161jv78";
       };
       packageRequires = [ ];
       meta = {
@@ -9365,10 +9365,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.2.3.1.0.20250408.65900";
+      version = "2.7.2.4.0.20250530.70623";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.7.2.3.1.0.20250408.65900.tar";
-        sha256 = "0fl70dainnhz78bx611x4295ic751d4ranz9zh89xdygaj6hvzz8";
+        url = "https://elpa.gnu.org/devel/tramp-2.7.2.4.0.20250530.70623.tar";
+        sha256 = "10vhj25haax1gj45cka8678i81lygr7v122j9wm7f3qcvxk68snb";
       };
       packageRequires = [ ];
       meta = {
