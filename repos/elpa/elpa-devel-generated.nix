@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.3.0.0.20250530.55351";
+      version = "1.3.0.0.20250531.40425";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.3.0.0.20250530.55351.tar";
-        sha256 = "1f9gf6cy46dd52701vg8xnm8nmbqk09c2xwhcz03f3djbd1fxhjl";
+        url = "https://elpa.gnu.org/devel/beframe-1.3.0.0.20250531.40425.tar";
+        sha256 = "0ch7sgadlgd70xf6hbx9d8q9zgrdz87xirlvknxvl8r9js61d9w9";
       };
       packageRequires = [ ];
       meta = {
@@ -2664,10 +2664,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.1.0.0.20250530.91206";
+      version = "0.1.0.0.20250531.65257";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250530.91206.tar";
-        sha256 = "153gnj81lw4z6mrw509jv3022nnyqrxmk5fga7dqnmzpkydxbp8c";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250531.65257.tar";
+        sha256 = "0rk235jglj6352iylrp77nv36cl8c1jigw4w8n0i66jq4l4lv21y";
       };
       packageRequires = [ ];
       meta = {
@@ -7197,10 +7197,10 @@
     elpaBuild {
       pname = "polymode";
       ename = "polymode";
-      version = "0.2.2.0.20250525.212258";
+      version = "0.2.2.0.20250531.73850";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250525.212258.tar";
-        sha256 = "1p0whbfzcd0fl8yz9id7sinmdyavb905aa826x25gdc9fpmlr01r";
+        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250531.73850.tar";
+        sha256 = "1cljncpkxwxdh1c39nz03snnx167fxa617i1cafa48sjzx1yrayx";
       };
       packageRequires = [ ];
       meta = {
