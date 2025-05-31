@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.4.0.20250529.13102";
+      version = "1.4.0.20250531.24022";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250529.13102.tar";
-        sha256 = "0hsmzp9axsaiqvsw6y75s5yjn9imwhbl609py2xf8lys4jfj8xzg";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250531.24022.tar";
+        sha256 = "0i1qgl2yfnwqnbdbwcbkismlrbbal1iwsslz4l354sjrvj4wx69h";
       };
       packageRequires = [
         compat
@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.5.0snapshot0.20250530.85704";
+      version = "0.5.0snapshot0.20250531.70457";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.5.0snapshot0.20250530.85704.tar";
-        sha256 = "13iwffh76x4463kjsg1kxbvaainq7ikn5idj03az9r8gdijbwz3g";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.5.0snapshot0.20250531.70457.tar";
+        sha256 = "0xdnr7fay1xhwg629zw5akva6q5hclv805y5hk1yxvxrj6iq5fr4";
       };
       packageRequires = [ ];
       meta = {
@@ -2270,10 +2270,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.9.0.20250530.193710";
+      version = "0.9.0.20250530.223436";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.9.0.20250530.193710.tar";
-        sha256 = "1wbdpa3w8zsqzlhi28kcczxjrxw3jmysm0i1frbzkmw01cgpqjzp";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.9.0.20250530.223436.tar";
+        sha256 = "1626g9481g0qx8cps6wycs5c2dadmf7038lfcy0ylwp7sansky5n";
       };
       packageRequires = [ ];
       meta = {
@@ -2377,10 +2377,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250529.230850";
+      version = "0.9.8.0.20250530.235851";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250529.230850.tar";
-        sha256 = "1xza3riy1799sbqy2f5h1q5d1lpr8rl6xvbknxv51zmp74mnajkg";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250530.235851.tar";
+        sha256 = "004bw2wz17vjq9wgafn4l63ra2llh8p49nwparir1w4hx3xnb1gm";
       };
       packageRequires = [
         compat
