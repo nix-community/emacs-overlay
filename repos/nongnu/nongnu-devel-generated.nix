@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.19.0snapshot0.20250530.75900";
+      version = "1.19.0snapshot0.20250530.85125";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250530.75900.tar";
-        sha256 = "0d111svx7n094imprnj63kc8zpjdp1h4gg8wsznzx6pij137y72k";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250530.85125.tar";
+        sha256 = "1mnafkqypqc01ggqa91gxr4m1q8l4hz9i2n8mbqwck4c72zph6k9";
       };
       packageRequires = [
         clojure-mode
@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.5.0snapshot0.20250529.95839";
+      version = "0.5.0snapshot0.20250530.85704";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.5.0snapshot0.20250529.95839.tar";
-        sha256 = "1bbg9clgirn2r7zx9xgifn48h4phfy8skayyw3wvv1wz46bqvk2c";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.5.0snapshot0.20250530.85704.tar";
+        sha256 = "13iwffh76x4463kjsg1kxbvaainq7ikn5idj03az9r8gdijbwz3g";
       };
       packageRequires = [ ];
       meta = {
@@ -2270,10 +2270,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.8.1.0.20250529.225145";
+      version = "0.9.0.20250530.193710";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.8.1.0.20250529.225145.tar";
-        sha256 = "0z3qjccycvhnpnaz6wbmz5v4pprp6wjwbls3xlbs8mk32n319wvl";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.9.0.20250530.193710.tar";
+        sha256 = "1wbdpa3w8zsqzlhi28kcczxjrxw3jmysm0i1frbzkmw01cgpqjzp";
       };
       packageRequires = [ ];
       meta = {
