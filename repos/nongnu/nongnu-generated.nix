@@ -2196,10 +2196,10 @@
     elpaBuild {
       pname = "git-modes";
       ename = "git-modes";
-      version = "1.4.4";
+      version = "1.4.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/git-modes-1.4.4.tar";
-        sha256 = "161n8anh3i7aj9995nry879kkfvawm1dkzlxdqfwmzl85g8yqx58";
+        url = "https://elpa.nongnu.org/nongnu/git-modes-1.4.5.tar";
+        sha256 = "0m4z6hvm6zf90lbdhkny8fcj4k1y9bqwcxj4ikv51xhz03604l4d";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3046,10 +3046,10 @@
     elpaBuild {
       pname = "keycast";
       ename = "keycast";
-      version = "1.4.3";
+      version = "1.4.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/keycast-1.4.3.tar";
-        sha256 = "1d0n8jshjblrb7c5finjpnkdil96zbcy0696sqx4si9kak6j4k5i";
+        url = "https://elpa.nongnu.org/nongnu/keycast-1.4.4.tar";
+        sha256 = "05i3n7kd5aj0rwxva21ri108w1hjsmgjgv5004r3ngim73h1qlw3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5491,10 +5491,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.3";
+      version = "3.4.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/with-editor-3.4.3.tar";
-        sha256 = "1n0cnxhbqb49i6pknx47f81vlpwi9a6cjbjzr8b349fh6yv3q9w7";
+        url = "https://elpa.nongnu.org/nongnu/with-editor-3.4.4.tar";
+        sha256 = "02sb265fmh99apvz3v4hr788w3h0shnlcr917ygp9hn8byjkajm6";
       };
       packageRequires = [ compat ];
       meta = {
