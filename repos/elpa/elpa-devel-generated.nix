@@ -3635,10 +3635,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.1.0.20250508.221328";
+      version = "1.4.1.0.20250531.142308";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250508.221328.tar";
-        sha256 = "0sc45x3fwxmdbq4pz23kjibk38zwv1zxx8ihfg368syinik883gw";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250531.142308.tar";
+        sha256 = "00h774wxsx8rgmlyph7b4w9d8k4mi67vfx6dnx45zgkicdkrp70h";
       };
       packageRequires = [
         eldoc
@@ -7197,10 +7197,10 @@
     elpaBuild {
       pname = "polymode";
       ename = "polymode";
-      version = "0.2.2.0.20250531.73850";
+      version = "0.2.2.0.20250531.193800";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250531.73850.tar";
-        sha256 = "1cljncpkxwxdh1c39nz03snnx167fxa617i1cafa48sjzx1yrayx";
+        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250531.193800.tar";
+        sha256 = "0p3iqlc770jkyqfvgbbd5n3ma53h4j2cb6kzb2zam6by782bw7rh";
       };
       packageRequires = [ ];
       meta = {
