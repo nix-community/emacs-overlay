@@ -3268,10 +3268,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.5";
+      version = "4.3.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-4.3.5.tar";
-        sha256 = "04hybghzplgdk4vlyss221lvlvny16i9g1043l7gds1iib8875pc";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.3.6.tar";
+        sha256 = "185kss2frvpzh9lbnn035n220sf0a0aii4pybp5rkl4nd74jhvms";
       };
       packageRequires = [
         compat
@@ -3875,10 +3875,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.0.2";
+      version = "2.0.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/orgit-2.0.2.tar";
-        sha256 = "1sad3vhmlld60c9lx8hv102d61ihq2ydzb8app97hbk4cs8m3q8j";
+        url = "https://elpa.nongnu.org/nongnu/orgit-2.0.3.tar";
+        sha256 = "0iy12sl2qwgh30c5ycxgc38yv8kx6cjcj9x3akq88y5zwqqswvm9";
       };
       packageRequires = [
         compat

@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.4.0.20250531.24022";
+      version = "1.4.0.20250601.220350";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250531.24022.tar";
-        sha256 = "0i1qgl2yfnwqnbdbwcbkismlrbbal1iwsslz4l354sjrvj4wx69h";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250601.220350.tar";
+        sha256 = "0qfh56qlyac4b7rb4k21w2axc1zyf2jx8082q5fd9qmyksdff67d";
       };
       packageRequires = [
         compat
@@ -2378,10 +2378,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250601.124131";
+      version = "0.9.8.0.20250601.180047";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250601.124131.tar";
-        sha256 = "0v6r4y1sgj4n9cis6ssmx7lzwa746hbdf9w0asvm4zixapgb018d";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250601.180047.tar";
+        sha256 = "093bd4nkrw0z17i4g1izjwpgkk2m6svgw7b0zqvwq74khmc92hsn";
       };
       packageRequires = [
         compat
@@ -3253,10 +3253,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.5.0.20250531.124433";
+      version = "4.3.6.0.20250601.102812";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.5.0.20250531.124433.tar";
-        sha256 = "1q11cyma4g8q5h4b8g74lw0rvs90zrpi0rvg18bnj8m3q3k1g9rz";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.6.0.20250601.102812.tar";
+        sha256 = "1k5x34g6kwc1120a6kr2y4giq24x57xgqz11fphzckr6y3ahj6dz";
       };
       packageRequires = [
         compat
@@ -3853,10 +3853,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.0.2.0.20250527.133058";
+      version = "2.0.3.0.20250601.105749";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.2.0.20250527.133058.tar";
-        sha256 = "14k8qa0i895fqqqb62njyb0i1kd627gbq68jaamscpwwzw7km66y";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.3.0.20250601.105749.tar";
+        sha256 = "1dk63z953ph91llmh98xi1dfsbfkgp1q2mpn6m7l9wydv98y82w9";
       };
       packageRequires = [
         compat
