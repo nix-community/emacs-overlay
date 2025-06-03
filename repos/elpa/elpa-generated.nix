@@ -10459,10 +10459,10 @@
     elpaBuild {
       pname = "yasnippet";
       ename = "yasnippet";
-      version = "0.14.2";
+      version = "0.14.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/yasnippet-0.14.2.tar";
-        sha256 = "0cq31r58vxh660bws26yhpnjz89yr5f2ldjw1q5a1gp3hbzd2130";
+        url = "https://elpa.gnu.org/packages/yasnippet-0.14.3.tar";
+        sha256 = "1c0zhdcqz0jrx2swbqwschnwb07wy4s2gld3x6b4b892psxc2cg8";
       };
       packageRequires = [ cl-lib ];
       meta = {

@@ -7197,10 +7197,10 @@
     elpaBuild {
       pname = "polymode";
       ename = "polymode";
-      version = "0.2.2.0.20250531.193800";
+      version = "0.2.2.0.20250602.143827";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250531.193800.tar";
-        sha256 = "0p3iqlc770jkyqfvgbbd5n3ma53h4j2cb6kzb2zam6by782bw7rh";
+        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250602.143827.tar";
+        sha256 = "14yxfrksjn0cjx48whk1phb9nncd26dsj7rg4vnb8px8rwv30lca";
       };
       packageRequires = [ ];
       meta = {
@@ -9451,10 +9451,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.9.0.0.20250601.141003";
+      version = "0.9.0.0.20250602.135515";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.9.0.0.20250601.141003.tar";
-        sha256 = "1qaiinx94w93a7q709siwmwprpql3anf1ld94ypllf95xb1xxlbk";
+        url = "https://elpa.gnu.org/devel/transient-0.9.0.0.20250602.135515.tar";
+        sha256 = "1v3h4mqvzs0k2b9s4c3dzrv530qxz0jywrb7wg8c03k0dbjkvziy";
       };
       packageRequires = [
         compat
@@ -10633,10 +10633,10 @@
     elpaBuild {
       pname = "yasnippet";
       ename = "yasnippet";
-      version = "0.14.2.0.20250601.184313";
+      version = "0.14.3.0.20250602.94236";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/yasnippet-0.14.2.0.20250601.184313.tar";
-        sha256 = "0x81aj55n8p8glm0js5gpbmy6rrnw8107jf1v8k8aw6xvsdgwiqq";
+        url = "https://elpa.gnu.org/devel/yasnippet-0.14.3.0.20250602.94236.tar";
+        sha256 = "1k1260bmb42z5fyfms16lw4asarz8398s1r0493fc8z6vjv1bgv4";
       };
       packageRequires = [ cl-lib ];
       meta = {
