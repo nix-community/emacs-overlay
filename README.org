@@ -169,7 +169,7 @@ to be in control of which revision of the overlay you run.
 
 Adding the overlay this way will extend your Emacs packages set to contain
 the latest EXWM and dependencies from their respective master and make the
-package =emacsGit= available. These of course change quite rapidly and will
+package =emacs-git= available. These of course change quite rapidly and will
 cause compilation time.
 
 #+BEGIN_SRC nix
@@ -191,7 +191,7 @@ instructions.
 The repository is meant to be used as an overlay as is explained
 above. Still, for experimental purposes, you might want to install a
 package directly from the overlay. For example, you can install
-=emacsGit= from a clone of this repository with the following command:
+=emacs-git= from a clone of this repository with the following command:
 
 #+begin_src shell
   nix-build --expr 'with (import <nixpkgs> { overlays = [ (import ./.) ]; }); emacs-git'
