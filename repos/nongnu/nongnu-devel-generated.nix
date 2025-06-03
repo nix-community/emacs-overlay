@@ -2271,10 +2271,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.9.0.20250601.170219";
+      version = "0.9.0.20250602.171355";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.9.0.20250601.170219.tar";
-        sha256 = "0lpp9s3ygbpdqfrj41agxr0lxs6f2yr3wpsym0cb9k9i07n5ls7d";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.9.0.20250602.171355.tar";
+        sha256 = "189i7661hy8zqgbjdpa8hiz7bgfwn7nn8ngc3zldrlc2harif59l";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3332,10 +3332,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.0.0.20250330.151927";
+      version = "2.0.1.0.20250602.141655";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.0.0.20250330.151927.tar";
-        sha256 = "16xfvaacilfd075nln38hijzmx1wr30gmibrksn6zhfl6mj0lhnk";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.1.0.20250602.141655.tar";
+        sha256 = "0dzddf45f2h6790pwgi7hychv36adhanigbwvfivpvg9wxvrm3fi";
       };
       packageRequires = [
         persist
@@ -4100,10 +4100,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1.0.20250528.130625";
+      version = "1.26.1.0.20250602.130847";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20250528.130625.tar";
-        sha256 = "19zzmhak462xygriknnh3y83xfl2jrqvh4gz129vnwysnmb13lx3";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20250602.130847.tar";
+        sha256 = "0bhwg683jk5sjlq9kvp0318cgp1w7yvi7cfl5svr5qd3d44j7mgk";
       };
       packageRequires = [ ];
       meta = {
@@ -4613,10 +4613,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250520.4450";
+      version = "2.31snapshot0.20250602.95117";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250520.4450.tar";
-        sha256 = "0b1kxhimlx73nmhgkidjpz3dm1nsyikqhflz2c7mhmdii50nramy";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250602.95117.tar";
+        sha256 = "09i2535y8acjg264sdv6slrnqyhi5mddpy1xwk7jibsk3sd89jsa";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -5109,10 +5109,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20250521.182836";
+      version = "0.2.1.0.20250602.41006";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250521.182836.tar";
-        sha256 = "0d1a2fqm2j60cz3ssqnmdvp0qd906i7wnxvn6nxmq6ny77lvhk0y";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250602.41006.tar";
+        sha256 = "17lwdj39j7fx16q7949f0yfr8wkbpwg3iy48k33lsrhmd6wj1fw7";
       };
       packageRequires = [ ];
       meta = {
