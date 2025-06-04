@@ -2552,10 +2552,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.2.0.0.20250531.81127";
+      version = "1.2.1.0.20250603.123158";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.2.0.0.20250531.81127.tar";
-        sha256 = "08xl4z9bgp5hvz2rwif9kiqncvdmkqk1ybyz3xs24fqy5132mz5s";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.2.1.0.20250603.123158.tar";
+        sha256 = "1j9qr8n0dlnam5r9rqpxjjy2wkyyqvq55k5grbyjb0rsgzvlbbcl";
       };
       packageRequires = [ ];
       meta = {
@@ -4228,10 +4228,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250522.142050";
+      version = "1.0.20250603.110418";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250522.142050.tar";
-        sha256 = "19zc9y704b9naqgx9cs9j40q0z402jp02f83l1fpcpyq3gbhmi1y";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250603.110418.tar";
+        sha256 = "0an2hqsd2l08l583hmfnb0xbjflp6x692dlk2x7kr7fvlj4n8fgl";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4698,10 +4698,10 @@
     elpaBuild {
       pname = "spacemacs-theme";
       ename = "spacemacs-theme";
-      version = "0.2.0.20250531.122521";
+      version = "0.2.0.20250603.170552";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20250531.122521.tar";
-        sha256 = "157vdilc3dm17xbawgibnfwq4rv4avphc808g5lig7wajfrxk9xd";
+        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20250603.170552.tar";
+        sha256 = "1zwdjajrbvxpfc1x2zf86z6pjx9170mk8qp4lsqbcyhrbmpmymyr";
       };
       packageRequires = [ ];
       meta = {

@@ -2567,10 +2567,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.2.0";
+      version = "1.2.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/haskell-ts-mode-1.2.0.tar";
-        sha256 = "016722wrs24i5kzirlc5mzs12m4g6wg4aba6fda2q1ghmf41g8pp";
+        url = "https://elpa.nongnu.org/nongnu/haskell-ts-mode-1.2.1.tar";
+        sha256 = "0qhzg7n9v1qllz39whzxxcl6s7x1zh5psga2kqva0r11bhck4jjv";
       };
       packageRequires = [ ];
       meta = {
@@ -4250,10 +4250,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250522.142050";
+      version = "1.0.20250603.110418";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250522.142050.tar";
-        sha256 = "0af5m48mjnyqyrpcb09g59w6jxlm7917b6xm62zliv0bns9k9irm";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250603.110418.tar";
+        sha256 = "13b1bz4dq9zzcybichxs41zybxvm0cgv7z9dsd9l7lmqigg9pyyl";
       };
       packageRequires = [ compat ];
       meta = {
