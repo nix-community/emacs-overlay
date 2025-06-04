@@ -4217,10 +4217,10 @@
     elpaBuild {
       pname = "greenbar";
       ename = "greenbar";
-      version = "1.1.0.20221221.80217";
+      version = "1.2.0.20250603.210745";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greenbar-1.1.0.20221221.80217.tar";
-        sha256 = "00kch8c0sz5z3cx0likx0pyqp9jxvjd6lkmdcli4zzpc6j1f1a0k";
+        url = "https://elpa.gnu.org/devel/greenbar-1.2.0.20250603.210745.tar";
+        sha256 = "1rx0jivxr95pjfksf1k8dl2ic9sqmss7rm2cvq5ghazv2r1lpl1k";
       };
       packageRequires = [ ];
       meta = {
@@ -5284,10 +5284,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.26.0.0.20250526.213557";
+      version = "0.26.0.0.20250604.15515";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.26.0.0.20250526.213557.tar";
-        sha256 = "1fc895kvacwsimdbir51iy8xiyhxrad6hh8nj3lap07j3xki4107";
+        url = "https://elpa.gnu.org/devel/llm-0.26.0.0.20250604.15515.tar";
+        sha256 = "0aw9mi26hm5q42smmfm1kv0nfwyjfpvk5vph47gj50c0nipg4nn5";
       };
       packageRequires = [
         compat
@@ -7197,10 +7197,10 @@
     elpaBuild {
       pname = "polymode";
       ename = "polymode";
-      version = "0.2.2.0.20250602.143827";
+      version = "0.2.2.0.20250603.234324";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250602.143827.tar";
-        sha256 = "14yxfrksjn0cjx48whk1phb9nncd26dsj7rg4vnb8px8rwv30lca";
+        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250603.234324.tar";
+        sha256 = "1c1ga4waiw6993rsfibg54lygk1bq1hwchcv5bypwwaqdqajgg8r";
       };
       packageRequires = [ ];
       meta = {
