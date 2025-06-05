@@ -2318,10 +2318,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "0.5.0.20250512.155532";
+      version = "0.6.0.20250604.85039";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dicom-0.5.0.20250512.155532.tar";
-        sha256 = "1kbdc8m40z449p1r39ix10fvwq7gzqpg5q3i4xs4fyg6v2769z8d";
+        url = "https://elpa.gnu.org/devel/dicom-0.6.0.20250604.85039.tar";
+        sha256 = "1r8f3pibnp88lpwzjf01k9dp5hcvhy718lw1n44h8hz4lgnyvd5h";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2664,10 +2664,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.1.0.0.20250601.40858";
+      version = "0.1.0.0.20250604.95851";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250601.40858.tar";
-        sha256 = "0y2xlj4gg3vyrbyz3pk7kj72knm2069qxx20v3w8cqwrbc7dd7hc";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250604.95851.tar";
+        sha256 = "1p8kdpqxyfdvs9n2f3gk7m00a40g0vrnqhsqf1l4idc02iqja6b4";
       };
       packageRequires = [ ];
       meta = {
@@ -5524,10 +5524,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.0.0.20250603.112041";
+      version = "2.1.0.20250604.154535";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.0.0.20250603.112041.tar";
-        sha256 = "17frrkhr9a0jzp7mjv6p9c818707yk5rg0bz08j2x652jmybvfmg";
+        url = "https://elpa.gnu.org/devel/marginalia-2.1.0.20250604.154535.tar";
+        sha256 = "1acr4yykhrvr0ya4yzy4by55paa2kvl47sbs5j1hlccwlzfy24i9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5823,10 +5823,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.5.4.0.20250523.4704";
+      version = "0.5.4.0.20250604.104857";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.5.4.0.20250523.4704.tar";
-        sha256 = "0r4qajdknkcj9bmgnczxj7zw626aa2cicziy1h294dbmpia02021";
+        url = "https://elpa.gnu.org/devel/minuet-0.5.4.0.20250604.104857.tar";
+        sha256 = "165vp375zd83xhfkjin8806aw08ffrccr894m77h5n6lz1ch9wa7";
       };
       packageRequires = [
         dash
@@ -6940,10 +6940,10 @@
     elpaBuild {
       pname = "perl-doc";
       ename = "perl-doc";
-      version = "0.81.0.20230805.210315";
+      version = "0.81.0.20250604.163620";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/perl-doc-0.81.0.20230805.210315.tar";
-        sha256 = "0n129rcmn827payv0aqg8iz7dc7wg4rm27hvvw1wwj2k5x5vnd6r";
+        url = "https://elpa.gnu.org/devel/perl-doc-0.81.0.20250604.163620.tar";
+        sha256 = "1ixvwpy6ghnhdkkq6x08nddip8l7jfmwkffpd3yyclggx5n78klh";
       };
       packageRequires = [ ];
       meta = {
