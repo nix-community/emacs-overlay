@@ -2280,6 +2280,7 @@
   ) { };
   gnuplot = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -2287,12 +2288,12 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.9";
+      version = "0.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gnuplot-0.9.tar";
-        sha256 = "019cvjh4cqn6y5y2kxw8sy1y23jkh9mmi38wpg3mqayq4xfxdlyv";
+        url = "https://elpa.nongnu.org/nongnu/gnuplot-0.10.tar";
+        sha256 = "19frcznzh4ahk7k1nqbaipmhcl2gqssh6dmk55qxy235cyhym7w6";
       };
-      packageRequires = [ ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/gnuplot.html";
         license = lib.licenses.free;
