@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250601.182143";
+      version = "14.0.9.0.20250605.74955";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250601.182143.tar";
-        sha256 = "1pnb5f171bj9zdgzxa1pimwvc4fx1bw0xgivl73999lypyk7cyag";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250605.74955.tar";
+        sha256 = "18452mcvwqvi82xrz11qr283ngv1nrfv39x5xw6k706lbmnkzfik";
       };
       packageRequires = [ ];
       meta = {
@@ -5284,10 +5284,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.26.0.0.20250604.15515";
+      version = "0.26.1.0.20250604.222628";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.26.0.0.20250604.15515.tar";
-        sha256 = "0aw9mi26hm5q42smmfm1kv0nfwyjfpvk5vph47gj50c0nipg4nn5";
+        url = "https://elpa.gnu.org/devel/llm-0.26.1.0.20250604.222628.tar";
+        sha256 = "0b0blrqhgipbzm910b2bx61fy03nmydy4049xyv4yafvr85093r7";
       };
       packageRequires = [
         compat
@@ -10633,10 +10633,10 @@
     elpaBuild {
       pname = "yasnippet";
       ename = "yasnippet";
-      version = "0.14.3.0.20250602.94236";
+      version = "0.14.3.0.20250604.12916";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/yasnippet-0.14.3.0.20250602.94236.tar";
-        sha256 = "1k1260bmb42z5fyfms16lw4asarz8398s1r0493fc8z6vjv1bgv4";
+        url = "https://elpa.gnu.org/devel/yasnippet-0.14.3.0.20250604.12916.tar";
+        sha256 = "0dx89kw6pvbj8dhf0cza660zcpd2las9add9dm5ak6x6x56sw3s8";
       };
       packageRequires = [ cl-lib ];
       meta = {
