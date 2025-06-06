@@ -1526,10 +1526,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.4";
+      version = "2.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-2.4.tar";
-        sha256 = "1jiqgh0f9dnh954hf3vql6l2crfarfnfc9bg7nvisqi3wywd35mf";
+        url = "https://elpa.gnu.org/packages/consult-2.5.tar";
+        sha256 = "1h2s85v68s8szql0ss7zsdlgp7vwib3f8x2g2lci4vc2k9n2bips";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2187,10 +2187,10 @@
     elpaBuild {
       pname = "denote-silo";
       ename = "denote-silo";
-      version = "0.1.1";
+      version = "0.1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-silo-0.1.1.tar";
-        sha256 = "1jxr52npjiwisambwav6rasndjdxhll8x278q8cr7giq71am7c8b";
+        url = "https://elpa.gnu.org/packages/denote-silo-0.1.2.tar";
+        sha256 = "1z5afwd9gwn9fy132s87smffi5lgdk8f8c941y9ak6q7fbbpkya7";
       };
       packageRequires = [ denote ];
       meta = {
@@ -4194,10 +4194,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.8.6";
+      version = "1.8.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gtags-mode-1.8.6.tar";
-        sha256 = "0kmqndl7h6q4k7ziasfp4pi1lnskr394qia1msxsbz1cqcay1cqh";
+        url = "https://elpa.gnu.org/packages/gtags-mode-1.8.7.tar";
+        sha256 = "12rgxka6kbq2k98s9gz6w0qsgch5w0ynv2nap1qcdpgb61fl41qw";
       };
       packageRequires = [ ];
       meta = {
@@ -6916,10 +6916,10 @@
     elpaBuild {
       pname = "phpinspect";
       ename = "phpinspect";
-      version = "2.1.0";
+      version = "3.0.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/phpinspect-2.1.0.tar";
-        sha256 = "1ic5dnp2sgahzpfxxgkfbk5as91l23vs1ly23b1igi3b4ajcaqjz";
+        url = "https://elpa.gnu.org/packages/phpinspect-3.0.1.tar";
+        sha256 = "138ipsmhhycm50a37kcx780j995xm0l2icrn2cjiw955fjf96rv7";
       };
       packageRequires = [ compat ];
       meta = {
