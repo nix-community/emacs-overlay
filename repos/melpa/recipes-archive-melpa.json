@@ -24440,16 +24440,16 @@
   "repo": "pkryger/difftastic.el",
   "unstable": {
    "version": [
-    20250527,
-    2100
+    20250606,
+    1113
    ],
    "deps": [
     "compat",
     "magit",
     "transient"
    ],
-   "commit": "239faba53f6d86cab4038e78fd13d4a33de0dddb",
-   "sha256": "0wrbsldz8c2xgckiwhvga725ji7xnz7g2kihnbb9sjvhxhmpmxxp"
+   "commit": "eda5d044be66cf2d9bf0c2330cc0911677398c68",
+   "sha256": "01hsvad4sqrd05hxvca7g6s4i551493iffhf4s21kjalb8k52drr"
   }
  },
  {
@@ -35978,11 +35978,11 @@
   "repo": "emacs-ess/ESS",
   "unstable": {
    "version": [
-    20250508,
-    735
+    20250606,
+    831
    ],
-   "commit": "cf5c97bc68432c6d40b85803a5ce32b4f456fab2",
-   "sha256": "1z440ay4l5k81s8l14ywmnyv6ds02w49fwgnx121c7varijxwm8z"
+   "commit": "cd85d1e1f0e897b409a948a3a4afdaffe032812e",
+   "sha256": "18mx9137wk104s6h1ad384l9lbmz0fh4djjpxjfl2zhxwsjr562k"
   },
   "stable": {
    "version": [
@@ -36635,11 +36635,11 @@
   "repo": "mekeor/evenok",
   "unstable": {
    "version": [
-    20250506,
-    1255
+    20250606,
+    812
    ],
-   "commit": "f3c875139ae57fcb52f2d7ab2d4238c2af8e204c",
-   "sha256": "0r5j958zvqzsrmgj71rvwkmx69f8p360f5c26qlx0l0ng5ff12ng"
+   "commit": "eccc70e577bac3c9901e508fc06ae21b8364e6e9",
+   "sha256": "03qa62k1mi5nnkrvas1xf99vjg66gx3qdxzm2ddrixir8qszh3xz"
   },
   "stable": {
    "version": [
@@ -46819,8 +46819,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20250605,
-    1548
+    20250606,
+    1454
    ],
    "deps": [
     "closql",
@@ -46835,8 +46835,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "aaeec51cca677e678032c87c26d6024efd7c71c4",
-   "sha256": "0602y0s1519kkqs91rq054fvpjg0sxn6gkcz5699qxrkan0jbc60"
+   "commit": "fa105ca5043209cb0966cdfa8c1a1ba25cb384e0",
+   "sha256": "16hl6fb81q4ycjd9aqwfc8h3aaaf3613ssz89iq33qxa33xjdr9k"
   },
   "stable": {
    "version": [
@@ -55243,15 +55243,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20250605,
-    824
+    20250606,
+    711
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "a400c1e071cb79085e79cdcafce040a3dc9ba4ae",
-   "sha256": "197zvs64gc4dsjprjdlxlywr2p0hv6nrx2kk8833xpxxw61wswb8"
+   "commit": "f1ab92a1afa927b4252e85838b7148e2f4813735",
+   "sha256": "1v2hcgcrmr44fqq03w08n438gafqkpiwmyzc3n8bid449zvklbgl"
   },
   "stable": {
    "version": [
@@ -81576,11 +81576,11 @@
   "repo": "mekeor/most-faces",
   "unstable": {
    "version": [
-    20240620,
-    2145
+    20250606,
+    814
    ],
-   "commit": "846ca6db64527fe26d21421b8eaf7a63d8844c3e",
-   "sha256": "1r3gzrryd1pnhplnwzgh9x31hmm8bw9fys2mqfr40sbwzqphsdna"
+   "commit": "6b97ecab10d0a9e6e9faaecac3af543263fe658a",
+   "sha256": "0r9nmh3rmw93pcgqs3izxny22afgwppv2x89j0d3m6vzmb4c9gbi"
   },
   "stable": {
    "version": [
@@ -91779,28 +91779,28 @@
   "repo": "meedstrom/org-mem",
   "unstable": {
    "version": [
-    20250605,
-    632
+    20250606,
+    1140
    ],
    "deps": [
     "el-job",
     "llama"
    ],
-   "commit": "5374bb4ca25d20a7c036ac48729090ba25d31fdd",
-   "sha256": "11wwljb49rbmyz4nrj4wy9nnmbqg94lb5n032npn9wlp9qc4fssx"
+   "commit": "2bc42e9e64c0be284e86854a0f9b1449cb7d1222",
+   "sha256": "1pgnh6q5jl7h6kv87fc8d2442lsi02yamxbb8ddnlgmms8jvinxh"
   },
   "stable": {
    "version": [
     0,
-    14,
-    2
+    15,
+    0
    ],
    "deps": [
     "el-job",
     "llama"
    ],
-   "commit": "d777d0f162a88ff8c0d08996d8529e89add59ffa",
-   "sha256": "1id9484nvhfw8p4v4rap0z0w58416a7v1lsl2r4r86mj5izccya9"
+   "commit": "1f66a3ffccd9e839de9c8bd6306be8df16a17f38",
+   "sha256": "0d1qnmkpw325ggvli4k8rvj0g50l1hy8sb8r33rq0zg1b3qv9rgx"
   }
  },
  {
@@ -106860,14 +106860,14 @@
   "repo": "greghendershott/racket-mode",
   "unstable": {
    "version": [
-    20250603,
-    1504
+    20250605,
+    2049
    ],
    "deps": [
     "compat"
    ],
-   "commit": "972373bada4de65a01940a76eb6fcb02afdaf1bc",
-   "sha256": "1km7pqnb8dw00vsakxlp8vick1xd2p3w5l1anwvrijr25qwkafwy"
+   "commit": "1f26222b0e200e2c858a33b39be5f0daac4fd7ed",
+   "sha256": "1mj8ws930i84x6xxdf6y1wqsg4i2fjak2jabrbdpxa7piz2dxfdp"
   }
  },
  {
