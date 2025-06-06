@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0snapshot0.20250604.50347";
+      version = "0.6.0snapshot0.20250605.195351";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0snapshot0.20250604.50347.tar";
-        sha256 = "115ywahnxdqxi9psxy7rndgdnyhbxmrwir863cm8jyhh9my1lax8";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0snapshot0.20250605.195351.tar";
+        sha256 = "1b26bj409k1i6vfkn30prx7gn2r90as2kjqahczfc6nfdhdgny1p";
       };
       packageRequires = [ ];
       meta = {
@@ -2378,10 +2378,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250603.184012";
+      version = "0.9.8.0.20250605.113509";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250603.184012.tar";
-        sha256 = "12nhmnsnjzpjifvnc17x9shhiz2ijshsy0777vjpynq4m5ysi6ip";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250605.113509.tar";
+        sha256 = "04428d41brvrkvm6pnfg5vp10rmcr500brkkwjk7rhkixaz988yh";
       };
       packageRequires = [
         compat
@@ -2575,10 +2575,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.3.0.20250604.82343";
+      version = "4.0.3.0.20250605.82429";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.3.0.20250604.82343.tar";
-        sha256 = "0lkyn457l6kk022fj69qk79l4m0i6fm9s2nbvbd2vb3g31cmrvvs";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.3.0.20250605.82429.tar";
+        sha256 = "1avkxm2py5l7h6ld67r3ipr5jycpmn4926rccgjjnr7x2zp3qhk6";
       };
       packageRequires = [
         helm-core
@@ -2600,10 +2600,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.3.0.20250604.82343";
+      version = "4.0.3.0.20250605.82429";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.3.0.20250604.82343.tar";
-        sha256 = "13hqsqn5r8bj1rxxkpaw01khbfb1n54cmf5af0bqcksahjb75a52";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.3.0.20250605.82429.tar";
+        sha256 = "09j70q7w6vh13yzclq10g4fibzcx31i69npmw0fkrmhnih9snvkv";
       };
       packageRequires = [ async ];
       meta = {
