@@ -2271,10 +2271,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.10.0.20250604.85155";
+      version = "0.10.0.20250606.192846";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.10.0.20250604.85155.tar";
-        sha256 = "0wpig6as4l8dbmb6cn1fngwqjkh881c35v4b0dwrfc74z7yv0v0c";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.10.0.20250606.192846.tar";
+        sha256 = "1v38yark00rg06qhp8crzb3jzdi2adpw4x4lda5p8n1m76jdr6ak";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4228,10 +4228,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250603.110418";
+      version = "1.0.20250605.164918";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250603.110418.tar";
-        sha256 = "0an2hqsd2l08l583hmfnb0xbjflp6x692dlk2x7kr7fvlj4n8fgl";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250605.164918.tar";
+        sha256 = "1f18cgykkfmqwswgzikcrn1qidb3rkx1pc8n7gwh55vwcf3lpxh4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4698,10 +4698,10 @@
     elpaBuild {
       pname = "spacemacs-theme";
       ename = "spacemacs-theme";
-      version = "0.2.0.20250603.170552";
+      version = "0.2.0.20250606.193652";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20250603.170552.tar";
-        sha256 = "1zwdjajrbvxpfc1x2zf86z6pjx9170mk8qp4lsqbcyhrbmpmymyr";
+        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20250606.193652.tar";
+        sha256 = "15sskb97xs2if9600qb3q9c3dr6asngavjbqb321b5s2iirfmjc0";
       };
       packageRequires = [ ];
       meta = {
@@ -5588,10 +5588,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.12.20250517213917.0.20250517.214741";
+      version = "26.12.20250606101544.0.20250606.102022";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.12.20250517213917.0.20250517.214741.tar";
-        sha256 = "1wihfan7mxi1d4qxwdqwpfzdi0zjmwwq3ssiscg9i39mqnlyn93s";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.12.20250606101544.0.20250606.102022.tar";
+        sha256 = "09zck3748gskc9hrakbqdpww071jllhkyfwqxz6m9y93pnfq73fg";
       };
       packageRequires = [ ];
       meta = {
