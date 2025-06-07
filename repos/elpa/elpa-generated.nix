@@ -2820,10 +2820,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20250216";
+      version = "20250607";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/eev-20250216.tar";
-        sha256 = "07bxywrcb8w379nzn8yi307lafb3b7qv8r362mx9vv0w8fmv8r6b";
+        url = "https://elpa.gnu.org/packages/eev-20250607.tar";
+        sha256 = "0rrm6mldhmf0ijjr8nri9a6sasxknd8wivq2fkni60c47m65m2md";
       };
       packageRequires = [ ];
       meta = {
@@ -9496,10 +9496,10 @@
     elpaBuild {
       pname = "urgrep";
       ename = "urgrep";
-      version = "0.5.1";
+      version = "0.5.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/urgrep-0.5.1.tar";
-        sha256 = "1g0gcd3ayqjaj5yl95psh8qnjgaxd6l4r8gn4wlj5pnjnkz4llmv";
+        url = "https://elpa.gnu.org/packages/urgrep-0.5.2.tar";
+        sha256 = "1lwr601xyw0gcix6v53dn5h0jsxwpa5pkqgz56a6311z9d9qlj3c";
       };
       packageRequires = [
         compat

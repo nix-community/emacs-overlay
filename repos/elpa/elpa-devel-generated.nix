@@ -1940,10 +1940,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250606.134737";
+      version = "0.24.1.0.20250606.224459";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250606.134737.tar";
-        sha256 = "1nsfi6wn4k4aacipknsv74bkjzzmfiqp1awn243jyb1lhzhqrjdl";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250606.224459.tar";
+        sha256 = "11qirizxldqqll50af7xjvz9iv8g3351iwzzzs3ia991lsgsc860";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2664,10 +2664,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.1.0.0.20250605.134427";
+      version = "0.1.0.0.20250607.35600";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250605.134427.tar";
-        sha256 = "1x0x5a1g9dhgjqr4y4f70xn5v1k677r29l80adr22mk9058xban6";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250607.35600.tar";
+        sha256 = "0xmgrjn42pgmnjyhl6m1ghl1wdw7aacxmssb8zngb1llc4fcidg2";
       };
       packageRequires = [ ];
       meta = {
@@ -2866,10 +2866,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20250216.0.20250305.175133";
+      version = "20250607.0.20250607.11108";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20250216.0.20250305.175133.tar";
-        sha256 = "0xx9s43wix06agbwbvdsc3fqxc16q2jj5slyljz0nw9kw4h9lngs";
+        url = "https://elpa.gnu.org/devel/eev-20250607.0.20250607.11108.tar";
+        sha256 = "1gjqyr05qyp491dp095q2i9rq87g55ifbi1qy2z3i8s1ghfyp00l";
       };
       packageRequires = [ ];
       meta = {
@@ -9674,10 +9674,10 @@
     elpaBuild {
       pname = "urgrep";
       ename = "urgrep";
-      version = "0.5.2snapshot0.20250315.173144";
+      version = "0.5.3snapshot0.20250606.181344";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/urgrep-0.5.2snapshot0.20250315.173144.tar";
-        sha256 = "18rnj1dm8551sqkqjfq9485v455n97ixivbnds6lmwxaafrr8yxr";
+        url = "https://elpa.gnu.org/devel/urgrep-0.5.3snapshot0.20250606.181344.tar";
+        sha256 = "08c3jy2265xpfk5hl4yrjm2jghkl6737prs1vka0jlaymgk99v62";
       };
       packageRequires = [
         compat
