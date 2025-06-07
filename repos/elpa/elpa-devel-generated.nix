@@ -1940,10 +1940,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250601.102418";
+      version = "0.24.1.0.20250606.134737";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250601.102418.tar";
-        sha256 = "0r2liv7v7b0pb23kkig0wf36i1qlnilyd67cax2s4v5lhjp31lkg";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250606.134737.tar";
+        sha256 = "1nsfi6wn4k4aacipknsv74bkjzzmfiqp1awn243jyb1lhzhqrjdl";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2944,10 +2944,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.4.7.0.20250524.200444";
+      version = "2.4.8.0.20250606.193102";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.4.7.0.20250524.200444.tar";
-        sha256 = "0f5k94x24hhjrlxq4gjfm551pgir701hxyjb7k9hcbhxq06l4ay4";
+        url = "https://elpa.gnu.org/devel/el-job-2.4.8.0.20250606.193102.tar";
+        sha256 = "13p5mdll5qhf3h9y3k2c35frfnh8v9aci8f5la2c23b9k53qpvhb";
       };
       packageRequires = [ ];
       meta = {
@@ -3360,10 +3360,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "25.1.0.0.20250508.73511";
+      version = "25.1.0.0.20250606.83117";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20250508.73511.tar";
-        sha256 = "126ld8y7qk9z72vrd85mzqc25mbyyc6k0wl0iilbhcl268szy7xi";
+        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20250606.83117.tar";
+        sha256 = "1mr16s1pxfw7nfv9fjgwygy0s173z99gl9spcjn9jpdm7ydg9nzl";
       };
       packageRequires = [ ];
       meta = {
@@ -3480,10 +3480,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.33.0.20250605.172225";
+      version = "0.33.0.20250606.134459";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.33.0.20250605.172225.tar";
-        sha256 = "1rk30wvsr2kvab5vi9ygdw0z62vyvdhyridxl6ng1f57ijfl1pqn";
+        url = "https://elpa.gnu.org/devel/exwm-0.33.0.20250606.134459.tar";
+        sha256 = "0a72wjrcpda6na4mb5ihmf9mxxmi81j58cfskn8qhd260hy7ps9p";
       };
       packageRequires = [
         compat
@@ -6940,10 +6940,10 @@
     elpaBuild {
       pname = "perl-doc";
       ename = "perl-doc";
-      version = "0.81.0.20250604.163620";
+      version = "0.82.0.20250606.121940";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/perl-doc-0.81.0.20250604.163620.tar";
-        sha256 = "1ixvwpy6ghnhdkkq6x08nddip8l7jfmwkffpd3yyclggx5n78klh";
+        url = "https://elpa.gnu.org/devel/perl-doc-0.82.0.20250606.121940.tar";
+        sha256 = "0ymxvkwphqykq7qznxdlmsid4l7946vrll95b92n8f896wn8zlqa";
       };
       packageRequires = [ ];
       meta = {

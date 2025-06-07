@@ -2902,10 +2902,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.4.7";
+      version = "2.4.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/el-job-2.4.7.tar";
-        sha256 = "0gh4vwq986jhfld0cibxmy5zcngzq4mxw4j4rpsv8nhwg0wpr84j";
+        url = "https://elpa.gnu.org/packages/el-job-2.4.8.tar";
+        sha256 = "1g7kmsxq2hdsfl2glm9yaqhqx87kl4amg5wi3872kjlbrwfd78kk";
       };
       packageRequires = [ ];
       meta = {
@@ -6873,10 +6873,10 @@
     elpaBuild {
       pname = "perl-doc";
       ename = "perl-doc";
-      version = "0.81";
+      version = "0.82";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/perl-doc-0.81.tar";
-        sha256 = "1828jfl5dwk1751jsrpr2gr8hs1x315xlb9vhiis8frzvqmsribw";
+        url = "https://elpa.gnu.org/packages/perl-doc-0.82.tar";
+        sha256 = "1fj13361a9pgmlda8yix0p805r2gwzv1gxf43pq6y79a8hxbm8yn";
       };
       packageRequires = [ ];
       meta = {
