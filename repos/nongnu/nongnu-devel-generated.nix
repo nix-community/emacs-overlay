@@ -4698,10 +4698,10 @@
     elpaBuild {
       pname = "spacemacs-theme";
       ename = "spacemacs-theme";
-      version = "0.2.0.20250606.193652";
+      version = "0.2.0.20250606.213009";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20250606.193652.tar";
-        sha256 = "15sskb97xs2if9600qb3q9c3dr6asngavjbqb321b5s2iirfmjc0";
+        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20250606.213009.tar";
+        sha256 = "11iiql3l9b53x9z4r47h3ywijmy0sjri8d0vzbv686wbgvc7rf2r";
       };
       packageRequires = [ ];
       meta = {
