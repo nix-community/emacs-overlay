@@ -2664,10 +2664,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.1.0.0.20250607.35600";
+      version = "0.1.0.0.20250607.160757";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250607.35600.tar";
-        sha256 = "0xmgrjn42pgmnjyhl6m1ghl1wdw7aacxmssb8zngb1llc4fcidg2";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250607.160757.tar";
+        sha256 = "11zik2n1zc081xxib8mfdbswg19pmxjiwfnrj3bmi7vmmn9mickg";
       };
       packageRequires = [ ];
       meta = {
@@ -10003,10 +10003,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.2.0.20250603.152954";
+      version = "2.2.0.20250607.83835";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.2.0.20250603.152954.tar";
-        sha256 = "1snrzyvzn37xaxdazrc86zfyjhi7kh93skwd2k99r4z0a35c7dml";
+        url = "https://elpa.gnu.org/devel/vertico-2.2.0.20250607.83835.tar";
+        sha256 = "13rwagy580h3cjlip8b1dk9dwpn20i2g4lff9k3lhqp7vcpkqmrg";
       };
       packageRequires = [ compat ];
       meta = {
