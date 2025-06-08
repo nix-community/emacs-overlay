@@ -2223,8 +2223,8 @@
   "repo": "tninja/aider.el",
   "unstable": {
    "version": [
-    20250607,
-    54
+    20250608,
+    36
    ],
    "deps": [
     "magit",
@@ -2232,8 +2232,8 @@
     "s",
     "transient"
    ],
-   "commit": "9952be0a7da00849b2eb63e4dc1157ecf4676d54",
-   "sha256": "1b58fssl91px5q9y0nh5x647d7wdb7s62swcqh7d5prdrm6zpp8g"
+   "commit": "4c2f579f5b5da7bb100ace7e16614a7576f7b8b4",
+   "sha256": "1y15sxxxcsfip5slm5rf7nymjw77dh3j965g1bpdhp7r5mgl60hh"
   },
   "stable": {
    "version": [
@@ -6867,11 +6867,11 @@
   "repo": "tinted-theming/base16-emacs",
   "unstable": {
    "version": [
-    20250601,
-    149
+    20250608,
+    142
    ],
-   "commit": "4991a54843b009917e35c71d2be3d98c92441ebb",
-   "sha256": "1xp2r1xn6gf988lsn6gi2f6jmf1fy2vpnzs7hniwgb9nvymlyd91"
+   "commit": "498652ad4b295fb3c7e4075ad475c83ba04fe591",
+   "sha256": "1h59fy4q0viifvvphgsclczv8wip4yvpbrvh1gh219jf41pbmzgs"
   },
   "stable": {
    "version": [
@@ -28610,11 +28610,11 @@
   "repo": "emacs-eask/eask",
   "unstable": {
    "version": [
-    20250530,
-    308
+    20250608,
+    221
    ],
-   "commit": "2a94f252d69df007385ed4e65870e5d557113db9",
-   "sha256": "17vwhx2pf5pqymjjq0cdm17b6445ijiks1cnh6hvf2valhy2dp8g"
+   "commit": "7925aacf9cd8bd73cc025fa28d79cc266f778c77",
+   "sha256": "09dv59hihlhwq92ibm48vil1lh0g4rppqxc23nqgsya58wmrin20"
   },
   "stable": {
    "version": [
@@ -47759,11 +47759,11 @@
   "repo": "open-spaced-repetition/lisp-fsrs",
   "unstable": {
    "version": [
-    20250330,
-    1613
+    20250608,
+    703
    ],
-   "commit": "f6a31365d6e298749daea1bb91270fbc7d11cb53",
-   "sha256": "10fy6dscpin12hm8qsmh1h7ajf0i8a7cyhl8s2d5s3y0y7r7iplg"
+   "commit": "be94cf2a4bcf542cc20f34bc0f1c68df1a051833",
+   "sha256": "17s4awnqm8n48ldkv7lq0zn183icj2c3lvkcmsvfrkxsb2pr9lxq"
   }
  },
  {
@@ -52936,15 +52936,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20250605,
-    1803
+    20250608,
+    114
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "430c5ee84f3dd1cc36a93c042ef3e27b555fd36c",
-   "sha256": "1ayyvbd9p6dinj8v4grnvwd93bpsxm2gyra2izd0958y2gx8jn6s"
+   "commit": "26322518a608fa6c336d58d252618e13dba1e8cc",
+   "sha256": "1mngrjy1r63l6lpwamwin98q68p8s64x8zfhry1zhhz705sfcyhm"
   },
   "stable": {
    "version": [
@@ -90019,14 +90019,14 @@
   "repo": "Chobbes/org-chef",
   "unstable": {
    "version": [
-    20250607,
-    2152
+    20250608,
+    130
    ],
    "deps": [
     "org"
    ],
-   "commit": "5bb361c4b2ade95b45e698bd30ce8024c40fa6f2",
-   "sha256": "0k0xhqbd7w05vg8fb4llxk7xgmdic540zmlihpgp57kinxvqhls9"
+   "commit": "6a6bccfd857d3fc03aa79e0a09fed5733af2c5c3",
+   "sha256": "1mr1ws1mcn8qsgb7sl2yfflngqcmmsr0a3nkxn3nm8072846wnqa"
   }
  },
  {
@@ -93198,8 +93198,8 @@
   "repo": "org-roam/org-roam",
   "unstable": {
    "version": [
-    20250527,
-    1558
+    20250608,
+    258
    ],
    "deps": [
     "dash",
@@ -93207,8 +93207,8 @@
     "magit-section",
     "org"
    ],
-   "commit": "031ee63bee7ecffee2eebb0faae37a37e2b8a603",
-   "sha256": "17g2ynd40cxag5kayz72vqrfqlfr344pbrg0dlpkpsa6d15lg0l4"
+   "commit": "df4e90320896a527501a42a785c4942233dbe595",
+   "sha256": "1s7fphc0vss1bqsmcm06rhk6f9mv54gslbvc99mp1kqn1yb1y2aj"
   },
   "stable": {
    "version": [
@@ -97188,14 +97188,26 @@
   "repo": "zkry/p-search",
   "unstable": {
    "version": [
-    20250601,
-    1523
+    20250608,
+    617
    ],
    "deps": [
     "compat"
    ],
-   "commit": "d51ba2bf042265e7e04369c7b733f40a1f416343",
-   "sha256": "0gdg0376s5ac8mrsn6f670w36pv6biqfk4cdgpskf2wwpgw24a9s"
+   "commit": "38a66610a094d4026aaf7733148582375387fd99",
+   "sha256": "1j7h5hag65ksvljj6p7qh857rdg1wdjw0a9vzl77aaz7xmc4w3bc"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    0
+   ],
+   "deps": [
+    "compat"
+   ],
+   "commit": "4cab2337796e92311894149d87f26f576b997298",
+   "sha256": "1cl10c7pmp9blzibgw6ni81v8v7xpa1n9w8dg4k60rfl409np2dx"
   }
  },
  {
@@ -98997,11 +99009,11 @@
   "repo": "lorniu/pdd.el",
   "unstable": {
    "version": [
-    20250604,
-    1210
+    20250608,
+    352
    ],
-   "commit": "0ba4389132b617a38c3a2c0dd2ddd1be21140d9c",
-   "sha256": "0p827yi8q13hhqiffyjwy9xrr4zs0qnn65x8ivk00n5ff4s7qzvp"
+   "commit": "45f8a4ae87a3d0980146610de1a981b62540a1c2",
+   "sha256": "1kvipzjydrs8rj66a4ph5mqmnb3rp3l1pns3wxr2ig764gin8gn1"
   }
  },
  {
@@ -128730,11 +128742,11 @@
   "url": "https://git.systemreboot.net/varuga/",
   "unstable": {
    "version": [
-    20241006,
-    2204
+    20250608,
+    219
    ],
-   "commit": "b88ea762f7f0c321176ffd0d5d47c89d6971faf7",
-   "sha256": "0qpybhhndrj8hd6wy7kqrc3csx3y2xiy9j7447fkfq2zxp8d26cx"
+   "commit": "5a1548afa282b12b02e0bfbe6a7532ecdf005d3f",
+   "sha256": "1hjv8018n0y4675msms9k97hkqqzw3zdf22h1sry5rky7nv0hl66"
   },
   "stable": {
    "version": [
