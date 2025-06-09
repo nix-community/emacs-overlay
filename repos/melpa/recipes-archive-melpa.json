@@ -2223,8 +2223,8 @@
   "repo": "tninja/aider.el",
   "unstable": {
    "version": [
-    20250608,
-    36
+    20250609,
+    1402
    ],
    "deps": [
     "magit",
@@ -2232,8 +2232,8 @@
     "s",
     "transient"
    ],
-   "commit": "4c2f579f5b5da7bb100ace7e16614a7576f7b8b4",
-   "sha256": "1y15sxxxcsfip5slm5rf7nymjw77dh3j965g1bpdhp7r5mgl60hh"
+   "commit": "09082c2341e24c34d5a45dc6e9fa9dd8b74043b7",
+   "sha256": "0r5j5v7aapm6mkpxn6nx9vink56m2619jbgq41hkvj1aqwnx4jwl"
   },
   "stable": {
    "version": [
@@ -19456,8 +19456,8 @@
   "repo": "chep/copilot-chat.el",
   "unstable": {
    "version": [
-    20250608,
-    1116
+    20250609,
+    1204
    ],
    "deps": [
     "aio",
@@ -19468,8 +19468,8 @@
     "shell-maker",
     "transient"
    ],
-   "commit": "edd0e06d000f045464980ab2aedc479a7ad16f71",
-   "sha256": "0j8n0826m1sxmlzwpr6sl2p3k78asp82wnn07fwiqdk8jq91yjzx"
+   "commit": "4fc6541e82e3450a40b10efe8003c538eb637827",
+   "sha256": "14fzcv35blyvv6gp0cmz0wv9308ipabk9gbyyz22jxk5k8yhbdky"
   },
   "stable": {
    "version": [
@@ -72987,11 +72987,11 @@
   "repo": "mpdel/libmpdel",
   "unstable": {
    "version": [
-    20250601,
-    1544
+    20250609,
+    909
    ],
-   "commit": "f120aae409acf478542134cb2f562810ef32a731",
-   "sha256": "1pjqv7pcw8n1pqi2nld3rj0b1mkz1lizzj8wg2gxrg0p34518i7x"
+   "commit": "d299cacc272f90d8a2704a72c52a5ef8cf423e8c",
+   "sha256": "1qysdn3pavfi2y8qc5z352rp6y4ix7c0xcpsvry12n05x8skjwc9"
   },
   "stable": {
    "version": [
@@ -93290,7 +93290,7 @@
   "unstable": {
    "version": [
     20250609,
-    739
+    820
    ],
    "deps": [
     "dash",
@@ -93298,8 +93298,8 @@
     "magit-section",
     "org"
    ],
-   "commit": "0786f73669baa468596b29bd0f0d26956770676d",
-   "sha256": "0xdcyz3ph49p9mdi25fdbgax7icf3ba2rx8v792nbchjxmvrpq85"
+   "commit": "c17295134510c8759baad0e8a9f151029d5e5fe1",
+   "sha256": "02r34wshlrhddq6p669m4al6732iqk84fxa2kwrnkxx2kpq0fpgh"
   },
   "stable": {
    "version": [
@@ -99101,10 +99101,10 @@
   "unstable": {
    "version": [
     20250609,
-    119
+    1313
    ],
-   "commit": "1e651753e8a902babc0dbee8992c1db68112334c",
-   "sha256": "1vpj134517m9x9g6iygfzp3fq7dczisqmwp39yrjnimhg1mvmq5g"
+   "commit": "1109108bd68d65ebfd75e1faf144e3cb54df416e",
+   "sha256": "1wh5g8aldg9jj8f3a2hq8hffizzkxbc6yg7xvl3c7ca6ajv735pw"
   }
  },
  {
@@ -111325,11 +111325,11 @@
   "repo": "rust-lang/rust-mode",
   "unstable": {
    "version": [
-    20250423,
-    15
+    20250609,
+    1420
    ],
-   "commit": "25d91cff281909e9b7cb84e31211c4e7b0480f94",
-   "sha256": "1dhacxmhjgwjyplaqivhv0v9wsk4dclbj2d9slwzib6s4dcgki87"
+   "commit": "0d5d54a19e89f9012f3fa84174f562ab18cebb96",
+   "sha256": "0n15kx987sqpkf2yqjz6vp45nixc5id62d0lyi72h9knwcz6xk29"
   },
   "stable": {
    "version": [
@@ -123605,21 +123605,21 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20250601,
-    1633
+    20250608,
+    1822
    ],
-   "commit": "aa8c55b50218247eb79a74b07f9e291c813b2947",
-   "sha256": "1mdz9gx3fvjbi8ysxm42dgkydnhvq9xqavl9xfz8ax0l02jzci8i"
+   "commit": "4062197b6430195e7e763bfeabf268fd56dd33b6",
+   "sha256": "0cggblfr3qq2dxqcnay3md3vqmp395bx73hyry0f78cj8p68srln"
   },
   "stable": {
    "version": [
     2025,
     6,
-    2,
+    9,
     0
    ],
-   "commit": "aa8c55b50218247eb79a74b07f9e291c813b2947",
-   "sha256": "1mdz9gx3fvjbi8ysxm42dgkydnhvq9xqavl9xfz8ax0l02jzci8i"
+   "commit": "4062197b6430195e7e763bfeabf268fd56dd33b6",
+   "sha256": "0cggblfr3qq2dxqcnay3md3vqmp395bx73hyry0f78cj8p68srln"
   }
  },
  {
@@ -125219,14 +125219,14 @@
    "version": [
     0,
     9,
-    1
+    2
    ],
    "deps": [
     "compat",
     "seq"
    ],
-   "commit": "7937e57e29b5f3ee6f871e67e69a1fb20f353c38",
-   "sha256": "09fjb7cvlxjby1r2liqhp90naz0dcfc5m3d4578zyxzhayhpmc13"
+   "commit": "f3f498aa155f88c7e2ab6d1d01d1361813059db8",
+   "sha256": "00v4jddhl7c5b4q96gwm9s66s0hgsgpkpsv9dlx9agb209mz4jjc"
   }
  },
  {
@@ -127836,14 +127836,11 @@
   "repo": "tbanel/uniline",
   "unstable": {
    "version": [
-    20250602,
-    522
+    20250609,
+    715
    ],
-   "deps": [
-    "hydra"
-   ],
-   "commit": "ad2c970cb1b5fcfca477b74ece597ca674d31f4f",
-   "sha256": "11r0bsdm5yrawmylxyq88ysjd7ilpbq0sjs7xx7dfkn96a6n1c9x"
+   "commit": "e4f8453006ec07809502678c22673c27c7f4f510",
+   "sha256": "1dih7mrg422fz0l6dcghdx8qhm59y8h6rpkfbl7zhprwaq70assi"
   }
  },
  {
@@ -134624,11 +134621,11 @@
   "repo": "Kungsgeten/yankpad",
   "unstable": {
    "version": [
-    20250608,
-    2132
+    20250609,
+    1121
    ],
-   "commit": "4fdaabfeb7c28be9258184ce5e7036f73a70e50c",
-   "sha256": "11lbsrjhgksl5gv130xycsx8a0sh51aic3n496kgcjmf7scza13a"
+   "commit": "55891dde4c9d83b86f94764e7a1990084e66ee53",
+   "sha256": "060vyy0l6y2mjyhk4xys28c85jhqrm8dilrzx4xdmlnd2x4nm1al"
   },
   "stable": {
    "version": [
