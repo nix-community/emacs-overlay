@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250606.75251";
+      version = "4.0.0.0.20250609.42538";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250606.75251.tar";
-        sha256 = "0r0ahk36wjfyi51cgdryh10c6g6lg8arbkmx1kyvmkjvq5s7r7ns";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250609.42538.tar";
+        sha256 = "1mdbxlm5bz0l2zq2jcn3irf2jxcz4gvk0ccq473rwb5kic64n25w";
       };
       packageRequires = [ ];
       meta = {
@@ -2664,10 +2664,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.1.0.0.20250608.52036";
+      version = "0.1.0.0.20250609.75550";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250608.52036.tar";
-        sha256 = "1b90wg0j1lv1kmyjwhn3h5apxgi96s6w2i59rn4mrcwgadzs641m";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250609.75550.tar";
+        sha256 = "1y7ws6d97ig44xndk7fbd5h3wivhx993fcavjpd4fcm9gycnf33f";
       };
       packageRequires = [ ];
       meta = {
