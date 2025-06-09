@@ -1296,10 +1296,10 @@
     elpaBuild {
       pname = "code-cells";
       ename = "code-cells";
-      version = "0.5.0.20241119.142112";
+      version = "0.5.0.20250608.143915";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/code-cells-0.5.0.20241119.142112.tar";
-        sha256 = "1jzqp6d7xj2ya18x0dahqn2if46wphbk63f76pw09bhwh71qc9g3";
+        url = "https://elpa.gnu.org/devel/code-cells-0.5.0.20250608.143915.tar";
+        sha256 = "1chbb4sab9a73aj7a283g1qpsqbv6rvzfah4qqg5piykc2hk0yg0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2272,10 +2272,10 @@
     elpaBuild {
       pname = "devdocs";
       ename = "devdocs";
-      version = "0.6.1.0.20241113.134137";
+      version = "0.6.1.0.20250608.141406";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/devdocs-0.6.1.0.20241113.134137.tar";
-        sha256 = "0p8p0bp9wyrl4xqnj60k2hxmqcg40angzhsc240cvlyfg965ixx1";
+        url = "https://elpa.gnu.org/devel/devdocs-0.6.1.0.20250608.141406.tar";
+        sha256 = "155j0c3ldrp16399fv1mqppkky0zzjy1d4bls83j8w3xl2r8ai4v";
       };
       packageRequires = [
         compat
@@ -6450,10 +6450,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250529.210300";
+      version = "9.8pre0.20250608.153153";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250529.210300.tar";
-        sha256 = "1nnas0kdnymi6c8m7i683cacimzfjvakmy5c347ayqq9z161jv78";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250608.153153.tar";
+        sha256 = "1yf3rky5b36ibjjs3vg1i6yz0j57rq5q9f95z003m68g1m0cfb6z";
       };
       packageRequires = [ ];
       meta = {
@@ -7197,10 +7197,10 @@
     elpaBuild {
       pname = "polymode";
       ename = "polymode";
-      version = "0.2.2.0.20250603.234324";
+      version = "0.2.2.0.20250608.164106";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250603.234324.tar";
-        sha256 = "1c1ga4waiw6993rsfibg54lygk1bq1hwchcv5bypwwaqdqajgg8r";
+        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250608.164106.tar";
+        sha256 = "1zhfkd56amz9g70j9150wr7bwiaiyrl2kl911n4xamjf216yw99q";
       };
       packageRequires = [ ];
       meta = {
