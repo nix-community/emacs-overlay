@@ -2378,10 +2378,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.0.20250607.181444";
+      version = "0.9.8.0.20250609.151256";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250607.181444.tar";
-        sha256 = "0bdzcb65jzppc2ax9zla9drak32fln4q6x78y2knmz013vmmdikw";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.0.20250609.151256.tar";
+        sha256 = "0jq8bw1giqpjc207c96b3dngkm6ingqm4k897a5yvrkwla5nqaab";
       };
       packageRequires = [
         compat
@@ -2575,10 +2575,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.3.0.20250609.175135";
+      version = "4.0.3.0.20250610.54630";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.3.0.20250609.175135.tar";
-        sha256 = "0vvbs9pdavcnz1gm7whs0qqf5v9n7alpwy7v3yfk1rvdni111g9h";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.3.0.20250610.54630.tar";
+        sha256 = "1jqk7vkbm2br9dff6g9gmhiy4y1wj8bdy0mdzdqnbc0694bmshnj";
       };
       packageRequires = [
         helm-core
@@ -2600,10 +2600,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.3.0.20250609.175135";
+      version = "4.0.3.0.20250610.54630";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.3.0.20250609.175135.tar";
-        sha256 = "1g6917y71cihf3ia98w440zqxkxkpv62vn9vf1x07y1x5n7h0sza";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.3.0.20250610.54630.tar";
+        sha256 = "0kdpkz7gdgdakq98262pvymx331ygjvy896y71p2i34mrl51vflk";
       };
       packageRequires = [ async ];
       meta = {
@@ -4549,10 +4549,10 @@
     elpaBuild {
       pname = "scroll-on-jump";
       ename = "scroll-on-jump";
-      version = "0.2.0.20250113.92302";
+      version = "0.2.0.20250610.5024";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.2.0.20250113.92302.tar";
-        sha256 = "1m0xq5mnls82gvbvqlzvxl540wz53xz7s8xphpf93pfm5qf8lkw5";
+        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.2.0.20250610.5024.tar";
+        sha256 = "1710m1vmpq8xwwnql3r0v2j477xg9vq1vg87zi0li9jhhvfwcbmn";
       };
       packageRequires = [ ];
       meta = {
@@ -5257,10 +5257,10 @@
     elpaBuild {
       pname = "undo-fu-session";
       ename = "undo-fu-session";
-      version = "0.7.0.20241212.4030";
+      version = "0.7.0.20250610.5238";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20241212.4030.tar";
-        sha256 = "1nggzbk1xi0w5f5y2xkp2jk4imfbqfaldngavslz1rhskiqwdqqa";
+        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20250610.5238.tar";
+        sha256 = "02bf3dx06mavdwwkkcgcv4crk1jbbyi7jcyf3dydqpn5ja5qkhgl";
       };
       packageRequires = [ ];
       meta = {
