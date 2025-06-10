@@ -2575,10 +2575,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.3.0.20250608.200010";
+      version = "4.0.3.0.20250609.175135";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.3.0.20250608.200010.tar";
-        sha256 = "1pmr35hmalm01vgnjxq0d2mr8n4jibsdsp5d6ssik4y7f7bhph81";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.3.0.20250609.175135.tar";
+        sha256 = "0vvbs9pdavcnz1gm7whs0qqf5v9n7alpwy7v3yfk1rvdni111g9h";
       };
       packageRequires = [
         helm-core
@@ -2600,10 +2600,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.3.0.20250608.200010";
+      version = "4.0.3.0.20250609.175135";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.3.0.20250608.200010.tar";
-        sha256 = "0r8041habjihm2gfmrz1l3m0zbqrxwwdn88x6dm10nxj4gapdsly";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.3.0.20250609.175135.tar";
+        sha256 = "1g6917y71cihf3ia98w440zqxkxkpv62vn9vf1x07y1x5n7h0sza";
       };
       packageRequires = [ async ];
       meta = {
@@ -4184,10 +4184,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20250527.143946";
+      version = "4.6snapshot0.20250609.194752";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250527.143946.tar";
-        sha256 = "1xkk7hspy0zn4sm1j05j253fima73q0nbzma57vv1k8v68j933y9";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250609.194752.tar";
+        sha256 = "0s0asjsmh2s8nwqk1vjan6vmg1ja9cn31pqb5aky4jvlnj3hhq2z";
       };
       packageRequires = [ ];
       meta = {
@@ -4438,10 +4438,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20250423.1515";
+      version = "1.0.6.0.20250609.142010";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20250423.1515.tar";
-        sha256 = "1vkbg2gg9i1lyz4g7zkqjrixh7867x8py7ay7pcq76srwn01hja3";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20250609.142010.tar";
+        sha256 = "0jbf6c8wy6ay784grwjhyxx6051znd4v79dmkj5h9iizr46lylmi";
       };
       packageRequires = [ ];
       meta = {
