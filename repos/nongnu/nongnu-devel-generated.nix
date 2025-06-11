@@ -781,10 +781,10 @@
     elpaBuild {
       pname = "cycle-at-point";
       ename = "cycle-at-point";
-      version = "0.2.0.20250421.105916";
+      version = "0.2.0.20250611.32851";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cycle-at-point-0.2.0.20250421.105916.tar";
-        sha256 = "1k8wx7lvdv6194l1367a3z15qbgx8ypipqwrk99wbq1hjiwqs07q";
+        url = "https://elpa.nongnu.org/nongnu-devel/cycle-at-point-0.2.0.20250611.32851.tar";
+        sha256 = "17pw2g8nh1byp42qb06568lrir0b6msbqhvkw45dwp89dd7nkrc4";
       };
       packageRequires = [ recomplete ];
       meta = {
@@ -930,10 +930,10 @@
     elpaBuild {
       pname = "diff-ansi";
       ename = "diff-ansi";
-      version = "0.2.0.20250408.234444";
+      version = "0.2.0.20250611.51010";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20250408.234444.tar";
-        sha256 = "1wkja7733l5kwj4j2jlfa9c9607059asyvap6xdihqqd1ic1l3w5";
+        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20250611.51010.tar";
+        sha256 = "1i7x02ccvsbaayvzv9sbi09a6vfzpqhnaqkzcqjbkff538v6kcy1";
       };
       packageRequires = [ ];
       meta = {
@@ -2575,10 +2575,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.3.0.20250610.102729";
+      version = "4.0.3.0.20250611.63243";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.3.0.20250610.102729.tar";
-        sha256 = "13b4a88akz95h25nqldg91q02nqly6q3p7svrjbhkp9fdgggzw0g";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.3.0.20250611.63243.tar";
+        sha256 = "06ybb24naymi6y0skgz9ks3zlii7jvkzv26pw5dgn7grp0dlckzp";
       };
       packageRequires = [
         helm-core
@@ -2600,10 +2600,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.3.0.20250610.102729";
+      version = "4.0.3.0.20250611.63243";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.3.0.20250610.102729.tar";
-        sha256 = "04gf6i89j1ah98qmp5idv1nrnh1mlybpwymxnr57fgwrkbm00avg";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.3.0.20250611.63243.tar";
+        sha256 = "0j7pj4k748iabbm0amrwgwqgyar44x10c33wmr9q0sqip5d1xh7m";
       };
       packageRequires = [ async ];
       meta = {
@@ -5257,10 +5257,10 @@
     elpaBuild {
       pname = "undo-fu-session";
       ename = "undo-fu-session";
-      version = "0.7.0.20250610.5238";
+      version = "0.7.0.20250611.33234";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20250610.5238.tar";
-        sha256 = "02bf3dx06mavdwwkkcgcv4crk1jbbyi7jcyf3dydqpn5ja5qkhgl";
+        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20250611.33234.tar";
+        sha256 = "0nzm5y4diim3di2kyaxamgbibni0vrd59d92f3fi7wyxcwb0v8dw";
       };
       packageRequires = [ ];
       meta = {
