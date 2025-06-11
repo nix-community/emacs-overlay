@@ -5025,10 +5025,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.4.3.0.20250610.62614";
+      version = "0.4.3.0.20250610.183955";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.4.3.0.20250610.62614.tar";
-        sha256 = "1qx24mnz1199n6g83ryfdsfkr74bpfmm9lr7adbfj63p9y6gvrih";
+        url = "https://elpa.gnu.org/devel/kubed-0.4.3.0.20250610.183955.tar";
+        sha256 = "0q0m0qlv5k5k4xyi28q666r0r4q87v1x4gi128fx6mawkr5hmlqn";
       };
       packageRequires = [ ];
       meta = {
@@ -9451,10 +9451,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.9.1.0.20250603.91835";
+      version = "0.9.2.0.20250609.160916";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.9.1.0.20250603.91835.tar";
-        sha256 = "109i53q9lzz74r22qifzsx2kvv41afkdih85wn7aqr30afnqy86m";
+        url = "https://elpa.gnu.org/devel/transient-0.9.2.0.20250609.160916.tar";
+        sha256 = "0862za7jvnryk4vrci200wxxy86m2b64crxsg0sw2prq4a0l01yi";
       };
       packageRequires = [
         compat
