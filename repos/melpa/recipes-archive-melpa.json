@@ -27944,10 +27944,10 @@
    "version": [
     3,
     19,
-    0
+    1
    ],
-   "commit": "645a7897e4b9540cc4d79ffbd59f9be259cd6317",
-   "sha256": "1cxv2wycppxi01616bp01qhyjhkzjcf3n0ji4gciz998lbbdg60w"
+   "commit": "76c0c3941798f81dcc13a305d7abb120c191f5fa",
+   "sha256": "01ys792jnld5yihhyirwkk4jlqm59bk0vrqjvvk5xjn8pp26vryq"
   }
  },
  {
@@ -52985,28 +52985,29 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20250609,
-    2212
+    20250611,
+    857
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "0a7744610814da90a27cb8f6a090915f61bde4b8",
-   "sha256": "0cx677cd3s3hgiblss7hncy0d35csy7w6xb73yrfwdqnbdqfakqs"
+   "commit": "a5af15c770b66a61d0609a736e1db37495655559",
+   "sha256": "0ix0k9dv91mbibwih1s5wzx9hj5nkr3cz799m6gb52vpwf9gixg7"
   },
   "stable": {
    "version": [
     0,
     9,
-    8
+    8,
+    5
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "975c3e64eb834b939e0d61dfc39fed8395afcc45",
-   "sha256": "1wjzv39pcg6lcmlw6yc4fdfln2cnshzaa0dxgkniq9dfznf7hnmd"
+   "commit": "a5af15c770b66a61d0609a736e1db37495655559",
+   "sha256": "0ix0k9dv91mbibwih1s5wzx9hj5nkr3cz799m6gb52vpwf9gixg7"
   }
  },
  {
@@ -55292,15 +55293,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20250609,
-    1751
+    20250611,
+    950
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "bd0abf4af7723f5ad59798dc6ccef3034779acdc",
-   "sha256": "17mqkj896jflwnjxi4dvp5b26p0y5fa4a6rgjfk9f0v4wkkgblar"
+   "commit": "7ea099145b1797fc88990f0d60830daabdd4e6b9",
+   "sha256": "1ybckhvxb9bswx4yccng03di7801wmf4vwyrw5606wficahrd73i"
   },
   "stable": {
    "version": [
@@ -56182,14 +56183,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20250610,
-    1027
+    20250611,
+    918
    ],
    "deps": [
     "async"
    ],
-   "commit": "01b2efc256ef0917ae12a83ff169baa5e35da885",
-   "sha256": "0s3r0b7cpmcvymk5g00aahhkpmhg44dadzmw6a4zxl3b6zrd4ixw"
+   "commit": "961e09d4d7309d7bef4b29090301853d9ae00afe",
+   "sha256": "1a3p111rp7dnwvpcpxcy4amsgqjm8f5pqkg94hg8i9gf52s3nf36"
   },
   "stable": {
    "version": [
@@ -62174,11 +62175,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20250608,
-    536
+    20250611,
+    1142
    ],
-   "commit": "a5221c54340701bb275878a1cda7461612857c26",
-   "sha256": "13a0y6mzf6nx1mgzv394p3zpg98g905whn6a0yf2bap6w54cvnyr"
+   "commit": "14707845dbb789a93e8e1523945b9dea108cf03b",
+   "sha256": "11wck7zjppy70yw65g6nqmjqz9pxzbbzckp44g32rdr1mf1wc3ax"
   },
   "stable": {
    "version": [
@@ -70418,15 +70419,15 @@
   "repo": "khoj-ai/khoj",
   "unstable": {
    "version": [
-    20250610,
-    1720
+    20250611,
+    649
    ],
    "deps": [
     "dash",
     "transient"
    ],
-   "commit": "0cd709caf4666eb98dc8c449c997e921a6a04409",
-   "sha256": "1dp9cyps30sqxm215k3ilf9kpf90405k5wfyxknjb9p9x05da8xf"
+   "commit": "71221533c8709cfda4194fe2ab695b794250aad5",
+   "sha256": "1mzds0khj5nl0vgvqcvnxnbzq9bkrgm2yykhiph38sgg57v3s4n0"
   },
   "stable": {
    "version": [
@@ -72987,11 +72988,11 @@
   "repo": "mpdel/libmpdel",
   "unstable": {
    "version": [
-    20250609,
-    909
+    20250611,
+    805
    ],
-   "commit": "d299cacc272f90d8a2704a72c52a5ef8cf423e8c",
-   "sha256": "1qysdn3pavfi2y8qc5z352rp6y4ix7c0xcpsvry12n05x8skjwc9"
+   "commit": "6fc98552ea0864a9072beeac5cbc4d43d61925f2",
+   "sha256": "0x380s770xmg38a8fcjg56ssmk2wvcjc4qza5yvwyk7zyfzppwa9"
   },
   "stable": {
    "version": [
@@ -95381,11 +95382,11 @@
   "repo": "tbanel/orgaggregate",
   "unstable": {
    "version": [
-    20250607,
-    824
+    20250611,
+    901
    ],
-   "commit": "91f98772d56b9df0039c89885026a80aaf406abb",
-   "sha256": "0f6xxh80h5xziy07v54w5n97igvpw6bam0h59r9if1jhck9cq5yv"
+   "commit": "36352a235fb740229173c54353dca0de5ea8fe6e",
+   "sha256": "0jih7zzgfhq5jgjz2kn1ban97lydkxhzcz4rb2jc53mxk03f444l"
   }
  },
  {
@@ -99100,11 +99101,11 @@
   "repo": "lorniu/pdd.el",
   "unstable": {
    "version": [
-    20250610,
-    625
+    20250611,
+    1531
    ],
-   "commit": "e8ac6baf7f502028675a2b5c945dd9fe7728f36c",
-   "sha256": "10n9f12b5m5wghvjilqnv3xgaa355gkpkim7kig902qpjvz8qz97"
+   "commit": "969fc03fd2a5fe010ec517976ed91f83eb51537f",
+   "sha256": "1xhlivlkm03xji0cxfzff42sb5isygw0kp7cmsh6rciw2bkn175d"
   }
  },
  {
@@ -101824,11 +101825,11 @@
   "repo": "przemarbor/polish-holidays",
   "unstable": {
    "version": [
-    20250525,
-    1926
+    20250611,
+    1208
    ],
-   "commit": "0683dc0008d06f6394c0790872d1f44f7b65bd96",
-   "sha256": "14gk65kpl642xkaqvm2vfk6gbj2bni5cc3wc0695njy9iz06fdkw"
+   "commit": "b729478f4f825c9f1282fdc9be57bbd26635bf32",
+   "sha256": "0k5x52iav25ny3wbd085y2k3rpf65cnl59fpaw29ha9f009fg1h4"
   }
  },
  {
