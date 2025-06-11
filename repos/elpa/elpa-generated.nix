@@ -4194,10 +4194,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.8.8";
+      version = "1.9.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gtags-mode-1.8.8.tar";
-        sha256 = "1a9s21ld0gwhy1hvrfjscii2kb1s7d9r7q87m2qbh55jy9qzyqir";
+        url = "https://elpa.gnu.org/packages/gtags-mode-1.9.1.tar";
+        sha256 = "1fcjvrcdyybykyf2ci3yyh3y30lpy6r3lc3id053yi6nahwdjjr1";
       };
       packageRequires = [ ];
       meta = {
@@ -5805,10 +5805,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.7.0";
+      version = "4.8.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/modus-themes-4.7.0.tar";
-        sha256 = "1p0lfcc897dxf9f3ylnym1ird4j90sgy2i34yvmbr22ii2pc47sw";
+        url = "https://elpa.gnu.org/packages/modus-themes-4.8.0.tar";
+        sha256 = "15d8ld7gf3c15i409pmp8pnv3b9bgy0r5xbb1bicga7knyqqaj6c";
       };
       packageRequires = [ ];
       meta = {
@@ -9830,10 +9830,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.2";
+      version = "2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-2.2.tar";
-        sha256 = "1mb2j32wkcv7j310xwhf9pjddf0b85ffna84ywbbnyn9x1xb8qyf";
+        url = "https://elpa.gnu.org/packages/vertico-2.3.tar";
+        sha256 = "0svvjw0vqgi6kk303phg9cz5fz3zn5cw26pgi704q16i1kbzzalj";
       };
       packageRequires = [ compat ];
       meta = {

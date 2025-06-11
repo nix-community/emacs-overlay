@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250609.184556";
+      version = "14.0.9.0.20250611.64422";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250609.184556.tar";
-        sha256 = "1abkv82kyx3d1kk6pv0g671m5pzsjcq8781aq03khz72g0w4ipvm";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250611.64422.tar";
+        sha256 = "01jr5zqxcj0lvx09xmzqk58b7gg0hnxvf7s16037z1mn5x0d1ddy";
       };
       packageRequires = [ ];
       meta = {
@@ -782,10 +782,10 @@
     elpaBuild {
       pname = "bind-key";
       ename = "bind-key";
-      version = "2.4.1.0.20250227.73309";
+      version = "2.4.1.0.20250611.62842";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bind-key-2.4.1.0.20250227.73309.tar";
-        sha256 = "13ps20qb6ajnhn5qcaf4jncbn25q2iqji8r7f3mflp58h3m8gajm";
+        url = "https://elpa.gnu.org/devel/bind-key-2.4.1.0.20250611.62842.tar";
+        sha256 = "1wrkvjcbbki9lnlcq1miw3gnyayzmjg2wqrxwpyaq8429xh275qq";
       };
       packageRequires = [ ];
       meta = {
@@ -1659,10 +1659,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.2.0.20250601.191538";
+      version = "2.2.0.20250611.62451";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.2.0.20250601.191538.tar";
-        sha256 = "1z9pw6nxyk908d3a2kzq8hmmg5andaf9yzdv1wgcd8xqng1vimm5";
+        url = "https://elpa.gnu.org/devel/corfu-2.2.0.20250611.62451.tar";
+        sha256 = "0ykw3ga83696k9ng391bhf5kabh81fvjkh2pcb3xrp8npdg4fm36";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4238,10 +4238,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.8.8.0.20250609.110724";
+      version = "1.9.1.0.20250611.11155";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gtags-mode-1.8.8.0.20250609.110724.tar";
-        sha256 = "05730mjb10zmryvp5a9z682rzfr53xmdl22y6idcgms7v90csf7m";
+        url = "https://elpa.gnu.org/devel/gtags-mode-1.9.1.0.20250611.11155.tar";
+        sha256 = "0yi6pk7b5a0vjrwjjiir86v6wqbjmqjja30azjwsprqaz19kc2bl";
       };
       packageRequires = [ ];
       meta = {
@@ -5869,10 +5869,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.7.0.0.20250610.64040";
+      version = "4.8.0.0.20250611.45733";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.7.0.0.20250610.64040.tar";
-        sha256 = "0dwydgqn6dfbwr3ck57l5ms40x3vyva44x44v458qmj74h5ms98j";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.0.0.20250611.45733.tar";
+        sha256 = "10260g1lbgb2bzjzj6fmr6yppgma9zbl57ggyfqsidnnkfjyld8x";
       };
       packageRequires = [ ];
       meta = {
@@ -9896,10 +9896,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.2.0.20250430.120738";
+      version = "0.2.0.20250611.75210";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.2.0.20250430.120738.tar";
-        sha256 = "0gmqilpaaalg5sgdd7hcwgwz64k29v0a22zg14492bn7906zr1fs";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.2.0.20250611.75210.tar";
+        sha256 = "0jy7zgc9mdf9kgnbcvvycdnszfckbi2ckb9pz5rfbxwrz7mrp0nd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10003,10 +10003,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.2.0.20250607.83835";
+      version = "2.3.0.20250610.202941";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.2.0.20250607.83835.tar";
-        sha256 = "13rwagy580h3cjlip8b1dk9dwpn20i2g4lff9k3lhqp7vcpkqmrg";
+        url = "https://elpa.gnu.org/devel/vertico-2.3.0.20250610.202941.tar";
+        sha256 = "1wdv84bjhhqfy2jagki6r9bm72wh8pjjvb42hwsinsq8p2d3x3kv";
       };
       packageRequires = [ compat ];
       meta = {
