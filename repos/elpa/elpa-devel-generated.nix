@@ -1482,10 +1482,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.1.0.0.0.20250611.193635";
+      version = "30.1.0.0.0.20250611.224305";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-30.1.0.0.0.20250611.193635.tar";
-        sha256 = "06phw0m58p114vzmj6rr3qny0ps0q53x4cb73bhiav8074s64vbk";
+        url = "https://elpa.gnu.org/devel/compat-30.1.0.0.0.20250611.224305.tar";
+        sha256 = "1p4cmwkkzj0na29zx7a0i0pdh1ad8h41bavhydg1rch8jf18q729";
       };
       packageRequires = [ seq ];
       meta = {
@@ -1659,10 +1659,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.2.0.20250611.62451";
+      version = "2.3.0.20250611.232949";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.2.0.20250611.62451.tar";
-        sha256 = "0ykw3ga83696k9ng391bhf5kabh81fvjkh2pcb3xrp8npdg4fm36";
+        url = "https://elpa.gnu.org/devel/corfu-2.3.0.20250611.232949.tar";
+        sha256 = "0qd7864lx5sfbp58b27k35gpi4cw4hf83j7xpcxga5zrz67mnygp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2368,10 +2368,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20250520.20816";
+      version = "1.10.0.0.20250612.33816";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250520.20816.tar";
-        sha256 = "15m4bca2arig6d6l2ml8ab4dg08rpi5m7pzps5lidad83ipl3cvv";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250612.33816.tar";
+        sha256 = "1j8isgr94vg34yynjsbnmc78k2pbiwdydalr6md1ihrnfcf541wz";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -4238,10 +4238,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.9.1.0.20250611.11155";
+      version = "1.9.1.0.20250611.205248";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gtags-mode-1.9.1.0.20250611.11155.tar";
-        sha256 = "0yi6pk7b5a0vjrwjjiir86v6wqbjmqjja30azjwsprqaz19kc2bl";
+        url = "https://elpa.gnu.org/devel/gtags-mode-1.9.1.0.20250611.205248.tar";
+        sha256 = "0hsnxhq43fxv3w3rn96478s65bvcyrah91xk301fl7946cqnhn9v";
       };
       packageRequires = [ ];
       meta = {
@@ -6569,10 +6569,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.8.0.20250611.174018";
+      version = "1.9.0.20250611.233459";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.8.0.20250611.174018.tar";
-        sha256 = "1dfcdmfhacfaj2migrrg8qg4ianwgsy0s6rbji3zh5k85caib02q";
+        url = "https://elpa.gnu.org/devel/org-modern-1.9.0.20250611.233459.tar";
+        sha256 = "1qvf48k46igm7nc7vfl0xpvdla0bbr167n1hx53n2zaa33hnap9n";
       };
       packageRequires = [
         compat
