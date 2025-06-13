@@ -3505,10 +3505,10 @@
     elpaBuild {
       pname = "filechooser";
       ename = "filechooser";
-      version = "0.2.2";
+      version = "0.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/filechooser-0.2.2.tar";
-        sha256 = "1y1f6nihay2xbnywki39kp01x20pmg41jl2r0qhw7s31q4qaxyrv";
+        url = "https://elpa.gnu.org/packages/filechooser-0.2.3.tar";
+        sha256 = "17dqms6knc0l47m02581jlm7ikcs662nmxdnsklipnnn0gfjmkmm";
       };
       packageRequires = [ compat ];
       meta = {

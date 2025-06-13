@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250611.84238";
+      version = "14.0.9.0.20250612.91843";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250611.84238.tar";
-        sha256 = "1w3h3118s8vz33qvc7782d27pfbldq0jvgq0679w5ybclbkyq3kk";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250612.91843.tar";
+        sha256 = "1f0xn08xzlacbr5ks2wh84a59yg6p7i7xqv2lakf0r5f97wzyal4";
       };
       packageRequires = [ ];
       meta = {
@@ -3548,10 +3548,10 @@
     elpaBuild {
       pname = "filechooser";
       ename = "filechooser";
-      version = "0.2.2.0.20250411.154303";
+      version = "0.2.3.0.20250612.193804";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/filechooser-0.2.2.0.20250411.154303.tar";
-        sha256 = "0xgvwjxsckmdijmrsb4c6ln515an07x84az3x5vd4mjll85mcm86";
+        url = "https://elpa.gnu.org/devel/filechooser-0.2.3.0.20250612.193804.tar";
+        sha256 = "1h5aysjzkza5c1vglr5h9cr630vvnmyap7nmvry9g2pj13yldj57";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7483,10 +7483,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20250505.74536";
+      version = "0.30.0.20250612.172242";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20250505.74536.tar";
-        sha256 = "0xcwr1vrcqafc5q9lzi0g3hb7xhv2cqc163mfsbhi7y2a80gylwi";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20250612.172242.tar";
+        sha256 = "1zhahz5lry4pc1hjw8lm8ychgfxxsbkl73wc6rj9jxilygbyfyb0";
       };
       packageRequires = [
         compat
