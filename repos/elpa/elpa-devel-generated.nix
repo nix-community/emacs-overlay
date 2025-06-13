@@ -1940,10 +1940,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250607.211007";
+      version = "0.24.1.0.20250612.220234";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250607.211007.tar";
-        sha256 = "1lcdnzzbs1bzjv0kzj6ryvx95sc2fhigvdf7a3n9fr2kzm2k5sas";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250612.220234.tar";
+        sha256 = "17941g3pd60k06gr7npjh0qh26zxdri0gsbc8ng4abhs052izpyd";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2368,10 +2368,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20250612.33816";
+      version = "1.10.0.0.20250613.22449";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250612.33816.tar";
-        sha256 = "1j8isgr94vg34yynjsbnmc78k2pbiwdydalr6md1ihrnfcf541wz";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250613.22449.tar";
+        sha256 = "0l8x33n69888wwj81nbdzn4cj1skpdcq97fs1sr0jvrifqcl748w";
       };
       packageRequires = [ cl-lib ];
       meta = {
