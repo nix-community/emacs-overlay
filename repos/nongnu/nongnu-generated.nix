@@ -2288,10 +2288,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.10";
+      version = "0.11";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gnuplot-0.10.tar";
-        sha256 = "19frcznzh4ahk7k1nqbaipmhcl2gqssh6dmk55qxy235cyhym7w6";
+        url = "https://elpa.nongnu.org/nongnu/gnuplot-0.11.tar";
+        sha256 = "10zjkf0ba7jaqx41csa815apx58s0b87svvmzzld3i3xf91sash7";
       };
       packageRequires = [ compat ];
       meta = {

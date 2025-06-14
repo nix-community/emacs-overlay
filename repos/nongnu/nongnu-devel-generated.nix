@@ -2271,10 +2271,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.10.0.20250606.192846";
+      version = "0.11.0.20250613.122323";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.10.0.20250606.192846.tar";
-        sha256 = "1v38yark00rg06qhp8crzb3jzdi2adpw4x4lda5p8n1m76jdr6ak";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.11.0.20250613.122323.tar";
+        sha256 = "0mc5v1f8m6bv4lcdci2sk99xzfhb7597jniywb2n1bhwzz0mp7vj";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2378,10 +2378,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250612.111438";
+      version = "0.9.8.5.0.20250613.113359";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250612.111438.tar";
-        sha256 = "0j5xjpav7mvg0rymzv5czh1ygpy2vwpjhjxsvwc5gk8ryc0r1ckd";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250613.113359.tar";
+        sha256 = "0f4cgkrk0d3skpswhf8b69pb9jj6aqy0rnfgrxnxfqa051x95b6v";
       };
       packageRequires = [
         compat
@@ -4613,10 +4613,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250608.135513";
+      version = "2.31snapshot0.20250613.131426";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250608.135513.tar";
-        sha256 = "1ihlscliflqhz5y2jhpiq0fdssiz144xrqkp12zdbcy43q2lwkv9";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250613.131426.tar";
+        sha256 = "15gway3c3d0y1qidlgw1376v2b6zzh2znhfw2ix6rh8kxsjdjiwf";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -5567,10 +5567,10 @@
     elpaBuild {
       pname = "ws-butler";
       ename = "ws-butler";
-      version = "1.3.0.20250310.20542";
+      version = "1.3.0.20250612.214058";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/ws-butler-1.3.0.20250310.20542.tar";
-        sha256 = "1np6n8n54awwbcny84l3k53416a4xa7gl6420296k7f9r588ngw0";
+        url = "https://elpa.nongnu.org/nongnu-devel/ws-butler-1.3.0.20250612.214058.tar";
+        sha256 = "0w580p3p2b3jmmfr46qzgg4zqxc8dg17b8808a9djjlz56v589w6";
       };
       packageRequires = [ ];
       meta = {
