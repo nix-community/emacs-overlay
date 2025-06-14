@@ -4194,10 +4194,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.9.1";
+      version = "1.9.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gtags-mode-1.9.1.tar";
-        sha256 = "1fcjvrcdyybykyf2ci3yyh3y30lpy6r3lc3id053yi6nahwdjjr1";
+        url = "https://elpa.gnu.org/packages/gtags-mode-1.9.2.tar";
+        sha256 = "0r6svj00217b924k9blqj4q54kz0w7y8j1i04h1mczaw11lsgdj4";
       };
       packageRequires = [ ];
       meta = {

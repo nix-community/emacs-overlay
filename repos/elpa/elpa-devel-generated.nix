@@ -2368,10 +2368,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20250613.22449";
+      version = "1.10.0.0.20250613.220423";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250613.22449.tar";
-        sha256 = "0l8x33n69888wwj81nbdzn4cj1skpdcq97fs1sr0jvrifqcl748w";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250613.220423.tar";
+        sha256 = "022razjy6fiyhbg4hadsgv1mys037rvvj33lp01sfwhnjijj4wsj";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -4238,10 +4238,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.9.1.0.20250613.103724";
+      version = "1.9.2.0.20250614.11840";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gtags-mode-1.9.1.0.20250613.103724.tar";
-        sha256 = "0qshq9zvlyzzb7j2j2fc2dmpmnjqhs455p47ilwfx0l2m9xw474g";
+        url = "https://elpa.gnu.org/devel/gtags-mode-1.9.2.0.20250614.11840.tar";
+        sha256 = "1c1isci8fhlzjsmsg0g304zqjkq95gka66zaqbsynixdgvzwnq96";
       };
       packageRequires = [ ];
       meta = {
@@ -10003,10 +10003,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.3.0.20250610.202941";
+      version = "2.3.0.20250614.64302";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.3.0.20250610.202941.tar";
-        sha256 = "1wdv84bjhhqfy2jagki6r9bm72wh8pjjvb42hwsinsq8p2d3x3kv";
+        url = "https://elpa.gnu.org/devel/vertico-2.3.0.20250614.64302.tar";
+        sha256 = "1x1gcf20qri22wjlq35qmwbyamgg217sam2qdv1vcmj3hc3f353c";
       };
       packageRequires = [ compat ];
       meta = {
