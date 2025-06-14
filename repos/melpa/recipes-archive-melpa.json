@@ -3629,14 +3629,14 @@
    "version": [
     0,
     4,
-    1
+    2
    ],
    "deps": [
     "f",
     "s"
    ],
-   "commit": "8474bd186ba0fd56ce86524869083947628eed08",
-   "sha256": "189mqb5sayhll5dr005b675rcswdb6jy4k6bjspx3cxgfbakk6h8"
+   "commit": "7385222a4f209eca6d72d412c03da99097e2755f",
+   "sha256": "0b5rrkxygxhnixbwhv5gsz3d216l2j6ljbvipdyysmvzv4fxmgwj"
   }
  },
  {
@@ -24322,13 +24322,13 @@
   "unstable": {
    "version": [
     20250613,
-    224
+    2144
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "0fe1bc0fd8716e8521f49fdbeae68da64ea4772f",
-   "sha256": "1h7dkbg5c7k962hbjy923fipd4xrimjy5mvdx4yb51qzdwffhs49"
+   "commit": "830b05253ba8f35b80448e5de2201aecb6943840",
+   "sha256": "06g14mj493pxvb80yjw3739n4jnd5r4aldxvwy95m9ign8y00p13"
   },
   "stable": {
    "version": [
@@ -28880,20 +28880,20 @@
   "repo": "jamescherti/easysession.el",
   "unstable": {
    "version": [
-    20250612,
-    1837
+    20250613,
+    1708
    ],
-   "commit": "c1bcc2836d15378c1858c4c85d5f96a866f80660",
-   "sha256": "13b249kbx3v8nnhs0255i0n6ik3k195312rw2fm0blmvi04vs21s"
+   "commit": "b28881254c639f5e6a34e4ab46ba1d84e2a8d225",
+   "sha256": "1g658l2vpk09j6mc0q6z1z2lqv1gcr0xvkxf7i1g3101ck72ynrz"
   },
   "stable": {
    "version": [
     1,
     1,
-    3
+    4
    ],
-   "commit": "1a72f4e0460d81c7b5c43fd5b96aa743b6340bec",
-   "sha256": "1wrw3x27fvh94bs6sajcfz421q01b1i4kdm3k5m3fd384md5jqr3"
+   "commit": "b28881254c639f5e6a34e4ab46ba1d84e2a8d225",
+   "sha256": "1g658l2vpk09j6mc0q6z1z2lqv1gcr0xvkxf7i1g3101ck72ynrz"
   }
  },
  {
@@ -46728,17 +46728,18 @@
   "repo": "jollm/fontsloth",
   "unstable": {
    "version": [
-    20250606,
-    428
+    20250613,
+    2028
    ],
    "deps": [
+    "async",
     "f",
     "logito",
     "pcache",
     "stream"
    ],
-   "commit": "ff63c1769fc15a3b2addcdc6a6156d88eb555c7d",
-   "sha256": "1mxyvj1swgvb5bi3x88ywsjpg7zplq5p1b0hxxsmxp19gzjvfgi9"
+   "commit": "4a5bedba58fd99ac7860a3f306f3ebb0353623a7",
+   "sha256": "0nq0i4qi1bya66n54x6ljai8z7fh5dg7prqwz4mm3zz58bkl4b44"
   },
   "stable": {
    "version": [
@@ -52988,15 +52989,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20250612,
-    1814
+    20250613,
+    1833
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "fdd4ede799fdcbdf16f064a5b720ca507bbddca8",
-   "sha256": "1xxpjd9q3r1hyd7rfrdkara4rsyz58w9940myr7k7vkqz6ga9yy3"
+   "commit": "d91675db959b18cded8afb4902a52b19fd476ac9",
+   "sha256": "1z6ry4c28ghs87l60shv9y1xh2nrg4gmjv970lbyfh9a6jbd3wlb"
   },
   "stable": {
    "version": [
@@ -101828,11 +101829,11 @@
   "repo": "przemarbor/polish-holidays",
   "unstable": {
    "version": [
-    20250611,
-    1208
+    20250613,
+    2245
    ],
-   "commit": "b729478f4f825c9f1282fdc9be57bbd26635bf32",
-   "sha256": "0k5x52iav25ny3wbd085y2k3rpf65cnl59fpaw29ha9f009fg1h4"
+   "commit": "3a1e11f53b0fa41bc511c65ae1699394f49cbb08",
+   "sha256": "1g8p63rv1pm7d7b7zddns4zmvhqpw0kpqvz5z6y94bvnb9ai3mi2"
   }
  },
  {
@@ -117977,11 +117978,11 @@
   "repo": "nashamri/spacemacs-theme",
   "unstable": {
    "version": [
-    20250606,
-    2130
+    20250613,
+    2113
    ],
-   "commit": "a7c5dccb4a037ba1f090015fc8ffb9566c64e369",
-   "sha256": "1m03r8jqdpq50d9kbp9q761b8m3n7naq7kzgh7mkmywlxn1zv0cl"
+   "commit": "2ffca41e6e9aa55d8de5c40c6fb61e0d47763b5d",
+   "sha256": "05p7p4q2p1bx2xqiha1qga5drlj6fn2757zdcdxplb88a9zx606r"
   },
   "stable": {
    "version": [
