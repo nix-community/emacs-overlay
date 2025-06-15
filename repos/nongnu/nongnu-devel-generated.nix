@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.4.0.20250611.123943";
+      version = "1.4.0.20250614.141206";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250611.123943.tar";
-        sha256 = "0a3sa1gi3f886a3p6pk84w91k51p8r6fjbpx0ppff9ivg067d79s";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250614.141206.tar";
+        sha256 = "09yqbxsk3brn4v32qdrhcnbd7rikkz1c8da5fgdi50p6rvz1cfd2";
       };
       packageRequires = [
         compat
@@ -2575,10 +2575,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.3.0.20250612.102807";
+      version = "4.0.3.0.20250614.165007";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.3.0.20250612.102807.tar";
-        sha256 = "0vwkmqfk110hvf7adzfvrkj2x3dr031j83yin9ima6a94pdih5qz";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.3.0.20250614.165007.tar";
+        sha256 = "03mha6n0qw1lcz3mhgc47g03zl0b1i2lbgn8smn51ph4ik824vhn";
       };
       packageRequires = [
         helm-core
@@ -2600,10 +2600,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.3.0.20250612.102807";
+      version = "4.0.3.0.20250614.165007";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.3.0.20250612.102807.tar";
-        sha256 = "1a7p3wxyyalqa7x6cr66yls5kdmwhvk1b2xz0ccxbz0swd21mrlb";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.3.0.20250614.165007.tar";
+        sha256 = "0nw0zfwfdyfd3w0zi5zx0plb19p6nlbjlixbx4p6nif0f3rv8zqf";
       };
       packageRequires = [ async ];
       meta = {
