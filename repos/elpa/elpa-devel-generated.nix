@@ -1940,10 +1940,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250612.220234";
+      version = "0.24.1.0.20250614.193559";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250612.220234.tar";
-        sha256 = "17941g3pd60k06gr7npjh0qh26zxdri0gsbc8ng4abhs052izpyd";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250614.193559.tar";
+        sha256 = "08lxli4i9xi4095si01mxr21d6107bfpvpr1dkj8f37srngi6gfh";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -9896,10 +9896,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.2.0.20250611.75210";
+      version = "0.2.0.20250614.84603";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.2.0.20250611.75210.tar";
-        sha256 = "0jy7zgc9mdf9kgnbcvvycdnszfckbi2ckb9pz5rfbxwrz7mrp0nd";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.2.0.20250614.84603.tar";
+        sha256 = "19g9c3j6iqxyz4dg3shn2xzcp0dx8vax0fxwv1iwyxp1mdar0k15";
       };
       packageRequires = [ compat ];
       meta = {
