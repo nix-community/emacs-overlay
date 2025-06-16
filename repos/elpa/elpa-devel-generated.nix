@@ -9896,10 +9896,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.2.0.20250614.84603";
+      version = "0.3.0.20250615.153331";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.2.0.20250614.84603.tar";
-        sha256 = "19g9c3j6iqxyz4dg3shn2xzcp0dx8vax0fxwv1iwyxp1mdar0k15";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250615.153331.tar";
+        sha256 = "0g5lz4x23ajfmgrnd1gxipwzic8dp0adn9fn2iy0m4m5njrxkyrx";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10003,10 +10003,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.3.0.20250614.64302";
+      version = "2.3.0.20250615.120816";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.3.0.20250614.64302.tar";
-        sha256 = "1x1gcf20qri22wjlq35qmwbyamgg217sam2qdv1vcmj3hc3f353c";
+        url = "https://elpa.gnu.org/devel/vertico-2.3.0.20250615.120816.tar";
+        sha256 = "1w2cba2mz7m3ia50c4bhkk2a635pdmb8drx71nn5rsvkzn7zci60";
       };
       packageRequires = [ compat ];
       meta = {
