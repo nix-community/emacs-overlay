@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.4.0.20250614.141206";
+      version = "1.4.0.20250616.105543";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250614.141206.tar";
-        sha256 = "09yqbxsk3brn4v32qdrhcnbd7rikkz1c8da5fgdi50p6rvz1cfd2";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250616.105543.tar";
+        sha256 = "0552jk9y72d8k7ylsjkc1safgllzfhlmjrkwkmp50r00m7qna9xk";
       };
       packageRequires = [
         compat
@@ -333,10 +333,10 @@
     elpaBuild {
       pname = "beancount";
       ename = "beancount";
-      version = "0.9.0.0.20250612.104138";
+      version = "0.9.0.0.20250616.105101";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/beancount-0.9.0.0.20250612.104138.tar";
-        sha256 = "0a9xbfrqg56w512p3hq897czj5rvlxr53wc8cf767nw88qdl8mb4";
+        url = "https://elpa.nongnu.org/nongnu-devel/beancount-0.9.0.0.20250616.105101.tar";
+        sha256 = "1h1hy46xqm70nilqx1z5v4a81y59j7ywikckw2xslilkrniw6wj5";
       };
       packageRequires = [ ];
       meta = {
