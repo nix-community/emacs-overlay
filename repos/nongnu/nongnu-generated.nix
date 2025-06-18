@@ -2215,19 +2215,21 @@
       emacsql,
       fetchurl,
       lib,
+      org-gnosis,
       transient,
     }:
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.0";
+      version = "0.5.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gnosis-0.5.0.tar";
-        sha256 = "1qxzx44j6h9461liy73gw2w089by0yw16d1cjdbhcxs1ss1c8xmh";
+        url = "https://elpa.nongnu.org/nongnu/gnosis-0.5.1.tar";
+        sha256 = "0isnj8w2if2gxlrwflgba82fns2360fij3b13i581gisj9ghzhny";
       };
       packageRequires = [
         compat
         emacsql
+        org-gnosis
         transient
       ];
       meta = {
