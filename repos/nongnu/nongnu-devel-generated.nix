@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.4.0.20250616.105543";
+      version = "1.4.0.20250617.114530";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250616.105543.tar";
-        sha256 = "0552jk9y72d8k7ylsjkc1safgllzfhlmjrkwkmp50r00m7qna9xk";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250617.114530.tar";
+        sha256 = "11qylgliaajqczi2nvrv0xdd5rh0c46wr4ay2drhrnci58m0q27i";
       };
       packageRequires = [
         compat
@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0snapshot0.20250617.75208";
+      version = "0.6.0snapshot0.20250617.113158";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0snapshot0.20250617.75208.tar";
-        sha256 = "0cw3cdazqk2b8c2mkiz3zm8byycmkbhlnd5j718irk54i51glb2k";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0snapshot0.20250617.113158.tar";
+        sha256 = "0h0csq3np0fj0hfb4pgdszlp6gx4020pvk4cj0jkl2n7kq2w4kmm";
       };
       packageRequires = [ ];
       meta = {
@@ -666,10 +666,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0.0.20250512.155519";
+      version = "1.0.0.20250617.112549";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250512.155519.tar";
-        sha256 = "09zzr69iais44669bm52ciw3jh55zi98z3kc0nr1v2h656z5yaq4";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250617.112549.tar";
+        sha256 = "0i7p48sm95810a7a2yjjpz0s5m7a4hab44pwsnl27ap0qs6y7xcz";
       };
       packageRequires = [
         consult
@@ -5343,10 +5343,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.0snapshot0.20250504.193215";
+      version = "8.3.0snapshot0.20250617.92926";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250504.193215.tar";
-        sha256 = "0r64xnwzhx3h3yw6jac9x357rpbh2scg1zdzbg4aihj4r8d1x6lx";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250617.92926.tar";
+        sha256 = "0w7pdcfmxs31ckncs9a145ga66pahg8m7vzn53c0n6xx76gpix44";
       };
       packageRequires = [
         cl-lib
