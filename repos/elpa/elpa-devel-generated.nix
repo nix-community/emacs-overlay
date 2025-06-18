@@ -4455,10 +4455,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250616.1429";
+      version = "9.0.2pre0.20250616.231121";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250616.1429.tar";
-        sha256 = "0lhfdqvwa9j9w5l5x10zl2h9gckwza4q8vvan38dpk3gwvjpsna6";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250616.231121.tar";
+        sha256 = "1xrb72s4ryw76f1459ich4syippkxzxdalg04bmi4c951wykn9ac";
       };
       packageRequires = [ ];
       meta = {
@@ -7483,10 +7483,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20250612.172242";
+      version = "0.30.0.20250617.174423";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20250612.172242.tar";
-        sha256 = "1zhahz5lry4pc1hjw8lm8ychgfxxsbkl73wc6rj9jxilygbyfyb0";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20250617.174423.tar";
+        sha256 = "03zbdqnlqcknm1dbxynv7dzfljh16hmpiwzzm0jfb5d24875h0lc";
       };
       packageRequires = [
         compat
@@ -10134,10 +10134,10 @@
     elpaBuild {
       pname = "vundo";
       ename = "vundo";
-      version = "2.4.0.0.20250417.151603";
+      version = "2.4.0.0.20250617.174826";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vundo-2.4.0.0.20250417.151603.tar";
-        sha256 = "0rcplghs9pxjpkr658phkp3dfyzxrmjavqwz66i2jzc9lnpfq6rl";
+        url = "https://elpa.gnu.org/devel/vundo-2.4.0.0.20250617.174826.tar";
+        sha256 = "17pshwr9drw113az1mbw9val2lpf0cafgh8g7cpspzkph5x9149q";
       };
       packageRequires = [ ];
       meta = {
