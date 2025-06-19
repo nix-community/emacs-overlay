@@ -2593,10 +2593,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.3";
+      version = "4.0.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/helm-4.0.3.tar";
-        sha256 = "0hha3fkdxm6k74a73259la62dis1xp475a8f9a2r1ivs6qblv6b9";
+        url = "https://elpa.nongnu.org/nongnu/helm-4.0.4.tar";
+        sha256 = "1vlqn6v15ms9y1fwk8rip6my1x5ac3pkqxjnqvajv2csc4la1yh2";
       };
       packageRequires = [
         helm-core
