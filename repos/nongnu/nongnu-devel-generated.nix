@@ -2380,10 +2380,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250617.181623";
+      version = "0.9.8.5.0.20250618.74728";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250617.181623.tar";
-        sha256 = "1mp3hwilib2d6a9x0c2n375gyb52mhgrq49h5r89zrzbmdnqy38j";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250618.74728.tar";
+        sha256 = "1iyxnqzycn3cxq7hr3688yf741qzg2svcmrlfa2s45sry0dcxfv6";
       };
       packageRequires = [
         compat
@@ -2602,10 +2602,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.3.0.20250617.63954";
+      version = "4.0.4.0.20250618.82422";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.3.0.20250617.63954.tar";
-        sha256 = "0r7bwzps2f4a1ccvzp3m737pa0ddk27gcfllcililfad85vjwlvv";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250618.82422.tar";
+        sha256 = "1gg9p1bw6z9vyqsm20sdfz2w4bc6cwc143y1i3wfrps0b1fmykcf";
       };
       packageRequires = [ async ];
       meta = {
@@ -4165,10 +4165,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1.0.20250612.64642";
+      version = "2.9.1.0.20250618.91149";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250612.64642.tar";
-        sha256 = "18a3012hp8sr7hccgnk8jjag3qqxpgw5xddk2mcvpvhryhmpiv6m";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250618.91149.tar";
+        sha256 = "15irac6zafgq24l42c8m3zjxh7zwvbn3k3ajm75i4ksh94jc3sv5";
       };
       packageRequires = [ ];
       meta = {
@@ -5719,10 +5719,10 @@
     elpaBuild {
       pname = "zig-mode";
       ename = "zig-mode";
-      version = "0.0.8.0.20250426.144319";
+      version = "0.0.8.0.20250618.122718";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20250426.144319.tar";
-        sha256 = "1aaaarlbn15qmhmq7kxyh7c931h3x2cmxs7cf4c5j7n7qbzjna4w";
+        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20250618.122718.tar";
+        sha256 = "0c0w6n55qvc8za1miwg26n49lddh3cya6dlxkl5m498bx08mdljf";
       };
       packageRequires = [ reformatter ];
       meta = {
