@@ -1940,10 +1940,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250614.222004";
+      version = "0.24.1.0.20250619.215347";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250614.222004.tar";
-        sha256 = "002cjpdina8h4a02442h021dm645aspsijmlnkh1ggskyqip4fmd";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250619.215347.tar";
+        sha256 = "0sn4v04rzyj0azb7mfm9dz3afr4jmi3irpacfj7cgbm25dsj5hxk";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -9127,10 +9127,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.4.0.20250617.122258";
+      version = "1.5.0.20250620.115731";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.4.0.20250617.122258.tar";
-        sha256 = "1kg95vln1x4rfvjngwrjf9lnbzj0x1p1cxwmfwcpzwmzqvspvxlk";
+        url = "https://elpa.gnu.org/devel/tempel-1.5.0.20250620.115731.tar";
+        sha256 = "0rhgwzl9zlxjgg8vc7qlgavfpa40qhrwljpdvn2nfybhc1r28rvg";
       };
       packageRequires = [ compat ];
       meta = {
