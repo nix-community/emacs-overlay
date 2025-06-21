@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0snapshot0.20250617.113158";
+      version = "0.6.0snapshot0.20250621.45932";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0snapshot0.20250617.113158.tar";
-        sha256 = "0h0csq3np0fj0hfb4pgdszlp6gx4020pvk4cj0jkl2n7kq2w4kmm";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0snapshot0.20250621.45932.tar";
+        sha256 = "0aaxw230lwgmiwwy187l3w4cxp1wyv8ngzff7pkj8kmmqimpchmk";
       };
       packageRequires = [ ];
       meta = {
@@ -2577,10 +2577,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.4.0.20250618.82422";
+      version = "4.0.4.0.20250621.74233";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250618.82422.tar";
-        sha256 = "12yb41d2qjf1dgsnlz4ni7nbaqb5fgz420kymncjf6m9ix81213n";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250621.74233.tar";
+        sha256 = "0s4fgpycsy30hkdnljk4sd3mg9kdyq51gmdl2ywp0x3wq0ayp3c2";
       };
       packageRequires = [
         helm-core
@@ -2602,10 +2602,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.4.0.20250618.82422";
+      version = "4.0.4.0.20250621.74233";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250618.82422.tar";
-        sha256 = "1gg9p1bw6z9vyqsm20sdfz2w4bc6cwc143y1i3wfrps0b1fmykcf";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250621.74233.tar";
+        sha256 = "11vz6wyr5l6218yrham4lzs0akagcdbpifmi3g06vpdafvchvnyx";
       };
       packageRequires = [ async ];
       meta = {
