@@ -1318,10 +1318,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.4.0.20250529.222523";
+      version = "1.2.4.0.20250620.194642";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.4.0.20250529.222523.tar";
-        sha256 = "1g1x1p6ayy6nqmhj109k3y4bddas0bdljia5rwzkkysfqqxj8rqr";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.4.0.20250620.194642.tar";
+        sha256 = "1l2lxqz95dqvz0mq542lmwwm53nipjisphzf3cdqsbvd30icilnx";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250619.145554";
+      version = "4.0.0.0.20250621.63055";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250619.145554.tar";
-        sha256 = "1y511ffjjqbw03dwsqr4m42fyh3s4vfisimv97vh80c1xnd3db4g";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250621.63055.tar";
+        sha256 = "1hrg8xys67bg01vjp3zvpyy6b9k6xk1cwdph98i5pl7i493alfqx";
       };
       packageRequires = [ ];
       meta = {
@@ -7483,10 +7483,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20250620.165828";
+      version = "0.30.0.20250621.81751";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20250620.165828.tar";
-        sha256 = "0h8lpnxg087hxh1myyw8nl1zd333z5fpbshjx4qmasgbm4yk7l05";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20250621.81751.tar";
+        sha256 = "1aww3f38fpg1bd8syaxn47lq4s2jr7hschpvy4h1sz1j1cnqz354";
       };
       packageRequires = [
         compat
