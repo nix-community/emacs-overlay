@@ -7483,10 +7483,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20250621.81751";
+      version = "0.30.0.20250621.62351";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20250621.81751.tar";
-        sha256 = "1aww3f38fpg1bd8syaxn47lq4s2jr7hschpvy4h1sz1j1cnqz354";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20250621.62351.tar";
+        sha256 = "1m348y2gbg15js7ygz5076izjq2ils6sk1530zd36f291pddfmhw";
       };
       packageRequires = [
         compat
