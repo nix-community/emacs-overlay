@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250612.91843";
+      version = "14.0.9.0.20250622.122104";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250612.91843.tar";
-        sha256 = "1f0xn08xzlacbr5ks2wh84a59yg6p7i7xqv2lakf0r5f97wzyal4";
+        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250622.122104.tar";
+        sha256 = "0l1yqkyfrfahb9f7xwxkjcafir7n4d7dsv4b3jw5pb2plq81lfs7";
       };
       packageRequires = [ ];
       meta = {
@@ -1318,10 +1318,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.4.0.20250620.194642";
+      version = "1.2.4.0.20250621.201608";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.4.0.20250620.194642.tar";
-        sha256 = "1l2lxqz95dqvz0mq542lmwwm53nipjisphzf3cdqsbvd30icilnx";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.4.0.20250621.201608.tar";
+        sha256 = "1lfgg7y8l37474966n76b5h3jl1dah73bfg27mscz8i24344p0nh";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3136,10 +3136,10 @@
     elpaBuild {
       pname = "embark";
       ename = "embark";
-      version = "1.1.0.20250530.134842";
+      version = "1.1.0.20250622.140";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-1.1.0.20250530.134842.tar";
-        sha256 = "15lwgw9340h33crdhy8n2bfb7v2xlj5z02pvll7zmzr1wwiaqrja";
+        url = "https://elpa.gnu.org/devel/embark-1.1.0.20250622.140.tar";
+        sha256 = "0iy6a34l10q0ly1ky36xl5j5kp4v3aj9bgmizf7r2wy3n5awscwk";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3160,10 +3160,10 @@
     elpaBuild {
       pname = "embark-consult";
       ename = "embark-consult";
-      version = "1.1.0.20250530.134842";
+      version = "1.1.0.20250622.140";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20250530.134842.tar";
-        sha256 = "1apy9ld2wi6yyqdqzyxamr6qascfghwc83wkdvqm54aiv2ks3g76";
+        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20250622.140.tar";
+        sha256 = "04084px89cnszdwi2amfncxj3b9ybw60zy05r8r376g7gpgbdhcb";
       };
       packageRequires = [
         compat
@@ -4455,10 +4455,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250618.122212";
+      version = "9.0.2pre0.20250622.141031";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250618.122212.tar";
-        sha256 = "04cz41qpsrzpjw9smz3m7amp8xvfi6grhws3ay7y5an0vx1lgshg";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250622.141031.tar";
+        sha256 = "0fy9inwq00y2dsd1cy42g9452rsyjg0s8jawdsadqc251rz40gfc";
       };
       packageRequires = [ ];
       meta = {
@@ -5284,10 +5284,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.26.1.0.20250604.222628";
+      version = "0.26.1.0.20250622.150846";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.26.1.0.20250604.222628.tar";
-        sha256 = "0b0blrqhgipbzm910b2bx61fy03nmydy4049xyv4yafvr85093r7";
+        url = "https://elpa.gnu.org/devel/llm-0.26.1.0.20250622.150846.tar";
+        sha256 = "13rfdm7bgr5ix2qg1qcfpv0wjm9i4774y39dq2i88dy2rkg9gc4q";
       };
       packageRequires = [
         compat
