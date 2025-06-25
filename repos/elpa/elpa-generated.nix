@@ -4479,10 +4479,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.4";
+      version = "0.8.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/indent-bars-0.8.4.tar";
-        sha256 = "0k674rzl32zzqgkix6924987rb09bs7f3blakqybvzi59cpz9afz";
+        url = "https://elpa.gnu.org/packages/indent-bars-0.8.5.tar";
+        sha256 = "0vf8n8s76if9xh2g5wnz9d3cr1i5agzz32fqrh2mqk1cpi2vl2wa";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6383,10 +6383,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.30";
+      version = "9.7.31";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.30.tar";
-        sha256 = "1886c5aw050iwqh7k3grp73ghdr70y20nfbpxgcwbzwkhkz2w9xy";
+        url = "https://elpa.gnu.org/packages/org-9.7.31.tar";
+        sha256 = "13fxckj4pw4cwjqgz4fbw680jfypfqq8rc4hir26halsxz8lvi2m";
       };
       packageRequires = [ ];
       meta = {
