@@ -2096,10 +2096,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.1.1.0.20250517.43843";
+      version = "0.1.1.0.20250625.64603";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250517.43843.tar";
-        sha256 = "1v5r87mdmdpfqdyb0zr3z9brkml7dac92pp6gam8qsc1l7zx359l";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250625.64603.tar";
+        sha256 = "1ld8z73f3gidwi16sc7zzh5klbs4n1cwwz2s9yhy5kw9pp6dshw0";
       };
       packageRequires = [ denote ];
       meta = {
@@ -7347,10 +7347,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20250606.24126";
+      version = "0.11.1.0.20250625.65445";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250606.24126.tar";
-        sha256 = "0z64ag72pjijckxnjns8zyw9rlscn6zi9syv1sayf369kwz88i5c";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250625.65445.tar";
+        sha256 = "0f4m4236fff1hfhbskljvj0fxgjj3wllr1pwz8yaz1xlw4k6x399";
       };
       packageRequires = [ xref ];
       meta = {
@@ -9475,10 +9475,10 @@
     elpaBuild {
       pname = "transient-cycles";
       ename = "transient-cycles";
-      version = "1.1.0.20250225.93512";
+      version = "2.0.0.20250625.85410";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-cycles-1.1.0.20250225.93512.tar";
-        sha256 = "1j6w8zy39h744wps9dgc05l7zrk7pg6vwx91rh7kvzrj6m8hmwds";
+        url = "https://elpa.gnu.org/devel/transient-cycles-2.0.0.20250625.85410.tar";
+        sha256 = "1782gr8hwidfxilggb83s2v9wzkvyhcxbv3nj8f4aylhcdahfzf8";
       };
       packageRequires = [ ];
       meta = {
