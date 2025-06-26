@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250623.182713";
+      version = "4.0.0.0.20250625.172925";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250623.182713.tar";
-        sha256 = "0p00y9zghcg9w0ijl6j11cmcc4ppvi2fjw05d9r5kb31lip7sinw";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250625.172925.tar";
+        sha256 = "0k969yqwikkzs6r9ivr5h9jd2b762g3fsmqvqdj09ljp20aw3g41";
       };
       packageRequires = [ ];
       meta = {
@@ -2915,10 +2915,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250524.65524";
+      version = "1.18.0.20250625.170717";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250524.65524.tar";
-        sha256 = "0vxswngxr3bvwbcjmmsciw3is7b02ilz1wlppj1krmagpmwffsa2";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250625.170717.tar";
+        sha256 = "0zjdrdl2bb2fx83kzz3d8q8kfyba7mv1zfmrzpm0ha6s4kckpq0v";
       };
       packageRequires = [
         eldoc
@@ -4455,10 +4455,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250624.124847";
+      version = "9.0.2pre0.20250625.185922";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250624.124847.tar";
-        sha256 = "07nsf6azn9wk18dpbq3h98jjn3jvv73psapclrkzj6rsc9qkxlck";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250625.185922.tar";
+        sha256 = "0986jgyz431pabar4v99avs5vymkc8i8pz854aj3sr48s1rn3jls";
       };
       packageRequires = [ ];
       meta = {
@@ -7483,10 +7483,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20250621.62351";
+      version = "0.30.0.20250625.165705";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20250621.62351.tar";
-        sha256 = "1m348y2gbg15js7ygz5076izjq2ils6sk1530zd36f291pddfmhw";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20250625.165705.tar";
+        sha256 = "0rpn51f0hb088jsvril0w7igbbxd9cjf07z6cn97p50a4xw77i70";
       };
       packageRequires = [
         compat
