@@ -9674,10 +9674,10 @@
     elpaBuild {
       pname = "urgrep";
       ename = "urgrep";
-      version = "0.5.3snapshot0.20250606.181344";
+      version = "0.5.3snapshot0.20250625.211305";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/urgrep-0.5.3snapshot0.20250606.181344.tar";
-        sha256 = "08c3jy2265xpfk5hl4yrjm2jghkl6737prs1vka0jlaymgk99v62";
+        url = "https://elpa.gnu.org/devel/urgrep-0.5.3snapshot0.20250625.211305.tar";
+        sha256 = "03nbpdnib894r2skqpnya1ckq2j52k1h59clc7zdax5j1pw8wkkh";
       };
       packageRequires = [
         compat
@@ -9896,10 +9896,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.3.0.20250619.45456";
+      version = "0.3.0.20250625.202444";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250619.45456.tar";
-        sha256 = "115fbnafc1jf21z21gf7mjzw13q29ga26fd6i7879gm93gymisw3";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250625.202444.tar";
+        sha256 = "09d7xqan4hhxvhv1zwk2yi0bhzl2jz44p9vw4mnsnjz36cj9j8f2";
       };
       packageRequires = [ compat ];
       meta = {
