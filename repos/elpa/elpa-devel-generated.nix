@@ -4455,10 +4455,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250625.185922";
+      version = "9.0.2pre0.20250627.75459";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250625.185922.tar";
-        sha256 = "0986jgyz431pabar4v99avs5vymkc8i8pz854aj3sr48s1rn3jls";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250627.75459.tar";
+        sha256 = "12090s6kjr7nphxq19c9981316khzlvhgk1b0p0ah2dnb0an2661";
       };
       packageRequires = [ ];
       meta = {
@@ -9699,10 +9699,10 @@
     elpaBuild {
       pname = "url-http-ntlm";
       ename = "url-http-ntlm";
-      version = "2.0.5.0.20250314.123040";
+      version = "2.0.6.0.20250626.205101";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/url-http-ntlm-2.0.5.0.20250314.123040.tar";
-        sha256 = "0wqx83prdprlyjs7rvrxhf1kz6pzsmhiin0kqp74dsn407zq4g34";
+        url = "https://elpa.gnu.org/devel/url-http-ntlm-2.0.6.0.20250626.205101.tar";
+        sha256 = "05zx6vyqh2jkipl4srnp01agxrjy0lzvgsjbisnjk56nx4lhnfs3";
       };
       packageRequires = [ ntlm ];
       meta = {
@@ -9720,10 +9720,10 @@
     elpaBuild {
       pname = "url-http-oauth";
       ename = "url-http-oauth";
-      version = "0.8.3.0.20250314.122034";
+      version = "0.8.4.0.20250626.204641";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/url-http-oauth-0.8.3.0.20250314.122034.tar";
-        sha256 = "0f2ih3827r02alggi0hz6f9fyak2acc04x6gjahjmf65vy51rpbi";
+        url = "https://elpa.gnu.org/devel/url-http-oauth-0.8.4.0.20250626.204641.tar";
+        sha256 = "1krqpp8zvc79xqb8jn9pq9scxrv8cj8bim53nspr67v0z21y3wzc";
       };
       packageRequires = [ ];
       meta = {

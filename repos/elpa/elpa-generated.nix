@@ -9513,26 +9513,20 @@
   ) { };
   url-http-ntlm = callPackage (
     {
-      cl-lib ? null,
       elpaBuild,
       fetchurl,
       lib,
-      nadvice,
       ntlm ? null,
     }:
     elpaBuild {
       pname = "url-http-ntlm";
       ename = "url-http-ntlm";
-      version = "2.0.5";
+      version = "2.0.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/url-http-ntlm-2.0.5.tar";
-        sha256 = "02b65z70kw37mzj2hh8q6z0zhhacf9sc4hlczpfxdfsy05b8yri9";
+        url = "https://elpa.gnu.org/packages/url-http-ntlm-2.0.6.tar";
+        sha256 = "06bfw1w128gg9b60pb3wcpcib33jf13y1niyhs6grhm7yq11waz2";
       };
-      packageRequires = [
-        cl-lib
-        nadvice
-        ntlm
-      ];
+      packageRequires = [ ntlm ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/url-http-ntlm.html";
         license = lib.licenses.free;
@@ -9548,10 +9542,10 @@
     elpaBuild {
       pname = "url-http-oauth";
       ename = "url-http-oauth";
-      version = "0.8.3";
+      version = "0.8.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/url-http-oauth-0.8.3.tar";
-        sha256 = "06lpzh8kpxn8cr92blxrjw44h2cfc6fw0pr024sign4acczx10ws";
+        url = "https://elpa.gnu.org/packages/url-http-oauth-0.8.4.tar";
+        sha256 = "10iznck31ilfjwjbbwfalqchg260yqypai487436cc0s1fm47vvf";
       };
       packageRequires = [ ];
       meta = {
