@@ -312,10 +312,10 @@
     elpaBuild {
       pname = "bash-completion";
       ename = "bash-completion";
-      version = "3.2.1snapshot0.20250425.222123";
+      version = "3.2.1snapshot0.20250626.204257";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.2.1snapshot0.20250425.222123.tar";
-        sha256 = "0a9z0r6sj5jyyqhmai5cfkc147aprqzy6kmbix2n3kwnn95vbqkq";
+        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.2.1snapshot0.20250626.204257.tar";
+        sha256 = "19ajv804fl520pk5wqni066dpklbc6i16wbkvm5d7hiwzybfpg44";
       };
       packageRequires = [ ];
       meta = {
@@ -2577,10 +2577,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.4.0.20250626.120153";
+      version = "4.0.4.0.20250627.52658";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250626.120153.tar";
-        sha256 = "0drg40r25vhnq4wm2ij9dv94wyhs2p2n66bqjmyqj8pkrl28pc9m";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250627.52658.tar";
+        sha256 = "0ad71nhzfcpg7nm4dk05baby59cqj0xx94c04j0k4523hrva33bs";
       };
       packageRequires = [
         helm-core
@@ -2602,10 +2602,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.4.0.20250626.120153";
+      version = "4.0.4.0.20250627.52658";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250626.120153.tar";
-        sha256 = "0bfiv57a948njl61l8kjd3ixvl9by8lfwiwbzrn2czs8pm2s6vag";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250627.52658.tar";
+        sha256 = "10vmg1r85h5l04d8m06iicv7b3cpr6zkv7wdnwipy9iqifmviswm";
       };
       packageRequires = [ async ];
       meta = {
