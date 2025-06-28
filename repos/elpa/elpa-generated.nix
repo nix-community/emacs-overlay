@@ -719,10 +719,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.3.0";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/beframe-1.3.0.tar";
-        sha256 = "0dvlnshxq0h0vqddyf2g91a144f2sdg58zmchm5iiv7p2mg07ya2";
+        url = "https://elpa.gnu.org/packages/beframe-1.4.0.tar";
+        sha256 = "1766y7jwhsccmndd30v7hyh3i8gacvzwb73ix7g0zynp12m6x6kb";
       };
       packageRequires = [ ];
       meta = {
@@ -3332,12 +3332,10 @@
   ) { };
   excorporate = callPackage (
     {
-      cl-lib ? null,
       elpaBuild,
       fetchurl,
       fsm,
       lib,
-      nadvice,
       soap-client,
       url-http-ntlm,
       url-http-oauth,
@@ -3345,15 +3343,13 @@
     elpaBuild {
       pname = "excorporate";
       ename = "excorporate";
-      version = "1.1.2";
+      version = "1.1.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/excorporate-1.1.2.tar";
-        sha256 = "111wvkn0ks7syfgf1cydq5s0kymha0j280xvnp09zcfbj706yhbw";
+        url = "https://elpa.gnu.org/packages/excorporate-1.1.3.tar";
+        sha256 = "09szsql8qyca6hn7fib832fzi9fmcsf9wiacgqdw32lfjqv5fjwk";
       };
       packageRequires = [
-        cl-lib
         fsm
-        nadvice
         soap-client
         url-http-ntlm
         url-http-oauth
@@ -9824,10 +9820,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.3";
+      version = "2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-2.3.tar";
-        sha256 = "0svvjw0vqgi6kk303phg9cz5fz3zn5cw26pgi704q16i1kbzzalj";
+        url = "https://elpa.gnu.org/packages/vertico-2.4.tar";
+        sha256 = "1jxsxkmy80iba77iamrx4ybwg2phmxvsb5ab008iwz6rymjv60jv";
       };
       packageRequires = [ compat ];
       meta = {

@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.3.0.0.20250627.144228";
+      version = "1.4.0.0.20250628.65448";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.3.0.0.20250627.144228.tar";
-        sha256 = "16wdb8vjh6aw2hnyxqfc21cpzxzfg9j252m5wr25d9midcykdmvg";
+        url = "https://elpa.gnu.org/devel/beframe-1.4.0.0.20250628.65448.tar";
+        sha256 = "1py8q76jfkvmvqsf15vpdaznlzqj464m8wwslkjyr25hysrgh6cl";
       };
       packageRequires = [ ];
       meta = {
@@ -2368,10 +2368,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20250613.220423";
+      version = "1.10.0.0.20250627.223032";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250613.220423.tar";
-        sha256 = "022razjy6fiyhbg4hadsgv1mys037rvvj33lp01sfwhnjijj4wsj";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250627.223032.tar";
+        sha256 = "101yzzclgagvfjzw3r9483vv27h6fbvniwnlycrri9agxv6n6qxm";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -3374,12 +3374,10 @@
   ) { };
   excorporate = callPackage (
     {
-      cl-lib ? null,
       elpaBuild,
       fetchurl,
       fsm,
       lib,
-      nadvice,
       soap-client,
       url-http-ntlm,
       url-http-oauth,
@@ -3387,15 +3385,13 @@
     elpaBuild {
       pname = "excorporate";
       ename = "excorporate";
-      version = "1.1.2.0.20240219.90343";
+      version = "1.1.3.0.20250627.211849";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/excorporate-1.1.2.0.20240219.90343.tar";
-        sha256 = "0wm1qx1y9az3fdh81hjccpsw4xxx0p9acz9pfvsyjlywclcycd4i";
+        url = "https://elpa.gnu.org/devel/excorporate-1.1.3.0.20250627.211849.tar";
+        sha256 = "16vj05282g69f3p6b3f9nfgnd6c8d6jan0srbfrxjiqmvlx51cxv";
       };
       packageRequires = [
-        cl-lib
         fsm
-        nadvice
         soap-client
         url-http-ntlm
         url-http-oauth
@@ -10003,10 +9999,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.3.0.20250617.130042";
+      version = "2.4.0.20250627.211908";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.3.0.20250617.130042.tar";
-        sha256 = "1m23l4my9m19xv2j5yx1cr3jn7q4a858vlmkmavfphgcjwnjbnc0";
+        url = "https://elpa.gnu.org/devel/vertico-2.4.0.20250627.211908.tar";
+        sha256 = "00p3s3rq54xjnvkr2qqcgb7p279774ii9blaphd297q4p84i1gxv";
       };
       packageRequires = [ compat ];
       meta = {
