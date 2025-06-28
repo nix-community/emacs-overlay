@@ -224,5 +224,4 @@ in
   emacsGitNox = builtins.trace "emacsGitNox has been renamed to emacs-git-nox, please update your expression." emacs-git-nox;
   emacsUnstableNox = builtins.trace "emacsUnstableNox has been renamed to emacs-unstable-nox, please update your expression." emacs-unstable-nox;
   emacsLsp = builtins.trace "emacsLsp has been renamed to emacs-lsp, please update your expression." emacs-lsp;
-  emacs-pgtk = builtins.trace "emacs-pgtk has been renamed to emacs-git-pgtk. emacs-pgtk will be removed from this overlay.  After that, it will point to the one in Nixpkgs." emacs-git-pgtk;
 }
