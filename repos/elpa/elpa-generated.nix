@@ -1526,10 +1526,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.5";
+      version = "2.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-2.5.tar";
-        sha256 = "1h2s85v68s8szql0ss7zsdlgp7vwib3f8x2g2lci4vc2k9n2bips";
+        url = "https://elpa.gnu.org/packages/consult-2.6.tar";
+        sha256 = "1afji70i64w027r265ry8s21v4fic087lmfch7qvwdcjzj165pl4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9183,10 +9183,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.2.4";
+      version = "2.8.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.7.2.4.tar";
-        sha256 = "0crlnb421z99vnbvzbq63cqhfy62q96j45qhrzx2v3kajijv77ha";
+        url = "https://elpa.gnu.org/packages/tramp-2.8.0.tar";
+        sha256 = "1sfrxd10q80j0f27dwxc594s6rflnnq97lgl45kgvwfwfwffwvn7";
       };
       packageRequires = [ ];
       meta = {
