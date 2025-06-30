@@ -2096,10 +2096,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.1.1.0.20250628.160749";
+      version = "0.1.1.0.20250629.81053";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250628.160749.tar";
-        sha256 = "14r59ymwvzm2qxybbciwm1i5wvy56i2q60s6v9i3j4333jsr1cny";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250629.81053.tar";
+        sha256 = "0p82w7n2scc90vcslwka2mfhrqighbc47xw9bgsq811sjlgggld5";
       };
       packageRequires = [ denote ];
       meta = {
