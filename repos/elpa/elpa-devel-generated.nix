@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250625.172925";
+      version = "4.0.0.0.20250630.73202";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250625.172925.tar";
-        sha256 = "0k969yqwikkzs6r9ivr5h9jd2b762g3fsmqvqdj09ljp20aw3g41";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250630.73202.tar";
+        sha256 = "1r6n6s1yjn192n0sgzanzfh5262z92k85pi36yvl95qi1qx4sp3g";
       };
       packageRequires = [ ];
       meta = {
@@ -2096,10 +2096,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.1.1.0.20250629.81053";
+      version = "0.1.1.0.20250630.54546";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250629.81053.tar";
-        sha256 = "0p82w7n2scc90vcslwka2mfhrqighbc47xw9bgsq811sjlgggld5";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250630.54546.tar";
+        sha256 = "19m7jfyvzjsqvg60vv3fiz68x5wcvbp1asb3585bpf9piz5b68am";
       };
       packageRequires = [ denote ];
       meta = {
@@ -4515,10 +4515,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.8.5.0.20250624.75951";
+      version = "0.9.0.20250629.203811";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.8.5.0.20250624.75951.tar";
-        sha256 = "00pcbqm0fblgs2pd5b2a80fmn8gcf30hix6knnilicq6ylpgg639";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.9.0.20250629.203811.tar";
+        sha256 = "0zx3hspf891kaq9ni42xflk35jlcqa2rmzzj82pmyg81fk8y2rb1";
       };
       packageRequires = [ compat ];
       meta = {
