@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.4.0.20250623.102014";
+      version = "1.4.0.20250629.100246";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250623.102014.tar";
-        sha256 = "1bw7g9dn0vdzwl6jnidd2jn5n9af0wr24q5q6jd40wji99ckxxpr";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.4.0.20250629.100246.tar";
+        sha256 = "0354m78n3r3bakfxw2kr31bpsbyqh0fnkw1x4697lip4f7qsszyg";
       };
       packageRequires = [
         compat
@@ -2554,10 +2554,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.3.1.0.20250628.153027";
+      version = "1.3.2.0.20250629.84650";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.3.1.0.20250628.153027.tar";
-        sha256 = "0bkzpnsdgi66fwf7qyj7y0ipaybkvshxxh4mj1mid9c91zx1w54z";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.3.2.0.20250629.84650.tar";
+        sha256 = "09n25ag4pjxyx5k6ffwpny6cdgblrg9v9kw64v6ili4zni0bvf6k";
       };
       packageRequires = [ ];
       meta = {
@@ -5345,10 +5345,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.0snapshot0.20250619.163434";
+      version = "8.3.0snapshot0.20250629.80737";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250619.163434.tar";
-        sha256 = "0vd053325ypxjl2yrr5a6vsypr2nag6riv7glkx9wmhb04lq09d7";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250629.80737.tar";
+        sha256 = "0vv7chilnsrig15asv0iy916vmvksbyhxasvlldykq9z3w4r6abi";
       };
       packageRequires = [
         cl-lib
