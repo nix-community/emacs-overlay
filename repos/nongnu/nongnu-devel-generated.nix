@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.19.0snapshot0.20250619.115909";
+      version = "1.19.0snapshot0.20250630.145702";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250619.115909.tar";
-        sha256 = "02ljyzvmqdwnn4yyq1pvga8i3kld7pjb9lqfb9k3msk9xyby2n6a";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250630.145702.tar";
+        sha256 = "08rvkm2f5q12fg4dxl3q96xqfbz7rqg26mmi7y0wzk55x1gp72yp";
       };
       packageRequires = [
         clojure-mode
@@ -2204,10 +2204,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.2.0.20250630.80219";
+      version = "0.5.2.0.20250630.80832";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.2.0.20250630.80219.tar";
-        sha256 = "1ivxp9wnnbpdvdil5b2ynixw5jsyc4361crqnk40sn0pkf4c2s9p";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.2.0.20250630.80832.tar";
+        sha256 = "1hilphfhmw9l4pi069fxsbxg02jfrsz6fcv3zh11h5hglay0vcab";
       };
       packageRequires = [
         compat
@@ -2380,10 +2380,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250630.5555";
+      version = "0.9.8.5.0.20250630.11539";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250630.5555.tar";
-        sha256 = "1hap82w52hhxqf02dx5fjx87m381ak3irjzgx7afhs3ij8i5c3gw";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250630.11539.tar";
+        sha256 = "14r2x4161sb4jv9i5vyxy2wmvyah1xhv0gjxjnphrdncsk22ls9q";
       };
       packageRequires = [
         compat
@@ -2511,10 +2511,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20250519.115454";
+      version = "17.5.0.20250630.193117";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20250519.115454.tar";
-        sha256 = "17si5n0mdaij4kx19rhzy1p3asczkgcd5bhc1fsspi60kzwsmmi8";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20250630.193117.tar";
+        sha256 = "17z0fv7qrsncfiaqydvhmacc6g51f8g7k465gas7ffxq0504icr2";
       };
       packageRequires = [ ];
       meta = {
@@ -2577,10 +2577,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.4.0.20250629.55722";
+      version = "4.0.4.0.20250630.145301";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250629.55722.tar";
-        sha256 = "1j45cp7rqdygdqffvk3p38i8dm5kv6j9icb4dpwz73zqn98hzs2a";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250630.145301.tar";
+        sha256 = "0y4sw91gxnnfql82l24p4ic241winz79y0wb2s48i25w6zdaxblk";
       };
       packageRequires = [
         helm-core
@@ -2602,10 +2602,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.4.0.20250629.55722";
+      version = "4.0.4.0.20250630.145301";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250629.55722.tar";
-        sha256 = "038dg83k1xfaz63bkv3hfq3ny0fd6c81ajwbk2j5imyad513i10z";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250630.145301.tar";
+        sha256 = "02p76nq8d2jcrfwv7b0fv7qbq3cbi0spngf3kg0spvdmqqj0adig";
       };
       packageRequires = [ async ];
       meta = {
@@ -3902,10 +3902,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.26.0.20250527.184516";
+      version = "0.26.0.20250630.143113";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.26.0.20250527.184516.tar";
-        sha256 = "0nm3z8cirwvhls4ihckfnydw11qczrgps1mc1h56q3gsyr901z43";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.26.0.20250630.143113.tar";
+        sha256 = "1jr9r5g86z23vs5aw3wmj4ny8mb5a4yqirvmflkd4vv0f00qylyc";
       };
       packageRequires = [ let-alist ];
       meta = {
