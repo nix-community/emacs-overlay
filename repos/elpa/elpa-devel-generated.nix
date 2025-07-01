@@ -1546,10 +1546,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.6.0.20250628.211238";
+      version = "2.6.0.20250630.80255";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.6.0.20250628.211238.tar";
-        sha256 = "03gvx2lnqdcagahp9as2n7qfb0yb02lrm5f76giaccblhlfvyfgc";
+        url = "https://elpa.gnu.org/devel/consult-2.6.0.20250630.80255.tar";
+        sha256 = "14x8llrq6lylikavdprn73jjdwdcigka1d2psrwc0p79w6ihd1zd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4515,10 +4515,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.9.0.20250629.203811";
+      version = "0.9.0.20250630.151408";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.9.0.20250629.203811.tar";
-        sha256 = "0zx3hspf891kaq9ni42xflk35jlcqa2rmzzj82pmyg81fk8y2rb1";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.9.0.20250630.151408.tar";
+        sha256 = "1kcrynppaxcnai3a1q1s3sbpwwdsx87wj1sz8gp46fs2a4ay5cgg";
       };
       packageRequires = [ compat ];
       meta = {
