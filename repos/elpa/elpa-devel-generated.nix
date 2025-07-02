@@ -2664,10 +2664,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.1.0.0.20250616.43344";
+      version = "0.1.0.0.20250702.42729";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250616.43344.tar";
-        sha256 = "03i9p4ydxiaywmy4pzw81p74n6n7zci233jabjshrl544c87ccmc";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250702.42729.tar";
+        sha256 = "0p1mlnbqam4h9xkxana189d20whwsbrc9iaf27j21knccmb6nv2y";
       };
       packageRequires = [ ];
       meta = {
@@ -3136,10 +3136,10 @@
     elpaBuild {
       pname = "embark";
       ename = "embark";
-      version = "1.1.0.20250622.140";
+      version = "1.1.0.20250702.13156";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-1.1.0.20250622.140.tar";
-        sha256 = "0iy6a34l10q0ly1ky36xl5j5kp4v3aj9bgmizf7r2wy3n5awscwk";
+        url = "https://elpa.gnu.org/devel/embark-1.1.0.20250702.13156.tar";
+        sha256 = "1bgcc4nmxcn650d7nk2s0rp8i5kcmjlvgjzjxwb2qdv9qw9ah0p1";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3160,10 +3160,10 @@
     elpaBuild {
       pname = "embark-consult";
       ename = "embark-consult";
-      version = "1.1.0.20250622.140";
+      version = "1.1.0.20250702.13156";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20250622.140.tar";
-        sha256 = "04084px89cnszdwi2amfncxj3b9ybw60zy05r8r376g7gpgbdhcb";
+        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20250702.13156.tar";
+        sha256 = "1lahv59n0jg7dr11s91ribcyy8xpapmnarhjpcbj1l6h96ijyicj";
       };
       packageRequires = [
         compat
@@ -5520,10 +5520,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.1.0.20250617.112639";
+      version = "2.1.0.20250702.61734";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.1.0.20250617.112639.tar";
-        sha256 = "1x08nfmp4llqbpx2n9lmazwf8dlq6mhaa8chs0s66wphy7yc0j9a";
+        url = "https://elpa.gnu.org/devel/marginalia-2.1.0.20250702.61734.tar";
+        sha256 = "14i37m535n0465dqmjsdy9pxmv852ljyw48d36kfyh38daa0mrpd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7343,10 +7343,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20250625.65445";
+      version = "0.11.1.0.20250702.24624";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250625.65445.tar";
-        sha256 = "0f4m4236fff1hfhbskljvj0fxgjj3wllr1pwz8yaz1xlw4k6x399";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250702.24624.tar";
+        sha256 = "1xsdnr7gljjc89x1819r4h2i3ip3bsb7qrpknrdjqy6bzrdigpji";
       };
       packageRequires = [ xref ];
       meta = {
@@ -9670,10 +9670,10 @@
     elpaBuild {
       pname = "urgrep";
       ename = "urgrep";
-      version = "0.5.3snapshot0.20250625.211305";
+      version = "0.5.3snapshot0.20250701.205050";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/urgrep-0.5.3snapshot0.20250625.211305.tar";
-        sha256 = "03nbpdnib894r2skqpnya1ckq2j52k1h59clc7zdax5j1pw8wkkh";
+        url = "https://elpa.gnu.org/devel/urgrep-0.5.3snapshot0.20250701.205050.tar";
+        sha256 = "0anv784nnm0z6bnq5l59kdv4w0qy1q6kwxg3ahnq83ls3nl7sqpy";
       };
       packageRequires = [
         compat
