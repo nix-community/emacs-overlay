@@ -3271,10 +3271,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.6";
+      version = "4.3.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-4.3.6.tar";
-        sha256 = "185kss2frvpzh9lbnn035n220sf0a0aii4pybp5rkl4nd74jhvms";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.3.7.tar";
+        sha256 = "0wnaaagv69qd9ln1jmavjrikgpb76ixwya2q8vpsgk8nh6kkg5z1";
       };
       packageRequires = [
         compat
@@ -3302,10 +3302,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.3.6";
+      version = "4.3.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.3.6.tar";
-        sha256 = "0vsjw7bl06dljbvgia9hzcdzp2xgw6h3yyhgmvc198sgif39rp0c";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.3.7.tar";
+        sha256 = "06mwsn1bwsnszdc5mnzkhqgrwa6lfz4c90b72rgsic4n27hv3nv5";
       };
       packageRequires = [
         compat
