@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250702.194224";
+      version = "4.0.0.0.20250703.62432";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250702.194224.tar";
-        sha256 = "0318kz3gbaaz1k1816cr7s7vlqix4xwl5xc0c2v7azqq8d67apxv";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250703.62432.tar";
+        sha256 = "0llqx7frc9f8gcx82d6914yxjv9s9a5vxcz0lajdkj843yxqgvpf";
       };
       packageRequires = [ ];
       meta = {
@@ -2664,10 +2664,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.1.0.0.20250702.42729";
+      version = "0.1.0.0.20250703.70910";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250702.42729.tar";
-        sha256 = "0p1mlnbqam4h9xkxana189d20whwsbrc9iaf27j21knccmb6nv2y";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250703.70910.tar";
+        sha256 = "1mcz2y6hbp5fbxcykp7dham2c9wl0c87vnmm9ns14ki4y2z9wcs9";
       };
       packageRequires = [ ];
       meta = {
@@ -5280,10 +5280,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.26.1.0.20250622.150846";
+      version = "0.27.0.0.20250702.171702";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.26.1.0.20250622.150846.tar";
-        sha256 = "13rfdm7bgr5ix2qg1qcfpv0wjm9i4774y39dq2i88dy2rkg9gc4q";
+        url = "https://elpa.gnu.org/devel/llm-0.27.0.0.20250702.171702.tar";
+        sha256 = "0mwzbjl83fz2hpzlicnaxnypaxs6cw27cw9756jiwkn6s5vd259p";
       };
       packageRequires = [
         compat
@@ -9892,10 +9892,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.3.0.20250625.202444";
+      version = "0.3.0.20250703.74202";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250625.202444.tar";
-        sha256 = "09d7xqan4hhxvhv1zwk2yi0bhzl2jz44p9vw4mnsnjz36cj9j8f2";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250703.74202.tar";
+        sha256 = "1n5kwxh6l1k4yds59bnp881k0y4mnzhzwxqc0ahlqhyx3zrmjs21";
       };
       packageRequires = [ compat ];
       meta = {
