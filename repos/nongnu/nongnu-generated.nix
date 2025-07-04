@@ -3092,10 +3092,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "0.6.3";
+      version = "1.0.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/llama-0.6.3.tar";
-        sha256 = "1za4yj3bzd6vf7yswcwq895x9lxj8azmk56p9kzhdawayi8zp0mz";
+        url = "https://elpa.nongnu.org/nongnu/llama-1.0.0.tar";
+        sha256 = "1awxli95p2wwddij7nyjlivcknnxz5j19i65zr9l8awj199scnlx";
       };
       packageRequires = [ compat ];
       meta = {
