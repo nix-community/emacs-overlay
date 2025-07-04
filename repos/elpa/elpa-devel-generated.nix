@@ -2664,10 +2664,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.1.0.0.20250703.70910";
+      version = "0.1.0.0.20250704.54644";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250703.70910.tar";
-        sha256 = "1mcz2y6hbp5fbxcykp7dham2c9wl0c87vnmm9ns14ki4y2z9wcs9";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.1.0.0.20250704.54644.tar";
+        sha256 = "0x35kpl5b2rlczpf4pv441sv8pmlsrbk9a9i1v2j6d8h739syzkr";
       };
       packageRequires = [ ];
       meta = {
@@ -2887,10 +2887,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.10.0.0.20250616.43541";
+      version = "1.10.0.0.20250704.54909";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.10.0.0.20250616.43541.tar";
-        sha256 = "07rfzys55fq0bbdbc31bdy51rxiyf21k4hz5b5kf2vgzgf3swsaf";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.10.0.0.20250704.54909.tar";
+        sha256 = "108rn50zqjlkzj1g99n6q4kabqd053f80yx2qk96wr35mvqifvvj";
       };
       packageRequires = [ ];
       meta = {
@@ -3136,10 +3136,10 @@
     elpaBuild {
       pname = "embark";
       ename = "embark";
-      version = "1.1.0.20250702.13156";
+      version = "1.1.0.20250703.204556";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-1.1.0.20250702.13156.tar";
-        sha256 = "1bgcc4nmxcn650d7nk2s0rp8i5kcmjlvgjzjxwb2qdv9qw9ah0p1";
+        url = "https://elpa.gnu.org/devel/embark-1.1.0.20250703.204556.tar";
+        sha256 = "1s0143w94d1li2jnph90v7ri47pfpfbadqm4pxbxij77vqy063fd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3160,10 +3160,10 @@
     elpaBuild {
       pname = "embark-consult";
       ename = "embark-consult";
-      version = "1.1.0.20250702.13156";
+      version = "1.1.0.20250703.204556";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20250702.13156.tar";
-        sha256 = "1lahv59n0jg7dr11s91ribcyy8xpapmnarhjpcbj1l6h96ijyicj";
+        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20250703.204556.tar";
+        sha256 = "0qia8wsm69cqi7a3gqzf82sal522yykn5an70p2sdi1h2sc4gqb5";
       };
       packageRequires = [
         compat
@@ -3432,10 +3432,10 @@
     elpaBuild {
       pname = "expreg";
       ename = "expreg";
-      version = "1.4.1.0.20250520.204305";
+      version = "1.4.1.0.20250703.235736";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/expreg-1.4.1.0.20250520.204305.tar";
-        sha256 = "1cvvwdbbkdm6npbyfz5w6pl3iha1v9sxqdvafqpj03nxlknjvjhh";
+        url = "https://elpa.gnu.org/devel/expreg-1.4.1.0.20250703.235736.tar";
+        sha256 = "0v661v52xhni1mljz8b952vaybkj30542xjabkfzdn6bby98k118";
       };
       packageRequires = [ ];
       meta = {
@@ -5647,10 +5647,10 @@
     elpaBuild {
       pname = "mct";
       ename = "mct";
-      version = "1.0.0.0.20241025.81140";
+      version = "1.0.0.0.20250704.60048";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mct-1.0.0.0.20241025.81140.tar";
-        sha256 = "121mb4aa0bgwndbvgxh8j9ra52ji7qn5vdrf7whn93rqaaygpk87";
+        url = "https://elpa.gnu.org/devel/mct-1.0.0.0.20250704.60048.tar";
+        sha256 = "0dma6xm6mhhwf34jpq7xvb16q16awbdx2c9f6fmhy8k5zkpkf57x";
       };
       packageRequires = [ ];
       meta = {
@@ -8750,10 +8750,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20250616.43615";
+      version = "2.2.0.0.20250704.55025";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20250616.43615.tar";
-        sha256 = "05h0nd4k0a0a2is3g9g2f2nsrl0ik86idlaid4c4s0yq91gqnbz6";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20250704.55025.tar";
+        sha256 = "14g3dvrkcv5niz70iw942aj2nrcj75azn265w7sinsf1jsny6xi1";
       };
       packageRequires = [ ];
       meta = {
