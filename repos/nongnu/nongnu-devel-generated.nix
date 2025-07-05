@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.19.0snapshot0.20250702.110638";
+      version = "1.19.0snapshot0.20250704.84003";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250702.110638.tar";
-        sha256 = "14dk7sflj0q5pfwfpcqc14ysc21nb17a2f3lxpna4i26k2hban1q";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250704.84003.tar";
+        sha256 = "0m86kc0x6hd0q9zl785vzbzpvsjr461cshsp158xihjpp4jsa92q";
       };
       packageRequires = [
         clojure-mode
@@ -2577,10 +2577,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.4.0.20250704.41917";
+      version = "4.0.4.0.20250704.103619";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250704.41917.tar";
-        sha256 = "0v13zv01gcw1lfsminm3fn4kriw6lhqczg126p4lfmkwdcavl8cf";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250704.103619.tar";
+        sha256 = "02d83pydwfwlcpb3j0szzvsvj4hk1qx4b5601mfyim7qk16csi9j";
       };
       packageRequires = [
         helm-core
@@ -2602,10 +2602,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.4.0.20250704.41917";
+      version = "4.0.4.0.20250704.103619";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250704.41917.tar";
-        sha256 = "1d31kpri6sp7ljb761y7px6z5mgxahj9dk91cpy45z64fj7zl8rh";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250704.103619.tar";
+        sha256 = "1dqnnyvvgp2b9qsqs6q6xc6gl9ldvnlfk2pm6x4cd2hclxr7hrpd";
       };
       packageRequires = [ async ];
       meta = {
@@ -2707,10 +2707,10 @@
     elpaBuild {
       pname = "htmlize";
       ename = "htmlize";
-      version = "1.58.0.20240915.165713";
+      version = "1.58.0.20250704.192840";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/htmlize-1.58.0.20240915.165713.tar";
-        sha256 = "1i2gp0m2qy7rknymn3ps1ss1vsbrx0zkxb6ya1ymc5vlqblqfwya";
+        url = "https://elpa.nongnu.org/nongnu-devel/htmlize-1.58.0.20250704.192840.tar";
+        sha256 = "06gp2wgkcv971a3lkw5bq9yal3i2w1a5qzlf4yyy5gvhbh69h3bh";
       };
       packageRequires = [ ];
       meta = {
@@ -4165,10 +4165,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1.0.20250618.91149";
+      version = "2.9.1.0.20250704.90814";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250618.91149.tar";
-        sha256 = "15irac6zafgq24l42c8m3zjxh7zwvbn3k3ajm75i4ksh94jc3sv5";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250704.90814.tar";
+        sha256 = "00prn27p6hip55p9srsgbaq3gf6dmg6s8iglqd3v1pqz3hggjjcr";
       };
       packageRequires = [ ];
       meta = {
