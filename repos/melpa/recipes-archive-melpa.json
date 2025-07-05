@@ -9330,15 +9330,15 @@
   "repo": "museoa/bqn-mode",
   "unstable": {
    "version": [
-    20250410,
-    38
+    20250705,
+    1223
    ],
    "deps": [
     "compat",
     "eros"
    ],
-   "commit": "81eca6e1a6735e738cac3117810db5c9a4762452",
-   "sha256": "0zl6s0c0nd8m55f83yamgnl8kg1a9jrzl0wrmixrixzn7zmdj6qk"
+   "commit": "7c04ca9009e72b48da307b41d6814df1e383609a",
+   "sha256": "0bah6xpmb86rgjd3irnalpdqsb6wbf5izq6h1di5hh9axk55acsr"
   }
  },
  {
@@ -14664,11 +14664,11 @@
   "repo": "clojure-emacs/clojure-ts-mode",
   "unstable": {
    "version": [
-    20250626,
-    651
+    20250705,
+    1307
    ],
-   "commit": "da56a6938f525c8ead1fb3d79eced4d892df1661",
-   "sha256": "155gv447gja618hyry54pg94ss5czykj1h41zzzsqsfcydzn6z8j"
+   "commit": "603660f42df141016f7011fbf303250733df42c8",
+   "sha256": "07m4fgdhfkz744hnbzgyqbhn6c9fjdrk6xd5dw49qga85vygplc3"
   },
   "stable": {
    "version": [
@@ -49508,8 +49508,8 @@
   "repo": "magit/ghub",
   "unstable": {
    "version": [
-    20250703,
-    1631
+    20250705,
+    1211
    ],
    "deps": [
     "compat",
@@ -49517,8 +49517,8 @@
     "llama",
     "treepy"
    ],
-   "commit": "32c9633aab058bcc3a920d54397c46a7f9ca289d",
-   "sha256": "0896jxkz61l85vdi5z765wm0zb3zvmibizzlhl5qwk9ly5akrsm1"
+   "commit": "855706740689a5d5c821be1210f661a262b7a46d",
+   "sha256": "0ny75m9bwfwm5zczhjh9yp3kynqm0qi7bhq6kxy5gv7gxarzdz2g"
   },
   "stable": {
    "version": [
@@ -55572,15 +55572,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20250704,
-    1036
+    20250705,
+    1413
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "61e7bf12971d24f4941d7393efc3d458ae6016d4",
-   "sha256": "19vg2775wdizcpm6rnfxshyhj37a7zkjswshmkfb3gmcfn53ygyp"
+   "commit": "edfbe48205db5a03c7d0dbdd623702c9a3117ab7",
+   "sha256": "1zlbsg7jarqxs8z5nfdclqysz88vxnxq70200ay7v56ip48zwsif"
   },
   "stable": {
    "version": [
@@ -56462,14 +56462,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20250704,
-    419
+    20250705,
+    1413
    ],
    "deps": [
     "async"
    ],
-   "commit": "9b2fb4b1d89e2bbf6bb30c802c09d62d83f2c21c",
-   "sha256": "138hklnf2rmxxanzyjxl4ry89b0b02ypvi0k58h9xy6ca7r28yf7"
+   "commit": "edfbe48205db5a03c7d0dbdd623702c9a3117ab7",
+   "sha256": "1zlbsg7jarqxs8z5nfdclqysz88vxnxq70200ay7v56ip48zwsif"
   },
   "stable": {
    "version": [
@@ -56597,14 +56597,14 @@
   "repo": "emacs-helm/helm-descbinds",
   "unstable": {
    "version": [
-    20250204,
-    451
+    20250705,
+    942
    ],
    "deps": [
     "helm"
    ],
-   "commit": "c12bc85ef3ce342fe1c78cdd86117c05d5310789",
-   "sha256": "0dfm8a8dc3a75pizkjl6304aqx2m9yaqcjk8j0d802ad0zk31g64"
+   "commit": "0aff44badad976ebf2666a7e9b6ddf4db53e59e5",
+   "sha256": "03834fvccxlrf2swnmr8w9ffgs9b74mdb58d3g3m6393g64ibz4p"
   },
   "stable": {
    "version": [
@@ -101550,15 +101550,15 @@
   "repo": "skuro/plantuml-mode",
   "unstable": {
    "version": [
-    20250704,
-    1238
+    20250705,
+    1148
    ],
    "deps": [
     "dash",
     "deflate"
    ],
-   "commit": "0eaf340303cf65ddd20cfb65fee1137b52ea229f",
-   "sha256": "1h68bfczpvbzi29ggl3dciiz5187px14xi2sz5pywwl84sg5x2b5"
+   "commit": "0a19d9988879c57b176dd4c03f59003644f9c9b0",
+   "sha256": "02nck5f8f7vlwi57kb33679d912dq2n2g9ipvkp0x9dsivz1fpi3"
   },
   "stable": {
    "version": [
@@ -111749,11 +111749,11 @@
   "repo": "rust-lang/rust-mode",
   "unstable": {
    "version": [
-    20250621,
-    1548
+    20250705,
+    1444
    ],
-   "commit": "75cc63b6c19028c11e302c237a8ec64db3345780",
-   "sha256": "033xjrdxcz0l6b1bgzzjs9dfm7nm4l12s92chisqz7fzyh3m8jck"
+   "commit": "f7334861bfc1d3dbcfbde464751837be2ec09ef3",
+   "sha256": "0cw03vbjq7wdkvpbc31lf9ppndc9yfgzx3mb1hzymzbjdp3g66pm"
   },
   "stable": {
    "version": [
