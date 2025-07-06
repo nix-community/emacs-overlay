@@ -5605,10 +5605,10 @@
     elpaBuild {
       pname = "mathsheet";
       ename = "mathsheet";
-      version = "1.1.0.20250513.62537";
+      version = "1.2.0.20250705.223649";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mathsheet-1.1.0.20250513.62537.tar";
-        sha256 = "05fghv85j1fddb8y3frdz61xa2x5srm1fv6d1k030arwqqzq7224";
+        url = "https://elpa.gnu.org/devel/mathsheet-1.2.0.20250705.223649.tar";
+        sha256 = "0a198rd5djvhbldscy5pnl4xifw787amnrla3s7wy6jrr1lqna19";
       };
       packageRequires = [ peg ];
       meta = {
@@ -5647,10 +5647,10 @@
     elpaBuild {
       pname = "mct";
       ename = "mct";
-      version = "1.0.0.0.20250704.60048";
+      version = "1.0.0.0.20250706.62730";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mct-1.0.0.0.20250704.60048.tar";
-        sha256 = "0dma6xm6mhhwf34jpq7xvb16q16awbdx2c9f6fmhy8k5zkpkf57x";
+        url = "https://elpa.gnu.org/devel/mct-1.0.0.0.20250706.62730.tar";
+        sha256 = "0bykp2df1fghgfp30hp2w62rffqj7mxp81i1p92jx9s2l9wfpmjr";
       };
       packageRequires = [ ];
       meta = {
@@ -6425,10 +6425,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.4.0.20250705.175211";
+      version = "1.4.0.20250705.202309";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.4.0.20250705.175211.tar";
-        sha256 = "0plq81mnsb3rbavrh8ckprh6rs6wy03r020p0c9rb379jk2nb5j2";
+        url = "https://elpa.gnu.org/devel/orderless-1.4.0.20250705.202309.tar";
+        sha256 = "15c7rangdl36m2zjr6rjjlma33yrjhg6is21agsz452zrpj8mp0f";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10497,10 +10497,10 @@
     elpaBuild {
       pname = "xelb";
       ename = "xelb";
-      version = "0.21.0.20250627.135337";
+      version = "0.21.0.20250705.155211";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xelb-0.21.0.20250627.135337.tar";
-        sha256 = "1nsazc01079s9k28ykk4sx6bg3kzip29s77spmc1mk5y1amnwhsa";
+        url = "https://elpa.gnu.org/devel/xelb-0.21.0.20250705.155211.tar";
+        sha256 = "02jzzvdalx9nd7bv8ncj802xfb9vq8jjcgi2vq502w8bisly9i3s";
       };
       packageRequires = [ compat ];
       meta = {
