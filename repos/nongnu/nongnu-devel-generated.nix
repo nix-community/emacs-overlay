@@ -2380,10 +2380,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250703.172448";
+      version = "0.9.8.5.0.20250705.205718";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250703.172448.tar";
-        sha256 = "0gf8s86b2v82d7mlbsrpxd5ll12ygsdg6f45l6zpjh5iwn6cp18x";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250705.205718.tar";
+        sha256 = "1682337hiak8bdjrrik5blclarhapkkad3mkr3nnxm6mwm7izb2a";
       };
       packageRequires = [
         compat
@@ -3129,10 +3129,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.14.0.0.20250306.20614";
+      version = "0.14.0.0.20250706.11705";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.14.0.0.20250306.20614.tar";
-        sha256 = "0vggsncnj7fbc307sa78pl6aszzn7644mrhsa8q24syp9xn1xwrz";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.14.0.0.20250706.11705.tar";
+        sha256 = "0h42k1i38rsp90k5a1l46x2l5n7fp6pwmg4snaw3wl796nsqwh7w";
       };
       packageRequires = [
         compat
