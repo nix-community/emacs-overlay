@@ -3541,12 +3541,11 @@
   "stable": {
    "version": [
     2,
-    7,
-    0,
-    1
+    8,
+    0
    ],
-   "commit": "a6fc20c27ae953149b53a8997ba4a1c8b17d628a",
-   "sha256": "1dh9fi8lwjv9rk6zik2bwjgqln0f0d36m3hm9m3zmmk4fby4rsi2"
+   "commit": "3d04bacca842729f9c0869b9287256321b5f450f",
+   "sha256": "0201x9f6v0s6fma9ybbwrkgwjilizj5n24kcwj3pg6rf9dzy1jya"
   }
  },
  {
@@ -34975,12 +34974,11 @@
   "stable": {
    "version": [
     2,
-    7,
-    0,
-    1
+    8,
+    0
    ],
-   "commit": "a6fc20c27ae953149b53a8997ba4a1c8b17d628a",
-   "sha256": "1dh9fi8lwjv9rk6zik2bwjgqln0f0d36m3hm9m3zmmk4fby4rsi2"
+   "commit": "3d04bacca842729f9c0869b9287256321b5f450f",
+   "sha256": "0201x9f6v0s6fma9ybbwrkgwjilizj5n24kcwj3pg6rf9dzy1jya"
   }
  },
  {
@@ -76675,15 +76673,15 @@
   "repo": "roadrunner1776/magik",
   "unstable": {
    "version": [
-    20250629,
-    1650
+    20250705,
+    2053
    ],
    "deps": [
     "compat",
     "yasnippet"
    ],
-   "commit": "44ae63de992b37af4437cf529eb3a48561ae7457",
-   "sha256": "16dknnd82xbl4r2b44myi30n1iiib2ydzaqwiqvwn3h96ql1dbdr"
+   "commit": "3b835448c05fb786e605fd28081ee2bd20bc36a4",
+   "sha256": "1hc8bg03366ql81jqsx449is7wnghcakr3mzm53r4j7mp0p6s5dj"
   },
   "stable": {
    "version": [
@@ -80092,14 +80090,14 @@
   "repo": "SqrtMinusOne/micromamba.el",
   "unstable": {
    "version": [
-    20231225,
-    2320
+    20250705,
+    2025
    ],
    "deps": [
     "pythonic"
    ],
-   "commit": "cd3ce4b7142790f25f20e5cfd6ed5ebbf4498c6c",
-   "sha256": "1bsz301jrlwpcsyyjsvyasbpfm6midn628a5f39xrxi69w0mzww7"
+   "commit": "f0cc31ea2e3d64e1055a8c63700f373a389dc4c0",
+   "sha256": "0j7h245hpim3vibw33f98f7zk2vgm9s9d6syxn5gpl22rhrn8y9v"
   }
  },
  {
@@ -89619,14 +89617,14 @@
   "repo": "oantolin/orderless",
   "unstable": {
    "version": [
-    20250316,
-    2046
+    20250705,
+    2023
    ],
    "deps": [
     "compat"
    ],
-   "commit": "254f2412489bbbf62700f9d3d5f18e537841dcc3",
-   "sha256": "1la91fk322n600h4wnavx7a6rdc44mz4v4gg1fb3cpwjsw746sl8"
+   "commit": "082a487f79ca5e960046a31599a5f97dac79a858",
+   "sha256": "112y64hq8zbwj1a0w7i7nl2kbrsyhipdwylfhsd0fb4z28j570sw"
   },
   "stable": {
    "version": [
@@ -109785,11 +109783,14 @@
   "repo": "emacsorphanage/restclient",
   "unstable": {
    "version": [
-    20250629,
-    2016
+    20250705,
+    2050
    ],
-   "commit": "9385ef5acc94a6770fcef60820baf083c916d148",
-   "sha256": "1zn4lm2m50f87h03srrh26z4kxbgrvzmg312399mrzp2zc2c6b3l"
+   "deps": [
+    "compat"
+   ],
+   "commit": "e7a54135233d66fc5bb0dbae315d673abdfb4146",
+   "sha256": "15hwxxrvla12i71039dz0a5p0fbdm7xx5a5yqn7mxkv0dr1vngxf"
   }
  },
  {
@@ -109819,15 +109820,15 @@
   "repo": "emacsorphanage/restclient",
   "unstable": {
    "version": [
-    20250625,
-    1903
+    20250704,
+    2009
    ],
    "deps": [
     "jq-mode",
     "restclient"
    ],
-   "commit": "25df2b310437994024326427ab215f49e0118b19",
-   "sha256": "17zrdb7jnmf0vhd3qbzmbgrpv60px2q5fwn1yjkfg7acf7jpkl4q"
+   "commit": "6ec11373492d1a489402161632a8ce59f079daf0",
+   "sha256": "14nkv63mzg1imdkwg5z2x6pvpw6jw88xr523rj3594hbwwl4in3i"
   }
  },
  {
@@ -120618,8 +120619,8 @@
   "repo": "kiyoka/Sumibi",
   "unstable": {
    "version": [
-    20250703,
-    1345
+    20250705,
+    2349
    ],
    "deps": [
     "deferred",
@@ -120627,8 +120628,8 @@
     "popup",
     "unicode-escape"
    ],
-   "commit": "0108fca4feaee6fa7b578a55cfbf1961bd9ec8ca",
-   "sha256": "113pqprmrr4bqnfg02dfj2r1wjmnd70vniy5jknhjmw6cr8vh7j9"
+   "commit": "af6c53ed79f6df61e77d40207f942190cf6459e6",
+   "sha256": "1xl961k1kq4cnd1vyhcx8ndxl54dyr07sx62zzq8vvbyg2v5vrch"
   },
   "stable": {
    "version": [
@@ -128336,14 +128337,14 @@
   "repo": "tbanel/uniline",
   "unstable": {
    "version": [
-    20250702,
-    2057
+    20250705,
+    1734
    ],
    "deps": [
     "hydra"
    ],
-   "commit": "257adfe5c02eff97e24cdce1c3d9f8f518bfd1b9",
-   "sha256": "0jpcfz2mwm2q15akimggd0bh3fbmscn50c3s42ghk3pzi062zk4z"
+   "commit": "d8dd23ba079ac3fba12297958f995ac45879f0bd",
+   "sha256": "0vrm6ijr189ddm38vm66q02f4gi1m8r67s53mqxxzlcwrapl32jk"
   }
  },
  {
