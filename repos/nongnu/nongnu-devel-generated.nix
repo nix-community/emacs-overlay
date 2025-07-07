@@ -4551,10 +4551,10 @@
     elpaBuild {
       pname = "scroll-on-jump";
       ename = "scroll-on-jump";
-      version = "0.2.0.20250704.50641";
+      version = "0.2.0.20250706.112423";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.2.0.20250704.50641.tar";
-        sha256 = "0bj6df0faai2ny91b6ngry340267sa4jv008m2kvylcqz2fw4860";
+        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.2.0.20250706.112423.tar";
+        sha256 = "0v2y99ihpmhcdabvmnglvvf4vmmfpp1nplb99bh6i3r6n0i58n4j";
       };
       packageRequires = [ ];
       meta = {
@@ -4615,10 +4615,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250613.131426";
+      version = "2.31snapshot0.20250706.142233";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250613.131426.tar";
-        sha256 = "15gway3c3d0y1qidlgw1376v2b6zzh2znhfw2ix6rh8kxsjdjiwf";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250706.142233.tar";
+        sha256 = "1vn1vm0fh2acq522j30kngkgnvxy9gdh0v26w0vdi6mv21531cdd";
       };
       packageRequires = [ macrostep ];
       meta = {
