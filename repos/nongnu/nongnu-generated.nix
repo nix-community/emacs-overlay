@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.4";
+      version = "1.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.4.tar";
-        sha256 = "0432v40yr0yjma7lhd53dn7rlfsh8fampw9j2wvmcqpw6dhny4jy";
+        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.5.tar";
+        sha256 = "1gfgk4g1942xjqr3g1q6rw330wgxlsm35p3vsiixszxcs0xh55sj";
       };
       packageRequires = [
         compat
@@ -4253,10 +4253,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250609.112224";
+      version = "1.0.20250707.155225";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250609.112224.tar";
-        sha256 = "0mrwq0glil06c1dx4v5hyf2jkp83v5y83yqk9p5z1nq8y6pkngy0";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20250707.155225.tar";
+        sha256 = "1r4hshyja0hx6xa6krn62m9xxrk4ilasc1i5ghl6qyfr2sppj7bb";
       };
       packageRequires = [ compat ];
       meta = {
