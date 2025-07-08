@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250707.75410";
+      version = "4.0.0.0.20250707.134240";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250707.75410.tar";
-        sha256 = "1vq8s9qq5yzck0bfgss7n1mv4zkx0g0qxzn372f88hl6ix0fanss";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250707.134240.tar";
+        sha256 = "0k6s17pxsxclpmgqbms539ic73qnxqmbmd691di86xzzgn3hw835";
       };
       packageRequires = [ ];
       meta = {
@@ -2206,10 +2206,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.1.1.0.20250624.41010";
+      version = "0.1.1.0.20250707.134142";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250624.41010.tar";
-        sha256 = "089dyhhx9n8zhh5gnzwmp7385n62i3xwm10j8gy8pbmsv7zns0ds";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250707.134142.tar";
+        sha256 = "0iyv6cv4520sj1wgpr3zn4v86r8xjd9273y5nnc7ijsdfdjj26qz";
       };
       packageRequires = [ denote ];
       meta = {
@@ -3136,10 +3136,10 @@
     elpaBuild {
       pname = "embark";
       ename = "embark";
-      version = "1.1.0.20250703.204556";
+      version = "1.1.0.20250707.134730";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-1.1.0.20250703.204556.tar";
-        sha256 = "1s0143w94d1li2jnph90v7ri47pfpfbadqm4pxbxij77vqy063fd";
+        url = "https://elpa.gnu.org/devel/embark-1.1.0.20250707.134730.tar";
+        sha256 = "165wyrp252bdf2qqpiq5gqs41rn6pnz0s9fdxzz0rf5sajhmmajj";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3160,10 +3160,10 @@
     elpaBuild {
       pname = "embark-consult";
       ename = "embark-consult";
-      version = "1.1.0.20250703.204556";
+      version = "1.1.0.20250707.134730";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20250703.204556.tar";
-        sha256 = "0qia8wsm69cqi7a3gqzf82sal522yykn5an70p2sdi1h2sc4gqb5";
+        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20250707.134730.tar";
+        sha256 = "11557bz8xhwmyg6qgjw9rr6c6d5l08haiyqai4k0zglbdnn8rd3b";
       };
       packageRequires = [
         compat
@@ -5865,10 +5865,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.0.0.20250623.42830";
+      version = "4.8.0.0.20250707.171448";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.8.0.0.20250623.42830.tar";
-        sha256 = "1ivz3ga3h3xq63y0rj58si1m512166aya2lkbjvr76389nrx359r";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.0.0.20250707.171448.tar";
+        sha256 = "0fkmrfxbdmpkbc6b4g52jgl4cjyadlxq33jnq24d96iib962qkvc";
       };
       packageRequires = [ ];
       meta = {
@@ -9892,10 +9892,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.3.0.20250703.74202";
+      version = "0.3.0.20250707.95759";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250703.74202.tar";
-        sha256 = "1n5kwxh6l1k4yds59bnp881k0y4mnzhzwxqc0ahlqhyx3zrmjs21";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250707.95759.tar";
+        sha256 = "0rblsz2ga0csc86mq276hqfxrc7dj3gnh1xlk0sfqbqyc39yx293";
       };
       packageRequires = [ compat ];
       meta = {
