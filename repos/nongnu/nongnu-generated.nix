@@ -5236,10 +5236,10 @@
     elpaBuild {
       pname = "typst-ts-mode";
       ename = "typst-ts-mode";
-      version = "0.12.0";
+      version = "0.12.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/typst-ts-mode-0.12.0.tar";
-        sha256 = "1wks4jqh1bh4gr0m507dqa0a0mka21v10agqpsy7ws4k2sjsyp9h";
+        url = "https://elpa.nongnu.org/nongnu/typst-ts-mode-0.12.1.tar";
+        sha256 = "02wzmpgm8in6b0pc1mqdwh3hqgkg9l73wdykk3d520pph2ni8496";
       };
       packageRequires = [ ];
       meta = {
@@ -5604,10 +5604,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.12.20250628080356";
+      version = "27.0.20250707145105";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.12.20250628080356.tar";
-        sha256 = "0hwsha5a4bbpy357skgg2b541bwrbk27gzjwjxc4h0n4l8v279fz";
+        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-27.0.20250707145105.tar";
+        sha256 = "0257md3qjr4h6dpmk893d85vbf47x550qvd52z7pzx7n0v751yiz";
       };
       packageRequires = [ ];
       meta = {
