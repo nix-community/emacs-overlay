@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.19.0snapshot0.20250704.84003";
+      version = "1.19.0snapshot0.20250710.72009";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250704.84003.tar";
-        sha256 = "0m86kc0x6hd0q9zl785vzbzpvsjr461cshsp158xihjpp4jsa92q";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.19.0snapshot0.20250710.72009.tar";
+        sha256 = "0fd6z3zrlmmyv81b06l9dzwc3zr7cqwgyjfaiwk2q9r6vw1zm193";
       };
       packageRequires = [
         clojure-mode
@@ -2380,10 +2380,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250709.92418";
+      version = "0.9.8.5.0.20250709.152021";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250709.92418.tar";
-        sha256 = "0fzisqfyjwpvr7b9760wwih009nhn9qssynfmmfjxz0x25s2lkmf";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250709.152021.tar";
+        sha256 = "0sb7xm113yxdqhd2n3js3rmk7x44gisa78d8qam8igsfy19mpv79";
       };
       packageRequires = [
         compat
@@ -5590,10 +5590,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "27.2.20250709101028.0.20250709.101304";
+      version = "27.2.20250709211910.0.20250709.211942";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-27.2.20250709101028.0.20250709.101304.tar";
-        sha256 = "0wq67p8jfhf1vx9zgv0sy5s925zxp4nsp6f260xbwjgn0lkji6p5";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-27.2.20250709211910.0.20250709.211942.tar";
+        sha256 = "0v04f43gdfhd57qsxqmmmany162jv58hyq87i4hxvda9bb495r45";
       };
       packageRequires = [ ];
       meta = {
