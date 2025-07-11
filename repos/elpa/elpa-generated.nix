@@ -5823,10 +5823,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.0";
+      version = "4.8.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/modus-themes-4.8.0.tar";
-        sha256 = "15d8ld7gf3c15i409pmp8pnv3b9bgy0r5xbb1bicga7knyqqaj6c";
+        url = "https://elpa.gnu.org/packages/modus-themes-4.8.1.tar";
+        sha256 = "1xax6pfq8xlybwid3sgzm82az4p1blm217qp1bvy0fjf5qcand5i";
       };
       packageRequires = [ ];
       meta = {
