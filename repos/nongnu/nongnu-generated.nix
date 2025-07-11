@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.18.0";
+      version = "1.19.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/cider-1.18.0.tar";
-        sha256 = "15k2klm84x0jsglbc398fg9y83xkw6dbcn1jkg0zpw886j32dhxr";
+        url = "https://elpa.nongnu.org/nongnu/cider-1.19.0.tar";
+        sha256 = "04jz9cjdrx7i8p8zb7yavapz2yl8nlv7jczvmph2bpyxff2fimcf";
       };
       packageRequires = [
         clojure-mode
