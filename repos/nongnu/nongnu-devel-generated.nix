@@ -2204,10 +2204,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.3.0.20250702.65148";
+      version = "0.5.3.0.20250711.130913";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.3.0.20250702.65148.tar";
-        sha256 = "0kgwvyy28q76bbkf3az2c0lc212cq94yblskdpgxlz4zzvjdrdwj";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.3.0.20250711.130913.tar";
+        sha256 = "1qp42k4x2ylanc55b8bhsmyfi3qm6rxsv64qliw5aiisg9gm7lf4";
       };
       packageRequires = [
         compat
@@ -4230,10 +4230,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250707.155225";
+      version = "1.0.20250711.83643";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250707.155225.tar";
-        sha256 = "0wzg57y7yx5aqwlildi314ay8vf0gwxfpxdadjswjjc1zfifq6yy";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250711.83643.tar";
+        sha256 = "0fz97vmiwlqbgvbzp0zaa5jy5pbpdbhzg16db1rg01f101x5368h";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5111,10 +5111,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20250602.41006";
+      version = "0.2.1.0.20250711.100931";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250602.41006.tar";
-        sha256 = "17lwdj39j7fx16q7949f0yfr8wkbpwg3iy48k33lsrhmd6wj1fw7";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250711.100931.tar";
+        sha256 = "0yl4j4r2kqs3q9b132gbmdjp27884cdh845m8ci002i1vxn29iim";
       };
       packageRequires = [ ];
       meta = {
@@ -5590,10 +5590,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "27.2.20250710142243.0.20250710.142520";
+      version = "27.4.20250711122556.0.20250711.122702";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-27.2.20250710142243.0.20250710.142520.tar";
-        sha256 = "0hh02cd3d7lkqf5h1z25bp5i43l77n2xagl3qhcprvc0n20xy4fs";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-27.4.20250711122556.0.20250711.122702.tar";
+        sha256 = "03ln8cbi7462mg9bqcrsqrrblxbm2iva4arm525aj0j6kvdjirw0";
       };
       packageRequires = [ ];
       meta = {
