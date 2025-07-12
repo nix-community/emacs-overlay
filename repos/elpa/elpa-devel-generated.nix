@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9.0.20250710.164343";
+      version = "14.1.0.0.20250711.152236";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.0.9.0.20250710.164343.tar";
-        sha256 = "0darqxcrmbdpj84d2hrsrkjw3yyn9j7z8fmqh4qi6gyxplcicr0s";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250711.152236.tar";
+        sha256 = "1fxmpail1ayx5zdc8x55h6wxp857bp7l3dkp0rdilgxk40gvpj7j";
       };
       packageRequires = [ ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250710.34152";
+      version = "4.0.0.0.20250711.124756";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250710.34152.tar";
-        sha256 = "0bksa26hzfqgq18hhhk4vagj3c85y8xcip8gcx0533lxqgm4ibig";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250711.124756.tar";
+        sha256 = "1s60dnm2mlmk4crc5p6zh9s7km1idg89z9i9zakw4xr0c028gag4";
       };
       packageRequires = [ ];
       meta = {
@@ -6446,10 +6446,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250628.182216";
+      version = "9.8pre0.20250711.180357";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250628.182216.tar";
-        sha256 = "1sl64n8izkr9q31175ivmqvjhpisqfdva9iv3njbkyx6dvjam849";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250711.180357.tar";
+        sha256 = "1b4bspnskxdkwm4h5vs9h2834jbbr2zalqqnpz1a7vb2sj6l91p1";
       };
       packageRequires = [ ];
       meta = {
@@ -8277,10 +8277,10 @@
     elpaBuild {
       pname = "show-font";
       ename = "show-font";
-      version = "0.3.0.0.20250426.112415";
+      version = "0.3.1.0.20250711.124352";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/show-font-0.3.0.0.20250426.112415.tar";
-        sha256 = "0ygk5qq98rmbyjnh58c5rpdszrpwvpn9vr55s6lpp94lwl1yhkwq";
+        url = "https://elpa.gnu.org/devel/show-font-0.3.1.0.20250711.124352.tar";
+        sha256 = "1qwsj3hcv9l79x27rh16fkp2r1van1in2w56jc27ai7ryqibn3w5";
       };
       packageRequires = [ ];
       meta = {

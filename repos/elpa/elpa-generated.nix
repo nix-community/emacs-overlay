@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.0.9";
+      version = "14.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/auctex-14.0.9.tar";
-        sha256 = "1mhzrqln0fjj9nn04dhgzpcyv2wzysz4l85wmp4fw620jksf8j7n";
+        url = "https://elpa.gnu.org/packages/auctex-14.1.0.tar";
+        sha256 = "0cb5f86p7yxqx27wck2a3wgsxrzhv5rrgn88wpias1w7v2lbsw2j";
       };
       packageRequires = [ ];
       meta = {
@@ -8167,10 +8167,10 @@
     elpaBuild {
       pname = "show-font";
       ename = "show-font";
-      version = "0.3.0";
+      version = "0.3.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/show-font-0.3.0.tar";
-        sha256 = "1xrpzrb1i3593fawqy6bgfjn0fixgpnkq0kad14fk8qibh9iwb0x";
+        url = "https://elpa.gnu.org/packages/show-font-0.3.1.tar";
+        sha256 = "1ahlv8khf5vcmxvprz6swk3sw3i1rbbv45jp1c46mkhdg6bkmc7m";
       };
       packageRequires = [ ];
       meta = {
