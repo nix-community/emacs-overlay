@@ -3224,10 +3224,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "22.0.20250609.224757";
+      version = "23.0.20250712.174217";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-22.0.20250609.224757.tar";
-        sha256 = "1ghvwrjyzyfc80wxxvmlmhxdwzkbw6xxrk2h1hj23yc3q5hbfyi4";
+        url = "https://elpa.gnu.org/devel/emms-23.0.20250712.174217.tar";
+        sha256 = "08v0g4lhk946897agbi3klzac0088sa72f1w592plj6wxqcizx9d";
       };
       packageRequires = [
         cl-lib
@@ -5280,10 +5280,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.27.0.0.20250702.171702";
+      version = "0.27.0.0.20250712.203500";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.27.0.0.20250702.171702.tar";
-        sha256 = "0mwzbjl83fz2hpzlicnaxnypaxs6cw27cw9756jiwkn6s5vd259p";
+        url = "https://elpa.gnu.org/devel/llm-0.27.0.0.20250712.203500.tar";
+        sha256 = "03qxqmfkh2xbhj835jw4y3l1dagwx8gf10jgmchyv3icvcacr97y";
       };
       packageRequires = [
         compat
