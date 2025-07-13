@@ -6446,10 +6446,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250711.180357";
+      version = "9.8pre0.20250712.175830";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250711.180357.tar";
-        sha256 = "1b4bspnskxdkwm4h5vs9h2834jbbr2zalqqnpz1a7vb2sj6l91p1";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250712.175830.tar";
+        sha256 = "04adkhvllb108g0bzwhzc01gjmxig2h0k3qj0fswmmfgzas1s93y";
       };
       packageRequires = [ ];
       meta = {
@@ -8277,10 +8277,10 @@
     elpaBuild {
       pname = "show-font";
       ename = "show-font";
-      version = "0.3.1.0.20250711.124352";
+      version = "0.3.1.0.20250712.82410";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/show-font-0.3.1.0.20250711.124352.tar";
-        sha256 = "1qwsj3hcv9l79x27rh16fkp2r1van1in2w56jc27ai7ryqibn3w5";
+        url = "https://elpa.gnu.org/devel/show-font-0.3.1.0.20250712.82410.tar";
+        sha256 = "0sh18slqaqb4mallifqqzkrnlpji59kfl6h77frlcjz5qxayhvfq";
       };
       packageRequires = [ ];
       meta = {
