@@ -3129,10 +3129,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.14.0.0.20250706.11705";
+      version = "0.14.0.0.20250712.151715";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.14.0.0.20250706.11705.tar";
-        sha256 = "0h42k1i38rsp90k5a1l46x2l5n7fp6pwmg4snaw3wl796nsqwh7w";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.14.0.0.20250712.151715.tar";
+        sha256 = "0lb0v9qs9adch22d7w5akg0d0x56qdv7w7rmhi0ymgf6gqxx8q77";
       };
       packageRequires = [
         compat
@@ -4551,10 +4551,10 @@
     elpaBuild {
       pname = "scroll-on-jump";
       ename = "scroll-on-jump";
-      version = "0.2.0.20250706.112423";
+      version = "0.2.0.20250712.131709";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.2.0.20250706.112423.tar";
-        sha256 = "0v2y99ihpmhcdabvmnglvvf4vmmfpp1nplb99bh6i3r6n0i58n4j";
+        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.2.0.20250712.131709.tar";
+        sha256 = "1x38322dlcfjyj1jy1gmyvc6wwp6idnc802mjc3a4g3yzqjb64iq";
       };
       packageRequires = [ ];
       meta = {
@@ -4721,10 +4721,10 @@
     elpaBuild {
       pname = "spell-fu";
       ename = "spell-fu";
-      version = "0.3.0.20241011.20613";
+      version = "0.3.0.20250712.131907";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20241011.20613.tar";
-        sha256 = "1v9qzc7hqq0scs9vsgp88pp8hihxlsa8mcq5hmcz4g3p1ffhc1lb";
+        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20250712.131907.tar";
+        sha256 = "1v9ahhwapqg4a7v82ipx2rcfk9ibrbrsapqk3b3md552j4fdrwzp";
       };
       packageRequires = [ ];
       meta = {
