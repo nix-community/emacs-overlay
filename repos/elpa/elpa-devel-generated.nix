@@ -5280,10 +5280,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.27.0.0.20250712.203500";
+      version = "0.27.0.0.20250713.124702";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.27.0.0.20250712.203500.tar";
-        sha256 = "03qxqmfkh2xbhj835jw4y3l1dagwx8gf10jgmchyv3icvcacr97y";
+        url = "https://elpa.gnu.org/devel/llm-0.27.0.0.20250713.124702.tar";
+        sha256 = "1kjj2zipdmgacli70z8p8p9f3apalfrydx2vj0373rhpvkqx8mlz";
       };
       packageRequires = [
         compat
