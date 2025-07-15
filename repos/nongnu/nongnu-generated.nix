@@ -3350,10 +3350,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.1";
+      version = "2.0.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.1.tar";
-        sha256 = "1jqrb7a7zsz85sp9nzf2rds02waiams87n6mnhwkl7ar8wnycnxy";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.2.tar";
+        sha256 = "146ds0wzw7l1irn5had926y5irqa1j5cld5s0pfmvyh18zjzn9bg";
       };
       packageRequires = [
         persist
@@ -4112,6 +4112,28 @@
       ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/pdf-tools.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  pg = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      peg,
+    }:
+    elpaBuild {
+      pname = "pg";
+      ename = "pg";
+      version = "0.55";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/pg-0.55.tar";
+        sha256 = "098486qanzdjmqw1jazyvp9gd3mfjhlv6yg06xvbni3v4k3g1qwh";
+      };
+      packageRequires = [ peg ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/pg.html";
         license = lib.licenses.free;
       };
     }
@@ -5236,10 +5258,10 @@
     elpaBuild {
       pname = "typst-ts-mode";
       ename = "typst-ts-mode";
-      version = "0.12.1";
+      version = "0.12.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/typst-ts-mode-0.12.1.tar";
-        sha256 = "02wzmpgm8in6b0pc1mqdwh3hqgkg9l73wdykk3d520pph2ni8496";
+        url = "https://elpa.nongnu.org/nongnu/typst-ts-mode-0.12.2.tar";
+        sha256 = "170q09ma08cksyg9bapfhid28f0xi46ssdv7bzdyiy3gc4x61i4b";
       };
       packageRequires = [ ];
       meta = {
