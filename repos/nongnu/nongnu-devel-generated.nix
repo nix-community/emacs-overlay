@@ -2204,10 +2204,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.3.0.20250711.130913";
+      version = "0.5.3.0.20250715.104422";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.3.0.20250711.130913.tar";
-        sha256 = "1qp42k4x2ylanc55b8bhsmyfi3qm6rxsv64qliw5aiisg9gm7lf4";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.3.0.20250715.104422.tar";
+        sha256 = "0dw61z76zpm7q5ybhvb7iff6f43wvvsqxk9i718c78nddwgw47j7";
       };
       packageRequires = [
         compat
@@ -2577,10 +2577,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.4.0.20250715.55718";
+      version = "4.0.4.0.20250715.183749";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250715.55718.tar";
-        sha256 = "1y7iyr5wgb464crb8avfawgh219f2q8kmmyj0bxzq11x2wgh5s1f";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250715.183749.tar";
+        sha256 = "0s7a542spxd00b53q6pphfiifjk4cnjrg48g2rj0c7v86zmyabm3";
       };
       packageRequires = [
         helm-core
@@ -2602,10 +2602,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.4.0.20250715.55718";
+      version = "4.0.4.0.20250715.183749";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250715.55718.tar";
-        sha256 = "1lgnbsnxrn5r7wp9hsx95jp6djc23vai4pgv8asv9506nvkja8ja";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250715.183749.tar";
+        sha256 = "02qjpaylpr2axrf1i5szp12j75xxg3sd75l4c3gr4i3ci3fmykk7";
       };
       packageRequires = [ async ];
       meta = {
@@ -4103,10 +4103,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.55.0.20250629.134638";
+      version = "0.55.0.20250715.93720";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.55.0.20250629.134638.tar";
-        sha256 = "0w9w93qkap6c8hn5wp3ld0id9iwy2m17vpljw2xhf88bijf4bm80";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.55.0.20250715.93720.tar";
+        sha256 = "0pbzl8wy1lihdandjrhlbvv18l687iq2ncsjcz609dyrl93by8i8";
       };
       packageRequires = [ peg ];
       meta = {
@@ -4208,10 +4208,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20250623.210821";
+      version = "4.6snapshot0.20250715.92434";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250623.210821.tar";
-        sha256 = "0km27ky5ljzdw09c0idw72nxyl6qm15ci61vhfs2jrmqh1ncv645";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250715.92434.tar";
+        sha256 = "1694dv75vkhmid3qdyd3rzwmaigfg0a66csz07z9kvylw393nncg";
       };
       packageRequires = [ ];
       meta = {
