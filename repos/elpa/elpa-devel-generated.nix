@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20250714.212717";
+      version = "14.1.0.0.20250716.75149";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250714.212717.tar";
-        sha256 = "0cysgxm2pbg664zjvw6ca2wiij5vk442376nw75lrc3zqg78jbbj";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250716.75149.tar";
+        sha256 = "0b7znxb4fkp7pd75hx35wbfv544p5l4h54c43752y0ffmld40j79";
       };
       packageRequires = [ ];
       meta = {
@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250715.101412";
+      version = "4.0.0.0.20250716.62628";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250715.101412.tar";
-        sha256 = "1pmxlfnq0kw2xzhjzy8869w53x773gfifhb5fsgsg5pjlyfi6zy4";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250716.62628.tar";
+        sha256 = "00dajv3sbsg6xjjwi5k8v3acxpvyb1q7j86dggb18ijdyg099p3p";
       };
       packageRequires = [ ];
       meta = {
@@ -9964,6 +9964,28 @@
       packageRequires = [ hydra ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/vdiff.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  vecdb = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      plz,
+    }:
+    elpaBuild {
+      pname = "vecdb";
+      ename = "vecdb";
+      version = "0.1.0.20250715.213239";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/vecdb-0.1.0.20250715.213239.tar";
+        sha256 = "0vch6w1mcr1vmshkajmf5f7cvgfzj2piprp985zs16vfg8gv1xyz";
+      };
+      packageRequires = [ plz ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/vecdb.html";
         license = lib.licenses.free;
       };
     }
