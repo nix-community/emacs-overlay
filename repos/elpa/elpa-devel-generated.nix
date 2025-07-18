@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250716.62628";
+      version = "4.0.0.0.20250717.84757";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250716.62628.tar";
-        sha256 = "00dajv3sbsg6xjjwi5k8v3acxpvyb1q7j86dggb18ijdyg099p3p";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250717.84757.tar";
+        sha256 = "09f202wckqvy8h8k22gwz7kj4m6q9yjl80yh6z18x97xg1532g19";
       };
       packageRequires = [ ];
       meta = {
@@ -6468,10 +6468,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.1.0.20250619.32158";
+      version = "1.1.0.20250717.111850";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250619.32158.tar";
-        sha256 = "1lkf67m4c19mgj0pni07y3nvdncwy1xis7ax08m5kbq16i21ay3s";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250717.111850.tar";
+        sha256 = "0ii01z0qq5z15jwj5mc16zpy7z62gvgnxc1c33j6z2qhr7xl51b6";
       };
       packageRequires = [ org ];
       meta = {
