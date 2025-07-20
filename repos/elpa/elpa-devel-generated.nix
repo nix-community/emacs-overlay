@@ -1876,10 +1876,10 @@
     elpaBuild {
       pname = "cursory";
       ename = "cursory";
-      version = "1.1.0.0.20250127.85433";
+      version = "1.1.0.0.20250720.63149";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cursory-1.1.0.0.20250127.85433.tar";
-        sha256 = "02lhik1s120zbrilwf8c4hwi4hh5jp36h02728kc9kwxvlf34r69";
+        url = "https://elpa.gnu.org/devel/cursory-1.1.0.0.20250720.63149.tar";
+        sha256 = "12ax7avzfy03cqjmlsb1lry99gda07z8lcd66jcmi7a776nfy1h0";
       };
       packageRequires = [ ];
       meta = {
@@ -4515,10 +4515,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.9.1.0.20250714.140443";
+      version = "0.9.2.0.20250719.204514";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.9.1.0.20250714.140443.tar";
-        sha256 = "0xd9mnaanklcl07xcjsbgmxhh2bkq8b22wl9axmpv4sqa61wf3y2";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.9.2.0.20250719.204514.tar";
+        sha256 = "0dvbgzkqdnbk65gsk1mh7cn06w6n5qmdpm4mmswkx57g479j68ni";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6446,10 +6446,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250719.174041";
+      version = "9.8pre0.20250720.64959";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250719.174041.tar";
-        sha256 = "1lgbpsxkakjyb984b0sh9092lh579a747rxjqppdz7bz1yh8vg1h";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250720.64959.tar";
+        sha256 = "1qv73995k4jdhkc5zzn4i0wn1wqx352f7vc09cv9fjnhlii9w06j";
       };
       packageRequires = [ ];
       meta = {
