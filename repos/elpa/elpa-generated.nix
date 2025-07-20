@@ -6401,10 +6401,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.31";
+      version = "9.7.32";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.31.tar";
-        sha256 = "13fxckj4pw4cwjqgz4fbw680jfypfqq8rc4hir26halsxz8lvi2m";
+        url = "https://elpa.gnu.org/packages/org-9.7.32.tar";
+        sha256 = "1l4i5hxv076bb932mpc6ibd5jw20a9piw9fzk79dnd9r86z1h4m4";
       };
       packageRequires = [ ];
       meta = {
