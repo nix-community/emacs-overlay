@@ -1876,10 +1876,10 @@
     elpaBuild {
       pname = "cursory";
       ename = "cursory";
-      version = "1.1.0.0.20250720.153325";
+      version = "1.1.0.0.20250721.51117";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cursory-1.1.0.0.20250720.153325.tar";
-        sha256 = "1b5dxp4dsgzpj73f5qkqf74vars1gjsw4y61b0c5x40wifvbmhb2";
+        url = "https://elpa.gnu.org/devel/cursory-1.1.0.0.20250721.51117.tar";
+        sha256 = "14ij1x8mf3h3q9mins8ybgxqrl2fjvlwss2jzmj5li6i8ljd35bs";
       };
       packageRequires = [ ];
       meta = {
@@ -9973,17 +9973,21 @@
       elpaBuild,
       fetchurl,
       lib,
+      pg,
       plz,
     }:
     elpaBuild {
       pname = "vecdb";
       ename = "vecdb";
-      version = "0.1.0.20250715.213239";
+      version = "0.2.0.20250721.13325";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vecdb-0.1.0.20250715.213239.tar";
-        sha256 = "0vch6w1mcr1vmshkajmf5f7cvgfzj2piprp985zs16vfg8gv1xyz";
+        url = "https://elpa.gnu.org/devel/vecdb-0.2.0.20250721.13325.tar";
+        sha256 = "1qxkd6jrqj8wrq6cllay05csskjdlbp9lb4rwi554xmj71aijcn7";
       };
-      packageRequires = [ plz ];
+      packageRequires = [
+        pg
+        plz
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/vecdb.html";
         license = lib.licenses.free;

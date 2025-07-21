@@ -9811,6 +9811,32 @@
       };
     }
   ) { };
+  vecdb = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      pg,
+      plz,
+    }:
+    elpaBuild {
+      pname = "vecdb";
+      ename = "vecdb";
+      version = "0.2";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/vecdb-0.2.tar";
+        sha256 = "10p5nhk4v4j05k9cz9br5ninycpp7spgby9mrr9z8bsy2g0j0il2";
+      };
+      packageRequires = [
+        pg
+        plz
+      ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/vecdb.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   verilog-mode = callPackage (
     {
       elpaBuild,
