@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.5.0.20250716.135142";
+      version = "1.5.0.20250720.120728";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.5.0.20250716.135142.tar";
-        sha256 = "19l2qhiz0y2yhqykca59lnbjpcxh1cybi5vnrxqdyd2znq9syra4";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.5.0.20250720.120728.tar";
+        sha256 = "0fmp7xynhcny6p9qf1r1aaappjcqpmk15kq8sjfhwipcxs42wza4";
       };
       packageRequires = [
         compat
@@ -312,10 +312,10 @@
     elpaBuild {
       pname = "bash-completion";
       ename = "bash-completion";
-      version = "3.2.1snapshot0.20250626.204257";
+      version = "3.2.1snapshot0.20250720.122823";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.2.1snapshot0.20250626.204257.tar";
-        sha256 = "19ajv804fl520pk5wqni066dpklbc6i16wbkvm5d7hiwzybfpg44";
+        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.2.1snapshot0.20250720.122823.tar";
+        sha256 = "0v79iv7xpaf4xa84ykk5sz4rbzf8sgmdq7fn1gjdgrcd35jjgmfc";
       };
       packageRequires = [ ];
       meta = {
@@ -2577,10 +2577,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.4.0.20250720.50250";
+      version = "4.0.4.0.20250720.181350";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250720.50250.tar";
-        sha256 = "1a21gzqwz8ll5q99br7wjxrh4gjba6zrd62wpin3v3glpm8isk2i";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250720.181350.tar";
+        sha256 = "0pics1nfh0zrfvwr2wvv3mbdjzwd79xdq6nbhs26x6xfmxd0yyl7";
       };
       packageRequires = [
         helm-core
@@ -2602,10 +2602,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.4.0.20250720.50250";
+      version = "4.0.4.0.20250720.181350";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250720.50250.tar";
-        sha256 = "01g4108a32nh7h5wi7gd8wf7pj3fhll923r1r722c7khcibghlli";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250720.181350.tar";
+        sha256 = "0i7q0wra7ffcbk1xzpd3lfsljflvrk45q7f2rcf1raag4j9v1923";
       };
       packageRequires = [ async ];
       meta = {
@@ -3311,10 +3311,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.8alpha0.20250718.153558";
+      version = "2.8alpha0.20250720.115620";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20250718.153558.tar";
-        sha256 = "15lmkwwajcmlvmyzf1dbwgrzlbp46gbabxk1mcm9d4nmzvglzk5i";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20250720.115620.tar";
+        sha256 = "09b9sjsacnx18xxxm2pyjh0x6jb89d2w98bd41kwrdx7mqgy0zx6";
       };
       packageRequires = [ ];
       meta = {
@@ -4103,10 +4103,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.55.0.20250718.91654";
+      version = "0.56.0.20250720.94306";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.55.0.20250718.91654.tar";
-        sha256 = "06vf1aap1m38icpw7vkdgfm0dw7y8s6zp1plvilhxs7xlvq171x0";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.56.0.20250720.94306.tar";
+        sha256 = "1z58kl9q87ncqd8bdhga1f6vw246nl6103a98359km5z2vn59r6r";
       };
       packageRequires = [ peg ];
       meta = {
@@ -5612,10 +5612,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "27.6.20250719194527.0.20250719.195031";
+      version = "27.7.20250720091147.0.20250720.91307";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-27.6.20250719194527.0.20250719.195031.tar";
-        sha256 = "0lhwlrfn6n76ax4f2hvggf06phrb4fy24nl6wd6wpsmazmlc678r";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-27.7.20250720091147.0.20250720.91307.tar";
+        sha256 = "19573gqib7028mmsra6ymqjgfp4knhx7alxgk1nsfjinqlpq3lk6";
       };
       packageRequires = [ ];
       meta = {
