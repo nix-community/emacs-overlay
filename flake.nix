@@ -76,6 +76,8 @@
                 inherit (pkgs) emacs-git emacs-git-nox;
                 inherit (pkgs) emacs-git-pgtk;
                 inherit (pkgs) emacs-igc emacs-igc-pgtk;
+                inherit (pkgs) emacs-lsp;
+                inherit (pkgs) commercial-emacs;
               };
 
               packages = mkEmacsSet pkgs.emacs;
