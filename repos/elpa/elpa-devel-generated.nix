@@ -1876,10 +1876,10 @@
     elpaBuild {
       pname = "cursory";
       ename = "cursory";
-      version = "1.1.0.0.20250720.63149";
+      version = "1.1.0.0.20250720.153325";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cursory-1.1.0.0.20250720.63149.tar";
-        sha256 = "12ax7avzfy03cqjmlsb1lry99gda07z8lcd66jcmi7a776nfy1h0";
+        url = "https://elpa.gnu.org/devel/cursory-1.1.0.0.20250720.153325.tar";
+        sha256 = "1b5dxp4dsgzpj73f5qkqf74vars1gjsw4y61b0c5x40wifvbmhb2";
       };
       packageRequires = [ ];
       meta = {
@@ -2206,10 +2206,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.1.1.0.20250707.134142";
+      version = "0.1.1.0.20250720.124047";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250707.134142.tar";
-        sha256 = "0iyv6cv4520sj1wgpr3zn4v86r8xjd9273y5nnc7ijsdfdjj26qz";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250720.124047.tar";
+        sha256 = "1pijif6ldfk26gy9sxj0rb9a47b6rbzmjy0hpfzzxd4hfi0h463x";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2495,10 +2495,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.6.0.0.20250718.172651";
+      version = "0.6.0.0.20250720.94036";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.6.0.0.20250718.172651.tar";
-        sha256 = "0xkj9l2gq9yas2ia4g6dfi0g6hjjr3s1978qfccs3m280kdsw3rn";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.6.0.0.20250720.94036.tar";
+        sha256 = "09cvi5kcdzghm1l657jnfsvdnfnkfnl76m9vnai49z53a66iivkc";
       };
       packageRequires = [ ];
       meta = {
@@ -6446,10 +6446,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250720.64959";
+      version = "9.8pre0.20250720.160618";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250720.64959.tar";
-        sha256 = "1qv73995k4jdhkc5zzn4i0wn1wqx352f7vc09cv9fjnhlii9w06j";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250720.160618.tar";
+        sha256 = "06mlsii6f1k4vnzpy4wpc6j4dv0jp5blpkhlmxwh8ys64prghiad";
       };
       packageRequires = [ ];
       meta = {
