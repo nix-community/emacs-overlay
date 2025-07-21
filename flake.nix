@@ -74,7 +74,7 @@
                 inherit (pkgs) emacs-unstable emacs-unstable-nox;
                 inherit (pkgs) emacs-unstable-pgtk;
                 inherit (pkgs) emacs-git emacs-git-nox;
-                inherit (pkgs) emacs-pgtk;
+                inherit (pkgs) emacs-git-pgtk;
                 inherit (pkgs) emacs-igc emacs-igc-pgtk;
               };
 
