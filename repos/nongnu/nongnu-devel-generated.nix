@@ -312,10 +312,10 @@
     elpaBuild {
       pname = "bash-completion";
       ename = "bash-completion";
-      version = "3.2.1snapshot0.20250720.122823";
+      version = "3.2.1snapshot0.20250721.202603";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.2.1snapshot0.20250720.122823.tar";
-        sha256 = "0v79iv7xpaf4xa84ykk5sz4rbzf8sgmdq7fn1gjdgrcd35jjgmfc";
+        url = "https://elpa.nongnu.org/nongnu-devel/bash-completion-3.2.1snapshot0.20250721.202603.tar";
+        sha256 = "0vx9d3216n3p39fkch1z3kmsbszqcdhf1j4wiqp15y034j2g5gk1";
       };
       packageRequires = [ ];
       meta = {
