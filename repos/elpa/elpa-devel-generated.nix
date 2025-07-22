@@ -1876,10 +1876,10 @@
     elpaBuild {
       pname = "cursory";
       ename = "cursory";
-      version = "1.1.0.0.20250721.51117";
+      version = "1.2.0.0.20250722.60609";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cursory-1.1.0.0.20250721.51117.tar";
-        sha256 = "14ij1x8mf3h3q9mins8ybgxqrl2fjvlwss2jzmj5li6i8ljd35bs";
+        url = "https://elpa.gnu.org/devel/cursory-1.2.0.0.20250722.60609.tar";
+        sha256 = "140g6vi060ns4dippvq8z2j6ydsb54ygdk0scvg7igk2j0zndg35";
       };
       packageRequires = [ ];
       meta = {
@@ -3476,10 +3476,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.34.0.20250627.135417";
+      version = "0.34.0.20250721.174410";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20250627.135417.tar";
-        sha256 = "021ws9brxwzx25hdkm20c53qcgbzxx86jv1yaqvi4w21pc31079y";
+        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20250721.174410.tar";
+        sha256 = "1zfxfbyl58fnra15mic5jc5hivp6djrf7d7i3ywcf9p1fydx0l02";
       };
       packageRequires = [
         compat
@@ -4189,10 +4189,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.12.7.0.20250623.220009";
+      version = "0.12.7.0.20250722.52020";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.12.7.0.20250623.220009.tar";
-        sha256 = "1j8w628wypiq2wc5sl15qi9vv8w1qfbl9iv9zixq0kwmdzqgi8nd";
+        url = "https://elpa.gnu.org/devel/greader-0.12.7.0.20250722.52020.tar";
+        sha256 = "0zgwih2mz53igjqw4ifk7qa82dbvxiz5hfyydz4nlh6x18ysg825";
       };
       packageRequires = [
         compat
