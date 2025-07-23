@@ -2723,10 +2723,10 @@
     elpaBuild {
       pname = "htmlize";
       ename = "htmlize";
-      version = "1.58";
+      version = "1.59";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/htmlize-1.58.tar";
-        sha256 = "1vd7pq8rrxnc5x2nc6qjjkh3hyk89m7g8zdijpw463d4v6wrrfpx";
+        url = "https://elpa.nongnu.org/nongnu/htmlize-1.59.tar";
+        sha256 = "0ng3gngv4y67ncr7a0zl7mj22c4772mkqf3dazspmp3jfqdyq9sr";
       };
       packageRequires = [ ];
       meta = {
