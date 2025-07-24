@@ -2380,10 +2380,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250723.124953";
+      version = "0.9.8.5.0.20250723.211654";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250723.124953.tar";
-        sha256 = "12jxbngdv1c91jzdwh39p17nrf36rcrs4pq21qv54rr0biv0wc3z";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250723.211654.tar";
+        sha256 = "0ma6dc9p47zxa7iwlwbkz0w3343d4xn365h36h89rk9pq79bq3fd";
       };
       packageRequires = [
         compat
@@ -5612,10 +5612,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "27.8.20250722155928.0.20250722.160011";
+      version = "27.8.20250723162832.0.20250723.163557";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-27.8.20250722155928.0.20250722.160011.tar";
-        sha256 = "0xy0zscj63iigpi6dk0j253n933cmw03cjmzhxg77732fmn4hsyp";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-27.8.20250723162832.0.20250723.163557.tar";
+        sha256 = "0g2jy4c8k2mic5x0gqa824c0x8h7sslb5s89jzna28kh3g8m19bx";
       };
       packageRequires = [ ];
       meta = {
