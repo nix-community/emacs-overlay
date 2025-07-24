@@ -5647,10 +5647,10 @@
     elpaBuild {
       pname = "mct";
       ename = "mct";
-      version = "1.1.0.0.20250707.74133";
+      version = "1.1.0.0.20250724.62824";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mct-1.1.0.0.20250707.74133.tar";
-        sha256 = "1nykajgdcl6ash7fpzrsmr8v1qgfq6z3vfpzkacczjgm31hd64vg";
+        url = "https://elpa.gnu.org/devel/mct-1.1.0.0.20250724.62824.tar";
+        sha256 = "0gvznkbcd8igj9bkz249zc9qwzy07qayil38a2d7b25b2mfbchsq";
       };
       packageRequires = [ ];
       meta = {
@@ -9979,10 +9979,10 @@
     elpaBuild {
       pname = "vecdb";
       ename = "vecdb";
-      version = "0.2.0.20250721.13325";
+      version = "0.2.0.20250724.14151";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vecdb-0.2.0.20250721.13325.tar";
-        sha256 = "1qxkd6jrqj8wrq6cllay05csskjdlbp9lb4rwi554xmj71aijcn7";
+        url = "https://elpa.gnu.org/devel/vecdb-0.2.0.20250724.14151.tar";
+        sha256 = "09l02c9vldx4bk6cn69rnfg9kafxfif7nmsv538jhhxzf5q31z43";
       };
       packageRequires = [
         pg
