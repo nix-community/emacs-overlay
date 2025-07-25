@@ -3360,10 +3360,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "25.1.0.0.20250606.83117";
+      version = "25.1.0.0.20250724.104429";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20250606.83117.tar";
-        sha256 = "1mr16s1pxfw7nfv9fjgwygy0s173z99gl9spcjn9jpdm7ydg9nzl";
+        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20250724.104429.tar";
+        sha256 = "0g6ilfa8i2n9l632dl9lg9pkxhc4zd94hqxkp59pvwxmd8i7gr7s";
       };
       packageRequires = [ ];
       meta = {
@@ -3476,10 +3476,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.34.0.20250721.174410";
+      version = "0.34.0.20250724.152239";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20250721.174410.tar";
-        sha256 = "1zfxfbyl58fnra15mic5jc5hivp6djrf7d7i3ywcf9p1fydx0l02";
+        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20250724.152239.tar";
+        sha256 = "1ys6df4sj578lrlzc0jdjza25xvh2dg05hhgi00qflsifcjljfv9";
       };
       packageRequires = [
         compat
@@ -4828,10 +4828,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.2.0.20250619.145315";
+      version = "2.2.0.20250724.152647";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.2.0.20250619.145315.tar";
-        sha256 = "1rcaxcsh85da3xcy4wdj3y0pwj63v518idw1aw0xl0yswxnqhkr2";
+        url = "https://elpa.gnu.org/devel/jinx-2.2.0.20250724.152647.tar";
+        sha256 = "06mfvkdfk6qd873hv76j120nhxycalywzw3mj5dy7d97jnwmimfi";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6425,10 +6425,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.4.0.20250705.202309";
+      version = "1.4.0.20250724.152415";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.4.0.20250705.202309.tar";
-        sha256 = "15c7rangdl36m2zjr6rjjlma33yrjhg6is21agsz452zrpj8mp0f";
+        url = "https://elpa.gnu.org/devel/orderless-1.4.0.20250724.152415.tar";
+        sha256 = "0kzcbmcn28gvqlafjlrnkicfjdgbj5kbm4sqhl42h2g4823vm0b9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10523,10 +10523,10 @@
     elpaBuild {
       pname = "xelb";
       ename = "xelb";
-      version = "0.21.0.20250706.151817";
+      version = "0.21.0.20250724.152124";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xelb-0.21.0.20250706.151817.tar";
-        sha256 = "0lg5iwxa9h2m2bfzm2crvsv2lar86hligvynvrxdkcig07hg6qkh";
+        url = "https://elpa.gnu.org/devel/xelb-0.21.0.20250724.152124.tar";
+        sha256 = "1j9s7kqngz1vy9v7j4bbj7mbqi4ljwqz12gkix56ql92yxycw941";
       };
       packageRequires = [ compat ];
       meta = {
