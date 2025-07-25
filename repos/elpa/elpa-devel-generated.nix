@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20250716.75149";
+      version = "14.1.0.0.20250724.203941";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250716.75149.tar";
-        sha256 = "0b7znxb4fkp7pd75hx35wbfv544p5l4h54c43752y0ffmld40j79";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250724.203941.tar";
+        sha256 = "1gachyrxj6hg7bhwqpryx1b5rzinipvwrl7z26sg0x5csa5ik5v2";
       };
       packageRequires = [ ];
       meta = {
@@ -5819,10 +5819,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.5.4.0.20250717.213302";
+      version = "0.5.5.0.20250724.183858";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.5.4.0.20250717.213302.tar";
-        sha256 = "0h269vjnz84m33g5wq02jrl3vmnya9vmwisrbqd2yj49x96g4fcg";
+        url = "https://elpa.gnu.org/devel/minuet-0.5.5.0.20250724.183858.tar";
+        sha256 = "07vvmjcdair1fjh71sm5wgqnjka6c3d25hcb5jj5qb61cmamadkg";
       };
       packageRequires = [
         dash
