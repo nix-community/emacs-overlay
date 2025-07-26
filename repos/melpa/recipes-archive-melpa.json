@@ -12524,14 +12524,14 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20250725,
-    1750
+    20250726,
+    730
    ],
    "deps": [
     "shell-maker"
    ],
-   "commit": "2ddd4ba832793f5691b5d1f96c649e19b4536fde",
-   "sha256": "11i5y6dvizkcvg6yg846nw7njc1jp2rbpcb3m0y3jbk7n810mn31"
+   "commit": "73600ccde28010113d8cb63464d7a9b35a0b9fd0",
+   "sha256": "13f3an0zw92vl3jc38jzvg6hrgrz6xjd825ip6cx1zyj8790a5f0"
   },
   "stable": {
    "version": [
@@ -55793,15 +55793,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20250724,
-    2012
+    20250726,
+    504
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "7f6137bb8e9fc9415cd1ffc53bb119f1c4ca4cc4",
-   "sha256": "19096kj95yn8l54bmab7b15xg5l1sfbpn8s5dq2dpi40k8flfgkh"
+   "commit": "2c1bbb104ea68379a4a46a7410471ad701513fde",
+   "sha256": "004rpsszaxwlqa4qdir698jvk5wh7sh5w2wmi4hs494vakwxh85m"
   },
   "stable": {
    "version": [
@@ -82243,6 +82243,17 @@
    ],
    "commit": "8cff6b56b02b1a7c5fc2cac2f78f6a5a2376326b",
    "sha256": "11z6xbbqqks2bxfjgxkky5r3nyn55s5m8q8r0zm5h1qy9f3ygj9b"
+  },
+  "stable": {
+   "version": [
+    1,
+    3
+   ],
+   "deps": [
+    "emms"
+   ],
+   "commit": "10f52d75fc647aa2abb011e1cec9d04d2e72880f",
+   "sha256": "0jkb10cs0yib6cvx4kbc12nz5vyj1zx6xpwbbx599qd9wizg0xfb"
   }
  },
  {
@@ -91080,6 +91091,14 @@
    "version": [
     20250726,
     28
+   ],
+   "commit": "ba81ff4866326dae63b5eecf2643abb444de32a3",
+   "sha256": "1596r4ix0yas2qwrf38kj14dxdrns0m5622kxvapg7kin67kbifk"
+  },
+  "stable": {
+   "version": [
+    0,
+    21
    ],
    "commit": "ba81ff4866326dae63b5eecf2643abb444de32a3",
    "sha256": "1596r4ix0yas2qwrf38kj14dxdrns0m5622kxvapg7kin67kbifk"
@@ -116006,14 +116025,14 @@
   "repo": "slime/slime",
   "unstable": {
    "version": [
-    20250706,
-    1422
+    20250726,
+    50
    ],
    "deps": [
     "macrostep"
    ],
-   "commit": "5e234b45c6fcc3fc99ff75a62f489163e59f42bc",
-   "sha256": "1wb1axpvi5adfqq39dw3wqlnyjfmd5wjk7fg1af92isza2lcxxrr"
+   "commit": "42b229104a42e3e75468c1d573b3b0828bf98c01",
+   "sha256": "0xar7jgjbycrc8rgdmh9c9ng9k82lfgrajipmzqqc55jppqhigw9"
   },
   "stable": {
    "version": [
@@ -119336,11 +119355,11 @@
   "repo": "srfi-explorations/emacs-srfi",
   "unstable": {
    "version": [
-    20250609,
-    2346
+    20250726,
+    420
    ],
-   "commit": "0b0f58f1cdeaf631017bc7593b81c8343d459b58",
-   "sha256": "0vd9b0nkjql2ghgmrsxa1kbd12zcl8a6j9vx100lmpp7gx8n0afp"
+   "commit": "3a98b7dbf9618143026c437815f22cacbe81c4b6",
+   "sha256": "1ylqfynkjkdl1w2cwwj618jwwbnw19phgfkfqpi8zq9nfk32wf9z"
   },
   "stable": {
    "version": [
