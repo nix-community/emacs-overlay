@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.5.0.20250720.120728";
+      version = "1.5.0.20250727.23025";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.5.0.20250720.120728.tar";
-        sha256 = "0fmp7xynhcny6p9qf1r1aaappjcqpmk15kq8sjfhwipcxs42wza4";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.5.0.20250727.23025.tar";
+        sha256 = "0k6kzac6vs5af1xaiszxxxqnk5sxac9lrbh3d8pqkin8xmm0blmg";
       };
       packageRequires = [
         compat
@@ -3129,10 +3129,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.14.0.0.20250712.151715";
+      version = "0.14.0.0.20250726.203708";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.14.0.0.20250712.151715.tar";
-        sha256 = "0lb0v9qs9adch22d7w5akg0d0x56qdv7w7rmhi0ymgf6gqxx8q77";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.14.0.0.20250726.203708.tar";
+        sha256 = "18da2sfgw41kl7d5dmdc5wn34z81i3sl3by7f5wah1w19fisk8xc";
       };
       packageRequires = [
         compat
