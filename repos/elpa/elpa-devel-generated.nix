@@ -6468,10 +6468,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.1.0.20250717.111850";
+      version = "1.1.0.20250727.41238";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250717.111850.tar";
-        sha256 = "0ii01z0qq5z15jwj5mc16zpy7z62gvgnxc1c33j6z2qhr7xl51b6";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250727.41238.tar";
+        sha256 = "13rpkd0rbgx74w1jyrabwhs0g9hkhnc1dpkxpn9kvsvpx4g0kcjb";
       };
       packageRequires = [ org ];
       meta = {
