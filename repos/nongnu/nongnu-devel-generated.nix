@@ -481,10 +481,10 @@
     elpaBuild {
       pname = "buttercup";
       ename = "buttercup";
-      version = "1.37.0.20250216.231504";
+      version = "1.37.0.20250727.204724";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/buttercup-1.37.0.20250216.231504.tar";
-        sha256 = "01x2b82kbb2pcn2m75yfrfcjc1dg6qcqyc1d6abnhwvgdxfxv7yf";
+        url = "https://elpa.nongnu.org/nongnu-devel/buttercup-1.37.0.20250727.204724.tar";
+        sha256 = "0zgmwxm1z7pnmc36prw1brns7mhwqn7mhghg5cy4wvhi56mk2631";
       };
       packageRequires = [ ];
       meta = {
@@ -4510,10 +4510,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "96.0.0.20250128.214002";
+      version = "97.0.0.20250728.23846";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-96.0.0.20250128.214002.tar";
-        sha256 = "1ivx4yaz13505w4k6p3q25pg5xwgrbyygfgwzc22vqdv498rg102";
+        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-97.0.0.20250728.23846.tar";
+        sha256 = "1jvhzhvs0zfx3ygzrm9ixw10wmdv0fy9s3g236kbdrlkc94lddrc";
       };
       packageRequires = [ compat ];
       meta = {
