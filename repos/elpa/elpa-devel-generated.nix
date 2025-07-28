@@ -2074,10 +2074,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250717.84757";
+      version = "4.0.0.0.20250727.95359";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250717.84757.tar";
-        sha256 = "09f202wckqvy8h8k22gwz7kj4m6q9yjl80yh6z18x97xg1532g19";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250727.95359.tar";
+        sha256 = "18ky7js93q5q7lz322xligc24dxy4k913nxb0y0wmg7lw4mjhv4j";
       };
       packageRequires = [ ];
       meta = {
@@ -4451,10 +4451,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250715.122629";
+      version = "9.0.2pre0.20250727.122644";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250715.122629.tar";
-        sha256 = "0613gl7f1sc4q7i67h3x45gny3zm374asa50fp01my0fvhbhbay3";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250727.122644.tar";
+        sha256 = "0dd54w0ja7wn1y5rrhp2kxh4zfzkmrbb81y5ih4fwxi8fxzjrzdw";
       };
       packageRequires = [ ];
       meta = {
@@ -6446,10 +6446,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250722.175902";
+      version = "9.8pre0.20250727.164329";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250722.175902.tar";
-        sha256 = "0laa1c4ah45dlyq89yzwkwzzmylqqgmnlnyma2nh4ng7bdbb2mzb";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250727.164329.tar";
+        sha256 = "13hsdq204m7znvv29mxj12myjr8krvg1qi7iv2p5n3cgi0i2mn1q";
       };
       packageRequires = [ ];
       meta = {
@@ -7910,10 +7910,10 @@
     elpaBuild {
       pname = "relint";
       ename = "relint";
-      version = "2.1.0.20250224.150638";
+      version = "2.1.0.20250727.111604";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/relint-2.1.0.20250224.150638.tar";
-        sha256 = "06fn5lm4w7ypjrndlc8kl2lvvipiv4ik9hh8rvaa5h0vhkw1y947";
+        url = "https://elpa.gnu.org/devel/relint-2.1.0.20250727.111604.tar";
+        sha256 = "1vf0mqwvrp586x3hxwf3l6qdfxc7zlzdwj193spcj37pmmsnxn2v";
       };
       packageRequires = [ xr ];
       meta = {
@@ -10570,10 +10570,10 @@
     elpaBuild {
       pname = "xr";
       ename = "xr";
-      version = "2.1.0.20250224.150416";
+      version = "2.1.0.20250727.111542";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xr-2.1.0.20250224.150416.tar";
-        sha256 = "0ndfsnma1h3h6kbaymaa7cckdsk92zbi822zarliwvwg9qf1qmnw";
+        url = "https://elpa.gnu.org/devel/xr-2.1.0.20250727.111542.tar";
+        sha256 = "1vnigx1arz0sjiz9zp14as8vra26njdcjbv1pkig3a0zgycwpsx2";
       };
       packageRequires = [ ];
       meta = {
