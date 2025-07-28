@@ -4788,10 +4788,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.2";
+      version = "2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jinx-2.2.tar";
-        sha256 = "17f7p7q21f0l8zzr2z05y6mzrh6pw036cnp1375hbssnpsrh3wc1";
+        url = "https://elpa.gnu.org/packages/jinx-2.3.tar";
+        sha256 = "0sm6yrh70qy6w7v1ljr02rfj10kyixnghk1aigizc4rgpr4b8azp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5478,10 +5478,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.1";
+      version = "2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/marginalia-2.1.tar";
-        sha256 = "0yg2v8pjccfdrlyabn8kih3hf7dkksirgc9g7a83m2zbkrbhimms";
+        url = "https://elpa.gnu.org/packages/marginalia-2.2.tar";
+        sha256 = "16h0zdzjip10ryalanygfkz4i2bf21vr6f4348l5cgx0mnx10cvx";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6380,10 +6380,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.4";
+      version = "1.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/orderless-1.4.tar";
-        sha256 = "151df7azrhyxaa768bp6mxmc44mmc4h1x180s2a9ns4b3lsfczrv";
+        url = "https://elpa.gnu.org/packages/orderless-1.5.tar";
+        sha256 = "188mksjaazf1rxvyqrcybya4a53j6c1xwvcbfh8s1sgv0jqxlv8z";
       };
       packageRequires = [ compat ];
       meta = {
