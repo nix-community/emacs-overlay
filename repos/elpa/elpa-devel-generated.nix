@@ -2887,10 +2887,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.10.0.0.20250712.44717";
+      version = "1.10.0.0.20250730.54038";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.10.0.0.20250712.44717.tar";
-        sha256 = "12hsgdv55dwwm8qjvg8n24m48l7igbd38wsyc4sqj8mdzj0qrxic";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.10.0.0.20250730.54038.tar";
+        sha256 = "1imipx0yvnydnf0bfnv7zx005nrwjvaj3raj6z5704kwcv0ragrm";
       };
       packageRequires = [ ];
       meta = {
@@ -5819,10 +5819,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.5.5.0.20250724.183858";
+      version = "0.5.5.0.20250729.215208";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.5.5.0.20250724.183858.tar";
-        sha256 = "07vvmjcdair1fjh71sm5wgqnjka6c3d25hcb5jj5qb61cmamadkg";
+        url = "https://elpa.gnu.org/devel/minuet-0.5.5.0.20250729.215208.tar";
+        sha256 = "1yl7cpa2l9c3j091rzxm7rmnij5cldi1phf9n9nc0sfcrwb8a9hx";
       };
       packageRequires = [
         dash
@@ -8750,10 +8750,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20250704.55025";
+      version = "2.2.0.0.20250730.54121";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20250704.55025.tar";
-        sha256 = "14g3dvrkcv5niz70iw942aj2nrcj75azn265w7sinsf1jsny6xi1";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20250730.54121.tar";
+        sha256 = "0i0aai9wgllywyvk7qxdilyxa3jf3yaq41bqqhbb93ii1sbl291n";
       };
       packageRequires = [ ];
       meta = {
@@ -9361,10 +9361,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.0.0.20250629.74034";
+      version = "2.8.0.1.0.20250730.65308";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.8.0.0.20250629.74034.tar";
-        sha256 = "0h9vxgwvm5nzjpa8hnq3bxinjsc1f3chql68y3qi0x7ll77g1r2v";
+        url = "https://elpa.gnu.org/devel/tramp-2.8.0.1.0.20250730.65308.tar";
+        sha256 = "1yzd022xgx5x81k19pam97lw0sr75xz4pns681h77q5yhwz4r3yr";
       };
       packageRequires = [ ];
       meta = {
