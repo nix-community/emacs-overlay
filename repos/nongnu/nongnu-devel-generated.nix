@@ -4103,10 +4103,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.56.0.20250720.94306";
+      version = "0.57.0.20250730.130322";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.56.0.20250720.94306.tar";
-        sha256 = "1z58kl9q87ncqd8bdhga1f6vw246nl6103a98359km5z2vn59r6r";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.57.0.20250730.130322.tar";
+        sha256 = "0rrgibc9vmcw84hyycyj5nnd82cgkrgbw7h91vc97vkji9ps7kbp";
       };
       packageRequires = [ peg ];
       meta = {
@@ -5612,10 +5612,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "27.9.20250728112233.0.20250728.113634";
+      version = "28.0.20250730123024.0.20250730.123104";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-27.9.20250728112233.0.20250728.113634.tar";
-        sha256 = "1f32nhv8nm2di1vbc0hp01zxlq1n70fsj3y88878jfpz3wixsv7g";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.0.20250730123024.0.20250730.123104.tar";
+        sha256 = "1scg7yw4grfy5xk2sz4kh577xag7332yqvvn2g8vzqrrh75hwb0x";
       };
       packageRequires = [ ];
       meta = {
