@@ -481,10 +481,10 @@
     elpaBuild {
       pname = "buttercup";
       ename = "buttercup";
-      version = "1.37.0.20250727.204724";
+      version = "1.38.0.20250801.138";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/buttercup-1.37.0.20250727.204724.tar";
-        sha256 = "0zgmwxm1z7pnmc36prw1brns7mhwqn7mhghg5cy4wvhi56mk2631";
+        url = "https://elpa.nongnu.org/nongnu-devel/buttercup-1.38.0.20250801.138.tar";
+        sha256 = "1hcwlymmhbcrgz501gjx7d337x1cy4gzz6nbg0xq4yjxp0l0pq5c";
       };
       packageRequires = [ ];
       meta = {
@@ -2204,10 +2204,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.3.0.20250715.104422";
+      version = "0.5.4.0.20250801.64759";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.3.0.20250715.104422.tar";
-        sha256 = "0dw61z76zpm7q5ybhvb7iff6f43wvvsqxk9i718c78nddwgw47j7";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.4.0.20250801.64759.tar";
+        sha256 = "0cmw60d6brwcwh3x2sas07zhiz0p8aqqlvfjy46ajsy09brk6c9s";
       };
       packageRequires = [
         compat
@@ -5612,10 +5612,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.1.20250731115547.0.20250731.115721";
+      version = "28.1.20250731115547.0.20250731.210913";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.1.20250731115547.0.20250731.115721.tar";
-        sha256 = "0cxwzkxrckgw5dhv88zv4zkhwqpa1f9dabdxbcxxgimzx2dm37a2";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.1.20250731115547.0.20250731.210913.tar";
+        sha256 = "1zf0fws7qn7kiv54ygc751hgln2y3aynk1wwbzqpq1nyxcj18wfi";
       };
       packageRequires = [ ];
       meta = {

@@ -481,10 +481,10 @@
     elpaBuild {
       pname = "buttercup";
       ename = "buttercup";
-      version = "1.37";
+      version = "1.38";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/buttercup-1.37.tar";
-        sha256 = "1r6q2ngqc0bnkkajhv5n9hw7njhmzf22192chl974vqm7x2vzn7v";
+        url = "https://elpa.nongnu.org/nongnu/buttercup-1.38.tar";
+        sha256 = "08lqi9qs7f79i44w4nvv15n23dmmka17j3dpj5s3kn0pk1gkv11j";
       };
       packageRequires = [ ];
       meta = {
@@ -2221,10 +2221,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.3";
+      version = "0.5.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gnosis-0.5.3.tar";
-        sha256 = "1dzijdw0c23k6r9l1p3n1a54k4ymk48ckpcz47z9q4i7d7vj8q3m";
+        url = "https://elpa.nongnu.org/nongnu/gnosis-0.5.4.tar";
+        sha256 = "1cfmj4a7571daylqkjd6n3rmvps98n542nva1cp97l5gsxm80z8w";
       };
       packageRequires = [
         compat
