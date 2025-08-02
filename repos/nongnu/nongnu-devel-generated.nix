@@ -2577,10 +2577,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.4.0.20250731.52410";
+      version = "4.0.4.0.20250801.131937";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250731.52410.tar";
-        sha256 = "10faqmncp4jbdcmw4mad081sachqr5jir1cpsnlmax7xvawsv026";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250801.131937.tar";
+        sha256 = "0fkgvs5g2sb2k6gkyh79l2291rhrkkh03cnqqkla5w9j5j7nwlfx";
       };
       packageRequires = [
         helm-core
@@ -2602,10 +2602,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.4.0.20250731.52410";
+      version = "4.0.4.0.20250801.131937";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250731.52410.tar";
-        sha256 = "0qljc66w7jszvrxpa0j951g0xb5svk63av1lifdambh46y3b1k1w";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250801.131937.tar";
+        sha256 = "08sqqyvdq4vhgf9x9lfiwrzdnfsrv5qaj1mafa2nw6gg84b4r306";
       };
       packageRequires = [ async ];
       meta = {
@@ -3334,10 +3334,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.2.0.20250714.95455";
+      version = "2.0.2.0.20250801.103236";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.2.0.20250714.95455.tar";
-        sha256 = "0gchdrvscvwwdx5dvxy0lg54rz8ngrsfj9qp9i3l0bvvpnv2d5qg";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.2.0.20250801.103236.tar";
+        sha256 = "0wgx53vlg2ifajmr298a3hrz8fy08sgdx909jfbm44kbf4myhm2m";
       };
       packageRequires = [
         persist
@@ -5502,10 +5502,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.4.0.20250724.84316";
+      version = "3.4.5.0.20250801.115254";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.4.0.20250724.84316.tar";
-        sha256 = "1di10jb14mkr5zd3xdjpxw8ccfxagszs2x91jaba9kg05n2z0anj";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.5.0.20250801.115254.tar";
+        sha256 = "104mfs1zfwrf8v7ny41avizdr1hpi3vwpdfv7gy940pckslcrd95";
       };
       packageRequires = [ compat ];
       meta = {
