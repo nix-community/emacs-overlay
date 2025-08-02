@@ -3025,10 +3025,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.8.1";
+      version = "1.8.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.8.1.tar";
-        sha256 = "19n8zcgls4jiz7hacj564gb9y0sxdli2yl4j4d35c44pq52g2y6v";
+        url = "https://elpa.gnu.org/packages/ellama-1.8.2.tar";
+        sha256 = "0gkkm3hfxwn2x12vbbrp3nydkzs91abd90cf8qmwaxgdl6fvlg4d";
       };
       packageRequires = [
         compat
@@ -9228,10 +9228,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.9.3";
+      version = "0.9.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.9.3.tar";
-        sha256 = "0rbh2m2lpcn5xvaw1wn0rzc3xyq6pgja9k1a5601sl4pbs60cx4d";
+        url = "https://elpa.gnu.org/packages/transient-0.9.4.tar";
+        sha256 = "191d04n8y9brkfsbp205h29wmrlzk7adsff4jrhq9y4ml78az7n9";
       };
       packageRequires = [
         compat

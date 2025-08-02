@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20250724.203941";
+      version = "14.1.0.0.20250801.173905";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250724.203941.tar";
-        sha256 = "1gachyrxj6hg7bhwqpryx1b5rzinipvwrl7z26sg0x5csa5ik5v2";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250801.173905.tar";
+        sha256 = "1ixyq988zii77z4gpbknnqk9ri7vb33w1miv5br2ynpbgy23hq6k";
       };
       packageRequires = [ ];
       meta = {
@@ -2053,10 +2053,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250727.95359";
+      version = "4.0.0.0.20250801.112157";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250727.95359.tar";
-        sha256 = "18ky7js93q5q7lz322xligc24dxy4k913nxb0y0wmg7lw4mjhv4j";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250801.112157.tar";
+        sha256 = "0slbsc1vh2y1wj10fwj28lw8xz2vsxhg98lcm1f3vniyq8b9qmka";
       };
       packageRequires = [ ];
       meta = {
@@ -3067,10 +3067,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.8.1.0.20250526.173209";
+      version = "1.8.2.0.20250801.174017";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.8.1.0.20250526.173209.tar";
-        sha256 = "1h3ypfrp4jxgamrc6y75rzsj1iq7n03ng2zg8ab3n0lf8xz5x61k";
+        url = "https://elpa.gnu.org/devel/ellama-1.8.2.0.20250801.174017.tar";
+        sha256 = "0drgpw3q5lm4x8fkf7nymv08vkjizbybmh1k66p1fy6sxxbjyfz9";
       };
       packageRequires = [
         compat
@@ -9384,10 +9384,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.9.3.0.20250701.122332";
+      version = "0.9.4.0.20250801.114942";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.9.3.0.20250701.122332.tar";
-        sha256 = "1h8iv5ccmc2j3my97rsbn0b12rp8w0jrhvkkhz6w9pvp0braxlh6";
+        url = "https://elpa.gnu.org/devel/transient-0.9.4.0.20250801.114942.tar";
+        sha256 = "10ly70n16v6hrhgjvhihpzv9hpq4zdx3lrq8ywjprdcp9ir5bx0r";
       };
       packageRequires = [
         compat
