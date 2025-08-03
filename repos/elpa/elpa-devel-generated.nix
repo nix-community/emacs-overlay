@@ -719,10 +719,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.4.0.0.20250802.133404";
+      version = "1.4.0.0.20250803.42904";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.4.0.0.20250802.133404.tar";
-        sha256 = "0vc0aij12ar6airjnzc42xhd606339a1pz47hjm3dlvvq2yqfnvx";
+        url = "https://elpa.gnu.org/devel/beframe-1.4.0.0.20250803.42904.tar";
+        sha256 = "0l4s3k6jpz1fm1rg0k24m6phhvwr632zh1an4hrvc17czkx9372g";
       };
       packageRequires = [ ];
       meta = {
@@ -8687,10 +8687,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20250730.54121";
+      version = "2.2.0.0.20250803.41715";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20250730.54121.tar";
-        sha256 = "0i0aai9wgllywyvk7qxdilyxa3jf3yaq41bqqhbb93ii1sbl291n";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20250803.41715.tar";
+        sha256 = "1mykgalrlgr154g4hdslvdfd3jajzv8dkgg2w5rjy2lihnslcds5";
       };
       packageRequires = [ ];
       meta = {
