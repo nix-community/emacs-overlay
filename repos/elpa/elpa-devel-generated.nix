@@ -719,10 +719,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.4.0.0.20250628.65448";
+      version = "1.4.0.0.20250802.133404";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.4.0.0.20250628.65448.tar";
-        sha256 = "1py8q76jfkvmvqsf15vpdaznlzqj464m8wwslkjyr25hysrgh6cl";
+        url = "https://elpa.gnu.org/devel/beframe-1.4.0.0.20250802.133404.tar";
+        sha256 = "0vc0aij12ar6airjnzc42xhd606339a1pz47hjm3dlvvq2yqfnvx";
       };
       packageRequires = [ ];
       meta = {
@@ -1525,10 +1525,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.6.0.20250802.22213";
+      version = "2.6.0.20250802.190254";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.6.0.20250802.22213.tar";
-        sha256 = "0lysfp1jl7wbs79rhqmdvcvq7fmz1gy2qy2zpyib7qly6bygp18q";
+        url = "https://elpa.gnu.org/devel/consult-2.6.0.20250802.190254.tar";
+        sha256 = "06b9n8amy7ah4npc8axg4ig3gramk5h15r3aygfwl75x0qcld06r";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1919,10 +1919,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250729.160503";
+      version = "0.24.1.0.20250801.201801";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250729.160503.tar";
-        sha256 = "0v79is1hpnd0gqs2igpdnck8rfzz00r79zsz0lbzazf3cxr7iji8";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250801.201801.tar";
+        sha256 = "0lim0wg9ihw8r9blk90361dz86y2dnx7dhkrdv3ja9dlfzxkjzy6";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2053,10 +2053,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250801.112157";
+      version = "4.0.0.0.20250802.161200";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250801.112157.tar";
-        sha256 = "0slbsc1vh2y1wj10fwj28lw8xz2vsxhg98lcm1f3vniyq8b9qmka";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250802.161200.tar";
+        sha256 = "03iy7yq3pbr8zkkz78238801nzyn8ggybn648dhb3zhbkbq14iv9";
       };
       packageRequires = [ ];
       meta = {
@@ -7416,10 +7416,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20250625.165705";
+      version = "0.30.0.20250802.141450";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20250625.165705.tar";
-        sha256 = "0rpn51f0hb088jsvril0w7igbbxd9cjf07z6cn97p50a4xw77i70";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20250802.141450.tar";
+        sha256 = "0cjnzlnqp0s7gmpqfgva8yivww47shms1yfvnxngps01skv0kdwa";
       };
       packageRequires = [
         compat
