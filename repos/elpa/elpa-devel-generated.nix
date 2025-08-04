@@ -1525,10 +1525,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.6.0.20250803.101631";
+      version = "2.6.0.20250804.43942";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.6.0.20250803.101631.tar";
-        sha256 = "060kf0szfqxllgnpm9zj14a47y12sllwil3id51hmghdc5xdljgl";
+        url = "https://elpa.gnu.org/devel/consult-2.6.0.20250804.43942.tar";
+        sha256 = "14cm8ikynyhfp445vybbfzxxl8b2y9gcxymygljsrbgaqbkan30q";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6454,10 +6454,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.0.9.0.20250226.154732";
+      version = "0.1.0.0.20250804.71521";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-gnosis-0.0.9.0.20250226.154732.tar";
-        sha256 = "1yk5fp4l3q1ycgbgmgn9biy3na22ssvx15j76k6almx50cgcngyp";
+        url = "https://elpa.gnu.org/devel/org-gnosis-0.1.0.0.20250804.71521.tar";
+        sha256 = "1bd45b81fqk0n26qbspy0hqnzl9gibi0mv82v4x0vry3h9qddcr2";
       };
       packageRequires = [
         compat
