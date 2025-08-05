@@ -1806,6 +1806,27 @@
       };
     }
   ) { };
+  flymake-pyrefly = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "flymake-pyrefly";
+      ename = "flymake-pyrefly";
+      version = "0.1.4.0.20250711.195846";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/flymake-pyrefly-0.1.4.0.20250711.195846.tar";
+        sha256 = "1v3a0axvy6hxa5ibx63ix6g7ivvgy60hvnw8ln435fsbj30dliv3";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/flymake-pyrefly.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   focus = callPackage (
     {
       cl-lib ? null,
@@ -2577,10 +2598,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.4.0.20250801.131937";
+      version = "4.0.4.0.20250804.135709";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250801.131937.tar";
-        sha256 = "0fkgvs5g2sb2k6gkyh79l2291rhrkkh03cnqqkla5w9j5j7nwlfx";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.4.0.20250804.135709.tar";
+        sha256 = "125hd6ypx3nmzfvk0vp1fz0rgynd3ivax64pqkfmkjbsiwj4almy";
       };
       packageRequires = [
         helm-core
@@ -2602,10 +2623,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.4.0.20250801.131937";
+      version = "4.0.4.0.20250804.135709";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250801.131937.tar";
-        sha256 = "08sqqyvdq4vhgf9x9lfiwrzdnfsrv5qaj1mafa2nw6gg84b4r306";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.4.0.20250804.135709.tar";
+        sha256 = "1v5a7yd2f82vl690sjmc5w790yxv5gv58d3567bb0xh5np1gnq58";
       };
       packageRequires = [ async ];
       meta = {
@@ -4637,10 +4658,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250803.214003";
+      version = "2.31snapshot0.20250804.182622";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250803.214003.tar";
-        sha256 = "1vihyijam8kgl5l6h8xgxrnwfchj6hb2pwsgx32vlyfyhj1lis4a";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250804.182622.tar";
+        sha256 = "1c407rylykybqxgq0m2mlr1axf6xfra6cbsf2zw94miv677r0vdj";
       };
       packageRequires = [ macrostep ];
       meta = {
