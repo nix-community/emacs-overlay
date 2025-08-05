@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.2.0.0.20250705.145026";
+      version = "0.2.0.0.20250804.132844";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.2.0.0.20250705.145026.tar";
-        sha256 = "0w7zibcgcyn1vbhxy4xd7hbp3rd79aag9jl9hv75cln4zd0d99fp";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.2.0.0.20250804.132844.tar";
+        sha256 = "112ynkynxpkwyazx00w28mgvzwx1gxknz45zad27ghdhx631pi6c";
       };
       packageRequires = [ ];
       meta = {
@@ -4409,10 +4409,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250727.122644";
+      version = "9.0.2pre0.20250804.153903";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250727.122644.tar";
-        sha256 = "0dd54w0ja7wn1y5rrhp2kxh4zfzkmrbb81y5ih4fwxi8fxzjrzdw";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250804.153903.tar";
+        sha256 = "1ac0z1c0kpldr9hj1nbflj4f13iw785izai4ayqypvkircci22xi";
       };
       packageRequires = [ ];
       meta = {
@@ -6383,10 +6383,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250803.144544";
+      version = "9.8pre0.20250804.171139";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250803.144544.tar";
-        sha256 = "07d4yapsp5plwa6p3j8q97piql2jq63x1ap2kvgkklc95aj3cmxh";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250804.171139.tar";
+        sha256 = "15fw03k4ch0idbg04waizm1adv3g8pmmrr7sp0xqrk5y1vxcg490";
       };
       packageRequires = [ ];
       meta = {
@@ -6454,10 +6454,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.1.0.0.20250804.71521";
+      version = "0.1.1.0.20250804.81757";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-gnosis-0.1.0.0.20250804.71521.tar";
-        sha256 = "1bd45b81fqk0n26qbspy0hqnzl9gibi0mv82v4x0vry3h9qddcr2";
+        url = "https://elpa.gnu.org/devel/org-gnosis-0.1.1.0.20250804.81757.tar";
+        sha256 = "16lw8pv8n9aamn5f8q2gk8ljzpcgwzlhsgiclw45bn98cy0cqb1d";
       };
       packageRequires = [
         compat
@@ -7280,10 +7280,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20250702.24624";
+      version = "0.11.1.0.20250804.195902";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250702.24624.tar";
-        sha256 = "1xsdnr7gljjc89x1819r4h2i3ip3bsb7qrpknrdjqy6bzrdigpji";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250804.195902.tar";
+        sha256 = "1kb4q03vzfqvf8112bw3m9l9pb45587xwqgy3ws8w53y3klry3m0";
       };
       packageRequires = [ xref ];
       meta = {
