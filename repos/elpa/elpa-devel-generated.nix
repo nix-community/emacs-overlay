@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20250802.44741";
+      version = "14.1.0.0.20250805.80341";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250802.44741.tar";
-        sha256 = "0bz57hsvcx1bbywmy3dqwil0l399975jxmapxnwrhhlh5s2i8bpw";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250805.80341.tar";
+        sha256 = "1qs4vh1fb2lm3is0xghzb18wp71l8jhxc2rh8dw4qm77bxkd7rmh";
       };
       packageRequires = [ ];
       meta = {
@@ -1365,10 +1365,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20250522.193744";
+      version = "1.0.2.0.20250805.152556";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20250522.193744.tar";
-        sha256 = "1h74h8rh3ya89ajfhkym879ll6v5qsvww4rjv0r1kn0yhhn79c3j";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20250805.152556.tar";
+        sha256 = "15c22xk1m3m071yvagw89vijb46qsys7a3kvq7h61nnxw4za5x9n";
       };
       packageRequires = [ ];
       meta = {
@@ -1439,10 +1439,10 @@
     elpaBuild {
       pname = "company-statistics";
       ename = "company-statistics";
-      version = "0.2.3.0.20170210.193350";
+      version = "0.2.3.0.20250805.152437";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-statistics-0.2.3.0.20170210.193350.tar";
-        sha256 = "0fwvaadfr5jlx3021kfjbij9692c2v3l600v2rwqijc563phdfg3";
+        url = "https://elpa.gnu.org/devel/company-statistics-0.2.3.0.20250805.152437.tar";
+        sha256 = "0r23dakpkakwv294snzfq7s6g56m48d0j9ncnmkyhs37vg51x21x";
       };
       packageRequires = [ company ];
       meta = {
@@ -1525,10 +1525,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.6.0.20250804.224358";
+      version = "2.7.0.20250805.122530";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.6.0.20250804.224358.tar";
-        sha256 = "0vajs3mgdz52lsfxpzqvww2gmvkdliwyqfczdnm69sll08wqazsl";
+        url = "https://elpa.gnu.org/devel/consult-2.7.0.20250805.122530.tar";
+        sha256 = "13a83swgz4wp57a4m12kxj07amqjfqryp93plpq3k5cw9l5hdmjl";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.2.0.0.20250804.132844";
+      version = "0.2.0.0.20250805.131836";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.2.0.0.20250804.132844.tar";
-        sha256 = "112ynkynxpkwyazx00w28mgvzwx1gxknz45zad27ghdhx631pi6c";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.2.0.0.20250805.131836.tar";
+        sha256 = "0jspl4farzdy0sjw84kqi098hplkd7iyygbih6v2ssf5shks1jd0";
       };
       packageRequires = [ ];
       meta = {
@@ -6383,10 +6383,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250804.171139";
+      version = "9.8pre0.20250805.183747";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250804.171139.tar";
-        sha256 = "15fw03k4ch0idbg04waizm1adv3g8pmmrr7sp0xqrk5y1vxcg490";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250805.183747.tar";
+        sha256 = "0bc3mf11xl4m8vyrsgh6wxnykyqdi7iq172s0s4zqkvh3i8zaz95";
       };
       packageRequires = [ ];
       meta = {

@@ -1505,10 +1505,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.6";
+      version = "2.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-2.6.tar";
-        sha256 = "1afji70i64w027r265ry8s21v4fic087lmfch7qvwdcjzj165pl4";
+        url = "https://elpa.gnu.org/packages/consult-2.7.tar";
+        sha256 = "1r4rjq537j1yr73apr8ga86kzs5h0xk4s0xf9983pq9spgd0wrpi";
       };
       packageRequires = [ compat ];
       meta = {
