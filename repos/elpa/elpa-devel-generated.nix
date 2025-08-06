@@ -3115,10 +3115,10 @@
     elpaBuild {
       pname = "embark";
       ename = "embark";
-      version = "1.1.0.20250707.134730";
+      version = "1.1.0.20250805.143137";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-1.1.0.20250707.134730.tar";
-        sha256 = "165wyrp252bdf2qqpiq5gqs41rn6pnz0s9fdxzz0rf5sajhmmajj";
+        url = "https://elpa.gnu.org/devel/embark-1.1.0.20250805.143137.tar";
+        sha256 = "1i06fwl3jmgcfp5pg85mzima6h0bbxykbvn9srrx5p216glj19ia";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3139,10 +3139,10 @@
     elpaBuild {
       pname = "embark-consult";
       ename = "embark-consult";
-      version = "1.1.0.20250707.134730";
+      version = "1.1.0.20250805.143137";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20250707.134730.tar";
-        sha256 = "11557bz8xhwmyg6qgjw9rr6c6d5l08haiyqai4k0zglbdnn8rd3b";
+        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20250805.143137.tar";
+        sha256 = "0wmhsgy9dwca376hd5zn9v290dk5xfgfsy86vanhwn3103k36ksy";
       };
       packageRequires = [
         compat
@@ -7280,10 +7280,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20250804.195902";
+      version = "0.11.1.0.20250806.14649";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250804.195902.tar";
-        sha256 = "1kb4q03vzfqvf8112bw3m9l9pb45587xwqgy3ws8w53y3klry3m0";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250806.14649.tar";
+        sha256 = "14h1589w28jjc04a1ypp11067vm2g22s6xnq5nk11gjh43c1sx50";
       };
       packageRequires = [ xref ];
       meta = {
@@ -9941,10 +9941,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.4.0.20250804.224155";
+      version = "2.4.0.20250806.52321";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.4.0.20250804.224155.tar";
-        sha256 = "1v5k8739kv9g8mnwvabvrb4ad221vkw4mg02mhiss7b3xx5wvvq3";
+        url = "https://elpa.gnu.org/devel/vertico-2.4.0.20250806.52321.tar";
+        sha256 = "1xqrj90bjf3nl69xl558fpk196x3q2npdhlnxfs95v8h4dsgnhik";
       };
       packageRequires = [ compat ];
       meta = {
