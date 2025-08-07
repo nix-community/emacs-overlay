@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.20.0snapshot0.20250724.113434";
+      version = "1.20.0snapshot0.20250806.194437";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.20.0snapshot0.20250724.113434.tar";
-        sha256 = "1c6m2nljjk5ak65nfpyj41988vysnlav3ay950vn2fcd7rwhxpxy";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.20.0snapshot0.20250806.194437.tar";
+        sha256 = "1z7v7f8pal8z4pgr6qzmh1g8ir1rdwshx2hifzngkp33lqmvd15x";
       };
       packageRequires = [
         clojure-mode
@@ -666,10 +666,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0.0.20250724.151106";
+      version = "1.0.0.20250804.224423";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250724.151106.tar";
-        sha256 = "1di411lcgdwkm9f6d7dbmjcxx0f9vmdppcgkz83zy7cm623hgmn3";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250804.224423.tar";
+        sha256 = "1xjin3rf75l8id6yc5h4whqwsaarvmhy5fjm7adl4xikq6i2cbm4";
       };
       packageRequires = [
         consult
@@ -1815,10 +1815,10 @@
     elpaBuild {
       pname = "flymake-pyrefly";
       ename = "flymake-pyrefly";
-      version = "0.1.4.0.20250711.195846";
+      version = "0.1.6.0.20250805.190746";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flymake-pyrefly-0.1.4.0.20250711.195846.tar";
-        sha256 = "1v3a0axvy6hxa5ibx63ix6g7ivvgy60hvnw8ln435fsbj30dliv3";
+        url = "https://elpa.nongnu.org/nongnu-devel/flymake-pyrefly-0.1.6.0.20250805.190746.tar";
+        sha256 = "10r5f7zqnwwcp5ds9bh6d3hlfkp0wa614iknw7dgzhbg83v2c6r8";
       };
       packageRequires = [ ];
       meta = {
@@ -2401,10 +2401,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250802.30043";
+      version = "0.9.8.5.0.20250806.122512";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250802.30043.tar";
-        sha256 = "1lq0iba11mylhghp4aqlk36mk6znc2v2c5wir7is7m194acc9v6n";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250806.122512.tar";
+        sha256 = "17fa216yv8505ylsng0xm6dfrdkydpf2nzjq39khka0wq007s0f5";
       };
       packageRequires = [
         compat
@@ -4658,10 +4658,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250804.182622";
+      version = "2.31snapshot0.20250806.184634";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250804.182622.tar";
-        sha256 = "1c407rylykybqxgq0m2mlr1axf6xfra6cbsf2zw94miv677r0vdj";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250806.184634.tar";
+        sha256 = "10147ryg2kcxy9bb9bn07m6f12l8r1281fd85ij2cl59c7y78bkb";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -5633,10 +5633,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.3.20250803102638.0.20250803.102831";
+      version = "28.3.20250806094130.0.20250806.94409";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.3.20250803102638.0.20250803.102831.tar";
-        sha256 = "10aqnlcx34b6l64xsfhfxrc0a2v6hr5cl0cp85ag20k8fvjx2lai";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.3.20250806094130.0.20250806.94409.tar";
+        sha256 = "00m8ma1d1fkcvwbfykx9ja66iiqgsldplkf863x7xx6g8bd8989d";
       };
       packageRequires = [ ];
       meta = {

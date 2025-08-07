@@ -1833,10 +1833,10 @@
     elpaBuild {
       pname = "flymake-pyrefly";
       ename = "flymake-pyrefly";
-      version = "0.1.4";
+      version = "0.1.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/flymake-pyrefly-0.1.4.tar";
-        sha256 = "1kr6kp7s6x7n85i67gd1gdwymhwx27bl0sacadxyd1qk90k5lik6";
+        url = "https://elpa.nongnu.org/nongnu/flymake-pyrefly-0.1.6.tar";
+        sha256 = "06z8hkivi2k24yk8bqkgcm52al5jfz82kwjhzbc3j0aaickmacnm";
       };
       packageRequires = [ ];
       meta = {
@@ -5647,10 +5647,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.3.20250803102638";
+      version = "28.3.20250806094130";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-28.3.20250803102638.tar";
-        sha256 = "1sggb3fqyd252k61rhshq72jk1sxamzg0h3yjzr0ldmix03afnjx";
+        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-28.3.20250806094130.tar";
+        sha256 = "0nz366wk72j1x9j90dpxlm12hicgddlvck4vhwib9cx81g45fpl8";
       };
       packageRequires = [ ];
       meta = {
