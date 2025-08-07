@@ -2401,10 +2401,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250806.122512";
+      version = "0.9.8.5.0.20250807.4744";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250806.122512.tar";
-        sha256 = "17fa216yv8505ylsng0xm6dfrdkydpf2nzjq39khka0wq007s0f5";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250807.4744.tar";
+        sha256 = "13q9r9a27b1cmkqm9ydrqr3acphxf1dxx1igqq9xlwsvxcxpcv77";
       };
       packageRequires = [
         compat
@@ -5239,10 +5239,10 @@
     elpaBuild {
       pname = "typst-ts-mode";
       ename = "typst-ts-mode";
-      version = "0.12.2.0.20250714.85709";
+      version = "0.12.2.0.20250807.11325";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.12.2.0.20250714.85709.tar";
-        sha256 = "06w6yq0v53wh6r7qjs3lisqf1fbf1xhdx371j41by6vd9wbz1p0r";
+        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.12.2.0.20250807.11325.tar";
+        sha256 = "1j28vzijhn7aqr3h8pjslixbz38j97zgvx3f86myi2ag5l8k615g";
       };
       packageRequires = [ ];
       meta = {
