@@ -5777,10 +5777,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.5.5.0.20250801.225253";
+      version = "0.5.5.0.20250807.151709";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.5.5.0.20250801.225253.tar";
-        sha256 = "0hmkin8c3ffvklpvbzh17zwqz5hj5cr3ql7xgkly3z6q70ly3ih0";
+        url = "https://elpa.gnu.org/devel/minuet-0.5.5.0.20250807.151709.tar";
+        sha256 = "1h0d5yiwclsx0ap0q7bnjzd2ch0f9i9lcnnnya6s1042bb06qb9i";
       };
       packageRequires = [
         dash
@@ -7416,10 +7416,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20250802.141450";
+      version = "0.30.0.20250807.130628";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20250802.141450.tar";
-        sha256 = "0cjnzlnqp0s7gmpqfgva8yivww47shms1yfvnxngps01skv0kdwa";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20250807.130628.tar";
+        sha256 = "0p6r82k9vbwdb3kdbxfh9a4a088fdssa7wz3rdxz61c0jqvia2bw";
       };
       packageRequires = [
         compat
@@ -9808,10 +9808,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.3.0.20250707.95759";
+      version = "0.3.0.20250804.94552";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250707.95759.tar";
-        sha256 = "0rblsz2ga0csc86mq276hqfxrc7dj3gnh1xlk0sfqbqyc39yx293";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250804.94552.tar";
+        sha256 = "07jc1j32xbkcvrvlssx3r5fyjsqx9xa5wis0l9sh80cwbvmdcxwy";
       };
       packageRequires = [ compat ];
       meta = {
