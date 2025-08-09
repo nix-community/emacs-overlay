@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0snapshot0.20250705.130718";
+      version = "0.6.0snapshot0.20250808.94244";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0snapshot0.20250705.130718.tar";
-        sha256 = "1f58y6v2rgz4srn26zdy6c8i2qxn79asxg8l35yqdnrh8l7f5609";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0snapshot0.20250808.94244.tar";
+        sha256 = "0zxcdwy128wmh26v3lcw72gs7qm5zx7hcdwr6rqz3zsrjp9pzj7y";
       };
       packageRequires = [ ];
       meta = {
@@ -2401,10 +2401,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250807.142333";
+      version = "0.9.8.5.0.20250808.23938";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250807.142333.tar";
-        sha256 = "0fi941lcx2ix5abza39mwjjfv1izcf74dmrrkw08s6cpp3ng6ska";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250808.23938.tar";
+        sha256 = "1ji71qk052q24hhd4a8r112v6j36jvkx7ai5m2zczzqs6sp66d3w";
       };
       packageRequires = [
         compat
@@ -3097,10 +3097,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "1.0.0.0.20250807.103354";
+      version = "1.0.0.0.20250808.102319";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/llama-1.0.0.0.20250807.103354.tar";
-        sha256 = "160ssfkn25gv7hrdr70lssgckah8xyqv3g22j84y77qjajgsd63g";
+        url = "https://elpa.nongnu.org/nongnu-devel/llama-1.0.0.0.20250808.102319.tar";
+        sha256 = "1r9yfki731lvvkpn7cvpi5jhn1fbfqy50phfidhk02ib7rsghz5n";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5719,10 +5719,10 @@
     elpaBuild {
       pname = "yasnippet-snippets";
       ename = "yasnippet-snippets";
-      version = "1.0.0.20250612.151830";
+      version = "1.0.0.20250808.81958";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/yasnippet-snippets-1.0.0.20250612.151830.tar";
-        sha256 = "0gr1pch82gb1b32j562aqz76wc88ricar27i59fvyr1gaqjdlxdi";
+        url = "https://elpa.nongnu.org/nongnu-devel/yasnippet-snippets-1.0.0.20250808.81958.tar";
+        sha256 = "067jidwz1xn13fxcnwdrh0bnr93bndwjs1yznn483xdw9fcgyz05";
       };
       packageRequires = [ yasnippet ];
       meta = {
