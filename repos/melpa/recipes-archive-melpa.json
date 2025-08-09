@@ -26454,14 +26454,14 @@
   "repo": "aurtzy/disproject",
   "unstable": {
    "version": [
-    20250622,
-    133
+    20250809,
+    251
    ],
    "deps": [
     "transient"
    ],
-   "commit": "ed818cd90042581e2b893b38af5dfca2b64dd0a0",
-   "sha256": "06pm09ssm73qvsi7q1h31c51dp3ny22x8a9k71br63r0l069s29l"
+   "commit": "0d377fafa1cd7caf1cf3d6bf277c382c911ccb30",
+   "sha256": "01hpwqc021841jsv8mddxsbj5w5j8flfyi6dpjwjaaz384lvpbd3"
   },
   "stable": {
    "version": [
@@ -29337,8 +29337,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20250808,
-    1603
+    20250809,
+    0
    ],
    "deps": [
     "compat",
@@ -29346,8 +29346,8 @@
     "f",
     "markdown-mode"
    ],
-   "commit": "9b800f433e0a7569cd028387fa7b23d6ed20879f",
-   "sha256": "0rj4m5g5bbgp49nndgc36pya2ys9d0x8cyad7sjn7icqz849zch1"
+   "commit": "2c890decb9eaa07463da01634850bbea5fc2baf1",
+   "sha256": "0hshp9ld4na3jyvd2p4y3lsvj71rsabb4n9zhf157m11cwc3rpap"
   },
   "stable": {
    "version": [
@@ -29811,11 +29811,11 @@
   "repo": "editorconfig/editorconfig-emacs",
   "unstable": {
    "version": [
-    20250219,
-    1528
+    20250809,
+    139
    ],
-   "commit": "1a9942746cf5b10daae8962f380b5f2a459086f3",
-   "sha256": "0l875294xqzaz2qv14jcqqx39jd08ibz0npfjg6rvnggzdm2f2jv"
+   "commit": "0c2d853aff146fa3dad4fa6a0a2c05a4b6bc47e6",
+   "sha256": "1wirij6izii6xmjsvas0fis7lvyv93pxs041kycmm04qdqn1rnrv"
   },
   "stable": {
    "version": [
@@ -51670,8 +51670,8 @@
   "url": "https://git.thanosapollo.org/gnosis",
   "unstable": {
    "version": [
-    20250801,
-    647
+    20250809,
+    634
    ],
    "deps": [
     "compat",
@@ -51679,8 +51679,8 @@
     "org-gnosis",
     "transient"
    ],
-   "commit": "c302df0656f0a6fce69cc2e90c543514a896c75a",
-   "sha256": "1agb0aqgr3zs27bfwz3sknlg17knl9sxjp3vkakmaqgjrrr8jwdh"
+   "commit": "e217eb41d4d03928712eb5c8ff41194c3cf47030",
+   "sha256": "07rjqmprl4akqbvivqsj76vhq82c4xp9kbvmyrqqz7hjak4i8x4z"
   },
   "stable": {
    "version": [
@@ -80504,15 +80504,15 @@
   "repo": "milanglacier/minuet-ai.el",
   "unstable": {
    "version": [
-    20250807,
-    2145
+    20250809,
+    325
    ],
    "deps": [
     "dash",
     "plz"
    ],
-   "commit": "3dcf653cd422320cf721f590ff85cd42ad99809c",
-   "sha256": "0z0709c9p5k1d2y1ki59f9rdvscm2iac8rbwrbnhhzwg7sgqpcgf"
+   "commit": "b29bdbc01ffa4c6bdeba194f22d2df38ebd3b226",
+   "sha256": "0v41fcz985djcir3pzid4jxj5ijsrnim36ih7366gnzcl39mbbpg"
   },
   "stable": {
    "version": [
@@ -82337,14 +82337,14 @@
   "repo": "lorniu/mpvi",
   "unstable": {
    "version": [
-    20250731,
-    310
+    20250809,
+    648
    ],
    "deps": [
     "emms"
    ],
-   "commit": "70c946caddf09f165dd01ed84a3c4301c63023a9",
-   "sha256": "0dv768crqmhnnawdg00zswrnvsvvn2hmhwd6nii4071lp7q72k1d"
+   "commit": "e38856e0d1f5993a25da74455b4fe5ce3d7c2440",
+   "sha256": "17yb970ahp7yv4yr53acxc9wc9x3agscarwgs2nlhz1zfmkylich"
   },
   "stable": {
    "version": [
@@ -90181,14 +90181,14 @@
   "url": "https://repo.or.cz/org-bookmarks.git",
   "unstable": {
    "version": [
-    20250619,
-    104
+    20250809,
+    404
    ],
    "deps": [
     "nerd-icons"
    ],
-   "commit": "965f5aab0586fe57ebbd978d4d0ef247dc8f7576",
-   "sha256": "17q0jicl63i1npmfb3cy95j2xn8bmjc4j7z74359bcj5xx5dqwh1"
+   "commit": "a5f77645d74ec5ba6c5d1ba6b8355beb681aee1b",
+   "sha256": "1javsf6yqbpbbsghi7cddm5h2pamy3brxgx2vd415c3rb376ja6q"
   },
   "stable": {
    "version": [
@@ -92653,15 +92653,15 @@
   "repo": "org-noter/org-noter",
   "unstable": {
    "version": [
-    20240918,
-    1703
+    20250730,
+    30
    ],
    "deps": [
     "cl-lib",
     "org"
    ],
-   "commit": "691efc3ed4a2828d791a148e53851365c2eb380f",
-   "sha256": "1fdvl818bmg530nk779jsp0v0xa07sr6y1xzd8x5m8pch13829vc"
+   "commit": "aafa08a49c4c3311d9b17864629aceeff02d33da",
+   "sha256": "12874pcl0rivlhj8jw3ih88gpgz179mr60hacw3dxf7h2ksylwch"
   },
   "stable": {
    "version": [
@@ -99450,11 +99450,11 @@
   "repo": "lorniu/pdd.el",
   "unstable": {
    "version": [
-    20250807,
-    158
+    20250809,
+    509
    ],
-   "commit": "ddea1f6b3e9cbc034595e7a1d50f2aae9cf6f3e5",
-   "sha256": "0da3zx387j26iw7ir9p1vvhkzsssivfbny63idna26hax7z4varx"
+   "commit": "533e8fde36cb9fae1fae3bf44eb6dbf39ec10f53",
+   "sha256": "02sfc0qv1fr5l4lfvmbgi23knx0zpylsraa5v15y0m1lxfva69nm"
   },
   "stable": {
    "version": [
@@ -114362,11 +114362,11 @@
   "stable": {
    "version": [
     0,
-    78,
+    79,
     2
    ],
-   "commit": "2838cc43c58123a902fa649dadd1cd385abf9e4f",
-   "sha256": "1zhvd47j5ji82dp8zm5hlhji5r3gcvr877qal1kwxd43lsm0660m"
+   "commit": "8747a4faf1a0d24115ce4690dece9cf7bb7f79ff",
+   "sha256": "1hxixhd1n6zdfqhjgaf0sqwc6fy2wgils3307wzsxx3cca500vnh"
   }
  },
  {
@@ -132901,15 +132901,15 @@
   "repo": "progfolio/wikinforg",
   "unstable": {
    "version": [
-    20240104,
-    603
+    20250809,
+    56
    ],
    "deps": [
     "org",
     "wikinfo"
    ],
-   "commit": "6c06f297a45c457e5bd1e2b55e870cd102e2a878",
-   "sha256": "0xpizw611w18bfjqdlwsbh2280h7sdmpfshwfmznfgk2jkix8maw"
+   "commit": "edf2fc770e32e82a9ffa226ce602dbb9636d9ac5",
+   "sha256": "0vb9br9n237m59dq76m6adad8p3vbs30y6lbs6i07369j2qaw7l7"
   }
  },
  {
