@@ -7280,10 +7280,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20250806.14649";
+      version = "0.11.1.0.20250808.123041";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250806.14649.tar";
-        sha256 = "14h1589w28jjc04a1ypp11067vm2g22s6xnq5nk11gjh43c1sx50";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250808.123041.tar";
+        sha256 = "1293jgvr347xyhizhkk361jaq12nqfyvnvbcn3kfby6m6s87d7kf";
       };
       packageRequires = [ xref ];
       meta = {
@@ -9808,10 +9808,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.3.0.20250804.94552";
+      version = "0.3.0.20250808.151849";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250804.94552.tar";
-        sha256 = "07jc1j32xbkcvrvlssx3r5fyjsqx9xa5wis0l9sh80cwbvmdcxwy";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250808.151849.tar";
+        sha256 = "0pd5hx2a3h4i4ydxdy62h21x4vgzn320x0vkxlhhb1rp5qzckag8";
       };
       packageRequires = [ compat ];
       meta = {
