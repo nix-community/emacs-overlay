@@ -2053,10 +2053,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250805.44243";
+      version = "4.0.0.0.20250809.90415";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250805.44243.tar";
-        sha256 = "1zcvfrbwshwsmkvj9mxxyf0msgcyzfm43s68v3k4yikh2x8ks4f5";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250809.90415.tar";
+        sha256 = "18isbx33b2z7d8iaaa59canx3h0s8y9r06m4py15d52b1lqjl263";
       };
       packageRequires = [ ];
       meta = {
@@ -6221,24 +6221,19 @@
   ) { };
   oauth2 = callPackage (
     {
-      cl-lib ? null,
       elpaBuild,
       fetchurl,
       lib,
-      nadvice,
     }:
     elpaBuild {
       pname = "oauth2";
       ename = "oauth2";
-      version = "0.17.0.20240830.100757";
+      version = "0.17.0.20250809.92452";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/oauth2-0.17.0.20240830.100757.tar";
-        sha256 = "0y602ffm77d6f97hml9g6b1c3f2f7gfwzw5zw54iy4nl4fc7xk09";
+        url = "https://elpa.gnu.org/devel/oauth2-0.17.0.20250809.92452.tar";
+        sha256 = "01kkgjcj00ki5pi6wb37pmjhibs4mnicqaazipgy9bh945ca01lz";
       };
-      packageRequires = [
-        cl-lib
-        nadvice
-      ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/oauth2.html";
         license = lib.licenses.free;
@@ -6383,10 +6378,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250805.183747";
+      version = "9.8pre0.20250809.142807";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250805.183747.tar";
-        sha256 = "0bc3mf11xl4m8vyrsgh6wxnykyqdi7iq172s0s4zqkvh3i8zaz95";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250809.142807.tar";
+        sha256 = "0sqws3av7wl4byhzd62rdyrbzx0ndq98xl0wrq93avkxsy8ckp0b";
       };
       packageRequires = [ ];
       meta = {
