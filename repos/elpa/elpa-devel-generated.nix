@@ -1919,10 +1919,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250801.201801";
+      version = "0.24.1.0.20250810.4722";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250801.201801.tar";
-        sha256 = "0lim0wg9ihw8r9blk90361dz86y2dnx7dhkrdv3ja9dlfzxkjzy6";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250810.4722.tar";
+        sha256 = "0ynxbjb5fwxnf8icvxv752fplipcf5zs40c26bjak8hr8qd44hpi";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.2.0.0.20250809.44747";
+      version = "0.2.0.0.20250810.74249";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.2.0.0.20250809.44747.tar";
-        sha256 = "1v2zz23a2x0b3vibzd67v358rabfbm9vam069msx8k3g5qvx7f5z";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.2.0.0.20250810.74249.tar";
+        sha256 = "1ws2lzzzv3fkxb46wglhldcw2l7gnld1k6jqaw4iqa7ycz3qill4";
       };
       packageRequires = [ ];
       meta = {
@@ -5238,10 +5238,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.27.0.0.20250713.124702";
+      version = "0.27.1.0.20250809.223521";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.27.0.0.20250713.124702.tar";
-        sha256 = "1kjj2zipdmgacli70z8p8p9f3apalfrydx2vj0373rhpvkqx8mlz";
+        url = "https://elpa.gnu.org/devel/llm-0.27.1.0.20250809.223521.tar";
+        sha256 = "0ynsbvz9csg7mnd5f8ycwknghyqf7zvvlf4qcs7za84mgjnya5la";
       };
       packageRequires = [
         compat
@@ -8875,10 +8875,10 @@
     elpaBuild {
       pname = "sxhkdrc-mode";
       ename = "sxhkdrc-mode";
-      version = "1.1.0.0.20241224.141418";
+      version = "1.1.0.0.20250810.53517";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/sxhkdrc-mode-1.1.0.0.20241224.141418.tar";
-        sha256 = "0z1q837vpjhhbr8gi5fiwnc25bvyfgsfxa4rlq2l527d8vrn1mpl";
+        url = "https://elpa.gnu.org/devel/sxhkdrc-mode-1.1.0.0.20250810.53517.tar";
+        sha256 = "0fw42v5v24bxvrasqj4xx9g157n55r11smr6mhf5x4va12qczd2d";
       };
       packageRequires = [ ];
       meta = {
