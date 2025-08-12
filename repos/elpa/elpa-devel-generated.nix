@@ -5777,10 +5777,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.5.5.0.20250810.213634";
+      version = "0.6.0.0.20250811.222505";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.5.5.0.20250810.213634.tar";
-        sha256 = "0rqx7i7camqhavasd6wvar96ylncdvgikl274hd3d3k9faj2p12y";
+        url = "https://elpa.gnu.org/devel/minuet-0.6.0.0.20250811.222505.tar";
+        sha256 = "0pbl8qy53hsjb0knl71281xr6x38kmgh8ngs4yxj23baggfrvmqd";
       };
       packageRequires = [
         dash
@@ -9204,10 +9204,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.1.0.0.20250809.55115";
+      version = "1.1.0.0.20250812.52612";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.1.0.0.20250809.55115.tar";
-        sha256 = "0vpkjp8rhc3b34d5km49lrara7fwzmkbblq10ppjqh0z1q8cyjj6";
+        url = "https://elpa.gnu.org/devel/tmr-1.1.0.0.20250812.52612.tar";
+        sha256 = "1cbkglv15mwfkm56gyqwdf6y2jdrv6vhkhp07dzpv2bjxkwzyn5x";
       };
       packageRequires = [ ];
       meta = {
