@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.4.0.20250320.94622";
+      version = "0.1.4.0.20250811.165718";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20250320.94622.tar";
-        sha256 = "1psvm6g2mklyqfa349ikx78l3hfkw3xr9314schc7j73m9mlbj44";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20250811.165718.tar";
+        sha256 = "006m3qmad18x3h4jdhxf8nx43krk34sj636ccxlxild5lncqdf8a";
       };
       packageRequires = [ ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250811.70232";
+      version = "0.3.0.0.20250811.81227";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250811.70232.tar";
-        sha256 = "1f1v53f2ygr177sa1d9d0fbxpx51qfapzvi149zj4b6r657zaim0";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250811.81227.tar";
+        sha256 = "1l1875gk5bhvafwcwhp278aba4aaxgj9cj18h7rycy6hkwxxgwrp";
       };
       packageRequires = [ ];
       meta = {
@@ -6378,10 +6378,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250810.214811";
+      version = "9.8pre0.20250811.162805";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250810.214811.tar";
-        sha256 = "0ssn76qnr9p4p7hiz9vdy824gwydwwq2yk9m1f14hv6l07l2whrf";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250811.162805.tar";
+        sha256 = "15r06s5n0ll4mvia4jmdfisxz4hpk438gpj73pgsrr7dyb2skxkw";
       };
       packageRequires = [ ];
       meta = {
@@ -6400,10 +6400,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.1.0.20250730.155234";
+      version = "1.1.0.20250808.31708";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250730.155234.tar";
-        sha256 = "0mqpfcv97vylinrm8pgih1vhwza8c9cnq4kafdgvv82ryfx03z6l";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250808.31708.tar";
+        sha256 = "1nxrj1hk7d747qwzjcswy1rl7i12ad4kdgmbpkf7ddszrjv092c9";
       };
       packageRequires = [ org ];
       meta = {
