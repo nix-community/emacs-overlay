@@ -29340,7 +29340,7 @@
   "unstable": {
    "version": [
     20250813,
-    406
+    1442
    ],
    "deps": [
     "compat",
@@ -29348,8 +29348,8 @@
     "f",
     "markdown-mode"
    ],
-   "commit": "697a3de827025d769ec045dc8e549b1c84b2f65c",
-   "sha256": "1hrd6xfi9zivwy9pf0mkc0mr3hxya9yw64dzdpkip3b3lw6zh1gb"
+   "commit": "c248bb5ca25ac1f35c63dd54f70d406eb847dfe1",
+   "sha256": "07jfkmkmdpb27i6ryzqlq72g0hhs3bsbclq2dy1i284gpzs6apfd"
   },
   "stable": {
    "version": [
@@ -76508,28 +76508,28 @@
   "repo": "roadrunner1776/magik",
   "unstable": {
    "version": [
-    20250802,
-    1013
+    20250813,
+    1117
    ],
    "deps": [
     "compat",
     "yasnippet"
    ],
-   "commit": "513a2521b63b9fddc2e9db95e72216a10a83870e",
-   "sha256": "0izpzjxx1jwvjli4gq1xdgg3chdx9zbqbi7y90jiz5ycci57vjg7"
+   "commit": "0ccfffef530802698447ce4f549477e724ab8710",
+   "sha256": "0vfjbf4vm4r2cc0bd3yc5rw6mn8c5169nirw0ixrzp6w70h0b903"
   },
   "stable": {
    "version": [
     0,
     5,
-    3
+    5
    ],
    "deps": [
     "compat",
     "yasnippet"
    ],
-   "commit": "513a2521b63b9fddc2e9db95e72216a10a83870e",
-   "sha256": "0izpzjxx1jwvjli4gq1xdgg3chdx9zbqbi7y90jiz5ycci57vjg7"
+   "commit": "0ccfffef530802698447ce4f549477e724ab8710",
+   "sha256": "0vfjbf4vm4r2cc0bd3yc5rw6mn8c5169nirw0ixrzp6w70h0b903"
   }
  },
  {
@@ -77146,16 +77146,16 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250807,
-    2306
+    20250813,
+    1330
    ],
    "deps": [
     "compat",
     "llama",
     "seq"
    ],
-   "commit": "6c48a8053fc33f0f44bf745125e6c713e72ea8b5",
-   "sha256": "0045j86q605c3aqz3673qdg7qbjp8bkmcniibq369ap6fq3vzmpc"
+   "commit": "649bc9dc328b8cb7519292be4f5c9cac13cf3466",
+   "sha256": "17mwpckcpa60nnniphy9dacvkbpgsgl4gps2r3rpa1s1fkfg3vw1"
   },
   "stable": {
    "version": [
@@ -90182,14 +90182,18 @@
   "url": "https://repo.or.cz/org-bookmarks.git",
   "unstable": {
    "version": [
-    20250811,
-    941
+    20250813,
+    918
    ],
    "deps": [
     "nerd-icons"
    ],
-   "commit": "3ec5499500c2a5338de5310c89e51810b07459ea",
-   "sha256": "0wxshiq704gzm5d2a3gi4p6xi71cirj9ai9ab9v47xjy9k2w0xyh"
+   "commit": "32c0790c7f116d1346e8727374baacd4254c2c27",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2806-825223642/nix-shell-3028-131134963/nix-shell-3063-3823184461/git-checkout-tmp-72Q3XxIx/clone/.git/\nfatal: unable to access 'https://repo.or.cz/org-bookmarks.git/': Failed to connect to repo.or.cz port 443 after 134098 ms: Could not connect to server\nfatal: unable to access 'https://repo.or.cz/org-bookmarks.git/': Failed to connect to repo.or.cz port 443 after 135136 ms: Could not connect to server\nfatal: unable to access 'https://repo.or.cz/org-bookmarks.git/': Failed to connect to repo.or.cz port 443 after 135128 ms: Could not connect to server\nUnable to checkout 32c0790c7f116d1346e8727374baacd4254c2c27 from https://repo.or.cz/org-bookmarks.git.\n"
+   ]
   },
   "stable": {
    "version": [
@@ -100231,25 +100235,25 @@
   "repo": "emarsden/pg-el",
   "unstable": {
    "version": [
-    20250730,
-    1303
+    20250813,
+    1346
    ],
    "deps": [
     "peg"
    ],
-   "commit": "e8bf0ac164ab12987d79b795f09395ba52139867",
-   "sha256": "1736dnd8qksrad38a79ffc5ki45ah1abk5hw90m3bxn1sx5l0a5a"
+   "commit": "991bd9429d30b05a351fe2d46e628569ce6b661c",
+   "sha256": "1vzd3wj9nwhnp2whxfy6z6zfig3hr1vm4d0zgzaz1zjwicqiznjn"
   },
   "stable": {
    "version": [
     0,
-    57
+    58
    ],
    "deps": [
     "peg"
    ],
-   "commit": "e8bf0ac164ab12987d79b795f09395ba52139867",
-   "sha256": "1736dnd8qksrad38a79ffc5ki45ah1abk5hw90m3bxn1sx5l0a5a"
+   "commit": "991bd9429d30b05a351fe2d46e628569ce6b661c",
+   "sha256": "1vzd3wj9nwhnp2whxfy6z6zfig3hr1vm4d0zgzaz1zjwicqiznjn"
   }
  },
  {
@@ -122554,11 +122558,11 @@
   "repo": "tmalsburg/tango-plus-theme",
   "unstable": {
    "version": [
-    20240703,
-    1443
+    20250813,
+    1242
    ],
-   "commit": "e042de79ba009a55aeebe30aafed01234c925be2",
-   "sha256": "109g4w47bx17rpl4n96bcx254xiai89gbi4j89yhzf5cbldmj764"
+   "commit": "6c57ae3745ab66c75d4ebb336d3403d90537206a",
+   "sha256": "1apvwc5v27dq4mjv0rk5yqs0pgxmd6ar3jgxdb2488lws2z08xdq"
   }
  },
  {
