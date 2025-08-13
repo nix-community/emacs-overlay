@@ -2141,10 +2141,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.1.1.0.20250731.60858";
+      version = "0.1.1.0.20250812.84417";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-org-0.1.1.0.20250731.60858.tar";
-        sha256 = "081gnmnv09araklx6kl8xwwda3bw3zmc2aq0rmp3a0g7fr23khp1";
+        url = "https://elpa.gnu.org/devel/denote-org-0.1.1.0.20250812.84417.tar";
+        sha256 = "174zppf8b5iqxzhv5zki48mbicbcw15ki90k9jknkdw69f66pmv4";
       };
       packageRequires = [ denote ];
       meta = {
