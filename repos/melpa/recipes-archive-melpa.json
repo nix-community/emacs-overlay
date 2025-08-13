@@ -29339,8 +29339,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20250812,
-    1800
+    20250813,
+    406
    ],
    "deps": [
     "compat",
@@ -29348,8 +29348,8 @@
     "f",
     "markdown-mode"
    ],
-   "commit": "e5ab4734043ed5e2ddbe7bda86d581370097dd21",
-   "sha256": "1zspclrz6w7plv054wqq5srdml13lsa02av9d5kyfm2gfkc7ccl6"
+   "commit": "697a3de827025d769ec045dc8e549b1c84b2f65c",
+   "sha256": "1hrd6xfi9zivwy9pf0mkc0mr3hxya9yw64dzdpkip3b3lw6zh1gb"
   },
   "stable": {
    "version": [
@@ -30583,15 +30583,15 @@
   "repo": "ahyatt/ekg",
   "unstable": {
    "version": [
-    20250810,
-    2159
+    20250813,
+    22
    ],
    "deps": [
     "llm",
     "triples"
    ],
-   "commit": "2429693496a416a73cf60d3ebb006169166220e9",
-   "sha256": "12abavbmmazf4pmdp64g1lwqim22a1c1s2z0rpkzw5pzxikhhizz"
+   "commit": "f2c52383fe58802807436994709a6f453354690a",
+   "sha256": "0qlg1lksj6cy9fj0ag4c5vr0561j8p52si5hbm571xh40f4pjays"
   },
   "stable": {
    "version": [
@@ -53412,15 +53412,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20250812,
-    842
+    20250813,
+    16
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "00bcdf0551f97e0b496614a6dcebd5fdeda4751b",
-   "sha256": "01iv6xzl4igl3xacc51ymq823qwc5z4wgz2r24vbxzlwyl36k9bf"
+   "commit": "55442e230ec1f72c69b9147c8911d58baba766d8",
+   "sha256": "065hnc4xwr6hb62qlrrygh22afcbz0n0xk7hwyixi1fql42zw3qa"
   },
   "stable": {
    "version": [
@@ -56663,14 +56663,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20250809,
-    814
+    20250813,
+    328
    ],
    "deps": [
     "async"
    ],
-   "commit": "42bb15b70e4ae276cf635e60a2c9018aee251693",
-   "sha256": "0cl76xnygqy5ynm434vm0zilnbn43wvqyfb4d9ifynd1s33xrz2k"
+   "commit": "2d0f5e7e30f3b5133cf661e513dc882bea4fcc49",
+   "sha256": "0xh0ym2w88jskkmjqpq6xxx9mphl9byfi3vmzr0hy4gjbakk2irs"
   },
   "stable": {
    "version": [
@@ -82338,14 +82338,14 @@
   "repo": "lorniu/mpvi",
   "unstable": {
    "version": [
-    20250812,
-    300
+    20250813,
+    613
    ],
    "deps": [
     "emms"
    ],
-   "commit": "f2174b6f8acdb20258c7e7de41eb31667aa63347",
-   "sha256": "1snx2hjyzmfv40jvarki5iffmmp8vf1nc1yvgw2xm2q0l7zxnp70"
+   "commit": "5b905aeb1a058d731f95a01ec827407b350a62f3",
+   "sha256": "1j8dagd68a0w1wibjcga54adxa1ird5ni3rcrl88bgizvladvy34"
   },
   "stable": {
    "version": [
@@ -123458,11 +123458,19 @@
   "repo": "milanglacier/termint.el",
   "unstable": {
    "version": [
-    20250810,
-    510
+    20250813,
+    302
    ],
-   "commit": "ee09159be7ae24c973310475f538c3f74f12a99c",
-   "sha256": "13ldahb5cwhrv6mf031v3f2jb79clxyi5ywd6v93xr5k6ziinx52"
+   "commit": "18f60f732dd91d274a8cbdfa2508aaa922c32708",
+   "sha256": "0mw8sk071ph3s0vcvbkkqd8bwp8n7y3ijnfrfpkklilg3zb0vrqq"
+  },
+  "stable": {
+   "version": [
+    0,
+    1
+   ],
+   "commit": "18f60f732dd91d274a8cbdfa2508aaa922c32708",
+   "sha256": "0mw8sk071ph3s0vcvbkkqd8bwp8n7y3ijnfrfpkklilg3zb0vrqq"
   }
  },
  {
