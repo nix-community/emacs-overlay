@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250813.74428";
+      version = "0.3.0.0.20250813.125018";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250813.74428.tar";
-        sha256 = "11wrq58r3bxzp88p9j0ww453vdggcmfcxarwdw748xy9952z41d1";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250813.125018.tar";
+        sha256 = "1m3fszznzpqlagsd11yz71m0fs6l7vpp07ghzhxsfwfpwb2imj7j";
       };
       packageRequires = [ ];
       meta = {
