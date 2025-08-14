@@ -2242,10 +2242,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.4";
+      version = "0.5.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gnosis-0.5.4.tar";
-        sha256 = "1cfmj4a7571daylqkjd6n3rmvps98n542nva1cp97l5gsxm80z8w";
+        url = "https://elpa.nongnu.org/nongnu/gnosis-0.5.5.tar";
+        sha256 = "0na35233h87yk8h300g4vcfc5w4ckd09y8y7hwj7n3y725wi964h";
       };
       packageRequires = [
         compat
@@ -4147,10 +4147,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.57";
+      version = "0.58";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/pg-0.57.tar";
-        sha256 = "18f9llcbd824s7bpxr6rvih41qky6hca2s7d0n6383wmkayhx4r4";
+        url = "https://elpa.nongnu.org/nongnu/pg-0.58.tar";
+        sha256 = "1h5arpkm9gchn3igv6zzrip0pc9qb0ib0gfsj59svarxa3nvmssn";
       };
       packageRequires = [ peg ];
       meta = {
