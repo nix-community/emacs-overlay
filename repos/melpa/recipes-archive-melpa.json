@@ -12978,14 +12978,14 @@
   "repo": "breatheoutbreathein/chordpro-mode.el",
   "unstable": {
    "version": [
-    20250807,
-    324
+    20250814,
+    301
    ],
    "deps": [
     "compat"
    ],
-   "commit": "405c8ebea25a67f072bb02962a9da5cfd8c64171",
-   "sha256": "11rrihnxdp56892gj1zcyq7gh9r05jf7r8ga7zwzx8ys6qvkcjlg"
+   "commit": "ae6db74f2078e4ee3d6262ac1344df9c1ab87527",
+   "sha256": "03aqw9385f5xdhphhm352n66yi2fmah6n43wrnr850d3mq5485g0"
   },
   "stable": {
    "version": [
@@ -29339,8 +29339,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20250813,
-    1442
+    20250814,
+    247
    ],
    "deps": [
     "compat",
@@ -29348,8 +29348,8 @@
     "f",
     "markdown-mode"
    ],
-   "commit": "c248bb5ca25ac1f35c63dd54f70d406eb847dfe1",
-   "sha256": "07jfkmkmdpb27i6ryzqlq72g0hhs3bsbclq2dy1i284gpzs6apfd"
+   "commit": "49415c09961e072bb2975518ede7864a3e127c81",
+   "sha256": "0z9s29jil5dghh497sskdq6rvqb6lxyx4br8qqkwmp11bkcwcz2f"
   },
   "stable": {
    "version": [
@@ -58825,14 +58825,14 @@
    "version": [
     1,
     3,
-    1
+    2
    ],
    "deps": [
     "helm",
     "projectile"
    ],
-   "commit": "2ecd3d85b7077f39bb2fefe2227cc46931d4b92b",
-   "sha256": "1wv040cgwh0z5hmqs41ncmbyc6638y6s6sl4xkkk9mjd82a17bp5"
+   "commit": "53acfb64914bfcdb27a745827705493ef6345b52",
+   "sha256": "0rbp5d7v4vy3s21yys9bqip78w43jfhdv65y891al13r3886b2hs"
   }
  },
  {
@@ -59351,17 +59351,15 @@
   "repo": "emacs-helm/helm-searcher",
   "unstable": {
    "version": [
-    20250101,
-    844
+    20250814,
+    923
    ],
    "deps": [
-    "f",
     "helm",
-    "s",
     "searcher"
    ],
-   "commit": "a87a6dfcafbe488e166ae0eb8e3e4ca7d9a3a25f",
-   "sha256": "0n7ipkwdg5zsbk7jff8kqsm4792mia03x5ncjj4bk5vz00p5db5c"
+   "commit": "8d1b99900d1c01892678c45e48e1959d454532ee",
+   "sha256": "0zl3vpma8id58nk0945z7j1h56vwswxy6zi9cibyrz8j3ghcbb9a"
   },
   "stable": {
    "version": [
@@ -72283,14 +72281,14 @@
   "repo": "AnselmC/le-gpt.el",
   "unstable": {
    "version": [
-    20250726,
-    2103
+    20250814,
+    230
    ],
    "deps": [
     "markdown-mode"
    ],
-   "commit": "5e79ba1de3001bef7081c19eb3c7d96b0047152d",
-   "sha256": "1qa2b8alg41cbk175av6jfcycnnz3hmxd2fw7770n1fch8554icn"
+   "commit": "79662c6a8846a6c667ab6d3521c70050e01b9538",
+   "sha256": "1msa3xxy6dymyar9kiw0ibqyxg7f1z66vn89ck8vz5wll95jgj3x"
   }
  },
  {
@@ -79757,11 +79755,11 @@
   "repo": "kazu-yamamoto/Mew",
   "unstable": {
    "version": [
-    20250708,
-    204
+    20250814,
+    249
    ],
-   "commit": "2392ee9b869029a9900587011fe541abe08a2fd5",
-   "sha256": "13ajr51yk2hcfiq532cayb0kvpdb3psf877cxl6qwx0pgaf1qm57"
+   "commit": "2ccf1b3a4de3a3552cc7d885ba64244db55a4104",
+   "sha256": "1jwmfba740k02yxzpsj5cd9r0w3vjykcdnmq7h5vxzzb1lv62hbi"
   },
   "stable": {
    "version": [
@@ -82338,14 +82336,14 @@
   "repo": "lorniu/mpvi",
   "unstable": {
    "version": [
-    20250813,
-    613
+    20250814,
+    515
    ],
    "deps": [
     "emms"
    ],
-   "commit": "5b905aeb1a058d731f95a01ec827407b350a62f3",
-   "sha256": "1j8dagd68a0w1wibjcga54adxa1ird5ni3rcrl88bgizvladvy34"
+   "commit": "f6b47f16bcd1c5ef3841df8a2e5dc0cd0a4f5bfb",
+   "sha256": "0jb4vwb266rk86ind2sdi2n4iq6a4mpygj2wn0c0hw7dwxfk9n1q"
   },
   "stable": {
    "version": [
@@ -90189,11 +90187,7 @@
     "nerd-icons"
    ],
    "commit": "32c0790c7f116d1346e8727374baacd4254c2c27",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2858-3602709471/nix-shell-3044-828196770/nix-shell-3079-3262393961/git-checkout-tmp-mlkuqHhW/clone/.git/\nfatal: unable to access 'https://repo.or.cz/org-bookmarks.git/': Failed to connect to repo.or.cz port 443 after 134273 ms: Could not connect to server\nfatal: unable to access 'https://repo.or.cz/org-bookmarks.git/': Recv failure: Connection reset by peer\nfatal: unable to access 'https://repo.or.cz/org-bookmarks.git/': Recv failure: Connection reset by peer\nUnable to checkout 32c0790c7f116d1346e8727374baacd4254c2c27 from https://repo.or.cz/org-bookmarks.git.\n"
-   ]
+   "sha256": "1xxzdmaal2pyj4a7kv5ai7qp1ql84d9wm47chp339rw476d3xm1w"
   },
   "stable": {
    "version": [
@@ -96867,14 +96861,14 @@
   "repo": "kaushalmodi/ox-hugo",
   "unstable": {
    "version": [
-    20250801,
-    1350
+    20250814,
+    1439
    ],
    "deps": [
     "tomelr"
    ],
-   "commit": "d6915602f9e16debf74c4603c1e77a8188d4bea7",
-   "sha256": "1kzha6c1f11w2hnmd6gqnla4r49xnybll0wdpakxybbbl3ly5spy"
+   "commit": "6499e35bb04bec2629e51305ffb8a30ae988f92a",
+   "sha256": "1pvglqqq6jnwqq64m9sxfmjprfg5sb8ds4l97qz109wnrhhazgj5"
   },
   "stable": {
    "version": [
@@ -99968,11 +99962,11 @@
   "repo": "Bad-ptr/persp-mode.el",
   "unstable": {
    "version": [
-    20250731,
-    806
+    20250814,
+    1552
    ],
-   "commit": "f146ddccaf598feb402664bc6848b60321b2dc78",
-   "sha256": "1an4zij18cbpk8x9bhzkwcdwa8svw9hxwv7pik8xcnm56s75laaf"
+   "commit": "82680795b3dbb9f9fb023b1754902f38519d9875",
+   "sha256": "1q43i9m4jqwmzj2k431c697am8kgwd8ydhpc7zl6jvf2hphxxv1d"
   },
   "stable": {
    "version": [
@@ -128475,14 +128469,14 @@
   "repo": "tbanel/uniline",
   "unstable": {
    "version": [
-    20250811,
-    711
+    20250814,
+    911
    ],
    "deps": [
     "hydra"
    ],
-   "commit": "0ad1aa99581a2033c8e973cd2bad4b93d5fab57c",
-   "sha256": "1p43jd4x4k3g88wbmq5vjalpxj9dd33fii4ls75bhiavbkq2gs7q"
+   "commit": "20e878194bf0bea5ea5c22e162e2c6e8226363bb",
+   "sha256": "0vqkcxv4ksb0nwnkwz1s2fazbx03s2xmgr7mw0svf4qq6qar7s2i"
   }
  },
  {
