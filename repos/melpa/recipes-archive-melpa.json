@@ -51671,8 +51671,8 @@
   "url": "https://git.thanosapollo.org/gnosis",
   "unstable": {
    "version": [
-    20250809,
-    634
+    20250813,
+    1759
    ],
    "deps": [
     "compat",
@@ -51680,8 +51680,8 @@
     "org-gnosis",
     "transient"
    ],
-   "commit": "e217eb41d4d03928712eb5c8ff41194c3cf47030",
-   "sha256": "07rjqmprl4akqbvivqsj76vhq82c4xp9kbvmyrqqz7hjak4i8x4z"
+   "commit": "0c1a5dc92e4495976fc2d952dbea59873a4db797",
+   "sha256": "05cdaa3n61c361lxp3hz2v1zwa6dlrihakz1xb3mf06fy2vbxib1"
   },
   "stable": {
    "version": [
@@ -58811,15 +58811,15 @@
   "repo": "bbatsov/helm-projectile",
   "unstable": {
    "version": [
-    20250807,
-    1323
+    20250813,
+    1413
    ],
    "deps": [
     "helm",
     "projectile"
    ],
-   "commit": "f28d7b8953e31e25b68eb60845f00a006999636c",
-   "sha256": "0yzfr3mcy3wd0kwrwx1vwgx8hbvr5lyx4wmxbniifz414q16mspb"
+   "commit": "e8cdb71709fd151bd6bc0f7729d54189373b1ca6",
+   "sha256": "0nx737r7cg6crc0zzs2qxq8860abdkz4pz4xqcp3591k6jxhrh9w"
   },
   "stable": {
    "version": [
@@ -90192,7 +90192,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2806-825223642/nix-shell-3028-131134963/nix-shell-3063-3823184461/git-checkout-tmp-72Q3XxIx/clone/.git/\nfatal: unable to access 'https://repo.or.cz/org-bookmarks.git/': Failed to connect to repo.or.cz port 443 after 134098 ms: Could not connect to server\nfatal: unable to access 'https://repo.or.cz/org-bookmarks.git/': Failed to connect to repo.or.cz port 443 after 135136 ms: Could not connect to server\nfatal: unable to access 'https://repo.or.cz/org-bookmarks.git/': Failed to connect to repo.or.cz port 443 after 135128 ms: Could not connect to server\nUnable to checkout 32c0790c7f116d1346e8727374baacd4254c2c27 from https://repo.or.cz/org-bookmarks.git.\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2858-3602709471/nix-shell-3044-828196770/nix-shell-3079-3262393961/git-checkout-tmp-mlkuqHhW/clone/.git/\nfatal: unable to access 'https://repo.or.cz/org-bookmarks.git/': Failed to connect to repo.or.cz port 443 after 134273 ms: Could not connect to server\nfatal: unable to access 'https://repo.or.cz/org-bookmarks.git/': Recv failure: Connection reset by peer\nfatal: unable to access 'https://repo.or.cz/org-bookmarks.git/': Recv failure: Connection reset by peer\nUnable to checkout 32c0790c7f116d1346e8727374baacd4254c2c27 from https://repo.or.cz/org-bookmarks.git.\n"
    ]
   },
   "stable": {
@@ -95700,11 +95700,11 @@
   "repo": "tbanel/orgaggregate",
   "unstable": {
    "version": [
-    20250808,
-    710
+    20250813,
+    1957
    ],
-   "commit": "ed58420467cc657144b8193b7403e367521c549c",
-   "sha256": "1c0z6g1mp8q8s86pw31ami78afp0qf4chm0s8l8c39ppqzd1v34s"
+   "commit": "dc676835a7fe5319ed269b4f1554197e594bb517",
+   "sha256": "1cgn5rd0c872wrrizyivqjjzigcgnm24nac4k39f20cp0hr8awvc"
   }
  },
  {
@@ -125374,15 +125374,15 @@
   "repo": "sarg/torrent-mode.el",
   "unstable": {
    "version": [
-    20240923,
-    503
+    20250813,
+    1529
    ],
    "deps": [
     "bencoding",
     "tablist"
    ],
-   "commit": "c7ef935dcf7b999981f441794ddbd98c3216bfee",
-   "sha256": "06mxlsg5yqhssyr612377l0pv67xjr4g06rmmim7jh7w0z379ibv"
+   "commit": "5dbb59c60c0c2db24d3d138eb003c66c3578b7b4",
+   "sha256": "0r6hi18mjlip002lqfbch7fnkkzn5g1h2p3y9c6qmw79kd32qlf8"
   }
  },
  {
