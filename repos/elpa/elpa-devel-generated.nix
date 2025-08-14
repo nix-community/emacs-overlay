@@ -2141,10 +2141,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.1.1.0.20250812.84417";
+      version = "0.1.1.0.20250814.64440";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-org-0.1.1.0.20250812.84417.tar";
-        sha256 = "174zppf8b5iqxzhv5zki48mbicbcw15ki90k9jknkdw69f66pmv4";
+        url = "https://elpa.gnu.org/devel/denote-org-0.1.1.0.20250814.64440.tar";
+        sha256 = "1n7z6064x4a4q0yzirzrn9jz4izpbjfkm65pmcqiv8n6ay61sap5";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2185,10 +2185,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.1.1.0.20250805.44327";
+      version = "0.1.1.0.20250814.61304";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250805.44327.tar";
-        sha256 = "0hzcg86pw1ffanz33mva13jkx7sg47wjavj0b114v5kl9wkf936z";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250814.61304.tar";
+        sha256 = "0rv65hmj5xqywg8cljhkihrn5yndqpy0946g1m03q4nci0xp81nc";
       };
       packageRequires = [ denote ];
       meta = {
@@ -8875,10 +8875,10 @@
     elpaBuild {
       pname = "sxhkdrc-mode";
       ename = "sxhkdrc-mode";
-      version = "1.1.0.0.20250810.53517";
+      version = "1.2.0.0.20250814.70257";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/sxhkdrc-mode-1.1.0.0.20250810.53517.tar";
-        sha256 = "0fw42v5v24bxvrasqj4xx9g157n55r11smr6mhf5x4va12qczd2d";
+        url = "https://elpa.gnu.org/devel/sxhkdrc-mode-1.2.0.0.20250814.70257.tar";
+        sha256 = "1zjkhhpsiq5wdp2lyq98zrxj52c5h6kr4vn9dfimgkx3z3z8dcgl";
       };
       packageRequires = [ ];
       meta = {
