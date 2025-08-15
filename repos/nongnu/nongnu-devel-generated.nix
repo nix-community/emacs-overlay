@@ -1723,10 +1723,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0.0.20250527.90754";
+      version = "35.0.0.20250814.121325";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20250527.90754.tar";
-        sha256 = "05d9fbd4hv57jcfsjphdzlmnl4wrfawy7q006sca33wljscpyqr1";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20250814.121325.tar";
+        sha256 = "1w2hzzdz4bb982dj1632lg1fhi69hxy2244nmc5g19qk799cvgwc";
       };
       packageRequires = [ ];
       meta = {
@@ -4658,10 +4658,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250806.184634";
+      version = "2.31snapshot0.20250814.195032";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250806.184634.tar";
-        sha256 = "10147ryg2kcxy9bb9bn07m6f12l8r1281fd85ij2cl59c7y78bkb";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250814.195032.tar";
+        sha256 = "036yg4xvrz1nw3nx1bppbx43r4n3lsa09m4a8q6gzsdysrdkwxhj";
       };
       packageRequires = [ macrostep ];
       meta = {
