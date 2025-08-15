@@ -1962,10 +1962,10 @@
     elpaBuild {
       pname = "dash";
       ename = "dash";
-      version = "2.20.0.0.20250312.130713";
+      version = "2.20.0.0.20250814.95131";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dash-2.20.0.0.20250312.130713.tar";
-        sha256 = "0kdmc5axls8lhpbzzvab3c49kdagh3630jyrd0xmrdwf4pxim7ns";
+        url = "https://elpa.gnu.org/devel/dash-2.20.0.0.20250814.95131.tar";
+        sha256 = "06xrjbqbsr5ywd7pqi2gn2w9aavg3yr0vf0i8h40s5nhls683r41";
       };
       packageRequires = [ ];
       meta = {
@@ -2141,10 +2141,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.1.1.0.20250814.64440";
+      version = "0.1.1.0.20250814.130226";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-org-0.1.1.0.20250814.64440.tar";
-        sha256 = "1n7z6064x4a4q0yzirzrn9jz4izpbjfkm65pmcqiv8n6ay61sap5";
+        url = "https://elpa.gnu.org/devel/denote-org-0.1.1.0.20250814.130226.tar";
+        sha256 = "0l8nqnajjc8l3jn5b4h3i8dpx24v8fh35xw4kwjmz4sdpjzzsvfx";
       };
       packageRequires = [ denote ];
       meta = {
@@ -7842,10 +7842,10 @@
     elpaBuild {
       pname = "relint";
       ename = "relint";
-      version = "2.1.0.20250727.111604";
+      version = "2.1.0.20250814.100832";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/relint-2.1.0.20250727.111604.tar";
-        sha256 = "1vf0mqwvrp586x3hxwf3l6qdfxc7zlzdwj193spcj37pmmsnxn2v";
+        url = "https://elpa.gnu.org/devel/relint-2.1.0.20250814.100832.tar";
+        sha256 = "10xj341zrf6plvz5816w0bimfz2dc2kfc6qs59yxcyk3j33bs5jd";
       };
       packageRequires = [ xr ];
       meta = {
@@ -10481,10 +10481,10 @@
     elpaBuild {
       pname = "xr";
       ename = "xr";
-      version = "2.1.0.20250727.111542";
+      version = "2.1.0.20250814.100809";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xr-2.1.0.20250727.111542.tar";
-        sha256 = "1vnigx1arz0sjiz9zp14as8vra26njdcjbv1pkig3a0zgycwpsx2";
+        url = "https://elpa.gnu.org/devel/xr-2.1.0.20250814.100809.tar";
+        sha256 = "0dnpwvc6bbvi3w25q38xwpcfplwx0dsfsgxjqzjyxm17zijmgnfp";
       };
       packageRequires = [ ];
       meta = {
