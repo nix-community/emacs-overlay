@@ -2141,10 +2141,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.1.1.0.20250814.130226";
+      version = "0.1.1.0.20250815.62627";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-org-0.1.1.0.20250814.130226.tar";
-        sha256 = "0l8nqnajjc8l3jn5b4h3i8dpx24v8fh35xw4kwjmz4sdpjzzsvfx";
+        url = "https://elpa.gnu.org/devel/denote-org-0.1.1.0.20250815.62627.tar";
+        sha256 = "0n0hacihhg2iq4636a34z0nlkpaij4pzb0sn2gwbrzl073nx1sm9";
       };
       packageRequires = [ denote ];
       meta = {
@@ -4979,10 +4979,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.5.0.0.20250628.101732";
+      version = "0.5.0.0.20250814.201950";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.5.0.0.20250628.101732.tar";
-        sha256 = "1x5f65yqwx7cs6clg8q9yw8fbq81zv3l0y9jz3r7f76310cqd0zw";
+        url = "https://elpa.gnu.org/devel/kubed-0.5.0.0.20250814.201950.tar";
+        sha256 = "18j0f8vvq6d48zhvvx7x5i991j5s6qdxcbd4xjjl57hzvf3lda6l";
       };
       packageRequires = [ ];
       meta = {
