@@ -67,13 +67,18 @@ let
   #   (use-package paredit-mode
   #     :ensure paredit
   #     :hook (emacs-lisp-mode lisp-mode lisp-interaction-mode))
+  #
+  #   (use-package evil
+  #     :ensure t
+  #     :pin nongnu)
   # ''
-  # => [ "direnv" "paredit" ]
+  # => [ { name = "direnv"; archive = null } { name = "paredit"; archive = null } { name = "evil"; archive = "nongnu" } ]
   parsePackagesFromUsePackage = {
     configText
     , alwaysEnsure ? false
     , isOrgModeFile ? false
     , alwaysTangle ? false
+    , alwaysPin ? false
   }:
     let
       readFunction =
@@ -132,6 +137,18 @@ let
           else
             [];
 
+      getArchive = item:
+        let
+          pinValue = getKeywordValue ":pin" item;
+          packageArchives = [ "gnu" "nongnu" "gnu-devel" "nongnu-devel" "melpa" "melpa-stable" ];
+        in
+          if builtins.elem pinValue packageArchives then
+            pinValue
+          else if builtins.elem alwaysPin packageArchives then
+            alwaysPin
+          else
+            null;
+
       recurse = item:
         if builtins.isList item && item != [] then
           let
@@ -139,7 +156,7 @@ let
           in
             if builtins.elem packageManager [ "use-package" "leaf" ] then
               if !(isDisabled item) then
-                [ packageManager (getName item) ] ++ map recurse item
+                [ { name = packageManager; archive = null; } { name = (getName item); archive = (getArchive item); } ] ++ map recurse item
               else
                 []
             else
