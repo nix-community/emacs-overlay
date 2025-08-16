@@ -1525,10 +1525,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.7.0.20250805.122530";
+      version = "2.7.0.20250815.181852";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.7.0.20250805.122530.tar";
-        sha256 = "13a83swgz4wp57a4m12kxj07amqjfqryp93plpq3k5cw9l5hdmjl";
+        url = "https://elpa.gnu.org/devel/consult-2.7.0.20250815.181852.tar";
+        sha256 = "0ysg1sp8n4cab32kwxv1pjdnk5ly9mp2fii54savkk7lwwpzjj39";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3589,10 +3589,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.1.0.20250531.142308";
+      version = "1.4.1.0.20250815.144642";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250531.142308.tar";
-        sha256 = "00h774wxsx8rgmlyph7b4w9d8k4mi67vfx6dnx45zgkicdkrp70h";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250815.144642.tar";
+        sha256 = "08zi7vld7sbj9nc773pf3gv592wrlyai4l6sb8vi1m0ns1jmmsir";
       };
       packageRequires = [
         eldoc
