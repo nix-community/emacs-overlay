@@ -2053,10 +2053,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250809.90415";
+      version = "4.0.0.0.20250816.50141";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250809.90415.tar";
-        sha256 = "18isbx33b2z7d8iaaa59canx3h0s8y9r06m4py15d52b1lqjl263";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250816.50141.tar";
+        sha256 = "127p9hxf0glvwz601nwila47vbxz6a9vi5r96ymzqp3493h00j35";
       };
       packageRequires = [ ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250813.125018";
+      version = "0.3.0.0.20250816.93836";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250813.125018.tar";
-        sha256 = "1m3fszznzpqlagsd11yz71m0fs6l7vpp07ghzhxsfwfpwb2imj7j";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250816.93836.tar";
+        sha256 = "0l5vh9p2x6pdq9222kxz3wxa7bjmwrrq1lq9xxaxnyc5b312yf5s";
       };
       packageRequires = [ ];
       meta = {
@@ -5777,10 +5777,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.6.0.0.20250811.222505";
+      version = "0.6.0.0.20250816.44409";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.6.0.0.20250811.222505.tar";
-        sha256 = "0pbl8qy53hsjb0knl71281xr6x38kmgh8ngs4yxj23baggfrvmqd";
+        url = "https://elpa.gnu.org/devel/minuet-0.6.0.0.20250816.44409.tar";
+        sha256 = "055qzf3npqf9r6ha7wwi7d4qx62k26k0g2j4j80axcw4h2avsq4v";
       };
       packageRequires = [
         dash
