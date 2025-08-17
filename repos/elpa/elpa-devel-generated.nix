@@ -993,10 +993,10 @@
     elpaBuild {
       pname = "bufferlo";
       ename = "bufferlo";
-      version = "1.1.0.20250503.201002";
+      version = "1.1.0.20250817.11146";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bufferlo-1.1.0.20250503.201002.tar";
-        sha256 = "05bpgfyizzc6364c7jv8l2d8z78ighmswxn2hxgzwsvbyhnfmxpr";
+        url = "https://elpa.gnu.org/devel/bufferlo-1.1.0.20250817.11146.tar";
+        sha256 = "04sv7w3w37068xxqnbky0173fyy650gvi171swndcnyqj28mljcy";
       };
       packageRequires = [ ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250816.133137";
+      version = "0.3.0.0.20250817.70440";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250816.133137.tar";
-        sha256 = "19i08hprf5w3kpss26qgwk68p7w9ik7bn5ah4s7g5wx6flqsfxwq";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250817.70440.tar";
+        sha256 = "0ms6hp9f80s6wyq245a9src0pwkcm3q7lprprqvvzfyq6qn5q1fd";
       };
       packageRequires = [ ];
       meta = {
