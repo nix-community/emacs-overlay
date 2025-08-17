@@ -2053,10 +2053,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250816.50141";
+      version = "4.0.0.0.20250816.123547";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250816.50141.tar";
-        sha256 = "127p9hxf0glvwz601nwila47vbxz6a9vi5r96ymzqp3493h00j35";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250816.123547.tar";
+        sha256 = "0wk581kxmbmi5wgj0sfzrdbsanl2g24hlgsn6haw0mci1859bzxn";
       };
       packageRequires = [ ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250816.93836";
+      version = "0.3.0.0.20250816.133137";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250816.93836.tar";
-        sha256 = "0l5vh9p2x6pdq9222kxz3wxa7bjmwrrq1lq9xxaxnyc5b312yf5s";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250816.133137.tar";
+        sha256 = "19i08hprf5w3kpss26qgwk68p7w9ik7bn5ah4s7g5wx6flqsfxwq";
       };
       packageRequires = [ ];
       meta = {
@@ -3589,10 +3589,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.1.0.20250815.144642";
+      version = "1.4.1.0.20250816.174625";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250815.144642.tar";
-        sha256 = "08zi7vld7sbj9nc773pf3gv592wrlyai4l6sb8vi1m0ns1jmmsir";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250816.174625.tar";
+        sha256 = "0kf7m3h4ki7la9gg3sy9bging3fzv6dz5i5w93f0mk2wswyshliv";
       };
       packageRequires = [
         eldoc
