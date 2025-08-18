@@ -993,10 +993,10 @@
     elpaBuild {
       pname = "bufferlo";
       ename = "bufferlo";
-      version = "1.1.0.20250817.11146";
+      version = "1.1.0.20250817.123631";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bufferlo-1.1.0.20250817.11146.tar";
-        sha256 = "04sv7w3w37068xxqnbky0173fyy650gvi171swndcnyqj28mljcy";
+        url = "https://elpa.gnu.org/devel/bufferlo-1.1.0.20250817.123631.tar";
+        sha256 = "07jpz8siqg5llm7gknxvy0g70plnk7d37gczizv2qzhhm64s58cl";
       };
       packageRequires = [ ];
       meta = {
@@ -2053,10 +2053,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250816.123547";
+      version = "4.0.0.0.20250817.150903";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250816.123547.tar";
-        sha256 = "0wk581kxmbmi5wgj0sfzrdbsanl2g24hlgsn6haw0mci1859bzxn";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250817.150903.tar";
+        sha256 = "198sckrd859y6hmy8qnxfaa9zvlgdj2n9y6smrlm8i2gg8b9cgc9";
       };
       packageRequires = [ ];
       meta = {
@@ -4409,10 +4409,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250807.214805";
+      version = "9.0.2pre0.20250817.193043";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250807.214805.tar";
-        sha256 = "0rvjlalywgj6dhrs31skrapvgr1lsy77pmr6w0qfyh1kvyc6zbzk";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250817.193043.tar";
+        sha256 = "00chigfxr00zj29hcfk0n42h8xywyhm6n34wcigs7r3swyiav7b8";
       };
       packageRequires = [ ];
       meta = {
@@ -6378,10 +6378,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250811.162805";
+      version = "9.8pre0.20250817.94001";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250811.162805.tar";
-        sha256 = "15r06s5n0ll4mvia4jmdfisxz4hpk438gpj73pgsrr7dyb2skxkw";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250817.94001.tar";
+        sha256 = "0g4mi27zfpm3pss1hpmj66y22yhwqa583imjdxbrxxv1b9fn3z0l";
       };
       packageRequires = [ ];
       meta = {
@@ -9204,10 +9204,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.1.0.0.20250812.52612";
+      version = "1.1.0.0.20250817.100657";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.1.0.0.20250812.52612.tar";
-        sha256 = "1cbkglv15mwfkm56gyqwdf6y2jdrv6vhkhp07dzpv2bjxkwzyn5x";
+        url = "https://elpa.gnu.org/devel/tmr-1.1.0.0.20250817.100657.tar";
+        sha256 = "1rp2zp1034zjp97kx4g18gxb98z6ax9vw45jqdd376wc2sh97pmq";
       };
       packageRequires = [ ];
       meta = {
