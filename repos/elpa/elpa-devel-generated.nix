@@ -993,10 +993,10 @@
     elpaBuild {
       pname = "bufferlo";
       ename = "bufferlo";
-      version = "1.1.0.20250817.123631";
+      version = "1.1.0.20250818.175416";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bufferlo-1.1.0.20250817.123631.tar";
-        sha256 = "07jpz8siqg5llm7gknxvy0g70plnk7d37gczizv2qzhhm64s58cl";
+        url = "https://elpa.gnu.org/devel/bufferlo-1.1.0.20250818.175416.tar";
+        sha256 = "109fvfi5bvj75sr7gxqv72maj42y7wj73xrq2542w9gkjm41ayg7";
       };
       packageRequires = [ ];
       meta = {
@@ -1525,10 +1525,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.7.0.20250815.181852";
+      version = "2.7.0.20250818.134009";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.7.0.20250815.181852.tar";
-        sha256 = "0ysg1sp8n4cab32kwxv1pjdnk5ly9mp2fii54savkk7lwwpzjj39";
+        url = "https://elpa.gnu.org/devel/consult-2.7.0.20250818.134009.tar";
+        sha256 = "1mvsny11klr2zqi1yjandvbzv3sa74zlw4criy0wlp1pd4lr62z9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250817.70440";
+      version = "0.3.0.0.20250818.130936";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250817.70440.tar";
-        sha256 = "0ms6hp9f80s6wyq245a9src0pwkcm3q7lprprqvvzfyq6qn5q1fd";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250818.130936.tar";
+        sha256 = "0001vg6zzwdpbf4klg0kpvjg2xsy87h0mzy2maw1si4pgc27kx4j";
       };
       packageRequires = [ ];
       meta = {
@@ -4545,6 +4545,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/isearch-mb.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  iso-date = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "iso-date";
+      ename = "iso-date";
+      version = "1.0.3.0.20250817.121727";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/iso-date-1.0.3.0.20250817.121727.tar";
+        sha256 = "1wggs88zd7za6m9xwfnj9vf5fwpil7m0jva068cfqp42hmc5yymj";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/iso-date.html";
         license = lib.licenses.free;
       };
     }

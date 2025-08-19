@@ -4509,6 +4509,27 @@
       };
     }
   ) { };
+  iso-date = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "iso-date";
+      ename = "iso-date";
+      version = "1.0.3";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/iso-date-1.0.3.tar";
+        sha256 = "0j357wcw63ngvami2k8b3fx48f125z4d3k5akk1c16vpvcj49pv7";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/iso-date.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   iterators = callPackage (
     {
       elpaBuild,
