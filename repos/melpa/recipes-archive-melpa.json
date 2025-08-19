@@ -12248,7 +12248,7 @@
   "repo": "worr/cfn-mode",
   "unstable": {
    "version": [
-    20250803,
+    20250817,
     807
    ],
    "deps": [
@@ -12256,8 +12256,8 @@
     "s",
     "yaml-mode"
    ],
-   "commit": "32cd96f2c3054d7f92f1ebf6f011af7f88d8098a",
-   "sha256": "0y8kvijr94grsapyw2253agpwvgzg4lhix0adbmygp6d784w6ak0"
+   "commit": "7a1d5825d5d875c1f816ab233c977fd9cc8726dc",
+   "sha256": "06gjgpp8yrblglz8rxq80459zw37i6w0x53kc0nrkf85xwqwird1"
   },
   "stable": {
    "version": [
@@ -18581,14 +18581,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20250815,
-    1818
+    20250818,
+    1340
    ],
    "deps": [
     "compat"
    ],
-   "commit": "48920075058421dde0592c7702ed84e9fa2ffb5d",
-   "sha256": "1rv8vcj479l0w22dl1g7isr07sjy7g59gd5hm75mm6j5jkm92y2x"
+   "commit": "9c79441fb8ec6d837bf6f3fa1124aa7c2f980669",
+   "sha256": "0y8rrhx5rbng3hv50ypq9cjka4npf8czxbin8v10l8w649l5s3sb"
   },
   "stable": {
    "version": [
@@ -19631,8 +19631,8 @@
   "repo": "chep/copilot-chat.el",
   "unstable": {
    "version": [
-    20250812,
-    1237
+    20250818,
+    1227
    ],
    "deps": [
     "aio",
@@ -19644,8 +19644,8 @@
     "shell-maker",
     "transient"
    ],
-   "commit": "dce5a645c9e215b44bf7ad89eec49b7d3f1954d1",
-   "sha256": "0sxvyqxgvpssr168bn3c36kkd1c09f787kpj0z22475m2p1qjijv"
+   "commit": "61828297a7d4a6a4d53b777bf23ac06382d89b82",
+   "sha256": "14rv9jww3fvf32pic7y9bk1n7h7hrbwjlkv1y4znylla4h0wsv49"
   },
   "stable": {
    "version": [
@@ -28175,11 +28175,11 @@
   "stable": {
    "version": [
     3,
-    19,
-    1
+    20,
+    0
    ],
-   "commit": "76c0c3941798f81dcc13a305d7abb120c191f5fa",
-   "sha256": "01ys792jnld5yihhyirwkk4jlqm59bk0vrqjvvk5xjn8pp26vryq"
+   "commit": "3bd6fcbde34880a6c120848b41b68e9d4292266d",
+   "sha256": "08wnq8l6v9y14kbf8nab2hb6mjanch0vm4h2n4lg01kxkxdfi6vg"
   }
  },
  {
@@ -29135,11 +29135,11 @@
   "repo": "jamescherti/easysession.el",
   "unstable": {
    "version": [
-    20250730,
-    1458
+    20250818,
+    1518
    ],
-   "commit": "3f2b78f6650eeaaacf66c73b5390c1e01f63a5d2",
-   "sha256": "0b2p0x30n9bjjrjiz7i84kb0ajmn2wl4mjzfdv11za5h2a6ii5f0"
+   "commit": "c8c9558f4de3304c99e9f536d4863c1f8564d9d5",
+   "sha256": "1d3l2li6aarb3g46s84dn1bi7g83lvcjd5yps0w9xykbxmrgcg31"
   },
   "stable": {
    "version": [
@@ -29322,8 +29322,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20250818,
-    153
+    20250819,
+    22
    ],
    "deps": [
     "compat",
@@ -29331,8 +29331,8 @@
     "f",
     "markdown-mode"
    ],
-   "commit": "8929bdead6b96b1e8c05f24c8935e7f27be4908e",
-   "sha256": "0sc3wcxj0h4aqxadsgqds1z3xyacbs62kfdlchjv0yhxmk8qd1jz"
+   "commit": "41a6298ffd143e014385292ebbdf1380dc4c1665",
+   "sha256": "17zmhn4bjv27zadydc56bims9w01888z9xwkyizykp359gjgfxfg"
   },
   "stable": {
    "version": [
@@ -31966,16 +31966,16 @@
   "repo": "Wilfred/elisp-def",
   "unstable": {
    "version": [
-    20230901,
-    2308
+    20250818,
+    2223
    ],
    "deps": [
     "dash",
     "f",
     "s"
    ],
-   "commit": "1ad4baccbf3d0d13e7607d332ae6bc60a5dd7360",
-   "sha256": "0k1r4fyai53p7y5vqwqjxdiqlnmrrxqaxglc22j54kdic8j1lbl7"
+   "commit": "61a5f64498c9c8de8e9aab84a22775162f336144",
+   "sha256": "1ssx7hczihd42p5ak5yrb4isbhv7w8i0vipsindrgg56qsys3wrb"
   },
   "stable": {
    "version": [
@@ -53232,7 +53232,7 @@
   "stable": {
    "version": [
     0,
-    51,
+    52,
     0
    ],
    "deps": [
@@ -53241,8 +53241,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "50196949631d35948bcd81e34ae33e9118886e41",
-   "sha256": "0yb8nbjdd85xl5c8br7x8kgb8gyvkcyy83fv8hrj4bkzd58kflmb"
+   "commit": "e53c30d0f0f3cdb97160b0263cda0126c070693a",
+   "sha256": "0n2yga2biipqh23bz1p7bz7cwz35wd055qwpjh5gr904sy3i7pqr"
   }
  },
  {
@@ -76471,16 +76471,16 @@
   "repo": "reinierkof/magik-company",
   "unstable": {
    "version": [
-    20250808,
-    1454
+    20250818,
+    934
    ],
    "deps": [
     "company",
     "magik-mode",
     "yasnippet"
    ],
-   "commit": "de5d179be07d43b46b821db10164dfbd92da665b",
-   "sha256": "1w7acr22fndd5ldp9r3qqmmx6gys5kinyj2ac80176x7ig7shylr"
+   "commit": "5efcfefac2826fbdec867292a375168809640318",
+   "sha256": "0nx86a62fgwyzhnhcdkfjinsaldja8199hq7jzcsgzhl7qsi8f9d"
   },
   "stable": {
    "version": [
@@ -92011,15 +92011,15 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20250812,
-    1117
+    20250819,
+    323
    ],
    "deps": [
     "nerd-icons",
     "qrencode"
    ],
-   "commit": "a5e2c4ba4ad19f1317f3418f26435a75b5c6d0ad",
-   "sha256": "12b85ki1scrcr1rxl8mn0lrqwgza72x447gm8ssmakb27p78ify8"
+   "commit": "8cb8f04f486e37a8ac96a65e257faac48ed13fef",
+   "sha256": "1pr9jw7zhfb5039vrzg6mr4mz8s49i3z6c0pbcliwg9g26m05scv"
   },
   "stable": {
    "version": [
@@ -124182,21 +124182,21 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20250811,
-    1423
+    20250818,
+    1350
    ],
-   "commit": "9ec44312b08fb069b542d01f7371006642706418",
-   "sha256": "041sh29blkppmjarq0yq6jb78pha1aj34813xa8jh9mbx3jligd4"
+   "commit": "40655d3b99b9bae5bcc574931bd27b48064a88d6",
+   "sha256": "0yvnyynqlvsrxidicp2dn2j82fc8q37w74a0rgkpq09kml69in0p"
   },
   "stable": {
    "version": [
     2025,
     8,
-    11,
+    18,
     0
    ],
-   "commit": "9ec44312b08fb069b542d01f7371006642706418",
-   "sha256": "041sh29blkppmjarq0yq6jb78pha1aj34813xa8jh9mbx3jligd4"
+   "commit": "40655d3b99b9bae5bcc574931bd27b48064a88d6",
+   "sha256": "0yvnyynqlvsrxidicp2dn2j82fc8q37w74a0rgkpq09kml69in0p"
   }
  },
  {
@@ -135096,26 +135096,26 @@
   "repo": "knu/yaml-imenu.el",
   "unstable": {
    "version": [
-    20220406,
-    1703
+    20250818,
+    1432
    ],
    "deps": [
     "yaml-mode"
    ],
-   "commit": "c1fbba8b03a7bef4fc2b87404914fa9c6eb67b55",
-   "sha256": "1p5zyjj9hvqjfhyp68c04w6cxj5qh4psd4y8kafyrz3n05wimzl5"
+   "commit": "c2f32557c11cbd402853104da8f644df4ee88434",
+   "sha256": "1qvz3kihprw8vw9pzhqkz94dl45vpwg6jfjmcvlybp5mg2xz7r84"
   },
   "stable": {
    "version": [
     1,
-    0,
-    3
+    1,
+    0
    ],
    "deps": [
     "yaml-mode"
    ],
-   "commit": "01741205fb33d2ed511502d1cd65a711e07a3117",
-   "sha256": "1z8yzi322y8wnvci77xp7fb7x5l3z8zy1ng4zaa1z856va8x2971"
+   "commit": "c2f32557c11cbd402853104da8f644df4ee88434",
+   "sha256": "1qvz3kihprw8vw9pzhqkz94dl45vpwg6jfjmcvlybp5mg2xz7r84"
   }
  },
  {
