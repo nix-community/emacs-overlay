@@ -7471,6 +7471,27 @@
       };
     }
   ) { };
+  rcirc-mentions = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "rcirc-mentions";
+      ename = "rcirc-mentions";
+      version = "1.0.2";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/rcirc-mentions-1.0.2.tar";
+        sha256 = "1mwwzilg9500d5ck76029vfpphzfk0hdrrbam5r4ckgwzhj8wg4r";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/rcirc-mentions.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   rcirc-menu = callPackage (
     {
       elpaBuild,

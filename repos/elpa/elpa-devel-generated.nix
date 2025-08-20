@@ -1919,10 +1919,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250818.212110";
+      version = "0.24.1.0.20250819.163752";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250818.212110.tar";
-        sha256 = "1sxlvvnv8g33rwdb23fsfsmfrvsbb0ydl09zpqiyy3b1hsqn0vpi";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250819.163752.tar";
+        sha256 = "0lgblw0fkm61z37dx8pcn9y4n69yak03gbiflq3df5g4gyfa1qc7";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2053,10 +2053,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250817.150903";
+      version = "4.0.0.0.20250819.183753";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250817.150903.tar";
-        sha256 = "198sckrd859y6hmy8qnxfaa9zvlgdj2n9y6smrlm8i2gg8b9cgc9";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250819.183753.tar";
+        sha256 = "1jikp1d5kai3v1vw2zbd0l6m7990ymw2asdz9887ky3wzhz6ia0c";
       };
       packageRequires = [ ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250818.130936";
+      version = "0.3.0.0.20250819.95928";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250818.130936.tar";
-        sha256 = "0001vg6zzwdpbf4klg0kpvjg2xsy87h0mzy2maw1si4pgc27kx4j";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250819.95928.tar";
+        sha256 = "0hd3pv220iriay5l233400md26phacx0i51qw1sb9hy0hf7wahd3";
       };
       packageRequires = [ ];
       meta = {
@@ -2894,10 +2894,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250625.170717";
+      version = "1.18.0.20250819.161828";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250625.170717.tar";
-        sha256 = "0zjdrdl2bb2fx83kzz3d8q8kfyba7mv1zfmrzpm0ha6s4kckpq0v";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250819.161828.tar";
+        sha256 = "0b7jh9xvi1cfyrmvhbgpb3vpvyv2306zvcyi6j4vwj08wlr9ln49";
       };
       packageRequires = [
         eldoc
@@ -5477,10 +5477,10 @@
     elpaBuild {
       pname = "map";
       ename = "map";
-      version = "3.3.1.0.20250329.135944";
+      version = "3.3.1.0.20250819.91151";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/map-3.3.1.0.20250329.135944.tar";
-        sha256 = "0gsc71i87dx4a9hhs6vp6b8d4nq6lh7d8zqm8nlwdrkqyv0m57bd";
+        url = "https://elpa.gnu.org/devel/map-3.3.1.0.20250819.91151.tar";
+        sha256 = "0axrs58ji1q74q2b9yfq5kb8sjhz9lbjqgmqb9cv78hy28pjvq7y";
       };
       packageRequires = [ ];
       meta = {
@@ -7551,6 +7551,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/rcirc-color.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  rcirc-mentions = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "rcirc-mentions";
+      ename = "rcirc-mentions";
+      version = "1.0.2.0.20250819.90619";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/rcirc-mentions-1.0.2.0.20250819.90619.tar";
+        sha256 = "1bkv495b77xkgjg1vksibs7p8aj04ql4fk31hli6m9whs1yd1dmb";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/rcirc-mentions.html";
         license = lib.licenses.free;
       };
     }
