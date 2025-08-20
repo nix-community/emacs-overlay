@@ -3923,10 +3923,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.26.0.20250812.114219";
+      version = "0.26.0.20250819.130417";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.26.0.20250812.114219.tar";
-        sha256 = "0mzjrxlpwa23lgzjwd4ybrlc8iyqc0nib0acxjwbmxsll96z3nl6";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.26.0.20250819.130417.tar";
+        sha256 = "0fsjd3sry469xrpkfabid2bh7f3p50ddhwj6c9vabg9fad3yykyd";
       };
       packageRequires = [ let-alist ];
       meta = {
