@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250819.95928";
+      version = "0.3.0.0.20250820.72054";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250819.95928.tar";
-        sha256 = "0hd3pv220iriay5l233400md26phacx0i51qw1sb9hy0hf7wahd3";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250820.72054.tar";
+        sha256 = "1595qiy7wagjd15vv8fl3941knw4yzz99bcryi38ylqcr135lq9j";
       };
       packageRequires = [ ];
       meta = {
@@ -5798,10 +5798,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.6.0.0.20250816.44409";
+      version = "0.6.0.0.20250819.191029";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.6.0.0.20250816.44409.tar";
-        sha256 = "055qzf3npqf9r6ha7wwi7d4qx62k26k0g2j4j80axcw4h2avsq4v";
+        url = "https://elpa.gnu.org/devel/minuet-0.6.0.0.20250819.191029.tar";
+        sha256 = "1hq7slvzp1n89v5w4vm0vhlsday3zmq47pl7xkn5b70xa396ynqd";
       };
       packageRequires = [
         dash
@@ -6081,10 +6081,10 @@
     elpaBuild {
       pname = "nano-theme";
       ename = "nano-theme";
-      version = "0.3.4.0.20240624.80231";
+      version = "0.3.4.0.20250820.51020";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/nano-theme-0.3.4.0.20240624.80231.tar";
-        sha256 = "1h2sifcl26av1lzzmngb2svl23hchjnzd8aaszkxxwh34wg1cgnk";
+        url = "https://elpa.gnu.org/devel/nano-theme-0.3.4.0.20250820.51020.tar";
+        sha256 = "1dia2jpl2mxamhr3hw7z9q9963psagnzhl5qqbag3a1d9bnn1bwa";
       };
       packageRequires = [ ];
       meta = {
@@ -7564,10 +7564,10 @@
     elpaBuild {
       pname = "rcirc-mentions";
       ename = "rcirc-mentions";
-      version = "1.0.2.0.20250819.90619";
+      version = "1.0.2.0.20250820.70753";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/rcirc-mentions-1.0.2.0.20250819.90619.tar";
-        sha256 = "1bkv495b77xkgjg1vksibs7p8aj04ql4fk31hli6m9whs1yd1dmb";
+        url = "https://elpa.gnu.org/devel/rcirc-mentions-1.0.2.0.20250820.70753.tar";
+        sha256 = "1rqkjp89cvfjyff3p75bxd8gl57zzha0rw0s6bpdvhzp2isjc7wg";
       };
       packageRequires = [ ];
       meta = {
