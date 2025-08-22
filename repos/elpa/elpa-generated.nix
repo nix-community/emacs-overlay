@@ -7480,10 +7480,10 @@
     elpaBuild {
       pname = "rcirc-mentions";
       ename = "rcirc-mentions";
-      version = "1.0.2";
+      version = "1.0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/rcirc-mentions-1.0.2.tar";
-        sha256 = "1mwwzilg9500d5ck76029vfpphzfk0hdrrbam5r4ckgwzhj8wg4r";
+        url = "https://elpa.gnu.org/packages/rcirc-mentions-1.0.3.tar";
+        sha256 = "1dk651cm30kigbg8ns26k5fmr42ha9w6yx27j1iiwrxyifsxyb12";
       };
       packageRequires = [ ];
       meta = {

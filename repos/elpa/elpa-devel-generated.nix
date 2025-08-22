@@ -4409,10 +4409,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250817.193043";
+      version = "9.0.2pre0.20250819.124153";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250817.193043.tar";
-        sha256 = "00chigfxr00zj29hcfk0n42h8xywyhm6n34wcigs7r3swyiav7b8";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250819.124153.tar";
+        sha256 = "09798m66pv8f528djsqwcqqm3aa1y2a6nncm18n64ld9zppy82xc";
       };
       packageRequires = [ ];
       meta = {
@@ -7564,10 +7564,10 @@
     elpaBuild {
       pname = "rcirc-mentions";
       ename = "rcirc-mentions";
-      version = "1.0.2.0.20250820.70753";
+      version = "1.0.3.0.20250822.43114";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/rcirc-mentions-1.0.2.0.20250820.70753.tar";
-        sha256 = "1rqkjp89cvfjyff3p75bxd8gl57zzha0rw0s6bpdvhzp2isjc7wg";
+        url = "https://elpa.gnu.org/devel/rcirc-mentions-1.0.3.0.20250822.43114.tar";
+        sha256 = "064k7r6digaljdi156m49wcasf7k37rj195lxbarh18qavragqv7";
       };
       packageRequires = [ ];
       meta = {
