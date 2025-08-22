@@ -1525,10 +1525,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.7.0.20250818.134009";
+      version = "2.7.0.20250821.173915";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.7.0.20250818.134009.tar";
-        sha256 = "1mvsny11klr2zqi1yjandvbzv3sa74zlw4criy0wlp1pd4lr62z9";
+        url = "https://elpa.gnu.org/devel/consult-2.7.0.20250821.173915.tar";
+        sha256 = "18a831akjfipb42f1d158m9l40z17469f5crmlaqsp3384j9qk7h";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250820.72054";
+      version = "0.3.0.0.20250821.60718";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250820.72054.tar";
-        sha256 = "1595qiy7wagjd15vv8fl3941knw4yzz99bcryi38ylqcr135lq9j";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250821.60718.tar";
+        sha256 = "1szn21la13avyxp84wwdpw8mx1kb0lmi6cfxsqh7lamyplv29zrl";
       };
       packageRequires = [ ];
       meta = {
@@ -4558,10 +4558,10 @@
     elpaBuild {
       pname = "iso-date";
       ename = "iso-date";
-      version = "1.0.3.0.20250817.121727";
+      version = "1.0.3.0.20250821.102808";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/iso-date-1.0.3.0.20250817.121727.tar";
-        sha256 = "1wggs88zd7za6m9xwfnj9vf5fwpil7m0jva068cfqp42hmc5yymj";
+        url = "https://elpa.gnu.org/devel/iso-date-1.0.3.0.20250821.102808.tar";
+        sha256 = "049ccvix4w41jwkvbgryvly2bz7j7npvdrfalv59w0yrwnmf7hg9";
       };
       packageRequires = [ ];
       meta = {
@@ -6421,10 +6421,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.1.0.20250808.31708";
+      version = "1.1.0.20250820.180336";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250808.31708.tar";
-        sha256 = "1nxrj1hk7d747qwzjcswy1rl7i12ad4kdgmbpkf7ddszrjv092c9";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250820.180336.tar";
+        sha256 = "0s7wlh9a5fsbmp76lrxvcs4gz7xg6qky2d6q0ixbpb6pq6arxx4i";
       };
       packageRequires = [ org ];
       meta = {
@@ -7296,10 +7296,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20250808.123041";
+      version = "0.11.1.0.20250821.172233";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250808.123041.tar";
-        sha256 = "1293jgvr347xyhizhkk361jaq12nqfyvnvbcn3kfby6m6s87d7kf";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250821.172233.tar";
+        sha256 = "11fc9fr55s8j3402fh08kx2m802b26jm0zw279kriczf3f2mvqdg";
       };
       packageRequires = [ xref ];
       meta = {
