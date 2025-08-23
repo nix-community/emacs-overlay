@@ -4518,10 +4518,10 @@
     elpaBuild {
       pname = "iso-date";
       ename = "iso-date";
-      version = "1.0.3";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/iso-date-1.0.3.tar";
-        sha256 = "0j357wcw63ngvami2k8b3fx48f125z4d3k5akk1c16vpvcj49pv7";
+        url = "https://elpa.gnu.org/packages/iso-date-1.1.0.tar";
+        sha256 = "1bgs2n69kp0h2yr74dss34703lf7vd3c69viw1z6kh0qjhmqk9rb";
       };
       packageRequires = [ ];
       meta = {

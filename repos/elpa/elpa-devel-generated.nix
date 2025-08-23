@@ -2185,10 +2185,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.1.1.0.20250814.61304";
+      version = "0.1.1.0.20250822.171436";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250814.61304.tar";
-        sha256 = "0rv65hmj5xqywg8cljhkihrn5yndqpy0946g1m03q4nci0xp81nc";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250822.171436.tar";
+        sha256 = "07jn2s5wjra5xl9vr9lr6fllfbgj36d2q90l0yyyn9clcpkv1mgy";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250821.60718";
+      version = "0.3.0.0.20250822.125529";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250821.60718.tar";
-        sha256 = "1szn21la13avyxp84wwdpw8mx1kb0lmi6cfxsqh7lamyplv29zrl";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250822.125529.tar";
+        sha256 = "0jw724gd47kngnb14w8rx1kz8sf9846lqfl46z3lbw72xbahacmh";
       };
       packageRequires = [ ];
       meta = {
@@ -4558,10 +4558,10 @@
     elpaBuild {
       pname = "iso-date";
       ename = "iso-date";
-      version = "1.0.3.0.20250821.102808";
+      version = "1.1.0.0.20250822.125209";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/iso-date-1.0.3.0.20250821.102808.tar";
-        sha256 = "049ccvix4w41jwkvbgryvly2bz7j7npvdrfalv59w0yrwnmf7hg9";
+        url = "https://elpa.gnu.org/devel/iso-date-1.1.0.0.20250822.125209.tar";
+        sha256 = "00v5aiv7qrn5c8ngrzhawsmw78psjqvikrc8irigbjq9walmz12h";
       };
       packageRequires = [ ];
       meta = {
@@ -5000,10 +5000,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.5.0.0.20250814.201950";
+      version = "0.5.0.0.20250822.121413";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.5.0.0.20250814.201950.tar";
-        sha256 = "18j0f8vvq6d48zhvvx7x5i991j5s6qdxcbd4xjjl57hzvf3lda6l";
+        url = "https://elpa.gnu.org/devel/kubed-0.5.0.0.20250822.121413.tar";
+        sha256 = "1mnf64pghsdkx63i2bax7rdwdq6ribrd1krl5ri4p3gfkpsy1r56";
       };
       packageRequires = [ ];
       meta = {
@@ -8830,10 +8830,10 @@
     elpaBuild {
       pname = "svg-lib";
       ename = "svg-lib";
-      version = "0.3.0.20240219.161327";
+      version = "0.3.0.20250822.125859";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/svg-lib-0.3.0.20240219.161327.tar";
-        sha256 = "1qycnhjinmn1smajsniz34kv7jkl4gycjhsl6mxxjhq0432cw2fc";
+        url = "https://elpa.gnu.org/devel/svg-lib-0.3.0.20250822.125859.tar";
+        sha256 = "14ilvsml7j9xi9fkqhdxab6nmy979741fwxq72xpfl3j9ivymsrn";
       };
       packageRequires = [ ];
       meta = {
