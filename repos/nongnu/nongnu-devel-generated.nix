@@ -3876,10 +3876,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.0.3.0.20250601.105749";
+      version = "2.0.3.0.20250823.171415";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.3.0.20250601.105749.tar";
-        sha256 = "1dk63z953ph91llmh98xi1dfsbfkgp1q2mpn6m7l9wydv98y82w9";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.3.0.20250823.171415.tar";
+        sha256 = "0r2bwr197vcjlj9xdhxgkvmv3ndw48mj0hfjidwmbksnbw0a89k4";
       };
       packageRequires = [
         compat
