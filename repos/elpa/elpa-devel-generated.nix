@@ -7296,10 +7296,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20250821.172233";
+      version = "0.11.1.0.20250824.2348";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250821.172233.tar";
-        sha256 = "11fc9fr55s8j3402fh08kx2m802b26jm0zw279kriczf3f2mvqdg";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250824.2348.tar";
+        sha256 = "0rd684rv45snxn14h6z9dm2ffridygpcmphraszy953rn8syr7xx";
       };
       packageRequires = [ xref ];
       meta = {
@@ -9097,10 +9097,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.5.0.20250823.192853";
+      version = "1.5.0.20250823.200409";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.5.0.20250823.192853.tar";
-        sha256 = "0gn8yb5b7dqdhkhgsba4jpbl02q9rnsbx3yadvv26lszfyffm766";
+        url = "https://elpa.gnu.org/devel/tempel-1.5.0.20250823.200409.tar";
+        sha256 = "0rsaq2b0k37q03kq7rknfg26ma87j1m89n2l1s9s7pg9kvjqyrkk";
       };
       packageRequires = [ compat ];
       meta = {
