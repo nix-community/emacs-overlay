@@ -2401,10 +2401,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250822.200450";
+      version = "0.9.8.5.0.20250823.231025";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250822.200450.tar";
-        sha256 = "10sgndn1fpvl0avhhar5p64gj3dzz68glcphndngzvkc4q3n7lfb";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250823.231025.tar";
+        sha256 = "0lrydk1lby15iz4z9h1w23mhi4h6vfm6xdcan72qphg9d33xc33y";
       };
       packageRequires = [
         compat
@@ -3876,10 +3876,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.0.3.0.20250823.171415";
+      version = "2.0.3.0.20250823.203621";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.3.0.20250823.171415.tar";
-        sha256 = "0r2bwr197vcjlj9xdhxgkvmv3ndw48mj0hfjidwmbksnbw0a89k4";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.3.0.20250823.203621.tar";
+        sha256 = "0zdblah0hz8lcmvgq035djl79np57bb01ynm2kksflnpz6bsmhsk";
       };
       packageRequires = [
         compat
@@ -4124,10 +4124,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.58.0.20250813.134611";
+      version = "0.58.0.20250823.202123";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.58.0.20250813.134611.tar";
-        sha256 = "116hlglphqa1rq7ybj0dsi7nbwqspcjqkvi7swpaimfyh6cy165p";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.58.0.20250823.202123.tar";
+        sha256 = "0ddi6025ydm9dzacnnkiry72pc3lwdjb0gljslar15cl9ks2bi0x";
       };
       packageRequires = [ peg ];
       meta = {
