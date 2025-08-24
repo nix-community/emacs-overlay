@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.9.0.20250727.130554";
+      version = "1.9.9.0.20250823.110208";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20250727.130554.tar";
-        sha256 = "11cbjhdgbb3mjwkxm4gfd1w0b39bx02qrzyn1yhhbwkkhby20mvm";
+        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20250823.110208.tar";
+        sha256 = "0n4k5k7hk1vh2gdh2f5irz8dmzqrcxd8vfwjplv9jii07ja7j7jr";
       };
       packageRequires = [ ];
       meta = {
@@ -3589,10 +3589,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.1.0.20250816.174625";
+      version = "1.4.1.0.20250823.114435";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250816.174625.tar";
-        sha256 = "0kf7m3h4ki7la9gg3sy9bging3fzv6dz5i5w93f0mk2wswyshliv";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250823.114435.tar";
+        sha256 = "0xw00vq7p4vwxfcp9jlkajgpplipgs18hh522ld1mmg87likm0zq";
       };
       packageRequires = [
         eldoc
@@ -9097,10 +9097,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.5.0.20250804.224335";
+      version = "1.5.0.20250823.192853";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.5.0.20250804.224335.tar";
-        sha256 = "0q5q27prd8pc3q000jxadl36p3dhcpafygv2p9i9rjxf6an14fqj";
+        url = "https://elpa.gnu.org/devel/tempel-1.5.0.20250823.192853.tar";
+        sha256 = "0gn8yb5b7dqdhkhgsba4jpbl02q9rnsbx3yadvv26lszfyffm766";
       };
       packageRequires = [ compat ];
       meta = {
