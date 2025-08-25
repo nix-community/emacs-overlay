@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.9.0.20250824.165814";
+      version = "1.9.9.0.20250825.45650";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20250824.165814.tar";
-        sha256 = "1g3i6x2xvxqg0vqxnhxrd6mkdx1dmi4d8x8j0hq8rwpnzibksx55";
+        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20250825.45650.tar";
+        sha256 = "1csgfszy1dk7qqzcac6af0ih0kq9dhk1qvd1dslrh9glvfrw7gmz";
       };
       packageRequires = [ ];
       meta = {
@@ -3292,10 +3292,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1snapshot0.20250727.195728";
+      version = "5.6.1snapshot0.20250824.151502";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20250727.195728.tar";
-        sha256 = "03y9md5bcmgmfih17nhdj18qdb38j12s6w41sfz5zy3vw75qsm81";
+        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20250824.151502.tar";
+        sha256 = "1z1n3jfjl557n0c1v23cgxfj845alyq4mly99a4byfg3wsfv8qwm";
       };
       packageRequires = [ compat ];
       meta = {
