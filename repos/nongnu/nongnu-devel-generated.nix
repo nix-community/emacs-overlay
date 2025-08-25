@@ -2834,10 +2834,10 @@
     elpaBuild {
       pname = "idris-mode";
       ename = "idris-mode";
-      version = "1.1.0.0.20250424.90824";
+      version = "1.1.0.0.20250825.75833";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20250424.90824.tar";
-        sha256 = "0zs0z9p7c1xbsy0fw0q03x9z42d5ac37k4f2aljir0c62r5mckxl";
+        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20250825.75833.tar";
+        sha256 = "0ifxj3na8i0xhrkkh5j5xlassjxjv9snaybkaqd8ah5khj4y8cq9";
       };
       packageRequires = [
         cl-lib
