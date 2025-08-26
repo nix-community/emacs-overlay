@@ -27685,14 +27685,14 @@
   "url": "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git",
   "unstable": {
    "version": [
-    20250825,
-    733
+    20250826,
+    835
    ],
    "deps": [
     "debian-el"
    ],
-   "commit": "504ec3ae2639bf3c0e74ca6dbbb1de7c0596ed1b",
-   "sha256": "0pmwxh9cf5c72dp7vijghn0di0979b5m7jvrxxmbgpr1pzsva15n"
+   "commit": "9b0fc3d97ee5e859ec13d6ba5df67c31d5693c2a",
+   "sha256": "1dmf2iqf343s8slhgnwyfs1qb6nc5jwa5igqmlbh3kb6jdjqp5gp"
   },
   "stable": {
    "version": [
@@ -76633,8 +76633,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250823,
-    1716
+    20250826,
+    651
    ],
    "deps": [
     "compat",
@@ -76645,8 +76645,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "98a0447d975e5640a4f8dc64fdec506841b6f596",
-   "sha256": "0rm6yi792ls146xmqc5mwnnd64wvkpwy3fahdxxqsw9rw9f4a4hq"
+   "commit": "a47b5098c812b7a7932df802378cb754e3ad8639",
+   "sha256": "0nzsz3x0hnxg4y1wf3pag3dmrihpb6zbdpb7wkcas5mcxm55pnrr"
   },
   "stable": {
    "version": [
@@ -77240,8 +77240,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250822,
-    1855
+    20250826,
+    651
    ],
    "deps": [
     "compat",
@@ -77249,8 +77249,8 @@
     "llama",
     "seq"
    ],
-   "commit": "67a662022eb5e00ad0c281255c308ab5fce28985",
-   "sha256": "1fi2hn8s6m7ja25dby7r3alajjcnvzwz82fiw8whh5w3y854bwb4"
+   "commit": "a47b5098c812b7a7932df802378cb754e3ad8639",
+   "sha256": "0nzsz3x0hnxg4y1wf3pag3dmrihpb6zbdpb7wkcas5mcxm55pnrr"
   },
   "stable": {
    "version": [
@@ -88688,26 +88688,26 @@
   "repo": "oer/oer-reveal",
   "unstable": {
    "version": [
-    20250623,
-    1056
+    20250826,
+    1503
    ],
    "deps": [
     "org-re-reveal"
    ],
-   "commit": "3d2b94ecc9489c85a8bac09a3bdb690b0df1a9c6",
-   "sha256": "1r6rwiz53jd29w52spg8hslkmc105vpm5wscn01y2sc1m2njs058"
+   "commit": "20456112467fa6c962b242d1d6d4ddcc66488bd3",
+   "sha256": "16fmsczxzl19042i3qr48x3cynh9dj8kj9xglliq6a67nyz8c548"
   },
   "stable": {
    "version": [
     4,
-    32,
+    33,
     0
    ],
    "deps": [
     "org-re-reveal"
    ],
-   "commit": "e942059cdaf5ef36fcc7f1473c7261f9bb9bb740",
-   "sha256": "1lxmj4w9nqrh7i45jh528wjplbr4zs36d4ryjck1ankszgqvz02x"
+   "commit": "b115947c3d22b5db39bfed9a43a0bdee112be146",
+   "sha256": "1qgxxydml9bibqiq5sqd4rjvmc8qdvrc136nlngqaan13bxkhfi8"
   }
  },
  {
@@ -97341,14 +97341,14 @@
   "repo": "masfj/ox-review",
   "unstable": {
    "version": [
-    20220619,
-    724
+    20250826,
+    1233
    ],
    "deps": [
     "org"
    ],
-   "commit": "f7dc418f9812088afc0ee0d08f778a5654686ef3",
-   "sha256": "0yplmrzb2j47plj99l06mznva93wynsqjcz5v4bkryswnwn10jab"
+   "commit": "516bce8fb298e84d813d3c65b9cba200fa72e3b0",
+   "sha256": "1b48b1inr3q1155449jdcsd8pwns5k2j5rjgx7hnjj7fyf59w901"
   },
   "stable": {
    "version": [
@@ -101183,11 +101183,11 @@
   "repo": "EricCrosson/pine-script-mode",
   "unstable": {
    "version": [
-    20250824,
-    1016
+    20250826,
+    901
    ],
-   "commit": "203ba62b1c36620dc59a85c5f6084037db48b146",
-   "sha256": "0mfc7wfn7abfhfp8b6iggsasp6bqvbj20yjqrrf7plrnv70czzdc"
+   "commit": "f8c8ae596ca6296b9d5f618ff5b82c223d007ed5",
+   "sha256": "0f87m18b7jap06p4ycdhrwbcz4cz4h324cx94d8rn0hyw8bahqd5"
   },
   "stable": {
    "version": [
@@ -109783,20 +109783,20 @@
   "repo": "BHFock/repo-grep",
   "unstable": {
    "version": [
-    20250714,
-    627
+    20250826,
+    1109
    ],
-   "commit": "d2732d30eb9b2a5b4fc3359f40424bd4a4dc2d4d",
-   "sha256": "1l32jmcblzq06c8yv5j00wgj2dhiajvfzmc3siq7286yzdhk2rng"
+   "commit": "98dd4b492d93b8d13f9bc7b80efe91577c13e779",
+   "sha256": "1fhj9hyxawn3pdy0jhnc4fw1dfrxzm13q36bkz51kcnw2lkl1njk"
   },
   "stable": {
    "version": [
     1,
     5,
-    1
+    2
    ],
-   "commit": "d2732d30eb9b2a5b4fc3359f40424bd4a4dc2d4d",
-   "sha256": "1l32jmcblzq06c8yv5j00wgj2dhiajvfzmc3siq7286yzdhk2rng"
+   "commit": "98dd4b492d93b8d13f9bc7b80efe91577c13e779",
+   "sha256": "1fhj9hyxawn3pdy0jhnc4fw1dfrxzm13q36bkz51kcnw2lkl1njk"
   }
  },
  {
