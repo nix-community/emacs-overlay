@@ -1919,10 +1919,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250825.172742";
+      version = "0.24.1.0.20250826.202424";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250825.172742.tar";
-        sha256 = "14dnib8w7lv2w7a0ha0q5yq3rkmndq71xkszbp1fjljfdy0m7p06";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250826.202424.tar";
+        sha256 = "1nlb6cbc947ya7y8zl58j08kpb3cyqn8ii8km1m07icn3160wgq7";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -5626,10 +5626,10 @@
     elpaBuild {
       pname = "mct";
       ename = "mct";
-      version = "1.1.0.0.20250724.62824";
+      version = "1.1.0.0.20250827.55853";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mct-1.1.0.0.20250724.62824.tar";
-        sha256 = "0gvznkbcd8igj9bkz249zc9qwzy07qayil38a2d7b25b2mfbchsq";
+        url = "https://elpa.gnu.org/devel/mct-1.1.0.0.20250827.55853.tar";
+        sha256 = "0hspc3q453k7wmaiwh9q4b83n41l5fp2nc6di3slzghpjfnskpp6";
       };
       packageRequires = [ ];
       meta = {
@@ -6421,10 +6421,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.1.0.20250820.180336";
+      version = "1.1.0.20250827.65710";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250820.180336.tar";
-        sha256 = "0s7wlh9a5fsbmp76lrxvcs4gz7xg6qky2d6q0ixbpb6pq6arxx4i";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250827.65710.tar";
+        sha256 = "1xlbayrwmmp3p7fi67ifkhyrwplxhqwgkxk5yj09r2nchj6pbkkv";
       };
       packageRequires = [ org ];
       meta = {
@@ -8251,10 +8251,10 @@
     elpaBuild {
       pname = "show-font";
       ename = "show-font";
-      version = "0.4.0.0.20250826.122705";
+      version = "0.4.1.0.20250827.35522";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/show-font-0.4.0.0.20250826.122705.tar";
-        sha256 = "05hac9z65fj9lahska418hky66r11dji6xr0mpdjcdr84vh1b1x3";
+        url = "https://elpa.gnu.org/devel/show-font-0.4.1.0.20250827.35522.tar";
+        sha256 = "0jgrzcrmgi64v6984wjlmvmvmh69h3bg100f8x8i74abpfdpcaya";
       };
       packageRequires = [ ];
       meta = {
