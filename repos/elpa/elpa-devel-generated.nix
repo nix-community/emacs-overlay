@@ -3411,10 +3411,10 @@
     elpaBuild {
       pname = "expreg";
       ename = "expreg";
-      version = "1.4.1.0.20250703.235736";
+      version = "1.4.1.0.20250827.212346";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/expreg-1.4.1.0.20250703.235736.tar";
-        sha256 = "0v661v52xhni1mljz8b952vaybkj30542xjabkfzdn6bby98k118";
+        url = "https://elpa.gnu.org/devel/expreg-1.4.1.0.20250827.212346.tar";
+        sha256 = "0j6gbpyz242hij85s24c3982lp1hazrh7jxh86l2nab5jwvirr4b";
       };
       packageRequires = [ ];
       meta = {
