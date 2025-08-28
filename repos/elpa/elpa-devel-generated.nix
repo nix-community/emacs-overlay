@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.1.1.0.20250826.41610";
+      version = "0.1.1.0.20250827.132220";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250826.41610.tar";
-        sha256 = "0c17447h15c9s61rrww6kp45lhrz2an18hb6nkx7ryzy0lqdvss9";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250827.132220.tar";
+        sha256 = "1d6h3fficvysyblzyzwaprbqcqcrzdjr783cw1hx35n8qw93x2z4";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2297,10 +2297,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "0.6.0.20250804.224351";
+      version = "0.6.0.20250827.115916";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dicom-0.6.0.20250804.224351.tar";
-        sha256 = "1prlld2r6cc38gdkkbgh6pnbxq8z64xrn77x18l0rvj9fi0x6lk0";
+        url = "https://elpa.gnu.org/devel/dicom-0.6.0.20250827.115916.tar";
+        sha256 = "07jaif6x5vry08wzq76v20ssadj0izvg2h9lqnxr4xkvclgqz9nd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250823.65805";
+      version = "0.3.0.0.20250827.104747";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250823.65805.tar";
-        sha256 = "1iy73srwflia95x7kzjb35dp99p608a5yb5vs3z0qzasmm6b4axy";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250827.104747.tar";
+        sha256 = "03y2360zfzr830i272vrlyli1467p6l9y9xfdk44adiax1xakifk";
       };
       packageRequires = [ ];
       meta = {
@@ -6518,10 +6518,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.9.0.20250804.224509";
+      version = "1.9.0.20250827.121317";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.9.0.20250804.224509.tar";
-        sha256 = "10rffsxn989yqqawdg36ymz3i1k82z1hwp4l49gy37szcrpmc5ps";
+        url = "https://elpa.gnu.org/devel/org-modern-1.9.0.20250827.121317.tar";
+        sha256 = "0ifhr42540hpnmls76hicds4yxwpc97yd2xlzcd24616xbr120sw";
       };
       packageRequires = [
         compat
@@ -9978,10 +9978,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.4.0.20250824.101737";
+      version = "2.4.0.20250827.134156";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.4.0.20250824.101737.tar";
-        sha256 = "0xkad13qk8aibmd1j40lv1l30bifav2pfmh07cy6j548nb7y5d8j";
+        url = "https://elpa.gnu.org/devel/vertico-2.4.0.20250827.134156.tar";
+        sha256 = "1gi98iy7hm27mq88s3qkx0qk33adlsdibl4gjd57aczyc2jwfvsy";
       };
       packageRequires = [ compat ];
       meta = {
