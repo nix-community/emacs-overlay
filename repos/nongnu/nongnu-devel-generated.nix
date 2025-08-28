@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.20.0snapshot0.20250806.194437";
+      version = "1.20.0snapshot0.20250827.93342";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.20.0snapshot0.20250806.194437.tar";
-        sha256 = "1z7v7f8pal8z4pgr6qzmh1g8ir1rdwshx2hifzngkp33lqmvd15x";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.20.0snapshot0.20250827.93342.tar";
+        sha256 = "0irsmhk3rrvxkr2kanm0p7h26297mhjwiw33qlw5vz626si7dr4h";
       };
       packageRequires = [
         clojure-mode
@@ -651,6 +651,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/coffee-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  cond-let = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "cond-let";
+      ename = "cond-let";
+      version = "0.1.0.0.20250823.171541";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-0.1.0.0.20250823.171541.tar";
+        sha256 = "0p4k9mij4p75m7pfcg7h7q0hvfsqvfa76bjjzw33g6s5bbzlzwsi";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/cond-let.html";
         license = lib.licenses.free;
       };
     }
@@ -4124,10 +4145,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.58.0.20250823.202123";
+      version = "0.58.0.20250827.115343";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.58.0.20250823.202123.tar";
-        sha256 = "0ddi6025ydm9dzacnnkiry72pc3lwdjb0gljslar15cl9ks2bi0x";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.58.0.20250827.115343.tar";
+        sha256 = "17ibr5kshhi9vx9w59nsg3sl0mwxljkdbmajph3zy4r8hsc6zlys";
       };
       packageRequires = [ peg ];
       meta = {
@@ -4273,10 +4294,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250711.83643";
+      version = "1.0.20250827.113314";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250711.83643.tar";
-        sha256 = "0fz97vmiwlqbgvbzp0zaa5jy5pbpdbhzg16db1rg01f101x5368h";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250827.113314.tar";
+        sha256 = "0kx08d3na4xcr01flkg5jc7l5hpmbpz8dvnrw92sfjb5grbzjsxp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5412,10 +5433,10 @@
     elpaBuild {
       pname = "web-mode";
       ename = "web-mode";
-      version = "17.3.21.0.20250714.65721";
+      version = "17.3.22.0.20250827.131545";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/web-mode-17.3.21.0.20250714.65721.tar";
-        sha256 = "0v4jcv0lcm4gds8m086f79wpbd0d64i0y1cf8z5rvrx8psf93wpc";
+        url = "https://elpa.nongnu.org/nongnu-devel/web-mode-17.3.22.0.20250827.131545.tar";
+        sha256 = "1qlkdzcm8y3aa3wsh53da7360gavfz3rsvin022581sq05bwys5z";
       };
       packageRequires = [ ];
       meta = {
