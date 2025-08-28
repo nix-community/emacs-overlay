@@ -12536,15 +12536,15 @@
   "repo": "xenodium/chatgpt-shell",
   "unstable": {
    "version": [
-    20250825,
-    1527
+    20250828,
+    837
    ],
    "deps": [
     "shell-maker",
     "transient"
    ],
-   "commit": "cda5d96d9b01b28cff527ff1134a2df5e9a2731a",
-   "sha256": "04lx5qlw5srbr2rhd0w3z6ikvwcbzsyz623k4rw6yr4ps82dfgyp"
+   "commit": "cdde960ce5e20108e60e38e394b1a658905780b8",
+   "sha256": "0q1wwsjqqzlhbryx5yp2xwv792ymw2and53r75wy8zccskhikrpj"
   },
   "stable": {
    "version": [
@@ -34407,15 +34407,15 @@
   "repo": "purcell/envrc",
   "unstable": {
    "version": [
-    20250728,
-    1241
+    20250828,
+    1307
    ],
    "deps": [
     "inheritenv",
     "seq"
    ],
-   "commit": "189bafea47c3110ec897c1c5bc1558fbcc407b85",
-   "sha256": "0ddp1b5ql7rlcdv1mrcdjwm5lz9flxsfd44ffjjf2wmijym9p9pl"
+   "commit": "48a2ee6a4d6a36b1dc76efa321b9b9c8bc11d73b",
+   "sha256": "06ljl428409zvrvkl3f6ampjwmmz8n105knhzvhalpgjlxq9x26h"
   },
   "stable": {
    "version": [
@@ -76633,8 +76633,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250826,
-    1908
+    20250828,
+    1134
    ],
    "deps": [
     "compat",
@@ -76645,8 +76645,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "c595f6aef8bbacedaaf95d4b22a77f2e41c1728d",
-   "sha256": "0wb9llgiq4aqw60h1snwl0lz16n0n3fx5xr3l2i8j9d1lxbpcx68"
+   "commit": "7de46ddeb30e095645d93d73bbbc5fe3e8565ac5",
+   "sha256": "1lb7cgw16kdmm2vvwz0wyvbykifpb4vh93f0nb8vvr1kcdi74jg3"
   },
   "stable": {
    "version": [
@@ -82434,13 +82434,13 @@
   "unstable": {
    "version": [
     20250828,
-    18
+    1342
    ],
    "deps": [
     "emms"
    ],
-   "commit": "737f0066b9ad5678d38e4e40c3acf53f2e2c0837",
-   "sha256": "1b97xqg3s0354x89wr6dcgm12ksj9xahz1fy5w34906mibn68x7i"
+   "commit": "387356a6baf866ea83697fa4fe9d031e58091dd8",
+   "sha256": "0fx32a9h92zmnn9kq974kks81q5whn7s59f269m22jdv0iflk3qf"
   },
   "stable": {
    "version": [
@@ -84290,11 +84290,11 @@
   "repo": "rainstormstudio/nerd-icons.el",
   "unstable": {
    "version": [
-    20250815,
-    814
+    20250828,
+    1311
    ],
-   "commit": "e98b14248fec120cc23c5f3a5aa1128d98156c2c",
-   "sha256": "0162hhvm9cqcxxaj3g918p06kcbhzk2iyy1hckdvagsg7sb24cjn"
+   "commit": "203a5e8f45a2874228031c8c5726363cd98d3292",
+   "sha256": "1fi83cgn247c8jqnk2zfgf564gfkq81bxkppgpbqmb3yn37yrw9p"
   },
   "stable": {
    "version": [
@@ -95072,11 +95072,11 @@
   "repo": "pinoaffe/org-vcard",
   "unstable": {
    "version": [
-    20250823,
-    1318
+    20250828,
+    809
    ],
-   "commit": "d160870fa80b08007ea1a0f6bf1cc35f9ba6db1d",
-   "sha256": "1dbsiihs5rmnk35xqymabjrxprn5jrjf4wjrslb0kvz5ig4vphxq"
+   "commit": "03c504c34e5c31091d971090b249064e332987d7",
+   "sha256": "06w4w3wxsrbv67ssnlpk8sj4jg4qvgc87cyaiin8h9f4az3yivkz"
   },
   "stable": {
    "version": [
@@ -135792,11 +135792,7 @@
     "compat"
    ],
    "commit": "ec4bfee68b40e94cec47b08806c9d68e7e66362a",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2954-3388901811/nix-shell-3146-2810843100/nix-shell-3182-3389976120/git-checkout-tmp-YnPZPeui/clone/.git/\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nUnable to checkout ec4bfee68b40e94cec47b08806c9d68e7e66362a from https://git.thanosapollo.org/yeetube.\n"
-   ]
+   "sha256": "1kqlb24yyxwrxhw78iclwhqh17qsk1gq31vjs83789b2746dj9l7"
   },
   "stable": {
    "version": [
