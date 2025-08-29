@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.9.0.20250826.51747";
+      version = "1.9.9.0.20250828.174810";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20250826.51747.tar";
-        sha256 = "1a05lli45vls1qdy7bvgb0vb1drm3q8dlbn67hzyszscknrrnjal";
+        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20250828.174810.tar";
+        sha256 = "1cdra17pnz8yyd1krx4zgfsmmszn8pyqz5g8nszv912s1cgldwxh";
       };
       packageRequires = [ ];
       meta = {
@@ -7252,10 +7252,10 @@
     elpaBuild {
       pname = "preview-auto";
       ename = "preview-auto";
-      version = "0.4.0.20241203.135521";
+      version = "0.4.0.20250828.151457";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/preview-auto-0.4.0.20241203.135521.tar";
-        sha256 = "0pcncvr4nv251fm0c66c3wqazv89vxqcv9j2jq0kvylx9ks2vzaz";
+        url = "https://elpa.gnu.org/devel/preview-auto-0.4.0.20250828.151457.tar";
+        sha256 = "01481nhj9vfhfib3hjf2m71xam5ss63h2hj41pbpyx8ig6d1g5h0";
       };
       packageRequires = [ auctex ];
       meta = {
@@ -9845,10 +9845,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.3.0.20250825.81224";
+      version = "0.3.0.20250828.80110";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250825.81224.tar";
-        sha256 = "1f3xclsgglk93b2h7nc6gclydg578ffzc7zqxlbgbxbri5kmb0a9";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.3.0.20250828.80110.tar";
+        sha256 = "0zd0xg0p68ha0vm8ncw900z9slqm8bgzsv8rll05xjawbxymwmkg";
       };
       packageRequires = [ compat ];
       meta = {
