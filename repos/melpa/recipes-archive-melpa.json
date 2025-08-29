@@ -9995,16 +9995,16 @@
   "repo": "countvajhula/buffer-ring",
   "unstable": {
    "version": [
-    20250507,
-    1635
+    20250829,
+    120
    ],
    "deps": [
     "dynaring",
     "ht",
     "s"
    ],
-   "commit": "7359c523d2ae222137602907d37852d102394c5a",
-   "sha256": "0vvyrbmw5pr1my5m93pm2wh1vg5li0zvcvhddn1km3kywhk5p98p"
+   "commit": "885c612c1629b7fcdeeb7e205d85743008ab1d2b",
+   "sha256": "024wiffbi017apdksmbymjzrz8gam77b0n47zqb602vx633jrm9m"
   },
   "stable": {
    "version": [
@@ -18620,14 +18620,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20250821,
-    1739
+    20250828,
+    2351
    ],
    "deps": [
     "compat"
    ],
-   "commit": "c8bbb3f1e2fbbdcca773498e2db168c0929c3434",
-   "sha256": "1in3qiqlfzcwib34dd01v6a5y5h84p2nr94bn7gi32mw9p9b3z8m"
+   "commit": "51c5d3dcaac644db9b196d29fc624023288b24c5",
+   "sha256": "1hwwxb6m35fqgf15rvp5qds3zzb56c549lvcy2zkg4541mzk79wd"
   },
   "stable": {
    "version": [
@@ -27685,14 +27685,14 @@
   "url": "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git",
   "unstable": {
    "version": [
-    20250828,
-    2022
+    20250829,
+    1007
    ],
    "deps": [
     "debian-el"
    ],
-   "commit": "7b128285b7c0bfaa474defdabf4b1ea33143b884",
-   "sha256": "0jvyw11m6wnd3sjmmp3l48b7vjsa9a4wax9v7b0xxqvlkrj2anf6"
+   "commit": "01e03877e37aad3cae5ece965ce656e03345eb3d",
+   "sha256": "0arnwlq7syizjhaaicjc9mw7jji6zibws2sasp7vm5rmrw2qzs9r"
   },
   "stable": {
    "version": [
@@ -29027,21 +29027,21 @@
   "repo": "masasam/emacs-easy-hugo",
   "unstable": {
    "version": [
-    20250701,
-    2138
+    20250829,
+    628
    ],
    "deps": [
     "popup",
     "request",
     "transient"
    ],
-   "commit": "649aa56b1f7a2fc096aedc417316ef4ec0082957",
-   "sha256": "1fndy1w6a3dqlfjrghjlqrjpdbaaj434ljzm4qnkcdr1pfr85jiy"
+   "commit": "abd6799bd541195c8239c8c9085ed398ffe744ba",
+   "sha256": "0c5ms9v63k0l5ni1mrbsz7jrnjkzdcvh9x7f2fpi4n3s9jfmxp2z"
   },
   "stable": {
    "version": [
     3,
-    11,
+    12,
     61
    ],
    "deps": [
@@ -29049,8 +29049,8 @@
     "request",
     "transient"
    ],
-   "commit": "649aa56b1f7a2fc096aedc417316ef4ec0082957",
-   "sha256": "1fndy1w6a3dqlfjrghjlqrjpdbaaj434ljzm4qnkcdr1pfr85jiy"
+   "commit": "abd6799bd541195c8239c8c9085ed398ffe744ba",
+   "sha256": "0c5ms9v63k0l5ni1mrbsz7jrnjkzdcvh9x7f2fpi4n3s9jfmxp2z"
   }
  },
  {
@@ -55913,15 +55913,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20250826,
-    1231
+    20250828,
+    928
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "c8d147be4d89cb3355b89a645ba3703a46bad15d",
-   "sha256": "1bdrx77ncd44qc7nfw68f2kk8l38qzkcr3j1plsplfiafna13wcm"
+   "commit": "5aec5f45e496049f7264d17d7cb3b9f5c2b81f12",
+   "sha256": "1vdpp5nqpy3drwvxdlmlpalz2xrjs6yn58hczxiawiiwn2q15mv3"
   },
   "stable": {
    "version": [
@@ -76601,15 +76601,15 @@
   "repo": "roadrunner1776/magik",
   "unstable": {
    "version": [
-    20250827,
-    1102
+    20250829,
+    1413
    ],
    "deps": [
     "compat",
     "yasnippet"
    ],
-   "commit": "1a4fb46c0ea161bdf28af17656750360542b9281",
-   "sha256": "13g8cv9yx6ykjccvb25rmzv3vvpv4nk99203ypdg88gfwpyv1rdg"
+   "commit": "b80706e72e4dc866ef67c63e25ea9afd1fee418d",
+   "sha256": "0pzgs09vfgmv574hbi0wv26qp9jccfzsbi8mrmmc4y7n7myjwl2p"
   },
   "stable": {
    "version": [
@@ -76634,7 +76634,7 @@
   "unstable": {
    "version": [
     20250828,
-    1134
+    2031
    ],
    "deps": [
     "compat",
@@ -76645,8 +76645,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "7de46ddeb30e095645d93d73bbbc5fe3e8565ac5",
-   "sha256": "1lb7cgw16kdmm2vvwz0wyvbykifpb4vh93f0nb8vvr1kcdi74jg3"
+   "commit": "79adfbb22c398d7a273cc57c82037c2031216927",
+   "sha256": "0ma9ijzbsvk15qlnw5knhjihrczac0shfhqrnfb7fr1wydap18z0"
   },
   "stable": {
    "version": [
@@ -78955,14 +78955,14 @@
   "repo": "lizqwerscott/mcp.el",
   "unstable": {
    "version": [
-    20250727,
-    749
+    20250829,
+    1241
    ],
    "deps": [
     "jsonrpc"
    ],
-   "commit": "4708c5849ce4ddb632016eca662a7405bfa642d4",
-   "sha256": "11x3jscm4iggyy926aidiv95lrbcncngbvivsybvzjvbhdxhb65h"
+   "commit": "5f06a78fe74f58888f115bf30838ede5e013f4af",
+   "sha256": "1658v7xm8wglp9i6icqbwm9l8w808kc71v3p97x8xnlanmaajsys"
   }
  },
  {
@@ -82433,14 +82433,14 @@
   "repo": "lorniu/mpvi",
   "unstable": {
    "version": [
-    20250828,
-    1622
+    20250829,
+    727
    ],
    "deps": [
     "emms"
    ],
-   "commit": "d3895e3247d2a6ced2cbe088d28d297b65498167",
-   "sha256": "11a1y8592ji7j8mmw6rqsafb7xlb9q70rqn5xiqf6qg8q4brlpf9"
+   "commit": "78fdc8d32c9443462829a83526a3841d06cd1a9d",
+   "sha256": "0a8w6bs48a3iw72vmcx4bd903czkwksywics3l2m3vh35bsgzz1l"
   },
   "stable": {
    "version": [
@@ -84290,11 +84290,11 @@
   "repo": "rainstormstudio/nerd-icons.el",
   "unstable": {
    "version": [
-    20250828,
-    1311
+    20250829,
+    1411
    ],
-   "commit": "203a5e8f45a2874228031c8c5726363cd98d3292",
-   "sha256": "1fi83cgn247c8jqnk2zfgf564gfkq81bxkppgpbqmb3yn37yrw9p"
+   "commit": "6868c05c6eb56c6625ee7fa38450b514542ab636",
+   "sha256": "0bpbd5rr638cc5py4nv0wi98k4k1scq2iybmi2xayf0a5kgp1nn2"
   },
   "stable": {
    "version": [
@@ -84955,14 +84955,14 @@
   "repo": "ninetyfive-gg/ninetyfive.el",
   "unstable": {
    "version": [
-    20250819,
-    2039
+    20250829,
+    1430
    ],
    "deps": [
     "websocket"
    ],
-   "commit": "6c3b47e4a53ce18e62e7a24f01988ac370d3dfe4",
-   "sha256": "0s2049jga3q28kbd4qrl0rka8d0cn6ii2sk1539wcqp7ickpf4w7"
+   "commit": "e330aa250b05dac98038fe794f9d34ee604f3a58",
+   "sha256": "1mxbw4pz4fmwqsn0ydvisrc7zggg1lzkxblbwngwmljdiy36jsaf"
   }
  },
  {
@@ -108333,11 +108333,11 @@
   "repo": "xenodium/ready-player",
   "unstable": {
    "version": [
-    20250826,
-    451
+    20250829,
+    1430
    ],
-   "commit": "c78300c0afaf9328bac66bab083a2f0b8e10fd25",
-   "sha256": "187mkiy8a9zb1zjq645xiidwv6spbbp5nssng745jlm0a5fbib4q"
+   "commit": "d4459aa3212075266738b48bfdb2a5960db35426",
+   "sha256": "1v0kmv10m9ng3px56rzpw66rd8vrqg5b2xgxg7jrdk8mbqrjgfld"
   },
   "stable": {
    "version": [
