@@ -32,8 +32,6 @@ let
                                super.lib.optionals (super.stdenv.isLinux && super.stdenv.isAarch64)
                                  [ "--enable-check-lisp-object-type" ];
 
-              nativeBuildInputs = old.nativeBuildInputs ++ [ self.autoreconfHook self.texinfo ];
-
               postPatch = old.postPatch + ''
                 substituteInPlace lisp/loadup.el \
                 --replace-warn '(emacs-repository-get-version)' '"${repoMeta.rev}"' \
