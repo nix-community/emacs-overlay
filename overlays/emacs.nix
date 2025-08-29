@@ -16,7 +16,7 @@ let
       super.emacs
       ([
 
-        (drv: drv.override ({ withXwidgets = false; } // args))
+        (drv: drv.override ({ srcRepo = true; withXwidgets = false; } // args))
 
         (
           drv: drv.overrideAttrs (
