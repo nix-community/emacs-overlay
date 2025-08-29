@@ -79,9 +79,6 @@
                 inherit (pkgs) emacs-lsp;
                 inherit (pkgs) commercial-emacs;
               };
-
-              packages = mkEmacsSet pkgs.emacs;
-              packages-unstable = mkEmacsSet pkgs.emacs-unstable;
             };
 
         in
