@@ -1525,10 +1525,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.7.0.20250821.173915";
+      version = "2.7.0.20250828.235154";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.7.0.20250821.173915.tar";
-        sha256 = "18a831akjfipb42f1d158m9l40z17469f5crmlaqsp3384j9qk7h";
+        url = "https://elpa.gnu.org/devel/consult-2.7.0.20250828.235154.tar";
+        sha256 = "1b1dm19f5y0q3xilf36fimnm4x7w2hl9bv8sks1j7jx9is683f6v";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7252,10 +7252,10 @@
     elpaBuild {
       pname = "preview-auto";
       ename = "preview-auto";
-      version = "0.4.0.20250828.151457";
+      version = "0.4.1.0.20250829.60323";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/preview-auto-0.4.0.20250828.151457.tar";
-        sha256 = "01481nhj9vfhfib3hjf2m71xam5ss63h2hj41pbpyx8ig6d1g5h0";
+        url = "https://elpa.gnu.org/devel/preview-auto-0.4.1.0.20250829.60323.tar";
+        sha256 = "0qbpzbwfg1d3jh7nh7xvxhy4pdmxd75yzl652vcyb7cy8h4kc6ac";
       };
       packageRequires = [ auctex ];
       meta = {

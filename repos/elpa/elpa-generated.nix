@@ -7169,10 +7169,10 @@
     elpaBuild {
       pname = "preview-auto";
       ename = "preview-auto";
-      version = "0.4";
+      version = "0.4.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/preview-auto-0.4.tar";
-        sha256 = "0jsahj6ylrs4hlr57i0ibkj9bhc3jbg84k3pk8g5rg27xiwncczy";
+        url = "https://elpa.gnu.org/packages/preview-auto-0.4.1.tar";
+        sha256 = "0wdjka1wixhlzi1sksswa2jnialpna0gj770z0gl6faxdi310p9l";
       };
       packageRequires = [ auctex ];
       meta = {
