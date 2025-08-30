@@ -8062,10 +8062,10 @@
     elpaBuild {
       pname = "setup";
       ename = "setup";
-      version = "1.4.0";
+      version = "1.5.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/setup-1.4.0.tar";
-        sha256 = "0id7j8xvbkbpfiv7m55dl64y27dpiczljagldf4p9q6qwlhf42f7";
+        url = "https://elpa.gnu.org/packages/setup-1.5.0.tar";
+        sha256 = "184g3kd9caxyhwq41w94spkjs1j45vblg4sqfb5h5pqb5h9p95n5";
       };
       packageRequires = [ ];
       meta = {
