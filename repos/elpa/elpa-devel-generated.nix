@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.1.1.0.20250827.132220";
+      version = "0.1.1.0.20250830.74244";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250827.132220.tar";
-        sha256 = "1d6h3fficvysyblzyzwaprbqcqcrzdjr783cw1hx35n8qw93x2z4";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250830.74244.tar";
+        sha256 = "0srajiw9spj9cff5jxn1cp503lsy4mx2w3daxagdp4b6yl12ydli";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250827.104747";
+      version = "0.3.0.0.20250830.72441";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250827.104747.tar";
-        sha256 = "03y2360zfzr830i272vrlyli1467p6l9y9xfdk44adiax1xakifk";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250830.72441.tar";
+        sha256 = "14ds4f69fw0iyl0j0vcc41bi3mkrjardikxysljsyhf6915zpdq6";
       };
       packageRequires = [ ];
       meta = {
@@ -9335,10 +9335,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.0.1.0.20250730.65308";
+      version = "2.8.0.2.0.20250830.70957";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.8.0.1.0.20250730.65308.tar";
-        sha256 = "1yzd022xgx5x81k19pam97lw0sr75xz4pns681h77q5yhwz4r3yr";
+        url = "https://elpa.gnu.org/devel/tramp-2.8.0.2.0.20250830.70957.tar";
+        sha256 = "1bzv2lrmkfia2k5z6gw7wr29zaahx3jgb4yzn2mixd36yp3s9p46";
       };
       packageRequires = [ ];
       meta = {
