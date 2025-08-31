@@ -2422,10 +2422,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250823.231025";
+      version = "0.9.8.5.0.20250830.25020";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250823.231025.tar";
-        sha256 = "0lrydk1lby15iz4z9h1w23mhi4h6vfm6xdcan72qphg9d33xc33y";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250830.25020.tar";
+        sha256 = "1kjwc2yp606sq2px1skqa85mx9qnd3pqlj111kk9nhiyy44q0n77";
       };
       packageRequires = [
         compat
@@ -2619,10 +2619,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.5.0.20250828.92820";
+      version = "4.0.5.0.20250830.61835";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.5.0.20250828.92820.tar";
-        sha256 = "1zyd82rjp9h5mgilgc02xz03vvakd7d9j7ryyicy74gkpjv9pq75";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.5.0.20250830.61835.tar";
+        sha256 = "0an7lf7811lqqyzpbdg4xnm0v6gn1qpha6wwjyli4cln099j828x";
       };
       packageRequires = [
         helm-core
@@ -2644,10 +2644,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.5.0.20250828.92820";
+      version = "4.0.5.0.20250830.61835";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.5.0.20250828.92820.tar";
-        sha256 = "1z6k5cfab8bqw9461lw1n2nhang27647a8sra1s9j8i0y03zwq33";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.5.0.20250830.61835.tar";
+        sha256 = "1mzciwlvybb5qk47rnw4zlqq7axbbalbcdjbb0a94j13zqc2waqd";
       };
       packageRequires = [ async ];
       meta = {
@@ -3826,10 +3826,10 @@
     elpaBuild {
       pname = "org-superstar";
       ename = "org-superstar";
-      version = "1.5.1.0.20230116.151025";
+      version = "1.6.0.0.20250830.181245";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-superstar-1.5.1.0.20230116.151025.tar";
-        sha256 = "02f3lzb8k51rhf13a2warvhg8ib11wagw1zrfaknni7ssiwdj3x6";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-superstar-1.6.0.0.20250830.181245.tar";
+        sha256 = "0wfpc64zz0gy9vcni332vs45v8a55my09g2v4ail416i88amrz2d";
       };
       packageRequires = [ org ];
       meta = {

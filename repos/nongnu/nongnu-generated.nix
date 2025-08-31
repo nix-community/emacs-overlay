@@ -3849,10 +3849,10 @@
     elpaBuild {
       pname = "org-superstar";
       ename = "org-superstar";
-      version = "1.5.1";
+      version = "1.6.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/org-superstar-1.5.1.tar";
-        sha256 = "1v6v7a0frgxlywfq6g4mdl6sz448k2ql7j4j4f1wrll33mr7gx8g";
+        url = "https://elpa.nongnu.org/nongnu/org-superstar-1.6.0.tar";
+        sha256 = "1w0fqf44wc2ri7bwm9lzwnsrl72n15qzvckljdl4mh97m133pb6i";
       };
       packageRequires = [ org ];
       meta = {
