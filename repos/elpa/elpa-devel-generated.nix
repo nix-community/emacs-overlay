@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.9.0.20250828.174810";
+      version = "1.9.9.0.20250831.122541";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20250828.174810.tar";
-        sha256 = "1cdra17pnz8yyd1krx4zgfsmmszn8pyqz5g8nszv912s1cgldwxh";
+        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20250831.122541.tar";
+        sha256 = "01gxkxpwp5pgswz8l73q85148y0j9ybcgdd9w8fsmkdd4g1q0wdh";
       };
       packageRequires = [ ];
       meta = {
@@ -1638,10 +1638,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.3.0.20250804.224308";
+      version = "2.3.0.20250831.150344";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.3.0.20250804.224308.tar";
-        sha256 = "0vbn7lg0706s8hjizzwda6wm105pkhfmc825y3a64imi1brz17dw";
+        url = "https://elpa.gnu.org/devel/corfu-2.3.0.20250831.150344.tar";
+        sha256 = "1gai9rd0v9qb298k08vpc6k6vxj670lf27saxssxwiqr16z2c4yz";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2845,10 +2845,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20250607.0.20250607.11108";
+      version = "20250607.0.20250831.20707";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20250607.0.20250607.11108.tar";
-        sha256 = "1gjqyr05qyp491dp095q2i9rq87g55ifbi1qy2z3i8s1ghfyp00l";
+        url = "https://elpa.gnu.org/devel/eev-20250607.0.20250831.20707.tar";
+        sha256 = "0zgykx9fsqi8wdaimlb7gxldx6gxvja4y6ynyc7ipgsynzi26gn8";
       };
       packageRequires = [ ];
       meta = {
