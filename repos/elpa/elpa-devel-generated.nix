@@ -1525,10 +1525,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.7.0.20250828.235154";
+      version = "2.7.0.20250901.222552";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.7.0.20250828.235154.tar";
-        sha256 = "1b1dm19f5y0q3xilf36fimnm4x7w2hl9bv8sks1j7jx9is683f6v";
+        url = "https://elpa.gnu.org/devel/consult-2.7.0.20250901.222552.tar";
+        sha256 = "0c2rgsf7l0aavqiplagz063ja5hmn17hl1djsxgm4nnibcnvgzrj";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6081,10 +6081,10 @@
     elpaBuild {
       pname = "nano-theme";
       ename = "nano-theme";
-      version = "0.3.4.0.20250820.51020";
+      version = "0.3.4.0.20250902.55900";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/nano-theme-0.3.4.0.20250820.51020.tar";
-        sha256 = "1dia2jpl2mxamhr3hw7z9q9963psagnzhl5qqbag3a1d9bnn1bwa";
+        url = "https://elpa.gnu.org/devel/nano-theme-0.3.4.0.20250902.55900.tar";
+        sha256 = "0yz9k9v980vzxyylywvkphk6bbgkfgw8a40q5za83kb7g3gf7sx6";
       };
       packageRequires = [ ];
       meta = {
@@ -6249,10 +6249,10 @@
     elpaBuild {
       pname = "oauth2";
       ename = "oauth2";
-      version = "0.17.0.20250810.115209";
+      version = "0.18.0.20250901.162252";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/oauth2-0.17.0.20250810.115209.tar";
-        sha256 = "1vzis99y0lwm8zfy0qbhzwwh4qj6r02m2l6jwmzy0n9m63964pij";
+        url = "https://elpa.gnu.org/devel/oauth2-0.18.0.20250901.162252.tar";
+        sha256 = "0inpwlslhkimycscfz0lcyw0nwg3dpi6pdybs8v10mxa8f97m7g7";
       };
       packageRequires = [ ];
       meta = {
