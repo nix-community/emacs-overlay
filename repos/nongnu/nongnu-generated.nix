@@ -1272,10 +1272,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.3.1";
+      version = "4.3.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/emacsql-4.3.1.tar";
-        sha256 = "0lqawas0zdrri1csy6vh25wffsxipwc642xzgxwrgxb4v3ga32zn";
+        url = "https://elpa.nongnu.org/nongnu/emacsql-4.3.2.tar";
+        sha256 = "0yl5j35r3s3z4pnxpk6hx2a8piw110rgc67zz3nmkp8ppzkz9h86";
       };
       packageRequires = [ ];
       meta = {
@@ -2238,10 +2238,10 @@
     elpaBuild {
       pname = "git-modes";
       ename = "git-modes";
-      version = "1.4.5";
+      version = "1.4.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/git-modes-1.4.5.tar";
-        sha256 = "0m4z6hvm6zf90lbdhkny8fcj4k1y9bqwcxj4ikv51xhz03604l4d";
+        url = "https://elpa.nongnu.org/nongnu/git-modes-1.4.6.tar";
+        sha256 = "0hxvdm8578pl5f7fb2xi46a9arfr97cyybizk6yi17p82nz6s9g7";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3091,10 +3091,10 @@
     elpaBuild {
       pname = "keycast";
       ename = "keycast";
-      version = "1.4.4";
+      version = "1.4.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/keycast-1.4.4.tar";
-        sha256 = "05i3n7kd5aj0rwxva21ri108w1hjsmgjgv5004r3ngim73h1qlw3";
+        url = "https://elpa.nongnu.org/nongnu/keycast-1.4.5.tar";
+        sha256 = "0c847ailkfa46f6p4d9j6fg485cj8pwd208ynxz5sx5my4gqfnbw";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3134,10 +3134,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/llama-1.0.0.tar";
-        sha256 = "1awxli95p2wwddij7nyjlivcknnxz5j19i65zr9l8awj199scnlx";
+        url = "https://elpa.nongnu.org/nongnu/llama-1.0.1.tar";
+        sha256 = "1aldq3waibplzc2m1qfhf58rmi6h3wfgghmdk6q5ixx2y1gml1vq";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3920,10 +3920,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.0.3";
+      version = "2.0.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/orgit-2.0.3.tar";
-        sha256 = "0iy12sl2qwgh30c5ycxgc38yv8kx6cjcj9x3akq88y5zwqqswvm9";
+        url = "https://elpa.nongnu.org/nongnu/orgit-2.0.5.tar";
+        sha256 = "0k24rg1pfajqnagd2yljsccs66si56d7s4aybq9jd086f4wx3fcq";
       };
       packageRequires = [
         compat
@@ -5558,10 +5558,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.5";
+      version = "3.4.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/with-editor-3.4.5.tar";
-        sha256 = "1bwrn24kqc612ddjl9rpvwkdb1igsqrlmmf1fnad1zza8d09s5iz";
+        url = "https://elpa.nongnu.org/nongnu/with-editor-3.4.6.tar";
+        sha256 = "1l3sdfd6k6baw87jgz25f7rlgwgi15f2nj51cfgjy6kkgf5ag48s";
       };
       packageRequires = [ compat ];
       meta = {
