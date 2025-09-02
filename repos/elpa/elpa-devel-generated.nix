@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.3.0.0.20250830.72441";
+      version = "0.4.0.0.20250901.64411";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.3.0.0.20250830.72441.tar";
-        sha256 = "14ds4f69fw0iyl0j0vcc41bi3mkrjardikxysljsyhf6915zpdq6";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20250901.64411.tar";
+        sha256 = "1rzzjis0wwc26vc4lnnal9k55srm4w9qx5swq9by0c6m1g6vs14m";
       };
       packageRequires = [ ];
       meta = {
@@ -2845,10 +2845,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20250607.0.20250831.20707";
+      version = "20250607.0.20250831.220910";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20250607.0.20250831.20707.tar";
-        sha256 = "0zgykx9fsqi8wdaimlb7gxldx6gxvja4y6ynyc7ipgsynzi26gn8";
+        url = "https://elpa.gnu.org/devel/eev-20250607.0.20250831.220910.tar";
+        sha256 = "0m9w8wjggl6fgk4rndw2gga8i4b94d5gjhpac49g1ncqd9gdsyk8";
       };
       packageRequires = [ ];
       meta = {
@@ -3203,10 +3203,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "23.0.20250731.114728";
+      version = "23.0.20250901.120244";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-23.0.20250731.114728.tar";
-        sha256 = "0dxqq6c1w6v7qgsbsznqkwf518dy0a3zaxs31j5ldyz6b2ylfsrh";
+        url = "https://elpa.gnu.org/devel/emms-23.0.20250901.120244.tar";
+        sha256 = "1smxnlm7jcvh1zywsf4a8i8l2xglw98yskji1bk8g8sh9dfar8g2";
       };
       packageRequires = [
         cl-lib
@@ -6399,10 +6399,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250817.94001";
+      version = "9.8pre0.20250901.122649";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250817.94001.tar";
-        sha256 = "0g4mi27zfpm3pss1hpmj66y22yhwqa583imjdxbrxxv1b9fn3z0l";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250901.122649.tar";
+        sha256 = "06dyvnm2limca90f781rf3v6irnxmkrk1h3w0wc2jqm6jk063mvn";
       };
       packageRequires = [ ];
       meta = {
@@ -9194,6 +9194,27 @@
       };
     }
   ) { };
+  timeout = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "timeout";
+      ename = "timeout";
+      version = "2.0.0.20250901.120627";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/timeout-2.0.0.20250901.120627.tar";
+        sha256 = "1h3bv7adagj2x3ymw8ls3xl5l150jbmd4p5pb6s65q2zcps7v71c";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/timeout.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   timerfunctions = callPackage (
     {
       cl-lib ? null,
@@ -9421,10 +9442,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.9.4.0.20250801.114942";
+      version = "0.9.4.0.20250829.152922";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.9.4.0.20250801.114942.tar";
-        sha256 = "10ly70n16v6hrhgjvhihpzv9hpq4zdx3lrq8ywjprdcp9ir5bx0r";
+        url = "https://elpa.gnu.org/devel/transient-0.9.4.0.20250829.152922.tar";
+        sha256 = "1dj4j0sbin1iv1ikavynyyx8x1d5vlxlcrgw731lnrwwr8dlm7l1";
       };
       packageRequires = [
         compat
@@ -9978,10 +9999,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.4.0.20250827.134156";
+      version = "2.4.0.20250901.144030";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.4.0.20250827.134156.tar";
-        sha256 = "1gi98iy7hm27mq88s3qkx0qk33adlsdibl4gjd57aczyc2jwfvsy";
+        url = "https://elpa.gnu.org/devel/vertico-2.4.0.20250901.144030.tar";
+        sha256 = "0szlynij06i0ixg14h8shzkqrm4di1phm41yylllfybqb6lpg84q";
       };
       packageRequires = [ compat ];
       meta = {
