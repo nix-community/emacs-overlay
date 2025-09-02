@@ -2422,10 +2422,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250831.194513";
+      version = "0.9.8.5.0.20250901.153006";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250831.194513.tar";
-        sha256 = "0nisg96brzpgyngpk38ir162xmx2qiaw2h48y5g1b26qpsgzgwcb";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250901.153006.tar";
+        sha256 = "05ps2in12sgpsi0b54j7wmhibmxmyfln89fcdmyrn59g6bv99pfh";
       };
       packageRequires = [
         compat
@@ -4789,10 +4789,10 @@
     elpaBuild {
       pname = "spell-fu";
       ename = "spell-fu";
-      version = "0.3.0.20250712.131907";
+      version = "0.3.0.20250902.41608";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20250712.131907.tar";
-        sha256 = "1v9ahhwapqg4a7v82ipx2rcfk9ibrbrsapqk3b3md552j4fdrwzp";
+        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20250902.41608.tar";
+        sha256 = "1myhyz21gmhj9v7qynq3p7krrm4fj18xccdw7xihl8x02b0hswp3";
       };
       packageRequires = [ ];
       meta = {
