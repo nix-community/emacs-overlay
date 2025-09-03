@@ -2422,10 +2422,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.8.5.0.20250901.153006";
+      version = "0.9.9.0.20250902.222549";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.8.5.0.20250901.153006.tar";
-        sha256 = "05ps2in12sgpsi0b54j7wmhibmxmyfln89fcdmyrn59g6bv99pfh";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20250902.222549.tar";
+        sha256 = "1c58bmrllizh2vsilsmf90yjz6iv33zm74kkbkgvpmaglw74jja0";
       };
       packageRequires = [
         compat
@@ -3830,10 +3830,10 @@
     elpaBuild {
       pname = "org-superstar";
       ename = "org-superstar";
-      version = "1.6.0.0.20250830.202106";
+      version = "1.6.1.0.20250902.235250";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-superstar-1.6.0.0.20250830.202106.tar";
-        sha256 = "0m6grkslf5lqlkmv8vvhz2093xmsac651d533qi2dlpmphqvll78";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-superstar-1.6.1.0.20250902.235250.tar";
+        sha256 = "090ib6rwm0p01g4qk8628ybr758bbf8dnd2g527bipik4kh25khr";
       };
       packageRequires = [ org ];
       meta = {
