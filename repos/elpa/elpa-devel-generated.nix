@@ -2894,10 +2894,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250830.104456";
+      version = "1.18.0.20250903.71615";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250830.104456.tar";
-        sha256 = "1rbmm2p58zb0ckd9c38xs8yn0a75jgzhqflxjkkggd3x9hmp33r5";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250903.71615.tar";
+        sha256 = "0cx18hk2n63axn3s0mnrbp90snlhqsff1pq369q5g240b861q2s6";
       };
       packageRequires = [
         eldoc
@@ -5844,10 +5844,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.1.0.20250718.41026";
+      version = "4.8.1.0.20250903.45236";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20250718.41026.tar";
-        sha256 = "0j0nz06mh0k927l2w46zij4vilg5r3zxvkza171aarnz3x01lvfr";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20250903.45236.tar";
+        sha256 = "0r8lbb68jx8rw4a36f66s38bc0dgjqc6j0gp3idrc6k8bm8rd7cz";
       };
       packageRequires = [ ];
       meta = {
