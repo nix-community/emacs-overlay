@@ -8677,28 +8677,28 @@
   "repo": "Artawower/blamer.el",
   "unstable": {
    "version": [
-    20240918,
-    2113
+    20250902,
+    2205
    ],
    "deps": [
     "async",
     "posframe"
    ],
-   "commit": "8a79c1f370f7c5f041c980e0b727960462c192ba",
-   "sha256": "089y8jyn78hx8pzv1q9iz94fh5b61j2jzqjnr6r91xa0s3b7kmq9"
+   "commit": "d06e1b8907f0bb5d603c76323dbcd8b00a014062",
+   "sha256": "1ycpb3q0waq0bdi5nvd856k31772xaq82d1i2gpbdwqnxl4x7ivb"
   },
   "stable": {
    "version": [
     0,
-    9,
-    4
+    10,
+    0
    ],
    "deps": [
     "async",
     "posframe"
    ],
-   "commit": "8a79c1f370f7c5f041c980e0b727960462c192ba",
-   "sha256": "089y8jyn78hx8pzv1q9iz94fh5b61j2jzqjnr6r91xa0s3b7kmq9"
+   "commit": "d06e1b8907f0bb5d603c76323dbcd8b00a014062",
+   "sha256": "1ycpb3q0waq0bdi5nvd856k31772xaq82d1i2gpbdwqnxl4x7ivb"
   }
  },
  {
@@ -13223,8 +13223,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20250901,
-    1715
+    20250902,
+    1530
    ],
    "deps": [
     "clojure-mode",
@@ -13235,8 +13235,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "389833f85a8f7e648de73fd9a625674c8ecf85e9",
-   "sha256": "18nnmvixkwszyjvjh151r6r9j9x093s4g5in319xsak1q38zx11f"
+   "commit": "af63db156a89fc77a35b0f8a3c1ccddcfbf9af84",
+   "sha256": "16l6d0iznmxdpwifdm2xsdnbg74w4jshaj82x5qw1k4cncfyna0d"
   },
   "stable": {
    "version": [
@@ -77972,14 +77972,14 @@
   "repo": "countvajhula/mantra",
   "unstable": {
    "version": [
-    20250706,
-    1916
+    20250902,
+    1821
    ],
    "deps": [
     "pubsub"
    ],
-   "commit": "da8a4fcd96340deb908c4c416bbe2b621f5b55d3",
-   "sha256": "1pfb2i8p436q25xwqb6x30kkiv2n4i0bmljs89nbbv2rqwpm8mhz"
+   "commit": "56e937fe2b246e431f59cea452879f665a46297a",
+   "sha256": "0v0hgqwxq1bmgyaqvdknlbi8m5gv8miay9nrbqqc0kjyq8vg2lj5"
   }
  },
  {
@@ -93864,8 +93864,8 @@
   "repo": "ahmed-shariff/org-roam-ql",
   "unstable": {
    "version": [
-    20250424,
-    2227
+    20250902,
+    1916
    ],
    "deps": [
     "org-ql",
@@ -93874,8 +93874,8 @@
     "s",
     "transient"
    ],
-   "commit": "72634dadc224786284c7d733f67900f2a514eab2",
-   "sha256": "00v3rwpbwpyn5vjpga2kaxvj044gvhjpz8bzdlf5cif5sjpvy3zx"
+   "commit": "5feceb8f79734a3abcaef9cf2f787d5aa45e750f",
+   "sha256": "0qag1jmv498g6l1axx3d5h2wbvnin9f89qdvzyiillzjrs6rgm1w"
   },
   "stable": {
    "version": [
@@ -104829,8 +104829,8 @@
   "repo": "mohkale/projection",
   "unstable": {
    "version": [
-    20250831,
-    1727
+    20250902,
+    2211
    ],
    "deps": [
     "compat",
@@ -104838,8 +104838,8 @@
     "project",
     "s"
    ],
-   "commit": "eab3a7f57ada46f1f30662495b9cd7a84b60bffd",
-   "sha256": "08cixi49lhwiy0djgcl0s6dxcqah12x9yrix59gxqrb0kc3jxnpm"
+   "commit": "ff3de3efcec85bb60ff650dab933b40a97ccd3f8",
+   "sha256": "05vgqiynkmllkb58k2p2jfg7a0xa3m6nb3mwhfrza400vaw1jhsv"
   }
  },
  {
@@ -104869,15 +104869,15 @@
   "repo": "mohkale/projection",
   "unstable": {
    "version": [
-    20250831,
-    1727
+    20250902,
+    2211
    ],
    "deps": [
     "compile-multi",
     "projection"
    ],
-   "commit": "eab3a7f57ada46f1f30662495b9cd7a84b60bffd",
-   "sha256": "08cixi49lhwiy0djgcl0s6dxcqah12x9yrix59gxqrb0kc3jxnpm"
+   "commit": "ff3de3efcec85bb60ff650dab933b40a97ccd3f8",
+   "sha256": "05vgqiynkmllkb58k2p2jfg7a0xa3m6nb3mwhfrza400vaw1jhsv"
   }
  },
  {
@@ -108393,20 +108393,20 @@
   "repo": "xenodium/ready-player",
   "unstable": {
    "version": [
-    20250901,
-    1126
+    20250902,
+    2107
    ],
-   "commit": "c6597274617c4431da99e429afa8e37b5ebf556c",
-   "sha256": "1w3gfx5nzlqhvdf62z6ss0jq43367rh4bp95nl2xszv48vc416vz"
+   "commit": "a8e95ca9c07480c188733d7e6315147fd6e4ed24",
+   "sha256": "0vg6pkvkpz02b237f1p3qxsrwyc5ar44l73rr04gk368n7a0lnwv"
   },
   "stable": {
    "version": [
     0,
-    31,
+    32,
     2
    ],
-   "commit": "ea0633f7b8cb4478073b3082e01c3a46b2e888b1",
-   "sha256": "1qhdmb1rlj7r3nzhv8ajl90yibgmfjb1x9rjyljgqyfmizrp87lv"
+   "commit": "a8e95ca9c07480c188733d7e6315147fd6e4ed24",
+   "sha256": "0vg6pkvkpz02b237f1p3qxsrwyc5ar44l73rr04gk368n7a0lnwv"
   }
  },
  {
