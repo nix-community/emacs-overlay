@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.4.0.20250811.165718";
+      version = "0.1.4.0.20250904.53050";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20250811.165718.tar";
-        sha256 = "006m3qmad18x3h4jdhxf8nx43krk34sj636ccxlxild5lncqdf8a";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20250904.53050.tar";
+        sha256 = "1a5s2qg3dg64d8q32r5asd7ms3dird6kzs31dvp75v5sy2xia1lv";
       };
       packageRequires = [ ];
       meta = {
@@ -4807,10 +4807,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.3.0.20250804.224330";
+      version = "2.3.0.20250903.213852";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.3.0.20250804.224330.tar";
-        sha256 = "08lbppgqgnqvmzvbwc1z9zan0d6fsf0jacdifqcinlr6s7qlnrci";
+        url = "https://elpa.gnu.org/devel/jinx-2.3.0.20250903.213852.tar";
+        sha256 = "0l80v7igaxj8vxwcdi3k4d9xznw9ph14zpil4hgwyxn53fwkr7wd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7564,10 +7564,10 @@
     elpaBuild {
       pname = "rcirc-mentions";
       ename = "rcirc-mentions";
-      version = "1.0.3.0.20250822.43114";
+      version = "1.0.4.0.20250904.60608";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/rcirc-mentions-1.0.3.0.20250822.43114.tar";
-        sha256 = "064k7r6digaljdi156m49wcasf7k37rj195lxbarh18qavragqv7";
+        url = "https://elpa.gnu.org/devel/rcirc-mentions-1.0.4.0.20250904.60608.tar";
+        sha256 = "0sw0rx3ajs4yrqq1jw63ppsfl7zlj101ng29ip9fqrn2ncg2p6r1";
       };
       packageRequires = [ ];
       meta = {
