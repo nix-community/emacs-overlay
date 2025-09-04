@@ -4298,10 +4298,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250828.110715";
+      version = "1.0.20250830.122523";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250828.110715.tar";
-        sha256 = "1mls1mj2wjlrk1na77m8q2i82m1lm4mcqxff2ngv1ijjlhvrp813";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250830.122523.tar";
+        sha256 = "01nqdsblxn2l7c2yv91d7phdpfasz6k4ifsk05647ccjqbvqsr45";
       };
       packageRequires = [ compat ];
       meta = {
