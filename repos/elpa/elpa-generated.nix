@@ -9688,10 +9688,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.3";
+      version = "0.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vc-jj-0.3.tar";
-        sha256 = "1pikbl7i7cqwdqq01bm1rlcd1d9736bqa42g6dz2zxlavi7cbq6n";
+        url = "https://elpa.gnu.org/packages/vc-jj-0.4.tar";
+        sha256 = "1wws05yybiwxnx1qyapnw87k74glv8izkk2zlzn21hvqscbknz1y";
       };
       packageRequires = [ compat ];
       meta = {
