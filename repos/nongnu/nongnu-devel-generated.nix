@@ -1143,10 +1143,10 @@
     elpaBuild {
       pname = "editorconfig";
       ename = "editorconfig";
-      version = "0.11.0.0.20250808.184702";
+      version = "0.11.0.0.20250905.2405";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20250808.184702.tar";
-        sha256 = "1j2zspg9i7r0rnjy79c7032cd3nxir9r1j7img0bwwc1sv7az32y";
+        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20250905.2405.tar";
+        sha256 = "06gwq2fr79l1abcxg2fqyqrkadg35fn6zm30bv6d8nvz7f1msfzq";
       };
       packageRequires = [ ];
       meta = {
@@ -4831,10 +4831,10 @@
     elpaBuild {
       pname = "standard-keys-mode";
       ename = "standard-keys-mode";
-      version = "1.0.0.0.20250901.180856";
+      version = "1.0.0.0.20250904.173802";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/standard-keys-mode-1.0.0.0.20250901.180856.tar";
-        sha256 = "07v95zvzhmzcyi94fljip1fmwrx7nnrmxahxbhqz5azr2851jb9j";
+        url = "https://elpa.nongnu.org/nongnu-devel/standard-keys-mode-1.0.0.0.20250904.173802.tar";
+        sha256 = "06izp2lllzicd4i3yqp2pq9bigk1wghxb82zmwnhjn86gnmfxm7g";
       };
       packageRequires = [ ];
       meta = {
@@ -5679,10 +5679,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.4.20250829124616.0.20250829.125021";
+      version = "2025.9.4.0.20250904.155703";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.4.20250829124616.0.20250829.125021.tar";
-        sha256 = "01xpdgf5g27xj7nyc3ql2bc575zva6sscmsqm8x3ci9lik121sds";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-2025.9.4.0.20250904.155703.tar";
+        sha256 = "1xcs3n10ma42qjlfh2dy25ii1475wg6mipv4pckv4j1kmq8bwb02";
       };
       packageRequires = [ ];
       meta = {
