@@ -2185,10 +2185,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.1.1.0.20250904.165748";
+      version = "0.1.1.0.20250905.54053";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250904.165748.tar";
-        sha256 = "1n7c99c7h0ajajc2aqhymkhvza0y36jsavydaw67jss2siq6cpkw";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250905.54053.tar";
+        sha256 = "16qaz04ciny0kyks6bhacyjyjlilfj1vgvdqj5p99kx1vh02li7v";
       };
       packageRequires = [ denote ];
       meta = {
@@ -3203,10 +3203,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "23.0.20250901.120244";
+      version = "23.0.20250904.171935";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-23.0.20250901.120244.tar";
-        sha256 = "1smxnlm7jcvh1zywsf4a8i8l2xglw98yskji1bk8g8sh9dfar8g2";
+        url = "https://elpa.gnu.org/devel/emms-23.0.20250904.171935.tar";
+        sha256 = "1jm5md3nxfnkg9wp71ivf62alcqq6p2krrir96pkbvp69z9rqgpa";
       };
       packageRequires = [
         cl-lib
@@ -3292,10 +3292,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1snapshot0.20250825.211748";
+      version = "5.6.1snapshot0.20250904.171225";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20250825.211748.tar";
-        sha256 = "09fs9p1fjjzzripdnzmp3z0r1j6b0cl3wga4v8rlrkz7s0sikbpv";
+        url = "https://elpa.gnu.org/devel/erc-5.6.1snapshot0.20250904.171225.tar";
+        sha256 = "07mm33az8c055p2i22ihp4vrs460wvk75fdcy960b45qlsd19kwp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6421,10 +6421,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.1.0.20250827.65710";
+      version = "1.1.0.20250905.33527";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250827.65710.tar";
-        sha256 = "1xlbayrwmmp3p7fi67ifkhyrwplxhqwgkxk5yj09r2nchj6pbkkv";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.1.0.20250905.33527.tar";
+        sha256 = "1d5d41lrliv30ngqx974lsm3am8k6zll8mh940a777isc4mglvhn";
       };
       packageRequires = [ org ];
       meta = {
