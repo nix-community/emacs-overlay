@@ -3455,10 +3455,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20250803.54141";
+      version = "1.5.0.0.20250904.160600";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20250803.54141.tar";
-        sha256 = "1yjr5bc90f93vwwnb1gj8ni1i0h8mh5sl51vafyh24dnd49rw9c3";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20250904.160600.tar";
+        sha256 = "1lyyjjwaan9hkzzdv127vq6ldcfnf8b047z0w7gjhka27g0pp2hd";
       };
       packageRequires = [ ];
       meta = {
@@ -4683,10 +4683,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20250829.153537";
+      version = "2.31snapshot0.20250904.161049";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250829.153537.tar";
-        sha256 = "0gdbn7r5w49f97bdcv5wmav3gl4yd6f7bw7c278yg587iaw3pvgp";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20250904.161049.tar";
+        sha256 = "0pjxxim3apkzdl7yz3q9c6i0qh6s0zqlr50bjidxkswwg9x2r7gs";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -4818,6 +4818,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/sqlite3.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  standard-keys-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "standard-keys-mode";
+      ename = "standard-keys-mode";
+      version = "1.0.0.0.20250901.180856";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/standard-keys-mode-1.0.0.0.20250901.180856.tar";
+        sha256 = "07v95zvzhmzcyi94fljip1fmwrx7nnrmxahxbhqz5azr2851jb9j";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/standard-keys-mode.html";
         license = lib.licenses.free;
       };
     }
