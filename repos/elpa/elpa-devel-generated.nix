@@ -548,10 +548,10 @@
     elpaBuild {
       pname = "auth-source-xoauth2-plugin";
       ename = "auth-source-xoauth2-plugin";
-      version = "0.2.1.0.20250518.225313";
+      version = "0.3.0.20250905.1519";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auth-source-xoauth2-plugin-0.2.1.0.20250518.225313.tar";
-        sha256 = "0mqvlnqib2my2alm2lbvij89r5c8r6zzi7lwvpgylays342lrry0";
+        url = "https://elpa.gnu.org/devel/auth-source-xoauth2-plugin-0.3.0.20250905.1519.tar";
+        sha256 = "0lqjbzibxfb5dd195b050c2glg88qc5wgscf96dcvpv1hlz3szz9";
       };
       packageRequires = [ oauth2 ];
       meta = {
@@ -2185,10 +2185,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.1.1.0.20250905.54053";
+      version = "0.1.1.0.20250905.174858";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250905.54053.tar";
-        sha256 = "16qaz04ciny0kyks6bhacyjyjlilfj1vgvdqj5p99kx1vh02li7v";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.1.1.0.20250905.174858.tar";
+        sha256 = "126rhzjfbp1f94s8ivqis6vd2pi85zrn5ass5k8a6sd9sh4ahnja";
       };
       packageRequires = [ denote ];
       meta = {
