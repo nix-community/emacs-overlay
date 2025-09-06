@@ -527,10 +527,10 @@
     elpaBuild {
       pname = "auth-source-xoauth2-plugin";
       ename = "auth-source-xoauth2-plugin";
-      version = "0.3";
+      version = "0.3.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/auth-source-xoauth2-plugin-0.3.tar";
-        sha256 = "10w7cm7aqhs2x63b3jc31v3rgcbsgb2jn55rss81lns122wcw5sf";
+        url = "https://elpa.gnu.org/packages/auth-source-xoauth2-plugin-0.3.1.tar";
+        sha256 = "1qqyl5qz3ldp28qm1vwbq4q7csb4wy6b3w3z72fhasvkcpb266iw";
       };
       packageRequires = [ oauth2 ];
       meta = {
@@ -6204,10 +6204,10 @@
     elpaBuild {
       pname = "oauth2";
       ename = "oauth2";
-      version = "0.18";
+      version = "0.18.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/oauth2-0.18.tar";
-        sha256 = "0g9dkrc5km9b843c9mjs1vqcr5w1j4z9fq1sw9ypnbxnvjyyf8fw";
+        url = "https://elpa.gnu.org/packages/oauth2-0.18.2.tar";
+        sha256 = "0x8d6qzsbh06pinvfgsqn9jm9wx8998h1m1rxjrslk761m5ggkx3";
       };
       packageRequires = [ ];
       meta = {

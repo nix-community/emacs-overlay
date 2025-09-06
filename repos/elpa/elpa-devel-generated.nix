@@ -548,10 +548,10 @@
     elpaBuild {
       pname = "auth-source-xoauth2-plugin";
       ename = "auth-source-xoauth2-plugin";
-      version = "0.3.0.20250905.1519";
+      version = "0.3.1.0.20250905.185219";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auth-source-xoauth2-plugin-0.3.0.20250905.1519.tar";
-        sha256 = "0lqjbzibxfb5dd195b050c2glg88qc5wgscf96dcvpv1hlz3szz9";
+        url = "https://elpa.gnu.org/devel/auth-source-xoauth2-plugin-0.3.1.0.20250905.185219.tar";
+        sha256 = "0jplpq1mrcqp924j12bc9kf949ndb64pzmrc4l1njn2wliykapq8";
       };
       packageRequires = [ oauth2 ];
       meta = {
@@ -6249,10 +6249,10 @@
     elpaBuild {
       pname = "oauth2";
       ename = "oauth2";
-      version = "0.18.0.20250901.162252";
+      version = "0.18.2.0.20250905.184355";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/oauth2-0.18.0.20250901.162252.tar";
-        sha256 = "0inpwlslhkimycscfz0lcyw0nwg3dpi6pdybs8v10mxa8f97m7g7";
+        url = "https://elpa.gnu.org/devel/oauth2-0.18.2.0.20250905.184355.tar";
+        sha256 = "1lf9vplbnkc8hzyc79yndzv080jayjk8i04v081a40bzp0b65li0";
       };
       packageRequires = [ ];
       meta = {
@@ -8251,10 +8251,10 @@
     elpaBuild {
       pname = "show-font";
       ename = "show-font";
-      version = "0.4.1.0.20250827.35522";
+      version = "0.4.1.0.20250906.60022";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/show-font-0.4.1.0.20250827.35522.tar";
-        sha256 = "0jgrzcrmgi64v6984wjlmvmvmh69h3bg100f8x8i74abpfdpcaya";
+        url = "https://elpa.gnu.org/devel/show-font-0.4.1.0.20250906.60022.tar";
+        sha256 = "0sr6vdfal7rc0hszmw1xysi11a86xq5brahmsmrx1awi8jv683s6";
       };
       packageRequires = [ ];
       meta = {
