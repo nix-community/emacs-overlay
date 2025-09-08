@@ -8141,10 +8141,10 @@
     elpaBuild {
       pname = "show-font";
       ename = "show-font";
-      version = "0.4.1";
+      version = "1.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/show-font-0.4.1.tar";
-        sha256 = "01ly7z9lawmyp0xpnp7bq4rshqsr70n1kvalw1win401db6l1z8q";
+        url = "https://elpa.gnu.org/packages/show-font-1.0.0.tar";
+        sha256 = "1caga09ypj6vb4vziw6slvhkjbzj6a3vss9lbgbigzb4m6q8caqf";
       };
       packageRequires = [ ];
       meta = {

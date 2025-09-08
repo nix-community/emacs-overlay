@@ -1919,10 +1919,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250904.194845";
+      version = "0.24.1.0.20250907.113656";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250904.194845.tar";
-        sha256 = "082z3xig7ja9r7x0c9y8z558pwgschhsji12w98bq7hl628lg7q7";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250907.113656.tar";
+        sha256 = "0f8xsfsfzc0f8b8bpjxck9ss67mwi98ipqqgx49ycdcw09rg5znm";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2894,10 +2894,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250903.71615";
+      version = "1.18.0.20250906.134233";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250903.71615.tar";
-        sha256 = "0cx18hk2n63axn3s0mnrbp90snlhqsff1pq369q5g240b861q2s6";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250906.134233.tar";
+        sha256 = "0jx1080v2hqx3yc9dy5n39s15zmzdszcxq0blaw714lhn72bx4a8";
       };
       packageRequires = [
         eldoc
@@ -3589,10 +3589,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.1.0.20250830.71837";
+      version = "1.4.1.0.20250906.55308";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250830.71837.tar";
-        sha256 = "1mpaxp2m3niybzqaz3fp8q7ffy6b77wk7l56z87z3l8ln2ni2f9x";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250906.55308.tar";
+        sha256 = "1wy77d63mlcax9sksf3js0acqmx33hkn03iz37aqlyikjy51vbs9";
       };
       packageRequires = [
         eldoc
@@ -4893,10 +4893,10 @@
     elpaBuild {
       pname = "jsonrpc";
       ename = "jsonrpc";
-      version = "1.0.25.0.20250225.2515";
+      version = "1.0.25.0.20250907.123924";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.25.0.20250225.2515.tar";
-        sha256 = "1zfgpyrlbydnqwim4zrh9xbj37g8yqbwdz9ci0r90d1s4h6nyzgv";
+        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.25.0.20250907.123924.tar";
+        sha256 = "115x2m52fga5mxj9dbvc2vk380m5qx130zczaisgc2r23qw8gwjb";
       };
       packageRequires = [ ];
       meta = {
@@ -6249,10 +6249,10 @@
     elpaBuild {
       pname = "oauth2";
       ename = "oauth2";
-      version = "0.18.2.0.20250905.184355";
+      version = "0.18.2.0.20250906.11519";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/oauth2-0.18.2.0.20250905.184355.tar";
-        sha256 = "1lf9vplbnkc8hzyc79yndzv080jayjk8i04v081a40bzp0b65li0";
+        url = "https://elpa.gnu.org/devel/oauth2-0.18.2.0.20250906.11519.tar";
+        sha256 = "1yqfha8wzq51ywi0ykrfdibx1v6wjjnb01238jjyh5h4ni803pn2";
       };
       packageRequires = [ ];
       meta = {
@@ -7296,10 +7296,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20250903.190143";
+      version = "0.11.1.0.20250907.15600";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250903.190143.tar";
-        sha256 = "0j8j0l98rfb6h7x6gdah31s4hdh6h06r8373zsplawk8apicnn0a";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20250907.15600.tar";
+        sha256 = "17h0pnk9bsa1jnfs48mdrrrqvzcx5flia125q0grwzwq8c5y8qzy";
       };
       packageRequires = [ xref ];
       meta = {
@@ -7432,10 +7432,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20250829.162732";
+      version = "0.30.0.20250906.92058";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20250829.162732.tar";
-        sha256 = "1vvhwjgck6sqw44khiq86rangh8n197hzip86dwn98ryjllzqp2r";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20250906.92058.tar";
+        sha256 = "1k90znxr23y4wxjwngpmizrvav1hazbjqzf97wf9adpiyjig907n";
       };
       packageRequires = [
         compat
@@ -8251,10 +8251,10 @@
     elpaBuild {
       pname = "show-font";
       ename = "show-font";
-      version = "0.4.1.0.20250906.60022";
+      version = "1.0.0.0.20250907.131347";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/show-font-0.4.1.0.20250906.60022.tar";
-        sha256 = "0sr6vdfal7rc0hszmw1xysi11a86xq5brahmsmrx1awi8jv683s6";
+        url = "https://elpa.gnu.org/devel/show-font-1.0.0.0.20250907.131347.tar";
+        sha256 = "13z63f0sxpl078hzqd1v3naynb4j9h6c26xpxkjifjsl3rw333ch";
       };
       packageRequires = [ ];
       meta = {
@@ -9097,10 +9097,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.5.0.20250823.200409";
+      version = "1.5.0.20250906.192600";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.5.0.20250823.200409.tar";
-        sha256 = "0rsaq2b0k37q03kq7rknfg26ma87j1m89n2l1s9s7pg9kvjqyrkk";
+        url = "https://elpa.gnu.org/devel/tempel-1.5.0.20250906.192600.tar";
+        sha256 = "1qs4h29z42qqjlz77mmk8fw2j7rhnml5nkwzgkhs7qv2gm8nzr23";
       };
       packageRequires = [ compat ];
       meta = {
