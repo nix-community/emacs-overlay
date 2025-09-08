@@ -1854,10 +1854,10 @@
     elpaBuild {
       pname = "flymake-pyrefly";
       ename = "flymake-pyrefly";
-      version = "0.1.6";
+      version = "0.1.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/flymake-pyrefly-0.1.6.tar";
-        sha256 = "06z8hkivi2k24yk8bqkgcm52al5jfz82kwjhzbc3j0aaickmacnm";
+        url = "https://elpa.nongnu.org/nongnu/flymake-pyrefly-0.1.7.tar";
+        sha256 = "0n80syy3ib6zwk54abf0il4bfpj00fq8s3ybvjkq7jhl2z83lp5q";
       };
       packageRequires = [ ];
       meta = {
