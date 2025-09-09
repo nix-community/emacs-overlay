@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.4.0.0.20250903.82417";
+      version = "0.4.0.0.20250909.60221";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20250903.82417.tar";
-        sha256 = "09h5vfbs8brsn4fmq67rjwz9jdwd7ccpzv6g93vivhkqwalkl1zh";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20250909.60221.tar";
+        sha256 = "1s7yfjzd754wdgrqk0751s589jyi0jqam6f9rwz9zk0diq6pi00q";
       };
       packageRequires = [ ];
       meta = {
@@ -2866,10 +2866,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.10.0.0.20250908.112229";
+      version = "1.10.0.0.20250909.65731";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.10.0.0.20250908.112229.tar";
-        sha256 = "1zsd7w9mh077ymrvrxi7562vbk5lffac43b9lhqs7f9d40gjz1nk";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.10.0.0.20250909.65731.tar";
+        sha256 = "0khwl091vcf36qklgz0c4mas2wp8m2zszah87dghxbpvnmplyjpi";
       };
       packageRequires = [ ];
       meta = {
@@ -5844,10 +5844,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.1.0.20250903.45236";
+      version = "4.8.1.0.20250909.65533";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20250903.45236.tar";
-        sha256 = "0r8lbb68jx8rw4a36f66s38bc0dgjqc6j0gp3idrc6k8bm8rd7cz";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20250909.65533.tar";
+        sha256 = "05x01v8nmikrq3mj79qa83p71a2dwry16p82c9hrpm7qj2lny7j0";
       };
       packageRequires = [ ];
       meta = {
@@ -8724,10 +8724,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20250908.112326";
+      version = "2.2.0.0.20250909.65826";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20250908.112326.tar";
-        sha256 = "01kdy168vdqi7xxg0a4kdwfxnp45pd4w4j0q1dn87w5zr9zldqjv";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20250909.65826.tar";
+        sha256 = "0gib739yjw5b33hlfffbkgdj1m3sk13qn11w707w72kxn9858g0j";
       };
       packageRequires = [ ];
       meta = {
