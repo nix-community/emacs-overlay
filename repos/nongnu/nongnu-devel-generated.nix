@@ -2422,10 +2422,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.0.20250902.222549";
+      version = "0.9.9.0.20250907.223036";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20250902.222549.tar";
-        sha256 = "1c58bmrllizh2vsilsmf90yjz6iv33zm74kkbkgvpmaglw74jja0";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20250907.223036.tar";
+        sha256 = "1zzmq9zibgnki4wmbx4c62ymfcy1bqslvgqjswy3vjnhi5xnfd6b";
       };
       packageRequires = [
         compat
@@ -2619,10 +2619,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.5.0.20250907.71251";
+      version = "4.0.5.0.20250908.40237";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.5.0.20250907.71251.tar";
-        sha256 = "0yf6nxcbxp4a44rgw3206j7vi8gaxwrrkzlc20b7gd9k51lm0vxz";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.5.0.20250908.40237.tar";
+        sha256 = "1nqmrzvbzp47b4v13hxdqa5r34pzg3809d8n0xav70spnprjqjqm";
       };
       packageRequires = [
         helm-core
@@ -2644,10 +2644,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.5.0.20250907.71251";
+      version = "4.0.5.0.20250908.40237";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.5.0.20250907.71251.tar";
-        sha256 = "0mif6xvc2w78ldbrbnaia67lr9kar71hi4awzdg56mffwwn0v25y";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.5.0.20250908.40237.tar";
+        sha256 = "0y82lqcvhmxiflncsz8y2hkzhgig1lxcfq07g0skiwd67kxhxbdm";
       };
       packageRequires = [ async ];
       meta = {
@@ -5679,10 +5679,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "2025.9.5.0.20250905.102309";
+      version = "28.5.20250907105127.0.20250907.105553";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-2025.9.5.0.20250905.102309.tar";
-        sha256 = "1rw2zsvnhlww492jsa23ycfvs050l5y631nj2vyfhdr2rvrkwb8x";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.5.20250907105127.0.20250907.105553.tar";
+        sha256 = "1m39937ghs5rdlv7vmwln9anj0alsjw65ywfaj56dzg0n96xdyk9";
       };
       packageRequires = [ ];
       meta = {
