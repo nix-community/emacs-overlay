@@ -6204,10 +6204,10 @@
     elpaBuild {
       pname = "oauth2";
       ename = "oauth2";
-      version = "0.18.2";
+      version = "0.18.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/oauth2-0.18.2.tar";
-        sha256 = "0x8d6qzsbh06pinvfgsqn9jm9wx8998h1m1rxjrslk761m5ggkx3";
+        url = "https://elpa.gnu.org/packages/oauth2-0.18.3.tar";
+        sha256 = "1xn9jkf55b9sc6fidzn6p1falvvgvpc08iz53fvmmp7fandgwbxi";
       };
       packageRequires = [ ];
       meta = {
