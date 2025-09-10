@@ -3301,6 +3301,7 @@
   magit = callPackage (
     {
       compat,
+      cond-let,
       elpaBuild,
       fetchurl,
       lib,
@@ -3313,13 +3314,14 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.8";
+      version = "4.4.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-4.3.8.tar";
-        sha256 = "03m2b155xanm9mjj886na7j9bky7a4f2lay4mm6i0r60adsz26nm";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.4.0.tar";
+        sha256 = "05ggd65mz17ffni5mn9s1qzlcg229csbbaplsfp0skjrmsfa33ky";
       };
       packageRequires = [
         compat
+        cond-let
         llama
         magit-section
         seq
@@ -3335,6 +3337,7 @@
   magit-section = callPackage (
     {
       compat,
+      cond-let,
       elpaBuild,
       fetchurl,
       lib,
@@ -3344,13 +3347,14 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.3.8";
+      version = "4.4.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.3.8.tar";
-        sha256 = "0h2l769ailf48an78cbrnmxsnpzhaklw23lq2lby3n2wm5d1gmn3";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.4.0.tar";
+        sha256 = "12208jr50cz8vjd8k9kihkg10yy5fsk96hr2j43bj5n28jgkvyrp";
       };
       packageRequires = [
         compat
+        cond-let
         llama
         seq
       ];
@@ -5690,10 +5694,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.5.20250907105127";
+      version = "28.6.20250909094330";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-28.5.20250907105127.tar";
-        sha256 = "0qcpgcmdpr8kxpc0q1xggp9dsa0g1gw8pk3nx4awkjxp7jzhmrrs";
+        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-28.6.20250909094330.tar";
+        sha256 = "0jmwb0ki3vri66c6x1iysqadxf57dnfg4birv0a8l1k5k6y7dl8c";
       };
       packageRequires = [ ];
       meta = {

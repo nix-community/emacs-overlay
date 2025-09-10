@@ -2422,10 +2422,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.0.20250907.223036";
+      version = "0.9.9.0.20250909.105530";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20250907.223036.tar";
-        sha256 = "1zzmq9zibgnki4wmbx4c62ymfcy1bqslvgqjswy3vjnhi5xnfd6b";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20250909.105530.tar";
+        sha256 = "16wgxi6niwsihil1j65qwa9v7310i5l4dcn1kymqn55hibjhizmy";
       };
       packageRequires = [
         compat
@@ -3298,10 +3298,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.8.0.20250904.234946";
+      version = "4.4.0.0.20250909.101841";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.8.0.20250904.234946.tar";
-        sha256 = "1532ick6zp3ypdl4044kmvjh6hbp6ghgkn7bf7bhnpac28nqfaqf";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.0.0.20250909.101841.tar";
+        sha256 = "1ng3d6vv6xy1vczs0pw5sagr4fmshy1iqlnilvqjz4djyhj9jngc";
       };
       packageRequires = [
         compat
@@ -3331,10 +3331,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.3.8.0.20250904.234946";
+      version = "4.4.0.0.20250909.101841";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.3.8.0.20250904.234946.tar";
-        sha256 = "068l1cjr16gdpcl94blp7m1ixzz868jb61qcpdfd0wn6pgdvww8s";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.0.0.20250909.101841.tar";
+        sha256 = "018wqgkiqjy7ys8c2g9grly3zz5l9z1abl817wa0w4ibmsy3pp16";
       };
       packageRequires = [
         compat
@@ -5243,10 +5243,10 @@
     elpaBuild {
       pname = "tuareg";
       ename = "tuareg";
-      version = "3.0.2snapshot0.20250227.215734";
+      version = "3.0.2snapshot0.20250909.120441";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tuareg-3.0.2snapshot0.20250227.215734.tar";
-        sha256 = "1ngkjn7dr2k61w5vv8qjgjj8wwc9674px7w1hc8539f7nplf7i71";
+        url = "https://elpa.nongnu.org/nongnu-devel/tuareg-3.0.2snapshot0.20250909.120441.tar";
+        sha256 = "1mak372bvbfdmaj5nshg8afm6gz7z1gfph2v00rsgzxm7mvpv5fn";
       };
       packageRequires = [ caml ];
       meta = {
@@ -5679,10 +5679,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.5.20250907105127.0.20250907.105553";
+      version = "28.6.20250909094330.0.20250909.94648";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.5.20250907105127.0.20250907.105553.tar";
-        sha256 = "1m39937ghs5rdlv7vmwln9anj0alsjw65ywfaj56dzg0n96xdyk9";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.6.20250909094330.0.20250909.94648.tar";
+        sha256 = "0hdhvr7bb3v20j7my4a94gj2wjmfxzjzczazrwhpyiwvpycq2csm";
       };
       packageRequires = [ ];
       meta = {
