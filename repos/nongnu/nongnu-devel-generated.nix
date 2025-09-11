@@ -3298,10 +3298,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.0.0.20250909.101841";
+      version = "4.4.0.0.20250910.133452";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.0.0.20250909.101841.tar";
-        sha256 = "1ng3d6vv6xy1vczs0pw5sagr4fmshy1iqlnilvqjz4djyhj9jngc";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.0.0.20250910.133452.tar";
+        sha256 = "1zp3hxrgd1izaq2q6f8amrfaps4y8c2q3c3idf0hinp9w94bs7bi";
       };
       packageRequires = [
         compat
@@ -3331,10 +3331,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.0.0.20250909.101841";
+      version = "4.4.0.0.20250910.133452";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.0.0.20250909.101841.tar";
-        sha256 = "018wqgkiqjy7ys8c2g9grly3zz5l9z1abl817wa0w4ibmsy3pp16";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.0.0.20250910.133452.tar";
+        sha256 = "19k2fmahn1arp4mqx31nk1w3mfsyax33hkxhq602vmv5n8rh7zg7";
       };
       packageRequires = [
         compat
@@ -5243,10 +5243,10 @@
     elpaBuild {
       pname = "tuareg";
       ename = "tuareg";
-      version = "3.0.2snapshot0.20250909.120441";
+      version = "3.0.2snapshot0.20250910.140516";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tuareg-3.0.2snapshot0.20250909.120441.tar";
-        sha256 = "1mak372bvbfdmaj5nshg8afm6gz7z1gfph2v00rsgzxm7mvpv5fn";
+        url = "https://elpa.nongnu.org/nongnu-devel/tuareg-3.0.2snapshot0.20250910.140516.tar";
+        sha256 = "0m9xid4s6qqdw8vlpgzsf2lc877shf7dvfxk8b9bhiva56dhrqfw";
       };
       packageRequires = [ caml ];
       meta = {
