@@ -3459,10 +3459,10 @@
     elpaBuild {
       pname = "filechooser";
       ename = "filechooser";
-      version = "0.2.3";
+      version = "0.2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/filechooser-0.2.3.tar";
-        sha256 = "17dqms6knc0l47m02581jlm7ikcs662nmxdnsklipnnn0gfjmkmm";
+        url = "https://elpa.gnu.org/packages/filechooser-0.2.4.tar";
+        sha256 = "0bw1yvypm2vk6bh81h88505fd1538rrga9y40gmy7w144spfi6sb";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9844,10 +9844,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.8.0";
+      version = "0.9.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-posframe-0.8.0.tar";
-        sha256 = "0iqy8m1cf819x7ln5sp8b3sh4dk291k9sril35hxsxkiyjal1rqk";
+        url = "https://elpa.gnu.org/packages/vertico-posframe-0.9.0.tar";
+        sha256 = "16vnacmz52d1rwdmddsr1rm1zki1p3bw10ngpw39a3dszbwqkl3m";
       };
       packageRequires = [
         posframe

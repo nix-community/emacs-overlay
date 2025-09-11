@@ -1919,10 +1919,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250908.191416";
+      version = "0.24.1.0.20250910.193137";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250908.191416.tar";
-        sha256 = "0kvw9p61psix7g4msmzyg07ayvl60rf5wflkdbbjbzhycfnynk9a";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250910.193137.tar";
+        sha256 = "0k21rm4h2xxivx955j14zflpwywkkdrbap8h3jl040jbr1c043rk";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2053,10 +2053,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250819.183753";
+      version = "4.0.0.0.20250910.90253";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250819.183753.tar";
-        sha256 = "1jikp1d5kai3v1vw2zbd0l6m7990ymw2asdz9887ky3wzhz6ia0c";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250910.90253.tar";
+        sha256 = "1ih5yvs7nazqjr3a7wahhac2wn70p2rjicbq5fwq1bxn0rj3wg1w";
       };
       packageRequires = [ ];
       meta = {
@@ -2643,10 +2643,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.4.0.0.20250909.60221";
+      version = "0.4.0.0.20250910.83604";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20250909.60221.tar";
-        sha256 = "1s7yfjzd754wdgrqk0751s589jyi0jqam6f9rwz9zk0diq6pi00q";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20250910.83604.tar";
+        sha256 = "1kr6r1al0g6sxddqm6np650rph6dqp0fpsdiqxmakzxm79nsmvgm";
       };
       packageRequires = [ ];
       meta = {
@@ -3502,10 +3502,10 @@
     elpaBuild {
       pname = "filechooser";
       ename = "filechooser";
-      version = "0.2.3.0.20250624.102108";
+      version = "0.2.4.0.20250910.151030";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/filechooser-0.2.3.0.20250624.102108.tar";
-        sha256 = "0va3sbq28xsg127yzn6fwjmqivykg0r74ll0gsi6knq7yggapfhg";
+        url = "https://elpa.gnu.org/devel/filechooser-0.2.4.0.20250910.151030.tar";
+        sha256 = "1b82fyqvbaq0mq6pz6m6i0h3i6kjcz59a3i9qfzlhvvjfa07zfyp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9442,10 +9442,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.10.0.0.20250903.151600";
+      version = "0.10.0.0.20250910.160117";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.10.0.0.20250903.151600.tar";
-        sha256 = "15dhvc815nrjg6ahbngw5hw5cnr9nxwn1n9fc481ysgaaz40la7l";
+        url = "https://elpa.gnu.org/devel/transient-0.10.0.0.20250910.160117.tar";
+        sha256 = "0xik8x3x263wccq3gwz4j5djywyym9hjz9mw7jm1rlb6f02170w4";
       };
       packageRequires = [
         compat
@@ -10022,10 +10022,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.8.0.0.20250211.11642";
+      version = "0.9.0.0.20250910.92713";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-posframe-0.8.0.0.20250211.11642.tar";
-        sha256 = "0l9s2r9s8gm2xyaz8alik7m3qy4jjg6mdpbdrgd5n9bp6jk85kz5";
+        url = "https://elpa.gnu.org/devel/vertico-posframe-0.9.0.0.20250910.92713.tar";
+        sha256 = "17lzg4w68rws0824dm1qn1fv9a63pwscvhabfqlfvicnkrpz7rzb";
       };
       packageRequires = [
         posframe
