@@ -2619,10 +2619,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20250909.40856";
+      version = "4.0.6.0.20250911.71830";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20250909.40856.tar";
-        sha256 = "0gqw7rwbpzg3j6ix58yhni7wh01bqlfdhas6bbdvrzjli8x3w4va";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20250911.71830.tar";
+        sha256 = "1v5fiqf8zp8906492jpi654xr4rq03zz4cv8sjr7c5agwi7mgl08";
       };
       packageRequires = [
         helm-core
@@ -2644,10 +2644,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20250909.40856";
+      version = "4.0.6.0.20250911.71830";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20250909.40856.tar";
-        sha256 = "1zmkbqsfjapqk4vh4m23lwvm3g1250clynkcqz6x20l2h7d1b0hf";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20250911.71830.tar";
+        sha256 = "1rv2n1s6ci6yw7c6s99ma674pkymdsdv9hbfz8wg02fm6iw9siqd";
       };
       packageRequires = [ async ];
       meta = {
@@ -4789,10 +4789,10 @@
     elpaBuild {
       pname = "spell-fu";
       ename = "spell-fu";
-      version = "0.3.0.20250910.32500";
+      version = "0.3.0.20250911.55431";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20250910.32500.tar";
-        sha256 = "153258089vz5ynkj7fpgx9pnp4zpahx5b9qdqarh23b7grpjia2j";
+        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20250911.55431.tar";
+        sha256 = "195gi3z8s8wbmmjwfs80hdx28rd270by0bpl6l1da7vwhakg1j0r";
       };
       packageRequires = [ ];
       meta = {
@@ -5200,10 +5200,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20250831.142215";
+      version = "0.2.1.0.20250911.3703";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250831.142215.tar";
-        sha256 = "0cbnbxqsm380w8c1b9wcaz77mj9x89vg77s4r2hbv507q1xmpkrs";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250911.3703.tar";
+        sha256 = "06wjzpgd0525xb8xq968p78y319hy4jxk97kxjdy3cbcf368s58w";
       };
       packageRequires = [ ];
       meta = {
