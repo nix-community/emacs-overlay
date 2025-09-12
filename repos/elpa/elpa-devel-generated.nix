@@ -1919,10 +1919,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250910.193137";
+      version = "0.24.1.0.20250911.195600";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250910.193137.tar";
-        sha256 = "0k21rm4h2xxivx955j14zflpwywkkdrbap8h3jl040jbr1c043rk";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250911.195600.tar";
+        sha256 = "17l5wkmmnqf3jvw2jhcz2y6x4wxscappnw64i9pxxbywcrxi74mb";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -5798,10 +5798,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.6.0.0.20250910.215317";
+      version = "0.6.0.0.20250911.133702";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.6.0.0.20250910.215317.tar";
-        sha256 = "08yhw8a5wlck93v4g7f43fg9l14szi2w2a7n35yyzmn1p539yr1y";
+        url = "https://elpa.gnu.org/devel/minuet-0.6.0.0.20250911.133702.tar";
+        sha256 = "05xn4ldiplgpj06bnlisv2hfix434p5af4ngr24jzl5ig30c4l4f";
       };
       packageRequires = [
         dash
