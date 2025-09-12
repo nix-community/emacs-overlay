@@ -9203,10 +9203,10 @@
     elpaBuild {
       pname = "timeout";
       ename = "timeout";
-      version = "2.0.0.20250907.203430";
+      version = "2.1.0.20250911.163956";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/timeout-2.0.0.20250907.203430.tar";
-        sha256 = "1wsb5ay8cf2cbn3h7271y0dd59cp33npx5j1l5xli2c1gh7dvgdc";
+        url = "https://elpa.gnu.org/devel/timeout-2.1.0.20250911.163956.tar";
+        sha256 = "1arsi968crr146qgqifx4s71ah50w3d3kl5m4k42mkgc50awy1r2";
       };
       packageRequires = [ ];
       meta = {
