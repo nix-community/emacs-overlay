@@ -13716,8 +13716,8 @@
   "repo": "andras-simonyi/citeproc-el",
   "unstable": {
    "version": [
-    20250910,
-    1412
+    20250912,
+    1154
    ],
    "deps": [
     "compat",
@@ -13729,8 +13729,8 @@
     "s",
     "string-inflection"
    ],
-   "commit": "fd5adee30aaf1e582e44a2dc902161e66722e191",
-   "sha256": "11m6r81lgwhj99yhavl7jjzqzvm5a97l320fj6hlr9d1p1ickvjk"
+   "commit": "9f16f2eee4586404b88a7b8cf46e1c158477bc33",
+   "sha256": "1nabgdifrbdn5mj7srjqz1slsfccjh22zjaz9bmkdr1x859b0gaj"
   },
   "stable": {
    "version": [
@@ -27742,14 +27742,14 @@
   "url": "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git",
   "unstable": {
    "version": [
-    20250831,
-    536
+    20250912,
+    823
    ],
    "deps": [
     "debian-el"
    ],
-   "commit": "2cddfd7ac5068ace95ced3eb7da32d810b1563e0",
-   "sha256": "1dkn5yr2ygjkj94z21ahc8fm2ykdizb0f836plkrprll3l8hlmhn"
+   "commit": "38f1fb20892dbb7c0e5ab6e23b7dee1f3fd926b3",
+   "sha256": "1w0q1j4l0ajyil39hy0w6cppn7nksif04wqw6wi9wk8jdxvqy9nl"
   },
   "stable": {
    "version": [
@@ -76691,16 +76691,16 @@
   "repo": "reinierkof/magik-company",
   "unstable": {
    "version": [
-    20250822,
-    1442
+    20250912,
+    744
    ],
    "deps": [
     "company",
     "magik-mode",
     "yasnippet"
    ],
-   "commit": "db00024a7212dc6af674a9ce27c1a15a29d484e8",
-   "sha256": "0g09bgxjd4cbd01b56g54j3x2qxpzs9klp9w9qwp698fy2lhirmm"
+   "commit": "4f8dbd3dcd7b858396e03bba57b908a11378ba9a",
+   "sha256": "1v46r5xsdhf44c9ba2ccq1s7dw8xnxgi2vlmazyipbfkqzqpyg4i"
   },
   "stable": {
    "version": [
@@ -76757,8 +76757,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20250910,
-    2042
+    20250912,
+    1136
    ],
    "deps": [
     "compat",
@@ -76769,8 +76769,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "2cca6a4be5e6c7e347f96afcc6da9f13c2b49c9a",
-   "sha256": "01bdiisgnhipj4kmx9an6fy4scq86dljr49qkjbavc6xn7pkhmpi"
+   "commit": "62e8f5603282ba7e8407117880533f0ac68d336d",
+   "sha256": "0id65avavp9flz3zyw5iq8f7yiwxv2sa2w10qg2bg6v70bxi9yir"
   },
   "stable": {
    "version": [
@@ -78838,19 +78838,20 @@
   "repo": "mathworks/Emacs-MATLAB-Mode",
   "unstable": {
    "version": [
-    20250605,
-    1434
+    20250912,
+    1317
    ],
-   "commit": "0c2cf1da3dbee9c82f924c31dface78771319996",
-   "sha256": "1iha55l59pranpwrdnhsg1wwjfg86a2wsk5s66png4q887b04sas"
+   "commit": "2fff242dd3122991729ad3138242d753b7f7c434",
+   "sha256": "18jly15c29iv40jdibkikf6b7vav27zhkw9zx8yf3i3fpg7f2mvp"
   },
   "stable": {
    "version": [
-    6,
-    2
+    7,
+    0,
+    0
    ],
-   "commit": "390bca3fd9ac440e6c3dcdc524e77c7590423f08",
-   "sha256": "1dfv6f05v7i7966q39knilqjnz1rif4zg6cdk31sy6h8prc6arc3"
+   "commit": "2fff242dd3122991729ad3138242d753b7f7c434",
+   "sha256": "18jly15c29iv40jdibkikf6b7vav27zhkw9zx8yf3i3fpg7f2mvp"
   }
  },
  {
@@ -79110,11 +79111,11 @@
   "repo": "laurynas-biveinis/mcp-server-lib.el",
   "unstable": {
    "version": [
-    20250911,
-    1718
+    20250912,
+    708
    ],
-   "commit": "95bfc1a51655b77a182fbad055436a5ae897f1bc",
-   "sha256": "1mac9h22ahx9lcxbvdl0n52xpcj892p33nvk1b1bvns126npi82z"
+   "commit": "e63bf84049ce1beefa1a7e64d338f1a5d395488d",
+   "sha256": "0ia706sj1rj1bbwhdz6zzrpbraczafrz7a591d81526w45inb7sc"
   },
   "stable": {
    "version": [
@@ -92801,30 +92802,30 @@
   "repo": "meedstrom/org-node",
   "unstable": {
    "version": [
-    20250718,
-    1701
+    20250912,
+    1206
    ],
    "deps": [
     "llama",
     "magit-section",
     "org-mem"
    ],
-   "commit": "c032a0bc238dd8df5a71868cd5c736e258dd9918",
-   "sha256": "1xlxf12g16abizfb0y86kfcyq62v8z538dawmy8sxc0232d41iy7"
+   "commit": "3e1bf8a236f06a558d4047295030c1167515fafa",
+   "sha256": "0bi36iz8pjk8ppkqbqrfgs286g7aqh3fhsnkcxqcgdhn3ssb98ij"
   },
   "stable": {
    "version": [
     3,
-    7,
-    4
+    8,
+    0
    ],
    "deps": [
     "llama",
     "magit-section",
     "org-mem"
    ],
-   "commit": "b5a07fcfb793ffc75dfab04962807b42d7d0b38e",
-   "sha256": "1cxzdyiqan4881m7fpzxym1gkplqlyagl3bj1pwa7a5bswhld40y"
+   "commit": "15d4c452af2485dbb45952c9e2b6648861837837",
+   "sha256": "1kamyz9hwqp29w18xyxvppxl2rigwz7d0f03yhfjpsbhd3ryg6ad"
   }
  },
  {
@@ -94346,8 +94347,8 @@
     "fsrs",
     "org"
    ],
-   "commit": "7f3d9468cc4df609db0999ba78e635b21a632de8",
-   "sha256": "1j4vfjz5knvbyww6r3v4g3zjlmp04f91b5iwvymccxcp88n8381q"
+   "commit": "726f75a8575c7a63171710016ba305a83587b5ad",
+   "sha256": "02pink3dk4jma9m90g7py1sc1icvm35ainqid9a9gs7agc7lhxm6"
   }
  },
  {
@@ -96008,11 +96009,11 @@
   "repo": "tbanel/orgtbljoin",
   "unstable": {
    "version": [
-    20250723,
-    1118
+    20250912,
+    1329
    ],
-   "commit": "d434bd138726e77f34a0e77d5de8416d6322b9f4",
-   "sha256": "17mka8m6m9v4wmx87mzn4wx1j2yagl59f96clx3vq0fks555sxfr"
+   "commit": "05bf2dd1dbc94bb510c0de6e965abf7c79d5e085",
+   "sha256": "05xvaafhy8w6wpgx7y258819rbiqrgrzzsdb52n0sp2kk9q0xg1r"
   }
  },
  {
@@ -99774,14 +99775,14 @@
   "repo": "krisbalintona/pdf-meta-edit",
   "unstable": {
    "version": [
-    20250321,
-    2317
+    20250912,
+    1306
    ],
    "deps": [
     "compat"
    ],
-   "commit": "8c2690f070d79e7cb495c0d3e04b48db2a2bbc3e",
-   "sha256": "0nlk2m652jzccy1lcpxmhjhjdcbkikg8nggpdlsscimrf9hid0f6"
+   "commit": "2e12f57480c831f069bcf71fe91c9f52ff06319f",
+   "sha256": "0gim4kzlik13avjgyvwclgkrs4pv4ap7jdn4kn6f19h8fvq4gys8"
   },
   "stable": {
    "version": [
