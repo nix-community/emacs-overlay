@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20250808.215752";
+      version = "14.1.0.0.20250912.144813";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250808.215752.tar";
-        sha256 = "1li0njqva88asr5flf1xiy4wibdxnkynp813fy38vqi3v9ckg96c";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250912.144813.tar";
+        sha256 = "0gnvl5cj2r26chirfz2h7fx311dirqbz5zslpqjq5aqmxwyjiqij";
       };
       packageRequires = [ ];
       meta = {
@@ -1919,10 +1919,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250911.195600";
+      version = "0.24.1.0.20250912.171152";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250911.195600.tar";
-        sha256 = "17l5wkmmnqf3jvw2jhcz2y6x4wxscappnw64i9pxxbywcrxi74mb";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250912.171152.tar";
+        sha256 = "0x6p8mg7hmid6lmq0g7i8xx5qj9bmq0wnp84zszz6m4nfzf5jpx2";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -5831,6 +5831,27 @@
       packageRequires = [ cl-lib ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/mmm-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  mode-line-maker = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "mode-line-maker";
+      ename = "mode-line-maker";
+      version = "0.1.0.20250912.174809";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/mode-line-maker-0.1.0.20250912.174809.tar";
+        sha256 = "08pwkdf94v4gzvfpjvs2dqkkzfr2w9c8k2qm5fwpjr7mb0y67fq5";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/mode-line-maker.html";
         license = lib.licenses.free;
       };
     }
