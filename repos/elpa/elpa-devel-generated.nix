@@ -1525,10 +1525,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.8.0.20250908.164233";
+      version = "2.8.0.20250913.111506";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.8.0.20250908.164233.tar";
-        sha256 = "1kirmc1yf90h39v4mgn0m7yqp1fziq8kkd7q9frqyc3d7gs5kpda";
+        url = "https://elpa.gnu.org/devel/consult-2.8.0.20250913.111506.tar";
+        sha256 = "1vrh91ax4kp679zgk44653xhgyk6wy4mwb42da85jgbdbs021m4g";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9463,10 +9463,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.10.0.0.20250910.160117";
+      version = "0.10.0.0.20250913.131254";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.10.0.0.20250910.160117.tar";
-        sha256 = "0xik8x3x263wccq3gwz4j5djywyym9hjz9mw7jm1rlb6f02170w4";
+        url = "https://elpa.gnu.org/devel/transient-0.10.0.0.20250913.131254.tar";
+        sha256 = "05cwj6j69lij0pffhwk9r78wzk2n99nm630n1azg55z2zxl7g7gg";
       };
       packageRequires = [
         compat
