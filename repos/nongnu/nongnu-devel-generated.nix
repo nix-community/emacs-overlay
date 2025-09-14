@@ -3298,10 +3298,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.0.0.20250912.113646";
+      version = "4.4.0.0.20250913.194031";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.0.0.20250912.113646.tar";
-        sha256 = "1vlg7y3w1iz09s8wq925r64hn5g2cmb0fr7gq33d5wgjwyayj3yl";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.0.0.20250913.194031.tar";
+        sha256 = "0llvl2sw4cdjr92kbxln7ph2ah9q03551pyknrwk9k903b05cxq1";
       };
       packageRequires = [
         compat
@@ -3331,10 +3331,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.0.0.20250912.113646";
+      version = "4.4.0.0.20250913.194031";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.0.0.20250912.113646.tar";
-        sha256 = "0p4xqkzsf9x40ssswm7gbdh94fnks65qclmf231qdkl08pai9212";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.0.0.20250913.194031.tar";
+        sha256 = "1k6hj054yd1v4cfb7xsblxng3q892d8l26pg2lvj2qq6k82mh1qx";
       };
       packageRequires = [
         compat
@@ -3830,10 +3830,10 @@
     elpaBuild {
       pname = "org-superstar";
       ename = "org-superstar";
-      version = "1.6.1.0.20250905.215937";
+      version = "1.6.1.0.20250913.162254";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-superstar-1.6.1.0.20250905.215937.tar";
-        sha256 = "0142bzlwnaindr08w32k7bf8iji46r1f3z82qbiz8hblb1d5g042";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-superstar-1.6.1.0.20250913.162254.tar";
+        sha256 = "1ifl6wnhkjh189qr5c76w8ppagyxqd350927k5yvbjkk90d14n8k";
       };
       packageRequires = [ org ];
       meta = {
@@ -4933,17 +4933,16 @@
       elpaBuild,
       fetchurl,
       lib,
-      seq,
     }:
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "9.4.0.0.20250913.62549";
+      version = "9.4.0.0.20250913.124759";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-9.4.0.0.20250913.62549.tar";
-        sha256 = "1wnwf2sf295szbk58w1lzid5h3nrvz1nnpqjznnamav03cv7zrzw";
+        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-9.4.0.0.20250913.124759.tar";
+        sha256 = "0lwpqkvbqp648prvbzsxqigwm3rx6iprir6s02qq3gy27338zi2i";
       };
-      packageRequires = [ seq ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/swift-mode.html";
         license = lib.licenses.free;
