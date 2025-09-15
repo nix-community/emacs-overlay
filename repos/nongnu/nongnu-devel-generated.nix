@@ -3455,10 +3455,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20250904.160600";
+      version = "1.5.0.0.20250914.165407";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20250904.160600.tar";
-        sha256 = "1lyyjjwaan9hkzzdv127vq6ldcfnf8b047z0w7gjhka27g0pp2hd";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20250914.165407.tar";
+        sha256 = "02wq0az10vqa7m55mga89aipjfqdwbw83rrf0xdyzc1f1r8841bm";
       };
       packageRequires = [ ];
       meta = {
@@ -3830,10 +3830,10 @@
     elpaBuild {
       pname = "org-superstar";
       ename = "org-superstar";
-      version = "1.7.0.0.20250913.203009";
+      version = "1.7.0.0.20250914.130856";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-superstar-1.7.0.0.20250913.203009.tar";
-        sha256 = "10vksqdbl29ccmr08ddi0qyp3qqxrw3qrfwmb5ny1xiacdhwyc6d";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-superstar-1.7.0.0.20250914.130856.tar";
+        sha256 = "0j2yxmsikpv75asbn8n15fkp1r79ca59in3gfipwnsh1yb5bmc4z";
       };
       packageRequires = [ org ];
       meta = {
