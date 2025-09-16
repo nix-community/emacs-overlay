@@ -4254,10 +4254,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20250811.112700";
+      version = "4.6snapshot0.20250915.103850";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250811.112700.tar";
-        sha256 = "1gwdwq8lb22b03fq8a046dqyy4kgdbaf7lhiah64pndhl8649xhq";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20250915.103850.tar";
+        sha256 = "0kanqrxdv0ayf5q6i3wj5xbc2nb7abhvw3sssn2nhn9kzy2yip1m";
       };
       packageRequires = [ ];
       meta = {
@@ -5807,10 +5807,10 @@
     elpaBuild {
       pname = "zig-mode";
       ename = "zig-mode";
-      version = "0.0.8.0.20250812.82048";
+      version = "0.0.8.0.20250915.80705";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20250812.82048.tar";
-        sha256 = "0wdcd7v40zgzh5zh5y17vzkwh028grzq93w65hhr42qq2g85rqy8";
+        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20250915.80705.tar";
+        sha256 = "0dz5gaja4zkq2vdamq2msqyxp8j59m131cm8mgjwz4jikcxg600b";
       };
       packageRequires = [ reformatter ];
       meta = {
