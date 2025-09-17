@@ -5433,10 +5433,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.0snapshot0.20250629.80737";
+      version = "8.3.0snapshot0.20250916.184603";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250629.80737.tar";
-        sha256 = "0vv7chilnsrig15asv0iy916vmvksbyhxasvlldykq9z3w4r6abi";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250916.184603.tar";
+        sha256 = "08yzghxhcpcrd2ny57j5dwv2wxpxfrk8cvb732ggz4az5maf3kg2";
       };
       packageRequires = [
         cl-lib
