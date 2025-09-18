@@ -984,6 +984,28 @@
       };
     }
   ) { };
+  buframe = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      timeout,
+    }:
+    elpaBuild {
+      pname = "buframe";
+      ename = "buframe";
+      version = "0.2";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/buframe-0.2.tar";
+        sha256 = "0bnj4xvwmda62j9i7a9pnd0x20wa6g3il8cl55df26qpgqmjjpkq";
+      };
+      packageRequires = [ timeout ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/buframe.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   bug-hunter = callPackage (
     {
       cl-lib ? null,

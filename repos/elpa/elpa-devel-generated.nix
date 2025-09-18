@@ -1005,6 +1005,28 @@
       };
     }
   ) { };
+  buframe = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      timeout,
+    }:
+    elpaBuild {
+      pname = "buframe";
+      ename = "buframe";
+      version = "0.2.0.20250917.90452";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/buframe-0.2.0.20250917.90452.tar";
+        sha256 = "0pyiakzr303nhs5fzp20lqiagw78nd354vxsq8b5r1gd09b260qc";
+      };
+      packageRequires = [ timeout ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/buframe.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   bug-hunter = callPackage (
     {
       cl-lib ? null,
@@ -1919,10 +1941,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20250914.175156";
+      version = "0.24.1.0.20250916.201102";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250914.175156.tar";
-        sha256 = "07jmfc7zlnj4n7m61610cak7my9m58vg4p57nj5rzy24azpczfz1";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20250916.201102.tar";
+        sha256 = "05gsq3w9q8bsyshqq7z2y7r0kyqrfw50q3y5brr9lkr1spb754xh";
       };
       packageRequires = [ jsonrpc ];
       meta = {
