@@ -5347,10 +5347,10 @@
     elpaBuild {
       pname = "undo-fu-session";
       ename = "undo-fu-session";
-      version = "0.7.0.20250913.225149";
+      version = "0.7.0.20250918.1702";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20250913.225149.tar";
-        sha256 = "0r13ckj125hrla3midny9s8bsmxsbmb4may8jnqzzrnyaasqs88g";
+        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20250918.1702.tar";
+        sha256 = "19ir40rg2zrmr2f1dfkxk304vhg1rv9bg8g5a0pn5j2qlgwcn5kb";
       };
       packageRequires = [ ];
       meta = {
