@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20250916.44442";
+      version = "14.1.0.0.20250918.65128";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250916.44442.tar";
-        sha256 = "08ap1c2qsfdfw613jkqmliijjm2r6pa9rf35lzbx5in9z07wc9gf";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250918.65128.tar";
+        sha256 = "1d0c1ls7fv45ca4p8p6796vrzx8l1v2p63gvg9w2k8hvy9vxnh1x";
       };
       packageRequires = [ ];
       meta = {
@@ -1015,10 +1015,10 @@
     elpaBuild {
       pname = "buframe";
       ename = "buframe";
-      version = "0.2.0.20250917.90452";
+      version = "0.2.0.20250917.90933";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/buframe-0.2.0.20250917.90452.tar";
-        sha256 = "0pyiakzr303nhs5fzp20lqiagw78nd354vxsq8b5r1gd09b260qc";
+        url = "https://elpa.gnu.org/devel/buframe-0.2.0.20250917.90933.tar";
+        sha256 = "1wlivzwzfmq3j8b1zgaw4bzln3c27d1xr9fvqq2p31cjh5ra36nl";
       };
       packageRequires = [ timeout ];
       meta = {
@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250915.43048";
+      version = "4.0.0.0.20250918.163321";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250915.43048.tar";
-        sha256 = "0k3yxrhnjk2wzz9qhf1kj652z9ycb21jz63myzdskfqhcmcfnzr5";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250918.163321.tar";
+        sha256 = "109h9knlflxiwdc4r28ksfrnj4k9m51pr57i6i58n0q91f7jmcnx";
       };
       packageRequires = [ ];
       meta = {
@@ -3089,10 +3089,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.8.2.0.20250801.174017";
+      version = "1.8.6.0.20250918.160602";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.8.2.0.20250801.174017.tar";
-        sha256 = "0drgpw3q5lm4x8fkf7nymv08vkjizbybmh1k66p1fy6sxxbjyfz9";
+        url = "https://elpa.gnu.org/devel/ellama-1.8.6.0.20250918.160602.tar";
+        sha256 = "0x1nndmivxvhpqjbns038qpksr9g02gh7rpg9r1jmkdmhvkiihgp";
       };
       packageRequires = [
         compat
