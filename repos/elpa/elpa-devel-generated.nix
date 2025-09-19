@@ -2369,10 +2369,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20250910.13213";
+      version = "1.10.0.0.20250918.202457";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250910.13213.tar";
-        sha256 = "1fr24cyy2f6hzm2vbr182ryhr5c0vpcmd965psk470i1ryl1bk9m";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250918.202457.tar";
+        sha256 = "0g7zddlbkhn0qn8f8yx1952030jy6560wlc425ic8qapgwkb1r3c";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2665,10 +2665,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.4.0.0.20250915.45928";
+      version = "0.4.0.0.20250919.51333";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20250915.45928.tar";
-        sha256 = "00in8a63qzfv2qz58pcn4vm813k8pvnl16zl416c5drws0nrj59w";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20250919.51333.tar";
+        sha256 = "0liivjc7x72lz9gwawxn1fg6l1ns8k6chc4phwn2zf287p0ca23g";
       };
       packageRequires = [ ];
       meta = {
@@ -3433,10 +3433,10 @@
     elpaBuild {
       pname = "expreg";
       ename = "expreg";
-      version = "1.4.1.0.20250827.212346";
+      version = "1.4.1.0.20250918.220913";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/expreg-1.4.1.0.20250827.212346.tar";
-        sha256 = "0j6gbpyz242hij85s24c3982lp1hazrh7jxh86l2nab5jwvirr4b";
+        url = "https://elpa.gnu.org/devel/expreg-1.4.1.0.20250918.220913.tar";
+        sha256 = "1fdwxr3albv7ww87w8ib8r0rid8zkibcgbl3qhp29vm8g28s89ws";
       };
       packageRequires = [ ];
       meta = {
@@ -3477,10 +3477,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.34.0.20250829.70331";
+      version = "0.34.0.20250919.75516";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20250829.70331.tar";
-        sha256 = "1lzfv3njbfd4f417ai0iv1v72wggfnhji0xyc2xh0msl2siljj4f";
+        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20250919.75516.tar";
+        sha256 = "1fm2mmni78xif4lva5rwsrv40ywbz8m0cc1gl3krqsilb3a150y8";
       };
       packageRequires = [
         compat
@@ -8336,10 +8336,10 @@
     elpaBuild {
       pname = "site-lisp";
       ename = "site-lisp";
-      version = "0.1.2.0.20240308.82403";
+      version = "0.2.0.0.20250918.230122";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/site-lisp-0.1.2.0.20240308.82403.tar";
-        sha256 = "0c9r5pp2lr4wmpcfa8qz0xvq1vhzyhvnn14kawjarhx9p5mvgdq1";
+        url = "https://elpa.gnu.org/devel/site-lisp-0.2.0.0.20250918.230122.tar";
+        sha256 = "0m72y6vlnwmj25wdy687hl14v77s81m00p9mjs6rv5sgcplnff8l";
       };
       packageRequires = [ ];
       meta = {
@@ -9845,10 +9845,10 @@
     elpaBuild {
       pname = "vc-backup";
       ename = "vc-backup";
-      version = "1.1.0.0.20220825.144758";
+      version = "1.1.1.0.20250918.224711";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-backup-1.1.0.0.20220825.144758.tar";
-        sha256 = "1jd3mv5467vy3ddrrhsv6nwsmyksqls5zhnb8hjb6imrhsylprbv";
+        url = "https://elpa.gnu.org/devel/vc-backup-1.1.1.0.20250918.224711.tar";
+        sha256 = "10a6a12xqsxvhpq88wwc1ylv5zy3x347d9l2bv2wpfrq7n7nrpr7";
       };
       packageRequires = [ compat ];
       meta = {

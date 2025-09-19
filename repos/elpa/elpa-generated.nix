@@ -8205,10 +8205,10 @@
     elpaBuild {
       pname = "site-lisp";
       ename = "site-lisp";
-      version = "0.1.2";
+      version = "0.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/site-lisp-0.1.2.tar";
-        sha256 = "1w27nd061y7a5qhdmij2056751wx9nwv89qx3hxcl473iz03b09l";
+        url = "https://elpa.gnu.org/packages/site-lisp-0.2.0.tar";
+        sha256 = "17wwn1wjkq4vjzhgzq5pyn5x6bzai6nwmxcsp9d375b88qwp973n";
       };
       packageRequires = [ ];
       meta = {
@@ -9660,6 +9660,7 @@
   ) { };
   vc-backup = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -9667,12 +9668,12 @@
     elpaBuild {
       pname = "vc-backup";
       ename = "vc-backup";
-      version = "1.1.0";
+      version = "1.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vc-backup-1.1.0.tar";
-        sha256 = "0a45bbrvk4s9cj3ih3hb6vqjv4hkwnz7m9a4mr45m6cb0sl9b8a3";
+        url = "https://elpa.gnu.org/packages/vc-backup-1.1.1.tar";
+        sha256 = "0lalz700s7cppayjyv7bvmgzcfl9hk1w84i2q00k1ns84h4qzji1";
       };
-      packageRequires = [ ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/vc-backup.html";
         license = lib.licenses.free;
