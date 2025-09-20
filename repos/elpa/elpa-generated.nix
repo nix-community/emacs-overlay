@@ -8829,10 +8829,10 @@
     elpaBuild {
       pname = "system-packages";
       ename = "system-packages";
-      version = "1.0.13";
+      version = "1.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/system-packages-1.0.13.tar";
-        sha256 = "0xlbq44c7f2assp36g5z9hn5gldq76wzpcinp782whqzpgz2k4sy";
+        url = "https://elpa.gnu.org/packages/system-packages-1.1.1.tar";
+        sha256 = "0ndnx94ilxha7mby47n29qvr0lrypmsa7d1mxdwd66jd150sar5r";
       };
       packageRequires = [ ];
       meta = {

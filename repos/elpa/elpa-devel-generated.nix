@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20250918.65128";
+      version = "14.1.0.0.20250919.155621";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250918.65128.tar";
-        sha256 = "1d0c1ls7fv45ca4p8p6796vrzx8l1v2p63gvg9w2k8hvy9vxnh1x";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250919.155621.tar";
+        sha256 = "1pg39kwlkqhq5m1gycqvxah05d3rv3w55gb3drvp856sw9fxlpzb";
       };
       packageRequires = [ ];
       meta = {
@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.0.0.0.20250918.163321";
+      version = "4.0.0.0.20250919.82732";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250918.163321.tar";
-        sha256 = "109h9knlflxiwdc4r28ksfrnj4k9m51pr57i6i58n0q91f7jmcnx";
+        url = "https://elpa.gnu.org/devel/denote-4.0.0.0.20250919.82732.tar";
+        sha256 = "07sxkzsszyc8rb9qhzy99bcvw2b84d51b1m0px211482r0rmpv1p";
       };
       packageRequires = [ ];
       meta = {
@@ -2369,10 +2369,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20250918.202457";
+      version = "1.10.0.0.20250919.111043";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250918.202457.tar";
-        sha256 = "0g7zddlbkhn0qn8f8yx1952030jy6560wlc425ic8qapgwkb1r3c";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250919.111043.tar";
+        sha256 = "1phf38zycnw7g7jlmaw4201y1bnyslsfhp01ajdzgqid7sw8fjj2";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2945,10 +2945,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.4.8.0.20250912.200807";
+      version = "2.4.8.0.20250919.161902";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.4.8.0.20250912.200807.tar";
-        sha256 = "03j3h0qw9d62hzak40vmi4cbx7hy0wkwnw6hqzbzr79820kl4v27";
+        url = "https://elpa.gnu.org/devel/el-job-2.4.8.0.20250919.161902.tar";
+        sha256 = "06zasj71ixpvgx9l90vmrkxqwhgkksl8h5kxscwj349qajjn8x0g";
       };
       packageRequires = [ ];
       meta = {
@@ -8981,10 +8981,10 @@
     elpaBuild {
       pname = "system-packages";
       ename = "system-packages";
-      version = "1.0.13.0.20230908.453";
+      version = "1.1.1.0.20250919.135435";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/system-packages-1.0.13.0.20230908.453.tar";
-        sha256 = "0qh4z6sik94hkms5nfharx2y8np2a1a2r9yrf8lw6xihdnd7bfcv";
+        url = "https://elpa.gnu.org/devel/system-packages-1.1.1.0.20250919.135435.tar";
+        sha256 = "0j7cyrgiyn0vyyc77wz7rjmn4rp7zsv3pqrn5zws2p254r2dyn6g";
       };
       packageRequires = [ ];
       meta = {
