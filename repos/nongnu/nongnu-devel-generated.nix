@@ -2596,10 +2596,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.3.2.0.20250629.84650";
+      version = "1.3.3.0.20250921.165742";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.3.2.0.20250629.84650.tar";
-        sha256 = "09n25ag4pjxyx5k6ffwpny6cdgblrg9v9kw64v6ili4zni0bvf6k";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.3.3.0.20250921.165742.tar";
+        sha256 = "1hnb15pyk7qvx6425mf499bc3slhvknlc7qvasfmw78khy9c91dl";
       };
       packageRequires = [ ];
       meta = {
@@ -2619,10 +2619,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20250917.63410";
+      version = "4.0.6.0.20250921.111826";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20250917.63410.tar";
-        sha256 = "1di9hgpgh4v0a9vbh53ra631zsvjqsr7rcgjjzc4vwypsrv4haii";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20250921.111826.tar";
+        sha256 = "1pn1dv88m4hxpmbq5hg95aqi1alrjb9mkn2g2ry2fv6i1in3il5m";
       };
       packageRequires = [
         helm-core
@@ -2644,10 +2644,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20250917.63410";
+      version = "4.0.6.0.20250921.111826";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20250917.63410.tar";
-        sha256 = "0zncd785kgmv1qabj0zg99im7bm7dv5srjxs273r8z19bxdnanhb";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20250921.111826.tar";
+        sha256 = "1009klhgvvcxxmiwcmyc0i9r41yhyy1ycvm7ckwxll1hs8wb6g9j";
       };
       packageRequires = [ async ];
       meta = {
@@ -4149,10 +4149,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.59.0.20250831.93432";
+      version = "0.60.0.20250921.132950";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.59.0.20250831.93432.tar";
-        sha256 = "04i1qdiwhjzzpz1zk2vqsp9miy2aay74y9l9m9r2plrmfl13nvx2";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.60.0.20250921.132950.tar";
+        sha256 = "1yjxkil8gnm40gjr6lvpaidp0syi7k320dq7xakhyk3kk8cz42r1";
       };
       packageRequires = [ peg ];
       meta = {

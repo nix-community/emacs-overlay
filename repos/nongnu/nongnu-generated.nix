@@ -2612,10 +2612,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.3.2";
+      version = "1.3.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/haskell-ts-mode-1.3.2.tar";
-        sha256 = "0hc34lr24gjviqmlghaidv71mjmvvv4mpzb87z5a0mqkz9y0a2ds";
+        url = "https://elpa.nongnu.org/nongnu/haskell-ts-mode-1.3.3.tar";
+        sha256 = "16lsahn0x456dnmm0dzxj1d138ci375fkj77zdx793x53s4zbv1f";
       };
       packageRequires = [ ];
       meta = {
@@ -4172,10 +4172,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.59";
+      version = "0.60";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/pg-0.59.tar";
-        sha256 = "0z3r964nw4bdw8vvcnkjy5fz2k8lqiylq6b6cgg7plkbfvnjpa8q";
+        url = "https://elpa.nongnu.org/nongnu/pg-0.60.tar";
+        sha256 = "06jlr38jbxnmmgqqic1n6d22sx0kfszv9awh3597lsvx044ix48j";
       };
       packageRequires = [ peg ];
       meta = {
