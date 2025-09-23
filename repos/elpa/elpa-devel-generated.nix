@@ -6421,10 +6421,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.5.0.20250909.201954";
+      version = "1.5.0.20250922.134410";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.5.0.20250909.201954.tar";
-        sha256 = "0pfkg7rd0rycdr614sy70gql029papl7rzdffwwjbk0nfzx77k4k";
+        url = "https://elpa.gnu.org/devel/orderless-1.5.0.20250922.134410.tar";
+        sha256 = "10i2hyyj5ki8cga21rdprjq5qnbqlhqxw1kn92d0zm1f2w1h9ykg";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9485,10 +9485,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.10.0.0.20250914.114330";
+      version = "0.10.0.0.20250922.143833";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.10.0.0.20250914.114330.tar";
-        sha256 = "0ryc12wvws68n6ka9pm8bgz7y6pfy2bjxi9gn778h6pds76s0ny9";
+        url = "https://elpa.gnu.org/devel/transient-0.10.0.0.20250922.143833.tar";
+        sha256 = "0h7jhz468fp85iksdb56f9x8h2vvs3k2p4pq9srwrfac75v69x5y";
       };
       packageRequires = [
         compat
