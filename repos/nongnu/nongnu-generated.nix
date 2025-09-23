@@ -2612,10 +2612,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.3.3";
+      version = "1.3.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/haskell-ts-mode-1.3.3.tar";
-        sha256 = "16lsahn0x456dnmm0dzxj1d138ci375fkj77zdx793x53s4zbv1f";
+        url = "https://elpa.nongnu.org/nongnu/haskell-ts-mode-1.3.4.tar";
+        sha256 = "1z0bl88w9gf53cfmnfq0iqq2hqm2bmy6wl8fwydvayn77lr5x72h";
       };
       packageRequires = [ ];
       meta = {

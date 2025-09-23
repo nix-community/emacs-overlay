@@ -1654,10 +1654,10 @@
     elpaBuild {
       pname = "exec-path-from-shell";
       ename = "exec-path-from-shell";
-      version = "2.2.0.20241107.71915";
+      version = "2.2.0.20250922.141302";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/exec-path-from-shell-2.2.0.20241107.71915.tar";
-        sha256 = "17wyy2agi9j7vny0wdi5mxp1nz7zpzi6ayx55ls1cdxwd7v2jyvf";
+        url = "https://elpa.nongnu.org/nongnu-devel/exec-path-from-shell-2.2.0.20250922.141302.tar";
+        sha256 = "1g70dg5ssw3k4jxcqqpi76qlckcl5n5rn7x812bm6xs9xp6izg1z";
       };
       packageRequires = [ ];
       meta = {
@@ -2596,10 +2596,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.3.3.0.20250921.165742";
+      version = "1.3.4.0.20250922.153032";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.3.3.0.20250921.165742.tar";
-        sha256 = "1hnb15pyk7qvx6425mf499bc3slhvknlc7qvasfmw78khy9c91dl";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.3.4.0.20250922.153032.tar";
+        sha256 = "0glcsp3kvnmqxcydj154shwgyamial6y987z1i0y5jz9rgn9zz7w";
       };
       packageRequires = [ ];
       meta = {
@@ -2832,10 +2832,10 @@
     elpaBuild {
       pname = "idle-highlight-mode";
       ename = "idle-highlight-mode";
-      version = "1.1.4.0.20240421.64727";
+      version = "1.1.4.0.20250922.133045";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idle-highlight-mode-1.1.4.0.20240421.64727.tar";
-        sha256 = "0wdzvy6zhxsr4i7s0169s8pl0bd3sms2xjqlvppkyqfmvwiggqkm";
+        url = "https://elpa.nongnu.org/nongnu-devel/idle-highlight-mode-1.1.4.0.20250922.133045.tar";
+        sha256 = "004axcdjrp10pflhx1s58ygjic0kcq17l2dg01sj6r8lck89gin9";
       };
       packageRequires = [ ];
       meta = {
@@ -5433,10 +5433,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.0snapshot0.20250916.184603";
+      version = "8.3.0snapshot0.20250922.112745";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250916.184603.tar";
-        sha256 = "08yzghxhcpcrd2ny57j5dwv2wxpxfrk8cvb732ggz4az5maf3kg2";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20250922.112745.tar";
+        sha256 = "1p1jyqwb1m0rxkpyr69yzkjjfv4yj1x3gfk8h5xizjcqisxckpaa";
       };
       packageRequires = [
         cl-lib
