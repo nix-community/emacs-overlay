@@ -11664,26 +11664,26 @@
   "repo": "kickingvegas/casual",
   "unstable": {
    "version": [
-    20250817,
-    2347
+    20250924,
+    2133
    ],
    "deps": [
     "transient"
    ],
-   "commit": "5e004a06eef3b66865b785bca51512cdb89ff6a9",
-   "sha256": "0dlhb04l0i71ivsz9mgrphx9mk6qldbihpvkijpqs01h5q2swd83"
+   "commit": "65e9a610381cd3cb6c0541fe450c65d33a84581f",
+   "sha256": "00ds96by108qb9n0b1z8jgwxxaixxv5bb3gh5x97jhwkh61vd66d"
   },
   "stable": {
    "version": [
     2,
-    8,
-    4
+    9,
+    0
    ],
    "deps": [
     "transient"
    ],
-   "commit": "5e004a06eef3b66865b785bca51512cdb89ff6a9",
-   "sha256": "0dlhb04l0i71ivsz9mgrphx9mk6qldbihpvkijpqs01h5q2swd83"
+   "commit": "65e9a610381cd3cb6c0541fe450c65d33a84581f",
+   "sha256": "00ds96by108qb9n0b1z8jgwxxaixxv5bb3gh5x97jhwkh61vd66d"
   }
  },
  {
@@ -14128,11 +14128,11 @@
   "repo": "NicholasBHubbard/clean-kill-ring.el",
   "unstable": {
    "version": [
-    20250922,
-    1649
+    20250924,
+    1918
    ],
-   "commit": "44c3fa45e74d1d7dd26cc92cc4c15880bd27b4d7",
-   "sha256": "19h94aar0yg8w9s4kc6kwgyyk2gl4prrmmjvm3q2wy8lcayp10jl"
+   "commit": "21bfd7d5041ab152c5b76b6f8f5151f704d8d98d",
+   "sha256": "19shbg4vq6jj4chqmxql3rahjkifd61cg05rgqm94zc8w11xcpkc"
   }
  },
  {
@@ -24076,15 +24076,15 @@
   "repo": "pprevos/denote-explore",
   "unstable": {
    "version": [
-    20250618,
-    1002
+    20250924,
+    2011
    ],
    "deps": [
     "dash",
     "denote"
    ],
-   "commit": "9d9a6399551d707cd45606a1fdf54d3abfd43859",
-   "sha256": "02v67rafjw904wd2dagnqpif767jb3xrsrjq82sph6dqf1dc8k6i"
+   "commit": "22d79704a5dc97a7bd3768b07b23349a3bb00949",
+   "sha256": "1jmhqigm4dvh824j84g5gzaxv6kbdihvlkby4zaxxnhlr7gw2r1z"
   },
   "stable": {
    "version": [
@@ -29546,8 +29546,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20250923,
-    1751
+    20250924,
+    1821
    ],
    "deps": [
     "compat",
@@ -29555,8 +29555,8 @@
     "f",
     "markdown-mode"
    ],
-   "commit": "a5abede039dea6045967c2561c5ee079c5748572",
-   "sha256": "09b6cikmygf5w7c1gnifq25g2i13mkifw4hjjpslbh7i43h2qvhp"
+   "commit": "61d7c5d65baeaa134a4e0bbfd532015921197010",
+   "sha256": "0ipc5f5d7nsbyisp866z492wk1cb51m1fnfdbiv9cxq5c3yvyx7q"
   },
   "stable": {
    "version": [
@@ -72115,19 +72115,19 @@
   "unstable": {
    "version": [
     20250924,
-    1547
+    1813
    ],
-   "commit": "8e697f43d1a55356983c93be2a0f314dcf86ca20",
-   "sha256": "05iva433xr403xaq16gvrja02s3vnjg5hk7h699dcqnmf899qsla"
+   "commit": "fa3c08c369bf53f3311f1f365b54271cf126e4dd",
+   "sha256": "1s1cgjy8k0xygkdwzvq27818rv7ahn73ag06wnqk2gg15a8f36d9"
   },
   "stable": {
    "version": [
     1,
     3,
-    0
+    1
    ],
-   "commit": "b136d531129eb488dc4134784e34c4afedcb0c2f",
-   "sha256": "18rynn9gv7kwaivp836lkkllrc51h6yn64x4r279fg1w4psrq94b"
+   "commit": "8e697f43d1a55356983c93be2a0f314dcf86ca20",
+   "sha256": "05iva433xr403xaq16gvrja02s3vnjg5hk7h699dcqnmf899qsla"
   }
  },
  {
@@ -92740,15 +92740,15 @@
   "repo": "minad/org-modern",
   "unstable": {
    "version": [
-    20250827,
-    1213
+    20250924,
+    1705
    ],
    "deps": [
     "compat",
     "org"
    ],
-   "commit": "d5e1f5af65cce53113e017d319edaff25641e15b",
-   "sha256": "1wx6wpvnl6jrxs8iplkqmjskak7hpd3xs7g4x8a5i6cj7g6jnq5l"
+   "commit": "6c1c38d87fcaa794b64d847851fc54580c3e3b57",
+   "sha256": "0ws6zjwz5kpy1by8ki0sqgvzdpip5mf93nlpkjzfvhvmrarjnrxx"
   },
   "stable": {
    "version": [
@@ -116681,8 +116681,8 @@
   "repo": "emacs-slack/emacs-slack",
   "unstable": {
    "version": [
-    20250923,
-    2257
+    20250924,
+    2025
    ],
    "deps": [
     "alert",
@@ -116694,8 +116694,8 @@
     "ts",
     "websocket"
    ],
-   "commit": "ea4d25f9a075edbf9506595c546777b835fa71f9",
-   "sha256": "0b3ag3ri9lh6rwm7kaqrn9vpfqfsw1sqlcwwsf8shf88zhznamla"
+   "commit": "4ad4bb3a2628b2015a591c835566f9348a16b81a",
+   "sha256": "0nmfccpx5cwdhl49q9vccpjzwjbad3c88ijyg6g91h238r19chr4"
   }
  },
  {
@@ -123349,15 +123349,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20250923,
-    2232
+    20250924,
+    2239
    ],
    "deps": [
     "transient",
     "visual-fill-column"
    ],
-   "commit": "4e7850c48c08405c8fb8a4132fe7e52e49692c6e",
-   "sha256": "0k5k41wqzi683gqgracf664p5hksq5rwagfivk1kcn3qxlp43n0l"
+   "commit": "f8d803bed9aa55df56361e37ba085ad2fc7bafce",
+   "sha256": "01a8b1j4yzhl7d3rrsjkpqzqvpp44z2ilhizx81784v2qljrycqx"
   },
   "stable": {
    "version": [
