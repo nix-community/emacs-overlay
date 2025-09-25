@@ -2665,10 +2665,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.4.0.0.20250924.123331";
+      version = "0.4.0.0.20250925.50546";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20250924.123331.tar";
-        sha256 = "05kp7px31wg2h590i020bgzbww9llbi4qwrmc173x7wnmrcfgc9g";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20250925.50546.tar";
+        sha256 = "07dlmyi0g51gn40a62rmh9cfd6qdj6qsrj8pzkhx9xdddi7ajlzw";
       };
       packageRequires = [ ];
       meta = {
@@ -7475,10 +7475,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20250922.164106";
+      version = "0.30.0.20250924.195905";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20250922.164106.tar";
-        sha256 = "11ymwdph2f6s4049phi0ycq8yazq8877pz08wnaqvykwzkdhcdnf";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20250924.195905.tar";
+        sha256 = "16fxa77dapc6y9y12skqfxszy93fjr09qnqf67kyyy3kwn62m12l";
       };
       packageRequires = [
         compat
