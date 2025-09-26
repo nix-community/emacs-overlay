@@ -5410,10 +5410,10 @@
     elpaBuild {
       pname = "visual-fill-column";
       ename = "visual-fill-column";
-      version = "2.6.3.0.20250505.230743";
+      version = "2.7.0.0.20250925.121619";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/visual-fill-column-2.6.3.0.20250505.230743.tar";
-        sha256 = "1cl39911k73cz5qbllyy82jw7hhbd6dly3s4p0kfnmav461b3qcp";
+        url = "https://elpa.nongnu.org/nongnu-devel/visual-fill-column-2.7.0.0.20250925.121619.tar";
+        sha256 = "0ymr57mwd6k9xia62dqwjxmywlhc5y7vnfc5ag8z9j232znshllp";
       };
       packageRequires = [ ];
       meta = {
