@@ -2369,10 +2369,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20250919.111043";
+      version = "1.10.0.0.20250927.752";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250919.111043.tar";
-        sha256 = "1phf38zycnw7g7jlmaw4201y1bnyslsfhp01ajdzgqid7sw8fjj2";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250927.752.tar";
+        sha256 = "1zp6x8i177cw09wvpzyvxfwzr1afvdmbhz5aprkydfn2kdhmkqfb";
       };
       packageRequires = [ cl-lib ];
       meta = {
