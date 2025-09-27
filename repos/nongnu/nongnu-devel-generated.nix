@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.5.0.20250818.124701";
+      version = "1.5.0.20250927.10200";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.5.0.20250818.124701.tar";
-        sha256 = "0y32fj69y0vvk3gcf7lrpwcmqk7y55gxrpl59l1wc9rwq42rsv90";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.5.0.20250927.10200.tar";
+        sha256 = "1sf2h2d7g1jf60vm6s5j6la27q43ckpz7b3pnyxka9rpy51ffnfr";
       };
       packageRequires = [
         compat
@@ -2422,10 +2422,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.0.20250926.4208";
+      version = "0.9.9.0.20250927.5853";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20250926.4208.tar";
-        sha256 = "1lxjkm9z6jg5bvgk78h55664jmad4nhybh7hyl3jpimvrca58nlb";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20250927.5853.tar";
+        sha256 = "0mc6x01v81jcjq7dqha6ya4vyywyf6gjc2gkbmsfzqg7rx7j99aj";
       };
       packageRequires = [
         compat
