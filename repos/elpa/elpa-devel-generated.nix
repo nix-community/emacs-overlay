@@ -5887,10 +5887,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.1.0.20250927.82348";
+      version = "4.8.1.0.20250928.74818";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20250927.82348.tar";
-        sha256 = "19mkk5b0xpl59nm3ds0pqd7wfni98d2kh5d8ncn6pjizxwhmlkdw";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20250928.74818.tar";
+        sha256 = "1wf4jd41zkvbbc81rpxxigv8gasw15ai5f3qs519wh812ri490rw";
       };
       packageRequires = [ ];
       meta = {
@@ -10173,10 +10173,10 @@
     elpaBuild {
       pname = "vundo";
       ename = "vundo";
-      version = "2.4.0.0.20250617.174826";
+      version = "2.4.0.0.20250927.224241";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vundo-2.4.0.0.20250617.174826.tar";
-        sha256 = "17pshwr9drw113az1mbw9val2lpf0cafgh8g7cpspzkph5x9149q";
+        url = "https://elpa.gnu.org/devel/vundo-2.4.0.0.20250927.224241.tar";
+        sha256 = "0y6zx6mld7dy2cqlcr81zm4g0vdm7ib92c9d1zca2b8i5pg5qfrp";
       };
       packageRequires = [ ];
       meta = {
