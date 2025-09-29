@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20250927.131610";
+      version = "14.1.0.0.20250929.65405";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250927.131610.tar";
-        sha256 = "0rd0s122k9x8xk4d0b4ln2rsad86a54hcjrr1zxw8wy3dan7jvc8";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250929.65405.tar";
+        sha256 = "0l8n19vdia38cci0f48gxkrh40n7b462jnn8pzl2fp859zlq9c5n";
       };
       packageRequires = [ ];
       meta = {
@@ -2028,10 +2028,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.44.0.20250826.75956";
+      version = "0.45.0.20250929.72502";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.44.0.20250826.75956.tar";
-        sha256 = "0lmagkv1wq2w8llmbf1vxbaw79i0byqvrbbl56fdjib1fz35aakv";
+        url = "https://elpa.gnu.org/devel/debbugs-0.45.0.20250929.72502.tar";
+        sha256 = "1mfvlfsjx10ndns6rfl2sap2vfb8d602ng4sn0iw0la9ywsaw6pg";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -2665,10 +2665,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.4.0.0.20250925.173233";
+      version = "0.4.0.0.20250929.70304";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20250925.173233.tar";
-        sha256 = "119nah4rw8lxcmp1i7r2k0grqvfacaiza0yvh66i7q7b5008rjbv";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20250929.70304.tar";
+        sha256 = "1y8xhgz752a2rn9m339vw8mn9sld6vzpl4783ag7py7dk2bx9dhy";
       };
       packageRequires = [ ];
       meta = {
@@ -5606,10 +5606,10 @@
     elpaBuild {
       pname = "mathsheet";
       ename = "mathsheet";
-      version = "1.2.0.20250705.223649";
+      version = "1.3.0.20250928.180349";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mathsheet-1.2.0.20250705.223649.tar";
-        sha256 = "0a198rd5djvhbldscy5pnl4xifw787amnrla3s7wy6jrr1lqna19";
+        url = "https://elpa.gnu.org/devel/mathsheet-1.3.0.20250928.180349.tar";
+        sha256 = "0mkmfm3ck71pm75r5rii1l89a9m50hgw68n92ww1m016z2zrw6va";
       };
       packageRequires = [ peg ];
       meta = {
@@ -9399,10 +9399,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.0.2.0.20250830.70957";
+      version = "2.8.0.3.0.20250929.70756";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.8.0.2.0.20250830.70957.tar";
-        sha256 = "1bzv2lrmkfia2k5z6gw7wr29zaahx3jgb4yzn2mixd36yp3s9p46";
+        url = "https://elpa.gnu.org/devel/tramp-2.8.0.3.0.20250929.70756.tar";
+        sha256 = "18zlii5z5qpp18ab6cylndvbcp0586b4g6xjih536g27awqki4i9";
       };
       packageRequires = [ ];
       meta = {

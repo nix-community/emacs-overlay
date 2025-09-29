@@ -1987,10 +1987,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.44";
+      version = "0.45";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/debbugs-0.44.tar";
-        sha256 = "02kb24rscbhs4w6xknf5d6l1cicy99b0004hr20pkki6faapzpx2";
+        url = "https://elpa.gnu.org/packages/debbugs-0.45.tar";
+        sha256 = "1rbj3ms2hkg0ra30y0bwzmdlcq58p15vzhin28a1rw2rmbwx5irc";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -5564,10 +5564,10 @@
     elpaBuild {
       pname = "mathsheet";
       ename = "mathsheet";
-      version = "1.2";
+      version = "1.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/mathsheet-1.2.tar";
-        sha256 = "1wx67cnpxlqnpr3bsdnw4ccsg2fgjazcdbddbkr6r69pdbrp6m3g";
+        url = "https://elpa.gnu.org/packages/mathsheet-1.3.tar";
+        sha256 = "1gyn47fzpa866i5xmdj6yq934xr9dsaq8za2r5z7hda660rh4wqi";
       };
       packageRequires = [ peg ];
       meta = {
@@ -9222,10 +9222,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.0.2";
+      version = "2.8.0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.8.0.2.tar";
-        sha256 = "1rkm4x00xw284kqif1a007l73ph32br6qxa9hpxv2iljvya6fdnd";
+        url = "https://elpa.gnu.org/packages/tramp-2.8.0.3.tar";
+        sha256 = "1qszpb4qywpnx5x7ynx8srq6m6aiygdimffghihxcviv1r1mxs53";
       };
       packageRequires = [ ];
       meta = {
