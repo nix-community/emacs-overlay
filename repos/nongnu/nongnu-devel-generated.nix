@@ -2619,10 +2619,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20250926.81503";
+      version = "4.0.6.0.20250928.94948";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20250926.81503.tar";
-        sha256 = "07w1smplzxijm327y2v2riln89q0gbg6z88bgilz00gqy15h57qa";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20250928.94948.tar";
+        sha256 = "01f3sy0syqddbzpja0kpzrrsk5m9a2p1i6jiy2s21b94gz1xqi68";
       };
       packageRequires = [
         helm-core
@@ -2644,10 +2644,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20250926.81503";
+      version = "4.0.6.0.20250928.94948";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20250926.81503.tar";
-        sha256 = "0f89p7ynjyqs4gknddkvw8qfir57mr81rfm7wakag9fifsxgfj59";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20250928.94948.tar";
+        sha256 = "157822v355n4dk0ns9s4fhwh32mkzrv3w6ch9b0kdhxn8d6f99r9";
       };
       packageRequires = [ async ];
       meta = {
@@ -4149,10 +4149,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.60.0.20250921.132950";
+      version = "0.60.0.20250928.144633";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.60.0.20250921.132950.tar";
-        sha256 = "1yjxkil8gnm40gjr6lvpaidp0syi7k320dq7xakhyk3kk8cz42r1";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.60.0.20250928.144633.tar";
+        sha256 = "0899g9r151ymhimlv40pnb4mx5kqyizbwa1ml6pnqk3as6lld0bj";
       };
       packageRequires = [ peg ];
       meta = {
@@ -4170,10 +4170,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1.0.20250602.130847";
+      version = "1.26.1.0.20250928.131854";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20250602.130847.tar";
-        sha256 = "0bhwg683jk5sjlq9kvp0318cgp1w7yvi7cfl5svr5qd3d44j7mgk";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20250928.131854.tar";
+        sha256 = "10px7l5j7z0zxzviccng3snp5j8ha7k1vzapmd0dvagjwn6l6dcp";
       };
       packageRequires = [ ];
       meta = {
@@ -4704,10 +4704,10 @@
     elpaBuild {
       pname = "sly";
       ename = "sly";
-      version = "1.0.43.0.20250522.230625";
+      version = "1.0.43.0.20250927.140528";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20250522.230625.tar";
-        sha256 = "13y1h93bf4bmz0mwrwhk6nd4skvcpjw9x0jl1ga2xx1ja6wf81s5";
+        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20250927.140528.tar";
+        sha256 = "1hcd5cq6xi57skj9962mc8rbcnm51ly1gx794cnnz0mq769p66h4";
       };
       packageRequires = [ ];
       meta = {
