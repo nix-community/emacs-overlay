@@ -1251,10 +1251,10 @@
     elpaBuild {
       pname = "elpher";
       ename = "elpher";
-      version = "3.6.5";
+      version = "3.6.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/elpher-3.6.5.tar";
-        sha256 = "0ab6m1c32j3rp577v8qb4k542fjgpvvkcgjvzfcc56fwb9d6xfy0";
+        url = "https://elpa.nongnu.org/nongnu/elpher-3.6.6.tar";
+        sha256 = "0wb1d5cm2gsjarqb9z06hx7nry37la6g5s44bb8q7j2xfd11h764";
       };
       packageRequires = [ ];
       meta = {

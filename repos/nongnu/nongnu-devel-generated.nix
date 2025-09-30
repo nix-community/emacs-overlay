@@ -1227,10 +1227,10 @@
     elpaBuild {
       pname = "elpher";
       ename = "elpher";
-      version = "3.6.5.0.20250306.150410";
+      version = "3.6.6.0.20250929.142203";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elpher-3.6.5.0.20250306.150410.tar";
-        sha256 = "1ah1vsbigz7ip7iz7f53w0bnmwf7dhfzyn1dx1dkfp4lkpr8gc7g";
+        url = "https://elpa.nongnu.org/nongnu-devel/elpher-3.6.6.0.20250929.142203.tar";
+        sha256 = "03p5z3r79303vxxs0q5cxhfmnjc18yr76pnfrsga11my6c9j7lza";
       };
       packageRequires = [ ];
       meta = {
@@ -1293,10 +1293,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20250812.102316";
+      version = "1.15.0.0.20250929.165020";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20250812.102316.tar";
-        sha256 = "05wx37b8vnjxx4swcpzmi0lf3g2b82dswd9j49xcphmqc0br4a6x";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20250929.165020.tar";
+        sha256 = "0qq60l5wy38izbixv4ymga32wvvl0fmxy2lc56s55fcg0safiwmc";
       };
       packageRequires = [
         cl-lib
