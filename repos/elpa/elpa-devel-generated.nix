@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20250930.162350";
+      version = "14.1.0.0.20251001.75144";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20250930.162350.tar";
-        sha256 = "0g6h09bpwfys9aprzwmjww988x1p8v8bglfdmh7ap1q00bmpr6h4";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20251001.75144.tar";
+        sha256 = "124nnmf5m1nwpicnb8y9g220ydjsrf6h3c2j04xih1gbg0712mn8";
       };
       packageRequires = [ ];
       meta = {
