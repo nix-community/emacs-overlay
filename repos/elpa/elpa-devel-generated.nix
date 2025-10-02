@@ -2884,16 +2884,17 @@
       elpaBuild,
       fetchurl,
       lib,
+      modus-themes,
     }:
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.11.0.0.20250925.133447";
+      version = "1.11.0.0.20251002.63259";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20250925.133447.tar";
-        sha256 = "1hcyq0n5j1qdnnraqwfkd6nvx6dcagwnwx4qc12aai5zhf5hrypk";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251002.63259.tar";
+        sha256 = "1bsdjr7yqpj7pyg2c0rsianyz768q1l1iz1iyazp3gl25h3i5a5i";
       };
-      packageRequires = [ ];
+      packageRequires = [ modus-themes ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/ef-themes.html";
         license = lib.licenses.free;
