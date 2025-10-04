@@ -2990,10 +2990,10 @@
     elpaBuild {
       pname = "j-mode";
       ename = "j-mode";
-      version = "2.0.1.0.20250930.133542";
+      version = "2.0.2.0.20251003.80527";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/j-mode-2.0.1.0.20250930.133542.tar";
-        sha256 = "0ikfxv45398dck0f6rz5mh4lnfhgkbxzisaxph8vvlgj928fs0zm";
+        url = "https://elpa.nongnu.org/nongnu-devel/j-mode-2.0.2.0.20251003.80527.tar";
+        sha256 = "1nzfxdx2ngkndrig2bbqh5y3459gslh9s00r4p9kwwvc5m0wrj47";
       };
       packageRequires = [ ];
       meta = {
