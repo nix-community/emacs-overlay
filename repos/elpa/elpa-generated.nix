@@ -8122,10 +8122,10 @@
     elpaBuild {
       pname = "shell-command-plus";
       ename = "shell-command+";
-      version = "2.4.2";
+      version = "2.5.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/shell-command+-2.4.2.tar";
-        sha256 = "1kjj8n3nws7dl7k3ksnfx0s0kwvqb9wzy9k42xs5s51k7xrp1l18";
+        url = "https://elpa.gnu.org/packages/shell-command+-2.5.0.tar";
+        sha256 = "0svmrar0blgq3ffg9sll6b5vnqi1nw7snkbl04x2s9qln2i88dzx";
       };
       packageRequires = [ ];
       meta = {

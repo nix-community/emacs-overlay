@@ -2369,10 +2369,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20250927.752";
+      version = "1.10.0.0.20251002.232014";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20250927.752.tar";
-        sha256 = "1zp6x8i177cw09wvpzyvxfwzr1afvdmbhz5aprkydfn2kdhmkqfb";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20251002.232014.tar";
+        sha256 = "192dw45znzz10cq9kjs2km427rz9mpmqn4hxiz9r9if6sjq3gvz0";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2889,10 +2889,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.11.0.0.20251002.170806";
+      version = "1.11.0.0.20251003.74330";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251002.170806.tar";
-        sha256 = "12mgwjkng9x8qpqxrb24k2ymyxfixnqnank9mnh5yyl9frlw42sp";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251003.74330.tar";
+        sha256 = "0353nf87y8f0q6c1n89xvlqpg7xcqbybxsi2h6fl5lx3516qh2wv";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -2917,10 +2917,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20250906.134233";
+      version = "1.18.0.20251003.84456";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20250906.134233.tar";
-        sha256 = "0jx1080v2hqx3yc9dy5n39s15zmzdszcxq0blaw714lhn72bx4a8";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20251003.84456.tar";
+        sha256 = "0avj1q1m7qmdivvz3nqysbq9lxnzpy6cfw599wl44ij5xdfnpwrx";
       };
       packageRequires = [
         eldoc
@@ -3362,10 +3362,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "25.1.0.0.20250729.82713";
+      version = "25.1.0.0.20251002.203311";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20250729.82713.tar";
-        sha256 = "1c6pk6dxzqi4xx06a0yirrzrpvrqsdf3pidbkw08m6ddjg75qrcp";
+        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20251002.203311.tar";
+        sha256 = "05c4mplaz8g8vh86xvwglg3fs1dg5im8chvxcy2sfi171k0yg8g4";
       };
       packageRequires = [ ];
       meta = {
@@ -5888,10 +5888,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.1.0.20251002.165740";
+      version = "4.8.1.0.20251003.74941";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251002.165740.tar";
-        sha256 = "0w76nashn210sfjgamh0li4kp1ppfrz3v1bwz22i1cj162jw60b8";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251003.74941.tar";
+        sha256 = "0kf8pjkwzggxl56cw0c5n9yc9czgik6pad825rrfwj81hnk0m4xy";
       };
       packageRequires = [ ];
       meta = {
@@ -8232,10 +8232,10 @@
     elpaBuild {
       pname = "shell-command-plus";
       ename = "shell-command+";
-      version = "2.4.2.0.20240912.220425";
+      version = "2.5.0.0.20250930.194048";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/shell-command+-2.4.2.0.20240912.220425.tar";
-        sha256 = "16yxmv8nhbnsdancnn8zj81zba9dfzmkfjxp9sb9d2f0wnyza2i4";
+        url = "https://elpa.gnu.org/devel/shell-command+-2.5.0.0.20250930.194048.tar";
+        sha256 = "1p6s6rp10mg23vvnls5pxgx014jf86x6427xbqms3bbdz0fpzn5j";
       };
       packageRequires = [ ];
       meta = {
@@ -8764,16 +8764,17 @@
       elpaBuild,
       fetchurl,
       lib,
+      modus-themes,
     }:
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20250909.65826";
+      version = "2.2.0.0.20251003.74405";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20250909.65826.tar";
-        sha256 = "0gib739yjw5b33hlfffbkgdj1m3sk13qn11w707w72kxn9858g0j";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251003.74405.tar";
+        sha256 = "1z4rhs4cjqfmmlxw2vvnb3xyf44gih7ijmy0882r226kgqscfn4d";
       };
-      packageRequires = [ ];
+      packageRequires = [ modus-themes ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/standard-themes.html";
         license = lib.licenses.free;
@@ -9149,6 +9150,27 @@
       packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/tempel.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  termint = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "termint";
+      ename = "termint";
+      version = "0.1.0.20250908.11321";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/termint-0.1.0.20250908.11321.tar";
+        sha256 = "1b80p0ymar5x057brskvjs2vlddr2b0v1003rrskddv4i2yx954r";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/termint.html";
         license = lib.licenses.free;
       };
     }
@@ -9580,10 +9602,10 @@
     elpaBuild {
       pname = "triples";
       ename = "triples";
-      version = "0.6.0.0.20250510.230302";
+      version = "0.6.0.0.20251002.234823";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/triples-0.6.0.0.20250510.230302.tar";
-        sha256 = "0xgx32rwxw4cf1c178mfasvpw7ng85mrakqyvzmmmbysj16dkcw8";
+        url = "https://elpa.gnu.org/devel/triples-0.6.0.0.20251002.234823.tar";
+        sha256 = "0c4g47j6b2xsrygj59vlz62357k2s3ayxwzany0d2gqk9pxmcc4j";
       };
       packageRequires = [ seq ];
       meta = {
