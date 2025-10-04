@@ -8976,6 +8976,27 @@
       };
     }
   ) { };
+  termint = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "termint";
+      ename = "termint";
+      version = "0.1.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/termint-0.1.1.tar";
+        sha256 = "1d6hg6bs105a8dzr0v2by0mb9c7v87jwqi4dxxzm6287448x7qqa";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/termint.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   test-simple = callPackage (
     {
       cl-lib ? null,
