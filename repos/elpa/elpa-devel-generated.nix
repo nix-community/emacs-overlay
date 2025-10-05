@@ -2665,10 +2665,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.4.0.0.20250929.70304";
+      version = "0.4.0.0.20251004.101735";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20250929.70304.tar";
-        sha256 = "1y8xhgz752a2rn9m339vw8mn9sld6vzpl4783ag7py7dk2bx9dhy";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20251004.101735.tar";
+        sha256 = "1dlsfy3faww658v03886gc44mf696pjr33igp2cfzw9ya1xsszaf";
       };
       packageRequires = [ ];
       meta = {
@@ -8769,10 +8769,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20251004.50137";
+      version = "2.2.0.0.20251004.162642";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251004.50137.tar";
-        sha256 = "1qd64arhkvkibq97h6sj0d6cmsy8ynaafd5xp753h04cj3gbcr9r";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251004.162642.tar";
+        sha256 = "1j8rg1qhbp8aa8sxdwn165q2b219b475ysf2bysghdbch2lpwi36";
       };
       packageRequires = [ modus-themes ];
       meta = {
