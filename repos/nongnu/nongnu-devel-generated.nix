@@ -2855,10 +2855,10 @@
     elpaBuild {
       pname = "idris-mode";
       ename = "idris-mode";
-      version = "1.1.0.0.20250825.75833";
+      version = "1.1.0.0.20251004.101905";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20250825.75833.tar";
-        sha256 = "0ifxj3na8i0xhrkkh5j5xlassjxjv9snaybkaqd8ah5khj4y8cq9";
+        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20251004.101905.tar";
+        sha256 = "145kf34pjgfmsh6cg1bsd8bzbxahr94a407ishs3p099iginwb9v";
       };
       packageRequires = [
         cl-lib
@@ -3298,10 +3298,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.0.0.20250927.71458";
+      version = "4.4.0.0.20251004.202821";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.0.0.20250927.71458.tar";
-        sha256 = "0xhbh6rriazqm3pz6qr24vwzwcbdg4j9m0c95kqncwmc97jxh0pn";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.0.0.20251004.202821.tar";
+        sha256 = "126dmqgfbqffpsnddripp7gdv8jxfwh2wlmnxpzvysdnbgqwrasw";
       };
       packageRequires = [
         compat
@@ -3331,10 +3331,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.0.0.20250927.71458";
+      version = "4.4.0.0.20251004.202821";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.0.0.20250927.71458.tar";
-        sha256 = "0x7mwdzvma6sqm0j33n98vrcvcl1ya715lsxrspfwylbv0z6pw90";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.0.0.20251004.202821.tar";
+        sha256 = "1xxdd5cyl99jd26slw5a25vx970xm07agqgv210j7rz7by6j2rwm";
       };
       packageRequires = [
         compat
