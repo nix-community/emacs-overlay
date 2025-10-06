@@ -9155,10 +9155,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.1.0";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tmr-1.1.0.tar";
-        sha256 = "1bvysr05007qgzy2z6rxhhxpaq4b648icfmnj6qf8ydn8b5ih5kw";
+        url = "https://elpa.gnu.org/packages/tmr-1.2.0.tar";
+        sha256 = "0ywy3wz6km4smp7igzn44fwincc79nwzm0a55jv7hyz6bv78n8xr";
       };
       packageRequires = [ ];
       meta = {
@@ -9424,10 +9424,10 @@
     elpaBuild {
       pname = "triples";
       ename = "triples";
-      version = "0.6.0";
+      version = "0.6.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/triples-0.6.0.tar";
-        sha256 = "12qf91ldgkwgkwj3a5g68qy4sbmrqmxq4qcgcnygj570ipjv49q8";
+        url = "https://elpa.gnu.org/packages/triples-0.6.1.tar";
+        sha256 = "0rziyr9gwab140afs0hhwqbi6kvp2ypv7clp0y9yckmpj1b0bzrv";
       };
       packageRequires = [ seq ];
       meta = {

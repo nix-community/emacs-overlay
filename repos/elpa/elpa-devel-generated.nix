@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.9.0.20251004.75224";
+      version = "1.9.9.0.20251005.63407";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20251004.75224.tar";
-        sha256 = "0gajhg6k9mmyqax2bg8cs624gl8216gmgjx2z88140f4cicf2qih";
+        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20251005.63407.tar";
+        sha256 = "1mb8wvmkyi5baykccps4dl17jpk90yar043594aa7fsy8rqzdw7c";
       };
       packageRequires = [ ];
       meta = {
@@ -1547,10 +1547,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "2.8.0.20250925.174904";
+      version = "2.8.0.20251006.71921";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-2.8.0.20250925.174904.tar";
-        sha256 = "1fd7gisvim95h7qs2z9pshrck6061awkzdl2dh0mbpr9ayh8v2mx";
+        url = "https://elpa.gnu.org/devel/consult-2.8.0.20251006.71921.tar";
+        sha256 = "1fb5q2cdrcmgp7p7dsq592wpkcswk2c45pg2xdnwx11q10m9bl7d";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2319,10 +2319,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "1.0.0.20250908.164936";
+      version = "1.0.0.20251005.135514";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dicom-1.0.0.20250908.164936.tar";
-        sha256 = "1vsa056y8xqkp73zrigqrvfghs2697xp95cqhaizvc9c8vcxvmgp";
+        url = "https://elpa.gnu.org/devel/dicom-1.0.0.20251005.135514.tar";
+        sha256 = "1pn222ffy29lnw6faipah60vrja5f498768nyhyjlch6hg6120zi";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2889,10 +2889,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.11.0.0.20251004.50030";
+      version = "1.11.0.0.20251006.60649";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251004.50030.tar";
-        sha256 = "1klrqzzj6i43a47ybdldlq7aiazj3gy20fjdk8qcchasbhxcf56m";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251006.60649.tar";
+        sha256 = "0p7wmdwxbxp02kjx30mqv4d6a3zqz716v6b2vrl93xrdkarbbfyw";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -5522,10 +5522,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.3.0.20250920.85223";
+      version = "2.3.0.20251006.72111";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.3.0.20250920.85223.tar";
-        sha256 = "1yb1dh49rc69lfnzyx77qvykw4wf904nxjlmlamnbwz62cbhpab3";
+        url = "https://elpa.gnu.org/devel/marginalia-2.3.0.20251006.72111.tar";
+        sha256 = "10jwmvk3mn4x07xd32g9mgrhp3xba6i0lzfmj7s6fi3b31z2kqb2";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5888,10 +5888,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.1.0.20251004.45917";
+      version = "4.8.1.0.20251006.42935";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251004.45917.tar";
-        sha256 = "1p5vgcx3mlzg7x2v8y8kc168b9zxm5mr0a59drx5pyc81dqvzdvh";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251006.42935.tar";
+        sha256 = "0a6df2fa5a14g0xm9cjgfk2kx0fccr6p0zad6g5zy5sssv99161c";
       };
       packageRequires = [ ];
       meta = {
@@ -6443,10 +6443,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20250928.151015";
+      version = "9.8pre0.20251005.110028";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20250928.151015.tar";
-        sha256 = "0sz39cj43j2dp62b5gxldy4fdqqfslmgvv6f53kb5s6z0r5dsbn6";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251005.110028.tar";
+        sha256 = "07vr2y06jp9zsws5pwpg8xss7bm0asrn54by8pkf9xrhfbxx4s1v";
       };
       packageRequires = [ ];
       meta = {
@@ -8769,10 +8769,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20251004.162642";
+      version = "2.2.0.0.20251006.43230";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251004.162642.tar";
-        sha256 = "1j8rg1qhbp8aa8sxdwn165q2b219b475ysf2bysghdbch2lpwi36";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251006.43230.tar";
+        sha256 = "1bwaz9zwbdnnrkrxwrxyp42jzg43r8i8ql4g0gkk321aql66xw6s";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -9333,10 +9333,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.1.0.0.20250930.101305";
+      version = "1.2.0.0.20251006.73242";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.1.0.0.20250930.101305.tar";
-        sha256 = "1kgpz501l0mnqnx5dcrgc0a468b028hy8vv9wnyvhia8q22sq2yb";
+        url = "https://elpa.gnu.org/devel/tmr-1.2.0.0.20251006.73242.tar";
+        sha256 = "1ll3776pbkjvxiqy2d0n11armxakckacjfmjwz6cpm19iz3h0gx4";
       };
       packageRequires = [ ];
       meta = {
@@ -9508,10 +9508,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.10.0.0.20250922.143833";
+      version = "0.10.0.0.20251005.195022";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.10.0.0.20250922.143833.tar";
-        sha256 = "0h7jhz468fp85iksdb56f9x8h2vvs3k2p4pq9srwrfac75v69x5y";
+        url = "https://elpa.gnu.org/devel/transient-0.10.0.0.20251005.195022.tar";
+        sha256 = "175qn1saifbkwyi1fz8l6lv3s3ji2qqhnnvhnbwc12g3jrsdl1xa";
       };
       packageRequires = [
         compat
@@ -9602,10 +9602,10 @@
     elpaBuild {
       pname = "triples";
       ename = "triples";
-      version = "0.6.0.0.20251002.234823";
+      version = "0.6.1.0.20251004.160701";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/triples-0.6.0.0.20251002.234823.tar";
-        sha256 = "0c4g47j6b2xsrygj59vlz62357k2s3ayxwzany0d2gqk9pxmcc4j";
+        url = "https://elpa.gnu.org/devel/triples-0.6.1.0.20251004.160701.tar";
+        sha256 = "05xplf1ipdykw5l25zsfgcghb5a5pq1la93059w82nqyqsa9401r";
       };
       packageRequires = [ seq ];
       meta = {
