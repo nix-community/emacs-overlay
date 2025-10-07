@@ -2855,10 +2855,10 @@
     elpaBuild {
       pname = "idris-mode";
       ename = "idris-mode";
-      version = "1.1.0.0.20251004.101905";
+      version = "1.1.0.0.20251006.81904";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20251004.101905.tar";
-        sha256 = "145kf34pjgfmsh6cg1bsd8bzbxahr94a407ishs3p099iginwb9v";
+        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20251006.81904.tar";
+        sha256 = "0yga8jfw275c6vkr1dz23d9bm5jshqidzg0fhakpxrl2aiyd8qkh";
       };
       packageRequires = [
         cl-lib
@@ -3298,10 +3298,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.0.0.20251005.195810";
+      version = "4.4.2.0.20251006.184033";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.0.0.20251005.195810.tar";
-        sha256 = "03akr1d4mlazpvjq5yl2z52cd9wphg014j56r5axf9dq2mqsxw2n";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251006.184033.tar";
+        sha256 = "1jl4wnxca90vfr42v5wl66arrh8c8ybxcr18lgq4af32shcpz758";
       };
       packageRequires = [
         compat
@@ -3331,10 +3331,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.0.0.20251005.195810";
+      version = "4.4.2.0.20251006.184033";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.0.0.20251005.195810.tar";
-        sha256 = "1gqknm86fc2rbmxin9qc5kaw4mw01n9qysarkripqwmfacvbybki";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251006.184033.tar";
+        sha256 = "1lb6lm7fq0svjrfk6h7x45rhbwfspri46rfsnz2rv54l7jxzb7dh";
       };
       packageRequires = [
         compat
@@ -3380,10 +3380,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.2.0.20250801.103236";
+      version = "2.0.3.0.20251006.174033";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.2.0.20250801.103236.tar";
-        sha256 = "0wgx53vlg2ifajmr298a3hrz8fy08sgdx909jfbm44kbf4myhm2m";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.3.0.20251006.174033.tar";
+        sha256 = "1b0wxpzgi5g5n8n3kxsxshfpx7nb8xywc0a2qk8qjarii2dlm6wc";
       };
       packageRequires = [
         persist
@@ -4556,10 +4556,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "97.0.0.20250728.23846";
+      version = "97.0.0.20251006.100215";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-97.0.0.20250728.23846.tar";
-        sha256 = "1jvhzhvs0zfx3ygzrm9ixw10wmdv0fy9s3g236kbdrlkc94lddrc";
+        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-97.0.0.20251006.100215.tar";
+        sha256 = "1y6176qi8bkr5ffs6jik8bh1f4zx7daa4wmxq3zpgn95vjb7dp9r";
       };
       packageRequires = [ compat ];
       meta = {

@@ -3314,10 +3314,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.0";
+      version = "4.4.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-4.4.0.tar";
-        sha256 = "05ggd65mz17ffni5mn9s1qzlcg229csbbaplsfp0skjrmsfa33ky";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.4.2.tar";
+        sha256 = "0l0fvf4gx4xj7474h5k00p4aa33y7z7x9lgy41vxi47vbifki2yk";
       };
       packageRequires = [
         compat
@@ -3347,10 +3347,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.0";
+      version = "4.4.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.4.0.tar";
-        sha256 = "12208jr50cz8vjd8k9kihkg10yy5fsk96hr2j43bj5n28jgkvyrp";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.4.2.tar";
+        sha256 = "00324rd8r0pcdpgls1m0awjbms68fglsi045b8zrk6q6ahz1v08x";
       };
       packageRequires = [
         compat
@@ -3396,10 +3396,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.2";
+      version = "2.0.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.2.tar";
-        sha256 = "146ds0wzw7l1irn5had926y5irqa1j5cld5s0pfmvyh18zjzn9bg";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.3.tar";
+        sha256 = "07snrvsbwvzky8b8whwy3qwwdzj84bfr23c2m11b5sskkgjykvy0";
       };
       packageRequires = [
         persist
