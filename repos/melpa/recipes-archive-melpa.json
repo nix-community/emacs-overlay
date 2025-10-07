@@ -29585,8 +29585,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20251005,
-    2025
+    20251007,
+    1310
    ],
    "deps": [
     "compat",
@@ -29594,8 +29594,8 @@
     "f",
     "markdown-mode"
    ],
-   "commit": "06c85d9b56876b2264e830ba1739c68065ec476b",
-   "sha256": "0xrf8c9qi0fbzsr9nh1xqm2k3r3cd8jgls72q00489hrbq9fffp7"
+   "commit": "ad351ee99e9d4392e1e4559a0864cae7d75bd176",
+   "sha256": "0p5x5kczycskz77dk8b49mh20rkfgxdkd1yb9nj5c68kdqb6dsna"
   },
   "stable": {
    "version": [
@@ -37622,15 +37622,15 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20250927,
-    1601
+    20251007,
+    813
    ],
    "deps": [
     "annalist",
     "evil"
    ],
-   "commit": "f59dacc9fd8501631cbefc09057c91ed95cdf318",
-   "sha256": "00kws254raq4lc0fvfissj958k7dah50agnkxv33iwa59r466p4p"
+   "commit": "00e71118ab43d8eebf619c8ac00d165b21b9c1e7",
+   "sha256": "16yrp140hnij647jnqxi73ny7y78qnasf2ihgdr6bf43vpzkzw13"
   },
   "stable": {
    "version": [
@@ -47651,8 +47651,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20251006,
-    1823
+    20251007,
+    1152
    ],
    "deps": [
     "closql",
@@ -47667,8 +47667,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "34e7b77602b2018f64bd7e38314a0a2cb4a32227",
-   "sha256": "18ayhf3q433abkp2dwyc3arlbvadsr7bjh3j52figy0k2bi3ixhh"
+   "commit": "54a33e91aed1ce30f083b01b2ffee54ec1311313",
+   "sha256": "0hd8gllkmbn6ac2dk0ilfd43nl3l7sdsf3x7jkl07algnskngr2j"
   },
   "stable": {
    "version": [
@@ -70239,15 +70239,15 @@
   "repo": "ogdenwebb/emacs-kaolin-themes",
   "unstable": {
    "version": [
-    20250909,
-    2335
+    20251007,
+    1241
    ],
    "deps": [
     "autothemer",
     "cl-lib"
    ],
-   "commit": "e0db9f421670ee26e1442b89062669e44fcf9454",
-   "sha256": "07p68cn7jc13j8qd1hdibbqjm0dkyds8i096sgx0n642w6j80w0i"
+   "commit": "a0570401fa08fb6f3843e574d28823a8e079e943",
+   "sha256": "0qf5slf6ibi38v460wzbfm8sklpkzzq7hcb46dw13hiq2qmbkc1l"
   },
   "stable": {
    "version": [
@@ -92835,15 +92835,15 @@
   "repo": "meedstrom/org-mem",
   "unstable": {
    "version": [
-    20251005,
-    2034
+    20251007,
+    1513
    ],
    "deps": [
     "el-job",
     "llama"
    ],
-   "commit": "e8c49f7a027250b6df95d8b12e91398a6c6124dc",
-   "sha256": "1w36rnfvlaq4bcn1s1f2hrk03628dvmss2i3mqmlzx3fbiypapyy"
+   "commit": "6bb9a0cc628750dcfb711bf38c196a68514ec8e9",
+   "sha256": "0bb2dpxdi39km6282j32v93q3lqy1n3bc53940mw4nz0lhhyj9g1"
   },
   "stable": {
    "version": [
@@ -123098,11 +123098,11 @@
   "repo": "Bastillan/tabbymacs",
   "unstable": {
    "version": [
-    20250929,
-    904
+    20251007,
+    1441
    ],
-   "commit": "2c66b6e3b6d9b04fadf06a7af5fd95e05e4d387b",
-   "sha256": "1aglx0qrmjxskmcbyf15xswbm0c0m8lb8nvhlm4f5c71r3yf0lqm"
+   "commit": "b88bac22c923bebbbc7e52f10a25669a7680698c",
+   "sha256": "0yr9wmmqhv1svlf6yhwx8fnzxyxdzr3kil72sys9l8bablnajzg6"
   },
   "stable": {
    "version": [
@@ -125959,11 +125959,11 @@
   "repo": "topikettunen/tok-theme",
   "unstable": {
    "version": [
-    20251006,
-    2119
+    20251007,
+    1430
    ],
-   "commit": "cf9b5584be30f5297fa338f96afd0e461d88f524",
-   "sha256": "091y2sbn0xp7l1k312fphkqz4q7kfgl19l4acij3xfdkilczgafl"
+   "commit": "c99b30cfb7bbf98479d1236b199308c31ebede76",
+   "sha256": "0hb6hmhha2vn1kkml0477zsnfpi3agkmf0pxynsxng7bjx3h4pld"
   }
  },
  {
@@ -132419,8 +132419,8 @@
   "repo": "chenyanming/wallabag.el",
   "unstable": {
    "version": [
-    20250913,
-    1231
+    20251007,
+    1036
    ],
    "deps": [
     "emacsql",
@@ -132428,8 +132428,8 @@
     "request",
     "s"
    ],
-   "commit": "822ecbad68816af264e4be1656fed779d0b0c12f",
-   "sha256": "1qps17lpm06by9g5zyb86ib2fq851maxm28cbwlr5q9f4iz06qzd"
+   "commit": "798379d3a7210cb03abe6e470b59c212bb467632",
+   "sha256": "01sp9pvylvcpb30l9iz5xs2pingv1h1hnws3di7q07y6dfzpan9f"
   }
  },
  {
