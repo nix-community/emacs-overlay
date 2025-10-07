@@ -2903,10 +2903,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.4.8";
+      version = "2.5.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/el-job-2.4.8.tar";
-        sha256 = "1g7kmsxq2hdsfl2glm9yaqhqx87kl4amg5wi3872kjlbrwfd78kk";
+        url = "https://elpa.gnu.org/packages/el-job-2.5.2.tar";
+        sha256 = "112hjla2xmcgggzfqcs5s6qr41hbp9vfxiw48jl39jyj955q8y0x";
       };
       packageRequires = [ ];
       meta = {
@@ -9330,10 +9330,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.10.0";
+      version = "0.10.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.10.0.tar";
-        sha256 = "17ilvaq5q5sr2f1fz1w3ajq7nbd6cblyhj4vwi0qxydsw809bg54";
+        url = "https://elpa.gnu.org/packages/transient-0.10.1.tar";
+        sha256 = "1qxml619jpjp2an4iiq7c2n0vy0xam73rjl6076lialfwsa05hqd";
       };
       packageRequires = [
         compat
