@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20251001.75144";
+      version = "14.1.0.0.20251007.83053";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20251001.75144.tar";
-        sha256 = "124nnmf5m1nwpicnb8y9g220ydjsrf6h3c2j04xih1gbg0712mn8";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20251007.83053.tar";
+        sha256 = "18v9vfscvkzsj106rr8wp690v71x9lfh952wvar4cvb1jw6715zy";
       };
       packageRequires = [ ];
       meta = {
@@ -4830,10 +4830,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.3.0.20250920.95654";
+      version = "2.3.0.20251007.170933";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.3.0.20250920.95654.tar";
-        sha256 = "16vax2xx390x7bgrcv2kjmmyvhs421jr84kw2sqdz3qqczbwypqn";
+        url = "https://elpa.gnu.org/devel/jinx-2.3.0.20251007.170933.tar";
+        sha256 = "0ihjqsvckn08fq9z1c8yy8ic1lfjzid2835s8xa2sq07qk7389fi";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6742,10 +6742,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.7.0.20251006.100254";
+      version = "1.7.0.20251007.170852";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.7.0.20251006.100254.tar";
-        sha256 = "0da30g154qcvps8a3zvkfbd7fkz8m466ckvzf4hg30gys5avw90k";
+        url = "https://elpa.gnu.org/devel/osm-1.7.0.20251007.170852.tar";
+        sha256 = "03xygfpsbz79dmxvdcqb34c2v8sqs1ysanb70fgb66mjlcb2444p";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9932,10 +9932,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.4.0.20250904.134826";
+      version = "0.4.0.20251007.180307";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.4.0.20250904.134826.tar";
-        sha256 = "11jjqnqkyx2a0m9pc6jnaxall9mcapvxp22cx0dxncr38fqigb6x";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.4.0.20251007.180307.tar";
+        sha256 = "0n1kqx2wlr94qb6zsd3mgikf6imb0gn0bg1hajpqv794xv58mlh8";
       };
       packageRequires = [ compat ];
       meta = {
