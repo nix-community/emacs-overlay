@@ -1836,10 +1836,10 @@
     elpaBuild {
       pname = "flymake-pyrefly";
       ename = "flymake-pyrefly";
-      version = "0.1.7.0.20250906.131910";
+      version = "0.1.8.0.20251007.82059";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flymake-pyrefly-0.1.7.0.20250906.131910.tar";
-        sha256 = "0nw277ggrqdy4dwgkbpkps5p3qlski4wzc9qp3zln55wvjc4asfi";
+        url = "https://elpa.nongnu.org/nongnu-devel/flymake-pyrefly-0.1.8.0.20251007.82059.tar";
+        sha256 = "08120i69qmf25s84kdpxq9rp25v9ivyly1gg7pi5fsaiprf84pk4";
       };
       packageRequires = [ ];
       meta = {
@@ -4556,10 +4556,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "97.0.0.20251006.100215";
+      version = "97.0.0.20251007.170238";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-97.0.0.20251006.100215.tar";
-        sha256 = "1y6176qi8bkr5ffs6jik8bh1f4zx7daa4wmxq3zpgn95vjb7dp9r";
+        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-97.0.0.20251007.170238.tar";
+        sha256 = "1r0bnwg0li1caq8q29hz9f25y8mpkq5iqx5gnd86il58wwx13r96";
       };
       packageRequires = [ compat ];
       meta = {
