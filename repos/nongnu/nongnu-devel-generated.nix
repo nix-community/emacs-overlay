@@ -3171,10 +3171,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.14.0.0.20250810.194832";
+      version = "0.14.0.0.20251008.15638";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.14.0.0.20250810.194832.tar";
-        sha256 = "0s07913f6y63vwrm4zpb4k1wx6sl75vpmfawczyzxgldkjjslnpq";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.14.0.0.20251008.15638.tar";
+        sha256 = "1jmlrbac8psymd17v6hhks7ldqzik99g32cqc756gp5gj9ixdxyf";
       };
       packageRequires = [
         compat
