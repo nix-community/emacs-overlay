@@ -2319,10 +2319,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "1.0.0.20251005.135514";
+      version = "1.0.0.20251008.104111";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dicom-1.0.0.20251005.135514.tar";
-        sha256 = "1pn222ffy29lnw6faipah60vrja5f498768nyhyjlch6hg6120zi";
+        url = "https://elpa.gnu.org/devel/dicom-1.0.0.20251008.104111.tar";
+        sha256 = "0fmrnw2phx45xfshi9hwjldk8hbcywdnf9dv0q2cs7yw3l60f02n";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2946,10 +2946,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.5.2.0.20251006.162915";
+      version = "2.5.3.0.20251008.162616";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.5.2.0.20251006.162915.tar";
-        sha256 = "0wdimygqdrpr6p1p28yanwy3afa58ynhlhim1g1fbnr4jj2h2bm9";
+        url = "https://elpa.gnu.org/devel/el-job-2.5.3.0.20251008.162616.tar";
+        sha256 = "0vqng5mcrpima2wnpgs5cqb1v0fk0d2fcpz15vq8pcdsd3zm7h10";
       };
       packageRequires = [ ];
       meta = {
@@ -6742,10 +6742,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.7.0.20251007.170852";
+      version = "1.7.0.20251008.104137";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.7.0.20251007.170852.tar";
-        sha256 = "03xygfpsbz79dmxvdcqb34c2v8sqs1ysanb70fgb66mjlcb2444p";
+        url = "https://elpa.gnu.org/devel/osm-1.7.0.20251008.104137.tar";
+        sha256 = "15c74hby5j5dzki8m4avlsf3jrnz5qz1p8cyi2khyzlaf7jihpy7";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8769,10 +8769,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20251006.43230";
+      version = "2.2.0.0.20251008.94216";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251006.43230.tar";
-        sha256 = "1bwaz9zwbdnnrkrxwrxyp42jzg43r8i8ql4g0gkk321aql66xw6s";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251008.94216.tar";
+        sha256 = "0f5fb0d5wzzz1amqf4a6gsliwzff9d7f0q6zdgl6hjdjdcmk9dij";
       };
       packageRequires = [ modus-themes ];
       meta = {

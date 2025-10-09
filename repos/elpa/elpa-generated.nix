@@ -2903,10 +2903,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.5.2";
+      version = "2.5.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/el-job-2.5.2.tar";
-        sha256 = "112hjla2xmcgggzfqcs5s6qr41hbp9vfxiw48jl39jyj955q8y0x";
+        url = "https://elpa.gnu.org/packages/el-job-2.5.3.tar";
+        sha256 = "0wigrrn5qw0dknlr9jwgq89jvhbmpyxvxsyh4lb9lm0vpd1vdfyg";
       };
       packageRequires = [ ];
       meta = {
