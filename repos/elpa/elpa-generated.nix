@@ -3959,10 +3959,10 @@
     elpaBuild {
       pname = "gnu-elpa-keyring-update";
       ename = "gnu-elpa-keyring-update";
-      version = "2022.12.1";
+      version = "2025.10.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gnu-elpa-keyring-update-2022.12.1.tar";
-        sha256 = "0yb81ly7y5262fpa0n96yngqmz1rgfwrpm0a6vqghdpr5x0c8z6n";
+        url = "https://elpa.gnu.org/packages/gnu-elpa-keyring-update-2025.10.1.tar";
+        sha256 = "0p3125llm6hiasxx1rxl5anwfa317w2m8ybj9zl8133m5sjzzvsf";
       };
       packageRequires = [ ];
       meta = {
