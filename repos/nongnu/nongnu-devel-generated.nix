@@ -205,10 +205,10 @@
     elpaBuild {
       pname = "apropospriate-theme";
       ename = "apropospriate-theme";
-      version = "0.2.0.0.20250724.72226";
+      version = "0.2.0.0.20251009.212150";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/apropospriate-theme-0.2.0.0.20250724.72226.tar";
-        sha256 = "10z6ifrfg0dxjjvk8lhw7a2w041wbfvfik9jvz8m7sl6k6pl8bsi";
+        url = "https://elpa.nongnu.org/nongnu-devel/apropospriate-theme-0.2.0.0.20251009.212150.tar";
+        sha256 = "0nz35vvlysqpsvghkkf4ysw8dich809ag2brdlz9jcw52j2haxyi";
       };
       packageRequires = [ ];
       meta = {
@@ -2422,10 +2422,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.0.20251006.195737";
+      version = "0.9.9.0.20251009.220742";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20251006.195737.tar";
-        sha256 = "0sfwlcg103zgm1f12slc2q2lygxcp92bvb7iddn79609hh1gg9ww";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20251009.220742.tar";
+        sha256 = "0dhc2igdb6h8fn89acnms34qvgf8lg5syaxd2a7ifip7ffn4xpka";
       };
       packageRequires = [
         compat
