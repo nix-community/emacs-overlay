@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20251007.83053";
+      version = "14.1.0.0.20251009.81740";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20251007.83053.tar";
-        sha256 = "18v9vfscvkzsj106rr8wp690v71x9lfh952wvar4cvb1jw6715zy";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20251009.81740.tar";
+        sha256 = "041m3r4xh4zr2zzqyfqgwgfrf8mrs2v8sjcxa9rf0398wyixns9h";
       };
       packageRequires = [ ];
       meta = {
@@ -1941,10 +1941,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.24.1.0.20251006.200603";
+      version = "0.24.1.0.20251009.193434";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20251006.200603.tar";
-        sha256 = "1c1rkhzc2b8r8dnmh670gs9v9k5bh1kafkz2inli7f221hkmvq16";
+        url = "https://elpa.gnu.org/devel/dape-0.24.1.0.20251009.193434.tar";
+        sha256 = "0d7rfdbfgvlrp3asdjgg406lvpaypfc2wji08kc6j6pvjpd6379f";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2097,10 +2097,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.1.1.0.20250908.94202";
+      version = "0.1.1.0.20251009.143525";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20250908.94202.tar";
-        sha256 = "1gpyxh9bb1pk9frg676zazk8jdmy466r23110c3m59hx35rqmdy3";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.1.1.0.20251009.143525.tar";
+        sha256 = "0w64zk151n1xb9dclsdncdhxsg19yh7ggnly12gdbaxjm3kbb1gx";
       };
       packageRequires = [ denote ];
       meta = {
@@ -3612,10 +3612,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.1.0.20250906.55308";
+      version = "1.4.1.0.20251009.191503";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20250906.55308.tar";
-        sha256 = "1wy77d63mlcax9sksf3js0acqmx33hkn03iz37aqlyikjy51vbs9";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20251009.191503.tar";
+        sha256 = "0hlc9gfmgfnc7gkpgc0nbiac9h9ldkcw4v7dkxm2nck8fxrrl0dl";
       };
       packageRequires = [
         eldoc
