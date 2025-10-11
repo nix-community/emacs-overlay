@@ -5764,10 +5764,10 @@
     elpaBuild {
       pname = "yasnippet-snippets";
       ename = "yasnippet-snippets";
-      version = "1.0.0.20250808.81958";
+      version = "1.0.0.20251010.101816";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/yasnippet-snippets-1.0.0.20250808.81958.tar";
-        sha256 = "067jidwz1xn13fxcnwdrh0bnr93bndwjs1yznn483xdw9fcgyz05";
+        url = "https://elpa.nongnu.org/nongnu-devel/yasnippet-snippets-1.0.0.20251010.101816.tar";
+        sha256 = "02acz3l84sprs79iq3fxqrk0579pz31l0i1f1fiszjpn8hiixgbp";
       };
       packageRequires = [ yasnippet ];
       meta = {
