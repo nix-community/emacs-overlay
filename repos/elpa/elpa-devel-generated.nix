@@ -2917,10 +2917,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20251003.84456";
+      version = "1.18.0.20251011.93720";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20251003.84456.tar";
-        sha256 = "0avj1q1m7qmdivvz3nqysbq9lxnzpy6cfw599wl44ij5xdfnpwrx";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20251011.93720.tar";
+        sha256 = "0s8hwg3m97f147ykh03qaqcb9mgm7cbins0i45072x384pmy6xxa";
       };
       packageRequires = [
         eldoc
@@ -6955,10 +6955,10 @@
     elpaBuild {
       pname = "persist";
       ename = "persist";
-      version = "0.7.0.20250930.85116";
+      version = "0.8.0.20251011.193839";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/persist-0.7.0.20250930.85116.tar";
-        sha256 = "0iapa9d0njc1qyqjbkl71fwws7hfz5303i17b69d6xdaynb7dajr";
+        url = "https://elpa.gnu.org/devel/persist-0.8.0.20251011.193839.tar";
+        sha256 = "0pdvxdlwrk900hfwa1ik3wylb6h0fbr8f8jg38q6n0y93kndswxc";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9799,10 +9799,10 @@
     elpaBuild {
       pname = "use-package";
       ename = "use-package";
-      version = "2.4.6.0.20250524.65524";
+      version = "2.4.6.0.20251011.125621";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20250524.65524.tar";
-        sha256 = "0zayaizp0d4sk1v4mrc4kfjgzlbxzsa2jrrdadis5al6x077jabx";
+        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20251011.125621.tar";
+        sha256 = "0wp315104758cplrlvcr2ikb2rzni33h6bsdqm5zv9kh8q3wiqa5";
       };
       packageRequires = [ bind-key ];
       meta = {

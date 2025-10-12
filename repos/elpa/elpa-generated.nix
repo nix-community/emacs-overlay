@@ -6888,10 +6888,10 @@
     elpaBuild {
       pname = "persist";
       ename = "persist";
-      version = "0.7";
+      version = "0.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/persist-0.7.tar";
-        sha256 = "0g38vf4a4f4b8cp35qc7pwzj1qwrnw6dd6mc83mrjs35fx43lpjn";
+        url = "https://elpa.gnu.org/packages/persist-0.8.tar";
+        sha256 = "0lx4phndjr6x2bwlak0z232968vnzhnivq25531ykv4c4f45qyhj";
       };
       packageRequires = [ compat ];
       meta = {
