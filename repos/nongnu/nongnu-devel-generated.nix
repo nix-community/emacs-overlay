@@ -3715,10 +3715,10 @@
     elpaBuild {
       pname = "org-contrib";
       ename = "org-contrib";
-      version = "0.6.0.20250227.181559";
+      version = "0.7.0.20251011.144539";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-contrib-0.6.0.20250227.181559.tar";
-        sha256 = "15cc87skz34cw9zrg055jmqnjqpbwl06mfvqblzg3x5irjgghkfi";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-contrib-0.7.0.20251011.144539.tar";
+        sha256 = "02v12mhpfd7i0m7y5cij6zq8lqamrplc4ybdkya66zw8dwh5y1mn";
       };
       packageRequires = [ org ];
       meta = {

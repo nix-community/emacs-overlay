@@ -3738,10 +3738,10 @@
     elpaBuild {
       pname = "org-contrib";
       ename = "org-contrib";
-      version = "0.6";
+      version = "0.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/org-contrib-0.6.tar";
-        sha256 = "02rpy7psjp1mj2nbzzbc06i4961m83hkq5ndks56mfkcz4hdhj2m";
+        url = "https://elpa.nongnu.org/nongnu/org-contrib-0.7.tar";
+        sha256 = "1v9sphc2jwccdix74ry3wblkkp9majk7n7c9ic1bsq9caj4i9n5r";
       };
       packageRequires = [ org ];
       meta = {
