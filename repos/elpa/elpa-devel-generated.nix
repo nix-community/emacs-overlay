@@ -2687,10 +2687,10 @@
     elpaBuild {
       pname = "drepl";
       ename = "drepl";
-      version = "0.3.0.20240929.81709";
+      version = "0.4.0.20251012.72051";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/drepl-0.3.0.20240929.81709.tar";
-        sha256 = "14b8argsv9i1aqzvkkx11810g9rf93kn6kz2qcd552pxllcpyf1l";
+        url = "https://elpa.gnu.org/devel/drepl-0.4.0.20251012.72051.tar";
+        sha256 = "1s9hmyrc8rqa6zj085zz9ib4hmpa4x73cb0r0x6r2vy9177vzbgi";
       };
       packageRequires = [ comint-mime ];
       meta = {
@@ -2889,10 +2889,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.11.0.0.20251007.75143";
+      version = "1.11.0.0.20251012.53417";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251007.75143.tar";
-        sha256 = "1sg7dhgxrgs7c2sy4128rv1iikj9ymigiwz3kx0a1smwn6vrmh71";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251012.53417.tar";
+        sha256 = "1gjd9101xpnzg2d7nk815jaaarl4yhr7rhi383n0fzh97fabkql9";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -5888,10 +5888,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.1.0.20251010.44706";
+      version = "4.8.1.0.20251012.53200";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251010.44706.tar";
-        sha256 = "0wydny3ba3jdi00g8ifrx0cygwp51wmg2v3kc90h2qnjfbr27in0";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251012.53200.tar";
+        sha256 = "1ikaj0qp3qhzd04sxjafzdkxfd8ljxryc6q0jd5d1avr1zjpg800";
       };
       packageRequires = [ ];
       meta = {
@@ -8572,10 +8572,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.7.0.0.20250719.40007";
+      version = "0.7.0.0.20251012.43040";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/spacious-padding-0.7.0.0.20250719.40007.tar";
-        sha256 = "0zdfzk1v3niq2rxm0v52086jyijjj0vvcr7071r8780a41jr3yqm";
+        url = "https://elpa.gnu.org/devel/spacious-padding-0.7.0.0.20251012.43040.tar";
+        sha256 = "1sbfz6g1s30cambqkwk3gqrbccfb98dwzwd8hhg5ll7rfwnh4xn5";
       };
       packageRequires = [ ];
       meta = {
@@ -8769,10 +8769,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20251008.94216";
+      version = "2.2.0.0.20251012.53528";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251008.94216.tar";
-        sha256 = "0f5fb0d5wzzz1amqf4a6gsliwzff9d7f0q6zdgl6hjdjdcmk9dij";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251012.53528.tar";
+        sha256 = "0554axffbv3j9z1pqs25bk0mjw9xkvwrsg23n7mk54j6496fp6mg";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -10019,10 +10019,10 @@
     elpaBuild {
       pname = "vecdb";
       ename = "vecdb";
-      version = "0.2.0.20250724.14151";
+      version = "0.2.2.0.20251011.220856";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vecdb-0.2.0.20250724.14151.tar";
-        sha256 = "09l02c9vldx4bk6cn69rnfg9kafxfif7nmsv538jhhxzf5q31z43";
+        url = "https://elpa.gnu.org/devel/vecdb-0.2.2.0.20251011.220856.tar";
+        sha256 = "1ybscf8cc5ybamiyp3a8xk1xcvwq0jyj6pwkjzj7skid01kx50yc";
       };
       packageRequires = [
         pg

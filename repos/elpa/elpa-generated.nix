@@ -2641,10 +2641,10 @@
     elpaBuild {
       pname = "drepl";
       ename = "drepl";
-      version = "0.3";
+      version = "0.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/drepl-0.3.tar";
-        sha256 = "0dy8xvx5nwibiyhddm6nhcw384vhkhsbbxcs4hah0yxwajfm8yds";
+        url = "https://elpa.gnu.org/packages/drepl-0.4.tar";
+        sha256 = "161aga6jviba7h8iaid8dkrgli0wikm2zl9dfkzmj4xms3czgl24";
       };
       packageRequires = [ comint-mime ];
       meta = {
@@ -9841,10 +9841,10 @@
     elpaBuild {
       pname = "vecdb";
       ename = "vecdb";
-      version = "0.2";
+      version = "0.2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vecdb-0.2.tar";
-        sha256 = "10p5nhk4v4j05k9cz9br5ninycpp7spgby9mrr9z8bsy2g0j0il2";
+        url = "https://elpa.gnu.org/packages/vecdb-0.2.2.tar";
+        sha256 = "0nzaga79yls0x7hcrfvk6zic4a4pm5h10sav0f1pxccx1scsrzfn";
       };
       packageRequires = [
         pg
