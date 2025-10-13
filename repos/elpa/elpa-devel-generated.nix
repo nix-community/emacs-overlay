@@ -2885,10 +2885,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.11.0.0.20251012.53417";
+      version = "1.11.0.0.20251013.51334";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251012.53417.tar";
-        sha256 = "1gjd9101xpnzg2d7nk815jaaarl4yhr7rhi383n0fzh97fabkql9";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251013.51334.tar";
+        sha256 = "0fjfslivh9kgi112lwis3vni8pq7f8cn6g7q8i88psxpc0fbbmyz";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -5278,10 +5278,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.27.2.0.20251004.1607";
+      version = "0.27.2.0.20251012.204133";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.27.2.0.20251004.1607.tar";
-        sha256 = "00vf791pjf4sxja3wp9nl7s514gk3c3rcdmdw37nfcvw8vx3qa9h";
+        url = "https://elpa.gnu.org/devel/llm-0.27.2.0.20251012.204133.tar";
+        sha256 = "0pkaik92sgjlch1iq41rqrr1xisksqy8zba615whzp1jww1k3mrx";
       };
       packageRequires = [
         compat
@@ -5785,6 +5785,27 @@
       };
     }
   ) { };
+  minimail = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "minimail";
+      ename = "minimail";
+      version = "0.1.1.0.20251013.74521";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/minimail-0.1.1.0.20251013.74521.tar";
+        sha256 = "0bhkp55ahxh680qap61wkyc1mzfnwxb7d7a7wxgpksdhd5vav68c";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/minimail.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   minimap = callPackage (
     {
       elpaBuild,
@@ -5884,10 +5905,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.1.0.20251012.53200";
+      version = "4.8.1.0.20251013.51246";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251012.53200.tar";
-        sha256 = "1ikaj0qp3qhzd04sxjafzdkxfd8ljxryc6q0jd5d1avr1zjpg800";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251013.51246.tar";
+        sha256 = "0s38q1l4yba7cxlf8avc37szxjfiblnd65bnn5c6xnwyfqyy7fd0";
       };
       packageRequires = [ ];
       meta = {
@@ -8765,10 +8786,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20251012.53528";
+      version = "2.2.0.0.20251013.51352";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251012.53528.tar";
-        sha256 = "0554axffbv3j9z1pqs25bk0mjw9xkvwrsg23n7mk54j6496fp6mg";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251013.51352.tar";
+        sha256 = "0ag85dv1wb10lmjf4g90qz06qmx5r8x4idamrhr8fgs6f4r8gbfx";
       };
       packageRequires = [ modus-themes ];
       meta = {
