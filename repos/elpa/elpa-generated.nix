@@ -3183,10 +3183,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "23";
+      version = "24";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/emms-23.tar";
-        sha256 = "08s04cqk9p0srcxffvpdf67fajv130sfyah6yd13mj7am9r1ak9d";
+        url = "https://elpa.gnu.org/packages/emms-24.tar";
+        sha256 = "1nl152v27ryxq3g2dzg52xv3znw08wh486ax5dxkd2wvj6rv0dbg";
       };
       packageRequires = [
         cl-lib
@@ -4811,10 +4811,10 @@
     elpaBuild {
       pname = "jit-spell";
       ename = "jit-spell";
-      version = "0.4";
+      version = "0.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jit-spell-0.4.tar";
-        sha256 = "0p9nf2n0x6c6xl32aczghzipx8n5aq7a1x6r2s78xvpwr299k998";
+        url = "https://elpa.gnu.org/packages/jit-spell-0.5.tar";
+        sha256 = "0xdn4hm4d26vmqh75i2ghyissm2s2szgynwynpgmlvhr4q5nkswf";
       };
       packageRequires = [ compat ];
       meta = {
