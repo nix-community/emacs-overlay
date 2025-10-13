@@ -2422,10 +2422,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.0.20251011.172015";
+      version = "0.9.9.0.20251012.104703";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20251011.172015.tar";
-        sha256 = "1wpy4bwlmljdy9n1cpc9b35hd36c995z69iwfzwf9lxrjlzw4lvj";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20251012.104703.tar";
+        sha256 = "1bbfbfy154p27mvxsfws9szb0f40byxcri7pc4zk1kb6p95mf7fj";
       };
       packageRequires = [
         compat
@@ -2619,10 +2619,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20251009.50648";
+      version = "4.0.6.0.20251012.164628";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251009.50648.tar";
-        sha256 = "1znxf4309dx2nz3c9dkzlgs08l54c60dcl1a3iwfvxfqhl9w24ry";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251012.164628.tar";
+        sha256 = "1dq2rd2pphnhpz384q8g99lm0xcc15akqkbwckpjgcn039cdaw84";
       };
       packageRequires = [
         helm-core
@@ -2644,10 +2644,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20251009.50648";
+      version = "4.0.6.0.20251012.164628";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251009.50648.tar";
-        sha256 = "0c15x5x1m8cv3d2xv2dmxmzqj2fvz6n2q7rziqg5yvnqvqfqif88";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251012.164628.tar";
+        sha256 = "1vhd8nrlz2h4vininsj2fi0gkz0r6r4qwpbr1qh1hvbc1q17gppw";
       };
       packageRequires = [ async ];
       meta = {
@@ -5785,10 +5785,10 @@
     elpaBuild {
       pname = "zenburn-theme";
       ename = "zenburn-theme";
-      version = "2.9.0snapshot0.20250213.141810";
+      version = "2.9.0snapshot0.20251012.181013";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.9.0snapshot0.20250213.141810.tar";
-        sha256 = "165sy1df0cil2m63nnsxnmvvp7v2yh31lxzpdbzz6vwx6br4nl84";
+        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.9.0snapshot0.20251012.181013.tar";
+        sha256 = "1nihx0xvm8dwx5fycm9d6g6jwg7ydi7341nh6qqac2bcm0li4q39";
       };
       packageRequires = [ ];
       meta = {
