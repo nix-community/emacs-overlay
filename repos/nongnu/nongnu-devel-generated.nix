@@ -2619,10 +2619,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20251013.55105";
+      version = "4.0.6.0.20251014.41323";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251013.55105.tar";
-        sha256 = "0dag94h945aw50nza7ry7krkysqa5ra484w64d14ncn0j562dzl6";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251014.41323.tar";
+        sha256 = "08vv34pgxbwjfzgbng7zj92psffm2nq07gcswwgkwky1zgs8r28p";
       };
       packageRequires = [
         helm-core
@@ -2644,10 +2644,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20251013.55105";
+      version = "4.0.6.0.20251014.41323";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251013.55105.tar";
-        sha256 = "0vswks3k046jk8rjd0fwxhkg9ryrzm256r5r2yw5r42c5ic5b3qv";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251014.41323.tar";
+        sha256 = "0szg5ygq585kmbrr55kfpsgl7aicg8r7lw9m3wm0sxw01z4wkpjf";
       };
       packageRequires = [ async ];
       meta = {
@@ -2879,10 +2879,10 @@
     elpaBuild {
       pname = "iedit";
       ename = "iedit";
-      version = "0.9.9.9.9.0.20220216.75011";
+      version = "0.9.9.9.9.0.20251013.114841";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/iedit-0.9.9.9.9.0.20220216.75011.tar";
-        sha256 = "0q31dfsh3ay2ls7f4i2f52zzjz62glwnccqmxww938hayn23lfg2";
+        url = "https://elpa.nongnu.org/nongnu-devel/iedit-0.9.9.9.9.0.20251013.114841.tar";
+        sha256 = "1kczx43d3f63bhgyw6xsyd0spf7jgw424sncaiqxgnmcfhabrc03";
       };
       packageRequires = [ ];
       meta = {
@@ -4810,10 +4810,10 @@
     elpaBuild {
       pname = "sqlite3";
       ename = "sqlite3";
-      version = "0.17.0.20231124.132621";
+      version = "0.17.0.20251014.53705";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sqlite3-0.17.0.20231124.132621.tar";
-        sha256 = "10mgf69dvvglf067n59w3dy08jc245rhbqqjbfr27ff9xjrklvfh";
+        url = "https://elpa.nongnu.org/nongnu-devel/sqlite3-0.17.0.20251014.53705.tar";
+        sha256 = "0q849fac1h7vci1mclh3l0w7zg6150w95fbzfk0aq7nldir6mizy";
       };
       packageRequires = [ ];
       meta = {
