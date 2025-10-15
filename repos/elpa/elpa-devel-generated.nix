@@ -3474,10 +3474,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.34.0.20251014.123634";
+      version = "0.34.0.20251014.155443";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20251014.123634.tar";
-        sha256 = "1s1204sqrljnkqqnbyjva8q1adznfpcskg9hq6yiqgh99xypadc7";
+        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20251014.155443.tar";
+        sha256 = "0amjxvyyc8dbrlk993jmms3qla5658y0c6zbwlqgbjcksmrbpqns";
       };
       packageRequires = [
         compat
