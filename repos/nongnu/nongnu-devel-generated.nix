@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.5.0.20250927.10200";
+      version = "1.5.0.20251014.181821";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.5.0.20250927.10200.tar";
-        sha256 = "1sf2h2d7g1jf60vm6s5j6la27q43ckpz7b3pnyxka9rpy51ffnfr";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.5.0.20251014.181821.tar";
+        sha256 = "1k28ikcr70jicwkjl7y8aa1jab4pyikl6jjmppsz0cg58r8bbzf8";
       };
       packageRequires = [
         compat
@@ -3948,10 +3948,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.26.0.20250828.150659";
+      version = "0.26.0.20251014.94932";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.26.0.20250828.150659.tar";
-        sha256 = "0lm66fw4qf5i2jndfpbpglgh8k9hs15fq08vxwmf19sg2mgi8c8l";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.26.0.20251014.94932.tar";
+        sha256 = "0v1vcf1ha7mal58fi73w7zah7px2y05rra4n8vx1hbf0df02z7g4";
       };
       packageRequires = [ let-alist ];
       meta = {
