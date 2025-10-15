@@ -1570,10 +1570,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.3.1.0.20250805.41616";
+      version = "0.3.1.0.20251014.84316";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.3.1.0.20250805.41616.tar";
-        sha256 = "1ryyjcxlqbkqiivbiazkj7pxqac9sn3kyczz103z9pmvf3g3wc1r";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.3.1.0.20251014.84316.tar";
+        sha256 = "18z8rcxi81hg2vzpg2266cbnrzazk8mj5qc8byhl99vjkq4s4ly6";
       };
       packageRequires = [
         consult
@@ -3474,10 +3474,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.34.0.20251013.205613";
+      version = "0.34.0.20251014.123634";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20251013.205613.tar";
-        sha256 = "03hngcf73adpbf4c94b76543minjva2hpbyqddx529scwgsnqzzb";
+        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20251014.123634.tar";
+        sha256 = "1s1204sqrljnkqqnbyjva8q1adznfpcskg9hq6yiqgh99xypadc7";
       };
       packageRequires = [
         compat
@@ -4428,10 +4428,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20250914.231303";
+      version = "9.0.2pre0.20251014.80402";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20250914.231303.tar";
-        sha256 = "07nk16nkvl9myr7mxhrql5wpxsr1qa2nj4r76x4fh6lvsh9nfnim";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251014.80402.tar";
+        sha256 = "189xlq30hzryjaklfx3bdznzs90sig2zalml5h411sppy7fddkh6";
       };
       packageRequires = [ ];
       meta = {
@@ -8589,10 +8589,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.7.0.0.20251012.43040";
+      version = "0.7.0.0.20251014.110047";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/spacious-padding-0.7.0.0.20251012.43040.tar";
-        sha256 = "1sbfz6g1s30cambqkwk3gqrbccfb98dwzwd8hhg5ll7rfwnh4xn5";
+        url = "https://elpa.gnu.org/devel/spacious-padding-0.7.0.0.20251014.110047.tar";
+        sha256 = "01sgqjdhd3hi9b7m8l2ym14b2y6mc3bngyf5qwbrgvs2wgyjr5cg";
       };
       packageRequires = [ ];
       meta = {
