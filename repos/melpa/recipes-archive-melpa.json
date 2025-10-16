@@ -34529,14 +34529,14 @@
    "version": [
     1,
     0,
-    3
+    4
    ],
    "deps": [
     "evil",
     "paredit"
    ],
-   "commit": "b3c40093877c28f95d975985d08fdf23a46ec2c8",
-   "sha256": "18xx6q9pzjp0k4bxjamdznimpyvqxx9qpapkqr9fxgz62vdgxdqi"
+   "commit": "7ca82138881a5efacacf0494b898fb1201311fc8",
+   "sha256": "0kkfnnqd2pzzm92pi13ngh63frp33z2mfb1prkqaw62nq4yrw6d8"
   }
  },
  {
@@ -36718,11 +36718,11 @@
   "repo": "emacs-ess/ESS",
   "unstable": {
    "version": [
-    20251003,
-    2044
+    20251015,
+    1619
    ],
-   "commit": "282d1cd6b401183cd0f50f5336140a03a1193300",
-   "sha256": "1x5qjrj816sbjnfz10zms3ay2cgg0mxmj7mlm3k5zmng10wqxy4f"
+   "commit": "a7d685bd9a3dbc8540edf86318012a0a0528e49e",
+   "sha256": "0cigas5ixhkly1vkrgrd5dw45haj629xrfsxql2q2pxm2rjfg2ir"
   },
   "stable": {
    "version": [
@@ -37624,15 +37624,15 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20251007,
-    813
+    20251015,
+    1835
    ],
    "deps": [
     "annalist",
     "evil"
    ],
-   "commit": "00e71118ab43d8eebf619c8ac00d165b21b9c1e7",
-   "sha256": "16yrp140hnij647jnqxi73ny7y78qnasf2ihgdr6bf43vpzkzw13"
+   "commit": "44f3de67af4a4ea5c7213c1de1001af0a84e723e",
+   "sha256": "1bld1bif7r42bn2gva0yz2fzdmywkcghkn01xwc4kpwzhi04iky4"
   },
   "stable": {
    "version": [
@@ -40978,11 +40978,11 @@
   "repo": "freesteph/cucumber.el",
   "unstable": {
    "version": [
-    20250401,
-    1008
+    20251015,
+    2134
    ],
-   "commit": "b788d49624c7a4eb4a3bce475cd4ce1e08d5193d",
-   "sha256": "0lb3s4phqfb5w54zy725lz6j4214nl57x8lkbrfs2zhjdiscbbnr"
+   "commit": "8d43c37ddf986af769870da27c31c1911f35b205",
+   "sha256": "00jv309v4g29j3sji4i715wl3k1mj9dzkg9q256hsvbp0f6zvna4"
   },
   "stable": {
    "version": [
@@ -53797,14 +53797,14 @@
   "unstable": {
    "version": [
     20251015,
-    1225
+    1826
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "9d685b9b3400337d6137a2c94903e15e18736aea",
-   "sha256": "1a4dvy79y0mkv01dyqr65gh8dw0ksplchsqkha8983q7anlgjw1r"
+   "commit": "6f1620b7ee99ffdc4a5aed237952f15d0a9acdc6",
+   "sha256": "1hfdfz73k0fvx52mfnxg9wj66dxzmg9sqcqrjdp01p8s14g9b54q"
   },
   "stable": {
    "version": [
@@ -57071,13 +57071,13 @@
   "unstable": {
    "version": [
     20251015,
-    1030
+    1927
    ],
    "deps": [
     "async"
    ],
-   "commit": "6dd04ac8172f6959e1e79656444bc59af37fdcc4",
-   "sha256": "02szf0m71f6f04bd2jbwznbw33kz97a9whrzzvq8p3jmj08fwvx4"
+   "commit": "7ecd4b904b3f27285244e19528fea3dbd11f94b9",
+   "sha256": "1n84bd6p5w58ikg2n84ysaz2gsnhfrrx7rsc7b8sj458zav7qd23"
   },
   "stable": {
    "version": [
@@ -80969,15 +80969,15 @@
   "repo": "milanglacier/minuet-ai.el",
   "unstable": {
    "version": [
-    20250915,
-    517
+    20251015,
+    1814
    ],
    "deps": [
     "dash",
     "plz"
    ],
-   "commit": "2d9d2ad7768adf26fa54a8fdd8f6d78197a259f1",
-   "sha256": "1577ikw6wwx3m07lwwx6rccyz563c4l82ygfnkndhrp38nmzrzfm"
+   "commit": "6d48b96f09ce3418971cd3ae8ff083b47e440047",
+   "sha256": "1bh31a3xapsggz4blpr5h0gmdcrkv50bpnv87p2xmkm31q9jkykm"
   },
   "stable": {
    "version": [
@@ -105693,11 +105693,11 @@
   },
   "stable": {
    "version": [
-    32,
-    1
+    33,
+    0
    ],
-   "commit": "7fcfd66022455635fa29af92987cdc0967efd4f3",
-   "sha256": "0sl3ahj74gpy4dv8xz9sry7kapnh00kpmghz2iqnlw5j40rvbyy1"
+   "commit": "a79f2d2e9fadd75e94f3fe40a0399bf0a5d90551",
+   "sha256": "1ywqwqkmrkpkckch5ajzr1i6650lhxmywc5nbvhjh0y64crhr0sn"
   }
  },
  {
@@ -119369,11 +119369,11 @@
   "repo": "nashamri/spacemacs-theme",
   "unstable": {
    "version": [
-    20250613,
-    2113
+    20251015,
+    1823
    ],
-   "commit": "2ffca41e6e9aa55d8de5c40c6fb61e0d47763b5d",
-   "sha256": "05p7p4q2p1bx2xqiha1qga5drlj6fn2757zdcdxplb88a9zx606r"
+   "commit": "f4757d701aa64bc3e1a5963c8a4f52cfd135cfed",
+   "sha256": "0mwnl3yl8209b7cghklk7j9cilviqhzk213csl84871z8rr1irc8"
   },
   "stable": {
    "version": [
