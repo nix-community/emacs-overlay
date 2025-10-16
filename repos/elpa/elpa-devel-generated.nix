@@ -3358,10 +3358,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "25.1.0.0.20251003.204431";
+      version = "25.1.0.0.20251015.161959";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20251003.204431.tar";
-        sha256 = "1njv0vdxi7v9wn00mn0k3qxhxliz80hh74jx9nzm4j2n003lf8y9";
+        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20251015.161959.tar";
+        sha256 = "0gi9sz2bj9vblg2fbv18zn8fkp99l4xzbkniiaa5msx4p1h41vyv";
       };
       packageRequires = [ ];
       meta = {
@@ -3474,10 +3474,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.34.0.20251014.155443";
+      version = "0.34.0.20251015.113503";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20251014.155443.tar";
-        sha256 = "0amjxvyyc8dbrlk993jmms3qla5658y0c6zbwlqgbjcksmrbpqns";
+        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20251015.113503.tar";
+        sha256 = "11wnzsv7igdin9xd0m02a1pp65n97b7w53pkp5pdsmkvrs5lfnxq";
       };
       packageRequires = [
         compat
@@ -5838,10 +5838,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.6.0.0.20250915.11734";
+      version = "0.6.0.0.20251015.141402";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.6.0.0.20250915.11734.tar";
-        sha256 = "1ghnibrqwvmq6dw3rn3z1knh50x5294jvskv4grawzirs7ki252p";
+        url = "https://elpa.gnu.org/devel/minuet-0.6.0.0.20251015.141402.tar";
+        sha256 = "1d9rzb0x2gj769xxv2jzs27648w6j4sv9a1mqzxx5gqkfkd4vlkx";
       };
       packageRequires = [
         dash
@@ -6531,10 +6531,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.1.1.0.20250804.81757";
+      version = "0.1.1.0.20251005.85757";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-gnosis-0.1.1.0.20250804.81757.tar";
-        sha256 = "16lw8pv8n9aamn5f8q2gk8ljzpcgwzlhsgiclw45bn98cy0cqb1d";
+        url = "https://elpa.gnu.org/devel/org-gnosis-0.1.1.0.20251005.85757.tar";
+        sha256 = "1gwdkrs6r8cxab45xx5f47j4mhsm35iz2kzr7pl21i0nqcr9g2h4";
       };
       packageRequires = [
         compat
@@ -8589,10 +8589,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.7.0.0.20251014.110047";
+      version = "0.7.0.0.20251015.104612";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/spacious-padding-0.7.0.0.20251014.110047.tar";
-        sha256 = "01sgqjdhd3hi9b7m8l2ym14b2y6mc3bngyf5qwbrgvs2wgyjr5cg";
+        url = "https://elpa.gnu.org/devel/spacious-padding-0.7.0.0.20251015.104612.tar";
+        sha256 = "0pq5l4pgvbwvglh8hzfmnprji2g780sir88ah4fwvgv0ddvlvvp9";
       };
       packageRequires = [ ];
       meta = {
