@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.20.0snapshot0.20250902.153000";
+      version = "1.20.0snapshot0.20251016.172215";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.20.0snapshot0.20250902.153000.tar";
-        sha256 = "04rgbpa53mzpbfhaj8y4yczv189i9v571xbq60lvxj3sy7lvbjkm";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.20.0snapshot0.20251016.172215.tar";
+        sha256 = "10885b1h8xigm0kgc45bbr0wyw2ywnk3hrzl1dr7304ilk3bqszn";
       };
       packageRequires = [
         clojure-mode
@@ -3298,10 +3298,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.2.0.20251006.184033";
+      version = "4.4.2.0.20251014.103114";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251006.184033.tar";
-        sha256 = "1jl4wnxca90vfr42v5wl66arrh8c8ybxcr18lgq4af32shcpz758";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251014.103114.tar";
+        sha256 = "1m8fq2fr108wapnhnhy8jghidiac5jf63i9r0sgarhpp1ax67jnf";
       };
       packageRequires = [
         compat
@@ -3331,10 +3331,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.2.0.20251006.184033";
+      version = "4.4.2.0.20251014.103114";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251006.184033.tar";
-        sha256 = "1lb6lm7fq0svjrfk6h7x45rhbwfspri46rfsnz2rv54l7jxzb7dh";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251014.103114.tar";
+        sha256 = "0pwplfz1xrl2ax19ba15s1xd3x9jw5iwcw9c935fv7gj00wlwksq";
       };
       packageRequires = [
         compat
