@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.20.0snapshot0.20251016.172215";
+      version = "1.20.0snapshot0.20251018.40438";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.20.0snapshot0.20251016.172215.tar";
-        sha256 = "10885b1h8xigm0kgc45bbr0wyw2ywnk3hrzl1dr7304ilk3bqszn";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.20.0snapshot0.20251018.40438.tar";
+        sha256 = "11szipp97wxd58v6681ghwmx4w0d5fdic3wi7gwpgahp1kaajr5l";
       };
       packageRequires = [
         clojure-mode
@@ -2422,10 +2422,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.0.20251017.122340";
+      version = "0.9.9.0.20251017.230643";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20251017.122340.tar";
-        sha256 = "02k4063plyjdsc9sngp6p7rjp4k9rb8qcclc0zh5sg564qs4g4cb";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20251017.230643.tar";
+        sha256 = "1ghinpg4lk6f2h5m2ip79qjmrrnlhffmjbada64x87i8m5h64f08";
       };
       packageRequires = [
         compat
@@ -2596,10 +2596,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.3.4.0.20250922.153032";
+      version = "1.3.5.0.20251018.70115";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.3.4.0.20250922.153032.tar";
-        sha256 = "0glcsp3kvnmqxcydj154shwgyamial6y987z1i0y5jz9rgn9zz7w";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.3.5.0.20251018.70115.tar";
+        sha256 = "1q71c6vdj4yv36z0wic7q9w0iiirm5cwy752n3s956gchiky21vn";
       };
       packageRequires = [ ];
       meta = {
