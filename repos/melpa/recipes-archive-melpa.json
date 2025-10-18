@@ -11046,11 +11046,11 @@
   "repo": "kiwanami/emacs-calfw",
   "unstable": {
    "version": [
-    20180118,
-    45
+    20251018,
+    646
    ],
-   "commit": "03abce97620a4a7f7ec5f911e669da9031ab9088",
-   "sha256": "0wiggihw9ackjdssqgp2cqccd3sil13n3pfn33d3r320fmxfjbch"
+   "commit": "52ae145313f5ecbf91e7494386553e64d058c92c",
+   "sha256": "0l98zsw392j8rq0zh2rjcjg8h5bf3bpamgi2fbdyzkrc1v2wbrjc"
   },
   "stable": {
    "version": [
@@ -11069,11 +11069,14 @@
   "repo": "kiwanami/emacs-calfw",
   "unstable": {
    "version": [
-    20170411,
-    220
+    20251018,
+    646
    ],
-   "commit": "c538d3746449b4f0e16b16aad3073d4f7379d805",
-   "sha256": "0r42cagvmvvib76kd15nd9ix55ys6i549vxnls4z16s864695zpa"
+   "deps": [
+    "calfw"
+   ],
+   "commit": "52ae145313f5ecbf91e7494386553e64d058c92c",
+   "sha256": "0l98zsw392j8rq0zh2rjcjg8h5bf3bpamgi2fbdyzkrc1v2wbrjc"
   },
   "stable": {
    "version": [
@@ -11107,11 +11110,15 @@
   "repo": "kiwanami/emacs-calfw",
   "unstable": {
    "version": [
-    20170704,
-    4
+    20251018,
+    646
    ],
-   "commit": "bcfc0c546c3c58e1f635a9a29efdf56c9421a3ce",
-   "sha256": "0n7kn0g7mxylp28w5llrz22w12qjvypa1g82660qr2d9ga9mb0v9"
+   "deps": [
+    "calfw",
+    "howm"
+   ],
+   "commit": "52ae145313f5ecbf91e7494386553e64d058c92c",
+   "sha256": "0l98zsw392j8rq0zh2rjcjg8h5bf3bpamgi2fbdyzkrc1v2wbrjc"
   },
   "stable": {
    "version": [
@@ -11130,11 +11137,14 @@
   "repo": "kiwanami/emacs-calfw",
   "unstable": {
    "version": [
-    20170411,
-    220
+    20251018,
+    646
    ],
-   "commit": "c538d3746449b4f0e16b16aad3073d4f7379d805",
-   "sha256": "0r42cagvmvvib76kd15nd9ix55ys6i549vxnls4z16s864695zpa"
+   "deps": [
+    "calfw"
+   ],
+   "commit": "52ae145313f5ecbf91e7494386553e64d058c92c",
+   "sha256": "0l98zsw392j8rq0zh2rjcjg8h5bf3bpamgi2fbdyzkrc1v2wbrjc"
   },
   "stable": {
    "version": [
@@ -11153,11 +11163,14 @@
   "repo": "kiwanami/emacs-calfw",
   "unstable": {
    "version": [
-    20170411,
-    220
+    20251018,
+    646
    ],
-   "commit": "c538d3746449b4f0e16b16aad3073d4f7379d805",
-   "sha256": "0r42cagvmvvib76kd15nd9ix55ys6i549vxnls4z16s864695zpa"
+   "deps": [
+    "calfw"
+   ],
+   "commit": "52ae145313f5ecbf91e7494386553e64d058c92c",
+   "sha256": "0l98zsw392j8rq0zh2rjcjg8h5bf3bpamgi2fbdyzkrc1v2wbrjc"
   },
   "stable": {
    "version": [
@@ -13307,8 +13320,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20251016,
-    1722
+    20251018,
+    404
    ],
    "deps": [
     "clojure-mode",
@@ -13319,8 +13332,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "7bd3815ee70b225c8c001d829aa7e0c2ce6d99bc",
-   "sha256": "156nc798dxs90m47p63whzi52ag8y056fvx9shp2hpnvk3qs3rgz"
+   "commit": "5e818d32c1e5d671f0ec816d4f73446b58559c0d",
+   "sha256": "0fv3nn4g1pm3rllmywcd80qjb3wdrv4kz8jcbajd848mzxxpdxfk"
   },
   "stable": {
    "version": [
@@ -53796,15 +53809,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20251017,
-    1923
+    20251018,
+    606
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "27dc0755d4f58e8fd0194d9d537ad162162505b9",
-   "sha256": "05vms27pif87mmiixvr7w45vz77vxp519xh3f219hfjw67845icp"
+   "commit": "2c7c88ea42e7b2d7771be35438e521d6c7de589d",
+   "sha256": "03wix87hadlfyixb2fdgxnx83d5w02xdrw1w6zfma51zqws536si"
   },
   "stable": {
    "version": [
