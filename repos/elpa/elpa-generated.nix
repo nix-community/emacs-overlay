@@ -6696,10 +6696,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.8";
+      version = "1.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/osm-1.8.tar";
-        sha256 = "1xj50bwk2llav90m1a935mswgyv9844lziga87w8gb0aaam37i35";
+        url = "https://elpa.gnu.org/packages/osm-1.9.tar";
+        sha256 = "0ankxndigmjwxad3ryrlkc99pqgja7wywf3b77j5y5sph0zyc0hs";
       };
       packageRequires = [ compat ];
       meta = {
