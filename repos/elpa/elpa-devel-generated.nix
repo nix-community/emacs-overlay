@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.0.0.20251017.65215";
+      version = "4.1.1.0.20251018.45749";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.0.0.20251017.65215.tar";
-        sha256 = "0z2krabps3q3mm18qg0fdg81a6hlla1b1x7icidqaji7n4vm1gch";
+        url = "https://elpa.gnu.org/devel/denote-4.1.1.0.20251018.45749.tar";
+        sha256 = "0nmjrfsz7w20kfxc24baqspb26f1zm29m4hi5rjmsp1yfwn1app8";
       };
       packageRequires = [ ];
       meta = {
@@ -3474,10 +3474,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.34.0.20251017.95150";
+      version = "0.34.0.20251017.170357";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20251017.95150.tar";
-        sha256 = "1bgl6lwva9ahi9a908h49dsvbd38jr8vaymx3nrk8gz1g928gvfh";
+        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20251017.170357.tar";
+        sha256 = "0xcxbi31i943cwqmw24v4k3grd90g3xdxygdvcs2cbl669hw4nix";
       };
       packageRequires = [
         compat
