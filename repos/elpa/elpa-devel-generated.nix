@@ -4428,10 +4428,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20251016.80107";
+      version = "9.0.2pre0.20251018.82155";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251016.80107.tar";
-        sha256 = "04pfml8b79mpph3p6k3zvv7ws74cvjiyvmjp86dghbfqcfpmmy8z";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251018.82155.tar";
+        sha256 = "0qfr4y4by27wm7wnzfgl509gzbsxg99khk92arnhxhjan0qk0d57";
       };
       packageRequires = [ ];
       meta = {
@@ -6460,10 +6460,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20251012.113322";
+      version = "9.8pre0.20251018.142025";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251012.113322.tar";
-        sha256 = "04fnxf0pdg88yfbg6yysk8jbmlr8sx5lyfkdf2g3fa6n6slp7yvi";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251018.142025.tar";
+        sha256 = "0iv6pzq2bqnl1y8gnr8yrk4hng4djg44hvl9agfxwmv2gicds11m";
       };
       packageRequires = [ ];
       meta = {
@@ -9885,10 +9885,10 @@
     elpaBuild {
       pname = "vc-backup";
       ename = "vc-backup";
-      version = "1.1.1.0.20250918.224711";
+      version = "1.1.1.0.20251018.163124";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-backup-1.1.1.0.20250918.224711.tar";
-        sha256 = "10a6a12xqsxvhpq88wwc1ylv5zy3x347d9l2bv2wpfrq7n7nrpr7";
+        url = "https://elpa.gnu.org/devel/vc-backup-1.1.1.0.20251018.163124.tar";
+        sha256 = "0nhlnhrkgg7bvqg80zp9m3pamdns5kyavf3hngygydd8qg2kgybw";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10648,10 +10648,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20250515.124004";
+      version = "1.7.0.0.20251018.61546";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20250515.124004.tar";
-        sha256 = "1h93z4dlk7vd2wif93zsypr55mdfnd2yyy6n69wz3d410jf51jf7";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20251018.61546.tar";
+        sha256 = "1rjs45x2fsdyrccj6fsil30c01qpf5mp5wkxk2n1zxas7b4wk0yz";
       };
       packageRequires = [ ];
       meta = {
