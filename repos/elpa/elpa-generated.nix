@@ -9176,10 +9176,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.2.0";
+      version = "1.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tmr-1.2.0.tar";
-        sha256 = "0ywy3wz6km4smp7igzn44fwincc79nwzm0a55jv7hyz6bv78n8xr";
+        url = "https://elpa.gnu.org/packages/tmr-1.2.1.tar";
+        sha256 = "1jx3j9pgr4z5f70jr5byq9b27z4l6q7r4pjzq9dzw6q30wk2kv8p";
       };
       packageRequires = [ ];
       meta = {
