@@ -3608,10 +3608,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.1.0.20251019.174112";
+      version = "1.4.1.0.20251019.224858";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20251019.174112.tar";
-        sha256 = "162xhqfzaasrycbrk9485xjs47p4p001vwp0kaf0bamm0xq6cjxb";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20251019.224858.tar";
+        sha256 = "1xnikhqsydxz5vn6v9avx0rxyxwbqca2277lw36xfmjb3691w3k3";
       };
       packageRequires = [
         eldoc
@@ -10690,10 +10690,10 @@
     elpaBuild {
       pname = "yaml";
       ename = "yaml";
-      version = "1.2.0.0.20250316.172129";
+      version = "1.2.0.0.20251020.72211";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/yaml-1.2.0.0.20250316.172129.tar";
-        sha256 = "0alwrb50napf86jimcnbjbkpd3nizvizskxa8rpglqn5yllj5qlw";
+        url = "https://elpa.gnu.org/devel/yaml-1.2.0.0.20251020.72211.tar";
+        sha256 = "1w9xm5c2y0bq28hbp8s9allirk20343nyii3zzb314xpdvh1618d";
       };
       packageRequires = [ ];
       meta = {
