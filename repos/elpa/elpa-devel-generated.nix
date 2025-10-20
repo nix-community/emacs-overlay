@@ -1941,10 +1941,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.25.0.0.20251009.200400";
+      version = "0.25.0.0.20251019.190930";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.25.0.0.20251009.200400.tar";
-        sha256 = "15hg9nrf6hld21ay7nflh1xb14k905w98bgkd63z30flg62qbf8l";
+        url = "https://elpa.gnu.org/devel/dape-0.25.0.0.20251019.190930.tar";
+        sha256 = "15kgh4d9il3drn6b0db0lib63drrsdgrqapqpbd08hps9cp6gbkn";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -3608,10 +3608,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.1.0.20251010.63609";
+      version = "1.4.1.0.20251019.174112";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20251010.63609.tar";
-        sha256 = "0gha4k9s5d7aqr71cmlychh03vfpj5g2xjixky6c4kikqzvmhv40";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.1.0.20251019.174112.tar";
+        sha256 = "162xhqfzaasrycbrk9485xjs47p4p001vwp0kaf0bamm0xq6cjxb";
       };
       packageRequires = [
         eldoc
@@ -4166,10 +4166,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.12.7.0.20250722.52020";
+      version = "0.12.8.0.20251019.112730";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.12.7.0.20250722.52020.tar";
-        sha256 = "0zgwih2mz53igjqw4ifk7qa82dbvxiz5hfyydz4nlh6x18ysg825";
+        url = "https://elpa.gnu.org/devel/greader-0.12.8.0.20251019.112730.tar";
+        sha256 = "01wcdbwn578xpgwbkiihvf4w79ndphkrhp6p31x7a16vnd98jsgh";
       };
       packageRequires = [
         compat
@@ -5905,10 +5905,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.1.0.20251013.51246";
+      version = "4.8.1.0.20251019.80257";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251013.51246.tar";
-        sha256 = "0s38q1l4yba7cxlf8avc37szxjfiblnd65bnn5c6xnwyfqyy7fd0";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251019.80257.tar";
+        sha256 = "1sfgb4q7z4g4fkx00clv0y0wz5p7yhr5r6d29miz454yrg41mwhs";
       };
       packageRequires = [ ];
       meta = {
@@ -6460,10 +6460,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20251018.142025";
+      version = "9.8pre0.20251019.124644";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251018.142025.tar";
-        sha256 = "0iv6pzq2bqnl1y8gnr8yrk4hng4djg44hvl9agfxwmv2gicds11m";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251019.124644.tar";
+        sha256 = "1lw6ynb1p1y0d2m5n2av0aic3226w01kdp8dgmn3m3rb9blpbg3h";
       };
       packageRequires = [ ];
       meta = {
@@ -9525,10 +9525,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.10.1.0.20251006.181532";
+      version = "0.10.1.0.20251018.223621";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.10.1.0.20251006.181532.tar";
-        sha256 = "04jzkvi4sd5mm73n86gcq3cfmqpl833864sy4q8rzqwshak211k7";
+        url = "https://elpa.gnu.org/devel/transient-0.10.1.0.20251018.223621.tar";
+        sha256 = "0scbk1fb19g3jnidgacv70hsxf5hyax3kb2pvck5kfr6mky4b8ij";
       };
       packageRequires = [
         compat
