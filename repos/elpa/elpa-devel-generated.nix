@@ -74,10 +74,10 @@
     elpaBuild {
       pname = "activities";
       ename = "activities";
-      version = "0.8pre0.20250223.175841";
+      version = "0.8pre0.20251020.223418";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/activities-0.8pre0.20250223.175841.tar";
-        sha256 = "0hmv2wvbs006lwc7r9bz9pf7i40dbklqllkrwdigbxbi2cn8xya8";
+        url = "https://elpa.gnu.org/devel/activities-0.8pre0.20251020.223418.tar";
+        sha256 = "0459wzg82gqq34mm0byw4lkk5mymy8zwiws9h8yrgx0c717bjlcd";
       };
       packageRequires = [ persist ];
       meta = {
@@ -1084,10 +1084,10 @@
     elpaBuild {
       pname = "calibre";
       ename = "calibre";
-      version = "1.4.1.0.20240208.85735";
+      version = "1.5.0.0.20251020.212619";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/calibre-1.4.1.0.20240208.85735.tar";
-        sha256 = "1rbmck8bc28c2rf321606w748nqc5klly6yrm3r8zyviggwd1v2c";
+        url = "https://elpa.gnu.org/devel/calibre-1.5.0.0.20251020.212619.tar";
+        sha256 = "0s2r9qa1mb4rppsb9h5wwwmzny6rpkcsjcl969fi8i2kqdsygjzh";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5905,10 +5905,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.1.0.20251020.131532";
+      version = "4.8.1.0.20251021.52516";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251020.131532.tar";
-        sha256 = "15fjqk9s8rf8a8a1d84c1kf6zqb4knb7ccp4pijzgkvql3nkw5wg";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251021.52516.tar";
+        sha256 = "1cdlfx0kslawah74dnfizzwsm12gkszs0h1f31gdhvr9pzv380sp";
       };
       packageRequires = [ ];
       meta = {
