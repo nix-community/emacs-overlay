@@ -2885,10 +2885,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.11.0.0.20251013.51334";
+      version = "1.11.0.0.20251020.130905";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251013.51334.tar";
-        sha256 = "0fjfslivh9kgi112lwis3vni8pq7f8cn6g7q8i88psxpc0fbbmyz";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251020.130905.tar";
+        sha256 = "1lvb69jimhbjbbjmxn1nqis3b860mshw9zikw591lk87rx51z6lg";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -2913,10 +2913,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18.0.20251011.93720";
+      version = "1.18.0.20251020.115903";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20251011.93720.tar";
-        sha256 = "0s8hwg3m97f147ykh03qaqcb9mgm7cbins0i45072x384pmy6xxa";
+        url = "https://elpa.gnu.org/devel/eglot-1.18.0.20251020.115903.tar";
+        sha256 = "15f6yx2jla0zl9cgwg1qnyyj9aj6wblgvzc46hdlfbqvrf589swx";
       };
       packageRequires = [
         eldoc
@@ -5905,10 +5905,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.1.0.20251019.80257";
+      version = "4.8.1.0.20251020.131532";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251019.80257.tar";
-        sha256 = "1sfgb4q7z4g4fkx00clv0y0wz5p7yhr5r6d29miz454yrg41mwhs";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251020.131532.tar";
+        sha256 = "15fjqk9s8rf8a8a1d84c1kf6zqb4knb7ccp4pijzgkvql3nkw5wg";
       };
       packageRequires = [ ];
       meta = {
@@ -8786,10 +8786,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20251019.44600";
+      version = "2.2.0.0.20251020.131106";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251019.44600.tar";
-        sha256 = "1bpfg5amxi28cwbghjs5l6cqw2caaxjspiibsk73qnnm3flqq8bq";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251020.131106.tar";
+        sha256 = "05ci1mjb6h3h8083iccr90id0vk67xiadnxwlapll5mx5b5dyp1q";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -9517,6 +9517,7 @@
   transient = callPackage (
     {
       compat,
+      cond-let,
       elpaBuild,
       fetchurl,
       lib,
@@ -9525,13 +9526,14 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.10.1.0.20251018.223621";
+      version = "0.10.1.0.20251020.153553";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.10.1.0.20251018.223621.tar";
-        sha256 = "0scbk1fb19g3jnidgacv70hsxf5hyax3kb2pvck5kfr6mky4b8ij";
+        url = "https://elpa.gnu.org/devel/transient-0.10.1.0.20251020.153553.tar";
+        sha256 = "1wmzd9zm942y4r8wcbk302fq50s87q4wa93sqm5xg0ai7rmn4bnz";
       };
       packageRequires = [
         compat
+        cond-let
         seq
       ];
       meta = {
