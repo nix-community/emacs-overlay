@@ -6460,10 +6460,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20251019.124644";
+      version = "9.8pre0.20251021.163508";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251019.124644.tar";
-        sha256 = "1lw6ynb1p1y0d2m5n2av0aic3226w01kdp8dgmn3m3rb9blpbg3h";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251021.163508.tar";
+        sha256 = "04363xz9bngml4p7fmm9vpc2qjrw97a24ll4bmvj49njyrfqkhzk";
       };
       packageRequires = [ ];
       meta = {
@@ -7691,10 +7691,10 @@
     elpaBuild {
       pname = "realgud";
       ename = "realgud";
-      version = "1.5.1.0.20250605.74308";
+      version = "1.5.1.0.20251021.61519";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/realgud-1.5.1.0.20250605.74308.tar";
-        sha256 = "187r7zflc4f51jwbms8864j5vwp524g61rqzggjylcrc0zypgbry";
+        url = "https://elpa.gnu.org/devel/realgud-1.5.1.0.20251021.61519.tar";
+        sha256 = "0794rdx3hpk3i5jbd62szw18x1xpamgnifhgr39yiaxw63czy1jn";
       };
       packageRequires = [
         load-relative
