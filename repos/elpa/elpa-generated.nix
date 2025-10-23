@@ -2223,6 +2223,7 @@
   ) { };
   devdocs = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -2230,12 +2231,12 @@
     elpaBuild {
       pname = "devdocs";
       ename = "devdocs";
-      version = "0.6.1";
+      version = "0.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/devdocs-0.6.1.tar";
-        sha256 = "04m3jd3wymrsdlb1i7z6dz9pf1q8q38ihkbn3jisdca6xkk9jd6p";
+        url = "https://elpa.gnu.org/packages/devdocs-0.7.tar";
+        sha256 = "0jwhfmllfbmv2xhkpicyg7mmj7vl9x5pld4vmv66rrl0ha47ahgr";
       };
-      packageRequires = [ ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/devdocs.html";
         license = lib.licenses.free;
@@ -3272,10 +3273,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6";
+      version = "5.6.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/erc-5.6.tar";
-        sha256 = "16qyfsa2q297xcfjiacjms9v14kjwwrsp3m8kcs5s50aavzfvc1s";
+        url = "https://elpa.gnu.org/packages/erc-5.6.1.tar";
+        sha256 = "13dzip6xhj0mf8hs8wk08pfxny5gwpbzfsqkmz146xvl2d8m621x";
       };
       packageRequires = [ compat ];
       meta = {
