@@ -2246,10 +2246,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.6.0.20251013.91552";
+      version = "0.5.6.0.20251016.40241";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.6.0.20251013.91552.tar";
-        sha256 = "17hb9mc9f4yfgqwypq5c9j29i1qzna0fb69lg36cw2hvbw1zyfkw";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.6.0.20251016.40241.tar";
+        sha256 = "12jmwc7q4qp1pjvr9v5qnqs1p00g8snn6hbw9xs1275m9jcggwg4";
       };
       packageRequires = [
         compat
