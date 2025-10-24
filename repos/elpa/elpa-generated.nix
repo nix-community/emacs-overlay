@@ -2857,7 +2857,6 @@
   ) { };
   eglot = callPackage (
     {
-      compat,
       eldoc,
       elpaBuild,
       external-completion,
@@ -2867,26 +2866,23 @@
       lib,
       project,
       seq,
-      track-changes,
       xref,
     }:
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.18";
+      version = "1.19";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/eglot-1.18.tar";
-        sha256 = "1zqs498yn3i8wn045jgq9nw4pddiyrwwgyq39mndzvgvi1j6a431";
+        url = "https://elpa.gnu.org/packages/eglot-1.19.tar";
+        sha256 = "0bsz3grw41nh5r76brfdb4gb3hncs5chlhwsqm6qqg0ach69m7zi";
       };
       packageRequires = [
-        compat
         eldoc
         external-completion
         flymake
         jsonrpc
         project
         seq
-        track-changes
         xref
       ];
       meta = {
@@ -3568,10 +3564,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.1";
+      version = "1.4.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/flymake-1.4.1.tar";
-        sha256 = "0l20gxzlvpl0d3wvvsam3mda5hdlag4anplx3fd4xksbvfhndzlk";
+        url = "https://elpa.gnu.org/packages/flymake-1.4.2.tar";
+        sha256 = "02y7fgg2m0ya4c6r4861nk0128wdb18892hc940an268zjjixghy";
       };
       packageRequires = [
         eldoc
@@ -4876,10 +4872,10 @@
     elpaBuild {
       pname = "jsonrpc";
       ename = "jsonrpc";
-      version = "1.0.25";
+      version = "1.0.26";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jsonrpc-1.0.25.tar";
-        sha256 = "18f0g8j1rd2fpa707w6fll6ryj7mg6hbcy2pc3xff2a4ps8zv12b";
+        url = "https://elpa.gnu.org/packages/jsonrpc-1.0.26.tar";
+        sha256 = "0lsm17kak4wb9anplqlyqfy0527akb8vp2gl3lszbxh281kjg1qx";
       };
       packageRequires = [ ];
       meta = {
