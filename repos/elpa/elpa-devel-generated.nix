@@ -2365,10 +2365,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20251022.2456";
+      version = "1.10.0.0.20251024.224349";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20251022.2456.tar";
-        sha256 = "0jjp5qb1dl2h0v76k8sqwxjfvi581phqqgqzx0dl2b6lkirjs0mg";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20251024.224349.tar";
+        sha256 = "1kqhfvsmsyxj27ci06y6bk315g1nr94ximyrhxia62v59k64xwv6";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -5905,10 +5905,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.1.0.20251024.52535";
+      version = "4.8.1.0.20251025.75612";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251024.52535.tar";
-        sha256 = "1qb8jj0knsrxnakc7y6q2yqrs5bf4f3qwpcm2niqcr9s5qiryj3r";
+        url = "https://elpa.gnu.org/devel/modus-themes-4.8.1.0.20251025.75612.tar";
+        sha256 = "11y64fk40sys8nm9m5d6zvxgvzjv1g0ljfc9qjwb34hhzs78xj0w";
       };
       packageRequires = [ ];
       meta = {
@@ -7691,10 +7691,10 @@
     elpaBuild {
       pname = "realgud";
       ename = "realgud";
-      version = "1.5.1.0.20251023.185243";
+      version = "1.5.1.0.20251024.174500";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/realgud-1.5.1.0.20251023.185243.tar";
-        sha256 = "0hi4y2zjdlarjrd19j61d8zwk60gnlv0ywpaky3w4q6yb0ghqarp";
+        url = "https://elpa.gnu.org/devel/realgud-1.5.1.0.20251024.174500.tar";
+        sha256 = "027v496szcwn1ldhvjs6sd0hfnsc2jlbbg71v775ijym4w97wz1k";
       };
       packageRequires = [
         load-relative
