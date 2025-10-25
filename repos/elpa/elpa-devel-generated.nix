@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20251014.71421";
+      version = "14.1.0.0.20251024.151313";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20251014.71421.tar";
-        sha256 = "0agp27jz2p9rc40752kpqcydjr9lsyfz7d7qsrv4szcx5yr8pm06";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20251024.151313.tar";
+        sha256 = "12icw6pfx3mx5mgy8bgv0f7nq261hm9wihj00cwb5fxk7hkahqnc";
       };
       packageRequires = [ ];
       meta = {
@@ -9526,10 +9526,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.10.1.0.20251020.153553";
+      version = "0.10.1.0.20251024.110624";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.10.1.0.20251020.153553.tar";
-        sha256 = "1wmzd9zm942y4r8wcbk302fq50s87q4wa93sqm5xg0ai7rmn4bnz";
+        url = "https://elpa.gnu.org/devel/transient-0.10.1.0.20251024.110624.tar";
+        sha256 = "0bdlcdgvqnj6sjs0fy6596ji1bqsb2dp24kyk3arq6bxibpwggvd";
       };
       packageRequires = [
         compat
@@ -9951,10 +9951,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.4.0.20251023.75719";
+      version = "0.4.0.20251023.93846";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.4.0.20251023.75719.tar";
-        sha256 = "164qmacdybqcrgyqhwplfvpjcgfh91n533c0gdll6hf4fh3ccl5a";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.4.0.20251023.93846.tar";
+        sha256 = "0x3yc05r95app8l0mqarprb3b8f2jvpj5m0x11j8xga3gha8k3b6";
       };
       packageRequires = [ compat ];
       meta = {
