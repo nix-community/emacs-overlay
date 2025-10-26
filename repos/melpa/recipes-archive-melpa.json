@@ -8941,14 +8941,14 @@
   "repo": "lapislazuli/blue.el",
   "unstable": {
    "version": [
-    20251013,
-    2008
+    20251026,
+    1125
    ],
    "deps": [
     "magit-section"
    ],
-   "commit": "f34f1aee33ba69777ae1588b2824fce95558fb53",
-   "sha256": "11n8iz31b75jadx6m8clg3qcbxs62rgccnl311ylxslhh7a1n84p"
+   "commit": "dcdf6ed4daca84213829242a077d0fda751fa6ba",
+   "sha256": "0gxii0i6iq8fdfp28gxgcs70xc66hw8f91ddc5rqrg0ag3x28df8"
   }
  },
  {
@@ -52130,11 +52130,7 @@
     "transient"
    ],
    "commit": "bb0edd089351b646ad5746199678cc2626a8b539",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2868-391582700/nix-shell-3060-3774933877/nix-shell-3103-1476792550/git-checkout-tmp-eXWj7fa6/clone/.git/\nfatal: unable to access 'https://git.thanosapollo.org/gnosis/': The requested URL returned error: 504\nfatal: unable to access 'https://git.thanosapollo.org/gnosis/': The requested URL returned error: 504\nfatal: unable to access 'https://git.thanosapollo.org/gnosis/': The requested URL returned error: 504\nUnable to checkout bb0edd089351b646ad5746199678cc2626a8b539 from https://git.thanosapollo.org/gnosis.\n"
-   ]
+   "sha256": "1nzyys00jdh1d7sv8jigaxb1h1ghvkc9d1r0603rsmfkrsfq229p"
   },
   "stable": {
    "version": [
@@ -52149,11 +52145,7 @@
     "transient"
    ],
    "commit": "bb0edd089351b646ad5746199678cc2626a8b539",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2868-391582700/nix-shell-3060-3774933877/nix-shell-3103-1476792550/git-checkout-tmp-eXWj7fa6/clone/.git/\nfatal: unable to access 'https://git.thanosapollo.org/gnosis/': The requested URL returned error: 504\nfatal: unable to access 'https://git.thanosapollo.org/gnosis/': The requested URL returned error: 504\nfatal: unable to access 'https://git.thanosapollo.org/gnosis/': The requested URL returned error: 504\nUnable to checkout bb0edd089351b646ad5746199678cc2626a8b539 from https://git.thanosapollo.org/gnosis.\n"
-   ]
+   "sha256": "1nzyys00jdh1d7sv8jigaxb1h1ghvkc9d1r0603rsmfkrsfq229p"
   }
  },
  {
@@ -81817,10 +81809,10 @@
   "unstable": {
    "version": [
     20251026,
-    515
+    810
    ],
-   "commit": "ea426e5c90bd24882c8af09c6832da1e12d40f74",
-   "sha256": "1g31i98x405b12xpj0672m21r05nwvvasjp05xf9c2kbi3x3g9ny"
+   "commit": "ae80e32ea72b3f15becfb0c121f9fa3259d710d6",
+   "sha256": "1zv9iwbx3jh59517hn2xy1n61mvvi27h8l9fb60b81sdgyn3mrxf"
   },
   "stable": {
    "version": [
@@ -94830,14 +94822,14 @@
   "unstable": {
    "version": [
     20251026,
-    609
+    1022
    ],
    "deps": [
     "fsrs",
     "org"
    ],
-   "commit": "9537f3bef240bb612b36dd6424b1d90da87efece",
-   "sha256": "06b7hd43b0v35dhbbs8lw8srnpba604lc69mnyd6pxhfnvshmavb"
+   "commit": "70e27aaead2fef10916cc3e2b81eab6440a809f5",
+   "sha256": "16rjyqdpx71mab7vymdg3gbf4w2mzvz013v7nyw517axr6z3szxz"
   }
  },
  {
@@ -96453,11 +96445,11 @@
   "repo": "tbanel/orgaggregate",
   "unstable": {
    "version": [
-    20251021,
-    1619
+    20251026,
+    1338
    ],
-   "commit": "7f82d07581301f1280e10f10fa522a7e2fb61eff",
-   "sha256": "1nzycgypagcg6wbgxmf5bn0nqyhwb859m5wyd1xyxyvm4z8s7v49"
+   "commit": "0aa5ae02aab83dda1d0370af570c10377bd4ea54",
+   "sha256": "03c5z4y752apghxll6j2flrdy86lkcmcbhf1h0ynkz5df4ynbva5"
   }
  },
  {
@@ -99007,19 +98999,20 @@
   "repo": "joostkremers/pandoc-mode",
   "unstable": {
    "version": [
-    20251024,
-    2344
+    20251026,
+    1400
    ],
-   "commit": "da577c6f5ac091d5133955d9e1766f43e8bf96bd",
-   "sha256": "11ishg3m6wvk666dhv3mxfzk03j2hhzaad9aan6yy2sz2kzb882j"
+   "commit": "a131a553f48db71b0a051b6bc1d713627b2de3d9",
+   "sha256": "0q76hnpczlqql7mycgaq3cmhd6ls09i331499nxwiq5ih7iqgn6l"
   },
   "stable": {
    "version": [
     2,
-    90
+    90,
+    2
    ],
-   "commit": "da577c6f5ac091d5133955d9e1766f43e8bf96bd",
-   "sha256": "11ishg3m6wvk666dhv3mxfzk03j2hhzaad9aan6yy2sz2kzb882j"
+   "commit": "a131a553f48db71b0a051b6bc1d713627b2de3d9",
+   "sha256": "0q76hnpczlqql7mycgaq3cmhd6ls09i331499nxwiq5ih7iqgn6l"
   }
  },
  {
@@ -119609,11 +119602,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20251012,
-    1917
+    20251026,
+    1107
    ],
-   "commit": "95f42d5d98c6e8cc0c583cfc645d3aef644cdc00",
-   "sha256": "052qg3h3m0p31rvv6r1gi69lnz4c5ahga8zh0lbxy7spvh9qskvi"
+   "commit": "9a9b9f78e23d82f638a54f84dd702f7f9b351262",
+   "sha256": "0zq20kwkzixvxpnhsljq6yjzmfa57qpk7qy7fjhy9104psml3n7c"
   }
  },
  {
@@ -130926,11 +130919,11 @@
   "repo": "federicotdn/verb",
   "unstable": {
    "version": [
-    20251019,
-    1842
+    20251026,
+    1520
    ],
-   "commit": "5f5381333ee5d8ff3df7d1d01b9becc377bb1415",
-   "sha256": "04qmwz0ysa73b56fz2s3j352dzgixrg2mxma7dvqx8g2l93qzxsf"
+   "commit": "600a9bdf82aad7d88c93ba929a7eb94c6a7c0034",
+   "sha256": "0pkjbqpl90viprlncpg9828dwk3gj2qpqz3ag7rkm6qi1yxmb712"
   },
   "stable": {
    "version": [
