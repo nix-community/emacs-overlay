@@ -2263,10 +2263,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.6";
+      version = "0.5.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gnosis-0.5.6.tar";
-        sha256 = "03l2r0m1n636v4l3sybpkb9xj0lji9v7yssynnx0fn4xqrzd5yw8";
+        url = "https://elpa.nongnu.org/nongnu/gnosis-0.5.7.tar";
+        sha256 = "11xxpch6j4cc81pl8q9fkv0l4qjh68dhybcxn1qgxrlbpnq4j8hc";
       };
       packageRequires = [
         compat
@@ -3396,10 +3396,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.3";
+      version = "2.0.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.3.tar";
-        sha256 = "07snrvsbwvzky8b8whwy3qwwdzj84bfr23c2m11b5sskkgjykvy0";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.5.tar";
+        sha256 = "090l53vnzs6mhiqlx9ln64sxgbd4miqmbyqd8vl321xwxzlyh1s1";
       };
       packageRequires = [
         persist

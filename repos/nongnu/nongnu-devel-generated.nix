@@ -2246,10 +2246,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.6.0.20251023.91749";
+      version = "0.5.7.0.20251025.195454";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.6.0.20251023.91749.tar";
-        sha256 = "0wnm9pg71ggsgilrcjccgrv8jkm9m7hkh138yv38zm9ii19i5z6m";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.7.0.20251025.195454.tar";
+        sha256 = "1hwjsn5r7ak7rddr82mxm30q10p2smqh2aqir98yv5jgw85q88nq";
       };
       packageRequires = [
         compat
@@ -3142,10 +3142,10 @@
     elpaBuild {
       pname = "logview";
       ename = "logview";
-      version = "0.19.3snapshot0.20250401.172309";
+      version = "0.19.3snapshot0.20251025.140450";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/logview-0.19.3snapshot0.20250401.172309.tar";
-        sha256 = "0vr34ixpidz1lp6y87axlvi0pac11lfkm5g0d310wphihnjmyssr";
+        url = "https://elpa.nongnu.org/nongnu-devel/logview-0.19.3snapshot0.20251025.140450.tar";
+        sha256 = "0kh1qhc0fmi89rlwxhirgkbj0b7qb1a7wcbva0kmwr3ib4cm04sb";
       };
       packageRequires = [
         compat
@@ -3380,10 +3380,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.3.0.20251006.174033";
+      version = "2.0.5.0.20251025.84558";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.3.0.20251006.174033.tar";
-        sha256 = "1b0wxpzgi5g5n8n3kxsxshfpx7nb8xywc0a2qk8qjarii2dlm6wc";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.5.0.20251025.84558.tar";
+        sha256 = "1z98s5s32wb7f1hwphvkg3jc913wfpnqa85057m5m85hcjs7p3li";
       };
       packageRequires = [
         persist
@@ -5284,10 +5284,10 @@
     elpaBuild {
       pname = "typst-ts-mode";
       ename = "typst-ts-mode";
-      version = "0.12.2.0.20250906.143855";
+      version = "0.12.2.0.20251025.111059";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.12.2.0.20250906.143855.tar";
-        sha256 = "1qi73s1r6ld6l31xf3sa9ml52zlcpwp2wr5m2w76i1bcwylgnaad";
+        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.12.2.0.20251025.111059.tar";
+        sha256 = "1ppyvvi56cv4ck79bmmn4fs3bqsbs37p2rap8jrd82cpal14nws6";
       };
       packageRequires = [ ];
       meta = {
