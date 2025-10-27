@@ -11093,11 +11093,11 @@
   "repo": "kiwanami/emacs-calfw",
   "unstable": {
    "version": [
-    20251026,
-    2119
+    20251027,
+    1117
    ],
-   "commit": "f6cd4f253655607e6291ba4403978e27704aaf18",
-   "sha256": "0lbdfhrxsc1c6rgxhskklsc5hfvdghlm6sqrr2g1n9d1fj29rhxi"
+   "commit": "f95fd5ca25a54f461c079d182f56e78b6a49a541",
+   "sha256": "0wvl8bq0knw6ggby7msr9vmil1is57rdjb66hwm8m42h0lh9680h"
   },
   "stable": {
    "version": [
@@ -11220,14 +11220,15 @@
   "repo": "kiwanami/emacs-calfw",
   "unstable": {
    "version": [
-    20251026,
-    2119
+    20251027,
+    1046
    ],
    "deps": [
-    "calfw"
+    "calfw",
+    "org"
    ],
-   "commit": "f6cd4f253655607e6291ba4403978e27704aaf18",
-   "sha256": "0lbdfhrxsc1c6rgxhskklsc5hfvdghlm6sqrr2g1n9d1fj29rhxi"
+   "commit": "98c57682d5201d2ab59220c43cb77e0f1b7766b9",
+   "sha256": "0nx33vsw31r129cshvcag78j2fibalq6ff8l745iy7ahaaxcjawz"
   },
   "stable": {
    "version": [
@@ -24191,16 +24192,16 @@
   "repo": "pprevos/denote-explore",
   "unstable": {
    "version": [
-    20251011,
-    232
+    20251027,
+    911
    ],
    "deps": [
     "dash",
     "denote",
     "denote-regexp"
    ],
-   "commit": "0fb33ff9e67af05aca5f8effec733713ee5f7dc4",
-   "sha256": "0ckcciv0ypmdg689i13l585p779spc0gh8cb9g3gnb9b7224vlyx"
+   "commit": "3adc8b4d342bbc411d667f93dbc1f1468a245e04",
+   "sha256": "12b0bxvz01za3bxs66n63l6fyffnhq1br5fz0nf28839gvi80npg"
   },
   "stable": {
    "version": [
@@ -29661,8 +29662,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20251026,
-    15
+    20251027,
+    1402
    ],
    "deps": [
     "compat",
@@ -29670,8 +29671,8 @@
     "f",
     "markdown-mode"
    ],
-   "commit": "25e9f5762e4bbf1d2f2189d738a01ab0c172b446",
-   "sha256": "0g0hxmm7a980nb7pm4jacv7qap020xs76kxb2cx1wngb0ycb5vrr"
+   "commit": "08b154eda570fb0abd08781581e35aca27132f69",
+   "sha256": "0mh46nzz8nzpi78azfqyv4jh4i09ch6iw150f6986gx0sl0pywih"
   },
   "stable": {
    "version": [
@@ -48036,14 +48037,14 @@
   "repo": "larsbrinkhoff/forth-mode",
   "unstable": {
    "version": [
-    20231206,
-    1127
+    20251027,
+    730
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "59c5ea89ca7593bd49cdde6caefa0893a8780105",
-   "sha256": "1l82hsrg7n7xvi6bd6sdcwvxc9g5qnh84lcmb274myldjzlvyy93"
+   "commit": "8f526ed38b52404c0ce55df6df5c8cbbc8f1de69",
+   "sha256": "17n7mcixa4glcz1pfrb1jrx470zx3bjdxfp5bnvgyrm1gg7pgnzz"
   }
  },
  {
@@ -76213,8 +76214,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20251025,
-    1531
+    20251027,
+    1154
    ],
    "deps": [
     "dash",
@@ -76225,8 +76226,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "83d11ca984f5e8e5233c66283339131854496a7f",
-   "sha256": "05kci1bm0ipjalm7ac3ppsc6kngxk81n46bmmih2cs8hbjai43ly"
+   "commit": "de655e813dcd5ddc42cf2f3170d76bc6b7a340cd",
+   "sha256": "11pqmraszhsqmyls625qbvzf2gcrbs8148vrl9y7xajwi9zdy587"
   },
   "stable": {
    "version": [
@@ -79533,14 +79534,14 @@
   "repo": "lizqwerscott/mcp.el",
   "unstable": {
    "version": [
-    20251010,
-    548
+    20251027,
+    1125
    ],
    "deps": [
     "jsonrpc"
    ],
-   "commit": "6132ffc05e8ba5ac188b7f6b54a0fd3192f110d1",
-   "sha256": "1xfa4l3yl3i12sns696dghaj6s33axv1hh0x6p47jywacir2ffbg"
+   "commit": "ee6dc5e7c1eaec8817e331d9aef91de9c0f43ce7",
+   "sha256": "1fkqd18xasga01p99r4s32477nkyr3yzncz027qfxlhry7hdpn5d"
   }
  },
  {
@@ -79721,10 +79722,10 @@
   "unstable": {
    "version": [
     20251027,
-    637
+    1256
    ],
-   "commit": "fa87499f2d1a025b3188c64e361805b15170a5d3",
-   "sha256": "1csrnzdckhaci3glj2i5606ry02grahrylgi1l4mbl7k46slkmcp"
+   "commit": "e02be1d565a4dfe82b1c5625167b4be8f86ce3e8",
+   "sha256": "0i0lypji56f77cwmdp5pci3k9wnfj2rq4sz41ny2a6mk074h73ih"
   }
  },
  {
@@ -120848,14 +120849,14 @@
   "repo": "draxil/starling-el",
   "unstable": {
    "version": [
-    20251026,
-    1455
+    20251027,
+    902
    ],
    "deps": [
     "plz"
    ],
-   "commit": "e6fae24f889d886f3d02cafee0a6067d35576378",
-   "sha256": "1igmjvzjlbvv543laqajd5i08dzabd4dv3p9fvg7r3znk17fl2bq"
+   "commit": "85f5b7723a048869f7c301042b55693f9f3ae5c8",
+   "sha256": "1ycjgnr3kzsxyhh22xdaxcnr6kb3kzhk4bfm26bi77ccwgbq8lls"
   },
   "stable": {
    "version": [
@@ -125288,11 +125289,11 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20251020,
-    941
+    20251026,
+    1955
    ],
-   "commit": "f7abcae70bd5d2c558567d786400cd47e095a6fe",
-   "sha256": "15hq1llhvnb1qxfrz6h6jdlih06986ar2x74n1pm1k742k7a5a5m"
+   "commit": "be5f20943bc305e0882c1f920d92b53b68d6eb15",
+   "sha256": "0rg7w81f9jvbpwjp4bz2rjhf251vm6kpgwkf8g6a7ysvpprqzhll"
   },
   "stable": {
    "version": [
