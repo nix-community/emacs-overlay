@@ -1880,10 +1880,10 @@
     elpaBuild {
       pname = "forth-mode";
       ename = "forth-mode";
-      version = "0.2.0.20231206.112722";
+      version = "0.2.0.20251027.73009";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/forth-mode-0.2.0.20231206.112722.tar";
-        sha256 = "0vx3ic6xjpw6xfxb42n7fipkrxfbn1z86hngzg1yz77mig0fvw3n";
+        url = "https://elpa.nongnu.org/nongnu-devel/forth-mode-0.2.0.20251027.73009.tar";
+        sha256 = "1h7vvigb98z1bj9s6j34jw8kwlg71agi92plxsbk89cpdx8w9xki";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2619,10 +2619,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20251026.65214";
+      version = "4.0.6.0.20251027.64125";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251026.65214.tar";
-        sha256 = "1hbycl3c579lmdmk8bz4x1kgs6hfkhygphhfw357vkzi0bdm32k3";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251027.64125.tar";
+        sha256 = "18sf9aj9cg9yl7ssrxhw4kjhn834shii3hxwzq6fsrvdw0bfcvci";
       };
       packageRequires = [
         helm-core
@@ -2644,10 +2644,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20251026.65214";
+      version = "4.0.6.0.20251027.64125";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251026.65214.tar";
-        sha256 = "1r4l7x7x8mbbw7rca7khsdvwb3jv0sw79k921zncdvxlnlj1iqn5";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251027.64125.tar";
+        sha256 = "047z3mxfk7zy0kyd9hqhfqwwxmsw9rlqxp3lhffkxhl257f5ww7b";
       };
       packageRequires = [ async ];
       meta = {
