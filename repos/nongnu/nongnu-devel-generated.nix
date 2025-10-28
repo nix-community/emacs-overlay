@@ -333,10 +333,10 @@
     elpaBuild {
       pname = "beancount";
       ename = "beancount";
-      version = "0.9.0.0.20250616.105101";
+      version = "0.9.0.0.20251027.80859";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/beancount-0.9.0.0.20250616.105101.tar";
-        sha256 = "1h1hy46xqm70nilqx1z5v4a81y59j7ywikckw2xslilkrniw6wj5";
+        url = "https://elpa.nongnu.org/nongnu-devel/beancount-0.9.0.0.20251027.80859.tar";
+        sha256 = "19lklnmqpxzxgwdjb3wzaarkklxqswnl9ff11pg854rr7kivlmwl";
       };
       packageRequires = [ ];
       meta = {
@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.20.0snapshot0.20251022.140707";
+      version = "1.20.0snapshot0.20251027.155205";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.20.0snapshot0.20251022.140707.tar";
-        sha256 = "1j6g7a30r1bm1a3ylcn668w92qz27mkygm11ybyrb38xh2fxad71";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.20.0snapshot0.20251027.155205.tar";
+        sha256 = "069fvzdm1ywc35ncdhxcw58zb3pmwrywz2x2f4b4a2i7gba5dlrn";
       };
       packageRequires = [
         clojure-mode
