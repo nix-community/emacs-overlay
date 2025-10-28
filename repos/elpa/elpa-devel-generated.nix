@@ -1941,10 +1941,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.25.0.0.20251022.204557";
+      version = "0.25.0.0.20251027.213622";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.25.0.0.20251022.204557.tar";
-        sha256 = "032fkxq6qbyl331l1hjywyk875z3fbz4w9dfi2afdffj7npgk3ch";
+        url = "https://elpa.gnu.org/devel/dape-0.25.0.0.20251027.213622.tar";
+        sha256 = "0smf3ymc8lyc9c44npw0cizbaxx7yg7d7sjzs310kxd1w0s9xdva";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2661,10 +2661,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.4.0.0.20251004.101735";
+      version = "0.4.0.0.20251027.172540";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20251004.101735.tar";
-        sha256 = "1dlsfy3faww658v03886gc44mf696pjr33igp2cfzw9ya1xsszaf";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.4.0.0.20251027.172540.tar";
+        sha256 = "06crymvrhs117ph6yda1az789vcn45p2jkvszc293561wazp4bqs";
       };
       packageRequires = [ ];
       meta = {
@@ -3311,10 +3311,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1.0.20251021.182146";
+      version = "5.6.2snapshot0.20251027.192944";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.1.0.20251021.182146.tar";
-        sha256 = "03jlcgc8lsxrrd6yp3m7qmgjnaafmczkvxsnzjgdpc6ijc7pnkb3";
+        url = "https://elpa.gnu.org/devel/erc-5.6.2snapshot0.20251027.192944.tar";
+        sha256 = "0hhdh7lqfv22774l0b2pgac1k75k00hf8wwi5v5w51qz5sn4v24w";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4166,10 +4166,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.12.8.0.20251019.112730";
+      version = "0.12.8.0.20251028.544";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.12.8.0.20251019.112730.tar";
-        sha256 = "01wcdbwn578xpgwbkiihvf4w79ndphkrhp6p31x7a16vnd98jsgh";
+        url = "https://elpa.gnu.org/devel/greader-0.12.8.0.20251028.544.tar";
+        sha256 = "1wns54bznspxk7rx6s935kj234s77w58cwg5dkdsfv9z147wwnr5";
       };
       packageRequires = [
         compat
