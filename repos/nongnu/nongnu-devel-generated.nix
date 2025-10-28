@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.20.0snapshot0.20251027.155205";
+      version = "1.20.0snapshot0.20251028.60325";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.20.0snapshot0.20251027.155205.tar";
-        sha256 = "069fvzdm1ywc35ncdhxcw58zb3pmwrywz2x2f4b4a2i7gba5dlrn";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.20.0snapshot0.20251028.60325.tar";
+        sha256 = "1lzz3lvpmr8pciaigjjxbqi3rar98wlh9xgphgja9vz6i1r2r7rq";
       };
       packageRequires = [
         clojure-mode
@@ -2422,10 +2422,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.0.20251024.134945";
+      version = "0.9.9.0.20251027.225347";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20251024.134945.tar";
-        sha256 = "0l6bc1y57vxsg46vin0wysf35sca5k43w8hd58bqcpyj5xd4w21l";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.0.20251027.225347.tar";
+        sha256 = "0gdfphwb9y0rsqj33dczrp4k9i3wbm164m4rx92fd8d8d7xqw8qg";
       };
       packageRequires = [
         compat
@@ -3357,10 +3357,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.8alpha0.20250812.42301";
+      version = "2.8alpha0.20251028.41247";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20250812.42301.tar";
-        sha256 = "1ckl1ykijnahld1fwd6mp04j1hwdq1acdbi9wrnwzizizrfisbjp";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20251028.41247.tar";
+        sha256 = "09f9h6x9p56x9ljfqgalvh0l8lpzpx4zy6j8vmh3cz00ib6nn83v";
       };
       packageRequires = [ ];
       meta = {
