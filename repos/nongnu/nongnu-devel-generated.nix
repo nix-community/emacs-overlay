@@ -2955,6 +2955,27 @@
       };
     }
   ) { };
+  isl = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "isl";
+      ename = "isl";
+      version = "1.4.0.20251012.130608";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.4.0.20251012.130608.tar";
+        sha256 = "1kn6wfinkhaw2p2jkay5japr6mdwhwrwj07jabpa194ncvirckm7";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/isl.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   iwindow = callPackage (
     {
       compat,
@@ -4298,10 +4319,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20251020.142150";
+      version = "1.0.20251027.101258";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20251020.142150.tar";
-        sha256 = "0jpyq0sbjagxc6g37c4pnrd3aqpjp94259qnv889p7gxfv5fngd7";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20251027.101258.tar";
+        sha256 = "1cch41dwvxdb3kkwii97280x8g3vpf6a34vs9hd3kf7p2ilx9icy";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5785,10 +5806,10 @@
     elpaBuild {
       pname = "zenburn-theme";
       ename = "zenburn-theme";
-      version = "2.9.0snapshot0.20251012.181013";
+      version = "2.9.0snapshot0.20251028.122652";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.9.0snapshot0.20251012.181013.tar";
-        sha256 = "1nihx0xvm8dwx5fycm9d6g6jwg7ydi7341nh6qqac2bcm0li4q39";
+        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.9.0snapshot0.20251028.122652.tar";
+        sha256 = "00y5qix2znxz7c3g780h56ssmqjj801s7ig43gsk84rhr6h67wy5";
       };
       packageRequires = [ ];
       meta = {

@@ -2971,6 +2971,27 @@
       };
     }
   ) { };
+  isl = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "isl";
+      ename = "isl";
+      version = "1.4";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/isl-1.4.tar";
+        sha256 = "1h7q3afgl82ww8s7n4g1cr3zwdinv6h87a2s9a0fl8xszg318cjx";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/isl.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   iwindow = callPackage (
     {
       compat,
@@ -4321,10 +4342,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20251020.142150";
+      version = "1.0.20251027.101258";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20251020.142150.tar";
-        sha256 = "01wahsbfhag8rdb08wj02kjz3aba5rsy7ijywyyhzaky5mz5znvr";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20251027.101258.tar";
+        sha256 = "180s120rszbvhcmfc53h96sfl7cq1d8bc4nk3xkr2w100wm9cx06";
       };
       packageRequires = [ compat ];
       meta = {
