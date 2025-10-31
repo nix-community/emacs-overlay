@@ -5582,10 +5582,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "7.1.2";
+      version = "7.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/matlab-mode-7.1.2.tar";
-        sha256 = "0p68wxk368x1k7hv3vshvadvfa754i017i8w12q563lmvq5jrgp0";
+        url = "https://elpa.gnu.org/packages/matlab-mode-7.2.1.tar";
+        sha256 = "1dv9sfv9hik9vxq6qlhd0cpjg62hvq0hvhkhknddzmcxkh9d0fpb";
       };
       packageRequires = [ ];
       meta = {
@@ -9262,10 +9262,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.0.3";
+      version = "2.8.0.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.8.0.3.tar";
-        sha256 = "1qszpb4qywpnx5x7ynx8srq6m6aiygdimffghihxcviv1r1mxs53";
+        url = "https://elpa.gnu.org/packages/tramp-2.8.0.4.tar";
+        sha256 = "07zc1w4w1kkybkfydxwhv84rwxgz9zsz7n31hlcyw5x58624x4h2";
       };
       packageRequires = [ ];
       meta = {
@@ -10512,10 +10512,10 @@
     elpaBuild {
       pname = "yaml";
       ename = "yaml";
-      version = "1.2.0";
+      version = "1.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/yaml-1.2.0.tar";
-        sha256 = "1j1shz85vdj7w7bslpmpfws92fi3afp44533irq8caf7zj9masph";
+        url = "https://elpa.gnu.org/packages/yaml-1.2.1.tar";
+        sha256 = "14asp31dba2ab1hjvxjqdk99kzl82r7yjmrw6nk65i1wsnk14a6i";
       };
       packageRequires = [ ];
       meta = {
