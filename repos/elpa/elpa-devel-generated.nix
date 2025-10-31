@@ -2885,10 +2885,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.11.0.0.20251020.130905";
+      version = "1.11.0.0.20251030.161429";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251020.130905.tar";
-        sha256 = "1lvb69jimhbjbbjmxn1nqis3b860mshw9zikw591lk87rx51z6lg";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251030.161429.tar";
+        sha256 = "0g0ckjbaljm7ikw6ik9wbkx91fsiqlx6jppnqs2abmz6cmgc5dri";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -8786,10 +8786,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20251025.135221";
+      version = "2.2.0.0.20251031.22221";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251025.135221.tar";
-        sha256 = "1chzdb40pvbzca9lzyzfz5819zvr3yqxnfr9nkhfp260bhj9avzn";
+        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251031.22221.tar";
+        sha256 = "03vkpn3qiricdm80lkhhcp4k14107smwg4b9bgg19ac92nxnvjxb";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -9202,10 +9202,10 @@
     elpaBuild {
       pname = "test-simple";
       ename = "test-simple";
-      version = "1.3.0.0.20230916.123447";
+      version = "1.3.1.0.20251030.174816";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/test-simple-1.3.0.0.20230916.123447.tar";
-        sha256 = "1xbf63qg17va0qwq2mkg12jg1fk6wwrs43jjzxxccx28h6d205il";
+        url = "https://elpa.gnu.org/devel/test-simple-1.3.1.0.20251030.174816.tar";
+        sha256 = "0czjcg63rig7658s1q5lp75wxjribd220lhvbajmkviblyqxmr71";
       };
       packageRequires = [ cl-lib ];
       meta = {
