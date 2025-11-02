@@ -121,10 +121,10 @@
     elpaBuild {
       pname = "annotate";
       ename = "annotate";
-      version = "2.4.2";
+      version = "2.4.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/annotate-2.4.2.tar";
-        sha256 = "12510awgjx14kcz88a66walybvxqf7whbb0gckxj1dxsn0r1spfa";
+        url = "https://elpa.nongnu.org/nongnu/annotate-2.4.3.tar";
+        sha256 = "16w5dxnh601kqj7chs39ai8zgcjyy2692rk2vnqs2hk08mqsmpwv";
       };
       packageRequires = [ ];
       meta = {
@@ -687,10 +687,10 @@
     elpaBuild {
       pname = "cond-let";
       ename = "cond-let";
-      version = "0.1.1";
+      version = "0.2.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/cond-let-0.1.1.tar";
-        sha256 = "1s1gzmn2xa76hbk0q60gznsj0p8kfn1b4fzijdkqdrvindmc4ymw";
+        url = "https://elpa.nongnu.org/nongnu/cond-let-0.2.0.tar";
+        sha256 = "1vycjql5i9k9k8nmrpjx393qaw5vh9jy9f7riggsxgd80xky35zi";
       };
       packageRequires = [ ];
       meta = {
@@ -3112,10 +3112,10 @@
     elpaBuild {
       pname = "keycast";
       ename = "keycast";
-      version = "1.4.5";
+      version = "1.4.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/keycast-1.4.5.tar";
-        sha256 = "0c847ailkfa46f6p4d9j6fg485cj8pwd208ynxz5sx5my4gqfnbw";
+        url = "https://elpa.nongnu.org/nongnu/keycast-1.4.6.tar";
+        sha256 = "0vvkcvir2wqgn6wl8yw689f7sx1qqvcynyyvd61b9c1jf8av90cd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3155,10 +3155,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/llama-1.0.1.tar";
-        sha256 = "1aldq3waibplzc2m1qfhf58rmi6h3wfgghmdk6q5ixx2y1gml1vq";
+        url = "https://elpa.nongnu.org/nongnu/llama-1.0.2.tar";
+        sha256 = "10dvvw6w082gdhq7an4z3krl94q0910fvap3p39gs8pmd898a9f7";
       };
       packageRequires = [ compat ];
       meta = {
