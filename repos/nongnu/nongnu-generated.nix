@@ -1272,10 +1272,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.3.2";
+      version = "4.3.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/emacsql-4.3.2.tar";
-        sha256 = "0yl5j35r3s3z4pnxpk6hx2a8piw110rgc67zz3nmkp8ppzkz9h86";
+        url = "https://elpa.nongnu.org/nongnu/emacsql-4.3.3.tar";
+        sha256 = "0j1q33wfyqrif7zf9qzvh74yxpsqvp800nm0blkr745881k6cmwr";
       };
       packageRequires = [ ];
       meta = {
@@ -2238,10 +2238,10 @@
     elpaBuild {
       pname = "git-modes";
       ename = "git-modes";
-      version = "1.4.6";
+      version = "1.4.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/git-modes-1.4.6.tar";
-        sha256 = "0hxvdm8578pl5f7fb2xi46a9arfr97cyybizk6yi17p82nz6s9g7";
+        url = "https://elpa.nongnu.org/nongnu/git-modes-1.4.7.tar";
+        sha256 = "1rg38m9mx0vrbyn0d05n3zk2pnkp7122s33nlcj33xr7kslv46ci";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3945,10 +3945,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.0.5";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/orgit-2.0.5.tar";
-        sha256 = "0k24rg1pfajqnagd2yljsccs66si56d7s4aybq9jd086f4wx3fcq";
+        url = "https://elpa.nongnu.org/nongnu/orgit-2.1.0.tar";
+        sha256 = "1wncvmg6x6w0pw9d2xl7i3m621q7jmx7sl76llnf29vbrdq7yiq9";
       };
       packageRequires = [
         compat
@@ -5605,10 +5605,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.6";
+      version = "3.4.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/with-editor-3.4.6.tar";
-        sha256 = "1l3sdfd6k6baw87jgz25f7rlgwgi15f2nj51cfgjy6kkgf5ag48s";
+        url = "https://elpa.nongnu.org/nongnu/with-editor-3.4.7.tar";
+        sha256 = "06z64yp4dxwnrz5n6bwd3yf2h0502f2gx6zgnzsni8pk6zsb1l22";
       };
       packageRequires = [ compat ];
       meta = {
