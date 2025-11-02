@@ -1550,10 +1550,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.4.0";
+      version = "0.4.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-denote-0.4.0.tar";
-        sha256 = "0x4bjjx7gi6m2gfgkwh0xrmh8apx73f833szhmj9ps5rc8wjn8s3";
+        url = "https://elpa.gnu.org/packages/consult-denote-0.4.1.tar";
+        sha256 = "1cv5rhpbmvarpf062pq777i38xsymiabs9vszvn5ll73jbph4pii";
       };
       packageRequires = [
         consult
@@ -5752,10 +5752,10 @@
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.1.1";
+      version = "0.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/minimail-0.1.1.tar";
-        sha256 = "1k4sza4hjvf1lc709wnrkjczv16mvqr46h5pxs5fk89wjg49dz1z";
+        url = "https://elpa.gnu.org/packages/minimail-0.2.tar";
+        sha256 = "1r8bai5gmb95alz1ry9d9xas8jxr1c6a0bkm6bxziy2xrlxh74n8";
       };
       packageRequires = [ ];
       meta = {
@@ -5842,10 +5842,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "4.8.1";
+      version = "5.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/modus-themes-4.8.1.tar";
-        sha256 = "1xax6pfq8xlybwid3sgzm82az4p1blm217qp1bvy0fjf5qcand5i";
+        url = "https://elpa.gnu.org/packages/modus-themes-5.0.0.tar";
+        sha256 = "0bq69ayaskwf5ymg5niaaiv9fwm8mv49ifvaz61ix467hwg16901";
       };
       packageRequires = [ ];
       meta = {
