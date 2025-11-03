@@ -2885,10 +2885,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.11.0.0.20251102.70007";
+      version = "1.11.0.0.20251103.85546";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251102.70007.tar";
-        sha256 = "1102cbab0jirninv1himgng6h9xc616a7ahsllxjrjfxdsiilcfv";
+        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251103.85546.tar";
+        sha256 = "0m0q9ccy3k1x0iznbm9j2v0ff8j5xjbivbqbc90xd7x089pdvghk";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -4428,10 +4428,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20251102.180722";
+      version = "9.0.2pre0.20251102.222406";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251102.180722.tar";
-        sha256 = "0ixxqcq1z4z91fkbwhkbi7i0zn5pigw7ilpq3487c94w5x5i2zzn";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251102.222406.tar";
+        sha256 = "1m7qsjmv1i8ax7s3khdskkk6axcwz9sr47fjq3mhyx7wdnsahfm6";
       };
       packageRequires = [ ];
       meta = {
@@ -5905,10 +5905,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.0.0.0.20251102.153614";
+      version = "5.0.0.0.20251103.50746";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.0.0.0.20251102.153614.tar";
-        sha256 = "095b4p13qg1wpg3d4d25bnscia0riixgvv4smy43a8wpprlfkn97";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.0.0.0.20251103.50746.tar";
+        sha256 = "0yq7rkypx5qssrmi1sryvx0dfg36xv03nl93zkwc0nkqx7djn4sj";
       };
       packageRequires = [ ];
       meta = {
@@ -6460,10 +6460,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20251102.163315";
+      version = "9.8pre0.20251102.222748";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251102.163315.tar";
-        sha256 = "0xp58d4xsc6ypgz1bzk6rm5m06zlw1k83z4lwf3lrbkb415q8hxl";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251102.222748.tar";
+        sha256 = "0xylgc1f64jdg5f6wzz2ampr66mz2i1vbab2zzasdh6ll0nxi7kn";
       };
       packageRequires = [ ];
       meta = {
@@ -6673,10 +6673,10 @@
     elpaBuild {
       pname = "org-transclusion";
       ename = "org-transclusion";
-      version = "1.4.0.0.20250119.195656";
+      version = "1.4.0.0.20251102.230055";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20250119.195656.tar";
-        sha256 = "0zyqkxl1kpy1y2wxvc84lxhdz55w8qc6jinvkjmj4vjyfdlcz35a";
+        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20251102.230055.tar";
+        sha256 = "0dm2lxy2wxv2rhh19l0lnmgz4gz1fx8f7ak719bzg9ndqazizism";
       };
       packageRequires = [ org ];
       meta = {
