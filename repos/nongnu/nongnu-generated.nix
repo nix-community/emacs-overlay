@@ -572,10 +572,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.19.0";
+      version = "1.20.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/cider-1.19.0.tar";
-        sha256 = "04jz9cjdrx7i8p8zb7yavapz2yl8nlv7jczvmph2bpyxff2fimcf";
+        url = "https://elpa.nongnu.org/nongnu/cider-1.20.0.tar";
+        sha256 = "1s1jw1dc8r7aqjc4vkgcsz193fnhrd6lrz54bim839sfyfv2rhb8";
       };
       packageRequires = [
         clojure-mode
@@ -3179,10 +3179,10 @@
     elpaBuild {
       pname = "logview";
       ename = "logview";
-      version = "0.19.2";
+      version = "0.19.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/logview-0.19.2.tar";
-        sha256 = "0jcc726fh6lq9x6hhl9cm4i98irf5z3pz1lchkwwy21jippxwj2i";
+        url = "https://elpa.nongnu.org/nongnu/logview-0.19.3.tar";
+        sha256 = "1ldcjf0p8m0qnhqc98f5hi5kk05adl3j21b7nkc0b879v9bc9in9";
       };
       packageRequires = [
         compat
@@ -3208,10 +3208,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.14.0";
+      version = "0.15.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/loopy-0.14.0.tar";
-        sha256 = "0kfa4rqmnc26nzwff4bd50rkpclmxpmw9r5hhnfasmm6k2m7fmpj";
+        url = "https://elpa.nongnu.org/nongnu/loopy-0.15.0.tar";
+        sha256 = "18l1bml8xiji0mgmm6fb669iwyidg7pay231kv14kbv1agiwfkbp";
       };
       packageRequires = [
         compat
@@ -4342,10 +4342,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20251029.163833";
+      version = "1.0.20251106.215641";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20251029.163833.tar";
-        sha256 = "0p7142hbam5xcz53q5j2456r6g34ljzv1drj08xfh7lqzy3f1g1z";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20251106.215641.tar";
+        sha256 = "0jrz8c3ni81cczai01j1359m8j3pp620lirx1j534jn52b7xqy0q";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5715,10 +5715,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.7.20250917123258";
+      version = "28.10.20251107093856";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-28.7.20250917123258.tar";
-        sha256 = "1d4r112via671f2x0db1ssxsbhi1w24zklgik3wgz619ng7al2ry";
+        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-28.10.20251107093856.tar";
+        sha256 = "1x4iwid9rm6j0lfybm0c6kj0nf5ijjbf2dmisjwr10gd3ggf31ai";
       };
       packageRequires = [ ];
       meta = {
