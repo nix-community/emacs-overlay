@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.2.0.20251107.120417";
+      version = "2.2.0.20251107.190624";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.2.0.20251107.120417.tar";
-        sha256 = "01n0fszcznhphrqq18wlq0jd9mdnlzjiavnsaaxaljsw8dza22pn";
+        url = "https://elpa.gnu.org/devel/cape-2.2.0.20251107.190624.tar";
+        sha256 = "1hh9cvdjs2rlbzypx46pwdbxrc8ys5sxz7ssdwbahn2nlvx0ficf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.4.0.20251107.133431";
+      version = "2.4.0.20251107.204401";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.4.0.20251107.133431.tar";
-        sha256 = "0m8dvmckw5bykirn30pm5fmap0b25cn5cdwdgbg85xw9a3dayy2j";
+        url = "https://elpa.gnu.org/devel/corfu-2.4.0.20251107.204401.tar";
+        sha256 = "1ab970zfmq3ivrlh0q9y0blvyz6jvyv5aa69k9hzs7y91w5n1pks";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6460,10 +6460,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20251104.224126";
+      version = "9.8pre0.20251107.173540";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251104.224126.tar";
-        sha256 = "1wns79ckxp89vj0j6nbiyravhw1a392kbwyyhcyd71k7j36r4yq0";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251107.173540.tar";
+        sha256 = "1r2k6ipraw5s2927mmvvpnqgqn16qmqr0zkibqm5cp6840zp8b9q";
       };
       packageRequires = [ ];
       meta = {
@@ -9159,10 +9159,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.7.0.20251107.144200";
+      version = "1.7.0.20251107.201337";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.7.0.20251107.144200.tar";
-        sha256 = "0sjh4jw83sd3qg4ify89ahxiq0scjrjz8n07gak0vgqpd0kilqk7";
+        url = "https://elpa.gnu.org/devel/tempel-1.7.0.20251107.201337.tar";
+        sha256 = "0wv3nvl48sz32jb22z99b36br4k94mid6pq82acli5jkj2k45s42";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9818,10 +9818,10 @@
     elpaBuild {
       pname = "use-package";
       ename = "use-package";
-      version = "2.4.6.0.20251011.125621";
+      version = "2.4.6.0.20251107.152139";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20251011.125621.tar";
-        sha256 = "0wp315104758cplrlvcr2ikb2rzni33h6bsdqm5zv9kh8q3wiqa5";
+        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20251107.152139.tar";
+        sha256 = "142j3wk0v1m67lix2bxpjl4c26qqabqz6bwyh5wcgcn8vdwmdpnk";
       };
       packageRequires = [ bind-key ];
       meta = {
