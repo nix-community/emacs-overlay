@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.5.0.20251107.82830";
+      version = "1.5.0.20251108.11327";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.5.0.20251107.82830.tar";
-        sha256 = "18hrq31yn39zpsnh5acz7wq8crqki6avl0lb9ycav5iianvs4isl";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.5.0.20251108.11327.tar";
+        sha256 = "0hdp869n038xnggnlchp5ahwdfy855j5ygjx3ixdkfhxf87ax81j";
       };
       packageRequires = [
         compat
@@ -1293,10 +1293,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20250929.165020";
+      version = "1.15.0.0.20251108.13841";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20250929.165020.tar";
-        sha256 = "0qq60l5wy38izbixv4ymga32wvvl0fmxy2lc56s55fcg0safiwmc";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20251108.13841.tar";
+        sha256 = "0vh9pmwsapdg2pn1cnp03jv9y35ddi57niwacrikn12g7niwh8jn";
       };
       packageRequires = [
         cl-lib
@@ -5700,10 +5700,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.10.20251107093856.0.20251107.94518";
+      version = "28.10.20251107130929.0.20251107.131010";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.10.20251107093856.0.20251107.94518.tar";
-        sha256 = "0mq9ym5ljhgfs76knyrj1qj5ljwb17h4d1lxa6qasiyqi1madgm9";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.10.20251107130929.0.20251107.131010.tar";
+        sha256 = "00754lyzqisr9pyjrj1hfh3ixx0s7687w5p6x82722xhmhyha8z4";
       };
       packageRequires = [ ];
       meta = {
