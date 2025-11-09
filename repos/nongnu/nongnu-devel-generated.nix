@@ -2247,10 +2247,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.7.0.20251102.143040";
+      version = "0.5.8.0.20251108.184759";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.7.0.20251102.143040.tar";
-        sha256 = "1n1yfw90i3lwxz95zmm0v0r4a4cvqx7c26x7h5rkpxjh14i811z8";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.8.0.20251108.184759.tar";
+        sha256 = "1v2v2mhragjxr74c323jr5bgxl267n0khyzcm7qj9z39v0lq6xzx";
       };
       packageRequires = [
         compat
@@ -3320,10 +3320,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.2.0.20251107.212931";
+      version = "4.4.2.0.20251108.192316";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251107.212931.tar";
-        sha256 = "1n1arjk3p06bp0ac7gsf6bl1q8zbj864psd4d9f9jdnv3iclk09a";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251108.192316.tar";
+        sha256 = "1s4phq4wb7kjwb4gbscrl11d29s0m9q35qa7d3yi7kx108kc41vd";
       };
       packageRequires = [
         compat
@@ -3353,10 +3353,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.2.0.20251107.212931";
+      version = "4.4.2.0.20251108.192316";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251107.212931.tar";
-        sha256 = "1y64pavmdlfx842s622k9gsal5vb5b8mvh4z1wa53lw1s00x0giy";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251108.192316.tar";
+        sha256 = "013bzb3x3nslkbk075g08f2lhxqiijnp6b2cimm0shk9wag91qbg";
       };
       packageRequires = [
         compat
@@ -4726,10 +4726,10 @@
     elpaBuild {
       pname = "sly";
       ename = "sly";
-      version = "1.0.43.0.20250930.91309";
+      version = "1.0.43.0.20251108.201239";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20250930.91309.tar";
-        sha256 = "0fg0prfy7jp0g5cs0czv8a6i4n29lbz8961h7ybpdn8i5s2mpasd";
+        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20251108.201239.tar";
+        sha256 = "100l5aq0d8v1jjg00ysfpy447ff9mczzi5xsj6ljnsjyb5gs6b2f";
       };
       packageRequires = [ ];
       meta = {
