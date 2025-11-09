@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.2.0.20251107.190624";
+      version = "2.2.0.20251108.164955";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.2.0.20251107.190624.tar";
-        sha256 = "1hh9cvdjs2rlbzypx46pwdbxrc8ys5sxz7ssdwbahn2nlvx0ficf";
+        url = "https://elpa.gnu.org/devel/cape-2.2.0.20251108.164955.tar";
+        sha256 = "0a5l6sk1wh0zdrfl5117z43w3pdl7javdiv5x4mjyb3a5rx4r8hq";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1504,10 +1504,10 @@
     elpaBuild {
       pname = "cond-star";
       ename = "cond-star";
-      version = "1.0.0.20251104.194539";
+      version = "1.0.0.20251108.104352";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cond-star-1.0.0.20251104.194539.tar";
-        sha256 = "0lwldyi0ps36bvfc92ljhd940qklhn3z5dh1m6gdp4zx30s06c2f";
+        url = "https://elpa.gnu.org/devel/cond-star-1.0.0.20251108.104352.tar";
+        sha256 = "0szj05chc2kisl3mz99fqd3mraji86p8hqd1k1l33r2g1inrxgrj";
       };
       packageRequires = [ ];
       meta = {
@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.4.0.20251107.204401";
+      version = "2.4.0.20251108.162320";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.4.0.20251107.204401.tar";
-        sha256 = "1ab970zfmq3ivrlh0q9y0blvyz6jvyv5aa69k9hzs7y91w5n1pks";
+        url = "https://elpa.gnu.org/devel/corfu-2.4.0.20251108.162320.tar";
+        sha256 = "0byk27q7cxvyfb254hsalcy28c71vdylkihj2mhryqww758ndvwc";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4428,10 +4428,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20251102.222406";
+      version = "9.0.2pre0.20251107.225643";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251102.222406.tar";
-        sha256 = "1m7qsjmv1i8ax7s3khdskkk6axcwz9sr47fjq3mhyx7wdnsahfm6";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251107.225643.tar";
+        sha256 = "1609mnj1369nz4iij6kbikwrwr2k9cfzrs5f0dzlr88jnd77cafq";
       };
       packageRequires = [ ];
       meta = {
@@ -5518,10 +5518,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.4.0.20251013.93228";
+      version = "2.4.0.20251108.182238";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.4.0.20251013.93228.tar";
-        sha256 = "0aalg1qvx2fmjs7dc5x9m803hfhdc04zwn7bj85cvjx6xsydw1bs";
+        url = "https://elpa.gnu.org/devel/marginalia-2.4.0.20251108.182238.tar";
+        sha256 = "1b9jpvr7nzdpa9jh227ci33ra2s77f0dwffki4aqq7kbc5nvnffw";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6460,10 +6460,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20251107.173540";
+      version = "9.8pre0.20251108.203927";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251107.173540.tar";
-        sha256 = "1r2k6ipraw5s2927mmvvpnqgqn16qmqr0zkibqm5cp6840zp8b9q";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251108.203927.tar";
+        sha256 = "14859bvryiidf14lphxy3iakpbwjm7nq4h7sczgq1i073syljxkj";
       };
       packageRequires = [ ];
       meta = {
@@ -7493,10 +7493,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20251106.74112";
+      version = "0.30.0.20251108.180430";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20251106.74112.tar";
-        sha256 = "11hzimif1c1w89ccfc9g4gnvhyqgq4r54zkz3fpjq0528wwz30s1";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20251108.180430.tar";
+        sha256 = "0j2z2i955772y6mhfhwzc4gqawgd0k2cw8mrkrr9f2l9jg4vjp8b";
       };
       packageRequires = [
         compat
@@ -9159,10 +9159,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.7.0.20251107.201337";
+      version = "1.7.0.20251108.160523";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.7.0.20251107.201337.tar";
-        sha256 = "0wv3nvl48sz32jb22z99b36br4k94mid6pq82acli5jkj2k45s42";
+        url = "https://elpa.gnu.org/devel/tempel-1.7.0.20251108.160523.tar";
+        sha256 = "0gcjwrsqssniqk5rv4wsp7320qrl8qsi62a1b2h3gy274rdpmi76";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9526,10 +9526,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.10.1.0.20251101.140730";
+      version = "0.10.1.0.20251108.133637";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.10.1.0.20251101.140730.tar";
-        sha256 = "0ymcq6dj4s5raxhz95il3cyax7xcz47ypzls65hnfnlm3xpdb884";
+        url = "https://elpa.gnu.org/devel/transient-0.10.1.0.20251108.133637.tar";
+        sha256 = "1wakcq94vi2s8g55ydbhv5b6wmmgk5y60c3cwwa9k8870gq3h6sg";
       };
       packageRequires = [
         compat
@@ -10062,10 +10062,10 @@
     elpaBuild {
       pname = "verilog-mode";
       ename = "verilog-mode";
-      version = "2025.1.1.100165202.0.20251106.74112";
+      version = "2025.1.1.100165202.0.20251108.180430";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/verilog-mode-2025.1.1.100165202.0.20251106.74112.tar";
-        sha256 = "0p2i493hjrc8v6f7xpgm3vgy4pcq4dlfss880hi5lw27nm2j27xj";
+        url = "https://elpa.gnu.org/devel/verilog-mode-2025.1.1.100165202.0.20251108.180430.tar";
+        sha256 = "1466kd9l31f84sm59la2vikhjg7pn9d9dlsffy7jdk0nb6n994r3";
       };
       packageRequires = [ ];
       meta = {
@@ -10084,10 +10084,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.5.0.20251010.65718";
+      version = "2.5.0.20251108.132504";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.5.0.20251010.65718.tar";
-        sha256 = "0x67w98lbn3xi33kpyrkr7ldra4lpablssw30c36wmr30afca9ak";
+        url = "https://elpa.gnu.org/devel/vertico-2.5.0.20251108.132504.tar";
+        sha256 = "0l1qmqsk2k6f62jb5sl6xw89a0994nlm5159hr9jsqcrflji4lz4";
       };
       packageRequires = [ compat ];
       meta = {

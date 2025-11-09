@@ -6394,10 +6394,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.35";
+      version = "9.7.36";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.35.tar";
-        sha256 = "1ps4008pbswsb6drmy2bbxg1czsgfjn22vz2md2q3gl93d6bf8i4";
+        url = "https://elpa.gnu.org/packages/org-9.7.36.tar";
+        sha256 = "1d4hpnpbars77cc341ybd0kn01m4bifrjxn8r75c9xd7clpzhri5";
       };
       packageRequires = [ ];
       meta = {
