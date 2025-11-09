@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.2.0.20251108.164955";
+      version = "2.2.0.20251109.75305";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.2.0.20251108.164955.tar";
-        sha256 = "0a5l6sk1wh0zdrfl5117z43w3pdl7javdiv5x4mjyb3a5rx4r8hq";
+        url = "https://elpa.gnu.org/devel/cape-2.2.0.20251109.75305.tar";
+        sha256 = "1kpwmnkj89rf0ds5cp6axdzvsg5j8w2ws70wi3m6njn9fhf35k68";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.4.0.20251108.162320";
+      version = "2.4.0.20251109.85609";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.4.0.20251108.162320.tar";
-        sha256 = "0byk27q7cxvyfb254hsalcy28c71vdylkihj2mhryqww758ndvwc";
+        url = "https://elpa.gnu.org/devel/corfu-2.4.0.20251109.85609.tar";
+        sha256 = "1xxwdvkm8l52x2vdd49ia72yrgdm36b699n26w9k8g7v1sgpf4s4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2365,10 +2365,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20251105.25250";
+      version = "1.10.0.0.20251109.41425";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20251105.25250.tar";
-        sha256 = "140n0yzm7hm9v8ip2l3pmx59966cy637zqdn9qfwiqzb9bb07sax";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20251109.41425.tar";
+        sha256 = "14q5cpizfny6s244m3q1an5by72bv067rc1mrs21mdjfw2sk3nz6";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2885,10 +2885,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.11.0.0.20251107.71522";
+      version = "2.0.0.0.20251109.53450";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-1.11.0.0.20251107.71522.tar";
-        sha256 = "1w6qgbi341c9qjkqb7rvvc5vd1yplpjbkmiaipqlxlbxfj3pj646";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.0.0.0.20251109.53450.tar";
+        sha256 = "08c6y7c7xgvy3rm1pr2jcppgyip6v6f96y9gkwjvaqsqzrba8q03";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -7493,10 +7493,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20251108.180430";
+      version = "0.30.0.20251109.72005";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20251108.180430.tar";
-        sha256 = "0j2z2i955772y6mhfhwzc4gqawgd0k2cw8mrkrr9f2l9jg4vjp8b";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20251109.72005.tar";
+        sha256 = "1xrhr5qpxv6nxvi1xrrp3ynq71iviaphs5rnnry0k56x1f66d08l";
       };
       packageRequires = [
         compat
@@ -8786,10 +8786,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0.0.20251107.71617";
+      version = "3.0.0.0.20251109.55219";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-2.2.0.0.20251107.71617.tar";
-        sha256 = "1xcyr2jzwjkqlgmv5a0r3ldb6ds4ghf2sssy9bal602kq3za3jg4";
+        url = "https://elpa.gnu.org/devel/standard-themes-3.0.0.0.20251109.55219.tar";
+        sha256 = "1rw6wbw7n62siwrg62zhn6dyc9196805m8v8pq0v1945hmy773h7";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -10062,10 +10062,10 @@
     elpaBuild {
       pname = "verilog-mode";
       ename = "verilog-mode";
-      version = "2025.1.1.100165202.0.20251108.180430";
+      version = "2025.11.8.248496848.0.20251108.183358";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/verilog-mode-2025.1.1.100165202.0.20251108.180430.tar";
-        sha256 = "1466kd9l31f84sm59la2vikhjg7pn9d9dlsffy7jdk0nb6n994r3";
+        url = "https://elpa.gnu.org/devel/verilog-mode-2025.11.8.248496848.0.20251108.183358.tar";
+        sha256 = "1hi0lh5zkkskac9vjxhjir503jam8vrl5ziimx9h96xvgcvzkl88";
       };
       packageRequires = [ ];
       meta = {

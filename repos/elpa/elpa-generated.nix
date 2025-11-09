@@ -2839,16 +2839,17 @@
       elpaBuild,
       fetchurl,
       lib,
+      modus-themes,
     }:
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "1.11.0";
+      version = "2.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ef-themes-1.11.0.tar";
-        sha256 = "086d2fmgzgnjil97zjn2i0ii81dq9l8rr859j0kyaxiy83r27rqb";
+        url = "https://elpa.gnu.org/packages/ef-themes-2.0.0.tar";
+        sha256 = "1g31hxj78jr2ljlyv5383v2d26s0gg3gym9xvyznhl0m1g1al517";
       };
-      packageRequires = [ ];
+      packageRequires = [ modus-themes ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/ef-themes.html";
         license = lib.licenses.free;
@@ -8630,16 +8631,17 @@
       elpaBuild,
       fetchurl,
       lib,
+      modus-themes,
     }:
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "2.2.0";
+      version = "3.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/standard-themes-2.2.0.tar";
-        sha256 = "0qdld75vcfhsn2l0xips52vrlp5q7ss3973hd722h2gp1wddn5f7";
+        url = "https://elpa.gnu.org/packages/standard-themes-3.0.0.tar";
+        sha256 = "1s7f4m6jv9aharaw856cg4bbf67rjzks1q9sdizi8k2b9hbkq2z5";
       };
-      packageRequires = [ ];
+      packageRequires = [ modus-themes ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/standard-themes.html";
         license = lib.licenses.free;
@@ -9883,10 +9885,10 @@
     elpaBuild {
       pname = "verilog-mode";
       ename = "verilog-mode";
-      version = "2025.1.1.100165202";
+      version = "2025.11.8.248496848";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/verilog-mode-2025.1.1.100165202.tar";
-        sha256 = "1cgv081dlarc0b4s6rjkqbvs4fa9npyq9pjxj7173vmgkfdwmkp5";
+        url = "https://elpa.gnu.org/packages/verilog-mode-2025.11.8.248496848.tar";
+        sha256 = "0w10f8gh2adabd5phgqqka4i0jq1g86bvq9yv3whnaxwiyf0m676";
       };
       packageRequires = [ ];
       meta = {
