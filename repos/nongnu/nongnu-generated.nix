@@ -2439,10 +2439,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9";
+      version = "0.9.9.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gptel-0.9.9.tar";
-        sha256 = "1vnnizqb60sipim7fllv5hvwd9xjsp08wyn1gnhn8j91yv90hlqb";
+        url = "https://elpa.nongnu.org/nongnu/gptel-0.9.9.3.tar";
+        sha256 = "19wwjjlpfa5ngmfj8v3hzf2ndr355s5vg9nzg8qmx3ni61jb08n7";
       };
       packageRequires = [
         compat
