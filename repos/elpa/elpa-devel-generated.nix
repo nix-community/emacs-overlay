@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.2.0.20251109.75305";
+      version = "2.2.0.20251109.120620";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.2.0.20251109.75305.tar";
-        sha256 = "1kpwmnkj89rf0ds5cp6axdzvsg5j8w2ws70wi3m6njn9fhf35k68";
+        url = "https://elpa.gnu.org/devel/cape-2.2.0.20251109.120620.tar";
+        sha256 = "1icfqffkl108jjw8im90cdkl66r6k1rdlg2w8mbh8yyamwpdl8zf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2028,10 +2028,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.45.0.20251104.135106";
+      version = "0.46.0.20251109.133812";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.45.0.20251104.135106.tar";
-        sha256 = "1aii3va9bk8cf88f751xy7mxndjjxqdj0lr7gi65ydw2y803vbj9";
+        url = "https://elpa.gnu.org/devel/debbugs-0.46.0.20251109.133812.tar";
+        sha256 = "0c12aikl1yxclrmfb0gkrvic9ldmsj9j14v4905sc78ng4h4v695";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -3608,10 +3608,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.2.0.20251030.182719";
+      version = "1.4.2.0.20251109.184819";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.2.0.20251030.182719.tar";
-        sha256 = "1j6xl462lqrmcvkxg61ssgaxgjxwikvh05nzslgz4pwpf7n2h07n";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.2.0.20251109.184819.tar";
+        sha256 = "1pc3msmjfwyddwmrczs9n8azplv1ycrwrbxb3h3g8fijymklr2xj";
       };
       packageRequires = [
         eldoc
@@ -4428,10 +4428,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20251107.225643";
+      version = "9.0.2pre0.20251109.171707";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251107.225643.tar";
-        sha256 = "1609mnj1369nz4iij6kbikwrwr2k9cfzrs5f0dzlr88jnd77cafq";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251109.171707.tar";
+        sha256 = "0kdpb8fwgcv62dhk95l140i0gsvkgan5bkh2ci2lq3d9prayshyr";
       };
       packageRequires = [ ];
       meta = {
@@ -5905,10 +5905,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.1.0.0.20251107.55336";
+      version = "5.1.0.0.20251109.95724";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.1.0.0.20251107.55336.tar";
-        sha256 = "0r1iv5si2c00h98sz7flrf1nwx763bwsyj2gmdkqcah5j2fnzz70";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.1.0.0.20251109.95724.tar";
+        sha256 = "0jjyj26g2d1r82mzj93j3phlqwqr5yq6g8mkzcdjccbl22vpfqdh";
       };
       packageRequires = [ ];
       meta = {
@@ -6460,10 +6460,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20251108.203927";
+      version = "9.8pre0.20251109.140914";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251108.203927.tar";
-        sha256 = "14859bvryiidf14lphxy3iakpbwjm7nq4h7sczgq1i073syljxkj";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251109.140914.tar";
+        sha256 = "1drjfrnsv5dgbfdqvgivnbh3l3im55g3xpk72gwadpnggrlm50ml";
       };
       packageRequires = [ ];
       meta = {
@@ -10084,10 +10084,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.5.0.20251108.132504";
+      version = "2.5.0.20251109.162924";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.5.0.20251108.132504.tar";
-        sha256 = "0l1qmqsk2k6f62jb5sl6xw89a0994nlm5159hr9jsqcrflji4lz4";
+        url = "https://elpa.gnu.org/devel/vertico-2.5.0.20251109.162924.tar";
+        sha256 = "0j7bb3ykcf2g168x94ba85bdv42s6ywng66b3739rk3a3j4j1mpl";
       };
       packageRequires = [ compat ];
       meta = {
