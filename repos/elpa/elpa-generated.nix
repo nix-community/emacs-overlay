@@ -3565,10 +3565,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.2";
+      version = "1.4.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/flymake-1.4.2.tar";
-        sha256 = "02y7fgg2m0ya4c6r4861nk0128wdb18892hc940an268zjjixghy";
+        url = "https://elpa.gnu.org/packages/flymake-1.4.3.tar";
+        sha256 = "0jg0lbj861smycmya626b54hy9lh4xfqpjwzf28i2vnf9wy6q840";
       };
       packageRequires = [
         eldoc
@@ -4123,10 +4123,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.12.8";
+      version = "0.13.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greader-0.12.8.tar";
-        sha256 = "0kz77xbzvn2hmrywazrinwy8986hll6jjqd7azqy2p26m09mj5s5";
+        url = "https://elpa.gnu.org/packages/greader-0.13.0.tar";
+        sha256 = "095vb18ss9w8nl22y41qd49fyvpss1nyn5ghk3cb5sdwgkpl1905";
       };
       packageRequires = [
         compat
@@ -4168,10 +4168,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.9.3";
+      version = "1.9.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gtags-mode-1.9.3.tar";
-        sha256 = "1cvmb6pnn4wpqna2h0a19m5yilh1jrzah61xzspwrdv2djf8zrlb";
+        url = "https://elpa.gnu.org/packages/gtags-mode-1.9.4.tar";
+        sha256 = "01bpgw839gkvy8258kc5p0zy8xv9rh4hpzb0h1hlxcllkir6idgg";
       };
       packageRequires = [ ];
       meta = {
