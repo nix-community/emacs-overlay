@@ -2620,10 +2620,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20251104.180849";
+      version = "4.0.6.0.20251110.172039";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251104.180849.tar";
-        sha256 = "1yn2nvdrbm6gg8d47bd0acrkqaaxn568fc291i5xm7r1dlw9jfzi";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251110.172039.tar";
+        sha256 = "0lhh9a7bipavf4as4s9ra11d6wjhls0fya1h623ppkxd89jglk0i";
       };
       packageRequires = [
         helm-core
@@ -2645,10 +2645,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20251104.180849";
+      version = "4.0.6.0.20251110.172039";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251104.180849.tar";
-        sha256 = "13a83znri9wcdgpp50scx2rj7bnby6886yglkfbzvbji3828n3kp";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251110.172039.tar";
+        sha256 = "17d0fxrnksgghahyd1xwdzlswaici858585g5jd7166hal9lhsg0";
       };
       packageRequires = [ async ];
       meta = {
@@ -3320,10 +3320,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.2.0.20251109.94102";
+      version = "4.4.2.0.20251110.151715";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251109.94102.tar";
-        sha256 = "041gfmh7bpbzrllyixwvc5c499j51pmrlm494x2d2mc71a65050q";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251110.151715.tar";
+        sha256 = "0yg8fi27yb4awfmf6nzqmlnfmjs7fj4m260a6v80j199azjjhvgb";
       };
       packageRequires = [
         compat
@@ -3353,10 +3353,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.2.0.20251109.94102";
+      version = "4.4.2.0.20251110.151715";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251109.94102.tar";
-        sha256 = "1whbd4clzqm85p4m5c6k5h5wvn3ymxywry25x2lkarj78k9vvii3";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251110.151715.tar";
+        sha256 = "01qxh2gwggfx2bz553nvxwldksvnd4cbilv968clg2g1b0zzciqa";
       };
       packageRequires = [
         compat
@@ -4276,10 +4276,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20251105.74107";
+      version = "4.6snapshot0.20251110.113551";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20251105.74107.tar";
-        sha256 = "1sg88k9m8id0p7sbg88r3gfj3ibj7a4c7jql8a58imj2a4rmavmn";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20251110.113551.tar";
+        sha256 = "00yz7w4grqppddf3sm3nh3629q1h9sxpww0p0z8x7z0a7cll1xp8";
       };
       packageRequires = [ ];
       meta = {
@@ -4726,10 +4726,10 @@
     elpaBuild {
       pname = "sly";
       ename = "sly";
-      version = "1.0.43.0.20251108.201239";
+      version = "1.0.43.0.20251110.205931";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20251108.201239.tar";
-        sha256 = "100l5aq0d8v1jjg00ysfpy447ff9mczzi5xsj6ljnsjyb5gs6b2f";
+        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20251110.205931.tar";
+        sha256 = "01p97a4n2hb5k4cd507yilwh8y7qhl5zbj1iwa4h24qjbrfng01m";
       };
       packageRequires = [ ];
       meta = {
@@ -5432,10 +5432,10 @@
     elpaBuild {
       pname = "visual-fill-column";
       ename = "visual-fill-column";
-      version = "2.7.0.0.20250925.121619";
+      version = "2.7.1.0.20251110.104539";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/visual-fill-column-2.7.0.0.20250925.121619.tar";
-        sha256 = "0ymr57mwd6k9xia62dqwjxmywlhc5y7vnfc5ag8z9j232znshllp";
+        url = "https://elpa.nongnu.org/nongnu-devel/visual-fill-column-2.7.1.0.20251110.104539.tar";
+        sha256 = "18gm23pmkn6h9jajn50mczip0680jcx6v72mhi99lmnvjbvwbxb8";
       };
       packageRequires = [ ];
       meta = {
