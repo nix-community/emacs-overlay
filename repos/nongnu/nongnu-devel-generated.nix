@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0snapshot0.20251003.205157";
+      version = "0.6.0snapshot0.20251112.92713";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0snapshot0.20251003.205157.tar";
-        sha256 = "0cx9w4nj9v373yhz1ydrqh747xqjfsjjn08fd1s4byrkw6ll7d83";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0snapshot0.20251112.92713.tar";
+        sha256 = "131gvriqhcsc71qm6465l5cpih8b0f4cicfj40i8f6paxiggrv89";
       };
       packageRequires = [ ];
       meta = {
@@ -2666,10 +2666,10 @@
     elpaBuild {
       pname = "hideshowvis";
       ename = "hideshowvis";
-      version = "0.8.0.20251111.234447";
+      version = "0.8.0.20251112.103011";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hideshowvis-0.8.0.20251111.234447.tar";
-        sha256 = "06n578sk5w7shlr774frx335166vsrd0pgfmigkxr13lrq0w5q0d";
+        url = "https://elpa.nongnu.org/nongnu-devel/hideshowvis-0.8.0.20251112.103011.tar";
+        sha256 = "0hk819wskc5m324qal65r78h4phfpwk2y8haplkyc22ynd7v3g6m";
       };
       packageRequires = [ ];
       meta = {
@@ -5829,10 +5829,10 @@
     elpaBuild {
       pname = "zig-mode";
       ename = "zig-mode";
-      version = "0.0.8.0.20250915.80705";
+      version = "0.0.8.0.20251112.73048";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20250915.80705.tar";
-        sha256 = "0dz5gaja4zkq2vdamq2msqyxp8j59m131cm8mgjwz4jikcxg600b";
+        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20251112.73048.tar";
+        sha256 = "16rghh6l48qlldlvrqpi79z1q6xch68gx2b8xj9kwbhcnmvakxjl";
       };
       packageRequires = [ reformatter ];
       meta = {
