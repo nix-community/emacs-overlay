@@ -2423,10 +2423,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251111.150001";
+      version = "0.9.9.3.0.20251112.235536";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251111.150001.tar";
-        sha256 = "110v1zvwgxnh4n6ijydfsgpap1k5na2jcmph5y3k5h5x9ic8nja6";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251112.235536.tar";
+        sha256 = "1di0hvdg7kygd4bw4ly82dxvldvv7pmslpvd441cqaifaz2hn5q9";
       };
       packageRequires = [
         compat
@@ -2856,10 +2856,10 @@
     elpaBuild {
       pname = "idris-mode";
       ename = "idris-mode";
-      version = "1.1.0.0.20251006.81904";
+      version = "1.1.0.0.20251112.222515";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20251006.81904.tar";
-        sha256 = "0yga8jfw275c6vkr1dz23d9bm5jshqidzg0fhakpxrl2aiyd8qkh";
+        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20251112.222515.tar";
+        sha256 = "0k8d54w5qhhc2gwhraiar1r1ydpb5rlk0jw59y5wxrgg4dv3smix";
       };
       packageRequires = [
         cl-lib
