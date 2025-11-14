@@ -270,10 +270,10 @@
     elpaBuild {
       pname = "autothemer";
       ename = "autothemer";
-      version = "0.2.18.0.20250421.72550";
+      version = "0.2.18.0.20251114.41509";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/autothemer-0.2.18.0.20250421.72550.tar";
-        sha256 = "0y6k0ysy4z7am8zapp1gynr3rjm9vwggi8syc1a19niaqvzm80c4";
+        url = "https://elpa.nongnu.org/nongnu-devel/autothemer-0.2.18.0.20251114.41509.tar";
+        sha256 = "0ix8byl6fa2qpcjvcf93afbsk2f9frnsbq9mcnhxmx17l48fzl06";
       };
       packageRequires = [ dash ];
       meta = {
@@ -3398,10 +3398,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.2.0.20251111.181451";
+      version = "4.4.2.0.20251113.213411";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251111.181451.tar";
-        sha256 = "0k558102yvjh1hjswd5s6v7sg5h5gp4z4ndzibhrg5hdnmh22ari";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251113.213411.tar";
+        sha256 = "0dyzsl0xiwy40jgklwhd0s5ba9gclcpb8ry1932zvddfi240cp9y";
       };
       packageRequires = [
         compat
@@ -3431,10 +3431,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.2.0.20251111.181451";
+      version = "4.4.2.0.20251113.213411";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251111.181451.tar";
-        sha256 = "10h1jljyc7v22wzarpamwmw14f39cgc2qw6gyznva2mzzidd5g32";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251113.213411.tar";
+        sha256 = "1z67j2dh4rqpg0fwr27wkjhc54z9aysg0m1qpypl6qrn29nxr7bl";
       };
       packageRequires = [
         compat
@@ -5689,10 +5689,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.7.0.20251113.204253";
+      version = "3.4.7.0.20251113.213455";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.7.0.20251113.204253.tar";
-        sha256 = "0gkn1x12nvkzddkcwz652ln8zh75nc05p094jjsipz516nbsgp7h";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.7.0.20251113.213455.tar";
+        sha256 = "1j2pvpiiq76hk7knpjdwrhp0g93pr1vk6mnkg9n4idxfq90z9c4c";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5799,10 +5799,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.10.20251107130929.0.20251107.131010";
+      version = "28.10.20251107130929.0.20251113.170247";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.10.20251107130929.0.20251107.131010.tar";
-        sha256 = "00754lyzqisr9pyjrj1hfh3ixx0s7687w5p6x82722xhmhyha8z4";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.10.20251107130929.0.20251113.170247.tar";
+        sha256 = "0g68xdic2i4qdkxvas4cwhkybx894qb1x1grg0rqlcphkm4dcabr";
       };
       packageRequires = [ ];
       meta = {
