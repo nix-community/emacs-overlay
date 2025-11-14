@@ -1504,10 +1504,10 @@
     elpaBuild {
       pname = "cond-star";
       ename = "cond-star";
-      version = "1.0.0.20251108.104352";
+      version = "1.0.0.20251113.171518";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cond-star-1.0.0.20251108.104352.tar";
-        sha256 = "0szj05chc2kisl3mz99fqd3mraji86p8hqd1k1l33r2g1inrxgrj";
+        url = "https://elpa.gnu.org/devel/cond-star-1.0.0.20251113.171518.tar";
+        sha256 = "0q6hs7kp173imhaz3vkvay8alwhch8lga5m2nfm6ds4ihk99f9a4";
       };
       packageRequires = [ ];
       meta = {
@@ -2885,10 +2885,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.0.0.0.20251109.53450";
+      version = "2.0.1.0.20251113.93041";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.0.0.0.20251109.53450.tar";
-        sha256 = "08c6y7c7xgvy3rm1pr2jcppgyip6v6f96y9gkwjvaqsqzrba8q03";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.0.1.0.20251113.93041.tar";
+        sha256 = "1ncyq0r096ja8arkkygz4hg71a7n6yp3751kgff15djcqc7ikbx2";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -3474,10 +3474,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.34.0.20251112.75436";
+      version = "0.34.0.20251113.75554";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20251112.75436.tar";
-        sha256 = "09av1q06aj460d60nml10sy2dbx27md4k8lmisnpgxzsqq63l5iw";
+        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20251113.75554.tar";
+        sha256 = "0l2x0hkap89xww0wbns4wl0fhgj8dicph20fcmk130fy6mpq1fkg";
       };
       packageRequires = [
         compat
@@ -4428,10 +4428,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20251112.144935";
+      version = "9.0.2pre0.20251113.142146";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251112.144935.tar";
-        sha256 = "1q64sc1wrbzb0xn7klsazqhdhgrchy67kj24m3i9lav9p56a9lj7";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251113.142146.tar";
+        sha256 = "15j0x5l1i01042rkdrhw81xhnkgr58fhsb18sa124dgvm0kqqwv9";
       };
       packageRequires = [ ];
       meta = {
@@ -5518,10 +5518,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.4.0.20251108.182238";
+      version = "2.4.0.20251112.235056";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.4.0.20251108.182238.tar";
-        sha256 = "1b9jpvr7nzdpa9jh227ci33ra2s77f0dwffki4aqq7kbc5nvnffw";
+        url = "https://elpa.gnu.org/devel/marginalia-2.4.0.20251112.235056.tar";
+        sha256 = "0851fy47vvp6cgl9v6vr1qd5kmcnbjbizgqri5k75bl3gsk17hs1";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8786,10 +8786,10 @@
     elpaBuild {
       pname = "standard-themes";
       ename = "standard-themes";
-      version = "3.0.0.0.20251109.55219";
+      version = "3.0.1.0.20251113.111244";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/standard-themes-3.0.0.0.20251109.55219.tar";
-        sha256 = "1rw6wbw7n62siwrg62zhn6dyc9196805m8v8pq0v1945hmy773h7";
+        url = "https://elpa.gnu.org/devel/standard-themes-3.0.1.0.20251113.111244.tar";
+        sha256 = "19ji43vy0awq531xmnha4q608qvy8sh5kv3zaafldg15gb78dh1w";
       };
       packageRequires = [ modus-themes ];
       meta = {
