@@ -527,10 +527,10 @@
     elpaBuild {
       pname = "auth-source-xoauth2-plugin";
       ename = "auth-source-xoauth2-plugin";
-      version = "0.3.1";
+      version = "0.3.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/auth-source-xoauth2-plugin-0.3.1.tar";
-        sha256 = "1qqyl5qz3ldp28qm1vwbq4q7csb4wy6b3w3z72fhasvkcpb266iw";
+        url = "https://elpa.gnu.org/packages/auth-source-xoauth2-plugin-0.3.2.tar";
+        sha256 = "1k48kg6n72vzxaiqidg4m0w69c2s6ynvgcr08p4i8x2fsgaigcp2";
       };
       packageRequires = [ oauth2 ];
       meta = {
@@ -5583,10 +5583,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "7.3.0";
+      version = "7.3.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/matlab-mode-7.3.0.tar";
-        sha256 = "0x42frwyf251k0cpjjipck8p2kb6ahwaylqjsby3mxzfyq00jyc8";
+        url = "https://elpa.gnu.org/packages/matlab-mode-7.3.1.tar";
+        sha256 = "0lnn2v1948yfb1l3sa0yqwq11lhi9zpfs45gj4l9vh8k7z982g8k";
       };
       packageRequires = [ ];
       meta = {
