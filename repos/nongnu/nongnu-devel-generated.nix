@@ -3271,10 +3271,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.15.0.0.20251105.10812";
+      version = "0.15.0.0.20251116.1315";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20251105.10812.tar";
-        sha256 = "0fg07kpx48fccxf5a9545l9rzb79gghrv79pp7c8cw14ig179lrc";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20251116.1315.tar";
+        sha256 = "1iw2a0diz0x1r9gilhh9zdymw6ga9lsvyd314vcmbm8vcrp7lyiq";
       };
       packageRequires = [
         compat
