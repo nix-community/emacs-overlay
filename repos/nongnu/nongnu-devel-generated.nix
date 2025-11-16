@@ -2475,10 +2475,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251114.144531";
+      version = "0.9.9.3.0.20251115.100819";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251114.144531.tar";
-        sha256 = "176llzxfgnddh2aqdvrad2ihjcairh2fjfp2qnahqgd9pcydp06k";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251115.100819.tar";
+        sha256 = "10jy19yc494ayrdbi54jx2zyyz970rxxsqrhw88bba1k2dq5vdw0";
       };
       packageRequires = [
         compat
@@ -2672,10 +2672,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20251113.75909";
+      version = "4.0.6.0.20251114.75626";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251113.75909.tar";
-        sha256 = "0i3sipbkygizfsjnbv8x4v4bsrj3n9j0lv16jz3is8ryx9wyjg7b";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251114.75626.tar";
+        sha256 = "016z8ilmdk35m6x870fm62djs8iyv03093kdyd1cbk8v10v7wn42";
       };
       packageRequires = [
         helm-core
@@ -2697,10 +2697,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20251113.75909";
+      version = "4.0.6.0.20251114.75626";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251113.75909.tar";
-        sha256 = "1vym1v0g0ydhrkc1ip0kjgr5g3svpalq61if89ikcmkh697n5cdl";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251114.75626.tar";
+        sha256 = "0j66hkjakdnmv6rn9vxb5zmjv6l36yhnaymb88miwz8wr4rijxbi";
       };
       packageRequires = [ async ];
       meta = {
@@ -2718,10 +2718,10 @@
     elpaBuild {
       pname = "hideshowvis";
       ename = "hideshowvis";
-      version = "0.8.0.20251112.103011";
+      version = "0.8.0.20251115.175617";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hideshowvis-0.8.0.20251112.103011.tar";
-        sha256 = "0hk819wskc5m324qal65r78h4phfpwk2y8haplkyc22ynd7v3g6m";
+        url = "https://elpa.nongnu.org/nongnu-devel/hideshowvis-0.8.0.20251115.175617.tar";
+        sha256 = "0xnh2j8kxf6yvimnix19g45gcbmvfcnpi6q1rqdx5bfazzxf1dia";
       };
       packageRequires = [ ];
       meta = {
@@ -3480,10 +3480,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.5.0.20251025.84558";
+      version = "2.0.6.0.20251115.93700";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.5.0.20251025.84558.tar";
-        sha256 = "1z98s5s32wb7f1hwphvkg3jc913wfpnqa85057m5m85hcjs7p3li";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.6.0.20251115.93700.tar";
+        sha256 = "050q1kpmfsn1r04lq6zcla4nkkvkiykxs0qzkkbfaacxwmxk14mi";
       };
       packageRequires = [
         persist
@@ -4825,10 +4825,10 @@
     elpaBuild {
       pname = "sly";
       ename = "sly";
-      version = "1.0.43.0.20251111.194845";
+      version = "1.0.43.0.20251115.94857";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20251111.194845.tar";
-        sha256 = "01ngj2c141ksbyfm6y4xdddyrqbg1sr3ys5wj5hvc4ya6n6a6478";
+        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20251115.94857.tar";
+        sha256 = "0sr3qg6c6bfr2d2ncx9y5m0bi1pc855aficj74vary6wkvysz1ga";
       };
       packageRequires = [ ];
       meta = {
@@ -5689,10 +5689,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.7.0.20251113.213455";
+      version = "3.4.7.0.20251115.121304";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.7.0.20251113.213455.tar";
-        sha256 = "1j2pvpiiq76hk7knpjdwrhp0g93pr1vk6mnkg9n4idxfq90z9c4c";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.7.0.20251115.121304.tar";
+        sha256 = "0hkjxmcs5pj82zdgk8lzbpsbcn31d7kz8qb6aw5y0g76g3id8wmw";
       };
       packageRequires = [ compat ];
       meta = {
