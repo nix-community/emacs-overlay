@@ -2908,10 +2908,10 @@
     elpaBuild {
       pname = "idris-mode";
       ename = "idris-mode";
-      version = "1.1.0.0.20251112.222515";
+      version = "1.1.0.0.20251117.92531";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20251112.222515.tar";
-        sha256 = "0k8d54w5qhhc2gwhraiar1r1ydpb5rlk0jw59y5wxrgg4dv3smix";
+        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20251117.92531.tar";
+        sha256 = "121hfxhzlmr76vw14vlxrkjp2jdr4lxqjylrmgz55i4hk3p8qlbl";
       };
       packageRequires = [
         cl-lib
@@ -3480,10 +3480,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.6.0.20251115.93700";
+      version = "2.0.7.0.20251117.145845";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.6.0.20251115.93700.tar";
-        sha256 = "050q1kpmfsn1r04lq6zcla4nkkvkiykxs0qzkkbfaacxwmxk14mi";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.7.0.20251117.145845.tar";
+        sha256 = "1ar3yb71gnm6gl6h44r23y8bzv03jpcxkn6jsm1hyv779xjrnpg3";
       };
       packageRequires = [
         persist
@@ -4333,10 +4333,10 @@
     elpaBuild {
       pname = "powershell";
       ename = "powershell";
-      version = "0.4.0.20251112.62857";
+      version = "0.4.0.20251117.173506";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/powershell-0.4.0.20251112.62857.tar";
-        sha256 = "183f12g2zbxfmmq5q1bw4ky1hb3nccsxx80483amhvagc2f67mr1";
+        url = "https://elpa.nongnu.org/nongnu-devel/powershell-0.4.0.20251117.173506.tar";
+        sha256 = "0r7arga118jc2rg5q7fj86h1nw5nxc0pbx7mlqsl8ki44saaz4kc";
       };
       packageRequires = [ ];
       meta = {
@@ -4825,10 +4825,10 @@
     elpaBuild {
       pname = "sly";
       ename = "sly";
-      version = "1.0.43.0.20251115.94857";
+      version = "1.0.43.0.20251117.200415";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20251115.94857.tar";
-        sha256 = "0sr3qg6c6bfr2d2ncx9y5m0bi1pc855aficj74vary6wkvysz1ga";
+        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20251117.200415.tar";
+        sha256 = "05020mdc07k03a0gyg7c7dz1ncjs3f57nq7zxy46mc44zmmldizm";
       };
       packageRequires = [ ];
       meta = {
