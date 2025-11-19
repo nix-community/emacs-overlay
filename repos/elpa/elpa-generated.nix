@@ -9342,6 +9342,7 @@
   transient = callPackage (
     {
       compat,
+      cond-let,
       elpaBuild,
       fetchurl,
       lib,
@@ -9350,13 +9351,14 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.10.1";
+      version = "0.11.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.10.1.tar";
-        sha256 = "1qxml619jpjp2an4iiq7c2n0vy0xam73rjl6076lialfwsa05hqd";
+        url = "https://elpa.gnu.org/packages/transient-0.11.0.tar";
+        sha256 = "09rdjkmmg7b3r2d55ff2r11hklglq14xknmn2ywc53qglxxsn0im";
       };
       packageRequires = [
         compat
+        cond-let
         seq
       ];
       meta = {
