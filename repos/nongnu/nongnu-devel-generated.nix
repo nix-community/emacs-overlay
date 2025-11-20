@@ -1797,10 +1797,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0.0.20251116.204228";
+      version = "35.0.0.20251119.120323";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20251116.204228.tar";
-        sha256 = "1rjm4dcyzs5jchwq2rpnv5xbgk0lax8a0wws2w2addvv9n60sx1c";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20251119.120323.tar";
+        sha256 = "1n3jbvii2j9aagspvj8l1g5xdw7y86y4njg47ykyigvqyqc0fcxz";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2718,10 +2718,10 @@
     elpaBuild {
       pname = "hideshowvis";
       ename = "hideshowvis";
-      version = "0.8.0.20251115.175617";
+      version = "0.9.0.20251119.95800";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hideshowvis-0.8.0.20251115.175617.tar";
-        sha256 = "0xnh2j8kxf6yvimnix19g45gcbmvfcnpi6q1rqdx5bfazzxf1dia";
+        url = "https://elpa.nongnu.org/nongnu-devel/hideshowvis-0.9.0.20251119.95800.tar";
+        sha256 = "0x31p9ilpr60l9shddarimms3r7znipnic2aahd165xfx33h3jnf";
       };
       packageRequires = [ ];
       meta = {
