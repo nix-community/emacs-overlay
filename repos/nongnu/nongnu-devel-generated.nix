@@ -622,10 +622,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0snapshot0.20251112.92713";
+      version = "0.6.0snapshot0.20251120.73520";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0snapshot0.20251112.92713.tar";
-        sha256 = "131gvriqhcsc71qm6465l5cpih8b0f4cicfj40i8f6paxiggrv89";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0snapshot0.20251120.73520.tar";
+        sha256 = "1xpq94a1lsppsjsb5bv05ij67gx1i256lfaz6mlqrikq317x0gfz";
       };
       packageRequires = [ ];
       meta = {
@@ -1889,10 +1889,10 @@
     elpaBuild {
       pname = "flymake-pyrefly";
       ename = "flymake-pyrefly";
-      version = "0.1.8.0.20251007.82059";
+      version = "0.1.8.0.20251120.306";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flymake-pyrefly-0.1.8.0.20251007.82059.tar";
-        sha256 = "08120i69qmf25s84kdpxq9rp25v9ivyly1gg7pi5fsaiprf84pk4";
+        url = "https://elpa.nongnu.org/nongnu-devel/flymake-pyrefly-0.1.8.0.20251120.306.tar";
+        sha256 = "0mjgy6x6z9i471krijd2f00rsyjg5yrakyvzv9w5xaqk7bjzhzhy";
       };
       packageRequires = [ ];
       meta = {
@@ -3017,10 +3017,10 @@
     elpaBuild {
       pname = "isl";
       ename = "isl";
-      version = "1.4.0.20251029.45258";
+      version = "1.6.0.20251120.44129";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.4.0.20251029.45258.tar";
-        sha256 = "0lcjql3v0ynl4lpv62xm2m8bsvdzwfhpj2xc2i488s52vihkrslz";
+        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.6.0.20251120.44129.tar";
+        sha256 = "0zql7y0r33k503qdr4wbbkvjkgb3b71kx2qd0frw91iy5y9w41k2";
       };
       packageRequires = [ ];
       meta = {
@@ -3886,10 +3886,10 @@
     elpaBuild {
       pname = "org-mime";
       ename = "org-mime";
-      version = "0.3.4.0.20250318.215555";
+      version = "0.3.4.0.20251120.5925";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.4.0.20250318.215555.tar";
-        sha256 = "0plqmcyszpc1x35v691zlgxmnbga80yxxcjyb5mvxdri45z4458d";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.4.0.20251120.5925.tar";
+        sha256 = "1p7sv48fi8scczc3hry9wr608kfzayh59pprn1f6rd3sv8g6gj0z";
       };
       packageRequires = [ ];
       meta = {
