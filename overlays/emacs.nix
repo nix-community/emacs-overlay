@@ -30,7 +30,10 @@ let
               # fixes segfaults that only occur on aarch64-linux (#264)
               configureFlags = old.configureFlags ++
                                super.lib.optionals (super.stdenv.isLinux && super.stdenv.isAarch64)
-                                 [ "--enable-check-lisp-object-type" ];
+                                 [ "--enable-check-lisp-object-type" ] ++
+                               # Disable C23 on macOS due to static_assert conflicts
+                               super.lib.optionals super.stdenv.isDarwin
+                                 [ "ac_cv_prog_cc_c23=no" ];
 
               postPatch = old.postPatch + ''
                 substituteInPlace lisp/loadup.el \
