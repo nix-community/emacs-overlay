@@ -2475,10 +2475,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251122.105011";
+      version = "0.9.9.3.0.20251122.141222";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251122.105011.tar";
-        sha256 = "191rrn1jn3gkqkp9r1kgvp8vghm0684ig85nks77p4b5m77ivf57";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251122.141222.tar";
+        sha256 = "0z6qd8ymmbxvqg1497w7xybx5ib4y3xdkr8jq3xh8vajs5pk343r";
       };
       packageRequires = [
         compat
@@ -5844,10 +5844,10 @@
     elpaBuild {
       pname = "xml-rpc";
       ename = "xml-rpc";
-      version = "1.6.17.0.20250812.100619";
+      version = "1.6.17.0.20251122.185743";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xml-rpc-1.6.17.0.20250812.100619.tar";
-        sha256 = "0l4amp36zazwgnm7gvlyqfqjycj3c9vbdr1hdhf8jxyrikr9p12a";
+        url = "https://elpa.nongnu.org/nongnu-devel/xml-rpc-1.6.17.0.20251122.185743.tar";
+        sha256 = "1sshmzg6v27v8l0q3lq2apfvpbkkg71dyn7mk99a56qab4ajm6zs";
       };
       packageRequires = [ ];
       meta = {
