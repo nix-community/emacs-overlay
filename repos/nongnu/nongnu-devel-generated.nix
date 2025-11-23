@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.6.0.20251111.204953";
+      version = "1.6.0.20251122.154759";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.6.0.20251111.204953.tar";
-        sha256 = "1qp07gkdgj00vyi6dinam4sz69pykdigwlksvm1y7q172aanfinq";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.6.0.20251122.154759.tar";
+        sha256 = "17l9jdmdlhkwimgmggicp5vqh6ly24g498g9mbfknq61i1g7pl72";
       };
       packageRequires = [
         compat
@@ -2475,10 +2475,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251118.103644";
+      version = "0.9.9.3.0.20251122.105011";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251118.103644.tar";
-        sha256 = "16lsk161pchdy2ffc5q7xizjy5592x863yjml8l6804gy5im68fd";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251122.105011.tar";
+        sha256 = "191rrn1jn3gkqkp9r1kgvp8vghm0684ig85nks77p4b5m77ivf57";
       };
       packageRequires = [
         compat
@@ -3398,10 +3398,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.2.0.20251116.153624";
+      version = "4.4.2.0.20251122.152951";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251116.153624.tar";
-        sha256 = "1vhbhaid2c8bir9szd676cal3p06l3mhm7md188jhjnmlap0dvcy";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251122.152951.tar";
+        sha256 = "1bhpmpbzhf35g2ars68a4zrhhdvlmbbgsxbc5f86gjs3rd4jlrnb";
       };
       packageRequires = [
         compat
@@ -3431,10 +3431,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.2.0.20251116.153624";
+      version = "4.4.2.0.20251122.152951";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251116.153624.tar";
-        sha256 = "0lxywgx1zqcxvzrj7pvzj2fxxf26595r5403dhiinklvx527v36f";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251122.152951.tar";
+        sha256 = "1sd52da7qrc75spwa1h3yh8wqnrrrrlbhsqd4z25ri3azy5ka33r";
       };
       packageRequires = [
         compat
@@ -4249,10 +4249,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.60.0.20251026.72049";
+      version = "0.61.0.20251122.150518";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.60.0.20251026.72049.tar";
-        sha256 = "07c1c7icl6w6fzpzsrkiw1hn3spp1ypl2pw5wfw7s9dwafl9ai0z";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.61.0.20251122.150518.tar";
+        sha256 = "1818gqxljlr10hbi6crrs2c0yzhv9h0xbclmhzjgyhr70m74gjpa";
       };
       packageRequires = [ peg ];
       meta = {
@@ -4333,10 +4333,10 @@
     elpaBuild {
       pname = "powershell";
       ename = "powershell";
-      version = "0.4.0.20251117.173506";
+      version = "0.4.0.20251122.143018";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/powershell-0.4.0.20251117.173506.tar";
-        sha256 = "0r7arga118jc2rg5q7fj86h1nw5nxc0pbx7mlqsl8ki44saaz4kc";
+        url = "https://elpa.nongnu.org/nongnu-devel/powershell-0.4.0.20251122.143018.tar";
+        sha256 = "1zd7cywmgsz59k80jkgnzhazpfijv26fx81l3nfnlkznfy0zgmxd";
       };
       packageRequires = [ ];
       meta = {
@@ -4804,10 +4804,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.31snapshot0.20251101.174145";
+      version = "2.31snapshot0.20251122.135227";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20251101.174145.tar";
-        sha256 = "1gnihx6ns0lfylfnqw28xjds9mhbw1xdj4vqrqa8fk5drj281x5g";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.31snapshot0.20251122.135227.tar";
+        sha256 = "189jfp545fvddp24gdk5kd1x07arnl509bdl2v2nmrrqahb2hmwc";
       };
       packageRequires = [ macrostep ];
       meta = {
