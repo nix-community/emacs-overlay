@@ -1299,10 +1299,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.4";
+      version = "1.2.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/colorful-mode-1.2.4.tar";
-        sha256 = "18gymjgsa5hxzy502b7mi99d8sypnn07i9934k4bj1py1xwl8q2b";
+        url = "https://elpa.gnu.org/packages/colorful-mode-1.2.5.tar";
+        sha256 = "1vz4mr76y9j5z8zg4nkm8ll38ka46yfhvv7c5r9v70gvnr1glg2g";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5583,10 +5583,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "7.3.1";
+      version = "7.3.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/matlab-mode-7.3.1.tar";
-        sha256 = "0lnn2v1948yfb1l3sa0yqwq11lhi9zpfs45gj4l9vh8k7z982g8k";
+        url = "https://elpa.gnu.org/packages/matlab-mode-7.3.2.tar";
+        sha256 = "10bwfm2rjlqrq820k8g4xii3prg823kxh6icx0dri15wp1ildzxz";
       };
       packageRequires = [ ];
       meta = {
@@ -6245,10 +6245,10 @@
     elpaBuild {
       pname = "oauth2";
       ename = "oauth2";
-      version = "0.18.3";
+      version = "0.18.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/oauth2-0.18.3.tar";
-        sha256 = "1xn9jkf55b9sc6fidzn6p1falvvgvpc08iz53fvmmp7fandgwbxi";
+        url = "https://elpa.gnu.org/packages/oauth2-0.18.4.tar";
+        sha256 = "1hhfk7glp3m9f4aqf1dvqs5f7qp4s2gvbxamyxjalw3sj6pbv92n";
       };
       packageRequires = [ ];
       meta = {
@@ -6395,10 +6395,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.37";
+      version = "9.7.38";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.37.tar";
-        sha256 = "1nbrr1ww1g4xi3wh83gmqynldf3fc0wm8izib9h9ygam8ima0yqx";
+        url = "https://elpa.gnu.org/packages/org-9.7.38.tar";
+        sha256 = "1y752wx4hhfgwkn9i9rrl6hjgpwb38g0zanpvyxxkzxy3n2fv079";
       };
       packageRequires = [ ];
       meta = {
