@@ -2034,10 +2034,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.1";
+      version = "4.1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-4.1.1.tar";
-        sha256 = "1gz1qr32w6z38gpjxvdi7sfa6vgb030rwcd5nximg57wzff3njwn";
+        url = "https://elpa.gnu.org/packages/denote-4.1.2.tar";
+        sha256 = "0i582mxy6nc3fjvqnk6mws530l630ayfg2ca5hj79cfr627pqvp8";
       };
       packageRequires = [ ];
       meta = {
@@ -2620,10 +2620,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.4.0";
+      version = "0.5.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/doric-themes-0.4.0.tar";
-        sha256 = "0dh5gib95fqfqdlk493y8dpdln2bqs2v5gg4gghy4rhgg79six5j";
+        url = "https://elpa.gnu.org/packages/doric-themes-0.5.0.tar";
+        sha256 = "11889xskdp42ckbk75wiy1f5sdy1ia04ndn48vn2dw57pcgmjcnw";
       };
       packageRequires = [ ];
       meta = {
@@ -5583,10 +5583,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "7.3.2";
+      version = "7.3.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/matlab-mode-7.3.2.tar";
-        sha256 = "10bwfm2rjlqrq820k8g4xii3prg823kxh6icx0dri15wp1ildzxz";
+        url = "https://elpa.gnu.org/packages/matlab-mode-7.3.3.tar";
+        sha256 = "1503534x7clzgcy09dy8yph3znmvllp73qpfab34pbfhjv1fhr9n";
       };
       packageRequires = [ ];
       meta = {
