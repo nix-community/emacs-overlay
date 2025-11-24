@@ -3992,6 +3992,7 @@
   orgit = callPackage (
     {
       compat,
+      cond-let,
       elpaBuild,
       fetchurl,
       lib,
@@ -4001,13 +4002,14 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.1.0.0.20251101.213746";
+      version = "2.1.0.0.20251123.180141";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.1.0.0.20251101.213746.tar";
-        sha256 = "0zzn8fa07an3a6a7qvfn54r61dirxhn0vb87ww2xlxh5m1baf1l3";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.1.0.0.20251123.180141.tar";
+        sha256 = "0hliymdwdbkzdv8ckfm162nlb6b3p321xds5i11783y4flvr5f6b";
       };
       packageRequires = [
         compat
+        cond-let
         magit
         org
       ];
