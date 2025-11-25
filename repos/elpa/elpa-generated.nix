@@ -2822,10 +2822,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20250914";
+      version = "20251123";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/eev-20250914.tar";
-        sha256 = "1bn7nv42pkd910s47if2jzrzfd10s2nbhid3adh96p9bpy46k639";
+        url = "https://elpa.gnu.org/packages/eev-20251123.tar";
+        sha256 = "02vnijm7av43dlnwkg8ss96vqzl8k92b1m4mn7mjnv60zcxscxf6";
       };
       packageRequires = [ ];
       meta = {
