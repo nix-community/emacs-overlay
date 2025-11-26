@@ -4123,10 +4123,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.13.0";
+      version = "0.13.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greader-0.13.0.tar";
-        sha256 = "095vb18ss9w8nl22y41qd49fyvpss1nyn5ghk3cb5sdwgkpl1905";
+        url = "https://elpa.gnu.org/packages/greader-0.13.1.tar";
+        sha256 = "0av55fk2r1bqsb8dp17y3cka46hda29x16y763az0lwga33ssz89";
       };
       packageRequires = [
         compat
@@ -5583,10 +5583,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "7.3.3";
+      version = "7.3.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/matlab-mode-7.3.3.tar";
-        sha256 = "1503534x7clzgcy09dy8yph3znmvllp73qpfab34pbfhjv1fhr9n";
+        url = "https://elpa.gnu.org/packages/matlab-mode-7.3.4.tar";
+        sha256 = "04a892h82lk8qmkl85bllba56k4rfsrpwnvbc9ifvv8lyr7wzgph";
       };
       packageRequires = [ ];
       meta = {
@@ -5753,10 +5753,10 @@
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.2";
+      version = "0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/minimail-0.2.tar";
-        sha256 = "1r8bai5gmb95alz1ry9d9xas8jxr1c6a0bkm6bxziy2xrlxh74n8";
+        url = "https://elpa.gnu.org/packages/minimail-0.3.tar";
+        sha256 = "1p8vk9z34ylzg9hvs88wik07m5mr72bqkh19kngw7gqlg0m2ydfp";
       };
       packageRequires = [ ];
       meta = {
@@ -7163,10 +7163,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.4.4";
+      version = "1.5.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/posframe-1.4.4.tar";
-        sha256 = "18cvfr2jxwsnsdg9f8wr0g64rkk6q1cc4gchrw76lnnknanidpk7";
+        url = "https://elpa.gnu.org/packages/posframe-1.5.0.tar";
+        sha256 = "0yk38fc08fgxwai6dn6da9yykcmq3bd4x7msfnlrg081b15q9a32";
       };
       packageRequires = [ ];
       meta = {
@@ -7336,10 +7336,10 @@
     elpaBuild {
       pname = "pyim";
       ename = "pyim";
-      version = "5.3.4";
+      version = "5.3.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/pyim-5.3.4.tar";
-        sha256 = "0axi8vizr2pdswdnnkr409k926h9k7w3c18nbmb9j3pfc32inkjs";
+        url = "https://elpa.gnu.org/packages/pyim-5.3.5.tar";
+        sha256 = "1s452swgbkbnpfhiwmipmvbqn6wkf6f7dq63gr349h7n29nbnnnk";
       };
       packageRequires = [
         async
