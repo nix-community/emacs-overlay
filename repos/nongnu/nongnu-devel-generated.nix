@@ -1143,10 +1143,10 @@
     elpaBuild {
       pname = "editorconfig";
       ename = "editorconfig";
-      version = "0.11.0.0.20250905.2405";
+      version = "0.11.0.0.20251126.181621";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20250905.2405.tar";
-        sha256 = "06gwq2fr79l1abcxg2fqyqrkadg35fn6zm30bv6d8nvz7f1msfzq";
+        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20251126.181621.tar";
+        sha256 = "0grsr99aj4b7r2hqk7f4dwds6kp4y2xh24xrl8m5cvz4zfsrg5f3";
       };
       packageRequires = [ ];
       meta = {
@@ -2475,10 +2475,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251126.123532";
+      version = "0.9.9.3.0.20251126.185143";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251126.123532.tar";
-        sha256 = "1gpa2cvm2zjk250fyfkw88ji00ndpbyq8p8gm6syj69siwf0rrg8";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251126.185143.tar";
+        sha256 = "0irp44cd76rnhssghhj49ky07xfsgcsaxq7c9vc0p85fkmppdfbb";
       };
       packageRequires = [
         compat
@@ -3886,10 +3886,10 @@
     elpaBuild {
       pname = "org-mime";
       ename = "org-mime";
-      version = "0.3.4.0.20251123.234218";
+      version = "0.3.4.0.20251127.34049";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.4.0.20251123.234218.tar";
-        sha256 = "0z4rirzbhap93p4sv1ziwd2zjwfa06xc845basf6a7hql8cms4qw";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.4.0.20251127.34049.tar";
+        sha256 = "1vq0jz922rczw7nnqiv1xsdgx55pxfv0nsfjq1xyk0rdz9pjp5ff";
       };
       packageRequires = [ ];
       meta = {
