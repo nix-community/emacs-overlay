@@ -951,10 +951,10 @@
     elpaBuild {
       pname = "diff-ansi";
       ename = "diff-ansi";
-      version = "0.2.0.20251030.235248";
+      version = "0.2.0.20251126.113407";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20251030.235248.tar";
-        sha256 = "0z96i0q8zfdaia686cann9xr1d38f3f7jy2n53vc2bxfjay9cha4";
+        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20251126.113407.tar";
+        sha256 = "1018a6finysf24xvfyhv9x6001kz9hn9lzvp1dy8ywv2pd9bb9g3";
       };
       packageRequires = [ ];
       meta = {
@@ -994,10 +994,10 @@
     elpaBuild {
       pname = "doc-show-inline";
       ename = "doc-show-inline";
-      version = "0.1.0.20251030.235527";
+      version = "0.1.0.20251126.114419";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/doc-show-inline-0.1.0.20251030.235527.tar";
-        sha256 = "1ccbhal37a9lsgw9cgc84wqirxf2infz33lsyz7ih2al27jdxydl";
+        url = "https://elpa.nongnu.org/nongnu-devel/doc-show-inline-0.1.0.20251126.114419.tar";
+        sha256 = "0r1ly44d1ysqhns72r1mzss6g9ng2300mdqxkqgbb9i0is0nwxql";
       };
       packageRequires = [ ];
       meta = {
@@ -2475,10 +2475,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251125.121705";
+      version = "0.9.9.3.0.20251126.123532";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251125.121705.tar";
-        sha256 = "1rgpi355jzkm849q35vpr0mchajnv3c1cg16yzd8b4h422zbjm4r";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251126.123532.tar";
+        sha256 = "1gpa2cvm2zjk250fyfkw88ji00ndpbyq8p8gm6syj69siwf0rrg8";
       };
       packageRequires = [
         compat
@@ -2760,10 +2760,10 @@
     elpaBuild {
       pname = "hl-block-mode";
       ename = "hl-block-mode";
-      version = "0.2.0.20250913.225150";
+      version = "0.2.0.20251126.113654";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hl-block-mode-0.2.0.20250913.225150.tar";
-        sha256 = "1zwgalb0s1jprfyfldxin9a4gqwjngqf46k24gnxxpw7039gszyw";
+        url = "https://elpa.nongnu.org/nongnu-devel/hl-block-mode-0.2.0.20251126.113654.tar";
+        sha256 = "1jn3gl3i77zhh62yzax40qh1ralvrdjpq4ivlvhqspf2nbsqgqdw";
       };
       packageRequires = [ ];
       meta = {
@@ -2885,10 +2885,10 @@
     elpaBuild {
       pname = "idle-highlight-mode";
       ename = "idle-highlight-mode";
-      version = "1.1.4.0.20251030.235941";
+      version = "1.1.4.0.20251126.113001";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idle-highlight-mode-1.1.4.0.20251030.235941.tar";
-        sha256 = "04zy63h5qmbzw1fzbw6sqyp9blm2rfhdmvxl4nzr8aljkqh963cf";
+        url = "https://elpa.nongnu.org/nongnu-devel/idle-highlight-mode-1.1.4.0.20251126.113001.tar";
+        sha256 = "0qv1m4dvy7akywjjyjpa1l8xxwwmc2v7ycvqcr2sknlyk9hsi5pz";
       };
       packageRequires = [ ];
       meta = {
@@ -4251,10 +4251,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.61.0.20251123.82052";
+      version = "0.61.0.20251126.143425";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.61.0.20251123.82052.tar";
-        sha256 = "0ny7hpnsz7mhpsf8a312bq1blq1j0blvlvbw96hnpadny8vnnjpq";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.61.0.20251126.143425.tar";
+        sha256 = "0g96hx5h7b2vsj9il403m4lnjdxbl716hyg813adc3q2527cwdlf";
       };
       packageRequires = [ peg ];
       meta = {
@@ -5470,10 +5470,10 @@
     elpaBuild {
       pname = "undo-fu-session";
       ename = "undo-fu-session";
-      version = "0.7.0.20251126.50852";
+      version = "0.7.0.20251126.114300";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20251126.50852.tar";
-        sha256 = "1qhklay94g7h637sx26phwn8fd5jika2aizlbgcz59x3si6105wj";
+        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20251126.114300.tar";
+        sha256 = "0m3h4pa1vq041l1kq5s0pgbbvx4cjh2narj2igp9lybff2ywxp14";
       };
       packageRequires = [ ];
       meta = {
