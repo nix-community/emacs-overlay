@@ -3474,10 +3474,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.34.0.20251119.75144";
+      version = "0.34.0.20251119.102803";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20251119.75144.tar";
-        sha256 = "1pfrdcpy00ygs0cywb80qb6p17fzqbmh79nigs34hd9c23drmh72";
+        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20251119.102803.tar";
+        sha256 = "0nih7vk9xknxdvjp9mfdv8f2rfkcm2iybjk7bjfif5j64n7cjvnh";
       };
       packageRequires = [
         compat
@@ -7357,10 +7357,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20251106.125735";
+      version = "0.11.1.0.20251127.102722";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20251106.125735.tar";
-        sha256 = "107pjcxlc2jri8zxw37ar67qmkx6fwhhc9hlwmnmlrpy9279zqpd";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20251127.102722.tar";
+        sha256 = "1dwql5v0v12q3lxs0vgqzk8s3wdv51m24d02hyz2dysl3yncmc9p";
       };
       packageRequires = [ xref ];
       meta = {
