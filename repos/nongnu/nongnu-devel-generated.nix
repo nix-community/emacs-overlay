@@ -1797,10 +1797,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0.0.20251119.120323";
+      version = "35.0.0.20251128.170639";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20251119.120323.tar";
-        sha256 = "1n3jbvii2j9aagspvj8l1g5xdw7y86y4njg47ykyigvqyqc0fcxz";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20251128.170639.tar";
+        sha256 = "1r0mjdnwb52jx2by1adkv3lxm24i42lpsr2lkmp5fmsxqn34pr7q";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2908,10 +2908,10 @@
     elpaBuild {
       pname = "idris-mode";
       ename = "idris-mode";
-      version = "1.1.0.0.20251117.92531";
+      version = "1.1.0.0.20251128.160804";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20251117.92531.tar";
-        sha256 = "121hfxhzlmr76vw14vlxrkjp2jdr4lxqjylrmgz55i4hk3p8qlbl";
+        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20251128.160804.tar";
+        sha256 = "091aa1vk2f6g2xj1yfkxkbx7x15s13iv8awzvqyjfqsbbkc6qyw6";
       };
       packageRequires = [
         cl-lib
