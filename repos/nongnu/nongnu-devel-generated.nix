@@ -79,10 +79,10 @@
     elpaBuild {
       pname = "alect-themes";
       ename = "alect-themes";
-      version = "0.10.0.20251109.101300";
+      version = "0.11.0.20251129.73827";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/alect-themes-0.10.0.20251109.101300.tar";
-        sha256 = "1pya8g8jjn974z8dlxx6gibqkiwhd5973f8rai1mk4rb4ziqrdc8";
+        url = "https://elpa.nongnu.org/nongnu-devel/alect-themes-0.11.0.20251129.73827.tar";
+        sha256 = "1byaxbs7k6r2jbssdpf0siwryzrxrv0x8ds11wxpcg7v0kiihmaz";
       };
       packageRequires = [ ];
       meta = {
@@ -3886,10 +3886,10 @@
     elpaBuild {
       pname = "org-mime";
       ename = "org-mime";
-      version = "0.3.4.0.20251128.52550";
+      version = "0.3.4.0.20251129.11105";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.4.0.20251128.52550.tar";
-        sha256 = "08cxci04y84dm1qis0g8drlbh9zdvvqvgglw9l5h6q6nkg3x7cji";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.4.0.20251129.11105.tar";
+        sha256 = "0kjmwsayg5rkvvpysvf1lhvfayg6g9fdfvhr10dwd30qj4hchgrm";
       };
       packageRequires = [ ];
       meta = {

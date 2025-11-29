@@ -79,10 +79,10 @@
     elpaBuild {
       pname = "alect-themes";
       ename = "alect-themes";
-      version = "0.10";
+      version = "0.11";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/alect-themes-0.10.tar";
-        sha256 = "0pagkf0bb85sr3mvg8z6h6akb9hjmvfqmpiaiz121ys0r92m6nb7";
+        url = "https://elpa.nongnu.org/nongnu/alect-themes-0.11.tar";
+        sha256 = "1ij0c321gi3vqcw0pzzsi02b3370l2ynijq0999j1jxrillc9h2l";
       };
       packageRequires = [ ];
       meta = {
