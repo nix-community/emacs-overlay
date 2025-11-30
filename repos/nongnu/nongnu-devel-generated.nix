@@ -2672,10 +2672,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20251115.145048";
+      version = "4.0.6.0.20251130.75843";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251115.145048.tar";
-        sha256 = "04rir4l25351zzf274z1nqmpvkqv0v48yqimy7ikki8mzniyyg4k";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251130.75843.tar";
+        sha256 = "1mf7amad7yzfj58pzgmwm5z6ii70x2wd02279aizh6pqi2d983ih";
       };
       packageRequires = [
         helm-core
@@ -2697,10 +2697,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20251115.145048";
+      version = "4.0.6.0.20251130.75843";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251115.145048.tar";
-        sha256 = "0pnrqmpsw3yd1i9xdsvh7f5xw5jhz3kk487ih2qw4rn0yalxck96";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251130.75843.tar";
+        sha256 = "0wlyh5xx94frqb1wf6jil5vxdpb8bcv2pqsv4xsy74hqkmqlzdab";
       };
       packageRequires = [ async ];
       meta = {
@@ -3886,10 +3886,10 @@
     elpaBuild {
       pname = "org-mime";
       ename = "org-mime";
-      version = "0.3.4.0.20251129.11105";
+      version = "0.3.4.0.20251130.10318";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.4.0.20251129.11105.tar";
-        sha256 = "0kjmwsayg5rkvvpysvf1lhvfayg6g9fdfvhr10dwd30qj4hchgrm";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.4.0.20251130.10318.tar";
+        sha256 = "1dia10r7rk71gir931a2y23mrn8kgz5vy44z5xxixhv1bx72k761";
       };
       packageRequires = [ ];
       meta = {
@@ -4742,10 +4742,10 @@
     elpaBuild {
       pname = "scroll-on-jump";
       ename = "scroll-on-jump";
-      version = "0.2.0.20251126.51435";
+      version = "0.3.0.20251130.25126";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.2.0.20251126.51435.tar";
-        sha256 = "0zfag8ad4c75x8b498rxf71yr7rr2nym2yh6592whkkvy75hihlc";
+        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.3.0.20251130.25126.tar";
+        sha256 = "1chc7xzwi1k1abrz4sf5gcv6pxvnzry4dl6fnskrh63hwph9dgk7";
       };
       packageRequires = [ ];
       meta = {
@@ -5932,10 +5932,10 @@
     elpaBuild {
       pname = "zig-mode";
       ename = "zig-mode";
-      version = "0.0.8.0.20251121.92826";
+      version = "0.0.8.0.20251128.25646";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20251121.92826.tar";
-        sha256 = "1bca96i1iiayw0i0van0xrs9hxzdzr6219a1ax9vr8khbi8a1asa";
+        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20251128.25646.tar";
+        sha256 = "03nqzy5xyqsr7ax1m0sprk75ygkyspj824vixgkrflqnrhyj5b2s";
       };
       packageRequires = [ reformatter ];
       meta = {

@@ -4758,10 +4758,10 @@
     elpaBuild {
       pname = "scroll-on-jump";
       ename = "scroll-on-jump";
-      version = "0.2";
+      version = "0.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/scroll-on-jump-0.2.tar";
-        sha256 = "1gg5lpr21v9bjzjy33j8ziyhh5a1sad509c7rjkdlqda2z3xfrhr";
+        url = "https://elpa.nongnu.org/nongnu/scroll-on-jump-0.3.tar";
+        sha256 = "02vksmab2bmasv1n8hawapzhnyfk3w0b0gbxbznp5zj6kzb8yr1q";
       };
       packageRequires = [ ];
       meta = {
