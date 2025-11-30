@@ -1527,10 +1527,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.0";
+      version = "3.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-3.0.tar";
-        sha256 = "1yi0hawkpyl5y2x8z87vdpbxhida17r2yz27lfjzx8qdj8v1snss";
+        url = "https://elpa.gnu.org/packages/consult-3.1.tar";
+        sha256 = "1yc2q9jmcdvvpg59qlvysj29x9hnimbn2jhgr3s64kfnr2gcaj5c";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2034,10 +2034,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.2";
+      version = "4.1.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-4.1.2.tar";
-        sha256 = "0i582mxy6nc3fjvqnk6mws530l630ayfg2ca5hj79cfr627pqvp8";
+        url = "https://elpa.gnu.org/packages/denote-4.1.3.tar";
+        sha256 = "197m0bx1gxrzbqlfr5h52il3ivbixzg1pkhkrf488kidww8qmpvf";
       };
       packageRequires = [ ];
       meta = {
@@ -4787,10 +4787,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.4";
+      version = "2.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jinx-2.4.tar";
-        sha256 = "052wax7k9wkl8g0c6v1cjhdpvhw89byykv43gyxl3c9a6garllrm";
+        url = "https://elpa.gnu.org/packages/jinx-2.5.tar";
+        sha256 = "0ggivcvm6kwnw6yk86vkvahfxzn72nw848nzzj77jkcf6717x8lb";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8678,10 +8678,10 @@
     elpaBuild {
       pname = "substitute";
       ename = "substitute";
-      version = "0.3.1";
+      version = "0.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/substitute-0.3.1.tar";
-        sha256 = "0038kkn6v2w3asg9abwary2cacr9wbw90wdvq7q9wyk1818cygff";
+        url = "https://elpa.gnu.org/packages/substitute-0.4.0.tar";
+        sha256 = "1385q9h9qhz84y1fm1fd1n48wypkgq4h3hhhk08877ppx58xsa6g";
       };
       packageRequires = [ ];
       meta = {
@@ -9264,10 +9264,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.0.4";
+      version = "2.8.0.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.8.0.4.tar";
-        sha256 = "07zc1w4w1kkybkfydxwhv84rwxgz9zsz7n31hlcyw5x58624x4h2";
+        url = "https://elpa.gnu.org/packages/tramp-2.8.0.5.tar";
+        sha256 = "18qazsfc1j15rm3l9qybzbkm892apdwqd6pp2mymprshpyhgc7a7";
       };
       packageRequires = [ ];
       meta = {
