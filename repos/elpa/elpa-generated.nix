@@ -6395,10 +6395,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.38";
+      version = "9.7.39";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.38.tar";
-        sha256 = "1y752wx4hhfgwkn9i9rrl6hjgpwb38g0zanpvyxxkzxy3n2fv079";
+        url = "https://elpa.gnu.org/packages/org-9.7.39.tar";
+        sha256 = "1yg50h84sqd2wfpcyxkwyvrvr30cqdqdvcl6kcsja22si19yjbxw";
       };
       packageRequires = [ ];
       meta = {
@@ -6694,10 +6694,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.9";
+      version = "1.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/osm-1.9.tar";
-        sha256 = "0ankxndigmjwxad3ryrlkc99pqgja7wywf3b77j5y5sph0zyc0hs";
+        url = "https://elpa.gnu.org/packages/osm-1.10.tar";
+        sha256 = "07rqmwfyx7f9rwqzjiikajbyii6yjimr9y2rki3ll43p1qqy4zf7";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7313,10 +7313,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.2.0";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/pulsar-1.2.0.tar";
-        sha256 = "03bx06fa7md78xrn10kigrf3p8pm07lxpw70wbhfqgq1b3zr46rl";
+        url = "https://elpa.gnu.org/packages/pulsar-1.3.0.tar";
+        sha256 = "09crkzppbpd02jhd7k0l1iviqwwbbf8pwahha4kpb6kcq8cr0dxh";
       };
       packageRequires = [ ];
       meta = {
@@ -8984,10 +8984,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.8";
+      version = "1.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tempel-1.8.tar";
-        sha256 = "16ghnb1blr04xc084dzafp3lfkcsydn554j39kpfizdxlr4r9zzv";
+        url = "https://elpa.gnu.org/packages/tempel-1.9.tar";
+        sha256 = "128yfnfnd0nd7ck39d9inr3vcbg2w2a5kms5a2l8aba2cb6valnb";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9005,10 +9005,10 @@
     elpaBuild {
       pname = "termint";
       ename = "termint";
-      version = "0.1.1";
+      version = "0.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/termint-0.1.1.tar";
-        sha256 = "1d6hg6bs105a8dzr0v2by0mb9c7v87jwqi4dxxzm6287448x7qqa";
+        url = "https://elpa.gnu.org/packages/termint-0.2.tar";
+        sha256 = "000s1z2535bi5pkg7q3d4y97njy0r5xj51r94a20vjd79jq4227f";
       };
       packageRequires = [ ];
       meta = {
