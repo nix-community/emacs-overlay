@@ -1570,10 +1570,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.4.1.0.20251118.174206";
+      version = "0.4.2.0.20251201.45705";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.4.1.0.20251118.174206.tar";
-        sha256 = "1hf7hqwfssya7dg5n3bmmgxp6fbmg5wmh6g40vr06xbflz0235wd";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.4.2.0.20251201.45705.tar";
+        sha256 = "0rvqzl3n57143banam87xm1bqbrbb9xxzfrqr0j8v5dnf6l6f2s5";
       };
       packageRequires = [
         consult
@@ -2097,10 +2097,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.2.1.0.20251102.81910";
+      version = "0.2.2.0.20251201.50224";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.2.1.0.20251102.81910.tar";
-        sha256 = "0j6aass4dl4320qnnz0bjshhqqkxiwl3g0p5h7rzwms172fnpmly";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.2.2.0.20251201.50224.tar";
+        sha256 = "1hd0z4dnd3iq8k3pnifz7wn7xka57jyykq2ggplspd1wmgmv9v4h";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2119,10 +2119,10 @@
     elpaBuild {
       pname = "denote-markdown";
       ename = "denote-markdown";
-      version = "0.2.0.0.20251017.64227";
+      version = "0.2.1.0.20251201.50143";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-markdown-0.2.0.0.20251017.64227.tar";
-        sha256 = "1qcwnisiyw3zrqsj1igwn3zrc95mvdbk36hymc05fma84nmsyb9m";
+        url = "https://elpa.gnu.org/devel/denote-markdown-0.2.1.0.20251201.50143.tar";
+        sha256 = "0vk7adg7naf3r3fw5fms0j4sy3wfjy0c7rpg6cxphmrwmsbqwibi";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2163,10 +2163,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.2.0.0.20251017.63939";
+      version = "0.2.1.0.20251201.50049";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-org-0.2.0.0.20251017.63939.tar";
-        sha256 = "0bww1m5njj09pghanmwxb7f2dd9z990lnk20r1xykznapdzvq03z";
+        url = "https://elpa.gnu.org/devel/denote-org-0.2.1.0.20251201.50049.tar";
+        sha256 = "01vclgrgvrxhp07j7b0cdhiclxg203sv8zf73s3kja37siv1bvmi";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2207,10 +2207,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.2.0.0.20251129.75924";
+      version = "0.2.0.0.20251201.54404";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.2.0.0.20251129.75924.tar";
-        sha256 = "0z98h55khm0vviskpr8ajgigcvc922wghs441nwil17z2jcxxxry";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.2.0.0.20251201.54404.tar";
+        sha256 = "0xkhaw94r9fm4w146kcm6kq2kyplsy282hwyns5dlr2m05mpafxv";
       };
       packageRequires = [ denote ];
       meta = {
@@ -3222,10 +3222,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "24.0.20251129.194613";
+      version = "24.0.20251201.101049";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-24.0.20251129.194613.tar";
-        sha256 = "0sv0qkqlv0v8bhckrc30l564dvbiv0pgsp2kwpp1j32ah7c4752l";
+        url = "https://elpa.gnu.org/devel/emms-24.0.20251201.101049.tar";
+        sha256 = "01wk4j2hm1wwsx2wqjj1sfh5skngynw494i9jzpas1q7mqqf7fhy";
       };
       packageRequires = [
         cl-lib
@@ -4428,10 +4428,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20251130.125311";
+      version = "9.0.2pre0.20251130.181509";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251130.125311.tar";
-        sha256 = "0palpz4mmd1798z08lmrl8vbmj9ch65vpik36ic2xxz31m77qwh1";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20251130.181509.tar";
+        sha256 = "02xr8jmv3zrdrmsgf98flymgxknm880lwk2wn2sqk5fiips5kfnc";
       };
       packageRequires = [ ];
       meta = {
@@ -7335,10 +7335,10 @@
     elpaBuild {
       pname = "preview-tailor";
       ename = "preview-tailor";
-      version = "0.2.0.20241018.170554";
+      version = "0.2.1.0.20251201.82034";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/preview-tailor-0.2.0.20241018.170554.tar";
-        sha256 = "0wcqrannqgyd1fzydia3q8c5dgk8c89irfrikkz568g2jgwnih16";
+        url = "https://elpa.gnu.org/devel/preview-tailor-0.2.1.0.20251201.82034.tar";
+        sha256 = "10k29lpg36rcnlm4nbn4dgf7dlqfmb167l2rcccplzhf4w3i45n4";
       };
       packageRequires = [ auctex ];
       meta = {
