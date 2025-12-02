@@ -1520,10 +1520,10 @@
     elpaBuild {
       pname = "evil-matchit";
       ename = "evil-matchit";
-      version = "4.0.1.0.20241205.72440";
+      version = "4.0.1.0.20251201.232148";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-matchit-4.0.1.0.20241205.72440.tar";
-        sha256 = "0hi6p25pbn2xh7jzglmpvs5nvrlzi7b4gjm37q1vbyiji9k5xfci";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-matchit-4.0.1.0.20251201.232148.tar";
+        sha256 = "09387xx95x4krhajf2f1292zkqk94m9cdd2d4dv2isc2kyrlav75";
       };
       packageRequires = [ ];
       meta = {
