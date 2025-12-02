@@ -3495,10 +3495,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.7";
+      version = "2.0.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.7.tar";
-        sha256 = "1sk58jd9s623n86wb0gsl80dprfjll5c0rqc41naprrbcjfqfgzn";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.8.tar";
+        sha256 = "1k5kvwldngcmj7av8h6li175x0fp9mi9sgnv1vz5q4vmacv6ymfl";
       };
       packageRequires = [
         persist

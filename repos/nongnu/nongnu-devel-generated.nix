@@ -3480,10 +3480,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.7.0.20251117.145845";
+      version = "2.0.8.0.20251201.155309";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.7.0.20251117.145845.tar";
-        sha256 = "1ar3yb71gnm6gl6h44r23y8bzv03jpcxkn6jsm1hyv779xjrnpg3";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.8.0.20251201.155309.tar";
+        sha256 = "1zj5nmrxn99pp19fcxh1klph5xqp2g3x7xlybqg6dkl95id97qk2";
       };
       packageRequires = [
         persist
@@ -3886,10 +3886,10 @@
     elpaBuild {
       pname = "org-mime";
       ename = "org-mime";
-      version = "0.3.4.0.20251130.10318";
+      version = "0.3.4.0.20251201.24527";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.4.0.20251130.10318.tar";
-        sha256 = "1dia10r7rk71gir931a2y23mrn8kgz5vy44z5xxixhv1bx72k761";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.4.0.20251201.24527.tar";
+        sha256 = "01lqq0rczcf721d0ndf5mqmbj24gz24j5ah6nam7xwhdwmcp1dc0";
       };
       packageRequires = [ ];
       meta = {
@@ -4251,10 +4251,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.61.0.20251126.143425";
+      version = "0.61.0.20251201.135921";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.61.0.20251126.143425.tar";
-        sha256 = "0g96hx5h7b2vsj9il403m4lnjdxbl716hyg813adc3q2527cwdlf";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.61.0.20251201.135921.tar";
+        sha256 = "0z56akyvih8k2gv5khfwlxwk03yc7nvivad23fnbf30g6n29rfb7";
       };
       packageRequires = [ peg ];
       meta = {
