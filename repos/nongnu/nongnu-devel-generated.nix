@@ -844,10 +844,10 @@
     elpaBuild {
       pname = "dart-mode";
       ename = "dart-mode";
-      version = "1.0.7.0.20251121.124027";
+      version = "1.0.7.0.20251203.195437";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20251121.124027.tar";
-        sha256 = "07bc7m8n76ric6gwy85r91wc52rmj8sa31fl89v41d9p1vq545ww";
+        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20251203.195437.tar";
+        sha256 = "1l4p4ybw69ni2vx016bi2nz3kjqziy6nk3vv1nr9gjbslpmkck5k";
       };
       packageRequires = [ ];
       meta = {
@@ -2908,10 +2908,10 @@
     elpaBuild {
       pname = "idris-mode";
       ename = "idris-mode";
-      version = "1.1.0.0.20251128.160804";
+      version = "1.1.0.0.20251203.154827";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20251128.160804.tar";
-        sha256 = "091aa1vk2f6g2xj1yfkxkbx7x15s13iv8awzvqyjfqsbbkc6qyw6";
+        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20251203.154827.tar";
+        sha256 = "1vdyd551nbadsxkyy9zi2247rn8yz3fyxp8nrdcc19vkdx895wdi";
       };
       packageRequires = [
         cl-lib
@@ -3865,10 +3865,10 @@
     elpaBuild {
       pname = "org-journal";
       ename = "org-journal";
-      version = "2.2.0.0.20250525.35745";
+      version = "2.2.0.0.20251203.115702";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-journal-2.2.0.0.20250525.35745.tar";
-        sha256 = "0b00a6sn1ykqzz4f9zqi3z0n586n6q9swf92af3kxc9157av9wq5";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-journal-2.2.0.0.20251203.115702.tar";
+        sha256 = "1rdrkfhk9rj7a7r520x1n7i3ddpd122gknvw7bi1ab76rnq95zyl";
       };
       packageRequires = [ org ];
       meta = {
