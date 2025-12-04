@@ -2901,10 +2901,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.5.3";
+      version = "2.6.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/el-job-2.5.3.tar";
-        sha256 = "0wigrrn5qw0dknlr9jwgq89jvhbmpyxvxsyh4lb9lm0vpd1vdfyg";
+        url = "https://elpa.gnu.org/packages/el-job-2.6.1.tar";
+        sha256 = "1ghpi0hgvvbqq18c0f6n4pgajjdhad8gr03xg51byablkahfwwsz";
       };
       packageRequires = [ ];
       meta = {
@@ -7313,10 +7313,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.3.0";
+      version = "1.3.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/pulsar-1.3.0.tar";
-        sha256 = "09crkzppbpd02jhd7k0l1iviqwwbbf8pwahha4kpb6kcq8cr0dxh";
+        url = "https://elpa.gnu.org/packages/pulsar-1.3.1.tar";
+        sha256 = "0nl4rjmjr6hrv98dmy2akb7qrvr9108nh83lxrhkpzf2ah01jgjp";
       };
       packageRequires = [ ];
       meta = {
