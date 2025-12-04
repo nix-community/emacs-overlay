@@ -54,10 +54,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.6.0.20251122.154759";
+      version = "1.6.0.20251203.181819";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.6.0.20251122.154759.tar";
-        sha256 = "17l9jdmdlhkwimgmggicp5vqh6ly24g498g9mbfknq61i1g7pl72";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.6.0.20251203.181819.tar";
+        sha256 = "0kyy5fw8397hcahm4wlvl51ch2fbrlw2r8arvcxflssngy7cbbaa";
       };
       packageRequires = [
         compat
@@ -3457,10 +3457,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.8alpha0.20251028.41247";
+      version = "2.8alpha0.20251204.85213";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20251028.41247.tar";
-        sha256 = "09f9h6x9p56x9ljfqgalvh0l8lpzpx4zy6j8vmh3cz00ib6nn83v";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20251204.85213.tar";
+        sha256 = "01h8yxfi54691ph8idzlh80lnx1wjapv0hq0vbffcr5z6pk5s00l";
       };
       packageRequires = [ ];
       meta = {
