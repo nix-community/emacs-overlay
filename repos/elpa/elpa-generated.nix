@@ -4474,10 +4474,10 @@
     elpaBuild {
       pname = "inspector";
       ename = "inspector";
-      version = "0.38";
+      version = "0.39";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/inspector-0.38.tar";
-        sha256 = "1b0hb8cd85p41kzalkkg698qx515gzrr85d6j7wn2b8h3rrpp3g4";
+        url = "https://elpa.gnu.org/packages/inspector-0.39.tar";
+        sha256 = "0rapxw79zj9kwianji46nnbsgnsf67mfcxahwqlycn3kjkh5fqqa";
       };
       packageRequires = [ ];
       meta = {
