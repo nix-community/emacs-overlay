@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.5.0.20251204.191030";
+      version = "2.5.0.20251204.213502";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.5.0.20251204.191030.tar";
-        sha256 = "13wm47pbh1p673fz8vai36p5rwd8w6bw8mjf1b46fnbm2g4vkw1i";
+        url = "https://elpa.gnu.org/devel/corfu-2.5.0.20251204.213502.tar";
+        sha256 = "0favwqdw7fnimzni77jb67777psbflmd8r61k4s3ymixvmd1nmv3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5838,10 +5838,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.6.0.0.20251121.220353";
+      version = "0.6.0.0.20251204.174348";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.6.0.0.20251121.220353.tar";
-        sha256 = "10lfhvi1qkmnfq5addh3zqxvkv1qabzb0l9ckq5v8d0rxdyhpgac";
+        url = "https://elpa.gnu.org/devel/minuet-0.6.0.0.20251204.174348.tar";
+        sha256 = "18kmgdr0xmh2rcv0qm7c6zb3j3v8lq35n5l5y5nhdmv1yxqkx535";
       };
       packageRequires = [
         dash
@@ -9977,10 +9977,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.4.0.20251129.105545";
+      version = "0.4.0.20251205.103738";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.4.0.20251129.105545.tar";
-        sha256 = "16rhidad56cmj0a1zgq9jhkdn1985957f3lf51naqkh1rvddbjqq";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.4.0.20251205.103738.tar";
+        sha256 = "1i0c2g9kmmizgxvckhxknkq0dw37pnh85sbqv7iz8wc5q68msax9";
       };
       packageRequires = [ compat ];
       meta = {
