@@ -1640,10 +1640,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.5";
+      version = "2.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/corfu-2.5.tar";
-        sha256 = "1g6fn32rrvsfhlaxmr184z34mkggrjy9z71yabmmhw7njgvhyhr6";
+        url = "https://elpa.gnu.org/packages/corfu-2.6.tar";
+        sha256 = "0pk3hbml8zcpr2y46xc46wb0lghfc103r3ypmpivynncnxm4yg78";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4852,10 +4852,10 @@
     elpaBuild {
       pname = "json-mode";
       ename = "json-mode";
-      version = "0.2";
+      version = "0.3.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/json-mode-0.2.tar";
-        sha256 = "1ix8nq9rjfgbq8vzzjp179j2wa11il0ys8fjjy9gnlqwk6lnk86h";
+        url = "https://elpa.gnu.org/packages/json-mode-0.3.1.tar";
+        sha256 = "1wh7gdim3i9l6jh2pnh933828d735j0bihcykg7zdjiwl5df5qxw";
       };
       packageRequires = [ ];
       meta = {
@@ -5239,10 +5239,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.27.3";
+      version = "0.28.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/llm-0.27.3.tar";
-        sha256 = "0187msn4wfgnc9rbnqrjzwazzk41d6vb8s1xwd7ynfkibfv1jkya";
+        url = "https://elpa.gnu.org/packages/llm-0.28.0.tar";
+        sha256 = "06hcprr3dkrcsmhp03v8d4j0qfv43pn8v2vlwmh6gsj471hw5i7a";
       };
       packageRequires = [
         compat
@@ -9272,6 +9272,28 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/tramp.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  tramp-hlo = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      tramp,
+    }:
+    elpaBuild {
+      pname = "tramp-hlo";
+      ename = "tramp-hlo";
+      version = "0.0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/tramp-hlo-0.0.1.tar";
+        sha256 = "09a2cf0zd6ls5dmbna7lx6gg2hgznpk7icrj62pw004wpwwa1pxs";
+      };
+      packageRequires = [ tramp ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/tramp-hlo.html";
         license = lib.licenses.free;
       };
     }
