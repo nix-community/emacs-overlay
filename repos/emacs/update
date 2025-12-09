@@ -17,7 +17,7 @@ function update_savannah_branch() {
     version_number=$(echo $commit_data | cut -d '/' -f 2 | cut -d 'T' -f 1 | sed 's/-//g').0
 
     output_branch=$(echo $branch | sed s/"\/"/"_"/)
-    digest=$(nix-prefetch-url --unpack "https://git.savannah.gnu.org/cgit/emacs.git/snapshot/emacs-${commit_sha}.tar.gz")
+    digest=$(nix-prefetch-url --unpack --name "emacs-${commit_sha}.tar.gz" "https://git.savannah.gnu.org/gitweb/?p=emacs.git;a=snapshot;h=${commit_sha};sf=tgz")
     echo "{\"type\": \"savannah\", \"repo\": \"emacs\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > emacs-$output_branch.json
 }
 
