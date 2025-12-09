@@ -4492,10 +4492,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.9.2.0.20251207.155448";
+      version = "0.9.2.0.20251208.83028";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.9.2.0.20251207.155448.tar";
-        sha256 = "1vhw5r61vjgz2vqnma8yff17ss405d02x0s2avpcrw1rskg4d16w";
+        url = "https://elpa.gnu.org/devel/indent-bars-0.9.2.0.20251208.83028.tar";
+        sha256 = "096f2q3ksv14nc87zajmm18c6l9jv9lxgw3jbxhmmd94n105xnrw";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4912,10 +4912,10 @@
     elpaBuild {
       pname = "jsonrpc";
       ename = "jsonrpc";
-      version = "1.0.26.0.20251023.204446";
+      version = "1.0.27.0.20251208.214131";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.26.0.20251023.204446.tar";
-        sha256 = "0a8lk6yza0a4dq7zngf3k0xblzzqsrhrjpp2nq2r8n5kaxa3p1s4";
+        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.27.0.20251208.214131.tar";
+        sha256 = "0liiaa9xgkjaz6aqajm9qaxj13n1l1b5wpn878fvzrhsn2hlacrd";
       };
       packageRequires = [ ];
       meta = {
