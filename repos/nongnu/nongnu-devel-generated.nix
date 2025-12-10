@@ -2475,10 +2475,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251206.195225";
+      version = "0.9.9.3.0.20251209.200603";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251206.195225.tar";
-        sha256 = "1f3ync4cipab9yr972z5sl3ax8dp9vxs53glnmb4m01zb67qkz8l";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251209.200603.tar";
+        sha256 = "1jzwrngng6s7239l217cxpiqlm7qgdgfi114v96x4p7q9abhdz1g";
       };
       packageRequires = [
         compat
@@ -2499,10 +2499,10 @@
     elpaBuild {
       pname = "graphql-mode";
       ename = "graphql-mode";
-      version = "1.0.0.0.20241206.72535";
+      version = "1.0.0.0.20251209.213922";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20241206.72535.tar";
-        sha256 = "06pn5rk0mkswrx2sd589hbqir1wkczjwy453ssk0az4z49g85ks9";
+        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20251209.213922.tar";
+        sha256 = "1p1sqgd298zv641jql4jj5qfl74gmpzyd0s3a8cydwhs6i9r6z51";
       };
       packageRequires = [ ];
       meta = {
