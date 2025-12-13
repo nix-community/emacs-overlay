@@ -17,7 +17,7 @@ def main():
             "ls-remote",
             "--tags",
             "--refs",
-            "https://git.savannah.gnu.org/git/emacs.git",
+            "https://https.git.savannah.gnu.org/git/emacs.git",
             "emacs-[1-9]*",
         ],
         stdout=subprocess.PIPE,
@@ -48,7 +48,7 @@ def main():
             "nix-prefetch-git",
             "--rev",
             f"refs/tags/{latest_tag}",
-            "git://git.savannah.gnu.org/emacs.git",
+            "git://git.git.savannah.gnu.org/emacs.git",
         ],
         stdout=subprocess.PIPE,
         check=True,
@@ -59,7 +59,7 @@ def main():
         json.dump(
             {
                 "type": "savannah",
-                "url": "git://git.savannah.gnu.org/emacs.git",
+                "url": "git://git.git.savannah.gnu.org/emacs.git",
                 "rev": latest_tag,
                 "sha256": digest['sha256'],
                 "version": latest_version,
