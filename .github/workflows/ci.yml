@@ -73,6 +73,10 @@ jobs:
         export GIT_PAGER=
         ./update ${{ matrix.repo }}
 
+    - name: Add a random delay to work around race condition of git update
+      run: |
+        sleep $((RANDOM % 10))
+
     - name: Push commit with updated inputs
       run: |
         git pull --rebase --autostash
