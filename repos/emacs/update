@@ -9,16 +9,18 @@ function update_savannah_branch() {
     branch=$1
     echo emacs $branch
 
-    # Get relevant data (commit id and timestamp) for the latest commit
-    commit_data=$(curl -L "https://cgit.git.savannah.gnu.org/cgit/emacs.git/atom/?h=$branch" | xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -m /atom:feed/atom:entry -v "concat(atom:id,'/',atom:updated)" -n | head -n 1 | sed 's/^urn:sha1://')
+    url="https://https.git.savannah.gnu.org/git/emacs.git"
 
-    # Extract commit sha and build a version number based on date: YYYYMMDD.0
-    commit_sha=$(echo $commit_data | cut -d '/' -f 1)
-    version_number=$(echo $commit_data | cut -d '/' -f 2 | cut -d 'T' -f 1 | sed 's/-//g').0
+    # extract the latest commit sha
+    commit_sha=$(git ls-remote --branches "$url" refs/heads/$branch | cut -f 1)
 
+    source_info=$(nix-prefetch-git --rev $commit_sha "$url")
+
+    digest=$(echo $source_info | jq -r .sha256)
+    # build a version number based on date: YYYYMMDD.0
+    version_number=$(echo $source_info | jq -r .date | cut -d 'T' -f 1 | sed 's/-//g').0
     output_branch=$(echo $branch | sed s/"\/"/"_"/)
-    digest=$(nix-prefetch-git --rev $commit_sha "https://https.git.savannah.gnu.org/git/emacs.git" | jq -r .sha256)
-    echo "{\"type\": \"savannah\", \"url\": \"https://https.git.savannah.gnu.org/git/emacs.git\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > emacs-$output_branch.json
+    echo "{\"type\": \"savannah\", \"url\": \"${url}\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > emacs-$output_branch.json
 }
 
 function update_github_repo() {
