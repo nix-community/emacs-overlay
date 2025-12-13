@@ -48,7 +48,7 @@ def main():
             "nix-prefetch-git",
             "--rev",
             f"refs/tags/{latest_tag}",
-            "git://git.git.savannah.gnu.org/emacs.git",
+            "https://https.git.savannah.gnu.org/git/emacs.git",
         ],
         stdout=subprocess.PIPE,
         check=True,
@@ -59,7 +59,7 @@ def main():
         json.dump(
             {
                 "type": "savannah",
-                "url": "git://git.git.savannah.gnu.org/emacs.git",
+                "url": "https://https.git.savannah.gnu.org/git/emacs.git",
                 "rev": latest_tag,
                 "sha256": digest['sha256'],
                 "version": latest_version,
