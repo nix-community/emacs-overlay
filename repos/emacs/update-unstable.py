@@ -45,22 +45,23 @@ def main():
 
     proc = subprocess.run(
         [
-            "nix-prefetch-url",
-            "--unpack",
-            f"https://git.savannah.gnu.org/cgit/emacs.git/snapshot/{latest_tag}.tar.gz",
+            "nix-prefetch-git",
+            "--rev",
+            f"refs/tags/{latest_tag}",
+            "git://git.savannah.gnu.org/emacs.git",
         ],
         stdout=subprocess.PIPE,
         check=True,
     )
-    digest = proc.stdout.decode().strip()
+    digest = json.loads(proc.stdout.decode().strip())
 
     with open("./emacs-unstable.json", "w") as fp:
         json.dump(
             {
                 "type": "savannah",
-                "repo": "emacs",
+                "url": "git://git.savannah.gnu.org/emacs.git",
                 "rev": latest_tag,
-                "sha256": digest,
+                "sha256": digest['sha256'],
                 "version": latest_version,
             },
             fp,

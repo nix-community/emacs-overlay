@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#! nix-shell -i bash -p curl xmlstarlet nix coreutils 'python3.withPackages(ps: [ ps.packaging ])'
+#! nix-shell -i bash -p curl xmlstarlet nix coreutils 'python3.withPackages(ps: [ ps.packaging ])' nix-prefetch-git jq
 set -euxo pipefail
 
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
@@ -17,8 +17,8 @@ function update_savannah_branch() {
     version_number=$(echo $commit_data | cut -d '/' -f 2 | cut -d 'T' -f 1 | sed 's/-//g').0
 
     output_branch=$(echo $branch | sed s/"\/"/"_"/)
-    digest=$(nix-prefetch-url --unpack "https://git.savannah.gnu.org/cgit/emacs.git/snapshot/emacs-${commit_sha}.tar.gz")
-    echo "{\"type\": \"savannah\", \"repo\": \"emacs\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > emacs-$output_branch.json
+    digest=$(nix-prefetch-git --rev $commit_sha "git://git.savannah.gnu.org/emacs.git" | jq -r .sha256)
+    echo "{\"type\": \"savannah\", \"url\": \"git://git.savannah.gnu.org/emacs.git\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > emacs-$output_branch.json
 }
 
 function update_github_repo() {
