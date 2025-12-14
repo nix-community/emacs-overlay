@@ -2108,10 +2108,10 @@
     elpaBuild {
       pname = "geiser-gauche";
       ename = "geiser-gauche";
-      version = "0.0.2.0.20250311.73546";
+      version = "0.0.2.0.20251213.115937";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-gauche-0.0.2.0.20250311.73546.tar";
-        sha256 = "1fw2fxbzl2mjvm2pj7fzdqlz3l76j8xd76kz0719vb7m6fnf1kwg";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-gauche-0.0.2.0.20251213.115937.tar";
+        sha256 = "02dxms1hwfq9fd2y9kbic2cvjalr05wxlk0dbph46zgw8q7xg3f3";
       };
       packageRequires = [ geiser ];
       meta = {
@@ -2499,10 +2499,10 @@
     elpaBuild {
       pname = "graphql-mode";
       ename = "graphql-mode";
-      version = "1.0.0.0.20251209.213922";
+      version = "1.0.0.0.20251213.111057";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20251209.213922.tar";
-        sha256 = "1p1sqgd298zv641jql4jj5qfl74gmpzyd0s3a8cydwhs6i9r6z51";
+        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20251213.111057.tar";
+        sha256 = "124rip18n6q2xycizvwd753b8waxi2ljpgm32p481yl4w8hgj75i";
       };
       packageRequires = [ ];
       meta = {
@@ -2672,10 +2672,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20251212.52513";
+      version = "4.0.6.0.20251212.55548";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251212.52513.tar";
-        sha256 = "0qig1xfsld56ycwf901pahjmi6r5q1wvgihimr210l9jwkc9gd5i";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251212.55548.tar";
+        sha256 = "0xp1rjm1nfq3k87hp73282xydllmm6pqbpxnpbrzp5zp00l6wwvl";
       };
       packageRequires = [
         helm-core
@@ -2697,10 +2697,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20251212.52513";
+      version = "4.0.6.0.20251212.55548";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251212.52513.tar";
-        sha256 = "19ymwj37lz5r1hiirzhag4jzn8ma0xiaqxkf26mn2m2gphj8vp0r";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251212.55548.tar";
+        sha256 = "1l79l1wk5p8808ycfn8azz6jpi7hbq4s95kw85867qx8lkg0vi4h";
       };
       packageRequires = [ async ];
       meta = {
@@ -4742,10 +4742,10 @@
     elpaBuild {
       pname = "scroll-on-jump";
       ename = "scroll-on-jump";
-      version = "0.3.0.20251130.25126";
+      version = "0.3.0.20251213.114045";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.3.0.20251130.25126.tar";
-        sha256 = "1chc7xzwi1k1abrz4sf5gcv6pxvnzry4dl6fnskrh63hwph9dgk7";
+        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.3.0.20251213.114045.tar";
+        sha256 = "15hk8k8dsvsw67fivbbqasdbqf2i36sqr5l8d1p316zsf0y972ja";
       };
       packageRequires = [ ];
       meta = {
