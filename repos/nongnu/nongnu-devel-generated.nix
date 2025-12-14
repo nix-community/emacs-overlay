@@ -951,10 +951,10 @@
     elpaBuild {
       pname = "diff-ansi";
       ename = "diff-ansi";
-      version = "0.2.0.20251126.113407";
+      version = "0.2.0.20251214.63409";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20251126.113407.tar";
-        sha256 = "1018a6finysf24xvfyhv9x6001kz9hn9lzvp1dy8ywv2pd9bb9g3";
+        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20251214.63409.tar";
+        sha256 = "0jfh065kv633zrdb92nik4g0a4bdnjxjyinhqys4gpzxmy0wcp78";
       };
       packageRequires = [ ];
       meta = {
@@ -2475,10 +2475,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251212.12629";
+      version = "0.9.9.3.0.20251214.3732";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251212.12629.tar";
-        sha256 = "0rf2glz6pkd79lpbf66fp1rswy4qrr9fqsm2f0prn9ic3zp8cx4d";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251214.3732.tar";
+        sha256 = "0bmn3f0yah7lznrqbash4wbg77x4lsxficnw6razarwhi7v60vy7";
       };
       packageRequires = [
         compat
@@ -2885,10 +2885,10 @@
     elpaBuild {
       pname = "idle-highlight-mode";
       ename = "idle-highlight-mode";
-      version = "1.1.4.0.20251126.113001";
+      version = "1.1.5.0.20251214.61439";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idle-highlight-mode-1.1.4.0.20251126.113001.tar";
-        sha256 = "0qv1m4dvy7akywjjyjpa1l8xxwwmc2v7ycvqcr2sknlyk9hsi5pz";
+        url = "https://elpa.nongnu.org/nongnu-devel/idle-highlight-mode-1.1.5.0.20251214.61439.tar";
+        sha256 = "1d3lrjwvw721i39xq3wa7p9xp15rsvxnbpa33gcpzxpmhasyhpyr";
       };
       packageRequires = [ ];
       meta = {

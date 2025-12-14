@@ -2900,10 +2900,10 @@
     elpaBuild {
       pname = "idle-highlight-mode";
       ename = "idle-highlight-mode";
-      version = "1.1.4";
+      version = "1.1.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/idle-highlight-mode-1.1.4.tar";
-        sha256 = "0vp45ww8bxacrwzv0jqzs782symxysmpvawd29pa1yci1qp2pvm5";
+        url = "https://elpa.nongnu.org/nongnu/idle-highlight-mode-1.1.5.tar";
+        sha256 = "0wr7xakvvdykj4gwmi88w6jbwgiyj85fq1y7k0f50i0631xbwvpq";
       };
       packageRequires = [ ];
       meta = {
