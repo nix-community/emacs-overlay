@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0.0.20251210.84521";
+      version = "14.1.0.0.20251213.191246";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20251210.84521.tar";
-        sha256 = "0rkr9i710rdi9281g4gnn012bqbnfsxsyvkzhvbddmajnzpq73ik";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.0.0.20251213.191246.tar";
+        sha256 = "1awhnwjndlkh07ngr2p6g4w2xsimhkj80w32cgpzy2b0h7zfdf9q";
       };
       packageRequires = [ ];
       meta = {
@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.6.0.20251212.131007";
+      version = "2.6.0.20251213.195930";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251212.131007.tar";
-        sha256 = "1dwkqfpl377fqciz9ys1aqyvn51hyn677p17mdgg0bv18zm0xhhr";
+        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251213.195930.tar";
+        sha256 = "1r0sqfgs25lmlviqj65gsp85klazjm6h02c9ggqxy87w87mbhw1z";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6460,10 +6460,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20251211.124047";
+      version = "9.8pre0.20251213.100706";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251211.124047.tar";
-        sha256 = "1hhdpb8fnff1kcyd8gix0k91c6g1zhkckvaidpay0j2h0nyli96d";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251213.100706.tar";
+        sha256 = "0yng22f4ifr5hcd6dpckn6192h91pf2r5vgw4ia9x3rhyd6afc4w";
       };
       packageRequires = [ ];
       meta = {
@@ -9026,10 +9026,10 @@
     elpaBuild {
       pname = "system-packages";
       ename = "system-packages";
-      version = "1.1.1.0.20250919.135435";
+      version = "1.1.2.0.20251213.72223";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/system-packages-1.1.1.0.20250919.135435.tar";
-        sha256 = "0j7cyrgiyn0vyyc77wz7rjmn4rp7zsv3pqrn5zws2p254r2dyn6g";
+        url = "https://elpa.gnu.org/devel/system-packages-1.1.2.0.20251213.72223.tar";
+        sha256 = "0rsppj8j5bs4b15s7vliv60vh8wqvwm3zmqq5jj219sbjrg5c8nz";
       };
       packageRequires = [ ];
       meta = {

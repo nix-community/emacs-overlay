@@ -8850,10 +8850,10 @@
     elpaBuild {
       pname = "system-packages";
       ename = "system-packages";
-      version = "1.1.1";
+      version = "1.1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/system-packages-1.1.1.tar";
-        sha256 = "0ndnx94ilxha7mby47n29qvr0lrypmsa7d1mxdwd66jd150sar5r";
+        url = "https://elpa.gnu.org/packages/system-packages-1.1.2.tar";
+        sha256 = "0zjblm8jsyi2vkgnclkap5f9j2iakaf1lpajqi3s4qryrfq7rf68";
       };
       packageRequires = [ ];
       meta = {
