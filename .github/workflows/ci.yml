@@ -75,5 +75,10 @@ jobs:
 
     - name: Push commit with updated inputs
       run: |
+        # work around race of git between elpa and nongnu
+        # Between elpa runs `git pull` and `git push`, nongnu may run `git
+        # push`.  Let elpa sleep for 20 seconds and hopefully nongnu has
+        # finished `git push`.
+        [[ ${{ matrix.repo }} == "elpa" ]] && sleep 20
         git pull --rebase --autostash
         git push
