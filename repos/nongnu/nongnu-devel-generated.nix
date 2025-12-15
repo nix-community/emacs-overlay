@@ -3597,10 +3597,10 @@
     elpaBuild {
       pname = "moe-theme";
       ename = "moe-theme";
-      version = "1.1.0.0.20250527.61144";
+      version = "1.1.0.0.20251215.83252";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/moe-theme-1.1.0.0.20250527.61144.tar";
-        sha256 = "056w9sg4nq75rbcl73l86l79s9qzjp9kdiqrmcydicpdk40dm115";
+        url = "https://elpa.nongnu.org/nongnu-devel/moe-theme-1.1.0.0.20251215.83252.tar";
+        sha256 = "190ba64sp0fcj5dzaqmkmfv30m4270ylfy2ydswifj3ahrk6vgzv";
       };
       packageRequires = [ ];
       meta = {
