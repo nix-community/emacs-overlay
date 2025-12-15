@@ -5188,10 +5188,10 @@
     elpaBuild {
       pname = "listen";
       ename = "listen";
-      version = "0.9";
+      version = "0.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/listen-0.9.tar";
-        sha256 = "1g1sv8fs8vl93fah7liaqzgwvc4b1chasx5151ayizz4q2qgwwbp";
+        url = "https://elpa.gnu.org/packages/listen-0.10.tar";
+        sha256 = "0n7shxxyy8zbxkz0g15mi4hrgc4kz2wp3rczcm0g9amcd0k7fc0h";
       };
       packageRequires = [
         persist
@@ -8460,10 +8460,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.7.0";
+      version = "0.8.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/spacious-padding-0.7.0.tar";
-        sha256 = "0kzqg5nddwc061q44zzlhv1kniivda17khz94wdbpb1x2z9ym147";
+        url = "https://elpa.gnu.org/packages/spacious-padding-0.8.0.tar";
+        sha256 = "17nxgal6972m07l0h48c73s2da4zyycl5gpyjn0j5jb2qxs2qxnp";
       };
       packageRequires = [ ];
       meta = {
