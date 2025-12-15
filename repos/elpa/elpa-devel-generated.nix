@@ -1570,10 +1570,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.4.2.0.20251214.71410";
+      version = "0.4.2.0.20251215.75356";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.4.2.0.20251214.71410.tar";
-        sha256 = "0hx5pza8dd1d04447ns83xd105lvgkqwf8napi8v6adciny7gixs";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.4.2.0.20251215.75356.tar";
+        sha256 = "0z3jjh323s3s63d1ldi8w1sd9sypianxh7n34nqf3a9x78x6sbhs";
       };
       packageRequires = [
         consult
@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20251214.72922";
+      version = "4.1.3.0.20251215.75211";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20251214.72922.tar";
-        sha256 = "0pyvg3sjj5pg8gf5w4v80g4353wkhc4x3ycwwigifbbgb7rwr11l";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20251215.75211.tar";
+        sha256 = "0agb81f2ksm612p6hgfvdkiih4daq3j7snc23hqllhlrgh5gmp58";
       };
       packageRequires = [ ];
       meta = {
@@ -2097,10 +2097,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.2.2.0.20251214.52014";
+      version = "0.2.2.0.20251215.75458";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.2.2.0.20251214.52014.tar";
-        sha256 = "046v9ignwbsw4br89b70fdnc5ywflj90afh4v5i63q9cb8d147pj";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.2.2.0.20251215.75458.tar";
+        sha256 = "0m91rdpd45b0rfwm7r8d50lzl2f0pl5lj4ggx7g70y6asv6xf0k6";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2207,10 +2207,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.2.0.0.20251214.53816";
+      version = "0.2.0.0.20251215.75257";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.2.0.0.20251214.53816.tar";
-        sha256 = "0qnp6d2razfh4bqsgfmc5s63pz79yn4jy575q493z75ycb2bc5jh";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.2.0.0.20251215.75257.tar";
+        sha256 = "06djfr1xikr43g03ifjnzw7agdm0lqpf6fr2pcdf5wcj665pl2h8";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2229,10 +2229,10 @@
     elpaBuild {
       pname = "denote-silo";
       ename = "denote-silo";
-      version = "0.2.0.0.20251214.51915";
+      version = "0.2.0.0.20251215.75639";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-silo-0.2.0.0.20251214.51915.tar";
-        sha256 = "12md0pv2v2knw3fb0gj18f789zkwvnrf4f34nfykwabrqhv4yi2i";
+        url = "https://elpa.gnu.org/devel/denote-silo-0.2.0.0.20251215.75639.tar";
+        sha256 = "1yx3qwjx74x72h8xdqyh9frhray7crfwpdkdpx8y3xglgrl44q4j";
       };
       packageRequires = [ denote ];
       meta = {
@@ -5838,10 +5838,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.0.0.20251214.21922";
+      version = "0.7.0.0.20251215.33638";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.0.0.20251214.21922.tar";
-        sha256 = "0x7bi96g3j8fmkr1a3qghyv2kbim1sdwkxg5f7hhsdzsywfh1mh3";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.0.0.20251215.33638.tar";
+        sha256 = "0qfb676qhr0r3r3dglh4f3p9dpp89l7vqm8l31ackrcbk4bj2l49";
       };
       packageRequires = [
         dash
