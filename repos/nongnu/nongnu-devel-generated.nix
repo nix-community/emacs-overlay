@@ -1015,10 +1015,10 @@
     elpaBuild {
       pname = "dockerfile-mode";
       ename = "dockerfile-mode";
-      version = "1.9.0.20251211.131957";
+      version = "1.9.0.20251214.135954";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dockerfile-mode-1.9.0.20251211.131957.tar";
-        sha256 = "0mdll2sjlyvw47719r1hmjs2n1aai01svlpdah10agwyzhh5i3wf";
+        url = "https://elpa.nongnu.org/nongnu-devel/dockerfile-mode-1.9.0.20251214.135954.tar";
+        sha256 = "0c1vkw74lsvfmpa64h356pmracwsdrpc974mc2m0f46d0a9dsv91";
       };
       packageRequires = [ ];
       meta = {
@@ -2475,10 +2475,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251214.3732";
+      version = "0.9.9.3.0.20251214.124700";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251214.3732.tar";
-        sha256 = "0bmn3f0yah7lznrqbash4wbg77x4lsxficnw6razarwhi7v60vy7";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251214.124700.tar";
+        sha256 = "0v2qfj9lq7swii0mhi7csh6qgv1vgriq1rk4n14a3xxz06qfvvd6";
       };
       packageRequires = [
         compat
@@ -4505,10 +4505,10 @@
     elpaBuild {
       pname = "recomplete";
       ename = "recomplete";
-      version = "0.2.0.20251126.51858";
+      version = "0.2.0.20251214.115024";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/recomplete-0.2.0.20251126.51858.tar";
-        sha256 = "1kg9gm95qj2dzlk99rx2zrz6lrgcmm8fp3j5qxnmncsda6caw4p5";
+        url = "https://elpa.nongnu.org/nongnu-devel/recomplete-0.2.0.20251214.115024.tar";
+        sha256 = "1w1vs21fha8qk4fd0gfr4j3b7p9p3an2qw1acdzyg05rqij91w80";
       };
       packageRequires = [ ];
       meta = {
@@ -5582,10 +5582,10 @@
     elpaBuild {
       pname = "web-mode";
       ename = "web-mode";
-      version = "17.3.22.0.20250827.131545";
+      version = "17.3.22.0.20251214.172854";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/web-mode-17.3.22.0.20250827.131545.tar";
-        sha256 = "1qlkdzcm8y3aa3wsh53da7360gavfz3rsvin022581sq05bwys5z";
+        url = "https://elpa.nongnu.org/nongnu-devel/web-mode-17.3.22.0.20251214.172854.tar";
+        sha256 = "1hjmq7w59s4p3qr331r0dz4j5s685cr82ma1q30hdpy0rhxiqh6i";
       };
       packageRequires = [ ];
       meta = {
