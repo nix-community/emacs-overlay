@@ -5239,10 +5239,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.28.0";
+      version = "0.28.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/llm-0.28.0.tar";
-        sha256 = "06hcprr3dkrcsmhp03v8d4j0qfv43pn8v2vlwmh6gsj471hw5i7a";
+        url = "https://elpa.gnu.org/packages/llm-0.28.1.tar";
+        sha256 = "170qi2bqk5lcsvhw35xw7p7rxpf5pbjrx462iv6pnvyyl2yvsmr2";
       };
       packageRequires = [
         compat
@@ -5797,10 +5797,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.0";
+      version = "0.7.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/minuet-0.7.0.tar";
-        sha256 = "10d9ryh204n2l6rwasin1aipq5w2s8icwd633my90584pjqdkmqb";
+        url = "https://elpa.gnu.org/packages/minuet-0.7.1.tar";
+        sha256 = "0g18hfpjryg2kjj5gqr4jf1vgfjglaczd4w19g76233m31kd8f0n";
       };
       packageRequires = [
         dash
@@ -7313,10 +7313,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.3.1";
+      version = "1.3.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/pulsar-1.3.1.tar";
-        sha256 = "0nl4rjmjr6hrv98dmy2akb7qrvr9108nh83lxrhkpzf2ah01jgjp";
+        url = "https://elpa.gnu.org/packages/pulsar-1.3.2.tar";
+        sha256 = "0vy7caf720hcm6mhzyf25k7m6a0rbzsvm6xgx8325gr3hvl16bna";
       };
       packageRequires = [ ];
       meta = {
