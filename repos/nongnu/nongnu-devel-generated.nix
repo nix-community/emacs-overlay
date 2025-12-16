@@ -1563,10 +1563,10 @@
     elpaBuild {
       pname = "evil-numbers";
       ename = "evil-numbers";
-      version = "0.7.0.20250823.61659";
+      version = "0.7.0.20251216.5449";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-numbers-0.7.0.20250823.61659.tar";
-        sha256 = "0snfxd5nkaliz7l33vdflk0sj683klcwa1gzc758rc32byzwmhd6";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-numbers-0.7.0.20251216.5449.tar";
+        sha256 = "0q4ky9cvdql17fa9r41mkr4p9873k81vnzzl0smcki6jm2dj1ik9";
       };
       packageRequires = [ evil ];
       meta = {
