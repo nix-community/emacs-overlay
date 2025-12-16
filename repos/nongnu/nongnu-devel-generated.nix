@@ -4721,10 +4721,10 @@
     elpaBuild {
       pname = "scroll-on-drag";
       ename = "scroll-on-drag";
-      version = "0.1.0.20250913.225149";
+      version = "0.1.0.20251215.114338";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-drag-0.1.0.20250913.225149.tar";
-        sha256 = "1igxyz906bgbrx1g0jc4xv43jfhfb0lwilg0nw05mbd1qajv8q1d";
+        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-drag-0.1.0.20251215.114338.tar";
+        sha256 = "1wz49169gbifwiqpg66v2h6dwb1zvz0brlgc7dd0mbm713frr9y4";
       };
       packageRequires = [ ];
       meta = {
@@ -5889,10 +5889,10 @@
     elpaBuild {
       pname = "yasnippet-snippets";
       ename = "yasnippet-snippets";
-      version = "1.0.0.20251010.101816";
+      version = "1.0.0.20251215.123158";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/yasnippet-snippets-1.0.0.20251010.101816.tar";
-        sha256 = "02acz3l84sprs79iq3fxqrk0579pz31l0i1f1fiszjpn8hiixgbp";
+        url = "https://elpa.nongnu.org/nongnu-devel/yasnippet-snippets-1.0.0.20251215.123158.tar";
+        sha256 = "1sqm4j3b5azb3h7173mc43iyqywyp083ybdk07ivv1dydj2mqswv";
       };
       packageRequires = [ yasnippet ];
       meta = {
