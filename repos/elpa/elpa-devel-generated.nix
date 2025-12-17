@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.6.0.20251214.190120";
+      version = "2.6.0.20251216.120809";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251214.190120.tar";
-        sha256 = "12ha5z6wvm33hqv0ymahn67pc7xqbmg1prclk5aiadw6adhzygw6";
+        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251216.120809.tar";
+        sha256 = "0d5y526697qvvd9sj9ykb4rfzyhq2ll49967hni40lgqfa0gk7rl";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20251216.72532";
+      version = "4.1.3.0.20251216.155551";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20251216.72532.tar";
-        sha256 = "0xy854zs5lwd8diclpq1vrwph4w37ybl4zg9yiyp7b7qlhwkwgfg";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20251216.155551.tar";
+        sha256 = "0rprzkb3h79ymy31cs89w4y2mniijv8rv3ijcfarvxbvbgm933kn";
       };
       packageRequires = [ ];
       meta = {
@@ -2207,10 +2207,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.2.0.0.20251216.43121";
+      version = "0.2.0.0.20251216.160327";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.2.0.0.20251216.43121.tar";
-        sha256 = "1dzyg1aiqf9p1bqc75snzhdkqmhzr8nibria93xklgvfy7jf0jp3";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.2.0.0.20251216.160327.tar";
+        sha256 = "14rgr8j25pd6ifbfv79sc2kjqc47c273bmcc5j24vaa0kfvsz3xd";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2913,10 +2913,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.19.0.20251215.210054";
+      version = "1.19.0.20251216.212006";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.19.0.20251215.210054.tar";
-        sha256 = "0a7drzpg5dmmffw967khbi4cmp2n2wxhw9xf91mr6iyi6mz5hpkj";
+        url = "https://elpa.gnu.org/devel/eglot-1.19.0.20251216.212006.tar";
+        sha256 = "0wnd7p25a3qzs0adjj6kmrrc5grmjfq05h7wy1ic093paw7665f1";
       };
       packageRequires = [
         eldoc
