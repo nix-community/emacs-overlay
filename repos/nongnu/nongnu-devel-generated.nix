@@ -5322,10 +5322,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20251211.221403";
+      version = "0.2.1.0.20251216.34122";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20251211.221403.tar";
-        sha256 = "0wb0lkjp23z73mv0a4vnh2jjk1b105g4hc5dim5pbw2rpwwzyrk5";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20251216.34122.tar";
+        sha256 = "03gndhy8hjjh3yskcmr8l21cy1b5dpjihnhksl8kaacr77wf2l0q";
       };
       packageRequires = [ ];
       meta = {
