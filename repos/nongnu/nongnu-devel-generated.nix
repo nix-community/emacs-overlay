@@ -2475,10 +2475,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251216.142434";
+      version = "0.9.9.3.0.20251217.182413";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251216.142434.tar";
-        sha256 = "0vlwks87230gawqgp0i69a1rwl1091yzyhph9aqk41mhm8bw8s01";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251217.182413.tar";
+        sha256 = "0wr8sr2ynxqnl5pr4ipvw84nbxnsi66msr85rfzfqgxhygg17hbw";
       };
       packageRequires = [
         compat
@@ -3271,10 +3271,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.15.0.0.20251217.205603";
+      version = "0.15.0.0.20251217.225540";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20251217.205603.tar";
-        sha256 = "101ryd2rzqaa628x2k9dllla3xqj3v8v9bw5q0r5qw57sangxmzx";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20251217.225540.tar";
+        sha256 = "08a1lc0x6qjp5phv1pr3dajckxd7phb3qgynl3w6nhngfijrr1sj";
       };
       packageRequires = [
         compat
@@ -3597,10 +3597,10 @@
     elpaBuild {
       pname = "moe-theme";
       ename = "moe-theme";
-      version = "1.1.0.0.20251215.83252";
+      version = "1.1.0.0.20251218.53629";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/moe-theme-1.1.0.0.20251215.83252.tar";
-        sha256 = "190ba64sp0fcj5dzaqmkmfv30m4270ylfy2ydswifj3ahrk6vgzv";
+        url = "https://elpa.nongnu.org/nongnu-devel/moe-theme-1.1.0.0.20251218.53629.tar";
+        sha256 = "09dgdxlcgvsssq9s6p2xkh1c3lyaaqcpgxgaicvvsv75h22mn8a0";
       };
       packageRequires = [ ];
       meta = {
