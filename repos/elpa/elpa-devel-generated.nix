@@ -2913,10 +2913,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.19.0.20251216.212006";
+      version = "1.19.0.20251217.120607";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.19.0.20251216.212006.tar";
-        sha256 = "0wnd7p25a3qzs0adjj6kmrrc5grmjfq05h7wy1ic093paw7665f1";
+        url = "https://elpa.gnu.org/devel/eglot-1.19.0.20251217.120607.tar";
+        sha256 = "0zy2h3nfbdqycp59mm0pvg59xibqq8j4x8d22pf2dxg0qdjy63x9";
       };
       packageRequires = [
         eldoc
@@ -6460,10 +6460,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20251214.201930";
+      version = "9.8pre0.20251217.202011";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251214.201930.tar";
-        sha256 = "1gv20rls8h4m7xf58p8c10gqfqwpmz7n55aywwz1zpg4gzsbv3mj";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251217.202011.tar";
+        sha256 = "0navx0y3ann6l20crlaqf8j4p9q9vicdhg6dzfgkxrk7g122c81w";
       };
       packageRequires = [ ];
       meta = {
@@ -6929,10 +6929,10 @@
     elpaBuild {
       pname = "peg";
       ename = "peg";
-      version = "1.0.1.0.20221221.81502";
+      version = "1.0.2.0.20251217.104723";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/peg-1.0.1.0.20221221.81502.tar";
-        sha256 = "0gc41pf2gy01bmjgx09c1kifi6pkhcm8jrbdx1ncblhix76ia4q4";
+        url = "https://elpa.gnu.org/devel/peg-1.0.2.0.20251217.104723.tar";
+        sha256 = "02z92qqji7fkxaxrixdvf3bkv743bs2mki5x0mkv61g9vyq2rb1c";
       };
       packageRequires = [ ];
       meta = {
@@ -7207,10 +7207,10 @@
     elpaBuild {
       pname = "polymode";
       ename = "polymode";
-      version = "0.2.2.0.20250617.103312";
+      version = "0.2.2.0.20251217.132711";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20250617.103312.tar";
-        sha256 = "0qc8gkkb6n059wbpbr3hk57lxsl5h22l1gsf7rvqk55l6dsb1hl0";
+        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20251217.132711.tar";
+        sha256 = "1qarbpjgggslw7nygkjv85xzgsb0hwyn0lqy5c8y35062idwwnvy";
       };
       packageRequires = [ ];
       meta = {
@@ -9999,10 +9999,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.4.0.20251212.164820";
+      version = "0.4.0.20251217.122902";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.4.0.20251212.164820.tar";
-        sha256 = "051myn0q58xps2v30zympcg5vgqcwz6ajcywkxxcz7fblckzgc9s";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.4.0.20251217.122902.tar";
+        sha256 = "1sq4dg7ndm1c584alp7hn1vx0hlbh7xxmkxwjf3kp5w70ardi099";
       };
       packageRequires = [ compat ];
       meta = {

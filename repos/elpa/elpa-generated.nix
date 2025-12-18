@@ -6864,10 +6864,10 @@
     elpaBuild {
       pname = "peg";
       ename = "peg";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/peg-1.0.1.tar";
-        sha256 = "14ll56fn9n11nydydslp7xyn79122dprm89i181ks170v0qcsps3";
+        url = "https://elpa.gnu.org/packages/peg-1.0.2.tar";
+        sha256 = "133ngzl4chk63a8d3wh5k9zkmbfj9ag639yrk9i5zq1xa2aihcxb";
       };
       packageRequires = [ ];
       meta = {
