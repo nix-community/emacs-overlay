@@ -3271,10 +3271,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.15.0.0.20251203.5407";
+      version = "0.15.0.0.20251217.205603";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20251203.5407.tar";
-        sha256 = "1gxb7lr58i7kmz567da3lni9p9hxcd6ykn2kx7f5fp1qvs5agyhp";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20251217.205603.tar";
+        sha256 = "101ryd2rzqaa628x2k9dllla3xqj3v8v9bw5q0r5qw57sangxmzx";
       };
       packageRequires = [
         compat
@@ -3398,10 +3398,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.2.0.20251212.110839";
+      version = "4.4.2.0.20251217.183610";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251212.110839.tar";
-        sha256 = "0bddi02rxqbcxaakjb3k375gnvs495kjvfc5p2pvxxir5w2gfvdz";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251217.183610.tar";
+        sha256 = "12cq9zkk6djfy9snjd97vvzcl8b2dvq1f9xaak43shfhsh91z94a";
       };
       packageRequires = [
         compat
@@ -3431,10 +3431,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.2.0.20251212.110839";
+      version = "4.4.2.0.20251217.183610";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251212.110839.tar";
-        sha256 = "10dxxggzam6lfk3mk20hw2ngajv5db7dsdsc66ysavigvlb1kka9";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251217.183610.tar";
+        sha256 = "18845zhvgq1d77fx2nqydgfkgc6i6y9phha276n3h4yjf7rpfix6";
       };
       packageRequires = [
         compat
