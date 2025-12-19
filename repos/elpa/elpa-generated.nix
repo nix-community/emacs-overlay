@@ -3045,10 +3045,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.8.6";
+      version = "1.8.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.8.6.tar";
-        sha256 = "03ckmz16r1xinb7h7gcf5h030b4axv44l9wanw9d6qwydgy6hl6r";
+        url = "https://elpa.gnu.org/packages/ellama-1.8.8.tar";
+        sha256 = "0jhdazp47hkr8w81dzgzc09dshwld19j3i6y8id7swiqv7wlhlky";
       };
       packageRequires = [
         compat
@@ -9286,10 +9286,10 @@
     elpaBuild {
       pname = "tramp-hlo";
       ename = "tramp-hlo";
-      version = "0.0.1";
+      version = "0.0.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-hlo-0.0.1.tar";
-        sha256 = "09a2cf0zd6ls5dmbna7lx6gg2hgznpk7icrj62pw004wpwwa1pxs";
+        url = "https://elpa.gnu.org/packages/tramp-hlo-0.0.2.tar";
+        sha256 = "1bs3wz644ibc332nxzf880zklmwsfwhlimdvamas3568ns21xqn0";
       };
       packageRequires = [ tramp ];
       meta = {
