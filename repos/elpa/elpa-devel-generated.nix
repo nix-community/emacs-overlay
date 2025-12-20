@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.6.0.20251216.120809";
+      version = "2.6.0.20251219.201951";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251216.120809.tar";
-        sha256 = "0d5y526697qvvd9sj9ykb4rfzyhq2ll49967hni40lgqfa0gk7rl";
+        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251219.201951.tar";
+        sha256 = "1rdsfpj42mpi6a0h0dlbvh8b1sjd4vpavfnjirjxw9zvh1v244wn";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3086,10 +3086,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.9.0.0.20251218.214839";
+      version = "1.9.0.0.20251219.203947";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.9.0.0.20251218.214839.tar";
-        sha256 = "0rn9b708lb05skhyr7qkvjzs1frnrsy18l287hw37iwk3mwq7g3g";
+        url = "https://elpa.gnu.org/devel/ellama-1.9.0.0.20251219.203947.tar";
+        sha256 = "0iaj7nv4i1v1hxaaq14crv5vz4rbyjmr9xp3nxpqsvhbd0qqv3j5";
       };
       packageRequires = [
         compat
@@ -5518,10 +5518,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.5.0.20251123.113311";
+      version = "2.6.0.20251219.142200";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.5.0.20251123.113311.tar";
-        sha256 = "069s415gpy99fv0kmzg470iilqjpq5x0jq2hj5lihyglwv6pxzsv";
+        url = "https://elpa.gnu.org/devel/marginalia-2.6.0.20251219.142200.tar";
+        sha256 = "00cvpa4wrzncgw7az6679cka8ldbcvg6gnmqbfrgd1iwn0571rvk";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5905,10 +5905,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.1.0.0.20251213.25609";
+      version = "5.1.0.0.20251219.130658";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.1.0.0.20251213.25609.tar";
-        sha256 = "1225wl883rs8cbbiz2cvbmlznz6xwh7qr9w46iw3an992ky9yid0";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.1.0.0.20251219.130658.tar";
+        sha256 = "14yk9040cr29s895phmp9px3x5yaxnwmvd3v5z52pz0lz0nf01y7";
       };
       packageRequires = [ ];
       meta = {
@@ -6579,10 +6579,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.10.0.20251216.82644";
+      version = "1.11.0.20251219.142444";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.10.0.20251216.82644.tar";
-        sha256 = "0shjbyknn23yhvb15y204qg7z4nnbbfdwgkgjhh3vckf8spi1c6v";
+        url = "https://elpa.gnu.org/devel/org-modern-1.11.0.20251219.142444.tar";
+        sha256 = "0plbsm7d7zbammxy74cs9mvc6f1jqzx5m01wfkp0knhfywni6pnx";
       };
       packageRequires = [
         compat
@@ -6603,10 +6603,10 @@
     elpaBuild {
       pname = "org-notify";
       ename = "org-notify";
-      version = "0.1.1.0.20231016.93952";
+      version = "0.1.2.0.20251219.195448";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-notify-0.1.1.0.20231016.93952.tar";
-        sha256 = "0pxm5pbmsf965daf3y7v5x6ca8ddi2a9d4lm04ky3113zz5ay95d";
+        url = "https://elpa.gnu.org/devel/org-notify-0.1.2.0.20251219.195448.tar";
+        sha256 = "0mxbqyc55506rhyqpv6phmms55c17axr10iqi7yzzl47vv4r5mzs";
       };
       packageRequires = [ ];
       meta = {
@@ -6759,10 +6759,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.10.0.20251202.205816";
+      version = "1.11.0.20251219.192528";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.10.0.20251202.205816.tar";
-        sha256 = "0fxv4ld57i77bgknapmddnw7bcnkr7s0iqf872d2vhrqi9lc97lf";
+        url = "https://elpa.gnu.org/devel/osm-1.11.0.20251219.192528.tar";
+        sha256 = "066xqr3md7jhx12rz572cgz96plwg1p7djsjzidy17vpj71bfx47";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9999,10 +9999,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.4.0.20251218.80751";
+      version = "0.4.0.20251219.134548";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.4.0.20251218.80751.tar";
-        sha256 = "15v130fpsr57a2ikws8wzkr41ychp7g11p9dlslh3aqwhmcc5x0g";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.4.0.20251219.134548.tar";
+        sha256 = "08iqfk65sjqayljhiix8r1vzvbcp93b44f8vlccy6zvfdymrq729";
       };
       packageRequires = [ compat ];
       meta = {

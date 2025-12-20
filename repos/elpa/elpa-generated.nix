@@ -5477,10 +5477,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.5";
+      version = "2.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/marginalia-2.5.tar";
-        sha256 = "0qjb7nznr08nps9drkfpmkwl59cfzrgyfzmqsmhgbrmaa79qly84";
+        url = "https://elpa.gnu.org/packages/marginalia-2.6.tar";
+        sha256 = "082jkql871dflsnswdbxrifyfq4hi1r2f12kwsvkdxcsc93s32s8";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6514,10 +6514,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.10";
+      version = "1.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-modern-1.10.tar";
-        sha256 = "07fn1milsx61slc3pg065027w8jp17ab07h2n3qg3rl5zq4l7qpl";
+        url = "https://elpa.gnu.org/packages/org-modern-1.11.tar";
+        sha256 = "1y97pwywbhv3a1nz7acm717jkl72jr3c38qwyx7kxk6vda9b745a";
       };
       packageRequires = [
         compat
@@ -6538,10 +6538,10 @@
     elpaBuild {
       pname = "org-notify";
       ename = "org-notify";
-      version = "0.1.1";
+      version = "0.1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-notify-0.1.1.tar";
-        sha256 = "1vg0h32x5lc3p5n71m23q8mfdd1fq9ffmy9rsm5rcdphfk8s9x5l";
+        url = "https://elpa.gnu.org/packages/org-notify-0.1.2.tar";
+        sha256 = "02ndims0d0rbzjql6riadnhxn7d8br4s9fybm70j5hknli7x0azc";
       };
       packageRequires = [ ];
       meta = {
@@ -6694,10 +6694,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.10";
+      version = "1.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/osm-1.10.tar";
-        sha256 = "07rqmwfyx7f9rwqzjiikajbyii6yjimr9y2rki3ll43p1qqy4zf7";
+        url = "https://elpa.gnu.org/packages/osm-1.11.tar";
+        sha256 = "0w22px6xz4bgfw5j5szqgldyg36l4nh7h1xlia50bs8947pb9f2a";
       };
       packageRequires = [ compat ];
       meta = {
