@@ -3398,10 +3398,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.2.0.20251217.183610";
+      version = "4.4.2.0.20251220.91723";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251217.183610.tar";
-        sha256 = "12cq9zkk6djfy9snjd97vvzcl8b2dvq1f9xaak43shfhsh91z94a";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251220.91723.tar";
+        sha256 = "1dbi6x28kr81w2w6h3z559zv3f6dxm6cpf680hafg22kqi9iz6xr";
       };
       packageRequires = [
         compat
@@ -3431,10 +3431,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.2.0.20251217.183610";
+      version = "4.4.2.0.20251220.91723";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251217.183610.tar";
-        sha256 = "18845zhvgq1d77fx2nqydgfkgc6i6y9phha276n3h4yjf7rpfix6";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251220.91723.tar";
+        sha256 = "1ipg6p17gfk5xmfvr2qkjk7mhnprd0pdm8slfzfyl6acla0qc6hr";
       };
       packageRequires = [
         compat
@@ -4421,10 +4421,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20251106.215641";
+      version = "1.0.20251220.93632";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20251106.215641.tar";
-        sha256 = "1kkmb5b64h7az0nc22xrbrwb55l8bvw13xq7s5kqwx0xikj9q9yl";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20251220.93632.tar";
+        sha256 = "0dy7qyq9blqbkvjsz23cnrp4y2c1l5gsqr3cylriiwwab9zz6gm5";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5547,26 +5547,20 @@
   ) { };
   vm = callPackage (
     {
-      cl-lib ? null,
       elpaBuild,
       fetchurl,
       lib,
-      nadvice,
       vcard,
     }:
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.0snapshot0.20251209.100613";
+      version = "8.3.0snapshot0.20251220.83145";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20251209.100613.tar";
-        sha256 = "088s9iqmg8dy15v435y9hj3732c3mv8nz9vv8av9ggr255vxjsys";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.0snapshot0.20251220.83145.tar";
+        sha256 = "0765g4rcqbphrsdbacyhv0v77jzp0bxms41h0jmkvw1h8pfz6l6q";
       };
-      packageRequires = [
-        cl-lib
-        nadvice
-        vcard
-      ];
+      packageRequires = [ vcard ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/vm.html";
         license = lib.licenses.free;
