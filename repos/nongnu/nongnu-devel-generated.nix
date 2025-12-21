@@ -1143,10 +1143,10 @@
     elpaBuild {
       pname = "editorconfig";
       ename = "editorconfig";
-      version = "0.11.0.0.20251206.73858";
+      version = "0.11.0.0.20251220.225022";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20251206.73858.tar";
-        sha256 = "14czah9zslvzkyc2zgdvk47qg1acry0w6xigzqnxym8d49rggabr";
+        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20251220.225022.tar";
+        sha256 = "1a15m4ddajqalycfl5gkdc7q6lyip2l7yjxvyqcvfahkdb7b9bk1";
       };
       packageRequires = [ ];
       meta = {
@@ -1998,10 +1998,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.32.0.20250922.234403";
+      version = "0.32.0.20251220.230156";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.32.0.20250922.234403.tar";
-        sha256 = "0r0nxkba7hj2hh90d7j471p3v26q91v0jfq3p7xddbc64zb27hbc";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.32.0.20251220.230156.tar";
+        sha256 = "1a6l6b659h9mf0dqc6yvq2pc75x3rw3ysn6k9ap5pyrsdz7286f5";
       };
       packageRequires = [ project ];
       meta = {
@@ -5017,10 +5017,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.25.0.20251010.214554";
+      version = "1.2.25.0.20251220.184030";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.25.0.20251010.214554.tar";
-        sha256 = "1c2n4vn4mxblfjgphhp5f9987j8pj8kj8qrh7lidpgcl0hjnbm8l";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.25.0.20251220.184030.tar";
+        sha256 = "1vlhmchh9vzzcpy0q7b35g79ar67rfh168l4mrc03iqgd4hs6m5j";
       };
       packageRequires = [ ];
       meta = {
@@ -5322,10 +5322,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20251217.75402";
+      version = "0.2.1.0.20251221.4029";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20251217.75402.tar";
-        sha256 = "1abcgzvh8ng2a1jnq1bqvm9bd106z396n0l7q4y4g86grw2q4gkg";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20251221.4029.tar";
+        sha256 = "0kp2baa4g4d7yxldlyh6c3jvxs8ajl9apj7823vqphdh8kr7gl67";
       };
       packageRequires = [ ];
       meta = {
