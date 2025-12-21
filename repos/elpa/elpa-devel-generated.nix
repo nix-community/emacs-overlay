@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.6.0.20251220.194619";
+      version = "2.6.0.20251220.205704";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251220.194619.tar";
-        sha256 = "0l8sdw52avgr9g8q5lhngjdd82wpxrzf9ywclb9f6y3balkbpq18";
+        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251220.205704.tar";
+        sha256 = "0601wrvk4yq3a7qaacksv825897ivb0c9mcmhp97snzd974n6r81";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3086,10 +3086,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.9.0.0.20251219.203947";
+      version = "1.9.1.0.20251220.224607";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.9.0.0.20251219.203947.tar";
-        sha256 = "0iaj7nv4i1v1hxaaq14crv5vz4rbyjmr9xp3nxpqsvhbd0qqv3j5";
+        url = "https://elpa.gnu.org/devel/ellama-1.9.1.0.20251220.224607.tar";
+        sha256 = "1sad5lbi75x4sd5ss748dgvvkckz4wj3ffwjn4m3gk7gzyvf10hm";
       };
       packageRequires = [
         compat
