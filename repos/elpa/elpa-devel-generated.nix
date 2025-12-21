@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.3.0.20251116.194014";
+      version = "2.3.0.20251220.152301";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.3.0.20251116.194014.tar";
-        sha256 = "0zy76c6m7xhfxy843hhbq1bmcrs17ndzcwhb382wp6pqd87by21n";
+        url = "https://elpa.gnu.org/devel/cape-2.3.0.20251220.152301.tar";
+        sha256 = "06d1wdq35awhiw66ry3qdby5p90drprlsc0w1yhfslnvqf7yxrfs";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.6.0.20251219.201951";
+      version = "2.6.0.20251220.194619";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251219.201951.tar";
-        sha256 = "1rdsfpj42mpi6a0h0dlbvh8b1sjd4vpavfnjirjxw9zvh1v244wn";
+        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251220.194619.tar";
+        sha256 = "0l8sdw52avgr9g8q5lhngjdd82wpxrzf9ywclb9f6y3balkbpq18";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6460,10 +6460,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20251217.230727";
+      version = "9.8pre0.20251220.112221";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251217.230727.tar";
-        sha256 = "0p5m0ggrcwhn7xbvcn7y4hzjbwh8jg6pclsid3fsa5qz5w23s4ak";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251220.112221.tar";
+        sha256 = "0i28i0nw93mrbkrrpyi6wipkrb1wf2ahnc7hrzqfws2riwwmnkfj";
       };
       packageRequires = [ ];
       meta = {
@@ -6887,10 +6887,10 @@
     elpaBuild {
       pname = "parser-generator";
       ename = "parser-generator";
-      version = "0.2.5.0.20250505.82351";
+      version = "0.2.6.0.20251220.92657";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/parser-generator-0.2.5.0.20250505.82351.tar";
-        sha256 = "1gdaaas4p6xgmp67fwz0l43fyk0akj6q1vbv8gfgmzyaz9glwkaw";
+        url = "https://elpa.gnu.org/devel/parser-generator-0.2.6.0.20251220.92657.tar";
+        sha256 = "1aawf9kf40wg2zcbblm7bd0lc3bp70ajic0i5gg0hjdinbwqmqs1";
       };
       packageRequires = [ ];
       meta = {
