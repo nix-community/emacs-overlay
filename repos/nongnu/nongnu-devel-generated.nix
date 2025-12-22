@@ -1015,10 +1015,10 @@
     elpaBuild {
       pname = "dockerfile-mode";
       ename = "dockerfile-mode";
-      version = "1.9.0.20251214.135954";
+      version = "1.9.0.20251221.114459";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dockerfile-mode-1.9.0.20251214.135954.tar";
-        sha256 = "0c1vkw74lsvfmpa64h356pmracwsdrpc974mc2m0f46d0a9dsv91";
+        url = "https://elpa.nongnu.org/nongnu-devel/dockerfile-mode-1.9.0.20251221.114459.tar";
+        sha256 = "1dydyvvcmi74pxq3nvjla05i3aayxhpjzkcz6dv2pxl7fh557h78";
       };
       packageRequires = [ ];
       meta = {
@@ -1193,6 +1193,32 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/eldoc-diffstat.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  eldoc-mouse = callPackage (
+    {
+      eglot,
+      elpaBuild,
+      fetchurl,
+      lib,
+      posframe,
+    }:
+    elpaBuild {
+      pname = "eldoc-mouse";
+      ename = "eldoc-mouse";
+      version = "3.0.0.20251219.110114";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.0.20251219.110114.tar";
+        sha256 = "1wj918ddfkljyajjp1j4bh0i5ph8882zicwyknk4a39f450p0abv";
+      };
+      packageRequires = [
+        eglot
+        posframe
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse.html";
         license = lib.licenses.free;
       };
     }
@@ -4891,10 +4917,10 @@
     elpaBuild {
       pname = "spacemacs-theme";
       ename = "spacemacs-theme";
-      version = "0.2.0.20251015.182334";
+      version = "0.2.0.20251221.165628";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20251015.182334.tar";
-        sha256 = "00jgpmnb6x78rzxcwbcgy8mkxkq5gkm346fb0wc96xhhmifs7824";
+        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20251221.165628.tar";
+        sha256 = "16d4g4cyjij8s7pzf0g0pnbsfxzxw8lwdamwaq4whmn5g320yb28";
       };
       packageRequires = [ ];
       meta = {
