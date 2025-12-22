@@ -1570,10 +1570,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.4.2.0.20251215.164855";
+      version = "0.4.2.0.20251222.50446";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.4.2.0.20251215.164855.tar";
-        sha256 = "1zr33qbf1hkpydcy7vl6mddwwpvcngx575vsx3s7dds48q6vb2bq";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.4.2.0.20251222.50446.tar";
+        sha256 = "05ip842d06rc8i8bjybx9gyw60ll4qycnrkdf8zy9xv81k869saz";
       };
       packageRequires = [
         consult
@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20251216.155551";
+      version = "4.1.3.0.20251222.45943";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20251216.155551.tar";
-        sha256 = "0rprzkb3h79ymy31cs89w4y2mniijv8rv3ijcfarvxbvbgm933kn";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20251222.45943.tar";
+        sha256 = "1p1brgv965szn7rmqr74r3rvl7bpyxl1jdlpl3mfbc40barz19q5";
       };
       packageRequires = [ ];
       meta = {
@@ -6887,10 +6887,10 @@
     elpaBuild {
       pname = "parser-generator";
       ename = "parser-generator";
-      version = "0.2.6.0.20251220.92657";
+      version = "0.2.7.0.20251221.222232";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/parser-generator-0.2.6.0.20251220.92657.tar";
-        sha256 = "1aawf9kf40wg2zcbblm7bd0lc3bp70ajic0i5gg0hjdinbwqmqs1";
+        url = "https://elpa.gnu.org/devel/parser-generator-0.2.7.0.20251221.222232.tar";
+        sha256 = "1jjipwac85qw15igyx1skgc7jqajsfc3ks5ypdhrg2bv6v6xiwvn";
       };
       packageRequires = [ ];
       meta = {
