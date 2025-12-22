@@ -25619,9 +25619,19 @@
   "ename": "dired-du-duc",
   "commit": "3cc342c2e3d35e6ea625f6fd857fc7e013b1f7fe",
   "sha256": "152ph7ji9gzx328qaf6if08qiqg5jlmap2fl2xi0vk28linxv7zb",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "meedstrom/dired-du-duc"
+  "repo": "meedstrom/dired-du-duc",
+  "unstable": {
+   "version": [
+    20251221,
+    1514
+   ],
+   "deps": [
+    "dired-du"
+   ],
+   "commit": "4948e2ce646fb6ddcf6a2f14ce42c3a07a828ae1",
+   "sha256": "06arxvkxc2zdz5l2syn7q8ajq5xm0f978ngj8pkw4wg6nfbifdh5"
+  }
  },
  {
   "ename": "dired-duplicates",
@@ -47135,14 +47145,14 @@
   "repo": "erickgnavar/flymake-ruff",
   "unstable": {
    "version": [
-    20250928,
-    1825
+    20251221,
+    2344
    ],
    "deps": [
     "project"
    ],
-   "commit": "fed03d99366bb4666dd0ed101572b093f1a55b09",
-   "sha256": "1b6k6lr483kq9nhs2wkndz7x7qscfwmadnnhsdvlmqdn9mrp3jf6"
+   "commit": "8f1602fa4ddf0abd3dfb8051cbd0259fc351d015",
+   "sha256": "1mm7lq4qrq8m56cwygi2darm1kakwprm4fm1x3h12slgk4fayww5"
   }
  },
  {
@@ -112792,11 +112802,11 @@
   "repo": "vs-123/royal-hemlock-theme",
   "unstable": {
    "version": [
-    20251215,
-    210
+    20251222,
+    518
    ],
-   "commit": "6636721eca46fbb857c46431bd9dd38f43bc5161",
-   "sha256": "1h92lr8k53w0b1f7jw68yvngsh8w9ja3irdqk8i63f0c0wlcf393"
+   "commit": "d085e5382fcb2cf211f06ec7a2c88c12451d1041",
+   "sha256": "1zhqa6mblp12dq7s2c3kz6va5b5qfxkrmzp7dbg0ngh52jkqckm8"
   }
  },
  {
