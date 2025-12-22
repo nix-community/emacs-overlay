@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.3.0.20251220.152301";
+      version = "2.4.0.20251221.184323";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.3.0.20251220.152301.tar";
-        sha256 = "06d1wdq35awhiw66ry3qdby5p90drprlsc0w1yhfslnvqf7yxrfs";
+        url = "https://elpa.gnu.org/devel/cape-2.4.0.20251221.184323.tar";
+        sha256 = "1ids0jxls7cw4vfznvc01q6579sdn6xr46x8q1yq11zab4g9yx1m";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2913,10 +2913,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.19.0.20251219.94353";
+      version = "1.19.0.20251221.174923";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.19.0.20251219.94353.tar";
-        sha256 = "06vrwakfczck6j9lya9cjaiw5wv505yq3kqsqsc9xw3d76jg2v22";
+        url = "https://elpa.gnu.org/devel/eglot-1.19.0.20251221.174923.tar";
+        sha256 = "0j325nqybhrbbg8js3242vjf1qpaj98prxw5k0vd6kkqbihjvpdw";
       };
       packageRequires = [
         eldoc
@@ -6759,10 +6759,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.11.0.20251219.192528";
+      version = "1.12.0.20251221.184448";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.11.0.20251219.192528.tar";
-        sha256 = "066xqr3md7jhx12rz572cgz96plwg1p7djsjzidy17vpj71bfx47";
+        url = "https://elpa.gnu.org/devel/osm-1.12.0.20251221.184448.tar";
+        sha256 = "1532c2zi5qqr0k5xcjl4vpmj717l74mv2z44yiqvnxkr58xghhk0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9999,10 +9999,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.4.0.20251219.134548";
+      version = "0.5.0.20251221.141753";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.4.0.20251219.134548.tar";
-        sha256 = "08iqfk65sjqayljhiix8r1vzvbcp93b44f8vlccy6zvfdymrq729";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20251221.141753.tar";
+        sha256 = "0jz530g3y3had0crnsl9hi01av5ihhb6ga3rsh71rmpcmgs1d1h2";
       };
       packageRequires = [ compat ];
       meta = {

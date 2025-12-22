@@ -1085,10 +1085,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.3";
+      version = "2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cape-2.3.tar";
-        sha256 = "11lq5hkfgr77hnyn6dwyvxw8yb8ixdfk0619pvrm0v1f0qcwmczd";
+        url = "https://elpa.gnu.org/packages/cape-2.4.tar";
+        sha256 = "12xr8gqhwyhvyh8nh8g0n675xsrja5i1m558likfa6np42iw79pc";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6694,10 +6694,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.11";
+      version = "1.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/osm-1.11.tar";
-        sha256 = "0w22px6xz4bgfw5j5szqgldyg36l4nh7h1xlia50bs8947pb9f2a";
+        url = "https://elpa.gnu.org/packages/osm-1.12.tar";
+        sha256 = "0lv2dhqgf46jx557idyv5qwjqn57r8gv2ghjghicx95k0bskf1p2";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9798,10 +9798,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.4";
+      version = "0.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vc-jj-0.4.tar";
-        sha256 = "1wws05yybiwxnx1qyapnw87k74glv8izkk2zlzn21hvqscbknz1y";
+        url = "https://elpa.gnu.org/packages/vc-jj-0.5.tar";
+        sha256 = "1xrv0m15ayx06hxw29k1migl0lq7cmmq2z1inygpwq81g7v3kp6d";
       };
       packageRequires = [ compat ];
       meta = {
