@@ -5610,6 +5610,28 @@
       };
     }
   ) { };
+  vm = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      vcard,
+    }:
+    elpaBuild {
+      pname = "vm";
+      ename = "vm";
+      version = "8.3.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/vm-8.3.0.tar";
+        sha256 = "1q605zk97l03b0037qgk4jiawv9p7pjha9bqgwcirm2c14pkcqff";
+      };
+      packageRequires = [ vcard ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/vm.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   web-mode = callPackage (
     {
       elpaBuild,
