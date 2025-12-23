@@ -1015,10 +1015,10 @@
     elpaBuild {
       pname = "buframe";
       ename = "buframe";
-      version = "0.2.0.20251126.123915";
+      version = "0.2.0.20251222.91356";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/buframe-0.2.0.20251126.123915.tar";
-        sha256 = "0m0m5fllpl12d4d4nkq0g34h78qzlvjh0acjvch0zygxvisdi91g";
+        url = "https://elpa.gnu.org/devel/buframe-0.2.0.20251222.91356.tar";
+        sha256 = "1gmq3wxw2s2hjgpjclpmz1cknnyn21cqkc1ggv77k32i7r1jiaqm";
       };
       packageRequires = [ timeout ];
       meta = {
@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.6.0.20251220.205704";
+      version = "2.6.0.20251222.162742";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251220.205704.tar";
-        sha256 = "0601wrvk4yq3a7qaacksv825897ivb0c9mcmhp97snzd974n6r81";
+        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251222.162742.tar";
+        sha256 = "0962cs9fzl70pmgj8dixwvi49ny5yz4k72b57hx27kfcaklbkw25";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6759,10 +6759,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.12.0.20251221.184448";
+      version = "1.12.0.20251222.195238";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-1.12.0.20251221.184448.tar";
-        sha256 = "1532c2zi5qqr0k5xcjl4vpmj717l74mv2z44yiqvnxkr58xghhk0";
+        url = "https://elpa.gnu.org/devel/osm-1.12.0.20251222.195238.tar";
+        sha256 = "0z459w8m94rxab7zz42f8i20lrsrfcclx3mwgzf44i67rrbf61r1";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7313,10 +7313,10 @@
     elpaBuild {
       pname = "preview-auto";
       ename = "preview-auto";
-      version = "0.4.1.0.20250831.100412";
+      version = "0.4.1.0.20251222.150444";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/preview-auto-0.4.1.0.20250831.100412.tar";
-        sha256 = "0lr67fldqw76r7p8q7lbsw156k50k2adrp90m5n7w7gdsydqycdp";
+        url = "https://elpa.gnu.org/devel/preview-auto-0.4.1.0.20251222.150444.tar";
+        sha256 = "1lrj5053zndswqy914ngxvprcvrgdrrvwr6vlwgjdvmlpk1fyk5i";
       };
       packageRequires = [ auctex ];
       meta = {
