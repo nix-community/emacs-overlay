@@ -1547,10 +1547,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.1.0.20251129.75827";
+      version = "3.1.0.20251223.110305";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.1.0.20251129.75827.tar";
-        sha256 = "1kpgxwhrh3r1br95rdinsj8gy07a7vy01s35l2ngm24f91nkrhrk";
+        url = "https://elpa.gnu.org/devel/consult-3.1.0.20251223.110305.tar";
+        sha256 = "1rvn0hb57ci7jccf37fkn9qcm1xm36x5b06qx1bc9npjw73rm1yw";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.6.0.20251222.162742";
+      version = "2.6.0.20251223.191418";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251222.162742.tar";
-        sha256 = "0962cs9fzl70pmgj8dixwvi49ny5yz4k72b57hx27kfcaklbkw25";
+        url = "https://elpa.gnu.org/devel/corfu-2.6.0.20251223.191418.tar";
+        sha256 = "1n2zh0as36qk92p5hwi3zvv9pmzsjyynfqd859cwqvd78sazi1kw";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5518,10 +5518,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.6.0.20251219.142200";
+      version = "2.6.0.20251223.150931";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.6.0.20251219.142200.tar";
-        sha256 = "00cvpa4wrzncgw7az6679cka8ldbcvg6gnmqbfrgd1iwn0571rvk";
+        url = "https://elpa.gnu.org/devel/marginalia-2.6.0.20251223.150931.tar";
+        sha256 = "1ca9i9jrlcfldiwk83l7qxyb7a29ws0ip9k3s1lvdak32j9mvvys";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10132,10 +10132,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.6.0.20251223.60323";
+      version = "2.6.0.20251223.111402";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.6.0.20251223.60323.tar";
-        sha256 = "1x8nspkmgdgf683z1pxp33wlf3bd4qxv9aryldm565kfmhdvgcdc";
+        url = "https://elpa.gnu.org/devel/vertico-2.6.0.20251223.111402.tar";
+        sha256 = "1vbp20zk5n2gks8i6m0pg583wzygn0sqzj2vbppx8a6gb4h0sgkm";
       };
       packageRequires = [ compat ];
       meta = {
