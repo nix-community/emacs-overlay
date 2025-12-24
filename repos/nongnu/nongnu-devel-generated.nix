@@ -1143,10 +1143,10 @@
     elpaBuild {
       pname = "editorconfig";
       ename = "editorconfig";
-      version = "0.11.0.0.20251220.225022";
+      version = "0.11.0.0.20251224.71928";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20251220.225022.tar";
-        sha256 = "1a15m4ddajqalycfl5gkdc7q6lyip2l7yjxvyqcvfahkdb7b9bk1";
+        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20251224.71928.tar";
+        sha256 = "0hzhiyvvzr3bxwwb1d6pgwvyf74ihn5y5c7zffxg9qxpyyqgqpl5";
       };
       packageRequires = [ ];
       meta = {
@@ -3001,10 +3001,10 @@
     elpaBuild {
       pname = "inf-ruby";
       ename = "inf-ruby";
-      version = "2.9.0.0.20251223.32340";
+      version = "2.9.0.0.20251224.21617";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/inf-ruby-2.9.0.0.20251223.32340.tar";
-        sha256 = "1g6f2la443p85gni1744xa84nzza790mrv54dywvij3s0i0pkmfx";
+        url = "https://elpa.nongnu.org/nongnu-devel/inf-ruby-2.9.0.0.20251224.21617.tar";
+        sha256 = "0km80n6bfhdfr3cq9lw8aq63z8931s4yxd40vqxjqcvp1py9c01b";
       };
       packageRequires = [ ];
       meta = {
