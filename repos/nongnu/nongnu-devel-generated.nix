@@ -1208,10 +1208,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.0.20251219.110114";
+      version = "3.0.0.20251224.150957";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.0.20251219.110114.tar";
-        sha256 = "1wj918ddfkljyajjp1j4bh0i5ph8882zicwyknk4a39f450p0abv";
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.0.20251224.150957.tar";
+        sha256 = "0ll7ggyrm2d8y152vs7b3qjr43qdmpjxzs1v9zplpzacz9mk3nn7";
       };
       packageRequires = [
         eglot
@@ -5348,10 +5348,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20251221.4029";
+      version = "0.2.1.0.20251224.152044";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20251221.4029.tar";
-        sha256 = "0kp2baa4g4d7yxldlyh6c3jvxs8ajl9apj7823vqphdh8kr7gl67";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20251224.152044.tar";
+        sha256 = "0qrr0zig18mh246xbmwhhr2zs8nvdydg7n29kcz4ljzj4b1kq1rf";
       };
       packageRequires = [ ];
       meta = {
