@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "parser-generator";
       ename = "parser-generator";
-      version = "0.2.7";
+      version = "0.2.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/parser-generator-0.2.7.tar";
-        sha256 = "1i9c34rp6bpkakp5a7nr95xz4z30lilfnaz0ld7gyzh3grrq11py";
+        url = "https://elpa.gnu.org/packages/parser-generator-0.2.8.tar";
+        sha256 = "04cwf0qi14lr548wv3n2srx960s1py98y4y93bj34g0hr32rvapk";
       };
       packageRequires = [ ];
       meta = {
