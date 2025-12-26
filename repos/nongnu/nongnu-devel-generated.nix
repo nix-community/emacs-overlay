@@ -1208,10 +1208,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.0.20251224.150957";
+      version = "3.0.1.0.20251225.94548";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.0.20251224.150957.tar";
-        sha256 = "0ll7ggyrm2d8y152vs7b3qjr43qdmpjxzs1v9zplpzacz9mk3nn7";
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.1.0.20251225.94548.tar";
+        sha256 = "09maikzkrhr77yarvr2mw62i52bnsirrkd9yiz09kl16swjczs56";
       };
       packageRequires = [
         eglot
@@ -2698,10 +2698,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20251212.55548";
+      version = "4.0.6.0.20251225.61329";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251212.55548.tar";
-        sha256 = "0xp1rjm1nfq3k87hp73282xydllmm6pqbpxnpbrzp5zp00l6wwvl";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251225.61329.tar";
+        sha256 = "1vbv54rl6hcrywdiim8hidr715w2jn4q6dr0g4hxyl3cfblisgbl";
       };
       packageRequires = [
         helm-core
@@ -2723,10 +2723,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20251212.55548";
+      version = "4.0.6.0.20251225.61329";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251212.55548.tar";
-        sha256 = "1l79l1wk5p8808ycfn8azz6jpi7hbq4s95kw85867qx8lkg0vi4h";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251225.61329.tar";
+        sha256 = "03yr4mmsj7i604m6migk692qvmnkmxgg23l7gch24jivyr4x603i";
       };
       packageRequires = [ async ];
       meta = {
