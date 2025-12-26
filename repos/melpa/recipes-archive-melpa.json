@@ -31073,11 +31073,11 @@
   "url": "https://forge.tedomum.net/hjuvi/eide.git",
   "unstable": {
    "version": [
-    20251122,
-    2140
+    20251226,
+    729
    ],
-   "commit": "e3aeed7fcd2892b0d3d3b8f29743ec864ab7466d",
-   "sha256": "1xcbfbi9dgajsxg4ccxxyfd2k2srqjg1wlmb0hyq40b95h45y7m4"
+   "commit": "3767f271e7783deb85eafe7851fb2a0c597f9651",
+   "sha256": "1dhdrdkbrhaa1xx3g1vm3wir31fqm7f81i01zxcmg856a7l40nf1"
   },
   "stable": {
    "version": [
@@ -31969,14 +31969,15 @@
   "stable": {
    "version": [
     3,
-    0
+    0,
+    1
    ],
    "deps": [
     "eglot",
     "posframe"
    ],
-   "commit": "0b84d1bb46992680181cf67b8f8aeaff3be5620b",
-   "sha256": "1lg1kbfshi99jy4a9wcaiw60rd2356skdvlk9cqsay69vh5ygba9"
+   "commit": "6a4cb7338b79e74c0a0f83163aefb04440a4d224",
+   "sha256": "138xlrq0m17vdvpi5n3avgggwaqn6f6c6xwmfnkflh12y9s25fqd"
   }
  },
  {
@@ -36100,11 +36101,11 @@
   "repo": "xiongtx/eros",
   "unstable": {
    "version": [
-    20230309,
-    615
+    20251226,
+    345
    ],
-   "commit": "a9a92bdc6be0521a6a06eb464be55ed61946639c",
-   "sha256": "04nkqsvh8c988hc3ajigs206ad64204qdhhqzdvm3k7m7qiiwga8"
+   "commit": "66ee90baa3162fea028f5101ddcc370f7d1d4fcf",
+   "sha256": "0mxknd96p2hblzsvgw10jidx4kg6djgazm2yq3a2hdb1kz8yb8v3"
   }
  },
  {
@@ -56850,15 +56851,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20251212,
-    555
+    20251225,
+    613
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "08fb63fab625e90b699999151dada80232a7c81b",
-   "sha256": "04dka0myf6sfyc46myx6fqyfq42lxybd2y4cr0vsrfizqd3lmiks"
+   "commit": "be0372856b799dcd8eead2e31591f37d5a574e0e",
+   "sha256": "03lmxqf19wmh4zkcf0znljwdyilnh8rlqgf0ay49n7k2hg7qd9wd"
   },
   "stable": {
    "version": [
@@ -128214,26 +128215,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20251224,
-    1317
+    20251225,
+    1727
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "2e2578dce48d3a2121cd10bf778611504358bbcf",
-   "sha256": "155ahkdayhdy1dri1waw089f0pr5l179gxl07v8q8lb1d18djyq2"
+   "commit": "2910a597598f1741245ebbb9e16d8f9030a2caf4",
+   "sha256": "0ypa9aaa7glr11rq0mac4mg9m1qq05ym2zxi661knsf8f371pczj"
   },
   "stable": {
    "version": [
     0,
     12,
-    354
+    356
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "a5c2b07d394b8f3e67d163e14abba30a698b06ad",
-   "sha256": "1i377xjn2f978zn15xp7mxm6xf9narafi1pv8pmr2lv2bp8s7961"
+   "commit": "2910a597598f1741245ebbb9e16d8f9030a2caf4",
+   "sha256": "0ypa9aaa7glr11rq0mac4mg9m1qq05ym2zxi661knsf8f371pczj"
   }
  },
  {
