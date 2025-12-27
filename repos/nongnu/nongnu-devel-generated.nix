@@ -3297,10 +3297,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.15.0.0.20251217.225540";
+      version = "0.15.0.0.20251226.201259";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20251217.225540.tar";
-        sha256 = "08a1lc0x6qjp5phv1pr3dajckxd7phb3qgynl3w6nhngfijrr1sj";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20251226.201259.tar";
+        sha256 = "02xkl00hc59c5a951zhri2k8al2j4h7s2cczc4yzw4mvfaxdlghk";
       };
       packageRequires = [
         compat
@@ -3325,10 +3325,10 @@
     elpaBuild {
       pname = "loopy-dash";
       ename = "loopy-dash";
-      version = "0.13.0.0.20250114.23438";
+      version = "0.13.0.0.20251226.203150";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-dash-0.13.0.0.20250114.23438.tar";
-        sha256 = "1gbhs3agzf5pg6x3c87ccwxwfppg27jh6zpjc12hv9fgj5pajir3";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-dash-0.13.0.0.20251226.203150.tar";
+        sha256 = "1xcda0jnbprs09d9yxfrqcapk2s5kz83nkl321yi9bnk9j1vsi6k";
       };
       packageRequires = [
         dash
@@ -4277,10 +4277,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.61.0.20251201.135921";
+      version = "0.62.0.20251226.140408";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.61.0.20251201.135921.tar";
-        sha256 = "0z56akyvih8k2gv5khfwlxwk03yc7nvivad23fnbf30g6n29rfb7";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.62.0.20251226.140408.tar";
+        sha256 = "0cgiyly89agqahzakbc98j45jvh4w9c1gbknmnbsr8djzw75mvmn";
       };
       packageRequires = [ peg ];
       meta = {
