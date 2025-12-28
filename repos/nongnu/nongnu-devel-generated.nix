@@ -1208,10 +1208,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.1.0.20251225.94548";
+      version = "3.0.2.0.20251228.31655";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.1.0.20251225.94548.tar";
-        sha256 = "09maikzkrhr77yarvr2mw62i52bnsirrkd9yiz09kl16swjczs56";
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.2.0.20251228.31655.tar";
+        sha256 = "0wjk8wxsf8l4sxp9xbmi0ihq8d6z5m60789hiyv4whhy67cwlwk8";
       };
       packageRequires = [
         eglot
@@ -5581,10 +5581,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.1snapshot0.20251227.105313";
+      version = "8.3.2snapshot0.20251227.184842";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.1snapshot0.20251227.105313.tar";
-        sha256 = "0adl9vl2l2m0mg9qkpv00r9cckxnw5rqv5m34ixm0sb1gh9xlsvm";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.2snapshot0.20251227.184842.tar";
+        sha256 = "0kf228pmzma2xvq8q4mqp7j2ipn29vic9bwjg3vvrsqss25pa4nq";
       };
       packageRequires = [ vcard ];
       meta = {
@@ -5713,10 +5713,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.7.0.20251130.184451";
+      version = "3.4.7.0.20251227.224848";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.7.0.20251130.184451.tar";
-        sha256 = "13a9k7mg0bdp7m41zzpngqzk2pkrwz4is61qcbcyyv4dn5f62ipg";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.7.0.20251227.224848.tar";
+        sha256 = "0nr6zp3jf5b4khyfwlyxsc68n2m3ap5q4i01rwjzm47py0f4nakd";
       };
       packageRequires = [ compat ];
       meta = {

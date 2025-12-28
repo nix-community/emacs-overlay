@@ -1232,10 +1232,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.1";
+      version = "3.0.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/eldoc-mouse-3.0.1.tar";
-        sha256 = "005g9q8fkbmh4ag7ah1m32h0lzskfjis31a7qjyl0wddvsff6ykd";
+        url = "https://elpa.nongnu.org/nongnu/eldoc-mouse-3.0.2.tar";
+        sha256 = "0ljivs5wpmwc74l4w6fqn0j7ppyf9zc1v3ggx06z1w4jgx15q51d";
       };
       packageRequires = [
         eglot
@@ -5620,10 +5620,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.0";
+      version = "8.3.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/vm-8.3.0.tar";
-        sha256 = "1q605zk97l03b0037qgk4jiawv9p7pjha9bqgwcirm2c14pkcqff";
+        url = "https://elpa.nongnu.org/nongnu/vm-8.3.1.tar";
+        sha256 = "06h4h5x1vxvin398j6qs1wzc55bcflbqvxkbfppjgki50is4v5dq";
       };
       packageRequires = [ vcard ];
       meta = {
