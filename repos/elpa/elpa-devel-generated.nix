@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20251222.45943";
+      version = "4.1.3.0.20251228.64346";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20251222.45943.tar";
-        sha256 = "1p1brgv965szn7rmqr74r3rvl7bpyxl1jdlpl3mfbc40barz19q5";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20251228.64346.tar";
+        sha256 = "0n98n6y9j98p7chsrqyar1i1p38j3ldsxx1xv38k9z8hpm9dqpds";
       };
       packageRequires = [ ];
       meta = {
@@ -2097,10 +2097,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.2.2.0.20251215.75458";
+      version = "0.2.2.0.20251228.61137";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.2.2.0.20251215.75458.tar";
-        sha256 = "0m91rdpd45b0rfwm7r8d50lzl2f0pl5lj4ggx7g70y6asv6xf0k6";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.2.2.0.20251228.61137.tar";
+        sha256 = "0cl4daknrid1rfcblvxza42lq27lzml48x1h4pgcw297z2sdpv6v";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2661,10 +2661,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.5.0.0.20251211.64439";
+      version = "0.5.0.0.20251228.84739";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.5.0.0.20251211.64439.tar";
-        sha256 = "0pizr1qp7jjll04v1x8a6kw4briv58clvg10851wfv9zcbkn9krb";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.5.0.0.20251228.84739.tar";
+        sha256 = "1dw770dq015k42b68s6p2svsjdqaa0bc68fs7siq9y6mggxb5l0i";
       };
       packageRequires = [ ];
       meta = {
@@ -3086,10 +3086,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.9.1.0.20251220.224607";
+      version = "1.10.0.0.20251228.3229";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.9.1.0.20251220.224607.tar";
-        sha256 = "1sad5lbi75x4sd5ss748dgvvkckz4wj3ffwjn4m3gk7gzyvf10hm";
+        url = "https://elpa.gnu.org/devel/ellama-1.10.0.0.20251228.3229.tar";
+        sha256 = "0v69bsz00hirjg6rsr5llg2pwg3vac2g6bjda587ssmwd09fighy";
       };
       packageRequires = [
         compat
@@ -5905,10 +5905,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.1.0.0.20251223.55845";
+      version = "5.1.0.0.20251228.63147";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.1.0.0.20251223.55845.tar";
-        sha256 = "047nm0ci89q8cxp8g1l29j7wfng44fswid0ikkwq1604pl77r7ci";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.1.0.0.20251228.63147.tar";
+        sha256 = "1fvgvcjx3xyjinb2san7fpgg1f5v73qx990yxaqcw4w0yxp70pmj";
       };
       packageRequires = [ ];
       meta = {
