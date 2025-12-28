@@ -5581,10 +5581,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.1snapshot0.20251222.130246";
+      version = "8.3.1snapshot0.20251227.105313";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.1snapshot0.20251222.130246.tar";
-        sha256 = "0h6s2gy4irbmdiq473bsrm0ki692v6dpsi85j9wlphznc9pbra3b";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.1snapshot0.20251227.105313.tar";
+        sha256 = "0adl9vl2l2m0mg9qkpv00r9cckxnw5rqv5m34ixm0sb1gh9xlsvm";
       };
       packageRequires = [ vcard ];
       meta = {
