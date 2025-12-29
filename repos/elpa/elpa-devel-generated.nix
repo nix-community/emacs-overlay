@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20251228.64346";
+      version = "4.1.3.0.20251229.53949";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20251228.64346.tar";
-        sha256 = "0n98n6y9j98p7chsrqyar1i1p38j3ldsxx1xv38k9z8hpm9dqpds";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20251229.53949.tar";
+        sha256 = "0wm66mharc6yik3izyq6nd32jjng00qb42g83z0j6ngwch5ha8g5";
       };
       packageRequires = [ ];
       meta = {
@@ -2661,10 +2661,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.5.0.0.20251228.84739";
+      version = "0.5.0.0.20251229.72306";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.5.0.0.20251228.84739.tar";
-        sha256 = "1dw770dq015k42b68s6p2svsjdqaa0bc68fs7siq9y6mggxb5l0i";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.5.0.0.20251229.72306.tar";
+        sha256 = "0zgvlpk4pymwg7d5b25vdap72nlfzvi5sz59kh61qiayg08zsx8r";
       };
       packageRequires = [ ];
       meta = {
@@ -9444,10 +9444,10 @@
     elpaBuild {
       pname = "track-changes";
       ename = "track-changes";
-      version = "1.4.0.20250312.1734";
+      version = "1.5.0.20251228.223223";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/track-changes-1.4.0.20250312.1734.tar";
-        sha256 = "003cp1sz74nj92dbvcm4gzsr546v5l38ifi76371lv3j5wxjfgsi";
+        url = "https://elpa.gnu.org/devel/track-changes-1.5.0.20251228.223223.tar";
+        sha256 = "0zz8q03rjfzd7gb745ljkh9iph5322q7s8h7l4pwhmzbirsn5hn5";
       };
       packageRequires = [ ];
       meta = {
@@ -9913,10 +9913,10 @@
     elpaBuild {
       pname = "valign";
       ename = "valign";
-      version = "3.1.1.0.20210501.211155";
+      version = "3.1.1.0.20251228.153858";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/valign-3.1.1.0.20210501.211155.tar";
-        sha256 = "1w5by0y4552c2qlm708b3523fp9sgizd0zxrwk2k1v6qwh04pa67";
+        url = "https://elpa.gnu.org/devel/valign-3.1.1.0.20251228.153858.tar";
+        sha256 = "1ah9qdxlc2m6k536dyc6pfxvh1jmbfxcpcybka4r447dssq5ysfz";
       };
       packageRequires = [ ];
       meta = {
