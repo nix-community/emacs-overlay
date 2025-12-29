@@ -3424,10 +3424,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.2.0.20251220.91723";
+      version = "4.4.2.0.20251227.224744";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251220.91723.tar";
-        sha256 = "1dbi6x28kr81w2w6h3z559zv3f6dxm6cpf680hafg22kqi9iz6xr";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251227.224744.tar";
+        sha256 = "0sa9wkcylki1zmv7vfzn7zl66lmhldi4vhi08q0p16lrxbbimdwr";
       };
       packageRequires = [
         compat
@@ -3457,10 +3457,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.2.0.20251220.91723";
+      version = "4.4.2.0.20251227.224744";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251220.91723.tar";
-        sha256 = "1ipg6p17gfk5xmfvr2qkjk7mhnprd0pdm8slfzfyl6acla0qc6hr";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251227.224744.tar";
+        sha256 = "1ny9w5s2wcmv5kva1h5pi5mrh22lkw91z4ayj3nr9m8k0micdrw9";
       };
       packageRequires = [
         compat
@@ -4252,10 +4252,10 @@
     elpaBuild {
       pname = "pdf-tools";
       ename = "pdf-tools";
-      version = "1.1.0.0.20240429.40722";
+      version = "1.1.0.0.20251228.175837";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.1.0.0.20240429.40722.tar";
-        sha256 = "1799picrndkixcwhvvs0r1hkbjiw1hm2bq9wyj40ryx2a4y900n8";
+        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.1.0.0.20251228.175837.tar";
+        sha256 = "1s58gisgd9zb680pk3dlvxqr9x9hv7biswls39fvmfwnfainhlqj";
       };
       packageRequires = [
         let-alist
