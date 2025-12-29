@@ -1640,10 +1640,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.6";
+      version = "2.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/corfu-2.6.tar";
-        sha256 = "0pk3hbml8zcpr2y46xc46wb0lghfc103r3ypmpivynncnxm4yg78";
+        url = "https://elpa.gnu.org/packages/corfu-2.7.tar";
+        sha256 = "1lym9r5ck0d27s7nrlb4a81rgjrvfdxvqflhwf274wy8hf2idd28";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6694,10 +6694,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "1.12";
+      version = "2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/osm-1.12.tar";
-        sha256 = "0lv2dhqgf46jx557idyv5qwjqn57r8gv2ghjghicx95k0bskf1p2";
+        url = "https://elpa.gnu.org/packages/osm-2.0.tar";
+        sha256 = "0ngckkbwyq7kbdz5mfsa8x62hrqgh8vy17f63dy6c2y7dgpfs61q";
       };
       packageRequires = [ compat ];
       meta = {
