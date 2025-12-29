@@ -994,10 +994,10 @@
     elpaBuild {
       pname = "doc-show-inline";
       ename = "doc-show-inline";
-      version = "0.1.0.20251126.114419";
+      version = "0.1.0.20251229.5500";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/doc-show-inline-0.1.0.20251126.114419.tar";
-        sha256 = "0r1ly44d1ysqhns72r1mzss6g9ng2300mdqxkqgbb9i0is0nwxql";
+        url = "https://elpa.nongnu.org/nongnu-devel/doc-show-inline-0.1.0.20251229.5500.tar";
+        sha256 = "19ilpxshf02jd6bvdp4mcwwwn38i6pf9hzg2jlvh09shlylp7qgd";
       };
       packageRequires = [ ];
       meta = {
@@ -4252,10 +4252,10 @@
     elpaBuild {
       pname = "pdf-tools";
       ename = "pdf-tools";
-      version = "1.1.0.0.20251228.175837";
+      version = "1.1.0.0.20251229.41502";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.1.0.0.20251228.175837.tar";
-        sha256 = "1s58gisgd9zb680pk3dlvxqr9x9hv7biswls39fvmfwnfainhlqj";
+        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.1.0.0.20251229.41502.tar";
+        sha256 = "0c7gynhzrngjnwa3fgz2v7m39vcw2bw3p7pp22gk4b4cj682awwi";
       };
       packageRequires = [
         let-alist
@@ -4938,10 +4938,10 @@
     elpaBuild {
       pname = "spell-fu";
       ename = "spell-fu";
-      version = "0.3.0.20251126.52910";
+      version = "0.3.0.20251229.61152";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20251126.52910.tar";
-        sha256 = "1ljqxf86zwvld6963a6cf3mri5x1x40g371jdfr42wcvjpp72wdc";
+        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20251229.61152.tar";
+        sha256 = "0x0pzq74xr80ypy59smqn5xm2b8l26p05jy0q3y038k7ir0z8l36";
       };
       packageRequires = [ ];
       meta = {
