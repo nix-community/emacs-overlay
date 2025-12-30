@@ -5624,10 +5624,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "7.4.1.0.20251126.215443";
+      version = "7.4.2.0.20251229.125049";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-7.4.1.0.20251126.215443.tar";
-        sha256 = "11xpz32z6mb182g0463hwpf5zndk29x6d39d6krca4apqblfmj87";
+        url = "https://elpa.gnu.org/devel/matlab-mode-7.4.2.0.20251229.125049.tar";
+        sha256 = "1rff2njap1ymgmydhsjif1i09x3rnj6xa1xz7x3pp8jyvg5vkzwp";
       };
       packageRequires = [ ];
       meta = {
