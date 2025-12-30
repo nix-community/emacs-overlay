@@ -42,6 +42,27 @@
       };
     }
   ) { };
+  age = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "age";
+      ename = "age";
+      version = "0.1.9";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/age-0.1.9.tar";
+        sha256 = "0y8vlr8w4xfapixdr35acmcsll06kci04rsz5pzi20amkhrj9i50";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/age.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   aidermacs = callPackage (
     {
       compat,
@@ -5620,10 +5641,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.1";
+      version = "8.3.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/vm-8.3.1.tar";
-        sha256 = "06h4h5x1vxvin398j6qs1wzc55bcflbqvxkbfppjgki50is4v5dq";
+        url = "https://elpa.nongnu.org/nongnu/vm-8.3.2.tar";
+        sha256 = "0s2l4sjzgq4mm82dq6856wncsdvwsgk569i2rybbcsbw6v4hyvwv";
       };
       packageRequires = [ vcard ];
       meta = {

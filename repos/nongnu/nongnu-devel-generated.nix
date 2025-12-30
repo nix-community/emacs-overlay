@@ -42,6 +42,27 @@
       };
     }
   ) { };
+  age = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "age";
+      ename = "age";
+      version = "0.1.9.0.20250806.132339";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/age-0.1.9.0.20250806.132339.tar";
+        sha256 = "1n7lvx7bcniwylsq339pyxs26ragcq4wy7lz3xzvry54bha3jxfn";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/age.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   aidermacs = callPackage (
     {
       compat,
@@ -572,10 +593,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.21.0snapshot0.20251224.212205";
+      version = "1.21.0snapshot0.20251229.205224";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.21.0snapshot0.20251224.212205.tar";
-        sha256 = "13fzl846h1xp3xphrjnk6fvir3nxikxwpgcrq6yjf4h10yamyy8r";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.21.0snapshot0.20251229.205224.tar";
+        sha256 = "0g801v5pficyj54wldgy4lsd2p69qgjjzwd74a17k2n6z93zn7b9";
       };
       packageRequires = [
         clojure-mode
@@ -2501,10 +2522,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251222.215320";
+      version = "0.9.9.3.0.20251229.102847";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251222.215320.tar";
-        sha256 = "15q71s7fny0cab7nwlc9ns9jpwbrv2yg79b3wy4xpggi3ylm0d0m";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251229.102847.tar";
+        sha256 = "1nz2jriyzhvsajml56dcrwwydvrj2615a99yb5jfndiy07ax95zw";
       };
       packageRequires = [
         compat
@@ -5348,10 +5369,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20251224.152044";
+      version = "0.2.1.0.20251229.125211";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20251224.152044.tar";
-        sha256 = "0qrr0zig18mh246xbmwhhr2zs8nvdydg7n29kcz4ljzj4b1kq1rf";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20251229.125211.tar";
+        sha256 = "0q6jqcjv3bb8c5s0215bfsj245m3xzkqs985nb53fnyzw3qbf0wb";
       };
       packageRequires = [ ];
       meta = {
@@ -5581,10 +5602,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.2snapshot0.20251227.184842";
+      version = "8.3.3snapshot0.20251229.112614";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.2snapshot0.20251227.184842.tar";
-        sha256 = "0kf228pmzma2xvq8q4mqp7j2ipn29vic9bwjg3vvrsqss25pa4nq";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20251229.112614.tar";
+        sha256 = "0j96fzmqljhyk0dxkwzs6y4j4x9clyslndbspcisx0qskqa3p0fg";
       };
       packageRequires = [ vcard ];
       meta = {
