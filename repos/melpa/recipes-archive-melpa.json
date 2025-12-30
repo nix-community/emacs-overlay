@@ -87962,11 +87962,11 @@
   "repo": "Anoncheg1/emacs-oai",
   "unstable": {
    "version": [
-    20251228,
-    2333
+    20251230,
+    139
    ],
-   "commit": "627c9c8d31fb3e84086d26ff0ffb2ae1c6e53b82",
-   "sha256": "0vfp697yvzzrmkavkwaki6dvfz1660gna9bgdw63a5sb33prbkz7"
+   "commit": "fccb0cbc82bada2ee22f77833ad7b7ac32027d44",
+   "sha256": "1gk5ddm6hddhn7i0j1i61s9ff7wm314bl338xbxx6l0n3fxlmm70"
   }
  },
  {
@@ -113114,11 +113114,11 @@
   "repo": "Andersbakken/rtags",
   "unstable": {
    "version": [
-    20250801,
-    1701
+    20251228,
+    2249
    ],
-   "commit": "a09caa2d56aa9523222243764e99477458447913",
-   "sha256": "0l41pxshr3086jz8lsmf6wqzjz246ldkgcyyi1mf85g9gn5ncj0x"
+   "commit": "829a6298d6bfba8ed541570fcbe3daf5ce3135d0",
+   "sha256": "1qzd08sc3kg0cmfssdbdn595iwwalxhb5b43dsamzgfc3xhd7qap"
   },
   "stable": {
    "version": [
@@ -128402,26 +128402,26 @@
   "repo": "emacs-tree-sitter/tree-sitter-langs",
   "unstable": {
    "version": [
-    20251229,
-    1215
+    20251230,
+    337
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "70a3a9d0da3a543834b0d30b2e4e948e6ba7a08c",
-   "sha256": "0195fgm2rlzv52vffnp6yc1j8bc2s5p1v2wcsaqln15ap9llkcjd"
+   "commit": "b9d7d200b24d5e4a9e6a3e9e490708c704bf4afe",
+   "sha256": "0mhy343lidj4hbam46rxghkfab1h9isldvna5d8ckfvhw7ls41a8"
   },
   "stable": {
    "version": [
     0,
     13,
-    2
+    3
    ],
    "deps": [
     "tree-sitter"
    ],
-   "commit": "70a3a9d0da3a543834b0d30b2e4e948e6ba7a08c",
-   "sha256": "0195fgm2rlzv52vffnp6yc1j8bc2s5p1v2wcsaqln15ap9llkcjd"
+   "commit": "b9d7d200b24d5e4a9e6a3e9e490708c704bf4afe",
+   "sha256": "0mhy343lidj4hbam46rxghkfab1h9isldvna5d8ckfvhw7ls41a8"
   }
  },
  {
@@ -133482,18 +133482,18 @@
   },
   "stable": {
    "version": [
+    2,
     0,
-    4,
     0
    ],
    "deps": [
     "dash",
+    "emacsql",
     "org",
-    "org-roam",
     "s"
    ],
-   "commit": "15d5451cd51a88cc4241391466ad4a6d5eb61951",
-   "sha256": "1npgw0akgj2liga8ii9xxfb9gv9zfvwj8zf8saih3bpaw4bginj7"
+   "commit": "89ed53b762acf0c2d1985ff1501db7eac6ef412f",
+   "sha256": "166brn15x3l59mbvl6lb5136fdyfr4zbmb4k9v5ii35ikcw29b3f"
   }
  },
  {
@@ -133504,15 +133504,15 @@
   "repo": "d12frosted/vulpea-ui",
   "unstable": {
    "version": [
-    20251229,
-    1827
+    20251230,
+    610
    ],
    "deps": [
     "vui",
     "vulpea"
    ],
-   "commit": "a0373417ecaed1f91e9b02be0482d4aedba2034f",
-   "sha256": "0k0v8anqhzrbczzal6fm2d2ix84ljkpc5kg4a71b3w5rpkvg4zdj"
+   "commit": "181a712013def5cabb96f13d54566a40dd74bf94",
+   "sha256": "151r7fvw8d6yvvimfp2mimrpvw7987mhd23d92nilaxdnsm4r8sz"
   }
  },
  {
