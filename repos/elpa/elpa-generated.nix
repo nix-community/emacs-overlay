@@ -3045,10 +3045,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.10.0";
+      version = "1.10.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.10.0.tar";
-        sha256 = "19flprw7zj8dggf3zs01rzl3ck59lwc6d0rl9fs06qz3z6f6r2d9";
+        url = "https://elpa.gnu.org/packages/ellama-1.10.2.tar";
+        sha256 = "0p9n42n8qrnmkmxc24bgn8nnkdcrx8x5hkkg7g86z56x75rhfbw7";
       };
       packageRequires = [
         compat
@@ -7336,10 +7336,10 @@
     elpaBuild {
       pname = "pyim";
       ename = "pyim";
-      version = "5.3.5";
+      version = "5.3.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/pyim-5.3.5.tar";
-        sha256 = "1s452swgbkbnpfhiwmipmvbqn6wkf6f7dq63gr349h7n29nbnnnk";
+        url = "https://elpa.gnu.org/packages/pyim-5.3.6.tar";
+        sha256 = "00szld154fgbrrpn0p8lxbjg73kc9kx49x6lz2y5y2jm0yxn58gm";
       };
       packageRequires = [
         async
@@ -9622,10 +9622,10 @@
     elpaBuild {
       pname = "url-http-oauth";
       ename = "url-http-oauth";
-      version = "0.8.4";
+      version = "0.8.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/url-http-oauth-0.8.4.tar";
-        sha256 = "10iznck31ilfjwjbbwfalqchg260yqypai487436cc0s1fm47vvf";
+        url = "https://elpa.gnu.org/packages/url-http-oauth-0.8.5.tar";
+        sha256 = "17j1bzvg9a6k1fqkwphlkrqyihpgp5zia3hgbnjkz7j76adbxmgv";
       };
       packageRequires = [ ];
       meta = {
