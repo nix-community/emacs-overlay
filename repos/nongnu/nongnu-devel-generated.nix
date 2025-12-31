@@ -3840,10 +3840,10 @@
     elpaBuild {
       pname = "org-auto-tangle";
       ename = "org-auto-tangle";
-      version = "0.6.0.0.20250429.50000";
+      version = "0.6.0.0.20251230.141613";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-auto-tangle-0.6.0.0.20250429.50000.tar";
-        sha256 = "0sbvkj1b8ibjq95ahhbw9qp488da3s3v5m4dfp6l8p4hdlz0xi4h";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-auto-tangle-0.6.0.0.20251230.141613.tar";
+        sha256 = "18fq0wapd636lph3gm1ji4smp95mizcmvwk4j3ac7mk362wy4aab";
       };
       packageRequires = [ async ];
       meta = {
@@ -4273,10 +4273,10 @@
     elpaBuild {
       pname = "pdf-tools";
       ename = "pdf-tools";
-      version = "1.1.0.0.20251229.41502";
+      version = "1.2.0.0.20251230.134627";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.1.0.0.20251229.41502.tar";
-        sha256 = "0c7gynhzrngjnwa3fgz2v7m39vcw2bw3p7pp22gk4b4cj682awwi";
+        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.2.0.0.20251230.134627.tar";
+        sha256 = "0bqmgxsgbbqqxrghcsladlknmn4ws8r8zsc6p41f60lsccjvql0n";
       };
       packageRequires = [
         let-alist
@@ -4298,10 +4298,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.62.0.20251226.140408";
+      version = "0.62.0.20251230.93152";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.62.0.20251226.140408.tar";
-        sha256 = "0cgiyly89agqahzakbc98j45jvh4w9c1gbknmnbsr8djzw75mvmn";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.62.0.20251230.93152.tar";
+        sha256 = "1k0miw933f4526wikl6s22h286hilzmq322i17igsnzi0b1d3304";
       };
       packageRequires = [ peg ];
       meta = {
