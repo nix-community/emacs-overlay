@@ -2522,10 +2522,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251229.102847";
+      version = "0.9.9.3.0.20251230.134627";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251229.102847.tar";
-        sha256 = "1nz2jriyzhvsajml56dcrwwydvrj2615a99yb5jfndiy07ax95zw";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251230.134627.tar";
+        sha256 = "0djic9clcsh0qdjza6kfzb03isrk27vjy4y16awcviifpr6m6q4b";
       };
       packageRequires = [
         compat
@@ -2719,10 +2719,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20251225.61329";
+      version = "4.0.6.0.20251231.45510";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251225.61329.tar";
-        sha256 = "1vbv54rl6hcrywdiim8hidr715w2jn4q6dr0g4hxyl3cfblisgbl";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251231.45510.tar";
+        sha256 = "1p1l3qgaydfg6i456zw1jnjbifi677sm5qn8xcbs5lnvcvvfgf83";
       };
       packageRequires = [
         helm-core
@@ -2744,10 +2744,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20251225.61329";
+      version = "4.0.6.0.20251231.45510";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251225.61329.tar";
-        sha256 = "03yr4mmsj7i604m6migk692qvmnkmxgg23l7gch24jivyr4x603i";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251231.45510.tar";
+        sha256 = "00q5mrjx0z1p3l3y1gkl9ka98z3048v7rkhxc9ld41ym53hh4hla";
       };
       packageRequires = [ async ];
       meta = {
@@ -4273,10 +4273,10 @@
     elpaBuild {
       pname = "pdf-tools";
       ename = "pdf-tools";
-      version = "1.2.0.0.20251230.134627";
+      version = "1.2.0.0.20251231.31319";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.2.0.0.20251230.134627.tar";
-        sha256 = "0bqmgxsgbbqqxrghcsladlknmn4ws8r8zsc6p41f60lsccjvql0n";
+        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.2.0.0.20251231.31319.tar";
+        sha256 = "1c4dcp5jzwpfcaw40sq1bb9f27y3vyxxvfna8ibyfirwrbhyz6wy";
       };
       packageRequires = [
         let-alist
