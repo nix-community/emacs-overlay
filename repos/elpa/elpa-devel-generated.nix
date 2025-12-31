@@ -3086,10 +3086,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.10.2.0.20251229.214958";
+      version = "1.10.3.0.20251230.103539";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.10.2.0.20251229.214958.tar";
-        sha256 = "07z2iipj84jw5qg20c629yhy0jx0x8nrqgn3ql8dp51lns6h8crr";
+        url = "https://elpa.gnu.org/devel/ellama-1.10.3.0.20251230.103539.tar";
+        sha256 = "07ajhavgm5mcqmgi4ilmc2w5jr1j5axs59y3xj5g2rqbwrmgx306";
       };
       packageRequires = [
         compat
@@ -3222,10 +3222,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "24.0.20251201.101049";
+      version = "24.0.20251230.85613";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-24.0.20251201.101049.tar";
-        sha256 = "01wk4j2hm1wwsx2wqjj1sfh5skngynw494i9jzpas1q7mqqf7fhy";
+        url = "https://elpa.gnu.org/devel/emms-24.0.20251230.85613.tar";
+        sha256 = "161rg6b6xpjmvz8ypmwi40i5m9ppzn3vk9wpzfvmv9mc7xwrf9xr";
       };
       packageRequires = [
         cl-lib
@@ -3358,10 +3358,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "25.1.0.0.20251212.93713";
+      version = "25.1.0.0.20251230.111114";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20251212.93713.tar";
-        sha256 = "1a1swv20ww61g3mc9qxcc8hl5c2k4yvlqvhr0nx2fbbxs4n5ypjd";
+        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20251230.111114.tar";
+        sha256 = "1ybpalv1868brh0y6c1kx1vvqhxbbpw5066448vrnylsjrz99y7c";
       };
       packageRequires = [ ];
       meta = {
@@ -10132,10 +10132,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.6.0.20251223.111402";
+      version = "2.6.0.20251230.183234";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.6.0.20251223.111402.tar";
-        sha256 = "1vbp20zk5n2gks8i6m0pg583wzygn0sqzj2vbppx8a6gb4h0sgkm";
+        url = "https://elpa.gnu.org/devel/vertico-2.6.0.20251230.183234.tar";
+        sha256 = "1hvmlx6408xs562pj47c8sx0561vsblahz20ycq9fhxqvjmqa49p";
       };
       packageRequires = [ compat ];
       meta = {
