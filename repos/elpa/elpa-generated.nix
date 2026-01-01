@@ -5477,10 +5477,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.6";
+      version = "2.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/marginalia-2.6.tar";
-        sha256 = "082jkql871dflsnswdbxrifyfq4hi1r2f12kwsvkdxcsc93s32s8";
+        url = "https://elpa.gnu.org/packages/marginalia-2.7.tar";
+        sha256 = "04ckiq04h5l8jsqb7a2v2jzpb2xpgbza7hxhxn2sq9c0z14nnp88";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5843,10 +5843,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.1.0";
+      version = "5.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/modus-themes-5.1.0.tar";
-        sha256 = "0n7mhf3zp96srm7d0i87ps18h08k3pap904y78xz22xhm98ljsnl";
+        url = "https://elpa.gnu.org/packages/modus-themes-5.2.0.tar";
+        sha256 = "1715x863mbvcc2lqf61lll5j50zhpc0jysdgd7v0ajznx40kqmxv";
       };
       packageRequires = [ ];
       meta = {
@@ -8225,10 +8225,10 @@
     elpaBuild {
       pname = "site-lisp";
       ename = "site-lisp";
-      version = "0.2.0";
+      version = "0.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/site-lisp-0.2.0.tar";
-        sha256 = "17wwn1wjkq4vjzhgzq5pyn5x6bzai6nwmxcsp9d375b88qwp973n";
+        url = "https://elpa.gnu.org/packages/site-lisp-0.3.0.tar";
+        sha256 = "0wbxx6n42sqd0857nq0fd3dz04d27vj00vyi75g9k5hr2fa6racc";
       };
       packageRequires = [ ];
       meta = {
@@ -9264,10 +9264,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.0.5";
+      version = "2.8.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.8.0.5.tar";
-        sha256 = "18qazsfc1j15rm3l9qybzbkm892apdwqd6pp2mymprshpyhgc7a7";
+        url = "https://elpa.gnu.org/packages/tramp-2.8.1.tar";
+        sha256 = "0c0k9a69m1li6z1k36q0gmkwks106ghsmz4iz3k9c18979jmn0y1";
       };
       packageRequires = [ ];
       meta = {
