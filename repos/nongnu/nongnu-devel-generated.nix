@@ -4678,10 +4678,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20251120.211427";
+      version = "1.0.6.0.20260101.80918";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20251120.211427.tar";
-        sha256 = "1jif5r4r7s991kr4x381ipqnhivi96il7vq9c26f4vc16nrm6imm";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260101.80918.tar";
+        sha256 = "1ky2z000v45v889fy9736zgf5im90v1fa12p8v3fjij7rivn8la9";
       };
       packageRequires = [ ];
       meta = {
