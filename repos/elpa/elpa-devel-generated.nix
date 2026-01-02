@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20251229.53949";
+      version = "4.1.3.0.20260102.62504";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20251229.53949.tar";
-        sha256 = "0wm66mharc6yik3izyq6nd32jjng00qb42g83z0j6ngwch5ha8g5";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260102.62504.tar";
+        sha256 = "0fhxsv6q6bjpbjh5nvr37xk996b25rhh7z6rz4xvxaqjg25cmnq4";
       };
       packageRequires = [ ];
       meta = {
@@ -2913,10 +2913,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.19.0.20260101.125434";
+      version = "1.19.0.20260102.92537";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.19.0.20260101.125434.tar";
-        sha256 = "04ws01k9z3brqxz8hk6dmpb5xdyysf022q698pa2xn35vyix8c4v";
+        url = "https://elpa.gnu.org/devel/eglot-1.19.0.20260102.92537.tar";
+        sha256 = "15g0l34m9zbyvj8h7kg903b585zadx92mhjscy5j5b1s98wb3hik";
       };
       packageRequires = [
         eldoc
@@ -6460,10 +6460,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20251226.155708";
+      version = "9.8pre0.20260101.234506";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20251226.155708.tar";
-        sha256 = "1y70d0rljmv8d3hkgxyb8dwybx3krmp094m97h43003by12cxhdb";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20260101.234506.tar";
+        sha256 = "1bzxb1j0wvgj30yxrglm21c0wmnw75r91bv1szv8rndlddc0wap9";
       };
       packageRequires = [ ];
       meta = {
@@ -7357,10 +7357,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.1.0.20260101.125434";
+      version = "0.11.1.0.20260102.5922";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20260101.125434.tar";
-        sha256 = "0fvfbbvnyw76s4mipwpmwj3cr2wwzk7inbmy4fzny80sgsp7hxx5";
+        url = "https://elpa.gnu.org/devel/project-0.11.1.0.20260102.5922.tar";
+        sha256 = "1m045ih4ivqdwi0y57wa58zwglmlzkhm396cx372i0n7z2zirzw6";
       };
       packageRequires = [ xref ];
       meta = {
