@@ -4293,10 +4293,10 @@
     elpaBuild {
       pname = "pdf-tools";
       ename = "pdf-tools";
-      version = "1.2.1";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/pdf-tools-1.2.1.tar";
-        sha256 = "1qz6akq82xnfqcysdm9b19a259lwhn21bxq6lfc9qgs2girqsjac";
+        url = "https://elpa.nongnu.org/nongnu/pdf-tools-1.3.0.tar";
+        sha256 = "0kxv31jh8spndkf0lm2z6ibh9mna055ck4dmzbvws7rfk208rxip";
       };
       packageRequires = [
         let-alist

@@ -708,10 +708,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0.0.20250923.111441";
+      version = "1.0.0.20260101.134147";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20250923.111441.tar";
-        sha256 = "1lky8vw8x641qnjf8ah1mlchirf3nfyqs5gskqh91q9iq0y48yxj";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20260101.134147.tar";
+        sha256 = "1i4h17im0lg1b5v4v0g9m28bqgldxpgasykkwjbiwpf17b2pfylw";
       };
       packageRequires = [
         consult
@@ -1610,10 +1610,10 @@
     elpaBuild {
       pname = "evil-numbers";
       ename = "evil-numbers";
-      version = "0.7.0.20251216.5449";
+      version = "0.7.0.20260101.124634";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-numbers-0.7.0.20251216.5449.tar";
-        sha256 = "0q4ky9cvdql17fa9r41mkr4p9873k81vnzzl0smcki6jm2dj1ik9";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-numbers-0.7.0.20260101.124634.tar";
+        sha256 = "0znc759an77j5s8aavdywdpn01m4qfqay203i8k24dnrwn262lvi";
       };
       packageRequires = [ evil ];
       meta = {
@@ -4273,10 +4273,10 @@
     elpaBuild {
       pname = "pdf-tools";
       ename = "pdf-tools";
-      version = "1.2.1.0.20251231.173007";
+      version = "1.3.0.0.20260101.94752";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.2.1.0.20251231.173007.tar";
-        sha256 = "0iapdfzfcgj93yxhjis9qzq19xcp1aza333j891axhhp353ijscp";
+        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.3.0.0.20260101.94752.tar";
+        sha256 = "1ahlx1cic659s72gd2qw0b8im4k7sp12iz5i53rfaax5pwx6p0y9";
       };
       packageRequires = [
         let-alist
