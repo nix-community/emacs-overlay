@@ -2522,10 +2522,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20251230.134627";
+      version = "0.9.9.3.0.20260102.104019";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20251230.134627.tar";
-        sha256 = "0djic9clcsh0qdjza6kfzb03isrk27vjy4y16awcviifpr6m6q4b";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260102.104019.tar";
+        sha256 = "0wghb16k1zbf3xp17z150p0dzhdvf73z632m3la7km78i5j08yba";
       };
       packageRequires = [
         compat
@@ -2546,10 +2546,10 @@
     elpaBuild {
       pname = "graphql-mode";
       ename = "graphql-mode";
-      version = "1.0.0.0.20251213.111057";
+      version = "1.0.0.0.20260102.175142";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20251213.111057.tar";
-        sha256 = "124rip18n6q2xycizvwd753b8waxi2ljpgm32p481yl4w8hgj75i";
+        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20260102.175142.tar";
+        sha256 = "0bpjij54jnn4jamcdvdxbsmza0g6c3h41300sn5yk4p8g8x85fcr";
       };
       packageRequires = [ ];
       meta = {
@@ -2719,10 +2719,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20251231.45510";
+      version = "4.0.6.0.20260102.171232";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20251231.45510.tar";
-        sha256 = "1p1l3qgaydfg6i456zw1jnjbifi677sm5qn8xcbs5lnvcvvfgf83";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20260102.171232.tar";
+        sha256 = "17v9kjasdlylqkigngkx07612rl0fmjhy1zjlavcxcbcj8gna61d";
       };
       packageRequires = [
         helm-core
@@ -2744,10 +2744,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20251231.45510";
+      version = "4.0.6.0.20260102.171232";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20251231.45510.tar";
-        sha256 = "00q5mrjx0z1p3l3y1gkl9ka98z3048v7rkhxc9ld41ym53hh4hla";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20260102.171232.tar";
+        sha256 = "10c2yy1q7ff3aknv53xarls87060wmkxhgync4gksc3ri3fl2hxl";
       };
       packageRequires = [ async ];
       meta = {
@@ -4273,10 +4273,10 @@
     elpaBuild {
       pname = "pdf-tools";
       ename = "pdf-tools";
-      version = "1.3.0.0.20260101.94752";
+      version = "1.3.0.0.20260102.110151";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.3.0.0.20260101.94752.tar";
-        sha256 = "1ahlx1cic659s72gd2qw0b8im4k7sp12iz5i53rfaax5pwx6p0y9";
+        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.3.0.0.20260102.110151.tar";
+        sha256 = "18jgfx57986p9gfnm8lwqrnadsp51aybkfvkq7bzyqrg2brxakbg";
       };
       packageRequires = [
         let-alist
