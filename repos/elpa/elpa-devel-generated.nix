@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20260102.91831";
+      version = "4.1.3.0.20260103.63348";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260102.91831.tar";
-        sha256 = "072jvi9wxcwx7jxd8vdiq4y9llj2l8vjrc4lfpss2m192zhypm0w";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260103.63348.tar";
+        sha256 = "0yj956nqcbv0ryz4ipfsynzh29sgwkkzxidrn9gdvk6fz4bnbmdp";
       };
       packageRequires = [ ];
       meta = {
@@ -5905,10 +5905,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260102.104846";
+      version = "5.2.0.0.20260103.55535";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260102.104846.tar";
-        sha256 = "0zv658xn3ddzj5f0bpmrqzx8ydlwsfxfn0byy5avapmh1r08bakc";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260103.55535.tar";
+        sha256 = "1b6h74dkija432rnjia4rjxv3422xz6l4ydzw1qmg1x58cp8i0c0";
       };
       packageRequires = [ ];
       meta = {
@@ -7493,10 +7493,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20260101.125434";
+      version = "0.30.0.20260103.95248";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20260101.125434.tar";
-        sha256 = "13bvqgrbvaiimpq19a6ndlblhjrhxmm2bkkmjr8457hqp3pd4n90";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20260103.95248.tar";
+        sha256 = "099f23j2qyvv9vd8yq22dmia9kn6k05pv34phgp4rrrpl20ayjla";
       };
       packageRequires = [
         compat
