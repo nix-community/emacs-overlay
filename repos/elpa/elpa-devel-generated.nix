@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20260102.62504";
+      version = "4.1.3.0.20260102.91831";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260102.62504.tar";
-        sha256 = "0fhxsv6q6bjpbjh5nvr37xk996b25rhh7z6rz4xvxaqjg25cmnq4";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260102.91831.tar";
+        sha256 = "072jvi9wxcwx7jxd8vdiq4y9llj2l8vjrc4lfpss2m192zhypm0w";
       };
       packageRequires = [ ];
       meta = {
@@ -2661,10 +2661,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.5.0.0.20251229.72306";
+      version = "0.5.0.0.20260102.101801";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.5.0.0.20251229.72306.tar";
-        sha256 = "0zgvlpk4pymwg7d5b25vdap72nlfzvi5sz59kh61qiayg08zsx8r";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.5.0.0.20260102.101801.tar";
+        sha256 = "1yyw6hfvp5lpvk0xnwsby07q4dbf8z49c14jgi6hbzcbw0s6ihzv";
       };
       packageRequires = [ ];
       meta = {
@@ -2747,10 +2747,10 @@
     elpaBuild {
       pname = "easy-kill";
       ename = "easy-kill";
-      version = "0.9.5.0.20220511.55730";
+      version = "0.9.5.0.20260102.95822";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/easy-kill-0.9.5.0.20220511.55730.tar";
-        sha256 = "0il8lhi2j80sz63lnjkayryikcya03zn3z40bnfjbsydpyqj4kzd";
+        url = "https://elpa.gnu.org/devel/easy-kill-0.9.5.0.20260102.95822.tar";
+        sha256 = "0gg4nclmcsarclbvzl3f97qbf3hsgq0r8hfcbfbiws3avadm1rnd";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -5905,10 +5905,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20251231.83419";
+      version = "5.2.0.0.20260102.104846";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20251231.83419.tar";
-        sha256 = "0vg3mhkp9py94l5zr53kjhky5k43qzkz265czl28600p3snqm189";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260102.104846.tar";
+        sha256 = "0zv658xn3ddzj5f0bpmrqzx8ydlwsfxfn0byy5avapmh1r08bakc";
       };
       packageRequires = [ ];
       meta = {
