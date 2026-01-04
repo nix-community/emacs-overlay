@@ -3460,10 +3460,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.2";
+      version = "4.5.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-4.4.2.tar";
-        sha256 = "0l0fvf4gx4xj7474h5k00p4aa33y7z7x9lgy41vxi47vbifki2yk";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.5.0.tar";
+        sha256 = "080hc0y9pah86g7nw1x1gh2issap54r8dg9vzpm2l923cxy9jnbp";
       };
       packageRequires = [
         compat
@@ -3493,10 +3493,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.2";
+      version = "4.5.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.4.2.tar";
-        sha256 = "00324rd8r0pcdpgls1m0awjbms68fglsi045b8zrk6q6ahz1v08x";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.5.0.tar";
+        sha256 = "1k63g8ayvg152r16ml5ph8q07qs5a424vs4i5q32icvl78v6cn2z";
       };
       packageRequires = [
         compat
@@ -4061,6 +4061,7 @@
   orgit = callPackage (
     {
       compat,
+      cond-let,
       elpaBuild,
       fetchurl,
       lib,
@@ -4070,13 +4071,14 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.1.0";
+      version = "2.1.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/orgit-2.1.0.tar";
-        sha256 = "1wncvmg6x6w0pw9d2xl7i3m621q7jmx7sl76llnf29vbrdq7yiq9";
+        url = "https://elpa.nongnu.org/nongnu/orgit-2.1.1.tar";
+        sha256 = "1rnrmd6pb9257alarv6l1s4s4gxyy5k1hwhvhq28ll581m9sz4r7";
       };
       packageRequires = [
         compat
+        cond-let
         magit
         org
       ];
@@ -5080,10 +5082,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.25";
+      version = "1.3.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/subed-1.2.25.tar";
-        sha256 = "1w4r1xh8i7fvaifq50x3s21d31bp53hrvfsw1xp5lnh68xbx9and";
+        url = "https://elpa.nongnu.org/nongnu/subed-1.3.1.tar";
+        sha256 = "04c7yzv5dif8rxxn1lkn2xhb614nw5mycjsihxvl21443539n9ic";
       };
       packageRequires = [ ];
       meta = {

@@ -3445,10 +3445,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.4.2.0.20251227.224744";
+      version = "4.5.0.0.20260103.192533";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.4.2.0.20251227.224744.tar";
-        sha256 = "0sa9wkcylki1zmv7vfzn7zl66lmhldi4vhi08q0p16lrxbbimdwr";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260103.192533.tar";
+        sha256 = "1aajhsg2kiqqfkg46gy9460lf93xx8575f64g5j5bydg455zp4ql";
       };
       packageRequires = [
         compat
@@ -3478,10 +3478,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.4.2.0.20251227.224744";
+      version = "4.5.0.0.20260103.192533";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.4.2.0.20251227.224744.tar";
-        sha256 = "1ny9w5s2wcmv5kva1h5pi5mrh22lkw91z4ayj3nr9m8k0micdrw9";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260103.192533.tar";
+        sha256 = "048705krlsk7mln6ncx8a3nlvfmbhrafkh8fkmza1d1p6smziwxr";
       };
       packageRequires = [
         compat
@@ -4049,10 +4049,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.1.0.0.20251130.195559";
+      version = "2.1.1.0.20260101.185122";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.1.0.0.20251130.195559.tar";
-        sha256 = "0nk3m3cddy98njh1x1gcvx37a680wpddk09qdmcvs95hkchdj1z5";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.1.1.0.20260101.185122.tar";
+        sha256 = "04437y8svn6i05rwvlnna0cca2dnj1h59wlsiknpw4bfikx5svm6";
       };
       packageRequires = [
         compat
@@ -5064,10 +5064,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.2.25.0.20251220.184030";
+      version = "1.3.1.0.20260103.134523";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.2.25.0.20251220.184030.tar";
-        sha256 = "1vlhmchh9vzzcpy0q7b35g79ar67rfh168l4mrc03iqgd4hs6m5j";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.3.1.0.20260103.134523.tar";
+        sha256 = "0m68rngydjpk2q0y766p0hbj1l6aixj3j3yl3dwmwwmbn03phfsp";
       };
       packageRequires = [ ];
       meta = {
@@ -5369,10 +5369,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20251231.162628";
+      version = "0.2.1.0.20260103.91448";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20251231.162628.tar";
-        sha256 = "0j2s1rp9sz70v4dsvh812wbl0liw8vv0w583aj7wzf4lpip9gzwn";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20260103.91448.tar";
+        sha256 = "1z7kq3yc1c6hgq2jc3zr1jcaxra3qg2nb0p5196g95097jn7ldcm";
       };
       packageRequires = [ ];
       meta = {
