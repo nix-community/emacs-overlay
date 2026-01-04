@@ -1295,10 +1295,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.3.4.0.20260101.184907";
+      version = "4.3.4.0.20260104.4346";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.3.4.0.20260101.184907.tar";
-        sha256 = "1i8rmg3xc64gmdlc1hkqsg6x7lf0rab9qafn1nplk41bfykswk94";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.3.4.0.20260104.4346.tar";
+        sha256 = "1gpbv5plfcjzvf03gwgq0b2n0kff9xqwk32jpdl9209d8fmiw2q8";
       };
       packageRequires = [ ];
       meta = {
@@ -5517,10 +5517,10 @@
     elpaBuild {
       pname = "undo-fu-session";
       ename = "undo-fu-session";
-      version = "0.7.0.20251210.212915";
+      version = "0.7.0.20260104.45721";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20251210.212915.tar";
-        sha256 = "11z40939vc3mqa82k85v4ybzr3x5w1577816qqqnipw2q0c04fh5";
+        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20260104.45721.tar";
+        sha256 = "1m0sqnfzz0v8kj7vanpfsmqxgznmih7j8ii1xw7m73mql57gvjpg";
       };
       packageRequires = [ ];
       meta = {
@@ -5734,10 +5734,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.8.0.20260101.184815";
+      version = "3.4.8.0.20260104.4109";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.8.0.20260101.184815.tar";
-        sha256 = "09wbwvwyd8vmwl2gnn2qb683y7yk3p3vgm15xl6q37vxhgsy06hw";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.8.0.20260104.4109.tar";
+        sha256 = "1688qk4i4r131w0m2iss3p9yjlqs2a5r2nw9kfw7ziypqkmc6pp5";
       };
       packageRequires = [ compat ];
       meta = {
