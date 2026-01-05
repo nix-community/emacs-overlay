@@ -2719,10 +2719,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20260103.52306";
+      version = "4.0.6.0.20260104.144150";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20260103.52306.tar";
-        sha256 = "1mg5zq9iz3nz1wz686zf8zz8s217s5fg810m04q323v7rf62w7ck";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20260104.144150.tar";
+        sha256 = "0sngdmwgbi119b87fchh5f0b4nl501y3jdw6x4zawachn0fbk69d";
       };
       packageRequires = [
         helm-core
@@ -2744,10 +2744,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20260103.52306";
+      version = "4.0.6.0.20260104.144150";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20260103.52306.tar";
-        sha256 = "195x75nywyp6hgbpak59pv3jzl3lzg78m8ylznpzmxl0rlnaj8na";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20260104.144150.tar";
+        sha256 = "0pl8v25wpdnl18xwybggnfh6l44qxdprvxj4v9rjwnfrwf7hrfy5";
       };
       packageRequires = [ async ];
       meta = {
@@ -3064,10 +3064,10 @@
     elpaBuild {
       pname = "isl";
       ename = "isl";
-      version = "1.6.0.20251120.44129";
+      version = "1.6.0.20260105.45206";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.6.0.20251120.44129.tar";
-        sha256 = "0zql7y0r33k503qdr4wbbkvjkgb3b71kx2qd0frw91iy5y9w41k2";
+        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.6.0.20260105.45206.tar";
+        sha256 = "07srq23d165cbk2c31ibi5snh113qg387ycdfkndffc7s1n3jr7f";
       };
       packageRequires = [ ];
       meta = {
@@ -3318,10 +3318,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.15.0.0.20251226.201259";
+      version = "0.15.0.0.20260105.31613";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20251226.201259.tar";
-        sha256 = "02xkl00hc59c5a951zhri2k8al2j4h7s2cczc4yzw4mvfaxdlghk";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260105.31613.tar";
+        sha256 = "0yhdwi6qx948glyfc5r83bm8s9ayd2hq7ywanv1hyiqy3pfzpkc5";
       };
       packageRequires = [
         compat
@@ -5496,10 +5496,10 @@
     elpaBuild {
       pname = "undo-fu";
       ename = "undo-fu";
-      version = "0.5.0.20251223.51900";
+      version = "0.5.0.20260105.44918";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-0.5.0.20251223.51900.tar";
-        sha256 = "1rh0kkbpvxjf34qm0c54i6xlsvi9vsw26c63lqb0vkbswf405g0q";
+        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-0.5.0.20260105.44918.tar";
+        sha256 = "0wgiwz0k6rjqppw1bm1hyiqvfkbwlswa2zp825c06s0ha5jw8r9q";
       };
       packageRequires = [ ];
       meta = {
@@ -5670,10 +5670,10 @@
     elpaBuild {
       pname = "wfnames";
       ename = "wfnames";
-      version = "1.2.0.20240822.162149";
+      version = "1.2.0.20260105.45812";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/wfnames-1.2.0.20240822.162149.tar";
-        sha256 = "0wcnw48gpf0frx9fdhz4f4cxisb4v7dwbhd9q3i7j1ivdd07diwg";
+        url = "https://elpa.nongnu.org/nongnu-devel/wfnames-1.2.0.20260105.45812.tar";
+        sha256 = "116d5j1sqb0fbqlfaxxiaraw8c6mg69nw5mn412zwrvbq4vgpp4c";
       };
       packageRequires = [ ];
       meta = {
