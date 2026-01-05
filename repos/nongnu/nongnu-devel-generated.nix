@@ -708,10 +708,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0.0.20260101.134147";
+      version = "1.0.0.20260104.112811";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20260101.134147.tar";
-        sha256 = "1i4h17im0lg1b5v4v0g9m28bqgldxpgasykkwjbiwpf17b2pfylw";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.0.0.20260104.112811.tar";
+        sha256 = "1iwps8nm11jc5c8s36kibd4hicjxs08jp56gpaqp4r8f7dv11vki";
       };
       packageRequires = [
         consult
@@ -4726,10 +4726,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "97.0.0.20251007.170238";
+      version = "97.0.0.20260104.112033";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-97.0.0.20251007.170238.tar";
-        sha256 = "1r0bnwg0li1caq8q29hz9f25y8mpkq5iqx5gnd86il58wwx13r96";
+        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-97.0.0.20260104.112033.tar";
+        sha256 = "1n6bhpw0nllijdp04inw32f1670x65f0if52a0gp1ibhqanl0y15";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5517,10 +5517,10 @@
     elpaBuild {
       pname = "undo-fu-session";
       ename = "undo-fu-session";
-      version = "0.7.0.20260104.45721";
+      version = "0.7.0.20260104.124452";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20260104.45721.tar";
-        sha256 = "1m0sqnfzz0v8kj7vanpfsmqxgznmih7j8ii1xw7m73mql57gvjpg";
+        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20260104.124452.tar";
+        sha256 = "1xffq1ldx2fjv6pcwagh6lsxwwzbk24ch66bigb6vp9x70xmww4z";
       };
       packageRequires = [ ];
       meta = {
