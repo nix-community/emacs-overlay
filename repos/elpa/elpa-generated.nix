@@ -3045,10 +3045,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.10.4";
+      version = "1.10.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.10.4.tar";
-        sha256 = "1ma2ikbpsw48w88yvk7i9frbh8q01z4r192cn24hj2bxhvabzm81";
+        url = "https://elpa.gnu.org/packages/ellama-1.10.6.tar";
+        sha256 = "13ncmrqqyk3w7kabgnxpvx9if5ylxw7x44krrirdfriv2kq66n5i";
       };
       packageRequires = [
         compat
@@ -8678,10 +8678,10 @@
     elpaBuild {
       pname = "substitute";
       ename = "substitute";
-      version = "0.4.0";
+      version = "0.5.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/substitute-0.4.0.tar";
-        sha256 = "1385q9h9qhz84y1fm1fd1n48wypkgq4h3hhhk08877ppx58xsa6g";
+        url = "https://elpa.gnu.org/packages/substitute-0.5.0.tar";
+        sha256 = "1l8jaqmmxsv10c7giy9paxq4jdsnikwgyhnkj2vnk9s9panjngbw";
       };
       packageRequires = [ ];
       meta = {
