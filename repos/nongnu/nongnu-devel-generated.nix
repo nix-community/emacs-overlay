@@ -5001,10 +5001,10 @@
     elpaBuild {
       pname = "standard-keys-mode";
       ename = "standard-keys-mode";
-      version = "1.0.0.0.20250905.172556";
+      version = "1.0.0.0.20260105.112114";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/standard-keys-mode-1.0.0.0.20250905.172556.tar";
-        sha256 = "1vxzb1a5qmafs3n9a74fkyb888qk3q1zfm61ywjjsfs7bj4z87fg";
+        url = "https://elpa.nongnu.org/nongnu-devel/standard-keys-mode-1.0.0.0.20260105.112114.tar";
+        sha256 = "0haqds9h15rk61rnwrs0a37gwhm1gm4j6fj9a9i7fkvca2qfyb3d";
       };
       packageRequires = [ ];
       meta = {
@@ -5844,10 +5844,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.11.20251212190757.0.20251212.191201";
+      version = "28.11.20260105074113.0.20260105.74225";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.11.20251212190757.0.20251212.191201.tar";
-        sha256 = "10ksjc2cjyc82r0h5klqr3jk4n3q8bydxfqmdiwy40n2fr4jcjvz";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.11.20260105074113.0.20260105.74225.tar";
+        sha256 = "0kd5mkm25b8i06c35mcbcqx1m1085rcipz0p65hhwnpjj8g51iwz";
       };
       packageRequires = [ ];
       meta = {
