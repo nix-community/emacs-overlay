@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.7.0.20260105.173557";
+      version = "2.7.0.20260106.15045";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.7.0.20260105.173557.tar";
-        sha256 = "0kadrdc5nn97qmn7jpngqd05lix88ndvvw9hyngs42hgbvikzcw6";
+        url = "https://elpa.gnu.org/devel/corfu-2.7.0.20260106.15045.tar";
+        sha256 = "1p0mp3w38ad4l7iw8v3vpv3s92fdax890qnsr1dx7g3h4jrhdhcm";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5227,10 +5227,10 @@
     elpaBuild {
       pname = "listen";
       ename = "listen";
-      version = "0.10.0.20251214.32417";
+      version = "0.10.1.0.20260105.223313";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/listen-0.10.0.20251214.32417.tar";
-        sha256 = "14azysr2cdjw23g6r7p4vmfbsk07mqzmm1dbhx7sa3ln6a004psr";
+        url = "https://elpa.gnu.org/devel/listen-0.10.1.0.20260105.223313.tar";
+        sha256 = "1aqjjyy6910kiga2di05mz182qr344pwp1iv23jlsm4r8zln6ydm";
       };
       packageRequires = [
         persist
@@ -9574,10 +9574,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.12.0.0.20260104.164932";
+      version = "0.12.0.0.20260106.1300";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260104.164932.tar";
-        sha256 = "07m7sk8lhf8b561fq7scpvfy1r8ipz3w2ibqx8p62kn5pw2n2hdz";
+        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260106.1300.tar";
+        sha256 = "1p74p13npyssqasha91wn0s81wab1bnf2lrczgwh2d3lryyjqvsa";
       };
       packageRequires = [
         compat

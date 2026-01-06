@@ -5188,10 +5188,10 @@
     elpaBuild {
       pname = "listen";
       ename = "listen";
-      version = "0.10";
+      version = "0.10.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/listen-0.10.tar";
-        sha256 = "0n7shxxyy8zbxkz0g15mi4hrgc4kz2wp3rczcm0g9amcd0k7fc0h";
+        url = "https://elpa.gnu.org/packages/listen-0.10.1.tar";
+        sha256 = "1ypiv56cj5qiwf3bzipb7ahc3j1adx0fczv0kxfa0j2xc5ndn7z1";
       };
       packageRequires = [
         persist
