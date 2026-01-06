@@ -2522,10 +2522,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20260102.104019";
+      version = "0.9.9.3.0.20260105.160042";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260102.104019.tar";
-        sha256 = "0wghb16k1zbf3xp17z150p0dzhdvf73z632m3la7km78i5j08yba";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260105.160042.tar";
+        sha256 = "18xl1q634nhs11zxhdr1il150y6r0pvkfcglgs5ys4bzayplw6ks";
       };
       packageRequires = [
         compat
@@ -3043,10 +3043,10 @@
     elpaBuild {
       pname = "inkpot-theme";
       ename = "inkpot-theme";
-      version = "0.1.0.20250303.103930";
+      version = "0.1.0.20260106.3820";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/inkpot-theme-0.1.0.20250303.103930.tar";
-        sha256 = "02lkb9yl83bkad0jj6im6yhv160fsk0zf02zi9y9fzqx4p4qrn1g";
+        url = "https://elpa.nongnu.org/nongnu-devel/inkpot-theme-0.1.0.20260106.3820.tar";
+        sha256 = "17770z3r4ayjfj6l1dc21vmdwmzfw87dggsrln9p7l3b972xif3a";
       };
       packageRequires = [ ];
       meta = {
@@ -3445,10 +3445,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260103.192533";
+      version = "4.5.0.0.20260105.232622";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260103.192533.tar";
-        sha256 = "1aajhsg2kiqqfkg46gy9460lf93xx8575f64g5j5bydg455zp4ql";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260105.232622.tar";
+        sha256 = "0dkal18pmg86935hrzp9p7mgqjsw3lqm78ws0x9v0awjhfhp3w83";
       };
       packageRequires = [
         compat
@@ -3478,10 +3478,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260103.192533";
+      version = "4.5.0.0.20260105.232622";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260103.192533.tar";
-        sha256 = "048705krlsk7mln6ncx8a3nlvfmbhrafkh8fkmza1d1p6smziwxr";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260105.232622.tar";
+        sha256 = "1qdd8q55v6hq9y20d9488b4v21n0x01ihpv4qfc4i1kasgc6345k";
       };
       packageRequires = [
         compat
@@ -4959,10 +4959,10 @@
     elpaBuild {
       pname = "spell-fu";
       ename = "spell-fu";
-      version = "0.3.0.20251229.61152";
+      version = "0.3.0.20260106.4919";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20251229.61152.tar";
-        sha256 = "0x0pzq74xr80ypy59smqn5xm2b8l26p05jy0q3y038k7ir0z8l36";
+        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20260106.4919.tar";
+        sha256 = "07j7jd6mkb3w5l7y7pw2v64l7m3ar175frvvqkvrm4naar5r4sqr";
       };
       packageRequires = [ ];
       meta = {
@@ -5496,10 +5496,10 @@
     elpaBuild {
       pname = "undo-fu";
       ename = "undo-fu";
-      version = "0.5.0.20260105.44918";
+      version = "0.5.0.20260106.5300";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-0.5.0.20260105.44918.tar";
-        sha256 = "0wgiwz0k6rjqppw1bm1hyiqvfkbwlswa2zp825c06s0ha5jw8r9q";
+        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-0.5.0.20260106.5300.tar";
+        sha256 = "0blh8y7axsj127x448gb76v0w7d71m79qfsmfy7nd2dris54pff5";
       };
       packageRequires = [ ];
       meta = {
