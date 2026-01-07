@@ -972,10 +972,10 @@
     elpaBuild {
       pname = "diff-ansi";
       ename = "diff-ansi";
-      version = "0.2.0.20251214.63409";
+      version = "0.2.0.20260107.44625";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20251214.63409.tar";
-        sha256 = "0jfh065kv633zrdb92nik4g0a4bdnjxjyinhqys4gpzxmy0wcp78";
+        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20260107.44625.tar";
+        sha256 = "10nz615xrrlx3lvr9mkkpw3lrk0khq8lxnv5il8b71hjyidlgc54";
       };
       packageRequires = [ ];
       meta = {
@@ -4424,10 +4424,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20260106.144713";
+      version = "4.6snapshot0.20260107.83835";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20260106.144713.tar";
-        sha256 = "14b7an780faggk3mbl044g6yv6nad7qab227699hhqjmdnkw9vbb";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20260107.83835.tar";
+        sha256 = "13m5f920b3cw5wrlw4paz9xz5b3a59zmdnci8cyazff8jiyflfin";
       };
       packageRequires = [ ];
       meta = {
