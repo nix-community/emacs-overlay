@@ -1015,10 +1015,10 @@
     elpaBuild {
       pname = "buframe";
       ename = "buframe";
-      version = "0.2.0.20251222.91356";
+      version = "0.2.0.20260106.114915";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/buframe-0.2.0.20251222.91356.tar";
-        sha256 = "1gmq3wxw2s2hjgpjclpmz1cknnyn21cqkc1ggv77k32i7r1jiaqm";
+        url = "https://elpa.gnu.org/devel/buframe-0.2.0.20260106.114915.tar";
+        sha256 = "169q9hl2l3axzs9x4w8gy65r21rzpswh25whi3bwvllcmkskf6k8";
       };
       packageRequires = [ timeout ];
       meta = {
@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.7.0.20260106.15045";
+      version = "2.7.0.20260106.154552";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.7.0.20260106.15045.tar";
-        sha256 = "1p0mp3w38ad4l7iw8v3vpv3s92fdax890qnsr1dx7g3h4jrhdhcm";
+        url = "https://elpa.gnu.org/devel/corfu-2.7.0.20260106.154552.tar";
+        sha256 = "1nzi58v4cnf1zb1c9k4g89043gxriz99xl376xr7nvmqrklin13s";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6579,10 +6579,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.11.0.20260104.111230";
+      version = "1.11.0.20260106.155611";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.11.0.20260104.111230.tar";
-        sha256 = "1psdc7ma9wnv0vmalv4wzjyz8sp5d9c459f3c5gl74j7rr31gbr3";
+        url = "https://elpa.gnu.org/devel/org-modern-1.11.0.20260106.155611.tar";
+        sha256 = "142b8bz3rzfl4c5liwhrbzc2av28qcz7183sn16dby3bbcc7yldr";
       };
       packageRequires = [
         compat
