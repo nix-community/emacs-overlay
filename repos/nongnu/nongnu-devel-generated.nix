@@ -4403,10 +4403,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1.0.20250716.140530";
+      version = "2.9.1.0.20260107.125709";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20250716.140530.tar";
-        sha256 = "0y4vk9jb1knblzfaj28rvqkpgqwp58lhbgwab8p0nnnfjh269y4z";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20260107.125709.tar";
+        sha256 = "0hsfx47ipznf0jaiz9vhpp9y53486y3f57lakaydcchgj4n3zh13";
       };
       packageRequires = [ ];
       meta = {
@@ -4424,10 +4424,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20260107.83835";
+      version = "4.6snapshot0.20260107.170755";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20260107.83835.tar";
-        sha256 = "13m5f920b3cw5wrlw4paz9xz5b3a59zmdnci8cyazff8jiyflfin";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20260107.170755.tar";
+        sha256 = "15d2igyx60dm3c31jv5h5drr48l0gsbszk8vlia43vph51nh4wpc";
       };
       packageRequires = [ ];
       meta = {
