@@ -972,10 +972,10 @@
     elpaBuild {
       pname = "diff-ansi";
       ename = "diff-ansi";
-      version = "0.2.0.20260108.32255";
+      version = "0.2.0.20260108.151229";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20260108.32255.tar";
-        sha256 = "07fnjydd6vsy3qd1iijf2qrrzhh79i453qn8sqjj61b271ki2i7k";
+        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20260108.151229.tar";
+        sha256 = "0b1i031fyjszinpngz804di4fng6i71pcmckq05z75p3gjjfyx2j";
       };
       packageRequires = [ ];
       meta = {
@@ -1015,10 +1015,10 @@
     elpaBuild {
       pname = "doc-show-inline";
       ename = "doc-show-inline";
-      version = "0.1.0.20251229.5500";
+      version = "0.1.0.20260108.134251";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/doc-show-inline-0.1.0.20251229.5500.tar";
-        sha256 = "19ilpxshf02jd6bvdp4mcwwwn38i6pf9hzg2jlvh09shlylp7qgd";
+        url = "https://elpa.nongnu.org/nongnu-devel/doc-show-inline-0.1.0.20260108.134251.tar";
+        sha256 = "0i8npz6a4zyxy1w0kksflamn6w6r3wfv977s6hvprax4ajasmhzk";
       };
       packageRequires = [ ];
       meta = {
@@ -2932,10 +2932,10 @@
     elpaBuild {
       pname = "idle-highlight-mode";
       ename = "idle-highlight-mode";
-      version = "1.1.5.0.20251214.61439";
+      version = "1.1.5.0.20260108.131100";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idle-highlight-mode-1.1.5.0.20251214.61439.tar";
-        sha256 = "1d3lrjwvw721i39xq3wa7p9xp15rsvxnbpa33gcpzxpmhasyhpyr";
+        url = "https://elpa.nongnu.org/nongnu-devel/idle-highlight-mode-1.1.5.0.20260108.131100.tar";
+        sha256 = "0s1snfinjjhfp08ilwf1f6p6w55k95b79ymz8y0rp6dc7drlk59h";
       };
       packageRequires = [ ];
       meta = {
@@ -3708,10 +3708,10 @@
     elpaBuild {
       pname = "multiple-cursors";
       ename = "multiple-cursors";
-      version = "1.5.0.0.20251006.133827";
+      version = "1.5.0.0.20260108.90920";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors-1.5.0.0.20251006.133827.tar";
-        sha256 = "0lm29y8vhb1l9aprinpwngwhkh6h0vvihg3hfnf3nr1sh7lcmqzc";
+        url = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors-1.5.0.0.20260108.90920.tar";
+        sha256 = "1skizgn3baxh3sk7fplg8p3a8pdazcq4ns5k561lpvwj8qlw8kz2";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -3797,10 +3797,10 @@
     elpaBuild {
       pname = "oblivion-theme";
       ename = "oblivion-theme";
-      version = "0.1.0.20240320.115258";
+      version = "0.1.0.20260108.134901";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/oblivion-theme-0.1.0.20240320.115258.tar";
-        sha256 = "1m0r9laf3wk7pmw5p46cwh0k05lqs1p5806c1czqrqq35z29flwh";
+        url = "https://elpa.nongnu.org/nongnu-devel/oblivion-theme-0.1.0.20260108.134901.tar";
+        sha256 = "0qzb511qjbisywf29x29qg47dzh4gpxnxz776rq14h61w6jb1n9a";
       };
       packageRequires = [ ];
       meta = {
@@ -4273,10 +4273,10 @@
     elpaBuild {
       pname = "pdf-tools";
       ename = "pdf-tools";
-      version = "1.3.0.0.20260102.110151";
+      version = "1.3.0.0.20260108.170248";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.3.0.0.20260102.110151.tar";
-        sha256 = "18jgfx57986p9gfnm8lwqrnadsp51aybkfvkq7bzyqrg2brxakbg";
+        url = "https://elpa.nongnu.org/nongnu-devel/pdf-tools-1.3.0.0.20260108.170248.tar";
+        sha256 = "01q2sbvzhm9m00j542rgbfhinimxavnz4lflf66ccqpcmajzya24";
       };
       packageRequires = [
         let-alist
@@ -4552,10 +4552,10 @@
     elpaBuild {
       pname = "recomplete";
       ename = "recomplete";
-      version = "0.2.0.20251214.115024";
+      version = "0.2.0.20260108.132129";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/recomplete-0.2.0.20251214.115024.tar";
-        sha256 = "1w1vs21fha8qk4fd0gfr4j3b7p9p3an2qw1acdzyg05rqij91w80";
+        url = "https://elpa.nongnu.org/nongnu-devel/recomplete-0.2.0.20260108.132129.tar";
+        sha256 = "1vr39dvac87ikgf07r492yrmxnsfmdz816gyygb3rrj8fpjxp80f";
       };
       packageRequires = [ ];
       meta = {
@@ -4768,10 +4768,10 @@
     elpaBuild {
       pname = "scroll-on-drag";
       ename = "scroll-on-drag";
-      version = "0.1.0.20251215.114338";
+      version = "0.1.0.20260108.131616";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-drag-0.1.0.20251215.114338.tar";
-        sha256 = "1wz49169gbifwiqpg66v2h6dwb1zvz0brlgc7dd0mbm713frr9y4";
+        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-drag-0.1.0.20260108.131616.tar";
+        sha256 = "0hzpppp25wd9cli833gyw73nbkb8rs9pi2ivdgxnwj5ca9bwp8vw";
       };
       packageRequires = [ ];
       meta = {
@@ -4789,10 +4789,10 @@
     elpaBuild {
       pname = "scroll-on-jump";
       ename = "scroll-on-jump";
-      version = "0.3.0.20251213.114045";
+      version = "0.3.0.20260108.130950";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.3.0.20251213.114045.tar";
-        sha256 = "15hk8k8dsvsw67fivbbqasdbqf2i36sqr5l8d1p316zsf0y972ja";
+        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.3.0.20260108.130950.tar";
+        sha256 = "1jwsiqrn5q7vldbajyn76w4h2pffmgcv2hakgzsyjbfafvrzvqpj";
       };
       packageRequires = [ ];
       meta = {
@@ -4959,10 +4959,10 @@
     elpaBuild {
       pname = "spell-fu";
       ename = "spell-fu";
-      version = "0.3.0.20260106.4919";
+      version = "0.3.0.20260108.133641";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20260106.4919.tar";
-        sha256 = "07j7jd6mkb3w5l7y7pw2v64l7m3ar175frvvqkvrm4naar5r4sqr";
+        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20260108.133641.tar";
+        sha256 = "1yrv1a3k6nk92bhs4gsqpb1gc7x55gpp365ykpx6zj0hiapfhq80";
       };
       packageRequires = [ ];
       meta = {
@@ -5517,10 +5517,10 @@
     elpaBuild {
       pname = "undo-fu-session";
       ename = "undo-fu-session";
-      version = "0.7.0.20260104.124452";
+      version = "0.7.0.20260108.131306";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20260104.124452.tar";
-        sha256 = "1xffq1ldx2fjv6pcwagh6lsxwwzbk24ch66bigb6vp9x70xmww4z";
+        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-session-0.7.0.20260108.131306.tar";
+        sha256 = "0ykdif99h5618nssnh24yqjhv47cci69x2c1g1fwb96j371ckwlj";
       };
       packageRequires = [ ];
       meta = {
