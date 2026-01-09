@@ -593,10 +593,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.21.0snapshot0.20251231.145830";
+      version = "1.21.0snapshot0.20260109.74333";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.21.0snapshot0.20251231.145830.tar";
-        sha256 = "1fc75wgxbzxi00kvxsiiw4y2vv0cx9shfn767agbr3amm9b86wx4";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.21.0snapshot0.20260109.74333.tar";
+        sha256 = "1kjzrn8bf2zvnyi7g8qmr6qsnwk9wp072s17mxp4y6vwgglfv8g1";
       };
       packageRequires = [
         clojure-mode
@@ -3445,10 +3445,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260105.232622";
+      version = "4.5.0.0.20260108.224750";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260105.232622.tar";
-        sha256 = "0dkal18pmg86935hrzp9p7mgqjsw3lqm78ws0x9v0awjhfhp3w83";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260108.224750.tar";
+        sha256 = "118h54628nfims1slfn9xq250lmsyvdib6srlcchqjv4ii34yld0";
       };
       packageRequires = [
         compat
@@ -3478,10 +3478,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260105.232622";
+      version = "4.5.0.0.20260108.224750";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260105.232622.tar";
-        sha256 = "1qdd8q55v6hq9y20d9488b4v21n0x01ihpv4qfc4i1kasgc6345k";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260108.224750.tar";
+        sha256 = "04bipvk3sjy9n5pdhps885i0dd15riwh16vwn72f6hnjk4d03y2k";
       };
       packageRequires = [
         compat
@@ -4403,10 +4403,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1.0.20260107.125709";
+      version = "2.9.1.0.20260109.74226";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20260107.125709.tar";
-        sha256 = "0hsfx47ipznf0jaiz9vhpp9y53486y3f57lakaydcchgj4n3zh13";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20260109.74226.tar";
+        sha256 = "0f130x20p9r9lx25irqaah6h2hld3jmcq9dmg6rvjh1g5a2ixg0s";
       };
       packageRequires = [ ];
       meta = {
