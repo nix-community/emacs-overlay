@@ -459,10 +459,10 @@
     elpaBuild {
       pname = "blueprint-ts-mode";
       ename = "blueprint-ts-mode";
-      version = "0.0.3.0.20250702.131748";
+      version = "0.0.3.0.20260110.82453";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/blueprint-ts-mode-0.0.3.0.20250702.131748.tar";
-        sha256 = "1w0annw8qrf6pik02i4f7nq469spninjzjgfvkkk56h2cabxf29n";
+        url = "https://elpa.nongnu.org/nongnu-devel/blueprint-ts-mode-0.0.3.0.20260110.82453.tar";
+        sha256 = "1j0cx4w8ps6bmp0yybzj1db2aw12pgkv5pb0vcnsplwcp552rzd0";
       };
       packageRequires = [ ];
       meta = {
@@ -2522,10 +2522,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20260105.160042";
+      version = "0.9.9.3.0.20260109.204236";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260105.160042.tar";
-        sha256 = "18xl1q634nhs11zxhdr1il150y6r0pvkfcglgs5ys4bzayplw6ks";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260109.204236.tar";
+        sha256 = "1y2qq27232w369y7vqbif6hrycy7pcb1jyh1l9zk2z2vnwdzl608";
       };
       packageRequires = [
         compat
