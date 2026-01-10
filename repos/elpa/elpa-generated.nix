@@ -6694,10 +6694,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "2.0";
+      version = "2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/osm-2.0.tar";
-        sha256 = "0ngckkbwyq7kbdz5mfsa8x62hrqgh8vy17f63dy6c2y7dgpfs61q";
+        url = "https://elpa.gnu.org/packages/osm-2.1.tar";
+        sha256 = "1nwr32n7cmfa2ckym0srs0fn3426slrhxiykx971s9sgjxydlqq2";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6950,10 +6950,10 @@
     elpaBuild {
       pname = "phps-mode";
       ename = "phps-mode";
-      version = "0.4.51";
+      version = "0.4.52";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/phps-mode-0.4.51.tar";
-        sha256 = "1qiy16gh24sh274sasshxb230r2r2bx1b7awr9php854840p7pvx";
+        url = "https://elpa.gnu.org/packages/phps-mode-0.4.52.tar";
+        sha256 = "00cspfmy6c5vkcbaj7dw5w068f1849wvzw5hdp0yxyqgw7wrfdfp";
       };
       packageRequires = [ ];
       meta = {
