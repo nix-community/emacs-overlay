@@ -902,10 +902,10 @@
     elpaBuild {
       pname = "breadcrumb";
       ename = "breadcrumb";
-      version = "1.0.1.0.20250208.145328";
+      version = "1.0.1.0.20260110.120308";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20250208.145328.tar";
-        sha256 = "1bj75faninnkm2cdy1x4c6f9kamf8wkwc1rf4il5khi6gyr0ki2z";
+        url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20260110.120308.tar";
+        sha256 = "0g5gcq3iqvrkfi6iwbiiyrcwac36czxrfqi9gybipd9k11fqplcr";
       };
       packageRequires = [ project ];
       meta = {
@@ -1570,10 +1570,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.4.2.0.20260109.80742";
+      version = "0.4.2.0.20260110.125612";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.4.2.0.20260109.80742.tar";
-        sha256 = "0q0f9l3xsa8p4k3x0a0rfw6lyknb40ywkv23kcwifvn4p9qdmwqp";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.4.2.0.20260110.125612.tar";
+        sha256 = "1alpcf5mkihpgiwdjm3fmg8r0c4g653bhh5assgrzwq0qx4s2m81";
       };
       packageRequires = [
         consult
@@ -6460,10 +6460,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20260104.141540";
+      version = "9.8pre0.20260110.201327";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20260104.141540.tar";
-        sha256 = "1bkqh1k891xhx62hvak1zccvq6dfbfhbdcz5pll4z4j72liyv4x9";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20260110.201327.tar";
+        sha256 = "1ha2012lcl3l04kls171gv3p62qkk9c1c0id2sys1svc43308k5n";
       };
       packageRequires = [ ];
       meta = {
