@@ -2872,10 +2872,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.19";
+      version = "1.20";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/eglot-1.19.tar";
-        sha256 = "0bsz3grw41nh5r76brfdb4gb3hncs5chlhwsqm6qqg0ach69m7zi";
+        url = "https://elpa.gnu.org/packages/eglot-1.20.tar";
+        sha256 = "09gbsbfra1z71m6yilm4ip9l508sil2g9va76lxzr0kanrylkby2";
       };
       packageRequires = [
         eldoc
