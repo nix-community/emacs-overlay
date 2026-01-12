@@ -1547,10 +1547,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.1.0.20260111.145859";
+      version = "3.1.0.20260112.10146";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.1.0.20260111.145859.tar";
-        sha256 = "0pd72b8dadxr48l2704k5r6h7h2vcyw85yhl591b3h6wys96w8aw";
+        url = "https://elpa.gnu.org/devel/consult-3.1.0.20260112.10146.tar";
+        sha256 = "1a1hnhwh60mx54dgwi5366bvr5bcvaclggqwaps3sgwkab5hcmb1";
       };
       packageRequires = [ compat ];
       meta = {
