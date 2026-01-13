@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.0";
+      version = "14.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/auctex-14.1.0.tar";
-        sha256 = "0cb5f86p7yxqx27wck2a3wgsxrzhv5rrgn88wpias1w7v2lbsw2j";
+        url = "https://elpa.gnu.org/packages/auctex-14.1.1.tar";
+        sha256 = "0lyirndnkxpmwqbxjcn95dscq2h43rkrz86wgbfk0g116gm6l14i";
       };
       packageRequires = [ ];
       meta = {
@@ -1527,10 +1527,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.1";
+      version = "3.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-3.1.tar";
-        sha256 = "1yc2q9jmcdvvpg59qlvysj29x9hnimbn2jhgr3s64kfnr2gcaj5c";
+        url = "https://elpa.gnu.org/packages/consult-3.2.tar";
+        sha256 = "06nlzrc0fmd4x4s2fg6b8sj8a7qcqn2xis1f5ja30slfb93gq1wn";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6417,10 +6417,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.1";
+      version = "1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-contacts-1.1.tar";
-        sha256 = "0gqanhnrxajx5cf7g9waks23sclbmvmwjqrs0q4frcih3gs2nhix";
+        url = "https://elpa.gnu.org/packages/org-contacts-1.2.tar";
+        sha256 = "1icdwijxii3f14f8w1wh8pcg9xy4r1hlii7lzgb7jjswxn303gaj";
       };
       packageRequires = [ org ];
       meta = {
@@ -10538,10 +10538,10 @@
     elpaBuild {
       pname = "yaml";
       ename = "yaml";
-      version = "1.2.1";
+      version = "1.2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/yaml-1.2.1.tar";
-        sha256 = "14asp31dba2ab1hjvxjqdk99kzl82r7yjmrw6nk65i1wsnk14a6i";
+        url = "https://elpa.gnu.org/packages/yaml-1.2.2.tar";
+        sha256 = "0simmfdavr7g54hvag8pjibr5grsyy37l6cab70cn8h1yyxvnr9v";
       };
       packageRequires = [ ];
       meta = {
