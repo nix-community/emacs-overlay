@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.1.0.20260112.122459";
+      version = "14.1.1.0.20260113.83708";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.1.0.20260112.122459.tar";
-        sha256 = "0fxf1gyzw72d8xc49d4p1r5rbz8z0sp5czrzwjmcsjs473j4ss1q";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.1.0.20260113.83708.tar";
+        sha256 = "0c53c482snf9bq3xkrazn9ylfyk3bvy7as6fwd1dvkb0h1ifjzd1";
       };
       packageRequires = [ ];
       meta = {
@@ -1547,10 +1547,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.2.0.20260112.205639";
+      version = "3.2.0.20260113.54157";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.2.0.20260112.205639.tar";
-        sha256 = "0pxj6kny542mv2dfnm4lppjpsg6wirk0gxi1j3j80lcmzdz9xrn8";
+        url = "https://elpa.gnu.org/devel/consult-3.2.0.20260113.54157.tar";
+        sha256 = "0cncjb5ccmjqkspwc1kbklji6r4xp28rmhi1b7h99bi5h889zxgx";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5905,10 +5905,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260111.104554";
+      version = "5.2.0.0.20260113.43126";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260111.104554.tar";
-        sha256 = "1c6n2ql83mi0vadjqpiwr7a52kbbfhaaqb0dp8cmnpvdfqn5qk8j";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260113.43126.tar";
+        sha256 = "18wyzmpqax2zy37nm6naf8j059690ghxqkqa9qlqi6297wva229z";
       };
       packageRequires = [ ];
       meta = {
@@ -10740,10 +10740,10 @@
     elpaBuild {
       pname = "yaml";
       ename = "yaml";
-      version = "1.2.2.0.20260112.130812";
+      version = "1.2.3.0.20260113.65351";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/yaml-1.2.2.0.20260112.130812.tar";
-        sha256 = "0k9mrcpb3dkp5lpzkjvpsd1lfqzh9615my7q68qms5dgzds8hyyz";
+        url = "https://elpa.gnu.org/devel/yaml-1.2.3.0.20260113.65351.tar";
+        sha256 = "09ffagrz3qnbca8z4wm6bvxmdfnl2355sz9vgs9x3cavmy3pfy1x";
       };
       packageRequires = [ ];
       meta = {

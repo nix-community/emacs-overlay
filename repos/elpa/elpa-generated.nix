@@ -10538,10 +10538,10 @@
     elpaBuild {
       pname = "yaml";
       ename = "yaml";
-      version = "1.2.2";
+      version = "1.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/yaml-1.2.2.tar";
-        sha256 = "0simmfdavr7g54hvag8pjibr5grsyy37l6cab70cn8h1yyxvnr9v";
+        url = "https://elpa.gnu.org/packages/yaml-1.2.3.tar";
+        sha256 = "0wyvhh4ij22wdd3g5jkg2mnyglbk2k7mf2jv48jkpb5jc4kf6jvr";
       };
       packageRequires = [ ];
       meta = {
