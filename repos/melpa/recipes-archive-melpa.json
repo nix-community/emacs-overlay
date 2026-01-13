@@ -2137,15 +2137,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260112,
-    2223
+    20260113,
+    1042
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "e855e181e40a10dc440f26086ac2b4a51c0dbe66",
-   "sha256": "0lrh295a0rbsrdbl48ggq01vqd3zy2lxlls5ccq0wpgx3dm9ld36"
+   "commit": "52b934e794be802bb216e27154dc94398c0beed7",
+   "sha256": "0mfq1gd2il057ws4394lsf1i07kfi1r6q8m9gmbh8wmvlc0kfs8i"
   },
   "stable": {
    "version": [
@@ -13989,8 +13989,8 @@
   "repo": "andras-simonyi/citeproc-el",
   "unstable": {
    "version": [
-    20251103,
-    716
+    20260113,
+    1047
    ],
    "deps": [
     "compat",
@@ -14002,8 +14002,8 @@
     "s",
     "string-inflection"
    ],
-   "commit": "a3d62ab8e40a75fcfc6e4c0c107e3137b4db6db8",
-   "sha256": "1ffxh22xhzg582hbpsxr6cyjfyvvv5yqn3k39qxmkxbxk0g6hair"
+   "commit": "4bde999a41803fe519ea80eab8b813d53503eebd",
+   "sha256": "07ssnxri3hwzqxa2777zw2grbncznh6n7k4vfsfgyj42vcqm9g19"
   },
   "stable": {
    "version": [
@@ -18526,8 +18526,8 @@
   "repo": "mkcms/compiler-explorer.el",
   "unstable": {
    "version": [
-    20251229,
-    1015
+    20260113,
+    1505
    ],
    "deps": [
     "eldoc",
@@ -18535,8 +18535,8 @@
     "plz",
     "seq"
    ],
-   "commit": "95daa680767bb44dea98a5ad6c2da2ebd5c6bfa3",
-   "sha256": "0ngpxjjjdxw3lz5191almaz4g364xwdsj3dxwwq20277ziksa60a"
+   "commit": "79a4c4be96a3210ccc85d2e7f1acbc1a4bcf86d5",
+   "sha256": "0zapy5fjzfw7rxw7wkwvq27wbqsic7l7wjv0wlb5djyfjcax9g5q"
   },
   "stable": {
    "version": [
@@ -48205,8 +48205,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20260101,
-    1854
+    20260113,
+    1105
    ],
    "deps": [
     "closql",
@@ -48221,8 +48221,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "315e8e9a2b45d050ca7fc717595cc698e175b140",
-   "sha256": "0fg5r39l2y6smwkdzf0nwpa4hmgcj5mz28x8gwyvj9nfhgl4xg1j"
+   "commit": "57b015f6edf4310f893e6352098990826478b616",
+   "sha256": "1b9qczcmw524qp1yp8mc9qjyk8lrmwbz7i2smk9lzajqsy23rha8"
   },
   "stable": {
    "version": [
@@ -52657,8 +52657,8 @@
   "url": "https://git.thanosapollo.org/gnosis",
   "unstable": {
    "version": [
-    20251108,
-    939
+    20260113,
+    959
    ],
    "deps": [
     "compat",
@@ -52666,8 +52666,12 @@
     "org-gnosis",
     "transient"
    ],
-   "commit": "43b8ba93a7173543d16e08ebc30ce8ed3f793b7f",
-   "sha256": "0zlcw3qqpxar9sapds38w38yhxmndv7zb59xh206c0fwvymjfc1d"
+   "commit": "3aa72a4abe1ad42dd130749dedc367d4142d48c3",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2868-795126811/nix-shell-3057-3006944368/nix-shell-3102-2604111201/git-checkout-tmp-HgKenGxA/clone/.git/\nfatal: unable to access 'https://git.thanosapollo.org/gnosis/': The requested URL returned error: 504\nfatal: unable to access 'https://git.thanosapollo.org/gnosis/': The requested URL returned error: 504\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://git.thanosapollo.org/gnosis/': The requested URL returned error: 504\nUnable to checkout 3aa72a4abe1ad42dd130749dedc367d4142d48c3 from https://git.thanosapollo.org/gnosis.\n"
+   ]
   },
   "stable": {
    "version": [
@@ -68000,25 +68004,25 @@
   "repo": "sarg/wifi-manager",
   "unstable": {
    "version": [
-    20260103,
-    2138
+    20260113,
+    1101
    ],
    "deps": [
     "promise"
    ],
-   "commit": "22b424e6e6fa0eb4353394c64f31657ded09fe2b",
-   "sha256": "12m89lyz0rydx13ndkahg1phkp2afg1wrif52hfs0kn4p7b8yjbx"
+   "commit": "e947dff1f5593b3b01b380cc195108649392b89a",
+   "sha256": "1kfcxbjx1xgqbxx3s921nbkk1fqhndr91cckps5wk12d3mh98lqw"
   },
   "stable": {
    "version": [
     0,
-    1
+    2
    ],
    "deps": [
     "promise"
    ],
-   "commit": "ec2b209e408eef08d19fa135253aa22a0317815a",
-   "sha256": "0imxqvjw2if3chzj4jisz8035s61l4ldp36vl33wa15jzb0mxd33"
+   "commit": "e947dff1f5593b3b01b380cc195108649392b89a",
+   "sha256": "1kfcxbjx1xgqbxx3s921nbkk1fqhndr91cckps5wk12d3mh98lqw"
   }
  },
  {
@@ -106971,11 +106975,11 @@
   "repo": "ProofGeneral/PG",
   "unstable": {
    "version": [
-    20260109,
-    928
+    20260113,
+    1228
    ],
-   "commit": "649f8f0f1df614c96802e022b0ce0fbaeba6e4bf",
-   "sha256": "1jrjcjvmplzbq2gixzk0isir109dz175g4kzpz1j3q2knkpf6v9a"
+   "commit": "e164eca4e94fe9db750e1a350bb462be30c4469a",
+   "sha256": "0xf98l2bszm2y0kn55m93r0gzpgi8wh9mw2rsfczxvq68jhlywld"
   },
   "stable": {
    "version": [
@@ -127647,10 +127651,10 @@
    "version": [
     1,
     2,
-    3
+    4
    ],
-   "commit": "85084ded2c4f792aaed4a4a1687dadea0347c858",
-   "sha256": "1q3268qy1i3gv3xaqcr29kc7qcxi9z9a258vi218jqizva96gbkr"
+   "commit": "0c9ee6ba3b2fbdf4ab37cf486d9b0f1f7de09a71",
+   "sha256": "0jkpsaz02nwfivchfsz9rnfaf3v3bxgmhliw5vrbbgzrdiyxf8kd"
   }
  },
  {
@@ -131011,11 +131015,11 @@
   "repo": "fmguerreiro/unison-ts-mode",
   "unstable": {
    "version": [
-    20251209,
-    856
+    20260113,
+    846
    ],
-   "commit": "f8d291e8be9b2a3259d59e2d469660465a3d5deb",
-   "sha256": "184j5c3c2akqbwxk0j1aql5xyrwr14ml5ilnas65ybi80q9hnplm"
+   "commit": "7f0ed7c03d98fefc88c420bc49c423c66db186d7",
+   "sha256": "13sy6kj29hlaqfdkk2hv86yi1i3wv6ibywf5sm9ndqnw8a8r50pv"
   },
   "stable": {
    "version": [
@@ -137814,10 +137818,10 @@
    "version": [
     1,
     2,
-    2
+    3
    ],
-   "commit": "7b33b3a1b69f46e22cd6ddf92ab0dfe9c0512187",
-   "sha256": "0zsiq05d3kgf4r2wxnpqy2025an5yqwxjjh6m0np7l5mzwx4k54g"
+   "commit": "f2369fb4985ed054be47ae111760ff2075dff72a",
+   "sha256": "1fb7hgb6r0pk30w2vdcci494rrn337ibjvq7xj1ihj2cv2xk8pdb"
   }
  },
  {
