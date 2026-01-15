@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.1";
+      version = "14.1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/auctex-14.1.1.tar";
-        sha256 = "0lyirndnkxpmwqbxjcn95dscq2h43rkrz86wgbfk0g116gm6l14i";
+        url = "https://elpa.gnu.org/packages/auctex-14.1.2.tar";
+        sha256 = "0dp95siam576ji9ccznd7abclrxv14xbcmbkqaawf73q2rmfjwip";
       };
       packageRequires = [ ];
       meta = {
@@ -3181,10 +3181,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "24";
+      version = "25";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/emms-24.tar";
-        sha256 = "1nl152v27ryxq3g2dzg52xv3znw08wh486ax5dxkd2wvj6rv0dbg";
+        url = "https://elpa.gnu.org/packages/emms-25.tar";
+        sha256 = "1p194bgysn0mmnaz0n9j236dmz53dlyg202xgq03bi5sl7lrffgp";
       };
       packageRequires = [
         cl-lib
