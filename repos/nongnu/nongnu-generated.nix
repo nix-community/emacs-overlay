@@ -1353,6 +1353,28 @@
       };
     }
   ) { };
+  esxml = callPackage (
+    {
+      cl-lib ? null,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "esxml";
+      ename = "esxml";
+      version = "0.3.8";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/esxml-0.3.8.tar";
+        sha256 = "1r3hjjidqafr1drc0v0v7blglhf5mp544s6i4hc6xwkhg0amhd92";
+      };
+      packageRequires = [ cl-lib ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/esxml.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   evil = callPackage (
     {
       elpaBuild,
@@ -3806,6 +3828,28 @@
       ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/nix-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  nov = callPackage (
+    {
+      elpaBuild,
+      esxml,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "nov";
+      ename = "nov";
+      version = "0.5.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/nov-0.5.0.tar";
+        sha256 = "1isr91a4wkpy81nn620r10gwi6v1z6phb4wmf2zf1g3i0czzpz4x";
+      };
+      packageRequires = [ esxml ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/nov.html";
         license = lib.licenses.free;
       };
     }
