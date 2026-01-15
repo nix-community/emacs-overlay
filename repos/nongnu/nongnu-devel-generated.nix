@@ -2346,10 +2346,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.8.0.20260113.95910";
+      version = "0.5.8.0.20260114.45444";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.8.0.20260113.95910.tar";
-        sha256 = "0i17pakkvj2kh846g2yxvbpbr6cs1m2572yd7xhgffcn60cqi6gd";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.8.0.20260114.45444.tar";
+        sha256 = "17w44h3rsk5l8h48mgxz7wsmn3856zkqdiwzy4f1s8x55riqq7k3";
       };
       packageRequires = [
         compat
@@ -2522,10 +2522,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20260111.232044";
+      version = "0.9.9.3.0.20260113.223708";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260111.232044.tar";
-        sha256 = "0jaisaanjysx8r44kkanbbf3g91baa5w0c5d9qac52lnaih545j7";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260113.223708.tar";
+        sha256 = "0fzycqvq9w7qywrkd09h09v5rvg160fnm7p0hv93mlqpnja2srd1";
       };
       packageRequires = [
         compat
@@ -5369,10 +5369,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20260112.120031";
+      version = "0.2.1.0.20260113.192122";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20260112.120031.tar";
-        sha256 = "13swj05s2w70gxh9h78lq4kk2m1ipgxi8a963ispigr4z320h99g";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20260113.192122.tar";
+        sha256 = "0hbnzznq7bq11r7gxys24jqprkw1ykbya8izv256gp6hhss8l81q";
       };
       packageRequires = [ ];
       meta = {
