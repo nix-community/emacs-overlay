@@ -1547,10 +1547,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.2.0.20260114.192052";
+      version = "3.2.0.20260115.123630";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.2.0.20260114.192052.tar";
-        sha256 = "1q8nj8ig3x6rfsgnxgcv8bmfjsmajsimwxzzm8bysyjk65n72zp0";
+        url = "https://elpa.gnu.org/devel/consult-3.2.0.20260115.123630.tar";
+        sha256 = "135x95jcg65abl5g8dmsxkg0cd94jf8qmsymqrds56i2y39847gg";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6695,10 +6695,10 @@
     elpaBuild {
       pname = "org-transclusion";
       ename = "org-transclusion";
-      version = "1.4.0.0.20260103.231759";
+      version = "1.4.0.0.20260115.191247";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20260103.231759.tar";
-        sha256 = "0fidyrmx2mgb02i2n6k9g6k26s7km0a0bv00yz2rcf7cn3c219x0";
+        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20260115.191247.tar";
+        sha256 = "0wjnq0c93jn7w4bqk5l79fvd0x557wgc99fv2xfqr1bzinhss2cy";
       };
       packageRequires = [ org ];
       meta = {
@@ -9207,10 +9207,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.9.0.20260113.200220";
+      version = "1.9.0.20260115.165323";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260113.200220.tar";
-        sha256 = "0ra5krlcw4a3387iizlx3w662vkfw77411115wxrcpzhr674mkhh";
+        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260115.165323.tar";
+        sha256 = "100z2n3fwl7z7d9c8xwmf674h3pqa5paxn4im59wkbhhjmbdj0jk";
       };
       packageRequires = [ compat ];
       meta = {
