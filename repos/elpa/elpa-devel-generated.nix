@@ -3108,10 +3108,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.10.9.0.20260109.210802";
+      version = "1.10.10.0.20260115.215017";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.10.9.0.20260109.210802.tar";
-        sha256 = "0nlplcryyzqbl5p037m5y65fr1d3xnba5vzxl50wnc795dhfgwkx";
+        url = "https://elpa.gnu.org/devel/ellama-1.10.10.0.20260115.215017.tar";
+        sha256 = "0465all7jia8q1ls9aqpn8hqjyprmzx4k5dr7i5fx8zhmxa8pigp";
       };
       packageRequires = [
         compat
@@ -9207,10 +9207,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.9.0.20260115.165323";
+      version = "1.9.0.20260116.183639";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260115.165323.tar";
-        sha256 = "100z2n3fwl7z7d9c8xwmf674h3pqa5paxn4im59wkbhhjmbdj0jk";
+        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260116.183639.tar";
+        sha256 = "00nirqgk8q6v8n18y448a00x3rn1x1y3k6jahmya6agh64prr4nc";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10154,10 +10154,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.6.0.20260105.151417";
+      version = "2.6.0.20260116.120547";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.6.0.20260105.151417.tar";
-        sha256 = "0na2rrmy9i48xvwkmhrs544kr1bqhcl8qpdyh6z5cv70cidcwlgp";
+        url = "https://elpa.gnu.org/devel/vertico-2.6.0.20260116.120547.tar";
+        sha256 = "1qah543gg097xpd9w4p67vfqd6430c80aqc2ka5wi3d5h4an9sdi";
       };
       packageRequires = [ compat ];
       meta = {
