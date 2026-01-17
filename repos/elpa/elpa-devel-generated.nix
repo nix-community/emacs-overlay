@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20260115.65650";
+      version = "4.1.3.0.20260117.51853";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260115.65650.tar";
-        sha256 = "1isrr1zd6frzrjj4i0821q5dy6b6h3qj91i52q2r4km5rqnjqfyd";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260117.51853.tar";
+        sha256 = "1sdfb0mzlwcma2rr4mzj2xv8029i3kw2mj5yal65665g5n7xnjdf";
       };
       packageRequires = [ ];
       meta = {
@@ -2907,10 +2907,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.0.1.0.20260111.104645";
+      version = "2.0.1.0.20260117.83659";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.0.1.0.20260111.104645.tar";
-        sha256 = "1mx7id8lxzk20pn3qr8fs6yrx3f1a6i7mvz0bpp0yb6lpcryfxcd";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.0.1.0.20260117.83659.tar";
+        sha256 = "1qw0lxkx29vyxb7i53xkzv62n1jyrlbacxgshrdgd7pmkzmkzqpb";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -9207,10 +9207,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.9.0.20260116.183639";
+      version = "1.9.0.20260116.220610";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260116.183639.tar";
-        sha256 = "00nirqgk8q6v8n18y448a00x3rn1x1y3k6jahmya6agh64prr4nc";
+        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260116.220610.tar";
+        sha256 = "0my35fcprvdl894npv606pb7pcjrfsb6kcny88q6mhd7hhwnkvjw";
       };
       packageRequires = [ compat ];
       meta = {
