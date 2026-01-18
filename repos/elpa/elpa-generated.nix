@@ -1527,10 +1527,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.2";
+      version = "3.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-3.2.tar";
-        sha256 = "06nlzrc0fmd4x4s2fg6b8sj8a7qcqn2xis1f5ja30slfb93gq1wn";
+        url = "https://elpa.gnu.org/packages/consult-3.3.tar";
+        sha256 = "02gbd92hkxd34q9ba0fymwjfxl780bfrkfb78wvn53z08z4snkvn";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1640,10 +1640,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.7";
+      version = "2.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/corfu-2.7.tar";
-        sha256 = "1lym9r5ck0d27s7nrlb4a81rgjrvfdxvqflhwf274wy8hf2idd28";
+        url = "https://elpa.gnu.org/packages/corfu-2.8.tar";
+        sha256 = "06hg8q3apv8j4jb08rjjihijfy8jkd89v5x57lblhzzich2z8rwz";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6182,10 +6182,10 @@
     elpaBuild {
       pname = "notmuch-indicator";
       ename = "notmuch-indicator";
-      version = "1.2.0";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/notmuch-indicator-1.2.0.tar";
-        sha256 = "1n525slxs0l5nbila1sy62fz384yz7f54nrq1ixdlq0j3czgh9kz";
+        url = "https://elpa.gnu.org/packages/notmuch-indicator-1.3.0.tar";
+        sha256 = "00497l8gz6vpf7yciq4bd2spyil9bf73vn7s8as2sr8l0izr3psd";
       };
       packageRequires = [ ];
       meta = {
@@ -9931,10 +9931,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.6";
+      version = "2.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-2.6.tar";
-        sha256 = "11lm8bqk0scpa4szlmsrhv8k3ll57a6jhbiimvbm44l8jh3qkk9c";
+        url = "https://elpa.gnu.org/packages/vertico-2.7.tar";
+        sha256 = "0vqi5rv4dkfynhz27i1ll49waih4racig611a31caz2kchf3pzvm";
       };
       packageRequires = [ compat ];
       meta = {
