@@ -1085,10 +1085,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.4";
+      version = "2.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cape-2.4.tar";
-        sha256 = "12xr8gqhwyhvyh8nh8g0n675xsrja5i1m558likfa6np42iw79pc";
+        url = "https://elpa.gnu.org/packages/cape-2.5.tar";
+        sha256 = "1xfrz3pvryp0b5x14dy04s97j3ir0iqxaij77a64gqvpmfjg154i";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2274,10 +2274,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "1.2";
+      version = "1.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dicom-1.2.tar";
-        sha256 = "1k1n7i2nzbcs8jqnhiksh79xyp80x94h18jwgl7s0c0akcp8365n";
+        url = "https://elpa.gnu.org/packages/dicom-1.3.tar";
+        sha256 = "05n9azzj0wskzd0jzyqhfk3blss31wjzp8wkqam79hq0j6daf6g5";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2620,10 +2620,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.5.0";
+      version = "0.6.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/doric-themes-0.5.0.tar";
-        sha256 = "11889xskdp42ckbk75wiy1f5sdy1ia04ndn48vn2dw57pcgmjcnw";
+        url = "https://elpa.gnu.org/packages/doric-themes-0.6.0.tar";
+        sha256 = "0rfdlzxg5xsmx4qzv9ffsp82immwaj44q2kmqr9lrrzqw185gwxy";
       };
       packageRequires = [ ];
       meta = {
@@ -4787,10 +4787,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.5";
+      version = "2.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jinx-2.5.tar";
-        sha256 = "0ggivcvm6kwnw6yk86vkvahfxzn72nw848nzzj77jkcf6717x8lb";
+        url = "https://elpa.gnu.org/packages/jinx-2.6.tar";
+        sha256 = "0ypskc341xixx47b9zbcf890jfbwi96y4lnp005mh2bz27z8pvqc";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5477,10 +5477,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.7";
+      version = "2.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/marginalia-2.7.tar";
-        sha256 = "04ckiq04h5l8jsqb7a2v2jzpb2xpgbza7hxhxn2sq9c0z14nnp88";
+        url = "https://elpa.gnu.org/packages/marginalia-2.8.tar";
+        sha256 = "0gshbibjpzi1cxvyg1jvxgp9a1n7pgizf8nibx6kmj10liilcjmk";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6514,10 +6514,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.11";
+      version = "1.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-modern-1.11.tar";
-        sha256 = "1y97pwywbhv3a1nz7acm717jkl72jr3c38qwyx7kxk6vda9b745a";
+        url = "https://elpa.gnu.org/packages/org-modern-1.12.tar";
+        sha256 = "18ymshg86vigqmwrlxw2jk5v5mzjymvjqa8mkrr6nq3b9lwxv816";
       };
       packageRequires = [
         compat
