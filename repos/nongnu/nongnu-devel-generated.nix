@@ -1164,10 +1164,10 @@
     elpaBuild {
       pname = "editorconfig";
       ename = "editorconfig";
-      version = "0.11.0.0.20251224.71928";
+      version = "0.11.0.0.20260117.231845";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20251224.71928.tar";
-        sha256 = "0hzhiyvvzr3bxwwb1d6pgwvyf74ihn5y5c7zffxg9qxpyyqgqpl5";
+        url = "https://elpa.nongnu.org/nongnu-devel/editorconfig-0.11.0.0.20260117.231845.tar";
+        sha256 = "1ys0m58c19598l6cakzl8m3931fcbs9f4c2fk76qhc5142np20w8";
       };
       packageRequires = [ ];
       meta = {
@@ -3166,6 +3166,27 @@
       };
     }
   ) { };
+  javelin = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "javelin";
+      ename = "javelin";
+      version = "0.2.3.0.20260105.173516";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/javelin-0.2.3.0.20260105.173516.tar";
+        sha256 = "0vv0kk0pvdmyr7arargdxrldkk4m8b43i2jb0w4lia5pfn66h6kl";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/javelin.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   jinja2-mode = callPackage (
     {
       elpaBuild,
@@ -4722,10 +4743,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20260101.80918";
+      version = "1.0.6.0.20260118.53640";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260101.80918.tar";
-        sha256 = "1ky2z000v45v889fy9736zgf5im90v1fa12p8v3fjij7rivn8la9";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260118.53640.tar";
+        sha256 = "1lzaji5bxznmm55xnyz93q2rf3x7p3873z0gw3ml08mng0gj99w7";
       };
       packageRequires = [ ];
       meta = {
@@ -5413,10 +5434,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20260117.80015";
+      version = "0.2.1.0.20260117.211549";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20260117.80015.tar";
-        sha256 = "16s6d15rbjyi4wbxblayczka4cpaqxlrm9bbl37j8jn66m91qajs";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20260117.211549.tar";
+        sha256 = "1zznirq9lvrhqhm3xc6sf0ap157dl16ybcncighl6p641zb292b5";
       };
       packageRequires = [ ];
       meta = {
