@@ -731,10 +731,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.0";
+      version = "1.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/consult-flycheck-1.0.tar";
-        sha256 = "17kc7v50zq69l4803nh8sjnqwi59p09wjzqkwka6g4dapya3h2xy";
+        url = "https://elpa.nongnu.org/nongnu/consult-flycheck-1.1.tar";
+        sha256 = "0nanxx0fbj6w9sxzz4ys8nxpv63al3m4lliy30y4ydiaig2a0abc";
       };
       packageRequires = [
         consult
@@ -4788,10 +4788,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "97.0";
+      version = "98.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/scad-mode-97.0.tar";
-        sha256 = "0javyq4jqjx3anci18d8fdfz10pm1kfh9nfyw7v9flkvsxhala65";
+        url = "https://elpa.nongnu.org/nongnu/scad-mode-98.0.tar";
+        sha256 = "0ksiz8rxxykm2lnc2lil1qndpl0lxcw8fa9nlh420xva9m3s9sda";
       };
       packageRequires = [ compat ];
       meta = {
