@@ -9019,7 +9019,7 @@
   ) { };
   test-simple = callPackage (
     {
-      cl-lib ? null,
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -9027,12 +9027,12 @@
     elpaBuild {
       pname = "test-simple";
       ename = "test-simple";
-      version = "1.3.1";
+      version = "1.3.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/test-simple-1.3.1.tar";
-        sha256 = "11sgc7187l1a4f1x1f6z58dy7pc7n1999id50rjifkvk901x0qd1";
+        url = "https://elpa.gnu.org/packages/test-simple-1.3.2.tar";
+        sha256 = "1pw60mpjncapgzgsgml8xsy2bkpmw1p082q427vl9g8lxiq555qb";
       };
-      packageRequires = [ cl-lib ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/test-simple.html";
         license = lib.licenses.free;

@@ -9207,10 +9207,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.9.0.20260118.204801";
+      version = "1.9.0.20260118.213209";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260118.204801.tar";
-        sha256 = "0nw49x9d8hn24vvjlnl0xdigs0h0nhpi916l1081iim8g1palcpr";
+        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260118.213209.tar";
+        sha256 = "01lq1ra66dngj5rnsd34qsnpa2nmf6l9z4wv1g03cbagmlpj3qv4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9242,7 +9242,7 @@
   ) { };
   test-simple = callPackage (
     {
-      cl-lib ? null,
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -9250,12 +9250,12 @@
     elpaBuild {
       pname = "test-simple";
       ename = "test-simple";
-      version = "1.3.1.0.20251124.94637";
+      version = "1.3.2.0.20260118.164127";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/test-simple-1.3.1.0.20251124.94637.tar";
-        sha256 = "119lz1ddsqn6hzidx4s85p42c2a62xm55c8p6xjkr0c7radyxww3";
+        url = "https://elpa.gnu.org/devel/test-simple-1.3.2.0.20260118.164127.tar";
+        sha256 = "0plxxqm2qvnhr697x1ivdlawf8759aqg05im7zcja8bbc5mc16nv";
       };
-      packageRequires = [ cl-lib ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/test-simple.html";
         license = lib.licenses.free;
@@ -10154,10 +10154,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.7.0.20260118.74351";
+      version = "2.7.0.20260119.65523";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.7.0.20260118.74351.tar";
-        sha256 = "007srhl8dxzsa0i2wv1iqc14yggm2shi9qbd825dkn3x6mmvcbn7";
+        url = "https://elpa.gnu.org/devel/vertico-2.7.0.20260119.65523.tar";
+        sha256 = "131534qw0g88fyr4klk226abywm0vxzvwmq06pp4zf4k4114d2hy";
       };
       packageRequires = [ compat ];
       meta = {
