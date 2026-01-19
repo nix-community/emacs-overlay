@@ -685,10 +685,10 @@
     elpaBuild {
       pname = "cond-let";
       ename = "cond-let";
-      version = "0.2.1.0.20260117.124234";
+      version = "0.2.1.0.20260118.133210";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-0.2.1.0.20260117.124234.tar";
-        sha256 = "0aqdkzycpxxi6fdfm3izz313ppbj9p2zc3svl5f1zvq35m7h38k1";
+        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-0.2.1.0.20260118.133210.tar";
+        sha256 = "0wmj57krcv3k9lvj2a9lzg155rfg5vvzl518mfx08bn5ycb6w9ra";
       };
       packageRequires = [ ];
       meta = {
@@ -4533,10 +4533,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20260106.94405";
+      version = "1.0.20260117.121353";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260106.94405.tar";
-        sha256 = "01cqc0ls652qhsccfjd2qx99q3pgnzzd43yn5d19szp8kk2pzk41";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260117.121353.tar";
+        sha256 = "0zycibkfrckgmqc5ss0fv1kz3yin9xldg1bx13rvj59m7qp6fkaj";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4812,10 +4812,10 @@
     elpaBuild {
       pname = "scala-mode";
       ename = "scala-mode";
-      version = "1.1.1.0.20241231.83915";
+      version = "1.1.1.0.20260118.94206";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scala-mode-1.1.1.0.20241231.83915.tar";
-        sha256 = "079w6awnk36h33fz4gsqcnc3llsfmv1pmwzqyy8vv27x65i9fxjs";
+        url = "https://elpa.nongnu.org/nongnu-devel/scala-mode-1.1.1.0.20260118.94206.tar";
+        sha256 = "172vfh3a91angf9xj17x5kw8gpinhmk08g3jpwwzq02m6y6ipkn9";
       };
       packageRequires = [ ];
       meta = {
