@@ -4453,10 +4453,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.9.2";
+      version = "1.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/indent-bars-0.9.2.tar";
-        sha256 = "030haxxla7m6p2zks9g50dj8rr8grm67n2ig7zd3k20h1yrfm6q0";
+        url = "https://elpa.gnu.org/packages/indent-bars-1.0.0.tar";
+        sha256 = "0iifmipmbry7r2xsq4i2q1k2awcy4z7v3bd509r50i3mc5002ssf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9909,10 +9909,10 @@
     elpaBuild {
       pname = "verilog-mode";
       ename = "verilog-mode";
-      version = "2025.11.8.248496848";
+      version = "2026.1.18.88738971";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/verilog-mode-2025.11.8.248496848.tar";
-        sha256 = "0w10f8gh2adabd5phgqqka4i0jq1g86bvq9yv3whnaxwiyf0m676";
+        url = "https://elpa.gnu.org/packages/verilog-mode-2026.1.18.88738971.tar";
+        sha256 = "1m215m38mia2wiq1zzyy85k268pch10yzf3p4i0nk5s7ijxl6ls4";
       };
       packageRequires = [ ];
       meta = {

@@ -2907,10 +2907,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.0.1.0.20260118.73003";
+      version = "2.0.1.0.20260118.170110";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.0.1.0.20260118.73003.tar";
-        sha256 = "0gac09dshwb1z37fb1bwq1vs5pr265b9wgv6rcdnfhsyimrapliy";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.0.1.0.20260118.170110.tar";
+        sha256 = "1rm48vy2yfxbvr0693wa234hk563qy5wkv94spbm8fn1x7nbvga3";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -4514,10 +4514,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "0.9.2.0.20251215.220701";
+      version = "1.0.0.0.20260118.100043";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-0.9.2.0.20251215.220701.tar";
-        sha256 = "0gjs9vv769adsjck7ilwyb9g3c6l62bnpcscdwqa9b95vrljnqhv";
+        url = "https://elpa.gnu.org/devel/indent-bars-1.0.0.0.20260118.100043.tar";
+        sha256 = "0mc85hal6vsfbw69mzwpn2n9nnqyhzga91vk5b9vdipn616h1w07";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6781,10 +6781,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "2.1.0.20260118.74223";
+      version = "2.1.0.20260118.165714";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-2.1.0.20260118.74223.tar";
-        sha256 = "04lqsjz2yq677p5azhd41cbqjm135pv01cdyfshcssily4jj6zqr";
+        url = "https://elpa.gnu.org/devel/osm-2.1.0.20260118.165714.tar";
+        sha256 = "177f9ygbfyxb5vghp5c1cq6qy9fjz0ryf0srp3zla42zjfjnd4al";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9207,10 +9207,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.9.0.20260118.85341";
+      version = "1.9.0.20260118.204801";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260118.85341.tar";
-        sha256 = "0nhcc4ixb4djnxwmflsajflb91ssjq272v30l17gl9y01hacwcw1";
+        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260118.204801.tar";
+        sha256 = "0nw49x9d8hn24vvjlnl0xdigs0h0nhpi916l1081iim8g1palcpr";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9596,10 +9596,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.12.0.0.20260113.154930";
+      version = "0.12.0.0.20260118.132220";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260113.154930.tar";
-        sha256 = "1p73jmvs8f1jrdp0zzazkwqmnv7kifmhrrkcxlpzh6wnxlk46mfn";
+        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260118.132220.tar";
+        sha256 = "1b0x7ljqgxdc9dw63v7jvqzhs7vkck54xjvyfx9fhsiq2ijnw3yp";
       };
       packageRequires = [
         compat
@@ -10132,10 +10132,10 @@
     elpaBuild {
       pname = "verilog-mode";
       ename = "verilog-mode";
-      version = "2025.11.8.248496848.0.20260101.125434";
+      version = "2026.1.18.88738971.0.20260118.95917";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/verilog-mode-2025.11.8.248496848.0.20260101.125434.tar";
-        sha256 = "1c8wgawjizy4jlmdbl8f93n0wh814kxmnlgl71l2dn2jna38234d";
+        url = "https://elpa.gnu.org/devel/verilog-mode-2026.1.18.88738971.0.20260118.95917.tar";
+        sha256 = "1h5mp70kg1w85g0kx6ipdczkza553d7mzffxx832j4wx3wr5afql";
       };
       packageRequires = [ ];
       meta = {
