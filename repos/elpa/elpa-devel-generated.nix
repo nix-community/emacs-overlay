@@ -3108,10 +3108,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.10.10.0.20260115.215017";
+      version = "1.10.11.0.20260119.222943";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.10.10.0.20260115.215017.tar";
-        sha256 = "0465all7jia8q1ls9aqpn8hqjyprmzx4k5dr7i5fx8zhmxa8pigp";
+        url = "https://elpa.gnu.org/devel/ellama-1.10.11.0.20260119.222943.tar";
+        sha256 = "0asbbrfrc8irmgsv9adnb1l0c9x34w0q7hpxk115y6sgih7rbm6a";
       };
       packageRequires = [
         compat
@@ -5540,10 +5540,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.8.0.20260117.165105";
+      version = "2.8.0.20260119.212514";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.8.0.20260117.165105.tar";
-        sha256 = "0y5cmg778w0mik4pkbb2l9x7qp456dhrhcbyapr5g4ym2jl1id25";
+        url = "https://elpa.gnu.org/devel/marginalia-2.8.0.20260119.212514.tar";
+        sha256 = "1scasnw9krlnqspr7yigb499nkcvffw74ppqif9bfmqhggl9rsmm";
       };
       packageRequires = [ compat ];
       meta = {
