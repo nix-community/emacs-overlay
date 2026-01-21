@@ -2769,10 +2769,10 @@
     elpaBuild {
       pname = "easy-kill";
       ename = "easy-kill";
-      version = "0.9.5.0.20260112.113033";
+      version = "0.9.5.0.20260121.75216";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/easy-kill-0.9.5.0.20260112.113033.tar";
-        sha256 = "0889d9hri58hfxj03ga98ji7m6z3jdpi23r72jcf7wmks1546j24";
+        url = "https://elpa.gnu.org/devel/easy-kill-0.9.5.0.20260121.75216.tar";
+        sha256 = "1x0adprjak14b9s2rkmlmmxgaszw2nqsd527pgi9da46wa5x55zy";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -5860,10 +5860,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20251218.173414";
+      version = "0.7.1.0.20260121.24143";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20251218.173414.tar";
-        sha256 = "0zy7rgl75ckaiibsmb0h09vrkmi9cz6svazfc8z20l0xnrkm10lr";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260121.24143.tar";
+        sha256 = "0p6d51si4h64cy238n9sfwfvp3ynsrams71la2784iihpl6sxayc";
       };
       packageRequires = [
         dash
@@ -5927,10 +5927,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260113.43126";
+      version = "5.2.0.0.20260121.65500";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260113.43126.tar";
-        sha256 = "18wyzmpqax2zy37nm6naf8j059690ghxqkqa9qlqi6297wva229z";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260121.65500.tar";
+        sha256 = "0iqh1179f00jyyyyjxfikd5ivk9dcw40hi6pq3696s8qrh5z03pv";
       };
       packageRequires = [ ];
       meta = {
@@ -7271,10 +7271,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.0.0.20251125.84642";
+      version = "1.5.0.0.20260121.14807";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.5.0.0.20251125.84642.tar";
-        sha256 = "1cydrjx1i7l2aqv96gi7qdaa0d7cnv9b71xn0c9hdmigkdj7wdxh";
+        url = "https://elpa.gnu.org/devel/posframe-1.5.0.0.20260121.14807.tar";
+        sha256 = "0mi4vbda7hici8sqgdkd0s8s395md3g7lsj856jag1walm320d8y";
       };
       packageRequires = [ ];
       meta = {
@@ -9207,10 +9207,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.9.0.20260120.133216";
+      version = "1.10.0.20260121.63956";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260120.133216.tar";
-        sha256 = "1wrlziaj9lzgfk99rhvjfd74av2p09vvxrkqls5isvpiq1bspcsd";
+        url = "https://elpa.gnu.org/devel/tempel-1.10.0.20260121.63956.tar";
+        sha256 = "1ykw02d5zmbbap6x9qb1hhyzqvkmp1jd04750qi5ci0qbbwaq4dg";
       };
       packageRequires = [ compat ];
       meta = {

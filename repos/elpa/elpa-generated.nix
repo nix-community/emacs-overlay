@@ -8984,10 +8984,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.9";
+      version = "1.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tempel-1.9.tar";
-        sha256 = "128yfnfnd0nd7ck39d9inr3vcbg2w2a5kms5a2l8aba2cb6valnb";
+        url = "https://elpa.gnu.org/packages/tempel-1.10.tar";
+        sha256 = "0b0zg6zz2fya15902c8irnaq2gc18qyin7v668mjjdanzzpi6gbb";
       };
       packageRequires = [ compat ];
       meta = {
