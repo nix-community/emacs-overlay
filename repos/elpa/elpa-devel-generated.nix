@@ -1015,10 +1015,10 @@
     elpaBuild {
       pname = "buframe";
       ename = "buframe";
-      version = "0.2.0.20260106.114915";
+      version = "0.3.0.20260120.162350";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/buframe-0.2.0.20260106.114915.tar";
-        sha256 = "169q9hl2l3axzs9x4w8gy65r21rzpswh25whi3bwvllcmkskf6k8";
+        url = "https://elpa.gnu.org/devel/buframe-0.3.0.20260120.162350.tar";
+        sha256 = "1kh6h6rqg3j4rbbcr5m1ch5gvcsyllxg78l549ay5hhyi06j2y7a";
       };
       packageRequires = [ timeout ];
       meta = {
@@ -1941,10 +1941,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.25.0.0.20260107.224854";
+      version = "0.25.0.0.20260120.194632";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.25.0.0.20260107.224854.tar";
-        sha256 = "1z3xms1jzhdx0m3r4i9a7nlwrcz1agdlxb92f7gqc8rh9jpvlvmh";
+        url = "https://elpa.gnu.org/devel/dape-0.25.0.0.20260120.194632.tar";
+        sha256 = "1xkyfl1aidsxnab8alwpy7l8fvkmrml3ncnfgr4w1hqk5h7h3vbg";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -4450,10 +4450,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260111.164604";
+      version = "9.0.2pre0.20260120.95859";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260111.164604.tar";
-        sha256 = "1f23ai3xhcpf0ka8djpjxc7f2mm3fxb3xvnfma8dgyggw5hgq7lf";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260120.95859.tar";
+        sha256 = "1zd7lvkdqjy9vbkrpxvbwpw3ksqb51iwdm2ag9s4idds2zvlh7vs";
       };
       packageRequires = [ ];
       meta = {
@@ -4514,10 +4514,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "1.0.0.0.20260118.100043";
+      version = "1.0.0.0.20260120.94117";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-1.0.0.0.20260118.100043.tar";
-        sha256 = "0mc85hal6vsfbw69mzwpn2n9nnqyhzga91vk5b9vdipn616h1w07";
+        url = "https://elpa.gnu.org/devel/indent-bars-1.0.0.0.20260120.94117.tar";
+        sha256 = "11ffwvv8zmkxbc74ny30cgjpwzv6v0mbdcdr1laadhbhwkdlk8am";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6553,10 +6553,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.1.1.0.20260111.154709";
+      version = "0.1.1.0.20260120.194224";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-gnosis-0.1.1.0.20260111.154709.tar";
-        sha256 = "0il5nqmd6qj3ypglsdfcc4rxpzfrqdp8s4rg7f4jjd5qy2l3kwnw";
+        url = "https://elpa.gnu.org/devel/org-gnosis-0.1.1.0.20260120.194224.tar";
+        sha256 = "0dmcb55059qg2nqzvzdd2c61iqqcpzvcs6q21p8fiq2z654nqaaw";
       };
       packageRequires = [
         compat
@@ -9207,10 +9207,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.9.0.20260119.133441";
+      version = "1.9.0.20260120.133216";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260119.133441.tar";
-        sha256 = "1a642c0rasmyx94i7bjg9lpqj0sr624zi3vwz1jn2bxjfv3p3jpk";
+        url = "https://elpa.gnu.org/devel/tempel-1.9.0.20260120.133216.tar";
+        sha256 = "1wrlziaj9lzgfk99rhvjfd74av2p09vvxrkqls5isvpiq1bspcsd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9398,10 +9398,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.2.1.0.20260119.190816";
+      version = "1.2.1.0.20260120.135955";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.2.1.0.20260119.190816.tar";
-        sha256 = "0c331q79fgvm0rhp2am836mqv70grzrdjvs10x8a74hmn9f0qr79";
+        url = "https://elpa.gnu.org/devel/tmr-1.2.1.0.20260120.135955.tar";
+        sha256 = "0ws0fp2my34f2bpmp5clv1vmlsxh6aq0f6v8n8kapn1bpiq69gwc";
       };
       packageRequires = [ ];
       meta = {
