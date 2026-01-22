@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.5.0.20260117.195328";
+      version = "2.5.0.20260122.81244";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.5.0.20260117.195328.tar";
-        sha256 = "0j8h5hl8d7nlwi5dnngjzp48d11z2mlkyhg5l1f9h4sz7lss9rc2";
+        url = "https://elpa.gnu.org/devel/cape-2.5.0.20260122.81244.tar";
+        sha256 = "1gbssc87wz21l2rjs4r4sq7nwcy73cdp6kb1fkmgwqpsp2k25yfk";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2935,10 +2935,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.21.0.20260121.122624";
+      version = "1.21.0.20260121.230919";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.21.0.20260121.122624.tar";
-        sha256 = "1r9mcaw9ma5i0jwmlmjmcmmcdwnk8rwfvdifcpp8dzym4w4xpjiv";
+        url = "https://elpa.gnu.org/devel/eglot-1.21.0.20260121.230919.tar";
+        sha256 = "0zj4wk5sx7s0hiimvwnlx2znsv8zc7070sn6i40kxfnhc250285r";
       };
       packageRequires = [
         eldoc
@@ -3496,10 +3496,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.34.0.20260101.133557";
+      version = "0.34.0.20260122.70657";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20260101.133557.tar";
-        sha256 = "0f84qsamhhrg71qfs4s3klf61idg8kfs40b0fw9kbd5hm1y9jcrc";
+        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20260122.70657.tar";
+        sha256 = "0afhxbxlw8sx6igqf5287dxybhjr624pr4j4a7hapa9ldq4d9xsg";
       };
       packageRequires = [
         compat
@@ -9207,10 +9207,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.10.0.20260121.195217";
+      version = "1.10.0.20260121.214800";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.10.0.20260121.195217.tar";
-        sha256 = "1mw9jnii8z7d5kfj0ynm3j9y242bvhhi2xb1ldr1mqh7ajsg9y8m";
+        url = "https://elpa.gnu.org/devel/tempel-1.10.0.20260121.214800.tar";
+        sha256 = "1k5l9p7p6jwl9bmjsyigfmjpyfm6m2bn3cxrcvlgvj0qxmddbg95";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9398,10 +9398,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.2.1.0.20260120.135955";
+      version = "1.2.1.0.20260122.70647";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.2.1.0.20260120.135955.tar";
-        sha256 = "0ws0fp2my34f2bpmp5clv1vmlsxh6aq0f6v8n8kapn1bpiq69gwc";
+        url = "https://elpa.gnu.org/devel/tmr-1.2.1.0.20260122.70647.tar";
+        sha256 = "04jvdx0v7fx51afsjmf2w1q7mcqhalylrgydjvnkkvkbyazkyscb";
       };
       packageRequires = [ ];
       meta = {
