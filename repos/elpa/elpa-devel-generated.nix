@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260121.153307";
+      version = "14.1.2.0.20260122.195707";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260121.153307.tar";
-        sha256 = "0bix6wbiahr3y30sqwkfjj5875raqn2k0xjp76gw0wpv9gn89yyh";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260122.195707.tar";
+        sha256 = "1gh5ji7r53qgqshfr80m8spsbwfagpfkikqxgrkxg8balmqms7rh";
       };
       packageRequires = [ ];
       meta = {
@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.5.0.20260122.81244";
+      version = "2.5.0.20260122.91941";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.5.0.20260122.81244.tar";
-        sha256 = "1gbssc87wz21l2rjs4r4sq7nwcy73cdp6kb1fkmgwqpsp2k25yfk";
+        url = "https://elpa.gnu.org/devel/cape-2.5.0.20260122.91941.tar";
+        sha256 = "1v1q1masn6j04ffci32cyj5i4hbn3v3d8dh16ap4sixnns4fcr9f";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1483,10 +1483,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.1.0.1.0.20260104.150319";
+      version = "30.1.0.1.0.20260122.130210";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-30.1.0.1.0.20260104.150319.tar";
-        sha256 = "0p714qzrbk9nix3n2fhd6gqkm0zcx7yykrx9fq1p6iq90y894pzb";
+        url = "https://elpa.gnu.org/devel/compat-30.1.0.1.0.20260122.130210.tar";
+        sha256 = "0a85n20ssa9k3hrbn8m82p7nah7dsa9h1gmlgvfbykd6j8rj7paz";
       };
       packageRequires = [ seq ];
       meta = {
@@ -1570,10 +1570,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.4.2.0.20260111.182520";
+      version = "0.4.2.0.20260122.100152";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.4.2.0.20260111.182520.tar";
-        sha256 = "1z7dhkp7yy6qn0dr1r5ziwc3p1wbx6cvrh5cr5h8czh6prhswwx4";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.4.2.0.20260122.100152.tar";
+        sha256 = "1d8dq183sc5sc3ki5z602w29f541cs6ljhyx5fwl7rwnj22w6yxx";
       };
       packageRequires = [
         consult
@@ -2171,6 +2171,28 @@
       packageRequires = [ denote ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/denote-org.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  denote-review = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-review";
+      ename = "denote-review";
+      version = "1.0.0.0.20260122.204616";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/denote-review-1.0.0.0.20260122.204616.tar";
+        sha256 = "1w2g3xw2h9f7ihh62nkc47xr3lqq01wg0l37cnkj32gsh76lqj7y";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/denote-review.html";
         license = lib.licenses.free;
       };
     }
@@ -9398,10 +9420,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.2.1.0.20260122.70647";
+      version = "1.2.1.0.20260122.130736";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.2.1.0.20260122.70647.tar";
-        sha256 = "04jvdx0v7fx51afsjmf2w1q7mcqhalylrgydjvnkkvkbyazkyscb";
+        url = "https://elpa.gnu.org/devel/tmr-1.2.1.0.20260122.130736.tar";
+        sha256 = "1rzwzji9c4z4mdn3msy2q1nykabl4yqhgj36wiahiggf76wp1nfy";
       };
       packageRequires = [ ];
       meta = {
