@@ -993,10 +993,10 @@
     elpaBuild {
       pname = "bufferlo";
       ename = "bufferlo";
-      version = "1.2.0.20251126.101032";
+      version = "1.2.0.20260123.12049";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bufferlo-1.2.0.20251126.101032.tar";
-        sha256 = "178qq7rvwn3601xw1f0vpgq6k0fjq854r907rncbx866s1427kai";
+        url = "https://elpa.gnu.org/devel/bufferlo-1.2.0.20260123.12049.tar";
+        sha256 = "13dqkd2cafapvxbggbha3qb9pagsm71ybxnk0swkziaj8hcx97vx";
       };
       packageRequires = [ ];
       meta = {
@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20260118.70827";
+      version = "4.1.3.0.20260123.73043";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260118.70827.tar";
-        sha256 = "0mgkmzjqgfr4rlfib0sa9jkqmbzg5q1hgifdg1xadiga24g8krk2";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260123.73043.tar";
+        sha256 = "1dq2fw0mij482ai9czpvxysamlzpmf56lfk67d8hnv5brq67f7sw";
       };
       packageRequires = [ ];
       meta = {
@@ -2185,10 +2185,10 @@
     elpaBuild {
       pname = "denote-review";
       ename = "denote-review";
-      version = "1.0.0.0.20260122.204616";
+      version = "1.0.1.0.20260123.201913";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-review-1.0.0.0.20260122.204616.tar";
-        sha256 = "1w2g3xw2h9f7ihh62nkc47xr3lqq01wg0l37cnkj32gsh76lqj7y";
+        url = "https://elpa.gnu.org/devel/denote-review-1.0.1.0.20260123.201913.tar";
+        sha256 = "1a2d8i1znalqbyyjgnlhxhsx3f0xslqrlnj4b8dx15zq3qscqrxq";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2986,10 +2986,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.6.1.0.20251202.235353";
+      version = "2.7.0.0.20260123.111321";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.6.1.0.20251202.235353.tar";
-        sha256 = "1g29s8i49y8p2nyajdi9p30py3h26x67y8llvrvkn3cxv30n23s2";
+        url = "https://elpa.gnu.org/devel/el-job-2.7.0.0.20260123.111321.tar";
+        sha256 = "079zkx3q8dzbv0w6lrkgab5xg9yjmxf3xjs06sbvvs6k3r5cdwpc";
       };
       packageRequires = [ ];
       meta = {
@@ -5949,10 +5949,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260121.65500";
+      version = "5.2.0.0.20260123.73251";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260121.65500.tar";
-        sha256 = "0iqh1179f00jyyyyjxfikd5ivk9dcw40hi6pq3696s8qrh5z03pv";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260123.73251.tar";
+        sha256 = "0a39hr97q36agjzlw6sqzrhqwi40sxg8s5mrcp63rf665x0pkrf7";
       };
       packageRequires = [ ];
       meta = {
@@ -6803,10 +6803,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "2.1.0.20260118.165714";
+      version = "2.1.0.20260123.125917";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-2.1.0.20260118.165714.tar";
-        sha256 = "177f9ygbfyxb5vghp5c1cq6qy9fjz0ryf0srp3zla42zjfjnd4al";
+        url = "https://elpa.gnu.org/devel/osm-2.1.0.20260123.125917.tar";
+        sha256 = "02farcz5cpjkb88dhq2ibfvp1w9qmx022w6n68pn76p0nx76nami";
       };
       packageRequires = [ compat ];
       meta = {

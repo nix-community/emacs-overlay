@@ -2134,6 +2134,28 @@
       };
     }
   ) { };
+  denote-review = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-review";
+      ename = "denote-review";
+      version = "1.0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/denote-review-1.0.1.tar";
+        sha256 = "09k65rk2f69l85n52s8ygw6ca2kl4ncs10qh4lw7mrf2alpldndd";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/denote-review.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   denote-search = callPackage (
     {
       denote,
@@ -2901,10 +2923,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.6.1";
+      version = "2.7.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/el-job-2.6.1.tar";
-        sha256 = "1ghpi0hgvvbqq18c0f6n4pgajjdhad8gr03xg51byablkahfwwsz";
+        url = "https://elpa.gnu.org/packages/el-job-2.7.0.tar";
+        sha256 = "0bxrxrgqbxnn31yfgmb5j894yaclq5wy9c70qas5534ap8h10506";
       };
       packageRequires = [ ];
       meta = {
