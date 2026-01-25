@@ -2368,10 +2368,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.5.8.0.20260124.194242";
+      version = "0.5.8.0.20260124.210521";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.8.0.20260124.194242.tar";
-        sha256 = "1krjnnc4rw2cw46b52d8r9dscig61n0gj7m8mm8mshn1grqqn4ay";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnosis-0.5.8.0.20260124.210521.tar";
+        sha256 = "0ygyq87jrvf9p7ssn7q372ac0qvfk2by3y8sha2wylrqyas72lpy";
       };
       packageRequires = [
         compat
@@ -3361,10 +3361,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.15.0.0.20260110.235316";
+      version = "0.15.0.0.20260125.1452";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260110.235316.tar";
-        sha256 = "0kg0qszanbmfsdgakpdxaa9bp6jv44900slhk96kkip9r8im3yg5";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260125.1452.tar";
+        sha256 = "0k40ikn8zm92j1cs18l2lpsa1vzwsc52w62gxp8mhnv9rf79wdy6";
       };
       packageRequires = [
         compat
