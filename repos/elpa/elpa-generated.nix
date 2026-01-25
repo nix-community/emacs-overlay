@@ -1085,10 +1085,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.5";
+      version = "2.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cape-2.5.tar";
-        sha256 = "1xfrz3pvryp0b5x14dy04s97j3ir0iqxaij77a64gqvpmfjg154i";
+        url = "https://elpa.gnu.org/packages/cape-2.6.tar";
+        sha256 = "0n4j70w1q9ix9d8s276g4shkn1k7hv8d6wqpx65wchgilwbjx07z";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2144,10 +2144,10 @@
     elpaBuild {
       pname = "denote-review";
       ename = "denote-review";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-review-1.0.1.tar";
-        sha256 = "09k65rk2f69l85n52s8ygw6ca2kl4ncs10qh4lw7mrf2alpldndd";
+        url = "https://elpa.gnu.org/packages/denote-review-1.0.2.tar";
+        sha256 = "05ibd9q8gygc3xin400nlpk1aj0r3whimprwnnld3bnxrrh8clb2";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2923,10 +2923,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.7.0";
+      version = "2.7.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/el-job-2.7.0.tar";
-        sha256 = "0bxrxrgqbxnn31yfgmb5j894yaclq5wy9c70qas5534ap8h10506";
+        url = "https://elpa.gnu.org/packages/el-job-2.7.1.tar";
+        sha256 = "1vcfkamjam3b6dqrdsml3yc035cab063d1ag6x3xi3cwsnkll7a0";
       };
       packageRequires = [ ];
       meta = {
@@ -6396,10 +6396,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.5";
+      version = "1.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/orderless-1.5.tar";
-        sha256 = "188mksjaazf1rxvyqrcybya4a53j6c1xwvcbfh8s1sgv0jqxlv8z";
+        url = "https://elpa.gnu.org/packages/orderless-1.6.tar";
+        sha256 = "15gif01ivwg03h45azrj3kw2lgj7xnkr6p9r95m36fmfbg31csdh";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9197,10 +9197,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.2.1";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tmr-1.2.1.tar";
-        sha256 = "1jx3j9pgr4z5f70jr5byq9b27z4l6q7r4pjzq9dzw6q30wk2kv8p";
+        url = "https://elpa.gnu.org/packages/tmr-1.3.0.tar";
+        sha256 = "0sv0kaz8z0lldkcplyzh7k99s4jqj3bzr9gb5mqjwpp747hj0qlq";
       };
       packageRequires = [ ];
       meta = {
