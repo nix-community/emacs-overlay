@@ -2144,10 +2144,10 @@
     elpaBuild {
       pname = "denote-review";
       ename = "denote-review";
-      version = "1.0.2";
+      version = "1.0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-review-1.0.2.tar";
-        sha256 = "05ibd9q8gygc3xin400nlpk1aj0r3whimprwnnld3bnxrrh8clb2";
+        url = "https://elpa.gnu.org/packages/denote-review-1.0.3.tar";
+        sha256 = "0gcr18awlpqbm90n6bjwb2gsg1s7pil951gw1hqilavx71dw9fa4";
       };
       packageRequires = [ denote ];
       meta = {
@@ -5499,10 +5499,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.8";
+      version = "2.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/marginalia-2.8.tar";
-        sha256 = "0gshbibjpzi1cxvyg1jvxgp9a1n7pgizf8nibx6kmj10liilcjmk";
+        url = "https://elpa.gnu.org/packages/marginalia-2.9.tar";
+        sha256 = "1a6hnqfnfyd25vk1qgcqflj4x1hcd4whn0hwkpbhnfnsmdkxzpra";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6716,10 +6716,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "2.1";
+      version = "2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/osm-2.1.tar";
-        sha256 = "1nwr32n7cmfa2ckym0srs0fn3426slrhxiykx971s9sgjxydlqq2";
+        url = "https://elpa.gnu.org/packages/osm-2.2.tar";
+        sha256 = "0xq5gzhgxgv52kxprik15b5ijrdw7c5262ifzdcjg3vv3qv0hwy8";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9006,10 +9006,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.10";
+      version = "1.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tempel-1.10.tar";
-        sha256 = "0b0zg6zz2fya15902c8irnaq2gc18qyin7v668mjjdanzzpi6gbb";
+        url = "https://elpa.gnu.org/packages/tempel-1.11.tar";
+        sha256 = "1gg91q755nk4f17d3av4ss55wxx87kzg7h37drkng6zvmi9c8k4i";
       };
       packageRequires = [ compat ];
       meta = {
