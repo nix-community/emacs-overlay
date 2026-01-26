@@ -2185,10 +2185,10 @@
     elpaBuild {
       pname = "denote-review";
       ename = "denote-review";
-      version = "1.0.3.0.20260125.95900";
+      version = "1.0.4.0.20260126.81143";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-review-1.0.3.0.20260125.95900.tar";
-        sha256 = "11ly45l2y99n0v2igx2zasp25d0w37fk6iz8hzg9vsgyazva1zbm";
+        url = "https://elpa.gnu.org/devel/denote-review-1.0.4.0.20260126.81143.tar";
+        sha256 = "19x2s40z7bimi9bv9ljhjcbp8m428lb42vpsn0yiqnfryhf96v4h";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2907,10 +2907,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20251219.0.20251219.222550";
+      version = "20260126.0.20260126.21331";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20251219.0.20251219.222550.tar";
-        sha256 = "1d22bvd7230i7847bsh7yni9nw02my181jvgf8l5hl2isd1fanwf";
+        url = "https://elpa.gnu.org/devel/eev-20260126.0.20260126.21331.tar";
+        sha256 = "03mqjza8y86cf9s8lav26digybz3wy1h0b73lp6a0vfngbc8i796";
       };
       packageRequires = [ ];
       meta = {
