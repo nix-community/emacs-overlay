@@ -6488,10 +6488,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.1.1";
+      version = "0.1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-gnosis-0.1.1.tar";
-        sha256 = "0165bv6ky7zg9km7h63qzqg7rxnjdcpks4xyv0l2sidgmzimdyg5";
+        url = "https://elpa.gnu.org/packages/org-gnosis-0.1.2.tar";
+        sha256 = "1k3ni9l52qp3p002acrx07298bhrx31npb0czrmhvdnm47i0lg90";
       };
       packageRequires = [
         compat

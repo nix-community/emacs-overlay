@@ -612,10 +612,10 @@
     elpaBuild {
       pname = "autocrypt";
       ename = "autocrypt";
-      version = "0.4.2.0.20250415.115030";
+      version = "0.4.2.0.20260126.200740";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/autocrypt-0.4.2.0.20250415.115030.tar";
-        sha256 = "1lf52r37ik8y8chc047k6mya560q4ybbbq82brdm088rabl81khx";
+        url = "https://elpa.gnu.org/devel/autocrypt-0.4.2.0.20260126.200740.tar";
+        sha256 = "15xqvi9j2jg1hya0gprif4wsxhwmi4l1fa0fpr7phzbjh0qhc90r";
       };
       packageRequires = [ ];
       meta = {
@@ -1547,10 +1547,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.3.0.20260125.193023";
+      version = "3.3.0.20260126.141540";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.3.0.20260125.193023.tar";
-        sha256 = "0mjnwd9j6w8v35ii8js0w6js6pid8n4fwp046i2z4j751na7ipkx";
+        url = "https://elpa.gnu.org/devel/consult-3.3.0.20260126.141540.tar";
+        sha256 = "0iq2pn1qdwylk1ixaywl7g3hcziw34dmxsm5wb0s0d8hyscjl1gf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6575,10 +6575,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.1.1.0.20260124.141453";
+      version = "0.1.2.0.20260126.133645";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-gnosis-0.1.1.0.20260124.141453.tar";
-        sha256 = "07rm6xzi36hnizx3sni57gybjjblb12saz0vk1a4xcg6v4650xa5";
+        url = "https://elpa.gnu.org/devel/org-gnosis-0.1.2.0.20260126.133645.tar";
+        sha256 = "1z1gqip6p8xkzhh0baqhydnq1hqng6appsshf35b0my8fyfwflx6";
       };
       packageRequires = [
         compat
