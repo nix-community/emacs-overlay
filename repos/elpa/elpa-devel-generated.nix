@@ -7401,10 +7401,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.2.0.20260124.44829";
+      version = "0.11.2.0.20260128.23858";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260124.44829.tar";
-        sha256 = "0pbaxvyzcbgsyhr62sr3pjpbx0l2gw5c1xj1ihqp703l9w5dyz8l";
+        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260128.23858.tar";
+        sha256 = "1wkkycyvp3d2id72bqr7qynpvbly7ivs5129k40xp4fq3ic7wq2z";
       };
       packageRequires = [ xref ];
       meta = {
@@ -7735,10 +7735,10 @@
     elpaBuild {
       pname = "realgud";
       ename = "realgud";
-      version = "1.6.0.0.20260111.74248";
+      version = "1.6.0.0.20260128.34106";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/realgud-1.6.0.0.20260111.74248.tar";
-        sha256 = "1ma8nahs8gy8wmjwmdazbnfwc52kcgy3pwbnawmp3sycz8kvdpqq";
+        url = "https://elpa.gnu.org/devel/realgud-1.6.0.0.20260128.34106.tar";
+        sha256 = "1cp7gq50fls2qzq4i34g6alcghjfmf2mj7i5lk8c1a5s9k3d4ma3";
       };
       packageRequires = [
         load-relative
@@ -10742,10 +10742,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20260101.125434";
+      version = "1.7.0.0.20260128.23858";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260101.125434.tar";
-        sha256 = "0rp9r6s7k20jhhq2nbd0n8i42i5j0cjgni8b8xf7v22f4mksl5pk";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260128.23858.tar";
+        sha256 = "1yxfffc2zlg8zv8rr6zdk7sk5zw62xrgjscah8z0f4c9d8zvnf7h";
       };
       packageRequires = [ ];
       meta = {
