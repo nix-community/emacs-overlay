@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.8.0.20260118.74606";
+      version = "2.8.0.20260127.132548";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.8.0.20260118.74606.tar";
-        sha256 = "1fbvaiycmj1mpncxmmzyprqrymzn09b6zdldcbay6xywmvvdvcml";
+        url = "https://elpa.gnu.org/devel/corfu-2.8.0.20260127.132548.tar";
+        sha256 = "0lj4yqh148by1hiv5i03n30qg2ss0pp2rds3aibbn04ccrjvd144";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2929,10 +2929,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.0.1.0.20260119.182016";
+      version = "2.1.0.0.20260127.144408";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.0.1.0.20260119.182016.tar";
-        sha256 = "0vz1v02jdxyyq4ia6i28avxkvhfasynjp9mzz3a3fmj3aqa5k86y";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260127.144408.tar";
+        sha256 = "1qxwy45cff34m47n0n36k1dd23psnphk6684dwnifcpdsa9ampw5";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -2986,10 +2986,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.7.1.0.20260124.60134";
+      version = "2.7.1.0.20260127.114844";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.7.1.0.20260124.60134.tar";
-        sha256 = "0y08f5fgb2lg3hnn4j53ynxbs0jqq3pnyipik1hvk160rpasdy0f";
+        url = "https://elpa.gnu.org/devel/el-job-2.7.1.0.20260127.114844.tar";
+        sha256 = "1pfcl1qb9vhqqiv880c84zd5xbx8mzqwq6r8apjp3xdranrfvw7g";
       };
       packageRequires = [ ];
       meta = {
@@ -4760,10 +4760,10 @@
     elpaBuild {
       pname = "ivy-posframe";
       ename = "ivy-posframe";
-      version = "0.6.3.0.20241023.25839";
+      version = "0.6.4.0.20260127.5004";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ivy-posframe-0.6.3.0.20241023.25839.tar";
-        sha256 = "01wiviygb0c5kjdds1fk10jf9rcf6f59iychqp42yk2lghhw9k1z";
+        url = "https://elpa.gnu.org/devel/ivy-posframe-0.6.4.0.20260127.5004.tar";
+        sha256 = "0fsn7gjg7dvhanlw5h7jp62zjjqdscjm8k64i52423pgj3rydbwz";
       };
       packageRequires = [
         ivy
@@ -4956,10 +4956,10 @@
     elpaBuild {
       pname = "jsonrpc";
       ename = "jsonrpc";
-      version = "1.0.27.0.20260121.122624";
+      version = "1.0.27.0.20260126.225709";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.27.0.20260121.122624.tar";
-        sha256 = "03f373ddv5b8avrfvryvhcgbqyinlh70d6l94x3z03r3djvh9imj";
+        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.27.0.20260126.225709.tar";
+        sha256 = "0s96nrzcmkxiszcashz6qjvwmnba0hpr20m2iphawv4yik6jb6gg";
       };
       packageRequires = [ ];
       meta = {
@@ -6483,10 +6483,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.6.0.20260124.100043";
+      version = "1.6.0.20260127.172602";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.6.0.20260124.100043.tar";
-        sha256 = "0zx98mgh32rfsgzlfhkc10j1wphl45snaz816vximjf86fjjz7df";
+        url = "https://elpa.gnu.org/devel/orderless-1.6.0.20260127.172602.tar";
+        sha256 = "1arpnkw49vhrdgp7b9mpxbbv6q3mwnimn1d79cr3jjs97ngii980";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6526,10 +6526,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.2.0.20260114.75421";
+      version = "1.3.0.20260127.150958";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.2.0.20260114.75421.tar";
-        sha256 = "0x84lmaq5xr8i03hn0k5yvlmv79k6vhgdczavii5pbz6n3ggdhfs";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.3.0.20260127.150958.tar";
+        sha256 = "007hlrbh9c3dk8cbazfbs99nf52n5n81wp2sf7kwcf5h826fg7px";
       };
       packageRequires = [ org ];
       meta = {
@@ -7293,10 +7293,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.0.0.20260121.14807";
+      version = "1.5.1.0.20260127.5158";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.5.0.0.20260121.14807.tar";
-        sha256 = "0mi4vbda7hici8sqgdkd0s8s395md3g7lsj856jag1walm320d8y";
+        url = "https://elpa.gnu.org/devel/posframe-1.5.1.0.20260127.5158.tar";
+        sha256 = "17rxfbxwf89psi36fqfcwazk63pbrrv7xpg84d5hk6l8cvb7rhpn";
       };
       packageRequires = [ ];
       meta = {
@@ -8015,10 +8015,10 @@
     elpaBuild {
       pname = "relint";
       ename = "relint";
-      version = "2.1.0.20250904.163151";
+      version = "2.2.0.20260127.141200";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/relint-2.1.0.20250904.163151.tar";
-        sha256 = "11abw06nwq50xpin61qnmka3zdlkdmpljl34gs3ahf0b7p4w1g9b";
+        url = "https://elpa.gnu.org/devel/relint-2.2.0.20260127.141200.tar";
+        sha256 = "1w3i6kx3mny4qzy2v1zfjf6kys5fj2yrpky6jg62r3c00nrjzihx";
       };
       packageRequires = [ xr ];
       meta = {
@@ -10199,10 +10199,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.9.0.0.20250910.92713";
+      version = "0.9.1.0.20260127.5116";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-posframe-0.9.0.0.20250910.92713.tar";
-        sha256 = "17lzg4w68rws0824dm1qn1fv9a63pwscvhabfqlfvicnkrpz7rzb";
+        url = "https://elpa.gnu.org/devel/vertico-posframe-0.9.1.0.20260127.5116.tar";
+        sha256 = "0p484fvg89r3gbxcjd8yqjdv5nq5vmvv2vm6pg43qgszm0jyhi42";
       };
       packageRequires = [
         posframe
@@ -10721,10 +10721,10 @@
     elpaBuild {
       pname = "xr";
       ename = "xr";
-      version = "2.1.0.20250904.163110";
+      version = "2.2.0.20260127.141358";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xr-2.1.0.20250904.163110.tar";
-        sha256 = "1xa4y8dlkcskxhvd3gyfpfibkhgxfx25lf89km33wwz4d7vibzc9";
+        url = "https://elpa.gnu.org/devel/xr-2.2.0.20260127.141358.tar";
+        sha256 = "0q1bfcspcjhvc5anj20gmdaaa8z358if7k246fy6hjcj9dy5v7v4";
       };
       packageRequires = [ ];
       meta = {

@@ -2866,10 +2866,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.0.1";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ef-themes-2.0.1.tar";
-        sha256 = "039jhc3lwwp7s420078zr65k4l611n5x9bxhj2klqyzixsw4w64n";
+        url = "https://elpa.gnu.org/packages/ef-themes-2.1.0.tar";
+        sha256 = "09rb5pkqz63mc86f8n7969f8x27jdrhz51rh6vl0v3j4nvivv3dx";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -4699,10 +4699,10 @@
     elpaBuild {
       pname = "ivy-posframe";
       ename = "ivy-posframe";
-      version = "0.6.3";
+      version = "0.6.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ivy-posframe-0.6.3.tar";
-        sha256 = "027lbddg4rc44jpvxsqyw9n9pi1bnsssfislg2il3hbr86v88va9";
+        url = "https://elpa.gnu.org/packages/ivy-posframe-0.6.4.tar";
+        sha256 = "1lpfbr4baxha66g0pwgh3x0sgil2mrhify896raj4zal4zmbp0fk";
       };
       packageRequires = [
         ivy
@@ -6439,10 +6439,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.2";
+      version = "1.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-contacts-1.2.tar";
-        sha256 = "1icdwijxii3f14f8w1wh8pcg9xy4r1hlii7lzgb7jjswxn303gaj";
+        url = "https://elpa.gnu.org/packages/org-contacts-1.3.tar";
+        sha256 = "052j0d81fw6ppw7l8h0dj4jiar45skmwr3li058alxrqpgkxhxfh";
       };
       packageRequires = [ org ];
       meta = {
@@ -7185,10 +7185,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.0";
+      version = "1.5.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/posframe-1.5.0.tar";
-        sha256 = "0yk38fc08fgxwai6dn6da9yykcmq3bd4x7msfnlrg081b15q9a32";
+        url = "https://elpa.gnu.org/packages/posframe-1.5.1.tar";
+        sha256 = "1g1pcf83w4fv299ykvx7b93kxkc58fkr6yk39sxny5g16d4gl80g";
       };
       packageRequires = [ ];
       meta = {
@@ -7859,10 +7859,10 @@
     elpaBuild {
       pname = "relint";
       ename = "relint";
-      version = "2.1";
+      version = "2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/relint-2.1.tar";
-        sha256 = "0ikml87y0k85qd92m3l1gkzjd9ng3mhjfk19w15ln0w801351cq0";
+        url = "https://elpa.gnu.org/packages/relint-2.2.tar";
+        sha256 = "01x0134f3z7vh7b730lfrsnpwqqjj65z291gpm8qyai9fimljsn3";
       };
       packageRequires = [ xr ];
       meta = {
@@ -9976,10 +9976,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.9.0";
+      version = "0.9.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-posframe-0.9.0.tar";
-        sha256 = "16vnacmz52d1rwdmddsr1rm1zki1p3bw10ngpw39a3dszbwqkl3m";
+        url = "https://elpa.gnu.org/packages/vertico-posframe-0.9.1.tar";
+        sha256 = "14ngwpcaqk9m53kciixlxd9c3znyvcnhjkvjlaglfv7h8alqn1gl";
       };
       packageRequires = [
         posframe
@@ -10497,10 +10497,10 @@
     elpaBuild {
       pname = "xr";
       ename = "xr";
-      version = "2.1";
+      version = "2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/xr-2.1.tar";
-        sha256 = "1yssl7av2rpanzmm93iw74acnb3pbrnh0b51kr64wcj6hwb26cy2";
+        url = "https://elpa.gnu.org/packages/xr-2.2.tar";
+        sha256 = "0d2hwn73g51gzm8ank41sfcyk87ys2s1cl9zk0h763yjd48r6jqf";
       };
       packageRequires = [ ];
       meta = {
