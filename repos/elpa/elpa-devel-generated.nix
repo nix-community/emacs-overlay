@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260122.195707";
+      version = "14.1.2.0.20260128.191247";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260122.195707.tar";
-        sha256 = "1gh5ji7r53qgqshfr80m8spsbwfagpfkikqxgrkxg8balmqms7rh";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260128.191247.tar";
+        sha256 = "1hdi6zvxfpk9p5is3ifqzqhkgfkxcjymyk9qvk4l0giwz6y3g4l7";
       };
       packageRequires = [ ];
       meta = {
@@ -3130,10 +3130,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.10.11.0.20260119.222943";
+      version = "1.10.12.0.20260128.162753";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.10.11.0.20260119.222943.tar";
-        sha256 = "0asbbrfrc8irmgsv9adnb1l0c9x34w0q7hpxk115y6sgih7rbm6a";
+        url = "https://elpa.gnu.org/devel/ellama-1.10.12.0.20260128.162753.tar";
+        sha256 = "14ank6w7p6bpkxiwwdkl696d8q19y4qidkqjzm5crnfrsyisf25m";
       };
       packageRequires = [
         compat
@@ -5882,10 +5882,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260121.24143";
+      version = "0.7.1.0.20260128.155815";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260121.24143.tar";
-        sha256 = "0p6d51si4h64cy238n9sfwfvp3ynsrams71la2784iihpl6sxayc";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260128.155815.tar";
+        sha256 = "1kj5p6f5796m32xcazbqar16r8jif25l1g01jawhsb5xaav684b8";
       };
       packageRequires = [
         dash
@@ -10742,10 +10742,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20260128.23858";
+      version = "1.7.0.0.20260128.214804";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260128.23858.tar";
-        sha256 = "1yxfffc2zlg8zv8rr6zdk7sk5zw62xrgjscah8z0f4c9d8zvnf7h";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260128.214804.tar";
+        sha256 = "1rv5avrvzagwanh6xw7p9r6wbfwkslswmidkpjvk3h2pkg6p8m1k";
       };
       packageRequires = [ ];
       meta = {
