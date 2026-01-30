@@ -685,10 +685,10 @@
     elpaBuild {
       pname = "cond-let";
       ename = "cond-let";
-      version = "0.2.1.0.20260118.133210";
+      version = "0.2.1.0.20260129.180901";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-0.2.1.0.20260118.133210.tar";
-        sha256 = "0wmj57krcv3k9lvj2a9lzg155rfg5vvzl518mfx08bn5ycb6w9ra";
+        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-0.2.1.0.20260129.180901.tar";
+        sha256 = "1b4kc11lpm7045cbbrshqdsml3pdpl1wdz2bsp3na5dqbkdjl5n6";
       };
       packageRequires = [ ];
       meta = {
@@ -4961,10 +4961,10 @@
     elpaBuild {
       pname = "smartparens";
       ename = "smartparens";
-      version = "1.11.0.0.20250612.105020";
+      version = "1.11.0.0.20260129.121419";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/smartparens-1.11.0.0.20250612.105020.tar";
-        sha256 = "1cdicjah7mbkcg43zm5la75zb7cgg15gxf9178zhd2qd71gqfl8m";
+        url = "https://elpa.nongnu.org/nongnu-devel/smartparens-1.11.0.0.20260129.121419.tar";
+        sha256 = "0c7cy08dk67d2fw3z24m9g598rqcf82ziwnkjgh45ywgbrrz52x1";
       };
       packageRequires = [ dash ];
       meta = {
