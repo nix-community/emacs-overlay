@@ -5519,10 +5519,10 @@
     elpaBuild {
       pname = "typst-ts-mode";
       ename = "typst-ts-mode";
-      version = "0.12.2.0.20251026.52820";
+      version = "0.12.2.0.20260130.3344";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.12.2.0.20251026.52820.tar";
-        sha256 = "002ry7lgc61w1appzw33xgavsgc34wxjahbpjqba3rp53qmkk0m8";
+        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.12.2.0.20260130.3344.tar";
+        sha256 = "0aiz9sviqysvnw2jycvw1f97xldnfrvj9c6yfvz7ckc6hfbnd8wk";
       };
       packageRequires = [ ];
       meta = {
