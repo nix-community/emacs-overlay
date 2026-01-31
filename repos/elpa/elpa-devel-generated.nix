@@ -1547,10 +1547,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.3.0.20260129.184038";
+      version = "3.3.0.20260130.130136";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.3.0.20260129.184038.tar";
-        sha256 = "19iyr71zfdfis91f1sjb55cih22zqhaby21z722jljl0dr5lrc5b";
+        url = "https://elpa.gnu.org/devel/consult-3.3.0.20260130.130136.tar";
+        sha256 = "084m3gps0gh8kpf4hq6qkhzp5gd1w9gbq0m5ls63q15yirf1m4j3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2957,10 +2957,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.21.0.20260121.230919";
+      version = "1.21.0.20260130.125532";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.21.0.20260121.230919.tar";
-        sha256 = "0zj4wk5sx7s0hiimvwnlx2znsv8zc7070sn6i40kxfnhc250285r";
+        url = "https://elpa.gnu.org/devel/eglot-1.21.0.20260130.125532.tar";
+        sha256 = "1m8vzkbkrdfyaxy2w6yskj5n8yvy9r472r3fffv3rmyhi5wp2izs";
       };
       packageRequires = [
         eldoc
@@ -3126,20 +3126,22 @@
       llm,
       plz,
       transient,
+      yaml,
     }:
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.10.12.0.20260128.162753";
+      version = "1.11.0.0.20260129.235017";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.10.12.0.20260128.162753.tar";
-        sha256 = "14ank6w7p6bpkxiwwdkl696d8q19y4qidkqjzm5crnfrsyisf25m";
+        url = "https://elpa.gnu.org/devel/ellama-1.11.0.0.20260129.235017.tar";
+        sha256 = "1xsmjwgqrdpiv4dw87mhy4x29jscj4f783x4j1h74xwk0gqjbmpl";
       };
       packageRequires = [
         compat
         llm
         plz
         transient
+        yaml
       ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/ellama.html";
@@ -5668,10 +5670,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.0.0.0.20260129.101144";
+      version = "8.0.1.0.20260130.94305";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.0.0.0.20260129.101144.tar";
-        sha256 = "1h7d81w2fg28x135fg86d4vd9qfs80zqirnnrw0gsn0giw78a82v";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.0.1.0.20260130.94305.tar";
+        sha256 = "18w68b7i69n8qra80cs0nhqydir6fc2h9jyzzjnp64cm52wjl8y7";
       };
       packageRequires = [ ];
       meta = {
@@ -9509,10 +9511,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.1.0.20260111.85658";
+      version = "2.8.1.1.0.20260130.95525";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.8.1.0.20260111.85658.tar";
-        sha256 = "0ya9jdsd2h91rc37qxm15aniivlrnmlmqzmk2hlrqdy0qpkismw8";
+        url = "https://elpa.gnu.org/devel/tramp-2.8.1.1.0.20260130.95525.tar";
+        sha256 = "0dvacg1jhz527incsfk6zprgjp7aswcf5zg28rfyi2gh7rqql176";
       };
       packageRequires = [ ];
       meta = {
@@ -10176,10 +10178,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.7.0.20260129.184148";
+      version = "2.7.0.20260130.150011";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.7.0.20260129.184148.tar";
-        sha256 = "1sjihs16q0sspqbhbr8p1kqk8xv16dgigpb6nj7jrwwi22jq3f70";
+        url = "https://elpa.gnu.org/devel/vertico-2.7.0.20260130.150011.tar";
+        sha256 = "1q88jz0qy901ghp26jc7srmbh7xsrsyjlslpci4wjx90mmm2vzmz";
       };
       packageRequires = [ compat ];
       meta = {
