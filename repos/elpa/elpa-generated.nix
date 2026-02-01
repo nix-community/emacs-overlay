@@ -5607,10 +5607,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.0.1";
+      version = "8.0.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/matlab-mode-8.0.1.tar";
-        sha256 = "10s3ciw1dqn7nab8yh9c2dqr8fz57dgv2l4hqajlmrpc9dnldpqs";
+        url = "https://elpa.gnu.org/packages/matlab-mode-8.0.2.tar";
+        sha256 = "1jrb8nvbhi1ydfz1i6f7y12z0yxyr011ffrn7302qsx2mlk0z33i";
       };
       packageRequires = [ ];
       meta = {
@@ -9978,10 +9978,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.9.1";
+      version = "0.9.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-posframe-0.9.1.tar";
-        sha256 = "14ngwpcaqk9m53kciixlxd9c3znyvcnhjkvjlaglfv7h8alqn1gl";
+        url = "https://elpa.gnu.org/packages/vertico-posframe-0.9.2.tar";
+        sha256 = "1xq30aj2jkk1g4gnniixg0rzh03irf7vci551fwd6gg50sphaqj4";
       };
       packageRequires = [
         posframe

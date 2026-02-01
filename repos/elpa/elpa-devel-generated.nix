@@ -5670,10 +5670,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.0.1.0.20260130.94305";
+      version = "8.0.2.0.20260131.214429";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.0.1.0.20260130.94305.tar";
-        sha256 = "18w68b7i69n8qra80cs0nhqydir6fc2h9jyzzjnp64cm52wjl8y7";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.0.2.0.20260131.214429.tar";
+        sha256 = "1w8vkl2nd85542ndylppxfxd08i9whcmfwvx2isc6ysa22nj770c";
       };
       packageRequires = [ ];
       meta = {
@@ -10201,10 +10201,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.9.1.0.20260127.5116";
+      version = "0.9.2.0.20260201.41512";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-posframe-0.9.1.0.20260127.5116.tar";
-        sha256 = "0p484fvg89r3gbxcjd8yqjdv5nq5vmvv2vm6pg43qgszm0jyhi42";
+        url = "https://elpa.gnu.org/devel/vertico-posframe-0.9.2.0.20260201.41512.tar";
+        sha256 = "1alirwmf1x1m9h8amsbjvx6x1hh0cc0f83r2nay8vp2rr20jrgvp";
       };
       packageRequires = [
         posframe
@@ -10416,10 +10416,10 @@
     elpaBuild {
       pname = "websocket";
       ename = "websocket";
-      version = "1.15.0.20230808.230535";
+      version = "1.15.0.20260201.3614";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/websocket-1.15.0.20230808.230535.tar";
-        sha256 = "15xry8bv9vcc470j3an5ks9z2hg7ia4nl7x4xvqb77rpbkq53rb9";
+        url = "https://elpa.gnu.org/devel/websocket-1.15.0.20260201.3614.tar";
+        sha256 = "1syih25hjjqqn9i0y5q8g2l8b1wpm7jk4j43yananpjv1hj4wl1r";
       };
       packageRequires = [ cl-lib ];
       meta = {
