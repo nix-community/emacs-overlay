@@ -708,10 +708,10 @@
     elpaBuild {
       pname = "cond-let";
       ename = "cond-let";
-      version = "0.2.1";
+      version = "0.2.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/cond-let-0.2.1.tar";
-        sha256 = "1q5gjb3v0xk6azrjbpyyxabrfd68i4gqw4r9dk2wnvbw0vcr21qf";
+        url = "https://elpa.nongnu.org/nongnu/cond-let-0.2.2.tar";
+        sha256 = "0ip5k8jhdgq1zkc6cj4ax8rv4236cxla2dapj83y526ra321gkzy";
       };
       packageRequires = [ ];
       meta = {
@@ -1319,10 +1319,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.3.4";
+      version = "4.3.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/emacsql-4.3.4.tar";
-        sha256 = "0gf58p86qrysaq576yvz80zi9mmfzij8pcp5lh75v2y6xc4b9hpw";
+        url = "https://elpa.nongnu.org/nongnu/emacsql-4.3.5.tar";
+        sha256 = "150wrcknbcm9kid41qjwa84mn742pzk0g12k9zm7q8zb37d709zq";
       };
       packageRequires = [ ];
       meta = {
