@@ -3131,10 +3131,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.11.0.0.20260129.235017";
+      version = "1.11.1.0.20260201.162826";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.11.0.0.20260129.235017.tar";
-        sha256 = "1xsmjwgqrdpiv4dw87mhy4x29jscj4f783x4j1h74xwk0gqjbmpl";
+        url = "https://elpa.gnu.org/devel/ellama-1.11.1.0.20260201.162826.tar";
+        sha256 = "1p4j63ijh5h06gq4jlikipc7xs3r2l9f3mky6bg9kjw7fph3swp8";
       };
       packageRequires = [
         compat
@@ -5670,10 +5670,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.0.2.0.20260131.214429";
+      version = "8.0.2.0.20260201.120131";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.0.2.0.20260131.214429.tar";
-        sha256 = "1w8vkl2nd85542ndylppxfxd08i9whcmfwvx2isc6ysa22nj770c";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.0.2.0.20260201.120131.tar";
+        sha256 = "19i2zz8krcp0p90ascssc11s9c0f9h52i09x2kvcv2dwa4lbpa7q";
       };
       packageRequires = [ ];
       meta = {
@@ -6506,10 +6506,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20260131.144018";
+      version = "9.8pre0.20260201.193407";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20260131.144018.tar";
-        sha256 = "1r0f6h3snpnbb4k6balap80v9qr64h7ki4x8hh6jhpr6dx8qpa6n";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20260201.193407.tar";
+        sha256 = "0hzzay3bw7r9g5hrr6xszhnsh34a0d463ff0q6iaidp5yyx6ds9c";
       };
       packageRequires = [ ];
       meta = {
@@ -10416,10 +10416,10 @@
     elpaBuild {
       pname = "websocket";
       ename = "websocket";
-      version = "1.15.0.20260201.3614";
+      version = "1.16.0.20260201.101702";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/websocket-1.15.0.20260201.3614.tar";
-        sha256 = "1syih25hjjqqn9i0y5q8g2l8b1wpm7jk4j43yananpjv1hj4wl1r";
+        url = "https://elpa.gnu.org/devel/websocket-1.16.0.20260201.101702.tar";
+        sha256 = "1hw5phwfi4gjicbad4bd1l7701xm8zixl1y563ip6v7g9k92pgf0";
       };
       packageRequires = [ cl-lib ];
       meta = {

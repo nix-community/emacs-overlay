@@ -3068,10 +3068,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.11.0";
+      version = "1.11.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.11.0.tar";
-        sha256 = "0rrvca2pfzld1gwwb4m42ixcsybndxwm6xal8yahqznjb9b4114i";
+        url = "https://elpa.gnu.org/packages/ellama-1.11.1.tar";
+        sha256 = "1kfzr26bq1m1qzizv17q7my7hsvwflgnmmhms1h0dfbz3in3dlyh";
       };
       packageRequires = [
         compat
@@ -10192,10 +10192,10 @@
     elpaBuild {
       pname = "websocket";
       ename = "websocket";
-      version = "1.15";
+      version = "1.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/websocket-1.15.tar";
-        sha256 = "0cm3x6qzr4zqj46w0qfpn7n9g5z80figcv824869snvc74465h1g";
+        url = "https://elpa.gnu.org/packages/websocket-1.16.tar";
+        sha256 = "0an37jb4zalfl27gg731yg33cpic34g3fqsc0b8987dcn0szf7xi";
       };
       packageRequires = [ cl-lib ];
       meta = {
