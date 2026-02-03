@@ -5884,10 +5884,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260128.155815";
+      version = "0.7.1.0.20260202.224249";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260128.155815.tar";
-        sha256 = "1kj5p6f5796m32xcazbqar16r8jif25l1g01jawhsb5xaav684b8";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260202.224249.tar";
+        sha256 = "0qd8h8aicmxqq7y9whgvapi0vlfgrhplrmzn2bpq4pxgk2d62zyn";
       };
       packageRequires = [
         dash
