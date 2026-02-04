@@ -3217,10 +3217,10 @@
     elpaBuild {
       pname = "julia-mode";
       ename = "julia-mode";
-      version = "1.0.2.0.20250428.81943";
+      version = "1.1.0.0.20260204.80729";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.0.2.0.20250428.81943.tar";
-        sha256 = "05sx6pwwrvxwrpd1fskhqnr8yvzav7yafk7im5iscxic061xggpv";
+        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.1.0.0.20260204.80729.tar";
+        sha256 = "1xx4vc8j2s0d3l6jby164kwwm90pxk3igd9xcbxblgdqspd5g5cw";
       };
       packageRequires = [ ];
       meta = {
@@ -3361,10 +3361,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.15.0.0.20260125.1452";
+      version = "0.15.0.0.20260204.11954";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260125.1452.tar";
-        sha256 = "0k40ikn8zm92j1cs18l2lpsa1vzwsc52w62gxp8mhnv9rf79wdy6";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260204.11954.tar";
+        sha256 = "03almkkargybbddsj3v7mfcwksn5gpbj62srvwky8in5nw2l6w39";
       };
       packageRequires = [
         compat
