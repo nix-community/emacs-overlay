@@ -333,10 +333,10 @@
     elpaBuild {
       pname = "altcaps";
       ename = "altcaps";
-      version = "1.3.0.0.20260111.105148";
+      version = "1.3.0.0.20260203.154905";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/altcaps-1.3.0.0.20260111.105148.tar";
-        sha256 = "1ps97855lps0vpw3h0saxx7z0ckdr0fn3zwlvxmh3fbl29w3c9jr";
+        url = "https://elpa.gnu.org/devel/altcaps-1.3.0.0.20260203.154905.tar";
+        sha256 = "1zrmyxbd58858hn7siv49s1m5y89853h2ipl8s9a6b1yhkycswl6";
       };
       packageRequires = [ ];
       meta = {
@@ -2621,10 +2621,10 @@
     elpaBuild {
       pname = "do-at-point";
       ename = "do-at-point";
-      version = "0.2.0pre0.20260202.180210";
+      version = "0.2.0.0.20260203.162636";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/do-at-point-0.2.0pre0.20260202.180210.tar";
-        sha256 = "1my85zv8ccxppv2n0rjxrxlh3izwn25hppg02g6b75r601dkdhqy";
+        url = "https://elpa.gnu.org/devel/do-at-point-0.2.0.0.20260203.162636.tar";
+        sha256 = "04cqr9a2rbca4v2pmy863s19m1awvwk61mr3097brhylv0bz04mx";
       };
       packageRequires = [ ];
       meta = {
@@ -3404,10 +3404,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "25.1.0.0.20260129.83952";
+      version = "25.1.0.0.20260203.103302";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20260129.83952.tar";
-        sha256 = "1xjvdsmgnvl3xdxl2m7l0di2gxdyilpxn973vyvyqjaw207kmpcp";
+        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20260203.103302.tar";
+        sha256 = "1r4m4m1x2z9zm28v577gp19603h51z59la7d4w67wjfpmb9mgky5";
       };
       packageRequires = [ ];
       meta = {
@@ -3742,10 +3742,10 @@
     elpaBuild {
       pname = "fontaine";
       ename = "fontaine";
-      version = "3.0.1.0.20260111.105528";
+      version = "3.0.1.0.20260203.152338";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/fontaine-3.0.1.0.20260111.105528.tar";
-        sha256 = "121cm1fjp3simkkql85lf3l03k5amn5fxphcm2c693h5dqldmdkl";
+        url = "https://elpa.gnu.org/devel/fontaine-3.0.1.0.20260203.152338.tar";
+        sha256 = "13q3p2j81a1g5182iz30ibjcqcxp2p9wlwafgivphmrhz744cg5p";
       };
       packageRequires = [ ];
       meta = {
@@ -4474,10 +4474,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260202.4504";
+      version = "9.0.2pre0.20260202.234713";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260202.4504.tar";
-        sha256 = "1dq2crg6mjfypbzzh9sl764s04dx3m0xi07glgk5p6rgvn8x7gbl";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260202.234713.tar";
+        sha256 = "1d9qb7g63mcwg1pxfwkzah27xkx4xd9p797mxcnr124cfld3gxki";
       };
       packageRequires = [ ];
       meta = {
@@ -5670,10 +5670,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.0.2.0.20260201.120131";
+      version = "8.0.2.0.20260201.144945";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.0.2.0.20260201.120131.tar";
-        sha256 = "19i2zz8krcp0p90ascssc11s9c0f9h52i09x2kvcv2dwa4lbpa7q";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.0.2.0.20260201.144945.tar";
+        sha256 = "1nibknbp00njl1kbbk5ylvh00018fmq6mpgsbj840r7sjqwmpghd";
       };
       packageRequires = [ ];
       meta = {
