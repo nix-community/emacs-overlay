@@ -698,10 +698,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.4.0";
+      version = "1.5.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/beframe-1.4.0.tar";
-        sha256 = "1766y7jwhsccmndd30v7hyh3i8gacvzwb73ix7g0zynp12m6x6kb";
+        url = "https://elpa.gnu.org/packages/beframe-1.5.0.tar";
+        sha256 = "0cx7jxlfzqaldswnk2wg5z4zb7lv24x5by9h20y4vpf973nclj0r";
       };
       packageRequires = [ ];
       meta = {
@@ -2144,10 +2144,10 @@
     elpaBuild {
       pname = "denote-review";
       ename = "denote-review";
-      version = "1.0.4";
+      version = "1.0.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-review-1.0.4.tar";
-        sha256 = "18sgzqsy2ryhybyfh8jwbnqj1y7syzg7iz13z8x027rxap6fyacy";
+        url = "https://elpa.gnu.org/packages/denote-review-1.0.5.tar";
+        sha256 = "0ss3mkir4x3k6f9fsg2z8w87dm2ny6a8yj4lf2hqkb1fsp9cl5wb";
       };
       packageRequires = [ denote ];
       meta = {
@@ -5607,10 +5607,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.0.2";
+      version = "8.0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/matlab-mode-8.0.2.tar";
-        sha256 = "1jrb8nvbhi1ydfz1i6f7y12z0yxyr011ffrn7302qsx2mlk0z33i";
+        url = "https://elpa.gnu.org/packages/matlab-mode-8.0.3.tar";
+        sha256 = "13kiynbv79jizw8a92hkfii8gif4xs24p35syi885sqxwx7y63d2";
       };
       packageRequires = [ ];
       meta = {
