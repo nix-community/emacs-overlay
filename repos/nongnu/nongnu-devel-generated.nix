@@ -5909,10 +5909,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.11.20260106081151.0.20260106.81408";
+      version = "28.11.20260204154143.0.20260204.154629";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.11.20260106081151.0.20260106.81408.tar";
-        sha256 = "0bfjylai4ck3nb73h6863gbb0pka84gh7wys5h2dq1k5bhx8sfqi";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.11.20260204154143.0.20260204.154629.tar";
+        sha256 = "0mxfh8c4fzrsiv423gwh5q8wrva564kgs9hi01w3j2l24878474y";
       };
       packageRequires = [ ];
       meta = {
