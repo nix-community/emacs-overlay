@@ -2705,10 +2705,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.6.0.0.20260205.202743";
+      version = "0.6.0.0.20260206.205350";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.6.0.0.20260205.202743.tar";
-        sha256 = "1nxrkj9zbnfi0k0w126zy00zmv3sw2yww929mv63g3lirs1zhwsf";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.6.0.0.20260206.205350.tar";
+        sha256 = "00597w1z795rqg3jxr9wf269p14x4k5dd2vfaj313qwd4178y268";
       };
       packageRequires = [ ];
       meta = {
@@ -3179,10 +3179,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260205.204606";
+      version = "0.0.20260206.173517";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260205.204606.tar";
-        sha256 = "19cha0gdxjcfqbg748rakiii8hlns3iqgz9mdz89ylasbjm7wjl2";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260206.173517.tar";
+        sha256 = "06jhv7w0ls7czghm9xn5i7fhfnhn65gx81z8ylj92fp2aw7p5blf";
       };
       packageRequires = [ ];
       meta = {
@@ -6527,10 +6527,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8pre0.20260202.203407";
+      version = "9.8pre0.20260206.193401";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-9.8pre0.20260202.203407.tar";
-        sha256 = "007s15dr3zyxyhrsyrrcfg52iaq323xqadxw26alxxi2mvgxi81p";
+        url = "https://elpa.gnu.org/devel/org-9.8pre0.20260206.193401.tar";
+        sha256 = "1hizcwy2xg3czkaw9v2x8wr378ra6rm0h5kp2kigp10mq1asffll";
       };
       packageRequires = [ ];
       meta = {
@@ -7198,6 +7198,27 @@
       packageRequires = [ plz ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/plz-see.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  po-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "po-mode";
+      ename = "po-mode";
+      version = "2.32.0.20260127.50952";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/po-mode-2.32.0.20260127.50952.tar";
+        sha256 = "15zmdwriki3rzng5qwyjjbq6yi1vg18wsb1rh31gqhqg20a74jw3";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/po-mode.html";
         license = lib.licenses.free;
       };
     }
