@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260204.215914";
+      version = "14.1.2.0.20260207.53455";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260204.215914.tar";
-        sha256 = "01y5qv0qx0s9mqph32jpf0czds1m4vn5lxck3iqz2nrcdlrfnivs";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260207.53455.tar";
+        sha256 = "1xzzmmcm3vh4s4mlpdiv7rwnkfwmmjjak0vp30ysvjmkwqk6sbzp";
       };
       packageRequires = [ ];
       meta = {
@@ -2705,10 +2705,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.6.0.0.20260206.205350";
+      version = "0.6.0.0.20260207.82451";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-0.6.0.0.20260206.205350.tar";
-        sha256 = "00597w1z795rqg3jxr9wf269p14x4k5dd2vfaj313qwd4178y268";
+        url = "https://elpa.gnu.org/devel/doric-themes-0.6.0.0.20260207.82451.tar";
+        sha256 = "07dhrcjn5p3a6l9na4b5n4j5k0j8k985cs6bk9w966dj4wmrwwlw";
       };
       packageRequires = [ ];
       meta = {
@@ -4210,10 +4210,10 @@
     elpaBuild {
       pname = "graphql";
       ename = "graphql";
-      version = "0.1.2.0.20221202.2453";
+      version = "0.1.2.0.20260206.151038";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/graphql-0.1.2.0.20221202.2453.tar";
-        sha256 = "0wh1lnn85nj026iln02b7p5hgrwd3dmqjkv48gc33ypyd4afh31z";
+        url = "https://elpa.gnu.org/devel/graphql-0.1.2.0.20260206.151038.tar";
+        sha256 = "0rg729h0hkdzfwk8nvp0zfagsbwfzha1ami0mlx935qpvviwjymc";
       };
       packageRequires = [ ];
       meta = {
@@ -5345,10 +5345,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.28.5.0.20260202.13158";
+      version = "0.28.5.0.20260207.11805";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.28.5.0.20260202.13158.tar";
-        sha256 = "1jvng8mkr7rrz246hlm5vlr6kv5agiqd1b4bsifvd0gr5wfh7cqa";
+        url = "https://elpa.gnu.org/devel/llm-0.28.5.0.20260207.11805.tar";
+        sha256 = "04iz09in24sl63q9lirxhymnnd4ff9si1cb4n2vkr9avsfp01mxz";
       };
       packageRequires = [
         compat
