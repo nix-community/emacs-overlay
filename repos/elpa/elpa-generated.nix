@@ -2642,10 +2642,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "0.6.0";
+      version = "1.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/doric-themes-0.6.0.tar";
-        sha256 = "0rfdlzxg5xsmx4qzv9ffsp82immwaj44q2kmqr9lrrzqw185gwxy";
+        url = "https://elpa.gnu.org/packages/doric-themes-1.0.0.tar";
+        sha256 = "0bgbqa8j5yi23b7k447q5sffr1vk8pg23qk0a56vayz62y7ga8xa";
       };
       packageRequires = [ ];
       meta = {
@@ -3068,10 +3068,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.12.0";
+      version = "1.12.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.12.0.tar";
-        sha256 = "1kx0lq9cfp52w022g0cv34igblm46q7887m407jrbi5bi13shdwv";
+        url = "https://elpa.gnu.org/packages/ellama-1.12.6.tar";
+        sha256 = "0n65p93gsi4l76mvxnaakw1vicc0przz3w0rd2qh7y3402h0mr6m";
       };
       packageRequires = [
         compat
@@ -3775,6 +3775,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/ftable.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  futur = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "futur";
+      ename = "futur";
+      version = "1.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/futur-1.0.tar";
+        sha256 = "1pi7r87lddhf6fnvj78had1s9rpzfddcsw0ws8gc6czwly3n8vxg";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/futur.html";
         license = lib.licenses.free;
       };
     }
@@ -5187,10 +5208,10 @@
     elpaBuild {
       pname = "lin";
       ename = "lin";
-      version = "1.1.0";
+      version = "2.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/lin-1.1.0.tar";
-        sha256 = "1rf81r8ylq2cccx4svdkiy2rvz1rq6cw0dakrcd4jrrscww52d7c";
+        url = "https://elpa.gnu.org/packages/lin-2.0.0.tar";
+        sha256 = "1ga1wb0fqv2abm95ymz1ki4dy0qlbi3cliz6mbkbk6gbdd1vhmaw";
       };
       packageRequires = [ ];
       meta = {
@@ -5607,10 +5628,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.0.3";
+      version = "8.0.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/matlab-mode-8.0.3.tar";
-        sha256 = "13kiynbv79jizw8a92hkfii8gif4xs24p35syi885sqxwx7y63d2";
+        url = "https://elpa.gnu.org/packages/matlab-mode-8.0.4.tar";
+        sha256 = "034gdyslca6p3622xh0w2cig6v0f366jm9kscai0pg22d9flb99z";
       };
       packageRequires = [ ];
       meta = {
@@ -8853,10 +8874,10 @@
     elpaBuild {
       pname = "switchy-window";
       ename = "switchy-window";
-      version = "1.3";
+      version = "1.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/switchy-window-1.3.tar";
-        sha256 = "0ym5cy6czsrd15f8rgh3dad8fwn8pb2xrvhlmdikc59cc29zamrv";
+        url = "https://elpa.gnu.org/packages/switchy-window-1.4.tar";
+        sha256 = "1y8a791d1qmmvsjj39fs4rr3zx77xbxc7z21fchwqr5hjhs5gxc9";
       };
       packageRequires = [ compat ];
       meta = {
