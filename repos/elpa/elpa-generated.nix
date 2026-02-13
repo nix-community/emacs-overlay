@@ -3068,10 +3068,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.12.6";
+      version = "1.12.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.12.6.tar";
-        sha256 = "0n65p93gsi4l76mvxnaakw1vicc0przz3w0rd2qh7y3402h0mr6m";
+        url = "https://elpa.gnu.org/packages/ellama-1.12.7.tar";
+        sha256 = "0fbflinhb7b9yxk5xyry94gcc6bpwgr4db5g0w64jk6kdh2p3n3z";
       };
       packageRequires = [
         compat
@@ -5069,10 +5069,10 @@
     elpaBuild {
       pname = "latex-table-wizard";
       ename = "latex-table-wizard";
-      version = "1.5.4";
+      version = "1.5.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/latex-table-wizard-1.5.4.tar";
-        sha256 = "1999kh5yi0cg1k0al3np3zi2qhrmcpzxqsfvwg0mgrg3mww4gqlw";
+        url = "https://elpa.gnu.org/packages/latex-table-wizard-1.5.5.tar";
+        sha256 = "1fffbaqiz3f1f2ki26b8x0cmisqhaijpw5vrh73k769wqdv09g43";
       };
       packageRequires = [
         auctex

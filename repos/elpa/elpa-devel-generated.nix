@@ -3131,10 +3131,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.12.6.0.20260212.191347";
+      version = "1.12.7.0.20260213.22613";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.12.6.0.20260212.191347.tar";
-        sha256 = "1k48brppjjh40v1g1hk0267xp9q02ycz68vj4r84aanr3gysgdwj";
+        url = "https://elpa.gnu.org/devel/ellama-1.12.7.0.20260213.22613.tar";
+        sha256 = "1pc0w5vhkd4w9ragdhjxjkqk42z023wv64ljsyvsssghh4lgwmah";
       };
       packageRequires = [
         compat
@@ -3874,10 +3874,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.0.0.20260212.164033";
+      version = "1.0.0.20260212.232417";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.0.0.20260212.164033.tar";
-        sha256 = "0188w4hcxmyifxv4yiya40147nqq943vpnvr426v26qv613vlwh7";
+        url = "https://elpa.gnu.org/devel/futur-1.0.0.20260212.232417.tar";
+        sha256 = "18giwzz6gpxdh5vfx34v25yblc1f90wwpw215k38a5p9ycqn3vac";
       };
       packageRequires = [ ];
       meta = {
@@ -5151,10 +5151,10 @@
     elpaBuild {
       pname = "latex-table-wizard";
       ename = "latex-table-wizard";
-      version = "1.5.4.0.20230903.170436";
+      version = "1.5.5.0.20260212.172924";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/latex-table-wizard-1.5.4.0.20230903.170436.tar";
-        sha256 = "1y1crsd29fvqabzwzki7jqziarycix6bib0cmxlrfsqs95y7dr5w";
+        url = "https://elpa.gnu.org/devel/latex-table-wizard-1.5.5.0.20260212.172924.tar";
+        sha256 = "0n2zvy43lmyvygy3npfgh3897gpwdvxpjd35n6011hbnm3b05s55";
       };
       packageRequires = [
         auctex
