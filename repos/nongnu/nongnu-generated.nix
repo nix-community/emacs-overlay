@@ -4385,10 +4385,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.62";
+      version = "0.63";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/pg-0.62.tar";
-        sha256 = "1fxg2irjbc85rr0czqj7cmy7pxh5l9sa69244dgr5ix6b7901dwd";
+        url = "https://elpa.nongnu.org/nongnu/pg-0.63.tar";
+        sha256 = "104f1c80cxzwb7z789igw2gvbmp8mirn213sp62jjwpyxfldm06q";
       };
       packageRequires = [ peg ];
       meta = {
@@ -4576,10 +4576,10 @@
     elpaBuild {
       pname = "radio";
       ename = "radio";
-      version = "0.4.2";
+      version = "0.4.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/radio-0.4.2.tar";
-        sha256 = "0m4fgh66iar54jqfxbl30is50iglrfshavpvy721wri6q4zwsyzi";
+        url = "https://elpa.nongnu.org/nongnu/radio-0.4.3.tar";
+        sha256 = "1xr10zhm8fk75h0i07jry5c05cds4xbb012wa943cbibxj0cma68";
       };
       packageRequires = [ ];
       meta = {
@@ -5147,10 +5147,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.3.1";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/subed-1.3.1.tar";
-        sha256 = "04c7yzv5dif8rxxn1lkn2xhb614nw5mycjsihxvl21443539n9ic";
+        url = "https://elpa.nongnu.org/nongnu/subed-1.4.0.tar";
+        sha256 = "1zk4cb6l2np9wkh01ri19bcibykhq4aa7iwjg3a35mlqdvn7pwlk";
       };
       packageRequires = [ ];
       meta = {
@@ -5623,10 +5623,10 @@
     elpaBuild {
       pname = "undo-fu-session";
       ename = "undo-fu-session";
-      version = "0.7";
+      version = "0.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/undo-fu-session-0.7.tar";
-        sha256 = "1gly9fl8kvfssh2h90j9qcqvxvmnckn0x1wfm4qbz9ax57xvms23";
+        url = "https://elpa.nongnu.org/nongnu/undo-fu-session-0.8.tar";
+        sha256 = "1l69q4g5f9dza0npw9sp2y398q142xzpfgrmhl3aa2fjq49d4bcf";
       };
       packageRequires = [ ];
       meta = {
