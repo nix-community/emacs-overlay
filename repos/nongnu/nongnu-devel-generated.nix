@@ -1866,10 +1866,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0.0.20260213.155258";
+      version = "35.0.0.20260214.74522";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20260213.155258.tar";
-        sha256 = "04iscg9i1ms1f0vbia01xy896rgsw1sai4q4f1d99cml4sy2q40h";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20260214.74522.tar";
+        sha256 = "0k21wxwbf0ljv47vfkzaa33wr8krfsgrqfaipsp6951a7s2r5a8c";
       };
       packageRequires = [ seq ];
       meta = {
