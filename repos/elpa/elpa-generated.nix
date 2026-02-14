@@ -3068,10 +3068,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.12.7";
+      version = "1.12.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.12.7.tar";
-        sha256 = "0fbflinhb7b9yxk5xyry94gcc6bpwgr4db5g0w64jk6kdh2p3n3z";
+        url = "https://elpa.gnu.org/packages/ellama-1.12.8.tar";
+        sha256 = "0p97c4gjk341wamaqlac5d0hc8d2z9cl14vczc6gn14mgsxp3hh0";
       };
       packageRequires = [
         compat
@@ -5025,10 +5025,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.5.0";
+      version = "0.5.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/kubed-0.5.0.tar";
-        sha256 = "00j0yx7bknjdl6mcfimlwp7plxgn7al3fl4rfxw7s4pgqgyyslsw";
+        url = "https://elpa.gnu.org/packages/kubed-0.5.1.tar";
+        sha256 = "1mfb9961xi7b7a4g3687y4hhlq37j98qsvq8cl4gsgy3x8j7vs2p";
       };
       packageRequires = [ ];
       meta = {
