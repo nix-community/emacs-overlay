@@ -3131,10 +3131,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.12.8.0.20260213.202655";
+      version = "1.12.9.0.20260213.215218";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.12.8.0.20260213.202655.tar";
-        sha256 = "0nllbgzqwm4wl43lhdszapr82yarbnvwzh5fgwigck5yla1bcz75";
+        url = "https://elpa.gnu.org/devel/ellama-1.12.9.0.20260213.215218.tar";
+        sha256 = "0xb7l7nk0pqwk4l2qmib5qb5y0clldd7gk0m44dmidz65qwq55c3";
       };
       packageRequires = [
         compat
@@ -3289,10 +3289,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "25.0.20260212.111655";
+      version = "25.0.20260213.170929";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-25.0.20260212.111655.tar";
-        sha256 = "0n8yabdywv0sgcnm995vh2n2a4wjcq82m64yq802xcnmn0sbzmrd";
+        url = "https://elpa.gnu.org/devel/emms-25.0.20260213.170929.tar";
+        sha256 = "1lrwhhaqbf09lwfk65gr7hpwc5z5sigpmna48fjmrmsp8aj99rzq";
       };
       packageRequires = [
         cl-lib
@@ -3874,10 +3874,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.0.0.20260213.162531";
+      version = "1.0.0.20260213.175101";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.0.0.20260213.162531.tar";
-        sha256 = "0klch29v5448r8msrlb22m6swsv3xx68ksmiy3h6hahjmphsyclq";
+        url = "https://elpa.gnu.org/devel/futur-1.0.0.20260213.175101.tar";
+        sha256 = "00xdny06n9d0jr7abs1xf4zkg8h0104r27r9i1sm076z2yn92aan";
       };
       packageRequires = [ ];
       meta = {
