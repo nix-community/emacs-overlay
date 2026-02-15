@@ -7196,11 +7196,11 @@
   "repo": "tinted-theming/base16-emacs",
   "unstable": {
    "version": [
-    20260118,
-    148
+    20260215,
+    208
    ],
-   "commit": "1d9457c3940b42a7db586ee9b1249d86d1facbdb",
-   "sha256": "1mlhbpv3xbka8r2p9zxmnvsgvlpijiv4nyyj0z9zf9n33rq7rs19"
+   "commit": "71785e95378aecee8f44fb2e8468e44a277913a9",
+   "sha256": "1p7rvinwabdmhs43kpywd9msyb48acanps3736zzbzzwcn7wihh2"
   },
   "stable": {
    "version": [
@@ -31437,15 +31437,15 @@
   "repo": "ahyatt/ekg",
   "unstable": {
    "version": [
-    20260214,
-    307
+    20260215,
+    645
    ],
    "deps": [
     "llm",
     "triples"
    ],
-   "commit": "34ad48b404a91b4e88c750cefce9a53d402d3b70",
-   "sha256": "0kkx9n21pvyw27jszqvwi3znsc6xyf09cnr8wk7154dv9w375306"
+   "commit": "e5f2736eee9cac6d7505ce6148ee163fef607b28",
+   "sha256": "1xbfqc23m9crd0rmfzgs30kbypxs8plkabbq95mzarrmqhhxb8sm"
   },
   "stable": {
    "version": [
@@ -33325,7 +33325,7 @@
    "version": [
     1,
     12,
-    9
+    10
    ],
    "deps": [
     "compat",
@@ -33334,8 +33334,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "56bb486665f49ea5928437f89683ea778c56b370",
-   "sha256": "06n51qfgvzinqg87pisjgm8wphdcsxxfdpzjyzrav8iq5rvrj6ws"
+   "commit": "d3ede72b263379dcd80cdc99b1de6c4ebf1d2a69",
+   "sha256": "0f34f60y186izr1gaw2f7a3drd5wjf0f1bjydcsikx0qsk35gxd4"
   }
  },
  {
@@ -78621,15 +78621,15 @@
   "repo": "jonathanchu/magit-gh",
   "unstable": {
    "version": [
-    20260214,
-    421
+    20260215,
+    351
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "522570f327e0e000a6d2ad6b1b53a30db5e1a430",
-   "sha256": "1s8y2g11k3pz3wv174f4dxk2avdhd6hbal17s00lm0nhzgc3gqr4"
+   "commit": "b984e84d0d11565c8b7771552f1500b51cdef639",
+   "sha256": "1znj7k7qrx8ll1l7qdl9mndxkpfb8nsng7gincjpd2dqk4xy2a7d"
   }
  },
  {
@@ -97541,16 +97541,16 @@
   "repo": "p-snow/org-web-track",
   "unstable": {
    "version": [
-    20250610,
-    1142
+    20260215,
+    734
    ],
    "deps": [
     "enlive",
     "gnuplot",
     "request"
    ],
-   "commit": "c32eebcd1794f618b723cbaadae125cc98781121",
-   "sha256": "1nwmb3hxszyp8klzbqbvqvrgwi3ism6whk4z6yy00ay6jp5dqsi9"
+   "commit": "2c4215499c0851e85b480bc19e96a236fb9af8f1",
+   "sha256": "1al99lixw56yg5wvg6x3rvclkvfncgs6rz6ry6iniam62pdhp80s"
   },
   "stable": {
    "version": [
@@ -109642,11 +109642,11 @@
   "repo": "psaris/q-mode",
   "unstable": {
    "version": [
-    20260110,
-    1639
+    20260215,
+    425
    ],
-   "commit": "ce1c5e827c29f7799b699aa0a476f4f06a1cf7ff",
-   "sha256": "064xqqr2fdk037dnasibmayx9jsi3g6m36xbdmdp8niil5250xv8"
+   "commit": "d37d99d3e917d2a80c02c14bb9560f4fd6177087",
+   "sha256": "0cpi615zzf2vbw0a8qmr74y4s5n29qbfszy18dyxcldvpzka4bp0"
   }
  },
  {
@@ -114948,6 +114948,21 @@
    ],
    "commit": "e8bc089e8dfd76f688160e2ac77aee985afeade7",
    "sha256": "166plwg9ggivr3im0yfxw8k6m9ral37jzznnb06kb6g0zycb4aps"
+  }
+ },
+ {
+  "ename": "sail",
+  "commit": "37217c24120a8d7bd50bf68e67041e3928d17785",
+  "sha256": "039sragbw2y95m3kys2d491r94vkgkydqdg3ajs8cv55m726wp5b",
+  "fetcher": "github",
+  "repo": "brannala/esail",
+  "unstable": {
+   "version": [
+    20260209,
+    411
+   ],
+   "commit": "1cc38e174139dfb4732cfb5eb597829a982e1e99",
+   "sha256": "1y3l5z1gxvzq91n0vbgac334z7fs5av4cv4c815wgnc2bbbr9a1z"
   }
  },
  {
