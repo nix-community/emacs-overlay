@@ -1866,10 +1866,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0.0.20260214.74522";
+      version = "35.0.0.20260214.200301";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20260214.74522.tar";
-        sha256 = "0k21wxwbf0ljv47vfkzaa33wr8krfsgrqfaipsp6951a7s2r5a8c";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20260214.200301.tar";
+        sha256 = "1scr3g6idykwbs8a9hjmz7friyrslpx4pxs14ppvj28qrbj2g5wf";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2568,10 +2568,10 @@
     elpaBuild {
       pname = "graphql-mode";
       ename = "graphql-mode";
-      version = "1.0.0.0.20260102.175142";
+      version = "1.0.0.0.20260214.124443";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20260102.175142.tar";
-        sha256 = "0bpjij54jnn4jamcdvdxbsmza0g6c3h41300sn5yk4p8g8x85fcr";
+        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20260214.124443.tar";
+        sha256 = "141z96ax3kqy2b046v2c7k5sb2mw27hr5x7zi58r1yfyhqi4x3a9";
       };
       packageRequires = [ ];
       meta = {
@@ -2741,10 +2741,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20260208.71803";
+      version = "4.0.6.0.20260214.143216";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20260208.71803.tar";
-        sha256 = "1r5y5ffsi4v0gyv8d55rr3ngkf13cgy3dfdl18b78wdcx367aka7";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20260214.143216.tar";
+        sha256 = "0v1j7vvpw5m6cjrbmzbjssw8n7r4ipxkzwl13z351lqx81q27p9b";
       };
       packageRequires = [
         helm-core
@@ -2766,10 +2766,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20260208.71803";
+      version = "4.0.6.0.20260214.143216";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20260208.71803.tar";
-        sha256 = "1m33lsr7aqvxs79ypjh75yym0kvsb06vmddrdrx6p8w8k13dvpmw";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20260214.143216.tar";
+        sha256 = "09rmliclxhzbai5cgy3f1bg1y9nk6a3xig79iz6yxfc26qs1kkh2";
       };
       packageRequires = [ async ];
       meta = {
@@ -4461,6 +4461,7 @@
   ) { };
   projectile = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -4468,12 +4469,12 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1.0.20260213.154612";
+      version = "2.9.1.0.20260214.201949";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20260213.154612.tar";
-        sha256 = "0wjyvdh3yssf1ca235a3zshshwi980nhvin1lp49k6wai0jnk685";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20260214.201949.tar";
+        sha256 = "1wv6i6n5xl312f4ss57aqhlgryx59l68kqb5ggd5irmbixd6kg02";
       };
-      packageRequires = [ ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/projectile.html";
         license = lib.licenses.free;
