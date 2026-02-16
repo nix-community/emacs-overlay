@@ -1866,10 +1866,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0.0.20260215.200851";
+      version = "35.0.0.20260216.64201";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20260215.200851.tar";
-        sha256 = "1ian5b7vzi8sa5rwyfvpi3sfb18fg346xvv8dngjhhcg2pcj7qnf";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20260216.64201.tar";
+        sha256 = "0xzlcqj5b0bxj1vhakw4h5cw9dirl1c9lz61j46g8ki3cyyb0pa8";
       };
       packageRequires = [ seq ];
       meta = {
@@ -4469,10 +4469,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0snapshot0.20260215.144355";
+      version = "2.10.0snapshot0.20260216.65235";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0snapshot0.20260215.144355.tar";
-        sha256 = "05f89n9xr6j2dpr45b4ybxphfhspppp5rlbc11613p428xxwmhb5";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0snapshot0.20260216.65235.tar";
+        sha256 = "0a79a85scyrpvrcbqb4n2cjjjgbhf61qm2ilkwk8mspym4g0b41v";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5109,10 +5109,10 @@
     elpaBuild {
       pname = "subatomic-theme";
       ename = "subatomic-theme";
-      version = "1.8.2.0.20220128.161518";
+      version = "1.8.2.0.20260216.82619";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subatomic-theme-1.8.2.0.20220128.161518.tar";
-        sha256 = "1h4rr2g6lhn186df2nk026xk1x6yhh441d6mjcdrfkii17n15552";
+        url = "https://elpa.nongnu.org/nongnu-devel/subatomic-theme-1.8.2.0.20260216.82619.tar";
+        sha256 = "0v5jv362kicjrygyf7dkjjg8sfczwx4g783h7l4ndxn5r1l7smb6";
       };
       packageRequires = [ ];
       meta = {
@@ -5910,10 +5910,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.11.20260204154143.0.20260204.154629";
+      version = "28.11.20260215192642.0.20260215.201333";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.11.20260204154143.0.20260204.154629.tar";
-        sha256 = "0mxfh8c4fzrsiv423gwh5q8wrva564kgs9hi01w3j2l24878474y";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.11.20260215192642.0.20260215.201333.tar";
+        sha256 = "08pdqfglkl150pw43llm5z3a2mpzdil315a732i7fa4a27qwkxfn";
       };
       packageRequires = [ ];
       meta = {
