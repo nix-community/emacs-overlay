@@ -1866,10 +1866,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0.0.20260214.200301";
+      version = "35.0.0.20260215.200851";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20260214.200301.tar";
-        sha256 = "1scr3g6idykwbs8a9hjmz7friyrslpx4pxs14ppvj28qrbj2g5wf";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-35.0.0.20260215.200851.tar";
+        sha256 = "1ian5b7vzi8sa5rwyfvpi3sfb18fg346xvv8dngjhhcg2pcj7qnf";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3175,10 +3175,10 @@
     elpaBuild {
       pname = "javelin";
       ename = "javelin";
-      version = "0.2.3.0.20260105.173516";
+      version = "0.2.3.0.20260215.104721";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/javelin-0.2.3.0.20260105.173516.tar";
-        sha256 = "0vv0kk0pvdmyr7arargdxrldkk4m8b43i2jb0w4lia5pfn66h6kl";
+        url = "https://elpa.nongnu.org/nongnu-devel/javelin-0.2.3.0.20260215.104721.tar";
+        sha256 = "18w050yhf4avkmynyd80gf39bg5bhj7r8p09cflsaa16zni5169y";
       };
       packageRequires = [ ];
       meta = {
@@ -4469,10 +4469,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1.0.20260214.201949";
+      version = "2.10.0snapshot0.20260215.144355";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.9.1.0.20260214.201949.tar";
-        sha256 = "1wv6i6n5xl312f4ss57aqhlgryx59l68kqb5ggd5irmbixd6kg02";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0snapshot0.20260215.144355.tar";
+        sha256 = "05f89n9xr6j2dpr45b4ybxphfhspppp5rlbc11613p428xxwmhb5";
       };
       packageRequires = [ compat ];
       meta = {
