@@ -3488,10 +3488,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260216.202117";
+      version = "4.5.0.0.20260216.230615";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260216.202117.tar";
-        sha256 = "038znr8q5l2x347akqn93hcdy2insfp70wfb17vbfx7znmcnypvn";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260216.230615.tar";
+        sha256 = "0d7b58d3hvmw993qyg8mj1iaxnfahfaky3ya1n0xnnf24k7ksnpg";
       };
       packageRequires = [
         compat
@@ -3521,10 +3521,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260216.202117";
+      version = "4.5.0.0.20260216.230615";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260216.202117.tar";
-        sha256 = "12c64c9kfx0l5w3mc64qxcxyb7zghm8pgdcc7k2qi0y0w3xv8js5";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260216.230615.tar";
+        sha256 = "1dysh6m0w11hj3j2mgi5s2n31y5r1wc3p2xhka63amsq34ws33am";
       };
       packageRequires = [
         compat
@@ -4919,10 +4919,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260202.141227";
+      version = "2.32snapshot0.20260217.22202";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260202.141227.tar";
-        sha256 = "13b0l4wdpwqzijh5cdsy71zb36l11x3dly0c4id9rylxk9hxm6c1";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260217.22202.tar";
+        sha256 = "1xs8m62rpk66dvj5g10iiy9hsb5r9qw774psb7xgldkibmzza24b";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -5130,10 +5130,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.4.0.0.20260210.153257";
+      version = "1.4.1.0.20260216.184548";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.0.0.20260210.153257.tar";
-        sha256 = "0wds448v48arq8z3njkxsq236lb16937111grhzfgwhw1bsdn4dh";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.1.0.20260216.184548.tar";
+        sha256 = "0fjnfxinr7lvhzd71xcvcpgq23fd57yawqhs40qy02mpq7d7h3ai";
       };
       packageRequires = [ ];
       meta = {
