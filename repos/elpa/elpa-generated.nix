@@ -3068,10 +3068,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.12.9";
+      version = "1.12.14";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.12.9.tar";
-        sha256 = "1vgzq3bgiw9gr4lszy9cc13a3cbg3d4z9s1chgxkjy0fkf9jmga1";
+        url = "https://elpa.gnu.org/packages/ellama-1.12.14.tar";
+        sha256 = "1r88avz3mycblp98qfwlmk572vqjkyaf0cb3pv43dgl6613bxyd9";
       };
       packageRequires = [
         compat
@@ -5284,10 +5284,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.28.5";
+      version = "0.29.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/llm-0.28.5.tar";
-        sha256 = "0imqqp95knnjx9c2x0ipgpr82j23jiqldldkff9qx19qkp66jq9l";
+        url = "https://elpa.gnu.org/packages/llm-0.29.0.tar";
+        sha256 = "0pybl4wxirsi00blx18gy1786n4324mb2fvr7n1a0bfyljz2rm6k";
       };
       packageRequires = [
         compat
@@ -5628,10 +5628,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.0.4";
+      version = "8.0.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/matlab-mode-8.0.4.tar";
-        sha256 = "034gdyslca6p3622xh0w2cig6v0f366jm9kscai0pg22d9flb99z";
+        url = "https://elpa.gnu.org/packages/matlab-mode-8.0.5.tar";
+        sha256 = "0n8lnpy4s3rnbi5slc9xn87691gc1g8rh9kq1z9hd0bxbrsc51gh";
       };
       packageRequires = [ ];
       meta = {
