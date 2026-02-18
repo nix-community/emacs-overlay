@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260207.53455";
+      version = "14.1.2.0.20260217.131651";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260207.53455.tar";
-        sha256 = "1xzzmmcm3vh4s4mlpdiv7rwnkfwmmjjak0vp30ysvjmkwqk6sbzp";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260217.131651.tar";
+        sha256 = "01w8brg4k55shynsg636pkjmlvxc93737nbvwxwkav5q912wm3gb";
       };
       packageRequires = [ ];
       meta = {
@@ -2929,10 +2929,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.1.0.0.20260127.144408";
+      version = "2.1.0.0.20260217.75552";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260127.144408.tar";
-        sha256 = "1qxwy45cff34m47n0n36k1dd23psnphk6684dwnifcpdsa9ampw5";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260217.75552.tar";
+        sha256 = "0ylyl8lakp6nv51hdpmmicac2sjn06xgr1nhgdqydcs9k9r7y5h6";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -3131,10 +3131,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.12.14.0.20260216.30716";
+      version = "1.12.15.0.20260217.155551";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.12.14.0.20260216.30716.tar";
-        sha256 = "1ashsi6bk69qc25m6jjygfi275nwl7kijm418vc0p227n6zkqfpv";
+        url = "https://elpa.gnu.org/devel/ellama-1.12.15.0.20260217.155551.tar";
+        sha256 = "0avliahpj35fln77jyjdcphfdvfzvvb5r4ywm989imh85p38awn7";
       };
       packageRequires = [
         compat
@@ -3179,10 +3179,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260216.93351";
+      version = "0.0.20260217.101435";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260216.93351.tar";
-        sha256 = "1ylsz76gwxykgmjrc193sm6xcml5ml42x8y3fq4la67292q0z4bi";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260217.101435.tar";
+        sha256 = "03n2nazc0vw53gr84fncprn6cpni9mi5b4z16xb59h0wfld8qflc";
       };
       packageRequires = [ ];
       meta = {
@@ -3874,10 +3874,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.0.0.20260213.175101";
+      version = "1.0.0.20260216.180755";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.0.0.20260213.175101.tar";
-        sha256 = "00xdny06n9d0jr7abs1xf4zkg8h0104r27r9i1sm076z2yn92aan";
+        url = "https://elpa.gnu.org/devel/futur-1.0.0.20260216.180755.tar";
+        sha256 = "15i97m36n9kfj3km2kr1jrcyzr0iraqfxygbywm0wxk185bl6mg4";
       };
       packageRequires = [ ];
       meta = {
@@ -4024,10 +4024,10 @@
     elpaBuild {
       pname = "gnome-dark-style";
       ename = "gnome-dark-style";
-      version = "0.2.3.0.20250325.182321";
+      version = "0.2.4.0.20260217.95837";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnome-dark-style-0.2.3.0.20250325.182321.tar";
-        sha256 = "1kk6pgl79zgd2jvnh011177080w7vz2561mqi88s1rpv43lf4qxa";
+        url = "https://elpa.gnu.org/devel/gnome-dark-style-0.2.4.0.20260217.95837.tar";
+        sha256 = "1pb86bww72vkm86424wqc2d1kvw2pkq4w3s9cr9r3pn9cqgn1r7h";
       };
       packageRequires = [ ];
       meta = {
@@ -4516,10 +4516,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260215.210832";
+      version = "9.0.2pre0.20260217.145059";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260215.210832.tar";
-        sha256 = "0si8nxlaf44a5q49v3gzfqdsbknyl59j3g588wa3bd715w2280xx";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260217.145059.tar";
+        sha256 = "0k1psgvnrv940hh6w6ljpshrczf89cxyxx4g5lawvn4jgxbzkhvh";
       };
       packageRequires = [ ];
       meta = {
@@ -5993,10 +5993,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260131.81440";
+      version = "5.2.0.0.20260217.71557";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260131.81440.tar";
-        sha256 = "1lcz9x2dkxaw9f32qq3700waz2fnvrlsg9yiiwjr8l9hclim1l8b";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260217.71557.tar";
+        sha256 = "1prcwvfjh4k8vvjyhf2q81g14yrcqklpjyhlfcnl0h4n7rfspyqh";
       };
       packageRequires = [ ];
       meta = {
