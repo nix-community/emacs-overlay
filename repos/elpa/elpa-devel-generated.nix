@@ -3201,10 +3201,10 @@
     elpaBuild {
       pname = "embark";
       ename = "embark";
-      version = "1.1.0.20251117.191148";
+      version = "1.1.0.20260218.2421";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-1.1.0.20251117.191148.tar";
-        sha256 = "0km0f7pk6frarfsdh4lz47vpq5d2ryfsxmb8lnksrhw5g7s3zhkw";
+        url = "https://elpa.gnu.org/devel/embark-1.1.0.20260218.2421.tar";
+        sha256 = "0bqiz00a6jclpkair7vcgrn1aay2636pf65wndm5h916np4apnh7";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3225,10 +3225,10 @@
     elpaBuild {
       pname = "embark-consult";
       ename = "embark-consult";
-      version = "1.1.0.20251117.191148";
+      version = "1.1.0.20260218.2421";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20251117.191148.tar";
-        sha256 = "09710k4d5g7rp179mll9a056x9af9ckpsdjl8kcil0rfb7pc5s4r";
+        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20260218.2421.tar";
+        sha256 = "110c338xk78mp4xa7ci2wfa3c6pdjwrqk4mxkp7ajc2qzh2cmxny";
       };
       packageRequires = [
         compat
@@ -3874,10 +3874,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.0.0.20260216.180755";
+      version = "1.0.0.20260217.222620";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.0.0.20260216.180755.tar";
-        sha256 = "15i97m36n9kfj3km2kr1jrcyzr0iraqfxygbywm0wxk185bl6mg4";
+        url = "https://elpa.gnu.org/devel/futur-1.0.0.20260217.222620.tar";
+        sha256 = "1c7gfws4pigg8iacbglc9yc5apdcz37x0cyhybvkl8mf31rgi8sj";
       };
       packageRequires = [ ];
       meta = {
@@ -7232,10 +7232,10 @@
     elpaBuild {
       pname = "po-mode";
       ename = "po-mode";
-      version = "2.32.0.20260127.50952";
+      version = "2.32.0.20260217.95607";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/po-mode-2.32.0.20260127.50952.tar";
-        sha256 = "15zmdwriki3rzng5qwyjjbq6yi1vg18wsb1rh31gqhqg20a74jw3";
+        url = "https://elpa.gnu.org/devel/po-mode-2.32.0.20260217.95607.tar";
+        sha256 = "16dkn7k3kkrv1n7c9qnvpzbrywgq4cwgry7szcsgyglrf6dq89y9";
       };
       packageRequires = [ ];
       meta = {
@@ -7529,10 +7529,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.3.2.0.20260111.105226";
+      version = "1.3.2.0.20260218.80724";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.3.2.0.20260111.105226.tar";
-        sha256 = "0lj8slzakg34f66ig4lq91hvqq92ja2vapwm9af8d1rphpz6qnil";
+        url = "https://elpa.gnu.org/devel/pulsar-1.3.2.0.20260218.80724.tar";
+        sha256 = "11f0c0qqzjqp92y1jwzckz25dv2ny04dm0rljg5kr4b9zs6y7sq9";
       };
       packageRequires = [ ];
       meta = {
