@@ -593,10 +593,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.20.0";
+      version = "1.21.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/cider-1.20.0.tar";
-        sha256 = "1s1jw1dc8r7aqjc4vkgcsz193fnhrd6lrz54bim839sfyfv2rhb8";
+        url = "https://elpa.nongnu.org/nongnu/cider-1.21.0.tar";
+        sha256 = "0rfjq6fqvam9v7mcx1459p377ryzi9wf7p2dn68nd51f324hx0gj";
       };
       packageRequires = [
         clojure-mode
@@ -1440,6 +1440,28 @@
       packageRequires = [ evil ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/evil-args.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  evil-emacs-cursor-model-mode = callPackage (
+    {
+      elpaBuild,
+      evil,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "evil-emacs-cursor-model-mode";
+      ename = "evil-emacs-cursor-model-mode";
+      version = "0.1.3";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/evil-emacs-cursor-model-mode-0.1.3.tar";
+        sha256 = "03mn90kpn5lj1yxg5pl69wa01ms2xi9bj1w5dix5ac153iqlddjm";
+      };
+      packageRequires = [ evil ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/evil-emacs-cursor-model-mode.html";
         license = lib.licenses.free;
       };
     }

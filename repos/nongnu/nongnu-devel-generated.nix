@@ -580,6 +580,7 @@
   cider = callPackage (
     {
       clojure-mode,
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -593,13 +594,14 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.21.0snapshot0.20260128.165118";
+      version = "1.22.0snapshot0.20260209.125813";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.21.0snapshot0.20260128.165118.tar";
-        sha256 = "1ms86cwk4b5rza3s98d3y8ggm4zcifs83mp99ag9yn5rp4gqhmwa";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260209.125813.tar";
+        sha256 = "0p5ac9r1adkgr56kzhfzg6gnnd52qc5fyr1hi5gs9ynr00dgalx4";
       };
       packageRequires = [
         clojure-mode
+        compat
         parseedn
         queue
         seq
@@ -1422,6 +1424,28 @@
       packageRequires = [ evil ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/evil-args.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  evil-emacs-cursor-model-mode = callPackage (
+    {
+      elpaBuild,
+      evil,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "evil-emacs-cursor-model-mode";
+      ename = "evil-emacs-cursor-model-mode";
+      version = "0.1.3.0.20260216.214825";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-emacs-cursor-model-mode-0.1.3.0.20260216.214825.tar";
+        sha256 = "1hkjmfb2g8zg37inl3qr6yyky9rj6jxdi1w8w1km50msmdh1p35g";
+      };
+      packageRequires = [ evil ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/evil-emacs-cursor-model-mode.html";
         license = lib.licenses.free;
       };
     }
@@ -3308,10 +3332,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "1.0.3.0.20260101.183011";
+      version = "1.0.3.0.20260217.210434";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/llama-1.0.3.0.20260101.183011.tar";
-        sha256 = "1z3j7rg8v7hrgjhz914gqms6566hvxrhs3ylxg3ljbrz1rql23a2";
+        url = "https://elpa.nongnu.org/nongnu-devel/llama-1.0.3.0.20260217.210434.tar";
+        sha256 = "072q29wxq1jnhbiva7sw4kxi2j5rsbpp1zsyii9phk28h6hwb2h4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5668,10 +5692,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.3snapshot0.20251229.112614";
+      version = "8.3.3snapshot0.20260217.60703";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20251229.112614.tar";
-        sha256 = "0j96fzmqljhyk0dxkwzs6y4j4x9clyslndbspcisx0qskqa3p0fg";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260217.60703.tar";
+        sha256 = "1cz13m22whjnfdwd88254wya9qy6dh7yma3f2b0sgc9sv44szxp8";
       };
       packageRequires = [ vcard ];
       meta = {
