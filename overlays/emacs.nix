@@ -116,11 +116,6 @@ let
                          };
                        });
 
-  commercial-emacs = (mkGitEmacs "commercial-emacs" ../repos/emacs/commercial-emacs-commercial-emacs.json) {
-    withTreeSitter = false;
-    withNativeCompilation = false;
-  };
-
   emacs-git-nox = (
     (
       emacs-git.override {
@@ -158,8 +153,6 @@ in
   inherit emacs-git-pgtk emacs-unstable-pgtk;
 
   inherit emacs-git-nox emacs-unstable-nox;
-
-  inherit commercial-emacs;
 
   inherit emacs-igc emacs-igc-pgtk;
 
