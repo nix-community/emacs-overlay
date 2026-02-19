@@ -116,8 +116,6 @@ let
                          };
                        });
 
-  emacs-lsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { withTreeSitter = false; };
-
   commercial-emacs = (mkGitEmacs "commercial-emacs" ../repos/emacs/commercial-emacs-commercial-emacs.json) {
     withTreeSitter = false;
     withNativeCompilation = false;
@@ -161,8 +159,6 @@ in
 
   inherit emacs-git-nox emacs-unstable-nox;
 
-  inherit emacs-lsp;
-
   inherit commercial-emacs;
 
   inherit emacs-igc emacs-igc-pgtk;
@@ -185,5 +181,4 @@ in
   emacsUnstablePgtk = builtins.trace "emacsUnstablePgtk has been renamed to emacs-unstable-pgtk, please update your expression." emacs-unstable-pgtk;
   emacsGitNox = builtins.trace "emacsGitNox has been renamed to emacs-git-nox, please update your expression." emacs-git-nox;
   emacsUnstableNox = builtins.trace "emacsUnstableNox has been renamed to emacs-unstable-nox, please update your expression." emacs-unstable-nox;
-  emacsLsp = throw "emacsLsp has been removed, please update your expression.";
 }
