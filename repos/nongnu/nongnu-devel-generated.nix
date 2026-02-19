@@ -624,10 +624,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.20.0.0.20260212.151851";
+      version = "5.21.0.0.20260218.193248";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.20.0.0.20260212.151851.tar";
-        sha256 = "0ikfqvczhs4il9y42pgffs0qh9gxq49jfz5sqk4lk6zxiflk5zqm";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.21.0.0.20260218.193248.tar";
+        sha256 = "049iz5pvgax0j32b9kf7684krypvfp88h5s1rk4j87dsa8g778xd";
       };
       packageRequires = [ ];
       meta = {
@@ -2568,10 +2568,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20260218.5912";
+      version = "0.9.9.3.0.20260218.20328";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260218.5912.tar";
-        sha256 = "1hzzsbhmsz3zvb6yw4ybrxialimc7c60s7hp9if3g7iby86c70b7";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260218.20328.tar";
+        sha256 = "16g6w73hvw1ffa106vkqbvd09dwm02694as6k72278i5sswjck5g";
       };
       packageRequires = [
         compat
@@ -3356,10 +3356,10 @@
     elpaBuild {
       pname = "logview";
       ename = "logview";
-      version = "0.19.4snapshot0.20251104.172505";
+      version = "0.19.4snapshot0.20260218.201306";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/logview-0.19.4snapshot0.20251104.172505.tar";
-        sha256 = "1j1sy2z3w9k6h5b9dszshfy2l34v73qyr3y9l11zf2yzzm90lwz1";
+        url = "https://elpa.nongnu.org/nongnu-devel/logview-0.19.4snapshot0.20260218.201306.tar";
+        sha256 = "1f49zs4w4wmn7famsc3ay8n7834c8zk2z3xmw74sk3744ygrc8d3";
       };
       packageRequires = [
         compat
