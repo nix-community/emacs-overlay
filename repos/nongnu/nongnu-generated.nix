@@ -1901,16 +1901,17 @@
       elpaBuild,
       fetchurl,
       lib,
+      seq,
     }:
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "35.0";
+      version = "36.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/flycheck-35.0.tar";
-        sha256 = "1nrsnp5d2jfrg6k9qf55v9mlygkc3ln44j31qmirsp5ad5xrflhm";
+        url = "https://elpa.nongnu.org/nongnu/flycheck-36.0.tar";
+        sha256 = "0172y6qzkys77cbvdla1iiiznpxpscjzmsdr66m66s8g4bf7f1p2";
       };
-      packageRequires = [ ];
+      packageRequires = [ seq ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/flycheck.html";
         license = lib.licenses.free;
@@ -5476,10 +5477,10 @@
     elpaBuild {
       pname = "tp";
       ename = "tp";
-      version = "0.7";
+      version = "0.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/tp-0.7.tar";
-        sha256 = "048z3g0gv7brsl546s530b6si2rjhy3mm8y0jdcp14fza4srpliv";
+        url = "https://elpa.nongnu.org/nongnu/tp-0.8.tar";
+        sha256 = "1psa4sdia1vx3l2v1lklc8wy8nqbq6g83fyj46xii20rfm4db9hk";
       };
       packageRequires = [ transient ];
       meta = {
