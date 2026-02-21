@@ -1387,10 +1387,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260108.3608";
+      version = "1.0.2.0.20260220.15631";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260108.3608.tar";
-        sha256 = "0py7kj5470b5i7mq7kfnbqh90q487nj4dnvk50yji1pdw5x6s9wj";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260220.15631.tar";
+        sha256 = "0wj07iqpjigzqdy8y1i7x3nzg9cgammjcyv872hxzx9dr4xb0i88";
       };
       packageRequires = [ ];
       meta = {
@@ -2705,10 +2705,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.0.0.0.20260219.64856";
+      version = "1.0.0.0.20260220.71354";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.0.0.0.20260219.64856.tar";
-        sha256 = "0602glw60ibsbaq55x8k2wkhpn0fgj226jvffc7kvryq7fjks3d5";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.0.0.0.20260220.71354.tar";
+        sha256 = "1qvaf9aalbdbfahl6s5xpd44xgzx0wv4b36p4vhg2m0z9g4pm7n7";
       };
       packageRequires = [ ];
       meta = {
@@ -4516,10 +4516,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260218.134211";
+      version = "9.0.2pre0.20260219.214719";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260218.134211.tar";
-        sha256 = "1nsax65wxivai3pbiyrb9xw1yc8mn0ca79pcz7zfjib0v7848vir";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260219.214719.tar";
+        sha256 = "00mxbqhhiwz9ri0ykcqf58wvn8y1qic6dkfygfr847v44gqzhj12";
       };
       packageRequires = [ ];
       meta = {
@@ -4870,10 +4870,10 @@
     elpaBuild {
       pname = "javaimp";
       ename = "javaimp";
-      version = "0.9.1.0.20241129.211411";
+      version = "0.9.1.0.20260220.205136";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/javaimp-0.9.1.0.20241129.211411.tar";
-        sha256 = "1i7jga44n7rdfb51y72x6c3j0k2pwb90x1xz3m0j0iq4avy89dj9";
+        url = "https://elpa.gnu.org/devel/javaimp-0.9.1.0.20260220.205136.tar";
+        sha256 = "1ccfzvn89yi79ayf791iqnl09643z89yyqs2ccvr0ddhjqb7fm9l";
       };
       packageRequires = [ ];
       meta = {
@@ -5606,10 +5606,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.9.0.20260125.120506";
+      version = "2.9.0.20260220.114937";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.9.0.20260125.120506.tar";
-        sha256 = "0i1qhdq84ldmlpghnw2kcqkyq4awkv8k144m01v7l7lh01gyax3w";
+        url = "https://elpa.gnu.org/devel/marginalia-2.9.0.20260220.114937.tar";
+        sha256 = "0l8spkn49mxzid72zi9g26wp8jmzc4a4pvhi068jyixd3mr6sip6";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5993,10 +5993,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260219.64320";
+      version = "5.2.0.0.20260220.65850";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260219.64320.tar";
-        sha256 = "06crmii7kyn5q2b9dzrz9v9580ym2szi2qcy0k3vp24wx3apdzqj";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260220.65850.tar";
+        sha256 = "101vwd0vjrr5dz7llxmhl43fwkip35i4j6fyfx412zs496vsmnf8";
       };
       packageRequires = [ ];
       meta = {
@@ -7466,10 +7466,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.2.0.20260217.14822";
+      version = "0.11.2.0.20260220.1222";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260217.14822.tar";
-        sha256 = "1r13k2asyj6680bvqfq0mh2fi94dd1g8sxak452s3z0xiibsfvig";
+        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260220.1222.tar";
+        sha256 = "11qxgadqwavf63rypkc9fqxcv59jgq934yb1wd1w993dgrca3f9i";
       };
       packageRequires = [ xref ];
       meta = {
@@ -9286,10 +9286,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.11.0.20260125.120704";
+      version = "1.11.0.20260220.115732";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.11.0.20260125.120704.tar";
-        sha256 = "1i38rlzc0zr8yqriiy81d2isfanl588psjxc61iqbrk1xwd6sk2k";
+        url = "https://elpa.gnu.org/devel/tempel-1.11.0.20260220.115732.tar";
+        sha256 = "09gxz4irm50hszyiq6sz73r93qydahmdfvr7q8pp38vlp19w19ad";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10820,10 +10820,10 @@
     elpaBuild {
       pname = "xref-union";
       ename = "xref-union";
-      version = "0.2.0.0.20231225.162837";
+      version = "0.2.0.0.20260220.162809";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-union-0.2.0.0.20231225.162837.tar";
-        sha256 = "0is4r12r30drq1msa5143bgnwam1kgbf2iia30fbqv0l0rhvqd9x";
+        url = "https://elpa.gnu.org/devel/xref-union-0.2.0.0.20260220.162809.tar";
+        sha256 = "1ykzhijzfpqqhk9mb0j2askv5qncyain5kc2938s5rvq35qizp80";
       };
       packageRequires = [ ];
       meta = {
