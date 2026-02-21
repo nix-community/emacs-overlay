@@ -1821,27 +1821,18 @@
   fj = callPackage (
     {
       elpaBuild,
-      fedi,
       fetchurl,
       lib,
-      magit,
-      tp,
-      transient,
     }:
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.28";
+      version = "0.29";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fj-0.28.tar";
-        sha256 = "0smmz9iig83yckcgmd9jd45kkklfywk7nw4jl98wxm4mqwmy1f5l";
+        url = "https://elpa.nongnu.org/nongnu/fj-0.29.tar";
+        sha256 = "0i16z3szdwv253ryk2yzvrd5iz21vdd5y5qy16grza5942wgpai6";
       };
-      packageRequires = [
-        fedi
-        magit
-        tp
-        transient
-      ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/fj.html";
         license = lib.licenses.free;

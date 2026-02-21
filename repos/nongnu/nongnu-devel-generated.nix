@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.8.0snapshot0.20250206.83825";
+      version = "0.8.0snapshot0.20260220.205901";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.8.0snapshot0.20250206.83825.tar";
-        sha256 = "0b9lbxk5q0hr7j86wpxrkbg626srkc9jhycqi7qb3yqsn1pr4khc";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.8.0snapshot0.20260220.205901.tar";
+        sha256 = "1x87kx978a5rhgzpn5afaawv9xi3f5a79clz5w9hm9k3m1iybhgc";
       };
       packageRequires = [ ];
       meta = {
@@ -624,10 +624,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.21.0.0.20260220.85612";
+      version = "5.21.0.0.20260220.185145";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.21.0.0.20260220.85612.tar";
-        sha256 = "0rr710ag0995xaaa63g0d2lazq7h1qfzps9i8p5bh793z5adm8qc";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.21.0.0.20260220.185145.tar";
+        sha256 = "0vzi5bd60wz6my44yiq5g8xdgk6rv09nr034gf0qgql3ww34ggsy";
       };
       packageRequires = [ ];
       meta = {
@@ -1805,27 +1805,18 @@
   fj = callPackage (
     {
       elpaBuild,
-      fedi,
       fetchurl,
       lib,
-      magit,
-      tp,
-      transient,
     }:
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.28.0.20251030.134543";
+      version = "0.29.0.20260220.164204";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.28.0.20251030.134543.tar";
-        sha256 = "1fihl80jlsyb9w1f6dwd5rsrzaaxazb1cj8cp8yj4cajh4gmf8ms";
+        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.29.0.20260220.164204.tar";
+        sha256 = "05l591gdzjcmh677yqrzn0djwd71p5f0615m2vz0bdh3kbjv2w2l";
       };
-      packageRequires = [
-        fedi
-        magit
-        tp
-        transient
-      ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/fj.html";
         license = lib.licenses.free;
@@ -2568,10 +2559,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20260219.212211";
+      version = "0.9.9.3.0.20260220.101916";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260219.212211.tar";
-        sha256 = "19nhnn25vph43f21fsm4xhjgkb2mhnjrw2hg18nl8x13rsajzp1s";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260220.101916.tar";
+        sha256 = "17v9wdd0bhzs9h23v5n4mx169kg60fn0p92rs3aa76n5v7kcrpx9";
       };
       packageRequires = [
         compat
@@ -3047,10 +3038,10 @@
     elpaBuild {
       pname = "inf-clojure";
       ename = "inf-clojure";
-      version = "3.3.0.0.20250525.205532";
+      version = "3.4.0snapshot0.20260220.143715";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/inf-clojure-3.3.0.0.20250525.205532.tar";
-        sha256 = "1q4cibg107pcg1cirqmmzhvbyyzlm76aqfyqad8m6ds76jv3kkcg";
+        url = "https://elpa.nongnu.org/nongnu-devel/inf-clojure-3.4.0snapshot0.20260220.143715.tar";
+        sha256 = "1m0jah1rfd6csqafiqq44d8l3g97d51a1gwyhr8pxc7d82ng8sfn";
       };
       packageRequires = [ clojure-mode ];
       meta = {
