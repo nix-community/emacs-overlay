@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.8.0snapshot0.20260220.205901";
+      version = "0.8.0snapshot0.20260221.80845";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.8.0snapshot0.20260220.205901.tar";
-        sha256 = "1x87kx978a5rhgzpn5afaawv9xi3f5a79clz5w9hm9k3m1iybhgc";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.8.0snapshot0.20260221.80845.tar";
+        sha256 = "1kqjlv38wfj93bd3ack3jvpdgx8qw8h1gj6rvhr12mj3zy17cwjp";
       };
       packageRequires = [ ];
       meta = {
@@ -594,10 +594,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0snapshot0.20260209.125813";
+      version = "1.22.0snapshot0.20260221.61239";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260209.125813.tar";
-        sha256 = "0p5ac9r1adkgr56kzhfzg6gnnd52qc5fyr1hi5gs9ynr00dgalx4";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260221.61239.tar";
+        sha256 = "03sazabqwy7hizs3dj6vwarkhl4l6jqil1dg5w77pv4f250sk3z8";
       };
       packageRequires = [
         clojure-mode
@@ -2559,10 +2559,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20260220.101916";
+      version = "0.9.9.3.0.20260220.201803";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260220.101916.tar";
-        sha256 = "17v9wdd0bhzs9h23v5n4mx169kg60fn0p92rs3aa76n5v7kcrpx9";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260220.201803.tar";
+        sha256 = "10ipphxlswfqvk48hnlqrrgmxzab2bicrr1iyi6j9fvhfnmmbjym";
       };
       packageRequires = [
         compat
