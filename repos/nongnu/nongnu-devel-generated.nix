@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.8.0.0.20260221.100916";
+      version = "0.8.0.0.20260221.220754";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.8.0.0.20260221.100916.tar";
-        sha256 = "099spg7zpsf43w478ywyigdn0zsfvxj68ax985qg5m4bxbhna3sp";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.8.0.0.20260221.220754.tar";
+        sha256 = "19cn5vm963pygzi42r7zw0n7g1adipa0k8f8chwlwibhzwmx3vyz";
       };
       packageRequires = [ ];
       meta = {
@@ -1805,18 +1805,27 @@
   fj = callPackage (
     {
       elpaBuild,
+      fedi,
       fetchurl,
       lib,
+      magit,
+      tp,
+      transient,
     }:
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.29.0.20260220.164204";
+      version = "0.30.0.20260222.64647";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.29.0.20260220.164204.tar";
-        sha256 = "05l591gdzjcmh677yqrzn0djwd71p5f0615m2vz0bdh3kbjv2w2l";
+        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.30.0.20260222.64647.tar";
+        sha256 = "17r10lcy5f3dbqscq6cj5kw254qn9hk2gda0ifgidc3gqaljrw7l";
       };
-      packageRequires = [ ];
+      packageRequires = [
+        fedi
+        magit
+        tp
+        transient
+      ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/fj.html";
         license = lib.licenses.free;
@@ -2559,10 +2568,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3.0.20260220.201803";
+      version = "0.9.9.4.0.20260221.172046";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.3.0.20260220.201803.tar";
-        sha256 = "10ipphxlswfqvk48hnlqrrgmxzab2bicrr1iyi6j9fvhfnmmbjym";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260221.172046.tar";
+        sha256 = "0hnnr6idzw1x990ggnj35rmw20316v2q5jxb1ymgsi88ii20i074";
       };
       packageRequires = [
         compat
@@ -5683,10 +5692,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.3snapshot0.20260217.60703";
+      version = "8.3.3snapshot0.20260221.221140";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260217.60703.tar";
-        sha256 = "1cz13m22whjnfdwd88254wya9qy6dh7yma3f2b0sgc9sv44szxp8";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260221.221140.tar";
+        sha256 = "1qkqi0kf97vq86gq928a5yv5j9rz3lkc6dsxk7z65qdaz24x22sd";
       };
       packageRequires = [ vcard ];
       meta = {

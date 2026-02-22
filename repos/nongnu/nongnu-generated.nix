@@ -1821,18 +1821,27 @@
   fj = callPackage (
     {
       elpaBuild,
+      fedi,
       fetchurl,
       lib,
+      magit,
+      tp,
+      transient,
     }:
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.29";
+      version = "0.30";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fj-0.29.tar";
-        sha256 = "0i16z3szdwv253ryk2yzvrd5iz21vdd5y5qy16grza5942wgpai6";
+        url = "https://elpa.nongnu.org/nongnu/fj-0.30.tar";
+        sha256 = "016zrri2ffj52slv2m4a2fcwv37h4sncfp7whzbkc4kwqpsryn58";
       };
-      packageRequires = [ ];
+      packageRequires = [
+        fedi
+        magit
+        tp
+        transient
+      ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/fj.html";
         license = lib.licenses.free;
@@ -2574,10 +2583,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.3";
+      version = "0.9.9.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gptel-0.9.9.3.tar";
-        sha256 = "19wwjjlpfa5ngmfj8v3hzf2ndr355s5vg9nzg8qmx3ni61jb08n7";
+        url = "https://elpa.nongnu.org/nongnu/gptel-0.9.9.4.tar";
+        sha256 = "0j410b0bynq91dxwakrrzp92m3p2lznzvmyq41viscjm0gjng4kn";
       };
       packageRequires = [
         compat
