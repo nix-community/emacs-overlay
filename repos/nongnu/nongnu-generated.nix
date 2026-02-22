@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.7.0";
+      version = "0.8.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/adoc-mode-0.7.0.tar";
-        sha256 = "1gdjgybpbw3qj9mfmq9ljx4xaam1f6rwyrav2y2f5fpv6z7w0i61";
+        url = "https://elpa.nongnu.org/nongnu/adoc-mode-0.8.0.tar";
+        sha256 = "16459ial82gybqjm8ib0cxry6daipak4baxiz2wnldgy5vpgjnrd";
       };
       packageRequires = [ ];
       meta = {
@@ -1298,10 +1298,10 @@
     elpaBuild {
       pname = "elpher";
       ename = "elpher";
-      version = "3.6.6";
+      version = "3.7.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/elpher-3.6.6.tar";
-        sha256 = "0wb1d5cm2gsjarqb9z06hx7nry37la6g5s44bb8q7j2xfd11h764";
+        url = "https://elpa.nongnu.org/nongnu/elpher-3.7.0.tar";
+        sha256 = "1z12nb9a9gbksfnirnqv5fi6b7ygkjgyvrd7glp3ymbp765pjb2p";
       };
       packageRequires = [ ];
       meta = {
@@ -3963,10 +3963,10 @@
     elpaBuild {
       pname = "org-contrib";
       ename = "org-contrib";
-      version = "0.7";
+      version = "0.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/org-contrib-0.7.tar";
-        sha256 = "1v9sphc2jwccdix74ry3wblkkp9majk7n7c9ic1bsq9caj4i9n5r";
+        url = "https://elpa.nongnu.org/nongnu/org-contrib-0.8.tar";
+        sha256 = "0bw6wrnkbx26k0zxgglyps2nnmgwr6yvkizxqnknds3y5r643j34";
       };
       packageRequires = [ org ];
       meta = {
