@@ -3068,10 +3068,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.12.16";
+      version = "1.12.17";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.12.16.tar";
-        sha256 = "0iw5rbp66qsprnm1lr8a9bs2k15fv841z45fwcbdcbp7n2jb7rkb";
+        url = "https://elpa.gnu.org/packages/ellama-1.12.17.tar";
+        sha256 = "075jh86aljpbcnmwr19alkc0c4gq146vxslf5wg0hpsrsdb5b652";
       };
       packageRequires = [
         compat
@@ -6440,10 +6440,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.39";
+      version = "9.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.39.tar";
-        sha256 = "1yg50h84sqd2wfpcyxkwyvrvr30cqdqdvcl6kcsja22si19yjbxw";
+        url = "https://elpa.gnu.org/packages/org-9.8.tar";
+        sha256 = "1xfv6jk8gx0jv809cgpag5hcmw6n9gic2rxchb62qcnjiz4sl0q4";
       };
       packageRequires = [ ];
       meta = {
