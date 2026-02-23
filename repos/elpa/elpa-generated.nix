@@ -2923,10 +2923,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.7.2";
+      version = "2.7.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/el-job-2.7.2.tar";
-        sha256 = "0l8pq8k0q187mzxmqaxqzr1zr5s7d526ihjmr2y4pc9wc1vp92qd";
+        url = "https://elpa.gnu.org/packages/el-job-2.7.3.tar";
+        sha256 = "0fvamj342grhv9b1fl0p1n831sj5jvia4sd4n17i80z20yjydn8l";
       };
       packageRequires = [ ];
       meta = {
@@ -5628,10 +5628,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.1.0";
+      version = "8.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/matlab-mode-8.1.0.tar";
-        sha256 = "1jx2ysch7rbmjzp96axskca6lwvz7n5rrh69qmhw3a6b68xrkm9k";
+        url = "https://elpa.gnu.org/packages/matlab-mode-8.1.1.tar";
+        sha256 = "0d0zq1fhx8dn0j2b4b62zpa2y301y2gg79msrybj4bm42hsqfx8x";
       };
       packageRequires = [ ];
       meta = {
@@ -6511,10 +6511,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.1.2";
+      version = "0.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-gnosis-0.1.2.tar";
-        sha256 = "1k3ni9l52qp3p002acrx07298bhrx31npb0czrmhvdnm47i0lg90";
+        url = "https://elpa.gnu.org/packages/org-gnosis-0.2.0.tar";
+        sha256 = "1837fv77q2qigckxjjzvhy9fg2ibc809l6pq87rb9ylyk9d0bd13";
       };
       packageRequires = [
         compat

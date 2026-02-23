@@ -2986,10 +2986,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.7.2.0.20260219.63616";
+      version = "2.7.3.0.20260222.100909";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.7.2.0.20260219.63616.tar";
-        sha256 = "03dawrld2xsnlm4k2lp7f7gkakpn2ndyqilh6pdv1q04scd4bkyv";
+        url = "https://elpa.gnu.org/devel/el-job-2.7.3.0.20260222.100909.tar";
+        sha256 = "0cqx9grvdij7xrj3xs6f62h548sc36k61p53gia8sd910v5mqks1";
       };
       packageRequires = [ ];
       meta = {
@@ -5712,10 +5712,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.1.0.0.20260219.101835";
+      version = "8.1.1.0.20260222.105350";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.1.0.0.20260219.101835.tar";
-        sha256 = "1gfywb782c5p03adpxr9pyv1hqqj0km0qbcmciliic8j16iwn0r2";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.1.1.0.20260222.105350.tar";
+        sha256 = "02s5z9s9lcji039cjhk5iacq9bica9widr4wlcdhk0v4n9zz036p";
       };
       packageRequires = [ ];
       meta = {
@@ -6548,10 +6548,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260222.83911";
+      version = "10.0pre0.20260222.140542";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260222.83911.tar";
-        sha256 = "132dyqrbcn83ayp2px0n43n41cy12i95c4b1iplvhh06cykhzbwl";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260222.140542.tar";
+        sha256 = "197wfcpv191vyfvzahqwn8bjb3gasd4yzcg2psj243fhsmbycwnp";
       };
       packageRequires = [ ];
       meta = {
@@ -6619,10 +6619,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.1.2.0.20260219.82232";
+      version = "0.2.0.0.20260222.102442";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-gnosis-0.1.2.0.20260219.82232.tar";
-        sha256 = "1853dlcb8pss81wjss58wm0z85f1fwz50ryhcs7c3mzi7im8qjpw";
+        url = "https://elpa.gnu.org/devel/org-gnosis-0.2.0.0.20260222.102442.tar";
+        sha256 = "1xf7ddg8jdhzbiw99dy7dlrx99na0pyw22ss7wfrk3m7zd7a5jfc";
       };
       packageRequires = [
         compat
@@ -10820,10 +10820,10 @@
     elpaBuild {
       pname = "xref-union";
       ename = "xref-union";
-      version = "0.2.0.0.20260220.162809";
+      version = "0.2.0.0.20260222.131318";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-union-0.2.0.0.20260220.162809.tar";
-        sha256 = "1ykzhijzfpqqhk9mb0j2askv5qncyain5kc2938s5rvq35qizp80";
+        url = "https://elpa.gnu.org/devel/xref-union-0.2.0.0.20260222.131318.tar";
+        sha256 = "143kmlnmpgkv52a7yya0sy4r51vi838fvcjwjiczczydwxam59iz";
       };
       packageRequires = [ ];
       meta = {
