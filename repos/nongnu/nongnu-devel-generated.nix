@@ -1438,10 +1438,10 @@
     elpaBuild {
       pname = "evil-emacs-cursor-model-mode";
       ename = "evil-emacs-cursor-model-mode";
-      version = "0.1.3.0.20260216.214825";
+      version = "0.1.3.0.20260225.15950";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-emacs-cursor-model-mode-0.1.3.0.20260216.214825.tar";
-        sha256 = "1hkjmfb2g8zg37inl3qr6yyky9rj6jxdi1w8w1km50msmdh1p35g";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-emacs-cursor-model-mode-0.1.3.0.20260225.15950.tar";
+        sha256 = "0xx8vzkmggvvhanxq9xyrsrqiby0054agwpjmflqgvkvyrfvxzyc";
       };
       packageRequires = [ evil ];
       meta = {
@@ -1890,10 +1890,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "36.0.0.20260223.175409";
+      version = "36.0.0.20260224.192350";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-36.0.0.20260223.175409.tar";
-        sha256 = "0qazqskvsl229c20zqb3gddlav4wfyql7dqj8fxpbd0ml86lda10";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-36.0.0.20260224.192350.tar";
+        sha256 = "1lcly3ip5n788q0a64yzd0gnlndxnqqg7dbwf0ypq04zjnakwr3x";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3110,10 +3110,10 @@
     elpaBuild {
       pname = "isl";
       ename = "isl";
-      version = "1.6.0.20260224.71915";
+      version = "1.6.0.20260225.43822";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.6.0.20260224.71915.tar";
-        sha256 = "0wsiasgy1jnp21jpxlyjyx4sa9467aca0v5xqc7ci21w1iaadavz";
+        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.6.0.20260225.43822.tar";
+        sha256 = "05fq6l8c8w4bkfkh2cmmmdnjwa6hmfpv00avkp6r5fz4v9fnkvwq";
       };
       packageRequires = [ ];
       meta = {
