@@ -1831,10 +1831,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.30";
+      version = "0.31";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fj-0.30.tar";
-        sha256 = "016zrri2ffj52slv2m4a2fcwv37h4sncfp7whzbkc4kwqpsryn58";
+        url = "https://elpa.nongnu.org/nongnu/fj-0.31.tar";
+        sha256 = "1q5y9lkrcjng6zahbbgghn9isw6zcsfzg88vmmc8zg5y0lb9k44h";
       };
       packageRequires = [
         fedi
@@ -2407,10 +2407,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.6.0";
+      version = "0.7.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gnosis-0.6.0.tar";
-        sha256 = "1vr3183k4vx9nl89skwmdbryg2wyi1d9fa4i4c23lkyhib9iaf3s";
+        url = "https://elpa.nongnu.org/nongnu/gnosis-0.7.0.tar";
+        sha256 = "0r8mblfdqzjbvcis1387yvgrcg2b47zld179dax9n4smbzvzc3gb";
       };
       packageRequires = [
         compat
