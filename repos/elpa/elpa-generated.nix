@@ -3972,6 +3972,36 @@
       };
     }
   ) { };
+  gnosis = callPackage (
+    {
+      compat,
+      elpaBuild,
+      emacsql,
+      fetchurl,
+      lib,
+      org-gnosis,
+      transient,
+    }:
+    elpaBuild {
+      pname = "gnosis";
+      ename = "gnosis";
+      version = "0.7.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/gnosis-0.7.0.tar";
+        sha256 = "1l0dkwjgzh9by5hn6kfhcmjbbxyvdhfadwn104iny9ikgr9qsfih";
+      };
+      packageRequires = [
+        compat
+        emacsql
+        org-gnosis
+        transient
+      ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/gnosis.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   gnu-elpa = callPackage (
     {
       elpaBuild,
@@ -6511,10 +6541,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.2.1";
+      version = "0.2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-gnosis-0.2.1.tar";
-        sha256 = "06g752bw071y7fqyn8qkddjs3lsl9c1ajl9zj4sbyvvb34rpz8jn";
+        url = "https://elpa.gnu.org/packages/org-gnosis-0.2.2.tar";
+        sha256 = "1cdksxwq7wswmgdjdi3akdiljryxk3vw4yqfpjl1a2xzjqmvjxq7";
       };
       packageRequires = [
         compat

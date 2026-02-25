@@ -2185,10 +2185,10 @@
     elpaBuild {
       pname = "denote-review";
       ename = "denote-review";
-      version = "1.0.5.0.20260204.102753";
+      version = "1.0.5.0.20260224.153338";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-review-1.0.5.0.20260204.102753.tar";
-        sha256 = "1l2yrqybcsld05ka1inzg2m8wkz2hcxraydzp3dsrdi2s85xqhgy";
+        url = "https://elpa.gnu.org/devel/denote-review-1.0.5.0.20260224.153338.tar";
+        sha256 = "0jvsahaih68yx3n9gwbvxmqw7p7dpjk6cmnxnji9qnybh9yvqy20";
       };
       packageRequires = [ denote ];
       meta = {
@@ -3170,6 +3170,27 @@
       };
     }
   ) { };
+  emacs-lisp-intro-es = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "emacs-lisp-intro-es";
+      ename = "emacs-lisp-intro-es";
+      version = "0.0.20260217.163329";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-es-0.0.20260217.163329.tar";
+        sha256 = "18zjh5b1z929lsb6nfya817ni32avm45qc1cmn9q3caz07ry0ayz";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/emacs-lisp-intro-es.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   emacs-lisp-intro-nl = callPackage (
     {
       elpaBuild,
@@ -4054,6 +4075,36 @@
       packageRequires = [ cl-lib ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/gnorb.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  gnosis = callPackage (
+    {
+      compat,
+      elpaBuild,
+      emacsql,
+      fetchurl,
+      lib,
+      org-gnosis,
+      transient,
+    }:
+    elpaBuild {
+      pname = "gnosis";
+      ename = "gnosis";
+      version = "0.7.0.0.20260224.120212";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/gnosis-0.7.0.0.20260224.120212.tar";
+        sha256 = "1dwybdq0099364xz7np812xyqzl0vh0xmic76sihaznbpf3ip3qx";
+      };
+      packageRequires = [
+        compat
+        emacsql
+        org-gnosis
+        transient
+      ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/gnosis.html";
         license = lib.licenses.free;
       };
     }
@@ -5712,10 +5763,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.1.1.0.20260223.151811";
+      version = "8.1.1.0.20260224.73923";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.1.1.0.20260223.151811.tar";
-        sha256 = "0jkgf2292s9z2011jwv67xkk3p70ciigd82irdz2149wljgrnyaj";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.1.1.0.20260224.73923.tar";
+        sha256 = "0q1lfanrdqbx7h3kcb2ldz0ffzm87jx2ymghj6kzy03y8p9k7fqc";
       };
       packageRequires = [ ];
       meta = {
@@ -6619,10 +6670,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.2.1.0.20260223.80638";
+      version = "0.2.2.0.20260224.203152";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-gnosis-0.2.1.0.20260223.80638.tar";
-        sha256 = "1gmmaasb5b00fjzihdd1s8yd24qkgl53q7f9za10ya4whpa33c6w";
+        url = "https://elpa.gnu.org/devel/org-gnosis-0.2.2.0.20260224.203152.tar";
+        sha256 = "1ls3wnd4brn3aadafyfn4m4lkav5v5sm77irlijnm90rg2jdk7xc";
       };
       packageRequires = [
         compat
@@ -9675,10 +9726,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.12.0.0.20260208.223742";
+      version = "0.12.0.0.20260223.94608";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260208.223742.tar";
-        sha256 = "01ncj55wisajrhmvv16x8h2pf5716i05n425y7f0krcalz7mc2xw";
+        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260223.94608.tar";
+        sha256 = "1vyr3k30jdw18ban3qhr30k36gq9xxh1ycnahivm0i8wwvav9kzy";
       };
       packageRequires = [
         compat
