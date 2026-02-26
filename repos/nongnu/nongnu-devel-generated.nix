@@ -1815,10 +1815,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.31.0.20260224.91809";
+      version = "0.32.0.20260225.163009";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.31.0.20260224.91809.tar";
-        sha256 = "1ym19hxlpzpfjriylwbvs7h7graiimgmc4zj6lqp7rgjbhwmmkfc";
+        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.32.0.20260225.163009.tar";
+        sha256 = "0vjqihc0bj0zizl3mjzsrvj09pzkv6lpp83157ppb6vfirs1vv4g";
       };
       packageRequires = [
         fedi
@@ -5692,10 +5692,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.3snapshot0.20260221.221140";
+      version = "8.3.3snapshot0.20260225.71602";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260221.221140.tar";
-        sha256 = "1qkqi0kf97vq86gq928a5yv5j9rz3lkc6dsxk7z65qdaz24x22sd";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260225.71602.tar";
+        sha256 = "1w6p8cygsvwzzci2fjjy4rysb6n888frsa1ay99p66x8kq5s7n50";
       };
       packageRequires = [ vcard ];
       meta = {
