@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260219.153633";
+      version = "14.1.2.0.20260225.63820";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260219.153633.tar";
-        sha256 = "1cd3av3rbjqa25fs6zgxp9nqwj1q67fgigm7qypx38apwc58zmy2";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260225.63820.tar";
+        sha256 = "1r9abvfdm2fl44q8b35gs6mqqlhd890sxj78hjgn2wk51awiscz8";
       };
       packageRequires = [ ];
       meta = {
@@ -2163,10 +2163,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.2.1.0.20260111.181548";
+      version = "0.2.1.0.20260225.185542";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-org-0.2.1.0.20260111.181548.tar";
-        sha256 = "0gk0vr82snjl4n7glx2j7xskwqqrd84r1ifijcpnsj9pl9l114bm";
+        url = "https://elpa.gnu.org/devel/denote-org-0.2.1.0.20260225.185542.tar";
+        sha256 = "0rmfqqhhzkym3ipbcw8f8vxf2xmpkyymqgsykhmhy5pi1xdj2ygr";
       };
       packageRequires = [ denote ];
       meta = {
@@ -3179,10 +3179,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-es";
       ename = "emacs-lisp-intro-es";
-      version = "0.0.20260217.163329";
+      version = "0.0.20260225.113240";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-es-0.0.20260217.163329.tar";
-        sha256 = "18zjh5b1z929lsb6nfya817ni32avm45qc1cmn9q3caz07ry0ayz";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-es-0.0.20260225.113240.tar";
+        sha256 = "04v0r8k4gns2h1y831a8ixgnb4kbg9di79fyfnrci9sg8p4hg3qm";
       };
       packageRequires = [ ];
       meta = {
@@ -7409,10 +7409,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.1.0.20260127.5158";
+      version = "1.5.1.0.20260225.11225";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.5.1.0.20260127.5158.tar";
-        sha256 = "17rxfbxwf89psi36fqfcwazk63pbrrv7xpg84d5hk6l8cvb7rhpn";
+        url = "https://elpa.gnu.org/devel/posframe-1.5.1.0.20260225.11225.tar";
+        sha256 = "0nzyjcmawrk1zkv3dqk8pi72lz9wc99sm15ypx9375qf8gnlhv1m";
       };
       packageRequires = [ ];
       meta = {
@@ -7580,10 +7580,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.3.2.0.20260218.80724";
+      version = "1.3.3.0.20260225.144631";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.3.2.0.20260218.80724.tar";
-        sha256 = "11f0c0qqzjqp92y1jwzckz25dv2ny04dm0rljg5kr4b9zs6y7sq9";
+        url = "https://elpa.gnu.org/devel/pulsar-1.3.3.0.20260225.144631.tar";
+        sha256 = "0h1ihyb1aiyb3zr0i2hn9l7xbg50kxgq463l9z8sjl8v9pr434si";
       };
       packageRequires = [ ];
       meta = {

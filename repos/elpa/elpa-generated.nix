@@ -7409,10 +7409,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.3.2";
+      version = "1.3.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/pulsar-1.3.2.tar";
-        sha256 = "0vy7caf720hcm6mhzyf25k7m6a0rbzsvm6xgx8325gr3hvl16bna";
+        url = "https://elpa.gnu.org/packages/pulsar-1.3.3.tar";
+        sha256 = "0bll39mfa7nivb7nfgcffl1p3yh5jr0b6cm5wggxnniixzfq1p81";
       };
       packageRequires = [ ];
       meta = {
