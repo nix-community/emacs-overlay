@@ -1595,10 +1595,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.5.0.0.20250219.74017";
+      version = "0.6.0.0.20260226.73407";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-hoogle-0.5.0.0.20250219.74017.tar";
-        sha256 = "0k0xqnwg75cm284niyfmcnmdx3qbnslr1ssz5hz0yca99bz8sypx";
+        url = "https://elpa.gnu.org/devel/consult-hoogle-0.6.0.0.20260226.73407.tar";
+        sha256 = "1yndkjzbydlyxzgl2zfk5m9w3hh8aq5dk1myjc0xkwczfwbw1gjm";
       };
       packageRequires = [ consult ];
       meta = {
@@ -2387,10 +2387,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20260223.155319";
+      version = "1.10.0.0.20260225.224737";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260223.155319.tar";
-        sha256 = "0akrxgakxpvdvdrmfsfsgf8jmww7i2yn406bavv5qdi2ly915mmv";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260225.224737.tar";
+        sha256 = "18ify2s3r9m7qvh51mdnzmvw3zw3i00j88viaxpgm1fm1qhyw560";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -3179,10 +3179,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-es";
       ename = "emacs-lisp-intro-es";
-      version = "0.0.20260225.113240";
+      version = "0.0.20260225.190101";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-es-0.0.20260225.113240.tar";
-        sha256 = "04v0r8k4gns2h1y831a8ixgnb4kbg9di79fyfnrci9sg8p4hg3qm";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-es-0.0.20260225.190101.tar";
+        sha256 = "1gf7hbl0llz2rj1vdxsx0x3f6iwhwsmap38jgrsp45n4kpbnizkh";
       };
       packageRequires = [ ];
       meta = {
@@ -3200,10 +3200,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260221.202025";
+      version = "0.0.20260226.90835";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260221.202025.tar";
-        sha256 = "1jz2pyldl1fw6y3q6s0fxb9ijlfi5032ak9003fi1rjff22zldzr";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260226.90835.tar";
+        sha256 = "0gl466j54zqqrx0lw0z8wi4id41bhx4jl7may1v143nry4wv3n3s";
       };
       packageRequires = [ ];
       meta = {
@@ -5417,10 +5417,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.29.0.0.20260221.195402";
+      version = "0.29.0.0.20260226.1017";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.29.0.0.20260221.195402.tar";
-        sha256 = "0jpjxmckc6cp56i44yx3f91k1bp30sibmpqns5n4fdi31z0jq0nz";
+        url = "https://elpa.gnu.org/devel/llm-0.29.0.0.20260226.1017.tar";
+        sha256 = "01a9nv8lpsinkcfxb3cw1z2kxciwvc3kspxi2agn9sbb135ypdsi";
       };
       packageRequires = [
         compat
@@ -9726,10 +9726,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.12.0.0.20260223.94608";
+      version = "0.12.0.0.20260226.174800";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260223.94608.tar";
-        sha256 = "1vyr3k30jdw18ban3qhr30k36gq9xxh1ycnahivm0i8wwvav9kzy";
+        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260226.174800.tar";
+        sha256 = "01p4rvbbyz8dkngaqv7p4xcz6gc8z5wk5ns3al2sv3w1b8rkhhx9";
       };
       packageRequires = [
         compat
