@@ -1890,10 +1890,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "36.0.0.20260226.75915";
+      version = "36.0.0.20260226.91805";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-36.0.0.20260226.75915.tar";
-        sha256 = "0sf963783ccnnc423q0m0vbci5bh4sw47vz0zd5r7a0crxm4d224";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-36.0.0.20260226.91805.tar";
+        sha256 = "1kjnb9a7v1hxwwfacnx5hm0x2q2i2sxh5s63qyknicmrh48nxxay";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3241,10 +3241,10 @@
     elpaBuild {
       pname = "julia-mode";
       ename = "julia-mode";
-      version = "1.1.0.0.20260204.80729";
+      version = "1.1.0.0.20260226.104209";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.1.0.0.20260204.80729.tar";
-        sha256 = "1xx4vc8j2s0d3l6jby164kwwm90pxk3igd9xcbxblgdqspd5g5cw";
+        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.1.0.0.20260226.104209.tar";
+        sha256 = "0ks6a1h9mfcc5fjjs6dwg0gv4w5l56kifxl59gpxfn3ahca3y2z0";
       };
       packageRequires = [ ];
       meta = {
@@ -3512,10 +3512,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260221.163408";
+      version = "4.5.0.0.20260226.180821";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260221.163408.tar";
-        sha256 = "0w75prlzii0adc9ha3dia8g1x35nhg1g8v0mi34alclbimwmnxyg";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260226.180821.tar";
+        sha256 = "05yri8gld75r11yvgciklqify8wl704afywwq2r6n12ci023yggn";
       };
       packageRequires = [
         compat
@@ -3545,10 +3545,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260221.163408";
+      version = "4.5.0.0.20260226.180821";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260221.163408.tar";
-        sha256 = "108l2sgfximlcmp8m70qpmgzqhhj7njc2rz2dvw34ll88n6wpf57";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260226.180821.tar";
+        sha256 = "0zvlwlfrw7cs7s2vvgh40bl1l18xwmm17ddgf9x48rk8gh0qmwcy";
       };
       packageRequires = [
         compat
@@ -4943,10 +4943,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260224.183432";
+      version = "2.32snapshot0.20260226.142300";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260224.183432.tar";
-        sha256 = "1vad3zbjskfaypisby9fj2sy02ifva2bjsfy9ix0rw0mpq8ggnpb";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260226.142300.tar";
+        sha256 = "0fl3jsqp1ah2z2fkxv8cqnaz5f6zx7n6665v72k6skpzsqqhv8d4";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -5459,10 +5459,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20260117.211549";
+      version = "0.2.1.0.20260226.70748";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20260117.211549.tar";
-        sha256 = "1zznirq9lvrhqhm3xc6sf0ap157dl16ybcncighl6p641zb292b5";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20260226.70748.tar";
+        sha256 = "017af28xvnkqzqwxzcwiw4hsvmfwvbn1np5gqc54fybrpa9lkkzs";
       };
       packageRequires = [ ];
       meta = {
@@ -5824,10 +5824,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.8.0.20260104.4109";
+      version = "3.4.8.0.20260226.173122";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.8.0.20260104.4109.tar";
-        sha256 = "1688qk4i4r131w0m2iss3p9yjlqs2a5r2nw9kfw7ziypqkmc6pp5";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.8.0.20260226.173122.tar";
+        sha256 = "1c2w4dhcn5nra7fl715lkrhjngva829wpc3i32vvj221p712vln8";
       };
       packageRequires = [ compat ];
       meta = {
