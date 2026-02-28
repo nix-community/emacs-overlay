@@ -2986,10 +2986,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.7.3.0.20260222.100909";
+      version = "2.7.3.0.20260228.73358";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.7.3.0.20260222.100909.tar";
-        sha256 = "0cqx9grvdij7xrj3xs6f62h548sc36k61p53gia8sd910v5mqks1";
+        url = "https://elpa.gnu.org/devel/el-job-2.7.3.0.20260228.73358.tar";
+        sha256 = "0iizqlg1jfz9pyy4j9zafwzhqi6l7kfvirbaa6jp2g7igjf72fly";
       };
       packageRequires = [ ];
       meta = {
@@ -4567,10 +4567,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260226.220603";
+      version = "9.0.2pre0.20260227.180805";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260226.220603.tar";
-        sha256 = "0fh48sszqxi3ppbih5kmcwd34w8i3m3f7zbqc7lsgfa7dk1xkk9d";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260227.180805.tar";
+        sha256 = "1sjvkk99nvq196qamj24hc0wy00rxc5v1ivbhfv4cmck25qfb33m";
       };
       packageRequires = [ ];
       meta = {
@@ -7580,10 +7580,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.3.3.0.20260225.144631";
+      version = "1.3.4.0.20260228.81404";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.3.3.0.20260225.144631.tar";
-        sha256 = "0h1ihyb1aiyb3zr0i2hn9l7xbg50kxgq463l9z8sjl8v9pr434si";
+        url = "https://elpa.gnu.org/devel/pulsar-1.3.4.0.20260228.81404.tar";
+        sha256 = "10s74i456hwxcr909x1ckaaqxfhkpzprv8c7x5ggy1gia4gi8lfg";
       };
       packageRequires = [ ];
       meta = {
