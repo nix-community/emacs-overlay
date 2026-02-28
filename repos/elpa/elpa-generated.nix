@@ -3788,10 +3788,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.0";
+      version = "1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/futur-1.0.tar";
-        sha256 = "1pi7r87lddhf6fnvj78had1s9rpzfddcsw0ws8gc6czwly3n8vxg";
+        url = "https://elpa.gnu.org/packages/futur-1.1.tar";
+        sha256 = "1q72dd6hnq3d5si9jr15nhqf5j6zk2k3c6dd3xv3k80cbfvwj9rx";
       };
       packageRequires = [ ];
       meta = {
@@ -9360,10 +9360,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.1.1";
+      version = "2.8.1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.8.1.1.tar";
-        sha256 = "177297mj3qyj23s6g4x8c960vvbsbzkqy6xzfngi3ghsj55injk4";
+        url = "https://elpa.gnu.org/packages/tramp-2.8.1.2.tar";
+        sha256 = "0ygfv99b7y74a8crnld044bb47iai95dn3hzzpzhyx83icw5k0cl";
       };
       packageRequires = [ ];
       meta = {
