@@ -2568,10 +2568,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260227.90417";
+      version = "0.9.9.4.0.20260228.34839";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260227.90417.tar";
-        sha256 = "0pbj7rpirk5bc8f2y59rk0m5im9496633qq5g6lsfb5nc4z20ifk";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260228.34839.tar";
+        sha256 = "1mv3m0gbsxialiyxvn7yabvc0hdgb897v76xp667zs0sv5x6w9rz";
       };
       packageRequires = [
         compat
@@ -3594,10 +3594,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.8.0.20251201.155309";
+      version = "2.0.10.0.20260228.203000";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.8.0.20251201.155309.tar";
-        sha256 = "1zj5nmrxn99pp19fcxh1klph5xqp2g3x7xlybqg6dkl95id97qk2";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.10.0.20260228.203000.tar";
+        sha256 = "0hcpc5w56aq5awvdaswjijr11b88d15lhqhsq9a4j3n2mnbl3jfg";
       };
       packageRequires = [
         persist
