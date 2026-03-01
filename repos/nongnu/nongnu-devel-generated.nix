@@ -3571,10 +3571,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.8alpha0.20260226.60934";
+      version = "2.8alpha0.20260301.14447";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20260226.60934.tar";
-        sha256 = "1wx7fc3q0s4gvvnxlfqj6cgv4ypxhp7y5q4cnd0gdhxfr4rzwl3f";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20260301.14447.tar";
+        sha256 = "1n2h348s6gkwy0blcai8jy5k92cia3hsyb3j9qk2075dy5p2flp4";
       };
       packageRequires = [ ];
       meta = {
