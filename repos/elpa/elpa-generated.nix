@@ -6578,6 +6578,34 @@
       };
     }
   ) { };
+  org-mem = callPackage (
+    {
+      el-job,
+      elpaBuild,
+      fetchurl,
+      lib,
+      llama,
+      truename-cache,
+    }:
+    elpaBuild {
+      pname = "org-mem";
+      ename = "org-mem";
+      version = "0.32.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/org-mem-0.32.1.tar";
+        sha256 = "1byv5hkkfzwkavlpmrfjwhafrkkmv93xzl2dnp1qjdas6dcflchr";
+      };
+      packageRequires = [
+        el-job
+        llama
+        truename-cache
+      ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/org-mem.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   org-modern = callPackage (
     {
       compat,
@@ -9572,6 +9600,28 @@
       packageRequires = [ seq ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/triples.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  truename-cache = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "truename-cache";
+      ename = "truename-cache";
+      version = "0.3.5";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/truename-cache-0.3.5.tar";
+        sha256 = "1rpfkjgajk8pq989bxa59npkgh41mvj6dswk827h7c4z02li8y7k";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/truename-cache.html";
         license = lib.licenses.free;
       };
     }
