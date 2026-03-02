@@ -556,6 +556,32 @@
       };
     }
   ) { };
+  casual = callPackage (
+    {
+      csv-mode,
+      elpaBuild,
+      fetchurl,
+      lib,
+      transient,
+    }:
+    elpaBuild {
+      pname = "casual";
+      ename = "casual";
+      version = "2.14.2.0.20260223.153843";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/casual-2.14.2.0.20260223.153843.tar";
+        sha256 = "0chqp6j6s1zq7zzg7xlwaljc8b0097wf7pxvrcmfs5yxdl06mp6f";
+      };
+      packageRequires = [
+        csv-mode
+        transient
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/casual.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   cdlatex = callPackage (
     {
       elpaBuild,
@@ -1815,10 +1841,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.32.0.20260225.163009";
+      version = "0.33.0.20260301.133126";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.32.0.20260225.163009.tar";
-        sha256 = "0vjqihc0bj0zizl3mjzsrvj09pzkv6lpp83157ppb6vfirs1vv4g";
+        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.33.0.20260301.133126.tar";
+        sha256 = "129d8bzwbavv7xqjbzqlw2ah4kprfjvx194kwqnl91vmn6p9m4vy";
       };
       packageRequires = [
         fedi
@@ -3332,10 +3358,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "1.0.3.0.20260217.210434";
+      version = "1.0.4.0.20260301.125328";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/llama-1.0.3.0.20260217.210434.tar";
-        sha256 = "072q29wxq1jnhbiva7sw4kxi2j5rsbpp1zsyii9phk28h6hwb2h4";
+        url = "https://elpa.nongnu.org/nongnu-devel/llama-1.0.4.0.20260301.125328.tar";
+        sha256 = "04g5qakdxc4dfarkiv4d4jmfw609hbfxad1582aykfrzqngma2sd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3594,10 +3620,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.10.0.20260228.203000";
+      version = "2.0.11.0.20260301.91650";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.10.0.20260228.203000.tar";
-        sha256 = "0hcpc5w56aq5awvdaswjijr11b88d15lhqhsq9a4j3n2mnbl3jfg";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.11.0.20260301.91650.tar";
+        sha256 = "08i0jhn0mjw6cnb4b0h5hajnh00vzwa0gp3hj0kfqb9gyhmi67j6";
       };
       packageRequires = [
         persist
@@ -4138,10 +4164,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.1.1.0.20260201.145846";
+      version = "2.1.2.0.20260301.125552";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.1.1.0.20260201.145846.tar";
-        sha256 = "0wgvhkfq0x876pw2lad9bq5xh5mla604wzvrh3l4zklqif18y7m4";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.1.2.0.20260301.125552.tar";
+        sha256 = "1yy549phcdkm6sn70bb92lm1yrfc1k1d716kcblmrl6p2vd450l7";
       };
       packageRequires = [
         compat
@@ -5824,10 +5850,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.8.0.20260226.173122";
+      version = "3.4.9.0.20260301.131715";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.8.0.20260226.173122.tar";
-        sha256 = "1c2w4dhcn5nra7fl715lkrhjngva829wpc3i32vvj221p712vln8";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.9.0.20260301.131715.tar";
+        sha256 = "1cf3xgaqbczsd77h5psdk6q5407nrmkzj9s5zf77g7zs0xwdi317";
       };
       packageRequires = [ compat ];
       meta = {
