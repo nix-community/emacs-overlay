@@ -4969,10 +4969,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260226.142300";
+      version = "2.32snapshot0.20260302.60447";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260226.142300.tar";
-        sha256 = "0fl3jsqp1ah2z2fkxv8cqnaz5f6zx7n6665v72k6skpzsqqhv8d4";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260302.60447.tar";
+        sha256 = "0iy6lh17p94bx3hjckbii4kmws53kjwziawkjsg25d8981ymh2m4";
       };
       packageRequires = [ macrostep ];
       meta = {
