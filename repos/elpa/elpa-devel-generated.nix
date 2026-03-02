@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260225.63820";
+      version = "14.1.2.0.20260302.53032";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260225.63820.tar";
-        sha256 = "1r9abvfdm2fl44q8b35gs6mqqlhd890sxj78hjgn2wk51awiscz8";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260302.53032.tar";
+        sha256 = "05h7rs3z85wi2aav3rylll86rmv8y3r7a15wcna28x25w6y4qlsv";
       };
       packageRequires = [ ];
       meta = {
@@ -4567,10 +4567,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260301.123014";
+      version = "9.0.2pre0.20260301.164821";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260301.123014.tar";
-        sha256 = "0x30a8hn0ywyndd541fzjclsvsqqj5shpfkvs29j6gvr0m6f8f8q";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260301.164821.tar";
+        sha256 = "1dq3qh1fxb34lvfs4191qp3v1rs7ls9fapy2jmv1xn22hmsvacxn";
       };
       packageRequires = [ ];
       meta = {
@@ -5226,10 +5226,10 @@
     elpaBuild {
       pname = "leaf";
       ename = "leaf";
-      version = "4.5.5.0.20241018.51628";
+      version = "4.5.5.0.20260302.65208";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/leaf-4.5.5.0.20241018.51628.tar";
-        sha256 = "1d2y0qhy9qz0wahclwnskf5kdqhr51iljnrki7jmkzxfya3r1dwa";
+        url = "https://elpa.gnu.org/devel/leaf-4.5.5.0.20260302.65208.tar";
+        sha256 = "0j2m24vhgn11w3cg8f3nsmvlgb0sfk6524xgfavqrhw528si1hj7";
       };
       packageRequires = [ ];
       meta = {
@@ -5763,10 +5763,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.1.1.0.20260228.124833";
+      version = "8.1.1.0.20260301.212548";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.1.1.0.20260228.124833.tar";
-        sha256 = "00jaq13rgj73zkjcsilbyi7xhcnldqbzggb1r01ahvl2ligdrzzj";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.1.1.0.20260301.212548.tar";
+        sha256 = "12p2wpqmp54yfda8q2pqq87d0lpnnxpl4if7ar57bqj33lxz1m6j";
       };
       packageRequires = [ ];
       meta = {
@@ -6719,10 +6719,10 @@
     elpaBuild {
       pname = "org-mem";
       ename = "org-mem";
-      version = "0.32.1.0.20260228.192902";
+      version = "0.33.0.0.20260301.235324";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-mem-0.32.1.0.20260228.192902.tar";
-        sha256 = "0lixvg9pqf4x4pcmidx2wnbcm383cgkq02jyznv934bhzms6i9m6";
+        url = "https://elpa.gnu.org/devel/org-mem-0.33.0.0.20260301.235324.tar";
+        sha256 = "18baa6c2icn73gcc5bilfn266hgn8b1a2w4a8r2wlz18j7y07crg";
       };
       packageRequires = [
         el-job
@@ -7416,10 +7416,10 @@
     elpaBuild {
       pname = "popper";
       ename = "popper";
-      version = "0.4.8.0.20250323.144723";
+      version = "0.4.8.0.20260301.162208";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/popper-0.4.8.0.20250323.144723.tar";
-        sha256 = "0hfl4krm53blsm9bvki4gf1as43f8i7rszcjivbsiz1r4h99j9v8";
+        url = "https://elpa.gnu.org/devel/popper-0.4.8.0.20260301.162208.tar";
+        sha256 = "01380z79d8gl9c1s14zjqcjwmclx7iimhi79vd9mqg2cjn7qn1rc";
       };
       packageRequires = [ ];
       meta = {
@@ -7437,10 +7437,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.1.0.20260225.11225";
+      version = "1.5.1.0.20260302.25154";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.5.1.0.20260225.11225.tar";
-        sha256 = "0nzyjcmawrk1zkv3dqk8pi72lz9wc99sm15ypx9375qf8gnlhv1m";
+        url = "https://elpa.gnu.org/devel/posframe-1.5.1.0.20260302.25154.tar";
+        sha256 = "0wy3gk16sbx48aw6a9p3w648lcwgcm9lgvp4drgg1ik2r034lbq6";
       };
       packageRequires = [ ];
       meta = {
@@ -10201,10 +10201,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.5.0.20260214.163529";
+      version = "0.5.0.20260217.3734";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20260214.163529.tar";
-        sha256 = "1v5dv8ck76l76z0bjm92p8g4vxxi19rxlci934r4qmcgfb06bx0p";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20260217.3734.tar";
+        sha256 = "0l4ba7k9arj9qg9f21h6apacgr6jqh79zr2n2l3d2935lg0g6hsj";
       };
       packageRequires = [ compat ];
       meta = {
