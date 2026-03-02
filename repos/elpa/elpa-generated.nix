@@ -2144,10 +2144,10 @@
     elpaBuild {
       pname = "denote-review";
       ename = "denote-review";
-      version = "1.0.5";
+      version = "1.0.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-review-1.0.5.tar";
-        sha256 = "0ss3mkir4x3k6f9fsg2z8w87dm2ny6a8yj4lf2hqkb1fsp9cl5wb";
+        url = "https://elpa.gnu.org/packages/denote-review-1.0.6.tar";
+        sha256 = "1n126x1xjz4fhzbq269nwbpb0xv6pphc77z4arqjkglxcdcpiwkk";
       };
       packageRequires = [ denote ];
       meta = {
