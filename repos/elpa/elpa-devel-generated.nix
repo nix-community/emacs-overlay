@@ -3179,10 +3179,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-es";
       ename = "emacs-lisp-intro-es";
-      version = "0.0.20260228.133519";
+      version = "0.0.20260302.132932";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-es-0.0.20260228.133519.tar";
-        sha256 = "1v64sigx2jg32il00pb3k1jdkrsm15pa2vxyjivi8k94biv9dwpa";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-es-0.0.20260302.132932.tar";
+        sha256 = "0js3dksvmx062i3s78d6zkzwh7jl6prvb35asip44nq56dzqqlm2";
       };
       packageRequires = [ ];
       meta = {
@@ -3200,10 +3200,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260301.91421";
+      version = "0.0.20260302.163943";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260301.91421.tar";
-        sha256 = "1mjgcd9wncqwg652w3hxwa1gxa1aizxd7hjzw7cbhh3z9h39d56w";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260302.163943.tar";
+        sha256 = "0bqqi7az14fd30h0kfaz8h585v6717ybfcr65q0i1kq3jqw7y95a";
       };
       packageRequires = [ ];
       meta = {
@@ -3895,10 +3895,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.1.0.20260301.11942";
+      version = "1.1.0.20260302.162803";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.1.0.20260301.11942.tar";
-        sha256 = "07hzr7z2h4zlh21h77hkk3ynlhy69ndyzdyhg5z74kviy8k893if";
+        url = "https://elpa.gnu.org/devel/futur-1.1.0.20260302.162803.tar";
+        sha256 = "13y6bswzx1wqi7q3rmsqrb6k0fnl2drhadkb90pwhwall7wxgipg";
       };
       packageRequires = [ ];
       meta = {
@@ -7395,10 +7395,10 @@
     elpaBuild {
       pname = "polymode";
       ename = "polymode";
-      version = "0.2.2.0.20251217.132711";
+      version = "0.2.2.0.20260302.104336";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20251217.132711.tar";
-        sha256 = "1qarbpjgggslw7nygkjv85xzgsb0hwyn0lqy5c8y35062idwwnvy";
+        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20260302.104336.tar";
+        sha256 = "04jfj25kmh55jq7bm5dq02xp4kgfvpbgsngx825qpgfsl3lkq6yi";
       };
       packageRequires = [ ];
       meta = {
