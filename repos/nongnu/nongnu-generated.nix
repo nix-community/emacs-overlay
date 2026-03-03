@@ -567,10 +567,10 @@
     elpaBuild {
       pname = "casual";
       ename = "casual";
-      version = "2.14.2";
+      version = "2.14.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/casual-2.14.2.tar";
-        sha256 = "1x5hbjp53097b7r9xhxyp1nwc4gcnwgmd8bvz5a1g582z537sgvd";
+        url = "https://elpa.nongnu.org/nongnu/casual-2.14.3.tar";
+        sha256 = "07szxj1sczd62wmqjdspf6axzin3yjsgpssx2n9zc81cjn8j3iaw";
       };
       packageRequires = [
         csv-mode

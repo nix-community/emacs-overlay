@@ -567,10 +567,10 @@
     elpaBuild {
       pname = "casual";
       ename = "casual";
-      version = "2.14.2.0.20260223.153843";
+      version = "2.14.3.0.20260302.161131";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/casual-2.14.2.0.20260223.153843.tar";
-        sha256 = "0chqp6j6s1zq7zzg7xlwaljc8b0097wf7pxvrcmfs5yxdl06mp6f";
+        url = "https://elpa.nongnu.org/nongnu-devel/casual-2.14.3.0.20260302.161131.tar";
+        sha256 = "0ag0fa1yf2014lyp5hpc3c2yavg58h98x16ryrzjjf4sm7mz964c";
       };
       packageRequires = [
         csv-mode
@@ -650,10 +650,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.21.0.0.20260227.170103";
+      version = "5.21.0.0.20260302.212318";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.21.0.0.20260227.170103.tar";
-        sha256 = "0b5j16s3j6y02424cwbqn0nyzn623n1g76k88z3wyy091xy8hqsq";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.21.0.0.20260302.212318.tar";
+        sha256 = "0p59aqjj7jd99jylffx2dfd7zb5a9cfsih89bd41bw91pzi0qv8x";
       };
       packageRequires = [ ];
       meta = {
