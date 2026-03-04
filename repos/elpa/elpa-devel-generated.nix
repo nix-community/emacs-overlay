@@ -3895,10 +3895,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.1.0.20260303.145927";
+      version = "1.1.0.20260303.225026";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.1.0.20260303.145927.tar";
-        sha256 = "064r3djrf9nj43rvabj3rc5nfgq8ppf4ys67lv2w4jyb0d0l84m5";
+        url = "https://elpa.gnu.org/devel/futur-1.1.0.20260303.225026.tar";
+        sha256 = "1zc2swysc2rqr3hp5mkj0zxh4a6dm8ic3h4l6mnndw9hsjnn4qqp";
       };
       packageRequires = [ ];
       meta = {
@@ -4567,10 +4567,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260303.125052";
+      version = "9.0.2pre0.20260304.85232";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260303.125052.tar";
-        sha256 = "0gmm4ypgpy66h45sjqiy6qcqip6xdhznbz691cdnih1ab3m572r3";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260304.85232.tar";
+        sha256 = "0bczz0x2d216nspa2dyqnxj7dsipksxxjn5n6nxvkwzjrw2n5vbq";
       };
       packageRequires = [ ];
       meta = {
@@ -6719,10 +6719,10 @@
     elpaBuild {
       pname = "org-mem";
       ename = "org-mem";
-      version = "0.34.0.0.20260303.195613";
+      version = "0.34.0.0.20260303.214059";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-mem-0.34.0.0.20260303.195613.tar";
-        sha256 = "0fpncw8iqbqd10ps7d09sj6k6wmhmhdy0mrwc2ldwy2d98qqq1iy";
+        url = "https://elpa.gnu.org/devel/org-mem-0.34.0.0.20260303.214059.tar";
+        sha256 = "0h285jidykki1d3yfs2khyy3nv1blavfwx59m0p6y2svjvw3qs1h";
       };
       packageRequires = [
         el-job
@@ -7871,10 +7871,10 @@
     elpaBuild {
       pname = "realgud";
       ename = "realgud";
-      version = "1.6.0.0.20260128.34106";
+      version = "1.6.0.0.20260303.215436";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/realgud-1.6.0.0.20260128.34106.tar";
-        sha256 = "1cp7gq50fls2qzq4i34g6alcghjfmf2mj7i5lk8c1a5s9k3d4ma3";
+        url = "https://elpa.gnu.org/devel/realgud-1.6.0.0.20260303.215436.tar";
+        sha256 = "0n62ci1yxhikws8gbm3b601j43df9r38wnah6vhqa05pmkj3532s";
       };
       packageRequires = [
         load-relative
