@@ -650,10 +650,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.21.0.0.20260302.212318";
+      version = "5.22.0.0.20260303.213054";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.21.0.0.20260302.212318.tar";
-        sha256 = "0p59aqjj7jd99jylffx2dfd7zb5a9cfsih89bd41bw91pzi0qv8x";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.22.0.0.20260303.213054.tar";
+        sha256 = "053xngzlg25kzs2c4snqmcsq4qjy24gdcc0qqp80266s2ia2hqw7";
       };
       packageRequires = [ ];
       meta = {
@@ -671,10 +671,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0.0.20260223.181343";
+      version = "0.6.0.0.20260304.82918";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20260223.181343.tar";
-        sha256 = "0yrbddm4qv5xdn9vj3k9h0j62v5rv7l1yrdl0idw9094ln25k418";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20260304.82918.tar";
+        sha256 = "0i2qdylz697kya33hn4crbnrcl23sv77js1gwgn3wc45qzi6ncj6";
       };
       packageRequires = [ ];
       meta = {
@@ -2594,10 +2594,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260228.34839";
+      version = "0.9.9.4.0.20260303.230928";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260228.34839.tar";
-        sha256 = "1mv3m0gbsxialiyxvn7yabvc0hdgb897v76xp667zs0sv5x6w9rz";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260303.230928.tar";
+        sha256 = "0scxazhbmqmggpj9csr6ipk4zxa899z39gw6n0mrp7r5mrmq6q5s";
       };
       packageRequires = [
         compat
