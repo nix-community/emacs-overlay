@@ -833,10 +833,10 @@
     elpaBuild {
       pname = "boxy";
       ename = "boxy";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/boxy-2.0.0.tar";
-        sha256 = "1vfgwgk3vzzp2cy7n0qwhn7hzjxbp9vzxp1al1pkynv9hfs503gb";
+        url = "https://elpa.gnu.org/packages/boxy-2.0.1.tar";
+        sha256 = "02hn7n5l74gwj6jqqhr3jpwrcxmky1qc6qgvzbb7mw0v135p6vdj";
       };
       packageRequires = [ ];
       meta = {
@@ -856,10 +856,10 @@
     elpaBuild {
       pname = "boxy-headings";
       ename = "boxy-headings";
-      version = "2.1.10";
+      version = "2.1.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/boxy-headings-2.1.10.tar";
-        sha256 = "0a3933yckjw7b8jk5nnlb6hwjf1vzi1ydwk70csmz73402k0jxk1";
+        url = "https://elpa.gnu.org/packages/boxy-headings-2.1.11.tar";
+        sha256 = "1jxfmpgvk0hw44r3q2c3wapbv0iwjc9s956qhcyw9dxvnjfbqf3d";
       };
       packageRequires = [
         boxy
@@ -3103,6 +3103,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/emacs-gc-stats.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  emacs-lisp-intro-es = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "emacs-lisp-intro-es";
+      ename = "emacs-lisp-intro-es";
+      version = "1.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/emacs-lisp-intro-es-1.0.tar";
+        sha256 = "1sh3q6pspj9pznlfl89j2y1jfvhdnwhi95yr1vvyj6hwwj7ir8n9";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/emacs-lisp-intro-es.html";
         license = lib.licenses.free;
       };
     }
@@ -6590,10 +6611,10 @@
     elpaBuild {
       pname = "org-mem";
       ename = "org-mem";
-      version = "0.33.0";
+      version = "0.34.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-mem-0.33.0.tar";
-        sha256 = "0jax2v2nwrlzrjp890ldsfvpzwmacijpl2bya5fkaiwxx3fncifd";
+        url = "https://elpa.gnu.org/packages/org-mem-0.34.0.tar";
+        sha256 = "056lpb6wdl8am6kl7nkw38q0fannqa1ifk4ws198z89x9w0jpfwx";
       };
       packageRequires = [
         el-job
@@ -6664,10 +6685,10 @@
     elpaBuild {
       pname = "org-real";
       ename = "org-real";
-      version = "1.0.11";
+      version = "1.0.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-real-1.0.11.tar";
-        sha256 = "1mm2p6487m4sr8zvj7xqryvicvj0qbv7as39hxh1ad7yhfdhgpvw";
+        url = "https://elpa.gnu.org/packages/org-real-1.0.12.tar";
+        sha256 = "05x00z8iqfx9bpbzldzfnv7mvjamdf8djvxr83sfkw6r0sqlfgj9";
       };
       packageRequires = [
         boxy
