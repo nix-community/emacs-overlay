@@ -3620,10 +3620,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.11.0.20260301.91650";
+      version = "2.0.12.0.20260303.113024";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.11.0.20260301.91650.tar";
-        sha256 = "08i0jhn0mjw6cnb4b0h5hajnh00vzwa0gp3hj0kfqb9gyhmi67j6";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.12.0.20260303.113024.tar";
+        sha256 = "142w25q35cdqlvc2nx023s11fiya8d6f14cfh1nzv3861f2nvy64";
       };
       packageRequires = [
         persist
@@ -4584,10 +4584,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20260117.121353";
+      version = "1.0.20260303.123213";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260117.121353.tar";
-        sha256 = "0zycibkfrckgmqc5ss0fv1kz3yin9xldg1bx13rvj59m7qp6fkaj";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260303.123213.tar";
+        sha256 = "1iqbrsy5sivv9mm6sk48vj1mv4magh7bg7346i1a02plr0hg8qml";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4969,10 +4969,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260302.60447";
+      version = "2.32snapshot0.20260303.175413";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260302.60447.tar";
-        sha256 = "0iy6lh17p94bx3hjckbii4kmws53kjwziawkjsg25d8981ymh2m4";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260303.175413.tar";
+        sha256 = "1xpxcfg03xlnphspcridv4k8llrwq95m1rzvly6pl3v9zhc66i21";
       };
       packageRequires = [ macrostep ];
       meta = {
