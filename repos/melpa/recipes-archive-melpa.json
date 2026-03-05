@@ -15175,11 +15175,11 @@
   "repo": "clojure-emacs/clojure-ts-mode",
   "unstable": {
    "version": [
-    20260304,
-    1422
+    20260305,
+    1210
    ],
-   "commit": "c69583645f8276d224d78a1f2d9b65b5287c7eeb",
-   "sha256": "145aia7s4w285nsafc3v343lm8kqp02l89ah79zlld967h8zbx0s"
+   "commit": "1c6a7203ff179bc828b11b133b42f67d699d919f",
+   "sha256": "0pcfzihkzqwrn9yg7a3jbp2zp3ibaq5w2kwcz1rfsg6l5xlrml6q"
   },
   "stable": {
    "version": [
@@ -20164,7 +20164,7 @@
   "unstable": {
    "version": [
     20260305,
-    616
+    718
    ],
    "deps": [
     "compat",
@@ -20172,8 +20172,8 @@
     "jsonrpc",
     "track-changes"
    ],
-   "commit": "fdea2fc1ef0ebab7af337e3925d663063651ff46",
-   "sha256": "0677310dyvl1l5h88ihk6dz8x6cnm9jjv2rwv50jwyj6clsfqkwj"
+   "commit": "59a4a292236ac9bea8756c0a0613b750b14d91eb",
+   "sha256": "0dhsc7yiqmspka6yjzp32z6ah5y575r6ybddbvqfldbxsp2cdz33"
   },
   "stable": {
    "version": [
@@ -26020,14 +26020,14 @@
   "repo": "jidaikobo-shibata/dired-explorer",
   "unstable": {
    "version": [
-    20180607,
-    221
+    20260305,
+    1253
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "3ade0a31b5340271d05e9bf443f2504960f6c6dd",
-   "sha256": "0lbm326na005k3pa11rqq5nbhvm55dydi2a7fzs3bzlqwbx7d6fq"
+   "commit": "aafe6364c64c74b4c569fa39d67e06ea53db66a4",
+   "sha256": "06hli96jb54g0jh96q8r71gckghb8f12ah8p7lzmay7l32yck5nk"
   },
   "stable": {
    "version": [
@@ -30307,8 +30307,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260304,
-    2110
+    20260305,
+    1216
    ],
    "deps": [
     "compat",
@@ -30316,13 +30316,13 @@
     "f",
     "markdown-mode"
    ],
-   "commit": "185ef140ccd08bdae0e113a7005e0dca895caf9a",
-   "sha256": "0dkr01di6gi0khfm4li2404as74kcap84v4shf1gi3wabwn52fih"
+   "commit": "ecdf8f3b20a3ea21bc17c2157965e6777d95a639",
+   "sha256": "1kc17zb0lrkfm3l0b9gq64a3n616sy4yk9y5y9h5q8r6zmc5jbh7"
   },
   "stable": {
    "version": [
     0,
-    6,
+    7,
     0
    ],
    "deps": [
@@ -30331,8 +30331,8 @@
     "f",
     "markdown-mode"
    ],
-   "commit": "e444685f386b245fecfee28253032ce880c6ded5",
-   "sha256": "1xsrf1rcb2784srppadl5rskyzikfcrvc1qk0s1lxplaa8j91vpd"
+   "commit": "ecdf8f3b20a3ea21bc17c2157965e6777d95a639",
+   "sha256": "1kc17zb0lrkfm3l0b9gq64a3n616sy4yk9y5y9h5q8r6zmc5jbh7"
   }
  },
  {
@@ -37610,11 +37610,11 @@
   "repo": "emacs-ess/ESS",
   "unstable": {
    "version": [
-    20260203,
-    1633
+    20260305,
+    917
    ],
-   "commit": "bfe892db15e94387f70319efdc55710dc3660d2f",
-   "sha256": "0lrj27wf1rm6yi60dsmzy7c4533wk0xch1ww06y20b59hhnbccsj"
+   "commit": "affb2b48416534b03adee20d02770920bddb7061",
+   "sha256": "0zsiy2icw422x24r5yl11x5d0qm7h100qq0qrqh7dvhkcw9kjzy9"
   },
   "stable": {
    "version": [
@@ -38516,15 +38516,15 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20260304,
-    1628
+    20260305,
+    1708
    ],
    "deps": [
     "annalist",
     "evil"
    ],
-   "commit": "a18d16675c194203c00f46334fd7c22f46e7671a",
-   "sha256": "18ql5mxvvw1ahg88n9ljbmiwchr8k67f8cl1qgbw2zi08jqzzdwm"
+   "commit": "0c63456ae73520839b66c3985de9bfabd38b835f",
+   "sha256": "00jjs2py2836z3450nq1v2p6fv1i1dhalkd9yy2qg366jddc074r"
   },
   "stable": {
    "version": [
@@ -53159,7 +53159,7 @@
   "stable": {
    "version": [
     0,
-    7,
+    8,
     0
    ],
    "deps": [
@@ -53168,8 +53168,8 @@
     "org-gnosis",
     "transient"
    ],
-   "commit": "54660aabfa3200663053dd0063f2c215ef674ddb",
-   "sha256": "0a8bsmvj6wckq9fjpnqa9ccml4fwbia7415j4wrqbza6a9svilrx"
+   "commit": "f90e0ddabb1ecf6b6a3a1a9e762b1ce2af56c1e5",
+   "sha256": "003pmd0ahpcss5ydk3wbx5j45225ypa85zrgljz5qajijiybvxpi"
   }
  },
  {
@@ -81314,11 +81314,7 @@
     455
    ],
    "commit": "87851da1fb3095359b2e595293b12e615f8685c5",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "warning: error: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/87851da1fb3095359b2e595293b12e615f8685c5.tar.gz': Timeout was reached (28) Connection timed out after 15000 milliseconds; retrying in 266 ms\nwarning: error: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/87851da1fb3095359b2e595293b12e615f8685c5.tar.gz': Timeout was reached (28) Connection timed out after 15000 milliseconds; retrying in 637 ms\nwarning: error: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/87851da1fb3095359b2e595293b12e615f8685c5.tar.gz': Timeout was reached (28) Connection timed out after 15003 milliseconds; retrying in 1133 ms\nwarning: error: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/87851da1fb3095359b2e595293b12e615f8685c5.tar.gz': Timeout was reached (28) Connection timed out after 15000 milliseconds; retrying in 2335 ms\nerror:\n       … during download of 'https://codeberg.org/ideasman42/emacs-meep/archive/87851da1fb3095359b2e595293b12e615f8685c5.tar.gz'\n\n       error: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/87851da1fb3095359b2e595293b12e615f8685c5.tar.gz': Timeout was reached (28) Connection timed out after 15000 milliseconds\n"
-   ]
+   "sha256": "1vcmww1qircf3njs1h7wpmfj0qmzs0vvcg1shbsbyf3g649276ja"
   }
  },
  {
@@ -86543,11 +86539,11 @@
   "repo": "bbatsov/neocaml",
   "unstable": {
    "version": [
-    20260304,
-    1646
+    20260305,
+    728
    ],
-   "commit": "81d8dd5bc59c2bcf6a509e315ae446cc715474b7",
-   "sha256": "1qqkrsks32a234mgv8zlq0zx79nbbdiyfv477rx5116084hkjs9m"
+   "commit": "247b1371c5f824b74cf4c7e7fda96d53aa74cbae",
+   "sha256": "1pyalfqi272k0lsk9qzfg175j7pkxcykfnq3g4di6m9dyv6bbmgf"
   },
   "stable": {
    "version": [
@@ -91407,11 +91403,11 @@
   "repo": "captainflasmr/ollama-buddy",
   "unstable": {
    "version": [
-    20260304,
-    1428
+    20260305,
+    1517
    ],
-   "commit": "46e2f881113d615732dbe1d1d4146175956fb1ab",
-   "sha256": "1f70jcf7k7kn0byjlc9s9897dfba70aiicawyy0mdwyh51zgvmhd"
+   "commit": "87567c1b8535c672148febbf830cbc4f45c63bfb",
+   "sha256": "02gkdani00c0indmg3c0y2cr0vpc8l67lkjrxsf2sbnlgm54kc5m"
   },
   "stable": {
    "version": [
@@ -95276,7 +95272,7 @@
   "unstable": {
    "version": [
     20260305,
-    316
+    1317
    ],
    "deps": [
     "cond-let",
@@ -95284,14 +95280,14 @@
     "magit-section",
     "org-mem"
    ],
-   "commit": "25dcad1d4e2d20ccdcda2191fa060d29cfee1859",
-   "sha256": "1ga77g55r29caz8sq18nyjx5w3fx10dgw8ay271ncw6y1nbcinhi"
+   "commit": "9a946ec6df977df9c39fc924cc2c0834f3cc0d2e",
+   "sha256": "02ij6zs6axj94grjmn7wkhgb280c4f3nxwnyrxhjpwdx5jaihjls"
   },
   "stable": {
    "version": [
     3,
     18,
-    0
+    2
    ],
    "deps": [
     "cond-let",
@@ -95299,8 +95295,8 @@
     "magit-section",
     "org-mem"
    ],
-   "commit": "309001606130c3bc10c92ca6694a434d801021c6",
-   "sha256": "1izak0b0jzk01bhy05x7w51hf2f316gs2fsr8cy4ynynqmf1fsxd"
+   "commit": "9a946ec6df977df9c39fc924cc2c0834f3cc0d2e",
+   "sha256": "02ij6zs6axj94grjmn7wkhgb280c4f3nxwnyrxhjpwdx5jaihjls"
   }
  },
  {
@@ -128846,11 +128842,11 @@
   "repo": "gongo/emacs-toml",
   "unstable": {
    "version": [
-    20260304,
-    1206
+    20260305,
+    1142
    ],
-   "commit": "f045c39f2acd5a2dcc01e2c31be7ece586907db4",
-   "sha256": "1bzdn89h69ff9rjwgana2lsq1iwb2q1lhwiqzig40bz639adq3ba"
+   "commit": "7ad64be66dc95342e31627bc65762001a1e3cde7",
+   "sha256": "0jnyb2p4i9156l49mrk2q2ah0iw88p083yy8iwif8mg7as0yykwl"
   },
   "stable": {
    "version": [
@@ -132314,14 +132310,14 @@
   "repo": "tbanel/uniline",
   "unstable": {
    "version": [
-    20260226,
-    1040
+    20260305,
+    1104
    ],
    "deps": [
     "hydra"
    ],
-   "commit": "365965232cff300d05d874703eb5e3cf297b350b",
-   "sha256": "1ql33yfbfwiqfgsqh51dknnk6vryqaay82z7svb251laqhj5dp9a"
+   "commit": "1d62787fe6766d3f74a0665dfab945969520d4eb",
+   "sha256": "0dqhycv6n26yszgrqidvny7wyd06gga0rb5j8ijy9i73f0vs9li1"
   }
  },
  {
