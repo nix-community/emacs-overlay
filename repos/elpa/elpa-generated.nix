@@ -4006,10 +4006,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.7.0";
+      version = "0.8.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gnosis-0.7.0.tar";
-        sha256 = "1l0dkwjgzh9by5hn6kfhcmjbbxyvdhfadwn104iny9ikgr9qsfih";
+        url = "https://elpa.gnu.org/packages/gnosis-0.8.0.tar";
+        sha256 = "1yxab2w0v9s1nkf06cwv9gzjckfkn642nfrpqrbrgfyj47dbw9r7";
       };
       packageRequires = [
         compat
@@ -9635,10 +9635,10 @@
     elpaBuild {
       pname = "truename-cache";
       ename = "truename-cache";
-      version = "0.3.5";
+      version = "0.3.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/truename-cache-0.3.5.tar";
-        sha256 = "1rpfkjgajk8pq989bxa59npkgh41mvj6dswk827h7c4z02li8y7k";
+        url = "https://elpa.gnu.org/packages/truename-cache-0.3.7.tar";
+        sha256 = "03gxa6wvjdq91nqq1vy28951d0qc1yrnhnzk2lw2qk6h9njp4sl8";
       };
       packageRequires = [ compat ];
       meta = {

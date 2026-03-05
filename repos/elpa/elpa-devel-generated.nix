@@ -1547,10 +1547,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.3.0.20260205.205149";
+      version = "3.3.0.20260304.171448";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.3.0.20260205.205149.tar";
-        sha256 = "1x3mds6qpls5ybhw1q7qzl5yc9kd6gg6wnqd9irq8pcb3yvg9ap4";
+        url = "https://elpa.gnu.org/devel/consult-3.3.0.20260304.171448.tar";
+        sha256 = "116p1afbn5qdx5fri6kqvvwaiy6b2xj6lgdl9gxsqnmmd382iz01";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3399,10 +3399,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.2snapshot0.20260303.162135";
+      version = "5.6.2snapshot0.20260304.144305";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.2snapshot0.20260303.162135.tar";
-        sha256 = "0iwid773mil72z1vd82lh00bhgd6h36dcfy4hq4ncgyly4swl9z4";
+        url = "https://elpa.gnu.org/devel/erc-5.6.2snapshot0.20260304.144305.tar";
+        sha256 = "01n4z2x5xn8xqyj6qwl7pcxpvhawg3j4zp4lwp96igriyf7vr80c";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3696,10 +3696,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.3.0.20260303.162135";
+      version = "1.4.3.0.20260304.94427";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.3.0.20260303.162135.tar";
-        sha256 = "1r7n5ggnj8w3zbv7qw5svragj3s0vwpzwgan7cml6smg7xvnmbfx";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.3.0.20260304.94427.tar";
+        sha256 = "1cqkp2chsiyzz2dxhizacf0ysbfpc6a2bv9yyrp2cq24dzffkpzx";
       };
       packageRequires = [
         eldoc
@@ -3895,10 +3895,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.1.0.20260303.225026";
+      version = "1.1.0.20260304.174617";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.1.0.20260303.225026.tar";
-        sha256 = "1zc2swysc2rqr3hp5mkj0zxh4a6dm8ic3h4l6mnndw9hsjnn4qqp";
+        url = "https://elpa.gnu.org/devel/futur-1.1.0.20260304.174617.tar";
+        sha256 = "1agvr82qrsbd1ri3r189abv1miy7dsi1yjfyyb97i39c5c2h8gq3";
       };
       packageRequires = [ ];
       meta = {
@@ -4092,10 +4092,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.7.0.0.20260224.120212";
+      version = "0.8.0.0.20260304.151947";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.7.0.0.20260224.120212.tar";
-        sha256 = "1dwybdq0099364xz7np812xyqzl0vh0xmic76sihaznbpf3ip3qx";
+        url = "https://elpa.gnu.org/devel/gnosis-0.8.0.0.20260304.151947.tar";
+        sha256 = "1jr3c33z2rw4h214gk64j2wp9lpgh0b9prz7jp0y70ibsxz1k387";
       };
       packageRequires = [
         compat
@@ -4567,10 +4567,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260304.85232";
+      version = "9.0.2pre0.20260304.90118";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260304.85232.tar";
-        sha256 = "0bczz0x2d216nspa2dyqnxj7dsipksxxjn5n6nxvkwzjrw2n5vbq";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260304.90118.tar";
+        sha256 = "14wf7w9y3hy66fl4k4qw2vcfdv2ssh9f5rsdp70adckjyfsi0aj3";
       };
       packageRequires = [ ];
       meta = {
@@ -5763,10 +5763,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.1.1.0.20260301.212548";
+      version = "8.1.1.0.20260304.181347";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.1.1.0.20260301.212548.tar";
-        sha256 = "12p2wpqmp54yfda8q2pqq87d0lpnnxpl4if7ar57bqj33lxz1m6j";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.1.1.0.20260304.181347.tar";
+        sha256 = "0881cnhj0gw4dj0lx1fmwh69zdg7f85cycn50jhzcl04s3zxy91a";
       };
       packageRequires = [ ];
       meta = {
@@ -9871,10 +9871,10 @@
     elpaBuild {
       pname = "truename-cache";
       ename = "truename-cache";
-      version = "0.3.5.0.20260228.183936";
+      version = "0.3.7.0.20260305.24624";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/truename-cache-0.3.5.0.20260228.183936.tar";
-        sha256 = "0d0savvg8pnawq68jpiywcmrdfpm0jj1qabjpj9g83fp0hr965dz";
+        url = "https://elpa.gnu.org/devel/truename-cache-0.3.7.0.20260305.24624.tar";
+        sha256 = "0sa2jwhv06rdbsi4rjb9z39pg57d3x5mxx5i1y5ir3ph19c73xaz";
       };
       packageRequires = [ compat ];
       meta = {
