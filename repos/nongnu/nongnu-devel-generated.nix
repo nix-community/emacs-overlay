@@ -650,10 +650,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.22.0.0.20260303.213054";
+      version = "5.22.0.0.20260305.74650";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.22.0.0.20260303.213054.tar";
-        sha256 = "053xngzlg25kzs2c4snqmcsq4qjy24gdcc0qqp80266s2ia2hqw7";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.22.0.0.20260305.74650.tar";
+        sha256 = "13jp42zh027w3mj7kgs6rkmixmpar3s3iqc5ymf516yh0ajy33r2";
       };
       packageRequires = [ ];
       meta = {
@@ -4519,10 +4519,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0snapshot0.20260304.194310";
+      version = "2.10.0snapshot0.20260305.62822";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0snapshot0.20260304.194310.tar";
-        sha256 = "009a43whhjybmycx2dnrn1681bf3plbnbxlf10lx5h8p1zcfllx0";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0snapshot0.20260305.62822.tar";
+        sha256 = "1kf0ch3v0nrplqksgsx9h5zzibjyxfrb0sgdxpfdxyxj2gf55js8";
       };
       packageRequires = [ compat ];
       meta = {
