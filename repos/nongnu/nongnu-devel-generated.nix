@@ -671,10 +671,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0.0.20260304.82918";
+      version = "0.6.0.0.20260304.142250";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20260304.82918.tar";
-        sha256 = "0i2qdylz697kya33hn4crbnrcl23sv77js1gwgn3wc45qzi6ncj6";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20260304.142250.tar";
+        sha256 = "19jw97v0ikw6fmppqi7m89c286wsc8ml1j13v9y34q1kgp5byqf9";
       };
       packageRequires = [ ];
       meta = {
@@ -1257,10 +1257,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.3.0.20260130.135227";
+      version = "3.0.4.0.20260304.93109";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.3.0.20260130.135227.tar";
-        sha256 = "0damazadfsr04q3vwgll2mfh67nixbfkf40ix213k45dlf399gqb";
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.4.0.20260304.93109.tar";
+        sha256 = "1mgb7q2gpd7v1sw28cz81xda6w8clp28hbz8jl5hs5dwpcafnw37";
       };
       packageRequires = [
         eglot
@@ -3737,10 +3737,10 @@
     elpaBuild {
       pname = "moe-theme";
       ename = "moe-theme";
-      version = "1.1.0.0.20260211.61732";
+      version = "1.1.0.0.20260304.151933";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/moe-theme-1.1.0.0.20260211.61732.tar";
-        sha256 = "0ids4skv6cyk36qww44kmds347l78kppaj96ra2d59ni2wl4jdbz";
+        url = "https://elpa.nongnu.org/nongnu-devel/moe-theme-1.1.0.0.20260304.151933.tar";
+        sha256 = "1chfka5hgda9bclgvlkvs76zn6w7ra4rqnsrhmn8bn6s9s1k8chj";
       };
       packageRequires = [ ];
       meta = {
@@ -4519,10 +4519,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0snapshot0.20260228.85137";
+      version = "2.10.0snapshot0.20260304.194310";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0snapshot0.20260228.85137.tar";
-        sha256 = "1q2mjmlphjmcpzrj8fzhpc20g7kphqfnm7jvj859b69cfjkzy5jk";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0snapshot0.20260304.194310.tar";
+        sha256 = "009a43whhjybmycx2dnrn1681bf3plbnbxlf10lx5h8p1zcfllx0";
       };
       packageRequires = [ compat ];
       meta = {

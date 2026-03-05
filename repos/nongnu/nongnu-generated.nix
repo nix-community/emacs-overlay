@@ -1279,10 +1279,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.3";
+      version = "3.0.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/eldoc-mouse-3.0.3.tar";
-        sha256 = "18bd84sllxilxw42g0qnyf997qxzsa321b60viyw1d9ipn5in2l2";
+        url = "https://elpa.nongnu.org/nongnu/eldoc-mouse-3.0.4.tar";
+        sha256 = "15igklj0qiq1c5nk3gyh6p09vzqb8vwjhjx52jiyrfm6yc9bwz70";
       };
       packageRequires = [
         eglot
