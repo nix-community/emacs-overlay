@@ -3446,10 +3446,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "25.1.0.0.20260203.103302";
+      version = "25.1.0.0.20260305.91744";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20260203.103302.tar";
-        sha256 = "1r4m4m1x2z9zm28v577gp19603h51z59la7d4w67wjfpmb9mgky5";
+        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20260305.91744.tar";
+        sha256 = "02a3yxwb11mygwf1356h9vaswxwixhkzcf08wm89grb57n9087s0";
       };
       packageRequires = [ ];
       meta = {
@@ -6719,10 +6719,10 @@
     elpaBuild {
       pname = "org-mem";
       ename = "org-mem";
-      version = "0.34.0.0.20260303.214059";
+      version = "0.34.0.0.20260305.193721";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-mem-0.34.0.0.20260303.214059.tar";
-        sha256 = "0h285jidykki1d3yfs2khyy3nv1blavfwx59m0p6y2svjvw3qs1h";
+        url = "https://elpa.gnu.org/devel/org-mem-0.34.0.0.20260305.193721.tar";
+        sha256 = "00vq90sfdx4p6adlri5w1226gsa7vwr4jb3mg6b3h4k9xzxir494";
       };
       packageRequires = [
         el-job
@@ -9754,10 +9754,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.12.0.0.20260303.194104";
+      version = "0.12.0.0.20260305.214452";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260303.194104.tar";
-        sha256 = "1zn8izx2icjrjk9mpvnxcly08y12488v7gizxvd5m4jrm48npicv";
+        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260305.214452.tar";
+        sha256 = "05k84dwxsh5w716jc3l953crl320s8i3w8r144q9nhlv7qbz7j7x";
       };
       packageRequires = [
         compat
