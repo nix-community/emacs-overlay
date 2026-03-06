@@ -12136,11 +12136,11 @@
   "repo": "catppuccin/emacs",
   "unstable": {
    "version": [
-    20260304,
-    2317
+    20260306,
+    921
    ],
-   "commit": "4f467bc56ac196c8c56806f3005d69ae23405ab7",
-   "sha256": "1a7ca9nv3kf6s9wk6axyf3c3hxamf1j3hwkmc4i29fdwi41y1yzv"
+   "commit": "f5584703ac338767347eb2d59a666fcc8c705be5",
+   "sha256": "1x5l7bqb80mzvfs70h0llbh3a07wqyd06l7dr6fy5jsp1hgiq8ik"
   },
   "stable": {
    "version": [
@@ -18497,11 +18497,11 @@
   "repo": "jamescherti/compile-angel.el",
   "unstable": {
    "version": [
-    20260224,
-    27
+    20260306,
+    124
    ],
-   "commit": "4d9d1db237189720eb72aff24c05ba18ebe06423",
-   "sha256": "1x1j0pz8lhlzbs1iarxh3xix6m93yjz4iidf9pmbqm0r1r6s6yd5"
+   "commit": "d58c7c8c424c124e0f023f92d1e176aac9e13ae3",
+   "sha256": "1v8wxbmqrqd1gak1pa46s81dss9pyw7dc3g1c3qpncmcs4877yb5"
   },
   "stable": {
    "version": [
@@ -28166,16 +28166,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20260304,
-    1431
+    20260306,
+    1006
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "64961e4b7c7783e060a7a599f2a21b90929984a2",
-   "sha256": "03659vkswqdx4afyhc7d0fn54s7a87mrvbyhhz0kmz2mqyvzzqr8"
+   "commit": "755bbebcef574989db7d8f8d0cf077f28bca53ab",
+   "sha256": "0ixr5jni500ph2xiwfijf1nx6si4lhdnl6zj2a54wshv484hxzk6"
   },
   "stable": {
    "version": [
@@ -35897,11 +35897,15 @@
   "repo": "alex-iam/epx",
   "unstable": {
    "version": [
-    20260305,
-    2152
+    20260306,
+    1300
    ],
-   "commit": "eba5ae521540e1f77dbd24180c38a8cb84acb8e9",
-   "sha256": "1ywvx32q5gfd82vw41078jjbli8vyy5m4467xn5690vxp7iri6p1"
+   "commit": "300aa795f6ff130b1a21aa637c1831b8aa866d6a",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "warning: error: unable to download 'https://git.sr.ht/~alex-iam/epx/archive/300aa795f6ff130b1a21aa637c1831b8aa866d6a.tar.gz': HTTP error 502\n\n       response body:\n\n       <html>\n       <head><title>502 Bad Gateway</title></head>\n       <body>\n       <center><h1>502 Bad Gateway</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>; retrying in 292 ms\nwarning: error: unable to download 'https://git.sr.ht/~alex-iam/epx/archive/300aa795f6ff130b1a21aa637c1831b8aa866d6a.tar.gz': HTTP error 502\n\n       response body:\n\n       <html>\n       <head><title>502 Bad Gateway</title></head>\n       <body>\n       <center><h1>502 Bad Gateway</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>; retrying in 575 ms\nwarning: error: unable to download 'https://git.sr.ht/~alex-iam/epx/archive/300aa795f6ff130b1a21aa637c1831b8aa866d6a.tar.gz': HTTP error 502\n\n       response body:\n\n       <html>\n       <head><title>502 Bad Gateway</title></head>\n       <body>\n       <center><h1>502 Bad Gateway</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>; retrying in 1108 ms\nwarning: error: unable to download 'https://git.sr.ht/~alex-iam/epx/archive/300aa795f6ff130b1a21aa637c1831b8aa866d6a.tar.gz': HTTP error 502\n\n       response body:\n\n       <html>\n       <head><title>502 Bad Gateway</title></head>\n       <body>\n       <center><h1>502 Bad Gateway</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>; retrying in 2715 ms\nerror:\n       … during download of 'https://git.sr.ht/~alex-iam/epx/archive/300aa795f6ff130b1a21aa637c1831b8aa866d6a.tar.gz'\n\n       error: unable to download 'https://git.sr.ht/~alex-iam/epx/archive/300aa795f6ff130b1a21aa637c1831b8aa866d6a.tar.gz': HTTP error 502\n\n       response body:\n\n       <html>\n       <head><title>502 Bad Gateway</title></head>\n       <body>\n       <center><h1>502 Bad Gateway</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>\n"
+   ]
   },
   "stable": {
    "version": [
@@ -57502,11 +57506,11 @@
   "repo": "mgmarlow/helix-mode",
   "unstable": {
    "version": [
-    20260305,
-    2049
+    20260306,
+    1531
    ],
-   "commit": "856c79810532a075a7fc8aff3d86802b2adbbedd",
-   "sha256": "1aq0frmdd4ryxr7ii5rcl9gwlxx2mm7zz71nb0zrpfvl7hy89ak2"
+   "commit": "f3f724ab2c933811a779e0cd6917829ab9e2de3c",
+   "sha256": "0rbchgcg3xkmia8qxh7v3mf0ijpzs7jx3g76dcc1zcpzj2kx46h5"
   },
   "stable": {
    "version": [
@@ -72674,14 +72678,14 @@
   "repo": "benotn/kkp",
   "unstable": {
    "version": [
-    20250608,
-    1431
+    20260306,
+    1605
    ],
    "deps": [
     "compat"
    ],
-   "commit": "1a7b4f395aa4e1e04afc45fe2dbd6a045871803b",
-   "sha256": "0p0bz0d4qhjms833hb8xprzbizapddjc3pzibhvzwd5qpln1q9ib"
+   "commit": "2b6ef9fc8683e75f58d8eb7044022caf97c33564",
+   "sha256": "1pgn4g3w1cj2kay3ppkij21xiw3lliydxxx8wnfcbwhsc6bip66a"
   }
  },
  {
@@ -86533,11 +86537,11 @@
   "repo": "bbatsov/neocaml",
   "unstable": {
    "version": [
-    20260305,
-    728
+    20260306,
+    1511
    ],
-   "commit": "247b1371c5f824b74cf4c7e7fda96d53aa74cbae",
-   "sha256": "1pyalfqi272k0lsk9qzfg175j7pkxcykfnq3g4di6m9dyv6bbmgf"
+   "commit": "2782f2b9fbde590789bb75a76f3efc1008b51e78",
+   "sha256": "1zvxldqar7hzixjgh2jxlzpfs1h7n0bcc244r6hsc82043wzan95"
   },
   "stable": {
    "version": [
@@ -91398,10 +91402,10 @@
   "unstable": {
    "version": [
     20260306,
-    737
+    1330
    ],
-   "commit": "7330989d2e5a0a61b1d9ef6fcf156d5c7a6b90b7",
-   "sha256": "12kmxpw9xkiwg8sr0wjnk53cng8qh82cklp4aimazxip7hkg80p2"
+   "commit": "9a6b62def82d7ee3f34711348daa2ba571e0ea4c",
+   "sha256": "16fdf8i47d7bldfb6nvm5kpn6h1kxs14kzrvk4pfsnfyznbbkkaq"
   },
   "stable": {
    "version": [
@@ -94901,29 +94905,29 @@
   "unstable": {
    "version": [
     20260306,
-    543
+    1015
    ],
    "deps": [
     "el-job",
     "llama",
     "truename-cache"
    ],
-   "commit": "1476784172058cefa2a488c018080489e35f31c7",
-   "sha256": "1vv2vl025acnfqlfxwqn7vx95z849br32l7w77h7v5q5knhyw79c"
+   "commit": "04abbc49d936dc632672d95851b0b1f2af4c2e3f",
+   "sha256": "1gpx6saj433kc2ibfvdxl0cws96z6b7bspq4y17dgnzg73kfsjpa"
   },
   "stable": {
    "version": [
     0,
     34,
-    0
+    1
    ],
    "deps": [
     "el-job",
     "llama",
     "truename-cache"
    ],
-   "commit": "a37b885c46b086611b43841e666a5a9f57190b2f",
-   "sha256": "1x11rk5p7vv0xg7lk5af5rr2ssja01n5jyi5ylmal26ab7wkn3ys"
+   "commit": "04abbc49d936dc632672d95851b0b1f2af4c2e3f",
+   "sha256": "1gpx6saj433kc2ibfvdxl0cws96z6b7bspq4y17dgnzg73kfsjpa"
   }
  },
  {
@@ -128836,11 +128840,11 @@
   "repo": "gongo/emacs-toml",
   "unstable": {
    "version": [
-    20260305,
-    1142
+    20260306,
+    1212
    ],
-   "commit": "7ad64be66dc95342e31627bc65762001a1e3cde7",
-   "sha256": "0jnyb2p4i9156l49mrk2q2ah0iw88p083yy8iwif8mg7as0yykwl"
+   "commit": "79fae62090384f01de66d3eb8bddf0e9d4e358c7",
+   "sha256": "1yl95w97vmxzd6i2vmyrj3drw75ww9rf9lrk8ap92zazy8hzx13f"
   },
   "stable": {
    "version": [
@@ -135199,8 +135203,8 @@
   "repo": "d12frosted/vulpea",
   "unstable": {
    "version": [
-    20260304,
-    1607
+    20260306,
+    1004
    ],
    "deps": [
     "dash",
@@ -135208,13 +135212,13 @@
     "org",
     "s"
    ],
-   "commit": "da8a095551d564be48dd27f3abac476ef00631a9",
-   "sha256": "1zn7j94vyv3gpx2r46klwnqps4ajzdh41sh66m6wsc9c9i09xa77"
+   "commit": "e2330e8ff04590913570773ddcb87355427ffbb7",
+   "sha256": "01vq47y9sr62b1nb8dr5aq499kvgca8dswrxn3bpnzxfx5sfdq3b"
   },
   "stable": {
    "version": [
     2,
-    1,
+    2,
     0
    ],
    "deps": [
@@ -135223,8 +135227,8 @@
     "org",
     "s"
    ],
-   "commit": "5392b43459374c612d54db94bf278b98d0e73a49",
-   "sha256": "0grn4xplh0492i6k3zsp4szdfngy19iv0djrjnv7wiv99p9jbvc8"
+   "commit": "e2330e8ff04590913570773ddcb87355427ffbb7",
+   "sha256": "01vq47y9sr62b1nb8dr5aq499kvgca8dswrxn3bpnzxfx5sfdq3b"
   }
  },
  {
@@ -135235,16 +135239,16 @@
   "repo": "d12frosted/vulpea-journal",
   "unstable": {
    "version": [
-    20260225,
-    1139
+    20260306,
+    921
    ],
    "deps": [
     "dash",
     "vulpea",
     "vulpea-ui"
    ],
-   "commit": "23690036cb1a26e84f975a744eef1e82fae6fbc7",
-   "sha256": "0ck12xm1xlzy4bgd7xgnrw10aa8q00sxcdlf4gf0g47y1amdsq6p"
+   "commit": "071533d534e69e302dac543053c59ea8d4d7af77",
+   "sha256": "0kaawf7jy4kd14spmi6pzhqjpf6gh0y18j8hn2a8nm4dfljr1hbd"
   },
   "stable": {
    "version": [
