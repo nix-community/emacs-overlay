@@ -2705,10 +2705,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.0.0.0.20260228.193817";
+      version = "1.0.0.0.20260306.83012";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.0.0.0.20260228.193817.tar";
-        sha256 = "11k5f79s36wzym25f75dzm0gaxbxv8g1v6a21994r9fz0a59xq72";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.0.0.0.20260306.83012.tar";
+        sha256 = "1fj930cyglw2sc5537ljmw018flfalddxcn5yv2mwsy7aldzrgrg";
       };
       packageRequires = [ ];
       meta = {
@@ -2986,10 +2986,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.7.3.0.20260228.73358";
+      version = "2.7.4.0.20260306.64315";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/el-job-2.7.3.0.20260228.73358.tar";
-        sha256 = "0iizqlg1jfz9pyy4j9zafwzhqi6l7kfvirbaa6jp2g7igjf72fly";
+        url = "https://elpa.gnu.org/devel/el-job-2.7.4.0.20260306.64315.tar";
+        sha256 = "0jpb2432h4i847ml5g59syd45vxar16p9wfidr8xf8ac7zddfkaf";
       };
       packageRequires = [ ];
       meta = {
@@ -3895,10 +3895,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.1.0.20260304.174617";
+      version = "1.1.0.20260305.231543";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.1.0.20260304.174617.tar";
-        sha256 = "1agvr82qrsbd1ri3r189abv1miy7dsi1yjfyyb97i39c5c2h8gq3";
+        url = "https://elpa.gnu.org/devel/futur-1.1.0.20260305.231543.tar";
+        sha256 = "1rkjsi2fb335685qr9ynxnkfhpywvqzpqlassn6zvjpqp8x8sjfv";
       };
       packageRequires = [ ];
       meta = {
@@ -4305,10 +4305,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.13.1.0.20260103.220605";
+      version = "0.13.1.0.20260306.51522";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.13.1.0.20260103.220605.tar";
-        sha256 = "0sshlb52x8mwcg76arabxavyn6dj63flkkin5n7pdh4hkll0d2gq";
+        url = "https://elpa.gnu.org/devel/greader-0.13.1.0.20260306.51522.tar";
+        sha256 = "041nayf6vsbslnwlsgx96mnlcdvjldqp7jk0blmx6a0ikbn4qdl7";
       };
       packageRequires = [
         compat
@@ -4567,10 +4567,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260304.90118";
+      version = "9.0.2pre0.20260305.72306";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260304.90118.tar";
-        sha256 = "14wf7w9y3hy66fl4k4qw2vcfdv2ssh9f5rsdp70adckjyfsi0aj3";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260305.72306.tar";
+        sha256 = "09pjyd2bk44v0j5w69rbjkm5k92xdkjxs1b138d8cdjla00vmpzx";
       };
       packageRequires = [ ];
       meta = {
@@ -6719,10 +6719,10 @@
     elpaBuild {
       pname = "org-mem";
       ename = "org-mem";
-      version = "0.34.0.0.20260305.193721";
+      version = "0.34.0.0.20260306.54335";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-mem-0.34.0.0.20260305.193721.tar";
-        sha256 = "00vq90sfdx4p6adlri5w1226gsa7vwr4jb3mg6b3h4k9xzxir494";
+        url = "https://elpa.gnu.org/devel/org-mem-0.34.0.0.20260306.54335.tar";
+        sha256 = "0g5s7hk1hwipn4lhdc03167n4f6gb1zj0cwnjaxkh2ly2pb7vr4j";
       };
       packageRequires = [
         el-job
@@ -7147,6 +7147,27 @@
       packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/persist.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  php-fill = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "php-fill";
+      ename = "php-fill";
+      version = "1.1.1.0.20260225.194006";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/php-fill-1.1.1.0.20260225.194006.tar";
+        sha256 = "1kij99v4b0di0i394l5s5h9fcbh6izcvs66asw3w2z1cjl4f7rrr";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/php-fill.html";
         license = lib.licenses.free;
       };
     }

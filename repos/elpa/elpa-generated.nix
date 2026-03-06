@@ -2923,10 +2923,10 @@
     elpaBuild {
       pname = "el-job";
       ename = "el-job";
-      version = "2.7.3";
+      version = "2.7.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/el-job-2.7.3.tar";
-        sha256 = "0fvamj342grhv9b1fl0p1n831sj5jvia4sd4n17i80z20yjydn8l";
+        url = "https://elpa.gnu.org/packages/el-job-2.7.4.tar";
+        sha256 = "0j5dlgl57k4iy0limdw65ks68pbb4q1cc55192wf6crrv7vvls0z";
       };
       packageRequires = [ ];
       meta = {
@@ -7039,6 +7039,27 @@
       packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/persist.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  php-fill = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "php-fill";
+      ename = "php-fill";
+      version = "1.1.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/php-fill-1.1.1.tar";
+        sha256 = "130q6nyx5837wvhvis0nlzsqky7hic00z1jakik66asqpyrl7ncj";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/php-fill.html";
         license = lib.licenses.free;
       };
     }
