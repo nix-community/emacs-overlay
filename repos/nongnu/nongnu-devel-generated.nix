@@ -671,10 +671,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0.0.20260304.142250";
+      version = "0.6.0.0.20260305.121052";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20260304.142250.tar";
-        sha256 = "19jw97v0ikw6fmppqi7m89c286wsc8ml1j13v9y34q1kgp5byqf9";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20260305.121052.tar";
+        sha256 = "0bkrllihprrdabdi75mc3xj94pp560m22wdvp3mgsq4khcsp8lgn";
       };
       packageRequires = [ ];
       meta = {
@@ -1916,10 +1916,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "36.0.0.20260226.91805";
+      version = "36.0.0.20260305.101707";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-36.0.0.20260226.91805.tar";
-        sha256 = "1kjnb9a7v1hxwwfacnx5hm0x2q2i2sxh5s63qyknicmrh48nxxay";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-36.0.0.20260305.101707.tar";
+        sha256 = "1fr8gw0jn56p9vam11aa3jsqbm2m9zqnca7zirl4i4siyr0ypa1x";
       };
       packageRequires = [ seq ];
       meta = {
