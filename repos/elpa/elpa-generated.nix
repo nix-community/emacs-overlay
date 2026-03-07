@@ -6611,10 +6611,10 @@
     elpaBuild {
       pname = "org-mem";
       ename = "org-mem";
-      version = "0.34.0";
+      version = "0.34.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-mem-0.34.0.tar";
-        sha256 = "056lpb6wdl8am6kl7nkw38q0fannqa1ifk4ws198z89x9w0jpfwx";
+        url = "https://elpa.gnu.org/packages/org-mem-0.34.1.tar";
+        sha256 = "0h8bwfq9dq0xihnssysv66miv8wqyakngqkjr8clhqd3kk716jx8";
       };
       packageRequires = [
         el-job

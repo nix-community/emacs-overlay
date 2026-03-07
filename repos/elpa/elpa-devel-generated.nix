@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20260228.202237";
+      version = "4.1.3.0.20260306.172310";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260228.202237.tar";
-        sha256 = "0xvx21naf2gx29xqdgr1ki639rl5wsilwvam9d5qxx5knlash5ir";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260306.172310.tar";
+        sha256 = "0fh9dr55wisxh657fs7hb9gqvaz7qvwh9ymcji1kxy9qkm64msia";
       };
       packageRequires = [ ];
       meta = {
@@ -2705,10 +2705,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.0.0.0.20260306.83012";
+      version = "1.0.0.0.20260306.175724";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.0.0.0.20260306.83012.tar";
-        sha256 = "1fj930cyglw2sc5537ljmw018flfalddxcn5yv2mwsy7aldzrgrg";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.0.0.0.20260306.175724.tar";
+        sha256 = "0kbib58c74ckpwnayxrd8xjfdzm8w74gm361k4gal4cryj7i3862";
       };
       packageRequires = [ ];
       meta = {
@@ -6719,10 +6719,10 @@
     elpaBuild {
       pname = "org-mem";
       ename = "org-mem";
-      version = "0.34.0.0.20260306.54335";
+      version = "0.34.1.0.20260306.101531";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-mem-0.34.0.0.20260306.54335.tar";
-        sha256 = "0g5s7hk1hwipn4lhdc03167n4f6gb1zj0cwnjaxkh2ly2pb7vr4j";
+        url = "https://elpa.gnu.org/devel/org-mem-0.34.1.0.20260306.101531.tar";
+        sha256 = "0hiv58yndza2vbl1zgc3w087ldnjhkyyj980h25a1fy63gfg0275";
       };
       packageRequires = [
         el-job
@@ -6746,10 +6746,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.12.0.20260125.143845";
+      version = "1.12.0.20260306.183931";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.12.0.20260125.143845.tar";
-        sha256 = "06kgflqfq3pifhr9442rpk2ik0jha9w7brla55lkxg0ips8822hw";
+        url = "https://elpa.gnu.org/devel/org-modern-1.12.0.20260306.183931.tar";
+        sha256 = "15s3xm8wmw9cylrs6lycfac41zb3x0gla25awfcj4qn954hn9wbi";
       };
       packageRequires = [
         compat
