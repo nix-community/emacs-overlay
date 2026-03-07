@@ -2152,15 +2152,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260305,
-    2350
+    20260306,
+    1558
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "898fb88873ff46f4500545f3e6d73717e89fdea9",
-   "sha256": "0yb400ki9gpjb21rmy9br2k1c8hrvrjafmm8f4g1n1sj4ivhbj3q"
+   "commit": "4fcc247b19e19ffdbc9798d57e86854c60fef57b",
+   "sha256": "0wx25j66snx09fll4791cfbc5rv3q743fyg46zhmd156ih8bxyrf"
   },
   "stable": {
    "version": [
@@ -4077,11 +4077,11 @@
   "repo": "radian-software/apheleia",
   "unstable": {
    "version": [
-    20260221,
-    2001
+    20260306,
+    2317
    ],
-   "commit": "2bc2bb4cc2caad111e6f2f1b9daf20ec388101ff",
-   "sha256": "1vs532hjkwj19laigqvvk11r0gwhv5vd8v6wh5598dzmfw3yh4bm"
+   "commit": "011e7b999552f3c0730035183a4a6dfb60c10182",
+   "sha256": "070q117sz1q3244l82x8d7yw6l223fqv5jx45r1y82yyamx0dvy0"
   },
   "stable": {
    "version": [
@@ -14481,11 +14481,11 @@
   "repo": "NicholasBHubbard/clean-kill-ring.el",
   "unstable": {
    "version": [
-    20250926,
-    1623
+    20260306,
+    2122
    ],
-   "commit": "60172fc644d68c55b1c15c7fe1a09a63589a1d43",
-   "sha256": "0sxfx0nr8v82ibdy55xbpq063hmw2pq78pc84464fpr35gw3yz26"
+   "commit": "23ce71747f7440eff6368ed045133c3ae694b6fb",
+   "sha256": "0jric8ff8w8bc2g26sqzhmwrwlzv1dg9jqpgp4db8nm9vlzbv9q0"
   }
  },
  {
@@ -30301,8 +30301,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260305,
-    1216
+    20260306,
+    1623
    ],
    "deps": [
     "compat",
@@ -30310,8 +30310,8 @@
     "f",
     "markdown-mode"
    ],
-   "commit": "ecdf8f3b20a3ea21bc17c2157965e6777d95a639",
-   "sha256": "1kc17zb0lrkfm3l0b9gq64a3n616sy4yk9y5y9h5q8r6zmc5jbh7"
+   "commit": "933456a707add1e3808fc644ad3600d173797823",
+   "sha256": "1lm4r7g4i0c0mkm6j337qkb0bykdj5pbd6czgxha2gnv83qf62lh"
   },
   "stable": {
    "version": [
@@ -31558,15 +31558,15 @@
   "repo": "ahyatt/ekg",
   "unstable": {
    "version": [
-    20260301,
-    1917
+    20260306,
+    2117
    ],
    "deps": [
     "llm",
     "triples"
    ],
-   "commit": "532e77c95068dfed6a0f773b7b7f0a78e81e0f45",
-   "sha256": "1n5s1135cjlb0apdp67y4npfn3gg05rn5rvjdnxjvy00ciw6dq7b"
+   "commit": "4452fadcd4bff3b9435cf5a370bae220986564fa",
+   "sha256": "0yjslvy73rvdfhspin7nvxykdrh66s0sllqkyx26p1jdcris1n92"
   },
   "stable": {
    "version": [
@@ -35901,11 +35901,7 @@
     1300
    ],
    "commit": "300aa795f6ff130b1a21aa637c1831b8aa866d6a",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "warning: error: unable to download 'https://git.sr.ht/~alex-iam/epx/archive/300aa795f6ff130b1a21aa637c1831b8aa866d6a.tar.gz': HTTP error 502\n\n       response body:\n\n       <html>\n       <head><title>502 Bad Gateway</title></head>\n       <body>\n       <center><h1>502 Bad Gateway</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>; retrying in 292 ms\nwarning: error: unable to download 'https://git.sr.ht/~alex-iam/epx/archive/300aa795f6ff130b1a21aa637c1831b8aa866d6a.tar.gz': HTTP error 502\n\n       response body:\n\n       <html>\n       <head><title>502 Bad Gateway</title></head>\n       <body>\n       <center><h1>502 Bad Gateway</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>; retrying in 575 ms\nwarning: error: unable to download 'https://git.sr.ht/~alex-iam/epx/archive/300aa795f6ff130b1a21aa637c1831b8aa866d6a.tar.gz': HTTP error 502\n\n       response body:\n\n       <html>\n       <head><title>502 Bad Gateway</title></head>\n       <body>\n       <center><h1>502 Bad Gateway</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>; retrying in 1108 ms\nwarning: error: unable to download 'https://git.sr.ht/~alex-iam/epx/archive/300aa795f6ff130b1a21aa637c1831b8aa866d6a.tar.gz': HTTP error 502\n\n       response body:\n\n       <html>\n       <head><title>502 Bad Gateway</title></head>\n       <body>\n       <center><h1>502 Bad Gateway</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>; retrying in 2715 ms\nerror:\n       … during download of 'https://git.sr.ht/~alex-iam/epx/archive/300aa795f6ff130b1a21aa637c1831b8aa866d6a.tar.gz'\n\n       error: unable to download 'https://git.sr.ht/~alex-iam/epx/archive/300aa795f6ff130b1a21aa637c1831b8aa866d6a.tar.gz': HTTP error 502\n\n       response body:\n\n       <html>\n       <head><title>502 Bad Gateway</title></head>\n       <body>\n       <center><h1>502 Bad Gateway</h1></center>\n       <hr><center>nginx</center>\n       </body>\n       </html>\n"
-   ]
+   "sha256": "1vm1hk5pkmkw5lw0y9qm10n84n0pzb8yx5ds6xngkyirdz3fkjc2"
   },
   "stable": {
    "version": [
@@ -37608,11 +37604,11 @@
   "repo": "emacs-ess/ESS",
   "unstable": {
    "version": [
-    20260305,
-    917
+    20260306,
+    2239
    ],
-   "commit": "affb2b48416534b03adee20d02770920bddb7061",
-   "sha256": "0zsiy2icw422x24r5yl11x5d0qm7h100qq0qrqh7dvhkcw9kjzy9"
+   "commit": "a8e64e44da01083a74dfdb5bc3e59b444407b1e6",
+   "sha256": "1idzqpdzcclhhf7njycgmxzhfkz5v8740059rsx9w433ky8xvdcp"
   },
   "stable": {
    "version": [
@@ -57515,11 +57511,11 @@
   "stable": {
    "version": [
     0,
-    8,
+    9,
     0
    ],
-   "commit": "32e01acddc582ae9eb27eabda974ce12996a9bb8",
-   "sha256": "12frkqmv0qbs4rqxdazki6xvhdb6ykr4xsrzk8ljlj19dniawhd8"
+   "commit": "f3f724ab2c933811a779e0cd6917829ab9e2de3c",
+   "sha256": "0rbchgcg3xkmia8qxh7v3mf0ijpzs7jx3g76dcc1zcpzj2kx46h5"
   }
  },
  {
@@ -63978,11 +63974,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20260305,
-    1223
+    20260306,
+    2158
    ],
-   "commit": "8f54242e15e0da76266ec3dbf0dd27fed76df0b6",
-   "sha256": "1jlda1kma5gs7zai172fyz7lrblgabsiwn382d381x3q9dbrn2k9"
+   "commit": "b124bf4c81fd350f6179896f13b3caafd1debc3f",
+   "sha256": "0ydbw4nllzlhzd5j200ficvma5pzzhrclsrp3264x14y61shzpfd"
   },
   "stable": {
    "version": [
@@ -72679,13 +72675,13 @@
   "unstable": {
    "version": [
     20260306,
-    1605
+    1633
    ],
    "deps": [
     "compat"
    ],
-   "commit": "2b6ef9fc8683e75f58d8eb7044022caf97c33564",
-   "sha256": "1pgn4g3w1cj2kay3ppkij21xiw3lliydxxx8wnfcbwhsc6bip66a"
+   "commit": "73957230ffdd3dedf16f4436f61471bd1365abf6",
+   "sha256": "1j5igiys8asjg0v18flc7p71xjynqi7v8s06qgkac8djvjamd4lh"
   }
  },
  {
@@ -81735,11 +81731,11 @@
   "repo": "abrochard/mermaid-mode",
   "unstable": {
    "version": [
-    20260217,
-    1737
+    20260306,
+    2210
    ],
-   "commit": "3b972164bf6a20b2f51607791b1e593ffa1e63cc",
-   "sha256": "0v9z7a4g5s7b2wrc3105bfr6wzilczvzv14vrwa3cpjdhyd8gdbi"
+   "commit": "127fad71666faacf4e962a1498f3fe08910cc6c4",
+   "sha256": "0nr89nnk3gwwm8ij9n49afmc384s3lrxzfmip47q4i03z40dkh38"
   }
  },
  {
@@ -86538,10 +86534,10 @@
   "unstable": {
    "version": [
     20260306,
-    1511
+    2100
    ],
-   "commit": "2782f2b9fbde590789bb75a76f3efc1008b51e78",
-   "sha256": "1zvxldqar7hzixjgh2jxlzpfs1h7n0bcc244r6hsc82043wzan95"
+   "commit": "18d2a0c35e30352c173a308c9cce6c62188e7ccd",
+   "sha256": "0nc9n5cpb1jn3chr9b6ky7j0530r61vlh36jj6656prxjyc0kyc7"
   },
   "stable": {
    "version": [
@@ -88399,16 +88395,16 @@
   "repo": "tarsius/notmuch-transient",
   "unstable": {
    "version": [
-    20260101,
-    1843
+    20260306,
+    1530
    ],
    "deps": [
     "compat",
     "notmuch",
     "transient"
    ],
-   "commit": "a1e18fa9202248c3c6264147bd0e82cda0a03a53",
-   "sha256": "014j9nga950bil2q0iwbrkyr6gl90hwcjfmfg9jjlci6l8mbwk7c"
+   "commit": "3195a5523dbbce04751b23762845a73f0100172b",
+   "sha256": "1ivv45qik89nrv87hsv2yphh557w482wh20429y3cp3akj9kxa4c"
   },
   "stable": {
    "version": [
@@ -90860,11 +90856,11 @@
   "repo": "gynamics/oboe.el",
   "unstable": {
    "version": [
-    20260217,
-    604
+    20260306,
+    1838
    ],
-   "commit": "7829d308063b512531a32ac3dda9c31ef6eb68d2",
-   "sha256": "0ml3brzgpihvydhg344xp4ca5v1fih3cw40qzpdi7vvrnvnkdny3"
+   "commit": "ed9cd4e61aa64a0fc68582eb13747219ab1067ce",
+   "sha256": "0n6f1wlh52rgrfh58x9wsan48p82ch4na7s8dq88vn5widw88gcp"
   }
  },
  {
@@ -91402,10 +91398,10 @@
   "unstable": {
    "version": [
     20260306,
-    1330
+    1858
    ],
-   "commit": "9a6b62def82d7ee3f34711348daa2ba571e0ea4c",
-   "sha256": "16fdf8i47d7bldfb6nvm5kpn6h1kxs14kzrvk4pfsnfyznbbkkaq"
+   "commit": "e0103335158650bca376d5e0c253b1bbc8f50fe5",
+   "sha256": "15ajqfy6wiy77ygrqwrc1ff02znj55l4d43p0zpz5h5518a8fiwm"
   },
   "stable": {
    "version": [
@@ -95033,15 +95029,15 @@
   "repo": "minad/org-modern",
   "unstable": {
    "version": [
-    20260125,
-    1438
+    20260306,
+    1839
    ],
    "deps": [
     "compat",
     "org"
    ],
-   "commit": "b4b5b1c864f1fdf240d1bbd7093529f5a75e8a06",
-   "sha256": "1ky4hwivfvna30kpj01mqzp30hmdh7znmv5jm9mpgjzibv12ilpg"
+   "commit": "bb5bada4436b768d66d73e22db829055d2d2411f",
+   "sha256": "0n3s3qjhc2av7f35q8cqjxgybjb93v43k3kya3qrsn9x482yny3v"
   },
   "stable": {
    "version": [
@@ -98705,11 +98701,11 @@
   "repo": "tbanel/orgaggregate",
   "unstable": {
    "version": [
-    20260226,
-    1128
+    20260306,
+    1721
    ],
-   "commit": "0581530b665ea5c4b07ef84c47de957881924ae6",
-   "sha256": "15rvqvn43f4qpqmqx1s0p8rwnsg0ykrcp2zxxbzhp80nhnfvw55n"
+   "commit": "b4185785096007a70dc661d183c962be123410af",
+   "sha256": "1kjy3n2maspc85w2nnj1fwcdfdfyiyhl0iqdvhc9nbzk2d1w2jdc"
   }
  },
  {
@@ -103920,14 +103916,14 @@
   "repo": "dnouri/pi-coding-agent",
   "unstable": {
    "version": [
-    20260304,
-    1623
+    20260306,
+    2236
    ],
    "deps": [
     "transient"
    ],
-   "commit": "8d8158b0a6150ce13d91e561a1223790670acaa7",
-   "sha256": "1abrjnmdbi9gimrgaih2vwxirj74pvgfkm09ldcw6c9pf6y35pv2"
+   "commit": "1f0f2c64512be63f84a3d2c314d19c6d97237c9b",
+   "sha256": "055chvwdyh3jxazyrgzmhxvgphm8hxv08c36fnkqxbx7j7lz16sg"
   },
   "stable": {
    "version": [
@@ -128841,19 +128837,19 @@
   "unstable": {
    "version": [
     20260306,
-    1212
+    2348
    ],
-   "commit": "79fae62090384f01de66d3eb8bddf0e9d4e358c7",
-   "sha256": "1yl95w97vmxzd6i2vmyrj3drw75ww9rf9lrk8ap92zazy8hzx13f"
+   "commit": "907e9ef9599f5bd5fbde01afe133417f730e6af5",
+   "sha256": "1c26j9jfdh3qih0yw3b26lzyp9bg3n9kzq2shhf6xvirfy270cv5"
   },
   "stable": {
    "version": [
     0,
-    4,
+    5,
     0
    ],
-   "commit": "aea330f33f922c50e108aeca4e83159ca5da8556",
-   "sha256": "1fdpav2h22k7lwn3sa5xby7wk8dabbkylbl8kpa8vwppcf5s4bb7"
+   "commit": "907e9ef9599f5bd5fbde01afe133417f730e6af5",
+   "sha256": "1c26j9jfdh3qih0yw3b26lzyp9bg3n9kzq2shhf6xvirfy270cv5"
   }
  },
  {
