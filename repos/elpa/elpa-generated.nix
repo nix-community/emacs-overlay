@@ -3362,10 +3362,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "25.1.0";
+      version = "26.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ess-25.1.0.tar";
-        sha256 = "0j2153mfmw53n16xl12kn71hyd3fxi6f6521rzh3114yclkpa38k";
+        url = "https://elpa.gnu.org/packages/ess-26.1.0.tar";
+        sha256 = "1spyys37b2rzqzpa7y5ajrrjzckrsbp3hrhsvn28qav3g5d17463";
       };
       packageRequires = [ ];
       meta = {

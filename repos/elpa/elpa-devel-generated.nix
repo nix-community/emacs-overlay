@@ -2705,10 +2705,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.0.0.0.20260307.80840";
+      version = "1.0.0.0.20260307.193256";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.0.0.0.20260307.80840.tar";
-        sha256 = "1n94xy7r63b5s2ayslv608zsqmi4g54g6alfwndqrcpx5f94i6nj";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.0.0.0.20260307.193256.tar";
+        sha256 = "08rq3y5hwpmcfg3mcjvnr9m672xz5dzfrgpanfhwmi7hb7fqhigv";
       };
       packageRequires = [ ];
       meta = {
@@ -3200,10 +3200,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260302.163943";
+      version = "0.0.20260307.101052";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260302.163943.tar";
-        sha256 = "0bqqi7az14fd30h0kfaz8h585v6717ybfcr65q0i1kq3jqw7y95a";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260307.101052.tar";
+        sha256 = "1g2mp20z3vndw2agb6ma0q8fq23ps8b1rmmia1jfjlfj6dbmmbri";
       };
       packageRequires = [ ];
       meta = {
@@ -3446,10 +3446,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "25.1.0.0.20260306.163926";
+      version = "26.1.0.0.20260307.144920";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-25.1.0.0.20260306.163926.tar";
-        sha256 = "1i9iqx7cn9dfmjxxzb5m04h4ly3kf473c7jsy2hb6xpgxxvkb5lm";
+        url = "https://elpa.gnu.org/devel/ess-26.1.0.0.20260307.144920.tar";
+        sha256 = "1f50mnhvqb934hjz8z7zjpngbppj7fad0qfbxwwv3jpbf4hnrqnd";
       };
       packageRequires = [ ];
       meta = {
@@ -6599,10 +6599,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260301.150718";
+      version = "10.0pre0.20260307.172132";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260301.150718.tar";
-        sha256 = "08ichz505v81qpjy8bdyd7f7r4hrkw0kd7l6a0hs3nacy4sw32sb";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260307.172132.tar";
+        sha256 = "0w87flqws3155csgydsh6rk6dnb00877jgl0dz7hv59yc06bn3x1";
       };
       packageRequires = [ ];
       meta = {
@@ -6840,10 +6840,10 @@
     elpaBuild {
       pname = "org-transclusion";
       ename = "org-transclusion";
-      version = "1.4.0.0.20260115.191247";
+      version = "1.4.0.0.20260307.164750";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20260115.191247.tar";
-        sha256 = "0wjnq0c93jn7w4bqk5l79fvd0x557wgc99fv2xfqr1bzinhss2cy";
+        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20260307.164750.tar";
+        sha256 = "1gl2kykmnaw6jppfsvszfbrn42aqn2r97zgqn4kdsj5f3i7lxxam";
       };
       packageRequires = [ org ];
       meta = {
@@ -7699,10 +7699,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20260221.145128";
+      version = "0.30.0.20260307.113211";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20260221.145128.tar";
-        sha256 = "0hq170dzda5i08r8njm5ql8x10495xwa2sqq586f8wk48cczph5c";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20260307.113211.tar";
+        sha256 = "0rbq19sgxf3p9dnx8fkwyki6qmdajmxygmcn34f9gbwyg1ip2m2c";
       };
       packageRequires = [ compat ];
       meta = {
