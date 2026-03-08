@@ -1257,10 +1257,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.4.0.20260304.93109";
+      version = "3.0.5.0.20260307.140540";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.4.0.20260304.93109.tar";
-        sha256 = "1mgb7q2gpd7v1sw28cz81xda6w8clp28hbz8jl5hs5dwpcafnw37";
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.5.0.20260307.140540.tar";
+        sha256 = "1pr3ffhi3a0bjcxad8s27bf9isizl41yybvc8f070kcajfjs2k2p";
       };
       packageRequires = [
         eglot
@@ -2594,10 +2594,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260303.230928";
+      version = "0.9.9.4.0.20260307.15437";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260303.230928.tar";
-        sha256 = "0scxazhbmqmggpj9csr6ipk4zxa899z39gw6n0mrp7r5mrmq6q5s";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260307.15437.tar";
+        sha256 = "0ffjkiawyq08w1y34jr0qpfilf22h1cpgpj7jfknqba94g6087bh";
       };
       packageRequires = [
         compat
