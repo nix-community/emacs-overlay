@@ -2594,10 +2594,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260307.232815";
+      version = "0.9.9.4.0.20260308.120244";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260307.232815.tar";
-        sha256 = "0i5ixsmaa63xbbx4km1mw561vq4if09fh371qz74psf80my8w0bk";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260308.120244.tar";
+        sha256 = "1y8nibh9nvr2whc8vsnjip2kyzargb3mf51ns8wkfgbgg31q7017";
       };
       packageRequires = [
         compat
@@ -3597,10 +3597,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.8alpha0.20260301.14447";
+      version = "2.9alpha0.20260308.93036";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.8alpha0.20260301.14447.tar";
-        sha256 = "1n2h348s6gkwy0blcai8jy5k92cia3hsyb3j9qk2075dy5p2flp4";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20260308.93036.tar";
+        sha256 = "0mm1gwzk8zdvdgl71zpxz45i84jz6yr3adzw347gkf0x768f64hk";
       };
       packageRequires = [ ];
       meta = {
@@ -5612,10 +5612,10 @@
     elpaBuild {
       pname = "undo-fu";
       ename = "undo-fu";
-      version = "0.5.0.20260108.32351";
+      version = "0.5.0.20260308.113123";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-0.5.0.20260108.32351.tar";
-        sha256 = "16jc23g4xcalbdzjsynq9nw0h7jj0v9r3cxf8jbmrp85zdpyjzk0";
+        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-0.5.0.20260308.113123.tar";
+        sha256 = "1v3zd61biayz33bn01hn9jzr0q7hjyp1psyx20mjpz9lbxkhkiwd";
       };
       packageRequires = [ ];
       meta = {
