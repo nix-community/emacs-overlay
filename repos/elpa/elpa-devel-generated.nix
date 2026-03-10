@@ -3179,10 +3179,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-es";
       ename = "emacs-lisp-intro-es";
-      version = "1.0.0.20260303.110155";
+      version = "1.0.0.20260309.221328";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-es-1.0.0.20260303.110155.tar";
-        sha256 = "0cqajc1fardarl6iyds26gzl62f2s5g2dygl0qyl27kfzw1g9if5";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-es-1.0.0.20260309.221328.tar";
+        sha256 = "1lz1yl5grdn9z520w2spabc0kdf1md9ffngz51v7q3psyq18ax0i";
       };
       packageRequires = [ ];
       meta = {
@@ -4758,10 +4758,10 @@
     elpaBuild {
       pname = "ivy";
       ename = "ivy";
-      version = "0.15.1.0.20260213.120315";
+      version = "0.15.1.0.20260309.211312";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ivy-0.15.1.0.20260213.120315.tar";
-        sha256 = "1s1r32r9pwbxpw19hn53d6mv53dfl96q6zyhfsmfdqawrq2qwzwy";
+        url = "https://elpa.gnu.org/devel/ivy-0.15.1.0.20260309.211312.tar";
+        sha256 = "03c4ldqf7hyvzw29iqmmgsxaq2y52ksds2zx4y82amcf35m0ah5q";
       };
       packageRequires = [ ];
       meta = {
@@ -6840,10 +6840,10 @@
     elpaBuild {
       pname = "org-transclusion";
       ename = "org-transclusion";
-      version = "1.4.0.0.20260307.164750";
+      version = "1.4.0.0.20260310.65912";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20260307.164750.tar";
-        sha256 = "1gl2kykmnaw6jppfsvszfbrn42aqn2r97zgqn4kdsj5f3i7lxxam";
+        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20260310.65912.tar";
+        sha256 = "00cbsqj3cvyzsxf3fxq5wxflsah10f8g97iy5ab51kkc9hkqr90g";
       };
       packageRequires = [ org ];
       meta = {
