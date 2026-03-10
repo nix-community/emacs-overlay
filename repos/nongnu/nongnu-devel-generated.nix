@@ -5180,10 +5180,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.4.1.0.20260216.184548";
+      version = "1.4.1.0.20260309.133148";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.1.0.20260216.184548.tar";
-        sha256 = "0fjnfxinr7lvhzd71xcvcpgq23fd57yawqhs40qy02mpq7d7h3ai";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.1.0.20260309.133148.tar";
+        sha256 = "1m2h59p649w6kcnwlqmiy6y02pb52fj84mwbsfdqnwsfhk77i6dw";
       };
       packageRequires = [ ];
       meta = {
