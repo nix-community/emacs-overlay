@@ -4519,10 +4519,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0snapshot0.20260305.62822";
+      version = "2.10.0snapshot0.20260310.85858";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0snapshot0.20260305.62822.tar";
-        sha256 = "1kf0ch3v0nrplqksgsx9h5zzibjyxfrb0sgdxpfdxyxj2gf55js8";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0snapshot0.20260310.85858.tar";
+        sha256 = "081aljvri52f6l4jj9w16lv67gzihmw1afymzpr6c8ak5q02c5vd";
       };
       packageRequires = [ compat ];
       meta = {
