@@ -10921,10 +10921,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20260206.35652";
+      version = "1.7.0.0.20260312.80108";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260206.35652.tar";
-        sha256 = "0sn1l2q5ka3qz066lz1gh9nbil8nzmyra8rbbd1h7ga4m9xhjs9g";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260312.80108.tar";
+        sha256 = "0ncq6v9ppn6riixshic1bwmykmy0bb93gzjbb3gbq8zim5xxs4cp";
       };
       packageRequires = [ ];
       meta = {
