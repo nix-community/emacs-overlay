@@ -3809,10 +3809,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.1";
+      version = "1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/futur-1.1.tar";
-        sha256 = "1q72dd6hnq3d5si9jr15nhqf5j6zk2k3c6dd3xv3k80cbfvwj9rx";
+        url = "https://elpa.gnu.org/packages/futur-1.2.tar";
+        sha256 = "01flh3d82kqwlk4fdhnixy71sgvbpi6c9fwswwzsvv2962dqh3ns";
       };
       packageRequires = [ ];
       meta = {
@@ -6946,10 +6946,10 @@
     elpaBuild {
       pname = "parser-generator";
       ename = "parser-generator";
-      version = "0.2.8";
+      version = "0.2.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/parser-generator-0.2.8.tar";
-        sha256 = "04cwf0qi14lr548wv3n2srx960s1py98y4y93bj34g0hr32rvapk";
+        url = "https://elpa.gnu.org/packages/parser-generator-0.2.9.tar";
+        sha256 = "1nbj18bb66garf59gq18gslnb8ngxa04d3567z0d9gp245nxr9w4";
       };
       packageRequires = [ ];
       meta = {
