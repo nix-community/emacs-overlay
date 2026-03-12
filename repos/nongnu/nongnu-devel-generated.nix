@@ -5476,6 +5476,27 @@
       };
     }
   ) { };
+  treepy = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "treepy";
+      ename = "treepy";
+      version = "0.1.2.0.20240930.72831";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/treepy-0.1.2.0.20240930.72831.tar";
+        sha256 = "18safack57b150c4rk3c7al32jxkfglpp4xl6yzx3bg6xc5wzfjx";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/treepy.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   treesit-fold = callPackage (
     {
       elpaBuild,
