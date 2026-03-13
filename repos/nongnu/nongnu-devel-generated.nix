@@ -620,10 +620,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0snapshot0.20260311.62016";
+      version = "1.22.0snapshot0.20260312.63418";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260311.62016.tar";
-        sha256 = "0smnxi2fvvimplky61rw7xldqfgk4r789vqmc09xy35fg9sfk1jm";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260312.63418.tar";
+        sha256 = "1d8vx1dphilabyk2lw11jik8b8p1f7qqsly7y8pxq6m6svhx6aw0";
       };
       packageRequires = [
         clojure-mode
@@ -2594,10 +2594,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260310.213554";
+      version = "0.9.9.4.0.20260312.3627";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260310.213554.tar";
-        sha256 = "1y4n91zxv61n7rikb3lxwwv6k6s1xfyjfv02wwr3b70lqvi2g7wi";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260312.3627.tar";
+        sha256 = "057lxwzkffjg5w4rf2j4pcs15vqax8075hwp6c3nn7ppiwb0ygpd";
       };
       packageRequires = [
         compat
@@ -3411,10 +3411,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.15.0.0.20260309.30437";
+      version = "0.15.0.0.20260312.10626";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260309.30437.tar";
-        sha256 = "0bgdja83ynni475xxxgcy3cjiq063lb40xcsjxlrncl5cksjf3g8";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260312.10626.tar";
+        sha256 = "1s16v7g2lszhq3qxp9fyfqk0f8l1x4599zgvbnplnamll0jsi7z3";
       };
       packageRequires = [
         compat
@@ -3439,10 +3439,10 @@
     elpaBuild {
       pname = "loopy-dash";
       ename = "loopy-dash";
-      version = "0.13.0.0.20251226.203150";
+      version = "0.13.0.0.20260312.12155";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-dash-0.13.0.0.20251226.203150.tar";
-        sha256 = "1xcda0jnbprs09d9yxfrqcapk2s5kz83nkl321yi9bnk9j1vsi6k";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-dash-0.13.0.0.20260312.12155.tar";
+        sha256 = "1rg98wgrh5s6slafz8g8piazz04pa6fwiymgpic6hcrmf842fgpy";
       };
       packageRequires = [
         dash
