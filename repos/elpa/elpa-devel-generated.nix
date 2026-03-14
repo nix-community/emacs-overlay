@@ -1084,10 +1084,10 @@
     elpaBuild {
       pname = "calibre";
       ename = "calibre";
-      version = "1.5.0.0.20251020.212619";
+      version = "1.5.2.0.20260313.14906";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/calibre-1.5.0.0.20251020.212619.tar";
-        sha256 = "0s2r9qa1mb4rppsb9h5wwwmzny6rpkcsjcl969fi8i2kqdsygjzh";
+        url = "https://elpa.gnu.org/devel/calibre-1.5.2.0.20260313.14906.tar";
+        sha256 = "1g3dylaz0lly8sj9hqwspz2lgxvx2gagjdgs0q5q7k55chx5bmby";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7566,10 +7566,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.2.0.20260312.135914";
+      version = "0.11.2.0.20260313.73301";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260312.135914.tar";
-        sha256 = "1kiicwfx7z2ycwxw5wdhxg145d9wzbzv806jj6a5vpr3wxgy9ifn";
+        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260313.73301.tar";
+        sha256 = "0vxpb0s17fri9gglwqcj235kv1cpbkw83nvx0s8wvd7jx91bzadm";
       };
       packageRequires = [ xref ];
       meta = {

@@ -1063,10 +1063,10 @@
     elpaBuild {
       pname = "calibre";
       ename = "calibre";
-      version = "1.5.0";
+      version = "1.5.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/calibre-1.5.0.tar";
-        sha256 = "08rcwrydrlc995sdxn5ssm5f6ighxi5yr6i7bx9a1nf7n91mgbgh";
+        url = "https://elpa.gnu.org/packages/calibre-1.5.2.tar";
+        sha256 = "0iqgd44wca54l5rn8g6c9qak2c1wblbnrx5a0118hkgckimp8c3k";
       };
       packageRequires = [ compat ];
       meta = {
