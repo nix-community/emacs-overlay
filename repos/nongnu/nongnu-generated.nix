@@ -5524,10 +5524,10 @@
     elpaBuild {
       pname = "treepy";
       ename = "treepy";
-      version = "0.1.2";
+      version = "0.1.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/treepy-0.1.2.tar";
-        sha256 = "1wad7lzgjaq3h1a5fhkm33c8ccpqiyq4vhkfw15bkdpxgw8pbzc8";
+        url = "https://elpa.nongnu.org/nongnu/treepy-0.1.3.tar";
+        sha256 = "07xwqvqhnx3nkrj0pb9fgbg3agcrxdzxl3c8isi3pxwqnchykk0z";
       };
       packageRequires = [ ];
       meta = {

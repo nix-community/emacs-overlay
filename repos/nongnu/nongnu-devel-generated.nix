@@ -3538,10 +3538,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260226.180821";
+      version = "4.5.0.0.20260313.151805";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260226.180821.tar";
-        sha256 = "05yri8gld75r11yvgciklqify8wl704afywwq2r6n12ci023yggn";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260313.151805.tar";
+        sha256 = "0wnvsni6fg35ym4mbp8yzlb3hcw4mrxap8xssnksby4yhb84vzjg";
       };
       packageRequires = [
         compat
@@ -3571,10 +3571,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260226.180821";
+      version = "4.5.0.0.20260313.151805";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260226.180821.tar";
-        sha256 = "0zvlwlfrw7cs7s2vvgh40bl1l18xwmm17ddgf9x48rk8gh0qmwcy";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260313.151805.tar";
+        sha256 = "1rd4xi3074h1gqiqckacwyxy7gbvja8xqcxfyykkbgdkw1izjdp7";
       };
       packageRequires = [
         compat
@@ -5180,10 +5180,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.4.1.0.20260312.234323";
+      version = "1.4.1.0.20260313.154751";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.1.0.20260312.234323.tar";
-        sha256 = "16x8m593n0akdv76n5srvr8dhrqkzay7difygqvqhyw8c67xn049";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.1.0.20260313.154751.tar";
+        sha256 = "1sb8nza41f6mahqx3zljdnrsi5z3add5qi0050y8vnczs80cmiz0";
       };
       packageRequires = [ ];
       meta = {
@@ -5485,10 +5485,10 @@
     elpaBuild {
       pname = "treepy";
       ename = "treepy";
-      version = "0.1.2.0.20240930.72831";
+      version = "0.1.3.0.20260313.91605";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treepy-0.1.2.0.20240930.72831.tar";
-        sha256 = "18safack57b150c4rk3c7al32jxkfglpp4xl6yzx3bg6xc5wzfjx";
+        url = "https://elpa.nongnu.org/nongnu-devel/treepy-0.1.3.0.20260313.91605.tar";
+        sha256 = "0bxp1xf2ckq4pa7bm5sc5i8y1nlyy36zyfavjndc2fihskr7d6pm";
       };
       packageRequires = [ ];
       meta = {
