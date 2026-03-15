@@ -786,10 +786,10 @@
     elpaBuild {
       pname = "crux";
       ename = "crux";
-      version = "0.6.0snapshot0.20250525.163240";
+      version = "0.6.0snapshot0.20260314.180946";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20250525.163240.tar";
-        sha256 = "07rdz5ns0bh8qgndz7q0xqymcpyvcgl3c1h4f2hajr2jqjbhhdv2";
+        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20260314.180946.tar";
+        sha256 = "07sxk6bk5afzgxglf8h9nkkvvafwdvsj6xvxjzjn93i9c37w670h";
       };
       packageRequires = [ ];
       meta = {
@@ -2594,10 +2594,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260312.3627";
+      version = "0.9.9.4.0.20260313.181443";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260312.3627.tar";
-        sha256 = "057lxwzkffjg5w4rf2j4pcs15vqax8075hwp6c3nn7ppiwb0ygpd";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260313.181443.tar";
+        sha256 = "0hj274bkvfb8c7kh9n00ra7m58a32p7z39kd5yjs0jprh0l62m7x";
       };
       packageRequires = [
         compat
@@ -4969,10 +4969,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260303.175413";
+      version = "2.32snapshot0.20260314.193041";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260303.175413.tar";
-        sha256 = "1xpxcfg03xlnphspcridv4k8llrwq95m1rzvly6pl3v9zhc66i21";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260314.193041.tar";
+        sha256 = "1cshqq5h7h1sjj3nybv6sd95md4j6niiss8ch69lim8f8frz9vf1";
       };
       packageRequires = [ macrostep ];
       meta = {
