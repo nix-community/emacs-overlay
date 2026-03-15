@@ -3116,10 +3116,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-es";
       ename = "emacs-lisp-intro-es";
-      version = "1.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/emacs-lisp-intro-es-1.0.tar";
-        sha256 = "1sh3q6pspj9pznlfl89j2y1jfvhdnwhi95yr1vvyj6hwwj7ir8n9";
+        url = "https://elpa.gnu.org/packages/emacs-lisp-intro-es-1.0.1.tar";
+        sha256 = "1p3k6wd94zxdmmnbiiwa2hynd2p2vpdrg0nsy86qm0gxqx3pgjf1";
       };
       packageRequires = [ ];
       meta = {
