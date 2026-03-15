@@ -47,7 +47,7 @@ function update_unstable() {
 }
 
 update_savannah_branch master
-update_savannah_branch feature/igc
+update_savannah_branch feature/igc3
 update_unstable
 
 nix-build --no-out-link --show-trace ./test.nix

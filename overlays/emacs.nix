@@ -92,7 +92,7 @@ let
                               };
                             });
 
-  emacs-igc = let base = (mkGitEmacs "emacs-igc" ../repos/emacs/emacs-feature_igc.json) { };
+  emacs-igc = let base = (mkGitEmacs "emacs-igc" ../repos/emacs/emacs-feature_igc3.json) { };
                   emacs = emacs-igc;
               in
                 base.overrideAttrs (
@@ -104,7 +104,7 @@ let
                     };
                   });
 
-  emacs-igc-pgtk = let base = (mkGitEmacs "emacs-igc-pgtk" ../repos/emacs/emacs-feature_igc.json) { withPgtk = true; };
+  emacs-igc-pgtk = let base = (mkGitEmacs "emacs-igc-pgtk" ../repos/emacs/emacs-feature_igc3.json) { withPgtk = true; };
                        emacs = emacs-igc-pgtk;
                    in
                      base.overrideAttrs (
