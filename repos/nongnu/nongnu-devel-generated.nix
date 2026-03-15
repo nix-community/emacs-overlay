@@ -786,10 +786,10 @@
     elpaBuild {
       pname = "crux";
       ename = "crux";
-      version = "0.6.0snapshot0.20260314.180946";
+      version = "0.6.0snapshot0.20260315.62204";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20260314.180946.tar";
-        sha256 = "07sxk6bk5afzgxglf8h9nkkvvafwdvsj6xvxjzjn93i9c37w670h";
+        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20260315.62204.tar";
+        sha256 = "0pk55r3yr4nl43r61ay29rhx0kw77k0490w3j2gq60h89b605rjm";
       };
       packageRequires = [ ];
       meta = {
@@ -3597,10 +3597,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.9alpha0.20260308.93036";
+      version = "2.9alpha0.20260315.35038";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20260308.93036.tar";
-        sha256 = "0mm1gwzk8zdvdgl71zpxz45i84jz6yr3adzw347gkf0x768f64hk";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20260315.35038.tar";
+        sha256 = "1ji398q0lk22b1dj8sg4bvvjnrb0m5jl4zi719qba7py90favhlg";
       };
       packageRequires = [ ];
       meta = {
@@ -4969,10 +4969,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260314.193041";
+      version = "2.32snapshot0.20260314.223546";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260314.193041.tar";
-        sha256 = "1cshqq5h7h1sjj3nybv6sd95md4j6niiss8ch69lim8f8frz9vf1";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260314.223546.tar";
+        sha256 = "1pai5zj9wwzbzvl479i6bl404jxdjxwl173nmzxci19x6x5k3ggj";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -5180,10 +5180,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.4.1.0.20260313.154751";
+      version = "1.4.1.0.20260314.221855";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.1.0.20260313.154751.tar";
-        sha256 = "1sb8nza41f6mahqx3zljdnrsi5z3add5qi0050y8vnczs80cmiz0";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.1.0.20260314.221855.tar";
+        sha256 = "0wj4kfwcjwssy2lfp18dzvfm6yyx37zgfrq9w3pdbi6xfkjaxfl9";
       };
       packageRequires = [ ];
       meta = {
