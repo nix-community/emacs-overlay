@@ -3200,10 +3200,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260314.141139";
+      version = "0.0.20260315.201559";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260314.141139.tar";
-        sha256 = "09h3g87rbq5zlbw53h3pfpbipdjd0iv75dxh3fjnaziaz7z1sxdc";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260315.201559.tar";
+        sha256 = "1fpyn1lk19gd16ns13ggym9s6x868lj72c9dkaq6amzdwa9h9cg8";
       };
       packageRequires = [ ];
       meta = {
@@ -3895,10 +3895,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.2.0.20260315.161048";
+      version = "1.2.0.20260315.223102";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.2.0.20260315.161048.tar";
-        sha256 = "1zjx5kqlgqj3z31l5mbi06fkbkbsf3clif904wf3mp484f6l1b0v";
+        url = "https://elpa.gnu.org/devel/futur-1.2.0.20260315.223102.tar";
+        sha256 = "1mmckghgapwkp6i0wc9cz0yqd375cjzv3dsai333q47mikcp3xpz";
       };
       packageRequires = [ ];
       meta = {
@@ -8752,10 +8752,10 @@
     elpaBuild {
       pname = "soap-client";
       ename = "soap-client";
-      version = "3.2.3.0.20260101.125434";
+      version = "3.2.3.0.20260310.104821";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/soap-client-3.2.3.0.20260101.125434.tar";
-        sha256 = "0qdr97gqjaj8pli78aapq1hfrpwgdkapsdfqj64cwc3jcbzw5554";
+        url = "https://elpa.gnu.org/devel/soap-client-3.2.3.0.20260310.104821.tar";
+        sha256 = "0qz812kslvqx1bq6k4a3ccfc0d6prz845khq14rawm75pdaiwdaz";
       };
       packageRequires = [ cl-lib ];
       meta = {
