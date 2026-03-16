@@ -2052,10 +2052,10 @@
     elpaBuild {
       pname = "forth-mode";
       ename = "forth-mode";
-      version = "0.2.0.20251027.73009";
+      version = "0.3.0.20260315.80323";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/forth-mode-0.2.0.20251027.73009.tar";
-        sha256 = "1h7vvigb98z1bj9s6j34jw8kwlg71agi92plxsbk89cpdx8w9xki";
+        url = "https://elpa.nongnu.org/nongnu-devel/forth-mode-0.3.0.20260315.80323.tar";
+        sha256 = "1y5brwjf832jwy9hnmgly655ayjv1hh2y93v35a3vywhjsh6887x";
       };
       packageRequires = [ cl-lib ];
       meta = {

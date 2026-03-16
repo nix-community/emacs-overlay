@@ -2060,6 +2060,7 @@
   ) { };
   forth-mode = callPackage (
     {
+      cl-lib ? null,
       elpaBuild,
       fetchurl,
       lib,
@@ -2067,12 +2068,12 @@
     elpaBuild {
       pname = "forth-mode";
       ename = "forth-mode";
-      version = "0.2";
+      version = "0.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/forth-mode-0.2.tar";
-        sha256 = "04xcvjzvl4pgx48l2pzil7s2iqqbf86z57wv76ahp4sd1xigpfqc";
+        url = "https://elpa.nongnu.org/nongnu/forth-mode-0.3.tar";
+        sha256 = "1xhx5dcna0r6b9l9svqlvhqrhnd4678ifzbn5mzf34y09kq7djl2";
       };
-      packageRequires = [ ];
+      packageRequires = [ cl-lib ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/forth-mode.html";
         license = lib.licenses.free;
