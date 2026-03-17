@@ -3809,10 +3809,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.2";
+      version = "1.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/futur-1.2.tar";
-        sha256 = "01flh3d82kqwlk4fdhnixy71sgvbpi6c9fwswwzsvv2962dqh3ns";
+        url = "https://elpa.gnu.org/packages/futur-1.3.tar";
+        sha256 = "1i531psrmbhbqjsgq6kd3fgpx31z9722nljfldgwgmmbwi4i9386";
       };
       packageRequires = [ ];
       meta = {
