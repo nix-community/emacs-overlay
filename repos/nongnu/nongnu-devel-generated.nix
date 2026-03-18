@@ -650,10 +650,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.22.0.0.20260305.74650";
+      version = "5.22.0.0.20260317.173335";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.22.0.0.20260305.74650.tar";
-        sha256 = "13jp42zh027w3mj7kgs6rkmixmpar3s3iqc5ymf516yh0ajy33r2";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.22.0.0.20260317.173335.tar";
+        sha256 = "0x3lsrd3kgadls1ar73bwyl7gqza2qzg6101rymliqk4clvg51vf";
       };
       packageRequires = [ ];
       meta = {
