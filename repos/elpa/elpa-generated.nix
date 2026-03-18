@@ -3997,26 +3997,18 @@
     {
       compat,
       elpaBuild,
-      emacsql,
       fetchurl,
       lib,
-      org-gnosis,
-      transient,
     }:
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.8.0";
+      version = "0.9.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gnosis-0.8.0.tar";
-        sha256 = "1yxab2w0v9s1nkf06cwv9gzjckfkn642nfrpqrbrgfyj47dbw9r7";
+        url = "https://elpa.gnu.org/packages/gnosis-0.9.0.tar";
+        sha256 = "04prh38gwwpr6jpj7fgsnvv5bv754qla59vm8wn5i58z8saraf7m";
       };
-      packageRequires = [
-        compat
-        emacsql
-        org-gnosis
-        transient
-      ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/gnosis.html";
         license = lib.licenses.free;
@@ -5679,10 +5671,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.1.1";
+      version = "8.1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/matlab-mode-8.1.1.tar";
-        sha256 = "0d0zq1fhx8dn0j2b4b62zpa2y301y2gg79msrybj4bm42hsqfx8x";
+        url = "https://elpa.gnu.org/packages/matlab-mode-8.1.2.tar";
+        sha256 = "17s568gnfx0d6s411wpj033a39iik9bsk1w2xkwvgnxwdvw0haxh";
       };
       packageRequires = [ ];
       meta = {
