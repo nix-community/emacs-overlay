@@ -650,10 +650,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.22.0.0.20260317.173335";
+      version = "5.22.0.0.20260318.174000";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.22.0.0.20260317.173335.tar";
-        sha256 = "0x3lsrd3kgadls1ar73bwyl7gqza2qzg6101rymliqk4clvg51vf";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.22.0.0.20260318.174000.tar";
+        sha256 = "1zs7bpw11sylzqfrrkh5hpzxg1hqcd7vmbnns5xabswgjpilf6xc";
       };
       packageRequires = [ ];
       meta = {
@@ -1257,10 +1257,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.5.0.20260307.140540";
+      version = "3.0.5.0.20260318.102558";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.5.0.20260307.140540.tar";
-        sha256 = "1pr3ffhi3a0bjcxad8s27bf9isizl41yybvc8f070kcajfjs2k2p";
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.5.0.20260318.102558.tar";
+        sha256 = "19s9dhiy2qbqhf4999fi9hra69a73l49c4n0a6k4kmma8lxzrhbf";
       };
       packageRequires = [
         eglot
@@ -3538,10 +3538,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260318.12137";
+      version = "4.5.0.0.20260318.122554";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260318.12137.tar";
-        sha256 = "02vwdq3kcz19yngbb8qqqiqn78w3wd9rcyxdqis1639nwhb7p1zd";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260318.122554.tar";
+        sha256 = "00mpjzvb7415myby5k1ddsz7yp1pjycmy4w57h5ha0y3h9b8aabc";
       };
       packageRequires = [
         compat
@@ -3571,10 +3571,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260318.12137";
+      version = "4.5.0.0.20260318.122554";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260318.12137.tar";
-        sha256 = "0mli68g8pgjp52xhljbzjqgzghfa632ddlk1z1bd31ncr8qasf0n";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260318.122554.tar";
+        sha256 = "10p27z2pppl6qbv3vpjynl3n0hw7yh762ni6615zak5jzf3pxdqw";
       };
       packageRequires = [
         compat
@@ -3620,10 +3620,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.12.0.20260303.113024";
+      version = "2.0.13.0.20260318.172516";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.12.0.20260303.113024.tar";
-        sha256 = "142w25q35cdqlvc2nx023s11fiya8d6f14cfh1nzv3861f2nvy64";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.13.0.20260318.172516.tar";
+        sha256 = "1al67nr4c4crfxc7xaax1cvfqxc0y92k0nr3q951c5xrnmlfhbcx";
       };
       packageRequires = [
         persist
