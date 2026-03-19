@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.9.0.20260316.224812";
+      version = "1.9.9.0.20260318.110333";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20260316.224812.tar";
-        sha256 = "1yxxi323qhw4lwqbsgjkyk07nz45423jph3fvcjmhkc3pgb1dapi";
+        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20260318.110333.tar";
+        sha256 = "1srygl43ia3lmn7p17ar65h1rixmwggg5xmwayig6pnkq1z218zq";
       };
       packageRequires = [ ];
       meta = {
@@ -3895,10 +3895,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.3.0.20260316.111655";
+      version = "1.3.0.20260318.100717";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.3.0.20260316.111655.tar";
-        sha256 = "0v6mmpfvkyacp4gzhsk8riizw8qaaszq5jjl2jcdpsv5cfn4pa83";
+        url = "https://elpa.gnu.org/devel/futur-1.3.0.20260318.100717.tar";
+        sha256 = "10pljp3am0xwzk6dxc4hsw6i9bxf9409v530rcjggaxmgi64lkk7";
       };
       packageRequires = [ ];
       meta = {
@@ -4559,10 +4559,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260316.215304";
+      version = "9.0.2pre0.20260317.230602";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260316.215304.tar";
-        sha256 = "0friahf16cpmpdzdpx5gzqzvwi6axxsxxm9v4rdvz39gh3mr3ajz";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260317.230602.tar";
+        sha256 = "02agnj4n8ibn97yhgbyblnhr9l1bncbys6wsss1zafibwfqz4vbj";
       };
       packageRequires = [ ];
       meta = {
@@ -4750,10 +4750,10 @@
     elpaBuild {
       pname = "ivy";
       ename = "ivy";
-      version = "0.15.1.0.20260309.211312";
+      version = "0.15.1.0.20260318.135818";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ivy-0.15.1.0.20260309.211312.tar";
-        sha256 = "03c4ldqf7hyvzw29iqmmgsxaq2y52ksds2zx4y82amcf35m0ah5q";
+        url = "https://elpa.gnu.org/devel/ivy-0.15.1.0.20260318.135818.tar";
+        sha256 = "19qzzdgkbhl49lv147blb1rznf86mhbm1d1h7gzanva17pc7cpi7";
       };
       packageRequires = [ ];
       meta = {
@@ -5969,10 +5969,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260202.224249";
+      version = "0.7.1.0.20260318.10537";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260202.224249.tar";
-        sha256 = "0qd8h8aicmxqq7y9whgvapi0vlfgrhplrmzn2bpq4pxgk2d62zyn";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260318.10537.tar";
+        sha256 = "1s41pg3fpzjkk7qav3z8yqcgr6isx2a8gl63nfcc16m7hc868bga";
       };
       packageRequires = [
         dash
