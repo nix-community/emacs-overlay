@@ -1916,10 +1916,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "36.0.0.20260305.101707";
+      version = "36.0.0.20260320.171504";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-36.0.0.20260305.101707.tar";
-        sha256 = "1fr8gw0jn56p9vam11aa3jsqbm2m9zqnca7zirl4i4siyr0ypa1x";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-36.0.0.20260320.171504.tar";
+        sha256 = "1pzwhry986dfkvibfdqwb6nllmmn2yc3kpzgd046jnyq25xikgig";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3538,10 +3538,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260319.223623";
+      version = "4.5.0.0.20260320.95647";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260319.223623.tar";
-        sha256 = "02hls6gwfv3vy4ysi64vsql98rb4dkm7gxsni93ay6khsdrnrcar";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260320.95647.tar";
+        sha256 = "0r9kf1vls6c7fb2w6v02djry8m2viyrc7gznkmdmvbjd3j0cja9p";
       };
       packageRequires = [
         compat
@@ -3571,10 +3571,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260319.223623";
+      version = "4.5.0.0.20260320.95647";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260319.223623.tar";
-        sha256 = "0hfny395z7nirmg5ais7jgf35m6ibzl2a4gs7wrjh27l0h7jl3n9";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260320.95647.tar";
+        sha256 = "1ygyswn8s1137gwxkb4h6ry7ka4as35x6m8s202g41lj8181j2p9";
       };
       packageRequires = [
         compat
