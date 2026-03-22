@@ -736,10 +736,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.1.0.20260117.165420";
+      version = "1.1.0.20260322.1650";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.1.0.20260117.165420.tar";
-        sha256 = "0jv0kdy91gynlv292qy86n33b2hnryhmyzyk5c5n0vmik3zijyay";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.1.0.20260322.1650.tar";
+        sha256 = "1lwc47d57vgxkhpi2ysgmhafkgldmgs1lrp16yvq6ijf4m93pfr6";
       };
       packageRequires = [
         consult
@@ -2487,10 +2487,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.11.0.20260122.130054";
+      version = "0.11.0.20260322.2005";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.11.0.20260122.130054.tar";
-        sha256 = "1qprpdry88b318774l26z7qddmnbf9nidzmc0bnhdgcxrbz3hnnk";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.11.0.20260322.2005.tar";
+        sha256 = "02pmp5rs7xknhic5dzplm8zc0jq2z4ba4j46imv4pjq1jcd1vnpa";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4842,10 +4842,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "98.0.0.20260117.165324";
+      version = "98.0.0.20260322.2100";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-98.0.0.20260117.165324.tar";
-        sha256 = "0b3327x1vx2mr538kghga9hmv1jn1i8zbnj2879wh4abhahdc0fw";
+        url = "https://elpa.nongnu.org/nongnu-devel/scad-mode-98.0.0.20260322.2100.tar";
+        sha256 = "12a75mzbdvr1fca8s12ka269g2l7ag60czgmgjwlvfdjl5pw6a8x";
       };
       packageRequires = [ compat ];
       meta = {
