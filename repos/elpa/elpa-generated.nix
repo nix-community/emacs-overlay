@@ -4211,10 +4211,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.13.1";
+      version = "0.14.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greader-0.13.1.tar";
-        sha256 = "0av55fk2r1bqsb8dp17y3cka46hda29x16y763az0lwga33ssz89";
+        url = "https://elpa.gnu.org/packages/greader-0.14.0.tar";
+        sha256 = "138x7h4zc9lps5nm0r7hjlwnd6znxw5j4vx68cam5z5aiqx03r1i";
       };
       packageRequires = [
         compat
@@ -9465,10 +9465,10 @@
     elpaBuild {
       pname = "tramp-nspawn";
       ename = "tramp-nspawn";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-nspawn-1.0.1.tar";
-        sha256 = "0cy8l389s6pi135gxcygv1vna6k3gizqd33avf3wsdbnqdf2pjnc";
+        url = "https://elpa.gnu.org/packages/tramp-nspawn-1.0.2.tar";
+        sha256 = "1n1bb56zzzy4rw2510pnp0k6ax48jwdzqrx6cfrw1pjgclrn1xn9";
       };
       packageRequires = [ ];
       meta = {
@@ -9756,10 +9756,10 @@
     elpaBuild {
       pname = "urgrep";
       ename = "urgrep";
-      version = "0.5.2";
+      version = "0.6.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/urgrep-0.5.2.tar";
-        sha256 = "1lwr601xyw0gcix6v53dn5h0jsxwpa5pkqgz56a6311z9d9qlj3c";
+        url = "https://elpa.gnu.org/packages/urgrep-0.6.0.tar";
+        sha256 = "0mgl3rzpc5lpk2fx7w0n9i72mwj636x31jfnp3dyfgr7srpf1ms6";
       };
       packageRequires = [
         compat

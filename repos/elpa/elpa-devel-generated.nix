@@ -3895,10 +3895,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.3.0.20260319.153050";
+      version = "1.3.0.20260320.181139";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.3.0.20260319.153050.tar";
-        sha256 = "0wryznsr0lmj0wngp4mzycm78xz57k57a9qii8rfhqxhn6wvmf3k";
+        url = "https://elpa.gnu.org/devel/futur-1.3.0.20260320.181139.tar";
+        sha256 = "0lsyg0hi6mzw4i1njma7421la37spjfikakh2pg3k89npwp04qi0";
       };
       packageRequires = [ ];
       meta = {
@@ -4297,10 +4297,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.13.1.0.20260306.51522";
+      version = "0.14.0.0.20260321.181119";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.13.1.0.20260306.51522.tar";
-        sha256 = "041nayf6vsbslnwlsgx96mnlcdvjldqp7jk0blmx6a0ikbn4qdl7";
+        url = "https://elpa.gnu.org/devel/greader-0.14.0.0.20260321.181119.tar";
+        sha256 = "1zf42mxll019n9m71dlvlvb6m84ima8xyw8z76s3l5ph01mhs84z";
       };
       packageRequires = [
         compat
@@ -9701,10 +9701,10 @@
     elpaBuild {
       pname = "tramp-nspawn";
       ename = "tramp-nspawn";
-      version = "1.0.1.0.20220923.120957";
+      version = "1.0.2.0.20240401.94952";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-nspawn-1.0.1.0.20220923.120957.tar";
-        sha256 = "0mpr7d5vgfwsafbmj8lqc1k563b7qnjz1zq73rl8rb2km5jxczhn";
+        url = "https://elpa.gnu.org/devel/tramp-nspawn-1.0.2.0.20240401.94952.tar";
+        sha256 = "0mahmy5r4chd83bwz2q8ac2m99iymwhgjzaxz2grzs24ajsrq1mb";
       };
       packageRequires = [ ];
       meta = {
@@ -9767,10 +9767,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.12.0.0.20260317.141222";
+      version = "0.12.0.0.20260321.134759";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260317.141222.tar";
-        sha256 = "0dyywqa2ir6x76kz68fqg4zb0pwd66pw9p75377qbyjn3wkl1jrb";
+        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260321.134759.tar";
+        sha256 = "1d9man8y7l0dnz3gbdy5w2zr34hfkhi48n8myhnmfjn4r5yhd28k";
       };
       packageRequires = [
         compat
@@ -9987,20 +9987,16 @@
       elpaBuild,
       fetchurl,
       lib,
-      project,
     }:
     elpaBuild {
       pname = "urgrep";
       ename = "urgrep";
-      version = "0.6.0snapshot0.20250709.114307";
+      version = "0.6.1snapshot0.20260321.103449";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/urgrep-0.6.0snapshot0.20250709.114307.tar";
-        sha256 = "149q30izqnv462k4rvghb5g3mh6p3zznh2sqdzi4msk2mbpgggny";
+        url = "https://elpa.gnu.org/devel/urgrep-0.6.1snapshot0.20260321.103449.tar";
+        sha256 = "09ijxd7nzx7xps3db408i0hmr40m7rsc2phim67dm2sma622xl57";
       };
-      packageRequires = [
-        compat
-        project
-      ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/urgrep.html";
         license = lib.licenses.free;
@@ -10499,10 +10495,10 @@
     elpaBuild {
       pname = "wcheck-mode";
       ename = "wcheck-mode";
-      version = "2021.0.20220101.81620";
+      version = "2021.0.20260321.190237";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/wcheck-mode-2021.0.20220101.81620.tar";
-        sha256 = "15785pi3fgfdi3adsa4lhsbdqw6bnfcm44apxpfixqfx56d3xh8m";
+        url = "https://elpa.gnu.org/devel/wcheck-mode-2021.0.20260321.190237.tar";
+        sha256 = "0q5fwg35dgv886x7fqn6rsyp6yw9qcq4hhamdjdz98r6hg40y666";
       };
       packageRequires = [ ];
       meta = {
