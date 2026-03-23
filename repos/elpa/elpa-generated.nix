@@ -3809,10 +3809,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.3";
+      version = "1.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/futur-1.3.tar";
-        sha256 = "1i531psrmbhbqjsgq6kd3fgpx31z9722nljfldgwgmmbwi4i9386";
+        url = "https://elpa.gnu.org/packages/futur-1.4.tar";
+        sha256 = "036b81cp5nbzhykfsj6rkhxb5b675k38njmb32bj20g9h7pkd1vl";
       };
       packageRequires = [ ];
       meta = {
@@ -4211,10 +4211,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.14.0";
+      version = "0.15.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greader-0.14.0.tar";
-        sha256 = "138x7h4zc9lps5nm0r7hjlwnd6znxw5j4vx68cam5z5aiqx03r1i";
+        url = "https://elpa.gnu.org/packages/greader-0.15.0.tar";
+        sha256 = "0zdclqdwrqfck4dyjz5id3hi506h0qsnggxg0mqxh0n53s4inc3n";
       };
       packageRequires = [
         compat
@@ -4235,10 +4235,10 @@
     elpaBuild {
       pname = "greenbar";
       ename = "greenbar";
-      version = "1.2";
+      version = "1.2.260317";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greenbar-1.2.tar";
-        sha256 = "0w85b3gnckdiv32ki4kkwhgxc1m9ks7hayk87iapbzayqzvlqj3v";
+        url = "https://elpa.gnu.org/packages/greenbar-1.2.260317.tar";
+        sha256 = "0gflgrc60xf6vkj2r7k5889l6a2ky9vbss1f19x1ci4v6dx6y3hz";
       };
       packageRequires = [ ];
       meta = {
