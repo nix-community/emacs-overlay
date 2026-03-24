@@ -144,10 +144,10 @@
     elpaBuild {
       pname = "adaptive-wrap";
       ename = "adaptive-wrap";
-      version = "0.8";
+      version = "0.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/adaptive-wrap-0.8.tar";
-        sha256 = "1dz5mi21v2wqh969m3xggxbzq3qf78hps418rzl73bb57l837qp8";
+        url = "https://elpa.gnu.org/packages/adaptive-wrap-0.9.tar";
+        sha256 = "1i1g14h6yyq6fswyb3wf0y9zna0icp64484x7qd6wdqj438r87va";
       };
       packageRequires = [ ];
       meta = {
@@ -2642,10 +2642,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.0.0";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/doric-themes-1.0.0.tar";
-        sha256 = "0bgbqa8j5yi23b7k447q5sffr1vk8pg23qk0a56vayz62y7ga8xa";
+        url = "https://elpa.gnu.org/packages/doric-themes-1.1.0.tar";
+        sha256 = "12rm5swbhn52yh4nvngqqbaiy8j97bi86a0k7swdb08vxmgp5kzh";
       };
       packageRequires = [ ];
       meta = {
