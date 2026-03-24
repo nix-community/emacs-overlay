@@ -3399,10 +3399,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.2snapshot0.20260304.144305";
+      version = "5.6.2snapshot0.20260323.181457";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.2snapshot0.20260304.144305.tar";
-        sha256 = "01n4z2x5xn8xqyj6qwl7pcxpvhawg3j4zp4lwp96igriyf7vr80c";
+        url = "https://elpa.gnu.org/devel/erc-5.6.2snapshot0.20260323.181457.tar";
+        sha256 = "0i94a6g1k4gzfz3jzm975w9v21bj6kifajn6wqnnswyl4cis65n3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4089,10 +4089,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.9.0.0.20260323.3151";
+      version = "0.9.0.0.20260324.41002";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.9.0.0.20260323.3151.tar";
-        sha256 = "1p7lc8rg81rpn1f7i9j9854ah4fp7yjv3mamn87fawbsm9c42niv";
+        url = "https://elpa.gnu.org/devel/gnosis-0.9.0.0.20260324.41002.tar";
+        sha256 = "0zzy89q8a1x6jl6jidrhr89rk9fb7h7xrd1w5ss6q9s75nl2j4y5";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4559,10 +4559,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260323.5258";
+      version = "9.0.2pre0.20260323.192805";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260323.5258.tar";
-        sha256 = "1ip68z4azva5z823ffhc2ffdszz6n72fm05chh802mmsam7ix52q";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260323.192805.tar";
+        sha256 = "19cdpp1x4slxzvbv4h7bfkm6v1xmr3gpa7ba4zm7nf4p38r9vfp1";
       };
       packageRequires = [ ];
       meta = {
