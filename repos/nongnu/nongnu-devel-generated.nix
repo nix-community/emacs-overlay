@@ -650,10 +650,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.22.0.0.20260319.91655";
+      version = "5.22.0.0.20260323.135956";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.22.0.0.20260319.91655.tar";
-        sha256 = "19z6fgvb9dh3h6vzkxm7fv4ifzb4a8a2c8qa68drsrdn2bsxnza1";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.22.0.0.20260323.135956.tar";
+        sha256 = "0ch8rccdz417lijj46zcgg9js8ksm0srq5fz0qs3hb5la0xphfms";
       };
       packageRequires = [ ];
       meta = {
@@ -1257,10 +1257,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.5.0.20260318.102558";
+      version = "3.0.5.0.20260323.104038";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.5.0.20260318.102558.tar";
-        sha256 = "19s9dhiy2qbqhf4999fi9hra69a73l49c4n0a6k4kmma8lxzrhbf";
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.5.0.20260323.104038.tar";
+        sha256 = "0w98qsjhj4hjn5pdqg0igps1p972gppiydafx7hhdzi7zfg85igv";
       };
       packageRequires = [
         eglot
