@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260324.121411";
+      version = "14.1.2.0.20260325.105410";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260324.121411.tar";
-        sha256 = "1kc00hcwan0r12h94975mlk8pqbqi7l7yypdvicl7bmq8sziw1aw";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260325.105410.tar";
+        sha256 = "1q58xhwgmdgybn1gqccj6yy0w5kqm16mdfgm65h063sgp6gqzng5";
       };
       packageRequires = [ ];
       meta = {
@@ -3200,10 +3200,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260322.194346";
+      version = "0.0.20260325.130631";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260322.194346.tar";
-        sha256 = "04bnsf4xjxdcj2666lcah9s6xw614yrabrl2lf1wbznlz72vqynf";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260325.130631.tar";
+        sha256 = "0ylnrglbp2s7ad85kv478gnlspw2snbld4mixdw613fmhbl7j69m";
       };
       packageRequires = [ ];
       meta = {
@@ -4297,10 +4297,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.15.0.0.20260322.145252";
+      version = "0.17.0.0.20260324.123610";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.15.0.0.20260322.145252.tar";
-        sha256 = "0m7di40rwl1jvh2p13j0ancvhfzacx0prdwdwv963ak52dag4yxf";
+        url = "https://elpa.gnu.org/devel/greader-0.17.0.0.20260324.123610.tar";
+        sha256 = "1nly0596ggjdzg60vqv7qrmahanabx7i8hcp9cv9417spiw7za59";
       };
       packageRequires = [
         compat
@@ -4957,10 +4957,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.7.0.20260309.154428";
+      version = "2.7.0.20260325.134838";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.7.0.20260309.154428.tar";
-        sha256 = "0dbafbsx7mssbg3xn7bb1x38qp5mpdbq5j8ji4xfc0ys0x8lnczv";
+        url = "https://elpa.gnu.org/devel/jinx-2.7.0.20260325.134838.tar";
+        sha256 = "1x0llc7w0jx0bg6xpp5cry2q7xg3f7pk280svbhdxqx0flqhmkg9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6036,10 +6036,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260320.61715";
+      version = "5.2.0.0.20260325.80907";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260320.61715.tar";
-        sha256 = "135x0aiwm4q51v183rixmry39krmfppzhjqx60zbi5fd92s955hc";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260325.80907.tar";
+        sha256 = "0lidvkq5z51llc8cipn7yf3qs1605kk94ghn7mpfkzk6l5b0ixik";
       };
       packageRequires = [ ];
       meta = {
