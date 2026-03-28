@@ -3183,10 +3183,10 @@
     elpaBuild {
       pname = "j-mode";
       ename = "j-mode";
-      version = "2.0.2.0.20251003.80527";
+      version = "2.0.2.0.20260328.44146";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/j-mode-2.0.2.0.20251003.80527.tar";
-        sha256 = "1nzfxdx2ngkndrig2bbqh5y3459gslh9s00r4p9kwwvc5m0wrj47";
+        url = "https://elpa.nongnu.org/nongnu-devel/j-mode-2.0.2.0.20260328.44146.tar";
+        sha256 = "09y362j6mjk0px2ap4gci4gxhpd39rg0bn6kih8631yvnclm614n";
       };
       packageRequires = [ ];
       meta = {
@@ -4969,10 +4969,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260325.11033";
+      version = "2.32snapshot0.20260327.213903";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260325.11033.tar";
-        sha256 = "1dr94iqprfwckxj3pwjsgqwyyxzz09rvs6p1x2jlxj63p588j49h";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260327.213903.tar";
+        sha256 = "0935qiiwldsd6g0cr0h2xxn9pxzrj02qy8fj61zy9gi8b41il3g6";
       };
       packageRequires = [ macrostep ];
       meta = {
