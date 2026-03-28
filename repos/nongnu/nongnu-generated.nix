@@ -1857,10 +1857,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.33";
+      version = "0.34";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fj-0.33.tar";
-        sha256 = "0rv72qjwvln1a2fbmmz2aihf8ia42l3cpmax8rvhdzg9a1lhyazi";
+        url = "https://elpa.nongnu.org/nongnu/fj-0.34.tar";
+        sha256 = "0aqfipcpbsxp2pm05p44fdybhldpbvii2x2m0az9s3gkm7dvwg87";
       };
       packageRequires = [
         fedi
