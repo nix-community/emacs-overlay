@@ -57,18 +57,10 @@
       # for backward compatibility, is safe to delete, not referenced anywhere
       overlay = self.overlays.default;
 
-      hydraJobs =
+      hydraEmacsen =
         lib.genAttrs [ "x86_64-linux" "aarch64-linux" ] (system:
         let
           mkHydraJobs = pkgs:
-            let
-              inherit (pkgs) lib;
-
-              filterNonDrvAttrs = s: lib.mapAttrs (_: v: if (lib.isDerivation v) then v else filterNonDrvAttrs v) (lib.filterAttrs (_: v: lib.isDerivation v || (builtins.typeOf v == "set" && ! builtins.hasAttr "__functor" v)) s);
-
-              mkEmacsSet = emacs: filterNonDrvAttrs (pkgs.recurseIntoAttrs (pkgs.emacsPackagesFor emacs));
-
-            in
             {
               emacsen = {
                 inherit (pkgs) emacs-unstable emacs-unstable-nox;
@@ -82,6 +74,23 @@
         in
         {
           "stable" = mkHydraJobs (importPkgs nixpkgs-stable { inherit system; });
+          "unstable" = mkHydraJobs (importPkgs nixpkgs { inherit system; });
+        });
+
+      hydraPackageSet =
+        lib.genAttrs [ "x86_64-linux" ] (system:
+        let
+          mkHydraJobs = pkgs:
+            let
+              inherit (pkgs) lib;
+              filterNonDrvAttrs = s: lib.mapAttrs (_: v: if (lib.isDerivation v) then v else filterNonDrvAttrs v) (lib.filterAttrs (_: v: lib.isDerivation v || (builtins.typeOf v == "set" && ! builtins.hasAttr "__functor" v)) s);
+              mkEmacsSet = emacs: filterNonDrvAttrs (pkgs.recurseIntoAttrs (pkgs.emacsPackagesFor emacs));
+            in
+            {
+              packages = mkEmacsSet pkgs.emacs;
+            };
+        in
+        {
           "unstable" = mkHydraJobs (importPkgs nixpkgs { inherit system; });
         });
 
