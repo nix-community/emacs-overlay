@@ -2594,10 +2594,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260327.22516";
+      version = "0.9.9.4.0.20260328.231243";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260327.22516.tar";
-        sha256 = "1dkdrsx9n5v8c1qmn9h797spmg2qpjn9nrz2dx3f7g8x8alqrr9z";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260328.231243.tar";
+        sha256 = "0x520r8qdak6k0b8ybyr525j74kzk3awnpnvrv3xhnash2d1zhlk";
       };
       packageRequires = [
         compat
@@ -5033,10 +5033,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.0.4.0.20250913.45124";
+      version = "2.0.4.0.20260329.71100";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.0.4.0.20250913.45124.tar";
-        sha256 = "0cjsz6a14d0zz4r93653d5imvgwpl9xchvr5snbkr8s359fs5icx";
+        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.0.4.0.20260329.71100.tar";
+        sha256 = "17dhdvjp6r043d164dqgpqd7n6v5fc41f9w2l282wyr6gbal3lc8";
       };
       packageRequires = [ ];
       meta = {
