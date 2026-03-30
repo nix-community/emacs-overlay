@@ -736,10 +736,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.1.0.20260322.1650";
+      version = "1.1.0.20260330.61817";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.1.0.20260322.1650.tar";
-        sha256 = "1lwc47d57vgxkhpi2ysgmhafkgldmgs1lrp16yvq6ijf4m93pfr6";
+        url = "https://elpa.nongnu.org/nongnu-devel/consult-flycheck-1.1.0.20260330.61817.tar";
+        sha256 = "0qibwl60kwyj3azpz7zph3frb8ia7ll7qr70mfj6brdng0wdc9b1";
       };
       packageRequires = [
         consult
@@ -1283,10 +1283,10 @@
     elpaBuild {
       pname = "eldoc-mouse-nov";
       ename = "eldoc-mouse-nov";
-      version = "0.1.0.20260329.111917";
+      version = "0.1.1.0.20260330.75946";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-nov-0.1.0.20260329.111917.tar";
-        sha256 = "1gfqkhiibf08vsy9br1rdjr3v5p9sjd65kjp29jbz2ywxvdcw9lh";
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-nov-0.1.1.0.20260330.75946.tar";
+        sha256 = "0l8k47qaivmj1wyijk2ws6kx5pr3yj49zscy4kqhhwb95sd91112";
       };
       packageRequires = [
         eldoc-mouse

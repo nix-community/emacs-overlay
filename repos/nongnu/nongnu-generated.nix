@@ -1300,16 +1300,20 @@
       elpaBuild,
       fetchurl,
       lib,
+      nov,
     }:
     elpaBuild {
       pname = "eldoc-mouse-nov";
       ename = "eldoc-mouse-nov";
-      version = "0.1";
+      version = "0.1.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/eldoc-mouse-nov-0.1.tar";
-        sha256 = "0cr2y462pa0vqmbgckp2w2cfii4p9png98r40c30km6fq41b6nq7";
+        url = "https://elpa.nongnu.org/nongnu/eldoc-mouse-nov-0.1.1.tar";
+        sha256 = "1jg1s0v255jm6gzvvl2r0dqrjb95z2lgc0yy1pc1avf4ynsrk5d9";
       };
-      packageRequires = [ eldoc-mouse ];
+      packageRequires = [
+        eldoc-mouse
+        nov
+      ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/eldoc-mouse-nov.html";
         license = lib.licenses.free;
