@@ -2620,10 +2620,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260329.231859";
+      version = "0.9.9.4.0.20260330.100808";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260329.231859.tar";
-        sha256 = "0nmfdr8cl7364rdh8k3kxbp04hwl5ic5j4ljgicxlxqq5ayclvmb";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260330.100808.tar";
+        sha256 = "00r3s34dn5jk2jifqx9idf7jbsc875a4jz2cmxdj6xiqd658li1n";
       };
       packageRequires = [
         compat
@@ -2644,10 +2644,10 @@
     elpaBuild {
       pname = "graphql-mode";
       ename = "graphql-mode";
-      version = "1.0.0.0.20260214.124443";
+      version = "1.0.0.0.20260330.140853";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20260214.124443.tar";
-        sha256 = "141z96ax3kqy2b046v2c7k5sb2mw27hr5x7zi58r1yfyhqi4x3a9";
+        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20260330.140853.tar";
+        sha256 = "07rwy23fglwq5h8x16syvgl9nb0lg5gqfx4d1qqls0c6gha7pal1";
       };
       packageRequires = [ ];
       meta = {
@@ -4952,10 +4952,10 @@
     elpaBuild {
       pname = "selected-window-contrast";
       ename = "selected-window-contrast";
-      version = "0.4.0.20260329.82008";
+      version = "0.4.1.0.20260330.154259";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/selected-window-contrast-0.4.0.20260329.82008.tar";
-        sha256 = "1hbzgajpj4b8aqqbqydnrd147gpw3v2a04aq6ipw32ag9akf8gvi";
+        url = "https://elpa.nongnu.org/nongnu-devel/selected-window-contrast-0.4.1.0.20260330.154259.tar";
+        sha256 = "0jc1jmwkswf4gqi3h93j9abxazc1ia8p3y5m2y3p6i5ipgmx8cw7";
       };
       packageRequires = [ ];
       meta = {
@@ -5638,10 +5638,10 @@
     elpaBuild {
       pname = "typst-ts-mode";
       ename = "typst-ts-mode";
-      version = "0.12.2.0.20260130.110553";
+      version = "0.12.2.0.20260330.125224";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.12.2.0.20260130.110553.tar";
-        sha256 = "19v349nhr1km00w19rxv1g4vkhl2hk9sf0y9q0cg15682qc28jjz";
+        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.12.2.0.20260330.125224.tar";
+        sha256 = "0qjbypy1jxy7jcpvqh49b8d3b276qgbzlpj09g0bw9dz2g0mp6pr";
       };
       packageRequires = [ ];
       meta = {

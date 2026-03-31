@@ -4969,10 +4969,10 @@
     elpaBuild {
       pname = "selected-window-contrast";
       ename = "selected-window-contrast";
-      version = "0.4";
+      version = "0.4.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/selected-window-contrast-0.4.tar";
-        sha256 = "1dx6s1bbz7ly6kzzl1qi0qwbl40pdxvvsy4nr7m7pjip0d2ly2ll";
+        url = "https://elpa.nongnu.org/nongnu/selected-window-contrast-0.4.1.tar";
+        sha256 = "0qpqw2nv91ki8n1rq33vlggbb8967sq34z1apqr4x3v4cjm4ym7a";
       };
       packageRequires = [ ];
       meta = {
