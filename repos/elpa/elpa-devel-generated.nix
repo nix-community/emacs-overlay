@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260329.205603";
+      version = "14.1.2.0.20260331.71344";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260329.205603.tar";
-        sha256 = "0fp3pycbqhrmi9pcwln73pms5bzmr62lkfamw1l3dzkbsi7mrlgp";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260331.71344.tar";
+        sha256 = "084bv9j7q85p2x0zh8jc853s9a1iz96sghwf3722w6cxsq88qn00";
       };
       packageRequires = [ ];
       meta = {
@@ -1387,10 +1387,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260220.15631";
+      version = "1.0.2.0.20260331.24502";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260220.15631.tar";
-        sha256 = "0wj07iqpjigzqdy8y1i7x3nzg9cgammjcyv872hxzx9dr4xb0i88";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260331.24502.tar";
+        sha256 = "19apxj576hy09pk37rpnzybab0ffrw63j2ycad5vwz75y84dhjys";
       };
       packageRequires = [ ];
       meta = {
@@ -3222,10 +3222,10 @@
     elpaBuild {
       pname = "embark";
       ename = "embark";
-      version = "1.1.0.20260330.130312";
+      version = "1.1.0.20260330.162129";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-1.1.0.20260330.130312.tar";
-        sha256 = "0mbffzaw6riz0lqjdnp2i20i1fafajv2f3phpk9wkc4rhhw1jk0y";
+        url = "https://elpa.gnu.org/devel/embark-1.1.0.20260330.162129.tar";
+        sha256 = "08nzm6vdcygdsb5408y406dszmdp30v5qasbryl793gp53rcaghr";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3246,10 +3246,10 @@
     elpaBuild {
       pname = "embark-consult";
       ename = "embark-consult";
-      version = "1.1.0.20260330.130312";
+      version = "1.1.0.20260330.162129";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20260330.130312.tar";
-        sha256 = "1mvghj7fcpkw9yd91as7nq5s6p95s4qk32x9mi218g4n56lc44i0";
+        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20260330.162129.tar";
+        sha256 = "00f4jyy9knpqcs6g93a80ihvfn36lcfgzhc8dbknipw8ww329ixs";
       };
       packageRequires = [
         compat
