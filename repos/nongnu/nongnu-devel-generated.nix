@@ -3564,10 +3564,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260329.164251";
+      version = "4.5.0.0.20260330.203203";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260329.164251.tar";
-        sha256 = "116mp6h5bm1z977g1r7qla8sxl5if9k30bgnsnnzyrgbh5k1p39h";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260330.203203.tar";
+        sha256 = "0j85rq4vcfkp0pqclcv35xdzflrmlzgfrxqkpb61ibi0q3wq0yn2";
       };
       packageRequires = [
         compat
@@ -3597,10 +3597,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260329.164251";
+      version = "4.5.0.0.20260330.203203";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260329.164251.tar";
-        sha256 = "125zciz13rpvza32iaqyv2fykyrp9j7pfyz26s8049pp0a14ss2y";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260330.203203.tar";
+        sha256 = "0gkb0p6va22gi48rgmrh05wlsd8qg9ys43lhzgggz29mrkb3mmvx";
       };
       packageRequires = [
         compat
@@ -3646,10 +3646,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.13.0.20260318.172516";
+      version = "2.0.14.0.20260331.110617";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.13.0.20260318.172516.tar";
-        sha256 = "1al67nr4c4crfxc7xaax1cvfqxc0y92k0nr3q951c5xrnmlfhbcx";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.14.0.20260331.110617.tar";
+        sha256 = "1dsjqbh4zrgkhfa22hfdspcdmbs6vbrgn675hrgdlra3hdmkmjgc";
       };
       packageRequires = [
         persist
@@ -5807,10 +5807,10 @@
     elpaBuild {
       pname = "web-mode";
       ename = "web-mode";
-      version = "17.3.22.0.20251214.172854";
+      version = "17.3.23.0.20260331.144101";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/web-mode-17.3.22.0.20251214.172854.tar";
-        sha256 = "1hjmq7w59s4p3qr331r0dz4j5s685cr82ma1q30hdpy0rhxiqh6i";
+        url = "https://elpa.nongnu.org/nongnu-devel/web-mode-17.3.23.0.20260331.144101.tar";
+        sha256 = "1yk7dcsgry69dz3scx32p4zqp1ay6354rr017ygqffkl0fcqhgdg";
       };
       packageRequires = [ ];
       meta = {

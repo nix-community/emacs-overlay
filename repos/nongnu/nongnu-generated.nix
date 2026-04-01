@@ -3661,10 +3661,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.13";
+      version = "2.0.14";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.13.tar";
-        sha256 = "1d9j98bf44fdy62z1ibmgh8wbfm16asplv89vv1v4ndv804706v4";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.14.tar";
+        sha256 = "13dwa5sh9h96b7msn78qqmbjrzx5fmhc1p24cl7bcknk7n9sszxz";
       };
       packageRequires = [
         persist
@@ -5847,10 +5847,10 @@
     elpaBuild {
       pname = "web-mode";
       ename = "web-mode";
-      version = "17.3.22";
+      version = "17.3.23";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/web-mode-17.3.22.tar";
-        sha256 = "0218wkngd59k73860zi458qabv4cbnc2150fcj7sn1i4im7f3crf";
+        url = "https://elpa.nongnu.org/nongnu/web-mode-17.3.23.tar";
+        sha256 = "17l0lda5p8nf239b0x43w8fx9a87rmk9rk282983nqi4f57iyzb2";
       };
       packageRequires = [ ];
       meta = {
