@@ -1371,10 +1371,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.3.5";
+      version = "4.3.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/emacsql-4.3.5.tar";
-        sha256 = "150wrcknbcm9kid41qjwa84mn742pzk0g12k9zm7q8zb37d709zq";
+        url = "https://elpa.nongnu.org/nongnu/emacsql-4.3.6.tar";
+        sha256 = "1zj04kqq3c5915n9pj5qx63rw8hnnpag2y5qca4d4y9h1lqnj2pp";
       };
       packageRequires = [ ];
       meta = {
@@ -3661,10 +3661,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.14";
+      version = "2.0.15";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.14.tar";
-        sha256 = "13dwa5sh9h96b7msn78qqmbjrzx5fmhc1p24cl7bcknk7n9sszxz";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.15.tar";
+        sha256 = "0ll9ad1009mhf8v4f5wb541bxxsw5h5g2fg4gf6hslry2gvpkql0";
       };
       packageRequires = [
         persist

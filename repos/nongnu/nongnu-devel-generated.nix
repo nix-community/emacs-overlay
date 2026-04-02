@@ -1349,10 +1349,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.3.5.0.20260314.230019";
+      version = "4.3.6.0.20260401.122028";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.3.5.0.20260314.230019.tar";
-        sha256 = "07b73mylmmxq0qd0rh7a8p6gzabdfjyk2pz9cvzn2cz0cc3bqq02";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.3.6.0.20260401.122028.tar";
+        sha256 = "0n9m33wlygpdj8id31sfxkj328j1dzf1gzkwkvr99ncvcn6qr0l6";
       };
       packageRequires = [ ];
       meta = {
@@ -3564,10 +3564,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260330.203203";
+      version = "4.5.0.0.20260331.204543";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260330.203203.tar";
-        sha256 = "0j85rq4vcfkp0pqclcv35xdzflrmlzgfrxqkpb61ibi0q3wq0yn2";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260331.204543.tar";
+        sha256 = "00kbczwrm14z60668ka7qglmlr4kcwj652jx66whmmpchqsr92sg";
       };
       packageRequires = [
         compat
@@ -3597,10 +3597,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260330.203203";
+      version = "4.5.0.0.20260331.204543";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260330.203203.tar";
-        sha256 = "0gkb0p6va22gi48rgmrh05wlsd8qg9ys43lhzgggz29mrkb3mmvx";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260331.204543.tar";
+        sha256 = "0q91pnqazy9fxzdizxjbcfv94gdfb8416pzldyj5dr41b92bavmd";
       };
       packageRequires = [
         compat
@@ -3646,10 +3646,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.14.0.20260331.110617";
+      version = "2.0.15.0.20260401.154021";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.14.0.20260331.110617.tar";
-        sha256 = "1dsjqbh4zrgkhfa22hfdspcdmbs6vbrgn675hrgdlra3hdmkmjgc";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.15.0.20260401.154021.tar";
+        sha256 = "1c46lka0avwv7j9xr4l76hhjnnjlycrw1sr75pqyf087pcykd3cv";
       };
       packageRequires = [
         persist
