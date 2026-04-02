@@ -3200,10 +3200,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260325.130631";
+      version = "0.0.20260401.91353";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260325.130631.tar";
-        sha256 = "0ylnrglbp2s7ad85kv478gnlspw2snbld4mixdw613fmhbl7j69m";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260401.91353.tar";
+        sha256 = "1h59ak00gjbj0dpy1fri5klcbn46130xij88d90p9xac8azv4wxf";
       };
       packageRequires = [ ];
       meta = {
@@ -6591,10 +6591,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260330.192126";
+      version = "10.0pre0.20260401.174144";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260330.192126.tar";
-        sha256 = "13cxw4i52zlmjj96mpmzh1b201kax8a0whlxzc5s68m5pl879g3s";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260401.174144.tar";
+        sha256 = "02b6dnpabdlj5q68mfai4h6gslqxg9yl8jsnkdrzlqmg178rijfq";
       };
       packageRequires = [ ];
       meta = {
@@ -9767,10 +9767,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.12.0.0.20260331.124943";
+      version = "0.12.0.0.20260401.202308";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260331.124943.tar";
-        sha256 = "037pkh1v7xvs5hbl944rpj2q5dghl5praxqg6b5yl277sxckdpmq";
+        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260401.202308.tar";
+        sha256 = "19zkcwjy89adk92kfk631yzar4iybnsrwq64zkyw6w0q3i8bjmhx";
       };
       packageRequires = [
         compat
@@ -10909,10 +10909,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20260313.230302";
+      version = "1.7.0.0.20260401.13337";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260313.230302.tar";
-        sha256 = "04x6li97l267bilj6qq0smxk900zbkxw07a4clqd80an7b6yh7ql";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260401.13337.tar";
+        sha256 = "0z5gkgcpiaw5l5xyd3lbq3vqrcwpalnp6pi223v6mj2195790rfp";
       };
       packageRequires = [ ];
       meta = {
