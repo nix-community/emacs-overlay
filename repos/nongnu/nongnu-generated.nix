@@ -1279,10 +1279,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.6";
+      version = "3.0.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/eldoc-mouse-3.0.6.tar";
-        sha256 = "0s3zgbgz5agi6apdsaq9qlpjfn82hpnm8vfprvn59wjb4mnsixsk";
+        url = "https://elpa.nongnu.org/nongnu/eldoc-mouse-3.0.7.tar";
+        sha256 = "17s3iqkdswjfcdiyaa732v27pcpmxa96i17mwpzi34vw53a1r3wl";
       };
       packageRequires = [
         eglot
@@ -3232,6 +3232,28 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/j-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  jabber = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      fsm,
+      lib,
+    }:
+    elpaBuild {
+      pname = "jabber";
+      ename = "jabber";
+      version = "0.10.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/jabber-0.10.0.tar";
+        sha256 = "14yag6ag12rwai4jdygvrac6hmyp1hwif80g9s5hsnyxcyzjz9qy";
+      };
+      packageRequires = [ fsm ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/jabber.html";
         license = lib.licenses.free;
       };
     }
