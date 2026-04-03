@@ -2894,10 +2894,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.21";
+      version = "1.23";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/eglot-1.21.tar";
-        sha256 = "03fx22rv8ijxq0jnn7xlfqhkpk2b109ygpjbcchp41sa4q7d6nbl";
+        url = "https://elpa.gnu.org/packages/eglot-1.23.tar";
+        sha256 = "1l83c90rdamlk576bd859jkg6406hgxi7w4c6ixlw509c66qr3s6";
       };
       packageRequires = [
         eldoc
@@ -4961,10 +4961,10 @@
     elpaBuild {
       pname = "jsonrpc";
       ename = "jsonrpc";
-      version = "1.0.27";
+      version = "1.0.28";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jsonrpc-1.0.27.tar";
-        sha256 = "1wfkjy5sgvcq5h3ldvwa4hm8nssc1pwvfvq4s04zvcq078v093q9";
+        url = "https://elpa.gnu.org/packages/jsonrpc-1.0.28.tar";
+        sha256 = "13zdm9ss1sfpw55lwr8nrv1ha30qcj7v10m1ql8r9cbdxxkzxp8f";
       };
       packageRequires = [ ];
       meta = {
