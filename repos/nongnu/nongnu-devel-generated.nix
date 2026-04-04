@@ -3231,10 +3231,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.1alpha0.20260403.74741";
+      version = "0.10.1.0.20260403.105946";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.1alpha0.20260403.74741.tar";
-        sha256 = "0gy0sawv3syw5fgy5701mgd1d5x7zrkp1wlv9f9wc37lk8m6ap7g";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.1.0.20260403.105946.tar";
+        sha256 = "1iwx7k2r460ygb794pymw90ly0akviahp63aw3qbclkdm0qrf23n";
       };
       packageRequires = [ fsm ];
       meta = {
@@ -4716,10 +4716,10 @@
     elpaBuild {
       pname = "recomplete";
       ename = "recomplete";
-      version = "0.2.0.20260403.14729";
+      version = "0.2.0.20260403.113038";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/recomplete-0.2.0.20260403.14729.tar";
-        sha256 = "05sy2ad8cxgvrhgmmh09xi62r2rrkh9f5jccjn5ajfbcb0ai4rd8";
+        url = "https://elpa.nongnu.org/nongnu-devel/recomplete-0.2.0.20260403.113038.tar";
+        sha256 = "1mnd8d2hyfcjribvgq955sn0vm1265xs0jqc55rylwpkr4cff779";
       };
       packageRequires = [ ];
       meta = {
