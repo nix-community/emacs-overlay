@@ -4003,10 +4003,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.2";
+      version = "0.10.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gnosis-0.10.2.tar";
-        sha256 = "09vj6v5jwvkrd3a8ba2fnsgaj67cc8fczgrwazr8azpyii5x0nkb";
+        url = "https://elpa.gnu.org/packages/gnosis-0.10.3.tar";
+        sha256 = "0642xdgpljfmzi27gfbzhngpyc82blpyyvkvqqbm6khiqac9wdxz";
       };
       packageRequires = [ compat ];
       meta = {

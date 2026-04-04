@@ -3222,10 +3222,10 @@
     elpaBuild {
       pname = "embark";
       ename = "embark";
-      version = "1.1.0.20260330.162129";
+      version = "1.1.0.20260403.150522";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-1.1.0.20260330.162129.tar";
-        sha256 = "08nzm6vdcygdsb5408y406dszmdp30v5qasbryl793gp53rcaghr";
+        url = "https://elpa.gnu.org/devel/embark-1.1.0.20260403.150522.tar";
+        sha256 = "1cjrs906dv6km0qzjijgvzpqm2dl40dvf83w3bxg800r2dm5scvc";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3246,10 +3246,10 @@
     elpaBuild {
       pname = "embark-consult";
       ename = "embark-consult";
-      version = "1.1.0.20260330.162129";
+      version = "1.1.0.20260403.150522";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20260330.162129.tar";
-        sha256 = "00f4jyy9knpqcs6g93a80ihvfn36lcfgzhc8dbknipw8ww329ixs";
+        url = "https://elpa.gnu.org/devel/embark-consult-1.1.0.20260403.150522.tar";
+        sha256 = "0g507gs97dpkyhpr3c0a1x6nxc405qbjm6zpz3pjp8s0xlcqiw77";
       };
       packageRequires = [
         compat
@@ -4089,10 +4089,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.2.0.20260331.164345";
+      version = "0.10.3.0.20260403.234000";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.10.2.0.20260331.164345.tar";
-        sha256 = "0m8ar67wdlc56inc5c791rsfgpc7gk4lvvi2dvqy8db10ihd57zx";
+        url = "https://elpa.gnu.org/devel/gnosis-0.10.3.0.20260403.234000.tar";
+        sha256 = "0gdql9yd5qbb6l00bif6iwazmfj4rl8jbn70jl7jx8d64y7jsk9q";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4913,10 +4913,10 @@
     elpaBuild {
       pname = "javaimp";
       ename = "javaimp";
-      version = "0.9.1.0.20260313.215929";
+      version = "0.9.1.0.20260403.224537";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/javaimp-0.9.1.0.20260313.215929.tar";
-        sha256 = "03jyra0af55hq6b5rwv0rc8gx4dyfwr9rmzii7vp4sz29g5c0bl3";
+        url = "https://elpa.gnu.org/devel/javaimp-0.9.1.0.20260403.224537.tar";
+        sha256 = "0jkw3dklylz7l7wq162c16ak8fbjpp23g38y5fmpgrinrbfjpwmd";
       };
       packageRequires = [ ];
       meta = {
