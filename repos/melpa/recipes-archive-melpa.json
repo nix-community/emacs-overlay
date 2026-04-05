@@ -2319,15 +2319,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260404,
-    1852
+    20260405,
+    343
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "7b3f0499e4e300f1c89bbf98332a8a44763f754a",
-   "sha256": "1ggar8dzxb9qzgl1pdmx0ij4s1axmjl6kwh235lndyxhsdkdbnwd"
+   "commit": "cd7cb113c3cf0c2b2ce5d5fa8b03e9d299024640",
+   "sha256": "1xy1mgcdnna3nfzkqzqr2pmb1ny8mlmhn070yfhqwqw81449gflh"
   },
   "stable": {
    "version": [
@@ -3544,30 +3544,28 @@
   "repo": "kickingvegas/anju",
   "unstable": {
    "version": [
-    20260330,
-    25
+    20260405,
+    131
    ],
    "deps": [
     "casual",
-    "magit",
     "markdown-mode"
    ],
-   "commit": "e9f3ca4c96b7149c5f8be711ebd5b95473368b9b",
-   "sha256": "1nacl6nwfg9j1x0kdw5hc8lh3a01yywi1vdiqn23163d7ynjmidm"
+   "commit": "9b50c67292189b599dcb17108f93be520caa5647",
+   "sha256": "1da3fq3085pp14rryq9cxc71gwyi2wipfwml361zalx54gpdbk3j"
   },
   "stable": {
    "version": [
     1,
-    0,
-    5
+    1,
+    0
    ],
    "deps": [
     "casual",
-    "magit",
     "markdown-mode"
    ],
-   "commit": "e9f3ca4c96b7149c5f8be711ebd5b95473368b9b",
-   "sha256": "1nacl6nwfg9j1x0kdw5hc8lh3a01yywi1vdiqn23163d7ynjmidm"
+   "commit": "9b50c67292189b599dcb17108f93be520caa5647",
+   "sha256": "1da3fq3085pp14rryq9cxc71gwyi2wipfwml361zalx54gpdbk3j"
   }
  },
  {
@@ -40107,6 +40105,15 @@
    ],
    "commit": "2358f3e27d89128361cf80fcfa092fdfe5b52fd8",
    "sha256": "0nssajjkmfhd9nvdvvkkja2vc1x2hwlpj3amnzry35jnbfq35c5f"
+  },
+  "stable": {
+   "version": [
+    0,
+    0,
+    5
+   ],
+   "commit": "689ac77a251f62c4f25682508c3fef656da6540c",
+   "sha256": "171hxgb3lxdk1y5h6w546qrl41zzs03sgqwv53c7rfk75yf3km2n"
   }
  },
  {
@@ -53347,14 +53354,14 @@
   "url": "https://git.thanosapollo.org/gnosis",
   "unstable": {
    "version": [
-    20260403,
-    2340
+    20260405,
+    125
    ],
    "deps": [
     "compat"
    ],
-   "commit": "e830171c4bcbcbc0b1d466ffdbec179e32e9688e",
-   "sha256": "0kpzc2jw51sklz15v0d0vzm5ck05n3d90l02la4nxn8r85jb1f53"
+   "commit": "4f2b92dbdd26ce82bf82f3765db3505230e0cd95",
+   "sha256": "0cw5wf94mzbkw5jcpcn720f743akwagj4k2alqnjgxnpxzy68x8f"
   },
   "stable": {
    "version": [
@@ -55172,8 +55179,8 @@
   "repo": "karthink/gptel-agent",
   "unstable": {
    "version": [
-    20260404,
-    2026
+    20260405,
+    19
    ],
    "deps": [
     "compat",
@@ -55181,8 +55188,8 @@
     "orderless",
     "yaml"
    ],
-   "commit": "082e7b68d8ebaf693e9dc69b2998e744812b9fd1",
-   "sha256": "1y19w1lxnvldjwssv55fng60l34ay5vi8clczl8cj4ylnnyp6ah8"
+   "commit": "0d1534b203ea756c76d5161dfcd57ddc146f774e",
+   "sha256": "0c42incx7dn3mm5ag07sf3cl9nli7sspbx611g0v68q5cy8ciclm"
   }
  },
  {
@@ -56431,11 +56438,11 @@
   "repo": "bormoge/guava-themes",
   "unstable": {
    "version": [
-    20260404,
-    2126
+    20260405,
+    549
    ],
-   "commit": "00ba5433287dcf095504cec81f4eb6835f20d6b7",
-   "sha256": "1hmhx08sclck2mslw0l2swa50r21knhfq8532blcj59zm4055dqg"
+   "commit": "18c16ed3114d779fdd3c0e4ec817005f9c5e53f2",
+   "sha256": "1m1gv9g12l1wc2vdww3klznj625dr8khh15d7ijl0n5rflfwr6cb"
   },
   "stable": {
    "version": [
@@ -73573,8 +73580,8 @@
   "repo": "isamert/lab.el",
   "unstable": {
    "version": [
-    20260404,
-    1541
+    20260405,
+    124
    ],
    "deps": [
     "async-await",
@@ -73584,8 +73591,8 @@
     "request",
     "s"
    ],
-   "commit": "52141d3e4e52f73d1d4ff82af0b81b4ce8847b5f",
-   "sha256": "0i94vq9dp4vxzg86lf0wz7fn1a7zxm7i012iwynqy6jzqvm93bv0"
+   "commit": "953e899dee5a720e7edd94eaeb2a928fef881e0e",
+   "sha256": "03cr31cg5lw30929v6rpcchgplp79v1ppqrd4fglbj84yc0i18q9"
   },
   "stable": {
    "version": [
