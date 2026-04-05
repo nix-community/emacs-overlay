@@ -3231,10 +3231,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.2.0.20260404.74206";
+      version = "0.10.2.0.20260404.193413";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.2.0.20260404.74206.tar";
-        sha256 = "043s13v8dr1x8b3w78snghmc7jhjpy0crpjaaghvsgqspwkr1xdr";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.2.0.20260404.193413.tar";
+        sha256 = "1klmac9wn5wxw9xgwn9kahsxigrlxpbi8722a1rf2bma7iyzk6mb";
       };
       packageRequires = [ fsm ];
       meta = {
