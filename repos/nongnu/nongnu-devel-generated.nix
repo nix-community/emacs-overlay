@@ -2620,10 +2620,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260404.162615";
+      version = "0.9.9.4.0.20260406.357";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260404.162615.tar";
-        sha256 = "1m8gayqcjyx6nm8q4m1xv9vji9gxy49r8c8zkg3zjv13dmpjd4yw";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260406.357.tar";
+        sha256 = "1vq1cmmq5hp7p9wlz7h386m5jdn4qns0cx0zpdzihc37jbgy9ms7";
       };
       packageRequires = [
         compat
@@ -3231,10 +3231,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.2.0.20260405.121927";
+      version = "0.10.3.0.20260405.232609";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.2.0.20260405.121927.tar";
-        sha256 = "0f76afqdjj91b3gms1x62c80xws1v1105hixhqqiq4gcacggnajb";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.3.0.20260405.232609.tar";
+        sha256 = "0l8yq7646d182a0drlpvlhzb1zabxhi83js35rs1591i87p7p54l";
       };
       packageRequires = [ fsm ];
       meta = {
@@ -4461,10 +4461,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.64.0.20260328.162410";
+      version = "0.64.0.20260406.70807";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.64.0.20260328.162410.tar";
-        sha256 = "00c1zfad8jjbip9ma33vf0qghahxbgg5vyc803277y2ldwyr0a11";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.64.0.20260406.70807.tar";
+        sha256 = "1cb0grckwbh5xibka5nsxzl3r65hiph4xc1dph3y5la503czjj9h";
       };
       packageRequires = [ peg ];
       meta = {
@@ -4974,10 +4974,10 @@
     elpaBuild {
       pname = "selected-window-contrast";
       ename = "selected-window-contrast";
-      version = "0.4.1.0.20260331.215551";
+      version = "0.4.1.0.20260406.62115";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/selected-window-contrast-0.4.1.0.20260331.215551.tar";
-        sha256 = "197vps9cmq2yz08jbkrzrk0xn2b0rkh1mijh1q6c7q2av0jr524n";
+        url = "https://elpa.nongnu.org/nongnu-devel/selected-window-contrast-0.4.1.0.20260406.62115.tar";
+        sha256 = "0mwkq192jb7k5nr3gclqpy37bivkw86xmm372whbsnhpap6zlhk5";
       };
       packageRequires = [ ];
       meta = {
