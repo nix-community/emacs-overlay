@@ -567,10 +567,10 @@
     elpaBuild {
       pname = "casual";
       ename = "casual";
-      version = "2.14.4";
+      version = "2.15.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/casual-2.14.4.tar";
-        sha256 = "0gpr1llqf8bh1pzxlvg0lwrmm8v5gh9vpfkil0pvx0rcyaqwby37";
+        url = "https://elpa.nongnu.org/nongnu/casual-2.15.0.tar";
+        sha256 = "1ydd6ilxh5msh5l1f86b2mi963hls4m5aipshfc0bygwfh83m7s0";
       };
       packageRequires = [
         csv-mode
@@ -3683,10 +3683,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.15";
+      version = "2.0.16";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.15.tar";
-        sha256 = "0ll9ad1009mhf8v4f5wb541bxxsw5h5g2fg4gf6hslry2gvpkql0";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.16.tar";
+        sha256 = "0zyqqfxg7b22pj8y181x30rhy81ijbm21ai70l7cq79dr2a3yr96";
       };
       packageRequires = [
         persist
