@@ -3138,10 +3138,10 @@
     elpaBuild {
       pname = "embark";
       ename = "embark";
-      version = "1.1";
+      version = "1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/embark-1.1.tar";
-        sha256 = "074ggh7dkr5jdkwcndl6znhkq48jmc62rp7mc6vjidr6yxf8d1rn";
+        url = "https://elpa.gnu.org/packages/embark-1.2.tar";
+        sha256 = "1skqcsscawfa3043n6v0fl633pcacigl6p33d80ik5lsf0z5br35";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5327,10 +5327,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.29.0";
+      version = "0.30.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/llm-0.29.0.tar";
-        sha256 = "0pybl4wxirsi00blx18gy1786n4324mb2fvr7n1a0bfyljz2rm6k";
+        url = "https://elpa.gnu.org/packages/llm-0.30.1.tar";
+        sha256 = "11mmaw24dg9iwml8kx09xv8h9iyz9i9jw4m1kghq192fp9wy668i";
       };
       packageRequires = [
         compat
