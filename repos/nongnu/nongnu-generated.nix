@@ -502,10 +502,10 @@
     elpaBuild {
       pname = "buttercup";
       ename = "buttercup";
-      version = "1.38";
+      version = "1.39";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/buttercup-1.38.tar";
-        sha256 = "08lqi9qs7f79i44w4nvv15n23dmmka17j3dpj5s3kn0pk1gkv11j";
+        url = "https://elpa.nongnu.org/nongnu/buttercup-1.39.tar";
+        sha256 = "0a2yj10jrql77l0dqyf95yzb6cd8z7z9p9jjc6lb7z8j26m208sj";
       };
       packageRequires = [ ];
       meta = {
@@ -3246,10 +3246,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.4";
+      version = "0.10.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/jabber-0.10.4.tar";
-        sha256 = "1inxjslp7s50k9g2aggw9ykfr1my05snqj7i474a6qpl9wd9cs2s";
+        url = "https://elpa.nongnu.org/nongnu/jabber-0.10.5.tar";
+        sha256 = "1vjmajcls0l6mwccqdp7gr4g4r1z6f2qaf2palnimjb7w3gzh4mk";
       };
       packageRequires = [ fsm ];
       meta = {
