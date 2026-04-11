@@ -1595,10 +1595,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.6.0.0.20260226.73407";
+      version = "0.6.0.0.20260410.130304";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-hoogle-0.6.0.0.20260226.73407.tar";
-        sha256 = "1yndkjzbydlyxzgl2zfk5m9w3hh8aq5dk1myjc0xkwczfwbw1gjm";
+        url = "https://elpa.gnu.org/devel/consult-hoogle-0.6.0.0.20260410.130304.tar";
+        sha256 = "1067wh3r087bdvg4zqbzwmzh6qssj7x7y12qs3fh96vpqrjw2a11";
       };
       packageRequires = [ consult ];
       meta = {
@@ -3446,10 +3446,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "26.1.0.0.20260408.95243";
+      version = "26.1.0.0.20260410.160324";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-26.1.0.0.20260408.95243.tar";
-        sha256 = "0ddkvi7akw7dhjx1spc98s653kp48b327amyhwgw06sgkn868psa";
+        url = "https://elpa.gnu.org/devel/ess-26.1.0.0.20260410.160324.tar";
+        sha256 = "1xl4fqdmcl5rsl6dhljbybky4sjsrvllpg9zh643i0l3gbzbai94";
       };
       packageRequires = [ ];
       meta = {
@@ -3895,10 +3895,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.4.0.20260409.205429";
+      version = "1.4.0.20260410.74322";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.4.0.20260409.205429.tar";
-        sha256 = "1crph78sjng309ciyxhcy1ci9l75pqvrq7ac2p4m55dc7yzgkl0i";
+        url = "https://elpa.gnu.org/devel/futur-1.4.0.20260410.74322.tar";
+        sha256 = "1xdnrg0jkpl6j44g0mkgd8jpqk53hpm664q958chgpjk3m9i7yda";
       };
       packageRequires = [ ];
       meta = {
@@ -5925,10 +5925,10 @@
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.3.0.20260330.82338";
+      version = "0.3.0.20260404.123801";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minimail-0.3.0.20260330.82338.tar";
-        sha256 = "01fi88flq91m7fhg7q1g7jx4fzli99k9i48bavbsnjyhbz77i8pq";
+        url = "https://elpa.gnu.org/devel/minimail-0.3.0.20260404.123801.tar";
+        sha256 = "0nnzg0k7wzyqsaw6m8y0k2d4jz1c8grxg2jszsvzvg0lkq9y5wmp";
       };
       packageRequires = [ ];
       meta = {
@@ -6036,10 +6036,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260405.181509";
+      version = "5.2.0.0.20260410.183921";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260405.181509.tar";
-        sha256 = "0hzl0dppxh91zz868g7cvgrg3dy4whfqll38n39xdqz52wb25vj6";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260410.183921.tar";
+        sha256 = "13mpcmkhvn3pzfwgyyqn7m5l76gvj6bgzhja3xa0kb94l5j8cl4p";
       };
       packageRequires = [ ];
       meta = {
