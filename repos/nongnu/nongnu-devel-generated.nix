@@ -3231,10 +3231,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.5.0.20260410.45349";
+      version = "0.10.5.0.20260410.155858";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.5.0.20260410.45349.tar";
-        sha256 = "07nnqk811i6vvzanqh4ymnj43797fahic1n8h4pazdpibx71p0g2";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.5.0.20260410.155858.tar";
+        sha256 = "0a2i6ic43wd01sz08zmwwh7x5qkrrxgv344wjh6va9s00r75ylwj";
       };
       packageRequires = [ fsm ];
       meta = {
@@ -3849,10 +3849,10 @@
     elpaBuild {
       pname = "multiple-cursors";
       ename = "multiple-cursors";
-      version = "1.5.0.0.20260117.123334";
+      version = "1.5.0.0.20260410.133143";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors-1.5.0.0.20260117.123334.tar";
-        sha256 = "1qnn3zx296zjvs9y10gq9a7n9ja68ipsvk0qbh48ib6z8n0b4sgh";
+        url = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors-1.5.0.0.20260410.133143.tar";
+        sha256 = "01sdyh0r6f4nphw8y4qgs0ngbj7szric3vnz7wd5s2iapc3hy3l5";
       };
       packageRequires = [ cl-lib ];
       meta = {
