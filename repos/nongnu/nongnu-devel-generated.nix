@@ -567,10 +567,10 @@
     elpaBuild {
       pname = "casual";
       ename = "casual";
-      version = "2.15.0.0.20260406.163831";
+      version = "2.15.1.0.20260410.163612";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/casual-2.15.0.0.20260406.163831.tar";
-        sha256 = "14vgq4q3k264aizqxjlfjjm5s4m7089nj3pjbjvzzs4kfkhpnqkk";
+        url = "https://elpa.nongnu.org/nongnu-devel/casual-2.15.1.0.20260410.163612.tar";
+        sha256 = "1vjs8vjcig04nq6k8pyr5jv4pp49xkwxakilh4rpiy1if1h5wyq6";
       };
       packageRequires = [
         csv-mode
@@ -2817,10 +2817,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.6.0.20260214.143216";
+      version = "4.0.6.0.20260411.44217";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20260214.143216.tar";
-        sha256 = "0v1j7vvpw5m6cjrbmzbjssw8n7r4ipxkzwl13z351lqx81q27p9b";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.6.0.20260411.44217.tar";
+        sha256 = "1i0xszdfrh0r13qfziw3qarjphj8idlnscyv6zq53nk1x7wsf2jr";
       };
       packageRequires = [
         helm-core
@@ -2842,10 +2842,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.6.0.20260214.143216";
+      version = "4.0.6.0.20260411.44217";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20260214.143216.tar";
-        sha256 = "09rmliclxhzbai5cgy3f1bg1y9nk6a3xig79iz6yxfc26qs1kkh2";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.6.0.20260411.44217.tar";
+        sha256 = "0zm7a5rp8f1n99jxvksbr2ypkmplrbc9jgxal4vddrhdk5i71p5i";
       };
       packageRequires = [ async ];
       meta = {
@@ -3231,10 +3231,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.5.0.20260410.155858";
+      version = "0.10.5.0.20260411.71323";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.5.0.20260410.155858.tar";
-        sha256 = "0a2i6ic43wd01sz08zmwwh7x5qkrrxgv344wjh6va9s00r75ylwj";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.5.0.20260411.71323.tar";
+        sha256 = "1x57lg2v24l42b2k6irg83zaf8vgvs31iijkmik8wdzfdd7501q0";
       };
       packageRequires = [ fsm ];
       meta = {
