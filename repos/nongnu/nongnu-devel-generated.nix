@@ -2367,10 +2367,10 @@
     elpaBuild {
       pname = "geiser-stklos";
       ename = "geiser-stklos";
-      version = "1.8.0.20240521.161150";
+      version = "1.8.0.20260411.100856";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-stklos-1.8.0.20240521.161150.tar";
-        sha256 = "13y0p8iqm4lrjg5ksb8d3rgpmjs0kwak7zicdq5m7sx1x511znd7";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-stklos-1.8.0.20260411.100856.tar";
+        sha256 = "0mv74swpi87jkn3zmvljayppr3wn01niv9lnnhsdz29wb7gn9x0f";
       };
       packageRequires = [ geiser ];
       meta = {
@@ -3586,10 +3586,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260409.85727";
+      version = "4.5.0.0.20260411.203358";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260409.85727.tar";
-        sha256 = "1hpmc3v9pgdlrkddxikj238r7z6fhpfspx083jrjn51pcpjinkyp";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260411.203358.tar";
+        sha256 = "02dkw7m1hnn9wsn3chi251q9z1ka8fa3kaa65akbshzj0v0vf0fq";
       };
       packageRequires = [
         compat
@@ -3619,10 +3619,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260409.85727";
+      version = "4.5.0.0.20260411.203358";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260409.85727.tar";
-        sha256 = "0kxyw9c6xm6v8pzh575ys0w56pdjgyr4b9x1i9qwnv8yhampp2y0";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260411.203358.tar";
+        sha256 = "1lg2v4nf2v61w7szl4azskk0n1qq6xjasgh7sw2mgnjm0p1c24ap";
       };
       packageRequires = [
         compat
