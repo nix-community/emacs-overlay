@@ -7884,10 +7884,10 @@
     elpaBuild {
       pname = "realgud";
       ename = "realgud";
-      version = "1.6.0.0.20260407.121006";
+      version = "1.6.0.0.20260411.181642";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/realgud-1.6.0.0.20260407.121006.tar";
-        sha256 = "08ypm3jsgmg7asgh6qbmfvz07clacmpaaphjmf46a7k1vn4lpyk9";
+        url = "https://elpa.gnu.org/devel/realgud-1.6.0.0.20260411.181642.tar";
+        sha256 = "11rs4xcy7xz2ckvpii33mmy04flwfladpi5j70bxc5anmhn5fh68";
       };
       packageRequires = [
         load-relative
@@ -9399,10 +9399,10 @@
     elpaBuild {
       pname = "termint";
       ename = "termint";
-      version = "0.2.0.20251215.233408";
+      version = "0.2.2.0.20260411.234846";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/termint-0.2.0.20251215.233408.tar";
-        sha256 = "07zysh8rx2lrdkkg9xiqc0wqzqaydl07wsg42rn2jbwm7vd7h3fm";
+        url = "https://elpa.gnu.org/devel/termint-0.2.2.0.20260411.234846.tar";
+        sha256 = "0xsrqxgndzmxskcmfx4184nb7yvwmv9lqdy40cjhpc8f3xwmzqwq";
       };
       packageRequires = [ ];
       meta = {
@@ -10495,10 +10495,10 @@
     elpaBuild {
       pname = "wcheck-mode";
       ename = "wcheck-mode";
-      version = "2021.0.20260321.190237";
+      version = "2026.0.20260412.44645";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/wcheck-mode-2021.0.20260321.190237.tar";
-        sha256 = "0q5fwg35dgv886x7fqn6rsyp6yw9qcq4hhamdjdz98r6hg40y666";
+        url = "https://elpa.gnu.org/devel/wcheck-mode-2026.0.20260412.44645.tar";
+        sha256 = "0gbx80sv5kg8jnk5vzr3hr4lc25rhyl6jva14nr2c2v6bidfi97x";
       };
       packageRequires = [ ];
       meta = {

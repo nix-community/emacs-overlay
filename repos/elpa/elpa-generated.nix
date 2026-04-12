@@ -9163,10 +9163,10 @@
     elpaBuild {
       pname = "termint";
       ename = "termint";
-      version = "0.2";
+      version = "0.2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/termint-0.2.tar";
-        sha256 = "000s1z2535bi5pkg7q3d4y97njy0r5xj51r94a20vjd79jq4227f";
+        url = "https://elpa.gnu.org/packages/termint-0.2.2.tar";
+        sha256 = "0iavnximqsx6vl6yx36n829h67x4pyfmm8xcp5fzjwphdmgfdann";
       };
       packageRequires = [ ];
       meta = {
@@ -10263,10 +10263,10 @@
     elpaBuild {
       pname = "wcheck-mode";
       ename = "wcheck-mode";
-      version = "2021";
+      version = "2026";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/wcheck-mode-2021.tar";
-        sha256 = "0igsdsfw80nnrbw1ba3rgwp16ncy195kwv78ll9zbbf3y23n7kr0";
+        url = "https://elpa.gnu.org/packages/wcheck-mode-2026.tar";
+        sha256 = "019lsaihpl9w17qfhn8c5j8rp8nrvlmb16w6r8sb1iril31997sz";
       };
       packageRequires = [ ];
       meta = {
