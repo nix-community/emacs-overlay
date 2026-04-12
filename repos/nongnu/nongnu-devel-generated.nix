@@ -502,10 +502,10 @@
     elpaBuild {
       pname = "buttercup";
       ename = "buttercup";
-      version = "1.39.0.20260409.235427";
+      version = "1.40.0.20260411.203013";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/buttercup-1.39.0.20260409.235427.tar";
-        sha256 = "03fk6mhf67jccilkjfs7jwzs6la4ry4z8s5v1q7fci2jic3911y8";
+        url = "https://elpa.nongnu.org/nongnu-devel/buttercup-1.40.0.20260411.203013.tar";
+        sha256 = "13s30dv7vhzbm80f4brza2mk7lpf3l7ffbzbjv4ln2s8rgsh6g64";
       };
       packageRequires = [ ];
       meta = {
@@ -1665,10 +1665,10 @@
     elpaBuild {
       pname = "evil-matchit";
       ename = "evil-matchit";
-      version = "4.1.0.0.20260409.93607";
+      version = "4.1.0.0.20260412.3556";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-matchit-4.1.0.0.20260409.93607.tar";
-        sha256 = "0yn15q7vd5gq2ks4gnrgpsh1np26wwgl3s99plbsr3bzhgr0phxl";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-matchit-4.1.0.0.20260412.3556.tar";
+        sha256 = "0pzpzlix9l3rv1g1giibhhmxwczsg8i0zjibjszds0agcyl2p7dg";
       };
       packageRequires = [ ];
       meta = {
