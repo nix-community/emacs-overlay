@@ -4256,10 +4256,10 @@
     elpaBuild {
       pname = "gtags-mode";
       ename = "gtags-mode";
-      version = "1.9.4";
+      version = "1.9.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gtags-mode-1.9.4.tar";
-        sha256 = "01bpgw839gkvy8258kc5p0zy8xv9rh4hpzb0h1hlxcllkir6idgg";
+        url = "https://elpa.gnu.org/packages/gtags-mode-1.9.5.tar";
+        sha256 = "1qb1wcim2abjprmn2bsc6d7vmad217fkc450dgwgxxx5spjgz40d";
       };
       packageRequires = [ ];
       meta = {
@@ -5068,10 +5068,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.6.0";
+      version = "0.6.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/kubed-0.6.0.tar";
-        sha256 = "0dajahm2siy2qxkhn2g2n2p7ccks2wab8q367rnqpkirv53j0q7n";
+        url = "https://elpa.gnu.org/packages/kubed-0.6.1.tar";
+        sha256 = "1filhadwzdkrw2dsma28b10nx62qnhxkp8g483r0il986ipnnshp";
       };
       packageRequires = [ ];
       meta = {
