@@ -2620,10 +2620,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260412.202128";
+      version = "0.9.9.4.0.20260413.143322";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260412.202128.tar";
-        sha256 = "0lbd9ngrviprgpzqhjpdprhgc4k3h7rkv7v7afrfr8yyckrplisj";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260413.143322.tar";
+        sha256 = "00g6flydd51p52i662zm6pqbmm31qdzxambbhjwrifr65lgkjfw4";
       };
       packageRequires = [
         compat
@@ -3162,10 +3162,10 @@
     elpaBuild {
       pname = "isl";
       ename = "isl";
-      version = "1.6.0.20260225.43822";
+      version = "1.6.0.20260414.62054";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.6.0.20260225.43822.tar";
-        sha256 = "05fq6l8c8w4bkfkh2cmmmdnjwa6hmfpv00avkp6r5fz4v9fnkvwq";
+        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.6.0.20260414.62054.tar";
+        sha256 = "149fcgwl3r5wiw8zwb1cgy4g96nv90a8wpjk8qh0dgcdz1vgsiqq";
       };
       packageRequires = [ ];
       meta = {
@@ -4075,10 +4075,10 @@
     elpaBuild {
       pname = "org-journal";
       ename = "org-journal";
-      version = "2.2.0.0.20251203.115702";
+      version = "2.2.0.0.20260413.140147";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-journal-2.2.0.0.20251203.115702.tar";
-        sha256 = "1rdrkfhk9rj7a7r520x1n7i3ddpd122gknvw7bi1ab76rnq95zyl";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-journal-2.2.0.0.20260413.140147.tar";
+        sha256 = "164mdrjiziklhvsz98i9pb01520y8r81ji7vbzkvpnxp1ia8a2m4";
       };
       packageRequires = [ org ];
       meta = {
@@ -4842,10 +4842,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20260227.53908";
+      version = "1.0.6.0.20260413.131116";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260227.53908.tar";
-        sha256 = "06ajn9j2dyjbqm87800fbqa0ixrvxz44x23cxp1901vrqwfdmw60";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260413.131116.tar";
+        sha256 = "1y7f9753w7hgfdcyrf5bn51hdg80lmvph90pckla1lkg86m0zdmm";
       };
       packageRequires = [ ];
       meta = {
