@@ -3226,10 +3226,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "25";
+      version = "26";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/emms-25.tar";
-        sha256 = "1p194bgysn0mmnaz0n9j236dmz53dlyg202xgq03bi5sl7lrffgp";
+        url = "https://elpa.gnu.org/packages/emms-26.tar";
+        sha256 = "0qcdhml0y69xjaa9l7jb1dsvqij1ksgw2x44zhxfn4f3fwkfxhd5";
       };
       packageRequires = [
         cl-lib

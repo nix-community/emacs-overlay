@@ -3310,10 +3310,10 @@
     elpaBuild {
       pname = "emms";
       ename = "emms";
-      version = "25.0.20260213.170929";
+      version = "26.0.20260414.110541";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emms-25.0.20260213.170929.tar";
-        sha256 = "1lrwhhaqbf09lwfk65gr7hpwc5z5sigpmna48fjmrmsp8aj99rzq";
+        url = "https://elpa.gnu.org/devel/emms-26.0.20260414.110541.tar";
+        sha256 = "05vp80ybsl37bm0wpwdhdj7qlgw07cik544fwzczg8r49bd2s066";
       };
       packageRequires = [
         cl-lib
@@ -5627,10 +5627,10 @@
     elpaBuild {
       pname = "map";
       ename = "map";
-      version = "3.3.1.0.20260101.125434";
+      version = "3.3.1.0.20260414.164123";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/map-3.3.1.0.20260101.125434.tar";
-        sha256 = "1darxw7vam0zc0rsxm2v0a239rpc1hnaqqkakmryac2kazbsjg7n";
+        url = "https://elpa.gnu.org/devel/map-3.3.1.0.20260414.164123.tar";
+        sha256 = "0dn3g1yfcgb5i3asadswjlhyjysfnfwfv3yq9np0g627s8vb6vgg";
       };
       packageRequires = [ ];
       meta = {
@@ -5969,10 +5969,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260318.10537";
+      version = "0.7.1.0.20260414.155751";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260318.10537.tar";
-        sha256 = "1s41pg3fpzjkk7qav3z8yqcgr6isx2a8gl63nfcc16m7hc868bga";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260414.155751.tar";
+        sha256 = "067g59mmx7x7xjlrdn620j64rnjdls1wpyjxl0na5sbcwjqf8g0j";
       };
       packageRequires = [
         dash
@@ -9767,10 +9767,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.12.0.0.20260413.191906";
+      version = "0.12.0.0.20260414.100913";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260413.191906.tar";
-        sha256 = "0y5y79cqw7wglbipxsybsvp5jp8ahpjwpcn1y81379zy0bgnhaz5";
+        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260414.100913.tar";
+        sha256 = "1mycdhw9da2012hvnz0cm8f61a5vlfc3zwjrq91r5v6bdnal8mhi";
       };
       packageRequires = [
         compat
