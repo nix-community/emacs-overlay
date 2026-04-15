@@ -5123,10 +5123,10 @@
     elpaBuild {
       pname = "spacemacs-theme";
       ename = "spacemacs-theme";
-      version = "0.2.0.20251221.165628";
+      version = "0.2.0.20260414.205200";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20251221.165628.tar";
-        sha256 = "16d4g4cyjij8s7pzf0g0pnbsfxzxw8lwdamwaq4whmn5g320yb28";
+        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20260414.205200.tar";
+        sha256 = "076nbpp16wy6j9ic3bhj9cj58bmah6ivhh842lkh7y7lgp6f7q7j";
       };
       packageRequires = [ ];
       meta = {
@@ -6050,10 +6050,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.11.20260215192642.0.20260215.201333";
+      version = "28.11.20260414134011.0.20260414.141628";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.11.20260215192642.0.20260215.201333.tar";
-        sha256 = "08pdqfglkl150pw43llm5z3a2mpzdil315a732i7fa4a27qwkxfn";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.11.20260414134011.0.20260414.141628.tar";
+        sha256 = "15bsi58n1bw9by75alkijvj8968rbh74bk1lqjxcfigfrajnbsii";
       };
       packageRequires = [ ];
       meta = {
