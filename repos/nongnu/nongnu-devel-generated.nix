@@ -566,10 +566,10 @@
     elpaBuild {
       pname = "casual";
       ename = "casual";
-      version = "2.15.1.0.20260410.163612";
+      version = "2.16.0.0.20260415.182614";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/casual-2.15.1.0.20260410.163612.tar";
-        sha256 = "1vjs8vjcig04nq6k8pyr5jv4pp49xkwxakilh4rpiy1if1h5wyq6";
+        url = "https://elpa.nongnu.org/nongnu-devel/casual-2.16.0.0.20260415.182614.tar";
+        sha256 = "0a0ba4b506pbv4nff8qspqjfzlfng77i3nqs3vwg1ybz6rhj7cwj";
       };
       packageRequires = [
         csv-mode
@@ -3585,10 +3585,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260412.122013";
+      version = "4.5.0.0.20260415.223343";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260412.122013.tar";
-        sha256 = "0hkh72q73qk7cr5k9sald9ix28wdy472bjp5g5gi155wwzdh4iqw";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260415.223343.tar";
+        sha256 = "161rfsm1147qi35ra5qqy5244q160al7k5zrmv2q54g9m3bcmjns";
       };
       packageRequires = [
         compat
@@ -3618,10 +3618,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260412.122013";
+      version = "4.5.0.0.20260415.223343";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260412.122013.tar";
-        sha256 = "1q0i3b3f9g7k752wp6ix1aikzr39l1id6j5hhfkxh7fri1v97rz5";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260415.223343.tar";
+        sha256 = "0vcgmiisnm2lllngml3adcgzhqvb5xxl5kk6fjkggd2jh13fchli";
       };
       packageRequires = [
         compat
@@ -4841,10 +4841,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20260413.131116";
+      version = "1.0.6.0.20260416.50503";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260413.131116.tar";
-        sha256 = "1y7f9753w7hgfdcyrf5bn51hdg80lmvph90pckla1lkg86m0zdmm";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260416.50503.tar";
+        sha256 = "12bcjfi7s7gisx31rwncvcs7j7m57kcs7rs5jfhmmpfsm8n24yba";
       };
       packageRequires = [ ];
       meta = {
@@ -5037,10 +5037,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260329.213326";
+      version = "2.32snapshot0.20260416.1249";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260329.213326.tar";
-        sha256 = "0327cbysrbizyf3r8crlmcd1wdsxkk29df98gwrrr1w6cvx3162v";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260416.1249.tar";
+        sha256 = "0l4srzgdnchvb7n13bxk77fqkssc4jdwzrfxmczca3nk82k98ab7";
       };
       packageRequires = [ macrostep ];
       meta = {
