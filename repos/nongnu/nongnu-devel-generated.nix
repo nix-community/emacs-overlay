@@ -473,7 +473,6 @@
   ) { };
   boxquote = callPackage (
     {
-      cl-lib ? null,
       elpaBuild,
       fetchurl,
       lib,
@@ -481,12 +480,12 @@
     elpaBuild {
       pname = "boxquote";
       ename = "boxquote";
-      version = "2.3.0.20231216.85245";
+      version = "2.4.1.0.20260415.194925";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/boxquote-2.3.0.20231216.85245.tar";
-        sha256 = "1b5kqxpvxfzq8n0q1bqjbyb0vmrsdm02qfai28ihxqixk4q8czbi";
+        url = "https://elpa.nongnu.org/nongnu-devel/boxquote-2.4.1.0.20260415.194925.tar";
+        sha256 = "1ywdip0h1cip8wbva4dwva2gss7wakjapf8fqc795d9izyvgmx0f";
       };
-      packageRequires = [ cl-lib ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/boxquote.html";
         license = lib.licenses.free;
@@ -620,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0snapshot0.20260414.161951";
+      version = "1.22.0snapshot0.20260415.180913";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260414.161951.tar";
-        sha256 = "0rywgqyaz4srxkf2z6al1x5yp8dadszp1x8r4dxy26m7w6d8vps7";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260415.180913.tar";
+        sha256 = "1mdvnbs36lvbh6vgxn7qhfp446narx6jlch2kg1fwyc66pws5ix0";
       };
       packageRequires = [
         clojure-mode
@@ -5660,10 +5659,10 @@
     elpaBuild {
       pname = "typst-ts-mode";
       ename = "typst-ts-mode";
-      version = "0.12.2.0.20260330.125224";
+      version = "0.12.2.0.20260415.103532";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.12.2.0.20260330.125224.tar";
-        sha256 = "0qjbypy1jxy7jcpvqh49b8d3b276qgbzlpj09g0bw9dz2g0mp6pr";
+        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.12.2.0.20260415.103532.tar";
+        sha256 = "190jabvm3p74cd96rrbj45y68myg32zvlxjrq01zvi3jv29xbpf6";
       };
       packageRequires = [ ];
       meta = {
