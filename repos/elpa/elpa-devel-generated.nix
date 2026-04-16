@@ -1015,10 +1015,10 @@
     elpaBuild {
       pname = "buframe";
       ename = "buframe";
-      version = "0.3.0.20260327.125525";
+      version = "0.3.0.20260415.112855";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/buframe-0.3.0.20260327.125525.tar";
-        sha256 = "0z97kqjzpgp31ik5y8ab50iw7mckx5mc3yrdr4abkl69ii6gw76q";
+        url = "https://elpa.gnu.org/devel/buframe-0.3.0.20260415.112855.tar";
+        sha256 = "1fav3n1r5w0vyvkbblfbi9xnglhmi4bvp6ikixp3lmh8bpf7as2l";
       };
       packageRequires = [ timeout ];
       meta = {
@@ -5925,10 +5925,10 @@
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.3.0.20260404.123801";
+      version = "0.4.0.20260415.81600";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minimail-0.3.0.20260404.123801.tar";
-        sha256 = "0nnzg0k7wzyqsaw6m8y0k2d4jz1c8grxg2jszsvzvg0lkq9y5wmp";
+        url = "https://elpa.gnu.org/devel/minimail-0.4.0.20260415.81600.tar";
+        sha256 = "1a1mh3g6vfvmlr419iv8fz7hfjb1ddsia26059zj69gqv7fniqbh";
       };
       packageRequires = [ ];
       meta = {
@@ -5969,10 +5969,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260415.34132";
+      version = "0.7.1.0.20260415.120110";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260415.34132.tar";
-        sha256 = "1p02w045ha2i92bqb5p303llvfpsjyw8z9ya0yib6xjd0bhc47hk";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260415.120110.tar";
+        sha256 = "1i3dd5qdg28vfn4497ph9bqlcpwwbk2sxnvc43b0757agi7jfcx0";
       };
       packageRequires = [
         dash
@@ -6591,10 +6591,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260413.183135";
+      version = "10.0pre0.20260415.185916";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260413.183135.tar";
-        sha256 = "0m1gb9fbv3nq3z7v8p8ywnn73aydw6sfrbcp1q36zi6g6fk3pzgb";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260415.185916.tar";
+        sha256 = "086n700sdmbqd6fwiky0ajaxpd9bqbryv0h21j7g49cy3c4rynf2";
       };
       packageRequires = [ ];
       meta = {
@@ -9767,10 +9767,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.12.0.0.20260414.100913";
+      version = "0.12.0.0.20260415.201524";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260414.100913.tar";
-        sha256 = "1mycdhw9da2012hvnz0cm8f61a5vlfc3zwjrq91r5v6bdnal8mhi";
+        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260415.201524.tar";
+        sha256 = "0b1rd31qaa1j2rgg76qr1vg1cg622qsvlrywa9vkv11d802yzgic";
       };
       packageRequires = [
         compat

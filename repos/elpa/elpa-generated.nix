@@ -5841,10 +5841,10 @@
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.3";
+      version = "0.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/minimail-0.3.tar";
-        sha256 = "1p8vk9z34ylzg9hvs88wik07m5mr72bqkh19kngw7gqlg0m2ydfp";
+        url = "https://elpa.gnu.org/packages/minimail-0.4.tar";
+        sha256 = "0ic8axms52v63wv5k0m1ny1dpnyzfqw4vj8fax4m1a0l6j3prfpx";
       };
       packageRequires = [ ];
       meta = {
