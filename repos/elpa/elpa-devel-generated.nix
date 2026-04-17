@@ -2957,10 +2957,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.23.0.20260416.82821";
+      version = "1.23.0.20260416.231951";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.23.0.20260416.82821.tar";
-        sha256 = "0j4xy7af2ksjh097vza29sp87a8mhlncly6a07r3k3iqc217w043";
+        url = "https://elpa.gnu.org/devel/eglot-1.23.0.20260416.231951.tar";
+        sha256 = "1gy37dz9gnr24r07ll4hr4zaga0vvsydjwvny13qkr7javqwqfym";
       };
       packageRequires = [
         eldoc
@@ -4559,10 +4559,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260413.232532";
+      version = "9.0.2pre0.20260416.153247";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260413.232532.tar";
-        sha256 = "0ynsa6sgb0vyn33inhjb7aip4azgk9jfvv8a05wb35swjfbprxpq";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260416.153247.tar";
+        sha256 = "03r4704kiwcdx5s4qsw9cjx7ljxr2kyq3szvadd028iw991kfcl7";
       };
       packageRequires = [ ];
       meta = {
@@ -5043,10 +5043,10 @@
     elpaBuild {
       pname = "jsonrpc";
       ename = "jsonrpc";
-      version = "1.0.28.0.20260416.74138";
+      version = "1.0.28.0.20260416.174639";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.28.0.20260416.74138.tar";
-        sha256 = "1l1l91pizl23g5y97z4vcsvf34kvh74gyhrah3rkrdgax5ry1l5y";
+        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.28.0.20260416.174639.tar";
+        sha256 = "0j7y9kcjdai6sd1634ln4ag0fg5x8ljzq50f25nc5miadaq93vw8";
       };
       packageRequires = [ ];
       meta = {
@@ -5969,10 +5969,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260416.13657";
+      version = "0.7.1.0.20260417.3738";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260416.13657.tar";
-        sha256 = "1x2gaax0mb6bgrd1b0xjc25w6mdw3mibx3rwfrya38b60d93hv1d";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260417.3738.tar";
+        sha256 = "0i9k4mgi4ih3jvz2879wvbdm0rhnj5mzhmsw7v76s0xz4bkcvwl6";
       };
       packageRequires = [
         dash
@@ -10124,10 +10124,10 @@
     elpaBuild {
       pname = "valign";
       ename = "valign";
-      version = "3.1.1.0.20251228.153858";
+      version = "3.1.1.0.20260416.235856";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/valign-3.1.1.0.20251228.153858.tar";
-        sha256 = "1ah9qdxlc2m6k536dyc6pfxvh1jmbfxcpcybka4r447dssq5ysfz";
+        url = "https://elpa.gnu.org/devel/valign-3.1.1.0.20260416.235856.tar";
+        sha256 = "1apwa8sb1bpsrkk81q0z9qir71s5naiva16hn2vdjrn4cd1kzcdb";
       };
       packageRequires = [ ];
       meta = {
@@ -10210,10 +10210,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.5.0.20260413.51427";
+      version = "0.5.0.20260416.141453";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20260413.51427.tar";
-        sha256 = "0zmj09wmaakiq5i4blqc247ypflmzg47s8kl73pjv6r37akzv9qq";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20260416.141453.tar";
+        sha256 = "0x5qj0a77wjfqxyr8wv9gswm205jj52cihlpmbkspn01a93ljr04";
       };
       packageRequires = [ compat ];
       meta = {
