@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0snapshot0.20260417.50749";
+      version = "1.22.0snapshot0.20260417.131818";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260417.50749.tar";
-        sha256 = "0d8l55f46vzp1433m0zbf2q49d4ap88ns1j1h5l5xx2hrxfvihlz";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260417.131818.tar";
+        sha256 = "03ngp4k6yp1g47ygwaldwbg7c6qaxzk59w5b4b1gf8lhh0h97ag6";
       };
       packageRequires = [
         clojure-mode
@@ -5574,10 +5574,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20260226.70748";
+      version = "0.2.1.0.20260417.100827";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20260226.70748.tar";
-        sha256 = "017af28xvnkqzqwxzcwiw4hsvmfwvbn1np5gqc54fybrpa9lkkzs";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20260417.100827.tar";
+        sha256 = "04v6yqj6a4aahff2kbpmj3k8jzqxa6idfgpfsd6l98yb3kqldil7";
       };
       packageRequires = [ ];
       meta = {
@@ -5939,10 +5939,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.9.0.20260301.131715";
+      version = "3.4.9.0.20260417.5154";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.9.0.20260301.131715.tar";
-        sha256 = "1cf3xgaqbczsd77h5psdk6q5407nrmkzj9s5zf77g7zs0xwdi317";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.9.0.20260417.5154.tar";
+        sha256 = "1g0p7mw4j95bj9b0mca0kdl3rdzfrmvrgf46p65lnplzkqw7as4x";
       };
       packageRequires = [ compat ];
       meta = {
