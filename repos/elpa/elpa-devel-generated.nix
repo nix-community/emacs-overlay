@@ -4623,10 +4623,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "1.0.0.0.20260120.94117";
+      version = "1.0.0.0.20260417.181527";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-1.0.0.0.20260120.94117.tar";
-        sha256 = "11ffwvv8zmkxbc74ny30cgjpwzv6v0mbdcdr1laadhbhwkdlk8am";
+        url = "https://elpa.gnu.org/devel/indent-bars-1.0.0.0.20260417.181527.tar";
+        sha256 = "0yfar20g8419i8dbcw236nfp60p4firy730i6h6d086dqr8xgbvj";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5409,10 +5409,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.30.1.0.20260409.235755";
+      version = "0.30.1.0.20260417.170756";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.30.1.0.20260409.235755.tar";
-        sha256 = "0cviwq12i6p6s8k58987n43mzrhcilkddflnmwkvalyvpfbsmm1r";
+        url = "https://elpa.gnu.org/devel/llm-0.30.1.0.20260417.170756.tar";
+        sha256 = "01dzr0qli82gdm24fdqiw7gn10w1gallgcss04v5d251idgfh87q";
       };
       packageRequires = [
         compat
@@ -5969,10 +5969,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260417.151618";
+      version = "0.7.1.0.20260418.20837";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260417.151618.tar";
-        sha256 = "0y5j4n7b7wy32ybka5c7m1af875lbmimx94zsg4gw7kgix1xazw0";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260418.20837.tar";
+        sha256 = "0y4ib67wq79ll6gd184xda08kbh9zn031yr8yvj9ayaaky25lmic";
       };
       packageRequires = [
         dash
