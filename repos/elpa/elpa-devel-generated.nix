@@ -5969,10 +5969,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260417.3738";
+      version = "0.7.1.0.20260417.151618";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260417.3738.tar";
-        sha256 = "0i9k4mgi4ih3jvz2879wvbdm0rhnj5mzhmsw7v76s0xz4bkcvwl6";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260417.151618.tar";
+        sha256 = "0y5j4n7b7wy32ybka5c7m1af875lbmimx94zsg4gw7kgix1xazw0";
       };
       packageRequires = [
         dash
@@ -6036,10 +6036,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260413.123308";
+      version = "5.2.0.0.20260417.195155";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260413.123308.tar";
-        sha256 = "1sxaac5c3v9p566dgi1k8igm257knnk7rfbkvsjnb21x3gri5dl0";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260417.195155.tar";
+        sha256 = "154cs39fmw11f6hhh5rpcdzn36pmxfp151wxmj19v4b3w2nc319i";
       };
       packageRequires = [ ];
       meta = {
@@ -6832,10 +6832,10 @@
     elpaBuild {
       pname = "org-transclusion";
       ename = "org-transclusion";
-      version = "1.4.0.0.20260310.65912";
+      version = "1.4.0.0.20260417.100318";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20260310.65912.tar";
-        sha256 = "00cbsqj3cvyzsxf3fxq5wxflsah10f8g97iy5ab51kkc9hkqr90g";
+        url = "https://elpa.gnu.org/devel/org-transclusion-1.4.0.0.20260417.100318.tar";
+        sha256 = "1vbgvzqaxrih3r749w5hs724aph6xjiqzg6qf8zb5xz0iy2q20yh";
       };
       packageRequires = [ org ];
       meta = {
