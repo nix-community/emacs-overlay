@@ -4623,10 +4623,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "1.0.0.0.20260417.181527";
+      version = "1.0.0.0.20260418.90339";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-1.0.0.0.20260417.181527.tar";
-        sha256 = "0yfar20g8419i8dbcw236nfp60p4firy730i6h6d086dqr8xgbvj";
+        url = "https://elpa.gnu.org/devel/indent-bars-1.0.0.0.20260418.90339.tar";
+        sha256 = "0jrdzw4yr1ldcsvc5jix8ay1wfv7fmphc2q82alhv4in247c5sna";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4892,10 +4892,10 @@
     elpaBuild {
       pname = "jarchive";
       ename = "jarchive";
-      version = "0.11.0.0.20231010.221311";
+      version = "0.11.0.0.20260418.75255";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jarchive-0.11.0.0.20231010.221311.tar";
-        sha256 = "122qffkbl5in1y1zpphn38kmg49xpvddxzf8im9hcvigf7dik6f5";
+        url = "https://elpa.gnu.org/devel/jarchive-0.11.0.0.20260418.75255.tar";
+        sha256 = "1bm1mccq44a9pcnvc1wa0hmxcn1ni35zgbkxw51ii8f9vv4m2cya";
       };
       packageRequires = [ ];
       meta = {
@@ -6036,10 +6036,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260417.195155";
+      version = "5.2.0.0.20260418.131316";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260417.195155.tar";
-        sha256 = "154cs39fmw11f6hhh5rpcdzn36pmxfp151wxmj19v4b3w2nc319i";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260418.131316.tar";
+        sha256 = "1qcb53pp05bk2fpjmli68kbmpk4wk8b7ll6iimvmgw8nlq4qzlhb";
       };
       packageRequires = [ ];
       meta = {
@@ -6591,10 +6591,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260415.185916";
+      version = "10.0pre0.20260418.194254";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260415.185916.tar";
-        sha256 = "086n700sdmbqd6fwiky0ajaxpd9bqbryv0h21j7g49cy3c4rynf2";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260418.194254.tar";
+        sha256 = "07cfrm7gqrwj6sn5l14sc5mym4q6rynjj6045z21d3ffc99m9c0m";
       };
       packageRequires = [ ];
       meta = {
