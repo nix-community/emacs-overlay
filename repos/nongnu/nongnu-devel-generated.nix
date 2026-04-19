@@ -2619,10 +2619,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260417.230441";
+      version = "0.9.9.4.0.20260418.12701";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260417.230441.tar";
-        sha256 = "156xqrhcppjk8l17d8y9h6pr6nvdx1a4i3k2988a3g2b1ji0d5ak";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260418.12701.tar";
+        sha256 = "1mhm7ihp12k334w2lmjch1mg20cp4884ybxdfn0j06pk4g9ffvn6";
       };
       packageRequires = [
         compat
@@ -3230,10 +3230,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.5.0.20260414.153707";
+      version = "0.10.5.0.20260418.85437";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.5.0.20260414.153707.tar";
-        sha256 = "1ac69anhvmg89mvnz8687k405gkw4aqslmgrbvrdcs8hk7q99dzh";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.5.0.20260418.85437.tar";
+        sha256 = "1abvpn9xk5n98gr4sdjfk4kv26fxqsmriccscwqz8n3pp1ll59b5";
       };
       packageRequires = [ fsm ];
       meta = {
@@ -4460,10 +4460,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.64.0.20260406.70807";
+      version = "0.65.0.20260418.140736";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.64.0.20260406.70807.tar";
-        sha256 = "1cb0grckwbh5xibka5nsxzl3r65hiph4xc1dph3y5la503czjj9h";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.65.0.20260418.140736.tar";
+        sha256 = "13p8cqc1na1jvqg1x4wwffq79k42wn2ddaj0msdqcr6fcya6ccqs";
       };
       packageRequires = [ peg ];
       meta = {
@@ -5248,10 +5248,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.4.1.0.20260403.230353";
+      version = "1.4.2.0.20260418.123100";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.1.0.20260403.230353.tar";
-        sha256 = "0cwp2cyhxiv4wl2rq7jip9864hcbhh3af9prmm347jkxv9wzhyk7";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.2.0.20260418.123100.tar";
+        sha256 = "1xdz1vglwza0lik5zqx6f8x8w3a7yq8x7wkd7zr5k932pjmhqbnd";
       };
       packageRequires = [ ];
       meta = {

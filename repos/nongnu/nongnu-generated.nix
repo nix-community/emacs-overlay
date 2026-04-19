@@ -4482,10 +4482,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.64";
+      version = "0.65";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/pg-0.64.tar";
-        sha256 = "1dip1s8l2im8j40hgn3jrqrb8mbly2wfd5fy4vmz9mn4axnxdvkn";
+        url = "https://elpa.nongnu.org/nongnu/pg-0.65.tar";
+        sha256 = "1gf93xsldhx105r5m03hiq3lzlzb3r5pjd3j99jl0gs3z8pmn8ic";
       };
       packageRequires = [ peg ];
       meta = {
@@ -5265,10 +5265,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.4.1";
+      version = "1.4.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/subed-1.4.1.tar";
-        sha256 = "11rg436w2rdcpiix5hzmdb7r736nhiqpm4h8b18ac7dv6nnjjnwd";
+        url = "https://elpa.nongnu.org/nongnu/subed-1.4.2.tar";
+        sha256 = "0crpgxqk164z602iajhx7b0zxdjs5f9g8hv0q6n1vjrsby87pl1x";
       };
       packageRequires = [ ];
       meta = {
