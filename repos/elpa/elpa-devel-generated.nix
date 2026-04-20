@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.6.0.20260330.61918";
+      version = "2.6.0.20260419.184703";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.6.0.20260330.61918.tar";
-        sha256 = "1w8l2j55zmkbfx1m22fd12xbh9makaxxp97wcc69px1flx0055dh";
+        url = "https://elpa.gnu.org/devel/cape-2.6.0.20260419.184703.tar";
+        sha256 = "143b5kxykz4mgx2y7gq6vidrqnnjnc0ay809hjzbqfmpvlnf86fn";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1660,10 +1660,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.9.0.20260330.62901";
+      version = "2.9.0.20260419.183827";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.9.0.20260330.62901.tar";
-        sha256 = "10092p4v9kaz2mlffsq5dpnqna3qbbyx4qivxg4qjpy3w53wbznj";
+        url = "https://elpa.gnu.org/devel/corfu-2.9.0.20260419.183827.tar";
+        sha256 = "06myb0qgv8q3iak83bdpkjmd8vplqcvypl9q1y1h7qfbcy2yvssh";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3200,10 +3200,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260409.83314";
+      version = "0.0.20260419.193604";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260409.83314.tar";
-        sha256 = "1cnr00p1gl6f21p1apnyz2a04zv5xc2c7c1ldkvzadpy9fj0a9r4";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260419.193604.tar";
+        sha256 = "1spqwayvm830vzsyy7l768yd91f3h8agpd9wpaa6g0pd5pdhh42r";
       };
       packageRequires = [ ];
       meta = {
@@ -4089,10 +4089,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.3.0.20260406.15023";
+      version = "0.10.3.0.20260420.30251";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.10.3.0.20260406.15023.tar";
-        sha256 = "11ijgpz1pwh7cgj96lhigmh19vrqjysslpkmmrjyihdzmmfzk0wj";
+        url = "https://elpa.gnu.org/devel/gnosis-0.10.3.0.20260420.30251.tar";
+        sha256 = "1rmjz2piv9imzfwpgk5cvkw7kknjywmzsvppj4cflpqkr69g8cbc";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4892,10 +4892,10 @@
     elpaBuild {
       pname = "jarchive";
       ename = "jarchive";
-      version = "0.11.0.0.20260418.75255";
+      version = "0.12.0.0.20260419.91017";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jarchive-0.11.0.0.20260418.75255.tar";
-        sha256 = "1bm1mccq44a9pcnvc1wa0hmxcn1ni35zgbkxw51ii8f9vv4m2cya";
+        url = "https://elpa.gnu.org/devel/jarchive-0.12.0.0.20260419.91017.tar";
+        sha256 = "0mdsfvggcv2iyia0vpp1lj1xarg8kjbksvxzl6w2b2q5k8j1gl8f";
       };
       packageRequires = [ ];
       meta = {
@@ -5755,10 +5755,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.1.2.0.20260315.82315";
+      version = "8.2.0.0.20260419.100405";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.1.2.0.20260315.82315.tar";
-        sha256 = "06wa3mzqr3scxq5gzh7gwkf148x6iqvymb6bj7yrgnqcnylgy3cw";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.2.0.0.20260419.100405.tar";
+        sha256 = "114s5ra2h4d8k0qn27blb8bzxjjlcgrrkmg1y647m2kzwfbp8hx5";
       };
       packageRequires = [ ];
       meta = {
@@ -10343,10 +10343,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.8.0.20260330.62818";
+      version = "2.8.0.20260419.183845";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.8.0.20260330.62818.tar";
-        sha256 = "0qj9z9r9ili22d3jaxa1br4ldhjx0hfw8wc619idy712g6lh954a";
+        url = "https://elpa.gnu.org/devel/vertico-2.8.0.20260419.183845.tar";
+        sha256 = "0mxhmknbx9sjsvxz9mc5vvg8pag9ijll0s71c2in307scdmp3lvk";
       };
       packageRequires = [ compat ];
       meta = {
