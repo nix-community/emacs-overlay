@@ -3848,10 +3848,10 @@
     elpaBuild {
       pname = "multiple-cursors";
       ename = "multiple-cursors";
-      version = "1.5.0.0.20260410.133143";
+      version = "1.5.0.0.20260419.93113";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors-1.5.0.0.20260410.133143.tar";
-        sha256 = "01sdyh0r6f4nphw8y4qgs0ngbj7szric3vnz7wd5s2iapc3hy3l5";
+        url = "https://elpa.nongnu.org/nongnu-devel/multiple-cursors-1.5.0.0.20260419.93113.tar";
+        sha256 = "0qbgka567dd72y9mlm46kwf11rdjk9s94z4vqn73kmk0k15zjg82";
       };
       packageRequires = [ cl-lib ];
       meta = {
