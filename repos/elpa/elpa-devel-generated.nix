@@ -2075,10 +2075,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20260413.54139";
+      version = "4.1.3.0.20260421.53809";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260413.54139.tar";
-        sha256 = "1w6sgpniw8d5rgfxkm45kq4claal0wa5hm196qlci2h2v8xvx3pr";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260421.53809.tar";
+        sha256 = "1k2yfc4v26vz9g17sdz8w4hpl5s0ffrh41i92nx7cw8r14q756vr";
       };
       packageRequires = [ ];
       meta = {
@@ -7621,10 +7621,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.3.4.0.20260420.85829";
+      version = "1.3.4.0.20260421.51354";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.3.4.0.20260420.85829.tar";
-        sha256 = "01g20dnixsxsfhy94jrfxnxpppfj8grpnc5x5vnbv482kgg1n7gs";
+        url = "https://elpa.gnu.org/devel/pulsar-1.3.4.0.20260421.51354.tar";
+        sha256 = "17b8innkqsrlqvfw102816fzxm5ccnc4fisk3kj11435hkli4gsv";
       };
       packageRequires = [ ];
       meta = {
@@ -9569,10 +9569,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.3.0.0.20260326.104345";
+      version = "1.3.0.0.20260421.53104";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.3.0.0.20260326.104345.tar";
-        sha256 = "0b28pbpv0z474kqazx60l26zgqm60naymflx3vidf0gmi5zqh1j5";
+        url = "https://elpa.gnu.org/devel/tmr-1.3.0.0.20260421.53104.tar";
+        sha256 = "11lbr2i65h1r6pdc22d1lm36w7fdqymq8v5ssvw9zswis52vwiih";
       };
       packageRequires = [ ];
       meta = {
