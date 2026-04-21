@@ -712,10 +712,10 @@
     elpaBuild {
       pname = "cond-let";
       ename = "cond-let";
-      version = "0.2.2.0.20260201.150042";
+      version = "0.2.2.0.20260420.135245";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-0.2.2.0.20260201.150042.tar";
-        sha256 = "0fy4kji48wj5v1jf78kmd011v5v4q5b5n32mhhixv83243hng2fb";
+        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-0.2.2.0.20260420.135245.tar";
+        sha256 = "1zm81zgmf5k6akh4pngjln1xp7p561h97hkcrsbc78v7nq48x8kb";
       };
       packageRequires = [ ];
       meta = {
@@ -5807,10 +5807,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.3snapshot0.20260225.71602";
+      version = "8.3.3snapshot0.20260420.63204";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260225.71602.tar";
-        sha256 = "1w6p8cygsvwzzci2fjjy4rysb6n888frsa1ay99p66x8kq5s7n50";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260420.63204.tar";
+        sha256 = "03804kmfwp994szv5gdgsg1sxmmdhzam8aq17r402chj6lhpla1x";
       };
       packageRequires = [ vcard ];
       meta = {
