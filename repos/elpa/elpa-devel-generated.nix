@@ -2957,10 +2957,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.23.0.20260416.231951";
+      version = "1.23.0.20260420.151357";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.23.0.20260416.231951.tar";
-        sha256 = "1gy37dz9gnr24r07ll4hr4zaga0vvsydjwvny13qkr7javqwqfym";
+        url = "https://elpa.gnu.org/devel/eglot-1.23.0.20260420.151357.tar";
+        sha256 = "14dnn816871crlzdz3rzll55j1i2hcgybih8ap8aqwjr4br4p03w";
       };
       packageRequires = [
         eldoc
@@ -4089,10 +4089,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.3.0.20260420.30251";
+      version = "0.10.3.0.20260420.110309";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.10.3.0.20260420.30251.tar";
-        sha256 = "1rmjz2piv9imzfwpgk5cvkw7kknjywmzsvppj4cflpqkr69g8cbc";
+        url = "https://elpa.gnu.org/devel/gnosis-0.10.3.0.20260420.110309.tar";
+        sha256 = "0inrv51wkjycbxhhlsivfig2479v18jcvps1dq2psjas0r2crsx3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5627,10 +5627,10 @@
     elpaBuild {
       pname = "map";
       ename = "map";
-      version = "3.3.1.0.20260414.164123";
+      version = "3.3.1.0.20260420.130325";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/map-3.3.1.0.20260414.164123.tar";
-        sha256 = "0dn3g1yfcgb5i3asadswjlhyjysfnfwfv3yq9np0g627s8vb6vgg";
+        url = "https://elpa.gnu.org/devel/map-3.3.1.0.20260420.130325.tar";
+        sha256 = "1khl72238fzf8jzk3ihq5yl3w8kipr4km5awh4zqhp03skr5kp86";
       };
       packageRequires = [ ];
       meta = {
@@ -7621,10 +7621,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.3.4.0.20260413.54922";
+      version = "1.3.4.0.20260420.85829";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.3.4.0.20260413.54922.tar";
-        sha256 = "1qsksqcyn2y0qa8gn89wvr6qbabanvfa4pchiyjkw4f1pv0ipm51";
+        url = "https://elpa.gnu.org/devel/pulsar-1.3.4.0.20260420.85829.tar";
+        sha256 = "01g20dnixsxsfhy94jrfxnxpppfj8grpnc5x5vnbv482kgg1n7gs";
       };
       packageRequires = [ ];
       meta = {
