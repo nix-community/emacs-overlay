@@ -2549,6 +2549,27 @@
       };
     }
   ) { };
+  dmsg = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "dmsg";
+      ename = "dmsg";
+      version = "0.2";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/dmsg-0.2.tar";
+        sha256 = "18wnbkd707n2qh9an72wizs0yp71hys6vg0y02iclqmj7igjg28k";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/dmsg.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   do-at-point = callPackage (
     {
       elpaBuild,
@@ -9531,10 +9552,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.12.0";
+      version = "0.13.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.12.0.tar";
-        sha256 = "0ml92xzbs57npwwyp46p03kd9xi9lhr5hvbrw6nayyc51hm4c7vk";
+        url = "https://elpa.gnu.org/packages/transient-0.13.0.tar";
+        sha256 = "0rwb7l823d4nkk7zmnyi5j7id7kswxrc0h9crqyd63n14w78bksi";
       };
       packageRequires = [
         compat

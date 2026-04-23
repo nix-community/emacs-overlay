@@ -2612,6 +2612,27 @@
       };
     }
   ) { };
+  dmsg = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "dmsg";
+      ename = "dmsg";
+      version = "0.2.0.20260422.105206";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/dmsg-0.2.0.20260422.105206.tar";
+        sha256 = "0h8l75k00hh0j2cyc2jwqkrnr7qmkz0jydbhm2qwpm3bb5pyd6bq";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/dmsg.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   do-at-point = callPackage (
     {
       elpaBuild,
@@ -2957,10 +2978,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.23.0.20260421.100350";
+      version = "1.23.0.20260422.80836";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.23.0.20260421.100350.tar";
-        sha256 = "13mr1nycl56cs3p5d789baqmd99an0li047d2gv6l63s5pnvh548";
+        url = "https://elpa.gnu.org/devel/eglot-1.23.0.20260422.80836.tar";
+        sha256 = "1w7pfbx6m68x6anxg1038cah2wbyb3f3mdgsqsrsj0dbh9qwzzq5";
       };
       packageRequires = [
         eldoc
@@ -4559,10 +4580,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260416.153247";
+      version = "9.0.2pre0.20260422.74419";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260416.153247.tar";
-        sha256 = "03r4704kiwcdx5s4qsw9cjx7ljxr2kyq3szvadd028iw991kfcl7";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260422.74419.tar";
+        sha256 = "1k6qcwb9bhf062bd0d6q69n1wbk68bkmb8d30c5hnd32s2m261xp";
       };
       packageRequires = [ ];
       meta = {
@@ -5969,10 +5990,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260418.20837";
+      version = "0.7.1.0.20260423.25741";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260418.20837.tar";
-        sha256 = "0y4ib67wq79ll6gd184xda08kbh9zn031yr8yvj9ayaaky25lmic";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260423.25741.tar";
+        sha256 = "1fqm79gx1s6zzv5pzxrbn8idrmbyiphawn6fm5vzjdm5dqkpq762";
       };
       packageRequires = [
         dash
@@ -7450,10 +7471,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.1.0.20260415.1438";
+      version = "1.5.1.0.20260423.21349";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.5.1.0.20260415.1438.tar";
-        sha256 = "1gc0d5qq5kj2ryh87yn00g870wmv13ccapmixjw57yiq0piw7r6w";
+        url = "https://elpa.gnu.org/devel/posframe-1.5.1.0.20260423.21349.tar";
+        sha256 = "0ylxj2spphywm7851lyrki34gkcznjd24xpd75f47pa1wcplkc48";
       };
       packageRequires = [ ];
       meta = {
@@ -9767,10 +9788,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.12.0.0.20260415.201524";
+      version = "0.13.0.0.20260422.164634";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.12.0.0.20260415.201524.tar";
-        sha256 = "0b1rd31qaa1j2rgg76qr1vg1cg622qsvlrywa9vkv11d802yzgic";
+        url = "https://elpa.gnu.org/devel/transient-0.13.0.0.20260422.164634.tar";
+        sha256 = "1mqky3s852p8fw9h9s2wqn7f40fbk8zy5rz9yxwq88w55nyw2kw5";
       };
       packageRequires = [
         compat
