@@ -3585,10 +3585,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260422.162703";
+      version = "4.5.0.0.20260422.220622";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260422.162703.tar";
-        sha256 = "15vsda54qg0j6ryhssjhsylbcfbq87ibgqbsj2w5c4mnbmfw238v";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260422.220622.tar";
+        sha256 = "1sm2ixy8hnamzvapy4i2j58ydharg47xb3s1981yr2d948dl2kxd";
       };
       packageRequires = [
         compat
@@ -3618,10 +3618,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260422.162703";
+      version = "4.5.0.0.20260422.220622";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260422.162703.tar";
-        sha256 = "17nmh4hxylcyd861pyhxi4vcl0vqbrnhj8i58kg9k87dpz19avvw";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260422.220622.tar";
+        sha256 = "13hzbc26wi6llab43gy8m6jpnm5faji7bqk5xlaxwinfqhzjfb2a";
       };
       packageRequires = [
         compat
@@ -3644,10 +3644,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.9alpha0.20260321.14320";
+      version = "2.9alpha0.20260422.235526";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20260321.14320.tar";
-        sha256 = "1a0a9d199fkkxv73fdvy1x985r0x5z4q1s48axgwh7rsv24pvbqp";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20260422.235526.tar";
+        sha256 = "0dfbghfzvxcjvb6jzahn4dkwhcgrpmrrxg4zdmgjp7rja0qacmvg";
       };
       packageRequires = [ ];
       meta = {
@@ -4800,10 +4800,10 @@
     elpaBuild {
       pname = "rpm-spec-mode";
       ename = "rpm-spec-mode";
-      version = "0.16.0.20260420.225419";
+      version = "0.16.0.20260423.74352";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rpm-spec-mode-0.16.0.20260420.225419.tar";
-        sha256 = "1w0kxzf8jj26l61xkjy612rz7xdy0b9hzky9z0grmaak5v6v7ifc";
+        url = "https://elpa.nongnu.org/nongnu-devel/rpm-spec-mode-0.16.0.20260423.74352.tar";
+        sha256 = "0pqq31x60g3ig7fmd4jh7kjz051m020kqs3pfpbiznwhjh8v63ad";
       };
       packageRequires = [ compat ];
       meta = {
