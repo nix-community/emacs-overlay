@@ -1798,10 +1798,10 @@
     elpaBuild {
       pname = "exec-path-from-shell";
       ename = "exec-path-from-shell";
-      version = "2.2.0.20260422.110342";
+      version = "2.2.0.20260423.183347";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/exec-path-from-shell-2.2.0.20260422.110342.tar";
-        sha256 = "0wxs00ics2prwbvx917f9x3qnvlwj5q5bsa49jidsldhz0zq352j";
+        url = "https://elpa.nongnu.org/nongnu-devel/exec-path-from-shell-2.2.0.20260423.183347.tar";
+        sha256 = "0s80hah6795p2k97qpnqj3baaw1cy9c54g38vbcczq4mn8faimk6";
       };
       packageRequires = [ ];
       meta = {
@@ -3230,10 +3230,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.5.0.20260420.31558";
+      version = "0.10.5.0.20260423.192938";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.5.0.20260420.31558.tar";
-        sha256 = "0mckkybaj1bfqr6dvzlrlbc7036fpn5msi1mz5jc2l6fnz5ayard";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.5.0.20260423.192938.tar";
+        sha256 = "1q79iv4znishj6rdz1m76r0c8h72i2g47xfh6xfw2gqxbkkyilv3";
       };
       packageRequires = [ fsm ];
       meta = {
@@ -3644,10 +3644,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.9alpha0.20260422.235526";
+      version = "2.9alpha0.20260423.150805";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20260422.235526.tar";
-        sha256 = "0dfbghfzvxcjvb6jzahn4dkwhcgrpmrrxg4zdmgjp7rja0qacmvg";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20260423.150805.tar";
+        sha256 = "1ap384fyxbny1pn59grjj6x8y29hcfl1vlhim4r177j2killr4sh";
       };
       packageRequires = [ ];
       meta = {
@@ -5314,10 +5314,10 @@
     elpaBuild {
       pname = "symbol-overlay";
       ename = "symbol-overlay";
-      version = "4.3.0.20240913.162400";
+      version = "4.3.0.20260423.145452";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/symbol-overlay-4.3.0.20240913.162400.tar";
-        sha256 = "0i5rs6cqfjl1c6m8wf0wwlzbsc7zvw9x0b8g8rds9n5c23b7gv15";
+        url = "https://elpa.nongnu.org/nongnu-devel/symbol-overlay-4.3.0.20260423.145452.tar";
+        sha256 = "16gm3gj84wd7v6qhf3p0sz2jgbbyi60kqwkb41rfiz7n79qlijpg";
       };
       packageRequires = [ seq ];
       meta = {
