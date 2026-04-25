@@ -1383,16 +1383,17 @@
       elpaBuild,
       fetchurl,
       lib,
+      posframe,
     }:
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260331.24502";
+      version = "1.0.2.0.20260424.211153";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260331.24502.tar";
-        sha256 = "19apxj576hy09pk37rpnzybab0ffrw63j2ycad5vwz75y84dhjys";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260424.211153.tar";
+        sha256 = "1ijf0fwpn06dc9w5ixqcp4f9r69gwdj4cwvjcpawbrpzim6n2gw5";
       };
-      packageRequires = [ ];
+      packageRequires = [ posframe ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/company.html";
         license = lib.licenses.free;
@@ -10516,10 +10517,10 @@
     elpaBuild {
       pname = "wcheck-mode";
       ename = "wcheck-mode";
-      version = "2026.0.20260412.44645";
+      version = "2026.0.20260425.74756";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/wcheck-mode-2026.0.20260412.44645.tar";
-        sha256 = "0gbx80sv5kg8jnk5vzr3hr4lc25rhyl6jva14nr2c2v6bidfi97x";
+        url = "https://elpa.gnu.org/devel/wcheck-mode-2026.0.20260425.74756.tar";
+        sha256 = "03bi4jg8f8sja4ifc7bmbmzpfl7d0ph3s6p1kjr9pq5q329syalv";
       };
       packageRequires = [ ];
       meta = {
