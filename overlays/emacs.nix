@@ -10,13 +10,6 @@ let
           super.fetchFromGitHub
         else
           throw "Unknown repository type ${repoMeta.type}!";
-      libGccJitLibraryPaths = [
-        "${super.lib.getLib super.libgccjit}/lib/gcc"
-        "${super.lib.getLib super.stdenv.cc.libc}/lib"
-      ]
-      ++ super.lib.optionals (super.stdenv.cc ? cc.lib.libgcc) [
-        "${super.lib.getLib super.stdenv.cc.cc.lib.libgcc}/lib"
-      ];
     in
     builtins.foldl'
       (drv: fn: fn drv)
@@ -36,32 +29,6 @@ let
               configureFlags = old.configureFlags ++
                                super.lib.optionals (super.stdenv.isLinux && super.stdenv.isAarch64)
                                  [ "--enable-check-lisp-object-type" ];
-
-              patches = [
-                (super.pkgs.replaceVars ./native-comp-driver-options-30.patch {
-                  backendPath = (
-                    super.lib.concatStringsSep " " (
-                      map (x: ''"-B${x}"'') (
-                        [
-                          # Paths necessary so the JIT compiler finds its libraries:
-                          "${super.lib.getLib super.libgccjit}/lib"
-                        ]
-                        ++ libGccJitLibraryPaths
-                        ++ [
-                          # Executable paths necessary for compilation (ld, as):
-                          "${super.lib.getBin super.stdenv.cc.cc}/bin"
-                          "${super.lib.getBin super.stdenv.cc.bintools}/bin"
-                          "${super.lib.getBin super.stdenv.cc.bintools.bintools}/bin"
-                        ]
-                        ++ super.lib.optionals super.stdenv.hostPlatform.isDarwin [
-                          # The linker needs to know where to find libSystem on Darwin.
-                          "${super.apple-sdk.sdkroot}/usr/lib"
-                        ]
-                      )
-                    )
-                  );
-                })
-              ];
 
               postPatch = old.postPatch + ''
                 substituteInPlace lisp/loadup.el \
@@ -91,26 +58,19 @@ let
               in
                 base.overrideAttrs (
                   oa: {
-                    patches = oa.patches ++ [
-                      ./inhibit-lexical-cookie-warning-67916-30.patch
-                    ];
                     passthru = oa.passthru // {
                         pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                     };
                   });
 
   emacs-git-pgtk = let base = (mkGitEmacs "emacs-git-pgtk" ../repos/emacs/emacs-master.json) { withPgtk = true; };
-                       emacs = emacs-git-pgtk;
-                   in
-                     base.overrideAttrs (
-                       oa: {
-                         patches = oa.patches ++ [
-                           ./inhibit-lexical-cookie-warning-67916-30.patch
-                         ];
-                         passthru = oa.passthru // {
-                           pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
-                         };
-                       });
+                   emacs = emacs-git-pgtk;
+               in base.overrideAttrs (
+                 oa: {
+                    passthru = oa.passthru // {
+                        pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
+                    };
+                 });
 
   emacs-unstable = let base = (mkGitEmacs "emacs-unstable" ../repos/emacs/emacs-unstable.json) { };
                        emacs = emacs-unstable;
@@ -139,9 +99,6 @@ let
                   oa: {
                     buildInputs = oa.buildInputs ++ [ super.mps ];
                     configureFlags = oa.configureFlags ++ [ "--with-mps=yes" ];
-                    patches = oa.patches ++ [
-                      ./inhibit-lexical-cookie-warning-67916-30.patch
-                    ];
                     passthru = oa.passthru // {
                       pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                     };
@@ -154,9 +111,6 @@ let
                        oa: {
                          buildInputs = oa.buildInputs ++ [ super.mps ];
                          configureFlags = oa.configureFlags ++ [ "--with-mps=yes" ];
-                         patches = oa.patches ++ [
-                           ./inhibit-lexical-cookie-warning-67916-30.patch
-                         ];
                          passthru = oa.passthru // {
                            pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                          };
