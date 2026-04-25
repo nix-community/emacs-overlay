@@ -38,7 +38,6 @@ let
                                  [ "--enable-check-lisp-object-type" ];
 
               patches = [
-                ./inhibit-lexical-cookie-warning-67916-30.patch
                 (super.pkgs.replaceVars ./native-comp-driver-options-30.patch {
                   backendPath = (
                     super.lib.concatStringsSep " " (
@@ -92,6 +91,9 @@ let
               in
                 base.overrideAttrs (
                   oa: {
+                    patches = oa.patches ++ [
+                      ./inhibit-lexical-cookie-warning-67916-30.patch
+                    ];
                     passthru = oa.passthru // {
                         pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                     };
@@ -102,6 +104,9 @@ let
                    in
                      base.overrideAttrs (
                        oa: {
+                         patches = oa.patches ++ [
+                           ./inhibit-lexical-cookie-warning-67916-30.patch
+                         ];
                          passthru = oa.passthru // {
                            pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                          };
@@ -134,6 +139,9 @@ let
                   oa: {
                     buildInputs = oa.buildInputs ++ [ super.mps ];
                     configureFlags = oa.configureFlags ++ [ "--with-mps=yes" ];
+                    patches = oa.patches ++ [
+                      ./inhibit-lexical-cookie-warning-67916-30.patch
+                    ];
                     passthru = oa.passthru // {
                       pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                     };
@@ -146,6 +154,9 @@ let
                        oa: {
                          buildInputs = oa.buildInputs ++ [ super.mps ];
                          configureFlags = oa.configureFlags ++ [ "--with-mps=yes" ];
+                         patches = oa.patches ++ [
+                           ./inhibit-lexical-cookie-warning-67916-30.patch
+                         ];
                          passthru = oa.passthru // {
                            pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                          };
