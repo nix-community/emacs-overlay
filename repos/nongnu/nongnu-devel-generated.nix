@@ -2142,10 +2142,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.32.0.20251220.230156";
+      version = "0.32.0.20260425.124539";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.32.0.20251220.230156.tar";
-        sha256 = "1a6l6b659h9mf0dqc6yvq2pc75x3rw3ysn6k9ap5pyrsdz7286f5";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.32.0.20260425.124539.tar";
+        sha256 = "113yrpbwk3zhd1jnnqsmhda5q8rdpjf5janbnsmdfm510a61bxzh";
       };
       packageRequires = [ project ];
       meta = {
@@ -2619,10 +2619,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260422.5643";
+      version = "0.9.9.4.0.20260425.14632";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260422.5643.tar";
-        sha256 = "07drqy9aksqsvfgg7a6r7bp430qccs6bngrs367dp0vr46mx6kw0";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260425.14632.tar";
+        sha256 = "1xhhfmq899b4xgg6capm8z5m3dc2rxla2yh6rqb27sbsiy2win24";
       };
       packageRequires = [
         compat
@@ -3644,10 +3644,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.9alpha0.20260423.150805";
+      version = "2.9alpha0.20260425.95459";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20260423.150805.tar";
-        sha256 = "1ap384fyxbny1pn59grjj6x8y29hcfl1vlhim4r177j2killr4sh";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20260425.95459.tar";
+        sha256 = "0f4zg1b1sr7znr1b2m00cpi1mz14fk7rncl0y17m97rzp935qz21";
       };
       packageRequires = [ ];
       meta = {
