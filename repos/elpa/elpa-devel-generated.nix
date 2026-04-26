@@ -1942,10 +1942,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.26.0.0.20260425.173339";
+      version = "0.26.0.0.20260425.232515";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.26.0.0.20260425.173339.tar";
-        sha256 = "16kxnpkb9w0c3ynr5glgi314s6icl42jips6mbgx06iflar5pc7m";
+        url = "https://elpa.gnu.org/devel/dape-0.26.0.0.20260425.232515.tar";
+        sha256 = "104zyyaygm51r21nrh2fh1cf3il75ji493vy3wdz92smlq0nafa2";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2388,10 +2388,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20260328.192544";
+      version = "1.10.0.0.20260425.230550";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260328.192544.tar";
-        sha256 = "1whznmdqlf3gnyq0k7n9pj71d8qb3avv27dmk86kmgvp1n2bq3c4";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260425.230550.tar";
+        sha256 = "0m33pbxjkjykij71pq9sqcbsi8y4ppz8csq15vp2al6w21k0z3rd";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -5671,10 +5671,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.10.0.20260330.62326";
+      version = "2.10.0.20260426.65037";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.10.0.20260330.62326.tar";
-        sha256 = "1vlzmpk04q2cgaqnlzdqdn6ll58jvkb3v93hnkifrldgzqkgd40n";
+        url = "https://elpa.gnu.org/devel/marginalia-2.10.0.20260426.65037.tar";
+        sha256 = "0lf1i93fhxzf961awnlasjf09hym7973dmw8pn4wkabkwvcxc4im";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7643,10 +7643,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.3.4.0.20260424.102730";
+      version = "1.3.4.0.20260426.51313";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.3.4.0.20260424.102730.tar";
-        sha256 = "1kmfwrl9sl97wp1yhna5hs551v26jf20zk0zsgdy3nx5s12a4l0b";
+        url = "https://elpa.gnu.org/devel/pulsar-1.3.4.0.20260426.51313.tar";
+        sha256 = "0nw5hpxk5v334xp43gnnv2jknq88lgba69j8sn0i1625cvwpijiq";
       };
       packageRequires = [ ];
       meta = {
@@ -10232,10 +10232,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.5.0.20260416.141453";
+      version = "0.5.0.20260425.182043";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20260416.141453.tar";
-        sha256 = "0x5qj0a77wjfqxyr8wv9gswm205jj52cihlpmbkspn01a93ljr04";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20260425.182043.tar";
+        sha256 = "19i8fqk8midyz3bhnqxqf4gaiax00dsxqkm90ksj9bqgaklpf5lw";
       };
       packageRequires = [ compat ];
       meta = {
