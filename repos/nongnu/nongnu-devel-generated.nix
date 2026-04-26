@@ -2142,10 +2142,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.32.0.20260425.124539";
+      version = "0.32.0.20260426.1654";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.32.0.20260425.124539.tar";
-        sha256 = "113yrpbwk3zhd1jnnqsmhda5q8rdpjf5janbnsmdfm510a61bxzh";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.32.0.20260426.1654.tar";
+        sha256 = "0n5vl8z8z6w69d0lhzrf6ah001zigp5gw5apc037aliydki2zw08";
       };
       packageRequires = [ project ];
       meta = {
@@ -2619,10 +2619,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260425.14632";
+      version = "0.9.9.4.0.20260426.2438";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260425.14632.tar";
-        sha256 = "1xhhfmq899b4xgg6capm8z5m3dc2rxla2yh6rqb27sbsiy2win24";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260426.2438.tar";
+        sha256 = "0ylky0p9wah1j370dsr50v5jg7aawdli714jibp2gj2dj8bak6b7";
       };
       packageRequires = [
         compat
@@ -4566,10 +4566,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0snapshot0.20260310.85858";
+      version = "2.10.0snapshot0.20260426.65710";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0snapshot0.20260310.85858.tar";
-        sha256 = "081aljvri52f6l4jj9w16lv67gzihmw1afymzpr6c8ak5q02c5vd";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0snapshot0.20260426.65710.tar";
+        sha256 = "1hw07sfh2pq2iykfkbffyf8m853gnmc65jyskskfwvribpwpqvmp";
       };
       packageRequires = [ compat ];
       meta = {
