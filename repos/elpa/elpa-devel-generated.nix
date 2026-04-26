@@ -1942,10 +1942,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.26.0.0.20260406.153653";
+      version = "0.26.0.0.20260425.173339";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.26.0.0.20260406.153653.tar";
-        sha256 = "0hpssk2z4i4nalmf9h0iz6iwawks3wh2lkf7il9pvsmxfyi5qb1q";
+        url = "https://elpa.gnu.org/devel/dape-0.26.0.0.20260425.173339.tar";
+        sha256 = "16kxnpkb9w0c3ynr5glgi314s6icl42jips6mbgx06iflar5pc7m";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -5431,10 +5431,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.30.1.0.20260417.170756";
+      version = "0.30.1.0.20260425.151854";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.30.1.0.20260417.170756.tar";
-        sha256 = "01dzr0qli82gdm24fdqiw7gn10w1gallgcss04v5d251idgfh87q";
+        url = "https://elpa.gnu.org/devel/llm-0.30.1.0.20260425.151854.tar";
+        sha256 = "0599qkhk2vd18abb6xhahif2wwrk0v8ixzvy5ylb1in0bk4wpz1a";
       };
       packageRequires = [
         compat
@@ -10517,10 +10517,10 @@
     elpaBuild {
       pname = "wcheck-mode";
       ename = "wcheck-mode";
-      version = "2026.0.20260425.74756";
+      version = "2026.0.20260425.170346";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/wcheck-mode-2026.0.20260425.74756.tar";
-        sha256 = "03bi4jg8f8sja4ifc7bmbmzpfl7d0ph3s6p1kjr9pq5q329syalv";
+        url = "https://elpa.gnu.org/devel/wcheck-mode-2026.0.20260425.170346.tar";
+        sha256 = "1mvdaacyr11ll7cgmxx7lisn46kyg0qidpjm78nrvrikgzy6bl4i";
       };
       packageRequires = [ ];
       meta = {
