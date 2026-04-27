@@ -1942,10 +1942,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.26.0.0.20260425.232515";
+      version = "0.26.0.0.20260426.200652";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.26.0.0.20260425.232515.tar";
-        sha256 = "104zyyaygm51r21nrh2fh1cf3il75ji493vy3wdz92smlq0nafa2";
+        url = "https://elpa.gnu.org/devel/dape-0.26.0.0.20260426.200652.tar";
+        sha256 = "03iiddds0kps3kymb1vwkzw93ih6d8aqhxdyym4gfjdxma73scnh";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -2388,10 +2388,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20260425.230550";
+      version = "1.10.0.0.20260427.32313";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260425.230550.tar";
-        sha256 = "0m33pbxjkjykij71pq9sqcbsi8y4ppz8csq15vp2al6w21k0z3rd";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260427.32313.tar";
+        sha256 = "0xgy0836ykspyki65v6zwj3n45adxjl38c65p0n313rlahfzkhrc";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -3153,10 +3153,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.13.0.0.20260410.5454";
+      version = "1.14.2.0.20260426.231627";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.13.0.0.20260410.5454.tar";
-        sha256 = "05pvhjagzc0nb2nsagbd1xhxfqvrfhjn734881ph6njr3ns186ai";
+        url = "https://elpa.gnu.org/devel/ellama-1.14.2.0.20260426.231627.tar";
+        sha256 = "1yd3qpk4n07mxrigmqj8lwhbd4lc85lk9gf4q69a0bbnrpknpyid";
       };
       packageRequires = [
         compat
@@ -5991,10 +5991,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260424.3009";
+      version = "0.7.1.0.20260426.210046";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260424.3009.tar";
-        sha256 = "0g9vqm9wby07pmhc6ai31krk473lif74273qbjrfzxzqbg4iavbk";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260426.210046.tar";
+        sha256 = "1mc8m803rznbw6gjcq0r0yzbvj5jd8m96wfg1r9kb76db8fxm4jd";
       };
       packageRequires = [
         dash
@@ -6613,10 +6613,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260421.184316";
+      version = "10.0pre0.20260426.183527";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260421.184316.tar";
-        sha256 = "0809x9rw2smb5ya3x2272qcjjj6kx6xrj8ajlzzwiz2m1wdhz5w3";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260426.183527.tar";
+        sha256 = "0kakijhsrpx80cbkf921z5nwan24yzfk0rdfb7v95p2klcfr5fs8";
       };
       packageRequires = [ ];
       meta = {
@@ -9918,6 +9918,27 @@
       };
     }
   ) { };
+  trust-manager = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "trust-manager";
+      ename = "trust-manager";
+      version = "0.4.1.0.20260426.120509";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/trust-manager-0.4.1.0.20260426.120509.tar";
+        sha256 = "0dvn2x443czsamawylwm5ixayv77fs53ixvkkdg0yj4n6iv3kcg6";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/trust-manager.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   ulisp-repl = callPackage (
     {
       elpaBuild,
@@ -10232,10 +10253,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.5.0.20260425.182043";
+      version = "0.5.0.20260426.174427";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20260425.182043.tar";
-        sha256 = "19i8fqk8midyz3bhnqxqf4gaiax00dsxqkm90ksj9bqgaklpf5lw";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20260426.174427.tar";
+        sha256 = "0gm5ir789hckanh27gknkgxp3iawf0x85jis4j43j0al2iicn92k";
       };
       packageRequires = [ compat ];
       meta = {

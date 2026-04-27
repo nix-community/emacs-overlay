@@ -3089,10 +3089,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.13.0";
+      version = "1.14.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.13.0.tar";
-        sha256 = "0i3lzb68bwyr974wc0i8dn1kiryjs49zg79hli21wycm0j7a3six";
+        url = "https://elpa.gnu.org/packages/ellama-1.14.2.tar";
+        sha256 = "0dycvhil96xp3c48n6v2b2lwmmhw2q51c6slfqyw14dhgxgfq1ds";
       };
       packageRequires = [
         compat
@@ -9677,6 +9677,27 @@
       packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/truename-cache.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  trust-manager = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "trust-manager";
+      ename = "trust-manager";
+      version = "0.4.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/trust-manager-0.4.1.tar";
+        sha256 = "1azp3kzkw76xbwsn6j94liy33d3swajc1v2h8ghczvxv8sw8khgj";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/trust-manager.html";
         license = lib.licenses.free;
       };
     }
