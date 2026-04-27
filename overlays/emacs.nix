@@ -62,7 +62,6 @@ let
   ];
 
   emacsGitPatches = [
-    ./inhibit-lexical-cookie-warning-67916-30.patch
     (super.pkgs.replaceVars ./native-comp-driver-options-30.patch {
       backendPath = (
         super.lib.concatStringsSep " " (
