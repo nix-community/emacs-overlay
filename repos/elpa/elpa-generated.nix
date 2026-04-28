@@ -3731,6 +3731,32 @@
       };
     }
   ) { };
+  forgejo = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      keymap-popup,
+      lib,
+      markdown-mode,
+    }:
+    elpaBuild {
+      pname = "forgejo";
+      ename = "forgejo";
+      version = "0.1.2";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/forgejo-0.1.2.tar";
+        sha256 = "01a60if9vrw54h7nf6slsgxb4ck5cqpz0d1z900mijv7i78v8z43";
+      };
+      packageRequires = [
+        keymap-popup
+        markdown-mode
+      ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/forgejo.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   frame-tabs = callPackage (
     {
       elpaBuild,
@@ -5011,6 +5037,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/jumpc.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  keymap-popup = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "keymap-popup";
+      ename = "keymap-popup";
+      version = "0.2.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.1.tar";
+        sha256 = "0chnk2y9m5p6cfmg8l3g83c8h4p35191bhg05a6s1q3mp09l6p9f";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/keymap-popup.html";
         license = lib.licenses.free;
       };
     }

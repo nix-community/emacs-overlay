@@ -2076,10 +2076,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20260424.102601";
+      version = "4.1.3.0.20260427.201611";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260424.102601.tar";
-        sha256 = "0hxn4viizwp6xwz7ap7gidr8wizi9p97vq2xqq9nk49hyfmv77b4";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260427.201611.tar";
+        sha256 = "06h5vx5ggrhq8ghw4603fq2raql6njwq258xmwwdzqnbmfp6308r";
       };
       packageRequires = [ ];
       meta = {
@@ -2388,10 +2388,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20260427.32313";
+      version = "1.10.0.0.20260427.232944";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260427.32313.tar";
-        sha256 = "0xgy0836ykspyki65v6zwj3n45adxjl38c65p0n313rlahfzkhrc";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260427.232944.tar";
+        sha256 = "0w8qlakcv2fwn8jmyc8bzgfqlrk2krq478dr46rnjyfsvviy1l4c";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -3818,6 +3818,32 @@
       };
     }
   ) { };
+  forgejo = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      keymap-popup,
+      lib,
+      markdown-mode,
+    }:
+    elpaBuild {
+      pname = "forgejo";
+      ename = "forgejo";
+      version = "0.1.2.0.20260428.25409";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/forgejo-0.1.2.0.20260428.25409.tar";
+        sha256 = "17xs0y7pi49z9pir2dhyqclk335fb508vf41ghldlk52p6d7xs4a";
+      };
+      packageRequires = [
+        keymap-popup
+        markdown-mode
+      ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/forgejo.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   frame-tabs = callPackage (
     {
       elpaBuild,
@@ -5098,6 +5124,27 @@
       };
     }
   ) { };
+  keymap-popup = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "keymap-popup";
+      ename = "keymap-popup";
+      version = "0.2.1.0.20260428.10641";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.1.0.20260428.10641.tar";
+        sha256 = "064bjc6klj71lahskk1qci4nl0a9hdcmrnv1iz9mc1cwifb80h2k";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/keymap-popup.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   kind-icon = callPackage (
     {
       elpaBuild,
@@ -5431,10 +5478,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.30.1.0.20260425.151854";
+      version = "0.30.1.0.20260427.213252";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.30.1.0.20260425.151854.tar";
-        sha256 = "0599qkhk2vd18abb6xhahif2wwrk0v8ixzvy5ylb1in0bk4wpz1a";
+        url = "https://elpa.gnu.org/devel/llm-0.30.1.0.20260427.213252.tar";
+        sha256 = "1nljfzxwymmqf1q6dfbpmbl0zn1s28ybaywx10y6zxq00ghpy3r8";
       };
       packageRequires = [
         compat
@@ -5777,10 +5824,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.2.0.0.20260419.100405";
+      version = "8.2.0.0.20260427.205636";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.2.0.0.20260419.100405.tar";
-        sha256 = "114s5ra2h4d8k0qn27blb8bzxjjlcgrrkmg1y647m2kzwfbp8hx5";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.2.0.0.20260427.205636.tar";
+        sha256 = "1g40vfc0wrklf4vlhi0vgvs6nnyj454symp04a3fcf353jnjlqrz";
       };
       packageRequires = [ ];
       meta = {
@@ -5943,16 +5990,17 @@
       elpaBuild,
       fetchurl,
       lib,
+      transient,
     }:
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.4.0.20260415.81600";
+      version = "0.4.0.20260427.90919";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minimail-0.4.0.20260415.81600.tar";
-        sha256 = "1a1mh3g6vfvmlr419iv8fz7hfjb1ddsia26059zj69gqv7fniqbh";
+        url = "https://elpa.gnu.org/devel/minimail-0.4.0.20260427.90919.tar";
+        sha256 = "1q7asvxgs7pmjv5y83zg8zdgm4alasbzccy3fx4bl8k5p4hfia9x";
       };
-      packageRequires = [ ];
+      packageRequires = [ transient ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/minimail.html";
         license = lib.licenses.free;
@@ -5991,10 +6039,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260426.210046";
+      version = "0.7.1.0.20260427.215107";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260426.210046.tar";
-        sha256 = "1mc8m803rznbw6gjcq0r0yzbvj5jd8m96wfg1r9kb76db8fxm4jd";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260427.215107.tar";
+        sha256 = "0wrcl7y4lxsjn6i749wvd47gx2gsnc43zp25v0mc25mjv7zpkimj";
       };
       packageRequires = [
         dash
@@ -9789,10 +9837,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.0.0.20260422.164634";
+      version = "0.13.0.0.20260427.153726";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.0.0.20260422.164634.tar";
-        sha256 = "1mqky3s852p8fw9h9s2wqn7f40fbk8zy5rz9yxwq88w55nyw2kw5";
+        url = "https://elpa.gnu.org/devel/transient-0.13.0.0.20260427.153726.tar";
+        sha256 = "0vwlxbi2hwi1b71inb0l5xyqqwzk27b42ch88nfc597kbxah5vdx";
       };
       packageRequires = [
         compat
@@ -10253,10 +10301,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.5.0.20260426.174427";
+      version = "0.5.0.20260427.170333";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20260426.174427.tar";
-        sha256 = "0gm5ir789hckanh27gknkgxp3iawf0x85jis4j43j0al2iicn92k";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20260427.170333.tar";
+        sha256 = "00hjz82i30x91rblkk74561fffjbz81qijcy771zcd3fa7ha4ggq";
       };
       packageRequires = [ compat ];
       meta = {
