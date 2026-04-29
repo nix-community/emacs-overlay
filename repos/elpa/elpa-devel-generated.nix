@@ -2076,10 +2076,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20260427.201611";
+      version = "4.1.3.0.20260428.203103";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260427.201611.tar";
-        sha256 = "06h5vx5ggrhq8ghw4603fq2raql6njwq258xmwwdzqnbmfp6308r";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260428.203103.tar";
+        sha256 = "0wpi3xi783k7jk307yy01lhyh599hpawd3m7qi8d4kcw5y1fg540";
       };
       packageRequires = [ ];
       meta = {
@@ -3829,10 +3829,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.2.0.20260428.25409";
+      version = "0.1.2.0.20260429.34522";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.1.2.0.20260428.25409.tar";
-        sha256 = "17xs0y7pi49z9pir2dhyqclk335fb508vf41ghldlk52p6d7xs4a";
+        url = "https://elpa.gnu.org/devel/forgejo-0.1.2.0.20260429.34522.tar";
+        sha256 = "18hm58yq7nrjlb1k155v4vz1br3g4fjxl6r383maw348hhalaa78";
       };
       packageRequires = [
         keymap-popup
@@ -3943,10 +3943,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.4.0.20260424.153732";
+      version = "1.7.0.20260428.174845";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.4.0.20260424.153732.tar";
-        sha256 = "0wfd69n066jg5nicx6490w7dw68430zqah2xrw50ywxd3bvrp7h8";
+        url = "https://elpa.gnu.org/devel/futur-1.7.0.20260428.174845.tar";
+        sha256 = "1vwgc2mfnsrgfw65wk6sf80icmabks2p3azv79qdbllgbkcvjbf4";
       };
       packageRequires = [ ];
       meta = {
@@ -4132,17 +4132,21 @@
       compat,
       elpaBuild,
       fetchurl,
+      keymap-popup,
       lib,
     }:
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.3.0.20260420.110309";
+      version = "0.10.4.0.20260429.23603";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.10.3.0.20260420.110309.tar";
-        sha256 = "0inrv51wkjycbxhhlsivfig2479v18jcvps1dq2psjas0r2crsx3";
+        url = "https://elpa.gnu.org/devel/gnosis-0.10.4.0.20260429.23603.tar";
+        sha256 = "1zxzcffnpgl7irrjg3alphlhw9x9fkwqm9l0bbmhg65y1jwv2v60";
       };
-      packageRequires = [ compat ];
+      packageRequires = [
+        compat
+        keymap-popup
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/gnosis.html";
         license = lib.licenses.free;
@@ -5133,10 +5137,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.1.0.20260428.10641";
+      version = "0.2.2.0.20260428.232048";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.1.0.20260428.10641.tar";
-        sha256 = "064bjc6klj71lahskk1qci4nl0a9hdcmrnv1iz9mc1cwifb80h2k";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.2.0.20260428.232048.tar";
+        sha256 = "1cxclnp25m552gcw69syj0bssdfhg5vpk9a1gpsiasi488fn8j1w";
       };
       packageRequires = [ ];
       meta = {
@@ -5478,10 +5482,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.30.1.0.20260427.213252";
+      version = "0.30.1.0.20260428.154502";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.30.1.0.20260427.213252.tar";
-        sha256 = "1nljfzxwymmqf1q6dfbpmbl0zn1s28ybaywx10y6zxq00ghpy3r8";
+        url = "https://elpa.gnu.org/devel/llm-0.30.1.0.20260428.154502.tar";
+        sha256 = "1y849viar5fsnwsinpcx2fv8mvcan1fky3fyshj790hwrl3v1nqr";
       };
       packageRequires = [
         compat
@@ -5824,10 +5828,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.2.0.0.20260427.205636";
+      version = "8.2.0.0.20260428.134050";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.2.0.0.20260427.205636.tar";
-        sha256 = "1g40vfc0wrklf4vlhi0vgvs6nnyj454symp04a3fcf353jnjlqrz";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.2.0.0.20260428.134050.tar";
+        sha256 = "0caab8wxwn55zk6cd20qm20z2nkwff8a1y3jrwfd41i1kx18mcg4";
       };
       packageRequires = [ ];
       meta = {
@@ -5995,10 +5999,10 @@
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.4.0.20260427.90919";
+      version = "0.4.2.0.20260428.192238";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minimail-0.4.0.20260427.90919.tar";
-        sha256 = "1q7asvxgs7pmjv5y83zg8zdgm4alasbzccy3fx4bl8k5p4hfia9x";
+        url = "https://elpa.gnu.org/devel/minimail-0.4.2.0.20260428.192238.tar";
+        sha256 = "0wd5nay9x0sqr7l96ibi554qab5mfgh3dw493rcw7cs3cwiwsvhm";
       };
       packageRequires = [ transient ];
       meta = {
@@ -9728,10 +9732,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.1.3.0.20260330.55054";
+      version = "2.8.1.4.0.20260429.65108";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.8.1.3.0.20260330.55054.tar";
-        sha256 = "01c5l03x5krzga9a9gg3klcn47k357p0k0ad09cd0g5qi4jmss5j";
+        url = "https://elpa.gnu.org/devel/tramp-2.8.1.4.0.20260429.65108.tar";
+        sha256 = "0qfkx9fgy1scpm8xdrcs9bvd1xphjn90a6x2bl3l8m75y496fp9f";
       };
       packageRequires = [ ];
       meta = {

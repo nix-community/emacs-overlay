@@ -3856,10 +3856,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.4";
+      version = "1.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/futur-1.4.tar";
-        sha256 = "036b81cp5nbzhykfsj6rkhxb5b675k38njmb32bj20g9h7pkd1vl";
+        url = "https://elpa.gnu.org/packages/futur-1.7.tar";
+        sha256 = "1zb533jkhsi6p0ikx9jc7igz4yfq7b35apz9b8w7g0yrvq5jcl4i";
       };
       packageRequires = [ ];
       meta = {
@@ -4045,17 +4045,21 @@
       compat,
       elpaBuild,
       fetchurl,
+      keymap-popup,
       lib,
     }:
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.3";
+      version = "0.10.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gnosis-0.10.3.tar";
-        sha256 = "0642xdgpljfmzi27gfbzhngpyc82blpyyvkvqqbm6khiqac9wdxz";
+        url = "https://elpa.gnu.org/packages/gnosis-0.10.4.tar";
+        sha256 = "0fnw42jn192zvr9rb30nbal18js27inx570mjfcfrxng67rzxr1f";
       };
-      packageRequires = [ compat ];
+      packageRequires = [
+        compat
+        keymap-popup
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/gnosis.html";
         license = lib.licenses.free;
@@ -5050,10 +5054,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.1";
+      version = "0.2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.1.tar";
-        sha256 = "0chnk2y9m5p6cfmg8l3g83c8h4p35191bhg05a6s1q3mp09l6p9f";
+        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.2.tar";
+        sha256 = "03brv24c77dda6jvxgcak7wb7zw5pngl0l58w9jkkqdc6jmbs61g";
       };
       packageRequires = [ ];
       meta = {
@@ -5905,16 +5909,17 @@
       elpaBuild,
       fetchurl,
       lib,
+      transient,
     }:
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.4";
+      version = "0.4.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/minimail-0.4.tar";
-        sha256 = "0ic8axms52v63wv5k0m1ny1dpnyzfqw4vj8fax4m1a0l6j3prfpx";
+        url = "https://elpa.gnu.org/packages/minimail-0.4.2.tar";
+        sha256 = "1ri424g6v55405d4zr4qhnvdswd5hc9n4hs2xds40ps0h6qp05hm";
       };
-      packageRequires = [ ];
+      packageRequires = [ transient ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/minimail.html";
         license = lib.licenses.free;
@@ -9490,10 +9495,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.1.3";
+      version = "2.8.1.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.8.1.3.tar";
-        sha256 = "1jjbgg48q6dlfp9rpn0pla4mlclw60079d51bgnb84q3pv3zdqwj";
+        url = "https://elpa.gnu.org/packages/tramp-2.8.1.4.tar";
+        sha256 = "13jwzj800m0dlz3c07aa73vzpzfqndcbhcixywzhsspwjdd1zjiw";
       };
       packageRequires = [ ];
       meta = {
