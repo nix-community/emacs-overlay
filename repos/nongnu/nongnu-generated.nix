@@ -5044,6 +5044,28 @@
       };
     }
   ) { };
+  simple-httpd = callPackage (
+    {
+      cl-lib ? null,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "simple-httpd";
+      ename = "simple-httpd";
+      version = "1.5.1";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/simple-httpd-1.5.1.tar";
+        sha256 = "1aq8nz7y2q14w7mjm53ava6sd4pyksbj0hq8sdyy3hwgq1hzrrh5";
+      };
+      packageRequires = [ cl-lib ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/simple-httpd.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   slime = callPackage (
     {
       elpaBuild,
