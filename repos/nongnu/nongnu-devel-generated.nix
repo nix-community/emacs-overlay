@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0snapshot0.20260429.190630";
+      version = "1.22.0snapshot0.20260429.215217";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260429.190630.tar";
-        sha256 = "0cfpxzlf9ihjyaa3792440ara416kv6d67xysnk0qnbh40xrz1g7";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260429.215217.tar";
+        sha256 = "1nvv5l1ninqnd4zpyzn66x4f61025n6fapl85h8rslvn4inzz0dm";
       };
       packageRequires = [
         clojure-mode
@@ -3225,17 +3225,21 @@
       elpaBuild,
       fetchurl,
       fsm,
+      keymap-popup,
       lib,
     }:
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.5.0.20260423.192938";
+      version = "0.10.6.0.20260430.4044";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.5.0.20260423.192938.tar";
-        sha256 = "1q79iv4znishj6rdz1m76r0c8h72i2g47xfh6xfw2gqxbkkyilv3";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.6.0.20260430.4044.tar";
+        sha256 = "0gfhf1f3jjr1k7miszibs9l8f1g3znr6sas1722f453ij5a2wbbx";
       };
-      packageRequires = [ fsm ];
+      packageRequires = [
+        fsm
+        keymap-popup
+      ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/jabber.html";
         license = lib.licenses.free;
@@ -5038,10 +5042,10 @@
     elpaBuild {
       pname = "simple-httpd";
       ename = "simple-httpd";
-      version = "1.5.1.0.20260429.183229";
+      version = "1.5.1.0.20260430.10256";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/simple-httpd-1.5.1.0.20260429.183229.tar";
-        sha256 = "035jbi8gzshlzs9lf1arm4w5rlcip7p9v95wk7y1yhqa1bik5s9z";
+        url = "https://elpa.nongnu.org/nongnu-devel/simple-httpd-1.5.1.0.20260430.10256.tar";
+        sha256 = "090lg2l51ac7j47a878hjsnlxxd4clgqvsb10hk5a9y6q12p7c87";
       };
       packageRequires = [ compat ];
       meta = {
