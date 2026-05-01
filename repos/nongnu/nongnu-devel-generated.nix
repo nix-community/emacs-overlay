@@ -5042,10 +5042,10 @@
     elpaBuild {
       pname = "simple-httpd";
       ename = "simple-httpd";
-      version = "1.5.1.0.20260430.10256";
+      version = "1.5.1.0.20260430.94242";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/simple-httpd-1.5.1.0.20260430.10256.tar";
-        sha256 = "090lg2l51ac7j47a878hjsnlxxd4clgqvsb10hk5a9y6q12p7c87";
+        url = "https://elpa.nongnu.org/nongnu-devel/simple-httpd-1.5.1.0.20260430.94242.tar";
+        sha256 = "15q74lx97vnr9qfhkhs85314y41p1r5i2pqm31x018g0kz8nk5cv";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5064,10 +5064,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260427.114530";
+      version = "2.32snapshot0.20260430.115319";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260427.114530.tar";
-        sha256 = "1zldfkzk7xlpy5xpjm4i7d15ppfdf5r6k7rhkb0mgp65wbgig2rz";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260430.115319.tar";
+        sha256 = "076gl5dsb19n54gp566igldafpg8l84nf5axdzgl3c4xp83z4zma";
       };
       packageRequires = [ macrostep ];
       meta = {
