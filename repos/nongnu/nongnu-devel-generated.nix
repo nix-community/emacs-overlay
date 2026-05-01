@@ -712,10 +712,10 @@
     elpaBuild {
       pname = "cond-let";
       ename = "cond-let";
-      version = "0.2.2.0.20260420.135245";
+      version = "1.0.0.0.20260430.223624";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-0.2.2.0.20260420.135245.tar";
-        sha256 = "1zm81zgmf5k6akh4pngjln1xp7p561h97hkcrsbc78v7nq48x8kb";
+        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-1.0.0.0.20260430.223624.tar";
+        sha256 = "1137v4lz8qng2san89chwj4kxpa25v1ana9jmlaj05wq3ij8a3q3";
       };
       packageRequires = [ ];
       meta = {
@@ -3589,10 +3589,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260429.92137";
+      version = "4.5.0.0.20260430.222702";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260429.92137.tar";
-        sha256 = "1fc4mzi6ba8whc3zqzakpn13vqij19pl9cgh69y1qyq5dlwhyqqa";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260430.222702.tar";
+        sha256 = "1z6hpaqfxqffxmxpc12lvdg2zwvx5vxd15w56yjkzji2kjp35n47";
       };
       packageRequires = [
         compat
@@ -3622,10 +3622,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260429.92137";
+      version = "4.5.0.0.20260430.222702";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260429.92137.tar";
-        sha256 = "0y81f1aq7xbk4463qfi3qwcknd0mi3djxi0nv3i1cgbyfsdg5lnk";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260430.222702.tar";
+        sha256 = "0iw4f91lbqqn6cwyyrzzwcz3pa4mn9c4h3byv1inp4v678iyg3zd";
       };
       packageRequires = [
         compat
@@ -5966,10 +5966,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.9.0.20260422.182143";
+      version = "3.5.0.0.20260430.224842";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.4.9.0.20260422.182143.tar";
-        sha256 = "10zb39gwdbamb11msxkayzspi09fpagip93xm90lc39w850xmbbm";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.0.0.20260430.224842.tar";
+        sha256 = "1j0z772jrhxxkx6wdf3xm45zfc35p8k1xwywrg4z42zx48xp7g6d";
       };
       packageRequires = [ compat ];
       meta = {

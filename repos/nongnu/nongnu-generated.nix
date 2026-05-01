@@ -733,10 +733,10 @@
     elpaBuild {
       pname = "cond-let";
       ename = "cond-let";
-      version = "0.2.2";
+      version = "1.0.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/cond-let-0.2.2.tar";
-        sha256 = "0ip5k8jhdgq1zkc6cj4ax8rv4236cxla2dapj83y526ra321gkzy";
+        url = "https://elpa.nongnu.org/nongnu/cond-let-1.0.0.tar";
+        sha256 = "157bya39k94436jcsv5zibkkciwdsl2i0i456pay9k33cs07fir9";
       };
       packageRequires = [ ];
       meta = {
@@ -6005,10 +6005,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.4.9";
+      version = "3.5.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/with-editor-3.4.9.tar";
-        sha256 = "0bzwxy67x8yvs1qv2m5mzkcssk9r3dm1zvq2map6kpscqgc15gq8";
+        url = "https://elpa.nongnu.org/nongnu/with-editor-3.5.0.tar";
+        sha256 = "0gd99qfm9ibndrb5bmscyphmwfwxksfl6590j0gkk5fkl08hhfvr";
       };
       packageRequires = [ compat ];
       meta = {
