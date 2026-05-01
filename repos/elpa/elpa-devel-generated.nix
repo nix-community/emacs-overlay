@@ -1596,10 +1596,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.6.0.0.20260410.130304";
+      version = "0.7.0.0.20260430.125841";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-hoogle-0.6.0.0.20260410.130304.tar";
-        sha256 = "1067wh3r087bdvg4zqbzwmzh6qssj7x7y12qs3fh96vpqrjw2a11";
+        url = "https://elpa.gnu.org/devel/consult-hoogle-0.7.0.0.20260430.125841.tar";
+        sha256 = "06kqrgbm80bpszqb9i1zx0mwaw4imi3i3lz802rwbfdfa6cg1vnh";
       };
       packageRequires = [ consult ];
       meta = {
@@ -3824,20 +3824,16 @@
       fetchurl,
       keymap-popup,
       lib,
-      markdown-mode,
     }:
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.2.0.20260429.232941";
+      version = "0.1.2.0.20260430.191702";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.1.2.0.20260429.232941.tar";
-        sha256 = "1symrzzbl50hf1xi5i00cq4pf91bi125pwhqwihxmm6a36dlswz4";
+        url = "https://elpa.gnu.org/devel/forgejo-0.1.2.0.20260430.191702.tar";
+        sha256 = "0ymgjwv213vyl7vzciqih8wapp44a2bjq421gy1mmasm6cr9w1gn";
       };
-      packageRequires = [
-        keymap-popup
-        markdown-mode
-      ];
+      packageRequires = [ keymap-popup ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/forgejo.html";
         license = lib.licenses.free;
@@ -4611,10 +4607,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260422.74419";
+      version = "9.0.2pre0.20260430.24341";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260422.74419.tar";
-        sha256 = "1k6qcwb9bhf062bd0d6q69n1wbk68bkmb8d30c5hnd32s2m261xp";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260430.24341.tar";
+        sha256 = "1m8rvkm326i9g74zkz15xkl8grvwpf9idwippz9b7pzlhv74jx8j";
       };
       packageRequires = [ ];
       meta = {
@@ -5364,10 +5360,10 @@
     elpaBuild {
       pname = "let-alist";
       ename = "let-alist";
-      version = "1.0.6.0.20260315.121536";
+      version = "1.0.6.0.20260430.145419";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/let-alist-1.0.6.0.20260315.121536.tar";
-        sha256 = "1qx7979xjnb1xgk8jbxdizm7cdmnxhbgk39daclhv1322lj79w2s";
+        url = "https://elpa.gnu.org/devel/let-alist-1.0.6.0.20260430.145419.tar";
+        sha256 = "19vk780fgvjnxccqb1ak4j9hqc8169axmph0wmp979bgbfa41njz";
       };
       packageRequires = [ ];
       meta = {
