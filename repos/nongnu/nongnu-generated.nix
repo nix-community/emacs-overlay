@@ -1319,6 +1319,27 @@
       };
     }
   ) { };
+  elfeed = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "elfeed";
+      ename = "elfeed";
+      version = "3.4.2";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/elfeed-3.4.2.tar";
+        sha256 = "0xphlys5h08syxli1ahhw7wj73hxnw9kw9h6zpa643381wcjrjhj";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/elfeed.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   elixir-mode = callPackage (
     {
       elpaBuild,
