@@ -3737,20 +3737,16 @@
       fetchurl,
       keymap-popup,
       lib,
-      markdown-mode,
     }:
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.2";
+      version = "0.1.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/forgejo-0.1.2.tar";
-        sha256 = "01a60if9vrw54h7nf6slsgxb4ck5cqpz0d1z900mijv7i78v8z43";
+        url = "https://elpa.gnu.org/packages/forgejo-0.1.3.tar";
+        sha256 = "0hvfjqqi53v04ii2lbbkbyjnfjpkyi58ip10p8s78l2sgr5r2q87";
       };
-      packageRequires = [
-        keymap-popup
-        markdown-mode
-      ];
+      packageRequires = [ keymap-popup ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/forgejo.html";
         license = lib.licenses.free;
@@ -5054,10 +5050,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.2";
+      version = "0.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.2.tar";
-        sha256 = "03brv24c77dda6jvxgcak7wb7zw5pngl0l58w9jkkqdc6jmbs61g";
+        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.3.tar";
+        sha256 = "1rnmmqm15cigz05qx29vh649bk18rm00sdwypwpfm8ic19psfs4r";
       };
       packageRequires = [ ];
       meta = {
@@ -9604,10 +9600,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.0";
+      version = "0.13.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.13.0.tar";
-        sha256 = "0rwb7l823d4nkk7zmnyi5j7id7kswxrc0h9crqyd63n14w78bksi";
+        url = "https://elpa.gnu.org/packages/transient-0.13.2.tar";
+        sha256 = "1jph479b8szwisc4b36yxkdgda15i714pzzaqmh83vnpfqy0g2nq";
       };
       packageRequires = [
         compat
