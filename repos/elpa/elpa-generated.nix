@@ -1458,17 +1458,16 @@
       elpaBuild,
       fetchurl,
       lib,
-      seq,
     }:
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "30.1.0.1";
+      version = "31.0.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/compat-30.1.0.1.tar";
-        sha256 = "1rj5i709i0l7drr7f571gsk8d6b5slwrd2l9flayv63kwk1gizhn";
+        url = "https://elpa.gnu.org/packages/compat-31.0.0.0.tar";
+        sha256 = "0ang5d6n4d12w4a94k8m8pw4b47vcf0l9465rpnn2fbpjyw8rwak";
       };
-      packageRequires = [ seq ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/compat.html";
         license = lib.licenses.free;
