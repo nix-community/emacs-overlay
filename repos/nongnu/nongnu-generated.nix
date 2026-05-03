@@ -1425,6 +1425,27 @@
       };
     }
   ) { };
+  eprolog = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "eprolog";
+      ename = "eprolog";
+      version = "0.3.2";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/eprolog-0.3.2.tar";
+        sha256 = "1vbnbdpmxvqgay5m01bcm1wlsyz16nn4fydv7ipd8kzr4lw59qyg";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/eprolog.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   esxml = callPackage (
     {
       cl-lib ? null,
@@ -4507,10 +4528,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.65";
+      version = "0.66";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/pg-0.65.tar";
-        sha256 = "1gf93xsldhx105r5m03hiq3lzlzb3r5pjd3j99jl0gs3z8pmn8ic";
+        url = "https://elpa.nongnu.org/nongnu/pg-0.66.tar";
+        sha256 = "0wkcwr4v3q5hc7c00ab3jrnba3836mjxy0iwyjfdcznsiqxnfrkm";
       };
       packageRequires = [ peg ];
       meta = {
