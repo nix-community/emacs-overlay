@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260502.164157";
+      version = "3.4.2.0.20260503.80943";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260502.164157.tar";
-        sha256 = "1qdwxj4zkdd4686wcqpibahjyrj74d0dabdxvsipxwv20cgqc2gj";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260503.80943.tar";
+        sha256 = "1s7d8f9rkn9akms5iw3rhkhxzg1a3zi7rs8892r23i9mvwgi6s9b";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1331,10 +1331,10 @@
     elpaBuild {
       pname = "elfeed-web";
       ename = "elfeed-web";
-      version = "3.4.2.0.20260502.95708";
+      version = "3.4.2.0.20260502.202926";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-web-3.4.2.0.20260502.95708.tar";
-        sha256 = "0gyhn238im93yy1061gwjgy540f9xnsgc9pdjvpm83mn97ansrx2";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-web-3.4.2.0.20260502.202926.tar";
+        sha256 = "0sja8qn58psk981g8f3c010ykv6yn9nq7ppzq33xw1rkhbs1m3fh";
       };
       packageRequires = [
         compat
@@ -2213,10 +2213,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.32.0.20260428.224111";
+      version = "0.33.0.20260502.230805";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.32.0.20260428.224111.tar";
-        sha256 = "1wz7a2x53l9cj4821dljpqi37v1mcx1sdw1kb790zf7vq30hsvab";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.0.20260502.230805.tar";
+        sha256 = "131a0hfs6i2pxnvv17v7k5dray5mmrm2vkkd2k3n5rjc4gj8g5zy";
       };
       packageRequires = [ project ];
       meta = {
@@ -2690,10 +2690,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.4.0.20260502.105708";
+      version = "0.9.9.4.0.20260502.223829";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260502.105708.tar";
-        sha256 = "00sl4j9bq2laalbrb6ygj15xgwffm99ymdpkwj8v5ysykailmq2x";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.4.0.20260502.223829.tar";
+        sha256 = "016civxc0vc9w0ra991mv1k7zg581hz1cajss6sa2x0r0da5hb2d";
       };
       packageRequires = [
         compat
