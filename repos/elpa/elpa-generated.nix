@@ -1899,10 +1899,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.26.0";
+      version = "0.27.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dape-0.26.0.tar";
-        sha256 = "0arid8qwaf7ic76hsjzj7grn41krsphnzvihmjbgm4im6b7zzb37";
+        url = "https://elpa.gnu.org/packages/dape-0.27.0.tar";
+        sha256 = "0n47w20sjkag0jiavqhvbanihhska85282g5m11qsjszgq35ljn2";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -3182,10 +3182,10 @@
     elpaBuild {
       pname = "embark-consult";
       ename = "embark-consult";
-      version = "1.1";
+      version = "1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/embark-consult-1.1.tar";
-        sha256 = "06yh6w4zgvvkfllmcr0szsgjrfhh9rpjwgmcrf6h2gai2ps9xdqr";
+        url = "https://elpa.gnu.org/packages/embark-consult-1.2.tar";
+        sha256 = "1m6i8f49qmzfvqz0mq3ga0gcdi364pqsdph6arpwl4rr59r6sfwn";
       };
       packageRequires = [
         compat
@@ -9337,10 +9337,10 @@
     elpaBuild {
       pname = "timeout";
       ename = "timeout";
-      version = "2.1";
+      version = "2.1.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/timeout-2.1.tar";
-        sha256 = "1mm4yp1spw512dnav1p3wnxqrsyls918i14azg03by4v32r9945p";
+        url = "https://elpa.gnu.org/packages/timeout-2.1.6.tar";
+        sha256 = "08lijbbbx2wx64jn6l5820phkmi6cagym1239zj1hx25h28b2h0r";
       };
       packageRequires = [ ];
       meta = {
