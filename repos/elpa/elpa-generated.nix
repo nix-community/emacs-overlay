@@ -1462,10 +1462,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "31.0.0.0";
+      version = "31.0.0.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/compat-31.0.0.0.tar";
-        sha256 = "0ang5d6n4d12w4a94k8m8pw4b47vcf0l9465rpnn2fbpjyw8rwak";
+        url = "https://elpa.gnu.org/packages/compat-31.0.0.1.tar";
+        sha256 = "1lraq5i8jk0wsrnkv66q6lxv314fm8c09hrfvm0gj2lpn8126f20";
       };
       packageRequires = [ ];
       meta = {
@@ -1899,10 +1899,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.27.0";
+      version = "0.27.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dape-0.27.0.tar";
-        sha256 = "0n47w20sjkag0jiavqhvbanihhska85282g5m11qsjszgq35ljn2";
+        url = "https://elpa.gnu.org/packages/dape-0.27.1.tar";
+        sha256 = "1na3080gaygw4fsaymjjx9jgh9ai5k7gb0jmlrkbqnmdypag3mb7";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -3088,10 +3088,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.17.0";
+      version = "1.17.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.17.0.tar";
-        sha256 = "0sh4n753s1jizddyqsmvpp0v5cg7381shhnfsl95b64kv58chysb";
+        url = "https://elpa.gnu.org/packages/ellama-1.17.1.tar";
+        sha256 = "0zd25si8a9c41dli4bp3rah73722xn0qz7nszfn17d5zgnixpzx5";
       };
       packageRequires = [
         compat
@@ -3740,10 +3740,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.3";
+      version = "0.1.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/forgejo-0.1.3.tar";
-        sha256 = "0hvfjqqi53v04ii2lbbkbyjnfjpkyi58ip10p8s78l2sgr5r2q87";
+        url = "https://elpa.gnu.org/packages/forgejo-0.1.4.tar";
+        sha256 = "1mm6zihlsri0h8q55ckg30fz6hb7lyp4pi1v8rhpsab947p25gxd";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -5049,10 +5049,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.3";
+      version = "0.2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.3.tar";
-        sha256 = "1rnmmqm15cigz05qx29vh649bk18rm00sdwypwpfm8ic19psfs4r";
+        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.4.tar";
+        sha256 = "1yph9zl7ak8zpb3r8hx7krm894k91bwy6yhwhvilhjhgdfv0hiaf";
       };
       packageRequires = [ ];
       meta = {
@@ -5179,10 +5179,10 @@
     elpaBuild {
       pname = "latex-table-wizard";
       ename = "latex-table-wizard";
-      version = "1.5.5";
+      version = "1.6.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/latex-table-wizard-1.5.5.tar";
-        sha256 = "1fffbaqiz3f1f2ki26b8x0cmisqhaijpw5vrh73k769wqdv09g43";
+        url = "https://elpa.gnu.org/packages/latex-table-wizard-1.6.0.tar";
+        sha256 = "1zpf3x62ldqy12npypjk1x8dw7adfmqqhqj30cl2s659vq7gs4nb";
       };
       packageRequires = [
         auctex
