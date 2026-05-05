@@ -3827,10 +3827,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.4.0.20260503.155537";
+      version = "0.1.4.0.20260504.135909";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.1.4.0.20260503.155537.tar";
-        sha256 = "0r89vq1aqdh7wi83azz52lzfc7cjywswa0dcp1kfijlzkq1q97ry";
+        url = "https://elpa.gnu.org/devel/forgejo-0.1.4.0.20260504.135909.tar";
+        sha256 = "04f2w40fl5fwyzij8c3b4xr2jxchbnhx1hzyd3nir1k7k3h0zb7w";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -5090,10 +5090,10 @@
     elpaBuild {
       pname = "jsonrpc";
       ename = "jsonrpc";
-      version = "1.0.28.0.20260416.174639";
+      version = "1.0.28.0.20260504.104721";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.28.0.20260416.174639.tar";
-        sha256 = "0j7y9kcjdai6sd1634ln4ag0fg5x8ljzq50f25nc5miadaq93vw8";
+        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.28.0.20260504.104721.tar";
+        sha256 = "1p33407vls4hfa109zl9z2jqp7iya7flzy0j2rc6cxi8k5m6ls3m";
       };
       packageRequires = [ ];
       meta = {
@@ -5132,10 +5132,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.4.0.20260503.175827";
+      version = "0.2.5.0.20260504.183059";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.4.0.20260503.175827.tar";
-        sha256 = "030zd8hl4wmzclpivaj7jg59npd64kdssm1ippfm1z72691xpm8m";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.5.0.20260504.183059.tar";
+        sha256 = "11f18pql07xx8zqppfzwbz626gyzk9bcln4minfm944za4v6prf6";
       };
       packageRequires = [ ];
       meta = {
@@ -5994,10 +5994,10 @@
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.4.2.0.20260428.192238";
+      version = "0.4.2.0.20260503.131523";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minimail-0.4.2.0.20260428.192238.tar";
-        sha256 = "0wd5nay9x0sqr7l96ibi554qab5mfgh3dw493rcw7cs3cwiwsvhm";
+        url = "https://elpa.gnu.org/devel/minimail-0.4.2.0.20260503.131523.tar";
+        sha256 = "1fy2hcnb917vy1s64p37996xmk4b4bbphbns8x0a8km2llibdk27";
       };
       packageRequires = [ transient ];
       meta = {
@@ -6639,10 +6639,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.6.0.20260504.35928";
+      version = "1.6.0.20260504.171824";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.6.0.20260504.35928.tar";
-        sha256 = "0sr6n514fmrwsy8cmrw9awvmvv8l1lcv5cxnrb9rxlc7c3ndxmx7";
+        url = "https://elpa.gnu.org/devel/orderless-1.6.0.20260504.171824.tar";
+        sha256 = "1fj04ascc2cfp947d5ckfnshj0p5wifjpwsxgf17cl58j759dl62";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6660,10 +6660,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260501.150417";
+      version = "10.0pre0.20260504.192656";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260501.150417.tar";
-        sha256 = "07kwqayi1mdbysfhi7nprm8wc8nqyfimnvafhqhvm1i9kpxna5lr";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260504.192656.tar";
+        sha256 = "0mma5xfj4i26519xd9bxwaar8n3v8b2nl80pjyycddi93hh1c1sp";
       };
       packageRequires = [ ];
       meta = {
@@ -9836,10 +9836,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.2.0.20260501.200111";
+      version = "0.13.2.0.20260504.202816";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.2.0.20260501.200111.tar";
-        sha256 = "0xz44fqjcnpwksp9hymiv28wjqa6jjamjry866x30nprk23hxi9c";
+        url = "https://elpa.gnu.org/devel/transient-0.13.2.0.20260504.202816.tar";
+        sha256 = "11zwlc5mi6aqx87l80mvnm236h9nhy2fga40k01qdxf6hd4l03p5";
       };
       packageRequires = [
         compat
