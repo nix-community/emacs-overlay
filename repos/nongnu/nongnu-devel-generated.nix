@@ -1774,16 +1774,20 @@
       evil,
       fetchurl,
       lib,
+      shift-number,
     }:
     elpaBuild {
       pname = "evil-numbers";
       ename = "evil-numbers";
-      version = "0.7.0.20260102.82951";
+      version = "0.8.0.20260103.85055";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-numbers-0.7.0.20260102.82951.tar";
-        sha256 = "03nxzdaxnlfmn6w3sgwixmqqv275rskxkjc93zwac55i9h3xn0kb";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-numbers-0.8.0.20260103.85055.tar";
+        sha256 = "1kr89paj83kiy27yd9rbq0xgda7xrifnxh5nyv3lik4sqd8ds7sm";
       };
-      packageRequires = [ evil ];
+      packageRequires = [
+        evil
+        shift-number
+      ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/evil-numbers.html";
         license = lib.licenses.free;
@@ -2690,10 +2694,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260503.224204";
+      version = "0.9.9.5.0.20260505.3256";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260503.224204.tar";
-        sha256 = "0713ggpg6znpyh3bsx01v3kpa9pmsc9gh2sspmb9bnkn3ach38gy";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260505.3256.tar";
+        sha256 = "0rf10as4zkdznhva6gs8nhcw7cj09rm8j36zv23p4m30jm8r2z7y";
       };
       packageRequires = [
         compat
@@ -4099,10 +4103,10 @@
     elpaBuild {
       pname = "org-contrib";
       ename = "org-contrib";
-      version = "0.8.0.20260221.192041";
+      version = "0.8.0.20260505.72437";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-contrib-0.8.0.20260221.192041.tar";
-        sha256 = "15mrdfmj4nxqh7ayyc2nyhxak5ymfsa9ym8dl8gwjsc8xym9jidd";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-contrib-0.8.0.20260505.72437.tar";
+        sha256 = "1qx4vnbqczn313pjx1fky78d83ixyr39807hr88sd81h98ggq61f";
       };
       packageRequires = [ org ];
       meta = {
@@ -4786,16 +4790,17 @@
       elpaBuild,
       fetchurl,
       lib,
+      with-command-redo,
     }:
     elpaBuild {
       pname = "recomplete";
       ename = "recomplete";
-      version = "0.2.0.20260403.113038";
+      version = "0.2.0.20260504.120143";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/recomplete-0.2.0.20260403.113038.tar";
-        sha256 = "1mnd8d2hyfcjribvgq955sn0vm1265xs0jqc55rylwpkr4cff779";
+        url = "https://elpa.nongnu.org/nongnu-devel/recomplete-0.2.0.20260504.120143.tar";
+        sha256 = "0za4w629nwd1yra59qrn9j8ll9w8bl10skx9xk16lcli7g479j2s";
       };
-      packageRequires = [ ];
+      packageRequires = [ with-command-redo ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/recomplete.html";
         license = lib.licenses.free;
@@ -5135,10 +5140,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260430.115319";
+      version = "2.32snapshot0.20260505.41242";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260430.115319.tar";
-        sha256 = "076gl5dsb19n54gp566igldafpg8l84nf5axdzgl3c4xp83z4zma";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260505.41242.tar";
+        sha256 = "0797748bvfinx2lbxnplvjbssralppldc4qnwnkl9s43as7s4a35";
       };
       packageRequires = [ macrostep ];
       meta = {

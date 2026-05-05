@@ -1761,16 +1761,20 @@
       evil,
       fetchurl,
       lib,
+      shift-number,
     }:
     elpaBuild {
       pname = "evil-numbers";
       ename = "evil-numbers";
-      version = "0.7";
+      version = "0.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/evil-numbers-0.7.tar";
-        sha256 = "1k5vrh8bj9kldqq8kxn1qi3k82i7k4v4h6nkk9hng8p90zhac02i";
+        url = "https://elpa.nongnu.org/nongnu/evil-numbers-0.8.tar";
+        sha256 = "0l1ik0fz1bzpxnz9rnn0817j8ghpwhf3qv3lidzb3vpbynkas5a1";
       };
-      packageRequires = [ evil ];
+      packageRequires = [
+        evil
+        shift-number
+      ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/evil-numbers.html";
         license = lib.licenses.free;
