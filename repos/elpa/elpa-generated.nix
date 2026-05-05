@@ -3740,10 +3740,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.4";
+      version = "0.1.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/forgejo-0.1.4.tar";
-        sha256 = "1mm6zihlsri0h8q55ckg30fz6hb7lyp4pi1v8rhpsab947p25gxd";
+        url = "https://elpa.gnu.org/packages/forgejo-0.1.5.tar";
+        sha256 = "1d51jlsvnppinpv61lvjfs0jwlrxwwbd7nrkpniz7xqi7rsa09d6";
       };
       packageRequires = [ keymap-popup ];
       meta = {

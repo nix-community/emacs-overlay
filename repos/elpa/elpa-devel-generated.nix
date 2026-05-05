@@ -3827,10 +3827,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.4.0.20260504.135909";
+      version = "0.1.5.0.20260505.60558";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.1.4.0.20260504.135909.tar";
-        sha256 = "04f2w40fl5fwyzij8c3b4xr2jxchbnhx1hzyd3nir1k7k3h0zb7w";
+        url = "https://elpa.gnu.org/devel/forgejo-0.1.5.0.20260505.60558.tar";
+        sha256 = "0n2m59n6w091nwxjvbqn9yxcj4l4kzs2wjmwyrpfvnnl2hckc53y";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -3938,10 +3938,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.7.0.20260428.174845";
+      version = "1.7.0.20260504.172949";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.7.0.20260428.174845.tar";
-        sha256 = "1vwgc2mfnsrgfw65wk6sf80icmabks2p3azv79qdbllgbkcvjbf4";
+        url = "https://elpa.gnu.org/devel/futur-1.7.0.20260504.172949.tar";
+        sha256 = "05nrmalg7gjsbacvfa39cdxxxmdg0fcgpj6gz5jjrksfvsvwvx6r";
       };
       packageRequires = [ ];
       meta = {
@@ -4133,10 +4133,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.4.0.20260501.121033";
+      version = "0.10.4.0.20260505.44407";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.10.4.0.20260501.121033.tar";
-        sha256 = "0755m92a86x84cpg42pwbcdxnpmxz7hzwnp3innf9ffdljjmlhvj";
+        url = "https://elpa.gnu.org/devel/gnosis-0.10.4.0.20260505.44407.tar";
+        sha256 = "042y2498shjjl796bbcg276i5qdr2r3f5jnaml3sn3ikkmmi2rdj";
       };
       packageRequires = [
         compat
@@ -5132,10 +5132,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.5.0.20260504.183059";
+      version = "0.2.5.0.20260505.41323";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.5.0.20260504.183059.tar";
-        sha256 = "11f18pql07xx8zqppfzwbz626gyzk9bcln4minfm944za4v6prf6";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.5.0.20260505.41323.tar";
+        sha256 = "0wj8a2w72s9r0gkbcax3rqg916jb1ffkr34xzbccqjqc1y046q5k";
       };
       packageRequires = [ ];
       meta = {
@@ -8591,6 +8591,27 @@
       };
     }
   ) { };
+  shift-number = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "shift-number";
+      ename = "shift-number";
+      version = "0.2.0.20260504.211225";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/shift-number-0.2.0.20260504.211225.tar";
+        sha256 = "10js3dq7g7ikp9v4ybimhjlhrx1i67108qm7zcs8m4w9q9lz094v";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/shift-number.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   show-font = callPackage (
     {
       elpaBuild,
@@ -9574,10 +9595,10 @@
     elpaBuild {
       pname = "timeout";
       ename = "timeout";
-      version = "2.1.6.0.20260502.120806";
+      version = "2.1.6.0.20260504.161229";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/timeout-2.1.6.0.20260502.120806.tar";
-        sha256 = "1q1h0s77bkfa9qjkz264qmp9cqml4q03av6qwda4yjwcpr64b0y4";
+        url = "https://elpa.gnu.org/devel/timeout-2.1.6.0.20260504.161229.tar";
+        sha256 = "00ygq747m4yhp1mjj083ai18av8jri76q33gp214skpac85dxdb5";
       };
       packageRequires = [ ];
       meta = {
@@ -10833,6 +10854,27 @@
       ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/wisitoken-grammar-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  with-command-redo = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "with-command-redo";
+      ename = "with-command-redo";
+      version = "0.1.0.20260504.211611";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/with-command-redo-0.1.0.20260504.211611.tar";
+        sha256 = "1k37zdj23p606mxinaics0djp8n2rdylc7k4p03sacxmjiw34fid";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/with-command-redo.html";
         license = lib.licenses.free;
       };
     }
