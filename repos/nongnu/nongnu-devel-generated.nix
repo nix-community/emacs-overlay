@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260504.190647";
+      version = "3.4.2.0.20260505.164206";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260504.190647.tar";
-        sha256 = "04qsq5295af6rkc506gz3vdxz0r6x76rpnrwy6mdvchblhwgmjgn";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260505.164206.tar";
+        sha256 = "18rrd9la52r9y3dwzczp7qry2k4z4319zpjm49gld0pcdakmx9ci";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5118,10 +5118,10 @@
     elpaBuild {
       pname = "simple-httpd";
       ename = "simple-httpd";
-      version = "1.5.1.0.20260502.95335";
+      version = "1.5.1.0.20260505.174507";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/simple-httpd-1.5.1.0.20260502.95335.tar";
-        sha256 = "0kg86s1pwba0ym1bpblh69c701ca2ya1rai07nrc3x9057p01ba3";
+        url = "https://elpa.nongnu.org/nongnu-devel/simple-httpd-1.5.1.0.20260505.174507.tar";
+        sha256 = "08icb9gp5d9jkbdvnl01vvc4sc8whq5bvkb55k8dbqx3lzmakn2f";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5351,10 +5351,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.4.2.0.20260418.123100";
+      version = "1.4.2.0.20260505.112624";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.2.0.20260418.123100.tar";
-        sha256 = "1xdz1vglwza0lik5zqx6f8x8w3a7yq8x7wkd7zr5k932pjmhqbnd";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.2.0.20260505.112624.tar";
+        sha256 = "136b10ylmgxxidjzf08lhw56ikg12rd3wrxn0p54b0f3wqk8id2p";
       };
       packageRequires = [ ];
       meta = {
@@ -5394,10 +5394,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "9.4.0.0.20251122.85713";
+      version = "10.0.0.0.20260505.93033";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-9.4.0.0.20251122.85713.tar";
-        sha256 = "1sn7lm6srrlnbxfdjpqdr503plkml61bz79ivwgz9rs9fqkbrvgg";
+        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20260505.93033.tar";
+        sha256 = "1l2yqdq7nr8gwlniwvwwnx7a6sg3x7k170l4g6vmy0w8yxrwvhpb";
       };
       packageRequires = [ ];
       meta = {
