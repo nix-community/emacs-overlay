@@ -4046,10 +4046,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.4";
+      version = "0.10.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gnosis-0.10.4.tar";
-        sha256 = "0fnw42jn192zvr9rb30nbal18js27inx570mjfcfrxng67rzxr1f";
+        url = "https://elpa.gnu.org/packages/gnosis-0.10.5.tar";
+        sha256 = "0zg8q5q6lhk3yyj1bbpx5mxhdrh8cqiws3mmxisp6p44rvy2mdkf";
       };
       packageRequires = [
         compat
@@ -5049,10 +5049,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.5";
+      version = "0.2.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.5.tar";
-        sha256 = "1hmfna79l09nzm2q1icd7a39050h7s4aifgmb3qglyb360yc2qwy";
+        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.6.tar";
+        sha256 = "1w526v6sv97mqlqq0mrzdq4vamvaz93aw5a4rmps77a7i95v1giq";
       };
       packageRequires = [ ];
       meta = {

@@ -1835,10 +1835,10 @@
     elpaBuild {
       pname = "csv-mode";
       ename = "csv-mode";
-      version = "1.27.0.20250307.75451";
+      version = "1.27.0.20260505.161621";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/csv-mode-1.27.0.20250307.75451.tar";
-        sha256 = "089z16kqm12zs7wrs46hskmz3mc1jqx00mzilaap197xq9hqkc3m";
+        url = "https://elpa.gnu.org/devel/csv-mode-1.27.0.20260505.161621.tar";
+        sha256 = "0g166wcxh7fl8ixnbc1ap2dl5mrq9ahzkx3b5fzfcx7f6b3aw8ym";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -4133,10 +4133,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.4.0.20260505.44407";
+      version = "0.10.5.0.20260505.121428";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.10.4.0.20260505.44407.tar";
-        sha256 = "042y2498shjjl796bbcg276i5qdr2r3f5jnaml3sn3ikkmmi2rdj";
+        url = "https://elpa.gnu.org/devel/gnosis-0.10.5.0.20260505.121428.tar";
+        sha256 = "1xzx2x6aiydw7113kzjmh8k6hhn8qwzgb7l7vs47vgdf8wnvdia8";
       };
       packageRequires = [
         compat
@@ -5132,10 +5132,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.5.0.20260505.41323";
+      version = "0.2.6.0.20260506.238";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.5.0.20260505.41323.tar";
-        sha256 = "0wj8a2w72s9r0gkbcax3rqg916jb1ffkr34xzbccqjqc1y046q5k";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.6.0.20260506.238.tar";
+        sha256 = "18023m2rlxg9gg99mlbgsaxd67x6mlbm6vzca7gvh9cqw7w4byzb";
       };
       packageRequires = [ ];
       meta = {
@@ -6105,10 +6105,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260503.191904";
+      version = "5.2.0.0.20260506.52753";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260503.191904.tar";
-        sha256 = "033wh6hky50cmbh5pnzbz15c4wznini1z7xi9siph3my9a4d8xzd";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260506.52753.tar";
+        sha256 = "1c2ajq9fx674571cgwkrxdikgdfs8p5wzfsg3nzbsjqqkxwc8kpd";
       };
       packageRequires = [ ];
       meta = {
@@ -7477,10 +7477,10 @@
     elpaBuild {
       pname = "polymode";
       ename = "polymode";
-      version = "0.2.2.0.20260302.104336";
+      version = "0.2.2.0.20260505.180301";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20260302.104336.tar";
-        sha256 = "04jfj25kmh55jq7bm5dq02xp4kgfvpbgsngx825qpgfsl3lkq6yi";
+        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20260505.180301.tar";
+        sha256 = "00h3hyaz8rkv9wyvn0afg63v4v5ghz6h6hk1rds54wi8mb1501nc";
       };
       packageRequires = [ ];
       meta = {
@@ -8898,10 +8898,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.8.0.0.20260424.102738";
+      version = "0.8.0.0.20260505.183614";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/spacious-padding-0.8.0.0.20260424.102738.tar";
-        sha256 = "1b3bpl04w5hmm10d0amlgx43i5sn3h34y5nm09lcca8d9269d49v";
+        url = "https://elpa.gnu.org/devel/spacious-padding-0.8.0.0.20260505.183614.tar";
+        sha256 = "0pzcfd3z5w67cfcmp9hzyjjjxx5i5pxgl5k45hhxcwrfwm4x8h4l";
       };
       packageRequires = [ ];
       meta = {
