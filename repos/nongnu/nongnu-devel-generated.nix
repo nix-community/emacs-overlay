@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260506.192858";
+      version = "3.4.2.0.20260506.223331";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260506.192858.tar";
-        sha256 = "04nk7209dz81lsvi880wq9213n9lrvw809adgnh9qvwg77rhk3f1";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260506.223331.tar";
+        sha256 = "0nfay1bqf3nmynsj7swr5zkjkdf627zimqqhi24m9v0v0hk6gijx";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1756,10 +1756,10 @@
     elpaBuild {
       pname = "evil-nerd-commenter";
       ename = "evil-nerd-commenter";
-      version = "3.6.1.0.20240216.114656";
+      version = "3.6.1.0.20260507.41457";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-nerd-commenter-3.6.1.0.20240216.114656.tar";
-        sha256 = "0wav3c5k2iz4xzrkwj7nj3xg5zp9nldynxag2gl7p3nkz4scg49r";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-nerd-commenter-3.6.1.0.20260507.41457.tar";
+        sha256 = "023gd3br1i6pvbnan83c9825jfc20q1w5xn472qsi0035lmi6wj2";
       };
       packageRequires = [ ];
       meta = {
@@ -2891,10 +2891,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260424.135746";
+      version = "4.0.7.0.20260507.45249";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260424.135746.tar";
-        sha256 = "06imqiw7zzn2jxzhdim94z8341jhsjl9bdswawxbf4g98r8khp4c";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260507.45249.tar";
+        sha256 = "0xjxm56ndx4smi0s00ifpwfmwmddj9sckrn1cap6byfxvwz5dvv3";
       };
       packageRequires = [
         helm-core
@@ -2916,10 +2916,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260424.135746";
+      version = "4.0.7.0.20260507.45249";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260424.135746.tar";
-        sha256 = "1c93z76zhkq4afvypilv11macagmfzsszprbna4c39jhf8lydq7g";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260507.45249.tar";
+        sha256 = "12ilbx777rllcqwwrkjrg6r6rcdrxjgch7lrsyii1g2iiyv3xmf5";
       };
       packageRequires = [ async ];
       meta = {
@@ -3127,10 +3127,10 @@
     elpaBuild {
       pname = "idris-mode";
       ename = "idris-mode";
-      version = "1.1.0.0.20260506.103041";
+      version = "1.1.0.0.20260506.203306";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20260506.103041.tar";
-        sha256 = "0m0szh3bbsjg84hiprc2a2qn92vlm7cg4ivzcvwm68dxcf341sal";
+        url = "https://elpa.nongnu.org/nongnu-devel/idris-mode-1.1.0.0.20260506.203306.tar";
+        sha256 = "11mcszs9l8cw90v1kp4dnsjw3y86dspbjbb87fz7za8yrizki0id";
       };
       packageRequires = [
         cl-lib
@@ -3173,10 +3173,10 @@
     elpaBuild {
       pname = "inf-clojure";
       ename = "inf-clojure";
-      version = "3.4.0.0.20260227.65854";
+      version = "3.4.0.0.20260507.60144";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/inf-clojure-3.4.0.0.20260227.65854.tar";
-        sha256 = "1115nzzddmwz8rxvln6lgn0halnxjdlf6cgjprfnjm60ajfa861h";
+        url = "https://elpa.nongnu.org/nongnu-devel/inf-clojure-3.4.0.0.20260507.60144.tar";
+        sha256 = "031kf4yqnvggrk9flxcfwgz3ps2wpl6sxsvdkwxymdaahywv5yp2";
       };
       packageRequires = [ clojure-mode ];
       meta = {
