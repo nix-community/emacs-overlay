@@ -291,10 +291,10 @@
     elpaBuild {
       pname = "aircon-theme";
       ename = "aircon-theme";
-      version = "0.0.6.0.20240613.140459";
+      version = "0.0.6.0.20260507.72645";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/aircon-theme-0.0.6.0.20240613.140459.tar";
-        sha256 = "1npppgbs1dfixqpmdc0nfxx4vvnsvpy101q8lcf7h9i8br63mlqy";
+        url = "https://elpa.gnu.org/devel/aircon-theme-0.0.6.0.20260507.72645.tar";
+        sha256 = "1cld1ns2q4vkxpmc69s6scnhgghi36ibmscg8zjwwhbbp31ah0ir";
       };
       packageRequires = [ ];
       meta = {
@@ -902,10 +902,10 @@
     elpaBuild {
       pname = "breadcrumb";
       ename = "breadcrumb";
-      version = "1.0.1.0.20260503.101608";
+      version = "1.0.1.0.20260507.73535";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20260503.101608.tar";
-        sha256 = "14ylz6zxr8j0wwvlpdnix1sn7k64vgx1p7gp5m412l3h3fgn5178";
+        url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20260507.73535.tar";
+        sha256 = "1ccx08zczmkgdm9xb1bnz0v4a4yrf3zy5nnfyax57anw3m8yliz2";
       };
       packageRequires = [ project ];
       meta = {
@@ -3827,10 +3827,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.5.0.20260506.175803";
+      version = "0.1.5.0.20260507.4243";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.1.5.0.20260506.175803.tar";
-        sha256 = "1ry0w0ywik1y543cfmlr1d8mdac0km6acmc69x6n2352sw0ljqrl";
+        url = "https://elpa.gnu.org/devel/forgejo-0.1.5.0.20260507.4243.tar";
+        sha256 = "1g1a2zcab2w4sj2xc5rvqh23796ma7f9c1fr6rh0r339nz62zngw";
       };
       packageRequires = [ keymap-popup ];
       meta = {
