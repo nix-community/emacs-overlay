@@ -3827,10 +3827,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.5.0.20260507.4243";
+      version = "0.1.6.0.20260507.163649";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.1.5.0.20260507.4243.tar";
-        sha256 = "1g1a2zcab2w4sj2xc5rvqh23796ma7f9c1fr6rh0r339nz62zngw";
+        url = "https://elpa.gnu.org/devel/forgejo-0.1.6.0.20260507.163649.tar";
+        sha256 = "1d4hw4v0s3mpvlwrb4ldwir4nba9cc2nhpnw2sf2182d9aarq9ax";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -3938,10 +3938,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.7.0.20260504.172949";
+      version = "1.7.0.20260507.181128";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.7.0.20260504.172949.tar";
-        sha256 = "05nrmalg7gjsbacvfa39cdxxxmdg0fcgpj6gz5jjrksfvsvwvx6r";
+        url = "https://elpa.gnu.org/devel/futur-1.7.0.20260507.181128.tar";
+        sha256 = "1gjsyr0wk6c2vjj3xjnizg77i9f7jbkn1sjscxmsbsp1gbcjdmih";
       };
       packageRequires = [ ];
       meta = {
@@ -4133,10 +4133,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.5.0.20260505.121428";
+      version = "0.10.6.0.20260508.2618";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.10.5.0.20260505.121428.tar";
-        sha256 = "1xzx2x6aiydw7113kzjmh8k6hhn8qwzgb7l7vs47vgdf8wnvdia8";
+        url = "https://elpa.gnu.org/devel/gnosis-0.10.6.0.20260508.2618.tar";
+        sha256 = "04rsg495ldyj739spfk4xwrylfzh27ffkjam9rn86c43rip2arvm";
       };
       packageRequires = [
         compat
@@ -4606,10 +4606,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260504.74850";
+      version = "9.0.2pre0.20260507.201640";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260504.74850.tar";
-        sha256 = "1fhdg1r4gmw0hkw56jqd0nbrc9iia9byl6sqphihmwlwwhks16m7";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260507.201640.tar";
+        sha256 = "03mbq3mqxiiyj1rfpbi8nbyv06jf0azrp6p4d2bb4fhivnvm8vx5";
       };
       packageRequires = [ ];
       meta = {
@@ -5132,10 +5132,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.6.0.20260506.238";
+      version = "0.2.7.0.20260507.182928";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.6.0.20260506.238.tar";
-        sha256 = "18023m2rlxg9gg99mlbgsaxd67x6mlbm6vzca7gvh9cqw7w4byzb";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.7.0.20260507.182928.tar";
+        sha256 = "1z5lgyq41fcxivms1x7mylx8sj76n7baz26dl6yyfd2a4m9dn2j8";
       };
       packageRequires = [ ];
       meta = {
@@ -6105,10 +6105,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260506.52753";
+      version = "5.2.0.0.20260507.173944";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260506.52753.tar";
-        sha256 = "1c2ajq9fx674571cgwkrxdikgdfs8p5wzfsg3nzbsjqqkxwc8kpd";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260507.173944.tar";
+        sha256 = "0v84hhq742ayjl2kz31b07y3qmj4vgwjg060l5z9fpmn3j17vf7s";
       };
       packageRequires = [ ];
       meta = {
@@ -9857,10 +9857,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.2.0.20260506.71729";
+      version = "0.13.3.0.20260507.152142";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.2.0.20260506.71729.tar";
-        sha256 = "0cf7frhq1pf9an1xygdbbczw9rd5bmgyir92s5pfkla6ljc6168y";
+        url = "https://elpa.gnu.org/devel/transient-0.13.3.0.20260507.152142.tar";
+        sha256 = "13g2sdsga7gd2fg7fx8440qh905bb4rgz38dh5zlx7js31cq8wkh";
       };
       packageRequires = [
         compat

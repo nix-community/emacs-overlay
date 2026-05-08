@@ -3740,10 +3740,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.5";
+      version = "0.1.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/forgejo-0.1.5.tar";
-        sha256 = "1d51jlsvnppinpv61lvjfs0jwlrxwwbd7nrkpniz7xqi7rsa09d6";
+        url = "https://elpa.gnu.org/packages/forgejo-0.1.6.tar";
+        sha256 = "1l72zlabc9lmipjal8r42gqz6mxjfz2a85xi00i9yp9dc35j3nbc";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -4046,10 +4046,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.5";
+      version = "0.10.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gnosis-0.10.5.tar";
-        sha256 = "0zg8q5q6lhk3yyj1bbpx5mxhdrh8cqiws3mmxisp6p44rvy2mdkf";
+        url = "https://elpa.gnu.org/packages/gnosis-0.10.6.tar";
+        sha256 = "1g8zbvid2l7wfyagqynjd1jcjnd0m3zkh9ww0dadppj24n37k57n";
       };
       packageRequires = [
         compat
@@ -5049,10 +5049,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.6";
+      version = "0.2.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.6.tar";
-        sha256 = "1w526v6sv97mqlqq0mrzdq4vamvaz93aw5a4rmps77a7i95v1giq";
+        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.7.tar";
+        sha256 = "0j7vym8a8bgw2sh9kq51j9vkblknx5289z3hcz0sid3vzh24hip0";
       };
       packageRequires = [ ];
       meta = {
@@ -9599,10 +9599,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.2";
+      version = "0.13.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.13.2.tar";
-        sha256 = "1jph479b8szwisc4b36yxkdgda15i714pzzaqmh83vnpfqy0g2nq";
+        url = "https://elpa.gnu.org/packages/transient-0.13.3.tar";
+        sha256 = "0wd91lqxgmkxx64wbh3qavlj07w4208mipi9s379q7ggy1waq14m";
       };
       packageRequires = [
         compat
