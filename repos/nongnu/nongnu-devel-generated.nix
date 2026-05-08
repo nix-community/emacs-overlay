@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260507.190548";
+      version = "3.4.2.0.20260507.222349";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260507.190548.tar";
-        sha256 = "17g534zxhkw7qzfhsjg73lfwg2gypx041kn0p40bbja949w7smlv";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260507.222349.tar";
+        sha256 = "08c018xghsaahg9s60qxaw913r66rj9n6sng4a5pld8azmn7zf9x";
       };
       packageRequires = [ compat ];
       meta = {
