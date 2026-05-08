@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260506.223331";
+      version = "3.4.2.0.20260507.190548";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260506.223331.tar";
-        sha256 = "0nfay1bqf3nmynsj7swr5zkjkdf627zimqqhi24m9v0v0hk6gijx";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260507.190548.tar";
+        sha256 = "17g534zxhkw7qzfhsjg73lfwg2gypx041kn0p40bbja949w7smlv";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5140,10 +5140,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260505.41242";
+      version = "2.32snapshot0.20260507.183155";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260505.41242.tar";
-        sha256 = "0797748bvfinx2lbxnplvjbssralppldc4qnwnkl9s43as7s4a35";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260507.183155.tar";
+        sha256 = "0rqdxabkqn52np77n66wzbcjklhw6hnjs04higwrsa2bymyic4zq";
       };
       packageRequires = [ macrostep ];
       meta = {
