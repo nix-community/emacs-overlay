@@ -712,10 +712,10 @@
     elpaBuild {
       pname = "cond-let";
       ename = "cond-let";
-      version = "1.0.0.0.20260430.223624";
+      version = "1.0.0.0.20260508.94836";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-1.0.0.0.20260430.223624.tar";
-        sha256 = "1137v4lz8qng2san89chwj4kxpa25v1ana9jmlaj05wq3ij8a3q3";
+        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-1.0.0.0.20260508.94836.tar";
+        sha256 = "1b0fcd7binswjv5qw59jz3d389rxq0hlq600wx0xfbj1x9gv7c1g";
       };
       packageRequires = [ ];
       meta = {
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260507.222349";
+      version = "3.4.2.0.20260508.183551";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260507.222349.tar";
-        sha256 = "08c018xghsaahg9s60qxaw913r66rj9n6sng4a5pld8azmn7zf9x";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260508.183551.tar";
+        sha256 = "1fv0hcb2cr4qjhyvx3d7x2p0xnmjns2rk5h3bf7cf45mj857cdyf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3484,10 +3484,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "1.0.4.0.20260504.173431";
+      version = "1.0.4.0.20260508.94934";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/llama-1.0.4.0.20260504.173431.tar";
-        sha256 = "08qyj79zzbb4gv1f7mmpkkzfha6faj9w2if8iv2rnfwm99lp6xqm";
+        url = "https://elpa.nongnu.org/nongnu-devel/llama-1.0.4.0.20260508.94934.tar";
+        sha256 = "0xg2s6vnwin7b3apkzxrqmrarhpy71yvflz6z1l4930xi2nrpw5c";
       };
       packageRequires = [ compat ];
       meta = {
