@@ -1928,10 +1928,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.36";
+      version = "0.37";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fj-0.36.tar";
-        sha256 = "1pcrip5hqypfdm1l9hl0pidybi0lqa2rffax64hgrlfzkzcppah9";
+        url = "https://elpa.nongnu.org/nongnu/fj-0.37.tar";
+        sha256 = "1kya5xif5ffiqv9fk4mxwx6x6gqshkpji21z0q84q438hfbxpwl9";
       };
       packageRequires = [
         fedi
@@ -3445,10 +3445,10 @@
     elpaBuild {
       pname = "lem";
       ename = "lem";
-      version = "0.24";
+      version = "0.25";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/lem-0.24.tar";
-        sha256 = "1ykyahpd7y43lf3vk3a0w9rjim4lsm35mlw1qqljbixci2izk797";
+        url = "https://elpa.nongnu.org/nongnu/lem-0.25.tar";
+        sha256 = "1hrnq46bmz10a3w89flhw85rqs58wpnywslx3p8g16196ln348sd";
       };
       packageRequires = [
         fedi
@@ -3732,10 +3732,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.16";
+      version = "2.0.17";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.16.tar";
-        sha256 = "0zyqqfxg7b22pj8y181x30rhy81ijbm21ai70l7cq79dr2a3yr96";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.0.17.tar";
+        sha256 = "1yg1fylz1dp7my8zfnscnvd1sdhjhi45xw10sqn3rmqmmrwd87d9";
       };
       packageRequires = [
         persist

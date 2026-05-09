@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260508.183551";
+      version = "3.4.2.0.20260508.235758";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260508.183551.tar";
-        sha256 = "1fv0hcb2cr4qjhyvx3d7x2p0xnmjns2rk5h3bf7cf45mj857cdyf";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260508.235758.tar";
+        sha256 = "12327b6in11i155vwqffvri0qplg2myaj6n1hnkqw1nykya1cagp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1916,10 +1916,10 @@
     elpaBuild {
       pname = "fedi";
       ename = "fedi";
-      version = "0.3.0.20260223.132625";
+      version = "0.3.0.20260509.80041";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fedi-0.3.0.20260223.132625.tar";
-        sha256 = "15cvwfyvixac3vvfjnmz0fvfzk5iq9sndnryzi3zlp3njjjds0wv";
+        url = "https://elpa.nongnu.org/nongnu-devel/fedi-0.3.0.20260509.80041.tar";
+        sha256 = "03h8dija7jv21bk7pq3gq5pb1dlm7mi6082i86nwl2569agvasw3";
       };
       packageRequires = [ markdown-mode ];
       meta = {
@@ -1941,10 +1941,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.36.0.20260427.80049";
+      version = "0.37.0.20260509.74153";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.36.0.20260427.80049.tar";
-        sha256 = "1hql03iwm5g1z4q3347c6hshbfzvczzlpfdg1ncnx44bw0z2jybh";
+        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.37.0.20260509.74153.tar";
+        sha256 = "0fwklcgc11lynkfp00wwjrsbdkxsdhi5vis2qcmlcnh5l4lwmi7y";
       };
       packageRequires = [
         fedi
@@ -3459,10 +3459,10 @@
     elpaBuild {
       pname = "lem";
       ename = "lem";
-      version = "0.24.0.20250806.92416";
+      version = "0.25.0.20260509.75856";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/lem-0.24.0.20250806.92416.tar";
-        sha256 = "0hamh1xvwir0dhf91vn0fch39hxs7k443q4x9anfv44006fsgd3f";
+        url = "https://elpa.nongnu.org/nongnu-devel/lem-0.25.0.20260509.75856.tar";
+        sha256 = "0l6kg0y6y268hgyifxbkwjx1wk1d5d6wq86kykfq9fngwy8d5359";
       };
       packageRequires = [
         fedi
@@ -3746,10 +3746,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.16.0.20260406.85635";
+      version = "2.0.17.0.20260509.74935";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.16.0.20260406.85635.tar";
-        sha256 = "0wlb1pd08m0bhn5fjxynhq285z7c210k5i8g08wj7b5gsjxmqqkx";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.17.0.20260509.74935.tar";
+        sha256 = "1i656xma6mw8fis91fwvzz9c1fpihxcgpwx78vm10k939j1ghhpg";
       };
       packageRequires = [
         persist
@@ -5140,10 +5140,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260507.183155";
+      version = "2.32snapshot0.20260508.233053";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260507.183155.tar";
-        sha256 = "0rqdxabkqn52np77n66wzbcjklhw6hnjs04higwrsa2bymyic4zq";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260508.233053.tar";
+        sha256 = "1xj6sig4y0qw13yrxyw8gvn07spkk363wqqa5qg48hrrgpmimk04";
       };
       packageRequires = [ macrostep ];
       meta = {
