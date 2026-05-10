@@ -3831,10 +3831,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.7.0.20260509.32623";
+      version = "0.1.7.0.20260509.144156";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.1.7.0.20260509.32623.tar";
-        sha256 = "1ii15j8cc8nj2dxycxzzkwc10srigra3wq5dg382v7955cll36i0";
+        url = "https://elpa.gnu.org/devel/forgejo-0.1.7.0.20260509.144156.tar";
+        sha256 = "1fc6xcbyx2kkp3q8jdh0p79xn0d9819df0cra8b0y0fw26lc9ljs";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -6664,10 +6664,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260509.71228";
+      version = "10.0pre0.20260509.193408";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260509.71228.tar";
-        sha256 = "0s0v0ldk57sqp37a4c2cf615p0nyqj1fd0iq7ji7d9bvbxc9injz";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260509.193408.tar";
+        sha256 = "0scnlx1r3w4jyzzy4wi9nk2aj988pdd7k6szsvwip39rm17aqmyp";
       };
       packageRequires = [ ];
       meta = {
