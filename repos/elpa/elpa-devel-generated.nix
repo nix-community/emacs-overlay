@@ -3831,10 +3831,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.7.0.20260509.144156";
+      version = "0.2.0.0.20260510.61626";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.1.7.0.20260509.144156.tar";
-        sha256 = "1fc6xcbyx2kkp3q8jdh0p79xn0d9819df0cra8b0y0fw26lc9ljs";
+        url = "https://elpa.gnu.org/devel/forgejo-0.2.0.0.20260510.61626.tar";
+        sha256 = "0l16ycd8nb2x6a0xypr7kqh4iwrpizayb20lr5m6cvk27vyj1y80";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -3942,10 +3942,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.7.0.20260508.110717";
+      version = "1.7.0.20260510.3723";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.7.0.20260508.110717.tar";
-        sha256 = "0agbvgiq3vpanhyiwmjhnbifkx1vpf3karvx0sa0a7y7m5c66r9r";
+        url = "https://elpa.gnu.org/devel/futur-1.7.0.20260510.3723.tar";
+        sha256 = "02zhx3pi5087y77hmn1986c2qj2ygd1hzyvhapmp6q6fkfz6wjcv";
       };
       packageRequires = [ ];
       meta = {
@@ -5136,10 +5136,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.7.0.20260508.214445";
+      version = "0.2.8.0.20260510.13716";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.7.0.20260508.214445.tar";
-        sha256 = "0b74vmsbzrc3476sk8g6gsgk9429k3j3wwml2a08gmchxg3lgrp8";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.8.0.20260510.13716.tar";
+        sha256 = "02hsd39lcrl9pl540822pipjs1x2qw3y2lnalxzkd2zzhwimp7mi";
       };
       packageRequires = [ ];
       meta = {

@@ -3740,10 +3740,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.1.7";
+      version = "0.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/forgejo-0.1.7.tar";
-        sha256 = "0xwzchw8rkcr600yzaqbiqb5d7pxil86rszkw7bhwi8akfay5rvj";
+        url = "https://elpa.gnu.org/packages/forgejo-0.2.0.tar";
+        sha256 = "1kp73br9b0n8d91d5g1dbzry12jzvx4baawnn3fxx2f5idwinmhr";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -5049,10 +5049,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.7";
+      version = "0.2.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.7.tar";
-        sha256 = "0j7vym8a8bgw2sh9kq51j9vkblknx5289z3hcz0sid3vzh24hip0";
+        url = "https://elpa.gnu.org/packages/keymap-popup-0.2.8.tar";
+        sha256 = "0yvvlr2gl48fa1qvs2brhlkwffjkzis7j1vdl69vs9ml2aym0vc9";
       };
       packageRequires = [ ];
       meta = {
