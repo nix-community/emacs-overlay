@@ -1903,10 +1903,10 @@
     elpaBuild {
       pname = "fedi";
       ename = "fedi";
-      version = "0.3";
+      version = "0.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fedi-0.3.tar";
-        sha256 = "1s1dn7n860b18cwyahc20lbl1bhv4y5h8jijs4iqbbgbk8w7hsjg";
+        url = "https://elpa.nongnu.org/nongnu/fedi-0.4.tar";
+        sha256 = "0zh2rkkj1wyj7csg72gg54mxlrd5kav54z3qhk6lp6j8h3zxkdvd";
       };
       packageRequires = [ markdown-mode ];
       meta = {
@@ -3292,10 +3292,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.6";
+      version = "0.10.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/jabber-0.10.6.tar";
-        sha256 = "1ngblb4fbfr47q9fxzpmbgp945hakw9nhmavmv2ri65lqkk8fvw3";
+        url = "https://elpa.nongnu.org/nongnu/jabber-0.10.7.tar";
+        sha256 = "11wz7q2svgqlf26r843lkgas60jwa7xp4wj1v7jngbaczc1jymmr";
       };
       packageRequires = [
         fsm
@@ -5643,10 +5643,10 @@
     elpaBuild {
       pname = "tp";
       ename = "tp";
-      version = "0.8";
+      version = "0.9";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/tp-0.8.tar";
-        sha256 = "1psa4sdia1vx3l2v1lklc8wy8nqbq6g83fyj46xii20rfm4db9hk";
+        url = "https://elpa.nongnu.org/nongnu/tp-0.9.tar";
+        sha256 = "0xaqynvw65l5dm3hxba6v8jrh2pvn6b2q0npsf9sdwryjg2zlk41";
       };
       packageRequires = [ transient ];
       meta = {
