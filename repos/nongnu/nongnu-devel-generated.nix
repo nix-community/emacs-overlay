@@ -712,10 +712,10 @@
     elpaBuild {
       pname = "cond-let";
       ename = "cond-let";
-      version = "1.0.0.0.20260508.94836";
+      version = "1.0.0.0.20260510.181022";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-1.0.0.0.20260508.94836.tar";
-        sha256 = "1b0fcd7binswjv5qw59jz3d389rxq0hlq600wx0xfbj1x9gv7c1g";
+        url = "https://elpa.nongnu.org/nongnu-devel/cond-let-1.0.0.0.20260510.181022.tar";
+        sha256 = "12mjqhc6247g4qw4bsz0fjyajx2c9avdr0a2wxw05ic9ngbic8d4";
       };
       packageRequires = [ ];
       meta = {
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260510.73842";
+      version = "3.4.2.0.20260510.112803";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260510.73842.tar";
-        sha256 = "1jf7v99d1szzsrwplv8xk4m9xrzxlsigdqi1b8z7a1jjs7qfippg";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260510.112803.tar";
+        sha256 = "01zi7ysxsr0mdkzmrblr02n293035ghpzlp83csm0mkwnni82r0x";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2217,10 +2217,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.33.0.20260509.221846";
+      version = "0.33.0.20260510.185029";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.0.20260509.221846.tar";
-        sha256 = "0sy7862mrrswz87hlz24an5w658b7vk7smhyl1rq1dy4ajc2aygq";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.0.20260510.185029.tar";
+        sha256 = "18kdqw69v8i0fqq54i5sash05msq6am8v3s9hq60vgy39a72zqxq";
       };
       packageRequires = [ project ];
       meta = {
@@ -2350,10 +2350,10 @@
     elpaBuild {
       pname = "geiser-guile";
       ename = "geiser-guile";
-      version = "0.28.3.0.20240920.3540";
+      version = "0.28.3.0.20260510.173318";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-guile-0.28.3.0.20240920.3540.tar";
-        sha256 = "1ijrhz86nva194qsdch2zm9v4bzdppcg3vslnh03ss4f6qkcrfzz";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-guile-0.28.3.0.20260510.173318.tar";
+        sha256 = "0pc5jyv7hygg38sa6q0859yz54hcpksijipnsngr1m0yg0986nid";
       };
       packageRequires = [
         geiser
@@ -2608,10 +2608,10 @@
     elpaBuild {
       pname = "go-mode";
       ename = "go-mode";
-      version = "1.6.0.0.20250311.20239";
+      version = "1.6.0.0.20260510.170713";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/go-mode-1.6.0.0.20250311.20239.tar";
-        sha256 = "1viwxqbp6jdhbmapjgcgrjyrzn4m2r68b5vb0814y3w4gi55rzgq";
+        url = "https://elpa.nongnu.org/nongnu-devel/go-mode-1.6.0.0.20260510.170713.tar";
+        sha256 = "1bsyj1frmby7xwyj1ham510s799lpzxpx2l64m34bx8abm85xxak";
       };
       packageRequires = [ ];
       meta = {
@@ -5373,10 +5373,10 @@
     elpaBuild {
       pname = "sweeprolog";
       ename = "sweeprolog";
-      version = "0.27.6.0.20250624.64526";
+      version = "0.27.6.0.20260510.162905";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20250624.64526.tar";
-        sha256 = "1ywcwm4r7hd21bayilvmw530axa2gc8f689fr5swxfyig49qjqz5";
+        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20260510.162905.tar";
+        sha256 = "1x38q2hrrapfzb8ky7bzfw58pi00yyj4qnwrpsqcc1hhaxq6h1dr";
       };
       packageRequires = [ compat ];
       meta = {
