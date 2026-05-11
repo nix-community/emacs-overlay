@@ -3156,10 +3156,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.17.1.0.20260503.134624";
+      version = "1.18.0.0.20260510.212417";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.17.1.0.20260503.134624.tar";
-        sha256 = "0awsay88nalrrj9yy47ywwl391v521rws19a7614kqmh9rp0ilrs";
+        url = "https://elpa.gnu.org/devel/ellama-1.18.0.0.20260510.212417.tar";
+        sha256 = "0ywqdhsnc0s6qyissd3fk99hgyg0823dahxsv4hab2j4b3h6j435";
       };
       packageRequires = [
         compat
@@ -6042,10 +6042,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260429.141425";
+      version = "0.7.1.0.20260510.233052";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260429.141425.tar";
-        sha256 = "1xwjqs5xa3pwzmwng22c96p96fdkib96d2q67slvxq5665as6jw6";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260510.233052.tar";
+        sha256 = "07hcs2qnk64cjkikg5l1zgv1jndwpr98b5dmq0mj0b2q313k3hqh";
       };
       packageRequires = [
         dash
