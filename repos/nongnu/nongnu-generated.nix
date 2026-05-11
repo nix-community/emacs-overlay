@@ -2337,10 +2337,10 @@
     elpaBuild {
       pname = "geiser-guile";
       ename = "geiser-guile";
-      version = "0.28.3";
+      version = "0.28.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/geiser-guile-0.28.3.tar";
-        sha256 = "163p8ll68qdgpz6l1ixwcmffcsv1kas095davgwgq001hfx9db5x";
+        url = "https://elpa.nongnu.org/nongnu/geiser-guile-0.28.4.tar";
+        sha256 = "1vnnyxpiw0hljdvxnyv5nj8zrx1ipla9mz58zw5642hpzvyafxd7";
       };
       packageRequires = [
         geiser
@@ -3292,10 +3292,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.7";
+      version = "0.10.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/jabber-0.10.7.tar";
-        sha256 = "11wz7q2svgqlf26r843lkgas60jwa7xp4wj1v7jngbaczc1jymmr";
+        url = "https://elpa.nongnu.org/nongnu/jabber-0.10.8.tar";
+        sha256 = "1g31iw3vdmm20yfw73dkvc6x2fpfgx8f3x28wdqj60ykmbs3d5d7";
       };
       packageRequires = [
         fsm

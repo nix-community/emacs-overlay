@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260510.112803";
+      version = "3.4.2.0.20260511.92605";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260510.112803.tar";
-        sha256 = "01zi7ysxsr0mdkzmrblr02n293035ghpzlp83csm0mkwnni82r0x";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260511.92605.tar";
+        sha256 = "0ighmm8kx7gp1j4yjhzl67xwh2392h4i2hf5wzgsv97bvx2501v2";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2217,10 +2217,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.33.0.20260510.185029";
+      version = "0.33.0.20260510.191201";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.0.20260510.185029.tar";
-        sha256 = "18kdqw69v8i0fqq54i5sash05msq6am8v3s9hq60vgy39a72zqxq";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.0.20260510.191201.tar";
+        sha256 = "0plrqd3q6r11b0p17mlv1gga17jbm1nrqkbwkr1nwixrpxzimbfx";
       };
       packageRequires = [ project ];
       meta = {
@@ -2350,10 +2350,10 @@
     elpaBuild {
       pname = "geiser-guile";
       ename = "geiser-guile";
-      version = "0.28.3.0.20260510.173318";
+      version = "0.28.4.0.20260510.211323";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-guile-0.28.3.0.20260510.173318.tar";
-        sha256 = "0pc5jyv7hygg38sa6q0859yz54hcpksijipnsngr1m0yg0986nid";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-guile-0.28.4.0.20260510.211323.tar";
+        sha256 = "077nb3b9sf4v8k8cni1gwzxvrk5hn01sm6y2x4cca1w63cymbijw";
       };
       packageRequires = [
         geiser
@@ -3306,10 +3306,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.7.0.20260509.192638";
+      version = "0.10.8.0.20260511.1413";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.7.0.20260509.192638.tar";
-        sha256 = "1gwd9s0cik10s9s1c1ilsvibs9an3w96i9n3zh0bgpcn08j6ylqc";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.8.0.20260511.1413.tar";
+        sha256 = "0mqrlivjrs94q0x3aarfsh56k35vcy8a69wz55smp3cif5asyid8";
       };
       packageRequires = [
         fsm
