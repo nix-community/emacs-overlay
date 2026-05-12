@@ -733,10 +733,10 @@
     elpaBuild {
       pname = "cond-let";
       ename = "cond-let";
-      version = "1.0.0";
+      version = "1.1.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/cond-let-1.0.0.tar";
-        sha256 = "157bya39k94436jcsv5zibkkciwdsl2i0i456pay9k33cs07fir9";
+        url = "https://elpa.nongnu.org/nongnu/cond-let-1.1.1.tar";
+        sha256 = "1bfaidzydg044mwh5wh0p7ahjf64vpg5f95aj72sgyy60mky90mp";
       };
       packageRequires = [ ];
       meta = {
