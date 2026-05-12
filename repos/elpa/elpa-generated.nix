@@ -3335,10 +3335,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.1";
+      version = "5.6.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/erc-5.6.1.tar";
-        sha256 = "13dzip6xhj0mf8hs8wk08pfxny5gwpbzfsqkmz146xvl2d8m621x";
+        url = "https://elpa.gnu.org/packages/erc-5.6.2.tar";
+        sha256 = "0rm7aw6p8736ssp4z7vmfmwff93h4dwcv9pz3b83f9060i2svvvn";
       };
       packageRequires = [ compat ];
       meta = {

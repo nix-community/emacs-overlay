@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260508.192927";
+      version = "14.1.2.0.20260511.181707";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260508.192927.tar";
-        sha256 = "0i4d50n8p9rjcyv30017kv6z94pcar9mb3aivqk72wz9klrlg7fm";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260511.181707.tar";
+        sha256 = "1aff312bgg1f35kz7mhmshj21b3smv9j70z0n5qfa0fmfhivmws4";
       };
       packageRequires = [ ];
       meta = {
@@ -3424,10 +3424,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.2snapshot0.20260430.154642";
+      version = "5.6.2.0.20260511.202620";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.2snapshot0.20260430.154642.tar";
-        sha256 = "030px6rzw18aqvbqhwybc5wcx3rvg7cy198l2lfq47ych2q6x3a9";
+        url = "https://elpa.gnu.org/devel/erc-5.6.2.0.20260511.202620.tar";
+        sha256 = "1p9lxrkc2c17awrnjyik8sfcj3n1m0gvrc737n62gd6vvywzcxa5";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4610,10 +4610,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260510.170631";
+      version = "9.0.2pre0.20260511.131314";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260510.170631.tar";
-        sha256 = "1zg0cpgn7r0k84aah21w953sy9x17am83fx0zs0l9i5zjj30ai8c";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260511.131314.tar";
+        sha256 = "0pfbndf3s1j72d4k6c2hy8vnfk47s5hv4252fmam4b1apf1fmil4";
       };
       packageRequires = [ ];
       meta = {
@@ -5990,6 +5990,7 @@
   ) { };
   minimail = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -5998,12 +5999,15 @@
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.4.2.0.20260503.131523";
+      version = "0.4.2.0.20260511.125743";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minimail-0.4.2.0.20260503.131523.tar";
-        sha256 = "1fy2hcnb917vy1s64p37996xmk4b4bbphbns8x0a8km2llibdk27";
+        url = "https://elpa.gnu.org/devel/minimail-0.4.2.0.20260511.125743.tar";
+        sha256 = "04mvwp863lzc917fm3lva06a3nx25cjk3fz4pki7qn1m41ilz8ch";
       };
-      packageRequires = [ transient ];
+      packageRequires = [
+        compat
+        transient
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/minimail.html";
         license = lib.licenses.free;
@@ -6664,10 +6668,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260510.181743";
+      version = "10.0pre0.20260512.34521";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260510.181743.tar";
-        sha256 = "138gpv9rk5xmksrd3rg8ag0ngamx52da98pkyq9ssdmy6m09bc2g";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260512.34521.tar";
+        sha256 = "00fcrps202cfaw6hihkh3g4x5svma1kg3ilxnppm15z1z02fnym7";
       };
       packageRequires = [ ];
       meta = {
@@ -9861,10 +9865,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.3.0.20260508.95019";
+      version = "0.13.3.0.20260511.143658";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.3.0.20260508.95019.tar";
-        sha256 = "02v0f5r690r5x2l0ip1wpk1hni5zys02xc8rgfpsd67mkks63sgq";
+        url = "https://elpa.gnu.org/devel/transient-0.13.3.0.20260511.143658.tar";
+        sha256 = "1jnl97vw4rpdhdxf8lzwrym8cr1m2h1ckggzaifw4iw1d9r7shql";
       };
       packageRequires = [
         compat
