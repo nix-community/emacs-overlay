@@ -501,10 +501,10 @@
     elpaBuild {
       pname = "buttercup";
       ename = "buttercup";
-      version = "1.40.0.20260501.202840";
+      version = "1.40.0.20260512.214133";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/buttercup-1.40.0.20260501.202840.tar";
-        sha256 = "0wzg6pwpybg769kcill45pid53y148x0p6dgiybh9a8zd53qi6m7";
+        url = "https://elpa.nongnu.org/nongnu-devel/buttercup-1.40.0.20260512.214133.tar";
+        sha256 = "0fays43ygmxp14gsv75zgwmhg2iycl758684g3b3xvgiq8k6dlw8";
       };
       packageRequires = [ ];
       meta = {
@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0snapshot0.20260512.182834";
+      version = "1.22.0snapshot0.20260513.61437";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260512.182834.tar";
-        sha256 = "0572iydkdr9rjcs9zskcqnjw1c5xlxy6z5rjzrakrcbllzays73q";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260513.61437.tar";
+        sha256 = "09zkagb2hkfwa0lkg2s1nzy65s8mygcqyrfi0xrb84qvpivi0hwd";
       };
       packageRequires = [
         clojure-mode
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260512.180006";
+      version = "3.4.2.0.20260513.74023";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260512.180006.tar";
-        sha256 = "0ynycf6gw9rhvkay3gi1zr0cjnnl6sjarwbvvskmr7gk9kic7bci";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260513.74023.tar";
+        sha256 = "1nrb6k4z6nwcbpyzdcb63a4nvcj7afnlpfzmzw1jnhpqwwkpv74r";
       };
       packageRequires = [ compat ];
       meta = {
