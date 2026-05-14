@@ -2557,10 +2557,10 @@
     elpaBuild {
       pname = "dmsg";
       ename = "dmsg";
-      version = "0.2";
+      version = "0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dmsg-0.2.tar";
-        sha256 = "18wnbkd707n2qh9an72wizs0yp71hys6vg0y02iclqmj7igjg28k";
+        url = "https://elpa.gnu.org/packages/dmsg-0.3.tar";
+        sha256 = "18r81rdpw0jnhxca3fr7bxpalabicbj2y55z5gb2llqrh9plarq6";
       };
       packageRequires = [ ];
       meta = {
@@ -3088,10 +3088,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.18.0";
+      version = "1.19.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.18.0.tar";
-        sha256 = "0i1b9k9g9c718rfbp4nlgwcf2vq65p7pmsja12waafkkr7s8xvxx";
+        url = "https://elpa.gnu.org/packages/ellama-1.19.0.tar";
+        sha256 = "102x9c3p7klzxzqkqm6q5vv8l1dhr3kk2ffrd2mphp4y94ib06z1";
       };
       packageRequires = [
         compat
@@ -5901,6 +5901,7 @@
   ) { };
   minimail = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -5909,12 +5910,15 @@
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.4.2";
+      version = "0.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/minimail-0.4.2.tar";
-        sha256 = "1ri424g6v55405d4zr4qhnvdswd5hc9n4hs2xds40ps0h6qp05hm";
+        url = "https://elpa.gnu.org/packages/minimail-0.5.tar";
+        sha256 = "1m1yn8f9mn3zqf7zc0691qaya5l504ry3afz2nmjycavzh8hzk5h";
       };
-      packageRequires = [ transient ];
+      packageRequires = [
+        compat
+        transient
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/minimail.html";
         license = lib.licenses.free;
