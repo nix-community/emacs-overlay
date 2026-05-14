@@ -3831,10 +3831,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.2.1.0.20260513.163307";
+      version = "0.2.1.0.20260514.65954";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.2.1.0.20260513.163307.tar";
-        sha256 = "0s01qfzpxwag7hr9i8irq0rs106achc0ilzrpr9q4mikbmv268bm";
+        url = "https://elpa.gnu.org/devel/forgejo-0.2.1.0.20260514.65954.tar";
+        sha256 = "16bbcnnihijilhgh64ljrrjqcnlb0jh12lcamfs8g5215n4qprka";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -5136,10 +5136,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.8.0.20260513.151504";
+      version = "0.2.8.0.20260513.215845";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.8.0.20260513.151504.tar";
-        sha256 = "17ash6vgcmn5n5v1l1gkxjamj7ywc99hxk19s8nphrhs4f3wgz55";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.8.0.20260513.215845.tar";
+        sha256 = "1iv9s08jk08qd418ngv59w32vb2163ym1z63wfmfw8cvp9yschf1";
       };
       packageRequires = [ ];
       meta = {
@@ -5481,10 +5481,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.30.3.0.20260513.131405";
+      version = "0.30.3.0.20260513.181346";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.30.3.0.20260513.131405.tar";
-        sha256 = "163mz845lvf5cz5wig51xl0j8q1j2k65kwacig9y80pnvg35jffg";
+        url = "https://elpa.gnu.org/devel/llm-0.30.3.0.20260513.181346.tar";
+        sha256 = "1vf0k3bx87g8mpaq8ly6bd7gzwdxkyvzamsg2hinly21zv7mpn8p";
       };
       packageRequires = [
         compat
@@ -6046,10 +6046,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260510.233052";
+      version = "0.7.1.0.20260513.205249";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260510.233052.tar";
-        sha256 = "07hcs2qnk64cjkikg5l1zgv1jndwpr98b5dmq0mj0b2q313k3hqh";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260513.205249.tar";
+        sha256 = "1hp6rgzhiq62wy3a4wsfmf1rqy1fa4rxq18gkdylqzil8wx0jjjk";
       };
       packageRequires = [
         dash
@@ -6668,10 +6668,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260513.85758";
+      version = "10.0pre0.20260513.230159";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260513.85758.tar";
-        sha256 = "1kqq8gdbzkwr7sd1cxhw9ckk5aahvvs95igbyxfswha6cn81gv20";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260513.230159.tar";
+        sha256 = "0rcbq7406vfd17fl8kkafnhg66zypjsl8whvi8cf44qxgia9hmv6";
       };
       packageRequires = [ ];
       meta = {
