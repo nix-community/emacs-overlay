@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0snapshot0.20260513.103857";
+      version = "1.22.0snapshot0.20260514.44055";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260513.103857.tar";
-        sha256 = "0j16riy15qvs7p8lqgaw1m8qs56cy53xmb324jk8ddsb6hfg7qbk";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0snapshot0.20260514.44055.tar";
+        sha256 = "0hx2dw0kxa3kfv36n6vga1iiccsf969wcbr16y7rwxvcs72qn2v5";
       };
       packageRequires = [
         clojure-mode
@@ -3306,10 +3306,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.8.0.20260513.160127";
+      version = "0.10.8.0.20260514.73613";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.8.0.20260513.160127.tar";
-        sha256 = "1a86mm19cg758lxbdh1k583k63w1wri034n1bxra65fm44wljwkp";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.8.0.20260514.73613.tar";
+        sha256 = "0wcngswk7hvmrb25bv9fj58f75sna8li30b52x0avnbmg5qv0234";
       };
       packageRequires = [
         fsm
