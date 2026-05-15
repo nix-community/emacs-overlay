@@ -142,10 +142,10 @@
     elpaBuild {
       pname = "annotate";
       ename = "annotate";
-      version = "2.4.5";
+      version = "2.5.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/annotate-2.4.5.tar";
-        sha256 = "0pdhwlz792sf5zipv8s449bah7xm9klbpicx9203fhsc0ad82d0j";
+        url = "https://elpa.nongnu.org/nongnu/annotate-2.5.0.tar";
+        sha256 = "0nydnnjx1p4fkiix70zg0apxxd0sprlzxk111lvgnamp3c4hxf93";
       };
       packageRequires = [ ];
       meta = {
@@ -3292,10 +3292,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.8";
+      version = "0.10.9";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/jabber-0.10.8.tar";
-        sha256 = "1g31iw3vdmm20yfw73dkvc6x2fpfgx8f3x28wdqj60ykmbs3d5d7";
+        url = "https://elpa.nongnu.org/nongnu/jabber-0.10.9.tar";
+        sha256 = "1qya27r6nwp61pmy0vwiji62n837g8hzcw7bc4a7fldhsb78sf15";
       };
       packageRequires = [
         fsm
