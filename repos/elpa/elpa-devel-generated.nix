@@ -548,10 +548,10 @@
     elpaBuild {
       pname = "auth-source-xoauth2-plugin";
       ename = "auth-source-xoauth2-plugin";
-      version = "0.3.2.0.20251113.213445";
+      version = "0.4.0.20260515.203435";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auth-source-xoauth2-plugin-0.3.2.0.20251113.213445.tar";
-        sha256 = "02g7qy4aj85jqzzsqka9ki712hbz58ygwvr8f56ncyy1xapcjpsz";
+        url = "https://elpa.gnu.org/devel/auth-source-xoauth2-plugin-0.4.0.20260515.203435.tar";
+        sha256 = "0j4gzg6hgdi9dz3h0i21pgnn7winzm2jp4sk3hb2m3bfnjy062x3";
       };
       packageRequires = [ oauth2 ];
       meta = {
@@ -1392,10 +1392,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260515.22019";
+      version = "1.0.2.0.20260515.134946";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260515.22019.tar";
-        sha256 = "0jhckd7093dvlnifx8kzydl4pa0q3ray86bsi2d13whgkz39d7pg";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260515.134946.tar";
+        sha256 = "1fwg2mq0arid394gnfpjwp26v0n7mshr928pyzi3pxsc4r6p026l";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -2625,10 +2625,10 @@
     elpaBuild {
       pname = "dmsg";
       ename = "dmsg";
-      version = "0.3.0.20260513.113120";
+      version = "0.3.0.20260515.181304";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dmsg-0.3.0.20260513.113120.tar";
-        sha256 = "024r661izjaq8w3hlz4mnr3p6rlk5kfvsbj9g5fgfnqvyra3b97a";
+        url = "https://elpa.gnu.org/devel/dmsg-0.3.0.20260515.181304.tar";
+        sha256 = "0f95v15bcyclap8zcz5iyaf09wq63px29q12w0s6aza3j5sslz6p";
       };
       packageRequires = [ ];
       meta = {
@@ -3831,10 +3831,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.2.1.0.20260514.192820";
+      version = "0.2.1.0.20260516.60209";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.2.1.0.20260514.192820.tar";
-        sha256 = "1iil05dz679c4j54n9y7rs27a9j1l98f04xjpja8fpb8qsasvvs3";
+        url = "https://elpa.gnu.org/devel/forgejo-0.2.1.0.20260516.60209.tar";
+        sha256 = "0bhvp0y2jfxahna6q36lr6g8zb4zal86vyvk1yzck5m24prqnqik";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -4610,10 +4610,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260513.141724";
+      version = "9.0.2pre0.20260515.144159";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260513.141724.tar";
-        sha256 = "1gcacw7kfyjaw0rmarh6rrv3m8n1v07b2zwsvgs9rdkgib1m2d2n";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260515.144159.tar";
+        sha256 = "062ll2nyr8i9hz4cg4219lynxlcfx07kn23qy09iib0b76n74ph1";
       };
       packageRequires = [ ];
       meta = {
@@ -6046,10 +6046,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260513.205249";
+      version = "0.7.1.0.20260516.15637";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260513.205249.tar";
-        sha256 = "1hp6rgzhiq62wy3a4wsfmf1rqy1fa4rxq18gkdylqzil8wx0jjjk";
+        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260516.15637.tar";
+        sha256 = "16y6dhzmsqhlcbcizhq3r0anv4f85mn07djcic1z7nn24zjyi772";
       };
       packageRequires = [
         dash
@@ -6518,10 +6518,10 @@
     elpaBuild {
       pname = "oauth2";
       ename = "oauth2";
-      version = "0.18.4.0.20251120.214128";
+      version = "0.18.5.0.20260514.165308";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/oauth2-0.18.4.0.20251120.214128.tar";
-        sha256 = "1x9v0s652al0ms37hafmqwla6wl97wpgvxh7w2ixpyrwrj206c93";
+        url = "https://elpa.gnu.org/devel/oauth2-0.18.5.0.20260514.165308.tar";
+        sha256 = "0rf3lwlsqaz4gzcgz1caxsx4pcv0jx6x5vbdj5p949r3w02p2b9l";
       };
       packageRequires = [ ];
       meta = {
@@ -6668,10 +6668,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260513.230159";
+      version = "10.0pre0.20260516.74412";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260513.230159.tar";
-        sha256 = "0rcbq7406vfd17fl8kkafnhg66zypjsl8whvi8cf44qxgia9hmv6";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260516.74412.tar";
+        sha256 = "0zxpgqj5d0h79khd9llhmgnw3bg9rw7jqvm732nkicw8dxqf2hqx";
       };
       packageRequires = [ ];
       meta = {
@@ -9667,10 +9667,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.3.0.0.20260503.113312";
+      version = "1.3.0.0.20260515.111850";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.3.0.0.20260503.113312.tar";
-        sha256 = "0ka6imda9g5c0ri6ms3am2lzq2lfncwv7q1nrjk93vk5dwlk5lbj";
+        url = "https://elpa.gnu.org/devel/tmr-1.3.0.0.20260515.111850.tar";
+        sha256 = "1127h8s1x2ppnwl2l6ygvrqfb2s8vczi122ikdfjnpk5xqrv10c3";
       };
       packageRequires = [ ];
       meta = {
