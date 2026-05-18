@@ -74,6 +74,7 @@ jobs:
         ./update ${{ matrix.repo }}
 
     - name: Push commit with updated inputs
-      run: |
-        git pull --rebase --autostash
-        git push
+      # if git fails due to race condition, we retry
+      run: >
+        git pull --rebase --autostash && git push
+        || git pull --rebase --autostash && git push
