@@ -3088,10 +3088,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.19.0";
+      version = "1.19.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.19.0.tar";
-        sha256 = "102x9c3p7klzxzqkqm6q5vv8l1dhr3kk2ffrd2mphp4y94ib06z1";
+        url = "https://elpa.gnu.org/packages/ellama-1.19.1.tar";
+        sha256 = "10ghy4srvlgldzg8pdy00d4i8mic32i47w5ha38jq5q728kp7va2";
       };
       packageRequires = [
         compat
@@ -6405,10 +6405,10 @@
     elpaBuild {
       pname = "oauth2";
       ename = "oauth2";
-      version = "0.18.5";
+      version = "0.18.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/oauth2-0.18.5.tar";
-        sha256 = "0bn97qgqlabhf62kx55k2vpkhkbmjhckc9xip9lffymy3pbpcnn0";
+        url = "https://elpa.gnu.org/packages/oauth2-0.18.6.tar";
+        sha256 = "1sfwn7lmnv20kysqqkkh89vr2hmyzspd1b7xdklij4qh3nbjm22s";
       };
       packageRequires = [ ];
       meta = {
@@ -9235,10 +9235,10 @@
     elpaBuild {
       pname = "termint";
       ename = "termint";
-      version = "0.2.2";
+      version = "0.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/termint-0.2.2.tar";
-        sha256 = "0iavnximqsx6vl6yx36n829h67x4pyfmm8xcp5fzjwphdmgfdann";
+        url = "https://elpa.gnu.org/packages/termint-0.2.3.tar";
+        sha256 = "1yir074lihlr2y78a58jm233a6s807j8d8fvlvv6b62wm0036frk";
       };
       packageRequires = [ ];
       meta = {
