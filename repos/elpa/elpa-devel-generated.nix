@@ -1266,6 +1266,28 @@
       };
     }
   ) { };
+  cm-mode = callPackage (
+    {
+      cl-lib ? null,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "cm-mode";
+      ename = "cm-mode";
+      version = "1.10.0.20260518.192037";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/cm-mode-1.10.0.20260518.192037.tar";
+        sha256 = "17ck187x677s00lvk09lr76fgl9i0sx7p46dqhf033k70c46a4gj";
+      };
+      packageRequires = [ cl-lib ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/cm-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   cobol-mode = callPackage (
     {
       elpaBuild,
@@ -2341,10 +2363,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "1.3.0.20260517.212956";
+      version = "1.3.0.20260518.95429";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dicom-1.3.0.20260517.212956.tar";
-        sha256 = "1543s88065c2fppf26bk4hl3r702y0b34l2vblrz5ghw4jh408mg";
+        url = "https://elpa.gnu.org/devel/dicom-1.3.0.20260518.95429.tar";
+        sha256 = "1lvvhhdb96vbmwrxifp1vlw35vvn9wd5pmgxq3c4japhv2zc43gv";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2982,10 +3004,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.23.0.20260516.111356";
+      version = "1.23.0.20260518.195315";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.23.0.20260516.111356.tar";
-        sha256 = "0kvvb4ab8j79wvbwfr2hryv4rcf50hzma9j84xqyj1n4xgxxp40d";
+        url = "https://elpa.gnu.org/devel/eglot-1.23.0.20260518.195315.tar";
+        sha256 = "0qhb68jq9rp3ybp3ndpyayrsj4wrkdhhz4i4lbw0v6ixd63zylwg";
       };
       packageRequires = [
         eldoc

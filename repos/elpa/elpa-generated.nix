@@ -1245,6 +1245,28 @@
       };
     }
   ) { };
+  cm-mode = callPackage (
+    {
+      cl-lib ? null,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "cm-mode";
+      ename = "cm-mode";
+      version = "1.10";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/cm-mode-1.10.tar";
+        sha256 = "1lg9rzv9hk89qi43msrbmi1hyy8zgr75740h7kj7rbl41v808bd7";
+      };
+      packageRequires = [ cl-lib ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/cm-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   cobol-mode = callPackage (
     {
       cl-lib ? null,
@@ -4510,27 +4532,6 @@
       ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/hydra.html";
-        license = lib.licenses.free;
-      };
-    }
-  ) { };
-  hyperbole = callPackage (
-    {
-      elpaBuild,
-      fetchurl,
-      lib,
-    }:
-    elpaBuild {
-      pname = "hyperbole";
-      ename = "hyperbole";
-      version = "9.0.1";
-      src = fetchurl {
-        url = "https://elpa.gnu.org/packages/hyperbole-9.0.1.tar";
-        sha256 = "0gjscqa0zagbymm6wfilvc8g68f8myv90ryd8kqfcpy81fh4dhiz";
-      };
-      packageRequires = [ ];
-      meta = {
-        homepage = "https://elpa.gnu.org/packages/hyperbole.html";
         license = lib.licenses.free;
       };
     }
