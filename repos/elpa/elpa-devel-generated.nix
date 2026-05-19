@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260515.134946";
+      version = "1.0.2.0.20260518.234325";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260515.134946.tar";
-        sha256 = "1fwg2mq0arid394gnfpjwp26v0n7mshr928pyzi3pxsc4r6p026l";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260518.234325.tar";
+        sha256 = "1bg8b84b5fq1jnhbkdvq6349h17vf2s04r69kp1cqg4vscgkz7ar";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -6068,10 +6068,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.7.1.0.20260516.15637";
+      version = "0.8.0.0.20260518.211153";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.7.1.0.20260516.15637.tar";
-        sha256 = "16y6dhzmsqhlcbcizhq3r0anv4f85mn07djcic1z7nn24zjyi772";
+        url = "https://elpa.gnu.org/devel/minuet-0.8.0.0.20260518.211153.tar";
+        sha256 = "1sxfwivmlpc2cdkx5bn1nmprkpqi43m8bp8zna6ba64ajm4i2k4c";
       };
       packageRequires = [
         dash
