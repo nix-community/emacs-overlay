@@ -48,6 +48,7 @@ jobs:
       matrix:
         repo: ["elpa", "emacs", "melpa", "fromElisp", "nongnu"]
     if: github.repository_owner == 'nix-community'
+    continue-on-error: ${{ matrix.repo == 'emacs' }} # update of emacs can be flaky
     steps:
     - name: Checkout repository
       uses: actions/checkout@v6.0.2
