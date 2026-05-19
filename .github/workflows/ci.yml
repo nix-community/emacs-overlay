@@ -6,6 +6,10 @@ on:
   workflow_dispatch:
 
 jobs:
+  test-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ping -c3 https.git.savannah.gnu.org
   flake-inputs:
     name: Update flake inputs
     runs-on: ubuntu-latest
