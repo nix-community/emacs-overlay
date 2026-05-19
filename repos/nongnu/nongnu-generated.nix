@@ -2574,10 +2574,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.11";
+      version = "0.12";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gnuplot-0.11.tar";
-        sha256 = "10zjkf0ba7jaqx41csa815apx58s0b87svvmzzld3i3xf91sash7";
+        url = "https://elpa.nongnu.org/nongnu/gnuplot-0.12.tar";
+        sha256 = "13pbnlwg9z7yc8s1hr1fq031cl9swld2jgxdd74jra49vvh6a3ar";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4956,10 +4956,10 @@
     elpaBuild {
       pname = "scad-mode";
       ename = "scad-mode";
-      version = "98.0";
+      version = "99.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/scad-mode-98.0.tar";
-        sha256 = "0ksiz8rxxykm2lnc2lil1qndpl0lxcw8fa9nlh420xva9m3s9sda";
+        url = "https://elpa.nongnu.org/nongnu/scad-mode-99.0.tar";
+        sha256 = "1wdb7ri2716r4m22asj370c3mnjchcsnxjwbw3m13rgvkj2ax6j4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5096,7 +5096,7 @@
   ) { };
   simple-httpd = callPackage (
     {
-      cl-lib ? null,
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -5104,12 +5104,12 @@
     elpaBuild {
       pname = "simple-httpd";
       ename = "simple-httpd";
-      version = "1.5.1";
+      version = "1.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/simple-httpd-1.5.1.tar";
-        sha256 = "1aq8nz7y2q14w7mjm53ava6sd4pyksbj0hq8sdyy3hwgq1hzrrh5";
+        url = "https://elpa.nongnu.org/nongnu/simple-httpd-1.6.tar";
+        sha256 = "08rkqid2c11dl0sm8795jzkiilj02kbq6xy56b3bh83pc09wfmay";
       };
-      packageRequires = [ cl-lib ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/simple-httpd.html";
         license = lib.licenses.free;
