@@ -950,10 +950,10 @@
     elpaBuild {
       pname = "buffer-env";
       ename = "buffer-env";
-      version = "0.6.0.20250516.122320";
+      version = "0.6.0.20260520.141943";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/buffer-env-0.6.0.20250516.122320.tar";
-        sha256 = "0m1kb8h2mjjd5hznp86yxjdic0zngq89x67vd7srvikxxbj312d9";
+        url = "https://elpa.gnu.org/devel/buffer-env-0.6.0.20260520.141943.tar";
+        sha256 = "1vvcl8pgc6y48k5c1b2rr04qiw5rf07gfhs5915ib05w286w5mm7";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1596,10 +1596,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.4.2.0.20260424.102433";
+      version = "0.5.0.0.20260520.122738";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.4.2.0.20260424.102433.tar";
-        sha256 = "02fmkqj8rwxfjzrnvk9mxz710pg3kp45m5x0z5g4qky3ax417qpa";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.5.0.0.20260520.122738.tar";
+        sha256 = "19y5vd4j1ndnxr5z7fz8ghxs5ra0y9d0qca2npglcmzy5l6zsaga";
       };
       packageRequires = [
         consult
@@ -2101,10 +2101,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20260513.81245";
+      version = "4.2.0.0.20260520.124108";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260513.81245.tar";
-        sha256 = "0wf027nkmrigvnyk5bm0sx96lbwbpyxl5scv1s58s8q9qfnk2bpy";
+        url = "https://elpa.gnu.org/devel/denote-4.2.0.0.20260520.124108.tar";
+        sha256 = "0v9j0yx3sxkcw16j48x10rhk2j7ryfrlsz0z4dcpm75wjpr235sx";
       };
       packageRequires = [ ];
       meta = {
@@ -2123,10 +2123,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.2.2.0.20260424.102616";
+      version = "0.3.0.0.20260520.123338";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.2.2.0.20260424.102616.tar";
-        sha256 = "1012pwhj0nj57q9i33swzs5ww4xbnrcmz4c3n2g8jz9mds3sqibp";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.3.0.0.20260520.123338.tar";
+        sha256 = "11ad50v3p81vrana2dbnqi7xm07aly4iv03rw5kxblynjcarsd1i";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2145,10 +2145,10 @@
     elpaBuild {
       pname = "denote-markdown";
       ename = "denote-markdown";
-      version = "0.2.2.0.20260424.102624";
+      version = "0.3.0.0.20260520.123211";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-markdown-0.2.2.0.20260424.102624.tar";
-        sha256 = "1q8cw2ilnx4yb7gddr1g5cwp9ppzy6hww4pxpw7x9ascvjjqr2rv";
+        url = "https://elpa.gnu.org/devel/denote-markdown-0.3.0.0.20260520.123211.tar";
+        sha256 = "0bbf5cycmjl5p6cl81x5cjac98y97cr9jkwnrgi5sy5rgxqfpj8k";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2189,10 +2189,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.2.1.0.20260424.102637";
+      version = "0.3.0.0.20260520.123505";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-org-0.2.1.0.20260424.102637.tar";
-        sha256 = "10ixkpp7qhf0baj167y6pj7vzkl0zgnnh0aq1axza1106zj08dwf";
+        url = "https://elpa.gnu.org/devel/denote-org-0.3.0.0.20260520.123505.tar";
+        sha256 = "12g38pk2vg1g1p9b847r4aisxxr9l36rsbgg1s4aqavd2cd3b00g";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2255,10 +2255,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.2.0.0.20260424.102642";
+      version = "0.3.0.0.20260520.123044";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.2.0.0.20260424.102642.tar";
-        sha256 = "038l9igj1bc69x3r70d1qj6h61mmahlgh179p1ws8jdcjcc5vi9d";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.3.0.0.20260520.123044.tar";
+        sha256 = "021fdjqj6dqfbfl1b15m5xk6g8kqf1qp42ljnvqggb4zj4gymsh3";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2277,10 +2277,10 @@
     elpaBuild {
       pname = "denote-silo";
       ename = "denote-silo";
-      version = "0.2.0.0.20260424.102645";
+      version = "0.3.0.0.20260520.122913";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-silo-0.2.0.0.20260424.102645.tar";
-        sha256 = "05g0irf1dh5n28pmrc56h401z92pfc7bp7k22v2qb1hi8jzk2ajw";
+        url = "https://elpa.gnu.org/devel/denote-silo-0.3.0.0.20260520.122913.tar";
+        sha256 = "0dx6nhjga8mq5g0db24jjzlvdy218bh2yszasjls101nf9ksc3hy";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2363,10 +2363,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "1.4.0.20260519.102303";
+      version = "1.4.0.20260520.91746";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dicom-1.4.0.20260519.102303.tar";
-        sha256 = "05arc86s47psnzgn0x8jqmqngrsghvvwknz1bxrfnri29dcrnp4j";
+        url = "https://elpa.gnu.org/devel/dicom-1.4.0.20260520.91746.tar";
+        sha256 = "1hg9f78qx9fhmplc34xx5zi9av7lnw6791pdg11ngdxk1m7nj27k";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2774,10 +2774,10 @@
     elpaBuild {
       pname = "drepl";
       ename = "drepl";
-      version = "0.4.0.20251012.81518";
+      version = "0.4.0.20260520.140843";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/drepl-0.4.0.20251012.81518.tar";
-        sha256 = "0xq39hhxx8fpkxqkxnihgn0dw3gxxyzaglpw4cpbn5f6zx2x26yy";
+        url = "https://elpa.gnu.org/devel/drepl-0.4.0.20260520.140843.tar";
+        sha256 = "0apa8fi1j1wkjnjxfsyyf8k21na4q7fvlg6baz2y2aaqisfykqlh";
       };
       packageRequires = [ comint-mime ];
       meta = {
@@ -2976,10 +2976,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.1.0.0.20260513.95422";
+      version = "2.1.0.0.20260520.193358";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260513.95422.tar";
-        sha256 = "07f9mi03ijg1bpqjsqigkypd8klawrbdlmvzlg1awiihsdkqrlcc";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260520.193358.tar";
+        sha256 = "1637iyx11rwsy5sb5b9hkqlpfkmlc7a6hm66qqc76hqmmvkcx7rp";
       };
       packageRequires = [ modus-themes ];
       meta = {
