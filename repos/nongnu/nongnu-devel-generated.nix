@@ -4926,10 +4926,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20260416.50503";
+      version = "1.0.6.0.20260521.74503";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260416.50503.tar";
-        sha256 = "12bcjfi7s7gisx31rwncvcs7j7m57kcs7rs5jfhmmpfsm8n24yba";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260521.74503.tar";
+        sha256 = "0ns6miia0yngp9jb8p0k8clk6iglz96v9a9rchns1kmchn7dypfy";
       };
       packageRequires = [ ];
       meta = {
@@ -5250,10 +5250,10 @@
     elpaBuild {
       pname = "spell-fu";
       ename = "spell-fu";
-      version = "0.3.0.20260108.133641";
+      version = "0.3.0.20260521.52528";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20260108.133641.tar";
-        sha256 = "1yrv1a3k6nk92bhs4gsqpb1gc7x55gpp365ykpx6zj0hiapfhq80";
+        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20260521.52528.tar";
+        sha256 = "0xm7zdkz4cm79gz4jvmf54393j2avv6ppi57nbhgfd64plzb6siw";
       };
       packageRequires = [ ];
       meta = {
