@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.6.0.20260428.42852";
+      version = "1.7.0.20260521.153004";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.6.0.20260428.42852.tar";
-        sha256 = "05p3k2c84xnmcvfg2rdphmy0vav65dj48n36yfn03pppy1wzl6bh";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.7.0.20260521.153004.tar";
+        sha256 = "11pw6absa9nj0ps8n17jzsqdnajk1cdz7rv6lnp2ibfyfg6vr03c";
       };
       packageRequires = [
         compat
@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0.20260520.121213";
+      version = "1.22.0.20260521.130125";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0.20260520.121213.tar";
-        sha256 = "1gsapr2mmjc8q4licyy09fkgwi2f993prw0fq4gm6j1v70swlghx";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0.20260521.130125.tar";
+        sha256 = "1kh607in990x6p52frz7lxrljc88bqcf35q66q275n7vhnfqv5wj";
       };
       packageRequires = [
         clojure-mode
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260520.190044";
+      version = "3.4.2.0.20260521.180223";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260520.190044.tar";
-        sha256 = "0r9xins2kalrhiry2f4pxyv2iy3k0vxvka6pvyjrhwz55pmb95j4";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260521.180223.tar";
+        sha256 = "0w30w6v0rwnzi2v3sq06g1q8ijgc3yd3xza37hdpfns3wy7l86s0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1398,10 +1398,10 @@
     elpaBuild {
       pname = "emacsql";
       ename = "emacsql";
-      version = "4.3.6.0.20260518.141229";
+      version = "4.3.6.0.20260521.105324";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.3.6.0.20260518.141229.tar";
-        sha256 = "1axc0m66l3xb6cnhzm1sv10dvf71b8j8zf5cggdsvn1iy83fs0d8";
+        url = "https://elpa.nongnu.org/nongnu-devel/emacsql-4.3.6.0.20260521.105324.tar";
+        sha256 = "1npyln3a90jpr1jz3rr5cyd4dlkzyp1ackdnazc4hrflam0bh47a";
       };
       packageRequires = [ ];
       meta = {
@@ -2493,10 +2493,10 @@
     elpaBuild {
       pname = "git-modes";
       ename = "git-modes";
-      version = "1.4.8.0.20260511.154926";
+      version = "1.4.8.0.20260521.110545";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/git-modes-1.4.8.0.20260511.154926.tar";
-        sha256 = "04hmalm3rvpcc2dzy0j1nmb1mq78vfl4fzmzw3mhy5dd4l63hzab";
+        url = "https://elpa.nongnu.org/nongnu-devel/git-modes-1.4.8.0.20260521.110545.tar";
+        sha256 = "1z0vjb3i1b92ywa2gbiw2nbwrm5cpwni3cgnknysx24r4c6nmpnx";
       };
       packageRequires = [ compat ];
       meta = {
