@@ -3556,6 +3556,27 @@
       };
     }
   ) { };
+  ffs = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "ffs";
+      ename = "ffs";
+      version = "0.2.2";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/ffs-0.2.2.tar";
+        sha256 = "1mwjk877qfccdrp046j431pawr9g489gdz803wg55j0r12whh94a";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/ffs.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   filechooser = callPackage (
     {
       compat,

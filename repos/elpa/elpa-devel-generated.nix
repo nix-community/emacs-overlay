@@ -2101,10 +2101,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.0.0.20260520.124108";
+      version = "4.2.0.0.20260521.170922";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.0.0.20260520.124108.tar";
-        sha256 = "0v9j0yx3sxkcw16j48x10rhk2j7ryfrlsz0z4dcpm75wjpr235sx";
+        url = "https://elpa.gnu.org/devel/denote-4.2.0.0.20260521.170922.tar";
+        sha256 = "06sg5rkhb3m2b4wzvc9pq38kfzdi3vbyda4i96snpbp21c5i19l8";
       };
       packageRequires = [ ];
       meta = {
@@ -2255,10 +2255,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.3.0.0.20260520.123044";
+      version = "0.3.0.0.20260521.170817";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.3.0.0.20260520.123044.tar";
-        sha256 = "021fdjqj6dqfbfl1b15m5xk6g8kqf1qp42ljnvqggb4zj4gymsh3";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.3.0.0.20260521.170817.tar";
+        sha256 = "1qg2y0wc0i98yhb3wa2qqklhzzgjwa7j0drj6hb9pr4pr6z87alw";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2976,10 +2976,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.1.0.0.20260521.65635";
+      version = "2.1.0.0.20260521.155949";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260521.65635.tar";
-        sha256 = "1hcjy4f8xkbp8ig7mx97xijib0p446j2l4kq19kwzzjdf97p5n84";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260521.155949.tar";
+        sha256 = "0nk847ii57cx2kphza4xnnbrm53fnq7s1jrrm6nm1in8acz8dv7b";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -3642,6 +3642,27 @@
       packageRequires = [ cl-lib ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/f90-interface-browser.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  ffs = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "ffs";
+      ename = "ffs";
+      version = "0.2.2.0.20260521.115034";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/ffs-0.2.2.0.20260521.115034.tar";
+        sha256 = "1m1q5vmgl4w7zyz5rb86lwazzzxl00bgn07jdp2b403v5w0ydnfq";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/ffs.html";
         license = lib.licenses.free;
       };
     }
@@ -4632,10 +4653,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.20.20260520.174926";
+      version = "9.0.20.20260521.101003";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260520.174926.tar";
-        sha256 = "067cpdc2nsj8m82zdbifp4m7dnggy3a39magsa67r9laymkw2vhm";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260521.101003.tar";
+        sha256 = "0x815jhdys1arkhxccb61d9q5yg3n416xa91i2m1v9kcqj18x9vv";
       };
       packageRequires = [ ];
       meta = {
@@ -10484,10 +10505,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.9.0.20260519.105524";
+      version = "2.9.0.20260521.184311";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.9.0.20260519.105524.tar";
-        sha256 = "0m82wl27x6blx16bry3q0nji9p79d3cwgijhx791qja4b0icy50q";
+        url = "https://elpa.gnu.org/devel/vertico-2.9.0.20260521.184311.tar";
+        sha256 = "16cxqn5yhrprk50kw8z228wi1290ss354jmbf724dabd3a08xakx";
       };
       packageRequires = [ compat ];
       meta = {
