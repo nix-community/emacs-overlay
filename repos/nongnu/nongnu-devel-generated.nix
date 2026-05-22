@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260521.180223";
+      version = "3.4.2.0.20260521.191532";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260521.180223.tar";
-        sha256 = "0w30w6v0rwnzi2v3sq06g1q8ijgc3yd3xza37hdpfns3wy7l86s0";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260521.191532.tar";
+        sha256 = "0hjq9h9knm5mng00r4az4wk8jmikpr7f91cq1v7awizwvn26rnx9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5250,10 +5250,10 @@
     elpaBuild {
       pname = "spell-fu";
       ename = "spell-fu";
-      version = "0.3.0.20260521.52528";
+      version = "0.3.0.20260522.34635";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20260521.52528.tar";
-        sha256 = "0xm7zdkz4cm79gz4jvmf54393j2avv6ppi57nbhgfd64plzb6siw";
+        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20260522.34635.tar";
+        sha256 = "0y5vhqv40gb5rxbmdd7bjf2d7sbjjk5v7lj2w9j3131iqlmfwppk";
       };
       packageRequires = [ ];
       meta = {
