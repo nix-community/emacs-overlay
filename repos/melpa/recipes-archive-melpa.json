@@ -2170,15 +2170,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260522,
-    1427
+    20260523,
+    704
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "58458b1442d9487039ea27762af983697d898aa7",
-   "sha256": "1m4x1qdp1rgmv1w87dw9d5lz667mkhbkx5r3lbwrpqj9ngl2674x"
+   "commit": "cded16843a1a5b590d90f1d425dd38acab021b0d",
+   "sha256": "1ydx13gp83fzc434k2iwk6c4axmwjhj9r16f5r5y1xgk9g5gny27"
   },
   "stable": {
    "version": [
@@ -33032,14 +33032,14 @@
   "repo": "emacs-elfeed/elfeed",
   "unstable": {
    "version": [
-    20260522,
-    2312
+    20260523,
+    636
    ],
    "deps": [
     "compat"
    ],
-   "commit": "17f9499758e0ddfa4f7b4211f3c7512d53d449cd",
-   "sha256": "1f6anqs6cvijc35b6mcm49wq2xlac3w3i4q92dx8xrb1vd8k7fd6"
+   "commit": "2103b959004df3a441d2a65df6cefecdaf81b1f5",
+   "sha256": "08sj5blmkqjv4h1diyv3krv6lpng4b8fb902sadlpvvrlaphp4kq"
   },
   "stable": {
    "version": [
@@ -35174,15 +35174,16 @@
   "repo": "martenlienen/emcp",
   "unstable": {
    "version": [
-    20260519,
-    831
+    20260523,
+    656
    ],
    "deps": [
     "elisp-refs",
-    "http-server"
+    "http-server",
+    "magit-section"
    ],
-   "commit": "c65c3c248d52f421531f4b37953be290c1df5ceb",
-   "sha256": "13cqw930jgghzxlp08ijbbzv2cbip6rxhq4f59y89s2gficn8grq"
+   "commit": "19c516c061868e1d883a46b682422a10949bf150",
+   "sha256": "1p0wl4v0f8rhkkh7mvn6lz3izympiak9564shcrkpkmyxxbf43p3"
   }
  },
  {
@@ -55585,8 +55586,8 @@
   "repo": "karthink/gptel-agent",
   "unstable": {
    "version": [
-    20260518,
-    557
+    20260523,
+    600
    ],
    "deps": [
     "compat",
@@ -55594,8 +55595,8 @@
     "orderless",
     "yaml"
    ],
-   "commit": "753e722778fcdefc165f049d27cbfea4fb909236",
-   "sha256": "0pxinbpaj31c2rzq7yv239vn4fgmrby7a7idcgq9a0dh12rmrvjm"
+   "commit": "f8cab0368918672a329ea3caf5cd64b6db1722eb",
+   "sha256": "16prflq6mbh51r5h32fl4xhi815xdd3nyxh2fib6qvcqsv8cqmgh"
   }
  },
  {
@@ -56841,11 +56842,11 @@
   "repo": "bormoge/guava-themes",
   "unstable": {
    "version": [
-    20260522,
-    1501
+    20260523,
+    217
    ],
-   "commit": "55965656d51ee23f70ec87fe3998a6e5021bfb2e",
-   "sha256": "1nndpmbjs091x0iraj5m4g7bwykd9czn1ph64r4vm8lmjq437jmd"
+   "commit": "cb745aec06b451304d28fc762227ab907608cc29",
+   "sha256": "1zwb2q4lcz8jyja236mnnh0ralpc49kdycj5f028jgxrjzhdqcgz"
   },
   "stable": {
    "version": [
@@ -124306,11 +124307,11 @@
   "repo": "srfi-explorations/emacs-srfi",
   "unstable": {
    "version": [
-    20260522,
-    212
+    20260523,
+    130
    ],
-   "commit": "8b94d0f8fad2614eb6f17b0bcd8902224041c82a",
-   "sha256": "02k1hx90wvk5hsm4vz8y56yrh9q2bhia25198jn0mimzkk30lk6f"
+   "commit": "29677fe3020c2934f73f0d278c1dc4a6eb353f6c",
+   "sha256": "0ym2xyifivid60s73g9x5nbrqxxrzaqik24kvf949ccbagmfkvsh"
   },
   "stable": {
    "version": [
