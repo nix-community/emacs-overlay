@@ -3178,10 +3178,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.19.1.0.20260517.154816";
+      version = "1.19.3.0.20260522.235407";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.19.1.0.20260517.154816.tar";
-        sha256 = "1xqc77lk7pgp60vhflkif9g7wr6ilbz0cs8zs4rwsn07rb761d3c";
+        url = "https://elpa.gnu.org/devel/ellama-1.19.3.0.20260522.235407.tar";
+        sha256 = "1m7qd054l1mmb5vkvr41q099lrv64626phkfxpli83dl0rybn1ar";
       };
       packageRequires = [
         compat
@@ -3874,10 +3874,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.2.2.0.20260520.60313";
+      version = "0.2.2.0.20260523.22928";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.2.2.0.20260520.60313.tar";
-        sha256 = "0fc1yja3y1i441rhkrj1x93ia4f8k10sy1z4hd3bapym0wb7fmzh";
+        url = "https://elpa.gnu.org/devel/forgejo-0.2.2.0.20260523.22928.tar";
+        sha256 = "1vd01wqmjv8kh3rxfkr3c5h1mqjijh15c6q63l117kpra9mgapmz";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -5524,10 +5524,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.30.3.0.20260521.230855";
+      version = "0.31.0.0.20260523.3403";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.30.3.0.20260521.230855.tar";
-        sha256 = "19p9rhrjr6j2qywydwvgaylp6dm4ycyzq4caagkvvc61f1invmls";
+        url = "https://elpa.gnu.org/devel/llm-0.31.0.0.20260523.3403.tar";
+        sha256 = "0igdfwdr27ajwamiwaan4ci0bmj9xlfg6kgyxfyfzplnyz9h7xs2";
       };
       packageRequires = [
         compat
@@ -6711,10 +6711,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260522.62757";
+      version = "10.0.20260522.164501";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260522.62757.tar";
-        sha256 = "0nc8prx39z7jjb2wig4h32ygbiqz2jfslr31wm98dzinn8gv6rk1";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260522.164501.tar";
+        sha256 = "1x3hkx5nw6iv960bpi6bdvxp51m5gz9l6b76x3phz9b84mdbr796";
       };
       packageRequires = [ ];
       meta = {

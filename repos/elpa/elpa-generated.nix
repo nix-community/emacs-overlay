@@ -3110,10 +3110,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.19.1";
+      version = "1.19.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.19.1.tar";
-        sha256 = "10ghy4srvlgldzg8pdy00d4i8mic32i47w5ha38jq5q728kp7va2";
+        url = "https://elpa.gnu.org/packages/ellama-1.19.3.tar";
+        sha256 = "0m1dyk5s0xccipdfzbp7j0vwf1mgycbfc6szwdpshpqhv1lnb5xd";
       };
       packageRequires = [
         compat
@@ -5437,10 +5437,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.30.3";
+      version = "0.31.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/llm-0.30.3.tar";
-        sha256 = "11mmm445x1jbdhrn5w86qg5lck0w1cpsza0rg8zpzhd4h6r4sk3l";
+        url = "https://elpa.gnu.org/packages/llm-0.31.0.tar";
+        sha256 = "10sracfxl21xkvfrpgwyhhxhpqb1m96aa44x6zy0a4m72d8rsbz3";
       };
       packageRequires = [
         compat
