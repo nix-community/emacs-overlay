@@ -2255,10 +2255,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.3.0.0.20260521.170817";
+      version = "0.3.0.0.20260522.182434";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-sequence-0.3.0.0.20260521.170817.tar";
-        sha256 = "1qg2y0wc0i98yhb3wa2qqklhzzgjwa7j0drj6hb9pr4pr6z87alw";
+        url = "https://elpa.gnu.org/devel/denote-sequence-0.3.0.0.20260522.182434.tar";
+        sha256 = "1nbnjibdam928p0kgbkbgqsnm0g0r1wjlg8ipccbg28xc1zscf5y";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2752,10 +2752,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.1.0.0.20260424.102652";
+      version = "1.1.0.0.20260522.84122";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.1.0.0.20260424.102652.tar";
-        sha256 = "1zxc26anks3l5h1wyrfll7bqxxw6ps5svmlbng3kbw1y5szs0p55";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.1.0.0.20260522.84122.tar";
+        sha256 = "0m47s4l94vmzswh4qhvxgvijpyyfsmj4vrh0jajyniqpchw1bgxf";
       };
       packageRequires = [ ];
       meta = {
@@ -3655,10 +3655,10 @@
     elpaBuild {
       pname = "ffs";
       ename = "ffs";
-      version = "0.2.2.0.20260521.115034";
+      version = "0.2.30.20260522.94521";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ffs-0.2.2.0.20260521.115034.tar";
-        sha256 = "1m1q5vmgl4w7zyz5rb86lwazzzxl00bgn07jdp2b403v5w0ydnfq";
+        url = "https://elpa.gnu.org/devel/ffs-0.2.30.20260522.94521.tar";
+        sha256 = "0y8rsj2b6sjs9pai9swk18g72ms71lvv28zaw55v69dl1wjchvfc";
       };
       packageRequires = [ ];
       meta = {
@@ -4653,10 +4653,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.20.20260521.101003";
+      version = "9.0.20.20260522.82720";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260521.101003.tar";
-        sha256 = "0x815jhdys1arkhxccb61d9q5yg3n416xa91i2m1v9kcqj18x9vv";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260522.82720.tar";
+        sha256 = "1b98vv2jlvw7b6l934j598ldhirx8arysmj7rbn64n26l3baiba4";
       };
       packageRequires = [ ];
       meta = {
@@ -5179,10 +5179,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.3.1.0.20260517.72301";
+      version = "0.3.1.0.20260522.81847";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.3.1.0.20260517.72301.tar";
-        sha256 = "1nw7v1fhfhpk25mjddcylcp6fi2y6kncqav9cirs0mracrvhshyh";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.3.1.0.20260522.81847.tar";
+        sha256 = "1lp4x0hfpdbc1qnz5i59naddb6b9i0ngwpnglq3fsfgvb6gi6v0q";
       };
       packageRequires = [ ];
       meta = {
