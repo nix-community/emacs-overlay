@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260523.63600";
+      version = "3.4.2.0.20260523.181848";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260523.63600.tar";
-        sha256 = "05a5lw19axlq8bpcyzrnqm75gc8vfvrmanagvi15k674dma3b1ga";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260523.181848.tar";
+        sha256 = "1hd973xkxigk2dbv67czxs8sqz7mky049g2mg59n8b16vxmqh5fm";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2587,10 +2587,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.12.0.20260519.104840";
+      version = "0.12.0.20260523.142122";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.12.0.20260519.104840.tar";
-        sha256 = "1xc8z3navngjkrksfrx2ix13b5755ghs9vb41g214kkzy4hw0lb4";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.12.0.20260523.142122.tar";
+        sha256 = "0rx00dkw8g2z67ax69pywr342awh3dv0scyb7ry002f78spiswya";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2694,10 +2694,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260519.2556";
+      version = "0.9.9.5.0.20260523.22626";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260519.2556.tar";
-        sha256 = "102s201l5knxzi6gg7c19srjy18vsf8561vik7a8w5p3fm0jfbgh";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260523.22626.tar";
+        sha256 = "1xbqvs2milcvg7mbzc79kc3qcqx8f7852v192kvqcyyp0b1rik15";
       };
       packageRequires = [
         compat
@@ -5229,10 +5229,10 @@
     elpaBuild {
       pname = "spacemacs-theme";
       ename = "spacemacs-theme";
-      version = "0.2.0.20260414.205200";
+      version = "0.2.0.20260523.125627";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20260414.205200.tar";
-        sha256 = "076nbpp16wy6j9ic3bhj9cj58bmah6ivhh842lkh7y7lgp6f7q7j";
+        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20260523.125627.tar";
+        sha256 = "0rxvvfcssxvgfi8djd3y5ncd5hhhbqclprp3529zw390m8qlcicd";
       };
       packageRequires = [ ];
       meta = {
@@ -5914,10 +5914,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.30.20260420.63204";
+      version = "8.3.30.20260523.82019";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.30.20260420.63204.tar";
-        sha256 = "101cb05gr4q6r30bnif0i14d7yg2a9wardaw6py19l8gazzxz9i2";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.30.20260523.82019.tar";
+        sha256 = "131bz021s5b794ssqyh0qbgxic3nkksfzqzzijkrz03m74wdv2a6";
       };
       packageRequires = [ vcard ];
       meta = {
