@@ -2055,10 +2055,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.0";
+      version = "4.2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-4.2.0.tar";
-        sha256 = "15fklf2x8bqigg0yw8fnk8ffjz8pd9mc5v617r78s1sbi55n8x2x";
+        url = "https://elpa.gnu.org/packages/denote-4.2.2.tar";
+        sha256 = "03z3q223lgy0zzxfp4mcdh6mq3dg1hrvsrbp648drlzwnjp77vx3";
       };
       packageRequires = [ ];
       meta = {
@@ -2209,10 +2209,10 @@
     elpaBuild {
       pname = "denote-sequence";
       ename = "denote-sequence";
-      version = "0.3.0";
+      version = "0.3.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-sequence-0.3.0.tar";
-        sha256 = "1dd8bqwmlkrkqn8ar6m42nig2j8r77p5zn8xngxk806cn9qbqc32";
+        url = "https://elpa.gnu.org/packages/denote-sequence-0.3.3.tar";
+        sha256 = "017h9bwaqv9lxv8ibbl739a9vkcknsv8ch2sqrbaybhri74a3mqk";
       };
       packageRequires = [ denote ];
       meta = {
@@ -3110,10 +3110,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.19.3";
+      version = "1.20.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.19.3.tar";
-        sha256 = "0m1dyk5s0xccipdfzbp7j0vwf1mgycbfc6szwdpshpqhv1lnb5xd";
+        url = "https://elpa.gnu.org/packages/ellama-1.20.0.tar";
+        sha256 = "07zzdf18p7vdhinnj8w78qfal1hvsjpxy4l795v5c3xry7zx31ad";
       };
       packageRequires = [
         compat
