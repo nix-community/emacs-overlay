@@ -3222,10 +3222,10 @@
     elpaBuild {
       pname = "isl";
       ename = "isl";
-      version = "1.6";
+      version = "1.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/isl-1.6.tar";
-        sha256 = "1bsqq3i7flpbihvcmvcwb1s3gabq6wslwpamcqhcf15j30znwhb1";
+        url = "https://elpa.nongnu.org/nongnu/isl-1.7.tar";
+        sha256 = "1nksczxv2bq6l8wg855a0ahzp1w3dhai4vwni8hyrp5fk2z0gcan";
       };
       packageRequires = [ ];
       meta = {

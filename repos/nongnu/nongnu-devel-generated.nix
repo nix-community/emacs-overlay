@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0.20260521.130125";
+      version = "1.22.0.20260523.212126";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0.20260521.130125.tar";
-        sha256 = "1kh607in990x6p52frz7lxrljc88bqcf35q66q275n7vhnfqv5wj";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0.20260523.212126.tar";
+        sha256 = "1bk23hk3whm4g7s6mc99qqfcpncwqvwia1c9gvnpvx947j5jzaha";
       };
       packageRequires = [
         clojure-mode
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260523.181848";
+      version = "3.4.2.0.20260524.74254";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260523.181848.tar";
-        sha256 = "1hd973xkxigk2dbv67czxs8sqz7mky049g2mg59n8b16vxmqh5fm";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260524.74254.tar";
+        sha256 = "0zrcdcg6nlhxmjxj1hhnz3sa66qywbf36plkgcrkjfkp6qhhrvi0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3236,10 +3236,10 @@
     elpaBuild {
       pname = "isl";
       ename = "isl";
-      version = "1.6.0.20260424.194242";
+      version = "1.7.0.20260524.35203";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.6.0.20260424.194242.tar";
-        sha256 = "0hd1vbj4jlh4cxym9k54acra9h80p2sj0k9bld30b84xvk1f2pqh";
+        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.7.0.20260524.35203.tar";
+        sha256 = "1hr6nngd0z266vwz2h76xzvjx5zgy8ljjf04q6338kmzb16m24wr";
       };
       packageRequires = [ ];
       meta = {
@@ -5250,10 +5250,10 @@
     elpaBuild {
       pname = "spell-fu";
       ename = "spell-fu";
-      version = "0.3.0.20260522.34635";
+      version = "0.3.0.20260524.63613";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20260522.34635.tar";
-        sha256 = "0y5vhqv40gb5rxbmdd7bjf2d7sbjjk5v7lj2w9j3131iqlmfwppk";
+        url = "https://elpa.nongnu.org/nongnu-devel/spell-fu-0.3.0.20260524.63613.tar";
+        sha256 = "1s2x3ymj1zb5iczwsrq00s0ynx1n6s3ls7y2nxrhxf04x93swqbf";
       };
       packageRequires = [ ];
       meta = {
@@ -5398,10 +5398,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "10.0.0.0.20260510.54017";
+      version = "10.0.0.0.20260510.61601";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20260510.54017.tar";
-        sha256 = "15f51ca4zhghz9mnwzv4snyi2m4j1fzrqqky162k1xnj02675jzj";
+        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20260510.61601.tar";
+        sha256 = "0azp0a88jka1544zy85rj6di5whai34kiak508vqaavqsvqbiqqi";
       };
       packageRequires = [ ];
       meta = {
