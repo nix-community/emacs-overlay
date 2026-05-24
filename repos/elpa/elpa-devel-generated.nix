@@ -1509,10 +1509,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "31.0.0.1.0.20260503.211632";
+      version = "31.0.0.1.0.20260523.142102";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-31.0.0.1.0.20260503.211632.tar";
-        sha256 = "10d7wxwikjkrfn54x7jxccjxfzwmzq56nqia4fagdaxpqhrzqm4p";
+        url = "https://elpa.gnu.org/devel/compat-31.0.0.1.0.20260523.142102.tar";
+        sha256 = "1glsvx9lmnd4x5q732wqiwdjbyrm3a1v58ssnxkb7iw6d3y1xar8";
       };
       packageRequires = [ ];
       meta = {
@@ -1530,10 +1530,10 @@
     elpaBuild {
       pname = "cond-star";
       ename = "cond-star";
-      version = "1.0.0.20260228.134355";
+      version = "1.0.0.20260523.114724";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cond-star-1.0.0.20260228.134355.tar";
-        sha256 = "1hl7m4rjjq8c99f1xqa1b8hn3hpixx3ryzlf6wiq2lc7fn4icail";
+        url = "https://elpa.gnu.org/devel/cond-star-1.0.0.20260523.114724.tar";
+        sha256 = "15gp54pkm50dq9141fknq4gy8ya6wrbr0nyzqax15rxz57gsf6cs";
       };
       packageRequires = [ ];
       meta = {
@@ -3004,10 +3004,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.23.0.20260519.235157";
+      version = "1.23.0.20260521.93337";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.23.0.20260519.235157.tar";
-        sha256 = "0wzgma37hwzy9x8gv4hlki2wi2zyd2phyivyqzm8v77wiqqpxfs9";
+        url = "https://elpa.gnu.org/devel/eglot-1.23.0.20260521.93337.tar";
+        sha256 = "09hh05g3d01bg6fpw5isd2kc6wxvrgp0m92mr7vhgk8xn98d2qlp";
       };
       packageRequires = [
         eldoc
@@ -5406,10 +5406,10 @@
     elpaBuild {
       pname = "let-alist";
       ename = "let-alist";
-      version = "1.0.6.0.20260430.145419";
+      version = "1.0.6.0.20260523.93734";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/let-alist-1.0.6.0.20260430.145419.tar";
-        sha256 = "19vk780fgvjnxccqb1ak4j9hqc8169axmph0wmp979bgbfa41njz";
+        url = "https://elpa.gnu.org/devel/let-alist-1.0.6.0.20260523.93734.tar";
+        sha256 = "0wqim4mjy59yy5ykjiy5kl91c0841yp071cdh11p7mz54liw8yrc";
       };
       packageRequires = [ ];
       meta = {
@@ -6711,10 +6711,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260522.164501";
+      version = "10.0.20260523.170509";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260522.164501.tar";
-        sha256 = "1x3hkx5nw6iv960bpi6bdvxp51m5gz9l6b76x3phz9b84mdbr796";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260523.170509.tar";
+        sha256 = "087z8gniar82qlnaq5fyhnsc601i0lmn4f1vily65h5cgx7ihssa";
       };
       packageRequires = [ ];
       meta = {
