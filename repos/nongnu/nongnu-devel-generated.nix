@@ -999,10 +999,10 @@
     elpaBuild {
       pname = "diff-ansi";
       ename = "diff-ansi";
-      version = "0.2.0.20260108.151229";
+      version = "0.2.0.20260524.93804";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20260108.151229.tar";
-        sha256 = "0b1i031fyjszinpngz804di4fng6i71pcmckq05z75p3gjjfyx2j";
+        url = "https://elpa.nongnu.org/nongnu-devel/diff-ansi-0.2.0.20260524.93804.tar";
+        sha256 = "1wjvyhs8lfq5fszxlmrjwpw3spa3qq9dn7wmh0m0ilavmnql492v";
       };
       packageRequires = [ ];
       meta = {
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260524.74254";
+      version = "3.4.2.0.20260524.132608";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260524.74254.tar";
-        sha256 = "0zrcdcg6nlhxmjxj1hhnz3sa66qywbf36plkgcrkjfkp6qhhrvi0";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260524.132608.tar";
+        sha256 = "04ql89kxdhi5mwagsfnlr00jxbk0063fjfb3572fdf7pr17s2sxd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2718,10 +2718,10 @@
     elpaBuild {
       pname = "graphql-mode";
       ename = "graphql-mode";
-      version = "1.0.0.0.20260330.140853";
+      version = "1.0.0.0.20260524.82344";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20260330.140853.tar";
-        sha256 = "07rwy23fglwq5h8x16syvgl9nb0lg5gqfx4d1qqls0c6gha7pal1";
+        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20260524.82344.tar";
+        sha256 = "0zr62g3jhf47d7cjjcx3a8m1kqp4h14k4k7jdqqiivg6hc1k43qv";
       };
       packageRequires = [ ];
       meta = {
