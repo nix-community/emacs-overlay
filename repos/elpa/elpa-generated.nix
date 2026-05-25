@@ -3110,10 +3110,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.24.0";
+      version = "1.24.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.24.0.tar";
-        sha256 = "1pp88y0kj7vww521fwpdmiplzx77w8xffsgrka0nrg5fivnpwg9y";
+        url = "https://elpa.gnu.org/packages/ellama-1.24.1.tar";
+        sha256 = "1w5qxdjar00x4a5bg3r27ckiwjvc4lfn05wvbkm9qadzfplh17av";
       };
       packageRequires = [
         compat
@@ -8443,6 +8443,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/shen-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  shift-number = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "shift-number";
+      ename = "shift-number";
+      version = "0.3";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/shift-number-0.3.tar";
+        sha256 = "0vqwy0ai4f1ga4j2inl2s1ly0v9i3fmqyd0p28fgyx3f23c83jqn";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/shift-number.html";
         license = lib.licenses.free;
       };
     }

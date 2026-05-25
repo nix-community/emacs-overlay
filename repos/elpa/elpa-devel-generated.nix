@@ -3178,10 +3178,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.24.0.0.20260524.192827";
+      version = "1.24.1.0.20260524.204816";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.24.0.0.20260524.192827.tar";
-        sha256 = "1xr4xra4gzwzx3n5rjn3zrf5yz5v0cx10i7fwgw33md9yqan3b5r";
+        url = "https://elpa.gnu.org/devel/ellama-1.24.1.0.20260524.204816.tar";
+        sha256 = "199yy7cwfi64rllr1wk1vbbh1kqd5d4h5pxfs8il3jqsx7l35s8c";
       };
       packageRequires = [
         compat
@@ -3609,10 +3609,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.34.0.20260502.101533";
+      version = "0.34.0.20260524.141850";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20260502.101533.tar";
-        sha256 = "1bdkdjzyrk05jk6286rmpky5v76z3m5393rlg473vgj2jpd2c5ij";
+        url = "https://elpa.gnu.org/devel/exwm-0.34.0.20260524.141850.tar";
+        sha256 = "0j0lrdhg8mh71s9xha6kpgch735fgqqpx2ryyaa6jv74jgf5nxf1";
       };
       packageRequires = [
         compat
@@ -6711,10 +6711,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260524.152838";
+      version = "10.0.20260525.61750";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260524.152838.tar";
-        sha256 = "1fgzr8l7l41npahgv35kvdkgzixgw54apxry32qb16qkarysssbb";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260525.61750.tar";
+        sha256 = "1m4v9h57a8cjknl0ca0vqlc83xwh3s30kbl35dmln6gicl7qxvxl";
       };
       packageRequires = [ ];
       meta = {
@@ -8651,10 +8651,10 @@
     elpaBuild {
       pname = "shift-number";
       ename = "shift-number";
-      version = "0.2.0.20260504.211225";
+      version = "0.3.0.20260524.213344";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/shift-number-0.2.0.20260504.211225.tar";
-        sha256 = "10js3dq7g7ikp9v4ybimhjlhrx1i67108qm7zcs8m4w9q9lz094v";
+        url = "https://elpa.gnu.org/devel/shift-number-0.3.0.20260524.213344.tar";
+        sha256 = "0xrnhqv4ifyqma07mlp5jp9q7732l6vwff5z5b0dmha267175x7f";
       };
       packageRequires = [ ];
       meta = {
