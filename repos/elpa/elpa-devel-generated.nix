@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.5.0.20260519.105048";
+      version = "3.5.0.20260524.142636";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.5.0.20260519.105048.tar";
-        sha256 = "07nf5gvjpcmcl5yjib3zxvrzysszwrdbwdvpalivqycry7107nlp";
+        url = "https://elpa.gnu.org/devel/consult-3.5.0.20260524.142636.tar";
+        sha256 = "08ni69vqxgydjlv1gq7wdxbs735ma28a3w0y4vbblbhw5lzpk223";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2363,10 +2363,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "1.4.0.20260520.91746";
+      version = "1.4.0.20260524.191317";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dicom-1.4.0.20260520.91746.tar";
-        sha256 = "1hg9f78qx9fhmplc34xx5zi9av7lnw6791pdg11ngdxk1m7nj27k";
+        url = "https://elpa.gnu.org/devel/dicom-1.4.0.20260524.191317.tar";
+        sha256 = "03vwbvrpw90yxgl0hpl3sg6hm6fz93rz0l28qa5gsdfp4cfswid3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2976,10 +2976,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.1.0.0.20260521.155949";
+      version = "2.1.0.0.20260524.91346";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260521.155949.tar";
-        sha256 = "0nk847ii57cx2kphza4xnnbrm53fnq7s1jrrm6nm1in8acz8dv7b";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260524.91346.tar";
+        sha256 = "1gh4c6axjgsai4p4lhmcn38vcnhm7dvb0ij3c8wpfh8xwv4whwwq";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -3178,10 +3178,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.20.0.0.20260523.211918";
+      version = "1.24.0.0.20260524.192827";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.20.0.0.20260523.211918.tar";
-        sha256 = "06zjisvpxqw9sh4ii75pa9njiql08njbsv7ki0dspwpy85ifs46d";
+        url = "https://elpa.gnu.org/devel/ellama-1.24.0.0.20260524.192827.tar";
+        sha256 = "1xr4xra4gzwzx3n5rjn3zrf5yz5v0cx10i7fwgw33md9yqan3b5r";
       };
       packageRequires = [
         compat
@@ -6711,10 +6711,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260524.74148";
+      version = "10.0.20260524.152838";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260524.74148.tar";
-        sha256 = "1bmmybb7gsqra44h7zy2f32im4d3pwadrmcrakywl66l8yk65rvj";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260524.152838.tar";
+        sha256 = "1fgzr8l7l41npahgv35kvdkgzixgw54apxry32qb16qkarysssbb";
       };
       packageRequires = [ ];
       meta = {
