@@ -2217,10 +2217,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.33.0.20260510.191201";
+      version = "0.33.1.0.20260523.150214";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.0.20260510.191201.tar";
-        sha256 = "0plrqd3q6r11b0p17mlv1gga17jbm1nrqkbwkr1nwixrpxzimbfx";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.1.0.20260523.150214.tar";
+        sha256 = "1k0x34c6w0bnrbbkc01frn5h2kbn9pr02i80clr9vfixjv7zar9b";
       };
       packageRequires = [ project ];
       meta = {
@@ -2694,10 +2694,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260523.22626";
+      version = "0.9.9.5.0.20260524.233304";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260523.22626.tar";
-        sha256 = "1xbqvs2milcvg7mbzc79kc3qcqx8f7852v192kvqcyyp0b1rik15";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260524.233304.tar";
+        sha256 = "1yb0174bkyayxn16ylhh4jb33sgg75gvmrlmlmmcgai4ny02i5fq";
       };
       packageRequires = [
         compat
