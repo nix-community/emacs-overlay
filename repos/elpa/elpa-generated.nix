@@ -207,10 +207,10 @@
     elpaBuild {
       pname = "aggressive-completion";
       ename = "aggressive-completion";
-      version = "1.7";
+      version = "1.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/aggressive-completion-1.7.tar";
-        sha256 = "0d388w0yjpjzhqlar9fjrxsjxma09j8as6758sswv01r084gpdbk";
+        url = "https://elpa.gnu.org/packages/aggressive-completion-1.8.tar";
+        sha256 = "07dqw6mvb1vp4fmii1y7wc074xxi9wfwalflszjpzcjbalklcqdq";
       };
       packageRequires = [ ];
       meta = {
@@ -527,10 +527,10 @@
     elpaBuild {
       pname = "auth-source-xoauth2-plugin";
       ename = "auth-source-xoauth2-plugin";
-      version = "0.4";
+      version = "0.4.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/auth-source-xoauth2-plugin-0.4.tar";
-        sha256 = "0ikx9y5wk5bp16wgh1jz1qg07nvszmma2b808ah60f6gyqbqcrha";
+        url = "https://elpa.gnu.org/packages/auth-source-xoauth2-plugin-0.4.1.tar";
+        sha256 = "038wikkg4lmgjjnwkliwwx8iif55vlc6720qz55lkr7pkrzp5vas";
       };
       packageRequires = [ oauth2 ];
       meta = {
@@ -2055,10 +2055,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.2";
+      version = "4.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-4.2.2.tar";
-        sha256 = "03z3q223lgy0zzxfp4mcdh6mq3dg1hrvsrbp648drlzwnjp77vx3";
+        url = "https://elpa.gnu.org/packages/denote-4.2.3.tar";
+        sha256 = "0r5p2iy7wssm6hl4dal1sav5x4vvijq54lyzqabg49v6lsbszf74";
       };
       packageRequires = [ ];
       meta = {
@@ -3110,10 +3110,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.24.1";
+      version = "1.26.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.24.1.tar";
-        sha256 = "1w5qxdjar00x4a5bg3r27ckiwjvc4lfn05wvbkm9qadzfplh17av";
+        url = "https://elpa.gnu.org/packages/ellama-1.26.0.tar";
+        sha256 = "0i6r61pvqf4hip8r3jvgsv1j7izsqpsh05b6m0s7vpldycpdjvhs";
       };
       packageRequires = [
         compat
@@ -3404,10 +3404,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "26.1.0";
+      version = "26.5.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ess-26.1.0.tar";
-        sha256 = "1spyys37b2rzqzpa7y5ajrrjzckrsbp3hrhsvn28qav3g5d17463";
+        url = "https://elpa.gnu.org/packages/ess-26.5.0.tar";
+        sha256 = "07mfjhcnq3wn6q0dxc4yn5aqnvb9sfnwgi581b5283pfbszhxd29";
       };
       packageRequires = [ ];
       meta = {
@@ -3783,10 +3783,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.2.2";
+      version = "0.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/forgejo-0.2.2.tar";
-        sha256 = "0d97m54gayd6br2nxvwdy66j3pnwbygwwijg9cpcfl1iifkmb5z0";
+        url = "https://elpa.gnu.org/packages/forgejo-0.2.3.tar";
+        sha256 = "0q4y474acb759vx3d0xcqgikbq666nckka4hfashi1jwnas98qcg";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -6448,10 +6448,10 @@
     elpaBuild {
       pname = "oauth2";
       ename = "oauth2";
-      version = "0.18.6";
+      version = "0.19";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/oauth2-0.18.6.tar";
-        sha256 = "1sfwn7lmnv20kysqqkkh89vr2hmyzspd1b7xdklij4qh3nbjm22s";
+        url = "https://elpa.gnu.org/packages/oauth2-0.19.tar";
+        sha256 = "0fjs2wk2ayhzh9ba8fa8pki4c5cyavcw0vqsscj93894s7xv9xgz";
       };
       packageRequires = [ ];
       meta = {
@@ -7436,10 +7436,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.1";
+      version = "1.5.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/posframe-1.5.1.tar";
-        sha256 = "1g1pcf83w4fv299ykvx7b93kxkc58fkr6yk39sxny5g16d4gl80g";
+        url = "https://elpa.gnu.org/packages/posframe-1.5.2.tar";
+        sha256 = "0ywbcwm3sh01vc4nc2ra3b09gri2lgz838gjxgsflv9g3si1918x";
       };
       packageRequires = [ ];
       meta = {
@@ -10420,10 +10420,10 @@
     elpaBuild {
       pname = "wcheck-mode";
       ename = "wcheck-mode";
-      version = "2026";
+      version = "2026.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/wcheck-mode-2026.tar";
-        sha256 = "019lsaihpl9w17qfhn8c5j8rp8nrvlmb16w6r8sb1iril31997sz";
+        url = "https://elpa.gnu.org/packages/wcheck-mode-2026.5.tar";
+        sha256 = "0yxg6s4s5103zfa8m82gaxc46d9gjpiknmvgm2lcb21dckdsay13";
       };
       packageRequires = [ ];
       meta = {
