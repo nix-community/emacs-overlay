@@ -5007,10 +5007,10 @@
     elpaBuild {
       pname = "javaimp";
       ename = "javaimp";
-      version = "0.9.1.0.20260527.12";
+      version = "0.9.1.0.20260529.13";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/javaimp-0.9.1.0.20260527.12.tar";
-        sha256 = "1q19j1qddgbh6sgx0xfca8c36hjhd61kdp8wzwmp1i4ks2cjrjmh";
+        url = "https://elpa.gnu.org/devel/javaimp-0.9.1.0.20260529.13.tar";
+        sha256 = "1p0lhk13y4pw2iv02i9v080x1g1g9q92qlrfl0jkl33gg6fvfj8a";
       };
       packageRequires = [ ];
       meta = {
