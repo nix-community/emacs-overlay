@@ -4176,11 +4176,11 @@
   "repo": "radian-software/apheleia",
   "unstable": {
    "version": [
-    20260525,
-    1539
+    20260529,
+    2249
    ],
-   "commit": "b5d120a419816f9d6b3d0e45f0951dd3d6a10b77",
-   "sha256": "181whpb774gv3k2xxswxkjhd3075r2dpgvdfmpsjqyl2s1jpn5fj"
+   "commit": "70a638ff286549e1fbad45719ab6582159fa2c36",
+   "sha256": "1yn8b686qhxasx8xsp04i4aa2saxnqc75nd4pqf6fq2gnzm1s81n"
   },
   "stable": {
    "version": [
@@ -23683,11 +23683,11 @@
   "repo": "nameiwillforget/d-emacs",
   "unstable": {
    "version": [
-    20260528,
-    813
+    20260529,
+    1928
    ],
-   "commit": "d001ee4d0372a327c11e15671c2864ba6efd2ee3",
-   "sha256": "1syh65la6gam5z4wr4m7kljw6qd3mzsxrjrs91q9d7jayaynkb66"
+   "commit": "61a81a5375377e1616318797a00be7a36071ac56",
+   "sha256": "1qkjz00qz332i0jbc88gxj4bdspicgqrab5wfhv7vil3ia3cjwrr"
   }
  },
  {
@@ -50390,15 +50390,15 @@
   "repo": "jojojames/fussy",
   "unstable": {
    "version": [
-    20260527,
-    1523
+    20260530,
+    128
    ],
    "deps": [
     "compat",
     "flx"
    ],
-   "commit": "02f962d67012df17c98eda5d83c75f8416a56982",
-   "sha256": "0pn2bf6spviihjkv3d1ld8ak0djkrzc0cca5jix5g3lv9mlhi6ag"
+   "commit": "0bdf5d43c414b10e82ea65814644d8d09520cee4",
+   "sha256": "026lgaxsfrycxlk89sch21w3yx3x1b8adarcfdszhlw9khc2rbnm"
   },
   "stable": {
    "version": [
@@ -55401,7 +55401,7 @@
    "version": [
     0,
     54,
-    0
+    1
    ],
    "deps": [
     "dash",
@@ -55409,8 +55409,8 @@
     "magit-popup",
     "s"
    ],
-   "commit": "df7c057af6c06430955ce56d6f04b7e49138f9b3",
-   "sha256": "11b8ihg25izv0a91mxhxs8i360jy6g3zmgvpvy4bz01nkkmndjlf"
+   "commit": "e6cfff79a15f1c7e7a59187985132ee1685b8233",
+   "sha256": "1xyrl4f4rcpm66c7b7kcghy1zhsfznq3jxrya1h3mzlzfpi7b33y"
   }
  },
  {
@@ -64717,11 +64717,7 @@
     1626
    ],
    "commit": "9ef5fb795c68f2881911a90a79f399efef9e32d6",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3054-2672719934/nix-shell-3256-1460233594/nix-shell-3297-3419804691/git-checkout-tmp-pY71AX7L/clone/.git/\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Empty reply from server\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': The requested URL returned error: 502\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': The requested URL returned error: 502\nUnable to checkout 9ef5fb795c68f2881911a90a79f399efef9e32d6 from https://git.savannah.gnu.org/git/hyperbole.git.\n"
-   ]
+   "sha256": "1si531v76r607rgdnhivndlqdpn78k51wpl451nrcxwvlxk8aapd"
   },
   "stable": {
    "version": [
@@ -72297,15 +72293,15 @@
   "repo": "ogdenwebb/emacs-kaolin-themes",
   "unstable": {
    "version": [
-    20260528,
-    1433
+    20260530,
+    10
    ],
    "deps": [
     "autothemer",
     "cl-lib"
    ],
-   "commit": "8d9007a72123f887e4963b84a80273d576743a14",
-   "sha256": "0265g1mdznhda93fi0rs6br3lmy8qz8mlkqag3kvwc5i8cmrdz4p"
+   "commit": "111121b6dde7a8b045334cb8150756e75d0e47bd",
+   "sha256": "117b253vhvl9f8lwfjmkjwjpnn8q3qcz873dc78ypg5rrgw8r2x4"
   },
   "stable": {
    "version": [
@@ -78321,8 +78317,8 @@
   "repo": "emacs-lsp/lsp-metals",
   "unstable": {
    "version": [
-    20260507,
-    1751
+    20260529,
+    1928
    ],
    "deps": [
     "dap-mode",
@@ -78334,8 +78330,8 @@
     "scala-mode",
     "treemacs"
    ],
-   "commit": "41a778bf7fcab4fe88e0e4096677c57a9c732f56",
-   "sha256": "1rvcci7yzsdf91mrmhiwlkm62aw66f63shhk7vqcqd1ljgmlcmf3"
+   "commit": "afeacc7a528b80b9a9f2747428e5608c264201ec",
+   "sha256": "023yydw9lbk621pka6iavdqdm515cxi9fmbqh7flkfgq09lvj00a"
   },
   "stable": {
    "version": [
@@ -104055,11 +104051,11 @@
   "repo": "jamescherti/persist-text-scale.el",
   "unstable": {
    "version": [
-    20260514,
-    1625
+    20260529,
+    2047
    ],
-   "commit": "3ce898527a7def2de731dd0f9dcb7558ee4feee8",
-   "sha256": "00dxjf55ay5m6hzmysy6dfj2q33ixn16lkakd0dcyqqaa1143y16"
+   "commit": "15a82ff64a0c2562f472d0a1117d67d861ca7278",
+   "sha256": "0s5r4k5zy9xsgh5yh068b1l0xlnij4qbwh1rarfr72y7sqha8k3c"
   },
   "stable": {
    "version": [
