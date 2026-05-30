@@ -2976,10 +2976,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.1.0.0.20260524.91346";
+      version = "2.1.0.0.20260529.31";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260524.91346.tar";
-        sha256 = "1gh4c6axjgsai4p4lhmcn38vcnhm7dvb0ij3c8wpfh8xwv4whwwq";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260529.31.tar";
+        sha256 = "0qkf3mn8w5kj1p6jhc0317jx67sn8mnz2r8sghf1f636c7inhr5q";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -5007,10 +5007,10 @@
     elpaBuild {
       pname = "javaimp";
       ename = "javaimp";
-      version = "0.9.1.0.20260529.13";
+      version = "0.9.1.0.20260529.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/javaimp-0.9.1.0.20260529.13.tar";
-        sha256 = "1p0lhk13y4pw2iv02i9v080x1g1g9q92qlrfl0jkl33gg6fvfj8a";
+        url = "https://elpa.gnu.org/devel/javaimp-0.9.1.0.20260529.15.tar";
+        sha256 = "1ghgsn6yqlfs2ba55ca2yv1qask7dzica2awd4mmc7qj9c4ymksc";
       };
       packageRequires = [ ];
       meta = {
@@ -9799,10 +9799,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.1.4.0.20260429.65108";
+      version = "2.8.1.5.0.20260530.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.8.1.4.0.20260429.65108.tar";
-        sha256 = "0qfkx9fgy1scpm8xdrcs9bvd1xphjn90a6x2bl3l8m75y496fp9f";
+        url = "https://elpa.gnu.org/devel/tramp-2.8.1.5.0.20260530.0.tar";
+        sha256 = "1d4ksg9cw8a9kqbwpa8jafjwb29g5f8640nd5v6chd6a5lv1z9sf";
       };
       packageRequires = [ ];
       meta = {
