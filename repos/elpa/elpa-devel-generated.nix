@@ -1967,10 +1967,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.27.1.0.20260530.3";
+      version = "0.27.1.0.20260530.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.27.1.0.20260530.3.tar";
-        sha256 = "1hpqv7i8ik172qhkyim5mczg4pavkxw3zf6vjvgd011msna8lf6s";
+        url = "https://elpa.gnu.org/devel/dape-0.27.1.0.20260530.4.tar";
+        sha256 = "023268ikyiljfkbm88z12ljy504vd64iayxg39g89v265ri813gm";
       };
       packageRequires = [ jsonrpc ];
       meta = {
