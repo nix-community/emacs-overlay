@@ -291,10 +291,10 @@
     elpaBuild {
       pname = "autothemer";
       ename = "autothemer";
-      version = "0.2.18.0.20251114.41509";
+      version = "0.2.18.0.20260531.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/autothemer-0.2.18.0.20251114.41509.tar";
-        sha256 = "0ix8byl6fa2qpcjvcf93afbsk2f9frnsbq9mcnhxmx17l48fzl06";
+        url = "https://elpa.nongnu.org/nongnu-devel/autothemer-0.2.18.0.20260531.6.tar";
+        sha256 = "0ldl56y2r7ah4d7wx96c4kh9ws4y7l4g0c0747gih4mg7sfbrl46";
       };
       packageRequires = [ dash ];
       meta = {
