@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260531.470";
+      version = "3.4.2.0.20260531.473";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260531.470.tar";
-        sha256 = "12ricjfygqjrd66m69v2ld5sjcj4702ny06b8cmajr64vb34i4ph";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260531.473.tar";
+        sha256 = "0gksjlkzbim557jaw1rsjqfprbyf5pv6g1ynhfqmx6ajsjd9m9a0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4649,10 +4649,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0.20260429.111805";
+      version = "2.10.0.20260601.110";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260429.111805.tar";
-        sha256 = "1qa2ks9bc84bhk1xm4ldhchy1w14c3ri5ks73hwq2c65y3h50akp";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260601.110.tar";
+        sha256 = "022bypcnjhz0pyzmskyrc2n546lyha57k4kppq7k4paqlax2c457";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5355,10 +5355,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.4.2.0.20260505.112624";
+      version = "1.5.0.0.20260531.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.4.2.0.20260505.112624.tar";
-        sha256 = "136b10ylmgxxidjzf08lhw56ikg12rd3wrxn0p54b0f3wqk8id2p";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.0.0.20260531.1.tar";
+        sha256 = "1ix7zbkc7gm0cigzcmdgmf9z7dhls26crzj5ipgjm3r5l1bxk9q2";
       };
       packageRequires = [ ];
       meta = {
@@ -6267,10 +6267,10 @@
     elpaBuild {
       pname = "zenburn-theme";
       ename = "zenburn-theme";
-      version = "2.9.0.0.20260528.17";
+      version = "2.9.0.0.20260601.26";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.9.0.0.20260528.17.tar";
-        sha256 = "150k6dzwz1pjclyyg142aa70gsxfhlgmcwz6dakwbka6w6l2iw0g";
+        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.9.0.0.20260601.26.tar";
+        sha256 = "1an9m0pv2prgnrll12nn517k73pnwrc6kpl3qsixrygdbf035syr";
       };
       packageRequires = [ ];
       meta = {
