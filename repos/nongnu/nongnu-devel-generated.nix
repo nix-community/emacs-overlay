@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260529.469";
+      version = "3.4.2.0.20260531.470";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260529.469.tar";
-        sha256 = "0b7cp4vymff3qf27msfr70v4qvpvrvdiqf2gyvnbrkf8v8nb6j19";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260531.470.tar";
+        sha256 = "12ricjfygqjrd66m69v2ld5sjcj4702ny06b8cmajr64vb34i4ph";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5660,10 +5660,10 @@
     elpaBuild {
       pname = "treepy";
       ename = "treepy";
-      version = "0.1.3.0.20260313.91605";
+      version = "0.1.3.0.20260531.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treepy-0.1.3.0.20260313.91605.tar";
-        sha256 = "0bxp1xf2ckq4pa7bm5sc5i8y1nlyy36zyfavjndc2fihskr7d6pm";
+        url = "https://elpa.nongnu.org/nongnu-devel/treepy-0.1.3.0.20260531.3.tar";
+        sha256 = "0zzz43pdxirljmjn0zwf2rdnd2gm14nk5gzafsshbw9mzys1r2vq";
       };
       packageRequires = [ ];
       meta = {
