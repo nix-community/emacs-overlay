@@ -993,10 +993,10 @@
     elpaBuild {
       pname = "bufferlo";
       ename = "bufferlo";
-      version = "1.2.0.20260518.3057";
+      version = "1.2.0.20260531.20";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bufferlo-1.2.0.20260518.3057.tar";
-        sha256 = "1q4mqn99ifb9vxa3fsl4g5nby6kl2xb5hyy9lkpqkw83zx4lzj8x";
+        url = "https://elpa.gnu.org/devel/bufferlo-1.2.0.20260531.20.tar";
+        sha256 = "04g5c2zar12k9b4jrka13zc8bd67kn4xhjsybhrjdz3fhphj5ivn";
       };
       packageRequires = [ ];
       meta = {
@@ -2413,10 +2413,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20260427.232944";
+      version = "1.10.0.0.20260601.154";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260427.232944.tar";
-        sha256 = "0w8qlakcv2fwn8jmyc8bzgfqlrk2krq478dr46rnjyfsvviy1l4c";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260601.154.tar";
+        sha256 = "0x0rqhzpwr6zqpb8vjrf0fhchhqhv3p61b548brs688qfr1m18ai";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -3269,10 +3269,10 @@
     elpaBuild {
       pname = "embark";
       ename = "embark";
-      version = "1.2.0.20260520.175049";
+      version = "1.2.0.20260531.14";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-1.2.0.20260520.175049.tar";
-        sha256 = "118apcq0zk0hmksg093xfvaz6r6d0zb94m7fga8x3ja0zjqwrysz";
+        url = "https://elpa.gnu.org/devel/embark-1.2.0.20260531.14.tar";
+        sha256 = "1r7a3ip2xcfcd7k1kss050682vj8v6yysaj2271bh2s983nnxkn7";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3293,10 +3293,10 @@
     elpaBuild {
       pname = "embark-consult";
       ename = "embark-consult";
-      version = "1.2.0.20260520.175049";
+      version = "1.2.0.20260531.13";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-consult-1.2.0.20260520.175049.tar";
-        sha256 = "1yl3plqr2a87qz1s0ncs5nqachgdjjhx49gs7amnryxlwasay4v2";
+        url = "https://elpa.gnu.org/devel/embark-consult-1.2.0.20260531.13.tar";
+        sha256 = "1ji52y6g10sgfzwrs1ja99jyci4washic1is6x296dyil58if2h6";
       };
       packageRequires = [
         compat
@@ -4391,10 +4391,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.19.0.0.20260409.233021";
+      version = "0.19.2.0.20260531.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greader-0.19.0.0.20260409.233021.tar";
-        sha256 = "1lq10b8b3nkzf6lx9z1h3cv2537g4ymj5qw6xbclpxzrj07zalg7";
+        url = "https://elpa.gnu.org/devel/greader-0.19.2.0.20260531.0.tar";
+        sha256 = "0p9dkkfiv8wfw5zzvqydr2075mbfv0a6f1115rycbj1idx6kf98l";
       };
       packageRequires = [
         compat
@@ -6711,10 +6711,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260531.248";
+      version = "10.0.20260601.254";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260531.248.tar";
-        sha256 = "0n5knlbiqwzhxzlp2pjfnl1vd423mxia7c17aixd2w1048vzfkvk";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260601.254.tar";
+        sha256 = "1x5h3rha581wygsdmnnc2yxpdxhh0cly29cj8hhn7mdvsqjlcyi7";
       };
       packageRequires = [ ];
       meta = {
