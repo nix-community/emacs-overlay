@@ -5340,10 +5340,10 @@
     elpaBuild {
       pname = "lex";
       ename = "lex";
-      version = "1.2";
+      version = "1.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/lex-1.2.tar";
-        sha256 = "1pqjrlw558l4z4k40jmli8lmcqlzddhkr0mfm38rbycp7ghdr4zx";
+        url = "https://elpa.gnu.org/packages/lex-1.3.tar";
+        sha256 = "162y483d1gczjfcbds50y7iqbxmx7sfxi5mbdxyrhc2my6nq40lx";
       };
       packageRequires = [ ];
       meta = {

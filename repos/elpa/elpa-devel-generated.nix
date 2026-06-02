@@ -5427,10 +5427,10 @@
     elpaBuild {
       pname = "lex";
       ename = "lex";
-      version = "1.2.0.20240216.82808";
+      version = "1.3.0.20260601.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/lex-1.2.0.20240216.82808.tar";
-        sha256 = "0mh2jk838216mwv6bab28mq9nb5617c5y7s0yqynkz3vkarnnxx1";
+        url = "https://elpa.gnu.org/devel/lex-1.3.0.20260601.0.tar";
+        sha256 = "1c79jqc7292qhs542nfgqg7va20k02sldb3n75vjsbhp13q05d6w";
       };
       packageRequires = [ ];
       meta = {
@@ -6711,10 +6711,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260601.259";
+      version = "10.0.20260601.263";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260601.259.tar";
-        sha256 = "076phcpp32apfna5lam3zqs34d4l32vyqfmf4fiwhxmij19ls9ki";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260601.263.tar";
+        sha256 = "1cqbiwq79sm8a4m0qqmag3amia4fdjnn705w48wj3p5wk770wcxb";
       };
       packageRequires = [ ];
       meta = {
