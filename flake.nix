@@ -66,7 +66,7 @@
 
               filterNonDrvAttrs = s: lib.mapAttrs (_: v: if (lib.isDerivation v) then v else filterNonDrvAttrs v) (lib.filterAttrs (_: v: lib.isDerivation v || (builtins.typeOf v == "set" && ! builtins.hasAttr "__functor" v)) s);
 
-              mkEmacsSet = emacs: filterNonDrvAttrs (pkgs.recurseIntoAttrs (pkgs.emacsPackagesFor emacs));
+              mkEmacsSet = emacs: filterNonDrvAttrs (lib.recurseIntoAttrs (pkgs.emacsPackagesFor emacs));
 
             in
             {
