@@ -1884,10 +1884,10 @@
   "unstable": {
    "version": [
     20260601,
-    1738
+    1950
    ],
-   "commit": "3eecec5d648d5761e41fbf3b1eba77b885a660fa",
-   "sha256": "0wdds5rig52hy0hfhc544asx8498fvcg94qgbb7sc2i0whbpjknh"
+   "commit": "b60321d7330d4fc7b0390f3c6227252100c5d0d9",
+   "sha256": "06vzlad8b1glr3wnmh9w1ach6ppr4rma5n9lslf2spq4f5aq9jw1"
   },
   "stable": {
    "version": [
@@ -2171,14 +2171,14 @@
   "unstable": {
    "version": [
     20260601,
-    1630
+    1941
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "e01e5773e12aabb9076b027e2ff7aba64e573d5b",
-   "sha256": "0jb108gpacwz4k77jl6d7r86dckfazrhw51ibkcgz8n6baczxmrc"
+   "commit": "d6605ef85af545003c1c2f819578831518867086",
+   "sha256": "1kxxqk8dl9gj5asy9s8qscqky7fd32dnqyk213mhbfkdm1hfwnzl"
   },
   "stable": {
    "version": [
@@ -2748,14 +2748,14 @@
   "repo": "cpitclaudel/alectryon",
   "unstable": {
    "version": [
-    20260406,
-    2342
+    20260525,
+    2000
    ],
    "deps": [
     "flycheck"
    ],
-   "commit": "86bac4eae28c2d6f27859a4ca8821a374e8b1c4f",
-   "sha256": "1gfsrr9w2xj0synd9i0xzrrva7k6ngdf53j4aidh66wg75iihws1"
+   "commit": "bf99e72c54579460769984ba668e46c235ad18d8",
+   "sha256": "0nnzxhp3y98ay9sykig8v5fh468ysdn98dka3mb3wj4l3kwwf7qj"
   },
   "stable": {
    "version": [
@@ -4176,11 +4176,11 @@
   "repo": "radian-software/apheleia",
   "unstable": {
    "version": [
-    20260529,
-    2249
+    20260601,
+    2229
    ],
-   "commit": "70a638ff286549e1fbad45719ab6582159fa2c36",
-   "sha256": "1yn8b686qhxasx8xsp04i4aa2saxnqc75nd4pqf6fq2gnzm1s81n"
+   "commit": "68e23b34336dac48c15ca6dae2eeb7b1f1f56571",
+   "sha256": "09ir1ansrnv30hbi22wjlxrqlkv614l91jbz2ixd29aab0mlfcc4"
   },
   "stable": {
    "version": [
@@ -32074,11 +32074,11 @@
   "repo": "dimitri/el-get",
   "unstable": {
    "version": [
-    20260530,
-    1521
+    20260602,
+    241
    ],
-   "commit": "dfc31d6fa215d40f2eed4a693974a5875065c0d1",
-   "sha256": "1rmc2jzb1xz9jqa9zy78zvmr1ys9g2i1lgjnr7sgczzyrlaimgb4"
+   "commit": "eeb48603d0d287f1b78ed3bde53ee7b07acde7ee",
+   "sha256": "0szznjnglh4iy84ilzp58khk51n67gimhm9lhimrd2qfy91raq0s"
   },
   "stable": {
    "version": [
@@ -33054,14 +33054,14 @@
   "repo": "emacs-elfeed/elfeed",
   "unstable": {
    "version": [
-    20260531,
-    2221
+    20260602,
+    130
    ],
    "deps": [
     "compat"
    ],
-   "commit": "43d9060408c51fb191e78389d39b8c8b377cf221",
-   "sha256": "0nprrv0g4kk36iiks75dp5vlvymn4zr83a3jr0wa5wlrf5vl8xdy"
+   "commit": "ed427d31ff015d4f60e00c716141b1023aa9fe24",
+   "sha256": "003ldbsg7x6j8abjf379507igi593zm0kjb0y2r0nc3r2g843q11"
   },
   "stable": {
    "version": [
@@ -38779,16 +38779,16 @@
   "repo": "emacs-evil/evil",
   "unstable": {
    "version": [
-    20251108,
-    138
+    20260601,
+    1932
    ],
    "deps": [
     "cl-lib",
     "goto-chg",
     "nadvice"
    ],
-   "commit": "729d9a58b387704011a115c9200614e32da3cefc",
-   "sha256": "0scdws40fg4k9lqyznjghnn8svn7l0c6mq7h2aq5pzkm6hanzqn3"
+   "commit": "457db14f04dd562c36e5704d5ede5c5813224a84",
+   "sha256": "1ljwknk4a6ilbry7c2jxdkgqpq24rarwvgxcr5ns1vm0k67h914z"
   },
   "stable": {
    "version": [
@@ -73314,19 +73314,19 @@
   "unstable": {
    "version": [
     20260601,
-    1610
+    2144
    ],
-   "commit": "7e175bd5f7e9a54c72900a33d1bbba9433ad214a",
-   "sha256": "0dw055nsdxfffnz5cgdpwh29151hm3cfar0gfsxq4mnxh1f0v0vi"
+   "commit": "211ffb8ae799fa39884f537642fd2e6dee1f2dbb",
+   "sha256": "1xl6v60msc6bvgij3hsm31bqhq8ikixwgsp8cdqnysbfhrm98g1c"
   },
   "stable": {
    "version": [
     1,
     1,
-    0
+    2
    ],
-   "commit": "7e175bd5f7e9a54c72900a33d1bbba9433ad214a",
-   "sha256": "0dw055nsdxfffnz5cgdpwh29151hm3cfar0gfsxq4mnxh1f0v0vi"
+   "commit": "211ffb8ae799fa39884f537642fd2e6dee1f2dbb",
+   "sha256": "1xl6v60msc6bvgij3hsm31bqhq8ikixwgsp8cdqnysbfhrm98g1c"
   }
  },
  {
@@ -129578,11 +129578,19 @@
   "repo": "ctanas/tiles",
   "unstable": {
    "version": [
-    20260412,
-    1929
+    20260601,
+    2022
    ],
-   "commit": "149a5015b3d2a2ebdd15660cab9c736549af7532",
-   "sha256": "19fmzw46vyfz6kz4ksmm5w4c6vmkyjacsqznbf0d8d9qsmy1nyf8"
+   "commit": "15fa6fa0f2b44b0db0110862b609a42aabb8bb40",
+   "sha256": "1xjzbwddwlaf0dwf3ql4ljwr8sg3anrpgnlsz6zfi2bnhggl4v8z"
+  },
+  "stable": {
+   "version": [
+    0,
+    5
+   ],
+   "commit": "15fa6fa0f2b44b0db0110862b609a42aabb8bb40",
+   "sha256": "1xjzbwddwlaf0dwf3ql4ljwr8sg3anrpgnlsz6zfi2bnhggl4v8z"
   }
  },
  {
@@ -141570,15 +141578,19 @@
   "url": "https://git.thanosapollo.org/yeetube",
   "unstable": {
    "version": [
-    20260505,
-    615
+    20260601,
+    1621
    ],
    "deps": [
     "compat",
     "keymap-popup"
    ],
-   "commit": "43ea4cb4898e7b3dd72571f0d89953a4fe3db0ec",
-   "sha256": "10pr7wc6p81zs5vzgb9nzydfcna2w6bwfajsc0jc03z1kzvnl5p6"
+   "commit": "f27234fa0214801b54eb35f6ad2e910b07d80811",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3045-2193474488/nix-shell-3258-298460416/nix-shell-3299-3109937537/git-checkout-tmp-3UUQZnYw/clone/.git/\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nUnable to checkout f27234fa0214801b54eb35f6ad2e910b07d80811 from https://git.thanosapollo.org/yeetube.\n"
+   ]
   },
   "stable": {
    "version": [
@@ -141967,10 +141979,10 @@
   "unstable": {
    "version": [
     20260601,
-    548
+    1829
    ],
-   "commit": "6453e5318ceceb70ce6dc1ea61009e864c937aca",
-   "sha256": "081g07krpsgzqk5xrsjby32frybim4yr9xnfffqzn30d4ch7d0zs"
+   "commit": "8697934a57151de119744ea79fde83120e05b88d",
+   "sha256": "0g54j3n2khc470i80diqqdxds0xiysvwdjss3jmgdf73argslj1q"
   },
   "stable": {
    "version": [
