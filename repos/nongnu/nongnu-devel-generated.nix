@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.8.0.0.20260601.27";
+      version = "0.8.0.0.20260602.35";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.8.0.0.20260601.27.tar";
-        sha256 = "0095f88hf6z44mp7k8hgpyzl6wzlsfa9w0fwd8v2fpm9764qr9b3";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.8.0.0.20260602.35.tar";
+        sha256 = "0xsqp008b7xpjkzh97122ygmx1gr7mamxa4ycps5qqsqqimb0dml";
       };
       packageRequires = [ ];
       meta = {
@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0.20260529.146";
+      version = "1.22.0.20260602.150";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0.20260529.146.tar";
-        sha256 = "0pww5n9jz64x0yvdzazzv1fax1mvivwjhg6p6i102nawxai2nhrd";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0.20260602.150.tar";
+        sha256 = "1r6mn64p9m06pd1bc2nzpxb3anxixh325zsz9i44p38ap1hc9ab6";
       };
       packageRequires = [
         clojure-mode
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260531.473";
+      version = "3.4.2.0.20260602.478";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260531.473.tar";
-        sha256 = "0gksjlkzbim557jaw1rsjqfprbyf5pv6g1ynhfqmx6ajsjd9m9a0";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260602.478.tar";
+        sha256 = "0g97aqyizh4b5avkj0lfhvfjgpyxnrj6jmdfs7x5w7qhqcq0gpv0";
       };
       packageRequires = [ compat ];
       meta = {
