@@ -1883,20 +1883,20 @@
   "repo": "bbatsov/adoc-mode",
   "unstable": {
    "version": [
-    20260601,
-    1950
+    20260602,
+    700
    ],
-   "commit": "b60321d7330d4fc7b0390f3c6227252100c5d0d9",
-   "sha256": "06vzlad8b1glr3wnmh9w1ach6ppr4rma5n9lslf2spq4f5aq9jw1"
+   "commit": "24523d5da6de9dc7641b5987129d3b34798cefa5",
+   "sha256": "092n2r4z02sb17lswm8605wklp4whv01hvsz7zfp4zygc0c3s5bx"
   },
   "stable": {
    "version": [
     0,
-    8,
+    9,
     0
    ],
-   "commit": "6fc5ebc9478de17b1971222485e7729f04fbcf57",
-   "sha256": "0hjhjg9kdx849qbdhzryfv8c21h2xq02991hixykmxf1b2xv1y69"
+   "commit": "ba362d87d5970fa2c3287d46950063b2b686179c",
+   "sha256": "1d0r3nffpxzvshg72xp951fk4g8dyy7ynp6xvz65fbnsnw1sm7g7"
   }
  },
  {
@@ -2170,15 +2170,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260601,
-    1941
+    20260602,
+    427
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "d6605ef85af545003c1c2f819578831518867086",
-   "sha256": "1kxxqk8dl9gj5asy9s8qscqky7fd32dnqyk213mhbfkdm1hfwnzl"
+   "commit": "5e22461763c96f84c7f4cbdb4fa9ca35de02d5e8",
+   "sha256": "1mpqvvwl2ry2wg5r16pg2ccjcn6kg7n4d2lpn7v7q6m9ph6n1axw"
   },
   "stable": {
    "version": [
@@ -2371,15 +2371,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260601,
-    431
+    20260602,
+    356
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "1a2220c58982470164791aa172cd57c5528af94b",
-   "sha256": "1zvknj8nwiz2xb7xwr2bda3gl6rf8v5sa38yn5k39fpfyczm69v8"
+   "commit": "5adf0a9b2e7b7342ca9d5c26601e8ccac31f582f",
+   "sha256": "0isnc0c5a08g1vry11jxmksy3jl2afcvccdysj5sjhc4pkrb94bc"
   },
   "stable": {
    "version": [
@@ -4704,11 +4704,11 @@
   "stable": {
    "version": [
     0,
-    1,
+    2,
     0
    ],
-   "commit": "4b5e89bedc0453e63147e08cdd759cbf2e31be26",
-   "sha256": "0gn8lcx2j6yrgh0wggnb6hjs5x1hwhvbc6g2f7vk42hsgz5skng4"
+   "commit": "ca31b5219101d004eb316413bc4c3f613766f4a3",
+   "sha256": "0d1pyys9czdq0db2nnin59yykaqdl0283xh7m3ypjzkixcgzxxws"
   }
  },
  {
@@ -13764,8 +13764,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20260529,
-    924
+    20260602,
+    530
    ],
    "deps": [
     "clojure-mode",
@@ -13777,8 +13777,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "f9bb74c90766f8c30b16278f3412c64c0d65a667",
-   "sha256": "04x52nll4af3hqq9qr0c5mx9hcbh9x8mcllr0pbh8lwhhnmyawli"
+   "commit": "76ec8f119f91e0667fd1078956fa86a89dea08cc",
+   "sha256": "0j3f9wavdcrx76bsmncffflh30syi6lw4x4i3far9lzbckbpk9ba"
   },
   "stable": {
    "version": [
@@ -15551,16 +15551,16 @@
   "repo": "LuciusChen/clutch",
   "unstable": {
    "version": [
-    20260601,
-    1421
+    20260602,
+    602
    ],
    "deps": [
     "mysql",
     "pg",
     "transient"
    ],
-   "commit": "e5c2ebee68985a30c5eec2a0b623f2cc687920c6",
-   "sha256": "07d46q1kncq2azllpxpv2vvv3hgsmn8jd5kmqp574nbbv5apg1xa"
+   "commit": "59796c0cb42a2d73d3b8619679f96bc867334043",
+   "sha256": "08v97g0j90znz5pr2zdy7hbmd61d7gnxjs5nwb861bj12whcxd2v"
   }
  },
  {
@@ -33654,14 +33654,14 @@
   "repo": "laurynas-biveinis/elisp-dev-mcp",
   "unstable": {
    "version": [
-    20260601,
-    634
+    20260602,
+    712
    ],
    "deps": [
     "mcp-server-lib"
    ],
-   "commit": "c399ad6126d0b90cb4f732a91cd59d682a657273",
-   "sha256": "16ddmz0qqhnwavw01kg5c8xlzzd803kn2ai1glyrkjirigx35q18"
+   "commit": "b387face5faf3ec6d632da12eb17c5ac0bbd7178",
+   "sha256": "1bb2c851bhs65czsqjx7p33mmjhv1pb2nha20s02aryby3mlvdv5"
   },
   "stable": {
    "version": [
@@ -41907,11 +41907,11 @@
   "repo": "mscfd/emacs-f90-ts-mode",
   "unstable": {
    "version": [
-    20260601,
-    1213
+    20260602,
+    833
    ],
-   "commit": "b8e8f7841a2f0a3abfef510d3a78b5214ae8f296",
-   "sha256": "0dmrhamhkfkjmkzdkslln7l6vh0s2gd2pygddfcwff4w1f2xax28"
+   "commit": "09bc206ae4584616025bc9f8bdd0b81b9c889daa",
+   "sha256": "0iywh5aywm14brr9klslyxnn72svdp9vrav7nag8p09ckvgkr0xa"
   },
   "stable": {
    "version": [
@@ -78454,8 +78454,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20260531,
-    619
+    20260602,
+    547
    ],
    "deps": [
     "dash",
@@ -78466,8 +78466,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "f83b4c48372535b49922e06d310c5f8ee65932cd",
-   "sha256": "0xlwikjnfb1m07h80q1ghfk2wjj80f5m9hf8dmh801aaxynp4lfd"
+   "commit": "fbd7d03ce1353b3071d767a21b23b49cb5f6c7c6",
+   "sha256": "16lv5jniz2iiiz6qfyydhvygw2j63kb56742jhb01lw1bfqbjdnz"
   },
   "stable": {
    "version": [
@@ -96079,14 +96079,14 @@
   "repo": "laurynas-biveinis/org-mcp",
   "unstable": {
    "version": [
-    20260601,
-    1603
+    20260602,
+    822
    ],
    "deps": [
     "mcp-server-lib"
    ],
-   "commit": "035b913a84de427595c86506f6776b17eac223a0",
-   "sha256": "1c8v968jznvbrbzsniy4w0463jsaldhig7ghs2vywjvj52jz41p0"
+   "commit": "559bd877c08d9d127f1bf75ea164f77827dad3d4",
+   "sha256": "0x88b8vr39g0p8b2czd941jdl08gbh7fk1pqa01n9q20wnx3mdna"
   },
   "stable": {
    "version": [
@@ -129578,11 +129578,11 @@
   "repo": "ctanas/tiles",
   "unstable": {
    "version": [
-    20260601,
-    2022
+    20260602,
+    1050
    ],
-   "commit": "15fa6fa0f2b44b0db0110862b609a42aabb8bb40",
-   "sha256": "1xjzbwddwlaf0dwf3ql4ljwr8sg3anrpgnlsz6zfi2bnhggl4v8z"
+   "commit": "c3a8de0a375f3050ebca2870cc2befde324a4f9f",
+   "sha256": "1dagxalwmzykd2wcarfyr1d0j0pkb5f3pbv8m9cfk1yr3zjgal7i"
   },
   "stable": {
    "version": [
@@ -140156,14 +140156,14 @@
   "repo": "jobbflykt/x509-mode",
   "unstable": {
    "version": [
-    20260410,
-    723
+    20260602,
+    643
    ],
    "deps": [
     "compat"
    ],
-   "commit": "c5dc5a97469166b5a4e835b878ca3c0ed2df055a",
-   "sha256": "03k3lk2viplhivq01j5f088b6kv9dc5iz2zf6i0mlba45jm8vp5f"
+   "commit": "3d1a4b3973212b26774b43f7450ff320bec54afe",
+   "sha256": "1l349q7hdixp2gy8rzqk5n568zkry07ssb9q1drgi5jvcsjn2c6r"
   }
  },
  {
@@ -141589,7 +141589,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3045-2193474488/nix-shell-3258-298460416/nix-shell-3299-3109937537/git-checkout-tmp-3UUQZnYw/clone/.git/\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nUnable to checkout f27234fa0214801b54eb35f6ad2e910b07d80811 from https://git.thanosapollo.org/yeetube.\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3055-3205275165/nix-shell-3263-872786310/nix-shell-3304-1215567286/git-checkout-tmp-l9ek1sW6/clone/.git/\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://git.thanosapollo.org/yeetube/': The requested URL returned error: 504\nUnable to checkout f27234fa0214801b54eb35f6ad2e910b07d80811 from https://git.thanosapollo.org/yeetube.\n"
    ]
   },
   "stable": {
