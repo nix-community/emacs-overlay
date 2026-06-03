@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "a68-mode";
       ename = "a68-mode";
-      version = "1.2.0.20260129.20653";
+      version = "1.2.0.20260602.36";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/a68-mode-1.2.0.20260129.20653.tar";
-        sha256 = "03b4608ij5jiijasy41vndwcnzl92gwc0frh2pxs6112p7xk2sf0";
+        url = "https://elpa.gnu.org/devel/a68-mode-1.2.0.20260602.36.tar";
+        sha256 = "15xwaihl5p59n1y904rddbxi3pzsn0d037ixn7draxcadvdw8wb1";
       };
       packageRequires = [ ];
       meta = {
@@ -1967,10 +1967,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.27.1.0.20260530.4";
+      version = "0.27.1.0.20260602.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.27.1.0.20260530.4.tar";
-        sha256 = "023268ikyiljfkbm88z12ljy504vd64iayxg39g89v265ri813gm";
+        url = "https://elpa.gnu.org/devel/dape-0.27.1.0.20260602.5.tar";
+        sha256 = "0vy4b8p9wys1rj7rra87p9yld9d8szlg0y77ls1hnq2lqnsxvyqd";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -6711,10 +6711,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260602.266";
+      version = "10.0.20260603.270";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260602.266.tar";
-        sha256 = "0ck8bs3q8r6zn9n082mw0qil1g2wlc3d0332ardir345p0bm29wk";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260603.270.tar";
+        sha256 = "178czr1fkcbsdv146damlq6jmravxxbr8wvprxflpj0p262l1qrj";
       };
       packageRequires = [ ];
       meta = {
