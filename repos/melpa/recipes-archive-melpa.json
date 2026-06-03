@@ -1883,11 +1883,11 @@
   "repo": "bbatsov/adoc-mode",
   "unstable": {
    "version": [
-    20260602,
-    1530
+    20260603,
+    721
    ],
-   "commit": "1083ba1c2e4c72de0eb968dd4c630f4eb3bb9664",
-   "sha256": "0ir8s8vdmz8mzharfjf8jznpbyl6zqfwfykmphn32rzbr4lqqkkg"
+   "commit": "da99827ff7d5ac93a89ed7b1e993349729c17131",
+   "sha256": "1dijqg0zjinrqg2mgia6hsmhqg52ysc7i42hnxrkh4w320xhmsyz"
   },
   "stable": {
    "version": [
@@ -2170,15 +2170,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260602,
-    2318
+    20260603,
+    1005
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "877c98a622cdc9ddc33817096915ebcbf908accb",
-   "sha256": "0ysgz5nks9dzz8mrjlq8c1kv69rayhsjwadf7w2xcp23f367ymy8"
+   "commit": "b3066ae63b78f39bbbc053f61accd7fbfb5c52cc",
+   "sha256": "194l4zrrz2xx0cbqijg66f0m1xkfiqx9psqfmm3zxrjxkidmjw6w"
   },
   "stable": {
    "version": [
@@ -4695,20 +4695,20 @@
   "repo": "bbatsov/asciidoc-mode",
   "unstable": {
    "version": [
-    20260602,
-    1710
+    20260603,
+    1135
    ],
-   "commit": "fa74252e4fc3a74ddcd74fde3d1fd84e6c53e031",
-   "sha256": "10y0s20p184xvm9iydvmgm7hcgpwiw7rd3hx64qbmnw9dk1k85g9"
+   "commit": "221741c584adbb9a5710ee0df73ea644687e6e15",
+   "sha256": "0ikmmn9h93mkz21vivd24qd96gfifl2n6jqnyw9fx1zwf9vczmia"
   },
   "stable": {
    "version": [
     0,
-    2,
+    3,
     0
    ],
-   "commit": "ca31b5219101d004eb316413bc4c3f613766f4a3",
-   "sha256": "0d1pyys9czdq0db2nnin59yykaqdl0283xh7m3ypjzkixcgzxxws"
+   "commit": "761822f027e074e5ce29a8e312ef8cce299cff33",
+   "sha256": "11x3ha4rkvzxm743cykrdpxsxfr7gd4yxil1c9pa54ap2q8brq2s"
   }
  },
  {
@@ -38779,16 +38779,16 @@
   "repo": "emacs-evil/evil",
   "unstable": {
    "version": [
-    20260602,
-    1622
+    20260603,
+    654
    ],
    "deps": [
     "cl-lib",
     "goto-chg",
     "nadvice"
    ],
-   "commit": "30c88945002b2a734ebb778054b19b2e58995723",
-   "sha256": "1ljwknk4a6ilbry7c2jxdkgqpq24rarwvgxcr5ns1vm0k67h914z"
+   "commit": "3b678a221ee99cc6a95b01d7a3129ce5efc4c3da",
+   "sha256": "18hqjh4vz2pq40bvnrmshg1w5msq1b17l20vv5j6a76a2a7iqy8x"
   },
   "stable": {
    "version": [
@@ -51820,14 +51820,14 @@
   "repo": "dakra/ghostel",
   "unstable": {
    "version": [
-    20260602,
-    2007
+    20260603,
+    724
    ],
    "deps": [
     "compat"
    ],
-   "commit": "4443fc95fdb8b20d6413c0a7cf78a3de74617043",
-   "sha256": "032fajlwcix95mbb4mxcd4gxz385z2354vdxy1n7psk9ljz059jp"
+   "commit": "864ee4e327ba9a3e8206f6bde59c28b7248d9104",
+   "sha256": "148vjvqniv4g0b3lcfygry8261mvqkllnvwnzijxxsha5bvxh9vv"
   },
   "stable": {
    "version": [
@@ -67302,11 +67302,11 @@
   "repo": "jamescherti/inhibit-mouse.el",
   "unstable": {
    "version": [
-    20260601,
-    1714
+    20260603,
+    1158
    ],
-   "commit": "0cf06ed22cd416f89e641cdc35ff4b8ad805f216",
-   "sha256": "069dajr7jbh46l5xa33069q799nh7fm4l7g2z01r1h0d2hk3ij8d"
+   "commit": "86cae75bbb771ea6be6269b925c39761be12b065",
+   "sha256": "1046g96qvvsz66qnhnk6x1d4a535cgk7qbhx6bqhr44vwzg0h1h8"
   },
   "stable": {
    "version": [
@@ -76650,14 +76650,14 @@
   "repo": "zzkt/metabrainz",
   "unstable": {
    "version": [
-    20230530,
-    741
+    20260603,
+    1009
    ],
    "deps": [
     "request"
    ],
-   "commit": "2386189ec8a19a74d7b8a46e08a9fa6d974a6305",
-   "sha256": "0lkqgjzp5lwjv1j6jjal4nsps3cxdg1nc2rr83v5a3gylsy0x69w"
+   "commit": "abd37d9f1c25a021b32eac54e6deff6080a66bca",
+   "sha256": "1kri05wx2r88pbh7pvwkcz4csi8g5qn1bjb31nbda6vs39db8l6m"
   }
  },
  {
@@ -79541,8 +79541,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20260602,
-    708
+    20260603,
+    754
    ],
    "deps": [
     "compat",
@@ -79553,8 +79553,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "9db2055689bc078afd654af40a252de7e548d03e",
-   "sha256": "0rg399hirlajz7fd45d84rhdkkkr61qxvfadsyq2zqwra1mz80q1"
+   "commit": "d13e518b0bd97eb9e59aa7b0fa6401996ac893ef",
+   "sha256": "14rb3kab7v13gdpbyl6fwnn7948nxzs86brkh31j3mwq3jcdns2j"
   },
   "stable": {
    "version": [
@@ -136942,11 +136942,11 @@
   "repo": "d12frosted/vui.el",
   "unstable": {
    "version": [
-    20260130,
-    2113
+    20260603,
+    1010
    ],
-   "commit": "7d904ddff91325d756ad7ffd4dfb0db855f3a120",
-   "sha256": "03p61v8ra4fy83amhgmzidhlh66vwpgcclw8h2wlwzsxg4sf3lr5"
+   "commit": "417729eeb09165123d28ea6b56091db7a07cd62e",
+   "sha256": "1m6izvixwjy5pns2jsipfnsj0yh0skavq5bp5d3i377q04b39996"
   },
   "stable": {
    "version": [
