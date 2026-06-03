@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.8.0.0.20260602.35";
+      version = "0.9.0.0.20260602.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.8.0.0.20260602.35.tar";
-        sha256 = "0xsqp008b7xpjkzh97122ygmx1gr7mamxa4ycps5qqsqqimb0dml";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20260602.3.tar";
+        sha256 = "16d9kincllh84s8amifars8gwc9py5lrqsryyy2skb0hawh1bf7j";
       };
       packageRequires = [ ];
       meta = {
@@ -1486,10 +1486,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20260601.293";
+      version = "1.15.0.0.20260602.295";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20260601.293.tar";
-        sha256 = "1k9cy88l37rxiy12fnr8fbx0m323g1904nyx7yphxljrxr1y3shr";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20260602.295.tar";
+        sha256 = "11c8c3l7896yw9qq2b4wmhd4i9ikgb9fihzgz62qr5fir7j34xxv";
       };
       packageRequires = [
         cl-lib
