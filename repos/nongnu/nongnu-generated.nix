@@ -1945,6 +1945,27 @@
       };
     }
   ) { };
+  flamegraph = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "flamegraph";
+      ename = "flamegraph";
+      version = "0.2";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/flamegraph-0.2.tar";
+        sha256 = "0zlji7iq7zrxix4mzw6z25rqgrmlnxnrc7skflkj0nv90z5w3fsh";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/flamegraph.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   flx = callPackage (
     {
       cl-lib ? null,

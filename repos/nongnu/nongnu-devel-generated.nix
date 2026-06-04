@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.9.0.0.20260603.6";
+      version = "0.9.0.0.20260604.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20260603.6.tar";
-        sha256 = "1bg3g0j7qpcnw8jqyj9qn4q02whcyp0vis6xng9mrdw5rbz5v6ya";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20260604.7.tar";
+        sha256 = "1k8c8g1382abq6jb6nv12nx94js4sbmzlblq7g7iys5zvq6nq608";
       };
       packageRequires = [ ];
       meta = {
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260603.480";
+      version = "3.4.2.0.20260604.487";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260603.480.tar";
-        sha256 = "0hwxbfx8p4556ah3ka5l6mn8f1kx1j21447j672191c7glhjxk02";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260604.487.tar";
+        sha256 = "1xbbss7qsrmrkgyv1w5j82paiy89w4nnqkfvmhv9wxl8qdjdbj9s";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1967,10 +1967,10 @@
     elpaBuild {
       pname = "flamegraph";
       ename = "flamegraph";
-      version = "0.1.0.20260603.69";
+      version = "0.2.0.20260603.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flamegraph-0.1.0.20260603.69.tar";
-        sha256 = "0iq052bbrhlfgzz4vyw7r17pad5lk5787qd6vbkpk7zdksg44hkf";
+        url = "https://elpa.nongnu.org/nongnu-devel/flamegraph-0.2.0.20260603.0.tar";
+        sha256 = "0036rmlaz95g4xy6zf0jr9g1xabhlcrmz49cdqqyfgaifxg9albg";
       };
       packageRequires = [ ];
       meta = {
