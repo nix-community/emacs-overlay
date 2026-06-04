@@ -950,10 +950,10 @@
     elpaBuild {
       pname = "buffer-env";
       ename = "buffer-env";
-      version = "0.6.0.20260520.141943";
+      version = "0.6.0.20260604.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/buffer-env-0.6.0.20260520.141943.tar";
-        sha256 = "1vvcl8pgc6y48k5c1b2rr04qiw5rf07gfhs5915ib05w286w5mm7";
+        url = "https://elpa.gnu.org/devel/buffer-env-0.6.0.20260604.5.tar";
+        sha256 = "0w0lbfqn3mn628w2mhcfgmsrzzl3915vsry84g64gfb1ga7r4ld3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260528.101";
+      version = "1.0.2.0.20260604.136";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260528.101.tar";
-        sha256 = "1yq0awivx1idfccw35j0g8jslh9j7s8vxqbfsscp93w5g8z83cpb";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260604.136.tar";
+        sha256 = "0d85zlxdb65ih6shqpcj7h14anmyd80m2k1phwrikw85ayasacc0";
       };
       packageRequires = [ posframe ];
       meta = {
