@@ -2037,10 +2037,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "36.0.0.20260601.56";
+      version = "36.0.0.20260604.57";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-36.0.0.20260601.56.tar";
-        sha256 = "17cax3ddfa97kwjdm12bh92ppn4y4gi17r6qf85ryn8n05i43w16";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-36.0.0.20260604.57.tar";
+        sha256 = "1rkpzjy998x346sc7ka2nvhavlam0d9klpgccsandacywdps1imq";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2715,10 +2715,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260530.28";
+      version = "0.9.9.5.0.20260604.30";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260530.28.tar";
-        sha256 = "1jwi2fw3hiy7kdsxddvbry9gz4x8p67q2wjzp127ig12q5dqbc07";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260604.30.tar";
+        sha256 = "0iykw3iiz37bb1k1z73d4ajvyj82b67hilp238pgkgwd9rdvbj6a";
       };
       packageRequires = [
         compat
