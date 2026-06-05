@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.9.0.0.20260604.7";
+      version = "0.9.0.0.20260604.14";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20260604.7.tar";
-        sha256 = "1k8c8g1382abq6jb6nv12nx94js4sbmzlblq7g7iys5zvq6nq608";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20260604.14.tar";
+        sha256 = "19k4zd6swnyl2imiyx0a2qkqh4bi3wwlai7w4smafrq63c9lbm58";
       };
       packageRequires = [ ];
       meta = {
@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0.20260602.150";
+      version = "1.22.0.20260604.152";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0.20260602.150.tar";
-        sha256 = "1r6mn64p9m06pd1bc2nzpxb3anxixh325zsz9i44p38ap1hc9ab6";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0.20260604.152.tar";
+        sha256 = "151xs78mba8w98klmf3df6aqv5dvhmhmnb2df52s5a80mv8lr1ff";
       };
       packageRequires = [
         clojure-mode
@@ -1967,10 +1967,10 @@
     elpaBuild {
       pname = "flamegraph";
       ename = "flamegraph";
-      version = "0.2.0.20260603.0";
+      version = "0.2.0.20260604.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flamegraph-0.2.0.20260603.0.tar";
-        sha256 = "0036rmlaz95g4xy6zf0jr9g1xabhlcrmz49cdqqyfgaifxg9albg";
+        url = "https://elpa.nongnu.org/nongnu-devel/flamegraph-0.2.0.20260604.1.tar";
+        sha256 = "16zl8hbywyaz4f26pmrxl3mq6m1z0dw62ynk62ynpfwzwmcf87kh";
       };
       packageRequires = [ ];
       meta = {
@@ -3327,10 +3327,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.10.0.20260530.0";
+      version = "0.10.10.0.20260604.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.10.0.20260530.0.tar";
-        sha256 = "0n39w9vi9akw1w1llyd620n26h5dfrjgn7kjvlk876mkp0q61pai";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.10.0.20260604.3.tar";
+        sha256 = "03r998jhf1wr39sh9020fb4zrjkp8nzp4nsfyn3427mn1z7i6ssx";
       };
       packageRequires = [
         fsm
@@ -3689,10 +3689,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260603.266";
+      version = "4.5.0.0.20260604.271";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260603.266.tar";
-        sha256 = "1zl2hxqq54fl2q6bm2dmavg287fplhp5vv804l6xc2hg2q9k681m";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260604.271.tar";
+        sha256 = "0iv96q0ll8hxr9fr4rp8qkhdfp9b6x1i0vrrfdjq6q5d1fvz21ya";
       };
       packageRequires = [
         compat
@@ -3722,10 +3722,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260603.266";
+      version = "4.5.0.0.20260604.271";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260603.266.tar";
-        sha256 = "0cmc3kpgi986397idypbvw61wb1w3zz9h35fy6zh4sh05m0n006c";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260604.271.tar";
+        sha256 = "1xv4nb0kiw3p2x0svrxkfpmsj4r84inl4mcdr5kgda9w8fhlxcnf";
       };
       packageRequires = [
         compat
@@ -4670,10 +4670,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0.20260601.110";
+      version = "2.10.0.20260604.112";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260601.110.tar";
-        sha256 = "022bypcnjhz0pyzmskyrc2n546lyha57k4kppq7k4paqlax2c457";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260604.112.tar";
+        sha256 = "0z9ifl9rf9ifhccniys96gp4fr8grjnamdq1j1aj5l6x2ipa8qr9";
       };
       packageRequires = [ compat ];
       meta = {
