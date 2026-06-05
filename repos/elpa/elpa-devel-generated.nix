@@ -2976,10 +2976,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.1.0.0.20260531.32";
+      version = "2.1.0.0.20260604.37";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260531.32.tar";
-        sha256 = "02brj1ajr38m8xfwwxxqhh3923jmxrrmmskx3fbpqkk2g4rxy01h";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260604.37.tar";
+        sha256 = "0ziqp6rhkgk7dmn2yq6g4nahdp01j6j6888mw84bzh9wpn649xl9";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -4653,10 +4653,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.20.20260601.1125";
+      version = "9.0.20.20260604.1128";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260601.1125.tar";
-        sha256 = "0sab25wwksk47ax1kha0z6mglsrd1dynp4qwqlghqihsc8m86xss";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260604.1128.tar";
+        sha256 = "1hzk0ffxicsjzaz64h5mk111rjdrqdr9fl7ikbbzyfc0jj2z26l4";
       };
       packageRequires = [ ];
       meta = {
@@ -5007,10 +5007,10 @@
     elpaBuild {
       pname = "javaimp";
       ename = "javaimp";
-      version = "0.9.2.0.20260603.0";
+      version = "0.9.2.0.20260604.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260603.0.tar";
-        sha256 = "0270h21gpx584jdcwyls0w559pnbsb9w2p0hipfc1gr35anrbnyy";
+        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260604.1.tar";
+        sha256 = "12ixd3dw9kq35a62yj529xqg3jdqham85nggx0zqcz68vc9q3z89";
       };
       packageRequires = [ ];
       meta = {
@@ -6711,10 +6711,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260603.279";
+      version = "10.0.20260604.284";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260603.279.tar";
-        sha256 = "0c75clqphphkcq3w3fr31xik5195np8l6icy3nkb5cgxv0wdrhil";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260604.284.tar";
+        sha256 = "1kvmgbzp241iiwsh3lrf90dm5iqypapn5p6lfqxxq1x2s89imvhh";
       };
       packageRequires = [ ];
       meta = {
