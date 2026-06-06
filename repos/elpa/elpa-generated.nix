@@ -1548,10 +1548,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.5";
+      version = "3.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-3.5.tar";
-        sha256 = "00ckjw9n2sy5fam2396n35isciq4i1nlz3nq5x9xx05vnnfpdwr6";
+        url = "https://elpa.gnu.org/packages/consult-3.6.tar";
+        sha256 = "0c8pp537qv2zxkzk0nlrvzbn1v72v9ddhwf1nks3hwvwrff58db8";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2317,10 +2317,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "1.4";
+      version = "1.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dicom-1.4.tar";
-        sha256 = "0msbl8zxs1gf0sln6pmn0qcf0nymlhrgw640gya1vqiyx1x089pb";
+        url = "https://elpa.gnu.org/packages/dicom-1.5.tar";
+        sha256 = "02i90769952g80f8fjj9phwwm7ln8q6w65pc065r5vln1knjm7gd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3110,10 +3110,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.26.0";
+      version = "1.27.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.26.0.tar";
-        sha256 = "0i6r61pvqf4hip8r3jvgsv1j7izsqpsh05b6m0s7vpldycpdjvhs";
+        url = "https://elpa.gnu.org/packages/ellama-1.27.2.tar";
+        sha256 = "09l22c29vv8bd70vq681ashvlyqcq3ajk37nmdkcj7j4ik53l4bh";
       };
       packageRequires = [
         compat
@@ -10268,10 +10268,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.9";
+      version = "2.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-2.9.tar";
-        sha256 = "0kh35mkp62d991sqwkq1nki3w5x3jdqap1g7i7nv7z0ayvqj9fhk";
+        url = "https://elpa.gnu.org/packages/vertico-2.10.tar";
+        sha256 = "1kwmlpfxjnjkv05hfqhxmxw5d1vlhqvdmyc3p34qhp3bj2xafwm0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10875,10 +10875,10 @@
     elpaBuild {
       pname = "yaml";
       ename = "yaml";
-      version = "1.2.3";
+      version = "1.2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/yaml-1.2.3.tar";
-        sha256 = "0wyvhh4ij22wdd3g5jkg2mnyglbk2k7mf2jv48jkpb5jc4kf6jvr";
+        url = "https://elpa.gnu.org/packages/yaml-1.2.4.tar";
+        sha256 = "12ji680hjm1isc5k3yapvnp2m7pk23syfxwhi95bizhka02n0qly";
       };
       packageRequires = [ ];
       meta = {
