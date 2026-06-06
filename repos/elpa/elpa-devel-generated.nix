@@ -1509,10 +1509,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "31.0.0.1.0.20260523.142102";
+      version = "31.0.0.1.0.20260606.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-31.0.0.1.0.20260523.142102.tar";
-        sha256 = "1glsvx9lmnd4x5q732wqiwdjbyrm3a1v58ssnxkb7iw6d3y1xar8";
+        url = "https://elpa.gnu.org/devel/compat-31.0.0.1.0.20260606.2.tar";
+        sha256 = "1bziwppgl138pf65q9jbw3c8xsarik9617fnqw3wnp3hlkg39b4m";
       };
       packageRequires = [ ];
       meta = {
@@ -2413,10 +2413,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20260605.163";
+      version = "1.10.0.0.20260606.164";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260605.163.tar";
-        sha256 = "023n52340znjwv903la2xkhdxy41s8s6hp69987s1q7jln1byr0a";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260606.164.tar";
+        sha256 = "18ghm10imdxw2ckhnbcw1mb1phs6glw44i2vbk12gwmyq90y7b7y";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -5007,10 +5007,10 @@
     elpaBuild {
       pname = "javaimp";
       ename = "javaimp";
-      version = "0.9.2.0.20260605.2";
+      version = "0.9.2.0.20260605.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260605.2.tar";
-        sha256 = "1mvgn5vgkzsb8p1nfl0vridfl8k8cjjmzz4anjd6z7k08p7vykrq";
+        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260605.4.tar";
+        sha256 = "08jw9xl7kc15vwr5rld7kcn96d34g3jqrl1ys518qqrn5i20gfhr";
       };
       packageRequires = [ ];
       meta = {
