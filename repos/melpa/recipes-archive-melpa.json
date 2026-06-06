@@ -8474,8 +8474,8 @@
  },
  {
   "ename": "bibtex-capf",
-  "commit": "f4276c9472534f3c79ef3f4a5b3713121d8ed710",
-  "sha256": "1pxdzj6hl32jc5gsxzpfy8qixsg1f4284vrhi6b9rsy4dp5v0i8s",
+  "commit": "2afff3081cb55b1c2244839bde49ef2bb8c6b0c1",
+  "sha256": "09bn09nggd3mrsd7d5py8x2rz46djamz6x8z3vvh4sxgy8igszr3",
   "fetcher": "git",
   "url": "https://codeberg.org/mclear-tools/bibtex-capf.git",
   "unstable": {
@@ -19331,25 +19331,25 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20260524,
-    1426
+    20260605,
+    1856
    ],
    "deps": [
     "compat"
    ],
-   "commit": "1702e854b55adbd51242a0f7de96a72a7e10349c",
-   "sha256": "11kmrzlfb2b7b4v81nrn7galhvqsggarkxzddpmbvs4gf9gp47h6"
+   "commit": "ee0295b77e2d15f970622b33e2faeef17439c594",
+   "sha256": "1ijq7v07x0aqk09n28lv93bvhr3v4dynzhgh9b9n5n1jf28drwg4"
   },
   "stable": {
    "version": [
     3,
-    5
+    6
    ],
    "deps": [
     "compat"
    ],
-   "commit": "f046ebb91473830a174fb54e3dc8119bbe7e0c7c",
-   "sha256": "1hrdj8mxh0yprzki70ijg263bj7m2i51bwx7k85zw3in47w9lgk3"
+   "commit": "9bb68cf3941eb618fff18bd7626164951c70eb8a",
+   "sha256": "02ain9sqvivhhy1fbxv7ayl6mshaiz484y2gcifvml1wjrnygwr2"
   }
  },
  {
@@ -19585,27 +19585,27 @@
   "repo": "minad/consult-flycheck",
   "unstable": {
    "version": [
-    20260322,
-    16
+    20260605,
+    1858
    ],
    "deps": [
     "consult",
     "flycheck"
    ],
-   "commit": "21c74a96e787606f8572453b17f6912c3755be42",
-   "sha256": "1sxkyxqkgxcysqyapjsylwanas419wz8y59q9prdld0sm57npjsa"
+   "commit": "9dd95361669f87e14230376f4f93c6b9a222c497",
+   "sha256": "1n8n9wd4rn3x8kqyrlimb1hhm3nwgh7vawg7hjy63mfmvcfgrlqk"
   },
   "stable": {
    "version": [
     1,
-    1
+    2
    ],
    "deps": [
     "consult",
     "flycheck"
    ],
-   "commit": "9fe96c4b75c8566170ad41a04c3849d2e2606104",
-   "sha256": "0ga6mqskgmq979nj6ri89x85chcfw0pxhx2vz1xgssz10hwpbla9"
+   "commit": "9dd95361669f87e14230376f4f93c6b9a222c497",
+   "sha256": "1n8n9wd4rn3x8kqyrlimb1hhm3nwgh7vawg7hjy63mfmvcfgrlqk"
   }
  },
  {
@@ -19963,8 +19963,8 @@
  },
  {
   "ename": "consult-notes",
-  "commit": "f4276c9472534f3c79ef3f4a5b3713121d8ed710",
-  "sha256": "0s724rzrgih75jl3lshiz4lzigm73jfb02h2y3fq4m3w2p0rix49",
+  "commit": "0ed4419027e95d80b0f23863b8be364bfdf68fd5",
+  "sha256": "03l2jnrkld679wrwdiamys8x7g4mza93cgp4nzma2jvphg6s5b0h",
   "fetcher": "git",
   "url": "https://codeberg.org/mclear-tools/consult-notes.git",
   "unstable": {
@@ -25457,25 +25457,25 @@
   "repo": "minad/dicom",
   "unstable": {
    "version": [
-    20260524,
-    1913
+    20260605,
+    1901
    ],
    "deps": [
     "compat"
    ],
-   "commit": "0ab96221ba65bddaa56a781c59f7bbed2b76f50c",
-   "sha256": "09hr0qy8fsgii3j3322fap0ng4p274lg0wkxpd2pvkf0xyr75n0m"
+   "commit": "026a12a27939b29935ea343bab9162ed27bd732e",
+   "sha256": "1bi9mrwvyw4gkxix66gf9xhars830kbfinzrai3biixfd3gkdgs2"
   },
   "stable": {
    "version": [
     1,
-    4
+    5
    ],
    "deps": [
     "compat"
    ],
-   "commit": "65998eca7a909e5560e6ce05eec33ee6a18e0d0c",
-   "sha256": "0k66ays78fv93vv2ac5fpmjmiwk66hpcnbff8kp5piq2j3zbrwqf"
+   "commit": "026a12a27939b29935ea343bab9162ed27bd732e",
+   "sha256": "1bi9mrwvyw4gkxix66gf9xhars830kbfinzrai3biixfd3gkdgs2"
   }
  },
  {
@@ -33955,7 +33955,7 @@
   "unstable": {
    "version": [
     20260605,
-    1610
+    1826
    ],
    "deps": [
     "compat",
@@ -33964,14 +33964,14 @@
     "transient",
     "yaml"
    ],
-   "commit": "91419243c15cef5c58ac982af96c355b41c726be",
-   "sha256": "1qrrcrhz6mkdghg1cnlc2zpzx7n4vb7r12mfq9if2g66vxhdq704"
+   "commit": "b122f2e043313d470fa68c0c1e042e3dec536cbf",
+   "sha256": "1pv85p94w8yr81bll30mwlwyb30rsw3sx81lwznghg5jvi8bb875"
   },
   "stable": {
    "version": [
     1,
     27,
-    0
+    2
    ],
    "deps": [
     "compat",
@@ -33980,8 +33980,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "9e16d0e73134e8f30687bbefd1b6489c98b157c6",
-   "sha256": "1jiibygr5h3na5l645h7f1xczn0l98vbxqz0r94l2z6aahnm0glv"
+   "commit": "b122f2e043313d470fa68c0c1e042e3dec536cbf",
+   "sha256": "1pv85p94w8yr81bll30mwlwyb30rsw3sx81lwznghg5jvi8bb875"
   }
  },
  {
@@ -35007,13 +35007,13 @@
   "unstable": {
    "version": [
     20260605,
-    553
+    1733
    ],
    "deps": [
     "compat"
    ],
-   "commit": "557d933f3a53dbccc750cfbe70c38ad6a17ac866",
-   "sha256": "1s16sdsxkg70b9vshp78gjpj9kghy1c452pk1i3gvbzf6bs168qj"
+   "commit": "c2afd0ace3a5a0e995f07dccd97d84a68685c5c6",
+   "sha256": "0j7w98rh66zl8j5hkyiyrn0ksv725vi05b5krjjvn35x6aaxmfg6"
   },
   "stable": {
    "version": [
@@ -51366,8 +51366,8 @@
  },
  {
   "ename": "gemini-write",
-  "commit": "e97c45cafc44a4b2f08e577325e375c6312f6557",
-  "sha256": "039rdjsyx9lw7lh21ps84agm1rpinbylzlks6iv1h5pn341s67nd",
+  "commit": "fd2082f1d5170d65f46116a012d2d1abedf62dba",
+  "sha256": "0x2qbiy1s15xpfhqgvajp59fjrzkpc6crwglmh93h7l25bzyivz5",
   "fetcher": "git",
   "url": "https://alexschroeder.ch/cgit/gemini-write",
   "unstable": {
@@ -51819,14 +51819,14 @@
   "repo": "dakra/ghostel",
   "unstable": {
    "version": [
-    20260604,
-    2049
+    20260605,
+    1810
    ],
    "deps": [
     "compat"
    ],
-   "commit": "5779a2adceb2a173978adbc0288135479433445c",
-   "sha256": "0f87mlngbxc1plqbbj0c3ckhqdzyx8v5wi44qc4lnwyh76s6y6ig"
+   "commit": "571b0abb7ad300648257bc7ca0d841d71db5136f",
+   "sha256": "1zhdc513nmmx3wzv2z1i41av947mnph503q9dyhicrvkpr733b88"
   },
   "stable": {
    "version": [
@@ -55634,14 +55634,14 @@
   "unstable": {
    "version": [
     20260605,
-    521
+    1732
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "4932cf776c430bc86344b79dcff5159f76ce12a6",
-   "sha256": "1j8ifs2g66lfak7x34bs2f1b1xav7j2nbhci6i2vwmq5ijhd1a4b"
+   "commit": "bd2419a36f443edde22ae34f23aafbda1cbd5738",
+   "sha256": "1jvgih0051v612yd7i76hjxf28f0bw0407ji9zw4vh8ax6ylzb7b"
   },
   "stable": {
    "version": [
@@ -127434,8 +127434,8 @@
  },
  {
   "ename": "tabspaces",
-  "commit": "f4276c9472534f3c79ef3f4a5b3713121d8ed710",
-  "sha256": "1dr77ddcv1kffpincyp2s6ji4nz2k4f9d5q5hp80wmw74xrzy20h",
+  "commit": "099c58c6668d882bbbe6cade4c1b794363539504",
+  "sha256": "1yswbnyy3qjkd6wxjhbxpxkjsp5aphjw3scqrd45pqydyz1k0z5w",
   "fetcher": "git",
   "url": "https://codeberg.org/mclear-tools/tabspaces.git",
   "unstable": {
@@ -135891,25 +135891,25 @@
   "repo": "minad/vertico",
   "unstable": {
    "version": [
-    20260521,
-    2003
+    20260605,
+    1903
    ],
    "deps": [
     "compat"
    ],
-   "commit": "6e45be6105819297da8472dd8f37a38eb4a0b6e5",
-   "sha256": "1k9526wxqy1m37ks0qj20bax56nyvsp0x743smbyz1fsr9099sdk"
+   "commit": "6028bd3d32c99c28e2b938e5e5393ec3508d2424",
+   "sha256": "0hzl3p7b62f3p2419c5d7340h7y6ry2xhwdds166wfcgwpwnm7m6"
   },
   "stable": {
    "version": [
     2,
-    9
+    10
    ],
    "deps": [
     "compat"
    ],
-   "commit": "ccc1864aeed3d8b7f0bc8000087d6840b4d8ca8e",
-   "sha256": "1dklr3d32qahwqigrw6h8msf871b8mmw1z55h4fqgs4l0y5spxh9"
+   "commit": "6028bd3d32c99c28e2b938e5e5393ec3508d2424",
+   "sha256": "0hzl3p7b62f3p2419c5d7340h7y6ry2xhwdds166wfcgwpwnm7m6"
   }
  },
  {
