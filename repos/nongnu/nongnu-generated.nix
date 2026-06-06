@@ -1321,6 +1321,7 @@
   ) { };
   elfeed = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -1328,14 +1329,42 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2";
+      version = "4.0.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/elfeed-3.4.2.tar";
-        sha256 = "0xphlys5h08syxli1ahhw7wj73hxnw9kw9h6zpa643381wcjrjhj";
+        url = "https://elpa.nongnu.org/nongnu/elfeed-4.0.0.tar";
+        sha256 = "0hwnmjb4jidjylm06rj07r68gkqdy6vbg84v4vrvdawfslwmz882";
       };
-      packageRequires = [ ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/elfeed.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  elfeed-web = callPackage (
+    {
+      compat,
+      elfeed,
+      elpaBuild,
+      fetchurl,
+      lib,
+      simple-httpd,
+    }:
+    elpaBuild {
+      pname = "elfeed-web";
+      ename = "elfeed-web";
+      version = "4.0.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/elfeed-web-4.0.0.tar";
+        sha256 = "0ah6zjcihxfra34zglqrj6pnxqnakgc58dlkgjzgrxdamx4dxfwg";
+      };
+      packageRequires = [
+        compat
+        elfeed
+        simple-httpd
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/elfeed-web.html";
         license = lib.licenses.free;
       };
     }
