@@ -756,10 +756,10 @@
     elpaBuild {
       pname = "consult-flycheck";
       ename = "consult-flycheck";
-      version = "1.1";
+      version = "1.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/consult-flycheck-1.1.tar";
-        sha256 = "0nanxx0fbj6w9sxzz4ys8nxpv63al3m4lliy30y4ydiaig2a0abc";
+        url = "https://elpa.nongnu.org/nongnu/consult-flycheck-1.2.tar";
+        sha256 = "0g5lb3p4g91ax0c4zkkyvi2l4hkq5b9r2bciddgg1h4bsmrs6vhx";
       };
       packageRequires = [
         consult
