@@ -3689,10 +3689,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260605.284";
+      version = "4.5.0.0.20260606.289";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260605.284.tar";
-        sha256 = "051z9dwsk76w024sdpy61j7g9iyi2bn2kkpffnmfwz9jinkz0say";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260606.289.tar";
+        sha256 = "0bszdp04f4xxfz61n8gl7gskak3lpzs4bj87a6qqwdx195m4if5l";
       };
       packageRequires = [
         compat
@@ -3722,10 +3722,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260605.284";
+      version = "4.5.0.0.20260606.289";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260605.284.tar";
-        sha256 = "0h0a8sa7yxjhlwvx3p0z09xffdlcavzaqpsynqrlsmjmbwlkhp22";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260606.289.tar";
+        sha256 = "0c1qdz9y1i0xff6xgzfgschcnddj1ij7ax279m4r11vbahdsj0kf";
       };
       packageRequires = [
         compat
@@ -5165,10 +5165,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.320.20260518.142203";
+      version = "2.320.20260606.46";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.320.20260518.142203.tar";
-        sha256 = "18bwym92wv498gbjfzj0434zx9mq5wkc728pzf1vgll8dpbbz9ci";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.320.20260606.46.tar";
+        sha256 = "12f2j01s436njiykacpj5mrmjb30q3qiz3xqp7ksb51ihrzbdfrz";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -5935,10 +5935,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.30.20260523.82019";
+      version = "8.3.30.20260606.29";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.30.20260523.82019.tar";
-        sha256 = "131bz021s5b794ssqyh0qbgxic3nkksfzqzzijkrz03m74wdv2a6";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.30.20260606.29.tar";
+        sha256 = "0ik1d9yqcv7my8hz17wbanam10ifvddfywfwsfakcs1ysl0fkzp1";
       };
       packageRequires = [ vcard ];
       meta = {
