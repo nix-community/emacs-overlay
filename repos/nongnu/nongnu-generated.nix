@@ -4586,10 +4586,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.66";
+      version = "0.67";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/pg-0.66.tar";
-        sha256 = "0wkcwr4v3q5hc7c00ab3jrnba3836mjxy0iwyjfdcznsiqxnfrkm";
+        url = "https://elpa.nongnu.org/nongnu/pg-0.67.tar";
+        sha256 = "01q06yk011pn9pg9srilwy0k9nn8x5pl32k1mn9i54mbikf7ac5b";
       };
       packageRequires = [ peg ];
       meta = {

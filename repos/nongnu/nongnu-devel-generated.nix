@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.0.0.0.20260607.3";
+      version = "4.0.0.0.20260607.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.0.0.0.20260607.3.tar";
-        sha256 = "0n4rhm793jq3qhvvcm7ix9bh76i8imqw4p8jxhiv9rclb659lms2";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.0.0.0.20260607.5.tar";
+        sha256 = "1qi9c7fjflcpn8qy8h7iifaivcg3wn9q01n94y1la4q687rjhl0r";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1804,10 +1804,10 @@
     elpaBuild {
       pname = "evil-surround";
       ename = "evil-surround";
-      version = "1.0.4.0.20260601.24";
+      version = "1.0.4.0.20260607.25";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-surround-1.0.4.0.20260601.24.tar";
-        sha256 = "1zdr8sxy236bpinh6pppxc1rf4bmnpy69kl1ibr0l19j3jghgxzk";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-surround-1.0.4.0.20260607.25.tar";
+        sha256 = "0q14djyjciywxh7sb4ljgwfv09233nr2jprkk5h4pjn4a3ymsjv3";
       };
       packageRequires = [ evil ];
       meta = {
@@ -4564,10 +4564,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.66.0.20260502.110228";
+      version = "0.67.0.20260607.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.66.0.20260502.110228.tar";
-        sha256 = "1pid7asmj07gyb46f3frppmznv9njkdd93ds80ca9s1kqyz69j9h";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.67.0.20260607.0.tar";
+        sha256 = "01wdbv3h9nzm102fg29xm9p7izhn6h049z6x3wfldpj771l3xrz3";
       };
       packageRequires = [ peg ];
       meta = {
