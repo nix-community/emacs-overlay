@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.6.0.20260605.0";
+      version = "3.6.0.20260607.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.6.0.20260605.0.tar";
-        sha256 = "14zw27nh3pvzik7sbbdqi516ng8clnpp1674wg1lpk79q6j1hk4b";
+        url = "https://elpa.gnu.org/devel/consult-3.6.0.20260607.1.tar";
+        sha256 = "02z3cdzf2lyis0a5kc8vcyas8ycz8gfli7hiahx6zc7dyd94mi9s";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2413,10 +2413,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20260607.167";
+      version = "1.10.0.0.20260607.174";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260607.167.tar";
-        sha256 = "0pzv1wdpq918cnhil9k34xpxhziy1v42cjj47kbfxh4vb2d1xbv8";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260607.174.tar";
+        sha256 = "0mdq4wx9vgdh3skhzslwrrr5a8qxc5ls162y2j8m106s4nsskl98";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -4653,10 +4653,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.20.20260605.1129";
+      version = "9.0.20.20260607.1134";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260605.1129.tar";
-        sha256 = "1g47k5mhi2j8fi4qwzbnn3ykq8ghy4qagp18fkd8ysrq3l3np9c7";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260607.1134.tar";
+        sha256 = "1ch99393g3z3vdjicz8xmfrss22ylf4ph78lpyc0rqk1gyj2rp07";
       };
       packageRequires = [ ];
       meta = {
@@ -6711,10 +6711,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260606.285";
+      version = "10.0.20260607.297";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260606.285.tar";
-        sha256 = "0arfysj1flcfsg7qwj8psfp48xxxc7pl5yax9rcs2107mxp0mgyl";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260607.297.tar";
+        sha256 = "0942gdxvfklcqa9az5ljz1nlfiib0i6l96wsd2080czy78688nv4";
       };
       packageRequires = [ ];
       meta = {
