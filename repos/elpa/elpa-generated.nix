@@ -4300,10 +4300,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.19.2";
+      version = "0.19.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greader-0.19.2.tar";
-        sha256 = "14qi7j3ndm9cbr294npgkdgh12zjbznii00pcijppng1ih9qlrdn";
+        url = "https://elpa.gnu.org/packages/greader-0.19.4.tar";
+        sha256 = "1wg25481rdzfjshsjhaf2747hsy964gn1zc5gbmqak8y1vmsjb6h";
       };
       packageRequires = [
         compat
