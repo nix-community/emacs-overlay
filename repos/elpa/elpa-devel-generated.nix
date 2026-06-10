@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260602.34";
+      version = "14.1.2.0.20260608.35";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260602.34.tar";
-        sha256 = "0x5njbssyikp7pllhczk9yz7s1cha5m3xq8gpc9cv5m9anzc3rg6";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260608.35.tar";
+        sha256 = "0mklabc3xcmwg76jg135h0jhmfnahj7m5nnrabygwynm1hh1nb8m";
       };
       packageRequires = [ ];
       meta = {
@@ -5007,10 +5007,10 @@
     elpaBuild {
       pname = "javaimp";
       ename = "javaimp";
-      version = "0.9.2.0.20260605.4";
+      version = "0.9.2.0.20260609.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260605.4.tar";
-        sha256 = "08jw9xl7kc15vwr5rld7kcn96d34g3jqrl1ys518qqrn5i20gfhr";
+        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260609.5.tar";
+        sha256 = "19idgvgzwcvxm2169sm5hcjc0pdafb51ivfy56znxqy9qh8i81x4";
       };
       packageRequires = [ ];
       meta = {
@@ -6711,10 +6711,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260608.305";
+      version = "10.0.20260609.306";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260608.305.tar";
-        sha256 = "1ajgw9f4dc075ybsl1b1sr9s203znp0ds1klx981sxjxyjr4cqfr";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260609.306.tar";
+        sha256 = "15wi72gg327r3pzw5kq4glsvrgl61cpzji3v7da7abh1i43l6fd1";
       };
       packageRequires = [ ];
       meta = {
@@ -8004,10 +8004,10 @@
     elpaBuild {
       pname = "realgud";
       ename = "realgud";
-      version = "1.6.0.0.20260411.181642";
+      version = "1.6.0.0.20260609.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/realgud-1.6.0.0.20260411.181642.tar";
-        sha256 = "11rs4xcy7xz2ckvpii33mmy04flwfladpi5j70bxc5anmhn5fh68";
+        url = "https://elpa.gnu.org/devel/realgud-1.6.0.0.20260609.11.tar";
+        sha256 = "1j598wswb1s3gn2h2sk5hvz93nphlnmx3xqpa1nr2rg3jwpmv4zr";
       };
       packageRequires = [
         load-relative
@@ -9519,10 +9519,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.13.0.20260519.104944";
+      version = "1.13.0.20260609.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.13.0.20260519.104944.tar";
-        sha256 = "1fpg8gx4wji8awa9h82mzsrwmyphnm3plwpykc2g986qa7yrrnvl";
+        url = "https://elpa.gnu.org/devel/tempel-1.13.0.20260609.1.tar";
+        sha256 = "1n423dfaij4ixss5w8nm519kdainipswdr38gx3qhcb59l0pywhd";
       };
       packageRequires = [ compat ];
       meta = {
