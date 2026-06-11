@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.0.0.0.20260609.9";
+      version = "4.0.0.0.20260610.11";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.0.0.0.20260609.9.tar";
-        sha256 = "05z3vp4xibpaq40h8pnxv9gqqhd147wyiy8gb0qwdw1y05a4qaw9";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.0.0.0.20260610.11.tar";
+        sha256 = "16azjlim4p09hv3j9rxbsj84cw65scikdavmrii7698b10ncrwkc";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4564,10 +4564,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.67.0.20260607.0";
+      version = "0.67.0.20260610.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.67.0.20260607.0.tar";
-        sha256 = "01wdbv3h9nzm102fg29xm9p7izhn6h049z6x3wfldpj771l3xrz3";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.67.0.20260610.2.tar";
+        sha256 = "16014aqcz3pj31pbwgyaw9qsqz5rfmmscdah6qvppg2dg17lwfhg";
       };
       packageRequires = [ peg ];
       meta = {
@@ -5229,10 +5229,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.1.0.0.20260329.155902";
+      version = "2.1.0.0.20260610.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.1.0.0.20260329.155902.tar";
-        sha256 = "19bj5hfz6ydhxd6qcrkw1lgpfbhjm5iwq96i6i4z56yffm7ijl9k";
+        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.1.0.0.20260610.7.tar";
+        sha256 = "1phh2qqjf68ap6giid63zpnggx41y1zvn9q2c60igx01fv7xnykd";
       };
       packageRequires = [ ];
       meta = {
@@ -5376,10 +5376,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.5.0.0.20260531.1";
+      version = "1.5.1.0.20260610.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.0.0.20260531.1.tar";
-        sha256 = "1ix7zbkc7gm0cigzcmdgmf9z7dhls26crzj5ipgjm3r5l1bxk9q2";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.1.0.20260610.0.tar";
+        sha256 = "0g3pibc3rjvvc2sxi4kplw8q13wwc0r1mp44yamb4i6am2sbnw05";
       };
       packageRequires = [ ];
       meta = {
