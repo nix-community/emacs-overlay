@@ -4653,14 +4653,35 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.20.20260609.1138";
+      version = "9.0.20.20260611.1139";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260609.1138.tar";
-        sha256 = "1apbpqdy9glmn07i4w5v16bazisxyhhnacxgp3kaynw1gy626384";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260611.1139.tar";
+        sha256 = "1kf6ivicdwgn6hdg86nk6zjrfh5q2qm5lckpdmbk4vlqgaxjhahj";
       };
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/hyperbole.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  ibuffer-sidebar = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "ibuffer-sidebar";
+      ename = "ibuffer-sidebar";
+      version = "0.0.1.0.20260611.35";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/ibuffer-sidebar-0.0.1.0.20260611.35.tar";
+        sha256 = "0il3ldri99cvwz490bb51ckj6gs7vhgncl34ya4fmrgd0mxlpp0q";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/ibuffer-sidebar.html";
         license = lib.licenses.free;
       };
     }
@@ -5524,10 +5545,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.31.0.0.20260529.1";
+      version = "0.31.0.0.20260610.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.31.0.0.20260529.1.tar";
-        sha256 = "15b57ciwwg7q3ybkmcg07vajsnb0v7grv2n7xabm0l8w2w8rv0nz";
+        url = "https://elpa.gnu.org/devel/llm-0.31.0.0.20260610.2.tar";
+        sha256 = "1ay5n740ydnyjgzyznrrg4wdi9milrhnaj62b5s7wpf0r4mbc3jd";
       };
       packageRequires = [
         compat
@@ -6711,10 +6732,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260610.309";
+      version = "10.0.20260611.311";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260610.309.tar";
-        sha256 = "0ac9iyi41pyhakd1w4g84bl60nf51bzwvxzhzk9hdxzxlhynkfmg";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260611.311.tar";
+        sha256 = "1lj3jvnyc9m25xgi39y6g6h3hiy9ldmjfmwck04vbjgpsipflx3r";
       };
       packageRequires = [ ];
       meta = {
