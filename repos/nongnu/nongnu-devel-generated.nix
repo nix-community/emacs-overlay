@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0.20260605.154";
+      version = "1.22.0.20260611.156";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0.20260605.154.tar";
-        sha256 = "1vyjindkg9iga64nirfnj9gfrgcwdsbbhqw2f9rg5qv31igp12f5";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0.20260611.156.tar";
+        sha256 = "1znfmpbmpp10zccvqq399895rhimhnxza2jg5vfxqqlxa0crj4bg";
       };
       packageRequires = [
         clojure-mode
@@ -2912,10 +2912,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260609.15";
+      version = "4.0.7.0.20260611.16";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260609.15.tar";
-        sha256 = "0pk6crbc5bypc6a586km0ppaxmrw3xmvfyzlc26592802asibh0s";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260611.16.tar";
+        sha256 = "0i4ynv7jrxnw04srq18x0vakgn6x48gcfy5z8s2d238n9c0yywgx";
       };
       packageRequires = [
         helm-core
@@ -2937,10 +2937,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260609.15";
+      version = "4.0.7.0.20260611.16";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260609.15.tar";
-        sha256 = "0rzchmwr56qfa3hw99x236gns7qkk2pdw7kmnmvsvn7364l1gb17";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260611.16.tar";
+        sha256 = "0qngby1dj4k434v9lq6j8k02znpvkyi8gw8qk038982c0rz2lgkp";
       };
       packageRequires = [ async ];
       meta = {
@@ -5935,10 +5935,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.30.20260607.31";
+      version = "8.3.30.20260610.33";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.30.20260607.31.tar";
-        sha256 = "026msx1rc1w6mfsyyj37r8wxs94mphvvc3vydp1n6z8bm3nzf2n3";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.30.20260610.33.tar";
+        sha256 = "0194px4dg5q2rgddvqwylcywymjx39s3ih16kh6d8whvlk1xcm6p";
       };
       packageRequires = [ vcard ];
       meta = {
