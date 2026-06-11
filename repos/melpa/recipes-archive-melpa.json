@@ -1883,11 +1883,11 @@
   "repo": "bbatsov/adoc-mode",
   "unstable": {
    "version": [
-    20260605,
-    1946
+    20260611,
+    1131
    ],
-   "commit": "b6f0205742d965f3586e83506d003d1b002ac955",
-   "sha256": "0fsgml7rzzp6pckgvybn24mkixl1zzwjvjpa1znv6554c4rva4rp"
+   "commit": "9857e72f953642cedc1286a04aebb7203226e6a8",
+   "sha256": "1jz0jv2jxiff42x60pim2n1wf9m3pcyyb4xn6mlj4gmkg0sl93ng"
   },
   "stable": {
    "version": [
@@ -2371,15 +2371,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260607,
-    2330
+    20260611,
+    1433
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "16779f2dc61c68346c93ee7101637cbd18e26dc0",
-   "sha256": "1qlsrdz56z1b5iz9a7vmn3s2dhn9146y4lhfca8xhnxhnb77dkza"
+   "commit": "306b18df197a4d3f115af041f806c089dc8277ee",
+   "sha256": "19324izq9bd6j9nsjz8n9h2c15kvdbih1hb8zhjw6h6hcc97dxmi"
   },
   "stable": {
    "version": [
@@ -3283,11 +3283,11 @@
   "repo": "jordonbiondo/ample-theme",
   "unstable": {
    "version": [
-    20240426,
-    1545
+    20260611,
+    1532
    ],
-   "commit": "39ac29cf9a1229bb076964335fbd71cfb52e498b",
-   "sha256": "1s2k1r3wwvwa3rkfsyg5y9386fl0v4qzlqriwldblpq5glyg40qq"
+   "commit": "6952b29a588c854084ca1360bed16c9bc2d48e37",
+   "sha256": "1jxlfqbgjwc4s5y8b7v3qhpqgx5klq5hfkxlqn9gygg2plc726xy"
   }
  },
  {
@@ -4696,19 +4696,19 @@
   "unstable": {
    "version": [
     20260611,
-    811
+    1520
    ],
-   "commit": "1a19b099ce4d6068fe62e214c50507636ecba0be",
-   "sha256": "0vla9wqfgyp7k8g3dad9m5jjkfwlwm1fjbjsp80dw3njnlm0c6n7"
+   "commit": "aa836bb0aa25427914ef3a938ed218aedd9123d9",
+   "sha256": "07imzld1j3jkr2p327ha1h1qikzw8jn3hxqzin9rs4m8av5fn38g"
   },
   "stable": {
    "version": [
     0,
-    3,
+    4,
     0
    ],
-   "commit": "761822f027e074e5ce29a8e312ef8cce299cff33",
-   "sha256": "11x3ha4rkvzxm743cykrdpxsxfr7gd4yxil1c9pa54ap2q8brq2s"
+   "commit": "aa836bb0aa25427914ef3a938ed218aedd9123d9",
+   "sha256": "07imzld1j3jkr2p327ha1h1qikzw8jn3hxqzin9rs4m8av5fn38g"
   }
  },
  {
@@ -9356,29 +9356,29 @@
   "unstable": {
    "version": [
     20260611,
-    502
+    1336
    ],
    "deps": [
     "futur",
     "plz",
     "vui"
    ],
-   "commit": "ef01cb6862c1aca93073f8726c5a7e62f1091ccc",
-   "sha256": "0p3j5bkaqmz0pj28dcgfyyzz1mlkfa2zajm2ikyq9dbjhhl9k4if"
+   "commit": "f88486f57bde983f24d1cad04525039ca5d37344",
+   "sha256": "1frmgg7zy1a2mc620v2rr0hr3m2m88521if40v2imysf9lp429ny"
   },
   "stable": {
    "version": [
     0,
     1,
-    2
+    3
    ],
    "deps": [
     "futur",
     "plz",
     "vui"
    ],
-   "commit": "eb322cea90a363400563c4387b5fadf0a60e68ca",
-   "sha256": "03zfg62my99yghrj3xxap0rrnf21zw88k1cq88xykbv0zwk1q3zx"
+   "commit": "f88486f57bde983f24d1cad04525039ca5d37344",
+   "sha256": "1frmgg7zy1a2mc620v2rr0hr3m2m88521if40v2imysf9lp429ny"
   }
  },
  {
@@ -15593,16 +15593,16 @@
   "repo": "LuciusChen/clutch",
   "unstable": {
    "version": [
-    20260608,
-    111
+    20260611,
+    1401
    ],
    "deps": [
     "mysql",
     "pg",
     "transient"
    ],
-   "commit": "3efc82a7ca4c58da3a07321fe2a57dc87d77f105",
-   "sha256": "156j57x2s2ikckc30f3vlh2y4nafd5j1ks68hxnk7f2phz16fa1l"
+   "commit": "40a6f93e14a6742dbad59e383236e3be6ec0e9e5",
+   "sha256": "06sp1wlzkagvw949rg38pg40864fqkgxss02dxwxd0xymb25f4bl"
   }
  },
  {
@@ -28592,15 +28592,15 @@
   "unstable": {
    "version": [
     20260611,
-    303
+    1500
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "c692b65cd9ea21c3fb8cd84302fb9d0152dd7fd0",
-   "sha256": "1n4h144bakpayqvx4g6x17ymqsr7920rpvqf6npgp3yaadsysb3z"
+   "commit": "a8b4fe52a0d875a7589b2a6aae57c5a58868197d",
+   "sha256": "1akrmfa2fmv14pypdg142m0l7r3msi1y162jm6907b69h6x3ryyc"
   },
   "stable": {
    "version": [
@@ -30703,8 +30703,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260610,
-    1530
+    20260611,
+    1549
    ],
    "deps": [
     "compat",
@@ -30713,8 +30713,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "517c8024677cbdd3d4d96173148702cb4a5f7ff7",
-   "sha256": "1wrr59wm81ndbnvpiyg5y6gg0h5kwg7bwlaikbad7cfpqn9ijn78"
+   "commit": "12bcbda129929c2de8b3f8b28a89043e5a909e9c",
+   "sha256": "1n5gql30ym9808cpzlfy609mr04nmn1qradmnc76vhjil5dmql8s"
   },
   "stable": {
    "version": [
@@ -33490,16 +33490,16 @@
   "repo": "emacs-elfeed/elfeed-web",
   "unstable": {
    "version": [
-    20260606,
-    552
+    20260611,
+    1557
    ],
    "deps": [
     "compat",
     "elfeed",
     "simple-httpd"
    ],
-   "commit": "e947501a29457a55dfb0828aa791185c6b41bc37",
-   "sha256": "1gz10229bksz96l06czk2n6as65zb8kyib9mwln08ysrpdjs2k18"
+   "commit": "0bef963f7eaccee21571844730586d8dafa4249f",
+   "sha256": "07szzdjrzwvi9yg6xv9b8j9g4s5ybkdi3rx6pzaixiiia7892xkj"
   },
   "stable": {
    "version": [
@@ -50789,10 +50789,10 @@
   "unstable": {
    "version": [
     20260611,
-    505
+    508
    ],
-   "commit": "f76cf45d4838c6c02130992240ac986045ae5cc4",
-   "sha256": "0ij3zdncbx726yqm03r9dj9v9nr3rp3qycmdqj1mxm6ihi1qjj4y"
+   "commit": "50af3949ec37f85690e75179cc3f999550ffe077",
+   "sha256": "07m3c7nk8gzqkzhx5inqrgkwajab5zkcriva8m3hf17yw459apik"
   },
   "stable": {
    "version": [
@@ -82338,11 +82338,15 @@
   "repo": "ideasman42/emacs-meep",
   "unstable": {
    "version": [
-    20260610,
-    1353
+    20260611,
+    1404
    ],
-   "commit": "041699ea121e07a67420985b1a2b987f2f1be965",
-   "sha256": "1hsfwxppmmbkjdpn5jg0x2dgqmha9dq86xxhxcnnvf5p9s276gyc"
+   "commit": "98256024c8729385211f5b1d9a9f2825dda725fc",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "warning: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/98256024c8729385211f5b1d9a9f2825dda725fc.tar.gz': Failure when receiving data from the peer (56) Recv failure: Connection reset by peer; retrying in 291 ms (attempt 1/5)\nwarning: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/98256024c8729385211f5b1d9a9f2825dda725fc.tar.gz': Failure when receiving data from the peer (56) Recv failure: Connection reset by peer; retrying in 591 ms (attempt 2/5)\nwarning: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/98256024c8729385211f5b1d9a9f2825dda725fc.tar.gz': Failure when receiving data from the peer (56) Recv failure: Connection reset by peer; retrying in 1370 ms (attempt 3/5)\nwarning: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/98256024c8729385211f5b1d9a9f2825dda725fc.tar.gz': Failure when receiving data from the peer (56) Recv failure: Connection reset by peer; retrying in 2243 ms (attempt 4/5)\nerror: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/98256024c8729385211f5b1d9a9f2825dda725fc.tar.gz': Failure when receiving data from the peer (56) Recv failure: Connection reset by peer\n"
+   ]
   }
  },
  {
@@ -87685,11 +87689,11 @@
   "repo": "bbatsov/neocaml",
   "unstable": {
    "version": [
-    20260521,
-    427
+    20260611,
+    1137
    ],
-   "commit": "1cf59a4b4cb2b90106cf606d8e3c6a879d1e03f9",
-   "sha256": "0djgdh3faknp58373sixjkvj43adwggm0hniyj01a5q4wkzyzd4q"
+   "commit": "5b15c9198e32ae370814847dde80b6b4bac3e0f8",
+   "sha256": "0xx9g6vqajhjy5g7pjxl29xwjpimbjbykyjw66mh7l56nrccqdk2"
   },
   "stable": {
    "version": [
@@ -92003,11 +92007,11 @@
   "repo": "gynamics/oboe.el",
   "unstable": {
    "version": [
-    20260610,
-    1309
+    20260611,
+    1508
    ],
-   "commit": "11addb8aa56525479c1df5775f0d3993b40dbd33",
-   "sha256": "127fdgqbs16i39mabrfnhnbf77scqhxw8dcy0f3vshr8y0cbx7p8"
+   "commit": "07bd775c04b7c6cf552e34fb7ff5f7df9bb2f81c",
+   "sha256": "0yn3xhjyqqha61bs9shf9qxpkiij0yf0az2181ii8z1avysh501p"
   }
  },
  {
@@ -123825,14 +123829,14 @@
   "repo": "dakra/speed-type",
   "unstable": {
    "version": [
-    20260330,
-    1430
+    20260611,
+    1554
    ],
    "deps": [
     "compat"
    ],
-   "commit": "f349c000c4d9541cc0e9dcf072555c7f4c9f9a46",
-   "sha256": "0y2vi01agwwjgklxsfaf1hh9q1mnn82s2rnkkmqnqrycpa0p1wzk"
+   "commit": "f004cce95e0f5c5048d38f973b654587ed73abf6",
+   "sha256": "1a1fmnlkgrya86hw9alccfjhldg5lx1bbffvlhk5hqkgsm1dx627"
   },
   "stable": {
    "version": [
