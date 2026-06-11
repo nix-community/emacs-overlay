@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260608.35";
+      version = "14.1.2.0.20260610.36";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260608.35.tar";
-        sha256 = "0mklabc3xcmwg76jg135h0jhmfnahj7m5nnrabygwynm1hh1nb8m";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260610.36.tar";
+        sha256 = "0ndcp9a8wfgw02628c32liw8syn3aamxn2ri8lr1wh6ms3j19q46";
       };
       packageRequires = [ ];
       meta = {
@@ -6711,10 +6711,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260609.306";
+      version = "10.0.20260610.309";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260609.306.tar";
-        sha256 = "15wi72gg327r3pzw5kq4glsvrgl61cpzji3v7da7abh1i43l6fd1";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260610.309.tar";
+        sha256 = "0ac9iyi41pyhakd1w4g84bl60nf51bzwvxzhzk9hdxzxlhynkfmg";
       };
       packageRequires = [ ];
       meta = {
@@ -7678,10 +7678,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.2.0.20260610.24";
+      version = "0.11.2.0.20260610.25";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260610.24.tar";
-        sha256 = "0cmrgyrwc5d077zpp8hargb8xj611gdxxsvps3d70nni6zmidlxf";
+        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260610.25.tar";
+        sha256 = "0nrplbq5nfh1fxj0hxllrl98cgcw46p44fz8wbnkwy11gv0ipiqy";
       };
       packageRequires = [ xref ];
       meta = {
@@ -8348,10 +8348,10 @@
     elpaBuild {
       pname = "rnc-mode";
       ename = "rnc-mode";
-      version = "0.3.0.20221221.81910";
+      version = "0.4.0.20260610.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/rnc-mode-0.3.0.20221221.81910.tar";
-        sha256 = "1rdz1g440sjzxcqc4p2s0vv525ala4k470ddn4h9ghljnncqbady";
+        url = "https://elpa.gnu.org/devel/rnc-mode-0.4.0.20260610.0.tar";
+        sha256 = "1yvkmcqykpvnfzpq2qra4dc14rviwhhvch2wb19iy781v6dryxj5";
       };
       packageRequires = [ ];
       meta = {
