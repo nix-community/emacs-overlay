@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.9.0.0.20260605.19";
+      version = "0.9.0.0.20260611.21";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20260605.19.tar";
-        sha256 = "0vq814f4f12agsax8k3xbvi2kbafj1xx4djnc75fpl9598ilaqcp";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20260611.21.tar";
+        sha256 = "0613ac7aci4gbqs66nlgazb175x70p5m96pqrd8d9kng0v03qqmd";
       };
       packageRequires = [ ];
       meta = {
@@ -121,10 +121,10 @@
     elpaBuild {
       pname = "ample-theme";
       ename = "ample-theme";
-      version = "0.3.0.0.20240426.84530";
+      version = "0.3.0.0.20260611.50";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/ample-theme-0.3.0.0.20240426.84530.tar";
-        sha256 = "00h1za3qdqjgaxr2c3qlmz374gl9fhrgg7r453wvkz1fy6n9vp5i";
+        url = "https://elpa.nongnu.org/nongnu-devel/ample-theme-0.3.0.0.20260611.50.tar";
+        sha256 = "1r0sw8iwrpxwvpr3ijxadh0ldkpljyd9j9wviga7j9c2q9248xkw";
       };
       packageRequires = [ ];
       meta = {
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.0.0.0.20260610.11";
+      version = "4.0.1.0.20260611.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.0.0.0.20260610.11.tar";
-        sha256 = "16azjlim4p09hv3j9rxbsj84cw65scikdavmrii7698b10ncrwkc";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.0.1.0.20260611.0.tar";
+        sha256 = "0x2fl0zr9nf4vgfr8lwpxkl23vaqpgbl6cz7lxv2vkn99llzs9h3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1331,10 +1331,10 @@
     elpaBuild {
       pname = "elfeed-web";
       ename = "elfeed-web";
-      version = "4.0.0.0.20260606.0";
+      version = "4.0.0.0.20260611.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-web-4.0.0.0.20260606.0.tar";
-        sha256 = "1lvz77gwmmid2mms7x9m5xqji3ms1nidv1i5kh53njcgzzmd2hap";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-web-4.0.0.0.20260611.1.tar";
+        sha256 = "1m7ybd54w1zhmsgg7xhdblzhfiwdvld9gd87i1cw1wm35pkabds8";
       };
       packageRequires = [
         compat
@@ -3327,10 +3327,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.10.10.0.20260608.54";
+      version = "0.10.10.0.20260611.56";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.10.0.20260608.54.tar";
-        sha256 = "04knl6y6xy7k88wbzp112glfrx4py7bcrkv42raclswfzy8lgqmy";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.10.10.0.20260611.56.tar";
+        sha256 = "0rxs4aks7anj2xlwfwjrpvb6nz2jv8rz1fz1jxvnky2d27jj463r";
       };
       packageRequires = [
         fsm
