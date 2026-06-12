@@ -6852,14 +6852,14 @@
   "repo": "zkry/awqat",
   "unstable": {
    "version": [
-    20260607,
-    1404
+    20260611,
+    2135
    ],
    "deps": [
     "alert"
    ],
-   "commit": "8aa6b390f935f7471fe233905c6755f6e7354b5f",
-   "sha256": "1rjv6ilgvx8d1p9h6infcdpi5h8l8ms4p3w025b3sl4srn4dysv5"
+   "commit": "c7ef627b2302983623587a30ef4ce87c770b7817",
+   "sha256": "1frjm6x67n7rhpm6x6ckrnhc9hwpb65vzrh8qxvsvp7lc1xn3smf"
   }
  },
  {
@@ -32712,11 +32712,11 @@
   "repo": "emacs-eldev/eldev",
   "unstable": {
    "version": [
-    20250314,
-    2105
+    20260611,
+    2140
    ],
-   "commit": "87373ddace0c4b2267d8f45ebd20e4b0eb27f821",
-   "sha256": "19lapjhhq39ffimgh20l148c456811xrgdxnycjlc6iy6zrbdbda"
+   "commit": "9174eb2d410a519d561f6df204dd04c47eb339c6",
+   "sha256": "012bw87gnxra9x8m6yvg5mc6i0g6bwsf84n3x6lh1p39l2fpngbp"
   },
   "stable": {
    "version": [
@@ -42216,11 +42216,11 @@
   "repo": "ideasman42/emacs-fancy-fill-paragraph",
   "unstable": {
    "version": [
-    20260610,
-    1353
+    20260612,
+    54
    ],
-   "commit": "431451d324be544aad6a9f103c0c5f8ab8a05bb8",
-   "sha256": "1gshk85a6nmbdi74667nlzlspnx15npqlm6mnwdhiqq7pg9qsj0g"
+   "commit": "a52f494623cf91dc160b497e267ceadd9c8af799",
+   "sha256": "07h8klwqq7536hxzp4l6cj5mq0dp40wg0nalz92rqc8vzn8zxjrx"
   }
  },
  {
@@ -82342,11 +82342,7 @@
     1404
    ],
    "commit": "98256024c8729385211f5b1d9a9f2825dda725fc",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "warning: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/98256024c8729385211f5b1d9a9f2825dda725fc.tar.gz': Failure when receiving data from the peer (56) Recv failure: Connection reset by peer; retrying in 291 ms (attempt 1/5)\nwarning: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/98256024c8729385211f5b1d9a9f2825dda725fc.tar.gz': Failure when receiving data from the peer (56) Recv failure: Connection reset by peer; retrying in 591 ms (attempt 2/5)\nwarning: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/98256024c8729385211f5b1d9a9f2825dda725fc.tar.gz': Failure when receiving data from the peer (56) Recv failure: Connection reset by peer; retrying in 1370 ms (attempt 3/5)\nwarning: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/98256024c8729385211f5b1d9a9f2825dda725fc.tar.gz': Failure when receiving data from the peer (56) Recv failure: Connection reset by peer; retrying in 2243 ms (attempt 4/5)\nerror: unable to download 'https://codeberg.org/ideasman42/emacs-meep/archive/98256024c8729385211f5b1d9a9f2825dda725fc.tar.gz': Failure when receiving data from the peer (56) Recv failure: Connection reset by peer\n"
-   ]
+   "sha256": "1f3hgyng799xvclywzkazmwy87advawg68y1mpmvayrbs6ic13x1"
   }
  },
  {
@@ -86926,11 +86922,11 @@
   "repo": "LuciusChen/mysql.el",
   "unstable": {
    "version": [
-    20260526,
-    1431
+    20260612,
+    247
    ],
-   "commit": "24a9754ff3babe0885f38779349b2e4f2c6dfbbd",
-   "sha256": "1asx66j6zzvrr91mi7wzvl5s8wc9k64p1yiaq33mmslsn6lrk6wb"
+   "commit": "5b9d6b6400fe2b7fbfe8d362c1dc6c0e6f0cee07",
+   "sha256": "0lf1rn5gl9zl8ysrwhkb5mkk2ili7bg6sf4w8r1dkis4gd5cxdia"
   }
  },
  {
@@ -109621,10 +109617,10 @@
   "stable": {
    "version": [
     35,
-    0
+    1
    ],
-   "commit": "e59364c38e10de3686a3305ff11fbfc59a10dbd8",
-   "sha256": "0adcmm1iil1whj6ab3f32h6syzh2nl7xrbrj9bh2rq5qspbl0hr7"
+   "commit": "35cd01f9fe9afbeea38cc7b979a3b6bfcde82c03",
+   "sha256": "0n85mx3xq403yvavqa585lmahiac6dwlkvwvva8h9p3y6z3gs9wy"
   }
  },
  {
@@ -121066,8 +121062,8 @@
   "repo": "emacs-slack/emacs-slack",
   "unstable": {
    "version": [
-    20260519,
-    2150
+    20260611,
+    2247
    ],
    "deps": [
     "alert",
@@ -121079,8 +121075,8 @@
     "ts",
     "websocket"
    ],
-   "commit": "775cd0a6ee4ddc8e83da6f1123e3c7a30d90d5af",
-   "sha256": "0261344g7833wvj6dhpxyg7dar887ipj6g8lv35xjkfwhm1iaq6x"
+   "commit": "06a1fe9041e1aadf293692036ad522a6f808e2fc",
+   "sha256": "1zrwvk00mkx5xiy3an6j8mkpbikq7qiilh940k8y6304rrzc72dx"
   }
  },
  {
