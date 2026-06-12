@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.9.0.0.20260611.21";
+      version = "0.9.0.0.20260612.25";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20260611.21.tar";
-        sha256 = "0613ac7aci4gbqs66nlgazb175x70p5m96pqrd8d9kng0v03qqmd";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20260612.25.tar";
+        sha256 = "19938x76964kx6pvhd0jbl22wd8am7pal9c1w1xrbipkn36fb4zl";
       };
       packageRequires = [ ];
       meta = {
@@ -4670,10 +4670,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0.20260604.112";
+      version = "2.10.0.20260612.114";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260604.112.tar";
-        sha256 = "0z9ifl9rf9ifhccniys96gp4fr8grjnamdq1j1aj5l6x2ipa8qr9";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260612.114.tar";
+        sha256 = "14n7q2jgmri3nnn7zwqnf8jvx5109q6cmfz6cpb8xgjwz4wn5vsv";
       };
       packageRequires = [ compat ];
       meta = {
