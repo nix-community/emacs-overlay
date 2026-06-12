@@ -4674,10 +4674,10 @@
     elpaBuild {
       pname = "ibuffer-sidebar";
       ename = "ibuffer-sidebar";
-      version = "0.0.1.0.20260611.35";
+      version = "0.0.1.0.20260612.36";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ibuffer-sidebar-0.0.1.0.20260611.35.tar";
-        sha256 = "0il3ldri99cvwz490bb51ckj6gs7vhgncl34ya4fmrgd0mxlpp0q";
+        url = "https://elpa.gnu.org/devel/ibuffer-sidebar-0.0.1.0.20260612.36.tar";
+        sha256 = "0r6wpdcn6fqrlgvmxihiwxp6lzhijjvwzikgv8nbh25x0gmz2nqm";
       };
       packageRequires = [ ];
       meta = {
@@ -7699,10 +7699,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.2.0.20260610.25";
+      version = "0.11.2.0.20260612.29";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260610.25.tar";
-        sha256 = "0nrplbq5nfh1fxj0hxllrl98cgcw46p44fz8wbnkwy11gv0ipiqy";
+        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260612.29.tar";
+        sha256 = "19bb3v47ikpf445zz4pgxlnynkwyjacydws15lgsc853npca1df1";
       };
       packageRequires = [ xref ];
       meta = {
