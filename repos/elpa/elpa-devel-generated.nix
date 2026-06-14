@@ -2976,10 +2976,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.1.0.0.20260608.44";
+      version = "2.1.0.0.20260613.64";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260608.44.tar";
-        sha256 = "0ipy429swa76prwplwkqs3yylcasc9ig45dkhyxikc6s2v8dng1m";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.1.0.0.20260613.64.tar";
+        sha256 = "1g7gikgh2nw6a3p9fjyii673bqhwkb8q1npd9ap3qybip4b5350z";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -3874,10 +3874,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.2.3.0.20260530.2";
+      version = "0.2.3.0.20260613.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.2.3.0.20260530.2.tar";
-        sha256 = "1s3cnlkhsva679k32njq4hgw731p1qah2nkpdny043nfzhcidy10";
+        url = "https://elpa.gnu.org/devel/forgejo-0.2.3.0.20260613.6.tar";
+        sha256 = "054r1hq8falhjyffmg49m9fnk5i5h19msk0jyrkmj83jyqk78qj5";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -4653,10 +4653,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.20.20260611.1139";
+      version = "9.0.20.20260613.1140";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260611.1139.tar";
-        sha256 = "1kf6ivicdwgn6hdg86nk6zjrfh5q2qm5lckpdmbk4vlqgaxjhahj";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260613.1140.tar";
+        sha256 = "123gchqqabbdb52hij9fliqvw0v6wp8w22jpg0l9s8gc0a58rc9b";
       };
       packageRequires = [ ];
       meta = {
@@ -5286,10 +5286,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.6.1.0.20260605.1";
+      version = "0.6.1.0.20260613.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.6.1.0.20260605.1.tar";
-        sha256 = "115jhz6k87pfxmlkxkyp82216yi2al1p8nhjwzp56ww1nmgvj6j5";
+        url = "https://elpa.gnu.org/devel/kubed-0.6.1.0.20260613.11.tar";
+        sha256 = "1gv6rsvisslabdmbiwhzqbiv7ga0vn5yj4vm1l4m9687s98z4krj";
       };
       packageRequires = [ ];
       meta = {
@@ -6732,10 +6732,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260613.315";
+      version = "10.0.20260613.325";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260613.315.tar";
-        sha256 = "0xywqnj6x2gsx3b816mljbgw9x5kxbiafrl2rd77cj9gfk54kh5p";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260613.325.tar";
+        sha256 = "1xc7g9pa5diq0k0fip5cqzwi22g15fqgdb7n7hm8z7rgdz3wgvp5";
       };
       packageRequires = [ ];
       meta = {
