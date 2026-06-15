@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.9.0.0.20260612.25";
+      version = "0.9.0.0.20260612.26";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20260612.25.tar";
-        sha256 = "19938x76964kx6pvhd0jbl22wd8am7pal9c1w1xrbipkn36fb4zl";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20260612.26.tar";
+        sha256 = "0ivn3j21cn5xqd4bwr2razaxg2sljg18d70vwksgrb74zyz3lkxy";
       };
       packageRequires = [ ];
       meta = {
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.0.1.0.20260614.2";
+      version = "4.0.1.0.20260614.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.0.1.0.20260614.2.tar";
-        sha256 = "1828lf0pd07n588zj4gss6an3g1sb0qdrmm30v18b37l1qssf8r2";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.0.1.0.20260614.6.tar";
+        sha256 = "16nn8v936mipik4lz75nam3p7h3lgp2f6q333czs191jh6a616h6";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3327,10 +3327,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.11.0.0.20260614.0";
+      version = "0.11.0.0.20260614.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.11.0.0.20260614.0.tar";
-        sha256 = "19h0w85m6vzwwpsgg6ifcyx2j082cgj6dpd7s5yd7pr438jazkn3";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.11.0.0.20260614.1.tar";
+        sha256 = "1r6ra2j9dvzrfzwy0lagcgjd946fxjgvpy054fndb6zkg6xxmik8";
       };
       packageRequires = [
         fsm
@@ -3689,10 +3689,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260613.294";
+      version = "4.5.0.0.20260614.295";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260613.294.tar";
-        sha256 = "1hsygp0ml7jhhybdnnh7pqqahq37j13y3i1pgb3k8jfzw4mvim8x";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260614.295.tar";
+        sha256 = "12f854h9h76nmih4g6d0iyzm1pcba8nw5qlp9klg5gnkcmms0z6y";
       };
       packageRequires = [
         compat
@@ -3722,10 +3722,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260613.294";
+      version = "4.5.0.0.20260614.295";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260613.294.tar";
-        sha256 = "0q5q5gbkcbhz30blnjj5wgwj2ls6h15i22a32m4nwz4n3wdxhzhg";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260614.295.tar";
+        sha256 = "1n23i32sb7bc43zx4si7nh1aqfvk72sgkwjvh72z28mmg1d3qicb";
       };
       packageRequires = [
         compat
