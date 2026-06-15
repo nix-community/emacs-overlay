@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "a68-mode";
       ename = "a68-mode";
-      version = "1.3.0.20260613.0";
+      version = "1.3.0.20260614.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/a68-mode-1.3.0.20260613.0.tar";
-        sha256 = "1r1hnw0mjxn5v37zfi2kxvixi7wxmw16ij47za98dxqzhck6x6wk";
+        url = "https://elpa.gnu.org/devel/a68-mode-1.3.0.20260614.1.tar";
+        sha256 = "1b51c2v7sx8g4mm2irm43rgb741syphji6cglpv1r3j9wvcpj58k";
       };
       packageRequires = [ ];
       meta = {
@@ -4653,10 +4653,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.20.20260613.1140";
+      version = "9.0.20.20260614.1145";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260613.1140.tar";
-        sha256 = "123gchqqabbdb52hij9fliqvw0v6wp8w22jpg0l9s8gc0a58rc9b";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260614.1145.tar";
+        sha256 = "0zqadhwc65k7i9psb507h8ppw93mgrk0q2gycidyw0mv31bm54yb";
       };
       packageRequires = [ ];
       meta = {
@@ -6732,10 +6732,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260614.333";
+      version = "10.0.20260615.334";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260614.333.tar";
-        sha256 = "06y8lbzhdzlmqw1ihnhmiqmxclr4s38xnaclrx7bwyny16idj6c9";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260615.334.tar";
+        sha256 = "0sl10523m7fc0c3b9m5qiplivm276v7pw453ccfjcsz95dfz3ky2";
       };
       packageRequires = [ ];
       meta = {
