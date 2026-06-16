@@ -1,7 +1,3 @@
-# WARNING: This file was automatically imported from
-# https://github.com/talyz/fromElisp. Don't make any changes to it
-# locally - they will be discarded on update!
-
 { lib ? pkgs.lib
 , pkgs ? import <nixpkgs> { }
 , commentMaxLength ? 300
@@ -21,10 +17,22 @@ let
     stringLength stringToCharacters tail elemAt isList
     isString toLower
     ;
-  inherit (builtins) match foldl' filter fromJSON;
+  inherit (builtins) match foldl' filter fromJSON concatLists;
 
   # Modulo
   mod = i: d: i - ((i / d) * d);
+
+  # Bounded-chunk list accumulator to avoid quadratic list buildups.
+  accChunkSize = 64;
+  accEmpty = { chunk = []; chunks = []; };
+  accPush = acc: x:
+    if length acc.chunk >= accChunkSize then
+      let chunks' = acc.chunks ++ [ acc.chunk ];
+      in seq chunks' { chunk = [ x ]; chunks = chunks'; }
+    else
+      { chunk = acc.chunk ++ [ x ]; inherit (acc) chunks; };
+  accFinish = acc: if acc.chunks == [] then acc.chunk else concatLists (acc.chunks ++ [ acc.chunk ]);
+  accPushAll = acc: xs: foldl' accPush acc xs;
 
   isWhitespace = lib.flip elem [ " " "\t" "\r" ];
 
@@ -72,8 +80,6 @@ let
 
     matchDot = mkMatcher ''([.])([${notInSymbol}]|$).*'' 2;
 
-    matchFunction = throw "matchFunction: Not implemented";
-
     # Symbols can contain pretty much any characters - the general
     # rule is that if nothing else matches, it's a symbol, so we
     # should be pretty generous here and match for symbols last. See
@@ -110,9 +116,9 @@ let
       # used to determine a likely matching regex "matcher" to run on
       # the string, starting at the position of the aforementioned
       # character. When an appropriate matcher has been found and run
-      # successfully on the string, its result is added to
-      # `state.acc`, a list of all matched tokens. The length of the
-      # matched token is determined and passed on to the following
+      # successfully on the string, `emit` adds its result to the list
+      # of all matched tokens. The length of the matched token is
+      # determined and passed on to the following
       # iteration through `state.skip`. If `state.skip` is positive,
       # nothing will be done in the current iteration, except
       # decrementing `state.skip` for the next one: this skips the
@@ -123,19 +129,30 @@ let
       # The order of the matches is significant - matchSymbol will,
       # for example, also match numbers and characters, so we check
       # for symbols last.
+
+      emit = state: token: extra:
+        let
+          full = length state.chunk >= accChunkSize;
+          chunk = (if full then [] else state.chunk) ++ [ token ];
+          chunks = if full then state.chunks ++ [ state.chunk ] else state.chunks;
+          result = state // extra // { inherit chunk chunks; };
+        in
+          if full then seq chunks result else result;
+
       readToken = state: char:
         let
+          comment = matchComment (substring state.pos commentMaxLength elisp);
+          character = matchCharacter (substring state.pos characterMaxLength elisp);
+          nonBase10Integer = matchNonBase10Integer (substring state.pos integerMaxLength elisp);
+          integer = matchInteger (substring state.pos integerMaxLength elisp);
+          float = matchFloat (substring state.pos floatMaxLength elisp);
+          boolVector = matchBoolVector (substring state.pos boolVectorMaxLength elisp);
+          string = matchString (substring state.pos stringMaxLength elisp);
+          dot = matchDot (substring state.pos 2 elisp);
+          symbol = matchSymbol (substring state.pos symbolMaxLength elisp);
+          # Only referenced when building the "unrecognized token" error
+          # message, so this full-length slice is forced only on failure.
           rest = substring state.pos maxTokenLength elisp;
-          comment = matchComment rest;
-          character = matchCharacter rest;
-          nonBase10Integer = matchNonBase10Integer rest;
-          integer = matchInteger rest;
-          float = matchFloat rest;
-          function = matchFunction rest;
-          boolVector = matchBoolVector rest;
-          string = matchString rest;
-          dot = matchDot rest;
-          symbol = matchSymbol rest;
         in
           if state.skip > 0 then
             state // {
@@ -144,22 +161,10 @@ let
               line = if char == "\n" then state.line + 1 else state.line;
             }
           else if char == "\n" then
-            let
-              newState = {
-                pos = state.pos + 1;
-                line = state.line + 1;
-              };
-            in
-              state // (
-                # Force evaluation of old state every 1000 lines. Nix
-                # doesn't have a modulo builtin, so we have to save
-                # the result of an integer division and compare
-                # between runs.
-                if mod state.line 1000 == 0 then
-                  seq state.acc newState
-                else
-                  newState
-              )
+            state // {
+              pos = state.pos + 1;
+              line = state.line + 1;
+            }
           else if isWhitespace char then
             state // {
               pos = state.pos + 1;
@@ -173,140 +178,73 @@ let
               }
             else throw "Unrecognized token on line ${toString state.line}: ${rest}"
           else if char == "(" then
-            state // {
-              acc = state.acc ++ [{ type = "openParen"; value = "("; inherit (state) line; }];
-              pos = state.pos + 1;
-            }
+            emit state { type = "openParen"; value = "("; inherit (state) line; } { pos = state.pos + 1; }
           else if char == ")" then
-            state // {
-              acc = state.acc ++ [{ type = "closeParen"; value = ")"; inherit (state) line; }];
-              pos = state.pos + 1;
-            }
+            emit state { type = "closeParen"; value = ")"; inherit (state) line; } { pos = state.pos + 1; }
           else if char == "[" then
-            state // {
-              acc = state.acc ++ [{ type = "openBracket"; value = "["; inherit (state) line; }];
-              pos = state.pos + 1;
-            }
+            emit state { type = "openBracket"; value = "["; inherit (state) line; } { pos = state.pos + 1; }
           else if char == "]" then
-            state // {
-              acc = state.acc ++ [{ type = "closeBracket"; value = "]"; inherit (state) line; }];
-              pos = state.pos + 1;
-            }
+            emit state { type = "closeBracket"; value = "]"; inherit (state) line; } { pos = state.pos + 1; }
           else if char == "'" then
-            state // {
-              acc = state.acc ++ [{ type = "quote"; value = "'"; inherit (state) line; }];
-              pos = state.pos + 1;
-            }
+            emit state { type = "quote"; value = "'"; inherit (state) line; } { pos = state.pos + 1; }
           else if char == ''"'' then
             if string != null then
-              state // {
-                acc = state.acc ++ [{ type = "string"; value = string; inherit (state) line; }];
-                pos = state.pos + 1;
-                skip = (stringLength string) - 1;
-              }
+              emit state { type = "string"; value = string; inherit (state) line; } { pos = state.pos + 1; skip = (stringLength string) - 1; }
             else throw "Unrecognized token on line ${toString state.line}: ${rest}"
           else if char == "#" then
-            let nextChar = substring 1 1 rest;
+            let nextChar = substring (state.pos + 1) 1 elisp;
             in
               if nextChar == "'" then
-                state // {
-                  acc = state.acc ++ [{ type = "function"; value = "#'"; inherit (state) line; }];
-                  pos = state.pos + 1;
-                  skip = 1;
-                }
+                emit state { type = "function"; value = "#'"; inherit (state) line; } { pos = state.pos + 1; skip = 1; }
               else if nextChar == "&" then
                 if boolVector != null then
-                  state // {
-                    acc = state.acc ++ [{ type = "boolVector"; value = boolVector; inherit (state) line; }];
-                    pos = state.pos + 1;
-                    skip = (stringLength boolVector) - 1;
-                  }
+                  emit state { type = "boolVector"; value = boolVector; inherit (state) line; } { pos = state.pos + 1; skip = (stringLength boolVector) - 1; }
                 else throw "Unrecognized token on line ${toString state.line}: ${rest}"
               else if nextChar == "s" then
-                if substring 2 1 rest == "(" then
-                  state // {
-                    acc = state.acc ++ [{ type = "record"; value = "#s"; inherit (state) line; }];
-                    pos = state.pos + 1;
-                    skip = 1;
-                  }
+                if substring (state.pos + 2) 1 elisp == "(" then
+                  emit state { type = "record"; value = "#s"; inherit (state) line; } { pos = state.pos + 1; skip = 1; }
                 else throw "List must follow #s in record on line ${toString state.line}: ${rest}"
               else if nextChar == "[" then
-                state // {
-                  acc = state.acc ++ [{ type = "byteCode"; value = "#"; inherit (state) line; }];
-                  pos = state.pos + 1;
-                }
+                emit state { type = "byteCode"; value = "#"; inherit (state) line; } { pos = state.pos + 1; }
               else if nonBase10Integer != null then
-                state // {
-                  acc = state.acc ++ [{ type = "nonBase10Integer"; value = nonBase10Integer; inherit (state) line; }];
-                  pos = state.pos + 1;
-                  skip = (stringLength nonBase10Integer) - 1;
-                }
+                emit state { type = "nonBase10Integer"; value = nonBase10Integer; inherit (state) line; } { pos = state.pos + 1; skip = (stringLength nonBase10Integer) - 1; }
               else throw "Unrecognized token on line ${toString state.line}: ${rest}"
           else if isDigit char then
             if integer != null then
-              state // {
-                acc = state.acc ++ [{ type = "integer"; value = integer; inherit (state) line; }];
-                pos = state.pos + 1;
-                skip = (stringLength integer) - 1;
-              }
+              emit state { type = "integer"; value = integer; inherit (state) line; } { pos = state.pos + 1; skip = (stringLength integer) - 1; }
             else if float != null then
-              state // {
-                acc = state.acc ++ [{ type = "float"; value = float; inherit (state) line; }];
-                pos = state.pos + 1;
-                skip = (stringLength float) - 1;
-              }
+              emit state { type = "float"; value = float; inherit (state) line; } { pos = state.pos + 1; skip = (stringLength float) - 1; }
             else if dot != null then
-              state // {
-                acc = state.acc ++ [{ type = "dot"; value = dot; inherit (state) line; }];
-                pos = state.pos + 1;
-                skip = (stringLength dot) - 1;
-              }
+              emit state { type = "dot"; value = dot; inherit (state) line; } { pos = state.pos + 1; skip = (stringLength dot) - 1; }
             else if symbol != null then
-              state // {
-                acc = state.acc ++ [{ type = "symbol"; value = symbol; inherit (state) line; }];
-                pos = state.pos + 1;
-                skip = (stringLength symbol) - 1;
-              }
+              emit state { type = "symbol"; value = symbol; inherit (state) line; } { pos = state.pos + 1; skip = (stringLength symbol) - 1; }
             else throw "Unrecognized token on line ${toString state.line}: ${rest}"
           else if char == "?" then
             if character != null then
-              state // {
-                acc = state.acc ++ [{ type = "character"; value = character; inherit (state) line; }];
-                pos = state.pos + 1;
-                skip = (stringLength character) - 1;
-              }
+              emit state { type = "character"; value = character; inherit (state) line; } { pos = state.pos + 1; skip = (stringLength character) - 1; }
             else throw "Unrecognized token on line ${toString state.line}: ${rest}"
           else if char == "`" then
-            state // {
-              acc = state.acc ++ [{ type = "backquote"; value = "`"; inherit (state) line; }];
-              pos = state.pos + 1;
-            }
+            emit state { type = "backquote"; value = "`"; inherit (state) line; } { pos = state.pos + 1; }
           else if char == "," then
-            if substring 1 1 rest == "@" then
-              state // {
-                acc = state.acc ++ [{ type = "slice"; value = ",@"; inherit (state) line; }];
-                skip = 1;
-                pos = state.pos + 1;
-              }
+            if substring (state.pos + 1) 1 elisp == "@" then
+              emit state { type = "slice"; value = ",@"; inherit (state) line; } { pos = state.pos + 1; skip = 1; }
             else
-              state // {
-                acc = state.acc ++ [{ type = "expand"; value = ","; inherit (state) line; }];
-                pos = state.pos + 1;
-              }
+              emit state { type = "expand"; value = ","; inherit (state) line; } { pos = state.pos + 1; }
           else if symbol != null then
-            state // {
-              acc = state.acc ++ [{ type = "symbol"; value = symbol; inherit (state) line; }];
-              pos = state.pos + 1;
-              skip = (stringLength symbol) - 1;
-            }
+            emit state { type = "symbol"; value = symbol; inherit (state) line; } { pos = state.pos + 1; skip = (stringLength symbol) - 1; }
           else
             throw "Unrecognized token on line ${toString state.line}: ${rest}";
-      in (builtins.foldl' readToken {
-        acc = [];
-        pos = 0;
-        skip = 0;
-        line = startLineNumber;
-      } (stringToCharacters elisp)).acc;
+      in
+        let
+          final = builtins.foldl' readToken {
+            chunk = [];
+            chunks = [];
+            pos = 0;
+            skip = 0;
+            line = startLineNumber;
+          } (stringToCharacters elisp);
+        in
+          builtins.concatLists (final.chunks ++ [ final.chunk ]);
 
   tokenizeElisp = elisp:
     tokenizeElisp' { inherit elisp; };
@@ -362,19 +300,15 @@ let
       # normalize the forms of nil, which can be written as either
       # `nil` or `()`, to empty lists.
       #
-      # For performance reasons, this is implemented as a fold over
-      # the list of tokens, rather than as a recursive function. To
-      # keep track of list depth when sublists are parsed, a list,
-      # `state.acc`, is used as a stack. When entering a sublist, an
-      # empty list is pushed to `state.acc`, and items in the sublist
-      # are subsequently added to this list. When exiting the list,
-      # `state.acc` is popped and the completed list is added to the
-      # new head of `state.acc`, i.e. the outer list, which we were
-      # parsing before entering the sublist.
+      # For performance reasons, this is implemented as a fold over the
+      # list of tokens, rather than as a recursive function, so that
+      # list depth doesn't translate into evaluation recursion depth.
       #
-      # Evaluation of old state is forced with `seq` in a few places,
-      # because nix otherwise keeps it around, eventually resulting in
-      # a stack overflow.
+      # The collection currently being built is kept in `current`
+      # (along with its type & opening line) _outside_ the stack.
+      #
+      # Only the enclosing still not finished collection live on state.stack,
+      # avoiding calls to `builtins.tail`, which are quadratic.
       parseCollections = tokens:
         let
           parseToken = state: token:
@@ -384,50 +318,53 @@ let
             in
               if openColl != null then
                 state // {
-                  acc = [ [] ] ++ seq (head state.acc) state.acc;
-                  inColl = [ openColl ] ++ state.inColl;
+                  stack = seq state.stack ([ { acc = state.current; type = state.currentType; line = state.currentLine; } ] ++ state.stack);
+                  current = accEmpty;
+                  currentType = openColl;
+                  currentLine = token.line;
                   depth = state.depth + 1;
-                  line = [ token.line ] ++ state.line;
                 }
               else if closeColl != null then
-                if (head state.inColl) == closeColl then
+                if state.currentType == closeColl then
                   let
-                    outerColl = elemAt state.acc 1;
                     currColl = {
                       type = closeColl;
-                      value = head state.acc;
-                      line = head state.line;
+                      value = accFinish state.current;
+                      line = state.currentLine;
                       inherit (state) depth;
                     };
-                    rest = tail (tail state.acc);
+                    parent = head state.stack;
+                    current = accPush parent.acc currColl;
                   in
-                    state // seq state.acc {
-                      acc = [ (outerColl ++ [ currColl ]) ] ++ rest;
-                      inColl = tail state.inColl;
+                    seq current (state // {
+                      inherit current;
+                      currentType = parent.type;
+                      currentLine = parent.line;
+                      stack = tail state.stack;
                       depth = state.depth - 1;
-                      line = tail state.line;
-                    }
+                    })
                 else
                   throw "Unmatched ${token.type} on line ${toString token.line}"
               else if token.type == "symbol" && token.value == "nil" then
                 let
-                  currColl = head state.acc;
-                  rest = tail state.acc;
-                  emptyList = {
+                  current = accPush state.current {
                     type = "list";
                     depth = state.depth + 1;
                     value = [];
                   };
                 in
-                  state // seq currColl { acc = [ (currColl ++ [ emptyList ]) ] ++ rest; }
+                  seq current (state // { inherit current; })
               else
-                let
-                  currColl = head state.acc;
-                  rest = tail state.acc;
-                in
-                  state // seq currColl { acc = [ (currColl ++ [ token ]) ] ++ rest; };
+                let current = accPush state.current token;
+                in seq current (state // { inherit current; });
         in
-          head (builtins.foldl' parseToken { acc = [ [] ]; inColl = [ null ]; depth = -1; line = []; } tokens).acc;
+          accFinish (builtins.foldl' parseToken {
+            current = accEmpty;
+            currentType = null;
+            currentLine = null;
+            stack = [];
+            depth = -1;
+          } tokens).current;
 
       # Handle dotted pair notation, a syntax where the car and cdr
       # are represented explicitly. See
@@ -453,33 +390,30 @@ let
                 throw ''"Dotted pair notation"-dot outside list on line ${toString token.line}''
             else if isList token.value then
               let
-                collectionContents = foldl' parseToken {
-                  acc = [];
+                collectionContents = accFinish (foldl' parseToken {
+                  acc = accEmpty;
                   dotted = false;
                   inList = token.type == "list";
                   inherit (state) depthReduction;
-                } token.value;
+                } token.value).acc;
+                acc =
+                  if state.dotted then
+                    accPushAll state.acc collectionContents
+                  else
+                    accPush state.acc (token // {
+                      value = collectionContents;
+                      depth = token.depth - state.depthReduction;
+                    });
               in
-                state // {
-                  acc = state.acc ++ (
-                    if state.dotted then
-                      collectionContents.acc
-                    else
-                      [
-                        (token // {
-                          value = collectionContents.acc;
-                          depth = token.depth - state.depthReduction;
-                        })
-                      ]
-                  );
+                seq acc (state // {
+                  inherit acc;
                   dotted = false;
-                }
+                })
             else
-              state // {
-                acc = state.acc ++ [token];
-              };
+              let acc = accPush state.acc token;
+              in seq acc (state // { inherit acc; });
         in
-          (foldl' parseToken { acc = []; dotted = false; inList = false; depthReduction = 0; } tokens).acc;
+          accFinish (foldl' parseToken { acc = accEmpty; dotted = false; inList = false; depthReduction = 0; } tokens).acc;
 
       parseQuotes = let
         isQuote = lib.flip elem [ "quote" "expand" "slice" "backquote" "function" "record" "byteCode" ];
@@ -490,7 +424,7 @@ let
               token =
                 if isList token'.value then
                   token' // {
-                    value = (foldl' parseToken { acc = []; quotes = []; } token'.value).acc;
+                    value = accFinish (foldl' parseToken { acc = accEmpty; quotes = []; } token'.value).acc;
                   }
                 else
                   token';
@@ -506,17 +440,17 @@ let
                       inherit value;
                     };
                   quotedValue = foldl' quote token state.quotes;
+                  acc = accPush state.acc quotedValue;
                 in
-                  state // {
-                    acc = state.acc ++ [ quotedValue ];
+                  seq acc (state // {
+                    inherit acc;
                     quotes = [];
-                  }
+                  })
               else
-                state // {
-                  acc = state.acc ++ [ token ];
-                };
+                let acc = accPush state.acc token;
+                in seq acc (state // { inherit acc; });
         in
-          (foldl' parseToken { acc = []; quotes = []; } tokens).acc;
+          accFinish (foldl' parseToken { acc = accEmpty; quotes = []; } tokens).acc;
     in
       parseQuotes (parseDots (parseCollections (parseValues tokens)));
 
