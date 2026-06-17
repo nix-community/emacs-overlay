@@ -605,6 +605,7 @@
   cider = callPackage (
     {
       clojure-mode,
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -618,13 +619,14 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.21.0";
+      version = "1.22.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/cider-1.21.0.tar";
-        sha256 = "0rfjq6fqvam9v7mcx1459p377ryzi9wf7p2dn68nd51f324hx0gj";
+        url = "https://elpa.nongnu.org/nongnu/cider-1.22.1.tar";
+        sha256 = "0mr9fk9hk113q4z1m0arzvgghhjrkmkv7ngghl6qbxzy07ycswgb";
       };
       packageRequires = [
         clojure-mode
+        compat
         parseedn
         queue
         seq
