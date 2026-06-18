@@ -483,10 +483,10 @@
     elpaBuild {
       pname = "auctex-cont-latexmk";
       ename = "auctex-cont-latexmk";
-      version = "0.3.0.20250115.185937";
+      version = "0.3.0.20260617.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-cont-latexmk-0.3.0.20250115.185937.tar";
-        sha256 = "1rdnnc7ihg12dprivywjmhfl5s2cb58bl2n3fy7gf6h2wsjw0md5";
+        url = "https://elpa.gnu.org/devel/auctex-cont-latexmk-0.3.0.20260617.10.tar";
+        sha256 = "1dcppji0h1yd75iv6ihg7iyjzwf14l6h32cf7k4aiyb58d8x2ka6";
       };
       packageRequires = [ auctex ];
       meta = {
@@ -7655,10 +7655,10 @@
     elpaBuild {
       pname = "preview-auto";
       ename = "preview-auto";
-      version = "0.4.2.0.20260327.92953";
+      version = "0.4.2.0.20260617.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/preview-auto-0.4.2.0.20260327.92953.tar";
-        sha256 = "0mc0gwl3hk5fq9qfysxkphj9irzabm5bgkv8cz7m60k9s5g399rh";
+        url = "https://elpa.gnu.org/devel/preview-auto-0.4.2.0.20260617.3.tar";
+        sha256 = "1p518f3b78lxsjbq3q4vkj25hy04yrm9xk1srk9clr3jx3i8gbvr";
       };
       packageRequires = [ auctex ];
       meta = {
@@ -9625,10 +9625,10 @@
     elpaBuild {
       pname = "tex-parens";
       ename = "tex-parens";
-      version = "0.7.0.20250709.53958";
+      version = "0.7.0.20260225.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tex-parens-0.7.0.20250709.53958.tar";
-        sha256 = "0mbcgc17cy8imk7dzh9krwd62dy2h7fj5pzvfr1wggdczrs2zva8";
+        url = "https://elpa.gnu.org/devel/tex-parens-0.7.0.20260225.9.tar";
+        sha256 = "040997wgzhkc071hrlcidakicxm1p8fg3mdykr5476cw3ffx6ra1";
       };
       packageRequires = [ ];
       meta = {
