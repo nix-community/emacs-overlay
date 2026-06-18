@@ -6732,10 +6732,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260615.334";
+      version = "10.0.20260616.336";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260615.334.tar";
-        sha256 = "0sl10523m7fc0c3b9m5qiplivm276v7pw453ccfjcsz95dfz3ky2";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260616.336.tar";
+        sha256 = "0k2g988mi2gl6yp5zlhniw31486qg6bya7kv32d64i9aak5d9sl7";
       };
       packageRequires = [ ];
       meta = {
