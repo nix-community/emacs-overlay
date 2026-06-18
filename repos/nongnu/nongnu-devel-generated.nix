@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.1.0.20260617.7";
+      version = "1.22.2.0.20260617.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.1.0.20260617.7.tar";
-        sha256 = "1qn59lhf6kn90bzk3vhvpx7cwkilvgs3j70nqf2lrggza7yy479r";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.2.0.20260617.6.tar";
+        sha256 = "117lp3nsvx1g2zzh6zbbl3qsc69mhxad2nvpgw33vx2v1v0mq14n";
       };
       packageRequires = [
         clojure-mode
@@ -3689,10 +3689,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260616.300";
+      version = "4.5.0.0.20260617.301";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260616.300.tar";
-        sha256 = "0clbzpc9kqb5pd3i426g4yyqsiahvizd5xc33qrww9dnvmvskvcx";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260617.301.tar";
+        sha256 = "0ck3pnvfqdq7dvq7a3hhqjrhfq9wndbr0jmqa9207q9lzwjax7z0";
       };
       packageRequires = [
         compat
@@ -3722,10 +3722,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260616.300";
+      version = "4.5.0.0.20260617.301";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260616.300.tar";
-        sha256 = "1m124pc88i0ywwhm5rzj70r876liafndlj280yzpg5i1s6iaymyf";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260617.301.tar";
+        sha256 = "0aa45jyh54aipp3fdq8w3kcbvc8p1cnvax78ji8s1xafla3aqks5";
       };
       packageRequires = [
         compat
@@ -4883,10 +4883,10 @@
     elpaBuild {
       pname = "rfc-mode";
       ename = "rfc-mode";
-      version = "1.4.2.0.20260127.180740";
+      version = "1.4.2.0.20260617.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rfc-mode-1.4.2.0.20260127.180740.tar";
-        sha256 = "1i01x9k208zasil586q1jz28hdl5hpx964a6bgb6wwgf9ya79xlx";
+        url = "https://elpa.nongnu.org/nongnu-devel/rfc-mode-1.4.2.0.20260617.2.tar";
+        sha256 = "1kk70niw36vb2ldrclk34r6hy4555hcqkcbss2dn1mfbp9sf54d6";
       };
       packageRequires = [ ];
       meta = {
@@ -5745,10 +5745,10 @@
     elpaBuild {
       pname = "tuareg";
       ename = "tuareg";
-      version = "3.0.20.20260615.32";
+      version = "3.0.20.20260617.40";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tuareg-3.0.20.20260615.32.tar";
-        sha256 = "0cp8s5ikciilhs9dyxrb5nmjqdggizx5sgh92p5bcc4gbcy8j0jj";
+        url = "https://elpa.nongnu.org/nongnu-devel/tuareg-3.0.20.20260617.40.tar";
+        sha256 = "0xmfvmxnk50pymajgmymwzmhjs8x5ac9dg1r7mx4iwsv15x13m4f";
       };
       packageRequires = [ caml ];
       meta = {
