@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.2.0.20260617.6";
+      version = "1.22.2.0.20260618.12";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.2.0.20260617.6.tar";
-        sha256 = "117lp3nsvx1g2zzh6zbbl3qsc69mhxad2nvpgw33vx2v1v0mq14n";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.2.0.20260618.12.tar";
+        sha256 = "0rqg2vl56g1svfyzdah6k9ya8k5bfi6k2ls8j2if03rsqwh7v1hs";
       };
       packageRequires = [
         clojure-mode
@@ -1873,10 +1873,10 @@
     elpaBuild {
       pname = "exec-path-from-shell";
       ename = "exec-path-from-shell";
-      version = "2.2.0.20260529.11";
+      version = "2.2.0.20260618.12";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/exec-path-from-shell-2.2.0.20260529.11.tar";
-        sha256 = "0dg61kcp7x36wma0rbylrfv4jnj5z2hrr01zl3wzcljxjx3l58xl";
+        url = "https://elpa.nongnu.org/nongnu-devel/exec-path-from-shell-2.2.0.20260618.12.tar";
+        sha256 = "0ak9d8wbivkq2cvnd7qpxk9xdjqy1wxlnq1kip1wsyq3kwhqqd5q";
       };
       packageRequires = [ ];
       meta = {
@@ -3327,10 +3327,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.11.0.0.20260616.3";
+      version = "0.11.0.0.20260617.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.11.0.0.20260616.3.tar";
-        sha256 = "039nqrl6g5rb6s3sbcrxdnikcralc1afl01qfybmriaxsg1b3z0s";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.11.0.0.20260617.8.tar";
+        sha256 = "07slywr9jfsdcfnxkb0gklca1yi7srx4rs16g6pg83pvf6fmydfc";
       };
       packageRequires = [
         fsm
@@ -3562,10 +3562,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.15.0.0.20260527.20";
+      version = "0.15.0.0.20260617.23";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260527.20.tar";
-        sha256 = "0jvxk90nhiirls2z2v3m184avgdq7yxvg83dpssw8i2ykcka3avj";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260617.23.tar";
+        sha256 = "083l7py46xxbc98i19vdnij6gg6d0z9f5xx6xhg7fpy6wdqqqzab";
       };
       packageRequires = [
         compat
