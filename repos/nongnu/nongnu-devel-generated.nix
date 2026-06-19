@@ -205,10 +205,10 @@
     elpaBuild {
       pname = "apache-mode";
       ename = "apache-mode";
-      version = "2.2.0.0.20251120.174624";
+      version = "2.2.0.0.20260618.15";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/apache-mode-2.2.0.0.20251120.174624.tar";
-        sha256 = "0f536bc064ykjajsgyxcbdjxch14wi2kkxhva9szi802l78zkdhh";
+        url = "https://elpa.nongnu.org/nongnu-devel/apache-mode-2.2.0.0.20260618.15.tar";
+        sha256 = "10n61089a40jh3n8ail15m7vy5k0lxgyw4jd31p4zihd45q4hhx1";
       };
       packageRequires = [ ];
       meta = {
@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.2.0.20260618.12";
+      version = "1.22.2.0.20260618.21";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.2.0.20260618.12.tar";
-        sha256 = "0rqg2vl56g1svfyzdah6k9ya8k5bfi6k2ls8j2if03rsqwh7v1hs";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.2.0.20260618.21.tar";
+        sha256 = "18fb8slgqr44pyq8njh9ix45nqgarnr6j76qxwahy9cim41lab9m";
       };
       packageRequires = [
         clojure-mode
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.0.1.0.20260616.12";
+      version = "4.0.1.0.20260618.13";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.0.1.0.20260616.12.tar";
-        sha256 = "0pkdg5mmkb69lzmbjidfn9r6fsz4iizqpby3cq7ycb6bv9mfa59y";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.0.1.0.20260618.13.tar";
+        sha256 = "0g299rwzaschcamzy8s8wmizzkkvn6837fvnwc0ll294ziignmxz";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2912,10 +2912,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260611.16";
+      version = "4.0.7.0.20260618.17";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260611.16.tar";
-        sha256 = "0i4ynv7jrxnw04srq18x0vakgn6x48gcfy5z8s2d238n9c0yywgx";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260618.17.tar";
+        sha256 = "1ag56zh4cqjghlr67hddinnnp1826sxr6xx7jh8hxiqspnaxydkf";
       };
       packageRequires = [
         helm-core
@@ -2937,10 +2937,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260611.16";
+      version = "4.0.7.0.20260618.17";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260611.16.tar";
-        sha256 = "0qngby1dj4k434v9lq6j8k02znpvkyi8gw8qk038982c0rz2lgkp";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260618.17.tar";
+        sha256 = "0y1j2h7cda8f5ah9r9200f22p5nwiqkppp0avygnbf0b3b45vswp";
       };
       packageRequires = [ async ];
       meta = {
@@ -4947,10 +4947,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20260521.74503";
+      version = "1.0.6.0.20260618.49";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260521.74503.tar";
-        sha256 = "0ns6miia0yngp9jb8p0k8clk6iglz96v9a9rchns1kmchn7dypfy";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260618.49.tar";
+        sha256 = "1ldkx6plsvaijibb4szyjs2b3hcl6svmbd8fn0j4015558shif4q";
       };
       packageRequires = [ ];
       meta = {
@@ -5376,10 +5376,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.5.1.0.20260610.0";
+      version = "1.5.1.0.20260618.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.1.0.20260610.0.tar";
-        sha256 = "0g3pibc3rjvvc2sxi4kplw8q13wwc0r1mp44yamb4i6am2sbnw05";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.1.0.20260618.1.tar";
+        sha256 = "1b74rndjdjawxl6fbksw7816135hyyk9sffijcrfyfd5c9k0c5zn";
       };
       packageRequires = [ ];
       meta = {
