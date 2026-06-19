@@ -3562,10 +3562,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.15.0.0.20260617.23";
+      version = "0.15.0.0.20260619.24";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260617.23.tar";
-        sha256 = "083l7py46xxbc98i19vdnij6gg6d0z9f5xx6xhg7fpy6wdqqqzab";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260619.24.tar";
+        sha256 = "09wpnzranfjzx95fz78j9lan3g5bqakb1r586lsrw6q1hjaglm7f";
       };
       packageRequires = [
         compat
@@ -6224,10 +6224,10 @@
     elpaBuild {
       pname = "xml-rpc";
       ename = "xml-rpc";
-      version = "1.6.17.0.20251122.185743";
+      version = "1.6.17.0.20260619.13";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xml-rpc-1.6.17.0.20251122.185743.tar";
-        sha256 = "1sshmzg6v27v8l0q3lq2apfvpbkkg71dyn7mk99a56qab4ajm6zs";
+        url = "https://elpa.nongnu.org/nongnu-devel/xml-rpc-1.6.17.0.20260619.13.tar";
+        sha256 = "0h0l1xlifl12n2bhjr9yx8nffl0wbhi1mnlj0f1w7f9b3vdgcn1a";
       };
       packageRequires = [ ];
       meta = {
