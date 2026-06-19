@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.4.0.20260618.81";
+      version = "0.1.4.0.20260619.82";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20260618.81.tar";
-        sha256 = "0qal94pjdj2n5d6rv7nsx5dz27p4nw0z0dwjbhv05gf82rf12cy0";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20260619.82.tar";
+        sha256 = "0rf10gab6vfrmiwcvm6b6cb0a3vlaydc4cgfpq34na9czqn760r0";
       };
       packageRequires = [ ];
       meta = {
@@ -5028,10 +5028,10 @@
     elpaBuild {
       pname = "javaimp";
       ename = "javaimp";
-      version = "0.9.2.0.20260609.5";
+      version = "0.9.2.0.20260619.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260609.5.tar";
-        sha256 = "19idgvgzwcvxm2169sm5hcjc0pdafb51ivfy56znxqy9qh8i81x4";
+        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260619.6.tar";
+        sha256 = "0axf8n0ymm80gswwf8hj20rzzdln04is1qy9ri8bd1iw689lvdgd";
       };
       packageRequires = [ ];
       meta = {
@@ -5545,10 +5545,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.31.0.0.20260610.2";
+      version = "0.31.0.0.20260619.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.31.0.0.20260610.2.tar";
-        sha256 = "1ay5n740ydnyjgzyznrrg4wdi9milrhnaj62b5s7wpf0r4mbc3jd";
+        url = "https://elpa.gnu.org/devel/llm-0.31.0.0.20260619.3.tar";
+        sha256 = "16fh0z46dikrh400x4yw6bc72kvl9ll3xjyxmmx8xdvrs3hqfgkm";
       };
       packageRequires = [
         compat
