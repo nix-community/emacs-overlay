@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260616.38";
+      version = "14.1.2.0.20260618.39";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260616.38.tar";
-        sha256 = "007s6m8wjaad6a988pmyjj96yjjh3j7mqz4h1rn99a1yyr80km09";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260618.39.tar";
+        sha256 = "0lv0axynphpflrjp688fh7q20rjrrhhbfdyqbn2wqd5dajnh1qjp";
       };
       packageRequires = [ ];
       meta = {
@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.4.0.20251121.60244";
+      version = "0.1.4.0.20260618.81";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20251121.60244.tar";
-        sha256 = "0423n65lcxd56xc4q1mihwb07y81y12wh2qiwgwc1n1b7wilbpkg";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20260618.81.tar";
+        sha256 = "0qal94pjdj2n5d6rv7nsx5dz27p4nw0z0dwjbhv05gf82rf12cy0";
       };
       packageRequires = [ ];
       meta = {
@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260604.136";
+      version = "1.0.2.0.20260618.138";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260604.136.tar";
-        sha256 = "0d85zlxdb65ih6shqpcj7h14anmyd80m2k1phwrikw85ayasacc0";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260618.138.tar";
+        sha256 = "072y63bvpq6falkg3yqv8smhkba2nqlw6crm5809pqrihfm8ybii";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -2752,10 +2752,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.1.0.0.20260522.84122";
+      version = "1.1.0.0.20260618.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.1.0.0.20260522.84122.tar";
-        sha256 = "0m47s4l94vmzswh4qhvxgvijpyyfsmj4vrh0jajyniqpchw1bgxf";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.1.0.0.20260618.8.tar";
+        sha256 = "11ck5y66zh9lwiiqmxfh1w4s5k8irvncmd6zsanhh8wb2fd9wms8";
       };
       packageRequires = [ ];
       meta = {
@@ -3874,10 +3874,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.2.3.0.20260613.6";
+      version = "0.2.3.0.20260618.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.2.3.0.20260613.6.tar";
-        sha256 = "054r1hq8falhjyffmg49m9fnk5i5h19msk0jyrkmj83jyqk78qj5";
+        url = "https://elpa.gnu.org/devel/forgejo-0.2.3.0.20260618.10.tar";
+        sha256 = "1zk4dmy8yc49rd0snh5m5b9yvl5hy3s4sqh5b4nlpw9w2xn9vhfq";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -4653,10 +4653,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.20.20260617.1161";
+      version = "9.0.20.20260618.1171";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260617.1161.tar";
-        sha256 = "16cb30bb83lrdvvxjcfx71vk6fgv181f6xkr43dmzm8wr0nfhrrn";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260618.1171.tar";
+        sha256 = "09szcxcac82cs3b69lyw1aa410m6arwjzmy0yk6c6p2pscjgzf3i";
       };
       packageRequires = [ ];
       meta = {
