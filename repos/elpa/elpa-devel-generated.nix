@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260618.39";
+      version = "14.1.2.0.20260619.40";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260618.39.tar";
-        sha256 = "0lv0axynphpflrjp688fh7q20rjrrhhbfdyqbn2wqd5dajnh1qjp";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260619.40.tar";
+        sha256 = "12pg6ybl7n5z34i1bf005c8c1mrd6gchy25s1s8wa5is3zd7mq2s";
       };
       packageRequires = [ ];
       meta = {
@@ -3874,10 +3874,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.2.3.0.20260618.10";
+      version = "0.2.3.0.20260619.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.2.3.0.20260618.10.tar";
-        sha256 = "1zk4dmy8yc49rd0snh5m5b9yvl5hy3s4sqh5b4nlpw9w2xn9vhfq";
+        url = "https://elpa.gnu.org/devel/forgejo-0.2.3.0.20260619.16.tar";
+        sha256 = "1ywj3k0syc09qx267dyj313qhdm583jij2raacz6q9vrh53wwrsz";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -5286,10 +5286,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.7.0.0.20260614.0";
+      version = "0.7.1.0.20260619.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.7.0.0.20260614.0.tar";
-        sha256 = "032y6ghgf2ip19jv3qvkhndi90njy921y4169173lmq4m4ilzz98";
+        url = "https://elpa.gnu.org/devel/kubed-0.7.1.0.20260619.0.tar";
+        sha256 = "0lgdl06lv66zxy5qcdnhrc118hxllaj7zjr7aphdm755lckd3f3i";
       };
       packageRequires = [ ];
       meta = {
@@ -6732,10 +6732,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260616.336";
+      version = "10.0.20260619.338";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260616.336.tar";
-        sha256 = "0k2g988mi2gl6yp5zlhniw31486qg6bya7kv32d64i9aak5d9sl7";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260619.338.tar";
+        sha256 = "02y4c0wl1j4rdyb6qlazcsg3z03a4mbs53gchpy2mqcvww2qrm8f";
       };
       packageRequires = [ ];
       meta = {
@@ -10174,10 +10174,10 @@
     elpaBuild {
       pname = "urgrep";
       ename = "urgrep";
-      version = "0.6.10.20260606.2";
+      version = "0.6.10.20260619.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/urgrep-0.6.10.20260606.2.tar";
-        sha256 = "0k7a4ir7zk12s43anzmxss3bgwm3r9ylchc36kazlwam3isj45mh";
+        url = "https://elpa.gnu.org/devel/urgrep-0.6.10.20260619.3.tar";
+        sha256 = "1cakwsfi1caz1z30d3dshsjq348ghzh6s9z474zwcdycay94037i";
       };
       packageRequires = [ compat ];
       meta = {
