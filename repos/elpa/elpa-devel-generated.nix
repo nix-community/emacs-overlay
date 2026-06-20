@@ -3565,10 +3565,10 @@
     elpaBuild {
       pname = "expreg";
       ename = "expreg";
-      version = "1.4.1.0.20250918.220913";
+      version = "1.4.1.0.20260619.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/expreg-1.4.1.0.20250918.220913.tar";
-        sha256 = "1fdwxr3albv7ww87w8ib8r0rid8zkibcgbl3qhp29vm8g28s89ws";
+        url = "https://elpa.gnu.org/devel/expreg-1.4.1.0.20260619.7.tar";
+        sha256 = "0dxdr7ahhj17fvsvpb0w6ylh20qkgrvy53pc9a0r6m8pv97i6mx0";
       };
       packageRequires = [ ];
       meta = {
@@ -6732,10 +6732,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260619.338";
+      version = "10.0.20260620.341";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260619.338.tar";
-        sha256 = "02y4c0wl1j4rdyb6qlazcsg3z03a4mbs53gchpy2mqcvww2qrm8f";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260620.341.tar";
+        sha256 = "0wd7pqw95dzj0g4bgpkdm2d6i71bq6i8169wjqn2jzgzhm1rbcaj";
       };
       packageRequires = [ ];
       meta = {
@@ -7832,10 +7832,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20260523.45";
+      version = "0.30.0.20260620.46";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20260523.45.tar";
-        sha256 = "0kcmax4ri8y2dmjx0q7f13gxkfyakw55kb297g5kv7c7ffrlyg06";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20260620.46.tar";
+        sha256 = "00vdr03pbmfv6sbvjk410x13msfgm3d3f6qs8hpkb67pg4q87xzb";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8672,10 +8672,10 @@
     elpaBuild {
       pname = "shift-number";
       ename = "shift-number";
-      version = "0.3.0.20260524.213344";
+      version = "0.3.0.20260620.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/shift-number-0.3.0.20260524.213344.tar";
-        sha256 = "0xrnhqv4ifyqma07mlp5jp9q7732l6vwff5z5b0dmha267175x7f";
+        url = "https://elpa.gnu.org/devel/shift-number-0.3.0.20260620.7.tar";
+        sha256 = "1gcw56jy1l1p8z5mxin5wm679s7v2nsbx3v1mzszpv7hy94cvfvy";
       };
       packageRequires = [ ];
       meta = {
