@@ -291,10 +291,10 @@
     elpaBuild {
       pname = "autothemer";
       ename = "autothemer";
-      version = "0.2.18.0.20260531.6";
+      version = "0.2.18.0.20260620.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/autothemer-0.2.18.0.20260531.6.tar";
-        sha256 = "0ldl56y2r7ah4d7wx96c4kh9ws4y7l4g0c0747gih4mg7sfbrl46";
+        url = "https://elpa.nongnu.org/nongnu-devel/autothemer-0.2.18.0.20260620.7.tar";
+        sha256 = "1awdmkxy2gdrk20j63k8fjclfsmnkx33hm55x636fmcrh2niqcg7";
       };
       packageRequires = [ dash ];
       meta = {
@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.23.0.20260619.7";
+      version = "1.23.0.20260620.15";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260619.7.tar";
-        sha256 = "13rzn090i1bcghhmvcg89dqhh9p3s1sqp26mxbccbck8zrkw5mkd";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260620.15.tar";
+        sha256 = "16dnn1z0l7hwxg56xj6rr73wd3d1rb12ay6j7w8jqxfh7kyzcsrl";
       };
       packageRequires = [
         clojure-mode
@@ -3562,10 +3562,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.15.0.0.20260619.24";
+      version = "0.15.0.0.20260620.25";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260619.24.tar";
-        sha256 = "09wpnzranfjzx95fz78j9lan3g5bqakb1r586lsrw6q1hjaglm7f";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.15.0.0.20260620.25.tar";
+        sha256 = "16aj7wgzsa0gb8fcfcqnh20h2mls43b6c5rbj3qliq52zpd01103";
       };
       packageRequires = [
         compat
@@ -4670,10 +4670,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0.20260620.128";
+      version = "2.10.0.20260620.133";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260620.128.tar";
-        sha256 = "1lf7di30px963d9j3b2p7dkqdryifm4a2q1qib33mjsga895q06m";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260620.133.tar";
+        sha256 = "1l2m7v59jx8myiaswyrwrm2z60hkk8vqnfl7bnzzvjcs10jafl82";
       };
       packageRequires = [ compat ];
       meta = {
