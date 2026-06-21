@@ -3004,10 +3004,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.23.0.20260602.27";
+      version = "1.23.0.20260620.29";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.23.0.20260602.27.tar";
-        sha256 = "0vsxay4yn96qjrvf9bx7ssdn6wfs94jha170avgnnds6crsa7ryx";
+        url = "https://elpa.gnu.org/devel/eglot-1.23.0.20260620.29.tar";
+        sha256 = "112x4i385s2qqqbz3xpycxrnfgf00j6xksd0jqlsi2v0milhcd57";
       };
       packageRequires = [
         eldoc
@@ -6732,10 +6732,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260620.341";
+      version = "10.0.20260620.354";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260620.341.tar";
-        sha256 = "0wd7pqw95dzj0g4bgpkdm2d6i71bq6i8169wjqn2jzgzhm1rbcaj";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260620.354.tar";
+        sha256 = "0ibds86vmqww15fnw2a0qbyxa19ri7ar7gp4xbbjnlmkjc19lp9z";
       };
       packageRequires = [ ];
       meta = {
@@ -8672,10 +8672,10 @@
     elpaBuild {
       pname = "shift-number";
       ename = "shift-number";
-      version = "0.3.0.20260620.7";
+      version = "0.3.0.20260620.18";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/shift-number-0.3.0.20260620.7.tar";
-        sha256 = "1gcw56jy1l1p8z5mxin5wm679s7v2nsbx3v1mzszpv7hy94cvfvy";
+        url = "https://elpa.gnu.org/devel/shift-number-0.3.0.20260620.18.tar";
+        sha256 = "0a3yh31yhl4w4js1zg97pmlmg3jjg499b0b55iijhirxi0n7pm5q";
       };
       packageRequires = [ ];
       meta = {
