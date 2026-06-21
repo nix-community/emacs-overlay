@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260619.40";
+      version = "14.1.2.0.20260620.41";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260619.40.tar";
-        sha256 = "12pg6ybl7n5z34i1bf005c8c1mrd6gchy25s1s8wa5is3zd7mq2s";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260620.41.tar";
+        sha256 = "06cs7rlcxww1mg6zgdx24p13vbkxwfckkin5zlnj3rsvn34ylwvm";
       };
       packageRequires = [ ];
       meta = {
@@ -5545,10 +5545,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.31.0.0.20260619.3";
+      version = "0.31.0.0.20260621.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.31.0.0.20260619.3.tar";
-        sha256 = "16fh0z46dikrh400x4yw6bc72kvl9ll3xjyxmmx8xdvrs3hqfgkm";
+        url = "https://elpa.gnu.org/devel/llm-0.31.0.0.20260621.4.tar";
+        sha256 = "0x8lz0yz7lldrbcrvxky4kq341v8873hk9hyayrl51qmd9qbx9l0";
       };
       packageRequires = [
         compat
@@ -8672,10 +8672,10 @@
     elpaBuild {
       pname = "shift-number";
       ename = "shift-number";
-      version = "0.3.0.20260620.18";
+      version = "0.3.0.20260621.19";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/shift-number-0.3.0.20260620.18.tar";
-        sha256 = "0a3yh31yhl4w4js1zg97pmlmg3jjg499b0b55iijhirxi0n7pm5q";
+        url = "https://elpa.gnu.org/devel/shift-number-0.3.0.20260621.19.tar";
+        sha256 = "08wc1kb8fvccfaw1c5n5cpmpxrjhzxaamsp9076lb59aa2ffgsz8";
       };
       packageRequires = [ ];
       meta = {
