@@ -2908,10 +2908,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.1.0";
+      version = "2.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ef-themes-2.1.0.tar";
-        sha256 = "09rb5pkqz63mc86f8n7969f8x27jdrhz51rh6vl0v3j4nvivv3dx";
+        url = "https://elpa.gnu.org/packages/ef-themes-2.2.0.tar";
+        sha256 = "0jm3hqg53cq0dfvmszmwzwrfi9n2mgdbz176qzxhjqm16rw2bwds";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -6046,10 +6046,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0";
+      version = "5.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/modus-themes-5.2.0.tar";
-        sha256 = "1715x863mbvcc2lqf61lll5j50zhpc0jysdgd7v0ajznx40kqmxv";
+        url = "https://elpa.gnu.org/packages/modus-themes-5.3.0.tar";
+        sha256 = "04561ndfxq2y17drklkb3wl9kl6hdc05d4b6rrlqs3fdxcs6q6mx";
       };
       packageRequires = [ ];
       meta = {
