@@ -6732,10 +6732,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260621.358";
+      version = "10.0.20260621.359";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260621.358.tar";
-        sha256 = "1cn8vp8cimx84n60fr589fgf3ha6y2ky64j1mfppkz1m45nbdz2j";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260621.359.tar";
+        sha256 = "0j4w1ag8sxxyhwyxsaaq2vay10jg4f7svsmz4jq5m19sqyi8n0jd";
       };
       packageRequires = [ ];
       meta = {
@@ -10504,10 +10504,10 @@
     elpaBuild {
       pname = "verilog-mode";
       ename = "verilog-mode";
-      version = "2026.1.18.88738971.0.20260118.95917";
+      version = "2026.4.14.10117132.0.20260621.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/verilog-mode-2026.1.18.88738971.0.20260118.95917.tar";
-        sha256 = "1h5mp70kg1w85g0kx6ipdczkza553d7mzffxx832j4wx3wr5afql";
+        url = "https://elpa.gnu.org/devel/verilog-mode-2026.4.14.10117132.0.20260621.0.tar";
+        sha256 = "1c5jkwxv3bpc9mpsbja9dzycz8zpccsjc7wg5ws5zxlzqbi2p46q";
       };
       packageRequires = [ ];
       meta = {
