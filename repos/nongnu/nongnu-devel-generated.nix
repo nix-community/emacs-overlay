@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.23.0.20260622.27";
+      version = "1.23.0.20260622.31";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260622.27.tar";
-        sha256 = "0xvxvwcafn72pmqvg8zys3ipa0gccypxm9gzrfsvv22wwxj7wmaj";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260622.31.tar";
+        sha256 = "1jrgxrkfkbrvrv7ghq8v095xq5wmb5byrn2j21bzirk4vj0v7hlg";
       };
       packageRequires = [
         clojure-mode
@@ -3689,10 +3689,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260621.305";
+      version = "4.5.0.0.20260622.306";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260621.305.tar";
-        sha256 = "189gjg635azm30jxcad2k4zf165pqx6ccwg61yp1ijvfh9h54rxk";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260622.306.tar";
+        sha256 = "07r0zjz7n6vy7fywmqf577vh7mx801104ph7302m4icawqbrk1gd";
       };
       packageRequires = [
         compat
@@ -3722,10 +3722,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260621.305";
+      version = "4.5.0.0.20260622.306";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260621.305.tar";
-        sha256 = "0skhfia11lx1k1snpzi319wv69w88k81w5lqfawlvfcvmmgv0sw9";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260622.306.tar";
+        sha256 = "017345kx3wpfipy6pas53cyrhg4qx9pjl8ja7kram2g1hra3hm3z";
       };
       packageRequires = [
         compat
@@ -4691,10 +4691,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.60.20260124.135141";
+      version = "4.60.20260622.265";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.60.20260124.135141.tar";
-        sha256 = "090vhhlb1lif6al1mlxjh8dkb33prhpzs182d82wjp1f20rdcwn5";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.60.20260622.265.tar";
+        sha256 = "1b9qv3dv173aqx5k0drkysk017g1ycrzy25kzdhkxg8280kz3v5k";
       };
       packageRequires = [ ];
       meta = {
