@@ -5995,10 +5995,10 @@
     elpaBuild {
       pname = "web-mode";
       ename = "web-mode";
-      version = "17.3.23";
+      version = "17.3.24";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/web-mode-17.3.23.tar";
-        sha256 = "17l0lda5p8nf239b0x43w8fx9a87rmk9rk282983nqi4f57iyzb2";
+        url = "https://elpa.nongnu.org/nongnu/web-mode-17.3.24.tar";
+        sha256 = "129hz6h2ygmqhn3bbjxx2gpdnvh0gifc4xaipsjz0716rj1s0k81";
       };
       packageRequires = [ ];
       meta = {

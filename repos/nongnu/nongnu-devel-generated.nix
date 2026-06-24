@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.0.1.0.20260621.14";
+      version = "4.0.1.0.20260623.15";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.0.1.0.20260621.14.tar";
-        sha256 = "1i6v0slp13cvcpzx5xswyblx90qpl0bm72p5s4ga1rs10xppdf13";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.0.1.0.20260623.15.tar";
+        sha256 = "1l9zizafja49r9kmn85qv3sfwh4kpp44yvz33b6gfrj06gn1mppf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1331,10 +1331,10 @@
     elpaBuild {
       pname = "elfeed-web";
       ename = "elfeed-web";
-      version = "4.0.0.0.20260611.1";
+      version = "4.0.0.0.20260623.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-web-4.0.0.0.20260611.1.tar";
-        sha256 = "1m7ybd54w1zhmsgg7xhdblzhfiwdvld9gd87i1cw1wm35pkabds8";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-web-4.0.0.0.20260623.3.tar";
+        sha256 = "18sqr02xn2vzfajysbz8i0f2m6vqq39c2vhazs8bi638vjk4irc0";
       };
       packageRequires = [
         compat
@@ -2608,10 +2608,10 @@
     elpaBuild {
       pname = "gnuplot";
       ename = "gnuplot";
-      version = "0.12.0.20260523.142122";
+      version = "0.12.0.20260623.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.12.0.20260523.142122.tar";
-        sha256 = "0rx00dkw8g2z67ax69pywr342awh3dv0scyb7ry002f78spiswya";
+        url = "https://elpa.nongnu.org/nongnu-devel/gnuplot-0.12.0.20260623.2.tar";
+        sha256 = "0w38z2cmrrnc0bh6pdsqyrhsipz59lknfrkcyahybpbi80x0cgl8";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5143,10 +5143,10 @@
     elpaBuild {
       pname = "simple-httpd";
       ename = "simple-httpd";
-      version = "1.6.0.20260519.102820";
+      version = "1.6.0.20260623.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/simple-httpd-1.6.0.20260519.102820.tar";
-        sha256 = "10s9jhpj6y9yfbifg3099980maikvky13p3n5nmhqnn4zqifq38m";
+        url = "https://elpa.nongnu.org/nongnu-devel/simple-httpd-1.6.0.20260623.1.tar";
+        sha256 = "1npss5lv7r2nzvbhzh5jr7w53n2hx6w9pws554srh25hw68v3zd4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5956,10 +5956,10 @@
     elpaBuild {
       pname = "web-mode";
       ename = "web-mode";
-      version = "17.3.23.0.20260331.144101";
+      version = "17.3.24.0.20260623.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/web-mode-17.3.23.0.20260331.144101.tar";
-        sha256 = "1yk7dcsgry69dz3scx32p4zqp1ay6354rr017ygqffkl0fcqhgdg";
+        url = "https://elpa.nongnu.org/nongnu-devel/web-mode-17.3.24.0.20260623.0.tar";
+        sha256 = "0k6p06qbcclc2hywplpk09iz266k80zhlw4031whrrrmij9700j6";
       };
       packageRequires = [ ];
       meta = {
