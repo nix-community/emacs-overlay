@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.23.0.20260622.31";
+      version = "1.23.0.20260624.34";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260622.31.tar";
-        sha256 = "1jrgxrkfkbrvrv7ghq8v095xq5wmb5byrn2j21bzirk4vj0v7hlg";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260624.34.tar";
+        sha256 = "0p56g5ni3w6rlajqp368zi6gw4jp0c0s5786fh04iv0kyqipw60p";
       };
       packageRequires = [
         clojure-mode
@@ -2912,10 +2912,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260622.19";
+      version = "4.0.7.0.20260624.21";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260622.19.tar";
-        sha256 = "071m47vnbaq1wq1s12w2qs40bg66rz0li0vsl4lczskvz8a2c8d2";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260624.21.tar";
+        sha256 = "13kprv1v1snk018m4ccjiyj8ndmc9jf7f5saw896kq16rdiwq72p";
       };
       packageRequires = [
         helm-core
@@ -2937,10 +2937,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260622.19";
+      version = "4.0.7.0.20260624.21";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260622.19.tar";
-        sha256 = "1d16pj6ra3zw1xfivin8n64rvdr606z7rscj55acs5mphp731yyx";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260624.21.tar";
+        sha256 = "1w3xdawc6br7i0300544rc6c35yrbck2rkd0d667fv4c79nhvix3";
       };
       packageRequires = [ async ];
       meta = {
@@ -4309,20 +4309,22 @@
       elpaBuild,
       fetchurl,
       lib,
+      llama,
       magit,
       org,
     }:
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.1.3.0.20260601.0";
+      version = "2.1.3.0.20260623.18";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.1.3.0.20260601.0.tar";
-        sha256 = "1lccnb3pk1hs3xzfyxpbn7fvcg53zp1qj5jf5i2i8vc72k32h1rd";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.1.3.0.20260623.18.tar";
+        sha256 = "0cpi9xzs79jbysj127z72611x82wpbzhfgz603ww454x9qiyb9fa";
       };
       packageRequires = [
         compat
         cond-let
+        llama
         magit
         org
       ];
@@ -6064,18 +6066,20 @@
       elpaBuild,
       fetchurl,
       lib,
+      llama,
     }:
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.5.1.0.20260613.1";
+      version = "3.5.1.0.20260623.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.1.0.20260613.1.tar";
-        sha256 = "0z9a3flfdfh6ssb30q8rnd2871h4dcyhykgqwsijn6bynlmin2r4";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.1.0.20260623.3.tar";
+        sha256 = "16mfh41zkdylbk92cizm4ia69lwirq58mb8rms9v448s41w2wvka";
       };
       packageRequires = [
         compat
         cond-let
+        llama
       ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/with-editor.html";
