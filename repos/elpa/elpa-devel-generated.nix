@@ -2413,10 +2413,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20260613.180";
+      version = "1.10.0.0.20260624.182";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260613.180.tar";
-        sha256 = "0c1qls9baf3nq7r0irgjw5fn6lw7g4swgmd3i46bsg8rb7s1a7r3";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260624.182.tar";
+        sha256 = "1gppg1sqc4gwc9szl83zbaw1hk140zqw9sy275cl85v7bd4wdvja";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -5545,10 +5545,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.31.0.0.20260621.4";
+      version = "0.31.1.0.20260624.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.31.0.0.20260621.4.tar";
-        sha256 = "0x8lz0yz7lldrbcrvxky4kq341v8873hk9hyayrl51qmd9qbx9l0";
+        url = "https://elpa.gnu.org/devel/llm-0.31.1.0.20260624.0.tar";
+        sha256 = "0cakiavkq25axdvpnpsj57qfwppb3g14aww0vxzdpb8w80wzf1h1";
       };
       packageRequires = [
         compat
