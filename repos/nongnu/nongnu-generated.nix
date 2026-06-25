@@ -269,10 +269,10 @@
     elpaBuild {
       pname = "auto-dim-other-buffers";
       ename = "auto-dim-other-buffers";
-      version = "2.2.1";
+      version = "2.2.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/auto-dim-other-buffers-2.2.1.tar";
-        sha256 = "00x0niv1zd47b2xl19k3fi0xxskdndiabns107cxzwb7pnkp4f0m";
+        url = "https://elpa.nongnu.org/nongnu/auto-dim-other-buffers-2.2.2.tar";
+        sha256 = "1464kwsdkzh4v0w2y8sv2v5w1s552a2pq1q81jpbfwh2md47ais2";
       };
       packageRequires = [ ];
       meta = {

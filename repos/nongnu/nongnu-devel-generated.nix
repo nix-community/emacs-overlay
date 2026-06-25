@@ -269,10 +269,10 @@
     elpaBuild {
       pname = "auto-dim-other-buffers";
       ename = "auto-dim-other-buffers";
-      version = "2.2.1.0.20250116.140242";
+      version = "2.2.2.0.20260624.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/auto-dim-other-buffers-2.2.1.0.20250116.140242.tar";
-        sha256 = "07v5n7d3whk79by6xwd1gak1m73k4zpcscwfminfidj3f6rmkj92";
+        url = "https://elpa.nongnu.org/nongnu-devel/auto-dim-other-buffers-2.2.2.0.20260624.0.tar";
+        sha256 = "1kpglnqss61dx9px0v2agbnfnjymjynslr31mpc73p6qjv0fqgcv";
       };
       packageRequires = [ ];
       meta = {
@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.23.0.20260624.34";
+      version = "1.23.0.20260624.57";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260624.34.tar";
-        sha256 = "0p56g5ni3w6rlajqp368zi6gw4jp0c0s5786fh04iv0kyqipw60p";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260624.57.tar";
+        sha256 = "1arn3dys52y1adcrnhlijrcj498slgfjfp55xg64jb6s7a39hkin";
       };
       packageRequires = [
         clojure-mode
