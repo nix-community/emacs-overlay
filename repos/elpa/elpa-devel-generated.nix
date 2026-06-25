@@ -4653,10 +4653,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.20.20260622.1172";
+      version = "9.0.20.20260624.1177";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260622.1172.tar";
-        sha256 = "0590d8ww3yq2p9x85m6435acrsmnnwg7njz96jg7wrkbnadjkyx1";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260624.1177.tar";
+        sha256 = "0vpw1qs68dismv67zz27wpdxm9r0k1mn49kh1w7y1r3km9ag2d40";
       };
       packageRequires = [ ];
       meta = {
@@ -7293,10 +7293,10 @@
     elpaBuild {
       pname = "php-fill";
       ename = "php-fill";
-      version = "1.1.1.0.20260307.232207";
+      version = "1.1.2.0.20260624.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/php-fill-1.1.1.0.20260307.232207.tar";
-        sha256 = "0vsq47s8cph31fc7ij3j34z4g3r830cr35498rkz9psrjzsr4jsy";
+        url = "https://elpa.gnu.org/devel/php-fill-1.1.2.0.20260624.0.tar";
+        sha256 = "016gy8dmvavw75h5ccyfzmhg3z634yhifwgkvydw87qnlrfm452p";
       };
       packageRequires = [ ];
       meta = {
