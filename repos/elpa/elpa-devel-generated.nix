@@ -2413,10 +2413,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20260624.182";
+      version = "1.10.0.0.20260625.184";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260624.182.tar";
-        sha256 = "1gppg1sqc4gwc9szl83zbaw1hk140zqw9sy275cl85v7bd4wdvja";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260625.184.tar";
+        sha256 = "0b50vbwqllp5ygpapyd8jsswqxmqdgdbh881hycn4ws37rhv31lg";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -4459,10 +4459,10 @@
     elpaBuild {
       pname = "guess-language";
       ename = "guess-language";
-      version = "0.0.1.0.20260529.147";
+      version = "0.0.1.0.20260625.150";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/guess-language-0.0.1.0.20260529.147.tar";
-        sha256 = "05dcakya74m9q459kywfdy1qyvlpdxwhg7fhphqqahj9pwa85yd9";
+        url = "https://elpa.gnu.org/devel/guess-language-0.0.1.0.20260625.150.tar";
+        sha256 = "0g3cvp1p1bpbf2h5vwrjcghj4bkhcpx00jqsivvrmyighpmgpxzs";
       };
       packageRequires = [
         cl-lib
@@ -5028,10 +5028,10 @@
     elpaBuild {
       pname = "javaimp";
       ename = "javaimp";
-      version = "0.9.2.0.20260619.6";
+      version = "0.9.2.0.20260625.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260619.6.tar";
-        sha256 = "0axf8n0ymm80gswwf8hj20rzzdln04is1qy9ri8bd1iw689lvdgd";
+        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260625.8.tar";
+        sha256 = "1ymr43ah3bk6yyg01xja91im4rm3jjipfv1i6w3hfgz1xwl7iyl4";
       };
       packageRequires = [ ];
       meta = {
@@ -7059,10 +7059,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "2.3.0.20260623.1";
+      version = "2.3.0.20260624.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-2.3.0.20260623.1.tar";
-        sha256 = "07a7vwcpqjrq5vrvsb0bmmx0vjsdxq3449pfcsnnyamws3qhrwa1";
+        url = "https://elpa.gnu.org/devel/osm-2.3.0.20260624.3.tar";
+        sha256 = "0mr3vci8d0bfldi9ci2hlf3s2f7zgvld371l60g5f8k6ybwnf30m";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9956,10 +9956,10 @@
     elpaBuild {
       pname = "transient-cycles";
       ename = "transient-cycles";
-      version = "2.0.0.20250625.85410";
+      version = "2.1.0.20260625.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-cycles-2.0.0.20250625.85410.tar";
-        sha256 = "1782gr8hwidfxilggb83s2v9wzkvyhcxbv3nj8f4aylhcdahfzf8";
+        url = "https://elpa.gnu.org/devel/transient-cycles-2.1.0.20260625.0.tar";
+        sha256 = "1jadhnszdnc9hj6992bpdmdrqcrig0r172dis8cwxksfrcb0qpgs";
       };
       packageRequires = [ ];
       meta = {
