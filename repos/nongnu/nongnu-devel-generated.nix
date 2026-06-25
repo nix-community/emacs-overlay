@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.23.0.20260624.57";
+      version = "1.23.0.20260625.70";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260624.57.tar";
-        sha256 = "1arn3dys52y1adcrnhlijrcj498slgfjfp55xg64jb6s7a39hkin";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260625.70.tar";
+        sha256 = "0vvvq24235q1kcbnlsglqmpnzf30rd2q3ak033wgskmbwdxkgbg6";
       };
       packageRequires = [
         clojure-mode
@@ -3689,10 +3689,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260622.306";
+      version = "4.5.0.0.20260624.307";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260622.306.tar";
-        sha256 = "07r0zjz7n6vy7fywmqf577vh7mx801104ph7302m4icawqbrk1gd";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260624.307.tar";
+        sha256 = "0nq32n9vmr3g4xy9gzv24d8g8b7v9lqiff8rqymjibaif2a9ylwm";
       };
       packageRequires = [
         compat
@@ -3722,10 +3722,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260622.306";
+      version = "4.5.0.0.20260624.307";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260622.306.tar";
-        sha256 = "017345kx3wpfipy6pas53cyrhg4qx9pjl8ja7kram2g1hra3hm3z";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260624.307.tar";
+        sha256 = "0rip7snl2gmxapb4dcwflafi37pb23a78rmlvs43lf6ly3by92l2";
       };
       packageRequires = [
         compat
@@ -6071,10 +6071,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.5.1.0.20260623.3";
+      version = "3.5.1.0.20260625.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.1.0.20260623.3.tar";
-        sha256 = "16mfh41zkdylbk92cizm4ia69lwirq58mb8rms9v448s41w2wvka";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.1.0.20260625.4.tar";
+        sha256 = "0ddja6pzwdfa924cqfspd6d1fm0i8d3j5hxxsb42ny9pg7908sy5";
       };
       packageRequires = [
         compat
