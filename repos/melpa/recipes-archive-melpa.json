@@ -13806,8 +13806,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20260625,
-    1527
+    20260626,
+    945
    ],
    "deps": [
     "clojure-mode",
@@ -13819,8 +13819,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "7bf7cbd7f296dd012b043ea33160039f91ed9f81",
-   "sha256": "1q4ias86mv86jhx303sz2fwdgabw6fzpq2j5baaxsqqzj9b2xdb0"
+   "commit": "436c8e3b1796479d65a724f0689d0c1450674f60",
+   "sha256": "1q59qsnq1prbfmdazjn7skhqh6chqclpwfk6vf9q39r8df1w0xdl"
   },
   "stable": {
    "version": [
@@ -16915,14 +16915,14 @@
   "repo": "company-mode/company-mode",
   "unstable": {
    "version": [
-    20260618,
-    1349
+    20260626,
+    420
    ],
    "deps": [
     "posframe"
    ],
-   "commit": "04fa1b9bfe150b1f8c76cea47c3a4af3f0e1b22e",
-   "sha256": "156vlp2a67dcn9cp3w8pgkjjmq51aw1w3w929wrhhvkq1kg0v20r"
+   "commit": "7b85d09784c2cf5f209cad98bdef2254c084c379",
+   "sha256": "1phpgjxbrqrfakg6fhmdgkhh1sklvwh4ljk711pbbvg68ld5df9w"
   },
   "stable": {
    "version": [
@@ -20536,8 +20536,8 @@
   "repo": "copilot-emacs/copilot.el",
   "unstable": {
    "version": [
-    20260625,
-    1536
+    20260626,
+    953
    ],
    "deps": [
     "compat",
@@ -20545,13 +20545,13 @@
     "jsonrpc",
     "track-changes"
    ],
-   "commit": "0884441f3486c92423e418f6a6d69aae75a274cc",
-   "sha256": "0r50k4c7b5vxcdjl53hf4hsv3cm1n1q9anmkjszgz634p6clp3a9"
+   "commit": "16664ca0b59c045c7209bdcd590fdc7831812dac",
+   "sha256": "0vlqqr7w4dqhid5spsl7r9fj5app015gqv2ivpxp02gz28p9cjdy"
   },
   "stable": {
    "version": [
     0,
-    6,
+    7,
     0
    ],
    "deps": [
@@ -20560,8 +20560,8 @@
     "jsonrpc",
     "track-changes"
    ],
-   "commit": "2882a50182a6e2ca3b1ccfded22645831a85a59a",
-   "sha256": "1gyhg2lix2k2xc3g30455li3kqjgllwyhb6z8jakvnivd7gd314p"
+   "commit": "65015f0db9ba74a9e8e9b7a22e236f80d9b7dd94",
+   "sha256": "1g5kjy850ax70sb32wciqb75ckc7dhz26bsq3lg3701zfr6yvfmg"
   }
  },
  {
@@ -21228,10 +21228,10 @@
  },
  {
   "ename": "counsel-fd",
-  "commit": "b2e58e2a0bf3825d6ef43455fd3e60b33c88aaa2",
-  "sha256": "1ywyg2l1dx2rziw23b0i5m4xg4n8laarkq9wbbq80ma5pjb18ims",
+  "commit": "28dfcdf4682782b00234542bc9a06f2f57db66db",
+  "sha256": "0nhvqi3xr3pkrf1l1s6iihsk3hhjb7nrj4bi8i2m0bdgr1inwja0",
   "fetcher": "github",
-  "repo": "CsBigDataHub/counsel-fd",
+  "repo": "ChetanKoneru/counsel-fd",
   "unstable": {
    "version": [
     20221011,
@@ -30916,26 +30916,6 @@
    ],
    "commit": "39b833d2e51ae5ce66ebdec7c5425ff0d34e02d2",
    "sha256": "0xy3q68i47a3s81jwr0rdvc1722bp78ng56xm53pri05g1z0db9s"
-  }
- },
- {
-  "ename": "ede-compdb",
-  "commit": "3b70138b7d82aec2d60f4a7c0cd21e734a1fc52a",
-  "sha256": "1ypi7rxbgg2qck1b571hcw5m4ipllb48g6sindpdf180kbfbfpn7",
-  "fetcher": "github",
-  "repo": "randomphrase/ede-compdb",
-  "unstable": {
-   "version": [
-    20150920,
-    2033
-   ],
-   "deps": [
-    "cl-lib",
-    "ede",
-    "semantic"
-   ],
-   "commit": "23c91082270fcef24ea791b848f1604e36888ff0",
-   "sha256": "03xphcdw4b6z8i3dgrmq0l8m5nfpsjn0jv0y1rlabrbvxw1gpcqq"
   }
  },
  {
@@ -78558,14 +78538,14 @@
   "repo": "ltex-plus/emacs-ltex-plus",
   "unstable": {
    "version": [
-    20260625,
-    1303
+    20260626,
+    618
    ],
    "deps": [
     "lsp-mode"
    ],
-   "commit": "dcb24de7db1b7d162534b39358ec416a0d4b9356",
-   "sha256": "0a353jmfx92rpb41mz776mz9yvndpqcccdx42y3dcigimma4ah80"
+   "commit": "dc617ed2a21f6453053d218601fee38d1bfd6c70",
+   "sha256": "00fnyw9s7nhkr6l4f9lv10zar13crcj5jrlq7i85py3s37xfmrbh"
   },
   "stable": {
    "version": [
@@ -96265,14 +96245,14 @@
   "repo": "laurynas-biveinis/org-mcp",
   "unstable": {
    "version": [
-    20260620,
-    1427
+    20260626,
+    810
    ],
    "deps": [
     "mcp-server-lib"
    ],
-   "commit": "eea4942d82858297d6f31d5872bce3e3ebe8bb50",
-   "sha256": "1hkvp98jc8la6akq0lvxldnjd7xnl1pn4g6dh8727yyba8y1q08m"
+   "commit": "d6027d7632ddc2d6e29ce042ee26ff03c069bd20",
+   "sha256": "10vnc2fz8sdhpgnavz1g0vqaijad2b536y95naikgp8bymi7c8hb"
   },
   "stable": {
    "version": [
@@ -107474,10 +107454,10 @@
  },
  {
   "ename": "popterm",
-  "commit": "e4d79aed1b29079b096ae3453d874fd830b369b7",
-  "sha256": "1k0kzr7ax1mzpv60ln1ky2x06yl7psznga6x4mnh52xxgwh1f95m",
+  "commit": "166bc08a635f453e7204dc0515e0a8b3efef0159",
+  "sha256": "0sg55hmxn0hx5lmwr7r58c3d46aaxxsddg955a4vyf8pk7dkmcxg",
   "fetcher": "github",
-  "repo": "CsBigDataHub/popterm.el",
+  "repo": "ChetanKoneru/popterm.el",
   "unstable": {
    "version": [
     20260621,
@@ -109084,14 +109064,14 @@
   "repo": "bbatsov/projectile",
   "unstable": {
    "version": [
-    20260625,
-    1453
+    20260626,
+    710
    ],
    "deps": [
     "compat"
    ],
-   "commit": "4119e3eebe0f3c22d31820c1c5483199e5678c01",
-   "sha256": "0c9p51fsfj7ajz2cxz1igxpa1rfjwyxs0f25hjfrw2grmx8pwmni"
+   "commit": "50c002a824903370e935b741bd2d073b7efcfd56",
+   "sha256": "0h8kg5lxrrsq1a3czlnydv4bcx4zl98c9gc07222bv2hvj6rgrmy"
   },
   "stable": {
    "version": [
@@ -128492,10 +128472,10 @@
  },
  {
   "ename": "tengo-mode",
-  "commit": "9ae2528b4322ed892d54e61a2c7c086a028aeab1",
-  "sha256": "1c1c4lmilr7d1688df0ykn1j2gjg5n2sa942pr957fr2q0vay75n",
+  "commit": "7a51fd6e6eb4485d7add6216b690c19897bbfa6a",
+  "sha256": "1bll91n7x0dgxs78r49rx8k5fpsrqi9b2dy2da2w7llmk62klsmn",
   "fetcher": "github",
-  "repo": "CsBigDataHub/tengo-mode",
+  "repo": "ChetanKoneru/tengo-mode",
   "unstable": {
    "version": [
     20260125,
@@ -132897,14 +132877,11 @@
   "stable": {
    "version": [
     3,
-    0,
-    1
+    1,
+    0
    ],
-   "deps": [
-    "caml"
-   ],
-   "commit": "4d94293cc5a7bba6cd043e29968719ce597d65f5",
-   "sha256": "1p3xpk78i8ywgdmc59w05wjjy9dg6gm5gicm08szmrlnx08v2ihm"
+   "commit": "29ed86896e24c9d9d9855cf05ab7a6166a030250",
+   "sha256": "0gmgxqy0x3318gpwb8bjr5f53mv9xy3psrcz1h9c4xqrc189lm68"
   }
  },
  {
