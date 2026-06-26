@@ -2152,14 +2152,14 @@
   "repo": "Marx-A00/agent-recall",
   "unstable": {
    "version": [
-    20260515,
-    1821
+    20260625,
+    2157
    ],
    "deps": [
     "agent-shell"
    ],
-   "commit": "89436ed83a7a77a424627479ff486ca97a009f4a",
-   "sha256": "06v7rd7m0pszjs9g23djbxv679vnijy367ja3mhcaz8013504jir"
+   "commit": "cd1eb493ad911e1907588b559ea79cd899f2d6d1",
+   "sha256": "020ym155c5dqfdx21dn6sgf2lr442rvjgvdfxbd3rxwijv46hgy8"
   }
  },
  {
@@ -2171,14 +2171,14 @@
   "unstable": {
    "version": [
     20260625,
-    929
+    2243
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "1d4265fc5c8bf3b0c3f47ff0084df633587ae801",
-   "sha256": "0y6ykwrlq2xmfl3c630fmrwyl8pk0mfpcgvibpsac3l6wfm91s83"
+   "commit": "c59a0a9e94e964ebb15dbdf94838b58ccb03cb20",
+   "sha256": "1wwzyahwcfqlshd9ybvfi0hwsy6m4kb972spw5i5lipvp19gqbw9"
   },
   "stable": {
    "version": [
@@ -36733,11 +36733,11 @@
   "repo": "alexmurray/erc-matterircd",
   "unstable": {
    "version": [
-    20210804,
-    504
+    20260625,
+    2137
    ],
-   "commit": "e3a59267c044474f9ca066d36517e9a3d872759c",
-   "sha256": "1iqyyhaz8zypgj9ij8ivqym0xry10zzyi8qf16fzg2ppxl47bc5i"
+   "commit": "831a3db4e4064fe02249feeee8813929ad9c48ff",
+   "sha256": "18k78bpdvzs7w4mm8j1zr4pwi2hll7xc54v5d71xqnq4p2iisks1"
   }
  },
  {
@@ -39128,14 +39128,14 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20260625,
-    41
+    20260626,
+    255
    ],
    "deps": [
     "evil"
    ],
-   "commit": "727b1b3da1a5705d7ea7ce91373d45d1c0e3cc72",
-   "sha256": "1lw7xa7fx575fq5x7y5yivlfg4cckh46hxpiji76qfyh267vashq"
+   "commit": "162183159dde328336bf2c92cef66b4151df26cf",
+   "sha256": "1wghq0y7jnipwggisbccjdw0p5s5204f5vczdjkrv56llid92svv"
   },
   "stable": {
    "version": [
@@ -42789,11 +42789,11 @@
   "repo": "technomancy/fennel-mode",
   "unstable": {
    "version": [
-    20260507,
-    757
+    20260625,
+    1756
    ],
-   "commit": "1ef8ae0cff094cfba750e72b897e03eaeebbc117",
-   "sha256": "1q31ym8gy1m9xyn9w633br8kz0wxkzk4cri6373y0d5a4ic9r53c"
+   "commit": "0a672d41be405570209e8fafca738162b4ac7111",
+   "sha256": "1i0mn5bwywxxvr9nbz1filbhsj07fp90z4hbic1lw67yd7r25zh3"
   },
   "stable": {
    "version": [
@@ -64919,11 +64919,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20260624,
-    1841
+    20260625,
+    2240
    ],
-   "commit": "88a9155f9dd3bc59fe047800c506b519bef7ef7f",
-   "sha256": "18vb009jy4xgqm399wwm8rmy8yzj5kdp1sbrq2i6ilcw0f6cdgkq"
+   "commit": "968bb40736f9c7999ce30b37b723d97358901ba4",
+   "sha256": "1j1phqckb7ldjprl0rn0am5nh3wszzs7lpgccx3ifgpsf2h7mjms"
   },
   "stable": {
    "version": [
@@ -72429,11 +72429,11 @@
   "repo": "Fabiokleis/kanagawa-emacs",
   "unstable": {
    "version": [
-    20260522,
-    325
+    20260625,
+    2142
    ],
-   "commit": "399dff7bc7abf5726ef85f880aa70d10b433afb4",
-   "sha256": "16ya2f28z5c68pf7i0zy555nv9ly8ggsr50g2mrfycwpg5na2zim"
+   "commit": "fe06241196bf9c77df751cfd74a984b5d8a45ba4",
+   "sha256": "0g4mr3y69zdi9hvw7d3mv7k2jz7a5xggyyh4sarwibwgxckbkfrp"
   }
  },
  {
@@ -77989,8 +77989,8 @@
   "repo": "okamsn/loopy",
   "unstable": {
    "version": [
-    20260622,
-    2352
+    20260625,
+    2355
    ],
    "deps": [
     "compat",
@@ -77998,14 +77998,14 @@
     "seq",
     "stream"
    ],
-   "commit": "09fecad848c8671902ceae7d74afecdd29a84ac5",
-   "sha256": "1bg0icla79jjjplh5ibjbcimnkxiziiw6r3s13prg2fr6mngbs1f"
+   "commit": "70427df284cc0a70a75c00be221fbabc433183c5",
+   "sha256": "0pjf0h3nzlbikxwqik58qwp2qgqyai6v1vx9kw7m7y43x46nv5hq"
   },
   "stable": {
    "version": [
     0,
     16,
-    0
+    1
    ],
    "deps": [
     "compat",
@@ -78013,8 +78013,8 @@
     "seq",
     "stream"
    ],
-   "commit": "09fecad848c8671902ceae7d74afecdd29a84ac5",
-   "sha256": "1bg0icla79jjjplh5ibjbcimnkxiziiw6r3s13prg2fr6mngbs1f"
+   "commit": "70427df284cc0a70a75c00be221fbabc433183c5",
+   "sha256": "0pjf0h3nzlbikxwqik58qwp2qgqyai6v1vx9kw7m7y43x46nv5hq"
   }
  },
  {
@@ -88318,8 +88318,8 @@
   "repo": "ewantown/nice-org-html",
   "unstable": {
    "version": [
-    20250608,
-    1715
+    20260625,
+    1926
    ],
    "deps": [
     "dash",
@@ -88327,8 +88327,8 @@
     "s",
     "uuidgen"
    ],
-   "commit": "bdb49bbe22dbd99489f2c65a10cb90f29d39d80d",
-   "sha256": "1gm9dr5914hgq07xng06w2myhn115ayv5x8br6s2njw9lqmj6zxz"
+   "commit": "16c9efdd92a12c78a55364f3d5e8e310585aa012",
+   "sha256": "0skahzl2ai7v92cl40p8hxs2qj82dbpf9gmq7314s2gbdibklpk3"
   }
  },
  {
@@ -140313,13 +140313,13 @@
   "unstable": {
    "version": [
     20260625,
-    1615
+    2003
    ],
    "deps": [
     "xterm-color"
    ],
-   "commit": "33621b5a6e5407da190767b89756e287698ef234",
-   "sha256": "1ys8yrm96lmp7m86z7xvik939hl1a25h9bqawix4irg2kpaclnc3"
+   "commit": "7027cccea9eb7170ea0f08e1def3f979f2e59932",
+   "sha256": "13vbizdhjy7qxnh0blppsha58h3srqd3dqas326llv05yk9yhapw"
   },
   "stable": {
    "version": [
