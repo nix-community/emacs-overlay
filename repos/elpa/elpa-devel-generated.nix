@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260618.138";
+      version = "1.0.2.0.20260626.139";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260618.138.tar";
-        sha256 = "072y63bvpq6falkg3yqv8smhkba2nqlw6crm5809pqrihfm8ybii";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260626.139.tar";
+        sha256 = "1pxp9znd063kikzvwi3irg3qa0lhj77jjbgvlnxyffq6ic25f5rn";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -4653,10 +4653,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.20.20260625.1180";
+      version = "9.0.20.20260625.1185";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260625.1180.tar";
-        sha256 = "1q3vjfz99ayli13ip83vx05yh34w7qgnffxwla1nq2zv1v04gg1p";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260625.1185.tar";
+        sha256 = "0izzds6m1f5rq2wslv1b2wixcin37q30wj4crix0q71yw6lq0l71";
       };
       packageRequires = [ ];
       meta = {
@@ -8533,6 +8533,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/sed-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  sendai-theme = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "sendai-theme";
+      ename = "sendai-theme";
+      version = "0.10.20260625.65";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/sendai-theme-0.10.20260625.65.tar";
+        sha256 = "0cxgp7p73w0dx1ixs0vs0957brrl8acvh4ji23v2k6ax4g26cnh1";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/sendai-theme.html";
         license = lib.licenses.free;
       };
     }
