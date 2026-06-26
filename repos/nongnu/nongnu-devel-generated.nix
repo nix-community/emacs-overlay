@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.23.0.20260625.80";
+      version = "1.23.0.20260626.87";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260625.80.tar";
-        sha256 = "16ig2wkdpj63qalsqdzwshvzvi9ds3axx5cn3cj0k8fssr7byf20";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260626.87.tar";
+        sha256 = "01jbj9l3rwx338a3pn3ywbx0y68bl38v46q8dxbaarfy3ip7kipn";
       };
       packageRequires = [
         clojure-mode
@@ -3562,10 +3562,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.16.0.0.20260622.0";
+      version = "0.16.1.0.20260625.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.0.0.20260622.0.tar";
-        sha256 = "1s534lm9ysk8q0z4ndlb4zxns1mzpffy1p11zf4qy54qsh0brj9x";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20260625.0.tar";
+        sha256 = "0fwqf6rwzw0dy4jv7wsymdh4vi1zxh9wk17lsrqmqmpdijs3dhda";
       };
       packageRequires = [
         compat
@@ -4672,10 +4672,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0.20260625.141";
+      version = "2.10.0.20260626.143";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260625.141.tar";
-        sha256 = "168ci135vbzlk4ydfmqj4xfngd8qmsq16v7hqmpj10n2lfw1jfrz";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260626.143.tar";
+        sha256 = "184dj2c2an2hxhvrb2d6pp5qzi0f83r111gihkazf2mxqcnw3ps4";
       };
       packageRequires = [ compat ];
       meta = {
