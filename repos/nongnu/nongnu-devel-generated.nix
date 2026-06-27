@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.23.0.20260626.87";
+      version = "1.23.0.20260626.96";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260626.87.tar";
-        sha256 = "01jbj9l3rwx338a3pn3ywbx0y68bl38v46q8dxbaarfy3ip7kipn";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260626.96.tar";
+        sha256 = "0m5k72s754y14bb06mqq3i3xsa7znknckdlxqhhf3hnzml1c0nf8";
       };
       packageRequires = [
         clojure-mode
@@ -3327,10 +3327,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.11.0.0.20260619.11";
+      version = "0.11.1.0.20260626.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.11.0.0.20260619.11.tar";
-        sha256 = "0gjjbl93l0x9sqlmxabrpirkkw5c514pbja74znmdh3j89b7x5zs";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.11.1.0.20260626.0.tar";
+        sha256 = "0259211q3qnqqny0hw8dmkhrk3pf29cb4nla8rxjixj1azm7m6jr";
       };
       packageRequires = [
         fsm
@@ -4672,10 +4672,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0.20260626.143";
+      version = "2.10.0.20260626.144";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260626.143.tar";
-        sha256 = "184dj2c2an2hxhvrb2d6pp5qzi0f83r111gihkazf2mxqcnw3ps4";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260626.144.tar";
+        sha256 = "10ai6cvwrwp2ppxnxivz4whqnp32546ya11layqx5wighpd6b2wa";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5739,7 +5739,6 @@
   ) { };
   tuareg = callPackage (
     {
-      caml,
       elpaBuild,
       fetchurl,
       lib,
@@ -5747,12 +5746,12 @@
     elpaBuild {
       pname = "tuareg";
       ename = "tuareg";
-      version = "3.0.20.20260617.40";
+      version = "3.1.10.20260626.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tuareg-3.0.20.20260617.40.tar";
-        sha256 = "0xmfvmxnk50pymajgmymwzmhjs8x5ac9dg1r7mx4iwsv15x13m4f";
+        url = "https://elpa.nongnu.org/nongnu-devel/tuareg-3.1.10.20260626.1.tar";
+        sha256 = "1i39nivcr182xkapdy5cmhxw6x6f467xnzx2fdl4hw31r5v3jrxc";
       };
-      packageRequires = [ caml ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/tuareg.html";
         license = lib.licenses.free;

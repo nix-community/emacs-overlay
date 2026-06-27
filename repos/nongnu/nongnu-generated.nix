@@ -3344,10 +3344,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.11.0";
+      version = "0.11.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/jabber-0.11.0.tar";
-        sha256 = "1wikfd8iqj9r1qrh6cd593vgbkjndfpm9f12ilsdwxwh0nx3cpd7";
+        url = "https://elpa.nongnu.org/nongnu/jabber-0.11.1.tar";
+        sha256 = "0whwljpzqpwi07jq1x489jncgc8pm18ai1xnicrjiyf6fa3yxqbg";
       };
       packageRequires = [
         fsm
@@ -5776,7 +5776,6 @@
   ) { };
   tuareg = callPackage (
     {
-      caml,
       elpaBuild,
       fetchurl,
       lib,
@@ -5784,12 +5783,12 @@
     elpaBuild {
       pname = "tuareg";
       ename = "tuareg";
-      version = "3.0.1";
+      version = "3.1.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/tuareg-3.0.1.tar";
-        sha256 = "04lb71cafg4bqicx3q3rb9jpxbq6hmdrzw88f52sjqxq5c4cqdkj";
+        url = "https://elpa.nongnu.org/nongnu/tuareg-3.1.0.tar";
+        sha256 = "1fhw143rmdzrfrh6y3jdsyq6yqwv1dy6m6sg4s3mbqhnhxawc9sm";
       };
-      packageRequires = [ caml ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/tuareg.html";
         license = lib.licenses.free;
