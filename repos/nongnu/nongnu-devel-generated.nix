@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.23.0.20260626.96";
+      version = "1.23.0.20260627.98";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260626.96.tar";
-        sha256 = "0m5k72s754y14bb06mqq3i3xsa7znknckdlxqhhf3hnzml1c0nf8";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260627.98.tar";
+        sha256 = "00i772dcdzmmmplsav1svlh02a20486w9qi9i85bl0kyikxfma1p";
       };
       packageRequires = [
         clojure-mode
@@ -3562,10 +3562,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.16.1.0.20260625.0";
+      version = "0.16.1.0.20260627.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20260625.0.tar";
-        sha256 = "0fwqf6rwzw0dy4jv7wsymdh4vi1zxh9wk17lsrqmqmpdijs3dhda";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20260627.1.tar";
+        sha256 = "0bpwjy1nj6yy3j84098y2q2dsvamg8wg33aphvgnp6spdrszbbma";
       };
       packageRequires = [
         compat
