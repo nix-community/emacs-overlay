@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260626.139";
+      version = "1.0.2.0.20260626.141";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260626.139.tar";
-        sha256 = "1pxp9znd063kikzvwi3irg3qa0lhj77jjbgvlnxyffq6ic25f5rn";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260626.141.tar";
+        sha256 = "16daybmdj7arp0n2zgmchqxdrbzjq0hccxqkxcyaa5f8h3xzir5z";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -3178,10 +3178,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.28.0.0.20260625.2";
+      version = "1.29.0.0.20260626.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.28.0.0.20260625.2.tar";
-        sha256 = "169xqfdcifp2pvn3wwz0310vrcpc3kv3kf4gc4v82lrgwm3ql55h";
+        url = "https://elpa.gnu.org/devel/ellama-1.29.0.0.20260626.1.tar";
+        sha256 = "1d48r7a06vnsi8q41w6q3jaic0r0vlr65ysvhh1jckmn5rps6khw";
       };
       packageRequires = [
         compat
@@ -8546,10 +8546,10 @@
     elpaBuild {
       pname = "sendai-theme";
       ename = "sendai-theme";
-      version = "0.10.20260625.65";
+      version = "0.10.20260626.66";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/sendai-theme-0.10.20260625.65.tar";
-        sha256 = "0cxgp7p73w0dx1ixs0vs0957brrl8acvh4ji23v2k6ax4g26cnh1";
+        url = "https://elpa.gnu.org/devel/sendai-theme-0.10.20260626.66.tar";
+        sha256 = "0hc8nxh1bhhy6xfka1kmja6giay99z4ps54hhlbmsb1aqlj4h90z";
       };
       packageRequires = [ ];
       meta = {

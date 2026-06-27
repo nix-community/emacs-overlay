@@ -3110,10 +3110,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.28.0";
+      version = "1.29.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.28.0.tar";
-        sha256 = "097v43aiy3lhi59fsv9fdhc6gpkglggfmqvg0kl8s79qw5rwr6wn";
+        url = "https://elpa.gnu.org/packages/ellama-1.29.0.tar";
+        sha256 = "1spl8z3lnq6gjm4lrk5s205k3wn0v34lc7b0wc6yl5mz855zvw2w";
       };
       packageRequires = [
         compat
