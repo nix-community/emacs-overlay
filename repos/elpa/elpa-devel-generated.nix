@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260626.141";
+      version = "1.0.2.0.20260627.142";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260626.141.tar";
-        sha256 = "16daybmdj7arp0n2zgmchqxdrbzjq0hccxqkxcyaa5f8h3xzir5z";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260627.142.tar";
+        sha256 = "1c6l03phq9yi0h1i369lplvxyz9lxyf8fkd6lf9gq9dywf1l3xx6";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -2413,10 +2413,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20260625.184";
+      version = "1.10.0.0.20260627.186";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260625.184.tar";
-        sha256 = "0b50vbwqllp5ygpapyd8jsswqxmqdgdbh881hycn4ws37rhv31lg";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260627.186.tar";
+        sha256 = "0anq2hcihzsm3ff0g0smk8w72x5fi3frqymbm1dci679ssx4316v";
       };
       packageRequires = [ cl-lib ];
       meta = {
