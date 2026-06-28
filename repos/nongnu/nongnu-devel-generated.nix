@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.23.0.20260627.98";
+      version = "1.23.0.20260627.101";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260627.98.tar";
-        sha256 = "00i772dcdzmmmplsav1svlh02a20486w9qi9i85bl0kyikxfma1p";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260627.101.tar";
+        sha256 = "1dhjda8xyjxl5mv8hpp6ab0m2953bdcmn5pq07yawaiqib2dbw38";
       };
       packageRequires = [
         clojure-mode
@@ -3590,10 +3590,10 @@
     elpaBuild {
       pname = "loopy-dash";
       ename = "loopy-dash";
-      version = "0.13.0.0.20260312.12155";
+      version = "0.13.0.0.20260626.9";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-dash-0.13.0.0.20260312.12155.tar";
-        sha256 = "1rg98wgrh5s6slafz8g8piazz04pa6fwiymgpic6hcrmf842fgpy";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-dash-0.13.0.0.20260626.9.tar";
+        sha256 = "0b0lcyjmr90dj1z82q923pg4wc4hqixnp6afpsyqmbxqgg827r5n";
       };
       packageRequires = [
         dash
@@ -4672,10 +4672,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0.20260626.144";
+      version = "2.10.0.20260627.145";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260626.144.tar";
-        sha256 = "10ai6cvwrwp2ppxnxivz4whqnp32546ya11layqx5wighpd6b2wa";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260627.145.tar";
+        sha256 = "11mz000dlnq0qw6661wr3a6ikd36h9mk64qlxdg91626aayqm53s";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4737,10 +4737,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20260303.123213";
+      version = "1.0.20260626.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260303.123213.tar";
-        sha256 = "1iqbrsy5sivv9mm6sk48vj1mv4magh7bg7346i1a02plr0hg8qml";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260626.0.tar";
+        sha256 = "19lbiv2wd1fs1jzr4j9q89j41hbhvlgfg9h48bjxki8dqs96d668";
       };
       packageRequires = [ compat ];
       meta = {
