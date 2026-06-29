@@ -4653,10 +4653,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.20.20260628.1190";
+      version = "9.0.20.20260628.1200";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260628.1190.tar";
-        sha256 = "0i1h8xj0lk7y50xl27lj4yx35cyv6f9nkkzj5p54n145fj82567r";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260628.1200.tar";
+        sha256 = "0d5am2sjsdcjp4rsclrf5g9rws0vpwc35d1fz6xpamyzx5fgp67m";
       };
       packageRequires = [ ];
       meta = {
@@ -6758,10 +6758,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260627.365";
+      version = "10.0.20260629.366";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260627.365.tar";
-        sha256 = "0m9r50mcp96dmsgz88dcwlz03y5lf3f11g4m00xjladgmjv04129";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260629.366.tar";
+        sha256 = "0krcamiw8qq13xg671s93bcy5ws1rvjgc7diwhkl8f6wwardkwx9";
       };
       packageRequires = [ ];
       meta = {
@@ -9867,10 +9867,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.1.5.0.20260530.0";
+      version = "2.8.2.0.20260629.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.8.1.5.0.20260530.0.tar";
-        sha256 = "1d4ksg9cw8a9kqbwpa8jafjwb29g5f8640nd5v6chd6a5lv1z9sf";
+        url = "https://elpa.gnu.org/devel/tramp-2.8.2.0.20260629.0.tar";
+        sha256 = "1ninx188n0sd7y7j6s1vmms5rsp7yxrf9yyi4g3x2z4vgah83f3c";
       };
       packageRequires = [ ];
       meta = {
