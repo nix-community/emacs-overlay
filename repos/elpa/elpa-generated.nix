@@ -5373,6 +5373,32 @@
       };
     }
   ) { };
+  lisp-ts-mode = callPackage (
+    {
+      compat,
+      cond-star,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "lisp-ts-mode";
+      ename = "lisp-ts-mode";
+      version = "0.2.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/lisp-ts-mode-0.2.0.tar";
+        sha256 = "03j3ndjxw9b2g4x5xjbwy2gxxs1374w2rwpml8283ywcz11f5nd4";
+      };
+      packageRequires = [
+        compat
+        cond-star
+      ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/lisp-ts-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   listen = callPackage (
     {
       elpaBuild,
