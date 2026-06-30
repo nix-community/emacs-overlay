@@ -3761,10 +3761,10 @@
     elpaBuild {
       pname = "fontaine";
       ename = "fontaine";
-      version = "3.0.1";
+      version = "3.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/fontaine-3.0.1.tar";
-        sha256 = "0bgfg6pkw724id1d3igiw4g0204wnjwsbnabfy2rq6nrf99z1qwr";
+        url = "https://elpa.gnu.org/packages/fontaine-3.1.0.tar";
+        sha256 = "066q3pys9f4d7jkvm52yrj0df12jz8z22gv2f4jpb47g1iapkp9f";
       };
       packageRequires = [ ];
       meta = {
@@ -4300,10 +4300,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.19.4";
+      version = "0.19.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greader-0.19.4.tar";
-        sha256 = "1wg25481rdzfjshsjhaf2747hsy964gn1zc5gbmqak8y1vmsjb6h";
+        url = "https://elpa.gnu.org/packages/greader-0.19.5.tar";
+        sha256 = "1kzm63xp0fzryha5msyl0f4gdhhacz4ys0b0z1wf5phy832bc1w1";
       };
       packageRequires = [
         compat
@@ -5828,10 +5828,10 @@
     elpaBuild {
       pname = "mct";
       ename = "mct";
-      version = "1.1.0";
+      version = "1.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/mct-1.1.0.tar";
-        sha256 = "0kv0j37bdsmc2jv7adpx5m48cp4h0kvjq2jfwv7d8nzpk5kk2d2p";
+        url = "https://elpa.gnu.org/packages/mct-1.1.1.tar";
+        sha256 = "18kwrm93vmkhm8l6gim1r3daizrj6k65lsq8xmja55a1jr60j1xi";
       };
       packageRequires = [ ];
       meta = {
