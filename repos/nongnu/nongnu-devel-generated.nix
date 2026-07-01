@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.7.0.20260521.153004";
+      version = "1.7.0.20260630.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.7.0.20260521.153004.tar";
-        sha256 = "11pw6absa9nj0ps8n17jzsqdnajk1cdz7rv6lnp2ibfyfg6vr03c";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.7.0.20260630.1.tar";
+        sha256 = "17v6cc84bnlnmd18i2j4xj9nwd9q1qxsyqgiwvyin1ipm1fz8rzh";
       };
       packageRequires = [
         compat
@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.23.0.20260630.119";
+      version = "1.23.0.20260701.121";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260630.119.tar";
-        sha256 = "0ibk9ynfphsc1psxrc3hdbi6fjphrzyvis5m494m1yxb4944jhkc";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.23.0.20260701.121.tar";
+        sha256 = "09hagcss0mr0npgaphskicji7zizrl4wh7f34lpd704cj43l5pbd";
       };
       packageRequires = [
         clojure-mode
@@ -1084,10 +1084,10 @@
     elpaBuild {
       pname = "dracula-theme";
       ename = "dracula-theme";
-      version = "1.8.3.0.20260519.113056";
+      version = "1.8.3.0.20260629.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.3.0.20260519.113056.tar";
-        sha256 = "0jw288i092zgfkkazxsmx60va9fbklb2y7awcq2fwpbph7k14w4r";
+        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.3.0.20260629.7.tar";
+        sha256 = "1zlaj17br0ccqmbxcjarclaajkgjq2g1h3sk9xf92glklb4rnkyz";
       };
       packageRequires = [ ];
       meta = {
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.1.0.0.20260628.3";
+      version = "4.1.0.0.20260701.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.1.0.0.20260628.3.tar";
-        sha256 = "0kyrmggfx44vym5vi0a6p4yzv8mh4rk62b88rcl33633vz25s388";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.1.0.0.20260701.4.tar";
+        sha256 = "0fpa3jys406vsdciyrlwv40h9f7r83izh1cyza4z4gqms50zj8cv";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3689,10 +3689,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0.0.20260629.311";
+      version = "4.5.0.0.20260630.312";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260629.311.tar";
-        sha256 = "1xczskjx28870la85iaj67j97n6d1yk8hgdc0cpyg6x05vrlf487";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.5.0.0.20260630.312.tar";
+        sha256 = "0ksnagknaizzw3isiyglql7w1jz1klb31yxkmz79r2bp4ifnzph7";
       };
       packageRequires = [
         compat
@@ -3722,10 +3722,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0.0.20260629.311";
+      version = "4.5.0.0.20260630.312";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260629.311.tar";
-        sha256 = "1sjk1wk9h08cr3487cxxmz74g0ya9np58xz99yk36yakvwn9g7d3";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.5.0.0.20260630.312.tar";
+        sha256 = "16igilm1p6742jwap12jwf16k6avzcbdh73s2i2p6bbmcyavjb8l";
       };
       packageRequires = [
         compat
@@ -4672,10 +4672,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.10.0.20260630.155";
+      version = "2.10.0.20260701.159";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260630.155.tar";
-        sha256 = "1y28ijf8pksn9l0bcq4wgic5b3i6nwwwlfm4sa9ks9rcrkkyz6pm";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-2.10.0.20260701.159.tar";
+        sha256 = "1w1j2qs2g6939i3fwrd8hg6g5hyniagc0ygsy3m2mdy033lq17ki";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5788,10 +5788,10 @@
     elpaBuild {
       pname = "typst-ts-mode";
       ename = "typst-ts-mode";
-      version = "0.12.2.0.20260415.103532";
+      version = "0.12.2.0.20260624.24";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.12.2.0.20260415.103532.tar";
-        sha256 = "190jabvm3p74cd96rrbj45y68myg32zvlxjrq01zvi3jv29xbpf6";
+        url = "https://elpa.nongnu.org/nongnu-devel/typst-ts-mode-0.12.2.0.20260624.24.tar";
+        sha256 = "13amyfg5zkbxwp1gipnyn01wpwpyv0p0w4sv97xpfiyazhs5w4bn";
       };
       packageRequires = [ ];
       meta = {
