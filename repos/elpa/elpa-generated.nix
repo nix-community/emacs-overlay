@@ -9688,19 +9688,21 @@
       elpaBuild,
       fetchurl,
       lib,
+      llama,
       seq,
     }:
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.4";
+      version = "0.13.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.13.4.tar";
-        sha256 = "02142xcxv50bycshbl6qj47q6s9gi6sbagrnyjqi5ma74509zq6h";
+        url = "https://elpa.gnu.org/packages/transient-0.13.5.tar";
+        sha256 = "15mdg6q6ns6sqyrikvxvn4l76dxz5gai9a9hqvf61vgk35vkgz47";
       };
       packageRequires = [
         compat
         cond-let
+        llama
         seq
       ];
       meta = {

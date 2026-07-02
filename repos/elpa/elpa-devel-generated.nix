@@ -1509,10 +1509,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "31.0.0.1.0.20260606.2";
+      version = "31.0.0.1.0.20260701.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-31.0.0.1.0.20260606.2.tar";
-        sha256 = "1bziwppgl138pf65q9jbw3c8xsarik9617fnqw3wnp3hlkg39b4m";
+        url = "https://elpa.gnu.org/devel/compat-31.0.0.1.0.20260701.3.tar";
+        sha256 = "1785949d6nr4p435blfz6hv87vv057b5dxaphf36v8a10awpy345";
       };
       packageRequires = [ ];
       meta = {
@@ -1903,10 +1903,10 @@
     elpaBuild {
       pname = "cursory";
       ename = "cursory";
-      version = "1.2.0.0.20260424.102447";
+      version = "1.2.0.0.20260701.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cursory-1.2.0.0.20260424.102447.tar";
-        sha256 = "14yaa5bay9asyvhkq8bj3fhbzrhry6pc87vhw4gm64ixm9k499g5";
+        url = "https://elpa.gnu.org/devel/cursory-1.2.0.0.20260701.4.tar";
+        sha256 = "0087hsy0qzzlhj7zsasmc6x41w6gnh21sb0in7zyahy2x0qrqwi4";
       };
       packageRequires = [ ];
       meta = {
@@ -2752,10 +2752,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.1.0.0.20260629.11";
+      version = "1.1.0.0.20260701.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.1.0.0.20260629.11.tar";
-        sha256 = "0kpskwaijbiahndg6mgf9s6fy582w1bmsabsgaxyjl65c4w8arnz";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.1.0.0.20260701.12.tar";
+        sha256 = "04p3rc17j55zqlndbhjxf63kdng0cxbmzqqrbc2wxj596spwbsm0";
       };
       packageRequires = [ ];
       meta = {
@@ -3609,10 +3609,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.35.0.20260627.0";
+      version = "0.35.0.20260701.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.35.0.20260627.0.tar";
-        sha256 = "0sksfjcp02ivch257bwnc4jhqk0cw0jazfi5gr7gza55saab5hbz";
+        url = "https://elpa.gnu.org/devel/exwm-0.35.0.20260701.1.tar";
+        sha256 = "1pmiq6awvajafimjgybakgv2f4qph96v7pq5z8xdg4dhw89sp6pz";
       };
       packageRequires = [
         compat
@@ -9977,10 +9977,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.4.0.20260617.1";
+      version = "0.13.5.0.20260701.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.4.0.20260617.1.tar";
-        sha256 = "1y96c432kviy2xnijzp5y49fyazjfab49i8jyysgf87pbxjpylsl";
+        url = "https://elpa.gnu.org/devel/transient-0.13.5.0.20260701.0.tar";
+        sha256 = "0hhb042jacadfz01fgc9dpjqcz441vpwn3gw0g7qyqaqjhh1i5ci";
       };
       packageRequires = [
         compat
