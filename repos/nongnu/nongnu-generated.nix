@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.7";
+      version = "1.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.7.tar";
-        sha256 = "17l7dlg218j63zwzi51wdczamvxlv54l0ivkip3h3kll386lkcm6";
+        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.8.tar";
+        sha256 = "1v1bwk5qamwh13r3mdxhvp88rmpwd4ih2d5wvsr0k6r1sg5175yj";
       };
       packageRequires = [
         compat
@@ -735,10 +735,10 @@
     elpaBuild {
       pname = "cond-let";
       ename = "cond-let";
-      version = "1.1.2";
+      version = "1.1.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/cond-let-1.1.2.tar";
-        sha256 = "04p2jf8nm1q00439r26vvg9549hld4spcabghwsgmf89gqjiv8mm";
+        url = "https://elpa.nongnu.org/nongnu/cond-let-1.1.3.tar";
+        sha256 = "0zxirrq3rps48irxab1m1hkvbxjfahibfaynl4qb0lrz0bv8dzcf";
       };
       packageRequires = [ ];
       meta = {
@@ -3706,10 +3706,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.5.0";
+      version = "4.6.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-4.5.0.tar";
-        sha256 = "080hc0y9pah86g7nw1x1gh2issap54r8dg9vzpm2l923cxy9jnbp";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.6.0.tar";
+        sha256 = "0m7n3jvdf8d40wzglz67addk1nwwbvb7wkm0nq1mjpayqvwqyjml";
       };
       packageRequires = [
         compat
@@ -3739,10 +3739,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.5.0";
+      version = "4.6.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.5.0.tar";
-        sha256 = "1k63g8ayvg152r16ml5ph8q07qs5a424vs4i5q32icvl78v6cn2z";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.6.0.tar";
+        sha256 = "085fr4fnk2wcd9z5l4ks20q69r501sx96abhyw80lshbd9rzj59z";
       };
       packageRequires = [
         compat
@@ -4333,20 +4333,22 @@
       elpaBuild,
       fetchurl,
       lib,
+      llama,
       magit,
       org,
     }:
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.1.3";
+      version = "2.2.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/orgit-2.1.3.tar";
-        sha256 = "1brwy6jx7jxb8jlkr8jq8hsdzmizqs41hkb3p14rmqqd0m5ddapl";
+        url = "https://elpa.nongnu.org/nongnu/orgit-2.2.0.tar";
+        sha256 = "0lw6mp6war3aqsad8vbdpz33nx7kki8df39xm7gnq1ja2dkgf9ah";
       };
       packageRequires = [
         compat
         cond-let
+        llama
         magit
         org
       ];
@@ -4686,6 +4688,7 @@
   ) { };
   projectile = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -4693,12 +4696,12 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "2.9.1";
+      version = "3.0.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/projectile-2.9.1.tar";
-        sha256 = "07icp9baa7jkyqnz4b1sxl1dg88y5vzzhiwyfb12q349flbkkkb1";
+        url = "https://elpa.nongnu.org/nongnu/projectile-3.0.0.tar";
+        sha256 = "07997bb49fx83n7ibmwqhmynr74v6s5z9pm0jlpc7h844kddlfxy";
       };
-      packageRequires = [ ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/projectile.html";
         license = lib.licenses.free;
@@ -6102,18 +6105,20 @@
       elpaBuild,
       fetchurl,
       lib,
+      llama,
     }:
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.5.1";
+      version = "3.5.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/with-editor-3.5.1.tar";
-        sha256 = "0p19n8kx9gkj87pr8rlac8b9vlrb57w7k5b62fx9dwx2m54dixh9";
+        url = "https://elpa.nongnu.org/nongnu/with-editor-3.5.2.tar";
+        sha256 = "1qibgsb67zh8k8mpk3ghy2ilmrmf3dxz75clfvn2qji5ds2qlkzq";
       };
       packageRequires = [
         compat
         cond-let
+        llama
       ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/with-editor.html";
