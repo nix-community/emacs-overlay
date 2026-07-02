@@ -5384,10 +5384,10 @@
     elpaBuild {
       pname = "lisp-ts-mode";
       ename = "lisp-ts-mode";
-      version = "0.2.0";
+      version = "0.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/lisp-ts-mode-0.2.0.tar";
-        sha256 = "03j3ndjxw9b2g4x5xjbwy2gxxs1374w2rwpml8283ywcz11f5nd4";
+        url = "https://elpa.gnu.org/packages/lisp-ts-mode-0.2.1.tar";
+        sha256 = "0sdyziagjcq29n10yygd28n1i99wsrd33i8g1h9ahfm9imr215jy";
       };
       packageRequires = [
         compat
@@ -8364,6 +8364,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/sed-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  sendai-theme = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "sendai-theme";
+      ename = "sendai-theme";
+      version = "0.1.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/sendai-theme-0.1.0.tar";
+        sha256 = "0c8k19pj5l148g34isi6w309msrq6q3z65427ilky47xzs067faz";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/sendai-theme.html";
         license = lib.licenses.free;
       };
     }

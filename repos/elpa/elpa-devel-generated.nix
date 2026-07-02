@@ -3764,10 +3764,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.5.0.20260512.154242";
+      version = "1.4.5.0.20260702.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.5.0.20260512.154242.tar";
-        sha256 = "1wsfb33ybn6kiqn7mbnpr3vwgf68vszi9566jpl9vn8vhjq8xvkd";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.5.0.20260702.3.tar";
+        sha256 = "1fddbgjlqkdr6kml7mbwhv1y6imkp5a73v6ynqhr7wkjh65vhryg";
       };
       packageRequires = [
         eldoc
@@ -5492,10 +5492,10 @@
     elpaBuild {
       pname = "lisp-ts-mode";
       ename = "lisp-ts-mode";
-      version = "0.2.0.0.20260627.0";
+      version = "0.2.1.0.20260701.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.2.0.0.20260627.0.tar";
-        sha256 = "0znqgjz0ryl1r2ky918lq73s1d5rabndsf6fnrfrh0p39g41fbw8";
+        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.2.1.0.20260701.0.tar";
+        sha256 = "0y7fwa8jf7dlk2zlcifv91cs54ysx88702q4v0vq23krb02z8dic";
       };
       packageRequires = [
         compat
@@ -7725,10 +7725,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.2.0.20260627.31";
+      version = "0.11.2.0.20260702.32";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260627.31.tar";
-        sha256 = "1vx25wafsf4s9rxmjpqv29gfd06bwf9l3wsn1lgmah15a8bd3jkp";
+        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260702.32.tar";
+        sha256 = "1pam8f53y4s1r0j3h06bdlk0h6ardi2yhn5780wqidxl72v9rq6a";
       };
       packageRequires = [ xref ];
       meta = {
@@ -8572,10 +8572,10 @@
     elpaBuild {
       pname = "sendai-theme";
       ename = "sendai-theme";
-      version = "0.10.20260626.66";
+      version = "0.1.10.20260701.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/sendai-theme-0.10.20260626.66.tar";
-        sha256 = "0hc8nxh1bhhy6xfka1kmja6giay99z4ps54hhlbmsb1aqlj4h90z";
+        url = "https://elpa.gnu.org/devel/sendai-theme-0.1.10.20260701.2.tar";
+        sha256 = "0n5z1ranv5gqlxqm5xjvmrvi430f5cz2jbljnwnxwjmpgh5bgq4w";
       };
       packageRequires = [ ];
       meta = {
