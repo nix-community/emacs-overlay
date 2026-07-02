@@ -1084,10 +1084,10 @@
     elpaBuild {
       pname = "dracula-theme";
       ename = "dracula-theme";
-      version = "1.8.3.0.20260629.7";
+      version = "1.8.3.0.20260701.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.3.0.20260629.7.tar";
-        sha256 = "1zlaj17br0ccqmbxcjarclaajkgjq2g1h3sk9xf92glklb4rnkyz";
+        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.3.0.20260701.10.tar";
+        sha256 = "0m26r1swffj2ax3rl3yikgqi2rq796y8vwazisfsb1lsx06hwyyn";
       };
       packageRequires = [ ];
       meta = {
