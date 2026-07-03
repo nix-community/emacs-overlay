@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.0.0.20260701.2";
+      version = "2.0.0.20260703.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.0.20260701.2.tar";
-        sha256 = "1bgx9b3mrr22p1klm3zaah9wifbjph4w4vdv4fags68kj5wnjpnn";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.0.20260703.8.tar";
+        sha256 = "0h9dd4bm01hv7cni9rbgh04wy0w20s3j6xqjb68hli2kaj325clw";
       };
       packageRequires = [
         clojure-mode
@@ -2715,10 +2715,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260628.46";
+      version = "0.9.9.5.0.20260702.48";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260628.46.tar";
-        sha256 = "0a24zm6rmab2rdgg96lx8r7jpa0gz0aksgqjn0jb32a8ljzv0g9f";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260702.48.tar";
+        sha256 = "1v41a59ipi4nl83fqmc2cgbmdm2v2l91rpll29nah40r6mqwsfdl";
       };
       packageRequires = [
         compat
