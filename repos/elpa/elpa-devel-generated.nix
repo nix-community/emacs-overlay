@@ -3247,10 +3247,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260529.43";
+      version = "0.0.20260702.44";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260529.43.tar";
-        sha256 = "1aisy3awq830i3bwzyd508w96vcr8igy0gcv9j2mvfa8fzzh0m56";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260702.44.tar";
+        sha256 = "1xsnp0pfsvs20wscbqcqsigl56ig5vacmkl86f3ljp338ka90d5f";
       };
       packageRequires = [ ];
       meta = {
@@ -5200,10 +5200,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.3.1.0.20260530.4";
+      version = "0.3.1.0.20260702.17";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.3.1.0.20260530.4.tar";
-        sha256 = "1k6aqp65x3azbipj2pwdg15pip045cawx4im04s84kbk91fx0fxs";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.3.1.0.20260702.17.tar";
+        sha256 = "19wf0y5qgqammv2f7q9rl6ygdz00i58n6di2xx97n95m4gpa4qz4";
       };
       packageRequires = [ ];
       meta = {
@@ -6203,10 +6203,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260628.2";
+      version = "5.3.0.0.20260702.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260628.2.tar";
-        sha256 = "064ajm5sll1xfx8xjbgcan98hh55wd12rh60f126igmipdhi04iw";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260702.7.tar";
+        sha256 = "1xdz3fa09s46x3bzyxdr6khk3p0gh3555aqfdpbnpm1crid5czz4";
       };
       packageRequires = [ ];
       meta = {
