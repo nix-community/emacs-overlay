@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.1.0.0.20260701.4";
+      version = "4.1.0.0.20260702.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.1.0.0.20260701.4.tar";
-        sha256 = "0fpa3jys406vsdciyrlwv40h9f7r83izh1cyza4z4gqms50zj8cv";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.1.0.0.20260702.5.tar";
+        sha256 = "14x6rzcwj6lvxvai7935j0gba8w5hz5g4k7srcxzcblqnjdacqsc";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3327,10 +3327,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.11.1.0.20260626.0";
+      version = "0.11.1.0.20260702.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.11.1.0.20260626.0.tar";
-        sha256 = "0259211q3qnqqny0hw8dmkhrk3pf29cb4nla8rxjixj1azm7m6jr";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.11.1.0.20260702.1.tar";
+        sha256 = "0mdn9qbvj2k4mdm3490i2n07gqyjmhd30y48jxlqmfhfaw9bxqg0";
       };
       packageRequires = [
         fsm
@@ -4587,10 +4587,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1.0.20251112.64638";
+      version = "1.26.1.0.20260702.44";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20251112.64638.tar";
-        sha256 = "1vh7ynpbpps46jw5g9qwzzhyb4kll0dpppj5493kpjj3d87xclir";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20260702.44.tar";
+        sha256 = "1c70yxwqzayi2n0d47ck2p3irimimbxxamkm48ky0ljn8kxgwr5w";
       };
       packageRequires = [ ];
       meta = {
