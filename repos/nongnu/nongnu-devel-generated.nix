@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.0.0.20260703.8";
+      version = "2.0.0.20260703.21";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.0.20260703.8.tar";
-        sha256 = "0h9dd4bm01hv7cni9rbgh04wy0w20s3j6xqjb68hli2kaj325clw";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.0.20260703.21.tar";
+        sha256 = "1zgdid03xkqaxiw6pvmav6kr4i4dzfj1nrf01a3igg3i06iamhl5";
       };
       packageRequires = [
         clojure-mode
@@ -2715,10 +2715,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260702.48";
+      version = "0.9.9.5.0.20260703.52";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260702.48.tar";
-        sha256 = "1v41a59ipi4nl83fqmc2cgbmdm2v2l91rpll29nah40r6mqwsfdl";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260703.52.tar";
+        sha256 = "05cbkdl0a0jwxm3fcdcx5a7mxq23jg0ff8i712hws98w70219ar1";
       };
       packageRequires = [
         compat
@@ -3562,10 +3562,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.16.1.0.20260627.1";
+      version = "0.16.1.0.20260703.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20260627.1.tar";
-        sha256 = "0bpwjy1nj6yy3j84098y2q2dsvamg8wg33aphvgnp6spdrszbbma";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20260703.2.tar";
+        sha256 = "03vlq89ay3vc4fpycxb4fay4r0v7qyz552hca8n311m6l903n0a4";
       };
       packageRequires = [
         compat
@@ -4672,10 +4672,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.0.0.0.20260701.2";
+      version = "3.0.0.0.20260703.27";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.0.0.0.20260701.2.tar";
-        sha256 = "0i44aspivvhp8bi67nh8s4lxj4bg8aw5ndz3a7yl8mcfz9hgc76r";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.0.0.0.20260703.27.tar";
+        sha256 = "1lzgd4bf4cjb68xfhvhp92q72i64khy62hxbal6yygmfzla80p4n";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5167,10 +5167,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.320.20260612.49";
+      version = "2.320.20260703.50";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.320.20260612.49.tar";
-        sha256 = "196g2sc1v84013nk3c8my3w2r3aqvg9sjix2ca64vvrarfamb0ck";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.320.20260703.50.tar";
+        sha256 = "1fx3gwv59s5b9zc8r0ggpgzzrvhi6v07wc8lnr4j8vs2pq4zn4c0";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -5231,10 +5231,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.1.0.0.20260610.7";
+      version = "2.1.0.0.20260703.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.1.0.0.20260610.7.tar";
-        sha256 = "1phh2qqjf68ap6giid63zpnggx41y1zvn9q2c60igx01fv7xnykd";
+        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.1.0.0.20260703.8.tar";
+        sha256 = "0iqgpdjxn6an3vn0pmy7iya5xs1ihjc9rj0kiyk6xlfswzc5pyfk";
       };
       packageRequires = [ ];
       meta = {
@@ -5443,10 +5443,10 @@
     elpaBuild {
       pname = "symbol-overlay";
       ename = "symbol-overlay";
-      version = "4.3.0.20260423.145452";
+      version = "4.3.0.20260703.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/symbol-overlay-4.3.0.20260423.145452.tar";
-        sha256 = "16gm3gj84wd7v6qhf3p0sz2jgbbyi60kqwkb41rfiz7n79qlijpg";
+        url = "https://elpa.nongnu.org/nongnu-devel/symbol-overlay-4.3.0.20260703.4.tar";
+        sha256 = "1mg02vrf7lhqiqkqlnl9czd11aw9i3gsa00f53fbn80vy123hixb";
       };
       packageRequires = [ seq ];
       meta = {
@@ -6291,10 +6291,10 @@
     elpaBuild {
       pname = "zenburn-theme";
       ename = "zenburn-theme";
-      version = "2.10.0.0.20260601.0";
+      version = "2.10.0.0.20260703.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.10.0.0.20260601.0.tar";
-        sha256 = "0li865y8wp8gsim2xiscxhmpfnwd394ag9x9kpff082yg2q4j2ww";
+        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.10.0.0.20260703.1.tar";
+        sha256 = "1ipm17ih1x6yls5x26sw51w7zag0z1748sl9gs9z2c5wkiqc5gzv";
       };
       packageRequires = [ ];
       meta = {
