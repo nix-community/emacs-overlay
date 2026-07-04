@@ -4696,10 +4696,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.0.0";
+      version = "3.1.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/projectile-3.0.0.tar";
-        sha256 = "07997bb49fx83n7ibmwqhmynr74v6s5z9pm0jlpc7h844kddlfxy";
+        url = "https://elpa.nongnu.org/nongnu/projectile-3.1.0.tar";
+        sha256 = "0k08fpjsx2vxzqjd5aqpvab4g8qjp35bgpngbdgd81fr78g4z9fp";
       };
       packageRequires = [ compat ];
       meta = {
