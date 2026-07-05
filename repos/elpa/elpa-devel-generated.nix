@@ -1596,10 +1596,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.5.0.0.20260520.122738";
+      version = "0.5.1.0.20260704.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.5.0.0.20260520.122738.tar";
-        sha256 = "19y5vd4j1ndnxr5z7fz8ghxs5ra0y9d0qca2npglcmzy5l6zsaga";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.5.1.0.20260704.0.tar";
+        sha256 = "0bfy6gzznxg356s1nqrv5ma26rlb9njf12dbkma6glpr8l7gpavv";
       };
       packageRequires = [
         consult
@@ -2277,10 +2277,10 @@
     elpaBuild {
       pname = "denote-silo";
       ename = "denote-silo";
-      version = "0.3.0.0.20260520.122913";
+      version = "0.3.2.0.20260704.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-silo-0.3.0.0.20260520.122913.tar";
-        sha256 = "0dx6nhjga8mq5g0db24jjzlvdy218bh2yszasjls101nf9ksc3hy";
+        url = "https://elpa.gnu.org/devel/denote-silo-0.3.2.0.20260704.0.tar";
+        sha256 = "0vxilbbqvhr8jxnv7ycm9kfijsi645jjkl66pdzhsg7hpn5a7lx9";
       };
       packageRequires = [ denote ];
       meta = {
@@ -3609,10 +3609,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.35.0.20260701.1";
+      version = "0.35.0.20260704.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.35.0.20260701.1.tar";
-        sha256 = "1pmiq6awvajafimjgybakgv2f4qph96v7pq5z8xdg4dhw89sp6pz";
+        url = "https://elpa.gnu.org/devel/exwm-0.35.0.20260704.2.tar";
+        sha256 = "0xkm470x11v7sybz0lh6nwqwaszsf13fzfyh0aqzqbr8n2jilcmf";
       };
       packageRequires = [
         compat
@@ -3831,10 +3831,10 @@
     elpaBuild {
       pname = "flymake-proselint";
       ename = "flymake-proselint";
-      version = "0.3.0.0.20230325.160756";
+      version = "0.3.0.0.20260704.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-proselint-0.3.0.0.20230325.160756.tar";
-        sha256 = "1p3jpsv6w4hask7bk07dmafwgymbw3xl6i0vx0sjd0i5aa0xs9vz";
+        url = "https://elpa.gnu.org/devel/flymake-proselint-0.3.0.0.20260704.11.tar";
+        sha256 = "0n619yab8s9lr00b7zcbgywvm5phwrh19iww8rwm0sf1qhmg3azf";
       };
       packageRequires = [ ];
       meta = {
@@ -6758,10 +6758,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260629.366";
+      version = "10.0.20260704.367";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260629.366.tar";
-        sha256 = "0krcamiw8qq13xg671s93bcy5ws1rvjgc7diwhkl8f6wwardkwx9";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260704.367.tar";
+        sha256 = "0a8zqy8yjzgjf6n80800dp1v03nhqsr2mh4881fgiy97x9r600wd";
       };
       packageRequires = [ ];
       meta = {

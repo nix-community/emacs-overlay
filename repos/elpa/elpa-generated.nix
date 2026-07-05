@@ -1571,10 +1571,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.5.0";
+      version = "0.5.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-denote-0.5.0.tar";
-        sha256 = "1qmfwmm4hi0z2lqn6ryfwckrivrlvy16y42w729q6pk0nd21j48k";
+        url = "https://elpa.gnu.org/packages/consult-denote-0.5.1.tar";
+        sha256 = "0if1qfma6ssb4ciwviz5avm68k1yivj23sg2m2fmb9asry9zrvjd";
       };
       packageRequires = [
         consult
@@ -2231,10 +2231,10 @@
     elpaBuild {
       pname = "denote-silo";
       ename = "denote-silo";
-      version = "0.3.0";
+      version = "0.3.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-silo-0.3.0.tar";
-        sha256 = "1pwhn1k8cdb4n6v1l6d6ld5zm4gfzb5vl9fp1myqlfkjx756lglj";
+        url = "https://elpa.gnu.org/packages/denote-silo-0.3.2.tar";
+        sha256 = "14qbzf336n62s5wp2v67fp8das28aa8a0ahv3nxg5w3fbdxdf03b";
       };
       packageRequires = [ denote ];
       meta = {
@@ -6624,10 +6624,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8.6";
+      version = "9.8.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.8.6.tar";
-        sha256 = "0qc9c49k8fcaa8c947wb7knn5lbm2bigvzxkbx8cdbyrj15pra4j";
+        url = "https://elpa.gnu.org/packages/org-9.8.7.tar";
+        sha256 = "1pxljdl67f3lajsafrwb46dc4wgy3kd6x3g4n2hkdab915xkqlnr";
       };
       packageRequires = [ ];
       meta = {
