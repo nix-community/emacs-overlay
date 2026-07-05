@@ -2363,10 +2363,10 @@
     elpaBuild {
       pname = "dicom";
       ename = "dicom";
-      version = "1.5.0.20260628.2";
+      version = "1.5.0.20260704.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dicom-1.5.0.20260628.2.tar";
-        sha256 = "0n9qf831fhb846wqgqzk0xwlzwvgp3g9nylcfrlwd8yg2mh86bvk";
+        url = "https://elpa.gnu.org/devel/dicom-1.5.0.20260704.4.tar";
+        sha256 = "0b5mm81wfskhls44w951igz2y5yf4lx3g61fswyk9hjhm4sccgz5";
       };
       packageRequires = [ compat ];
       meta = {
