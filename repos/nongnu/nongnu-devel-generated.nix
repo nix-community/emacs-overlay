@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.0.0.20260704.22";
+      version = "2.0.0.20260705.26";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.0.20260704.22.tar";
-        sha256 = "0ywb896ikgh75vgn8sbihikx8rh583frgmqmyrvrjyv0shg8rd37";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.0.20260705.26.tar";
+        sha256 = "1imgjxhwagsficaslggksln0lp800pl8vdfwkcw4nqjdipyydsw5";
       };
       packageRequires = [
         clojure-mode
@@ -4672,10 +4672,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.1.0.0.20260705.6";
+      version = "3.1.0.0.20260705.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.1.0.0.20260705.6.tar";
-        sha256 = "13qi96hi9sgi90nsjdbgxjpvlzgwzmvqmrnzgi1iqlrgdyg2ifss";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.1.0.0.20260705.10.tar";
+        sha256 = "1hfrzpvycddldavpmhnd0l10dabdzs26yp22fyvgdrryjszyipjk";
       };
       packageRequires = [ compat ];
       meta = {
