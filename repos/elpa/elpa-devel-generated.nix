@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260703.45";
+      version = "14.1.2.0.20260705.46";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260703.45.tar";
-        sha256 = "1lvcq115drgicj17hjx2vkzdx02z7lyp0ndqxzlwk2k7iy8nbvwg";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260705.46.tar";
+        sha256 = "0i4l0mkf7b5yjlkv1p61fspdancvmsrq7n27dyjbsqpp2k8xq3xb";
       };
       packageRequires = [ ];
       meta = {
@@ -2277,10 +2277,10 @@
     elpaBuild {
       pname = "denote-silo";
       ename = "denote-silo";
-      version = "0.3.2.0.20260704.0";
+      version = "0.3.2.0.20260705.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-silo-0.3.2.0.20260704.0.tar";
-        sha256 = "0vxilbbqvhr8jxnv7ycm9kfijsi645jjkl66pdzhsg7hpn5a7lx9";
+        url = "https://elpa.gnu.org/devel/denote-silo-0.3.2.0.20260705.4.tar";
+        sha256 = "08zgg8jll6kdmzqrzx2j0q0g35sk6sfbp6qxd687sc8p9n9bx4yg";
       };
       packageRequires = [ denote ];
       meta = {
@@ -6758,10 +6758,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0.20260704.367";
+      version = "10.0.20260705.370";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0.20260704.367.tar";
-        sha256 = "0a8zqy8yjzgjf6n80800dp1v03nhqsr2mh4881fgiy97x9r600wd";
+        url = "https://elpa.gnu.org/devel/org-10.0.20260705.370.tar";
+        sha256 = "1bw48kxc28yvm81cqhvaa6qn4k7l652qpgm01k7lh3fgr1q8zspr";
       };
       packageRequires = [ ];
       meta = {
@@ -7085,10 +7085,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "2.3.0.20260628.4";
+      version = "2.4.0.20260705.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/osm-2.3.0.20260628.4.tar";
-        sha256 = "0b7jza6j049v58gc5dzvg42v8q3dz1j03zlyfjnxayhb7gfbm2ga";
+        url = "https://elpa.gnu.org/devel/osm-2.4.0.20260705.0.tar";
+        sha256 = "0s9m0j1r3hxllwmzarbg3k3yqfqrfnz93nqphpnf1p7lbwzk5v1c";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9587,10 +9587,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.13.0.20260628.2";
+      version = "1.14.0.20260705.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.13.0.20260628.2.tar";
-        sha256 = "0mndai8qnq289gyc8x9fhzz34qbrvd1vgmamvhik2w47brzwg7z8";
+        url = "https://elpa.gnu.org/devel/tempel-1.14.0.20260705.0.tar";
+        sha256 = "0bxj1qkxy9sd5js36rnvjlgxhvb8nza38l4ccbnnrj4p7h72n9hl";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10988,10 +10988,10 @@
     elpaBuild {
       pname = "with-command-redo";
       ename = "with-command-redo";
-      version = "0.1.0.20260504.211611";
+      version = "0.1.0.20260705.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/with-command-redo-0.1.0.20260504.211611.tar";
-        sha256 = "1k37zdj23p606mxinaics0djp8n2rdylc7k4p03sacxmjiw34fid";
+        url = "https://elpa.gnu.org/devel/with-command-redo-0.1.0.20260705.3.tar";
+        sha256 = "1y7d6j20a8bfhpr7wy84hv15d4i0flca0lxbj31wz9j0n9gn32sb";
       };
       packageRequires = [ ];
       meta = {

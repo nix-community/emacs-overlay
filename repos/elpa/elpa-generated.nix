@@ -6951,10 +6951,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "2.3";
+      version = "2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/osm-2.3.tar";
-        sha256 = "0x08qbdk7y05cm8kc35f2i6k5xnd9iyyhr0f0fyi489kbvd3n1nh";
+        url = "https://elpa.gnu.org/packages/osm-2.4.tar";
+        sha256 = "1w270bjnxxlwi3vbgfb0aih6lkr8bgs872yrwfpl423x9wkrk48j";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9325,10 +9325,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.13";
+      version = "1.14";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tempel-1.13.tar";
-        sha256 = "1sxyxz799nw56wqrm7hsr0dq2yaxckr9a1rynw2jsrfhbzcxpbfp";
+        url = "https://elpa.gnu.org/packages/tempel-1.14.tar";
+        sha256 = "1m2zy53drrpcjqky7a2pfhrnrynhj7hdksl68kfz8r6lp5id6xf3";
       };
       packageRequires = [ compat ];
       meta = {
