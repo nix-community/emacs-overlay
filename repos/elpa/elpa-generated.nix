@@ -6624,10 +6624,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8.6";
+      version = "9.8.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.8.6.tar";
-        sha256 = "10ac3p7skdk8pbfnajlkrgxnnhrsj0s246q3nqpqxrdr0p0f2aj3";
+        url = "https://elpa.gnu.org/packages/org-9.8.7.tar";
+        sha256 = "1y7sf3p9jqkfw8k6wddy2p9hfskiq4a5hkx8sq39dgb4sri6v03d";
       };
       packageRequires = [ ];
       meta = {
@@ -7505,10 +7505,10 @@
     elpaBuild {
       pname = "preview-auto";
       ename = "preview-auto";
-      version = "0.4.2";
+      version = "0.5.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/preview-auto-0.4.2.tar";
-        sha256 = "1fg4nxzqjk13q9yvhrjmm9qqrszf9xd2n9jfji2v31f0rphlkc3p";
+        url = "https://elpa.gnu.org/packages/preview-auto-0.5.0.tar";
+        sha256 = "1d8rm22aqvgyg46r4vdf2w3ywxmqiny46y0p030i9q26xc2xq7my";
       };
       packageRequires = [ auctex ];
       meta = {
