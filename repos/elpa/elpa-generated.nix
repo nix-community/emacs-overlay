@@ -1484,10 +1484,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "31.0.0.1";
+      version = "31.0.0.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/compat-31.0.0.1.tar";
-        sha256 = "1lraq5i8jk0wsrnkv66q6lxv314fm8c09hrfvm0gj2lpn8126f20";
+        url = "https://elpa.gnu.org/packages/compat-31.0.0.2.tar";
+        sha256 = "0f0gig6imlf5gx8qykvwajvhr66v52v7hsifqwh8nzq820x6kn27";
       };
       packageRequires = [ ];
       meta = {

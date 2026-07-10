@@ -1509,10 +1509,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "31.0.0.1.0.20260703.4";
+      version = "31.0.0.2.0.20260709.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-31.0.0.1.0.20260703.4.tar";
-        sha256 = "1fw7yq3b04h15mhcxcpghvnivaqd35fwyspm7s0mn0lnhfqba7nq";
+        url = "https://elpa.gnu.org/devel/compat-31.0.0.2.0.20260709.1.tar";
+        sha256 = "1dzp4060g084zq7gpqjdgvyhc110dqfpz91y5fcdp1bh4d5c1nzi";
       };
       packageRequires = [ ];
       meta = {
@@ -10575,10 +10575,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.10.0.20260708.3";
+      version = "2.10.0.20260709.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.10.0.20260708.3.tar";
-        sha256 = "09jsjbd40wh4880d93i9644asqdmk84jwac6cl5alavq4yvjzmal";
+        url = "https://elpa.gnu.org/devel/vertico-2.10.0.20260709.7.tar";
+        sha256 = "0jq13xdfbgrdf6b48sd70znax4mvcbf2p0h17mbc8vg006fs3xih";
       };
       packageRequires = [ compat ];
       meta = {
