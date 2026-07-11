@@ -7638,10 +7638,10 @@
     elpaBuild {
       pname = "pq";
       ename = "pq";
-      version = "0.2.0.20240317.135839";
+      version = "0.2.0.20240911.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pq-0.2.0.20240317.135839.tar";
-        sha256 = "0hva6d8iqqdvnllm7cssxrmn21alcb2aa4d6874bqdfqjij2hw1z";
+        url = "https://elpa.gnu.org/devel/pq-0.2.0.20240911.1.tar";
+        sha256 = "07033s0lrns0ibmpvm7n02xfp1dwzkrb08vlsv5fj3lx7v0dk5g6";
       };
       packageRequires = [ ];
       meta = {
