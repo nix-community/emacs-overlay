@@ -3080,10 +3080,10 @@
     elpaBuild {
       pname = "eldoc";
       ename = "eldoc";
-      version = "1.16.0.0.20260707.4";
+      version = "1.16.0.0.20260709.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eldoc-1.16.0.0.20260707.4.tar";
-        sha256 = "1vvsjqy63hyi8ycian7n73y8dzkcz1hj5iz7s1p2i6ids4h31b34";
+        url = "https://elpa.gnu.org/devel/eldoc-1.16.0.0.20260709.6.tar";
+        sha256 = "0i3bls6iq0lm03w09vrillqygx8xx9xpf2ixr8k2q3my4g8kszqx";
       };
       packageRequires = [ ];
       meta = {
@@ -10988,10 +10988,10 @@
     elpaBuild {
       pname = "with-command-redo";
       ename = "with-command-redo";
-      version = "0.1.0.20260706.4";
+      version = "0.2.0.20260710.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/with-command-redo-0.1.0.20260706.4.tar";
-        sha256 = "1z4mzbidmsxj2qhg4wf35zfia6jjyvab1hcg58c1ravqr7lpmxjc";
+        url = "https://elpa.gnu.org/devel/with-command-redo-0.2.0.20260710.0.tar";
+        sha256 = "0zk18x8bplbishpxwy8r3m51i3kcai4crc6d4pipg927qdymry7z";
       };
       packageRequires = [ ];
       meta = {
