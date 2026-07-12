@@ -8947,16 +8947,16 @@
   "repo": "danielcmccarthy/bitbake-el",
   "unstable": {
    "version": [
-    20260704,
-    1407
+    20260712,
+    1615
    ],
    "deps": [
     "dash",
-    "mmm-mode",
+    "polymode",
     "s"
    ],
-   "commit": "96ee67ddc74bee6ab143ce2ec620f9128ae48806",
-   "sha256": "17k82rr0dn8am7s03szvjk5mqnprwadga2h7jm8f6hdcmsl002y1"
+   "commit": "f626d37727df0550aa2afd3f1b0ce81f38be18a3",
+   "sha256": "0jzig4hyia6zi31qygh8c62jzfas7vz7kp3nfh8s1fvqx8pj8lrk"
   }
  },
  {
@@ -12052,11 +12052,11 @@
   "repo": "peterstuart/cargo-transient",
   "unstable": {
    "version": [
-    20241204,
-    1217
+    20260712,
+    1432
    ],
-   "commit": "b75511f911189b6b6c47976dd970eeb80ccfb3ee",
-   "sha256": "1s1kjc7xg55lnwn5ngdp89hnh2qp42x10cyqlji268xiglx0xzs2"
+   "commit": "ece657bb0f44f64a273d5334b3423688b7ed9e3e",
+   "sha256": "07n3kd2krsvlr1mkh7vn5w5dp2p2y4c7k6kyvywlh69zzqn564yy"
   }
  },
  {
@@ -13847,8 +13847,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20260711,
-    1541
+    20260712,
+    945
    ],
    "deps": [
     "clojure-mode",
@@ -13860,8 +13860,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "6dd9df8fe91d666c5041c695d8a8a83434e2cf90",
-   "sha256": "1rp5mc9yw2ng7g1lmpxzhxjghxj6qz7vlqm9ibyc7rwfxdxyg6qv"
+   "commit": "30fed4414795b94b5c6144c8da1ec8f91d45f844",
+   "sha256": "1hcwl4y18qqri33di4cmydgxysvkpsdvr16mz98w9aj3y5g14fdv"
   },
   "stable": {
    "version": [
@@ -14619,11 +14619,11 @@
   "repo": "parenworks/clatter.el",
   "unstable": {
    "version": [
-    20260707,
-    712
+    20260712,
+    1616
    ],
-   "commit": "190ea8ca7b5b1102db2d13f594592d4cedea689b",
-   "sha256": "06zwvwxa1s7g5nwl9gmvfsb8dwffdv04029l18mjx9bs4p58z5b5"
+   "commit": "62db081e22e6f496d38323f28c47ae47567ccf3b",
+   "sha256": "1k49j7dkdr6sckqjcw67j0fbm42hsv8s5ari836nj9bpkldasry4"
   },
   "stable": {
    "version": [
@@ -15068,18 +15068,19 @@
   "unstable": {
    "version": [
     20260712,
-    748
+    1423
    ],
    "deps": [
     "cider",
     "clojure-mode",
     "paredit",
     "parseedn",
+    "spinner",
     "transient",
     "yasnippet"
    ],
-   "commit": "d4022852ce0c7a630e158f1d6f54156cb0f7def7",
-   "sha256": "1261rpdm80rny61zw49w5n5v6v7h0jav8pcpvyjc6vrgp03pmh50"
+   "commit": "f11383b643a46bb41f657455a55900682e6baf1c",
+   "sha256": "0axmnmzx6473vf72sxps91d76bwnk4ing83x4axryklrjxds16cr"
   },
   "stable": {
    "version": [
@@ -74442,8 +74443,8 @@
   "repo": "isamert/lab.el",
   "unstable": {
    "version": [
-    20260620,
-    1757
+    20260712,
+    1302
    ],
    "deps": [
     "async-await",
@@ -74453,8 +74454,8 @@
     "request",
     "s"
    ],
-   "commit": "2be6e50e75b4372337b77d0ae5563cb8cd671352",
-   "sha256": "1d0q7ssm9ynhd1da34by6a5zwbyzq20x8bqky9hf0fk28m9xpjjh"
+   "commit": "dbfdc8bb71dc5983619fd983285573718d584445",
+   "sha256": "075pwm37fk1nbdi54gq4idr4av1rc9maf2biabyll8yaij4d67xp"
   },
   "stable": {
    "version": [
@@ -84895,11 +84896,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20260707,
-    2008
+    20260712,
+    927
    ],
-   "commit": "a69a3c80b6026b6e5ec93955af7c82c52fbbc735",
-   "sha256": "04k769f260l6hh97qb3bi3djn2icrlrrlb98ylms56q17jx7qlx2"
+   "commit": "31e8394cb1a563814d341bc4f7fa162a6e0d9169",
+   "sha256": "1b14aywkm3524mzc6lkmrh91320w5lsxnhhavyhkj3mbzkyz8a7h"
   },
   "stable": {
    "version": [
@@ -109319,25 +109320,25 @@
   "unstable": {
    "version": [
     20260712,
-    921
+    1054
    ],
    "deps": [
     "compat"
    ],
-   "commit": "095f493b6e9091d41247d2d4a741c84f9fc8158c",
-   "sha256": "19xjyq786r71f0rv9s0qgspkzr3c7qfxp5j8nh1slp48ll5sa6fj"
+   "commit": "fc4ccb86687c9f1bd65c8d0f07f36fcae381307f",
+   "sha256": "1dkjp1j92miklqqk8ryk7dcsai203rkgvkl8x4fg3mwcz37aq1gl"
   },
   "stable": {
    "version": [
     3,
-    1,
+    2,
     0
    ],
    "deps": [
     "compat"
    ],
-   "commit": "614e035d1c8a617c53499b865a82779c957d6426",
-   "sha256": "1h6yc6lcs366v1fpkvbnnwpxsx8wcww5ylpnxwmxbp62yk37x13i"
+   "commit": "6ed57a4d2f1a4d2c7349dbf2e08df46a854b31d7",
+   "sha256": "05pqxsdyy99cb5srpam6bd1k4cx7bybnnr46imy3ib85mlffiv5k"
   }
  },
  {
@@ -125014,6 +125015,18 @@
    "version": [
     20260712,
     531
+   ],
+   "deps": [
+    "transient"
+   ],
+   "commit": "4f8312989e673ec38a3f1abb301aa9cd3355f0fb",
+   "sha256": "0izcj0fbr6wk1g7jm2x9dqslvsmvwv76l30n4lm47c6y0c66wg74"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    0
    ],
    "deps": [
     "transient"
