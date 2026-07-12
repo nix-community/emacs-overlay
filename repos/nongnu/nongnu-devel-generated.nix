@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.0.0snapshot0.20260711.71";
+      version = "2.0.0snapshot0.20260711.75";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.0snapshot0.20260711.71.tar";
-        sha256 = "14kqkwym26ls1rbsb8vhlbg5fhrsc5ya898jlfdzf63nbcfpv114";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.0snapshot0.20260711.75.tar";
+        sha256 = "0k6f7x9qhlkp32wldxiq2dac7pmysk51mi2hyvk92z5vfdfz9z03";
       };
       packageRequires = [
         clojure-mode
@@ -3689,10 +3689,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.6.0.0.20260709.30";
+      version = "4.6.0.0.20260711.37";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.6.0.0.20260709.30.tar";
-        sha256 = "1msqngghfa2iigh0n2kpryhh07a4ddw158bf8mc1qgi31q24k7bh";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.6.0.0.20260711.37.tar";
+        sha256 = "0c688v3x6qn2vxl27416sgb0s5asps543qvqmdh5538fnmi9xg1d";
       };
       packageRequires = [
         compat
@@ -3722,10 +3722,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.6.0.0.20260709.30";
+      version = "4.6.0.0.20260711.37";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.6.0.0.20260709.30.tar";
-        sha256 = "0br84w98lp5hmygw88sbg5p3dbq95rb2w6jvi7pbkqncbdqwxwmm";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.6.0.0.20260711.37.tar";
+        sha256 = "0xfypb97r524hinw07q628d4a3v0sz3xjrmq7rh6ivbk37siwwvg";
       };
       packageRequires = [
         compat
@@ -5936,10 +5936,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.3snapshot0.20260628.43";
+      version = "8.3.3snapshot0.20260711.45";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260628.43.tar";
-        sha256 = "1a61l4nnclgwf53khi3gv4xq491p79g6lpi2llayhzgmpzzmghpz";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260711.45.tar";
+        sha256 = "0chjyhrizc3cnywhda5lbvbkmixxdxr2wbr7j9abnq5s96yz3szs";
       };
       packageRequires = [ vcard ];
       meta = {
