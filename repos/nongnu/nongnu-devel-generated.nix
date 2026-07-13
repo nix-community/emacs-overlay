@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.0.0snapshot0.20260711.75";
+      version = "2.0.0snapshot0.20260712.79";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.0snapshot0.20260711.75.tar";
-        sha256 = "0k6f7x9qhlkp32wldxiq2dac7pmysk51mi2hyvk92z5vfdfz9z03";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.0snapshot0.20260712.79.tar";
+        sha256 = "13iijw6iz7xc7zdcb8k9njwvkcb927ncjnmghcdpazil7qapacia";
       };
       packageRequires = [
         clojure-mode
@@ -3327,10 +3327,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.12.1.0.20260711.0";
+      version = "0.12.1.0.20260712.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.1.0.20260711.0.tar";
-        sha256 = "09vw3sfprywylvr530wcykvsmy5bs8a214m87i879csmidpgqjil";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.1.0.20260712.4.tar";
+        sha256 = "1yxssp5g867xprzxdqi1rs8wgg0n5f2g1jfqj5awl31l83pf67bs";
       };
       packageRequires = [
         fsm
@@ -4672,10 +4672,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.2.0snapshot0.20260712.10";
+      version = "3.3.0snapshot0.20260712.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.2.0snapshot0.20260712.10.tar";
-        sha256 = "07hqd6qraxlb4nnc7xq1r6rdkkkp1jzmbs40pf51l1mimm2mz7fq";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.3.0snapshot0.20260712.1.tar";
+        sha256 = "1cx1g3qcjx8ah12nbwis1269iy0iv5z8n04089iww25ws3ywpsr9";
       };
       packageRequires = [ compat ];
       meta = {
