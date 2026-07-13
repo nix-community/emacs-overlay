@@ -2684,10 +2684,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.1.0";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/doric-themes-1.1.0.tar";
-        sha256 = "12rm5swbhn52yh4nvngqqbaiy8j97bi86a0k7swdb08vxmgp5kzh";
+        url = "https://elpa.gnu.org/packages/doric-themes-1.2.0.tar";
+        sha256 = "1hg61n1421xphqhc47a1s92wscj5fr4ymjavw6qwb2mddjsfwf1i";
       };
       packageRequires = [ ];
       meta = {
@@ -3110,10 +3110,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.29.0";
+      version = "1.30.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.29.0.tar";
-        sha256 = "1spl8z3lnq6gjm4lrk5s205k3wn0v34lc7b0wc6yl5mz855zvw2w";
+        url = "https://elpa.gnu.org/packages/ellama-1.30.0.tar";
+        sha256 = "0xfyli6mzv5rdw6ddzy7q4w7332z4vniz1dmxlyr4r0dczyjq0pk";
       };
       packageRequires = [
         compat
