@@ -484,10 +484,10 @@
     elpaBuild {
       pname = "auctex-label-numbers";
       ename = "auctex-label-numbers";
-      version = "0.2";
+      version = "0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/auctex-label-numbers-0.2.tar";
-        sha256 = "1cd68yvpm061r9k4x6rvy3g2wdynv5gbjg2dyp06nkrgvakdb00x";
+        url = "https://elpa.gnu.org/packages/auctex-label-numbers-0.3.tar";
+        sha256 = "10dgq2jnzxd2w10a9raz9gj6nzlmyk048fzlv839sf5m73pjq89s";
       };
       packageRequires = [ auctex ];
       meta = {
@@ -5092,10 +5092,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.3.1";
+      version = "0.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/keymap-popup-0.3.1.tar";
-        sha256 = "0m44s8618n7g5pajxiv4k1dfx6l58gr01a3ga26fxc51j1d05q8b";
+        url = "https://elpa.gnu.org/packages/keymap-popup-0.4.0.tar";
+        sha256 = "0hdzppwrq78hzamr05jjj3nmdsv0fxbv93gs94gmwbc07jiq0937";
       };
       packageRequires = [ ];
       meta = {
