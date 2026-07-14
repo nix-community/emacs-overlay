@@ -3344,10 +3344,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.12.1";
+      version = "0.12.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/jabber-0.12.1.tar";
-        sha256 = "0l788pyhm7kb1b6bwm51zg20ipa7cwyk5y1sxqysnjqlz7bmhk3w";
+        url = "https://elpa.nongnu.org/nongnu/jabber-0.12.2.tar";
+        sha256 = "0klii5m93g5dva7wrf7v0habb9pghrpa6kw63c5x1ym2w7sh8v6q";
       };
       packageRequires = [
         fsm
@@ -4696,10 +4696,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.2.0";
+      version = "3.2.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/projectile-3.2.0.tar";
-        sha256 = "01mj182x90z781rzn1vilsrsjd9nqmin2mf2pnmd8ppbd7nvssbp";
+        url = "https://elpa.nongnu.org/nongnu/projectile-3.2.1.tar";
+        sha256 = "07hfhfbig1zw1fs0k7m22n3wqdyk4fj5fbpcrg0x4q2dw05r5bbj";
       };
       packageRequires = [ compat ];
       meta = {
