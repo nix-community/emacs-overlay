@@ -505,10 +505,10 @@
     elpaBuild {
       pname = "auctex-label-numbers";
       ename = "auctex-label-numbers";
-      version = "0.3.0.20260712.0";
+      version = "0.3.0.20260714.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-label-numbers-0.3.0.20260712.0.tar";
-        sha256 = "007qqsb9773pnpz8hdxry0ci4gc1rxym8bj75iab77w4d5rs9ivi";
+        url = "https://elpa.gnu.org/devel/auctex-label-numbers-0.3.0.20260714.1.tar";
+        sha256 = "1bqw342873z0cpjg6lg3inscbjilwrgm0dgd9bhc7bb8mas7hkaj";
       };
       packageRequires = [ auctex ];
       meta = {
@@ -3874,10 +3874,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.2.3.0.20260619.16";
+      version = "0.2.3.0.20260715.17";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.2.3.0.20260619.16.tar";
-        sha256 = "1ywj3k0syc09qx267dyj313qhdm583jij2raacz6q9vrh53wwrsz";
+        url = "https://elpa.gnu.org/devel/forgejo-0.2.3.0.20260715.17.tar";
+        sha256 = "12vg44zkpr8s8i4wal2z3b6ii9gigdw674p10dx3zpj7zibjglry";
       };
       packageRequires = [ keymap-popup ];
       meta = {
@@ -5200,10 +5200,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.0.0.20260713.0";
+      version = "0.4.0.0.20260715.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.0.0.20260713.0.tar";
-        sha256 = "1lv801z8bc90vrkkcxdl81rdqrl2ndw28qpc0y6jqhh81rrkrry2";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.0.0.20260715.2.tar";
+        sha256 = "02077lc09shc76y1gzh7gk9ij2ap0hkgqx40m6bsg79n25i55zgz";
       };
       packageRequires = [ ];
       meta = {
