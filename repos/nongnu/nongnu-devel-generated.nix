@@ -2715,10 +2715,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260713.61";
+      version = "0.9.9.5.0.20260714.62";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260713.61.tar";
-        sha256 = "1mmbskzrbvsyi17vx0ma37ma3n7d9fj5mr53nsp9hbppdklpi1qn";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260714.62.tar";
+        sha256 = "003dvijbfhn1vrhlbq361zv2vng02swqhrrz2ksk1pyprl6av4q4";
       };
       packageRequires = [
         compat
@@ -3327,10 +3327,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.12.2.0.20260713.0";
+      version = "0.12.2.0.20260715.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.2.0.20260713.0.tar";
-        sha256 = "0fsll3pl22y5gyng190s1q7mc7awik3z80wgkzyszk58glwl0wa8";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.2.0.20260715.2.tar";
+        sha256 = "1d07y9qax62hgyxmcyfdk8w30y0p7qn4x0al2qzh1k0slvw12yjy";
       };
       packageRequires = [
         fsm
