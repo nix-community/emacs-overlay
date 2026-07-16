@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.0.1snapshot0.20260715.0";
+      version = "2.0.1snapshot0.20260716.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.1snapshot0.20260715.0.tar";
-        sha256 = "13mfcp764c301nhny4lkk3mv24njw6fngisvsvp56yfzgmwxz68p";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.1snapshot0.20260716.2.tar";
+        sha256 = "08gm3nyi41r8kclgyxmy0197p9lqm8g4l91bwy0n34w3dkqcl0gx";
       };
       packageRequires = [
         clojure-mode
@@ -1021,10 +1021,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.3.0.0.20250504.80741";
+      version = "2.3.0.0.20260716.9";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.3.0.0.20250504.80741.tar";
-        sha256 = "0h8ap8bnqy2czvgkc71l49ms3kwk8lciz0ydzi2yy5xgh5pvs71k";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.3.0.0.20260716.9.tar";
+        sha256 = "0yr5x846v1zynyacfpgn8zhhrzsw5qw3fqnr1w9cscljzfwlajs8";
       };
       packageRequires = [ compat ];
       meta = {
