@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260627.143";
+      version = "1.0.2.0.20260716.146";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260627.143.tar";
-        sha256 = "03v33i344dijqyib52wxdfh6f6gbsbsgw4n90dcy6510djpcwcd2";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260716.146.tar";
+        sha256 = "0v4hp40zca7n57b4m3c9kqxpgdaziv8qzfdz00bb5wyy11q05psw";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -6758,10 +6758,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260712.379";
+      version = "10.0pre0.20260715.383";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260712.379.tar";
-        sha256 = "1jgfwx19zmprpn33vjws0mqnpvf0zngch75ra1642yhni14y2jvy";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260715.383.tar";
+        sha256 = "0dys9gg55z0bn7p9g7f2rw01v1my3ba3qmm3555g7xhpmy7gcfd6";
       };
       packageRequires = [ ];
       meta = {
@@ -7725,10 +7725,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.2.0.20260704.36";
+      version = "0.12.0.0.20260716.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/project-0.11.2.0.20260704.36.tar";
-        sha256 = "15c60lhvi6jraigjyl786qmk84ms87cj69ad1gvkzc85ad9c6z9r";
+        url = "https://elpa.gnu.org/devel/project-0.12.0.0.20260716.0.tar";
+        sha256 = "0iaqw9ci3sbq3y3ry7r3pyv4ydlbx8b01p7chqq3b3h55vdi3i1d";
       };
       packageRequires = [ xref ];
       meta = {

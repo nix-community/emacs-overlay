@@ -7549,10 +7549,10 @@
     elpaBuild {
       pname = "project";
       ename = "project";
-      version = "0.11.2";
+      version = "0.12.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/project-0.11.2.tar";
-        sha256 = "0gyjdqxsblsmh2higkr2a6vfl051hpqzm0pxrzwsg2766xmldgqk";
+        url = "https://elpa.gnu.org/packages/project-0.12.0.tar";
+        sha256 = "0g7in5lzv21j4mrmqp60bl02gwrh2mrs6fw1ysj6pwaqlza9hw4w";
       };
       packageRequires = [ xref ];
       meta = {
