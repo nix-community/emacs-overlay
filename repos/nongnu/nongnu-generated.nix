@@ -566,10 +566,10 @@
     elpaBuild {
       pname = "casual";
       ename = "casual";
-      version = "2.16.2";
+      version = "2.17.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/casual-2.16.2.tar";
-        sha256 = "0aqkxxds4paicn1r4hy13f71cl4qllf9dfijpl4mp5zizyx8a8a2";
+        url = "https://elpa.nongnu.org/nongnu/casual-2.17.0.tar";
+        sha256 = "1p08nmkn2ysgmam3h78xs8298s97306y2qwkc0fr5w9785wfrii0";
       };
       packageRequires = [
         csv-mode
@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.2";
+      version = "2.0.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/cider-1.22.2.tar";
-        sha256 = "0a7mcg1lazn1xyl3sxy0qpwd4qipf0ix56891ydjcv7i9yhggnpc";
+        url = "https://elpa.nongnu.org/nongnu/cider-2.0.0.tar";
+        sha256 = "1i8drgg7fbj4l4y7mgh47fw94bajwd5sdacfkvii0d6pc8sda2if";
       };
       packageRequires = [
         clojure-mode

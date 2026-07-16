@@ -566,10 +566,10 @@
     elpaBuild {
       pname = "casual";
       ename = "casual";
-      version = "2.16.2.0.20260609.0";
+      version = "2.17.0.0.20260715.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/casual-2.16.2.0.20260609.0.tar";
-        sha256 = "1n3br77c56psicqs394kdgzlmsxbzzbm5w7bm0g3pkz5kq1jh5bh";
+        url = "https://elpa.nongnu.org/nongnu-devel/casual-2.17.0.0.20260715.0.tar";
+        sha256 = "04zc4iw0s0igrh0y8ccw5bz78myr002b25xsk08sjbw502r36bgn";
       };
       packageRequires = [
         csv-mode
@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.0.0snapshot0.20260714.93";
+      version = "2.0.1snapshot0.20260715.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.0snapshot0.20260714.93.tar";
-        sha256 = "1d42zqxd7lgm17yglp9c1570bc01pgzqgb3lw0647byf36kajflq";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.1snapshot0.20260715.0.tar";
+        sha256 = "13mfcp764c301nhny4lkk3mv24njw6fngisvsvp56yfzgmwxz68p";
       };
       packageRequires = [
         clojure-mode
@@ -2715,10 +2715,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260714.62";
+      version = "0.9.9.5.0.20260715.65";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260714.62.tar";
-        sha256 = "003dvijbfhn1vrhlbq361zv2vng02swqhrrz2ksk1pyprl6av4q4";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260715.65.tar";
+        sha256 = "0ax0i8v68ibx4mh6pyz8lqjrkjw7zz9chwkricmjkcn7kha3l6l2";
       };
       packageRequires = [
         compat
@@ -4587,10 +4587,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1.0.20260709.53";
+      version = "1.26.1.0.20260715.58";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20260709.53.tar";
-        sha256 = "1vh0wx8z1r5jysipwsgidaxm7p8fg8b8ylvyp8gjwgw0ldf6lfyk";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20260715.58.tar";
+        sha256 = "10yx9l53v5qb8hc4pzql36k26md8afmivlgkbsvdg6h6m43wkk94";
       };
       packageRequires = [ ];
       meta = {
@@ -4672,10 +4672,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.3.0snapshot0.20260713.0";
+      version = "3.3.0snapshot0.20260715.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.3.0snapshot0.20260713.0.tar";
-        sha256 = "02bilanif9pqndin3qibc045qymdqzsxrargx7vkma96ldjg00dg";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.3.0snapshot0.20260715.2.tar";
+        sha256 = "19bb53x8nn2afx9yzn21yrify2hfy980qfr0vc72r5qbbmqbk372";
       };
       packageRequires = [ compat ];
       meta = {
