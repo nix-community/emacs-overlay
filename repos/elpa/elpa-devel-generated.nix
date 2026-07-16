@@ -2752,10 +2752,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.0.0.20260712.0";
+      version = "1.2.1.0.20260715.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.0.0.20260712.0.tar";
-        sha256 = "1zd99jnikbd5bwkvf2mvs28aylxhbjfdfkmm9yfdxmj7qfv1kqdw";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260715.0.tar";
+        sha256 = "06067djdhgrc1hhg988f3a7ws0ajg8vac23651m67xvv23rgk8vd";
       };
       packageRequires = [ ];
       meta = {
@@ -2774,10 +2774,10 @@
     elpaBuild {
       pname = "drepl";
       ename = "drepl";
-      version = "0.4.0.20260520.140843";
+      version = "0.4.0.20260715.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/drepl-0.4.0.20260520.140843.tar";
-        sha256 = "0apa8fi1j1wkjnjxfsyyf8k21na4q7fvlg6baz2y2aaqisfykqlh";
+        url = "https://elpa.gnu.org/devel/drepl-0.4.0.20260715.8.tar";
+        sha256 = "01gbl3gqrlz2gimmjsk0nb6zyps8a89z96bwrxqfjph6w13d33gw";
       };
       packageRequires = [ comint-mime ];
       meta = {
@@ -5028,10 +5028,10 @@
     elpaBuild {
       pname = "javaimp";
       ename = "javaimp";
-      version = "0.9.2.0.20260625.8";
+      version = "0.9.2.0.20260715.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260625.8.tar";
-        sha256 = "1ymr43ah3bk6yyg01xja91im4rm3jjipfv1i6w3hfgz1xwl7iyl4";
+        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260715.9.tar";
+        sha256 = "1fv10bx8f7y5f85zkyavav6ylkwxlznhfwbf4w4mybfj1p61mwha";
       };
       packageRequires = [ ];
       meta = {

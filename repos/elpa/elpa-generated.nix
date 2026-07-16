@@ -2684,10 +2684,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.0";
+      version = "1.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/doric-themes-1.2.0.tar";
-        sha256 = "1hg61n1421xphqhc47a1s92wscj5fr4ymjavw6qwb2mddjsfwf1i";
+        url = "https://elpa.gnu.org/packages/doric-themes-1.2.1.tar";
+        sha256 = "0p7qvn8g0hw7h1r3b0m2iif5f4739jmkqn0zih90qw5lbbjf4i86";
       };
       packageRequires = [ ];
       meta = {
