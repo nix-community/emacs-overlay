@@ -1509,10 +1509,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "31.0.0.2.0.20260709.1";
+      version = "31.0.0.2.0.20260716.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-31.0.0.2.0.20260709.1.tar";
-        sha256 = "1dzp4060g084zq7gpqjdgvyhc110dqfpz91y5fcdp1bh4d5c1nzi";
+        url = "https://elpa.gnu.org/devel/compat-31.0.0.2.0.20260716.2.tar";
+        sha256 = "179w1zim5nfj1crvc2qm9ipvwwh2yr9q3rs8wjffcvsfjipnym5d";
       };
       packageRequires = [ ];
       meta = {
@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.6.0.20260708.4";
+      version = "3.6.0.20260716.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.6.0.20260708.4.tar";
-        sha256 = "04y2s0f9d8kgqi4k9r58cxx792p3dkc2bwnnlx5lmzna1qxvmply";
+        url = "https://elpa.gnu.org/devel/consult-3.6.0.20260716.5.tar";
+        sha256 = "1hn04wqdbdbrim1idbcqj9b0lkicghhyaba0jpw7zdw682hfjcaf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2752,10 +2752,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1.0.20260715.0";
+      version = "1.2.1.0.20260716.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260715.0.tar";
-        sha256 = "06067djdhgrc1hhg988f3a7ws0ajg8vac23651m67xvv23rgk8vd";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260716.2.tar";
+        sha256 = "00jysh555i53hx32drdfwc25bf09jq4hm0q6w2q9h2pzrk8wmk85";
       };
       packageRequires = [ ];
       meta = {
@@ -6203,10 +6203,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260714.23";
+      version = "5.3.0.0.20260716.25";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260714.23.tar";
-        sha256 = "1d15h7mrc4k0nhl10wl70z7kgcdy89pkfhba9kxjkvg2fbzr4lyd";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260716.25.tar";
+        sha256 = "1bw2n0m14ki70yi6pfxmqvlcarngjjkhhibszph680h6qzlg180a";
       };
       packageRequires = [ ];
       meta = {
