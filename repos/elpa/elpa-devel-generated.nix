@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260716.146";
+      version = "1.0.2.0.20260717.170";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260716.146.tar";
-        sha256 = "0v4hp40zca7n57b4m3c9kqxpgdaziv8qzfdz00bb5wyy11q05psw";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260717.170.tar";
+        sha256 = "1rblxm3ikkn0g2bk1af0b1a3r7wl0368vyisr04d5449fnn0ijih";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.10.0.20260628.1";
+      version = "2.10.0.20260716.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.10.0.20260628.1.tar";
-        sha256 = "1nh0gasfx69wg0656vf9ypnfjy9hglax37dsfsg02pqcyd5ds21m";
+        url = "https://elpa.gnu.org/devel/corfu-2.10.0.20260716.9.tar";
+        sha256 = "0qhdxn8c0hf9hhjwwnsp391jya0zhj0bjnysp8ifpcqypxf6l8c6";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5571,10 +5571,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.31.2.0.20260709.0";
+      version = "0.31.2.0.20260717.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.31.2.0.20260709.0.tar";
-        sha256 = "0mhkx78vlqsrs9d8bl548817bzdnw144w6qwfdfwr3nlmi03crsn";
+        url = "https://elpa.gnu.org/devel/llm-0.31.2.0.20260717.1.tar";
+        sha256 = "1xr37cl57lvj0b95skpbfh8408qwzipfvaciz4vkmgjbzhm162q3";
       };
       packageRequires = [
         compat
