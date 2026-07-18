@@ -2037,10 +2037,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "36.0.0.20260717.78";
+      version = "36.0.0.20260717.79";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-36.0.0.20260717.78.tar";
-        sha256 = "0cpkvv55b9yh2cqq43vcfkwragvzvfcgw5ik0w53svyknx5i6a77";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-36.0.0.20260717.79.tar";
+        sha256 = "06z7fraary6cpapdvn9bxvh2kmqi5997vxzdy5d3prrasiw4w87q";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2238,10 +2238,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.33.1.0.20260715.1";
+      version = "0.33.1.0.20260718.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.1.0.20260715.1.tar";
-        sha256 = "0g8k8vp3shnhs29m02qyw9654g2im33lpg9srdjbah7y95dpfjc6";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.1.0.20260718.4.tar";
+        sha256 = "14sipclbj37v0f0yc1pk0fl1p704f1gzpd3r21zyh3wkgfj2vjf5";
       };
       packageRequires = [ project ];
       meta = {
@@ -3590,10 +3590,10 @@
     elpaBuild {
       pname = "loopy-dash";
       ename = "loopy-dash";
-      version = "0.13.0.0.20260626.9";
+      version = "0.13.0.0.20260718.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-dash-0.13.0.0.20260626.9.tar";
-        sha256 = "0b0lcyjmr90dj1z82q923pg4wc4hqixnp6afpsyqmbxqgg827r5n";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-dash-0.13.0.0.20260718.10.tar";
+        sha256 = "165pkj1y3wy7s903i7xsc4rnpphvcn7q50ndyis6qsa9nmv5pgm2";
       };
       packageRequires = [
         dash
@@ -6313,10 +6313,10 @@
     elpaBuild {
       pname = "zig-mode";
       ename = "zig-mode";
-      version = "0.0.8.0.20251128.25646";
+      version = "0.0.8.0.20260717.49";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20251128.25646.tar";
-        sha256 = "03nqzy5xyqsr7ax1m0sprk75ygkyspj824vixgkrflqnrhyj5b2s";
+        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20260717.49.tar";
+        sha256 = "182rhhax10ldn763fraa5fc2vqlglzm9iq2yq2rvndgklqlf5bsc";
       };
       packageRequires = [ reformatter ];
       meta = {
