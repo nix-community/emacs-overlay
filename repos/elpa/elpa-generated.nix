@@ -4578,6 +4578,27 @@
       };
     }
   ) { };
+  ibuffer-sidebar = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "ibuffer-sidebar";
+      ename = "ibuffer-sidebar";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/ibuffer-sidebar-1.0.0.tar";
+        sha256 = "00wgka7g7gndk8vczrm3pvx09l46mv93yc0i4w3xlma30z0clivw";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/ibuffer-sidebar.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   idlwave = callPackage (
     {
       elpaBuild,

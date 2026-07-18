@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260717.170";
+      version = "1.0.2.0.20260718.175";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260717.170.tar";
-        sha256 = "1rblxm3ikkn0g2bk1af0b1a3r7wl0368vyisr04d5449fnn0ijih";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260718.175.tar";
+        sha256 = "09svf2663j02hd08d4pqf83mk2npilii0bzr1wx602d7l29qh3vw";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.10.0.20260717.10";
+      version = "2.10.0.20260718.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.10.0.20260717.10.tar";
-        sha256 = "1nx90baz8m9669wyaj27bgks03hn3s5s7annk8lwcbmvxl9srjk8";
+        url = "https://elpa.gnu.org/devel/corfu-2.10.0.20260718.12.tar";
+        sha256 = "1g7as2hykz6d1cczsgnbn630pbbfm2i2lv868kjf1g3qp5gayvq6";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4674,10 +4674,10 @@
     elpaBuild {
       pname = "ibuffer-sidebar";
       ename = "ibuffer-sidebar";
-      version = "0.0.1.0.20260612.36";
+      version = "1.0.0.0.20260717.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ibuffer-sidebar-0.0.1.0.20260612.36.tar";
-        sha256 = "0r6wpdcn6fqrlgvmxihiwxp6lzhijjvwzikgv8nbh25x0gmz2nqm";
+        url = "https://elpa.gnu.org/devel/ibuffer-sidebar-1.0.0.0.20260717.0.tar";
+        sha256 = "0mzwsagnzvgbqjr9a71xvsh0l6945x9di3cij9n6lc4r1njdv11f";
       };
       packageRequires = [ ];
       meta = {
