@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.10.0.20260716.9";
+      version = "2.10.0.20260717.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.10.0.20260716.9.tar";
-        sha256 = "0qhdxn8c0hf9hhjwwnsp391jya0zhj0bjnysp8ifpcqypxf6l8c6";
+        url = "https://elpa.gnu.org/devel/corfu-2.10.0.20260717.10.tar";
+        sha256 = "1nx90baz8m9669wyaj27bgks03hn3s5s7annk8lwcbmvxl9srjk8";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6203,10 +6203,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260716.25";
+      version = "5.3.0.0.20260717.26";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260716.25.tar";
-        sha256 = "1bw2n0m14ki70yi6pfxmqvlcarngjjkhhibszph680h6qzlg180a";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260717.26.tar";
+        sha256 = "0a3gd5cww0bifh9j3hxnsjb4csik7qlifa3i306l0lmj00sls1hl";
       };
       packageRequires = [ ];
       meta = {
