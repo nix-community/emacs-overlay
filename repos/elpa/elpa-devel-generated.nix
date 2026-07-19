@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260718.175";
+      version = "1.0.2.0.20260718.178";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260718.175.tar";
-        sha256 = "09svf2663j02hd08d4pqf83mk2npilii0bzr1wx602d7l29qh3vw";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260718.178.tar";
+        sha256 = "15ymhxywy9kh33rpjrbnn6h545hkwgqcc7mbjpjp7p2kghh1xndj";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -3609,10 +3609,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.35.0.20260704.2";
+      version = "0.35.0.20260718.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/exwm-0.35.0.20260704.2.tar";
-        sha256 = "0xkm470x11v7sybz0lh6nwqwaszsf13fzfyh0aqzqbr8n2jilcmf";
+        url = "https://elpa.gnu.org/devel/exwm-0.35.0.20260718.3.tar";
+        sha256 = "1kk9ggm9q32rz5dld2w2znpifwpjcncn7ih19rkw3bfd2q8bgirg";
       };
       packageRequires = [
         compat
