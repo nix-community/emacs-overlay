@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.8.0.20260718.5";
+      version = "1.9.0.20260719.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.8.0.20260718.5.tar";
-        sha256 = "083x2rbixx8fasfj5pc8i167qs3mi9d27rnmrsj3gmq4fkkbc2ki";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.9.0.20260719.0.tar";
+        sha256 = "0dkxflvy1lrf33qvp22fr6wv27s4sn5biz9sj5xjvgipmw6lybz6";
       };
       packageRequires = [
         compat
@@ -1560,10 +1560,10 @@
     elpaBuild {
       pname = "evil-collection";
       ename = "evil-collection";
-      version = "3.0.0.0.20260718.0";
+      version = "3.0.0.0.20260718.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.0.0.20260718.0.tar";
-        sha256 = "05xq43dd39mx6h8xi3yblpn9hyqkavjy7fmrcy0q82psz82y4mf8";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.0.0.20260718.1.tar";
+        sha256 = "1s187xralc5cy9zs1fv22w06kx587cm2v5bs3j1a3njbxamlvdnd";
       };
       packageRequires = [ evil ];
       meta = {
@@ -4609,10 +4609,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1.0.20260716.78";
+      version = "1.26.1.0.20260719.80";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20260716.78.tar";
-        sha256 = "0sngswijdzd42y3s4mp2gg5n678l5f83pkjg8x0gfaxsx5dqmgq4";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20260719.80.tar";
+        sha256 = "0wsid2y7lybyzk6kf61k9jc80vk3qz3bqsr2rgqy6hln5rv8g5q8";
       };
       packageRequires = [ ];
       meta = {
@@ -5189,10 +5189,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260717.52";
+      version = "2.32snapshot0.20260719.53";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260717.52.tar";
-        sha256 = "16ylzgh6rs28dlr1hbvn1j96v0vmk6w77bdlsz2b3wfrxv5xmsz9";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260719.53.tar";
+        sha256 = "06isvwjq37vzf636ci5jb8fkzc926fnjzwx0fszlfax4hy00mlqf";
       };
       packageRequires = [ macrostep ];
       meta = {
