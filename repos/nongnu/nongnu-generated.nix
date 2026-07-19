@@ -566,10 +566,10 @@
     elpaBuild {
       pname = "casual";
       ename = "casual";
-      version = "2.17.0";
+      version = "2.17.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/casual-2.17.0.tar";
-        sha256 = "1p08nmkn2ysgmam3h78xs8298s97306y2qwkc0fr5w9785wfrii0";
+        url = "https://elpa.nongnu.org/nongnu/casual-2.17.1.tar";
+        sha256 = "0wnr7lqb3c6wzcbjh19cj00jdh3rhplzyxq2khk009pfld861pa3";
       };
       packageRequires = [
         csv-mode
@@ -1568,6 +1568,28 @@
       };
     }
   ) { };
+  evil-collection = callPackage (
+    {
+      elpaBuild,
+      evil,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "evil-collection";
+      ename = "evil-collection";
+      version = "3.0.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/evil-collection-3.0.0.tar";
+        sha256 = "1a347yznrgw8b5y8jwj4rbryidr24c7g8c2is9pd4470v5h7jnfd";
+      };
+      packageRequires = [ evil ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/evil-collection.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   evil-emacs-cursor-model-mode = callPackage (
     {
       elpaBuild,
@@ -2055,10 +2077,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "36.0";
+      version = "37.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/flycheck-36.0.tar";
-        sha256 = "0172y6qzkys77cbvdla1iiiznpxpscjzmsdr66m66s8g4bf7f1p2";
+        url = "https://elpa.nongnu.org/nongnu/flycheck-37.0.tar";
+        sha256 = "0x565wcnxkmdsf87dzv555r6m86lmlwz4c16isgac8dn1qp7l5jb";
       };
       packageRequires = [ seq ];
       meta = {
