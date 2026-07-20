@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.9.0.20260719.0";
+      version = "1.9.0.20260719.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.9.0.20260719.0.tar";
-        sha256 = "0dkxflvy1lrf33qvp22fr6wv27s4sn5biz9sj5xjvgipmw6lybz6";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.9.0.20260719.1.tar";
+        sha256 = "1rian9r2vvdnrk0hqmrgpsp2lbi7ci5gr8jzg9ghgpkz7bjsa8w1";
       };
       packageRequires = [
         compat
@@ -4588,10 +4588,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.67.0.20260718.27";
+      version = "0.68.0.20260719.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.67.0.20260718.27.tar";
-        sha256 = "04m5kblld18dfkn4qb43x1rp47wzk1c6hp009i2bf8g7ykf5jpxd";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.68.0.20260719.0.tar";
+        sha256 = "1awd1rsb95vka0raf8pdgpyj1mmx8s3nqqhgqcxs4h44v8fppyc6";
       };
       packageRequires = [ peg ];
       meta = {
