@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.4.0.20260619.82";
+      version = "0.1.4.0.20260720.83";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20260619.82.tar";
-        sha256 = "0rf10gab6vfrmiwcvm6b6cb0a3vlaydc4cgfpq34na9czqn760r0";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20260720.83.tar";
+        sha256 = "19k83fn4i2vvvad6pz865ns165vpd9msa1cnjhmlcfv5cxsa7wk3";
       };
       packageRequires = [ ];
       meta = {
@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.10.0.20260718.12";
+      version = "2.10.0.20260719.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.10.0.20260718.12.tar";
-        sha256 = "1g7as2hykz6d1cczsgnbn630pbbfm2i2lv868kjf1g3qp5gayvq6";
+        url = "https://elpa.gnu.org/devel/corfu-2.10.0.20260719.16.tar";
+        sha256 = "0h3mjsfk8zsviqcqccql4pcj87ja0am78ag3q2w8jw77bqvk5s4a";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9867,10 +9867,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.2.0.20260629.0";
+      version = "2.8.2.0.20260720.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.8.2.0.20260629.0.tar";
-        sha256 = "1ninx188n0sd7y7j6s1vmms5rsp7yxrf9yyi4g3x2z4vgah83f3c";
+        url = "https://elpa.gnu.org/devel/tramp-2.8.2.0.20260720.2.tar";
+        sha256 = "01a6riczx8wvy72x9v56p314r37xnr7i8z6394li307xw3gkznzd";
       };
       packageRequires = [ ];
       meta = {
