@@ -1560,10 +1560,10 @@
     elpaBuild {
       pname = "evil-collection";
       ename = "evil-collection";
-      version = "3.0.0.0.20260718.1";
+      version = "3.0.0.0.20260719.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.0.0.20260718.1.tar";
-        sha256 = "1s187xralc5cy9zs1fv22w06kx587cm2v5bs3j1a3njbxamlvdnd";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.0.0.20260719.2.tar";
+        sha256 = "0xccbmkxzqdw5nqzaink8yab4ga3j0cg7djgiqrzdcd2cc44vqgx";
       };
       packageRequires = [ evil ];
       meta = {
@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "37.0.0.20260718.0";
+      version = "37.0.0.20260720.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-37.0.0.20260718.0.tar";
-        sha256 = "0yrg7az243hawvfwkf1qx4qs0z796ps3nj6h0z7myg5p0gzjbccq";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-37.0.0.20260720.8.tar";
+        sha256 = "1d7pb6kqz5s862d43l0ywzvhcd15xj2y8ixgc9zy42yz3rwnqlbj";
       };
       packageRequires = [ seq ];
       meta = {
@@ -4694,10 +4694,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.3.0snapshot0.20260718.4";
+      version = "3.3.0snapshot0.20260720.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.3.0snapshot0.20260718.4.tar";
-        sha256 = "1nbbb2ac1826h1zxcd3jn1drm8adhxrkzc08kaxw052573aqlqm3";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.3.0snapshot0.20260720.5.tar";
+        sha256 = "1n26lg4i2k8nh5sw3yxjrjdmqdylmf0wdbijc0gkqzlafa3nh6qg";
       };
       packageRequires = [ compat ];
       meta = {
