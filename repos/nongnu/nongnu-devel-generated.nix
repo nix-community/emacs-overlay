@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "37.0.0.20260720.12";
+      version = "37.0.0.20260721.19";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-37.0.0.20260720.12.tar";
-        sha256 = "1sc3shgzy3hkwyz0agq33d15zxym1hlabzddmmdrd107dwcf3sly";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-37.0.0.20260721.19.tar";
+        sha256 = "0ybnvk6r1058c0wlfl54bk84zmac6bwjx7g1jry3zyzrf5fnkp17";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3711,10 +3711,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.6.0.0.20260718.46";
+      version = "4.6.0.0.20260720.55";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.6.0.0.20260718.46.tar";
-        sha256 = "1ln6p4y19z2j2x9hj63v4p5d9kl83vzw993bwirbljf59gwn60qz";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.6.0.0.20260720.55.tar";
+        sha256 = "1hxzi3swwhix693j1x1wx1qjsfk28bm5fl5l86sj1avls0clg68l";
       };
       packageRequires = [
         compat
@@ -3744,10 +3744,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.6.0.0.20260718.46";
+      version = "4.6.0.0.20260720.55";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.6.0.0.20260718.46.tar";
-        sha256 = "02glfja6slz17qv3qzrwjz32a5j3yqj135z430nm2bz015c4k2gv";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.6.0.0.20260720.55.tar";
+        sha256 = "167lqxb7hqlb9qhb3vgjlxrc6kkv1nzqfh50qy0pnsphnpsz05i6";
       };
       packageRequires = [
         compat
@@ -4338,10 +4338,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.2.0.0.20260701.0";
+      version = "2.2.0.0.20260717.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.2.0.0.20260701.0.tar";
-        sha256 = "143w8vvgn9qfyfrdd8ccs4grpgnksbvjby9sb077ciqjnzimnx5d";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.2.0.0.20260717.1.tar";
+        sha256 = "1wnilyq74lwcn5bcdzwrci9pxlrfg80jsh28xx52gjz9bajnl488";
       };
       packageRequires = [
         compat
@@ -4694,10 +4694,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.3.0snapshot0.20260720.7";
+      version = "3.3.0snapshot0.20260721.20";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.3.0snapshot0.20260720.7.tar";
-        sha256 = "1d1vbsqwwz9140zrv5rzrqiswwfxm4411awkmaqg86crmpb551gy";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.3.0snapshot0.20260721.20.tar";
+        sha256 = "1z5fhh3xap62a82s09fr7y77wmyq45vb2bkh3n7z5yy0vx3hhgva";
       };
       packageRequires = [ compat ];
       meta = {
