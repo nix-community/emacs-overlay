@@ -1621,10 +1621,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.7.0.0.20260430.125841";
+      version = "0.7.0.0.20260720.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-hoogle-0.7.0.0.20260430.125841.tar";
-        sha256 = "06kqrgbm80bpszqb9i1zx0mwaw4imi3i3lz802rwbfdfa6cg1vnh";
+        url = "https://elpa.gnu.org/devel/consult-hoogle-0.7.0.0.20260720.1.tar";
+        sha256 = "01x8y821dajblsn4i2fnkpmlkyid50d9fri629cxrbcq61bsfxqh";
       };
       packageRequires = [ consult ];
       meta = {
@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.10.0.20260719.16";
+      version = "2.10.0.20260720.18";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.10.0.20260719.16.tar";
-        sha256 = "0h3mjsfk8zsviqcqccql4pcj87ja0am78ag3q2w8jw77bqvk5s4a";
+        url = "https://elpa.gnu.org/devel/corfu-2.10.0.20260720.18.tar";
+        sha256 = "0lcdhs6ck2cay3j4lvv5vwms942cigsig148nfikz9xn0aiz3r0k";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3178,10 +3178,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.30.0.0.20260712.1";
+      version = "1.31.0.0.20260720.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.30.0.0.20260712.1.tar";
-        sha256 = "0gn0jgi3li4ycqwjk2bbfwp47awxkr5pscyxpnxyy1qbjlv77s4d";
+        url = "https://elpa.gnu.org/devel/ellama-1.31.0.0.20260720.1.tar";
+        sha256 = "0c5laxw6y24aygckbr2jqwhriwr72m040xg44npkj14i5n2n40vx";
       };
       packageRequires = [
         compat
@@ -5492,10 +5492,10 @@
     elpaBuild {
       pname = "lisp-ts-mode";
       ename = "lisp-ts-mode";
-      version = "0.2.1.0.20260711.3";
+      version = "0.3.0.0.20260720.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.2.1.0.20260711.3.tar";
-        sha256 = "1ihjb14qz1kmz02p7zpvr0vq75f28lp6win60xw0d6y12gks60f9";
+        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.3.0.0.20260720.0.tar";
+        sha256 = "09xnsw5rsvkwx8dvxw9m60fc3pwk21r0iydm0r55bj7sksb6z7id";
       };
       packageRequires = [
         compat

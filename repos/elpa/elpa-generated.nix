@@ -3110,10 +3110,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.30.0";
+      version = "1.31.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.30.0.tar";
-        sha256 = "0xfyli6mzv5rdw6ddzy7q4w7332z4vniz1dmxlyr4r0dczyjq0pk";
+        url = "https://elpa.gnu.org/packages/ellama-1.31.0.tar";
+        sha256 = "14haiqm3x0dys8jynl56qizl3ymr6h2y6b9a467yl9ac2lfpkxk3";
       };
       packageRequires = [
         compat
@@ -5405,10 +5405,10 @@
     elpaBuild {
       pname = "lisp-ts-mode";
       ename = "lisp-ts-mode";
-      version = "0.2.1";
+      version = "0.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/lisp-ts-mode-0.2.1.tar";
-        sha256 = "0sdyziagjcq29n10yygd28n1i99wsrd33i8g1h9ahfm9imr215jy";
+        url = "https://elpa.gnu.org/packages/lisp-ts-mode-0.3.0.tar";
+        sha256 = "0dh15bdmjgn4jmdc8xdf0wddj1zkbpi9xqw32m724h1y5511whh2";
       };
       packageRequires = [
         compat
