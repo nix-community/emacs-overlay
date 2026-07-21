@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260718.178";
+      version = "1.1.0.0.20260721.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260718.178.tar";
-        sha256 = "15ymhxywy9kh33rpjrbnn6h545hkwgqcc7mbjpjp7p2kghh1xndj";
+        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20260721.0.tar";
+        sha256 = "0zidihc9vrv7nb5pfciik8xvlg5j6gg7kdmvlcwcmwq79r1vcy83";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -2752,10 +2752,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1.0.20260716.2";
+      version = "1.2.1.0.20260721.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260716.2.tar";
-        sha256 = "00jysh555i53hx32drdfwc25bf09jq4hm0q6w2q9h2pzrk8wmk85";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260721.3.tar";
+        sha256 = "1sv1nzicaaag3acspmrps2qdg90s7jz5lvv8qjlzf9if5ykyv61a";
       };
       packageRequires = [ ];
       meta = {
