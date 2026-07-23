@@ -2413,10 +2413,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20260627.186";
+      version = "1.10.0.0.20260723.188";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260627.186.tar";
-        sha256 = "0anq2hcihzsm3ff0g0smk8w72x5fi3frqymbm1dci679ssx4316v";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260723.188.tar";
+        sha256 = "01mf33088i984y0npw7vff9zav1ph6879821cnbkvdc56dkrkv2n";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -6182,10 +6182,10 @@
     elpaBuild {
       pname = "mode-line-maker";
       ename = "mode-line-maker";
-      version = "0.2.1.0.20260722.0";
+      version = "0.2.2.0.20260722.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mode-line-maker-0.2.1.0.20260722.0.tar";
-        sha256 = "07yxwhvv2hfdy4pdz3aa935rpviq36y5wagi0cg4cfz60x6xnk5i";
+        url = "https://elpa.gnu.org/devel/mode-line-maker-0.2.2.0.20260722.0.tar";
+        sha256 = "0wxwmj8bpzblr6mkdf4w0pvaxn033kykbf409lcyxy1x1k5cic13";
       };
       packageRequires = [ ];
       meta = {
@@ -7788,10 +7788,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.4.0.0.20260722.0";
+      version = "1.4.1.0.20260723.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.4.0.0.20260722.0.tar";
-        sha256 = "0b887hq1z0n6dlavn7nl3kjcri30fmnk8fqla7lx75baamicnr8w";
+        url = "https://elpa.gnu.org/devel/pulsar-1.4.1.0.20260723.2.tar";
+        sha256 = "1pbm31izvnzn7f3jilwwz39dg8fs5qcwy5288xjpxbn6f2bq3cqn";
       };
       packageRequires = [ ];
       meta = {

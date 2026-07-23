@@ -6094,10 +6094,10 @@
     elpaBuild {
       pname = "mode-line-maker";
       ename = "mode-line-maker";
-      version = "0.2.1";
+      version = "0.2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/mode-line-maker-0.2.1.tar";
-        sha256 = "0rnpn1g8fqa0iw6624aj58qxwmv7hsk2yccild3sd3wlmij75493";
+        url = "https://elpa.gnu.org/packages/mode-line-maker-0.2.2.tar";
+        sha256 = "14a4nxpdj3lndv39q95a988z83hfivbaipm7qj4dwh3x1008kc00";
       };
       packageRequires = [ ];
       meta = {
@@ -7655,10 +7655,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.4.0";
+      version = "1.4.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/pulsar-1.4.0.tar";
-        sha256 = "1vn704sgp3p7rqvxp6db5b764bq1k1zlbf30n0828ama2z18hg0p";
+        url = "https://elpa.gnu.org/packages/pulsar-1.4.1.tar";
+        sha256 = "030mhbf45d9lck7c0xmv3rjzjcwyvcql6b3hnhnjq8ajqr7wsd5c";
       };
       packageRequires = [ ];
       meta = {
