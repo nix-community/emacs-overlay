@@ -1662,10 +1662,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.10";
+      version = "2.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/corfu-2.10.tar";
-        sha256 = "0wp9jr1l81si8p1rxa5dkkwbx6k77rs0629q2lxk1l8lnb0j7h6n";
+        url = "https://elpa.gnu.org/packages/corfu-2.11.tar";
+        sha256 = "06mrzf7f4h0pvq09gks2g88i9bfdmk1rvfj55qiaxkgpfyc3vwm9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6085,6 +6085,27 @@
       };
     }
   ) { };
+  mode-line-maker = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "mode-line-maker";
+      ename = "mode-line-maker";
+      version = "0.2.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/mode-line-maker-0.2.1.tar";
+        sha256 = "0rnpn1g8fqa0iw6624aj58qxwmv7hsk2yccild3sd3wlmij75493";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/mode-line-maker.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   modus-themes = callPackage (
     {
       elpaBuild,
@@ -6793,10 +6814,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.14";
+      version = "1.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-modern-1.14.tar";
-        sha256 = "08rvxrr67ypvncrg7znl3in8c314l7x1a18m6hr458wqc1xb57zx";
+        url = "https://elpa.gnu.org/packages/org-modern-1.15.tar";
+        sha256 = "11mrwba0ykwzzfzdnf8kmicbwivz491nnm42c344b771d533iybl";
       };
       packageRequires = [
         compat
@@ -7634,10 +7655,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.3.4";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/pulsar-1.3.4.tar";
-        sha256 = "09hxk1l8aaidiwlml4dl20ylwzdclghs0614wc4nglf3a6nvadjk";
+        url = "https://elpa.gnu.org/packages/pulsar-1.4.0.tar";
+        sha256 = "1vn704sgp3p7rqvxp6db5b764bq1k1zlbf30n0828ama2z18hg0p";
       };
       packageRequires = [ ];
       meta = {
@@ -10339,10 +10360,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.10";
+      version = "2.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-2.10.tar";
-        sha256 = "1kwmlpfxjnjkv05hfqhxmxw5d1vlhqvdmyc3p34qhp3bj2xafwm0";
+        url = "https://elpa.gnu.org/packages/vertico-2.11.tar";
+        sha256 = "1l8ja7f223qkhwm8hpmj3kdirqd687fnfag3hw3r8imghm3hdgjk";
       };
       packageRequires = [ compat ];
       meta = {

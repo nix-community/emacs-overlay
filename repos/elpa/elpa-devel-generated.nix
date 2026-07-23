@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.10.0.20260720.18";
+      version = "2.11.0.20260722.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.10.0.20260720.18.tar";
-        sha256 = "0lcdhs6ck2cay3j4lvv5vwms942cigsig148nfikz9xn0aiz3r0k";
+        url = "https://elpa.gnu.org/devel/corfu-2.11.0.20260722.0.tar";
+        sha256 = "0rwamm1sf0va5wn04dvya6mbnk798r3nb2xdflb435i7k6xivnps";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6182,10 +6182,10 @@
     elpaBuild {
       pname = "mode-line-maker";
       ename = "mode-line-maker";
-      version = "0.1.0.20251206.64613";
+      version = "0.2.1.0.20260722.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mode-line-maker-0.1.0.20251206.64613.tar";
-        sha256 = "1ayzlc96q9skn29ih0jwxmvvz192b0g8wn6ab5sv9s48lqbch957";
+        url = "https://elpa.gnu.org/devel/mode-line-maker-0.2.1.0.20260722.0.tar";
+        sha256 = "07yxwhvv2hfdy4pdz3aa935rpviq36y5wagi0cg4cfz60x6xnk5i";
       };
       packageRequires = [ ];
       meta = {
@@ -6905,10 +6905,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.14.0.20260707.5";
+      version = "1.15.0.20260722.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.14.0.20260707.5.tar";
-        sha256 = "1hd30siq6jnqnxmkrgibp86cn3kjma1ifa216mw9fkl3bg8js506";
+        url = "https://elpa.gnu.org/devel/org-modern-1.15.0.20260722.0.tar";
+        sha256 = "1a4bqavr0kr74j60pkax6273gcqcbxd2gh4dlhwvibrqf85qi9dv";
       };
       packageRequires = [
         compat
@@ -7788,10 +7788,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.3.4.0.20260426.51313";
+      version = "1.4.0.0.20260722.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.3.4.0.20260426.51313.tar";
-        sha256 = "0nw5hpxk5v334xp43gnnv2jknq88lgba69j8sn0i1625cvwpijiq";
+        url = "https://elpa.gnu.org/devel/pulsar-1.4.0.0.20260722.0.tar";
+        sha256 = "0b887hq1z0n6dlavn7nl3kjcri30fmnk8fqla7lx75baamicnr8w";
       };
       packageRequires = [ ];
       meta = {
@@ -10575,10 +10575,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.10.0.20260709.7";
+      version = "2.11.0.20260722.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.10.0.20260709.7.tar";
-        sha256 = "0jq13xdfbgrdf6b48sd70znax4mvcbf2p0h17mbc8vg006fs3xih";
+        url = "https://elpa.gnu.org/devel/vertico-2.11.0.20260722.0.tar";
+        sha256 = "0iim2yz24xqx2aspcnwwafmnn8s49l0xc70nzz2hxnyxrym6jdc7";
       };
       packageRequires = [ compat ];
       meta = {
