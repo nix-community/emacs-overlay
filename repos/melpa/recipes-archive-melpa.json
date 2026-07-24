@@ -2383,15 +2383,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260722,
-    1634
+    20260724,
+    426
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "004c680692dfcf6be957bee26ee33c94404b3f41",
-   "sha256": "1ginw8jwc20sq58m02i5wxzb92pqk1an23cpf67d77jvg9pg8d1m"
+   "commit": "410ed297157a205eeb1b2f79f74ae82910a81ecc",
+   "sha256": "139gc221s1328njhcgdk1jaapp3pwq8bxypap9zmnhmi5rr7897y"
   },
   "stable": {
    "version": [
@@ -44038,28 +44038,28 @@
   "repo": "plandes/flex-compile",
   "unstable": {
    "version": [
-    20260716,
-    2144
+    20260724,
+    34
    ],
    "deps": [
     "buffer-manage",
     "dash"
    ],
-   "commit": "0bd757312b0118ed55d3f4eefe4adca983f588ec",
-   "sha256": "1n71ll57wpfps1av89k63awhbhrg527anqxhgfiglswzba5970yg"
+   "commit": "c9f6b00d6da0192a52f17a0b9c2a8753d7bbced8",
+   "sha256": "12w7z6pc3k5y6cbaik1n4mn13r4r5bzzj54930nasfgrw9d4f5jq"
   },
   "stable": {
    "version": [
     1,
-    7,
-    1
+    8,
+    0
    ],
    "deps": [
     "buffer-manage",
     "dash"
    ],
-   "commit": "f15d23afabd03c39583b1a87dd847a91cb7bfe34",
-   "sha256": "0k1q4fmh43jwcl81v4qxr4s0azbikh6cnfa0ngs8g83ahrwdag76"
+   "commit": "c9f6b00d6da0192a52f17a0b9c2a8753d7bbced8",
+   "sha256": "12w7z6pc3k5y6cbaik1n4mn13r4r5bzzj54930nasfgrw9d4f5jq"
   }
  },
  {
@@ -61642,15 +61642,15 @@
   "repo": "bbatsov/helm-projectile",
   "unstable": {
    "version": [
-    20260708,
-    1251
+    20260724,
+    27
    ],
    "deps": [
     "helm",
     "projectile"
    ],
-   "commit": "150ab7b669f7d3000718b73fa857dfe0ad641a97",
-   "sha256": "1s1pxi6f7v23fr7iax075wq6jkn3vrnasm2rjxmf781cjkjayk09"
+   "commit": "4dae1d072cc2650749846cfcab1f60686471cc45",
+   "sha256": "1smcgv7g94g3aksm089c555mjwhnbfdw2qb586v37xzm6jxfsb6n"
   },
   "stable": {
    "version": [
@@ -79965,30 +79965,30 @@
   "repo": "reinierkof/magik-company",
   "unstable": {
    "version": [
-    20250922,
-    1311
+    20260724,
+    714
    ],
    "deps": [
     "company",
     "magik-mode",
     "yasnippet"
    ],
-   "commit": "f11e7054fc9038ab34eae1702bbc0fb30fa34246",
-   "sha256": "1a5bmh45xqixyv59m9sb5604ji7zdc728linwm5s36zgvdssqpi0"
+   "commit": "959c0030a4fffbad61013394492ba42ca46e3180",
+   "sha256": "0kimcq78crbl2brz58yw5mc0jh3vzb8pcwk2ahx8j0vaha8mnz4n"
   },
   "stable": {
    "version": [
     1,
     1,
-    1
+    2
    ],
    "deps": [
     "company",
     "magik-mode",
     "yasnippet"
    ],
-   "commit": "f11e7054fc9038ab34eae1702bbc0fb30fa34246",
-   "sha256": "1a5bmh45xqixyv59m9sb5604ji7zdc728linwm5s36zgvdssqpi0"
+   "commit": "959c0030a4fffbad61013394492ba42ca46e3180",
+   "sha256": "0kimcq78crbl2brz58yw5mc0jh3vzb8pcwk2ahx8j0vaha8mnz4n"
   }
  },
  {
@@ -81499,14 +81499,14 @@
   "repo": "minad/marginalia",
   "unstable": {
    "version": [
-    20260519,
-    1044
+    20260724,
+    810
    ],
    "deps": [
     "compat"
    ],
-   "commit": "feb66c02bbd88dba867cdd92b94fe24279ed578a",
-   "sha256": "11w1avjwqbv1pbsvhlw3vrc7ka41nmgaqa90zjvfgf69z46ycgsx"
+   "commit": "10b170ad8006bad535599e5b3e007e643e34345a",
+   "sha256": "1yp0f8nmh6xrb837f3r2gr68av798z77qvi9dymidvx952mz3np7"
   },
   "stable": {
    "version": [
@@ -82731,11 +82731,11 @@
   "repo": "ideasman42/emacs-meep",
   "unstable": {
    "version": [
-    20260723,
-    2329
+    20260724,
+    302
    ],
-   "commit": "719d3aeac6f9347e87b09c3ab057efbcfc093e1e",
-   "sha256": "0aji276pkx226nqxdiax3vi2z37acnqaky5s4jf6in4d4g76kc1g"
+   "commit": "1d579a62178fb412e2368efaf9566e7ed70f6cca",
+   "sha256": "0wfk81xlfj2qhhbdwrhpghydz1qr3scdanhgk6ijcjibw3lyl21n"
   }
  },
  {
@@ -95513,15 +95513,15 @@
   "repo": "jagrg/org-emms",
   "unstable": {
    "version": [
-    20230626,
-    1102
+    20260724,
+    133
    ],
    "deps": [
     "emms",
     "org"
    ],
-   "commit": "13c8f245885a7f4f87bf88c5ad5612af03be1e77",
-   "sha256": "0aff2a65crc2w9gsah9wv2i28ryx1dvzxkcfhwj18psnanba90xi"
+   "commit": "6f25e8b185ba5df4b06b2cbc48cc644c2b7eed78",
+   "sha256": "126lg4ry7jyykc0757dpgvb2f4ykq6grwy5qz5ic0rsy7l2arvmq"
   }
  },
  {
