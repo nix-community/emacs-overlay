@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.0.1snapshot0.20260722.11";
+      version = "2.1.0snapshot0.20260723.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.0.1snapshot0.20260722.11.tar";
-        sha256 = "1zpfb17my9w67l6ysylxipysam1xjq0rw2id7jl92pnis9mmzb63";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260723.2.tar";
+        sha256 = "1k3hw14nkqzw4hylkidn3a028w9mzvglnahpi33jcxycg46qhb5h";
       };
       packageRequires = [
         clojure-mode
@@ -6313,10 +6313,10 @@
     elpaBuild {
       pname = "zenburn-theme";
       ename = "zenburn-theme";
-      version = "2.10.0.0.20260704.2";
+      version = "2.10.0.0.20260723.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.10.0.0.20260704.2.tar";
-        sha256 = "17wp8z3nycqr3rva4npq3gi8ddv93fwzqh45bfgcr6a0zv4pfxp4";
+        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.10.0.0.20260723.7.tar";
+        sha256 = "0pjslp7vjly5xndbsd2k33wvg6yyqjbig994kj6ws3sqpxpvqf4b";
       };
       packageRequires = [ ];
       meta = {
