@@ -5,7 +5,7 @@ let
       repoMeta = super.lib.importJSON jsonFile;
       fetcher =
         if repoMeta.type == "savannah" then
-          super.fetchFromSavannah
+          super.fetchgit
         else if repoMeta.type == "github" then
           super.fetchFromGitHub
         else
@@ -25,8 +25,6 @@ let
               inherit (repoMeta) version;
               src = fetcher (builtins.removeAttrs repoMeta [ "type" "version" ]);
 
-              patches = [ ];
-
               # fixes segfaults that only occur on aarch64-linux (#264)
               configureFlags = old.configureFlags ++
                                super.lib.optionals (super.stdenv.isLinux && super.stdenv.isAarch64)
@@ -36,43 +34,33 @@ let
                 substituteInPlace lisp/loadup.el \
                 --replace-warn '(emacs-repository-get-version)' '"${repoMeta.rev}"' \
                 --replace-warn '(emacs-repository-get-branch)' '"master"'
-              '' +
-              # XXX: Maybe remove when emacsLsp updates to use Emacs
-              # 29.  We already have logic in upstream Nixpkgs to use
-              # a different patch for earlier major versions of Emacs,
-              # but the major version for emacsLsp follows the format
-              # of version YYYYMMDD, as opposed to version (say) 29.
-              # Removing this here would also require that we don't
-              # overwrite the patches attribute in the overlay to an
-              # empty list since we would then expect the Nixpkgs
-              # patch to be used. Not sure if it's better to rely on
-              # upstream Nixpkgs since it's cumbersome to wait for
-              # things to get merged into master.
-                (super.lib.optionalString ((old ? NATIVE_FULL_AOT) || (old ? env.NATIVE_FULL_AOT))
-                    (let backendPath = (super.lib.concatStringsSep " "
-                      (builtins.map (x: ''\"-B${x}\"'') ([
-                        # Paths necessary so the JIT compiler finds its libraries:
-                        "${super.lib.getLib self.libgccjit}/lib"
-                        "${super.lib.getLib self.libgccjit}/lib/gcc"
-                        "${super.lib.getLib self.stdenv.cc.libc}/lib"
-		      ] ++ super.lib.optionals (self.stdenv.cc?cc.libgcc) [
-			"${super.lib.getLib self.stdenv.cc.cc.libgcc}/lib"
-		      ] ++ [
+              '';
+            }
+          )
+        )
 
-                        # Executable paths necessary for compilation (ld, as):
-                        "${super.lib.getBin self.stdenv.cc.cc}/bin"
-                        "${super.lib.getBin self.stdenv.cc.bintools}/bin"
-                        "${super.lib.getBin self.stdenv.cc.bintools.bintools}/bin"
-                      ] ++ super.lib.optionals (self.stdenv.hostPlatform.isDarwin && self ? apple-sdk) [
-                        # The linker needs to know where to find libSystem on Darwin.
-                        "${self.apple-sdk.sdkroot}/usr/lib"
-                      ])));
-                     in ''
-                        substituteInPlace lisp/emacs-lisp/comp.el --replace-warn \
-                            "(defcustom comp-libgccjit-reproducer nil" \
-                            "(setq native-comp-driver-options '(${backendPath}))
-(defcustom comp-libgccjit-reproducer nil"
-                    ''));
+        (
+          drv: drv.overrideAttrs (
+            old: {
+              patches =
+                let
+                  isApplicable =
+                    patch:
+                    if super.lib.versionOlder old.version "31" then
+                      true
+                    else
+                      !(
+                        builtins.elem patch.name or "" [
+                          "fix-off-by-one-mistake-80851-CVE-2026-6861.patch"
+                          "01_all_treesit-0.26.patch?id=d0f47979806d9be5a190fdb4ffa1bde439b2d616"
+                          "02_all_ts-query-pred.patch?id=86190bf195b3e17108372d8ad89eb57037180dd2"
+                        ]
+                        || builtins.elem patch [
+                          "/nix/store/jm6hjlhhy87gwyx6dk659qq7krpc3liw-inhibit-lexical-cookie-warning-67916.patch"
+                        ]
+                      );
+                in
+                builtins.filter isApplicable old.patches;
             }
           )
         )
@@ -115,13 +103,6 @@ let
                    in
                      base.overrideAttrs (
                        oa: {
-                         patches = oa.patches ++ [
-                           # XXX: #318
-                           (self.fetchpatch {
-                             url = "https://git.savannah.gnu.org/cgit/emacs.git/patch/?id=53a5dada413662389a17c551a00d215e51f5049f";
-                             hash = "sha256-AEvsQfpdR18z6VroJkWoC3sBoApIYQQgeF/P2DprPQ8=";
-                           })
-                         ];
                          passthru = oa.passthru // {
                            pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                          };
@@ -132,19 +113,12 @@ let
                         in
                           base.overrideAttrs (
                             oa: {
-                              patches = oa.patches ++ [
-                                # XXX: #318
-                                (self.fetchpatch {
-                                  url = "https://git.savannah.gnu.org/cgit/emacs.git/patch/?id=53a5dada413662389a17c551a00d215e51f5049f";
-                                  hash = "sha256-AEvsQfpdR18z6VroJkWoC3sBoApIYQQgeF/P2DprPQ8=";
-                                })
-                              ];
                               passthru = oa.passthru // {
                                 pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                               };
                             });
 
-  emacs-igc = let base = (mkGitEmacs "emacs-igc" ../repos/emacs/emacs-feature_igc.json) { };
+  emacs-igc = let base = (mkGitEmacs "emacs-igc" ../repos/emacs/emacs-feature_igc3.json) { };
                   emacs = emacs-igc;
               in
                 base.overrideAttrs (
@@ -156,7 +130,7 @@ let
                     };
                   });
 
-  emacs-igc-pgtk = let base = (mkGitEmacs "emacs-igc-pgtk" ../repos/emacs/emacs-feature_igc.json) { withPgtk = true; };
+  emacs-igc-pgtk = let base = (mkGitEmacs "emacs-igc-pgtk" ../repos/emacs/emacs-feature_igc3.json) { withPgtk = true; };
                        emacs = emacs-igc-pgtk;
                    in
                      base.overrideAttrs (
@@ -167,13 +141,6 @@ let
                            pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
                          };
                        });
-
-  emacs-lsp = (mkGitEmacs "emacs-lsp" ../repos/emacs/emacs-lsp.json) { withTreeSitter = false; };
-
-  commercial-emacs = (mkGitEmacs "commercial-emacs" ../repos/emacs/commercial-emacs-commercial-emacs.json) {
-    withTreeSitter = false;
-    withNativeCompilation = false;
-  };
 
   emacs-git-nox = (
     (
@@ -213,10 +180,6 @@ in
 
   inherit emacs-git-nox emacs-unstable-nox;
 
-  inherit emacs-lsp;
-
-  inherit commercial-emacs;
-
   inherit emacs-igc emacs-igc-pgtk;
 
   emacsWithPackagesFromUsePackage = import ../elisp.nix { pkgs = self; };
@@ -237,6 +200,4 @@ in
   emacsUnstablePgtk = builtins.trace "emacsUnstablePgtk has been renamed to emacs-unstable-pgtk, please update your expression." emacs-unstable-pgtk;
   emacsGitNox = builtins.trace "emacsGitNox has been renamed to emacs-git-nox, please update your expression." emacs-git-nox;
   emacsUnstableNox = builtins.trace "emacsUnstableNox has been renamed to emacs-unstable-nox, please update your expression." emacs-unstable-nox;
-  emacsLsp = builtins.trace "emacsLsp has been renamed to emacs-lsp, please update your expression." emacs-lsp;
-  emacs-pgtk = builtins.trace "emacs-pgtk has been renamed to emacs-git-pgtk. emacs-pgtk will be removed from this overlay.  After that, it will point to the one in Nixpkgs." emacs-git-pgtk;
 }

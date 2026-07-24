@@ -17,7 +17,7 @@ def main():
             "ls-remote",
             "--tags",
             "--refs",
-            "https://git.savannah.gnu.org/git/emacs.git",
+            "https://https.git.savannah.gnu.org/git/emacs.git",
             "emacs-[1-9]*",
         ],
         stdout=subprocess.PIPE,
@@ -45,22 +45,23 @@ def main():
 
     proc = subprocess.run(
         [
-            "nix-prefetch-url",
-            "--unpack",
-            f"https://git.savannah.gnu.org/cgit/emacs.git/snapshot/{latest_tag}.tar.gz",
+            "nix-prefetch-git",
+            "--rev",
+            f"refs/tags/{latest_tag}",
+            "https://https.git.savannah.gnu.org/git/emacs.git",
         ],
         stdout=subprocess.PIPE,
         check=True,
     )
-    digest = proc.stdout.decode().strip()
+    digest = json.loads(proc.stdout.decode().strip())
 
     with open("./emacs-unstable.json", "w") as fp:
         json.dump(
             {
                 "type": "savannah",
-                "repo": "emacs",
+                "url": "https://https.git.savannah.gnu.org/git/emacs.git",
                 "rev": latest_tag,
-                "sha256": digest,
+                "sha256": digest['sha256'],
                 "version": latest_version,
             },
             fp,

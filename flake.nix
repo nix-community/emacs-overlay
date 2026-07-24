@@ -8,7 +8,7 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-24.11";
+    nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-26.05";
   };
 
   outputs =
@@ -66,7 +66,7 @@
 
               filterNonDrvAttrs = s: lib.mapAttrs (_: v: if (lib.isDerivation v) then v else filterNonDrvAttrs v) (lib.filterAttrs (_: v: lib.isDerivation v || (builtins.typeOf v == "set" && ! builtins.hasAttr "__functor" v)) s);
 
-              mkEmacsSet = emacs: filterNonDrvAttrs (pkgs.recurseIntoAttrs (pkgs.emacsPackagesFor emacs));
+              mkEmacsSet = emacs: filterNonDrvAttrs (lib.recurseIntoAttrs (pkgs.emacsPackagesFor emacs));
 
             in
             {
@@ -74,12 +74,9 @@
                 inherit (pkgs) emacs-unstable emacs-unstable-nox;
                 inherit (pkgs) emacs-unstable-pgtk;
                 inherit (pkgs) emacs-git emacs-git-nox;
-                inherit (pkgs) emacs-pgtk;
+                inherit (pkgs) emacs-git-pgtk;
                 inherit (pkgs) emacs-igc emacs-igc-pgtk;
               };
-
-              packages = mkEmacsSet pkgs.emacs;
-              packages-unstable = mkEmacsSet pkgs.emacs-unstable;
             };
 
         in

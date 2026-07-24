@@ -66,7 +66,10 @@ time, if it breaks you get to keep both pieces.
 
 We also provide two attributes named =emacs-git-nox= and =emacs-unstable-nox=
 if you wish to have Emacs built without X dependencies.
-=emacs-pgtk= uses the experimental pgtk feature which supports Wayland natively.
+
+Additionally, the two attributes =emacs-git-pgtk= and =emacs-unstable-pgtk= enable
+the pure GTK (PGTK) feature, which is incompatible with X and supports Wayland
+natively.
 
 **** Extra library functionality
 This overlay comes with extra functions to generate an Emacs closure
@@ -169,7 +172,7 @@ to be in control of which revision of the overlay you run.
 
 Adding the overlay this way will extend your Emacs packages set to contain
 the latest EXWM and dependencies from their respective master and make the
-package =emacsGit= available. These of course change quite rapidly and will
+package =emacs-git= available. These of course change quite rapidly and will
 cause compilation time.
 
 #+BEGIN_SRC nix
@@ -183,7 +186,7 @@ cause compilation time.
 #+END_SRC
 
 *** Binary cache
-You will want to use the [[https://nix-community.org/#binary-cache][nix-community binary cache]]. Where the
+You will want to use the [[https://nix-community.org/cache/][nix-community binary cache]]. Where the
 overlay's build artefacts are pushed. See [[https://app.cachix.org/cache/nix-community][here]] for installation
 instructions.
 
@@ -191,7 +194,7 @@ instructions.
 The repository is meant to be used as an overlay as is explained
 above. Still, for experimental purposes, you might want to install a
 package directly from the overlay. For example, you can install
-=emacsGit= from a clone of this repository with the following command:
+=emacs-git= from a clone of this repository with the following command:
 
 #+begin_src shell
   nix-build --expr 'with (import <nixpkgs> { overlays = [ (import ./.) ]; }); emacs-git'
@@ -202,5 +205,5 @@ package directly from the overlay. For example, you can install
 ** Matrix chat
 [[https://matrix.to/#/#emacs:nixos.org][Nix Emacs]]
 
-#  LocalWords:  EXWM NixOS emacsGit
+#  LocalWords:  EXWM NixOS
 #  LocalWords:  SRC nixpkgs builtins fetchTarball url

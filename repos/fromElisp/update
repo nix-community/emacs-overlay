@@ -5,7 +5,7 @@ set -euxo pipefail
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 cd $SCRIPTPATH
 
-curl -O https://raw.githubusercontent.com/talyz/fromElisp/master/default.nix
+curl -Of https://raw.githubusercontent.com/talyz/fromElisp/master/default.nix
 
 cat <<EOF > default.nix
 # WARNING: This file was automatically imported from
