@@ -1597,10 +1597,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.7.0";
+      version = "0.8.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-hoogle-0.7.0.tar";
-        sha256 = "17slksxs1vx19djf5q772hwq1fpaqsd0xpbh6zrrvvgv18h2ac8l";
+        url = "https://elpa.gnu.org/packages/consult-hoogle-0.8.0.tar";
+        sha256 = "10wy15cq0sbqkcya7k2xwlrv9hkwvnfz3wya93m4m2d7kqi04zca";
       };
       packageRequires = [ consult ];
       meta = {
@@ -3588,10 +3588,10 @@
     elpaBuild {
       pname = "filechooser";
       ename = "filechooser";
-      version = "0.2.4";
+      version = "0.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/filechooser-0.2.4.tar";
-        sha256 = "0bw1yvypm2vk6bh81h88505fd1538rrga9y40gmy7w144spfi6sb";
+        url = "https://elpa.gnu.org/packages/filechooser-0.3.0.tar";
+        sha256 = "0cbqahw39zblw7s5876dyllimg2lb6cd1zr5scgghfdwa9al40pa";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5485,10 +5485,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.31.2";
+      version = "0.31.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/llm-0.31.2.tar";
-        sha256 = "08lc058w1xhiv3cxfkbcjaszplvwhmdyxpcwqkzw3x2sb11pn7rj";
+        url = "https://elpa.gnu.org/packages/llm-0.31.3.tar";
+        sha256 = "1m6ghdswyp0sfrnz7fhrjpzfy5gwf3yw3b7rznlxw5si08dbnbm4";
       };
       packageRequires = [
         compat
