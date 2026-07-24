@@ -2752,10 +2752,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1.0.20260723.6";
+      version = "1.2.1.0.20260724.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260723.6.tar";
-        sha256 = "0fmnlz47jw32y96vk2nc578qvzc3c760d7341qakaijjkwiq6af6";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260724.10.tar";
+        sha256 = "0azn9a72ii2r95zd7x88ffpaf3wn52a0nhpgfdny593grg0n1m7k";
       };
       packageRequires = [ ];
       meta = {
@@ -9017,10 +9017,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.8.0.0.20260505.183614";
+      version = "0.8.0.0.20260724.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/spacious-padding-0.8.0.0.20260505.183614.tar";
-        sha256 = "0pzcfd3z5w67cfcmp9hzyjjjxx5i5pxgl5k45hhxcwrfwm4x8h4l";
+        url = "https://elpa.gnu.org/devel/spacious-padding-0.8.0.0.20260724.4.tar";
+        sha256 = "0jdg8vmkzzibn8y3vql6sf6m2s03d2nh3w6bln6a9i9mb15j6sza";
       };
       packageRequires = [ ];
       meta = {
