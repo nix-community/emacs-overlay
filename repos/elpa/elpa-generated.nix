@@ -9897,10 +9897,10 @@
     elpaBuild {
       pname = "trust-manager";
       ename = "trust-manager";
-      version = "0.4.1";
+      version = "0.4.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/trust-manager-0.4.1.tar";
-        sha256 = "1azp3kzkw76xbwsn6j94liy33d3swajc1v2h8ghczvxv8sw8khgj";
+        url = "https://elpa.gnu.org/packages/trust-manager-0.4.2.tar";
+        sha256 = "02n37mqp0wxq3rlrxiffb2mpnf21fi1pwk41hzf2dhbxbcqxdx0w";
       };
       packageRequires = [ ];
       meta = {
