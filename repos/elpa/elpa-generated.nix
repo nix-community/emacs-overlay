@@ -9062,10 +9062,10 @@
     elpaBuild {
       pname = "substitute";
       ename = "substitute";
-      version = "0.5.0";
+      version = "0.6.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/substitute-0.5.0.tar";
-        sha256 = "1l8jaqmmxsv10c7giy9paxq4jdsnikwgyhnkj2vnk9s9panjngbw";
+        url = "https://elpa.gnu.org/packages/substitute-0.6.0.tar";
+        sha256 = "175q8nfjayyb0k32p5y9n30mqcirglys3zp71j1wlgzm3g0xvfx0";
       };
       packageRequires = [ ];
       meta = {
