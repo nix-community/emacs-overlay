@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.9";
+      version = "1.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.9.tar";
-        sha256 = "05ff2kfy97870qgvv89ysrk8cwnr3zxh1f01lvp7rk7siln0w10d";
+        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.10.tar";
+        sha256 = "1ja53i8d8llzxdcdww6yw9iraqya8gwk92kf97qr8qn9bpsf3bwa";
       };
       packageRequires = [
         compat
