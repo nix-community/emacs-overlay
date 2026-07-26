@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.7.0.20260725.3";
+      version = "2.7.0.20260725.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.7.0.20260725.3.tar";
-        sha256 = "0dxfa9m5khgxh1asadvc2mra6nxsbpf42njvvigjzkw2la3hm1mh";
+        url = "https://elpa.gnu.org/devel/cape-2.7.0.20260725.15.tar";
+        sha256 = "170g6j5syywci7w0ai5pw1ivfkcmhbh267brj3gail5ni925d0jj";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.11.0.20260723.6";
+      version = "2.11.0.20260725.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.11.0.20260723.6.tar";
-        sha256 = "06ibva9sqlf1c5inblgqg29739zp57180mjyma65204bsz8rmah6";
+        url = "https://elpa.gnu.org/devel/corfu-2.11.0.20260725.8.tar";
+        sha256 = "02qx4p0s3ivs324imjcqzcrdkdk97vzrgrnczwh6pxwvq9h26dgv";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6758,10 +6758,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260718.392";
+      version = "10.0pre0.20260725.395";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260718.392.tar";
-        sha256 = "0xvjld1zcaqj22652mxl5kk1q1k9kkg5h7lfc86myb8lfb9pskim";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260725.395.tar";
+        sha256 = "1xg88i1vw08r3k7nl9w6zgk131xgdcj6jlhjiijs59crjknxmgh9";
       };
       packageRequires = [ ];
       meta = {
@@ -7870,6 +7870,27 @@
       };
     }
   ) { };
+  qrencode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "qrencode";
+      ename = "qrencode";
+      version = "1.4beta1.0.20260725.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/qrencode-1.4beta1.0.20260725.0.tar";
+        sha256 = "04j7d69n284givyvy1554avdabyilkidsb4h5057jpn7m08fqlbv";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/qrencode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   quarter-plane = callPackage (
     {
       elpaBuild,
@@ -8051,10 +8072,10 @@
     elpaBuild {
       pname = "realgud";
       ename = "realgud";
-      version = "1.6.0.0.20260609.11";
+      version = "1.6.0.0.20260725.14";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/realgud-1.6.0.0.20260609.11.tar";
-        sha256 = "1j598wswb1s3gn2h2sk5hvz93nphlnmx3xqpa1nr2rg3jwpmv4zr";
+        url = "https://elpa.gnu.org/devel/realgud-1.6.0.0.20260725.14.tar";
+        sha256 = "19vzdrvk0fxhxyg2knzi0g5drv16c99n6d71b5hg7khy780g3mi9";
       };
       packageRequires = [
         load-relative
@@ -8104,10 +8125,10 @@
     elpaBuild {
       pname = "realgud-jdb";
       ename = "realgud-jdb";
-      version = "1.0.0.0.20200722.72030";
+      version = "1.0.0.0.20260725.17";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/realgud-jdb-1.0.0.0.20200722.72030.tar";
-        sha256 = "1vh4x50gcy5i9v9pisn0swmv0ighksn8ni68pdwxkns5ka99qqi6";
+        url = "https://elpa.gnu.org/devel/realgud-jdb-1.0.0.0.20260725.17.tar";
+        sha256 = "0c5maqj8cqgsrb1q41zamqs1k46yymmlk6hwym3rbhis3y829wld";
       };
       packageRequires = [
         load-relative
@@ -8264,10 +8285,10 @@
     elpaBuild {
       pname = "realgud-trepan-xpy";
       ename = "realgud-trepan-xpy";
-      version = "1.0.1.0.20230322.184556";
+      version = "1.0.1.0.20260725.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/realgud-trepan-xpy-1.0.1.0.20230322.184556.tar";
-        sha256 = "0m9pwqbkhwkm9fys7rs2lapydkinh4v7q3q3j8b0qb0nl8qcni7i";
+        url = "https://elpa.gnu.org/devel/realgud-trepan-xpy-1.0.1.0.20260725.2.tar";
+        sha256 = "16zwdaclbfgvqmmksrnqh8hpgvc55n4xaa9jpz1xms4yqrmgg5qz";
       };
       packageRequires = [
         load-relative
@@ -9977,10 +9998,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.5.0.20260724.2";
+      version = "0.13.5.0.20260725.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.5.0.20260724.2.tar";
-        sha256 = "16b3a9jmx2cpqnwqckng0f6spgi802lmp0hw4jifwqlpx5q22jks";
+        url = "https://elpa.gnu.org/devel/transient-0.13.5.0.20260725.5.tar";
+        sha256 = "082hxp6niygrb1ik8n68kai7ip2mkzg6dlrj5fcz0r9hl6rkkxa6";
       };
       packageRequires = [
         compat

@@ -6667,10 +6667,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8.7";
+      version = "9.8.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.8.7.tar";
-        sha256 = "1y7sf3p9jqkfw8k6wddy2p9hfskiq4a5hkx8sq39dgb4sri6v03d";
+        url = "https://elpa.gnu.org/packages/org-9.8.8.tar";
+        sha256 = "0rmpf3cdk8gxynyx750366kjrs5dlna0qx91ga93z6mxfcgj0px0";
       };
       packageRequires = [ ];
       meta = {
