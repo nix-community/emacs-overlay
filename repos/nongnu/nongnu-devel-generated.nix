@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260724.6";
+      version = "2.1.0snapshot0.20260725.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260724.6.tar";
-        sha256 = "0fiinn0marh6dsv7zcfavnqv40yg3ivd1j8811xy8yxp6h75ww2k";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260725.8.tar";
+        sha256 = "1h2bwdwdkn6z5hx2s1cn8qa822i1hsf6pwqw0a8cnj28gya3pw0v";
       };
       packageRequires = [
         clojure-mode
@@ -1021,10 +1021,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.3.0.0.20260716.9";
+      version = "2.3.0.0.20260725.12";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.3.0.0.20260716.9.tar";
-        sha256 = "0yr5x846v1zynyacfpgn8zhhrzsw5qw3fqnr1w9cscljzfwlajs8";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.3.0.0.20260725.12.tar";
+        sha256 = "09d7jx6m1mvpk953v1svj2942845bkg2iivavmd2rvks16izf15h";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "37.0.0.20260721.23";
+      version = "37.0.0.20260725.33";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-37.0.0.20260721.23.tar";
-        sha256 = "19b3ragpgg0sr6qkmacpis552qjnfsx8qg91g2mi5ndbf3giq8bg";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-37.0.0.20260725.33.tar";
+        sha256 = "1mrh7vwfy5bhqc854rgra5dcb3lqlvx0j722vvq57gcr2gghpnvx";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3349,10 +3349,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.12.2.0.20260725.9";
+      version = "0.12.3.0.20260725.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.2.0.20260725.9.tar";
-        sha256 = "0zf9x611a1mp7z27jarr404mzw0q094677sy8diivx8q5sc97mz4";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.3.0.20260725.0.tar";
+        sha256 = "012p482zaw5jg00im4w8p66zh4b6z35f7viwlc7xwpnxw4g14qq8";
       };
       packageRequires = [
         fsm
@@ -4694,10 +4694,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.3.0snapshot0.20260724.30";
+      version = "3.3.0snapshot0.20260725.53";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.3.0snapshot0.20260724.30.tar";
-        sha256 = "16n4wq2j17n3r1s42dadvdyysbi0kads8czmmxc2bv3imm8rwyzl";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.3.0snapshot0.20260725.53.tar";
+        sha256 = "1lw5247gsxgf12sz8nql16422gzklwn5pirfivlad68zqfwpw5zm";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4971,10 +4971,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20260618.49";
+      version = "1.0.6.0.20260725.50";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260618.49.tar";
-        sha256 = "1ldkx6plsvaijibb4szyjs2b3hcl6svmbd8fn0j4015558shif4q";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260725.50.tar";
+        sha256 = "107k3g6gw0ii6qhbcnk552jbns70kkf1rya7bzzcrxf50f4lxc12";
       };
       packageRequires = [ ];
       meta = {
