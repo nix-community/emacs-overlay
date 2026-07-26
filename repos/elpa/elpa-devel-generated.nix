@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.7.0.20260725.15";
+      version = "2.7.0.20260725.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.7.0.20260725.15.tar";
-        sha256 = "170g6j5syywci7w0ai5pw1ivfkcmhbh267brj3gail5ni925d0jj";
+        url = "https://elpa.gnu.org/devel/cape-2.7.0.20260725.16.tar";
+        sha256 = "01fwfx77xf2cp55ldzn8fijqgyjlzld73qk28mmbr7s76wl39xws";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4653,10 +4653,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260712.1235";
+      version = "9.0.2pre0.20260725.1277";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260712.1235.tar";
-        sha256 = "0ca3kpkv2rzydn7rxqvn4dw8dgk72q51mdpvdbwdk9a18pjp0fam";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260725.1277.tar";
+        sha256 = "1hfw1lkxmvqazdy2qbs03va395jb0k8j0gzjpmshdar5gkczykj0";
       };
       packageRequires = [ ];
       meta = {
