@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260725.8";
+      version = "2.1.0snapshot0.20260726.16";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260725.8.tar";
-        sha256 = "1h2bwdwdkn6z5hx2s1cn8qa822i1hsf6pwqw0a8cnj28gya3pw0v";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260726.16.tar";
+        sha256 = "0zw383h3k450qxainhl1ydc8if6n0w1cwgnb48pddn534k7naabw";
       };
       packageRequires = [
         clojure-mode
@@ -2737,10 +2737,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260724.69";
+      version = "0.9.9.5.0.20260725.70";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260724.69.tar";
-        sha256 = "0p25fqfaz3qip0zl5cqsn6s05ll32dvsn2a9i8sqn3crlbabbz62";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260725.70.tar";
+        sha256 = "0ql8mbi93vzni1v0yghfks75qzpafhqylshfc2k7q71hm7xxmmz8";
       };
       packageRequires = [
         compat
@@ -3349,10 +3349,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.12.3.0.20260725.0";
+      version = "0.12.3.0.20260726.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.3.0.20260725.0.tar";
-        sha256 = "012p482zaw5jg00im4w8p66zh4b6z35f7viwlc7xwpnxw4g14qq8";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.3.0.20260726.3.tar";
+        sha256 = "1nn8x9gf8fnk21xm7v51s6dbqgq6cvlw88wm7vxjzlc546krwxmr";
       };
       packageRequires = [
         fsm
@@ -4694,10 +4694,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.3.0snapshot0.20260725.53";
+      version = "3.3.0snapshot0.20260726.54";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.3.0snapshot0.20260725.53.tar";
-        sha256 = "1lw5247gsxgf12sz8nql16422gzklwn5pirfivlad68zqfwpw5zm";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.3.0snapshot0.20260726.54.tar";
+        sha256 = "06c264y0d9crid42lq983mzbb10rg5qc6s0gn5mfcz483jpba3wj";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5443,10 +5443,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "10.0.0.0.20260608.3";
+      version = "10.0.0.0.20260726.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20260608.3.tar";
-        sha256 = "0xla80pyl6x1jmni7n4n7kxshhn7yb5zsmbck5dxmc1jh6cfvjp6";
+        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20260726.5.tar";
+        sha256 = "0aka9rqbrdd6rr6wa1a9c0xq2s23a5lg145rfdyww6fr6iy7bd3m";
       };
       packageRequires = [ ];
       meta = {
@@ -6313,10 +6313,10 @@
     elpaBuild {
       pname = "zenburn-theme";
       ename = "zenburn-theme";
-      version = "2.10.0.0.20260725.8";
+      version = "2.11.0.0.20260726.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.10.0.0.20260725.8.tar";
-        sha256 = "00argvg588yk71cp5zc86kskdc9wgdb4rrg0750ka9a8wd281nla";
+        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.11.0.0.20260726.0.tar";
+        sha256 = "0466hc1fcfxfk74s0xblsw7ch2bj9wl585b19mzqx25cb9siq9ia";
       };
       packageRequires = [ ];
       meta = {

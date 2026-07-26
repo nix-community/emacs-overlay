@@ -6353,10 +6353,10 @@
     elpaBuild {
       pname = "zenburn-theme";
       ename = "zenburn-theme";
-      version = "2.10.0";
+      version = "2.11.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/zenburn-theme-2.10.0.tar";
-        sha256 = "0h1qd1xay2ci51y3vdq480afbx6hq40ywplsh76m85mr199pf751";
+        url = "https://elpa.nongnu.org/nongnu/zenburn-theme-2.11.0.tar";
+        sha256 = "07w81s514v5vb69mdsm0174ah4nixami1x00qhilm4yx9i96g417";
       };
       packageRequires = [ ];
       meta = {
