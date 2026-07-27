@@ -11316,10 +11316,10 @@
     elpaBuild {
       pname = "ztree";
       ename = "ztree";
-      version = "1.0.6.0.20230617.194317";
+      version = "1.0.7.0.20260726.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ztree-1.0.6.0.20230617.194317.tar";
-        sha256 = "1zh6qdzalvikb48dc0pk3rnk7jvknx07dkrggc259q61jdp3pj1m";
+        url = "https://elpa.gnu.org/devel/ztree-1.0.7.0.20260726.0.tar";
+        sha256 = "04qmaqcls4nlvg6kc88s74cr4823y9inl0k8c8rz0k4rsxz8adn4";
       };
       packageRequires = [ cl-lib ];
       meta = {

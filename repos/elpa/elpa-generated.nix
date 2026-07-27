@@ -11075,10 +11075,10 @@
     elpaBuild {
       pname = "ztree";
       ename = "ztree";
-      version = "1.0.6";
+      version = "1.0.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ztree-1.0.6.tar";
-        sha256 = "1yyh09jff31j5w6mqsnibig3wizv7acsw39pjjfv1rmngni2b8zi";
+        url = "https://elpa.gnu.org/packages/ztree-1.0.7.tar";
+        sha256 = "17yqc6mix63ycpxcskzc7x7ddq5ciclxaj5hkjh026g8nzn5pgig";
       };
       packageRequires = [ cl-lib ];
       meta = {
