@@ -6758,10 +6758,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260725.395";
+      version = "10.0pre0.20260726.397";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260725.395.tar";
-        sha256 = "1xg88i1vw08r3k7nl9w6zgk131xgdcj6jlhjiijs59crjknxmgh9";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260726.397.tar";
+        sha256 = "0j3hy5js3wqn69aqzziybbdck729j4rr86ap6lkqj1qnkzhkwzp8";
       };
       packageRequires = [ ];
       meta = {
@@ -10116,10 +10116,10 @@
     elpaBuild {
       pname = "truename-cache";
       ename = "truename-cache";
-      version = "0.3.7.0.20260305.24624";
+      version = "0.3.7.0.20260726.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/truename-cache-0.3.7.0.20260305.24624.tar";
-        sha256 = "0sa2jwhv06rdbsi4rjb9z39pg57d3x5mxx5i1y5ir3ph19c73xaz";
+        url = "https://elpa.gnu.org/devel/truename-cache-0.3.7.0.20260726.2.tar";
+        sha256 = "00ww8g4pq4784pyqgaxkpx7wmjmbf4bxvql43xjlsvnpwp7gl38r";
       };
       packageRequires = [ compat ];
       meta = {
