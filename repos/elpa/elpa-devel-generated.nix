@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260717.49";
+      version = "14.1.2.0.20260727.50";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260717.49.tar";
-        sha256 = "1mqa1nnqihpv5xcwjwpn0rr11dbygxgif5z5x6ik1img736d7n9q";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260727.50.tar";
+        sha256 = "0p8cva3a0fng849qg17755hv7r5pq6c0wah3llk5jnwx10467r5x";
       };
       packageRequires = [ ];
       meta = {
@@ -2101,10 +2101,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20260707.7";
+      version = "4.2.3.0.20260727.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20260707.7.tar";
-        sha256 = "0yrqdz1znd5nkrwqiwrzgsgb7d1yysqmy1lr05r2yj3rlfzhcnvi";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20260727.8.tar";
+        sha256 = "0479b713z0cxqmzcqwwvzwf8qwm2xgzj3pizl3k9d8qfjw64lr7g";
       };
       packageRequires = [ ];
       meta = {
@@ -10464,10 +10464,10 @@
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.5.0.20260724.63";
+      version = "0.5.0.20260727.66";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20260724.63.tar";
-        sha256 = "0rwb3bj0i5gk2rfv3fzcyljbylbihw8bi8fxq2338jvwc2kfil63";
+        url = "https://elpa.gnu.org/devel/vc-jj-0.5.0.20260727.66.tar";
+        sha256 = "010vg2kgbigyrv01dvkf1c3j432pcnghpl6yi9lam5p6mgg7b85m";
       };
       packageRequires = [
         compat
