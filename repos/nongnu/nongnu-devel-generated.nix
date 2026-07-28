@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260727.19";
+      version = "2.1.0snapshot0.20260727.21";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260727.19.tar";
-        sha256 = "0gp6f4n33a9x9qqw1ym7jr6kjq7arcjvfnp7ip8kx6qabpvqckng";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260727.21.tar";
+        sha256 = "1anvla5gbl4il9xvb2h74jvxgf61yjlgjvwvkchk5f4klkfihzag";
       };
       packageRequires = [
         clojure-mode
@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "37.0.0.20260725.33";
+      version = "37.0.0.20260727.45";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-37.0.0.20260725.33.tar";
-        sha256 = "1mrh7vwfy5bhqc854rgra5dcb3lqlvx0j722vvq57gcr2gghpnvx";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-37.0.0.20260727.45.tar";
+        sha256 = "1q3h81bvvgnniyw42jldhjby82w7bbv787wwsz1bn330hx8x0qqs";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2260,10 +2260,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.33.1.0.20260718.4";
+      version = "0.33.1.0.20260727.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.1.0.20260718.4.tar";
-        sha256 = "14sipclbj37v0f0yc1pk0fl1p704f1gzpd3r21zyh3wkgfj2vjf5";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.1.0.20260727.5.tar";
+        sha256 = "0kl0cmb6zwqncgialbcf56y6js6w12852y6qr9ym69fxwjhfqbja";
       };
       packageRequires = [ project ];
       meta = {
@@ -2282,10 +2282,10 @@
     elpaBuild {
       pname = "geiser-chez";
       ename = "geiser-chez";
-      version = "0.18.0.20230707.93440";
+      version = "0.18.0.20260727.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-chez-0.18.0.20230707.93440.tar";
-        sha256 = "1rl6qazqjjcwzyanx4bra3xmw9fjrpa6dkz36kfcvj8i8z7hsmcq";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-chez-0.18.0.20260727.5.tar";
+        sha256 = "086pps6bd9q0fxw8c327l0glnpgmhfgp000ga9d9xxn42lmhkk82";
       };
       packageRequires = [ geiser ];
       meta = {
@@ -2304,10 +2304,10 @@
     elpaBuild {
       pname = "geiser-chibi";
       ename = "geiser-chibi";
-      version = "0.17.0.20260706.3";
+      version = "0.17.0.20260727.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-chibi-0.17.0.20260706.3.tar";
-        sha256 = "08rhpfr9zsgdmz8j4f8va07ww7lk9kbxcpnm3wxjl940n56nhji9";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-chibi-0.17.0.20260727.5.tar";
+        sha256 = "1qvk909hk3iwfazqn2v8zw5x54bxxghvb49pnv0xj6l71l73lkqy";
       };
       packageRequires = [ geiser ];
       meta = {
@@ -2326,10 +2326,10 @@
     elpaBuild {
       pname = "geiser-chicken";
       ename = "geiser-chicken";
-      version = "0.17.0.20250803.172103";
+      version = "0.17.0.20260727.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-chicken-0.17.0.20250803.172103.tar";
-        sha256 = "0zhwlyhykm7ys0nv6fc9qhrmnbsmr8lbprfzj6zm4h1k173n30r4";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-chicken-0.17.0.20260727.7.tar";
+        sha256 = "15wqsza5l9yqfr76892i2kxqg0k9ws2zm07g7zcgkaqrwqzdk3lm";
       };
       packageRequires = [ geiser ];
       meta = {
@@ -2348,10 +2348,10 @@
     elpaBuild {
       pname = "geiser-gambit";
       ename = "geiser-gambit";
-      version = "0.18.1.0.20220208.135610";
+      version = "0.18.1.0.20260727.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-gambit-0.18.1.0.20220208.135610.tar";
-        sha256 = "07m1n1m8n869wdmwvfjimd8yamxp6hbx40mz07fcm826m553v670";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-gambit-0.18.1.0.20260727.2.tar";
+        sha256 = "14c0z2mmvnq777nv14znqxhgnms7799b9nr8qnibn8g1ibypsyy1";
       };
       packageRequires = [ geiser ];
       meta = {
@@ -2393,10 +2393,10 @@
     elpaBuild {
       pname = "geiser-guile";
       ename = "geiser-guile";
-      version = "0.28.5.0.20260516.1909";
+      version = "0.28.5.0.20260727.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-guile-0.28.5.0.20260516.1909.tar";
-        sha256 = "1pvpji1py4ghxkpvxf08fpdg8j37qcn2lc8dc9i47b7b9w5x9bpg";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-guile-0.28.5.0.20260727.2.tar";
+        sha256 = "1dwc26lc6ly55z8z26q0j1qwy490n3zm0h75cph85c32cxfa9gqw";
       };
       packageRequires = [
         geiser
@@ -2440,10 +2440,10 @@
     elpaBuild {
       pname = "geiser-mit";
       ename = "geiser-mit";
-      version = "0.15.0.20240909.114537";
+      version = "0.15.0.20260727.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-mit-0.15.0.20240909.114537.tar";
-        sha256 = "1a0j47f6qmn0p5zfv7gylgz8q9iax4xl6a7y9xq76cs2x6mi5883";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-mit-0.15.0.20260727.3.tar";
+        sha256 = "0g4xk726pli5g35aj1lfr0478pd6wccw0dsmx6621micms5xihqb";
       };
       packageRequires = [ geiser ];
       meta = {
@@ -2462,10 +2462,10 @@
     elpaBuild {
       pname = "geiser-racket";
       ename = "geiser-racket";
-      version = "0.16.0.20210421.12547";
+      version = "0.16.0.20260727.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-racket-0.16.0.20210421.12547.tar";
-        sha256 = "0vqs61ga54mj241p7l5mly9pn8m819znm2dvw3hnlw3p6xp89fgq";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-racket-0.16.0.20260727.2.tar";
+        sha256 = "1rpfb0ibwg4rjbb2af4nnzs979vj078abmcym8yxsmvgj5vis6rg";
       };
       packageRequires = [ geiser ];
       meta = {
@@ -2934,10 +2934,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260726.32";
+      version = "4.0.7.0.20260727.34";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260726.32.tar";
-        sha256 = "11a3glsbw0vkgdfpy5vxqsvlp6bdlakpd0gc9064548cvfxkjdrs";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260727.34.tar";
+        sha256 = "0fz423ff3xhf9babgwywpr4va9df4l2fpwysy4l8zhnw8j82515y";
       };
       packageRequires = [
         helm-core
@@ -2959,10 +2959,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260726.32";
+      version = "4.0.7.0.20260727.34";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260726.32.tar";
-        sha256 = "0fmmc8misv1h8m7lnhlhd47v920krqj5gbhmb57lgcn3zyfnz9l2";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260727.34.tar";
+        sha256 = "0dh098xzhizwhxpbvin7ig1v89by1mb3dh2whr110rcv79r5hd5d";
       };
       packageRequires = [ async ];
       meta = {
@@ -4694,10 +4694,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.4.0snapshot0.20260727.1";
+      version = "3.4.0snapshot0.20260727.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.4.0snapshot0.20260727.1.tar";
-        sha256 = "09g6g6a9h03rmr8ah5030631b7gccm7n4m7q5sihd3k06j79am3a";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.4.0snapshot0.20260727.4.tar";
+        sha256 = "127511pl0y8d7k53b0avwb43dqp6n44nh2wy5hs2ngg3vq7z86ij";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4759,10 +4759,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20260626.0";
+      version = "1.0.20260726.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260626.0.tar";
-        sha256 = "19lbiv2wd1fs1jzr4j9q89j41hbhvlgfg9h48bjxki8dqs96d668";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260726.0.tar";
+        sha256 = "1yhnwgv534wskz3rp383v9qasmilpjyqcxpiskx3yx9548fwj0si";
       };
       packageRequires = [ compat ];
       meta = {
