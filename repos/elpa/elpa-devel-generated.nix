@@ -9277,10 +9277,10 @@
     elpaBuild {
       pname = "substitute";
       ename = "substitute";
-      version = "0.6.0.0.20260728.2";
+      version = "0.6.1.0.20260728.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/substitute-0.6.0.0.20260728.2.tar";
-        sha256 = "1gwjkcwhmhdpbkx1zfma0r721bm4r3p54wsazbf2lbny5jn0sp0l";
+        url = "https://elpa.gnu.org/devel/substitute-0.6.1.0.20260728.0.tar";
+        sha256 = "1y2hxshh3mbwqci9v4wh2r9hvpfc3dgxjx9q20hbw7l06fqsnzys";
       };
       packageRequires = [ ];
       meta = {
