@@ -2507,6 +2507,28 @@
       };
     }
   ) { };
+  dired-sidebar = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "dired-sidebar";
+      ename = "dired-sidebar";
+      version = "2.0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/dired-sidebar-2.0.1.tar";
+        sha256 = "0hfqrj2qy489jfch1ymfgi6bgzkwxmjgzyxwgvj2k2d4qdw56jhp";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/dired-sidebar.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   disk-usage = callPackage (
     {
       elpaBuild,
