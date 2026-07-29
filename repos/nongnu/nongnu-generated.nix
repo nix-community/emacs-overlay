@@ -3366,10 +3366,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.12.4";
+      version = "0.12.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/jabber-0.12.4.tar";
-        sha256 = "1prqpv7fbd0bnvkmvr9dv0xychmp8xkzpcrgl5jnf794zh8w29vg";
+        url = "https://elpa.nongnu.org/nongnu/jabber-0.12.5.tar";
+        sha256 = "0fcwa8j0rkaixnc53y6isgfv4953bbv4wikws0pf9qvnb3sbgl0l";
       };
       packageRequires = [
         fsm
@@ -5270,10 +5270,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.1.0";
+      version = "2.2.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/solarized-theme-2.1.0.tar";
-        sha256 = "16nwwf1s54r0ni1wvch4jjz3ij7s8ns09hp0bszs9mp89cnh4b5j";
+        url = "https://elpa.nongnu.org/nongnu/solarized-theme-2.2.0.tar";
+        sha256 = "0nzivlnwivrmqxc91xr45sdca0qz202aq6wjv0sys3386a89vyb3";
       };
       packageRequires = [ ];
       meta = {
