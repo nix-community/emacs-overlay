@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.9.0.20260318.110333";
+      version = "1.9.9.0.20260729.33";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20260318.110333.tar";
-        sha256 = "1srygl43ia3lmn7p17ar65h1rixmwggg5xmwayig6pnkq1z218zq";
+        url = "https://elpa.gnu.org/devel/async-1.9.9.0.20260729.33.tar";
+        sha256 = "00jzb0s7wmdj9gxy3js3395n6mxb663wwp8nbspklf9bwig9qr1d";
       };
       packageRequires = [ ];
       meta = {
@@ -2101,10 +2101,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20260727.8";
+      version = "4.2.3.0.20260729.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20260727.8.tar";
-        sha256 = "0479b713z0cxqmzcqwwvzwf8qwm2xgzj3pizl3k9d8qfjw64lr7g";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20260729.11.tar";
+        sha256 = "0i8m15ilqf9hnbvdbvdi85lfgj491v7dx0rkfwjz2vlq2b7r7gd5";
       };
       packageRequires = [ ];
       meta = {
@@ -2562,10 +2562,10 @@
     elpaBuild {
       pname = "dired-sidebar";
       ename = "dired-sidebar";
-      version = "2.0.1.0.20260728.0";
+      version = "2.0.1.0.20260729.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-sidebar-2.0.1.0.20260728.0.tar";
-        sha256 = "0k944p4n21z16z6nvcz37p1c170mx1nqvs4fnfmyjn1w7qrwh6xi";
+        url = "https://elpa.gnu.org/devel/dired-sidebar-2.0.1.0.20260729.1.tar";
+        sha256 = "1h0k0r1930v6kly69pg5vsswbz8zkk9qds3sw3a8zmqd0qwss45m";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5094,10 +5094,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.8.0.20260628.1";
+      version = "2.8.0.20260729.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.8.0.20260628.1.tar";
-        sha256 = "0rgmkdiw7x0xknp9ndwzz1jvnkl9pyymzm7wrlzsigf5mzvx9n79";
+        url = "https://elpa.gnu.org/devel/jinx-2.8.0.20260729.11.tar";
+        sha256 = "1nnsdsdg8zch7n6dhmdyidps1ycilp9ysbhzhb71xj0iwlzmig38";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10020,10 +10020,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.5.0.20260725.5";
+      version = "0.13.5.0.20260729.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.5.0.20260725.5.tar";
-        sha256 = "082hxp6niygrb1ik8n68kai7ip2mkzg6dlrj5fcz0r9hl6rkkxa6";
+        url = "https://elpa.gnu.org/devel/transient-0.13.5.0.20260729.6.tar";
+        sha256 = "0xgskmz8w89ivvcdlsjsd1hqbi2fig7s1b0hvxqv9jn2mafqjfaj";
       };
       packageRequires = [
         compat
