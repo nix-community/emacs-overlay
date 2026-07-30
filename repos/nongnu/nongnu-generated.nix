@@ -1578,10 +1578,10 @@
     elpaBuild {
       pname = "evil-collection";
       ename = "evil-collection";
-      version = "3.0.0";
+      version = "3.0.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/evil-collection-3.0.0.tar";
-        sha256 = "1a347yznrgw8b5y8jwj4rbryidr24c7g8c2is9pd4470v5h7jnfd";
+        url = "https://elpa.nongnu.org/nongnu/evil-collection-3.0.1.tar";
+        sha256 = "1h7xb2vgpw1wgz6b7544d9yyhvcjmhwaqxrp21h9qyjd23vaj6vg";
       };
       packageRequires = [ evil ];
       meta = {
@@ -2077,10 +2077,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "37.0";
+      version = "38.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/flycheck-37.0.tar";
-        sha256 = "0x565wcnxkmdsf87dzv555r6m86lmlwz4c16isgac8dn1qp7l5jb";
+        url = "https://elpa.nongnu.org/nongnu/flycheck-38.3.tar";
+        sha256 = "0qpkgj5algs1l876sf9q64anfpc1dc86nbphx0jc208da00gl06i";
       };
       packageRequires = [ seq ];
       meta = {
