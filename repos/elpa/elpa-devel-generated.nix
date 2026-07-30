@@ -6158,10 +6158,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.8.0.0.20260518.211153";
+      version = "0.8.0.0.20260730.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.8.0.0.20260518.211153.tar";
-        sha256 = "1sxfwivmlpc2cdkx5bn1nmprkpqi43m8bp8zna6ba64ajm4i2k4c";
+        url = "https://elpa.gnu.org/devel/minuet-0.8.0.0.20260730.1.tar";
+        sha256 = "1jxvkpchn6qbbqfg1lfbrgydxbdl4v21258d4baw0sqnc2pbrvj2";
       };
       packageRequires = [
         dash
@@ -6225,10 +6225,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260722.27";
+      version = "5.3.0.0.20260730.29";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260722.27.tar";
-        sha256 = "0y5qp1i5xjgwiv9jmfdbb25d0qszjjpfqv51pab3wn61vq5jaf6l";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260730.29.tar";
+        sha256 = "0jjy3hwa1ymd986mmy026rfl1zwckxlgvjwpp0sk1i6q572mpaw8";
       };
       packageRequires = [ ];
       meta = {
@@ -9910,10 +9910,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.2.0.20260720.2";
+      version = "2.8.2.1.0.20260730.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.8.2.0.20260720.2.tar";
-        sha256 = "01a6riczx8wvy72x9v56p314r37xnr7i8z6394li307xw3gkznzd";
+        url = "https://elpa.gnu.org/devel/tramp-2.8.2.1.0.20260730.0.tar";
+        sha256 = "1bbj57iqxpaiwds0zicm1x3hcp35acgmxw5a9abb8157jciwqw28";
       };
       packageRequires = [ ];
       meta = {

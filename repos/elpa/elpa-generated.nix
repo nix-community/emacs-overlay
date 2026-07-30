@@ -9670,10 +9670,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.2";
+      version = "2.8.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.8.2.tar";
-        sha256 = "1d9mki1ik8ck891jq7kzkf93aqalfm0i9vqdbm5km8g317wqpaqn";
+        url = "https://elpa.gnu.org/packages/tramp-2.8.2.1.tar";
+        sha256 = "121xc75dpdyqcq94bqgmx7yq7xmy885ms3jd6x93yp8iaabi2np8";
       };
       packageRequires = [ ];
       meta = {
