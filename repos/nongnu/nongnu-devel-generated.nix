@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "38.3.0.20260729.14";
+      version = "38.3.0.20260730.19";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-38.3.0.20260729.14.tar";
-        sha256 = "0092kzyyjcj6nx8nr8gzjx6kc6cl80bk62a0rcjjs0090z2zklpx";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-38.3.0.20260730.19.tar";
+        sha256 = "170wv6dbx8qn565gxr3p3m77cgdcm3xwnq0jk6kzbx8gc78hny9s";
       };
       packageRequires = [ seq ];
       meta = {
@@ -5189,10 +5189,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260719.53";
+      version = "2.32snapshot0.20260730.54";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260719.53.tar";
-        sha256 = "06isvwjq37vzf636ci5jb8fkzc926fnjzwx0fszlfax4hy00mlqf";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260730.54.tar";
+        sha256 = "05mvxs95agdy014zvfxs5jribx3wmgajfax68jckn9b2wixvsp8a";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -6206,10 +6206,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "28.11.20260712150256.0.20260712.0";
+      version = "28.11.20260729193514.0.20260729.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.11.20260712150256.0.20260712.0.tar";
-        sha256 = "0g4lfqm81kpszwlkapvr25c8c0b4rmg00zrr62ziz16bplvgy3ky";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-28.11.20260729193514.0.20260729.0.tar";
+        sha256 = "0n0xl7z9qz4qnf5h7qky1xwy02kzigyrf9nhn2jcqaf9msk2yqfr";
       };
       packageRequires = [ ];
       meta = {
