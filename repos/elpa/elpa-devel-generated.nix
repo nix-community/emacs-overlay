@@ -2054,10 +2054,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.46.0.20260222.93040";
+      version = "0.47.0.20260730.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.46.0.20260222.93040.tar";
-        sha256 = "0karljqdimm1jcplyjrisjcy4sgmv1a6pr236327dwl14md7vp21";
+        url = "https://elpa.gnu.org/devel/debbugs-0.47.0.20260730.0.tar";
+        sha256 = "0y9kirk80xmxim9ssziqygn77vhkblzb9n4dhzq5f5g7dicp4ni7";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -2774,10 +2774,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1.0.20260724.12";
+      version = "1.2.1.0.20260730.13";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260724.12.tar";
-        sha256 = "174bwv8psywf8lknb5s6rlg7hvbjaqxwc5gbpib9w3z1gpxdcl0i";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260730.13.tar";
+        sha256 = "09hzjx0d34hvm3zfp3cnr5cf9cxca2q4dry08fp5zs11n7p8xhva";
       };
       packageRequires = [ ];
       meta = {
@@ -4675,10 +4675,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.1.0.0.20260727.2";
+      version = "9.1.0.0.20260730.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260727.2.tar";
-        sha256 = "136ndcvmr33ay73wy6jzql0xvvl7v71hn0cwdsq7rgf0zs91jcyq";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260730.7.tar";
+        sha256 = "0sp0l3g72kbwj52x0qh8ykw2pb4pv2ajx6hd4qf2s9a289cn6213";
       };
       packageRequires = [ ];
       meta = {
@@ -9821,10 +9821,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.3.0.0.20260529.24";
+      version = "1.3.0.0.20260730.43";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.3.0.0.20260529.24.tar";
-        sha256 = "0ybzzynk6prnanly0izr59p0kajp4nbm8jk8vqrg4mliidl79fmw";
+        url = "https://elpa.gnu.org/devel/tmr-1.3.0.0.20260730.43.tar";
+        sha256 = "0y01b4pliawrgd260va5278f4l79lhpl4dcnljd3pcb3ycfc0ydw";
       };
       packageRequires = [ ];
       meta = {
@@ -10020,10 +10020,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.5.0.20260729.6";
+      version = "0.13.5.0.20260730.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.5.0.20260729.6.tar";
-        sha256 = "0xgskmz8w89ivvcdlsjsd1hqbi2fig7s1b0hvxqv9jn2mafqjfaj";
+        url = "https://elpa.gnu.org/devel/transient-0.13.5.0.20260730.7.tar";
+        sha256 = "039csv7skl40kyl2s3s8c4xqj61gx8mgsld4gjm0mp4pp6swz6fk";
       };
       packageRequires = [
         compat
