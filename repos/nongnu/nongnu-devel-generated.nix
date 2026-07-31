@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "38.3.0.20260730.19";
+      version = "39.0snapshot0.20260730.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-38.3.0.20260730.19.tar";
-        sha256 = "170wv6dbx8qn565gxr3p3m77cgdcm3xwnq0jk6kzbx8gc78hny9s";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260730.1.tar";
+        sha256 = "0afrs382yhwlqwrpdqz63rrj6zr4hqcmrsv5qxk1fcrgbmpz646k";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3349,10 +3349,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.12.5.0.20260729.2";
+      version = "0.12.5.0.20260730.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.5.0.20260729.2.tar";
-        sha256 = "0bv56i9z3zl8fyhdyvn9jjbmxhv757m1mxgcrnvk9fg785slv0p9";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.5.0.20260730.5.tar";
+        sha256 = "1q9k7awwm6g04xsmjzfybs7yv5623m5ici1yxbvz2m3y21b47rrm";
       };
       packageRequires = [
         fsm
@@ -3711,10 +3711,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.6.0.0.20260729.77";
+      version = "4.6.0.0.20260730.78";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.6.0.0.20260729.77.tar";
-        sha256 = "058x3v6vkd4l7yv82mcja8hg93nxfjyxr0safh9xc35ls2fsf9ja";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.6.0.0.20260730.78.tar";
+        sha256 = "1yvq78pvgszg3wnj9zhmllykgk0r0gcl1yd6a66rrsa94rf06x84";
       };
       packageRequires = [
         compat
@@ -3744,10 +3744,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.6.0.0.20260729.77";
+      version = "4.6.0.0.20260730.78";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.6.0.0.20260729.77.tar";
-        sha256 = "0qwrm7ssqkzpzhahfgrcxhxrmzb8f02c4ls29am3y2s8wd0gqpwm";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.6.0.0.20260730.78.tar";
+        sha256 = "0qjagp4ca5wr6rrpf2nz54dys3vdx1khzzad10qa871b1cgzgklb";
       };
       packageRequires = [
         compat
@@ -4694,10 +4694,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.4.0snapshot0.20260729.20";
+      version = "3.4.0snapshot0.20260730.29";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.4.0snapshot0.20260729.20.tar";
-        sha256 = "0rxv4p5aj5l6dvhf2130mhrg96a89w3msizcwy6py7wyyqhnxpjv";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.4.0snapshot0.20260730.29.tar";
+        sha256 = "125bspx0skhzfck28xlgnqgbkyiabikgfla529ca6gd7k8v8w3vj";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5082,10 +5082,10 @@
     elpaBuild {
       pname = "scroll-on-jump";
       ename = "scroll-on-jump";
-      version = "0.3.0.20260108.130950";
+      version = "0.3.0.20260730.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.3.0.20260108.130950.tar";
-        sha256 = "1jwsiqrn5q7vldbajyn76w4h2pffmgcv2hakgzsyjbfafvrzvqpj";
+        url = "https://elpa.nongnu.org/nongnu-devel/scroll-on-jump-0.3.0.20260730.3.tar";
+        sha256 = "01pk93bw23rb5nkpsnpcp8w5gxqghc5rfswsdw2c90y0yxm7faf3";
       };
       packageRequires = [ ];
       meta = {
@@ -6092,10 +6092,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.5.2.0.20260729.2";
+      version = "3.5.2.0.20260730.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.2.0.20260729.2.tar";
-        sha256 = "0ldczncwwh31hly63f9j08f1bmqbcq8ixwdd9s0j2d1k7cmc89lk";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.2.0.20260730.7.tar";
+        sha256 = "0rldpa1yxgws1yaxk0gh4z9w038ifdx19jqry79vw5b7v7bk2p5d";
       };
       packageRequires = [
         compat
