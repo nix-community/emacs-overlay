@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.6.0.20260716.5";
+      version = "3.6.0.20260731.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.6.0.20260716.5.tar";
-        sha256 = "1hn04wqdbdbrim1idbcqj9b0lkicghhyaba0jpw7zdw682hfjcaf";
+        url = "https://elpa.gnu.org/devel/consult-3.6.0.20260731.6.tar";
+        sha256 = "1w96pnib50lv4izmsb1vhdbs9wmhf65l12hkzk62vsfqy90p4231";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9821,10 +9821,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.3.0.0.20260730.43";
+      version = "1.3.0.0.20260731.45";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.3.0.0.20260730.43.tar";
-        sha256 = "0y01b4pliawrgd260va5278f4l79lhpl4dcnljd3pcb3ycfc0ydw";
+        url = "https://elpa.gnu.org/devel/tmr-1.3.0.0.20260731.45.tar";
+        sha256 = "11j7ngqn08jnvfvv5gf5za97wz9rvx3p112db1hr3ws6bavpm9iw";
       };
       packageRequires = [ ];
       meta = {
@@ -10622,10 +10622,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.11.0.20260723.2";
+      version = "2.11.0.20260731.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.11.0.20260723.2.tar";
-        sha256 = "148x5mjagxshia62wypbyjpn65jmmjfh0z8d70ijl0b8vbm8ns5r";
+        url = "https://elpa.gnu.org/devel/vertico-2.11.0.20260731.3.tar";
+        sha256 = "1pgi68qkk4dsdr2ms90p5fdi8102iy50g6kz2lg5zbik6fzc6w1i";
       };
       packageRequires = [ compat ];
       meta = {
