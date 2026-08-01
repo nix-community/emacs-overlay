@@ -1085,10 +1085,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.7";
+      version = "2.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cape-2.7.tar";
-        sha256 = "0543x1j4pakdqm8vba0450yl9b30z527dx8x84mzjqkhksn40pzv";
+        url = "https://elpa.gnu.org/packages/cape-2.8.tar";
+        sha256 = "1hf9rpp6g1q461i1najncs8si4igyyih4vkcfrbb465hal4whf4m";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1662,10 +1662,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.11";
+      version = "2.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/corfu-2.11.tar";
-        sha256 = "06mrzf7f4h0pvq09gks2g88i9bfdmk1rvfj55qiaxkgpfyc3vwm9";
+        url = "https://elpa.gnu.org/packages/corfu-2.12.tar";
+        sha256 = "02d1qpnpcc7pqa4lq8ynwvn2bklgylnndqv9amx5qdkr01gbg214";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5008,10 +5008,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.8";
+      version = "2.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jinx-2.8.tar";
-        sha256 = "0cxgj390zylr4lqjmfd7f8898z4zsjy1ln783fcjlhcpf94jjjmx";
+        url = "https://elpa.gnu.org/packages/jinx-2.9.tar";
+        sha256 = "028f8vypa1dkrjbkwgdg7ijb1yqiwgg35yylykipdcy0acyphawa";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5136,10 +5136,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.0";
+      version = "0.4.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/keymap-popup-0.4.0.tar";
-        sha256 = "0hdzppwrq78hzamr05jjj3nmdsv0fxbv93gs94gmwbc07jiq0937";
+        url = "https://elpa.gnu.org/packages/keymap-popup-0.4.1.tar";
+        sha256 = "0i8fg2hw9bfcwkhdyw71lf5dkkzqmsmvpmzwgbj4kipw8szplsrv";
       };
       packageRequires = [ ];
       meta = {
@@ -5428,10 +5428,10 @@
     elpaBuild {
       pname = "lisp-ts-mode";
       ename = "lisp-ts-mode";
-      version = "0.3.0";
+      version = "0.3.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/lisp-ts-mode-0.3.0.tar";
-        sha256 = "0dh15bdmjgn4jmdc8xdf0wddj1zkbpi9xqw32m724h1y5511whh2";
+        url = "https://elpa.gnu.org/packages/lisp-ts-mode-0.3.2.tar";
+        sha256 = "0kkvcj9cn3s2ybsgf0ga1613bj1xkw5gzr9vn6dh2k2ljbjdhmcf";
       };
       packageRequires = [
         compat
@@ -6070,10 +6070,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.8.0";
+      version = "0.9.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/minuet-0.8.0.tar";
-        sha256 = "0vk118qd7g2b7vsaygj0lwnzj818p5nlsm36s1c7cm5inz1h6mfc";
+        url = "https://elpa.gnu.org/packages/minuet-0.9.0.tar";
+        sha256 = "1qp1ic9hnx36zdbkgvr1x9qdh62w1yk8rjglk8l0y1m68wxi10wp";
       };
       packageRequires = [
         dash
@@ -7016,10 +7016,10 @@
     elpaBuild {
       pname = "osm";
       ename = "osm";
-      version = "2.4";
+      version = "2.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/osm-2.4.tar";
-        sha256 = "1w270bjnxxlwi3vbgfb0aih6lkr8bgs872yrwfpl423x9wkrk48j";
+        url = "https://elpa.gnu.org/packages/osm-2.5.tar";
+        sha256 = "16s4yy2i4sj8hlc1mvz30zxqggd0ddy7yvf02a0jpfdlyn18057b";
       };
       packageRequires = [ compat ];
       meta = {
@@ -9780,10 +9780,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.5";
+      version = "0.13.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.13.5.tar";
-        sha256 = "15mdg6q6ns6sqyrikvxvn4l76dxz5gai9a9hqvf61vgk35vkgz47";
+        url = "https://elpa.gnu.org/packages/transient-0.13.6.tar";
+        sha256 = "0j471rj2hd5lkyi0sxcdm53j91ii010za9axwh978k3bpwy589xb";
       };
       packageRequires = [
         compat
