@@ -9581,10 +9581,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.3.0";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tmr-1.3.0.tar";
-        sha256 = "0sv0kaz8z0lldkcplyzh7k99s4jqj3bzr9gb5mqjwpp747hj0qlq";
+        url = "https://elpa.gnu.org/packages/tmr-1.4.0.tar";
+        sha256 = "1x12sg33zn83bzgb6qdf6xsvigwpc9d3wx17fvgxd6w86zwhr3qs";
       };
       packageRequires = [ ];
       meta = {
