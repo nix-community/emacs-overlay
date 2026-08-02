@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.11.0.20260729.0";
+      version = "1.11.0.20260801.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.11.0.20260729.0.tar";
-        sha256 = "1ccpwgjfk7yrgn7qxr8x33ad35jyaizq638zgl12s9gvxkl5xpzq";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.11.0.20260801.3.tar";
+        sha256 = "0jw3dfmggjdqy0ydyc08gj00k0a8ipfs827y5lllvvz11943aq48";
       };
       packageRequires = [
         compat
@@ -3349,10 +3349,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.12.5.0.20260731.9";
+      version = "0.12.5.0.20260801.12";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.5.0.20260731.9.tar";
-        sha256 = "0kv99a9lflav98y22drwnwj7i8p2m5dgqj70v7ywpk0s2pbyxjfl";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.5.0.20260801.12.tar";
+        sha256 = "05ycgvm4mbkmzpci54ypmah3n364s3scfm1i2xbyv1gyz8nih2id";
       };
       packageRequires = [
         fsm
@@ -5210,10 +5210,10 @@
     elpaBuild {
       pname = "sly";
       ename = "sly";
-      version = "1.0.43.0.20260402.224912";
+      version = "1.0.43.0.20260801.146";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20260402.224912.tar";
-        sha256 = "1mykx20c1dqrv2gqm01ps3l7vixg20676d5ckq2j6qgkq37jjr4k";
+        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20260801.146.tar";
+        sha256 = "090k9w0pj8f68k1a49l5vx98jq0yiyd4h5gy5mpsm7rn0cf4xl9f";
       };
       packageRequires = [ ];
       meta = {
@@ -5443,10 +5443,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "10.0.0.0.20260726.5";
+      version = "10.0.0.0.20260801.20";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20260726.5.tar";
-        sha256 = "0aka9rqbrdd6rr6wa1a9c0xq2s23a5lg145rfdyww6fr6iy7bd3m";
+        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20260801.20.tar";
+        sha256 = "0f23mpzzdnad6179h8ln7vy7b50alyk4zjj2lrif716qlbnfvq7l";
       };
       packageRequires = [ ];
       meta = {
