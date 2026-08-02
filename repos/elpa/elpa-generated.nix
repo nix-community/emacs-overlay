@@ -7767,6 +7767,27 @@
       };
     }
   ) { };
+  qrencode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "qrencode";
+      ename = "qrencode";
+      version = "1.4";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/qrencode-1.4.tar";
+        sha256 = "0vi27kqmpwi8yqjz0kpv3hxvapaysr0vq00yc0rsjkwqcylqbmj2";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/qrencode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   quarter-plane = callPackage (
     {
       elpaBuild,
