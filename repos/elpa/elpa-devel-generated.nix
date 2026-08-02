@@ -2774,10 +2774,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1.0.20260730.13";
+      version = "1.2.1.0.20260802.14";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260730.13.tar";
-        sha256 = "09hzjx0d34hvm3zfp3cnr5cf9cxca2q4dry08fp5zs11n7p8xhva";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260802.14.tar";
+        sha256 = "1n60b5z20nz2i18nbidq6wn2fz6v9yl6905gyyvxpc8i1bmc2kcn";
       };
       packageRequires = [ ];
       meta = {
@@ -7901,10 +7901,10 @@
     elpaBuild {
       pname = "qrencode";
       ename = "qrencode";
-      version = "1.4.0.20260801.0";
+      version = "1.4.0.20260801.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/qrencode-1.4.0.20260801.0.tar";
-        sha256 = "080n7l6cmvkc1sjq3hbrfj4bzg2jkd0nwh4ny0a3hxilliykadyj";
+        url = "https://elpa.gnu.org/devel/qrencode-1.4.0.20260801.2.tar";
+        sha256 = "02k1ixa2vdxgs6ns5zy5b1f0nhbjxw00nfcgab070ifa8c19n6k7";
       };
       packageRequires = [ ];
       meta = {
