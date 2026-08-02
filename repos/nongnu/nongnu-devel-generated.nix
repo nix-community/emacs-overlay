@@ -3349,10 +3349,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.12.5.0.20260801.12";
+      version = "0.12.5.0.20260802.19";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.5.0.20260801.12.tar";
-        sha256 = "05ycgvm4mbkmzpci54ypmah3n364s3scfm1i2xbyv1gyz8nih2id";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.5.0.20260802.19.tar";
+        sha256 = "1frn5g4bi42ha2i1ypiv2achdq3djflm17pn6r2y2h62zazr6bh1";
       };
       packageRequires = [
         fsm
@@ -5515,6 +5515,28 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/tablist.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  tabspaces = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      project,
+    }:
+    elpaBuild {
+      pname = "tabspaces";
+      ename = "tabspaces";
+      version = "1.10.0.0.20260801.6";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/tabspaces-1.10.0.0.20260801.6.tar";
+        sha256 = "054chs2qvcm7pisbr14vdmdkbra1y4h8gg0psllcci7r99dbaq98";
+      };
+      packageRequires = [ project ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/tabspaces.html";
         license = lib.licenses.free;
       };
     }

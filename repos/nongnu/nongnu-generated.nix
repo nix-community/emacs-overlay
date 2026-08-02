@@ -5559,6 +5559,28 @@
       };
     }
   ) { };
+  tabspaces = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      project,
+    }:
+    elpaBuild {
+      pname = "tabspaces";
+      ename = "tabspaces";
+      version = "1.10.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/tabspaces-1.10.0.tar";
+        sha256 = "19f7hmpk64r0gb9fr2mdip3yjbddw9bpl1q7zy4jkx1azr2agk5s";
+      };
+      packageRequires = [ project ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/tabspaces.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   tangotango-theme = callPackage (
     {
       elpaBuild,
