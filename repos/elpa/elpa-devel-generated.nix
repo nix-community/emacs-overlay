@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260802.51";
+      version = "14.1.2.0.20260802.54";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260802.51.tar";
-        sha256 = "1b9nabl97rvv0bn294pi9mdyxv58cqqh2dvjbbsaqsvad6adxrsj";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260802.54.tar";
+        sha256 = "0r54r0jnslvxr9lgyqwmli4d7wpc0ga91lrs4p6j1l1rsm4xiza4";
       };
       packageRequires = [ ];
       meta = {
@@ -902,10 +902,10 @@
     elpaBuild {
       pname = "breadcrumb";
       ename = "breadcrumb";
-      version = "1.0.1.0.20260630.15";
+      version = "1.0.1.0.20260802.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20260630.15.tar";
-        sha256 = "12l1bi4gynmgfffbj7w6za21a3n6776iqixm33rh7zkbzfhafvxl";
+        url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20260802.16.tar";
+        sha256 = "02xkhs83h00id98dfwa81h0kqgdn396xbd9s1j5hpapbh005g89s";
       };
       packageRequires = [ project ];
       meta = {
@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.12.0.20260801.0";
+      version = "2.12.0.20260802.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.12.0.20260801.0.tar";
-        sha256 = "1j1p5jdvmspx20v54zfi319cx215rwiqb9pjv4jswl3ig0dyndrb";
+        url = "https://elpa.gnu.org/devel/corfu-2.12.0.20260802.4.tar";
+        sha256 = "0fvkvfjkf4c0p02q5rvpxhln86smilis7c6mi4gm3p1s0d7pkwnj";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7901,10 +7901,10 @@
     elpaBuild {
       pname = "qrencode";
       ename = "qrencode";
-      version = "1.4.0.20260801.2";
+      version = "1.5beta3.0.20260802.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/qrencode-1.4.0.20260801.2.tar";
-        sha256 = "02k1ixa2vdxgs6ns5zy5b1f0nhbjxw00nfcgab070ifa8c19n6k7";
+        url = "https://elpa.gnu.org/devel/qrencode-1.5beta3.0.20260802.0.tar";
+        sha256 = "0d79py57mynwy5bz6cz14dz7ilgfgydxhb14wxwhmh9cs2b4yvsb";
       };
       packageRequires = [ ];
       meta = {
