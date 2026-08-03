@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "39.0snapshot0.20260802.20";
+      version = "39.0snapshot0.20260803.21";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260802.20.tar";
-        sha256 = "160rq0c9492qz0k2s5wv00cqqn9x709xv1k3f6lxmcbdps606791";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260803.21.tar";
+        sha256 = "169r8rfdvrchg6jdlr116aq35cbqp0lpgxwq2ys2hq11v7k956an";
       };
       packageRequires = [ seq ];
       meta = {
@@ -5980,10 +5980,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.3snapshot0.20260727.55";
+      version = "8.3.3snapshot0.20260802.57";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260727.55.tar";
-        sha256 = "0qln82jmy96rpigkf71k3pidkk6nkw35rm2xqabldv32qb8min9f";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260802.57.tar";
+        sha256 = "1q6ynw1rvc4llv920nx6iq0az94sairw71cj79cvv7fv64dypah8";
       };
       packageRequires = [ vcard ];
       meta = {
