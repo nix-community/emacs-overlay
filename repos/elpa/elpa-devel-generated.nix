@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260727.50";
+      version = "14.1.2.0.20260802.51";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260727.50.tar";
-        sha256 = "0p8cva3a0fng849qg17755hv7r5pq6c0wah3llk5jnwx10467r5x";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260802.51.tar";
+        sha256 = "1b9nabl97rvv0bn294pi9mdyxv58cqqh2dvjbbsaqsvad6adxrsj";
       };
       packageRequires = [ ];
       meta = {
@@ -2054,10 +2054,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.47.0.20260801.1";
+      version = "0.47.0.20260802.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.47.0.20260801.1.tar";
-        sha256 = "0kqw91fy4a04wc8bvbj35fp9fs8impdnc8f07l0n0hpfld01qmnj";
+        url = "https://elpa.gnu.org/devel/debbugs-0.47.0.20260802.2.tar";
+        sha256 = "0kyj43dn532a8x2lk7wwbxkqa2cjqxqyp427kinfarrv720rldvc";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -2774,10 +2774,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1.0.20260802.14";
+      version = "1.2.1.0.20260802.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260802.14.tar";
-        sha256 = "1n60b5z20nz2i18nbidq6wn2fz6v9yl6905gyyvxpc8i1bmc2kcn";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260802.15.tar";
+        sha256 = "0sfvgg4shmc6sv4jsahv9aisn4jrafkgx11qkqy4v3yh1svxfwy4";
       };
       packageRequires = [ ];
       meta = {
@@ -6158,10 +6158,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.9.0.0.20260731.0";
+      version = "0.9.0.0.20260802.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.9.0.0.20260731.0.tar";
-        sha256 = "0y4qz06wp1zhqry067cavsp1lx1d5v07jys7j2y9cr6sj16h17zn";
+        url = "https://elpa.gnu.org/devel/minuet-0.9.0.0.20260802.1.tar";
+        sha256 = "1m3a0lh8d392w4j304cjfib7ikbyhz7fr7vhmsmfq30fvdg4sa6l";
       };
       packageRequires = [
         dash
@@ -6780,10 +6780,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260801.404";
+      version = "10.0pre0.20260802.406";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260801.404.tar";
-        sha256 = "1qbaiwdgk2m7xkgc5r7bsdkmf1dgykkxln3ag03i4xq6my4k6803";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260802.406.tar";
+        sha256 = "1n51iv0739336n3ipp6fk0492440lkfyjp0fd86720ph3mvrvfnp";
       };
       packageRequires = [ ];
       meta = {
@@ -9651,10 +9651,10 @@
     elpaBuild {
       pname = "termint";
       ename = "termint";
-      version = "0.2.3.0.20260517.165016";
+      version = "0.2.3.0.20260802.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/termint-0.2.3.0.20260517.165016.tar";
-        sha256 = "0x3sg96qwrqiclw5gplakynfgsa1cfqa3yj4a4f705in9xaaswjr";
+        url = "https://elpa.gnu.org/devel/termint-0.2.3.0.20260802.1.tar";
+        sha256 = "0fyk1sqjgrynlansg0vy9mflp3h0dx4kywiskadb4njy5b9q8kmf";
       };
       packageRequires = [ ];
       meta = {
@@ -9910,10 +9910,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.2.1.0.20260801.1";
+      version = "2.8.2.1.0.20260802.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.8.2.1.0.20260801.1.tar";
-        sha256 = "10ssszh9k2pxd3q8x2n7shk1jpnzr5lrjv15700axwk9rczb3h9k";
+        url = "https://elpa.gnu.org/devel/tramp-2.8.2.1.0.20260802.2.tar";
+        sha256 = "1igh09ja5hdjfqr8nwkpiq9n2y8nnj4s64c9d7d5lv5rrww2yzhr";
       };
       packageRequires = [ ];
       meta = {
@@ -10622,10 +10622,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.11.0.20260731.3";
+      version = "2.11.0.20260802.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.11.0.20260731.3.tar";
-        sha256 = "1pgi68qkk4dsdr2ms90p5fdi8102iy50g6kz2lg5zbik6fzc6w1i";
+        url = "https://elpa.gnu.org/devel/vertico-2.11.0.20260802.5.tar";
+        sha256 = "1xi6kp1m74fgs55cj5f35pywplk2ind65lxd7fqw3lxyj0i86jsl";
       };
       packageRequires = [ compat ];
       meta = {
