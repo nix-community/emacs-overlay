@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "39.0snapshot0.20260731.13";
+      version = "39.0snapshot0.20260802.20";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260731.13.tar";
-        sha256 = "0j31psca97l1pbjf6idsfxqqb5ddsi65w9mjh205zs04k0kiygjx";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260802.20.tar";
+        sha256 = "160rq0c9492qz0k2s5wv00cqqn9x709xv1k3f6lxmcbdps606791";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2737,10 +2737,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260731.73";
+      version = "0.9.9.5.0.20260802.77";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260731.73.tar";
-        sha256 = "0pp49j52c5lv3gicwdzvp0sp12irm6mciwiphyia02xbfn4jdcf1";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260802.77.tar";
+        sha256 = "1r8wcdy6fkv5a63cdwi117200wngyyjmicb9b6mqzhd25lyvaybl";
       };
       packageRequires = [
         compat
@@ -3349,10 +3349,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.12.5.0.20260802.19";
+      version = "0.12.5.0.20260802.22";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.5.0.20260802.19.tar";
-        sha256 = "1frn5g4bi42ha2i1ypiv2achdq3djflm17pn6r2y2h62zazr6bh1";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.12.5.0.20260802.22.tar";
+        sha256 = "1xpsmvgp9irl4pa9ryq1f2ci3x1f0j2mq7947fsw1cq66irykhw5";
       };
       packageRequires = [
         fsm
@@ -5529,10 +5529,10 @@
     elpaBuild {
       pname = "tabspaces";
       ename = "tabspaces";
-      version = "1.10.0.0.20260801.6";
+      version = "1.10.0.0.20260802.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tabspaces-1.10.0.0.20260801.6.tar";
-        sha256 = "054chs2qvcm7pisbr14vdmdkbra1y4h8gg0psllcci7r99dbaq98";
+        url = "https://elpa.nongnu.org/nongnu-devel/tabspaces-1.10.0.0.20260802.7.tar";
+        sha256 = "1nnlv1sv88ig1kp6qq4jcmpsy3dxxcjxk6lr4vw0hibccjacja4q";
       };
       packageRequires = [ project ];
       meta = {
