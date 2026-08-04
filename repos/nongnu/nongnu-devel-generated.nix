@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.11.0.20260801.3";
+      version = "1.11.0.20260804.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.11.0.20260801.3.tar";
-        sha256 = "0jw3dfmggjdqy0ydyc08gj00k0a8ipfs827y5lllvvz11943aq48";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.11.0.20260804.5.tar";
+        sha256 = "1aj0f19hxcqk6z69jxamfvq1kj5s9g6pvf5r6bfxsdmb79gwnp0l";
       };
       packageRequires = [
         compat
@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "39.0snapshot0.20260803.25";
+      version = "39.0snapshot0.20260804.53";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260803.25.tar";
-        sha256 = "1lr5kgc4c044z2z87ndgmd0jzblyxlbcms9gqqsjw5v55sk4al6w";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260804.53.tar";
+        sha256 = "06r30scmyhys1yhcmh1m7xysvm34g9i2qky728w85yrpapj22mna";
       };
       packageRequires = [ seq ];
       meta = {
