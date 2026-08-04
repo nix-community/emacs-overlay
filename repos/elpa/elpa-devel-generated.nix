@@ -2054,10 +2054,10 @@
     elpaBuild {
       pname = "debbugs";
       ename = "debbugs";
-      version = "0.47.0.20260802.2";
+      version = "0.47.0.20260804.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/debbugs-0.47.0.20260802.2.tar";
-        sha256 = "0kyj43dn532a8x2lk7wwbxkqa2cjqxqyp427kinfarrv720rldvc";
+        url = "https://elpa.gnu.org/devel/debbugs-0.47.0.20260804.3.tar";
+        sha256 = "0a2hyfxshjx66mhni0b6swpzwrvqg7q5vgmzc056w5qmdxxc1121";
       };
       packageRequires = [ soap-client ];
       meta = {
@@ -6780,10 +6780,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260802.406";
+      version = "10.0pre0.20260804.407";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260802.406.tar";
-        sha256 = "1n51iv0739336n3ipp6fk0492440lkfyjp0fd86720ph3mvrvfnp";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260804.407.tar";
+        sha256 = "0l1b03cf5giqm6mph31nr5pandb06sqkga4737r1adac2p5lp6qx";
       };
       packageRequires = [ ];
       meta = {
@@ -9651,10 +9651,10 @@
     elpaBuild {
       pname = "termint";
       ename = "termint";
-      version = "0.2.3.0.20260802.1";
+      version = "0.2.3.0.20260804.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/termint-0.2.3.0.20260802.1.tar";
-        sha256 = "0fyk1sqjgrynlansg0vy9mflp3h0dx4kywiskadb4njy5b9q8kmf";
+        url = "https://elpa.gnu.org/devel/termint-0.2.3.0.20260804.2.tar";
+        sha256 = "00sk5sshqlyrzx9ynvpq6fyjj1drkf6rh99ayhr76y3d23s71l75";
       };
       packageRequires = [ ];
       meta = {
