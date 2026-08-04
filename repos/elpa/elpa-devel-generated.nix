@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260802.54";
+      version = "14.1.2.0.20260803.55";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260802.54.tar";
-        sha256 = "0r54r0jnslvxr9lgyqwmli4d7wpc0ga91lrs4p6j1l1rsm4xiza4";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260803.55.tar";
+        sha256 = "0a4q4z17rwb8zjr34cnlpchffyc8pacf2b2z0i11vskmvk4ddb7m";
       };
       packageRequires = [ ];
       meta = {
@@ -3026,10 +3026,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.24.0.20260801.1";
+      version = "1.24.0.20260802.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260801.1.tar";
-        sha256 = "025p282dyrlyg52jihp0j7ppgvjyqc4xch9jn06mlgfvmfwamwnc";
+        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260802.2.tar";
+        sha256 = "1i7yzaf6lxmhpq6py2shmrfwl2yqb2gv60y06xmqhjgb7770153p";
       };
       packageRequires = [
         eldoc
