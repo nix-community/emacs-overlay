@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.8.0.20260801.0";
+      version = "2.8.0.20260804.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.8.0.20260801.0.tar";
-        sha256 = "01fbmb979hmxxfm49nqydf83k9qbsp8i3dkx9hqvh21lg2xmrxqf";
+        url = "https://elpa.gnu.org/devel/cape-2.8.0.20260804.1.tar";
+        sha256 = "0p4s8md9wrxfgl1qmx231dcx8yg72xmbx9sx8zm4v9vhn12ffhc3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1342,10 +1342,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.5.0.20260508.152701";
+      version = "1.2.5.0.20260804.18";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.5.0.20260508.152701.tar";
-        sha256 = "1yif2xib8czihif7ls2kw98akjjc76ml0ic69jr3qysi73p3n6iv";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.5.0.20260804.18.tar";
+        sha256 = "1gggz1cp8wbq45r4fqzpxsw57dcdynn4nsb1cp8bvqylx7p9dk82";
       };
       packageRequires = [
         cl-lib
@@ -6158,10 +6158,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.9.0.0.20260804.3";
+      version = "0.9.0.0.20260805.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.9.0.0.20260804.3.tar";
-        sha256 = "15ngv0g5jysknxalvm00qb0wpmvgwb0hh6x9vqrmaqwhrn289s7w";
+        url = "https://elpa.gnu.org/devel/minuet-0.9.0.0.20260805.4.tar";
+        sha256 = "1600hxvrlh4kwvfz371vrixvmi9b13igfni1mm4mgkkyxs6swajf";
       };
       packageRequires = [
         dash
