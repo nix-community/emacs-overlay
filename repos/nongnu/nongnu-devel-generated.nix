@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "39.0snapshot0.20260804.53";
+      version = "39.0snapshot0.20260804.69";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260804.53.tar";
-        sha256 = "06r30scmyhys1yhcmh1m7xysvm34g9i2qky728w85yrpapj22mna";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260804.69.tar";
+        sha256 = "14jax2zm5scy531phx9zwfhcq71kbnmjwzyh0yspnc9d7hnd41wr";
       };
       packageRequires = [ seq ];
       meta = {
@@ -4609,10 +4609,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1.0.20260724.81";
+      version = "1.26.1.0.20260804.86";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20260724.81.tar";
-        sha256 = "149mmigy1mcliiqn0fnb7iwfy7ha0xrbjik9m6warxlpzzax3x69";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20260804.86.tar";
+        sha256 = "15vl1fzcpkhcs1d4kjjbnb4b9i3jybpvdr8i3hmkwkbbhr32w2r8";
       };
       packageRequires = [ ];
       meta = {
@@ -5980,10 +5980,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.3snapshot0.20260802.57";
+      version = "8.3.3snapshot0.20260804.86";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260802.57.tar";
-        sha256 = "1q6ynw1rvc4llv920nx6iq0az94sairw71cj79cvv7fv64dypah8";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-8.3.3snapshot0.20260804.86.tar";
+        sha256 = "1swz0b2rmz7jfqv5csx2q8ncaz7yq1kisd121vcmnlm9b8qlda88";
       };
       packageRequires = [ vcard ];
       meta = {
