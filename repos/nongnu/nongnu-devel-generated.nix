@@ -2737,10 +2737,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260802.77";
+      version = "0.9.9.5.0.20260804.79";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260802.77.tar";
-        sha256 = "1r8wcdy6fkv5a63cdwi117200wngyyjmicb9b6mqzhd25lyvaybl";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260804.79.tar";
+        sha256 = "1rkzlcadldm2j83dmnyc2zkh6x21znk8cw02l90agqgjg1dis1xp";
       };
       packageRequires = [
         compat
@@ -5529,10 +5529,10 @@
     elpaBuild {
       pname = "tabspaces";
       ename = "tabspaces";
-      version = "1.10.0.0.20260802.7";
+      version = "1.10.1.0.20260804.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tabspaces-1.10.0.0.20260802.7.tar";
-        sha256 = "1nnlv1sv88ig1kp6qq4jcmpsy3dxxcjxk6lr4vw0hibccjacja4q";
+        url = "https://elpa.nongnu.org/nongnu-devel/tabspaces-1.10.1.0.20260804.1.tar";
+        sha256 = "08dbcnq881in2afk6lyk3p3aax3i728nm2da088f2gwa8h7i10q3";
       };
       packageRequires = [ project ];
       meta = {
