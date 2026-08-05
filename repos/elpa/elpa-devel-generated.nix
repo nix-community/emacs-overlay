@@ -902,10 +902,10 @@
     elpaBuild {
       pname = "breadcrumb";
       ename = "breadcrumb";
-      version = "1.0.1.0.20260802.16";
+      version = "1.0.1.0.20260804.20";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20260802.16.tar";
-        sha256 = "02xkhs83h00id98dfwa81h0kqgdn396xbd9s1j5hpapbh005g89s";
+        url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20260804.20.tar";
+        sha256 = "18vf0w97sknwvck48n60v26m1hjl429s3534x83qzbm845bnzjwl";
       };
       packageRequires = [ project ];
       meta = {
@@ -4675,10 +4675,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.1.0.0.20260730.7";
+      version = "9.1.0.0.20260804.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260730.7.tar";
-        sha256 = "0sp0l3g72kbwj52x0qh8ykw2pb4pv2ajx6hd4qf2s9a289cn6213";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260804.10.tar";
+        sha256 = "057arsp3xs514xmy7hrzz3iqyz0j6q87s32dy24dy17fbfmbw9zd";
       };
       packageRequires = [ ];
       meta = {
@@ -5050,10 +5050,10 @@
     elpaBuild {
       pname = "javaimp";
       ename = "javaimp";
-      version = "0.9.2.0.20260715.9";
+      version = "0.9.2.0.20260804.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260715.9.tar";
-        sha256 = "1fv10bx8f7y5f85zkyavav6ylkwxlznhfwbf4w4mybfj1p61mwha";
+        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260804.10.tar";
+        sha256 = "0ca9pjpi88f55x47xd7qa86w2d4fja2vm2sjvq4dnrx8mz1q64lg";
       };
       packageRequires = [ ];
       meta = {
@@ -5222,10 +5222,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.1.0.20260801.0";
+      version = "0.4.1.0.20260804.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.1.0.20260801.0.tar";
-        sha256 = "1hz7sming0y63abgl450vdykl0n3cjcxpnksli218hm1llwz7g5q";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.1.0.20260804.3.tar";
+        sha256 = "1ydz4xzdrw7vyx0h7v2c72js4s11rrpr8svd068ql3ybq6cdw4ga";
       };
       packageRequires = [ ];
       meta = {
@@ -6158,10 +6158,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.9.0.0.20260802.1";
+      version = "0.9.0.0.20260804.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.9.0.0.20260802.1.tar";
-        sha256 = "1m3a0lh8d392w4j304cjfib7ikbyhz7fr7vhmsmfq30fvdg4sa6l";
+        url = "https://elpa.gnu.org/devel/minuet-0.9.0.0.20260804.3.tar";
+        sha256 = "15ngv0g5jysknxalvm00qb0wpmvgwb0hh6x9vqrmaqwhrn289s7w";
       };
       packageRequires = [
         dash
