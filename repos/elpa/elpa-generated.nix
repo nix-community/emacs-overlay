@@ -1549,10 +1549,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.6";
+      version = "3.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-3.6.tar";
-        sha256 = "0c8pp537qv2zxkzk0nlrvzbn1v72v9ddhwf1nks3hwvwrff58db8";
+        url = "https://elpa.gnu.org/packages/consult-3.7.tar";
+        sha256 = "19xivcldaqpqx0kzp5sb6xs7fr1xy4nfy6jy66mvqzzs513p5wb3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10403,10 +10403,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.11";
+      version = "2.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-2.11.tar";
-        sha256 = "1l8ja7f223qkhwm8hpmj3kdirqd687fnfag3hw3r8imghm3hdgjk";
+        url = "https://elpa.gnu.org/packages/vertico-2.12.tar";
+        sha256 = "1fsa086bwq53xk6fsllk7c6kl9i1qbcwjrq0qc6k54xx62q84xcp";
       };
       packageRequires = [ compat ];
       meta = {
