@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260805.56";
+      version = "14.1.2.0.20260806.57";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260805.56.tar";
-        sha256 = "0jxmlbgdrx23z1jxq5k9w4qi3wbkvj99ww1xdcbzjqp74fsc5797";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260806.57.tar";
+        sha256 = "04qhrv2h2c56wps276fkq9gmxdzwhlqg216j7zil7xa4lxb3jmpk";
       };
       packageRequires = [ ];
       meta = {
@@ -5094,10 +5094,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.9.0.20260801.0";
+      version = "2.9.0.20260806.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.9.0.20260801.0.tar";
-        sha256 = "0ricn82w1pfmpp8z01rdwwnlx9qm32dv46gqjf44kfynsxbs86hp";
+        url = "https://elpa.gnu.org/devel/jinx-2.9.0.20260806.1.tar";
+        sha256 = "0qffvxk4blp15vb45f6n79z0rbvg91yjcygsjwkjqhwqvxj2pxkf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5222,10 +5222,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.1.0.20260804.3";
+      version = "0.4.1.0.20260806.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.1.0.20260804.3.tar";
-        sha256 = "1ydz4xzdrw7vyx0h7v2c72js4s11rrpr8svd068ql3ybq6cdw4ga";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.1.0.20260806.6.tar";
+        sha256 = "1wa148zqlkb6g12s2xd1jcpr7df3phi2vk9jqhgqd3rk7vk6ir0s";
       };
       packageRequires = [ ];
       meta = {
@@ -10020,10 +10020,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.6.0.20260731.0";
+      version = "0.13.7.0.20260806.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.6.0.20260731.0.tar";
-        sha256 = "059zx8lk1ihiibsq1y72i0yyyll1w3ffgb17wrys7brf4r03n4nq";
+        url = "https://elpa.gnu.org/devel/transient-0.13.7.0.20260806.0.tar";
+        sha256 = "01xk8l5pq4kxlfz3y12v55q7xhfsdmmbpryh1164cijzrp6azj0a";
       };
       packageRequires = [
         compat
