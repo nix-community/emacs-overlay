@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260805.47";
+      version = "2.1.0snapshot0.20260806.53";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260805.47.tar";
-        sha256 = "05bj0f2shf2f2jpkm5y4abknsqi5a43i7sk1jc0b1fy13df70waj";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260806.53.tar";
+        sha256 = "1lmfj2cwv0v6mclcsz73k5k27cxxdsblcw2lvm4gn6yh2acfym9f";
       };
       packageRequires = [
         clojure-mode
@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "39.0snapshot0.20260805.77";
+      version = "39.0snapshot0.20260806.88";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260805.77.tar";
-        sha256 = "07wpyrin5q967rmqa3g3ghdvn513296pp6kp3g850h7ipgk21m5j";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260806.88.tar";
+        sha256 = "10if946fdl0b7hq98rpijqml7s0v08jjgfa6d6gx8qwwbns1lg76";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2934,10 +2934,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260729.39";
+      version = "4.0.7.0.20260806.41";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260729.39.tar";
-        sha256 = "1p6rkarzdpwm5zk0mifh351gkwrh4w1wp3ws425y65nclxsgx3f8";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260806.41.tar";
+        sha256 = "1g0zny2k5a4c6v7hfvn3859hgydvz54zykbzcigbwy7x7jdd6fy8";
       };
       packageRequires = [
         helm-core
@@ -2959,10 +2959,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260729.39";
+      version = "4.0.7.0.20260806.41";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260729.39.tar";
-        sha256 = "09zf2a9j5vgrfalhcmx067xq3p1kmys189sa4vgfc5rdh88iyp9l";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260806.41.tar";
+        sha256 = "167pbpikba3cc92vny6c2r7rcgi5xy5dxpq6wnsr2kwi00vlq6qy";
       };
       packageRequires = [ async ];
       meta = {
@@ -3349,10 +3349,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.13.0.0.20260805.0";
+      version = "0.13.0.0.20260806.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.0.0.20260805.0.tar";
-        sha256 = "0jfwpss8mh4mps150fdk80bxmx9zr5b82n73smxav913ipcchdjb";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.0.0.20260806.3.tar";
+        sha256 = "1pdn1jd9fknpd6j11aa9x210fw9wav3lwgx37mi55hl9w1slv4fc";
       };
       packageRequires = [
         fsm
