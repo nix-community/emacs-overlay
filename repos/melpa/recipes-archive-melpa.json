@@ -15701,14 +15701,14 @@
   "repo": "LuciusChen/clutch",
   "unstable": {
    "version": [
-    20260805,
-    1534
+    20260807,
+    210
    ],
    "deps": [
     "transient"
    ],
-   "commit": "88c69d6d515b30b564b4f0b2cb54d13ce8349c8b",
-   "sha256": "04c651bl911d17ygjvyq65fkpr6n83lqjnznj5d7hl0y7idi5n3m"
+   "commit": "2e50906947e17908f49e6c29e626a29bf3ac538f",
+   "sha256": "17paq56gm6y2pak64mdz93imsbb1s94z6v2y9hg31bxnvgngm1nv"
   },
   "stable": {
    "version": [
@@ -28852,14 +28852,14 @@
   "repo": "doomemacs/themes",
   "unstable": {
    "version": [
-    20260117,
-    2323
+    20260807,
+    136
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "53645a905dfb3055db52f5d418d5ef612027e062",
-   "sha256": "1pqmk6mi1nk3axkb0zfcy7x8vqz5984km0vqp6mmh0sd2ysc4rdl"
+   "commit": "a9b7144a4b6fe03be144b1610e0a6840e2b24d41",
+   "sha256": "1wzpc5l98fcdlljm0s4a30l2lis88x8fx53i5q0dg4is5imb4m9b"
   },
   "stable": {
    "version": [
@@ -96759,11 +96759,7 @@
     "qrencode"
    ],
    "commit": "2d0e5c0f164ff9bacada4a8034f8ccc9c4f78683",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2945-4065432229/nix-shell-3133-1823281396/nix-shell-3198-2253617913/git-checkout-tmp-Mq3Eu7Vp/clone/.git/\nfatal: unable to access 'https://repo.or.cz/org-link-beautify.git/': Recv failure: Connection reset by peer\nfatal: unable to access 'https://repo.or.cz/org-link-beautify.git/': Recv failure: Connection reset by peer\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://repo.or.cz/org-link-beautify.git/': Failed to connect to repo.or.cz:443 after 135026 ms: Could not connect to server\nUnable to checkout 2d0e5c0f164ff9bacada4a8034f8ccc9c4f78683 from https://repo.or.cz/org-link-beautify.git.\n"
-   ]
+   "sha256": "1sbcxg4rxcnpyx1hn8mgwai9v28rlkmh2w1iv5cq359rlg0vc7f3"
   },
   "stable": {
    "version": [
