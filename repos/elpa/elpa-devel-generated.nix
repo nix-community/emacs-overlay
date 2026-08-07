@@ -2562,10 +2562,10 @@
     elpaBuild {
       pname = "dired-sidebar";
       ename = "dired-sidebar";
-      version = "2.0.1.0.20260729.1";
+      version = "2.0.1.0.20260806.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-sidebar-2.0.1.0.20260729.1.tar";
-        sha256 = "1h0k0r1930v6kly69pg5vsswbz8zkk9qds3sw3a8zmqd0qwss45m";
+        url = "https://elpa.gnu.org/devel/dired-sidebar-2.0.1.0.20260806.3.tar";
+        sha256 = "0yps7am725ndcl1xbpcayw2b17xlbpgss5lmjsmjxbinsn6yfdav";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5094,10 +5094,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.9.0.20260806.1";
+      version = "2.9.0.20260806.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.9.0.20260806.1.tar";
-        sha256 = "0qffvxk4blp15vb45f6n79z0rbvg91yjcygsjwkjqhwqvxj2pxkf";
+        url = "https://elpa.gnu.org/devel/jinx-2.9.0.20260806.2.tar";
+        sha256 = "07m73f585hyj7gsmzgy4xgjhh8y00q9sqdmmn3bjgpz05vl6gdmg";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6158,10 +6158,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.9.0.0.20260805.4";
+      version = "0.9.0.0.20260807.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.9.0.0.20260805.4.tar";
-        sha256 = "1600hxvrlh4kwvfz371vrixvmi9b13igfni1mm4mgkkyxs6swajf";
+        url = "https://elpa.gnu.org/devel/minuet-0.9.0.0.20260807.6.tar";
+        sha256 = "1kvn88vn5zk9kj51l0vahny3ldbfv35q7yppgfi1zz3719vnydxm";
       };
       packageRequires = [
         dash
