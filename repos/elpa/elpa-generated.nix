@@ -5136,10 +5136,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.1";
+      version = "0.4.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/keymap-popup-0.4.1.tar";
-        sha256 = "0i8fg2hw9bfcwkhdyw71lf5dkkzqmsmvpmzwgbj4kipw8szplsrv";
+        url = "https://elpa.gnu.org/packages/keymap-popup-0.4.2.tar";
+        sha256 = "1pl3pmv8qvn1rkiziwyyr9iyj5hfw6bcccz8d0k18zah2h8q0pz0";
       };
       packageRequires = [ ];
       meta = {

@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260806.57";
+      version = "14.1.2.0.20260807.58";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260806.57.tar";
-        sha256 = "04qhrv2h2c56wps276fkq9gmxdzwhlqg216j7zil7xa4lxb3jmpk";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260807.58.tar";
+        sha256 = "1d8x0vj5ln78j1g4m0wlpax079qxmp28a4mv41zd11wa2pssxb5z";
       };
       packageRequires = [ ];
       meta = {
@@ -5222,10 +5222,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.1.0.20260806.6";
+      version = "0.4.2.0.20260807.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.1.0.20260806.6.tar";
-        sha256 = "1wa148zqlkb6g12s2xd1jcpr7df3phi2vk9jqhgqd3rk7vk6ir0s";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.2.0.20260807.0.tar";
+        sha256 = "01g70v4497dfqwsjrzhqz01d9ynp48vl910dk3lq8baa864mcijw";
       };
       packageRequires = [ ];
       meta = {
@@ -9821,10 +9821,10 @@
     elpaBuild {
       pname = "tmr";
       ename = "tmr";
-      version = "1.4.0.0.20260731.0";
+      version = "1.4.0.0.20260807.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tmr-1.4.0.0.20260731.0.tar";
-        sha256 = "03zh63a8yxgcw98gyfiqznscp895w0cpf17y0w7nlxp3v48g0x24";
+        url = "https://elpa.gnu.org/devel/tmr-1.4.0.0.20260807.1.tar";
+        sha256 = "0lw3sd1g6g8aasla3jxww9dwl5x474zffmqqdnllb9jfjvwib9w9";
       };
       packageRequires = [ ];
       meta = {
