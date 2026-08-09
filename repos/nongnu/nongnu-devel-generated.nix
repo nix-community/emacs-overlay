@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "39.0snapshot0.20260808.98";
+      version = "39.0snapshot0.20260808.101";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260808.98.tar";
-        sha256 = "1a0malm6zqj7j2bpnrbc476rnylrv4wa8844djb62zyni4p3bip9";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260808.101.tar";
+        sha256 = "06qrh4647jqks8ab52f3hv42y041fj16lwx99cwc8hkwpniam7gs";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3793,10 +3793,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.0.17.0.20260509.74935";
+      version = "2.1.0.0.20260808.72";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.0.17.0.20260509.74935.tar";
-        sha256 = "1i656xma6mw8fis91fwvzz9c1fpihxcgpwx78vm10k939j1ghhpg";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.0.0.20260808.72.tar";
+        sha256 = "1qzl4zipxz9z1a04v0l1c83wahgjnaf18l1i9bqd8j2xvv63ipdw";
       };
       packageRequires = [
         persist
@@ -4387,10 +4387,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.26.0.20260619.23";
+      version = "0.26.0.20260808.27";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.26.0.20260619.23.tar";
-        sha256 = "1a1lbk0ypicqwx6afavwfqwibp0pvyry84372s441bmd89xp072k";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.26.0.20260808.27.tar";
+        sha256 = "1ryny6zdq38hirfx2m4l2ywmpxckqb1igl3yc234hldmppzfjwc3";
       };
       packageRequires = [ let-alist ];
       meta = {
