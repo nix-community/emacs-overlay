@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260807.58";
+      version = "14.1.2.0.20260808.60";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260807.58.tar";
-        sha256 = "1d8x0vj5ln78j1g4m0wlpax079qxmp28a4mv41zd11wa2pssxb5z";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260808.60.tar";
+        sha256 = "09nzz497sb38xln8xs8wm1dv0l9xmglf4y9vj2z1kphpf0b9i4b3";
       };
       packageRequires = [ ];
       meta = {
@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.4.0.20260720.83";
+      version = "0.1.4.0.20260808.85";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20260720.83.tar";
-        sha256 = "19k83fn4i2vvvad6pz865ns165vpd9msa1cnjhmlcfv5cxsa7wk3";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20260808.85.tar";
+        sha256 = "0hnnrlk2ssp7nal5l4mkcx64i84gsbnasw8kjgjrmga8px27zwn4";
       };
       packageRequires = [ ];
       meta = {
@@ -4760,10 +4760,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "1.0.0.0.20260418.90339";
+      version = "1.0.1.0.20260808.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-1.0.0.0.20260418.90339.tar";
-        sha256 = "0jrdzw4yr1ldcsvc5jix8ay1wfv7fmphc2q82alhv4in247c5sna";
+        url = "https://elpa.gnu.org/devel/indent-bars-1.0.1.0.20260808.0.tar";
+        sha256 = "13xgx3djv5b7sjr5amjnzbl44k8qqkp5rcfjx8m38zchgb7ximj8";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6780,10 +6780,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260804.407";
+      version = "10.0pre0.20260808.414";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260804.407.tar";
-        sha256 = "0l1b03cf5giqm6mph31nr5pandb06sqkga4737r1adac2p5lp6qx";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260808.414.tar";
+        sha256 = "07lnrygxsn2w387bv22lvmc16y43snl05rrzby2vp73zwp739ywr";
       };
       packageRequires = [ ];
       meta = {
