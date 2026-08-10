@@ -4007,10 +4007,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "1.7.0.20260731.12";
+      version = "2.0.0.20260809.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-1.7.0.20260731.12.tar";
-        sha256 = "083d3rj048nq5cyimyx8s5mqlxxzprsg2f6g6q7jm6mm4nliksdl";
+        url = "https://elpa.gnu.org/devel/futur-2.0.0.20260809.0.tar";
+        sha256 = "198i3pf4m29ryhp3101h3ay096lfqzzyrvlh9k5scw768smv102h";
       };
       packageRequires = [ ];
       meta = {
