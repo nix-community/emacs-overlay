@@ -6292,10 +6292,10 @@
     elpaBuild {
       pname = "yaml-mode";
       ename = "yaml-mode";
-      version = "0.0.16.0.20260420.21817";
+      version = "0.0.16.0.20260809.15";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/yaml-mode-0.0.16.0.20260420.21817.tar";
-        sha256 = "1lbh8w21g897zvi9lys47kj5vkgpr9ifp8lgpr5jcxvsrj0xbayv";
+        url = "https://elpa.nongnu.org/nongnu-devel/yaml-mode-0.0.16.0.20260809.15.tar";
+        sha256 = "113fqlyblyz28lrnnjrf6d5n506rbcrknm8x3yxyxcf3vv45v0cp";
       };
       packageRequires = [ ];
       meta = {
