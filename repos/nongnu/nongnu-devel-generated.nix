@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "39.0snapshot0.20260808.101";
+      version = "39.0snapshot0.20260810.102";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260808.101.tar";
-        sha256 = "06qrh4647jqks8ab52f3hv42y041fj16lwx99cwc8hkwpniam7gs";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260810.102.tar";
+        sha256 = "1ghacf50y4c3whjvjkhb7dsf3qa3z3pnfw2jcs21mfnr2g57cszi";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3349,10 +3349,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.13.1.0.20260807.0";
+      version = "0.13.1.0.20260810.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.1.0.20260807.0.tar";
-        sha256 = "0vcfyq98g6ikq5sy71x34a68vyfgmh4gakfj1j4sq0nw0vgc121i";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.1.0.20260810.1.tar";
+        sha256 = "1b7z601w18nf2gqmwflzyxwh5aa97l7w797y9n1qykzqk04zzwhh";
       };
       packageRequires = [
         fsm
@@ -4034,18 +4034,20 @@
       fetchurl,
       lib,
       magit-section,
+      reformatter,
       transient,
     }:
     elpaBuild {
       pname = "nix-mode";
       ename = "nix-mode";
-      version = "1.5.0.0.20230421.153655";
+      version = "1.5.0.0.20260809.57";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/nix-mode-1.5.0.0.20230421.153655.tar";
-        sha256 = "186c1xng3phn3m4jvazn114l1ch1jldfyjaihb32rb9c8bf3mfr9";
+        url = "https://elpa.nongnu.org/nongnu-devel/nix-mode-1.5.0.0.20260809.57.tar";
+        sha256 = "0ihjwdfvnkgi0063hn7m7qjs5xls66083bis7hn938acvw81krk2";
       };
       packageRequires = [
         magit-section
+        reformatter
         transient
       ];
       meta = {
@@ -4694,10 +4696,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.4.0snapshot0.20260807.37";
+      version = "3.4.0snapshot0.20260810.39";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.4.0snapshot0.20260807.37.tar";
-        sha256 = "1p18qrpxi7sphh91bsf3iixai82xngc2bcijn5hkkhrxi0yg8jy3";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.4.0snapshot0.20260810.39.tar";
+        sha256 = "16la6a9fy0f2q9jwv3g9zf05xvbbzxa84siy6pcb6kq19p3j9rix";
       };
       packageRequires = [ compat ];
       meta = {
