@@ -2413,10 +2413,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0.0.20260723.188";
+      version = "1.10.0.0.20260811.192";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260723.188.tar";
-        sha256 = "01mf33088i984y0npw7vff9zav1ph6879821cnbkvdc56dkrkv2n";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.10.0.0.20260811.192.tar";
+        sha256 = "07zkkwf4r5zcm1d9rhg1m51y3briaz8wylnc36d3z65is65nvfhd";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -6225,10 +6225,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260730.29";
+      version = "5.3.0.0.20260811.30";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260730.29.tar";
-        sha256 = "0jjy3hwa1ymd986mmy026rfl1zwckxlgvjwpp0sk1i6q572mpaw8";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260811.30.tar";
+        sha256 = "0vmcfx0mlzbrq7rpypx55yy3cx8ic6x88603sk536ix3k0bhmm4m";
       };
       packageRequires = [ ];
       meta = {
@@ -7555,10 +7555,10 @@
     elpaBuild {
       pname = "poke-mode";
       ename = "poke-mode";
-      version = "3.1.0.20231014.222558";
+      version = "3.1.0.20260809.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/poke-mode-3.1.0.20231014.222558.tar";
-        sha256 = "1aqw9rn17n7ywnys6dlwykrf63l4kgapqsk1fay5qjj0y1nkq167";
+        url = "https://elpa.gnu.org/devel/poke-mode-3.1.0.20260809.1.tar";
+        sha256 = "0bgh8xwhwzwxfv055w3qvy4gz86vykgrlpns7mlsxzzx0g16v7kx";
       };
       packageRequires = [ ];
       meta = {
