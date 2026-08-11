@@ -2383,15 +2383,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260810,
-    452
+    20260811,
+    425
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "253bf2c550a2e08d4af837d3e7818b340e49791f",
-   "sha256": "18yyjygpj4ycp9zg140hgfgf81xdxyyd0gv2r68ld9rccydsmd02"
+   "commit": "6e9da1ad6126614867e4efde4af8327dca347382",
+   "sha256": "0rys0198j5lwjjfr8abxhkk5ghqzljm8h51phi0zyrwavxjf6sxb"
   },
   "stable": {
    "version": [
@@ -25940,14 +25940,14 @@
   "repo": "dgutov/diff-hl",
   "unstable": {
    "version": [
-    20260723,
-    238
+    20260811,
+    347
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "91fcd4fa42fef895a754e80c4435ae6314be7822",
-   "sha256": "0b1h9i7j6q4iix5a58phfpk2qnnpxnq5p4d1irlksg7jx37h535h"
+   "commit": "6f1df2b83d1140a2938409b35de7f4c9c7b1defd",
+   "sha256": "01id1wch4jc1y6zcn4ddzdw1iq0sfar7w2s6yarg0q5nbzydpsi0"
   },
   "stable": {
    "version": [
@@ -33882,9 +33882,9 @@
   "unstable": {
    "version": [
     20260810,
-    802
+    2354
    ],
-   "commit": "dab25d90afd70d5adacac37d52ada160a25c5062",
+   "commit": "be5c48683cefd32450f26b6c569e92bad310f7eb",
    "sha256": "0q6gzs3ikvw54brs440an359s9x04074nsszjbxkjjasi7xw29xr"
   }
  },
@@ -53600,14 +53600,26 @@
   "repo": "agzam/github-topics",
   "unstable": {
    "version": [
-    20260106,
-    1904
+    20260810,
+    2321
    ],
    "deps": [
     "ts"
    ],
-   "commit": "dce3530b61fe4293190e40edf835291e8542a762",
-   "sha256": "0v2c7dlky03a94nrbbpl0l2zj74sd43nyds03r2im7rg8r4ssc5p"
+   "commit": "6086960d85bc538b6ea8cb91d1d69f9fedad4817",
+   "sha256": "0malcvcc2zw8hfavc8a5ymisbdfdhdrzf9hkmz516ngzxblbsdcn"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    0
+   ],
+   "deps": [
+    "ts"
+   ],
+   "commit": "6086960d85bc538b6ea8cb91d1d69f9fedad4817",
+   "sha256": "0malcvcc2zw8hfavc8a5ymisbdfdhdrzf9hkmz516ngzxblbsdcn"
   }
  },
  {
@@ -58788,15 +58800,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20260808,
-    443
+    20260811,
+    401
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "a985db48bd3f5d4d365bb547b91bfe2ea5d3e85e",
-   "sha256": "0627cll6fjv5j24xf7c5x7skqychgzhwxx0kl7qxzmc6kj2l1wpm"
+   "commit": "acff7751af0623f1bbebb1f3bf1ee4831f7f5035",
+   "sha256": "1pwqsyk8zdx4r5gzhgvpc9cqmbcshrvzqhb5al3r6h256gfn73sc"
   },
   "stable": {
    "version": [
@@ -81025,14 +81037,14 @@
   "repo": "magit/magit-tbdiff",
   "unstable": {
    "version": [
-    20260315,
-    55
+    20260811,
+    44
    ],
    "deps": [
     "magit"
    ],
-   "commit": "e7391536e23a0d6d28cc4b153db3f446a51da8b7",
-   "sha256": "10kcqcamg4jf24kdsp7zah8v9rvjs7a76ryq98vyx8hxkfx9qs4z"
+   "commit": "62e2c726a26eb7b8c39048e091062d206610649d",
+   "sha256": "1ssjwm4cbg0m16f6l8fxg0lsyv92apy46a48w2bvv6nz61c1hpfr"
   },
   "stable": {
    "version": [
@@ -106436,8 +106448,8 @@
   "repo": "ananthakumaran/pimacs.el",
   "unstable": {
    "version": [
-    20260810,
-    1651
+    20260811,
+    250
    ],
    "deps": [
     "compat",
@@ -106447,8 +106459,8 @@
     "timeout",
     "transient"
    ],
-   "commit": "099f5a74238e43a79048c6ba2b291ddb3f318e85",
-   "sha256": "1plpxi7j8szcxlw93v0w09gsjs42ii0pr23wffamfhhcm4n49hzb"
+   "commit": "d0b405cf9ca396b1a15efc390a5aebb72a0e2580",
+   "sha256": "0g40lyilksmgwxpg9303bvvfbh0fk9d0rhgkyn5l1m2j1v6rkv4l"
   },
   "stable": {
    "version": [
@@ -129239,15 +129251,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20260806,
-    845
+    20260811,
+    721
    ],
    "deps": [
     "transient",
     "visual-fill-column"
    ],
-   "commit": "c7273cce799d60b6c8bb470cfa26ed267324ff02",
-   "sha256": "12dli34j15d0rn32h5rbnlqj273rlfa1bmy0gaw0z6a57kksrw3a"
+   "commit": "bc46f93733e63b20a4d95eb13a49b99b3b309ca6",
+   "sha256": "1xh9a0j2zp0vhrgkg2h3ycfwfgrra2kvv26aghj7pjq4yj5klsna"
   },
   "stable": {
    "version": [
