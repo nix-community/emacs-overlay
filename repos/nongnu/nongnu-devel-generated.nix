@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "39.0snapshot0.20260810.102";
+      version = "40.0snapshot0.20260810.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260810.102.tar";
-        sha256 = "1ghacf50y4c3whjvjkhb7dsf3qa3z3pnfw2jcs21mfnr2g57cszi";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260810.0.tar";
+        sha256 = "16lf77h3b4n8qg3j4lxpqanf5xrgcpbhf7j2rcvh5mfkcr0fwgsc";
       };
       packageRequires = [ seq ];
       meta = {
@@ -4040,10 +4040,10 @@
     elpaBuild {
       pname = "nix-mode";
       ename = "nix-mode";
-      version = "1.5.0.0.20260809.57";
+      version = "1.5.0.0.20260810.58";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/nix-mode-1.5.0.0.20260809.57.tar";
-        sha256 = "0ihjwdfvnkgi0063hn7m7qjs5xls66083bis7hn938acvw81krk2";
+        url = "https://elpa.nongnu.org/nongnu-devel/nix-mode-1.5.0.0.20260810.58.tar";
+        sha256 = "0lz7jisnrxrip5cn7abanpr8r31q6a8sszpjv9cvc6z4a8qikgpf";
       };
       packageRequires = [
         magit-section
@@ -4590,10 +4590,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.68.0.20260727.2";
+      version = "0.68.0.20260810.23";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.68.0.20260727.2.tar";
-        sha256 = "0rl6ya6g2sbhd2qgy70m9ja8vib0dpvcisbmfwg0fdym25dqr8ni";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.68.0.20260810.23.tar";
+        sha256 = "0nb6896bgg1c1nnmp047sc02sh9x50s60n6pbf8kz4aphydjgxvg";
       };
       packageRequires = [ peg ];
       meta = {
@@ -4611,10 +4611,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1.0.20260805.106";
+      version = "1.26.1.0.20260810.112";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20260805.106.tar";
-        sha256 = "1qad88kb0krmw7ck91q8fsc3vvzm9gdyk10xnys7sms0648mcqay";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.26.1.0.20260810.112.tar";
+        sha256 = "0kiwqrm4hp231s19k5llkpkqz1ls71sj6f43nqa0cjwggpgbipcj";
       };
       packageRequires = [ ];
       meta = {
@@ -4696,10 +4696,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.4.0snapshot0.20260810.39";
+      version = "3.5.0snapshot0.20260810.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.4.0snapshot0.20260810.39.tar";
-        sha256 = "16la6a9fy0f2q9jwv3g9zf05xvbbzxa84siy6pcb6kq19p3j9rix";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260810.0.tar";
+        sha256 = "0yslghsjh25m567dh8dx08b46vmyayq5m26kk6aifh17bn79kx04";
       };
       packageRequires = [ compat ];
       meta = {
