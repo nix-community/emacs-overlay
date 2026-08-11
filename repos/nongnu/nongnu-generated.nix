@@ -2278,10 +2278,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.33.1";
+      version = "0.33.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/geiser-0.33.1.tar";
-        sha256 = "0mh701hp587ahiqf0znnc4jm46i49z85nwac4bxn7sxxjid3xffl";
+        url = "https://elpa.nongnu.org/nongnu/geiser-0.33.2.tar";
+        sha256 = "0qgkdz0jb5ra322pvpjfg4xps6jyv8pw052ay1gi6hmxiz4pn6jm";
       };
       packageRequires = [ project ];
       meta = {
@@ -4641,6 +4641,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/php-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  pinyin-isearch = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "pinyin-isearch";
+      ename = "pinyin-isearch";
+      version = "1.7.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/pinyin-isearch-1.7.0.tar";
+        sha256 = "0dg1mbxm0hq0y528ypsdzadnmnpn57pv7jk0sykz26zjx7d8i8g6";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/pinyin-isearch.html";
         license = lib.licenses.free;
       };
     }

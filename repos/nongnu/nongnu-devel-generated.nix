@@ -2260,10 +2260,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.33.1.0.20260727.7";
+      version = "0.33.2.0.20260810.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.1.0.20260727.7.tar";
-        sha256 = "0ilmj01mg917a0ysimg31inpv0vl98splqshd3vkp0yiccwd7h17";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.2.0.20260810.0.tar";
+        sha256 = "0c4padymc9qyc2pyfvp8d0r8mw8v8rn2zd5qbwcss1fy0749whaw";
       };
       packageRequires = [ project ];
       meta = {
@@ -2934,10 +2934,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260808.43";
+      version = "4.0.7.0.20260811.46";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260808.43.tar";
-        sha256 = "1h58jirq63y7lbal3i82vhx099gfgxczxdsigvfxm55aw67ax2g8";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260811.46.tar";
+        sha256 = "1zzhawm91bggmijavy0b9fazxicjxc32b0q1gac8mip4x4xvs2rs";
       };
       packageRequires = [
         helm-core
@@ -2959,10 +2959,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260808.43";
+      version = "4.0.7.0.20260811.46";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260808.43.tar";
-        sha256 = "1kjsfmjz9wwmmf6rxwvccffm5fqsz8327k4dyjxpdqw2j2hx03vb";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260811.46.tar";
+        sha256 = "1c04kci38him655gim9b6w96bw03vm9kfadvx1kn27acdi7k4397";
       };
       packageRequires = [ async ];
       meta = {
@@ -4623,6 +4623,27 @@
       };
     }
   ) { };
+  pinyin-isearch = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "pinyin-isearch";
+      ename = "pinyin-isearch";
+      version = "1.7.0.0.20260718.9";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.0.0.20260718.9.tar";
+        sha256 = "0z76nb0lv4a4qmvj30xjvh7zln0k8d02x67adpjq7w14r738cvbk";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   popon = callPackage (
     {
       elpaBuild,
@@ -4696,10 +4717,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.5.0snapshot0.20260810.0";
+      version = "3.5.0snapshot0.20260811.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260810.0.tar";
-        sha256 = "0yslghsjh25m567dh8dx08b46vmyayq5m26kk6aifh17bn79kx04";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260811.3.tar";
+        sha256 = "1p7bx47zwlnwzpn7rcfxfql9cii3s57zsfvwxkcpzchr1w0krwrm";
       };
       packageRequires = [ compat ];
       meta = {
