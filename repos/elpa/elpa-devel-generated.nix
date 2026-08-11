@@ -2010,10 +2010,10 @@
     elpaBuild {
       pname = "dash";
       ename = "dash";
-      version = "2.20.0.0.20260221.134621";
+      version = "2.20.0.0.20260810.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dash-2.20.0.0.20260221.134621.tar";
-        sha256 = "09829jmfnlchyqqmisiy6j4jkzm8vv05mmzyyfhm6vy0rymfxdc0";
+        url = "https://elpa.gnu.org/devel/dash-2.20.0.0.20260810.9.tar";
+        sha256 = "0n7247cs8zsqxkf3b7my238sz3l1aqjkgxqy5q43xb91iflvr2b5";
       };
       packageRequires = [ ];
       meta = {
@@ -2101,10 +2101,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20260729.11";
+      version = "4.2.3.0.20260810.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20260729.11.tar";
-        sha256 = "0i8m15ilqf9hnbvdbvdi85lfgj491v7dx0rkfwjz2vlq2b7r7gd5";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20260810.15.tar";
+        sha256 = "16rvydwwdb0my3w5yj12isyafywvlbj9cc4dxpisr7hnkcfzlyb4";
       };
       packageRequires = [ ];
       meta = {
