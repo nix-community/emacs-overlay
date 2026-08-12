@@ -1509,10 +1509,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "31.0.0.2.0.20260716.2";
+      version = "31.0.0.2.0.20260812.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-31.0.0.2.0.20260716.2.tar";
-        sha256 = "179w1zim5nfj1crvc2qm9ipvwwh2yr9q3rs8wjffcvsfjipnym5d";
+        url = "https://elpa.gnu.org/devel/compat-31.0.0.2.0.20260812.3.tar";
+        sha256 = "04ywblgih2zjypihl8qklxnk07r6mshrv484phwq29rl9wjhd4qr";
       };
       packageRequires = [ ];
       meta = {
@@ -3026,10 +3026,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.24.0.20260807.3";
+      version = "1.24.0.20260811.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260807.3.tar";
-        sha256 = "1fann9i28b7rd9ikz2m7l6c6w0w48c2q22alxmzj42hnqq37s8zp";
+        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260811.4.tar";
+        sha256 = "04bhwriwpb3vd4jbavdk8sj4fpmg154z7ywdvq4iq26wjxp3gf4j";
       };
       packageRequires = [
         eldoc
@@ -3491,10 +3491,10 @@
     elpaBuild {
       pname = "ergoemacs-mode";
       ename = "ergoemacs-mode";
-      version = "5.16.10.12.0.20240828.210215";
+      version = "5.16.10.12.0.20260811.462";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ergoemacs-mode-5.16.10.12.0.20240828.210215.tar";
-        sha256 = "1n87f2si44hyyiy3nj3hr0pjxkjdb419pkybs7vawi27k59dd8rw";
+        url = "https://elpa.gnu.org/devel/ergoemacs-mode-5.16.10.12.0.20260811.462.tar";
+        sha256 = "09q7ilawb0apgf3h2z6fqchz5frpcx7v36hg9qiqin3bql33gdz0";
       };
       packageRequires = [
         cl-lib
@@ -3786,10 +3786,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.5.0.20260702.3";
+      version = "1.4.5.0.20260811.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.5.0.20260702.3.tar";
-        sha256 = "1fddbgjlqkdr6kml7mbwhv1y6imkp5a73v6ynqhr7wkjh65vhryg";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.5.0.20260811.6.tar";
+        sha256 = "079fzahgrq4vz0fmkk8580dnp6axf9h3k88rdsbppnnxivslwqqz";
       };
       packageRequires = [
         eldoc
@@ -4675,10 +4675,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.1.0.0.20260811.13";
+      version = "9.1.0.0.20260812.14";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260811.13.tar";
-        sha256 = "0z4sdwplxz458wv2sb6v29yichf8mrg60by1l7sxyx76rdjfm85f";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260812.14.tar";
+        sha256 = "11whwka53914ynjv3n57cdmkfiv56j0gi2a45kqmnr9z3aszbjlg";
       };
       packageRequires = [ ];
       meta = {
