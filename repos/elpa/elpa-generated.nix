@@ -3133,10 +3133,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.31.0";
+      version = "1.32.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.31.0.tar";
-        sha256 = "14haiqm3x0dys8jynl56qizl3ymr6h2y6b9a467yl9ac2lfpkxk3";
+        url = "https://elpa.gnu.org/packages/ellama-1.32.1.tar";
+        sha256 = "1j24ksrc7nhfzj7y3mg671c3zm0dvb4c5ximfa8niw4knajlhjw7";
       };
       packageRequires = [
         compat
