@@ -20108,6 +20108,20 @@
    ],
    "commit": "adbb48802a2b000df2340dc0a1b51396c0b0c0c3",
    "sha256": "1l1pdjbpxjp36b40cssx915d62f9gnlrr1wcg1hrdsybr8lawnxv"
+  },
+  "stable": {
+   "version": [
+    1,
+    1,
+    0
+   ],
+   "deps": [
+    "consult",
+    "transient",
+    "ts"
+   ],
+   "commit": "adbb48802a2b000df2340dc0a1b51396c0b0c0c3",
+   "sha256": "1l1pdjbpxjp36b40cssx915d62f9gnlrr1wcg1hrdsybr8lawnxv"
   }
  },
  {
@@ -25925,11 +25939,11 @@
   "repo": "ideasman42/emacs-diff-at-point",
   "unstable": {
    "version": [
-    20251216,
-    111
+    20260813,
+    359
    ],
-   "commit": "9c1617f0fba88c1f7daef78276c86d4447c99d48",
-   "sha256": "0hczq10isqzvj8p4vdxp51pd5698lqwzrnqyjdqiq048h7clsr2b"
+   "commit": "5cdfc8fdefc9fd041eab364c9cdeb3db12f79469",
+   "sha256": "0ypk7da5872xch2hnwp69ghhyzpk0sp8ycw30fvk69nws8w7wd6s"
   }
  },
  {
@@ -34303,8 +34317,8 @@
   "stable": {
    "version": [
     1,
-    31,
-    0
+    32,
+    1
    ],
    "deps": [
     "compat",
@@ -34313,8 +34327,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "5d32a48a8d1797fec776ba56279dc99dd58f399a",
-   "sha256": "1q739dpljnn2wbkfnd9rckr3jfnjm17ib1y6l2jfyx0kbjm6xzbi"
+   "commit": "a86e9154ae88907d3de2710195810cda986ef0d8",
+   "sha256": "0pdfpark9r45cx17j9lyfs5r5sgg8a96lf0f58px84zgwb4sbhhc"
   }
  },
  {
@@ -85055,11 +85069,11 @@
   "repo": "ideasman42/emacs-mode-line-idle",
   "unstable": {
    "version": [
-    20260106,
-    30
+    20260813,
+    307
    ],
-   "commit": "4af21d0edf553c7f6c0ced61295bd402d6f3283a",
-   "sha256": "0466b4r85jz5ck3pwr4sl3s8w7a2jg5liacamkwxxdxzl4hlk87v"
+   "commit": "0db11cad15c320d189f2552a7045489b90d862c7",
+   "sha256": "1bh5fs55mgmpnml8im0bi99w56pk6ivw59xvp7i91lbil3qkan89"
   }
  },
  {
@@ -95071,11 +95085,11 @@
   "repo": "drghirlanda/org-change",
   "unstable": {
    "version": [
-    20260804,
-    1808
+    20260812,
+    2351
    ],
-   "commit": "0ad1a79934627eb40dbde1ff8c3dad9b8e790f16",
-   "sha256": "0nfpc5433s5jhf545f9lm2jrc1k2xyzadm7znhifk8njy1mapwnx"
+   "commit": "567858fdf8f8966811bf9737ca5927c2597c1332",
+   "sha256": "009afd2nasqlawrakl20r83pjj5k4hsda8ipc9sa55k8n5kqs8qr"
   }
  },
  {
@@ -121570,14 +121584,14 @@
   "repo": "vapniks/simple-call-tree",
   "unstable": {
    "version": [
-    20260321,
-    1821
+    20260813,
+    19
    ],
    "deps": [
     "anaphora"
    ],
-   "commit": "e25817d4ee692ec32b637dfc5c0989aa7ada546d",
-   "sha256": "0dim6sijl8g5asbjm04420rnjiz7vxgv1x9q7m9r61x3v3cnpcm0"
+   "commit": "2365b14457340548529ad86728b52ba4bb2460e2",
+   "sha256": "04g80g01lin3vrmrzl11i4and0qpbczsg9s76cdwhkix4fcfpr6n"
   }
  },
  {
