@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260811.61";
+      version = "14.1.2.0.20260812.62";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260811.61.tar";
-        sha256 = "1cr5dcacl9x712kcrld6vvglp1jh9a1rzl9b8vk62qwdd85qg82i";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260812.62.tar";
+        sha256 = "1zxhypmyvdva434gl668pc1s6brqih9wvvgbza5iq7cns6k1psx7";
       };
       packageRequires = [ ];
       meta = {
@@ -3291,10 +3291,10 @@
     elpaBuild {
       pname = "embark";
       ename = "embark";
-      version = "1.2.0.20260609.21";
+      version = "1.2.0.20260812.23";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-1.2.0.20260609.21.tar";
-        sha256 = "1b4gkqrsjv21gxz6padf27wmzj46rryfy0pp662xf0fz9fab2ngp";
+        url = "https://elpa.gnu.org/devel/embark-1.2.0.20260812.23.tar";
+        sha256 = "09hy15vkw7s27w3prd87naqcgfw80jhfp1ifsfn0llcrkbyi8l7f";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3315,10 +3315,10 @@
     elpaBuild {
       pname = "embark-consult";
       ename = "embark-consult";
-      version = "1.2.0.20260609.20";
+      version = "1.2.0.20260812.22";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/embark-consult-1.2.0.20260609.20.tar";
-        sha256 = "0507mv73swsdymlxqmqx40pr723jlrwmnwiy9qq294ihdk60npgd";
+        url = "https://elpa.gnu.org/devel/embark-consult-1.2.0.20260812.22.tar";
+        sha256 = "1y8pc6v275sifvgz07j8r22fyp92bwvywxwzf4r4g9899d9gdvvp";
       };
       packageRequires = [
         compat
