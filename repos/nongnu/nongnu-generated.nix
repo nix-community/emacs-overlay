@@ -2988,6 +2988,34 @@
       };
     }
   ) { };
+  hermes = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      keymap-popup,
+      lib,
+      markdown-mode,
+      websocket,
+    }:
+    elpaBuild {
+      pname = "hermes";
+      ename = "hermes";
+      version = "0.2.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/hermes-0.2.0.tar";
+        sha256 = "1lvrvb6f2y790zny0x95fc25ndca2id85rwh73zxqvzg1r6p7bcq";
+      };
+      packageRequires = [
+        keymap-popup
+        markdown-mode
+        websocket
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/hermes.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   hideshowvis = callPackage (
     {
       elpaBuild,
@@ -4210,6 +4238,27 @@
       ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/org-drill.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  org-history = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "org-history";
+      ename = "org-history";
+      version = "0.5.2";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/org-history-0.5.2.tar";
+        sha256 = "0fnic45ppibjx5d576s5d3cxh4dc4jc66nxyx9m1b5jxik53a2wx";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/org-history.html";
         license = lib.licenses.free;
       };
     }

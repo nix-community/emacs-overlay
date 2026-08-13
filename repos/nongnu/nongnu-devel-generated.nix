@@ -682,6 +682,34 @@
       };
     }
   ) { };
+  codex-ide = callPackage (
+    {
+      compat,
+      eat,
+      elpaBuild,
+      fetchurl,
+      keymap-popup,
+      lib,
+    }:
+    elpaBuild {
+      pname = "codex-ide";
+      ename = "codex-ide";
+      version = "0.1.0.0.20260806.58";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.1.0.0.20260806.58.tar";
+        sha256 = "0cvp1ddzqn2laz19rfpfx3pd985akz8aqmzkxsaqrm6vkh7r2wbl";
+      };
+      packageRequires = [
+        compat
+        eat
+        keymap-popup
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/codex-ide.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   coffee-mode = callPackage (
     {
       elpaBuild,
@@ -2059,10 +2087,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260811.5";
+      version = "40.0snapshot0.20260813.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260811.5.tar";
-        sha256 = "0vsi6i9d6smib0jly9dg8hrjaln7a2vx5s4c69zkxs00q208gxsf";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260813.6.tar";
+        sha256 = "1xmymx2anbnv0rgszi4my2pm7v8alh8vfh177wz0w9hkl470mrjb";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2967,6 +2995,34 @@
       packageRequires = [ async ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/helm-core.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  hermes = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      keymap-popup,
+      lib,
+      markdown-mode,
+      websocket,
+    }:
+    elpaBuild {
+      pname = "hermes";
+      ename = "hermes";
+      version = "0.2.0.0.20260813.54";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.2.0.0.20260813.54.tar";
+        sha256 = "0jbi4wnffcrvjsx3iynndiqw8zp367zflyndp0ad01j4rayybbkx";
+      };
+      packageRequires = [
+        keymap-popup
+        markdown-mode
+        websocket
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/hermes.html";
         license = lib.licenses.free;
       };
     }
@@ -4188,6 +4244,27 @@
       ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/org-drill.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  org-history = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "org-history";
+      ename = "org-history";
+      version = "0.5.2.0.20260803.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/org-history-0.5.2.0.20260803.0.tar";
+        sha256 = "1bna709cwy3k8xjvcqcbfy7a5mprw21fhjm61l2ngxjhylp8792b";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/org-history.html";
         license = lib.licenses.free;
       };
     }
