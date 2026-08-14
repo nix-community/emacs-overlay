@@ -3011,10 +3011,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.2.1.0.20260813.1";
+      version = "0.3.0.0.20260814.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.2.1.0.20260813.1.tar";
-        sha256 = "0nyqk5lz91rdygj36b4blv10id1vyk5v1lz1zq1dbnvqyww95ash";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.0.0.20260814.0.tar";
+        sha256 = "1wz92q49gwsln5ppy8xinc2ciyj70nl6x5bqbfahz39wg05j1v4j";
       };
       packageRequires = [
         keymap-popup
@@ -3767,10 +3767,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.7.0.0.20260807.2";
+      version = "4.7.0.0.20260813.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.0.0.20260807.2.tar";
-        sha256 = "03fis84jk3az0iw785hd26laafh42k04lvgdnr4w470g33yfv4y7";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.0.0.20260813.3.tar";
+        sha256 = "0z6krza3njvb95bzd1n677inmk9k7gz75gmm959y3099hbsrdc04";
       };
       packageRequires = [
         compat
