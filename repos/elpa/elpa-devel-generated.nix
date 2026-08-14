@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.12.0.20260811.7";
+      version = "2.13.0.20260813.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.12.0.20260811.7.tar";
-        sha256 = "0830wa4dm8i73679z8lx81r81mvpzczns8d8357jzp99isgx96zm";
+        url = "https://elpa.gnu.org/devel/corfu-2.13.0.20260813.0.tar";
+        sha256 = "0k8pywrrhyvdgpqlrg9sw3bb1wmlgxfhf7j92d937gcmwzj12px8";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2998,10 +2998,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.2.0.0.20260621.0";
+      version = "2.2.0.0.20260813.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.2.0.0.20260621.0.tar";
-        sha256 = "0l4qcn558wwwq29n0kf5ws8xbw834dp5n8kzdn225kg9x6h9a5dd";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.2.0.0.20260813.1.tar";
+        sha256 = "000whb72z2mqp425r6q6wrdcwzpvkclssbb1w1bqz51nfjz5sdbj";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -4007,10 +4007,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "2.0.0.20260809.0";
+      version = "2.0.0.20260813.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-2.0.0.20260809.0.tar";
-        sha256 = "198i3pf4m29ryhp3101h3ay096lfqzzyrvlh9k5scw768smv102h";
+        url = "https://elpa.gnu.org/devel/futur-2.0.0.20260813.1.tar";
+        sha256 = "10jrpav3agiywwbpal7fr3bxg4wi6rf8c93mj4j2clzn0g1vq9bm";
       };
       packageRequires = [ ];
       meta = {
@@ -5094,10 +5094,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.9.0.20260811.4";
+      version = "2.10.0.20260813.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.9.0.20260811.4.tar";
-        sha256 = "13kyjg5sxywhmpx66fqy35xnq6p3g1skzny03x0w7i5q1gsa78gy";
+        url = "https://elpa.gnu.org/devel/jinx-2.10.0.20260813.1.tar";
+        sha256 = "1yxnfs8q4nn9cx06hzyhrccdzd3mlicrnsfgrs8wfcsqpd0fzqz6";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6158,10 +6158,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.9.0.0.20260813.9";
+      version = "0.9.0.0.20260813.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.9.0.0.20260813.9.tar";
-        sha256 = "1dm9fnay61cci2siz5hz18zwxpj3drbl67ncv6yj3n4977ag7pnh";
+        url = "https://elpa.gnu.org/devel/minuet-0.9.0.0.20260813.10.tar";
+        sha256 = "197dvrql94d9gnwq633993qlkrhp690nrhg14c09j13d5zcznx99";
       };
       packageRequires = [
         dash
@@ -6225,10 +6225,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260811.30";
+      version = "5.3.0.0.20260813.31";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260811.30.tar";
-        sha256 = "0vmcfx0mlzbrq7rpypx55yy3cx8ic6x88603sk536ix3k0bhmm4m";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260813.31.tar";
+        sha256 = "1id2fim3zc5ksld3s6crjg69z5a4fykgjff19gfq96frasjpj9q9";
       };
       packageRequires = [ ];
       meta = {
@@ -6802,10 +6802,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.3.0.20260221.85240";
+      version = "1.3.0.20260813.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.3.0.20260221.85240.tar";
-        sha256 = "1kvz0lhcq7mscraqb1np2r6sh8hincxr5k2n1iz037x8w5wdfqh9";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.3.0.20260813.7.tar";
+        sha256 = "0ijpclrc4ipsv9knm4k08qkvpx92pr8ynmr8jjx9srrk66wgps26";
       };
       packageRequires = [ org ];
       meta = {

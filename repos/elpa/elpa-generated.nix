@@ -1662,10 +1662,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.12";
+      version = "2.13";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/corfu-2.12.tar";
-        sha256 = "02d1qpnpcc7pqa4lq8ynwvn2bklgylnndqv9amx5qdkr01gbg214";
+        url = "https://elpa.gnu.org/packages/corfu-2.13.tar";
+        sha256 = "0dbgypbrqwc33dhncgmf7wqxh7895llrswgqqp7x5hzigib02ydn";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5008,10 +5008,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.9";
+      version = "2.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jinx-2.9.tar";
-        sha256 = "028f8vypa1dkrjbkwgdg7ijb1yqiwgg35yylykipdcy0acyphawa";
+        url = "https://elpa.gnu.org/packages/jinx-2.10.tar";
+        sha256 = "0pxk67m4bzw18cdlw8iq6jf0zv3n876rwf6qc684a9z28g644ldv";
       };
       packageRequires = [ compat ];
       meta = {
