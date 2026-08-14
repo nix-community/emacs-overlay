@@ -2183,27 +2183,27 @@
   "unstable": {
    "version": [
     20260814,
-    722
+    912
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "fb187b3953ae0b87e6810ea06105e631ac30ae0c",
-   "sha256": "0337zsdjkhqfvj1vwqy956q9qysnwc30gq9p7snrw4hrkx1vfhy0"
+   "commit": "5afffb8ba9bc89137ce1f6c14b533a5e37c9b9ab",
+   "sha256": "075cfqaplsscykqbmcn0rx865vwx6p017z5wl7snk15r074zccg1"
   },
   "stable": {
    "version": [
     0,
-    72,
-    2
+    73,
+    1
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "dcf8688d53a72c7867b47793485877fc539811ab",
-   "sha256": "142b4a9nslhlm78a7zjd67c5a1j24v5f7xpnhcb6vxfxjkc8rw8d"
+   "commit": "048d17fc59f9b980ad77186758f05f8bfb9987cb",
+   "sha256": "083h0cxcm6x6d8vrnrkmjrsblc8cdvk3y9br0qql8dw0zwam6v6q"
   }
  },
  {
@@ -2396,14 +2396,14 @@
   "stable": {
    "version": [
     1,
-    900
+    930
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "0a7839ccc93f9769a27aa382da581518bcbf7390",
-   "sha256": "14dfcwv0zb4hv15az1vwg6xvznxli8hfyjhl3s9g3f2l3qp5rqxf"
+   "commit": "9d046a302c2902fa819d988309078361a6aef9fe",
+   "sha256": "14lqydhr1jv5syc1hwkgg0nj5c9jqm1w4cahma8sk0wfkal3s1mk"
   }
  },
  {
@@ -33384,13 +33384,13 @@
   "unstable": {
    "version": [
     20260814,
-    819
+    1136
    ],
    "deps": [
     "compat"
    ],
-   "commit": "e534116b54e4bb57227c8b4d404037ec2c4e55f1",
-   "sha256": "0cz8ilkb8n8zfjqlnbnsnj4qibsf3imm33z2f592hw1g3h9kzm5m"
+   "commit": "a901e326e52f46e619450a7802cf4903b87d0b7e",
+   "sha256": "0pr3v2498kgi4al51v38zgbbak40i1j8mqs9mwhmll2jcd2n7vf7"
   },
   "stable": {
    "version": [
@@ -46137,14 +46137,14 @@
   "repo": "emacs-languagetool/flycheck-languagetool",
   "unstable": {
    "version": [
-    20260731,
-    1347
+    20260814,
+    1228
    ],
    "deps": [
     "flycheck"
    ],
-   "commit": "28b376e4337c93149fb2620001afb284d739ce94",
-   "sha256": "030i40pxxvc036qqa9blcghr3jzqkg6xyy37a47xd0cyqb1vw7pj"
+   "commit": "722071e6c49331cc2c9ee14ed9f228dd6ac489d9",
+   "sha256": "15my1ysm1vd09vfm2ksn2cgsl5cw12pfkla202j4423g28m3b4yv"
   },
   "stable": {
    "version": [
@@ -76408,21 +76408,20 @@
   "repo": "emacs-rime/liberime",
   "unstable": {
    "version": [
-    20260812,
-    1115
+    20260814,
+    1041
    ],
-   "commit": "f805e3bf7ba1e809939a3fe059dd112f8167e849",
-   "sha256": "120p25mfbap44hmxcmb7jczhzxv75x3v4ilq5rjm4vh131mwqr08"
+   "commit": "24b0f2e9f535af305767f56a417532b8165eaea8",
+   "sha256": "1hwmj0alairvs8p2caiswghlnw3j3xa24nxa2d9m6kph89x9p85p"
   },
   "stable": {
    "version": [
     0,
     0,
-    10,
-    1
+    11
    ],
-   "commit": "8e52f3128e553a9b0cf270ead5c8cca4de2dd0d8",
-   "sha256": "0mq106yppl9kkqfyvbxma4d9k88bqpvwk6b6lcyr8kmkd2bd6n8f"
+   "commit": "24b0f2e9f535af305767f56a417532b8165eaea8",
+   "sha256": "1hwmj0alairvs8p2caiswghlnw3j3xa24nxa2d9m6kph89x9p85p"
   }
  },
  {
@@ -83395,11 +83394,11 @@
   "url": "https://git.andros.dev/andros/meshmonitor-chat.el.git",
   "unstable": {
    "version": [
-    20260810,
-    1354
+    20260814,
+    942
    ],
-   "commit": "b7c1dcc95935f4b28b066347ea5d318bbe721298",
-   "sha256": "14v78k6la2nj1bff3zcvxwgw0mrg91xv10fxwdw39hi5fkl6yvpz"
+   "commit": "398a33e0cece33a1ca978d98497bef9bd9013f8d",
+   "sha256": "1xiysf173my1gi55w3mynldsi2i65748l20sv0cacdd2jlnxikb7"
   }
  },
  {
@@ -84444,28 +84443,28 @@
   "repo": "milanglacier/minuet-ai.el",
   "unstable": {
    "version": [
-    20260813,
-    756
+    20260814,
+    654
    ],
    "deps": [
     "dash",
     "plz"
    ],
-   "commit": "9e7a7952dcf3e69f70e632530b13ccb245e449a1",
-   "sha256": "16r2irai69lwq8lyk1ypyig1f3a6nnabipmcglfizg36q5h46lvz"
+   "commit": "2c566377d580ee678d661e0638c916776f62a424",
+   "sha256": "1njcas08p54h2l1r22wgdf09sw1r9ymc5gxg96kkwj3ghcs71yv4"
   },
   "stable": {
    "version": [
     0,
-    9,
+    10,
     0
    ],
    "deps": [
     "dash",
     "plz"
    ],
-   "commit": "d83e647b0a4e35b79dec4d879e280dc17bb809c8",
-   "sha256": "0vdk4c0zh3957gsq7630wir0xn92rbn32bvcg7fy0wqkqddfjsys"
+   "commit": "2c566377d580ee678d661e0638c916776f62a424",
+   "sha256": "1njcas08p54h2l1r22wgdf09sw1r9ymc5gxg96kkwj3ghcs71yv4"
   }
  },
  {
@@ -116403,14 +116402,14 @@
   "repo": "emacs-rime/rimel",
   "unstable": {
    "version": [
-    20260730,
-    1007
+    20260814,
+    1139
    ],
    "deps": [
     "liberime"
    ],
-   "commit": "4fbc1977713704c7fe452195b377bc67e5de846a",
-   "sha256": "1kmg7iggg35hxm3x7d3975vspmvhdf1hmfl9c3pisha9fkpjvbqx"
+   "commit": "7b2d967f4230ececbf7b34477c9db71ca5b0104d",
+   "sha256": "1xqp8z348rpg2b8yh09lb4ib0h4fs8fnb6fr92d8lb63cbw3wkbk"
   },
   "stable": {
    "version": [
@@ -138441,15 +138440,15 @@
   "repo": "d12frosted/vulpea-ui",
   "unstable": {
    "version": [
-    20260812,
-    917
+    20260814,
+    635
    ],
    "deps": [
     "vui",
     "vulpea"
    ],
-   "commit": "d0068de942cc750cd4f3e7b00627bf5cc68a2d0d",
-   "sha256": "1hdhxq04ryks53czzim8mimlxv9hm7k3p7ryi3iarypdmhf7nwm8"
+   "commit": "f04426c60a4b1b3375f095c72a89fa8096f35785",
+   "sha256": "0kp0pld7m5l0gcn073nwjvf6sl10xqmq3a205xv8ailnhfn0n7n7"
   },
   "stable": {
    "version": [
