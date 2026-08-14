@@ -682,6 +682,34 @@
       };
     }
   ) { };
+  codex-ide = callPackage (
+    {
+      compat,
+      eat,
+      elpaBuild,
+      fetchurl,
+      keymap-popup,
+      lib,
+    }:
+    elpaBuild {
+      pname = "codex-ide";
+      ename = "codex-ide";
+      version = "0.1.1";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/codex-ide-0.1.1.tar";
+        sha256 = "0xbf3wvsli4vpynr8rn21d2zg9scd0h3cgy98hid2gw6s1hzihvz";
+      };
+      packageRequires = [
+        compat
+        eat
+        keymap-popup
+      ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/codex-ide.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   coffee-mode = callPackage (
     {
       cl-lib ? null,
@@ -3000,10 +3028,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.2.0";
+      version = "0.2.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hermes-0.2.0.tar";
-        sha256 = "1lvrvb6f2y790zny0x95fc25ndca2id85rwh73zxqvzg1r6p7bcq";
+        url = "https://elpa.nongnu.org/nongnu/hermes-0.2.1.tar";
+        sha256 = "08j6n0ppddd6h5lf79hbd50am4d079bgxw96chb6fb9d3sbvmjfl";
       };
       packageRequires = [
         keymap-popup

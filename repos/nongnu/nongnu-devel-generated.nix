@@ -694,10 +694,10 @@
     elpaBuild {
       pname = "codex-ide";
       ename = "codex-ide";
-      version = "0.1.0.0.20260806.58";
+      version = "0.1.1.0.20260813.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.1.0.0.20260806.58.tar";
-        sha256 = "0cvp1ddzqn2laz19rfpfx3pd985akz8aqmzkxsaqrm6vkh7r2wbl";
+        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.1.1.0.20260813.0.tar";
+        sha256 = "1i0kh9xa3rpv1vir4gnxs8izvmfqws29lig8w030l9s45ck39661";
       };
       packageRequires = [
         compat
@@ -1335,10 +1335,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.1.1.0.20260812.3";
+      version = "4.1.1.0.20260813.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.1.1.0.20260812.3.tar";
-        sha256 = "1h188j5yn2sdh93jn4j1fvaahwdarixi6a87fc5hyafzxwa7gbjf";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.1.1.0.20260813.6.tar";
+        sha256 = "0aycdc9ipxy7a125i6d7k7k7lxins00kbah2ka4rf2bgwzkd0inh";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3011,10 +3011,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.2.0.0.20260813.54";
+      version = "0.2.1.0.20260813.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.2.0.0.20260813.54.tar";
-        sha256 = "0jbi4wnffcrvjsx3iynndiqw8zp367zflyndp0ad01j4rayybbkx";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.2.1.0.20260813.1.tar";
+        sha256 = "0nyqk5lz91rdygj36b4blv10id1vyk5v1lz1zq1dbnvqyww95ash";
       };
       packageRequires = [
         keymap-popup
@@ -4794,10 +4794,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.5.0snapshot0.20260811.3";
+      version = "3.5.0snapshot0.20260813.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260811.3.tar";
-        sha256 = "1p7bx47zwlnwzpn7rcfxfql9cii3s57zsfvwxkcpzchr1w0krwrm";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260813.4.tar";
+        sha256 = "17adashz6c2xxcb4dniw00i1sc5hvnpnbk9fqlqnc8hra7il7sa1";
       };
       packageRequires = [ compat ];
       meta = {
