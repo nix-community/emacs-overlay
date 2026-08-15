@@ -27,7 +27,7 @@ let
 
               # fixes segfaults that only occur on aarch64-linux (#264)
               configureFlags = old.configureFlags ++
-                               super.lib.optionals (super.stdenv.isLinux && super.stdenv.isAarch64)
+                               super.lib.optionals (super.stdenv.hostPlatform.isLinux && super.stdenv.hostPlatform.isAarch64)
                                  [ "--enable-check-lisp-object-type" ];
 
               postPatch = old.postPatch + ''
