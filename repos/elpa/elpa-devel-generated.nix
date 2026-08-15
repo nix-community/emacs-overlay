@@ -3786,10 +3786,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.5.0.20260811.6";
+      version = "1.4.5.0.20260814.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.5.0.20260811.6.tar";
-        sha256 = "079fzahgrq4vz0fmkk8580dnp6axf9h3k88rdsbppnnxivslwqqz";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.5.0.20260814.7.tar";
+        sha256 = "0smi642y4b654b8fbl8wrjlq1x102x15ys30fj32x72pbv90vnn3";
       };
       packageRequires = [
         eldoc
@@ -5266,10 +5266,10 @@
     elpaBuild {
       pname = "kiwix";
       ename = "kiwix";
-      version = "1.1.5.0.20220316.84759";
+      version = "1.1.5.0.20260815.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kiwix-1.1.5.0.20220316.84759.tar";
-        sha256 = "0pi543y1gzkhi9chzwfmp9is8jnp31wx69m9355afrvxdncq6gna";
+        url = "https://elpa.gnu.org/devel/kiwix-1.1.5.0.20260815.16.tar";
+        sha256 = "10s1654wjky8id5d1phddllw1a5xpr2z6713rcdqkhq29bkav5sf";
       };
       packageRequires = [ request ];
       meta = {
@@ -5514,10 +5514,10 @@
     elpaBuild {
       pname = "lisp-ts-mode";
       ename = "lisp-ts-mode";
-      version = "0.3.2.0.20260731.0";
+      version = "0.3.3.0.20260814.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.3.2.0.20260731.0.tar";
-        sha256 = "0l9g2jcij18cv7gbs40f26pna8g0p0ylzq6rgriz5a1jp2yz2knh";
+        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.3.3.0.20260814.0.tar";
+        sha256 = "14y5wgn1lcffnf6gjd0haqlbh50kcy95wsg880dpp1x6cza4mhgv";
       };
       packageRequires = [
         compat
@@ -9630,10 +9630,10 @@
     elpaBuild {
       pname = "tempel";
       ename = "tempel";
-      version = "1.14.0.20260811.2";
+      version = "1.14.0.20260814.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tempel-1.14.0.20260811.2.tar";
-        sha256 = "1x2ndmr7sj1kk8mc7dvgj15s6cb0pfpk93wxw8pqhsm8xpwp58yc";
+        url = "https://elpa.gnu.org/devel/tempel-1.14.0.20260814.3.tar";
+        sha256 = "0s0p192mpxihsqa3vxiidqk237p02sx192w61csxc05mjjbwhbx2";
       };
       packageRequires = [ compat ];
       meta = {
