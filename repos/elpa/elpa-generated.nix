@@ -2931,10 +2931,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.2.0";
+      version = "2.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ef-themes-2.2.0.tar";
-        sha256 = "0jm3hqg53cq0dfvmszmwzwrfi9n2mgdbz176qzxhjqm16rw2bwds";
+        url = "https://elpa.gnu.org/packages/ef-themes-2.2.1.tar";
+        sha256 = "1wf4836jd22qx37aw716nba31w2z8ya2hmv5c4jvwhd78bffmajm";
       };
       packageRequires = [ modus-themes ];
       meta = {
