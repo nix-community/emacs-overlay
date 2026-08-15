@@ -3028,10 +3028,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.3.0";
+      version = "0.3.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hermes-0.3.0.tar";
-        sha256 = "0drlvyhswd883rsckzixwic0i81zanp0zikxwh53f60s9z03h6nc";
+        url = "https://elpa.nongnu.org/nongnu/hermes-0.3.1.tar";
+        sha256 = "0q5kn3yz68m8gl8zl394mydx6az3v5i8sdw49c6si9pcnd1mk31f";
       };
       packageRequires = [
         keymap-popup
