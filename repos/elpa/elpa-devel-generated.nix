@@ -3468,10 +3468,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.7snapshot0.20260815.24";
+      version = "5.7snapshot0.20260816.25";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.7snapshot0.20260815.24.tar";
-        sha256 = "0sm9jka9iyd2vl4jxfspfrxzqsjv1n1bm1l05k594r3vs4jnsnwi";
+        url = "https://elpa.gnu.org/devel/erc-5.7snapshot0.20260816.25.tar";
+        sha256 = "04mybjs6pg7f1iaznlzqwjnd2sf4qmghqwkqdxfk2y0yiq6r5016";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3786,10 +3786,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.6.0.20260815.7";
+      version = "1.4.6.0.20260816.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.6.0.20260815.7.tar";
-        sha256 = "1lar6iz598dawpiglc78qc7zs2x2pl7lsp8jkl7ccl0av1f62w9v";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.6.0.20260816.8.tar";
+        sha256 = "0marv35ajac3m69ylwfalfs7kmqxari2i4m989c6xcdnwp81p7hb";
       };
       packageRequires = [
         eldoc
@@ -8974,10 +8974,10 @@
     elpaBuild {
       pname = "so-long";
       ename = "so-long";
-      version = "1.1.2.0.20260101.125434";
+      version = "1.1.2.0.20260816.24";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/so-long-1.1.2.0.20260101.125434.tar";
-        sha256 = "060z86ks3dckap8wppyalh7c75d125jw3np4khya1974sw58wfrm";
+        url = "https://elpa.gnu.org/devel/so-long-1.1.2.0.20260816.24.tar";
+        sha256 = "1fnaglqs73x4q05hwc7xm9hv7w4k7544chqwcaa04g8qsjsb931w";
       };
       packageRequires = [ ];
       meta = {
@@ -10600,10 +10600,10 @@
     elpaBuild {
       pname = "verilog-mode";
       ename = "verilog-mode";
-      version = "2026.4.14.10117132.0.20260621.0";
+      version = "2026.4.14.10117132.0.20260816.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/verilog-mode-2026.4.14.10117132.0.20260621.0.tar";
-        sha256 = "1c5jkwxv3bpc9mpsbja9dzycz8zpccsjc7wg5ws5zxlzqbi2p46q";
+        url = "https://elpa.gnu.org/devel/verilog-mode-2026.4.14.10117132.0.20260816.1.tar";
+        sha256 = "0hh06k0aa9f47y4ril1c6yifwilqzi74pfw9hnkmqiyzwj3r7sx7";
       };
       packageRequires = [ ];
       meta = {
