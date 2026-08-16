@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.11.0.20260804.5";
+      version = "1.12.0.20260816.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.11.0.20260804.5.tar";
-        sha256 = "1aj0f19hxcqk6z69jxamfvq1kj5s9g6pvf5r6bfxsdmb79gwnp0l";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.12.0.20260816.0.tar";
+        sha256 = "0hyxv4jy24hs213sdpq5a6rjllhwi96ahmy82k1y1fc7f3b38y9d";
       };
       packageRequires = [
         compat
@@ -1335,10 +1335,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.1.1.0.20260815.40";
+      version = "4.1.1.0.20260815.42";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.1.1.0.20260815.40.tar";
-        sha256 = "1785r7qw2il6chyksdsvh7fl76mlwjywvrmz334dhh4r7aqma15q";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.1.1.0.20260815.42.tar";
+        sha256 = "001kfq6wvmx7xybxa6q4b8jw7i8mjnjnsrmy1j4q1f4233wnbn7p";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3011,10 +3011,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.3.1.0.20260815.6";
+      version = "0.3.1.0.20260816.16";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.1.0.20260815.6.tar";
-        sha256 = "12i9fgz2irdrfadmx7hbbidj413sg452z10vm17ay4jjszys7amg";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.1.0.20260816.16.tar";
+        sha256 = "0p65srfsyy7gnbgyil16dk6zs3rh2vi0nfypzg56shp6xn098gg8";
       };
       packageRequires = [
         keymap-popup
@@ -3405,10 +3405,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.13.1.0.20260810.1";
+      version = "0.13.1.0.20260816.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.1.0.20260810.1.tar";
-        sha256 = "1b7z601w18nf2gqmwflzyxwh5aa97l7w797y9n1qykzqk04zzwhh";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.1.0.20260816.3.tar";
+        sha256 = "156d2nvwanf0zzj078hrrn7m5rcc995b6mklhqzsxip390il3yqz";
       };
       packageRequires = [
         fsm
