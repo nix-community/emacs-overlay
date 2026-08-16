@@ -3026,10 +3026,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.24.0.20260811.4";
+      version = "1.24.0.20260815.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260811.4.tar";
-        sha256 = "04bhwriwpb3vd4jbavdk8sj4fpmg154z7ywdvq4iq26wjxp3gf4j";
+        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260815.11.tar";
+        sha256 = "1kd32zlnhrhjaqmiw394sdfcp6qkgwdvqfjskzn7pbsvisbgw0jl";
       };
       packageRequires = [
         eldoc
@@ -3468,10 +3468,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.7snapshot0.20260807.22";
+      version = "5.7snapshot0.20260815.24";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.7snapshot0.20260807.22.tar";
-        sha256 = "156xayvxdywkl0z7fbq55nbx80g86f1qzqc803wc0zl1i1s55v63";
+        url = "https://elpa.gnu.org/devel/erc-5.7snapshot0.20260815.24.tar";
+        sha256 = "0sm9jka9iyd2vl4jxfspfrxzqsjv1n1bm1l05k594r3vs4jnsnwi";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3786,10 +3786,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.5.0.20260814.7";
+      version = "1.4.6.0.20260815.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.5.0.20260814.7.tar";
-        sha256 = "0smi642y4b654b8fbl8wrjlq1x102x15ys30fj32x72pbv90vnn3";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.6.0.20260815.7.tar";
+        sha256 = "1lar6iz598dawpiglc78qc7zs2x2pl7lsp8jkl7ccl0av1f62w9v";
       };
       packageRequires = [
         eldoc
@@ -4675,10 +4675,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.1.0.0.20260812.14";
+      version = "9.1.0.0.20260815.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260812.14.tar";
-        sha256 = "11whwka53914ynjv3n57cdmkfiv56j0gi2a45kqmnr9z3aszbjlg";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260815.15.tar";
+        sha256 = "0bwzj0vlnz4sd21j3qzk1g1la7m9awfys9kz40cqd9m9w6zwxha6";
       };
       packageRequires = [ ];
       meta = {
@@ -6780,10 +6780,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260809.415";
+      version = "10.0pre0.20260815.423";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260809.415.tar";
-        sha256 = "1alplqqg026r643jzfgcdllg7hxh0nzq649srnck978ghm5afaf1";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260815.423.tar";
+        sha256 = "06bh487igqwwl1cfbixj69hrx0q0alx6qggar9cr2qgkzdaxpfkq";
       };
       packageRequires = [ ];
       meta = {
