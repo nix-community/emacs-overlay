@@ -1335,10 +1335,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.1.1.0.20260814.28";
+      version = "4.1.1.0.20260815.40";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.1.1.0.20260814.28.tar";
-        sha256 = "115nc81m6cfmidpvnghdwfyz6aa7iqz1g8gqslc325rkqrzivhg4";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.1.1.0.20260815.40.tar";
+        sha256 = "1785r7qw2il6chyksdsvh7fl76mlwjywvrmz334dhh4r7aqma15q";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3011,10 +3011,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.3.1.0.20260815.0";
+      version = "0.3.1.0.20260815.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.1.0.20260815.0.tar";
-        sha256 = "01if1abn42y8iggfs0px5jzgvf7xjwskz679f94y2556aph8mhjh";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.1.0.20260815.6.tar";
+        sha256 = "12i9fgz2irdrfadmx7hbbidj413sg452z10vm17ay4jjszys7amg";
       };
       packageRequires = [
         keymap-popup
