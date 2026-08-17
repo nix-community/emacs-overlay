@@ -1284,10 +1284,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.8.0.20260612.0";
+      version = "3.0.8.0.20260817.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.8.0.20260612.0.tar";
-        sha256 = "0w0c30vxqbca8zgj6zql4lxqfj2nz1xh9lcllzz09k2pydki0f4n";
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.8.0.20260817.1.tar";
+        sha256 = "16dkzzkbs77mw226vnfdfk7k49wiy7vavnaw63r6ls3acxgbfrj4";
       };
       packageRequires = [
         eglot
@@ -2087,10 +2087,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260813.6";
+      version = "40.0snapshot0.20260817.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260813.6.tar";
-        sha256 = "1xmymx2anbnv0rgszi4my2pm7v8alh8vfh177wz0w9hkl470mrjb";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260817.7.tar";
+        sha256 = "1r3dg9ksm9nxnm1s4d7nsl010486sifhg8qhlfyqishr54r6rvcn";
       };
       packageRequires = [ seq ];
       meta = {
@@ -4780,6 +4780,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/powershell.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  project-store = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "project-store";
+      ename = "project-store";
+      version = "0.9.0.0.20260816.1";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/project-store-0.9.0.0.20260816.1.tar";
+        sha256 = "0n5y97j4ic6kvayiq1j8vxz1gwl62rfdww12iafrj37gjw63xvyf";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/project-store.html";
         license = lib.licenses.free;
       };
     }
