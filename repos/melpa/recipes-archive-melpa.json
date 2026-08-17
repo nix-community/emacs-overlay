@@ -2383,15 +2383,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260815,
-    1706
+    20260816,
+    2350
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "02d11b03b633c556c825eda54e2d43ab60c3a9bd",
-   "sha256": "0hn4nbly86l15v3i95gq4k9g371bmdfxm5hsix9k7yvlhx9srzps"
+   "commit": "9cf99c953aeba7349ff633da92308ba426501324",
+   "sha256": "0s5sqqbbiy22q122lv3iwb7my4kyqx5llvfbrlsqvybs0pm9hbp7"
   },
   "stable": {
    "version": [
@@ -3799,6 +3799,21 @@
    ],
    "commit": "fcb24fa36287250e40d195590c4ca4a8a696277b",
    "sha256": "18cav5wl3d0yq15273rqmdwvrgw96lmqiq9x5fxhf3wjb543mifl"
+  }
+ },
+ {
+  "ename": "annotated-completing-read",
+  "commit": "3fc54daef702479c1faafc50be0e2b7b4a124e53",
+  "sha256": "1n7q9bsz739nq7lywb7d96nxcvb0dyj8a66sg6g4f9jv0m7kxg5s",
+  "fetcher": "github",
+  "repo": "tychoish/annotated-completing-read",
+  "unstable": {
+   "version": [
+    20260815,
+    2134
+   ],
+   "commit": "eb7a9c7d24b5b900a0d688dacfbfb97ddeb299f1",
+   "sha256": "18csrp7jw8lp9sb0nv9h8hlgyj19j2h05vxg1rw3z663mzmymyjf"
   }
  },
  {
@@ -6264,6 +6279,29 @@
    ],
    "commit": "59d4abce779a3ce3e920592bf5696b54b2e192c7",
    "sha256": "1h8zsgw30axprs7a5kkygbhvilillzazxgqz01ng36il65fi28s6"
+  }
+ },
+ {
+  "ename": "auto-side-windows",
+  "commit": "fa4a6c0d3e91acdf258317e325ad037a472887ec",
+  "sha256": "15q8avh06pxxxpwnz8g6sb22mvmchydsqi5sjgqljqb76djylqhv",
+  "fetcher": "github",
+  "repo": "MArpogaus/auto-side-windows",
+  "unstable": {
+   "version": [
+    20260815,
+    545
+   ],
+   "commit": "af2bfcefeffc2fc46e3660cbd8c1b6bc6790d246",
+   "sha256": "1bbch4f5bvjx8aiaknvfn663prs73m09fw78qmfzqhjl2gds0vjy"
+  },
+  "stable": {
+   "version": [
+    0,
+    2
+   ],
+   "commit": "af2bfcefeffc2fc46e3660cbd8c1b6bc6790d246",
+   "sha256": "1bbch4f5bvjx8aiaknvfn663prs73m09fw78qmfzqhjl2gds0vjy"
   }
  },
  {
@@ -12073,6 +12111,30 @@
   }
  },
  {
+  "ename": "card-games",
+  "commit": "588dd5aa2ca1fde217506d2a5a17136fe037e7f2",
+  "sha256": "12dllgcwx72ljnn1y24dybpx5694yvy2dszmn3x3c9fm5psq15q2",
+  "fetcher": "git",
+  "url": "https://code.bru.st/corwin/card-game.el.git",
+  "unstable": {
+   "version": [
+    20260816,
+    1451
+   ],
+   "commit": "1a5d23d39eb3d7dfcdeabc8e99c2673fd4937434",
+   "sha256": "1hyl53xm4xrq9ny2labgydvpbvn6aj6nmxxpf44pcagbmn2pghz9"
+  },
+  "stable": {
+   "version": [
+    1,
+    0,
+    91
+   ],
+   "commit": "7918daf7ef6ab2ea4d4fc6391e49fde696cb5856",
+   "sha256": "1mwq9q829s13mmy9zlxh5qvi3d5azhsqy8ba089iyvn718rnfmvy"
+  }
+ },
+ {
   "ename": "cargo",
   "commit": "e997b356b009b3d2ab467fe49b79d728a8cfe24b",
   "sha256": "06zq657cxfk5l4867qqsvhskcqc9wswyl030wj27a43idj8n41jx",
@@ -14701,11 +14763,11 @@
   "repo": "parenworks/clatter.el",
   "unstable": {
    "version": [
-    20260815,
-    1459
+    20260816,
+    1814
    ],
-   "commit": "30acda5aa115eaf395a40795cf3b5ed88bd2c2c3",
-   "sha256": "06zq9864z8jzy4y21l4p94fz35q8j7hfihlc9akrbagrslg4gkv2"
+   "commit": "2d662c0740df0692a95baa3ca15400d75f82da64",
+   "sha256": "04r7ykjp4gf5cnjvw684654s75wdv8mjcr4nc2f5h576q5pypqws"
   },
   "stable": {
    "version": [
@@ -18972,11 +19034,11 @@
   "repo": "jamescherti/compile-angel.el",
   "unstable": {
    "version": [
-    20260815,
-    1951
+    20260816,
+    236
    ],
-   "commit": "b16d9e65b62fe7b978c3af65c1188726b2e9e499",
-   "sha256": "1b7cfcp2mk936i20x2rpa1mwz7dv021l93ddhss5cpzwg7i4nssh"
+   "commit": "8bf2bf6ccf9f85634ef7b096c6284d2f9065790a",
+   "sha256": "0wdkrcqx2l5kw4zn1x3p93z0mzybm5c7zmlczvl3279c1g3pcghd"
   },
   "stable": {
    "version": [
@@ -22971,11 +23033,11 @@
   "repo": "Anoncheg1/emacs-cui",
   "unstable": {
    "version": [
-    20260805,
-    1734
+    20260816,
+    1543
    ],
-   "commit": "4d82b4ee9f837d449c6e13852477c261e91dad02",
-   "sha256": "1hmynxn1phhfl87ivla2iijqdh26k83nmv9lxf77w884fqwlcv51"
+   "commit": "303fa461f40ed82113392b62c7912ec9af41062d",
+   "sha256": "1ysapjycdm8pqbixi8lw0x9djf7kw5wm3s34bbr6sjfr4gmf9wrd"
   },
   "stable": {
    "version": [
@@ -52262,13 +52324,13 @@
   "unstable": {
    "version": [
     20260816,
-    1009
+    1646
    ],
    "deps": [
     "compat"
    ],
-   "commit": "cc707024b0a16d00ec520cd51f466245a2139ce1",
-   "sha256": "0mcg213k2zn629fgm639kpayylqqyrv8dgk67rlqqqwcr6fnigvy"
+   "commit": "b25a55e7d2a2cce8bf5c745a8f5078a08ad83020",
+   "sha256": "1yvzpxjcrrhl6mrk15fdgak9jmyr8ls6vazyqf5zrgylvb309z4n"
   },
   "stable": {
    "version": [
@@ -91902,6 +91964,24 @@
   }
  },
  {
+  "ename": "ob-janet",
+  "commit": "6afc5e5a90df19a3f5d1abd41a37aba1f846d374",
+  "sha256": "103dn1s8k0m6l2za2ail8cd8d64m81iidp93z57627zqa1p7izx8",
+  "fetcher": "codeberg",
+  "repo": "zzkt/ob-janet",
+  "unstable": {
+   "version": [
+    20260803,
+    608
+   ],
+   "deps": [
+    "org"
+   ],
+   "commit": "5ff5091602b9085d0e1ed071a42805448e93546f",
+   "sha256": "0lmzvcz5rdn2rcfhaqk8997vzybr3q3j1nipzhiw4c5mbdbxvc29"
+  }
+ },
+ {
   "ename": "ob-julia-vterm",
   "commit": "6e5f9703d8d4f9e5272db5be2c2bd89dfd27f32a",
   "sha256": "0bkjqln8pi6j0lq5ch68v2r2rb2zbdch3g63kqjwskadgsypgfpj",
@@ -105691,6 +105771,21 @@
    ],
    "commit": "7f1d5bc734750aca98cf67a9491cdbd5615fd132",
    "sha256": "0c9d4c24ic67y07y74bv5b7vc56b6l0lbh2fbzm870r1dl5zbzcj"
+  }
+ },
+ {
+  "ename": "pgsql",
+  "commit": "6cf373650936c44af3c7e92ab219ccb7013d2fd1",
+  "sha256": "1ffhxxbkvhmmp9c7c2zivfvpl5jmkdkg68fbbxxjscy1wbp3fk6l",
+  "fetcher": "github",
+  "repo": "LuciusChen/pgsql.el",
+  "unstable": {
+   "version": [
+    20260808,
+    909
+   ],
+   "commit": "bbd7975552684e5e0f9e02668c3d37c389265bc6",
+   "sha256": "1pc5g80bindlma6h0hg01dxl52cadxcb8kbmsbm7mjkh3m3ckgpz"
   }
  },
  {
@@ -137446,6 +137541,30 @@
    ],
    "commit": "e6e15638e8c45a5e68d0874d5d8c9a46c4f38a54",
    "sha256": "08bsman85x2l94ighzcj3xkis1snjc96bmgc8yfk63vqlybv5pw9"
+  }
+ },
+ {
+  "ename": "vice-mode",
+  "commit": "3350ae6875b2884d043179100fea53813e962cd6",
+  "sha256": "1pa6wbjvr4x9z3y9rkkxbd5kjx1cwk4zchm8qlmh0hivi3zyagkx",
+  "fetcher": "github",
+  "repo": "gpapadok/vice",
+  "unstable": {
+   "version": [
+    20260810,
+    1820
+   ],
+   "commit": "1de53ed04d7c2f084e6177e53e18d72e9716cb68",
+   "sha256": "0yqbvbymd4m7xbd0vvk71rymsn4cxf4h0gr948c4lv9gyyv1rl9m"
+  },
+  "stable": {
+   "version": [
+    0,
+    2,
+    1
+   ],
+   "commit": "1de53ed04d7c2f084e6177e53e18d72e9716cb68",
+   "sha256": "0yqbvbymd4m7xbd0vvk71rymsn4cxf4h0gr948c4lv9gyyv1rl9m"
   }
  },
  {
