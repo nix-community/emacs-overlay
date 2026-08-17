@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260816.64";
+      version = "14.1.2.0.20260816.65";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260816.64.tar";
-        sha256 = "1fm6ggxyd1cj2gjhyz47igr4pk7d1qw77hvb78xfa3pz1v303ggb";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260816.65.tar";
+        sha256 = "1nmfc5ks2f342lcrdjk4lrwv64sq6cb90f8npwkpcgl0d36a7gxv";
       };
       packageRequires = [ ];
       meta = {
@@ -5308,10 +5308,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.7.1.0.20260619.0";
+      version = "0.7.1.0.20260817.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.7.1.0.20260619.0.tar";
-        sha256 = "0lgdl06lv66zxy5qcdnhrc118hxllaj7zjr7aphdm755lckd3f3i";
+        url = "https://elpa.gnu.org/devel/kubed-0.7.1.0.20260817.1.tar";
+        sha256 = "175134wp9k1wjaw51b9n0z347k1cnh7c9d30p7jsc0xxddyv0870";
       };
       packageRequires = [ ];
       meta = {
@@ -7639,10 +7639,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.2.0.20260527.0";
+      version = "1.5.2.0.20260816.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.5.2.0.20260527.0.tar";
-        sha256 = "1gjj04a8sbngcvmkr9kfnx335k5z0knclabl6jz8rcnswj531ac6";
+        url = "https://elpa.gnu.org/devel/posframe-1.5.2.0.20260816.2.tar";
+        sha256 = "17x7pq3inb2d8bjg5cjshzz2zmfxwk4rph5nhzfmn04mwi1d9snn";
       };
       packageRequires = [ ];
       meta = {
