@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260814.63";
+      version = "14.1.2.0.20260816.64";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260814.63.tar";
-        sha256 = "1j4jwirjvpdxk2wr5lqv6044ax1cwjnc7kyylq1na0zcs3ynaa4n";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260816.64.tar";
+        sha256 = "1fm6ggxyd1cj2gjhyz47igr4pk7d1qw77hvb78xfa3pz1v303ggb";
       };
       packageRequires = [ ];
       meta = {
@@ -2774,10 +2774,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1.0.20260802.15";
+      version = "1.2.1.0.20260816.19";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260802.15.tar";
-        sha256 = "0sfvgg4shmc6sv4jsahv9aisn4jrafkgx11qkqy4v3yh1svxfwy4";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260816.19.tar";
+        sha256 = "0bqzdpn3jaikx4qiv4zh84im7rg42wvjfwb1f6h7hzy5d4sj33mm";
       };
       packageRequires = [ ];
       meta = {
@@ -6225,10 +6225,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260813.31";
+      version = "5.3.0.0.20260816.32";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260813.31.tar";
-        sha256 = "1id2fim3zc5ksld3s6crjg69z5a4fykgjff19gfq96frasjpj9q9";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260816.32.tar";
+        sha256 = "0qchc4v2hgjc5k4by0b804ykpshkkv7njr7pfapqlq74k2g227lf";
       };
       packageRequires = [ ];
       meta = {
