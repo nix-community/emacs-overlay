@@ -6927,10 +6927,10 @@
     elpaBuild {
       pname = "org-modern";
       ename = "org-modern";
-      version = "1.15.0.20260811.2";
+      version = "1.15.0.20260818.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-modern-1.15.0.20260811.2.tar";
-        sha256 = "1p486vsz79p9xzckyb0xidng78xqmbd8a2ci3gcy6a7znw5z0i7y";
+        url = "https://elpa.gnu.org/devel/org-modern-1.15.0.20260818.3.tar";
+        sha256 = "1n24h8ipgk8fwz92rrbdnadmbki307rybjh0minamw0m3f8j138b";
       };
       packageRequires = [
         compat
