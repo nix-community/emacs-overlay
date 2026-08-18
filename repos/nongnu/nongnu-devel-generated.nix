@@ -3011,10 +3011,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.3.1.0.20260816.18";
+      version = "0.3.2.0.20260817.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.1.0.20260816.18.tar";
-        sha256 = "1qr3fxic0kw6190z2ldv3ivky9x6j1fmkjv8jj38456ryb9ban8k";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.2.0.20260817.1.tar";
+        sha256 = "1hzm72s8wjdax56ikm9rh1ls3nkfwnfggicrjbi6685dk0i2py17";
       };
       packageRequires = [
         keymap-popup
@@ -4815,10 +4815,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.5.0snapshot0.20260813.4";
+      version = "3.5.0snapshot0.20260817.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260813.4.tar";
-        sha256 = "17adashz6c2xxcb4dniw00i1sc5hvnpnbk9fqlqnc8hra7il7sa1";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260817.6.tar";
+        sha256 = "1kfvnhk1ar2hdvd9x53l22vc2cnqz3kqg6770s23cyqjj34841az";
       };
       packageRequires = [ compat ];
       meta = {
