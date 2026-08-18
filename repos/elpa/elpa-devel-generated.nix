@@ -1509,10 +1509,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "31.0.0.2.0.20260812.3";
+      version = "31.0.0.2.0.20260817.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-31.0.0.2.0.20260812.3.tar";
-        sha256 = "04ywblgih2zjypihl8qklxnk07r6mshrv484phwq29rl9wjhd4qr";
+        url = "https://elpa.gnu.org/devel/compat-31.0.0.2.0.20260817.5.tar";
+        sha256 = "0lgy28d3vhwyancy4h1rmsb6h0v5l686l8wxx0bhj8rswmarbnb5";
       };
       packageRequires = [ ];
       meta = {
@@ -3026,10 +3026,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.24.0.20260815.11";
+      version = "1.24.0.20260817.14";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260815.11.tar";
-        sha256 = "1kd32zlnhrhjaqmiw394sdfcp6qkgwdvqfjskzn7pbsvisbgw0jl";
+        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260817.14.tar";
+        sha256 = "1d1kcs2ramg4bmgxkjd25515xnahs5w378179af3g2i0mv0ahdcp";
       };
       packageRequires = [
         eldoc
@@ -3786,10 +3786,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.6.0.20260816.8";
+      version = "1.4.6.0.20260817.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.6.0.20260816.8.tar";
-        sha256 = "0marv35ajac3m69ylwfalfs7kmqxari2i4m989c6xcdnwp81p7hb";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.6.0.20260817.10.tar";
+        sha256 = "1d5c4ahap1n4kn5w852s6ind42blmqhsf6ynqxs3pcp49xi40950";
       };
       packageRequires = [
         eldoc
@@ -5308,10 +5308,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.7.1.0.20260817.1";
+      version = "0.7.1.0.20260817.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/kubed-0.7.1.0.20260817.1.tar";
-        sha256 = "175134wp9k1wjaw51b9n0z347k1cnh7c9d30p7jsc0xxddyv0870";
+        url = "https://elpa.gnu.org/devel/kubed-0.7.1.0.20260817.4.tar";
+        sha256 = "080f0xymw8qhmw396089mcqmrpac44qx95ac5m8rcq1y4d0lk2yy";
       };
       packageRequires = [ ];
       meta = {
@@ -7235,10 +7235,10 @@
     elpaBuild {
       pname = "parser-generator";
       ename = "parser-generator";
-      version = "0.2.9.0.20260105.101345";
+      version = "0.2.9.0.20260817.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/parser-generator-0.2.9.0.20260105.101345.tar";
-        sha256 = "1mrlx47ivqv3wswpb83547mfb6i6mfk9i8v98yx1xr2ycyhhivf5";
+        url = "https://elpa.gnu.org/devel/parser-generator-0.2.9.0.20260817.2.tar";
+        sha256 = "1y2bwvvml4za0gl71pljgcaamkcqw6bqywc29midl5pmifs8fkik";
       };
       packageRequires = [ ];
       meta = {
@@ -7384,10 +7384,10 @@
     elpaBuild {
       pname = "phps-mode";
       ename = "phps-mode";
-      version = "0.4.52.0.20260109.100035";
+      version = "0.4.52.0.20260817.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/phps-mode-0.4.52.0.20260109.100035.tar";
-        sha256 = "0la7152a0abgdn3kh9rz6xgn46k1r70aglia4k490nyih7ypdy7p";
+        url = "https://elpa.gnu.org/devel/phps-mode-0.4.52.0.20260817.2.tar";
+        sha256 = "00rsi6pmqm0k11ly6ymkqxxnsxl3ybp45d2v7f8wrp9b9rgrdarm";
       };
       packageRequires = [ ];
       meta = {
@@ -9235,10 +9235,10 @@
     elpaBuild {
       pname = "ssh-deploy";
       ename = "ssh-deploy";
-      version = "3.1.16.0.20241117.185025";
+      version = "3.1.16.0.20260817.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ssh-deploy-3.1.16.0.20241117.185025.tar";
-        sha256 = "03slq2jz6npx33n8ygs761mgqzbain6gqyyl38581gsl8kawx9zs";
+        url = "https://elpa.gnu.org/devel/ssh-deploy-3.1.16.0.20260817.4.tar";
+        sha256 = "1jhjh26hnighz9wlfb6yrwmn4hf9jln93vyhq31m3m9wdbmksqq2";
       };
       packageRequires = [ ];
       meta = {
