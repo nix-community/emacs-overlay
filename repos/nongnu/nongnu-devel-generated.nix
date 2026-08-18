@@ -566,10 +566,10 @@
     elpaBuild {
       pname = "casual";
       ename = "casual";
-      version = "2.17.1.0.20260718.0";
+      version = "3.0.1.0.20260817.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/casual-2.17.1.0.20260718.0.tar";
-        sha256 = "031vpnhf498lic2ngh9bmg0917561dsnrn3apsdv0id3rl7vsd35";
+        url = "https://elpa.nongnu.org/nongnu-devel/casual-3.0.1.0.20260817.0.tar";
+        sha256 = "1nk320k67l1c734d4n3axszn3fbbshzz2hlpww1r5b8xa7bnffrv";
       };
       packageRequires = [
         csv-mode
@@ -1588,10 +1588,10 @@
     elpaBuild {
       pname = "evil-collection";
       ename = "evil-collection";
-      version = "3.0.1.0.20260729.0";
+      version = "3.0.1.0.20260818.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.1.0.20260729.0.tar";
-        sha256 = "1dfgr6b664f2agfk0m78dl88wfgjfnxd1dklbs4srgxd5s822zis";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.1.0.20260818.1.tar";
+        sha256 = "1zzjpj1llyvd37121xrzifw761v8y6s0n18sh8bw2lyirc2059zi";
       };
       packageRequires = [ evil ];
       meta = {
