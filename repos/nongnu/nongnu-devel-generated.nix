@@ -1103,6 +1103,27 @@
       };
     }
   ) { };
+  doom-game = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "doom-game";
+      ename = "doom-game";
+      version = "0.1.0.20260818.4";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/doom-game-0.1.0.20260818.4.tar";
+        sha256 = "0m8pijn980gmpfrq6hkri0c6ixjhmvqsklh3fi7pr4znm7dqplnl";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/doom-game.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   dracula-theme = callPackage (
     {
       elpaBuild,
@@ -2087,10 +2108,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260817.7";
+      version = "40.0snapshot0.20260818.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260817.7.tar";
-        sha256 = "1r3dg9ksm9nxnm1s4d7nsl010486sifhg8qhlfyqishr54r6rvcn";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260818.10.tar";
+        sha256 = "0jz6c9rybw4vz79kglqqi47rbpw46i7d4spkc51ncz0f9aabjjqw";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3011,10 +3032,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.3.2.0.20260817.1";
+      version = "0.3.2.0.20260818.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.2.0.20260817.1.tar";
-        sha256 = "1hzm72s8wjdax56ikm9rh1ls3nkfwnfggicrjbi6685dk0i2py17";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.2.0.20260818.2.tar";
+        sha256 = "0590zmraar86mfxvdn9rpf98jdmwa2ngwx3h6xai2mbffi09iwd0";
       };
       packageRequires = [
         keymap-popup
@@ -3405,10 +3426,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.13.1.0.20260816.3";
+      version = "0.13.1.0.20260818.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.1.0.20260816.3.tar";
-        sha256 = "156d2nvwanf0zzj078hrrn7m5rcc995b6mklhqzsxip390il3yqz";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.1.0.20260818.4.tar";
+        sha256 = "0h0i2wv7s302hvb9yf39hy0hwj3wh6nz415gmjfx89phr2h35cg6";
       };
       packageRequires = [
         fsm
@@ -4815,10 +4836,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.5.0snapshot0.20260817.6";
+      version = "3.5.0snapshot0.20260818.14";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260817.6.tar";
-        sha256 = "1kfvnhk1ar2hdvd9x53l22vc2cnqz3kqg6770s23cyqjj34841az";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260818.14.tar";
+        sha256 = "0g5wh36wgrrqis6k15jlcfygvhh3prn994l3vgmsl98z2272w1j0";
       };
       packageRequires = [ compat ];
       meta = {
