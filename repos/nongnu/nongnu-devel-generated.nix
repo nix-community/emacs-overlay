@@ -1112,10 +1112,10 @@
     elpaBuild {
       pname = "doom-game";
       ename = "doom-game";
-      version = "0.1.0.20260818.4";
+      version = "0.3.0.20260818.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/doom-game-0.1.0.20260818.4.tar";
-        sha256 = "0m8pijn980gmpfrq6hkri0c6ixjhmvqsklh3fi7pr4znm7dqplnl";
+        url = "https://elpa.nongnu.org/nongnu-devel/doom-game-0.3.0.20260818.0.tar";
+        sha256 = "0z3gyf0pf3mf4bs3pnnwq35vca0k91dbyvfy21yb5xwghv99j6p0";
       };
       packageRequires = [ ];
       meta = {
@@ -2108,10 +2108,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260818.10";
+      version = "40.0snapshot0.20260819.13";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260818.10.tar";
-        sha256 = "0jz6c9rybw4vz79kglqqi47rbpw46i7d4spkc51ncz0f9aabjjqw";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260819.13.tar";
+        sha256 = "0rbbs353cz4mx2h9nblqxyq9s3pwpzz802bpxfh4a980xv0fnkpi";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2786,10 +2786,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260813.86";
+      version = "0.9.9.5.0.20260818.87";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260813.86.tar";
-        sha256 = "0a0f4paizhifk9lqlcp7gr1b3ml22phig0hx0d9dl53xma628lqi";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260818.87.tar";
+        sha256 = "0rm7a0wn9f924nzlbyws3d0qgm2y0b15qv6sp9ix3hh3fq6y0sh1";
       };
       packageRequires = [
         compat
@@ -4814,10 +4814,10 @@
     elpaBuild {
       pname = "project-store";
       ename = "project-store";
-      version = "0.9.0.0.20260816.1";
+      version = "0.9.0.0.20260819.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-store-0.9.0.0.20260816.1.tar";
-        sha256 = "0n5y97j4ic6kvayiq1j8vxz1gwl62rfdww12iafrj37gjw63xvyf";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-store-0.9.0.0.20260819.2.tar";
+        sha256 = "0c8ivi1wmcgdbiylamv6xy08d8z2yq53vv5244qxsd0ww6w0zkch";
       };
       packageRequires = [ ];
       meta = {

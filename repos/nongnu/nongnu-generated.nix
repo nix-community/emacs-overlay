@@ -1126,6 +1126,27 @@
       };
     }
   ) { };
+  doom-game = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "doom-game";
+      ename = "doom-game";
+      version = "0.3";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/doom-game-0.3.tar";
+        sha256 = "0ps4v15xfc3vic21rknmprvrcn84bfgq6ahrkq1d5jf9zixg9d8b";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/doom-game.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   dracula-theme = callPackage (
     {
       elpaBuild,
