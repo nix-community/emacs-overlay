@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260807.59";
+      version = "2.1.0snapshot0.20260819.69";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260807.59.tar";
-        sha256 = "0jfryag22sckkhkk5mp9ssqxx7c9nhvv3jk88v73hwahv3fs3s00";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260819.69.tar";
+        sha256 = "04kn0jcxi3zbhn5shl1a3zsa2dn69ljgjlplc5s0dzb87hr7kc3v";
       };
       packageRequires = [
         clojure-mode
@@ -1112,10 +1112,10 @@
     elpaBuild {
       pname = "doom-game";
       ename = "doom-game";
-      version = "0.3.0.20260818.0";
+      version = "0.3.0.20260819.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/doom-game-0.3.0.20260818.0.tar";
-        sha256 = "0z3gyf0pf3mf4bs3pnnwq35vca0k91dbyvfy21yb5xwghv99j6p0";
+        url = "https://elpa.nongnu.org/nongnu-devel/doom-game-0.3.0.20260819.1.tar";
+        sha256 = "0b6937lgyc265wxdsr4wzrjyjxih6pf5l4z9ycfiwd6pp5qhn6ix";
       };
       packageRequires = [ ];
       meta = {
@@ -3032,10 +3032,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.3.2.0.20260818.2";
+      version = "0.3.2.0.20260819.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.2.0.20260818.2.tar";
-        sha256 = "0590zmraar86mfxvdn9rpf98jdmwa2ngwx3h6xai2mbffi09iwd0";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.2.0.20260819.3.tar";
+        sha256 = "0zdwsfl7gb1j034c2vkdw0vbf13016g4da2q4dx2hhwf0ivpyhbb";
       };
       packageRequires = [
         keymap-popup
@@ -3788,10 +3788,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.7.0.0.20260813.3";
+      version = "4.7.0.0.20260819.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.0.0.20260813.3.tar";
-        sha256 = "0z6krza3njvb95bzd1n677inmk9k7gz75gmm959y3099hbsrdc04";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.0.0.20260819.10.tar";
+        sha256 = "0110dxkx4nhdy5pdi704qfxihxspyi2a87rqgqlwmhvjr8fci9d7";
       };
       packageRequires = [
         compat
@@ -3821,10 +3821,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.7.0.0.20260813.3";
+      version = "4.7.0.0.20260819.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.0.0.20260813.3.tar";
-        sha256 = "0r94c5dqwdkls9malxcwbq9kng55wgf1xa3hys1145kk6jizqscy";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.0.0.20260819.10.tar";
+        sha256 = "0jd5fnzrqdyjrhlw880n51b8r31rws6lppxsc13s6dbbiahjdyjq";
       };
       packageRequires = [
         compat
@@ -3987,10 +3987,10 @@
     elpaBuild {
       pname = "moe-theme";
       ename = "moe-theme";
-      version = "1.1.0.0.20260811.12";
+      version = "1.1.0.0.20260819.13";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/moe-theme-1.1.0.0.20260811.12.tar";
-        sha256 = "0lzbxa7gn8hrm3xzjyjcv25w28gjy570gl5m3zx83j1xnl5afnx8";
+        url = "https://elpa.nongnu.org/nongnu-devel/moe-theme-1.1.0.0.20260819.13.tar";
+        sha256 = "0ldphv242q8nw2cs2zh91zny0z68sc74167fay25p3p0501a484v";
       };
       packageRequires = [ ];
       meta = {
