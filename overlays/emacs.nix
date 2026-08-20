@@ -52,6 +52,7 @@ let
                       !(
                         builtins.elem patch.name or "" [
                           "fix-off-by-one-mistake-80851-CVE-2026-6861.patch"
+                          "nullify-read-symbol-shorthands-around-risky-intern-calls-80574.patch"
                           "01_all_treesit-0.26.patch?id=d0f47979806d9be5a190fdb4ffa1bde439b2d616"
                           "02_all_ts-query-pred.patch?id=86190bf195b3e17108372d8ad89eb57037180dd2"
                         ]
