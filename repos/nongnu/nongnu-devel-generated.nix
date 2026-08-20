@@ -4814,10 +4814,10 @@
     elpaBuild {
       pname = "project-store";
       ename = "project-store";
-      version = "0.9.0.0.20260819.2";
+      version = "0.9.0.0.20260820.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-store-0.9.0.0.20260819.2.tar";
-        sha256 = "0c8ivi1wmcgdbiylamv6xy08d8z2yq53vv5244qxsd0ww6w0zkch";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-store-0.9.0.0.20260820.3.tar";
+        sha256 = "0rxw7xbfqcv1rvwi7ns9f3pgvy2i72m97gblfa8ibd3wndbw31y7";
       };
       packageRequires = [ ];
       meta = {
@@ -5121,6 +5121,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/rust-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  sapling = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "sapling";
+      ename = "sapling";
+      version = "0.2.1.0.20260820.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/sapling-0.2.1.0.20260820.0.tar";
+        sha256 = "06k76gvzvk7rvmh5g1wzl3dkx952idwxs3s8kp984wdzrhpxzhx1";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/sapling.html";
         license = lib.licenses.free;
       };
     }
@@ -6066,6 +6087,28 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/vc-fossil.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  vc-sapling = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      sapling,
+    }:
+    elpaBuild {
+      pname = "vc-sapling";
+      ename = "vc-sapling";
+      version = "0.2.1.0.20260820.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/vc-sapling-0.2.1.0.20260820.0.tar";
+        sha256 = "0laa8xm6g6x1i9cv1lkfk3y34nibd9gdixjpbw8p0fbdl6ah0i90";
+      };
+      packageRequires = [ sapling ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/vc-sapling.html";
         license = lib.licenses.free;
       };
     }

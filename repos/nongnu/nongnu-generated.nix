@@ -5145,6 +5145,27 @@
       };
     }
   ) { };
+  sapling = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "sapling";
+      ename = "sapling";
+      version = "0.2.1";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/sapling-0.2.1.tar";
+        sha256 = "141ycagaifyzrsvvrv0vlw1c0mab2ll58ba4n91dqh98ncn8a20b";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/sapling.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   sass-mode = callPackage (
     {
       elpaBuild,
@@ -6104,6 +6125,28 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/vc-fossil.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  vc-sapling = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      sapling,
+    }:
+    elpaBuild {
+      pname = "vc-sapling";
+      ename = "vc-sapling";
+      version = "0.2.1";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/vc-sapling-0.2.1.tar";
+        sha256 = "03qwybz6b8zi2ky9b29fy0h5443v3sp4d7f8xn6v85r3694a38kd";
+      };
+      packageRequires = [ sapling ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/vc-sapling.html";
         license = lib.licenses.free;
       };
     }
