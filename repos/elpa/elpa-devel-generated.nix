@@ -3844,6 +3844,27 @@
       };
     }
   ) { };
+  flymake-harper = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "flymake-harper";
+      ename = "flymake-harper";
+      version = "0.1.0.0.20260820.5";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/flymake-harper-0.1.0.0.20260820.5.tar";
+        sha256 = "1qjcvwaqpj69a9kjvcpwrn7l36j7d4zsl760v1xbb2a5idy8xx6f";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/flymake-harper.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   flymake-proselint = callPackage (
     {
       elpaBuild,
