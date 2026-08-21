@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260820.71";
+      version = "2.1.0snapshot0.20260821.73";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260820.71.tar";
-        sha256 = "1hvgdvi23rb90kai5xpdph7sn1pj8zn4qjkpm7a6j7c0zd4dnyha";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260821.73.tar";
+        sha256 = "0b8xf0l30716hrdvv02pvvnchai6hh4baggkqqmvgfq1m2lq98ra";
       };
       packageRequires = [
         clojure-mode
@@ -2060,10 +2060,10 @@
     elpaBuild {
       pname = "flx";
       ename = "flx";
-      version = "0.6.2.0.20240204.195634";
+      version = "0.6.2.0.20260820.11";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flx-0.6.2.0.20240204.195634.tar";
-        sha256 = "0k2irlx6v1mn23qvpsq1p6mdy8a78sx9xbnvy9ah1hnsq2z9x4ay";
+        url = "https://elpa.nongnu.org/nongnu-devel/flx-0.6.2.0.20260820.11.tar";
+        sha256 = "04g3ndcnn9bzpjjnv4h78xml07gkbclahcpli6gna9fmiw1vhlaa";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2083,10 +2083,10 @@
     elpaBuild {
       pname = "flx-ido";
       ename = "flx-ido";
-      version = "0.6.2.0.20240204.195634";
+      version = "0.6.2.0.20260820.11";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flx-ido-0.6.2.0.20240204.195634.tar";
-        sha256 = "1d9hg8pryf30bz9rnpb081vhw2axvbk62i9wiyfq0n0zwi23dwhj";
+        url = "https://elpa.nongnu.org/nongnu-devel/flx-ido-0.6.2.0.20260820.11.tar";
+        sha256 = "0l27xwh1mr34ivgif1sx7sgqzx9ccy0j0y2a31hc2gx9z3x17zvz";
       };
       packageRequires = [
         cl-lib
@@ -2108,10 +2108,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260820.16";
+      version = "40.0snapshot0.20260821.17";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260820.16.tar";
-        sha256 = "1bd8r4dawlbf497xkg3znhjky8wgsw15fjkg74clwisc96ggrp6k";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260821.17.tar";
+        sha256 = "0kmz34lirmrrbhrcbl0asr5kla2njkcpybc3zvj3rlwvhr78bbyq";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2786,10 +2786,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260818.87";
+      version = "0.9.9.5.0.20260821.91";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260818.87.tar";
-        sha256 = "0rm7a0wn9f924nzlbyws3d0qgm2y0b15qv6sp9ix3hh3fq6y0sh1";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260821.91.tar";
+        sha256 = "0arzbkawfc9ybcrhhiqp04r9zc5hyjc9iz3i9rxf74d3n433b9ym";
       };
       packageRequires = [
         compat
@@ -3847,10 +3847,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.9alpha0.20260722.13";
+      version = "2.9alpha0.20260821.15";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20260722.13.tar";
-        sha256 = "0bgm2vs9b9wrxqzblraw475b46bp79qvsr2arfwl558lxjgvngxv";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20260821.15.tar";
+        sha256 = "1dfs6fnjh2q6b5axx7xh339n18gwvn8nc4c06w0abl4iwkb866xa";
       };
       packageRequires = [ ];
       meta = {
