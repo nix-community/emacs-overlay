@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260819.69";
+      version = "2.1.0snapshot0.20260820.71";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260819.69.tar";
-        sha256 = "04kn0jcxi3zbhn5shl1a3zsa2dn69ljgjlplc5s0dzb87hr7kc3v";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260820.71.tar";
+        sha256 = "1hvgdvi23rb90kai5xpdph7sn1pj8zn4qjkpm7a6j7c0zd4dnyha";
       };
       packageRequires = [
         clojure-mode
@@ -1112,10 +1112,10 @@
     elpaBuild {
       pname = "doom-game";
       ename = "doom-game";
-      version = "0.3.0.20260819.1";
+      version = "0.3.0.20260820.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/doom-game-0.3.0.20260819.1.tar";
-        sha256 = "0b6937lgyc265wxdsr4wzrjyjxih6pf5l4z9ycfiwd6pp5qhn6ix";
+        url = "https://elpa.nongnu.org/nongnu-devel/doom-game-0.3.0.20260820.2.tar";
+        sha256 = "0pymj7k60ldxv2hssls8fzdiq4673wnapsk92ph53j24kq27wwn8";
       };
       packageRequires = [ ];
       meta = {
@@ -2108,10 +2108,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260819.13";
+      version = "40.0snapshot0.20260820.16";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260819.13.tar";
-        sha256 = "0rbbs353cz4mx2h9nblqxyq9s3pwpzz802bpxfh4a980xv0fnkpi";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260820.16.tar";
+        sha256 = "1bd8r4dawlbf497xkg3znhjky8wgsw15fjkg74clwisc96ggrp6k";
       };
       packageRequires = [ seq ];
       meta = {
@@ -4836,10 +4836,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.5.0snapshot0.20260818.14";
+      version = "3.5.0snapshot0.20260820.23";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260818.14.tar";
-        sha256 = "0g5wh36wgrrqis6k15jlcfygvhh3prn994l3vgmsl98z2272w1j0";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260820.23.tar";
+        sha256 = "13c22acfjc72vihk1z7cla44iwdn3165v54vdkry35704dsfyzl0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5352,10 +5352,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260808.55";
+      version = "2.32snapshot0.20260820.56";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260808.55.tar";
-        sha256 = "1xfaai5iwlccl38g85immsw2l2ah2p8nj96nl3vvcz88mh89xvzn";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260820.56.tar";
+        sha256 = "0hskv4miw24iiq0kmfz8r4161z6m052f70n8rrgyk4zslby4qbnh";
       };
       packageRequires = [ macrostep ];
       meta = {
