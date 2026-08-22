@@ -1135,10 +1135,10 @@
     elpaBuild {
       pname = "doom-game";
       ename = "doom-game";
-      version = "0.3";
+      version = "0.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/doom-game-0.3.tar";
-        sha256 = "0ps4v15xfc3vic21rknmprvrcn84bfgq6ahrkq1d5jf9zixg9d8b";
+        url = "https://elpa.nongnu.org/nongnu/doom-game-0.4.tar";
+        sha256 = "1174hrzng98sk2whnrm2ax37a4lfnm07yvm37iww919lv3mffpqf";
       };
       packageRequires = [ ];
       meta = {
@@ -1380,10 +1380,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.1.1";
+      version = "4.2.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/elfeed-4.1.1.tar";
-        sha256 = "08zssaqkzmlg1rq678l76lf55fq22zanf0hrq3xxzngnsj9ib2ar";
+        url = "https://elpa.nongnu.org/nongnu/elfeed-4.2.0.tar";
+        sha256 = "1qk1f27cz3l2wxdpicc07f47h28dxnc0h42gpp7gv7xcwy35gmnw";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1404,10 +1404,10 @@
     elpaBuild {
       pname = "elfeed-web";
       ename = "elfeed-web";
-      version = "4.0.0";
+      version = "4.1.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/elfeed-web-4.0.0.tar";
-        sha256 = "0ah6zjcihxfra34zglqrj6pnxqnakgc58dlkgjzgrxdamx4dxfwg";
+        url = "https://elpa.nongnu.org/nongnu/elfeed-web-4.1.0.tar";
+        sha256 = "0khkpw4cfwcaxc5h6xkvyag5zkimb0zwi71si6jyym8z5csfk4km";
       };
       packageRequires = [
         compat
@@ -2078,10 +2078,10 @@
     elpaBuild {
       pname = "flx";
       ename = "flx";
-      version = "0.6.2";
+      version = "0.6.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/flx-0.6.2.tar";
-        sha256 = "00d3q238grxcvnx6pshb7ajbz559gfp00pqaq56r2n5xqrvrxfnc";
+        url = "https://elpa.nongnu.org/nongnu/flx-0.6.3.tar";
+        sha256 = "01dpzw3ghfprrcn8ankbawxis3xc9ri6pw5s33kgam3gimyvn5ad";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2101,10 +2101,10 @@
     elpaBuild {
       pname = "flx-ido";
       ename = "flx-ido";
-      version = "0.6.2";
+      version = "0.6.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/flx-ido-0.6.2.tar";
-        sha256 = "1933d3dcwynzs5qnv3pl4xdybj5gg0sa8zb58j0ld9hyiacm6zn5";
+        url = "https://elpa.nongnu.org/nongnu/flx-ido-0.6.3.tar";
+        sha256 = "0j30638d3kakg8ms5l2yh05gd1i41kjs7lgq2ca32zx4m52vjf56";
       };
       packageRequires = [
         cl-lib

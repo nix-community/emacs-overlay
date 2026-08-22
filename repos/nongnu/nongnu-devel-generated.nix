@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260821.73";
+      version = "2.1.0snapshot0.20260821.78";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260821.73.tar";
-        sha256 = "0b8xf0l30716hrdvv02pvvnchai6hh4baggkqqmvgfq1m2lq98ra";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260821.78.tar";
+        sha256 = "0giv8yk5lvvk784pv3mkyq376d88x0wygja8gj4mbd056z4r8sza";
       };
       packageRequires = [
         clojure-mode
@@ -1112,10 +1112,10 @@
     elpaBuild {
       pname = "doom-game";
       ename = "doom-game";
-      version = "0.3.0.20260820.2";
+      version = "0.4.0.20260821.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/doom-game-0.3.0.20260820.2.tar";
-        sha256 = "0pymj7k60ldxv2hssls8fzdiq4673wnapsk92ph53j24kq27wwn8";
+        url = "https://elpa.nongnu.org/nongnu-devel/doom-game-0.4.0.20260821.0.tar";
+        sha256 = "1axv5crmpslalm4jqv4rhvvsr0794axyic2inc4vrgcwpj6wlns5";
       };
       packageRequires = [ ];
       meta = {
@@ -1356,10 +1356,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.1.1.0.20260816.45";
+      version = "4.2.0.0.20260821.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.1.1.0.20260816.45.tar";
-        sha256 = "0ih5wj30ghj6zqsxkadmkph7zaj4cagf6w48j2yrmw3bs5jg3hq2";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.2.0.0.20260821.0.tar";
+        sha256 = "1b9wmf2pklgk287lzsj0zgi84slh95aii9bpa5l58s805cig2kmk";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1380,10 +1380,10 @@
     elpaBuild {
       pname = "elfeed-web";
       ename = "elfeed-web";
-      version = "4.0.0.0.20260628.4";
+      version = "4.1.0.0.20260821.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-web-4.0.0.0.20260628.4.tar";
-        sha256 = "0vwd5k1h47xcj6jz5wqcppm9cv2ywiliq4x3mszbharqklw83wmx";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-web-4.1.0.0.20260821.0.tar";
+        sha256 = "1l0niic37zhzbhy5bdngf6m8zxl411svj98x9h6k3p6rd5597lms";
       };
       packageRequires = [
         compat
@@ -2060,10 +2060,10 @@
     elpaBuild {
       pname = "flx";
       ename = "flx";
-      version = "0.6.2.0.20260820.11";
+      version = "0.6.3.0.20260821.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flx-0.6.2.0.20260820.11.tar";
-        sha256 = "04g3ndcnn9bzpjjnv4h78xml07gkbclahcpli6gna9fmiw1vhlaa";
+        url = "https://elpa.nongnu.org/nongnu-devel/flx-0.6.3.0.20260821.0.tar";
+        sha256 = "1dzins71lirv6g1b423695mncmvz21z0i197jgvp9l18j1wqljvv";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -2083,10 +2083,10 @@
     elpaBuild {
       pname = "flx-ido";
       ename = "flx-ido";
-      version = "0.6.2.0.20260820.11";
+      version = "0.6.3.0.20260821.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flx-ido-0.6.2.0.20260820.11.tar";
-        sha256 = "0l27xwh1mr34ivgif1sx7sgqzx9ccy0j0y2a31hc2gx9z3x17zvz";
+        url = "https://elpa.nongnu.org/nongnu-devel/flx-ido-0.6.3.0.20260821.0.tar";
+        sha256 = "0y7b31k8aqsa3zv6rbg3dfhc68y8qmw8pk983fjgn1xi21a7y4rp";
       };
       packageRequires = [
         cl-lib
@@ -2108,10 +2108,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260821.17";
+      version = "40.0snapshot0.20260821.20";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260821.17.tar";
-        sha256 = "0kmz34lirmrrbhrcbl0asr5kla2njkcpybc3zvj3rlwvhr78bbyq";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260821.20.tar";
+        sha256 = "0w3h7vk97a1zi8qx23hzigzbwi7qndyzkbl68m4pfs61bpmrp16x";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2786,10 +2786,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260821.91";
+      version = "0.9.9.5.0.20260821.92";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260821.91.tar";
-        sha256 = "0arzbkawfc9ybcrhhiqp04r9zc5hyjc9iz3i9rxf74d3n433b9ym";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260821.92.tar";
+        sha256 = "1yzq6wm0pa3pncixz0yf39gx9v7h62askf3qbzv4zh1mzyv90i0h";
       };
       packageRequires = [
         compat
