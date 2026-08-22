@@ -3468,10 +3468,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.7snapshot0.20260818.26";
+      version = "5.7snapshot0.20260821.27";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.7snapshot0.20260818.26.tar";
-        sha256 = "05mcxccj3jr02cr02iwn3qcq2g7ar3wsb42v9fwcjlcwiqamraz6";
+        url = "https://elpa.gnu.org/devel/erc-5.7snapshot0.20260821.27.tar";
+        sha256 = "15v751rvawzvmkj89acqy33bzjf91b0dnxi4s5r4gmdqads99vv3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4028,10 +4028,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "2.0.0.20260813.1";
+      version = "2.0.0.20260821.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-2.0.0.20260813.1.tar";
-        sha256 = "10jrpav3agiywwbpal7fr3bxg4wi6rf8c93mj4j2clzn0g1vq9bm";
+        url = "https://elpa.gnu.org/devel/futur-2.0.0.20260821.2.tar";
+        sha256 = "0zkwyrh5n678li34digallv6w5r79j074mp9ylrgxsk5i2ha99sk";
       };
       packageRequires = [ ];
       meta = {
@@ -4696,10 +4696,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.1.0.0.20260815.15";
+      version = "9.1.0.0.20260821.27";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260815.15.tar";
-        sha256 = "0bwzj0vlnz4sd21j3qzk1g1la7m9awfys9kz40cqd9m9w6zwxha6";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260821.27.tar";
+        sha256 = "04mlc4sq98q715v2asi0zgw9daijpqmnmw96v1zk1p3093q1kqxi";
       };
       packageRequires = [ ];
       meta = {
