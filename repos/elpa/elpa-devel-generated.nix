@@ -5614,10 +5614,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.31.3.0.20260822.6";
+      version = "0.32.0.0.20260822.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.31.3.0.20260822.6.tar";
-        sha256 = "0jxch1gk3j5jw8n43zsgm2m3b63w0ya32hy9i8n4z491hflsljwr";
+        url = "https://elpa.gnu.org/devel/llm-0.32.0.0.20260822.2.tar";
+        sha256 = "0305wyc9gf99hlyn19h71a973vk159719zywnlp5q69h9b2v8msz";
       };
       packageRequires = [
         compat
