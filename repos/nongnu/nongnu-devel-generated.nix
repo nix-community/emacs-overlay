@@ -670,10 +670,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0.0.20260822.52";
+      version = "0.6.0.0.20260823.53";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20260822.52.tar";
-        sha256 = "1bfrhs9xiv17jsv7zvyjya8mykj6yr98pq8qn8gb171sc5r17ja8";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20260823.53.tar";
+        sha256 = "02siy3da3yjjqgddnmrqd6x455b33zgx6lsziipbr38zva1kdg9d";
       };
       packageRequires = [ ];
       meta = {
@@ -5134,10 +5134,10 @@
     elpaBuild {
       pname = "sapling";
       ename = "sapling";
-      version = "0.2.1.0.20260820.0";
+      version = "0.2.2.0.20260823.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sapling-0.2.1.0.20260820.0.tar";
-        sha256 = "06k76gvzvk7rvmh5g1wzl3dkx952idwxs3s8kp984wdzrhpxzhx1";
+        url = "https://elpa.nongnu.org/nongnu-devel/sapling-0.2.2.0.20260823.3.tar";
+        sha256 = "1k1d3vmm2ahjjfki0bdzifm7fdj9wirkrnsgkz3mvzw55lkinh3n";
       };
       packageRequires = [ ];
       meta = {
@@ -5437,10 +5437,10 @@
     elpaBuild {
       pname = "spacemacs-theme";
       ename = "spacemacs-theme";
-      version = "0.2.0.20260812.45";
+      version = "0.2.0.20260822.48";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20260812.45.tar";
-        sha256 = "1zc0548jrf7z53qmm5qm8wmg535aqfi3d7crrbbvf46qlafxq8na";
+        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20260822.48.tar";
+        sha256 = "1sj5hcrmqwlijblxjwpggqhl8f4ca5f361can8mdgpqxfbqfd035";
       };
       packageRequires = [ ];
       meta = {
@@ -6101,10 +6101,10 @@
     elpaBuild {
       pname = "vc-sapling";
       ename = "vc-sapling";
-      version = "0.2.1.0.20260820.0";
+      version = "0.2.1.0.20260823.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vc-sapling-0.2.1.0.20260820.0.tar";
-        sha256 = "0laa8xm6g6x1i9cv1lkfk3y34nibd9gdixjpbw8p0fbdl6ah0i90";
+        url = "https://elpa.nongnu.org/nongnu-devel/vc-sapling-0.2.1.0.20260823.1.tar";
+        sha256 = "1cdx1g3cajm8ixm46f9471hym3f7k16l8rknsxrsys8wlrvnfgsr";
       };
       packageRequires = [ sapling ];
       meta = {
