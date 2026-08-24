@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260822.84";
+      version = "2.1.0snapshot0.20260824.86";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260822.84.tar";
-        sha256 = "1jx0pi2sw9p0f5k4wqcn984qk99fsqr4savsym3v5rnh94qzfxxl";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260824.86.tar";
+        sha256 = "131q072illp3r47r04hhlyckp0lz54x5y62pzbbjmi0hdjx6qcxb";
       };
       packageRequires = [
         clojure-mode
@@ -2108,10 +2108,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260821.20";
+      version = "40.0snapshot0.20260824.22";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260821.20.tar";
-        sha256 = "0w3h7vk97a1zi8qx23hzigzbwi7qndyzkbl68m4pfs61bpmrp16x";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260824.22.tar";
+        sha256 = "1zcisrpm4xwyiqv0bv8nk66fzx843nbqfvsjxpn5skfnq0i4lwy2";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2309,10 +2309,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.33.2.0.20260810.0";
+      version = "0.33.2.0.20260823.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.2.0.20260810.0.tar";
-        sha256 = "0c4padymc9qyc2pyfvp8d0r8mw8v8rn2zd5qbwcss1fy0749whaw";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.2.0.20260823.1.tar";
+        sha256 = "1ska8m40rmx52hqwzrfrjvj0hmy67qzpngychklyj67a664wvl59";
       };
       packageRequires = [ project ];
       meta = {
@@ -3426,10 +3426,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.13.1.0.20260818.4";
+      version = "0.13.1.0.20260824.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.1.0.20260818.4.tar";
-        sha256 = "0h0i2wv7s302hvb9yf39hy0hwj3wh6nz415gmjfx89phr2h35cg6";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.1.0.20260824.8.tar";
+        sha256 = "1wiqjkf1685bkliaamm3w6mbx2j2v73dmm24cvzd22i68bgb46aw";
       };
       packageRequires = [
         fsm
@@ -4801,6 +4801,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/powershell.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  project-nix-store = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "project-nix-store";
+      ename = "project-nix-store";
+      version = "0.9.0.0.20260824.4";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.9.0.0.20260824.4.tar";
+        sha256 = "1zx96ag0fcq51knjsml4jfl63dhparh50wq92dg5y80qz1r8q4vf";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/project-nix-store.html";
         license = lib.licenses.free;
       };
     }
