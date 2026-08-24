@@ -9928,15 +9928,15 @@
   "repo": "emacscollective/borg",
   "unstable": {
    "version": [
-    20260822,
-    1141
+    20260824,
+    1421
    ],
    "deps": [
     "epkg",
     "magit"
    ],
-   "commit": "02aa8c5ab237181ac264ba977e75bd28332ced22",
-   "sha256": "1vd0jnzznlyn59h109c4skn3fz8zdg06kkv2ink61gwr3qc7d4jw"
+   "commit": "b85c8894eaf8416c8d98a99ada6fa76fffa004cd",
+   "sha256": "0lmiv57v8frrvnzqq284d681wlnckjrzdzzbv03d3ijifyi6v8f8"
   },
   "stable": {
    "version": [
@@ -14008,8 +14008,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20260822,
-    1520
+    20260824,
+    709
    ],
    "deps": [
     "clojure-mode",
@@ -14021,8 +14021,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "646435c9b875d9aaa7ed5dffe941bbb37db13394",
-   "sha256": "1qyajkhw0cqplmrq7q4n9l4pglpmd96wp8023r0yiwq32nazm9nn"
+   "commit": "2e2bafb99bf5ac691014b8b3993bddb85b117d99",
+   "sha256": "0l5sqh9s6hn7xv8qczb76qjsvrcb426i62fqls414582rrc9qkhf"
   },
   "stable": {
    "version": [
@@ -14780,11 +14780,11 @@
   "repo": "parenworks/clatter.el",
   "unstable": {
    "version": [
-    20260823,
-    722
+    20260824,
+    1229
    ],
-   "commit": "70dfb1c6989685875f2e3f8b5b427a27f01eb7d4",
-   "sha256": "135m43q430q6bm74y45xpacqwh5wq9nmmpq56adg9jwwhc2dh9qd"
+   "commit": "4146cbbb439c56f390d3fa0c31d592c517911f90",
+   "sha256": "17nrydrda2cmwk4lh1f3j5hil2s52gidc9b5a2hps7ma86n2a33z"
   },
   "stable": {
    "version": [
@@ -31091,8 +31091,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260820,
-    1307
+    20260824,
+    1451
    ],
    "deps": [
     "compat",
@@ -31101,8 +31101,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "fa2703b68cb8bb7bb6655207fb1afb0b591427ac",
-   "sha256": "1yi7yfjpb6lx4id9x5wq7700yyfwkrmqxvmhqswrr55lhnvx9mng"
+   "commit": "a7417e6fcd3b1f9b26fa2356362bcd4b4579e07f",
+   "sha256": "1sv4slch2nwlq0jpjjfdc2x1azkzc5fdwjz127gxmnirz92m3mab"
   },
   "stable": {
    "version": [
@@ -41838,15 +41838,16 @@
   "repo": "md-arif-shaikh/expenses",
   "unstable": {
    "version": [
-    20230903,
-    306
+    20260824,
+    616
    ],
    "deps": [
     "dash",
-    "ht"
+    "ht",
+    "transient"
    ],
-   "commit": "1c89ed3969fef7d733a0f52084cfe07d33200104",
-   "sha256": "0mnbx9lkv5f74fq96v08zqv6gnfr4cmg339sqrbqrdlpk8dvwbrc"
+   "commit": "38e5b3eb49daa00ec0f8de81bc28651afe105d11",
+   "sha256": "0l5wnx72n44skrx6cskn3qd9wgdkgz6cf15kpnljnsjnjwqlzwvr"
   },
   "stable": {
    "version": [
@@ -44652,14 +44653,14 @@
   "repo": "flycheck/flycheck",
   "unstable": {
    "version": [
-    20260821,
-    1002
+    20260824,
+    1106
    ],
    "deps": [
     "seq"
    ],
-   "commit": "7074b82cc82b6c3258f0f436514eca5236101336",
-   "sha256": "11gw7knk5gczm0l3q8c2vawww411ip42bwxjklwvpp5a9z4kfph8"
+   "commit": "a7fb756679d65a05744d75a1e3d488e44329d23a",
+   "sha256": "195al14d6zf9qzzpfg5dxxamv6i6igkiaginjg8vmkaikm2m2ayi"
   },
   "stable": {
    "version": [
@@ -56289,15 +56290,15 @@
   "unstable": {
    "version": [
     20260824,
-    211
+    1312
    ],
    "deps": [
     "compat",
     "gptel",
     "gptel-agent"
    ],
-   "commit": "3fae7abad86d977ec7db88eea1940baf95e71267",
-   "sha256": "0vmimkgs8wqm3mwcgvdnqrwkd6gr5845glmm83wqgi18z661aajn"
+   "commit": "ed72d11dbb80b1a117f568b69fe6506ceee903d1",
+   "sha256": "1cg0bqpx4d1j8h09f3ry2icj9m2vcnfjsv9x3ma6rjlb7nkpsnzm"
   },
   "stable": {
    "version": [
@@ -65813,10 +65814,10 @@
  },
  {
   "ename": "i3wm",
-  "commit": "2e12638554a13ef49ab24da08fe20ed2a53dbd11",
-  "sha256": "11246d71g82iv9zrd44013zwkmnf32m1x8zbrbb656dnzx7ps4rl",
-  "fetcher": "git",
-  "url": "https://git.flintfam.org/swf-projects/emacs-i3.git",
+  "commit": "b115b49ef631350b740bc1a25d2818d0ec2ded6d",
+  "sha256": "14ij6r6jnkbvvb8dn081mv4sh8aq8xaww4ynq16pnjjzqknb5ipq",
+  "fetcher": "github",
+  "repo": "emacsattic/i3wm",
   "unstable": {
    "version": [
     20170822,
@@ -74523,11 +74524,11 @@
   "repo": "bricka/emacs-kotlin-ts-mode",
   "unstable": {
    "version": [
-    20260512,
-    1409
+    20260824,
+    1024
    ],
-   "commit": "39e30e4cf803910c2f6716efd7a5cd408a9d996b",
-   "sha256": "1zabj07ffmi9g0vv74xkrwim7dwx3hsirr9abaxh6acwykp2ma6d"
+   "commit": "292c9a05ff2243c39a48201b277840b1d25e1ea0",
+   "sha256": "0jypfbkc30xw5cij9mwzqmpb6r62kxlc8qchyyfc6kb1s7nih3hk"
   }
  },
  {
@@ -83611,11 +83612,11 @@
   "url": "https://git.andros.dev/andros/meshmonitor-chat.el.git",
   "unstable": {
    "version": [
-    20260814,
-    942
+    20260824,
+    957
    ],
-   "commit": "398a33e0cece33a1ca978d98497bef9bd9013f8d",
-   "sha256": "1xiysf173my1gi55w3mynldsi2i65748l20sv0cacdd2jlnxikb7"
+   "commit": "d1dedb2d06f552fb45b278ee34fabaf0ac791c27",
+   "sha256": "15a9m73dwmsri5as7xv6ws429xbi825pi6agfab36d4x0vzi3fn8"
   }
  },
  {
@@ -84413,11 +84414,11 @@
   "repo": "zHaOdANiuu/minibuffer-frame",
   "unstable": {
    "version": [
-    20260823,
-    1356
+    20260824,
+    557
    ],
-   "commit": "69bb3b62b74e6272ed350284d591f2b28e1b8269",
-   "sha256": "0k1iyndxjawn5lh1cypv7h4fmygrri5chad3b9czp4mcgn6p4v70"
+   "commit": "cfaba2bd56b2ff5c9fd3f6efd65f1f653b0527ab",
+   "sha256": "1r0p0risi8yc3z1qsv9w8ayz3ai1i8nb0dnngzbc9m7lf5jq3m4n"
   }
  },
  {
@@ -86822,11 +86823,11 @@
   "repo": "laurynas-biveinis/mu4e-autotask",
   "unstable": {
    "version": [
-    20260821,
-    739
+    20260824,
+    747
    ],
-   "commit": "caab869aaf670ff919ed960dd699e0d21b3142dd",
-   "sha256": "01kanh4lzvfn169dx8xff33x8dr1pkv3mswx6kbdx42545fh5ig4"
+   "commit": "2175192cdd6289d35d2e85e8cc97dfc83e8a9c51",
+   "sha256": "1xcx48hb6cblnk9r7m0n3y3lpjv37cj779izb55m2rkfs8fksyxr"
   },
   "stable": {
    "version": [
@@ -99292,8 +99293,8 @@
   "repo": "tanrax/org-social.el",
   "unstable": {
    "version": [
-    20260525,
-    725
+    20260824,
+    732
    ],
    "deps": [
     "async-http-queue",
@@ -99302,8 +99303,8 @@
     "request",
     "seq"
    ],
-   "commit": "754f16c45585fb733fd521558b572f03bc964708",
-   "sha256": "0m5nrhp1d6ndj48fyh547fdk8gcldwxxczki8hklbpiv1w9s4jsb"
+   "commit": "f5141de306ce402b3f148dd96b46e7d329d2568b",
+   "sha256": "04flffiii3b0653dkkl2r1frh3ap36zbi9a9s180n2ih3w8mdrc2"
   },
   "stable": {
    "version": [
@@ -110293,14 +110294,14 @@
   "repo": "bbatsov/projectile",
   "unstable": {
    "version": [
-    20260820,
-    1509
+    20260824,
+    913
    ],
    "deps": [
     "compat"
    ],
-   "commit": "ca3d122a61a0a1ebff7e336497c4612fac1e268d",
-   "sha256": "18vhlfp6p3lww27n5bfndx8hchr65m13hhb6vrqhf9fnhp2jzfgj"
+   "commit": "f60f47f2f72d60201679e8c3b50ad00bae3889dd",
+   "sha256": "1wyd2fdvmappg7zxyq4lvwmxa6z2ndl95askg633rvqkn8caj6mb"
   },
   "stable": {
    "version": [
@@ -111697,10 +111698,10 @@
  },
  {
   "ename": "pushover",
-  "commit": "e9553cd029bc0733c89d2c790cb173d9668a9eba",
-  "sha256": "0im5bf2r69s2jb6scm8xdk63y1xi5zm4kg9ghfixlvyvipfli4kl",
-  "fetcher": "git",
-  "url": "https://git.flintfam.org/swf-projects/emacs-pushover.git",
+  "commit": "7610dda278691fc7e5ff279265699c8db4c8a975",
+  "sha256": "1azsgqhyjx01hb2nddz5naaw960p735mij6ls77fam8brh4w24sf",
+  "fetcher": "github",
+  "repo": "emacsattic/pushover",
   "unstable": {
    "version": [
     20170818,
@@ -131087,11 +131088,11 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20260817,
-    1145
+    20260823,
+    311
    ],
-   "commit": "aa5b04ae9fbcbfde46a7ea6e9b405fe38a8c8592",
-   "sha256": "0cp56hpcddqydxvaqxx7sxrfkfb5yn21r84g95vbvx78y56c7ip1"
+   "commit": "28b6907cb5c94ca2314adcbed5e3b34e61494484",
+   "sha256": "1haqyagg04kw41xd1jsmr3asagybskjbfjm0z9vyjvj5ngdq99kh"
   },
   "stable": {
    "version": [
@@ -139562,11 +139563,11 @@
   "repo": "fxbois/web-mode",
   "unstable": {
    "version": [
-    20260623,
-    932
+    20260824,
+    1135
    ],
-   "commit": "aeee2d4c82a791ff69657c1413873bf9265544df",
-   "sha256": "0bpm6njk1pmqckvmk7zwcfms8csb9rzj3zylh3pl7xr2k25gaj1x"
+   "commit": "e417e389474f934f4f3c11c88ad6c476642e1f90",
+   "sha256": "0sdyvwx07mb8wprqh08fmc96ykd53j3y1csc1sqg1rs864gr1w6i"
   },
   "stable": {
    "version": [
