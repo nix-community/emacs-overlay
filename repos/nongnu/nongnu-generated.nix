@@ -3049,10 +3049,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.3.2";
+      version = "0.3.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hermes-0.3.2.tar";
-        sha256 = "0dqgiyi81rfwhk86xrx3yhl4bnb1hbl5j3crxw9mlym6fcx5gh6d";
+        url = "https://elpa.nongnu.org/nongnu/hermes-0.3.3.tar";
+        sha256 = "1r47spwfgn4m0ig6ma2iydmkas438ng3vx1bijlq4avvx62cij0i";
       };
       packageRequires = [
         keymap-popup
@@ -6224,10 +6224,10 @@
     elpaBuild {
       pname = "web-mode";
       ename = "web-mode";
-      version = "17.3.24";
+      version = "17.3.25";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/web-mode-17.3.24.tar";
-        sha256 = "129hz6h2ygmqhn3bbjxx2gpdnvh0gifc4xaipsjz0716rj1s0k81";
+        url = "https://elpa.nongnu.org/nongnu/web-mode-17.3.25.tar";
+        sha256 = "1a52p408a99by7p1xdv1yy2m389c0l3s54mf2b44rqpskzgr6g3m";
       };
       packageRequires = [ ];
       meta = {
