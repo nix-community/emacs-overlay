@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260822.68";
+      version = "14.1.2.0.20260825.69";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260822.68.tar";
-        sha256 = "19l2grrqk4pdd0453m1v9d0hd64mwbn6s0pf4f3j8br5xh1bkk3l";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260825.69.tar";
+        sha256 = "0a8rkplp4sg27kyyfk7alh7jckijv138cbslw6c39blxmi6bmv15";
       };
       packageRequires = [ ];
       meta = {
@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.4.0.20260808.85";
+      version = "0.1.4.0.20260825.88";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20260808.85.tar";
-        sha256 = "0hnnrlk2ssp7nal5l4mkcx64i84gsbnasw8kjgjrmga8px27zwn4";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20260825.88.tar";
+        sha256 = "1dyy30m69isncwj1366944s5lvi85gq5604canmnbvizw4jay1y0";
       };
       packageRequires = [ ];
       meta = {
@@ -2774,10 +2774,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1.0.20260816.19";
+      version = "1.2.1.0.20260825.20";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260816.19.tar";
-        sha256 = "0bqzdpn3jaikx4qiv4zh84im7rg42wvjfwb1f6h7hzy5d4sj33mm";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260825.20.tar";
+        sha256 = "0qlwqdi6a0p33hksqk8i59kahajrs2vh19yydj00x0g4d0d10fjs";
       };
       packageRequires = [ ];
       meta = {
@@ -6246,10 +6246,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260824.34";
+      version = "5.3.0.0.20260825.35";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260824.34.tar";
-        sha256 = "0n43vjf7v1wihfh8j1pvyz2sd22mp2znknkql9l89dvwg6zjdalw";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260825.35.tar";
+        sha256 = "0q1rf93gd9wkp66s7nilkg1pzcnhrvj3xs98xdzkw2pxpcrz8q7h";
       };
       packageRequires = [ ];
       meta = {
@@ -9320,10 +9320,10 @@
     elpaBuild {
       pname = "substitute";
       ename = "substitute";
-      version = "0.6.1.0.20260728.0";
+      version = "0.6.1.0.20260825.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/substitute-0.6.1.0.20260728.0.tar";
-        sha256 = "1y2hxshh3mbwqci9v4wh2r9hvpfc3dgxjx9q20hbw7l06fqsnzys";
+        url = "https://elpa.gnu.org/devel/substitute-0.6.1.0.20260825.3.tar";
+        sha256 = "1j91c8sg9zqm0lzriv1i5n9msby1544flngd17r3isz4ph8079a7";
       };
       packageRequires = [ ];
       meta = {
@@ -10643,10 +10643,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.13.0.20260821.0";
+      version = "2.13.0.20260825.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.13.0.20260821.0.tar";
-        sha256 = "1a5gwhgiqhdrm30spkwbnmdfhhjqpa7lggj6zdhmzg1dww1c73b6";
+        url = "https://elpa.gnu.org/devel/vertico-2.13.0.20260825.1.tar";
+        sha256 = "0bc7r9dpll7jdjwflj5v530b3f69kccncyc593vwghl9ad0jbvwf";
       };
       packageRequires = [ compat ];
       meta = {
