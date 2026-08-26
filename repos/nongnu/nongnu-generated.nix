@@ -1329,10 +1329,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.8";
+      version = "3.0.9";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/eldoc-mouse-3.0.8.tar";
-        sha256 = "1snacbxjqp8ykic5z1nzhg0fnd5fnafsgwxmfd9vy4rsm0ag9mrl";
+        url = "https://elpa.nongnu.org/nongnu/eldoc-mouse-3.0.9.tar";
+        sha256 = "1lzdgnafdgnvjwarak4c5h6hf51a0fyrsiqc62sdj6kjahxpdhch";
       };
       packageRequires = [
         eglot
@@ -3887,10 +3887,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.1.0";
+      version = "2.1.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.1.0.tar";
-        sha256 = "0svjykpjapmqaxyz1fwf1m14mrqz0bywjq14a06sswj25bqn2fhq";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.1.1.tar";
+        sha256 = "00bx08fffn98p22p3zmfbfjj8hcaf2n9jbapc1ia4nkd7h0v00cp";
       };
       packageRequires = [
         persist
@@ -4731,10 +4731,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.26.1";
+      version = "1.28.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/php-mode-1.26.1.tar";
-        sha256 = "151hk9kmwlaq243qfwh2s1vqk5xsyikl9gj5b65ywhhf326dirz1";
+        url = "https://elpa.nongnu.org/nongnu/php-mode-1.28.0.tar";
+        sha256 = "1vmwb391l67517iwkvf7fpy4jxpbdf7w7nk42m615i0gvbizvfym";
       };
       packageRequires = [ ];
       meta = {
@@ -5154,10 +5154,10 @@
     elpaBuild {
       pname = "sapling";
       ename = "sapling";
-      version = "0.2.2";
+      version = "0.2.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/sapling-0.2.2.tar";
-        sha256 = "0mz8ddp9hz6vdxsrpjgfa75xpcrnjdvigdysbrby00b3q1ab4j00";
+        url = "https://elpa.nongnu.org/nongnu/sapling-0.2.3.tar";
+        sha256 = "18jgajkzbmgqix11qr5j5wm1zrnv52lqwyd2s81ri9dfd7kq3xxi";
       };
       packageRequires = [ ];
       meta = {
