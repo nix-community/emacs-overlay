@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.7.0.20260811.3";
+      version = "3.7.0.20260825.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.7.0.20260811.3.tar";
-        sha256 = "1pza7ylyj1hdx18i9l9j4y8sxmm8dd28c6sq6j78lqd9drjbf7ki";
+        url = "https://elpa.gnu.org/devel/consult-3.7.0.20260825.4.tar";
+        sha256 = "0jnq6qfn251kkshdzj32w0n2krsciapfcsp5wslpw9csrz6gk2fy";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6179,10 +6179,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.10.0.0.20260814.0";
+      version = "0.10.0.0.20260825.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.10.0.0.20260814.0.tar";
-        sha256 = "1h68z9f3b1icmfmr11smqsa7112sraq49pvv5hvz20qfxsj774nl";
+        url = "https://elpa.gnu.org/devel/minuet-0.10.0.0.20260825.1.tar";
+        sha256 = "1h6fnnbb5ixjxi4bmd5aykcc15svjqqpsc5i34r5z2d03ni33xg0";
       };
       packageRequires = [
         dash
