@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.12.0.20260816.0";
+      version = "1.12.0.20260825.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.12.0.20260816.0.tar";
-        sha256 = "0hyxv4jy24hs213sdpq5a6rjllhwi96ahmy82k1y1fc7f3b38y9d";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.12.0.20260825.2.tar";
+        sha256 = "1d1yz6jy9d3sgdsd3i0nhlj61c8c0wfmmicq2caqw2dc833z4z08";
       };
       packageRequires = [
         compat
@@ -2853,10 +2853,10 @@
     elpaBuild {
       pname = "gruvbox-theme";
       ename = "gruvbox-theme";
-      version = "1.30.1.0.20250117.22202";
+      version = "1.30.3.0.20260826.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gruvbox-theme-1.30.1.0.20250117.22202.tar";
-        sha256 = "17cqq6yazkaclqa2p45ihrap2399vymbnaisi7c1syqxpyayz431";
+        url = "https://elpa.nongnu.org/nongnu-devel/gruvbox-theme-1.30.3.0.20260826.1.tar";
+        sha256 = "1k512h9093glka7drgzfazz7hi52qilh9nrry1skk51k04g80mis";
       };
       packageRequires = [ autothemer ];
       meta = {
@@ -5373,10 +5373,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260825.57";
+      version = "2.32snapshot0.20260825.58";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260825.57.tar";
-        sha256 = "0gsqprhhifj0w6n9mhsjj7p1k59h0cjkqn2nc8hsk0bbhdc2s3cf";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260825.58.tar";
+        sha256 = "0jy1lc6pc19v2kn3nzqlfvdd03syv6x6jl4yz9dbgnlrg8vzrh72";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -5521,10 +5521,10 @@
     elpaBuild {
       pname = "standard-keys-mode";
       ename = "standard-keys-mode";
-      version = "1.0.0.0.20260105.112114";
+      version = "1.0.1.0.20260825.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/standard-keys-mode-1.0.0.0.20260105.112114.tar";
-        sha256 = "0haqds9h15rk61rnwrs0a37gwhm1gm4j6fj9a9i7fkvca2qfyb3d";
+        url = "https://elpa.nongnu.org/nongnu-devel/standard-keys-mode-1.0.1.0.20260825.0.tar";
+        sha256 = "0g3s4agfc2jsr8lc1ybx954q32x36kgaz1chwbn8yk8msg2jzb1i";
       };
       packageRequires = [ ];
       meta = {

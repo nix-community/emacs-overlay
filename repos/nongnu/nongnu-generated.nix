@@ -2871,10 +2871,10 @@
     elpaBuild {
       pname = "gruvbox-theme";
       ename = "gruvbox-theme";
-      version = "1.30.1";
+      version = "1.30.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gruvbox-theme-1.30.1.tar";
-        sha256 = "1y30aahdxzdfmj021vbrz4zmdq6lr9k08hna9i1a8g4cywgbz8ri";
+        url = "https://elpa.nongnu.org/nongnu/gruvbox-theme-1.30.3.tar";
+        sha256 = "1g2drp4gx7z5qaxpfira0xrc2mhrqbda0ag32zbdyrv1jcw6h9im";
       };
       packageRequires = [ autothemer ];
       meta = {
@@ -5508,7 +5508,6 @@
   ) { };
   standard-keys-mode = callPackage (
     {
-      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -5516,12 +5515,12 @@
     elpaBuild {
       pname = "standard-keys-mode";
       ename = "standard-keys-mode";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/standard-keys-mode-1.0.0.tar";
-        sha256 = "1c673y9xaw3i09ihhx7qbixm7rvyynxkv304wafrv7aflrzqranj";
+        url = "https://elpa.nongnu.org/nongnu/standard-keys-mode-1.0.1.tar";
+        sha256 = "0a9gmgr1rzaggyskpxwq47f7fh6rv04qwp1h7mnapzz8004635x1";
       };
-      packageRequires = [ compat ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/standard-keys-mode.html";
         license = lib.licenses.free;
