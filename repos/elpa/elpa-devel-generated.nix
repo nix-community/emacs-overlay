@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.7.0.20260825.4";
+      version = "3.7.0.20260826.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.7.0.20260825.4.tar";
-        sha256 = "0jnq6qfn251kkshdzj32w0n2krsciapfcsp5wslpw9csrz6gk2fy";
+        url = "https://elpa.gnu.org/devel/consult-3.7.0.20260826.5.tar";
+        sha256 = "1fvw60l0hdpdmpzqwa6rr34l52q7pla1znw1bbldsbzrcsj5a6b5";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1742,6 +1742,27 @@
       ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/counsel.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  cperl-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "cperl-mode";
+      ename = "cperl-mode";
+      version = "32.0.50.0.20260825.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/cperl-mode-32.0.50.0.20260825.0.tar";
+        sha256 = "1ibdd0695wp60gdwmcpfqiccqslp465visgcy66lwmnhdg7llgx7";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/cperl-mode.html";
         license = lib.licenses.free;
       };
     }

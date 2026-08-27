@@ -1722,6 +1722,27 @@
       };
     }
   ) { };
+  cperl-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "cperl-mode";
+      ename = "cperl-mode";
+      version = "32.0.50";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/cperl-mode-32.0.50.tar";
+        sha256 = "0flafmn1yb8x1nnbf8nl2znmqr8sihl9l3z0blql9f0kjjk8pr4g";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/cperl-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   cpio-mode = callPackage (
     {
       elpaBuild,
