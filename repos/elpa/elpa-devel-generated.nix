@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.14.0.20260821.0";
+      version = "2.14.0.20260826.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.14.0.20260821.0.tar";
-        sha256 = "1dlj3h0y7dxj4yg0dlw65g8x973bryag9z8xv4434xaxnicj62fs";
+        url = "https://elpa.gnu.org/devel/corfu-2.14.0.20260826.6.tar";
+        sha256 = "1z3dd6k137xlplv6pcy6ql7lzfx32x3sqbfz23pfrrmh0bkrfb2f";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.1.0.0.20260822.30";
+      version = "9.1.0.0.20260826.34";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260822.30.tar";
-        sha256 = "087vsp4ljnjm0wy76pczfgdqfmiafl809hz32jpprjhnmyndna1m";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260826.34.tar";
+        sha256 = "0fyx5px94r99gv2np4g4w9dvvav1bxs3993afh2gbcp9ny3d6ncl";
       };
       packageRequires = [ ];
       meta = {
@@ -10664,10 +10664,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.13.0.20260825.1";
+      version = "2.13.0.20260826.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.13.0.20260825.1.tar";
-        sha256 = "0bc7r9dpll7jdjwflj5v530b3f69kccncyc593vwghl9ad0jbvwf";
+        url = "https://elpa.gnu.org/devel/vertico-2.13.0.20260826.9.tar";
+        sha256 = "1m3z55gsbasqrjfairslb61a1r9rjxp0l3zgn841zixsdgpgl2i3";
       };
       packageRequires = [ compat ];
       meta = {
