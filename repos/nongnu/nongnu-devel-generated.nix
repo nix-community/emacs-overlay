@@ -2108,10 +2108,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260825.27";
+      version = "40.0snapshot0.20260826.38";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260825.27.tar";
-        sha256 = "00j6xfaqpjzgln377kg4m5npml7q4asdw05p4m5rng0lz6chdzhq";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260826.38.tar";
+        sha256 = "0jx2hksqnja2yfvd193yh13kj5yinmykbljzi2ybf6d4xhj31lyz";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3032,10 +3032,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.3.3.0.20260824.5";
+      version = "0.3.3.0.20260824.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.3.0.20260824.5.tar";
-        sha256 = "0ibspdffhx2d18czpkf6myywgj0vki5z76y50d5hii77v9wnw07a";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.3.3.0.20260824.6.tar";
+        sha256 = "1ds7v3r3f98gggg6chwrsgh44xqglhpswb2hala4hk4rg462c85q";
       };
       packageRequires = [
         keymap-popup
@@ -4814,10 +4814,10 @@
     elpaBuild {
       pname = "project-nix-store";
       ename = "project-nix-store";
-      version = "0.9.0.0.20260824.4";
+      version = "0.10.0.0.20260826.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.9.0.0.20260824.4.tar";
-        sha256 = "1zx96ag0fcq51knjsml4jfl63dhparh50wq92dg5y80qz1r8q4vf";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.10.0.0.20260826.0.tar";
+        sha256 = "0pj7rv9py7zlalwr2rk9fmbq67y64ig2jn97fl1bqqlm5q5bbh11";
       };
       packageRequires = [ ];
       meta = {
