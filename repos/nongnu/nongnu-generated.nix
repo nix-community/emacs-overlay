@@ -3443,10 +3443,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.13.1";
+      version = "0.13.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/jabber-0.13.1.tar";
-        sha256 = "16w115nbbl4c381va1yrxp01hvc0ck944sj493ffivmgmha50sh9";
+        url = "https://elpa.nongnu.org/nongnu/jabber-0.13.2.tar";
+        sha256 = "09p2d8cvy3qfixl4jjrx1blj92ynzb2mhhngqkqxk7z6lk4lqcqy";
       };
       packageRequires = [
         fsm
@@ -5154,10 +5154,10 @@
     elpaBuild {
       pname = "sapling";
       ename = "sapling";
-      version = "0.2.3";
+      version = "0.3.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/sapling-0.2.3.tar";
-        sha256 = "18jgajkzbmgqix11qr5j5wm1zrnv52lqwyd2s81ri9dfd7kq3xxi";
+        url = "https://elpa.nongnu.org/nongnu/sapling-0.3.1.tar";
+        sha256 = "1ivaqz3v7rqvaaxh8151gb761a07j33rrzp63djfy6m244c0swvn";
       };
       packageRequires = [ ];
       meta = {
