@@ -4826,27 +4826,6 @@
       };
     }
   ) { };
-  project-store = callPackage (
-    {
-      elpaBuild,
-      fetchurl,
-      lib,
-    }:
-    elpaBuild {
-      pname = "project-store";
-      ename = "project-store";
-      version = "0.9.0.0.20260820.3";
-      src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-store-0.9.0.0.20260820.3.tar";
-        sha256 = "0rxw7xbfqcv1rvwi7ns9f3pgvy2i72m97gblfa8ibd3wndbw31y7";
-      };
-      packageRequires = [ ];
-      meta = {
-        homepage = "https://elpa.nongnu.org/nongnu-devel/project-store.html";
-        license = lib.licenses.free;
-      };
-    }
-  ) { };
   projectile = callPackage (
     {
       compat,
