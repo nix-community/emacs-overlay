@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260828.95";
+      version = "2.1.0snapshot0.20260828.106";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260828.95.tar";
-        sha256 = "04mx6gcb87g9wy8y9qqidk29yhj2zsrgjddjcbmk3dgj21rymlii";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260828.106.tar";
+        sha256 = "0hc5cyrxblngx1pmkdgvsd8zkrpm18v2k4qlhq9rkick464c92aa";
       };
       packageRequires = [
         clojure-mode
@@ -2108,10 +2108,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260827.43";
+      version = "40.0snapshot0.20260828.58";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260827.43.tar";
-        sha256 = "057xsg11mgh9qbjld1rz5xipccllzl0x8m29jyd277zc9nk3ixb5";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260828.58.tar";
+        sha256 = "19x8qp3kgvs6i12ri00idxl2122v3s7a8a2vqs05naxqqdsgmpf7";
       };
       packageRequires = [ seq ];
       meta = {
@@ -4836,10 +4836,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.5.0snapshot0.20260825.31";
+      version = "3.5.0snapshot0.20260828.37";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260825.31.tar";
-        sha256 = "1xg33a9784gk318qfgapy2rmah23dlasg9wy8h74cns6hjdda6yq";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260828.37.tar";
+        sha256 = "1y7r752537dm0akzh9wqnrkxaxl9fw6kkdsy14jf3rspidjlsxkn";
       };
       packageRequires = [ compat ];
       meta = {
