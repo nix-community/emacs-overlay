@@ -55,6 +55,7 @@ let
                           "nullify-read-symbol-shorthands-around-risky-intern-calls-80574.patch"
                           "01_all_treesit-0.26.patch?id=d0f47979806d9be5a190fdb4ffa1bde439b2d616"
                           "02_all_ts-query-pred.patch?id=86190bf195b3e17108372d8ad89eb57037180dd2"
+                          "CVE-2026-79992.patch"
                         ]
                         || builtins.elem patch [
                           "/nix/store/jm6hjlhhy87gwyx6dk659qq7krpc3liw-inhibit-lexical-cookie-warning-67916.patch"
