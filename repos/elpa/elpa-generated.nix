@@ -1731,10 +1731,10 @@
     elpaBuild {
       pname = "cperl-mode";
       ename = "cperl-mode";
-      version = "32.0.50";
+      version = "33.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cperl-mode-32.0.50.tar";
-        sha256 = "0flafmn1yb8x1nnbf8nl2znmqr8sihl9l3z0blql9f0kjjk8pr4g";
+        url = "https://elpa.gnu.org/packages/cperl-mode-33.0.0.tar";
+        sha256 = "0bpa8398j81pnsmyn6p4n2vh7sv6if80b22aifpg5h9kvcaz563n";
       };
       packageRequires = [ ];
       meta = {
@@ -2389,10 +2389,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.10.0";
+      version = "1.11.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/diff-hl-1.10.0.tar";
-        sha256 = "0v8nm2sx3v405fj6i5v7nnar47j6na0q5cm5za9y33n6xaw3v2yh";
+        url = "https://elpa.gnu.org/packages/diff-hl-1.11.0.tar";
+        sha256 = "13csbcsl7dfnmcwq4a7sgk0ik6l49q3pf5w6j3n11ainw37qhm2w";
       };
       packageRequires = [ cl-lib ];
       meta = {
