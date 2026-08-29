@@ -2182,15 +2182,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260828,
-    1532
+    20260829,
+    1116
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "cb6471b99623621eb56a2dad5f6f1453050d07ba",
-   "sha256": "18v1c69hz8dbbgfizk56964n7765bbyprfb9l1z0vm7iqs77qn1q"
+   "commit": "f28ca5f5e7eb718de0884412f672e4db5e01234a",
+   "sha256": "133agig6jiy0cpbmi8vf8rd3icgxb435h5ibvnmrrg15qqgw0793"
   },
   "stable": {
    "version": [
@@ -2383,15 +2383,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260827,
-    429
+    20260829,
+    155
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "3b1474f0c50cf276df1c8e4bca7cb9c00b484fd3",
-   "sha256": "1ibb6lcw8wh9d87vydva99g6x4qqsfn2pq0jkqasq19k8if3sxam"
+   "commit": "5d63bef0700e29e8c85d0bad73ca2da8233dd47a",
+   "sha256": "04dvi8v3z7f7p0233vrw0dfx6jgxq7pnlwv0sy8lf6s3nyg1gqbp"
   },
   "stable": {
    "version": [
@@ -14008,8 +14008,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20260828,
-    1412
+    20260829,
+    848
    ],
    "deps": [
     "clojure-mode",
@@ -14021,8 +14021,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "7c600c71bdf53fb2f5b7eaadc9829cab941aaf38",
-   "sha256": "1nwza5jjxfmsf5l0q0ssgayszgcqxf31clr3c37x7kvny2cvr62i"
+   "commit": "60623abc533fe7e818730fbbec9277ec0dc6c916",
+   "sha256": "19b28ymsw9jrbbbc862zcgmw9ldngmki7yz8n5zp6qd3crg6ncd8"
   },
   "stable": {
    "version": [
@@ -19610,14 +19610,14 @@
   "repo": "minad/consult",
   "unstable": {
    "version": [
-    20260826,
-    1954
+    20260829,
+    1143
    ],
    "deps": [
     "compat"
    ],
-   "commit": "1aec7822fec2724a2e4978665681992f420c29b5",
-   "sha256": "0y05xqywk37dcgx0ykcqv186nfhbjal4mjb4b9p8drs5p7a455pk"
+   "commit": "7fb35a92bb92a05b46fc363136437ffaedf3c7cb",
+   "sha256": "06am8y1q9c1271za3j0mpby232pqgg8bm0w2yc6bfqkfgn4bs8fx"
   },
   "stable": {
    "version": [
@@ -36547,14 +36547,14 @@
   "repo": "purcell/envrc",
   "unstable": {
    "version": [
-    20260828,
-    2231
+    20260829,
+    1025
    ],
    "deps": [
     "inheritenv"
    ],
-   "commit": "1089ca8215b18216832a6c1599f3610b8f47dfd5",
-   "sha256": "1n8i7d4mbgjscl6k7c6dlrdbyyfm1sv92irlafmp4f63cvh0ca66"
+   "commit": "d8dcc82e79445063485f87385c80d15ba66356b7",
+   "sha256": "0bbzk2jn3lgqakss83c2aqwywrl7mad7l3bwdv691q1jv0qaq663"
   },
   "stable": {
    "version": [
@@ -47914,14 +47914,14 @@
   "repo": "purcell/flymake-flycheck",
   "unstable": {
    "version": [
-    20250812,
-    1141
+    20260829,
+    901
    ],
    "deps": [
     "flycheck"
    ],
-   "commit": "79092d7e53277d7fe961f73b69e2d174ea3c6210",
-   "sha256": "118s1akwqx1xxcrnmj6rvqzbrh3bxqzm4mjmfnkx1vcasqfcgma7"
+   "commit": "4dd5b2ed972989128f0f1a170a97e57606004e06",
+   "sha256": "0shy77vbjlz70pd9235lg5n70rnfz4xmfkshfnnwyilhv0vx3bz3"
   },
   "stable": {
    "version": [
@@ -51237,19 +51237,19 @@
   "repo": "dangduc/fzf-native",
   "unstable": {
    "version": [
-    20260714,
-    2328
+    20260829,
+    443
    ],
-   "commit": "39dc386062d6ae942b4a7e8592d26ce11b73bf29",
-   "sha256": "04xhv90sbhsx79r6nlkcl71g8sdxcyw20856wd02d71qpf3zmxp4"
+   "commit": "6c5d4be5fb28afb00cb1aea0a3a6c4e2291957c3",
+   "sha256": "1zpvxbj9rh3f95dqy23wzpar225h3h5rbf3s29zy4ii3h2hp4nfw"
   },
   "stable": {
    "version": [
     2,
-    2
+    4
    ],
-   "commit": "39dc386062d6ae942b4a7e8592d26ce11b73bf29",
-   "sha256": "04xhv90sbhsx79r6nlkcl71g8sdxcyw20856wd02d71qpf3zmxp4"
+   "commit": "6c5d4be5fb28afb00cb1aea0a3a6c4e2291957c3",
+   "sha256": "1zpvxbj9rh3f95dqy23wzpar225h3h5rbf3s29zy4ii3h2hp4nfw"
   }
  },
  {
@@ -58607,11 +58607,11 @@
   "repo": "haskell/haskell-mode",
   "unstable": {
    "version": [
-    20260206,
-    1050
+    20260829,
+    851
    ],
-   "commit": "2dd755a5fa11577a9388af88f385d2a8e18f7a8d",
-   "sha256": "0p3xxzjfbhf14cp162iqy2jc9xn67lrj5c5wp29qd17bvk1akf7n"
+   "commit": "d252d4a6feb3b15e4d0be88e6a42b98d8f5766ba",
+   "sha256": "06ic6w36db2h0bfavwrrcnas8va95cdwfsiw736mn7m8qbcy7xli"
   },
   "stable": {
    "version": [
@@ -65552,10 +65552,10 @@
   "unstable": {
    "version": [
     20260828,
-    1551
+    1851
    ],
-   "commit": "983b8b43885c0a3aeffbe1d8ed2e7e804f7dfb7e",
-   "sha256": "06198zdjdd7k4xwij27wx7s7s5d47dqrcryz1m6052k96z5mvkdl"
+   "commit": "15d966309baf0de622749ecf3a14b2c96f611a31",
+   "sha256": "1wkc8nrsfsm6nkx4fjy7r5pbk42p088f9k4bf86697scn3pg1a93"
   },
   "stable": {
    "version": [
@@ -79293,14 +79293,14 @@
   "repo": "ltex-plus/emacs-ltex-plus",
   "unstable": {
    "version": [
-    20260626,
-    618
+    20260829,
+    845
    ],
    "deps": [
     "lsp-mode"
    ],
-   "commit": "dc617ed2a21f6453053d218601fee38d1bfd6c70",
-   "sha256": "00fnyw9s7nhkr6l4f9lv10zar13crcj5jrlq7i85py3s37xfmrbh"
+   "commit": "d0e417cb3081dc175a424f6aaaa744561000174c",
+   "sha256": "1fwvaqq8pygrr47127m89sj4z4b79ssgqgnrbaci8812db6v8cqa"
   },
   "stable": {
    "version": [
@@ -80421,15 +80421,15 @@
   "repo": "roadrunner1776/magik",
   "unstable": {
    "version": [
-    20260828,
-    1443
+    20260829,
+    131
    ],
    "deps": [
     "compat",
     "yasnippet"
    ],
-   "commit": "fb372c480d5aa671cc7ebb6e81109a81474f9684",
-   "sha256": "1hiwh4wvw674zmhhxlmlspc90a98nj0zncmqm68yczp4wrkxfyba"
+   "commit": "1f39b0b9587251441f7cfb751d47ac1a4f133e42",
+   "sha256": "1pa3vaayww8p9p3wnzx89n9nwj6gi5ikb8zxvqpwm130mys7nlv4"
   },
   "stable": {
    "version": [
@@ -95617,18 +95617,14 @@
   "url": "https://repo.or.cz/org-contacts.git",
   "unstable": {
    "version": [
-    20260828,
-    1040
+    20260829,
+    315
    ],
    "deps": [
     "org"
    ],
-   "commit": "dda8ba65f186384169b0025c0696f4a784674e0e",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2986-3086918356/nix-shell-3175-4182337869/nix-shell-3239-2286803357/git-checkout-tmp-aZFHkMaY/clone/.git/\nfatal: unable to access 'https://repo.or.cz/org-contacts.git/': Failed to connect to repo.or.cz:443 after 134345 ms: Could not connect to server\nfatal: unable to access 'https://repo.or.cz/org-contacts.git/': Recv failure: Connection reset by peer\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://repo.or.cz/org-contacts.git/': Recv failure: Connection reset by peer\nUnable to checkout dda8ba65f186384169b0025c0696f4a784674e0e from https://repo.or.cz/org-contacts.git.\n"
-   ]
+   "commit": "886d78099e4cf5ed620379b81097134fea4b8e83",
+   "sha256": "1bpg9gvia79rqy493idb78bd3ly81i0zv8vfay0a09a7i1h3drwk"
   }
  },
  {
@@ -97146,11 +97142,7 @@
     "qrencode"
    ],
    "commit": "c12c863376221827dc0634b194c5b74a60efdd57",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2986-3086918356/nix-shell-3175-4182337869/nix-shell-3239-2286803357/git-checkout-tmp-30SJqj9d/clone/.git/\nfatal: unable to access 'https://repo.or.cz/org-link-beautify.git/': Failed to connect to repo.or.cz:443 after 134327 ms: Could not connect to server\nfatal: unable to access 'https://repo.or.cz/org-link-beautify.git/': Recv failure: Connection reset by peer\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://repo.or.cz/org-link-beautify.git/': Recv failure: Connection reset by peer\nUnable to checkout c12c863376221827dc0634b194c5b74a60efdd57 from https://repo.or.cz/org-link-beautify.git.\n"
-   ]
+   "sha256": "17zbpgqsqm0caimd97hsa7nqhasxy14b62x61blzjb23apwagwkc"
   },
   "stable": {
    "version": [
@@ -106591,8 +106583,8 @@
   "repo": "dnouri/pi-coding-agent",
   "unstable": {
    "version": [
-    20260827,
-    1957
+    20260829,
+    1156
    ],
    "deps": [
     "magit-section",
@@ -106600,8 +106592,8 @@
     "md-ts-mode",
     "transient"
    ],
-   "commit": "8c62696be4fa5c9f1d92bd6c3cee080e3b71fa6e",
-   "sha256": "1gfpbhlaiw17i13645wkfy2nr2vil10ih9hnjjbsfqh8fsf1pcqi"
+   "commit": "714000113e5294d6c234144ff1ce2aebda9aa87f",
+   "sha256": "1zysx708k2bs4sbphpgnikijdvbdyka5nblrz4jf4skicm523k47"
   },
   "stable": {
    "version": [
@@ -106789,8 +106781,8 @@
   "repo": "ananthakumaran/pimacs.el",
   "unstable": {
    "version": [
-    20260826,
-    1644
+    20260829,
+    735
    ],
    "deps": [
     "compat",
@@ -106799,8 +106791,8 @@
     "timeout",
     "transient"
    ],
-   "commit": "1083724ca89bafb848bed1f3de088a6f08966b25",
-   "sha256": "0n4g0wqr82nnj6q9pc87vxnzhp19y00q3vg3fi46s9hf8ldh0av7"
+   "commit": "cfee8d4e64d6f0b142608e22f9f9a64659ce05ea",
+   "sha256": "0vrln7zbh7wlz93n5hfjd0glgi5b57mi4dcbhx6dq8v2953jb01h"
   },
   "stable": {
    "version": [
@@ -108981,11 +108973,11 @@
   "repo": "tumashu/posframe",
   "unstable": {
    "version": [
-    20260816,
-    2356
+    20260829,
+    203
    ],
-   "commit": "ec0ec37c0d6397422a07def499e87591ca037af7",
-   "sha256": "0hmvi1r4f249ww5c4rdb68n8jmrgq0jyj9zpnvqxh47dfq21xiw7"
+   "commit": "6f89c0acd29306cb2cd023418d18134cfc507800",
+   "sha256": "1xbfpmjcw2csw6d65h5k3i4kjdzmqrnc3wh1vi8rqvkqanyckxhj"
   },
   "stable": {
    "version": [
@@ -110303,14 +110295,14 @@
   "repo": "bbatsov/projectile",
   "unstable": {
    "version": [
-    20260828,
-    1346
+    20260829,
+    842
    ],
    "deps": [
     "compat"
    ],
-   "commit": "13833ea55de27370c5a3e331f59ebf433af99067",
-   "sha256": "1x2jdv9mvq8s7nk8dg1azbq7xldw907ry0dv6dc6iwlyr77s5dx0"
+   "commit": "78460349e86c96a6251a3c551119f3a4900c3ada",
+   "sha256": "08qlcwiqhiaz3vwm017pgccnmg0jjz66ppfjdbkfxf8cb3xnr5j2"
   },
   "stable": {
    "version": [
@@ -121313,14 +121305,14 @@
   "repo": "xuchunyang/shr-tag-pre-highlight.el",
   "unstable": {
    "version": [
-    20260821,
-    1012
+    20260829,
+    154
    ],
    "deps": [
     "language-detection"
    ],
-   "commit": "f2b390a6297a9bf6a4527f79527f582a1ecced66",
-   "sha256": "10lm8c7sbbrjircsc925nijh80vcpcq8fk8xlv4w5cfd4yvhlf9s"
+   "commit": "9f674822afb9ba09ce1ced776af003374d1c5ccf",
+   "sha256": "0rqq6a23j8id9fm62x9gkbx445kpi8c3hrxvv7k39jqahgzavcyn"
   },
   "stable": {
    "version": [
@@ -122612,8 +122604,8 @@
   "repo": "emacs-slack/emacs-slack",
   "unstable": {
    "version": [
-    20260828,
-    1803
+    20260829,
+    55
    ],
    "deps": [
     "alert",
@@ -122625,8 +122617,8 @@
     "ts",
     "websocket"
    ],
-   "commit": "321613e06a12c64b4f684f530bf9e9d38bc85457",
-   "sha256": "0pwpag9knwym8mb5cv5v88nyxbzgyymbyksbhp0q009alwmnp22i"
+   "commit": "9ed2e40e9a5c43a6b54d3333dde37f0d6f6e251f",
+   "sha256": "04lcjg1y756cjfc42c76s3ap0349vcwpjy4dxbq2ixbf59l8f26y"
   }
  },
  {
