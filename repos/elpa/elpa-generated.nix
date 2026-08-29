@@ -5470,10 +5470,10 @@
     elpaBuild {
       pname = "lisp-ts-mode";
       ename = "lisp-ts-mode";
-      version = "0.3.3";
+      version = "0.3.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/lisp-ts-mode-0.3.3.tar";
-        sha256 = "1y34i270mfzk7i7z2f7vzwh5wpk8k3293zls4ml08hqlrphwhpva";
+        url = "https://elpa.gnu.org/packages/lisp-ts-mode-0.3.4.tar";
+        sha256 = "1888ckzq2j6rd7564z7ks1aj86axasf5mndwmvbiw006q87wxrj6";
       };
       packageRequires = [
         compat

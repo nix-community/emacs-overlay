@@ -4802,10 +4802,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "1.0.1.0.20260808.0";
+      version = "1.0.1.0.20260828.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-1.0.1.0.20260808.0.tar";
-        sha256 = "13xgx3djv5b7sjr5amjnzbl44k8qqkp5rcfjx8m38zchgb7ximj8";
+        url = "https://elpa.gnu.org/devel/indent-bars-1.0.1.0.20260828.4.tar";
+        sha256 = "1nr8zvs5b8wg9l35ab3vksa4gwqzrq9nwiw83capr30d2ch6rj4q";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5556,10 +5556,10 @@
     elpaBuild {
       pname = "lisp-ts-mode";
       ename = "lisp-ts-mode";
-      version = "0.3.3.0.20260814.0";
+      version = "0.3.4.0.20260828.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.3.3.0.20260814.0.tar";
-        sha256 = "14y5wgn1lcffnf6gjd0haqlbh50kcy95wsg880dpp1x6cza4mhgv";
+        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.3.4.0.20260828.0.tar";
+        sha256 = "0plq42aymwg5ryck5rb9bk6h38njm93qnnmlav2jr9hsgdyrkm5a";
       };
       packageRequires = [
         compat
@@ -6844,10 +6844,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.3.0.20260828.8";
+      version = "1.3.0.20260829.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.3.0.20260828.8.tar";
-        sha256 = "06hkbn5vppi84l92sx6c52x47vigh1zz7dqphihz5ybafhsp31yw";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.3.0.20260829.10.tar";
+        sha256 = "1jbkl7jdazmrgcwf7i1xwlf2lzw2lxx2c7rb4llilqm6d9f8v8l3";
       };
       packageRequires = [ org ];
       meta = {
@@ -7681,10 +7681,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.2.0.20260816.2";
+      version = "1.5.2.0.20260829.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.5.2.0.20260816.2.tar";
-        sha256 = "17x7pq3inb2d8bjg5cjshzz2zmfxwk4rph5nhzfmn04mwi1d9snn";
+        url = "https://elpa.gnu.org/devel/posframe-1.5.2.0.20260829.4.tar";
+        sha256 = "1yikgaizz2jy523jz8kl630blb5f6932s21wn6hjav144i7s1wv1";
       };
       packageRequires = [ ];
       meta = {
