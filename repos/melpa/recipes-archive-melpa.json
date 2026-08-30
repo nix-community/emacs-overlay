@@ -8091,15 +8091,15 @@
   "repo": "pastor/ben.el",
   "unstable": {
    "version": [
-    20260803,
-    928
+    20260830,
+    827
    ],
    "deps": [
     "inheritenv",
     "seq"
    ],
-   "commit": "d98b5be60d52d00a4808c25762cd0b51b516bb59",
-   "sha256": "17pcdzdlsah3103y2q3hikv28hcvb0jny5zg5lv364dx1ilva8bq"
+   "commit": "8cd9b28a43a392f2bd2c83f6fddafb603f9ec35c",
+   "sha256": "0y0axmklprfsr0icilbabfr1gl351ib62jx7lmg3liadnqqnmyi8"
   },
   "stable": {
    "version": [
@@ -9990,11 +9990,11 @@
   "repo": "ascii-boxes/boxes",
   "unstable": {
    "version": [
-    20241003,
-    847
+    20260829,
+    1932
    ],
-   "commit": "bae35281d0f814c704ef4a174a5f734541e1f457",
-   "sha256": "028vg9h3vxz3icy7hmxgyqhn62953h1ls6bxwbhdwhl1lpj5py3n"
+   "commit": "cebddf7abf4d6a5e0846678263f9e420424b57bd",
+   "sha256": "0fk3yx1y745mk0mz9mjnk9cc693f8j0572qhpvrx53rsidazjhkn"
   },
   "stable": {
    "version": [
@@ -44652,14 +44652,14 @@
   "repo": "flycheck/flycheck",
   "unstable": {
    "version": [
-    20260829,
-    1425
+    20260830,
+    713
    ],
    "deps": [
     "seq"
    ],
-   "commit": "9d2b46a99e660e29de01eb937125d2aae2f1ecb7",
-   "sha256": "0hc5fjfbrqkb9j97axghvrn9vx1dyprrd762qgw669zqlzqvp7hd"
+   "commit": "a3efd0b562162913b73ad9df0f364e95893a3e41",
+   "sha256": "10k420y02qyhj06q0pvhh7rmhaipx2kw6nk0h3rr6qpb9ng193ib"
   },
   "stable": {
    "version": [
@@ -65551,11 +65551,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20260828,
-    1851
+    20260830,
+    355
    ],
-   "commit": "15d966309baf0de622749ecf3a14b2c96f611a31",
-   "sha256": "1wkc8nrsfsm6nkx4fjy7r5pbk42p088f9k4bf86697scn3pg1a93"
+   "commit": "c04b4bc12a8096a389fa8d1bccf4a351139ca1e9",
+   "sha256": "0s4md2zynfwzrzqz74xmk1ihc7mgwzw5pvp8rzsybpyv89x729wb"
   },
   "stable": {
    "version": [
@@ -70167,25 +70167,25 @@
   "repo": "sarg/wifi-manager",
   "unstable": {
    "version": [
-    20260113,
-    1101
+    20260830,
+    545
    ],
    "deps": [
     "promise"
    ],
-   "commit": "e947dff1f5593b3b01b380cc195108649392b89a",
-   "sha256": "1kfcxbjx1xgqbxx3s921nbkk1fqhndr91cckps5wk12d3mh98lqw"
+   "commit": "c3d53040c7be1222bab8b80a9646eac7dd9cc522",
+   "sha256": "110p1hbpzzi0fimkibw4ac8vxxim2piaa1063badxkcnkwr5zs8l"
   },
   "stable": {
    "version": [
     0,
-    2
+    3
    ],
    "deps": [
     "promise"
    ],
-   "commit": "e947dff1f5593b3b01b380cc195108649392b89a",
-   "sha256": "1kfcxbjx1xgqbxx3s921nbkk1fqhndr91cckps5wk12d3mh98lqw"
+   "commit": "c3d53040c7be1222bab8b80a9646eac7dd9cc522",
+   "sha256": "110p1hbpzzi0fimkibw4ac8vxxim2piaa1063badxkcnkwr5zs8l"
   }
  },
  {
@@ -106781,8 +106781,8 @@
   "repo": "ananthakumaran/pimacs.el",
   "unstable": {
    "version": [
-    20260829,
-    735
+    20260830,
+    342
    ],
    "deps": [
     "compat",
@@ -106791,13 +106791,13 @@
     "timeout",
     "transient"
    ],
-   "commit": "cfee8d4e64d6f0b142608e22f9f9a64659ce05ea",
-   "sha256": "0vrln7zbh7wlz93n5hfjd0glgi5b57mi4dcbhx6dq8v2953jb01h"
+   "commit": "cd3c5c4d823c31896b141751cd551d09116478f6",
+   "sha256": "01zc82pqw4jp61l95aqkp51jihhiy79rrsp4xdish488xgq58i62"
   },
   "stable": {
    "version": [
     0,
-    5,
+    6,
     0
    ],
    "deps": [
@@ -106807,8 +106807,8 @@
     "timeout",
     "transient"
    ],
-   "commit": "7177af78bc67dccbff1705e623b823bd9c13da60",
-   "sha256": "0m2h7ncx328ihhxij4jqjfrcqd0l90raq0rdbjbx99k06yk7qxa4"
+   "commit": "cd3c5c4d823c31896b141751cd551d09116478f6",
+   "sha256": "01zc82pqw4jp61l95aqkp51jihhiy79rrsp4xdish488xgq58i62"
   }
  },
  {
@@ -112939,11 +112939,11 @@
   "repo": "psaris/q-mode",
   "unstable": {
    "version": [
-    20260828,
-    306
+    20260830,
+    248
    ],
-   "commit": "6430b36140ca9fac0109bbb63efa7b9cc27edf62",
-   "sha256": "04xnmzr38p36f654frd26jln2mfxc5zxjgizymz725r8bvhwz2i6"
+   "commit": "0c9656d5bf80e998b4de426ee1885c724a3c5b43",
+   "sha256": "1d7m7liib6xmzasa0a9gfnb772w9f6i8jgmzdi8q6an7kabl7ynv"
   }
  },
  {
@@ -132201,11 +132201,11 @@
   "repo": "bbatsov/tokyo-night-emacs",
   "unstable": {
    "version": [
-    20260729,
-    1522
+    20260830,
+    821
    ],
-   "commit": "e8e33fc282ccbeebe01f883fc0cd55ab9897321a",
-   "sha256": "013lfm8p46wpnz7jmkcjj9r9wdbfj5198qa1755qi82wy8yzpis3"
+   "commit": "390620dc6a6b76686437bbfa3d9cd7fde0ccb10b",
+   "sha256": "0az0i74hrm90mj4lkc1p7fqm5mmkas1k5ypndxavp9y8393z0i5f"
   },
   "stable": {
    "version": [
@@ -137620,14 +137620,14 @@
   "repo": "minad/vertico",
   "unstable": {
    "version": [
-    20260828,
-    1545
+    20260830,
+    123
    ],
    "deps": [
     "compat"
    ],
-   "commit": "a7425c2865d2dbc36d8a12e09695b278b0142637",
-   "sha256": "1qfd4naf2hxc3pv294lfqj0n7nl3f2bb0g770z9k2h1qb4yy4cn1"
+   "commit": "cd2eb6daff6a5a68a11740aa363729ec6f8702d3",
+   "sha256": "0q5sa9l40f5vjwndidchajbnmarz1qbrfis77hjjcwn50qblhqs4"
   },
   "stable": {
    "version": [
