@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.12";
+      version = "1.13";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.12.tar";
-        sha256 = "0hqmc412wgkv6lyx2pcsnkciiif177yhd9k22acywii9i338b0cw";
+        url = "https://elpa.nongnu.org/nongnu/aidermacs-1.13.tar";
+        sha256 = "0ikwyyfq67zqkd6kxgvgscbhdgmy8lwb86sq8bq1yw9xdrbj9mng";
       };
       packageRequires = [
         compat
@@ -3049,10 +3049,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.4.0";
+      version = "0.4.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hermes-0.4.0.tar";
-        sha256 = "1y4d63sa9yip1hfx0vf9a61wa1fsshh9z2ps7f31lyqdizbqfijl";
+        url = "https://elpa.nongnu.org/nongnu/hermes-0.4.2.tar";
+        sha256 = "00d5rj45f2axy4sai24a1gj1pj9wgqrcr8k4wwmxxj54m3ba2vdb";
       };
       packageRequires = [
         keymap-popup
@@ -5150,16 +5150,17 @@
       elpaBuild,
       fetchurl,
       lib,
+      transient,
     }:
     elpaBuild {
       pname = "sapling";
       ename = "sapling";
-      version = "0.3.1";
+      version = "0.3.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/sapling-0.3.1.tar";
-        sha256 = "1ivaqz3v7rqvaaxh8151gb761a07j33rrzp63djfy6m244c0swvn";
+        url = "https://elpa.nongnu.org/nongnu/sapling-0.3.2.tar";
+        sha256 = "05cs0mc1129bpffach5kl73kpd33a6lj5vvr33fggcspv9ddxbv4";
       };
-      packageRequires = [ ];
+      packageRequires = [ transient ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu/sapling.html";
         license = lib.licenses.free;
