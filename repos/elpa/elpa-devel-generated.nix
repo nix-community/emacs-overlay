@@ -2795,10 +2795,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1.0.20260827.21";
+      version = "1.2.1.0.20260831.22";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260827.21.tar";
-        sha256 = "079z97jrjrmr5rmfccvzxaf69p1g0pxikgsbpydvajjfxvlkp3v0";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260831.22.tar";
+        sha256 = "02rijrnypn843ykm79mr9a9njrlxylq9177pin2m1gnpznggbpnv";
       };
       packageRequires = [ ];
       meta = {
@@ -5875,10 +5875,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.12.0.20260821.0";
+      version = "2.12.0.20260831.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.12.0.20260821.0.tar";
-        sha256 = "0iz8ca0yv7jh55kj6pas7va0w1ngklfzd380jg2ws7n4iq47af4n";
+        url = "https://elpa.gnu.org/devel/marginalia-2.12.0.20260831.1.tar";
+        sha256 = "1bl51km3sd50k7v6crvvdksszvmanz1zqylgp3dc2bdq4vhqircs";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6267,10 +6267,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260829.36";
+      version = "5.3.0.0.20260831.40";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260829.36.tar";
-        sha256 = "06vj4d79678wxm71id3knkcq3vlhaqp16rjhxxr6j4s7x24dl1yn";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260831.40.tar";
+        sha256 = "03h37iwn96l8mkr5k2gkgxl45arb3ncjv9iin482r1nwxfv8qjs6";
       };
       packageRequires = [ ];
       meta = {
