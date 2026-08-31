@@ -2389,10 +2389,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.11.0";
+      version = "1.11.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/diff-hl-1.11.0.tar";
-        sha256 = "13csbcsl7dfnmcwq4a7sgk0ik6l49q3pf5w6j3n11ainw37qhm2w";
+        url = "https://elpa.gnu.org/packages/diff-hl-1.11.1.tar";
+        sha256 = "10c6iji6yhb1c20a94n7inmf12fwwn0a7yyna3yyx0j5fvb8c393";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -6731,10 +6731,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.8.6";
+      version = "9.8.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.8.6.tar";
-        sha256 = "0j0r9lagfx7gsa6wwka2x6gx4gkkjynwn1q7i3agk7jf19gjc24c";
+        url = "https://elpa.gnu.org/packages/org-9.8.10.tar";
+        sha256 = "079z8vn3n5fdcnka4wfwgz5sqskr1mki0g8bxpv7klpiqkars2l9";
       };
       packageRequires = [ ];
       meta = {
@@ -9733,10 +9733,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.2.1";
+      version = "2.8.2.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.8.2.1.tar";
-        sha256 = "121xc75dpdyqcq94bqgmx7yq7xmy885ms3jd6x93yp8iaabi2np8";
+        url = "https://elpa.gnu.org/packages/tramp-2.8.2.2.tar";
+        sha256 = "1ci3yr79dic248b40iisgkp2vbq2yl5va20rwv9px4h20n8k70k8";
       };
       packageRequires = [ ];
       meta = {
