@@ -566,10 +566,10 @@
     elpaBuild {
       pname = "casual";
       ename = "casual";
-      version = "3.0.1.0.20260817.0";
+      version = "3.0.2.0.20260831.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/casual-3.0.1.0.20260817.0.tar";
-        sha256 = "1nk320k67l1c734d4n3axszn3fbbshzz2hlpww1r5b8xa7bnffrv";
+        url = "https://elpa.nongnu.org/nongnu-devel/casual-3.0.2.0.20260831.0.tar";
+        sha256 = "1rby91bcy386fgjqcag790020g6x95ss4km43ib1i8sp6k7bn5z4";
       };
       packageRequires = [
         csv-mode
@@ -2108,10 +2108,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260831.75";
+      version = "40.0snapshot0.20260831.77";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260831.75.tar";
-        sha256 = "1agcpnig0ikh4fm44sl1nr4pqpvf5hys0z2y85z52vdacac6jniv";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260831.77.tar";
+        sha256 = "1b28fybggf596zzmn7csa9756f3bjhpc1h1vf29867fkq5dvlnqy";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3032,10 +3032,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.4.2.0.20260830.0";
+      version = "0.4.2.0.20260831.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.4.2.0.20260830.0.tar";
-        sha256 = "0xa9b8b6a72rzk4za6dj8blyp9ppvfpp9ixjmiscis58pb6x1v04";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.4.2.0.20260831.5.tar";
+        sha256 = "0xyblmpprjnnz65zijxql9wr7b39acgr4l3lapqpxkqsb5lwlz4n";
       };
       packageRequires = [
         keymap-popup
