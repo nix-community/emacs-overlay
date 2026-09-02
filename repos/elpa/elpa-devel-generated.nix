@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260830.71";
+      version = "14.1.2.0.20260901.72";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260830.71.tar";
-        sha256 = "060faw4aymffp0wfy7ynzk74bdw0y1fzvv0l740rv5k8yh3qjbb4";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260901.72.tar";
+        sha256 = "12zjdv131gzx8gcvpgf9z3cv3rddhqndhpc1mbim37bla1msk5kn";
       };
       packageRequires = [ ];
       meta = {
@@ -2210,10 +2210,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.3.0.0.20260520.123505";
+      version = "0.3.0.0.20260902.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-org-0.3.0.0.20260520.123505.tar";
-        sha256 = "12g38pk2vg1g1p9b847r4aisxxr9l36rsbgg1s4aqavd2cd3b00g";
+        url = "https://elpa.gnu.org/devel/denote-org-0.3.0.0.20260902.3.tar";
+        sha256 = "03rbh621ygr67yq2ngdw52wqlfigb6rakswkkvy023p5j34a721p";
       };
       packageRequires = [ denote ];
       meta = {
@@ -3047,10 +3047,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.24.0.20260817.14";
+      version = "1.24.0.20260902.18";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260817.14.tar";
-        sha256 = "1d1kcs2ramg4bmgxkjd25515xnahs5w378179af3g2i0mv0ahdcp";
+        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260902.18.tar";
+        sha256 = "0fbsi92nphfrv9bfm5fi24p3vxyvni98fcc7h994r5j5aws2wjzq";
       };
       packageRequires = [
         eldoc
@@ -11251,10 +11251,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20260403.13314";
+      version = "1.7.0.0.20260831.44";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260403.13314.tar";
-        sha256 = "0kqvbp3z7srgx7aypjdqw7rrd7dcnsfhwwvg3kyqjyzjpqqhwhwh";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260831.44.tar";
+        sha256 = "157x731lj5psv08b5q1vlvxfhdm69kvhwcw55b3cbmlrqzs1isk6";
       };
       packageRequires = [ ];
       meta = {
