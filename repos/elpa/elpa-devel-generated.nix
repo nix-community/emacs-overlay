@@ -2795,10 +2795,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1.0.20260901.24";
+      version = "1.2.1.0.20260901.25";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260901.24.tar";
-        sha256 = "17xcld8bkiszf2f1lslm2wpgdxpdv1z7gzy1x7vw1s071sy7isj9";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260901.25.tar";
+        sha256 = "06ihjcs87xq21rrglj8jxqyvcy8w3mvkrsx1985g872zr28n8991";
       };
       packageRequires = [ ];
       meta = {
@@ -5264,10 +5264,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.3.0.20260823.0";
+      version = "0.4.3.0.20260901.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.3.0.20260823.0.tar";
-        sha256 = "10jbp4szl7w96f24nrsl50ga841l3fzac8wd1gf0755ssqrilwj9";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.3.0.20260901.1.tar";
+        sha256 = "06b5j784fs19v5mnp0nzy57lzf3134czkp7ca10xgfp9wwih0gfw";
       };
       packageRequires = [ ];
       meta = {
@@ -6267,10 +6267,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260901.41";
+      version = "5.3.0.0.20260901.42";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260901.41.tar";
-        sha256 = "0m7cqkimaqmj5yij6mnxw8j5w3gsdkgh4zh849kss7mycnkmnyv3";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260901.42.tar";
+        sha256 = "0nrcdixf8zhmcsqp573vsj6pqj1y55i5ckyb7fhlzc6z7zagzdhq";
       };
       packageRequires = [ ];
       meta = {
@@ -10062,10 +10062,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.7.0.20260825.3";
+      version = "0.13.8.0.20260901.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.7.0.20260825.3.tar";
-        sha256 = "0vma5f0qxyp5kn38xqzb11ali3kqalbxx8rzqxvmavyy6c2amgck";
+        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20260901.0.tar";
+        sha256 = "1qlkj33qghjxbz7712kj0n1xw24m2vz8ffhrag2fzyph4qx5a9v1";
       };
       packageRequires = [
         compat
