@@ -16,6 +16,8 @@ in
 , defaultInitFile ? false
 # emulate `use-package-always-ensure` behavior (defaulting to false)
 , alwaysEnsure ? false
+# emulate `use-package-always-pin` behavior (defaulting to false)
+, alwaysPin ? false
 # emulate `#+PROPERTY: header-args:emacs-lisp :tangle yes`
 , alwaysTangle ? false
 , extraEmacsPackages ? epkgs: [ ]
@@ -45,7 +47,7 @@ let
       else throw "Unsupported type for config: \"${type}\"";
 
   packages = parse.parsePackagesFromUsePackage {
-    inherit configText isOrgModeFile alwaysTangle alwaysEnsure;
+    inherit configText isOrgModeFile alwaysTangle alwaysEnsure alwaysPin;
   };
   emacsPackages = (pkgs.emacsPackagesFor package).overrideScope (self: super:
     # for backward compatibility: override was a function with one parameter
@@ -62,7 +64,23 @@ let
 in
 emacsWithPackages (epkgs:
   let
-    usePkgs = map (name: epkgs.${name} or (mkPackageError name)) packages;
+    pkgArchives = {
+      "gnu" = "elpaPackages";
+      "nongnu" = "nongnuPackages";
+      "gnu-devel" = "elpaDevelPackages";
+      "nongnu-devel" = "nongnuDevelPackages";
+      "melpa" = "melpaPackages";
+      "melpa-stable" = "melpaStablePackages";
+    };
+    usePkgs = map (pkg:
+      let
+        archive = pkgArchives.${pkg.archive};
+        name = pkg.name;
+      in
+      if pkg.archive != null
+      then epkgs.${archive}.${name} or (mkPackageError "${archive}.${name}")
+      else epkgs.${name} or (mkPackageError name))
+      packages;
     extraPkgs = extraEmacsPackages epkgs;
     defaultInitFilePkg =
       if !((builtins.isBool defaultInitFile) || (lib.isDerivation defaultInitFile))
