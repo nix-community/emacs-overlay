@@ -2383,15 +2383,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260829,
-    155
+    20260902,
+    116
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "5d63bef0700e29e8c85d0bad73ca2da8233dd47a",
-   "sha256": "04dvi8v3z7f7p0233vrw0dfx6jgxq7pnlwv0sy8lf6s3nyg1gqbp"
+   "commit": "3b0801943e3b0fe92e40607083c8e6c01263cbc7",
+   "sha256": "03v1iqqgd96pqsk250qn0rmyqbxrd3lgm4ii2rf81n3zqw8bydfp"
   },
   "stable": {
    "version": [
@@ -5666,14 +5666,14 @@
   "repo": "abdulnafe-t/auto-capitalize.el",
   "unstable": {
    "version": [
-    20260901,
-    2015
+    20260902,
+    719
    ],
    "deps": [
     "compat"
    ],
-   "commit": "fe92be48b596d3801cad99a74bb2c486d164ed77",
-   "sha256": "1mcjxp2dbzagnpch8jq71nvj0ar6zj3f1f9bawz9ayv5hfwcagjx"
+   "commit": "9c39ff326a67c533db23c28365376c240cd85c30",
+   "sha256": "103159pa5n1iycw8n1jmcdg5sdsfpx4hbp9hszn6yn41lpgknyip"
   },
   "stable": {
    "version": [
@@ -7702,10 +7702,10 @@
   "unstable": {
    "version": [
     20260901,
-    1652
+    2322
    ],
-   "commit": "a26a0c5c66910743a9e78b258c7a31b487c32fb6",
-   "sha256": "13i5mhys1an4qgx1hpr08xhf57ff3a5n7f3fqimfyy6hk0jdwzws"
+   "commit": "27afdb862c2f5266a7f9d621a43f8af75df34712",
+   "sha256": "1irdm0ks1cgw505ia1wqr2awhlphrj1xd1605yzczjdy60sxjs65"
   },
   "stable": {
    "version": [
@@ -28937,16 +28937,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20260828,
-    1146
+    20260902,
+    808
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "6f911e982bdf5518f8416b15a3e845909d219f59",
-   "sha256": "0ky8y43y4pci1pdlnf20ymz78jvy924wbwcqav8c5d69b4zjyqjc"
+   "commit": "adbd6325be5f84eafbc85efb5685452a5ba489bf",
+   "sha256": "07pqhg3bq6pbmjs0ax8fdskqji4y65c8zb4jc86z9zscggkyylg7"
   },
   "stable": {
    "version": [
@@ -32991,11 +32991,11 @@
   "repo": "Mstrodl/elcord",
   "unstable": {
    "version": [
-    20260506,
-    2048
+    20260902,
+    44
    ],
-   "commit": "033be3dc076fdb3de335d3b12bac5f783ebec820",
-   "sha256": "0x17jrv7pblrd8r2kgky1ndwi8fnz8p88hd6hmghdrwbl7ffpdlw"
+   "commit": "e151753674883cc1420279981c0f719332122ea1",
+   "sha256": "0gpfvp6gshcwf5vj0ywf1lspkx89m4q62hc68c1jjhwswnbamr92"
   }
  },
  {
@@ -50836,14 +50836,14 @@
   "repo": "OverbearingPearl/full-gtd",
   "unstable": {
    "version": [
-    20260901,
-    1936
+    20260902,
+    356
    ],
    "deps": [
     "org"
    ],
-   "commit": "3fff0631a1f953cb00c9482714ce3f2f8a829084",
-   "sha256": "1rlmka2pdilkx6j24jw74v0j5v6cllcbbkk7c9mfvlnq21l0iyhf"
+   "commit": "b277a4f3cfce978a2721645e03bb39938be6522c",
+   "sha256": "1i8kjjfi3rm9q1zp90jcm53928pkz0k04fgp10pzbw5ca1gs3gg5"
   },
   "stable": {
    "version": [
@@ -80359,8 +80359,8 @@
   "repo": "Jamie-Cui/magent",
   "unstable": {
    "version": [
-    20260901,
-    1102
+    20260902,
+    503
    ],
    "deps": [
     "acp",
@@ -80369,8 +80369,8 @@
     "gptel",
     "yaml"
    ],
-   "commit": "43cc580fde2a655759d210426c558d0312597abf",
-   "sha256": "03fibyfs1694380bq36ka6hqi9fxmcjvb67klynbw9b7lyys909l"
+   "commit": "40d8e092ed97024ebd4c496fd1a19eedb8f0225a",
+   "sha256": "1x479701ljgs7w624dfi9y2sal490qjdffj6hly0y2psnmiykb0b"
   }
  },
  {
@@ -99384,7 +99384,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2771-36803178/nix-shell-2960-1062551248/nix-shell-3024-2169675089/git-checkout-tmp-h8IcrxPK/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2990-2707388839/nix-shell-3184-3439487269/nix-shell-3248-477170999/git-checkout-tmp-prAq9yWl/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -119819,11 +119819,11 @@
   "repo": "Anoncheg/selected-window-contrast",
   "unstable": {
    "version": [
-    20260330,
-    1542
+    20260902,
+    601
    ],
-   "commit": "ccf6687020dae9a6c36af4a5ae53e79d56ad8719",
-   "sha256": "1f249nwkl3hqk5dyh1j21wqzg503cxd69ppfd9qb6p364lxmq3rv"
+   "commit": "484a21c502eb3d136008e45b36112b0fb0a77aad",
+   "sha256": "0nmwsd2qy2wwzm7q1jabb9yqcb446qr00qfsyr09b0l8w7slmjlc"
   },
   "stable": {
    "version": [
@@ -132236,11 +132236,11 @@
   "repo": "topikettunen/tok-theme",
   "unstable": {
    "version": [
-    20260216,
-    949
+    20260902,
+    930
    ],
-   "commit": "f2af92c73108a55c383f3687b96b21e7f89e0782",
-   "sha256": "14giqd950j0cvciiw5rfq1yisagf22ar6y3ii820wgmns1dw3nhc"
+   "commit": "8f69cc911866ac2520da6b9a10db80970b744541",
+   "sha256": "0l0rwl1kqbvzg1d5yxcard1vk4sapj75r1n5sfb7p9z8mhbd6bp4"
   }
  },
  {
@@ -134952,11 +134952,15 @@
   "repo": "md-arif-shaikh/tzc",
   "unstable": {
    "version": [
-    20260212,
-    715
+    20260902,
+    356
    ],
-   "commit": "05f97298e7b20aefb41c16abe3eeae162dd1e2f9",
-   "sha256": "1xjqyspyjhvf1cq0jsaglggz2l6mwf8yd8vh13gi8vzfch2yv1vy"
+   "deps": [
+    "org",
+    "transient"
+   ],
+   "commit": "26e9627f572f724273c920bd83df5f676ff45871",
+   "sha256": "08yzi7zjaxc2ri90w9q614hfxfjic590ivx601c4824axsfj6585"
   },
   "stable": {
    "version": [
