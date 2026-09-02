@@ -694,10 +694,10 @@
     elpaBuild {
       pname = "codex-ide";
       ename = "codex-ide";
-      version = "0.1.1.0.20260829.3";
+      version = "0.1.2.0.20260902.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.1.1.0.20260829.3.tar";
-        sha256 = "0mgi1k6jkw5xw2bh2gv0lj0bs8z46lskwqmfk68jhv6v04mpdylb";
+        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.1.2.0.20260902.0.tar";
+        sha256 = "1h9s2b59n0vmhvhcga9m3nh5jlzbfvdblyvhb9yrgm0sf2x8j75j";
       };
       packageRequires = [
         compat
@@ -5267,10 +5267,10 @@
     elpaBuild {
       pname = "selected-window-contrast";
       ename = "selected-window-contrast";
-      version = "0.4.1.0.20260406.62115";
+      version = "0.4.1.0.20260902.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/selected-window-contrast-0.4.1.0.20260406.62115.tar";
-        sha256 = "0mwkq192jb7k5nr3gclqpy37bivkw86xmm372whbsnhpap6zlhk5";
+        url = "https://elpa.nongnu.org/nongnu-devel/selected-window-contrast-0.4.1.0.20260902.4.tar";
+        sha256 = "18s2bk77hikyh83174ynbq63n45hmm2dfh71ww4201wq3hgd3ys0";
       };
       packageRequires = [ ];
       meta = {
