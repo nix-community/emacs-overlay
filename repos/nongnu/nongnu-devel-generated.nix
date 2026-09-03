@@ -2108,10 +2108,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260901.82";
+      version = "40.0snapshot0.20260902.86";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260901.82.tar";
-        sha256 = "05s4fs4hrsq3np9ja8yq0jsh75nd340gblicwfglhmhi2dl93pk1";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260902.86.tar";
+        sha256 = "014c0k1kidv2zvqcy783cg5qf4r0iyq275zanr0danmzahm4jrms";
       };
       packageRequires = [ seq ];
       meta = {
@@ -2983,10 +2983,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260901.49";
+      version = "4.0.7.0.20260902.51";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260901.49.tar";
-        sha256 = "15raqnq9379vi92wwqas7xy04m8lpqvhf9m7mfmg8i8v08077v5h";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260902.51.tar";
+        sha256 = "1pfxlvivjdnxhpj3x48vdza1c8277vv3rrlzyr4lzwlg4pdcgnjx";
       };
       packageRequires = [
         helm-core
@@ -3008,10 +3008,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260901.49";
+      version = "4.0.7.0.20260902.51";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260901.49.tar";
-        sha256 = "0z6a0g6kg81kj8xa9rj42hmxlgxbhr52swnnp2s22sl4qy6dj6n8";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260902.51.tar";
+        sha256 = "02jgv1hn83galip8hs6vrz2pssg1i71a3p713956l87bjalydicx";
       };
       packageRequires = [ async ];
       meta = {
@@ -4730,10 +4730,10 @@
     elpaBuild {
       pname = "pinyin-isearch";
       ename = "pinyin-isearch";
-      version = "1.7.0.0.20260831.19";
+      version = "1.7.2.0.20260902.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.0.0.20260831.19.tar";
-        sha256 = "0kvnp7m74dn69qs74afpq5465k57qyd7iz3hg1835nigb5fjk00m";
+        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.2.0.20260902.4.tar";
+        sha256 = "11103q7hj1y809ks2xrc0br8ma61vmsfg6ag2naq3a6hn2am8bss";
       };
       packageRequires = [ ];
       meta = {
@@ -5417,10 +5417,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.2.0.0.20260728.0";
+      version = "2.2.0.0.20260902.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20260728.0.tar";
-        sha256 = "10kzrn8paswxziam6svzv1qq46prdq0d3q20asn9fx7a7nc6vw5s";
+        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20260902.3.tar";
+        sha256 = "090rbk52wq1kv61x8vwb6wd2zcgavwpqb4x4wq19v8jhvh6cd31j";
       };
       packageRequires = [ ];
       meta = {
@@ -5607,10 +5607,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "10.0.0.0.20260827.38";
+      version = "10.0.0.0.20260902.39";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20260827.38.tar";
-        sha256 = "18prqcmj741kng657igsjjn3vgp8jw2gcd287r3shcyp6m1jsf5i";
+        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20260902.39.tar";
+        sha256 = "1i0krxppl1xqvn3ivr986pixh2xs4q1c7m2qyr62sq50ab9hhr7s";
       };
       packageRequires = [ ];
       meta = {

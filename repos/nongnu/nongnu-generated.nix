@@ -4752,10 +4752,10 @@
     elpaBuild {
       pname = "pinyin-isearch";
       ename = "pinyin-isearch";
-      version = "1.7.0";
+      version = "1.7.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/pinyin-isearch-1.7.0.tar";
-        sha256 = "0dg1mbxm0hq0y528ypsdzadnmnpn57pv7jk0sykz26zjx7d8i8g6";
+        url = "https://elpa.nongnu.org/nongnu/pinyin-isearch-1.7.2.tar";
+        sha256 = "05ikv89b8w3yhjmf97vgqnlppycfini2fivxl5cc25865pbi2dn3";
       };
       packageRequires = [ ];
       meta = {
