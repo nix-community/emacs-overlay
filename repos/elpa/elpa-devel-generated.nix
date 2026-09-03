@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260901.72";
+      version = "14.1.2.0.20260902.73";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260901.72.tar";
-        sha256 = "12zjdv131gzx8gcvpgf9z3cv3rddhqndhpc1mbim37bla1msk5kn";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260902.73.tar";
+        sha256 = "0k18rmp6y67i0mbjdw1m4nqxf4g2mbnpqlkydrqvyq4gbyzkms4z";
       };
       packageRequires = [ ];
       meta = {
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260830.533";
+      version = "10.0pre0.20260902.534";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260830.533.tar";
-        sha256 = "0h6lk6fk56n49nw098nbrwvlagafi8vaf6qb0sr9myr263qsryih";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260902.534.tar";
+        sha256 = "1y292ijm29cn1w2s0hk9smyk4x7vxsbvjdslaldvq31ga3x15bxx";
       };
       packageRequires = [ ];
       meta = {
