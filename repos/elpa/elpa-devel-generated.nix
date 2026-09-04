@@ -2210,10 +2210,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.3.0.0.20260902.3";
+      version = "0.3.0.0.20260904.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-org-0.3.0.0.20260902.3.tar";
-        sha256 = "03rbh621ygr67yq2ngdw52wqlfigb6rakswkkvy023p5j34a721p";
+        url = "https://elpa.gnu.org/devel/denote-org-0.3.0.0.20260904.5.tar";
+        sha256 = "0mfza1g4s1qdyd248d2pqf8nln880bhypi01iakz1n4qhcsi1v0n";
       };
       packageRequires = [ denote ];
       meta = {
@@ -10664,10 +10664,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.14.0.20260903.0";
+      version = "2.14.0.20260903.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.14.0.20260903.0.tar";
-        sha256 = "15ldsx97i5gklrwz82ycinvjxj317pgbxad0jzix1nyr7yagjrbr";
+        url = "https://elpa.gnu.org/devel/vertico-2.14.0.20260903.1.tar";
+        sha256 = "1iw4784irz1nfmxw5gqzx655xc186zw4wfp67vcid38hd3icyd86";
       };
       packageRequires = [ compat ];
       meta = {
@@ -11251,10 +11251,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20260902.45";
+      version = "1.7.0.0.20260904.46";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260902.45.tar";
-        sha256 = "1nshjd37frzargvy76aaxq09f4ixyy31nyc3jqckq9bndr4w6aig";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260904.46.tar";
+        sha256 = "0gwfna0xabx4hwnj3gzb1lr3b7gqak6b1yk3rvq6whdmqqv671ax";
       };
       packageRequires = [ ];
       meta = {
