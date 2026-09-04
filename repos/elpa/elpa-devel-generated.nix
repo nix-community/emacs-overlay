@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260902.73";
+      version = "14.1.2.0.20260903.75";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260902.73.tar";
-        sha256 = "0k18rmp6y67i0mbjdw1m4nqxf4g2mbnpqlkydrqvyq4gbyzkms4z";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260903.75.tar";
+        sha256 = "19x1d2vz6vlybdlhcjzj6n0d2bfadm341gjznx68ijwrd8hgayla";
       };
       packageRequires = [ ];
       meta = {
@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.7.0.20260829.8";
+      version = "3.8.0.20260903.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.7.0.20260829.8.tar";
-        sha256 = "1ljv35vbmz4lpqwasr9xgsp9xjm3xpbvgbhh09f0ljbpcj1svp5b";
+        url = "https://elpa.gnu.org/devel/consult-3.8.0.20260903.0.tar";
+        sha256 = "1fk30x9sxj7afbkdw7mm8w9qxqnxnrks8wkibia7zhzv9z3a7x1k";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.14.0.20260828.12";
+      version = "2.15.0.20260903.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.14.0.20260828.12.tar";
-        sha256 = "0nm73haf5fl9ihzn4k3ai3788krpxn7wj8d2lgmgv9hrww1qf8gc";
+        url = "https://elpa.gnu.org/devel/corfu-2.15.0.20260903.0.tar";
+        sha256 = "0izfivch88vdwa6iaqa6xqcklvl7yxmxic6p9wsgh07g0kp6n50a";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3807,10 +3807,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.6.0.20260817.10";
+      version = "1.4.7.0.20260903.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.6.0.20260817.10.tar";
-        sha256 = "1d5c4ahap1n4kn5w852s6ind42blmqhsf6ynqxs3pcp49xi40950";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20260903.0.tar";
+        sha256 = "0ifb5h4h0z3wwqrygv1l23jw6ivvkya1sqbwm91b2rxb1gp9hf07";
       };
       packageRequires = [
         eldoc
@@ -6002,10 +6002,10 @@
     elpaBuild {
       pname = "mct";
       ename = "mct";
-      version = "1.1.1.0.20260629.0";
+      version = "1.1.1.0.20260903.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mct-1.1.1.0.20260629.0.tar";
-        sha256 = "1dff7gm1cw1ljvsdw7j43laamhpck598c7f5r6679gf9zqm3bdfv";
+        url = "https://elpa.gnu.org/devel/mct-1.1.1.0.20260903.2.tar";
+        sha256 = "007mcb7b44c3qjyy002q5j5k2q6yy86rd657w60zcljfmr6mvl3l";
       };
       packageRequires = [ ];
       meta = {
@@ -10664,10 +10664,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.13.0.20260830.21";
+      version = "2.14.0.20260903.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.13.0.20260830.21.tar";
-        sha256 = "1360c14xrs50rxrgcqnszpvd76pgda62i1rpaa7qirk4q3cip49g";
+        url = "https://elpa.gnu.org/devel/vertico-2.14.0.20260903.0.tar";
+        sha256 = "15ldsx97i5gklrwz82ycinvjxj317pgbxad0jzix1nyr7yagjrbr";
       };
       packageRequires = [ compat ];
       meta = {

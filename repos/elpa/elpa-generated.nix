@@ -1549,10 +1549,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.7";
+      version = "3.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-3.7.tar";
-        sha256 = "19xivcldaqpqx0kzp5sb6xs7fr1xy4nfy6jy66mvqzzs513p5wb3";
+        url = "https://elpa.gnu.org/packages/consult-3.8.tar";
+        sha256 = "1zi33mf8bs70igsdy1s8qj1arpgi8ih3hly986nkiqhz9yzw1fjd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1662,10 +1662,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.14";
+      version = "2.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/corfu-2.14.tar";
-        sha256 = "1a0sv6j89fjmy9qba0624wkf1q60p7xsffv91vldrfk6arp39v66";
+        url = "https://elpa.gnu.org/packages/corfu-2.15.tar";
+        sha256 = "1p4f18lvh22v32lsam80mq57iyipn0240bvqvv7rri05j9sdmp6c";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3717,10 +3717,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.6";
+      version = "1.4.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/flymake-1.4.6.tar";
-        sha256 = "1gnk6md24y82ciz0qljn2xvd96qdp808nwh3q8gm6shc7g4sw024";
+        url = "https://elpa.gnu.org/packages/flymake-1.4.7.tar";
+        sha256 = "11i5v483k70la6v48ljar54n6rhi8p7w2xnci5w5wvn11cmffrwz";
       };
       packageRequires = [
         eldoc
@@ -10445,10 +10445,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.13";
+      version = "2.14";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-2.13.tar";
-        sha256 = "0fic895k6dv822149r1pqi29y2hczcf3yymvzfq715hmz7c5rj9s";
+        url = "https://elpa.gnu.org/packages/vertico-2.14.tar";
+        sha256 = "1v99jqqas9y5l14f5486clr2blh16yp50jkxd7bdjiqzyax6rad5";
       };
       packageRequires = [ compat ];
       meta = {
