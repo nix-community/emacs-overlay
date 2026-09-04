@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260830.113";
+      version = "2.1.0snapshot0.20260903.115";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260830.113.tar";
-        sha256 = "1za4xxfj7irmpvrf3mr8rv9a16ar0jf5nbi9sjbzp6b5nw5y03cg";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260903.115.tar";
+        sha256 = "1mj79csxq5jb81kyzpj6xiq6356s3sd1gqn73y36a8pxd5mzk1zy";
       };
       packageRequires = [
         clojure-mode
@@ -2810,10 +2810,10 @@
     elpaBuild {
       pname = "graphql-mode";
       ename = "graphql-mode";
-      version = "1.0.0.0.20260524.82344";
+      version = "1.0.0.0.20260903.37";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20260524.82344.tar";
-        sha256 = "0zr62g3jhf47d7cjjcx3a8m1kqp4h14k4k7jdqqiivg6hc1k43qv";
+        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20260903.37.tar";
+        sha256 = "1b5ks8nhbw4kv652jwvpy337jr1099pa753wbvzfx3hb9php371p";
       };
       packageRequires = [ ];
       meta = {
@@ -4730,10 +4730,10 @@
     elpaBuild {
       pname = "pinyin-isearch";
       ename = "pinyin-isearch";
-      version = "1.7.2.0.20260902.4";
+      version = "1.7.2.0.20260903.23";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.2.0.20260902.4.tar";
-        sha256 = "11103q7hj1y809ks2xrc0br8ma61vmsfg6ag2naq3a6hn2am8bss";
+        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.2.0.20260903.23.tar";
+        sha256 = "0087iw34nzklavdpypvq7lgq0s6l1r0lh9lhjm7hkjm1kqfyij8c";
       };
       packageRequires = [ ];
       meta = {
@@ -4836,10 +4836,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.5.0snapshot0.20260903.53";
+      version = "3.5.0snapshot0.20260903.56";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260903.53.tar";
-        sha256 = "0sa53kfmzlam7hvsqz4lcdh7wxqrws52g1c10vh13b65bm4lmsx0";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260903.56.tar";
+        sha256 = "1iswg1wkyngg9qb53cvvlfbk9zncd6w56134smpn6wrzrfp9gn2x";
       };
       packageRequires = [ compat ];
       meta = {
