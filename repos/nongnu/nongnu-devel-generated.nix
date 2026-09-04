@@ -2786,10 +2786,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260902.102";
+      version = "0.9.9.5.0.20260903.105";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260902.102.tar";
-        sha256 = "0brpwlja2fdbs18z0a57my5bliyxs7byyghl2wj583kl5rasqmkc";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260903.105.tar";
+        sha256 = "0dbd8rlmpkk74nkx3y119yqdijymxpakk5c18i2ggjpymbmhwsqm";
       };
       packageRequires = [
         compat
@@ -2810,10 +2810,10 @@
     elpaBuild {
       pname = "graphql-mode";
       ename = "graphql-mode";
-      version = "1.0.0.0.20260903.37";
+      version = "1.0.0.0.20260904.38";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20260903.37.tar";
-        sha256 = "1b5ks8nhbw4kv652jwvpy337jr1099pa753wbvzfx3hb9php371p";
+        url = "https://elpa.nongnu.org/nongnu-devel/graphql-mode-1.0.0.0.20260904.38.tar";
+        sha256 = "1nq4jry58b4ficsa3a1kzv5k2vvnn7hf9v9sshrkmvnm0kxhj0ci";
       };
       packageRequires = [ ];
       meta = {
@@ -4487,10 +4487,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.26.0.20260808.27";
+      version = "0.26.0.20260903.32";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.26.0.20260808.27.tar";
-        sha256 = "1ryny6zdq38hirfx2m4l2ywmpxckqb1igl3yc234hldmppzfjwc3";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.26.0.20260903.32.tar";
+        sha256 = "1zkdbf1x7bdnqkkk1qkdjbnyn15in29j3fpzaf80jkbyq5l028rj";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -5353,10 +5353,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260901.63";
+      version = "2.32snapshot0.20260904.67";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260901.63.tar";
-        sha256 = "1lnc1x2cz2xgki0hky50acihzckww3zj2pprgxjpjms23ax7h8dg";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260904.67.tar";
+        sha256 = "0ig3fd93ny7hjqkqynvfgzs4y2vkjk7gfijd3d0qj0779d3b638p";
       };
       packageRequires = [ macrostep ];
       meta = {
