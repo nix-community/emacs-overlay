@@ -2431,10 +2431,10 @@
     elpaBuild {
       pname = "diminish";
       ename = "diminish";
-      version = "0.46";
+      version = "0.47";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/diminish-0.46.tar";
-        sha256 = "1xqd6ldxl93l281ncddik1lfxjngi2drq61mv7v18r756c7bqr5r";
+        url = "https://elpa.gnu.org/packages/diminish-0.47.tar";
+        sha256 = "15vksm780hgwqg5izidjzkzpk9w41bq879mfmlii2k9ila3ia1d1";
       };
       packageRequires = [ ];
       meta = {
@@ -2728,10 +2728,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/doric-themes-1.2.1.tar";
-        sha256 = "0p7qvn8g0hw7h1r3b0m2iif5f4739jmkqn0zih90qw5lbbjf4i86";
+        url = "https://elpa.gnu.org/packages/doric-themes-1.3.0.tar";
+        sha256 = "0g2izcjb25mbnsjn2sl9xakj0db03js2b2vh2afb7n9bp9g9x1vn";
       };
       packageRequires = [ ];
       meta = {

@@ -2476,10 +2476,10 @@
     elpaBuild {
       pname = "diminish";
       ename = "diminish";
-      version = "0.46.0.20220909.84745";
+      version = "0.47.0.20260904.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diminish-0.46.0.20220909.84745.tar";
-        sha256 = "1d31bk42p1qjhpbr6lin87y18nya1qk9dm37vhhiq5sxajfr5ab9";
+        url = "https://elpa.gnu.org/devel/diminish-0.47.0.20260904.0.tar";
+        sha256 = "0i7hs6kk7mka04xyzjlri0gh9sl8xhadcwn46pb6jw3s15v4aixl";
       };
       packageRequires = [ ];
       meta = {
@@ -2795,10 +2795,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1.0.20260901.25";
+      version = "1.3.0.0.20260904.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260901.25.tar";
-        sha256 = "06ihjcs87xq21rrglj8jxqyvcy8w3mvkrsx1985g872zr28n8991";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.3.0.0.20260904.0.tar";
+        sha256 = "0imfb8g35rq9q6973k1mj2m9jvxk7yq3mh0c17d3h8vywznfvgns";
       };
       packageRequires = [ ];
       meta = {
@@ -4802,10 +4802,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "1.0.1.0.20260828.4";
+      version = "1.0.1.0.20260904.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-1.0.1.0.20260828.4.tar";
-        sha256 = "1nr8zvs5b8wg9l35ab3vksa4gwqzrq9nwiw83capr30d2ch6rj4q";
+        url = "https://elpa.gnu.org/devel/indent-bars-1.0.1.0.20260904.5.tar";
+        sha256 = "02gyy6705a1r98iw8cm96igda3k8qr81zmvy3qkmx8f91167ghgq";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6267,10 +6267,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260901.42";
+      version = "5.3.0.0.20260904.43";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260901.42.tar";
-        sha256 = "0nrcdixf8zhmcsqp573vsj6pqj1y55i5ckyb7fhlzc6z7zagzdhq";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260904.43.tar";
+        sha256 = "0hsvh8dcb4vssp0byl8c6f03j5yyq67max8hbq9balrmrd9bvnrb";
       };
       packageRequires = [ ];
       meta = {
@@ -7852,10 +7852,10 @@
     elpaBuild {
       pname = "pulsar";
       ename = "pulsar";
-      version = "1.4.1.0.20260723.2";
+      version = "1.4.1.0.20260904.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pulsar-1.4.1.0.20260723.2.tar";
-        sha256 = "1pbm31izvnzn7f3jilwwz39dg8fs5qcwy5288xjpxbn6f2bq3cqn";
+        url = "https://elpa.gnu.org/devel/pulsar-1.4.1.0.20260904.7.tar";
+        sha256 = "147akxfyw5ngv9vi06dilf85r32g0jfnf978w2l27h9dkxrbvwhm";
       };
       packageRequires = [ ];
       meta = {
