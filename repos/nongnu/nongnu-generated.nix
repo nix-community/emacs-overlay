@@ -1627,10 +1627,10 @@
     elpaBuild {
       pname = "evil-collection";
       ename = "evil-collection";
-      version = "3.0.1";
+      version = "3.0.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/evil-collection-3.0.1.tar";
-        sha256 = "1h7xb2vgpw1wgz6b7544d9yyhvcjmhwaqxrp21h9qyjd23vaj6vg";
+        url = "https://elpa.nongnu.org/nongnu/evil-collection-3.0.2.tar";
+        sha256 = "02pq63a87mw0v0iqwg6d6mfjx8yz49wf29mdhnibrfw1p7n6j03l";
       };
       packageRequires = [ evil ];
       meta = {
@@ -5347,10 +5347,10 @@
     elpaBuild {
       pname = "simple-httpd";
       ename = "simple-httpd";
-      version = "1.6";
+      version = "1.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/simple-httpd-1.6.tar";
-        sha256 = "08rkqid2c11dl0sm8795jzkiilj02kbq6xy56b3bh83pc09wfmay";
+        url = "https://elpa.nongnu.org/nongnu/simple-httpd-1.7.tar";
+        sha256 = "10frydnqcgxmrbiy8aw4kaf9phfhrijl4286lx6krsmlxhf8vflc";
       };
       packageRequires = [ compat ];
       meta = {

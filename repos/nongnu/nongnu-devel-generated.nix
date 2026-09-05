@@ -694,10 +694,10 @@
     elpaBuild {
       pname = "codex-ide";
       ename = "codex-ide";
-      version = "0.1.2.0.20260902.0";
+      version = "0.1.2.0.20260904.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.1.2.0.20260902.0.tar";
-        sha256 = "1h9s2b59n0vmhvhcga9m3nh5jlzbfvdblyvhb9yrgm0sf2x8j75j";
+        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.1.2.0.20260904.1.tar";
+        sha256 = "134i6xf20zdyrzk0h6hq4j8zdh48ryxa5j8gbp4myhqmq4mnm26m";
       };
       packageRequires = [
         compat
@@ -1609,10 +1609,10 @@
     elpaBuild {
       pname = "evil-collection";
       ename = "evil-collection";
-      version = "3.0.1.0.20260818.1";
+      version = "3.0.2.0.20260904.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.1.0.20260818.1.tar";
-        sha256 = "1zzjpj1llyvd37121xrzifw761v8y6s0n18sh8bw2lyirc2059zi";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.2.0.20260904.0.tar";
+        sha256 = "1h4l34gykiwds2q28pmha3mmxq15pcg5w050xwlmg80vrv28iv4y";
       };
       packageRequires = [ evil ];
       meta = {
@@ -2917,10 +2917,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20260829.70";
+      version = "17.5.0.20260904.72";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20260829.70.tar";
-        sha256 = "025n3by9vc9mzdp2smzpc9vb95if8j0ip37vkc5wf7wig6l76585";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20260904.72.tar";
+        sha256 = "0jli7hf1bym94c0kny0lgpdi4spjj9qgrc78v2g9775c63rrqk4q";
       };
       packageRequires = [ ];
       meta = {
@@ -2960,10 +2960,10 @@
     elpaBuild {
       pname = "haskell-ts-mode";
       ename = "haskell-ts-mode";
-      version = "1.3.5.0.20251204.182222";
+      version = "1.3.5.0.20260904.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.3.5.0.20251204.182222.tar";
-        sha256 = "0rlng6z7g6bbsrcjbggyms8sd06729dyb9qir7s2i1r2adrscwb5";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-ts-mode-1.3.5.0.20260904.6.tar";
+        sha256 = "079r1amn2s1c5rqkcrv0aa0bgmsb3ad7irx8aba1r0kjbxf51096";
       };
       packageRequires = [ ];
       meta = {
@@ -4530,10 +4530,10 @@
     elpaBuild {
       pname = "page-break-lines";
       ename = "page-break-lines";
-      version = "0.15.0.20260619.18";
+      version = "0.15.0.20260904.20";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/page-break-lines-0.15.0.20260619.18.tar";
-        sha256 = "0x9b97wgxjvm42k9910fyfyd6ddwkh3fiwc5g7ix7izzxvsx511g";
+        url = "https://elpa.nongnu.org/nongnu-devel/page-break-lines-0.15.0.20260904.20.tar";
+        sha256 = "0zkx439sv4cagqah8ps779qf9pz8csjq8psabiq31wk2p4bba53y";
       };
       packageRequires = [ ];
       meta = {
@@ -4730,10 +4730,10 @@
     elpaBuild {
       pname = "pinyin-isearch";
       ename = "pinyin-isearch";
-      version = "1.7.2.0.20260903.23";
+      version = "1.7.2.0.20260904.24";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.2.0.20260903.23.tar";
-        sha256 = "0087iw34nzklavdpypvq7lgq0s6l1r0lh9lhjm7hkjm1kqfyij8c";
+        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.2.0.20260904.24.tar";
+        sha256 = "0i97avdn8b1kipsxakvwv2c8chxhp84d8vr4acgklnzpr4bbn2sz";
       };
       packageRequires = [ ];
       meta = {
@@ -5331,10 +5331,10 @@
     elpaBuild {
       pname = "simple-httpd";
       ename = "simple-httpd";
-      version = "1.6.0.20260824.6";
+      version = "1.7.0.20260904.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/simple-httpd-1.6.0.20260824.6.tar";
-        sha256 = "0hiba241hzgrjasp60lbqhcl42fhg9v3nai5lgfimvj9sgfid8bc";
+        url = "https://elpa.nongnu.org/nongnu-devel/simple-httpd-1.7.0.20260904.0.tar";
+        sha256 = "187rqm9lyydni3zi48radvx86nw9l8ihpg1l6138nrfihdrq88c1";
       };
       packageRequires = [ compat ];
       meta = {
