@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repo: ["elpa", "emacs", "melpa", "fromElisp", "nongnu"]
+        repo: ["elpa", "emacs", "fromElisp", "nongnu"] # XXX: ignore "melpa" until its archive.json is clean (https://github.com/melpa/melpa/issues/10206)
     if: github.repository_owner == 'nix-community'
     continue-on-error: ${{ matrix.repo == 'emacs' }} # update of emacs can be flaky
     steps:
