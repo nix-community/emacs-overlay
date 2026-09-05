@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.9.0.20260821.0";
+      version = "2.9.0.20260905.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.9.0.20260821.0.tar";
-        sha256 = "12pvlwjdsh95zi1minhg6n2hdvmghczwgla43ccw07v072kdkq3b";
+        url = "https://elpa.gnu.org/devel/cape-2.9.0.20260905.2.tar";
+        sha256 = "084ydlrcd5gqpkv7bbjbmwsvbia6i64x017a8mdp8gyv2n490pri";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.15.0.20260903.0";
+      version = "2.15.0.20260905.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.15.0.20260903.0.tar";
-        sha256 = "0izfivch88vdwa6iaqa6xqcklvl7yxmxic6p9wsgh07g0kp6n50a";
+        url = "https://elpa.gnu.org/devel/corfu-2.15.0.20260905.2.tar";
+        sha256 = "1jm2la1i7mrqnzqwrl1748vgvh311zn0cwjg893yhcs9z32nvmy5";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5264,10 +5264,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.3.0.20260901.1";
+      version = "0.4.3.0.20260904.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.3.0.20260901.1.tar";
-        sha256 = "06b5j784fs19v5mnp0nzy57lzf3134czkp7ca10xgfp9wwih0gfw";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.3.0.20260904.4.tar";
+        sha256 = "18cgikxkg8s3w27hkcvblvfaxmbwjkx7rc81qngambl3ipgsay91";
       };
       packageRequires = [ ];
       meta = {
@@ -5635,10 +5635,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.32.0.0.20260822.2";
+      version = "0.32.0.0.20260904.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.32.0.0.20260822.2.tar";
-        sha256 = "0305wyc9gf99hlyn19h71a973vk159719zywnlp5q69h9b2v8msz";
+        url = "https://elpa.gnu.org/devel/llm-0.32.0.0.20260904.3.tar";
+        sha256 = "1mh3zcajv91dzcjz94vvpicdbkfkn9rrgylc0k3499kmir51pg01";
       };
       packageRequires = [
         compat
