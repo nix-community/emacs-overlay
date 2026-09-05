@@ -694,10 +694,10 @@
     elpaBuild {
       pname = "codex-ide";
       ename = "codex-ide";
-      version = "0.1.2.0.20260904.1";
+      version = "0.1.3.0.20260904.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.1.2.0.20260904.1.tar";
-        sha256 = "134i6xf20zdyrzk0h6hq4j8zdh48ryxa5j8gbp4myhqmq4mnm26m";
+        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.1.3.0.20260904.7.tar";
+        sha256 = "0z8iqlrgb2gxmw3xc3ja729hlvk92fmnkxa73ag1hxigky3sfb2l";
       };
       packageRequires = [
         compat
@@ -1609,10 +1609,10 @@
     elpaBuild {
       pname = "evil-collection";
       ename = "evil-collection";
-      version = "3.0.2.0.20260904.0";
+      version = "3.0.2.0.20260904.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.2.0.20260904.0.tar";
-        sha256 = "1h4l34gykiwds2q28pmha3mmxq15pcg5w050xwlmg80vrv28iv4y";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.2.0.20260904.3.tar";
+        sha256 = "07xvs9zrcczpk15pf4lziabcvfzjs6i3fmhvgvbdsi6rc1f8iw23";
       };
       packageRequires = [ evil ];
       meta = {
@@ -2786,10 +2786,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260903.105";
+      version = "0.9.9.5.0.20260904.106";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260903.105.tar";
-        sha256 = "0dbd8rlmpkk74nkx3y119yqdijymxpakk5c18i2ggjpymbmhwsqm";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260904.106.tar";
+        sha256 = "00p4xf385ix0gf0g2pfsp4v12jdk5mknn0w7pcbwq353z4f1w2ha";
       };
       packageRequires = [
         compat
