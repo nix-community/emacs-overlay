@@ -50,6 +50,7 @@ let
     nntwitter = { variants = [ "unstable" ]; deps = [ "anaphora" "dash" "request" ]; };
     org-ehtml = { variants = [ "unstable" ]; deps = [ "web-server" ]; };
     org-page = { variants = [ "stable" ]; deps = [ "ht" "htmlize" "mustache" "org" ]; };
+    pi-coding-agent = { variants = [ "stable" "unstable" ]; deps = [ "magit-section" "markdown-table-wrap" "md-ts-mode" "transient" ]; };
     ppd-sr-speedbar = {
       variants = [ "stable" "unstable" ];
       deps = [ "project-persist-drawer" "sr-speedbar" ];
