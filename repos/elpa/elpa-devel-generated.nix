@@ -3807,10 +3807,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.7.0.20260903.0";
+      version = "1.4.7.0.20260905.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20260903.0.tar";
-        sha256 = "0ifb5h4h0z3wwqrygv1l23jw6ivvkya1sqbwm91b2rxb1gp9hf07";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20260905.2.tar";
+        sha256 = "19lgqixwswcy3qcmksmq8ff3g2mspcd7r13nyd87crlxv9jjlbqg";
       };
       packageRequires = [
         eldoc
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260902.534";
+      version = "10.0pre0.20260905.539";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260902.534.tar";
-        sha256 = "1y292ijm29cn1w2s0hk9smyk4x7vxsbvjdslaldvq31ga3x15bxx";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260905.539.tar";
+        sha256 = "1irlqlvnk0xrdbk10j4y5mn3951v9m469p1sz6zqawyp3b85pwpp";
       };
       packageRequires = [ ];
       meta = {
@@ -6844,10 +6844,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.3.0.20260829.10";
+      version = "1.3.0.20260905.13";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.3.0.20260829.10.tar";
-        sha256 = "1jbkl7jdazmrgcwf7i1xwlf2lzw2lxx2c7rb4llilqm6d9f8v8l3";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.3.0.20260905.13.tar";
+        sha256 = "1wy1q9838kb31axyqsv1lwvkjlxsdlqamjw6s2igkh1i8gx4i57r";
       };
       packageRequires = [ org ];
       meta = {
@@ -8007,10 +8007,10 @@
     elpaBuild {
       pname = "rainbow-mode";
       ename = "rainbow-mode";
-      version = "1.0.6.0.20231215.171141";
+      version = "1.0.7.0.20260905.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/rainbow-mode-1.0.6.0.20231215.171141.tar";
-        sha256 = "0qr0yl8fszrrdnl8x3d8lnndr5s9g3bf708qilb3f6i5ahkqhq7l";
+        url = "https://elpa.gnu.org/devel/rainbow-mode-1.0.7.0.20260905.0.tar";
+        sha256 = "0by49vn0arg6hbfcidyakwnmy5rc8kdifrf3247lvn7mgq5x7dj0";
       };
       packageRequires = [ ];
       meta = {
@@ -10795,10 +10795,10 @@
     elpaBuild {
       pname = "vundo";
       ename = "vundo";
-      version = "2.4.0.0.20251218.210411";
+      version = "2.4.0.0.20260905.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vundo-2.4.0.0.20251218.210411.tar";
-        sha256 = "0z3cazr0l2pzjq8bypqi52kzy9nc5z2prv2yjlm5v2j7srbashd1";
+        url = "https://elpa.gnu.org/devel/vundo-2.4.0.0.20260905.15.tar";
+        sha256 = "0llf0hsxj66rdwflpw06qfvm1pjcjkygf233982gjyk5iq7142qc";
       };
       packageRequires = [ ];
       meta = {

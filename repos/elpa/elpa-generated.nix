@@ -7881,10 +7881,10 @@
     elpaBuild {
       pname = "rainbow-mode";
       ename = "rainbow-mode";
-      version = "1.0.6";
+      version = "1.0.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/rainbow-mode-1.0.6.tar";
-        sha256 = "0xv39jix1gbwq6f8laj93sqkf2j5hwda3l7mjqc7vsqjw1lkhmjv";
+        url = "https://elpa.gnu.org/packages/rainbow-mode-1.0.7.tar";
+        sha256 = "13i5cl1pdp6372cgbqh9qy60prd462hbqnagpg0ck6p94pv5r5cw";
       };
       packageRequires = [ ];
       meta = {
