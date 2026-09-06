@@ -25346,15 +25346,15 @@
   "unstable": {
    "version": [
     20260905,
-    847
+    1128
    ],
    "deps": [
     "dash",
     "denote",
     "denote-regexp"
    ],
-   "commit": "45b61e1f312db37c4a1569dcebc02112ce3fea04",
-   "sha256": "0d2gcb6lk9lphkayc69fc76d92vhi7hpr79q48rn8m1f8ckwli4j"
+   "commit": "2668190363ca7e2ee4f7a1d0055655cc49a60189",
+   "sha256": "0yndahvyswvi1xq4hcpx4zl08hhi2msjfswd33821j0yrzgm9p9m"
   },
   "stable": {
    "version": [
@@ -29009,11 +29009,11 @@
   "repo": "drghirlanda/dorgygen",
   "unstable": {
    "version": [
-    20260904,
-    40
+    20260905,
+    2358
    ],
-   "commit": "2548e715405d082090eb9ea39d723e90bb05d0eb",
-   "sha256": "1ahpk2cb503ara7ch85b365fi58g9p4l9gw80jlcwqw9s684kxkz"
+   "commit": "69d2ffc538fe104022604b409d7bd16ea74705b4",
+   "sha256": "1f0698kq82cd1z73k2nsdzsy6d99q58v46s7as5lwi2rffmslj0f"
   }
  },
  {
@@ -30112,11 +30112,11 @@
   "repo": "zellerin/dynamic-graphs",
   "unstable": {
    "version": [
-    20250701,
-    853
+    20260905,
+    1626
    ],
-   "commit": "5aa3182174de28b6c034a43cd9ef2f26024911b1",
-   "sha256": "1jb2kc9z00ni660ff9bva6dkfsghlv490yyyd2bd85pzfhjvb3mk"
+   "commit": "eeca8fa68dc404af127382ebdc9f0397b4c364f1",
+   "sha256": "19jp5zz6mbx6a7akhp2a0y2w1r7dv9270ks7wrd2s09vq5w38q2g"
   }
  },
  {
@@ -36471,13 +36471,13 @@
   "unstable": {
    "version": [
     20260905,
-    1236
+    2028
    ],
    "deps": [
     "inheritenv"
    ],
-   "commit": "0ccdd131fb642323527e67aa9e854c9a82598507",
-   "sha256": "1gcyc2l0sdzcgsw2fgqjlga9cy0s3yayja3l2n89h348s32skx1d"
+   "commit": "55a69ae6325c06fdde9a94b55c8f3dbc901686ff",
+   "sha256": "0fvwi9l6f01y0ghkn67v8w29581cdjklv310m4qnxhijkwjhsx8j"
   },
   "stable": {
    "version": [
@@ -39369,25 +39369,25 @@
   "unstable": {
    "version": [
     20260905,
-    250
+    2034
    ],
    "deps": [
     "evil"
    ],
-   "commit": "96fe4a44edeab034b70fcc16cda850f247334446",
-   "sha256": "12sq1cyd15zr18jqr77b1yc7klljcwm7bdj3rgina3gmdnd0dj5n"
+   "commit": "783c96b9901417cb8b6df63ab606387fa72dc922",
+   "sha256": "1jkbjviv68lfvyam9qiv74g03aiajxq4hx9v0mzaqzshk56xs4ry"
   },
   "stable": {
    "version": [
     3,
     0,
-    2
+    3
    ],
    "deps": [
     "evil"
    ],
-   "commit": "bce35101edcfe5ddccff270608ab71859fa90040",
-   "sha256": "0qn3sq0w8pma1xv1zkqnhdbi7gmpbinrphwarqz6rqvd21n4dnvh"
+   "commit": "783c96b9901417cb8b6df63ab606387fa72dc922",
+   "sha256": "1jkbjviv68lfvyam9qiv74g03aiajxq4hx9v0mzaqzshk56xs4ry"
   }
  },
  {
@@ -51467,14 +51467,14 @@
   "repo": "geiser/geiser",
   "unstable": {
    "version": [
-    20260823,
-    2028
+    20260905,
+    2256
    ],
    "deps": [
     "project"
    ],
-   "commit": "584f78b103037e8bc6f4b22a6fae23e09f619d6d",
-   "sha256": "04kliqq28ggiff9vda02r78n3y4h4zx3fakqvsbr77fazpn3jxcn"
+   "commit": "1d7b08e989df3933ea0b4414ebfbdd99c3cc24ed",
+   "sha256": "0rp0qs79fsj29zxc74my67ih1qp8zpjp4is20ldhw58idxsiffby"
   },
   "stable": {
    "version": [
@@ -84717,11 +84717,11 @@
   "repo": "szermatt/mistty",
   "unstable": {
    "version": [
-    20260904,
-    916
+    20260905,
+    1851
    ],
-   "commit": "7b5cdd836ba1ef76a14f268a2ec6309af35bc8f2",
-   "sha256": "1jxwvji57i1v84id5jwf3kziwrz8l1780w5k74jx6iagzw82lp9y"
+   "commit": "2d985b50c7c34aee4fddea8742a8754b9c248790",
+   "sha256": "0scc5achbcsnza24y2d73z2bxzli1s0f7kizyxpmqqzy8l0giv38"
   },
   "stable": {
    "version": [
@@ -99245,7 +99245,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3009-3772082309/nix-shell-3206-3553730121/nix-shell-3270-4007667078/git-checkout-tmp-enYABbEi/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3078-598811873/nix-shell-3268-961762796/nix-shell-3332-3694131314/git-checkout-tmp-4qRAh6zk/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -139176,11 +139176,11 @@
   "repo": "smallwat3r/emacs-warm-mode",
   "unstable": {
    "version": [
-    20260209,
-    1810
+    20260906,
+    28
    ],
-   "commit": "27362826e970ed0e902bee3512d97dc02f196a7b",
-   "sha256": "0ivlsrmlmpcjf1nz7r8hf6ph2f0k9i4pvbg0wmk5wmsy37gbnr6h"
+   "commit": "56309813b86daf20b663b457221569b49c5199f2",
+   "sha256": "0zi86rbbjnpmc5w0y6z2mhmypfkgxk8rmnjf3bcx7h8ym8spfak5"
   }
  },
  {
