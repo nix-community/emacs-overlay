@@ -3032,10 +3032,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.4.3.0.20260901.0";
+      version = "0.5.0.0.20260905.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.4.3.0.20260901.0.tar";
-        sha256 = "01spfk6hrqmmrc34w8k2w1r80g60ivchklwq3yxa1i7lg89ij3rr";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.5.0.0.20260905.0.tar";
+        sha256 = "0bj68krdva1i6pkjw9jjdhy15xrkjwacwcs38jnf1z2365xy7m6a";
       };
       packageRequires = [
         keymap-popup
@@ -3426,10 +3426,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.13.2.0.20260901.5";
+      version = "0.14.0.0.20260905.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.2.0.20260901.5.tar";
-        sha256 = "0plzs5g5xbs76f6nkq8w2l7k3qnwlhccgf7qvvzgpp5yxmpvniza";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.14.0.0.20260905.0.tar";
+        sha256 = "1w526rw8g267xv1sp88jly7k5hczd0hksi0lddvzwlmwbj06iaj1";
       };
       packageRequires = [
         fsm
@@ -3870,10 +3870,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.1.1.0.20260825.74";
+      version = "2.1.2.0.20260905.74";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.1.0.20260825.74.tar";
-        sha256 = "0l1002hf6s11mzba28115rvkvgkmrdwv4cj4al8nxfi7vqpv94pw";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.2.0.20260905.74.tar";
+        sha256 = "0fxq3gqm8gjva24p69rn1ysh2a6klv12kk48vhr49fpi20i61vqg";
       };
       packageRequires = [
         persist
@@ -4814,10 +4814,10 @@
     elpaBuild {
       pname = "project-nix-store";
       ename = "project-nix-store";
-      version = "0.10.0.0.20260826.0";
+      version = "0.10.0.0.20260905.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.10.0.0.20260826.0.tar";
-        sha256 = "0pj7rv9py7zlalwr2rk9fmbq67y64ig2jn97fl1bqqlm5q5bbh11";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.10.0.0.20260905.1.tar";
+        sha256 = "0k0i32aws8qj8av301hnxlj7wmsmzw6g80fgsramrnlm4bpkj8kz";
       };
       packageRequires = [ ];
       meta = {

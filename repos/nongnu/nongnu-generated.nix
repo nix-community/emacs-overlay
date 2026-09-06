@@ -3049,10 +3049,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.4.3";
+      version = "0.5.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hermes-0.4.3.tar";
-        sha256 = "07bjyinasywsyq1rjcmgpdqqya4i5yxc69wpykqs4r8xkc87nh1m";
+        url = "https://elpa.nongnu.org/nongnu/hermes-0.5.0.tar";
+        sha256 = "1zy8rjbrwnlyf46975ygmcppr7sgncflsdr8sd9z7c723s4bqcfh";
       };
       packageRequires = [
         keymap-popup
@@ -3443,10 +3443,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.13.2";
+      version = "0.14.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/jabber-0.13.2.tar";
-        sha256 = "09p2d8cvy3qfixl4jjrx1blj92ynzb2mhhngqkqxk7z6lk4lqcqy";
+        url = "https://elpa.nongnu.org/nongnu/jabber-0.14.0.tar";
+        sha256 = "1wbb1gn6xv0ag118ygys5f8rgkdq5b2lkhksiywfpsqqw9kf71yv";
       };
       packageRequires = [
         fsm
@@ -3887,10 +3887,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.1.1";
+      version = "2.1.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.1.1.tar";
-        sha256 = "00bx08fffn98p22p3zmfbfjj8hcaf2n9jbapc1ia4nkd7h0v00cp";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.1.2.tar";
+        sha256 = "04v3h9q0wk4mblyf69w35j3mqgvyi2isql667sv713jwx0ajf417";
       };
       packageRequires = [
         persist
