@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260903.75";
+      version = "14.1.2.0.20260906.77";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260903.75.tar";
-        sha256 = "19x1d2vz6vlybdlhcjzj6n0d2bfadm341gjznx68ijwrd8hgayla";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260906.77.tar";
+        sha256 = "01wi12f6lwzy3cq6vzhcd09l3g1k4wzzqdi5a5lykck1jk6vql1n";
       };
       packageRequires = [ ];
       meta = {
@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.8.0.20260903.0";
+      version = "3.8.0.20260906.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.8.0.20260903.0.tar";
-        sha256 = "1fk30x9sxj7afbkdw7mm8w9qxqnxnrks8wkibia7zhzv9z3a7x1k";
+        url = "https://elpa.gnu.org/devel/consult-3.8.0.20260906.4.tar";
+        sha256 = "1kzjp3hwnsc60q8bhck19kn5y6rx6865wpgr5y519xx9va15wv8l";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3895,10 +3895,10 @@
     elpaBuild {
       pname = "flymake-proselint";
       ename = "flymake-proselint";
-      version = "0.3.0.0.20260704.11";
+      version = "0.3.0.0.20260906.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-proselint-0.3.0.0.20260704.11.tar";
-        sha256 = "0n619yab8s9lr00b7zcbgywvm5phwrh19iww8rwm0sf1qhmg3azf";
+        url = "https://elpa.gnu.org/devel/flymake-proselint-0.3.0.0.20260906.12.tar";
+        sha256 = "05gs7595sch4l484r4bka0yjr7mqr64317zrwh9ag9qk7bfwh5p0";
       };
       packageRequires = [ ];
       meta = {
@@ -5635,10 +5635,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.32.0.0.20260905.7";
+      version = "0.32.1.0.20260906.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.32.0.0.20260905.7.tar";
-        sha256 = "07yd9w902kn3prp01ax5r0n95fhlzq5knvfg1cjfabyjpsyic9zx";
+        url = "https://elpa.gnu.org/devel/llm-0.32.1.0.20260906.1.tar";
+        sha256 = "0jhmyfd9ww6w4251qmr2rfwfbz6la0ja068d9i4a8sv8nafa35z6";
       };
       packageRequires = [
         compat
@@ -6267,10 +6267,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260904.43";
+      version = "5.3.0.0.20260906.44";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260904.43.tar";
-        sha256 = "0hsvh8dcb4vssp0byl8c6f03j5yyq67max8hbq9balrmrd9bvnrb";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260906.44.tar";
+        sha256 = "1rnjdd8bdrqijvsx2bk26gb2mgvwf3j22vmnidbrli9afpffz9v4";
       };
       packageRequires = [ ];
       meta = {
@@ -10687,10 +10687,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.9.2.0.20260201.41512";
+      version = "0.9.2.0.20260906.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-posframe-0.9.2.0.20260201.41512.tar";
-        sha256 = "1alirwmf1x1m9h8amsbjvx6x1hh0cc0f83r2nay8vp2rr20jrgvp";
+        url = "https://elpa.gnu.org/devel/vertico-posframe-0.9.2.0.20260906.2.tar";
+        sha256 = "0m95ysj942fh0ajzzbm4d06xzkb8mzx728l9gf6dfjbcagyl7a6j";
       };
       packageRequires = [
         posframe
@@ -11251,10 +11251,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20260904.46";
+      version = "1.7.0.0.20260906.47";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260904.46.tar";
-        sha256 = "0gwfna0xabx4hwnj3gzb1lr3b7gqak6b1yk3rvq6whdmqqv671ax";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260906.47.tar";
+        sha256 = "0kpnir8837rh3x1hlf2m6px9mp7b9b1w2xflqy4rcpqsny8ab3fq";
       };
       packageRequires = [ ];
       meta = {
