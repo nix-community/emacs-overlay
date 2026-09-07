@@ -3032,10 +3032,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.5.0.0.20260906.3";
+      version = "0.5.0.0.20260907.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.5.0.0.20260906.3.tar";
-        sha256 = "04wx97ijddcwqdkzi5h82xblmqgsnnwnbfjar6j8m574nzddgyw0";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.5.0.0.20260907.10.tar";
+        sha256 = "12p67vvjg6k488w24945ni3yw734q36b3wcp1mb23a8j54h1kmyr";
       };
       packageRequires = [
         keymap-popup
@@ -4814,10 +4814,10 @@
     elpaBuild {
       pname = "project-nix-store";
       ename = "project-nix-store";
-      version = "0.10.0.0.20260906.6";
+      version = "0.11.0.0.20260907.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.10.0.0.20260906.6.tar";
-        sha256 = "0fniljylpvj05dnyqcilvrwazsy2jj5pa76wk3akbfbclarvck0x";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.11.0.0.20260907.0.tar";
+        sha256 = "05mzkzwb45s5ls7b6jac7pnp9q6icrhi3cngkqd70rskphn8vfyb";
       };
       packageRequires = [ ];
       meta = {
