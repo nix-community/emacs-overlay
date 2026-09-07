@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.8.0.20260906.4";
+      version = "3.8.0.20260906.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.8.0.20260906.4.tar";
-        sha256 = "1kzjp3hwnsc60q8bhck19kn5y6rx6865wpgr5y519xx9va15wv8l";
+        url = "https://elpa.gnu.org/devel/consult-3.8.0.20260906.5.tar";
+        sha256 = "0y7qg11y9dbd3p0ys4wpaind67h9vnd18ac1p0ry5fy0hrhd4cr4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5875,10 +5875,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.12.0.20260831.1";
+      version = "2.12.0.20260907.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.12.0.20260831.1.tar";
-        sha256 = "1bl51km3sd50k7v6crvvdksszvmanz1zqylgp3dc2bdq4vhqircs";
+        url = "https://elpa.gnu.org/devel/marginalia-2.12.0.20260907.2.tar";
+        sha256 = "1qrv729saqg7yj4s3w0aaxa49phmmaz937f1c288lij0j8gydpxc";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7943,10 +7943,10 @@
     elpaBuild {
       pname = "qrencode";
       ename = "qrencode";
-      version = "1.5beta3.0.20260802.0";
+      version = "1.5beta4.0.20260906.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/qrencode-1.5beta3.0.20260802.0.tar";
-        sha256 = "0d79py57mynwy5bz6cz14dz7ilgfgydxhb14wxwhmh9cs2b4yvsb";
+        url = "https://elpa.gnu.org/devel/qrencode-1.5beta4.0.20260906.0.tar";
+        sha256 = "0j2439ixyvv10lzzb84k428xn920k84alz41wsd0h515013s6lgs";
       };
       packageRequires = [ ];
       meta = {
@@ -10664,10 +10664,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.14.0.20260903.1";
+      version = "2.14.0.20260907.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.14.0.20260903.1.tar";
-        sha256 = "1iw4784irz1nfmxw5gqzx655xc186zw4wfp67vcid38hd3icyd86";
+        url = "https://elpa.gnu.org/devel/vertico-2.14.0.20260907.4.tar";
+        sha256 = "0303a89xngpggqdllsgxl2kp9avscck16nk57ffa8iy6m91rpfkk";
       };
       packageRequires = [ compat ];
       meta = {
