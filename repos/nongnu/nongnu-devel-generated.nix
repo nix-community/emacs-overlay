@@ -3032,10 +3032,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.5.0.0.20260905.0";
+      version = "0.5.0.0.20260906.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.5.0.0.20260905.0.tar";
-        sha256 = "0bj68krdva1i6pkjw9jjdhy15xrkjwacwcs38jnf1z2365xy7m6a";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.5.0.0.20260906.3.tar";
+        sha256 = "04wx97ijddcwqdkzi5h82xblmqgsnnwnbfjar6j8m574nzddgyw0";
       };
       packageRequires = [
         keymap-popup
@@ -3870,10 +3870,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.1.2.0.20260905.74";
+      version = "2.1.3.0.20260906.76";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.2.0.20260905.74.tar";
-        sha256 = "0fxq3gqm8gjva24p69rn1ysh2a6klv12kk48vhr49fpi20i61vqg";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.3.0.20260906.76.tar";
+        sha256 = "1rhali8svih4arbf2wg9hlwbvdy7j4s2nndjlc5ac8xrzlvmz97z";
       };
       packageRequires = [
         persist
@@ -4730,10 +4730,10 @@
     elpaBuild {
       pname = "pinyin-isearch";
       ename = "pinyin-isearch";
-      version = "1.7.2.0.20260904.24";
+      version = "1.7.2.0.20260906.30";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.2.0.20260904.24.tar";
-        sha256 = "0i97avdn8b1kipsxakvwv2c8chxhp84d8vr4acgklnzpr4bbn2sz";
+        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.2.0.20260906.30.tar";
+        sha256 = "1cd78pb1zz1p87fswbvmlmvsc2j3mx4z5rxl6g8ap59bqw620y0p";
       };
       packageRequires = [ ];
       meta = {
@@ -4814,10 +4814,10 @@
     elpaBuild {
       pname = "project-nix-store";
       ename = "project-nix-store";
-      version = "0.10.0.0.20260905.1";
+      version = "0.10.0.0.20260906.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.10.0.0.20260905.1.tar";
-        sha256 = "0k0i32aws8qj8av301hnxlj7wmsmzw6g80fgsramrnlm4bpkj8kz";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.10.0.0.20260906.6.tar";
+        sha256 = "0fniljylpvj05dnyqcilvrwazsy2jj5pa76wk3akbfbclarvck0x";
       };
       packageRequires = [ ];
       meta = {
@@ -5438,10 +5438,10 @@
     elpaBuild {
       pname = "spacemacs-theme";
       ename = "spacemacs-theme";
-      version = "0.2.0.20260822.48";
+      version = "0.2.0.20260906.51";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20260822.48.tar";
-        sha256 = "1sj5hcrmqwlijblxjwpggqhl8f4ca5f361can8mdgpqxfbqfd035";
+        url = "https://elpa.nongnu.org/nongnu-devel/spacemacs-theme-0.2.0.20260906.51.tar";
+        sha256 = "1dbr8my2zm0s3cbdvh075m43a4ls9kjr7d9q4psax0xfiba5lgc9";
       };
       packageRequires = [ ];
       meta = {
