@@ -1592,11 +1592,11 @@
   "repo": "xenodium/acp.el",
   "unstable": {
    "version": [
-    20260906,
-    1056
+    20260907,
+    2037
    ],
-   "commit": "2a59373ddf252c78e8d6b25b094458f67aba9e10",
-   "sha256": "1xhnjviynyfqqx7iv9q49fl3j6fb55ssq4hy7qdd9dmdaizkgddp"
+   "commit": "2a6f2d4600860bd2ab1988253b241f5a39ba59e5",
+   "sha256": "11blxs2m294ay8bm0gylqy2fh6vfksbv18jkk358cvv6y48phqj6"
   },
   "stable": {
    "version": [
@@ -20900,8 +20900,8 @@
   "repo": "copilot-emacs/copilot.el",
   "unstable": {
    "version": [
-    20260707,
-    516
+    20260907,
+    2020
    ],
    "deps": [
     "compat",
@@ -20909,8 +20909,8 @@
     "jsonrpc",
     "track-changes"
    ],
-   "commit": "277ca357422ba34bcf7fe650cb720580994eea84",
-   "sha256": "0fj6h3v3v3h0cczs9mc728bcx5zkqlh4yi11la347wah39wdk21d"
+   "commit": "90f429b100418d897b673d6c36c2817364b28e3e",
+   "sha256": "05d3wak33jw1r1xwkjjygp06pbj5i3cqnqa5gi45ivvf9x3a10p9"
   },
   "stable": {
    "version": [
@@ -25959,20 +25959,20 @@
   "repo": "mew/dialog-mode",
   "unstable": {
    "version": [
-    20260901,
-    1816
+    20260906,
+    1244
    ],
-   "commit": "e8c23cc6ced6825e216644d05fa3a4fde038fea8",
-   "sha256": "19p92gbdad9vmzkwh5j7ipmlg3jrm8mdqv7l4hdj7qws6xw0yzgy"
+   "commit": "e3dd89b6a13efb5073b5a36f316a9e7c0f98aa4c",
+   "sha256": "0d7myh7lyxj478n24kbxpywdw0l7j1h1mxsvz317jr63i247yh34"
   },
   "stable": {
    "version": [
     1,
-    0,
+    1,
     0
    ],
-   "commit": "3cf51316db1dcef64a01399ec82499b742d911e9",
-   "sha256": "0i3ja4jk32skv8vq6wn2hdk0avsqdbj1hgvcjjslsajywfpv5101"
+   "commit": "e3dd89b6a13efb5073b5a36f316a9e7c0f98aa4c",
+   "sha256": "0d7myh7lyxj478n24kbxpywdw0l7j1h1mxsvz317jr63i247yh34"
   }
  },
  {
@@ -29447,11 +29447,11 @@
   "repo": "dracula/emacs",
   "unstable": {
    "version": [
-    20260719,
-    2050
+    20260907,
+    2019
    ],
-   "commit": "df2be56b03fcbbafcc211013ff93ba50e34a4397",
-   "sha256": "0vljvvbzhldpx74xh8vg9zic90fxdjvcl5599ikyz63hv02ci0am"
+   "commit": "73ff45fdd8e1de784156b77d124e99cdbbc39104",
+   "sha256": "15395hff9dpial5cqk93a3n64cv94rn08anz33s1q8kf299jbpdf"
   },
   "stable": {
    "version": [
@@ -45790,25 +45790,25 @@
   "url": "https://git.umaneti.net/flycheck-grammalecte/",
   "unstable": {
    "version": [
-    20260615,
-    1837
+    20260907,
+    1957
    ],
    "deps": [
     "flycheck"
    ],
-   "commit": "f822e96ef54cc8d0d9ca64ad489b915bc36f6ac0",
-   "sha256": "1vbvgh9qkvvylskk292hcgl347ygb744w2jwx8cw41fk30i2v7qc"
+   "commit": "d2259c73503bb695017e3a3d4285b4a44fca39c6",
+   "sha256": "1ivdl42g2cd4bmiflrmvh8wc0sgy1yrnxnjx36gx8wvn176hw2f2"
   },
   "stable": {
    "version": [
     2,
-    6
+    7
    ],
    "deps": [
     "flycheck"
    ],
-   "commit": "f822e96ef54cc8d0d9ca64ad489b915bc36f6ac0",
-   "sha256": "1vbvgh9qkvvylskk292hcgl347ygb744w2jwx8cw41fk30i2v7qc"
+   "commit": "d2259c73503bb695017e3a3d4285b4a44fca39c6",
+   "sha256": "1ivdl42g2cd4bmiflrmvh8wc0sgy1yrnxnjx36gx8wvn176hw2f2"
   }
  },
  {
@@ -74270,26 +74270,26 @@
   "repo": "mew/kixtart-mode",
   "unstable": {
    "version": [
-    20260831,
-    1229
+    20260906,
+    1251
    ],
    "deps": [
     "eldoc"
    ],
-   "commit": "e534609ca0ffbd3cf1a5c6f464861d75d14b7cda",
-   "sha256": "10gglxvq3v4rzqj5nwld06hdvb0jjin8r8yvpq1i2166k93h3i7a"
+   "commit": "06df011aee369d8c9a5cf6d7bc67ab8d3f65570c",
+   "sha256": "1f488j9d59fcp0pixz7jkgcn3i1xbwvlwqsdjaz45z03wynkylls"
   },
   "stable": {
    "version": [
     1,
     4,
-    4
+    5
    ],
    "deps": [
     "eldoc"
    ],
-   "commit": "a450b436e2cdb1b18d16fd273b1ce405d095c0f9",
-   "sha256": "1yz3svw50advkr4r8s9kfxjs1vhd340f1yx65z13pgqr5ch7a8fs"
+   "commit": "06df011aee369d8c9a5cf6d7bc67ab8d3f65570c",
+   "sha256": "1f488j9d59fcp0pixz7jkgcn3i1xbwvlwqsdjaz45z03wynkylls"
   }
  },
  {
@@ -83940,11 +83940,11 @@
   "repo": "kazu-yamamoto/Mew",
   "unstable": {
    "version": [
-    20260827,
-    401
+    20260907,
+    2247
    ],
-   "commit": "40e58f0098a2cc00eb20494af858746a1486d5ec",
-   "sha256": "17ri7s7f79m7diz8c9gqnca1f1r8v46dmg3d9xwhsa0hcdxiza42"
+   "commit": "0b0419427ecfce373a56e11272b1d2703e445993",
+   "sha256": "0mpanainzavj14295wnlx9m5rfmsz8kb7w2ps1xmhmcajiqaggj5"
   },
   "stable": {
    "version": [
@@ -84824,10 +84824,10 @@
   "unstable": {
    "version": [
     20260907,
-    843
+    1938
    ],
-   "commit": "1fef33f5cd799f29b99519f5dab8c7171772542f",
-   "sha256": "05bc9yif2pxlbl6h96abzjalpscjwgp4lhmary2cfnziy8pn1syn"
+   "commit": "dcba7b0506f36ba0edeb358a3cf63ca7951f3434",
+   "sha256": "0v900k8i33fyrcd5kl9by7azv7zmb80p68r3wbq5qr1arlywk43d"
   },
   "stable": {
    "version": [
@@ -88626,10 +88626,10 @@
   "unstable": {
    "version": [
     20260907,
-    528
+    2015
    ],
-   "commit": "d3cd37ba22bfd696da9f83926ba9536833f4d433",
-   "sha256": "0cp000ajwva72h88ywxg10kqpjnv5hhj9j0c47j5xdxx5nr7hm2z"
+   "commit": "e9e0eb5f219c379931a03ea7feb3f934ede584ca",
+   "sha256": "0725dqig1yiazfw89l2jpaxkzi8rpdb4ids7b65yhbwigfbvlmpn"
   },
   "stable": {
    "version": [
@@ -99419,7 +99419,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2994-2971921006/nix-shell-3189-3839383196/nix-shell-3253-503319930/git-checkout-tmp-BY7ioOBo/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2995-292367475/nix-shell-3252-1588389448/nix-shell-3316-3107783106/git-checkout-tmp-8qGlj8d9/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -106833,7 +106833,22 @@
   "unstable": {
    "version": [
     20260907,
-    1612
+    2321
+   ],
+   "deps": [
+    "magit-section",
+    "markdown-table-wrap",
+    "md-ts-mode",
+    "transient"
+   ],
+   "commit": "894d1e7be124ecbdfcb203d9c22b627b61620ace",
+   "sha256": "1pb9j6nyl8fc9ayf0prz7s5fihvjl597i98wll4bs0i94f49wbmk"
+  },
+  "stable": {
+   "version": [
+    3,
+    0,
+    2
    ],
    "deps": [
     "magit-section",
@@ -106843,21 +106858,6 @@
    ],
    "commit": "3c13bb0f03a602226ab638c1bf096e32304e0a26",
    "sha256": "0qldzjxx8cydrfnrijvsyjy4lv0d18543lx48bqvkyf0jm16m2j4"
-  },
-  "stable": {
-   "version": [
-    3,
-    0,
-    1
-   ],
-   "deps": [
-    "magit-section",
-    "markdown-table-wrap",
-    "md-ts-mode",
-    "transient"
-   ],
-   "commit": "043dd368f0f58de8a183398bbd24468361a657d5",
-   "sha256": "1f012nf6ffr38r4midlgmw4i67fnvnchbvxhnqzl8dsg9v0nq9xq"
   }
  },
  {
