@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.8.0.20260906.5";
+      version = "3.8.0.20260907.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.8.0.20260906.5.tar";
-        sha256 = "0y7qg11y9dbd3p0ys4wpaind67h9vnd18ac1p0ry5fy0hrhd4cr4";
+        url = "https://elpa.gnu.org/devel/consult-3.8.0.20260907.6.tar";
+        sha256 = "0zkb4haz97ysv4d9h6sn2q2ng448pw4prhwl6b6bmqf6fda3f97k";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1882,10 +1882,10 @@
     elpaBuild {
       pname = "csv-mode";
       ename = "csv-mode";
-      version = "1.27.0.20260505.161621";
+      version = "1.27.0.20260907.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/csv-mode-1.27.0.20260505.161621.tar";
-        sha256 = "0g166wcxh7fl8ixnbc1ap2dl5mrq9ahzkx3b5fzfcx7f6b3aw8ym";
+        url = "https://elpa.gnu.org/devel/csv-mode-1.27.0.20260907.5.tar";
+        sha256 = "0s66ydfafaff0r0fz7fn0df8z8v1g8pbi9c49wz1k9d25ac5hcyj";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -3047,10 +3047,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.24.0.20260902.18";
+      version = "1.24.0.20260907.19";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260902.18.tar";
-        sha256 = "0fbsi92nphfrv9bfm5fi24p3vxyvni98fcc7h994r5j5aws2wjzq";
+        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260907.19.tar";
+        sha256 = "0lkfsvfwd330hh04wxfc4zjs22yh1kspxr271pi22pl58q4d2pzg";
       };
       packageRequires = [
         eldoc
@@ -6267,10 +6267,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260906.44";
+      version = "5.3.0.0.20260907.45";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260906.44.tar";
-        sha256 = "1rnjdd8bdrqijvsx2bk26gb2mgvwf3j22vmnidbrli9afpffz9v4";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260907.45.tar";
+        sha256 = "1wcdqch33rz4mjp7f708a2h4iqdwgfs1yvpd65wj97rg9nj4y0y0";
       };
       packageRequires = [ ];
       meta = {
@@ -7855,7 +7855,7 @@
       version = "1.4.1.0.20260904.7";
       src = fetchurl {
         url = "https://elpa.gnu.org/devel/pulsar-1.4.1.0.20260904.7.tar";
-        sha256 = "147akxfyw5ngv9vi06dilf85r32g0jfnf978w2l27h9dkxrbvwhm";
+        sha256 = "1sgdknjqkn8g4dk88dh74zdc36h227y5vgafi3jjwzyfr5i7h7ig";
       };
       packageRequires = [ ];
       meta = {
@@ -7878,7 +7878,7 @@
       version = "5.3.6.0.20251230.80953";
       src = fetchurl {
         url = "https://elpa.gnu.org/devel/pyim-5.3.6.0.20251230.80953.tar";
-        sha256 = "0vqy4vxsw6inghfjmk7bqry8zw9rm9yaz1zffr19a8nwqiwbvszc";
+        sha256 = "1208kcy1c4h07pcwhw9dkg35g417ras089ar3b2m5j3zzqkga5sv";
       };
       packageRequires = [
         async
