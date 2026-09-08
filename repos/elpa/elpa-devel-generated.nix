@@ -3608,10 +3608,10 @@
     elpaBuild {
       pname = "expreg";
       ename = "expreg";
-      version = "1.4.1.0.20260619.7";
+      version = "1.4.1.0.20260907.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/expreg-1.4.1.0.20260619.7.tar";
-        sha256 = "0dxdr7ahhj17fvsvpb0w6ylh20qkgrvy53pc9a0r6m8pv97i6mx0";
+        url = "https://elpa.gnu.org/devel/expreg-1.4.1.0.20260907.11.tar";
+        sha256 = "0aw41vp4crjd3x2pm9phacjv2p7j7yq9jd56nkdncry0y83rn7hf";
       };
       packageRequires = [ ];
       meta = {
@@ -7681,10 +7681,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.2.0.20260829.4";
+      version = "1.5.2.0.20260908.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.5.2.0.20260829.4.tar";
-        sha256 = "1yikgaizz2jy523jz8kl630blb5f6932s21wn6hjav144i7s1wv1";
+        url = "https://elpa.gnu.org/devel/posframe-1.5.2.0.20260908.6.tar";
+        sha256 = "001pqajgzckg8rk97s1n37k1lifd7pd3452jziy1l0dmxxj0awzs";
       };
       packageRequires = [ ];
       meta = {
