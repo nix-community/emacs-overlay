@@ -1592,20 +1592,20 @@
   "repo": "xenodium/acp.el",
   "unstable": {
    "version": [
-    20260907,
-    2037
+    20260908,
+    137
    ],
-   "commit": "2a6f2d4600860bd2ab1988253b241f5a39ba59e5",
-   "sha256": "11blxs2m294ay8bm0gylqy2fh6vfksbv18jkk358cvv6y48phqj6"
+   "commit": "0f2cac4f9ee7998145a1d4710eb1ea5b2fa9d98f",
+   "sha256": "09030phdxh8cpi943fpqhw24yc2z74bdfrcv3vlwvbn55s3aj7x8"
   },
   "stable": {
    "version": [
     0,
-    14,
-    3
+    15,
+    1
    ],
-   "commit": "42f5c268537220b94cb1f17e29d3f1f89e6ff0a0",
-   "sha256": "0fz2vlb1a6d8y9yvbgfx5zh5l8kn7j074s9q2ji28lwn4m34c5ys"
+   "commit": "0f2cac4f9ee7998145a1d4710eb1ea5b2fa9d98f",
+   "sha256": "09030phdxh8cpi943fpqhw24yc2z74bdfrcv3vlwvbn55s3aj7x8"
   }
  },
  {
@@ -2175,15 +2175,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260907,
-    1057
+    20260908,
+    226
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "7eda18b6a67e303729fe19128f94882cec4889f1",
-   "sha256": "179d1av3v82nq1isykk57x6nyhpblxpy1fslgnxckf69aqdsjcib"
+   "commit": "cc24345e9db2a205f7b8821015f89be3de7dd1e4",
+   "sha256": "1caikr6qka9yb9pnvzwd9lxh1a4vm3m7447qyhpkk57y9zka9s7v"
   },
   "stable": {
    "version": [
@@ -32717,11 +32717,11 @@
   "repo": "radian-software/el-patch",
   "unstable": {
    "version": [
-    20250816,
-    21
+    20260907,
+    2253
    ],
-   "commit": "5adb7097d0ff3d9e004a8bb07c0b25f7ee20ba8a",
-   "sha256": "0s8bh7cjdr0gg5jqbrf44abrxzfh7vkjyz02w2dc9hpdjkm75zg5"
+   "commit": "6eefe13ac8d985c730c83b676cee9c55579eeb91",
+   "sha256": "0vrvs7mpvay0dpph6qhgdsrw3ilqnl7bg8i0wpiq3s2kyk5qcjhr"
   },
   "stable": {
    "version": [
@@ -44030,8 +44030,8 @@
   "repo": "martianh/fj.el",
   "unstable": {
    "version": [
-    20260509,
-    741
+    20260908,
+    626
    ],
    "deps": [
     "fedi",
@@ -44039,13 +44039,13 @@
     "tp",
     "transient"
    ],
-   "commit": "4832dcfcd167d1975bb44a024881c75fef64182e",
-   "sha256": "09ff20am16ysjpbqx7b92qgmvyar9b6blm32flkvzqxccqqinxya"
+   "commit": "665af2b3d0019b9bcb2297cc1f3aff81a62cea6f",
+   "sha256": "1m310ywm8yafcj2x0mclgm899hja1rq7awj9pdmc3zh8adj5vklc"
   },
   "stable": {
    "version": [
     0,
-    37
+    38
    ],
    "deps": [
     "fedi",
@@ -44053,8 +44053,8 @@
     "tp",
     "transient"
    ],
-   "commit": "4832dcfcd167d1975bb44a024881c75fef64182e",
-   "sha256": "09ff20am16ysjpbqx7b92qgmvyar9b6blm32flkvzqxccqqinxya"
+   "commit": "665af2b3d0019b9bcb2297cc1f3aff81a62cea6f",
+   "sha256": "1m310ywm8yafcj2x0mclgm899hja1rq7awj9pdmc3zh8adj5vklc"
   }
  },
  {
@@ -51240,19 +51240,19 @@
   "repo": "dangduc/fzf-native",
   "unstable": {
    "version": [
-    20260907,
-    333
+    20260908,
+    752
    ],
-   "commit": "c9f991d39a1f6c71cafb462114abda40c223a501",
-   "sha256": "0jbnfrpkc8n7kdkqp1jxnxf78sfj2a2l8q5fcfly2pm64rlnxzj0"
+   "commit": "0fb77593d449d15722847a650c99516b14f81c43",
+   "sha256": "0iwc70hlggyvyp67hzbffxyvf63y0z0r3ns9v7cwx1syj83h3bci"
   },
   "stable": {
    "version": [
-    2,
-    9
+    3,
+    2
    ],
-   "commit": "c9f991d39a1f6c71cafb462114abda40c223a501",
-   "sha256": "0jbnfrpkc8n7kdkqp1jxnxf78sfj2a2l8q5fcfly2pm64rlnxzj0"
+   "commit": "0fb77593d449d15722847a650c99516b14f81c43",
+   "sha256": "0iwc70hlggyvyp67hzbffxyvf63y0z0r3ns9v7cwx1syj83h3bci"
   }
  },
  {
@@ -56292,16 +56292,16 @@
   "repo": "beacoder/gptel-agent-harness",
   "unstable": {
    "version": [
-    20260827,
-    132
+    20260908,
+    728
    ],
    "deps": [
     "compat",
     "gptel",
     "gptel-agent"
    ],
-   "commit": "c2ce62d30d38999babb1b6af721a0fc003361ccc",
-   "sha256": "15n3yzm67livljwcfw2v6xlc8bl5hpxv2l68mrbswki1a3gilbyj"
+   "commit": "fcf76fb74961b8086a0c9280b43cc66c425c1454",
+   "sha256": "1c9c9aw195wmw9ail3xvd620v42cq8cw07mni7n74j6n91hdnmpy"
   },
   "stable": {
    "version": [
@@ -80404,14 +80404,14 @@
   "repo": "zk-phi/magic-latex-buffer",
   "unstable": {
    "version": [
-    20210306,
-    422
+    20260908,
+    843
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "903ec91872760e47c0e5715795f8465173615098",
-   "sha256": "0n2f3y6b6n8ipvk99ai1hwqddkwg5y97ks068wvp4rr4fspxkm9k"
+   "commit": "31eb152b61b33a4017dd254a560be67e4b5ddd3c",
+   "sha256": "13h06nva61d1pr3inw1dm7z1ys7162f9ydagc92jd3cv4qpq2c1z"
   }
  },
  {
@@ -83941,10 +83941,10 @@
   "unstable": {
    "version": [
     20260907,
-    2247
+    2350
    ],
-   "commit": "0b0419427ecfce373a56e11272b1d2703e445993",
-   "sha256": "0mpanainzavj14295wnlx9m5rfmsz8kb7w2ps1xmhmcajiqaggj5"
+   "commit": "5fd9336e13d54f1359d47c9d8bc98a27b2d368ee",
+   "sha256": "02xvm4ngnb27m6qpqwlmympbfrfr204bxbgn1vlrylzidfyblj19"
   },
   "stable": {
    "version": [
@@ -93252,20 +93252,20 @@
   "repo": "agzam/occult.el",
   "unstable": {
    "version": [
-    20260421,
-    1414
+    20260908,
+    327
    ],
-   "commit": "74006325af1d96af3f26dc2dbf02baccc03d83f1",
-   "sha256": "02arn9y3i5agp4bg89rs57njqd1cvis2vvnh4l7386v319rcz2v1"
+   "commit": "9d12eed668acf7decaae6dd19a3f2fecaa1d3c68",
+   "sha256": "0f0zbcjx7fsm8l710z6xqzyjaqnfr6z1mxcf3bszwa8b6lamw9sh"
   },
   "stable": {
    "version": [
     1,
-    2,
-    0
+    3,
+    1
    ],
-   "commit": "74006325af1d96af3f26dc2dbf02baccc03d83f1",
-   "sha256": "02arn9y3i5agp4bg89rs57njqd1cvis2vvnh4l7386v319rcz2v1"
+   "commit": "9d12eed668acf7decaae6dd19a3f2fecaa1d3c68",
+   "sha256": "0f0zbcjx7fsm8l710z6xqzyjaqnfr6z1mxcf3bszwa8b6lamw9sh"
   }
  },
  {
@@ -99419,7 +99419,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2995-292367475/nix-shell-3252-1588389448/nix-shell-3316-3107783106/git-checkout-tmp-8qGlj8d9/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3004-293270007/nix-shell-3198-3890988882/nix-shell-3262-709821703/git-checkout-tmp-MWPlJXlR/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -109091,11 +109091,11 @@
   "repo": "tumashu/posframe",
   "unstable": {
    "version": [
-    20260829,
-    203
+    20260908,
+    156
    ],
-   "commit": "6f89c0acd29306cb2cd023418d18134cfc507800",
-   "sha256": "1xbfpmjcw2csw6d65h5k3i4kjdzmqrnc3wh1vi8rqvkqanyckxhj"
+   "commit": "435055dd6894fd4e8b21b355d40c0b289211b714",
+   "sha256": "0cj6b8pk1ksnh959rzagd75wmxrms5cx4mppwrfs6n2n9k5g7whv"
   },
   "stable": {
    "version": [
