@@ -2012,10 +2012,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.37.0.20260509.74153";
+      version = "0.38.0.20260908.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.37.0.20260509.74153.tar";
-        sha256 = "0fwklcgc11lynkfp00wwjrsbdkxsdhi5vis2qcmlcnh5l4lwmi7y";
+        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.38.0.20260908.0.tar";
+        sha256 = "1jpiinsf1ddb0iw6h06lfmd4xsk88kyxbgmri41b189l093sz53i";
       };
       packageRequires = [
         fedi
@@ -3426,10 +3426,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.14.0.0.20260905.0";
+      version = "0.14.0.0.20260907.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.14.0.0.20260905.0.tar";
-        sha256 = "1w526rw8g267xv1sp88jly7k5hczd0hksi0lddvzwlmwbj06iaj1";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.14.0.0.20260907.4.tar";
+        sha256 = "07nxhcb82n9yb3jdw8zz5jf5mr8kpsv7jpx8kpjx1lxq09nxikry";
       };
       packageRequires = [
         fsm
