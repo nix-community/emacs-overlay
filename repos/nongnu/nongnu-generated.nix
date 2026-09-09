@@ -5730,10 +5730,10 @@
     elpaBuild {
       pname = "tabspaces";
       ename = "tabspaces";
-      version = "1.10.1";
+      version = "1.11.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/tabspaces-1.10.1.tar";
-        sha256 = "11dzyv2pi42dhdlb5vqfg3nslkirqvf078j45nrbagp7g28f43zk";
+        url = "https://elpa.nongnu.org/nongnu/tabspaces-1.11.0.tar";
+        sha256 = "1gfvykgg8ngrssb79fdlaqzcgvhhhlda28a3w77766w9gsvgcycr";
       };
       packageRequires = [ project ];
       meta = {
