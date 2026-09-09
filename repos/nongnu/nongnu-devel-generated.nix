@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.13.0.20260829.4";
+      version = "1.13.0.20260908.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.13.0.20260829.4.tar";
-        sha256 = "16kqwlkzbzh8kd94kzh8jbbzq3qzm83x7iv1hqldfih46bwfq2p1";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.13.0.20260908.5.tar";
+        sha256 = "1an4b7nsni5mlp0d73wzy5irpy018n3zkh335vl0asy1lrq29l8r";
       };
       packageRequires = [
         compat
@@ -1305,10 +1305,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.9.0.20260825.0";
+      version = "3.0.9.0.20260908.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.9.0.20260825.0.tar";
-        sha256 = "01xxlplzxizb5s10vvsbmb7pwnnr76ngrvia0w0c861nz4h5wwaj";
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.9.0.20260908.1.tar";
+        sha256 = "1z26xv0f9vyp4jrw487159rdfcq4nmqysqchgazf0sa2sgjc9jri";
       };
       packageRequires = [
         eglot
@@ -2012,10 +2012,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.38.0.20260908.0";
+      version = "0.40.0.20260908.22";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.38.0.20260908.0.tar";
-        sha256 = "1jpiinsf1ddb0iw6h06lfmd4xsk88kyxbgmri41b189l093sz53i";
+        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.40.0.20260908.22.tar";
+        sha256 = "0mhld68ks1s5jvq73wzik71zv37daab04m9g37zxars413adqyhz";
       };
       packageRequires = [
         fedi
@@ -3032,10 +3032,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.5.0.0.20260907.10";
+      version = "0.5.0.0.20260908.13";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.5.0.0.20260907.10.tar";
-        sha256 = "12p67vvjg6k488w24945ni3yw734q36b3wcp1mb23a8j54h1kmyr";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.5.0.0.20260908.13.tar";
+        sha256 = "1zhyf7zngncabxsxvl46cqybmc6ns6pysjzxzjmnr3w2ppmyvahb";
       };
       packageRequires = [
         keymap-popup
@@ -5353,10 +5353,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260904.67";
+      version = "2.32snapshot0.20260908.68";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260904.67.tar";
-        sha256 = "0ig3fd93ny7hjqkqynvfgzs4y2vkjk7gfijd3d0qj0779d3b638p";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260908.68.tar";
+        sha256 = "1gsicr68bbmc1wrwxjc8bdhpp38cwrh21kyaxz82n0gwl1bs3fx3";
       };
       packageRequires = [ macrostep ];
       meta = {
