@@ -3290,10 +3290,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260702.44";
+      version = "0.0.20260908.45";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260702.44.tar";
-        sha256 = "1xsnp0pfsvs20wscbqcqsigl56ig5vacmkl86f3ljp338ka90d5f";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260908.45.tar";
+        sha256 = "12mhmlrkfqlfimn0hqx3szv6ba81aw21ma8qai2v1x62kxdcsmfx";
       };
       packageRequires = [ ];
       meta = {
@@ -3536,10 +3536,10 @@
     elpaBuild {
       pname = "ess";
       ename = "ess";
-      version = "26.5.0.0.20260818.3";
+      version = "26.5.0.0.20260908.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ess-26.5.0.0.20260818.3.tar";
-        sha256 = "1d9npl46yp8b37vrk49b1pp8ipvd699636f1p49n9xfs34p6hzp7";
+        url = "https://elpa.gnu.org/devel/ess-26.5.0.0.20260908.5.tar";
+        sha256 = "08yqhlxwlilnyvjwad58i19jxwf6i4n6qqxmz1dr2770w7mjxc3k";
       };
       packageRequires = [ ];
       meta = {
@@ -4887,10 +4887,10 @@
     elpaBuild {
       pname = "iso-date";
       ename = "iso-date";
-      version = "1.2.0.0.20250822.220102";
+      version = "1.2.0.0.20260908.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/iso-date-1.2.0.0.20250822.220102.tar";
-        sha256 = "00x25a6rfck3dmsxir62j6zp433jl1mamk7w5vgnd69s883x95vp";
+        url = "https://elpa.gnu.org/devel/iso-date-1.2.0.0.20260908.1.tar";
+        sha256 = "1fljljs1ncghq43qjkxbwp47ray6qs8sxjizn469jyrm8l1cj4hk";
       };
       packageRequires = [ ];
       meta = {
