@@ -29450,7 +29450,7 @@
     20260907,
     2019
    ],
-   "commit": "73ff45fdd8e1de784156b77d124e99cdbbc39104",
+   "commit": "538b8d20c667ac4b0c43ed1a5ef50760fb4ad754",
    "sha256": "15395hff9dpial5cqk93a3n64cv94rn08anz33s1q8kf299jbpdf"
   },
   "stable": {
@@ -31131,8 +31131,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260908,
-    1531
+    20260909,
+    1305
    ],
    "deps": [
     "compat",
@@ -31141,8 +31141,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "836e7e09d64362568ade71c6590f8ae772306c50",
-   "sha256": "163rj6zfah4vifia05lkdzqnnbfpwxgkpyl0fgn2k8q3q0qygwcz"
+   "commit": "41fa04593f8840230ed9f3052920387f31c5c65a",
+   "sha256": "03mg61v7dp680krgbwp6fqyp099g6cva19dv03qvy0ij12k4bb6m"
   },
   "stable": {
    "version": [
@@ -44030,8 +44030,8 @@
   "repo": "martianh/fj.el",
   "unstable": {
    "version": [
-    20260908,
-    1835
+    20260909,
+    1243
    ],
    "deps": [
     "fedi",
@@ -44039,13 +44039,13 @@
     "tp",
     "transient"
    ],
-   "commit": "6b86044174c55820149fb256d12f55ac81ea6805",
-   "sha256": "0ssp9s66ilb4h5as5wxsypy7xy3gn3qfi5n6bvh3sq6cnj1lp9cg"
+   "commit": "98bc65cd29d4adf96f0c922e69885506103cf475",
+   "sha256": "0dgssvgrp0c3jg854lzyr10fn70qc2c8yqs1nkzj2n538rp2jqrk"
   },
   "stable": {
    "version": [
     0,
-    40
+    42
    ],
    "deps": [
     "fedi",
@@ -44053,8 +44053,8 @@
     "tp",
     "transient"
    ],
-   "commit": "6b86044174c55820149fb256d12f55ac81ea6805",
-   "sha256": "0ssp9s66ilb4h5as5wxsypy7xy3gn3qfi5n6bvh3sq6cnj1lp9cg"
+   "commit": "9e28ba39004614de44aa52bd4e429658afbc3f93",
+   "sha256": "0dgssvgrp0c3jg854lzyr10fn70qc2c8yqs1nkzj2n538rp2jqrk"
   }
  },
  {
@@ -94474,14 +94474,14 @@
   "repo": "oantolin/orderless",
   "unstable": {
    "version": [
-    20260830,
-    1156
+    20260909,
+    1506
    ],
    "deps": [
     "compat"
    ],
-   "commit": "51f677f464424ce3c46e3deacb7709784795a03b",
-   "sha256": "11li0pnxhyhar7hmdygqivh3833bp1fcqz8p1g4fdkbk2dmd6h21"
+   "commit": "5806e3f9401606d16962cffae68188c92deb1272",
+   "sha256": "1bnlafm67xlkiw9dv17w546zrafy2gnk7bh54nhnkvb1hw0dgsph"
   },
   "stable": {
    "version": [
@@ -99409,7 +99409,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2983-3807633638/nix-shell-3179-2584392386/nix-shell-3272-1761390499/git-checkout-tmp-NLv63EGh/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2799-3573868018/nix-shell-2989-4221506207/nix-shell-3053-1996390493/git-checkout-tmp-MC2Bx81w/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -100956,11 +100956,11 @@
   "repo": "kostafey/organic-green-theme",
   "unstable": {
    "version": [
-    20260906,
-    2318
+    20260909,
+    1435
    ],
-   "commit": "97f2f90ba8c7cdb7eed89866b2e322632bb49391",
-   "sha256": "0v8g3p346ldkqgm9vr3mivms534chchkgd5a6ay4pkzmxg8rzaga"
+   "commit": "b0fe9c9e1486ba5b1446224050cfc600692e1dfb",
+   "sha256": "1b4f90anp54a50hl8pll2ncb04ividzykv57idwm4x19hz2mx47q"
   }
  },
  {
@@ -113667,14 +113667,14 @@
   "repo": "greghendershott/racket-mode",
   "unstable": {
    "version": [
-    20260726,
-    2002
+    20260829,
+    1650
    ],
    "deps": [
     "compat"
    ],
-   "commit": "f92a33dcc3b604f53ef23a538e26e1f25c4fea47",
-   "sha256": "1iirdbqv1hlv33k0z2wmkjm9pg85z8bsi7wswsb1lsvi2vqlsdjc"
+   "commit": "6c0efd2e49b4ac3067123be19bb290535bdee49f",
+   "sha256": "0wvhw5c5yj058xby3drglr3b5d8l0jf7mrl4l5xyv7x2kdyy6ddp"
   }
  },
  {
