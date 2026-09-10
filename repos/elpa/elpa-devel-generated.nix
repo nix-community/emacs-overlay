@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260906.77";
+      version = "14.1.2.0.20260909.80";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260906.77.tar";
-        sha256 = "01wi12f6lwzy3cq6vzhcd09l3g1k4wzzqdi5a5lykck1jk6vql1n";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260909.80.tar";
+        sha256 = "1wbm25fdflwdsigg1jnmgdkk84zswaw9vdbjkfm1vivf7cyfwcgg";
       };
       packageRequires = [ ];
       meta = {
@@ -1509,10 +1509,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "31.0.0.2.0.20260824.6";
+      version = "31.0.0.2.0.20260909.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/compat-31.0.0.2.0.20260824.6.tar";
-        sha256 = "12rm30yrsvz0cpwcaag15nys55d3kny1pbrkc5k5hb2x35lvf0ll";
+        url = "https://elpa.gnu.org/devel/compat-31.0.0.2.0.20260909.7.tar";
+        sha256 = "19hb51wrkg3v49kd46h2xgcs12zajq0qyjp2pj341r68z11gwhjl";
       };
       packageRequires = [ ];
       meta = {
@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20260828.24";
+      version = "4.2.3.0.20260909.27";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20260828.24.tar";
-        sha256 = "1hasgq010ql9v993c0qsay17hvl2frhqhdcislhpfspkfsk4lh0r";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20260909.27.tar";
+        sha256 = "02axlax19wlcnhrj1k0dnr217ir3f99r4v53razrhknf0rfjygql";
       };
       packageRequires = [ ];
       meta = {
@@ -2997,10 +2997,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20260903.0.20260903.0";
+      version = "20260903.0.20260909.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20260903.0.20260903.0.tar";
-        sha256 = "1llaw01s3in9jpk64mh463jbxy0fmpi8nsfg7wwcvvhq9qffxrki";
+        url = "https://elpa.gnu.org/devel/eev-20260903.0.20260909.1.tar";
+        sha256 = "0izspwhkgabfmp5cd0ycz31f9hnkgs33wvzkadkfnsgkzhm0lfl3";
       };
       packageRequires = [ ];
       meta = {
@@ -3290,10 +3290,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260908.45";
+      version = "0.0.20260909.47";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260908.45.tar";
-        sha256 = "12mhmlrkfqlfimn0hqx3szv6ba81aw21ma8qai2v1x62kxdcsmfx";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260909.47.tar";
+        sha256 = "0cydapq7bfssbfk6ii5ls8v136hj3hdwmlajccb8r3sb2981q09w";
       };
       packageRequires = [ ];
       meta = {
@@ -6801,10 +6801,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.7.0.20260830.6";
+      version = "1.7.0.20260909.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.7.0.20260830.6.tar";
-        sha256 = "1srx0hyk1dp9zv7scn29bzfzm6gps5aywxx64x2ldw7w4mxa2mlb";
+        url = "https://elpa.gnu.org/devel/orderless-1.7.0.20260909.7.tar";
+        sha256 = "15bmkp75nxdcd2qbji25lad1h2ljqzzp67wadw4788c4qwcxh4s3";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260905.539";
+      version = "10.0pre0.20260909.540";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260905.539.tar";
-        sha256 = "1irlqlvnk0xrdbk10j4y5mn3951v9m469p1sz6zqawyp3b85pwpp";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260909.540.tar";
+        sha256 = "06n4xax5lnilqfdal60638h88h5aijp8k5c6dk2fci0cq87b2jih";
       };
       packageRequires = [ ];
       meta = {
@@ -10062,10 +10062,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.8.0.20260901.0";
+      version = "0.13.8.0.20260909.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20260901.0.tar";
-        sha256 = "1qlkj33qghjxbz7712kj0n1xw24m2vz8ffhrag2fzyph4qx5a9v1";
+        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20260909.1.tar";
+        sha256 = "12d0npxpnyhqr328a1a1kg8ccwkk34rk4gd2a9rsknid6f7hlb52";
       };
       packageRequires = [
         compat
