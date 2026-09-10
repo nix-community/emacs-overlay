@@ -1133,10 +1133,10 @@
     elpaBuild {
       pname = "dracula-theme";
       ename = "dracula-theme";
-      version = "1.8.3.0.20260701.10";
+      version = "1.8.3.0.20260907.17";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.3.0.20260701.10.tar";
-        sha256 = "0m26r1swffj2ax3rl3yikgqi2rq796y8vwazisfsb1lsx06hwyyn";
+        url = "https://elpa.nongnu.org/nongnu-devel/dracula-theme-1.8.3.0.20260907.17.tar";
+        sha256 = "1yxmxryw756qj66jnxzc5kdr0vhr11l7h5s6v73wviscqffrga28";
       };
       packageRequires = [ ];
       meta = {
@@ -2012,10 +2012,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.40.0.20260908.22";
+      version = "0.42.0.20260909.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.40.0.20260908.22.tar";
-        sha256 = "0mhld68ks1s5jvq73wzik71zv37daab04m9g37zxars413adqyhz";
+        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.42.0.20260909.0.tar";
+        sha256 = "0yrlpijy3l6p8lg629la43k05nxrmcw03csma85mcdszr5n1q1wk";
       };
       packageRequires = [
         fedi
@@ -3032,10 +3032,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.5.0.0.20260908.13";
+      version = "0.6.0.0.20260909.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.5.0.0.20260908.13.tar";
-        sha256 = "1zhyf7zngncabxsxvl46cqybmc6ns6pysjzxzjmnr3w2ppmyvahb";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.6.0.0.20260909.0.tar";
+        sha256 = "1vyawlwl1gxcfz6azlzmnqrj44pkyjx26j023gqh76arxglwpdcq";
       };
       packageRequires = [
         keymap-popup
@@ -3608,10 +3608,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "1.0.5.0.20260601.0";
+      version = "1.0.5.0.20260909.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/llama-1.0.5.0.20260601.0.tar";
-        sha256 = "0fv7agjcfj59wbis1sw175j6v36zdg0qp84dkv1l3ql6fixcwqh1";
+        url = "https://elpa.nongnu.org/nongnu-devel/llama-1.0.5.0.20260909.1.tar";
+        sha256 = "0i9wbkvdbazrhy7772h7j0mwxs2sjjp5dsya6qpryblpfihrhvf6";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4730,10 +4730,10 @@
     elpaBuild {
       pname = "pinyin-isearch";
       ename = "pinyin-isearch";
-      version = "1.7.2.0.20260906.30";
+      version = "1.7.2.0.20260909.59";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.2.0.20260906.30.tar";
-        sha256 = "1cd78pb1zz1p87fswbvmlmvsc2j3mx4z5rxl6g8ap59bqw620y0p";
+        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.2.0.20260909.59.tar";
+        sha256 = "1j1w2wwz7w5bgk7z30fd7nb4kmxq58sypzgdgs5n2wm6ac3rlrfp";
       };
       packageRequires = [ ];
       meta = {
@@ -4901,10 +4901,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20260726.0";
+      version = "1.0.20260908.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260726.0.tar";
-        sha256 = "1yhnwgv534wskz3rp383v9qasmilpjyqcxpiskx3yx9548fwj0si";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260908.0.tar";
+        sha256 = "1im64sfy1bmbsbdhnj3ss5sm3caqy53c2g1m494zxxyxj2pz68af";
       };
       packageRequires = [ compat ];
       meta = {

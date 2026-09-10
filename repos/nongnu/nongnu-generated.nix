@@ -2030,10 +2030,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.40";
+      version = "0.42";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fj-0.40.tar";
-        sha256 = "1ibbgl39fcjc7gavygxqxnv24qqk29i6bnkw0320m1xbkl3md3xl";
+        url = "https://elpa.nongnu.org/nongnu/fj-0.42.tar";
+        sha256 = "0k967nd2iky2simr4sh48f7v74ksw2irynrnp9k3xa7zcbyvy5xd";
       };
       packageRequires = [
         fedi
@@ -3049,10 +3049,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.5.0";
+      version = "0.6.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hermes-0.5.0.tar";
-        sha256 = "1zy8rjbrwnlyf46975ygmcppr7sgncflsdr8sd9z7c723s4bqcfh";
+        url = "https://elpa.nongnu.org/nongnu/hermes-0.6.0.tar";
+        sha256 = "148qm8p0qy3g914hc7nx7wv2n90d4d1mxx4s3q0xxkzv6fi4i9z7";
       };
       packageRequires = [
         keymap-popup
@@ -4923,10 +4923,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20260726.0";
+      version = "1.0.20260908.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20260726.0.tar";
-        sha256 = "1c44jx4k8g41pkf7lpvpf1wz47nmf0s26153clkdgkfxp64p1bm0";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20260908.0.tar";
+        sha256 = "11b9rh6bzqav9pbsrms4v9qip3vlsl3gzcaq0pq70y8zcd7zc4c1";
       };
       packageRequires = [ compat ];
       meta = {
