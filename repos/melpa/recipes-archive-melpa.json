@@ -4927,11 +4927,11 @@
   "repo": "SunskyXH/ast-grep.el",
   "unstable": {
    "version": [
-    20260702,
-    238
+    20260910,
+    855
    ],
-   "commit": "28bc6e9ac21acf1d1ef58b962b6acd670c27e80f",
-   "sha256": "1li2aj2aaicpc291igzkfsvjdr85nnd27kc976389zn0ngqngyd4"
+   "commit": "0f3e68622f5a83165bf017fe43d8050344cbb411",
+   "sha256": "19665xigcqzpjz4m1b6kzvfd9vdiic66fmpqr7lq5fzrqalp0rxg"
   },
   "stable": {
    "version": [
@@ -33254,28 +33254,28 @@
   "repo": "huangfeiyu/eldoc-mouse",
   "unstable": {
    "version": [
-    20260908,
-    932
+    20260910,
+    859
    ],
    "deps": [
     "eglot",
     "posframe"
    ],
-   "commit": "582ad79432959dc437bfa084c887178df608c62e",
-   "sha256": "05qj9p9gkzbfgzzngj5c12vnyfmhajywlf9k4miz45jb3cx8j6ys"
+   "commit": "0c2285ba8f974ee3a295a6626f989e2b7c8a184e",
+   "sha256": "0c0q4xzfc20w6p7917nwvqw3iz66scph5qi33jq6lv2gidl6f0v6"
   },
   "stable": {
    "version": [
     3,
     0,
-    9
+    10
    ],
    "deps": [
     "eglot",
     "posframe"
    ],
-   "commit": "0bcefa8d1bc33f251ea10b138fc4e5dbfedb92ed",
-   "sha256": "0dhvr7z6s1k1lsvfqnpbivirvr4ydrn8a5xrw4b3h7y60xvqwbsw"
+   "commit": "0c2285ba8f974ee3a295a6626f989e2b7c8a184e",
+   "sha256": "0c0q4xzfc20w6p7917nwvqw3iz66scph5qi33jq6lv2gidl6f0v6"
   }
  },
  {
@@ -97182,15 +97182,15 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20260901,
-    235
+    20260910,
+    239
    ],
    "deps": [
     "nerd-icons",
     "qrencode"
    ],
-   "commit": "1023cd95a991ca8508601027a33a529f2483c38f",
-   "sha256": "0sgmwj5zz0l80g7xkancqd4x47c19b2j9mfwxnnnls1iqk15j6d7"
+   "commit": "6885b67af6bd66ce307dbe3127edb4d78bea192b",
+   "sha256": "17b4c2w6s39y9566cjh9n0ch786dsabpb6xxa4ks817pf2nhfx7c"
   },
   "stable": {
    "version": [
@@ -99409,7 +99409,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3160-3611304661/nix-shell-3353-103242814/nix-shell-3417-3024473880/git-checkout-tmp-2qWV83Ps/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2771-1077394447/nix-shell-2966-2418290311/nix-shell-3030-2442999450/git-checkout-tmp-wHZoAG5Z/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -120854,11 +120854,11 @@
   "repo": "xenodium/shell-maker",
   "unstable": {
    "version": [
-    20260820,
-    1245
+    20260910,
+    119
    ],
-   "commit": "ab4f8ebaf4ef7a7db4762c5d5075baea580044ba",
-   "sha256": "11riixlxsvrkba0phiji4wjw7d1ggg500am0s9fcszgviwcrlg9r"
+   "commit": "f448a74a8eded23aa42f8d60a41c5d8d3a183d07",
+   "sha256": "0k2bkha7v2fvzmilgk14z1dhj4gh9iixb5wmsaajz1xdw9hhwzf0"
   },
   "stable": {
    "version": [
@@ -124562,11 +124562,11 @@
   "repo": "bbatsov/solarized-emacs",
   "unstable": {
    "version": [
-    20260902,
-    1017
+    20260910,
+    602
    ],
-   "commit": "4d2ed5ade940bbbfa244fe9fe7021706df3126ff",
-   "sha256": "0fix6dgfz9hbl7v80s3brp5j0j5nb0y5j9ji34fzmk9ff7cbbc8y"
+   "commit": "9df935bede27abcaa1b1ca9035ac17f39d2f64c9",
+   "sha256": "0nwllicsa5vqvffy25bxnjmh0pdmm9mhyhzphvyp6lpgnsw7wisd"
   },
   "stable": {
    "version": [
@@ -131531,11 +131531,11 @@
   "repo": "xenodium/time-zones",
   "unstable": {
    "version": [
-    20260716,
-    845
+    20260910,
+    135
    ],
-   "commit": "4cc37a54ba6447dc0570cd2e42052689d94f09ee",
-   "sha256": "0xajsx2363sj6shqv8nwbvcr4z2sq6pa4j7rbncn79qlq8wr26l4"
+   "commit": "dc6c438031f5c279bf1bbf39c053f22807460bbf",
+   "sha256": "1l6yrihwmspkdxy8mqp2qnbhh8d0ahg23fxmpdrly8g5crfmy89q"
   },
   "stable": {
    "version": [
