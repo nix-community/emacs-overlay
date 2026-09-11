@@ -291,10 +291,10 @@
     elpaBuild {
       pname = "autothemer";
       ename = "autothemer";
-      version = "0.2.18";
+      version = "0.2.19";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/autothemer-0.2.18.tar";
-        sha256 = "1v6si9fh3rbka72r5jfd35bbvfbfaxr2kfi7jmsgj07fhx4bgl2d";
+        url = "https://elpa.nongnu.org/nongnu/autothemer-0.2.19.tar";
+        sha256 = "0mx99y7ygf36a7kr89s04xzyjgrmbia457dw21kvhs6jwksgdl4x";
       };
       packageRequires = [ dash ];
       meta = {
@@ -5579,10 +5579,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.5.1";
+      version = "1.5.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/subed-1.5.1.tar";
-        sha256 = "0gk9r2dvmrxpz4gpypnnzjgph6xasn5f9i51cx1hnd9r5zim2qy3";
+        url = "https://elpa.nongnu.org/nongnu/subed-1.5.2.tar";
+        sha256 = "1qgcq06nkabw0rqsr478pj8cnfp114q83i1w69gm1y5qhhvpnwyn";
       };
       packageRequires = [ ];
       meta = {
