@@ -2175,8 +2175,21 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260910,
-    1048
+    20260911,
+    42
+   ],
+   "deps": [
+    "acp",
+    "shell-maker"
+   ],
+   "commit": "9716a9e6cdaf72429fcab3f4eae6e076d966404e",
+   "sha256": "1wjrc9fyimaazqf4qa4jxr95i6iix0irhf2bb29h6nr74xnm1sa4"
+  },
+  "stable": {
+   "version": [
+    0,
+    75,
+    3
    ],
    "deps": [
     "acp",
@@ -2184,19 +2197,6 @@
    ],
    "commit": "82364bc1ff94a8f15210f74a336b7ecc85c076d8",
    "sha256": "0rv79himpnnizmjzvp1n0wwnh0qgyvznp5qp5xa5nlasms1z4xk1"
-  },
-  "stable": {
-   "version": [
-    0,
-    75,
-    2
-   ],
-   "deps": [
-    "acp",
-    "shell-maker"
-   ],
-   "commit": "d027d8de2b74019ae83e36b1edcd0b968295ac31",
-   "sha256": "0n1z7f2qrwj6fn0d2nggw1lj9i05448pzrd1j5iajgbknzs1c88r"
   }
  },
  {
@@ -19692,13 +19692,13 @@
   "unstable": {
    "version": [
     20260910,
-    1121
+    1909
    ],
    "deps": [
     "compat"
    ],
-   "commit": "ad07150e96f41a4e0a8ce0b2d6ccddd5de2f8077",
-   "sha256": "0mpa76qk38hc87fqsa9j4h1w9az6cq68yndiv0pk968isq56lyqs"
+   "commit": "f10cf28d3df1e43a8069f5a507c82654834c8b09",
+   "sha256": "199fp8wpg2a1n3fjycn01a8wxz0aywk330rrz4bfhxhinvq4h65z"
   },
   "stable": {
    "version": [
@@ -39478,14 +39478,14 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20260905,
-    2034
+    20260910,
+    2204
    ],
    "deps": [
     "evil"
    ],
-   "commit": "783c96b9901417cb8b6df63ab606387fa72dc922",
-   "sha256": "1jkbjviv68lfvyam9qiv74g03aiajxq4hx9v0mzaqzshk56xs4ry"
+   "commit": "1513aae3652101caf3227bcf7349e2e6fded3210",
+   "sha256": "0p23yx3nwwl92zpqvnsdp41bj0xkbmmzgsdwb9l0s3cx9rv17d9s"
   },
   "stable": {
    "version": [
@@ -65555,11 +65555,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20260909,
-    2232
+    20260910,
+    2208
    ],
-   "commit": "ea68374c34dd4af000b9502d65cf55d5cbc530cd",
-   "sha256": "04zacx4mqm88ici8l9b0zlkzs47qzjz2d4smfsv4zirfl8x6779f"
+   "commit": "600afd51a23ba1928ca49f9b977d2c2648839f59",
+   "sha256": "18kgjxkwx5aysnjcff0sxm5dcp8k48arja3hnbb76rzfmhrshaw2"
   },
   "stable": {
    "version": [
@@ -97075,15 +97075,15 @@
   "repo": "gizmomogwai/org-kanban",
   "unstable": {
    "version": [
-    20250329,
-    2201
+    20260910,
+    2202
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "bc7864f2140d3ed510ec0ecd60c6d3d8b8589ea4",
-   "sha256": "0sibmj1phzxa01awb0r32v2s1ysv2nph1zzgkhi3ai5gb47hfqaz"
+   "commit": "d79668fded3e9e13c8238f13f053e49ceebf238d",
+   "sha256": "181rryhg5d3fwvpl7zfv1bzliv8hp1aqq6lcd8ilxcf2ll39kwjl"
   },
   "stable": {
    "version": [
@@ -99409,7 +99409,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2943-1100731466/nix-shell-3132-3431147606/nix-shell-3198-1605505812/git-checkout-tmp-Nhei1OCU/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2936-2206134789/nix-shell-3130-2431923834/nix-shell-3194-3231254642/git-checkout-tmp-vIzQNmTK/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -110912,13 +110912,13 @@
   "unstable": {
    "version": [
     20260910,
-    1641
+    2252
    ],
    "deps": [
     "transient"
    ],
-   "commit": "79013d1b9cfe5cfe1a19bdb33ca4b9dfde4a2fa9",
-   "sha256": "1qaqvcg3fvmg52rsd2nzzm1fx2scp7jvr31s3s3lg5wgjlj40vnj"
+   "commit": "2a69977071fa7345e186eb0a187abb8b0a38224f",
+   "sha256": "0wdr7vrjkhm85bzkwin191k46kn74imnnq3bxrjql3dxnawh2w10"
   },
   "stable": {
    "version": [
@@ -122806,14 +122806,14 @@
   "repo": "slime/slime",
   "unstable": {
    "version": [
-    20260909,
-    239
+    20260911,
+    53
    ],
    "deps": [
     "macrostep"
    ],
-   "commit": "a93bb5e00235b72ce086faca13b33955f44b416e",
-   "sha256": "0262qbh55sam6gzyz7hk76c5g5zb9nbvy4n3hd5qjcw483mza0h8"
+   "commit": "b7c25d3cf9d29f9babd0431de00e44ad744a81fd",
+   "sha256": "08n65zaq66xacsckgwrzhmfamx3h5j0azf66vplxv9q2y01qy2m0"
   },
   "stable": {
    "version": [
@@ -125423,11 +125423,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20260904,
-    210
+    20260911,
+    213
    ],
-   "commit": "d5aab09bfc8db29ef75b1028aa6dfc1344ff4e2d",
-   "sha256": "0z8p5c3nlxkq2i7q6jfa6knjwx7wxqh9qsjd9d56186w2ra61jp8"
+   "commit": "eb1bf43f781abf882f041c3239db038d0f97a591",
+   "sha256": "1bhwb0gwc4qna71dhigj2sw8iz6pi118ahy4clh39l3wmbcm33bn"
   }
  },
  {
