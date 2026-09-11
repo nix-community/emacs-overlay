@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.8.0.20260907.6";
+      version = "3.8.0.20260910.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.8.0.20260907.6.tar";
-        sha256 = "0zkb4haz97ysv4d9h6sn2q2ng448pw4prhwl6b6bmqf6fda3f97k";
+        url = "https://elpa.gnu.org/devel/consult-3.8.0.20260910.16.tar";
+        sha256 = "0w6zaprkqkp4vmkr6wcysd63ykqigyalcls2jrap5n42diidx01y";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6267,10 +6267,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260907.45";
+      version = "5.3.0.0.20260910.46";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260907.45.tar";
-        sha256 = "1wcdqch33rz4mjp7f708a2h4iqdwgfs1yvpd65wj97rg9nj4y0y0";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260910.46.tar";
+        sha256 = "1ylwmc9v7q0br0hc28ggznqpm14880jsnr5lz83r9pc436nf133x";
       };
       packageRequires = [ ];
       meta = {
