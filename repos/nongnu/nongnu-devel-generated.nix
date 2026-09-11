@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260903.115";
+      version = "2.1.0snapshot0.20260910.125";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260903.115.tar";
-        sha256 = "1mj79csxq5jb81kyzpj6xiq6356s3sd1gqn73y36a8pxd5mzk1zy";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260910.125.tar";
+        sha256 = "0ldwv09p7rqkikvckf2gjypxddi6s92b9cgi56v9pb4kd3bkph5j";
       };
       packageRequires = [
         clojure-mode
@@ -1305,10 +1305,10 @@
     elpaBuild {
       pname = "eldoc-mouse";
       ename = "eldoc-mouse";
-      version = "3.0.9.0.20260908.1";
+      version = "3.0.10.0.20260910.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.9.0.20260908.1.tar";
-        sha256 = "1z26xv0f9vyp4jrw487159rdfcq4nmqysqchgazf0sa2sgjc9jri";
+        url = "https://elpa.nongnu.org/nongnu-devel/eldoc-mouse-3.0.10.0.20260910.0.tar";
+        sha256 = "022l8nympdbdpp9110qv2fr7qwv78c25fqd2wmzl2zh1ayl4mv9y";
       };
       packageRequires = [
         eglot
@@ -4730,10 +4730,10 @@
     elpaBuild {
       pname = "pinyin-isearch";
       ename = "pinyin-isearch";
-      version = "1.7.2.0.20260909.59";
+      version = "1.7.2.0.20260910.61";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.2.0.20260909.59.tar";
-        sha256 = "1j1w2wwz7w5bgk7z30fd7nb4kmxq58sypzgdgs5n2wm6ac3rlrfp";
+        url = "https://elpa.nongnu.org/nongnu-devel/pinyin-isearch-1.7.2.0.20260910.61.tar";
+        sha256 = "0v0ylwy49dmy2rflss264wnn7wq0kw0hj5iwf1cl4zlyag2g1bfh";
       };
       packageRequires = [ ];
       meta = {
