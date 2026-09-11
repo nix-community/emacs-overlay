@@ -2176,14 +2176,14 @@
   "unstable": {
    "version": [
     20260911,
-    42
+    1130
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "9716a9e6cdaf72429fcab3f4eae6e076d966404e",
-   "sha256": "1wjrc9fyimaazqf4qa4jxr95i6iix0irhf2bb29h6nr74xnm1sa4"
+   "commit": "6bee8625bc4636f657f74d5da55e288de171d7e3",
+   "sha256": "01rc51drwy1z44g9md7maal9zn7sb6b490s1irlcaksnwc70mrmn"
   },
   "stable": {
    "version": [
@@ -31131,8 +31131,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260909,
-    1305
+    20260911,
+    1500
    ],
    "deps": [
     "compat",
@@ -31141,8 +31141,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "41fa04593f8840230ed9f3052920387f31c5c65a",
-   "sha256": "03mg61v7dp680krgbwp6fqyp099g6cva19dv03qvy0ij12k4bb6m"
+   "commit": "d7c23f8bd353456f8faa25fef48cb55916c09190",
+   "sha256": "0f54qgafw19nlyxg3kbrg5lnsqgimsiay87xk2fn6mhfqyivnfwq"
   },
   "stable": {
    "version": [
@@ -65555,11 +65555,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20260910,
-    2208
+    20260911,
+    1506
    ],
-   "commit": "600afd51a23ba1928ca49f9b977d2c2648839f59",
-   "sha256": "18kgjxkwx5aysnjcff0sxm5dcp8k48arja3hnbb76rzfmhrshaw2"
+   "commit": "50945472c3600dcce3bd8f823aaf9906ff4e74df",
+   "sha256": "16chra3hkpj107ii67is35p4jvyr2r8ym9lfhpn96v8x3873vxnb"
   },
   "stable": {
    "version": [
@@ -82515,28 +82515,30 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20260906,
-    1728
+    20260911,
+    1530
    ],
    "deps": [
+    "compat",
     "persist",
     "tp"
    ],
-   "commit": "8047ceebe9cc18e2fb3daa2e0ac15669851c480f",
-   "sha256": "1bmlw92wn3ymhavxdm5dg52d67j02dsvrk91qvjfzh717hpqffcn"
+   "commit": "020cdc49a6a9f35b106fc97a73acef5038dd071a",
+   "sha256": "0rxgwcaqz91p9d5gxsnymqpf9ad87kfn4kbrbldhr7bacri9hicr"
   },
   "stable": {
    "version": [
     2,
     1,
-    2
+    4
    ],
    "deps": [
+    "compat",
     "persist",
     "tp"
    ],
-   "commit": "47438191baf258ad0b53d47b0845c47eccf0300b",
-   "sha256": "1l0l59vf8156cxla2kfm5sr91lqzil5rl70cmrb8wh0hqx4s0032"
+   "commit": "020cdc49a6a9f35b106fc97a73acef5038dd071a",
+   "sha256": "0rxgwcaqz91p9d5gxsnymqpf9ad87kfn4kbrbldhr7bacri9hicr"
   }
  },
  {
@@ -99409,7 +99411,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2840-2866633196/nix-shell-3032-3551273232/nix-shell-3096-2799042135/git-checkout-tmp-lknAjdN8/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3027-202666654/nix-shell-3217-1027384574/nix-shell-3282-2635641176/git-checkout-tmp-DrgTOxAe/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -119478,10 +119480,10 @@
   "stable": {
    "version": [
     1,
-    14
+    15
    ],
-   "commit": "8fc579d1f42487288ab467f0f6ef050f6ab81801",
-   "sha256": "19rq781n5dvrx2xa2i4cvzmbxvsw6c4dpzpda22n7bs0jabjwmlq"
+   "commit": "baa252d926f1aee202ebae2f7276f7c1dbea7433",
+   "sha256": "1dxn64kc0sa3j7mdriqlpykv3vin4zh6y9df0lgxahxjafzb821f"
   }
  },
  {
