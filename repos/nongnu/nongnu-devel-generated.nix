@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260910.125";
+      version = "2.1.0snapshot0.20260912.128";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260910.125.tar";
-        sha256 = "0ldwv09p7rqkikvckf2gjypxddi6s92b9cgi56v9pb4kd3bkph5j";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260912.128.tar";
+        sha256 = "1714cyz4vgn92fmxhnvi6gjjbx3pz62nsaxsadzfmk09aw6hcmd5";
       };
       packageRequires = [
         clojure-mode
@@ -4816,10 +4816,10 @@
     elpaBuild {
       pname = "project-nix-store";
       ename = "project-nix-store";
-      version = "0.11.0.0.20260907.0";
+      version = "0.11.0.0.20260912.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.11.0.0.20260907.0.tar";
-        sha256 = "05mzkzwb45s5ls7b6jac7pnp9q6icrhi3cngkqd70rskphn8vfyb";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.11.0.0.20260912.1.tar";
+        sha256 = "0whycb961p73b5pxxi304zsihnnlrg9r7f719l5f5507vrrjhvy1";
       };
       packageRequires = [ ];
       meta = {
