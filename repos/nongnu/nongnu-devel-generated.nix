@@ -3032,10 +3032,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.6.0.0.20260910.1";
+      version = "0.6.0.0.20260911.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.6.0.0.20260910.1.tar";
-        sha256 = "1gi8qwwamxsg0snlr3vsdkffz5xm7bzg2vg09fprp8s88s7vwjgx";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.6.0.0.20260911.2.tar";
+        sha256 = "07m2wwbmqa5zsw49a6328ghllsk5kypn5kdmyss9wimcg5k6llys";
       };
       packageRequires = [
         keymap-popup
@@ -3788,10 +3788,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.7.1.0.20260907.3";
+      version = "4.7.1.0.20260911.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20260907.3.tar";
-        sha256 = "09p47b4kawzyf5n7m7apf2gcbaqiz201fpkpr7nbgri2m6gja010";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20260911.5.tar";
+        sha256 = "1bg4ffx07b1ah2qgxjnslaap0vvd7hn1734k1jfwd62if13rrbp4";
       };
       packageRequires = [
         compat
@@ -3821,10 +3821,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.7.1.0.20260907.3";
+      version = "4.7.1.0.20260911.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.1.0.20260907.3.tar";
-        sha256 = "0338n20c9sdvld5kzn1gr3sq3410qdvbzw8zv518a7sf8prq1j26";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.1.0.20260911.5.tar";
+        sha256 = "1rbvwxykj03zknff7l6w6kzajslf2b62klx06ydkpksldydl9l6l";
       };
       packageRequires = [
         compat
@@ -3861,6 +3861,7 @@
   ) { };
   mastodon = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -3870,12 +3871,13 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.1.3.0.20260906.76";
+      version = "2.1.4.0.20260911.77";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.3.0.20260906.76.tar";
-        sha256 = "1rhali8svih4arbf2wg9hlwbvdy7j4s2nndjlc5ac8xrzlvmz97z";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.4.0.20260911.77.tar";
+        sha256 = "1499dy4dq6jg2qkwyf4rndyfiviy96j5c2sjm7ar7gr0ybp1xw1a";
       };
       packageRequires = [
+        compat
         persist
         tp
       ];

@@ -3878,6 +3878,7 @@
   ) { };
   mastodon = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -3887,12 +3888,13 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.1.3";
+      version = "2.1.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.1.3.tar";
-        sha256 = "1xnggijz2fiwhd96jw6ffgz39s3n6fym7jdg9z6jkn55vk10nl1r";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.1.4.tar";
+        sha256 = "0zh8mskr7dzwl09cf1jza63skiq13xf84iqslww8scmyhhzmgnka";
       };
       packageRequires = [
+        compat
         persist
         tp
       ];
