@@ -3047,10 +3047,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.24.0.20260907.19";
+      version = "1.24.0.20260912.20";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260907.19.tar";
-        sha256 = "0lkfsvfwd330hh04wxfc4zjs22yh1kspxr271pi22pl58q4d2pzg";
+        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20260912.20.tar";
+        sha256 = "03973sk18jmpj0lpwlfhad7avn04bdivjknapm260zi7bj9mpvhh";
       };
       packageRequires = [
         eldoc
@@ -3807,10 +3807,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.7.0.20260905.2";
+      version = "1.4.7.0.20260912.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20260905.2.tar";
-        sha256 = "19lgqixwswcy3qcmksmq8ff3g2mspcd7r13nyd87crlxv9jjlbqg";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20260912.3.tar";
+        sha256 = "1l75sh68cqinmjfn1g1415r8avw5dxk6lla6dxpyqb9lixpbkna0";
       };
       packageRequires = [
         eldoc
@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.1.0.0.20260911.57";
+      version = "9.1.0.0.20260912.59";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260911.57.tar";
-        sha256 = "17fn4m812bglpdnb3vsav4idyjdjnzgx4s2cqdk636vyd8fwgzqr";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260912.59.tar";
+        sha256 = "19jsr9n2ybxzd0mnh3irvfh1zfl8winsb1vywn6qmhk5kzy8dqvf";
       };
       packageRequires = [ ];
       meta = {
@@ -10394,10 +10394,10 @@
     elpaBuild {
       pname = "use-package";
       ename = "use-package";
-      version = "2.4.6.0.20260316.172337";
+      version = "2.4.6.0.20260912.42";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20260316.172337.tar";
-        sha256 = "122bhaa7p7ylrpd00a52cynshl7w07snmyjklc9wl6v3w9sff2km";
+        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20260912.42.tar";
+        sha256 = "19r77k9cbfp74zcdkx4is6qh4c4npwbsys5q4k1g8p7c7swdj7ap";
       };
       packageRequires = [ bind-key ];
       meta = {
