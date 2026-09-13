@@ -30326,26 +30326,26 @@
   "repo": "Lindydancer/e2ansi",
   "unstable": {
    "version": [
-    20250120,
-    2241
+    20260912,
+    2126
    ],
    "deps": [
     "face-explorer"
    ],
-   "commit": "53c9c2aff5bf66864446a02a75e2e431aaef59d5",
-   "sha256": "10143qpqkhl1qig1nwrl70byfyrc2kg211hq66wa9jn9jl8lcikx"
+   "commit": "9edc8eb3dbd33be09864ff660b44d9d0f5002b3c",
+   "sha256": "0g6ji5vbrjim0f3rc0g6kz6n77qvd6ac0xq7kzqwfv5kjbkfbnif"
   },
   "stable": {
    "version": [
     0,
     2,
-    0
+    1
    ],
    "deps": [
     "face-explorer"
    ],
-   "commit": "53c9c2aff5bf66864446a02a75e2e431aaef59d5",
-   "sha256": "10143qpqkhl1qig1nwrl70byfyrc2kg211hq66wa9jn9jl8lcikx"
+   "commit": "9edc8eb3dbd33be09864ff660b44d9d0f5002b3c",
+   "sha256": "0g6ji5vbrjim0f3rc0g6kz6n77qvd6ac0xq7kzqwfv5kjbkfbnif"
   }
  },
  {
@@ -42453,11 +42453,11 @@
   "repo": "Lindydancer/face-explorer",
   "unstable": {
    "version": [
-    20250117,
-    932
+    20260912,
+    2037
    ],
-   "commit": "4dc83bffbaf41c22795556fed63f8dc938efd9b8",
-   "sha256": "0qph9ajhy9a132dwx1q09n4yd6ialnyjy8snlx104dlf7mp76nvj"
+   "commit": "8a92383db3df635f2d988ad5a312db945cd4fe4f",
+   "sha256": "17p65xwx6yyx4h659ai6r1wjb8mnyhlr4f4ib7yz0749mj02kzmf"
   },
   "stable": {
    "version": [
@@ -59022,15 +59022,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20260902,
-    1428
+    20260912,
+    1501
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "3b93c42c8f1e360daf39695d664beca54dc3d5fe",
-   "sha256": "15bzcszw1y1s5q54zsz8ih650mizk3a5pfp873lpxjbavm2xr1jc"
+   "commit": "e4d5625c2d65ea8725435e1352ce86ab462e4884",
+   "sha256": "1l0b022dk7llxpr2jqb3wm9cal2clbvbn5zgpwnrxbk8ifgq7bd8"
   },
   "stable": {
    "version": [
@@ -59833,14 +59833,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20260902,
-    1430
+    20260912,
+    1435
    ],
    "deps": [
     "async"
    ],
-   "commit": "90712c571f21ccf024b7eb6dcb9ccb5bffbad073",
-   "sha256": "0b7sb23ji3yw05cza1nk975if827qxzgk92d4y54wfrs6803msdq"
+   "commit": "008ed6a3886f6d58dff2ec8cb996da127824c59f",
+   "sha256": "0w7s9xv6n7f10zfpnsk68infb3x93k8inxdwv73gh9h6in86kx5w"
   },
   "stable": {
    "version": [
@@ -65555,11 +65555,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20260911,
-    1506
+    20260912,
+    1451
    ],
-   "commit": "50945472c3600dcce3bd8f823aaf9906ff4e74df",
-   "sha256": "16chra3hkpj107ii67is35p4jvyr2r8ym9lfhpn96v8x3873vxnb"
+   "commit": "bf32eb99d919133d7909534cfd6538539d4bbb0a",
+   "sha256": "16nk8kydl91nkl4m5yizb0cxl4227vzjndmpj0yayh93nly49sbg"
   },
   "stable": {
    "version": [
@@ -88263,11 +88263,11 @@
   "repo": "jd/naquadah-theme",
   "unstable": {
    "version": [
-    20190225,
-    1427
+    20260912,
+    1819
    ],
-   "commit": "430c3b7bd51922cb616b3f60301f4e2604816ed8",
-   "sha256": "0z2dn05xgbdfw6rwgsq31rm5dr098dk411qk83fbx2bkdxxfr60w"
+   "commit": "e46fd3fbc3a982d3c9d94647dd6e491593ce293c",
+   "sha256": "0cwp1id7lk6p8gi23wshf9nvz1p17zlz1kw9j4n2vfqim70n0nnm"
   }
  },
  {
@@ -99411,7 +99411,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2778-1198593662/nix-shell-2976-1457832696/nix-shell-3040-1549579577/git-checkout-tmp-nov1jhcc/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2773-3236864043/nix-shell-2968-524890253/nix-shell-3032-1923751929/git-checkout-tmp-kroZRU04/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
