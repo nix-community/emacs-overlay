@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260912.128";
+      version = "2.1.0snapshot0.20260912.129";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260912.128.tar";
-        sha256 = "1714cyz4vgn92fmxhnvi6gjjbx3pz62nsaxsadzfmk09aw6hcmd5";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260912.129.tar";
+        sha256 = "03lxizzngr7fs9gcjc0sladmfbwc3dm1ls64344gw9k0v0pka5mc";
       };
       packageRequires = [
         clojure-mode
@@ -2983,10 +2983,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260902.51";
+      version = "4.0.7.0.20260912.54";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260902.51.tar";
-        sha256 = "1pfxlvivjdnxhpj3x48vdza1c8277vv3rrlzyr4lzwlg4pdcgnjx";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260912.54.tar";
+        sha256 = "1g9imap75am0aixcfax72l356yw9dkbsndmk8n4xy49l6414kzwp";
       };
       packageRequires = [
         helm-core
@@ -3008,10 +3008,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260902.51";
+      version = "4.0.7.0.20260912.54";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260902.51.tar";
-        sha256 = "02jgv1hn83galip8hs6vrz2pssg1i71a3p713956l87bjalydicx";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260912.54.tar";
+        sha256 = "0479ahi6nxdvi15bnygl81bciwr28r6c0rk44qasn90gn92fss3b";
       };
       packageRequires = [ async ];
       meta = {
@@ -3032,10 +3032,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.6.0.0.20260911.2";
+      version = "0.6.0.0.20260912.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.6.0.0.20260911.2.tar";
-        sha256 = "07m2wwbmqa5zsw49a6328ghllsk5kypn5kdmyss9wimcg5k6llys";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.6.0.0.20260912.4.tar";
+        sha256 = "04l04n9sg7fsz89hfc8vchcjl6hbalv7j3mwblpkiqwa9yryfizc";
       };
       packageRequires = [
         keymap-popup
