@@ -1485,10 +1485,10 @@
     elpaBuild {
       pname = "compat";
       ename = "compat";
-      version = "31.0.0.2";
+      version = "31.1.0.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/compat-31.0.0.2.tar";
-        sha256 = "0f0gig6imlf5gx8qykvwajvhr66v52v7hsifqwh8nzq820x6kn27";
+        url = "https://elpa.gnu.org/packages/compat-31.1.0.0.tar";
+        sha256 = "177zxj41n4zf70p1fyg6m2m1cghc8j9fdxc4xl7mnmwh3501mcnh";
       };
       packageRequires = [ ];
       meta = {
@@ -1549,10 +1549,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.8";
+      version = "3.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-3.8.tar";
-        sha256 = "1zi33mf8bs70igsdy1s8qj1arpgi8ih3hly986nkiqhz9yzw1fjd";
+        url = "https://elpa.gnu.org/packages/consult-3.9.tar";
+        sha256 = "0hc9i0baz410swdxldqz05cc69y53p1304ac56sgadjppvain8nq";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1662,10 +1662,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.15";
+      version = "2.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/corfu-2.15.tar";
-        sha256 = "1p4f18lvh22v32lsam80mq57iyipn0240bvqvv7rri05j9sdmp6c";
+        url = "https://elpa.gnu.org/packages/corfu-2.16.tar";
+        sha256 = "1i45yxdmh3v5bv69qr79f4rawqmifwjpvpr3szkfa08hr84adr9y";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10445,10 +10445,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.14";
+      version = "2.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vertico-2.14.tar";
-        sha256 = "1v99jqqas9y5l14f5486clr2blh16yp50jkxd7bdjiqzyax6rad5";
+        url = "https://elpa.gnu.org/packages/vertico-2.15.tar";
+        sha256 = "1zvjk0wln7whaxbkgrp2z1x0xsbq70x2396r26khs0p0n7nr4d2w";
       };
       packageRequires = [ compat ];
       meta = {
