@@ -2019,6 +2019,7 @@
   ) { };
   fj = callPackage (
     {
+      compat,
       elpaBuild,
       fedi,
       fetchurl,
@@ -2030,12 +2031,13 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.42";
+      version = "0.43";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fj-0.42.tar";
-        sha256 = "0k967nd2iky2simr4sh48f7v74ksw2irynrnp9k3xa7zcbyvy5xd";
+        url = "https://elpa.nongnu.org/nongnu/fj-0.43.tar";
+        sha256 = "158jfb40npvyfpikzif4ah8z9c3wpdfdn7vgybszc4c89rscj21j";
       };
       packageRequires = [
+        compat
         fedi
         magit
         tp
@@ -3888,10 +3890,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.1.4";
+      version = "2.1.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.1.4.tar";
-        sha256 = "0zh8mskr7dzwl09cf1jza63skiq13xf84iqslww8scmyhhzmgnka";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.1.5.tar";
+        sha256 = "1acpym76s2z3jw0dgb0fkw8f687pjzg0ll0a74kialcp6vjhapb3";
       };
       packageRequires = [
         compat

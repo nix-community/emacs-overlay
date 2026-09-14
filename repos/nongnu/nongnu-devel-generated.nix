@@ -1356,10 +1356,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.2.0.0.20260909.8";
+      version = "4.2.0.0.20260913.9";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.2.0.0.20260909.8.tar";
-        sha256 = "0hbzpd69l57asapwm7px00dy64cr3734bayd106a6ml9myj9ak5s";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.2.0.0.20260913.9.tar";
+        sha256 = "1cfwpgqhdyzink70am33c4im52hj4268grsij8kwcs12s1bviixg";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2001,6 +2001,7 @@
   ) { };
   fj = callPackage (
     {
+      compat,
       elpaBuild,
       fedi,
       fetchurl,
@@ -2012,12 +2013,13 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.42.0.20260909.0";
+      version = "0.43.0.20260913.26";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.42.0.20260909.0.tar";
-        sha256 = "0yrlpijy3l6p8lg629la43k05nxrmcw03csma85mcdszr5n1q1wk";
+        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.43.0.20260913.26.tar";
+        sha256 = "04ljyblfvdm0llrs9rfwsk5md3clwb73qwgnqdmzacv34fnv9cng";
       };
       packageRequires = [
+        compat
         fedi
         magit
         tp
@@ -3871,10 +3873,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.1.4.0.20260911.77";
+      version = "2.1.5.0.20260913.78";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.4.0.20260911.77.tar";
-        sha256 = "1499dy4dq6jg2qkwyf4rndyfiviy96j5c2sjm7ar7gr0ybp1xw1a";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.5.0.20260913.78.tar";
+        sha256 = "0g2pyamm1644h9kwzz6r5idl9zabvjn7l5qarrbds5203xmv7jkc";
       };
       packageRequires = [
         compat
