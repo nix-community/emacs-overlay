@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.9.0.20260913.1";
+      version = "3.9.0.20260913.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.9.0.20260913.1.tar";
-        sha256 = "1b52v5gh0c3k87gimil7yw0jngln05vm2ilwbkz1sihz4088d55h";
+        url = "https://elpa.gnu.org/devel/consult-3.9.0.20260913.2.tar";
+        sha256 = "1mpm29avgsadm5n9d4i99b2f7xm3lk5bmdi6hc72bxggp7ahhp7r";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4244,10 +4244,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.6.0.20260707.26";
+      version = "0.11.0.0.20260914.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.10.6.0.20260707.26.tar";
-        sha256 = "1s3mf539ri3d7rq0b9w6f6kla2ybkxrzwkqzq2mi92vzvypjmbv0";
+        url = "https://elpa.gnu.org/devel/gnosis-0.11.0.0.20260914.0.tar";
+        sha256 = "0p6n9q3in28s1q13xrmg6rzqhz56za08sh0408d7bqp1wj4hihnx";
       };
       packageRequires = [
         compat
@@ -10415,10 +10415,10 @@
     elpaBuild {
       pname = "use-package";
       ename = "use-package";
-      version = "2.4.6.0.20260912.42";
+      version = "2.4.6.0.20260913.43";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20260912.42.tar";
-        sha256 = "19r77k9cbfp74zcdkx4is6qh4c4npwbsys5q4k1g8p7c7swdj7ap";
+        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20260913.43.tar";
+        sha256 = "0rbwi197xf15y1hfwrsi4sl6sz06ipf318hy200ax1syja6nik25";
       };
       packageRequires = [ bind-key ];
       meta = {
@@ -11272,10 +11272,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20260906.47";
+      version = "1.7.0.0.20260914.49";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260906.47.tar";
-        sha256 = "0kpnir8837rh3x1hlf2m6px9mp7b9b1w2xflqy4rcpqsny8ab3fq";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260914.49.tar";
+        sha256 = "0d9zgxh3l9w2yfbfgibk9fdhk8j0rd7fb3cbassjs2nffbyhi38c";
       };
       packageRequires = [ ];
       meta = {
