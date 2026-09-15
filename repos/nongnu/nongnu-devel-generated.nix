@@ -2013,10 +2013,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.43.0.20260913.26";
+      version = "0.45.0.20260914.30";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.43.0.20260913.26.tar";
-        sha256 = "04ljyblfvdm0llrs9rfwsk5md3clwb73qwgnqdmzacv34fnv9cng";
+        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.45.0.20260914.30.tar";
+        sha256 = "0nv5r8g9n0bf3bc65aqmxx5l1kl2pcvq3s4cadayb67a60dggwg8";
       };
       packageRequires = [
         compat
