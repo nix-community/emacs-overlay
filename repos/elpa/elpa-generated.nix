@@ -2389,10 +2389,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.11.1";
+      version = "1.11.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/diff-hl-1.11.1.tar";
-        sha256 = "10c6iji6yhb1c20a94n7inmf12fwwn0a7yyna3yyx0j5fvb8c393";
+        url = "https://elpa.gnu.org/packages/diff-hl-1.11.2.tar";
+        sha256 = "1cci9bklq16cp7i92rafv7jn8lj4a1gm45fj7mfh95a5j0gyrpw7";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -9990,6 +9990,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/trust-manager.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  typewriter = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "typewriter";
+      ename = "typewriter";
+      version = "1.1.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/typewriter-1.1.0.tar";
+        sha256 = "18sykpbz5jw5shpd651qzlaab6wsj4ynycf7rbzksxnfcb4hwikn";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/typewriter.html";
         license = lib.licenses.free;
       };
     }

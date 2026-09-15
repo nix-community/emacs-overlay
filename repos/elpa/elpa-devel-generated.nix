@@ -2434,10 +2434,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.11.1.0.20260909.3";
+      version = "1.11.2.0.20260915.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.11.1.0.20260909.3.tar";
-        sha256 = "1y7nx4bwkap2jflk51aqkizvflnm7kl7b2gpspmvfmq95wrp2hwk";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.11.2.0.20260915.2.tar";
+        sha256 = "0d9pr84icmrghz5k2qznz92pmbjp56gk5kqs57qbd7xxdc5j1hbr";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -4244,10 +4244,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.11.0.0.20260914.0";
+      version = "0.11.0.0.20260915.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.11.0.0.20260914.0.tar";
-        sha256 = "0p6n9q3in28s1q13xrmg6rzqhz56za08sh0408d7bqp1wj4hihnx";
+        url = "https://elpa.gnu.org/devel/gnosis-0.11.0.0.20260915.5.tar";
+        sha256 = "00cbz78562kwb57fvpa8mq7yc6hyv5hz20dh5sgdilcdn25ycqys";
       };
       packageRequires = [
         compat
@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.1.0.0.20260913.62";
+      version = "9.1.0.0.20260915.63";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260913.62.tar";
-        sha256 = "16qv6363l1vg92dfx3aryq910cfhfvqa2g2h9ycfiy2xrhzn1nna";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260915.63.tar";
+        sha256 = "08h2k3ga5wq86j41sbj68z4jqwig5b2kv9wy74m81057r76p1qvw";
       };
       packageRequires = [ ];
       meta = {
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260914.550";
+      version = "10.0pre0.20260915.551";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260914.550.tar";
-        sha256 = "0dipf7zvyjdijd36ib4lkfd9b7s49856yxfl2pksrjb9hk3y1cin";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260915.551.tar";
+        sha256 = "079by122skwzaxh813s0shf9lng9vv1i5658nwmk1ihfwigvmva9";
       };
       packageRequires = [ ];
       meta = {
@@ -6844,10 +6844,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.3.0.20260905.13";
+      version = "1.3.0.20260915.18";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.3.0.20260905.13.tar";
-        sha256 = "1wy1q9838kb31axyqsv1lwvkjlxsdlqamjw6s2igkh1i8gx4i57r";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.3.0.20260915.18.tar";
+        sha256 = "0i1c6vayfvhrvwi7ihpzvvfjrbdzh67gdadjvckr4yi2y6grvsyc";
       };
       packageRequires = [ org ];
       meta = {
@@ -10230,6 +10230,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/trust-manager.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  typewriter = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "typewriter";
+      ename = "typewriter";
+      version = "1.1.0.0.20260911.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/typewriter-1.1.0.0.20260911.1.tar";
+        sha256 = "1c4ybk3rzgchb080x039nlfhf38y2c9d72gqn0xshvs6z6368mbi";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/typewriter.html";
         license = lib.licenses.free;
       };
     }
