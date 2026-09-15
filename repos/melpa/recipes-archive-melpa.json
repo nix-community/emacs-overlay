@@ -26318,16 +26318,16 @@
   "repo": "pkryger/difftastic.el",
   "unstable": {
    "version": [
-    20260408,
-    950
+    20260915,
+    1549
    ],
    "deps": [
     "compat",
     "magit",
     "transient"
    ],
-   "commit": "7db20929cac31687a529943c3d8d5b44fd8d69e2",
-   "sha256": "0x9xsc491y2z6z7pyq372y3ppawf8k7xlv62c111cyhgz24m92wd"
+   "commit": "98c61e7dfac8d1ad4451423395da6bc14caa41df",
+   "sha256": "12adlrsy2wlb0n4dv6f6sjh64zvs22w2nx6lq8kc1zi5l8yslcpv"
   },
   "stable": {
    "version": [
@@ -31131,8 +31131,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260914,
-    2329
+    20260915,
+    1625
    ],
    "deps": [
     "compat",
@@ -31141,8 +31141,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "c9f06b01bacc6fff9846633413761b0b324bb30b",
-   "sha256": "13yw2bq2dzflkjfncgvvf31q9w97dp53h0g18n2jjpj8c8hm8ilh"
+   "commit": "3f2567bc4d601c09702bf77f50dade7e4fc1054b",
+   "sha256": "1bx109qhk9wxck5vqd4b3kbmk19pf4d5nn54akdk06kplzbh108r"
   },
   "stable": {
    "version": [
@@ -42501,10 +42501,10 @@
    "version": [
     0,
     0,
-    6
+    7
    ],
-   "commit": "4dc83bffbaf41c22795556fed63f8dc938efd9b8",
-   "sha256": "0qph9ajhy9a132dwx1q09n4yd6ialnyjy8snlx104dlf7mp76nvj"
+   "commit": "8a92383db3df635f2d988ad5a312db945cd4fe4f",
+   "sha256": "17p65xwx6yyx4h659ai6r1wjb8mnyhlr4f4ib7yz0749mj02kzmf"
   }
  },
  {
@@ -54473,15 +54473,15 @@
   "stable": {
    "version": [
     0,
-    11,
+    12,
     0
    ],
    "deps": [
     "compat",
     "keymap-popup"
    ],
-   "commit": "190a68ecaa0fc3f30255985764317c73e558c575",
-   "sha256": "0bmi9an51xkk7hax7hyldckfsp59qwmbyn0frhmqv6xq48k5dnwm"
+   "commit": "847727f08329bbcea9e22bfc53578f9d3a13697c",
+   "sha256": "1gy0j93m46wix31zmxdmlqr8mrbzqciza86hlgbi6fggmgrmwdl0"
   }
  },
  {
@@ -59062,15 +59062,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20260912,
-    1501
+    20260915,
+    1432
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "e4d5625c2d65ea8725435e1352ce86ab462e4884",
-   "sha256": "1l0b022dk7llxpr2jqb3wm9cal2clbvbn5zgpwnrxbk8ifgq7bd8"
+   "commit": "4f53c80b636a93bd09bbd45eb150f385834cb494",
+   "sha256": "04zpxirg11rhf1gwylxw48rgak85z3rrsbsbdbqphjyfy0wkl19y"
   },
   "stable": {
    "version": [
@@ -86394,10 +86394,10 @@
    "version": [
     0,
     1,
-    2
+    3
    ],
-   "commit": "30eb09b9c671b61b081b1d7096f4650641ee3ea0",
-   "sha256": "0aq078i75x742b15cr7crn7bfb8nqw9kldax8g2ixbyp3h374l9l"
+   "commit": "8e3e1eb8446175a3a591d304975d4dabb3ecf906",
+   "sha256": "013hd163liviscn41a9fkxkajr05yrx478dzqh2lx8mydc1micr8"
   }
  },
  {
@@ -99520,7 +99520,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3067-487552583/nix-shell-3267-1182786646/nix-shell-3331-1003860658/git-checkout-tmp-4UxI0app/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3017-1942201399/nix-shell-3213-1483500813/nix-shell-3277-1433902363/git-checkout-tmp-1Hhtlcus/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -101068,10 +101068,10 @@
   "unstable": {
    "version": [
     20260915,
-    29
+    1525
    ],
-   "commit": "35fa2e076df2623b3134ffa8887b7ce8dcc4bc55",
-   "sha256": "1992h77wqk4jj4p0r84lr51d6wq9f10jg39b4i99gj7fd6s9bfy1"
+   "commit": "654a4b6a3716d165d39398225048a83d3a3a3ccd",
+   "sha256": "10sw8ckqx9q5jxb49g4mh4yvl1k0dp5bl3r200nwnhasy0nfxvj1"
   }
  },
  {
@@ -113718,11 +113718,11 @@
   "repo": "R-for-emacs/r-ts-mode",
   "unstable": {
    "version": [
-    20260913,
-    1314
+    20260915,
+    1234
    ],
-   "commit": "50ceffa2b79fa316752ae0f49408cac2080ceada",
-   "sha256": "1rnfh66nfpglgh00kfh2qf12hd8gh4cjnr8ym6slqz9cf8f1lhgz"
+   "commit": "f5e4f6395a09a4d20a7dd41b5d8606ba56e39057",
+   "sha256": "1nbq4s2qwggwyf7q88vkb46hfzrwmbmycg0ab8w8m9mqcf6j07dn"
   },
   "stable": {
    "version": [
