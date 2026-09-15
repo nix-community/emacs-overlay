@@ -53,6 +53,9 @@ let
                       "02_all_ts-query-pred.patch?id=86190bf195b3e17108372d8ad89eb57037180dd2"
                       "CVE-2026-79992.patch"
                       "/nix/store/jm6hjlhhy87gwyx6dk659qq7krpc3liw-inhibit-lexical-cookie-warning-67916.patch"
+                    ]
+                    ++ optionals (versionOlder "31.1" old.version) [
+                      "CVE-2024-53920.patch"
                     ];
                   isApplicable = patch: !(builtins.elem patch.name or patch inapplicablePatches);
                 in
