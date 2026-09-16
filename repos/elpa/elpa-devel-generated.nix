@@ -2561,10 +2561,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.6.1.0.20260610.0";
+      version = "0.6.1.0.20260916.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.6.1.0.20260610.0.tar";
-        sha256 = "061b09z60jjd8gggjln9nr5fb0r3rvip31mi8l7r9b1f49k8x730";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.6.1.0.20260916.1.tar";
+        sha256 = "0sq9842nldd6im2zw46imhk94dlgb5nf4ai4bkljjagapxq39vgi";
       };
       packageRequires = [ ];
       meta = {
@@ -4244,10 +4244,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.12.0.0.20260915.0";
+      version = "0.12.0.0.20260916.28";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.12.0.0.20260915.0.tar";
-        sha256 = "1sxwf85yah0571jfvnkrffjhd1sjczqh3542ynldchimkbl08n60";
+        url = "https://elpa.gnu.org/devel/gnosis-0.12.0.0.20260916.28.tar";
+        sha256 = "09vs63q319w84qb3yq0jprgaylfdna51k5c600rh3cqwi3ghmmpb";
       };
       packageRequires = [
         compat
