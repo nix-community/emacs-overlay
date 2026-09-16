@@ -3034,10 +3034,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.7.0.0.20260914.0";
+      version = "0.7.0.0.20260916.24";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.7.0.0.20260914.0.tar";
-        sha256 = "0py584fqw4qdvwjkn7dcsydnvc9b6hk08b627zb1fj01ysfvqnrm";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.7.0.0.20260916.24.tar";
+        sha256 = "07m340fpsz1dkyabfinz7gnxjfgdp2knnyvvgl4kznqddp1xzywc";
       };
       packageRequires = [
         keymap-popup
@@ -3949,10 +3949,10 @@
     elpaBuild {
       pname = "meow";
       ename = "meow";
-      version = "1.5.0.0.20260714.67";
+      version = "1.5.0.0.20260915.68";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20260714.67.tar";
-        sha256 = "1w91jlbpp37p4c11z15njvn8icd78hhwkldx70d6y28ngk14q9g3";
+        url = "https://elpa.nongnu.org/nongnu-devel/meow-1.5.0.0.20260915.68.tar";
+        sha256 = "1s2vps9zi43fglp1jd4fqpa45yjnknzvjzbkz70xpx5q5v6mw15s";
       };
       packageRequires = [ ];
       meta = {
