@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260914.84";
+      version = "14.2.0.0.20260915.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260914.84.tar";
-        sha256 = "19b26a23pfhbxcvv958frcmkdkrn90j7p44alh130g7iiyjwcq3j";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20260915.0.tar";
+        sha256 = "12g1s0lrj64iabdwa73hksf9k424xy7l3r3xnr8ik25ij6ywjyqv";
       };
       packageRequires = [ ];
       meta = {
@@ -4244,10 +4244,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.11.0.0.20260915.5";
+      version = "0.12.0.0.20260915.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.11.0.0.20260915.5.tar";
-        sha256 = "00cbz78562kwb57fvpa8mq7yc6hyv5hz20dh5sgdilcdn25ycqys";
+        url = "https://elpa.gnu.org/devel/gnosis-0.12.0.0.20260915.0.tar";
+        sha256 = "1sxwf85yah0571jfvnkrffjhd1sjczqh3542ynldchimkbl08n60";
       };
       packageRequires = [
         compat
@@ -5981,10 +5981,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.2.0.0.20260428.134050";
+      version = "8.2.1.0.20260915.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.2.0.0.20260428.134050.tar";
-        sha256 = "0caab8wxwn55zk6cd20qm20z2nkwff8a1y3jrwfd41i1kx18mcg4";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.2.1.0.20260915.0.tar";
+        sha256 = "1rgllzfq4jpmi19fdymk6a5hlkfrzrq16rb6yr7vyg9jaidva3lw";
       };
       packageRequires = [ ];
       meta = {
@@ -6267,10 +6267,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260911.55";
+      version = "5.3.0.0.20260915.57";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260911.55.tar";
-        sha256 = "1pyacpnrx6q0z84r65gs0739y7hvn41zb7a9lkl2a7m2nqshbkhy";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260915.57.tar";
+        sha256 = "0hqqd9lfvr3knscqx4y73vxkw6jmhypm2ljplh77cfy77cggjg6j";
       };
       packageRequires = [ ];
       meta = {
@@ -6288,10 +6288,10 @@
     elpaBuild {
       pname = "mpdired";
       ename = "mpdired";
-      version = "4pre0.20250502.1";
+      version = "4.0.20260915.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/mpdired-4pre0.20250502.1.tar";
-        sha256 = "1hrp0q5dql57hd40q838vbdrlbbyd1g7kfvf5w3zvhziq0dj61gx";
+        url = "https://elpa.gnu.org/devel/mpdired-4.0.20260915.0.tar";
+        sha256 = "0lba34sla3x68zz40gxr1mkp74aslmsl6gmljbhlq3jy4sadgnpp";
       };
       packageRequires = [ ];
       meta = {
@@ -8007,10 +8007,10 @@
     elpaBuild {
       pname = "r-ts-mode";
       ename = "r-ts-mode";
-      version = "1.1.3.0.20260913.11";
+      version = "1.2.0.0.20260915.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/r-ts-mode-1.1.3.0.20260913.11.tar";
-        sha256 = "0cwz3b2hbsar1rbvxqsb89wrrmhaql7kv9h62kns7xc5vbplbylx";
+        url = "https://elpa.gnu.org/devel/r-ts-mode-1.2.0.0.20260915.0.tar";
+        sha256 = "09qsnk6pdfifa6jdvik4hqx3zqmvqzi9s5g81lpzjzqk18jznhfk";
       };
       packageRequires = [ ];
       meta = {
@@ -10243,10 +10243,10 @@
     elpaBuild {
       pname = "typewriter";
       ename = "typewriter";
-      version = "1.1.0.0.20260911.1";
+      version = "1.1.0.0.20260915.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/typewriter-1.1.0.0.20260911.1.tar";
-        sha256 = "1c4ybk3rzgchb080x039nlfhf38y2c9d72gqn0xshvs6z6368mbi";
+        url = "https://elpa.gnu.org/devel/typewriter-1.1.0.0.20260915.2.tar";
+        sha256 = "0hmwjafs3xxrq732rzysbs6qlyhs50ly53ax0bip1h8jw94j4fyf";
       };
       packageRequires = [ ];
       meta = {

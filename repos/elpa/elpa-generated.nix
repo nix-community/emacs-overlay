@@ -440,10 +440,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2";
+      version = "14.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/auctex-14.1.2.tar";
-        sha256 = "0dp95siam576ji9ccznd7abclrxv14xbcmbkqaawf73q2rmfjwip";
+        url = "https://elpa.gnu.org/packages/auctex-14.2.0.tar";
+        sha256 = "1x2l096r6bhminldqn68yzvm793vcaj68d8y5injzg4m3d6jpqyp";
       };
       packageRequires = [ ];
       meta = {
@@ -4154,10 +4154,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.11.0";
+      version = "0.12.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gnosis-0.11.0.tar";
-        sha256 = "1790li1v2pkrz1aw3vs23kxiga3hr5lg3jiqaspdm4yjavyf04qf";
+        url = "https://elpa.gnu.org/packages/gnosis-0.12.0.tar";
+        sha256 = "0lgbz5al7n8j70aiv0d7vi2s3x4vfrwq9dmx3isy5ij6sxbb505p";
       };
       packageRequires = [
         compat
@@ -5893,10 +5893,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.2.0";
+      version = "8.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/matlab-mode-8.2.0.tar";
-        sha256 = "1dk39r9nkm77gllm4xln0am1b73pirds5ss7m55n7hz2w1sas20s";
+        url = "https://elpa.gnu.org/packages/matlab-mode-8.2.1.tar";
+        sha256 = "0srby17502nnbchs3hfk046p3gz2dw0yrmkmw1rh5ndg0l4mq9zg";
       };
       packageRequires = [ ];
       meta = {
@@ -6200,10 +6200,10 @@
     elpaBuild {
       pname = "mpdired";
       ename = "mpdired";
-      version = "3";
+      version = "4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/mpdired-3.tar";
-        sha256 = "19qkg7cjh037l4cw3q0b52hpp3fwmly6alc7z683baiz5fklcjc8";
+        url = "https://elpa.gnu.org/packages/mpdired-4.tar";
+        sha256 = "176k9716i9kimrcpz3a92bjrsng95x5mq6lw1apn30icmx26h60n";
       };
       packageRequires = [ ];
       meta = {
@@ -7868,6 +7868,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/queue.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  r-ts-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "r-ts-mode";
+      ename = "r-ts-mode";
+      version = "1.2.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/r-ts-mode-1.2.0.tar";
+        sha256 = "0f7hah2mdh2c7a4gl6mvb0n7zcq5fpw83avqccahhgv76wp7akby";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/r-ts-mode.html";
         license = lib.licenses.free;
       };
     }
