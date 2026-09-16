@@ -1005,8 +1005,8 @@
   "repo": "xcwen/ac-php",
   "unstable": {
    "version": [
-    20260911,
-    454
+    20260916,
+    626
    ],
    "deps": [
     "dash",
@@ -1016,8 +1016,8 @@
     "s",
     "xcscope"
    ],
-   "commit": "b626cc6b3a343b2431f2e13b241b1612da5fc3f4",
-   "sha256": "0j6mzs0agmbnvcxdjxlp03ndpw7yp3pq1x458l39q2k4crdw5sx8"
+   "commit": "291595d9de6649f60d0363c1c75e6326ee4d4fff",
+   "sha256": "11zf7pqpr9azhzwlz3mwsxg03mwdnwy9w6g9dp476v45960axqnm"
   },
   "stable": {
    "version": [
@@ -13420,15 +13420,15 @@
   "repo": "kimim/chatu",
   "unstable": {
    "version": [
-    20251113,
-    2350
+    20260916,
+    242
    ],
    "deps": [
     "org",
     "plantuml-mode"
    ],
-   "commit": "54fde21a03de78fc234ff3ce25a84fc4833adbca",
-   "sha256": "0ab2h59d4vampalp1mx6mzlyjap9azc9b39qid3br89m4w2qkikf"
+   "commit": "ba58f2ca0d27676b11afc9fe071227424f5b369f",
+   "sha256": "0v5j1y1bxlj1a4nhr9q2jcgyjydpgwmy0fawwyg2jil03qx3wsma"
   }
  },
  {
@@ -15885,14 +15885,14 @@
   "repo": "LuciusChen/clutch",
   "unstable": {
    "version": [
-    20260914,
-    644
+    20260916,
+    804
    ],
    "deps": [
     "transient"
    ],
-   "commit": "8cad904556c9ea059bb9259bffadc067b08c3595",
-   "sha256": "0fms9dx2q0r0861zkj8s7jlwkfqni0anr5f5rrmixnkrnn40hrc7"
+   "commit": "3ea2db4f8b1f31d95301de070bbde95251187727",
+   "sha256": "0kwyhk9ii2j3kdjxi8y0z839b4d0szwsmb8lp46ixk3mjhc5nnxs"
   },
   "stable": {
    "version": [
@@ -29025,16 +29025,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20260911,
-    1831
+    20260916,
+    654
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "c07049eef28caa499625895f530a02acf66843f0",
-   "sha256": "1kyxcfhjhh237vl5kv8sb6pnj2l0knzr1s8r9cl811imhnbpwzwy"
+   "commit": "56429b3f46e23a9eb2e064ad2c9dad10217b0660",
+   "sha256": "17s0ydi0ajjprwqrdsfw7nii3vdsy2c06ymbfn206q4nq3nc2w7a"
   },
   "stable": {
    "version": [
@@ -37527,11 +37527,10 @@
   "stable": {
    "version": [
     29,
-    0,
-    6
+    1
    ],
-   "commit": "e07fd07837e5aa845657f5fa340637121e451d47",
-   "sha256": "00h70wdqdqwvm63zp7sb7s27jhn09mgk0gshvb7sbwsw7qijr44k"
+   "commit": "751f87b703fe5948607d08e82599ce644b772e76",
+   "sha256": "1x12ilzhhhb7gkxvd8699fg3h4vd76l8pj45cnp0jwm2sq4ijmhv"
   }
  },
  {
@@ -54460,15 +54459,15 @@
   "url": "https://git.thanosapollo.org/emacs-gnosis",
   "unstable": {
    "version": [
-    20260915,
-    1034
+    20260916,
+    735
    ],
    "deps": [
     "compat",
     "keymap-popup"
    ],
-   "commit": "847727f08329bbcea9e22bfc53578f9d3a13697c",
-   "sha256": "1gy0j93m46wix31zmxdmlqr8mrbzqciza86hlgbi6fggmgrmwdl0"
+   "commit": "3bbd5489d9c3208a62852302bcac65e7085dfa9d",
+   "sha256": "1s4vy7nhd7larfy8x2nh5zgqdb6abg75gwy6cc264za7ihqbhviz"
   },
   "stable": {
    "version": [
@@ -84889,19 +84888,20 @@
   "repo": "szermatt/mistty",
   "unstable": {
    "version": [
-    20260915,
-    2242
+    20260916,
+    906
    ],
-   "commit": "b1e6dd9136c9591294da4a797d2114c7c33d3302",
-   "sha256": "0pwpjb4rbfr782ibhrvy3v2x2by9iksslq1hb91lydrgxmq1ivq3"
+   "commit": "9a501016cf219b8dd99cc51083992100f889d5b1",
+   "sha256": "1p8ib2a5dr2ni1ra01jvydz6gxv247pq8cbvd11xv9b0i3qjmq8h"
   },
   "stable": {
    "version": [
-    1,
-    5
+    2,
+    0,
+    1
    ],
-   "commit": "e12c6af9894d6dbfd127047663275c763cab4e89",
-   "sha256": "1dlb4k7sbjjgyhikbcw0qf9js328vhs964lmhciyh8ahcfb7i9l6"
+   "commit": "9a501016cf219b8dd99cc51083992100f889d5b1",
+   "sha256": "1p8ib2a5dr2ni1ra01jvydz6gxv247pq8cbvd11xv9b0i3qjmq8h"
   }
  },
  {
@@ -99197,15 +99197,15 @@
   "stable": {
    "version": [
     1,
-    0
+    1
    ],
    "deps": [
     "json-mode",
     "org-roam",
     "simple-httpd"
    ],
-   "commit": "8252fb48d482c55c662eaa2e757b035479eb32e7",
-   "sha256": "0qsw32hxh8kllp6f3ic5vac8g9m4qq06pv8rjy9z5sxid73c1416"
+   "commit": "75f210cb76d115f8faf77fcae25584588723b47c",
+   "sha256": "0178fis4avgc93429l97ccy7mjf7r9bbigrbhqih4wv6mya1972s"
   }
  },
  {
@@ -99520,7 +99520,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3075-99246172/nix-shell-3266-599643079/nix-shell-3330-3272003596/git-checkout-tmp-ytzmGJGZ/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2899-3499835283/nix-shell-3090-75023767/nix-shell-3154-3854333492/git-checkout-tmp-tYMv9dTQ/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -106933,8 +106933,8 @@
   "repo": "dnouri/pilish",
   "unstable": {
    "version": [
-    20260915,
-    949
+    20260916,
+    951
    ],
    "deps": [
     "magit-section",
@@ -106942,8 +106942,8 @@
     "md-ts-mode",
     "transient"
    ],
-   "commit": "1be0e08bf0e84363f7a5dc818c1e0cd218f65dff",
-   "sha256": "0yyr2wb32w0i1zry0had3v9kfb8dkzibgswr847bg6h40xd75whv"
+   "commit": "38ba3e4c85d8a37e24167ad21f1cc9ea3e9dec65",
+   "sha256": "1xb1b66974zdk8q5flvyx17paca01xc6iq8l5qx3d47vzmrz4g3l"
   },
   "stable": {
    "version": [
@@ -110500,14 +110500,14 @@
   "repo": "bbatsov/projectile",
   "unstable": {
    "version": [
-    20260903,
-    915
+    20260916,
+    1153
    ],
    "deps": [
     "compat"
    ],
-   "commit": "f34257601bd72ca76a6a1676d63024734cf6bf6c",
-   "sha256": "0jqr1k4m3cjnhf053m92q3ysncchrrssp0pk2csb5r8f64q1bbvz"
+   "commit": "b69b6e47d7c03ed8a3c3b74315fbcfdae9f47fd5",
+   "sha256": "0p15v6p0xspfj73l034j68051l6301lm1h1rk7q87vfsnf7680fh"
   },
   "stable": {
    "version": [
@@ -137722,8 +137722,8 @@
   "repo": "gmlarumbe/verilog-ext",
   "unstable": {
    "version": [
-    20260915,
-    1813
+    20260916,
+    1022
    ],
    "deps": [
     "apheleia",
@@ -137736,8 +137736,8 @@
     "verilog-ts-mode",
     "yasnippet"
    ],
-   "commit": "25bae4107e7aa644baebd7c41fe5003cd55c3b66",
-   "sha256": "0vmjf2i8d3nrazak3qz7i874yki3fhgyjq4c6kl9h8slpawn2zbq"
+   "commit": "168fcee51bede972235e96dfccf7ab8c0c835e9d",
+   "sha256": "05hfpbcnadmh6ahnjnhhf4x3yvaidcswqgj5aqz0ns8vx94ia0l2"
   },
   "stable": {
    "version": [
@@ -137998,8 +137998,8 @@
   "repo": "gmlarumbe/vhdl-ext",
   "unstable": {
    "version": [
-    20260915,
-    1814
+    20260916,
+    1032
    ],
    "deps": [
     "async",
@@ -138009,8 +138009,8 @@
     "rg",
     "vhdl-ts-mode"
    ],
-   "commit": "cf36dd1a1001e53af02e74f487a85194d6ba87ab",
-   "sha256": "1g9gx80mw7x5hvx9ysd02rq737fnal1sdm01xhdi8k6c5z6abcsj"
+   "commit": "70718eb2320662c6f2de80e5872c3d9bb989c7b9",
+   "sha256": "0hrlq7pc24874qm8s4gf8d8ipjy51pp2gqy59cj2d9jgxqlsq0ks"
   },
   "stable": {
    "version": [
