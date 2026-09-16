@@ -2013,10 +2013,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.45.0.20260914.30";
+      version = "0.46.0.20260915.32";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.45.0.20260914.30.tar";
-        sha256 = "0nv5r8g9n0bf3bc65aqmxx5l1kl2pcvq3s4cadayb67a60dggwg8";
+        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.46.0.20260915.32.tar";
+        sha256 = "0y60j41riipj7qqriz5mpirvvs2b6q8q3kjq9kpkc2mzyyrzygdy";
       };
       packageRequires = [
         compat
@@ -2985,10 +2985,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260912.54";
+      version = "4.0.7.0.20260915.57";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260912.54.tar";
-        sha256 = "1g9imap75am0aixcfax72l356yw9dkbsndmk8n4xy49l6414kzwp";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260915.57.tar";
+        sha256 = "1v2gxqj4hk89pj3dlzkfrgy4q802y0crkj3ip73kyi81bm8yf07q";
       };
       packageRequires = [
         helm-core
@@ -3010,10 +3010,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260912.54";
+      version = "4.0.7.0.20260915.57";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260912.54.tar";
-        sha256 = "0479ahi6nxdvi15bnygl81bciwr28r6c0rk44qasn90gn92fss3b";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260915.57.tar";
+        sha256 = "09z87iblmx8cx2r1s0mf9772ypd5k9wxbrpz5b346pniwhp4l2fl";
       };
       packageRequires = [ async ];
       meta = {
@@ -4818,10 +4818,10 @@
     elpaBuild {
       pname = "project-nix-store";
       ename = "project-nix-store";
-      version = "0.11.0.0.20260912.1";
+      version = "0.11.0.0.20260915.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.11.0.0.20260912.1.tar";
-        sha256 = "0whycb961p73b5pxxi304zsihnnlrg9r7f719l5f5507vrrjhvy1";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.11.0.0.20260915.3.tar";
+        sha256 = "16cjlda6b61xm7ygymrykicijbpllyq81zjai5xkksa0sgm7sqqx";
       };
       packageRequires = [ ];
       meta = {
