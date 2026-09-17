@@ -3051,10 +3051,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.7.0";
+      version = "0.7.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hermes-0.7.0.tar";
-        sha256 = "0g2rqq1r1np0z1f0kqqfnrnixq729v84gq0frhc6d3rmrp6lv0z1";
+        url = "https://elpa.nongnu.org/nongnu/hermes-0.7.1.tar";
+        sha256 = "0161qscc6iz6vijm2g0hg4z7xgfqym5g4aqf4ppkv9d3n7y7v0vi";
       };
       packageRequires = [
         keymap-popup
