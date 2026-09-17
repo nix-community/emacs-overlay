@@ -5136,10 +5136,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.10.0.20260916.3";
+      version = "2.10.0.20260916.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.10.0.20260916.3.tar";
-        sha256 = "1gjnp75cfzs1lvgj9nad5ghxmkrifcd4i9am3y9ldf3a9zc0b24j";
+        url = "https://elpa.gnu.org/devel/jinx-2.10.0.20260916.5.tar";
+        sha256 = "1vqcbgci8bfa0rxj9d9wvdgvmpxj3bnfji5sfm9a11v1rnh8asxa";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5264,10 +5264,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.3.0.20260916.13";
+      version = "0.4.4.0.20260917.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.3.0.20260916.13.tar";
-        sha256 = "1fk1gk29z20m3bhlapzz5mihmkhs8sxrnyvbs8wk9i7rkxxdd8ra";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.4.0.20260917.0.tar";
+        sha256 = "1svl79vg1ldliz8f6mg1n2samxsmd6jxy1y4xx7llfw7r4vv8613";
       };
       packageRequires = [ ];
       meta = {
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260915.551";
+      version = "10.0pre0.20260917.552";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260915.551.tar";
-        sha256 = "079by122skwzaxh813s0shf9lng9vv1i5658nwmk1ihfwigvmva9";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260917.552.tar";
+        sha256 = "1737d0n2ka3a089xd19dkc56xbqmq219mab5yhg4xl10k4cj8nwp";
       };
       packageRequires = [ ];
       meta = {
