@@ -21789,15 +21789,15 @@
   "repo": "lafrenierejm/counsel-projectile",
   "unstable": {
    "version": [
-    20260904,
-    1240
+    20260917,
+    19
    ],
    "deps": [
     "counsel",
     "projectile"
    ],
-   "commit": "713d504a4d9e0e2e0fda97160a85cd27abf63da7",
-   "sha256": "03h4sm436il224z5yjamv5wim7rj9m8rwgp1kg0gszywcalrdhwl"
+   "commit": "037747b8d3cfee791eb6a5aa7822fbf6cf52b6d6",
+   "sha256": "12f5gg30v263b619rnvjyky58a64p5afavm9f8j5dgc7kq8p23c4"
   },
   "stable": {
    "version": [
@@ -29025,16 +29025,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20260916,
-    1147
+    20260917,
+    56
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "7241374940605300fa5e372d0e836b2c409a9728",
-   "sha256": "1a7xypjq2yjgnslf0y1rkzx70qg138fwid5a3knnjncal8ap0vj2"
+   "commit": "8abd249fbdf5e9e8401069f48ae9729b7cec1261",
+   "sha256": "1q2snh81fsf0vdl37z69ja6r1x00s3fdhygfixv4246x5w7kv0vx"
   },
   "stable": {
    "version": [
@@ -51022,15 +51022,15 @@
   "repo": "jojojames/fussy",
   "unstable": {
    "version": [
-    20260905,
-    220
+    20260916,
+    2247
    ],
    "deps": [
     "compat",
     "flx"
    ],
-   "commit": "926294267e12149102a898dcc145725b1332a98e",
-   "sha256": "0s3389h103wvp2sx7q8ri7k1a2vxc33z55xng293yk0iaz6a7211"
+   "commit": "379c3e9e75dce8ef0120de454c6afd1b650f36fe",
+   "sha256": "196yz4z2jihlglifaa4pdwchprw3cdj16w6xjm42f6fcshd8z1bi"
   },
   "stable": {
    "version": [
@@ -52425,13 +52425,13 @@
   "unstable": {
    "version": [
     20260916,
-    1042
+    2007
    ],
    "deps": [
     "compat"
    ],
-   "commit": "9ba6fb3062145a9884aab8c9e11731c748689ce3",
-   "sha256": "1cci3lcc2hmps9hhjg2i9rw2gyrxwr7cl4j3nrdk3k3d8fdb7jvd"
+   "commit": "4925190c930c36f683b19fdc72b0783b5d17a96b",
+   "sha256": "0r699r8sdjp0b42gfs9kfzda4vcgif3mzj6xnwxx3kafxai3r32v"
   },
   "stable": {
    "version": [
@@ -65594,11 +65594,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20260915,
-    754
+    20260916,
+    1705
    ],
-   "commit": "375492bb75243751d4153574c73a47c9d086da53",
-   "sha256": "07ci7pxrnrl4841bfjcfd8mf13hjsw4pc2mh28ifbclqlf6sjz94"
+   "commit": "2412b9ae68d0a9f2f70e3ad3f4c543cc07c332a4",
+   "sha256": "1mxgvsf3hz4crjhjlrsrcmzjfpbxka7amc40azn6jzr3ampw7gqa"
   },
   "stable": {
    "version": [
@@ -71147,14 +71147,14 @@
   "repo": "minad/jinx",
   "unstable": {
    "version": [
-    20260813,
-    954
+    20260916,
+    2109
    ],
    "deps": [
     "compat"
    ],
-   "commit": "f776ca306801f3b4d26a458d5109ea586d52e716",
-   "sha256": "1v08h91pmv822hw9fkpypbk7xahvxyh10rkqx51897rf3vpkzk2v"
+   "commit": "deacd6770efec5d9f98fc74df781fc0836124d79",
+   "sha256": "0ag2bbb151bmgsh02gq9qvn7fbkxza5p2ki8yz4085yzykq6p9sc"
   },
   "stable": {
    "version": [
@@ -96415,8 +96415,8 @@
   "repo": "kidd/org-gcal.el",
   "unstable": {
    "version": [
-    20260612,
-    1823
+    20260916,
+    1715
    ],
    "deps": [
     "aio",
@@ -96427,8 +96427,8 @@
     "request",
     "request-deferred"
    ],
-   "commit": "7304b592c283944db54ac83201d7be6f13a1f447",
-   "sha256": "1b701j2m4cn17bh8n3xmxh5d4bwg5i4spc1v9i9rcq96kpj4mkbj"
+   "commit": "5c230a1ef5902f2440d4521cb3a3588c6e5459b7",
+   "sha256": "0fv2b8h09hvdxn2jbqczv0qc8m2hv5407im8d8fwp1qxwwy43k0l"
   },
   "stable": {
    "version": [
@@ -99520,7 +99520,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2987-2422293481/nix-shell-3180-1821232133/nix-shell-3244-128836571/git-checkout-tmp-AsPVLKWi/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2789-2028786672/nix-shell-2982-4063874116/nix-shell-3046-2701231623/git-checkout-tmp-nLEEiRZu/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -111022,14 +111022,14 @@
   "repo": "mrcnski/promptu.el",
   "unstable": {
    "version": [
-    20260914,
-    2126
+    20260916,
+    1647
    ],
    "deps": [
     "transient"
    ],
-   "commit": "94de6816fe9f847f33e3f22ccaf52efbfb25a0b8",
-   "sha256": "0l2dpci2lz1y5kyni4i5ld9cf6v1pmys89c5789j4d1ybkpq8lsy"
+   "commit": "36771aa456cc3fd9c82361272bec3527044daaf6",
+   "sha256": "05m4c7l2gg0wb796sy7kf65c57s53330n8lwvl6ww868xz6jg6lb"
   },
   "stable": {
    "version": [
@@ -122845,8 +122845,8 @@
   "repo": "emacs-slack/emacs-slack",
   "unstable": {
    "version": [
-    20260914,
-    1711
+    20260916,
+    2347
    ],
    "deps": [
     "alert",
@@ -122858,8 +122858,8 @@
     "ts",
     "websocket"
    ],
-   "commit": "15a6728b6d34497c44b86320290e140855bc573e",
-   "sha256": "013b4d708rks20birda2y3l2k4zsc57d4lzs9p0jrbqxk1xvfi95"
+   "commit": "397660bca3b7d181613352d0e0a79479d709abd2",
+   "sha256": "1lrvhjhwpbw97r81sw71i1z3vn0ya9issc7cirwqdrqd9g31k711"
   }
  },
  {
