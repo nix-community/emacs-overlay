@@ -3034,10 +3034,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.7.1.0.20260917.0";
+      version = "0.7.1.0.20260917.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.7.1.0.20260917.0.tar";
-        sha256 = "1j4ahrrij5a9yjz351law2i5m4vjlplnb9zqk4ykzwk8jacfwmiv";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.7.1.0.20260917.2.tar";
+        sha256 = "1yig8r07rg7a9jncb8k0dhyc0qhzf58ph9p5ivlxvnn5b7i2ri5y";
       };
       packageRequires = [
         keymap-popup
@@ -3790,10 +3790,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.7.1.0.20260911.5";
+      version = "4.7.1.0.20260917.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20260911.5.tar";
-        sha256 = "1bg4ffx07b1ah2qgxjnslaap0vvd7hn1734k1jfwd62if13rrbp4";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20260917.6.tar";
+        sha256 = "028157hfpjndswq7zs4m3xg6fhfsdl7mnvllm9f9n92c82pdwbaq";
       };
       packageRequires = [
         compat
@@ -5053,10 +5053,10 @@
     elpaBuild {
       pname = "rfc-mode";
       ename = "rfc-mode";
-      version = "1.4.2.0.20260617.2";
+      version = "1.4.2.0.20260917.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rfc-mode-1.4.2.0.20260617.2.tar";
-        sha256 = "1kk70niw36vb2ldrclk34r6hy4555hcqkcbss2dn1mfbp9sf54d6";
+        url = "https://elpa.nongnu.org/nongnu-devel/rfc-mode-1.4.2.0.20260917.3.tar";
+        sha256 = "04904c90q1mp9czw28n3qv0933wbxns34if1xqrivnpsh33g990p";
       };
       packageRequires = [ ];
       meta = {
@@ -5568,10 +5568,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.5.2.0.20260910.0";
+      version = "1.5.3.0.20260917.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.2.0.20260910.0.tar";
-        sha256 = "1ai0dbba42bqhkzvprg9sikka2313gyh6fmccq40g6zlmm4qs3y4";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.3.0.20260917.0.tar";
+        sha256 = "0vmk8jvrmlj53hb5kzqib2xvdh32d8zr2wz7yyk3anhgg2kynqh6";
       };
       packageRequires = [ ];
       meta = {
