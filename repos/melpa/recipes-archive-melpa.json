@@ -2207,15 +2207,15 @@
   "repo": "alberti42/agent-shell-math-renderer",
   "unstable": {
    "version": [
-    20260909,
-    1534
+    20260918,
+    1212
    ],
    "deps": [
     "agent-shell",
     "latex-to-svg-backend"
    ],
-   "commit": "b65d2544d89ce9ab8f953cb4e545a453ea9eac92",
-   "sha256": "1fcvwc3hd5x56nig8yhi74y4xydv62kqgiirxpj2xv55756f2xly"
+   "commit": "339fe2216831befc8e875448664ea00095f6ae22",
+   "sha256": "05px5qkh8c4bh726zv01igrbx78500ygkfa7jrbjy7syicscvl38"
   },
   "stable": {
    "version": [
@@ -42444,10 +42444,10 @@
   "unstable": {
    "version": [
     20260918,
-    1025
+    1132
    ],
-   "commit": "c0e0449b4d0ff83abc99bab34f7fd4665e603c3a",
-   "sha256": "18zzmk6wbbnkq5lxi4mg7qacd07r4ivmns95alwhh8nixc8ac9xc"
+   "commit": "e6195edbb42203cb2a0e10b3cf997a5f1198ff79",
+   "sha256": "0i8kmqif92axkpccksrzx5yn0jl0pr5vlc3r61xg2s9407w16kc8"
   },
   "stable": {
    "version": [
@@ -47980,11 +47980,14 @@
   "repo": "robert-zaremba/flymake-go",
   "unstable": {
    "version": [
-    20150714,
-    733
+    20130314,
+    1441
    ],
-   "commit": "ae83761aa908c1a50ff34af04f00dcc46bca2ce9",
-   "sha256": "03gh0y988pksghmmvb5av2vnlbcsncafvn4nwihsis0bhys8k28q"
+   "deps": [
+    "flymake"
+   ],
+   "commit": "d2036ece024ad8dbc43a3a94f0b4a36b4f95b5ed",
+   "sha256": "1mpzz5r3jp411anjwnqhsab1p4j6qbicfy9iw1v94zqv5yg4hmdq"
   }
  },
  {
@@ -75639,26 +75642,26 @@
   "repo": "alberti42/latex-to-svg",
   "unstable": {
    "version": [
-    20260912,
-    1350
+    20260918,
+    1457
    ],
    "deps": [
     "latex-to-svg-backend"
    ],
-   "commit": "e395700ca77f54a2140fb701b1251fded6e96af2",
-   "sha256": "0pxhqlhxcyqr454ckx73mxpv26i3ijpv932sbz571q5jxc026d0i"
+   "commit": "851860555c3942e4f9cb2d660e912a08ea81f808",
+   "sha256": "1d6h3mkdx6mj8l93p21jxsrwvr60w2llbibmadqq38578pwh9jpc"
   },
   "stable": {
    "version": [
     0,
     16,
-    1
+    2
    ],
    "deps": [
     "latex-to-svg-backend"
    ],
-   "commit": "e395700ca77f54a2140fb701b1251fded6e96af2",
-   "sha256": "0pxhqlhxcyqr454ckx73mxpv26i3ijpv932sbz571q5jxc026d0i"
+   "commit": "851860555c3942e4f9cb2d660e912a08ea81f808",
+   "sha256": "1d6h3mkdx6mj8l93p21jxsrwvr60w2llbibmadqq38578pwh9jpc"
   }
  },
  {
@@ -84889,11 +84892,11 @@
   "repo": "szermatt/mistty",
   "unstable": {
    "version": [
-    20260916,
-    906
+    20260918,
+    1608
    ],
-   "commit": "9a501016cf219b8dd99cc51083992100f889d5b1",
-   "sha256": "1p8ib2a5dr2ni1ra01jvydz6gxv247pq8cbvd11xv9b0i3qjmq8h"
+   "commit": "37fd8765e112f3125f2500a1e08328066dd56b19",
+   "sha256": "0i29cw7h56c4b85y70cm2g61m2znkxk0100wf92jiwrgwhspzbd2"
   },
   "stable": {
    "version": [
@@ -99521,7 +99524,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3036-3814863287/nix-shell-3236-3397279737/nix-shell-3300-1232274845/git-checkout-tmp-HiyYKu3N/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2793-1449612143/nix-shell-2989-3785950369/nix-shell-3053-2368137707/git-checkout-tmp-JuIGr6x8/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -106934,8 +106937,8 @@
   "repo": "dnouri/pilish",
   "unstable": {
    "version": [
-    20260916,
-    1621
+    20260918,
+    1617
    ],
    "deps": [
     "magit-section",
@@ -106943,8 +106946,8 @@
     "md-ts-mode",
     "transient"
    ],
-   "commit": "ef41a0c121cc316d317fac804d7f6808effde90e",
-   "sha256": "1sx2qkwghfk7gphka3qwx18h0bx88nn2c5nbxfcsg28n63nlmly7"
+   "commit": "24e11eddf097c319a35c69b334e5fd68f5d161af",
+   "sha256": "17738bf1b3qxrgpgz3p9hcx8nfpj4yn7znhwrydrr426bmfzpngd"
   },
   "stable": {
    "version": [
@@ -122563,11 +122566,11 @@
   "repo": "laishulu/emacs-smart-input-source",
   "unstable": {
    "version": [
-    20260826,
-    1753
+    20260918,
+    1409
    ],
-   "commit": "2becb4d66fdcfe89eccf43ac592557c6a402420a",
-   "sha256": "1f0vsnqmjg3cdr9xkywb6b8hlrbvsp5i48bchlq4591p0hhywnhr"
+   "commit": "787b724579d871fa0e647db2bf309f030842ff5c",
+   "sha256": "12lghrhc2jqkn57vqyky6jxq1d489g8qvld7n36417gwkl739k7p"
   }
  },
  {
