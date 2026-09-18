@@ -698,10 +698,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.5.0";
+      version = "1.6.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/beframe-1.5.0.tar";
-        sha256 = "0cx7jxlfzqaldswnk2wg5z4zb7lv24x5by9h20y4vpf973nclj0r";
+        url = "https://elpa.gnu.org/packages/beframe-1.6.0.tar";
+        sha256 = "1fj7q7ksqqk078m207nw7cgvcdj1zzcv729q6kzsx9jbqfh4bz67";
       };
       packageRequires = [ ];
       meta = {
@@ -2516,10 +2516,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.6.1";
+      version = "0.6.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dired-preview-0.6.1.tar";
-        sha256 = "115cassm68rga9q8z7qr1ghi4f9j0immc8ccqwa21vnyvjj02q7a";
+        url = "https://elpa.gnu.org/packages/dired-preview-0.6.2.tar";
+        sha256 = "0wgf8n25n964m0kgal23cpva0k6cibh21cnf85mwxn92chwbnb38";
       };
       packageRequires = [ ];
       meta = {

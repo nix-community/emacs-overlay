@@ -719,10 +719,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.5.0.0.20260828.18";
+      version = "1.6.0.0.20260917.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.5.0.0.20260828.18.tar";
-        sha256 = "0871lrhvys4f7f1wxag6g8i8x21a0zab75nzz4wabkha079i13kp";
+        url = "https://elpa.gnu.org/devel/beframe-1.6.0.0.20260917.0.tar";
+        sha256 = "0pnn35fz76pxksrjf69zhp7iq8l0yyf5zvl978wzisxcf19va2p4";
       };
       packageRequires = [ ];
       meta = {
@@ -2561,10 +2561,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.6.1.0.20260916.1";
+      version = "0.6.2.0.20260917.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.6.1.0.20260916.1.tar";
-        sha256 = "0sq9842nldd6im2zw46imhk94dlgb5nf4ai4bkljjagapxq39vgi";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.6.2.0.20260917.2.tar";
+        sha256 = "1vwk1xj28xsvvdnc2865w2qdlpnkgmpg2lxgnd32vv2xca0kag1v";
       };
       packageRequires = [ ];
       meta = {
@@ -4244,10 +4244,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.12.0.0.20260916.28";
+      version = "0.12.0.0.20260917.44";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.12.0.0.20260916.28.tar";
-        sha256 = "09vs63q319w84qb3yq0jprgaylfdna51k5c600rh3cqwi3ghmmpb";
+        url = "https://elpa.gnu.org/devel/gnosis-0.12.0.0.20260917.44.tar";
+        sha256 = "0csa088mhvacmnzpvw5hml9qkj6588n3c8clwpykshia7yr6rgcm";
       };
       packageRequires = [
         compat
@@ -5264,10 +5264,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.4.0.20260917.0";
+      version = "0.4.4.0.20260917.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.4.0.20260917.0.tar";
-        sha256 = "1svl79vg1ldliz8f6mg1n2samxsmd6jxy1y4xx7llfw7r4vv8613";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.4.0.20260917.1.tar";
+        sha256 = "1g6wkia41wcyxk8x2qs8ba2ppdx52d8sp05if3czhr8r2iwyrsd1";
       };
       packageRequires = [ ];
       meta = {
