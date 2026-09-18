@@ -2175,15 +2175,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260917,
-    1910
+    20260918,
+    351
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "d8176098fe1651811cf1767f297c320aa0102929",
-   "sha256": "0r5ysln1f6q6qd7vcpicjmbkddvkh3649dkl20k568cf2pfbm22v"
+   "commit": "76c80976067efe5a780c342a7bd6da8a84e8641d",
+   "sha256": "13nhncj4azrp2bg52q00vvyfbc0l4mdqsa5j1g6mzywfmq9j6sf1"
   },
   "stable": {
    "version": [
@@ -2408,15 +2408,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260917,
-    430
+    20260918,
+    344
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "f83b1f7b693d91284f34965187e31768099f3382",
-   "sha256": "1dcj4inab3rhxpdpawvv21ydfjbmhxiv88sgfgyf1j6aflc3qs6x"
+   "commit": "2d9b30853a274f7b9a13070942451f8d23d2d9ca",
+   "sha256": "1bhz9rw44ljpf5x7icdsmkrvxcx87ac4z9lcah96n90pipf85iby"
   },
   "stable": {
    "version": [
@@ -21790,28 +21790,28 @@
   "repo": "lafrenierejm/counsel-projectile",
   "unstable": {
    "version": [
-    20260917,
-    19
+    20260918,
+    709
    ],
    "deps": [
     "counsel",
     "projectile"
    ],
-   "commit": "037747b8d3cfee791eb6a5aa7822fbf6cf52b6d6",
-   "sha256": "12f5gg30v263b619rnvjyky58a64p5afavm9f8j5dgc7kq8p23c4"
+   "commit": "283352a5bd6d7df9f69974000323123845f894bb",
+   "sha256": "1ngidihn41ppn1lnxx9ridvcc0iw70njf2xapdzf7cfasbqspg9k"
   },
   "stable": {
    "version": [
     0,
     3,
-    4
+    5
    ],
    "deps": [
     "counsel",
     "projectile"
    ],
-   "commit": "713d504a4d9e0e2e0fda97160a85cd27abf63da7",
-   "sha256": "03h4sm436il224z5yjamv5wim7rj9m8rwgp1kg0gszywcalrdhwl"
+   "commit": "d4ea64ed1d283ca9b00bf441ca7e4ed3e37efa43",
+   "sha256": "076ri4n99r2p9xrlgawfhzs1z1860398a1gxyqca94zqwc2q3mpj"
   }
  },
  {
@@ -42443,11 +42443,11 @@
   "repo": "mscfd/emacs-f90-ts-mode",
   "unstable": {
    "version": [
-    20260915,
-    2111
+    20260918,
+    1025
    ],
-   "commit": "a3c7c836e825713210b9d4dba55526b85855a011",
-   "sha256": "1zbrw55la36xcw613mhlxa8g69vcnv6qz84mmljdgf0vdfvsn5yb"
+   "commit": "c0e0449b4d0ff83abc99bab34f7fd4665e603c3a",
+   "sha256": "18zzmk6wbbnkq5lxi4mg7qacd07r4ivmns95alwhh8nixc8ac9xc"
   },
   "stable": {
    "version": [
@@ -52425,14 +52425,14 @@
   "repo": "dakra/ghostel",
   "unstable": {
    "version": [
-    20260917,
-    1307
+    20260918,
+    915
    ],
    "deps": [
     "compat"
    ],
-   "commit": "026e345c6c7dce958c0cbdca687a859dfd7f5063",
-   "sha256": "1agjfdvvm8gzim6yr3khbgilgiaz9gd94pl7qafmlc48hgw79w92"
+   "commit": "67f43b3e83c15eface911389a291b08fb8311475",
+   "sha256": "198i33pz13r3jrck8775wsg9vzmn5vjwa3sq368jy5yfbnlxjxbh"
   },
   "stable": {
    "version": [
@@ -54460,15 +54460,15 @@
   "url": "https://git.thanosapollo.org/emacs-gnosis",
   "unstable": {
    "version": [
-    20260917,
-    2205
+    20260918,
+    148
    ],
    "deps": [
     "compat",
     "keymap-popup"
    ],
-   "commit": "d640f1ead4f7eef8aac4af76d51955b0b66c896e",
-   "sha256": "09dmgjc12sa6zac87smkqficrxj09gf3s6klr9pcysi43j7d6wcy"
+   "commit": "78f5c62be6b6d1a9fa34f42b6a2f121c58471c7b",
+   "sha256": "1n7zgib9p6bjb0yyd4ka6b39p8288aa01r7bh22c4dr5058y391l"
   },
   "stable": {
    "version": [
@@ -64257,10 +64257,10 @@
   "unstable": {
    "version": [
     20260918,
-    38
+    623
    ],
-   "commit": "1ba5d9641833930dd0487fa1b6a4440b63b0bc00",
-   "sha256": "1842hzwcrzp2iapidly978klr4ahfg5d7vhv0k3df8kq8p4fd8ra"
+   "commit": "d03228c028148cac69c05f1d1aa46b68041940e2",
+   "sha256": "17wkp8886wyng6qmn0hdjfvwgakphmkhyj8s0fjk3pirpmzlrahg"
   }
  },
  {
@@ -79376,20 +79376,20 @@
   "repo": "ltex-plus/emacs-ltex-plus",
   "unstable": {
    "version": [
-    20260917,
-    2319
+    20260918,
+    554
    ],
-   "commit": "6ec1983e50cd6d59eb7e310023089b970b86de1d",
-   "sha256": "1fq12c5jv98dfzwcn0vb80pm5r0l6qdjv7x3ds4wy5pp45dgn0d6"
+   "commit": "ab94bdf86568c75dee22dd4b2af7b19361ad8549",
+   "sha256": "1fq6yqpg0z178c1dn7l74621sn3yb19yks6z2q58fcf73b1sd26x"
   },
   "stable": {
    "version": [
     1,
-    0,
-    2
+    1,
+    0
    ],
-   "commit": "5943024b7df4617d3ef302c78761727a205f56d8",
-   "sha256": "1qfq0zz14pcq0w14knfz2jwlhqncsfa8v0bhql4xq7rggpsnzx35"
+   "commit": "6ec1983e50cd6d59eb7e310023089b970b86de1d",
+   "sha256": "1fq12c5jv98dfzwcn0vb80pm5r0l6qdjv7x3ds4wy5pp45dgn0d6"
   }
  },
  {
@@ -85601,11 +85601,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20260915,
-    1808
+    20260918,
+    844
    ],
-   "commit": "7d739dba47397fcf16a50ac87e09b016c83560e3",
-   "sha256": "0l7n87a9kpksa9qypzgm2svfqqxdmq9yhspz7020lcz5n1i0jxzg"
+   "commit": "9427ba44964a292f03273e5be4d7a0f3c00b5029",
+   "sha256": "0a1nb3sa0fr1iz0xsl70zdaa7k9cyd78iw8qsibbyd27zfpy302j"
   },
   "stable": {
    "version": [
@@ -99521,7 +99521,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3017-3199843550/nix-shell-3213-1718570327/nix-shell-3277-642065497/git-checkout-tmp-Gk8LCCEn/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3036-3814863287/nix-shell-3236-3397279737/nix-shell-3300-1232274845/git-checkout-tmp-HiyYKu3N/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
