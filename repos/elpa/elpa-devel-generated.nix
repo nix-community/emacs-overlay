@@ -1342,10 +1342,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.5.0.20260804.18";
+      version = "1.2.5.0.20260918.19";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.5.0.20260804.18.tar";
-        sha256 = "1gggz1cp8wbq45r4fqzpxsw57dcdynn4nsb1cp8bvqylx7p9dk82";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.5.0.20260918.19.tar";
+        sha256 = "13vgmq4vzxczk1z0zj0gxip61py93sha4ip8gncr5v2y0z4kpjdx";
       };
       packageRequires = [
         cl-lib
@@ -3807,10 +3807,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.7.0.20260912.3";
+      version = "1.4.7.0.20260919.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20260912.3.tar";
-        sha256 = "1l75sh68cqinmjfn1g1415r8avw5dxk6lla6dxpyqb9lixpbkna0";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20260919.6.tar";
+        sha256 = "1a4fyqpj3dyi6kp3wa7m7kbclyrbigyw3n58mqyiqnhkw75pmv8x";
       };
       packageRequires = [
         eldoc
@@ -5264,10 +5264,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.4.0.20260917.1";
+      version = "0.4.4.0.20260919.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.4.0.20260917.1.tar";
-        sha256 = "1g6wkia41wcyxk8x2qs8ba2ppdx52d8sp05if3czhr8r2iwyrsd1";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.4.0.20260919.2.tar";
+        sha256 = "0r5rqhl8gwizga3nxm6h3694515j0jvk0vs8v1r5sb4zm8dwmiwd";
       };
       packageRequires = [ ];
       meta = {
@@ -10436,10 +10436,10 @@
     elpaBuild {
       pname = "use-package";
       ename = "use-package";
-      version = "2.4.6.0.20260913.43";
+      version = "2.4.6.0.20260919.45";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20260913.43.tar";
-        sha256 = "0rbwi197xf15y1hfwrsi4sl6sz06ipf318hy200ax1syja6nik25";
+        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20260919.45.tar";
+        sha256 = "0xdwikmqmm8ailswwx8p3n197n0wpcfimska1xqfkjdfgp6a44s5";
       };
       packageRequires = [ bind-key ];
       meta = {
