@@ -2175,15 +2175,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260918,
-    351
+    20260919,
+    218
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "76c80976067efe5a780c342a7bd6da8a84e8641d",
-   "sha256": "13nhncj4azrp2bg52q00vvyfbc0l4mdqsa5j1g6mzywfmq9j6sf1"
+   "commit": "e78b43487007d59415d34c3cec4fadf814b8a373",
+   "sha256": "0ryz4x9qgazdqbsmi2lsnypgcxkpbh5ynxd1a4vp6h8xrx9c3kdm"
   },
   "stable": {
    "version": [
@@ -10004,15 +10004,15 @@
   "repo": "emacscollective/borg",
   "unstable": {
    "version": [
-    20260901,
-    1445
+    20260919,
+    942
    ],
    "deps": [
     "epkg",
     "magit"
    ],
-   "commit": "a83fbcfa6bf519a318b3c443c2defff20a671335",
-   "sha256": "1lzrgshaxr9055rpm9yb7nchmblxswp07jizy389j7j79y9s1zsd"
+   "commit": "153fd27001c8b0cfaa447debffa5e7144b82e7b7",
+   "sha256": "08k9k6yyp5nn35a18gsx4k6h7pkf93ni2lvwpzkpd7558ln64lfb"
   },
   "stable": {
    "version": [
@@ -49851,8 +49851,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20260917,
-    1717
+    20260919,
+    933
    ],
    "deps": [
     "closql",
@@ -49866,8 +49866,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "5abd6d4e623c88d346479b7841bf5479ed9045b9",
-   "sha256": "0f1m5qqgb4mcrkj0bqpnwaivcw8cmfappsasx3cgfkkigk7xh5w9"
+   "commit": "3b15c7432fd909aed5da900a2ea9c5e9a8e104f8",
+   "sha256": "1bbcc9jpgqfq6709m15gmih6lgf9mq6wwzfk8k1nx4vd21nzxb18"
   },
   "stable": {
    "version": [
@@ -54463,15 +54463,15 @@
   "url": "https://git.thanosapollo.org/emacs-gnosis",
   "unstable": {
    "version": [
-    20260918,
-    148
+    20260919,
+    847
    ],
    "deps": [
     "compat",
     "keymap-popup"
    ],
-   "commit": "78f5c62be6b6d1a9fa34f42b6a2f121c58471c7b",
-   "sha256": "1n7zgib9p6bjb0yyd4ka6b39p8288aa01r7bh22c4dr5058y391l"
+   "commit": "31a69f6d8c834a901e5d919baab4e4e981af6d86",
+   "sha256": "18qqs37j06s13k3a4pqig4l429a76605pi42cblsmqjw82svqgr7"
   },
   "stable": {
    "version": [
@@ -80521,8 +80521,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20260917,
-    1730
+    20260919,
+    934
    ],
    "deps": [
     "compat",
@@ -80533,8 +80533,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "532adafa244b013bd10604ff885bd2806c9eec6e",
-   "sha256": "0nfqv56h2zkwfj5x3gq1iz7i8nhl5k7xllhslyas8b1vrgc8bslv"
+   "commit": "2ac81c731e05963e3db80ea547570b1b841a5aca",
+   "sha256": "1gm2q0a1ismjrjxkiwdvbh6f7vnbvv50dxd7904xz1qxvm0bvbqv"
   },
   "stable": {
    "version": [
@@ -89248,8 +89248,8 @@
   "repo": "ewantown/nice-org-html",
   "unstable": {
    "version": [
-    20260625,
-    1926
+    20260919,
+    906
    ],
    "deps": [
     "dash",
@@ -89257,8 +89257,8 @@
     "s",
     "uuidgen"
    ],
-   "commit": "16c9efdd92a12c78a55364f3d5e8e310585aa012",
-   "sha256": "0skahzl2ai7v92cl40p8hxs2qj82dbpf9gmq7314s2gbdibklpk3"
+   "commit": "3da4b8ee2b4076ac35372ff80e13d9af4e77fd13",
+   "sha256": "1m198bz6wi9vp6wslmll2f7b3ylpiaj8hlrk6c8lac6jpa3hclm4"
   }
  },
  {
@@ -97297,15 +97297,15 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20260910,
-    239
+    20260919,
+    327
    ],
    "deps": [
     "nerd-icons",
     "qrencode"
    ],
-   "commit": "6885b67af6bd66ce307dbe3127edb4d78bea192b",
-   "sha256": "17b4c2w6s39y9566cjh9n0ch786dsabpb6xxa4ks817pf2nhfx7c"
+   "commit": "aac88b3921ac98260d47dc29a4b8b32bb555db38",
+   "sha256": "08nmy1ll0wv7xri5yipk6lw3f1abgkp6119rnand9cp37j61h5lr"
   },
   "stable": {
    "version": [
@@ -99524,7 +99524,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3006-157725217/nix-shell-3198-1292500366/nix-shell-3262-2157096763/git-checkout-tmp-GwacrwlC/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2991-995042889/nix-shell-3220-1458651538/nix-shell-3284-2997839501/git-checkout-tmp-rI2k7eDA/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -107019,7 +107019,7 @@
   "stable": {
    "version": [
     0,
-    6,
+    7,
     0
    ],
    "deps": [
@@ -107029,8 +107029,8 @@
     "timeout",
     "transient"
    ],
-   "commit": "cd3c5c4d823c31896b141751cd551d09116478f6",
-   "sha256": "01zc82pqw4jp61l95aqkp51jihhiy79rrsp4xdish488xgq58i62"
+   "commit": "675853a9eacfdfd628e3ff090690afeb08f43e47",
+   "sha256": "0b5bhs4j5xn3apakx55jb0fy8aalw4r0b4jp26xphp7lbpn2xx40"
   }
  },
  {
@@ -125627,14 +125627,14 @@
   "repo": "dakra/speed-type",
   "unstable": {
    "version": [
-    20260611,
-    1554
+    20260919,
+    230
    ],
    "deps": [
     "compat"
    ],
-   "commit": "f004cce95e0f5c5048d38f973b654587ed73abf6",
-   "sha256": "1a1fmnlkgrya86hw9alccfjhldg5lx1bbffvlhk5hqkgsm1dx627"
+   "commit": "4c7bc4876b03af3c57b6963d59c93fb7c60a367e",
+   "sha256": "0mb0sab7smf2kdjd54ar5jv01k6nj3qqqicmcwkx773qxqf87y3i"
   },
   "stable": {
    "version": [
@@ -133181,8 +133181,8 @@
   "repo": "magit/transient",
   "unstable": {
    "version": [
-    20260909,
-    901
+    20260919,
+    938
    ],
    "deps": [
     "compat",
@@ -133190,8 +133190,8 @@
     "llama",
     "seq"
    ],
-   "commit": "03c8ccc6aab24021787aada2be12d64cb1f436e8",
-   "sha256": "0ahqdfhn1j91dsdlcgfz0cnravrba57nki2cy97hz5dy0cl5riqi"
+   "commit": "c713048f3708139b34018746a59fbc886d2c8d02",
+   "sha256": "0d5p8bn4xwzdxq9v3yaq0rbav9flgv8b9hyjqzzz3zbprhnfz28n"
   },
   "stable": {
    "version": [
@@ -141340,16 +141340,16 @@
   "repo": "magit/with-editor",
   "unstable": {
    "version": [
-    20260901,
-    1435
+    20260919,
+    936
    ],
    "deps": [
     "compat",
     "cond-let",
     "llama"
    ],
-   "commit": "5021ef6885381cf5b2852f7a3f67ca8c4be1dca2",
-   "sha256": "1ccmm7nqbjapbh9fl8skfpkihdzna4y9z8y11662rxfxdpvl1w4g"
+   "commit": "53115f978576e043e050fd04d0cb7517296727e9",
+   "sha256": "0zh8v39vp1l9r5hn7pqsi0jd72j26931b2alvpq7sh2k6hwwar4p"
   },
   "stable": {
    "version": [
