@@ -2516,10 +2516,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.6.2";
+      version = "0.7.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dired-preview-0.6.2.tar";
-        sha256 = "0wgf8n25n964m0kgal23cpva0k6cibh21cnf85mwxn92chwbnb38";
+        url = "https://elpa.gnu.org/packages/dired-preview-0.7.0.tar";
+        sha256 = "1w723f7l7k41n6f6jgxg4r0jq06zka4vd5wf9ja5qz2mcw4gl59p";
       };
       packageRequires = [ ];
       meta = {
