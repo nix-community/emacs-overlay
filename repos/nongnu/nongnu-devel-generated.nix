@@ -2788,10 +2788,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.6.0.20260910.5";
+      version = "0.9.9.6.0.20260918.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20260910.5.tar";
-        sha256 = "1qmkwg4cvzwj5g0klfy6g629sm85bmq0nbvgz1lw9ivq4glmp2nb";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20260918.8.tar";
+        sha256 = "17nkxzk1h0mg2pimahz7rwsfdnjgw79lx4mq9al6m6r7rdyzb348";
       };
       packageRequires = [
         compat
@@ -4818,10 +4818,10 @@
     elpaBuild {
       pname = "project-nix-store";
       ename = "project-nix-store";
-      version = "0.11.0.0.20260915.3";
+      version = "0.12.0.0.20260918.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.11.0.0.20260915.3.tar";
-        sha256 = "16cjlda6b61xm7ygymrykicijbpllyq81zjai5xkksa0sgm7sqqx";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.12.0.0.20260918.0.tar";
+        sha256 = "0kink7jjq5lssxmvgk6a19rhgwmyzphbkgj7xw81hrcpzglv8apy";
       };
       packageRequires = [ ];
       meta = {
