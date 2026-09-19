@@ -694,10 +694,10 @@
     elpaBuild {
       pname = "codex-ide";
       ename = "codex-ide";
-      version = "0.1.3.0.20260904.7";
+      version = "0.1.4.0.20260919.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.1.3.0.20260904.7.tar";
-        sha256 = "0z8iqlrgb2gxmw3xc3ja729hlvk92fmnkxa73ag1hxigky3sfb2l";
+        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.1.4.0.20260919.1.tar";
+        sha256 = "0gv68gi2qmkaqyn0axv659r1wbb9d3q4pjqmbym9qxnjsc6xjrip";
       };
       packageRequires = [
         compat
@@ -3034,10 +3034,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.7.1.0.20260917.2";
+      version = "0.7.1.0.20260919.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.7.1.0.20260917.2.tar";
-        sha256 = "1yig8r07rg7a9jncb8k0dhyc0qhzf58ph9p5ivlxvnn5b7i2ri5y";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.7.1.0.20260919.5.tar";
+        sha256 = "13m0a7wpgswbb0mh90xdj99z2i31lwfwknwng5bd815x4lk0j9px";
       };
       packageRequires = [
         keymap-popup
@@ -3428,10 +3428,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.14.0.0.20260907.4";
+      version = "0.14.0.0.20260919.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.14.0.0.20260907.4.tar";
-        sha256 = "07nxhcb82n9yb3jdw8zz5jf5mr8kpsv7jpx8kpjx1lxq09nxikry";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.14.0.0.20260919.5.tar";
+        sha256 = "1501kfw34nibbflmci4lv0dk0q8i06rnmcxv60kg31sgapg6q431";
       };
       packageRequires = [
         fsm

@@ -694,10 +694,10 @@
     elpaBuild {
       pname = "codex-ide";
       ename = "codex-ide";
-      version = "0.1.3";
+      version = "0.1.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/codex-ide-0.1.3.tar";
-        sha256 = "104lgsm224d25rmxi79rf6z7w47c0x3224gyyxmyib2zsd8cp01a";
+        url = "https://elpa.nongnu.org/nongnu/codex-ide-0.1.4.tar";
+        sha256 = "1q6cy6kmd6f2bm30ki1cbav6smbl7vcm1g5xvphw66kasdswppmi";
       };
       packageRequires = [
         compat
