@@ -1006,7 +1006,7 @@
   "unstable": {
    "version": [
     20260920,
-    656
+    1106
    ],
    "deps": [
     "dash",
@@ -1016,8 +1016,8 @@
     "s",
     "xcscope"
    ],
-   "commit": "891d4cc38b38ed2646b2101970ee83a1689a399d",
-   "sha256": "0chy218ahi298l9iskj68mk0nhxmvr0ssb0x5al8hf98sgzrpy2f"
+   "commit": "48785207045b31311f7ea298106bc9d04071122d",
+   "sha256": "04wmz8nzv7iqbbbjb638v2x55ml8rlir258r3jlhn27fp4q4l1gy"
   },
   "stable": {
    "version": [
@@ -2175,15 +2175,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260919,
-    218
+    20260920,
+    1338
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "e78b43487007d59415d34c3cec4fadf814b8a373",
-   "sha256": "0ryz4x9qgazdqbsmi2lsnypgcxkpbh5ynxd1a4vp6h8xrx9c3kdm"
+   "commit": "53bc95b5db5a337cdb310920589f26a40d872020",
+   "sha256": "02aw2csisy401c3375zvmycs097ywq918gm86dy4y2hp20pqqcbs"
   },
   "stable": {
    "version": [
@@ -18274,15 +18274,15 @@
   "unstable": {
    "version": [
     20260920,
-    444
+    1104
    ],
    "deps": [
     "ac-php-core",
     "cl-lib",
     "company"
    ],
-   "commit": "0587d140a082701ee7d5e1b6bf80f2a1b80c9e34",
-   "sha256": "1rc4nb0g2000fn8ndnvayin6cfdx624py3x6jgxd8q4mqikrzfd3"
+   "commit": "07f008af2c04dc396454be560640e47c83b033c9",
+   "sha256": "12265a0vfvss7s18y7q5m6155k1k89kvq1ba475jkk24rndfhigk"
   },
   "stable": {
    "version": [
@@ -25855,11 +25855,11 @@
   "repo": "johannes-mueller/devcontainer.el",
   "unstable": {
    "version": [
-    20260418,
-    621
+    20260920,
+    1006
    ],
-   "commit": "bc598413a18baa3ec9ef7e1a0cf0115685d23a22",
-   "sha256": "029cglg8jgi32p68b7rfpslp55ccfky5pwzmwafz75r07zq15x4z"
+   "commit": "cc26a0c326a15ffc7154186e9958a3567f3857e6",
+   "sha256": "001f0nv78kapmfq0pkvsq02a0bxszbkx6wbrfy0s6j2lpf2x019q"
   }
  },
  {
@@ -54462,28 +54462,28 @@
   "url": "https://git.thanosapollo.org/emacs-gnosis",
   "unstable": {
    "version": [
-    20260919,
-    847
+    20260920,
+    1233
    ],
    "deps": [
     "compat",
     "keymap-popup"
    ],
-   "commit": "31a69f6d8c834a901e5d919baab4e4e981af6d86",
-   "sha256": "18qqs37j06s13k3a4pqig4l429a76605pi42cblsmqjw82svqgr7"
+   "commit": "6335a1c796ae4510a4c335f00e9b8d3eac7985a5",
+   "sha256": "0f1ljh5cdh6c3xsi1hy7d7ixpgzh3vi4hqyxpszdf7r3dx57sr5a"
   },
   "stable": {
    "version": [
     0,
-    12,
+    13,
     0
    ],
    "deps": [
     "compat",
     "keymap-popup"
    ],
-   "commit": "847727f08329bbcea9e22bfc53578f9d3a13697c",
-   "sha256": "1gy0j93m46wix31zmxdmlqr8mrbzqciza86hlgbi6fggmgrmwdl0"
+   "commit": "6335a1c796ae4510a4c335f00e9b8d3eac7985a5",
+   "sha256": "0f1ljh5cdh6c3xsi1hy7d7ixpgzh3vi4hqyxpszdf7r3dx57sr5a"
   }
  },
  {
@@ -56829,7 +56829,7 @@
   "commit": "99beea70c486fc771f5331d38c715db7c00702f3",
   "sha256": "0763pjrzsnfz8cmn1sp1lkm6s1d9k7bplgfl9b6cvvqpyf25zmlz",
   "fetcher": "github",
-  "repo": "ifitzpatrick/graphql-doc.el",
+  "repo": "shivfitzpatrick/graphql-doc.el",
   "unstable": {
    "version": [
     20240716,
@@ -78809,8 +78809,8 @@
   "repo": "okamsn/loopy",
   "unstable": {
    "version": [
-    20260722,
-    144
+    20260920,
+    1430
    ],
    "deps": [
     "compat",
@@ -78818,8 +78818,8 @@
     "seq",
     "stream"
    ],
-   "commit": "d33417ff4ff436a221eb10c73c283c9c2af3cde1",
-   "sha256": "1avb2c0dzki9yphhxbw655ara3fkz6zi5ybv33ylrqlzfb9jlz3c"
+   "commit": "c50c15d87709ece2bee7f45d6a6d906bb8524aac",
+   "sha256": "110f7cb4ls0fp1dbwdsy35pqcv2cah4fsngrylnl205wj4m1gi4l"
   },
   "stable": {
    "version": [
@@ -99523,7 +99523,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3014-2293403365/nix-shell-3203-1089487210/nix-shell-3267-3700049403/git-checkout-tmp-A66hfSHl/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2793-2915823386/nix-shell-2987-4149030916/nix-shell-3051-3180543578/git-checkout-tmp-fKv5uvyF/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -107002,8 +107002,8 @@
   "repo": "ananthakumaran/pimacs.el",
   "unstable": {
    "version": [
-    20260919,
-    1919
+    20260920,
+    1256
    ],
    "deps": [
     "compat",
@@ -107012,8 +107012,8 @@
     "timeout",
     "transient"
    ],
-   "commit": "28f9eeaf25766119814bf9a8cd3bc804928c17d3",
-   "sha256": "1rzxx9vg5nsag7nxcdr03rwljflj1wli8mah3pi478r0rjfrz45p"
+   "commit": "d8713d62e45e8bd14ddebaf5ee1f9bb027930de6",
+   "sha256": "0m1sin7wcirgm8r1iyfy4l9161k05b9vln5k823jizv4apsjskxx"
   },
   "stable": {
    "version": [
@@ -134556,8 +134556,8 @@
  },
  {
   "ename": "ttl-mode",
-  "commit": "8c91d71ce5c0a4355e15553ecc658d8f046bc8e4",
-  "sha256": "1a6fyd0qy7x60gn2x6nis9crs1n7d8hhml2gk5b1d9d9rx4z60gb",
+  "commit": "c95fc5e941258df27cc5288dda35c4c6cf0e6b19",
+  "sha256": "0sb6dbxwa641r9x3jq3lbhyzkdmhvp9j5vy8z4mfsv5xi50v4zjw",
   "fetcher": "github",
   "repo": "emacsattic/ttl-mode",
   "unstable": {
