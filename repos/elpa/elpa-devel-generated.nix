@@ -3698,10 +3698,10 @@
     elpaBuild {
       pname = "ffs";
       ename = "ffs";
-      version = "0.2.3snapshot0.20260522.1";
+      version = "0.2.3snapshot0.20260919.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ffs-0.2.3snapshot0.20260522.1.tar";
-        sha256 = "1csx6sxdi4aa68ajjbgfymb1y2l3n6w1ig566n1lhxkpn2mh5xji";
+        url = "https://elpa.gnu.org/devel/ffs-0.2.3snapshot0.20260919.2.tar";
+        sha256 = "1n6kdq7mp9axlyh8xmwpaa210wxarimnpk14miwis5xw1nii0bir";
       };
       packageRequires = [ ];
       meta = {
@@ -7681,10 +7681,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.2.0.20260908.6";
+      version = "1.5.2.0.20260920.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.5.2.0.20260908.6.tar";
-        sha256 = "001pqajgzckg8rk97s1n37k1lifd7pd3452jziy1l0dmxxj0awzs";
+        url = "https://elpa.gnu.org/devel/posframe-1.5.2.0.20260920.8.tar";
+        sha256 = "1nnx9z3rmps8ksw3s98qvgq742wl380zkn5icc45darxw0nxmrsh";
       };
       packageRequires = [ ];
       meta = {
@@ -10436,10 +10436,10 @@
     elpaBuild {
       pname = "use-package";
       ename = "use-package";
-      version = "2.4.6.0.20260919.46";
+      version = "2.4.6.0.20260920.47";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20260919.46.tar";
-        sha256 = "04xqn23czhhi0x0rfgky4h02vm94plz1mr8daddih2v7i43ln2r3";
+        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20260920.47.tar";
+        sha256 = "0l01gc9himwimw8ilgjyjfd7kd1yijr08k3ch3bhkyw2zii4xa0r";
       };
       packageRequires = [ bind-key ];
       meta = {
