@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20260915.0";
+      version = "14.2.0.0.20260919.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20260915.0.tar";
-        sha256 = "1w0i0js5da51w8vvsjnrgsl0c5hbagkz3j8blb37b12n99q4arnc";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20260919.1.tar";
+        sha256 = "1m97cfnyfi03knl0q71d8y59kpqdffvg933s7w9lqir3naxmpm7a";
       };
       packageRequires = [ ];
       meta = {
@@ -4244,10 +4244,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.12.0.0.20260918.59";
+      version = "0.12.0.0.20260919.62";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.12.0.0.20260918.59.tar";
-        sha256 = "0wmfrz07jh8f7hl7hwdq88mj3wr1kmlp1nbxcvqf44sfwady1dl2";
+        url = "https://elpa.gnu.org/devel/gnosis-0.12.0.0.20260919.62.tar";
+        sha256 = "0abcmh67f32cv02d9754j3k4dsnk2r4d11ajy8hljl6p92ddjbwx";
       };
       packageRequires = [
         compat
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260917.552";
+      version = "10.0pre0.20260919.562";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260917.552.tar";
-        sha256 = "1737d0n2ka3a089xd19dkc56xbqmq219mab5yhg4xl10k4cj8nwp";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260919.562.tar";
+        sha256 = "118k992kmfc0za1x9ss7p4kf329pcr6x4r7jq1s35a50piwnrhm4";
       };
       packageRequires = [ ];
       meta = {
@@ -10083,10 +10083,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.8.0.20260909.1";
+      version = "0.13.8.0.20260919.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20260909.1.tar";
-        sha256 = "12d0npxpnyhqr328a1a1kg8ccwkk34rk4gd2a9rsknid6f7hlb52";
+        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20260919.5.tar";
+        sha256 = "110gpklxcfi05zd595x9y8dwlp2z4mycj0p94f0yd3p508hiq7yg";
       };
       packageRequires = [
         compat
@@ -10243,10 +10243,10 @@
     elpaBuild {
       pname = "typewriter";
       ename = "typewriter";
-      version = "1.1.0.0.20260915.2";
+      version = "1.1.0.0.20260919.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/typewriter-1.1.0.0.20260915.2.tar";
-        sha256 = "0hmwjafs3xxrq732rzysbs6qlyhs50ly53ax0bip1h8jw94j4fyf";
+        url = "https://elpa.gnu.org/devel/typewriter-1.1.0.0.20260919.3.tar";
+        sha256 = "1c404qz0dpvqfgzwh87g5dj63af0vif8spbha2src6m5dcd8bpmb";
       };
       packageRequires = [ ];
       meta = {
@@ -10436,10 +10436,10 @@
     elpaBuild {
       pname = "use-package";
       ename = "use-package";
-      version = "2.4.6.0.20260919.45";
+      version = "2.4.6.0.20260919.46";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20260919.45.tar";
-        sha256 = "0xdwikmqmm8ailswwx8p3n197n0wpcfimska1xqfkjdfgp6a44s5";
+        url = "https://elpa.gnu.org/devel/use-package-2.4.6.0.20260919.46.tar";
+        sha256 = "04xqn23czhhi0x0rfgky4h02vm94plz1mr8daddih2v7i43ln2r3";
       };
       packageRequires = [ bind-key ];
       meta = {
