@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260912.129";
+      version = "2.1.0snapshot0.20260920.137";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260912.129.tar";
-        sha256 = "03lxizzngr7fs9gcjc0sladmfbwc3dm1ls64344gw9k0v0pka5mc";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260920.137.tar";
+        sha256 = "0nfiyy6ypgk221nrs6ww5zjzqr8lgnm81ymn0cmxal3nls1msksq";
       };
       packageRequires = [
         clojure-mode
@@ -1609,10 +1609,10 @@
     elpaBuild {
       pname = "evil-collection";
       ename = "evil-collection";
-      version = "3.0.3.0.20260910.2";
+      version = "3.0.3.0.20260920.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.3.0.20260910.2.tar";
-        sha256 = "0khhxx1xdgzyrdyjx498l56f5wiqw1k4dvzli2xhznk7r8jvl6ar";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.3.0.20260920.3.tar";
+        sha256 = "0nr3qskb4kdzn8mgphqa3y5bmpdi1q2mhsmfm3q55cr2077c677l";
       };
       packageRequires = [ evil ];
       meta = {
@@ -3663,10 +3663,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.16.1.0.20260722.11";
+      version = "0.16.1.0.20260920.13";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20260722.11.tar";
-        sha256 = "0xzh24jj7ilmz6iislq9glda61m4q5512sw2xvqshwcqz1r3s48n";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20260920.13.tar";
+        sha256 = "0zshnyyfkdn659i6j70a8gwy2ifqf0fcvwwlghbcza4pzd9zfzis";
       };
       packageRequires = [
         compat
@@ -3790,10 +3790,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.7.1.0.20260919.7";
+      version = "4.7.1.0.20260919.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20260919.7.tar";
-        sha256 = "0kjj6lxz2idq3vrgkiml7yqivn7w6a74y4ci38h79igd83xk6hqm";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20260919.8.tar";
+        sha256 = "1zhv97s5wgh8rxl4nz8wpk561fazdzycnasiaaksmbj4pkgljgf4";
       };
       packageRequires = [
         compat
