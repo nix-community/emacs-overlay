@@ -2098,11 +2098,11 @@
   "repo": "anticomputer/age.el",
   "unstable": {
    "version": [
-    20250806,
-    1723
+    20260919,
+    1901
    ],
-   "commit": "e99165ef5274bc4512b8d77ba2ac208c59b5d456",
-   "sha256": "09rfk9aijjgacff7n8d1cmsg7yb6cc3fppjxzs07dm9vcakcdvbh"
+   "commit": "afe3bf43fab7ff988419762f851129048c396ccc",
+   "sha256": "08fvx91a0nm622r79s3zq5qr1x49z9h8x3qgasg3hn0d265zjdiz"
   },
   "stable": {
    "version": [
@@ -32367,31 +32367,30 @@
   "repo": "kostafey/ejc-sql",
   "unstable": {
    "version": [
-    20260917,
-    2217
+    20260919,
+    1534
    ],
    "deps": [
     "clomacs",
     "dash",
     "spinner"
    ],
-   "commit": "5375714deb211bf1ee7c7d8ba05cd78ce6ab98cc",
-   "sha256": "18jb5n5rr1sd6jzkiz5kd5h2xamaa34f6gal2r4grmh64mvjvvvv"
+   "commit": "e6204de0ca58972c37786533a42d153cb4af3583",
+   "sha256": "0sc3a49hi53fsx0a0yjhb1jqla8d9j291pfn42q76rdcfiqr6s3a"
   },
   "stable": {
    "version": [
     0,
     4,
-    1
+    2
    ],
    "deps": [
     "clomacs",
     "dash",
-    "direx",
     "spinner"
    ],
-   "commit": "ddbae7be2aed9c273d9d570c542936f1faa3088f",
-   "sha256": "1gvbw4iqnsbs6fj713gjd9s0l1xxqmvq98ixsh59p0wh68a1nhhl"
+   "commit": "e6204de0ca58972c37786533a42d153cb4af3583",
+   "sha256": "0sc3a49hi53fsx0a0yjhb1jqla8d9j291pfn42q76rdcfiqr6s3a"
   }
  },
  {
@@ -33774,8 +33773,8 @@
   "repo": "lou/elfeed-protocol-freshrss",
   "unstable": {
    "version": [
-    20260914,
-    1357
+    20260919,
+    2202
    ],
    "deps": [
     "deferred",
@@ -33784,8 +33783,8 @@
     "request",
     "request-deferred"
    ],
-   "commit": "04b373d1b4deae95e4ea3ede001e74fabbc3ba66",
-   "sha256": "0l19iyvfvliaax3hkwpmdyxl0qxr1fjqyxmgf6djs309g6xrbalf"
+   "commit": "90384b4d46cba5fd5d73481d7bf88f74d6c9bff3",
+   "sha256": "13d9pl8fvna7rxc7wkd13qraic4s2fg9nd70ifwihamgk54ghvmc"
   },
   "stable": {
    "version": [
@@ -39808,28 +39807,28 @@
   "repo": "dakra/ghostel",
   "unstable": {
    "version": [
-    20260917,
-    650
+    20260919,
+    1611
    ],
    "deps": [
     "evil",
     "ghostel"
    ],
-   "commit": "755c61a4bffa3d461d4c36d69c9f95cc9e31ea95",
-   "sha256": "065swxsqdhkvbjp676fp3k3h6zhp5snid741ihhhl1cyy8fnjw35"
+   "commit": "829ac98a3e3183249028f9f4e029e7e9c0869be3",
+   "sha256": "1v6g18jl30kxidyadwcxx4kw8lx8p15fv66vqd6khw8012bfg5rn"
   },
   "stable": {
    "version": [
     0,
-    55,
+    56,
     0
    ],
    "deps": [
     "evil",
     "ghostel"
    ],
-   "commit": "755c61a4bffa3d461d4c36d69c9f95cc9e31ea95",
-   "sha256": "065swxsqdhkvbjp676fp3k3h6zhp5snid741ihhhl1cyy8fnjw35"
+   "commit": "829ac98a3e3183249028f9f4e029e7e9c0869be3",
+   "sha256": "1v6g18jl30kxidyadwcxx4kw8lx8p15fv66vqd6khw8012bfg5rn"
   }
  },
  {
@@ -49852,7 +49851,7 @@
   "unstable": {
    "version": [
     20260919,
-    933
+    1834
    ],
    "deps": [
     "closql",
@@ -49866,8 +49865,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "3b15c7432fd909aed5da900a2ea9c5e9a8e104f8",
-   "sha256": "1bbcc9jpgqfq6709m15gmih6lgf9mq6wwzfk8k1nx4vd21nzxb18"
+   "commit": "3662e218c808bd3497a8aa05f3ccb533fa60eaa4",
+   "sha256": "1w6h5rhai737220s0qyhf81hd3ww620ylik5jfyd6sxgdvzjza51"
   },
   "stable": {
    "version": [
@@ -52428,26 +52427,26 @@
   "repo": "dakra/ghostel",
   "unstable": {
    "version": [
-    20260918,
-    2046
+    20260919,
+    1611
    ],
    "deps": [
     "compat"
    ],
-   "commit": "6be56484c5375ea08a4888c949d118327ff3d1c4",
-   "sha256": "0y646khfn1mnm8y1qksbsc1pypg8sllkzy1q0ajqkdvx5xmbwdjc"
+   "commit": "829ac98a3e3183249028f9f4e029e7e9c0869be3",
+   "sha256": "1v6g18jl30kxidyadwcxx4kw8lx8p15fv66vqd6khw8012bfg5rn"
   },
   "stable": {
    "version": [
     0,
-    55,
+    56,
     0
    ],
    "deps": [
     "compat"
    ],
-   "commit": "755c61a4bffa3d461d4c36d69c9f95cc9e31ea95",
-   "sha256": "065swxsqdhkvbjp676fp3k3h6zhp5snid741ihhhl1cyy8fnjw35"
+   "commit": "829ac98a3e3183249028f9f4e029e7e9c0869be3",
+   "sha256": "1v6g18jl30kxidyadwcxx4kw8lx8p15fv66vqd6khw8012bfg5rn"
   }
  },
  {
@@ -56281,15 +56280,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20260918,
-    1901
+    20260919,
+    1615
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "1230375331c911d721b54a54d6a30d1ae0283787",
-   "sha256": "1hj3xm1r8b45pdx28zixaa0aiamp19wcj7f3c2irv6j223g50670"
+   "commit": "44deae37928175764bbe8314dbbc79bdec28ab4c",
+   "sha256": "0md9hjpmnv3xi6wgdqam1xyacqqdbjcfix10p8fnvr8yk1w0wnbr"
   },
   "stable": {
    "version": [
@@ -74729,8 +74728,8 @@
   "repo": "abrochard/kubel",
   "unstable": {
    "version": [
-    20260508,
-    2043
+    20260919,
+    1933
    ],
    "deps": [
     "dash",
@@ -74738,8 +74737,8 @@
     "transient",
     "yaml-mode"
    ],
-   "commit": "f2d64227c6d2ce0a3a9023345b230b5b2b30d147",
-   "sha256": "0sij8hi8h92ryp6vphs4hpqvw5r19k5q7cr0r6aifqfk4di61j7q"
+   "commit": "72e36d45c98e1aef927ea0e056c17ad539efe4ee",
+   "sha256": "170b40df3y4pvh157lmwn6wm55qcdhalxn029fkajgif2yk4csni"
   },
   "stable": {
    "version": [
@@ -80522,7 +80521,7 @@
   "unstable": {
    "version": [
     20260919,
-    934
+    1302
    ],
    "deps": [
     "compat",
@@ -80533,8 +80532,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "2ac81c731e05963e3db80ea547570b1b841a5aca",
-   "sha256": "1gm2q0a1ismjrjxkiwdvbh6f7vnbvv50dxd7904xz1qxvm0bvbqv"
+   "commit": "fe66e74a9cf50fe224d043039df85de20e3913b1",
+   "sha256": "07i457343k9ci2srqn5ar0n2bf2yshlgnvwi9l1cf10mdcc3wpi6"
   },
   "stable": {
    "version": [
@@ -99524,7 +99523,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3028-2335815242/nix-shell-3222-2638336666/nix-shell-3286-1645790623/git-checkout-tmp-R2ESZLDz/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3004-3056518553/nix-shell-3204-1669837782/nix-shell-3268-461628183/git-checkout-tmp-ZFazHZwo/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -124394,15 +124393,15 @@
   "repo": "SpringHan/sniem",
   "unstable": {
    "version": [
-    20250204,
-    1138
+    20260919,
+    1812
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "89161d8b3c19ffba8b52411de36f28aec1e401f2",
-   "sha256": "1ip0n50ja1gky3rdqc0y7fgm9f8ihakc48y8rqbhcq439m278jpv"
+   "commit": "b6def98bdf6af44193f11ffec45c66bbbc6b1a83",
+   "sha256": "04l08wbghy25l5sng6qy2dsrd6wx6g4q784fqrjqzgqp8wjrvsql"
   }
  },
  {
