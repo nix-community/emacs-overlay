@@ -4244,10 +4244,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.13.0.0.20260920.2";
+      version = "0.13.0.0.20260921.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.13.0.0.20260920.2.tar";
-        sha256 = "0ry72xj65whxx5l84x9nvqqms7hakd2m4299wrcd8iwbw5vhgvad";
+        url = "https://elpa.gnu.org/devel/gnosis-0.13.0.0.20260921.4.tar";
+        sha256 = "143sx87hddjkjyrcx4bw3xyy08xsazl98dwsa1kamrx1dsffb2h3";
       };
       packageRequires = [
         compat
@@ -5556,10 +5556,10 @@
     elpaBuild {
       pname = "lisp-ts-mode";
       ename = "lisp-ts-mode";
-      version = "0.3.4.0.20260830.2";
+      version = "0.3.4.0.20260921.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.3.4.0.20260830.2.tar";
-        sha256 = "157zhr5d3d7bxkxv0i32l1id6bywz8x2l8yfmvs5n67mbqkmsr10";
+        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.3.4.0.20260921.3.tar";
+        sha256 = "1k4drjgqndpy03ahcjj69ifpms2rfj3szhdfyc39dpdwb99hsrwz";
       };
       packageRequires = [
         compat
@@ -5635,10 +5635,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.32.1.0.20260906.1";
+      version = "0.32.1.0.20260920.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.32.1.0.20260906.1.tar";
-        sha256 = "0jhmyfd9ww6w4251qmr2rfwfbz6la0ja068d9i4a8sv8nafa35z6";
+        url = "https://elpa.gnu.org/devel/llm-0.32.1.0.20260920.2.tar";
+        sha256 = "07s7cbbrlda9jl1df8694376las35va08bggflmxxwlvl4b9p5vf";
       };
       packageRequires = [
         compat
