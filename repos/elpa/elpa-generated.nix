@@ -3154,10 +3154,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.32.1";
+      version = "1.32.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.32.1.tar";
-        sha256 = "1j24ksrc7nhfzj7y3mg671c3zm0dvb4c5ximfa8niw4knajlhjw7";
+        url = "https://elpa.gnu.org/packages/ellama-1.32.2.tar";
+        sha256 = "1xm2ja0dz2pc0hsj7q6cl4my32zwxa48xs8gjvwxcdxi3ylhcs0y";
       };
       packageRequires = [
         compat
@@ -4154,10 +4154,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.12.0";
+      version = "0.13.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/gnosis-0.12.0.tar";
-        sha256 = "0lgbz5al7n8j70aiv0d7vi2s3x4vfrwq9dmx3isy5ij6sxbb505p";
+        url = "https://elpa.gnu.org/packages/gnosis-0.13.0.tar";
+        sha256 = "135iny6h8n567hl2d6dvfr6imawkwjigr5rqc47j0hvclwrjmc9a";
       };
       packageRequires = [
         compat
@@ -8950,10 +8950,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.8.0";
+      version = "0.9.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/spacious-padding-0.8.0.tar";
-        sha256 = "17nxgal6972m07l0h48c73s2da4zyycl5gpyjn0j5jb2qxs2qxnp";
+        url = "https://elpa.gnu.org/packages/spacious-padding-0.9.0.tar";
+        sha256 = "184ki0r7p40mrw21xssq61kif02hqic2czpx3q0v4zkc5pkrd60y";
       };
       packageRequires = [ ];
       meta = {

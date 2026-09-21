@@ -77,7 +77,7 @@
       version = "0.8pre0.20251118.85";
       src = fetchurl {
         url = "https://elpa.gnu.org/devel/activities-0.8pre0.20251118.85.tar";
-        sha256 = "0v0s5vlfd2dv4shbmxqn37mcvfmfszdk0nwi1y184hwsp0bkvzqx";
+        sha256 = "0zzgx2w1mk1cgwg38lyyyqwyd5l8c5d670wjsh6ypzxivh87s4ic";
       };
       packageRequires = [ persist ];
       meta = {
@@ -101,7 +101,7 @@
       version = "8.1.0.0.20231018.91522";
       src = fetchurl {
         url = "https://elpa.gnu.org/devel/ada-mode-8.1.0.0.20231018.91522.tar";
-        sha256 = "07kd6dj1dbds68qmi4dh4w3fc8l18jyxrfbz4lxb5v9c59hk8c46";
+        sha256 = "1naq38wm939vf29nd32rl1kcix1ql3w9ffwhvl711vkvvksbnzmw";
       };
       packageRequires = [
         gnat-compiler
@@ -3221,10 +3221,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.32.1.0.20260812.1";
+      version = "1.32.2.0.20260920.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.32.1.0.20260812.1.tar";
-        sha256 = "1k5y4ljkd4plfyji4a0rihzr7yf6zwdmnln2gjpykr3slq4cm87l";
+        url = "https://elpa.gnu.org/devel/ellama-1.32.2.0.20260920.1.tar";
+        sha256 = "1gywmylkb1823afmsk2gmwbpay7gz7wq1lx7grpi512y3dc00whh";
       };
       packageRequires = [
         compat
@@ -4244,10 +4244,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.12.0.0.20260919.62";
+      version = "0.13.0.0.20260920.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.12.0.0.20260919.62.tar";
-        sha256 = "0abcmh67f32cv02d9754j3k4dsnk2r4d11ajy8hljl6p92ddjbwx";
+        url = "https://elpa.gnu.org/devel/gnosis-0.13.0.0.20260920.2.tar";
+        sha256 = "0ry72xj65whxx5l84x9nvqqms7hakd2m4299wrcd8iwbw5vhgvad";
       };
       packageRequires = [
         compat
@@ -9123,10 +9123,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.8.0.0.20260724.4";
+      version = "0.9.0.0.20260920.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/spacious-padding-0.8.0.0.20260724.4.tar";
-        sha256 = "0jdg8vmkzzibn8y3vql6sf6m2s03d2nh3w6bln6a9i9mb15j6sza";
+        url = "https://elpa.gnu.org/devel/spacious-padding-0.9.0.0.20260920.0.tar";
+        sha256 = "12jgr0f5xm05hl14xzd512halpxp050fwb2ajjpzqp35n7k6qllf";
       };
       packageRequires = [ ];
       meta = {
