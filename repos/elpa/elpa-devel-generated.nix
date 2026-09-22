@@ -2997,10 +2997,10 @@
     elpaBuild {
       pname = "eev";
       ename = "eev";
-      version = "20260903.0.20260910.3";
+      version = "20260903.0.20260921.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eev-20260903.0.20260910.3.tar";
-        sha256 = "1xzqdgd1ni6dksxcpg8z5wlr1189ncc6q30ksdvl4ggxsff95smm";
+        url = "https://elpa.gnu.org/devel/eev-20260903.0.20260921.4.tar";
+        sha256 = "0bfriqqzyqwjm9wifybg9hmb7vk5s6kd68ffxynsnwg583vli5sd";
       };
       packageRequires = [ ];
       meta = {
@@ -11293,10 +11293,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20260914.49";
+      version = "1.7.0.0.20260922.50";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260914.49.tar";
-        sha256 = "0d9zgxh3l9w2yfbfgibk9fdhk8j0rd7fb3cbassjs2nffbyhi38c";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260922.50.tar";
+        sha256 = "0fhsbmx1danhff1hrlh150viiwbrkiv779lbfdq0ic2my5kzrdlv";
       };
       packageRequires = [ ];
       meta = {
