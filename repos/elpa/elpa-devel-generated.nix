@@ -2561,10 +2561,10 @@
     elpaBuild {
       pname = "dired-preview";
       ename = "dired-preview";
-      version = "0.7.0.0.20260918.0";
+      version = "0.7.0.0.20260921.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dired-preview-0.7.0.0.20260918.0.tar";
-        sha256 = "09fwvjm176z6h3clgisxdpfvlsm7x4ap3j770dcn1pmb1jghw9x0";
+        url = "https://elpa.gnu.org/devel/dired-preview-0.7.0.0.20260921.2.tar";
+        sha256 = "1vjdazhn3i8ay80ipcdrzq33k2c3zgzs9s64il487xg3irmywnms";
       };
       packageRequires = [ ];
       meta = {
@@ -5981,10 +5981,10 @@
     elpaBuild {
       pname = "matlab-mode";
       ename = "matlab-mode";
-      version = "8.2.1.0.20260915.0";
+      version = "8.2.2.0.20260921.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/matlab-mode-8.2.1.0.20260915.0.tar";
-        sha256 = "1rgllzfq4jpmi19fdymk6a5hlkfrzrq16rb6yr7vyg9jaidva3lw";
+        url = "https://elpa.gnu.org/devel/matlab-mode-8.2.2.0.20260921.0.tar";
+        sha256 = "077vzys9ny80dy8q96n8c321kb49102vcryhxvyimj6kbk84kk2j";
       };
       packageRequires = [ ];
       meta = {
@@ -6267,10 +6267,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20260918.58";
+      version = "5.3.0.0.20260921.59";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260918.58.tar";
-        sha256 = "1sdl9ma9ilxm36j44x18w1d37cz666n59s7lm5l2b1mkzbvmgk1j";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20260921.59.tar";
+        sha256 = "0y7av2hqrnsdqhrn3afxgj1m7fgqi4j0dd7vsx3awawq1dzn83ca";
       };
       packageRequires = [ ];
       meta = {
