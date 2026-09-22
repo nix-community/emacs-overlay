@@ -14429,16 +14429,16 @@
   "repo": "emacs-citar/citar",
   "unstable": {
    "version": [
-    20260921,
-    617
+    20260922,
+    132
    ],
    "deps": [
     "citeproc",
     "org",
     "parsebib"
    ],
-   "commit": "a8be76d04f4343776afef77154bf6bda4a696b5f",
-   "sha256": "0za037d8y2zj10c9p10mdzsawi5r96q9am2w7sn5xfjl9jxplsbq"
+   "commit": "5efc5ac78f235cdaafe361758d03c7a51a015dd1",
+   "sha256": "1ghd5ddvynqwr71q0bxkamhhlz50vg5i2iva5l8b747f4acajqam"
   },
   "stable": {
    "version": [
@@ -80598,8 +80598,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20260919,
-    1302
+    20260921,
+    2144
    ],
    "deps": [
     "compat",
@@ -80610,8 +80610,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "fe66e74a9cf50fe224d043039df85de20e3913b1",
-   "sha256": "07i457343k9ci2srqn5ar0n2bf2yshlgnvwi9l1cf10mdcc3wpi6"
+   "commit": "5a4defc82ba221c71c9d1903f26dfdf1501e3448",
+   "sha256": "1b3bzpvbb4hx5p1dcv9xg457w8lcchd1l83slpvzys6q161nbnl2"
   },
   "stable": {
    "version": [
@@ -84118,11 +84118,11 @@
   "repo": "kazu-yamamoto/Mew",
   "unstable": {
    "version": [
-    20260907,
-    2350
+    20260922,
+    239
    ],
-   "commit": "5fd9336e13d54f1359d47c9d8bc98a27b2d368ee",
-   "sha256": "02xvm4ngnb27m6qpqwlmympbfrfr204bxbgn1vlrylzidfyblj19"
+   "commit": "21f020f5a8f0bcabd5783ccff90075ae13b4f27f",
+   "sha256": "0xqcmb50aqq27zd3jvrmhkl2njpajk1yzahj63y822sz8llpa75s"
   },
   "stable": {
    "version": [
@@ -88906,15 +88906,15 @@
   "repo": "rainstormstudio/nerd-icons-completion",
   "unstable": {
    "version": [
-    20260412,
-    243
+    20260921,
+    2012
    ],
    "deps": [
     "compat",
     "nerd-icons"
    ],
-   "commit": "45b585d972192a3eaeb239e15e55de7f46f8920a",
-   "sha256": "0vipmrxmk6i1by32ygqlg3kj2qx9hdz9f8y5pp33g7qvy4vmavw6"
+   "commit": "f924dd490c8c4c1066fd97a76e0dc31e303fca30",
+   "sha256": "13d03mnxzqqxwcw9wk04kpz1nq8in98k8l30c3bv23rzx69kg10f"
   }
  },
  {
@@ -99688,7 +99688,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2773-3053547492/nix-shell-2971-3815206626/nix-shell-3035-1986528660/git-checkout-tmp-d2Lv202d/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3020-3416983139/nix-shell-3211-1158541585/nix-shell-3275-2082455030/git-checkout-tmp-FcLfRSQF/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -131618,11 +131618,11 @@
    "version": [
     2026,
     9,
-    14,
+    21,
     0
    ],
-   "commit": "6f3635d555882533049059060e2e041378edef8a",
-   "sha256": "02zysy33xl5psji8x7wjh79cmd8iaza01x1xlmbimkk9xilqm5jv"
+   "commit": "de5b6be5213fa8ea83808f69ccd42faf98105516",
+   "sha256": "05nc36zdyy06zdkiclxlj4fr8rqmz8gcaxjf3l7wn9gzgpkkfibm"
   }
  },
  {
@@ -144779,10 +144779,10 @@
    "version": [
     0,
     3,
-    0
+    1
    ],
-   "commit": "74c71a7859978dea5d299a1eea1548b3751af0ae",
-   "sha256": "1ypm9jz6ldv2m1qa9x4z7ml9csk58as13njimkxh8qcdf7n3nk4s"
+   "commit": "bb1e8287800868ee338e986bda5b5a1f5abf7445",
+   "sha256": "1d89mds8lg33blx7m8kv032285rbwwa69rfcwfm4wbk91zvvd30b"
   }
  },
  {
