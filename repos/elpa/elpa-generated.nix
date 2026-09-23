@@ -3609,10 +3609,10 @@
     elpaBuild {
       pname = "ffs";
       ename = "ffs";
-      version = "0.2.2";
+      version = "0.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ffs-0.2.2.tar";
-        sha256 = "1mwjk877qfccdrp046j431pawr9g489gdz803wg55j0r12whh94a";
+        url = "https://elpa.gnu.org/packages/ffs-0.2.3.tar";
+        sha256 = "1s8mw3kbpca468i7vx3ws4m9v6y6d7qnccwy5pbv2ribpcymyl76";
       };
       packageRequires = [ ];
       meta = {

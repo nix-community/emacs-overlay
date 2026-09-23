@@ -1530,10 +1530,10 @@
     elpaBuild {
       pname = "cond-star";
       ename = "cond-star";
-      version = "1.0.0.20260523.114724";
+      version = "1.0.0.20260922.24";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cond-star-1.0.0.20260523.114724.tar";
-        sha256 = "15gp54pkm50dq9141fknq4gy8ya6wrbr0nyzqax15rxz57gsf6cs";
+        url = "https://elpa.gnu.org/devel/cond-star-1.0.0.20260922.24.tar";
+        sha256 = "1l6p609a6fpf3b24nshaw0bv096fy8whcwvpv2d0bnrb72zvf7zc";
       };
       packageRequires = [ ];
       meta = {
@@ -3290,10 +3290,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260909.47";
+      version = "0.0.20260922.48";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260909.47.tar";
-        sha256 = "0cydapq7bfssbfk6ii5ls8v136hj3hdwmlajccb8r3sb2981q09w";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260922.48.tar";
+        sha256 = "0cfkmi1b53q5gbablx38ddlpiyazbnc4l10if5wxagyc2f8dg4qz";
       };
       packageRequires = [ ];
       meta = {
@@ -3698,10 +3698,10 @@
     elpaBuild {
       pname = "ffs";
       ename = "ffs";
-      version = "0.2.3snapshot0.20260919.2";
+      version = "0.2.3.0.20260922.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ffs-0.2.3snapshot0.20260919.2.tar";
-        sha256 = "1n6kdq7mp9axlyh8xmwpaa210wxarimnpk14miwis5xw1nii0bir";
+        url = "https://elpa.gnu.org/devel/ffs-0.2.3.0.20260922.0.tar";
+        sha256 = "08jkgl6aparw2ad46rbzd7y1kgp2vlkmxk8gvbxjbnycw3n2lqfp";
       };
       packageRequires = [ ];
       meta = {
