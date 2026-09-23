@@ -31156,8 +31156,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260916,
-    1400
+    20260922,
+    1807
    ],
    "deps": [
     "compat",
@@ -31166,8 +31166,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "0dc74a863a3729c4397f7fe6264a366dbb8504c3",
-   "sha256": "1lcjsdy7pqldnxd3bhkw11b3xwvma0dg2g4qqfr9wd0sxi7jfgwc"
+   "commit": "d7632c8bb8a093df1fde0c52fd1fd7662ead7e76",
+   "sha256": "00q23c7cs3g8j7ksmiy6az48dff1185xricyx57n94fnr835babg"
   },
   "stable": {
    "version": [
@@ -49875,8 +49875,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20260919,
-    1834
+    20260922,
+    2225
    ],
    "deps": [
     "closql",
@@ -49890,8 +49890,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "3662e218c808bd3497a8aa05f3ccb533fa60eaa4",
-   "sha256": "1w6h5rhai737220s0qyhf81hd3ww620ylik5jfyd6sxgdvzjza51"
+   "commit": "ebff9cc776e57f6721f9ec85f16bf935cd7f6bef",
+   "sha256": "1svwwcps7b2hai4gbxxzb8xcy185c1dhjxlhh2j894y3akq0ka9l"
   },
   "stable": {
    "version": [
@@ -59112,15 +59112,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20260915,
-    1432
+    20260918,
+    530
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "4f53c80b636a93bd09bbd45eb150f385834cb494",
-   "sha256": "04zpxirg11rhf1gwylxw48rgak85z3rrsbsbdbqphjyfy0wkl19y"
+   "commit": "228879977563003631edc67926e6a241f8523d73",
+   "sha256": "13nd9yrb38alpx5203921xqab8bw5vfy8q8ly38hay3647cmiqsk"
   },
   "stable": {
    "version": [
@@ -80599,8 +80599,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20260921,
-    2144
+    20260922,
+    1955
    ],
    "deps": [
     "compat",
@@ -80611,8 +80611,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "5a4defc82ba221c71c9d1903f26dfdf1501e3448",
-   "sha256": "1b3bzpvbb4hx5p1dcv9xg457w8lcchd1l83slpvzys6q161nbnl2"
+   "commit": "cd9117e3a8eb9b50814474d5addfd2ca92af5605",
+   "sha256": "1xh990ny0ahjbms62bpcpl2l4fxjk0cq6pgxc5vvbjns023amhjm"
   },
   "stable": {
    "version": [
@@ -81331,15 +81331,15 @@
   "repo": "function-artisans/magit-standup",
   "unstable": {
    "version": [
-    20260919,
-    1913
+    20260922,
+    1748
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "d7ae3175f0ff9bd5d911cf6586e8614c2b447ff6",
-   "sha256": "18qmylp7m6c80psvyrmsb6qdr4437s535cfjp7dz3qgy76q3pihl"
+   "commit": "fba45b21733efbb1ae8ebe639505a2e0073f5270",
+   "sha256": "1vx1gjfyqm1frvpi86h0cw7nc9v79rc4hb81a0xrar4pjcw4al54"
   },
   "stable": {
    "version": [
@@ -82893,10 +82893,10 @@
    "version": [
     8,
     2,
-    1
+    2
    ],
-   "commit": "83d0aca7f6c817c0a418c773a59bd08e8f5dca5c",
-   "sha256": "009gm8wkw3p05a8q82yz8vzqhkcjh101xn53d83wlq4i5rlx3zb0"
+   "commit": "8c647ab2e395da6216eab46afe112e7af3317fc5",
+   "sha256": "1m2bsbd2h15vibqhmfn7wrsyni88gimvi0w7mic1d1zcvynimi2q"
   }
  },
  {
@@ -99689,7 +99689,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2821-318702922/nix-shell-3015-2941642557/nix-shell-3079-2485264209/git-checkout-tmp-srTTT5XI/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2985-1867873390/nix-shell-3210-2131620924/nix-shell-3275-87991049/git-checkout-tmp-TFEdWgeC/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -106057,11 +106057,11 @@
   "repo": "Bad-ptr/persp-mode.el",
   "unstable": {
    "version": [
-    20260830,
-    105
+    20260922,
+    825
    ],
-   "commit": "4cd5f47bd7208e4dbefe8053ec6d26271ce2ea88",
-   "sha256": "0wm2fn5rcxjk6bqnyl5jhz9l53cb9l03k2kq0xhix9nsg6wgylp3"
+   "commit": "703f3b5ad502cfe5b027586611421900bed1fb40",
+   "sha256": "0l49m99pqp8j844dwdqx6xv80ph939367iizykyi8j6nrbs46206"
   },
   "stable": {
    "version": [
@@ -123068,8 +123068,8 @@
   "repo": "emacs-slack/emacs-slack",
   "unstable": {
    "version": [
-    20260921,
-    1504
+    20260922,
+    2350
    ],
    "deps": [
     "alert",
@@ -123081,8 +123081,8 @@
     "ts",
     "websocket"
    ],
-   "commit": "56cebf4cd54f583e29f04fb6cb7005bb12b324bf",
-   "sha256": "0bf697lnqkyjvpgir5gj67kvxk50gxkrp2zy2x6cvyp3mbbhs2ay"
+   "commit": "9a5f2011b84029a76b43fd2b0116b9cd47f478dd",
+   "sha256": "17hwzkh3wjsx06gr8m4gprmvcyw0hgqwbn1fkay6n5hxwnaf7rri"
   }
  },
  {
