@@ -1342,10 +1342,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.5.0.20260918.19";
+      version = "1.2.5.0.20260922.21";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.5.0.20260918.19.tar";
-        sha256 = "13vgmq4vzxczk1z0zj0gxip61py93sha4ip8gncr5v2y0z4kpjdx";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.5.0.20260922.21.tar";
+        sha256 = "0qilsc4n8sk6zspxwdjp1c9h0ysafpnvayhm7fzjvhagkcnik75z";
       };
       packageRequires = [
         cl-lib
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260919.562";
+      version = "10.0pre0.20260923.564";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260919.562.tar";
-        sha256 = "118k992kmfc0za1x9ss7p4kf329pcr6x4r7jq1s35a50piwnrhm4";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260923.564.tar";
+        sha256 = "0b2j8nc5pafxp6v19g8byqv9kalgabf0awigqmm247n0l4d51zam";
       };
       packageRequires = [ ];
       meta = {
@@ -9513,10 +9513,10 @@
     elpaBuild {
       pname = "sxhkdrc-mode";
       ename = "sxhkdrc-mode";
-      version = "1.2.0.0.20260424.102746";
+      version = "1.2.0.0.20260923.19";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/sxhkdrc-mode-1.2.0.0.20260424.102746.tar";
-        sha256 = "1cr31122688fl5cyslqzawinaca7df64hxzqvszalzv32gimzm15";
+        url = "https://elpa.gnu.org/devel/sxhkdrc-mode-1.2.0.0.20260923.19.tar";
+        sha256 = "12vhkjxk117nvm406blgc6yii24dj5y02g6l3c3wdnf5pij4q12f";
       };
       packageRequires = [ ];
       meta = {
