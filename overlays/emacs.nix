@@ -122,7 +122,6 @@ let
               in
                 base.overrideAttrs (
                   oa: {
-                    buildInputs = oa.buildInputs ++ [ super.mps ];
                     configureFlags = oa.configureFlags ++ [ "--with-mps=yes" ];
                     passthru = oa.passthru // {
                       pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
@@ -134,7 +133,6 @@ let
                    in
                      base.overrideAttrs (
                        oa: {
-                         buildInputs = oa.buildInputs ++ [ super.mps ];
                          configureFlags = oa.configureFlags ++ [ "--with-mps=yes" ];
                          passthru = oa.passthru // {
                            pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
