@@ -2176,7 +2176,20 @@
   "unstable": {
    "version": [
     20260924,
-    118
+    1210
+   ],
+   "deps": [
+    "acp",
+    "shell-maker"
+   ],
+   "commit": "19e9d0175a5392af9999447f6be99f65e43f37bb",
+   "sha256": "0aps9ldzk4l703yqnpygn7rhpdjhbycm21cc1r8w56px2lv7lggz"
+  },
+  "stable": {
+   "version": [
+    0,
+    79,
+    1
    ],
    "deps": [
     "acp",
@@ -2184,19 +2197,6 @@
    ],
    "commit": "f0854f6492c58979396833b979d50a81672e7bfc",
    "sha256": "1vcsyawmk74b52rwmp9zkrn231s2kdx0ak0cz4b2v38737ay83xx"
-  },
-  "stable": {
-   "version": [
-    0,
-    78,
-    2
-   ],
-   "deps": [
-    "acp",
-    "shell-maker"
-   ],
-   "commit": "164332bcd459a23a6aaf7b4587905cef56aaff05",
-   "sha256": "0i6k57r342pz5g1hn0dfiqypzs7kwf49f224szivqnfsn34hrfzp"
   }
  },
  {
@@ -2408,27 +2408,27 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260923,
-    1503
+    20260924,
+    438
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "90a099710c994e8d95f180e88d79a4810644b692",
-   "sha256": "10ijan73r96j6lrrmf7j3nslfwqcr5ygmz1bjrd0fz16rfndxsd3"
+   "commit": "72c49e6f7c5817c81c2d425dcefeea2107d7c94a",
+   "sha256": "0hs86dmppml8icvrd05wkzddaix5pns79rgr35laaw2dzfsyd6f0"
   },
   "stable": {
    "version": [
     1,
-    960
+    970
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "f934e2cc0c5a1a18cbcbeb097f19fdb573ec78ef",
-   "sha256": "0l77lax159lz7rygjrjirza8l4bni0yab879ry1scnqb76rhg6jm"
+   "commit": "72c49e6f7c5817c81c2d425dcefeea2107d7c94a",
+   "sha256": "0hs86dmppml8icvrd05wkzddaix5pns79rgr35laaw2dzfsyd6f0"
   }
  },
  {
@@ -15910,14 +15910,14 @@
   "repo": "LuciusChen/clutch",
   "unstable": {
    "version": [
-    20260923,
-    1155
+    20260924,
+    546
    ],
    "deps": [
     "transient"
    ],
-   "commit": "bfe30d6541baa61173c197e95c9026db3f11be1a",
-   "sha256": "1wzlqy551mnrw7xffn7iq8nvs0rs7wx99hwb2b33dmafix2ypylx"
+   "commit": "4f72f569bbb4b62d84b8562c9e954fcd5bab9f09",
+   "sha256": "1dr90hmr7r9iazijxivhiyf3igxyw1wnhbvlfkak3zarhfxbmhqm"
   },
   "stable": {
    "version": [
@@ -84119,11 +84119,11 @@
   "repo": "kazu-yamamoto/Mew",
   "unstable": {
    "version": [
-    20260922,
-    1101
+    20260924,
+    810
    ],
-   "commit": "66261fb2eead0abfbf3d8c435b2f615c8bc7fe4b",
-   "sha256": "1hj4kx1kckdik7swx4dchp955m0mkqq316cz932a27q16g6ahxyz"
+   "commit": "bceed3e808d0b9da3b9aaaf2d8fb8fe0a08302e0",
+   "sha256": "0jnizcb77x6z9d07khmdhhmzflkh5ksk3yra2x6q7df68g9rrd2h"
   },
   "stable": {
    "version": [
@@ -85002,11 +85002,11 @@
   "repo": "szermatt/mistty",
   "unstable": {
    "version": [
-    20260918,
-    1608
+    20260924,
+    926
    ],
-   "commit": "37fd8765e112f3125f2500a1e08328066dd56b19",
-   "sha256": "0i29cw7h56c4b85y70cm2g61m2znkxk0100wf92jiwrgwhspzbd2"
+   "commit": "34337b2ed9e1de222ca474573f12ed08c05da909",
+   "sha256": "14c69aas9knfpd5rgmammkw5lxi69qnz71hxrva0qlwdm0h3ha42"
   },
   "stable": {
    "version": [
@@ -107164,8 +107164,8 @@
   "repo": "ananthakumaran/pimacs.el",
   "unstable": {
    "version": [
-    20260922,
-    311
+    20260924,
+    218
    ],
    "deps": [
     "compat",
@@ -107174,13 +107174,13 @@
     "timeout",
     "transient"
    ],
-   "commit": "5b52ee86071a1b751d9228eff8be6bc807049917",
-   "sha256": "04bk0z5yh5ac030z3b95wazf89wxkzvaa43fyjs0p1g61ndbhicy"
+   "commit": "2afd0d2f3e5eac573add173f6b5857ad20e46c15",
+   "sha256": "0w81s4bc3vvq6m2ycji59qq6z2zaqg7x8r3vzc4fyij6a5bz7g6l"
   },
   "stable": {
    "version": [
     0,
-    7,
+    8,
     0
    ],
    "deps": [
@@ -107190,8 +107190,8 @@
     "timeout",
     "transient"
    ],
-   "commit": "675853a9eacfdfd628e3ff090690afeb08f43e47",
-   "sha256": "0b5bhs4j5xn3apakx55jb0fy8aalw4r0b4jp26xphp7lbpn2xx40"
+   "commit": "2afd0d2f3e5eac573add173f6b5857ad20e46c15",
+   "sha256": "0w81s4bc3vvq6m2ycji59qq6z2zaqg7x8r3vzc4fyij6a5bz7g6l"
   }
  },
  {
@@ -130095,15 +130095,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20260923,
-    1229
+    20260924,
+    445
    ],
    "deps": [
     "transient",
     "visual-fill-column"
    ],
-   "commit": "9eb898240be27619311253d4972a00803ae2e03d",
-   "sha256": "1pyirh1y6zqk91r8hr2fqv3psvpf4h21d7zb62iw6igabqj4pk5z"
+   "commit": "4721c9322ce0f988aca0058be4e5f9865eaf83f3",
+   "sha256": "17cqgrhqmv8pxsf1mdahlm9sv11j38r3710zrh4zrmszbqng26vw"
   },
   "stable": {
    "version": [
@@ -139283,8 +139283,8 @@
   "repo": "d12frosted/vulpea",
   "unstable": {
    "version": [
-    20260923,
-    1808
+    20260924,
+    524
    ],
    "deps": [
     "dash",
@@ -139292,8 +139292,8 @@
     "org",
     "s"
    ],
-   "commit": "21747c2db2164cd044593578032159c3e02997e2",
-   "sha256": "1pb9s78irkgh7ziig6ar900hbw8cndn3jk5dwr43nwml9dx0mzw6"
+   "commit": "e4f503a1c154c720e91b71ed5120098cd924177c",
+   "sha256": "139akvz9vv4cwn1b9a8rs8838cn996lwzgsz5djbgxlnilc1wf34"
   },
   "stable": {
    "version": [
