@@ -40,6 +40,8 @@ let
       else if type == "string" then config
       # - A config path { config = ./config.el; }
       else if type == "path" then builtins.readFile config
+      # - A list of paths { config = [ ./config.el ./custom.el ] }
+      else if type == "list" then lib.concatStringsSep "\n" (map builtins.readFile config)
       # - A derivation { config = pkgs.writeText "config.el" "(use-package foo)"; }
       else if lib.isDerivation config then builtins.readFile "${config}"
       else throw "Unsupported type for config: \"${type}\"";
