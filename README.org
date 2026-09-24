@@ -84,16 +84,21 @@ required in a user's config via =use-package= or =leaf=.
   {
     environment.systemPackages = [
       (pkgs.emacsWithPackagesFromUsePackage {
-        # Your Emacs config file. Org mode babel files are also
-        # supported.
+        # Your Emacs config as file or text. Org mode babel files are also
+        # supported, but must be a file available at build-time and have a `.org`
+        # file extension.
         # NB: Config files cannot contain unicode characters, since
         #     they're being parsed in nix, which lacks unicode
         #     support.
+        # NB: Org-mode files must only specify `:tangle` values of `yes`, `no`, 
+        #     `t`, or `nil` on src blocks, and must not include any configuration
+        #     that changes the output `.el` name or location.
         # config = ./emacs.org;
         config = ./emacs.el;
 
-        # Whether to include your config as a default init file.
-        # If being bool, the value of config is used.
+        # Whether to include your config as a site-lisp default init file as well.
+        # If not enabled, the config is only parsed to find the use-packages and
+        # you're responsible for making the file available for Emacs to load at run-time.
         # Its value can also be a derivation like this if you want to do some
         # substitution:
         #   defaultInitFile = pkgs.substituteAll {
@@ -101,6 +106,13 @@ required in a user's config via =use-package= or =leaf=.
         #     src = ./emacs.el;
         #     inherit (config.xdg) configHome dataHome;
         #   };
+        # WARNING: Emacs restricts some settings to the user-specific files!
+        # WARNING: Disabling this setting for org-mode configs is non-trivial!
+        #          Emacs always resolves all symlinks to org-mode babel files before
+        #          tangling, emacsWithPackagesFromUsePackage does not allow the tangled
+        #          `.el` file name or location to be changed from the default, and
+        #          your config must be a file path in the nix store for org-mode, which
+        #          is read-only location a tangled `.el` file cannot be created in.
         defaultInitFile = true;
 
         # Package is optional, defaults to pkgs.emacs
@@ -115,13 +127,14 @@ required in a user's config via =use-package= or =leaf=.
         # `use-package-always-ensure` to `t` in your config.
         alwaysEnsure = true;
 
-        # For Org mode babel files, by default only code blocks with
-        # `:tangle yes` are considered. Setting `alwaysTangle` to `true`
-        # will include all code blocks missing the `:tangle` argument,
-        # defaulting it to `yes`.
+        # This value changes what the assumed default is when an individual src
+        # block does not specify the `:tangle` option. Only the `:tangle` option 
+        # (or lack of) on individual src blocks is considered by 
+        # emacsWithPackagesFromUsePackage and it normally defaults to `no`.
         # Note that this is NOT recommended unless you have something like
         # `#+PROPERTY: header-args:emacs-lisp :tangle yes` in your config,
-        # which defaults `:tangle` to `yes`.
+        # which defaults `:tangle` to `yes` when not specified, and don't explicilty
+        # set `:tangle yes` on individual src blocks.
         alwaysTangle = true;
 
         # Optionally provide extra packages not in the configuration file.
