@@ -1988,10 +1988,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.27.1.0.20260719.8";
+      version = "0.27.1.0.20260924.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.27.1.0.20260719.8.tar";
-        sha256 = "08y9z6l5qirz812v0wz1y3fklsqj9b0476scl2ziq8mvjdkv37bq";
+        url = "https://elpa.gnu.org/devel/dape-0.27.1.0.20260924.10.tar";
+        sha256 = "16bx2nx3rmhaky4kw1cygm79f7rqwvkq891wrjiqpfdrdh80cr8g";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.1.0.0.20260916.66";
+      version = "9.1.0.0.20260923.67";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260916.66.tar";
-        sha256 = "0x0rczf191nynw1d1agg76h1bq7x93by5z6gq178fikch8phgv82";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260923.67.tar";
+        sha256 = "0vji5k819irb03k4i9x4iwkxm3nn78gn30bfnw0diq14y548n8nn";
       };
       packageRequires = [ ];
       meta = {
@@ -5635,10 +5635,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.32.1.0.20260920.2";
+      version = "0.32.1.0.20260923.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.32.1.0.20260920.2.tar";
-        sha256 = "07s7cbbrlda9jl1df8694376las35va08bggflmxxwlvl4b9p5vf";
+        url = "https://elpa.gnu.org/devel/llm-0.32.1.0.20260923.3.tar";
+        sha256 = "17sa0c09y1pdk9jyggfyfv34v34a3s87ka7lplkxv8ld0cv8lhdr";
       };
       packageRequires = [
         compat
