@@ -7818,10 +7818,10 @@
     elpaBuild {
       pname = "qrencode";
       ename = "qrencode";
-      version = "1.4";
+      version = "1.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/qrencode-1.4.tar";
-        sha256 = "0vi27kqmpwi8yqjz0kpv3hxvapaysr0vq00yc0rsjkwqcylqbmj2";
+        url = "https://elpa.gnu.org/packages/qrencode-1.5.tar";
+        sha256 = "0yqpv01xpnff3p59h6i5jip5p3ch34j9yw3grxk6h90xjvjf1hrw";
       };
       packageRequires = [ ];
       meta = {

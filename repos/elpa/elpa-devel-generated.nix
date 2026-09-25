@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20260919.1";
+      version = "14.2.0.0.20260924.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20260919.1.tar";
-        sha256 = "1m97cfnyfi03knl0q71d8y59kpqdffvg933s7w9lqir3naxmpm7a";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20260924.2.tar";
+        sha256 = "04814mg73x6lg191ww9ssk8hlpnmcnbzr8rwz0wa8rbxwggqrz8y";
       };
       packageRequires = [ ];
       meta = {
@@ -4244,10 +4244,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.13.0.0.20260923.19";
+      version = "0.13.0.0.20260924.21";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.13.0.0.20260923.19.tar";
-        sha256 = "0zi3x53fa9vn58mjm3gnlnlka4l8nxa03x8rggvfa3mf0n7kmwr9";
+        url = "https://elpa.gnu.org/devel/gnosis-0.13.0.0.20260924.21.tar";
+        sha256 = "1pfnd9r71bdfs5yrpln6h7ajxzh3isss1qnnqcw9pink3bgh2rl9";
       };
       packageRequires = [
         compat
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260923.564";
+      version = "10.0pre0.20260924.566";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260923.564.tar";
-        sha256 = "0b2j8nc5pafxp6v19g8byqv9kalgabf0awigqmm247n0l4d51zam";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260924.566.tar";
+        sha256 = "0xvicdllglsinh1rrv507wk6j5g78dh77zhfky2hagvr6fk4nj66";
       };
       packageRequires = [ ];
       meta = {
@@ -6844,10 +6844,10 @@
     elpaBuild {
       pname = "org-contacts";
       ename = "org-contacts";
-      version = "1.3.0.20260915.18";
+      version = "1.3.0.20260924.20";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-contacts-1.3.0.20260915.18.tar";
-        sha256 = "0i1c6vayfvhrvwi7ihpzvvfjrbdzh67gdadjvckr4yi2y6grvsyc";
+        url = "https://elpa.gnu.org/devel/org-contacts-1.3.0.20260924.20.tar";
+        sha256 = "0pgvsjic0yspya7y49qh9b11lsc6jaxni9ibjszd1lv4hffjbabd";
       };
       packageRequires = [ org ];
       meta = {
@@ -7943,10 +7943,10 @@
     elpaBuild {
       pname = "qrencode";
       ename = "qrencode";
-      version = "1.5beta4.0.20260906.0";
+      version = "1.5.0.20260925.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/qrencode-1.5beta4.0.20260906.0.tar";
-        sha256 = "0j2439ixyvv10lzzb84k428xn920k84alz41wsd0h515013s6lgs";
+        url = "https://elpa.gnu.org/devel/qrencode-1.5.0.20260925.1.tar";
+        sha256 = "1bhh4wdlyjyjrv6agdr6q1sd5y91rqgpal88bsgw6fx6h8dchv2f";
       };
       packageRequires = [ ];
       meta = {
@@ -10083,10 +10083,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.8.0.20260923.7";
+      version = "0.13.8.0.20260924.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20260923.7.tar";
-        sha256 = "1bqmcjnss7cglcb532rr4dgdjp69jsl4k46c5bg8ai55ya2myay2";
+        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20260924.8.tar";
+        sha256 = "0yvg2pfq2xi3v8090jl9d3pwzazabkrws2g75cchhdbh3hzq65kg";
       };
       packageRequires = [
         compat
