@@ -2377,10 +2377,10 @@
     elpaBuild {
       pname = "geiser-chicken";
       ename = "geiser-chicken";
-      version = "0.17.0.20260819.10";
+      version = "0.17.0.20260924.11";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-chicken-0.17.0.20260819.10.tar";
-        sha256 = "1x8fjwn056dnr9j9aqp81hln84w4m09c4pl5dd8r3bc53p3rvcdn";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-chicken-0.17.0.20260924.11.tar";
+        sha256 = "15dvl6l06r2chs0kmvyrka90r1wkpkpxmifb1kahkgx1lv8an7f8";
       };
       packageRequires = [ geiser ];
       meta = {
@@ -2788,10 +2788,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.6.0.20260919.9";
+      version = "0.9.9.6.0.20260924.16";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20260919.9.tar";
-        sha256 = "0l6k1pzj5xj9ddlvnk4r5z19mk5xdsdiiy44bdrk4d5i0qakx9s5";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20260924.16.tar";
+        sha256 = "0fa7ma6pl9yhvkak71jbif478s3cccjxsf9ik3r699888ih35bw0";
       };
       packageRequires = [
         compat
@@ -3358,10 +3358,10 @@
     elpaBuild {
       pname = "isl";
       ename = "isl";
-      version = "1.7.0.20260924.1";
+      version = "1.7.0.20260924.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.7.0.20260924.1.tar";
-        sha256 = "10z7c2vk68slysdfvj164dl3dj78nlxs4nsl160qha1yb4rlfqcf";
+        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.7.0.20260924.2.tar";
+        sha256 = "0mzpghkcv19yq6dzmnnrry6n7q904dcnx5b4qgfq0h3q0gcxa4zp";
       };
       packageRequires = [ ];
       meta = {
@@ -4818,10 +4818,10 @@
     elpaBuild {
       pname = "project-nix-store";
       ename = "project-nix-store";
-      version = "0.12.0.0.20260918.0";
+      version = "0.13.0.0.20260924.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.12.0.0.20260918.0.tar";
-        sha256 = "0kink7jjq5lssxmvgk6a19rhgwmyzphbkgj7xw81hrcpzglv8apy";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.13.0.0.20260924.0.tar";
+        sha256 = "1g7248x6a5j8m2nan9zaakcjgr13lnbhpkj2f636p1syzf9kq1cx";
       };
       packageRequires = [ ];
       meta = {
@@ -6304,10 +6304,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.5.4.0.20260923.2";
+      version = "3.5.4.0.20260924.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.4.0.20260923.2.tar";
-        sha256 = "0fzaz5r8ml7g3bg6s77241d5vz9fynvfna75495krb8zaszx5vrz";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.4.0.20260924.3.tar";
+        sha256 = "0pfvy9snf1zgf1j38r7cik3kkgaywfm3qx0m3clfwhpl49vqch1h";
       };
       packageRequires = [
         compat

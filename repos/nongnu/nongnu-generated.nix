@@ -4840,10 +4840,10 @@
     elpaBuild {
       pname = "project-nix-store";
       ename = "project-nix-store";
-      version = "0.12.0";
+      version = "0.13.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/project-nix-store-0.12.0.tar";
-        sha256 = "0648bq6i1lysk4y3ddq4yh2qy9113cyx6jvg2a0mypw4mb96y22j";
+        url = "https://elpa.nongnu.org/nongnu/project-nix-store-0.13.0.tar";
+        sha256 = "00h0lwnvnjp5qla09bw0p7hns71jlla48i835h9773wj0zi2xhi1";
       };
       packageRequires = [ ];
       meta = {
