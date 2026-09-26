@@ -5937,10 +5937,10 @@
     elpaBuild {
       pname = "treeview";
       ename = "treeview";
-      version = "1.3.1.0.20241101.11503";
+      version = "1.4.0.0.20260926.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treeview-1.3.1.0.20241101.11503.tar";
-        sha256 = "0hf893bhnqg4ixfvs16h3rdiizkd14gsiq0cfg63cz077vp9bskh";
+        url = "https://elpa.nongnu.org/nongnu-devel/treeview-1.4.0.0.20260926.3.tar";
+        sha256 = "1zffw4hh4bylqv7bs1n12f1nxrdpz2fipyb208n5gdca07j8mp8r";
       };
       packageRequires = [ ];
       meta = {
