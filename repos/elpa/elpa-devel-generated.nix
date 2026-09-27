@@ -4244,10 +4244,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.13.0.0.20260924.21";
+      version = "0.13.0.0.20260927.22";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.13.0.0.20260924.21.tar";
-        sha256 = "1pfnd9r71bdfs5yrpln6h7ajxzh3isss1qnnqcw9pink3bgh2rl9";
+        url = "https://elpa.gnu.org/devel/gnosis-0.13.0.0.20260927.22.tar";
+        sha256 = "0s1b768zl999c3pfcvw6q89mj5wbwpbnqrw9g8dpg67kyg6ndin2";
       };
       packageRequires = [
         compat
@@ -5264,10 +5264,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.4.0.20260919.2";
+      version = "0.4.4.0.20260927.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.4.0.20260919.2.tar";
-        sha256 = "0r5rqhl8gwizga3nxm6h3694515j0jvk0vs8v1r5sb4zm8dwmiwd";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.4.0.20260927.4.tar";
+        sha256 = "0f8snc0w69fsxsqclc7wqzqvgdklnpv2zdczqdkfcxx61nd0pppy";
       };
       packageRequires = [ ];
       meta = {
@@ -7943,10 +7943,10 @@
     elpaBuild {
       pname = "qrencode";
       ename = "qrencode";
-      version = "1.5.0.20260925.1";
+      version = "1.6beta1.0.20260926.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/qrencode-1.5.0.20260925.1.tar";
-        sha256 = "1bhh4wdlyjyjrv6agdr6q1sd5y91rqgpal88bsgw6fx6h8dchv2f";
+        url = "https://elpa.gnu.org/devel/qrencode-1.6beta1.0.20260926.5.tar";
+        sha256 = "16mndg73hw210f41jkjlv89jwc2x8idkwrr59fqcd43fq3jk7mmi";
       };
       packageRequires = [ ];
       meta = {
