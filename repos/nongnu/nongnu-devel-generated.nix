@@ -1356,10 +1356,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.2.0.0.20260919.10";
+      version = "4.2.1.0.20260926.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.2.0.0.20260919.10.tar";
-        sha256 = "1jf8qlddimnw8x60bqr2jwkpvbymyrvlv429c993kg32rybhbdlf";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.2.1.0.20260926.0.tar";
+        sha256 = "021m79aabjnrfi7j9wk68ddxifn09r4wqnpz5rnksc5svc32hk56";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1923,10 +1923,10 @@
     elpaBuild {
       pname = "evil-visualstar";
       ename = "evil-visualstar";
-      version = "0.2.0.0.20160222.194815";
+      version = "0.2.1.0.20260926.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-visualstar-0.2.0.0.20160222.194815.tar";
-        sha256 = "1577xx0fblnf7n28brfi959kw3hw85498vza1dsh6r5nhalawhg7";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-visualstar-0.2.1.0.20260926.0.tar";
+        sha256 = "0258r5d4b2ph47r4izjdlpc5rfcv28ssl4az3z42wzb33mlp8ra2";
       };
       packageRequires = [ evil ];
       meta = {
@@ -2985,10 +2985,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260918.61";
+      version = "4.0.7.0.20260926.63";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260918.61.tar";
-        sha256 = "06bxg8zzq4c6yip8jhcz6x3lgvaf0f9hgcqh088kbbnnaaj7h57w";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260926.63.tar";
+        sha256 = "10qpa6s79vvfffwsm3dj58l9z0ak3y84d2fwr620vbwc5jngigqv";
       };
       packageRequires = [
         helm-core
@@ -3010,10 +3010,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260918.61";
+      version = "4.0.7.0.20260926.63";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260918.61.tar";
-        sha256 = "06jriv21vyncdy9dx1kxdhkcib0pzr9sjkqrn79qxfwfbl18bf21";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260926.63.tar";
+        sha256 = "1c8nmwqd7v3k126964vrfkingx8fsx9jdvhh4wkmklqi167gj82w";
       };
       packageRequires = [ async ];
       meta = {
@@ -3428,10 +3428,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.14.0.0.20260923.7";
+      version = "0.14.0.0.20260926.20";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.14.0.0.20260923.7.tar";
-        sha256 = "0ag8f4dr66zw3gk0fmjqc4yk15ycdfwyn0w8820k183r7wkh3sa1";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.14.0.0.20260926.20.tar";
+        sha256 = "0ambq7fsd9yl19jfsfv8nfrixy313dlinif1gwyl4yh611q06i1k";
       };
       packageRequires = [
         fsm
@@ -3790,10 +3790,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.7.1.0.20260925.17";
+      version = "4.7.1.0.20260926.20";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20260925.17.tar";
-        sha256 = "16sy1s8wx3rj5ra59hyp24b6q04ykvirdyh34z2qdbrdgzzka3sk";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20260926.20.tar";
+        sha256 = "0vb54cwpjfmydpl0j1dmphcz6swa70nlll2bx2s8gdr8kv9i4fw4";
       };
       packageRequires = [
         compat
@@ -3823,10 +3823,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.7.1.0.20260925.17";
+      version = "4.7.1.0.20260926.20";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.1.0.20260925.17.tar";
-        sha256 = "12x05ck2w33cdjhj7blgbprr8c3ch7iyydma062acrqw50m68hzs";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.1.0.20260926.20.tar";
+        sha256 = "07qrx3v50lzp5gb1ax5v2phid9mbv8ks7l8nbjwb1l8ws7qvdkb1";
       };
       packageRequires = [
         compat
@@ -4442,10 +4442,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.2.1.0.20260925.1";
+      version = "2.2.1.0.20260926.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.2.1.0.20260925.1.tar";
-        sha256 = "18x3kaa8vpcfdw887fqlcymh2bixdbbzq3bd7w5v6f6wcli3s5n1";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.2.1.0.20260926.2.tar";
+        sha256 = "0h7snxidyk17a56472y9m48pdm9z1wjnbkyiciddaf2s02hgfj3d";
       };
       packageRequires = [
         compat

@@ -1380,10 +1380,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.2.0";
+      version = "4.2.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/elfeed-4.2.0.tar";
-        sha256 = "1qk1f27cz3l2wxdpicc07f47h28dxnc0h42gpp7gv7xcwy35gmnw";
+        url = "https://elpa.nongnu.org/nongnu/elfeed-4.2.1.tar";
+        sha256 = "1aw0dvv9kfzr50yx8nlj2li60nwqgks1g5capmpzp55imbgs0yfd";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1941,10 +1941,10 @@
     elpaBuild {
       pname = "evil-visualstar";
       ename = "evil-visualstar";
-      version = "0.2.0";
+      version = "0.2.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/evil-visualstar-0.2.0.tar";
-        sha256 = "03liavxxpawvlgwdsihzz3z08yv227zjjqyll1cbmbk0678kbl7m";
+        url = "https://elpa.nongnu.org/nongnu/evil-visualstar-0.2.1.tar";
+        sha256 = "07zg2k2pzfjkzx04g4m4nbh1plr2jcizrdzlh4jxcgbzwzydfhnp";
       };
       packageRequires = [ evil ];
       meta = {
