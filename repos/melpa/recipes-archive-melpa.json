@@ -2175,15 +2175,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260926,
-    215
+    20260927,
+    1241
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "d551202139dc0ad5f671fd19ca237515eb4ae762",
-   "sha256": "0r5337rkjyml0qnd7vk1bb08p2dxwg32q3cz8xwg9y1h9a3xid0y"
+   "commit": "1dbf001f34facd741da0c4f1f5f864b7a993a9e0",
+   "sha256": "16zcqynrafjrh27gnshciblxrx28dr7yqz2p7i6kjs3sdcvm59rv"
   },
   "stable": {
    "version": [
@@ -2207,15 +2207,15 @@
   "repo": "alberti42/agent-shell-math-renderer",
   "unstable": {
    "version": [
-    20260926,
-    1553
+    20260927,
+    934
    ],
    "deps": [
     "agent-shell",
     "latex-to-svg-backend"
    ],
-   "commit": "0d989803370d5c278d57c5203aa436320992f9b6",
-   "sha256": "01nsx26z9l6hkqhrh0j8k3q1l4aaciw2256ylgsnhwjpps2nsagd"
+   "commit": "d78eff583fc54e5f7b49d2b309d1ffbc7604f5cb",
+   "sha256": "1iyv65dmd4pdnnp5p5yixsbisbslwmfxzvya7xrb3da7zinfdc8s"
   },
   "stable": {
    "version": [
@@ -7529,11 +7529,11 @@
   "repo": "tinted-theming/base16-emacs",
   "unstable": {
    "version": [
-    20260913,
-    317
+    20260927,
+    347
    ],
-   "commit": "c66ddd7415bddfecfc4e1095b50cde5391270375",
-   "sha256": "18gzp1ym1gsl2a6pl45y33rkfr79l63q69p1a6mf9ahmh2gzadwj"
+   "commit": "81f77672e7b07fefa7aca90d334c31abd0cf0ff1",
+   "sha256": "03jj16cghl6ga0jjp6qvss1hm9nvvq09hsjk0izg860vig4hk43a"
   },
   "stable": {
    "version": [
@@ -28651,8 +28651,8 @@
   "repo": "Silex/docker.el",
   "unstable": {
    "version": [
-    20260824,
-    1516
+    20260927,
+    555
    ],
    "deps": [
     "aio",
@@ -28661,8 +28661,8 @@
     "tablist",
     "transient"
    ],
-   "commit": "e476b1bf73e917aaae43daab763696629d864425",
-   "sha256": "14wy0pc5ixhhdswswgi9ljq13ds1ys5y19bzgzhpmhw7niizvqcw"
+   "commit": "9c197392d5ef8c68e8923ac1de01a7e5383f1f85",
+   "sha256": "06d6dv50xhx2y3c0r5vkigfyh93d7na8m4ms6vbvqynangadbl8n"
   },
   "stable": {
    "version": [
@@ -41479,13 +41479,13 @@
   "unstable": {
    "version": [
     20260926,
-    2208
+    2354
    ],
    "deps": [
     "evil"
    ],
-   "commit": "fdad5552a0060272e129e85d011968ec5b65ac52",
-   "sha256": "1d663k386583km9mibzp25zsql2wgg9kx4m34mv8vil3cjwhkxyf"
+   "commit": "1584f0c4842dbdf67fc9414a59ac0375f2a00a3c",
+   "sha256": "14xkrhcwsl95511h2234npq6zdjdr6s5bjmw727654gi7rllsw3p"
   },
   "stable": {
    "version": [
@@ -59923,14 +59923,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20260926,
-    1128
+    20260927,
+    558
    ],
    "deps": [
     "async"
    ],
-   "commit": "519e20239d3f4ac21cd9849361622d9c4c8f0e37",
-   "sha256": "0k4axzqhrkgyaqyayak55hm08k3wmwn34ydnmv67grzgv8ljmvfc"
+   "commit": "d7c91f23211a64fcff0ee5d9bb09fc1063f85a62",
+   "sha256": "1zpcm156gajrn1s4g5cl8dphs5d2lafj6lsd40w5mspwzgr3kpzr"
   },
   "stable": {
    "version": [
@@ -87839,15 +87839,28 @@
   "repo": "agzam/mw-thesaurus.el",
   "unstable": {
    "version": [
-    20230426,
-    1752
+    20260927,
+    221
    ],
    "deps": [
     "dash",
     "request"
    ],
-   "commit": "c44d793595c2d0f6789621da457da065920968ac",
-   "sha256": "02drf3xzjyq230s0w8yza7pq6nny1faj93lhznll0r3zmvmnn3h1"
+   "commit": "5c85f8069747a9cbb96b124e46547c459345a638",
+   "sha256": "1hw70ncnnw97rk9wnbkppw64s918v73j02r7aybw5vdnk7l2x001"
+  },
+  "stable": {
+   "version": [
+    1,
+    1,
+    0
+   ],
+   "deps": [
+    "dash",
+    "request"
+   ],
+   "commit": "5c85f8069747a9cbb96b124e46547c459345a638",
+   "sha256": "1hw70ncnnw97rk9wnbkppw64s918v73j02r7aybw5vdnk7l2x001"
   }
  },
  {
@@ -107166,8 +107179,8 @@
   "repo": "ananthakumaran/pimacs.el",
   "unstable": {
    "version": [
-    20260926,
-    639
+    20260927,
+    400
    ],
    "deps": [
     "compat",
@@ -107176,8 +107189,8 @@
     "timeout",
     "transient"
    ],
-   "commit": "24cf822d5fd1575b80eccd26cceec444ade29518",
-   "sha256": "155d2hbk1nc04gnxl10di6csm6ck34l1vrib14mk69gxmxyccwba"
+   "commit": "4daf8db7bc0e1a879f5d516eab649a489822eff9",
+   "sha256": "0l9qmpniayjzdyngiwzsf9fgrmmxnm5zsfbs63phvrgnlvj4m4i0"
   },
   "stable": {
    "version": [
@@ -141071,26 +141084,26 @@
   "repo": "agzam/wiktionary-bro.el",
   "unstable": {
    "version": [
-    20260824,
-    2344
+    20260927,
+    222
    ],
    "deps": [
     "request"
    ],
-   "commit": "3e76e8171e306b6b1105b1dd63cc27f673b5f204",
-   "sha256": "0b0ivhr3d85wm67y4rb3kg1wyj1gdss9b5ilaq7liqmcx96an8mq"
+   "commit": "fca1963f43f4cde895513f0c03eca2cbc8196b20",
+   "sha256": "04gy06d3is2qc1jk7k4m92k6yf9fdan518avbh52y5nnkn388fbv"
   },
   "stable": {
    "version": [
     1,
-    1,
-    2
+    2,
+    0
    ],
    "deps": [
     "request"
    ],
-   "commit": "081449dce747524fa91a657c0972f824af1f4eb4",
-   "sha256": "105m8lbb86c48gc1jqpqimx7qvz3lfil0mxwzkrw17phv6j4nv4l"
+   "commit": "fca1963f43f4cde895513f0c03eca2cbc8196b20",
+   "sha256": "04gy06d3is2qc1jk7k4m92k6yf9fdan518avbh52y5nnkn388fbv"
   }
  },
  {
