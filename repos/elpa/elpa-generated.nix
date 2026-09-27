@@ -1549,10 +1549,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.9";
+      version = "3.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-3.9.tar";
-        sha256 = "0hc9i0baz410swdxldqz05cc69y53p1304ac56sgadjppvain8nq";
+        url = "https://elpa.gnu.org/packages/consult-3.10.tar";
+        sha256 = "15mhxb7kwdbsrkxl2k1gdfzakyag8lxb5cyavj189581nyp5vak8";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5050,10 +5050,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.10";
+      version = "2.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jinx-2.10.tar";
-        sha256 = "0pxk67m4bzw18cdlw8iq6jf0zv3n876rwf6qc684a9z28g644ldv";
+        url = "https://elpa.gnu.org/packages/jinx-2.11.tar";
+        sha256 = "1rnrdjd2nwwvrmfb9d2z6f9in4fln1zba2bgm8mvd9x7lhc7b7mh";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5787,10 +5787,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.12";
+      version = "2.13";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/marginalia-2.12.tar";
-        sha256 = "0g222n9fx93d3m5q6jaiw58iw8n533wa87w4ynrvpjs923ldk1fz";
+        url = "https://elpa.gnu.org/packages/marginalia-2.13.tar";
+        sha256 = "1fpdcdv1n7slxlwivq20rnvj8a0x5sdbp7m75ac4himask8jicp1";
       };
       packageRequires = [ compat ];
       meta = {

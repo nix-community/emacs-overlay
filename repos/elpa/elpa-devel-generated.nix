@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.9.0.20260923.3";
+      version = "3.10.0.20260926.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.9.0.20260923.3.tar";
-        sha256 = "0vnm5f4kf2pdakvgr1sh8p3b0z9qbnbplppmq1gpvbm3vi9ksx23";
+        url = "https://elpa.gnu.org/devel/consult-3.10.0.20260926.0.tar";
+        sha256 = "0b824svqyhlv2zp6x28449mjkqq3mnf3mgwqn3249sq8niwcm24c";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5136,10 +5136,10 @@
     elpaBuild {
       pname = "jinx";
       ename = "jinx";
-      version = "2.10.0.20260916.5";
+      version = "2.11.0.20260926.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jinx-2.10.0.20260916.5.tar";
-        sha256 = "1vqcbgci8bfa0rxj9d9wvdgvmpxj3bnfji5sfm9a11v1rnh8asxa";
+        url = "https://elpa.gnu.org/devel/jinx-2.11.0.20260926.0.tar";
+        sha256 = "1xw84jh51z9y6aw28y9w2fvdrw9dq3373fq4n2jhzn5lynb0awd9";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5875,10 +5875,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.12.0.20260907.2";
+      version = "2.13.0.20260926.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.12.0.20260907.2.tar";
-        sha256 = "1qrv729saqg7yj4s3w0aaxa49phmmaz937f1c288lij0j8gydpxc";
+        url = "https://elpa.gnu.org/devel/marginalia-2.13.0.20260926.0.tar";
+        sha256 = "10xcn9krwzrrh63g3gf9k42lnkn318h4kb7sp57las64xa5cavn6";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10083,10 +10083,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.8.0.20260925.9";
+      version = "0.13.8.0.20260926.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20260925.9.tar";
-        sha256 = "0jwnqawvssrpd5l5068718q9rcjnjxvhmj3f6njyzkx8jsmqkd0c";
+        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20260926.10.tar";
+        sha256 = "1d78ijs1as8smckxa1bzivf709l1s84aylrj7icwsc02bm9w3kxx";
       };
       packageRequires = [
         compat
