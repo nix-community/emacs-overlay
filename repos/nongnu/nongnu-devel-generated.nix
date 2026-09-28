@@ -1923,10 +1923,10 @@
     elpaBuild {
       pname = "evil-visualstar";
       ename = "evil-visualstar";
-      version = "0.2.1.0.20260926.0";
+      version = "0.2.2.0.20260927.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-visualstar-0.2.1.0.20260926.0.tar";
-        sha256 = "0258r5d4b2ph47r4izjdlpc5rfcv28ssl4az3z42wzb33mlp8ra2";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-visualstar-0.2.2.0.20260927.3.tar";
+        sha256 = "19xg1yzlyqhh8vs40gayspcw0dyyxc22ljwqap50m89g3idmhhqs";
       };
       packageRequires = [ evil ];
       meta = {
