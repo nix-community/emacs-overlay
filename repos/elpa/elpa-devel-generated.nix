@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20260924.2";
+      version = "14.2.0.0.20260927.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20260924.2.tar";
-        sha256 = "04814mg73x6lg191ww9ssk8hlpnmcnbzr8rwz0wa8rbxwggqrz8y";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20260927.5.tar";
+        sha256 = "0r694d4yxji47mnzha6aprq8yxj4cn7mba5lf7vrpc1m335ra9av";
       };
       packageRequires = [ ];
       meta = {
@@ -3290,10 +3290,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260922.48";
+      version = "0.0.20260927.49";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260922.48.tar";
-        sha256 = "0cfkmi1b53q5gbablx38ddlpiyazbnc4l10if5wxagyc2f8dg4qz";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260927.49.tar";
+        sha256 = "1916snganh6r85j5yafcwgy14zz49p68g0hwnhvkwkf09hgqijrv";
       };
       packageRequires = [ ];
       meta = {
