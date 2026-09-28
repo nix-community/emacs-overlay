@@ -1106,10 +1106,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.9.0.20260905.2";
+      version = "2.10.0.20260927.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cape-2.9.0.20260905.2.tar";
-        sha256 = "084ydlrcd5gqpkv7bbjbmwsvbia6i64x017a8mdp8gyv2n490pri";
+        url = "https://elpa.gnu.org/devel/cape-2.10.0.20260927.0.tar";
+        sha256 = "15w3xv735pb8274xhc2xgy5iq2cww33z7nrg7dcv4a7pm9gnpdlq";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5635,10 +5635,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.32.1.0.20260923.3";
+      version = "0.32.2.0.20260927.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.32.1.0.20260923.3.tar";
-        sha256 = "17sa0c09y1pdk9jyggfyfv34v34a3s87ka7lplkxv8ld0cv8lhdr";
+        url = "https://elpa.gnu.org/devel/llm-0.32.2.0.20260927.0.tar";
+        sha256 = "15sfr7ripcagmlb8vzvx6pbf1x3dwwsck7z5zai3khj6pk89ipm0";
       };
       packageRequires = [
         compat
@@ -6801,10 +6801,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.7.0.20260909.7";
+      version = "1.8.0.20260927.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.7.0.20260909.7.tar";
-        sha256 = "15bmkp75nxdcd2qbji25lad1h2ljqzzp67wadw4788c4qwcxh4s3";
+        url = "https://elpa.gnu.org/devel/orderless-1.8.0.20260927.0.tar";
+        sha256 = "1gx94iax3x7ngppqp4c52bkf99fd5mv7yl847785s50jkl4dws17";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7922,10 +7922,10 @@
     elpaBuild {
       pname = "python";
       ename = "python";
-      version = "0.30.0.20260923.54";
+      version = "0.30.0.20260928.55";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/python-0.30.0.20260923.54.tar";
-        sha256 = "1bw854df4axb173i0241j1xw5zjilrvy7gwj6vhp9764v43anir9";
+        url = "https://elpa.gnu.org/devel/python-0.30.0.20260928.55.tar";
+        sha256 = "1d3g8ml6gkbrigif15lbdaxkrlgrl4fd6hk8wfjcylb0jfh9h244";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7943,10 +7943,10 @@
     elpaBuild {
       pname = "qrencode";
       ename = "qrencode";
-      version = "1.6beta1.0.20260926.5";
+      version = "1.6beta2.0.20260927.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/qrencode-1.6beta1.0.20260926.5.tar";
-        sha256 = "16mndg73hw210f41jkjlv89jwc2x8idkwrr59fqcd43fq3jk7mmi";
+        url = "https://elpa.gnu.org/devel/qrencode-1.6beta2.0.20260927.1.tar";
+        sha256 = "1v9rzbjl5hsiwpkcbwyv2w8iamzsbnd3jnz7irhxqjhx2z5zxy4p";
       };
       packageRequires = [ ];
       meta = {
@@ -10684,10 +10684,10 @@
     elpaBuild {
       pname = "verilog-mode";
       ename = "verilog-mode";
-      version = "2026.4.14.10117132.0.20260816.1";
+      version = "2026.8.31.185049335.0.20260927.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/verilog-mode-2026.4.14.10117132.0.20260816.1.tar";
-        sha256 = "0hh06k0aa9f47y4ril1c6yifwilqzi74pfw9hnkmqiyzwj3r7sx7";
+        url = "https://elpa.gnu.org/devel/verilog-mode-2026.8.31.185049335.0.20260927.0.tar";
+        sha256 = "0bpb4i3ay6va4fazly09g7z72agb7dfz24130cya8yyl2m30z1hp";
       };
       packageRequires = [ ];
       meta = {

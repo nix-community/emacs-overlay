@@ -1085,10 +1085,10 @@
     elpaBuild {
       pname = "cape";
       ename = "cape";
-      version = "2.9";
+      version = "2.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/cape-2.9.tar";
-        sha256 = "0faqmh9lx8ybsnm77a9allgp4jgr8c90123sgg61k16yn5sa9a75";
+        url = "https://elpa.gnu.org/packages/cape-2.10.tar";
+        sha256 = "0qc59129dzmkk64rgx6ycpxv0vazpsxzmwjn82gswwdicz08gz22";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5549,10 +5549,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.32.1";
+      version = "0.32.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/llm-0.32.1.tar";
-        sha256 = "1hk4bhghdvwfnifz5df09kkq8ar9jn5r2jbim8pa1y500wmqgfz7";
+        url = "https://elpa.gnu.org/packages/llm-0.32.2.tar";
+        sha256 = "0306cnd6s4hl1vzjy2rhf66l0ysdhalyhd7fardshp537b3fndqc";
       };
       packageRequires = [
         compat
@@ -6710,10 +6710,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.7";
+      version = "1.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/orderless-1.7.tar";
-        sha256 = "0g1klijlvv44fd7xjvlh6v97zjvca37710bxlgk629v6k4kl2rbz";
+        url = "https://elpa.gnu.org/packages/orderless-1.8.tar";
+        sha256 = "1ak9iq41afzdmjfbni416p6z5vyh2s3h4c8amn2dkqdjp99i4jwv";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10465,10 +10465,10 @@
     elpaBuild {
       pname = "verilog-mode";
       ename = "verilog-mode";
-      version = "2026.4.14.10117132";
+      version = "2026.8.31.185049335";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/verilog-mode-2026.4.14.10117132.tar";
-        sha256 = "0n699kpqhh1b023wswm938f7kxc983faw0bv4x70kq12y7h3slj1";
+        url = "https://elpa.gnu.org/packages/verilog-mode-2026.8.31.185049335.tar";
+        sha256 = "0mybkqla4jv6ja31ymdwb31sy2c1wrdgyxmpd6v53k6iy9jvzx12";
       };
       packageRequires = [ ];
       meta = {
