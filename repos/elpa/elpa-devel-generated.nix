@@ -3221,10 +3221,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.32.2.0.20260928.3";
+      version = "1.32.3.0.20260929.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.32.2.0.20260928.3.tar";
-        sha256 = "16fc1mgxh10bzkaafjgy9hr64z881mwskp6qfa7p95bfjl00nhvl";
+        url = "https://elpa.gnu.org/devel/ellama-1.32.3.0.20260929.1.tar";
+        sha256 = "1k7wcs9fhcvlrv3yy6l4dxm8qz3cy8qwyfs5wkvknwpxfmki33i3";
       };
       packageRequires = [
         compat
@@ -5556,10 +5556,10 @@
     elpaBuild {
       pname = "lisp-ts-mode";
       ename = "lisp-ts-mode";
-      version = "0.3.4.0.20260921.3";
+      version = "0.3.4.0.20260928.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.3.4.0.20260921.3.tar";
-        sha256 = "1k4drjgqndpy03ahcjj69ifpms2rfj3szhdfyc39dpdwb99hsrwz";
+        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.3.4.0.20260928.8.tar";
+        sha256 = "0akj2h8479lnpzzvxm23vk9ibcrixfh8k6823dfl1g45nyd6rdyj";
       };
       packageRequires = [
         compat
@@ -5635,10 +5635,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.32.2.0.20260927.0";
+      version = "0.32.2.0.20260929.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.32.2.0.20260927.0.tar";
-        sha256 = "15sfr7ripcagmlb8vzvx6pbf1x3dwwsck7z5zai3khj6pk89ipm0";
+        url = "https://elpa.gnu.org/devel/llm-0.32.2.0.20260929.1.tar";
+        sha256 = "1i3hw830ih9z7x4nwralfy4zsi6sybq6vrxmkidvc7c5kgw8nvfd";
       };
       packageRequires = [
         compat
@@ -9973,10 +9973,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.2.2.0.20260928.1";
+      version = "2.8.2.3.0.20260929.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/tramp-2.8.2.2.0.20260928.1.tar";
-        sha256 = "1cachigx1fm86p8fgmi3irrnsz80sjppcynrm8vxpbk8wcrsmvy3";
+        url = "https://elpa.gnu.org/devel/tramp-2.8.2.3.0.20260929.0.tar";
+        sha256 = "04jdd5avhf7ziffa0f14xpg4k9w49813j2hywq2f1lh2srb8ycm0";
       };
       packageRequires = [ ];
       meta = {
