@@ -100,10 +100,10 @@
     elpaBuild {
       pname = "alect-themes";
       ename = "alect-themes";
-      version = "0.11.0.20251205.150325";
+      version = "0.11.0.20260928.15";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/alect-themes-0.11.0.20251205.150325.tar";
-        sha256 = "1wxs6spxm4ic21is3mg7s0kda8fac0whkizlsa1634arrb6dpr8z";
+        url = "https://elpa.nongnu.org/nongnu-devel/alect-themes-0.11.0.20260928.15.tar";
+        sha256 = "1qiqx4l5ig4z4xmw0b7207gl2qvzzj94r163lbh5ix6fas7hphgf";
       };
       packageRequires = [ ];
       meta = {
@@ -1609,10 +1609,10 @@
     elpaBuild {
       pname = "evil-collection";
       ename = "evil-collection";
-      version = "3.0.3.0.20260920.3";
+      version = "3.0.3.0.20260927.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.3.0.20260920.3.tar";
-        sha256 = "0nr3qskb4kdzn8mgphqa3y5bmpdi1q2mhsmfm3q55cr2077c677l";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.3.0.20260927.4.tar";
+        sha256 = "190l60wrbg5djsrfar206ppxhny70d8fd21fbksqji8h64x3rd67";
       };
       packageRequires = [ evil ];
       meta = {
@@ -3663,10 +3663,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.16.1.0.20260920.14";
+      version = "0.16.1.0.20260927.15";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20260920.14.tar";
-        sha256 = "03d5cz73mr4ahh8y0jvx948yjdyq9x0dj62kh3vgzhwk13xa3xq0";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20260927.15.tar";
+        sha256 = "1cwlgfzkal5iiqbvf59ffifs5zmmv10hpdl6r03win09flbaaska";
       };
       packageRequires = [
         compat
