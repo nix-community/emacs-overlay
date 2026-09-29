@@ -1852,11 +1852,11 @@
   "repo": "K6SM/adif-mode",
   "unstable": {
    "version": [
-    20260920,
-    2342
+    20260928,
+    1624
    ],
-   "commit": "e692c3e423e1af6c00a1b88f039450d468baea6d",
-   "sha256": "0d9a6qfck5dasf5h0kl4qvlzpsbmjhln948sl33vbfmpdrarxkg4"
+   "commit": "f886a36589d49bb843e2531170a8363af915b7f9",
+   "sha256": "1yk0pm3q0fnqddhmmx3m29w1cmbnx069n8axfl3pnib1cbggbid6"
   }
  },
  {
@@ -2423,15 +2423,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260926,
-    545
+    20260928,
+    1608
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "024722baaf7249b666cf255ed11b2cf4f4235a04",
-   "sha256": "188p6w5g6q93icgq7cj4spc98sf96268m301f85fvyriz63kfl7p"
+   "commit": "46e849c99d3c21e154fd9157515311926abc64e8",
+   "sha256": "00b02vj4pncmqcsj2mdnhh74br75p3i4izrgz3c23a6vljkzb7xc"
   },
   "stable": {
    "version": [
@@ -29168,16 +29168,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20260926,
-    1647
+    20260928,
+    1632
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "1a30a313f8236be51184e6993cf5ea418d537349",
-   "sha256": "16p9jjnl4991zwvw8zv7zb5dlb0r36dxp8dwqz1iydl7szlf3fs9"
+   "commit": "802bb927e1b05b657e6ddceb6d9867dc9b421bc9",
+   "sha256": "0mafmjc16shg8zjbnx794rnd713kqd0gsm26rq21zyl9mf8ivv9l"
   },
   "stable": {
    "version": [
@@ -31274,8 +31274,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260924,
-    1516
+    20260928,
+    1827
    ],
    "deps": [
     "compat",
@@ -31284,8 +31284,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "4647946db593a0a1e45f77b1a996d4843f6e24a9",
-   "sha256": "1qz70rl5v79y447wrzlp1m39pca75ksbg89a2ahvd19d6iyzahnq"
+   "commit": "d4356ae7d20b8f0630ffafec7500aabeda59bbad",
+   "sha256": "0yynlrqkj8b580sj3s6kz8gj53pqyyxa8p4nk23j0jn11cidfacq"
   },
   "stable": {
    "version": [
@@ -32558,16 +32558,16 @@
   "repo": "ahyatt/ekg",
   "unstable": {
    "version": [
-    20260803,
-    155
+    20260928,
+    2154
    ],
    "deps": [
     "llm",
     "triples",
     "vui"
    ],
-   "commit": "1cf54ac295fcf7bb74c93398ebbe4e1c5174a028",
-   "sha256": "0ppp10rhhd91zgf3h4brkbr628cswvpqzciarq2pvy73iizscb82"
+   "commit": "184b0e9d7648be8427dde1e17490f6c72eee6cc2",
+   "sha256": "0y1ads3w228mqmyy4przdhb196ca34vijpa20nv3q75mhlz6qgnx"
   },
   "stable": {
    "version": [
@@ -34650,8 +34650,8 @@
   "repo": "s-kostyaev/ellama",
   "unstable": {
    "version": [
-    20260920,
-    1841
+    20260928,
+    1522
    ],
    "deps": [
     "compat",
@@ -34660,8 +34660,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "b98cb4a904b70def4f21050d5d202005ee00b3b4",
-   "sha256": "1sl824krdj6gvsfh4azr6x6fnkqhmll6gy8xh4m2blnlgdypmy30"
+   "commit": "72f91cf436a025fec5c5fbd0bb47df0556468bf7",
+   "sha256": "06cmi6yxp96gf03k3s433ih9r4jg80d5h7gmf4ll9my2kfhddhxr"
   },
   "stable": {
    "version": [
@@ -113557,11 +113557,14 @@
   "repo": "K6SM/Emacs-QSO-Logger",
   "unstable": {
    "version": [
-    20260906,
-    2119
+    20260928,
+    2219
    ],
-   "commit": "a8945aa7855d913215c406fca4c604f4662df2b3",
-   "sha256": "1wwlp7d8h8bzy7rg984mgjfs9wyaflysb7l652f1dc4fw9mpgs1a"
+   "deps": [
+    "adif"
+   ],
+   "commit": "1cfa9190df5c52cf6b1f8253e1cb4916663e80af",
+   "sha256": "1kh5fylhinxbw40wj9vzbv32jf8yyfxkgjj0n5p5bnpkm11qgn0b"
   }
  },
  {
@@ -131792,21 +131795,21 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20260921,
-    1352
+    20260928,
+    608
    ],
-   "commit": "de5b6be5213fa8ea83808f69ccd42faf98105516",
-   "sha256": "05nc36zdyy06zdkiclxlj4fr8rqmz8gcaxjf3l7wn9gzgpkkfibm"
+   "commit": "a32e117aa420392a893249d0732055e4f8e3a917",
+   "sha256": "1fzvqfsflbk8sgpffdjz3jlrhx4wzvglcj2aclwhxb33imp3klab"
   },
   "stable": {
    "version": [
     2026,
     9,
-    21,
+    28,
     0
    ],
-   "commit": "de5b6be5213fa8ea83808f69ccd42faf98105516",
-   "sha256": "05nc36zdyy06zdkiclxlj4fr8rqmz8gcaxjf3l7wn9gzgpkkfibm"
+   "commit": "a32e117aa420392a893249d0732055e4f8e3a917",
+   "sha256": "1fzvqfsflbk8sgpffdjz3jlrhx4wzvglcj2aclwhxb33imp3klab"
   }
  },
  {
