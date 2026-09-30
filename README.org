@@ -115,6 +115,14 @@ required in a user's config via =use-package= or =leaf=.
         # `use-package-always-ensure` to `t` in your config.
         alwaysEnsure = true;
 
+        # By default emacsWithPackagesFromUsePackage will prefer to pull in
+        # packages from MELPA.
+        # Setting `alwaysPin` to `gnu` emulates `use-package-always-pin`
+        # and pulls in all use-package references from GNU Elpa.
+        # Note that this is NOT recommended unless you've actually set
+        # `use-package-always-pin` to "gnu" in your config.
+        alwaysPin = "gnu";
+
         # For Org mode babel files, by default only code blocks with
         # `:tangle yes` are considered. Setting `alwaysTangle` to `true`
         # will include all code blocks missing the `:tangle` argument,
