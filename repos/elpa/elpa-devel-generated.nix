@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20260925.29";
+      version = "4.2.3.0.20260929.30";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20260925.29.tar";
-        sha256 = "1m1al51r8dy5i9fz7b9s5kvbb3zcbsswy0s6q9zpx8fg6id68apa";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20260929.30.tar";
+        sha256 = "0k4jbzip3xgs3bx0b833ncnxwgybnjrswqad6pv3wjirvvixp1zk";
       };
       packageRequires = [ ];
       meta = {
@@ -10684,10 +10684,10 @@
     elpaBuild {
       pname = "verilog-mode";
       ename = "verilog-mode";
-      version = "2026.8.31.185049335.0.20260927.0";
+      version = "2026.8.31.185049335.0.20260929.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/verilog-mode-2026.8.31.185049335.0.20260927.0.tar";
-        sha256 = "0bpb4i3ay6va4fazly09g7z72agb7dfz24130cya8yyl2m30z1hp";
+        url = "https://elpa.gnu.org/devel/verilog-mode-2026.8.31.185049335.0.20260929.1.tar";
+        sha256 = "1ys3y8l9vcmp90kim60zlgxlbvir2hz9yf92qj8afwqi9nx969b3";
       };
       packageRequires = [ ];
       meta = {
@@ -11293,10 +11293,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20260922.50";
+      version = "1.7.0.0.20260929.51";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260922.50.tar";
-        sha256 = "0fhsbmx1danhff1hrlh150viiwbrkiv779lbfdq0ic2my5kzrdlv";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260929.51.tar";
+        sha256 = "02c091v133c0yzvs53356rzrksmdidkbhhs2s8wh1rb9yn25lwl4";
       };
       packageRequires = [ ];
       meta = {
