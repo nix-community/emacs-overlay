@@ -1356,10 +1356,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.2.1.0.20260926.0";
+      version = "4.2.1.0.20260929.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.2.1.0.20260926.0.tar";
-        sha256 = "021m79aabjnrfi7j9wk68ddxifn09r4wqnpz5rnksc5svc32hk56";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-4.2.1.0.20260929.1.tar";
+        sha256 = "1sh7jvqialvqsil14dwnww2rlbi9113klqpsr1zh1mygb7ji59fl";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2985,10 +2985,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260929.65";
+      version = "4.0.7.0.20260929.67";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260929.65.tar";
-        sha256 = "0dgb4dz1hn7pirh4wpv4hcxv1rp6awzzjh9h0sbczdp0gm1f1di5";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260929.67.tar";
+        sha256 = "0hpzzlqix8k3civfc4kiigx105z9mzzknq12f05g1d7hl4a0ssm6";
       };
       packageRequires = [
         helm-core
@@ -3010,10 +3010,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260929.65";
+      version = "4.0.7.0.20260929.67";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260929.65.tar";
-        sha256 = "09kirpw5xci7cpnwmq5h8ac7wvw22bb693k1g56k3mz3pbv3x5ys";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260929.67.tar";
+        sha256 = "01qxz7v84wsvb3ykjsxxl538whipf03s4hia5k5jmd2d9g2g1f2f";
       };
       packageRequires = [ async ];
       meta = {
@@ -4325,10 +4325,10 @@
     elpaBuild {
       pname = "org-mime";
       ename = "org-mime";
-      version = "0.3.4.0.20251201.24527";
+      version = "0.3.5.0.20260929.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.4.0.20251201.24527.tar";
-        sha256 = "01lqq0rczcf721d0ndf5mqmbj24gz24j5ah6nam7xwhdwmcp1dc0";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.5.0.20260929.0.tar";
+        sha256 = "1jsrl38kxbnwchfps1q2ki4kxd3yv6pn9spbywxpxkrd2ndfc9cb";
       };
       packageRequires = [ ];
       meta = {
@@ -4840,10 +4840,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.5.0snapshot0.20260916.60";
+      version = "3.5.0snapshot0.20260929.64";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260916.60.tar";
-        sha256 = "1v7h6jf05winshsz2zymyzj7j8208lvps1ash37n3x73nwln35ak";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260929.64.tar";
+        sha256 = "0vp79yzjx6vhfrcdpz1y1sylrkvvhf0fhw544hd3zyvx1iqps6f9";
       };
       packageRequires = [ compat ];
       meta = {
