@@ -2191,27 +2191,27 @@
   "unstable": {
    "version": [
     20260930,
-    710
+    1306
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "969619422b45107eddb12c6d5e951909a0330627",
-   "sha256": "1zhx8mf9vwvd3ha7mkd3n3jgbkz18qjnkvpjn7wiblwcxij70ipg"
+   "commit": "1b931b49172180aef95551641a84db88f8daef5a",
+   "sha256": "0i09dwzb0sxydkqfg115qz41p1jr2qgshm9j0imqs472qivmfbix"
   },
   "stable": {
    "version": [
     0,
     83,
-    2
+    3
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "969619422b45107eddb12c6d5e951909a0330627",
-   "sha256": "1zhx8mf9vwvd3ha7mkd3n3jgbkz18qjnkvpjn7wiblwcxij70ipg"
+   "commit": "1b931b49172180aef95551641a84db88f8daef5a",
+   "sha256": "0i09dwzb0sxydkqfg115qz41p1jr2qgshm9j0imqs472qivmfbix"
   }
  },
  {
@@ -2423,15 +2423,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260929,
-    1451
+    20260930,
+    1449
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "d2dbe345b93b4d45bfed9ccb9055a693fa895d9f",
-   "sha256": "0lgvz9qj8bniriarr69h9mrngbj3zsa24ckqi0744failfn0hpp5"
+   "commit": "254916b1868d0a4d6822e9934edcf7dada842ea2",
+   "sha256": "11wkiwq91b0cnyms8mcj1lch8jhz9myxaizj2xsmfhjjzrwdlxxd"
   },
   "stable": {
    "version": [
@@ -2565,19 +2565,19 @@
   "repo": "skeeto/emacs-aio",
   "unstable": {
    "version": [
-    20260927,
-    1333
+    20260930,
+    1106
    ],
-   "commit": "d76914b08339e24b3ad7d24ced17e22d13492a37",
-   "sha256": "072ql6dnlcijb5hsxnpcqdff13w842nqwia1r9klrl0lmpg6q9az"
+   "commit": "a20c99aafef021b77b0a00735659142d4cf49682",
+   "sha256": "19k6yamz4nz6dvlcjj2dl1z2zvgszcvgwzsvwiya2hmi4hdifi39"
   },
   "stable": {
    "version": [
     1,
-    1
+    2
    ],
-   "commit": "e0105f8ec8c47c12c0958442d0eaef72c94e8747",
-   "sha256": "15pyqf0k3k1z2p97zz86xqbjd28i3qmrb6ypdvflfs5zrmxs16hb"
+   "commit": "a20c99aafef021b77b0a00735659142d4cf49682",
+   "sha256": "19k6yamz4nz6dvlcjj2dl1z2zvgszcvgwzsvwiya2hmi4hdifi39"
   }
  },
  {
@@ -22649,11 +22649,11 @@
   "repo": "bbatsov/crux",
   "unstable": {
    "version": [
-    20260315,
-    622
+    20260930,
+    1257
    ],
-   "commit": "69e03917f6fd35e25b9a9dfd02df8ff3643f9227",
-   "sha256": "10gh19372vzcr45pw4hr4g0zmw2pygzhpl640rsw9dminsn8bvkl"
+   "commit": "e09244a61e6637ff698bb51a371aa25fa37482a9",
+   "sha256": "1gpfqgr6md9m5d9n24nr9zk546njl0f0ybf5m8vamdy9gcpwx31s"
   },
   "stable": {
    "version": [
@@ -39951,14 +39951,14 @@
   "unstable": {
    "version": [
     20260930,
-    742
+    1214
    ],
    "deps": [
     "evil",
     "ghostel"
    ],
-   "commit": "f1860ff4c0db2f63f5aa7b7d55d0eeec98c49453",
-   "sha256": "1rw654p4fpnlnvdv0f74lq2z0sj4pck2r2kvka3qhvk38ncgyaxk"
+   "commit": "8cc917321a8ba5d704c72e3dd6d9d186ece7a692",
+   "sha256": "1r4mgffrpay0fy4bhmhhyf4xjc10l5q13vhgyp0p8icmswc09lql"
   },
   "stable": {
    "version": [
@@ -52571,13 +52571,13 @@
   "unstable": {
    "version": [
     20260930,
-    742
+    1214
    ],
    "deps": [
     "compat"
    ],
-   "commit": "f1860ff4c0db2f63f5aa7b7d55d0eeec98c49453",
-   "sha256": "1rw654p4fpnlnvdv0f74lq2z0sj4pck2r2kvka3qhvk38ncgyaxk"
+   "commit": "8cc917321a8ba5d704c72e3dd6d9d186ece7a692",
+   "sha256": "1r4mgffrpay0fy4bhmhhyf4xjc10l5q13vhgyp0p8icmswc09lql"
   },
   "stable": {
    "version": [
@@ -80399,20 +80399,20 @@
   "repo": "ma0001/mac-ime",
   "unstable": {
    "version": [
-    20260605,
-    1210
+    20260930,
+    1247
    ],
-   "commit": "0a8f40c6ad8d02f9b99e3eaa5a68e625b87e7f30",
-   "sha256": "0db1sg51z7n7skigsz329fzrb5q2jh4lgslb98b5kk9y8p0lkirs"
+   "commit": "d86c2afb44821f8320e761280554b91539077d2c",
+   "sha256": "009w1fnpds1kjdzhmsw7ycny1h2pa84dh3jrw2b8hvrq7apzyyd1"
   },
   "stable": {
    "version": [
     0,
     2,
-    2
+    3
    ],
-   "commit": "0a8f40c6ad8d02f9b99e3eaa5a68e625b87e7f30",
-   "sha256": "0db1sg51z7n7skigsz329fzrb5q2jh4lgslb98b5kk9y8p0lkirs"
+   "commit": "d86c2afb44821f8320e761280554b91539077d2c",
+   "sha256": "009w1fnpds1kjdzhmsw7ycny1h2pa84dh3jrw2b8hvrq7apzyyd1"
   }
  },
  {
@@ -82840,30 +82840,38 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20260913,
-    1502
+    20260930,
+    1449
    ],
    "deps": [
     "compat",
     "persist",
     "tp"
    ],
-   "commit": "156a4e2c76a2cd2c69c4e4fe35800a08afb17bfe",
-   "sha256": "0lahl7x7nlvqwa5pjcrsh140wlnq3vb2v717m02sfifhg90mdimi"
+   "commit": "fdc3890adf8a9eade52ba2f53c23f1dc48f21464",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "warning: unable to download 'https://codeberg.org/martianh/mastodon.el/archive/fdc3890adf8a9eade52ba2f53c23f1dc48f21464.tar.gz': HTTP error 503\n\nresponse body:\n\n<html><body><h1>503 Service Unavailable</h1>\nNo server is available to handle this request.\n</body></html>; retrying in 4950 ms (attempt 1/5)\nwarning: unable to download 'https://codeberg.org/martianh/mastodon.el/archive/fdc3890adf8a9eade52ba2f53c23f1dc48f21464.tar.gz': HTTP error 503\n\nresponse body:\n\n<html><body><h1>503 Service Unavailable</h1>\nNo server is available to handle this request.\n</body></html>; retrying in 4280 ms (attempt 2/5)\nwarning: unable to download 'https://codeberg.org/martianh/mastodon.el/archive/fdc3890adf8a9eade52ba2f53c23f1dc48f21464.tar.gz': HTTP error 503\n\nresponse body:\n\n<html><body><h1>503 Service Unavailable</h1>\nNo server is available to handle this request.\n</body></html>; retrying in 17553 ms (attempt 3/5)\nwarning: unable to download 'https://codeberg.org/martianh/mastodon.el/archive/fdc3890adf8a9eade52ba2f53c23f1dc48f21464.tar.gz': HTTP error 503\n\nresponse body:\n\n<html><body><h1>503 Service Unavailable</h1>\nNo server is available to handle this request.\n</body></html>; retrying in 36140 ms (attempt 4/5)\nerror: unable to download 'https://codeberg.org/martianh/mastodon.el/archive/fdc3890adf8a9eade52ba2f53c23f1dc48f21464.tar.gz': HTTP error 503\n\n       response body:\n\n       <html><body><h1>503 Service Unavailable</h1>\n       No server is available to handle this request.\n       </body></html>\n"
+   ]
   },
   "stable": {
    "version": [
     2,
     1,
-    5
+    6
    ],
    "deps": [
     "compat",
     "persist",
     "tp"
    ],
-   "commit": "156a4e2c76a2cd2c69c4e4fe35800a08afb17bfe",
-   "sha256": "0lahl7x7nlvqwa5pjcrsh140wlnq3vb2v717m02sfifhg90mdimi"
+   "commit": "fdc3890adf8a9eade52ba2f53c23f1dc48f21464",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "warning: unable to download 'https://codeberg.org/martianh/mastodon.el/archive/fdc3890adf8a9eade52ba2f53c23f1dc48f21464.tar.gz': HTTP error 503\n\nresponse body:\n\n<html><body><h1>503 Service Unavailable</h1>\nNo server is available to handle this request.\n</body></html>; retrying in 4950 ms (attempt 1/5)\nwarning: unable to download 'https://codeberg.org/martianh/mastodon.el/archive/fdc3890adf8a9eade52ba2f53c23f1dc48f21464.tar.gz': HTTP error 503\n\nresponse body:\n\n<html><body><h1>503 Service Unavailable</h1>\nNo server is available to handle this request.\n</body></html>; retrying in 4280 ms (attempt 2/5)\nwarning: unable to download 'https://codeberg.org/martianh/mastodon.el/archive/fdc3890adf8a9eade52ba2f53c23f1dc48f21464.tar.gz': HTTP error 503\n\nresponse body:\n\n<html><body><h1>503 Service Unavailable</h1>\nNo server is available to handle this request.\n</body></html>; retrying in 17553 ms (attempt 3/5)\nwarning: unable to download 'https://codeberg.org/martianh/mastodon.el/archive/fdc3890adf8a9eade52ba2f53c23f1dc48f21464.tar.gz': HTTP error 503\n\nresponse body:\n\n<html><body><h1>503 Service Unavailable</h1>\nNo server is available to handle this request.\n</body></html>; retrying in 36140 ms (attempt 4/5)\nerror: unable to download 'https://codeberg.org/martianh/mastodon.el/archive/fdc3890adf8a9eade52ba2f53c23f1dc48f21464.tar.gz': HTTP error 503\n\n       response body:\n\n       <html><body><h1>503 Service Unavailable</h1>\n       No server is available to handle this request.\n       </body></html>\n"
+   ]
   }
  },
  {
@@ -121384,10 +121392,10 @@
    "version": [
     0,
     97,
-    4
+    5
    ],
-   "commit": "a76d4d6b620927ff5e635449466015340bc2fe44",
-   "sha256": "1d4kg4rbizrn36xc4k5hzqi4cvc8p19sl4h1p40mqjnvz3wjib2v"
+   "commit": "2fa9c3f72339fd7bc755bc166428b139720e5d0d",
+   "sha256": "0ddvzlmg3nqgh7szm0g9dd38sg8bgi98jain6gszxsg8crvxdrph"
   }
  },
  {
