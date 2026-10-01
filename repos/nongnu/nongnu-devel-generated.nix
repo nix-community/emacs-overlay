@@ -813,10 +813,10 @@
     elpaBuild {
       pname = "crux";
       ename = "crux";
-      version = "0.6.0snapshot0.20260930.37";
+      version = "0.6.0snapshot0.20261001.44";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20260930.37.tar";
-        sha256 = "1abjj5fmmgiy1bxbv597z5w5m5rcf0gaap6vh1pf617czx9lgad3";
+        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20261001.44.tar";
+        sha256 = "09mkvcy9r5r0qg4sya6kwb1qnqryjqbw0169pl0gd4prm5yc8sbc";
       };
       packageRequires = [ ];
       meta = {
@@ -3790,10 +3790,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.7.1.0.20260927.21";
+      version = "4.7.1.0.20260930.22";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20260927.21.tar";
-        sha256 = "1ngq4nk8xxdhjnspgdgyk7bc9arlirsdbz9fv5vzzigyd85sa1ci";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20260930.22.tar";
+        sha256 = "06009yfikbyaabdx98vbyyl3di15dvsnk0pch7d7qb1qx2hvkdbz";
       };
       packageRequires = [
         compat
@@ -3823,10 +3823,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.7.1.0.20260927.21";
+      version = "4.7.1.0.20260930.22";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.1.0.20260927.21.tar";
-        sha256 = "1hwv3bb7x6z7xdlicx8wmmwhmmwmsqqpi3ib5la0givcl3qg7bc9";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.1.0.20260930.22.tar";
+        sha256 = "1s2h65dx3vlrbgrpxqhbp32vasvis3a7bv0blvdk27lcj8zh5vh9";
       };
       packageRequires = [
         compat
@@ -3873,10 +3873,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.1.5.0.20260913.78";
+      version = "2.1.6.0.20260930.80";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.5.0.20260913.78.tar";
-        sha256 = "0g2pyamm1644h9kwzz6r5idl9zabvjn7l5qarrbds5203xmv7jkc";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.6.0.20260930.80.tar";
+        sha256 = "045y1bkxwp92i0jk3pgxrxpykq0f29ddl7ia8dqmkn9zrndkqg1d";
       };
       packageRequires = [
         compat
@@ -4905,10 +4905,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20260908.0";
+      version = "1.0.20260926.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260908.0.tar";
-        sha256 = "1im64sfy1bmbsbdhnj3ss5sm3caqy53c2g1m494zxxyxj2pz68af";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260926.0.tar";
+        sha256 = "138b2656wfwmn3fqnhrzvwn72wmri0pm5qjkjx1w1xrkcbl8apdq";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5357,10 +5357,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260925.73";
+      version = "2.32snapshot0.20261001.75";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260925.73.tar";
-        sha256 = "0fsghaz0lzybd02isx4k89lcbwj11pifgs0iaqvsiqfnff96n18x";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261001.75.tar";
+        sha256 = "1f8yr4vfgcm7wy8h69qpmavm52g2wmbn7rx98i20wrhhlkd94xr6";
       };
       packageRequires = [ macrostep ];
       meta = {

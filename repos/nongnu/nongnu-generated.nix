@@ -3890,10 +3890,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.1.5";
+      version = "2.1.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.1.5.tar";
-        sha256 = "1acpym76s2z3jw0dgb0fkw8f687pjzg0ll0a74kialcp6vjhapb3";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.1.6.tar";
+        sha256 = "0hdjzmvyisjvl11v5g50iw6dprpdvmk01rmaqjr7kz83hzawlrqb";
       };
       packageRequires = [
         compat
@@ -4927,10 +4927,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20260908.0";
+      version = "1.0.20260926.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20260908.0.tar";
-        sha256 = "11b9rh6bzqav9pbsrms4v9qip3vlsl3gzcaq0pq70y8zcd7zc4c1";
+        url = "https://elpa.nongnu.org/nongnu/racket-mode-1.0.20260926.0.tar";
+        sha256 = "1mid31yixv42855h412sv2kc1azgxiyjgajh61jn0z42i59ajapl";
       };
       packageRequires = [ compat ];
       meta = {
