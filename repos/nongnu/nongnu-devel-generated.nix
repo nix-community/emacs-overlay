@@ -813,10 +813,10 @@
     elpaBuild {
       pname = "crux";
       ename = "crux";
-      version = "0.6.0snapshot0.20260315.12";
+      version = "0.6.0snapshot0.20260930.37";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20260315.12.tar";
-        sha256 = "09anj5a7p0waqyg0cng6x8231078xk4p6ig0ayancspbgyi9yp4d";
+        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.6.0snapshot0.20260930.37.tar";
+        sha256 = "1abjj5fmmgiy1bxbv597z5w5m5rcf0gaap6vh1pf617czx9lgad3";
       };
       packageRequires = [ ];
       meta = {
@@ -2985,10 +2985,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260929.67";
+      version = "4.0.7.0.20260930.68";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260929.67.tar";
-        sha256 = "0hpzzlqix8k3civfc4kiigx105z9mzzknq12f05g1d7hl4a0ssm6";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260930.68.tar";
+        sha256 = "1fafymn9mvh942drh0p4f7d93z2m2za022mb2iwajmv1x0j9z8hs";
       };
       packageRequires = [
         helm-core
@@ -3010,10 +3010,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260929.67";
+      version = "4.0.7.0.20260930.68";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260929.67.tar";
-        sha256 = "01qxz7v84wsvb3ykjsxxl538whipf03s4hia5k5jmd2d9g2g1f2f";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260930.68.tar";
+        sha256 = "1d1100v6j7h14224crppbimlmsdvp3fgz191mma165zfmxsqmwn7";
       };
       packageRequires = [ async ];
       meta = {
@@ -3428,10 +3428,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.14.0.0.20260927.27";
+      version = "0.14.0.0.20260930.30";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.14.0.0.20260927.27.tar";
-        sha256 = "14lxk0dzds9nkfjyag76nmai6bk5wdiqy8gdzwhhnxv8m9qgscay";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.14.0.0.20260930.30.tar";
+        sha256 = "1jsxzi8hf7rf74p8lzn7d8a7fdcvgyz5dbrh2ml0p5hc076k1awg";
       };
       packageRequires = [
         fsm
@@ -4840,10 +4840,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.5.0snapshot0.20260929.64";
+      version = "3.5.0snapshot0.20260930.66";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260929.64.tar";
-        sha256 = "0vp79yzjx6vhfrcdpz1y1sylrkvvhf0fhw544hd3zyvx1iqps6f9";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260930.66.tar";
+        sha256 = "0kgwgq60i7jfa7rwvi7zms3s5apqz633gxqws4c6wa3n5vyd9glh";
       };
       packageRequires = [ compat ];
       meta = {
