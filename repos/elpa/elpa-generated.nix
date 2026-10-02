@@ -7818,10 +7818,10 @@
     elpaBuild {
       pname = "qrencode";
       ename = "qrencode";
-      version = "1.5";
+      version = "1.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/qrencode-1.5.tar";
-        sha256 = "0yqpv01xpnff3p59h6i5jip5p3ch34j9yw3grxk6h90xjvjf1hrw";
+        url = "https://elpa.gnu.org/packages/qrencode-1.6.tar";
+        sha256 = "11smdiw4ajz9fivg1dgp9a2g1jfbxlc70g7q1i5g80cnh2982srz";
       };
       packageRequires = [ ];
       meta = {
@@ -10024,10 +10024,10 @@
     elpaBuild {
       pname = "typewriter";
       ename = "typewriter";
-      version = "1.1.0";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/typewriter-1.1.0.tar";
-        sha256 = "18sykpbz5jw5shpd651qzlaab6wsj4ynycf7rbzksxnfcb4hwikn";
+        url = "https://elpa.gnu.org/packages/typewriter-1.2.0.tar";
+        sha256 = "11ak6rrn9lckihk0ma363ylmilakfcng6jpqwvrw6h3vk3c86dg0";
       };
       packageRequires = [ ];
       meta = {

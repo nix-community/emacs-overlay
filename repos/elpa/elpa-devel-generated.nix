@@ -3221,10 +3221,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.33.0.0.20260930.1";
+      version = "1.33.0.0.20261002.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.33.0.0.20260930.1.tar";
-        sha256 = "036x0gihyn2aiy4wlj47rjz5cm5hp8my364cd20yvnvwwc38jimj";
+        url = "https://elpa.gnu.org/devel/ellama-1.33.0.0.20261002.8.tar";
+        sha256 = "043j4k3qr9s1lcksvadxs3i8ky0j0p6d6nvv3ba5zsw9w55mdfp4";
       };
       packageRequires = [
         compat
@@ -7943,10 +7943,10 @@
     elpaBuild {
       pname = "qrencode";
       ename = "qrencode";
-      version = "1.6beta2.0.20260927.1";
+      version = "1.6.0.20261001.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/qrencode-1.6beta2.0.20260927.1.tar";
-        sha256 = "1v9rzbjl5hsiwpkcbwyv2w8iamzsbnd3jnz7irhxqjhx2z5zxy4p";
+        url = "https://elpa.gnu.org/devel/qrencode-1.6.0.20261001.0.tar";
+        sha256 = "1jvmjw9f06kc9bylxdf8yn0mymqiqr3hi4cmpprwq3ryf81hipq4";
       };
       packageRequires = [ ];
       meta = {
@@ -10083,10 +10083,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.8.0.20260926.10";
+      version = "0.13.8.0.20261002.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20260926.10.tar";
-        sha256 = "1d78ijs1as8smckxa1bzivf709l1s84aylrj7icwsc02bm9w3kxx";
+        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20261002.15.tar";
+        sha256 = "04fcp8dqv9prf8awmgc55r8i2924cd05r2mdxkma8hh944sc0yc8";
       };
       packageRequires = [
         compat
@@ -10243,10 +10243,10 @@
     elpaBuild {
       pname = "typewriter";
       ename = "typewriter";
-      version = "1.1.0.0.20260919.3";
+      version = "1.2.0.0.20261001.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/typewriter-1.1.0.0.20260919.3.tar";
-        sha256 = "1c404qz0dpvqfgzwh87g5dj63af0vif8spbha2src6m5dcd8bpmb";
+        url = "https://elpa.gnu.org/devel/typewriter-1.2.0.0.20261001.5.tar";
+        sha256 = "0dwdafi43r567w1p79ixn6kl4fn4bpi8ayc3rz6i241s0jmcbqvm";
       };
       packageRequires = [ ];
       meta = {
