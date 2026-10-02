@@ -2190,15 +2190,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20261001,
-    1556
+    20261002,
+    59
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "d3c6708197b70e2d23c1b2b7ef2c37f499d0c087",
-   "sha256": "0q2lgya8dc9qqfpw4496y787nvd9xgm30w02fz7bq4jynagy57i2"
+   "commit": "6c91b1fd3d0eaf6c41aadd23e111e37ff737d6b4",
+   "sha256": "0v1i5vhdqx4l6b6bwlxyg2sygzrdphc6f50iqzhxvmp279ri009m"
   },
   "stable": {
    "version": [
@@ -7838,11 +7838,11 @@
   "repo": "bazelbuild/emacs-bazel-mode",
   "unstable": {
    "version": [
-    20260930,
-    1934
+    20261002,
+    123
    ],
-   "commit": "c71e002b1d252a5e3d2ba72c3178865adf1e78d0",
-   "sha256": "07gnkhpwchp2g81r09flw25gb2i8fdp6w1wa89zd7k8ix4m30hzr"
+   "commit": "36e979f1c64f509da6e96f501894f771833dc858",
+   "sha256": "0rkz4mzkapi3w5mcqp9rnmg6b3iq3b69wmhqrlpcyx2d471ydi26"
   },
   "stable": {
    "version": [
@@ -11027,11 +11027,11 @@
   "repo": "jamescherti/bufferfile.el",
   "unstable": {
    "version": [
-    20260826,
-    245
+    20261002,
+    232
    ],
-   "commit": "52c1af463cdd29f8f36250189a489e8ad6ac30fe",
-   "sha256": "0pm73cl4ywz4s32hzc0mf6nal0n5wc8xidamc2lifd60hsxhcn53"
+   "commit": "853aae7059e485eb2031c7465cf52ca14798343e",
+   "sha256": "1wy4disab4kdr71w822lzij07lrpqwvr9hl9pf7xhpsg3nmjbffd"
   },
   "stable": {
    "version": [
@@ -15955,14 +15955,14 @@
   "repo": "LuciusChen/clutch",
   "unstable": {
    "version": [
-    20260929,
-    730
+    20261002,
+    201
    ],
    "deps": [
     "transient"
    ],
-   "commit": "1cf619cc08b1cfb9800ce1f0d00bbd40be774c0c",
-   "sha256": "05d205syikx88nr9wsx2bvvjd5db8h2q2p3jf2d4cknhi52lfx1g"
+   "commit": "b4a80a2be46f4f03d1e7de2fbe3f9a1c8330e745",
+   "sha256": "0h0fnyxm3sxbdizqbjay11wl34bxwn6h61x5x1lvz7bjhpqvcrxf"
   },
   "stable": {
    "version": [
@@ -59232,15 +59232,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20260930,
-    1650
+    20261001,
+    1819
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "e15f7295a00716b4c0bef441862feb545ec59515",
-   "sha256": "1phpvkdlbp14qxfrk4kx15g0accacxrdkh3vqvwqgybcl1bh0rmh"
+   "commit": "1e6b608da9994f84da3d8c1e2ab090f91b2d27e1",
+   "sha256": "1n1nzxdmqxs1md16m490z4s7r23h6qg6ai2fhblrjgvmz2nxnwcm"
   },
   "stable": {
    "version": [
@@ -79643,8 +79643,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20260905,
-    531
+    20261002,
+    228
    ],
    "deps": [
     "dash",
@@ -79655,8 +79655,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "47de29374de1a102db2a977b54afca22b97958f0",
-   "sha256": "0718k19c0458w8y4avlm3f480yyvg46p70g0cyqw9xjmxkrglf4i"
+   "commit": "638393e51decca14184b07513156652fa13215e4",
+   "sha256": "0yh17fy4h4yi3ir3abmsxx01fq1715yip6h0hi6kp816izl8kax3"
   },
   "stable": {
    "version": [
@@ -88174,11 +88174,11 @@
   "repo": "LuciusChen/mysql.el",
   "unstable": {
    "version": [
-    20260925,
-    938
+    20261002,
+    145
    ],
-   "commit": "0f8f3c0fff6d9016c9c04ab6094d9354cca82c2c",
-   "sha256": "0ahwky7jp9n23ds3ak4bdg42jsv0ildmpynwl7idsg4h65v9kgq7"
+   "commit": "bf4a57aa88eeca9c4f08aa392bf1d10a9fd04dd5",
+   "sha256": "01qkcazm27nva27xfk859lia9r6mmp1hgiyrhm73j685g53rwa13"
   }
  },
  {
@@ -106496,11 +106496,11 @@
   "repo": "LuciusChen/pgsql.el",
   "unstable": {
    "version": [
-    20260929,
-    716
+    20261002,
+    154
    ],
-   "commit": "fb7a22f6dd61ab81be9b992716c27ac590cb5920",
-   "sha256": "15n0mdappxxad049589pdb76hhk3lm9iqiqz5k07ahdylq6hkhrk"
+   "commit": "86fa3054061e4b17eb2faa98bdf4d602d209d912",
+   "sha256": "1yqz42zxjcchg1p5gg8bjv32ilz3ckc85jpsrcxf6drhycfpwq1a"
   },
   "stable": {
    "version": [
@@ -107296,8 +107296,8 @@
   "repo": "ananthakumaran/pimacs.el",
   "unstable": {
    "version": [
-    20261001,
-    1435
+    20261002,
+    258
    ],
    "deps": [
     "compat",
@@ -107306,8 +107306,8 @@
     "timeout",
     "transient"
    ],
-   "commit": "0fa021b62f3f71b420fa41821960678f10b6e38b",
-   "sha256": "0nx6519v2adhbqn6lcknmvc92w1in0vpkc71fv4ddsqv0rlp7qav"
+   "commit": "1cec448afe66ba7cadf282037cbad8f4c9403bda",
+   "sha256": "0zmkrkjhskrp3d2wmisczqc1miwmx683ar32svc7zawvz0k8wblw"
   },
   "stable": {
    "version": [
@@ -113503,11 +113503,11 @@
   "repo": "ruediger/qrencode-el",
   "unstable": {
    "version": [
-    20260927,
-    2156
+    20261001,
+    2346
    ],
-   "commit": "48ae8129ad11135a8905701b9ae7dfa9086cd53a",
-   "sha256": "17iry68ndf7hql7l8giai3v063aixm8frc5bwi70fr43i0vqgr7p"
+   "commit": "3ba67bdf376c9e1445bcc4710c7c8c4bd3c5c65c",
+   "sha256": "0zgc6kfqxxh3lqdrndfzjsdm5mdvv6ld1nlc59vf13njy81fah5z"
   },
   "stable": {
    "version": [
