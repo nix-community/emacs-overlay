@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.1.0.0.20260721.0";
+      version = "1.1.0.0.20261002.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20260721.0.tar";
-        sha256 = "0zidihc9vrv7nb5pfciik8xvlg5j6gg7kdmvlcwcmwq79r1vcy83";
+        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261002.2.tar";
+        sha256 = "19ikhamn6171mflnph73z4nry3vgvxllw480jiy24by350pax1f3";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -1573,10 +1573,10 @@
     elpaBuild {
       pname = "consult";
       ename = "consult";
-      version = "3.10.0.20260926.0";
+      version = "3.10.0.20261002.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-3.10.0.20260926.0.tar";
-        sha256 = "0b824svqyhlv2zp6x28449mjkqq3mnf3mgwqn3249sq8niwcm24c";
+        url = "https://elpa.gnu.org/devel/consult-3.10.0.20261002.1.tar";
+        sha256 = "048bl5nj886v0fiy0qyk9kh0xi0jfq58n249g1j6fhbf4kx3dsf0";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3489,10 +3489,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.7snapshot0.20260821.27";
+      version = "5.7snapshot0.20261002.28";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.7snapshot0.20260821.27.tar";
-        sha256 = "15v751rvawzvmkj89acqy33bzjf91b0dnxi4s5r4gmdqads99vv3";
+        url = "https://elpa.gnu.org/devel/erc-5.7snapshot0.20261002.28.tar";
+        sha256 = "1n5vg22hw6x61dzqz725fp16pr1bbby993scln9kapxq7vih3pv4";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3807,10 +3807,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.7.0.20260919.6";
+      version = "1.4.7.0.20261002.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20260919.6.tar";
-        sha256 = "1a4fyqpj3dyi6kp3wa7m7kbclyrbigyw3n58mqyiqnhkw75pmv8x";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20261002.7.tar";
+        sha256 = "15ddmv8mr15054vpiln5k8pf1n8wwj5521990xax8xs09ai40bl8";
       };
       packageRequires = [
         eldoc
@@ -5394,10 +5394,10 @@
     elpaBuild {
       pname = "latex-table-wizard";
       ename = "latex-table-wizard";
-      version = "1.6.0.0.20260503.212802";
+      version = "1.6.1.0.20261002.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/latex-table-wizard-1.6.0.0.20260503.212802.tar";
-        sha256 = "0gsqgykvfg27c9gs83rjg8aaxm44a06r5d8ify7s7wcxpasdys1p";
+        url = "https://elpa.gnu.org/devel/latex-table-wizard-1.6.1.0.20261002.1.tar";
+        sha256 = "1b84fwblccs26id01r3dbbf9g6y465n01d03f07c5gxnf0s70ybs";
       };
       packageRequires = [
         auctex
@@ -6609,10 +6609,10 @@
     elpaBuild {
       pname = "notmuch-indicator";
       ename = "notmuch-indicator";
-      version = "1.3.0.0.20260424.102728";
+      version = "1.3.0.0.20261002.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/notmuch-indicator-1.3.0.0.20260424.102728.tar";
-        sha256 = "0iz3rzzb4rq7j5dwvyrdfyn2j1hag882204bc7fdldglwinic5zx";
+        url = "https://elpa.gnu.org/devel/notmuch-indicator-1.3.0.0.20261002.3.tar";
+        sha256 = "0qmavgf66km9i216w3gy64qk7gxz2gz7kmg0pi1ixs6vyyl129nj";
       };
       packageRequires = [ ];
       meta = {
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260930.569";
+      version = "10.0pre0.20261002.570";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260930.569.tar";
-        sha256 = "170qf2iy8qsbf1a1h7nrdxw3hzlz6zallgisb7303r2z6sf5wk99";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261002.570.tar";
+        sha256 = "1i4gxsvbb5lqv99c2v4p2v9wjfh7szllg291bqsfrn3ly8h8rqqc";
       };
       packageRequires = [ ];
       meta = {
@@ -10243,10 +10243,10 @@
     elpaBuild {
       pname = "typewriter";
       ename = "typewriter";
-      version = "1.2.0.0.20261001.5";
+      version = "1.2.1.0.20261002.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/typewriter-1.2.0.0.20261001.5.tar";
-        sha256 = "0dwdafi43r567w1p79ixn6kl4fn4bpi8ayc3rz6i241s0jmcbqvm";
+        url = "https://elpa.gnu.org/devel/typewriter-1.2.1.0.20261002.1.tar";
+        sha256 = "0dh2vdglv7dxikd3ma3vv2883akh8jkajl5ylrmcllm9y0n25w1g";
       };
       packageRequires = [ ];
       meta = {

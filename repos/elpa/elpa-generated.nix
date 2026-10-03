@@ -5308,10 +5308,10 @@
     elpaBuild {
       pname = "latex-table-wizard";
       ename = "latex-table-wizard";
-      version = "1.6.0";
+      version = "1.6.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/latex-table-wizard-1.6.0.tar";
-        sha256 = "1zpf3x62ldqy12npypjk1x8dw7adfmqqhqj30cl2s659vq7gs4nb";
+        url = "https://elpa.gnu.org/packages/latex-table-wizard-1.6.1.tar";
+        sha256 = "1x39pqfalv9v1mjfdqz98ara1833vwpvlq42zj2y64xiby2g9vwi";
       };
       packageRequires = [
         auctex
@@ -10024,10 +10024,10 @@
     elpaBuild {
       pname = "typewriter";
       ename = "typewriter";
-      version = "1.2.0";
+      version = "1.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/typewriter-1.2.0.tar";
-        sha256 = "11ak6rrn9lckihk0ma363ylmilakfcng6jpqwvrw6h3vk3c86dg0";
+        url = "https://elpa.gnu.org/packages/typewriter-1.2.1.tar";
+        sha256 = "0y2dzcci85413npylr49zp0836vjy27w686xnqffxf0xz7czjvv6";
       };
       packageRequires = [ ];
       meta = {
