@@ -1210,6 +1210,27 @@
       };
     }
   ) { };
+  ebuild-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "ebuild-mode";
+      ename = "ebuild-mode";
+      version = "1.88.0.20261001.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/ebuild-mode-1.88.0.20261001.0.tar";
+        sha256 = "0fhaasjlbz5vbqlb9k5w3qyxz5rr7hlhbk7ivcj9pn40kfvgrmg6";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/ebuild-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   edit-indirect = callPackage (
     {
       elpaBuild,
@@ -4818,10 +4839,10 @@
     elpaBuild {
       pname = "project-nix-store";
       ename = "project-nix-store";
-      version = "0.13.0.0.20260924.0";
+      version = "0.13.0.0.20261003.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.13.0.0.20260924.0.tar";
-        sha256 = "1g7248x6a5j8m2nan9zaakcjgr13lnbhpkj2f636p1syzf9kq1cx";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.13.0.0.20261003.1.tar";
+        sha256 = "166g9sd61dnv1l210kpc72mf4kyan42qv0irpjprl55sgv0ainvn";
       };
       packageRequires = [ ];
       meta = {
@@ -5505,10 +5526,10 @@
     elpaBuild {
       pname = "standard-keys-mode";
       ename = "standard-keys-mode";
-      version = "1.0.1.0.20260825.0";
+      version = "1.0.1.0.20261002.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/standard-keys-mode-1.0.1.0.20260825.0.tar";
-        sha256 = "0g3s4agfc2jsr8lc1ybx954q32x36kgaz1chwbn8yk8msg2jzb1i";
+        url = "https://elpa.nongnu.org/nongnu-devel/standard-keys-mode-1.0.1.0.20261002.3.tar";
+        sha256 = "02i4zgk4wqf4f0w1vcpqzdpqm2n23aaxh3qxq05diqhyh752p18z";
       };
       packageRequires = [ ];
       meta = {
@@ -6304,10 +6325,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.5.4.0.20261001.6";
+      version = "3.5.4.0.20261002.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.4.0.20261001.6.tar";
-        sha256 = "1dlpn9ikpxyln9vlzasg6kak4mwxb4xb8aaiskbxlk4glpck30j0";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.4.0.20261002.10.tar";
+        sha256 = "1g61q6c56l54b0n5rh48g3yary0wydrvvbkhngfvs8hjrsn4fwcq";
       };
       packageRequires = [
         compat
