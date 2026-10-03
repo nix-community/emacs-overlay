@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20261001.138";
+      version = "2.1.0snapshot0.20261002.142";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20261001.138.tar";
-        sha256 = "1w22blsafxn9y27ckzpgmb10hmyyhfnxxbjd28gb3z5yjpvdw9ms";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20261002.142.tar";
+        sha256 = "17h8ysdijwf3192qshcif3w5sjn6arn3nfm27pdja41khcinzs45";
       };
       packageRequires = [
         clojure-mode
@@ -813,10 +813,10 @@
     elpaBuild {
       pname = "crux";
       ename = "crux";
-      version = "0.7.0snapshot0.20261001.0";
+      version = "0.7.0snapshot0.20261002.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.7.0snapshot0.20261001.0.tar";
-        sha256 = "0zv2iiy9ww3k3g5vppfffqrxfk85vbi22cszgzm43w0ljk9dch1a";
+        url = "https://elpa.nongnu.org/nongnu-devel/crux-0.7.0snapshot0.20261002.0.tar";
+        sha256 = "1505249nh1zkkv1j5mfk4nn1fby1gmpkzascv91fsbid7ciadrwv";
       };
       packageRequires = [ ];
       meta = {
@@ -3034,10 +3034,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.8.0.0.20261001.1";
+      version = "0.8.0.0.20261002.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.8.0.0.20261001.1.tar";
-        sha256 = "16ni586z4bjv4bhk35wvsgxga9h07fni7ayzai80cwvckkfnk3vm";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.8.0.0.20261002.2.tar";
+        sha256 = "1dlvd0mvha8ygd3hxn7jmxwxh1ryxpnqrp1i8mi3975y2xilamz7";
       };
       packageRequires = [
         keymap-popup
@@ -3790,10 +3790,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.7.1.0.20261002.29";
+      version = "4.7.1.0.20261002.31";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20261002.29.tar";
-        sha256 = "0y6q89qg3sy8pkaglip3il59p6rymr9f6jy4715yllcpdp2sflc0";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20261002.31.tar";
+        sha256 = "0ajpq3inhihy0phy294mpdadk99vaqwbqn9g954bdrfcp8rl1bxn";
       };
       packageRequires = [
         compat
@@ -3823,10 +3823,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.7.1.0.20261002.29";
+      version = "4.7.1.0.20261002.31";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.1.0.20261002.29.tar";
-        sha256 = "0r1z26ixacic2bfrin5hbs540hyl5adadrcq3fz9zv360pcgf45p";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.1.0.20261002.31.tar";
+        sha256 = "0zxjb5vjpjc5gfh477y0b65awwmc69gda9pncsvddk0qkz2hra36";
       };
       packageRequires = [
         compat
@@ -4576,10 +4576,10 @@
     elpaBuild {
       pname = "parseclj";
       ename = "parseclj";
-      version = "1.1.1.0.20260526.2";
+      version = "1.1.1.0.20261002.16";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/parseclj-1.1.1.0.20260526.2.tar";
-        sha256 = "0w6d1bvjdl1sg17iz77bf6n7j1k8j7x2jp7iki1r1lipi0ygfrmv";
+        url = "https://elpa.nongnu.org/nongnu-devel/parseclj-1.1.1.0.20261002.16.tar";
+        sha256 = "0pzrbm3cs7majyjfrphjjvggwi3fyvg8b728rsp6vp9ji4qx27ln";
       };
       packageRequires = [ ];
       meta = {
@@ -5117,10 +5117,10 @@
     elpaBuild {
       pname = "rust-mode";
       ename = "rust-mode";
-      version = "1.0.6.0.20260725.50";
+      version = "1.0.6.0.20261002.52";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20260725.50.tar";
-        sha256 = "107k3g6gw0ii6qhbcnk552jbns70kkf1rya7bzzcrxf50f4lxc12";
+        url = "https://elpa.nongnu.org/nongnu-devel/rust-mode-1.0.6.0.20261002.52.tar";
+        sha256 = "1r7zmfj42ncaz0mylm2gdyhwq9i2viibq50m2iknfzlpn11x8cqf";
       };
       packageRequires = [ ];
       meta = {

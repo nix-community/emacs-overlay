@@ -836,10 +836,10 @@
     elpaBuild {
       pname = "crux";
       ename = "crux";
-      version = "0.6.0";
+      version = "0.6.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/crux-0.6.0.tar";
-        sha256 = "1lfw8x4di2k4idgq5lhybfhhz2k8nkf3q892p5vzvq8z1fr83qar";
+        url = "https://elpa.nongnu.org/nongnu/crux-0.6.1.tar";
+        sha256 = "1hvrbp5b5f5qw502biqj4qzyq5b5hgaxis26lxnq1rjhdw8r1zd0";
       };
       packageRequires = [ ];
       meta = {
