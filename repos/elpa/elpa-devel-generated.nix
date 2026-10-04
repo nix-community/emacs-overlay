@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.2.0.0.20261001.13";
+      version = "9.2.0.0.20261003.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.2.0.0.20261001.13.tar";
-        sha256 = "17j0cjjxj4kzgizvsbxn48ys2czjlicni22prv8k1wz1h903s2l3";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.2.0.0.20261003.16.tar";
+        sha256 = "19n8f2s6v17gwfbgyq7yhm1yl6bwfifd4nrrwxjxzimrqh4gfdl8";
       };
       packageRequires = [ ];
       meta = {
@@ -8678,10 +8678,10 @@
     elpaBuild {
       pname = "sendai-theme";
       ename = "sendai-theme";
-      version = "0.1.1snapshot0.20260701.2";
+      version = "0.1.1snapshot0.20261003.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/sendai-theme-0.1.1snapshot0.20260701.2.tar";
-        sha256 = "08xpcxs280mbipllcjl06hmrxmpdzrwkfzcrvq6n9k2dv62x1cki";
+        url = "https://elpa.gnu.org/devel/sendai-theme-0.1.1snapshot0.20261003.4.tar";
+        sha256 = "0xw2gpbli5c5ny71w98yif66gz316fsagmmjpggigm4znkmkn3w0";
       };
       packageRequires = [ ];
       meta = {
