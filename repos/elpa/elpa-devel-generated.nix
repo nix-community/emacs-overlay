@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20260930.7";
+      version = "14.2.0.0.20261003.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20260930.7.tar";
-        sha256 = "11klmh6wbps63ds9v97z58mp6czi2yf4pbyzpw2zp4iwh6ablgay";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261003.9.tar";
+        sha256 = "1z2bn1ac4wml37j1i8pb8y76digkxgpsgqw6n7r3iwpn9hvdn1k1";
       };
       packageRequires = [ ];
       meta = {
@@ -3290,10 +3290,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20260927.49";
+      version = "0.0.20261003.51";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20260927.49.tar";
-        sha256 = "1916snganh6r85j5yafcwgy14zz49p68g0hwnhvkwkf09hgqijrv";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261003.51.tar";
+        sha256 = "0wv9k7zk4xrfnjn83p28ca2gmdmr38fqnlqxlpkdcsy307w6r2i1";
       };
       packageRequires = [ ];
       meta = {
@@ -5635,10 +5635,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.32.2.0.20261003.4";
+      version = "0.32.2.0.20261003.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.32.2.0.20261003.4.tar";
-        sha256 = "12ngi2vy6m9k40hw1gbpbr1hw2m27ccpaq5ir68g4v15kdryqwii";
+        url = "https://elpa.gnu.org/devel/llm-0.32.2.0.20261003.6.tar";
+        sha256 = "0lvn6jncaal3rd9m1vvz37qlg1rjq4w9xgf217fy8m27777ciz39";
       };
       packageRequires = [
         compat
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261002.570";
+      version = "10.0pre0.20261003.571";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261002.570.tar";
-        sha256 = "1i4gxsvbb5lqv99c2v4p2v9wjfh7szllg291bqsfrn3ly8h8rqqc";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261003.571.tar";
+        sha256 = "11ypn9had6kag0mckw7480r66pfr22vbpi0f5dwbbrlc6f5m9fwa";
       };
       packageRequires = [ ];
       meta = {
