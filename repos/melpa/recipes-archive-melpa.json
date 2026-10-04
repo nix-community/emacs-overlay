@@ -2191,27 +2191,27 @@
   "unstable": {
    "version": [
     20261003,
-    1625
+    1627
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "1133e8dd005a40e405b32523b79f4560784b2c1b",
-   "sha256": "0r5c3xfmdap3840lammiymbsm6a97z03rxr0cqx1jvw8qyszrg0q"
+   "commit": "6cb9d9adc9f002a363353303047fab33d920db56",
+   "sha256": "097yffs6zi2w9mjwzyfy78apgxqaflsww60ibi5cl4jdrgq296g7"
   },
   "stable": {
    "version": [
     0,
     83,
-    3
+    4
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "1b931b49172180aef95551641a84db88f8daef5a",
-   "sha256": "0i09dwzb0sxydkqfg115qz41p1jr2qgshm9j0imqs472qivmfbix"
+   "commit": "6cb9d9adc9f002a363353303047fab33d920db56",
+   "sha256": "097yffs6zi2w9mjwzyfy78apgxqaflsww60ibi5cl4jdrgq296g7"
   }
  },
  {
@@ -16427,11 +16427,11 @@
   "repo": "f4ban/codespaces.el",
   "unstable": {
    "version": [
-    20260305,
-    2229
+    20261003,
+    2138
    ],
-   "commit": "33161d6ac6fd3b57df896f8969566f50f37bd3ce",
-   "sha256": "1rdb313na34pacn5slvi01ggcv9j2mbhzvra43nvjq30dxxahdh0"
+   "commit": "7ec1aa6fed6c0a4dc92db94d46773b77d5ad1b97",
+   "sha256": "07g7w1a4l9sc52l1xkqgc8b6jdr0g0kcp07nibwa5rip8zm6llkl"
   },
   "stable": {
    "version": [
@@ -65765,11 +65765,15 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20261001,
-    729
+    20261004,
+    208
    ],
-   "commit": "857a7196f33de90472a915532d5d679207cbab69",
-   "sha256": "0p9g9nknwg3znn2apnd06h01v4k29x2m25vqdlvwy9x1iy1vq2wz"
+   "commit": "98713bbb937cdf0e8ac27791bd0bf33271b819c8",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2983-965901433/nix-shell-3172-505591732/nix-shell-3236-1842392851/git-checkout-tmp-40CGCHSC/clone/.git/\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': The requested URL returned error: 500\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': The requested URL returned error: 500\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': The requested URL returned error: 500\nUnable to checkout 98713bbb937cdf0e8ac27791bd0bf33271b819c8 from https://git.savannah.gnu.org/git/hyperbole.git.\n"
+   ]
   },
   "stable": {
    "version": [
@@ -80718,7 +80722,7 @@
   "unstable": {
    "version": [
     20261003,
-    936
+    2004
    ],
    "deps": [
     "compat",
@@ -80729,8 +80733,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "3991aa153113c54abe407ac3988e031236625174",
-   "sha256": "18csgl8489xmajy5i28bnjwsilrqabzng0fgp2glvq45l4rj8xnf"
+   "commit": "62373ca1667ecd8e33ed33f0335c2dec91f54dfe",
+   "sha256": "17swvp8c8zgbbmiybpa90ds4sb2nrikpk5rap3ijvq3r2r1k1h8w"
   },
   "stable": {
    "version": [
@@ -85122,10 +85126,10 @@
   "unstable": {
    "version": [
     20261003,
-    912
+    1912
    ],
-   "commit": "b95846865a067cafef9e894debb54fe38300b53d",
-   "sha256": "0wlgangzcb02xzmv451ra9y82rm03al5ja8qpn0qgpp1pj9h23ic"
+   "commit": "11d71e13a13d6ba23afd3b3a3f40762b3d3b99d3",
+   "sha256": "09gciwq2x7whxk0kskngpzpvk4w1xdw53lnrkcdyzchg7k9mb5nh"
   },
   "stable": {
    "version": [
@@ -87248,14 +87252,14 @@
   "repo": "sillyfellow/mu4e-llm",
   "unstable": {
    "version": [
-    20260121,
-    1539
+    20261003,
+    1948
    ],
    "deps": [
     "llm"
    ],
-   "commit": "290657310d4041c23d627572d6fb780da8ed02f8",
-   "sha256": "1jj6jif4sjqb1rihqf5ckj11n7k40w79cngd81sqbbhrhxbdv0j6"
+   "commit": "9b87454d984b3f0ef00a95442b4ae7fd1beaefa0",
+   "sha256": "0aa3ahqab7g4kj9c5vfax5l2zdd2fhnhnrzg2hls07a5wahd6zrs"
   },
   "stable": {
    "version": [
@@ -97507,11 +97511,11 @@
   "repo": "bbw9n/org-lark",
   "unstable": {
    "version": [
-    20260614,
-    319
+    20261004,
+    154
    ],
-   "commit": "ebbe9ed102be2bf00b698f1280a305d8f3b0d38d",
-   "sha256": "1a4njnhr9cih9v4mnrf9fpdqbfv5x3rywrs7pk3nhggl81890j40"
+   "commit": "3ae8836da75607c4c5f4a6404977e06d78bf8b43",
+   "sha256": "1sdpdhp1n2jxa076vfal5akmrr6rs6xir5dk4dx59cc2d8dps327"
   }
  },
  {
@@ -107230,8 +107234,8 @@
   "repo": "dnouri/pilish",
   "unstable": {
    "version": [
-    20261002,
-    731
+    20261003,
+    2111
    ],
    "deps": [
     "magit-section",
@@ -107239,14 +107243,14 @@
     "md-ts-mode",
     "transient"
    ],
-   "commit": "ec016f7173a46de391bb86a167abb75640647588",
-   "sha256": "1na4ng7wx59l3ys51bgk5s0w0rkmpd1nrigrzkh0mk3mnp4wzqzl"
+   "commit": "24d30e6fe87134555ebab99a08402ef3c91e8a18",
+   "sha256": "1qj6gn2pjcnivy8pynk9ayyn5nyr2zfgsvm4b12zi9wy4cba5kp7"
   },
   "stable": {
    "version": [
     3,
     2,
-    0
+    1
    ],
    "deps": [
     "magit-section",
@@ -107254,8 +107258,8 @@
     "md-ts-mode",
     "transient"
    ],
-   "commit": "335044dce7a4f89b12d0a12377d7adc248b3e797",
-   "sha256": "0xsx7rfbsq4bnpv37x9vpcmn36h2lmpvq9vbskxwk9n121faj1qm"
+   "commit": "24d30e6fe87134555ebab99a08402ef3c91e8a18",
+   "sha256": "1qj6gn2pjcnivy8pynk9ayyn5nyr2zfgsvm4b12zi9wy4cba5kp7"
   }
  },
  {
@@ -125978,11 +125982,11 @@
   "repo": "brailcom/speechd-el",
   "unstable": {
    "version": [
-    20250118,
-    1141
+    20261003,
+    2001
    ],
-   "commit": "0e509d392c7f82ca2451a59b97d551382136d2d5",
-   "sha256": "0xh8hvpdy1k054pfkl00imf43nvflh2ykzj3z83h8j2i0ngxn80h"
+   "commit": "ac938ce803680c52599f47ae0fa0b054e58fba15",
+   "sha256": "08dapvfbqq9rwb87y8jlpd7pf5xghvp6b41pvijmbv3281hnalip"
   },
   "stable": {
    "version": [
@@ -141753,16 +141757,16 @@
   "repo": "magit/with-editor",
   "unstable": {
    "version": [
-    20261002,
-    2059
+    20261003,
+    1832
    ],
    "deps": [
     "compat",
     "cond-let",
     "llama"
    ],
-   "commit": "b9163645d8ae44065cd7fee09a7ee8eb0c372592",
-   "sha256": "1p34gvb1d419zl2w29a8v8d6y4pv6nsba205kaxz0lh6ygszjm8j"
+   "commit": "ca956bbfd1c9f163d2a8390716fcd39799d23f34",
+   "sha256": "0x8iw14sz58h5vg21vjb2gpnrdcaich3x1ambhx11zq3n20203i2"
   },
   "stable": {
    "version": [
