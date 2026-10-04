@@ -2191,27 +2191,27 @@
   "unstable": {
    "version": [
     20261004,
-    208
+    1353
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "ae31cf850b3a06178d28e6be72311991ee680ee9",
-   "sha256": "0bwilllzraldg2imadjcm3i9mv9vabkkgb6pdr16j3ainzb1sag2"
+   "commit": "1cd4f20e0ebbebe72829f163b1447cf432587c17",
+   "sha256": "0wlb5kkkp7d80v19ax4x93hyla08r5ijbz91yfhhqjbkbjvn4k9m"
   },
   "stable": {
    "version": [
     0,
     83,
-    4
+    5
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "6cb9d9adc9f002a363353303047fab33d920db56",
-   "sha256": "097yffs6zi2w9mjwzyfy78apgxqaflsww60ibi5cl4jdrgq296g7"
+   "commit": "1cd4f20e0ebbebe72829f163b1447cf432587c17",
+   "sha256": "0wlb5kkkp7d80v19ax4x93hyla08r5ijbz91yfhhqjbkbjvn4k9m"
   }
  },
  {
@@ -10351,6 +10351,21 @@
   }
  },
  {
+  "ename": "brewpage",
+  "commit": "b38745e80fe15de123120993f15a6706d88d27e4",
+  "sha256": "10xalmqd5n531n31bshiayb1di859mqailfh8rxx5h47pva06yid",
+  "fetcher": "github",
+  "repo": "kochetkov-ma/brewpage-emacs",
+  "unstable": {
+   "version": [
+    20260910,
+    1644
+   ],
+   "commit": "cc096fe8cefd39fde35189910467b018eddf6b25",
+   "sha256": "1qsxxakxvfsqi0yka2mrz8fjnj7s5gnkvixinfwhmd88avn2v9z8"
+  }
+ },
+ {
   "ename": "brf",
   "commit": "203e7d21e2387866107740ead4ec28787d82ebfb",
   "sha256": "0439bzzzy6kx536zh9azxrdmfpb69xrr8axxg5q7989892iaqi5m",
@@ -14917,11 +14932,11 @@
   "repo": "parenworks/clatter.el",
   "unstable": {
    "version": [
-    20261001,
-    1057
+    20261004,
+    1606
    ],
-   "commit": "e2fc251d5c25b1dc69907fac3b3857f964ba0ad6",
-   "sha256": "0d4p2l65slbggf7r58jjild7dhymnzdfjfwx57j1fvdlhhicaa6l"
+   "commit": "cd53806fad981ac91af15408ee42eea099fc3321",
+   "sha256": "1qbi6jywdky58m831vryl12g47k05pz5jhcis7mwc9alrz81laqb"
   },
   "stable": {
    "version": [
@@ -15118,6 +15133,21 @@
    ],
    "commit": "b50669b6077d6948f72cb3c649281d206e0c2f2b",
    "sha256": "0y5z2pfhzpv67w2lnw1q06mflww90sfcilj89kqx2jhhrnrnn2ka"
+  }
+ },
+ {
+  "ename": "clel",
+  "commit": "88c83c3628b1116746e5942af01d719c8fa8ab54",
+  "sha256": "0gd3c2h3857sfwcf1c59mlj0vnjwnmfqzr0x99z7lcmn44xkpryf",
+  "fetcher": "github",
+  "repo": "BuddhiLW/clojure-elisp",
+  "unstable": {
+   "version": [
+    20261001,
+    239
+   ],
+   "commit": "a6a65777e2ee432ac9bd273ec9baa849f1d1f2bc",
+   "sha256": "1mpmpcmib7mip7d580vw04i7a58p8drz0prf18f6s5jdzv2wy8y2"
   }
  },
  {
@@ -15955,14 +15985,14 @@
   "repo": "LuciusChen/clutch",
   "unstable": {
    "version": [
-    20261003,
-    1401
+    20261004,
+    1303
    ],
    "deps": [
     "transient"
    ],
-   "commit": "9c21ff355ba14972aa72e4695498a591546659dd",
-   "sha256": "0yph4rzb8zmr9yqid4s7may3g0c2hgav4zjyfz68zin0f7iyvf2n"
+   "commit": "3b256b80dd06dcde25d78f601368a32dbf39c236",
+   "sha256": "0fsgrjv42hcjvbj5q7pyyjych32bmph3xr577nm44npmj66h95i2"
   },
   "stable": {
    "version": [
@@ -56544,6 +56574,14 @@
   }
  },
  {
+  "ename": "gptel-annotate",
+  "commit": "e643b912d58fe1a92ca15ccae637893b1eb00300",
+  "sha256": "10bgwpcpssla6bsy7cqwckss2fac3168zx9ibc76myh6kk5vpi9h",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "karthink/gptel-annotate"
+ },
+ {
   "ename": "gptel-commit",
   "commit": "5f3ece581e399ebc3b72b924ff48c64810f7cf8d",
   "sha256": "1wld1rsnzrdi297yqhdwvnkrx3r0yyixmpz3k95h4zasxnrv7lzx",
@@ -75771,6 +75809,14 @@
   }
  },
  {
+  "ename": "latex-to-svg-for-latex",
+  "commit": "83cad5c6cdc2cf587caa0149e4bc2beea6049d74",
+  "sha256": "1vjkprb01x6735dcsf2xln1ks4swa88vf9wvcsvma9b0mkdl45jd",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "alberti42/latex-to-svg"
+ },
+ {
   "ename": "latex-to-svg-for-markdown",
   "commit": "12357da21bb0ef0aa9a10fa0069ec59927651c84",
   "sha256": "0gl0c5nl3vgwxgf3vpskvyyjp4zgra3hbff4660ffp6jlpxfpbz4",
@@ -83313,20 +83359,19 @@
   "repo": "dnouri/md-ts-mode",
   "unstable": {
    "version": [
-    20260929,
-    1359
+    20261004,
+    1506
    ],
-   "commit": "b0a39248e614113711e4f197b6c39eb48604de0b",
-   "sha256": "0xhix649iwr7g9cxnpwcqgkpfk8xwynpa4ir7s6njzdgwppzs89n"
+   "commit": "769ef52965c46e9346bf19d04adc6fef9d23b01c",
+   "sha256": "0jq05ng4kxii5p2jl8qjqyj77mphnv6p7zy3i7avr6s5b3m68532"
   },
   "stable": {
    "version": [
     0,
-    4,
-    0
+    5
    ],
-   "commit": "e593fdeef5b8a9805c33af1f35041b5d501398ee",
-   "sha256": "01xgwiyjczs32cbcddxb6n7flavkjaw4s5dm5l13kfjkfgd6zq0b"
+   "commit": "769ef52965c46e9346bf19d04adc6fef9d23b01c",
+   "sha256": "0jq05ng4kxii5p2jl8qjqyj77mphnv6p7zy3i7avr6s5b3m68532"
   }
  },
  {
@@ -88952,6 +88997,14 @@
    "commit": "32acab3624160a7d0bb04c42babaa791729ab8b5",
    "sha256": "0jib25g15aj65jvsfb0ngkiwh85nlyz18qb6wjdd3rfmxb68wrjh"
   }
+ },
+ {
+  "ename": "neofetch",
+  "commit": "1c70e07f9818de1ea9f84a648682b99d11abfa07",
+  "sha256": "15cn8xyy10ilnxjicaisbrv6dpfsqqrhj133bigmx3wwnwhs97nz",
+  "error": "Not in archive",
+  "fetcher": "codeberg",
+  "repo": "benja2998/neofetch.el"
  },
  {
   "ename": "neon-mode",
@@ -107231,7 +107284,7 @@
   "unstable": {
    "version": [
     20261004,
-    1056
+    1450
    ],
    "deps": [
     "magit-section",
@@ -107239,14 +107292,14 @@
     "md-ts-mode",
     "transient"
    ],
-   "commit": "2081bad1b0ed42d0bb8abc542436d7d23d8d7eea",
-   "sha256": "1m9v44bv5xvqh74ky8qxhxckj120fdvxmz4wvpbmih1699g1d61d"
+   "commit": "b8ab7fcdb2f7e177133200acbcd9c85b03f1c052",
+   "sha256": "0abwa7w332ijx3njl2lwdnj18169jwrlxmlcgkaqkfj7w73fakvw"
   },
   "stable": {
    "version": [
     3,
-    2,
-    1
+    3,
+    0
    ],
    "deps": [
     "magit-section",
@@ -107254,8 +107307,8 @@
     "md-ts-mode",
     "transient"
    ],
-   "commit": "24d30e6fe87134555ebab99a08402ef3c91e8a18",
-   "sha256": "1qj6gn2pjcnivy8pynk9ayyn5nyr2zfgsvm4b12zi9wy4cba5kp7"
+   "commit": "6812eddb76e422a2f046a534f62c3ca87b6b7650",
+   "sha256": "02rpdl3i3zkhm02lm7nb5dkz36z7mlgiwxq085pqvlghkh3dmhdv"
   }
  },
  {
@@ -112577,6 +112630,14 @@
    "commit": "b96c15fa1b83cad855e472eda06319ad35e34513",
    "sha256": "1y3q1k195wp2kgp00a1y34i20zm80wdv2kxigh6gbn2r6qzkqrar"
   }
+ },
+ {
+  "ename": "pyfun-mode",
+  "commit": "f32a1b2b9460bd246513bbb7228d6cc75e87a0a4",
+  "sha256": "1y5sv3za84hl2cb7ymd8bpjvzanc56dhplz38j1v5j8jqnsq57cr",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "simontreanor/Pyfun"
  },
  {
   "ename": "pygen",
@@ -134639,6 +134700,14 @@
    "commit": "d4869d260f22d13a9a71327a6d40edc6980d022e",
    "sha256": "17982dsjrm1xcw1fmq64shp4qlydj6v4c4yna24l45q90fhxd6mm"
   }
+ },
+ {
+  "ename": "triode",
+  "commit": "9e4a6027d860e0d820062c847e6f765118a8bae6",
+  "sha256": "0bc2mbl32lim56zn9965m23b1hnzczyqb0akvi2bls2vfpgfvqwv",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "kickingvegas/triode"
  },
  {
   "ename": "tron-legacy-theme",
