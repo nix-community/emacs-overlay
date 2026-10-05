@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.1.0.0.20261002.2";
+      version = "1.1.0.0.20261005.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261002.2.tar";
-        sha256 = "19ikhamn6171mflnph73z4nry3vgvxllw480jiy24by350pax1f3";
+        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261005.9.tar";
+        sha256 = "0rvc5s4f4mp7iv3hr6wzzm0xs3b3iz8v1b1j1pkc4cxli5xdx9hq";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -5264,10 +5264,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.4.4.0.20260927.4";
+      version = "0.4.5.0.20261005.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.4.0.20260927.4.tar";
-        sha256 = "0f8snc0w69fsxsqclc7wqzqvgdklnpv2zdczqdkfcxx61nd0pppy";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.4.5.0.20261005.0.tar";
+        sha256 = "05zngv02nsymxvxnc14vhfdqrq0in25qfjws6kyb5x97dklyv4sn";
       };
       packageRequires = [ ];
       meta = {
