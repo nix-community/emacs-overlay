@@ -2423,15 +2423,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20261003,
-    1427
+    20261005,
+    345
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "2402d4cb00448fee11674aa8c9ac81312a6a09ec",
-   "sha256": "0wy9lm4q096kidlk79pg11rmkcd3183l430sja5i3a9js51ms1ar"
+   "commit": "c06ddf9b39b42d8d514103191dc075571d6fb2fb",
+   "sha256": "0hghnsh4r7krinxzalr8q60z07pf7a3v9yk39gyfbbs49lvm08zb"
   },
   "stable": {
    "version": [
@@ -10363,6 +10363,15 @@
    ],
    "commit": "cc096fe8cefd39fde35189910467b018eddf6b25",
    "sha256": "1qsxxakxvfsqi0yka2mrz8fjnj7s5gnkvixinfwhmd88avn2v9z8"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    2
+   ],
+   "commit": "abf78cb39613aa2190daa4f72ac6cb08c54b487f",
+   "sha256": "03adsa90kp4hfcvwmzfjwmz0d04bfixdv8rvmm1g99pjccgqsj13"
   }
  },
  {
@@ -12289,11 +12298,11 @@
   "url": "https://code.bru.st/corwin/card-game.el.git",
   "unstable": {
    "version": [
-    20260816,
-    1451
+    20261004,
+    1909
    ],
-   "commit": "1a5d23d39eb3d7dfcdeabc8e99c2673fd4937434",
-   "sha256": "1hyl53xm4xrq9ny2labgydvpbvn6aj6nmxxpf44pcagbmn2pghz9"
+   "commit": "e78fe3838101d343fa1aff5c0bec7d4bc490eacf",
+   "sha256": "0pjq3brb8b83jrj8jncxnc04s5199222ykkjrg3xyqfxy8c31gsl"
   },
   "stable": {
    "version": [
@@ -15145,6 +15154,15 @@
    "version": [
     20261001,
     239
+   ],
+   "commit": "a6a65777e2ee432ac9bd273ec9baa849f1d1f2bc",
+   "sha256": "1mpmpcmib7mip7d580vw04i7a58p8drz0prf18f6s5jdzv2wy8y2"
+  },
+  "stable": {
+   "version": [
+    0,
+    8,
+    4
    ],
    "commit": "a6a65777e2ee432ac9bd273ec9baa849f1d1f2bc",
    "sha256": "1mpmpcmib7mip7d580vw04i7a58p8drz0prf18f6s5jdzv2wy8y2"
@@ -50024,7 +50042,7 @@
   "unstable": {
    "version": [
     20261004,
-    847
+    1652
    ],
    "deps": [
     "closql",
@@ -50038,8 +50056,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "be7dad4c2d9f8e0349679a5b3d3ae2d7a8625f40",
-   "sha256": "1lkypdi3f4cscqp7k902db0ahllmv9k5y7cllgxx02xj9781z7fg"
+   "commit": "1252b1ddac687595e590ad2fe7a75ab67a725701",
+   "sha256": "09sjb3qmj4wlwlqlgcl0lwr1nwabcs3isz0qbif0qrsv093ikgpd"
   },
   "stable": {
    "version": [
@@ -56577,9 +56595,20 @@
   "ename": "gptel-annotate",
   "commit": "e643b912d58fe1a92ca15ccae637893b1eb00300",
   "sha256": "10bgwpcpssla6bsy7cqwckss2fac3168zx9ibc76myh6kk5vpi9h",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "karthink/gptel-annotate"
+  "repo": "karthink/gptel-annotate",
+  "unstable": {
+   "version": [
+    20260928,
+    121
+   ],
+   "deps": [
+    "compat",
+    "gptel"
+   ],
+   "commit": "ec65d175b7a1b83fa6f256f5454b2e5f082b4841",
+   "sha256": "1k7x6v1y7fzz8ad5z36qyy6njyw65gzwa7i5hvqcv7r4f36avdfn"
+  }
  },
  {
   "ename": "gptel-commit",
@@ -71353,8 +71382,8 @@
   "repo": "unmonoqueteclea/jira.el",
   "unstable": {
    "version": [
-    20260315,
-    1613
+    20261004,
+    1907
    ],
    "deps": [
     "magit-section",
@@ -71362,13 +71391,13 @@
     "tablist",
     "transient"
    ],
-   "commit": "1b1a43600ca138f3f8e56481bea6f629a4d877ec",
-   "sha256": "0qghm4a013ir1rhd3ifcr6h4rjidz83x5xlfjn5gjlhs2y205gqy"
+   "commit": "ea01072d1492e0d0d5832ede596655c8bcc9e4ed",
+   "sha256": "1s3y7v18inqxf0pj8mcbq4a2igwl5xyrgi2rpla1jwjs34p2c4fz"
   },
   "stable": {
    "version": [
     2,
-    21,
+    23,
     0
    ],
    "deps": [
@@ -71377,8 +71406,8 @@
     "tablist",
     "transient"
    ],
-   "commit": "b578426e7f4d6d4c41a41788053e88e6a5290f84",
-   "sha256": "0hiv8ynygnqv2b5d7s43zab8d75fc34n06jvlm0wscjkq8rkmnkm"
+   "commit": "ea01072d1492e0d0d5832ede596655c8bcc9e4ed",
+   "sha256": "1s3y7v18inqxf0pj8mcbq4a2igwl5xyrgi2rpla1jwjs34p2c4fz"
   }
  },
  {
@@ -75812,9 +75841,31 @@
   "ename": "latex-to-svg-for-latex",
   "commit": "83cad5c6cdc2cf587caa0149e4bc2beea6049d74",
   "sha256": "1vjkprb01x6735dcsf2xln1ks4swa88vf9wvcsvma9b0mkdl45jd",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "alberti42/latex-to-svg"
+  "repo": "alberti42/latex-to-svg",
+  "unstable": {
+   "version": [
+    20260928,
+    1811
+   ],
+   "deps": [
+    "latex-to-svg-frontend"
+   ],
+   "commit": "48d48b529501905eda922cd1c8ac46afbf0ea27b",
+   "sha256": "0wnb48mw6ycwapyis6hawimwj56k4kqwfhh18mwghkylw7zpln7k"
+  },
+  "stable": {
+   "version": [
+    0,
+    18,
+    1
+   ],
+   "deps": [
+    "latex-to-svg-frontend"
+   ],
+   "commit": "1944a44ddf02d1507b381ffdf9460a9f248b5d63",
+   "sha256": "0qdskb9jpn0xgiq6m9jvniqhb1lmzk5q13gxa9qikahndfpj0w1l"
+  }
  },
  {
   "ename": "latex-to-svg-for-markdown",
@@ -89002,9 +89053,25 @@
   "ename": "neofetch",
   "commit": "1c70e07f9818de1ea9f84a648682b99d11abfa07",
   "sha256": "15cn8xyy10ilnxjicaisbrv6dpfsqqrhj133bigmx3wwnwhs97nz",
-  "error": "Not in archive",
   "fetcher": "codeberg",
-  "repo": "benja2998/neofetch.el"
+  "repo": "benja2998/neofetch.el",
+  "unstable": {
+   "version": [
+    20260916,
+    2218
+   ],
+   "commit": "171b49930dd655693d067fc3f764b3b2f5feb36f",
+   "sha256": "0lxg4c2wz5dzgq2h39lfljgj5bhk2dbi5s3d6q3fj9zf40xbr79v"
+  },
+  "stable": {
+   "version": [
+    1,
+    8,
+    1
+   ],
+   "commit": "171b49930dd655693d067fc3f764b3b2f5feb36f",
+   "sha256": "0lxg4c2wz5dzgq2h39lfljgj5bhk2dbi5s3d6q3fj9zf40xbr79v"
+  }
  },
  {
   "ename": "neon-mode",
@@ -112635,9 +112702,25 @@
   "ename": "pyfun-mode",
   "commit": "f32a1b2b9460bd246513bbb7228d6cc75e87a0a4",
   "sha256": "1y5sv3za84hl2cb7ymd8bpjvzanc56dhplz38j1v5j8jqnsq57cr",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "simontreanor/Pyfun"
+  "repo": "simontreanor/Pyfun",
+  "unstable": {
+   "version": [
+    20260925,
+    1114
+   ],
+   "commit": "7233d8d52ac84d891a37d26a8377c84961ab31a8",
+   "sha256": "0n7pdvayj031f38ydskrp974gxkbwq1xsa5pcqdpz6plij59dn3r"
+  },
+  "stable": {
+   "version": [
+    0,
+    8,
+    1
+   ],
+   "commit": "dec181b060c41a8bec4e3e308abdd37c27d9eed0",
+   "sha256": "0rdrrivqzz2v6sgmg498ashd9x8q244z9a6lh5lxd5rbjyshczk7"
+  }
  },
  {
   "ename": "pygen",
@@ -117072,15 +117155,15 @@
   "repo": "dajva/rg.el",
   "unstable": {
    "version": [
-    20260823,
-    1828
+    20261004,
+    2129
    ],
    "deps": [
     "transient",
     "wgrep"
    ],
-   "commit": "6b00e2ae98c47cf7ea04d26636e11b7fa2a540e3",
-   "sha256": "04956rihrr4m916lay576rhyw03lzhwzg1yi432pkdq6vb5973gs"
+   "commit": "7d4839686031754ff86e4ad3ab76da108777edb3",
+   "sha256": "1y1wwwf3mygc5pwqyl4ynsfc0q6jmz4mbzjvcwjxzrvrhzdvyil4"
   },
   "stable": {
    "version": [
@@ -131252,16 +131335,16 @@
   "repo": "johannes-mueller/test-cockpit.el",
   "unstable": {
    "version": [
-    20261003,
-    1228
+    20261004,
+    2105
    ],
    "deps": [
     "projectile",
     "toml",
     "transient"
    ],
-   "commit": "33a42ab44c509ee15c723f186781559b51319dca",
-   "sha256": "0cx6h8j7ng5q83j04n38a5gc9b88hvf5m9hgzkvq60kfz1ckvys1"
+   "commit": "a3f7e876cbd719cf393ed7d1ea527caaf57b6a60",
+   "sha256": "16rgwlcqd5iysvyq025iakp69z4wnj050x60l9gq4frhibzm9iqg"
   },
   "stable": {
    "version": [
@@ -134705,9 +134788,35 @@
   "ename": "triode",
   "commit": "9e4a6027d860e0d820062c847e6f765118a8bae6",
   "sha256": "0bc2mbl32lim56zn9965m23b1hnzczyqb0akvi2bls2vfpgfvqwv",
-  "error": "Not in archive",
   "fetcher": "github",
-  "repo": "kickingvegas/triode"
+  "repo": "kickingvegas/triode",
+  "unstable": {
+   "version": [
+    20261004,
+    1820
+   ],
+   "deps": [
+    "restlib",
+    "shazam",
+    "transient"
+   ],
+   "commit": "d6d332737ce960ce094c0cbfa193ecb43976a875",
+   "sha256": "087fc7vw29fi7w57r49xbc6az04qsjbsx11h27afajnc1m72sir8"
+  },
+  "stable": {
+   "version": [
+    0,
+    1,
+    1
+   ],
+   "deps": [
+    "restlib",
+    "shazam",
+    "transient"
+   ],
+   "commit": "d6d332737ce960ce094c0cbfa193ecb43976a875",
+   "sha256": "087fc7vw29fi7w57r49xbc6az04qsjbsx11h27afajnc1m72sir8"
+  }
  },
  {
   "ename": "tron-legacy-theme",
@@ -139512,7 +139621,7 @@
   "unstable": {
    "version": [
     20261004,
-    1042
+    1832
    ],
    "deps": [
     "dash",
@@ -139520,8 +139629,8 @@
     "org",
     "s"
    ],
-   "commit": "5907f46de3b1c07e3008370000060c87c42c5c86",
-   "sha256": "1irn69lsqvj3s9zv7wb1g7iswck19r22260qfgc5p1n6438xkp66"
+   "commit": "ae761bb847b645522a9b234fdd90ae95c554ae32",
+   "sha256": "0jh0gj1wb5hlm1x0bkhnfq8vchc9sdsh8aa6j6bzh9scwrjma2xn"
   },
   "stable": {
    "version": [
