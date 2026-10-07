@@ -2026,10 +2026,10 @@
     elpaBuild {
       pname = "fedi";
       ename = "fedi";
-      version = "0.4";
+      version = "0.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fedi-0.4.tar";
-        sha256 = "0zh2rkkj1wyj7csg72gg54mxlrd5kav54z3qhk6lp6j8h3zxkdvd";
+        url = "https://elpa.nongnu.org/nongnu/fedi-0.5.tar";
+        sha256 = "1fb2yz1cakiglhqyshmsl2a6zdzanyp54xz5b64vwbrqlb1zdnia";
       };
       packageRequires = [ markdown-mode ];
       meta = {
@@ -2052,10 +2052,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.47";
+      version = "0.48";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fj-0.47.tar";
-        sha256 = "1chvsbdpla3gv4zwczmpwcaji8sxnrks9kdipayxf9296k3i6fyv";
+        url = "https://elpa.nongnu.org/nongnu/fj-0.48.tar";
+        sha256 = "1pxgkry4gakdzy306qjmck4rhmv3d1dk164d5rxn7ghxyg93i8wg";
       };
       packageRequires = [
         compat
