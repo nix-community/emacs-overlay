@@ -6447,7 +6447,6 @@
   ) { };
   nhexl-mode = callPackage (
     {
-      cl-lib ? null,
       elpaBuild,
       fetchurl,
       lib,
@@ -6455,12 +6454,12 @@
     elpaBuild {
       pname = "nhexl-mode";
       ename = "nhexl-mode";
-      version = "1.5";
+      version = "1.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/nhexl-mode-1.5.tar";
-        sha256 = "1i1by5bp5dby2r2jhzr0jvnchrybgnzmc5ln84w66180shk2s3yk";
+        url = "https://elpa.gnu.org/packages/nhexl-mode-1.6.tar";
+        sha256 = "1g3i2h6xasykjjjjap0f0mqpg2rqdgxmam94mld9mhkgjdm3ani8";
       };
-      packageRequires = [ cl-lib ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/nhexl-mode.html";
         license = lib.licenses.free;

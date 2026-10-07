@@ -1708,10 +1708,10 @@
     elpaBuild {
       pname = "coterm";
       ename = "coterm";
-      version = "1.6.0.20261005.5";
+      version = "1.6.0.20261006.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/coterm-1.6.0.20261005.5.tar";
-        sha256 = "0ys580siw4w64slnc0p700jd5p8dzczpdqwfq3993xwlaxkkbhn5";
+        url = "https://elpa.gnu.org/devel/coterm-1.6.0.20261006.6.tar";
+        sha256 = "11qy17kxnjdi0qcr3vqwnpdv14n1khd5vv4lz9hh896z1r24mn1a";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3290,10 +3290,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20261003.51";
+      version = "0.0.20261006.52";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261003.51.tar";
-        sha256 = "0wv9k7zk4xrfnjn83p28ca2gmdmr38fqnlqxlpkdcsy307w6r2i1";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261006.52.tar";
+        sha256 = "055jqbiz8q2kd4l6rqyzgk5wvrs7578naq73ni7f01964v1j3bya";
       };
       packageRequires = [ ];
       meta = {
@@ -6546,10 +6546,10 @@
     elpaBuild {
       pname = "nhexl-mode";
       ename = "nhexl-mode";
-      version = "1.5.0.20221215.152407";
+      version = "1.6.0.20261006.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/nhexl-mode-1.5.0.20221215.152407.tar";
-        sha256 = "0bdw6lycm1hclz3qzckcpnssrd4i52051dzbs87f9sv6f6v31373";
+        url = "https://elpa.gnu.org/devel/nhexl-mode-1.6.0.20261006.0.tar";
+        sha256 = "0d7gavvx1g704wwah7nmy8bjiagm0ynjpfajghh0nf3wvynldzqm";
       };
       packageRequires = [ ];
       meta = {
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261005.578";
+      version = "10.0pre0.20261007.580";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261005.578.tar";
-        sha256 = "1v14sqqfcmd78w9r6ky0wr04i1qfvb956dsbfglbg5px27y2qxzz";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261007.580.tar";
+        sha256 = "16x7d5wi1fjv1amds0lkb76bn54wp9kksmy6q1b85swi0gscc9xj";
       };
       packageRequires = [ ];
       meta = {
