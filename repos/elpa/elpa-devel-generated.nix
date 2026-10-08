@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20261005.37";
+      version = "4.2.3.0.20261008.39";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261005.37.tar";
-        sha256 = "1zxilwm38xfbslxsa3w8sx6jv8ll1znvrnlbv2fsanjk10vaahrm";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261008.39.tar";
+        sha256 = "1z3xbszriwjay6inmwd4sa537mxdb5am58pbzx5w427qd5l7rx18";
       };
       packageRequires = [ ];
       meta = {
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261007.581";
+      version = "10.0pre0.20261008.588";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261007.581.tar";
-        sha256 = "0c5rnzvqz5zf96qpcra1g1h19xdqcxij399mbxzhk04mcc42z23q";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261008.588.tar";
+        sha256 = "0df8j6mjfb6k0501wqf6dkabm1bdpw6572k6bqy67gv6rb2zkgry";
       };
       packageRequires = [ ];
       meta = {
@@ -7681,10 +7681,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.2.0.20260930.10";
+      version = "1.5.2.0.20261008.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.5.2.0.20260930.10.tar";
-        sha256 = "10v4rhhdsdz6chi2qf0c0vpzz1hx320zh1kzw2pd8hhwazdpnpjw";
+        url = "https://elpa.gnu.org/devel/posframe-1.5.2.0.20261008.12.tar";
+        sha256 = "0skwbcc696hpyc26v0lz9j5612yjbpdf4pz229lz3w2rfiaaz8i9";
       };
       packageRequires = [ ];
       meta = {
