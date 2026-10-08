@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.9.0.0.20261008.62";
+      version = "0.9.0.0.20261008.87";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20261008.62.tar";
-        sha256 = "03cg3xyqay3c07a68dwdnsg42s7j5h7ha99p1wh91i0qabrmf8kx";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20261008.87.tar";
+        sha256 = "0jnzy6x3r2yzllj4vkc5kvykzcsv8fq1s2lf4if19j06mikpbf8l";
       };
       packageRequires = [ ];
       meta = {
