@@ -501,10 +501,10 @@
     elpaBuild {
       pname = "buttercup";
       ename = "buttercup";
-      version = "1.40";
+      version = "1.41";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/buttercup-1.40.tar";
-        sha256 = "09r1yp05m7p6906isz1x6dhc7mrxsdisxa19a8py73gqsm1ymf1c";
+        url = "https://elpa.nongnu.org/nongnu/buttercup-1.41.tar";
+        sha256 = "0jkc5n01505aykk036hjp8sc3rsn476xpkng7ysal71dws1axlhq";
       };
       packageRequires = [ ];
       meta = {

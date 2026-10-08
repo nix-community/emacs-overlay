@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.9.0.0.20261007.52";
+      version = "0.9.0.0.20261008.62";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20261007.52.tar";
-        sha256 = "1gh5k179gnikvh70rw7jrgcj0b5l8hklqxazzy775f0fr8qrq2jd";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20261008.62.tar";
+        sha256 = "03cg3xyqay3c07a68dwdnsg42s7j5h7ha99p1wh91i0qabrmf8kx";
       };
       packageRequires = [ ];
       meta = {
@@ -501,10 +501,10 @@
     elpaBuild {
       pname = "buttercup";
       ename = "buttercup";
-      version = "1.40.0.20260512.214133";
+      version = "1.41.0.20261007.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/buttercup-1.40.0.20260512.214133.tar";
-        sha256 = "0fays43ygmxp14gsv75zgwmhg2iycl758684g3b3xvgiq8k6dlw8";
+        url = "https://elpa.nongnu.org/nongnu-devel/buttercup-1.41.0.20261007.0.tar";
+        sha256 = "02xyc0izcldxd1rxb1acdfdr3z9gc6k87bqdlrxr2rh53pvyfvlh";
       };
       packageRequires = [ ];
       meta = {
@@ -3870,10 +3870,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.9alpha0.20260827.20";
+      version = "2.9alpha0.20261008.22";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20260827.20.tar";
-        sha256 = "0hksf5g5hx5wwbw7jvyjhvqi9jyyj923naikdy7fnrczcpvrwz36";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20261008.22.tar";
+        sha256 = "1w70jyri5l1v19cwypp3b0cy20nc107j00bns05bf7w0dvhvqgab";
       };
       packageRequires = [ ];
       meta = {
