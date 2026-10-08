@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20261005.10";
+      version = "14.2.0.0.20261007.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261005.10.tar";
-        sha256 = "0d22xzynacmxbympcsii933f9ag3an957l91ijh2n3jrszn0s32h";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261007.11.tar";
+        sha256 = "0ypa63g29m2iy4h5hc9w8s7ifs0q6118mfbb07l6dnqw7fi2i7q1";
       };
       packageRequires = [ ];
       meta = {
@@ -3221,10 +3221,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.33.0.0.20261002.8";
+      version = "1.33.1.0.20261007.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.33.0.0.20261002.8.tar";
-        sha256 = "043j4k3qr9s1lcksvadxs3i8ky0j0p6d6nvv3ba5zsw9w55mdfp4";
+        url = "https://elpa.gnu.org/devel/ellama-1.33.1.0.20261007.8.tar";
+        sha256 = "1vnjflsjlwmbnmxiqf9y6kdmn49dzjp0rg7y893lh1myglscsvxq";
       };
       packageRequires = [
         compat
@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.2.0.0.20261005.19";
+      version = "9.2.0.0.20261007.20";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.2.0.0.20261005.19.tar";
-        sha256 = "0zlnm7vb55fkwkdgsf1sv132cikhw4x3ng2qjvqdnbyzv41nhih1";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.2.0.0.20261007.20.tar";
+        sha256 = "03l6d31bgkwyw0pn6mm5nwqsi66a75b2jfv0bzw3v9x50k6vjn9n";
       };
       packageRequires = [ ];
       meta = {
@@ -5394,10 +5394,10 @@
     elpaBuild {
       pname = "latex-table-wizard";
       ename = "latex-table-wizard";
-      version = "1.6.1.0.20261002.1";
+      version = "1.6.2.0.20261007.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/latex-table-wizard-1.6.1.0.20261002.1.tar";
-        sha256 = "1b84fwblccs26id01r3dbbf9g6y465n01d03f07c5gxnf0s70ybs";
+        url = "https://elpa.gnu.org/devel/latex-table-wizard-1.6.2.0.20261007.0.tar";
+        sha256 = "13hccypjzl0xzmnapqran8g5489y2nj2sgy4mzzjgh77x5gp50n5";
       };
       packageRequires = [
         auctex
@@ -6200,10 +6200,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.10.0.0.20260825.1";
+      version = "0.10.0.0.20261007.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.10.0.0.20260825.1.tar";
-        sha256 = "1h6fnnbb5ixjxi4bmd5aykcc15svjqqpsc5i34r5z2d03ni33xg0";
+        url = "https://elpa.gnu.org/devel/minuet-0.10.0.0.20261007.2.tar";
+        sha256 = "1nq7ip3zfgfw04s111c2d2jrwxzy8h616n8gagcqdy3br4zlx0iw";
       };
       packageRequires = [
         dash
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261007.580";
+      version = "10.0pre0.20261007.581";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261007.580.tar";
-        sha256 = "16x7d5wi1fjv1amds0lkb76bn54wp9kksmy6q1b85swi0gscc9xj";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261007.581.tar";
+        sha256 = "0c5rnzvqz5zf96qpcra1g1h19xdqcxij399mbxzhk04mcc42z23q";
       };
       packageRequires = [ ];
       meta = {
@@ -7943,10 +7943,10 @@
     elpaBuild {
       pname = "qrencode";
       ename = "qrencode";
-      version = "1.6.0.20261004.1";
+      version = "1.6.0.20261007.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/qrencode-1.6.0.20261004.1.tar";
-        sha256 = "1hvciq7wb0gg7lciymci8xr64ii6xh5hl63414xqfaanx7x5x7s4";
+        url = "https://elpa.gnu.org/devel/qrencode-1.6.0.20261007.2.tar";
+        sha256 = "0agql2smk4abnvyyz20nmb5nfbd9776y6cnsyxyzwx0pvhf4hs19";
       };
       packageRequires = [ ];
       meta = {
