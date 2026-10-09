@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.9.0.0.20261008.87";
+      version = "0.9.0.0.20261009.88";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20261008.87.tar";
-        sha256 = "0jnzy6x3r2yzllj4vkc5kvykzcsv8fq1s2lf4if19j06mikpbf8l";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20261009.88.tar";
+        sha256 = "0nfvc5wvjrg2a40i7f1d8n5q083bmyc38bjqh3mpknnf5a01s9ij";
       };
       packageRequires = [ ];
       meta = {
@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20261007.144";
+      version = "2.1.0snapshot0.20261009.146";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20261007.144.tar";
-        sha256 = "0xwvpkw69ii98i44y6kcfk8nq86xml6jbpq46232ayh6dzav6mx8";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20261009.146.tar";
+        sha256 = "10lvdyc0m8bdcspa1vkp78v8qdxfm6mv10f4h9m9d3v5k36aafbh";
       };
       packageRequires = [
         clojure-mode
@@ -3870,10 +3870,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.9alpha0.20261008.22";
+      version = "2.9alpha0.20261009.24";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20261008.22.tar";
-        sha256 = "1w70jyri5l1v19cwypp3b0cy20nc107j00bns05bf7w0dvhvqgab";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20261009.24.tar";
+        sha256 = "1n8bsi0cgcby3gckgg81f442x31cy4qlkx01bzs452c6fqrhc1xj";
       };
       packageRequires = [ ];
       meta = {
