@@ -4365,10 +4365,10 @@
     elpaBuild {
       pname = "greader";
       ename = "greader";
-      version = "0.19.5";
+      version = "0.19.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greader-0.19.5.tar";
-        sha256 = "1kzm63xp0fzryha5msyl0f4gdhhacz4ys0b0z1wf5phy832bc1w1";
+        url = "https://elpa.gnu.org/packages/greader-0.19.6.tar";
+        sha256 = "0i2lj9451dpzqn1hxar4ijz5i10d2sqv7crjnaz9c0az4b78lgsg";
       };
       packageRequires = [
         compat
@@ -7568,10 +7568,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.2";
+      version = "1.5.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/posframe-1.5.2.tar";
-        sha256 = "0ywbcwm3sh01vc4nc2ra3b09gri2lgz838gjxgsflv9g3si1918x";
+        url = "https://elpa.gnu.org/packages/posframe-1.5.3.tar";
+        sha256 = "0bf0x4g8s0y88advgh0bq5zwfjy46gj1ipfahp7sn9x577z2383l";
       };
       packageRequires = [ ];
       meta = {
