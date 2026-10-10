@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.9.0.0.20261009.88";
+      version = "0.9.0.0.20261010.91";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20261009.88.tar";
-        sha256 = "0nfvc5wvjrg2a40i7f1d8n5q083bmyc38bjqh3mpknnf5a01s9ij";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.9.0.0.20261010.91.tar";
+        sha256 = "0hz3c5gplg0vkaiipskhwp8zplw83gx645ad83dymnrki9zakb6y";
       };
       packageRequires = [ ];
       meta = {
@@ -670,10 +670,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0.0.20260823.53";
+      version = "0.6.0.0.20261010.60";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20260823.53.tar";
-        sha256 = "02siy3da3yjjqgddnmrqd6x455b33zgx6lsziipbr38zva1kdg9d";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20261010.60.tar";
+        sha256 = "0qh2hgdy8wcap69hhy1sazvam62wcpvy8vz4f0fcsydarylk7rf3";
       };
       packageRequires = [ ];
       meta = {
@@ -3449,10 +3449,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.15.0.0.20261007.5";
+      version = "0.15.0.0.20261010.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.15.0.0.20261007.5.tar";
-        sha256 = "1c6hwds8d5csi2p2v184907na0d5fsfhj2v9xg0jr4d3b1qx2vv0";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.15.0.0.20261010.8.tar";
+        sha256 = "029b39bll9n20sirynx93z9jdf7y20p1zhp3vfysfg4fika2g9cd";
       };
       packageRequires = [
         fsm
@@ -6191,10 +6191,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.0snapshot0.20261007.244";
+      version = "9.0.0snapshot0.20261009.247";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.0snapshot0.20261007.244.tar";
-        sha256 = "0dwa6sxymaqfadlszsnv5zypngqnl4wh06yv9a2072qipbrkbpjh";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.0snapshot0.20261009.247.tar";
+        sha256 = "1jcycd491n5l9gw0p2ysbnfz5xd6wddyhjmmyss629vybxs1l7hm";
       };
       packageRequires = [ vcard ];
       meta = {
