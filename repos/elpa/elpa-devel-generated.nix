@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20261008.39";
+      version = "4.2.3.0.20261009.114";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261008.39.tar";
-        sha256 = "1z3xbszriwjay6inmwd4sa537mxdb5am58pbzx5w427qd5l7rx18";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261009.114.tar";
+        sha256 = "1jqyrjm7kxrpna6212iw58z6g73ri6anmyg5w1n3z2d6yynmmxa7";
       };
       packageRequires = [ ];
       meta = {
@@ -3047,10 +3047,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.24.0.20261002.22";
+      version = "1.24.0.20261009.23";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20261002.22.tar";
-        sha256 = "0k6ray8kh540mzx56w1jr4yql3vc2ps1lcf33ap9h25pwwpz2g5b";
+        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20261009.23.tar";
+        sha256 = "1rdpllvzv2bi78hxygi5942djqrc7gklsx5kika5zsim92gkd22a";
       };
       packageRequires = [
         eldoc
@@ -6200,10 +6200,10 @@
     elpaBuild {
       pname = "minuet";
       ename = "minuet";
-      version = "0.10.0.0.20261007.3";
+      version = "0.10.0.0.20261009.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minuet-0.10.0.0.20261007.3.tar";
-        sha256 = "08k1wacv7x9bi997739gs6h7lsrywa5cj3xw8ccqxnxy41v4y31q";
+        url = "https://elpa.gnu.org/devel/minuet-0.10.0.0.20261009.4.tar";
+        sha256 = "1gll3gc0zk1lrxl0sfg0adi8i4kwv01jnmi4avi53dfvgr6xzb03";
       };
       packageRequires = [
         dash
@@ -6546,10 +6546,10 @@
     elpaBuild {
       pname = "nhexl-mode";
       ename = "nhexl-mode";
-      version = "1.6.0.20261006.0";
+      version = "1.6.0.20261009.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/nhexl-mode-1.6.0.20261006.0.tar";
-        sha256 = "0d7gavvx1g704wwah7nmy8bjiagm0ynjpfajghh0nf3wvynldzqm";
+        url = "https://elpa.gnu.org/devel/nhexl-mode-1.6.0.20261009.2.tar";
+        sha256 = "0i60ggwydva2laxlblvj1zwaz8b0dh5jwjssypjaxwpq144vkh2j";
       };
       packageRequires = [ ];
       meta = {
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261008.588";
+      version = "10.0pre0.20261009.590";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261008.588.tar";
-        sha256 = "0df8j6mjfb6k0501wqf6dkabm1bdpw6572k6bqy67gv6rb2zkgry";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261009.590.tar";
+        sha256 = "0lf5k1kqzhkv3aq0yr1166vfbf05pxmlnsi1nk57fpdab17ssxb9";
       };
       packageRequires = [ ];
       meta = {
@@ -6993,10 +6993,10 @@
     elpaBuild {
       pname = "org-notify";
       ename = "org-notify";
-      version = "0.1.2.0.20251219.195448";
+      version = "0.1.3.0.20261009.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-notify-0.1.2.0.20251219.195448.tar";
-        sha256 = "0mxbqyc55506rhyqpv6phmms55c17axr10iqi7yzzl47vv4r5mzs";
+        url = "https://elpa.gnu.org/devel/org-notify-0.1.3.0.20261009.0.tar";
+        sha256 = "1f5jr8j0rw427ywskkx0pqld6qyjmvl08hs6ryhmxzlljcyiawsv";
       };
       packageRequires = [ ];
       meta = {
