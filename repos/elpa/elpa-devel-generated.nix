@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20261009.116";
+      version = "4.2.3.0.20261010.131";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261009.116.tar";
-        sha256 = "12x892dmav7rsid1sqzgircd5zyyaf1q4vwpxhfrqgsy4083vdv0";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261010.131.tar";
+        sha256 = "1clw6yi7wvb1nbwa52dy5clf5dg73ci866xgyhkipjh1wickhz8j";
       };
       packageRequires = [ ];
       meta = {
@@ -2166,10 +2166,10 @@
     elpaBuild {
       pname = "denote-markdown";
       ename = "denote-markdown";
-      version = "0.3.0.0.20260520.123211";
+      version = "0.3.0.0.20261010.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-markdown-0.3.0.0.20260520.123211.tar";
-        sha256 = "0bbf5cycmjl5p6cl81x5cjac98y97cr9jkwnrgi5sy5rgxqfpj8k";
+        url = "https://elpa.gnu.org/devel/denote-markdown-0.3.0.0.20261010.2.tar";
+        sha256 = "1l4avx002i8q1pdfyx4kpjr6lpwkv52zmkdqlsx1rg98h016969n";
       };
       packageRequires = [ denote ];
       meta = {
@@ -2210,10 +2210,10 @@
     elpaBuild {
       pname = "denote-org";
       ename = "denote-org";
-      version = "0.3.0.0.20260904.5";
+      version = "0.3.0.0.20261010.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-org-0.3.0.0.20260904.5.tar";
-        sha256 = "0mfza1g4s1qdyd248d2pqf8nln880bhypi01iakz1n4qhcsi1v0n";
+        url = "https://elpa.gnu.org/devel/denote-org-0.3.0.0.20261010.6.tar";
+        sha256 = "02hr1brx2l02s9i43qzrq8jcnkrzyhy0jy99fdyflydlalvrdwia";
       };
       packageRequires = [ denote ];
       meta = {
@@ -3807,10 +3807,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.7.0.20261002.7";
+      version = "1.4.7.0.20261010.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20261002.7.tar";
-        sha256 = "15ddmv8mr15054vpiln5k8pf1n8wwj5521990xax8xs09ai40bl8";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20261010.11.tar";
+        sha256 = "124rh1yfi0d36xdxyyjhjwvr0i8h7ny283bzmx95wn68hgq5613x";
       };
       packageRequires = [
         eldoc
@@ -5875,10 +5875,10 @@
     elpaBuild {
       pname = "marginalia";
       ename = "marginalia";
-      version = "2.13.0.20260926.0";
+      version = "2.13.0.20261010.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/marginalia-2.13.0.20260926.0.tar";
-        sha256 = "10xcn9krwzrrh63g3gf9k42lnkn318h4kb7sp57las64xa5cavn6";
+        url = "https://elpa.gnu.org/devel/marginalia-2.13.0.20261010.1.tar";
+        sha256 = "1snwdjk5iai8p6bzd9dihy62ahxrmwfmdd4mxsmksl97b2y3gx61";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261010.592";
+      version = "10.0pre0.20261010.595";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261010.592.tar";
-        sha256 = "123dgqaxsc9rm8bw3lxp4lfinq1b6b0g88wlzwnqv276r61559v2";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261010.595.tar";
+        sha256 = "1ikclsjy4kmsiwdz5624pr4ninclq0q9x45valm9xy2py8yy245c";
       };
       packageRequires = [ ];
       meta = {
