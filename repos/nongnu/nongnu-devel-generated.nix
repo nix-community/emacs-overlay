@@ -694,10 +694,10 @@
     elpaBuild {
       pname = "codex-ide";
       ename = "codex-ide";
-      version = "0.1.4.0.20260919.1";
+      version = "0.2.1.0.20261011.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.1.4.0.20260919.1.tar";
-        sha256 = "0gv68gi2qmkaqyn0axv659r1wbb9d3q4pjqmbym9qxnjsc6xjrip";
+        url = "https://elpa.nongnu.org/nongnu-devel/codex-ide-0.2.1.0.20261011.0.tar";
+        sha256 = "1jbn8sln5yf5a6gngxaa2nw7k1a8lg305dv55x1r9gs04w3cpgv1";
       };
       packageRequires = [
         compat
@@ -3055,10 +3055,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.8.0.0.20261009.11";
+      version = "0.8.0.0.20261011.13";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.8.0.0.20261009.11.tar";
-        sha256 = "1maa0dywa1a3v8wcr7hj6ll8sy0hazis9m5g518mi5v8k88nj2k6";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.8.0.0.20261011.13.tar";
+        sha256 = "1vk6r3mykrlsh4gp8yz9xs30q9bf1lmjh8rhwv9nmcynf5i7w312";
       };
       packageRequires = [
         keymap-popup
@@ -4839,10 +4839,10 @@
     elpaBuild {
       pname = "project-nix-store";
       ename = "project-nix-store";
-      version = "0.13.0.0.20261003.1";
+      version = "0.13.0.0.20261010.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.13.0.0.20261003.1.tar";
-        sha256 = "166g9sd61dnv1l210kpc72mf4kyan42qv0irpjprl55sgv0ainvn";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.13.0.0.20261010.3.tar";
+        sha256 = "1qz6rfcixl8wl706zhxf48sph5vzirkbdxhmlkxm24acw637lw4r";
       };
       packageRequires = [ ];
       meta = {
@@ -5378,10 +5378,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20261001.75";
+      version = "2.32snapshot0.20261011.76";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261001.75.tar";
-        sha256 = "1f8yr4vfgcm7wy8h69qpmavm52g2wmbn7rx98i20wrhhlkd94xr6";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261011.76.tar";
+        sha256 = "0c014jygsk4h0fdc5a7h28aa3jd4dm53hafcl34x7dwiccfgh845";
       };
       packageRequires = [ macrostep ];
       meta = {
