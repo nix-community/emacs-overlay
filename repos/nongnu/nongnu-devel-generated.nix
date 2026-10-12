@@ -2809,10 +2809,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.6.0.20261006.22";
+      version = "0.9.9.6.0.20261011.24";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20261006.22.tar";
-        sha256 = "1qbb8pvcrfpd87psyyk22yp5gzj0350j4k9gczndkgrqzzszk6r6";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20261011.24.tar";
+        sha256 = "1drvzf6frisbsjw7lzp6lf5x4g0vhyqq2d5as2vxgykmbl0z2hqr";
       };
       packageRequires = [
         compat
@@ -3006,10 +3006,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20261001.71";
+      version = "4.0.7.0.20261011.73";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20261001.71.tar";
-        sha256 = "10zga659mwimxd7rl4d56mprywwkf3b9s6hprg8k7cxq1ljqkdxw";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20261011.73.tar";
+        sha256 = "06ahvgzbh6ip9c55pm9wr68zmbnla36h0ybq7vbj66w0yqyvpfam";
       };
       packageRequires = [
         helm-core
@@ -3031,10 +3031,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20261001.71";
+      version = "4.0.7.0.20261011.73";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20261001.71.tar";
-        sha256 = "0rx4nj7b3di39hl8rrl2366z5jwcclcj9d8v74nji31phd6mxnxx";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20261011.73.tar";
+        sha256 = "1s184yrc24sxjh2h3h3hkybmabpi0d3fd738dmri4j7dci3fdzj3";
       };
       packageRequires = [ async ];
       meta = {
@@ -3055,10 +3055,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.8.0.0.20261011.13";
+      version = "0.8.0.0.20261011.28";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.8.0.0.20261011.13.tar";
-        sha256 = "1vk6r3mykrlsh4gp8yz9xs30q9bf1lmjh8rhwv9nmcynf5i7w312";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.8.0.0.20261011.28.tar";
+        sha256 = "1whdxkg2lnsnv0jaa6qdv0rn0rm6qc9vmyj89bs7swdyxilfgcv7";
       };
       packageRequires = [
         keymap-popup
@@ -4126,6 +4126,27 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/nginx-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  nightpanel-theme = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "nightpanel-theme";
+      ename = "nightpanel-theme";
+      version = "0.1.0.0.20261010.5";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu-devel/nightpanel-theme-0.1.0.0.20261010.5.tar";
+        sha256 = "13ppz23mgl7hj4wwifl1myy6s2ck40pnf92y5z5xnj59pm3nhp6m";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu-devel/nightpanel-theme.html";
         license = lib.licenses.free;
       };
     }

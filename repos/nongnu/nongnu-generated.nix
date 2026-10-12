@@ -4154,6 +4154,27 @@
       };
     }
   ) { };
+  nightpanel-theme = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "nightpanel-theme";
+      ename = "nightpanel-theme";
+      version = "0.1.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/nightpanel-theme-0.1.0.tar";
+        sha256 = "1v32k6flsvb5wq1zjrlf985nrsfjahgmzvgg2v12y2xdmpj6vh35";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/nightpanel-theme.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   nix-mode = callPackage (
     {
       elpaBuild,
