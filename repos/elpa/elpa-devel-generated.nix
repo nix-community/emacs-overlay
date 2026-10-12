@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20261010.131";
+      version = "4.2.3.0.20261011.149";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261010.131.tar";
-        sha256 = "1clw6yi7wvb1nbwa52dy5clf5dg73ci866xgyhkipjh1wickhz8j";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261011.149.tar";
+        sha256 = "069w30k9yghnm8hahgbcdc00f3291k834gpq3j51zp5rhgzs01n4";
       };
       packageRequires = [ ];
       meta = {
@@ -6822,10 +6822,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261011.596";
+      version = "10.0pre0.20261011.598";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261011.596.tar";
-        sha256 = "12yi4bcsn6si1rl7ky5r2m6chz005r95dqkgk168zg0r65xx2g12";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261011.598.tar";
+        sha256 = "04nya39xqcwl5gfvnbw0szrv0dp85z1m8klafbd3vp3wzqrdbfz3";
       };
       packageRequires = [ ];
       meta = {
@@ -10706,10 +10706,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.15.0.20260913.0";
+      version = "2.15.0.20261011.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.15.0.20260913.0.tar";
-        sha256 = "0b6pzyj2m3svlbf69wfgy5v5zpi9minf8bxcyjc8ff053grrnwh7";
+        url = "https://elpa.gnu.org/devel/vertico-2.15.0.20261011.1.tar";
+        sha256 = "1xpiixqgam7mhil9hn6ih09b4dzl10484wrdxnlvcmgmc4hx7fm2";
       };
       packageRequires = [ compat ];
       meta = {
