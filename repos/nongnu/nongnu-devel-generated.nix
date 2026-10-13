@@ -3006,10 +3006,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20261011.73";
+      version = "4.0.7.0.20261013.76";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20261011.73.tar";
-        sha256 = "06ahvgzbh6ip9c55pm9wr68zmbnla36h0ybq7vbj66w0yqyvpfam";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20261013.76.tar";
+        sha256 = "0whbjmbzplxw64ahzck9mh7jns2wga6gjyj2i9hlj1ff8gr3gzbv";
       };
       packageRequires = [
         helm-core
@@ -3031,10 +3031,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20261011.73";
+      version = "4.0.7.0.20261013.76";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20261011.73.tar";
-        sha256 = "1s184yrc24sxjh2h3h3hkybmabpi0d3fd738dmri4j7dci3fdzj3";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20261013.76.tar";
+        sha256 = "1c2n1vldsp0j3l25zyv1ffv9954zl0r8xsrrhi9cxh3gyds32pxb";
       };
       packageRequires = [ async ];
       meta = {
@@ -3055,10 +3055,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.9.0.0.20261012.50";
+      version = "0.9.0.0.20261013.82";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.9.0.0.20261012.50.tar";
-        sha256 = "1j1qplvvvv5hx8zgd6sdai6fhwnqlwwk6b9agv7qj9mx4px62jii";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.9.0.0.20261013.82.tar";
+        sha256 = "01icayp3i62n8i6cprk594a09jgknvx8ddrj1pjry2zspw900fqr";
       };
       packageRequires = [
         keymap-popup
@@ -5420,10 +5420,10 @@
     elpaBuild {
       pname = "sly";
       ename = "sly";
-      version = "1.0.43.0.20261006.147";
+      version = "1.0.43.0.20261013.150";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20261006.147.tar";
-        sha256 = "1wzh45a0smkm28i7ing52i9vip9wa0ppix78icmj8bcy0jccycf4";
+        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20261013.150.tar";
+        sha256 = "1jlcdx0agf2rr50hfnm1rajd4qx0g3qy70ykbiksgk6nzdhqvd3b";
       };
       packageRequires = [ ];
       meta = {
