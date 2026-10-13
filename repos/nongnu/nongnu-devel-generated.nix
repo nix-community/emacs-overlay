@@ -1827,10 +1827,10 @@
     elpaBuild {
       pname = "evil-matchit";
       ename = "evil-matchit";
-      version = "4.1.0.0.20260412.3556";
+      version = "4.1.1.0.20261012.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-matchit-4.1.0.0.20260412.3556.tar";
-        sha256 = "0pzpzlix9l3rv1g1giibhhmxwczsg8i0zjibjszds0agcyl2p7dg";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-matchit-4.1.1.0.20261012.1.tar";
+        sha256 = "03na389sig7d2x5xzfbqjdjpgpn8bwgzypyc21fqxxh18g3nk0nv";
       };
       packageRequires = [ ];
       meta = {
@@ -3055,10 +3055,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.8.0.0.20261011.28";
+      version = "0.9.0.0.20261012.50";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.8.0.0.20261011.28.tar";
-        sha256 = "1whdxkg2lnsnv0jaa6qdv0rn0rm6qc9vmyj89bs7swdyxilfgcv7";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.9.0.0.20261012.50.tar";
+        sha256 = "1j1qplvvvv5hx8zgd6sdai6fhwnqlwwk6b9agv7qj9mx4px62jii";
       };
       packageRequires = [
         keymap-popup
@@ -5653,10 +5653,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "10.0.0.0.20260902.39";
+      version = "10.0.0.0.20261012.41";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20260902.39.tar";
-        sha256 = "1i0krxppl1xqvn3ivr986pixh2xs4q1c7m2qyr62sq50ab9hhr7s";
+        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20261012.41.tar";
+        sha256 = "0x4yy0cy2hgd64624c0mlp0120wkqwhra7n59razpfj5a8dpkzba";
       };
       packageRequires = [ ];
       meta = {

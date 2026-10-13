@@ -1845,10 +1845,10 @@
     elpaBuild {
       pname = "evil-matchit";
       ename = "evil-matchit";
-      version = "4.1.0";
+      version = "4.1.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/evil-matchit-4.1.0.tar";
-        sha256 = "10wdnk5mwfzyn78qaaf0via30bs3nf2r6hq41ml6dq6xvmkfbp4a";
+        url = "https://elpa.nongnu.org/nongnu/evil-matchit-4.1.1.tar";
+        sha256 = "1fc0v73xivlicry53hmcyhm1rndi98y22vdfmj4bs6gpsl36cag3";
       };
       packageRequires = [ ];
       meta = {
@@ -3072,10 +3072,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.8.0";
+      version = "0.9.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hermes-0.8.0.tar";
-        sha256 = "0s4kj1zqxjqyyfamdyyjv6sykfijfnh3f9d28ci48dbi63qvjcx1";
+        url = "https://elpa.nongnu.org/nongnu/hermes-0.9.0.tar";
+        sha256 = "0r7ck2z7nfvmz8jbdnid03p98hxsmdgw6h82cy9lns9p2dj5kf9p";
       };
       packageRequires = [
         keymap-popup
