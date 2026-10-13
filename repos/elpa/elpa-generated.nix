@@ -6901,10 +6901,10 @@
     elpaBuild {
       pname = "org-notify";
       ename = "org-notify";
-      version = "0.1.3";
+      version = "0.1.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-notify-0.1.3.tar";
-        sha256 = "188wyjbrk1wy8cw9md0pn26301fg5zw8fy2z6wdsawycx6akgwpn";
+        url = "https://elpa.gnu.org/packages/org-notify-0.1.4.tar";
+        sha256 = "13qaxhkwp26qlb1zdryyqi5l4jbcibxw1smpw2gdv79gzbwxj1ig";
       };
       packageRequires = [ ];
       meta = {

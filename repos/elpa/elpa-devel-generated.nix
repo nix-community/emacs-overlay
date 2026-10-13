@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20261011.149";
+      version = "4.2.3.0.20261012.166";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261011.149.tar";
-        sha256 = "069w30k9yghnm8hahgbcdc00f3291k834gpq3j51zp5rhgzs01n4";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261012.166.tar";
+        sha256 = "1j6af222xnwa9sbb7anpx54mb8j9d783sdkswjx40aw5861pxizf";
       };
       packageRequires = [ ];
       meta = {
@@ -6815,6 +6815,7 @@
   ) { };
   org = callPackage (
     {
+      compat,
       elpaBuild,
       fetchurl,
       lib,
@@ -6822,12 +6823,12 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261012.600";
+      version = "10.0pre0.20261012.607";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261012.600.tar";
-        sha256 = "1vwsmvbanijr4vjqyj3qw9yndx6bgvzhxkxwyscpxh8frqv9qbg7";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261012.607.tar";
+        sha256 = "1jjqwf7ilkpbbyqwkcmh0i776jvbcbzj9gkd5nsvay4y7kl7s0q2";
       };
-      packageRequires = [ ];
+      packageRequires = [ compat ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/org.html";
         license = lib.licenses.free;
@@ -6993,10 +6994,10 @@
     elpaBuild {
       pname = "org-notify";
       ename = "org-notify";
-      version = "0.1.3.0.20261009.0";
+      version = "0.1.4.0.20261012.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-notify-0.1.3.0.20261009.0.tar";
-        sha256 = "1f5jr8j0rw427ywskkx0pqld6qyjmvl08hs6ryhmxzlljcyiawsv";
+        url = "https://elpa.gnu.org/devel/org-notify-0.1.4.0.20261012.0.tar";
+        sha256 = "0d087bcb667g3xyf65ivcyiz2k056f951vg43rs4n4y7scg427hq";
       };
       packageRequires = [ ];
       meta = {
@@ -7681,10 +7682,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.3.0.20261010.0";
+      version = "1.5.3.0.20261012.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.5.3.0.20261010.0.tar";
-        sha256 = "0m0mmd443gvvhw7zpbxc5ws57j499dnx7nbvcfks7i155sbn7567";
+        url = "https://elpa.gnu.org/devel/posframe-1.5.3.0.20261012.2.tar";
+        sha256 = "027x706kvrcdfsm0gv2y83y4cfnhl02y55hrs3sc4sv3qlggzl6w";
       };
       packageRequires = [ ];
       meta = {
