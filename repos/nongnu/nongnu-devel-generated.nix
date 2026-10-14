@@ -1630,10 +1630,10 @@
     elpaBuild {
       pname = "evil-collection";
       ename = "evil-collection";
-      version = "3.0.3.0.20260927.4";
+      version = "3.0.3.0.20261014.11";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.3.0.20260927.4.tar";
-        sha256 = "190l60wrbg5djsrfar206ppxhny70d8fd21fbksqji8h64x3rd67";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.3.0.20261014.11.tar";
+        sha256 = "16lw2m2i2g1mfv2zc3cp15gvz1r7jgxg5cmr6yz25cqxnyl2g4d7";
       };
       packageRequires = [ evil ];
       meta = {
@@ -2809,10 +2809,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.6.0.20261011.27";
+      version = "0.9.9.6.0.20261013.28";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20261011.27.tar";
-        sha256 = "0ss6jx8lrcfx2s8s3l1clc59wwz73kcrn0hq0pckkhsli8phk9l9";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20261013.28.tar";
+        sha256 = "0bib19wyycm8d8il3dm1c3y4hqb61q1y551xvlqx5gg24kf4pwzc";
       };
       packageRequires = [
         compat
@@ -5399,10 +5399,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20261011.76";
+      version = "2.32snapshot0.20261014.77";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261011.76.tar";
-        sha256 = "0c014jygsk4h0fdc5a7h28aa3jd4dm53hafcl34x7dwiccfgh845";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261014.77.tar";
+        sha256 = "18vjzps66wpa45pdryzn4s45zgc0sykaizr2fqi9g7q3mvwn9yxi";
       };
       packageRequires = [ macrostep ];
       meta = {
