@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20261007.11";
+      version = "14.2.0.0.20261013.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261007.11.tar";
-        sha256 = "0ypa63g29m2iy4h5hc9w8s7ifs0q6118mfbb07l6dnqw7fi2i7q1";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261013.12.tar";
+        sha256 = "1jjibmq2kxfb3wpzyqzchhl3c4knb3hs6laxm15fkcjca1m8fq3j";
       };
       packageRequires = [ ];
       meta = {
@@ -3047,10 +3047,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.24.0.20261009.23";
+      version = "1.24.0.20261013.24";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20261009.23.tar";
-        sha256 = "1rdpllvzv2bi78hxygi5942djqrc7gklsx5kika5zsim92gkd22a";
+        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20261013.24.tar";
+        sha256 = "079vhpss8527diyi8y01pr8lzfij4lkr5nxpb9y3a2qrhjpvv84p";
       };
       packageRequires = [
         eldoc
@@ -6801,10 +6801,10 @@
     elpaBuild {
       pname = "orderless";
       ename = "orderless";
-      version = "1.8.0.20260927.0";
+      version = "1.8.0.20261013.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/orderless-1.8.0.20260927.0.tar";
-        sha256 = "1gx94iax3x7ngppqp4c52bkf99fd5mv7yl847785s50jkl4dws17";
+        url = "https://elpa.gnu.org/devel/orderless-1.8.0.20261013.1.tar";
+        sha256 = "1h734q76khv8lnq3sra0q7mvswr488hxz8my2cs6js1kzyyhmi1j";
       };
       packageRequires = [ compat ];
       meta = {
