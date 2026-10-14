@@ -2222,28 +2222,28 @@
   "repo": "alberti42/agent-shell-math-renderer",
   "unstable": {
    "version": [
-    20261011,
-    1924
+    20261014,
+    1332
    ],
    "deps": [
     "agent-shell",
     "latex-to-svg-backend"
    ],
-   "commit": "4d92db00a8430726d63ab50c4b5d8fc03fcd2620",
-   "sha256": "0nv7nk7w6n28dci0438l92kq8gvvavzlq20b8rs8z87qqi8y3y4w"
+   "commit": "c5507cd4570ec6237e2573bf01b6383e23f1109f",
+   "sha256": "0d1sh5663mnw98rz5vmixgxzjffl1ih3rla3wfrdn3qqxw6xzc7n"
   },
   "stable": {
    "version": [
     0,
     13,
-    0
+    1
    ],
    "deps": [
     "agent-shell",
     "latex-to-svg-backend"
    ],
-   "commit": "4d92db00a8430726d63ab50c4b5d8fc03fcd2620",
-   "sha256": "0nv7nk7w6n28dci0438l92kq8gvvavzlq20b8rs8z87qqi8y3y4w"
+   "commit": "c5507cd4570ec6237e2573bf01b6383e23f1109f",
+   "sha256": "0d1sh5663mnw98rz5vmixgxzjffl1ih3rla3wfrdn3qqxw6xzc7n"
   }
  },
  {
@@ -37718,10 +37718,10 @@
    "version": [
     29,
     1,
-    1
+    2
    ],
-   "commit": "ad05823719d77c8faee87348ea39513d4e2f99c5",
-   "sha256": "1qcx55iv71i5v4h12gqrg1l7vicifsdfn6z28jgaya7ciq9j3klk"
+   "commit": "d199a49a01a2079afb6f2c5c9ae047cd4555e68d",
+   "sha256": "0xk1503ppsdmhwr31sla5g8cqsa3ii3wrg2ik4hsv1kywaf75vkf"
   }
  },
  {
@@ -43489,15 +43489,15 @@
   "repo": "Artawower/file-info.el",
   "unstable": {
    "version": [
-    20260509,
-    754
+    20261014,
+    1443
    ],
    "deps": [
     "browse-at-remote",
     "hydra"
    ],
-   "commit": "c20ab17ee23e7e1b07975cce9a3c2d5e3dff14f6",
-   "sha256": "19msd6iaadnxg8rdvlj12vdwpq3jk81q23hz68pdz1yp9spndbc5"
+   "commit": "1eb781f5b0c38a947a3c34df2101ced0b75236d7",
+   "sha256": "11l8fasyx8k4pn4n458kqcsp1jlz6cl22x85c6rg4hrq5xgxcnhi"
   },
   "stable": {
    "version": [
@@ -56548,16 +56548,16 @@
   "repo": "beacoder/gptel-agent-harness",
   "unstable": {
    "version": [
-    20261008,
-    304
+    20261014,
+    1251
    ],
    "deps": [
     "compat",
     "gptel",
     "gptel-agent"
    ],
-   "commit": "02778f3ce96adaa56f9c8e08ae59760fd8fb85c2",
-   "sha256": "1afgqhsv3q3xq3wd6iykqzg0flsia6bb08ydr3w9lpz8zqy50cql"
+   "commit": "e649ed7e063e9e1476c5c3abf7dd826cf22557f9",
+   "sha256": "1v6zi4dzlpk01v4jaq5iwybgqb9xsp5300m4gmplg172223g931p"
   },
   "stable": {
    "version": [
@@ -75821,20 +75821,20 @@
   "repo": "alberti42/latex-to-svg-backend",
   "unstable": {
    "version": [
-    20261011,
-    1724
+    20261014,
+    1334
    ],
-   "commit": "9d1000fa33262fe0e53d95cda49328d1ad06f158",
-   "sha256": "16pbpzjq8bw5lr1wpf6glr9qf48q1lgsjwj5sa7ghxry85lnivc3"
+   "commit": "d67a23e18008719a0677ce964cd60422874bb00d",
+   "sha256": "178z9hlq8xfzjghvg0y9kfrkcwggcbsj1mih8y1pnixryxpzvzgv"
   },
   "stable": {
    "version": [
     0,
-    14,
+    15,
     0
    ],
-   "commit": "9d1000fa33262fe0e53d95cda49328d1ad06f158",
-   "sha256": "16pbpzjq8bw5lr1wpf6glr9qf48q1lgsjwj5sa7ghxry85lnivc3"
+   "commit": "d67a23e18008719a0677ce964cd60422874bb00d",
+   "sha256": "178z9hlq8xfzjghvg0y9kfrkcwggcbsj1mih8y1pnixryxpzvzgv"
   }
  },
  {
@@ -82672,13 +82672,13 @@
   "unstable": {
    "version": [
     20261014,
-    754
+    1400
    ],
    "deps": [
     "markdown-table-wrap"
    ],
-   "commit": "1227c3a290bf3da4b7966eff22d09b7c09a8a591",
-   "sha256": "1703zdkdw97f2wkk8h80bs0n3484131xwgh2xax2vha6z89lx3d7"
+   "commit": "3ad20271aa39fa664cfe30b53d6a307f347f7073",
+   "sha256": "0ccs3krhcnbz784cd20p34mlg4shhkgxpcyv8pdxr33vn8zl9l08"
   },
   "stable": {
    "version": [
@@ -85880,10 +85880,10 @@
   "stable": {
    "version": [
     4,
-    5
+    6
    ],
-   "commit": "98473694a33922cfdddb18b4791028e4854b53b5",
-   "sha256": "0j1lyzia3i37q6b35pd06j5bkz2yji0f0r6xcgg79177zyyqj0lp"
+   "commit": "1fa5e3ce022089558c853f7830f72b7201e66a78",
+   "sha256": "0qfi77x5sfhjr5cvn9i8pj0q8icwvvsw2cyjq4dkx8k5i2w9kyqd"
   }
  },
  {
@@ -93976,15 +93976,15 @@
   },
   "stable": {
    "version": [
-    4,
-    35,
+    5,
+    0,
     1
    ],
    "deps": [
     "org-re-reveal"
    ],
-   "commit": "47b626bcb7f1b2d2a5a1e4a740a659a89c2b2b1f",
-   "sha256": "123vhavra0c8iah1rjdhpc8lbmh3slskz0kjwb6f01rkkn7pwwyk"
+   "commit": "e66b37ab804f9332a7ed8711552cac8d6ef05c4c",
+   "sha256": "0l4sw74ksgynnqyj7vxn6xhs2ady4n2vbkk2ldnx86qdpsm3gc1d"
   }
  },
  {
@@ -123449,8 +123449,8 @@
   "repo": "emacs-slack/emacs-slack",
   "unstable": {
    "version": [
-    20261009,
-    1314
+    20261014,
+    1603
    ],
    "deps": [
     "alert",
@@ -123462,8 +123462,8 @@
     "ts",
     "websocket"
    ],
-   "commit": "f6a1434e4bc46bcdd77bdd99e85d967890e1f852",
-   "sha256": "1hnydfhs4nsgbcijnkkx4zflvs4scpvzn3m9rzrj15sxw01v1iqc"
+   "commit": "8163416ce7d1074d62df764b9071d92c63fc8888",
+   "sha256": "0lfgq039szb63ad845l4q7kqjc7c77yfd1fn61a59h80l0vc306y"
   }
  },
  {
@@ -139702,8 +139702,8 @@
   "repo": "d12frosted/vulpea",
   "unstable": {
    "version": [
-    20261012,
-    1027
+    20261014,
+    1400
    ],
    "deps": [
     "dash",
@@ -139711,8 +139711,8 @@
     "org",
     "s"
    ],
-   "commit": "0edc7614f1dc4e3bccb30a0f3ca9952b25709287",
-   "sha256": "14psd2cl6r4s7kh9p339vk2fdnsgx3ri7bvkh1gh7x7lqffddvdg"
+   "commit": "f40c5bc5283755410e0b0320fa34382c50ede758",
+   "sha256": "08ywjyvjr4kfs7q5varmfz3z951vr7rd8hjjay69c98vbsvk5izi"
   },
   "stable": {
    "version": [
