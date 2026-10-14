@@ -56,6 +56,7 @@ let
                     ]
                     ++ optionals (versionOlder "31.1" old.version) [
                       "CVE-2024-53920.patch"
+                      "CVE-2026-108976.patch"
                     ];
                   isApplicable = patch: !(builtins.elem patch.name or patch inapplicablePatches);
                 in
