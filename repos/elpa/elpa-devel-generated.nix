@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.16.0.20261014.1";
+      version = "2.16.0.20261014.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.16.0.20261014.1.tar";
-        sha256 = "1c4dpwj201f1kcf23fb64ph702bm7wz975xqxp11h7gqlld6iq23";
+        url = "https://elpa.gnu.org/devel/corfu-2.16.0.20261014.2.tar";
+        sha256 = "07jhs6wpjbr0wlsirkwks8vv8q1q3vbdr8jlw6fbcn06ddsam3rb";
       };
       packageRequires = [ compat ];
       meta = {
@@ -1708,10 +1708,10 @@
     elpaBuild {
       pname = "coterm";
       ename = "coterm";
-      version = "1.6.0.20261006.6";
+      version = "1.6.0.20261013.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/coterm-1.6.0.20261006.6.tar";
-        sha256 = "11qy17kxnjdi0qcr3vqwnpdv14n1khd5vv4lz9hh896z1r24mn1a";
+        url = "https://elpa.gnu.org/devel/coterm-1.6.0.20261013.7.tar";
+        sha256 = "11js7721172k6lc58ayna9d98vd27c5qzdarslg0q8i316v5f9sq";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.2.0.0.20261008.21";
+      version = "9.3.0.0.20261014.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.2.0.0.20261008.21.tar";
-        sha256 = "132nrphbzzjdybcvf73yyyip1x82rk8afxlff4q3ymzbrdi449hb";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.3.0.0.20261014.0.tar";
+        sha256 = "0xzv5ljs8vwixm1azjzjgxk3kms8d1dpib390nha71dy73k7wdpr";
       };
       packageRequires = [ ];
       meta = {
@@ -5222,10 +5222,10 @@
     elpaBuild {
       pname = "jsonrpc";
       ename = "jsonrpc";
-      version = "1.0.29.0.20260623.0";
+      version = "1.0.29.0.20261014.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.29.0.20260623.0.tar";
-        sha256 = "08l1xicms32yagpv20yi0b626nkyc5xwaljq4fda7ygndkhlm5a2";
+        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.29.0.20261014.1.tar";
+        sha256 = "158zrqdl34cfqkn5w5hi8gg0kpxjhrp6aq3l897ji6qs0hvjx41q";
       };
       packageRequires = [ ];
       meta = {
@@ -6823,10 +6823,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261014.608";
+      version = "10.0pre0.20261014.609";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261014.608.tar";
-        sha256 = "1fqfa3nnzvs4fqyk5j8frf4j92zv5jxavx6xa3bz7bp6ivbi4nqa";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261014.609.tar";
+        sha256 = "0h4wzh14lxy7vx5dwfagwjglnz19wf0s6a5x5y0ahl1bams63vg3";
       };
       packageRequires = [ compat ];
       meta = {
