@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.3.0.0.20261014.0";
+      version = "9.3.0.0.20261014.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.3.0.0.20261014.0.tar";
-        sha256 = "0xzv5ljs8vwixm1azjzjgxk3kms8d1dpib390nha71dy73k7wdpr";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.3.0.0.20261014.1.tar";
+        sha256 = "18xyzq3xvfdvra1pmn5izz17dwpfh65a6s17pxyx6454mhrmm049";
       };
       packageRequires = [ ];
       meta = {
@@ -5556,10 +5556,10 @@
     elpaBuild {
       pname = "lisp-ts-mode";
       ename = "lisp-ts-mode";
-      version = "0.4.0.0.20261014.7";
+      version = "0.4.0.0.20261015.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.4.0.0.20261014.7.tar";
-        sha256 = "1gir5qdxbp1caj4qv33ki4q7iam887wf8s6rynm6wxpysbmf5l9d";
+        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.4.0.0.20261015.9.tar";
+        sha256 = "11vkn2cqy8a57v33sixc7wshj3sxnpacrjz5rph6wcnjfdmj1aia";
       };
       packageRequires = [
         compat
@@ -5635,10 +5635,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.34.0.0.20261013.0";
+      version = "0.34.0.0.20261014.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.34.0.0.20261013.0.tar";
-        sha256 = "1z9489d57ij7j1d2i0cgzq3kjfnlmrkjwlz5ydcv565dsn8aygb2";
+        url = "https://elpa.gnu.org/devel/llm-0.34.0.0.20261014.2.tar";
+        sha256 = "11wxy9jzjvl4jjg8dhrr19c2rmcm1aw8r30nzafwp406dp5b5hza";
       };
       packageRequires = [
         compat
@@ -6823,10 +6823,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261014.609";
+      version = "10.0pre0.20261014.610";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261014.609.tar";
-        sha256 = "0h4wzh14lxy7vx5dwfagwjglnz19wf0s6a5x5y0ahl1bams63vg3";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261014.610.tar";
+        sha256 = "00n81lx7ahlfmqs1kvdygybv61qn7ni6vx3vbax2ys7gr95hlc7h";
       };
       packageRequires = [ compat ];
       meta = {
