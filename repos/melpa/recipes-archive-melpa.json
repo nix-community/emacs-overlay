@@ -2223,27 +2223,27 @@
   "unstable": {
    "version": [
     20261014,
-    1332
+    1525
    ],
    "deps": [
     "agent-shell",
     "latex-to-svg-backend"
    ],
-   "commit": "c5507cd4570ec6237e2573bf01b6383e23f1109f",
-   "sha256": "0d1sh5663mnw98rz5vmixgxzjffl1ih3rla3wfrdn3qqxw6xzc7n"
+   "commit": "31b99b470764eda3906fa985e49a051ee380bc57",
+   "sha256": "0x0jc4f7dkklw2xi66nwvqkipk8cvmjrlv4vz2598jngh7i2wqws"
   },
   "stable": {
    "version": [
     0,
-    13,
-    1
+    14,
+    0
    ],
    "deps": [
     "agent-shell",
     "latex-to-svg-backend"
    ],
-   "commit": "c5507cd4570ec6237e2573bf01b6383e23f1109f",
-   "sha256": "0d1sh5663mnw98rz5vmixgxzjffl1ih3rla3wfrdn3qqxw6xzc7n"
+   "commit": "31b99b470764eda3906fa985e49a051ee380bc57",
+   "sha256": "0x0jc4f7dkklw2xi66nwvqkipk8cvmjrlv4vz2598jngh7i2wqws"
   }
  },
  {
@@ -2423,15 +2423,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20261012,
-    1422
+    20261014,
+    1558
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "5f6dd6dbd7a4ee5be5939422bae3461ca9f5e26e",
-   "sha256": "0yy4szshks85inr7i32yiw8snzxlb578cw881srakw5wm8s2frh0"
+   "commit": "71c440e5ab1c6cbeb6e008db15bcd7520d079b7f",
+   "sha256": "0q5p69hg2p4gyhn01j3kswgarzzs5jks1ggv1cbhvbgnl8ggbg1f"
   },
   "stable": {
    "version": [
@@ -21290,13 +21290,13 @@
   "unstable": {
    "version": [
     20261014,
-    732
+    1751
    ],
    "deps": [
     "compat"
    ],
-   "commit": "92c1febc7fabacc07b6c4b5b100d9367d9c0404e",
-   "sha256": "0fdkr524y4g8czhrdx0c5yhj58603b9qgv93zggd78999rabnv41"
+   "commit": "9c2bf9add6c182ae524eb378d0d0f45ecc805eef",
+   "sha256": "04rkd5d9l4b58n4lfgzygv5mvl0r5glysydncx3gmzs64rdnzc07"
   },
   "stable": {
    "version": [
@@ -31322,8 +31322,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20261013,
-    1546
+    20261014,
+    1646
    ],
    "deps": [
     "compat",
@@ -31332,8 +31332,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "589233a7724af9464dc94a5ae8177cdfddc2e926",
-   "sha256": "1b8fniq9jqfj8izlc6drza1103cjkb9j6zhj5z0p6drx4bzg2rv0"
+   "commit": "d016aa56ce53c8cec3d67c1efe6346b5b53a7163",
+   "sha256": "1affnrz1f925rakbzzijka9p5iw6if7dpyk7rsfrzh11c95grbgk"
   },
   "stable": {
    "version": [
@@ -65832,20 +65832,20 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20261008,
-    2016
+    20261014,
+    2135
    ],
-   "commit": "98aed932e8f0dce9678c13892c46821229ef7315",
-   "sha256": "076qc3ai3ypbi530106gr67q7x7d40bhs7qmpsh55bvnjnkfk6n5"
+   "commit": "dcede820d7589f10ac9096d0a0af929e8c44e8fd",
+   "sha256": "0k255llgw6kid72xgkxvdwv216y7wd03m2r7s8b0j7wkxg1fb3fw"
   },
   "stable": {
    "version": [
     9,
-    1,
+    3,
     0
    ],
-   "commit": "28623572a52a9c7ed96c36438853ca8fd69064a1",
-   "sha256": "1j53ggszq2gyj6j7hlykg6lj7818xcrxa2phsyi52kg27llrzk83"
+   "commit": "dca2c6f5c6c655a826b62c09c588a6fc9a3fba96",
+   "sha256": "0qnwlh9wspfnlv3x3v95dlmk0m2q51hihgksjcpyan5b3bcgkbfl"
   }
  },
  {
@@ -75845,26 +75845,26 @@
   "repo": "alberti42/latex-to-svg",
   "unstable": {
    "version": [
-    20261013,
-    618
+    20261014,
+    2006
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "8b025ab330d16ff5bfee7caa82b18303a09b3cb1",
-   "sha256": "1m2winb2pg780y483v5c5b0wz7xmjhrp0vz0vrf8hhshsfjgnb7l"
+   "commit": "b74cb8a99a49751c2ceb099185b128f6a15c0fe4",
+   "sha256": "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"
   },
   "stable": {
    "version": [
     0,
-    21,
+    22,
     0
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "cb2be59737281784c242501c9486c742403ab026",
-   "sha256": "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"
+   "commit": "b74cb8a99a49751c2ceb099185b128f6a15c0fe4",
+   "sha256": "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"
   }
  },
  {
@@ -75875,26 +75875,26 @@
   "repo": "alberti42/latex-to-svg",
   "unstable": {
    "version": [
-    20261011,
-    1906
+    20261014,
+    2006
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "cb2be59737281784c242501c9486c742403ab026",
-   "sha256": "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"
+   "commit": "b74cb8a99a49751c2ceb099185b128f6a15c0fe4",
+   "sha256": "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"
   },
   "stable": {
    "version": [
     0,
-    21,
+    22,
     0
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "cb2be59737281784c242501c9486c742403ab026",
-   "sha256": "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"
+   "commit": "b74cb8a99a49751c2ceb099185b128f6a15c0fe4",
+   "sha256": "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"
   }
  },
  {
@@ -75905,26 +75905,26 @@
   "repo": "alberti42/latex-to-svg",
   "unstable": {
    "version": [
-    20261011,
-    1906
+    20261014,
+    2006
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "cb2be59737281784c242501c9486c742403ab026",
-   "sha256": "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"
+   "commit": "b74cb8a99a49751c2ceb099185b128f6a15c0fe4",
+   "sha256": "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"
   },
   "stable": {
    "version": [
     0,
-    21,
+    22,
     0
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "cb2be59737281784c242501c9486c742403ab026",
-   "sha256": "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"
+   "commit": "b74cb8a99a49751c2ceb099185b128f6a15c0fe4",
+   "sha256": "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"
   }
  },
  {
@@ -75935,26 +75935,26 @@
   "repo": "alberti42/latex-to-svg",
   "unstable": {
    "version": [
-    20261013,
-    1836
+    20261014,
+    2006
    ],
    "deps": [
     "latex-to-svg-backend"
    ],
-   "commit": "16f8ac99a5b2456442eb5e8cd4100b11a8e4cb58",
-   "sha256": "0722k1kzrpyvnf4q3a984aphg8pq5zjyzryflmb17i348phc32ml"
+   "commit": "b74cb8a99a49751c2ceb099185b128f6a15c0fe4",
+   "sha256": "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"
   },
   "stable": {
    "version": [
     0,
-    21,
+    22,
     0
    ],
    "deps": [
     "latex-to-svg-backend"
    ],
-   "commit": "cb2be59737281784c242501c9486c742403ab026",
-   "sha256": "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"
+   "commit": "b74cb8a99a49751c2ceb099185b128f6a15c0fe4",
+   "sha256": "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"
   }
  },
  {
@@ -97818,11 +97818,11 @@
   "repo": "Anoncheg1/emacs-org-links",
   "unstable": {
    "version": [
-    20260717,
-    1827
+    20261014,
+    1800
    ],
-   "commit": "d46c02edbdbd9f070b0492ffbe9f4ceea3322737",
-   "sha256": "0z5lrb25gd1yd4amja3izj5qqrh8v8pw7q5qqjz064hxkmi83xmx"
+   "commit": "31c2a36f00dd5d232b07efa7745a2b387e237b85",
+   "sha256": "1lc3ciamv3ncp6ziirm0bw2i4hj35bkh4fhghm7zmknkzmjjgkzx"
   },
   "stable": {
    "version": [
@@ -135461,26 +135461,26 @@
   "repo": "szermatt/turtles",
   "unstable": {
    "version": [
-    20250315,
-    1650
+    20261014,
+    1749
    ],
    "deps": [
     "compat"
    ],
-   "commit": "7dca66a67173c63b27d5c6d8aa3e0248fd7f8b83",
-   "sha256": "1p87ll90v30z62a3wqs0s3zyabz4a38p56zkgqx3pxgfk82drzsf"
+   "commit": "4da375c5dede7e4854302a7d02e3ff77a30d20c2",
+   "sha256": "10rkdlhyajcwkpj30v5kixsj8prp611fnsz57v20zbf979mipqfz"
   },
   "stable": {
    "version": [
     2,
     0,
-    1
+    2
    ],
    "deps": [
     "compat"
    ],
-   "commit": "c46eb01d73601449f8ae48786bb8f22d17f137da",
-   "sha256": "1cipfgzx8ws79lzx7dfqr9lbirxf5fl332y8m5wz46455421avgi"
+   "commit": "4da375c5dede7e4854302a7d02e3ff77a30d20c2",
+   "sha256": "10rkdlhyajcwkpj30v5kixsj8prp611fnsz57v20zbf979mipqfz"
   }
  },
  {
@@ -138982,11 +138982,11 @@
   "repo": "thanhvg/emacs-virtual-comment",
   "unstable": {
    "version": [
-    20260926,
-    122
+    20261014,
+    1659
    ],
-   "commit": "3d4d19f464661352e34fd351557c0af9922c1bb2",
-   "sha256": "02wj5s8rhan39afynmrr8618qk2i7qk00a78jfg3pxivbca6rkig"
+   "commit": "5d595844cf0d6c5a48c5039e9f02c6aca2c5acc2",
+   "sha256": "07a3kxh0blqhvpsc16pwmdp9wscmskc8hhpjdilbhykhsbwpafl8"
   }
  },
  {
