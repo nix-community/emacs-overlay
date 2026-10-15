@@ -4367,10 +4367,10 @@
     elpaBuild {
       pname = "org-mime";
       ename = "org-mime";
-      version = "0.3.5.0.20261006.1";
+      version = "0.3.5.0.20261015.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.5.0.20261006.1.tar";
-        sha256 = "0ppm4s8fggk64mmqdssmrvfksgnfgsx601qxf453vrz695sp0rqj";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.5.0.20261015.3.tar";
+        sha256 = "1n8k2xv8bdjbfzvksxlv0z38maf2w35mwhh4p822f9pvq55r50pa";
       };
       packageRequires = [ ];
       meta = {
@@ -5399,10 +5399,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20261014.77";
+      version = "2.32snapshot0.20261015.78";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261014.77.tar";
-        sha256 = "18vjzps66wpa45pdryzn4s45zgc0sykaizr2fqi9g7q3mvwn9yxi";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261015.78.tar";
+        sha256 = "0jprlvz2jr0ab34mx6ncqkb5aibnp0vsa9w62w2vn9bi5dq3vnkk";
       };
       packageRequires = [ macrostep ];
       meta = {
