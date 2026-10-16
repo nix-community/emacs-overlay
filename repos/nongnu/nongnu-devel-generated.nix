@@ -3006,10 +3006,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20261013.76";
+      version = "4.0.7.0.20261015.79";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20261013.76.tar";
-        sha256 = "0whbjmbzplxw64ahzck9mh7jns2wga6gjyj2i9hlj1ff8gr3gzbv";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20261015.79.tar";
+        sha256 = "01iaxamyifxc03l6ik0mxqp4wwr0dzk2k1y77b6v890mqf5mxw39";
       };
       packageRequires = [
         helm-core
@@ -3031,10 +3031,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20261013.76";
+      version = "4.0.7.0.20261015.79";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20261013.76.tar";
-        sha256 = "1c2n1vldsp0j3l25zyv1ffv9954zl0r8xsrrhi9cxh3gyds32pxb";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20261015.79.tar";
+        sha256 = "1zmaf9aj40wkamnazbd67ya910iwbv3pff0gf1jr11cfrw4b3f4f";
       };
       packageRequires = [ async ];
       meta = {
@@ -5739,10 +5739,10 @@
     elpaBuild {
       pname = "tabspaces";
       ename = "tabspaces";
-      version = "1.11.0.0.20260908.2";
+      version = "1.11.0.0.20261015.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/tabspaces-1.11.0.0.20260908.2.tar";
-        sha256 = "133mgk5xc2h75klaalv7fd2348kpsvy845hqv93vmczy260mkq8i";
+        url = "https://elpa.nongnu.org/nongnu-devel/tabspaces-1.11.0.0.20261015.3.tar";
+        sha256 = "19jn33jvjzs9vib6pb8aprdnkrg669s1g037i4zjlvlnh7aamqdj";
       };
       packageRequires = [ project ];
       meta = {
