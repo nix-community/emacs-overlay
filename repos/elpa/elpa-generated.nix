@@ -1313,6 +1313,7 @@
   ) { };
   colorful-mode = callPackage (
     {
+      cl-lib ? null,
       compat,
       elpaBuild,
       fetchurl,
@@ -1321,12 +1322,15 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.5";
+      version = "1.2.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/colorful-mode-1.2.5.tar";
-        sha256 = "1vz4mr76y9j5z8zg4nkm8ll38ka46yfhvv7c5r9v70gvnr1glg2g";
+        url = "https://elpa.gnu.org/packages/colorful-mode-1.2.6.tar";
+        sha256 = "16mbfdf1lzkiqbns4l95w052g2p4l1iwk9aggirf1q07jk4ggdmv";
       };
-      packageRequires = [ compat ];
+      packageRequires = [
+        cl-lib
+        compat
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/colorful-mode.html";
         license = lib.licenses.free;
@@ -3959,10 +3963,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "2.0";
+      version = "2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/futur-2.0.tar";
-        sha256 = "06dpsis282z6zyq7g5lccq8r2dqcwbg7jbsc6zf0vv49wnsqd3sr";
+        url = "https://elpa.gnu.org/packages/futur-2.1.tar";
+        sha256 = "1y8lj60g4lzvdgzfbrzl4pnzdqna6hmx6fvj4w7m5f0758k4i4cx";
       };
       packageRequires = [ ];
       meta = {
