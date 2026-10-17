@@ -1342,10 +1342,10 @@
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.6.0.20261016.0";
+      version = "1.2.6.0.20261016.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.6.0.20261016.0.tar";
-        sha256 = "01jsnswlvggxzx24wf673z7ylfmc8db2ig8wrragiwfj3n6sfgbf";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.6.0.20261016.2.tar";
+        sha256 = "0nhir7rs0shki8g34wgkd2pmvddakxycwjmw00xja814amv37mf0";
       };
       packageRequires = [
         cl-lib
@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20261016.177";
+      version = "4.2.3.0.20261016.178";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261016.177.tar";
-        sha256 = "12r093ly17l7q08cfkpbbsqhb6y3gdvhr14v90k1mnf7mjkq062a";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261016.178.tar";
+        sha256 = "16fqlynyaskij8kcp0y185034vx476lgphgbnl8ngc4ha31x6ys0";
       };
       packageRequires = [ ];
       meta = {
@@ -6267,10 +6267,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.3.0.0.20261016.70";
+      version = "5.3.0.0.20261017.71";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20261016.70.tar";
-        sha256 = "1hh6iqyk00zsm5ddv909mcyq7fjxnnpix256cl539qv35bd6hx62";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.3.0.0.20261017.71.tar";
+        sha256 = "066v8vmh0lbq8c8z9mpm9dc8yzby7hwb462lm388cizk3fwz6dzy";
       };
       packageRequires = [ ];
       meta = {
@@ -6823,10 +6823,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261015.614";
+      version = "10.0pre0.20261017.619";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261015.614.tar";
-        sha256 = "0bcai6k1dc50fb0dfkhmqnm6p37fp46br30c35sk66p44daj3d2l";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261017.619.tar";
+        sha256 = "0y8hlsd0idsrc7jlhyvydmkj4kzg30cvp3q9fd1d8m1kkvdrq6k1";
       };
       packageRequires = [ compat ];
       meta = {
