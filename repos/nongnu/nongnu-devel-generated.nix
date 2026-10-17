@@ -2075,7 +2075,6 @@
   ) { };
   flx = callPackage (
     {
-      cl-lib ? null,
       elpaBuild,
       fetchurl,
       lib,
@@ -2083,12 +2082,12 @@
     elpaBuild {
       pname = "flx";
       ename = "flx";
-      version = "0.6.3.0.20260821.0";
+      version = "0.6.4.0.20261017.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flx-0.6.3.0.20260821.0.tar";
-        sha256 = "1dzins71lirv6g1b423695mncmvz21z0i197jgvp9l18j1wqljvv";
+        url = "https://elpa.nongnu.org/nongnu-devel/flx-0.6.4.0.20261017.0.tar";
+        sha256 = "13w2arliq8l5fw6n3358hfh1kg9g0b6am74l3hzvc0vrdr5imypw";
       };
-      packageRequires = [ cl-lib ];
+      packageRequires = [ ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/flx.html";
         license = lib.licenses.free;
@@ -2097,7 +2096,6 @@
   ) { };
   flx-ido = callPackage (
     {
-      cl-lib ? null,
       elpaBuild,
       fetchurl,
       flx,
@@ -2106,15 +2104,12 @@
     elpaBuild {
       pname = "flx-ido";
       ename = "flx-ido";
-      version = "0.6.3.0.20260821.0";
+      version = "0.6.4.0.20261017.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flx-ido-0.6.3.0.20260821.0.tar";
-        sha256 = "0y7b31k8aqsa3zv6rbg3dfhc68y8qmw8pk983fjgn1xi21a7y4rp";
+        url = "https://elpa.nongnu.org/nongnu-devel/flx-ido-0.6.4.0.20261017.0.tar";
+        sha256 = "093c5mj2vx4cd0h3bdpb4yg4g3m0vq8q2fzz287cqbgwkpybvsdd";
       };
-      packageRequires = [
-        cl-lib
-        flx
-      ];
+      packageRequires = [ flx ];
       meta = {
         homepage = "https://elpa.nongnu.org/nongnu-devel/flx-ido.html";
         license = lib.licenses.free;
