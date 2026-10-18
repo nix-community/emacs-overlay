@@ -3894,6 +3894,27 @@
       };
     }
   ) { };
+  markdown-ts-appear = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "markdown-ts-appear";
+      ename = "markdown-ts-appear";
+      version = "0.3.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/markdown-ts-appear-0.3.0.tar";
+        sha256 = "1ic6mmnsdi1z4ha7cal416ryh8a21g901d0df34bvzkyk28gpf5l";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/markdown-ts-appear.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   mastodon = callPackage (
     {
       compat,
