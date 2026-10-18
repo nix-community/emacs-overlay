@@ -2327,10 +2327,10 @@
     elpaBuild {
       pname = "geiser";
       ename = "geiser";
-      version = "0.33.2.0.20260905.2";
+      version = "0.33.2.0.20261017.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.2.0.20260905.2.tar";
-        sha256 = "04cmzrmbq36mnppn7fmxpb3jnvk6b91ihcyhsrxsghjsd27g59rg";
+        url = "https://elpa.nongnu.org/nongnu-devel/geiser-0.33.2.0.20261017.3.tar";
+        sha256 = "1d3yqgmp7rvj9m8r0ba7sai07vfrrlqz0qa2cmdzxh4xf4hx1kdq";
       };
       packageRequires = [ project ];
       meta = {
