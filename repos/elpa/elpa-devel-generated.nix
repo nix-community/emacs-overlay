@@ -6823,10 +6823,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261017.944";
+      version = "10.0pre0.20261018.945";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261017.944.tar";
-        sha256 = "045x7ilwwy1cxrb3kf85i72lpf3ixdgpg40ffl0i8k5c0h08dlr5";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261018.945.tar";
+        sha256 = "0nfwccaxa0n4brcxmp454mqarvj459z758nvdsmr4b49a96pj03h";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10180,10 +10180,10 @@
     elpaBuild {
       pname = "triples";
       ename = "triples";
-      version = "0.6.2.0.20260328.11006";
+      version = "0.7.0.0.20261018.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/triples-0.6.2.0.20260328.11006.tar";
-        sha256 = "18pbwmycy4d36ry7w572d2d2jqac3yf93ap5j77v4gnh84iv6zap";
+        url = "https://elpa.gnu.org/devel/triples-0.7.0.0.20261018.0.tar";
+        sha256 = "0vx0vdrbfwjcla54pwl21cmy73ivjvhnby38hpszqhbjvg536dlk";
       };
       packageRequires = [ seq ];
       meta = {

@@ -9963,10 +9963,10 @@
     elpaBuild {
       pname = "triples";
       ename = "triples";
-      version = "0.6.2";
+      version = "0.7.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/triples-0.6.2.tar";
-        sha256 = "1yis6q14m8pkhpllgldq6pw366cgw5wsnh7d1484gs3grcq4mgsr";
+        url = "https://elpa.gnu.org/packages/triples-0.7.0.tar";
+        sha256 = "068lc50780ybci523a7ld0y6k0fr5yk7wrvzfmdcyyynzcmx9a7x";
       };
       packageRequires = [ seq ];
       meta = {
