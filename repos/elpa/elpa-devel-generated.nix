@@ -2795,10 +2795,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.3.0.0.20261016.14";
+      version = "1.3.0.0.20261017.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.3.0.0.20261016.14.tar";
-        sha256 = "07pk4fn01mkqifdk3ymq1rvc17wz6vpca49x1xmh13r32yy4hr3r";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.3.0.0.20261017.15.tar";
+        sha256 = "0z5y5awa5v84pg8cy9vdql7j7d5aq7jh1dqiv1yvp6mikv359qjg";
       };
       packageRequires = [ ];
       meta = {
@@ -6823,10 +6823,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261017.619";
+      version = "10.0pre0.20261017.944";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261017.619.tar";
-        sha256 = "0y8hlsd0idsrc7jlhyvydmkj4kzg30cvp3q9fd1d8m1kkvdrq6k1";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261017.944.tar";
+        sha256 = "045x7ilwwy1cxrb3kf85i72lpf3ixdgpg40ffl0i8k5c0h08dlr5";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10945,10 +10945,10 @@
     elpaBuild {
       pname = "websocket";
       ename = "websocket";
-      version = "1.16.0.20260228.205745";
+      version = "1.16.0.20261017.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/websocket-1.16.0.20260228.205745.tar";
-        sha256 = "1dlrd4fz8ir1jcla195nx9phhsk25495f35gs28drq9p3002b7kl";
+        url = "https://elpa.gnu.org/devel/websocket-1.16.0.20261017.6.tar";
+        sha256 = "001kvkh1ji91r316wdymvwr8d97vp5r94cj4fsa7aj52dn4blayq";
       };
       packageRequires = [ cl-lib ];
       meta = {
