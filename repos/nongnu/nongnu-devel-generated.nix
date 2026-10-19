@@ -3444,10 +3444,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.15.0.0.20261014.12";
+      version = "0.15.0.0.20261019.13";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.15.0.0.20261014.12.tar";
-        sha256 = "0xs27qnm3algrhyz4ka8rzf9m0dh9k2878gj5vds8d3q1vgb4kpx";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.15.0.0.20261019.13.tar";
+        sha256 = "1gk7z4z7mf70dwmxwwxrx54yyvim5pjnljblhrfh6m883f3bw8ir";
       };
       packageRequires = [
         fsm
@@ -3886,10 +3886,10 @@
     elpaBuild {
       pname = "markdown-ts-appear";
       ename = "markdown-ts-appear";
-      version = "0.3.0.0.20261018.2";
+      version = "0.3.1.0.20261019.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-ts-appear-0.3.0.0.20261018.2.tar";
-        sha256 = "0amhgrzb8kz6cyvmbbvvn4pjdklxcqhbqmbh0sbh2lgci9lk1vy1";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-ts-appear-0.3.1.0.20261019.0.tar";
+        sha256 = "1f43bs37bph4b5mlglmxxgkysnb4qaw88ggz26jh05wvkb9nyf7v";
       };
       packageRequires = [ ];
       meta = {
@@ -5415,10 +5415,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20261018.80";
+      version = "2.32snapshot0.20261018.81";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261018.80.tar";
-        sha256 = "0rgn0gmarkrircm85xxvw9n7djrgfzdrphhkjhpqvg6fv5f6584n";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261018.81.tar";
+        sha256 = "1rr6w52xqc6i92il94mw9xa1r015smlxsfx1y1is12nqi1pcd44i";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -6228,10 +6228,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.0snapshot0.20261018.283";
+      version = "9.0.1snapshot0.20261018.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.0snapshot0.20261018.283.tar";
-        sha256 = "02yf6jgb6bqya6057wkbf831w27q6a1awqpm6pr0mkqvkmjm73x7";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261018.1.tar";
+        sha256 = "00s4d50cyqj5nmv91d4932hdc1hz6yl5fgw34mpaxvg8q62ik29g";
       };
       packageRequires = [ vcard ];
       meta = {

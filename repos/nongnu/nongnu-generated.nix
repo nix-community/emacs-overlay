@@ -3903,10 +3903,10 @@
     elpaBuild {
       pname = "markdown-ts-appear";
       ename = "markdown-ts-appear";
-      version = "0.3.0";
+      version = "0.3.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/markdown-ts-appear-0.3.0.tar";
-        sha256 = "1ic6mmnsdi1z4ha7cal416ryh8a21g901d0df34bvzkyk28gpf5l";
+        url = "https://elpa.nongnu.org/nongnu/markdown-ts-appear-0.3.1.tar";
+        sha256 = "0r4nxszl2hkd8am95s41qaqai62skqj433s7z02dcikpbhrkclj6";
       };
       packageRequires = [ ];
       meta = {
@@ -6265,10 +6265,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "8.3.2";
+      version = "9.0.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/vm-8.3.2.tar";
-        sha256 = "0s2l4sjzgq4mm82dq6856wncsdvwsgk569i2rybbcsbw6v4hyvwv";
+        url = "https://elpa.nongnu.org/nongnu/vm-9.0.0.tar";
+        sha256 = "049wyyfsg4wcq9lz6fzilqwdbkkmxz2vxgjkcqvcppn4v81qr7hp";
       };
       packageRequires = [ vcard ];
       meta = {
