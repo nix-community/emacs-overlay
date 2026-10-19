@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.1.0.0.20261012.12";
+      version = "1.1.0.0.20261019.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261012.12.tar";
-        sha256 = "1hfnxvlzyvvmhgamn9424sndqg131rga6mg6qn9fh51bs1cqxfsk";
+        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261019.16.tar";
+        sha256 = "069vdmh1bxvfsy5yxcmqdxc5clj8zr8gq50bf55n3mn1slvfbicf";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -7682,10 +7682,10 @@
     elpaBuild {
       pname = "posframe";
       ename = "posframe";
-      version = "1.5.3.0.20261012.2";
+      version = "1.5.3.0.20261019.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/posframe-1.5.3.0.20261012.2.tar";
-        sha256 = "027x706kvrcdfsm0gv2y83y4cfnhl02y55hrs3sc4sv3qlggzl6w";
+        url = "https://elpa.gnu.org/devel/posframe-1.5.3.0.20261019.4.tar";
+        sha256 = "1vsnyh8jpfdfr387pirvy25iv2bf1x3rqddgns9px7fcvhpdsp75";
       };
       packageRequires = [ ];
       meta = {
@@ -10180,10 +10180,10 @@
     elpaBuild {
       pname = "triples";
       ename = "triples";
-      version = "0.7.0.0.20261018.0";
+      version = "0.7.1.0.20261018.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/triples-0.7.0.0.20261018.0.tar";
-        sha256 = "0vx0vdrbfwjcla54pwl21cmy73ivjvhnby38hpszqhbjvg536dlk";
+        url = "https://elpa.gnu.org/devel/triples-0.7.1.0.20261018.0.tar";
+        sha256 = "1ahbl7va274bl66a1ci3p5j3ybydlmz7h07lmqiynh5322pp8i11";
       };
       packageRequires = [ seq ];
       meta = {
