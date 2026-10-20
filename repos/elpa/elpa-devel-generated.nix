@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20261016.178";
+      version = "4.2.3.0.20261019.179";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261016.178.tar";
-        sha256 = "16fqlynyaskij8kcp0y185034vx476lgphgbnl8ngc4ha31x6ys0";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261019.179.tar";
+        sha256 = "13y8zkvgw8csxzs1yi0935j2lvqr229k12iqzm9rkrc57xbc629s";
       };
       packageRequires = [ ];
       meta = {
@@ -8922,6 +8922,27 @@
       };
     }
   ) { };
+  slang-ts-mode = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "slang-ts-mode";
+      ename = "slang-ts-mode";
+      version = "0.1.0.20261019.3";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/slang-ts-mode-0.1.0.20261019.3.tar";
+        sha256 = "02iqp9syvxjip0cw7xmln8lqy494slg2sq885qzfpv57q5x2hvch";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/slang-ts-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   slime-volleyball = callPackage (
     {
       cl-lib ? null,
@@ -9124,10 +9145,10 @@
     elpaBuild {
       pname = "spacious-padding";
       ename = "spacious-padding";
-      version = "0.9.0.0.20261016.1";
+      version = "0.9.1.0.20261019.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/spacious-padding-0.9.0.0.20261016.1.tar";
-        sha256 = "0hgjyz5q1zcgvc7az5hqzk8bwil9jd33fhkndzjxp8bbn7whxl2d";
+        url = "https://elpa.gnu.org/devel/spacious-padding-0.9.1.0.20261019.1.tar";
+        sha256 = "1jap1qv5g7n5qa9w6cqs944i6gw49j1f0cgkj5vkxay5ihl1s5j3";
       };
       packageRequires = [ ];
       meta = {
