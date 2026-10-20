@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.1.0.0.20261019.16";
+      version = "1.1.0.0.20261020.19";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261019.16.tar";
-        sha256 = "069vdmh1bxvfsy5yxcmqdxc5clj8zr8gq50bf55n3mn1slvfbicf";
+        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261020.19.tar";
+        sha256 = "1h96qb87kds60dqqnw5bshlj1b6b0g91yg8r1wg61jhpsv1wf5wm";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -11008,10 +11008,10 @@
     elpaBuild {
       pname = "window-commander";
       ename = "window-commander";
-      version = "3.0.2.0.20240314.125442";
+      version = "3.1.0.20261020.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/window-commander-3.0.2.0.20240314.125442.tar";
-        sha256 = "082fwi8basfddwvi5yjgvdbf0f7xh58kmbvshnpim143pyxzgi9q";
+        url = "https://elpa.gnu.org/devel/window-commander-3.1.0.20261020.0.tar";
+        sha256 = "16j677iv2zvrwmp8a4b88mib9l239v7clwq5nshwf2ykldl3lr1j";
       };
       packageRequires = [ ];
       meta = {

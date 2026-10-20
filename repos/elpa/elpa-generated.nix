@@ -10769,10 +10769,10 @@
     elpaBuild {
       pname = "window-commander";
       ename = "window-commander";
-      version = "3.0.2";
+      version = "3.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/window-commander-3.0.2.tar";
-        sha256 = "15345sgdmgz0vv9bk2cmffjp66i0msqj0xn2cxl7wny3bkfx8amv";
+        url = "https://elpa.gnu.org/packages/window-commander-3.1.tar";
+        sha256 = "1yj0bjxwrvs0amg8k3z4g89hdvk83zjxzd8jy5a9ymrvshayscbs";
       };
       packageRequires = [ ];
       meta = {
