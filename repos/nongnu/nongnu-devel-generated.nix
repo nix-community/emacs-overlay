@@ -4383,10 +4383,10 @@
     elpaBuild {
       pname = "org-mime";
       ename = "org-mime";
-      version = "0.3.5.0.20261015.3";
+      version = "0.3.5.0.20261021.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.5.0.20261015.3.tar";
-        sha256 = "1n8k2xv8bdjbfzvksxlv0z38maf2w35mwhh4p822f9pvq55r50pa";
+        url = "https://elpa.nongnu.org/nongnu-devel/org-mime-0.3.5.0.20261021.8.tar";
+        sha256 = "1sjrvdkx35xrrsl0mbbgbqy7r3ml76zxbnczvnlfjsw7irg1cb2j";
       };
       packageRequires = [ ];
       meta = {
@@ -4876,10 +4876,10 @@
     elpaBuild {
       pname = "project-nix-store";
       ename = "project-nix-store";
-      version = "0.13.0.0.20261010.3";
+      version = "0.13.0.0.20261021.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.13.0.0.20261010.3.tar";
-        sha256 = "1qz6rfcixl8wl706zhxf48sph5vzirkbdxhmlkxm24acw637lw4r";
+        url = "https://elpa.nongnu.org/nongnu-devel/project-nix-store-0.13.0.0.20261021.4.tar";
+        sha256 = "0z916n72jr8d9aqqg6hlylqg729i3sw2z6ncy061rikm4dyhjc3l";
       };
       packageRequires = [ ];
       meta = {
