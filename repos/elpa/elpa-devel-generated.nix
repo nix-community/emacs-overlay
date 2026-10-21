@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.1.0.0.20261020.19";
+      version = "1.1.0.0.20261021.23";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261020.19.tar";
-        sha256 = "1h96qb87kds60dqqnw5bshlj1b6b0g91yg8r1wg61jhpsv1wf5wm";
+        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261021.23.tar";
+        sha256 = "19fgmrqgklmjlykn18z48dxss1dsry15lzn4ymbgi6vr0gkqa5dy";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -1708,10 +1708,10 @@
     elpaBuild {
       pname = "coterm";
       ename = "coterm";
-      version = "1.6.0.20261013.7";
+      version = "1.6.0.20261013.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/coterm-1.6.0.20261013.7.tar";
-        sha256 = "11js7721172k6lc58ayna9d98vd27c5qzdarslg0q8i316v5f9sq";
+        url = "https://elpa.gnu.org/devel/coterm-1.6.0.20261013.8.tar";
+        sha256 = "08hq7h32g9ckj4g475q8174247pxdsmgffkd95j0zzhqfzsg7r5w";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4853,6 +4853,27 @@
       packageRequires = [ cl-lib ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/ioccur.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  isbn = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "isbn";
+      ename = "isbn";
+      version = "0.2.0.0.20261019.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/isbn-0.2.0.0.20261019.1.tar";
+        sha256 = "0vr4abzxk8h4fdxj8k38ik87xg85n0jn4canbxksm8y52p2mv4lh";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/isbn.html";
         license = lib.licenses.free;
       };
     }

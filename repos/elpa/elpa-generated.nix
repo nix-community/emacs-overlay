@@ -4775,6 +4775,27 @@
       };
     }
   ) { };
+  isbn = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "isbn";
+      ename = "isbn";
+      version = "0.2.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/isbn-0.2.0.tar";
+        sha256 = "1lib0rcpn5c3n11bhji3wwvqvq84bvrcw6jqb762m3agvs1aaksz";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/isbn.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   isearch-mb = callPackage (
     {
       elpaBuild,
