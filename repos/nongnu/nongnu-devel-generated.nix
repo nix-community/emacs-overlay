@@ -2126,10 +2126,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20260902.86";
+      version = "40.0snapshot0.20261021.94";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20260902.86.tar";
-        sha256 = "014c0k1kidv2zvqcy783cg5qf4r0iyq275zanr0danmzahm4jrms";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20261021.94.tar";
+        sha256 = "15g2asm0jw7lwasbh6cfrikfnmbzp7035k8n5mqdgy23zr1nriv8";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3001,10 +3001,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20261016.80";
+      version = "4.0.7.0.20261021.88";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20261016.80.tar";
-        sha256 = "03yx5j16j4pxnmbydnz1ipgqymhbxc9rjk41rdiqfihrkvjrhx2h";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20261021.88.tar";
+        sha256 = "1gfdzb4nsg83fcf2ap8xmn1j9n49k18rqbp31mmcz7w9qnswwygf";
       };
       packageRequires = [
         helm-core
@@ -3026,10 +3026,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20261016.80";
+      version = "4.0.7.0.20261021.88";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20261016.80.tar";
-        sha256 = "0jbl21dhng2hzbr7n8mi2frphxacqbq54zck1bgcqbhyaiyp7ckr";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20261021.88.tar";
+        sha256 = "0vp8zx0jmcynp5isdhif99jbvp00y4xzvigyl321j9dpmh7fm94b";
       };
       packageRequires = [ async ];
       meta = {
@@ -5648,10 +5648,10 @@
     elpaBuild {
       pname = "sweeprolog";
       ename = "sweeprolog";
-      version = "0.27.6.0.20260510.162905";
+      version = "0.27.6.0.20261021.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20260510.162905.tar";
-        sha256 = "1x38q2hrrapfzb8ky7bzfw58pi00yyj4qnwrpsqcc1hhaxq6h1dr";
+        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20261021.7.tar";
+        sha256 = "18cc06spry1g6p6p1va103qr4n0whvkl3sc58q8n50bkcpmn6q5c";
       };
       packageRequires = [ compat ];
       meta = {
