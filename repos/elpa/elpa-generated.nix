@@ -4635,10 +4635,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.3.0";
+      version = "9.3.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/hyperbole-9.3.0.tar";
-        sha256 = "1hyn8zlc9q499rmcbapdz3l230y9djg52rrh5l533div5ilvsv02";
+        url = "https://elpa.gnu.org/packages/hyperbole-9.3.1.tar";
+        sha256 = "0p2f9ds3i5slss11rj4kjva6a1m3zvxz83jsilxx96mngjbl67vg";
       };
       packageRequires = [ ];
       meta = {

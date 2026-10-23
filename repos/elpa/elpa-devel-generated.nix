@@ -2795,10 +2795,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.3.0.0.20261017.15";
+      version = "1.3.0.0.20261022.18";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.3.0.0.20261017.15.tar";
-        sha256 = "0z5y5awa5v84pg8cy9vdql7j7d5aq7jh1dqiv1yvp6mikv359qjg";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.3.0.0.20261022.18.tar";
+        sha256 = "0wxp2yhapn09vgplrrs5nr7g30qfp5am23r4m1y3ziki1kwa4awa";
       };
       packageRequires = [ ];
       meta = {
@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.3.0.0.20261018.5";
+      version = "9.3.1.0.20261022.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.3.0.0.20261018.5.tar";
-        sha256 = "081c1iq37nsp1szj99zqbz32g3q9691hfj9izwph8nw8hyhns7rr";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.3.1.0.20261022.1.tar";
+        sha256 = "1kyan2p3623p0rprsh2yia2b6v8hqdvlzk3ycvzw0lm4ak7p6brb";
       };
       packageRequires = [ ];
       meta = {
