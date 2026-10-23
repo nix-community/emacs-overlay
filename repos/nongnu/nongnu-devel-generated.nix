@@ -3001,10 +3001,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20261022.89";
+      version = "4.0.8.0.20261022.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20261022.89.tar";
-        sha256 = "0pif3l49j4ynz21snqj1v17g906ny2m2pb1bx6mc13nnmsqaqma4";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.8.0.20261022.1.tar";
+        sha256 = "1hcdgxdsav0ba4n6b8p12yjyd66hm4azs02sm55ikh8i5shbciki";
       };
       packageRequires = [
         helm-core
@@ -3026,10 +3026,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20261022.89";
+      version = "4.0.8.0.20261022.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20261022.89.tar";
-        sha256 = "1ygf9hkkli0a3cmj7v1ppw7s7ymizdwfb9j8mhw9yd4his1b8kgl";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.8.0.20261022.1.tar";
+        sha256 = "0mwfjid4izlrp56ph8zpdhzqffpglxqsyclm302m4slklz240qhx";
       };
       packageRequires = [ async ];
       meta = {
@@ -3910,10 +3910,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.1.7.0.20261007.81";
+      version = "2.1.8.0.20261022.85";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.7.0.20261007.81.tar";
-        sha256 = "1y14jzvfnds8xa2ibih3hzq0dqf77lmwgfr345cya93fzq3q3ry5";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-2.1.8.0.20261022.85.tar";
+        sha256 = "1rm0m3j4j8w71771z3z0x1jyk89fa6qxjjh0fgsdycijfxmz8maa";
       };
       packageRequires = [
         compat
@@ -4205,10 +4205,10 @@
     elpaBuild {
       pname = "nov";
       ename = "nov";
-      version = "0.5.0.0.20251213.150137";
+      version = "0.5.0.0.20261022.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/nov-0.5.0.0.20251213.150137.tar";
-        sha256 = "1wmbxiw06xcc2gg7cyxn6519bmla20vi7plhhlfn3wlw00wjll9r";
+        url = "https://elpa.nongnu.org/nongnu-devel/nov-0.5.0.0.20261022.5.tar";
+        sha256 = "0c095grx1f9a3lcv3y79j78zvcq900bzcz9b9q539vc212z8m4h1";
       };
       packageRequires = [ esxml ];
       meta = {

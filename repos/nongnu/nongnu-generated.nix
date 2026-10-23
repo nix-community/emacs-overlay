@@ -3018,10 +3018,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7";
+      version = "4.0.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/helm-4.0.7.tar";
-        sha256 = "1x1wg3z6y5rb4r17ifwvz79pa3m6w9kkvxlfivznqh4ajgafrnn5";
+        url = "https://elpa.nongnu.org/nongnu/helm-4.0.8.tar";
+        sha256 = "0hkag6gknqh8wvzna3v6gzbidkk9mdai9w7v938y7zk2648f0zh9";
       };
       packageRequires = [
         helm-core
@@ -3043,10 +3043,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7";
+      version = "4.0.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/helm-core-4.0.7.tar";
-        sha256 = "1d7a61rbc7rlr144v9qm6c89dnchn7xwcv05gl6kdapb7gir9l8f";
+        url = "https://elpa.nongnu.org/nongnu/helm-core-4.0.8.tar";
+        sha256 = "0c3vj13s8mz7jn1gzybmpfxaplmd5rgr6c1rj7182r2dwps083l0";
       };
       packageRequires = [ async ];
       meta = {
@@ -3927,10 +3927,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "2.1.7";
+      version = "2.1.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/mastodon-2.1.7.tar";
-        sha256 = "0q935s6i2gxq2jqiv99lxl3zjpsa9ak27q3l1m8pfv9yhvkygdwa";
+        url = "https://elpa.nongnu.org/nongnu/mastodon-2.1.8.tar";
+        sha256 = "1wq3h0k8wmni4k6vdlw0id546wffncn51sjxic7a60331nvqb0xq";
       };
       packageRequires = [
         compat
