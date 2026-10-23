@@ -3001,10 +3001,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.8.0.20261022.1";
+      version = "4.0.8.0.20261023.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.8.0.20261022.1.tar";
-        sha256 = "1hcdgxdsav0ba4n6b8p12yjyd66hm4azs02sm55ikh8i5shbciki";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.8.0.20261023.5.tar";
+        sha256 = "0d8qaddnf1fcbn341l875bgfkzpfpka952026r1jg5xggg9001lr";
       };
       packageRequires = [
         helm-core
@@ -3026,10 +3026,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.8.0.20261022.1";
+      version = "4.0.8.0.20261023.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.8.0.20261022.1.tar";
-        sha256 = "0mwfjid4izlrp56ph8zpdhzqffpglxqsyclm302m4slklz240qhx";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.8.0.20261023.5.tar";
+        sha256 = "03k825ybkj3pjiamcmmms9ah7p75g8lxzx65rk7p0sk9lrwj40a7";
       };
       packageRequires = [ async ];
       meta = {
@@ -3374,10 +3374,10 @@
     elpaBuild {
       pname = "isl";
       ename = "isl";
-      version = "1.7.0.20260927.3";
+      version = "1.7.0.20261023.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.7.0.20260927.3.tar";
-        sha256 = "19w844b3lknwmvgacq3ncxzciv13lapyr09s8lmdwxmcp7mwrmk3";
+        url = "https://elpa.nongnu.org/nongnu-devel/isl-1.7.0.20261023.4.tar";
+        sha256 = "0cyhlchcmz3kc0arbgpm2h526x8pprm4hibnf2d753f89r7c5wzb";
       };
       packageRequires = [ ];
       meta = {
@@ -6100,10 +6100,10 @@
     elpaBuild {
       pname = "undo-fu";
       ename = "undo-fu";
-      version = "0.5.0.20261022.53";
+      version = "0.5.0.20261022.55";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-0.5.0.20261022.53.tar";
-        sha256 = "02cg9x90isaxisq8nq8f6qp2a5ra91cn5nrf5hra2nddx73yz470";
+        url = "https://elpa.nongnu.org/nongnu-devel/undo-fu-0.5.0.20261022.55.tar";
+        sha256 = "0rf2xg5jxgsrd7g1f9v6mbx08g8qn6q6rrwqynqs9x906ib3s4p4";
       };
       packageRequires = [ ];
       meta = {
