@@ -548,10 +548,10 @@
     elpaBuild {
       pname = "auth-source-xoauth2-plugin";
       ename = "auth-source-xoauth2-plugin";
-      version = "0.4.1.0.20260526.0";
+      version = "0.5.0.20261023.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auth-source-xoauth2-plugin-0.4.1.0.20260526.0.tar";
-        sha256 = "058src50y1rynyrsfcdlrswbmsmf41ic1aa0bfkqg19dgaag81qy";
+        url = "https://elpa.gnu.org/devel/auth-source-xoauth2-plugin-0.5.0.20261023.0.tar";
+        sha256 = "00bib012qn9wwb9i5li8h6kp6365h20b0ahd8fh3xw24r39y92w0";
       };
       packageRequires = [ oauth2 ];
       meta = {
@@ -2795,10 +2795,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.3.0.0.20261022.18";
+      version = "1.3.0.0.20261023.19";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.3.0.0.20261022.18.tar";
-        sha256 = "0wxp2yhapn09vgplrrs5nr7g30qfp5am23r4m1y3ziki1kwa4awa";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.3.0.0.20261023.19.tar";
+        sha256 = "020kb3858cqhjslxxbvq97qsp16585pfv74xy8vxlxhbh0xi6arl";
       };
       packageRequires = [ ];
       meta = {
