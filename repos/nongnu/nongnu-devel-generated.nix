@@ -1219,10 +1219,10 @@
     elpaBuild {
       pname = "ebuild-mode";
       ename = "ebuild-mode";
-      version = "1.89.0.20261023.0";
+      version = "1.89.0.20261024.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/ebuild-mode-1.89.0.20261023.0.tar";
-        sha256 = "0lpfyv707q3sw7gq02zsnk8g32g8xik31pfl34qrk3wi4z96n8sr";
+        url = "https://elpa.nongnu.org/nongnu-devel/ebuild-mode-1.89.0.20261024.1.tar";
+        sha256 = "14qr2f0k1s33plq88p5z5afxh66m9f377vlk0q7s8dnqb5h3z664";
       };
       packageRequires = [ ];
       meta = {
@@ -3001,10 +3001,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.8.0.20261023.5";
+      version = "4.0.8.0.20261023.9";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.8.0.20261023.5.tar";
-        sha256 = "0d8qaddnf1fcbn341l875bgfkzpfpka952026r1jg5xggg9001lr";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.8.0.20261023.9.tar";
+        sha256 = "0dgkla1p90l82mg5yggzpda5g6j3x0njkii79xwrdiy2jha7q2gv";
       };
       packageRequires = [
         helm-core
@@ -3026,10 +3026,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.8.0.20261023.5";
+      version = "4.0.8.0.20261023.9";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.8.0.20261023.5.tar";
-        sha256 = "03k825ybkj3pjiamcmmms9ah7p75g8lxzx65rk7p0sk9lrwj40a7";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.8.0.20261023.9.tar";
+        sha256 = "1aqmzm9rka2rmgp3ns231z2xfx53mj0vx8fc6g4axa27hg7gm0rf";
       };
       packageRequires = [ async ];
       meta = {
@@ -3075,10 +3075,10 @@
     elpaBuild {
       pname = "hideshowvis";
       ename = "hideshowvis";
-      version = "0.9.0.20251119.95800";
+      version = "0.9.0.20260829.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hideshowvis-0.9.0.20251119.95800.tar";
-        sha256 = "0x31p9ilpr60l9shddarimms3r7znipnic2aahd165xfx33h3jnf";
+        url = "https://elpa.nongnu.org/nongnu-devel/hideshowvis-0.9.0.20260829.1.tar";
+        sha256 = "1shsk0v7f0jwr3y85niy92559395wadfziy97h8iwxz1ndckichc";
       };
       packageRequires = [ ];
       meta = {
