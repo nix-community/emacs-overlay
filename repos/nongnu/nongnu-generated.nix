@@ -1242,10 +1242,10 @@
     elpaBuild {
       pname = "ebuild-mode";
       ename = "ebuild-mode";
-      version = "1.88";
+      version = "1.89";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/ebuild-mode-1.88.tar";
-        sha256 = "1qjixn4l1rkar7lzm7irv2ygwfjxzlp7h7sbdfsjgvwvxspa3072";
+        url = "https://elpa.nongnu.org/nongnu/ebuild-mode-1.89.tar";
+        sha256 = "104ah4x2q5fl6dc637bdcz3g7m9y1naqiv2jw64v44wh4mm7kc49";
       };
       packageRequires = [ ];
       meta = {

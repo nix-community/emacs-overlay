@@ -1219,10 +1219,10 @@
     elpaBuild {
       pname = "ebuild-mode";
       ename = "ebuild-mode";
-      version = "1.88.0.20261018.3";
+      version = "1.89.0.20261023.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/ebuild-mode-1.88.0.20261018.3.tar";
-        sha256 = "1j1sllvw11kyxs9qhdl4c4v0xhbh7iwdynwc8gky2h0bh7cil0lk";
+        url = "https://elpa.nongnu.org/nongnu-devel/ebuild-mode-1.89.0.20261023.0.tar";
+        sha256 = "0lpfyv707q3sw7gq02zsnk8g32g8xik31pfl34qrk3wi4z96n8sr";
       };
       packageRequires = [ ];
       meta = {
@@ -6228,10 +6228,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.1snapshot0.20261018.1";
+      version = "9.0.1snapshot0.20261023.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261018.1.tar";
-        sha256 = "00s4d50cyqj5nmv91d4932hdc1hz6yl5fgw34mpaxvg8q62ik29g";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261023.4.tar";
+        sha256 = "1k9i4r8lqk22y5b7cy504k6qyyqx0alvjizgsc2fgazc7fkplbr2";
       };
       packageRequires = [ vcard ];
       meta = {
