@@ -2795,10 +2795,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.3.0.0.20261023.19";
+      version = "1.3.0.0.20261024.22";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.3.0.0.20261023.19.tar";
-        sha256 = "020kb3858cqhjslxxbvq97qsp16585pfv74xy8vxlxhbh0xi6arl";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.3.0.0.20261024.22.tar";
+        sha256 = "0a8554lp2zw232l33vnsdzmwylv3zpvkrcw3hxq9qiv77gsx9lj0";
       };
       packageRequires = [ ];
       meta = {
@@ -10126,10 +10126,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.8.0.20261020.16";
+      version = "0.13.8.0.20261024.17";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20261020.16.tar";
-        sha256 = "1fjy3kgwicnnq7xv6kb8fqqmq0gclzxp0kpqq4bhxmmw11sabf6v";
+        url = "https://elpa.gnu.org/devel/transient-0.13.8.0.20261024.17.tar";
+        sha256 = "0mqgllqax4rvb7xrd4va5rfmhb8dwgfzpvf5vsfyjpfivl2hl58s";
       };
       packageRequires = [
         compat
