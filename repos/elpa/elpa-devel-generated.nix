@@ -483,10 +483,10 @@
     elpaBuild {
       pname = "auctex-cont-latexmk";
       ename = "auctex-cont-latexmk";
-      version = "0.3.0.20260617.10";
+      version = "0.3.0.20261024.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-cont-latexmk-0.3.0.20260617.10.tar";
-        sha256 = "1dcppji0h1yd75iv6ihg7iyjzwf14l6h32cf7k4aiyb58d8x2ka6";
+        url = "https://elpa.gnu.org/devel/auctex-cont-latexmk-0.3.0.20261024.11.tar";
+        sha256 = "1qci8zj3vcj684fhrz2n184wh2f39i0dssbxq7g8gk4x93mw568c";
       };
       packageRequires = [ auctex ];
       meta = {
@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.1.0.0.20261021.23";
+      version = "1.1.0.0.20261025.25";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261021.23.tar";
-        sha256 = "19fgmrqgklmjlykn18z48dxss1dsry15lzn4ymbgi6vr0gkqa5dy";
+        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261025.25.tar";
+        sha256 = "0dmj9w6mymz9777d28y50sknx7n3mmapcsfmmb153f9ab7yd9vzj";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -3698,10 +3698,10 @@
     elpaBuild {
       pname = "ffs";
       ename = "ffs";
-      version = "0.2.3.0.20260922.0";
+      version = "0.2.3.0.20261024.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ffs-0.2.3.0.20260922.0.tar";
-        sha256 = "08jkgl6aparw2ad46rbzd7y1kgp2vlkmxk8gvbxjbnycw3n2lqfp";
+        url = "https://elpa.gnu.org/devel/ffs-0.2.3.0.20261024.2.tar";
+        sha256 = "0j77nnlja8bpabv8fq03p06sasczzrblqpf0gzcpvxmsgvfa2rna";
       };
       packageRequires = [ ];
       meta = {
