@@ -3001,10 +3001,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.8.0.20261025.10";
+      version = "4.0.9.0.20261025.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.8.0.20261025.10.tar";
-        sha256 = "10jwm4ssmmwsjl3ncrw64kbs28inskmvyylpbskx12svvwv9mmm3";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.9.0.20261025.0.tar";
+        sha256 = "1h2lbz4g63hl0h96y5b1irw4g7fn5h79c8cbwbrl89lcv3z0y8kl";
       };
       packageRequires = [
         helm-core
@@ -3026,10 +3026,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.8.0.20261025.10";
+      version = "4.0.9.0.20261025.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.8.0.20261025.10.tar";
-        sha256 = "0vf6swpwg2pr69hxj80h1qjlf0grd14qmk5w46x2pj9wj3l6d67v";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.9.0.20261025.0.tar";
+        sha256 = "14aciycw09pr0hpfvxz5qxx7dqf0r6ij1ykr116smrny1aqdd3hz";
       };
       packageRequires = [ async ];
       meta = {
@@ -5479,10 +5479,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.2.0.0.20260910.4";
+      version = "2.2.0.0.20261025.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20260910.4.tar";
-        sha256 = "1k6zyk6spwl8dar8jf0mf45vri4zwgm7yb9hzavc8b6gcla5nxd0";
+        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20261025.6.tar";
+        sha256 = "1pj8y20x1jhxwcldad89ggk91yvwffp5gcdjd599k63fvpz76k73";
       };
       packageRequires = [ ];
       meta = {
@@ -5669,10 +5669,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "10.0.0.0.20261012.41";
+      version = "10.0.0.0.20261025.42";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20261012.41.tar";
-        sha256 = "0x4yy0cy2hgd64624c0mlp0120wkqwhra7n59razpfj5a8dpkzba";
+        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20261025.42.tar";
+        sha256 = "0f7gygqahyibd2by2fxdv5jsjs8y44d2r0s9l39jn55f4qn75dn6";
       };
       packageRequires = [ ];
       meta = {
