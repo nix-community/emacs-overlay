@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20261013.12";
+      version = "14.2.0.0.20261025.13";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261013.12.tar";
-        sha256 = "1jjibmq2kxfb3wpzyqzchhl3c4knb3hs6laxm15fkcjca1m8fq3j";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261025.13.tar";
+        sha256 = "0bcsbv9r9vykzpcjq3lg6r61gg1j3nm83mzis4ikpp5h4z51kjnp";
       };
       packageRequires = [ ];
       meta = {
@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.3.1.0.20261022.1";
+      version = "9.3.1.0.20261025.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.3.1.0.20261022.1.tar";
-        sha256 = "1kyan2p3623p0rprsh2yia2b6v8hqdvlzk3ycvzw0lm4ak7p6brb";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.3.1.0.20261025.10.tar";
+        sha256 = "1vns4vcrazi7mqjj9s27zlv3vykyzq4d9wqxj978phn6mmkm4g8d";
       };
       packageRequires = [ ];
       meta = {
