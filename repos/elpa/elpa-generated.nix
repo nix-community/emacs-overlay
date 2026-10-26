@@ -419,10 +419,10 @@
     elpaBuild {
       pname = "async";
       ename = "async";
-      version = "1.9.9";
+      version = "2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/async-1.9.9.tar";
-        sha256 = "00slbyzjjn2v90lkaa9kc3wvlibs0rldh9crzjgp43y31xrzgpsg";
+        url = "https://elpa.gnu.org/packages/async-2.0.tar";
+        sha256 = "0q4zhc906bvxm4987rc1ikxw08q069axzcsd58hh32laxy0agpxz";
       };
       packageRequires = [ ];
       meta = {
@@ -2732,10 +2732,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.3.0";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/doric-themes-1.3.0.tar";
-        sha256 = "0g2izcjb25mbnsjn2sl9xakj0db03js2b2vh2afb7n9bp9g9x1vn";
+        url = "https://elpa.gnu.org/packages/doric-themes-1.4.0.tar";
+        sha256 = "09x6iskw69n9yb6dgm0iv3zwz5rm2hmx1i12i6207ycxmmrrgr3k";
       };
       packageRequires = [ ];
       meta = {
@@ -10973,6 +10973,28 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/wrap-search.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  xc = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "xc";
+      ename = "xc";
+      version = "20260719.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/xc-20260719.1.tar";
+        sha256 = "1viik28x38xir868kpvv8k31n4035f3i3r0brp7xhxxp805r7bak";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/xc.html";
         license = lib.licenses.free;
       };
     }
