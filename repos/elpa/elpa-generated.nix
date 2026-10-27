@@ -1688,10 +1688,10 @@
     elpaBuild {
       pname = "coterm";
       ename = "coterm";
-      version = "1.6";
+      version = "1.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/coterm-1.6.tar";
-        sha256 = "0kgsg99dggirz6asyppwx1ydc0jh62xd1bfhnm2hyby5qkqz1yvk";
+        url = "https://elpa.gnu.org/packages/coterm-1.7.tar";
+        sha256 = "04r66jh5wfvwhydbzcfypnsdl710h36863mxcl56x6a63631lnsk";
       };
       packageRequires = [ compat ];
       meta = {

@@ -1708,10 +1708,10 @@
     elpaBuild {
       pname = "coterm";
       ename = "coterm";
-      version = "1.6.0.20261013.8";
+      version = "1.7.0.20261026.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/coterm-1.6.0.20261013.8.tar";
-        sha256 = "08hq7h32g9ckj4g475q8174247pxdsmgffkd95j0zzhqfzsg7r5w";
+        url = "https://elpa.gnu.org/devel/coterm-1.7.0.20261026.0.tar";
+        sha256 = "1wq2raj9dzalh137h84lr7br5y8qmdmas1vjjq355bi51rxd8fay";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20261021.183";
+      version = "4.2.3.0.20261026.184";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261021.183.tar";
-        sha256 = "0xhhklp59kizvjkibpl09i34d30kliv2fk72mh6krj86ybxq9xd6";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261026.184.tar";
+        sha256 = "1zfz7953zqppkcb5mpk2zha5l931x583as065n16mfl7cm8k37yd";
       };
       packageRequires = [ ];
       meta = {
@@ -4802,10 +4802,10 @@
     elpaBuild {
       pname = "indent-bars";
       ename = "indent-bars";
-      version = "1.0.1.0.20260904.5";
+      version = "1.0.1.0.20261026.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/indent-bars-1.0.1.0.20260904.5.tar";
-        sha256 = "02gyy6705a1r98iw8cm96igda3k8qr81zmvy3qkmx8f91167ghgq";
+        url = "https://elpa.gnu.org/devel/indent-bars-1.0.1.0.20261026.7.tar";
+        sha256 = "1f94fc7hnk9w8c1c4h6ciwqwdrr62186kv7j1hh611qg4hwl4y75";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5656,10 +5656,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.34.0.0.20261015.3";
+      version = "0.34.0.0.20261025.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.34.0.0.20261015.3.tar";
-        sha256 = "1p6v4fxx55asp67rb97mcgw6b5rcjwlixqfcgdwkld4svv841m2v";
+        url = "https://elpa.gnu.org/devel/llm-0.34.0.0.20261025.5.tar";
+        sha256 = "1la5fpgl3hpnyq5h9bvkd7kwlrl82b5bbcnmnwb701s2k0n757ka";
       };
       packageRequires = [
         compat
@@ -11226,10 +11226,10 @@
     elpaBuild {
       pname = "xc";
       ename = "xc";
-      version = "20260719.1.0.20260719.0";
+      version = "20260719.1.0.20261026.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xc-20260719.1.0.20260719.0.tar";
-        sha256 = "1zwn66y5gqlznan1lg5xx36fyf07s1yl5pajb1wigd17xra0h17n";
+        url = "https://elpa.gnu.org/devel/xc-20260719.1.0.20261026.3.tar";
+        sha256 = "0a75pv2pqy5yjbrh3ra1flhsdzk3i22xs2mmjs4qj9nkxh82fjl2";
       };
       packageRequires = [ compat ];
       meta = {
