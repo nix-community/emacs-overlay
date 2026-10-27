@@ -670,10 +670,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0.0.20261010.60";
+      version = "0.6.0.0.20261026.72";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20261010.60.tar";
-        sha256 = "0qh2hgdy8wcap69hhy1sazvam62wcpvy8vz4f0fcsydarylk7rf3";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20261026.72.tar";
+        sha256 = "19yd7fg28m696n2ikam6vfrwx0fnnwdxhgynn865myg84mazzqkd";
       };
       packageRequires = [ ];
       meta = {
@@ -1219,10 +1219,10 @@
     elpaBuild {
       pname = "ebuild-mode";
       ename = "ebuild-mode";
-      version = "1.89.0.20261024.1";
+      version = "1.89.0.20261025.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/ebuild-mode-1.89.0.20261024.1.tar";
-        sha256 = "14qr2f0k1s33plq88p5z5afxh66m9f377vlk0q7s8dnqb5h3z664";
+        url = "https://elpa.nongnu.org/nongnu-devel/ebuild-mode-1.89.0.20261025.3.tar";
+        sha256 = "0z8lwm5kx77a84pkzjxlyrhs9pmg9z8z1sczdhks1cibrn07iy8h";
       };
       packageRequires = [ ];
       meta = {
@@ -4963,10 +4963,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20260926.0";
+      version = "1.0.20261025.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20260926.0.tar";
-        sha256 = "138b2656wfwmn3fqnhrzvwn72wmri0pm5qjkjx1w1xrkcbl8apdq";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20261025.0.tar";
+        sha256 = "00nw2ngff5j4wij8zp5kksc8dar04kwypnwanjli6426ixi5crf6";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6228,10 +6228,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.1snapshot0.20261023.4";
+      version = "9.0.1snapshot0.20261026.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261023.4.tar";
-        sha256 = "1k9i4r8lqk22y5b7cy504k6qyyqx0alvjizgsc2fgazc7fkplbr2";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261026.10.tar";
+        sha256 = "1q33k5mvcic8v90gw7j3dvvqqf6w4d18xzp4pbx6z2la6zwydps6";
       };
       packageRequires = [ vcard ];
       meta = {
