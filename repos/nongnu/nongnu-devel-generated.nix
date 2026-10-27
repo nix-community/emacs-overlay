@@ -1219,10 +1219,10 @@
     elpaBuild {
       pname = "ebuild-mode";
       ename = "ebuild-mode";
-      version = "1.89.0.20261025.3";
+      version = "1.89.0.20261025.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/ebuild-mode-1.89.0.20261025.3.tar";
-        sha256 = "0z8lwm5kx77a84pkzjxlyrhs9pmg9z8z1sczdhks1cibrn07iy8h";
+        url = "https://elpa.nongnu.org/nongnu-devel/ebuild-mode-1.89.0.20261025.4.tar";
+        sha256 = "0s0idzpcf0f2355cm616ys29w65r7byw4hdr491yjilig3w7dq2y";
       };
       packageRequires = [ ];
       meta = {
@@ -5393,10 +5393,10 @@
     elpaBuild {
       pname = "simple-httpd";
       ename = "simple-httpd";
-      version = "1.7.0.20260904.0";
+      version = "1.7.0.20261026.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/simple-httpd-1.7.0.20260904.0.tar";
-        sha256 = "187rqm9lyydni3zi48radvx86nw9l8ihpg1l6138nrfihdrq88c1";
+        url = "https://elpa.nongnu.org/nongnu-devel/simple-httpd-1.7.0.20261026.3.tar";
+        sha256 = "11f2ky681arqclgmv3pqsy5di4sxki3xim3y9vp5bjr0z9fr2y57";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6362,10 +6362,10 @@
     elpaBuild {
       pname = "with-editor";
       ename = "with-editor";
-      version = "3.5.4.0.20261020.16";
+      version = "3.5.4.0.20261025.17";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.4.0.20261020.16.tar";
-        sha256 = "0zrs59d8hj2gpc6zk37ll4hgyvzvzs72vcv0nidrvjx30cnk28r1";
+        url = "https://elpa.nongnu.org/nongnu-devel/with-editor-3.5.4.0.20261025.17.tar";
+        sha256 = "09ddqkk22z7mcf4in8kf91j6djlb22xz96k5wpc1m4sjj7phwqxd";
       };
       packageRequires = [
         compat
