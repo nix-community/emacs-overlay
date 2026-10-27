@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20261025.13";
+      version = "14.2.0.0.20261026.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261025.13.tar";
-        sha256 = "0bcsbv9r9vykzpcjq3lg6r61gg1j3nm83mzis4ikpp5h4z51kjnp";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261026.15.tar";
+        sha256 = "1yy95p0926l0w3x9lcnph1pzsxqyvznld5bdh8wdzsqws4lh2bdy";
       };
       packageRequires = [ ];
       meta = {
@@ -1988,10 +1988,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.27.1.0.20260924.10";
+      version = "0.28.0.0.20261026.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.27.1.0.20260924.10.tar";
-        sha256 = "16bx2nx3rmhaky4kw1cygm79f7rqwvkq891wrjiqpfdrdh80cr8g";
+        url = "https://elpa.gnu.org/devel/dape-0.28.0.0.20261026.0.tar";
+        sha256 = "1104pm93pz2virgc64pc7gqnabhgqvgsmb8bws8v87kw3b4phnqa";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -3807,10 +3807,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.7.0.20261010.11";
+      version = "1.4.7.0.20261027.12";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20261010.11.tar";
-        sha256 = "124rh1yfi0d36xdxyyjhjwvr0i8h7ny283bzmx95wn68hgq5613x";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20261027.12.tar";
+        sha256 = "12ybg47mxa6q2g4qazkvnw3lw0jq4ahkw8dijix2cv4bcihpkdp1";
       };
       packageRequires = [
         eldoc
@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.3.1.0.20261025.10";
+      version = "9.3.2.0.20261026.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.3.1.0.20261025.10.tar";
-        sha256 = "1vns4vcrazi7mqjj9s27zlv3vykyzq4d9wqxj978phn6mmkm4g8d";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.3.2.0.20261026.1.tar";
+        sha256 = "1pcfmbb0cny6byx63rqvj0ib3gk4j33xghx5ix5f1lf5262am25l";
       };
       packageRequires = [ ];
       meta = {
@@ -11358,10 +11358,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0.0.20260929.51";
+      version = "1.7.0.0.20261027.52";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20260929.51.tar";
-        sha256 = "02c091v133c0yzvs53356rzrksmdidkbhhs2s8wh1rb9yn25lwl4";
+        url = "https://elpa.gnu.org/devel/xref-1.7.0.0.20261027.52.tar";
+        sha256 = "021yfz9kvgx3xgg0dbmfv4pwl8ncs58ksypgpai57kj42n340qcq";
       };
       packageRequires = [ ];
       meta = {

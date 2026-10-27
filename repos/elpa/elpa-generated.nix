@@ -1947,10 +1947,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.27.1";
+      version = "0.28.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dape-0.27.1.tar";
-        sha256 = "1na3080gaygw4fsaymjjx9jgh9ai5k7gb0jmlrkbqnmdypag3mb7";
+        url = "https://elpa.gnu.org/packages/dape-0.28.0.tar";
+        sha256 = "07vsvxasb3ibynjrz5nx73zmpm8xwvpyd63g4p2bqz76wk6cizji";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -4635,10 +4635,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.3.1";
+      version = "9.3.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/hyperbole-9.3.1.tar";
-        sha256 = "0p2f9ds3i5slss11rj4kjva6a1m3zvxz83jsilxx96mngjbl67vg";
+        url = "https://elpa.gnu.org/packages/hyperbole-9.3.2.tar";
+        sha256 = "0cgdjwcyifqkaj56w70572l6lkw5v8xa773pkn1gs77g7kiddpzx";
       };
       packageRequires = [ ];
       meta = {
