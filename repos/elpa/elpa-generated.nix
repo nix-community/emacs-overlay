@@ -5161,10 +5161,10 @@
     elpaBuild {
       pname = "jsonrpc";
       ename = "jsonrpc";
-      version = "1.0.29";
+      version = "1.0.30";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jsonrpc-1.0.29.tar";
-        sha256 = "1cjxdzckxffiw2cjp68rf382iaf7qpg9iqkxm0yrz0rmw3vk3gcq";
+        url = "https://elpa.gnu.org/packages/jsonrpc-1.0.30.tar";
+        sha256 = "0ms4h0d0bf3jh20wr4f8b11g4wnry9p8qh6fhra8bx7m6cs5fdi6";
       };
       packageRequires = [ ];
       meta = {
