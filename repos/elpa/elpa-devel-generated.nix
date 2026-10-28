@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20261026.184";
+      version = "4.2.3.0.20261027.189";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261026.184.tar";
-        sha256 = "1zfz7953zqppkcb5mpk2zha5l931x583as065n16mfl7cm8k37yd";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261027.189.tar";
+        sha256 = "18h7qxdnwkcjf5z78g8dj9sw4ckldgs3f09dcjh2j52l7f77ynbp";
       };
       packageRequires = [ ];
       meta = {
@@ -3290,10 +3290,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20261006.52";
+      version = "0.0.20261027.53";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261006.52.tar";
-        sha256 = "055jqbiz8q2kd4l6rqyzgk5wvrs7578naq73ni7f01964v1j3bya";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261027.53.tar";
+        sha256 = "16a2g1vs3z6pgdv5vnhr4fwlj1622kgzh56jkwpkdpgd69rhnxp8";
       };
       packageRequires = [ ];
       meta = {
