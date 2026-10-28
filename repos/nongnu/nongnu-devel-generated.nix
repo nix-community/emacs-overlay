@@ -3806,10 +3806,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.7.1.0.20261024.59";
+      version = "4.7.1.0.20261028.63";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20261024.59.tar";
-        sha256 = "1gjx55kmlrbk025x1c8wwwcr1b2f33gjvdwgabgf2v9pwiagawfi";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.1.0.20261028.63.tar";
+        sha256 = "1im0qcdk7fy50kdxdp33j7x1k9myv8b7nb5kw13ldw93lfn7hgwn";
       };
       packageRequires = [
         compat
@@ -3839,10 +3839,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.7.1.0.20261024.59";
+      version = "4.7.1.0.20261028.63";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.1.0.20261024.59.tar";
-        sha256 = "01glyj8vd4ivm3v6g4cj4razzvs1gp254jb48wahl1z0b82c19fm";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.1.0.20261028.63.tar";
+        sha256 = "1bdvb445rkavig8663v7z7bqrxs8zn6v3nwn73868zaxmrh2l97l";
       };
       packageRequires = [
         compat
@@ -5436,10 +5436,10 @@
     elpaBuild {
       pname = "sly";
       ename = "sly";
-      version = "1.0.43.0.20261013.150";
+      version = "1.0.43.0.20261028.155";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20261013.150.tar";
-        sha256 = "1jlcdx0agf2rr50hfnm1rajd4qx0g3qy70ykbiksgk6nzdhqvd3b";
+        url = "https://elpa.nongnu.org/nongnu-devel/sly-1.0.43.0.20261028.155.tar";
+        sha256 = "15jnrcgddapfbv9vd078g2xn8dijawp0h7m366wkcs10s1sd3mj6";
       };
       packageRequires = [ ];
       meta = {
@@ -6228,10 +6228,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.1snapshot0.20261027.12";
+      version = "9.0.1snapshot0.20261027.14";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261027.12.tar";
-        sha256 = "10za43n6fr9njnpbw48b6rkn90xdfp9b00zwz723sr0shfkwf7mc";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261027.14.tar";
+        sha256 = "0rbpy95mbvazb7k3hpqyqkf0r1kba60aayw0x6vpqn3fzzn67kn0";
       };
       packageRequires = [ vcard ];
       meta = {
