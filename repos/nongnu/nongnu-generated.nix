@@ -3903,10 +3903,10 @@
     elpaBuild {
       pname = "markdown-ts-appear";
       ename = "markdown-ts-appear";
-      version = "0.3.1";
+      version = "0.4.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/markdown-ts-appear-0.3.1.tar";
-        sha256 = "0r4nxszl2hkd8am95s41qaqai62skqj433s7z02dcikpbhrkclj6";
+        url = "https://elpa.nongnu.org/nongnu/markdown-ts-appear-0.4.0.tar";
+        sha256 = "05blr9c8bba056hx6526hcmpsym31pmyxpdsflwbybinv2m2g0ws";
       };
       packageRequires = [ ];
       meta = {
