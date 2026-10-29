@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.1.0.0.20261025.25";
+      version = "1.1.0.0.20261028.34";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261025.25.tar";
-        sha256 = "0dmj9w6mymz9777d28y50sknx7n3mmapcsfmmb153f9ab7yd9vzj";
+        url = "https://elpa.gnu.org/devel/company-1.1.0.0.20261028.34.tar";
+        sha256 = "1bb6hnv6gfvn3kiy3ad7r7nydaa6x1wa0mn5p6ph414da05k89kj";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -3041,16 +3041,17 @@
       jsonrpc,
       lib,
       project,
+      refactor,
       seq,
       xref,
     }:
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.24.0.20261013.24";
+      version = "1.24.0.20261028.34";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20261013.24.tar";
-        sha256 = "079vhpss8527diyi8y01pr8lzfij4lkr5nxpb9y3a2qrhjpvv84p";
+        url = "https://elpa.gnu.org/devel/eglot-1.24.0.20261028.34.tar";
+        sha256 = "1slgcjpfkrphnvf2wql78j6hihy90627g5nwqmaj4bvrldg7cqx9";
       };
       packageRequires = [
         eldoc
@@ -3058,6 +3059,7 @@
         flymake
         jsonrpc
         project
+        refactor
         seq
         xref
       ];
@@ -3807,10 +3809,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.7.0.20261027.12";
+      version = "1.4.7.0.20261028.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20261027.12.tar";
-        sha256 = "12ybg47mxa6q2g4qazkvnw3lw0jq4ahkw8dijix2cv4bcihpkdp1";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.7.0.20261028.15.tar";
+        sha256 = "1vmlgj345dqgvh8ix7998py3z5k5w16f7b9glxy9c5ccl7in0hwd";
       };
       packageRequires = [
         eldoc
@@ -5113,10 +5115,10 @@
     elpaBuild {
       pname = "javaimp";
       ename = "javaimp";
-      version = "0.9.2.0.20260804.10";
+      version = "0.9.2.0.20261028.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20260804.10.tar";
-        sha256 = "0ca9pjpi88f55x47xd7qa86w2d4fja2vm2sjvq4dnrx8mz1q64lg";
+        url = "https://elpa.gnu.org/devel/javaimp-0.9.2.0.20261028.11.tar";
+        sha256 = "0ds26i2zsl621w6lcz6l20z1hahany1pmznfjfpj7mdpkm0snbdp";
       };
       packageRequires = [ ];
       meta = {
@@ -5439,10 +5441,10 @@
     elpaBuild {
       pname = "leaf";
       ename = "leaf";
-      version = "4.5.5.0.20260508.153103";
+      version = "4.5.5.0.20261028.19";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/leaf-4.5.5.0.20260508.153103.tar";
-        sha256 = "0zps0wiyplsv8nghyjfvv8m20rn0bsx7dapdfbvx3bkiqbmf8crq";
+        url = "https://elpa.gnu.org/devel/leaf-4.5.5.0.20261028.19.tar";
+        sha256 = "03dp05n42547vfnnphha0hjfplkg9xc2r8611kpgsm77mjs61syf";
       };
       packageRequires = [ ];
       meta = {
@@ -8424,6 +8426,28 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/rec-mode.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  refactor = callPackage (
+    {
+      eldoc,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "refactor";
+      ename = "refactor";
+      version = "0.1.0.20261027.5";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/refactor-0.1.0.20261027.5.tar";
+        sha256 = "0ryclkhimz12f0p7mxj8psn90rqgalyrwwrncmz2x5c2kqn6r30l";
+      };
+      packageRequires = [ eldoc ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/refactor.html";
         license = lib.licenses.free;
       };
     }

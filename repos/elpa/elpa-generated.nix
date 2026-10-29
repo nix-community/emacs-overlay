@@ -8278,6 +8278,28 @@
       };
     }
   ) { };
+  refactor = callPackage (
+    {
+      eldoc,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "refactor";
+      ename = "refactor";
+      version = "0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/refactor-0.1.tar";
+        sha256 = "1m6xjh1yzjl03sa10bln9j7l2zqqgwwwgidq34iw2ad03a06plxy";
+      };
+      packageRequires = [ eldoc ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/refactor.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   register-list = callPackage (
     {
       elpaBuild,
