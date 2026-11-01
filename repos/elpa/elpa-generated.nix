@@ -2978,16 +2978,17 @@
       jsonrpc,
       lib,
       project,
+      refactor,
       seq,
       xref,
     }:
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.24";
+      version = "1.26";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/eglot-1.24.tar";
-        sha256 = "0fi10gxw33lh15xvwv5bfqzv81wp7k3yibqc2mzbn59kwrja94gc";
+        url = "https://elpa.gnu.org/packages/eglot-1.26.tar";
+        sha256 = "1hpf0cyqxlka6g2xd3aflz636kb8qcl3fqvdiywkiy3rqkfhi272";
       };
       packageRequires = [
         eldoc
@@ -2995,6 +2996,7 @@
         flymake
         jsonrpc
         project
+        refactor
         seq
         xref
       ];
@@ -3721,10 +3723,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.7";
+      version = "1.4.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/flymake-1.4.7.tar";
-        sha256 = "11i5v483k70la6v48ljar54n6rhi8p7w2xnci5w5wvn11cmffrwz";
+        url = "https://elpa.gnu.org/packages/flymake-1.4.8.tar";
+        sha256 = "0l2dqqk0q02vpc8z7pm521kh36n7m68ba13icagm7dqvm5xghcmm";
       };
       packageRequires = [
         eldoc
@@ -8288,10 +8290,10 @@
     elpaBuild {
       pname = "refactor";
       ename = "refactor";
-      version = "0.1";
+      version = "0.1.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/refactor-0.1.tar";
-        sha256 = "1m6xjh1yzjl03sa10bln9j7l2zqqgwwwgidq34iw2ad03a06plxy";
+        url = "https://elpa.gnu.org/packages/refactor-0.1.1.tar";
+        sha256 = "0z93xsw7cxa9r3mjnvaas1c5hn6syhzk2lrhwx88p4gnkh38y4i2";
       };
       packageRequires = [ eldoc ];
       meta = {
@@ -8614,10 +8616,10 @@
     elpaBuild {
       pname = "setup";
       ename = "setup";
-      version = "1.5.0";
+      version = "1.5.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/setup-1.5.0.tar";
-        sha256 = "184g3kd9caxyhwq41w94spkjs1j45vblg4sqfb5h5pqb5h9p95n5";
+        url = "https://elpa.gnu.org/packages/setup-1.5.1.tar";
+        sha256 = "10vghjij2vzd34prgl496dq2288nb3x4djnzs3amzyws9dc2arnr";
       };
       packageRequires = [ ];
       meta = {
@@ -9800,10 +9802,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.8.2.3";
+      version = "2.8.2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.8.2.3.tar";
-        sha256 = "0bbjh6hl3zfhsdwb72b6qkl7qsafqw7dald11k3b1v52vzdjf6zi";
+        url = "https://elpa.gnu.org/packages/tramp-2.8.2.4.tar";
+        sha256 = "1nmvnzi5a5v7wxr1kzz1g1xcdymd4da0kygfzcsd746nmyqxipvs";
       };
       packageRequires = [ ];
       meta = {
@@ -9910,10 +9912,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.8";
+      version = "0.13.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.13.8.tar";
-        sha256 = "1gdyl4ghpydmhsrpi0yvffcwkghs5ndnxy4wrmdd6byfwxffx8hg";
+        url = "https://elpa.gnu.org/packages/transient-0.13.9.tar";
+        sha256 = "15nvz1ygk6lb3n0729ph99jg6s30xzjwi5dvd5mgsc51mzn96w5g";
       };
       packageRequires = [
         compat
@@ -11141,10 +11143,10 @@
     elpaBuild {
       pname = "xref";
       ename = "xref";
-      version = "1.7.0";
+      version = "1.8.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/xref-1.7.0.tar";
-        sha256 = "0jy49zrkqiqg9131k24y6nyjnq2am4dwwdrqmginrrwzvi3y9d24";
+        url = "https://elpa.gnu.org/packages/xref-1.8.0.tar";
+        sha256 = "1iwz3yi7a4id95xwl6v94h0js7dpnr6rwc588608nknlxn0y6nkc";
       };
       packageRequires = [ ];
       meta = {
