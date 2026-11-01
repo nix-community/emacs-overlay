@@ -2190,15 +2190,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20261031,
-    1204
+    20261101,
+    1312
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "cd2b38ddc4c7664eaad47b5e3aa2e4ba7bc2a7dc",
-   "sha256": "0897s5g1ya2s8bk72hqkmr2kdi0bpqzzkcjivgsxmxs19ma3p880"
+   "commit": "ec2319486d3c4268a606160377f8ea726368dd6a",
+   "sha256": "1ksrb3myh50v8fqdpv72jscsqnp7yhm4j18krzvp9dy3zb7zmxgs"
   },
   "stable": {
    "version": [
@@ -2454,14 +2454,14 @@
   "unstable": {
    "version": [
     20261101,
-    421
+    1808
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "1667aee622cfd0bc6c1a12842bb125086b62745c",
-   "sha256": "1s2lr15355yw6hsnfxrkpm1x0kl6dypc806zs9wj7y4i4fia97xm"
+   "commit": "7f23e7790bc30b5f50d38efe474a26dea668c584",
+   "sha256": "1g9qy601ijgdyiscdvqqy9wfm5w1q6pfyj35my3h9qlys6c20ki3"
   },
   "stable": {
    "version": [
@@ -5812,14 +5812,14 @@
   "repo": "abdulnafe-t/auto-capitalize.el",
   "unstable": {
    "version": [
-    20261028,
-    1836
+    20261101,
+    1114
    ],
    "deps": [
     "compat"
    ],
-   "commit": "8cc735d165694841e73c75260b755cda4cc56c86",
-   "sha256": "1ny0qkj3rxjqbgbq58d5673a8s4a5vr7j8hsqdl25sx8dyajbcsf"
+   "commit": "d1e9bb2b384c390c54c96ebdbbc19b57fc5e3abb",
+   "sha256": "1girpaqnw7vdfk38z2si185sxnyji2zv2lyl2sh6x08hc6gl3xdy"
   },
   "stable": {
    "version": [
@@ -34994,11 +34994,11 @@
   "repo": "johanwk/elot",
   "unstable": {
    "version": [
-    20260917,
-    1127
+    20261101,
+    1302
    ],
-   "commit": "a6a66f28ab7223b1caa275bb4c5e456b8f1c158d",
-   "sha256": "0q989gvl6545mjzn730ywmg518jg9w68860cdm3y783x7qf80vg3"
+   "commit": "33841c94352083b5372602858a9071e78d890400",
+   "sha256": "0gmssg1wvkv3bl1v2j6x43203xs6yfyq7sa5jyb5yx5vj1yp1prn"
   },
   "stable": {
    "version": [
@@ -65454,10 +65454,10 @@
   "unstable": {
    "version": [
     20261101,
-    1132
+    1340
    ],
-   "commit": "3743b5f43273bb42bb329b87cca99654b0c6c00b",
-   "sha256": "1jzgcr34n6h80n82my4cw6hrh3mbmf4f30scif21nms5gvfw19nv"
+   "commit": "12cd1ca2ab1debe4f47f4783ae4e9b926218589f",
+   "sha256": "04v23d4sx7wv5hgqinm5hlwimmr5i0qciha6wv6nib3lkmn884ik"
   }
  },
  {
@@ -70709,6 +70709,14 @@
    "commit": "5a36492195422ea5446fc0895d7070f29999fffd",
    "sha256": "0kis6d7hxf8flyqj19b5bgypmrmkgq4vvg8sgf07alh8hdy6rs6p"
   }
+ },
+ {
+  "ename": "japanese-menu",
+  "commit": "b7d3c8188116468277534758bfa10121109e81b7",
+  "sha256": "1x161drwyfia9m2r5smvh97v7769jg0kv90fdgzk4435cy9fsrs0",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "yt-emacs-ja/emacs-japanese-menu"
  },
  {
   "ename": "jape-mode",
@@ -83518,6 +83526,14 @@
   }
  },
  {
+  "ename": "mdired",
+  "commit": "b8182778c56a937f3a3e0084908c73a4e612db2f",
+  "sha256": "1ixj7yz0rfg53axfbwdyv97czz24qlb3940iigrjhgd0rpribm2x",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "kickingvegas/mdired"
+ },
+ {
   "ename": "media-progress",
   "commit": "e766cef05f3fa3af9027548586ddffadaaa819d7",
   "sha256": "1nzphbrln5693q53jj61hmxf10pr5d8rvfa7kb46c65frr2mbavp",
@@ -89123,10 +89139,10 @@
   "unstable": {
    "version": [
     20261101,
-    1018
+    1610
    ],
-   "commit": "0139d3819d81a3e80ab2661c2b911e504cec74ca",
-   "sha256": "1rc17v7izg7k5imbzqpbwqi7xb048rhrkcb2pf09qw5xvlfr5n70"
+   "commit": "23286ceaec1e2385f3339e2e11bac5d8c2f89419",
+   "sha256": "0c47navc9yv1y5qhidbylkrybmjv068qd1g4wq6kbqaprwvkcsgy"
   },
   "stable": {
    "version": [
@@ -97772,15 +97788,15 @@
   "url": "https://repo.or.cz/org-link-beautify.git",
   "unstable": {
    "version": [
-    20261031,
-    1156
+    20261101,
+    1526
    ],
    "deps": [
     "nerd-icons",
     "qrencode"
    ],
-   "commit": "2fa82d0c24db19a8d1dcff5e4b967c131bb7a028",
-   "sha256": "19q15gwyx3hlkwrr3qx3gvsgxb2kcvnbd7447hvzhyqaraj33qrb"
+   "commit": "d59ae259447f7c938381f50d8d4ed7fb42e995c5",
+   "sha256": "1610izixqk99571l6wn2pdjfqpirqgcvddgn1gj53ywb3w69scsp"
   },
   "stable": {
    "version": [
@@ -106232,6 +106248,14 @@
   }
  },
  {
+  "ename": "perl-live",
+  "commit": "3f14c26621027a97b7f9da56f09a9245539cb480",
+  "sha256": "09s7szmnl4v5rnd2p2pxa1wgsk6bsfh76wk709li7d25jwbwgzmg",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "vividsnow/perl-live"
+ },
+ {
   "ename": "perl-ts-mode",
   "commit": "e6f5c090d4ff0c19697976a8da2e74aa26a83d85",
   "sha256": "1zpyj6x6qn393rh87kdqm5nvmm178nsg9w79sd0iqmkvj40q8ak9",
@@ -107486,7 +107510,7 @@
   "unstable": {
    "version": [
     20261101,
-    1156
+    1553
    ],
    "deps": [
     "magit-section",
@@ -107494,14 +107518,14 @@
     "md-ts-mode",
     "transient"
    ],
-   "commit": "085e8df5b23e6759ca9077c4c1f887429ef05b51",
-   "sha256": "0mjljv1cpah8w6mw93xfqj7hyxb6c0qzdxkhbvxyamrvdj6z9m2y"
+   "commit": "47e8841304a4b9d91cd9c93f48c2cf954fd7e367",
+   "sha256": "0ca23srhlg49drnmk5vlgvdnazjbx1096hc174sz3345mvknp7s9"
   },
   "stable": {
    "version": [
     3,
     4,
-    1
+    2
    ],
    "deps": [
     "magit-section",
@@ -107509,8 +107533,8 @@
     "md-ts-mode",
     "transient"
    ],
-   "commit": "ad8b796c0f004b94ed401db059c744c90fd6b185",
-   "sha256": "1pyqdzpvvxrxmd9zcc5p2gx1z8rfc56z3lbq0vx5n97kdn326f81"
+   "commit": "47e8841304a4b9d91cd9c93f48c2cf954fd7e367",
+   "sha256": "0ca23srhlg49drnmk5vlgvdnazjbx1096hc174sz3345mvknp7s9"
   }
  },
  {
@@ -143144,6 +143168,14 @@
    "commit": "e27bf918978ac9d5e3383997dcb49d88d6135d91",
    "sha256": "1xsp601jm2jwixnq57czdb7gw89x9831zy69kdjqy58sx4clpin4"
   }
+ },
+ {
+  "ename": "xdg-redirect",
+  "commit": "bb229f25f11e919852a2f87f1f430fee1e366e04",
+  "sha256": "1s2xr0bvfrny6v7kyj9ppi1sysjb0bspgr1x7nly61qraf3lsnxw",
+  "error": "Not in archive",
+  "fetcher": "github",
+  "repo": "francisco-colaco/xdg-redirect"
  },
  {
   "ename": "xenops",
