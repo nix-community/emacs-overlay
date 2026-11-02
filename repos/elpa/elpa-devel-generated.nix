@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.16.0.20261014.2";
+      version = "2.16.0.20261101.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.16.0.20261014.2.tar";
-        sha256 = "07jhs6wpjbr0wlsirkwks8vv8q1q3vbdr8jlw6fbcn06ddsam3rb";
+        url = "https://elpa.gnu.org/devel/corfu-2.16.0.20261101.3.tar";
+        sha256 = "08kqb2i0xgcjm2cwbiwwd2r9wnq0lc1z6kh87nd0aglf5vawvfxn";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3019,10 +3019,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.2.1.0.20261101.29";
+      version = "2.2.1.0.20261101.40";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.2.1.0.20261101.29.tar";
-        sha256 = "0c87h2raaxsx8hlbhr9h5gg4dz9vw5n7xbsh40rv0gb82b0albc4";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.2.1.0.20261101.40.tar";
+        sha256 = "1sbslbb72sn9z45ifv2a2rg5r05pk0rlr0rv9hmbc5j5g426a5cy";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -6846,10 +6846,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261031.954";
+      version = "10.0pre0.20261101.956";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261031.954.tar";
-        sha256 = "0b0dsvhknza4iyawcmi49vr7hvap9m3jrarfvwmv6m0rm6msmnd8";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261101.956.tar";
+        sha256 = "0idx358a8mx6lrw9sf3lv797bdsj130ai4282cmx9rv4z5jnpmsq";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7364,10 +7364,10 @@
     elpaBuild {
       pname = "perl-doc";
       ename = "perl-doc";
-      version = "0.82.0.20250606.121940";
+      version = "0.82.0.20261101.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/perl-doc-0.82.0.20250606.121940.tar";
-        sha256 = "0ymxvkwphqykq7qznxdlmsid4l7946vrll95b92n8f896wn8zlqa";
+        url = "https://elpa.gnu.org/devel/perl-doc-0.82.0.20261101.1.tar";
+        sha256 = "1lcvliy3z74jy94pg8vc89baiw55cpcryphis5qkxxxxh0lz60r3";
       };
       packageRequires = [ ];
       meta = {
@@ -7967,10 +7967,10 @@
     elpaBuild {
       pname = "qrencode";
       ename = "qrencode";
-      version = "1.7beta1.0.20261030.1";
+      version = "1.7beta2.0.20261101.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/qrencode-1.7beta1.0.20261030.1.tar";
-        sha256 = "01n9bzmcq9hnsagz3wxg12r6av0qn08z5mxi0imksdl41k4m997k";
+        url = "https://elpa.gnu.org/devel/qrencode-1.7beta2.0.20261101.0.tar";
+        sha256 = "0gvy8fc2z1bw486178iidgazpv5qzw0b62hhlza61vkqmsgar4pj";
       };
       packageRequires = [ ];
       meta = {
