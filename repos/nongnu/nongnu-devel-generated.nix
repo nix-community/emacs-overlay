@@ -4750,10 +4750,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.69.0.20260812.0";
+      version = "0.69.0.20261102.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.69.0.20260812.0.tar";
-        sha256 = "0sipq7xyxqlkzq9hzkz2gzn02rn5blqzl67pp1pfbw4i0m9jjkla";
+        url = "https://elpa.nongnu.org/nongnu-devel/pg-0.69.0.20261102.2.tar";
+        sha256 = "06z2nzh3fbp2wif967gc7s9zvdi9d64ic99557b2bshyfkn1nzxp";
       };
       packageRequires = [ peg ];
       meta = {
@@ -4919,10 +4919,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20261030.309";
+      version = "4.6snapshot0.20261102.311";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261030.309.tar";
-        sha256 = "1j8mx44gip2vqs58jp1lisxjzf11cp5wdxvjqrmh7yy8xz7vcaqc";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261102.311.tar";
+        sha256 = "0g2li5hhq3zm27vj7z5qppzn3mqj4xpvsrjkfy5cn038glp6p8v8";
       };
       packageRequires = [ ];
       meta = {
@@ -5479,10 +5479,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.2.0.0.20261031.7";
+      version = "2.2.0.0.20261101.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20261031.7.tar";
-        sha256 = "1i42h955xzhy3bih1lpfdkdd87gmnkys69c6j5jg61g9v3rxc99b";
+        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20261101.8.tar";
+        sha256 = "03j1g9m9qn76004krir5nrp2yvjcmislnkrr9y5fzv6l1vkp7xc6";
       };
       packageRequires = [ ];
       meta = {
@@ -6228,10 +6228,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.1snapshot0.20261101.35";
+      version = "9.0.1snapshot0.20261101.40";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261101.35.tar";
-        sha256 = "0vjki048c527i4vpd1qfcygqq854f2wlx2c69jbc7cp0yf81zj7n";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261101.40.tar";
+        sha256 = "086lgd5s2rc63lsarkbkl2cjsz9586zj45hfkq9zycg5kg9wgaz6";
       };
       packageRequires = [ vcard ];
       meta = {
