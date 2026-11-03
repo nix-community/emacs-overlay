@@ -2052,10 +2052,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.50";
+      version = "0.51";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fj-0.50.tar";
-        sha256 = "194b9nsdxharxfw5bnjmj51ggxdidqbxdc4j8sxcn7ghwysa0yqj";
+        url = "https://elpa.nongnu.org/nongnu/fj-0.51.tar";
+        sha256 = "1ahnxray9bddnnyjjip3bl084x2gm1hybzbzd1zwgc6j6l75k8xz";
       };
       packageRequires = [
         compat

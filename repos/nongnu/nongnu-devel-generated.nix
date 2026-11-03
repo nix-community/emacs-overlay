@@ -2034,10 +2034,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.50.0.20261101.37";
+      version = "0.51.0.20261102.38";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.50.0.20261101.37.tar";
-        sha256 = "0yydncdgi1q8id3jz2vax0ap23riy0nzcc2h20wxclqv7xdrsac4";
+        url = "https://elpa.nongnu.org/nongnu-devel/fj-0.51.0.20261102.38.tar";
+        sha256 = "0akx72m08c25b58b467hga4yy5sxzsjwd6c3pw2jg5x43rwq9hqi";
       };
       packageRequires = [
         compat
@@ -4919,10 +4919,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20261102.311";
+      version = "4.6snapshot0.20261102.317";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261102.311.tar";
-        sha256 = "0g2li5hhq3zm27vj7z5qppzn3mqj4xpvsrjkfy5cn038glp6p8v8";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261102.317.tar";
+        sha256 = "0b0nq3xzb34vdcbmigg67sxlh6691wvddmcjmcv39v41173dxw4l";
       };
       packageRequires = [ ];
       meta = {
@@ -5415,10 +5415,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20261018.81";
+      version = "2.32snapshot0.20261102.82";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261018.81.tar";
-        sha256 = "1rr6w52xqc6i92il94mw9xa1r015smlxsfx1y1is12nqi1pcd44i";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261102.82.tar";
+        sha256 = "02jj8jwv4jcs0drhyxw23d87ipvcagfy1s3xngm24axj2bfsy6ic";
       };
       packageRequires = [ macrostep ];
       meta = {
