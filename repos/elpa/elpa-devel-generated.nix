@@ -5441,10 +5441,10 @@
     elpaBuild {
       pname = "leaf";
       ename = "leaf";
-      version = "4.5.5.0.20261028.19";
+      version = "4.5.5.0.20261103.20";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/leaf-4.5.5.0.20261028.19.tar";
-        sha256 = "03dp05n42547vfnnphha0hjfplkg9xc2r8611kpgsm77mjs61syf";
+        url = "https://elpa.gnu.org/devel/leaf-4.5.5.0.20261103.20.tar";
+        sha256 = "18iaa123rp45xhbvdk1cajcz2j93vnhq6rx464bgh99whzajw2qc";
       };
       packageRequires = [ ];
       meta = {
