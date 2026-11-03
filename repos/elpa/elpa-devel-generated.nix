@@ -3292,10 +3292,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20261030.54";
+      version = "0.0.20261102.55";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261030.54.tar";
-        sha256 = "0x2s8bhi47mj7xzl1khd1gdsbd0bpzq86pi5v86273rnpamk9vls";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261102.55.tar";
+        sha256 = "0hdf3q18ag82cbqcpn8gk4x6586ap0qgcp3b8nxkggxfnjb0qi8h";
       };
       packageRequires = [ ];
       meta = {
@@ -4051,10 +4051,10 @@
     elpaBuild {
       pname = "futur";
       ename = "futur";
-      version = "2.1.0.20261016.0";
+      version = "2.1.0.20261102.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/futur-2.1.0.20261016.0.tar";
-        sha256 = "006jpwbhb4rx4skxiacd0hvrn02n7hl82vc8s3i869bhrq75h17g";
+        url = "https://elpa.gnu.org/devel/futur-2.1.0.20261102.1.tar";
+        sha256 = "099i3bwn1biv67p8kibsrjy434nwfcq9xldlnbn0pdy6bgls7g7b";
       };
       packageRequires = [ ];
       meta = {
@@ -6846,10 +6846,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261101.956";
+      version = "10.0pre0.20261102.957";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261101.956.tar";
-        sha256 = "0idx358a8mx6lrw9sf3lv797bdsj130ai4282cmx9rv4z5jnpmsq";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261102.957.tar";
+        sha256 = "0ik0z9glx714726vdkhpr9qv92ax602xc8ypmz353j5rzp4mchcg";
       };
       packageRequires = [ compat ];
       meta = {
