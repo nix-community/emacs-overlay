@@ -649,10 +649,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.23.0.0.20261101.11";
+      version = "5.23.0.0.20261103.12";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.23.0.0.20261101.11.tar";
-        sha256 = "19bzpgx6wlaq24cjzl5hk0zrjk87bysha5qww59lz92zz535n87v";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.23.0.0.20261103.12.tar";
+        sha256 = "10q9zlw8b3r2k36h5c9dx7xqs60jmh0a7hkm4rdw3qxbip6sx2gf";
       };
       packageRequires = [ ];
       meta = {
@@ -3444,10 +3444,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.15.1.0.20261030.1";
+      version = "0.15.1.0.20261103.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.15.1.0.20261030.1.tar";
-        sha256 = "0alan6mgm935kzlri41dsa84n4jjbpp6akcdclrrxrszsm2l3i7b";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.15.1.0.20261103.2.tar";
+        sha256 = "13cc81gqrdp1qbv7nyc3j4p38bkm4pbhafxziqr9ii6m96airkvr";
       };
       packageRequires = [
         fsm
@@ -4771,10 +4771,10 @@
     elpaBuild {
       pname = "php-mode";
       ename = "php-mode";
-      version = "1.28.0.0.20261029.36";
+      version = "1.28.0.0.20261103.39";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.28.0.0.20261029.36.tar";
-        sha256 = "1zyvw1y428cgvndp72bl4j57cxphxcsjwpymbbq73qi6y8m4bb4q";
+        url = "https://elpa.nongnu.org/nongnu-devel/php-mode-1.28.0.0.20261103.39.tar";
+        sha256 = "19vb4aq0fr3y2vk6lgi28g0lqk6yc1r276g1jxb575z7kxmcnrm4";
       };
       packageRequires = [ ];
       meta = {
@@ -4919,10 +4919,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20261102.317";
+      version = "4.6snapshot0.20261103.322";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261102.317.tar";
-        sha256 = "0b0nq3xzb34vdcbmigg67sxlh6691wvddmcjmcv39v41173dxw4l";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261103.322.tar";
+        sha256 = "1wmdy809bckp04dz74jaz4jfqrhwzxriyjfy1xjywrwz707sqcgh";
       };
       packageRequires = [ ];
       meta = {
