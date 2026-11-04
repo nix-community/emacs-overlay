@@ -6302,6 +6302,28 @@
       };
     }
   ) { };
+  modus-vague = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      modus-themes,
+    }:
+    elpaBuild {
+      pname = "modus-vague";
+      ename = "modus-vague";
+      version = "0.2.3.0.20261101.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/modus-vague-0.2.3.0.20261101.1.tar";
+        sha256 = "1zxs3r3s4lqvnpg1mnjwlg62ryjfj1l6qi7bjgjhcdfih6zcl4bi";
+      };
+      packageRequires = [ modus-themes ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/modus-vague.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   mpdired = callPackage (
     {
       elpaBuild,
@@ -10289,10 +10311,10 @@
     elpaBuild {
       pname = "trust-manager";
       ename = "trust-manager";
-      version = "0.4.2.0.20260724.0";
+      version = "0.4.3.0.20261103.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/trust-manager-0.4.2.0.20260724.0.tar";
-        sha256 = "197gwy89si4yy775s8148qnfb1jiwknifhlgjwx6jlkgp1lwa4zw";
+        url = "https://elpa.gnu.org/devel/trust-manager-0.4.3.0.20261103.0.tar";
+        sha256 = "1qbkprpzyfy0zcdda5k8kfy2wx3ij5f7lhyx9hnz636kf26zwbgn";
       };
       packageRequires = [ ];
       meta = {
