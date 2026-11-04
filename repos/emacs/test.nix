@@ -11,4 +11,5 @@ in {
   emacsGit = mkTestBuild pkgs.emacsGit;
   emacsPgtk = mkTestBuild pkgs.emacsPgtk;
   emacsIgc = mkTestBuild pkgs.emacs-igc;
+  emacsPwayl = mkTestBuild pkgs.emacs-pwayl;
 }

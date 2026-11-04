@@ -76,6 +76,7 @@
                 inherit (pkgs) emacs-git emacs-git-nox;
                 inherit (pkgs) emacs-git-pgtk;
                 inherit (pkgs) emacs-igc emacs-igc-pgtk;
+                inherit (pkgs) emacs-pwayl;
               };
             };
 
