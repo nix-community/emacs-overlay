@@ -8,6 +8,8 @@ let
           super.fetchgit
         else if repoMeta.type == "github" then
           super.fetchFromGitHub
+        else if repoMeta.type == "codeberg" then
+          super.fetchFromCodeberg
         else
           throw "Unknown repository type ${repoMeta.type}!";
     in
@@ -141,6 +143,56 @@ let
                          };
                        });
 
+  # Native Wayland backend rendered with Skia (no GTK or X).
+  # See https://codeberg.org/ezemtsov/emacs
+  emacs-pwayl = let base = (mkGitEmacs "emacs-pwayl" ../repos/emacs/emacs-pwayl.json) {
+                      withX = false;
+                      withToolkitScrollBars = false;
+                    };
+                    emacs = emacs-pwayl;
+                in
+                  base.overrideAttrs (
+                    oa: {
+                      nativeBuildInputs = oa.nativeBuildInputs ++ [ super.wayland-scanner ];
+                      buildInputs = oa.buildInputs ++ (with super; [
+                        skia
+                        libepoxy
+                        wayland
+                        wayland-protocols
+                        libxkbcommon
+                        fontconfig
+                        freetype
+                        giflib
+                        libjpeg
+                        libpng
+                        librsvg
+                        libtiff
+                      ]);
+                      # Without X, nixpkgs disables image formats that pwayl supports.
+                      configureFlags =
+                        let
+                          filterFlags = [ "--without-gif" "--without-jpeg" "--without-png" "--without-tiff" ];
+                        in
+                        builtins.filter
+                          (flag: !(builtins.elem flag filterFlags))
+                          oa.configureFlags
+                        ++ [
+                          "--with-pwayl"
+                          "--with-skia"
+                          "--with-rsvg"
+                          "--with-gif"
+                          "--with-jpeg"
+                          "--with-png"
+                          "--with-tiff"
+                        ];
+                      passthru = oa.passthru // {
+                        pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
+                      };
+                      meta = oa.meta // {
+                        platforms = super.lib.platforms.linux;
+                      };
+                    });
+
   emacs-git-nox = (
     (
       emacs-git.override {
@@ -180,6 +232,8 @@ in
   inherit emacs-git-nox emacs-unstable-nox;
 
   inherit emacs-igc emacs-igc-pgtk;
+
+  inherit emacs-pwayl;
 
   emacsWithPackagesFromUsePackage = import ../elisp.nix { pkgs = self; };
 
