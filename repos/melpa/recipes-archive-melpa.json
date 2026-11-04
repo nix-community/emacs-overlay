@@ -1005,8 +1005,8 @@
   "repo": "xcwen/ac-php",
   "unstable": {
    "version": [
-    20261028,
-    426
+    20261104,
+    204
    ],
    "deps": [
     "dash",
@@ -1016,8 +1016,8 @@
     "s",
     "xcscope"
    ],
-   "commit": "619cb3c999719cd6ea0e784249811c2660980e79",
-   "sha256": "19bx4n5w4b8gnjins70c58sk32qf213ivrhbsgks70x3zvbvqs9c"
+   "commit": "dff1c73e97959a21d5c00b4b2bc5fd2a72ba9fb2",
+   "sha256": "0wway3pzaxw7q2jvgiybycyrf2m9mhrkdiaa5jargga365qwvcp4"
   },
   "stable": {
    "version": [
@@ -19265,10 +19265,10 @@
   "unstable": {
    "version": [
     20261103,
-    1933
+    2143
    ],
-   "commit": "9cc150dfbab0665e047ad0476c9e8f33ddaa1f10",
-   "sha256": "0d0x3xhgqwxrk9w0wg7wsrvp0wmc6n8aklcbbjrfz6ccljbjrpd6"
+   "commit": "5af5448d41e074d833e67a3709a11c5569083873",
+   "sha256": "1c303ay4ndjjnr1k9jw1db0pg85j1qvyh0r9y5knkpi04mpj1dck"
   },
   "stable": {
    "version": [
@@ -23324,10 +23324,10 @@
   "unstable": {
    "version": [
     20261103,
-    1616
+    2254
    ],
-   "commit": "a5ca5fc20769672cd950b7546c2bd801abf11015",
-   "sha256": "1pnicfd0bbwbif5b7862aprz9xj72c6rj6k77dads4crfdgmwjg7"
+   "commit": "20b5351f7b6d370430dec0644384835dff97e224",
+   "sha256": "1flwmmy3ri15ww09apbps63dx7kdc9y9j4wcvf8g5hhjsxbwq2xy"
   },
   "stable": {
    "version": [
@@ -31362,7 +31362,7 @@
   "stable": {
    "version": [
     0,
-    10,
+    11,
     0
    ],
    "deps": [
@@ -31372,8 +31372,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "0d11063a9ba2d78961b9c7f1862ba82dc724d234",
-   "sha256": "0fjvwakl4zkl2yqi5m08dc4gxy93i870hr7lrzdaq7s8bwbiwxxx"
+   "commit": "6db7ef9e2ad7ef5ccdaa8ab596643d19a694356f",
+   "sha256": "17b7zns1175v0jsmhhw9w16agjb6555afqs1sah5jn0sm1mmbsgm"
   }
  },
  {
@@ -36656,15 +36656,15 @@
   "repo": "jamescherti/enhanced-evil-paredit.el",
   "unstable": {
    "version": [
-    20261031,
-    30
+    20261101,
+    1834
    ],
    "deps": [
     "evil",
     "paredit"
    ],
-   "commit": "aff0092735681f809a904baef13aaecec2ec7a36",
-   "sha256": "1ggpb2glrs9jmsbq4v9rdi9q7xf74r3jldrsa06ffqsfhfdwzw83"
+   "commit": "58374ff5b0ed8259cdee5c7747b5db648348b5c7",
+   "sha256": "06fnn342wh164gj6rmy2q553j2h95pvl353w5j5s7p1yrmrmzala"
   },
   "stable": {
    "version": [
@@ -44048,13 +44048,13 @@
   "unstable": {
    "version": [
     20261103,
-    1831
+    2340
    ],
    "deps": [
     "compat"
    ],
-   "commit": "bf24523fc1dc928afa1cb5e0fa672bc923b67539",
-   "sha256": "0c6aqm0lz78lccvkll0586jq71vgqhsh9l45l1w4myfgsqk504hc"
+   "commit": "6b58a54339fb6fc1e8913ca465dc9f2d00ec5f52",
+   "sha256": "1p38h3byf8qr9gj6fkigy6x4pm40xlb483pnn41zynvw99c8h1r3"
   },
   "stable": {
    "version": [
@@ -88186,19 +88186,19 @@
   "unstable": {
    "version": [
     20261103,
-    2002
+    2054
    ],
-   "commit": "3d70e0f4addece03afa9b5250659464936e0e467",
-   "sha256": "0qiq2vakgicz7ffb44zwh2vj4x2lzk557h6xhfibrxyvrmdirynv"
+   "commit": "6bc8358abd0d1d43a513d888373ffa891e0fd306",
+   "sha256": "0jic8f89fhg2fg5l2bs8pf4gp6dhr8qj5ll7ch563fwa7s44a3rv"
   },
   "stable": {
    "version": [
-    1,
-    4,
+    2,
+    0,
     0
    ],
-   "commit": "76571627f29f12d36c354e2eb759412536f1bcaa",
-   "sha256": "1knd99qq2a050l9h54i83wdwrnvl751kgcywai7rm6g4w72vk9dg"
+   "commit": "6bc8358abd0d1d43a513d888373ffa891e0fd306",
+   "sha256": "0jic8f89fhg2fg5l2bs8pf4gp6dhr8qj5ll7ch563fwa7s44a3rv"
   }
  },
  {
@@ -99354,14 +99354,14 @@
   "repo": "RobertPlant/org-relative-date",
   "unstable": {
    "version": [
-    20261024,
-    1831
+    20261103,
+    2359
    ],
    "deps": [
     "org"
    ],
-   "commit": "3ef9c94299145beeb49dc8f869d518e489701a36",
-   "sha256": "1wskdhsbhczwvdcs48g2bx9gcsk9zk6vw9lc0i87crvhihg2rb7i"
+   "commit": "e5e06c6f91261d928f31561d4bb66b6a8e044365",
+   "sha256": "152626mh4ml0kxj56dq2aa6vb7z6w7l4dz24d9jzcah04cnsv8a5"
   },
   "stable": {
    "version": [
@@ -102585,14 +102585,14 @@
   "repo": "jamescherti/outline-indent.el",
   "unstable": {
    "version": [
-    20261031,
-    30
+    20261101,
+    1833
    ],
    "deps": [
     "kirigami"
    ],
-   "commit": "dc4e8cad6cff4ec63d5659f1997157213c3a4917",
-   "sha256": "07bj9nj6jcm1i12ifb9hz21l26gg0mdkrq74g0a9k3zkvpafr5bx"
+   "commit": "8e45ae2d8c98cf0dfe30217461e2a7bc778640a1",
+   "sha256": "1lf31g531mq7cwvlccgyhsb7lvmqsxnpf44zlsvsqpk2abkwqyqr"
   },
   "stable": {
    "version": [
@@ -107552,22 +107552,7 @@
   "repo": "dnouri/pilish",
   "unstable": {
    "version": [
-    20261102,
-    2315
-   ],
-   "deps": [
-    "magit-section",
-    "markdown-table-wrap",
-    "md-ts-mode",
-    "transient"
-   ],
-   "commit": "ef5dd7daa07da405e56f8792e203a6d7fef4605a",
-   "sha256": "07kl92ksija65vir0qzhs2kykk8xiv7znqcpg5ign8x0j8xfgam4"
-  },
-  "stable": {
-   "version": [
-    3,
-    4,
+    20261104,
     2
    ],
    "deps": [
@@ -107576,8 +107561,23 @@
     "md-ts-mode",
     "transient"
    ],
-   "commit": "47e8841304a4b9d91cd9c93f48c2cf954fd7e367",
-   "sha256": "0ca23srhlg49drnmk5vlgvdnazjbx1096hc174sz3345mvknp7s9"
+   "commit": "eeee1da8fe7543dd39991fbd2ba0ee1bfb41f6f6",
+   "sha256": "0jfkasz56hnkpnd58mh0anh1y9q6mgcgg18vbkhr2750zhflrw8r"
+  },
+  "stable": {
+   "version": [
+    3,
+    4,
+    3
+   ],
+   "deps": [
+    "magit-section",
+    "markdown-table-wrap",
+    "md-ts-mode",
+    "transient"
+   ],
+   "commit": "d757c9336834bea1f91d931fab6dac84eebae69d",
+   "sha256": "1ih5iricinb5yni1wmhy61wbvv2qg94brkg9cm4524f0cg4cqz2d"
   }
  },
  {
@@ -132498,20 +132498,20 @@
   "repo": "RobertPlant/time-uuid-mode",
   "unstable": {
    "version": [
-    20261024,
-    1743
+    20261104,
+    3
    ],
-   "commit": "eb43b94f18f3e468dde15c5de55ee7a1474915ed",
-   "sha256": "1m1w8j11rs8fmx6nxr6ybhmwhp3aa5lx9pg9ipp9h672d0xsjrq5"
+   "commit": "4f4bbe01127eba738195adf61463d6992dfb1e08",
+   "sha256": "04wl5fc4w617wp03dgiar56fsxsc74nlwv80ls2zkajw3xadv74y"
   },
   "stable": {
    "version": [
     0,
     0,
-    5
+    7
    ],
-   "commit": "eb43b94f18f3e468dde15c5de55ee7a1474915ed",
-   "sha256": "1m1w8j11rs8fmx6nxr6ybhmwhp3aa5lx9pg9ipp9h672d0xsjrq5"
+   "commit": "4f4bbe01127eba738195adf61463d6992dfb1e08",
+   "sha256": "04wl5fc4w617wp03dgiar56fsxsc74nlwv80ls2zkajw3xadv74y"
   }
  },
  {
