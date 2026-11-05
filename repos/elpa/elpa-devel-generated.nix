@@ -3427,10 +3427,10 @@
     elpaBuild {
       pname = "emureader";
       ename = "emureader";
-      version = "0.4.0.0.20261104.1";
+      version = "0.4.0.0.20261105.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emureader-0.4.0.0.20261104.1.tar";
-        sha256 = "1bsvgaxipd7a9vjgz6h9wb3ydl9306kdrvaswkwsfpaxhx6y96mh";
+        url = "https://elpa.gnu.org/devel/emureader-0.4.0.0.20261105.3.tar";
+        sha256 = "198n27v15zmv2sinmyb8w2wjga8pnwhlf79nfm72a2nn48jgps1s";
       };
       packageRequires = [ ];
       meta = {
@@ -5679,10 +5679,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.34.0.0.20261025.5";
+      version = "0.34.0.0.20261104.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/llm-0.34.0.0.20261025.5.tar";
-        sha256 = "1la5fpgl3hpnyq5h9bvkd7kwlrl82b5bbcnmnwb701s2k0n757ka";
+        url = "https://elpa.gnu.org/devel/llm-0.34.0.0.20261104.6.tar";
+        sha256 = "0yl4rp6c01pi3c0yb1a0igrqvdljgxfl99qld22yxwc529qqgrs5";
       };
       packageRequires = [
         compat
@@ -8010,10 +8010,10 @@
     elpaBuild {
       pname = "qrencode";
       ename = "qrencode";
-      version = "1.7beta2.0.20261101.0";
+      version = "1.7beta2.0.20261105.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/qrencode-1.7beta2.0.20261101.0.tar";
-        sha256 = "0gvy8fc2z1bw486178iidgazpv5qzw0b62hhlza61vkqmsgar4pj";
+        url = "https://elpa.gnu.org/devel/qrencode-1.7beta2.0.20261105.1.tar";
+        sha256 = "0vxp7nxk7y0ayrzgca81lar32v4752v9mlwqqbzh98c04jb8mgqr";
       };
       packageRequires = [ ];
       meta = {
