@@ -2008,10 +2008,10 @@
     elpaBuild {
       pname = "fedi";
       ename = "fedi";
-      version = "0.5.0.20261005.4";
+      version = "0.5.0.20261104.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fedi-0.5.0.20261005.4.tar";
-        sha256 = "1pl8mc4ir5qmrf1kx8hgnf87xkyr7jcji4xwky04zjmki1qfylzf";
+        url = "https://elpa.nongnu.org/nongnu-devel/fedi-0.5.0.20261104.7.tar";
+        sha256 = "0n3h1zrph0agfa56f4iiy0v6dgk3pany6zbpl4hc9y6z5hqnzaj7";
       };
       packageRequires = [ markdown-mode ];
       meta = {
@@ -2126,10 +2126,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20261103.95";
+      version = "40.0snapshot0.20261104.101";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20261103.95.tar";
-        sha256 = "1iwzkdgrwp98l4zczphwssp39ib016aaksgqag2cdg17zff13d28";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20261104.101.tar";
+        sha256 = "0varggn14j47f86bna7k4gxmk92scr92jvnswwvi28s2bb9i7982";
       };
       packageRequires = [ seq ];
       meta = {
@@ -4919,10 +4919,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20261103.334";
+      version = "4.6snapshot0.20261104.339";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261103.334.tar";
-        sha256 = "1pj15p5rspzhjhankdc61ns14y8lq17xngr924hr52cn40k76yys";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261104.339.tar";
+        sha256 = "0cm5fj38lkhp1arv85i7553krbzxv8fdak6bcxwx21x28xnvksax";
       };
       packageRequires = [ ];
       meta = {
@@ -5479,10 +5479,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.2.0.0.20261101.8";
+      version = "2.2.0.0.20261104.10";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20261101.8.tar";
-        sha256 = "03j1g9m9qn76004krir5nrp2yvjcmislnkrr9y5fzv6l1vkp7xc6";
+        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20261104.10.tar";
+        sha256 = "0sirjq5i118q20fc2wh3ps16g8xamwccvrrb0g2mvl462wrp7v47";
       };
       packageRequires = [ ];
       meta = {
@@ -5669,10 +5669,10 @@
     elpaBuild {
       pname = "swift-mode";
       ename = "swift-mode";
-      version = "10.0.0.0.20261025.42";
+      version = "10.0.0.0.20261104.43";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20261025.42.tar";
-        sha256 = "0f7gygqahyibd2by2fxdv5jsjs8y44d2r0s9l39jn55f4qn75dn6";
+        url = "https://elpa.nongnu.org/nongnu-devel/swift-mode-10.0.0.0.20261104.43.tar";
+        sha256 = "0llmsmz44hargm3a87w49fxly1ms1fc6jzjshp80cfz661x6v796";
       };
       packageRequires = [ ];
       meta = {
