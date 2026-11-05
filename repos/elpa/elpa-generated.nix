@@ -3334,6 +3334,27 @@
       };
     }
   ) { };
+  emureader = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "emureader";
+      ename = "emureader";
+      version = "0.4.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/emureader-0.4.0.tar";
+        sha256 = "1mlb2fzcy4qxicggg1fjvvqkiqbli5d5azwv27njn7hrab9sqfym";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/emureader.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   engrave-faces = callPackage (
     {
       elpaBuild,
@@ -6228,10 +6249,10 @@
     elpaBuild {
       pname = "modus-vague";
       ename = "modus-vague";
-      version = "0.2.3";
+      version = "0.2.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/modus-vague-0.2.3.tar";
-        sha256 = "0v3x7ipir8wh7c762wkw485h4hrwf5pm75lysn6h3i6jfy5gm8kc";
+        url = "https://elpa.gnu.org/packages/modus-vague-0.2.4.tar";
+        sha256 = "1kg9v9ad5wbd8y0pg5qh9v93g144n3f267im1s7df6nclisbhx3b";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -8067,6 +8088,28 @@
       };
     }
   ) { };
+  readline-completion = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "readline-completion";
+      ename = "readline-completion";
+      version = "0.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/readline-completion-0.1.tar";
+        sha256 = "1ng2x89h6sfd71cwxbsla338r69j8bm64v2k3ffgq0bgpvrbnygs";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/readline-completion.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   realgud = callPackage (
     {
       elpaBuild,
@@ -9565,10 +9608,10 @@
     elpaBuild {
       pname = "termint";
       ename = "termint";
-      version = "0.2.3";
+      version = "0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/termint-0.2.3.tar";
-        sha256 = "1yir074lihlr2y78a58jm233a6s807j8d8fvlvv6b62wm0036frk";
+        url = "https://elpa.gnu.org/packages/termint-0.3.tar";
+        sha256 = "19p22ff5la8kfsnxwfm3xhdl18dx65zydqf9qfh2x1l7054q7p7a";
       };
       packageRequires = [ ];
       meta = {

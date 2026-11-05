@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20261103.21";
+      version = "14.2.0.0.20261104.22";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261103.21.tar";
-        sha256 = "1z9a40wwfxrpl7c3hvk38355655484vd7734l4bxm1fm8dhjz747";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261104.22.tar";
+        sha256 = "15mqgn6zs33c77maww6ycjypqf74f81mw618mfv81ysb4l6wh41h";
       };
       packageRequires = [ ];
       meta = {
@@ -3418,6 +3418,27 @@
       };
     }
   ) { };
+  emureader = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "emureader";
+      ename = "emureader";
+      version = "0.4.0.0.20261104.1";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/emureader-0.4.0.0.20261104.1.tar";
+        sha256 = "1bsvgaxipd7a9vjgz6h9wb3ydl9306kdrvaswkwsfpaxhx6y96mh";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/emureader.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   engrave-faces = callPackage (
     {
       elpaBuild,
@@ -5181,10 +5202,10 @@
     elpaBuild {
       pname = "jit-spell";
       ename = "jit-spell";
-      version = "0.5.0.20251012.84654";
+      version = "0.5.0.20261104.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jit-spell-0.5.0.20251012.84654.tar";
-        sha256 = "01df1pp16mbq793zcdgsfvk0smsnadcwwflmrazm1pv7jmk7qa9f";
+        url = "https://elpa.gnu.org/devel/jit-spell-0.5.0.20261104.7.tar";
+        sha256 = "0vq3yhji02blw7mv22yzlpcs0ph4kxnma253dgccswyazrddwkal";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6312,10 +6333,10 @@
     elpaBuild {
       pname = "modus-vague";
       ename = "modus-vague";
-      version = "0.2.3.0.20261101.1";
+      version = "0.2.4.0.20261104.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-vague-0.2.3.0.20261101.1.tar";
-        sha256 = "1zxs3r3s4lqvnpg1mnjwlg62ryjfj1l6qi7bjgjhcdfih6zcl4bi";
+        url = "https://elpa.gnu.org/devel/modus-vague-0.2.4.0.20261104.1.tar";
+        sha256 = "0dig3v1j6m215wdxs9qwzk4j0ihr5vqzb37768qpnxwxj3j004l1";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -6868,10 +6889,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261104.958";
+      version = "10.0pre0.20261104.959";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261104.958.tar";
-        sha256 = "1fpslvwk6r8r2d5cwpvgvklkr83063n9nfqs1q17aplwm92j01q3";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261104.959.tar";
+        sha256 = "0b2y2wizfhznb1gm7f7djqd9i0382qynymc54jzx2yzqqbs1anip";
       };
       packageRequires = [ compat ];
       meta = {
@@ -8187,6 +8208,28 @@
       packageRequires = [ ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/rcirc-sqlite.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  readline-completion = callPackage (
+    {
+      compat,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "readline-completion";
+      ename = "readline-completion";
+      version = "0.1.0.20261104.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/devel/readline-completion-0.1.0.20261104.0.tar";
+        sha256 = "1p8i1h881hr1yxi7y9v80pp44ckmi4bp8iblmrxwr69jfzk0c3jp";
+      };
+      packageRequires = [ compat ];
+      meta = {
+        homepage = "https://elpa.gnu.org/devel/readline-completion.html";
         license = lib.licenses.free;
       };
     }
@@ -9803,10 +9846,10 @@
     elpaBuild {
       pname = "termint";
       ename = "termint";
-      version = "0.2.3.0.20260804.2";
+      version = "0.3.0.20261104.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/termint-0.2.3.0.20260804.2.tar";
-        sha256 = "00sk5sshqlyrzx9ynvpq6fyjj1drkf6rh99ayhr76y3d23s71l75";
+        url = "https://elpa.gnu.org/devel/termint-0.3.0.20261104.0.tar";
+        sha256 = "11bivrhfmxinlk9qzb4qnsv5hq1738gmkjnwib9rs6pn00qpwl9y";
       };
       packageRequires = [ ];
       meta = {
