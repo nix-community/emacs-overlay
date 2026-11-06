@@ -2804,10 +2804,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.6.0.20261031.33";
+      version = "0.9.9.6.0.20261104.36";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20261031.33.tar";
-        sha256 = "04cn3wvw72qxs7jjfljg1863d1149dbxklvz662dz0kfr0g2vq6m";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20261104.36.tar";
+        sha256 = "1yy5abnkid4dxkxi5z97pm0kvc1pkdgicdq0jnrardq119fpqdvx";
       };
       packageRequires = [
         compat
@@ -3050,10 +3050,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.9.0.0.20261013.97";
+      version = "0.9.0.0.20261105.99";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.9.0.0.20261013.97.tar";
-        sha256 = "1ljwhs0wna8n0lnmq8xqrhzpw0c4wxzb8zdr55iwxsb1zmg0kkrs";
+        url = "https://elpa.nongnu.org/nongnu-devel/hermes-0.9.0.0.20261105.99.tar";
+        sha256 = "0ysa2vrv9qjflr49synwjzrhrlx7qiwsgcvadqmmj05nk0pzlf13";
       };
       packageRequires = [
         keymap-popup
@@ -3679,10 +3679,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.16.1.0.20260927.15";
+      version = "0.16.1.0.20261105.17";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20260927.15.tar";
-        sha256 = "1cwlgfzkal5iiqbvf59ffifs5zmmv10hpdl6r03win09flbaaska";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20261105.17.tar";
+        sha256 = "0vp1wm98yvwja7xmwn4w3f2gd4ihzq5llw0xb4i178c1xhgnjg0l";
       };
       packageRequires = [
         compat
@@ -4919,10 +4919,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20261104.339";
+      version = "4.6snapshot0.20261105.352";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261104.339.tar";
-        sha256 = "0cm5fj38lkhp1arv85i7553krbzxv8fdak6bcxwx21x28xnvksax";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261105.352.tar";
+        sha256 = "1f2dwxi0jnh8dn99yl9kdfy34s7c40mn1kqbhlssb93d77f3vgkk";
       };
       packageRequires = [ ];
       meta = {
@@ -5479,10 +5479,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.2.0.0.20261104.10";
+      version = "2.2.0.0.20261105.12";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20261104.10.tar";
-        sha256 = "0sirjq5i118q20fc2wh3ps16g8xamwccvrrb0g2mvl462wrp7v47";
+        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20261105.12.tar";
+        sha256 = "0qvyc7lr6sv6h9jbpsgpqgpxc2dpk4bsbqp724cgc9i3nxc7f0ya";
       };
       packageRequires = [ ];
       meta = {
