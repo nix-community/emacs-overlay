@@ -649,10 +649,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.23.0.0.20261103.13";
+      version = "5.23.0.0.20261107.14";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.23.0.0.20261103.13.tar";
-        sha256 = "1qhh2aq1bhc2r446wp6lmichxn19aavnggmlchr003wb7qvw2kcv";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-mode-5.23.0.0.20261107.14.tar";
+        sha256 = "1nfw6zzgi82ns54ppm2sib1wxbcv2j5i23sq8s0kd71898fhw9v4";
       };
       packageRequires = [ ];
       meta = {
@@ -670,10 +670,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0.0.20261103.98";
+      version = "0.6.0.0.20261107.104";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20261103.98.tar";
-        sha256 = "13qhnbvyzg2p8x3z6qaybwhyan19gbxn40hqx3vhvn81dfskfaj9";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.6.0.0.20261107.104.tar";
+        sha256 = "1fnvis4pq8c5ia42iqv93nyg82z7lvjxy6yh5cjvmpv81x2hngaz";
       };
       packageRequires = [ ];
       meta = {
@@ -1630,10 +1630,10 @@
     elpaBuild {
       pname = "evil-collection";
       ename = "evil-collection";
-      version = "3.0.3.0.20261106.16";
+      version = "3.0.3.0.20261107.17";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.3.0.20261106.16.tar";
-        sha256 = "0pqdmy8xls2xas087xd4k2w1lmdwvksgql77xdyb52rskgq85pfs";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-collection-3.0.3.0.20261107.17.tar";
+        sha256 = "158l1447fzacv2sbg9hsbdi2vcs2csq9m6wcgf53y2csx0mif5hm";
       };
       packageRequires = [ evil ];
       meta = {
@@ -2126,10 +2126,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "40.0snapshot0.20261106.187";
+      version = "40.0snapshot0.20261107.191";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20261106.187.tar";
-        sha256 = "06mw1vjz44j0cizis8r69ckf3w9xwv75kz7f97548rddr603wms7";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-40.0snapshot0.20261107.191.tar";
+        sha256 = "1yqi64x1nb2jjg0hd7ax8bv5k12jilc79gzpkc5brwq3vkqjif7f";
       };
       packageRequires = [ seq ];
       meta = {
