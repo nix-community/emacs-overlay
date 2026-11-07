@@ -1394,10 +1394,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.1.0";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/company-1.1.0.tar";
-        sha256 = "0kqk9h9y5wscb0lcak7bxyfz90r9yafid5k4hb403rnx35r2yj9c";
+        url = "https://elpa.gnu.org/packages/company-1.2.0.tar";
+        sha256 = "058blbhs9jp62508js2dcqnfv4fzmgzmrgfijaippi98p1c3r37c";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -7468,10 +7468,10 @@
     elpaBuild {
       pname = "plz-event-source";
       ename = "plz-event-source";
-      version = "0.1.3";
+      version = "0.1.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/plz-event-source-0.1.3.tar";
-        sha256 = "1ayi272pvbblynrxhh51adq34jdjp6j2wfzwry7ysq0fz8vxs7nj";
+        url = "https://elpa.gnu.org/packages/plz-event-source-0.1.4.tar";
+        sha256 = "08jvmh51b2dsh4hx7kpskmnkp9w3224hk4lk3saxfhb62fpbiknl";
       };
       packageRequires = [ plz-media-type ];
       meta = {
