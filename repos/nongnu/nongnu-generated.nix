@@ -649,10 +649,10 @@
     elpaBuild {
       pname = "clojure-mode";
       ename = "clojure-mode";
-      version = "5.23.0";
+      version = "5.24.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/clojure-mode-5.23.0.tar";
-        sha256 = "1l4nxsp1lsbq1c0zg1bisc3fjmjjrjs1ahw17fajl0kblp96b0xg";
+        url = "https://elpa.nongnu.org/nongnu/clojure-mode-5.24.0.tar";
+        sha256 = "1avzying2623m0v53l4iknnsxwrlb5vsg35w1am0pkg9855sa39f";
       };
       packageRequires = [ ];
       meta = {
@@ -670,10 +670,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.6.0";
+      version = "0.7.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/clojure-ts-mode-0.6.0.tar";
-        sha256 = "0jvza581i0npj22jpzd1x08dsssdsw53xmfnq61widi6bs24bi92";
+        url = "https://elpa.nongnu.org/nongnu/clojure-ts-mode-0.7.0.tar";
+        sha256 = "0nzadmj12cgmbdwyppg0hl798s8wgjf1h9cbn6z58k6lrha8pxd7";
       };
       packageRequires = [ ];
       meta = {
@@ -3823,10 +3823,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.7.1";
+      version = "4.7.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-4.7.1.tar";
-        sha256 = "1rgjrwx0ifkxb1hcfcq6h0zrk5ymvhirijxlhz695snxmqs8mlxj";
+        url = "https://elpa.nongnu.org/nongnu/magit-4.7.2.tar";
+        sha256 = "0wk5849fvmqsvsyq6fnhf5nxqf9gha3216cv6968k4zngs4hjr3h";
       };
       packageRequires = [
         compat
@@ -3856,10 +3856,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.7.1";
+      version = "4.7.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/magit-section-4.7.1.tar";
-        sha256 = "1gsqcigjb8hr799faihhnxqa2pm93yzs0vc7qpy2acrra3x7qhk5";
+        url = "https://elpa.nongnu.org/nongnu/magit-section-4.7.2.tar";
+        sha256 = "0zbn9mjkn5jqmasgm2vsi7lqncfk2bvcn241b4h515wd4vl0ivvb";
       };
       packageRequires = [
         compat
@@ -4772,10 +4772,10 @@
     elpaBuild {
       pname = "pg";
       ename = "pg";
-      version = "0.69";
+      version = "0.70";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/pg-0.69.tar";
-        sha256 = "1xmghf7wjcwc1gd780ycbadg24irr6xdjfwgjg1v6r96v62ss4mf";
+        url = "https://elpa.nongnu.org/nongnu/pg-0.70.tar";
+        sha256 = "0hpkq4dh9qr8jmmvagfwh4bgswi7grqn2mzzm9b8xwl8l7ylj8zz";
       };
       packageRequires = [ peg ];
       meta = {
@@ -6095,10 +6095,10 @@
     elpaBuild {
       pname = "typst-ts-mode";
       ename = "typst-ts-mode";
-      version = "0.12.2";
+      version = "0.12.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/typst-ts-mode-0.12.2.tar";
-        sha256 = "170q09ma08cksyg9bapfhid28f0xi46ssdv7bzdyiy3gc4x61i4b";
+        url = "https://elpa.nongnu.org/nongnu/typst-ts-mode-0.12.3.tar";
+        sha256 = "1clxwglh4qjd74vmdzsg5yi6j6c2dbapzbfxh4gs963jywyvd1c3";
       };
       packageRequires = [ ];
       meta = {
