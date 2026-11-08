@@ -993,10 +993,10 @@
     elpaBuild {
       pname = "bufferlo";
       ename = "bufferlo";
-      version = "1.2.0.20260531.20";
+      version = "1.2.0.20261107.24";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bufferlo-1.2.0.20260531.20.tar";
-        sha256 = "04g5c2zar12k9b4jrka13zc8bd67kn4xhjsybhrjdz3fhphj5ivn";
+        url = "https://elpa.gnu.org/devel/bufferlo-1.2.0.20261107.24.tar";
+        sha256 = "04n5i7z2hn9yxwmlrv3a47v0wryhhd4gvw72470wsy08rs869yq0";
       };
       packageRequires = [ ];
       meta = {
@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.2.0.0.20261106.0";
+      version = "1.2.0.0.20261107.13";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261106.0.tar";
-        sha256 = "1jd5fzmdbki6kq0q9wgdqdjifj3rf4siadf4sbmg3xqjw4slmx9f";
+        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261107.13.tar";
+        sha256 = "1i9wscyfvxlqwl2l3ww0k94hmm7k1wlcgy7643l1bpd5x7gzm9lk";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -3292,10 +3292,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20261102.55";
+      version = "0.0.20261107.56";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261102.55.tar";
-        sha256 = "0hdf3q18ag82cbqcpn8gk4x6586ap0qgcp3b8nxkggxfnjb0qi8h";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261107.56.tar";
+        sha256 = "0d3dgb8drpc8grpmkwi3g2hf2iygpwm5qq88jpdap79kgapd3fbw";
       };
       packageRequires = [ ];
       meta = {
@@ -5600,10 +5600,10 @@
     elpaBuild {
       pname = "lisp-ts-mode";
       ename = "lisp-ts-mode";
-      version = "0.4.0.0.20261015.9";
+      version = "0.4.0.0.20261107.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.4.0.0.20261015.9.tar";
-        sha256 = "11vkn2cqy8a57v33sixc7wshj3sxnpacrjz5rph6wcnjfdmj1aia";
+        url = "https://elpa.gnu.org/devel/lisp-ts-mode-0.4.0.0.20261107.10.tar";
+        sha256 = "1p0nhvc0ljkdh7lqrp2sb1xaxw0bdsr5mnscvq953fd73djcnlh9";
       };
       packageRequires = [
         compat
@@ -7557,10 +7557,10 @@
     elpaBuild {
       pname = "plz-event-source";
       ename = "plz-event-source";
-      version = "0.1.5pre0.20261106.0";
+      version = "0.1.5pre0.20261107.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/plz-event-source-0.1.5pre0.20261106.0.tar";
-        sha256 = "13h8iwabhlwna35hinkkcw7nwzlhxyh6n2g8ybmq1w1q4dvmvp2r";
+        url = "https://elpa.gnu.org/devel/plz-event-source-0.1.5pre0.20261107.2.tar";
+        sha256 = "0k30gg38v93ndsq3sxrdcb40wcvhqdqfv11zxcdpwanprimkvmly";
       };
       packageRequires = [ plz-media-type ];
       meta = {
@@ -10354,10 +10354,10 @@
     elpaBuild {
       pname = "trust-manager";
       ename = "trust-manager";
-      version = "0.4.3.0.20261103.0";
+      version = "0.4.3.0.20261107.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/trust-manager-0.4.3.0.20261103.0.tar";
-        sha256 = "1qbkprpzyfy0zcdda5k8kfy2wx3ij5f7lhyx9hnz636kf26zwbgn";
+        url = "https://elpa.gnu.org/devel/trust-manager-0.4.3.0.20261107.1.tar";
+        sha256 = "05rd5622ipbg51if8h0c48pnbxwc5b396zl17y65xxm7q703dcx8";
       };
       packageRequires = [ ];
       meta = {
