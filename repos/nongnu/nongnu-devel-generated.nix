@@ -3886,10 +3886,10 @@
     elpaBuild {
       pname = "markdown-ts-appear";
       ename = "markdown-ts-appear";
-      version = "0.4.0.0.20261029.1";
+      version = "0.4.0.0.20261108.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-ts-appear-0.4.0.0.20261029.1.tar";
-        sha256 = "0yf31cwmx5by4dn1x6s91yx430bksrp2df30ccvra4g5dddqgadx";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-ts-appear-0.4.0.0.20261108.2.tar";
+        sha256 = "16y1nnpdsj1mm803a047kfgqj0lcvrrp07wmfn20mwmsdj8yfnx4";
       };
       packageRequires = [ ];
       meta = {
@@ -5479,10 +5479,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.2.0.0.20261105.12";
+      version = "2.2.0.0.20261108.13";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20261105.12.tar";
-        sha256 = "0qvyc7lr6sv6h9jbpsgpqgpxc2dpk4bsbqp724cgc9i3nxc7f0ya";
+        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20261108.13.tar";
+        sha256 = "0k8czlls45rmyg5qw0kyrxg8balzb6516yz6953p48k3gpjgnpsb";
       };
       packageRequires = [ ];
       meta = {
@@ -6228,10 +6228,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.1snapshot0.20261105.48";
+      version = "9.0.1snapshot0.20261108.54";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261105.48.tar";
-        sha256 = "172322nflidrmck5mx42i4kqg2iysdjl4gbmc02nhcz577x8bzx6";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261108.54.tar";
+        sha256 = "0hfh31r9iqv4170bxkmzqlg3h43k0kq934v2nkqvp2fkd37fs73v";
       };
       packageRequires = [ vcard ];
       meta = {
