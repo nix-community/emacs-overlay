@@ -5120,10 +5120,10 @@
     elpaBuild {
       pname = "jit-spell";
       ename = "jit-spell";
-      version = "0.5";
+      version = "0.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jit-spell-0.5.tar";
-        sha256 = "0xdn4hm4d26vmqh75i2ghyissm2s2szgynwynpgmlvhr4q5nkswf";
+        url = "https://elpa.gnu.org/packages/jit-spell-0.6.tar";
+        sha256 = "1n1h0a71lfcxmilrpqzk9chn4rmkzds5qcdvgj722wjv82q2l29h";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10858,10 +10858,10 @@
     elpaBuild {
       pname = "which-key";
       ename = "which-key";
-      version = "3.6.1";
+      version = "3.6.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/which-key-3.6.1.tar";
-        sha256 = "0p1vl7dnd7nsvzgsff19px9yzcw4w07qb5sb8g9r8a8slgvf3vqh";
+        url = "https://elpa.gnu.org/packages/which-key-3.6.2.tar";
+        sha256 = "0xbzsdgn5vx0py5467izyjwxikgfk74h78kqq6qbgkmljps7yhsz";
       };
       packageRequires = [ ];
       meta = {

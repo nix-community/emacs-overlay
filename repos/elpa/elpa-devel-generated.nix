@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20261106.25";
+      version = "14.2.0.0.20261109.26";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261106.25.tar";
-        sha256 = "171w2q9r52mkbvgxfh9dkyk2cbgr5cz5bq31mwskx5icw9hlhpl1";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261109.26.tar";
+        sha256 = "0cz2ciq8k2md3mzvx87ha0nk3cgrd1vvh55ysi702d4qccd9cskf";
       };
       packageRequires = [ ];
       meta = {
@@ -3427,10 +3427,10 @@
     elpaBuild {
       pname = "emureader";
       ename = "emureader";
-      version = "0.4.0.0.20261105.3";
+      version = "0.4.0.0.20261109.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emureader-0.4.0.0.20261105.3.tar";
-        sha256 = "198n27v15zmv2sinmyb8w2wjga8pnwhlf79nfm72a2nn48jgps1s";
+        url = "https://elpa.gnu.org/devel/emureader-0.4.0.0.20261109.8.tar";
+        sha256 = "0kvn4c7p4000whr158qq78m2wxiyjxld6jp23y7w6rcnv6wvc3vd";
       };
       packageRequires = [ ];
       meta = {
@@ -5202,10 +5202,10 @@
     elpaBuild {
       pname = "jit-spell";
       ename = "jit-spell";
-      version = "0.5.0.20261104.7";
+      version = "0.6.0.20261109.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jit-spell-0.5.0.20261104.7.tar";
-        sha256 = "0vq3yhji02blw7mv22yzlpcs0ph4kxnma253dgccswyazrddwkal";
+        url = "https://elpa.gnu.org/devel/jit-spell-0.6.0.20261109.0.tar";
+        sha256 = "0jnyg557rma11k4s43hlh64ayqcc0nawvdwdy5mvr9y4hifp30hg";
       };
       packageRequires = [ compat ];
       meta = {
@@ -10482,10 +10482,10 @@
     elpaBuild {
       pname = "urgrep";
       ename = "urgrep";
-      version = "0.6.1snapshot0.20260619.3";
+      version = "0.6.1snapshot0.20261108.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/urgrep-0.6.1snapshot0.20260619.3.tar";
-        sha256 = "0aks8nan0rjavz72s34c1d6wq4031z2wf2rbi73kr4sfq944yiss";
+        url = "https://elpa.gnu.org/devel/urgrep-0.6.1snapshot0.20261108.5.tar";
+        sha256 = "0r0llgb3by948w8n9rzz3lx3c94pa1s32b6bv9rak20mn1azcdpp";
       };
       packageRequires = [ compat ];
       meta = {
@@ -11097,10 +11097,10 @@
     elpaBuild {
       pname = "which-key";
       ename = "which-key";
-      version = "3.6.1.0.20260101.125434";
+      version = "3.6.2.0.20261109.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/which-key-3.6.1.0.20260101.125434.tar";
-        sha256 = "0pifacbpkjyg6111msqa75w2xrfm7j8g3shnla1iygz2w923ga34";
+        url = "https://elpa.gnu.org/devel/which-key-3.6.2.0.20261109.0.tar";
+        sha256 = "12gdnfs5h8maipfrf4kg3gaghn84ww644vr1qcvqz76r9ym306a5";
       };
       packageRequires = [ ];
       meta = {
