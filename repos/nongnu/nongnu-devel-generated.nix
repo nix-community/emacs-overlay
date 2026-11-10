@@ -2871,10 +2871,10 @@
     elpaBuild {
       pname = "gruvbox-theme";
       ename = "gruvbox-theme";
-      version = "1.30.3.0.20260911.2";
+      version = "1.30.3.0.20261110.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gruvbox-theme-1.30.3.0.20260911.2.tar";
-        sha256 = "1vbigj949wsl8ih0krmhzqmzdx0m01hczfb5ry8krydzi7ldlwbp";
+        url = "https://elpa.nongnu.org/nongnu-devel/gruvbox-theme-1.30.3.0.20261110.3.tar";
+        sha256 = "06cag5mxjkqsh2qwj1n2m8xcznc3jrj1444md9g807lfcz991hiv";
       };
       packageRequires = [ autothemer ];
       meta = {
@@ -3001,10 +3001,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.9.0.20261108.11";
+      version = "4.0.9.0.20261109.14";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.9.0.20261108.11.tar";
-        sha256 = "0wxa5z8m1j89x2ljwmc1jaxd35mdvxpfkw9q93ilbh4dsif9pcc4";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.9.0.20261109.14.tar";
+        sha256 = "028b8k5n0mjivm5i4k9rwr2hnnkgs4i2ky9znv3d92ly090831km";
       };
       packageRequires = [
         helm-core
@@ -3026,10 +3026,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.9.0.20261108.11";
+      version = "4.0.9.0.20261109.14";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.9.0.20261108.11.tar";
-        sha256 = "166rlb2kizhh931qpd9dcqk9np14yid7agrv5l11bnxkxi3kfgls";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.9.0.20261109.14.tar";
+        sha256 = "0p8gcm901j86q8pg53c7kgwavscc8zib4rvvxxsqa1sc8jz3xflj";
       };
       packageRequires = [ async ];
       meta = {
@@ -4919,10 +4919,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20261109.403";
+      version = "4.6snapshot0.20261109.409";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261109.403.tar";
-        sha256 = "0dx1w6744c427m7mjndxj9dkgzg9k0j7bmyzvjz9fd24qn7rx77k";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261109.409.tar";
+        sha256 = "0yvsc0mg2wk9djr5qivrlfwqcznn5xk4gg9dccq18xi6mbki0q48";
       };
       packageRequires = [ ];
       meta = {
