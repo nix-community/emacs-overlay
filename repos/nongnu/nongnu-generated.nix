@@ -2026,10 +2026,10 @@
     elpaBuild {
       pname = "fedi";
       ename = "fedi";
-      version = "0.5";
+      version = "0.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fedi-0.5.tar";
-        sha256 = "1fb2yz1cakiglhqyshmsl2a6zdzanyp54xz5b64vwbrqlb1zdnia";
+        url = "https://elpa.nongnu.org/nongnu/fedi-0.6.tar";
+        sha256 = "1nrnkkd7h1rv1xf5k4l17h7jq6m919zg0mij8vh99knw2lm648kq";
       };
       packageRequires = [ markdown-mode ];
       meta = {

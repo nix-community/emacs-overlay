@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20261111.175";
+      version = "2.1.0snapshot0.20261111.180";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20261111.175.tar";
-        sha256 = "1sr89wzrl8vzjldd3xm8bf40yjddcxic8l0kl2aimz7hy07vgbdv";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20261111.180.tar";
+        sha256 = "1ik53548lzd24vjl16fxzhrikj8l9g65hbai25q52mpaxli0w9sj";
       };
       packageRequires = [
         clojure-mode
@@ -2008,10 +2008,10 @@
     elpaBuild {
       pname = "fedi";
       ename = "fedi";
-      version = "0.5.0.20261104.7";
+      version = "0.6.0.20261111.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fedi-0.5.0.20261104.7.tar";
-        sha256 = "0n3h1zrph0agfa56f4iiy0v6dgk3pany6zbpl4hc9y6z5hqnzaj7";
+        url = "https://elpa.nongnu.org/nongnu-devel/fedi-0.6.0.20261111.7.tar";
+        sha256 = "0pmj3abqbhyq05ch0v22w9gqq7nra781syhw1kxysqyp5bir0zqf";
       };
       packageRequires = [ markdown-mode ];
       meta = {
