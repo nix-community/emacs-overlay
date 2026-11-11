@@ -2341,10 +2341,10 @@
     elpaBuild {
       pname = "devdocs";
       ename = "devdocs";
-      version = "0.7.0.20251022.125547";
+      version = "0.7.0.20261110.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/devdocs-0.7.0.20251022.125547.tar";
-        sha256 = "1sl9y7s5r8x8sq7yrgjp7w9p0cwhpm5ii7h941zc63qsgrifz0zy";
+        url = "https://elpa.gnu.org/devel/devdocs-0.7.0.20261110.2.tar";
+        sha256 = "0flsbqq11rmi9zaz26s0fzhsqck58ahyvzj2scdv8w0nhvisl97c";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6333,10 +6333,10 @@
     elpaBuild {
       pname = "modus-vague";
       ename = "modus-vague";
-      version = "0.2.4.0.20261104.1";
+      version = "0.2.4.0.20261110.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-vague-0.2.4.0.20261104.1.tar";
-        sha256 = "0dig3v1j6m215wdxs9qwzk4j0ihr5vqzb37768qpnxwxj3j004l1";
+        url = "https://elpa.gnu.org/devel/modus-vague-0.2.4.0.20261110.2.tar";
+        sha256 = "0bn6yw15lgwa7jrz0mp6xmv4lia2sy36a1sfm36sqx3qfwzp9mgd";
       };
       packageRequires = [ modus-themes ];
       meta = {
