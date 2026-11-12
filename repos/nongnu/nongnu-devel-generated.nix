@@ -561,18 +561,20 @@
       elpaBuild,
       fetchurl,
       lib,
+      org,
       transient,
     }:
     elpaBuild {
       pname = "casual";
       ename = "casual";
-      version = "3.0.2.0.20260831.0";
+      version = "3.1.0.0.20261111.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/casual-3.0.2.0.20260831.0.tar";
-        sha256 = "1rby91bcy386fgjqcag790020g6x95ss4km43ib1i8sp6k7bn5z4";
+        url = "https://elpa.nongnu.org/nongnu-devel/casual-3.1.0.0.20261111.0.tar";
+        sha256 = "0w8d3ggiy64msz2z343ygb8jfc4zpw7w54j467ba5m19cbh0z598";
       };
       packageRequires = [
         csv-mode
+        org
         transient
       ];
       meta = {
@@ -6228,10 +6230,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.1snapshot0.20261110.73";
+      version = "9.0.1snapshot0.20261111.75";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261110.73.tar";
-        sha256 = "198xh6gfvhm9waf3n058780cmg6zgsxlnjlhq6m98fycmzb47nml";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261111.75.tar";
+        sha256 = "1hpwc11yrwhrh0i4niwp8hpnbcn70dxvyz646ss6rncla2rgmx5l";
       };
       packageRequires = [ vcard ];
       meta = {

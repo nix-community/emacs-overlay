@@ -561,18 +561,20 @@
       elpaBuild,
       fetchurl,
       lib,
+      org,
       transient,
     }:
     elpaBuild {
       pname = "casual";
       ename = "casual";
-      version = "3.0.2";
+      version = "3.1.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/casual-3.0.2.tar";
-        sha256 = "1hiql2wqvqk3c9y2mxa19l9ns64f469k58ca5wpg5jjflq02hjyq";
+        url = "https://elpa.nongnu.org/nongnu/casual-3.1.0.tar";
+        sha256 = "1msav3zw7fj5na2im8njwzy1mnyr60s7vz0k63bxyraksj1lhxak";
       };
       packageRequires = [
         csv-mode
+        org
         transient
       ];
       meta = {
