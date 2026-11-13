@@ -2010,10 +2010,10 @@
     elpaBuild {
       pname = "fedi";
       ename = "fedi";
-      version = "0.6.0.20261111.7";
+      version = "0.6.0.20261112.9";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/fedi-0.6.0.20261111.7.tar";
-        sha256 = "0pmj3abqbhyq05ch0v22w9gqq7nra781syhw1kxysqyp5bir0zqf";
+        url = "https://elpa.nongnu.org/nongnu-devel/fedi-0.6.0.20261112.9.tar";
+        sha256 = "1xl4mfqm72biylxhkn51djbjr6yxl5ps0qavwq7dhhb09k6is369";
       };
       packageRequires = [ markdown-mode ];
       meta = {
@@ -3003,10 +3003,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.9.0.20261110.15";
+      version = "4.0.9.0.20261112.20";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.9.0.20261110.15.tar";
-        sha256 = "00lq84v76x9ca4nvicq7k7s2rvqls110bzmpznqj52dx0pa5919p";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.9.0.20261112.20.tar";
+        sha256 = "092x18s3b62x5227gyg0cxb0dqkb3sib3m8kl4igsjdzjyckchv7";
       };
       packageRequires = [
         helm-core
@@ -3028,10 +3028,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.9.0.20261110.15";
+      version = "4.0.9.0.20261112.20";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.9.0.20261110.15.tar";
-        sha256 = "1925aw1pji3aydmldi14awlf9lkyz9klcw5pdm7hrfnvcna8i2gz";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.9.0.20261112.20.tar";
+        sha256 = "0hsvkppdvncr6ajn3k22nwg851izs5hcx5rmmbzf3jgm55hk3p5g";
       };
       packageRequires = [ async ];
       meta = {
@@ -6230,10 +6230,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.1snapshot0.20261111.75";
+      version = "9.0.1snapshot0.20261112.87";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261111.75.tar";
-        sha256 = "1hpwc11yrwhrh0i4niwp8hpnbcn70dxvyz646ss6rncla2rgmx5l";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261112.87.tar";
+        sha256 = "12wpsl46bjaxrvx4f2nask18h6ijr7b8m5bmm8ckzrsl3gljbq41";
       };
       packageRequires = [ vcard ];
       meta = {
