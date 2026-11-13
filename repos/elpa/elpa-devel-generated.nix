@@ -1596,10 +1596,10 @@
     elpaBuild {
       pname = "consult-denote";
       ename = "consult-denote";
-      version = "0.5.1.0.20261101.4";
+      version = "0.5.1.0.20261113.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/consult-denote-0.5.1.0.20261101.4.tar";
-        sha256 = "1ssb7fbjnaawlsl9k3j32jk4z3by945k7nf6f883zykc83ghdi88";
+        url = "https://elpa.gnu.org/devel/consult-denote-0.5.1.0.20261113.7.tar";
+        sha256 = "0410kg5i088w7c072z43nn9gsvj6whm2b8ahwig4piq8zv4kidrg";
       };
       packageRequires = [
         consult
@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20261105.191";
+      version = "4.2.3.0.20261113.194";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261105.191.tar";
-        sha256 = "0cma8h24d0gzyfq6i8rp6gnhwb2b45xi88lrvqafg18gdn6hj88a";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261113.194.tar";
+        sha256 = "0lmfxncz8bw3k843pswfx94chxd5ng1p8m9059ndyjaw0a6qk3xm";
       };
       packageRequires = [ ];
       meta = {
@@ -2144,10 +2144,10 @@
     elpaBuild {
       pname = "denote-journal";
       ename = "denote-journal";
-      version = "0.3.0.0.20261016.1";
+      version = "0.3.0.0.20261113.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-journal-0.3.0.0.20261016.1.tar";
-        sha256 = "0j2081fkvhnj2rnyr67p9cs1dl80rrm5rvzkjbidhv2f7gggha8j";
+        url = "https://elpa.gnu.org/devel/denote-journal-0.3.0.0.20261113.4.tar";
+        sha256 = "1c09brszjnw5l2lw1xfnnajr1w8drrl6bhsfcpg8x6p6w3kfzxh3";
       };
       packageRequires = [ denote ];
       meta = {
@@ -7942,10 +7942,10 @@
     elpaBuild {
       pname = "pyim";
       ename = "pyim";
-      version = "5.3.6.0.20261029.2";
+      version = "5.3.6.0.20261113.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/pyim-5.3.6.0.20261029.2.tar";
-        sha256 = "1xvlfdlrczk0r21n4nad3jfaii37pm85m12339bjlgzv5vax9n48";
+        url = "https://elpa.gnu.org/devel/pyim-5.3.6.0.20261113.4.tar";
+        sha256 = "154y386v8iffmyzl7ks5vhkw6l5x3rwf5c0kfqb2qx8kfnwgc9qs";
       };
       packageRequires = [
         async
