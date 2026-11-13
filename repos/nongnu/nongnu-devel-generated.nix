@@ -5628,10 +5628,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.5.4.0.20260917.0";
+      version = "1.5.4.0.20261112.13";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.4.0.20260917.0.tar";
-        sha256 = "0p7xbxpzlzh08nb02mfsdv56jayijg3wl5m01vj24pj96g11hlx8";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.4.0.20261112.13.tar";
+        sha256 = "02z9igc6h3wyhpl0v0qqyh7f2iv5sn8jq2mwiwfshqsq9l3yjgzl";
       };
       packageRequires = [ ];
       meta = {
@@ -6230,10 +6230,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.1snapshot0.20261112.87";
+      version = "9.0.1snapshot0.20261112.100";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261112.87.tar";
-        sha256 = "12wpsl46bjaxrvx4f2nask18h6ijr7b8m5bmm8ckzrsl3gljbq41";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261112.100.tar";
+        sha256 = "1abibybrms0px58d7qdafslfb1nfahz5i7lglg70vfxwl0pkfbki";
       };
       packageRequires = [ vcard ];
       meta = {
