@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20261110.28";
+      version = "14.2.0.0.20261112.31";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261110.28.tar";
-        sha256 = "1gdsacw21d2k43gwczv33d1mpbr9ym7xgwmnd0qcnpfmki583yiv";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261112.31.tar";
+        sha256 = "081zfals6mhna3jqsjndvq39kkxmqgm95pi5w87fbwjv2yz6fh1h";
       };
       packageRequires = [ ];
       meta = {
@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.2.0.0.20261112.14";
+      version = "1.2.0.0.20261112.17";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261112.14.tar";
-        sha256 = "12if5fr35rw5h8b2in7i9k4fz7syipkik2zfwhrl6a2wfji83n0m";
+        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261112.17.tar";
+        sha256 = "09aqrfjy8rx6xx535l9zy4knavafn1nw76vdxlymaam971n580dj";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -1988,10 +1988,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.28.0.0.20261026.0";
+      version = "0.28.0.0.20261112.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.28.0.0.20261026.0.tar";
-        sha256 = "1104pm93pz2virgc64pc7gqnabhgqvgsmb8bws8v87kw3b4phnqa";
+        url = "https://elpa.gnu.org/devel/dape-0.28.0.0.20261112.1.tar";
+        sha256 = "14ff3lvlh1d6c7diykm182lmwj0i82i4yhw1vwc08pwzg0x6p5zj";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -3019,10 +3019,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.2.1.0.20261111.53";
+      version = "2.2.1.0.20261112.54";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.2.1.0.20261111.53.tar";
-        sha256 = "1m8nbja7h47lsfwb98m0vkbg64f1n8xdhnva4qsmp2mxn5ywg38f";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.2.1.0.20261112.54.tar";
+        sha256 = "161fwyabbiwq224b3rizdpy57fzbjllg2hsh06spmq3mp59p6jd2";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -8246,10 +8246,10 @@
     elpaBuild {
       pname = "realgud";
       ename = "realgud";
-      version = "1.6.0.0.20260821.16";
+      version = "1.6.1.0.20261112.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/realgud-1.6.0.0.20260821.16.tar";
-        sha256 = "189x6bia0faz3n53d7j6cqzh8czpq6x0g34v94qm8p09psk1apyc";
+        url = "https://elpa.gnu.org/devel/realgud-1.6.1.0.20261112.3.tar";
+        sha256 = "0pxhikfbsnsschc2zppdz2pswkc3dmma39gjxmpagqm14m3ds7n9";
       };
       packageRequires = [
         load-relative
@@ -10215,10 +10215,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.9.0.20261109.1";
+      version = "0.13.9.0.20261112.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.9.0.20261109.1.tar";
-        sha256 = "0phzh1w9m4wi2pajqp6f99bmprancrslck3x37kkws2xdfqa11yl";
+        url = "https://elpa.gnu.org/devel/transient-0.13.9.0.20261112.6.tar";
+        sha256 = "0jsdahlkhdn39x4g6xq8frlrk4iynmr1gzx8yk7bwpfi04wx6nam";
       };
       packageRequires = [
         compat

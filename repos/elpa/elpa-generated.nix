@@ -8122,10 +8122,10 @@
     elpaBuild {
       pname = "realgud";
       ename = "realgud";
-      version = "1.6.0";
+      version = "1.6.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/realgud-1.6.0.tar";
-        sha256 = "1z0dn55wgrqsql19psas4p2492hvnddfzsb5z6nha5268p0ax9i8";
+        url = "https://elpa.gnu.org/packages/realgud-1.6.1.tar";
+        sha256 = "0n67dy26v6h6ghbsxwbdzv14sx866a8hgffd3hhcryf7sx94s2yj";
       };
       packageRequires = [
         load-relative
