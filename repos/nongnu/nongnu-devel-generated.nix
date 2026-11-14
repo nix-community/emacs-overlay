@@ -5481,10 +5481,10 @@
     elpaBuild {
       pname = "solarized-theme";
       ename = "solarized-theme";
-      version = "2.2.0.0.20261108.13";
+      version = "2.2.0.0.20261114.14";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20261108.13.tar";
-        sha256 = "0k8czlls45rmyg5qw0kyrxg8balzb6516yz6953p48k3gpjgnpsb";
+        url = "https://elpa.nongnu.org/nongnu-devel/solarized-theme-2.2.0.0.20261114.14.tar";
+        sha256 = "0l39cic71mqnr74kdkdhi4npdz88sjfvdkpdmz8gq43p3rp9i280";
       };
       packageRequires = [ ];
       meta = {
