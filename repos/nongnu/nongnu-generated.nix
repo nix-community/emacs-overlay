@@ -3069,10 +3069,10 @@
     elpaBuild {
       pname = "hermes";
       ename = "hermes";
-      version = "0.9.0";
+      version = "0.9.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/hermes-0.9.0.tar";
-        sha256 = "0r7ck2z7nfvmz8jbdnid03p98hxsmdgw6h82cy9lns9p2dj5kf9p";
+        url = "https://elpa.nongnu.org/nongnu/hermes-0.9.1.tar";
+        sha256 = "17qvmpna9grnsnpx5khch5kpx5r7wzp7dxs7fj00cd1r7zc5q29c";
       };
       packageRequires = [
         keymap-popup
@@ -5008,10 +5008,10 @@
     elpaBuild {
       pname = "radio";
       ename = "radio";
-      version = "0.4.3";
+      version = "0.4.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/radio-0.4.3.tar";
-        sha256 = "1xr10zhm8fk75h0i07jry5c05cds4xbb012wa943cbibxj0cma68";
+        url = "https://elpa.nongnu.org/nongnu/radio-0.4.4.tar";
+        sha256 = "1iffm677prh8w4bjkcx7rh8pw4fax9gd2qjx5xd3k4d8k03ajbi7";
       };
       packageRequires = [ ];
       meta = {
@@ -5411,10 +5411,10 @@
     elpaBuild {
       pname = "simple-httpd";
       ename = "simple-httpd";
-      version = "1.7";
+      version = "1.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/simple-httpd-1.7.tar";
-        sha256 = "10frydnqcgxmrbiy8aw4kaf9phfhrijl4286lx6krsmlxhf8vflc";
+        url = "https://elpa.nongnu.org/nongnu/simple-httpd-1.8.tar";
+        sha256 = "04x91qx74v3qxr1p3vk0a80mqrzyqbxl2izbr2ss63hwwal6i42r";
       };
       packageRequires = [ compat ];
       meta = {
