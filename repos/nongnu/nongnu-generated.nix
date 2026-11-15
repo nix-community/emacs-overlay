@@ -1403,10 +1403,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "4.2.1";
+      version = "4.2.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/elfeed-4.2.1.tar";
-        sha256 = "1aw0dvv9kfzr50yx8nlj2li60nwqgks1g5capmpzp55imbgs0yfd";
+        url = "https://elpa.nongnu.org/nongnu/elfeed-4.2.2.tar";
+        sha256 = "0f8lcdpp29kzr02lfydnx9jpy0b9ik1zkx440k9jz6brgx3ikg3h";
       };
       packageRequires = [ compat ];
       meta = {
