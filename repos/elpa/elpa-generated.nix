@@ -1468,10 +1468,10 @@
     elpaBuild {
       pname = "company-statistics";
       ename = "company-statistics";
-      version = "0.2.3";
+      version = "0.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/company-statistics-0.2.3.tar";
-        sha256 = "1gfwhgv7q9d3xjgaim25diyd6jfl9w3j07qrssphcrdxv0q24d14";
+        url = "https://elpa.gnu.org/packages/company-statistics-0.3.0.tar";
+        sha256 = "105dv8h0kxmy6fs0awa6jv067cifm8ljxji2f5lasi78393pqjy2";
       };
       packageRequires = [ company ];
       meta = {
@@ -7533,10 +7533,10 @@
     elpaBuild {
       pname = "po-mode";
       ename = "po-mode";
-      version = "2.32";
+      version = "2.33";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/po-mode-2.32.tar";
-        sha256 = "0s83gjzmjqn3b80wrha7g9jp329df9qrzs66h2v6dv2inkdasn42";
+        url = "https://elpa.gnu.org/packages/po-mode-2.33.tar";
+        sha256 = "09npvv28klncad7cdj5hads5q65gksi7zzlacr0cikp250ygdphr";
       };
       packageRequires = [ ];
       meta = {

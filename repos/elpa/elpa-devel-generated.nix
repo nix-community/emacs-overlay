@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20261113.33";
+      version = "14.2.0.0.20261114.35";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261113.33.tar";
-        sha256 = "18m9j8hxr6f2b5jwrb9scxhhj19xgmnby3mixycvfig3s7hz9n34";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261114.35.tar";
+        sha256 = "16ds68fj0knw33jg7ylpp88wzzjn5shkjq4dqcxgg6302m9zvxi5";
       };
       packageRequires = [ ];
       meta = {
@@ -1488,10 +1488,10 @@
     elpaBuild {
       pname = "company-statistics";
       ename = "company-statistics";
-      version = "0.2.3.0.20261113.4";
+      version = "0.3.0.0.20261114.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-statistics-0.2.3.0.20261113.4.tar";
-        sha256 = "0ln2p36smsj77f2w1vp1cl5y0wnsrc9l2kwbbiyfk5rx8152435v";
+        url = "https://elpa.gnu.org/devel/company-statistics-0.3.0.0.20261114.0.tar";
+        sha256 = "1vxcp6w5jpzhvay6kkfwv85p89idynlqyxddyzv0dycgbbc0lknk";
       };
       packageRequires = [ company ];
       meta = {
@@ -3048,10 +3048,10 @@
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.26.0.20261030.0";
+      version = "1.26.0.20261114.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/eglot-1.26.0.20261030.0.tar";
-        sha256 = "1vcm9gqp2xjs5lym9yba5iwrxk6gqm7wzkk2lx6ynz019a3ijhr9";
+        url = "https://elpa.gnu.org/devel/eglot-1.26.0.20261114.5.tar";
+        sha256 = "1ry7qnfqab0ch9mj1sbz2r2qlc0gnzf2s8wjlqhj74lzviq8zkk2";
       };
       packageRequires = [
         eldoc
@@ -6889,10 +6889,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261111.970";
+      version = "10.0pre0.20261114.973";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261111.970.tar";
-        sha256 = "0lh3ba765l23y00mx2sqwp65lxswpm603pkafa562495695g9qk6";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261114.973.tar";
+        sha256 = "1k7xrmg76pn6ry9qy6vbylpf6wl7mh3s5zkpz2as312zl5p9h29l";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7622,10 +7622,10 @@
     elpaBuild {
       pname = "po-mode";
       ename = "po-mode";
-      version = "2.32.0.20260217.95607";
+      version = "2.33.0.20261114.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/po-mode-2.32.0.20260217.95607.tar";
-        sha256 = "16dkn7k3kkrv1n7c9qnvpzbrywgq4cwgry7szcsgyglrf6dq89y9";
+        url = "https://elpa.gnu.org/devel/po-mode-2.33.0.20261114.6.tar";
+        sha256 = "1hhqzahy7sya5qi5l8g88ppghmw7yxiacymqlsn7xyfk7jhik2df";
       };
       packageRequires = [ ];
       meta = {
