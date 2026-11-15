@@ -2488,14 +2488,14 @@
   "unstable": {
    "version": [
     20261115,
-    142
+    1747
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "3aa85597af51db2b96e3cb70386bcd474ad2c7c2",
-   "sha256": "0xbbk8m58ix18p44y6j099by0q1h1xfm726n5vla32ly8f33h59v"
+   "commit": "38d0381938aa8d9c7c666650ae6e31621ca62dea",
+   "sha256": "04llhvmvrrpkpwg6jydv5bwxgm98b9yrc0vbi4cgpjg5jnfgs5pq"
   },
   "stable": {
    "version": [
@@ -10058,6 +10058,20 @@
    ],
    "commit": "c0a4dae3ff23a548538716cbd2ad533680dc7e9e",
    "sha256": "0igarshhk7pilx57c07ykhvikn3mzppp2bsjbgkkgxiwmzlsbs8j"
+  }
+ },
+ {
+  "ename": "bookmark-gt",
+  "error": "No recipe info",
+  "fetcher": "github",
+  "repo": "dmgerman/bookmark-gt",
+  "unstable": {
+   "version": [
+    20261109,
+    249
+   ],
+   "commit": "8cd47d67b79cbbaae95ae4296e73c06e6fe35823",
+   "sha256": "0daxbwsvaahr7gxrwmnn3c7i7d919in4ialj9gzyrpdmyaiixxi2"
   }
  },
  {
@@ -28354,14 +28368,14 @@
   "url": "https://framagit.org/steckerhalter/discover-my-major.git",
   "unstable": {
    "version": [
-    20180606,
-    511
+    20261115,
+    1951
    ],
    "deps": [
     "makey"
    ],
-   "commit": "66081546eac360c83a9c3270db92a2164288b0d0",
-   "sha256": "1v95s15m37785ggs649q5a83jai0bnar1w1hkiaafwbmpzhd7hr7"
+   "commit": "13557c305fe2cde5115b448f33c6950645eaf6e6",
+   "sha256": "0h7glxsjinq0k97r7ip8kmgmyxm71gvf8kc32yy5vygkd3cxdm6h"
   },
   "stable": {
    "version": [
@@ -29311,16 +29325,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20261112,
-    1344
+    20261115,
+    1619
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "0ba6add16eb3c810e348b2c2187bf721a2fd7291",
-   "sha256": "0vgs567za479jf1x7yj096wjxr2v98b77yv9bn14xy7aqgmdak2n"
+   "commit": "c4760baa881db26cc5cbecd6db5ff9ea7957bf45",
+   "sha256": "1h63pir4cma1y6819p9sk5m7npy0a2pw36zz2zpsbfmj35p9hjcy"
   },
   "stable": {
    "version": [
@@ -39356,18 +39370,14 @@
   "repo": "zzkt/ethermacs",
   "unstable": {
    "version": [
-    20230530,
-    1248
+    20261115,
+    1524
    ],
    "deps": [
-    "0xc",
-    "let-alist",
-    "parsec",
-    "request",
     "websocket"
    ],
-   "commit": "29409bf9ff05b74d942c1cd7a421eeec2ef96e49",
-   "sha256": "0gmyz3drs4w8g16xyypjawvrg2ckb9513p98hx9xmgyfyr5crbkk"
+   "commit": "08c855fba70aa00aab74dc070cbe250adc1a7768",
+   "sha256": "0gj26qwndpl61r6wbki7b98nw8251dwj1qdny8saa9c4prmckyd5"
   }
  },
  {
@@ -42256,6 +42266,20 @@
    ],
    "commit": "e6dc9abdc395ef537408befebeb4fd3ed4ee5c60",
    "sha256": "106yh793scbyharsk1dvrirkj3c6666w8jqilpkaz78vwyw3zs5y"
+  }
+ },
+ {
+  "ename": "expui-icons",
+  "error": "No recipe info",
+  "fetcher": "github",
+  "repo": "wwulfric/expui-icons",
+  "unstable": {
+   "version": [
+    20261109,
+    1450
+   ],
+   "commit": "7fb14e8e34e8517f43e8ee6a2335af89093dac99",
+   "sha256": "1rfy3wlg1sk23gryd4vi74bfnarb27djahhaysi210p0rb89gr1h"
   }
  },
  {
@@ -50140,8 +50164,8 @@
   "repo": "magit/forge",
   "unstable": {
    "version": [
-    20261114,
-    1200
+    20261115,
+    1157
    ],
    "deps": [
     "closql",
@@ -50155,8 +50179,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "3d39bc7d6759cc4769df53889bce121283b0bfcd",
-   "sha256": "0vby2wfa81wiszvl72c2ba3nps7j7jn6x7wqq21s0mnm3awa8hip"
+   "commit": "71ef77d71e441e0e335fb644f2c7a710b93c8fa1",
+   "sha256": "1n2anzm7zp41wwyxgbd8bk58yakpv8pk5b3n675rnz14ah6dhmwp"
   },
   "stable": {
    "version": [
@@ -77135,20 +77159,20 @@
   "repo": "emacs-rime/liberime",
   "unstable": {
    "version": [
-    20260923,
-    938
+    20261115,
+    1633
    ],
-   "commit": "61997ed192afa3a107c4cfe70c28f145e7368388",
-   "sha256": "034g5b7axz9qalkfdwa1gny2bk7125bchkgacxi3cm92scwf0vjv"
+   "commit": "2a87beb5966c1af0c5ec77385b0e590639cef9b5",
+   "sha256": "1cnn4c5fg9d49kshwhmb03jfk7fvxgh1pjcs4swj3ds9r02h03bl"
   },
   "stable": {
    "version": [
     0,
     0,
-    11
+    12
    ],
-   "commit": "24b0f2e9f535af305767f56a417532b8165eaea8",
-   "sha256": "1hwmj0alairvs8p2caiswghlnw3j3xa24nxa2d9m6kph89x9p85p"
+   "commit": "e62f553d9514e97a9087017d5058d7c546e93f45",
+   "sha256": "1cnn4c5fg9d49kshwhmb03jfk7fvxgh1pjcs4swj3ds9r02h03bl"
   }
  },
  {
@@ -100210,7 +100234,7 @@
   "unstable": {
    "version": [
     20261115,
-    619
+    1654
    ],
    "deps": [
     "dash",
@@ -100219,8 +100243,8 @@
     "s",
     "seq"
    ],
-   "commit": "0aac73e304063d983c81d68fa829565ed02f603e",
-   "sha256": "1smwl4b5k6lkhaqx9416qpgmqv08bhwpnjasj484ga2bn6v53wg7"
+   "commit": "c2df7a7e76a75cf98362ec279ecdc356c957b0eb",
+   "sha256": "1rr3fxyvbkr2m9p097b46sqlrdig582gzxk8iw87b2bpnmikc4ps"
   },
   "stable": {
    "version": [
@@ -117747,14 +117771,14 @@
   "repo": "emacs-rime/rimel",
   "unstable": {
    "version": [
-    20260914,
-    618
+    20261115,
+    1635
    ],
    "deps": [
     "liberime"
    ],
-   "commit": "e05f4b0eb2d6d5f9212e91bab5e4b3314db8ff0e",
-   "sha256": "1x09w77b0gbi9xswbk6kn8g4jdcichrd96hkc1cjdjlfvm7xy1q6"
+   "commit": "fc1c405b9f4756bcf7cef8d115fdc99c7e0a7155",
+   "sha256": "0fz3glgcmzzi0d84wdik986w9ai1khc45rffxgaagxm2aqbyn9qa"
   },
   "stable": {
    "version": [
