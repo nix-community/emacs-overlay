@@ -837,10 +837,10 @@
     elpaBuild {
       pname = "csv2ledger";
       ename = "csv2ledger";
-      version = "1.5.5.0.20260621.0";
+      version = "1.6.0.20261115.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/csv2ledger-1.5.5.0.20260621.0.tar";
-        sha256 = "0mvyzsr02allsf6a6ac4b8cb1cbzajcs4v082qnklf7dwmcya8dg";
+        url = "https://elpa.nongnu.org/nongnu-devel/csv2ledger-1.6.0.20261115.0.tar";
+        sha256 = "18wb69dn13ww0a8h5227gma27v8xp965msbnk9yhllblpg2jpm7z";
       };
       packageRequires = [ csv-mode ];
       meta = {
@@ -1558,10 +1558,10 @@
     elpaBuild {
       pname = "evil";
       ename = "evil";
-      version = "1.15.0.0.20260728.297";
+      version = "1.15.0.0.20261116.300";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20260728.297.tar";
-        sha256 = "1n2v7bjrykpv0h8m1ikfly4yvx5a86k29jx9qsx7lijwdmjbkd49";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-1.15.0.0.20261116.300.tar";
+        sha256 = "06f2sggw3k58il5apgqdsi7i81kc13lp71cy6x0jyzr418076rsk";
       };
       packageRequires = [
         cl-lib

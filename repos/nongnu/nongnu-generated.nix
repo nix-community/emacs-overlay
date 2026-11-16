@@ -860,10 +860,10 @@
     elpaBuild {
       pname = "csv2ledger";
       ename = "csv2ledger";
-      version = "1.5.5";
+      version = "1.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/csv2ledger-1.5.5.tar";
-        sha256 = "09k7q33jxwrcf52csgf25kd9wqcs9bicl8azmkbrmm8d9jqgg3md";
+        url = "https://elpa.nongnu.org/nongnu/csv2ledger-1.6.tar";
+        sha256 = "0979b7jl1bjbj26alxx0zivsgz9r6vjwrca0cw2g5hrkxcmxib56";
       };
       packageRequires = [ csv-mode ];
       meta = {
