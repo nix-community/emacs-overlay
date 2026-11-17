@@ -16160,14 +16160,14 @@
   "repo": "LuciusChen/clutch",
   "unstable": {
    "version": [
-    20261111,
-    709
+    20261117,
+    1407
    ],
    "deps": [
     "transient"
    ],
-   "commit": "12ed43f170f6a0fae7d25e4fe4221617d3490f30",
-   "sha256": "0r2cri3nqvwgwqgm99csmrrhgpb2qh46q3bkmn7kkbcbb1m25j5y"
+   "commit": "d8b52162cb66faefd3fc500bcfb9590923949f02",
+   "sha256": "1rg2kzjcw67x1g38q4a9gq5h91kfdk3hhalqlwxm0c2m7i366cdj"
   },
   "stable": {
    "version": [
@@ -26658,16 +26658,16 @@
   "repo": "pkryger/difftastic.el",
   "unstable": {
    "version": [
-    20261007,
-    844
+    20261117,
+    628
    ],
    "deps": [
     "compat",
     "magit",
     "transient"
    ],
-   "commit": "2af7e5ee04a3da35ca77c53bc85859f61e8a282c",
-   "sha256": "0dxidjwl3dw4bb4sgf23w61qi8cbwh6934f05651n9fxlbxw5x67"
+   "commit": "6f504f1a2965690ef2f3a514679b8d92f33b07a9",
+   "sha256": "1knj7lw4wia6aw13hfq3nwaikbpk19kf0nwr9z58nk3f2dlf6wc1"
   },
   "stable": {
    "version": [
@@ -29365,16 +29365,16 @@
   "repo": "seagle0128/doom-modeline",
   "unstable": {
    "version": [
-    20261116,
-    1722
+    20261117,
+    1546
    ],
    "deps": [
     "compat",
     "nerd-icons",
     "shrink-path"
    ],
-   "commit": "a0eca283edb3688d5957f7ec7d80b5e5536f3e70",
-   "sha256": "15pyjsn8gj094566sil0cl3ca31z25s6nx57phcvdywjxgy264cs"
+   "commit": "726e108f12a1f20d5fd076884192f0e5ea618f17",
+   "sha256": "11314f4d0ml9qh3r94yryjk1749g29axarggrsh3rcn3fxwiajd2"
   },
   "stable": {
    "version": [
@@ -39410,14 +39410,14 @@
   "repo": "zzkt/ethermacs",
   "unstable": {
    "version": [
-    20261115,
-    1524
+    20261117,
+    1133
    ],
    "deps": [
     "websocket"
    ],
-   "commit": "08c855fba70aa00aab74dc070cbe250adc1a7768",
-   "sha256": "0gj26qwndpl61r6wbki7b98nw8251dwj1qdny8saa9c4prmckyd5"
+   "commit": "9cee52c17259fb78dc3d0cd03b3664267af4480e",
+   "sha256": "1h60rym19hx3dib0hxasl9x3s33sqj3k20cfwynas3654bjy7llr"
   },
   "stable": {
    "version": [
@@ -56702,15 +56702,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20261115,
-    1957
+    20261117,
+    733
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "169d1543c5e64d158bd89263a9d50caf91ab1249",
-   "sha256": "13g6063b75nf2x1kzv8wpz8rmvxfa3jvlk0i5484fr418cdasz7w"
+   "commit": "0b0aad0b19f8f0bc86ea8cfb1dbe2f02b4ea43de",
+   "sha256": "0akfbdd6hkk06ibbxrg2bx961nf2ivk6zim870g4hgrxqqns2zs0"
   },
   "stable": {
    "version": [
@@ -58503,15 +58503,15 @@
   "url": "https://git.andros.dev/andros/hackernews-modern-el",
   "unstable": {
    "version": [
-    20260323,
-    839
+    20261117,
+    1156
    ],
    "deps": [
     "async-http-queue",
     "visual-fill-column"
    ],
-   "commit": "a90b247e9ed007b1e9e0a5ef77c08670ba0a3953",
-   "sha256": "0qcwnj6zmc4wwnij7pgvd74abxnhfms1cyv06gif3gsg8lxvsznr"
+   "commit": "90620c4fc81eb59354988e85353a0e79d37e3660",
+   "sha256": "1jdjblmycr8ql5brqvhx1hxpqyinmizby1r443k5pk7slwrnakn0"
   }
  },
  {
@@ -66027,11 +66027,15 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20261115,
-    1936
+    20261117,
+    1035
    ],
-   "commit": "bc28743ebf1f5f3d52ae92c2a1b89ef717fa73aa",
-   "sha256": "0wf3n40bdcrifj93i6pks5sr627i0bmf7frvmmawz6ada5bs457l"
+   "commit": "9d2416e91ac8ef0a6a2b9b6dd91e584f762cf3b2",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3230-4257283390/nix-shell-3426-1603401747/nix-shell-3490-1487141315/git-checkout-tmp-PrORgJLz/clone/.git/\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': The requested URL returned error: 502\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': The requested URL returned error: 502\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': The requested URL returned error: 502\nUnable to checkout 9d2416e91ac8ef0a6a2b9b6dd91e584f762cf3b2 from https://git.savannah.gnu.org/git/hyperbole.git.\n"
+   ]
   },
   "stable": {
    "version": [
@@ -81017,8 +81021,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20261113,
-    1017
+    20261117,
+    1103
    ],
    "deps": [
     "compat",
@@ -81029,8 +81033,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "4402e972bb2b6df2dad25118d8a638fa5a9b3e5b",
-   "sha256": "19vb5qlhgmhak4nr370zfyz6f54wr941qgixhqb9hsvrl48398cm"
+   "commit": "5e21bac5304c931cccbe16073758e2c464e40298",
+   "sha256": "1naay1gfd8ccbvarhm517wnm7gza67m6xy15bc9hdza6vx6rj5bb"
   },
   "stable": {
    "version": [
@@ -94353,16 +94357,16 @@
   "repo": "tarsius/ol-notmuch",
   "unstable": {
    "version": [
-    20261001,
-    1604
+    20261117,
+    1121
    ],
    "deps": [
     "compat",
     "notmuch",
     "org"
    ],
-   "commit": "679e2672d920253f08ac1a7a27f812725b3dac22",
-   "sha256": "1qlhzc76g767455x0npq70sbrd43c2kivarzk80n7f8n8xw1f6jw"
+   "commit": "95b2900606ed7a93cff7ec1a91895ed0eabfbec9",
+   "sha256": "1z5wyrfviaz1bvrsikw5739fw2kl9mrra97pd5g2gh3lbh3v7fb4"
   },
   "stable": {
    "version": [
@@ -100968,14 +100972,14 @@
   "repo": "Gleek/org-timegrid",
   "unstable": {
    "version": [
-    20261116,
-    728
+    20261117,
+    1215
    ],
    "deps": [
     "org"
    ],
-   "commit": "d2e225d307b4c7d0c1a64e4ba8ef03e72f441ba2",
-   "sha256": "0sp85r8rm0b8g0ywvm68wjma0bbq1a42jwzj82lhhs5fi2g6axzg"
+   "commit": "ab1d536d576ed7d3838aeae19e5d455ed7e02ad2",
+   "sha256": "06pkljiv8r8w7fzjjxrjv4jsmp8sp3zhsb8v1b1hccky8sf5gyas"
   },
   "stable": {
    "version": [
@@ -103690,16 +103694,16 @@
   "repo": "emacsorphanage/ox-pandoc",
   "unstable": {
    "version": [
-    20260113,
-    1929
+    20261117,
+    1126
    ],
    "deps": [
     "dash",
     "ht",
     "org"
    ],
-   "commit": "1caeb56a4be26597319e7288edbc2cabada151b4",
-   "sha256": "1wj9hmgi1xqyx3kc73rxj5w4a5lp861blkdvvg99b7abp2dp7xi1"
+   "commit": "b917e864108cb47c5c0124803d316730a98f1128",
+   "sha256": "0kmn2f146l6pf8klkvsxfqr2xd4sh7yn8wd3zgny0mca01blvzk3"
   },
   "stable": {
    "version": [
@@ -143218,14 +143222,14 @@
   "repo": "jobbflykt/x509-mode",
   "unstable": {
    "version": [
-    20261112,
-    729
+    20261117,
+    1041
    ],
    "deps": [
     "compat"
    ],
-   "commit": "22d01c15a4bebb1df8b41bd74b3d2566399aa5ae",
-   "sha256": "1zkcfwj4ccgrkxaz7fz07kac1bq79drg3028kj4vxrchq0pbn001"
+   "commit": "40ac5e5c459f954d03a3b760779bd39d0cbba94b",
+   "sha256": "1qw54rk2cb27yxiz8wmjl9nppzq9ipz9wm7asq9zbc1fg2hzpyqk"
   },
   "stable": {
    "version": [
