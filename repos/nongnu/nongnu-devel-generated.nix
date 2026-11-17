@@ -2806,10 +2806,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.6.0.20261115.43";
+      version = "0.9.9.6.0.20261116.45";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20261115.43.tar";
-        sha256 = "1g7i94zn3f6lzg61zf741k78sh3bqail6qc23a0802viw0fwf0w0";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20261116.45.tar";
+        sha256 = "1zpgv65ag6fa3yha90nym73wizpmimb1qn4y980pdqa8l4adavmg";
       };
       packageRequires = [
         compat
@@ -5628,10 +5628,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.5.4.0.20261112.13";
+      version = "1.5.4.0.20261116.16";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.4.0.20261112.13.tar";
-        sha256 = "02z9igc6h3wyhpl0v0qqyh7f2iv5sn8jq2mwiwfshqsq9l3yjgzl";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.4.0.20261116.16.tar";
+        sha256 = "1azxhbn3l9nxz6jz7r40x2wb94dz7nlx71lsrn16m80ndbi6rxd4";
       };
       packageRequires = [ ];
       meta = {
