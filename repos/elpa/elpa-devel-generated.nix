@@ -902,10 +902,10 @@
     elpaBuild {
       pname = "breadcrumb";
       ename = "breadcrumb";
-      version = "1.0.1.0.20260804.20";
+      version = "1.1.0.0.20261116.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20260804.20.tar";
-        sha256 = "18vf0w97sknwvck48n60v26m1hjl429s3534x83qzbm845bnzjwl";
+        url = "https://elpa.gnu.org/devel/breadcrumb-1.1.0.0.20261116.0.tar";
+        sha256 = "1nibknbzq7ychs1v2di5ialq7yinrs95aq3c82hp1yvxhjdk13pf";
       };
       packageRequires = [ project ];
       meta = {
@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.2.0.0.20261112.17";
+      version = "1.2.0.0.20261116.27";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261112.17.tar";
-        sha256 = "09aqrfjy8rx6xx535l9zy4knavafn1nw76vdxlymaam971n580dj";
+        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261116.27.tar";
+        sha256 = "1i37aasddmy2gv1yqy6h9amv1sajinmipp2lqf3snvm7m3ddvl59";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -6889,10 +6889,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261116.995";
+      version = "10.0pre0.20261116.996";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261116.995.tar";
-        sha256 = "1q5mhv4cbbzb34xn2y0rl4jdc6z0ihgwhclhp2a1ad5109za8v0a";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261116.996.tar";
+        sha256 = "1qnimhjnfykzaqj5d5bs6k6s5czgv2jglyhhbr0am369dxwq668i";
       };
       packageRequires = [ compat ];
       meta = {

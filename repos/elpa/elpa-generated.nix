@@ -881,10 +881,10 @@
     elpaBuild {
       pname = "breadcrumb";
       ename = "breadcrumb";
-      version = "1.0.1";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/breadcrumb-1.0.1.tar";
-        sha256 = "1s69a2z183mla4d4b5pcsswbwa3hjvsg1xj7r3hdw6j841b0l9dw";
+        url = "https://elpa.gnu.org/packages/breadcrumb-1.1.0.tar";
+        sha256 = "0y4bcqixq6mx9kv2syz1swhvzp05mzr1nr3k4c7mrrq3vz2cxi1g";
       };
       packageRequires = [ project ];
       meta = {
