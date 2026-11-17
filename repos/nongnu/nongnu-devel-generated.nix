@@ -5650,10 +5650,10 @@
     elpaBuild {
       pname = "sweeprolog";
       ename = "sweeprolog";
-      version = "0.27.6.0.20261021.7";
+      version = "0.27.6.0.20261113.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20261021.7.tar";
-        sha256 = "18cc06spry1g6p6p1va103qr4n0whvkl3sc58q8n50bkcpmn6q5c";
+        url = "https://elpa.nongnu.org/nongnu-devel/sweeprolog-0.27.6.0.20261113.8.tar";
+        sha256 = "15gk759480vyz0dmxjwwhh2222i5pdhrlqjrg5162wl1a10vb2rs";
       };
       packageRequires = [ compat ];
       meta = {
