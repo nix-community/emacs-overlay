@@ -2840,10 +2840,10 @@
     elpaBuild {
       pname = "ebdb";
       ename = "ebdb";
-      version = "0.8.22";
+      version = "0.8.23";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ebdb-0.8.22.tar";
-        sha256 = "0nmrhjk2ddml115ibsy8j4crw5hzq9fa94v8y41iyj9h3gf8irzc";
+        url = "https://elpa.gnu.org/packages/ebdb-0.8.23.tar";
+        sha256 = "1zq0fwj2qj1r4lh45ixy1r70n40p82cydi49bgz8pp7alc166wbf";
       };
       packageRequires = [ seq ];
       meta = {
