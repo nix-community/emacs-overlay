@@ -260,6 +260,28 @@
       };
     }
   ) { };
+  au-themes = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+      modus-themes,
+    }:
+    elpaBuild {
+      pname = "au-themes";
+      ename = "au-themes";
+      version = "0.4.0";
+      src = fetchurl {
+        url = "https://elpa.nongnu.org/nongnu/au-themes-0.4.0.tar";
+        sha256 = "1x6xzjprl549j6wh16cmx0jwjd6ri4y5qjziagq7g0fk57gg76x6";
+      };
+      packageRequires = [ modus-themes ];
+      meta = {
+        homepage = "https://elpa.nongnu.org/nongnu/au-themes.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   auto-dim-other-buffers = callPackage (
     {
       elpaBuild,
@@ -2054,10 +2076,10 @@
     elpaBuild {
       pname = "fj";
       ename = "fj";
-      version = "0.53";
+      version = "0.54";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/fj-0.53.tar";
-        sha256 = "1n9v0fmnn87cffn3lfh1k1mxx49lp40270z1577ay7kp0d78i7qc";
+        url = "https://elpa.nongnu.org/nongnu/fj-0.54.tar";
+        sha256 = "0n7c9f7dzbl52nr2xk3qsfgjf4f1h4ka943kd0q6v4hkqb8q8ykk";
       };
       packageRequires = [
         compat
@@ -5643,10 +5665,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.5.4";
+      version = "1.5.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/subed-1.5.4.tar";
-        sha256 = "01bfj1ivb42gpnhqkfps031js0zx6cr69n57qbfvvdfaj14nwh8l";
+        url = "https://elpa.nongnu.org/nongnu/subed-1.5.5.tar";
+        sha256 = "0z1wiil4j0rvq241gd94hganqbvkwg1mm49zkn1mgl631j4dc8d0";
       };
       packageRequires = [ ];
       meta = {
