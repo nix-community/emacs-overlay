@@ -1592,20 +1592,20 @@
   "repo": "xenodium/acp.el",
   "unstable": {
    "version": [
-    20261118,
-    1309
+    20261119,
+    1308
    ],
-   "commit": "0b4240f07d4f3476e49b4a352ee854ff9d28e556",
-   "sha256": "18cd2af81irgw6qvxasjfvwa661g5nah1mzdml1i3nwmyr36zxgz"
+   "commit": "3fa3b58ecef062293095b046d4873b5bf4c99de3",
+   "sha256": "0xvriaq5wlqb8rd4z4aj61asmabfz02mbqybb4m8367irf8f9lfg"
   },
   "stable": {
    "version": [
     0,
-    19,
-    1
+    20,
+    2
    ],
-   "commit": "0b4240f07d4f3476e49b4a352ee854ff9d28e556",
-   "sha256": "18cd2af81irgw6qvxasjfvwa661g5nah1mzdml1i3nwmyr36zxgz"
+   "commit": "3fa3b58ecef062293095b046d4873b5bf4c99de3",
+   "sha256": "0xvriaq5wlqb8rd4z4aj61asmabfz02mbqybb4m8367irf8f9lfg"
   }
  },
  {
@@ -2221,28 +2221,28 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20261119,
-    1109
+    20261120,
+    147
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "64d9dde314f9baf88d025ba7792d5873c88f3209",
-   "sha256": "1ygxqz6xznp8iqmj9fmbmawi0f87w60g4qy6z6bk87yigpc1v8k0"
+   "commit": "7473e5eb2f3a7da01e1762ac20ac3a4c577b1cb8",
+   "sha256": "0i2lkid8a6w099cz8kaqggqx908byy5lhil27wv9r0dp9j38vv91"
   },
   "stable": {
    "version": [
     0,
-    97,
+    98,
     3
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "f24f7ccb8f710709c2cb198df568a942af83350d",
-   "sha256": "104w9vrrklz0cqykcabxaic2qzin4rd7lgfikir278r033bnr12b"
+   "commit": "7473e5eb2f3a7da01e1762ac20ac3a4c577b1cb8",
+   "sha256": "0i2lkid8a6w099cz8kaqggqx908byy5lhil27wv9r0dp9j38vv91"
   }
  },
  {
@@ -2519,14 +2519,14 @@
   "unstable": {
    "version": [
     20261119,
-    500
+    1654
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "335fe26ee79a5947d54398c2853293031ea42c0f",
-   "sha256": "06r0fgl5cz4cgcpcw0pf8jkh45cnsy0ynlb9zmn91flsabnk8nad"
+   "commit": "a0363f5efe6f3ac7f3ba5984726cd64c57ee5fe6",
+   "sha256": "1fqmlx7414iaji06y8fbrj3j2b622l2jyppl5cnw8bi1fnnfzsv7"
   },
   "stable": {
    "version": [
@@ -7947,10 +7947,10 @@
   "unstable": {
    "version": [
     20261119,
-    111
+    1644
    ],
-   "commit": "704f787704e33e27544f56de7ab9c91106b3ca5d",
-   "sha256": "0502h0ni1cf05bw5jhdv1xnndhk17qw1wvhr7anjw160z5fsg8a1"
+   "commit": "deba547a1bbeef75b143b115b822baee41d66980",
+   "sha256": "0llplaighzwfagv0aa3yrs5xm04m9hcjww7b65d8i6hizphdq7zf"
   },
   "stable": {
    "version": [
@@ -16284,20 +16284,20 @@
   "url": "https://gitlab.kitware.com/cmake/cmake.git",
   "unstable": {
    "version": [
-    20261112,
-    1622
+    20261119,
+    1320
    ],
-   "commit": "f3a3cb0c6542ee497d8e9ec85f3603acb64736ca",
-   "sha256": "02q2z6gq66kfkxffihzvfn4f2s3rc0hsqszfgz2j5v6idixsk61v"
+   "commit": "2803b0fd98c2b0e000d36ef834cf5c2d4992e653",
+   "sha256": "13643i6lak98zc8mm7pl1lmn285akq577l9xjl13pkcpp672bydi"
   },
   "stable": {
    "version": [
     4,
     5,
-    0
+    1
    ],
-   "commit": "f3a3cb0c6542ee497d8e9ec85f3603acb64736ca",
-   "sha256": "02q2z6gq66kfkxffihzvfn4f2s3rc0hsqszfgz2j5v6idixsk61v"
+   "commit": "2803b0fd98c2b0e000d36ef834cf5c2d4992e653",
+   "sha256": "13643i6lak98zc8mm7pl1lmn285akq577l9xjl13pkcpp672bydi"
   }
  },
  {
@@ -32620,11 +32620,11 @@
   "url": "https://forge.tedomum.net/hjuvi/eide.git",
   "unstable": {
    "version": [
-    20260723,
-    2036
+    20261119,
+    2016
    ],
-   "commit": "74448bb8c2e3674c3b9d332b250cd27a34850b67",
-   "sha256": "1mgch05nbkviy0205zsqp721xd0rdqdz881wicxh1wlicngpmnpb"
+   "commit": "bfe7e33b8f62c476842ab7a57e9186a816f6209a",
+   "sha256": "1vjff5g4syakg1ds22aa9sk798sq05pinpxws88vwc3ndchdd9q7"
   },
   "stable": {
    "version": [
@@ -42833,11 +42833,11 @@
   "repo": "mscfd/emacs-f90-ts-mode",
   "unstable": {
    "version": [
-    20261116,
-    1642
+    20261119,
+    1744
    ],
-   "commit": "2d44b41126c9ca8fb84ca197a85a66c67160ed2b",
-   "sha256": "0slj5509m671z0jz6yynnzca2kza2cp1jd0lkmfqsynxfgnz5jhf"
+   "commit": "61ad7c587e40e5499437888fbff75d30ba6b11bb",
+   "sha256": "1143641a9123yg8awfwgnp6n699n8f4wxkjqfhr1s0vygca0gr0d"
   },
   "stable": {
    "version": [
@@ -58117,11 +58117,11 @@
   "repo": "bormoge/guava-themes",
   "unstable": {
    "version": [
-    20261118,
-    1755
+    20261119,
+    2018
    ],
-   "commit": "1bb902369888beb05d8530a3853164e993048381",
-   "sha256": "1v51njkg50viyfzp5mibzggggkkhj596675hz59z0pvnihbf1nxj"
+   "commit": "a75e9e34ea43cce7036b6dbcc75d0d118ef4bd71",
+   "sha256": "0qp3qn0kl8s50h9cv227bs5lsq5yngvbk1hlqxlap81izfy47jfq"
   },
   "stable": {
    "version": [
@@ -58511,15 +58511,15 @@
   "url": "https://git.andros.dev/andros/hackernews-modern-el",
   "unstable": {
    "version": [
-    20261117,
-    1156
+    20261119,
+    2119
    ],
    "deps": [
     "async-http-queue",
     "visual-fill-column"
    ],
-   "commit": "90620c4fc81eb59354988e85353a0e79d37e3660",
-   "sha256": "1jdjblmycr8ql5brqvhx1hxpqyinmizby1r443k5pk7slwrnakn0"
+   "commit": "75387ca2d736c90cde414f03dfc4b5a03477d4f0",
+   "sha256": "1f3ab6f5zg8x99dq6nk38qjrpqy72is012mxl75hgia31869vali"
   }
  },
  {
@@ -84627,10 +84627,10 @@
   "unstable": {
    "version": [
     20261119,
-    750
+    2322
    ],
-   "commit": "bda87856a3b5a50d7ebc72cff235de4b14b224b7",
-   "sha256": "04dc031jln4ga52kqi1z9zl10q9kphnms4pkpydbn08xdpch7bm3"
+   "commit": "2bcb42550076a5343ecf08b8682f36df160c20e4",
+   "sha256": "0087zag9lsrig7kav2gj0kbii88v18dvb6h5p5z9s6kpg356105n"
   },
   "stable": {
    "version": [
@@ -89474,15 +89474,15 @@
   "repo": "rainstormstudio/nerd-icons-completion",
   "unstable": {
    "version": [
-    20260921,
-    2012
+    20261119,
+    1418
    ],
    "deps": [
     "compat",
     "nerd-icons"
    ],
-   "commit": "f924dd490c8c4c1066fd97a76e0dc31e303fca30",
-   "sha256": "13d03mnxzqqxwcw9wk04kpz1nq8in98k8l30c3bv23rzx69kg10f"
+   "commit": "a0ac2f84a83cc2fe003d7b265b49fcb6e0e8c1f6",
+   "sha256": "03d5xwkj8bn94j9crwfhkwbjplf74bhz30sfdsvj1sz5sx70s4x5"
   }
  },
  {
@@ -97582,14 +97582,14 @@
   "repo": "shg/org-inline-anim.el",
   "unstable": {
    "version": [
-    20230610,
-    1504
+    20261119,
+    2323
    ],
    "deps": [
     "org"
    ],
-   "commit": "488fed644748b578dffe7e3847970ec25dcfd24d",
-   "sha256": "0ksif4ngwizdwd7sjw2rsgq69cbrrzkvbrn57qb2l3l21p5irh7f"
+   "commit": "eee0ce91fe9abfd1c85fcfbd5d388cb29b6db32d",
+   "sha256": "115gxmalsic5b7kxb4k8xaji3ra7kb698b6bvp9497a91x43zidh"
   },
   "stable": {
    "version": [
@@ -124043,7 +124043,7 @@
   "unstable": {
    "version": [
     20261115,
-    642
+    1115
    ],
    "deps": [
     "all-the-icons",
@@ -124058,8 +124058,12 @@
     "volume",
     "xelb"
    ],
-   "commit": "8bca8d4842a8a37283f23b9903b3dbcad829bc14",
-   "sha256": "1jc2rvwf3phzdxldrp4i7nm81p3sqgzj4yh1phmjlr239j4q6y13"
+   "commit": "adba14aa0e449e9e7bbd818c18efa399773f9617",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "warning: unable to download 'https://codeberg.org/agnes-li/slothbar/archive/adba14aa0e449e9e7bbd818c18efa399773f9617.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds; retrying in 49 ms (attempt 1/5)\nwarning: unable to download 'https://codeberg.org/agnes-li/slothbar/archive/adba14aa0e449e9e7bbd818c18efa399773f9617.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds; retrying in 155 ms (attempt 2/5)\nwarning: unable to download 'https://codeberg.org/agnes-li/slothbar/archive/adba14aa0e449e9e7bbd818c18efa399773f9617.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds; retrying in 119 ms (attempt 3/5)\nwarning: unable to download 'https://codeberg.org/agnes-li/slothbar/archive/adba14aa0e449e9e7bbd818c18efa399773f9617.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds; retrying in 768 ms (attempt 4/5)\nerror: unable to download 'https://codeberg.org/agnes-li/slothbar/archive/adba14aa0e449e9e7bbd818c18efa399773f9617.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds\n"
+   ]
   },
   "stable": {
    "version": [
@@ -132888,11 +132892,11 @@
   "repo": "aimebertrand/timu-line",
   "unstable": {
    "version": [
-    20261116,
-    1735
+    20261119,
+    2141
    ],
-   "commit": "0252da34e5ae5706d315a7370b886c05bcc6c2a4",
-   "sha256": "1kmclralhmkf8zvbjyfdkwg0801prp3zbbd3kpk8q81lv1d1bpyf"
+   "commit": "1031b5c49fc2488249bb92b5f5363696b9ce6847",
+   "sha256": "1rs2ajr2v1699ib5yxvccmbrnnl8d55msm3ysw178091g0b41dkj"
   },
   "stable": {
    "version": [
