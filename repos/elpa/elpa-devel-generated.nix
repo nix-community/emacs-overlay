@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20261116.37";
+      version = "14.2.0.0.20261118.39";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261116.37.tar";
-        sha256 = "0wi7rxixq7nfiyrjx8jf2bfb7y3aiqpsdzczn94qlwivyq9nd01c";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261118.39.tar";
+        sha256 = "00615xcxacjagv36jflkpjbjq0mi9fx9z0i6wlckf6x41077hf0w";
       };
       packageRequires = [ ];
       meta = {
@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.2.0.0.20261116.27";
+      version = "1.2.0.0.20261119.29";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261116.27.tar";
-        sha256 = "1i37aasddmy2gv1yqy6h9amv1sajinmipp2lqf3snvm7m3ddvl59";
+        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261119.29.tar";
+        sha256 = "0l2fsd194hqhdmwkj3nx4ifibdinickfja3w1pncv0ii9gbm2y38";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20261117.197";
+      version = "4.3.0.0.20261119.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261117.197.tar";
-        sha256 = "0li5yczi5jpxm2jry26p7296cnbgb7xc3c1v5hdh0nra7yjlm561";
+        url = "https://elpa.gnu.org/devel/denote-4.3.0.0.20261119.0.tar";
+        sha256 = "024sm1sdqs6843slv2z2hq6z23g3a3bfzwx0jva0xmkbs8fvnqz8";
       };
       packageRequires = [ ];
       meta = {
@@ -2903,10 +2903,10 @@
     elpaBuild {
       pname = "ebdb";
       ename = "ebdb";
-      version = "0.8.23.0.20261117.0";
+      version = "0.8.23.0.20261118.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ebdb-0.8.23.0.20261117.0.tar";
-        sha256 = "0c1148jivw0sx3mg4vxwp09wcksjgd2bh6x943q0n7dgflkj6hvz";
+        url = "https://elpa.gnu.org/devel/ebdb-0.8.23.0.20261118.1.tar";
+        sha256 = "13fh6j7wv9mx516x39dnq5lmmdrr1wllpwhy60by5kq7p8v5isgh";
       };
       packageRequires = [ seq ];
       meta = {
@@ -3019,10 +3019,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.2.1.0.20261117.55";
+      version = "2.3.0.0.20261118.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ef-themes-2.2.1.0.20261117.55.tar";
-        sha256 = "0h1nz40dbkvvgwx6jzpbfjqi06q44zmgmf8i7p0fs7xmd0x97z35";
+        url = "https://elpa.gnu.org/devel/ef-themes-2.3.0.0.20261118.0.tar";
+        sha256 = "0qv9y7hq4fs8dkmznzqz918ksa5sxxz4l4p9ijyl0z5ff2ds99a5";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -4740,10 +4740,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.3.2.0.20261117.10";
+      version = "9.3.2.0.20261118.11";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.3.2.0.20261117.10.tar";
-        sha256 = "0zqmb93scwzxngz15yzj5qbiyxzxahi9vjxv505vjlclnywakawx";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.3.2.0.20261118.11.tar";
+        sha256 = "1vfzw0y0m5pgmxn21y5cxip7mwj36x8xzgv4hh4p07vkaad1smyp";
       };
       packageRequires = [ ];
       meta = {
@@ -6889,10 +6889,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261118.1019";
+      version = "10.0pre0.20261118.1028";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261118.1019.tar";
-        sha256 = "1f75b3c8mms0jn6qa47n4n8v32zx88njz6qysxbir00p4lqmvq8a";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261118.1028.tar";
+        sha256 = "1z9qa17slpqjyl7nfhq4hd67pbfa4x705mjc6mbr679hk9556pww";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7706,10 +7706,10 @@
     elpaBuild {
       pname = "polymode";
       ename = "polymode";
-      version = "0.2.2.0.20260505.180301";
+      version = "0.2.2.0.20261119.101";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20260505.180301.tar";
-        sha256 = "00h3hyaz8rkv9wyvn0afg63v4v5ghz6h6hk1rds54wi8mb1501nc";
+        url = "https://elpa.gnu.org/devel/polymode-0.2.2.0.20261119.101.tar";
+        sha256 = "0ca4cllck52wzm7b72is3cp5airxk1lpzbwwbiwm255hdka70d0d";
       };
       packageRequires = [ ];
       meta = {

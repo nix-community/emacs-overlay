@@ -2081,10 +2081,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3";
+      version = "4.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/denote-4.2.3.tar";
-        sha256 = "0r5p2iy7wssm6hl4dal1sav5x4vvijq54lyzqabg49v6lsbszf74";
+        url = "https://elpa.gnu.org/packages/denote-4.3.0.tar";
+        sha256 = "148cimapj92l02qiwyprwf999aw97yriz1vm71v5dcsgfqxvrcvb";
       };
       packageRequires = [ ];
       meta = {
@@ -2956,10 +2956,10 @@
     elpaBuild {
       pname = "ef-themes";
       ename = "ef-themes";
-      version = "2.2.1";
+      version = "2.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ef-themes-2.2.1.tar";
-        sha256 = "1wf4836jd22qx37aw716nba31w2z8ya2hmv5c4jvwhd78bffmajm";
+        url = "https://elpa.gnu.org/packages/ef-themes-2.3.0.tar";
+        sha256 = "106i3faxzvja81a7pdzrr2508jgq9izl618fqr0r5yic8iyfllj4";
       };
       packageRequires = [ modus-themes ];
       meta = {
