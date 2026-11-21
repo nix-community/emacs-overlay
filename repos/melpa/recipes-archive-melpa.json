@@ -2235,14 +2235,14 @@
    "version": [
     0,
     98,
-    3
+    4
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "7473e5eb2f3a7da01e1762ac20ac3a4c577b1cb8",
-   "sha256": "0i2lkid8a6w099cz8kaqggqx908byy5lhil27wv9r0dp9j38vv91"
+   "commit": "426d57ee074de89432ecf8b41a7b71a9ec685c37",
+   "sha256": "1g5ygpvdpcbmzyv3v4hajqsp3idv1rmdwqgbdcci8qh6f8q4nlma"
   }
  },
  {
@@ -23452,11 +23452,11 @@
   "repo": "Anoncheg1/emacs-cui",
   "unstable": {
    "version": [
-    20261119,
-    423
+    20261120,
+    1801
    ],
-   "commit": "5bcf3d7107610d1ec740b3b327c672a0ff8179e9",
-   "sha256": "1j130l4ycd1i9gggpg8nh5l1bcmq8zmsnwszaw7yf0y3rqyy749a"
+   "commit": "f9c32939f786aabb7d5ca57016b56e094099f2dd",
+   "sha256": "1dv01yq2911qrvhbwxrignql31w5wvhp0wcchg7aag55gdvhg0fm"
   },
   "stable": {
    "version": [
@@ -34866,7 +34866,7 @@
    "version": [
     1,
     33,
-    1
+    2
    ],
    "deps": [
     "compat",
@@ -34875,8 +34875,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "b6e71f41583e85d2e1fe93ccaa34593f7b4015b8",
-   "sha256": "0f3mk4vjrj6n2i57kckxb961mv86j63xbahm3s6d6q5z6ljydj61"
+   "commit": "6dee58ebb4e25c8bf98d21a302264a5f51c8180f",
+   "sha256": "0pm8wag08cwyk2lb7bmnmc2nj96bfkg6z4rnrbzzq1828831gs16"
   }
  },
  {
@@ -58118,10 +58118,10 @@
   "unstable": {
    "version": [
     20261120,
-    1434
+    2132
    ],
-   "commit": "eb80476630a4f46741aff932d6a638abd3f19442",
-   "sha256": "1aj1z2dwl9x4gyi0zp3qqnrgpvcna5jylshzf0hi50hc78i5344k"
+   "commit": "e92dc775a2e0a2e9c4eb1de7a8ad9b76909338a8",
+   "sha256": "12hvcmjrmajhd6k9x694gdh2gv7y6bvy9a0q9gw4i97r0bfrsswm"
   },
   "stable": {
    "version": [
@@ -66035,15 +66035,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20261118,
-    2034
+    20261120,
+    2305
    ],
-   "commit": "34bd525e472dccbf431306a620a5b59c4e324132",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3193-2366432324/nix-shell-3425-73195640/nix-shell-3489-1453099151/git-checkout-tmp-8qKtGgl9/clone/.git/\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Failed to connect to git.savannah.gnu.org:443 after 133488 ms: Could not connect to server\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Failed to connect to git.savannah.gnu.org:443 after 135093 ms: Could not connect to server\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Failed to connect to git.savannah.gnu.org:443 after 135108 ms: Could not connect to server\nUnable to checkout 34bd525e472dccbf431306a620a5b59c4e324132 from https://git.savannah.gnu.org/git/hyperbole.git.\n"
-   ]
+   "commit": "fd7e12bba0678507bd189fb0353391f4b89319dd",
+   "sha256": "0nx1w9sm8s0s9a7ivsi0xnaqv2kpc5wdwq79221cqxcghs55xvwb"
   },
   "stable": {
    "version": [
@@ -76082,26 +76078,26 @@
   "repo": "alberti42/latex-to-svg",
   "unstable": {
    "version": [
-    20261023,
-    1606
+    20261120,
+    2120
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "527fcac9afd65c4c1bd9692f16250b31fdce7bc0",
-   "sha256": "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"
+   "commit": "0328d65a356051fde079b8ca8e29aa58cc5935cd",
+   "sha256": "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"
   },
   "stable": {
    "version": [
     0,
     25,
-    1
+    2
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "527fcac9afd65c4c1bd9692f16250b31fdce7bc0",
-   "sha256": "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"
+   "commit": "0328d65a356051fde079b8ca8e29aa58cc5935cd",
+   "sha256": "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"
   }
  },
  {
@@ -76112,26 +76108,26 @@
   "repo": "alberti42/latex-to-svg",
   "unstable": {
    "version": [
-    20261023,
-    1606
+    20261120,
+    2120
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "527fcac9afd65c4c1bd9692f16250b31fdce7bc0",
-   "sha256": "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"
+   "commit": "0328d65a356051fde079b8ca8e29aa58cc5935cd",
+   "sha256": "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"
   },
   "stable": {
    "version": [
     0,
     25,
-    1
+    2
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "527fcac9afd65c4c1bd9692f16250b31fdce7bc0",
-   "sha256": "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"
+   "commit": "0328d65a356051fde079b8ca8e29aa58cc5935cd",
+   "sha256": "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"
   }
  },
  {
@@ -76142,26 +76138,26 @@
   "repo": "alberti42/latex-to-svg",
   "unstable": {
    "version": [
-    20261023,
-    1606
+    20261120,
+    2120
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "527fcac9afd65c4c1bd9692f16250b31fdce7bc0",
-   "sha256": "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"
+   "commit": "0328d65a356051fde079b8ca8e29aa58cc5935cd",
+   "sha256": "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"
   },
   "stable": {
    "version": [
     0,
     25,
-    1
+    2
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "527fcac9afd65c4c1bd9692f16250b31fdce7bc0",
-   "sha256": "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"
+   "commit": "0328d65a356051fde079b8ca8e29aa58cc5935cd",
+   "sha256": "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"
   }
  },
  {
@@ -76172,26 +76168,26 @@
   "repo": "alberti42/latex-to-svg",
   "unstable": {
    "version": [
-    20261029,
-    1325
+    20261120,
+    2120
    ],
    "deps": [
     "latex-to-svg-backend"
    ],
-   "commit": "75ff777b4e2ceb5adbb55c9699362a055dc9e6f1",
-   "sha256": "0c2p66xsy17smafmqzpala79x0ryq60m2vfrly0hyvl1hqz439zr"
+   "commit": "0328d65a356051fde079b8ca8e29aa58cc5935cd",
+   "sha256": "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"
   },
   "stable": {
    "version": [
     0,
     25,
-    1
+    2
    ],
    "deps": [
     "latex-to-svg-backend"
    ],
-   "commit": "527fcac9afd65c4c1bd9692f16250b31fdce7bc0",
-   "sha256": "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"
+   "commit": "0328d65a356051fde079b8ca8e29aa58cc5935cd",
+   "sha256": "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"
   }
  },
  {
@@ -85511,11 +85507,11 @@
   "repo": "szermatt/mistty",
   "unstable": {
    "version": [
-    20261119,
-    25
+    20261120,
+    2038
    ],
-   "commit": "9d2c39f3926f240b4d585d741e2e279a3a376fde",
-   "sha256": "09fq04fcjpbbvi5mx0ikgzh7qm32chaajp3pdc7m25bil7g3kpry"
+   "commit": "5fa3f4782b210f1a3f07eee7ee7c713472b0c8b7",
+   "sha256": "1v668r8p267zsmrpapxzla9s8lijh49qpynd1gmzyc998c0qnwfa"
   },
   "stable": {
    "version": [
@@ -123772,8 +123768,8 @@
   "repo": "emacs-slack/emacs-slack",
   "unstable": {
    "version": [
-    20261118,
-    2311
+    20261121,
+    53
    ],
    "deps": [
     "alert",
@@ -123785,8 +123781,8 @@
     "ts",
     "websocket"
    ],
-   "commit": "eafa2d4886451e75ef7a50d887fbb48cf70ac354",
-   "sha256": "1ybw30hlqf8yh69r985dyz6l3pz6bziqr6nv7glck38qf0mz4dwi"
+   "commit": "5264d1d382aeca172589e892bb3095a6b00340d7",
+   "sha256": "19l9kg05zjdjarn5pafjp3qfb3s5m7jq8p32ylnl029a7x7d53gj"
   }
  },
  {
@@ -124046,7 +124042,7 @@
   "repo": "agnes-li/slothbar",
   "unstable": {
    "version": [
-    20261115,
+    20261120,
     1115
    ],
    "deps": [
@@ -124062,8 +124058,8 @@
     "volume",
     "xelb"
    ],
-   "commit": "adba14aa0e449e9e7bbd818c18efa399773f9617",
-   "sha256": "04bq5wk5ysg65n5c6vsc8yawc8759gjhb53h55rwwf0jslyl7sm6"
+   "commit": "772d2d93e7f7a00f32f7af03616217b3841b15f7",
+   "sha256": "1bs3zvr2jk4fq5dv9pi3hq7kwv1pqwdpw9kbn6dm5503ynahydg6"
   },
   "stable": {
    "version": [
@@ -124164,11 +124160,11 @@
   "repo": "vilij/slurpbarf-elcute",
   "unstable": {
    "version": [
-    20251018,
-    2247
+    20261120,
+    1710
    ],
-   "commit": "20f209035ab01a798645efa29650dfd67d50fad4",
-   "sha256": "0axnb2pnzvc6bg56h5a8fa4zw7kxp4rxf9jfsqjx76154w8idfga"
+   "commit": "e05b0c63c073e7baf134f1879ee3afea997766c2",
+   "sha256": "0rmc5f799x3hn33rwfp01bks11w77pw1my39a7icl4fadzjr6wn8"
   }
  },
  {
