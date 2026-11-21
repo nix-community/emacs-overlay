@@ -75,10 +75,10 @@
     elpaBuild {
       pname = "aidermacs";
       ename = "aidermacs";
-      version = "1.13.0.20261016.6";
+      version = "1.13.0.20261120.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.13.0.20261016.6.tar";
-        sha256 = "02969c10f8ca3dr5z0jh2nvazrgz182g1jvspg383krcv538gl7s";
+        url = "https://elpa.nongnu.org/nongnu-devel/aidermacs-1.13.0.20261120.7.tar";
+        sha256 = "0i8jd0y189m0bcvrj27v1c1vmm7blvm7j28s37n2vy53bq2lkx21";
       };
       packageRequires = [
         compat
@@ -270,10 +270,10 @@
     elpaBuild {
       pname = "au-themes";
       ename = "au-themes";
-      version = "0.4.0.0.20261119.1";
+      version = "0.4.0.0.20261119.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.0.0.20261119.1.tar";
-        sha256 = "1y0pik4kwrvdwri4si57ihlmd0pbrsafs26zlvl8qaw8yahj69zh";
+        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.0.0.20261119.2.tar";
+        sha256 = "1661riir459brg3yx24nc587nr2vkfcs20mb2fghq7w0rl5wnb3q";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -6252,10 +6252,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.1snapshot0.20261113.108";
+      version = "9.0.1snapshot0.20261119.127";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261113.108.tar";
-        sha256 = "1ackqgbb27185074ia102jpfacd6v21jsyydgcd0d74vbdf85ffc";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261119.127.tar";
+        sha256 = "0z4flcpdmcsz9lai9qmbjns2kxvskq27j58pyymf6qf7kkmw6k5c";
       };
       packageRequires = [ vcard ];
       meta = {
