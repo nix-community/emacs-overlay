@@ -270,10 +270,10 @@
     elpaBuild {
       pname = "au-themes";
       ename = "au-themes";
-      version = "0.4.0.0.20261119.2";
+      version = "0.4.0.0.20261120.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.0.0.20261119.2.tar";
-        sha256 = "1661riir459brg3yx24nc587nr2vkfcs20mb2fghq7w0rl5wnb3q";
+        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.0.0.20261120.3.tar";
+        sha256 = "1ngx7ap742nbhfpppirvglc8b1yzir036q56x9fhwwhr0536sm3v";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -2828,10 +2828,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.6.0.20261116.45";
+      version = "0.9.9.6.0.20261121.49";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20261116.45.tar";
-        sha256 = "1zpgv65ag6fa3yha90nym73wizpmimb1qn4y980pdqa8l4adavmg";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.6.0.20261121.49.tar";
+        sha256 = "1wh99aaki1cggv0n1yfyzmi6kkj8y0awlsb7nn8iy8jnrpj97qxw";
       };
       packageRequires = [
         compat
@@ -3830,10 +3830,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.7.2.0.20261117.6";
+      version = "4.7.2.0.20261121.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.2.0.20261117.6.tar";
-        sha256 = "10g67abb4c14aqj92npmxybf3w0g6cqpivmxvii5z4dsb8m54p6h";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.7.2.0.20261121.7.tar";
+        sha256 = "1bm50c997r5cwgzm0qwvqb2d474w4d4c8igd0wsdbpndywxl5jxc";
       };
       packageRequires = [
         compat
@@ -3863,10 +3863,10 @@
     elpaBuild {
       pname = "magit-section";
       ename = "magit-section";
-      version = "4.7.2.0.20261117.6";
+      version = "4.7.2.0.20261121.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.2.0.20261117.6.tar";
-        sha256 = "0vza7fyvrdyqm3wdbzm4l38ysg5d5kissfpmdkb0y4qy8352iv17";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-section-4.7.2.0.20261121.7.tar";
+        sha256 = "068v5qn6c1k7dziwcvapgwhvb31lk0q7s3bh28jagfn3s171mmpl";
       };
       packageRequires = [
         compat
