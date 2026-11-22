@@ -4416,10 +4416,10 @@
     elpaBuild {
       pname = "greenbar";
       ename = "greenbar";
-      version = "1.2.260317";
+      version = "1.2.261121";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/greenbar-1.2.260317.tar";
-        sha256 = "0gflgrc60xf6vkj2r7k5889l6a2ky9vbss1f19x1ci4v6dx6y3hz";
+        url = "https://elpa.gnu.org/packages/greenbar-1.2.261121.tar";
+        sha256 = "0irsiyd473d37q3pgqwlyarsc2qravgmgzb9i72pizdhwvjf2dvp";
       };
       packageRequires = [ ];
       meta = {

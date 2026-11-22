@@ -1062,10 +1062,10 @@
     elpaBuild {
       pname = "buildbot";
       ename = "buildbot";
-      version = "0.0.1.0.20230726.134747";
+      version = "0.0.1.0.20261122.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/buildbot-0.0.1.0.20230726.134747.tar";
-        sha256 = "1z27pfx3h1fad9wiazrkqgfdc1h06g2rlb3cq1zk83hilg64nnjd";
+        url = "https://elpa.gnu.org/devel/buildbot-0.0.1.0.20261122.1.tar";
+        sha256 = "02j12gd1cwqapm7ijdg0865yv06rp98pipwf38dwn1j5y0p35z82";
       };
       packageRequires = [ ];
       meta = {
@@ -4502,10 +4502,10 @@
     elpaBuild {
       pname = "greenbar";
       ename = "greenbar";
-      version = "1.2.260317.0.20260317.232500";
+      version = "1.2.261121.0.20261121.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/greenbar-1.2.260317.0.20260317.232500.tar";
-        sha256 = "1p1w71rylw22qwlc4rmj1qma5zzbxf7zwvwbywqxhcpdh5sw9rp0";
+        url = "https://elpa.gnu.org/devel/greenbar-1.2.261121.0.20261121.0.tar";
+        sha256 = "17f507hxgm8crq3f7ic4c9v3wr55m5bgcblqljrrpcbl32cn2c2g";
       };
       packageRequires = [ ];
       meta = {
@@ -6889,10 +6889,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261121.1073";
+      version = "10.0pre0.20261121.1074";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261121.1073.tar";
-        sha256 = "1rv0ny2wgkdm9lgxclk8l2gh8fkqzvb4855mbfbaw4w7nzqp75kn";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261121.1074.tar";
+        sha256 = "0xz0a30amn29iy1jjcwlaic1k5s843ppp3hln7hp6jm4jh2z8m1h";
       };
       packageRequires = [ compat ];
       meta = {
