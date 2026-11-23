@@ -2434,10 +2434,10 @@
     elpaBuild {
       pname = "diff-hl";
       ename = "diff-hl";
-      version = "1.11.2.0.20261122.6";
+      version = "1.11.2.0.20261123.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/diff-hl-1.11.2.0.20261122.6.tar";
-        sha256 = "0q57wph12m7idmzq7yd2dfw6nzd7gi75wlswpb3r18zzxnvpck8q";
+        url = "https://elpa.gnu.org/devel/diff-hl-1.11.2.0.20261123.8.tar";
+        sha256 = "1icxg47bbs6y9d9qdwnh4i7gchcav9jyss3vxi0jj5132winrinr";
       };
       packageRequires = [ cl-lib ];
       meta = {
@@ -3292,10 +3292,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20261122.57";
+      version = "0.0.20261123.58";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261122.57.tar";
-        sha256 = "19ncas1igwzgzyvza4svj9yikqr8sp7rpd9qimmp4pyw89km3chl";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261123.58.tar";
+        sha256 = "17l9cbbk1im47pajfwx7gy3v8hj717fm8lqaasay9npnb61ksic4";
       };
       packageRequires = [ ];
       meta = {
@@ -3427,10 +3427,10 @@
     elpaBuild {
       pname = "emureader";
       ename = "emureader";
-      version = "0.4.0.0.20261109.8";
+      version = "0.4.0.0.20261122.9";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emureader-0.4.0.0.20261109.8.tar";
-        sha256 = "0kvn4c7p4000whr158qq78m2wxiyjxld6jp23y7w6rcnv6wvc3vd";
+        url = "https://elpa.gnu.org/devel/emureader-0.4.0.0.20261122.9.tar";
+        sha256 = "0dlhdl9nyxbcijs1r18z1ydwil1vcffj53lgpzpjvcz062q5yj67";
       };
       packageRequires = [ ];
       meta = {
