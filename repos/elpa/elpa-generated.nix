@@ -10463,16 +10463,20 @@
       elpaBuild,
       fetchurl,
       lib,
+      project,
     }:
     elpaBuild {
       pname = "vc-jj";
       ename = "vc-jj";
-      version = "0.5";
+      version = "0.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/vc-jj-0.5.tar";
-        sha256 = "1xrv0m15ayx06hxw29k1migl0lq7cmmq2z1inygpwq81g7v3kp6d";
+        url = "https://elpa.gnu.org/packages/vc-jj-0.6.tar";
+        sha256 = "0l0r8w4d83l3sbh0417g2q14rhz47hbk6rbh3xppp4g2hkkl20vb";
       };
-      packageRequires = [ compat ];
+      packageRequires = [
+        compat
+        project
+      ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/vc-jj.html";
         license = lib.licenses.free;
