@@ -270,10 +270,10 @@
     elpaBuild {
       pname = "au-themes";
       ename = "au-themes";
-      version = "0.4.1.0.20261122.0";
+      version = "0.4.1.0.20261122.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.1.0.20261122.0.tar";
-        sha256 = "1cl01dk8jf40p4a00l679h0xdl0b6fsnvd00zyfvr3z8a5g22mvj";
+        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.1.0.20261122.3.tar";
+        sha256 = "1b8pyrf65k1cir01z6s4awwd3k9n0n87c7b8lnl29pn47zcify25";
       };
       packageRequires = [ modus-themes ];
       meta = {
