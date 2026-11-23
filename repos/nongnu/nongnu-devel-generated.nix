@@ -270,10 +270,10 @@
     elpaBuild {
       pname = "au-themes";
       ename = "au-themes";
-      version = "0.4.0.0.20261120.3";
+      version = "0.4.1.0.20261122.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.0.0.20261120.3.tar";
-        sha256 = "1ngx7ap742nbhfpppirvglc8b1yzir036q56x9fhwwhr0536sm3v";
+        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.1.0.20261122.0.tar";
+        sha256 = "1cl01dk8jf40p4a00l679h0xdl0b6fsnvd00zyfvr3z8a5g22mvj";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -1851,10 +1851,10 @@
     elpaBuild {
       pname = "evil-matchit";
       ename = "evil-matchit";
-      version = "5.0.0.0.20261019.0";
+      version = "5.0.1.0.20261122.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/evil-matchit-5.0.0.0.20261019.0.tar";
-        sha256 = "12hllqj2w53vra63k4yk22pmf8dpzrh0ivnysvk5zxz8w818yfvi";
+        url = "https://elpa.nongnu.org/nongnu-devel/evil-matchit-5.0.1.0.20261122.0.tar";
+        sha256 = "1llbw2d41mmgz3qih9wr98k6w919iglygp8c9gh8zb5z7rlzgaml";
       };
       packageRequires = [ ];
       meta = {
@@ -6252,10 +6252,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.1snapshot0.20261119.127";
+      version = "9.0.1snapshot0.20261122.135";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261119.127.tar";
-        sha256 = "0z4flcpdmcsz9lai9qmbjns2kxvskq27j58pyymf6qf7kkmw6k5c";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261122.135.tar";
+        sha256 = "1sc1dzkr3nsdlcghgqk7kh8c00hqd6j5fdxnbvm6v6pn2jd3300h";
       };
       packageRequires = [ vcard ];
       meta = {
