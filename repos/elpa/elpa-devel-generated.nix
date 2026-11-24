@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20261118.39";
+      version = "14.2.0.0.20261123.40";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261118.39.tar";
-        sha256 = "00615xcxacjagv36jflkpjbjq0mi9fx9z0i6wlckf6x41077hf0w";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261123.40.tar";
+        sha256 = "0k47f4gh5kw1sr67f7g7zc1b6jd2csh3snxqchdmdlvbiixjiyxv";
       };
       packageRequires = [ ];
       meta = {
@@ -3292,10 +3292,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20261123.58";
+      version = "0.0.20261123.60";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261123.58.tar";
-        sha256 = "17l9cbbk1im47pajfwx7gy3v8hj717fm8lqaasay9npnb61ksic4";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261123.60.tar";
+        sha256 = "1p9x2kz3l61192qqzq1yswlxhg6gz7mfqzplahhnbnzmb4s1fhj3";
       };
       packageRequires = [ ];
       meta = {
@@ -3830,10 +3830,10 @@
     elpaBuild {
       pname = "flymake";
       ename = "flymake";
-      version = "1.4.8.0.20261028.0";
+      version = "1.4.8.0.20261123.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/flymake-1.4.8.0.20261028.0.tar";
-        sha256 = "1zynbbvkdyk5424qfbfbpcr72x2a6w65hzlmk72mx0snq3l5fvz8";
+        url = "https://elpa.gnu.org/devel/flymake-1.4.8.0.20261123.1.tar";
+        sha256 = "0jif6fqclrdi009hanwqllg46xy962zp63wysrc85y1880vs7djb";
       };
       packageRequires = [
         eldoc
@@ -4740,10 +4740,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.3.2.0.20261122.25";
+      version = "9.3.2.0.20261123.26";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.3.2.0.20261122.25.tar";
-        sha256 = "0c26fapbrypgils280wiaxp7j7h79xls4rkw5v8zv894sg7bhkl7";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.3.2.0.20261123.26.tar";
+        sha256 = "136b68dcfy01y2c5d7xjpldd23p42bl8mm7wsimqjqai4cfns18a";
       };
       packageRequires = [ ];
       meta = {
@@ -6889,10 +6889,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20261122.1081";
+      version = "10.0pre0.20261123.1090";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261122.1081.tar";
-        sha256 = "1fc8im6xfcp291dac23c8cx38654f7xfvpjspwpwzcmp35nrqcgx";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20261123.1090.tar";
+        sha256 = "0nr8fha6njhlyaxf42byiy4xpxw349bbrcrlr33i4jlmqivcp90x";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7108,10 +7108,10 @@
     elpaBuild {
       pname = "org-remark";
       ename = "org-remark";
-      version = "1.3.0.0.20260531.4";
+      version = "1.3.0.0.20261123.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-remark-1.3.0.0.20260531.4.tar";
-        sha256 = "1k69ndpwk6mrlzdcv727fpfb73glis2dgxm48kdnbgz5167blydg";
+        url = "https://elpa.gnu.org/devel/org-remark-1.3.0.0.20261123.6.tar";
+        sha256 = "1wzblnz8cznqjjsbbfvn0rfcxzp3pa7a4b1dzf9chsjzzsn95l91";
       };
       packageRequires = [ org ];
       meta = {
