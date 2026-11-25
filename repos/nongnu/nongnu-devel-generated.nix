@@ -270,10 +270,10 @@
     elpaBuild {
       pname = "au-themes";
       ename = "au-themes";
-      version = "0.4.1.0.20261122.3";
+      version = "0.4.2.0.20261123.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.1.0.20261122.3.tar";
-        sha256 = "1b8pyrf65k1cir01z6s4awwd3k9n0n87c7b8lnl29pn47zcify25";
+        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.2.0.20261123.0.tar";
+        sha256 = "0s5lvmgipdrvr4490znhlrr60cvqnbdsg16l6nahw9ln19h4g1sf";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -2895,10 +2895,10 @@
     elpaBuild {
       pname = "gruvbox-theme";
       ename = "gruvbox-theme";
-      version = "1.30.3.0.20261110.3";
+      version = "1.30.5.0.20261124.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gruvbox-theme-1.30.3.0.20261110.3.tar";
-        sha256 = "06cag5mxjkqsh2qwj1n2m8xcznc3jrj1444md9g807lfcz991hiv";
+        url = "https://elpa.nongnu.org/nongnu-devel/gruvbox-theme-1.30.5.0.20261124.0.tar";
+        sha256 = "05hy4ziwxza93z20kxz308chmz5fd33ph3j0zv6y9aiz99gvklz9";
       };
       packageRequires = [ autothemer ];
       meta = {
@@ -2959,10 +2959,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20261016.73";
+      version = "17.5.0.20261124.74";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20261016.73.tar";
-        sha256 = "0mq2wn5xmnbn19ny0993ifbvrkm8yp4fxhvb8g9sw99pd7j0qh15";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20261124.74.tar";
+        sha256 = "0psp3f525mvdzhfyznyz5v4lpky79pswvhzx38zh9xxmw0bndbmf";
       };
       packageRequires = [ ];
       meta = {
@@ -3910,10 +3910,10 @@
     elpaBuild {
       pname = "markdown-ts-appear";
       ename = "markdown-ts-appear";
-      version = "0.4.0.0.20261109.4";
+      version = "0.4.1.0.20261124.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-ts-appear-0.4.0.0.20261109.4.tar";
-        sha256 = "00pgp89pbpxf45ms9cy2lgrmp5bidci2qqxxg6y78r0f237v5rjz";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-ts-appear-0.4.1.0.20261124.0.tar";
+        sha256 = "04ga7i2bp6rqw9bi3mrnw8dhlpzdnh7bck35nn80l9892ya1j1f2";
       };
       packageRequires = [ ];
       meta = {
@@ -4229,10 +4229,10 @@
     elpaBuild {
       pname = "nov";
       ename = "nov";
-      version = "0.5.0.0.20261022.5";
+      version = "0.5.0.0.20261123.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/nov-0.5.0.0.20261022.5.tar";
-        sha256 = "0c095grx1f9a3lcv3y79j78zvcq900bzcz9b9q539vc212z8m4h1";
+        url = "https://elpa.nongnu.org/nongnu-devel/nov-0.5.0.0.20261123.6.tar";
+        sha256 = "0a36r5dvcn8n62cg5w7k0w6k3amk9b8pvi2kalar5ip1vxdhm9yn";
       };
       packageRequires = [ esxml ];
       meta = {
@@ -5439,10 +5439,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20261108.83";
+      version = "2.32snapshot0.20261124.84";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261108.83.tar";
-        sha256 = "1irrdmwjn3iykv2zcqff2s62vmm895vlkys9jh0mndlh2bindryn";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261124.84.tar";
+        sha256 = "1d7ilcchzba2a001ff221pmwpx590axyhzvllbljbwyvklx13crj";
       };
       packageRequires = [ macrostep ];
       meta = {

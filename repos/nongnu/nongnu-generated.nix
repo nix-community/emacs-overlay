@@ -270,10 +270,10 @@
     elpaBuild {
       pname = "au-themes";
       ename = "au-themes";
-      version = "0.4.1";
+      version = "0.4.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/au-themes-0.4.1.tar";
-        sha256 = "07qfvrvwn9zwphllzi124g8n1n1qjbrwvwbk7y2z6f236i52j7x4";
+        url = "https://elpa.nongnu.org/nongnu/au-themes-0.4.2.tar";
+        sha256 = "0y6lwl8k9xzh1kv7j7p61vkx1dsxamgnz5qcfmp3yxnaz5z1gfdk";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -2913,10 +2913,10 @@
     elpaBuild {
       pname = "gruvbox-theme";
       ename = "gruvbox-theme";
-      version = "1.30.3";
+      version = "1.30.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gruvbox-theme-1.30.3.tar";
-        sha256 = "1g2drp4gx7z5qaxpfira0xrc2mhrqbda0ag32zbdyrv1jcw6h9im";
+        url = "https://elpa.nongnu.org/nongnu/gruvbox-theme-1.30.5.tar";
+        sha256 = "1j04yb3xql8smayi5snzk2cj617pq5xhdc513wy9bk66hdf4n2ak";
       };
       packageRequires = [ autothemer ];
       meta = {
@@ -3927,10 +3927,10 @@
     elpaBuild {
       pname = "markdown-ts-appear";
       ename = "markdown-ts-appear";
-      version = "0.4.0";
+      version = "0.4.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/markdown-ts-appear-0.4.0.tar";
-        sha256 = "05blr9c8bba056hx6526hcmpsym31pmyxpdsflwbybinv2m2g0ws";
+        url = "https://elpa.nongnu.org/nongnu/markdown-ts-appear-0.4.1.tar";
+        sha256 = "1bc7j75lxs4pd0rc4s7vyzkbzs4njz3vc59nw28sj0zlxqkqycd1";
       };
       packageRequires = [ ];
       meta = {
