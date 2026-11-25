@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.2.0.0.20261120.30";
+      version = "1.2.0.0.20261125.31";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261120.30.tar";
-        sha256 = "0wxg0q2k0mbwkbr2hb4rxca5sk197g40q8agjaaabg7pjwhm8ibj";
+        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261125.31.tar";
+        sha256 = "1m50alcs2c7asyszs16gch2cfk84r5x7ffm8w72fp3h3qd74dw2s";
       };
       packageRequires = [ posframe ];
       meta = {
