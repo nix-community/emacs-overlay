@@ -643,10 +643,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20261111.180";
+      version = "2.1.0snapshot0.20261125.195";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20261111.180.tar";
-        sha256 = "1ik53548lzd24vjl16fxzhrikj8l9g65hbai25q52mpaxli0w9sj";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20261125.195.tar";
+        sha256 = "1gy6rp8hsizzqdw7kkdwz13pvapgkwmqqkx5w1rn4ijgmx21kp7v";
       };
       packageRequires = [
         clojure-mode
@@ -3889,10 +3889,10 @@
     elpaBuild {
       pname = "markdown-mode";
       ename = "markdown-mode";
-      version = "2.9alpha0.20261022.28";
+      version = "2.9alpha0.20261125.30";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20261022.28.tar";
-        sha256 = "1dpbad6ri58xh6dk226hmn3s6g2y0f56psgakb6ii68szw4msmwy";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-mode-2.9alpha0.20261125.30.tar";
+        sha256 = "1zh870sgzz35ry1wgshrslqrlmvx2c9032ri673rprx0m6cklvim";
       };
       packageRequires = [ ];
       meta = {
@@ -4922,10 +4922,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.5.0snapshot0.20260930.66";
+      version = "3.5.0snapshot0.20261125.102";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20260930.66.tar";
-        sha256 = "0kgwgq60i7jfa7rwvi7zms3s5apqz633gxqws4c6wa3n5vyd9glh";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20261125.102.tar";
+        sha256 = "07h2a1jdq6zygjl36sd5aggarz98brlbiapl0phyha418fq01192";
       };
       packageRequires = [ compat ];
       meta = {
@@ -5050,10 +5050,10 @@
     elpaBuild {
       pname = "raku-mode";
       ename = "raku-mode";
-      version = "0.2.1.0.20250930.115108";
+      version = "0.2.1.0.20261125.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/raku-mode-0.2.1.0.20250930.115108.tar";
-        sha256 = "1qvsib5w75n31ya153ixiyfklwqxgmrvv2a7zfqqn5ivzlc14ynk";
+        url = "https://elpa.nongnu.org/nongnu-devel/raku-mode-0.2.1.0.20261125.7.tar";
+        sha256 = "0vfmq7xxbrw0xr2spjg2yk411fsl0820gr98jchcm7h0s0brxhdn";
       };
       packageRequires = [ ];
       meta = {
