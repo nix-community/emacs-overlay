@@ -1297,10 +1297,10 @@
     elpaBuild {
       pname = "cobol-mode";
       ename = "cobol-mode";
-      version = "1.1.0.20261027.14";
+      version = "1.1.0.20261126.24";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cobol-mode-1.1.0.20261027.14.tar";
-        sha256 = "12vc855xfnzx5q8gy2rhzqdiw1725j79lrnn46h9k8bk9y5d9lhz";
+        url = "https://elpa.gnu.org/devel/cobol-mode-1.1.0.20261126.24.tar";
+        sha256 = "1mcijzkvzm2wrqf3ci24czmqhl5hd8wj9cbnnrjgsm1mv9dc5vzx";
       };
       packageRequires = [ ];
       meta = {
@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.2.0.0.20261126.36";
+      version = "1.3.0.0.20261127.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261126.36.tar";
-        sha256 = "04ycmv2wph5kr3013gspx509mwl3qz6zm4bi6lx0h0cdq2hqjqp0";
+        url = "https://elpa.gnu.org/devel/company-1.3.0.0.20261127.1.tar";
+        sha256 = "146sd69s914rcxdsjylvmk5dcvagg1lrzcv0k500y1ry7045x3hz";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -10969,10 +10969,10 @@
     elpaBuild {
       pname = "vundo";
       ename = "vundo";
-      version = "2.4.0.0.20260905.15";
+      version = "2.4.0.0.20261126.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vundo-2.4.0.0.20260905.15.tar";
-        sha256 = "0llf0hsxj66rdwflpw06qfvm1pjcjkygf233982gjyk5iq7142qc";
+        url = "https://elpa.gnu.org/devel/vundo-2.4.0.0.20261126.16.tar";
+        sha256 = "0vb55d172ix2kwmdgqc83y42zf0392lr8zglq3yczf7ymcpsfjn1";
       };
       packageRequires = [ ];
       meta = {
