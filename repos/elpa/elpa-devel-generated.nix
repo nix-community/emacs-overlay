@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20261126.43";
+      version = "14.2.0.0.20261126.44";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261126.43.tar";
-        sha256 = "07j9s2ykc08slyp3gjgsdzh3qim1qpwk1wvc99qyp6ml493zzy1s";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261126.44.tar";
+        sha256 = "08xry4vg692ypi39amgqcnh0bpscgr88ggmsh6rnm2nv4frlqm0r";
       };
       packageRequires = [ ];
       meta = {
@@ -1333,23 +1333,23 @@
   ) { };
   colorful-mode = callPackage (
     {
-      cl-lib ? null,
       compat,
       elpaBuild,
       fetchurl,
       lib,
+      seq,
     }:
     elpaBuild {
       pname = "colorful-mode";
       ename = "colorful-mode";
-      version = "1.2.6.0.20261016.2";
+      version = "1.2.6.0.20261126.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.6.0.20261016.2.tar";
-        sha256 = "0nhir7rs0shki8g34wgkd2pmvddakxycwjmw00xja814amv37mf0";
+        url = "https://elpa.gnu.org/devel/colorful-mode-1.2.6.0.20261126.10.tar";
+        sha256 = "0zgr3zz66lcjkv5r9l41xw17k81mbinckgg51r4xz5mlm2bk1giq";
       };
       packageRequires = [
-        cl-lib
         compat
+        seq
       ];
       meta = {
         homepage = "https://elpa.gnu.org/devel/colorful-mode.html";
@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.2.0.0.20261125.31";
+      version = "1.2.0.0.20261126.36";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261125.31.tar";
-        sha256 = "1m50alcs2c7asyszs16gch2cfk84r5x7ffm8w72fp3h3qd74dw2s";
+        url = "https://elpa.gnu.org/devel/company-1.2.0.0.20261126.36.tar";
+        sha256 = "04ycmv2wph5kr3013gspx509mwl3qz6zm4bi6lx0h0cdq2hqjqp0";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -3427,10 +3427,10 @@
     elpaBuild {
       pname = "emureader";
       ename = "emureader";
-      version = "0.4.0.0.20261125.15";
+      version = "0.4.0.0.20261126.17";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emureader-0.4.0.0.20261125.15.tar";
-        sha256 = "05qgvp3xds0s3yynp9g1qsfpf06bzm4b2rd11wwvjsk2rhm40b2w";
+        url = "https://elpa.gnu.org/devel/emureader-0.4.0.0.20261126.17.tar";
+        sha256 = "1q08cz4p8hcx855ldyzs8g5rb5rq21651w6vag51n8cng8p6bm3p";
       };
       packageRequires = [ ];
       meta = {
@@ -10838,10 +10838,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.15.0.20261011.1";
+      version = "2.15.0.20261126.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.15.0.20261011.1.tar";
-        sha256 = "1xpiixqgam7mhil9hn6ih09b4dzl10484wrdxnlvcmgmc4hx7fm2";
+        url = "https://elpa.gnu.org/devel/vertico-2.15.0.20261126.2.tar";
+        sha256 = "1h5yk8h4hjfw994zm2zdpy9p124ipgrawxkh1yqp9rjvf7ngklqz";
       };
       packageRequires = [ compat ];
       meta = {
