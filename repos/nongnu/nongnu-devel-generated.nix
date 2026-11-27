@@ -4922,10 +4922,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.5.0snapshot0.20261125.106";
+      version = "3.5.0snapshot0.20261126.111";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20261125.106.tar";
-        sha256 = "0h0h654y24i28aygsgnaryxss4qdz5kfv3h7r4p79fplv1i06bd0";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20261126.111.tar";
+        sha256 = "1f93sfnk25mv9naj8218pf83wl8w4fp2c4jr2a9378491q2z7f4n";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4943,10 +4943,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20261118.418";
+      version = "4.6snapshot0.20261126.431";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261118.418.tar";
-        sha256 = "1cxa0xqgz016xkl323fc5gfywchmphkffyiaxsdj7p0g17qqnjqi";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261126.431.tar";
+        sha256 = "1k8bgd0q9ii1qh9vm7fqkpg5bk5rnpaipa17qgdgflfm6z3csyls";
       };
       packageRequires = [ ];
       meta = {
@@ -5650,10 +5650,10 @@
     elpaBuild {
       pname = "subed";
       ename = "subed";
-      version = "1.5.5.0.20261118.1";
+      version = "1.5.5.0.20261126.8";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.5.0.20261118.1.tar";
-        sha256 = "0v1xi7l9wawgjp2gqbn0rqzybd495srpcs5ykdgpza1rafb57iqd";
+        url = "https://elpa.nongnu.org/nongnu-devel/subed-1.5.5.0.20261126.8.tar";
+        sha256 = "0126lxir89w3laswr7275daw2zpvfvy28m6pyfz4y6370java5si";
       };
       packageRequires = [ ];
       meta = {
