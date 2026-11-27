@@ -270,10 +270,10 @@
     elpaBuild {
       pname = "au-themes";
       ename = "au-themes";
-      version = "0.4.2.0.20261123.0";
+      version = "0.4.3.0.20261126.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.2.0.20261123.0.tar";
-        sha256 = "0s5lvmgipdrvr4490znhlrr60cvqnbdsg16l6nahw9ln19h4g1sf";
+        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.3.0.20261126.1.tar";
+        sha256 = "0nsw4i3jpkngwk5gzbh3vjscdc122sxfm6p4pa918yhwlnmw95ax";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -3703,10 +3703,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.16.1.0.20261105.17";
+      version = "0.16.1.0.20261127.20";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20261105.17.tar";
-        sha256 = "0vp1wm98yvwja7xmwn4w3f2gd4ihzq5llw0xb4i178c1xhgnjg0l";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.16.1.0.20261127.20.tar";
+        sha256 = "1x7x37yjylzsps4kpcr4zw89gka7nz4035vpj26qjsp70ihldy6w";
       };
       packageRequires = [
         compat
@@ -4922,10 +4922,10 @@
     elpaBuild {
       pname = "projectile";
       ename = "projectile";
-      version = "3.5.0snapshot0.20261126.111";
+      version = "3.5.0snapshot0.20261126.114";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20261126.111.tar";
-        sha256 = "1f93sfnk25mv9naj8218pf83wl8w4fp2c4jr2a9378491q2z7f4n";
+        url = "https://elpa.nongnu.org/nongnu-devel/projectile-3.5.0snapshot0.20261126.114.tar";
+        sha256 = "153334q6j52rrc9dsivngg5slq146b4pga23kx19rpq2a3lg5s48";
       };
       packageRequires = [ compat ];
       meta = {
