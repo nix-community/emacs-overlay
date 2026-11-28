@@ -1414,10 +1414,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.3.0.0.20261127.1";
+      version = "1.3.1.0.20261127.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.3.0.0.20261127.1.tar";
-        sha256 = "146sd69s914rcxdsjylvmk5dcvagg1lrzcv0k500y1ry7045x3hz";
+        url = "https://elpa.gnu.org/devel/company-1.3.1.0.20261127.2.tar";
+        sha256 = "0wkq6fg43rq72231gckpvdxiksigvnsyw78jhw74nclsbr46xg8b";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -3427,10 +3427,10 @@
     elpaBuild {
       pname = "emureader";
       ename = "emureader";
-      version = "0.4.0.0.20261126.17";
+      version = "0.4.0.0.20261128.18";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emureader-0.4.0.0.20261126.17.tar";
-        sha256 = "1q08cz4p8hcx855ldyzs8g5rb5rq21651w6vag51n8cng8p6bm3p";
+        url = "https://elpa.gnu.org/devel/emureader-0.4.0.0.20261128.18.tar";
+        sha256 = "0gg7xhgb1xsq16q35v17dygxnk7s6kq07q7jfhwvyzmadi9rah1i";
       };
       packageRequires = [ ];
       meta = {
@@ -3721,10 +3721,10 @@
     elpaBuild {
       pname = "ffs";
       ename = "ffs";
-      version = "0.2.3.0.20261024.2";
+      version = "0.2.3.0.20261127.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ffs-0.2.3.0.20261024.2.tar";
-        sha256 = "0j77nnlja8bpabv8fq03p06sasczzrblqpf0gzcpvxmsgvfa2rna";
+        url = "https://elpa.gnu.org/devel/ffs-0.2.3.0.20261127.3.tar";
+        sha256 = "15q2cjihm5jagwhaahpcqr6pv9sfszb8wgm9vpynjbg46i1q6gda";
       };
       packageRequires = [ ];
       meta = {
@@ -5462,10 +5462,10 @@
     elpaBuild {
       pname = "leaf";
       ename = "leaf";
-      version = "4.5.5.0.20261122.21";
+      version = "4.5.6.0.20261128.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/leaf-4.5.5.0.20261122.21.tar";
-        sha256 = "1b8r1gzkz20zwpv2m1h0gzpjgxla258mkj6sn6i35ba451929wk5";
+        url = "https://elpa.gnu.org/devel/leaf-4.5.6.0.20261128.0.tar";
+        sha256 = "0ja0g1gj3dpcgd71plh1h0pfsq9dwf6drzl8bn3r1yn076vxqfpp";
       };
       packageRequires = [ ];
       meta = {

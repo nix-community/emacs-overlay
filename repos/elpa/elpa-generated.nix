@@ -1394,10 +1394,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.3.0";
+      version = "1.3.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/company-1.3.0.tar";
-        sha256 = "0hgk2ik8amrg2ly5lv2p32zj92pyscq5jz3w26ryz5pgz3ckjmh3";
+        url = "https://elpa.gnu.org/packages/company-1.3.1.tar";
+        sha256 = "1prbc418mky18mb6pfj20xxbdg23f8014wd1ax3fpy973136kmky";
       };
       packageRequires = [ posframe ];
       meta = {
@@ -5380,10 +5380,10 @@
     elpaBuild {
       pname = "leaf";
       ename = "leaf";
-      version = "4.5.5";
+      version = "4.5.6";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/leaf-4.5.5.tar";
-        sha256 = "1nvpl9ffma0ybbr7vlpcj7q33ja17zrswvl91bqljlmb4lb5121m";
+        url = "https://elpa.gnu.org/packages/leaf-4.5.6.tar";
+        sha256 = "04j11qvfi9p9m15fpnik40k0q18b37axiwyipl2vwwx6b2vsv3rs";
       };
       packageRequires = [ ];
       meta = {
