@@ -721,21 +721,27 @@ let
         }
         (stringToCharacters text)).acc;
 
-  # Run tokenizeElisp' on all Elisp code blocks (with `:tangle yes`
-  # set) from an Org mode babel text. If the block doesn't have a
-  # `tangle` attribute, it's determined by `defaultArgs`.
+  # Run tokenizeElisp' on all Elisp code blocks that are set to be
+  # tangled from an Org mode babel text. A block is tangled if its
+  # `:tangle` argument is `yes`, `t`, or any file name/path string. It
+  # is skipped if the argument is `no` or `nil`. If the block
+  # doesn't have a `tangle` attribute, it's determined by `defaultArgs`.
   tokenizeOrgModeBabelElisp' = let
     isElisp = lib.flip elem [ "elisp" "emacs-lisp" ];
-    doTangle = lib.flip elem [ "yes" ''"yes"'' ];
   in defaultArgs: text:
     let
       codeBlocks =
         filter
           (block:
             let
-              tangle = toLower (block.flags.":tangle" or defaultArgs.":tangle" or "no");
+              tangle = block.flags.":tangle" or defaultArgs.":tangle" or "no";
               language = toLower block.language;
-            in isElisp language && doTangle tangle)
+              doTangle =
+                if isString tangle then
+                  toLower tangle != "no"
+                else
+                  tangle != [];
+            in isElisp language && doTangle)
           (parseOrgModeBabel text);
       in
         foldl'
