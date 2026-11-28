@@ -902,10 +902,10 @@
     elpaBuild {
       pname = "breadcrumb";
       ename = "breadcrumb";
-      version = "1.1.0.0.20261116.0";
+      version = "1.1.0.0.20261127.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/breadcrumb-1.1.0.0.20261116.0.tar";
-        sha256 = "1nibknbzq7ychs1v2di5ialq7yinrs95aq3c82hp1yvxhjdk13pf";
+        url = "https://elpa.gnu.org/devel/breadcrumb-1.1.0.0.20261127.4.tar";
+        sha256 = "16id3vslfjjr2x7mcbc3ph6bqc32mlk31scx76dg0d1aygl78n6i";
       };
       packageRequires = [ project ];
       meta = {
@@ -3292,10 +3292,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20261124.62";
+      version = "0.0.20261127.63";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261124.62.tar";
-        sha256 = "1c4va6mxh4f40zj41r4ylrz37bfjdpfbylxbqh3y9djxr3h2nyra";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261127.63.tar";
+        sha256 = "1qw7mcriqff0kykxha72qr85xpp898acryyp0is3dhrxl13bs2a7";
       };
       packageRequires = [ ];
       meta = {
@@ -6197,10 +6197,10 @@
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.5.0.20260513.113502";
+      version = "0.5.0.20261127.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minimail-0.5.0.20260513.113502.tar";
-        sha256 = "0b3npm8wsgl3nizvgvpb11i4kamg89js04nd52f28hb6f75mwjkh";
+        url = "https://elpa.gnu.org/devel/minimail-0.5.0.20261127.3.tar";
+        sha256 = "18v0naxica7hj7179zckgpp1im78241lgcyq6akls8wfna4kqx84";
       };
       packageRequires = [
         compat
