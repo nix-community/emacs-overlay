@@ -270,10 +270,10 @@
     elpaBuild {
       pname = "au-themes";
       ename = "au-themes";
-      version = "0.4.3.0.20261126.1";
+      version = "0.4.4.0.20261127.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.3.0.20261126.1.tar";
-        sha256 = "0nsw4i3jpkngwk5gzbh3vjscdc122sxfm6p4pa918yhwlnmw95ax";
+        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.4.0.20261127.0.tar";
+        sha256 = "055yhn7bld582n583gz4p18v3r6srwrpc60q34isvxd8p0vfikk4";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -3910,10 +3910,10 @@
     elpaBuild {
       pname = "markdown-ts-appear";
       ename = "markdown-ts-appear";
-      version = "0.4.1.0.20261124.0";
+      version = "0.4.1.0.20261127.9";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-ts-appear-0.4.1.0.20261124.0.tar";
-        sha256 = "04ga7i2bp6rqw9bi3mrnw8dhlpzdnh7bck35nn80l9892ya1j1f2";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-ts-appear-0.4.1.0.20261127.9.tar";
+        sha256 = "05aqlhvbda840f2vr6jnhbbdvblca3i0qyj139hppfwygx5vk7xq";
       };
       packageRequires = [ ];
       meta = {
@@ -4943,10 +4943,10 @@
     elpaBuild {
       pname = "proof-general";
       ename = "proof-general";
-      version = "4.6snapshot0.20261126.431";
+      version = "4.6snapshot0.20261127.440";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261126.431.tar";
-        sha256 = "1k8bgd0q9ii1qh9vm7fqkpg5bk5rnpaipa17qgdgflfm6z3csyls";
+        url = "https://elpa.nongnu.org/nongnu-devel/proof-general-4.6snapshot0.20261127.440.tar";
+        sha256 = "0bzhh3mn0bnkqib9r9yjs5cdfz07kwk18s6047h2wn6mhsb2bpnf";
       };
       packageRequires = [ ];
       meta = {
